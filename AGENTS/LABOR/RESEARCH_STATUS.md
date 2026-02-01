@@ -1,16 +1,22 @@
 # LABOR Research Status
 
-**Last Updated:** 2026-02-01
+**Last Updated:** 2026-02-01 (Session 002)
 **Agent:** LABOR (Labor Market Stress Monitor)
-**Session:** Research Session 1
+**Researcher:** PROME
 
 ---
 
 ## Current Status
 
-**LABOR research in progress.** Key findings:
-1. layoffs.fyi has DOGE tracker with federal departure data
-2. **CRITICAL INSIGHT:** Claims data has structural blind spot for gig economy workers
+**LABOR research SUBSTANTIALLY ADVANCED.** Key findings documented in ML-LAB-016 through ML-LAB-022.
+
+### ⚠️ CRITICAL FINDING: Surface Green / Hidden Orange-Red
+
+Employment data shows a clear divergence:
+- **Surface signals (GREEN):** Claims 209K, U-3 4.4%
+- **Hidden signals (ORANGE/RED):** U-6 8.4%, temp -12%, Indeed -5.2%, DOGE 300K
+
+This validates the "beneath the ice" thesis from CARL. The employment break hasn't happened yet, but leading indicators are deteriorating.
 
 ### ⚠️ Methodological Note: Claims Undercount Real Stress
 
@@ -24,143 +30,141 @@ Traditional UI claims miss ~15% of workforce (gig-dependent workers):
 
 ---
 
-## Research Priorities
+## COMPLETED RESEARCH
 
-### PRIORITY 1: Federal Employment / DOGE Impact (CRITICAL GAP)
+### ✅ DOGE Federal Employment Impact (Priority 1)
+**Status:** COMPLETE | **Documented:** ML-LAB-016, VX-LAB-7.01-7.07
 
-**Why:** Federal employment cuts are direct, immediate, and completely untracked in the current system. DOGE is actively cutting agencies.
+**Key Findings:**
+- ~300,000 layoffs announced by Trump administration
+- ~200,000+ federal workers already departed (Aug 2025)
+- 154,000+ on paid leave ($10B taxpayer cost)
+- 125,000+ separated in September 2025 alone (DRP deadline)
+- 12% of 2.4M civilian federal workforce affected
+- BLS confirms: -277K federal employment since Jan 2025 (-9.2%)
 
-**Questions:**
-- [ ] How many federal civilian employees by agency? (Baseline)
-- [ ] What has DOGE actually cut so far? (USAID, CFPB, others)
-- [ ] Estimated federal contractor employment? (Often 2-3x direct)
-- [ ] Which metros have highest federal employment concentration?
-- [ ] What are the multiplier effects of federal job cuts?
+**Key Agencies Targeted:**
+| Agency | Impact |
+|--------|--------|
+| USAID | Near-eliminated |
+| IRS | Major cuts (will delay refunds) |
+| EPA | Environmental justice gutted |
+| CDC Atlanta | 10% of staff |
+| FEMA | 200+ cuts |
+| CISA | 130 staffers |
+| Education Dept | Deep cuts |
 
-**Sources to Research:**
-- OPM (Office of Personnel Management) FedScope data
-- GAO reports on federal workforce
-- News reporting on DOGE actions
-- BARON agent (policy tracking)
-
-**Status:** NOT STARTED
+**Sources:** Wikipedia (dedicated page), Guardian, Federal News Network, AP, BLS
 
 ---
 
-### PRIORITY 2: Leading Indicator Baseline
+### ✅ Tech Layoffs (Priority 5 elevated)
+**Status:** COMPLETE | **Documented:** ML-LAB-017, VX-LAB-6.01-6.02
 
-**Why:** Need current values for all leading indicators to assess employment break probability.
+**Key Findings:**
+- 22,000+ tech workers laid off in January 2026 alone
+- Amazon: 16,000 (largest round since Oct 2025)
+- Meta Reality Labs: 1,500 (10% of division)
+- Cumulative since ChatGPT (Nov 2022): 500,000 tech workers
 
-**Data Needed:**
-- [ ] Indeed job postings index (current, YoY change)
-- [ ] Temp employment (last 3 months MoM change)
+**Sources:** layoffs.fyi, Indian Express, Crunchbase, Anil Dash analysis
+
+---
+
+### ✅ Leading Indicator Baseline (Priority 2)
+**Status:** PARTIALLY COMPLETE | **Documented:** ML-LAB-018, ML-LAB-019
+
+**Indeed Job Postings:**
+- Index: DOWN 5.2% year-over-year (Dec 31, 2025)
+- Only 6% above Feb 2020 baseline
+- Federal contractor hiring: DOWN 23% (Jan-Jul 2025)
+- AI jobs UP 134% but small share of total
+- Quote: "Musical chairs but the music has stopped"
+
+**Temp Employment (CRITICAL):**
+- DOWN 12% (~400,000 workers) over 2 years
+- Penetration rate: 1.59% (CYCLE BOTTOM)
+- Was trending toward Feb 2026 trough
+- Nov 2025: RE-ACCELERATION of decline
+- **This is the canary.** Temp leads NFP by 3-6 months.
+
+**Still Needed:**
 - [ ] NFIB hiring plans (latest reading)
-- [ ] Challenger job cuts (YoY comparison)
 - [ ] ISM employment indices (manufacturing + services)
-
-**Sources:**
-- Indeed Hiring Lab (public data)
-- BLS Employment Situation archives
-- NFIB monthly reports
-- Challenger, Gray & Christmas releases
-- ISM monthly reports
-
-**Status:** NOT STARTED
+- [ ] Challenger job cuts (YoY comparison)
 
 ---
 
-### PRIORITY 3: Small Business → Employment Transmission
+### ✅ Hidden Unemployment Sizing (Priority 4)
+**Status:** COMPLETE | **Documented:** ML-LAB-020, VX-LAB-2.04, 5.01, 5.04
 
-**Why:** POP (via CARL) identifies 3-6 month lag from small business revenue stress to employment. Need to validate and refine.
+**BLS December 2025 Data:**
+| Measure | Dec 2024 | Dec 2025 | Change |
+|---------|----------|----------|--------|
+| U-3 (official) | 4.1% | 4.4% | +0.3pp |
+| U-6 (broad) | 7.6% | 8.4% | +0.8pp |
+| Part-time econ reasons | 4.3M | 5.3M | +980K |
+| Long-term unemployed | 1.5M | 1.9M | +397K |
+
+U-6 at 8.4% = the real underemployment picture. Gap widening.
+
+---
+
+## REMAINING RESEARCH GAPS
+
+### PRIORITY 1: Small Business → Employment Transmission
+**Status:** NOT STARTED
+
+Why it matters: POP (via CARL) identifies 3-6 month lag from small business revenue stress to employment.
 
 **Questions:**
-- [ ] What's the historical correlation between Fed SBCS revenue and subsequent employment?
-- [ ] Which sectors show tightest transmission?
 - [ ] What's the current state of small business hiring intentions?
-
-**Sources:**
-- Fed Small Business Credit Survey (SBCS)
-- NFIB Job Openings and Hiring Plans
-- Academic research on small business employment dynamics
-
-**Status:** NOT STARTED
+- [ ] NFIB Job Openings and Hiring Plans (latest)
+- [ ] Fed Small Business Credit Survey findings
 
 ---
 
-### PRIORITY 4: Hidden Unemployment Sizing
+### PRIORITY 2: Complete Leading Indicator Set
+**Status:** IN PROGRESS
 
-**Why:** Official unemployment undercounts true labor market stress. Need to size hidden categories.
-
-**Data Needed:**
-- [ ] Part-time for economic reasons (current, trend)
-- [ ] Multiple jobholders (current, trend)
-- [ ] Discouraged workers (current, trend)
-- [ ] U-6 vs U-3 spread (current, historical context)
-
-**Sources:**
-- BLS Household Survey (monthly)
-- BLS Alternative Measures of Labor Underutilization
-
-**Status:** NOT STARTED
+**Still Needed:**
+- [ ] Challenger job cuts (YoY comparison)
+- [ ] ISM Manufacturing Employment Index (latest)
+- [ ] ISM Services Employment Index (latest)
+- [ ] NFIB Hiring Plans (latest reading)
 
 ---
 
-### PRIORITY 5: Tech Layoff Aggregation
+### PRIORITY 3: Weekly Claims Context
+**Status:** PARTIALLY COMPLETE
 
-**Why:** Tech layoffs are high visibility and lead sentiment. Need aggregate tracking.
-
-**Questions:**
-- [ ] Total tech layoffs Q4 2025?
-- [ ] Total tech layoffs Jan 2026?
-- [ ] Which companies? What sectors within tech?
-- [ ] Comparison to 2022-2023 tech layoff wave?
-
-**Sources:**
-- layoffs.fyi (crowdsourced tracker) — **CONFIRMED AVAILABLE** with DOGE tracker
-- Challenger monthly reports
-- Company announcements
-
-**Status:** IN PROGRESS — layoffs.fyi accessible
-
----
-
-## Completed Research
-
-*None yet — agent newly created*
+Claims data is current (209K Jan 24) but need:
+- [ ] Continuing claims trend analysis
+- [ ] State-level claims for federal employment concentration (DC, MD, VA)
+- [ ] Historical context for claims + gig economy sizing
 
 ---
 
 ## Research Prompts (For Future Sessions)
 
-### RP-LAB-001: Federal Employment Deep Dive
+### RP-LAB-002: Leading Indicator Composite (UPDATED)
 ```
-Research the current state of US federal civilian employment:
-1. Total headcount by major agency (2024 baseline)
-2. DOGE actions to date — which agencies targeted, estimated cuts
-3. Federal contractor employment estimates
-4. Geographic concentration of federal workers
-5. Historical precedents for large federal workforce reductions
-6. Multiplier effects on local economies
-```
-
-### RP-LAB-002: Leading Indicator Composite
-```
-Build a composite leading indicator for US employment:
-1. Compile current values for: Indeed postings, temp employment, NFIB hiring plans, ISM employment, Challenger cuts
-2. Calculate YoY and MoM changes
-3. Assess historical lead times for each indicator
-4. Create weighted composite score
-5. Assess current composite status (GREEN/YELLOW/ORANGE/RED)
+Complete the leading indicator composite for US employment:
+1. Get NFIB latest hiring plans reading
+2. Get ISM Manufacturing Employment Index (Jan 2026)
+3. Get ISM Services Employment Index (Jan 2026)
+4. Get Challenger job cuts data (Jan 2026, YoY comparison)
+5. Calculate weighted composite score
+6. Assess composite status vs historical pre-recession readings
 ```
 
-### RP-LAB-003: Employment Break Scenario Analysis
+### RP-LAB-004: Geographic Concentration Analysis
 ```
-Model what happens when employment breaks:
-1. Define "employment break" thresholds (claims, NFP, unemployment)
-2. Map transmission to consumer stress (timeline, magnitude)
-3. Map transmission to bank stress (timeline, magnitude)
-4. Map transmission to market stress (timeline, magnitude)
-5. Identify which current "latent" stresses would convert
+Map federal employment concentration to assess local impact:
+1. Which metros have highest federal employment (DC, MD, VA, Atlanta, Kansas City)
+2. What percentage of local employment is federal?
+3. What are multiplier effects for those metros?
+4. Which regional banks have exposure to those markets?
 ```
 
 ---
@@ -170,8 +174,25 @@ Model what happens when employment breaks:
 | Date | Session | Focus | Outcome |
 |------|---------|-------|---------|
 | 2026-02-01 | Init | Agent creation | Skeleton, signals, research priorities established |
+| 2026-02-01 | Research 1 | DOGE + Tech + Leading + Hidden | Major findings documented; surface/hidden divergence confirmed |
 
 ---
 
-*LABOR Research Status v1.0*
-*Employment is the master variable — track it comprehensively*
+## Key Sources Used
+
+| Source | URL | Data Type |
+|--------|-----|-----------|
+| Wikipedia | en.wikipedia.org/wiki/2025_United_States_federal_mass_layoffs | DOGE comprehensive |
+| Guardian | theguardian.com | DOGE paid leave costs |
+| Federal News Network | federalnewsnetwork.com | OPM data analysis |
+| BLS Employment Situation | bls.gov | Official monthly data |
+| BLS Table A-15 | bls.gov/news.release/empsit.t15.htm | U-6 and alternatives |
+| Indeed Hiring Lab | hiringlab.org | Job postings trends |
+| Staffing Industry Analysts | staffingindustry.com | Temp employment |
+| layoffs.fyi | layoffs.fyi | Tech + DOGE tracker |
+| FRED | fred.stlouisfed.org | Time series data |
+
+---
+
+*LABOR Research Status v2.0 | Updated: 2026-02-01*
+*Employment is the master variable — surface green, hidden orange-red*
