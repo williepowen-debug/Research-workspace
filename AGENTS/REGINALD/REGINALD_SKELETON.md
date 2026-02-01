@@ -245,6 +245,7 @@ Key Insight: Social media accelerates runs
 | VX-REG-6.07 | KEY (KeyCorp) | $21.20 (-3%) | -10% | -15% | -20% | GREEN |
 | VX-REG-6.08 | ZION (Zions) | $60.50 (-2%) | -10% | -15% | -20% | GREEN |
 | VX-REG-6.09 | **AUB (Atlantic Union)** | ~$37.00 | -10% | -15% | -20% | **YELLOW** |
+| VX-REG-6.10 | **EGBN (Eagle Bancorp)** | ~$26.76 | -10% | -15% | -20% | **ORANGE** |
 
 ### FEDERAL EMPLOYMENT EXPOSURE (NEW - Added 2026-02-01)
 
@@ -255,6 +256,7 @@ Key Insight: Social media accelerates runs
 | VX-REG-11.01 | **AUB Federal Metro Exposure** | HIGH | UCFE +200% | UCFE +400% | Credit losses rise | **YELLOW** |
 | VX-REG-11.02 | DC Metro Unemployment | 3.5% | >4.5% | >5.5% | >6.5% | GREEN (lagging) |
 | VX-REG-11.03 | DC UCFE Claims YoY | +543% | +200% | +400% | +600% | **ORANGE** |
+| VX-REG-11.04 | **EGBN Deposit Trend** | -4% QoQ | -2% | -4% | -6% | **ORANGE** |
 
 **AUB Context (Atlantic Union Bank - NYSE: AUB):**
 - Acquired Sandy Spring Bank (April 2025) — $14.4B assets, leading MD regional
@@ -263,6 +265,21 @@ Key Insight: Social media accelerates runs
 - Management claims "defense focus" insulates them — skeptical
 - **LABOR→REGINALD transmission channel:** Federal job losses → mortgage/consumer stress → credit losses
 - **Watch:** Q1/Q2 2026 credit quality, mortgage DQ in DC/MD/VA, further CRE sales
+
+**EGBN Context (Eagle Bancorp - NASDAQ: EGBN):**
+- Pure play DC/NoVA/MD community bank — $10.5B assets
+- **Dedicated government contractor lending division** (government.eaglebankcorp.com)
+- **ALREADY IN CRISIS:** Q3 2025 loss of $67.5M, CEO retiring 2026, dividend cut to $0.01
+- Q4 2025: Returned to small profit ($7.6M) but deposits DOWN 4% QoQ (flight signal)
+- **Higher risk than AUB:** Already weak from CRE losses, now faces DOGE wave
+- Stock down significantly from highs, trading at 40%+ discount to book
+- **Watch:** Deposit trends (fleeing), government contractor commentary, credit quality
+
+**Comparison:**
+| Bank | Posture | Risk Level |
+|------|---------|------------|
+| AUB | Proactive (sold $2B CRE) | YELLOW — Exposed but managed |
+| EGBN | Reactive (already in crisis) | ORANGE — Weak + exposed |
 
 ### SYSTEMIC AMPLIFIERS
 
