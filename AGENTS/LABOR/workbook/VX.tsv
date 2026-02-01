@@ -1,0 +1,32 @@
+ID	Name	Current Value	Status	Green	Yellow	Orange	Red	Last Updated	Source	Notes
+VX-LAB-1.01	Initial Claims	~220K	GREEN	<230K	230-250K	250-300K	>300K	2026-02-01	DOL Weekly	Fastest weekly signal
+VX-LAB-1.02	Continuing Claims	~1.9M	GREEN	<2.0M	2.0-2.1M	2.1-2.5M	>2.5M	2026-02-01	DOL Weekly	Duration indicator
+VX-LAB-1.03	Claims 4-Week Avg	~220K	GREEN	<230K	230-250K	250-300K	>300K	2026-02-01	DOL Weekly	Smoothed signal
+VX-LAB-1.04	Indeed Postings YoY	TBD	GAP	>0%	-5% to 0%	-10% to -5%	<-10%	2026-02-01	Indeed	Research needed
+VX-LAB-2.01	NFP (MoM)	+50K (Dec)	ORANGE	>150K	50-150K	0-50K	<0	2026-02-01	BLS Dec 2025	CRITICAL: Very weak print
+VX-LAB-2.02	Unemployment Rate	4.4%	YELLOW	<4.3%	4.3-4.5%	4.5-5.0%	>5.0%	2026-02-01	BLS Dec 2025	At upper yellow
+VX-LAB-2.03	Labor Force Participation	62.4%	YELLOW	>62.5%	62.0-62.5%	61.5-62.0%	<61.5%	2026-02-01	BLS Dec 2025	Little changed
+VX-LAB-2.04	U-6 Underemployment	Est ~8.5%	YELLOW	<7.5%	7.5-8.0%	8.0-9.0%	>9.0%	2026-02-01	BLS Dec 2025	Estimate based on PTER rise
+VX-LAB-2.05	Avg Weekly Hours	34.2	YELLOW	>34.3	34.0-34.3	33.5-34.0	<33.5	2026-02-01	BLS Dec 2025	Edged down - hours cut signal
+VX-LAB-2.06	Avg Hourly Earnings YoY	3.8%	GREEN	3-4%	2-3%	<2%	<0%	2026-02-01	BLS Dec 2025	Moderate wage growth
+VX-LAB-3.01	JOLTS Openings	7.1M	YELLOW	>8.0M	7.0-8.0M	6.0-7.0M	<6.0M	2026-02-01	BLS JOLTS Nov	Down 885K YoY
+VX-LAB-3.02	Quits Rate	2.0%	YELLOW	>2.2%	2.0-2.2%	1.6-2.0%	<1.6%	2026-02-01	BLS JOLTS Nov	Workers less confident
+VX-LAB-3.03	Layoffs Rate	1.1%	GREEN	<1.0%	1.0-1.2%	1.2-1.5%	>1.5%	2026-02-01	BLS JOLTS Nov	Slightly elevated
+VX-LAB-3.04	Openings/Unemployed	0.95	YELLOW	>1.2	1.0-1.2	0.7-1.0	<0.7	2026-02-01	Calculated	7.1M/7.5M = 0.95
+VX-LAB-4.01	Temp Employment MoM	TBD	GAP	>0%	-0.5% to 0%	-1% to -0.5%	<-1%	2026-02-01	BLS Monthly	LEADING - research needed
+VX-LAB-4.02	Challenger Cuts YoY	TBD	GAP	<+20%	+20-50%	+50-100%	>+100%	2026-02-01	Challenger	Research needed
+VX-LAB-4.03	NFIB Hiring Plans	TBD	GAP	>+10	0 to +10	-10 to 0	<-10	2026-02-01	NFIB	Research needed
+VX-LAB-4.04	ISM Employment Index	TBD	GAP	>52	48-52	45-48	<45	2026-02-01	ISM	Research needed
+VX-LAB-5.01	Part-Time Econ Reasons	5.3M	ORANGE	<4.5M	4.5-5.0M	5.0-6.0M	>6.0M	2026-02-01	BLS Dec 2025	+980K YoY - BREACHING
+VX-LAB-5.02	Multiple Jobholders	TBD	GAP	<8.5M	8.5-9.0M	9.0-10.0M	>10.0M	2026-02-01	BLS Monthly	Research needed
+VX-LAB-5.03	Discouraged Workers	461K	GREEN	<0.5M	0.5-0.7M	0.7-1.0M	>1.0M	2026-02-01	BLS Dec 2025	Down 183K in Dec
+VX-LAB-5.04	Long-Term Unemployed	1.9M	YELLOW	<1.5M	1.5-2.0M	2.0-2.5M	>2.5M	2026-02-01	BLS Dec 2025	+397K YoY, 26% of unemployed
+VX-LAB-6.01	Tech Layoffs	Elevated	YELLOW	Normal	+20% YoY	+50% YoY	+100% YoY	2026-02-01	layoffs.fyi	Research needed
+VX-LAB-6.02	Federal Employment	-277K YTD	CRITICAL	Stable	Minor cuts	Significant	Mass RIFs	2026-02-01	BLS Dec 2025	-9.2% since Jan 2025!
+VX-LAB-7.01	Total Federal Civilian	~2.0M (est)	CRITICAL	-	-	-	-	2026-02-01	BLS Dec 2025	Was 2.2M+ now ~2.0M
+VX-LAB-7.02	USAID Headcount	~0	CRITICAL	-	-	-	Eliminated?	2026-02-01	News	DOGE target - near eliminated
+VX-LAB-7.03	CFPB Headcount	<500 est	CRITICAL	-	-	-	Gutted	2026-02-01	News	DOGE target - gutted
+VX-LAB-7.04	DOE Headcount	~14K	WATCH	-	-	-	-	2026-02-01	News	DOGE target
+VX-LAB-7.05	EPA Headcount	~15K	WATCH	-	-	-	-	2026-02-01	News	DOGE target
+VX-LAB-7.06	IRS Headcount	~90K	WATCH	-	-	-	-	2026-02-01	News	DOGE target
+VX-LAB-7.07	Federal Contractors	~5M+	GAP	-	-	-	-	2026-02-01	Estimate	Multiplier effect unknown

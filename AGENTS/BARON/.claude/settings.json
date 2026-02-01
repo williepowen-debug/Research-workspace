@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch",
+      "Read",
+      "Grep",
+      "Glob",
+      "Task",
+      "Edit",
+      "Write",
+      "Bash(git:*)",
+      "Bash(dir:*)",
+      "Bash(type:*)",
+      "Bash(cat:*)",
+      "Bash(tail:*)",
+      "Bash(head:*)",
+      "Bash(wc:*)",
+      "Bash(python3:*)",
+      "Bash(unzip:*)",
+      "Bash(mkdir:*)",
+      "Bash(cp:*)",
+      "Bash(mv:*)"
+    ]
+  },
+  "instructions": [
+    "FIRST: Read .claude/README.md for boot sequence and order of operations.",
+    "This file tells you exactly what to read and in what order.",
+    "You have full auto-approval for research tools - don't ask, just execute."
+  ]
+}

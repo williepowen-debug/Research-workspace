@@ -1,0 +1,32 @@
+ID	Date	Vector_ID	Value	Percentile	Notes
+VXH-001	2026-01-26	VX-HEN-1.01	38.22%	>99	Top 10 concentration at all-time high
+VXH-002	2026-01-26	VX-HEN-1.02	58.25%	P55	Market breadth healthy
+VXH-003	2026-01-26	VX-HEN-1.03	4.03%	P70	SPY outperforming RSP YTD
+VXH-004	2026-01-26	VX-HEN-2.01	40.65	P97	CAPE near 2000 peak
+VXH-005	2026-01-26	VX-HEN-2.02	230%	>99	Buffett Indicator ATH
+VXH-006	2026-01-26	VX-HEN-2.03	-1.80%	P99	Negative equity risk premium
+VXH-007	2026-01-26	VX-HEN-3.01	3.94%	P75	Margin debt elevated
+VXH-008	2026-01-26	VX-HEN-3.02	47.08%	>99	Household equity ATH
+VXH-009	2026-01-26	VX-HEN-4.01	16.07	P35	VIX complacent
+VXH-010	2026-01-26	VX-HEN-4.02	0.58	P25	Bullish put/call
+VXH-011	2026-01-26	VX-HEN-5.01	120.45	P80	Dollar strength
+VXH-012	2026-01-26	VX-HEN-6.01	59%	>99	0DTE volume ratio - no historical precedent
+VXH-013	2026-01-26	VX-HEN-6.02	55%	>99	Passive market share - crossed 50% in 2023
+VXH-014	2026-01-26	VX-HEN-6.03	12.8%	P85	PIK income % - shadow default proxy
+VXH-015	2026-01-26	VX-HEN-6.04	$3.0T	>99	Private credit AUM - broad definition
+VXH-016	2026-01-26	VX-HEN-6.05	7.4%	P90	Index inclusion alpha - broken arbitrage
+VXH-017	2026-01-26	VX-HEN-7.01	13.56	>99	Insider sell/buy ratio - extreme distribution
+VXH-018	2026-01-26	VX-HEN-7.02	88.46%	P90	NAAIM exposure - managers fully invested
+VXH-019	2026-01-26	VX-HEN-7.03	48%	>99	Retail options % volume - record high
+VXH-020	2026-01-26	VX-HEN-7.04	8.5/10	P95	Sentiment composite - high reversal risk
+VXH-021	2026-01-26	VX-HEN-7.05	-25%	P85	Bitcoin divergence - crypto leading indicator
+VXH-022	2026-01-26	VX-HEN-7.06	2.87	P90	II Bull/Bear - matches Oct 2007
+VXH-023	2026-01-26	VX-HEN-7.07	ACTIVE	RARE	Zweig Breadth Thrust - 100% historical success
+VXH-024	2026-01-26	VX-HEN-7.08	52.85%	P40	Tech sector breadth - internal rot
+VXH-025	2026-01-26	VX-HEN-7.09	12.3%	P80	Margin debt YoY growth - accelerating
+VXH-026	2026-01-26	VX-HEN-8.01	-$800B	P10	Net equity issuance - supply shrinking (bullish)
+VXH-027	2026-01-26	VX-HEN-8.02	$1.02T	>99	Corporate buybacks - record annual rate
+VXH-028	2026-01-26	VX-HEN-8.03	+$380B	P85	Passive flow momentum - strong inflows
+VXH-029	2026-01-26	VX-HEN-8.04	STABLE	P50	401(k) flow stability - automatic bid intact
+VXH-030	2026-01-26	VX-HEN-8.05	+$150B	P75	Foreign equity demand - TINA dynamic
+VXH-031	2026-01-26	VX-HEN-8.06	5-17x	>99	Inelastic market multiplier - structural

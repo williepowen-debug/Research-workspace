@@ -1,0 +1,13 @@
+ID	Name	Target_Agent	Counter_Evidence	Current_Strength	Last_Reviewed	Notes
+VX-RED-001	Employment Resilience	CARL	Unemployment 4.1%; claims 220K; openings 7.5M+	STRONG	2026-01-27	No recession without job losses historically
+VX-RED-002	Real Wage Growth	CARL	Real wages positive 12+ months; low-income strongest	MODERATE	2026-01-27	Directly undermines cost-of-living squeeze
+VX-RED-003	Consumer Spending Resilience	CARL	Retail sales growing; holiday solid; services robust	MODERATE	2026-01-27	Behavior doesn't match stress thesis
+VX-RED-004	Japan Muddle-Through	SAM	Debt/GDP 260% for decades; BOJ owns 50%+ JGBs	MODERATE	2026-01-27	30-year track record of muddling through
+VX-RED-005	System Bank Capital	REGINALD	CET1 12.7% (820bps above minimum); JPM/BAC strong	MODERATE	2026-01-27	Individual stress ≠ system stress
+VX-RED-006	Zweig Breadth Thrust	HENRY	ZBT active; 100% historical 12-month success rate	STRONG	2026-01-27	HENRY's own data; strongest bullish signal
+VX-RED-007	Structural Bid	HENRY	$1.5T+ annual mechanical demand (HENRY Domain 8)	STRONG	2026-01-27	Counter-thesis built by HENRY itself
+VX-RED-008	CRE Forbearance Precedent	CREED	2009-2012: regulators extended 3+ years	MODERATE	2026-01-27	They did it before; tools still available
+VX-RED-009	Auto Fraud Isolation	OTTO	3 cases may be full extent; $370M is noise for large banks	WEAK	2026-01-27	Pattern real but scale uncertain
+VX-RED-010	SRF Backstop	LIQUID	$500B facility designed for exactly this scenario	MODERATE	2026-01-27	Untested at scale but exists by design
+VX-RED-011	EARNINGS vs CARL Contradiction	CROSS-AGENT	Guidance 47% positive while CARL says consumer breaking	STRONG	2026-01-27	One must be wrong or lagging
+VX-RED-012	AI Innovation Cycle	HENRY	Unlike 2000, tech leaders have massive revenues/profits	MODERATE	2026-01-27	Fundamental difference from dot-com

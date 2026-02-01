@@ -1,0 +1,19 @@
+ID	From	To	Type	Evidence	Confidence	Source	Date_Added
+E-383	N-212	N-217	ACQUIRER	Apollo acquired Bridge Investment Group for $1.5B Feb 2025	CONFIRMED	Apollo PR	2026-01-08
+E-416	N-208	N-231	FAMILY	Pulte is grandson of PulteGroup founder; primary heir; >$5M income 2024	CONFIRMED	OGE 278	2026-01-08
+E-417	N-208	N-231	POLICY_BENEFICIARY	Pulte endorsed housing ban Jan 9 2026; PHM identified as primary beneficiary	CONFIRMED	Fox Business/Market analysis	2026-01-08
+E-472	N-209	N-257	EMPLOYER	JPI Chief Visionary Officer Jun 2023-Jan 2025; $651,500 salary; 8th largest multifamily developer	CONFIRMED	OGE 278	2026-01-10
+E-473	N-209	N-265	EMPLOYER	Associate Pastor 2004-2013, returned 2021-2025; $54,625 salary; donor cultivation role	CONFIRMED	OGE 278	2026-01-10
+E-479	N-209	N-262	GIFT	Turner campaign gave WallBuilders $10,000 gift 2016 + paid for 3 conferences; Christian nationalist org	CONFIRMED	FEC	2026-01-10
+E-480	N-263	N-209	ENDORSER	David Barton endorsed Turner's 2012 TX House campaign; WallBuilders founder	CONFIRMED	Campaign records	2026-01-10
+E-481	N-209	N-208	POLICY_COORDINATION	Turner-Pulte coordination axis confirmed; both endorsed housing ban; Turner legitimizes, Pulte implements via conservator powers	CONFIRMED	Fox Business	2026-01-10
+E-482	N-209	N-269	INDUSTRY_CAPTURE	Turner's first major speech Feb 2025 at NAHB Leadership Council; pledged "cut regulations and boost supply"; NAHB endorsed confirmation	CONFIRMED	NAHB/HUD	2026-01-10
+E-483	N-257	N-267	FUND_PARTNER	JPI + Pinnacle Partners launched $200M workforce housing fund Dec 2025 (1 month before housing ban); positioned for capital redirection	CONFIRMED	Press release	2026-01-10
+E-484	N-258	N-211	FORMER_COLLEAGUE	Mayes "co-invested side by side with Blackstone" at Cephas Partners with $500M+ equity before JPI	CONFIRMED	LinkedIn	2026-01-10
+E-485	N-259	N-211	FORMER_COLLEAGUE	Fadule worked "exclusively with The Blackstone Group" at Cephas Partners before JPI	CONFIRMED	LinkedIn	2026-01-10
+E-486	N-209	N-264	SPOUSE	Scott and Robin Turner married; she is real estate agent at Patton International Properties	CONFIRMED	Public records	2026-01-10
+E-488	N-209	N-268	OZ_BENEFICIARY	Turner ran OZ program while Dan Gilbert lobbied for fraudulent Detroit designation; ProPublica exposed "corruption and corporate greed"	CONFIRMED	ProPublica	2026-01-10
+E-489	N-266	N-209	ENDORSER	Jack Graham called Turner "impeccable character"; prayed over Trump; Turner was his associate pastor for 9 years	CONFIRMED	Prestonwood	2026-01-10
+E-511	N-231	N-213	PARTNERSHIP	PHM-INVH 7,500-home Build-to-Rent partnership (2021-2026); INVH is PHM's major BTR customer; creates conflict for Pulte "ban" policy	CONFIRMED	INVH 2021 announcement, PHM investor docs	2026-01-11
+E-512	N-208	N-231	FAMILY_CONFLICT	Bill Pulte (FHFA Director) grandson of PulteGroup founder; >$5M income from PHM 2024; family holds ~9% ($1.5B); endorsed "ban" that preserves PHM-INVH BTR revenue	CONFIRMED	OGE 278, SEC filings	2026-01-11
+E-513	N-208	N-213	POLICY_BENEFITS	Pulte "ban" is actually Expand-Then-Restrict: transforms INVH from SFR buyer to BTR operator; PRESERVES PHM-INVH partnership revenue	HIGH	Pattern analysis	2026-01-11

@@ -1,0 +1,5 @@
+ID	Trigger	Transmission	Endpoint	Agents_Affected	Status	Last_Validated
+FLOW-EARN-01	>30% guidance cuts OR breadth <0.8	Analyst downgrades → Forward estimates cut → P/E compression → Wealth effect → Spending decline → More cuts	Consumer spending	CARL, HENRY	LATENT	2026-01-26
+FLOW-EARN-02	3+ Mag 7 misses OR combined growth <10%	Index earnings negative → Passive outflows → Broad selloff → Credit spreads widen → Wealth effect cascade	Market-wide; consumer	HENRY, CARL, LIQUID	ARMED	2026-01-26
+FLOW-EARN-03	>40% S&P margin compression	Input cost pressure → Layoff announcements → Consumer sentiment drop → Spending decline → Revenue misses	Employment; consumer	CARL, BARON	LATENT	2026-01-26
+FLOW-EARN-04	Bank provisions +25% QoQ	Credit deterioration signal → Spreads widen → Lending tightens → Refinancing stress → More defaults	Credit markets	REGINALD, LIQUID	MONITORING	2026-01-26

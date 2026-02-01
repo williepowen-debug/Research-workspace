@@ -1,0 +1,42 @@
+ID	Date	Event	Nodes	Tickers	Expected_Impact	Status
+CAT-001	2025-12-22	FCC foreign drone ban effective	N-022	UMAC	Positive for domestic drones	OCCURRED
+CAT-003	2026-02-XX	UMAC Q4 2025 earnings	N-022	UMAC	First full quarter post-ban	UPCOMING
+CAT-004	2026-Q1	Army 20,000-component order	N-022	UMAC	Contract expansion	UPCOMING
+CAT-006	2026-SPRING	UMAC proxy statement	N-018,N-022	UMAC	Trump Jr share count update	UPCOMING
+CAT-007	TBD	SEC response to Casten letter	N-023	DOMH	Investigation would crater stock	MONITORING
+CAT-009	TBD	Colombier III target announcement	N-046,N-018	CLBR.U	1789 next public company	PENDING
+CAT-012	ONGOING	Blue UAS certification cycle	N-022	UMAC	Certification = major catalyst	MONITORING
+CAT-019	2026-XX	SpaceX IPO (speculative)	N-027	-	1789 portfolio company	LONG-TERM
+CAT-020	2026-XX	xAI IPO (speculative)	N-027	-	1789 portfolio company	LONG-TERM
+CAT-025	2025-12-03	Blue UAS transfers to DCMA	N-022	UMAC	Certification process changes	OCCURRED
+CAT-029	TBD	Feinberg Cerberus divestiture	N-011,N-039	-	Pledged but process unclear; ethics waivers possible	MONITORING
+CAT-030	TBD	North Wind DoD contracts	N-062,N-011	-	Hypersonic testing for programs Feinberg oversees	MONITORING
+CAT-045	ONGOING	Ligado $39B lawsuit vs DOD	N-088,N-011,N-039	-	Nov 2024 Ct Fed Claims ruled can proceed; Feb 2025 interlocutory appeal granted (case 25-120); May 2025 Fed Cir accepted; Oct 2025 USTelecom amicus; case STAYED pending appeal; Feinberg profits if DoD loses/settles	CRITICAL
+CAT-046	2025	Stratolaunch Talon-A2 monthly flights	N-084,N-011	-	Goal: 1 flight/month in 2025; Pentagon MACH-TB program; Feinberg oversight	MONITORING
+CAT-047	TBD	M1 Army Flight School Next contract	N-085,N-011	-	M1 pursuing as prime contractor; would add to $849M/yr	PENDING
+CAT-048	TBD	Feinberg Ligado recusal	N-011,N-088	-	Warren demanded ethics agreement amendment Mar 2025; Feinberg committed to "screening process" only; NO public confirmation of actual recusal; divested Cerberus to trusts for adult children (Family Firewall); children still profit if DoD loses	CRITICAL GAP
+CAT-049	TBD	SubCom Navy cable contracts	N-086,N-011	-	Exclusive Navy contractor; classified work; Feinberg oversight conflict	MONITORING
+CAT-061	TBD	1789 new defense investments	N-027,N-018	-	Any new investment = predict OSC loan 84 days later	MONITORING
+CAT-062	TBD	Firehawk/Hadrian SPAC rumors	N-032,N-033	CLBR.U	CLBR.U or new vehicle; only path to trade	MONITORING
+CAT-096	2026-02-06	Hegseth 30-day underperforming contractor list	N-013	LMT,RTX,NOC,GD,BA	Must identify contractors with buybacks who are underperforming; triggers 15-day remediation	PENDING
+CAT-097	2026-03-08	Future contracts anti-buyback provisions deadline	N-013	-	All future DoD contracts must include anti-buyback provisions + exec comp tied to delivery not EPS	PENDING
+CAT-105	2026-01-08	$1.5T defense budget proposal (FY2027)	N-013	LMT,RTX,NOC,GD	50%+ increase from $901B FY2026; defense stocks surged 5-8% on announcement	OCCURRED
+CAT-106	2025-06-04	Jason Rathje leaves OSC	N-218	-	Left before any loans closed; all 1789-linked loans under successor Witt; clears Rathje as suspect	OCCURRED
+CAT-108	2025-05-14	Emil Michael confirmed as USD(R&E)	N-219	-	Former Uber exec; oversees OSC; key to loan approval chain	OCCURRED
+CAT-110	2025-07-13	xAI $200M CDAO contract	N-220	-	~90 days after 1789 investment; Forward Pattern confirmed	OCCURRED
+CAT-111	2025-04-01	Cerebras $45M DARPA contract	N-221	-	6 months BEFORE 1789 investment Sept 2025; Reverse Pattern	OCCURRED
+CAT-112	2025-10-15	Hadrian OSC loan (predicted)	N-223	-	**PREDICTION FAILED**: 1789 invested July 2025; 84-day prediction was Oct 15; Hadrian got Morgan Stanley private loan instead; 84-Day Loop does NOT apply to defense tech - only rare earths	NEGATIVE
+CAT-113	2026-01-05	Base Power OSC loan (predicted)	N-224	-	**PREDICTION FAILED**: 1789 invested Oct 2025; Day 95+ with no OSC loan; Base Power is commercial/residential battery storage - NOT defense or critical minerals; 84-Day Loop only applies to rare earths sector; Base Power is anomaly (pure commercial play)	NEGATIVE
+CAT-114	2026-03-20	Crusoe OSC loan (predicted)	N-225	-	1789 invested Dec 21 2025; 84-day prediction ~Mar 20 2026; AI infrastructure; **CAUTION**: Pattern only validated for rare earths; Crusoe is data centers/AI - may not apply; check if Crusoe has DoD contracts (Reverse Signal would apply instead)	LOW CONFIDENCE
+CAT-115	2026-05-24	Enhanced Games inaugural event (Las Vegas)	N-227	APAD	First pro-enhancement sports event; SPAC merger closes beforehand	UPCOMING
+CAT-120	QUARTERLY	1789 Capital new investments	N-027	-	**REFINED**: For rare earths = Forward Pattern (1789 invests → OSC loan); For defense tech = Reverse Pattern (DoD contract → THEN 1789 invests); For commercial = no govt loop	MONITORING
+CAT-122	2025-08-XX	Cerberus Maritime announced	N-274,N-011	HII,GD	HD Hyundai + Korea Development Bank partnership; focus on U.S. shipbuilding revitalization; competes with HII/GD for Navy contracts; Feinberg conflict	OCCURRED
+CAT-123	2025-01-XX	Stratolaunch $24.7M MDA contract	N-084,N-011	-	Missile Defense Agency hypersonic flight test campaign; Feinberg (Deputy SecDef) oversees MDA while children's trusts hold Stratolaunch	OCCURRED
+CAT-124	2025-03-XX	Votaw Precision acquired by Cerberus	N-272,N-011,N-039	-	62-year precision manufacturer; defense launch vehicles, satellites, undersea vehicles; expands Cerberus defense manufacturing footprint	OCCURRED
+CAT-125	ONGOING	Defense EO Tier 1 beneficiary contract awards	N-277,N-278,N-279,N-280,N-281,N-282,N-283	-	Watch for contract awards to: Castelion, Neros, Vannevar Labs, Rebellion Defense, Govini, Shield AI, True Anomaly; all benefit from Starve Incumbents	MONITORING
+CAT-126	ONGOING	Legacy prime contract losses	N-013	LMT,RTX,NOC,GD,BA	Track any contract cancellations, rebids, or transfers from legacy primes to insurgent defense tech; Boeing most vulnerable	MONITORING
+CAT-127	ONGOING	Brian Hook policy influence	N-284,N-039	-	Cerberus Vice Chairman + led Trump 2.0 State Dept transition; watch for Iran/Middle East policy benefiting Cerberus defense holdings	MONITORING
+CAT-137	2026-01-09	Hegseth Rocket Lab visit	N-013,N-286,N-287	RKLB	Hegseth praised RKLB as model; "rapid, scalable production"; promised "larger, longer, more predictable contracts"; Clean Cover pattern - RKLB legitimizes policy for network-connected beneficiaries	OCCURRED
+CAT-140	2025-12-19	Rocket Lab $816M SDA Tranche 3	N-286,N-290	RKLB	Largest RKLB contract ever; 18 missile tracking satellites for Golden Dome; alongside LMT, NOC, L3Harris in $3.5B award; validates insurgent company can compete with primes	OCCURRED
+CAT-141	2026-H1	Rocket Lab Neutron rocket launch	N-286,N-287	RKLB	Medium-lift rocket; first commercial missions expected 2026; critical for expanding beyond Electron to compete for larger DoD payloads	UPCOMING
+CAT-142	ONGOING	Khosla Paradox monitoring	N-289,N-288,N-286	RKLB	Watch for Khosla public statements; can't easily exit $2B+ position; anti-Trump donor benefiting from Trump policy creates political paradox	MONITORING

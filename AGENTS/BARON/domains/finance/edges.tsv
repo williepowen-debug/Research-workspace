@@ -1,0 +1,80 @@
+ID	From	To	Type	Evidence	Confidence	Source	Date_Added
+E-003	N-002	N-020	CUSTODY	$80B Tether reserves custody	CONFIRMED	Tether attestations	2025-12-24
+E-004	N-002	N-020	INVESTOR	5% Tether equity via sons	CONFIRMED	NYT	2025-12-24
+E-005	N-006	N-007	DONOR	$15M campaign contribution	CONFIRMED	FEC	2025-12-24
+E-006	N-006	N-007	ADVISOR	Mentor relationship	CONFIRMED	Public statements	2025-12-24
+E-009	N-006	N-029	INVESTOR	49.99% voting control	CONFIRMED	SEC filings	2025-12-24
+E-010	N-006	N-030	INVESTOR	Founders Fund portfolio	CONFIRMED	Founders Fund	2025-12-24
+E-011	N-006	N-038	FOUNDER	Founded Founders Fund	CONFIRMED	Public	2025-12-24
+E-025	N-005	N-028	FOUNDER	Founded Craft Ventures	CONFIRMED	Public	2025-12-24
+E-026	N-028	N-034	INVESTOR	7.8% stake	CONFIRMED	BitGo S-1	2025-12-28
+E-027	N-028	N-035	INVESTOR	Craft portfolio company	CONFIRMED	Craft website	2025-12-28
+E-028	N-028	N-036	INVESTOR	Craft portfolio company	CONFIRMED	Craft website	2025-12-28
+E-029	N-028	N-037	INVESTOR	Craft portfolio company	CONFIRMED	Craft website	2025-12-28
+E-030	N-028	N-048	INVESTOR	Led $13M Series A 2021	CONFIRMED	Press release	2025-12-28
+E-039	N-001	N-040	FOUNDER	Founded Key Square	CONFIRMED	SEC ADV	2025-12-24
+E-042	N-001	N-055	MEMBER	Bessent attends Dialog forum	CONFIRMED	Axios/ZeroHedge	2025-12-29
+E-043	N-005	N-055	MEMBER	Sacks attends Dialog forum	CONFIRMED	Axios	2025-12-29
+E-044	N-006	N-055	FOUNDER	Thiel co-founded Dialog	CONFIRMED	Axios	2025-12-29
+E-045	N-001	N-002	CO-AUTHOR	Joint sovereign wealth fund proposal May 2025	CONFIRMED	CBS	2025-12-29
+E-049	N-057	N-040	EMPLOYER	Gene Lange was Senior MD at Key Square (Bessent fund)	CONFIRMED	Treasury	2025-12-29
+E-053	N-051	N-001	DEPUTY	Theurer performs Deputy Sec duties for Bessent	CONFIRMED	Treasury	2025-12-29
+E-062	N-003	N-064	FOUNDER	Brandon Lutnick launched XXI via Cantor Equity Partners SPAC	CONFIRMED	BusinessWire Dec 2025	2025-12-31
+E-063	N-003	N-065	FOUNDER	Brandon Lutnick launching BSTR via Cantor Equity Partners 1	CONFIRMED	FT Jul 2025	2025-12-31
+E-064	N-020	N-064	INVESTOR	Tether majority owner of Twenty One Capital	CONFIRMED	SEC Filing	2025-12-31
+E-065	N-068	N-064	INVESTOR	SoftBank significant minority stake in Twenty One Capital	CONFIRMED	BusinessWire	2025-12-31
+E-066	N-066	N-065	FOUNDER	Adam Back contributing 25K BTC, will be BSTR CEO	CONFIRMED	CoinDesk Jul 2025	2025-12-31
+E-067	N-067	N-064	CEO	Jack Mallers is CEO of Twenty One Capital	CONFIRMED	SEC Filing	2025-12-31
+E-068	N-002	N-003	FAMILY	Howard Lutnick (Commerce Sec) is Brandon's father	CONFIRMED	Public	2025-12-31
+E-069	N-002	N-020	CUSTODY	Cantor Fitzgerald custodies $80B+ Tether reserves	CONFIRMED	Tether attestations	2025-12-31
+E-075	N-003	N-020	BUSINESS	Brandon's Cantor holds 5% Tether equity via family	CONFIRMED	NYT	2025-12-31
+E-076	N-064	N-020	BACKED_BY	Twenty One Capital majority owned by Tether	CONFIRMED	SEC Filing	2025-12-31
+E-077	N-070	N-069	EMPLOYER	Miran was senior strategist at Hudson Bay Feb 2024-Feb 2025	CONFIRMED	Wikipedia	2025-01-06
+E-078	N-069	N-071	FOUNDER	Miran co-founded Amberwave with Dan Katz, Thomas Dans (Treasury alums)	CONFIRMED	PRNewswire	2025-01-06
+E-079	N-069	N-001	POLICY_OVERLAP	Both control economic policy; Bessent Treasury, Miran CEA+Fed	CONFIRMED	Public	2025-01-06
+E-081	N-069	N-005	POLICY_OVERLAP	Both influence crypto/economic policy; Miran Fed+CEA, Sacks AI/Crypto Czar	CONFIRMED	WH announcements	2025-01-06
+E-082	N-073	N-072	EXECUTIVE	Gelsinger is Executive Chairman of xLight	CONFIRMED	TechCrunch	2025-01-06
+E-083	N-074	N-072	INVESTOR	Playground Global led xLight $40M Series B (Jul 2025)	CONFIRMED	Axios	2025-01-06
+E-084	N-073	N-074	PARTNER	Gelsinger is General Partner at Playground Global	CONFIRMED	Axios	2025-01-06
+E-085	N-002	N-072	GRANT_APPROVER	Lutnick Commerce gave xLight $150M CHIPS grant for equity (Dec 2025)	CONFIRMED	NIST	2025-01-06
+E-086	N-002	N-075	PROMOTER	Lutnick promoted Tesla on Fox News Mar 19 2025; CLC ethics complaint filed	CONFIRMED	WashPost	2025-01-06
+E-087	N-073	N-002	ADVISOR	Gelsinger pitched xLight to Lutnick Feb 2025 BEFORE confirmation	CONFIRMED	TechCrunch	2025-01-06
+E-125	N-074	N-095	INVESTOR	Playground Global portfolio company (Skydio)	CONFIRMED	Playground website	2026-01-06
+E-127	N-074	N-097	INVESTOR	Playground Global led PsiQuantum Series A 2016	CONFIRMED	Crunchbase	2026-01-06
+E-128	N-074	N-098	INVESTOR	Playground Global portfolio company (Relativity Space)	CONFIRMED	Playground website	2026-01-06
+E-134	N-074	N-099	INVESTOR	Playground led uAvionix Series A (2016), participated Series B (2017)	CONFIRMED	PRNewswire	2026-01-06
+E-137	N-074	N-102	INVESTOR	Playground Global portfolio company (Ayar Labs)	CONFIRMED	Playground website	2026-01-06
+E-174	N-117	N-069	POLICY_OVERLAP	Vought (OMB) + Miran (CEA) coordinate economic/budget policy	HIGH	Circumstantial	2026-01-06
+E-175	N-117	N-001	POLICY_OVERLAP	Vought (OMB) + Bessent (Treasury) coordinate fiscal policy	HIGH	Circumstantial	2026-01-06
+E-177	N-122	N-005	POLICY_OVERLAP	Atkins (SEC) + Sacks (Crypto Czar) coordinate crypto regulation; Sacks called them "dream team"	CONFIRMED	CoinDesk	2026-01-06
+E-180	N-122	N-126	FOUNDER	Atkins founded Patomak 2009; was CEO until Apr 2025; firm valued $25-50M	CONFIRMED	OGE 278	2026-01-06
+E-182	N-122	N-127	INVESTOR	Atkins held $250K-$500K equity in Anchorage Digital	CONFIRMED	OGE 278	2026-01-06
+E-183	N-122	N-128	LP	Atkins was LP in Off the Chain Capital with $1-5M stake	CONFIRMED	OGE 278	2026-01-06
+E-187	N-122	N-003	CONFLICT	Atkins' SEC must approve Securitize SPAC; Atkins had Securitize stake + knew company	HIGH	Circumstantial	2026-01-06
+E-188	N-005	N-034	INVESTOR	Sacks' Craft Ventures holds 7.8% of BitGo; Atkins' SEC regulates BitGo IPO	CONFIRMED	BitGo S-1	2026-01-06
+E-294	N-169	N-168	OPERATOR	Steve Davis was day-to-day leader of DOGE; left May 2025 but still influential	CONFIRMED	Wikipedia	2026-01-07
+E-295	N-170	N-168	ADMINISTRATOR	Amy Gleason is Acting Administrator of USDS/DOGE	CONFIRMED	PBS	2026-01-07
+E-297	N-172	N-168	TEAM_LEAD	Thomas Krause is DOGE Team Lead at Treasury; leads payment system	CONFIRMED	NYSD Court	2026-01-07
+E-298	N-173	N-168	STAFF	Edward Coristine DOGE staffer at CISA; alleged cybercrime links	CONFIRMED	Guardian	2026-01-07
+E-299	N-174	N-168	STAFF	Kyle Schutt accessed FEMA financial system source code	CONFIRMED	CyberPress	2026-01-07
+E-300	N-175	N-168	STAFF	Noah Peters at OPM; P2025 author; ghostwrote firing memos	CONFIRMED	RevolvingDoor	2026-01-07
+E-301	N-176	N-168	ADVISOR	Mike Gonzalez Heritage Fellow at OPM for DOGE	CONFIRMED	Wikipedia	2026-01-07
+E-302	N-177	N-168	STAFF	Brian Bjelde SpaceX exec embedded at OPM	CONFIRMED	Wikipedia	2026-01-07
+E-304	N-179	N-168	TEAM_LEAD	Adam Ramada DOGE Team Lead at Education/Labor	CONFIRMED	Wikipedia	2026-01-07
+E-305	N-168	N-186	BENEFICIARY	SpaceX received $5.9B Space Force + $845M Lane 2 during DOGE	CONFIRMED	Lynch/Connolly	2026-01-07
+E-306	N-168	N-029	BENEFICIARY	Palantir received $10B Army Enterprise Agreement Jul 2025	CONFIRMED	FedSavvy	2026-01-07
+E-307	N-168	N-030	BENEFICIARY	Anduril received $642M Navy + $200M Marine Corps during DOGE	CONFIRMED	Anduril PR	2026-01-07
+E-309	N-180	N-055	CO_FOUNDER	Auren Hoffman co-founded Dialog Forum with Thiel in 2006	CONFIRMED	Wikipedia	2026-01-07
+E-323	N-117	N-168	INSTITUTIONALIZER	Vought (OMB) institutionalizing DOGE functions at agencies	CONFIRMED	FedScoop	2026-01-07
+E-329	N-181	N-122	BENEFICIARY	Winklevoss twins (Gemini) benefit from Atkins SEC crypto stance	HIGH	Circumstantial	2026-01-07
+E-334	N-074	N-187	INVESTOR	Playground Global led Vertical Semiconductor $11M seed (Oct 2025)	CONFIRMED	BusinessWire	2026-01-07
+E-335	N-074	N-188	INVESTOR	Playground Global portfolio company (d-Matrix)	CONFIRMED	TechCrunch	2026-01-07
+E-374	N-206	N-030	FOUNDER	Palmer Luckey founded Anduril 2017	CONFIRMED	Wikipedia	2026-01-08
+E-375	N-207	N-030	CO_FOUNDER_CHAIR	Trae Stephens co-founded Anduril 2017; Executive Chairman	CONFIRMED	Anduril	2026-01-08
+E-376	N-207	N-038	PARTNER	Stephens is Founders Fund partner since 2014	CONFIRMED	Founders Fund	2026-01-08
+E-377	N-038	N-030	INVESTOR	Founders Fund led $2.5B Series G June 2025 ($1B of round)	CONFIRMED	TechCrunch	2026-01-08
+E-426	N-038	N-030	INVESTOR	Founders Fund led Anduril $2.5B Series G ($1B of round) June 2025	CONFIRMED	TechCrunch	2026-01-08
+E-427	N-001	N-301	SELECTOR	Bessent led Fed Chair search; recommended Warsh to Trump	CONFIRMED	CNBC/CBS	2026-01-30
+E-428	N-302	N-301	COLLEAGUE	Druckenmiller and Warsh colleagues at Hoover Institution; macro alignment	CONFIRMED	CNBC	2026-01-30
+E-429	N-302	N-303	FOUNDER	Druckenmiller runs Duquesne Family Office	CONFIRMED	Public	2026-01-30
+E-430	N-301	N-069	POLICY_OVERLAP	Both Warsh (Fed Chair nominee) and Miran (Fed Governor nominee) would serve on Fed; unprecedented WH influence	HIGH	Circumstantial	2026-01-30

@@ -1,0 +1,20 @@
+Date	Vector_ID	Value	Status	Notes
+2026-01-25	VX-LIQUID-1.01	+3bps	GREEN	Initial value
+2026-01-25	VX-LIQUID-1.02	$2.5B	RED	Initial value - at floor
+2026-01-25	VX-LIQUID-1.03	$42.4B	YELLOW	Initial value
+2026-01-25	VX-LIQUID-1.04	$74.6B (peak)	ORANGE	Initial value - Dec 31 2025 record SRF usage
+2026-01-25	VX-LIQUID-1.05	~$200B	ORANGE	Initial value - Dealers stuffed with collateral
+2026-01-25	VX-LIQUID-1.06	~$2.48T	GREEN	Initial value - Sponsored repo at peak levels
+2026-01-25	VX-LIQUID-2.01	2.55x	GREEN	Updated from research - Jan 12 10Y auction
+2026-01-25	VX-LIQUID-2.02	69.5%	GREEN	Updated from research - Jan 12 10Y auction (second highest ever)
+2026-01-25	VX-LIQUID-2.03	0bps	GREEN	Initial value - Jan auctions stopped through
+2026-01-25	VX-LIQUID-3.01	Normal	GREEN	Initial value
+2026-01-25	VX-LIQUID-4.01	-45bps	GREEN	Initial value
+2026-01-25	VX-LIQUID-5.01	~40 days	GREEN	Initial value - MMF WAM normal
+2026-01-25	VX-LIQUID-5.02	$1.85T	YELLOW	Initial value - Basis trade exposure (lagged SEC Form PF data)
+2026-01-25	VX-LIQUID-6.01	115bps	GREEN	Initial value - CLO AAA spread (REGINALD signal: >150bps triggers BDC→FHLB)
+2026-01-25	VX-LIQUID-1.01	-1bp	GREEN	VERIFIED: SOFR 3.64% vs IORB 3.65%. Post year-end normalization from +3bps.
+2026-01-25	VX-LIQUID-1.02	$1.96B	RED	VERIFIED: H.4.1 domestic ON RRP ("Others") week ended Jan 21. Buffer remains ZERO.
+2026-01-25	VX-LIQUID-2.01	2.554x	GREEN	VERIFIED: Jan 13 10Y auction. Strong vs 6-mo avg of 2.51x.
+2026-01-25	VX-LIQUID-2.02	69.5%	GREEN	VERIFIED: Jan 13 10Y indirect bid. Second highest ever.
+2026-01-25	VX-LIQUID-2.03	Stopped through	GREEN	VERIFIED: Jan 13 10Y auction stopped through. Excellent demand.

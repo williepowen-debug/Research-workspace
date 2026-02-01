@@ -1,0 +1,5 @@
+ID	Target_Date	Catalyst	Expected_Impact	Vectors_Affected	Status	Added_Session	Notes
+FL-REITS-001	2026-Q1	Office REIT Earnings	Dividend coverage test; NOI trends; guidance	VX-REITS-002, VX-REITS-004	PENDING	000	SLG, BXP, VNO earnings critical for sector direction
+FL-REITS-002	Ongoing	Fed Rate Path	Rate cuts would boost REIT valuations; rate increases would pressure	VX-REITS-001, VX-REITS-005	WATCHING	000	Link to LIQUID for rate trajectory
+FL-REITS-003	2026-Q1	mREIT Book Value Reports	Quarterly BV update; dividend sustainability	VX-REITS-003	PENDING	000	AGNC, NLY Q4 reports
+FL-REITS-004	Ongoing	Tariff Impact on Office	Potential layoffs from tariffs could reduce office demand further	VX-REITS-002, VX-REITS-006	WATCHING	000	Link to BARON for tariff policy; CARL for employment

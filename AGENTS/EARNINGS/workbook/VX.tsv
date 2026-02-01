@@ -1,0 +1,9 @@
+Vector_ID	Name	Category	Current_Value	Yellow	Orange	Red	Status	Confidence	Last_Updated	Source	Notes
+VX-EARN-001	EPS Beat Rate	Beat Rate	75%	<72%	<68%	<60%	YELLOW	80%	2026-01-30	FactSet	~25% reported; below 5Y avg (78%). Mag 7 beating supports eventual improvement.
+VX-EARN-002	Positive Guidance %	Guidance	47%	<42%	<35%	<25%	GREEN	80%	2026-01-26	FactSet	Above 5Y avg (42%) and 10Y avg (40%). Constructive forward outlook.
+VX-EARN-003	Revision Breadth	Revisions	~1.0	<0.9	<0.8	<0.7	GREEN	75%	2026-01-26	Bloomberg	Balanced up/down ratio. Stable.
+VX-EARN-004	Net Margin Trend	Margins	Stable	-25bps	-50bps	-100bps	GREEN	70%	2026-01-26	FactSet	Watching tariff impact. No compression yet.
+VX-EARN-005	Mag 7 Growth	Concentration	3 BEAT / 1 MIXED (4/7)	<15%	<10%	<5%	GREEN	85%	2026-01-30	FactSet/Reports	AAPL record +16%, MSFT +17%, META +24%, TSLA -3%. 3 pending (GOOGL, AMZN, NVDA).
+VX-EARN-006	Consumer Guidance	Sectors	Mixed	Negative trend	>30% cuts	>40% cuts	YELLOW	70%	2026-01-26	Company Reports	WMT, TGT critical. Link to CARL.
+VX-EARN-007	Bank Provisions	Financials	Stable	+15% QoQ	+25% QoQ	+35% QoQ	GREEN	75%	2026-01-26	Bank Reports	JPM, BAC reported; provisions stable. Consumer credit commentary benign.
+VX-EARN-008	Blended EPS Growth	Growth	+8.2%	<5%	<0%	<-5%	GREEN	80%	2026-01-26	FactSet	10th consecutive growth quarter. 2026 expected +14.9%.

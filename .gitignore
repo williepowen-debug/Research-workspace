@@ -1,0 +1,21 @@
+# Sensitive files
+*.key
+*.pem
+*secret*
+*token*
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temp files
+*.tmp
+*.swp
+*~
+
+# Node
+node_modules/
+
+# Logs that shouldn't be versioned
+*.log

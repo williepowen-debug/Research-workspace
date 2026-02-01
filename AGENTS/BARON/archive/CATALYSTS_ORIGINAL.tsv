@@ -1,0 +1,143 @@
+ID	Date	Event	Nodes	Tickers	Expected_Impact	Status
+CAT-001	2025-12-22	FCC foreign drone ban effective	N-022	UMAC	Positive for domestic drones	OCCURRED
+CAT-002	2026-01-XX	DJT January options expiry	-	DJT	1.65 P/C ratio bearish	UPCOMING
+CAT-003	2026-02-XX	UMAC Q4 2025 earnings	N-022	UMAC	First full quarter post-ban	UPCOMING
+CAT-004	2026-Q1	Army 20,000-component order	N-022	UMAC	Contract expansion	UPCOMING
+CAT-005	2026-Q1	TAE Technologies merger vote	-	DJT	$6B valuation for pre-revenue	UPCOMING
+CAT-006	2026-SPRING	UMAC proxy statement	N-018,N-022	UMAC	Trump Jr share count update	UPCOMING
+CAT-007	TBD	SEC response to Casten letter	N-023	DOMH	Investigation would crater stock	MONITORING
+CAT-008	2026-Q1	BitGo IPO pricing	N-034,N-005,N-028	BTGO	S-1 filed Sep 2025, amended Nov 2025; Goldman+Citi lead; Sacks 7.8% ($130M+); OCC bank charter Dec 2025; GENIUS Act beneficiary; Atkins SEC approves	PENDING
+CAT-009	TBD	Colombier III target announcement	N-046,N-018	CLBR.U	1789 next public company	PENDING
+CAT-010	2026-Q1	Firehawk OSC loan	N-032,N-012,N-027	-	**PREDICTION REVISED**: Reverse Signal pattern - USAF contract Aug 2025 PRECEDED 1789 investment Sep 2025; 1789 invests AFTER contracts for defense tech, not before; OSC loan unlikely as 84-Day Loop only applies to rare earths	N/A
+CAT-011	2026-Q1-Q2	Hadrian OSC loan	N-033,N-012,N-027,N-038	-	**PREDICTION FAILED**: Hadrian received Morgan Stanley factory expansion loan (private capital), NOT OSC loan; 84-Day Loop does not apply to defense tech - only rare earths; Reverse Signal more likely (DoD contracts → THEN 1789 invests)	NEGATIVE
+CAT-012	ONGOING	Blue UAS certification cycle	N-022	UMAC	Certification = major catalyst	MONITORING
+CAT-013	ONGOING	Congressional oversight hearings	ALL	-	Headline risk	MONITORING
+CAT-014	ONGOING	Investigative journalism	ALL	-	FT, Popular Information active	MONITORING
+CAT-015	2025-11-21	Vulcan Elements OSC loan	N-031,N-012,N-027	-	$620M loan; **84-Day Loop CONFIRMED for rare earths**: 1789 invested Aug 2025 → OSC loan Nov 2025 = ~84 days; Thiel's Founders Fund + Lux Capital co-investors; rare earth magnets for defense	OCCURRED
+CAT-016	2025-09-XX	Anduril OSC loan	N-030,N-012,N-006	-	$159M loan; Thiel portfolio	OCCURRED
+CAT-017	TBD	GENIUS Act passage	N-034,N-005	BTGO	Stablecoin regulation benefits BitGo	MONITORING
+CAT-018	TBD	SAB 121 repeal	N-034,N-005	BTGO	Crypto custody deregulation	MONITORING
+CAT-019	2026-XX	SpaceX IPO (speculative)	N-027	-	1789 portfolio company	LONG-TERM
+CAT-020	2026-XX	xAI IPO (speculative)	N-027	-	1789 portfolio company	LONG-TERM
+CAT-021	2025-12-15	Bessent divestiture deadline	N-001	SPY,RSP,QQQ	Ethics compliance or extension request	MONITORING
+CAT-022	2025-10-21	1789 Treasury AI Summit	N-001,N-027	-	Access selling scandal exposure	OCCURRED
+CAT-023	2025-06-06	Trump Drone Dominance EO	N-022,N-060	UMAC	Domestic drone industry boost	OCCURRED
+CAT-024	2025-07-10	Hegseth Drone Memo	N-022,N-060	UMAC	Blue UAS expansion, procurement acceleration	OCCURRED
+CAT-025	2025-12-03	Blue UAS transfers to DCMA	N-022	UMAC	Certification process changes	OCCURRED
+CAT-026	TBD	GENIUS Act implementation	N-058,N-034	BTGO,GLXY	Stablecoin regulation benefits Galaxy, BitGo	MONITORING
+CAT-027	2025-12-09	Twenty One Capital NYSE debut	N-064,N-003,N-020	XXI	Dropped 20-25% first day; trading ~$11	OCCURRED
+CAT-028	TBD	BSTR Holdings merger close	N-065,N-003,N-066	CEPO	30K+ BTC treasury; third largest corporate holder	PENDING
+CAT-029	TBD	Feinberg Cerberus divestiture	N-011,N-039	-	Pledged but process unclear; ethics waivers possible	MONITORING
+CAT-030	TBD	North Wind DoD contracts	N-062,N-011	-	Hypersonic testing for programs Feinberg oversees	MONITORING
+CAT-031	TBD	Trumbull SAM renewal check	N-060,N-056,N-061	-	Expired Mar 2023; may have renewed or operating as sub	GAP
+CAT-032	TBD	JR Gibbens OGE 278 disclosure	N-056	-	Core ethics question on Trumbull equity	CRITICAL GAP
+CAT-033	TBD	Dyan Gibbens DARPA ethics filing	N-061	-	Recusals from Trumbull-adjacent decisions	CRITICAL GAP
+CAT-034	QUARTERLY	Hudson Bay Capital 13F filing	N-070,N-069	NVDA,TSLA,IBIT	Monitor for tariff/rate positioning signals; Miran wrote their tariff playbook	MONITORING
+CAT-035	ONGOING	Fed rate decisions	N-069,N-001	-	Miran dual role (CEA+Fed) enables WH coordination on rates; first in Fed history	MONITORING
+CAT-036	TBD	Warren ethics investigation follow-up	N-069	-	Spouse ECPI income discrepancy ($1.4M vs $457K); for-profit education conflict	MONITORING
+CAT-037	ONGOING	Lutnick ethics investigation	N-002,N-075	TSLA	CLC complaint re Tesla pump on Fox News; ~$840M family exposure	MONITORING
+CAT-038	TBD	xLight CHIPS grant finalization	N-072,N-073,N-002	-	$150M govt equity stake; first Trump-era CHIPS R&D award	PENDING
+CAT-039	ONGOING	CHIPS Act renegotiations	N-002	INTC,MU	Lutnick demanding equity stakes from Intel, Micron, TSMC, Samsung	MONITORING
+CAT-040	2026-06	Electronic Arts acquisition close	N-083,N-077,N-078,N-184	EA	$55B largest LBO ever; PIF 93.4%, Silver Lake 5.5%, Kushner 1.1%; Ferguson FTC must approve; Ferguson met MBS at Exec Branch Club Nov 2025	PENDING
+CAT-041	ONGOING	Wyden Affinity Partners investigation	N-076,N-077,N-078	-	Senate probe of foreign govt money to Trump family; $87M fees, zero returns	MONITORING
+CAT-042	RESOLVED	Wright ethics waiver decision	N-080,N-081,N-082	LBRT,OKLO	Wright divested LBRT $50M Feb 2025; forfeited Oklo RSUs; 1yr Oklo recusal; BUT Markey alleges conflict re plutonium/reprocessing; DOE says "compliant"; created policies benefiting Oklo anyway	MONITORING
+CAT-043	ONGOING	Saudi $600B investment tracking	N-078,N-079	-	Needs higher oil to fund; tracking actual vs pledged investment flows	MONITORING
+CAT-044	ONGOING	OPEC+ production decisions	N-079	-	MBS controlling supply to keep prices low for Trump; hurts US shale	MONITORING
+CAT-045	ONGOING	Ligado $39B lawsuit vs DOD	N-088,N-011,N-039	-	Nov 2024 Ct Fed Claims ruled can proceed; Feb 2025 interlocutory appeal granted (case 25-120); May 2025 Fed Cir accepted; Oct 2025 USTelecom amicus; case STAYED pending appeal; Feinberg profits if DoD loses/settles	CRITICAL
+CAT-046	2025	Stratolaunch Talon-A2 monthly flights	N-084,N-011	-	Goal: 1 flight/month in 2025; Pentagon MACH-TB program; Feinberg oversight	MONITORING
+CAT-047	TBD	M1 Army Flight School Next contract	N-085,N-011	-	M1 pursuing as prime contractor; would add to $849M/yr	PENDING
+CAT-048	TBD	Feinberg Ligado recusal	N-011,N-088	-	Warren demanded ethics agreement amendment Mar 2025; Feinberg committed to "screening process" only; NO public confirmation of actual recusal; divested Cerberus to trusts for adult children (Family Firewall); children still profit if DoD loses	CRITICAL GAP
+CAT-049	TBD	SubCom Navy cable contracts	N-086,N-011	-	Exclusive Navy contractor; classified work; Feinberg oversight conflict	MONITORING
+CAT-050	2026-01	Maduro captured by US forces	N-089,N-080,N-092,N-093,N-094	CVX,COP,XOM	Oil stocks rallied; CVX +5.1%, HAL/SLB +10%+	OCCURRED
+CAT-051	ONGOING	Venezuela oil infrastructure investment	N-089,N-080,N-090	CVX,COP,XOM,LBRT	$100-183B needed; Wright/Burgum leading; decade timeline	MONITORING
+CAT-052	ONGOING	Raskin/Wyden $1B quid pro quo investigation	N-090,N-089	-	Probing Apr 2024 Mar-a-Lago meeting; Continental $1M donation	MONITORING
+CAT-053	TBD	ConocoPhillips $10B Venezuela recovery	N-093	COP	Arbitration award from 2007 expropriation; could be paid under new regime	MONITORING
+CAT-054	TBD	ExxonMobil $2.6B Venezuela recovery	N-094	XOM	Claims from expropriation; CEO cautious on re-entry	MONITORING
+CAT-055	ONGOING	Wright Goldman Sachs Miami meetings	N-080,N-092,N-093,N-094	CVX,COP,XOM	Meeting oil execs on Venezuela; industry reluctant	MONITORING
+CAT-056	2025-12-22	Velo3D Project FORGE contract	N-096,N-074	VLD	$32.6M DoD contract; munitions bottleneck; Anduril supplier	OCCURRED
+CAT-057	2026-H1	Velo3D EBITDA breakeven	N-096	VLD	Management guidance; defense pivot validation	UPCOMING
+CAT-058	ONGOING	Velo3D additional DoD contracts	N-096	VLD	Navy CRADA, Army Raytheon initiative; Anduril partnership expansion	MONITORING
+CAT-059	ONGOING	Playground portfolio OSC eligibility	N-074,N-095,N-097,N-098	-	Skydio, PsiQuantum, Relativity Space all have defense exposure; watch for applications	MONITORING
+CAT-060	QUARTERLY	OSC loan announcements	N-012,N-027	-	Check cto.mil/osc weekly; 1789 investments = 84-day countdown	MONITORING
+CAT-061	TBD	1789 new defense investments	N-027,N-018	-	Any new investment = predict OSC loan 84 days later	MONITORING
+CAT-062	TBD	Firehawk/Hadrian SPAC rumors	N-032,N-033	CLBR.U	CLBR.U or new vehicle; only path to trade	MONITORING
+CAT-063	2025-11-24	Trump opposes ownership cap lift (Truth Social)	N-118,N-165	SBGI,NXST	Stocks cratered; Trump sided with Ruddy over Sinclair/Nexstar	OCCURRED
+CAT-064	2025-12-17	FCC ownership cap initial comments closed	N-118,N-137,N-144	SBGI,NXST	Broadcasters submitted arguments for/against cap change	OCCURRED
+CAT-065	2025-12-31	Tegna merger Petition to Deny deadline	N-144,N-153	NXST,TGNA	Opposition filings due	OCCURRED
+CAT-066	2026-01-16	FCC ownership cap reply comments close	N-118,N-137,N-144	SBGI,NXST	Final round of FCC input	UPCOMING
+CAT-067	2026-H1	FCC ownership cap ruling (Sinclair CEO prediction)	N-118,N-146	SBGI,NXST,SSP,TGNA	Ripley predicts Carr eliminates cap H1 2026; but Trump opposed	PENDING
+CAT-068	2026-07-12	Tegna merger expected close (range: Jul-Dec 2026)	N-144,N-153	NXST,TGNA	Needs FCC approval + cap waiver; shareholders approved Nov 2025	PENDING
+CAT-069	ONGOING	Trump vs Carr ownership cap tension	N-118,N-165	SBGI,NXST	Key question: Does Carr defy Trump, or wait for reversal?	CRITICAL
+CAT-070	2026-H1	Securitize SPAC close (CEPT→SECZ)	N-122,N-125,N-003	CEPT,SECZ	$1.25B valuation; S-4 filed Nov 2025; CEO said "as soon as January"; Atkins conflict (held board+options, divested, no recusal); Brandon Lutnick SPAC	PENDING
+CAT-071	TBD	Atkins Securitize recusal decision	N-122,N-125	CEPT,SECZ	Warren demanded recusal; Atkins divested but SEC reviews S-4; no public recusal statement found	CRITICAL GAP
+CAT-072	2025-12-XX	BitGo OCC national bank charter	N-034,N-005	BTGO	BitGo Bank & Trust N.A. approved; same tier as major banks; GENIUS Act authorizes stablecoin issuance	OCCURRED
+CAT-073	TBD	BitGo IPO roadshow	N-034,N-005,N-028	BTGO	Watch for pricing range announcement; Goldman+Citi leading	MONITORING
+CAT-074	TBD	Ferguson EA/PIF recusal question	N-184,N-083,N-078	EA	Ferguson socialized with MBS at Exec Branch Club; now reviews MBS's $55B EA acquisition; petition filed demanding FTC scrutiny	CRITICAL GAP
+CAT-075	ONGOING	Loeffler Hatch Act complaint	N-189	-	Public Citizen filed complaint alleging electioneering while on duty during 2025 govt shutdown	MONITORING
+CAT-076	ONGOING	SBA DOGE workforce cuts	N-189	-	43% reduction (2,700 jobs); regional office closures in sanctuary cities; $435M annual savings claimed	MONITORING
+CAT-077	TBD	Loeffler ICE/NYSE divestiture status	N-189,N-190,N-191	ICE	No public evidence Loeffler divested ICE holdings for SBA role; spouse still CEO; Family Firewall pattern	CRITICAL GAP
+CAT-078	TBD	Bakkt Trump Media deal revival	N-192,N-189	BKKT,DJT	Deal fell through Nov 2024; if revived, Loeffler's husband's company (55% owner) benefits while she's Cabinet	MONITORING
+CAT-079	2025-11-25	Polymarket CFTC approval	N-193,N-191,N-190	-	ICE invested $2B Oct 8 → CFTC approved Nov 25 (7 weeks); suspicious timing; Sprecher wife is Cabinet; $10.9M Trump donations	OCCURRED
+CAT-080	ONGOING	ICE regulatory treatment monitoring	N-191,N-190,N-189	ICE	ICE regulated by SEC (Atkins) + CFTC; CEO's wife is Cabinet member; watch for favorable rulings/approvals	MONITORING
+CAT-081	TBD	ICE MoonPay investment	N-191,N-194,N-195	-	ICE in talks to invest at ~$5B valuation; Pham joining MoonPay as CLO; ICE invests → Pham works there = revolving door completion	CRITICAL
+CAT-082	2025-12-22	Pham leaves CFTC for MoonPay	N-194,N-195	-	Better Markets: "brazen conflicts"; accepted MoonPay job while approving crypto-friendly policies; Sprecher + Coplan on her CEO Innovation Council	OCCURRED
+CAT-083	TBD	CEO Innovation Council influence	N-194,N-190,N-193	-	Regulated CEOs (Sprecher, Coplan) advising regulator (Pham) on policy affecting their companies; textbook capture	MONITORING
+CAT-084	BLOCKED	Student loans → SBA transfer	N-189,N-190,N-191	-	$1.6T portfolio (43M borrowers) to Loeffler's SBA; blocked by courts May 2025; Trump appealing; if approved, spouse's ICE/AMERIBOR infrastructure could benefit from servicing/securitization	CRITICAL
+CAT-085	ONGOING	Markey investigation of Wright/Oklo	N-080,N-082	OKLO	Markey alleges conflict re 20 MT weapons-usable plutonium transfer + $1.7B Oklo reprocessing plant; demands recusal docs; DOE says "compliant"	MONITORING
+CAT-086	2025-05-23	Trump nuclear EOs	N-080,N-082	OKLO	4 EOs bypassing NRC; DOE authority to approve reactors; 47 regs eliminated; Oklo CEO DeWitte in Oval Office for signing; Reactor Pilot Program created	OCCURRED
+CAT-087	2025-05-14	Qatar jet memo lawsuit	N-196,N-199	-	American Oversight suing DOJ for withholding Bondi memo approving $400M Qatar jet; Bondi was Qatar's FARA agent; Durbin investigating	ONGOING
+CAT-088	2026-02-04	Bondi Ballard recusal expiration	N-196,N-197	-	1-year recusal from Ballard Partners matters expires Feb 4, 2026; after that, can directly participate in matters involving former clients	PENDING
+CAT-089	ONGOING	Ballard Partners DOJ lobbying surge	N-197,N-196	-	$690K from 8 clients Q2 2025 for DOJ lobbying; all but one signed post-Bondi nomination; AmEx GBT antitrust case dismissed after hiring Ballard	MONITORING
+CAT-090	ONGOING	GEO Group recusal demand	N-196,N-198	GEO	Durbin demands Bondi recuse from GEO matters; GEO has $1B+ ICE contracts; Bondi lobbied for GEO $390K; failed to disclose at confirmation	MONITORING
+CAT-091	ONGOING	Warner Bros merger recusal demand	N-196,N-197	-	Warren/Blumenthal demand Bondi recuse from WB deal review; Ballard clients involved; "cloud of corruption"	MONITORING
+CAT-092	2025-04-07	Blanche crypto enforcement memo	N-200	-	Ended crypto enforcement + disbanded National Crypto Enforcement Team WHILE holding $159K-$485K crypto; divested to children later (Family Firewall)	OCCURRED
+CAT-093	ONGOING	Wiles family lobbying network	N-202,N-203,N-204	-	Both Wiles daughters promoted to lobbying firms after mother became CoS; former Wiles clients meeting WH staff; Schiff investigating WH ballroom donors	MONITORING
+CAT-094	2025-07-29	Bove lifetime judgeship confirmed	N-201	-	Confirmed 50-49 despite 900 former DOJ lawyers opposing; whistleblower allegations; Trump's personal lawyer now lifetime appellate judge	OCCURRED
+CAT-095	2026-01-07	Trump Defense Contractor Buyback EO signed	N-013,N-011,N-206,N-207	LMT,RTX,NOC,GD	Bans buybacks/dividends for underperforming contractors; $5M exec pay cap; RTX specifically targeted; "Starve Incumbents, Feed Insurgents" pattern	OCCURRED
+CAT-096	2026-02-06	Hegseth 30-day underperforming contractor list	N-013	LMT,RTX,NOC,GD,BA	Must identify contractors with buybacks who are underperforming; triggers 15-day remediation	PENDING
+CAT-097	2026-03-08	Future contracts anti-buyback provisions deadline	N-013	-	All future DoD contracts must include anti-buyback provisions + exec comp tied to delivery not EPS	PENDING
+CAT-098	2026-SUMMER	Anduril Arsenal-1 plant production begins	N-030,N-206,N-207	-	$900M Columbus OH facility; demonstrates defense tech startup manufacturing capability	PENDING
+CAT-099	2026-01-07	Trump Housing Investor Ban announced	N-208,N-209,N-210,N-211,N-212	INVH,AMH,BX,APO	Truth Social announcement; no EO yet; targets institutional SFR investors; Schwarzman $45M donor faces adverse policy	OCCURRED
+CAT-100	2026-01-20	Trump Davos speech (housing details)	N-208,N-209	INVH,AMH,BX	Trump promised to provide details on housing ban at World Economic Forum	PENDING
+CAT-101	2026-01-XX	Moreno housing ban bill introduction	N-210	INVH,AMH,BX	Bill text will reveal definitions, exemptions, enforcement; announced Jan 6 (day before Trump)	PENDING
+CAT-102	2026-11-04	Midterm Elections	ALL	-	Housing affordability central issue; TD Cowen: "indicator of how worried Team Trump is about housing on midterms"	UPCOMING
+CAT-103	ONGOING	FHFA rulemaking on institutional investors	N-208	INVH,AMH,BX	Pulte can restrict GSE financing without Congress; most likely implementation mechanism	MONITORING
+CAT-104	ONGOING	National Rental Home Council lobbying response	N-216	INVH,AMH	$310K lobbying 2023; will mount major campaign against ban	MONITORING
+CAT-105	2026-01-08	$1.5T defense budget proposal (FY2027)	N-013	LMT,RTX,NOC,GD	50%+ increase from $901B FY2026; defense stocks surged 5-8% on announcement	OCCURRED
+CAT-106	2025-06-04	Jason Rathje leaves OSC	N-218	-	Left before any loans closed; all 1789-linked loans under successor Witt; clears Rathje as suspect	OCCURRED
+CAT-107	2025-06-XX	Patrick Witt becomes Acting OSC Director	N-012	-	Takes over from Rathje; oversees all major loans including Vulcan $620M, ReElement $80M, MP Materials $150M	OCCURRED
+CAT-108	2025-05-14	Emil Michael confirmed as USD(R&E)	N-219	-	Former Uber exec; oversees OSC; key to loan approval chain	OCCURRED
+CAT-109	2025-08-XX	MP Materials $150M OSC loan (first ever)	N-012	MP	First OSC loan ever closed; under Witt leadership	OCCURRED
+CAT-110	2025-07-13	xAI $200M CDAO contract	N-220	-	~90 days after 1789 investment; Forward Pattern confirmed	OCCURRED
+CAT-111	2025-04-01	Cerebras $45M DARPA contract	N-221	-	6 months BEFORE 1789 investment Sept 2025; Reverse Pattern	OCCURRED
+CAT-112	2025-10-15	Hadrian OSC loan (predicted)	N-223	-	**PREDICTION FAILED**: 1789 invested July 2025; 84-day prediction was Oct 15; Hadrian got Morgan Stanley private loan instead; 84-Day Loop does NOT apply to defense tech - only rare earths	NEGATIVE
+CAT-113	2026-01-05	Base Power OSC loan (predicted)	N-224	-	**PREDICTION FAILED**: 1789 invested Oct 2025; Day 95+ with no OSC loan; Base Power is commercial/residential battery storage - NOT defense or critical minerals; 84-Day Loop only applies to rare earths sector; Base Power is anomaly (pure commercial play)	NEGATIVE
+CAT-114	2026-03-20	Crusoe OSC loan (predicted)	N-225	-	1789 invested Dec 21 2025; 84-day prediction ~Mar 20 2026; AI infrastructure; **CAUTION**: Pattern only validated for rare earths; Crusoe is data centers/AI - may not apply; check if Crusoe has DoD contracts (Reverse Signal would apply instead)	LOW CONFIDENCE
+CAT-115	2026-05-24	Enhanced Games inaugural event (Las Vegas)	N-227	APAD	First pro-enhancement sports event; SPAC merger closes beforehand	UPCOMING
+CAT-116	2025-10-XX	Pulte fires Fannie Mae ethics team	N-208	PHM	Fired Chief Ethics Officer Libby, General Counsel McCoy, ~12 ethics staff; Ethics Demolition pattern	OCCURRED
+CAT-117	2025-12-01	GAO investigation of Pulte launched	N-208	-	Following politically-motivated fraud referrals and ethics team firings	OCCURRED
+CAT-118	2026-01-09	Pulte endorses housing ban on Fox Business	N-208,N-231	PHM	Day after Trump announcement; PHM identified as primary beneficiary; no recusal	OCCURRED
+CAT-119	2025-05-XX	Fannie Mae - Palantir partnership	N-208	PLTR	AI-powered mortgage fraud detection; Pulte held Palantir stock	OCCURRED
+CAT-120	QUARTERLY	1789 Capital new investments	N-027	-	**REFINED**: For rare earths = Forward Pattern (1789 invests → OSC loan); For defense tech = Reverse Pattern (DoD contract → THEN 1789 invests); For commercial = no govt loop	MONITORING
+CAT-121	2025-07-04	One Big Beautiful Bill Act signed	N-012	-	Expanded OSC from ~$1B to **$100B** loan capacity specifically for critical minerals; explains why OSC loans clustered in rare earths sector	OCCURRED
+CAT-122	2025-08-XX	Cerberus Maritime announced	N-274,N-011	HII,GD	HD Hyundai + Korea Development Bank partnership; focus on U.S. shipbuilding revitalization; competes with HII/GD for Navy contracts; Feinberg conflict	OCCURRED
+CAT-123	2025-01-XX	Stratolaunch $24.7M MDA contract	N-084,N-011	-	Missile Defense Agency hypersonic flight test campaign; Feinberg (Deputy SecDef) oversees MDA while children's trusts hold Stratolaunch	OCCURRED
+CAT-124	2025-03-XX	Votaw Precision acquired by Cerberus	N-272,N-011,N-039	-	62-year precision manufacturer; defense launch vehicles, satellites, undersea vehicles; expands Cerberus defense manufacturing footprint	OCCURRED
+CAT-125	ONGOING	Defense EO Tier 1 beneficiary contract awards	N-277,N-278,N-279,N-280,N-281,N-282,N-283	-	Watch for contract awards to: Castelion, Neros, Vannevar Labs, Rebellion Defense, Govini, Shield AI, True Anomaly; all benefit from Starve Incumbents	MONITORING
+CAT-126	ONGOING	Legacy prime contract losses	N-013	LMT,RTX,NOC,GD,BA	Track any contract cancellations, rebids, or transfers from legacy primes to insurgent defense tech; Boeing most vulnerable	MONITORING
+CAT-127	ONGOING	Brian Hook policy influence	N-284,N-039	-	Cerberus Vice Chairman + led Trump 2.0 State Dept transition; watch for Iran/Middle East policy benefiting Cerberus defense holdings	MONITORING
+CAT-128	2026-01-20/24	Pulte at Davos	N-208,N-213,N-214,N-231	PHM,INVH,AMH	**CRITICAL TRIGGER**: Pulte expected at WEF; likely to reveal BTR exemption details confirming "ban" doesn't hurt PHM-INVH partnership; watch for explicit BTR carve-out language	MONITORING
+CAT-129	ONGOING	INVH BTR pivot progress	N-213,N-231	INVH	Track INVH quarterly reports for: (1) BTR delivery % increase, (2) PHM partnership expansion, (3) new builder JVs; confirms Expand-Then-Restrict adaptation	MONITORING
+CAT-130	ONGOING	AMH in-house homebuilding %	N-214	AMH	Track AMH quarterly reports for in-house homebuilding % (was 95.7% in 2025); should remain high if they're BTR-ready	MONITORING
+CAT-131	2026-02-XX	PHM Q4 2025 earnings	N-231,N-208	PHM	Watch for: BTR revenue breakdown, INVH partnership renewal status, impact of housing ban announcement on forward guidance	UPCOMING
+CAT-132	2026-02-XX	INVH Q4 2025 earnings	N-213	INVH	Watch for: BTR delivery numbers, new builder partnerships, portfolio buying vs BTR mix, management commentary on housing ban impact	UPCOMING
+CAT-133	2026-02-XX	AMH Q4 2025 earnings	N-214	AMH	Watch for: in-house homebuilding % (should stay >90%), development pipeline updates, impact of ban on acquisition strategy	UPCOMING
+CAT-134	2026-01-XX	Trump housing executive order	N-208,N-209	INVH,AMH,BX,PHM	Full policy details expected; may include "50-year mortgage" and institutional investor ban specifics; watch for BTR exemption language	PENDING
+CAT-135	2026-01-07	Market reaction to housing ban	N-211,N-213,N-214	INVH,AMH,BX	INVH -7%, AMH -6.3% (3-year low, halted), BX -5.6% to -9.3%; potential entry point if Davos confirms BTR exemption	OCCURRED
+CAT-136	2026-01-05/12	Arsenal of Freedom Tour (Hegseth)	N-013,N-286,N-186	RKLB	Hegseth month-long tour of defense facilities; Jan 5 HII Newport News, Jan 9 Rocket Lab, Jan 12 SpaceX/LMT; propaganda setup for Feb 6 contractor list; legitimizes "Feed Insurgents" via clean companies	OCCURRED
+CAT-137	2026-01-09	Hegseth Rocket Lab visit	N-013,N-286,N-287	RKLB	Hegseth praised RKLB as model; "rapid, scalable production"; promised "larger, longer, more predictable contracts"; Clean Cover pattern - RKLB legitimizes policy for network-connected beneficiaries	OCCURRED
+CAT-138	2026-01-12	Hegseth SpaceX Starbase visit	N-013,N-186,N-139	-	Hegseth visiting Musk at Starbase; delivering remarks alongside CEO; contrast with RKLB visit (network-connected vs clean beneficiary)	UPCOMING
+CAT-139	2025-12-XX	Golden Dome SHIELD contracts	N-290,N-286,N-030	RKLB	$151B IDIQ through 2035; 2,100+ contractors; Rocket Lab, Anduril, LMT, NOC, L3Harris on roster; SpaceX notably absent; massive long-term defense catalyst	OCCURRED
+CAT-140	2025-12-19	Rocket Lab $816M SDA Tranche 3	N-286,N-290	RKLB	Largest RKLB contract ever; 18 missile tracking satellites for Golden Dome; alongside LMT, NOC, L3Harris in $3.5B award; validates insurgent company can compete with primes	OCCURRED
+CAT-141	2026-H1	Rocket Lab Neutron rocket launch	N-286,N-287	RKLB	Medium-lift rocket; first commercial missions expected 2026; critical for expanding beyond Electron to compete for larger DoD payloads	UPCOMING
+CAT-142	ONGOING	Khosla Paradox monitoring	N-289,N-288,N-286	RKLB	Watch for Khosla public statements; can't easily exit $2B+ position; anti-Trump donor benefiting from Trump policy creates political paradox	MONITORING

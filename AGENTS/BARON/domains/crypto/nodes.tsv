@@ -1,0 +1,19 @@
+ID	Name	Type	Cluster	Role	Policy_Control	Holdings	Tickers	Status
+N-298	Brad Garlinghouse	PERSON	C13	Ripple CEO	None (access via donations)	Ripple equity; XRP holdings	XRP	ACTIVE
+N-299	Stuart Alderoty	PERSON	C13	Ripple CLO + NCA President	None (access via donations)	00K XRP donated to Trump PACs	XRP	ACTIVE
+N-300	Ripple Labs	CO	C13	Crypto infrastructure	None	RLUSD issuer; .4B acquisitions 2025; OCC bank charter	XRP	ACTIVE
+N-301	RLUSD	PRODUCT	C13	Stablecoin	None	.3B market cap; 3rd largest US-regulated	XRP	ACTIVE
+N-302	World Liberty Financial	CO	C13	Trump crypto company	President owns 75% revenue	22.5B WLFI tokens (.96B); USD1 stablecoin	WLFI	ACTIVE
+N-303	USD1	PRODUCT	C13	Trump stablecoin	None	-4B supply; ~0M/yr Treasury yield	-	ACTIVE
+N-304	Steve Witkoff	GOV	C13	ME Envoy / WLFI co-founder	Diplomatic; WLFI co-founder	WLFI equity; crypto stakes undisclosed	-	ACTIVE
+N-305	Zach Witkoff	PERSON	C13	WLFI co-founder	None	WLFI equity; brokered B MGX deal	-	ACTIVE
+N-306	Bo Hines	FORMER_GOV	C13	Former Crypto Council ED	Former: digital asset policy	None disclosed	-	DEPARTED
+N-307	Circle	CO	C13	USDC issuer	None	3.7B market cap; 25.4% stablecoin share	-	ACTIVE
+N-308	Binance / CZ	CO	C13	Exchange	None	B MGX investment via USD1; CZ pardoned Oct 2025	-	ACTIVE
+N-309	MGX	FUND	C13	UAE state fund	None	B into Binance via USD1	-	ACTIVE
+N-310	Fairshake PAC	PAC	C13	Crypto super PAC	Congressional influence	41M raised; Ripple 0M	-	ACTIVE
+N-311	Hidden Road / Ripple Prime	CO	C13	Prime broker	None	T+ annual clearing; RLUSD collateral	-	ACTIVE
+N-312	Ripple National Trust Bank	CO	C13	OCC-chartered bank	None	RLUSD reserve management	-	ACTIVE
+N-313	BitGo	CO	C13	Crypto custody	None	Sacks/Craft 7.8%; IPO filed; XRP ETF custodian	BTGO	PENDING_IPO
+N-314	Chris Larsen	PERSON	C13	Ripple co-founder	None	.1B net worth (XRP); 1.8M to Harris (NOT Trump)	XRP	ACTIVE
+N-315	NCA	ORG	C13	National Cryptocurrency Assoc	Industry lobby	0M Ripple grant; Alderoty president	-	ACTIVE

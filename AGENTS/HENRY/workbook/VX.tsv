@@ -1,0 +1,32 @@
+ID	Name	Domain	Current_Value	Status	Historical_Percentile	Closest_Analogue	Last_Updated	Notes
+VX-HEN-1.01	Top 10 S&P 500 Weight	CON	38.22%	RED	>99	NONE (ATH)	2026-01-26	Exceeds 1929 (25%) and 2000 (27%) peaks
+VX-HEN-1.02	Market Breadth (% >200 DMA)	CON	58.25%	GREEN	P55	Normal	2026-01-26	Range 57-64% recently; 52wk low 15.10
+VX-HEN-1.03	Equal-Weight vs Cap-Weight Spread	CON	4.03%	YELLOW	P70	P00	2026-01-26	SPY +13.54% vs RSP +9.51% YTD
+VX-HEN-2.01	CAPE/Shiller P/E	VAL	40.65	RED	P97	P00	2026-01-26	Approaching 2000 peak of 44.19; mean 17.33
+VX-HEN-2.02	Buffett Indicator	VAL	230%	RED	>99	NONE (ATH)	2026-01-26	2.4 std dev above trend; 2000 was 140%
+VX-HEN-2.03	Equity Risk Premium	VAL	-1.80%	RED	P99	PJ89	2026-01-26	NEGATIVE ERP; stocks yield less than Treasuries
+VX-HEN-3.01	Margin Debt % of GDP	LEV	3.94%	YELLOW	P75	P00	2026-01-26	$1.226T margin debt; up 36% YoY
+VX-HEN-3.02	Household Equity Allocation	LEV	47.08%	RED	>99	NONE (ATH)	2026-01-26	Exceeds 2000 peak of ~42%; Q3 2025 data
+VX-HEN-4.01	VIX Level	SEN	16.07	GREEN	P35	P08	2026-01-26	Low VIX despite elevated risk metrics
+VX-HEN-4.02	Equity Put/Call Ratio	SEN	0.58	ORANGE	P25	P00	2026-01-26	Bullish positioning; threshold <0.6
+VX-HEN-5.01	DXY Dollar Index	CUR	120.45	YELLOW	P80	Context	2026-01-26	Strong dollar; Jan 2006=100 baseline
+VX-HEN-6.01	0DTE Volume Ratio	NOV	59%	ORANGE	>99	NONE (ATH)	2026-01-26	0DTE as % of total SPX options; no historical precedent; 2.3M contracts/day
+VX-HEN-6.02	Passive Market Share	NOV	55%	ORANGE	>99	NONE (ATH)	2026-01-26	Passive % of US equity AUM; crossed 50% in 2023; effective share ~75-80%
+VX-HEN-6.03	PIK Income %	NOV	12.8%	YELLOW	P85	P08	2026-01-26	PIK as % of BDC gross income; shadow default proxy; alert >15%
+VX-HEN-6.04	Private Credit AUM	NOV	$3.0T	YELLOW	>99	NONE	2026-01-26	Broad definition; $5T projected by 2029; shadow leverage vehicle
+VX-HEN-6.05	Index Inclusion Alpha	NOV	7.4%	ORANGE	P90	P00	2026-01-26	Avg announcement-day return for S&P additions; broken arbitrage signal
+VX-HEN-7.01	Insider Sell/Buy Ratio	SEN	13.56	RED	>99	NONE	2026-01-26	Normal 2-3; current 13.56 is 3+ std dev; massive distribution by corporate insiders
+VX-HEN-7.02	NAAIM Exposure Index	SEN	88.46%	ORANGE	P90	P07	2026-01-26	Active managers nearly fully invested; matches Oct 2007 (95%); no dry powder
+VX-HEN-7.03	Retail Options % Volume	SEN	48%	RED	>99	NONE (ATH)	2026-01-26	Record high; exceeds 2021 meme mania (~45%); structural fragility via gamma
+VX-HEN-7.04	Sentiment Composite Score	SEN	8.5/10	RED	P95	P00/P07	2026-01-26	HENRY weighted composite; >8 = high reversal risk; driven by leverage + distribution
+VX-HEN-7.05	Bitcoin vs S&P Divergence	SEN	-25%	ORANGE	P85	P21	2026-01-26	BTC down 25% while SPX at ATH; mirrors Nov 2021-Jan 2022 divergence exactly
+VX-HEN-7.06	Investors Intelligence Bull/Bear	SEN	2.87	ORANGE	P90	P07	2026-01-26	Matches Oct 2007 exactly (2.80); >3.0 = danger zone; bears only 20%
+VX-HEN-7.07	Zweig Breadth Thrust	CON	ACTIVE	GREEN	RARE	P95/P13	2026-01-26	ZBT triggered Nov 28 2025; 100% historical success rate; avg +23.3% 12mo forward
+VX-HEN-7.08	Sector Breadth - Tech	CON	52.85%	ORANGE	P40	P00	2026-01-26	Tech % above 200DMA; lagging vs Energy (95%); internal AI rally rot
+VX-HEN-7.09	Margin Debt YoY Growth	LEV	12.3%	YELLOW	P80	P07	2026-01-26	Accelerating growth; $1.226T nominal ATH; 2000 was 62%, 2007 was 35%
+VX-HEN-8.01	Net Equity Issuance	BID	-$800B	GREEN	P10	POST-08	2026-01-26	BULLISH: Buybacks ($1.02T) vastly exceed IPOs ($47B); supply shrinking; structural support
+VX-HEN-8.02	Corporate Buyback Rate	BID	$1.02T/yr	GREEN	>99	NONE (ATH)	2026-01-26	BULLISH: Record buybacks; $4B/day persistent bid; top 20 = 50% of activity
+VX-HEN-8.03	Passive Flow Momentum	BID	+$380B/yr	GREEN	P85	POST-08	2026-01-26	BULLISH: Passive inflows strong; 2025 +$380B vs Active -$386B (internal rotation)
+VX-HEN-8.04	401(k) Flow Stability	BID	STABLE	GREEN	P50	NORMAL	2026-01-26	BULLISH: Automatic payroll flows uninterrupted; 68% in TDFs; inertia-based demand
+VX-HEN-8.05	Foreign Equity Demand	BID	+$150B/yr	GREEN	P75	POST-08	2026-01-26	BULLISH: 18% foreign ownership (up from 12%); TINA dynamic; dollar strength amplifies
+VX-HEN-8.06	Inelastic Market Multiplier	BID	5-17x	YELLOW	>99	NONE	2026-01-26	MIXED: $1 flow = $5-17 market cap; amplifies upside AND downside; structural fragility

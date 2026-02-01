@@ -1,0 +1,6 @@
+ID	From_State	Trigger	To_State	Historical_Precedent	Confidence
+FLOW-HEN-001	High Concentration (>35%)	Sector rotation or macro shock	Correlated Selling	P29, P00 - concentrated markets amplify drawdowns	HIGH
+FLOW-HEN-002	Extreme Valuations (CAPE >35)	Earnings disappointment or rate shock	Multiple Compression	P00, PJ89 - high valuations eventually normalize	HIGH
+FLOW-HEN-003	High Household Equity (>40%)	Market decline >10%	Wealth Effect Reversal	P00, P08 - consumer spending follows portfolio	MEDIUM-HIGH
+FLOW-HEN-004	Low VIX / Complacency	Unexpected catalyst	Vol Spike / Gamma Cascade	P87, P08 - complacency precedes rapid repricing	MEDIUM-HIGH
+FLOW-HEN-005	Multiple Extremes Simultaneous	Any catalyst	Amplified Stress Response	P29, P00, P08 - confluence increases fragility	HIGH

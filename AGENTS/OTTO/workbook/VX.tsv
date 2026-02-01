@@ -1,0 +1,8 @@
+Vector_ID	Name	Category	Current_Value	Yellow	Orange	Red	Status	Confidence	Last_Updated	Source	Notes
+VX-OTTO-001	Known Fraud Cases	Fraud Scope	3 (Tricolor, First Brands, PrimaLend)	4	5+	7+	RED	90%	2026-01-26	DOJ/Court Filings	Pattern established: double-pledging, data manipulation, fabricated payments. Tricolor ~$2B debt; executives charged.
+VX-OTTO-002	Undiscovered Fraud Risk	Fraud Scope	Unknown - audits underway	Suspected	1 more found	2+ more found	ORANGE	70%	2026-01-26	Industry Analysis	Warehouse lenders reassessing all subprime exposure. Pattern suggests more likely.
+VX-OTTO-003	Bank Losses	Exposure	$370M+ (JPM $170M, Fifth Third $200M)	$500M	$1B	$2B+	ORANGE	85%	2026-01-26	Bank Disclosures	Disclosed losses from Tricolor. Jefferies, UBS also exposed. More may emerge.
+VX-OTTO-004	Warehouse Line Availability	Funding	Tightening	Selective cuts	Broad cuts	Frozen	ORANGE	80%	2026-01-26	Auto Finance News	Industry reassessing subprime exposure. Covenants tightening. Origination declining.
+VX-OTTO-005	Consumer Credit Access	Transmission	Declining	-10%	-20%	-30%+	YELLOW	75%	2026-01-26	Fed SLOOS	Banks tightening standards. Subprime borrowers facing reduced access. Links to CARL.
+VX-OTTO-006	DOJ Investigation	Legal	Active (Tricolor)	2 investigations	3+ investigations	Industry-wide	YELLOW	80%	2026-01-26	DOJ	Chu faces life in prison. Kollar, Seibold cooperating. May expand.
+VX-OTTO-007	Auto ABS Spreads	Market	Elevated	+50bps	+100bps	+200bps	YELLOW	75%	2026-01-26	Bloomberg	Spreads widened but not crisis. Watching for cascade signal.

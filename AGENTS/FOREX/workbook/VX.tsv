@@ -1,0 +1,9 @@
+Vector_ID	Name	Category	Current_Value	Yellow	Orange	Red	Status	Confidence	Last_Updated	Source	Notes
+VX-FOREX-001	DXY Index	Dollar	97	<95	<92	<90	GREEN	80%	2026-01-26	TradingView	DXY down 9% in 2025; "peak dollar" passed. Orderly weakness expected. Lowest since Dec 2025.
+VX-FOREX-002	USD/JPY	Major Pairs	154	>157	>158	>160	YELLOW	85%	2026-01-26	Reuters	NY Fed rate checks Jan 24; Takaichi intervention warning Jan 25. 160 now hard ceiling. Joint US-Japan intervention possible.
+VX-FOREX-003	EUR/USD	Major Pairs	1.17	<1.12	<1.08	<1.05	GREEN	75%	2026-01-26	TradingView	Strengthened from 1.04 to 1.17-1.18. ECB-Fed divergence narrowing.
+VX-FOREX-004	USD/CNY	Major Pairs	7.25	>7.35	>7.45	>7.50	GREEN	70%	2026-01-26	PBOC	PBOC managing orderly. Tariff risk from BARON domain could pressure. Watch for fixing signals.
+VX-FOREX-005	EM FX Index	EM	+7.5% YoY	-3% weekly	-5% weekly	-7% weekly	YELLOW	70%	2026-01-26	MSCI/JPM	EM FX rally extended. JP Morgan EM Risk Appetite Index in overbought territory. Vulnerable to reversal.
+VX-FOREX-006	CCY Basis USD/JPY	Funding	-45bps	-60bps	-75bps	-100bps	GREEN	85%	2026-01-26	Bloomberg	FX funding normal. No offshore dollar stress. Watch for widening on stress events.
+VX-FOREX-007	Carry Trade	Positioning	$261B (unwinding)	Vol spike >12	Vol spike >15	Panic unwind	ORANGE	75%	2026-01-26	BIS/CFTC	Gradual unwind ongoing. Size smaller than feared (~$261B vs claims of trillions). Armed but not triggered.
+VX-FOREX-008	CVIX	Volatility	~10	>12	>15	>20	GREEN	80%	2026-01-26	CBOE	Low vol regime supports carry. Vulnerable to regime shift on intervention or risk-off.

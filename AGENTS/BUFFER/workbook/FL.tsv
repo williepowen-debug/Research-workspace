@@ -1,0 +1,16 @@
+FL_ID	Date_Added	Domain	Catalyst	Expected_Date	Expected_Impact	Buffer_Affected	Confidence	Status
+FL-BUF-001	2026-01-27	FED	FOMC Meeting (Jan 28 decision)	2026-01-28	HELD 3.50-3.75%; 2 dissenters (Miran, Waller wanted cut); Powell: "hard to say policy restrictive"	VX-BUF-1.01	95%	COMPLETE
+FL-BUF-002	2026-01-27	FED	QT ended; next RMP review	2026-Q2	RMP pace may adjust; balance sheet trajectory	VX-BUF-1.05	60%	MONITORING
+FL-BUF-003	2026-01-27	BNK	FDIC QBP data release (Q4 2025)	2026-02-28	System capital ratios; DIF ratio update; FHLB Q4 data	VX-BUF-2.01, 2.02, 2.03	HIGH	MONITORING
+FL-BUF-004	2026-01-27	HH	BEA Personal Income/Savings report (Dec 2025)	2026-02-20	Savings rate trend; depletion rate update	VX-BUF-4.01	HIGH	MONITORING
+FL-BUF-005	2026-01-27	MKT	Q1 2026 buyback blackout ends	2026-02-15	~$16B/week demand restored; structural bid strengthens	VX-BUF-3.08	MEDIUM	ACTIVE
+FL-BUF-006	2026-01-27	POL	Debt ceiling headroom burn rate	2027-H1	$2.7T headroom at $2T+/yr spend = mid-2027 exhaustion	VX-BUF-5.05	MEDIUM	RESOLVED (near-term)
+FL-BUF-007	2026-01-27	INT	Japan snap election	2026-02-08	Takaichi win expected (62-78% approval); fiscal expansion → yen pressure → GPIF rebalancing risk	VX-BUF-6.06	HIGH	CRITICAL
+FL-BUF-008	2026-01-27	BNK	VLY Q4 Earnings	2026-01-31	CRE provision levels; individual bank buffer test	VX-BUF-2.01 (micro)	MEDIUM	APPROACHING
+FL-BUF-009	2026-01-27	POL	OCC/FDIC CRE guidance update	2026-H1	Forbearance extension would add years to CREED timeline	VX-BUF-5.02	LOW-MEDIUM	MONITORING
+FL-BUF-010	2026-01-27	HH	Case-Shiller Home Price Index (Dec 2025)	2026-02-25	Home equity buffer update; confirm deceleration trend	VX-BUF-4.05	HIGH	MONITORING
+FL-BUF-011	2026-01-27	INT	USD/JPY intervention watch	Ongoing	NY Fed rate check conducted; potential joint US-Japan intervention	VX-BUF-6.06	MEDIUM-HIGH	ACTIVE
+FL-BUF-012	2026-01-27	FED	Next FOMC (March 19)	2026-03-19	First potential cut of 2026; dot plot update	VX-BUF-1.01	HIGH	MONITORING
+FL-BUF-013	2026-01-30	FED	Warsh Fed Chair Confirmation Hearing	2026-Q1-Q2	If confirmed May 2026: policy willingness shifts hawkish; QT acceleration risk; balance sheet buffer attitude changes	VX-BUF-1.07	HIGH	CRITICAL
+FL-BUF-014	2026-01-30	FED	Powell term ends / Warsh takes office	2026-05	Regime change: same capacity, uncertain willingness	VX-BUF-1.07	HIGH	CRITICAL
+FL-BUF-015	2026-01-30	HH	NFP January 2026 (Master Variable)	2026-02-07	HH buffer runway accelerates on employment break. Current NFP +50K (ORANGE). If RED (<0): savings rate depletion accelerates, top 40% buffer at risk, K-shape collapses. Update runway estimates post-release.	VX-BUF-4.01, VX-BUF-4.02	HIGH	CRITICAL

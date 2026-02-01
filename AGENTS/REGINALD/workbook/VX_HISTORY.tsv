@@ -1,0 +1,32 @@
+Date	Vector_ID	Value	Status	Notes
+2026-01-25	VX-REG-1.01	TBD	GAP	Initial - research needed
+2026-01-25	VX-REG-2.01	TBD	GAP	Initial - research needed
+2026-01-25	VX-REG-2.02	125bps	GREEN	Initial value from SAM
+2026-01-25	VX-REG-2.03	TBD	GAP	Initial - research needed
+2026-01-25	VX-REG-3.01	TBD	GAP	Initial - research needed
+2026-01-25	VX-REG-4.01	TBD	GAP	Initial - research needed
+2026-01-25	VX-REG-5.01	Unquantified	GAP	Initial - BOJ FSR needed
+2026-01-26	VX-REG-1.01	$67.61 (-5%)	GREEN	Research complete. 52wk high $71.26, outperforming SPY.
+2026-01-26	VX-REG-2.01	RF $4.17B (13.5%)	GREEN	Concentrated not systemic. RF=HIGH, BANC=ELEVATED, others minimal.
+2026-01-26	VX-REG-2.02	~115bps	GREEN	PSQA proxy confirmed. Japan bid anchoring spreads.
+2026-01-26	VX-REG-2.03	-16% avg (-21% median)	ORANGE	PSEC -57%, FSK -34% crisis. Swing from +6% Feb 2025.
+2026-01-26	VX-REG-3.01	1.56%	GREEN	Banks GREEN. Office CMBS 11.31% RED (separate market).
+2026-01-26	VX-REG-4.01	TBD	GAP	Awaiting Q4 Call Reports mid-Feb.
+2026-01-26	VX-REG-5.01	¥9.7T CLO	ORANGE	Great Rotation confirmed. 43% via opaque trusts. Credit cycle trigger.
+2026-01-26	VX-REG-6.01	$28.60 (-1%)	GREEN	Baseline established. 52wk high $28.84 (Jan 8). Trading near highs, no stress.
+2026-01-26	VX-REG-6.02	$11.90 (-2%)	GREEN	VLY baseline. 52wk high $12.18. CRITICAL: Q4 earnings Jan 31. Legacy data flags as #1 crisis bank (9.5 score).
+2026-01-26	VX-REG-6.03	$13.10 (-5%)	GREEN	FLG baseline. 52wk high $13.85. Earnings Jan 30. Deposit stress -9% YTD, $13.9B FHLB advances.
+2026-01-26	VX-REG-6.04	$88.00 (-7%)	GREEN	WAL baseline. 52wk high $94.40. Cantor fraud $98.6M, $0 provision (vs ZION $50M). Masking active.
+2026-01-26	VX-REG-6.05	$64.00 (high)	GREEN	CFG baseline. At 52wk high. Q4 earnings beat. Fund finance exposure $10-11B = latent risk.
+2026-01-26	VX-REG-6.06	$95.00 (high)	GREEN	CMA baseline. Merger premium (FITB deal Feb 1). True value masked by acquisition.
+2026-01-26	VX-REG-6.07	$21.20 (-3%)	GREEN	KEY baseline. 52wk high $21.75. Q4 beat. Equipment fraud exposure TBD.
+2026-01-26	VX-REG-6.08	$60.50 (-2%)	GREEN	ZION baseline. 52wk high $61.57. Q4 beat. $50M Cantor charge-off already taken.
+2026-01-26	VX-REG-7.01	Baseline	GREEN	FHLB system advances baseline. Peak $675B (2023). Monitor for stress indicators.
+2026-01-26	VX-REG-7.02	Baseline	GREEN	FHLB haircuts baseline. No tightening currently. Monitor policy announcements.
+2026-01-26	VX-REG-8.01	Active	ORANGE	HOA/Condo crisis active in FL (SB 4-D) and NV. Special assessments >$10K/door documented.
+2026-01-26	VX-REG-9.01	$7.7B+	ORANGE	CRE modification wave quantified. WFC $770M alone. Masking true delinquency levels.
+2026-01-26	VX-REG-9.02	Active	ORANGE	Modification exhaustion active. FLG 142bps allowance cut = reverse indicator. >50% re-default rate.
+2026-01-26	VX-REG-9.03	$130-217B	ORANGE	Open-end CRE fund shadow NAV. Redemption queues 12-13% (down from 19.3% peak). BREIT gated.
+2026-01-26	VX-REG-9.04	Golub 173%	ORANGE	BDC PIK inflation documented. Golub spike 173% YoY. Dividend cut -15% Sept 2025. Cash NII diverging.
+2026-01-26	VX-REG-10.01	Monitoring	YELLOW	Deposit composition baseline. Tracking uninsured %, brokered CD growth, rate sensitivity.
+2026-01-26	VX-REG-10.02	Monitoring	YELLOW	NIM compression baseline. Tracking sequential changes across Tier 1 regionals.

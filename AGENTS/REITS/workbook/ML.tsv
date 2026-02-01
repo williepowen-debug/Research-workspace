@@ -1,0 +1,6 @@
+ID	Date	Session	Category	Observation	Vectors_Affected	Source	Confidence
+ML-REITS-001	2026-01-26	000	Broad Sector	VNQ at $90.54; YTD +2.3% but 2025 full year -3.6%. Sector underperformed S&P 500. Public REITs trading at significant discounts to private market valuations.	VX-REITS-001	Yahoo Finance	80%
+ML-REITS-002	2026-01-26	000	Office	SLG down 29% YoY to $46; BXP down 21% to $72; VNO at $40. NAV discounts 30-40%. Tariffs adding pressure - potential layoffs would further reduce office demand.	VX-REITS-002, VX-REITS-006	Morningstar/Crain's	85%
+ML-REITS-003	2026-01-26	000	mREIT	AGNC book value $8.28 (+6% QoQ); +40% 1Y total return. NLY +17% 1Y; trading at 0.98x book. mREIT sector outperformed despite rate volatility. Dividends maintained.	VX-REITS-003	Stock Analysis	80%
+ML-REITS-004	2026-01-26	000	Office	BXP "premier workplace" strategy showing results - 55% higher rents vs market; vacancy 5.7pp lower. Leasing +39% YoY in Q3. But stock still -21% YoY.	VX-REITS-002	EveryTicker	75%
+ML-REITS-005	2026-01-26	000	Valuation	REITs trading at median implied cap rate 7.7% — compelling spread over Treasuries. Value opportunity per multiple analysts.	VX-REITS-005	Vanguard/NAREIT	75%

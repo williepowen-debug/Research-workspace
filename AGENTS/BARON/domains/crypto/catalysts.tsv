@@ -1,0 +1,13 @@
+ID	Date	Event	Nodes	Tickers	Expected_Impact	Status
+CAT-100	2027-01	GENIUS Act effective date	N-300,N-302,N-307,N-020	XRP	All stablecoin issuers must comply; benefits pre-compliant players (RLUSD, USDC, USDT)	PENDING
+CAT-101	2026-Q1	RLUSD Japan launch via SBI Holdings	N-300,N-301	XRP	00B Japanese market entry; SBI exclusive distributor	PENDING
+CAT-102	2026-01-29	CLARITY Act Senate Ag Committee markup	N-300,N-050	XRP,COIN	POSTPONED from Jan 27 (winter storm); Coinbase opposes, Ripple supports; ethics provisions disputed	RESCHEDULED
+CAT-112	TBD	CLARITY Act Senate Banking Committee markup	N-300,N-050	XRP,COIN	POSTPONED from Jan 15 (Coinbase pulled support); no new date; XRP grandfathering provision	POSTPONED
+CAT-103	TBD	WLFI OCC bank charter decision	N-302,N-303	-	Would give Trump family direct banking license for USD1; massive conflict	PENDING
+CAT-104	TBD	BitGo IPO	N-313,N-005	BTGO	Sacks 7.8% stake (30M+); GENIUS Act tailwind; Goldman+Citi lead	PENDING
+CAT-105	2026	RLUSD Ethereum L2 expansion	N-300,N-301	XRP	Base, Optimism, Ink, Unichain via Wormhole; DeFi integration	PENDING
+CAT-106	ONGOING	XRP ETF approvals	N-300,N-313	XRP	11+ applications; 21Shares live; final deadline Mar 27, 2026	ACTIVE
+CAT-107	ONGOING	Stablecoin market cap tracking	N-020,N-307,N-301,N-303	-	00B now to .7T projected (Bessent); validates or invalidates thesis	MONITORING
+CAT-108	ONGOING	Trump family WLFI revenue disclosures	N-302,N-303	-	7M (2024), 63M (H1 2025); next disclosure will show USD1 yield	MONITORING
+CAT-109	ONGOING	Senate ethics scrutiny of Witkoff crypto stakes	N-304,N-305	-	Warren/Merkley demanding disclosure; staggering conflict	ACTIVE
+CAT-110	ONGOING	Sacks BitGo conflict monitoring	N-005,N-313	BTGO	Waivers granted; but IPO would crystallize conflict	MONITORING

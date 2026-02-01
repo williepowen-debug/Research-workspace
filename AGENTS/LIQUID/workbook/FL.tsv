@@ -1,0 +1,20 @@
+Entry_ID	Target_Date	Category	Event	Expected_Impact	Vector_Link	Status	Priority	Outcome_Documented
+FL-LIQ-001	Ongoing	AUCTIONS	Treasury Auction Calendar	Monitor BTC, Indirect %, and Tail for demand signals	VX-LIQUID-2.01, VX-LIQUID-2.02, VX-LIQUID-2.03	ACTIVE	HIGH
+FL-LIQ-002	2026-02-08	POLITICAL	Japan Snap Election	Takaichi win could accelerate repatriation flows, affecting UST demand	VX-LIQUID-4.01	ACTIVE	MEDIUM
+FL-LIQ-003	2026-Q1	FUNDING	RRP Full Depletion	COMPLETE - RRP at effective zero ($1M weekly avg). MMF cash now in T-bills and private repo.	VX-LIQUID-1.02	COMPLETE	HIGH	Documented ML-LIQ-004
+FL-LIQ-004	2026-01-29	AUCTIONS	7-Year Note Auction ($44B) 1:00 PM ET	RESULT: BTC 2.45x (below avg 2.54x), no significant tail. Weak but acceptable. 7Y tenor cleared without stress.	VX-LIQUID-2.01, VX-LIQUID-2.03	COMPLETE	CRITICAL	Cleared weak but OK
+FL-LIQ-005	2026-02-02	AUCTIONS	20-Year Bond Reopening (~$16B)	Illiquid point on curve, prone to tails	VX-LIQUID-2.03	ACTIVE	MEDIUM
+FL-LIQ-006	2026-02-04	POLICY	Quarterly Refunding Announcement (QRA)	Treasury announces coupon sizes for Q2. Critical for supply outlook and market positioning.	VX-LIQUID-2.01, VX-LIQUID-2.02	ACTIVE	HIGH
+FL-LIQ-007	2026-02-10	AUCTIONS	3-Year Note (~$58B)	Short-end absorption check	VX-LIQUID-2.01	ACTIVE	MEDIUM
+FL-LIQ-008	2026-02-11	AUCTIONS	10-Year Note (~$42B)	Benchmark auction. Watch BTC <2.30x, Indirect <60%.	VX-LIQUID-2.01, VX-LIQUID-2.02	ACTIVE	HIGH
+FL-LIQ-009	2026-02-12	AUCTIONS	30-Year Bond (~$25B)	Duration test. Watch Indirect <60% for foreign demand signal.	VX-LIQUID-2.02	ACTIVE	HIGH
+FL-LIQ-010	2026-03-31	FUNDING	Q1 Quarter-End	Expect SOFR spike, elevated SRF usage due to dealer window dressing. "Sawtooth" pattern is new normal.	VX-LIQUID-1.01, VX-LIQUID-1.04	ACTIVE	MEDIUM
+FL-LIQ-011	2026-04-15	FUNDING	April Tax Season	TGA rebuilds will drain reserves directly (no RRP buffer). Risk of reserves dropping below $3T.	VX-LIQUID-1.02, VX-LIQUID-1.01	ACTIVE	HIGH
+FL-LIQ-012	2026-06-30	FUNDING	Q2 Quarter-End / GSIB Snapshot	Year-end style constraints as dealers manage GSIB scores. Expect elevated SRF usage.	VX-LIQUID-1.04	ACTIVE	MEDIUM
+FL-LIQ-013	2026-12-31	FUNDING	Year-End GSIB Constraints	GSIB Method 2 scoring creates "cliff effect" - dealers shed repo exposure aggressively. Expect record SRF usage.	VX-LIQUID-1.04, VX-LIQUID-1.01	ACTIVE	HIGH
+FL-LIQ-014	2027-06-30	REGULATORY	SEC Central Clearing Mandate Full Effect	Mandatory central clearing for cash Treasury and repo. Transition risk with margin calls, but should reduce daisy-chain fails post-implementation.	VX-LIQUID-1.03, VX-LIQUID-1.06	ACTIVE	HIGH
+FL-LIQ-015	2026-01-30	DATA	H.4.1 Weekly Release (Thursday ~4:30 PM ET)	Check SRF usage for week ended Jan 28. If elevated outside quarter-end = concerning. Also verify reserve balance trajectory.	VX-LIQUID-1.04	ACTIVE	MEDIUM
+FL-LIQ-016	2026-01-30	DATA	FR 2004 Dealer Stats (Thursday ~4:15 PM ET)	Check dealer net positioning. Currently ~$200B (ORANGE). If rising toward $250B = RED. Key leading indicator of auction absorption capacity.	VX-LIQUID-1.05	ACTIVE	HIGH
+FL-LIQ-017	TBD	POLITICAL	Warsh Confirmation Hearing	Kevin Warsh nominated for Fed Chair. Confirmation UNCERTAIN — Sen. Tillis (R-NC) blocking all Fed nominees. Warsh is balance sheet HAWK — would accelerate QT, raise bar for SRF/QE. Monitor Tillis stance and hearing scheduling.	VX-LIQUID-1.02, VX-LIQUID-1.04	ACTIVE	CRITICAL
+FL-LIQ-018	2026-05-XX	REGIME	Powell Term Ends / Warsh Takes Office	If confirmed, Warsh replaces Powell May 2026. REGIME CHANGE for balance sheet policy. Warsh believes "bloated balance sheet subsidizes Wall Street." Expect: faster QT, higher SRF bar, slower crisis response. CMP-02 risk profile worsens under Warsh.	VX-LIQUID-1.02, VX-LIQUID-1.04	ACTIVE	CRITICAL
+FL-LIQ-019	2026-02-07	EMPLOYMENT	NFP January 2026 (Master Variable)	Employment shock → risk-off → funding stress. Claims more relevant than NFP for LIQUID, but NFP <0 would trigger broad deleveraging. Watch initial claims trend post-NFP. Current NFP +50K (ORANGE). If RED: expect SRF usage spike, repo stress.	VX-LIQUID-1.01, VX-LIQUID-1.04	ACTIVE	HIGH

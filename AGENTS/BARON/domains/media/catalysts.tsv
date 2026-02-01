@@ -1,0 +1,8 @@
+ID	Date	Event	Nodes	Tickers	Expected_Impact	Status
+CAT-063	2025-11-24	Trump opposes ownership cap lift (Truth Social)	N-118,N-165	SBGI,NXST	Stocks cratered; Trump sided with Ruddy over Sinclair/Nexstar	OCCURRED
+CAT-064	2025-12-17	FCC ownership cap initial comments closed	N-118,N-137,N-144	SBGI,NXST	Broadcasters submitted arguments for/against cap change	OCCURRED
+CAT-065	2025-12-31	Tegna merger Petition to Deny deadline	N-144,N-153	NXST,TGNA	Opposition filings due	OCCURRED
+CAT-066	2026-01-16	FCC ownership cap reply comments close	N-118,N-137,N-144	SBGI,NXST	Final round of FCC input	UPCOMING
+CAT-067	2026-H1	FCC ownership cap ruling (Sinclair CEO prediction)	N-118,N-146	SBGI,NXST,SSP,TGNA	Ripley predicts Carr eliminates cap H1 2026; but Trump opposed	PENDING
+CAT-068	2026-07-12	Tegna merger expected close (range: Jul-Dec 2026)	N-144,N-153	NXST,TGNA	Needs FCC approval + cap waiver; shareholders approved Nov 2025	PENDING
+CAT-069	ONGOING	Trump vs Carr ownership cap tension	N-118,N-165	SBGI,NXST	Key question: Does Carr defy Trump, or wait for reversal?	CRITICAL

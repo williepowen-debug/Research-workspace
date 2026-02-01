@@ -1,0 +1,6 @@
+ID	Target_Date	Catalyst	Expected_Impact	Vectors_Affected	Status	Added_Session	Notes
+FL-OTTO-001	2026-06	First Brands Trial	Fraud allegations tested in court; may reveal additional details	VX-OTTO-001, VX-OTTO-006	PENDING	000	Judge Lopez scheduled 2-week trial
+FL-OTTO-002	Ongoing	DOJ Investigation Expansion	May charge additional individuals or companies	VX-OTTO-006, VX-OTTO-002	WATCHING	000	Kollar, Seibold cooperating — may provide evidence on others
+FL-OTTO-003	Q1-Q2 2026	Warehouse Lender Audits	May discover additional fraud at other lenders	VX-OTTO-002, VX-OTTO-004	WATCHING	000	Industry-wide reassessment underway
+FL-OTTO-004	Quarterly	Bank Earnings Disclosures	May reveal additional auto-related losses	VX-OTTO-003	WATCHING	000	Watch JPM, Fifth Third, regional banks
+FL-OTTO-005	Monthly	Auto ABS Deal Performance	Early warning for cascade/downgrade wave	VX-OTTO-007	WATCHING	000	Spreads elevated but stable

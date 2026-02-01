@@ -1,0 +1,9 @@
+VX_ID	DATE	VALUE	STATUS	NOTES
+VX-MARCO-1.01	2026-01-20	-26% YoY	BREACHED	Baseline; 12+ consecutive months decline
+VX-MARCO-1.04	2026-01-20	-15.1% Q3	CRITICAL	Improved from Q2 -20%
+VX-MARCO-2.02	2026-01-20	-155K workers	BREACHED	Mar-Jul 2025 vs +2.2% in 2024
+VX-MARCO-2.04	2026-01-20	-290K to -525K	BREACHED	CBO estimate for 2025
+VX-MARCO-3.01	2026-01-20	4.5x national	BREACHED	+72% since 2019
+VX-MARCO-3.03	2026-01-22	+63K net domestic	ELEVATED	Down 80% from +318K (2022)
+VX-MARCO-TX-02	2026-01-22	-3.3% YoY	CRITICAL	31 consecutive months decline
+VX-MARCO-NV-01	2026-01-22	-20%+ Canadian	CRITICAL	9 consecutive months decline

@@ -1,0 +1,30 @@
+ID	From	To	Type	Evidence	Confidence	Source	Date_Added
+E-400	N-300	N-310	DONOR	0M+ total (M inaugural + 5M + 5M Fairshake)	CONFIRMED	FEC/press	2026-01-27
+E-401	N-299	N-310	DONOR	00K XRP to Trump PACs	CONFIRMED	FEC/Bitcoinist	2026-01-27
+E-402	N-298	N-302	ACCESS	Mar-a-Lago dinner with Trump Jan 7, 2025	CONFIRMED	Garlinghouse X post	2026-01-27
+E-403	N-299	N-302	ACCESS	Mar-a-Lago dinner; inauguration attendee	CONFIRMED	Garlinghouse X post	2026-01-27
+E-404	N-298	N-005	ACCESS	White House Crypto Summit Mar 7, 2025	CONFIRMED	WH press	2026-01-27
+E-405	N-298	N-306	ACCESS	Met at White House	CONFIRMED	CCN	2026-01-27
+E-406	N-050	N-300	REGULATORY	Dropped SEC v. Ripple appeal; returned 5M	CONFIRMED	SEC filing Aug 2025	2026-01-27
+E-407	N-300	N-312	SUBSIDIARY	OCC charter Dec 2025 for RLUSD reserves	CONFIRMED	OCC/BusinessWire	2026-01-27
+E-408	N-300	N-311	ACQUISITION	.25B acquisition; rebranded Ripple Prime	CONFIRMED	Press release	2026-01-27
+E-409	N-300	N-301	ISSUER	Ripple issues RLUSD via Standard Custody	CONFIRMED	NYDFS approval	2026-01-27
+E-410	N-302	N-303	ISSUER	WLFI issues USD1 stablecoin	CONFIRMED	WLFI website	2026-01-27
+E-411	N-304	N-302	CO-FOUNDER	WLFI co-founder; ME Envoy	CONFIRMED	Wikipedia/press	2026-01-27
+E-412	N-305	N-302	CO-FOUNDER	WLFI co-founder; brokered MGX deal	CONFIRMED	Fortune/press	2026-01-27
+E-413	N-305	N-309	BROKER	Brokered B MGX to Binance deal using USD1	CONFIRMED	PBS/Fortune	2026-01-27
+E-414	N-309	N-308	INVESTOR	B investment via USD1 stablecoin	CONFIRMED	Bloomberg/press	2026-01-27
+E-415	N-308	N-303	USER	B MGX deal transacted in USD1	CONFIRMED	Fortune/60 Minutes	2026-01-27
+E-416	N-005	N-313	INVESTOR	Craft Ventures 7.8% stake in BitGo	CONFIRMED	BitGo S-1	2026-01-27
+E-417	N-313	N-301	CUSTODY	BitGo is custodian for 21Shares XRP ETF	CONFIRMED	21Shares prospectus	2026-01-27
+E-418	N-307	N-310	DONOR	M USDC to Trump inaugural	CONFIRMED	CoinTelegraph	2026-01-27
+E-419	N-300	N-315	FUNDER	0M grant to found NCA	CONFIRMED	TheBlock	2026-01-27
+E-420	N-299	N-315	OFFICER	President of NCA	CONFIRMED	NCA website	2026-01-27
+E-421	N-002	N-020	CUSTODY	Cantor manages 0B+ Tether Treasury reserves	CONFIRMED	Tether attestations	2026-01-27
+E-422	N-002	N-020	INVESTOR	5% equity via sons (divested May 2025)	CONFIRMED	NYT/Bloomberg	2026-01-27
+E-423	N-314	N-300	CO-FOUNDER	Ripple co-founder; .1B net worth	CONFIRMED	Public	2026-01-27
+E-424	N-314	N-307	DONOR	1.8M to Harris campaign (NOT Trump)	CONFIRMED	CNBC	2026-01-27
+E-425	N-300	N-298	EMPLOYER	CEO of Ripple	CONFIRMED	Public	2026-01-27
+E-426	N-300	N-299	EMPLOYER	CLO of Ripple	CONFIRMED	Public	2026-01-27
+E-427	N-300	N-302	NEGATIVE	NO financial link: WLFI holds no XRP; no equity; no partnership; competitors (USD1 vs RLUSD)	CONFIRMED	Arkham/cap table/on-chain	2026-01-27
+E-428	N-300	N-302	LOBBYIST_SCANDAL	Ballard Partners (Ripple client) drafted Trump Truth Social XRP post Mar 2025; Trump felt played; froze Ballard	CONFIRMED	CryptoBriefing/Protos	2026-01-27

@@ -1,0 +1,33 @@
+ID	Name	Type	Cluster	Role	Policy_Control	Holdings	Tickers	Status
+N-076	Jared Kushner	PERSON	C7	Trump son-in-law	None direct (not in govt)	Affinity Partners founder; brokered EA deal; $87M in Saudi fees	-	CRITICAL
+N-077	Affinity Partners	FUND	C7	PE firm	-	$2B from Saudi PIF (2021); ZERO returns by 2024; 5% EA equity; Wyden probe	-	CRITICAL
+N-078	Saudi PIF	FUND	C7	Sovereign wealth fund	-	$930B AUM; $170B in US; 40% intl investments to US; overruled advisers on Kushner	-	CRITICAL
+N-079	Mohammed bin Salman	PERSON	C7	Saudi Crown Prince	Saudi policy	Controls PIF; overruled advisers on Kushner investment; $600B-$1T US pledge	-	CRITICAL
+N-080	Chris Wright	GOV	C7	Energy Secretary	DOE, nuclear, oil policy	Liberty Energy founder; Oklo board until Feb 2025; divested LBRT $50M; forfeited Oklo RSUs; $788K Trump/RNC donor; 1yr Oklo recusal pledged; Markey alleges conflict re plutonium transfer + reprocessing; created Reactor Pilot Program benefiting Oklo	-	CRITICAL
+N-081	Liberty Energy	CO	C7	Fracking company	-	2nd largest US hydraulic fracturing; Wright founded; Wright divested $50M Feb 2025	LBRT	ACTIVE
+N-082	Oklo	CO	C7	Nuclear tech	DOE Reactor Pilot Program	Sam Altman chairman; Wright was board member; won 3 DOE pilot projects Aug 2025; $1.68B TN reprocessing plant; lobbying +500% Q1 2025; CEO in Oval Office for nuclear EOs; stock +750% in 2025; NRC-rejected design now approved via DOE	OKLO	CRITICAL
+N-083	Electronic Arts	CO	C7	Video game publisher	-	$55B acquisition by PIF/Affinity/Silver Lake; largest LBO ever	EA	PENDING
+N-089	Doug Burgum	GOV	C7	Interior Secretary	Federal lands, drilling permits, Venezuela oil	Hamm's friend; Continental royalties $50K/yr; leads Venezuela oil recovery with Wright	-	CRITICAL
+N-090	Harold Hamm	PERSON	C7	Continental Resources Chairman	None direct	Organized $1B Mar-a-Lago meeting Apr 2024; $1M Trump PAC; $250K to Burgum; $50M TR Library	-	CRITICAL
+N-091	Continental Resources	CO	C7	Oil producer (private)	-	Hamm's company; Bakken/Permian; took private 2022; $1M to Trump PAC Apr 29 2024	-	ACTIVE
+N-092	Chevron	CO	C7	Oil major	-	Only US company in Venezuela (140K bpd); best positioned for expansion	CVX	ACTIVE
+N-093	ConocoPhillips	CO	C7	Oil major	-	$10B arbitration award from Venezuela expropriation 2007	COP	ACTIVE
+N-094	ExxonMobil	CO	C7	Oil major	-	$2.6B claims from Venezuela; CEO cautious on re-entry	XOM	ACTIVE
+N-103	Lee Zeldin	GOV	C7	EPA Administrator	EPA regs, Endangerment Finding, PFAS, methane rules	Zeldin Strategies $775K; real estate $300K-$725K; modest holdings	-	ACTIVE
+N-104	Tim Dunn	PERSON	C7	AFPI co-founder; CrownQuest	None direct (donor)	$2.2B from CrownQuest sale to Occidental; 8th largest TX producer	-	CRITICAL
+N-105	America First Policy Institute	ORG	C7	Trump think tank	Policy pipeline	Co-founded by Dunn; Zeldin chaired Pathway to 2025	-	ACTIVE
+N-106	CGCN Group	ORG	C7	Lobbying firm	None direct	$14M/yr billings; Saudi Arabia, Hess, TransCanada clients; paid Zeldin $98K for op-eds	-	ACTIVE
+N-107	Sheikh Sultan bin Jassim Al Thani	PERSON	C7	Qatari royal	None direct	Heritage Advisors founder; $50M Newsmax investment; Menendez case connection	-	MONITORING
+N-108	Heritage Advisors	FUND	C7	Qatari VC	-	Sheikh Sultan's London firm; paid Zeldin consulting fees 2023	-	MONITORING
+N-109	CRC Advisors	ORG	C7	Dark money consulting	None direct	Leonard Leo's firm; Chevron client; paid Zeldin $3K for Fox op-ed	-	ACTIVE
+N-111	David Fotouhi	GOV	C7	EPA Deputy Administrator	Day-to-day EPA operations	$3.2M from Gibson Dunn 2024; clients: Chevron, Ford, Energy Transfer, Sunoco	-	ACTIVE
+N-112	Aaron Szabo	GOV	C7	EPA Asst Admin (Air/Radiation)	Air quality, emissions, climate regs	CGCN Group lobbyist; Duke Energy, AFPM, API, ACC clients; Project 2025 author	-	CRITICAL
+N-113	Nancy Beck	GOV	C7	EPA Principal Deputy (Chemicals)	TSCA, chemical safety, PFAS	5+ yrs American Chemistry Council; Hunton Andrews Kurth; delayed PFOA rules	-	ACTIVE
+N-114	American Chemistry Council	ORG	C7	Chemical industry lobby	None direct	$765B industry trade group; Beck was Senior Director; major TSCA/PFAS lobbying	-	ACTIVE
+N-115	Gibson Dunn	ORG	C7	Law firm	None direct	Fotouhi partner; defended Chevron, asbestos users, PFAS polluters	-	ACTIVE
+N-135	Consumers Research	ORG	C7	Anti-ESG campaign arm	None direct	Will Hild exec director; Leo "adviser"; $10M anti-ESG campaign; WhoIsLarryFink.com	-	ACTIVE
+N-136	State Financial Officers Foundation	ORG	C7	State official network	State pension decisions	37 GOP state treasurers; anti-ESG enforcement; deeply tied to CRC Advisors	-	ACTIVE
+N-178	Stephanie Holmes	PERSON	C7	DOGE Team Lead at Interior	Personnel/DEI purge	Jones Day lawyer; anti-DEI specialist; Acting CHCO	-	ACTIVE
+N-182	Henry Kravis	PERSON	C7	KKR co-founder	PE regulation	Dialog member; $89B AUM; Kushner father received KKR investments	-	ACTIVE
+N-183	Jeff Miller	PERSON	C7	Superlobbyist	Energy, Defense clients	Exec Branch Club founding member; ran Rick Perry campaign; top fundraiser	-	ACTIVE
+N-185	Brooke Rollins	GOV	C7	Agriculture Secretary	USDA, farm policy	Attended MBS dinner at Exec Branch Club; former Trump domestic policy aide	-	ACTIVE

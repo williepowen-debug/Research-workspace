@@ -1,0 +1,5 @@
+ID	Trigger	Transmission	Endpoint	Agents_Affected	Status	Last_Validated
+FLOW-OTTO-01	Additional fraud discovered OR warehouse lines pulled	Liquidity squeeze on subprime lenders → Origination collapses → Consumer credit access declines → Can't refinance → DQ accelerates	Consumer credit crunch	CARL	ACTIVE	2026-01-26
+FLOW-OTTO-02	Bank loss >$500M disclosed	Investor concern → Bank tightens all auto lending → Provisioning increases → Credit availability declines	Bank earnings; credit tightening	REGINALD, EARNINGS	ELEVATED	2026-01-26
+FLOW-OTTO-03	ABS downgrades begin OR spreads +100bps	CLO/fund mark-to-market losses → Forced selling → Spread widening → Issuance freezes	Securitization market stress	REGINALD, LIQUID	LATENT	2026-01-26
+FLOW-OTTO-04	DOJ expands to industry-wide probe	All warehouse lenders freeze new commitments → Industry-wide credit crunch → Consumer access collapses	Systemic auto credit crisis	CARL, REGINALD, LIQUID	LATENT	2026-01-26

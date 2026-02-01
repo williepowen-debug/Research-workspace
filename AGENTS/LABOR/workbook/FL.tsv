@@ -1,0 +1,11 @@
+ID	Date	Event	Domain	Vectors	Expected Impact	Priority	Status	Notes
+FL-LAB-001	2026-02-06	Initial Claims Release	WEEKLY	VX-LAB-1.01, 1.02	Weekly update to fastest employment indicator	HIGH	PENDING	Thursday 8:30am ET
+FL-LAB-002	2026-02-07	January 2026 NFP	MONTHLY	VX-LAB-2.01 to 2.06	Full employment picture for January; first major read of 2026	HIGH	PENDING	First Friday
+FL-LAB-003	2026-02-13	Initial Claims Release	WEEKLY	VX-LAB-1.01, 1.02	Weekly update	MEDIUM	PENDING	Thursday 8:30am ET
+FL-LAB-004	2026-02-20	Initial Claims Release	WEEKLY	VX-LAB-1.01, 1.02	Weekly update	MEDIUM	PENDING	Thursday 8:30am ET
+FL-LAB-005	2026-02-27	Initial Claims Release	WEEKLY	VX-LAB-1.01, 1.02	Weekly update	MEDIUM	PENDING	Thursday 8:30am ET
+FL-LAB-006	2026-03-07	February 2026 NFP	MONTHLY	VX-LAB-2.01 to 2.06	February employment report	HIGH	PENDING	First Friday
+FL-LAB-007	Late Feb	JOLTS (December 2025)	JOLTS	VX-LAB-3.01 to 3.04	Job openings, quits, layoffs for Dec	MEDIUM	PENDING	~40 day lag
+FL-LAB-008	2026-02-06	Challenger Job Cuts (Jan)	SECTOR	VX-LAB-4.02	January announced layoffs by sector	MEDIUM	PENDING	First Thursday
+FL-LAB-009	TBD	DOGE Next Agency Target	FEDERAL	VX-LAB-7.xx	Unknown which agency next; monitor BARON	HIGH	WATCH	Unpredictable
+FL-LAB-010	TBD	Federal RIF Announcements	FEDERAL	VX-LAB-7.xx	Official Reduction in Force notices	HIGH	WATCH	Lagging indicator of cuts

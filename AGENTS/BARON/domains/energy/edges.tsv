@@ -1,0 +1,35 @@
+ID	From	To	Type	Evidence	Confidence	Source	Date_Added
+E-089	N-078	N-077	INVESTOR	Saudi PIF invested $2B in Affinity Partners (2021); advisers objected, MBS overruled	CONFIRMED	NYT	2025-01-06
+E-090	N-076	N-077	FOUNDER	Kushner founded Affinity day after leaving WH (Jan 21, 2021)	CONFIRMED	Wikipedia	2025-01-06
+E-091	N-079	N-078	CONTROLS	MBS controls PIF; personally overruled advisers on Kushner investment	CONFIRMED	NYT	2025-01-06
+E-092	N-077	N-083	ACQUIRER	Affinity gets 5% equity in $55B EA acquisition; Kushner brokered deal	CONFIRMED	Yahoo Finance	2025-01-06
+E-093	N-078	N-083	ACQUIRER	PIF takes majority stake in $55B EA acquisition (largest LBO ever)	CONFIRMED	Bloomberg	2025-01-06
+E-094	N-080	N-081	FOUNDER	Wright founded Liberty Energy 2011; held $40M+ in stock	CONFIRMED	OpenSecrets	2025-01-06
+E-095	N-080	N-082	BOARD_MEMBER	Wright was Oklo board member before Energy Sec appointment	CONFIRMED	Wikipedia	2025-01-06
+E-097	N-076	N-079	FACILITATOR	Kushner brokered EA deal; maintains MBS relationship post-WH	CONFIRMED	Yahoo Finance	2025-01-06
+E-112	N-090	N-089	DONOR	Hamm donated $250K to Burgum PAC; $50M to TR Presidential Library	CONFIRMED	Center for Western Priorities	2026-01-06
+E-113	N-090	N-091	FOUNDER	Hamm founded Continental Resources; took private 2022	CONFIRMED	Wikipedia	2026-01-06
+E-115	N-089	N-080	POLICY_OVERLAP	Burgum and Wright jointly lead Venezuela oil recovery effort	CONFIRMED	Bloomberg	2026-01-06
+E-116	N-089	N-091	ROYALTIES	Burgum receives $50K/yr in mineral royalties from Continental	CONFIRMED	2023 disclosure	2026-01-06
+E-117	N-080	N-092	COORDINATOR	Wright meeting Chevron execs at Goldman Sachs Miami on Venezuela	CONFIRMED	The Hill	2026-01-06
+E-118	N-080	N-093	COORDINATOR	Wright meeting ConocoPhillips execs on Venezuela	CONFIRMED	CBS News	2026-01-06
+E-119	N-080	N-094	COORDINATOR	Wright meeting ExxonMobil execs on Venezuela	CONFIRMED	CBS News	2026-01-06
+E-140	N-103	N-105	BOARD_CHAIR	Zeldin chaired AFPI Pathway to 2025 + China Policy Initiative	CONFIRMED	AFPI	2026-01-06
+E-141	N-104	N-105	FOUNDER	Tim Dunn co-founded AFPI; explicitly called for ending CO2 regulations at 2023 event	CONFIRMED	DeSmog	2026-01-06
+E-143	N-103	N-106	PAID_OP_ED	CGCN paid Zeldin $98K for op-eds (Newsweek, WashEx, WashTimes, RealClear) + $40K unpublished	CONFIRMED	E&E News	2026-01-06
+E-145	N-103	N-108	CONSULTANT	Heritage Advisors paid Zeldin >$5K consulting Apr-Dec 2023	CONFIRMED	OGE 278	2026-01-06
+E-146	N-107	N-108	FOUNDER	Sheikh Sultan founded Heritage Advisors (London VC)	CONFIRMED	Heritage website	2026-01-06
+E-147	N-103	N-109	PAID_OP_ED	CRC Advisors paid Zeldin $3K for Fox News op-ed	CONFIRMED	OGE 278	2026-01-06
+E-149	N-109	N-092	CLIENT	CRC Advisors represents Chevron	CONFIRMED	Rolling Stone	2026-01-06
+E-152	N-104	N-103	BENEFICIARY	Tim Dunn benefits from Zeldin's Endangerment Finding repeal (CrownQuest fracking)	HIGH	Circumstantial	2026-01-06
+E-153	N-111	N-103	DEPUTY	Fotouhi is EPA Deputy Administrator under Zeldin	CONFIRMED	EPA	2026-01-06
+E-154	N-111	N-115	PARTNER	Fotouhi was Gibson Dunn partner; earned $3.2M in 2024	CONFIRMED	OGE 278	2026-01-06
+E-155	N-115	N-092	CLIENT	Gibson Dunn represented Chevron in pollution cases	CONFIRMED	ProPublica	2026-01-06
+E-157	N-112	N-103	SUBORDINATE	Szabo is EPA Asst Admin for Air/Radiation under Zeldin	CONFIRMED	EPA	2026-01-06
+E-158	N-112	N-106	LOBBYIST	Szabo was CGCN Group lobbyist (same firm that paid Zeldin)	CONFIRMED	E&E News	2026-01-06
+E-159	N-112	N-105	ADVISOR	Szabo was AFPI advisor (same org Zeldin chaired)	CONFIRMED	Whitehouse stmt	2026-01-06
+E-161	N-113	N-103	SUBORDINATE	Beck is EPA Principal Deputy for Chemical Safety under Zeldin	CONFIRMED	EPA	2026-01-06
+E-162	N-113	N-114	EXECUTIVE	Beck was ACC Senior Director for 5+ years	CONFIRMED	NYT	2026-01-06
+E-201	N-109	N-092	CLIENT	CRC Advisors represents Chevron; ran anti-climate campaign during BLM protests 2020	CONFIRMED	E&E News	2026-01-06
+E-203	N-135	N-136	PARTNER	Consumers Research largest donor to SFOF; coordinate anti-ESG campaigns	CONFIRMED	Democracy Forward	2026-01-06
+E-204	N-109	N-136	CONSULTANT	CRC Advisors consults with SFOF; sent most staff to 2022 meeting	CONFIRMED	SFOF Exposed	2026-01-06

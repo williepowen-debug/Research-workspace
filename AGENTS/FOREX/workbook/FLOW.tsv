@@ -1,0 +1,5 @@
+ID	Trigger	Transmission	Endpoint	Agents_Affected	Status	Last_Validated
+FLOW-FOREX-01	BOJ surprise OR coordinated intervention	Yen strengthens >3% → Carry margin calls → Risk asset liquidation → USD/JPY-SPX correlation transmits → VIX spike → Credit spreads widen	Global risk-off; LIQUID funding stress	SAM, LIQUID, REGINALD	ARMED	2026-01-26
+FLOW-FOREX-02	Cross-currency basis >50bps	Offshore dollar shortage → EM CB reserve draw → Currency defense fails → Contagion	EM credit crisis	LIQUID, MARCO	LATENT	2026-01-26
+FLOW-FOREX-03	Single EM crisis → contagion	Capital flight → Investors reduce EM broadly → EM FX basket -5%+ weekly → Reserve depletion → Multi-country stress	DM risk-off	MARCO, CARL	LATENT	2026-01-26
+FLOW-FOREX-04	CNY fixing >7.50 OR unannounced band change	China deval → Trading partner competitiveness loss → Retaliatory deval OR tariffs → Trade war escalation	Supply chain disruption; global growth	BARON, CARL	LATENT	2026-01-26

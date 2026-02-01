@@ -1,0 +1,38 @@
+ID	From	To	Type	Evidence	Confidence	Source	Date_Added
+E-176	N-118	N-025	REGULATOR	Carr (FCC) regulates platforms like Rumble; potential favoritism	HIGH	Circumstantial	2026-01-06
+E-208	N-118	N-140	GIFT	Paramount gave Carr $11,724 Kennedy Center tickets Dec 2024 while merger pending	CONFIRMED	OGE 278/AccountableUS	2026-01-06
+E-209	N-118	N-140	REGULATOR	Carr approved Paramount-Skydance merger Jul 2025 after $16M Trump settlement	CONFIRMED	FCC	2026-01-06
+E-210	N-118	N-141	APPROVER	FCC approved Skydance $8B Paramount acquisition with DEI concessions	CONFIRMED	FCC Jul 2025	2026-01-06
+E-211	N-118	N-137	REGULATOR_FAVORITISM	Carr supports eliminating 39% ownership cap; Sinclair CEO predicts H1 2026 change	CONFIRMED	TheDesk	2026-01-06
+E-212	N-138	N-137	EXECUTIVE	David D. Smith is Sinclair executive chairman since 1990	CONFIRMED	Wikipedia	2026-01-06
+E-214	N-118	N-143	EXEMPTED	Fox is ONLY major network exempted from Carr's investigations despite Dominion findings	CONFIRMED	NPR/Yahoo	2026-01-06
+E-215	N-142	N-143	CONTROLS	Rupert Murdoch controls Fox Corporation; Trump ally	CONFIRMED	Public	2026-01-06
+E-226	N-137	N-144	MERGER_TALKS	Sinclair in merger talks with E.W. Scripps; needs ownership rule change	CONFIRMED	Deadline	2026-01-06
+E-228	N-138	N-145	CO_OWNER	Smith and Williams co-own Baltimore Sun (Jan 2024)	CONFIRMED	NPR	2026-01-06
+E-229	N-138	N-150	OWNER	David Smith acquired Baltimore Sun from Alden Global Jan 2024	CONFIRMED	BaltSun	2026-01-06
+E-230	N-145	N-150	CO_OWNER	Armstrong Williams co-owns Baltimore Sun with Smith	CONFIRMED	NPR	2026-01-06
+E-232	N-145	N-148	FOUNDER	Armstrong Williams founded Howard Stirk Holdings (Sinclair sidecar)	CONFIRMED	WashInformer	2026-01-06
+E-233	N-137	N-147	CONTROLS	Sinclair controls Cunningham via Smith family estate trusts (90%+ stock)	CONFIRMED	Wikipedia	2026-01-06
+E-234	N-137	N-148	AFFILIATE	Howard Stirk Holdings operates as Sinclair sidecar; purchases stations for Sinclair	CONFIRMED	MediaMatters	2026-01-06
+E-235	N-138	N-146	EMPLOYER	Smith moved to Exec Chair Jan 2017; Ripley became CEO	CONFIRMED	Wikipedia	2026-01-06
+E-236	N-146	N-137	CEO	Chris Ripley is Sinclair President/CEO since Jan 2017	CONFIRMED	Bloomberg	2026-01-06
+E-237	N-137	N-149	HOSTILE_BID	Sinclair bought 9.9% stake; offered $7/share; Scripps rejected with poison pill	CONFIRMED	Deadline	2026-01-06
+E-240	N-137	N-151	EMPLOYER	Sinclair hired Boris Epshteyn as Chief Political Analyst Apr 2017; "must-run" segments	CONFIRMED	TheHill	2026-01-06
+E-246	N-146	N-118	BENEFICIARY	Ripley predicts H1 2026 ownership cap elimination by Carr; enables consolidation	CONFIRMED	TheDesk	2026-01-06
+E-247	N-152	N-144	FOUNDER	Perry Sook founded Nexstar 1996 with single station WYOU Scranton; built to largest US TV owner	CONFIRMED	Wikipedia	2026-01-06
+E-248	N-152	N-144	CEO	Sook is Chairman/President/CEO; contract extended through 2026	CONFIRMED	Bloomberg	2026-01-06
+E-249	N-144	N-153	ACQUIRER	Nexstar to acquire Tegna for $6.2B (Aug 2025); shareholders approved Nov 2025; awaiting FCC	CONFIRMED	Variety	2026-01-06
+E-250	N-144	N-154	OWNER	Nexstar acquired The Hill for $130M Aug 2021	CONFIRMED	Nexstar PR	2026-01-06
+E-251	N-144	N-155	OWNER	Nexstar launched NewsNation Mar 2021 (rebranded from WGN America)	CONFIRMED	Wikipedia	2026-01-06
+E-252	N-144	N-156	MAJORITY_OWNER	Nexstar acquired 75% of The CW Oct 2022; Paramount/WBD retain 12.5% each	CONFIRMED	Variety	2026-01-06
+E-254	N-118	N-144	REGULATOR	Carr must approve Tegna acquisition; Nexstar seeking 39% cap waiver	CONFIRMED	Variety	2026-01-06
+E-259	N-144	N-137	CONSORTIUM	Nexstar and Sinclair formed spectrum aggregation consortium 2018	CONFIRMED	Nexstar PR	2026-01-06
+E-260	N-152	N-118	BENEFICIARY	Sook needs Carr's ownership cap elimination/waiver for Tegna deal	HIGH	Circumstantial	2026-01-06
+E-261	N-144	N-140	LEVERAGE	Nexstar preempted Kimmel hours after Carr threat; viewed as currying FCC favor for Tegna deal	HIGH	Benzinga	2026-01-06
+E-282	N-165	N-166	FOUNDER	Chris Ruddy founded Newsmax 1998; CEO	CONFIRMED	Wikipedia	2026-01-06
+E-284	N-165	N-118	OPPONENT	Ruddy opposes Carr's ownership cap elimination; says it would "silence Republicans"	CONFIRMED	Newsmax/InsideRadio	2026-01-06
+E-285	N-165	N-137	OPPONENT	Ruddy opposes Sinclair's consolidation; says cap lift helps big networks crush smaller players	CONFIRMED	NAB statement	2026-01-06
+E-286	N-165	N-144	OPPONENT	Ruddy opposes Nexstar-Tegna merger; lobbied Trump against ownership cap change	CONFIRMED	Axios	2026-01-06
+E-288	N-166	N-167	COALITION	Newsmax + OAN + CPAC aligned AGAINST Sinclair/Nexstar on ownership cap	CONFIRMED	InsideRadio	2026-01-06
+E-291	N-137	N-118	LOBBYING	Sinclair pushing Carr to eliminate ownership cap; needs for Scripps merger	CONFIRMED	TheDesk	2026-01-06
+E-292	N-144	N-118	LOBBYING	Nexstar pushing Carr to eliminate ownership cap; needs for $6.2B Tegna deal	CONFIRMED	Variety	2026-01-06

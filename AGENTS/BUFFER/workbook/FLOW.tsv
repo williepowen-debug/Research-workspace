@@ -1,0 +1,7 @@
+FLOW_ID	From_Buffer	To_Stress_Agent	Mechanism	Speed	Current_Status	Notes
+FLOW-BUF-001	FED (rate cuts, SRF, swaps)	LIQUID (repo, SOFR, RRP)	Fed tools directly absorb funding stress; SRF designed for repo dislocations	HOURS	Buffer INTACT; no tools activated	If SRF activates → stress real but absorbed
+FLOW-BUF-002	BNK (CET1, FHLB, reserves)	REGINALD (bank losses, deposits)	Capital cushion absorbs credit losses; FHLB provides liquidity backstop	WEEKS-MONTHS	Buffer INTACT; FHLB consuming	FHLB is most consumed buffer (~73% of capacity)
+FLOW-BUF-003	MKT (buybacks, passive, foreign)	HENRY (valuation, concentration)	Structural flows support prices despite overvaluation; inelastic multiplier amplifies	CONTINUOUS	Buffer ACTIVE; supporting ATH	$1.5T+ annual mechanical demand
+FLOW-BUF-004	HH (savings, home equity, DSR)	CARL (consumer credit, DQ)	Household buffers absorb income shocks; savings prevent DQ conversion	WEEKS-MONTHS	Buffer SPLIT; bottom 50% depleted, top 40% intact	K-shape = partial buffer failure
+FLOW-BUF-005	POL (forbearance, fiscal, TGA)	CREED (CRE maturity, mods)	Regulatory forbearance extends timelines; fiscal tools support through downturns	MONTHS-YEARS	Buffer AVAILABLE; not activated	Historical precedent: 2009-2012 CRE forbearance lasted 3+ years
+FLOW-BUF-006	INT (swaps, reserves, GPIF)	SAM (Japan fiscal, JGB, yen)	International coordination absorbs cross-border stress; swap lines prevent dollar shortage	HOURS-DAYS	Buffer INTACT; swap lines standing	GPIF is the weak link (potential forced seller)

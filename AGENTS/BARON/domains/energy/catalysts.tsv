@@ -1,0 +1,13 @@
+ID	Date	Event	Nodes	Tickers	Expected_Impact	Status
+CAT-041	ONGOING	Wyden Affinity Partners investigation	N-076,N-077,N-078	-	Senate probe of foreign govt money to Trump family; $87M fees, zero returns	MONITORING
+CAT-042	RESOLVED	Wright ethics waiver decision	N-080,N-081,N-082	LBRT,OKLO	Wright divested LBRT $50M Feb 2025; forfeited Oklo RSUs; 1yr Oklo recusal; BUT Markey alleges conflict re plutonium/reprocessing; DOE says "compliant"; created policies benefiting Oklo anyway	MONITORING
+CAT-043	ONGOING	Saudi $600B investment tracking	N-078,N-079	-	Needs higher oil to fund; tracking actual vs pledged investment flows	MONITORING
+CAT-044	ONGOING	OPEC+ production decisions	N-079	-	MBS controlling supply to keep prices low for Trump; hurts US shale	MONITORING
+CAT-050	2026-01	Maduro captured by US forces	N-089,N-080,N-092,N-093,N-094	CVX,COP,XOM	Oil stocks rallied; CVX +5.1%, HAL/SLB +10%+	OCCURRED
+CAT-051	ONGOING	Venezuela oil infrastructure investment	N-089,N-080,N-090	CVX,COP,XOM,LBRT	$100-183B needed; Wright/Burgum leading; decade timeline	MONITORING
+CAT-052	ONGOING	Raskin/Wyden $1B quid pro quo investigation	N-090,N-089	-	Probing Apr 2024 Mar-a-Lago meeting; Continental $1M donation	MONITORING
+CAT-053	TBD	ConocoPhillips $10B Venezuela recovery	N-093	COP	Arbitration award from 2007 expropriation; could be paid under new regime	MONITORING
+CAT-054	TBD	ExxonMobil $2.6B Venezuela recovery	N-094	XOM	Claims from expropriation; CEO cautious on re-entry	MONITORING
+CAT-055	ONGOING	Wright Goldman Sachs Miami meetings	N-080,N-092,N-093,N-094	CVX,COP,XOM	Meeting oil execs on Venezuela; industry reluctant	MONITORING
+CAT-085	ONGOING	Markey investigation of Wright/Oklo	N-080,N-082	OKLO	Markey alleges conflict re 20 MT weapons-usable plutonium transfer + $1.7B Oklo reprocessing plant; demands recusal docs; DOE says "compliant"	MONITORING
+CAT-086	2025-05-23	Trump nuclear EOs	N-080,N-082	OKLO	4 EOs bypassing NRC; DOE authority to approve reactors; 47 regs eliminated; Oklo CEO DeWitte in Oval Office for signing; Reactor Pilot Program created	OCCURRED

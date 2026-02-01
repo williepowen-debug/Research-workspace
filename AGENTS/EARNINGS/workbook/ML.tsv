@@ -1,0 +1,11 @@
+ID	Date	Session	Category	Observation	Vectors_Affected	Source	Confidence
+ML-EARN-001	2026-01-26	000	Beat Rate	Q4 2025 EPS beat rate at 75% (13% reported) — below 5Y avg (78%) and 10Y avg (76%). Surprise magnitude +5.3% also below 5Y avg (7.7%).	VX-EARN-001	FactSet	80%
+ML-EARN-002	2026-01-26	000	Guidance	47% of companies issuing positive guidance — above 5Y avg (42%) and 10Y avg (40%). 107 companies reported guidance. Constructive outlook.	VX-EARN-002	FactSet	85%
+ML-EARN-003	2026-01-26	000	Growth	Blended YoY EPS growth +8.2% for Q4 2025. If achieved, marks 10th consecutive quarter of earnings growth.	VX-EARN-008	FactSet	85%
+ML-EARN-004	2026-01-26	000	Concentration	Big 6 tech (Mag 7 ex-TSLA) expected to drive 60%+ of S&P 500 earnings growth. Average expected growth +19-25%. Concentration risk elevated.	VX-EARN-005	FactSet/WSH	80%
+ML-EARN-005	2026-01-26	000	Outlook	Analysts projecting +12.6% Q1 2026, +14.6% Q2 2026, +14.9% CY 2026 earnings growth. Technology sector expected +25%+.	VX-EARN-008	FactSet	75%
+ML-EARN-006	2026-01-30	001	Mag 7	AAPL Q4 CY2025 RECORD: Revenue $143.8B (+16% YoY), EPS $2.84 (+19%), beat estimates +6.4%. All-time records for revenue, EPS, iPhone, services. Gross margin 48.2%.	VX-EARN-005	Apple/MacRumors	95%
+ML-EARN-007	2026-01-30	001	Mag 7	MSFT FQ2 2026 BEAT: Revenue $81.3B (+17% YoY), EPS $5.16 (+60%), Azure +39%, Microsoft Cloud $51.5B (+26%). Enterprise AI backbone thesis validated.	VX-EARN-005	Microsoft/InvestmentNews	95%
+ML-EARN-008	2026-01-30	001	Mag 7	META Q4 2025 BEAT: Revenue $59.9B (+24% YoY), FY revenue $201B (+22%), EPS $8.88. Guided 2026 capex $115-135B for AI data centers.	VX-EARN-005	Meta/InvestmentNews	95%
+ML-EARN-009	2026-01-30	001	Mag 7	TSLA Q4 2025 MIXED: Revenue $24.9B (-3% YoY decline), GAAP EPS $0.24, non-GAAP $0.50. Gross margin 20.1%. Revenue down but still profitable; AI/energy pivot.	VX-EARN-005	Tesla/InvestmentNews	90%
+ML-EARN-010	2026-01-30	001	Week Summary	Mag 7 Week 1 Complete: 3 BEAT (AAPL, MSFT, META), 1 MIXED (TSLA). Concentration risk thesis VALIDATED but results supportive. 3 pending: GOOGL, AMZN (Feb), NVDA (late Feb).	VX-EARN-005	Multiple	90%

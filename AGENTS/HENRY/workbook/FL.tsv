@@ -1,0 +1,31 @@
+ID	Date	Event	Why_Watching	Priority	Target_Date
+FL-HEN-001	2026-01-26	Session 001 Baseline	COMPLETE - Established baseline readings for all 11 vectors from primary sources	DONE	2026-01-26
+FL-HEN-002	2026-01-26	FOMC Meeting	Fed policy decision; rate path affects ERP calculation and risk appetite	HIGH	2026-01-29
+FL-HEN-003	2026-01-26	Mag 7 Earnings Season	NVDA, AAPL, MSFT, AMZN, GOOGL, META, TSLA Q4 earnings; concentration risk catalyst	HIGH	2026-01-28 to 2026-02-15
+FL-HEN-004	2026-01-26	Q4 2025 GDP Release	Updates Buffett Indicator denominator	MEDIUM	2026-01-30
+FL-HEN-005	2026-01-26	Fed Z.1 Release	Updates household equity allocation (Q4 2025 data)	MEDIUM	2026-03-12
+FL-HEN-006	2026-01-26	CAPE Monthly Update	Shiller P/E monthly refresh	MEDIUM	2026-02-01
+FL-HEN-007	2026-01-26	Breadth Deterioration Watch	If % >200 DMA drops below 50%, escalate concentration concern	HIGH	Ongoing
+FL-HEN-008	2026-01-26	Private Credit Maturity Wall	~$300B+ private debt matures in 2025-2026 ZIRP vintage; refinancing risk if rates stay elevated	HIGH	2025-2026
+FL-HEN-009	2026-01-26	NAIC SVO Fund Alignment Project	Regulatory ruling on Rated Note Feeder treatment; could force insurance divestment of private credit	HIGH	TBD (2026)
+FL-HEN-010	2026-01-26	Retail Gating Events Monitor	Watch 8-K filings for BCRED, SREIT, other non-traded vehicles for redemption proration/suspension	ELEVATED	Ongoing
+FL-HEN-011	2026-01-26	0DTE Gamma Flip Breach	Monitor SPX vs Gamma Flip level; breach indicates removal of dealer bid support	ELEVATED	Ongoing
+FL-HEN-012	2026-01-26	ETF Discount Monitor (LQD/HYG)	Watch for >1% discount to NAV indicating AP withdrawal and arbitrage mechanism stress	ELEVATED	Ongoing
+FL-HEN-013	2026-01-26	Passive Share 60% Threshold	Academic simulations suggest efficiency degrades non-linearly beyond 60%; currently 55%	MEDIUM	Ongoing
+FL-HEN-014	2026-01-26	OCC Intraday Risk Charge Impact	Monitor broker restrictions during volatile days following Sep 2025 rule implementation	MEDIUM	Ongoing
+FL-HEN-015	2026-01-26	Zweig Breadth Thrust 12-Month Window	ZBT triggered Nov 28 2025; 100% historical success for positive returns by Nov 2026; track for validation/invalidation	HIGH	2026-11-28
+FL-HEN-016	2026-01-26	S&P 500 December Low Defense (6,720)	Critical support level; breach = >80% bear market probability per historical pattern	CRITICAL	Ongoing
+FL-HEN-017	2026-01-26	Russell 2000 Breakout Hold	Must hold 2025 breakout levels to validate "Great Rotation" thesis; failure = 2021 liquidity withdrawal replay	HIGH	Ongoing
+FL-HEN-018	2026-01-26	Bitcoin Convergence Watch	BTC down 25% while SPX at ATH; watch for SPX convergence (catch down) - mirrors Nov 2021 pattern with 2-month lead	HIGH	Ongoing
+FL-HEN-019	2026-01-26	Insider Ratio Normalization	Watch for sell/buy ratio decline from 13.56 extreme; sustained high = continued distribution phase	ELEVATED	Ongoing
+FL-HEN-020	2026-01-26	Margin Debt Monthly Peak	Historical pattern: margin debt peaks 0-3 months before equity peak (2007 led by 3mo, 2021 led by 2mo); watch for monthly decline	HIGH	Monthly
+FL-HEN-021	2026-01-26	Credit Spread Divergence	HY bond breadth diverging from equity; if spreads widen materially, equity rotation will fail	ELEVATED	Ongoing
+FL-HEN-022	2026-01-26	Esoteric Catalyst Watch	Historical catalysts are often regulatory/narrative shifts not macro data; monitor for Rostenkowski/Barron's-type events	MEDIUM	Ongoing
+FL-HEN-023	2026-01-26	Tech Sector Breadth Deterioration	Tech at 52.85% above 200DMA - lowest major sector; if drops below 40% while index holds, internal rot confirmed	HIGH	Ongoing
+FL-HEN-024	2026-01-26	Employment Data - Structural Bid Trigger	KEY TRIGGER: 401(k) flows tied to payrolls; unemployment spike = flow reversal = Structural Bid collapse; NFP and claims critical	CRITICAL	Monthly/Weekly
+FL-HEN-025	2026-01-26	Passive Flow Reversal Watch	Monitor ICI/Morningstar for first monthly net outflow from passive equity funds; would signal regime change	CRITICAL	Monthly
+FL-HEN-026	2026-01-26	S&P 500 Buyback Quarterly Report	S&P Global releases quarterly buyback data; watch for YoY decline signaling corporate bid weakening	HIGH	Quarterly
+FL-HEN-027	2026-01-26	Buyback Blackout Windows	Corporate buybacks pause ~2 weeks before earnings; creates temporary removal of bid support; Q1 reporting season	MEDIUM	Quarterly
+FL-HEN-028	2026-01-26	TIC Foreign Flow Data	Treasury International Capital data shows foreign demand for US equities; watch for reversal in "TINA" dynamic	ELEVATED	Monthly
+FL-HEN-029	2026-01-26	Air Pocket Risk Events	High-volatility catalysts where liquidity may evaporate: FOMC, CPI surprises, geopolitical shocks; no elastic buyers to cushion	HIGH	Event-driven
+FL-HEN-030	2026-01-26	Passive Doom Loop Early Warning	Vol-control fund positioning; if VIX spikes >25, watch for systematic selling cascade into illiquid market	ELEVATED	Ongoing

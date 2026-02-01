@@ -1,0 +1,78 @@
+ID	Name	Type	Cluster	Role	Policy_Control	Holdings	Tickers	Status
+N-001	Scott Bessent	GOV	C4	Treasury Secretary	CFIUS, IRS, sovereign wealth fund	SPY/RSP/QQQ $50M+ each; divested Key Square $521M	SPY,RSP,QQQ	ACTIVE
+N-002	Howard Lutnick	GOV	C3	Commerce Secretary	CHIPS $280B, CFIUS, tariffs	Via sons: Tether 5%, Rumble, Strive	RUM	ACTIVE
+N-003	Brandon Lutnick	PERSON	C3	Cantor Equity Partners	SPAC vehicles	Twenty One Capital, CEP	CLBR.U	ACTIVE
+N-005	David Sacks	GOV	C2	AI/Crypto Czar	AI policy, crypto EOs, stablecoin	449 AI cos retained; BitGo 7.8%; Craft Ventures	PLTR,UBER,RDDT,OPEN,BTGO	ACTIVE
+N-006	Peter Thiel	PERSON	C2	None (network hub)	Indirect via network	Palantir 49.99% voting; Founders Fund	PLTR	ACTIVE
+N-007	JD Vance	GOV	C2	Vice President	Senate tiebreaker	Unknown	-	ACTIVE
+N-008	Jacob Helberg	GOV	C2	State Dept advisor	Tech policy	Palantir advisor	PLTR	ACTIVE
+N-009	Colin Carroll	GOV	C2	CoS to Deputy SecDef	Procurement influence	Former Anduril	-	ACTIVE
+N-010	Clark Minor	GOV	C2	CIO HHS	HHS tech procurement	Former Palantir 13 yrs	PLTR	ACTIVE
+N-020	Tether	CO	C3	Stablecoin issuer	-	$137B reserves; Cantor custody	-	ACTIVE
+N-021	Twenty One Capital	CO	C3	Bitcoin SPAC	-	$3B target; Tether/SoftBank backed	-	PENDING
+N-028	Craft Ventures	FUND	C2	Sacks VC fund	-	449 AI cos; BitGo 7.8%	PLTR,UBER,RDDT,OPEN,BTGO,FLD	ACTIVE
+N-029	Palantir	CO	C2	Defense/data AI	-	Thiel 49.99% voting; Sacks investor	PLTR	ACTIVE
+N-030	Anduril	CO	C2	Defense AI	-	Founders Fund; 1789 investor; OSC $159M loan	-	ACTIVE
+N-034	BitGo	CO	C2	Crypto custody/stablecoin infra	-	Craft 7.8% ($130M+); S-1 filed Sep 2025; OCC bank charter Dec 2025; USD1 custodian (Trump WLF stablecoin); GENIUS Act beneficiary	BTGO	PENDING IPO
+N-035	Uber	CO	C2	Rideshare	-	Craft investor; GSA contract	UBER	ACTIVE
+N-036	Reddit	CO	C2	Social platform	-	Craft investor	RDDT	ACTIVE
+N-037	Opendoor	CO	C2	Real estate	-	Craft investor	OPEN	ACTIVE
+N-038	Founders Fund	FUND	C2	Thiel VC	-	Palantir, Anduril, SpaceX, Scale AI	PLTR	ACTIVE
+N-040	Key Square	FUND	C4	Bessent hedge fund	-	$521M divested; LP network unknown	-	DIVESTED
+N-048	Fold	CO	C2	Bitcoin rewards	-	Craft led Series A; public Feb 2025	FLD	ACTIVE
+N-049	Affirm	CO	C2	BNPL	-	Craft investor	AFRM	ACTIVE
+N-050	Eventbrite	CO	C2	Events platform	-	Craft investor	EB	ACTIVE
+N-051	Derek Theurer	GOV	C4	Deputy Treasury Secretary (PDO)	Tax policy, legislative affairs	Unknown	-	ACTIVE
+N-052	Michael Friedman	GOV	C4	Treasury Chief of Staff	Internal operations	Unknown	-	ACTIVE
+N-053	Christopher Pilkerton	GOV	C4	Acting GC + Asst Sec Investment Security nominee	CFIUS legal authority	Unknown	-	ACTIVE
+N-055	Dialog Forum	ORG	C2	Thiel elite network	Policy coordination	Tech Bilderberg - Thiel, Sacks, Bessent	-	ACTIVE
+N-057	Gene Lange	GOV	C4	Treasury Counselor	Macro advisory	Former Key Square (Bessent fund) Senior MD	-	ACTIVE
+N-059	Galaxy Digital	CO	C2	Crypto firm	-	Mike Novogratz; Treasury personnel pipeline (Williams)	GLXY	ACTIVE
+N-061	Dyan Gibbens	PERSON	C4	Trumbull CEO	None direct	Co-founder/CEO Trumbull; AFWERX advisor; G7 delegate	-	ACTIVE
+N-064	Twenty One Capital	CO	C3	Bitcoin treasury company	-	43,514 BTC ($4B); Tether/Bitfinex majority; SoftBank minority	XXI	ACTIVE
+N-065	BSTR Holdings	CO	C3	Bitcoin treasury company	-	30,000+ BTC target; Adam Back CEO; Cantor SPAC	CEPO	PENDING
+N-066	Adam Back	PERSON	C3	Blockstream CEO	None direct	Hashcash inventor; contributing 25K BTC to BSTR	-	ACTIVE
+N-067	Jack Mallers	PERSON	C3	Twenty One Capital CEO	None direct	Strike founder; leads XXI	XXI	ACTIVE
+N-068	SoftBank	FUND	C3	Investment holding company	None direct	Minority stake in Twenty One Capital	-	ACTIVE
+N-069	Stephen Miran	GOV	C4	CEA Chair + Fed Governor	Economic policy, monetary policy, tariffs	Hudson Bay bonus Feb 2025; spouse $1.4M ECPI income; Amberwave co-founder	-	CRITICAL
+N-070	Hudson Bay Capital	FUND	C4	Hedge fund	-	$30B AUM; holds NVDA, GOOGL, MSFT, TSLA, IBIT; Miran wrote tariff paper here	NVDA,GOOGL,MSFT,TSLA,IBIT	ACTIVE
+N-071	Amberwave Partners	FUND	C4	Defunct investment firm	-	Co-founded by Miran, Katz, Dans (Treasury alums); had IUSA ETF; shut down 2023	-	DEFUNCT
+N-072	xLight Inc	CO	C3	Semiconductor startup	-	EUV lithography; $150M CHIPS grant (first Trump 2.0 R&D award Dec 2025); govt equity stake; Gelsinger pitched Lutnick Feb 2025 BEFORE confirmation	-	CRITICAL
+N-073	Pat Gelsinger	PERSON	C3	Former Intel CEO	None direct	xLight Exec Chair; Playground Global GP; pitched Lutnick pre-confirmation	-	ACTIVE
+N-074	Playground Global	FUND	C3	VC fund	-	$1.2B AUM; xLight investor; LPs include Foxconn, Seagate, Google, Tencent	-	ACTIVE
+N-075	Tesla	CO	C3	EV manufacturer	-	Lutnick promoted on Fox; Cantor holds ~$840M; Musk-Trump alliance	TSLA	CRITICAL
+N-095	Skydio	CO	C3	Defense drones	-	Playground portfolio; $12.3M Army SRR FY25 (incl $7.9M Tranche 2); $74M State Dept; Blue UAS approved	-	ACTIVE
+N-097	PsiQuantum	CO	C3	Quantum computing	-	Playground portfolio; $10.8M Air Force contract (Apr 2025); DARPA evaluation; GlobalFoundries partner	-	ACTIVE
+N-098	Relativity Space	CO	C3	Space launch	-	Playground portfolio; DoD launch contracts; Space Force pipeline	-	ACTIVE
+N-099	uAvionix	CO	C3	Drone avionics	-	Playground portfolio (exited); FAA BVLOS contracts; IFF military transponders; acquired by DC Capital 2022	-	EXITED
+N-102	Ayar Labs	CO	C3	Silicon photonics	-	Playground portfolio; DARPA PIPES/POEM funded; Intel/Nvidia/AMD/GlobalFoundries investors	-	ACTIVE
+N-117	Russell Vought	GOV	C4	OMB Director	Budget, DOGE coordination, agency cuts	Wrote Chapter 2 (Executive Office); "Christian nationalist"; leads agency dismantling	-	CRITICAL
+N-120	Peter Navarro	GOV	C4	Senior Counselor Trade	Tariffs, manufacturing policy	Wrote Chapter 26 (Trade); convicted contempt; imprisoned 4 months	-	ACTIVE
+N-121	Lindsey Burke	GOV	C4	Education Dept Deputy CoS	Education policy dismantling	Wrote Chapter 11 (Education); Heritage 17 yrs; dismantling her own agency	-	ACTIVE
+N-122	Paul Atkins	GOV	C2	SEC Chairman	Securities regulation, crypto, SPAC approvals	$327M net worth; $6M crypto: Securitize $500K, Anchorage $500K, Off the Chain $5M; Patomak CEO; FTX advisor	-	CRITICAL
+N-126	Patomak Global Partners	ORG	C2	Regulatory consulting	-	Atkins founded; FTX client; 3 ex-SEC commissioners; $1,300/hr; $50M+ value	-	ACTIVE
+N-127	Anchorage Digital	CO	C2	Crypto custodian	-	$3B valuation; Atkins held $500K; investors: a16z, Goldman, KKR, BlackRock	-	ACTIVE
+N-128	Off the Chain Capital	FUND	C2	Crypto fund	-	Atkins LP $1-5M; invests in DCG, Kraken, Mt. Gox claims	-	ACTIVE
+N-133	JD Vance	GOV	C2	Vice President	Policy, succession	Teneo member since 2018; Thiel protege; praised Alex Jones at Teneo event	-	CRITICAL
+N-168	DOGE	ORG	C2	Dept of Govt Efficiency	Federal agencies, contracts, workforce	USDS temporary org; E.O. 14158/14222; sunset Jul 4 2026	-	CRITICAL
+N-169	Steve Davis	PERSON	C2	DOGE day-to-day operator	Cross-agency cuts	Boring Company President; Musk "fixer"; left May 2025 but still influential	-	ACTIVE
+N-170	Amy Gleason	PERSON	C2	USDS/DOGE Acting Administrator	Personnel actions signatory	Former nurse/healthcare tech; executes Musk-Davis decisions	-	ACTIVE
+N-172	Thomas Krause	PERSON	C4	DOGE Team Lead at Treasury	Payment systems	Cloud Software Group CEO; leads centralized payment system	-	ACTIVE
+N-173	Edward Coristine	PERSON	C2	DOGE at CISA	Cybersecurity systems	19yo "Big Balls"; alleged links to The Com cybercrime ring	-	RISK
+N-174	Kyle Schutt	PERSON	C2	DOGE at CISA/FEMA	Financial systems	Accessed FEMA core financial system; requested IFMIS source code	-	RISK
+N-175	Noah Peters	PERSON	C4	DOGE at OPM	Personnel policy	Project 2025 author; ghostwrote OPM mass firing memos	-	ACTIVE
+N-176	Mike Gonzalez	PERSON	C4	DOGE Senior Advisor at OPM	Strategic planning	Heritage Foundation; civil service overhaul	-	ACTIVE
+N-177	Brian Bjelde	PERSON	C2	DOGE Team Member at OPM	Personnel operations	Longtime SpaceX executive	-	ACTIVE
+N-179	Adam Ramada	PERSON	C4	DOGE Team Lead at Education/Labor	DEI purge	Venture capitalist; leading social agency DEI purge	-	ACTIVE
+N-180	Auren Hoffman	PERSON	C2	Dialog Forum co-founder	Elite networking	LiveRamp founder; organizes Dialog retreats	-	ACTIVE
+N-181	Winklevoss Twins	PERSON	C3	Gemini Exchange founders	Crypto regulation	Tyler & Cameron; Executive Branch Club founding members; Gemini	-	ACTIVE
+N-184	Andrew Ferguson	GOV	C4	FTC Chairman	Antitrust, mergers, EA/PIF review	Clarence Thomas clerk; McConnell counsel; attended MBS afterparty at Exec Branch Club Nov 2025; must approve EA/PIF $55B deal where MBS fund takes 93.4%	-	CRITICAL
+N-186	SpaceX	CO	C2	Space launch / Starlink	-	Musk-owned; $6.7B in DOGE-era contracts; regulatory relief	-	CRITICAL
+N-187	Vertical Semiconductor	CO	C3	AI power chips	-	Playground portfolio (Oct 2025 $11M seed); GaN transistors; 30% efficiency gain; MIT spinout; potential CHIPS candidate	-	MONITORING
+N-188	d-Matrix	CO	C3	AI inference chips	-	Playground portfolio; $2B valuation; $275M Series C; chiplet-based; 10x lower latency vs GPU; TSMC/ASE partners	-	MONITORING
+N-206	Palmer Luckey	PERSON	C2	Anduril Founder	None direct (defense contractor)	Founded Anduril 2017; $100K salary (vs $10.9M compensation); publicly endorsed Trump buyback EO; $900M Arsenal-1 plant; Founders Fund backed	-	ACTIVE
+N-207	Trae Stephens	PERSON	C2	Founders Fund Partner + Anduril Chairman	None direct (but DoD transition 2016)	Co-founded Anduril 2017; former Palantir; led Trump 2016 DoD transition team; Founders Fund partner since 2014; central Thiel network node	-	CRITICAL
+N-235	EcoFusion Solutions	CO	C2	Contractor scaling startup	-	Witt CEO/MD 2023-24; SEPARATE from unnamed PE firm; "helping independent contractors scale"; ZERO public records in GA/DE; multiple unrelated EcoFusion entities globally ruled out; likely light-footprint LLC or overstated role	-	CRITICAL GAP
+N-301	Kevin Warsh	GOV	C4	Fed Chair Nominee	Monetary policy, balance sheet, rates	Fed Governor 2006-2011 under Bush; Hoover Institution; historical hawk on balance sheet; recent dove on rates (AI productivity); confirmation uncertain (Tillis blocking)	-	CRITICAL
+N-302	Stanley Druckenmiller	PERSON	C4	Hedge fund legend	None direct (market influence)	Former Soros partner; Duquesne Family Office; close colleague of Warsh at Hoover; major macro voice; known for calling market moves	-	MONITORING
+N-303	Duquesne Family Office	FUND	C4	Druckenmiller family office	-	~$3B AUM; active macro trading; Druckenmiller's vehicle; 13F shows NVDA, MSFT positions	NVDA,MSFT	MONITORING

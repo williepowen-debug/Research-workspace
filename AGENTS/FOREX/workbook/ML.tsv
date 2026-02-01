@@ -1,0 +1,6 @@
+ID	Date	Session	Category	Observation	Vectors_Affected	Source	Confidence
+ML-FOREX-001	2026-01-26	000	Dollar	DXY fell 9.4% in 2025, largest annual drop since 2017. "Peak dollar" narrative now dominant. MUFG believes further declines ahead as valuation adjusts.	VX-FOREX-001	MUFG Research	85%
+ML-FOREX-002	2026-01-24	000	Intervention	NY Fed conducted rate checks on USD/JPY — first clear signal of potential US-Japan coordinated intervention. Rules of engagement have changed.	VX-FOREX-002	Reuters/Bloomberg	90%
+ML-FOREX-003	2026-01-25	000	Intervention	PM Takaichi warned Japan ready to act against speculative moves. Yen strengthened 3% over two sessions to ~154. Market now pricing joint intervention risk.	VX-FOREX-002	CNBC/Bloomberg	90%
+ML-FOREX-004	2026-01-26	000	Carry Trade	Yen carry trade size estimated at ~$261B — far smaller than feared claims of trillions. Gradual unwinding ongoing with no YoY growth last quarter.	VX-FOREX-007	Seeking Alpha	75%
+ML-FOREX-005	2026-01-20	000	EM	JP Morgan downgraded EM FX outlook — internal EM FX Risk Appetite Index in significantly overbought territory, exceeding typical sell signal threshold.	VX-FOREX-005	JP Morgan	80%

@@ -1,0 +1,42 @@
+ID	Name	Domain	Current_Value	Status	Depletion_Rate	Runway_Estimate	Last_Updated	Notes
+VX-BUF-1.01	Fed Funds Rate (room to cut)	FED	3.50-3.75% (~50-75bps to neutral)	GREEN	-75bps consumed (3 cuts since Sep 2025)	6-9 months	2026-01-27	FOMC Jan 28 hold expected (97%); dot plot shows 1 more cut 2026; buffer partially consumed
+VX-BUF-1.02	QE/QT Status	FED	QT ENDED Dec 1 2025; RMPs started Dec 12	GREEN	N/A (QT stopped; RMPs adding)	N/A	2026-01-27	Reserve Management Purchases = modest expansion; QT no longer draining
+VX-BUF-1.03	Standing Repo Facility (SRF)	FED	$500B capacity; $0 usage (post year-end)	GREEN	No stress usage	N/A	2026-01-27	$75B year-end spike (Dec 31) = arbitrage, not distress; back to $0 by Jan 2
+VX-BUF-1.04	Central Bank Swap Lines	FED	ACTIVE (standing)	GREEN	No stress usage	N/A	2026-01-27	5 major CB standing lines; available on demand
+VX-BUF-1.05	Fed Balance Sheet Capacity	FED	$6.57T (vs $8.9T peak)	GREEN	Stable (QT ended; RMPs offsetting)	N/A	2026-01-27	$2.3T below peak; QT ended = no longer shrinking; room to expand if needed
+VX-BUF-1.06	Discount Window Stigma	FED	REDUCED	YELLOW	N/A	N/A	2026-01-27	BTFP expired Mar 2024; DW normalized post-SVB but stigma returns in calm
+VX-BUF-1.07	Fed Chair Policy Stance (Warsh)	FED	WARSH NOMINATED (Jan 30)	ORANGE	N/A	May 2026 (if confirmed)	2026-01-30	Kevin Warsh nominated; historical hawk on balance sheet; QT acceleration risk; confirmation uncertain (Tillis blocking). WILLINGNESS buffer at risk even as CAPACITY unchanged.
+VX-BUF-2.01	Aggregate CET1 Ratio	BNK	~13.0% (vs 4.5% min)	GREEN	Stable	Years	2026-01-27	850bps+ above minimum; >99% of banks well-capitalized H1 2025
+VX-BUF-2.02	FHLB Lending Capacity	BNK	$742.8B out; ~$1.5T capacity (Q2 2025)	GREEN	Declining from 2023 peak ($810B)	$757B headroom (~50% available)	2026-01-27	CORRECTED: was $1.1T; actual $742.8B. Much more headroom than estimated. Upgrade from YELLOW.
+VX-BUF-2.03	FDIC Deposit Insurance Fund	BNK	1.28% reserve ratio (target 1.35%; DRR 2.00%)	YELLOW	Rebuilding; on track for 1.35% ahead of 2028 deadline	12-18 months to statutory min	2026-01-27	FDIC set DRR at 2.00% for 2026 (Nov 2025)
+VX-BUF-2.04	Loan Loss Reserves	BNK	1.75% allowance ratio	GREEN	Stable	Adequate	2026-01-27	Above pre-COVID levels
+VX-BUF-2.05	Undrawn Credit Commitments	BNK	~$3.5T system	GREEN	Minimal drawdown	12+ months	2026-01-27	Facilities available; drawdown = stress signal
+VX-BUF-2.06	Bank Cash/Securities	BNK	~$5.5T combined	GREEN	Stable	N/A	2026-01-27	HTM unrealized losses ($400B+) constraint but not cash flow issue
+VX-BUF-3.01	Net Equity Supply	MKT	-$800B/yr	GREEN	N/A	Ongoing	2026-01-27	REF: VX-HEN-8.01; supply shrinking
+VX-BUF-3.02	Corporate Buyback Rate	MKT	$1.02T/yr (Q3 2025: $249B)	GREEN	N/A	Ongoing	2026-01-27	REF: VX-HEN-8.02; Q3 +6.2% QoQ; 2025 on pace for $1T record; blackout season active thru Feb 15
+VX-BUF-3.03	Passive Flow Momentum	MKT	+$1.5T ETF inflows (2025 record)	GREEN	N/A	Accelerating	2026-01-27	REF: VX-HEN-8.03; CORRECTED from $380B — that was passive-only equity; total ETF = $1.5T; VOO alone $137.7B
+VX-BUF-3.04	401(k) Flow Stability	MKT	STABLE	GREEN	N/A	N/A	2026-01-27	REF: VX-HEN-8.04; automatic; inertia-based
+VX-BUF-3.05	Foreign Equity Demand	MKT	+$150B/yr	GREEN	N/A	Ongoing	2026-01-27	REF: VX-HEN-8.05; 18% foreign ownership; TINA
+VX-BUF-3.06	Inelastic Market Multiplier	MKT	5-17x	YELLOW	N/A	N/A	2026-01-27	REF: VX-HEN-8.06; amplifies both directions
+VX-BUF-3.07	Corporate Cash Reserves (Non-Fin S&P 500)	MKT	~$2.1T+ (NVDA+MSFT+GOOGL >$450B alone)	GREEN	Growing (AI capex $400B+ in 2025)	12+ months	2026-01-27	Capex rising to $539-700B 2026 est; cash being deployed into AI
+VX-BUF-3.08	Buyback Authorization Remaining	MKT	~$1.2T authorized	GREEN	~$250B/Q consumed	~5 quarters	2026-01-27	Pipeline of future buying; blackout window active Jan 15-Feb 15
+VX-BUF-3.09	Credit Facility Headroom (IG)	MKT	~$2.5T undrawn	GREEN	Minimal drawdown	Years	2026-01-27	No stress drawdown
+VX-BUF-4.01	Aggregate Savings Rate	HH	3.5% (Nov 2025)	ORANGE	Declining (was 5.8% early 2024; 3.7% Oct)	6-12 months to historic lows	2026-01-27	Next release Feb 20 (Dec data); below long-run avg 7.5%
+VX-BUF-4.02	Top 40% Savings Rate	HH	~8-10% (est)	GREEN	Slow decline	12+ months	2026-01-27	Equity gains + wage growth supporting
+VX-BUF-4.03	Bottom 50% Savings Rate	HH	~0-1% (est)	RED	Depleted	Already depleted	2026-01-27	CARL's domain; FAILED buffer
+VX-BUF-4.04	Aggregate Debt Service Ratio	HH	9.8%	GREEN	Stable/slight increase	12+ months	2026-01-27	Below 2007 peak 13.2%
+VX-BUF-4.05	Home Equity Cushion	HH	~30% equity (avg LTV ~70%)	YELLOW	Decelerating: Case-Shiller +1.4% YoY (Nov 2025)	12+ months nominal; REAL prices declining	2026-01-27	DOWNGRADE: was GREEN at +5% YoY. Tampa -3.9%, Phoenix -1.4%, Dallas -1.4%, Miami -1.0%. Real prices declining (CPI 2.7% > HPI 1.4%). Nominal still positive but eroding.
+VX-BUF-4.06	Retirement Account Balances	HH	~$40T (IRA+401k+DC)	GREEN	Growing +12% YoY	N/A	2026-01-27	Wealth effect supporting; but illiquid
+VX-BUF-4.07	Excess Savings (COVID remnant)	HH	~$0 (depleted Q3 2024)	RED	Fully depleted	Gone	2026-01-27	SF Fed estimates exhausted
+VX-BUF-5.01	Fiscal Stimulus Capacity	POL	Constrained ($38.4T debt; $41.1T ceiling)	ORANGE	+$2T+/yr debt growth	$2.7T headroom to ceiling	2026-01-27	Debt/GDP ~120%; OBBB added $5T ceiling Jul 2025
+VX-BUF-5.02	Regulatory Forbearance Tools	POL	AVAILABLE	GREEN	Not activated	N/A	2026-01-27	OCC/FDIC/FHFA have tools; unused
+VX-BUF-5.03	Treasury General Account	POL	$871B (Jan 21, 2026)	GREEN	Volatile (range $772-873B Jan)	Months	2026-01-27	UPGRADED from $700B; healthy level; debt ceiling no longer binding
+VX-BUF-5.04	State Rainy Day Funds	POL	~$140B aggregate	GREEN	Not drawn	Years	2026-01-27	Highest levels in history
+VX-BUF-5.05	Debt Ceiling Status	POL	RESOLVED: $41.1T limit (OBBB Act Jul 4, 2025)	GREEN	$2.7T headroom ($38.4T current)	~2 years at current pace	2026-01-27	UPGRADE from ORANGE. $5T increase via One Big Beautiful Bill Act. Exhaustion projected mid-2027.
+VX-BUF-5.06	Regulatory Accounting Flexibility	POL	AVAILABLE (not invoked)	GREEN	N/A	N/A	2026-01-27	HTM classification; CECL flexibility
+VX-BUF-6.01	Central Bank Swap Line Capacity	INT	Unlimited (standing bilateral)	GREEN	Not activated	N/A	2026-01-27	Fed + 5 major CBs permanent
+VX-BUF-6.02	Global FX Reserves (ex-China)	INT	~$8.5T	GREEN	Stable	Years	2026-01-27	Adequate coverage
+VX-BUF-6.03	China Stimulus Capacity	INT	SIGNIFICANT; Mfg PMI 50.1 (Dec 2025)	YELLOW	Being used gradually; first expansion in 9 months	12-24 months	2026-01-27	PMI 50.1 = fragile expansion; pre-holiday stockpiling possible; property weakness persists
+VX-BUF-6.04	European Fiscal Capacity	INT	~EUR500B available	GREEN	Not activated	N/A	2026-01-27	ESM largely untapped
+VX-BUF-6.05	IMF/World Bank Capacity	INT	~$1T combined	GREEN	Minimal usage	Years	2026-01-27	Available for EM stress
+VX-BUF-6.06	Japan GPIF Rebalancing	INT	¥277T ($1.87T) AUM; 50/50 stock/bond	ORANGE	No forced selling yet; yen strengthening (154 from 159)	Yen-dependent	2026-01-27	Takaichi PM; Feb 8 election; NY Fed rate check on USD/JPY = potential intervention prep; active equity allocation at decade high

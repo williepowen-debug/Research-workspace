@@ -1,0 +1,6 @@
+ID	Target_Date	Catalyst	Expected_Impact	Vectors_Affected	Status	Added_Session	Notes
+FL-EARN-001	2026-01-27 to 01-31	Mag 7 Reports (MSFT, AAPL, META, TSLA)	Index-level impact; concentration test	VX-EARN-005	COMPLETE	001	3 BEAT (AAPL record, MSFT, META), 1 MIXED (TSLA). Concentration risk validated but results strong.
+FL-EARN-002	2026-02-06	AMZN Earnings	AWS growth; retail margins	VX-EARN-005	PENDING	000	Key for tech concentration
+FL-EARN-003	2026-02-26	NVDA Earnings	AI demand validation; Blackwell ramp	VX-EARN-005	PENDING	000	Highest growth expectation (+50%+)
+FL-EARN-004	2026-02	WMT, TGT Earnings	Consumer spending barometer	VX-EARN-006	PENDING	000	Critical for CARL coordination
+FL-EARN-005	2026-02-26	Peak Earnings Day	855 companies expected to report	VX-EARN-001	PENDING	000	Busiest single day of season

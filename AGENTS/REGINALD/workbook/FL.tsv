@@ -1,0 +1,22 @@
+Entry_ID	Target_Date	Category	Event	Expected_Impact	Vector_Link	Status	Outcome_Documented
+FL-REG-001	2026-02	EARNINGS	Regional Bank Q4 Earnings	CRE loss recognition, reserve builds may be disclosed	VX-REG-3.01	ACTIVE
+FL-REG-002	2026-02-15	REGULATORY	Q4 Call Reports Available	Deposit flow data, CLO holdings if researched	VX-REG-4.01, VX-REG-2.01	ACTIVE
+FL-REG-003	2026-02-08	POLITICAL	Japan Snap Election	Takaichi win may affect BOJ policy, CLO transmission path	VX-REG-2.02	ACTIVE
+FL-REG-004	2026-H1	BOJ	BOJ Financial System Report	Japan regional bank loss quantification	VX-REG-5.01	ACTIVE
+FL-REG-005	2026-01-29	AUCTION	7Y Treasury Auction	Dealer capacity test. If takedown >25%, bank funding implications. LIQUID flagged.	VX-REG-2.02	ACTIVE
+FL-REG-006	2026-01-30	DATA	FR 2004 / H.4.1 Releases	Dealer positioning confirmation post-auction	VX-REG-2.02	ACTIVE
+FL-REG-007	2026-01-31	EARNINGS	VLY Q4 2025 Earnings	CRITICAL CATALYST. 475% CRE + 6.65% auto NCO. Watch: provision catch-up >$25M, NCO ratio, guidance. Target <$7.50 on miss.	VX-REG-6.02	CRITICAL
+FL-REG-008	2026-02-15	ANALYST	VLY Analyst Downgrades	Expected 1-5 downgrades post-Q4 earnings. Rating agencies (Moody's, S&P, KBRA) negative outlook likely.	VX-REG-6.02	PENDING
+FL-REG-009	2026-02-28	DEPOSIT	VLY Deposit Outflows	If earnings miss + downgrades → uninsured flight begins. Watch: FHLB advance spike, CDS >325bps.	VX-REG-6.02	PENDING
+FL-REG-010	2026-Q1	EARNINGS	FLG (Flagstar/NYCB) Earnings	Watch: deposit trends (-9% YTD), FHLB advance levels ($13.9B), CRE provision builds.	VX-REG-6.03	ACTIVE
+FL-REG-011	2026-Q1	EARNINGS	WAL Q4 2025 Earnings	Watch: Cantor fraud provision (currently $0 vs ZION $50M), HOA deposit trends, guidance language.	VX-REG-6.04	ACTIVE
+FL-REG-012	2026-Q2	MATURITY	FLG 2026 CRE Maturity Wall	$300-500B quarterly maturities. If 20%+ fail to refinance → systemic recognition of CRE crisis.	VX-REG-6.03	ACTIVE
+FL-REG-013	2026-03-15	FHLB	FHLB System Haircut Review	If VLY stress → system-wide FHLB re-evaluation. Watch: collateral policy announcements, haircut changes.	VX-REG-7.02	PENDING
+FL-REG-014	2026-Q1	EARNINGS	CFG Fund Finance Stress	Watch: capital call utilization, fund finance balance changes, guidance on LP redemptions.	VX-REG-6.05	ACTIVE
+FL-REG-015	2026-Q1	EARNINGS	ZION FHLB Haircut Impact	Watch: FHLB Des Moines advance terms, forced asset sales, agricultural portfolio stress.	VX-REG-6.08	ACTIVE
+FL-REG-016	2026-Q1	DATA	ODCE/BREIT Quarterly Redemption Reports	Watch: queue levels (currently 12-13%), gate policy changes, forced asset sales. Callan, Trepp data.	VX-REG-9.03	ACTIVE
+FL-REG-017	2026-Q1	BDC	Major BDC Dividend Announcements	Watch: BCRED, BXSL, ARCC, TCPC, Golub. PIK % in 10-Q filings. Dividend cuts despite "covered" NII.	VX-REG-9.04	ACTIVE
+FL-REG-018	2026-Q1	EARNINGS	Bank CRE Modification Disclosures	Watch: 10-Q footnotes for "modifications to borrowers experiencing financial difficulty". WFC pattern.	VX-REG-9.01	ACTIVE
+FL-REG-019	2026-02-15	REGULATORY	Q4 Call Reports - Deposit Composition	Key data for deposit flight vector. Uninsured %, brokered CD growth, rate sensitivity by bank.	VX-REG-10.01	ACTIVE
+FL-REG-020	2026-Q1	DATA	Pension Fund CRE Allocation Reports	Watch: CalPERS, NYSTRS, Texas TRS, FL SBA announcements on CRE rebalancing.	VX-REG-9.03	ACTIVE
+FL-REG-021	2026-02-07	EMPLOYMENT	NFP January 2026 (Master Variable)	CRITICAL: Employment break triggers loan loss transmission. If NFP <0 for 2+ months → bank stress thesis activates. Current NFP +50K (ORANGE). Thresholds: GREEN >100K, YELLOW 50-100K, ORANGE 0-50K, RED <0.	VX-REG-3.01	CRITICAL

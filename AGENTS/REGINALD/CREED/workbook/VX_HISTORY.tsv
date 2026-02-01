@@ -1,0 +1,32 @@
+Vector_ID	Date	Value	Status	Notes
+VX-CREED-1.01	2026-01-27	11.31%	RED	Inherited from REGINALD. Exceeds GFC peak (~10.7%).
+VX-CREED-1.02	2026-01-27	1.56%	GREEN	Inherited from REGINALD. Large 1.86%, small 1.14%. Masked by modifications.
+VX-CREED-1.03	2026-01-27	~3.5%	YELLOW	Initial estimate. Sunbelt overbuilding concentrated.
+VX-CREED-1.04	2026-01-27	20.5%	RED	Inherited from REGINALD research. SF 36%, NYC 22%.
+VX-CREED-2.01	2026-01-27	$7.7B+	ORANGE	Inherited from REGINALD VX-REG-9.01. WFC $770M alone.
+VX-CREED-2.02	2026-01-27	>50%	RED	Inherited from REGINALD VX-REG-9.02. FLG 142bps canary.
+VX-CREED-2.03	2026-01-27	$24.5B	ORANGE	Inherited from REGINALD. Pipeline of expiring 1st mods.
+VX-CREED-3.01	2026-01-27	-30 to -40%	RED	Inherited from REGINALD/REITS research. Appraisals lag.
+VX-CREED-3.02	2026-01-27	150-200bps	ORANGE	Initial estimate. Normal ~50bps. Broken price discovery.
+VX-CREED-3.03	2026-01-27	~$350B ann	ORANGE	Initial estimate. Down ~55% from ~$800B peak.
+VX-CREED-4.01	2026-01-27	$300-500B/Q	ORANGE	Inherited from REGINALD FL-REG-012. Peak Q2-Q3 2026.
+VX-CREED-4.02	2026-01-27	~25% office	ORANGE	Initial estimate for office CMBS maturity defaults.
+VX-CREED-4.03	2026-01-27	15-20% by 2028	YELLOW	Initial estimate. Tenants downsize -20-30% on renewal.
+VX-CREED-5.01	2026-01-27	$130-217B	ORANGE	Inherited from REGINALD VX-REG-9.03. Bravern -56% validates.
+VX-CREED-5.02	2026-01-27	12-13%	YELLOW	Inherited from REGINALD. Down from 19.3% peak. Still 3x historical.
+VX-CREED-5.03	2026-01-27	~$15B YTD	YELLOW	Initial estimate. Down from ~$45B peak.
+VX-CREED-6.01	2026-01-27	>$10K/door FL	ORANGE	Inherited from REGINALD VX-REG-8.01. SB 4-D active.
+VX-CREED-6.02	2026-01-27	70M SF / <15%	GREEN	Initial estimate. Economics rarely work.
+VX-CREED-6.03	2026-01-27	Off -40-65%	GREEN	Initial estimate. Supply correction positive for future.
+VX-CREED-1.01	2026-01-27	11.31% (Dec 2025; -37bps from Nov)	RED	Session 001. 2nd consecutive decline. Special servicing 17.16% office.
+VX-CREED-1.02	2026-01-27	4.18% (large bank, Q3 2025)	ORANGE	Session 001. CORRECTED from 1.56%. Series discrepancy to verify. 4th consecutive quarterly decline from 4.99% peak.
+VX-CREED-1.03	2026-01-27	6.64% (Dec 2025; peak 7.12% Oct)	ORANGE	Session 001. +280bps YoY. Sunbelt 2021-22 vintage defaulting.
+VX-CREED-1.04	2026-01-27	18.9-20.5% (CBRE/C&W)	RED (improving)	Session 001. Net absorption positive 5 consecutive Q. SF 33.5%, NYC 15%.
+VX-CREED-3.01	2026-01-27	-24% overall CPPI (Dec: -0.1% MoM, +2.3% YoY)	ORANGE	Session 001. CORRECTED from -30 to -40%. Stabilizing.
+VX-CREED-3.03	2026-01-27	~$400B+ ann (Q3: $150.6B)	ORANGE	Session 001. Up 17% YoY. Recovering.
+VX-CREED-4.01	2026-01-27	$930B+ annual 2026; $1.26T peak 2027	RED	Session 001. CORRECTED from $300-500B/Q. Much larger. >$1T/yr through 2030.
+VX-CREED-4.03	2026-01-27	1.4B sf expiring 2025-2027	ORANGE	Session 001. CORRECTED: much larger than initial estimate.
+VX-CREED-5.02	2026-01-27	Declining; BREIT gates lifted	YELLOW (improving)	Session 001. BREIT meeting all redemptions. ODCE positive returns.
+VX-CREED-5.03	2026-01-27	~$40B+ (2025); CMBS+CLO $125.6B	GREEN	Session 001. Market reopened. Up 374% YoY. Credit functioning.
+VX-CREED-6.01	2026-01-27	$100K-$400K/unit (FL)	RED	Session 001. CORRECTED: orders of magnitude worse than $10K. Cricket Club $134K, Med Village $400K.
+VX-CREED-6.02	2026-01-27	70,700 units (2025 record)	YELLOW	Session 001. Tripled since 2022. NYC 4.1M sf. Policy support expanding.

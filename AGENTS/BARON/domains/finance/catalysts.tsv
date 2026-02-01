@@ -1,0 +1,22 @@
+ID	Date	Event	Nodes	Tickers	Expected_Impact	Status
+CAT-008	2026-Q1	BitGo IPO pricing	N-034,N-005,N-028	BTGO	S-1 filed Sep 2025, amended Nov 2025; Goldman+Citi lead; Sacks 7.8% ($130M+); OCC bank charter Dec 2025; GENIUS Act beneficiary; Atkins SEC approves	PENDING
+CAT-017	TBD	GENIUS Act passage	N-034,N-005	BTGO	Stablecoin regulation benefits BitGo	MONITORING
+CAT-018	TBD	SAB 121 repeal	N-034,N-005	BTGO	Crypto custody deregulation	MONITORING
+CAT-021	2025-12-15	Bessent divestiture deadline	N-001	SPY,RSP,QQQ	Ethics compliance or extension request	MONITORING
+CAT-027	2025-12-09	Twenty One Capital NYSE debut	N-064,N-003,N-020	XXI	Dropped 20-25% first day; trading ~$11	OCCURRED
+CAT-028	TBD	BSTR Holdings merger close	N-065,N-003,N-066	CEPO	30K+ BTC treasury; third largest corporate holder	PENDING
+CAT-033	TBD	Dyan Gibbens DARPA ethics filing	N-061	-	Recusals from Trumbull-adjacent decisions	CRITICAL GAP
+CAT-034	QUARTERLY	Hudson Bay Capital 13F filing	N-070,N-069	NVDA,TSLA,IBIT	Monitor for tariff/rate positioning signals; Miran wrote their tariff playbook	MONITORING
+CAT-035	ONGOING	Fed rate decisions	N-069,N-001	-	Miran dual role (CEA+Fed) enables WH coordination on rates; first in Fed history	MONITORING
+CAT-036	TBD	Warren ethics investigation follow-up	N-069	-	Spouse ECPI income discrepancy ($1.4M vs $457K); for-profit education conflict	MONITORING
+CAT-037	ONGOING	Lutnick ethics investigation	N-002,N-075	TSLA	CLC complaint re Tesla pump on Fox News; ~$840M family exposure	MONITORING
+CAT-038	TBD	xLight CHIPS grant finalization	N-072,N-073,N-002	-	$150M govt equity stake; first Trump-era CHIPS R&D award	PENDING
+CAT-039	ONGOING	CHIPS Act renegotiations	N-002	INTC,MU	Lutnick demanding equity stakes from Intel, Micron, TSMC, Samsung	MONITORING
+CAT-059	ONGOING	Playground portfolio OSC eligibility	N-074,N-095,N-097,N-098	-	Skydio, PsiQuantum, Relativity Space all have defense exposure; watch for applications	MONITORING
+CAT-072	2025-12-XX	BitGo OCC national bank charter	N-034,N-005	BTGO	BitGo Bank & Trust N.A. approved; same tier as major banks; GENIUS Act authorizes stablecoin issuance	OCCURRED
+CAT-073	TBD	BitGo IPO roadshow	N-034,N-005,N-028	BTGO	Watch for pricing range announcement; Goldman+Citi leading	MONITORING
+CAT-098	2026-SUMMER	Anduril Arsenal-1 plant production begins	N-030,N-206,N-207	-	$900M Columbus OH facility; demonstrates defense tech startup manufacturing capability	PENDING
+CAT-301	2026-01-30	Kevin Warsh nominated for Fed Chair	N-301,N-001	GLD,SLV	Trump nominates Warsh to replace Powell (term ends May 2026); Bessent led selection; announcement via Truth Social. MARKET REACTION: Gold -8% (ATH $5,595→$4,941), Silver -17% ($120→$95) — largest single-day decline in 13+ years. Dollar strengthened. Markets pricing "Warsh hawkish" on balance sheet. NOTE: Technical exhaustion (RSI 90) suggests Warsh was catalyst for overdue correction, not sole cause.	OCCURRED
+CAT-302	TBD	Warsh confirmation hearing	N-301	-	Senate Banking Committee; Tillis (R-NC) vows to block until DOJ probe resolved; Thune says "probably not" confirmable without Tillis	CRITICAL
+CAT-303	2026-05-XX	Powell term ends / Warsh takes office (if confirmed)	N-301	-	Regime change at Fed; balance sheet policy likely to shift hawkish; QT acceleration expected	PENDING
+CAT-304	2026-02-03	Regulator anti-debanking strategy deadline	N-001,N-298,N-299	JPM	Per Aug 2025 EO; regulators must present strategy; benefits crypto network (Sacks, Atkins, Lutnick)	ACTIVE

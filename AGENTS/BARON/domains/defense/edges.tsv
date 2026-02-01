@@ -1,0 +1,89 @@
+ID	From	To	Type	Evidence	Confidence	Source	Date_Added
+E-015	N-027	N-031	INVESTOR	1789 invested Aug 2025	CONFIRMED	1789 portfolio	2025-12-24
+E-016	N-027	N-032	INVESTOR	1789 led $60M Series C Sept 2025	CONFIRMED	3D Printing Industry	2026-01-09
+E-017	N-027	N-033	INVESTOR	1789 invested 2025	HIGH	1789 portfolio	2025-12-24
+E-018	N-018	N-022	BOARD	Advisory board member	CONFIRMED	UMAC proxy	2025-12-24
+E-019	N-018	N-022	INVESTOR	~$4M stake	CONFIRMED	UMAC proxy	2025-12-24
+E-020	N-018	N-023	INVESTOR	6.6% ownership	CONFIRMED	DOMH filings	2025-12-24
+E-021	N-019	N-023	INVESTOR	6.6% ownership	CONFIRMED	DOMH filings	2025-12-24
+E-022	N-018	N-027	PARTNER	1789 Capital partner	CONFIRMED	1789 website	2025-12-24
+E-023	N-023	N-026	TRANSACTION	$210M Tron deal	CONFIRMED	SEC filings	2025-12-24
+E-031	N-018	N-045	BOARD	Director, 300K shares	CONFIRMED	PEW SEC filing	2025-12-28
+E-032	N-018	N-046	BOARD	Director	CONFIRMED	CLBR.U S-1	2025-12-28
+E-033	N-042	N-046	BOARD	Director	CONFIRMED	CLBR.U S-1	2025-12-28
+E-034	N-043	N-046	BOARD	Director	CONFIRMED	CLBR.U S-1	2025-12-28
+E-036	N-011	N-039	FOUNDER	Founded Cerberus	CONFIRMED	Public	2025-12-24
+E-047	N-018	N-054	FOUNDER	Trump Jr co-founded Executive Branch Club	CONFIRMED	WashPost	2025-12-29
+E-048	N-015	N-054	FOUNDER	Malik co-founded Executive Branch Club	CONFIRMED	WashPost	2025-12-29
+E-058	N-039	N-062	SUBSIDIARY	Cerberus acquired Calspan units, formed North Wind May 2024	CONFIRMED	Cerberus.com	2025-12-31
+E-059	N-039	N-063	SUBSIDIARY	Cerberus owns Tier 1 Group military training	CONFIRMED	Wikipedia	2025-12-31
+E-060	N-011	N-039	FOUNDER	Feinberg founded Cerberus, owns ~75%	CONFIRMED	Warren letter	2025-12-31
+E-100	N-039	N-084	SUBSIDIARY	Cerberus acquired Stratolaunch 2019 from Paul Allen estate	CONFIRMED	Wikipedia	2025-01-06
+E-101	N-039	N-085	SUBSIDIARY	Cerberus acquired controlling interest in M1 May 2024	CONFIRMED	Cerberus.com	2025-01-06
+E-102	N-039	N-086	SUBSIDIARY	Cerberus acquired SubCom from TE Connectivity 2018 for $325M	CONFIRMED	Cerberus.com	2025-01-06
+E-103	N-039	N-087	SUBSIDIARY	Cerberus acquired 70% of Navistar Defense Dec 2018	CONFIRMED	PRNewswire	2025-01-06
+E-104	N-039	N-088	INVESTOR	Cerberus holds $3.3B stake in Ligado Networks	CONFIRMED	Warren letter	2025-01-06
+E-105	N-011	N-088	CONFLICT	Feinberg (Deputy SecDef) profits if DoD loses/settles $39B Ligado lawsuit	CONFIRMED	Warren letter	2025-01-06
+E-111	N-085	N-063	PERSONNEL	M1 CEO George Krivo is former DynCorp CEO (Cerberus portfolio rotation)	CONFIRMED	WashTech	2025-01-06
+E-136	N-101	N-100	BOARD	John Kelly board advisor at DC Capital since Apr 2016; received $37.5K	CONFIRMED	The Intercept	2026-01-06
+E-314	N-042	N-054	FOUNDING_MEMBER	Chamath Palihapitiya founding member of Exec Branch Club	CONFIRMED	Washingtonian	2026-01-07
+E-321	N-016	N-054	CO_FOUNDER	Chris Buskirk (1789 Capital) co-founded Exec Branch Club	CONFIRMED	Wikipedia	2026-01-07
+E-399	N-027	N-220	INVESTOR	1789 Capital invested in xAI ~April 2025	CONFIRMED	FT	2026-01-08
+E-401	N-027	N-221	INVESTOR	1789 participated in Cerebras $1.1B Series G Sept 2025	CONFIRMED	TechCrunch	2026-01-08
+E-403	N-027	N-222	INVESTOR	1789 co-led Axiom Space $100M+ round March 2025	CONFIRMED	SpaceNews	2026-01-08
+E-404	N-027	N-223	INVESTOR	1789 participated in Hadrian $260M Series C July 2025 (Founders Fund/Lux led)	CONFIRMED	TechCrunch	2026-01-08
+E-406	N-027	N-224	INVESTOR	1789 participated in Base Power $1B Series C Oct 2025	CONFIRMED	TechCrunch	2026-01-08
+E-407	N-027	N-225	INVESTOR	1789 participated in Crusoe $1.375B Series E Dec 2025	CONFIRMED	TechCrunch	2026-01-08
+E-408	N-027	N-226	INVESTOR	1789 led BlinkRX $140M Series D Nov 2024	CONFIRMED	Bloomberg	2026-01-08
+E-409	N-018	N-226	BOARD	Trump Jr. joined BlinkRX board Feb 2025	CONFIRMED	Bloomberg	2026-01-08
+E-410	N-027	N-227	INVESTOR	1789 co-led Enhanced Games Series B Feb 2025	CONFIRMED	NYT	2026-01-08
+E-412	N-027	N-228	INVESTOR	1789 invested in PsiQuantum (date unknown)	HIGH	FT	2026-01-08
+E-413	N-027	N-229	INVESTOR	1789 participated in Ramp $300M Series E-3 Nov 2025	CONFIRMED	TechCrunch	2026-01-08
+E-415	N-027	N-230	INVESTOR	1789 invested in Polymarket Aug 2025 ("tens of millions")	CONFIRMED	FT	2026-01-08
+E-420	N-232	N-031	INVESTOR	Altimeter Capital led Vulcan $65M Series A Aug 2025	CONFIRMED	TechCrunch	2026-01-08
+E-421	N-232	N-221	INVESTOR	Altimeter invested in Cerebras	CONFIRMED	Cerebras	2026-01-08
+E-422	N-232	N-223	INVESTOR	Altimeter invested in Hadrian	CONFIRMED	Hadrian	2026-01-08
+E-423	N-233	N-220	INVESTOR	Valor Equity invested in xAI	CONFIRMED	WSJ	2026-01-08
+E-424	N-233	N-221	INVESTOR	Valor Equity invested in Cerebras	CONFIRMED	Cerebras	2026-01-08
+E-425	N-233	N-225	INVESTOR	Valor Equity invested in Crusoe	CONFIRMED	Crusoe	2026-01-08
+E-430	N-234	N-031	PARTNER	ReElement + Vulcan partnered on $1.4B rare earth deal	CONFIRMED	DOE	2026-01-09
+E-432	N-237	N-234	PARENT	AREC owns ReElement as subsidiary (majority→wholly owned pending spin-off)	CONFIRMED	SEC Form D	2026-01-09
+E-433	N-238	N-234	INVESTOR	TEP $200M equity facility to ReElement Jan 2026	CONFIRMED	Press release	2026-01-09
+E-434	N-027	N-234	NOT_INVESTOR	1789 Capital connection to ReElement RULED OUT; no equity or governance link found	CONFIRMED	Multiple sources	2026-01-09
+E-436	N-123	N-239	SPOUSE	Stephen Miller married Katie Miller Feb 2020 at Trump International Hotel; Trump attended	CONFIRMED	Public records	2026-01-09
+E-438	N-253	N-123	EMPLOYER	Sessions hired Miller as Press Sec Jun 2009; promoted to Comms Director Aug 2014	CONFIRMED	Public records	2026-01-09
+E-439	N-252	N-123	MENTOR	Horowitz mentored Miller from high school (~2002); introduced to Sessions, Bannon, Breitbart	CONFIRMED	Media profiles	2026-01-09
+E-440	N-123	N-247	KEYNOTE_SPEAKER	Miller keynote at CIS 2015 event; praised CIS research director as "great pleasure of my professional life"	CONFIRMED	CIS records	2026-01-09
+E-441	N-123	N-248	ALLY	Miller formed relationships with FAIR while working for Sessions; FAIR staffers hired into admin	CONFIRMED	America's Voice	2026-01-09
+E-444	N-256	N-123	PAID	Rushmore Ventures (Katie's father's company) paid Miller $202K consulting 2024	CONFIRMED	OGE 278	2026-01-09
+E-455	N-119	N-240	CONSULTANT	Homan was GEO Group consultant (undisclosed amount) before Trump 2.0 appointment	CONFIRMED	News reports	2026-01-09
+E-456	N-245	N-240	FORMER_EXEC	Venturella spent 12 years at GEO Group with $6M+ total compensation	CONFIRMED	News reports	2026-01-09
+E-457	N-119	N-245	APPOINTED	Homan appointed Venturella to help run mass deportation operations	CONFIRMED	News reports	2026-01-09
+E-458	N-246	N-247	FORMER_ANALYST	Feere was CIS Legal Policy Analyst before Trump 1.0 ICE appointment	CONFIRMED	CIS/ICE	2026-01-09
+E-459	N-246	N-123	COLLABORATOR	Feere close Miller collaborator; co-created VOICE office; sent "marching orders" on sanctuary cities	CONFIRMED	Emails	2026-01-09
+E-460	N-247	N-248	SPINOFF	CIS spun off from FAIR in 1985; both Tanton network	CONFIRMED	SPLC	2026-01-09
+E-461	N-252	N-253	INTRODUCED	Horowitz introduced Miller to Jeff Sessions	CONFIRMED	Media profiles	2026-01-09
+E-462	N-255	N-123	POLICY_MODEL	Miller/Bannon "very possibly advising Trump to follow Hungarian Model" on immigration	CONFIRMED	News analysis	2026-01-09
+E-467	N-123	N-240	POLICY_BENEFICIARY	Miller's $45B ICE appropriation and 100K bed expansion directly benefits GEO Group	CONFIRMED	Budget/Policy	2026-01-09
+E-468	N-123	N-241	POLICY_BENEFICIARY	Miller's $45B ICE appropriation and 100K bed expansion directly benefits CoreCivic	CONFIRMED	Budget/Policy	2026-01-09
+E-493	N-039	N-272	SUBSIDIARY	Cerberus acquired Votaw Precision Technologies Mar 2025 from Doerfer Corporation	CONFIRMED	Cerberus.com	2026-01-11
+E-494	N-039	N-274	PARTNERSHIP	Cerberus Maritime: joint venture with HD Hyundai + Korea Development Bank announced Aug 2025	CONFIRMED	Cerberus.com	2026-01-11
+E-495	N-039	N-275	SUBSIDIARY	Cerberus Ventures: VC arm established 2023 led by ex-In-Q-Tel Sarah Istel	CONFIRMED	Yahoo Finance	2026-01-11
+E-496	N-284	N-039	EXECUTIVE	Brian Hook = Vice Chairman Cerberus Global Investments since 2021	CONFIRMED	Cerberus.com	2026-01-11
+E-499	N-285	N-039	EXECUTIVE	Dan Quayle = Chairman Cerberus Global Investments Division since 1999	CONFIRMED	Wikipedia	2026-01-11
+E-501	N-013	N-277	BENEFICIARY	Defense EO benefits Castelion: hypersonic missile startup positioned for accelerated acquisition	HIGH	Defense EO analysis	2026-01-11
+E-502	N-013	N-278	BENEFICIARY	Defense EO benefits Neros Technologies: FPV drone manufacturer, PBAS winner	HIGH	Defense EO analysis	2026-01-11
+E-503	N-013	N-279	BENEFICIARY	Defense EO benefits Vannevar Labs: $99M RIE contract, OSINT/AI analytics for DoD	CONFIRMED	Contract records	2026-01-11
+E-504	N-013	N-280	BENEFICIARY	Defense EO benefits Rebellion Defense: AI/CJADC2 positioning	HIGH	Defense EO analysis	2026-01-11
+E-505	N-013	N-281	BENEFICIARY	Defense EO benefits Govini: $100M+ ARR defense analytics platform	HIGH	Defense EO analysis	2026-01-11
+E-506	N-013	N-282	BENEFICIARY	Defense EO benefits Shield AI: autonomous aircraft, CCA positioning	HIGH	Defense EO analysis	2026-01-11
+E-507	N-013	N-283	BENEFICIARY	Defense EO benefits True Anomaly: space domain awareness, Golden Dome positioning	HIGH	Defense EO analysis	2026-01-11
+E-508	N-011	N-084	CONFLICT	Feinberg (Deputy SecDef) sets acquisition policy; Stratolaunch (Cerberus portfolio via children trusts) wins hypersonic contracts	CONFIRMED	Pattern analysis	2026-01-11
+E-509	N-011	N-062	CONFLICT	Feinberg (Deputy SecDef) prioritizes hypersonics; North Wind (Cerberus portfolio) provides ground test infrastructure	CONFIRMED	Pattern analysis	2026-01-11
+E-510	N-011	N-272	CONFLICT	Feinberg acquisition policy benefits Votaw Precision (Cerberus portfolio) as "key supplier in U.S. industrial base"	HIGH	Pattern analysis	2026-01-11
+E-514	N-288	N-286	INVESTOR	Khosla Ventures: 13-15% stake in Rocket Lab (largest shareholder since 2013)	CONFIRMED	SEC 13F, company filings	2026-01-12
+E-515	N-289	N-288	FOUNDER	Vinod Khosla founded Khosla Ventures	CONFIRMED	Public	2026-01-12
+E-516	N-287	N-286	FOUNDER	Peter Beck: CEO/founder, 10.5% stake (~$3.5B)	CONFIRMED	SEC filings	2026-01-12
+E-517	N-013	N-286	VISITED	Hegseth visited Rocket Lab Jan 9 2026 "Arsenal of Freedom" tour; praised as model vs legacy primes	CONFIRMED	SpaceNews, war.gov	2026-01-12
+E-518	N-286	N-290	CONTRACTOR	Rocket Lab on SHIELD Golden Dome roster ($151B potential); $816M SDA Tranche 3 Dec 2025	CONFIRMED	MDA announcement	2026-01-12
+E-519	N-286	N-013	POLICY_BENEFITS	Rocket Lab benefits from Defense EO "Feed Insurgents" policy WITHOUT network connection; provides Clean Cover legitimization	HIGH	Pattern analysis	2026-01-12

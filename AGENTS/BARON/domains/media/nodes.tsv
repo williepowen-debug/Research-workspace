@@ -1,0 +1,27 @@
+ID	Name	Type	Cluster	Role	Policy_Control	Holdings	Tickers	Status
+N-014	Dan Negrea	GOV	C6	EXIM Bank advisor	EXIM $164B	MTN Capital (no defense overlap)	-	MONITORING
+N-025	Rumble	CO	C6	Video platform	-	Tether $775M; Lutnick connected	RUM	ACTIVE
+N-047	PSQ Holdings	CO	C6	PublicSquare	-	1789 SPAC I exit	PSQH	ACTIVE
+N-118	Brendan Carr	GOV	C6	FCC Chairman	Telecom, broadcast licenses, media ownership, spectrum, Section 230	$11.7K Paramount gift; Musk ally; P2025 Ch28 author; investigating ABC/CBS/NBC but NOT Fox	-	CRITICAL
+N-137	Sinclair Broadcast Group	CO	C6	Broadcast TV	-	2nd largest US TV station owner; 193 stations; 40% of US households; Trump ally since 2016	SBGI	ACTIVE
+N-138	David D. Smith	PERSON	C6	Sinclair Exec Chairman	None direct	$325M NW; 6.56% SBGI; family controls 14.47%; "deliver your message" 2016; met Pai; Baltimore Sun owner; 1996 prostitution conviction	SBGI	CRITICAL
+N-140	Paramount Global	CO	C6	Media company	-	Gave Carr $11.7K Kennedy Center tickets Dec 2024 (and Dec 2023); CBS owner; settled with Trump $16M	PARA	ACTIVE
+N-141	Skydance Media	CO	C6	Media company	-	Acquired Paramount $8B Jul 2025; FCC approved after $16M Trump settlement + DEI concessions	-	ACTIVE
+N-142	Rupert Murdoch	PERSON	C6	Fox Corp Chair	None direct	Fox exempted from FCC investigations; Dominion $787.5M settlement; Trump ally	FOX	ACTIVE
+N-143	Fox Corporation	CO	C6	Media company	-	ONLY major network exempted from Carr investigations; knowingly spread election falsehoods per judge	FOX	ACTIVE
+N-144	Nexstar Media Group	CO	C6	Broadcast TV	-	Largest US: 200+ stations; owns The Hill, NewsNation, 75% CW; $6.2B Tegna pending; needs 39% cap waiver; preempted Kimmel	NXST	CRITICAL
+N-145	Armstrong Williams	PERSON	C6	Conservative commentator; Baltimore Sun co-owner	None direct	Clarence Thomas best friend; paid $240K Bush DOE scandal; Howard Stirk Holdings owner; Sinclair analyst	-	ACTIVE
+N-146	Chris Ripley	PERSON	C6	Sinclair President/CEO	None direct	CEO since Jan 2017; predicts H1 2026 ownership cap elimination; pushing Scripps takeover	SBGI	ACTIVE
+N-147	Cunningham Broadcasting	CO	C6	Sinclair shell company	-	Smith family estate controls 90%+ via trusts; operates 31+ stations for Sinclair; FCC evasion vehicle	-	ACTIVE
+N-148	Howard Stirk Holdings	CO	C6	Armstrong Williams shell company	-	Sinclair affiliate; purchased multiple stations; another sidecar for FCC limits	-	ACTIVE
+N-149	E.W. Scripps	CO	C6	Broadcast TV	-	Sinclair takeover target; rejected $7/share hostile bid Nov 2025; poison pill adopted	SSP	ACTIVE
+N-150	Baltimore Sun	CO	C6	Newspaper	-	Acquired by Smith/Williams Jan 2024; conservative shift; staff exodus; features desk eliminated	-	ACTIVE
+N-151	Boris Epshteyn	PERSON	C6	Trump strategist; ex-Sinclair analyst	None direct	WH comms (2017); Sinclair "must-run" segments (2017-2019); now Trump legal team	-	ACTIVE
+N-152	Perry Sook	PERSON	C6	Nexstar Founder/Chairman/CEO	None direct	Founded 1996; NAB Chair 2023-2025; $36.9K to GOP; contract through 2026; Tegna deal architect	NXST	CRITICAL
+N-153	Tegna Inc	CO	C6	Broadcast TV	-	4th largest; 64 stations; 51 markets; $6.2B Nexstar acquisition pending; shareholders approved Nov 2025	TGNA	PENDING
+N-154	The Hill	CO	C6	Political news	-	Acquired by Nexstar Aug 2021 for $130M; integrated with NewsNation	-	ACTIVE
+N-155	NewsNation	CO	C6	Cable news network	-	Launched Mar 2021 (ex-WGN America); Nexstar's national cable platform; "centrist" positioning	-	ACTIVE
+N-156	The CW Network	CO	C6	Broadcast network	-	Nexstar acquired 75% Oct 2022; Paramount/WBD retain 12.5% each	-	ACTIVE
+N-165	Chris Ruddy	PERSON	C6	Newsmax CEO	None direct	Founded Newsmax 1998; longtime Trump friend; $50M investment from Sheikh Sultan; OPPOSES ownership cap lift	-	ACTIVE
+N-166	Newsmax	CO	C6	Cable news network	-	Conservative cable; Ruddy CEO; opposes cap lift (would crush smaller players); Trump ally	-	ACTIVE
+N-167	OAN	CO	C6	Cable news network	-	Trump-friendly; joined Newsmax/CPAC opposing ownership cap lift	-	ACTIVE

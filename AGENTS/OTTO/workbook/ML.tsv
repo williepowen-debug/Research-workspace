@@ -1,0 +1,9 @@
+ID	Date	Session	Category	Observation	Vectors_Affected	Source	Confidence
+ML-OTTO-001	2025-09-10	000	Bankruptcy	Tricolor Holdings filed Chapter 7 bankruptcy with ~$2B debt and 25,000+ creditors. Specialized in subprime auto loans to low/no-credit buyers without credit checks.	VX-OTTO-001	Court Filing	95%
+ML-OTTO-002	2025-10-24	000	Bankruptcy	PrimaLend Capital Partners filed Chapter 11 bankruptcy. Listed $286M debt. CEO stated "not going out of business" but seeking restructuring.	VX-OTTO-001	Auto Finance News	90%
+ML-OTTO-003	2025-12-17	000	Fraud Charges	DOJ charged Tricolor executives: Daniel Chu (CEO), Daniel Goodgame (COO), Jerome Kollar, Ameryn Seibold. Allegations: double-pledging, data manipulation, fabricated payments. Scheme ran 2018-2025.	VX-OTTO-001, VX-OTTO-006	DOJ/ABC News	95%
+ML-OTTO-004	2026-01-26	000	Bank Losses	JPMorgan Chase disclosed $170M loss from Tricolor exposure. Fifth Third Bank disclosed $200M loss and cooperating with law enforcement.	VX-OTTO-003	Bank Filings	90%
+ML-OTTO-005	2026-01-26	000	Guilty Pleas	Jerome Kollar and Ameryn Seibold pled guilty to fraud charges and are cooperating with government investigation. May lead to additional charges/discoveries.	VX-OTTO-006	Court Filings	90%
+ML-OTTO-006	2025-10	000	First Brands	First Brands bankruptcy revealed double-pledging in supply chain and inventory finance. CEO Patrick James blames "predatory" creditors. Trial scheduled June 2026.	VX-OTTO-001	Octus/Cambridge	85%
+ML-OTTO-007	2026-01-26	000	Industry Response	Warehouse lenders reassessing all subprime auto exposure. Tighter covenants, increased scrutiny expected. Recommendations for shared collateral registries emerging.	VX-OTTO-004	LCG Advisors	80%
+ML-OTTO-008	2026-01-26	000	Consumer Impact	Fed SLOOS shows banks tightening credit standards for subprime auto. Delinquencies and repossessions climbing toward 2009 levels. Credit access declining.	VX-OTTO-005	Fed/KBB	85%

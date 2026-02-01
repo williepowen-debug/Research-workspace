@@ -1,0 +1,34 @@
+VX_ID	DATE	VALUE	STATUS	CONFIDENCE	NOTES
+VX-SAM-1.01	2026-01-20	30Y 3.91% ATH	CRITICAL	0.98	All-time high; 40Y >4% first time
+VX-SAM-1.01	2026-01-23	30Y 3.67%; 40Y 4.24%	CRITICAL	0.95	Off peak but 40Y still record
+VX-SAM-1.02	2026-01-20	0.75% policy rate	CRITICAL	0.96	Jan 23-24 decision pending
+VX-SAM-1.02	2026-01-23	Held 0.75% (8-1)	CRITICAL	0.95	Takata dissented; Ueda: will continue hiking if forecasts hold
+VX-SAM-1.03	2026-01-20	20Y auction FAILED	CRITICAL	0.97	Worst demand since 1987
+VX-SAM-1.03	2026-01-23	Next 20Y Feb 19	CRITICAL	0.95	Feb 5 30Y is pre-election test
+VX-SAM-1.04	2026-01-20	Takaichi spending promises	CRITICAL	0.95	Triggered bond vigilante attack
+VX-SAM-1.04	2026-01-23	Feb 8 election set	CRITICAL	0.92	LDP 29.7% approval vs Takaichi 70%+
+VX-SAM-1.05	2026-01-20	Fiscal doom loop ACTIVE	CRITICAL	0.92	FLOW-JPN-1.06 triggered
+VX-SAM-1.05	2026-01-23	Watching election outcome	CRITICAL	0.90	D2 probability elevated if LDP wins big
+VX-SAM-2.01	2026-01-20	ESR driving rotation	CRITICAL	0.92	GPIF trigger at 160
+VX-SAM-2.01	2026-01-23	USD/JPY 158.55	CRITICAL	0.90	1.45 handles from 160 trigger
+VX-SAM-2.02	2026-01-20	Domestic buyers thinning	CRITICAL	0.95	No bid at 20Y auction
+VX-SAM-2.02	2026-01-23	SMFG preparing to buy	ELEVATED	0.88	Counter-signal: mega-bank bid forming
+VX-SAM-3.01	2026-01-20	Carry unwind risk	CRITICAL	0.94	SPX +0.7 correlation
+VX-SAM-3.01	2026-01-23	Yen weakened post-BOJ	CRITICAL	0.92	158.55; carry still fragile
+VX-SAM-3.04	2026-01-20	CLO nuclear armed	CRITICAL	0.95	Norinchukin 5-7% of AAA
+VX-SAM-3.04	2026-01-23	Norinchukin stabilized	ELEVATED	0.88	Back to profit; CLO probability ↓8%
+VX-SAM-3.01	2026-01-24	USD/JPY 157.50-157.97	CRITICAL	0.90	Yen strengthened post-BOJ; 2.5 handles from 160 (improved)
+VX-SAM-3.02	2026-01-24	Katayama intervention escalation	ACTIVE	0.88	Verbal intervention; claims US agreement supports action; credibility test pending
+VX-SAM-1.01	2026-01-24	10Y 2.25%; 30Y 3.65%	CRITICAL	0.90	Off peaks; Katayama urged calm; stabilization holding
+VX-SAM-2.02	2026-01-24	Foreign investors NET SELLERS	CRITICAL	0.88	GAP FILL: Marginal buyer flipped to seller; removes support pillar
+VX-SAM-2.01	2026-01-24	Life insurers ¥27.2T underwater	CRITICAL	0.85	GAP FILL: Worse than logged; HTM strategy = Japan SVB playbook
+VX-SAM-2.02	2026-01-24	Regional banks "record losses"	CRITICAL	0.75	GAP FILL: Unquantified but confirmed; SVB parallel raised
+VX-SAM-1.02	2026-01-24	BOJ QT $502B; holdings 48%	CRITICAL	0.92	GAP FILL: 8-year low; BOJ structural withdrawal
+VX-SAM-3.04	2026-01-24	FTD $30.5B; RRP ~$6B	ELEVATED	0.88	GAP FILL: US plumbing stress; 8-year high FTD; buffer depleted
+VX-SAM-3.01	2026-01-25	USD/JPY 154.71	CRITICAL	0.92	MAJOR: 4+ handle drop; biggest move since Aug; 5+ handles from 160 trigger
+VX-SAM-3.02	2026-01-25	NY Fed rate check; Takaichi warning	ELEVATED	0.92	UPGRADE: US-Japan coordination signal; intervention credibility INCREASED
+VX-SAM-1.01	2026-01-25	JGB 10Y gains; yields stable	CRITICAL	0.90	JGBs rallied on yen strength; yields holding post-BOJ levels
+VX-SAM-3.02	2026-01-25	Mar-a-Lago Accord framework	ACTIVE	0.75	STRUCTURAL: Intervention constraint relaxed; US backing changes calculus from $130B unilateral to coordinated; treats FX not fiscal
+VX-SAM-3.01	2026-01-26	USD/JPY 153.30	ELEVATED	0.92	DOWNGRADE: 3% gain in 2 sessions; 6.7 handles from 160 trigger; FX escape valve OPEN; acute panic odds significantly reduced
+VX-SAM-3.02	2026-01-26	US-Japan coordination EXPLICIT	ELEVATED	0.95	UPGRADE: Mimura confirms "close coordination with US"; Sept 2025 statement referenced; intervention playbook changed from unilateral to backed
+VX-SAM-3.04	2026-01-26	DXY 97.1 (4-month low)	ELEVATED	0.90	Broad dollar weakness; -9.5% YoY; supports yen/yuan strength; Mar-a-Lago Accord elements in action

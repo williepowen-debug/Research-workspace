@@ -1,0 +1,5 @@
+ID	Trigger	Transmission	Endpoint	Agents_Affected	Status	Last_Validated
+FLOW-REITS-01	Fed hawkish OR 10Y >5%	REIT valuations compress → Refinancing costs spike → Dividend cuts → Income fund selling → NAV discounts widen	Sector-wide stress	LIQUID	LATENT	2026-01-26
+FLOW-REITS-02	Office vacancy >25% OR major div cut	NOI decline → Dividend cut/suspension → NAV discount >50% → Debt covenant breach → Restructuring → Bank CRE losses	Bank CRE exposure	REGINALD	ELEVATED	2026-01-26
+FLOW-REITS-03	mREIT BV -15% in quarter	Book value decline → Dividend cut → Retail exit → Forced MBS selling → Spread widening → More BV decline	Agency MBS stress	LIQUID	LATENT	2026-01-26
+FLOW-REITS-04	Retail foot traffic -15%	Consumer spending collapse → Retail REIT NOI decline → Dividend pressure	Consumer spending signal	CARL	LATENT	2026-01-26

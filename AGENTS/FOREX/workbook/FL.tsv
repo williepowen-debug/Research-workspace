@@ -1,0 +1,5 @@
+ID	Target_Date	Catalyst	Expected_Impact	Vectors_Affected	Status	Added_Session	Notes
+FL-FOREX-001	2026-02-08	Japan Snap Election	Takaichi mandate determines fiscal policy; affects BOJ coordination and yen trajectory	VX-FOREX-002, VX-FOREX-007	PENDING	000	LDP seat count critical: <233 = crisis, 233-250 = constrained, >260 = fiscal expansion
+FL-FOREX-002	2026-01-29	FOMC Meeting	Fed rate decision affects dollar direction and carry trade attractiveness	VX-FOREX-001, VX-FOREX-007	PENDING	000	Expected hold; guidance matters for dollar path
+FL-FOREX-003	Ongoing	US-Japan Intervention Coordination	Physical intervention could trigger carry unwind cascade	VX-FOREX-002, VX-FOREX-007	WATCHING	000	NY Fed rate checks Jan 24 signaled coordination. Next move could be joint action at 160.
+FL-FOREX-004	2026-Q1	EM FX Reversal Risk	Overbought EM FX vulnerable to reversal on risk-off or dollar bounce	VX-FOREX-005	WATCHING	000	JP Morgan signal in overbought territory. Monitor for catalyst.

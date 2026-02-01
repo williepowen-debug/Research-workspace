@@ -1,0 +1,270 @@
+ID	From	To	Type	Evidence	Confidence	Source	Date_Added
+E-001	N-002	N-015	FUNDRAISER	$15M Hamptons event Aug 2024	CONFIRMED	News reports	2025-12-24
+E-002	N-002	N-015	ADVISOR	Cantor advised 1789 Capital	CONFIRMED	Bloomberg	2025-12-24
+E-007	N-006	N-012	DONOR	$5,800 max contribution (refunded)	CONFIRMED	FEC C00785493	2025-12-26
+E-008	N-006	N-012	ENDORSER	Campaign endorsement alongside Trump	CONFIRMED	patrickwitt.com	2025-12-26
+E-012	N-012	N-030	LOAN_APPROVER	$159M OSC loan Sep 2025	CONFIRMED	OSC announcement	2025-12-26
+E-013	N-012	N-031	LOAN_APPROVER	$620M OSC loan Nov 2025	CONFIRMED	OSC announcement	2025-12-26
+E-014	N-027	N-030	INVESTOR	1789 invested Jun 2025	CONFIRMED	1789 portfolio	2025-12-24
+E-024	N-020	N-025	INVESTOR	$775M investment	CONFIRMED	Rumble filings	2025-12-24
+E-035	N-044	N-046	BOARD	Director	CONFIRMED	CLBR.U S-1	2025-12-28
+E-037	N-005	N-012	POLICY_OVERLAP	Both control crypto policy	CONFIRMED	WH announcements	2025-12-26
+E-038	N-015	N-002	ADVISOR	Lutnick advised on 1789	CONFIRMED	Bloomberg	2025-12-24
+E-040	N-016	N-007	BUSINESS	Rockbridge Network co-founders	CONFIRMED	Rockbridge website	2025-12-24
+E-041	N-027	N-001	EVENT_SPONSOR	1789 sold Treasury AI Summit sponsorships Oct 2025	CONFIRMED	WSJ	2025-12-29
+E-046	N-005	N-054	MEMBER	Sacks is Executive Branch Club top-tier member	CONFIRMED	WashPost	2025-12-29
+E-050	N-056	N-012	COLLEAGUE	Gibbens was OSC CIO before Witt	CONFIRMED	Treasury	2025-12-29
+E-051	N-058	N-059	EMPLOYER	Tyler Williams was Galaxy Digital regulatory counsel	CONFIRMED	Galaxy tweet	2025-12-29
+E-052	N-058	N-012	POLICY_OVERLAP	Williams + Witt coordinate crypto policy	CONFIRMED	CoinDesk	2025-12-29
+E-054	N-056	N-060	FOUNDER	JR Gibbens co-founded Trumbull Unmanned	CONFIRMED	Treasury bio	2025-12-29
+E-055	N-061	N-060	CEO	Dyan Gibbens is Trumbull CEO	CONFIRMED	Crunchbase	2025-12-29
+E-056	N-056	N-061	SPOUSE	JR and Dyan Gibbens are married	CONFIRMED	TX Biz Hall of Fame	2025-12-29
+E-057	N-060	N-035	CONTRACT	Trumbull has 5-year UAS agreement with ExxonMobil	CONFIRMED	DroneLife 2019	2025-12-29
+E-070	N-061	DARPA	ADVISOR	Dyan Gibbens is DARPA Senior Advisor (Apr 2025+)	CONFIRMED	Convergence AI Dallas	2025-12-31
+E-071	N-060	AFSOC	CONTRACT	Trumbull delivered UAS hardware/software/training 2022	CONFIRMED	Trumbull website	2025-12-31
+E-072	N-060	USAFA	CONTRACT	Trumbull prime strategic advisor Unmanned 2030	CONFIRMED	TX Biz Hall of Fame	2025-12-31
+E-073	N-060	DOI	CONTRACT	Trumbull IDIQ for wildfire BVLOS operations	CONFIRMED	Trumbull website	2025-12-31
+E-074	N-060	NAVY	CONTRACT	Trumbull Group 4/5 RPA simulation and training	CONFIRMED	Trumbull website	2025-12-31
+E-080	N-070	TARIFF_POLICY	ADVISOR	Hudson Bay published Miran's tariff paper Nov 2024; became Mar-a-Lago Accord basis	CONFIRMED	Hudson Bay Research	2025-01-06
+E-088	N-074	FOXCONN	LP	Foxconn is Limited Partner in Playground Global	CONFIRMED	Wikipedia	2025-01-06
+E-096	N-082	DOE	CONTRACT	Oklo won DOE reactor pilot projects after Wright became Secretary	CONFIRMED	Oklo PR Aug 2025	2025-01-06
+E-098	N-079	TRUMP	ALLIANCE	MBS-Trump relationship: $600B-$1T investment pledges; F-35s; nuclear deal	CONFIRMED	WH Fact Sheet	2025-01-06
+E-099	N-076	TRUMP	FAMILY	Kushner is Trump's son-in-law; senior advisor in first term	CONFIRMED	Public	2025-01-06
+E-106	N-084	DOD	CONTRACT	Stratolaunch MACH-TB program; Talon-A2 exceeded Mach 5 Dec 2024/Mar 2025	CONFIRMED	SpaceNews	2025-01-06
+E-107	N-085	ARMY	CONTRACT	M1 prime contracts $849M trailing 12 months; pursuing Flight School Next	CONFIRMED	USASpending/BusinessWire	2025-01-06
+E-108	N-086	NAVY	CONTRACT	SubCom EXCLUSIVE undersea cable contractor; Diego Garcia secret spur ~$100M	CONFIRMED	Reuters	2025-01-06
+E-109	N-087	USMC	FRAUD	Navistar $50M False Claims Act settlement 2021; forged invoices for MRAPs	CONFIRMED	DOJ	2025-01-06
+E-110	N-088	DOD	LAWSUIT	Ligado suing DOD for $39B over spectrum taking; court allowed to proceed Nov 2024	CONFIRMED	Breaking Defense	2025-01-06
+E-114	N-091	TRUMP_PAC	DONOR	Continental donated $1M to MAGA Inc Apr 29 2024 (18 days after $1B meeting)	CONFIRMED	OpenSecrets	2026-01-06
+E-120	N-090	MAR_A_LAGO	ORGANIZER	Hamm organized Apr 11 2024 oil exec meeting where Trump asked for $1B	CONFIRMED	WashPost	2026-01-06
+E-121	N-092	VENEZUELA	OPERATOR	Chevron only US company operating in Venezuela (140K bpd)	CONFIRMED	CNBC	2026-01-06
+E-122	N-093	VENEZUELA	CLAIMANT	ConocoPhillips has $10B arbitration award from 2007 expropriation	CONFIRMED	CNBC	2026-01-06
+E-123	N-094	VENEZUELA	CLAIMANT	ExxonMobil has $2.6B claims from Venezuela expropriation	CONFIRMED	CNBC	2026-01-06
+E-124	N-079	OIL_PRICES	CONTROLS	MBS keeping oil low (down 20% in 2025) as part of Trump grand bargain	CONFIRMED	CSIS	2026-01-06
+E-126	N-074	N-096	INVESTOR	Playground Global portfolio company (Velo3D)	CONFIRMED	Playground website	2026-01-06
+E-129	N-096	N-030	SUPPLIER	Velo3D supplies parts to Anduril; CEO confirmed Dec 2025	CONFIRMED	Benzinga	2026-01-06
+E-130	N-096	SPACEX	SUPPLIER	Velo3D supplies 5 major parts for SpaceX Raptor engines; $8M license deal	CONFIRMED	Benzinga	2026-01-06
+E-131	N-096	DOD	CONTRACT	Velo3D $32.6M DoD Project FORGE contract Dec 2025	CONFIRMED	PRNewswire	2026-01-06
+E-132	N-095	ARMY	CONTRACT	Skydio $99.8M Army SRR program (5-year); latest $7.9M FY25	CONFIRMED	Skydio PR	2026-01-06
+E-133	N-095	STATE_DEPT	CONTRACT	Skydio $74M IDIQ with State Department INL	CONFIRMED	PRNewswire	2026-01-06
+E-135	N-100	N-099	ACQUIRER	DC Capital Partners acquired uAvionix Mar 2022	CONFIRMED	GovConWire	2026-01-06
+E-138	N-102	DARPA	FUNDED	Ayar Labs DARPA PIPES/POEM program funding; photonic chip tech	CONFIRMED	ExecutiveGov	2026-01-06
+E-139	N-099	FAA	CONTRACT	uAvionix FAA BVLOS contracts for C2 communications; Alaska pipeline	CONFIRMED	uAvionix PR	2026-01-06
+E-142	N-104	TRUMP_PAC	DONOR	Tim Dunn donated $5M to Trump SuperPAC via CrownQuest	CONFIRMED	Rolling Stone	2026-01-06
+E-144	N-106	SAUDI_ARABIA	LOBBYIST	CGCN lobbied for Saudi Arabia 2016 as Glover Park subcontractor	CONFIRMED	FARA filings	2026-01-06
+E-148	N-110	N-109	CHAIR	Leonard Leo chairs CRC Advisors	CONFIRMED	Rolling Stone	2026-01-06
+E-150	N-103	ENDANGERMENT_FINDING	POLICY_ACTION	Zeldin announced plan to repeal 2009 Endangerment Finding Jul 2025	CONFIRMED	EPA PR	2026-01-06
+E-151	N-103	OIL_GAS_INDUSTRY	DONOR	Zeldin received $410K+ from oil/gas industry; $60K+ from Koch Industries	CONFIRMED	OpenSecrets	2026-01-06
+E-156	N-111	ASBESTOS_BAN	OPPONENT	Fotouhi challenged EPA asbestos ban on behalf of auto industry	CONFIRMED	ProPublica	2026-01-06
+E-160	N-112	PROJECT_2025	AUTHOR	Szabo authored EPA chapter of Project 2025	CONFIRMED	Heritage	2026-01-06
+E-163	N-113	PFAS_RULES	BLOCKER	Beck delayed PFOA risk standards in Trump 1.0; blocked staff from warning Senate	CONFIRMED	The Hill	2026-01-06
+E-164	N-114	TSCA	LOBBYIST	ACC is major TSCA/chemical lobby; Beck implemented their positions word-for-word	CONFIRMED	House Dems	2026-01-06
+E-165	N-124	N-116	PUBLISHER	Heritage Foundation published Project 2025 Mandate for Leadership	CONFIRMED	Heritage	2026-01-06
+E-166	N-117	N-116	AUTHOR	Vought wrote Chapter 2 (Executive Office); supervised 180-Day Playbook; 350 draft EOs	CONFIRMED	Heritage	2026-01-06
+E-167	N-118	N-116	AUTHOR	Carr wrote Chapter 28 (FCC); now implementing as FCC Chairman	CONFIRMED	CBS News	2026-01-06
+E-168	N-119	N-116	CONTRIBUTOR	Homan contributed to immigration section; Heritage Fellow 2022	CONFIRMED	CNN	2026-01-06
+E-169	N-120	N-116	AUTHOR	Navarro co-wrote Chapter 26 (Trade); now Senior Trade Counselor	CONFIRMED	Heritage	2026-01-06
+E-170	N-121	N-116	AUTHOR	Burke wrote Chapter 11 (Education); 17 yrs Heritage; now Ed Dept Deputy CoS	CONFIRMED	EdWeek	2026-01-06
+E-171	N-122	N-116	CONTRIBUTOR	Atkins credited as contributor; now SEC Chairman	CONFIRMED	Newsweek	2026-01-06
+E-172	N-123	N-116	ADVISORY_BOARD	Miller's America First Legal on Project 2025 advisory board	CONFIRMED	NBC News	2026-01-06
+E-173	N-112	N-116	CONTRIBUTOR	Szabo contributed to EPA section; now EPA Asst Admin for Air	CONFIRMED	E&E News	2026-01-06
+E-178	N-122	N-125	BOARD+INVESTOR	Atkins was Securitize board member + held $250K-$500K call options until Feb 2025	CONFIRMED	OGE 278	2026-01-06
+E-179	N-125	N-003	SPAC_MERGER	Securitize merging with Cantor Equity Partners II (CEPT) at $1.25B; Brandon Lutnick is CEPT Chairman	CONFIRMED	PRNewswire	2026-01-06
+E-181	N-126	FTX	CLIENT	Patomak advised FTX Jan 2022; is FTX creditor in bankruptcy	CONFIRMED	FTX filing	2026-01-06
+E-184	N-122	N-116	CONTRIBUTOR	Atkins credited as Project 2025 contributor	CONFIRMED	Newsweek	2026-01-06
+E-185	N-122	TOKEN_ALLIANCE	CO_CHAIR	Atkins co-chaired Token Alliance (crypto advocacy) until Feb 2025	CONFIRMED	Ethics filing	2026-01-06
+E-186	N-003	N-125	SPAC_SPONSOR	Brandon Lutnick's Cantor Equity Partners II sponsoring Securitize SPAC	CONFIRMED	SEC filing	2026-01-06
+E-189	N-134	N-129	DONOR	Barre Seid donated $1.6B to Marble Freedom Trust (2021); largest political donation ever	CONFIRMED	ProPublica	2026-01-06
+E-190	N-110	N-129	TRUSTEE	Leo is Trustee/Chairman of Marble Freedom Trust; earns $350K/yr; controls spending	CONFIRMED	Tax filings	2026-01-06
+E-191	N-129	N-130	FUNDER	Marble→Schwab Charitable→85 Fund pipeline; $140M+ annually	CONFIRMED	CREW	2026-01-06
+E-192	N-129	N-131	FUNDER	Marble gave $100M+ to Concord Fund for judicial campaigns	CONFIRMED	Tax filings	2026-01-06
+E-193	N-110	N-109	FOUNDER	Leo co-founded CRC Advisors 2020 with Greg Mueller	CONFIRMED	Wikipedia	2026-01-06
+E-194	N-130	N-109	CLIENT	85 Fund paid CRC Advisors $21.7M in 2021 alone	CONFIRMED	Tax filings	2026-01-06
+E-195	N-131	N-109	CLIENT	Concord Fund pays CRC Advisors $6M+/yr for "consulting"	CONFIRMED	Tax filings	2026-01-06
+E-196	N-110	N-132	CHAIR	Leo chairs Teneo Network since 2021	CONFIRMED	ProPublica	2026-01-06
+E-197	N-004	N-132	CO_FOUNDER	Peter Thiel co-founded Teneo Network in 2008	CONFIRMED	ProPublica	2026-01-06
+E-198	N-133	N-132	MEMBER	JD Vance member of Teneo since 2018; spoke at events; praised Alex Jones	CONFIRMED	ProPublica	2026-01-06
+E-199	N-133	N-004	PROTEGE	Thiel mentored Vance; donated $10M+ to 2022 Senate campaign	CONFIRMED	FEC	2026-01-06
+E-200	N-110	N-116	FUNDER	Leo funded 60+ of 80 Project 2025 advisory groups via dark money network	CONFIRMED	Documented	2026-01-06
+E-202	N-110	N-135	ADVISER	Leo "adviser" to Consumers Research; praised Will Hild's anti-ESG work	CONFIRMED	Rolling Stone	2026-01-06
+E-205	N-110	N-103	PAID_OP_ED	CRC Advisors (Leo) paid Zeldin $3K for Fox News op-ed	CONFIRMED	OGE 278	2026-01-06
+E-206	N-110	TRUMP	FALLOUT	Trump called Leo "sleazebag" May 2025 after Leo-picked judge blocked tariffs	CONFIRMED	WaPo	2026-01-06
+E-207	N-118	N-139	ALLY	Carr defended Musk from "regulatory harassment"; praised his "production algorithm"; good relationship per NYT	CONFIRMED	NPR/Twitter	2026-01-06
+E-213	N-138	TRUMP	ALLY	Smith told Trump 2016: "We are here to deliver your message"; met Ajit Pai on deregulation	CONFIRMED	Politico	2026-01-06
+E-216	N-118	ABC	INVESTIGATOR	Carr investigating ABC over debate moderation; demanded Kimmel action; DEI probe	CONFIRMED	NPR/NBC	2026-01-06
+E-217	N-118	CBS	INVESTIGATOR	Carr revived 60 Minutes complaint; Trump sued and settled for $16M	CONFIRMED	Fortune/NPR	2026-01-06
+E-218	N-118	NBC	INVESTIGATOR	Carr investigating NBC over SNL Harris appearance; DEI probe of Comcast	CONFIRMED	NPR	2026-01-06
+E-219	N-118	NPR	INVESTIGATOR	Carr launched investigation of NPR	CONFIRMED	NPR	2026-01-06
+E-220	N-118	PBS	INVESTIGATOR	Carr launched investigation of PBS	CONFIRMED	NPR	2026-01-06
+E-221	N-118	STARLINK	FAVORITISM	Carr awarded SpaceX spectrum; called RDOF revocation "partisan"; supports satellite expansion	CONFIRMED	FoxBiz/Reuters	2026-01-06
+E-222	N-139	STARLINK	OWNER	Musk owns SpaceX/Starlink	CONFIRMED	Public	2026-01-06
+E-223	N-118	TIKTOK	BAN_ADVOCATE	Carr called TikTok "China's digital fentanyl"; supports total ban; China hardliner	CONFIRMED	NPR/FoxNews	2026-01-06
+E-224	N-118	NET_NEUTRALITY	REPEALER	Carr voted to repeal net neutrality 2017; celebrated 2025 court ruling killing Biden restoration	CONFIRMED	Wikipedia/RollCall	2026-01-06
+E-225	N-118	OWNERSHIP_RULES	ELIMINATOR	Carr supports eliminating 39% ownership cap; would enable Sinclair-Scripps, Nexstar-Tegna mergers	CONFIRMED	CNBC/TheDesk	2026-01-06
+E-227	N-144	TEGNA	ACQUIRER	Nexstar pending $6.2B Tegna acquisition; needs FCC ownership rule change	CONFIRMED	CNBC	2026-01-06
+E-231	N-145	CLARENCE_THOMAS	FRIEND	Williams was Thomas EEOC assistant 1980s; best friends; defended during Anita Hill hearings	CONFIRMED	Wikipedia	2026-01-06
+E-238	N-138	TRUMP	ALLY	Smith told Trump 2016: "We are here to deliver your message. Period."	CONFIRMED	Guardian	2026-01-06
+E-239	N-138	AJIT_PAI	LOBBYIST	Smith met Pai before becoming FCC Chair; gave deregulation wish list	CONFIRMED	NPR	2026-01-06
+E-241	N-151	TRUMP	ADVISOR	Epshteyn was WH comms (2017); now Trump personal attorney/legal team	CONFIRMED	Wikipedia	2026-01-06
+E-242	N-137	FCC	FINED	Sinclair fined $48M in 2020 for misleading FCC about station control	CONFIRMED	Wikipedia	2026-01-06
+E-243	N-145	BUSH_DOE	PAID_PROMOTION	Williams paid $240K to promote No Child Left Behind; scandal 2005	CONFIRMED	USAToday	2026-01-06
+E-244	N-138	PROSTITUTION	SCANDAL	Smith arrested 1996 for "perverted sex act" with prostitute in company car; convicted misdemeanor	CONFIRMED	BaltSun/Salon	2026-01-06
+E-245	N-147	FCC_RULES	EVADER	Cunningham used to circumvent FCC ownership limits; "sham licensee"	CONFIRMED	MediaMatters	2026-01-06
+E-253	N-144	KIMMEL	PREEMPTED	Nexstar preempted Jimmy Kimmel Live on 32 ABC affiliates Sep 2025; hours after Carr threat	CONFIRMED	Deadline	2026-01-06
+E-255	N-152	NAB	CHAIRMAN	Sook was NAB Joint Board Chairman Jun 2023-Jun 2025; industry's top lobbying role	CONFIRMED	Nexstar bio	2026-01-06
+E-256	N-152	GOP	DONOR	Sook donated $36.9K to Congress; $31.9K to Republicans (6x more than Dems)	CONFIRMED	OpenSecrets	2026-01-06
+E-257	N-144	FCC	WAIVER_REQUEST	Nexstar requesting waiver of 39% cap; deal would reach 54.5% of US households	CONFIRMED	Variety	2026-01-06
+E-258	WARREN	N-144	OPPONENT	Warren letter Dec 2025: Nexstar-Tegna "presumptively illegal"; would reach 80% of households	CONFIRMED	Warren.Senate.gov	2026-01-06
+E-262	N-145	N-157	FRIEND	Armstrong Williams was Thomas's EEOC assistant 1980s; best friends; paid wedding reception 1987; defended at Anita Hill hearings	CONFIRMED	ProPublica/WaPo	2026-01-06
+E-263	N-159	N-157	GIFTS	Crow gave Thomas 38+ vacations, 26 private jet flights, 8 helicopter flights, 12 VIP sports; $millions undisclosed	CONFIRMED	ProPublica	2026-01-06
+E-264	N-159	N-158	DONOR	Crow gave $500K to Ginni's Liberty Central (2011); also funded Thomas PR campaign	CONFIRMED	Politico	2026-01-06
+E-265	N-159	N-160	CHAIRMAN	Harlan Crow is Chairman of Crow Holdings ($33B AUM)	CONFIRMED	CrowHoldings	2026-01-06
+E-266	N-110	N-158	PAID	Leo directed $80-100K to Ginni via Conway; instructed "no mention of Ginni" (2011-2012)	CONFIRMED	WaPo	2026-01-06
+E-267	N-164	N-163	CONDUIT	Conway's Polling Company billed Judicial Education Project; paid Liberty Consulting per Leo instructions	CONFIRMED	WaPo	2026-01-06
+E-268	N-163	N-158	OWNER	Ginni Thomas owns Liberty Consulting; routes payments to Thomas household	CONFIRMED	Wikipedia	2026-01-06
+E-269	N-157	N-158	SPOUSE	Clarence and Ginni Thomas married 1987; she claims no discussion of election activities	CONFIRMED	Public	2026-01-06
+E-270	N-161	N-157	MEMBER	Thomas member since 1991; hosts annual induction at Supreme Court; "knighting ceremony"	CONFIRMED	NYT/ProPublica	2026-01-06
+E-271	N-161	N-159	MEMBER	Harlan Crow member of Horatio Alger; met Thomas through association	CONFIRMED	ProPublica	2026-01-06
+E-272	N-161	N-162	MEMBER	David Sokol member of Horatio Alger; gave Thomas 7+ trips	CONFIRMED	ProPublica	2026-01-06
+E-273	N-162	N-157	GIFTS	Sokol gave Thomas 7+ trips; private jets to ranch/FL; luxury suite tickets; decade of vacations	CONFIRMED	ProPublica	2026-01-06
+E-274	N-135	FCC	PLAINTIFF	Consumers' Research (Leo-funded) sued FCC; Thomas/Alito called to recuse; didn't	CONFIRMED	AccountableUS	2026-01-06
+E-275	N-110	N-135	FUNDER	Leo funds Consumers' Research; created recusal conflict in FCC v. Consumers' Research	CONFIRMED	ProPublica	2026-01-06
+E-276	N-157	N-135	NO_RECUSAL	Thomas didn't recuse from FCC v. Consumers' Research despite Leo ties to wife/himself	CONFIRMED	SCOTUS	2026-01-06
+E-277	N-158	MEADOWS	JAN6_TEXTS	Ginni sent 29 texts to Meadows urging election overturn; "greatest Heist"; later regretted	CONFIRMED	CNN/Jan6	2026-01-06
+E-278	N-158	HERITAGE	PAID	Heritage paid Ginni $700K (2003-2007); Heritage files SCOTUS amicus briefs	CONFIRMED	OpenSecrets	2026-01-06
+E-279	N-159	FEDERALIST_SOCIETY	DONOR	Crow donates to Federalist Society; also funded Leo's judicial confirmation campaigns	CONFIRMED	CREW	2026-01-06
+E-280	N-157	BRAND_X	AUTHOR	Thomas wrote Brand X (2005) expanding agency power; later regretted it (2020); basis for net neutrality repeal	CONFIRMED	SCOTUS	2026-01-06
+E-281	N-157	N-110	GODFATHER	Thomas is godfather to one of Leo's children; attended Federalist events together	CONFIRMED	ProPublica	2026-01-06
+E-283	N-165	TRUMP	ALLY	Ruddy is longtime Trump friend; frequent Mar-a-Lago visitor; defended Trump during investigations	CONFIRMED	Axios	2026-01-06
+E-287	TRUMP	N-118	CONFLICT	Trump opposed ownership cap lift Nov 24 2025 Truth Social; defied Carr's agenda	CONFIRMED	Axios	2026-01-06
+E-289	N-107	N-166	INVESTOR	Sheikh Sultan invested $50M in Newsmax (same who paid Zeldin consulting)	CONFIRMED	Newsmax	2026-01-06
+E-290	ATVA	N-118	LEGAL_CHALLENGE	ATVA argues FCC lacks legal authority to eliminate ownership cap (Congress set 39% in 2004)	CONFIRMED	TheDesk Dec 2025	2026-01-06
+E-293	N-139	N-168	LEADER	Musk is de facto head of DOGE; "Senior Advisor" designation	CONFIRMED	Wikipedia/Courts	2026-01-07
+E-296	N-171	N-168	TEAM_LEAD	Yinon Weiss is DOGE Team Lead at DoD; clashed with Hegseth	CONFIRMED	YouTube/ProPublica	2026-01-07
+E-303	N-178	N-168	TEAM_LEAD	Stephanie Holmes DOGE Team Lead at Interior; anti-DEI	CONFIRMED	Politico Pro	2026-01-07
+E-308	N-175	N-116	AUTHOR	Noah Peters authored Project 2025 sections; now implementing at OPM	CONFIRMED	RevolvingDoor	2026-01-07
+E-310	N-139	N-055	MEMBER	Musk attended Dialog retreats; spoke on AI	CONFIRMED	Axios	2026-01-07
+E-311	N-182	N-055	MEMBER	Henry Kravis attends Dialog Forum	CONFIRMED	Axios	2026-01-07
+E-312	N-042	N-055	MEMBER	Chamath attends Dialog Forum (also in Exec Branch Club)	CONFIRMED	Axios	2026-01-07
+E-313	N-181	N-054	FOUNDING_MEMBER	Winklevoss twins paid $500K to join Executive Branch Club	CONFIRMED	Washingtonian	2026-01-07
+E-315	N-183	N-054	FOUNDING_MEMBER	Jeff Miller superlobbyist founding member of Exec Branch Club	CONFIRMED	Wikipedia	2026-01-07
+E-316	N-002	N-054	MEMBER	Howard Lutnick (Commerce Sec) member of Exec Branch Club	CONFIRMED	DailyBeast	2026-01-07
+E-317	N-008	N-054	MEMBER	Jacob Helberg (State Undersecy) member of Exec Branch Club	CONFIRMED	DailyBeast	2026-01-07
+E-318	N-184	N-054	GUEST	Andrew Ferguson (FTC Chair) attended MBS afterparty at club	CONFIRMED	DailyBeast	2026-01-07
+E-319	N-185	N-054	GUEST	Brooke Rollins (Ag Sec) attended MBS dinner at club	CONFIRMED	DailyBeast	2026-01-07
+E-320	N-079	N-054	EVENT	MBS afterparty at Exec Branch Club Nov 2025; Cabinet attended	CONFIRMED	DailyBeast	2026-01-07
+E-322	N-055	DC_CAMPUS	EXPANSION	Dialog acquiring land near DC for permanent campus	CONFIRMED	Axios Aug 2025	2026-01-07
+E-324	N-168	NOAA	CUTS	DOGE facilitated 880 NOAA firings (7.3% of workforce)	CONFIRMED	GovExec	2026-01-07
+E-325	N-168	SSA	CUTS	DOGE targeting 7,000 SSA staff (12%); closing field offices	CONFIRMED	EPI	2026-01-07
+E-326	N-168	USAID	CUTS	DOGE terminated billions in USAID contracts; DEI targeting	CONFIRMED	HigherGov	2026-01-07
+E-327	N-139	N-186	OWNER	Musk owns SpaceX; receives contracts while leading DOGE	CONFIRMED	Public	2026-01-07
+E-328	N-042	N-005	ALLY	Chamath is Sacks' podcast co-host; aligns on crypto policy	CONFIRMED	All-In Podcast	2026-01-07
+E-330	N-184	ANTITRUST	REGULATOR	Ferguson (FTC) regulates mergers; socializing with regulated at club	HIGH	DailyBeast	2026-01-07
+E-331	N-184	N-078	CONFLICT	Ferguson attended MBS afterparty Nov 2025; must approve MBS's EA acquisition	CONFIRMED	ExecBranchClub dossier	2026-01-07
+E-332	N-184	N-083	REGULATOR	Ferguson's FTC reviews $55B EA acquisition; largest LBO ever	CONFIRMED	Bloomberg	2026-01-07
+E-333	N-184	N-157	CLERK	Ferguson clerked for Clarence Thomas; ideological alignment	CONFIRMED	Wikipedia	2026-01-07
+E-336	N-189	N-190	SPOUSE	Loeffler married to Sprecher; combined $1B+ net worth; Spouse Firewall pattern	CONFIRMED	Wikipedia	2026-01-07
+E-337	N-190	N-191	FOUNDER_CEO	Sprecher founded ICE; CEO since 2000; Chairman NYSE	CONFIRMED	Wikipedia	2026-01-07
+E-338	N-191	N-192	SUBSIDIARY	ICE owns 55% of Bakkt	CONFIRMED	FT	2026-01-07
+E-339	N-189	N-192	FORMER_CEO	Loeffler was founding CEO of Bakkt (2018-2019)	CONFIRMED	Wikipedia	2026-01-07
+E-340	N-189	N-191	FORMER_EXEC	Loeffler was SVP at ICE; helped acquire NYSE	CONFIRMED	Wikipedia	2026-01-07
+E-341	N-189	INAUGURAL	CO_CHAIR	Loeffler co-chaired $239M Trump inaugural committee	CONFIRMED	NBC News	2026-01-07
+E-342	N-190	INAUGURAL	DONOR	Sprecher gave $1M to Trump inaugural	CONFIRMED	NBC News	2026-01-07
+E-343	N-189	MAGA_INC	DONOR	Loeffler gave $2.5M to MAGA Inc after SBA confirmation (Jun 2025)	CONFIRMED	Wikipedia	2026-01-07
+E-344	N-190	MAGA_INC	DONOR	Sprecher gave $2.5M to MAGA Inc (Jun 2025)	CONFIRMED	Wikipedia	2026-01-07
+E-345	N-191	N-193	INVESTOR	ICE invested $2B in Polymarket Oct 2025 at $8B valuation	CONFIRMED	CNBC	2026-01-07
+E-346	N-191	N-193	CONFLICT	ICE invests $2B → CFTC approves Polymarket 7 weeks later; timing suspicious	HIGH	Multiple	2026-01-07
+E-347	N-190	N-191	FOUNDER_CEO	Sprecher founded ICE 2000; CEO and Chairman	CONFIRMED	Wikipedia	2026-01-07
+E-348	N-194	N-193	APPROVED	Pham's CFTC approved Polymarket Nov 25, 2025 - 7 weeks after ICE invested $2B	CONFIRMED	CFTC	2026-01-07
+E-349	N-194	N-195	REVOLVING_DOOR	Pham joining MoonPay as CLO/CAO after leaving CFTC Dec 2025	CONFIRMED	PRNewswire	2026-01-07
+E-350	N-191	N-195	INVESTOR_PENDING	ICE in talks to invest in MoonPay at $5B valuation	HIGH	Bloomberg	2026-01-07
+E-351	N-194	N-190	COUNCIL	Sprecher on Pham's CEO Innovation Council (Dec 2025)	CONFIRMED	CFTC	2026-01-07
+E-352	N-194	N-193	COUNCIL	Polymarket CEO Coplan on Pham's CEO Innovation Council	CONFIRMED	CFTC	2026-01-07
+E-353	N-194	N-191	REGULATOR	Pham's CFTC regulated ICE derivatives markets	CONFIRMED	CFTC	2026-01-07
+E-354	N-194	CITIGROUP	FORMER_EXEC	Pham was Citi MD for 7 years before CFTC	CONFIRMED	Wikipedia	2026-01-07
+E-355	N-196	N-197	FORMER_LOBBYIST	Bondi was Ballard Partners lobbyist 2019-2024; 30+ clients	CONFIRMED	OpenSecrets	2026-01-07
+E-356	N-196	N-198	LOBBIED_FOR	Bondi lobbied for GEO Group; paid $390K; now has $1B+ ICE contracts	CONFIRMED	Senate Judiciary	2026-01-07
+E-357	N-196	N-199	FARA_AGENT	Bondi was FARA-registered agent for Qatar; $115K/month 2020-2022	CONFIRMED	FARA filings	2026-01-07
+E-358	N-196	N-199	CONFLICT	Bondi signed memo approving $400M Qatar jet gift while former Qatar lobbyist	CONFIRMED	American Oversight	2026-01-07
+E-359	N-197	DOJ	LOBBYING	Ballard Partners lobbying Bondi's DOJ; $690K from 8 clients Q2 2025; all but one signed post-nomination	CONFIRMED	Public Citizen	2026-01-07
+E-360	N-196	N-105	BOARD_CHAIR	Bondi chaired AFPI Center for Litigation; led voting lawsuits 2024	CONFIRMED	AFPI	2026-01-07
+E-361	N-196	TRUMP	IMPEACHMENT_LAWYER	Bondi was Trump impeachment defense lawyer 2020	CONFIRMED	Wikipedia	2026-01-07
+E-362	N-196	TRUMP_UNIVERSITY	DROPPED_INVESTIGATION	Received $25K Trump Foundation donation 2013 → dropped FL investigation; Trump later settled for $25M	CONFIRMED	CREW	2026-01-07
+E-363	N-198	INAUGURAL	DONOR	GEO Group gave $500K to Trump inaugural + $1M to MAGA PAC	CONFIRMED	OpenSecrets	2026-01-07
+E-364	N-200	N-196	SUBORDINATE	Blanche is Deputy AG under Bondi	CONFIRMED	DOJ	2026-01-07
+E-365	N-200	TRUMP	FORMER_LAWYER	Blanche was Trump's criminal defense lawyer (hush money, classified docs trials)	CONFIRMED	Wikipedia	2026-01-07
+E-366	N-200	CRYPTO	CONFLICT	Ended crypto enforcement Apr 2025 while holding $159K-$485K; divested to children (Family Firewall)	CONFIRMED	ProPublica	2026-01-07
+E-367	N-201	TRUMP	FORMER_LAWYER	Bove was Trump's criminal defense lawyer	CONFIRMED	Wikipedia	2026-01-07
+E-368	N-201	N-196	FORMER_SUBORDINATE	Bove was Acting Deputy AG under Bondi Jan-Mar 2025	CONFIRMED	DOJ	2026-01-07
+E-369	N-202	N-197	FORMER_LOBBYIST	Susie Wiles was Ballard Partners lobbyist 2011-2022; $5.6M fees	CONFIRMED	OpenSecrets	2026-01-07
+E-370	N-203	N-202	DAUGHTER	Katie Wiles promoted to lead Continental Strategy after mother became CoS	CONFIRMED	WaPo	2026-01-07
+E-371	N-204	N-202	DAUGHTER	Caroline Wiles promoted to VP at Rubin Turnbull after mother became CoS	CONFIRMED	WaPo	2026-01-07
+E-372	N-205	N-196	PARTNER	Wakefield is Bondi's partner; held Bible at swearing-in; Trump called him "husband"	CONFIRMED	Newsweek	2026-01-07
+E-373	N-196	N-200	SUPERVISOR	Bondi supervises Blanche as AG over Deputy AG	CONFIRMED	DOJ	2026-01-07
+E-378	N-207	DOD_TRANSITION	LEADER	Stephens led Trump 2016 DoD transition team	CONFIRMED	ProPublica	2026-01-08
+E-379	N-211	TRUMP	DONOR	Schwarzman donated $45M+ to Trump 2024-2025 including $5M MAGA Inc	CONFIRMED	OpenSecrets	2026-01-08
+E-380	N-211	INAUGURAL	DONOR	Schwarzman/Blackstone donated $1M to Trump 2025 inaugural	CONFIRMED	WashPost	2026-01-08
+E-381	N-212	TRUMP	DONOR	Rowan donated $1M to Trump Victory Sept 2020	CONFIRMED	FEC	2026-01-08
+E-382	N-212	N-076	LENDER	Apollo loaned $184M to Kushner Companies 2017	CONFIRMED	NYT	2026-01-08
+E-384	N-211	WH_DINNER	ATTENDED	Schwarzman attended Trump WH private dinner Nov 12 2025	CONFIRMED	Reuters	2026-01-08
+E-385	N-212	WH_DINNER	ATTENDED	Rowan attended Trump WH private dinner Nov 12 2025	CONFIRMED	Reuters	2026-01-08
+E-386	N-212	UNIVERSITY_COMPACT	DRAFTER	Rowan drafted university compact adopted by Trump admin Oct 2025	HIGH	Politico	2026-01-08
+E-387	N-208	FHFA	DIRECTOR	Pulte is FHFA Director; controls Fannie/Freddie post-2021 SCOTUS	CONFIRMED	FHFA	2026-01-08
+E-388	N-208	HOUSING_BAN	IMPLEMENTER	Pulte can implement housing ban via GSE financing restrictions without Congress	CONFIRMED	FHFA authority	2026-01-08
+E-389	N-133	HOUSING_POLICY	ADVOCATE	Vance 2021-2023 rhetoric ("hedge funds destroying wealth") became Trump 2026 policy	CONFIRMED	Campaign speeches	2026-01-08
+E-390	N-210	HOUSING_BAN	BILL_SPONSOR	Moreno announced bill Jan 6 2026 - day BEFORE Trump announcement (coordination)	CONFIRMED	Moreno PR	2026-01-08
+E-391	TRUMP	N-211	ADVERSE_POLICY	Trump housing ban targets Schwarzman's Blackstone SFR portfolio despite $45M donations	CONFIRMED	Jan 7 2026	2026-01-08
+E-392	N-013	DEFENSE_EO	IMPLEMENTER	Hegseth has 30-day deadline to identify underperforming contractors; 60-day for contract provisions	CONFIRMED	EO Jan 7 2026	2026-01-08
+E-393	N-011	FAMILY_TRUST	DIVESTED_TO	Feinberg divested Cerberus to irrevocable trusts for adult children (not blind trust)	CONFIRMED	Warren letter	2026-01-08
+E-394	N-016	N-133	BUSINESS	Buskirk co-founded Rockbridge Network with JD Vance	CONFIRMED	Rockbridge	2026-01-08
+E-395	N-044	N-027	BOARD	Blake Masters is 1789 Capital board member; Thiel protégé	CONFIRMED	1789 website	2026-01-08
+E-396	N-218	N-012	FOUNDED	Rathje founded OSC 2022; left June 4 2025 before any loans closed	CONFIRMED	OSC/LinkedIn	2026-01-08
+E-397	N-012	N-219	REPORTS_TO	OSC reports to USD(R&E) Emil Michael	CONFIRMED	DoD org	2026-01-08
+E-398	N-219	N-012	OVERSEES	Emil Michael oversees OSC as USD(R&E); confirmed May 2025	CONFIRMED	DoD	2026-01-08
+E-400	N-220	CDAO	CONTRACT	xAI received $200M CDAO contract July 13 2025 (~90 days after investment)	CONFIRMED	Defense News	2026-01-08
+E-402	N-221	DARPA	CONTRACT	Cerebras received $45M DARPA chip networking contract April 1 2025 (BEFORE 1789 investment)	CONFIRMED	DARPA	2026-01-08
+E-405	N-038	N-223	INVESTOR	Founders Fund co-led Hadrian $260M Series C July 2025	CONFIRMED	TechCrunch	2026-01-08
+E-411	N-227	APAD	SPAC_MERGER	Enhanced Games merging with A Paradise Acquisition Corp Nov 2025 ($1.2B EV)	CONFIRMED	SEC S-4	2026-01-08
+E-414	N-038	N-229	INVESTOR	Founders Fund invested in Ramp	CONFIRMED	Ramp	2026-01-08
+E-418	N-208	FANNIE_ETHICS	FIRED	Pulte fired entire Fannie Mae ethics team Oct 2025 (~12 staff + CEO + GC)	CONFIRMED	Fortune/Reuters	2026-01-08
+E-419	N-208	PLTR	HOLDINGS	Pulte held Palantir ($15K-$50K gains); Fannie contracted Palantir May 2025	CONFIRMED	OGE 278	2026-01-08
+E-427	N-038	N-032	INVESTOR	Founders Fund invested in Firehawk Aerospace	CONFIRMED	Firehawk	2026-01-08
+E-428	N-012	N-234	LOAN_APPROVER	OSC $80M loan to ReElement Nov 2025	CONFIRMED	OSC announcement	2026-01-09
+E-429	N-012	N-235	EMPLOYER	Witt CEO/MD at EcoFusion Solutions 2023-24; contractor scaling startup; SEPARATE from PE firm	HIGH	LinkedIn/Club for Growth	2026-01-09
+E-431	N-012	N-236	EMPLOYER	Witt MD at unnamed PE firm ~2021-2023; appears in narrative bios only, NOT LinkedIn; coordinated omission	CONFIRMED	DoD/war.gov bios	2026-01-09
+E-435	N-123	N-029	INVESTOR	Miller owned $100K-$250K Palantir stock in child brokerage account; divested Aug 14 2025 after 9 months	CONFIRMED	OGE 278e Jun 2025	2026-01-09
+E-437	N-123	N-242	FOUNDER	Miller founded America First Legal Feb 2021 with Hamilton; earned $508K in 2024	CONFIRMED	AFL 990/OGE 278	2026-01-09
+E-442	N-239	PIAB	MEMBER	Katie Miller appointed to President's Intelligence Advisory Board Feb 2025	CONFIRMED	PIAB announcement	2026-01-09
+E-443	N-239	N-168	FORMER_ADVISOR	Katie Miller was DOGE senior advisor under Musk Jan-Jun 2025	CONFIRMED	Wikipedia	2026-01-09
+E-445	N-249	N-242	CREATED	CPI created AFL with Miller/Hamilton/Meadows; $1.3M seed funding 2021	CONFIRMED	CPI 2021 Annual Report	2026-01-09
+E-446	N-243	N-242	CO_FOUNDER	Hamilton co-founded AFL Feb 2021; EVP/General Counsel until Jan 2025; returned as President Jul 2025	CONFIRMED	AFL/Wikipedia	2026-01-09
+E-447	N-244	N-242	FORMER_EXEC	Rubinstein was AFL Senior Vice President before State Dept appointment	CONFIRMED	AFL/State Dept	2026-01-09
+E-448	N-242	N-116	ADVISORY_BOARD	AFL on Project 2025 advisory board (requested removal Jul 2024 after electoral liability)	CONFIRMED	Heritage/NBC News	2026-01-09
+E-449	N-250	N-242	DONOR	Bradley Impact Fund gave AFL $27.4M 2021-22 (61% of 2022 revenue); largest grant in Bradley history	CONFIRMED	990 filings	2026-01-09
+E-450	N-251	N-242	DONOR	DonorsTrust gave AFL $24.6M total ($21.3M in 2024 for "election integrity")	CONFIRMED	990 filings	2026-01-09
+E-451	N-254	N-242	DONOR	Mike Rydin donated $1.5M+ to AFL; $2M matching campaign Jun-Jul 2025	CONFIRMED	AFL announcements	2026-01-09
+E-452	N-243	N-116	AUTHOR	Hamilton authored Project 2025 DOJ chapter while AFL General Counsel	CONFIRMED	Heritage/Democracy Docket	2026-01-09
+E-453	N-240	TRUMP_CAMPAIGN	DONOR	GEO Group donated $1M+ to Trump 2024 (first corp to max) + $500K inaugural	CONFIRMED	FEC/OpenSecrets	2026-01-09
+E-454	N-241	TRUMP_CAMPAIGN	DONOR	CoreCivic donated $750K+ via CEO Hininger ($250K+) + $500K inaugural	CONFIRMED	FEC/OpenSecrets	2026-01-09
+E-463	N-029	ICE	CONTRACT	Palantir $30M ICE "ImmigrationOS" contract Apr 2025; $113M+ total federal since Jan 2025	CONFIRMED	Contract data	2026-01-09
+E-464	N-123	N-029	POLICY_BENEFICIARY	Miller's immigration policies directly benefit Palantir's ICE contracts while he held stock	CONFIRMED	Ethics analysis	2026-01-09
+E-465	N-240	ICE	CONTRACT	GEO Group received 9 new contracts by Jun 2025; $1B+ Delaney Hall; 43% revenue from ICE	CONFIRMED	Contract data	2026-01-09
+E-466	N-241	ICE	CONTRACT	CoreCivic ICE contracts represent 30% of revenue ($2.2B total); 9 new contracts by Jun 2025	CONFIRMED	Contract data	2026-01-09
+E-469	N-242	TRUMP_EOS	IMPLEMENTED	8 Trump Day 1 EOs match AFL litigation positions: MPP, sanctuary penalties, invasion, refugees, detention, safe third country, border wall, DEI	CONFIRMED	Policy alignment	2026-01-09
+E-470	N-110	N-251	ASSOCIATED	Leonard Leo network associated with DonorsTrust; dark money infrastructure overlap	HIGH	Multiple sources	2026-01-09
+E-471	N-249	N-117	BOARD_MEMBER	Russ Vought (OMB Director) is AFL board member via CPI connection	CONFIRMED	AFL/Wikipedia	2026-01-09
+E-474	N-209	NFL	CONSULTANT	$110,000 ongoing NFL consulting income; maintains network relationships	CONFIRMED	OGE 278	2026-01-10
+E-475	N-209	N-105	BOARD_CHAIR	AFPI Center for Housing chair; $24,000 salary; drafted housing policy recommendations	CONFIRMED	AFPI/OGE 278	2026-01-10
+E-476	N-209	N-260	DONOR_ACCESS	Attended Ziklag conference June 2019 at Broadmoor Resort WHILE running WH Opportunity Zones program; donors positioned for OZ benefits	CONFIRMED	ProPublica	2026-01-10
+E-477	N-104	N-209	PATRON	Tim Dunn network funded Turner via AFPI/TPPF pipeline; Dunn co-founded AFPI where Turner was chair	CONFIRMED	AFPI/DeSmog	2026-01-10
+E-478	N-261	N-209	DONOR	$115,000 direct donations to Turner campaigns; Dunn associate	CONFIRMED	FEC	2026-01-10
+E-487	N-264	N-260	ATTENDEE	Robin Turner attended Ziklag conference June 2019 with Scott; co-founded Community Engagement & Opportunity Council	CONFIRMED	ProPublica	2026-01-10
+E-490	N-261	N-104	ASSOCIATE	Sandefer and Dunn both major TPPF/AFPI donors; coordinate Texas conservative funding	CONFIRMED	TPPF/OpenSecrets	2026-01-10
+E-491	N-260	OZ_PROGRAM	INFLUENCE	Ziklag members met with 3 Trump officials about OZ May 2019; newsletter: "administration in state of listening and learning"	CONFIRMED	ProPublica	2026-01-10
+E-492	N-257	CAPITAL_REDIRECTION	BENEFICIARY	Housing ban redirects institutional capital from SFR to multifamily (JPI's core business); JPI launched $200M fund 1 month before	HIGH	Market analysis	2026-01-10
+E-497	N-284	STATE_DEPT	FORMER	Brian Hook: Special Rep for Iran + Policy Planning Dir 2017-2020; led "maximum pressure" + Abraham Accords	CONFIRMED	Public records	2026-01-11
+E-498	N-284	TRUMP_TRANSITION	LEADER	Brian Hook led State Dept transition team Nov 2024; revolving door from Cerberus	CONFIRMED	Jewish Insider	2026-01-11
+E-500	N-285	VP_OFFICE	FORMER	Dan Quayle: 44th Vice President 1989-1993 under George H.W. Bush	CONFIRMED	Public records	2026-01-11
+E-520	N-013	N-186	VISITED	Hegseth visiting SpaceX Starbase Jan 12 2026 with Musk; part of Arsenal of Freedom tour	CONFIRMED	Express-News	2026-01-12
+E-521	N-030	N-290	CONTRACTOR	Anduril on SHIELD Golden Dome roster	CONFIRMED	MDA announcement	2026-01-12
+E-522	N-029	N-290	CONTRACTOR	Palantir positioned for Golden Dome data/AI layer	HIGH	Industry analysis	2026-01-12

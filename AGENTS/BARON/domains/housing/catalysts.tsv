@@ -1,0 +1,18 @@
+ID	Date	Event	Nodes	Tickers	Expected_Impact	Status
+CAT-099	2026-01-07	Trump Housing Investor Ban announced	N-208,N-209,N-210,N-211,N-212	INVH,AMH,BX,APO	Truth Social announcement; no EO yet; targets institutional SFR investors; Schwarzman $45M donor faces adverse policy	OCCURRED
+CAT-100	2026-01-20	Trump Davos speech (housing details)	N-208,N-209	INVH,AMH,BX	Trump promised to provide details on housing ban at World Economic Forum	PENDING
+CAT-101	2026-01-XX	Moreno housing ban bill introduction	N-210	INVH,AMH,BX	Bill text will reveal definitions, exemptions, enforcement; announced Jan 6 (day before Trump)	PENDING
+CAT-103	ONGOING	FHFA rulemaking on institutional investors	N-208	INVH,AMH,BX	Pulte can restrict GSE financing without Congress; most likely implementation mechanism	MONITORING
+CAT-104	ONGOING	National Rental Home Council lobbying response	N-216	INVH,AMH	$310K lobbying 2023; will mount major campaign against ban	MONITORING
+CAT-116	2025-10-XX	Pulte fires Fannie Mae ethics team	N-208	PHM	Fired Chief Ethics Officer Libby, General Counsel McCoy, ~12 ethics staff; Ethics Demolition pattern	OCCURRED
+CAT-117	2025-12-01	GAO investigation of Pulte launched	N-208	-	Following politically-motivated fraud referrals and ethics team firings	OCCURRED
+CAT-118	2026-01-09	Pulte endorses housing ban on Fox Business	N-208,N-231	PHM	Day after Trump announcement; PHM identified as primary beneficiary; no recusal	OCCURRED
+CAT-119	2025-05-XX	Fannie Mae - Palantir partnership	N-208	PLTR	AI-powered mortgage fraud detection; Pulte held Palantir stock	OCCURRED
+CAT-128	2026-01-20/24	Pulte at Davos	N-208,N-213,N-214,N-231	PHM,INVH,AMH	**CRITICAL TRIGGER**: Pulte expected at WEF; likely to reveal BTR exemption details confirming "ban" doesn't hurt PHM-INVH partnership; watch for explicit BTR carve-out language	MONITORING
+CAT-129	ONGOING	INVH BTR pivot progress	N-213,N-231	INVH	Track INVH quarterly reports for: (1) BTR delivery % increase, (2) PHM partnership expansion, (3) new builder JVs; confirms Expand-Then-Restrict adaptation	MONITORING
+CAT-130	ONGOING	AMH in-house homebuilding %	N-214	AMH	Track AMH quarterly reports for in-house homebuilding % (was 95.7% in 2025); should remain high if they're BTR-ready	MONITORING
+CAT-131	2026-02-XX	PHM Q4 2025 earnings	N-231,N-208	PHM	Watch for: BTR revenue breakdown, INVH partnership renewal status, impact of housing ban announcement on forward guidance	UPCOMING
+CAT-132	2026-02-XX	INVH Q4 2025 earnings	N-213	INVH	Watch for: BTR delivery numbers, new builder partnerships, portfolio buying vs BTR mix, management commentary on housing ban impact	UPCOMING
+CAT-133	2026-02-XX	AMH Q4 2025 earnings	N-214	AMH	Watch for: in-house homebuilding % (should stay >90%), development pipeline updates, impact of ban on acquisition strategy	UPCOMING
+CAT-134	2026-01-XX	Trump housing executive order	N-208,N-209	INVH,AMH,BX,PHM	Full policy details expected; may include "50-year mortgage" and institutional investor ban specifics; watch for BTR exemption language	PENDING
+CAT-135	2026-01-07	Market reaction to housing ban	N-211,N-213,N-214	INVH,AMH,BX	INVH -7%, AMH -6.3% (3-year low, halted), BX -5.6% to -9.3%; potential entry point if Davos confirms BTR exemption	OCCURRED
