@@ -1,7 +1,7 @@
 # REGINALD Research Status
 
-**Updated:** 2026-01-26
-**Research Complete:** 6 of 6 prompts
+**Updated:** 2026-02-01
+**Research Complete:** 6 of 6 prompts + Session 002 federal employment research
 
 ---
 
@@ -20,6 +20,16 @@
 | Regional Bank CLO Holdings | 2026-01-26 | Concentrated not systemic; RF $4.17B is outlier | 10-Q/10-K filings |
 | Japan Regional Bank / BOJ FSR | 2026-01-26 | "Great Rotation" to CLOs; 43% via opaque trusts | BOJ FSR Oct 2025 |
 
+### Session 002 Federal Employment Research (2026-02-01)
+
+| Topic | Date | Key Finding | Source |
+|-------|------|-------------|--------|
+| Federal Metro Concentration | 2026-02-01 | DC 24.6%, Colorado Springs 16.4%, Virginia Beach 16.1% federal employment | BLS, Richmond Fed |
+| AUB Analysis | 2026-02-01 | Acquired Sandy Spring ($14.4B), sold $2B CRE to Blackstone. YELLOW — proactive | SEC filings |
+| EGBN Analysis | 2026-02-01 | Pure DC play, already in crisis (Q3 -$67.5M loss), deposits -4% QoQ. ORANGE | SEC filings |
+| Blackstone Signal | 2026-02-01 | $22B bank loan buying in 24 months at 7% discount. Smart money positioning. | Press releases |
+| DC UCFE Claims | 2026-02-01 | +543% YoY — leading indicator breached ORANGE while unemployment still GREEN | DOL |
+
 ### Known Data Gaps
 
 | Topic | Gap Description | Alternative |
@@ -27,6 +37,8 @@
 | Deposit flight rate | Call Report quarterly lag | Next update mid-Feb (Q4 data) |
 | Investment Trust composition | Japan banks don't disclose underlying | Monitor Norinchukin flows |
 | CLO tranche distribution | Unknown if Japan buying AA/A vs AAA | Assume AAA (Norinchukin pattern) |
+| Other federal-exposed banks | TowneBank (TOWN), Burke & Herbert (BHRB), M&T (MTB) not yet researched | Future sessions |
+| 2013 sequester historical precedent | No analysis of prior federal cut impact on DC banks | Future research |
 
 ---
 
@@ -42,6 +54,14 @@
 - Norinchukin CLO holdings: ¥9.7T ($67B), up 50% YoY
 - 43% of regional bank foreign exposure via opaque Investment Trusts
 - **Trigger is now US CREDIT CYCLE, not Fed rate policy**
+
+### 7. Federal Employment Exposure — New Transmission Channel (Session 002)
+- DOGE cuts: 277K+ federal separations since Jan 2025
+- Geographic concentration: DC 24.6%, Colorado Springs 16.4%, Virginia Beach 16.1%
+- DC UCFE claims +543% YoY (leading indicator, ORANGE)
+- Banks exposed: AUB (YELLOW, proactive), EGBN (ORANGE, already in crisis)
+- **Transmission:** Federal job losses → consumer/mortgage stress → bank credit losses
+- **Master variable per CARL:** Employment break triggers latent stress conversion
 
 ### 3. Regional Bank CLO Exposure is Idiosyncratic
 - **Regions Financial (RF)** is the outlier: $4.17B CLOs, 13.5% of securities, 25-30% Tier 1
@@ -109,6 +129,16 @@ The risk is a **correlated withdrawal** triggered by US credit deterioration, no
 | VX-REG-6.06 CMA Stock | GREEN | 79% | Merger premium, 312% CRE |
 | VX-REG-6.07 KEY Stock | GREEN | 78% | -3% from high, office NPL |
 | VX-REG-6.08 ZION Stock | GREEN | 73% | -2% from high, FHLB haircuts |
+| **VX-REG-6.09 AUB Stock** | **YELLOW** | 75% | Federal exposure, proactive (sold $2B CRE) |
+| **VX-REG-6.10 EGBN Stock** | **ORANGE** | 80% | Federal exposure, already in crisis |
+
+### Federal Employment Exposure (Layer 11 — NEW)
+| Vector | Status | Confidence | Key Metric |
+|--------|--------|------------|------------|
+| **VX-REG-11.01 AUB Federal Exposure** | **YELLOW** | 70% | DC/MD/VA footprint, proactive mgmt |
+| VX-REG-11.02 DC Metro Unemployment | GREEN | 85% | 3.5% (lagging indicator) |
+| **VX-REG-11.03 DC UCFE Claims** | **ORANGE** | 80% | +543% YoY (leading indicator) |
+| **VX-REG-11.04 EGBN Deposit Trend** | **ORANGE** | 85% | -4% QoQ (flight signal) |
 
 ### Systemic Amplifiers (Layer 7)
 | Vector | Status | Confidence | Key Metric |
@@ -135,7 +165,13 @@ The risk is a **correlated withdrawal** triggered by US credit deterioration, no
 | VX-REG-10.01 Deposit Comp | YELLOW | 80% | Monitoring |
 | VX-REG-10.02 NIM Compression | YELLOW | 82% | Monitoring |
 
-**Summary:** 13 GREEN, 7 ORANGE, 2 YELLOW, 1 GAP, 1 TBD
+**Summary:** 14 GREEN, 10 ORANGE, 4 YELLOW, 1 GAP, 1 TBD
+
+### Sub-Agent Status
+
+| Sub-Agent | Status | Last Activity | Notes |
+|-----------|--------|---------------|-------|
+| **CREED** | ACTIVE | 2026-01-30 | CRE deep dive. 3 handoffs, 12 research items completed. See CREED_003_HANDOFF.md |
 
 ---
 
@@ -175,15 +211,19 @@ The risk is a **correlated withdrawal** triggered by US credit deterioration, no
 ### US Banks — Full Watchlist (All Now Tracked)
 | Bank | Ticker | Vector | Vulnerability Score | Primary Risk |
 |------|--------|--------|---------------------|--------------|
-| Valley National | VLY | VX-REG-6.02 | **9.5 (RED CRITICAL)** | 475% CRE + 6.65% Auto NCO |
-| Flagstar/NYCB | FLG | VX-REG-6.03 | 8.9 (RED) | 2026 maturity wall + $13.9B FHLB |
 | Western Alliance | WAL | VX-REG-6.04 | 8.2 (ORANGE) | Fraud ($98.6M, $0 provision) |
 | Comerica | CMA | VX-REG-6.06 | 7.9 (ORANGE) | 312% CRE concentration |
 | KeyCorp | KEY | VX-REG-6.07 | 7.8 (ORANGE) | Office NPL + equipment fraud |
 | Citizens Financial | CFG | VX-REG-6.05 | 7.5 (ORANGE) | Fund finance transmission |
+| Valley National | VLY | VX-REG-6.02 | 7.5 (ORANGE) | 475% CRE + Auto NCO (REVISED from 9.5 RED) |
 | Zions | ZION | VX-REG-6.08 | 7.3 (ORANGE) | FHLB haircuts + ag exposure |
+| **Eagle Bancorp** | **EGBN** | **VX-REG-6.10** | **7.2 (ORANGE)** | **Federal exposure + already in crisis** |
+| Flagstar/NYCB | FLG | VX-REG-6.03 | 7.0 (ORANGE) | 2026 maturity wall (REVISED from 8.9 RED) |
 | Regions Financial | RF | VX-REG-6.01 | 6.5 (YELLOW) | CLO concentration |
+| **Atlantic Union** | **AUB** | **VX-REG-6.09** | **6.0 (YELLOW)** | **Federal exposure, proactive mgmt** |
 | Banc of California | BANC | Not tracked | 6.0 (YELLOW) | Elevated CLO exposure |
+| TowneBank | TOWN | Not tracked | TBD | Hampton Roads (16.1% federal) — not yet researched |
+| Burke & Herbert | BHRB | Not tracked | TBD | Alexandria VA — not yet researched |
 
 ### BDCs — Crisis-Level Discounts
 - **PSEC** — -57% discount (crisis)

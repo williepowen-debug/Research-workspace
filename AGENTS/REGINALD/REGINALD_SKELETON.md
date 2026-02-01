@@ -42,7 +42,7 @@ US regional banks face concentrated exposure to CRE and shadow banking:
 3. **BDC LINES** — Hidden credit lines to BDCs create liquidity risk
 4. **DEPOSIT FRAGILITY** — Post-SVB deposit flight risk persists
 
-**Key Transmission Risk:** Japan CLO selling (Norinchukin) → CLO spread widening → Regional bank mark-to-market losses → Deposit flight acceleration.
+**Key Transmission Risk:** US credit cycle deterioration → Japan CLO trust NAVs collapse → Forced redemptions → Japan bid disappears → CLO spreads gap wider → Regional bank mark-to-market losses → Deposit flight acceleration. (Note: Japan is BUYING CLOs, not selling — revised per ML-REG-009)
 
 **Confidence:** Pattern 80% | Timing 65% | Magnitude 75%
 **Status:** MONITORING — Elevated CRE delinquency, watching CLO transmission
