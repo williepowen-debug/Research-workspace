@@ -244,6 +244,25 @@ Key Insight: Social media accelerates runs
 | VX-REG-6.06 | CMA (Comerica) | $95.00 (merger) | -10% | -15% | -20% | GREEN |
 | VX-REG-6.07 | KEY (KeyCorp) | $21.20 (-3%) | -10% | -15% | -20% | GREEN |
 | VX-REG-6.08 | ZION (Zions) | $60.50 (-2%) | -10% | -15% | -20% | GREEN |
+| VX-REG-6.09 | **AUB (Atlantic Union)** | ~$37.00 | -10% | -15% | -20% | **YELLOW** |
+
+### FEDERAL EMPLOYMENT EXPOSURE (NEW - Added 2026-02-01)
+
+*Banks with significant exposure to federal employment metros. DOGE cuts create new transmission channel.*
+
+| Vector | Metric | Current | Yellow | Orange | Red | Status |
+|--------|--------|---------|--------|--------|-----|--------|
+| VX-REG-11.01 | **AUB Federal Metro Exposure** | HIGH | UCFE +200% | UCFE +400% | Credit losses rise | **YELLOW** |
+| VX-REG-11.02 | DC Metro Unemployment | 3.5% | >4.5% | >5.5% | >6.5% | GREEN (lagging) |
+| VX-REG-11.03 | DC UCFE Claims YoY | +543% | +200% | +400% | +600% | **ORANGE** |
+
+**AUB Context (Atlantic Union Bank - NYSE: AUB):**
+- Acquired Sandy Spring Bank (April 2025) — $14.4B assets, leading MD regional
+- Combined: $38B assets, 175 branches in VA/MD/NC/DC
+- **Sold $2B CRE to Blackstone (June 2025)** — de-risking signal
+- Management claims "defense focus" insulates them — skeptical
+- **LABOR→REGINALD transmission channel:** Federal job losses → mortgage/consumer stress → credit losses
+- **Watch:** Q1/Q2 2026 credit quality, mortgage DQ in DC/MD/VA, further CRE sales
 
 ### SYSTEMIC AMPLIFIERS
 
