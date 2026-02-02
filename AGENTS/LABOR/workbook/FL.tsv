@@ -1,11 +1,21 @@
 ID	Date	Event	Domain	Vectors	Expected Impact	Priority	Status	Notes
-FL-LAB-001	2026-02-06	Initial Claims Release	WEEKLY	VX-LAB-1.01, 1.02	Weekly update to fastest employment indicator	HIGH	PENDING	Thursday 8:30am ET
-FL-LAB-002	2026-02-07	January 2026 NFP	MONTHLY	VX-LAB-2.01 to 2.06	Full employment picture for January; first major read of 2026	HIGH	PENDING	First Friday
+FL-LAB-001	2026-02-06	Initial Claims Release	WEEKLY	VX-LAB-1.01, 1.02	Weekly update - watching for breach of 230K	HIGH	PENDING	Thursday 8:30am ET
+FL-LAB-002	DELAYED	January 2026 NFP	MONTHLY	VX-LAB-2.01 to 2.06	DELAYED due to government shutdown - critical first read of 2026	CRITICAL	DELAYED	BLS data dark during key window
 FL-LAB-003	2026-02-13	Initial Claims Release	WEEKLY	VX-LAB-1.01, 1.02	Weekly update	MEDIUM	PENDING	Thursday 8:30am ET
 FL-LAB-004	2026-02-20	Initial Claims Release	WEEKLY	VX-LAB-1.01, 1.02	Weekly update	MEDIUM	PENDING	Thursday 8:30am ET
 FL-LAB-005	2026-02-27	Initial Claims Release	WEEKLY	VX-LAB-1.01, 1.02	Weekly update	MEDIUM	PENDING	Thursday 8:30am ET
-FL-LAB-006	2026-03-07	February 2026 NFP	MONTHLY	VX-LAB-2.01 to 2.06	February employment report	HIGH	PENDING	First Friday
-FL-LAB-007	Late Feb	JOLTS (December 2025)	JOLTS	VX-LAB-3.01 to 3.04	Job openings, quits, layoffs for Dec	MEDIUM	PENDING	~40 day lag
-FL-LAB-008	2026-02-06	Challenger Job Cuts (Jan)	SECTOR	VX-LAB-4.02	January announced layoffs by sector	MEDIUM	PENDING	First Thursday
-FL-LAB-009	TBD	DOGE Next Agency Target	FEDERAL	VX-LAB-7.xx	Unknown which agency next; monitor BARON	HIGH	WATCH	Unpredictable
+FL-LAB-006	2026-03-07	February 2026 NFP	MONTHLY	VX-LAB-2.01 to 2.06	February employment report - may include Jan catch-up	HIGH	PENDING	First Friday (if shutdown resolved)
+FL-LAB-007	Late Feb	JOLTS (December 2025)	JOLTS	VX-LAB-3.01 to 3.04	Job openings, quits, layoffs for Dec	MEDIUM	PENDING	~40 day lag - may be delayed
+FL-LAB-008	2026-02-06	Challenger Job Cuts (Jan)	SECTOR	VX-LAB-8.01	January announced layoffs - expecting 75K+ based on major announcements	HIGH	PENDING	First Thursday - CRITICAL READ
+FL-LAB-009	TBD	DOGE Next Agency Target	FEDERAL	VX-LAB-7.xx	Unknown which agency next; monitor BARON	HIGH	WATCH	Unpredictable - 307K already cut
 FL-LAB-010	TBD	Federal RIF Announcements	FEDERAL	VX-LAB-7.xx	Official Reduction in Force notices	HIGH	WATCH	Lagging indicator of cuts
+FL-LAB-011	2026-02-06	Kforce (KFRC) Q4 Earnings	TEMP	VX-LAB-4.01, 4.02	KEY TEMP INDICATOR - guidance for 2026 staffing demand	CRITICAL	PENDING	Temp staffing bellwether for labor market
+FL-LAB-012	~2026-02-20	Robert Half (RHI) Q4 Earnings	TEMP	VX-LAB-4.01, 4.02	Second temp staffing read - cross-reference KFRC	HIGH	PENDING	White-collar temp exposure
+FL-LAB-013	2026-03-04	Fed Beige Book (March)	QUALITATIVE	VX-LAB-11.03, 11.04	Next ground truth from Fed contacts - watching district deterioration	HIGH	PENDING	Jan book showed 4/12 deteriorating
+FL-LAB-014	Q1-Q2 2026	WARN Pipeline Materialization	WARN	VX-LAB-9.01-9.04	Q4 2025 WARN filings become actual layoffs	CRITICAL	WATCH	60-day pipeline = pain locked in through H1
+FL-LAB-015	2026-02-01	Kroger FL WARN Effective	WARN	VX-LAB-9.03	935 jobs - Florida canary	MEDIUM	PASSED	Already effective - watch claims impact
+FL-LAB-016	2026-02	FedEx TX WARN Effective	WARN	VX-LAB-9.03	856 jobs - logistics sector	MEDIUM	PENDING	Logistics contraction continues
+FL-LAB-017	2026-03-04	ISM Services Employment (Feb)	ISM	VX-LAB-4.08	Services employment diffusion - watching for contraction	MEDIUM	PENDING	Dec was 52.0% (expansion)
+FL-LAB-018	2026-03-03	ISM Manufacturing Employment (Feb)	ISM	VX-LAB-4.04	Mfg employment diffusion - expecting continued contraction	MEDIUM	PENDING	Jan was 48.1% (28mo contraction)
+FL-LAB-019	Late Q1	NFIB Small Business Report (Feb)	NFIB	VX-LAB-4.03, 4.06, 4.07	Small business hiring plans and hard-to-fill rate	MEDIUM	PENDING	Jan showed 33% hard to fill, 17% hiring plans
+FL-LAB-020	2026-03	Amazon WARN Effective (CA)	WARN	VX-LAB-9.01	1,001-2,500 jobs - major tech layoff	HIGH	PENDING	Tech sector WARN pipeline

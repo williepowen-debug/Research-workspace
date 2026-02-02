@@ -35,3 +35,21 @@ VX-LAB-6.03	UPS Workforce	Logistics Demand	-78K (2025-2026)	>50K cuts	>75K cuts	
 VX-LAB-6.04	Auto Sector Cuts	Manufacturing Demand	~45K (Nissan+Ford+GM+Bosch)	>30K cuts	>50K cuts	>75K cuts	ORANGE	80%	2026-02-02	Reuters, BBC, CNN	Nissan 20K + Ford 11K + Bosch 13K + GM 1.5K. Coordinated not idiosyncratic.
 VX-LAB-6.05	Prof Services Cuts	Discretionary Spend	~17K (Accenture+PwC)	>10K cuts	>20K cuts	>30K cuts	YELLOW	75%	2026-02-02	News sources	Corporate cost-cutting extending to advisory. Leading indicator.
 VX-LAB-6.06	Consumer Sector Cuts	Demand Signal	~20K (Nestle+Target+Kroger)	>15K cuts	>25K cuts	>40K cuts	YELLOW	75%	2026-02-02	News sources	Consumer-facing companies cutting = demand destruction.
+VX-LAB-4.03	NFIB Hiring Plans	Small Business Intent	17% net	>20%	15-20%	10-15%	<10%	2026-02-02	NFIB Jan 2026	Up from summer low of 14%. Recovering but constrained by labor supply (33% hard to fill).
+VX-LAB-4.06	NFIB Optimism Index	Small Business Sentiment	99.5	>100	95-100	90-95	<90	2026-02-02	NFIB Jan 2026	Above 52yr avg of 98. Uncertainty dropped to 84 (lowest since June 2024). Bullish for Q1 demand.
+VX-LAB-4.07	NFIB Hard to Fill	Labor Supply Constraint	33%	<25%	25-30%	30-35%	>35%	2026-02-02	NFIB Jan 2026	Above 2007 peak (30%), below 2019 peak (39%). Structural not cyclical. 91% find few/no qualified applicants.
+VX-LAB-8.01	Challenger Q4 2025 Cuts	Announced Layoffs	259,948	<150K	150-200K	200-250K	>250K	2026-02-02	Challenger Year-End	HIGHEST Q4 SINCE 2008. +71% YoY. Pre-recession signal.
+VX-LAB-8.02	Challenger 2025 Annual Cuts	Announced Layoffs	1,206,374	<750K	750K-1M	1M-1.2M	>1.2M	2026-02-02	Challenger Year-End	+58% YoY. Highest since 2020. 7th highest ever. AT RED THRESHOLD.
+VX-LAB-8.03	Challenger Hiring Announced	New Job Creation	Lowest since 2010	Normal	Declining	Multi-year low	Decade low	2026-02-02	Challenger Year-End	"Hotel California" — hard to get back in once out.
+VX-LAB-4.04	ISM Manufacturing Employment	Diffusion Index	48.1%	>52%	50-52%	48-50%	<48%	2026-02-02	ISM Jan 2026	28 consecutive months contraction. 36 of 37 months. Structural not cyclical.
+VX-LAB-4.08	ISM Services Employment	Diffusion Index	52.0%	>54%	52-54%	50-52%	<50%	2026-02-02	ISM Dec 2025	Returned to expansion. But Tech/Logistics sub-sectors contracting.
+VX-LAB-9.01	WARN California YTD	State Layoff Volume	158,734 (Oct 2025)	<100K	100-130K	130-160K	>160K	2026-02-02	CA WARN Database	+16% YoY. 14% of US total. Tech/AI pivot driving.
+VX-LAB-9.02	WARN Florida YTD	State Layoff Volume	22,771 (Oct 2025)	<15K	15-20K	20-25K	>25K	2026-02-02	FL WARN Database	+76% YoY. Logistics + hospitality. Foreclosure correlation.
+VX-LAB-9.03	January 2026 Global Cuts	Monthly Layoff Velocity	~600,000	<200K	200-400K	400-600K	>600K	2026-02-02	Aggregated WARN/Challenger	+500% vs Jan 2025 (~100K). Structural not cyclical. AT RED THRESHOLD.
+VX-LAB-9.04	Foreclosure-WARN Correlation	Transmission Signal	Florida +76% WARN / +57% foreclosure	Decorrelated	Weak	Moderate	Strong	2026-02-02	ATTOM + WARN	Employment → Housing transmission active in FL.
+VX-LAB-10.01	Google "Severance Package"	Real-Time Sentiment	100 (All-Time High)	<30	30-50	50-80	>80	2026-02-02	Google Trends	HIGHER than GFC (40) AND pandemic (30). Workers are expecting/negotiating severance at record levels.
+VX-LAB-10.02	Google "Layoffs"	Real-Time Sentiment	92	<30	30-50	50-80	>80	2026-02-02	Google Trends	Approaching pandemic peak (100), above GFC (85). Real-time distress signal.
+VX-LAB-11.01	Cass Freight Shipments YoY	Demand Proxy	-7.5% (Dec 2025)	>0%	-3% to 0%	-7% to -3%	<-7%	2026-02-02	Cass Dec 2025	New cycle low. Weather + destocking. Freight recession 45+ months.
+VX-LAB-11.02	Logistics Labor Displacement	Structural Signal	Permanent (automation)	Cyclical	Structural risk	Structural active	Permanent	2026-02-02	UPS/Amazon, C.H. Robinson	28% cost advantage in automated buildings. 68% automation target. Labor not returning with volume.
+VX-LAB-11.03	Fed Beige Book Employment	Qualitative Sentiment	8/12 flat, 4/12 deteriorating	Expanding	Stable	Slowing	Contracting	2026-02-02	Fed Jan 14 2026	"Low-hire, low-fire" equilibrium. Replacement-only hiring standard.
+VX-LAB-11.04	Fed Districts Deteriorating	Regional Weakness	Boston, NY, Atlanta, Minneapolis	0-1	2	3	4+	2026-02-02	Fed Jan 14 2026	4 of 12 districts showing deterioration. NY labor supply > demand (reversal).
