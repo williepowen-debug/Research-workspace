@@ -180,13 +180,53 @@ Recommended watch: **ELEVATED** — potential $38-68M charge-off catalyst
 
 ---
 
+## UPDATE: Q4 2025 Earnings (2026-02-02)
+
+### WAL Record Quarter
+| Metric | Q4 2025 | vs Prior |
+|--------|---------|----------|
+| EPS | $2.59 | +13.6% QoQ, +32.8% YoY |
+| Net Revenue | $980.9M | +17% YoY, beat by $67M |
+| Full Year Net Income | $991M | +25.8% YoY |
+| NPL Ratio | 0.85% | Improved from 0.92% |
+
+### Cantor Update: SILENCE
+- **No mention** of Cantor Group V in Q4 earnings release
+- **No mention** in available Q4 call transcript excerpts
+- Reserve appears **unchanged** at ~$30M on $98.6M exposure
+- Quartr investor summary confirms: "$98 million non-accrual loan required a $30 million reserve"
+
+### Repossessed Assets Trajectory
+| Period | Repossessed Assets | Change |
+|--------|-------------------|--------|
+| Q4 2024 | $52M | — |
+| Q3 2025 | $130M | +150% YoY |
+| **Q4 2025** | **$137M** | **+163% YoY** |
+
+### Interpretation
+
+**The under-reserve is persisting.** WAL is posting record earnings while:
+1. Carrying only 30% reserve on $98.6M fraud exposure
+2. ZION charged off 83% on same fraud ring
+3. Class action investigation ongoing
+4. Repossessed assets still elevated
+
+**Implied shortfall:** If WAL eventually matches ZION's 83% loss rate:
+- Required charge-off: $81.8M
+- Current reserve: $30M
+- **Shortfall: $52M** (5.2% of Q4 net income)
+
+WAL can absorb this given earnings power — but it remains a future recognition event hidden by record headline numbers.
+
+---
+
 ## Recommended Actions
 
-1. **Add to REGINALD watchlist:** WAL Cantor provision adequacy
+1. ~~Add to REGINALD watchlist~~ ✅ Already tracked (VX-REG-6.04)
 2. **Monitor Q1 2026 earnings:** Watch for additional Cantor-related charges
 3. **Track class action:** Legal developments may force earlier recognition
 4. **Cross-reference:** Check if other banks (BANC) have disclosed Cantor exposure
 
 ---
 
-*RQ-REG-A01 Complete — WAL appears under-provisioned for Stupin/Cantor fraud*
+*RQ-REG-A01 Updated 2026-02-02 — WAL Q4 confirms record earnings mask under-reserved fraud*
