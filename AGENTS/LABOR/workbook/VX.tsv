@@ -31,3 +31,7 @@ VX-LAB-7.04	Fed Employment BLS	-277K YTD	CRITICAL	Stable	-50K	-150K	>-200K	2026-
 VX-LAB-7.05	Sep 2025 Separations	125K+	CRITICAL	-	-	-	-	2026-02-01	OPM/Federal News Network	DRP deadline spike
 VX-LAB-7.06	USAID Status	~Eliminated	CRITICAL	-	-	-	-	2026-02-01	News	DOGE primary target
 VX-LAB-7.07	Key Agencies Cut	IRS, EPA, CDC, FEMA, CISA, DOE	CRITICAL	-	-	-	-	2026-02-01	Multiple sources	See ML for details
+VX-LAB-6.03	UPS Workforce	Logistics Demand	-78K (2025-2026)	>50K cuts	>75K cuts	>100K cuts	RED	85%	2026-02-02	Reuters, NYT	78K already announced. Automated mega-hubs replacing workers. Amazon volume shrinkage. BREACHED.
+VX-LAB-6.04	Auto Sector Cuts	Manufacturing Demand	~45K (Nissan+Ford+GM+Bosch)	>30K cuts	>50K cuts	>75K cuts	ORANGE	80%	2026-02-02	Reuters, BBC, CNN	Nissan 20K + Ford 11K + Bosch 13K + GM 1.5K. Coordinated not idiosyncratic.
+VX-LAB-6.05	Prof Services Cuts	Discretionary Spend	~17K (Accenture+PwC)	>10K cuts	>20K cuts	>30K cuts	YELLOW	75%	2026-02-02	News sources	Corporate cost-cutting extending to advisory. Leading indicator.
+VX-LAB-6.06	Consumer Sector Cuts	Demand Signal	~20K (Nestle+Target+Kroger)	>15K cuts	>25K cuts	>40K cuts	YELLOW	75%	2026-02-02	News sources	Consumer-facing companies cutting = demand destruction.
