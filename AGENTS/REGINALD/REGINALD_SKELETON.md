@@ -159,7 +159,7 @@ Bank-specific narratives that don't fit in VX.tsv.
 
 ---
 
-## 6. SUB-AGENT
+## 6. SUB-AGENTS
 
 ### CREED (Commercial Real Estate Exposure & Distress)
 - **Status:** ACTIVE
@@ -168,7 +168,15 @@ Bank-specific narratives that don't fit in VX.tsv.
 - **Last activity:** Session 003 (2026-01-30)
 - **Key research:** 12 completed items including maturity wall ($936B), FL condo crisis, special servicing analysis
 
-Load CREED skeleton when doing CRE-specific analysis.
+### BROCK (BDC Research & Observation of Credit Kinetics)
+- **Status:** ACTIVE
+- **Purpose:** Deep dive on BDC/private credit (hidden leverage, PIK trends, bank credit lines)
+- **Location:** `BROCK/` folder with own skeleton, workbook, handoffs
+- **Last activity:** Session 000 (2026-02-02) — Initialization
+- **Key vectors:** PSEC -57% (RED), FSK -34% (ORANGE), Golub PIK +173%
+- **Thesis:** $142B unfunded bank commitments = procyclical amplifier
+
+Load CREED for CRE analysis. Load BROCK for BDC/private credit analysis.
 
 ---
 

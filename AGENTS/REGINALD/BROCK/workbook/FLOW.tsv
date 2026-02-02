@@ -1,0 +1,5 @@
+Flow_ID	Name	Speed	Status	Layer	Trigger	Current_Position	Key_Insight
+FLOW-BROCK-1.01	PIK Deterioration Loop	QUARTERS	ACTIVE	Earnings Quality	PIK >15% income	Golub 173% spike (BREACHED)	Floating-rate stress → Borrowers can't pay cash → PIK booked as income → NII inflated → Dividend appears covered → Cash runs dry → Forced cut → Panic. "Covered" is fiction when PIK rising.
+FLOW-BROCK-2.01	Credit Line Draw Cascade	DAYS	LATENT	Hidden Leverage	CLO AAA >165bps	CLO at 115bps (50bps cushion)	Credit stress → BDC portfolios mark down → BDCs draw bank lines ($142B unfunded, ~45% = $64B) → Bank liquidity drain → FHLB surge. Hidden second-order effect.
+FLOW-BROCK-3.01	NAV Discount Contagion	WEEKS	ELEVATED	Sector Health	Any major BDC -40%+	PSEC at -57% (BREACHED)	Single BDC blows up → Market questions sector → Redemptions → Non-traded gates → Forced sales → Price discovery → Peer markdowns → Bank exposure crystallizes.
+FLOW-BROCK-4.01	Dividend Cut Cascade	DAYS	LATENT	Investor Flight	2+ major BDCs cut	GBDC cut Sept 2025 (1 of 2)	First cut = idiosyncratic. Second cut = pattern. Income investors flee → Stock collapse → NAV widens → Covenants tested → Bank exposure at risk.
