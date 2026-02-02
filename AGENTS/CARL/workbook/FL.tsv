@@ -1,0 +1,16 @@
+ID	Date	Event	Domain	Vectors	Expected Impact	Priority	Status	Notes
+FL-CARL-001	2026-02-11	NY Fed Consumer Credit Panel Q4	CREDIT	CC DQ, Auto DQ	Key read on delinquency trajectory	CRITICAL	PENDING	Watch for CC 90+ acceleration
+FL-CARL-002	2026-02-14	Fed Consumer Credit G.19 (Dec)	CREDIT	Revolving, Non-revolving	Total consumer debt levels	MEDIUM	PENDING	Doesn't capture phantom debt
+FL-CARL-003	2026-02	Affirm (AFRM) Earnings	BNPL	BNPL health	BNPL provider stress indicator	HIGH	PENDING	Watch delinquency rates, funding costs
+FL-CARL-004	2026-02	Klarna Filing/Earnings	BNPL	BNPL health	IPO filing may reveal credit metrics	MEDIUM	PENDING	Pre-IPO disclosure
+FL-CARL-005	2026-03	ATTOM Foreclosure Report (Feb)	HOUSING	Foreclosure starts	FL canary confirmation	HIGH	PENDING	Watch for spread beyond FL
+FL-CARL-006	Q1 2026	Major Bank Earnings (Q4)	BANK	Consumer NCOs	NCO trajectory, guidance for 2026	CRITICAL	IN PROGRESS	JPM, BAC, WFC, C consumer segments
+FL-CARL-007	ONGOING	FL Foreclosure Filings	HOUSING	FL transmission	Weekly/monthly monitoring	HIGH	WATCH	Employment → Housing transmission test
+FL-CARL-008	2026-02-06	Kforce (KFRC) Earnings	LABOR→CARL	Temp staffing	Employment leading indicator affects CARL timing	HIGH	PENDING	Cross-ref from LABOR
+FL-CARL-009	DELAYED	BLS Employment Report	LABOR→CARL	Employment	Trigger condition for CARL conversion	CRITICAL	DELAYED	Government shutdown - BLS dark
+FL-CARL-010	2026-03	CoreLogic Loan Performance	HOUSING	Mortgage DQ	Mortgage stress trajectory	HIGH	PENDING	Early-stage delinquency data
+FL-CARL-011	2026-03	Transunion/Equifax Consumer Pulse	CREDIT	Multi-category DQ	Industry view of consumer health	MEDIUM	PENDING	May have more current data than Fed
+FL-CARL-012	Q2 2026	Student Loan IBR/SAVE Litigation	POLICY	Student loan	Resolution could trigger payment restart → CC DQ spike (479% historical)	HIGH	WATCH	Per LV-03 research
+FL-CARL-013	2026-02	Ally Financial (ALLY) Earnings	AUTO	Auto subprime	Subprime auto bellwether	HIGH	PENDING	Watch NCOs, delinquency guidance
+FL-CARL-014	2026-02	Capital One (COF) Earnings	CREDIT	CC portfolio	Major CC issuer NCO trajectory	HIGH	PENDING	Subprime CC exposure
+FL-CARL-015	ONGOING	CA Fire Season	INSURANCE	CA uninsured	Single event trigger for mass foreclosure	HIGH	WATCH	150K+ households at risk
