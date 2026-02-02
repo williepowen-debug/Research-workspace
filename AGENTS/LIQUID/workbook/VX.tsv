@@ -1,11 +1,11 @@
 Vector_ID	Name	Category	Current_Value	Yellow	Orange	Red	Status	Confidence	Last_Updated	Source	Notes
-VX-LIQUID-1.01	SOFR-IORB Spread	Funding	-1bp	+5bps	+15bps	+25bps	GREEN	90%	2026-01-25	NY Fed/FRED	VERIFIED: SOFR 3.64%, IORB 3.65% (Jan 22-25). Post year-end normalization. Dec 31 2025 had +12bps above SRF (3.87% vs 3.75%) but now stable.
-VX-LIQUID-1.02	RRP Balance	Funding	$1.96B	<$50B	<$10B	<$5B	RED	95%	2026-01-25	Fed H.4.1	VERIFIED: Domestic ON RRP ("Others") at $1.96B (week ended Jan 21). Foreign official RRP is $316.6B but irrelevant to funding dynamics. Buffer = ZERO.
+VX-LIQUID-1.01	SOFR-IORB Spread	Funding	+3bps	+5bps	+15bps	+25bps	GREEN	90%	2026-02-02	NY Fed/FRED	UPDATED: SOFR 3.68%, IORB 3.65% (Jan 30). Spread widened from -1bp to +3bp. Within range but trending up. Watch for sustained >+5bps.
+VX-LIQUID-1.02	RRP Balance	Funding	$10.4B	<$50B	<$10B	<$5B	RED	95%	2026-02-02	NY Fed OMO	UPDATED: ON RRP at $10.4B (Feb 2) with 8 counterparties. Up from $2B floor but still ~0% of $2.5T peak. Buffer remains effectively ZERO.
 VX-LIQUID-1.03	Treasury FTD	Settlement	$42.4B	$40B	$50B	$60B	YELLOW	80%	2026-01-25	SEC/DTCC	Elevated due to central clearing transition friction + high rate scarcity. Monitor aged fails ratio for deterioration.
 VX-LIQUID-1.04	SRF Usage	Funding	$74.6B (peak)	>$25B sustained	>$50B sustained	>$75B sustained	ORANGE	90%	2026-01-25	NY Fed H.4.1	NEW - Record $74.6B on Dec 31 2025. Usage outside quarter-end = broken interbank market. Critical distress signal.
 VX-LIQUID-1.05	Dealer Net Position	Funding	~$200B	>$150B	>$200B	>$250B	ORANGE	75%	2026-01-25	FR 2004	NEW - When dealers "stuffed" with collateral, zero elasticity. Most undervalued leading indicator per research.
 VX-LIQUID-1.06	Sponsored Repo Volume	Funding	~$2.48T	Plateau	-$100B/week	Sharp decline	GREEN	80%	2026-01-25	OFR/DTCC	NEW - MMF→HF transmission channel. Contraction = hedge fund deleveraging or dealer capacity exhaustion.
-VX-LIQUID-2.01	Treasury Auction BTC	Auctions	2.554x	<2.30x	<2.10x	<2.00x	GREEN	90%	2026-01-25	Treasury	VERIFIED: Jan 13 10Y: 2.554x (vs 6-mo avg 2.51x). Strong. 7Y tenor most fragile - next auction Jan 29.
+VX-LIQUID-2.01	Treasury Auction BTC	Auctions	2.34-2.45x	<2.30x	<2.10x	<2.00x	YELLOW	90%	2026-02-02	Treasury	UPDATED: 7Y (Jan 29) 2.45x, 5Y (Jan 27) 2.34x - belly of curve showing softer demand. Not critical but below 6mo avg. 2Y FRN strong at 3.16x.
 VX-LIQUID-2.02	Indirect Bid %	Auctions	69.5%	<60%	<55%	<40%	GREEN	90%	2026-01-25	Treasury	VERIFIED: Jan 13 10Y: 69.5% (second highest ever). Foreign demand robust. Yield at 4.173%.
 VX-LIQUID-2.03	Auction Tail	Auctions	Stopped through	>1.5bps	>3.0bps	>5.0bps	GREEN	90%	2026-01-25	Treasury	VERIFIED: Jan 13 10Y stopped through (negative tail = strong demand). Feb 2021 7Y failure had +4.2bps tail. Watch Jan 29 7Y.
 VX-LIQUID-3.01	FHLB Advance Rate	Bank Funding	Normal	>75%	>85%	Delivery	GREEN	70%	2026-01-25	FHLB	No stress signals. REGINALD monitors this domain.
