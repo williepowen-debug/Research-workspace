@@ -47,7 +47,9 @@ Note: Japan is BUYING CLOs (anchoring spreads), not selling. Trigger is US credi
 
 How stress propagates. These are the mental models for reasoning.
 
-### FLOW-REG-1: CLO Transmission
+**Full registry:** `workbook/FLOW.tsv` (12 paths). Below are the 5 most critical.
+
+### FLOW-REG-1.01: CLO Transmission
 ```
 Speed: DAYS | Status: LATENT | Trigger: CLO AAA >150bps
 
@@ -59,7 +61,7 @@ Key insight: Japan is buyer, not seller. They amplify US stress, don't initiate 
 Monitor: PSQA ETF (CLO AAA proxy), Norinchukin commentary
 ```
 
-### FLOW-REG-2: CRE Doom Loop
+### FLOW-REG-2.01: CRE Doom Loop
 ```
 Speed: QUARTERS | Status: ACTIVE (slow burn) | Trigger: CRE DQ >5%
 
@@ -71,7 +73,7 @@ Key insight: Banks masking via modifications. $7.7B+ modified. Exhaustion coming
 Monitor: FRED CRE delinquency, bank 10-Q modification disclosures
 ```
 
-### FLOW-REG-3: BDC Credit Line Cascade
+### FLOW-REG-11.01: BDC Credit Line Cascade
 ```
 Speed: DAYS (when triggered) | Status: LATENT | Trigger: CLO AAA >165bps
 
@@ -84,7 +86,7 @@ Key insight: Hidden second-order effect. BDC NAV at -16% is early warning.
 Monitor: BDC NAV discounts (FSK, PSEC in crisis territory)
 ```
 
-### FLOW-REG-4: Deposit Flight
+### FLOW-REG-10.01: Deposit Flight
 ```
 Speed: HOURS | Status: LATENT | Trigger: Bank stock -20% in day
 
@@ -96,7 +98,7 @@ Key insight: Social media accelerates runs. SVB went in 48 hours.
 Monitor: Regional bank stocks, Twitter/Reddit sentiment on stress days
 ```
 
-### FLOW-REG-5: Federal Employment Channel (NEW)
+### FLOW-REG-12.01: Federal Employment Channel (NEW)
 ```
 Speed: QUARTERS | Status: ACTIVE | Trigger: DC unemployment >4.5%
 
