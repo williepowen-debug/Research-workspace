@@ -38,3 +38,22 @@ VX-HEN-9.05	IV Rank (SPX)	GAM	7.94%	RED	P99 (LOW)	COMPLACENT	2026-02-03	EXTREME 
 VX-HEN-9.06	IV Percentile (SPX)	GAM	37%	GREEN	P40	STABLE	2026-02-03	Mid-to-low range; stable regime currently
 VX-HEN-9.07	Put-Call OI Ratio	GAM	1.61	YELLOW	P65	HEDGED	2026-02-03	Heavy put hedging presence (institutional); provides gamma floor
 VX-HEN-9.08	Volatility Trigger Level	GAM	~6,880	GREEN	-	-	2026-02-03	SpotGamma prop indicator; below = vol expands; currently ABOVE = stable
+VX-HEN-10.01	Earnings Revision Ratio	CORP	1.05	YELLOW	P50	Late_Cycle	2026-02-03	Up/Down ratio; <1.50=concern; <0.70=recession; currently at late-cycle neutral
+VX-HEN-10.02	Guidance Beat/Miss Ratio	CORP	2.43	GREEN	P70	BULLISH	2026-02-03	17 pos / 7 neg; 70.8% positive vs 37.8% 10yr avg; excessive optimism risk
+VX-HEN-10.03	Revenue-EPS Gap	CORP	7.8pts	ORANGE	P85	Late_Cycle	2026-02-03	15% EPS growth on 7.2% revenue; financial engineering reliance widening
+VX-HEN-10.04	Layoff Acceleration YoY	CORP	+58%	RED	P95	2008-Q4	2026-02-03	1.2M cuts in 2025; highest Q4 since 2008; Gov +703%, Tech +15%, Warehouse +316%
+VX-HEN-10.05	S&P Net Profit Margin	CORP	13.2%	YELLOW	>99 (ATH)	NONE	2026-02-03	Record margin; mean reversion risk; 14.2% 2026 target is peak assumption
+VX-HEN-10.06	Corp Stress Composite	CORP	AMBER	YELLOW	-	-	2026-02-03	ELEVATED RISK; layoffs/debt high despite record profitability
+VX-HEN-11.01	ES Non-Commercial Net	COT	-99,800	GREEN	P15	OVERSOLD	2026-02-03	Large spec SHORT; contrarian bullish; speculative exhaustion potential
+VX-HEN-11.02	RTY Commercial Percentile	COT	4%	GREEN	P4	EXTREME_BULL	2026-02-03	Extreme hedger long; small-cap outperformance setup
+VX-HEN-11.03	VIX Non-Commercial	COT	SHORT_BIAS	YELLOW	-	RISK_ON	2026-02-03	Speculators short vol; persistent risk-on positioning
+VX-HEN-12.01	NYSE A-D Line	BRD	NEW_HIGH	GREEN	P95	BULLISH	2026-02-03	Cumulative A-D at ATH; no bearish divergence; structural bull intact
+VX-HEN-12.02	High-Low Index	BRD	88.0%	GREEN	>80	STRENGTH	2026-02-03	57 new highs vs 2 new lows; broad participation; +15.8% 7d
+VX-HEN-12.03	McClellan Summation	BRD	2589	GREEN	>+500	BULL	2026-02-03	Structural bull above +500; bear below -500; massive buffer
+VX-HEN-12.04	% Above 50-DMA	BRD	55.66%	YELLOW	P55	NORMAL	2026-02-03	Short-term momentum neutral; pullback-in-bull configuration
+VX-HEN-12.05	Tech Sector Breadth	BRD	45.71%	ORANGE	P35	INTERNAL_ROT	2026-02-03	XLK participation collapsing; only sector <50%; mega-cap mask
+VX-HEN-12.06	Energy Sector Breadth	BRD	95.45%	GREEN	>95	LEADING	2026-02-03	Cyclical leadership; rotation beneficiary
+VX-HEN-12.07	TRIN	BRD	1.28	YELLOW	>1.2	STRESS	2026-02-03	Volume skewing to decliners; institutional selling under surface
+VX-HEN-13.01	MMF Total Assets	FLOW	$7.71T	YELLOW	>99 (ATH)	NONE	2026-02-03	$4.65T institutional + $3.07T retail; structural cash preference
+VX-HEN-13.02	Yield Gap (MMF-SPX EY)	FLOW	+1.1%	YELLOW	P75	CASH_PREF	2026-02-03	Money market yields competitive vs equity earnings yield
+VX-HEN-13.03	QQQ/QQQE Z-Score	FLOW	1.14	ORANGE	P80	MEGA_CONC	2026-02-03	Mega-cap tech concentration widening; broader Nasdaq lagging

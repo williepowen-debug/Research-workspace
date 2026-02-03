@@ -1,19 +1,21 @@
 # HENRY STATUS.md
 **Agent:** HENRY (Market Structure & Historical Anomalies)
 **Updated:** 2026-02-03
-**Status:** YELLOW — Stable but Fragile
+**Status:** YELLOW — Stable but Fragile | Internal Rot Emerging
 
 ---
 
-## THESIS: The Loaded Machine
+## THESIS: The Loaded Machine (Updated)
 
-The equity market is no longer primarily a price discovery mechanism. It's a **derivatives-driven machine** where dealer hedging and systematic flows dominate short-term dynamics. 
+The equity market is a **derivatives-driven machine** where dealer hedging and systematic flows dominate short-term dynamics. **New insight:** Beneath surface stability, three fractures are emerging:
 
-**Current State:** Positive gamma regime with extreme complacency. Dealers are buying dips, selling rallies — volatility suppression in effect. But this stability is *conditional* on price staying above key levels.
+1. **Tech Rot:** Only 45.7% of XLK above 50-DMA while Energy/Materials >95%
+2. **Margin Paradox:** Record 13.2% profit margins sustained by 1.2M layoffs (+58% YoY)
+3. **Earnings Quality Decay:** 15% EPS growth on 7.2% revenue = financial engineering reliance
 
-**The Risk:** When the trigger hits (LABOR/CARL), the regime flips. Dealers switch from stabilizing to destabilizing. Systematic funds cascade. Credit reprices. The machine that was dampening volatility becomes the machine that amplifies it.
+**Current State:** Positive gamma with EXTREME complacency (IV Rank 7.94%). Zweig Breadth Thrust ACTIVE — historically 100% success rate. But rotation is violent: Tech bleeds, Cyclicals lead.
 
-**No cushion exists.** Credit spreads tight, VIX low, IV Rank at 8%. Markets are pricing zero risk precisely as real-economy stress builds.
+**No cushion exists.** Credit spreads tight, VIX low, earnings revisions neutral (1.05). Markets pricing zero risk precisely as corporate stress builds beneath.
 
 ---
 
@@ -22,16 +24,16 @@ The equity market is no longer primarily a price discovery mechanism. It's a **d
 | Indicator | Current | Threshold | Status |
 |-----------|---------|-----------|--------|
 | SPX Spot | 6,939 | — | Near ATH |
-| VIX | 17.4 | <15 = complacent | 🟡 YELLOW |
 | IV Rank | 7.94% | <10% = extreme | 🔴 RED |
 | Net GEX | ~$62B | <$2B = thin | 🟢 GREEN |
 | HY OAS | ~2.7% | <3% = tight | 🟠 ORANGE |
-| MOVE | ~90 | >115 = warning | 🟢 GREEN |
-| VIX Term Structure | Contango | Backwardation = stress | 🟢 GREEN |
-| Credit-Equity Divergence | None | Divergence = warning | 🟡 YELLOW |
-| DIX (Dark Pool) | ~45% | <40% = weak demand | 🟢 GREEN |
+| High-Low Index | 88.0% | >80% = strength | 🟢 GREEN |
+| McClellan Sum | 2,589 | <+500 = bearish | 🟢 GREEN |
+| Tech Breadth | 45.7% | <40% = danger | 🟠 ORANGE |
+| Earnings Rev Ratio | 1.05 | <0.70 = recession | 🟡 YELLOW |
+| Layoff YoY | +58% | >40% = stress | 🔴 RED |
 
-**Composite:** 🟡 YELLOW — No active stress, but no risk premium either
+**Composite:** 🟡 YELLOW — Breadth healthy, but Tech rot + corporate stress = fragility
 
 ---
 
