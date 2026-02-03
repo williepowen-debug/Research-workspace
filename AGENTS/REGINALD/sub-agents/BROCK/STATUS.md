@@ -88,19 +88,67 @@ Software overweight + PIK accumulation + redemption pressure = systemic fragilit
 
 ### 🔴 RED — Distressed
 - **PSEC** — 16.9% PIK, BB+ downgrade, 36% top-5 concentration, $248M realized losses, dividend cut
+- **TCPC** — 🚨 **19% NAV decline Q4 2025** (9.6% non-accruals at cost), Edmentum/aggregator exposure
 
 ### 🟠 ORANGE — Elevated Risk
 - **FSK** — $3.95B PIK (27%), 89% dividend coverage, largest absolute PIK
 - **GBDC** — 32% software concentration (exceeds threshold), though credit quality strong
-- **First Brands exposure** — 20+ BDCs marked down
+- **NMFC** — 3% non-accruals, Edmentum equity exposure, selling $500M assets to de-lever
+- **First Brands exposure** — 20+ BDCs marked down (fraud: $2.3B fabricated receivables)
 
 ### 🟡 YELLOW — Monitor
 - **HTGC** — >50% tech (mandate-driven), VC ecosystem dependent
 - **BXSL** — 20% PIK, relies on strong inflows
+- **OCSL** — 4.5% non-accruals, healthcare concentration
 
 ### 🟢 GREEN — Stable
-- **ARCC** — Scale ($27.6B), BBB rating, 10% PIK (mostly preferred stock)
+- **ARCC** — Scale ($27.6B), BBB rating, 10% PIK, $1.26/share spillover buffer
 - **OBDC** — 8% PIK, BBB rating, but merger scandal overhang
+
+---
+
+## BANK-PRIVATE CREDIT LINKAGES (NEW)
+
+**The Leverage-on-Leverage Matrix:**
+1. **Portfolio company:** 4.6-5.7x debt/EBITDA
+2. **Fund/BDC:** 1.0-2.0x (BDCs capped at 2.0x)
+3. **Fund finance:** Sub-lines + NAV facilities from banks
+4. **LP level:** Institutional leverage on commitments
+
+**Bank Exposure to Private Credit:**
+| Sector | Outstanding | Unutilized |
+|--------|-------------|------------|
+| Private Credit | ~$300B | ~$340B |
+| Total NDFI | ~$1.2T | — |
+
+**Major Bank-Private Credit Partnerships:**
+- **JPMorgan:** $50B direct lending commitment (2025)
+- **Citi/Apollo:** $25B over 5 years
+- **Wells Fargo/Centerbridge:** $5B Overland Advantage ($7B underwritten)
+
+**CLO Concentration (Bank Holdings at Risk):**
+Top 3: Golub ($43.5B), Blackstone ($41.8B), Carlyle ($35.6B)
+
+**CFG Case Study:** Citizens Financial ($222.7B assets) is regional bellwether for fund finance. Subscription line exposure creates recursive risk if LPs default on capital calls.
+
+---
+
+## PORTFOLIO COMPANY STRESS MAP
+
+| Company | Sector | Status | Exposed BDCs | Risk |
+|---------|--------|--------|--------------|------|
+| **First Brands** | Auto/Industrial | Ch.11 Fraud | Monroe, PSEC, FS Spec, Great Elm | 🔴 HIGH |
+| **Edmentum** | Ed-tech | Non-accrual | TCPC, NMFC, PSEC, ARCC, OCSL | 🔴 HIGH |
+| **Razor Group** | E-comm Aggregator | Restructured | TCPC, BlackRock | 🟠 MOD |
+| **SellerX** | E-comm Aggregator | Restructured | TCPC, BlackRock | 🟠 MOD |
+| **HomeRenew** | Home Services | Liquidated | TCPC | 🟠 MOD |
+| **Tricolor** | Auto Finance | Ch.7 | Banks (JPM) | 🔴 HIGH (contagion) |
+
+**TCPC Q4 2025 Collapse Breakdown:**
+- NAV: $8.71 → $7.05-7.09 (**-19%**)
+- 6 companies = 67% of decline
+- Edmentum alone: ~$0.30/share
+- "Cliff risk" — quarterly valuations lag actual deterioration
 
 ---
 
@@ -110,6 +158,8 @@ Software overweight + PIK accumulation + redemption pressure = systemic fragilit
 1. BDC credit losses → Regional bank warehouse lines at risk
 2. Redemption gates → Liquidity scramble hits bank credit facilities
 3. Software sector markdown → Bank tech loan exposure compounds
+4. **Fund finance stress → CFG and similar regionals exposed**
+5. **CLO forced selling → Bank AAA/AA tranche marks**
 
 **Key connection:** REGINALD banks with tech/middle-market exposure (WAL, TOWN) face dual hit from direct CRE + indirect BDC-linked credit.
 
