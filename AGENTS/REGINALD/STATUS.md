@@ -30,9 +30,9 @@ Banks are sitting on office CRE loans with 70-97% actual loss severity (per tran
 | **WAL** | Western Alliance | 🟠 ORANGE | Fraud exposure ($98.6M Stupin). Reserved only 30% vs ZION's 83% charge-off on same fraud. Stock at highs but class action ongoing. Under-reserved. |
 | **TOWN** | TowneBank | 🟠 ORANGE | 59% CRE concentration in military metros. No de-risking action. Hampton Roads defense exposure may insulate. |
 | **DCOM** | Dime Community | 🟠 ORANGE | 550% CRE exposure but actively de-risking. NYC multifamily like NYCB but management executing. |
-| **VLY** | Valley National | 🟠 ORANGE | Was 9.5 RED, downgraded after Q4 beat. CRE 475% + auto NCO still elevated but management navigating. |
+| **VLY** | Valley National | 🟠 ORANGE | Was 9.5 RED, downgraded after Q4 beat. CRE 475% + auto NCO still elevated but management navigating. Note: $85M Saratoga BDC facility (sole lead) — potential private credit linkage to monitor. |
 | **FLG** | Flagstar/NYCB | 🟠 ORANGE | Was 8.9 RED, downgraded after return to profit. Extend-and-pretend buying time. |
-| **CFG** | Citizens Financial | 🟡 YELLOW | Fund Finance bellwether. Hired 50+ SVB/FRB bankers. Leverage-on-leverage risk (LP borrows for capital call + fund borrows via sub line = same equity twice). Currently healthy but tail risk. |
+| **CFG** | Citizens Financial | 🟡 YELLOW | Potential fund finance exposure. Hired 200+ SVB/FRB bankers, Private Bank at $40B AUM. Hypothesized leverage-on-leverage risk if LP capital call failures occur. Currently healthy — monitor earnings for fund finance commentary. |
 | **ZION** | Zions Bancorp | 🟡 YELLOW | Took honest $50M fraud charge-off (83% rate). FHLB Des Moines haircut stress. Navigating but under scrutiny. |
 | **SFBS** | ServisFirst | 🟡 YELLOW | Bellwether — straddles Huntsville (defense) AND Virginia Beach. Will show if defense metros truly insulated. |
 | **AUB** | Atlantic Union | 🟡 YELLOW | Proactive de-risking (sold $2B to Blackstone). Federal exposure via Sandy Spring but managed. |
@@ -48,7 +48,7 @@ Banks are sitting on office CRE loans with 70-97% actual loss severity (per tran
 | EGBN deposits | -4% QoQ | 🟠 | Continued flight |
 | DC UCFE claims | +543% YoY | 🟠 | Translating to credit losses |
 | Yale $6B secondary sale | In progress, ~87% NAV pricing | 🟠 | Final pricing = industry mark-to-market |
-| BDC PIK inflation | Golub 173% YoY spike | 🟠 | Dividend cuts, NAV declines |
+| BDC PIK stress | PSEC 35%, >50% BDCs burning cash | 🟠 | Monitor for dividend cuts, NAV declines — potential bank linkage via fund finance |
 | HOA/Florida special assessments | Active (SB 4-D) | 🟠 | Super-lien foreclosures, regional CRE stress |
 
 ### Smart Money Indicators
@@ -106,9 +106,23 @@ Banks are sitting on office CRE loans with 70-97% actual loss severity (per tran
 Monitors commercial real estate market stress — delinquencies, valuations, maturity walls. See `CREED/STATUS.md`.
 
 ### BROCK (BDC & Private Credit)
-Monitors Business Development Companies and private credit stress. **Currently 🟠 ORANGE** — Blue Owl experiencing 15.4% redemptions in tech-focused fund (OTIC). Golub PIK +173% YoY. See `BROCK/` for details.
+Monitors Business Development Companies and private credit stress. **Currently 🟠 ORANGE** — PSEC at 35% PIK, TCPC -19% NAV collapse, >50% BDCs burning cash. See `BROCK/STATUS.md` for details.
 
-**Why it matters:** BDC stress → credit line draws → bank liquidity drain → REGINALD escalates.
+**Hypothesized transmission channels (to test):**
+- Warehouse line stress → regional bank credit exposure
+- Redemption gates → fund finance desk pressure
+- Syndicate contagion → banks in ARCC/FSK facilities (JPM, BofA, Truist, etc.)
+- Fund finance stress → CFG, Webster, Huntington, First Citizens potentially exposed
+
+**Banks with potential BDC linkages (monitoring):**
+- CFG: Fund finance priority, $40B Private Bank AUM
+- VLY: $85M Saratoga facility (sole lead)
+- Webster: Marathon Asset Management JV
+- Huntington: Ex-Signature subscription line team
+
+**Timing hypothesis:** If BDC stress materializes in Q4 2025 earnings, *potential* bank P&L impact Q2-Q3 2026 (2-3 quarter lag — to be validated).
+
+**Epistemic status:** These are areas of exposure to watch, not confirmed transmission paths. We'll update as data comes in.
 
 ---
 
