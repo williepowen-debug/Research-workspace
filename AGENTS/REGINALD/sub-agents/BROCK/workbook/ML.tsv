@@ -1,0 +1,10 @@
+DATE	EVENT	ENTITY	IMPACT	SOURCE
+2026-01-15	NAV collapse disclosed (-19% Q4)	TCPC	RED - Cliff risk materialized, 6 portfolio cos drove 2/3 of loss	8-K Filing
+2025-12-XX	S&P downgrade to BB+	PSEC	RED - Investment grade lost at holdco level	S&P Rating Action
+2025-11-XX	Dividend cut announced	PSEC	ORANGE - Cash flow insufficient for distribution	Earnings Call
+2025-10-XX	First Brands fraud exposed ($2.3B)	Multiple BDCs	RED - Double-pledged receivables, marks ranged 101% to 0%	WSJ/Court Filings
+2025-09-XX	Pluralsight restructuring	OWL/ARCC/Golub/Oaktree	ORANGE - $1.175B clubbed loan, synchronized markdowns	Restructuring Filing
+2025-08-XX	HomeRenew liquidation	TCPC	RED - Surprise failure 2Q after removal from non-accrual	Company Announcement
+2025-Q3	PIK income hits 35% of total	PSEC	RED - 3.5x industry average, non-cash income dominance	10-Q Filing
+2025-Q2	Industry PIK average rises to 10%	Sector-wide	YELLOW - Up from ~5% in 2023	Fitch Research
+2024-XX-XX	Edmentum stress emerges	TCPC/NMFC/PSEC/ARCC/OAK	ORANGE - Multi-fund exposure to single distressed name	Portfolio Holdings

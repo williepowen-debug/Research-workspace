@@ -1,0 +1,11 @@
+DATE	EVENT	ENTITY	WATCH_FOR	PRIORITY
+2026-02-XX	Q4 2025 Earnings	PSEC	PIK ratio, dividend coverage, NAV change, concentration	HIGH
+2026-02-XX	Q4 2025 Earnings	ARCC	Software portfolio marks, dividend sustainability	MEDIUM
+2026-02-XX	Q4 2025 Earnings	FSK	PIK trend (currently 27%), NAV trajectory	HIGH
+2026-02-XX	Q4 2025 Earnings	GBDC	Software concentration (32%), Pluralsight marks	MEDIUM
+2026-02-XX	Q4 2025 Earnings	MAIN	Dividend coverage, lower-middle market stress	MEDIUM
+2026-03-XX	S&P Rating Review	PSEC	Further downgrade risk, outlook change	HIGH
+2026-03-XX	Edmentum restructuring update	Multi-fund	Coordinated markdown if restructuring advances	HIGH
+2026-Q1	First Brands litigation updates	Monroe/PSEC/FSS/GEG	Recovery rate clarity, fraud extent	MEDIUM
+2026-Q2	Fed rate decision impact	Sector-wide	Floating rate benefit vs credit stress tradeoff	MEDIUM
+2026-H1	Potential dividend cuts	PSEC/FSK/TCPC	Watch for payout ratio >100% for 2+ quarters	HIGH

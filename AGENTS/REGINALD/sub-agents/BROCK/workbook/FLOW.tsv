@@ -1,0 +1,10 @@
+CHANNEL	FROM	TO	MECHANISM	MAGNITUDE	NOTES
+1_Warehouse_Lines	BDC Credit Losses	Regional Banks	Direct credit exposure on warehouse facilities	$300B outstanding	Banks hold senior secured but subordinate to fund-level debt
+2_Redemption_Gates	BDC Liquidity Stress	Fund Finance Desks	LP redemptions → forced asset sales → collateral value decline	Variable	Gates delay but don't prevent; creates uncertainty premium
+3_Software_Markdowns	Tech Portfolio Cos	Banks w/ Tech Exposure	Synchronized write-downs compound direct bank tech loan losses	High correlation	WAL, TOWN, banks with tech CRE + tech lending see double hit
+4_Fund_Finance_Stress	LP Capital Call Failures	Regional Banks (CFG)	Sub-line collateral impaired when LP can't meet call	CFG strategic priority	Citizens most exposed among regionals
+5_CLO_Forced_Selling	BDC Portfolio Stress	Bank CLO Holdings	Senior tranche marks decline; forced selling creates MTM pain	Banks hold $XXB	Indirect but correlated to credit cycle
+LEVERAGE_STACK	Portfolio Co	System	4 layers: Co (5x) → Fund (1.5x) → Bank (fund finance) → LP (margin)	Multiplicative	Single asset supports 4 debt layers
+CONCENTRATION	Pluralsight/Edmentum	Multi-fund	Same names across OWL/ARCC/TCPC/NMFC/PSEC	$1B+ exposures	Diversification across managers is illusory
+TIMING_LAG	BDC Stress	Bank Earnings	2-3 quarter lag from initial portfolio stress to bank P&L impact	Predictable	Watch BDC Q4 → Bank Q2-Q3 2026
+TRIGGER	Employment Decline	Portfolio Cos	Revenue -10-15% breaks debt service even with PIK	LABOR dependent	Middle market cos highly employment-sensitive
