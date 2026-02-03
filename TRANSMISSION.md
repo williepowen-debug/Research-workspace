@@ -1,6 +1,6 @@
 # TRANSMISSION.md — Stress Pathways
 
-*Living document. Update as we learn.*
+*Working model, not truth. Update as we learn. We could be wrong.*
 
 **Last updated:** 2026-02-03  
 **Core thesis:** Employment is the master trigger. Stress flows LABOR → CARL → REGINALD, with LIQUID as parallel amplifier.
