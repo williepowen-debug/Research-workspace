@@ -100,6 +100,18 @@ Banks are sitting on office CRE loans with 70-97% actual loss severity (per tran
 
 ---
 
+## Sub-Agents
+
+### CREED (CRE Deep Dive)
+Monitors commercial real estate market stress — delinquencies, valuations, maturity walls. See `CREED/STATUS.md`.
+
+### GRIFFIN (BDC & Private Credit) — NEW
+Monitors Business Development Companies and private credit stress. **Currently 🟠 ORANGE** — Blue Owl experiencing 15.4% redemptions in tech-focused fund. See `GRIFFIN/STATUS.md`.
+
+**Why it matters:** BDC stress → forced loan sales → CLO prices drop → bank marks → REGINALD escalates.
+
+---
+
 ## Open Questions
 
 1. Is the defense vs civilian federal split real? (SFBS bellwether)

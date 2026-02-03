@@ -1,0 +1,6 @@
+ID	Name	Current	Previous	Change	Status	Threshold_G	Threshold_Y	Threshold_O	Threshold_R	Source	Updated	Notes
+VX-GRIF-1.01	OTIC Redemption Rate	15.4%	5.0%	+10.4%	RED	<3%	3-5%	5-10%	>10%	SEC Filing	2026-02-03	Largest ever for Blue Owl
+VX-GRIF-1.02	ORCC Redemption Rate	5.2%	~5%	~0%	ORANGE	<3%	3-5%	5-10%	>10%	SEC Filing	2026-02-03	Flagship BDC
+VX-GRIF-2.01	PIK Income (Sector Avg)	~12-13%	~10%	+2-3%	ORANGE	<8%	8-12%	12-18%	>18%	BDC Reports	2026-02-03	Estimate
+VX-GRIF-4.01	Blue Owl Leverage	1.05x	<1.0x	+0.05x	ORANGE	<0.90x	0.90-1.05x	1.05-1.20x	>1.20x	SEC Filing	2026-02-03	Post-redemption
+VX-GRIF-5.01	OWL Price/NAV	Discount	Par	Widening	YELLOW	>0.95x	0.85-0.95x	0.75-0.85x	<0.75x	Market	2026-02-03	Stock at Oct 2022 lows
