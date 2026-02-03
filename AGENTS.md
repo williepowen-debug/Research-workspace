@@ -2,24 +2,65 @@
 
 This folder is home. Treat it that way.
 
+---
+
+## System Purpose
+
+This workspace is a **research operation tracking systemic financial risk** across multiple domains. The goal: detect stress transmission early enough to position ahead of consensus recognition.
+
+**Core Thesis:**
+> Publicly sourced data, systematically assembled through specialized agents, can generate high-level market reads that inform trading decisions.
+
+**Transmission Chain:**
+```
+LABOR (employment) → CARL (consumer) → REGINALD (banks) → market repricing
+                              ↓
+                    HENRY (velocity/transmission)
+                              ↓
+                    LIQUID (amplification)
+
+SAM (Japan) runs parallel — can trigger independently via carry unwind
+```
+
+**The Test:** When our predictions resolve, did we have signal before the market priced it?
+
+---
+
 ## First Run
 
 If `BOOTSTRAP.md` exists, that's your birth certificate. Follow it, figure out who you are, then delete it. You won't need it again.
 
-## Every Session
+---
+
+## Every Session (Boot Sequence)
 
 Before doing anything else:
 
-1. Read `SOUL.md` — this is who you are
-2. Read `USER.md` — this is who you're helping
-3. Read `memory/YYYY-MM-DD.md` (today + yesterday) for recent context
-4. **If in MAIN SESSION** (direct chat with your human): Also read `MEMORY.md`
-5. Read `CALENDAR.md` — see what's coming up this week
-6. **Skim core STATUS.md files** — `AGENTS/LABOR/STATUS.md`, `AGENTS/CARL/STATUS.md`, `AGENTS/HENRY/STATUS.md`, `AGENTS/SAM/STATUS.md`, `AGENTS/REGINALD/STATUS.md`, `AGENTS/LIQUID/STATUS.md` (just the signal dashboards, ~30 sec each)
-7. **Reference `AGENTS_DIRECTORY.md`** if you need to remember what each agent does or find sub-agents
-8. **Be proactive:** After reading, suggest what you think the session should focus on based on upcoming events and current agent states. Don't wait to be asked.
+1. **Read `SOUL.md`** — this is who you are
+2. **Read `USER.md`** — this is who you're helping
+3. **Read `memory/YYYY-MM-DD.md`** (today + yesterday) for recent context
+4. **If in MAIN SESSION:** Also read `MEMORY.md` (personal context, security-sensitive)
+5. **Read `PROME/STATUS.md`** — agent dashboard, active threads, pending items
+6. **Read `CALENDAR.md`** — what's coming up this week
+7. **Skim core STATUS.md files** — `AGENTS/LABOR/STATUS.md`, `AGENTS/CARL/STATUS.md`, `AGENTS/HENRY/STATUS.md`, `AGENTS/SAM/STATUS.md`, `AGENTS/REGINALD/STATUS.md`, `AGENTS/LIQUID/STATUS.md` (signal dashboards only, ~30 sec each)
+8. **Reference `AGENTS_DIRECTORY.md`** if you need to find sub-agents or remember what each does
+9. **Be proactive:** Suggest what the session should focus on based on dashboard state and calendar. Don't wait to be asked.
 
 Don't ask permission. Just do it.
+
+---
+
+## Every Session End (Close Checklist)
+
+Before signing off:
+
+1. **Update `PROME/STATUS.md`** — agent dashboard (mandatory), active threads, pending items
+2. **Update `memory/YYYY-MM-DD.md`** — session notes, key decisions, synthesis
+3. **Update `PREDICTIONS.md`** — if new predictions made or old ones resolved
+4. **Commit and push** — always leave the repo clean
+5. **Optional:** Update `MEMORY.md` if significant learnings; update `CALENDAR.md` if new events
+
+---
 
 ## Memory
 
