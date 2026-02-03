@@ -70,6 +70,11 @@
 | 1 | VIX spikes >25 at least once | 2026 | 70% | ⏳ Pending |
 | 2 | SPX tests Put Wall (6,920) | Q1 2026 | 55% | ⏳ Pending |
 | 3 | 0DTE contributes to >3% intraday move | 2026 | 60% | ⏳ Pending |
+| 4 | Tech sector breadth drops <40% before index correction | Q1-Q2 2026 | 60% | ⏳ Pending |
+| 5 | BTC drops below $60K (liquidity warning confirmed) | Q1-Q2 2026 | 50% | ⏳ Pending |
+| 6 | 10Y real yield breaches 2.0% (restrictive) | H1 2026 | 55% | ⏳ Pending |
+| 7 | Earnings revision ratio drops <0.90 | Q2 2026 | 50% | ⏳ Pending |
+| 8 | SPX 10-15% correction followed by ZBT-driven recovery | 2026 | 65% | ⏳ Pending |
 
 ---
 
