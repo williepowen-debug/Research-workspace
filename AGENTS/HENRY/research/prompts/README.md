@@ -90,6 +90,16 @@ Each prompt includes:
 | RP-HEN-5.1 | Global Valuation Comparison | Ready |
 | RP-HEN-5.2 | Credit Market Divergence | Ready |
 
+### Cluster 6: Data Expansion (NEW)
+| ID | Title | Status | Priority |
+|----|-------|--------|----------|
+| RP-HEN-6.1 | Real-Time Gamma & Options Positioning | Ready | 1 |
+| RP-HEN-6.2 | Credit Market Stress Signals | Ready | 2 |
+| RP-HEN-6.3 | Fund Flow Data & Positioning | Ready | 3 |
+| RP-HEN-6.4 | Technical Breadth & Internal Health | Ready | 4 |
+| RP-HEN-6.5 | Corporate Stress & Earnings Signals | Ready | 5 |
+| RP-HEN-6.6 | Cross-Asset Signals & Macro Indicators | Ready | 6 |
+
 ---
 
-*HENRY Research Prompt Library v1.0*
+*HENRY Research Prompt Library v1.1 — Updated 2026-02-03*
