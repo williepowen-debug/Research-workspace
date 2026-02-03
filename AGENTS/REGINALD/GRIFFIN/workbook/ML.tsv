@@ -1,6 +1,0 @@
-ID	Timestamp	Event	Source	Vectors	Impact	Notes
-ML-GRIF-001	2026-02-03	Blue Owl OTIC 15.4% redemptions ($527M)	SEC Filing	VX-GRIF-1.01	HIGH	Largest redemption request ever for Blue Owl. Asian investors exiting. Tech exposure concerns.
-ML-GRIF-002	2026-02-03	Blue Owl ORCC 5.2% redemptions (~$1B)	SEC Filing	VX-GRIF-1.02	MEDIUM	Flagship BDC showing stress
-ML-GRIF-003	2026-02-03	Blue Owl leverage elevated to 1.05x	SEC Filing	VX-GRIF-4.01	MEDIUM	Post-redemption leverage increase
-ML-GRIF-004	2026-02-03	Class action lawsuit deadline passed (Feb 2)	News	—	MEDIUM	Alleges hidden redemption surge, false stability messaging
-ML-GRIF-005	2026-02-03	BDC sector selloff on tech exposure fears	Bloomberg	VX-GRIF-5.01	MEDIUM	OWL down 4%+ to Oct 2022 lows

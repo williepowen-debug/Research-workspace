@@ -11,3 +11,6 @@ VX-BROCK-2.06	GBDC NAV/PIK	PIK Poster Child	PIK +173% YoY	PIK >15%	PIK >20%	PIK 
 VX-BROCK-2.07	TCPC NAV Discount	Mid-Tier Reference	TBD	>-10%	>-15%	>-20%	TBD	70%	2026-02-02	CEF Connect	BlackRock TCP. Mid-tier benchmark.
 VX-BROCK-3.01	Bank Credit Facility Terms	Transmission	Monitoring	Spread +50bps	Spread +100bps	Covenant breach	GREEN	60%	2026-02-02	Bank/BDC 10-Q	Watch for tightening signals in credit agreements.
 VX-BROCK-3.02	Dividend Coverage Gap	Earnings Quality	Monitoring	Cash NII <110% div	Cash NII <100%	Cash NII <90%	YELLOW	70%	2026-02-02	BDC 10-Q	Gap between declared dividend and cash (not PIK) NII.
+VX-BROCK-1.04	OTIC Redemption Rate	Blue Owl Tech	15.4%	>5%	>10%	>15%	RED	90%	2026-02-03	SEC Filing	Largest redemption ever for Blue Owl. Asian investors exiting.
+VX-BROCK-1.05	ORCC Redemption Rate	Blue Owl Flagship	5.2%	>3%	>5%	>10%	ORANGE	85%	2026-02-03	SEC Filing	Flagship BDC at 5% threshold.
+VX-BROCK-1.06	Blue Owl Leverage	Liquidity	1.05x	>0.95x	>1.05x	>1.15x	ORANGE	80%	2026-02-03	SEC Filing	Post-redemption leverage elevated.

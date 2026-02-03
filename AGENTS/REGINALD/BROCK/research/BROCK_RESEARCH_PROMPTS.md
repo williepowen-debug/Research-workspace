@@ -1,10 +1,10 @@
-# GRIFFIN Research Prompts
+# BROCK Research Prompts
 
 Research prompts to build out the BDC & Private Credit monitoring domain.
 
 ---
 
-## RP-GRIF-1: Sector Exposure Mapping
+## RP-BROCK-1: Sector Exposure Mapping
 
 **Priority:** HIGH
 **Estimated Time:** 1-2 hours
@@ -27,7 +27,7 @@ Research prompts to build out the BDC & Private Credit monitoring domain.
 
 ---
 
-## RP-GRIF-2: PIK Income Deep Dive
+## RP-BROCK-2: PIK Income Deep Dive
 
 **Priority:** HIGH
 **Estimated Time:** 1 hour
@@ -50,7 +50,7 @@ Research prompts to build out the BDC & Private Credit monitoring domain.
 
 ---
 
-## RP-GRIF-3: Redemption Mechanics & Historical Gates
+## RP-BROCK-3: Redemption Mechanics & Historical Gates
 
 **Priority:** MEDIUM
 **Estimated Time:** 1 hour
@@ -73,7 +73,7 @@ Research prompts to build out the BDC & Private Credit monitoring domain.
 
 ---
 
-## RP-GRIF-4: Asian Investor Dynamics
+## RP-BROCK-4: Asian Investor Dynamics
 
 **Priority:** MEDIUM
 **Estimated Time:** 1 hour
@@ -96,7 +96,7 @@ Research prompts to build out the BDC & Private Credit monitoring domain.
 
 ---
 
-## RP-GRIF-5: Bank Exposure to Private Credit
+## RP-BROCK-5: Bank Exposure to Private Credit
 
 **Priority:** HIGH
 **Estimated Time:** 1-2 hours
@@ -119,7 +119,7 @@ Research prompts to build out the BDC & Private Credit monitoring domain.
 
 ---
 
-## RP-GRIF-6: Historical BDC Stress Episodes
+## RP-BROCK-6: Historical BDC Stress Episodes
 
 **Priority:** MEDIUM
 **Estimated Time:** 1-2 hours
@@ -142,7 +142,7 @@ Research prompts to build out the BDC & Private Credit monitoring domain.
 
 ---
 
-## RP-GRIF-7: Current Portfolio Company Stress
+## RP-BROCK-7: Current Portfolio Company Stress
 
 **Priority:** HIGH  
 **Estimated Time:** 1-2 hours
@@ -167,13 +167,13 @@ Research prompts to build out the BDC & Private Credit monitoring domain.
 
 ## Suggested Order
 
-1. **RP-GRIF-1** (Sector Exposure) — Foundational for understanding concentration risk
-2. **RP-GRIF-2** (PIK Deep Dive) — Key signal we're tracking
-3. **RP-GRIF-5** (Bank Exposure) — Critical for REGINALD integration
-4. **RP-GRIF-7** (Portfolio Stress) — Current state assessment
-5. **RP-GRIF-3** (Redemption Mechanics) — Understand the plumbing
-6. **RP-GRIF-4** (Asian Investors) — SAM cross-reference
-7. **RP-GRIF-6** (Historical) — Context and patterns
+1. **RP-BROCK-1** (Sector Exposure) — Foundational for understanding concentration risk
+2. **RP-BROCK-2** (PIK Deep Dive) — Key signal we're tracking
+3. **RP-BROCK-5** (Bank Exposure) — Critical for REGINALD integration
+4. **RP-BROCK-7** (Portfolio Stress) — Current state assessment
+5. **RP-BROCK-3** (Redemption Mechanics) — Understand the plumbing
+6. **RP-BROCK-4** (Asian Investors) — SAM cross-reference
+7. **RP-BROCK-6** (Historical) — Context and patterns
 
 ---
 
