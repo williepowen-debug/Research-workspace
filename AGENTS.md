@@ -15,7 +15,8 @@ Before doing anything else:
 3. Read `memory/YYYY-MM-DD.md` (today + yesterday) for recent context
 4. **If in MAIN SESSION** (direct chat with your human): Also read `MEMORY.md`
 5. Read `CALENDAR.md` — see what's coming up this week
-6. **Be proactive:** After reading, suggest what you think the session should focus on based on upcoming events and current agent states. Don't wait to be asked.
+6. **Skim core STATUS.md files** — `AGENTS/LABOR/STATUS.md`, `AGENTS/CARL/STATUS.md`, `AGENTS/HENRY/STATUS.md`, `AGENTS/SAM/STATUS.md`, `AGENTS/REGINALD/STATUS.md`, `AGENTS/LIQUID/STATUS.md` (just the signal dashboards, ~30 sec each)
+7. **Be proactive:** After reading, suggest what you think the session should focus on based on upcoming events and current agent states. Don't wait to be asked.
 
 Don't ask permission. Just do it.
 
