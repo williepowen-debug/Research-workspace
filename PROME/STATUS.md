@@ -1,5 +1,5 @@
 # PROME STATUS.md
-**Updated:** 2026-02-03 22:45 UTC
+**Updated:** 2026-02-04 00:00 UTC
 
 ---
 
@@ -13,6 +13,7 @@
 | **SAM** | 🟠 ORANGE | Critical window Feb 3-8 | **30Y auction Feb 5**; Election Feb 8 |
 | **REGINALD** | 🟡 YELLOW | Bank earnings; DC corridor risk | 10-K season Mar; EGBN/BHRB watch |
 | **LIQUID** | 🟢 GREEN | Metastable; RRP near zero | Quarter-end Mar 31 |
+| **MARCO** | 🟠 ORANGE | Regional stress pattern validated | Visit FL Q4 ~Apr 15; USMCA Jul |
 | **BROCK** | 🟡 YELLOW | PIK concentration; shadow defaults | Q4 BDC earnings Feb-Mar |
 | **CREED** | 🟡 YELLOW | $936B maturity wall | Forced recognition 2026-27 |
 
@@ -66,6 +67,12 @@ SAM runs parallel — can trigger carry unwind independently
 
 ## Recent Session Summary
 
+**2026-02-04:**
+- **MARCO STATUS.md created** — regional stress pattern framework
+- 5 BREACHED, 8 CRITICAL vectors; FL triple exposure + TX/CA/NV/AZ
+- Canadian tourism decline primary driver (55-65% political)
+- Added MARCO to agent dashboard
+
 **2026-02-03:**
 - Processed HENRY cluster 6.3-6.6 (4 research outputs, 28 vectors)
 - Delivered 5-10 min audio briefing ("The Loaded Machine")
@@ -78,7 +85,8 @@ SAM runs parallel — can trigger carry unwind independently
 
 1. **SAM:** Feb 5 30Y auction result — critical test of JGB demand
 2. **SAM:** Feb 8 election — Takaichi outcome implications
-3. If time: Secondary agent audit (EARNINGS, FOREX, etc.)
+3. **MARCO:** Monitor Statistics Canada Jan data (~Mar 15)
+4. If time: Secondary agent audit (EARNINGS, FOREX, etc.)
 
 ---
 
