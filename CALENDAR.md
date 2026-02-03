@@ -1,6 +1,6 @@
 # CALENDAR — Unified Event Tracker
 
-*Cross-agent calendar for key dates. Updated: 2026-02-03*
+*Cross-agent calendar for key dates. Updated: 2026-02-03 21:37 UTC*
 
 ---
 
@@ -14,6 +14,30 @@
 | **Feb 6** | Challenger Job Cuts (Jan) | LABOR | 🟠 HIGH | Expecting 75K+ |
 | **Feb 6** | KFRC Q4 Earnings | LABOR | 🔴 CRITICAL | Temp staffing bellwether |
 | **Feb 8** | **Japan Snap Election** | SAM | 🔴 CRITICAL | Takaichi seat count: >260 = mandate |
+
+---
+
+## BDC EARNINGS WATCH (Feb 2026)
+
+| Date | Event | Agent | Priority | Notes |
+|------|-------|-------|----------|-------|
+| Feb TBD | PSEC Q4 Earnings | BROCK | 🔴 CRITICAL | PIK 35%, coverage <1.00x, NAV change |
+| Feb TBD | TCPC Q4 Earnings | BROCK | 🔴 CRITICAL | Post-collapse NAV stabilization |
+| Feb TBD | FSK Q4 Earnings | BROCK | 🟠 HIGH | PIK 27%, software marks |
+| Feb TBD | GSBD Q4 Earnings | BROCK | 🟠 HIGH | De-risking progress, 0.80x coverage |
+| Feb TBD | MFIC Q4 Earnings | BROCK | 🟠 HIGH | PIK acceleration (+47% last Q) |
+| Feb TBD | ARCC Q4 Earnings | BROCK | 🟡 MEDIUM | Software marks, syndicate health |
+
+---
+
+## BANK EARNINGS WATCH (Q1 2026)
+
+| Date | Event | Agent | Priority | Notes |
+|------|-------|-------|----------|-------|
+| Q1 TBD | CFG Q4 Earnings | REGINALD/BROCK | 🟠 HIGH | Fund finance commentary, Private Bank AUM |
+| Q1 TBD | Webster Q4 Earnings | REGINALD/BROCK | 🟡 MEDIUM | Marathon JV deal flow |
+| Q1 TBD | EGBN Q4 Earnings | REGINALD | 🟠 HIGH | DC exposure, deposit trend |
+| Q1 TBD | BHRB Q4 Earnings | REGINALD | 🟠 HIGH | GovCon lending, NoVA office |
 
 ---
 
@@ -44,6 +68,9 @@
 |------|-------|-------|----------|-------|
 | Feb 27 | Initial Claims | LABOR | 🟡 MEDIUM | Weekly |
 | Late Feb | JOLTS (Dec 2025) | LABOR | 🟡 MEDIUM | May be delayed |
+| Mar TBD | Bank 10-K CRE Mod Disclosures | CREED | 🔴 CRITICAL | ASU 2022-02 disclosure cliff |
+| Mar TBD | PSEC S&P Rating Review | BROCK | 🟠 HIGH | BB+ → BB? downgrade risk |
+| Mar TBD | Edmentum Restructuring Update | BROCK | 🟠 HIGH | Multi-fund coordinated markdown |
 | Mar 4 | Fed Beige Book | LABOR | 🟠 HIGH | Ground truth from Fed contacts |
 | Mar 7 | February NFP | LABOR | 🟠 HIGH | If shutdown resolved |
 | Mar 31 | Q1 Quarter-End | LIQUID | 🟠 HIGH | SOFR spike, SRF usage expected |
@@ -57,11 +84,17 @@
 |------|-------|-------|----------|-------|
 | Apr 15 | Tax Season | LIQUID | 🟠 HIGH | TGA rebuild drains reserves |
 | Apr/May | BOJ Meeting | SAM | 🟠 HIGH | Next hike window |
+| Q2 | BDC Maturity Wall Begins | BROCK | 🟠 HIGH | 2021-22 vintage PIK balances refinancing |
+| Q2 | Potential BDC Dividend Cuts | BROCK | 🟠 HIGH | PSEC/FSK/TCPC/GSBD watch |
 | Jun 30 | Q2 Quarter-End / GSIB | LIQUID | 🟡 MEDIUM | Dealer constraints |
 | Jun 2026 | ESR Full Implementation | SAM | 🟡 MEDIUM | Structural UST demand void |
+| **H2 2026** | **Peak CRE Maturity Wall** | CREED | 🔴 CRITICAL | $936B annual; 60% MF matures H2 |
+| **H2 2026** | **MF Maturity Concentration** | CREED | 🔴 CRITICAL | Sunbelt oversupply + maturity = forced recognition |
 | Q2-Q3 | LABOR Danger Window | LABOR | 🔴 CRITICAL | Employment deterioration expected |
 | Q3-Q4 | CARL Danger Window | CARL | 🔴 CRITICAL | Consumer stress transmission |
 | Q4-Q1 2027 | REGINALD Danger Window | REGINALD | 🔴 CRITICAL | Bank credit losses follow |
+| Q4-Q1 2027 | BROCK Danger Window | BROCK | 🔴 CRITICAL | BDC stress → bank fund finance impact |
+| Nov 2026 | SEC Form N-PORT Transparency | BROCK | 🟡 MEDIUM | New BDC disclosure requirements |
 
 ---
 
