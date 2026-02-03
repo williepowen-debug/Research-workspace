@@ -1,0 +1,99 @@
+# MEMORY.md — Prome's Long-Term Memory
+
+*Curated insights, lessons, and context that persists across sessions.*
+
+---
+
+## About Will
+
+- Runs a sophisticated research operation tracking systemic financial risk
+- Uses agent network: BARON, CARL, SAM, REGINALD, HENRY, LIQUID, LABOR, MARCO, BUFFER, etc.
+- Prefers STATUS.md (living docs) over handoffs
+- Values falsifiable predictions over "paper shuffling"
+- Appreciates direct analysis, not hedged language
+- Can handle audio briefings for synthesis
+
+---
+
+## The Research Framework
+
+### Core Thesis (as of Feb 2026)
+**Stress transmission chain:** LABOR → CARL → REGINALD
+- Employment is the master variable / trigger
+- Consumer stress converts latent vulnerability to actual distress  
+- Bank credit losses follow consumer defaults
+
+**LIQUID** runs parallel — funding/plumbing risk that can amplify any stage
+
+### Timing
+- LABOR danger window: Q2-Q3 2026
+- CARL danger window: Q3-Q4 2026 (lags 3-6 months)
+- REGINALD danger window: Q4 2026-Q1 2027
+
+### Key Frameworks
+1. **"Hotel California"** — Easy to keep job, hard to find new one (hires rate lowest since 2012)
+2. **"Barbell Economy"** — Large corps cutting + Mfg jobless expansion + Small biz supply-constrained
+3. **"Beneath the Ice"** — Surface metrics GREEN, hidden stress ORANGE-RED
+4. **"WARN Pipeline"** — Q4 filings = Q1-Q2 actuals, pain locked in
+5. **"Metastable"** — LIQUID is calm until it isn't, hours to crisis if triggered
+
+---
+
+## Structural Knowledge
+
+### Bank Watchlist (REGINALD)
+- **RED:** EGBN, BHRB (DC corridor, federal employment exposure)
+- **ORANGE:** WAL, TOWN, DCOM, VLY, FLG
+- **YELLOW:** CFG, ZION, SFBS, AUB
+- **GREEN:** MTB
+
+### Employment Triggers (cross-agent)
+- Claims >300K OR U-3 >5.0% → REGINALD banks escalate
+- Temp YoY <-6% → LABOR leading indicator confirmed
+- NFP <0 → Risk-off, LIQUID stress
+
+### LIQUID Key Levels
+- RRP <$5B = RED (currently $10.4B, effectively zero)
+- SOFR-IORB >+5bps = YELLOW, >+15bps = ORANGE
+- Auction BTC <2.30x = YELLOW, <2.00x = RED
+- SRF usage >$50B sustained = ORANGE
+
+---
+
+## Lessons Learned
+
+### Research Process
+- STATUS.md > Handoffs — living doc always reflects current understanding
+- Workbooks hold evidence (ML=log, VX=vectors, FL=calendar, FLOW=pathways)
+- ~100 lines, 2-min read is the target for STATUS.md
+- Make predictions falsifiable with dates and confidence levels
+
+### Data Sources
+- BLS can go dark (shutdown) — have alternative indicators ready
+- Google Trends can be leading indicator (severance searches at ATH)
+- WARN databases are state-level, 60-day lead on actual layoffs
+- Temp staffing earnings (KFRC, RHI) are bellwethers
+
+### Communication
+- Will appreciates audio briefings for synthesis (5-7 min, situation + light positioning)
+- Can send voice messages via Telegram
+- Direct analysis preferred over hedged language
+
+---
+
+## GitHub
+Repository: `https://github.com/williepowen-debug/Research-workspace`
+- All agent files, workbooks, research
+- STATUS.md files are the entry points
+
+---
+
+## Open Questions / Future Work
+- HENRY (market structure) — How does employment break affect structural bid?
+- GIG integration — 16-25M workers invisible to UI, not fully in CARL
+- Cross-agent prediction tracking — Centralized predictions.md?
+- Prome identity/bootup — What context do I need on fresh session?
+
+---
+
+*Last updated: 2026-02-02*
