@@ -1,5 +1,5 @@
 # BROCK STATUS
-**Last Updated:** 2026-02-03 | **Status:** 🟠 ORANGE — Elevated Stress, Shadow Defaults Rising
+**Last Updated:** 2026-02-03 21:06 UTC | **Status:** 🟠 ORANGE — Elevated Stress, Shadow Defaults Rising
 
 ---
 
@@ -17,19 +17,22 @@ Software overweight + PIK accumulation + redemption pressure = systemic fragilit
 
 ---
 
-## SIGNAL DASHBOARD
+## SIGNAL DASHBOARD — PIK CONCENTRATION RANKING (Feb 2026)
 
-| Entity | PIK % | Non-Accrual | Software % | Rating | Signal |
-|--------|-------|-------------|------------|--------|--------|
-| **PSEC** | 35% | 3.5% | 15% | BB+ | 🔴 RED |
-| **FSK** | 27% | 2.1% | 16% | BBB- | 🟠 ORANGE |
-| **GBDC** | <5% | 0.3% | 32% | — | 🟠 ORANGE (concentration) |
-| **HTGC** | — | — | >50% | — | 🟡 YELLOW (mandate) |
-| **BXSL** | 20% | 0.1% | ~22% | BBB | 🟡 YELLOW |
-| **ARCC** | 10% | 1.0% | 24% | BBB | 🟢 GREEN |
-| **OBDC** | <5% | 1.3% | 18% | BBB | 🟢 GREEN |
+| Ticker | PIK % | YoY Δ | Div Coverage | Flag | Signal |
+|--------|-------|-------|--------------|------|--------|
+| **PSEC** | 35.0% | -13% | <1.00x | Extreme PIK / Liquidity Risk | 🔴 RED |
+| **FSK** | 27.0% | +39% (2yr) | 1.10x | High PIK / Accelerating | 🔴 RED |
+| **BXSL** | 20.0% | +2% | 1.15x | Elevated Junior Debt | 🟠 ORANGE |
+| **RWAY** | 19.0% | +3% | 1.15x | Tech/VC Focus | 🟠 ORANGE |
+| **ARCC** | 14.0% | +37% (2yr) | 1.05x | Scale-Driven PIK Volume | 🟡 YELLOW |
+| **GSBD** | 11.0% | -26% QoQ | 0.80x | De-risking; Coverage Gap | 🟡 YELLOW |
+| **MFIC** | 6.1% | +47% QoQ | 1.12x | Accelerating PIK Problem | 🟡 YELLOW |
+| **OBDC** | 6.3% | +0.5% | 1.03x | Moderate; Tight Coverage | 🟢 GREEN |
+| **KBDC** | 3.5% | Stable | 1.20x | High Quality / Conservative | 🟢 GREEN |
+| **MAIN** | 1.2% | Stable | 1.35x | Industry Gold Standard | 🟢 GREEN |
 
-**Composite:** PSEC in distress. FSK stressed. GBDC concentration risk. Top-tier stable but vigilant.
+**Key Insight:** >50% of BDCs burning cash (dividends > cash generated). GSBD de-risking but dividend coverage collapsed to 0.80x.
 
 ---
 
@@ -107,7 +110,7 @@ Software overweight + PIK accumulation + redemption pressure = systemic fragilit
 
 ---
 
-## BANK-PRIVATE CREDIT LINKAGES (NEW)
+## BANK-PRIVATE CREDIT LINKAGES
 
 **The Leverage-on-Leverage Matrix:**
 1. **Portfolio company:** 4.6-5.7x debt/EBITDA
@@ -115,21 +118,39 @@ Software overweight + PIK accumulation + redemption pressure = systemic fragilit
 3. **Fund finance:** Sub-lines + NAV facilities from banks
 4. **LP level:** Institutional leverage on commitments
 
-**Bank Exposure to Private Credit:**
-| Sector | Outstanding | Unutilized |
-|--------|-------------|------------|
-| Private Credit | ~$300B | ~$340B |
-| Total NDFI | ~$1.2T | — |
+**Bank Exposure to Private Credit (Q2 2025):**
+| Category | Outstanding | Notes |
+|----------|-------------|-------|
+| Business Credit Intermediaries | $299.3B | BDC lines, warehouse, CLO |
+| PE Fund Finance | $285.2B | Sub-lines, NAV facilities |
+| Unutilized Commitments | $340B | Total potential ~$1T |
+| Total NDFI | $1.2T | 10.4% of total bank loans |
 
-**Major Bank-Private Credit Partnerships:**
-- **JPMorgan:** $50B direct lending commitment (2025)
-- **Citi/Apollo:** $25B over 5 years
-- **Wells Fargo/Centerbridge:** $5B Overland Advantage ($7B underwritten)
+**Major BDC Revolving Facilities:**
+| BDC | Lead Agent | Size | Syndicate |
+|-----|------------|------|-----------|
+| ARCC | JPMorgan | $5.1B | 39 lenders (BofA, RBC, Truist, SMBC, Wells) |
+| FSK | JPMorgan | $4.7B | ING, BMO, MUFG, Truist |
+| OBDC | Wells/Deutsche | ~$4B | MS, MUFG, RBC, SMBC |
+| GSBD | JPMorgan | ~$2B | BofA, Wells, SMBC |
+| PSEC | RBC/BofA | ~$1.5B | KeyBank, Barclays |
 
-**CLO Concentration (Bank Holdings at Risk):**
-Top 3: Golub ($43.5B), Blackstone ($41.8B), Carlyle ($35.6B)
+**Strategic Partnerships:**
+- **JPMorgan:** $50B + $15B co-lenders (Feb 2025)
+- **Citi/Apollo:** $25B originate-to-share
+- **Wells/Centerbridge:** $5B Overland Advantage ($7B underwritten by Jan 2026)
+- **PNC/TCW:** $2.5B Steel City platform
+- **Webster/Marathon:** Middle-market JV
 
-**CFG Case Study:** Citizens Financial ($222.7B assets) is regional bellwether for fund finance. Subscription line exposure creates recursive risk if LPs default on capital calls.
+**Regional Bank "Renaissance":**
+- **Citizens (CFG):** $40B Private Bank AUM, 200+ SVB/FR hires, fund finance priority
+- **Huntington:** 10-person ex-Signature team for sub-lines
+- **Axos:** $350M warehouse capacity
+
+**Systemic Vulnerabilities:**
+- Portfolio overlap: 9.2% for funds >$5B (clubbed mega-deals)
+- Name concentration: Banks exposed to same elite managers
+- Opacity: Mark-to-model valuations lag reality (see Tricolor)
 
 ---
 
