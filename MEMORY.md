@@ -58,6 +58,29 @@
 - Auction BTC <2.30x = YELLOW, <2.00x = RED
 - SRF usage >$50B sustained = ORANGE
 
+### HENRY Key Levels & Framework (Feb 2026)
+**Thesis:** "The Loaded Machine" — market is derivatives-driven, stable but fragile
+
+**Key Price Levels:**
+- Put Wall: 6,920 (first structural support)
+- CTA Flip: 6,494 (CTAs flip short below this)
+- Volatility Trigger: 6,400 (gamma flip zone)
+
+**Leading Indicator Sequence:**
+1. MOVE rises while VIX flat (2-5 day lead)
+2. VIX term structure inverts (1-3 day lead)
+3. GEX < $2B (1 day lead)
+4. DIX < 40% (1-2 day lead)
+5. Put Wall breaks → cascade begins
+
+**Cascade Order (who sells first):**
+1. Fast vol-control (immediate)
+2. Short-term CTAs (days)
+3. Medium-term CTAs (1-4 weeks)
+4. Risk parity (last, largest)
+
+**Current state:** Positive gamma (~$62B), IV Rank 7.94% (extreme complacency), HY OAS 2.7% (tight). No risk premium priced.
+
 ---
 
 ## Lessons Learned
@@ -89,11 +112,11 @@ Repository: `https://github.com/williepowen-debug/Research-workspace`
 ---
 
 ## Open Questions / Future Work
-- HENRY (market structure) — How does employment break affect structural bid?
 - GIG integration — 16-25M workers invisible to UI, not fully in CARL
 - Cross-agent prediction tracking — Centralized predictions.md?
-- Prome identity/bootup — What context do I need on fresh session?
+- HENRY remaining prompts — Cluster 6.3-6.6 (flow data, breadth, corporate stress, cross-asset)
+- VX.tsv updates — Add gamma vectors to HENRY workbook
 
 ---
 
-*Last updated: 2026-02-02*
+*Last updated: 2026-02-03*
