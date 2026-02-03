@@ -57,3 +57,13 @@ VX-HEN-12.07	TRIN	BRD	1.28	YELLOW	>1.2	STRESS	2026-02-03	Volume skewing to decli
 VX-HEN-13.01	MMF Total Assets	FLOW	$7.71T	YELLOW	>99 (ATH)	NONE	2026-02-03	$4.65T institutional + $3.07T retail; structural cash preference
 VX-HEN-13.02	Yield Gap (MMF-SPX EY)	FLOW	+1.1%	YELLOW	P75	CASH_PREF	2026-02-03	Money market yields competitive vs equity earnings yield
 VX-HEN-13.03	QQQ/QQQE Z-Score	FLOW	1.14	ORANGE	P80	MEGA_CONC	2026-02-03	Mega-cap tech concentration widening; broader Nasdaq lagging
+VX-HEN-14.01	Copper/Gold Ratio	MACRO	0.000072	YELLOW	P50	NEUTRAL	2026-02-03	"Gundlach Ratio" - growth vs defensive; rising = bullish; 10Y yield correlated
+VX-HEN-14.02	10Y Real Yield (TIPS)	MACRO	1.90%	ORANGE	P90	RESTRICTIVE	2026-02-03	Approaching 2.0% "restrictive" threshold; P/E compression risk; growth stock headwind
+VX-HEN-14.03	10Y Breakeven Inflation	MACRO	2.35%	YELLOW	P70	STICKY	2026-02-03	Above Fed 2% target by 35bps; "higher for longer" priced; OBBBA refunds may add 0.2-0.3%
+VX-HEN-14.04	Global M2 3mo Growth	MACRO	+1.73%	GREEN	P60	SUPPORTIVE	2026-02-03	$98.57T global M2; broader measure $185T; 80-95% correlated with SPX
+VX-HEN-14.05	10Y-2Y Yield Spread	MACRO	0.72%	GREEN	P55	BEAR_STEEP	2026-02-03	Curve un-inverted after 700+ days; bear steepening = term premium returning
+VX-HEN-14.06	BTC Liquidity Proxy	MACRO	$76,000	RED	P30	WARNING	2026-02-03	Down 40% from $120K; $2.2B liquidation event; leading liquidity indicator; "marginal dollar" withdrawn
+VX-HEN-14.07	Baltic Dry Index	MACRO	2,124	GREEN	P95	EXPANSION	2026-02-03	+192% YoY; global trade accelerating; bullish industrials; physical demand strong
+VX-HEN-14.08	MOVE/VIX Ratio	MACRO	3.62	YELLOW	P65	WATCH	2026-02-03	MOVE 59.20 / VIX 16.34; divergence (MOVE rises/VIX flat) = complacency signal
+VX-HEN-14.09	USD/JPY	MACRO	154.32	ORANGE	P85	CARRY_RISK	2026-02-03	Yen carry trade epicenter; >160 = intervention risk; BOJ hike April = structural yen bid
+VX-HEN-14.10	DXY	MACRO	96.86	YELLOW	P40	WEAKENING	2026-02-03	Down from highs; "policy risk premium" from Warsh; weak DXY = EM relief
