@@ -6,12 +6,13 @@
 
 ## About Will
 
-- Runs a sophisticated research operation tracking systemic financial risk
-- Uses agent network: BARON, CARL, SAM, REGINALD, HENRY, LIQUID, LABOR, MARCO, BUFFER, etc.
+*See USER.md for full profile. Key working preferences:*
+
 - Prefers STATUS.md (living docs) over handoffs
 - Values falsifiable predictions over "paper shuffling"
 - Appreciates direct analysis, not hedged language
-- Can handle audio briefings for synthesis
+- Audio briefings work well (5-10 min, Speechify while walking)
+- Ultimate test: does the system produce tradeable insights?
 
 ---
 
@@ -112,10 +113,19 @@ Repository: `https://github.com/williepowen-debug/Research-workspace`
 ---
 
 ## Open Questions / Future Work
+
 - GIG integration — 16-25M workers invisible to UI, not fully in CARL
-- Cross-agent prediction tracking — Centralized predictions.md?
-- HENRY remaining prompts — Cluster 6.3-6.6 (flow data, breadth, corporate stress, cross-asset)
-- VX.tsv updates — Add gamma vectors to HENRY workbook
+- Secondary agent audit — EARNINGS, FOREX, OTTO, REITS need STATUS.md review
+- MARCO buildout — Currently minimal structure, needs attention
+
+---
+
+## Recently Completed
+
+- ✅ PREDICTIONS.md created (cross-agent prediction tracking)
+- ✅ HENRY cluster 6.1-6.6 complete (56 total vectors)
+- ✅ PROME boot structure created (STATUS.md, session-end checklist)
+- ✅ BROCK/CREED STATUS.md built out
 
 ---
 
