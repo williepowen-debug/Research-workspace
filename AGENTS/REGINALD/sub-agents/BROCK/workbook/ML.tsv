@@ -1,10 +1,21 @@
 DATE	EVENT	ENTITY	IMPACT	SOURCE
 2026-01-15	NAV collapse disclosed (-19% Q4)	TCPC	RED - Cliff risk materialized, 6 portfolio cos drove 2/3 of loss	8-K Filing
+2026-01-XX	Overland Advantage hits $7B underwritten	Wells/Centerbridge	GREEN - Regional bank-PC integration accelerating	Press Release
 2025-12-XX	S&P downgrade to BB+	PSEC	RED - Investment grade lost at holdco level	S&P Rating Action
 2025-11-XX	Dividend cut announced	PSEC	ORANGE - Cash flow insufficient for distribution	Earnings Call
 2025-10-XX	First Brands fraud exposed ($2.3B)	Multiple BDCs	RED - Double-pledged receivables, marks ranged 101% to 0%	WSJ/Court Filings
+2025-09-XX	Tricolor bankruptcy (Ch.7)	JPM/Banks	ORANGE - Bank warehouse line losses, contagion precedent	Court Filing
 2025-09-XX	Pluralsight restructuring	OWL/ARCC/Golub/Oaktree	ORANGE - $1.175B clubbed loan, synchronized markdowns	Restructuring Filing
 2025-08-XX	HomeRenew liquidation	TCPC	RED - Surprise failure 2Q after removal from non-accrual	Company Announcement
 2025-Q3	PIK income hits 35% of total	PSEC	RED - 3.5x industry average, non-cash income dominance	10-Q Filing
-2025-Q2	Industry PIK average rises to 10%	Sector-wide	YELLOW - Up from ~5% in 2023	Fitch Research
+2025-Q3	>50% BDCs burning cash	Sector-wide	ORANGE - Dividends exceed cash generated from operations	Octus Database
+2025-Q2	MFIC PIK surges +47% QoQ	MFIC	ORANGE - Accelerating PIK problem emerging	10-Q Filing
+2025-Q2	Industry PIK average rises to 12.8%	Sector-wide	YELLOW - Up from ~5% in 2023	S&P/Fitch Research
+2025-02-XX	JPM commits $50B to direct lending	JPMorgan	YELLOW - GSIB-PC integration deepens	Press Release
+2024-09-XX	Citi/Apollo $25B partnership announced	Citi/Apollo	YELLOW - Originate-to-share model launched	Press Release
+2024-07-XX	Webster/Marathon JV formed	Webster Bank	YELLOW - Regional bank PC push	Press Release
+2024-05-XX	Overland Advantage launched ($5B)	Wells/Centerbridge	YELLOW - Major bank-BDC JV	Press Release
+2024-05-XX	PNC/TCW Steel City launched	PNC/TCW	YELLOW - 15-year collaboration, $2.5B target	Press Release
+2024-04-XX	Barclays/AGL partnership announced	Barclays/AGL	YELLOW - Struggled to raise non-ADIA capital	Press Release
 2024-XX-XX	Edmentum stress emerges	TCPC/NMFC/PSEC/ARCC/OAK	ORANGE - Multi-fund exposure to single distressed name	Portfolio Holdings
+2023-XX-XX	SVB/Signature/FRC collapse	Regional Banks	RED - Created void in fund finance; CFG/Huntington fill gap	FDIC

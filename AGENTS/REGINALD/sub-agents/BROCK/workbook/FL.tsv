@@ -1,11 +1,21 @@
 DATE	EVENT	ENTITY	WATCH_FOR	PRIORITY
-2026-02-XX	Q4 2025 Earnings	PSEC	PIK ratio, dividend coverage, NAV change, concentration	HIGH
-2026-02-XX	Q4 2025 Earnings	ARCC	Software portfolio marks, dividend sustainability	MEDIUM
-2026-02-XX	Q4 2025 Earnings	FSK	PIK trend (currently 27%), NAV trajectory	HIGH
+2026-02-XX	Q4 2025 Earnings	PSEC	PIK ratio (35%), dividend coverage (<1.00x), NAV change	CRITICAL
+2026-02-XX	Q4 2025 Earnings	TCPC	Post-collapse NAV stabilization, non-accrual trend	CRITICAL
+2026-02-XX	Q4 2025 Earnings	FSK	PIK trend (27%), coverage (1.10x), software marks	HIGH
+2026-02-XX	Q4 2025 Earnings	GSBD	De-risking progress, coverage (0.80x) trajectory	HIGH
+2026-02-XX	Q4 2025 Earnings	MFIC	PIK acceleration (+47% last Q), coverage sustainability	HIGH
+2026-02-XX	Q4 2025 Earnings	ARCC	Software marks, spillover buffer usage, syndicate health	MEDIUM
 2026-02-XX	Q4 2025 Earnings	GBDC	Software concentration (32%), Pluralsight marks	MEDIUM
-2026-02-XX	Q4 2025 Earnings	MAIN	Dividend coverage, lower-middle market stress	MEDIUM
-2026-03-XX	S&P Rating Review	PSEC	Further downgrade risk, outlook change	HIGH
+2026-02-XX	Q4 2025 Earnings	MAIN	Dividend coverage (1.35x), gold standard maintenance	LOW
+2026-02-XX	Q4 2025 Earnings	BXSL	PIK (20%), junior debt exposure, inflow dependence	MEDIUM
+2026-03-XX	S&P Rating Review	PSEC	Further downgrade risk (BB+ → BB?), outlook change	HIGH
 2026-03-XX	Edmentum restructuring update	Multi-fund	Coordinated markdown if restructuring advances	HIGH
 2026-Q1	First Brands litigation updates	Monroe/PSEC/FSS/GEG	Recovery rate clarity, fraud extent	MEDIUM
-2026-Q2	Fed rate decision impact	Sector-wide	Floating rate benefit vs credit stress tradeoff	MEDIUM
-2026-H1	Potential dividend cuts	PSEC/FSK/TCPC	Watch for payout ratio >100% for 2+ quarters	HIGH
+2026-Q1	CFG Q4 Earnings	Citizens Financial	Fund finance commentary, Private Bank AUM growth	HIGH
+2026-Q1	Webster Q4 Earnings	Webster Bank	Marathon JV deal flow, middle-market exposure	MEDIUM
+2026-Q2	Maturity wall begins	2021-22 vintage	Refinancing stress on compounded PIK balances	HIGH
+2026-Q2	Fed rate decision	Sector-wide	Rate cut paradox: lower yields → higher redemption pressure	MEDIUM
+2026-H1	Potential dividend cuts	PSEC/FSK/TCPC/GSBD	Watch for payout ratio >100% for 2+ quarters	HIGH
+2026-H1	Redemption gate risk	Non-traded BDCs	Blue Owl OTIC (17% requests), sector-wide pressure	MEDIUM
+2026-11	SEC Form N-PORT transparency	All BDCs	New disclosure requirements reveal hidden positions	LOW
+2027-XX	$600B NAV facility market	Banks/Funds	NAV lending projected to 6x from $100B (2024)	MEDIUM
