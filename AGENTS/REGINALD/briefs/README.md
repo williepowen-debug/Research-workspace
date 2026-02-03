@@ -20,4 +20,4 @@ This folder contains thesis summaries from REGINALD's sub-agents.
 | Sub-Agent | Brief | Status |
 |-----------|-------|--------|
 | BROCK | [BROCK.md](BROCK.md) | 🟠 ORANGE |
-| CREED | *(pending)* | — |
+| CREED | [CREED.md](CREED.md) | 🟠 ORANGE |
