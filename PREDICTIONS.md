@@ -77,6 +77,13 @@
 | 8 | FL condo inventory exceeds 9 months | Q2 2026 | 75% | ⏳ Pending |
 | 9 | FL domestic migration turns negative | Dec 2026 | 60% | ⏳ Pending |
 | 10 | Canadian visitors remain >-20% YoY | Through Q2 2026 | 80% | ⏳ Pending |
+| 11 | H-2A certifications exceed 425K | FY 2026 | 70% | ⏳ Pending |
+| 12 | Central America remittances decline >10% YoY (post-liquidation) | H2 2026 | 60% | ⏳ Pending |
+| 13 | Imperial County credit stays BBB or worsens | Through 2026 | 75% | ⏳ Pending |
+| 14 | California produce prices spike >15% | H2 2026 | 55% | ⏳ Pending |
+| 15 | Mexico remittances full-year decline >5% | 2026 | 70% | ⏳ Pending |
+| 16 | Arizona border cities face >10% shared revenue decline | FY 2026 | 65% | ⏳ Pending |
+| 17 | FL Citizens Insurance exposure exceeds $750B | Q4 2026 | 60% | ⏳ Pending |
 
 ### HENRY
 | # | Prediction | Timeframe | Confidence | Status |
