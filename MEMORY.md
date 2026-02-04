@@ -116,7 +116,9 @@ Repository: `https://github.com/williepowen-debug/Research-workspace`
 
 - GIG integration — 16-25M workers invisible to UI, not fully in CARL
 - Secondary agent audit — EARNINGS, FOREX, OTTO, REITS need STATUS.md review
-- MARCO buildout — Currently minimal structure, needs attention
+- **Red-team the thesis** — We haven't built the counter-case. Need to stress-test soft landing scenario.
+- **Edge vs confirmation bias** — 40+ predictions, zero resolved. Track record will tell us if synthesis = edge or cope.
+- **Positioning framework** — Research operation built, trading operation not. Bridge needed.
 
 ---
 
@@ -126,7 +128,15 @@ Repository: `https://github.com/williepowen-debug/Research-workspace`
 - ✅ HENRY cluster 6.1-6.6 complete (56 total vectors)
 - ✅ PROME boot structure created (STATUS.md, session-end checklist)
 - ✅ BROCK/CREED STATUS.md built out
+- ✅ MARCO 7-series (TX border cities) + 8-series (H-2A, State Fiscal, CaliBaja, Remittances)
+- ✅ New leading indicators: H-2A certifications, remittance divergence
+
+## Key Learnings (Feb 2026)
+
+- **H-2A is a leading indicator** — 8x growth since 2005 validates domestic labor scarcity independent of disputed DHS data
+- **Remittance divergence** — Mexico down (-5%), Central America up (+26%) = precautionary liquidation. Reversal call: H2 2026.
+- **Each Tier-1 state has different primary vulnerability** — TX (enforcement cost), AZ (URS formula), FL (insurance), CA (workforce)
 
 ---
 
-*Last updated: 2026-02-03*
+*Last updated: 2026-02-04*
