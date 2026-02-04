@@ -2,7 +2,7 @@
 
 *Working model, not truth. Track our predictions to calibrate confidence over time.*
 
-**Last updated:** 2026-02-03
+**Last updated:** 2026-02-04
 
 ---
 
@@ -63,6 +63,20 @@
 | 1 | RRP effectively at zero (<$5B) by Q2 | Q2 2026 | 80% | ⏳ Pending |
 | 2 | SOFR-IORB spread spikes >+10bps at quarter-end | Q1-Q2 2026 | 65% | ⏳ Pending |
 | 3 | SRF usage >$50B at least once | 2026 | 50% | ⏳ Pending |
+
+### MARCO (Border Cities & Migration)
+| # | Prediction | Timeframe | Confidence | Status |
+|---|------------|-----------|------------|--------|
+| 1 | Nogales residential prices find floor at -50% to -60% from peak | Q2 2026 | 65% | ⏳ Pending |
+| 2 | El Paso credit rating downgrade or negative outlook | Q4 2026 | 55% | ⏳ Pending |
+| 3 | El Paso pension (CEPERT) contribution shortfall >5% | FY 2026 | 60% | ⏳ Pending |
+| 4 | Pharr downgraded from A+ | Q3 2026 | 45% | ⏳ Pending |
+| 5 | McAllen wage growth stays negative YoY | Through Q2 2026 | 70% | ⏳ Pending |
+| 6 | McAllen loses AA+ rating (on shock catalyst) | 2026-27 | 35% | ⏳ Pending |
+| 7 | Mexican Shopper share in Laredo stays <15% | Through 2026 | 85% | ⏳ Pending |
+| 8 | FL condo inventory exceeds 9 months | Q2 2026 | 75% | ⏳ Pending |
+| 9 | FL domestic migration turns negative | Dec 2026 | 60% | ⏳ Pending |
+| 10 | Canadian visitors remain >-20% YoY | Through Q2 2026 | 80% | ⏳ Pending |
 
 ### HENRY
 | # | Prediction | Timeframe | Confidence | Status |
