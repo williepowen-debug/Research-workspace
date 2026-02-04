@@ -97,7 +97,7 @@
 | 7 | Earnings revision ratio drops <0.90 | Q2 2026 | 50% | ⏳ Pending |
 | 8 | SPX 10-15% correction followed by ZBT-driven recovery | 2026 | 65% | ⏳ Pending |
 
-### OTTO (Subprime Auto Fraud)
+### OTTO (Subprime Auto Fraud & Immigration Transmission)
 | # | Prediction | Timeframe | Confidence | Status |
 |---|------------|-----------|------------|--------|
 | 1 | 4th fraud case (Flagship or other) discovered | Q2 2026 | 70% | ⏳ Pending |
@@ -110,6 +110,12 @@
 | 8 | Subprime origination share falls below 13% | Q3 2026 | 65% | ⏳ Pending |
 | 9 | Credit washing prevalence exceeds 2.5% of applications | H2 2026 | 60% | ⏳ Pending |
 | 10 | DLT collateral registry achieves operational status | H2 2026 | 50% | ⏳ Pending |
+| 11 | 90+ day DQ rate peaks in Q1-Q2 2026 (employment lag) | Q1-Q2 2026 | 85% | ⏳ Pending |
+| 12 | Central America remittances peak and reverse | H2 2026 | 70% | ⏳ Pending |
+| 13 | S&P downgrades ≥2 immigrant-corridor lenders | Q2 2026 | 65% | ⏳ Pending |
+| 14 | Recovery ratio falls below 28% (skip rate acceleration) | Q2-Q3 2026 | 60% | ⏳ Pending |
+| 15 | Texas border county auto DQ exceeds 10% | Q2 2026 | 70% | ⏳ Pending |
+| 16 | BHPH dealer failures spike in FL 287(g) corridors | Q2-Q3 2026 | 55% | ⏳ Pending |
 
 ---
 

@@ -48,11 +48,21 @@
 | 16 | Texas auto DQ rate exceeds 9% | Q3 2026 | 60% | ⏳ Pending | TX DQ rate declines below 7% |
 | 17 | Southern Stress Belt (MS/LA/TX/GA/AL) avg DQ exceeds 10% | Q4 2026 | 55% | ⏳ Pending | Regional DQ rates stabilize or improve |
 
+### Immigration Transmission (MARCO-OTTO) 🆕
+| # | Prediction | Timeframe | Confidence | Status | Invalidation |
+|---|------------|-----------|------------|--------|--------------|
+| 18 | 90+ day DQ rate peaks in Q1-Q2 2026 (5-6mo lag from H2 2025 employment collapse) | Q1-Q2 2026 | 85% | ⏳ Pending | 90+ DQ rate declines or flattens through Q2 |
+| 19 | Central America remittances peak and reverse (liquidation → abandonment signal) | H2 2026 | 70% | ⏳ Pending | CA remittances continue rising through 2026 |
+| 20 | S&P downgrades at least 2 immigrant-corridor lenders (Lendbuzz, SAFCO, Flagship, FHF) | Q2 2026 | 65% | ⏳ Pending | CreditWatch removed with stable outlook |
+| 21 | Recovery ratio falls below 28% (from 30.58%) as skip rate accelerates | Q2-Q3 2026 | 60% | ⏳ Pending | Recovery ratio improves above 33% |
+| 22 | Texas border county auto DQ exceeds 10% (vs 7.92% state avg) | Q2 2026 | 70% | ⏳ Pending | Border county DQ tracks with state average |
+| 23 | BHPH dealer failures spike in FL 287(g) corridors (Palm Beach, agricultural belt) | Q2-Q3 2026 | 55% | ⏳ Pending | FL BHPH sector remains stable |
+
 ---
 
 ## THESIS VALIDATION CRITERIA
 
-### Core Thesis: "The Cockroach" — Systemic fraud in subprime auto
+### Primary Thesis: "The Cockroach" — Systemic fraud in subprime auto
 
 **Confirmed if:**
 - [ ] 4th fraud case discovered
@@ -70,6 +80,25 @@
 - [ ] Warehouse lenders resume normal operations by Q2 2026
 - [ ] Bank losses contained to current disclosures
 - [ ] 2022 vintage CNL stabilizes below 23%
+
+### Secondary Thesis: "The Invisible Exit" — Immigration transmission chain 🆕
+
+**Confirmed if:**
+- [ ] Recovery ratio falls below 28% (skip rate dominating)
+- [ ] 90+ DQ peaks Q1-Q2 2026 (timing matches employment lag model)
+- [ ] Border county DQ significantly exceeds state averages
+- [ ] S&P cites immigration enforcement in downgrade rationale
+
+**Partially validated if:**
+- [ ] Recovery ratio declines but stays 28-30%
+- [ ] Geographic concentration in immigrant corridors
+- [ ] Remittance patterns match prediction (CA up then reverse, Mexico down)
+
+**Invalidated if:**
+- [ ] Recovery ratio improves above 33%
+- [ ] Employment collapse doesn't manifest in DQ (broken transmission)
+- [ ] Border county DQ tracks with national average
+- [ ] Immigration enforcement eases (policy reversal)
 
 ---
 
@@ -110,10 +139,10 @@
 | *(none yet)* | | | | |
 
 ### Calibration
-- Total predictions: 17
+- Total predictions: 23
 - Confirmed: 0
 - Disconfirmed: 0
-- Pending: 17
+- Pending: 23
 
 *Goal: 60%+ accuracy on predictions with >60% confidence.*
 

@@ -1,11 +1,11 @@
 # OTTO STATUS
-**Last Updated:** 2026-02-04 | **Status:** 🔴 CRITICAL — Systemic Fraud Pattern Confirmed
+**Last Updated:** 2026-02-04 | **Status:** 🔴 CRITICAL — Systemic Fraud + Immigration Transmission Confirmed
 
 ---
 
 ## THESIS
 
-**"The Cockroach" — When you find one, there are more.**
+### Primary: "The Cockroach" — When you find one, there are more.
 
 Three major fraud cases have exposed a systematic pattern in subprime auto:
 - **Tricolor Holdings** → $800M collateral gap; double-pledging; executives charged (life sentence potential)
@@ -14,13 +14,26 @@ Three major fraud cases have exposed a systematic pattern in subprime auto:
 
 **Core Mechanism:** Lenders pledge same loans to multiple warehouse facilities, fabricate data to inflate borrowing base, extract cash before collapse. Tricolor ran this 2018-2025.
 
+### Secondary: "The Invisible Exit" — Immigration-Auto Transmission Chain 🆕
+
+**The MARCO-OTTO connection is now validated with hard data:**
+
+1. **Employment Collapse:** Construction -92.7%, Transportation -95.9% (Jan-Aug 2025 vs 2024)
+2. **Transmission Timing:** Job loss → 30-day (1mo) → 60-day (3-4mo) → 90+ default (5-6mo)
+3. **Remittance Signal:** Central America +25% (liquidation mode) vs Mexico -5% (already left/underground)
+4. **Recovery Breakdown:** 30.58% recovery ratio (vs 41% benchmark) — "Invisible Exit" breaking model
+5. **Cross-Border Impossibility:** Once vehicle crosses to Mexico, recovery = $0 (legally unenforceable)
+
+**Key insight:** Immigrants don't default through traditional channels — they disappear. The loan goes from current to "skip" with no recovery. This breaks roll-rate models and creates an ABS model blind spot.
+
 **The systemic response is underway:**
 - Banks committed **$1.7 TRILLION** to NDFIs (47% YoY growth) — structural shift
 - Regional banks 8-12% NDFI concentration — Fifth Third, Truist, Zions vulnerable
 - Warehouse lenders shifting from "trust but verify" to **"verify and control"**
 - Private credit stepping in at **300-500bps higher cost** — negative feedback loop
+- S&P placed Lendbuzz, SAFCO, Flagship, FHF on **CreditWatch Negative** citing immigration enforcement
 
-**Employment link (via LABOR/CARL):** Subprime auto stress is the leading edge of consumer credit deterioration. When employment breaks, auto → credit card → mortgage cascade begins.
+**Employment link (via LABOR/CARL/MARCO):** Subprime auto stress is the leading edge of consumer credit deterioration. When employment breaks, auto → credit card → mortgage cascade begins. The immigrant channel is the *invisible* leading edge.
 
 ---
 
@@ -29,17 +42,21 @@ Three major fraud cases have exposed a systematic pattern in subprime auto:
 | Indicator | Value | Status | Implication |
 |-----------|-------|--------|-------------|
 | Known Fraud Cases | 3 (Tricolor, First Brands, PrimaLend) | 🔴 | Pattern established |
-| Bank Losses Disclosed | $516M+ (JPM $170M, Fifth Third $200M, Barclays £110M) | 🟠 | More expected |
+| Bank Losses Disclosed | $591M+ (JPM $170M, Fifth Third $178M, Barclays £110M) | 🟠 | Approaching $1B threshold |
 | 2022 Vintage CNL | 22.42% at 31 months | 🔴 | Worst cohort; peak pricing |
 | Subprime ANL | 10.13% (Oct 2025) | 🔴 | Approaching GFC levels |
-| Recovery Rates | 35.87% | 🟠 | Near historic lows |
+| **Recovery Ratio** | **30.58% (vs 41% benchmark)** | 🔴 | "Invisible Exit" confirmed |
+| **60+ DQ Rate** | **6.74% (Dec 2025) — 32-year high** | 🔴 | Q1-Q2 2026 spike locked in |
 | Subprime BBB Spreads | 180bps (+50bps post-Tricolor) | 🟠 | Sharp widening |
-| 60+ DQ Rate | 6.65% (monoline: 16.6%) | 🔴 | Highest since 1993 |
 | NDFI Bank Exposure | $1.7T (34% of C&I at top 25 banks) | 🔴 | Systemic concentration |
-| BDC Redemptions | 4.89% NAV (Oaktree) | 🟠 | Near crisis threshold |
+| **Construction Job Growth** | **-92.7% (9K vs 124K YoY)** | 🔴 | MARCO transmission active |
+| **Transportation Job Growth** | **-95.9% (3.2K vs 79.2K YoY)** | 🔴 | Rubio pause + enforcement |
+| **Central America Remittances** | **+25% (Honduras)** | 🔴 | "Liquidation mode" — deportation funds |
+| **Mexico Remittances** | **-5%** | 🟠 | Already left or underground |
 | Credit Washing | 1.7% of apps (+162% YoY) | 🔴 | Industry can't trust scores |
+| Credit Invisible Population | 45M (20% of adults) | 🔴 | Demographic ceiling reached |
 
-**Composite:** Fraud confirmed, transmission active, ABS deteriorating, systemic reassessment underway
+**Composite:** Fraud confirmed + Immigration transmission validated + Q1-Q2 2026 spike arithmetic locked in
 
 ---
 
@@ -115,6 +132,59 @@ Can't trust scores → Universal tightening → Legitimate subprime denied
 
 ---
 
+## IMMIGRATION TRANSMISSION CHAIN (MARCO-OTTO) 🆕
+
+### The "Invisible Exit" — Why Models Are Breaking
+
+**Traditional default:** Borrower stops paying → rolls through 30/60/90 DPD → repo → auction → 35-60% recovery
+
+**Abandonment/Skip:** Borrower + vehicle disappear simultaneously → no recovery (0%)
+
+**70% of Early Payment Defaults show origination fraud** — intent to abandon may exist at signing
+
+### Employment → Default Timing
+
+| Stage | Lag from Job Loss | Current Status |
+|-------|-------------------|----------------|
+| 30-day miss | 1 month | Spiking H2 2025 |
+| 60-day DQ | 3-4 months | **6.74% Dec '25 (32-year high)** |
+| 90+ default | 5-6 months | **Peak expected Q1-Q2 2026** |
+
+### Remittance Signal (Leading Indicator)
+
+| Flow | Trend | Interpretation |
+|------|-------|----------------|
+| Central America | +25% | **Liquidation mode** — building deportation funds |
+| Mexico | -5% | Already left or underground |
+
+**Key signal:** When Central America remittances peak and reverse → "liquidation complete → abandonment begins"
+
+### Cross-Border Collateral = Total Loss
+
+- *Homologación* (Mexican judgment recognition) costs $5,875+ for $25K case
+- Mexican law requires court clerk service of process (no private servers)
+- U.S. State Dept VRU role minimal
+- **Once vehicle crosses border → recovery = $0**
+
+### Fear Premium — Payment Hierarchy Inversion
+
+**Old model:** Car payment prioritized (vehicle = survival tool)
+**New model:** Vehicle = **detection liability** (roadside checkpoints, 287(g), ICE collaboration)
+
+Result: **Strategic default even when borrower has capacity to pay**
+
+### OBBBA Fiscal Squeeze (July 2025)
+
+- 1% remittance tax → flows going underground
+- Medicaid loss (Oct 2026)
+- SNAP cuts
+- Bottom 10% income: -6.5%
+- Tax credit repayment liability (Jan 2026)
+
+Borrowers choosing between IRS and car payment.
+
+---
+
 ## GEOGRAPHIC HOTSPOTS
 
 **"Southern Stress Belt"** — Top 14 DQ states all Southern:
@@ -181,6 +251,7 @@ Low DQ: Alaska, Utah, Washington (3.2%)
 
 ## PREDICTIONS (Falsifiable)
 
+### Fraud & Structural
 | # | Prediction | Timeframe | Confidence |
 |---|------------|-----------|------------|
 | 1 | 4th fraud case (Flagship or other) discovered | Q2 2026 | 70% |
@@ -189,6 +260,16 @@ Low DQ: Alaska, Utah, Washington (3.2%)
 | 4 | Total bank losses >$1B disclosed | Q2 2026 | 65% |
 | 5 | Monoline 60+ DQ >18% | Q3 2026 | 70% |
 | 6 | BDC redemptions trigger fund gate | H2 2026 | 50% |
+
+### Immigration Transmission 🆕
+| # | Prediction | Timeframe | Confidence |
+|---|------------|-----------|------------|
+| 7 | 90+ day DQ rate peaks in Q1-Q2 2026 (5-6mo lag from H2 2025 employment collapse) | Q1-Q2 2026 | 85% |
+| 8 | Central America remittances peak and reverse (liquidation complete → abandonment) | H2 2026 | 70% |
+| 9 | S&P downgrades at least 2 immigrant-corridor lenders (Lendbuzz, SAFCO, Flagship, FHF) | Q2 2026 | 65% |
+| 10 | Recovery ratio falls below 28% (from 30.58%) as skip rate accelerates | Q2-Q3 2026 | 60% |
+| 11 | Texas border county auto DQ exceeds 10% (vs 7.92% state avg) | Q2 2026 | 70% |
+| 12 | BHPH dealer failures spike in FL agricultural belt (287(g) enforcement areas) | Q2-Q3 2026 | 55% |
 
 ---
 
@@ -211,10 +292,11 @@ Low DQ: Alaska, Utah, Washington (3.2%)
 ---
 
 ## KEY DOCS
-- workbook/VX.tsv (44 vectors)
-- workbook/ML.tsv (50 entries)
+- workbook/VX.tsv (55 vectors)
+- workbook/ML.tsv (64 entries)
 - workbook/FL.tsv (25 calendar items)
-- workbook/FLOW.tsv (10 pathways)
-- research/outputs/RP-OTT-1.* (7 research reports)
+- workbook/FLOW.tsv (15 pathways)
+- research/outputs/RP-OTT-1.* (7 research reports — fraud/structural)
+- research/outputs/RP-OTT-2.* (3 research reports — immigration transmission) 🆕
 
-*Next update trigger: 4th fraud case discovery, CFPB funding lapse, or bank loss >$1B*
+*Next update trigger: 4th fraud case discovery, CFPB funding lapse, bank loss >$1B, or remittance reversal signal*
