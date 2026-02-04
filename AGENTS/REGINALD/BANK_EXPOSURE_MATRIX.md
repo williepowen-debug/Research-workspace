@@ -1,9 +1,39 @@
 # Bank Exposure Matrix — Convergence Channel Analysis
 
-*Cross-referencing regional banks against the 8 KRE convergence channels*
+*Cross-referencing regional banks against the 8 KRE convergence channels + Municipal/Geographic stress*
 
-**Last Updated:** 2026-02-04 20:55 UTC
-**Status:** ✅ POPULATED — Research integrated
+**Last Updated:** 2026-02-04 22:15 UTC
+**Status:** ✅ ENHANCED — Geographic & Municipal research integrated
+
+---
+
+## CRITICAL FINDINGS
+
+### DC Corridor — The Municipal Fracture
+From RP-REG-3.3 research:
+- **DC proper:** Moody's NEGATIVE outlook on Aa1 rating. $140M annual revenue loss projected (withholding tax collapse)
+- **Prince George's County:** AAA but Moody's placed on NEGATIVE watch (9% federal workforce)
+- **NoVA (Fairfax/Arlington/Alexandria):** AAA maintained — "Defense Shield" from national security contractors
+- **Key quote:** "The 2025-2026 DOGE restructuring is fundamentally different. It is not a pause; it is a reversal."
+
+### Florida — The CRE Battleground
+From RP-REG-3.1 research:
+- **Valley National (VLY):** $7.4B FL CRE = **28% of total CRE book** — exceeds NJ home market
+- **First Horizon (FHN):** 76 branches, major wealth/commercial focus
+- **ServisFirst (SFBS):** Panhandle + Central corridor (not Miami wealth play)
+- **Key insight:** FL exposure is highly correlated — if property cycle turns, all these names hit simultaneously
+
+### Texas Border — The Absence
+From RP-REG-3.1 research:
+- **NO major KRE constituent has material TX border exposure**
+- **Zions/Amegy:** Houston/Dallas focus only
+- **First Horizon:** 7 commercial offices in major metros
+- **IBC (IBOC):** Dominates McAllen/Laredo/Brownsville — this is the border play
+
+### SoCal/Imperial Valley — Coastal Only
+- **Western Alliance (Torrey Pines):** San Diego/LA coastal, NO Imperial Valley
+- **Zions (CB&T):** Coachella Valley/Palm Desert, NO Imperial Valley
+- Imperial Valley is a banking desert — no KRE exposure to agricultural stress there
 
 ---
 
@@ -23,51 +53,84 @@
 4. **BDC** = Business Development Company / Fund Finance credit lines
 5. **CONS** = Consumer credit (auto loans, credit cards)
 6. **FHLB** = Federal Home Loan Bank dependency (>5% = elevated)
-7. **GEO** = Geographic concentration (FL, TX border, distressed markets)
-8. **CLO** = CLO holdings concentration
+7. **GEO** = Geographic concentration (FL, TX, distressed markets)
+8. **MUNI** = Municipal bond holdings / local government credit exposure
 
 ---
 
 ## TIER 1: MAXIMUM OVERLAP (4+ channels RED/ORANGE)
 
-| Bank | Ticker | CRE | NDFI | DC | BDC | CONS | FHLB | GEO | CLO | Channels | Notes |
-|------|--------|-----|------|-----|-----|------|------|-----|-----|----------|-------|
-| **Western Alliance** | WAL | 🟠 | 🟠 10.5% | ⬜ | 🟠 Fund Banking | ⬜ | 🟠 5.63% | ⬜ | ⬜ | **4** | Fraud $98.6M + NDFI + Fund Finance + FHLB |
-| **Citizens Financial** | CFG | ⬜ | ⬜ | ⬜ | 🔴 $10-11B | 🟠 18.7% | 🟠 5.10% | ⬜ | ⬜ | **4** | Major fund finance + consumer + FHLB |
-| **Valley National** | VLY | 🟠 475% | ⬜ | ⬜ | 🟠 $85M | 🟡 9.3% | 🟡 4.10% | 🟡 NY/NJ/FL | ⬜ | **4** | CRE + BDC + consumer + FL exposure |
-| **Zions Bancorp** | ZION | 🟡 | 🟠 9% | ⬜ | 🟠 $60M loss | ⬜ | 🟡 4.70% | ⬜ | ⬜ | **3-4** | FHLB haircut stress, fraud losses |
+| Bank | Ticker | CRE | NDFI | DC | BDC | CONS | FHLB | GEO | MUNI | Score | Notes |
+|------|--------|-----|------|-----|-----|------|------|-----|------|-------|-------|
+| **Eagle Bancorp** | EGBN | 🔴 547% | ⬜ | 🔴 100% | ⬜ | ⬜ | 🟡 6.9% liq | 🔴 DC | 🟠 DC Muni | **11** | "Value Trap" — $140.8M NCOs Q3, taking pain |
+| **Western Alliance** | WAL | 🟠 | 🟠 10.5% | ⬜ | 🟠 Fund Banking | ⬜ | 🟠 5.63% | ⬜ | ⬜ | **8** | Fraud $98.6M + NDFI + Fund Finance + FHLB |
+| **Valley National** | VLY | 🟠 475% | ⬜ | ⬜ | 🟠 $85M | 🟡 9.3% | 🟡 4.10% | 🔴 FL $7.4B | ⬜ | **9** | FL CRE = 28% of book. Snowbird concentration |
+| **Citizens Financial** | CFG | ⬜ | ⬜ | 🟡 Moderate | 🔴 $10-11B | 🟠 18.7% | 🟠 5.10% | 🟡 FL/CA | ⬜ | **8** | Major fund finance + consumer + FHLB |
+| **Zions Bancorp** | ZION | 🟡 | 🟠 9% | ⬜ | 🟠 $60M loss | ⬜ | 🟡 4.70% | 🟡 Houston | ⬜ | **6** | FHLB haircut stress, fraud losses |
 
 ---
 
-## TIER 2: ELEVATED (3 channels RED/ORANGE)
+## TIER 2: DC CORRIDOR CONCENTRATED
 
-| Bank | Ticker | CRE | NDFI | DC | BDC | CONS | FHLB | GEO | CLO | Channels | Notes |
-|------|--------|-----|------|-----|-----|------|------|-----|-----|----------|-------|
-| **Eagle Bancorp** | EGBN | 🔴 547% | ❓ | 🔴 Pure DC | ❓ | ❓ | ❓ | 🔴 DC/NoVA | ⬜ | **3** | Already in crisis (Q3 loss, CEO out) |
-| **Huntington Bancshares** | HBAN | ⬜ | ⬜ | ⬜ | ⬜ | 🔴 44% | 🟡 4.50% | ⬜ | ⬜ | **2** | Highest consumer concentration in KRE |
-| **Fifth Third** | FITB | ⬜ | 🟠 8% | ⬜ | 🟠 Reviewed | ⬜ | ⬜ | ⬜ | ⬜ | **2** | $178M Tricolor loss, reviewing book |
-| **Truist** | TFC | ⬜ | 🟠 11% | ⬜ | ⬜ | 🟠 15.8% | ⬜ | 🟡 Southeast | ⬜ | **2-3** | "Hyper-vigilant" on NDFI |
-| **KeyCorp** | KEY | 🟡 Office | ⬜ | ⬜ | 🟡 Avoiding | ⬜ | 🟠 5.30% | ⬜ | ⬜ | **2** | FHLB high, avoiding "esoteric" NDFI |
-| **Columbia Banking** | COLB | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 🔴 9.80% | ⬜ | ⬜ | **1-2** | HIGHEST FHLB dependency in sector |
-| **Burke & Herbert** | BHRB | ❓ | ❓ | 🔴 GovCon | ❓ | ❓ | ❓ | 🔴 NoVA 27% | ⬜ | **2** | Increasing exposure into weakness |
+| Bank | Ticker | DC % | CRE | MUNI | GEO | Verdict | Key Quote |
+|------|--------|------|-----|------|-----|---------|-----------|
+| **Eagle Bancorp** | EGBN | 100% | 🔴 10.9% Office | 🟠 DC bonds | 🔴 Pure DC | **"VALUE TRAP"** | "$140.8M NCOs in Q3 2025 — taking the pain" |
+| **Burke & Herbert** | BHRB | ~35% | ⬜ Minimal DC office | 🟠 $922M munis, $54M unrealized loss | 🟡 Diversified WV/KY | **"SAFE HARBOR"** | "No downtown DC exposure" |
+| **Atlantic Union** | AUB | ~25% | 🟡 Sold Sandy Spring CRE | ⬜ | 🟢 Defense-focused | **"APEX PREDATOR"** | "0.00% NCOs, 0.07% NPLs in GovCon" |
+| **M&T Bank** | MTB | ~10% | ⬜ | ⬜ | 🟢 Buffalo/Baltimore core | **STABLE** | Top-tier retail, diversified |
+| **TowneBank** | TOWN | ~5% | ⬜ | ⬜ | 🟢 Hampton Roads focus | **STABLE** | "#1 Hampton Roads, minimal NoVA" |
 
----
-
-## TIER 3: GEOGRAPHIC CONCENTRATION PLAYS
-
-| Bank | Ticker | Region | Concentration | Key Risk |
-|------|--------|--------|---------------|----------|
-| **Seacoast Banking** | SBCF | Florida | >90% FL-centric | 51% share in The Villages |
-| **Intl. Bancshares** | IBOC | TX Border | >50% South TX | Laredo/McAllen dominance, nearshoring |
-| **Atlantic Union** | AUB | DC/NoVA | >40% Mid-Atlantic | Sandy Spring merger, #1 regional in region |
-| **United Bankshares** | UBSI | DC/NoVA | >35% DC MSA | #1 regional bank in DC MSA |
-| **BankUnited** | BKU | Florida | >60% FL | Miami commercial focus |
-| **Popular Inc** | BPOP | Puerto Rico | ~100% PR | 22.1% consumer concentration |
-| **Pinnacle Financial** | PNFP | DC/NoVA | >20% | Rapid expansion in NOVA |
+**DC Corridor Summary:**
+- EGBN is the pure-play stress trade (but already in crisis)
+- AUB successfully de-risked via Sandy Spring acquisition marks
+- BHRB hedged via Appalachian diversification, but watch muni portfolio
+- Suburban NoVA (defense) is holding; DC proper and PG County are stressed
 
 ---
 
-## TIER 4: CONSUMER CREDIT CONCENTRATION
+## TIER 3: FLORIDA CONCENTRATED
+
+| Bank | Ticker | FL % | FL CRE | FL Branches | Focus | Risk Level |
+|------|--------|------|--------|-------------|-------|------------|
+| **Valley National** | VLY | ~25% | $7.4B (28%) | 45+ | Miami/Tampa CRE | 🔴 VERY HIGH |
+| **First Horizon** | FHN | ~18% | Unknown | 76 | Panhandle + Miami wealth | 🟠 HIGH |
+| **Seacoast Banking** | SBCF | >90% | High | Dense | Villages dominance | 🔴 PURE PLAY |
+| **ServisFirst** | SFBS | ~30% | Moderate | 10 | Panhandle/Central corridor | 🟠 |
+| **BankUnited** | BKU | >60% | High | Dense | Miami commercial | 🔴 PURE PLAY |
+| **Flagstar** | FLG | ~8% | Moderate | 26 | South FL | 🟡 |
+| **Citizens** | CFG | ~5% | Low | Branch-light | Wealth/Commercial only | 🟡 |
+
+**Florida Summary:**
+- VLY is the most leveraged KRE name to FL property cycle
+- SBCF/BKU are pure-plays but smaller
+- FHN has diversification via Tennessee core
+- If Citizens Insurance ($678B exposure) or condo crisis accelerates, VLY/FHN/SBCF hit first
+
+---
+
+## TIER 4: GEOGRAPHIC FOOTPRINT MATRIX
+
+| Bank | Ticker | HQ | Primary States | Top MSAs | DC | FL | TX Border | SoCal |
+|------|--------|-----|----------------|----------|-----|-----|-----------|-------|
+| **AUB** | AUB | Richmond, VA | VA, MD, NC | Richmond, Hampton Roads, DC Metro | 🟠 | ⬜ | ⬜ | ⬜ |
+| **BHRB** | BHRB | Alexandria, VA | VA, WV, KY | DC Metro, Charleston WV, Lexington KY | 🟠 | ⬜ | ⬜ | ⬜ |
+| **CFG** | CFG | Providence, RI | MA, PA, NY | Boston, Philly, NYC, Detroit | 🟡 | 🟡 | ⬜ | 🟡 CA |
+| **DCOM** | DCOM | Hauppauge, NY | NY only | Long Island, Brooklyn/Queens | ⬜ | ⬜ | ⬜ | ⬜ |
+| **EGBN** | EGBN | Bethesda, MD | MD, DC, VA | DC Metro (100%) | 🔴 | ⬜ | ⬜ | ⬜ |
+| **FHN** | FHN | Memphis, TN | TN, FL, NC, LA | Memphis, Nashville, New Orleans, Miami | ⬜ | 🟠 | ⬜ | ⬜ |
+| **FLG** | FLG | Hicksville, NY | NY, MI, FL | NYC Metro, Detroit, Miami | ⬜ | 🟡 | ⬜ | 🟡 8 loc |
+| **HBAN** | HBAN | Columbus, OH | OH, MI, PA, IN, IL, MN | Columbus, Detroit, Cleveland, Chicago | ⬜ | ⬜ | ⬜ | ⬜ |
+| **MTB** | MTB | Buffalo, NY | NY, MD, CT, PA, MA | Buffalo, Baltimore, Bridgeport, DC | 🟡 | ⬜ | ⬜ | ⬜ |
+| **SFBS** | SFBS | Birmingham, AL | AL, FL, TN, GA | Birmingham, Tampa, Nashville, Pensacola | ⬜ | 🟠 | ⬜ | ⬜ |
+| **TOWN** | TOWN | Suffolk, VA | VA, NC | Hampton Roads (#1), Richmond, Charlotte | ⬜ | ⬜ | ⬜ | ⬜ |
+| **VLY** | VLY | New York, NY | NJ, NY, FL, AL, CA | NY/NJ Metro, Miami, Tampa, LA | ⬜ | 🔴 | ⬜ | 🟡 5 loc |
+| **WAL** | WAL | Phoenix, AZ | AZ, NV, CA | Phoenix, Las Vegas, San Diego, San Jose | ⬜ | ⬜ | ⬜ | 🟠 Coastal |
+| **WBS** | WBS | Stamford, CT | CT, NY, MA, RI | Stamford, Westchester, Hartford, Boston | ⬜ | ⬜ | ⬜ | ⬜ |
+| **ZION** | ZION | Salt Lake City, UT | UT, CA, TX, AZ, NV | SLC, Houston, LA, Phoenix, Seattle | ⬜ | ⬜ | ⬜ | 🟠 CB&T |
+
+---
+
+## TIER 5: CONSUMER CREDIT CONCENTRATION
 
 | Bank | Ticker | Consumer % | Focus | Risk Level |
 |------|--------|------------|-------|------------|
@@ -81,7 +144,7 @@
 
 ---
 
-## TIER 5: FHLB DEPENDENCY (>4% of Assets)
+## TIER 6: FHLB DEPENDENCY (>4% of Assets)
 
 | Bank | Ticker | FHLB Ratio | Risk Level |
 |------|--------|------------|------------|
@@ -119,65 +182,78 @@
 
 **Scoring: 🔴 = 3 pts, 🟠 = 2 pts, 🟡 = 1 pt**
 
-| Rank | Bank | Ticker | CRE | NDFI | DC | BDC | CONS | FHLB | GEO | Total | Key Vulnerabilities |
-|------|------|--------|-----|------|-----|-----|------|------|-----|-------|---------------------|
-| 1 | **Western Alliance** | WAL | 2 | 2 | 0 | 2 | 0 | 2 | 0 | **8** | Fraud + NDFI + Fund Finance + FHLB |
-| 2 | **Citizens Financial** | CFG | 0 | 0 | 0 | 3 | 2 | 2 | 0 | **7** | Fund finance concentration + FHLB |
-| 3 | **Valley National** | VLY | 2 | 0 | 0 | 2 | 1 | 1 | 1 | **7** | CRE + BDC + Multiple exposures |
-| 4 | **Eagle Bancorp** | EGBN | 3 | 0 | 3 | 0 | 0 | 0 | 3 | **9** | DC concentrated, already in crisis |
-| 5 | **Zions** | ZION | 1 | 2 | 0 | 2 | 0 | 1 | 0 | **6** | FHLB haircuts + fraud losses |
-| 6 | **Fifth Third** | FITB | 0 | 2 | 0 | 2 | 0 | 0 | 0 | **4** | Direct fraud exposure |
-| 7 | **Truist** | TFC | 0 | 2 | 0 | 0 | 2 | 0 | 1 | **5** | NDFI + Consumer |
-| 8 | **Columbia Banking** | COLB | 0 | 0 | 0 | 0 | 0 | 3 | 0 | **3** | Extreme FHLB (9.8%) |
+| Rank | Bank | Ticker | CRE | NDFI | DC | BDC | CONS | FHLB | GEO | MUNI | Total | Key Vulnerabilities |
+|------|------|--------|-----|------|-----|-----|------|------|-----|------|-------|---------------------|
+| 1 | **Eagle Bancorp** | EGBN | 3 | 0 | 3 | 0 | 0 | 1 | 3 | 2 | **12** | Pure DC play, already in crisis |
+| 2 | **Valley National** | VLY | 2 | 0 | 0 | 2 | 1 | 1 | 3 | 0 | **9** | FL CRE = 28% of book |
+| 3 | **Western Alliance** | WAL | 2 | 2 | 0 | 2 | 0 | 2 | 0 | 0 | **8** | Fraud + NDFI + Fund Finance + FHLB |
+| 4 | **Citizens Financial** | CFG | 0 | 0 | 1 | 3 | 2 | 2 | 1 | 0 | **9** | Fund finance concentration + FHLB |
+| 5 | **Zions** | ZION | 1 | 2 | 0 | 2 | 0 | 1 | 0 | 0 | **6** | FHLB haircuts + fraud losses |
+| 6 | **Truist** | TFC | 0 | 2 | 0 | 0 | 2 | 0 | 1 | 0 | **5** | NDFI + Consumer |
+| 7 | **Fifth Third** | FITB | 0 | 2 | 0 | 2 | 0 | 0 | 0 | 0 | **4** | Direct fraud exposure |
+| 8 | **Columbia Banking** | COLB | 0 | 0 | 0 | 0 | 0 | 3 | 0 | 0 | **3** | Extreme FHLB (9.8%) |
 
 ---
 
 ## SINGLE-NAME SHORT CANDIDATES
 
-Based on convergence analysis, these names have the highest multi-channel exposure:
+Based on convergence analysis, ranked by multi-channel exposure:
 
-### Tier A: Maximum Overlap (Consider single-name shorts)
-| Bank | Why |
-|------|-----|
-| **EGBN** | 3 channels at 🔴 (CRE, DC, GEO). Already in crisis. Pure DC exposure. |
-| **WAL** | 4 channels at 🟠. Fraud exposure + NDFI + Fund Finance + FHLB. Most diversified risk. |
-| **CFG** | Fund finance concentration is extreme. If PE/VC stress hits, transmission is direct. |
+### Tier A: Maximum Overlap
+| Bank | Ticker | Score | Trade Thesis |
+|------|--------|-------|--------------|
+| **Eagle Bancorp** | EGBN | 12 | Already in crisis. Q3 NCOs = $140.8M. But priced as distressed — limited upside? |
+| **Valley National** | VLY | 9 | FL CRE at 28% of book is massive. If property cycle turns, first to break. |
+| **Citizens Financial** | CFG | 9 | Fund finance concentration is extreme. If PE/VC stress hits, transmission direct. |
 
 ### Tier B: Elevated Multi-Channel
-| Bank | Why |
-|------|-----|
-| **VLY** | CRE + BDC + FL exposure. Multiple paths to stress. |
-| **ZION** | Already took losses. FHLB scrutiny. More to come? |
-| **COLB** | 9.8% FHLB dependency is a red flag if collateral haircuts tighten. |
+| Bank | Ticker | Score | Trade Thesis |
+|------|--------|-------|--------------|
+| **Western Alliance** | WAL | 8 | Fraud exposure + NDFI + Fund Finance. Multiple paths to stress. |
+| **Zions** | ZION | 6 | Already took losses. FHLB scrutiny. More to come? |
+| **Columbia Banking** | COLB | 3 | 9.8% FHLB dependency is a red flag if collateral haircuts tighten. |
 
-### Tier C: Geographic Concentration (Thesis-Specific)
-| Bank | Why |
-|------|-----|
-| **SBCF** | Pure Florida play. Insurance/condo crisis = direct hit. |
-| **IBOC** | TX border concentration. If MARCO thesis plays out, first impact. |
-| **AUB/UBSI** | DC concentration. If DOGE continues, these get hit. |
+### Tier C: Geographic Concentration (Pure Plays)
+| Bank | Ticker | Region | Trade Thesis |
+|------|--------|--------|--------------|
+| **Seacoast (SBCF)** | SBCF | FL 90%+ | Pure Florida. Insurance/condo crisis = direct hit. |
+| **BankUnited (BKU)** | BKU | FL 60%+ | Miami commercial. Same thesis as SBCF. |
+| **IBC (IBOC)** | IBOC | TX Border | If MARCO thesis plays out, this is the direct expression. |
 
 ---
 
-## CROSS-REFERENCE TO CONVERGENCE THESIS
+## NOTABLE FINDINGS
 
-This matrix operationalizes the 8-channel thesis from `briefings/KRE_Convergence_Briefing_2026-02-04.md`.
+### The DC Divergence
+The research reveals a **three-tier structure** in DC-exposed banks:
+1. **EGBN** — Pure play, already taking pain, "value trap"
+2. **BHRB** — Hedged via Appalachian diversification, watch muni portfolio
+3. **AUB** — De-risked successfully, "apex predator" positioning
 
-**Key Finding:** WAL, CFG, and VLY appear in MULTIPLE high-exposure categories:
-- WAL: NDFI + Fund Finance + FHLB + Fraud exposure
-- CFG: Fund Finance (largest) + Consumer + FHLB
-- VLY: CRE + BDC + Consumer + Geographic
+**Actionable insight:** EGBN may be priced for distress already. The *relative trade* might be long AUB / short EGBN if you believe AUB's de-risking worked.
 
-**These three names may be more vulnerable than KRE as a whole.**
+### The Florida Correlation
+VLY, FHN, SFBS, SBCF, BKU all have material FL exposure. If the FL property/insurance cycle turns:
+- VLY hits hardest (28% CRE concentration in FL)
+- SBCF/BKU are pure plays
+- FHN has Tennessee hedge
+- SFBS has Panhandle focus (different from Miami/Southeast FL dynamics)
+
+### The Texas Border Absence
+**No major KRE constituent has TX border concentration.**
+- IBOC (IBC Bank) is the only regional with Laredo/McAllen/Brownsville dominance
+- MARCO immigration thesis impacts IBOC directly, but minimal KRE-wide transmission
+- Border stress → IBOC, not KRE broadly
 
 ---
 
 ## DATA SOURCES
 
+- **RP-REG-3.1:** Regional Bank Geographic Footprints (Feb 2026)
+- **RP-REG-3.3:** DC Corridor Bank Analysis (Feb 2026)
 - **FHLB Dependency:** Q4 2025 Call Reports, Capital Advisors Research
 - **Fund Finance:** Reed Smith FFA 2025, Goodwin Fund Finance Report, Bank 10-Ks
 - **Consumer Credit:** JD Power Dealer Financing Study, Experian Auto Finance Report
-- **Geographic:** FDIC Summary of Deposits, Bank investor presentations
 - **NDFI:** Capital Advisors "Regional Bank Private Credit Exposure" Nov 2025
 - **CRE:** FAU CRE Screener, REGINALD workbook
 
@@ -187,8 +263,17 @@ This matrix operationalizes the 8-channel thesis from `briefings/KRE_Convergence
 
 | Date | Update | Source |
 |------|--------|--------|
+| 2026-02-04 22:15 | Geographic + Municipal research integrated (RP-REG-3.1, 3.3) | Will's research |
 | 2026-02-04 20:55 | Full matrix populated with research from Prompts 1-4 | Will's LLM research |
 | 2026-02-04 20:47 | Matrix structure created with existing agent data | Prome |
+
+---
+
+## REMAINING RESEARCH GAPS
+
+- [ ] **RP-REG-3.2:** Municipal bond holdings detail (who holds DC/MD/FL munis?)
+- [ ] **RP-REG-3.4:** Texas border municipal stress (for IBOC thesis)
+- [ ] **RP-REG-3.5:** Florida municipal exposure / Citizens Insurance nexus
 
 ---
 
