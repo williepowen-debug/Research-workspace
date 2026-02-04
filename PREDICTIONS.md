@@ -97,6 +97,20 @@
 | 7 | Earnings revision ratio drops <0.90 | Q2 2026 | 50% | ⏳ Pending |
 | 8 | SPX 10-15% correction followed by ZBT-driven recovery | 2026 | 65% | ⏳ Pending |
 
+### OTTO (Subprime Auto Fraud)
+| # | Prediction | Timeframe | Confidence | Status |
+|---|------------|-----------|------------|--------|
+| 1 | 4th fraud case (Flagship or other) discovered | Q2 2026 | 70% | ⏳ Pending |
+| 2 | 2022 vintage CNL exceeds 25% | Q2-Q3 2026 | 75% | ⏳ Pending |
+| 3 | Subprime BBB ABS spreads >250bps | H1 2026 | 60% | ⏳ Pending |
+| 4 | Total bank losses >$1B disclosed (auto fraud) | Q2 2026 | 65% | ⏳ Pending |
+| 5 | Monoline 60+ DPD exceeds 18% | Q3 2026 | 70% | ⏳ Pending |
+| 6 | BDC redemptions trigger at least one fund gate | H2 2026 | 50% | ⏳ Pending |
+| 7 | CFPB enters funding lapse / operational pause | Q1 2026 | 55% | ⏳ Pending |
+| 8 | Subprime origination share falls below 13% | Q3 2026 | 65% | ⏳ Pending |
+| 9 | Credit washing prevalence exceeds 2.5% of applications | H2 2026 | 60% | ⏳ Pending |
+| 10 | DLT collateral registry achieves operational status | H2 2026 | 50% | ⏳ Pending |
+
 ---
 
 ## RESOLVED PREDICTIONS

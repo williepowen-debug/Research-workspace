@@ -4,3 +4,23 @@ FL-OTTO-002	Ongoing	DOJ Investigation Expansion	May charge additional individual
 FL-OTTO-003	Q1-Q2 2026	Warehouse Lender Audits	May discover additional fraud at other lenders	VX-OTTO-002, VX-OTTO-004	WATCHING	000	Industry-wide reassessment underway
 FL-OTTO-004	Quarterly	Bank Earnings Disclosures	May reveal additional auto-related losses	VX-OTTO-003	WATCHING	000	Watch JPM, Fifth Third, regional banks
 FL-OTTO-005	Monthly	Auto ABS Deal Performance	Early warning for cascade/downgrade wave	VX-OTTO-007	WATCHING	000	Spreads elevated but stable
+FL-OTTO-006	Q1-Q2 2026	Flagship Credit Acceptance - Post-Acquisition Audit	InterVest forensic review may discover portfolio rot or collateral discrepancies	VX-OTTO-008	CRITICAL	001	If "collateral gap" similar to Tricolor exists, filing/fraud discovery likely
+FL-OTTO-007	Ongoing	Exeter Finance ABS Surveillance	S&P/Moody's tracking; further ECNL increases = downgrade risk	VX-OTTO-009	WATCHING	001	8 deals already flagged Nov 2025
+FL-OTTO-008	2026	CPS Repossession Litigation	Class-action outcome could create material contingent liability	VX-OTTO-010	WATCHING	001	Settlement or adverse judgment = covenant stress
+FL-OTTO-009	Q1 2026	Ally Financial Restructuring	2% workforce cut early 2026; watching for further distress signals	VX-OTTO-004	WATCHING	001	Major player tightening = industry signal
+FL-OTTO-010	2026-02-25	First Brands Examiner Report	Martin De Luca report on $2.3B missing from factored receivables	VX-OTTO-016	CRITICAL	001	May reveal additional fraud or identify where $2.3B went
+FL-OTTO-011	2026-04-30	Tricolor Vehicle Liquidation Deadline	10,000 vehicles to be sold; recovery rates will indicate collateral values	VX-OTTO-014	ELEVATED	001	Vervent/Holman joint auctioneers
+FL-OTTO-012	Ongoing	Andy Mata Grand Jury	DOJ targeting operational layer of Tricolor	VX-OTTO-015	CRITICAL	001	May lead to additional charges or cooperating witnesses
+FL-OTTO-013	Ongoing	Onset Financial Litigation	Onset vs James brothers; $200M "pilfered" claim; intervention dispute	VX-OTTO-016	ELEVATED	001	Committee argues Onset was participant not victim
+FL-OTTO-014	2026-02-09	PrimaLend Plan Voting Deadline	Creditor vote on reorganization plan	VX-OTTO-001	WATCHING	001	Market test for subprime sector appetite
+FL-OTTO-015	Early 2026	First Brands Section 363 Sale	Sale process for Fram, Raybestos, Trico core brands	VX-OTTO-016, VX-OTTO-023	CRITICAL	002	Liquidity depends on Ford/GM bridge; examiner report Feb 25
+FL-OTTO-016	Ongoing	Ford/GM First Brands Financing Review	OEMs assessing continued support vs alternative suppliers	VX-OTTO-016	ELEVATED	002	"Too critical to fail" but not indefinite
+FL-OTTO-017	2026	James Brothers Criminal Trial	Patrick and Edward James trial for $9.3B fraud	VX-OTTO-023	WATCHING	002	Life sentence potential; Enron parallels
+FL-OTTO-018	Monthly	Subprime ABS Spread Monitoring	Watch BBB spreads for stress signal	VX-OTTO-029	WATCHING	002	180bps current; >250bps = elevated stress
+FL-OTTO-019	Quarterly	2022 Vintage Surveillance	Rating agency reviews for worst-performing cohort	VX-OTTO-026	ELEVATED	002	CNL 22.42%; if approaches 30%, downgrade wave begins
+FL-OTTO-020	Early March 2026	CFPB Funding Lapse	If no congressional action, Bureau enters shutdown posture	VX-OTTO-035	CRITICAL	003	Would pause supervision, rulemaking, and litigation
+FL-OTTO-021	2026-08	Daniel Chu Criminal Trial	SDNY trial; "Enron defense" strategy; key evidence: recorded calls	VX-OTTO-024	ELEVATED	003	Bellwether for corporate fraud prosecution in private credit era
+FL-OTTO-022	2026-09-15	NY FAIR Business Practices Act	Finalization deadline; codifies CFPB terms into state law	VX-OTTO-036	WATCHING	003	Could create most stringent state-level consumer protection
+FL-OTTO-023	2026-04	DLT Collateral Registry Pilot	First multi-state distributed ledger for subprime auto collateral	VX-OTTO-037	WATCHING	003	If successful, eliminates double-pledging latency window
+FL-OTTO-024	2026-02-15	Fed 2026 Stress Test Scenarios	Finalization of severely adverse scenario (5.5pp unemployment, 54% equity decline)	VX-OTTO-041	WATCHING	003	First time with public comment on hypothetical conditions
+FL-OTTO-025	Ongoing	BDC Redemption Monitoring	Watch for >5% NAV redemption requests as crisis signal	VX-OTTO-032	ELEVATED	003	Feedback loop trigger; Oaktree at 4.89% already near threshold
