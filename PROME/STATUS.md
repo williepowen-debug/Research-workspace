@@ -68,7 +68,48 @@ MARCO tracks regional stress that compounds anywhere in the chain
 
 ---
 
+## 🎯 CONVERGENCE THESIS — KRE (NEW)
+
+**Discovery:** All 8 research streams terminate at regional banks.
+
+| # | Channel | Source Agent | Mechanism |
+|---|---------|--------------|-----------|
+| 1 | CRE | REGINALD | Direct loan losses (70% of CRE at regionals) |
+| 2 | NDFI/Auto fraud | OTTO | Warehouse line losses ($1.7T exposure) |
+| 3 | Migration/Regional | MARCO | Economic stress → loan performance |
+| 4 | BDC draws | BROCK | $142B credit line liquidity drain |
+| 5 | Federal layoffs | LABOR | DC corridor bank exposure (EGBN, BHRB) |
+| 6 | Consumer credit | CARL | Employment → defaults → NCOs |
+| 7 | FHLB/Funding | LIQUID | All stress paths terminate at FHLB |
+| 8 | Japan contagion | SAM | Repatriation → CLO → BDC → banks |
+
+**Key Insight:** Eight independent lenses pointing at one target = signal, not coincidence.
+
+**Trade Executed (Feb 4):**
+- 2x KRE $70 puts — May 15, 2026
+- 2x KRE $60 puts — June 18, 2026
+- Total risk: ~$800-900
+- Thesis: Something breaks in regional bank complex by Q2-Q3
+
+**Add triggers:** Claims >250K, 4th fraud case, Japan fails
+
+**Briefing:** `briefings/KRE_Convergence_Briefing_2026-02-04.md`
+
+---
+
 ## Recent Session Summary
+
+**2026-02-04 (Session 6):**
+- **CONVERGENCE THESIS DISCOVERED** — All agents point to KRE
+- 8 transmission channels mapped and validated
+- 20-min briefing created and pushed
+- **FIRST TRADE EXECUTED:** KRE puts (May $70, June $60)
+
+**2026-02-04 (Session 5):**
+- **OTTO 2-series complete** — MARCO-OTTO immigration transmission link
+- "Invisible Exit" thesis validated (immigrants skip, don't default)
+- Recovery ratio collapse (30.58% vs 41% benchmark)
+- S&P pricing immigration risk (CreditWatch on 4 lenders)
 
 **2026-02-04 (Session 3):**
 - **OTTO STATUS.md COMPLETE** — Full research phase done:

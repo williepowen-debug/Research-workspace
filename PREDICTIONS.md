@@ -117,6 +117,19 @@
 | 15 | Texas border county auto DQ exceeds 10% | Q2 2026 | 70% | ⏳ Pending |
 | 16 | BHPH dealer failures spike in FL 287(g) corridors | Q2-Q3 2026 | 55% | ⏳ Pending |
 
+### PROME (Cross-Agent / Convergence)
+| # | Prediction | Timeframe | Confidence | Status |
+|---|------------|-----------|------------|--------|
+| 1 | KRE drops below $65 (breakout fails, stress materializes) | Q2 2026 | 55% | ⏳ Pending |
+| 2 | KRE drops below $55 (multi-channel convergence plays out) | Q2-Q3 2026 | 40% | ⏳ Pending |
+| 3 | At least one of the 8 convergence channels triggers visible regional bank stress | H1 2026 | 70% | ⏳ Pending |
+
+**Trade Position:**
+- 2x KRE $70 puts (May 15) — Break-even ~$67
+- 2x KRE $60 puts (June 18) — Break-even ~$58.50
+- Entry: Feb 4, 2026 | KRE at $72.62 (ATH)
+- Total risk: ~$800-900
+
 ---
 
 ## RESOLVED PREDICTIONS
