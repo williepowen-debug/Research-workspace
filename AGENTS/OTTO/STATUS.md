@@ -291,12 +291,35 @@ Low DQ: Alaska, Utah, Washington (3.2%)
 
 ---
 
+## IS THIS NOVEL OR FORGOTTEN?
+
+**Answer: FORGOTTEN — not new.**
+
+The immigration-credit nexus was well-documented in 2008-2011:
+- Secure Communities (2008-2013): 7% non-citizen employment decline vs 1% citizens
+- AZ SB 1070, AL HB 56: Created "enforcement-induced recession" at state level
+- Academic research confirmed positive selection paradox + sanctuary policy effects
+
+**The 2012-2022 period of policy stability allowed lenders to remove these variables from models.**
+
+**Current magnitude is novel** ($280B+ subprime auto), but the **channel is known**.
+
+**Jan 2026 CFPB/DOJ withdrawal** = regulatory signal that market about to re-price.
+
+**Edge opportunity: Rediscovering forgotten risk before consensus re-learns.**
+
+### Actionable Insight
+
+**"Sanctuary Alpha"**: Portfolios in sanctuary jurisdictions should outperform enforcement-heavy states (TX, AZ). This is exploitable in ABS relative value.
+
+---
+
 ## KEY DOCS
-- workbook/VX.tsv (55 vectors)
-- workbook/ML.tsv (64 entries)
+- workbook/VX.tsv (59 vectors)
+- workbook/ML.tsv (71 entries)
 - workbook/FL.tsv (25 calendar items)
 - workbook/FLOW.tsv (15 pathways)
 - research/outputs/RP-OTT-1.* (7 research reports — fraud/structural)
-- research/outputs/RP-OTT-2.* (3 research reports — immigration transmission) 🆕
+- research/outputs/RP-OTT-2.* (4 research reports — immigration transmission) 🆕
 
 *Next update trigger: 4th fraud case discovery, CFPB funding lapse, bank loss >$1B, or remittance reversal signal*
