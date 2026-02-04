@@ -1,5 +1,5 @@
 # LABOR STATUS
-**Last Updated:** 2026-02-02 | **Status:** 🔴 CRITICAL — Employment Break Underway
+**Last Updated:** 2026-02-04 | **Status:** 🔴 CRITICAL — Employment Break Underway
 
 ---
 
@@ -33,6 +33,8 @@ This is not synchronized recession — it's a **"barbell" economy**:
 | U-6 Underemployment | 8.4% | 🟠 | +0.8pp YoY |
 | Temp Employment YoY | -12% | 🔴 | RE-ACCELERATING |
 | NFP Monthly | +50K (Dec) | 🟠 | 2025 avg 49K vs 2024 168K |
+| **ADP Private Payrolls** | **+22K (Jan)** | 🔴 | **MISS: +22K vs +45K exp** |
+| ISM Services Employment | 50.3 | 🟠 | Barely expanding, -1.4pp MoM |
 | Challenger Annual | 1.2M | 🔴 | +58% YoY, 7th highest ever |
 | DOGE Cuts | 307K | 🔴 | 24% of all 2025 cuts |
 | Google "Severance" | 100 | 🔴 | ALL-TIME HIGH |
@@ -41,6 +43,12 @@ This is not synchronized recession — it's a **"barbell" economy**:
 | Fed Beige Book | 4/12 deteriorating | 🟠 | "Low-hire, low-fire" |
 
 **Composite Assessment:** Surface GREEN, Hidden ORANGE-RED
+
+### 🆕 Feb 4 Update
+- **ADP Jan: +22K** (vs +45K expected) — significant miss, weakest since recession signals
+- **ISM Services Employment: 50.3** — barely above contraction, down 1.4pp from Dec
+- **NFP delayed to Feb 11** due to government shutdown (ended Feb 4)
+- Tariff uncertainty showing up in ISM business commentary
 
 ---
 
