@@ -13,7 +13,7 @@
 | **SAM** | 🟠 ORANGE | Critical window Feb 3-8 | **30Y auction Feb 5**; Election Feb 8 |
 | **REGINALD** | 🟡 YELLOW | Bank earnings; DC corridor risk | 10-K season Mar; EGBN/BHRB watch |
 | **LIQUID** | 🟢 GREEN | Metastable; RRP near zero | Quarter-end Mar 31 |
-| **MARCO** | 🟠 ORANGE | Regional stress pattern validated | Visit FL Q4 ~Apr 15; USMCA Jul |
+| **MARCO** | 🟠 ORANGE | Border cities diverging; El Paso/Nogales stressed | El Paso FY26 budget; USMCA Jul |
 | **BROCK** | 🟡 YELLOW | PIK concentration; shadow defaults | Q4 BDC earnings Feb-Mar |
 | **CREED** | 🟡 YELLOW | $936B maturity wall | Forced recognition 2026-27 |
 
@@ -68,8 +68,14 @@ SAM runs parallel — can trigger carry unwind independently
 ## Recent Session Summary
 
 **2026-02-04:**
+- **MARCO border city deep dive complete** — 5 research reports integrated
+- K-shaped divergence: El Paso/Nogales STRESSED; Brownsville/Laredo STABLE
+- **El Paso flagged to REGINALD** — $55-62M deficit, 60% pension, municipal credit event trajectory
+- **Nogales residential crashed -43%** — pure cross-border canary
+- Added 10 new VX vectors, 6 ML entries for border cities
+- Mexican Shopper model confirmed DEAD (Laredo 51%→13%)
 - **MARCO STATUS.md created** — regional stress pattern framework
-- 5 BREACHED, 8 CRITICAL vectors; FL triple exposure + TX/CA/NV/AZ
+- 6 BREACHED, 12 CRITICAL vectors; FL triple exposure + TX/CA/NV/AZ + border cities
 - Canadian tourism decline primary driver (55-65% political)
 - Added MARCO to agent dashboard
 

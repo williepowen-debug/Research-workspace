@@ -1,5 +1,5 @@
 # MARCO STATUS
-**Last Updated:** 2026-02-04 | **Status:** 🟠 ORANGE — Regional Stress Pattern Validated
+**Last Updated:** 2026-02-04 | **Status:** 🟠 ORANGE — Regional Stress Pattern Validated + Border City Divergence
 
 ---
 
@@ -86,6 +86,54 @@ Tax revenue at risk → Service cuts → Accelerated out-migration
 
 ---
 
+## BORDER CITIES — K-SHAPED DIVERGENCE
+
+**The "Mexican Shopper" model is DEAD for most cities:**
+- Laredo: 51% → **13%** | Brownsville: 26% → **3.3%** | El Paso: 11% → **7.4%**
+- Only **McAllen holds at 28%** (Monterrey proximity)
+
+**The industrial border is BOOMING. The retail border is DYING. They've decoupled.**
+
+### City Signal Matrix
+
+| City | Fiscal | Economic | Real Estate | Labor | OVERALL |
+|------|--------|----------|-------------|-------|---------|
+| **El Paso** | 🔴 $55-62M deficit, 60% pension | 🟡 Stagnant | 🟠 15% industrial vacancy | 🟡 4.5% unemp | 🔴 **WATCH** |
+| **Nogales** | 🟠 Austerity, 60% MX-dependent | 🔴 Pure exposure | 🔴 **-43% residential** | 🟠 Brain drain | 🔴 **WATCH** |
+| **McAllen** | 🟢 AA+ | 🟠 28% MX-dependent | 🟠 -5.7% residential | 🟠 **-5.5% wages** | 🟠 ELEVATED |
+| **Pharr** | 🟠 S&P Negative | 🟢 Logistics boom | 🟢 Growth | 🟡 | 🟡 ELEVATED |
+| **Brownsville** | 🟢 AA+ | 🟢 SpaceX/industrial | 🟢 Balanced | 🟡 +7% wages | 🟢 STABLE |
+| **Laredo** | 🟢 AA, trade boom | 🟢 $339B trade | 🟠 Downtown 32% vacant | 🟢 4.3% | 🟢 STABLE |
+
+### El Paso — Municipal Credit Event Trajectory
+
+**NOT a cross-border story.** Only 7.4% retail from Mexico. Root causes:
+- Single-employer pension (CEPERT) **60% funded**, $325M UAAL
+- Commercial tax appeals eroding base (apartments -4.2%, retail -0.2%)
+- Sales tax growth collapsed **88%** ($24M → $3M)
+- 16-week hiring freeze; school district $38M shortfall
+
+**→ FLAGGED TO REGINALD** as potential municipal stress signal.
+
+### Nogales — Pure Cross-Border Canary
+
+**Purest test case** for retail consumption collapse thesis:
+- **~60%** of sales tax from Mexican shoppers
+- Residential prices **-43.2% YoY** (Redfin) — CRASHED
+- State revenue dependent (AZ facing deficit)
+- Brain drain: 44% bachelor's degrees but 57% in lowest-wage tier
+
+### Policy Friction Structural
+
+| Change | Impact |
+|--------|--------|
+| $250 Visa Integrity Fee (Oct 2025) | Family of 4 = $1K barrier |
+| I-94: $6 → $24 | +300% |
+| Wait times now #1 deterrent | 53% vs 5% exchange rate |
+| Operation Lone Star peaks | 8-10 hour waits, -60% traffic |
+
+---
+
 ## PREDICTIONS (Falsifiable)
 
 | # | Prediction | Timeframe | Confidence |
@@ -97,6 +145,10 @@ Tax revenue at risk → Service cuts → Accelerated out-migration
 | 5 | CA produce prices spike >10% | Q2 2026 | 55% |
 | 6 | Vegas unemployment exceeds 6.5% | Q3 2026 | 60% |
 | 7 | Mexico remittances full-year negative | 2026 | 70% |
+| 8 | **El Paso credit rating downgrade or negative outlook** | Q4 2026 | 55% |
+| 9 | **Nogales residential prices find floor at -50% to -60%** | Q2 2026 | 65% |
+| 10 | **Pharr downgraded from A+** | Q3 2026 | 45% |
+| 11 | **McAllen hit by peso/tariff shock** | H2 2026 | 40% |
 
 ---
 
@@ -105,6 +157,7 @@ Tax revenue at risk → Service cuts → Accelerated out-migration
 **→ CARL:** FL regional stress, hospitality employment, insurance affordability, condo distress
 **→ LABOR:** Ag workforce collapse validates "Hotel California" in specific sectors
 **→ REGINALD:** FL housing → bank CRE/consumer exposure
+**→ REGINALD:** 🚨 **El Paso municipal fiscal stress** — $55-62M deficit, 60% pension, potential credit event trajectory
 
 **← CARL:** FL consumer credit deterioration when it appears
 **← LABOR:** Employment data for cross-validation
@@ -136,9 +189,10 @@ Tax revenue at risk → Service cuts → Accelerated out-migration
 ---
 
 ## WORKBOOK REFS
-- **ML.tsv**: 30+ entries across IVF, WFD, IMG, state-specific
-- **VX.tsv**: 25 vectors (5 BREACHED, 8 CRITICAL, 6 ELEVATED)
+- **ML.tsv**: 36+ entries across IVF, WFD, IMG, BDR (border cities)
+- **VX.tsv**: 36 vectors (6 BREACHED, 12 CRITICAL, 10 ELEVATED)
 - **FL.tsv**: 40+ catalysts tracked
 - **FLOW.tsv**: 4 transmission pathways
+- **Research**: RP-MAR-7.1 through 7.5 (border city deep dive)
 
-*Next update trigger: Q4 Visit Florida data or Statistics Canada Jan release*
+*Next update trigger: Q4 Visit Florida data, Statistics Canada Jan, or El Paso FY2026 budget*

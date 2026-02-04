@@ -78,6 +78,7 @@ Banks are sitting on office CRE loans with 70-97% actual loss severity (per tran
 | **LABOR** | Employment is the transmission trigger. DOGE federal cuts → DC/NoVA bank credit. ~580K total announced layoffs. |
 | **CARL** | Consumer stress leads bank stress by 6-18 months. Employment break accelerates. |
 | **LIQUID** | FHLB is the universal convergence point. All stress paths terminate there. |
+| **MARCO** | 🚨 **NEW:** El Paso municipal fiscal crisis — $55-62M deficit, 60% pension funded, commercial tax base eroding. Monitor for banks with TX border city muni exposure. Different transmission: NOT cross-border trade, but structural pension/fiscal mismanagement. |
 | **SAM** | Japan CLO bid anchors spreads. Withdrawal would gap CLO/bank stress wider. |
 
 ---
