@@ -1,5 +1,5 @@
 # PROME STATUS.md
-**Updated:** 2026-02-05 00:50 UTC
+**Updated:** 2026-02-05 01:52 UTC
 
 ---
 
@@ -143,6 +143,13 @@ OTTO fraud accelerates REGINALD timeline
 
 ## Recent Session Summary
 
+**2026-02-05 (Session 8):**
+- Researched new stress channels: stablecoins + FL HOA
+- **RP-REG-4.1:** Stablecoin = systemic NIM compression ($500B outflow), not concentrated
+- **RP-REG-4.2:** FL HOA = $10K-224K assessments, NOT super-lien state (mortgage protected)
+- Both validate thesis without changing scores
+- Sub-agent pattern tested successfully (spawned research task)
+
 **2026-02-05 (Session 7):**
 - **BANK EXPOSURE MATRIX COMPLETE** — All 5 research prompts integrated
 - RP-REG-3.1: Geographic footprints (15 banks mapped)
@@ -173,6 +180,8 @@ OTTO fraud accelerates REGINALD timeline
 |------|---------|
 | `AGENTS/REGINALD/BANK_EXPOSURE_MATRIX.md` | Complete 8-channel convergence analysis |
 | `AGENTS/REGINALD/STATUS.md` | Updated bank watchlist and thesis |
+| `AGENTS/REGINALD/research/outputs/RP-REG-4.1_Stablecoin_Exposure.md` | Stablecoin NIM compression analysis |
+| `AGENTS/REGINALD/research/outputs/RP-REG-4.2_Florida_HOA_Crisis.md` | FL HOA/condo assessment impact |
 | `briefings/KRE_Convergence_Briefing_2026-02-04.md` | 20-min audio briefing |
 | `PREDICTIONS.md` | Cross-agent falsifiable predictions |
 
