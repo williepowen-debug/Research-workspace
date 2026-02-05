@@ -1,140 +1,212 @@
 # REGINALD — Current Status
 
-*Last touched: 2026-02-02 by Prome*
+*Last updated: 2026-02-05 by Prome*
 
 ---
 
-## Core Thesis
+## Core Thesis: The Convergence
 
-**CRE stress is real and severe, but extend-and-pretend is masking it.**
+**Eight independent research streams all terminate at regional banks.**
 
-Banks are sitting on office CRE loans with 70-97% actual loss severity (per transaction data), while modeling 20-40% losses. The gap is enormous. Recognition is being delayed through:
-- Loan modifications (report as current, avoid NPL)
-- FHLB liquidity (keeps banks funded despite impaired collateral)
-- Regulatory forbearance (FDIC stopped disclosing problem bank assets)
+This wasn't designed — it emerged from research. Regional banks are the common node where all stress transmits:
 
-**The break comes when employment deteriorates.** CRE concentration is necessary but not sufficient for crisis. Employment is the transmission mechanism — when borrowers can't make payments, extend-and-pretend fails.
+| Channel | Source Agent | Mechanism |
+|---------|--------------|-----------|
+| **CRE** | REGINALD/CREED | 70% of CRE loans at regionals, extend-and-pretend masking 70-97% loss severity |
+| **NDFI/Auto Fraud** | OTTO | $1.7T bank exposure to non-depository lenders, $591M+ losses disclosed |
+| **Federal Layoffs** | LABOR | DOGE cuts hitting DC corridor banks (EGBN, BHRB) |
+| **Consumer Credit** | CARL | 37% of Americans can't cover $400, stress transmission accelerating |
+| **BDC/Fund Finance** | BROCK | $142B unfunded commitments, NAVs crashing (PSEC -57%) |
+| **Migration** | MARCO | Border city stress, FL triple exposure, workforce exit |
+| **FHLB/Funding** | LIQUID | RRP at zero, FHLB is convergence point for all stress |
+| **Japan Contagion** | SAM | Repatriation → UST → CLO → BDC → banks |
 
-**Lesson learned:** We overstated the Jan 29-31 compound scenario. VLY and FLG both beat earnings despite high CRE concentration. Concentration creates vulnerability, but crisis requires a transmission catalyst.
+**The key insight:** Banks with exposure to MULTIPLE channels have more "paths to break." The convergence thesis says these channels will correlate during stress.
 
 ---
 
-## What We're Watching
+## The Matrix: What It Reveals
 
-### Bank Watchlist (Current Ratings)
+### Convergence Score Rankings (Multi-Channel Exposure)
+
+| Rank | Bank | Score | Primary Vulnerabilities |
+|------|------|-------|------------------------|
+| 1 | **EGBN** | 12 | Pure DC (100%), already in crisis, CRE 547% |
+| 2 | **WAL** | 10 | NDFI + Fraud + Fund Finance + FHLB + **$1.36B unrated muni "shadow book"** |
+| 3 | **VLY** | 9 | FL CRE 28% of book + BDC + Consumer — most paths to stress |
+| 4 | **CFG** | 9 | Fund finance ($10-11B) + Consumer 18.7% + FHLB 5.1% |
+| 5 | **ZION** | 9 | **$5.78B total muni exposure** (hidden) + NDFI fraud + $524M unfunded |
+
+### Key Pattern: Multi-Channel > Single-Channel
+
+Pure plays (EGBN, SBCF, IBOC) are binary bets on one geography. Multi-channel names (WAL, VLY, CFG, ZION) have multiple paths to stress — they don't need ALL channels to break, just 2-3 to correlate.
+
+### Hidden Exposures Discovered
+
+| Bank | What Market Sees | What We Found |
+|------|------------------|---------------|
+| **ZION** | $1.4B muni securities | $5.78B total (+ $4.36B loans + $524M unfunded) |
+| **WAL** | $2.28B muni securities | $1.36B is UNRATED = private placements, shadow loan book |
+| **CFG** | Big muni investor? | **$1M** — they're not in munis at all |
+
+---
+
+## Geographic Stress Analysis
+
+### DC Corridor — The "Value Trap vs Apex Predator" Split
+
+| Bank | DC % | Verdict | Why |
+|------|------|---------|-----|
+| **EGBN** | 100% | "Value Trap" | Already taking pain ($140.8M NCOs Q3), may be priced for distress |
+| **BHRB** | 35% | "Safe Harbor" | Hedged via WV/KY merger, but $922M muni portfolio at risk |
+| **AUB** | 25% | "Apex Predator" | Purged Sandy Spring CRE, defense-focused, 0% NCOs in GovCon |
+
+**Municipal fracture:**
+- DC proper: Moody's NEGATIVE outlook, $140M annual revenue loss
+- PG County: AAA but Moody's negative watch (9% federal workforce)
+- NoVA: AAA maintained — "Defense Shield" from national security contractors
+
+### Florida — The "Doom Loop"
+
+**Citizens Insurance = $678B contingent liability on entire state**
+
+The Emergency Assessment mechanism converts weather risk into credit risk:
+1. Hurricane → Citizens deficit → 15% surcharge on policyholders
+2. If insufficient → **10% assessment on ALL FL policies** (including private)
+3. Assessment = senior lien on cash flows, competes with mortgage payments
+
+| Bank | FL % | FL Loans | Risk | Notes |
+|------|------|----------|------|-------|
+| **SBCF** | 100% | $12.6B | 🔴 CRITICAL | Pure play, no hedge, 82% secured by FL RE |
+| **VLY** | 27% | $13.4B | 🔴 VERY HIGH | Commercial CRE, reinsurance dependency |
+| **BKU** | 60%+ | ~$20B | 🔴 HIGH | Miami commercial |
+| **HOMB** | 28% | $4.15B | 🟢 PREPARED | **$33M hurricane reserve** — proactive |
+
+**VLY unique risk:** Commercial CRE relies on private reinsurance. If reinsurers exit FL, collateral becomes *uninsurable at any price*.
+
+### Texas Border — The Absence
+
+**No major KRE constituent has TX border exposure.**
+- IBOC (IBC Bank) is the only publicly traded bank with Laredo/McAllen dominance
+- MARCO thesis impacts IBOC directly, but doesn't transmit through KRE
+- Water crisis in Laredo (S&P flagged), pension stress in El Paso
+
+---
+
+## Bank Watchlist (Updated Ratings)
+
+### Tier 1: Maximum Stress (4+ channels)
+
+| Ticker | Bank | Rating | Convergence Score | Primary Risk |
+|--------|------|--------|-------------------|--------------|
+| **EGBN** | Eagle Bancorp | 🔴 RED | 12 | DC 100% + CRE 547% + already in crisis |
+| **WAL** | Western Alliance | 🔴 RED | 10 | Multi-channel: NDFI + Fraud + Fund Finance + FHLB + Unrated Munis |
+| **VLY** | Valley National | 🔴 RED | 9 | FL CRE 28% + BDC + Consumer — most paths to break |
+
+### Tier 2: Elevated Multi-Channel
+
+| Ticker | Bank | Rating | Convergence Score | Primary Risk |
+|--------|------|--------|-------------------|--------------|
+| **CFG** | Citizens Financial | 🟠 ORANGE | 9 | Fund finance ($10-11B) + Consumer + FHLB |
+| **ZION** | Zions Bancorp | 🟠 ORANGE | 9 | $5.78B muni exposure + NDFI fraud + unfunded |
+| **BHRB** | Burke & Herbert | 🟠 ORANGE | 5 | DC exposure + munis = majority of AFS |
+| **MTB** | M&T Bank | 🟡 YELLOW | 4 | 61% NY State muni concentration |
+
+### Tier 3: Geographic Pure Plays
+
+| Ticker | Bank | Rating | Region | Trade Expression |
+|--------|------|--------|--------|------------------|
+| **SBCF** | Seacoast Banking | 🔴 RED | FL 100% | FL insurance thesis (purest expression) |
+| **BKU** | BankUnited | 🟠 ORANGE | FL 60%+ | Miami commercial |
+| **IBOC** | Int'l Bancshares | 🟠 ORANGE | TX Border | MARCO thesis (only publicly traded option) |
+
+### Tier 4: Defensive/De-Risked
 
 | Ticker | Bank | Rating | Why |
 |--------|------|--------|-----|
-| **EGBN** | Eagle Bancorp | 🔴 RED | #3 CRE exposure nationally (547%) + pure DC DOGE exposure + already in crisis (Q3 loss, CEO out, dividend cut). Double whammy. |
-| **BHRB** | Burke & Herbert | 🔴 RED | Actively *increasing* GovCon lending while NoVA office at 27% vacancy. Contrarian short candidate. |
-| **WAL** | Western Alliance | 🟠 ORANGE | Fraud exposure ($98.6M Stupin). Reserved only 30% vs ZION's 83% charge-off on same fraud. Stock at highs but class action ongoing. Under-reserved. |
-| **TOWN** | TowneBank | 🟠 ORANGE | 59% CRE concentration in military metros. No de-risking action. Hampton Roads defense exposure may insulate. |
-| **DCOM** | Dime Community | 🟠 ORANGE | 550% CRE exposure but actively de-risking. NYC multifamily like NYCB but management executing. |
-| **VLY** | Valley National | 🟠 ORANGE | Was 9.5 RED, downgraded after Q4 beat. CRE 475% + auto NCO still elevated but management navigating. Note: $85M Saratoga BDC facility (sole lead) — potential private credit linkage to monitor. |
-| **FLG** | Flagstar/NYCB | 🟠 ORANGE | Was 8.9 RED, downgraded after return to profit. Extend-and-pretend buying time. |
-| **CFG** | Citizens Financial | 🟡 YELLOW | Potential fund finance exposure. Hired 200+ SVB/FRB bankers, Private Bank at $40B AUM. Hypothesized leverage-on-leverage risk if LP capital call failures occur. Currently healthy — monitor earnings for fund finance commentary. |
-| **ZION** | Zions Bancorp | 🟡 YELLOW | Took honest $50M fraud charge-off (83% rate). FHLB Des Moines haircut stress. Navigating but under scrutiny. |
-| **SFBS** | ServisFirst | 🟡 YELLOW | Bellwether — straddles Huntsville (defense) AND Virginia Beach. Will show if defense metros truly insulated. |
-| **AUB** | Atlantic Union | 🟡 YELLOW | Proactive de-risking (sold $2B to Blackstone). Federal exposure via Sandy Spring but managed. |
-| **MTB** | M&T Bank | 🟢 GREEN | Model for de-risking. CRE down from 183% to 124% of equity. |
-
-### Key Signals
-
-| Signal | Current | Status | Watch For |
-|--------|---------|--------|-----------|
-| CRE/Equity concentration | 1,788 banks >300% (↑91) | 🟠 | Continued increase |
-| Office loss severity | 70-97% actual vs 20-40% modeled | 🔴 | Forced sales accelerating |
-| FHLB haircuts | 6% penalty on participations, CRE 2nds at 49% | 🟡 | Further restrictions |
-| EGBN deposits | -4% QoQ | 🟠 | Continued flight |
-| DC UCFE claims | +543% YoY | 🟠 | Translating to credit losses |
-| Yale $6B secondary sale | In progress, ~87% NAV pricing | 🟠 | Final pricing = industry mark-to-market |
-| BDC PIK stress | PSEC 35%, >50% BDCs burning cash | 🟠 | Monitor for dividend cuts, NAV declines — potential bank linkage via fund finance |
-| HOA/Florida special assessments | Active (SB 4-D) | 🟠 | Super-lien foreclosures, regional CRE stress |
-
-### Smart Money Indicators
-
-- **Blackstone** bought $22B in bank loan portfolios (Jan 2024 - June 2025). Sources: Signature ($17B), AUB ($2B), others. Buying "performing but underwater" at ~7% discount. Quote: "Regional bank portfolio sales will accelerate."
-- When Blackstone is buying aggressively at discounts, banks are under pressure to sell.
+| **AUB** | Atlantic Union | 🟢 GREEN | "Apex Predator" — purged CRE, defense-focused |
+| **HOMB** | Home BancShares | 🟢 GREEN | $33M hurricane reserve, proactive management |
+| **MTB** | M&T Bank | 🟢 GREEN | CRE down from 183% to 124%, model de-risker |
 
 ---
 
-## Key Predictions (Falsifiable)
+## Current Position Context
 
-| Prediction | Timeframe | How We'll Know |
-|------------|-----------|----------------|
-| BHRB credit deterioration | Q1 2026 earnings | NCOs >50bps or NPAs >1.5% |
-| EGBN second stress leg | Q1-Q2 2026 | Stock below $19 or capital raise |
-| WAL fraud reserve increase | Q1-Q2 2026 | Additional Stupin provision or charge-off |
-| Defense vs civilian divergence | Q1 2026 | SFBS Huntsville vs Norfolk commentary differs |
-| Additional fraud disclosures | March 2026 (10-K season) | WAL, ZION, or new banks disclose Stupin-related or similar |
-| First wave "can't extend anymore" | Q2-Q3 2026 | CRE forced sales spike, bank failures tick up |
+**Live Trade:** 2x KRE $70P (May 15) + 2x KRE $60P (June 18)
+- Entry: KRE at $72.62 (ATH)
+- Risk: ~$800-900 defined
+- Thesis: 8-channel convergence on regional banks
+
+**KRE captures broad stress but:**
+- Includes "apex predators" (AUB) and "prepared" names (HOMB)
+- Averages across all geographies
+- Single names may offer more leverage to specific channels
+
+**Potential single-name additions:**
+- **SBCF** — purest FL insurance expression
+- **VLY** — most multi-channel overlap
+- **IBOC** — only TX border expression (outside KRE)
 
 ---
 
-## Connections to Other Domains
+## Key Signals to Monitor
 
-| Agent | Connection |
-|-------|------------|
-| **LABOR** | Employment is the transmission trigger. DOGE federal cuts → DC/NoVA bank credit. ~580K total announced layoffs. |
-| **CARL** | Consumer stress leads bank stress by 6-18 months. Employment break accelerates. |
-| **LIQUID** | FHLB is the universal convergence point. All stress paths terminate there. |
-| **MARCO** | 🚨 **NEW:** El Paso municipal fiscal crisis — $55-62M deficit, 60% pension funded, commercial tax base eroding. Monitor for banks with TX border city muni exposure. Different transmission: NOT cross-border trade, but structural pension/fiscal mismanagement. |
-| **SAM** | Japan CLO bid anchors spreads. Withdrawal would gap CLO/bank stress wider. |
+| Signal | Current | Status | Trigger |
+|--------|---------|--------|---------|
+| **NFP (Feb 7)** | Pending | 🟡 | <100K or negative = risk-off |
+| **Japan 30Y auction (Feb 5)** | Tomorrow | 🟡 | Weak auction = repatriation pressure |
+| **EGBN stock** | Distressed | 🟠 | Below $19 or capital raise |
+| **Laredo water levels** | S&P flagged | 🟡 | Moratorium = development halt |
+| **Citizens assessment** | None active | 🟢 | Any activation = FL credit event |
+| **WAL fraud resolution** | Pending | 🟡 | Insurance denial = reserve increase |
+| **First Brands examiner (Feb 25)** | Pending | 🟡 | Findings = OTTO thesis validation |
 
 ---
 
 ## What Would Change Our View
 
 **More bearish:**
-- Another fraud discovery (more cockroaches)
-- DC unemployment spikes to >5%
-- Major bank failure triggers contagion
-- FHLB tightens further or member fails
-- Yale sale prices collapse (<80% NAV)
+- Hurricane hits FL urban corridor → Citizens assessment → doom loop activates
+- Additional NDFI fraud discoveries
+- FHLB tightens collateral requirements
+- NFP goes negative
+- BDC dividend cuts cascade
 
 **More bullish:**
-- Fed cuts 100bp+ (extends refinancing runway)
-- Employment holds up better than leading indicators suggest
+- Fed cuts 100bp+ (extends runway)
+- Employment holds better than leading indicators
 - Congress reverses DOGE cuts
-- CRE transaction prices stabilize
-- WAL fraud recovery via insurance actually works
+- VLY/WAL beat earnings cleanly
+- Reinsurers return to FL market
 
 ---
 
 ## Sub-Agents
 
 ### CREED (CRE Deep Dive)
-Monitors commercial real estate market stress — delinquencies, valuations, maturity walls. See `CREED/STATUS.md`.
+Monitors commercial real estate stress — delinquencies, valuations, maturity walls. See `CREED/STATUS.md`.
 
 ### BROCK (BDC & Private Credit)
-Monitors Business Development Companies and private credit stress. **Currently 🟠 ORANGE** — PSEC at 35% PIK, TCPC -19% NAV collapse, >50% BDCs burning cash. See `BROCK/STATUS.md` for details.
+Monitors Business Development Companies and private credit stress. **Currently 🟠 ORANGE** — PSEC at 35% PIK, >50% BDCs burning cash. See `BROCK/STATUS.md`.
 
-**Hypothesized transmission channels (to test):**
-- Warehouse line stress → regional bank credit exposure
-- Redemption gates → fund finance desk pressure
-- Syndicate contagion → banks in ARCC/FSK facilities (JPM, BofA, Truist, etc.)
-- Fund finance stress → CFG, Webster, Huntington, First Citizens potentially exposed
+---
 
-**Banks with potential BDC linkages (monitoring):**
-- CFG: Fund finance priority, $40B Private Bank AUM
-- VLY: $85M Saratoga facility (sole lead)
-- Webster: Marathon Asset Management JV
-- Huntington: Ex-Signature subscription line team
+## Key Files
 
-**Timing hypothesis:** If BDC stress materializes in Q4 2025 earnings, *potential* bank P&L impact Q2-Q3 2026 (2-3 quarter lag — to be validated).
-
-**Epistemic status:** These are areas of exposure to watch, not confirmed transmission paths. We'll update as data comes in.
+- **BANK_EXPOSURE_MATRIX.md** — Complete 8-channel convergence analysis
+- **research/outputs/RP-REG-3.*/` — Geographic and municipal research reports
+- **workbook/** — ML.tsv, VX.tsv, FL.tsv evidence logs
 
 ---
 
 ## Open Questions
 
-1. Is the defense vs civilian federal split real? (SFBS bellwether)
-2. What's in the Q4 2025 10-Ks? (Fraud disclosures, reserve changes)
-3. Illinois cluster — is IDFPR exam history a leading indicator?
-4. How long can extend-and-pretend continue if employment weakens?
-5. Will WAL's insurance "forgery" claim succeed or fail?
+1. Is VLY or SBCF a better single-name addition to KRE position?
+2. Will Santander/Webster deal trigger more regional M&A (floor under shorts)?
+3. How long until ZION's $524M unfunded muni commitments get tested?
+4. Is EGBN's distress already priced, limiting short upside?
+5. Will FL reinsurers retreat further in 2026 hurricane season?
 
 ---
 
-*This document reflects our current understanding. The workbooks (ML.tsv, VX.tsv) contain the detailed evidence. Update this when the interpretation changes.*
+*This document reflects current understanding. The BANK_EXPOSURE_MATRIX.md contains the detailed evidence. Update when interpretation changes.*
