@@ -1,6 +1,10 @@
 # REGINALD — Current Status
 
-*Last updated: 2026-02-05 by Prome*
+*Last updated: 2026-02-05 01:50 UTC by Prome*
+
+**Recent Research (RP-REG-4.x):**
+- ✅ RP-REG-4.1: Stablecoin/Crypto Banking Exposure — $500B systemic deposit flight risk
+- ✅ RP-REG-4.2: Florida HOA/Condo Assessment Crisis — Compounds FL doom loop
 
 ---
 
@@ -160,6 +164,11 @@ The Emergency Assessment mechanism converts weather risk into credit risk:
 | **Citizens assessment** | None active | 🟢 | Any activation = FL credit event |
 | **WAL fraud resolution** | Pending | 🟡 | Insurance denial = reserve increase |
 | **First Brands examiner (Feb 25)** | Pending | 🟡 | Findings = OTTO thesis validation |
+| **FL condo listings** | +56% YoY | 🟠 | Continued surge = market dysfunction |
+| **FL condo receiverships** | Watch | 🟡 | Association failures = distress cascade |
+| **Stablecoin market cap** | ~$180B | 🟡 | Growth >$200B/year = deposit pressure |
+| **Fed H.8 deposit data** | Weekly | 🟡 | Regional bank deposit outflows |
+| **CUBI earnings** | Quarterly | 🟡 | Crypto deposit trends, regulatory updates |
 
 ---
 

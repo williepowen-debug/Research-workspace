@@ -2,8 +2,8 @@
 
 *Cross-referencing regional banks against the 8 KRE convergence channels + Municipal/Geographic stress*
 
-**Last Updated:** 2026-02-05 01:10 UTC
-**Status:** ✅ COMPLETE — All research integrated + M&A analysis
+**Last Updated:** 2026-02-05 01:50 UTC
+**Status:** ✅ COMPLETE — All research integrated + M&A analysis + RP-REG-4.x channels
 
 ---
 
@@ -77,6 +77,50 @@ From RP-REG-3.1 research:
 - **Western Alliance (Torrey Pines):** San Diego/LA coastal, NO Imperial Valley
 - **Zions (CB&T):** Coachella Valley/Palm Desert, NO Imperial Valley
 - Imperial Valley is a banking desert — no KRE exposure to agricultural stress there
+
+### Stablecoin Deposit Flight — Systemic Channel (RP-REG-4.1)
+**Standard Chartered projects $500 billion deposit outflow from US regional banks to stablecoins by 2028.**
+
+This is a **SYSTEMIC** threat, not idiosyncratic single-name exposure:
+- Regional banks depend on NIM (60-80% of revenue) vs investment banks (<30%)
+- Tether holds 0.02% of reserves in bank deposits; Circle holds 14.24%
+- Very little "redepositing" cushion — money leaves banking system entirely
+- GENIUS Act (July 2025) legitimizes nonbank stablecoin issuers as competitors
+
+| Bank | Crypto Exposure | Stablecoin Risk | Notes |
+|------|-----------------|-----------------|-------|
+| **CUBI** (Customers) | 🔴 HIGH | 🟠 ELEVATED | Fed enforcement Aug 2024; Circle partner |
+| **MCB** | 🟡 MODERATE | 🟡 MODERATE | Reduced post-2023 |
+| **All Regionals** | 🟢 MINIMAL | 🟠 SYSTEMIC | Sector-wide NIM compression risk |
+
+**Key Insight:** Supports KRE basket thesis; does NOT identify new single-name targets.
+
+### Florida HOA/Condo Assessment Crisis (RP-REG-4.2)
+**Post-Surfside legislation (SB 4-D) has triggered $10K-$224K+ special assessments on 900,000+ aging condos.**
+
+This **COMPOUNDS** the FL insurance doom loop — same borrowers hit by both:
+
+| Stress Channel | Source | Magnitude |
+|----------------|--------|-----------|
+| Insurance Assessment | Citizens deficit | 10-15% of premium |
+| Insurance Premium | Risk Rating 2.0 | +15-18%/year |
+| **Structural Assessment** | SB 4-D compliance | **$10K-$224K one-time** |
+
+**Florida is NOT a super-lien state** — mortgage liens retain priority over HOA liens. Banks protected from direct HOA liability, but borrower stress transmits through:
+1. Borrower DTI stress → loan defaults
+2. Collateral value impairment → LTV degradation
+3. Market dysfunction (56% YoY listing surge) → reduced origination
+
+**Combined FL Risk Assessment:**
+
+| Bank | Insurance Risk | Assessment Risk | Combined |
+|------|----------------|-----------------|----------|
+| **SBCF** | 🔴 CRITICAL | 🔴 CRITICAL | 🔴 **SEVERE** |
+| **VLY** | 🔴 VERY HIGH | 🟠 HIGH | 🔴 **VERY HIGH** |
+| **BKU** | 🔴 HIGH | 🔴 HIGH | 🔴 **VERY HIGH** |
+| **FHN** | 🟠 HIGH | 🟠 ELEVATED | 🟠 **ELEVATED** |
+
+**Key Insight:** Not a new column — sub-channel of existing FL GEO exposure. Same banks, compounded risk.
 
 ---
 
