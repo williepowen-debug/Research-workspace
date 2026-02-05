@@ -2,8 +2,8 @@
 
 *Cross-referencing regional banks against the 8 KRE convergence channels + Municipal/Geographic stress*
 
-**Last Updated:** 2026-02-04 23:05 UTC
-**Status:** ✅ COMPLETE — All 5 research prompts integrated
+**Last Updated:** 2026-02-05 01:10 UTC
+**Status:** ✅ COMPLETE — All research integrated + M&A analysis
 
 ---
 
@@ -77,6 +77,62 @@ From RP-REG-3.1 research:
 - **Western Alliance (Torrey Pines):** San Diego/LA coastal, NO Imperial Valley
 - **Zions (CB&T):** Coachella Valley/Palm Desert, NO Imperial Valley
 - Imperial Valley is a banking desert — no KRE exposure to agricultural stress there
+
+---
+
+## M&A LANDSCAPE — WHO HAS A FLOOR?
+
+### Recent Regional Bank Deals (2025-2026)
+
+| Announced | Acquirer | Target | Value | Status | Multiple |
+|-----------|----------|--------|-------|--------|----------|
+| May 2025 | Capital One | Discover | $35.3B | ✅ Closed | — |
+| Sep 2025 | PNC | FirstBank | $4.1B | ✅ Closed | ~1.8x TBV |
+| Oct 2025 | Fifth Third | Comerica | $10.9B | ✅ Closed | ~1.7x TBV |
+| Oct 2025 | Huntington | Veritex | $1.9B | ✅ Closed | ~1.6x TBV |
+| Oct 2025 | Huntington | Cadence | $7.4B | Approved | ~1.8x TBV |
+| 2025 | Synovus | Pinnacle | MOE | Approved | — |
+| Dec 2025 | **BHRB** | LINKBANCORP | $354M | Pending Q2 | ~1.3x TBV |
+| Feb 2026 | Santander | **WBS** | $12.2B | Pending H2 | ~2.0x TBV |
+
+**Key Pattern:** Deals at 1.6-2.0x TBV for clean franchises. Distressed names avoided.
+
+### What Acquirers Want vs. Avoid
+
+| ✅ Want | ❌ Avoid |
+|---------|----------|
+| Low-cost deposit franchise (HSA, etc.) | High CRE concentration |
+| Geographic diversification | Single-geography exposure |
+| Commercial/middle-market strength | Problem loan books |
+| Clean balance sheet | Regulatory overhang |
+| Growth market presence (TX, Southeast) | Hurricane/DOGE/recession exposure |
+
+### M&A Risk Assessment for Short Candidates
+
+| Bank | Ticker | Assets | M&A Floor? | Why |
+|------|--------|--------|------------|-----|
+| **EGBN** | EGBN | $11B | 🟡 MAYBE | DC franchise valuable, but distressed = price discovery. Could be fire sale or left behind. |
+| **VLY** | VLY | $60B | 🟢 LOW | $7.4B FL CRE is toxic. Who inherits that? Unattractive to acquirers. |
+| **WAL** | WAL | $80B | 🟡 MAYBE | Innovation banking valuable, but fraud overhang deters. If cleaned up, attractive. |
+| **ZION** | ZION | $90B | 🟠 MODERATE | "Collection of banks" could be broken up or acquired. Clean-ish. |
+| **SBCF** | SBCF | $15B | 🟢 LOW | 100% FL exposure = pure hurricane liability. No rational acquirer. |
+| **CFG** | CFG | $220B | 🔴 HIGH | Too big for most, but very clean. Scale advantage. |
+| **BHRB** | BHRB | $8B | ⛔ IN DEAL | Already acquiring LINKBANCORP. Don't short active merger names. |
+| **WBS** | WBS | $80B | ⛔ BEING ACQUIRED | Santander deal closes H2 2026. Off the table. |
+
+### Implication for Shorts
+
+**Best short candidates (no M&A floor):**
+- **VLY** — FL CRE concentration makes it unattractive to acquirers
+- **SBCF** — 100% FL = no rational buyer for hurricane liability
+
+**Risky to short (M&A floor possible):**
+- **EGBN** — Distressed but DC franchise could attract fire-sale bid
+- **ZION** — Clean enough to be broken up or acquired
+
+**Do NOT short:**
+- **BHRB** — Active acquirer (LINKBANCORP deal)
+- **WBS** — Being acquired by Santander
 
 ---
 
@@ -240,36 +296,56 @@ From RP-REG-3.1 research:
 
 ---
 
-## SINGLE-NAME SHORT CANDIDATES
+## SINGLE-NAME SHORT CANDIDATES (FINAL RANKING)
 
-Based on convergence analysis, ranked by multi-channel exposure:
+**Incorporating: Convergence Score + M&A Risk + Thesis Expression**
 
-### Tier A: Maximum Overlap (Score 9+)
-| Bank | Ticker | Score | Trade Thesis |
-|------|--------|-------|--------------|
-| **Eagle Bancorp** | EGBN | 12 | Already in crisis. Q3 NCOs = $140.8M. But priced as distressed — limited upside? |
-| **Western Alliance** | WAL | 10 | Fraud + NDFI + Fund Finance + **$1.36B unrated muni "shadow book"**. Most paths to stress. |
-| **Valley National** | VLY | 9 | FL CRE at 28% of book is massive. If property cycle turns, first to break. |
-| **Citizens Financial** | CFG | 9 | Fund finance concentration is extreme. If PE/VC stress hits, transmission direct. |
-| **Zions** | ZION | 9 | **$5.78B muni exposure** (securities + loans + unfunded). Conduit risk from private borrowers. |
+### 🎯 TOP TIER: Best Risk/Reward (High Score + Low M&A Floor)
 
-### Tier B: Elevated Multi-Channel (Score 4-8)
-| Bank | Ticker | Score | Trade Thesis |
-|------|--------|-------|--------------|
-| **Truist** | TFC | 5 | NDFI + Consumer, but scale provides buffer |
-| **Burke & Herbert** | BHRB | 5 | DC exposure + munis = majority of AFS. Watch if DC municipal stress deepens. |
-| **M&T Bank** | MTB | 4 | 61% NY muni concentration. If NY fiscal stress emerges, direct hit. |
-| **Fifth Third** | FITB | 4 | Direct fraud exposure (Tricolor $178M loss) |
-| **Columbia Banking** | COLB | 3 | 9.8% FHLB dependency is a red flag if collateral haircuts tighten. |
+| Rank | Bank | Ticker | Score | M&A Risk | Thesis | Why Top Tier |
+|------|------|--------|-------|----------|--------|--------------|
+| **1** | **Valley National** | VLY | 9 | 🟢 LOW | FL + Multi-channel | $7.4B FL CRE makes it unattractive to acquirers. 4 paths to stress. Not priced for distress. |
+| **2** | **Seacoast** | SBCF | N/A | 🟢 LOW | FL Insurance | 100% FL = pure hurricane liability. No rational buyer. Purest FL expression. |
+| **3** | **Western Alliance** | WAL | 10 | 🟡 MAYBE | Multi-channel | Highest convergence score. Fraud overhang deters M&A but creates uncertainty. |
 
-### Tier C: Geographic Concentration (Pure Plays)
-| Bank | Ticker | Region | FL Loans | Trade Thesis |
-|------|--------|--------|----------|--------------|
-| **Seacoast (SBCF)** | SBCF | FL **100%** | $12.6B | **Highest FL risk.** No diversification. Citizens assessment = direct hit to entire customer base. |
-| **BankUnited (BKU)** | BKU | FL 60%+ | ~$20B | Miami commercial. Same thesis as SBCF. |
-| **IBC (IBOC)** | IBOC | TX Border | N/A | If MARCO thesis plays out, this is the direct expression. |
+### 🟡 SECOND TIER: Good Thesis, Some M&A Risk
 
-**Note:** SBCF may be highest single-name risk in entire KRE universe for FL insurance thesis. 82% of loans secured by FL real estate. Zero geographic hedge.
+| Rank | Bank | Ticker | Score | M&A Risk | Thesis | Notes |
+|------|------|--------|-------|----------|--------|-------|
+| 4 | **Eagle Bancorp** | EGBN | 12 | 🟡 MAYBE | DC/DOGE | Highest score, but distressed = fire sale bid possible. Already priced for pain. |
+| 5 | **Zions** | ZION | 9 | 🟠 MODERATE | Muni/Multi | $5.78B muni exposure, but clean enough for M&A. Could be broken up. |
+| 6 | **Citizens Financial** | CFG | 9 | 🔴 HIGH | Fund Finance | Too big/clean for most acquirers. Scale = defensive moat. |
+
+### ⛔ DO NOT SHORT
+
+| Bank | Ticker | Why |
+|------|--------|-----|
+| **Burke & Herbert** | BHRB | **Active acquirer** — buying LINKBANCORP (closes Q2 2026) |
+| **Webster** | WBS | **Being acquired** — Santander deal closes H2 2026 |
+| **Huntington** | HBAN | **Active acquirer** — Veritex + Cadence deals, consolidator mode |
+| **Fifth Third** | FITB | **Active acquirer** — Comerica deal just closed |
+
+### Geographic Pure Plays (Outside KRE)
+
+| Bank | Ticker | Region | M&A Risk | Notes |
+|------|--------|--------|----------|-------|
+| **IBC** | IBOC | TX Border | 🟢 LOW | Only TX border play. Existential Mexico risk. Not in KRE. |
+| **BankUnited** | BKU | FL 60%+ | 🟢 LOW | Miami commercial concentration. Same FL thesis as SBCF. |
+
+---
+
+### Summary: Recommended Short Targets
+
+**For KRE convergence thesis:**
+1. **VLY** — Multi-channel + FL + No M&A floor
+2. **SBCF** — Purest FL insurance expression + No M&A floor
+
+**For specific thesis channels:**
+- **IBOC** — MARCO/TX border thesis (outside KRE)
+- **WAL** — Multi-channel if willing to accept M&A uncertainty
+- **EGBN** — DC/DOGE thesis if willing to accept fire-sale risk
+
+**Current position:** KRE puts capture broad regional stress. Single-name additions (VLY, SBCF) would add leverage to FL thesis specifically.
 
 ---
 
