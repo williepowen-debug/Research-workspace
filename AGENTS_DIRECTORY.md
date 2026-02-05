@@ -1,6 +1,6 @@
 # AGENTS DIRECTORY
 
-*Quick reference for all research agents. Updated: 2026-02-03*
+*Quick reference for all research agents. Updated: 2026-02-05*
 
 ---
 
@@ -28,6 +28,7 @@
 **Sub-agents:**
 - **CREED** — CRE deep dive (delinquencies, valuations, maturities)
 - **BROCK** — BDCs & private credit (redemptions, PIK, bank credit lines) 🟠
+- **CORAL** — Florida condo crisis & regional bank exposure 🟠 **[NEW]**
 
 ---
 
@@ -127,6 +128,7 @@ BROCK (under REGINALD) is private credit early warning
 | SAM | `AGENTS/SAM/STATUS.md` | `SAM_SKELETON.md` | `workbook/` |
 | CREED | `AGENTS/REGINALD/CREED/` | `CREED_SKELETON.md` | `workbook/` |
 | BROCK | `AGENTS/REGINALD/BROCK/` | `BROCK_SKELETON.md` | `workbook/` |
+| CORAL | `AGENTS/REGINALD/sub-agents/CORAL/` | — | `research/` |
 
 ---
 
