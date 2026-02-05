@@ -43,12 +43,28 @@ From RP-REG-3.3 research:
 - **NoVA (Fairfax/Arlington/Alexandria):** AAA maintained — "Defense Shield" from national security contractors
 - **Key quote:** "The 2025-2026 DOGE restructuring is fundamentally different. It is not a pause; it is a reversal."
 
-### Florida — The CRE Battleground
-From RP-REG-3.1 research:
-- **Valley National (VLY):** $7.4B FL CRE = **28% of total CRE book** — exceeds NJ home market
-- **First Horizon (FHN):** 76 branches, major wealth/commercial focus
-- **ServisFirst (SFBS):** Panhandle + Central corridor (not Miami wealth play)
-- **Key insight:** FL exposure is highly correlated — if property cycle turns, all these names hit simultaneously
+### Florida — The "Doom Loop" (RP-REG-3.5)
+**Citizens Property Insurance = $678B "Sword of Damocles"**
+
+The Emergency Assessment mechanism converts weather risk into credit risk:
+1. Hurricane → Citizens deficit → 15% surcharge on Citizens policyholders
+2. If insufficient → **10% assessment on ALL FL policies** (private included)
+3. Can be levied for **as many years as necessary**
+
+**Transmission Chain:**
+- Assessment spike → Borrower DTI/DSCR blow out → Defaults rise
+- Property values fall → Municipal tax base erodes → Muni credit weakens
+- Banks hit BOTH sides: Loan losses + AFS/OCI losses on muni holdings
+
+**Bank FL Exposure:**
+| Bank | FL % | FL Loans | Hurricane Prep | Risk |
+|------|------|----------|----------------|------|
+| **SBCF** | ~100% | $12.6B | None — pure play | 🔴 CRITICAL |
+| **VLY** | 27% | $13.4B | Commercial reinsurance dependency | 🟠 ELEVATED |
+| **ABCB** | 28% | $4.15B | GA/SC/NC buffer | 🟡 MANAGEABLE |
+| **HOMB** | 28% | $4.15B | **$33M hurricane reserve** | 🟢 PREPARED |
+
+**VLY unique risk:** Commercial CRE relies on private reinsurance. If reinsurers exit FL, collateral becomes *uninsurable at any price* — different from residential (Citizens backstop).
 
 ### Texas Border — The Absence
 From RP-REG-3.1 research:
@@ -247,11 +263,13 @@ Based on convergence analysis, ranked by multi-channel exposure:
 | **Columbia Banking** | COLB | 3 | 9.8% FHLB dependency is a red flag if collateral haircuts tighten. |
 
 ### Tier C: Geographic Concentration (Pure Plays)
-| Bank | Ticker | Region | Trade Thesis |
-|------|--------|--------|--------------|
-| **Seacoast (SBCF)** | SBCF | FL 90%+ | Pure Florida. Insurance/condo crisis = direct hit. |
-| **BankUnited (BKU)** | BKU | FL 60%+ | Miami commercial. Same thesis as SBCF. |
-| **IBC (IBOC)** | IBOC | TX Border | If MARCO thesis plays out, this is the direct expression. |
+| Bank | Ticker | Region | FL Loans | Trade Thesis |
+|------|--------|--------|----------|--------------|
+| **Seacoast (SBCF)** | SBCF | FL **100%** | $12.6B | **Highest FL risk.** No diversification. Citizens assessment = direct hit to entire customer base. |
+| **BankUnited (BKU)** | BKU | FL 60%+ | ~$20B | Miami commercial. Same thesis as SBCF. |
+| **IBC (IBOC)** | IBOC | TX Border | N/A | If MARCO thesis plays out, this is the direct expression. |
+
+**Note:** SBCF may be highest single-name risk in entire KRE universe for FL insurance thesis. 82% of loans secured by FL real estate. Zero geographic hedge.
 
 ---
 
@@ -310,11 +328,12 @@ Two banks have hidden municipal exposure that doesn't show on the securities lin
 
 ## DATA SOURCES
 
-**Research Prompts Completed:**
+**Research Prompts Completed (All 5):**
 - **RP-REG-3.1:** Regional Bank Geographic Footprints (Feb 2026)
 - **RP-REG-3.2:** Municipal Securities Exposure Analysis (Feb 2026)
 - **RP-REG-3.3:** DC Corridor Bank Analysis (Feb 2026)
 - **RP-REG-3.4:** Texas Border Municipal Analysis (Feb 2026)
+- **RP-REG-3.5:** Florida Insurance/Banking Nexus (Feb 2026)
 
 **Other Sources:**
 - FHLB Dependency: Q4 2025 Call Reports, Capital Advisors Research
@@ -329,6 +348,8 @@ Two banks have hidden municipal exposure that doesn't show on the securities lin
 
 | Date | Update | Source |
 |------|--------|--------|
+| 2026-02-05 00:20 | **COMPLETE** — FL Insurance/Banking Nexus (RP-REG-3.5) | Will's research |
+| 2026-02-04 23:40 | Santander/Webster acquisition noted (M&A context) | News |
 | 2026-02-04 23:05 | Municipal securities + TX border research integrated (RP-REG-3.2, 3.4) | Will's research |
 | 2026-02-04 22:15 | Geographic + DC corridor research integrated (RP-REG-3.1, 3.3) | Will's research |
 | 2026-02-04 20:55 | Full matrix populated with research from Prompts 1-4 | Will's LLM research |
@@ -336,9 +357,14 @@ Two banks have hidden municipal exposure that doesn't show on the securities lin
 
 ---
 
-## REMAINING RESEARCH GAP
+## RESEARCH COMPLETE ✅
 
-- [ ] **RP-REG-3.5:** Florida municipal exposure / Citizens Insurance nexus
+All 5 geographic/municipal research prompts integrated. Matrix now covers:
+- DC Corridor stress (DOGE/federal layoffs)
+- Florida insurance "doom loop" (Citizens $678B TIV)
+- Texas border municipal health (water crisis, pension stress)
+- Municipal securities holdings by bank
+- Geographic footprint mapping
 
 ---
 
