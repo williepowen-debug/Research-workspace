@@ -1,5 +1,5 @@
 # SAM STATUS
-**Last Updated:** 2026-02-03 | **Status:** 🔴 CRITICAL — Catalyst Window Active (Feb 3-8)
+**Last Updated:** 2026-02-05 | **Status:** 🟠 ORANGE — Auction Passed, Election Sunday
 
 ---
 
@@ -15,54 +15,48 @@ Japan is in a fiscal doom loop:
 
 The yen has been the release valve (155.94 currently), but if bonds break first, FX follows.
 
-**This week is THE TEST:**
-- Feb 3: 10Y auction — **WEAK** (yield +15bps, BTC below avg)
-- **Feb 5: 30Y auction** — THE critical test
-- Feb 8: Snap election — fiscal policy catalyst
+**This week's sequence:**
+- Feb 3: 10Y auction — Weak (yield +15bps, BTC below avg)
+- Feb 5: 30Y auction — ✅ **PASSED** (BTC 3.64, tail 0.8bp)
+- **Feb 8: Snap election** — Now the decisive catalyst
 
-**Confidence:** Pattern 97% | Timing 90% | Magnitude 90%
+**Confidence:** Pattern 90% | Timing 75% | Magnitude 80% *(downgraded post-auction)*
 
 ---
 
-## SIGNAL DASHBOARD
+## SIGNAL DASHBOARD (Updated Feb 5)
 
 | Vector | Value | Status | Threshold |
 |--------|-------|--------|-----------|
-| JGB 10Y | 2.26% | 🟡 YELLOW | Watch >2.50% |
-| JGB 20Y | 3.19% | 🟠 ORANGE | ATH 3.47% (Jan) |
-| JGB 30Y | 3.64% | 🟠 ORANGE | ATH 3.89% (Jan) |
-| JGB 40Y | ~3.94% | 🟠 ORANGE | ATH 4.24% (Jan) |
-| USD/JPY | 155.94 | 🟡 YELLOW | 158 🟡 / 160 🔴 |
-| 10Y Auction BTC | 3.02 | 🟡 WEAK | Below 12mo avg |
+| JGB 10Y | ~2.26% | 🟡 YELLOW | Watch >2.50% |
+| JGB 20Y | ~3.19% | 🟡 YELLOW | ATH 3.47% (Jan) |
+| JGB 30Y | **~3.57%** | 🟡 YELLOW | Watch >4.00% |
+| JGB 40Y | **~3.85%** | 🟡 YELLOW | ATH 4.24% (Jan) |
+| USD/JPY | ~159 | 🟡 YELLOW | 160 🔴 |
+| 30Y Auction BTC | **3.64** | 🟢 GREEN | Above 12mo avg (3.35) |
 
-**Composite:** Yields off ATH but structurally elevated. Yen weakening. Auction demand soft.
-
----
-
-## FEB 3 10Y AUCTION RESULT
-
-| Metric | Result | Previous | Signal |
-|--------|--------|----------|--------|
-| Yield | 2.249% | 2.095% | **+15.4bps** ⚠️ |
-| Bid-to-Cover | 3.02 | Higher | Below avg |
-| Demand | Soft | — | Cautious ahead of election |
-
-**Assessment:** Pre-test shows weakness. Investors demanding more yield. Sets up risk for Feb 5 30Y.
+**Composite:** Post-auction rally. Yields retreated from ATH. Yen stable. Demand returned. Election is now the swing factor.
 
 ---
 
-## FEB 5 30Y AUCTION — THE TEST
+## FEB 5 30Y AUCTION RESULT — PASSED ✅
 
-**Scenario Matrix:**
+| Metric | Feb 5, 2026 | Jan 8, 2026 | Signal |
+|--------|-------------|-------------|--------|
+| Bid-to-Cover | **3.64** | 3.14 | 🟢 +16% stronger, above 12mo avg (3.35) |
+| Tail | **0.8 bp** | 10 bp | 🟢 Sharply tighter — buyers confident |
+| Yield at Stop | 3.623% | 3.457% | 🟡 +16.6bp — elevated but stable |
+| Competitive Bids | ¥1,908.5 bn | ¥1,647.3 bn | 🟢 +15.9% volume |
 
-| Outcome | BTC | Tail | Yield Move | Implication |
-|---------|-----|------|------------|-------------|
-| 🟢 GREEN | >2.30x | <2bps | Stable | Crisis deferred |
-| 🟡 YELLOW | 2.10-2.30x | 2-4bps | +5-10bps | Weak but OK |
-| 🟠 ORANGE | <2.10x | 4-8bps | +10-20bps | Bond vigilantes pressing |
-| 🔴 RED | <2.00x | >8bps | +20bps+ | Failure — cascade risk |
+**Post-auction rally:** 30Y fell ~7bp to 3.565%, 40Y dropped ~10bp to 3.845%
 
-**Feb 2021 7Y failure precedent:** BTC 2.04x, Tail +4.2bps, Indirect 38%
+**Assessment:** Life insurers and pensions re-engaged at elevated yields. Meiji Yasuda cited "attractive opportunities." Crisis deferred — but structural fiscal/political risks remain. This is tactical respite, not resolution.
+
+**What it means:**
+- Scenario **A/A+** (soft landing) probability rises
+- Scenario **C** (acute panic) probability falls
+- No immediate forced repatriation pressure on USTs
+- Election Sunday (Feb 8) is now the decisive catalyst
 
 ---
 
@@ -87,19 +81,20 @@ The yen has been the release valve (155.94 currently), but if bonds break first,
 
 ---
 
-## LIFE INSURER RETREAT
+## LIFE INSURER POSITIONING
 
-**Structural buyer is gone:**
+**Update (Feb 5):** Insurers RE-ENGAGED at 3.6%+ yields.
 
-| Insurer | Action | Quote |
-|---------|--------|-------|
-| Fukoku | Stopped buying 30/40Y | "Fundamentals haven't changed... yields could break higher" |
-| Daido | Holding off on superlong | "Few signs of stability in near term" |
-| Taiyo | Selling low-coupon, waiting | "If volatility too high, difficult to buy" |
+| Insurer | Previous Stance | Feb 5 Update |
+|---------|-----------------|--------------|
+| Meiji Yasuda | Cautious | "Attractive opportunities" at current yields |
+| Fukoku | Stopped buying 30/40Y | TBD post-auction |
+| Daido | Holding off | TBD post-auction |
+| Taiyo | Selling low-coupon | TBD post-auction |
 
-**Big 4 unrealized losses:** ¥9 trillion ($60B)
+**Big 4 unrealized losses:** ¥9 trillion ($60B) — still a structural overhang
 
-**Implication:** Feb 5 30Y auction has no natural bid from domestic insurers. Depends on banks, foreign, or dealer absorption.
+**Implication:** The Feb 5 auction showed insurers will buy at these yields. But they flagged preference to wait until election uncertainty clears. Post-Sunday behavior is the real test.
 
 ---
 
@@ -148,15 +143,17 @@ Doom loop accelerates
 
 ---
 
-## SCENARIO PROBABILITIES
+## SCENARIO PROBABILITIES (Updated Feb 5)
 
 | Scenario | Probability | Description |
 |----------|-------------|-------------|
-| **A/A+** Soft landing | 18-22% | Feb 5 passes, election moderates fiscal |
-| **B** Controlled chaos | 45-50% | Weak auctions but coordination holds |
-| **C** Acute panic | 8-12% | Feb 5 fails + yen breaks 160 |
-| **D1** Austerity | 8-12% | Feb 5 fails + BOJ hikes aggressively |
-| **D2** Monetary dominance | 10-15% | Feb 5 fails + Takaichi wins big |
+| **A/A+** Soft landing | 25-30% ↑ | Feb 5 passed, election could moderate fiscal |
+| **B** Controlled chaos | 50-55% ↑ | Strong auction + coordination holds |
+| **C** Acute panic | 3-5% ↓ | Feb 5 passed — this path closed for now |
+| **D1** Austerity | 5-8% ↓ | Would require external shock |
+| **D2** Monetary dominance | 10-15% | Still live if Takaichi landslide |
+
+*Scenario C (acute panic) largely closed by auction result. B (controlled chaos) is baseline.*
 
 ---
 
@@ -172,14 +169,16 @@ Doom loop accelerates
 
 ## PREDICTIONS (Falsifiable)
 
-| # | Prediction | Timeframe | Confidence |
-|---|------------|-----------|------------|
-| 1 | Feb 5 30Y BTC >2.10x (not failure) | Feb 5 | 65% |
-| 2 | USD/JPY stays <160 through election | Feb 8 | 70% |
-| 3 | Takaichi wins but <260 seats | Feb 8 | 55% |
-| 4 | JGB 30Y stays <4.0% through Q1 | Q1 2026 | 60% |
-| 5 | BOJ signals faster hikes post-election | Feb-Mar | 70% |
-| 6 | Life insurers announce more JGB selling | Q1 earnings | 75% |
+| # | Prediction | Timeframe | Confidence | Result |
+|---|------------|-----------|------------|--------|
+| 1 | Feb 5 30Y BTC >2.10x (not failure) | Feb 5 | 65% | ✅ **CORRECT** — BTC 3.64x |
+| 2 | USD/JPY stays <160 through election | Feb 8 | 70% | ⏳ Pending (currently ~159) |
+| 3 | Takaichi wins but <260 seats | Feb 8 | 55% | ⏳ Pending |
+| 4 | JGB 30Y stays <4.0% through Q1 | Q1 2026 | 60% | ⏳ Pending (currently 3.57%) |
+| 5 | BOJ signals faster hikes post-election | Feb-Mar | 70% | ⏳ Pending |
+| 6 | Life insurers announce more JGB selling | Q1 earnings | 75% | ⏳ Pending |
+
+**Resolved: 1/6 | Correct: 1/1 (100%)**
 
 ---
 
@@ -187,28 +186,35 @@ Doom loop accelerates
 
 | Date | Event | Priority |
 |------|-------|----------|
-| **Feb 5** | 30Y JGB Auction | 🔴 CRITICAL |
-| **Feb 8** | Snap Election | 🔴 CRITICAL |
+| ~~Feb 5~~ | ~~30Y JGB Auction~~ | ✅ PASSED |
+| **Feb 8** | Snap Election | 🔴 CRITICAL — Takaichi landslide = fiscal risk returns |
 | Feb 19 | 20Y JGB Auction | 🟠 HIGH |
-| Mar/Apr | BOJ Meeting | 🟠 HIGH |
+| Mar/Apr | BOJ Meeting | 🟠 HIGH — July hike expected |
 | Apr 1 | New fiscal year begins | 🟡 MEDIUM |
 
 ---
 
 ## WHAT TO WATCH
 
+**Thresholds (from report):**
+| Metric | Current | Watch Level | Interpretation |
+|--------|---------|-------------|----------------|
+| 10Y JGB | ~2.26% | >2.50% | 🔴 RED ALERT |
+| 30Y JGB | ~3.57% | >4.00% | Structural break |
+| USD/JPY | ~159 | >160 | MOF intervention / capital flight |
+
 **Daily:**
 - JGB 30Y/40Y yields
-- USD/JPY (alert at 158)
+- USD/JPY (alert at 160 now, not 158)
 - MOF/Katayama intervention signals
 
 **This week:**
-- Feb 5 30Y auction result (THE test)
-- Election polls / turnout predictions
+- ~~Feb 5 30Y auction result~~ ✅ Passed
+- **Feb 8 Election** — turnout + seat count
 - BOJ commentary
 
 **Post-election:**
-- Seat count (>260 = Takaichi mandate)
+- Seat count (>260 = Takaichi mandate = renewed fiscal pressure)
 - Coalition formation
 - Fiscal policy specifics
 
@@ -216,13 +222,18 @@ Doom loop accelerates
 
 ## BOTTOM LINE
 
-Japan is 2 days from its moment of truth. The 10Y auction showed weakness — yields jumped +15bps with soft demand. Life insurers have stopped buying superlongs. The yen is creeping toward intervention territory.
+**Feb 5 30Y auction passed.** BTC 3.64 (above avg), tail 0.8bp (tight). Life insurers re-engaged at 3.6%+ yields. Post-auction rally: 30Y -7bp, 40Y -10bp.
 
-**Feb 5 30Y auction determines which scenario activates.**
+**Crisis deferred, not resolved.**
 
-If it passes: Controlled chaos continues, crisis deferred.
-If it fails: Bond vigilantes win, doom loop accelerates, global contagion risk.
+Structural dynamics unchanged:
+- Debt/GDP still 260%+
+- Takaichi's ¥783B budget still coming
+- BOJ still in normalization mode
+- Yen still at 159
 
-The "Japan anchor" that kept global rates low for a generation is being tested. We're watching in real-time.
+**Feb 8 election is now the catalyst.** Takaichi landslide (>260 seats) = renewed fiscal expansion = JGB pressure returns. Close race or opposition surprise = temporary stabilization extends.
 
-*Next update: Feb 5 post-auction*
+The auction bought time. Sunday determines how much.
+
+*Next update: Feb 8 post-election*

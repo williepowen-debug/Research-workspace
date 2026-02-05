@@ -1,5 +1,5 @@
 # PROME STATUS.md
-**Updated:** 2026-02-05 16:10 UTC
+**Updated:** 2026-02-05 22:01 UTC
 
 ---
 
@@ -10,7 +10,7 @@
 | **LABOR** | 🟡 YELLOW | Hotel California tightening | NFP Feb 7; Q2-Q3 danger window |
 | **CARL** | 🟡 YELLOW | Watching LABOR; subprime stress building | Follows LABOR by 3-6mo |
 | **HENRY** | 🟢 GREEN | Cluster 6 complete; 56 vectors | VIX spike watch; tech breadth 45% |
-| **SAM** | 🟠 ORANGE | Critical window Feb 3-8 | 30Y auction passed; Election Feb 8 |
+| **SAM** | 🟡 YELLOW | Auction passed, election Sunday | Feb 8 election; crisis deferred |
 | **REGINALD** | 🔴 ELEVATED | **CORAL sub-agent created** | VLY Q1 earnings ~Apr 23 |
 | **LIQUID** | 🟢 GREEN | Metastable; RRP near zero | Quarter-end Mar 31 |
 | **MARCO** | 🟠 ORANGE | 8-series complete | H-2A surge; remittance divergence |

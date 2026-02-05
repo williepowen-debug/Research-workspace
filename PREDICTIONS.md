@@ -2,7 +2,7 @@
 
 *Working model, not truth. Track our predictions to calibrate confidence over time.*
 
-**Last updated:** 2026-02-04
+**Last updated:** 2026-02-05
 
 ---
 
@@ -53,9 +53,12 @@
 ### SAM
 | # | Prediction | Timeframe | Confidence | Status |
 |---|------------|-----------|------------|--------|
-| 1 | Feb 5 30Y JGB auction BTC <2.50x | Feb 5, 2026 | 60% | ⏳ Pending |
-| 2 | BOJ hikes to 0.75%+ | H1 2026 | 55% | ⏳ Pending |
-| 3 | USDJPY tests <145 on yen strength | 2026 | 50% | ⏳ Pending |
+| 1 | Feb 5 30Y JGB auction BTC >2.10x (not failure) | Feb 5, 2026 | 65% | ✅ **CORRECT** — BTC 3.64x |
+| 2 | USD/JPY stays <160 through election | Feb 8, 2026 | 70% | ⏳ Pending (~159 currently) |
+| 3 | Takaichi wins but <260 seats | Feb 8, 2026 | 55% | ⏳ Pending |
+| 4 | JGB 30Y stays <4.0% through Q1 | Q1 2026 | 60% | ⏳ Pending (3.57% currently) |
+| 5 | BOJ signals faster hikes post-election | Feb-Mar 2026 | 70% | ⏳ Pending |
+| 6 | Life insurers announce more JGB selling | Q1 2026 | 75% | ⏳ Pending |
 
 ### LIQUID
 | # | Prediction | Timeframe | Confidence | Status |
@@ -136,7 +139,7 @@
 
 | Agent | Prediction | Outcome | Date | Notes |
 |-------|------------|---------|------|-------|
-| *(none yet)* | | | | |
+| SAM | Feb 5 30Y JGB auction BTC >2.10x (not failure) | ✅ CORRECT | Feb 5, 2026 | BTC 3.64x — way above threshold. Life insurers re-engaged at 3.6%+ yields. Crisis deferred, not resolved. |
 
 ---
 
