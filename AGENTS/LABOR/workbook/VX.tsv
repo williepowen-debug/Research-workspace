@@ -9,10 +9,10 @@ VX-LAB-2.03	Labor Force Participation	62.4%	YELLOW	>62.5%	62.0-62.5%	61.5-62.0%	
 VX-LAB-2.04	U-6 Underemployment	8.4%	ORANGE	<7.5%	7.5-8.0%	8.0-9.0%	>9.0%	2026-02-01	BLS Dec 2025	+0.8pp YoY - hidden stress rising
 VX-LAB-2.05	Avg Weekly Hours	34.2	YELLOW	>34.3	34.0-34.3	33.5-34.0	<33.5	2026-02-01	BLS Dec 2025	Edged down - hours cut signal
 VX-LAB-2.06	Avg Hourly Earnings YoY	3.8%	GREEN	3-4%	2-3%	<2%	<0%	2026-02-01	BLS Dec 2025	Moderate wage growth
-VX-LAB-3.01	JOLTS Openings	7.1M	YELLOW	>8.0M	7.0-8.0M	6.0-7.0M	<6.0M	2026-02-01	BLS JOLTS Nov	Down 885K YoY
+VX-LAB-3.01	JOLTS Openings	6.5M	ORANGE	>8.0M	7.0-8.0M	6.0-7.0M	<6.0M	2026-02-05	BLS JOLTS Dec	LOWEST SINCE 2017. Down from 6.9M revised. Healthcare -10.8%, Financial -25.1%.
 VX-LAB-3.02	Quits Rate	2.0%	YELLOW	>2.2%	2.0-2.2%	1.6-2.0%	<1.6%	2026-02-01	BLS JOLTS Nov	Workers less confident - music stopped
 VX-LAB-3.03	Layoffs Rate	1.1%	GREEN	<1.0%	1.0-1.2%	1.2-1.5%	>1.5%	2026-02-01	BLS JOLTS Nov	Slightly elevated
-VX-LAB-3.04	Openings/Unemployed	0.95	YELLOW	>1.2	1.0-1.2	0.7-1.0	<0.7	2026-02-01	Calculated	Below 1.0 = chairs deficit
+VX-LAB-3.04	Openings/Unemployed	0.87	ORANGE	>1.2	1.0-1.2	0.7-1.0	<0.7	2026-02-05	BLS JOLTS Dec	Below 1.0 first time since Feb 2021. 7.5M unemployed vs 6.5M openings = 1M deficit.
 VX-LAB-4.01	Temp Employment YoY	-12%	RED	>0%	-3% to 0%	-6% to -3%	<-6%	2026-02-01	SIA Jan 2026	CRITICAL LEADING INDICATOR - 400K lost, cycle bottom, RE-ACCELERATING decline
 VX-LAB-4.02	Temp Penetration Rate	1.59%	RED	>1.8%	1.7-1.8%	1.6-1.7%	<1.6%	2026-02-01	SIA Jan 2026	Cycle bottom - leads NFP 3-6mo
 VX-LAB-4.03	NFIB Hiring Plans	TBD	GAP	>+10	0 to +10	-10 to 0	<-10	2026-02-01	NFIB	Research needed
@@ -42,7 +42,7 @@ VX-LAB-8.01	Challenger Q4 2025 Cuts	Announced Layoffs	259,948	<150K	150-200K	200
 VX-LAB-8.02	Challenger 2025 Annual Cuts	Announced Layoffs	1,206,374	<750K	750K-1M	1M-1.2M	>1.2M	2026-02-02	Challenger Year-End	+58% YoY. Highest since 2020. 7th highest ever. AT RED THRESHOLD.
 VX-LAB-8.03	Challenger Hiring Announced	New Job Creation	Lowest since 2010	Normal	Declining	Multi-year low	Decade low	2026-02-02	Challenger Year-End	"Hotel California" — hard to get back in once out.
 VX-LAB-4.04	ISM Manufacturing Employment	Diffusion Index	48.1%	>52%	50-52%	48-50%	<48%	2026-02-02	ISM Jan 2026	28 consecutive months contraction. 36 of 37 months. Structural not cyclical.
-VX-LAB-4.08	ISM Services Employment	Diffusion Index	52.0%	>54%	52-54%	50-52%	<50%	2026-02-02	ISM Dec 2025	Returned to expansion. But Tech/Logistics sub-sectors contracting.
+VX-LAB-4.08	ISM Services Employment	Diffusion Index	50.3%	>54%	52-54%	50-52%	<50%	2026-02-05	ISM Jan 2026	Barely expanding, -1.4pp MoM. Approaching contraction threshold.
 VX-LAB-9.01	WARN California YTD	State Layoff Volume	158,734 (Oct 2025)	<100K	100-130K	130-160K	>160K	2026-02-02	CA WARN Database	+16% YoY. 14% of US total. Tech/AI pivot driving.
 VX-LAB-9.02	WARN Florida YTD	State Layoff Volume	22,771 (Oct 2025)	<15K	15-20K	20-25K	>25K	2026-02-02	FL WARN Database	+76% YoY. Logistics + hospitality. Foreclosure correlation.
 VX-LAB-9.03	January 2026 Global Cuts	Monthly Layoff Velocity	~600,000	<200K	200-400K	400-600K	>600K	2026-02-02	Aggregated WARN/Challenger	+500% vs Jan 2025 (~100K). Structural not cyclical. AT RED THRESHOLD.

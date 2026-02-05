@@ -1,5 +1,5 @@
 # LABOR STATUS
-**Last Updated:** 2026-02-04 | **Status:** 🔴 CRITICAL — Employment Break Underway
+**Last Updated:** 2026-02-05 | **Status:** 🔴 CRITICAL — Employment Break Accelerating
 
 ---
 
@@ -34,6 +34,8 @@ This is not synchronized recession — it's a **"barbell" economy**:
 | Temp Employment YoY | -12% | 🔴 | RE-ACCELERATING |
 | NFP Monthly | +50K (Dec) | 🟠 | 2025 avg 49K vs 2024 168K |
 | **ADP Private Payrolls** | **+22K (Jan)** | 🔴 | **MISS: +22K vs +45K exp** |
+| **JOLTS Openings** | **6.5M (Dec)** | 🔴 | **LOWEST SINCE 2017** |
+| **Openings/Unemployed** | **0.87** | 🟠 | **Below 1.0 first time since 2021** |
 | ISM Services Employment | 50.3 | 🟠 | Barely expanding, -1.4pp MoM |
 | Challenger Annual | 1.2M | 🔴 | +58% YoY, 7th highest ever |
 | DOGE Cuts | 307K | 🔴 | 24% of all 2025 cuts |
@@ -42,9 +44,17 @@ This is not synchronized recession — it's a **"barbell" economy**:
 | Cass Freight | -7.5% YoY | 🔴 | New cycle low |
 | Fed Beige Book | 4/12 deteriorating | 🟠 | "Low-hire, low-fire" |
 
-**Composite Assessment:** Surface GREEN, Hidden ORANGE-RED
+**Composite Assessment:** Surface GREEN, Hidden RED — JOLTS confirms demand collapse
 
-### 🆕 Feb 4 Update
+### 🆕 Feb 5 Update — JOLTS Collapse
+- **JOLTS Job Openings: 6.5M** (down from 6.9M revised) — **LOWEST SINCE DECEMBER 2017**
+- **Openings/Unemployed: 0.87** — below 1.0 for first time since Feb 2021
+- **1 million more unemployed than job openings** (7.5M vs 6.5M)
+- **Healthcare openings -10.8%** in 2 months — the last holdout sector weakening
+- Financial activities -25.1%, Professional services -21.8% in 2 months
+- Indeed: "perilously close to a definitive breaking point"
+
+### Feb 4 Update
 - **ADP Jan: +22K** (vs +45K expected) — significant miss, weakest since recession signals
 - **ISM Services Employment: 50.3** — barely above contraction, down 1.4pp from Dec
 - **NFP delayed to Feb 11** due to government shutdown (ended Feb 4)

@@ -1,5 +1,5 @@
 # PROME STATUS.md
-**Updated:** 2026-02-05 22:01 UTC
+**Updated:** 2026-02-05 23:05 UTC
 
 ---
 
@@ -7,7 +7,7 @@
 
 | Agent | Status | Current Focus | Next Critical |
 |-------|--------|---------------|---------------|
-| **LABOR** | 🟡 YELLOW | Hotel California tightening | NFP Feb 7; Q2-Q3 danger window |
+| **LABOR** | 🔴 RED | JOLTS collapse (6.5M, 2017 low); ADP miss | NFP Feb 11; KFRC earnings Feb 6 |
 | **CARL** | 🟡 YELLOW | Watching LABOR; subprime stress building | Follows LABOR by 3-6mo |
 | **HENRY** | 🟢 GREEN | Cluster 6 complete; 56 vectors | VIX spike watch; tech breadth 45% |
 | **SAM** | 🟡 YELLOW | Auction passed, election Sunday | Feb 8 election; crisis deferred |
