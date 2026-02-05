@@ -1,6 +1,6 @@
 # CALENDAR — Unified Event Tracker
 
-*Cross-agent calendar for key dates. Updated: 2026-02-03 21:37 UTC*
+*Cross-agent calendar for key dates. Updated: 2026-02-05 00:55 UTC*
 
 ---
 
@@ -30,14 +30,22 @@
 
 ---
 
-## BANK EARNINGS WATCH (Q1 2026)
+## BANK EARNINGS WATCH — CONVERGENCE TARGETS (Q1 2026)
 
-| Date | Event | Agent | Priority | Notes |
-|------|-------|-------|----------|-------|
-| Q1 TBD | CFG Q4 Earnings | REGINALD/BROCK | 🟠 HIGH | Fund finance commentary, Private Bank AUM |
-| Q1 TBD | Webster Q4 Earnings | REGINALD/BROCK | 🟡 MEDIUM | Marathon JV deal flow |
-| Q1 TBD | EGBN Q4 Earnings | REGINALD | 🟠 HIGH | DC exposure, deposit trend |
-| Q1 TBD | BHRB Q4 Earnings | REGINALD | 🟠 HIGH | GovCon lending, NoVA office |
+| Date | Bank | Ticker | Score | Priority | Watch For |
+|------|------|--------|-------|----------|-----------|
+| **Apr 20** | **Zions Bancorp** | ZION | 9 | 🔴 CRITICAL | Muni loan losses, unfunded draws, NDFI commentary |
+| **~Apr 21** | **Western Alliance** | WAL | 10 | 🔴 CRITICAL | Fraud reserve, unrated muni marks, FHLB advances |
+| **~Apr 23** | **Valley National** | VLY | 9 | 🔴 CRITICAL | FL CRE performance, BDC exposure, NCO trends |
+| **Apr 29** | **Eagle Bancorp** | EGBN | 12 | 🟠 HIGH | DC office, deposit flight, capital adequacy |
+| TBD | Citizens Financial | CFG | 9 | 🟠 HIGH | Fund finance commentary, consumer trends |
+| TBD | Burke & Herbert | BHRB | 5 | 🟡 MEDIUM | DC muni marks, GovCon performance |
+
+*Note: WAL/VLY dates estimated based on typical cadence. Confirm closer to date.*
+
+### Q4 2025 Results (Already Reported)
+- **VLY:** Jan 29 — Beat estimates, NCOs 18bps, FL performing
+- **EGBN:** Jan 21 — EPS $0.25, beat estimates, but watch Q1
 
 ---
 
@@ -83,7 +91,10 @@
 | Date | Event | Agent | Priority | Notes |
 |------|-------|-------|----------|-------|
 | Apr 15 | Tax Season | LIQUID | 🟠 HIGH | TGA rebuild drains reserves |
+| **Apr 20-29** | **CONVERGENCE BANK EARNINGS** | REGINALD | 🔴 CRITICAL | ZION → WAL → VLY → EGBN |
 | Apr/May | BOJ Meeting | SAM | 🟠 HIGH | Next hike window |
+| **May 15** | **KRE $70 PUT EXPIRY** | PROME | 🔴 CRITICAL | First position expiry |
+| **Jun 18** | **KRE $60 PUT EXPIRY** | PROME | 🔴 CRITICAL | Second position expiry |
 | Q2 | BDC Maturity Wall Begins | BROCK | 🟠 HIGH | 2021-22 vintage PIK balances refinancing |
 | Q2 | Potential BDC Dividend Cuts | BROCK | 🟠 HIGH | PSEC/FSK/TCPC/GSBD watch |
 | Jun 30 | Q2 Quarter-End / GSIB | LIQUID | 🟡 MEDIUM | Dealer constraints |
