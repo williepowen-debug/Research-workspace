@@ -1,10 +1,11 @@
 # REGINALD — Current Status
 
-*Last updated: 2026-02-05 01:50 UTC by Prome*
+*Last updated: 2026-02-05 16:10 UTC by Prome*
 
-**Recent Research (RP-REG-4.x):**
+**Recent Research:**
 - ✅ RP-REG-4.1: Stablecoin/Crypto Banking Exposure — $500B systemic deposit flight risk
 - ✅ RP-REG-4.2: Florida HOA/Condo Assessment Crisis — Compounds FL doom loop
+- ✅ **RP-FL-1.1 through 2.1: Complete Florida thesis** — See CORAL sub-agent
 
 ---
 
@@ -70,23 +71,41 @@ Pure plays (EGBN, SBCF, IBOC) are binary bets on one geography. Multi-channel na
 - PG County: AAA but Moody's negative watch (9% federal workforce)
 - NoVA: AAA maintained — "Defense Shield" from national security contractors
 
-### Florida — The "Doom Loop"
+### Florida — The "Coral Bleaching" (See CORAL Sub-Agent)
 
-**Citizens Insurance = $678B contingent liability on entire state**
+**🟠 CORAL Status: ORANGE — Stress Accumulating, Catalyst Pending**
 
-The Emergency Assessment mechanism converts weather risk into credit risk:
-1. Hurricane → Citizens deficit → 15% surcharge on policyholders
-2. If insufficient → **10% assessment on ALL FL policies** (including private)
-3. Assessment = senior lien on cash flows, competes with mortgage payments
+The FL thesis has grown into its own sub-agent. Key findings from RP-FL research:
 
-| Bank | FL % | FL Loans | Risk | Notes |
-|------|------|----------|------|-------|
-| **SBCF** | 100% | $12.6B | 🔴 CRITICAL | Pure play, no hedge, 82% secured by FL RE |
-| **VLY** | 27% | $13.4B | 🔴 VERY HIGH | Commercial CRE, reinsurance dependency |
-| **BKU** | 60%+ | ~$20B | 🔴 HIGH | Miami commercial |
+**The Evolved Doom Loop:**
+- Citizens has SHRUNK (1.42M → 385K policies) — risk shifted to private insurers
+- 14 companies under OIR "Enhanced Monitoring" (~15% of domestic market)
+- Insurance channel now AMPLIFIER, not primary trigger
+- Primary trigger = **condo reserve cascade** (SIRS mandate + special assessments)
+
+**Condo Crisis Metrics:**
+- 1,438 associations on Fannie/Freddie blacklist (696 in Miami/Palm Beach)
+- +44% complaint surge FY 2024/2025
+- Palm Greens bankruptcy ($43.7M) — first association bankruptcy of cycle
+- Heron Pond auction: $67K/unit vs $180-210K market (**60% discount = valuation floor**)
+- 1,500 associations at high risk by 2027
+
+**Biscayne 21 Ruling (Oct 2025):** FL Supreme Court upheld 100% owner consent for termination. Developer buyouts frozen — receivership is now the primary resolution path. **Extended workout timelines for banks.**
+
+| Bank | FL CRE | Specific Exposure | Risk | Notes |
+|------|--------|-------------------|------|-------|
+| **VLY** | $7.4B (28%) | **45% in Miami MSA** ($3.33B) | 🔴 CRITICAL | HOA lending division = direct association loan exposure |
+| **SBCF** | ~100% FL | Pure play | 🔴 CRITICAL | FL-only bank, no hedge |
+| **BKU** | 60%+ | Miami commercial | 🔴 HIGH | Heavy SE FL concentration |
 | **HOMB** | 28% | $4.15B | 🟢 PREPARED | **$33M hurricane reserve** — proactive |
 
-**VLY unique risk:** Commercial CRE relies on private reinsurance. If reinsurers exit FL, collateral becomes *uninsurable at any price*.
+**VLY Deep Dive (from RP-FL-1.3):**
+- Multifamily DSCR: 1.41x (compressed by insurance costs)
+- Non-accruals trending up: 0.72% → 0.87% (H2 2025)
+- De-risking via Brookfield sale ($1B at 1% discount)
+- Direct HOA lending = **double exposure** (association loans + individual mortgages on same buildings)
+
+**Full Florida analysis:** `sub-agents/CORAL/STATUS.md`
 
 ### Texas Border — The Absence
 
@@ -165,7 +184,10 @@ The Emergency Assessment mechanism converts weather risk into credit risk:
 | **WAL fraud resolution** | Pending | 🟡 | Insurance denial = reserve increase |
 | **First Brands examiner (Feb 25)** | Pending | 🟡 | Findings = OTTO thesis validation |
 | **FL condo listings** | +56% YoY | 🟠 | Continued surge = market dysfunction |
-| **FL condo receiverships** | Watch | 🟡 | Association failures = distress cascade |
+| **FL blacklist count** | 1,438 | 🟠 | Growth toward 2,000 = acceleration |
+| **FL association bankruptcies** | 1 (Palm Greens) | 🟡 | Cluster of 3-5 = thesis validation |
+| **VLY non-accruals** | 0.87% | 🟡 | >1.0% = FL stress manifesting |
+| **VLY Q1 earnings (~Apr 23)** | Pending | 🟡 | HOA loan performance, reserve build |
 | **Stablecoin market cap** | ~$180B | 🟡 | Growth >$200B/year = deposit pressure |
 | **Fed H.8 deposit data** | Weekly | 🟡 | Regional bank deposit outflows |
 | **CUBI earnings** | Quarterly | 🟡 | Crypto deposit trends, regulatory updates |
@@ -192,6 +214,17 @@ The Emergency Assessment mechanism converts weather risk into credit risk:
 
 ## Sub-Agents
 
+### CORAL (Florida Real Estate Stress) 🟠 ORANGE — **[NEW]**
+Monitors Florida condo crisis and transmission to regional bank balance sheets. Owns the "Coral Bleaching" thesis — SIRS mandates, insurance stress, bridge loans, developer activity.
+
+**Key metrics tracked:**
+- Fannie/Freddie blacklist (1,438 → watch for 2,000)
+- Association bankruptcies (1 so far)
+- VLY non-accruals (0.87% and rising)
+- Insurance channel health (14 under OIR monitoring)
+
+**Files:** `sub-agents/CORAL/STATUS.md`, `sub-agents/CORAL/workbook/`
+
 ### CREED (CRE Deep Dive)
 Monitors commercial real estate stress — delinquencies, valuations, maturity walls. See `CREED/STATUS.md`.
 
@@ -203,18 +236,21 @@ Monitors Business Development Companies and private credit stress. **Currently �
 ## Key Files
 
 - **BANK_EXPOSURE_MATRIX.md** — Complete 8-channel convergence analysis
-- **research/outputs/RP-REG-3.*/` — Geographic and municipal research reports
+- **research/outputs/RP-REG-3.*/** — Geographic and municipal research reports
+- **research/outputs/RP-FL-*/** — Florida thesis research (6 reports)
+- **sub-agents/CORAL/** — Florida sub-agent (STATUS, workbook, DATA_SOURCES)
 - **workbook/** — ML.tsv, VX.tsv, FL.tsv evidence logs
 
 ---
 
 ## Open Questions
 
-1. Is VLY or SBCF a better single-name addition to KRE position?
+1. **VLY vs SBCF for single-name short?** VLY has quantifiable exposure + no M&A floor; SBCF is purest FL expression but smaller, potential takeover target
 2. Will Santander/Webster deal trigger more regional M&A (floor under shorts)?
 3. How long until ZION's $524M unfunded muni commitments get tested?
 4. Is EGBN's distress already priced, limiting short upside?
-5. Will FL reinsurers retreat further in 2026 hurricane season?
+5. **How many association bankruptcies before bank reserves build?** Palm Greens was first — watch for cluster
+6. **Will 2026 hurricane season stress reformed insurance market?** First real test post-SB 2-A
 
 ---
 
