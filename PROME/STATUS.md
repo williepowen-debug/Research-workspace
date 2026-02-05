@@ -1,5 +1,5 @@
 # PROME STATUS.md
-**Updated:** 2026-02-05 01:52 UTC
+**Updated:** 2026-02-05 16:10 UTC
 
 ---
 
@@ -10,15 +10,16 @@
 | **LABOR** | 🟡 YELLOW | Hotel California tightening | NFP Feb 7; Q2-Q3 danger window |
 | **CARL** | 🟡 YELLOW | Watching LABOR; subprime stress building | Follows LABOR by 3-6mo |
 | **HENRY** | 🟢 GREEN | Cluster 6 complete; 56 vectors | VIX spike watch; tech breadth 45% |
-| **SAM** | 🟠 ORANGE | Critical window Feb 3-8 | **30Y auction Feb 5**; Election Feb 8 |
-| **REGINALD** | 🔴 ELEVATED | **BANK MATRIX COMPLETE** | Single-name candidates identified |
+| **SAM** | 🟠 ORANGE | Critical window Feb 3-8 | 30Y auction passed; Election Feb 8 |
+| **REGINALD** | 🔴 ELEVATED | **CORAL sub-agent created** | VLY Q1 earnings ~Apr 23 |
 | **LIQUID** | 🟢 GREEN | Metastable; RRP near zero | Quarter-end Mar 31 |
 | **MARCO** | 🟠 ORANGE | 8-series complete | H-2A surge; remittance divergence |
 | **BROCK** | 🟡 YELLOW | PIK concentration; shadow defaults | Q4 BDC earnings Feb-Mar |
 | **CREED** | 🟡 YELLOW | $936B maturity wall | Forced recognition 2026-27 |
+| **CORAL** | 🟠 ORANGE | **FL condo crisis monitoring** | Blacklist 1,438 → watch 2,000 |
 | **OTTO** | 🔴 CRITICAL | Fraud thesis validated | 4th fraud case watch; CFPB lapse Mar |
 
-**System Status:** 🟠 ORANGE — Convergence thesis validated, position live
+**System Status:** 🟠 ORANGE — Convergence thesis validated, position live, CORAL tracking FL stress
 
 ---
 
@@ -28,7 +29,7 @@
 
 | # | Channel | Source Agent | Mechanism |
 |---|---------|--------------|-----------|
-| 1 | CRE | REGINALD | Direct loan losses (70% of CRE at regionals) |
+| 1 | CRE | REGINALD/CREED | Direct loan losses (70% of CRE at regionals) |
 | 2 | NDFI/Auto fraud | OTTO | Warehouse line losses ($1.7T exposure) |
 | 3 | Migration/Regional | MARCO | Economic stress → loan performance |
 | 4 | BDC draws | BROCK | $142B credit line liquidity drain |
@@ -36,6 +37,7 @@
 | 6 | Consumer credit | CARL | Employment → defaults → NCOs |
 | 7 | FHLB/Funding | LIQUID | All stress paths terminate at FHLB |
 | 8 | Japan contagion | SAM | Repatriation → CLO → BDC → banks |
+| **9** | **FL condo crisis** | **CORAL** | **Reserve cascade → association defaults → bank losses** |
 
 **Trade Position (Feb 4):**
 - 2x KRE $70 puts — May 15, 2026
@@ -43,78 +45,72 @@
 - Entry: KRE at $72.62 (ATH)
 - Total risk: ~$800-900
 
-**Add triggers:** Claims >250K, 4th fraud case, Japan fails, FL hurricane
+**Add triggers:** Claims >250K, 4th fraud case, Japan fails, FL hurricane, VLY non-accruals >1%
 
 ---
 
-## REGINALD Matrix — Key Findings (Feb 5)
+## 🪸 CORAL — Florida Research Complete (NEW)
 
-### Convergence Score Rankings
+**Sub-agent created today** to own the Florida condo crisis thesis.
+
+### Key Findings (RP-FL-1.1 through 2.1)
+
+**VLY Exposure Quantified:**
+- $7.4B FL/AL CRE (28% of total book)
+- **45% ($3.33B) in Miami MSA** — ground zero
+- Direct HOA lending division = association loan exposure
+- Non-accruals trending up: 0.72% → 0.87%
+- Multifamily DSCR compressed to 1.41x (insurance stress)
+
+**Condo Crisis Metrics:**
+- 1,438 associations on Fannie/Freddie blacklist
+- +44% complaint surge FY 2024/2025
+- Palm Greens bankruptcy ($43.7M) — first of cycle
+- Heron Pond: $67K/unit vs $180-210K market (**60% discount = floor**)
+- 1,500 associations at high risk by 2027
+
+**Insurance Channel:**
+- Citizens shrunk 1.42M → 385K policies (depopulation success)
+- 14 companies under OIR enhanced monitoring
+- Insurance = AMPLIFIER, not primary trigger
+- **Primary trigger = condo reserve cascade**
+
+**Biscayne 21 Ruling:**
+- FL Supreme Court upheld 100% consent for termination
+- Developer buyouts frozen
+- Receivership = primary resolution path
+- **Extended workout timelines for banks**
+
+### CORAL Files
+
+```
+AGENTS/REGINALD/sub-agents/CORAL/
+├── STATUS.md              ← Dashboard
+├── DATA_SOURCES.md        ← Where to get FL data
+└── workbook/
+    ├── ML_Master_Log.md   ← Chronological observations
+    ├── FL_Forward_Log.md  ← Dated catalysts
+    ├── FLOW_Pathways.md   ← Transmission mechanisms
+    └── VX_Vectors.md      ← Quantitative metrics
+```
+
+---
+
+## Convergence Score Rankings (Updated)
 
 | Rank | Bank | Score | Primary Vulnerabilities |
 |------|------|-------|------------------------|
 | 1 | **EGBN** | 12 | Pure DC (100%), CRE 547%, already in crisis |
-| 2 | **WAL** | 10 | NDFI + Fraud + FHLB + **$1.36B unrated muni shadow book** |
-| 3 | **VLY** | 9 | FL CRE 28% + BDC + Consumer — most paths to break |
+| 2 | **WAL** | 10 | NDFI + Fraud + FHLB + $1.36B unrated muni |
+| 3 | **VLY** | 9 | **FL CRE $7.4B (45% Miami)** + HOA lending + BDC + Consumer |
 | 4 | **CFG** | 9 | Fund finance ($10-11B) + Consumer + FHLB |
-| 5 | **ZION** | 9 | **$5.78B hidden muni exposure** + NDFI fraud |
+| 5 | **ZION** | 9 | $5.78B hidden muni exposure + NDFI fraud |
 
-### Geographic Thesis Summary
-
-**DC Corridor:**
-- EGBN = "Value Trap" (priced for distress?)
-- AUB = "Apex Predator" (de-risked, defense-focused)
-- Municipal fracture: DC negative outlook, NoVA maintained
-
-**Florida — "Doom Loop":**
-- Citizens $678B TIV = contingent liability on ALL FL borrowers
-- Emergency Assessment = senior lien on cash flows
-- SBCF (100% FL) = purest insurance thesis expression
-- VLY (27% FL CRE) = commercial reinsurance dependency
-
-**Texas Border:**
-- NO major KRE constituent has border exposure
-- IBOC only publicly traded TX border play
-- MARCO thesis → IBOC, not KRE
-
-### Hidden Exposures Discovered
-
-| Bank | Market Sees | Reality |
-|------|-------------|---------|
-| **ZION** | $1.4B muni securities | $5.78B total (+$4.36B loans, $524M unfunded) |
-| **WAL** | $2.28B muni securities | $1.36B is UNRATED = shadow loan book |
-| **CFG** | Big muni investor? | **$1M** — not in munis at all |
-
-### Single-Name Candidates
-
-| Bank | Thesis | Why |
-|------|--------|-----|
-| **SBCF** | FL insurance | 100% FL, 82% RE-secured, zero hedge |
-| **VLY** | Multi-channel | FL + CRE + BDC + Consumer = 4 paths |
-| **IBOC** | TX border/MARCO | Only public border bank (outside KRE) |
-
----
-
-## Transmission Chain (Current Read)
-
-```
-LABOR (Q2-Q3) → CARL (Q3-Q4) → REGINALD (Q4-Q1'27)
-       ↓
-    HENRY (velocity/transmission)
-       ↓
-    LIQUID (amplification if funding stress)
-    
-SAM runs parallel — can trigger carry unwind independently
-MARCO tracks regional stress (but NOT through KRE — IBOC only)
-OTTO fraud accelerates REGINALD timeline
-```
-
-**Trigger Watch:**
-- Claims >250K sustained → add to KRE position
-- 4th fraud case discovered → add to KRE position
-- Japan 30Y auction fails → SAM thesis activates
-- FL hurricane → SBCF/VLY expression
-- Citizens assessment → FL doom loop begins
+**Single-Name Focus:** VLY emerges as best candidate
+- Quantifiable FL exposure with specific geographic breakdown
+- Direct HOA lending = double exposure (association + mortgage)
+- No M&A speculation providing valuation floor
+- Management transparent → can track de-risking progress
 
 ---
 
@@ -123,65 +119,54 @@ OTTO fraud accelerates REGINALD timeline
 | Thread | Status | Owner | Next Action |
 |--------|--------|-------|-------------|
 | **KRE puts** | 🟢 LIVE | PROME | Monitor; add on triggers |
-| **BANK_EXPOSURE_MATRIX** | ✅ COMPLETE | REGINALD | All 5 research prompts done |
-| SAM Feb 5 30Y auction | ⏳ TODAY | SAM | Monitor result |
+| **CORAL FL monitoring** | 🟢 ACTIVE | CORAL | Track blacklist, bankruptcies, VLY |
 | SAM Feb 8 election | ⏳ WAITING | SAM | Takaichi outcome |
-| NFP Feb 7 | ⏳ WAITING | LABOR | Latino industry validation |
+| NFP Feb 7 | ⏳ WAITING | LABOR | Employment trajectory |
+| VLY Q1 earnings | ⏳ ~Apr 23 | CORAL | First post-SIRS visibility |
 | First Brands examiner Feb 25 | ⏳ WAITING | OTTO | Fraud thesis validation |
-
----
-
-## M&A Context (New)
-
-**Santander acquiring Webster (WBS) for $12.3B**
-- 181 deals in 2025 (highest since 2021)
-- Consolidation wave accelerating
-- **Risk for shorts:** Distressed names (EGBN) could get bid
-- "Scale or leave" — sub-scale regionals under pressure
 
 ---
 
 ## Recent Session Summary
 
+**2026-02-05 (Session 9 — This Session):**
+- **CORAL sub-agent created** for Florida real estate stress
+- Processed 6 FL research outputs (RP-FL-1.1 through 2.1)
+- VLY deep dive: $7.4B FL exposure, 45% Miami, HOA lending direct
+- Insurance channel assessed: stabilizing but 14 under monitoring
+- Condo crisis = primary trigger (not insurance)
+- Biscayne 21 = extended workout timelines
+- Built full workbook (ML/FL/FLOW/VX) + DATA_SOURCES
+- Updated REGINALD STATUS.md with CORAL integration
+- **5 commits:** CORAL created, workbook, VX/DATA_SOURCES, REGINALD update
+
 **2026-02-05 (Session 8):**
-- Researched new stress channels: stablecoins + FL HOA
-- **RP-REG-4.1:** Stablecoin = systemic NIM compression ($500B outflow), not concentrated
-- **RP-REG-4.2:** FL HOA = $10K-224K assessments, NOT super-lien state (mortgage protected)
-- Both validate thesis without changing scores
-- Sub-agent pattern tested successfully (spawned research task)
+- Researched stablecoins + FL HOA channels
+- RP-REG-4.1: Stablecoin = systemic NIM compression, not concentrated
+- RP-REG-4.2: FL HOA = compounds doom loop, NOT super-lien state
 
 **2026-02-05 (Session 7):**
-- **BANK EXPOSURE MATRIX COMPLETE** — All 5 research prompts integrated
-- RP-REG-3.1: Geographic footprints (15 banks mapped)
-- RP-REG-3.2: Municipal securities exposure (ZION $5.78B hidden, WAL $1.36B unrated)
-- RP-REG-3.3: DC corridor analysis (EGBN "value trap", AUB "apex predator")
-- RP-REG-3.4: Texas border municipal health (IBOC only play, Laredo water crisis)
-- RP-REG-3.5: FL insurance "doom loop" ($678B Citizens TIV)
-- Convergence scores updated: WAL 8→10, ZION 6→9, VLY confirmed at 9
-- **REGINALD STATUS.md completely rewritten** with matrix findings
-- Santander/Webster $12.3B acquisition noted (M&A floor risk)
+- **BANK EXPOSURE MATRIX COMPLETE** — All geographic research done
+- Hidden exposures: ZION $5.78B munis, WAL $1.36B unrated
+- DC: EGBN "value trap", AUB "apex predator"
+- FL: Citizens $678B TIV doom loop
+- TX: No KRE constituent has border exposure
 
-**2026-02-04 (Session 6):**
-- **CONVERGENCE THESIS DISCOVERED** — All agents point to KRE
-- 8 transmission channels mapped and validated
-- 20-min briefing created: `briefings/KRE_Convergence_Briefing_2026-02-04.md`
-- **FIRST TRADE EXECUTED:** KRE puts (May $70, June $60)
-
-**2026-02-04 (Sessions 2-5):**
-- OTTO 1-series and 2-series complete (immigration-credit nexus)
-- MARCO 8-series complete (H-2A, remittances, state fiscal)
-- "Invisible Exit" thesis validated
+**2026-02-04:**
+- CONVERGENCE THESIS discovered
+- KRE puts executed (May $70, June $60)
+- OTTO/MARCO series complete
 
 ---
 
-## Key Files
+## Key Files (Updated)
 
 | File | Content |
 |------|---------|
 | `AGENTS/REGINALD/BANK_EXPOSURE_MATRIX.md` | Complete 8-channel convergence analysis |
-| `AGENTS/REGINALD/STATUS.md` | Updated bank watchlist and thesis |
-| `AGENTS/REGINALD/research/outputs/RP-REG-4.1_Stablecoin_Exposure.md` | Stablecoin NIM compression analysis |
-| `AGENTS/REGINALD/research/outputs/RP-REG-4.2_Florida_HOA_Crisis.md` | FL HOA/condo assessment impact |
+| `AGENTS/REGINALD/STATUS.md` | Bank watchlist + CORAL integration |
+| `AGENTS/REGINALD/sub-agents/CORAL/` | **Florida sub-agent (NEW)** |
+| `AGENTS/REGINALD/research/outputs/RP-FL-*/` | 6 FL research reports |
 | `briefings/KRE_Convergence_Briefing_2026-02-04.md` | 20-min audio briefing |
 | `PREDICTIONS.md` | Cross-agent falsifiable predictions |
 
@@ -189,11 +174,11 @@ OTTO fraud accelerates REGINALD timeline
 
 ## Next Session Focus
 
-1. **SAM:** Feb 5 30Y auction result — critical test (TODAY)
+1. **SAM:** Feb 8 election — Takaichi outcome
 2. **LABOR:** Feb 7 NFP — employment trajectory
-3. **SAM:** Feb 8 election — Takaichi outcome
-4. Monitor KRE position performance
+3. Monitor KRE position performance
+4. Begin VLY single-name analysis if FL stress accelerates
 
 ---
 
-*Session-end checklist: Update this dashboard → Update memory → Commit*
+*Session-end checklist: ✅ Dashboard updated → Update memory → Commit*
