@@ -61,5 +61,23 @@
     "message": "JOLTS Job Openings breached threshold: 7K (threshold: 7K)",
     "value": 6542.0,
     "threshold": 7000
+  },
+  {
+    "id": 1770407442149,
+    "timestamp": "2026-02-06 19:50:42 UTC",
+    "type": "fred",
+    "severity": "warning",
+    "message": "JOLTS Job Openings breached threshold: 7K (threshold: 7K)",
+    "value": 6542.0,
+    "threshold": 7000
+  },
+  {
+    "id": 1770409051656,
+    "timestamp": "2026-02-06 20:17:31 UTC",
+    "type": "sec",
+    "severity": "warning",
+    "message": "WAL filed 8-K: WESTERN ALLIANCE BANCORPORATION",
+    "value": "2026-02-05",
+    "threshold": null
   }
 ]

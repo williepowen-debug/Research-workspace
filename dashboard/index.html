@@ -859,6 +859,13 @@
                 </div>
             </div>
             
+            <div class="agents-section">
+                <div class="section-title">Recent SEC Filings (Watchlist)</div>
+                <div id="sec-filings" style="display: flex; flex-direction: column; gap: 8px;">
+                    <div class="alert-empty">Loading SEC filings...</div>
+                </div>
+            </div>
+            
             <div class="predictions-row">
                 <div class="prediction-stat">
                     <div class="prediction-number pending" id="pred-total">40+</div>
@@ -1081,6 +1088,43 @@
             document.getElementById('update-time').textContent = data.updated || new Date().toISOString();
         }
         
+        async function fetchSec() {
+            try {
+                const resp = await fetch('/api/sec');
+                if (resp.ok) {
+                    const data = await resp.json();
+                    updateSec(data);
+                }
+            } catch (e) {
+                console.error('SEC fetch error:', e);
+            }
+        }
+        
+        function updateSec(data) {
+            const container = document.getElementById('sec-filings');
+            const filings = data.filings || [];
+            
+            if (filings.length === 0) {
+                container.innerHTML = '<div class="alert-empty">No recent filings</div>';
+                return;
+            }
+            
+            // Show last 10 filings
+            const recent = filings.slice(0, 10);
+            
+            container.innerHTML = recent.map(f => {
+                const formColor = f.form === '8-K' ? 'var(--orange)' : 
+                                  f.form.startsWith('10-') ? 'var(--accent)' : 'var(--text-muted)';
+                return `
+                    <div class="catalyst-item" style="cursor: pointer;" onclick="window.open('${f.url}', '_blank')">
+                        <span class="catalyst-date">${f.date}</span>
+                        <span class="catalyst-text"><strong>${f.ticker}</strong> — ${f.form}</span>
+                        <span style="color: ${formColor}; font-size: 11px; font-weight: 600;">${f.form}</span>
+                    </div>
+                `;
+            }).join('');
+        }
+        
         async function fetchBls() {
             try {
                 const resp = await fetch('/api/bls');
@@ -1194,10 +1238,12 @@
         fetchAlerts();
         fetchFred();
         fetchBls();
+        fetchSec();
         setInterval(fetchPrices, 60000);
         setInterval(fetchAlerts, 60000);
         setInterval(fetchFred, 300000);  // FRED data every 5 min (doesn't change often)
         setInterval(fetchBls, 300000);   // BLS data every 5 min
+        setInterval(fetchSec, 600000);   // SEC filings every 10 min
     </script>
 </body>
 </html>
