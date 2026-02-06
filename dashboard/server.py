@@ -18,6 +18,16 @@ ALERTS_FILE = os.path.join(WORKSPACE, "dashboard", "alerts.json")
 FRED_API_KEY = "8ce3f08db56f151f54221a0dd12b63de"
 BLS_API_KEY = "28cc34af39834eb2a4d85d3119f72077"
 
+# SEC EDGAR watchlist - banks we're tracking
+SEC_WATCHLIST = {
+    "VLY": {"cik": "0000714310", "name": "Valley National Bancorp"},
+    "WAL": {"cik": "0001212545", "name": "Western Alliance Bancorporation"},
+    "EGBN": {"cik": "0001050441", "name": "Eagle Bancorp Inc"},
+    "ZION": {"cik": "0000109380", "name": "Zions Bancorporation"},
+    "CFG": {"cik": "0000759944", "name": "Citizens Financial Group"},
+    "FLG": {"cik": "0001033012", "name": "Flagstar Bancorp Inc"},
+}
+
 # Telegram alerting - direct bot API
 TELEGRAM_BOT_TOKEN = "***REMOVED***:***REMOVED***"
 TELEGRAM_CHAT_ID = "8463631023"  # Will's Telegram ID
@@ -42,6 +52,16 @@ bls_cache = {
     "timestamp": 0,
     "ttl": 3600  # 1 hour
 }
+
+# SEC filings cache
+sec_cache = {
+    "data": None,
+    "timestamp": 0,
+    "ttl": 1800  # 30 min - filings can drop anytime
+}
+
+# Track seen filings to avoid duplicate alerts
+seen_filings = set()
 
 # Alert tracking
 last_breach_state = {}
@@ -219,6 +239,101 @@ def fetch_bls_data():
     bls_cache["timestamp"] = now
     
     return bls_data
+
+def fetch_sec_filings():
+    """Fetch recent SEC filings for watchlist companies"""
+    global seen_filings
+    now = time.time()
+    
+    # Return cached data if fresh
+    if sec_cache["data"] and (now - sec_cache["timestamp"]) < sec_cache["ttl"]:
+        return sec_cache["data"]
+    
+    sec_data = {
+        "filings": [],
+        "updated": None
+    }
+    
+    for ticker, info in SEC_WATCHLIST.items():
+        try:
+            cik = info["cik"].lstrip("0")  # API wants CIK without leading zeros for URL
+            url = f"https://data.sec.gov/submissions/CIK{info['cik']}.json"
+            
+            req = urllib.request.Request(
+                url,
+                headers={
+                    "User-Agent": "PROME-Dashboard research-alerts@example.com",
+                    "Accept": "application/json"
+                }
+            )
+            
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                data = json.loads(resp.read().decode())
+                
+                company_name = data.get("name", info["name"])
+                recent = data.get("filings", {}).get("recent", {})
+                
+                forms = recent.get("form", [])
+                dates = recent.get("filingDate", [])
+                accessions = recent.get("accessionNumber", [])
+                descriptions = recent.get("primaryDocument", [])
+                
+                # Get last 10 filings
+                for i in range(min(10, len(forms))):
+                    form_type = forms[i]
+                    filing_date = dates[i]
+                    accession = accessions[i]
+                    doc = descriptions[i] if i < len(descriptions) else ""
+                    
+                    # Filter to important forms
+                    important_forms = ["10-K", "10-Q", "8-K", "4", "SC 13G", "SC 13D", "DEF 14A"]
+                    if not any(form_type.startswith(f) for f in important_forms):
+                        continue
+                    
+                    filing_id = f"{ticker}_{accession}"
+                    filing_url = f"https://www.sec.gov/Archives/edgar/data/{cik}/{accession.replace('-', '')}/{doc}"
+                    
+                    filing = {
+                        "ticker": ticker,
+                        "company": company_name,
+                        "form": form_type,
+                        "date": filing_date,
+                        "accession": accession,
+                        "url": filing_url,
+                        "id": filing_id
+                    }
+                    
+                    sec_data["filings"].append(filing)
+                    
+                    # Alert on new filings (10-K, 10-Q, 8-K only)
+                    if filing_id not in seen_filings and form_type in ["10-K", "10-Q", "8-K"]:
+                        seen_filings.add(filing_id)
+                        # Only alert if filing is from last 7 days
+                        try:
+                            from datetime import datetime, timedelta
+                            filing_dt = datetime.strptime(filing_date, "%Y-%m-%d")
+                            if datetime.now() - filing_dt < timedelta(days=7):
+                                add_alert(
+                                    alert_type="sec",
+                                    severity="warning" if form_type == "8-K" else "info",
+                                    message=f"{ticker} filed {form_type}: {company_name}",
+                                    value=filing_date
+                                )
+                        except:
+                            pass
+                            
+        except Exception as e:
+            print(f"[SEC] {ticker} fetch error: {e}")
+    
+    # Sort by date descending
+    sec_data["filings"].sort(key=lambda x: x["date"], reverse=True)
+    sec_data["updated"] = time.strftime("%Y-%m-%d %H:%M:%S UTC", time.gmtime())
+    
+    # Cache it
+    sec_cache["data"] = sec_data
+    sec_cache["timestamp"] = now
+    
+    return sec_data
 
 def check_fred_breach(value, config):
     """Check if a FRED value breaches its threshold"""
@@ -494,6 +609,19 @@ class DashboardHandler(http.server.SimpleHTTPRequestHandler):
                 self.send_header('Access-Control-Allow-Origin', '*')
                 self.end_headers()
                 self.wfile.write(json.dumps(prices).encode('utf-8'))
+            except Exception as e:
+                self.send_error(500, str(e))
+            return
+        
+        # API endpoint to get SEC filings
+        if parsed.path == '/api/sec':
+            try:
+                sec_data = fetch_sec_filings()
+                self.send_response(200)
+                self.send_header('Content-type', 'application/json')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                self.wfile.write(json.dumps(sec_data).encode('utf-8'))
             except Exception as e:
                 self.send_error(500, str(e))
             return
