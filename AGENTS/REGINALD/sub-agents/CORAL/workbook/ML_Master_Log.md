@@ -9,6 +9,15 @@
 
 ### February 2026
 
+**[2026-02-05] [EARNINGS] VLY Q4 2025 — Counter-signal to near-term thesis**
+- EPS $0.31 vs $0.29 exp (beat)
+- Record earnings, ROA 1.14%
+- Classified assets DOWN 8% QoQ
+- NCOs at 18bps (low)
+- Non-accruals $421.5M (0.87% — slight uptick)
+- Management guiding positive for 2026
+| ⚠️ COUNTER-SIGNAL: Q4 covers Oct-Dec, BEFORE SIRS deadline passed. This is pre-stress visibility. Q1 2026 (~Apr 23) is the real test — first quarter with post-SIRS data.
+
 **[2026-02-05] [RESEARCH] CORAL sub-agent created with 6 research outputs**
 - RP-FL-1.1 through 2.1 complete
 - VLY exposure quantified: $7.4B FL/AL, 45% Miami

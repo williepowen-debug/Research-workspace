@@ -1,5 +1,5 @@
 # PROME STATUS.md
-**Updated:** 2026-02-05 23:05 UTC
+**Updated:** 2026-02-06 00:32 UTC
 
 ---
 
@@ -7,16 +7,16 @@
 
 | Agent | Status | Current Focus | Next Critical |
 |-------|--------|---------------|---------------|
-| **LABOR** | 🔴 RED | JOLTS collapse (6.5M, 2017 low); ADP miss | NFP Feb 11; KFRC earnings Feb 6 |
+| **LABOR** | 🔴 RED | JOLTS collapse (6.5M, 2017 low); ADP miss | **KFRC earnings Feb 6** (prediction #4); Claims 8:30am |
 | **CARL** | 🟡 YELLOW | Watching LABOR; subprime stress building | Follows LABOR by 3-6mo |
 | **HENRY** | 🟢 GREEN | Cluster 6 complete; 56 vectors | VIX spike watch; tech breadth 45% |
-| **SAM** | 🟡 YELLOW | Auction passed, election Sunday | Feb 8 election; crisis deferred |
-| **REGINALD** | 🔴 ELEVATED | **CORAL sub-agent created** | VLY Q1 earnings ~Apr 23 |
+| **SAM** | 🟡 YELLOW | **Auction PASSED** (3.64 BTC) | **Feb 8 election** — Takaichi outcome |
+| **REGINALD** | 🟠 ELEVATED | VLY Q4 beat = counter-signal; thesis intact | VLY Q1 earnings ~Apr 23 |
 | **LIQUID** | 🟢 GREEN | Metastable; RRP near zero | Quarter-end Mar 31 |
 | **MARCO** | 🟠 ORANGE | 8-series complete | H-2A surge; remittance divergence |
 | **BROCK** | 🟡 YELLOW | PIK concentration; shadow defaults | Q4 BDC earnings Feb-Mar |
 | **CREED** | 🟡 YELLOW | $936B maturity wall | Forced recognition 2026-27 |
-| **CORAL** | 🟠 ORANGE | **FL condo crisis monitoring** | Blacklist 1,438 → watch 2,000 |
+| **CORAL** | 🟠 ORANGE | FL condo crisis; VLY Q4 logged | Blacklist 1,438 → watch 2,000 |
 | **OTTO** | 🔴 CRITICAL | Fraud thesis validated | 4th fraud case watch; CFPB lapse Mar |
 
 **System Status:** 🟠 ORANGE — Convergence thesis validated, position live, CORAL tracking FL stress
@@ -120,8 +120,11 @@ AGENTS/REGINALD/sub-agents/CORAL/
 |--------|--------|-------|-------------|
 | **KRE puts** | 🟢 LIVE | PROME | Monitor; add on triggers |
 | **CORAL FL monitoring** | 🟢 ACTIVE | CORAL | Track blacklist, bankruptcies, VLY |
+| **KFRC earnings Feb 6** | ⏳ TOMORROW | LABOR | Prediction #4 — temp bellwether |
+| **Claims Feb 6** | ⏳ TOMORROW | LABOR | 8:30am ET — weekly read |
+| **Challenger Jan cuts Feb 6** | ⏳ TOMORROW | LABOR | First Thursday — 75K+ expected |
 | SAM Feb 8 election | ⏳ WAITING | SAM | Takaichi outcome |
-| NFP Feb 7 | ⏳ WAITING | LABOR | Employment trajectory |
+| NFP Feb 11 | ⏳ WAITING | LABOR | Delayed employment report |
 | VLY Q1 earnings | ⏳ ~Apr 23 | CORAL | First post-SIRS visibility |
 | First Brands examiner Feb 25 | ⏳ WAITING | OTTO | Fraud thesis validation |
 
@@ -129,28 +132,20 @@ AGENTS/REGINALD/sub-agents/CORAL/
 
 ## Recent Session Summary
 
-**2026-02-05 (Session 9 — This Session):**
+**2026-02-05/06 (Current Session):**
+- **SAM:** 30Y JGB auction PASSED (BTC 3.64) — crisis deferred
+- **LABOR:** JOLTS collapse (6.5M, lowest since 2017) — demand breaking
+- **VLY:** Q4 beat = counter-signal; logged to CORAL/REGINALD
+- **Workbooks updated:** SAM VX.tsv created, REGINALD VX updated, CORAL ML/VX updated
+- **Prediction resolved:** SAM #1 ✅ CORRECT
+- **Created:** LABOR briefing for TTS (~25 min)
+- **Tomorrow critical:** KFRC earnings (prediction #4), Claims, Challenger Jan
+
+**2026-02-05 (Earlier):**
 - **CORAL sub-agent created** for Florida real estate stress
 - Processed 6 FL research outputs (RP-FL-1.1 through 2.1)
 - VLY deep dive: $7.4B FL exposure, 45% Miami, HOA lending direct
-- Insurance channel assessed: stabilizing but 14 under monitoring
-- Condo crisis = primary trigger (not insurance)
-- Biscayne 21 = extended workout timelines
-- Built full workbook (ML/FL/FLOW/VX) + DATA_SOURCES
-- Updated REGINALD STATUS.md with CORAL integration
-- **5 commits:** CORAL created, workbook, VX/DATA_SOURCES, REGINALD update
-
-**2026-02-05 (Session 8):**
-- Researched stablecoins + FL HOA channels
-- RP-REG-4.1: Stablecoin = systemic NIM compression, not concentrated
-- RP-REG-4.2: FL HOA = compounds doom loop, NOT super-lien state
-
-**2026-02-05 (Session 7):**
 - **BANK EXPOSURE MATRIX COMPLETE** — All geographic research done
-- Hidden exposures: ZION $5.78B munis, WAL $1.36B unrated
-- DC: EGBN "value trap", AUB "apex predator"
-- FL: Citizens $678B TIV doom loop
-- TX: No KRE constituent has border exposure
 
 **2026-02-04:**
 - CONVERGENCE THESIS discovered
@@ -172,12 +167,13 @@ AGENTS/REGINALD/sub-agents/CORAL/
 
 ---
 
-## Next Session Focus
+## Tomorrow (Feb 6) Focus
 
-1. **SAM:** Feb 8 election — Takaichi outcome
-2. **LABOR:** Feb 7 NFP — employment trajectory
-3. Monitor KRE position performance
-4. Begin VLY single-name analysis if FL stress accelerates
+1. **KFRC earnings** — Temp staffing bellwether, prediction #4 tests (70% conf guide down)
+2. **Initial Claims** — 8:30am ET, watch for breach of 230K
+3. **Challenger January cuts** — First Thursday, expecting 75K+ based on announcements
+4. Monitor KRE position
+5. **SAM:** Feb 8 election approaches — Takaichi seat count critical
 
 ---
 

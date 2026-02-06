@@ -91,9 +91,19 @@
 | FL/AL CRE Exposure | $7.4B | $7.4B | $7.4B | Stable | 🟠 |
 | Miami MSA Concentration | $3.33B (45%) | — | — | — | 🟠 |
 | Non-Accrual Rate | 0.87% | 0.86% | 0.72% | ↑ Ticking up | 🟡 |
+| Non-Accruals ($) | $421.5M | — | — | — | 🟡 |
+| Classified Assets | DOWN 8% QoQ | — | — | ↓ Improving | 🟢 |
+| NCO Rate | 18bps | — | — | Low | 🟢 |
+| CRE % of Loans | 58%+ | — | — | Still high | 🟠 |
 | CRE Concentration Ratio | 333% | — | ~400% (early 2024) | ↓ De-risking | 🟡 |
 | FL Multifamily DSCR | 1.41x | — | — | Compressed (insurance) | 🟠 |
 | FL Office DSCR | 2.08x | — | — | Healthy | 🟢 |
+
+**Q4 2025 Earnings (Jan 29):**
+- EPS: $0.31 vs $0.29 exp (beat)
+- Record earnings, ROA 1.14%
+- Management guiding positive for 2026
+- **⚠️ COUNTER-SIGNAL:** Q4 covers Oct-Dec (pre-SIRS deadline). Q1 2026 (~Apr 23) is first post-SIRS visibility.
 
 *Source: VLY earnings, 10-Q/K*
 *Last Updated: 2026-02-05*

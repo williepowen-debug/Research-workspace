@@ -1,0 +1,20 @@
+ID	Name	Category	Current_Value	Yellow	Orange	Red	Status	Confidence	Last_Updated	Source	Notes
+VX-SAM-1.01	JGB 10Y Yield	Bond Market	~2.26%	2.30%	2.50%	3.00%	YELLOW	85%	2026-02-05	Bloomberg	Key BOJ watch level. Above 2.0% triggers policy discussion.
+VX-SAM-1.02	JGB 20Y Yield	Bond Market	~3.19%	3.30%	3.50%	4.00%	YELLOW	85%	2026-02-05	Bloomberg	ATH 3.47% (Jan 2026). Life insurer benchmark.
+VX-SAM-1.03	JGB 30Y Yield	Bond Market	~3.57%	3.75%	4.00%	4.50%	YELLOW	85%	2026-02-05	MOF Auction	Post-auction rally from 3.62%. Watch >4.0% for structural break.
+VX-SAM-1.04	JGB 40Y Yield	Bond Market	~3.85%	4.00%	4.25%	4.75%	YELLOW	85%	2026-02-05	Bloomberg	ATH 4.24% (Jan 2026). Post-auction rally -10bp.
+VX-SAM-2.01	USD/JPY	Currency	~159	158	160	163	YELLOW	90%	2026-02-05	Bloomberg	MOF intervention watch at 160. Currently stable.
+VX-SAM-2.02	EUR/JPY	Currency	~165	165	170	175	YELLOW	80%	2026-02-05	Bloomberg	Secondary intervention trigger.
+VX-SAM-3.01	30Y JGB Auction BTC	Auction Health	3.64	3.00	2.50	2.00	GREEN	95%	2026-02-05	MOF	Feb 5 auction PASSED. Above 12mo avg (3.35). Crisis deferred.
+VX-SAM-3.02	30Y JGB Auction Tail	Auction Health	0.8bp	3bp	6bp	10bp	GREEN	95%	2026-02-05	MOF	Tight tail = confident buyers. Down from 10bp in Jan.
+VX-SAM-3.03	20Y JGB Auction BTC	Auction Health	3.14	2.80	2.40	2.00	YELLOW	80%	2026-01-20	MOF	Jan 20 was worst since 1987. Next auction Feb 19.
+VX-SAM-4.01	Life Insurer Sentiment	Structural Demand	Re-engaging	Cautious	Avoiding	Selling	GREEN	75%	2026-02-05	Meiji Yasuda	"Attractive opportunities" at 3.6%+ yields. Post-auction shift.
+VX-SAM-4.02	Big 4 Unrealized Losses	Stress Level	¥9T ($60B)	¥5T	¥10T	¥15T	ORANGE	80%	2026-02-05	Industry Est	Structural overhang. Drives repatriation risk.
+VX-SAM-5.01	Takaichi Approval	Political	~70% personal	60%	50%	40%	GREEN	75%	2026-02-05	Polls	High personal, LDP only 30%. Election Feb 8.
+VX-SAM-5.02	LDP Projected Seats	Political	TBD	250-260	240-250	<240	PENDING	60%	2026-02-05	Pre-election	>260 = mandate for Sanaeconomics. Watch Feb 8.
+VX-SAM-6.01	BOJ Policy Rate	Monetary	0.25%	0.50%	0.75%	1.00%	GREEN	90%	2026-02-05	BOJ	July hike expected. Normalization continuing.
+VX-SAM-6.02	BOJ 10Y Target	Monetary	Flexible	+/-0.5%	+/-0.75%	Abandoned	GREEN	85%	2026-02-05	BOJ	YCC effectively over but not officially abandoned.
+VX-SAM-7.01	Scenario A/A+ Probability	Outcome	25-30%	-	-	-	-	75%	2026-02-05	PROME	Soft landing. Auction improved odds.
+VX-SAM-7.02	Scenario B Probability	Outcome	50-55%	-	-	-	-	75%	2026-02-05	PROME	Controlled chaos. Base case.
+VX-SAM-7.03	Scenario C Probability	Outcome	3-5%	-	-	-	-	75%	2026-02-05	PROME	Acute panic. Largely closed by auction.
+VX-SAM-7.04	Scenario D2 Probability	Outcome	10-15%	-	-	-	-	70%	2026-02-05	PROME	Monetary dominance. Requires Takaichi landslide.
