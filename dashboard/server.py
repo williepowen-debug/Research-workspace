@@ -304,9 +304,12 @@ class DashboardHandler(http.server.SimpleHTTPRequestHandler):
     def log_message(self, format, *args):
         print(f"[Dashboard] {args[0]}")
 
+class ReusableTCPServer(socketserver.TCPServer):
+    allow_reuse_address = True
+
 def main():
     # Bind to all interfaces so Tailscale can reach it
-    with socketserver.TCPServer(("0.0.0.0", PORT), DashboardHandler) as httpd:
+    with ReusableTCPServer(("0.0.0.0", PORT), DashboardHandler) as httpd:
         print(f"PROME Dashboard running at http://127.0.0.1:{PORT}")
         print(f"Workspace: {WORKSPACE}")
         print("Press Ctrl+C to stop")
