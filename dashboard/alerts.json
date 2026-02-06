@@ -4,9 +4,9 @@
     "timestamp": "2026-02-05 17:00:00 UTC",
     "type": "prediction",
     "severity": "success",
-    "message": "SAM Prediction #1 resolved CORRECT — JGB 30Y auction BTC 3.64x (threshold was >2.10x)",
+    "message": "SAM Prediction #1 resolved CORRECT \u2014 JGB 30Y auction BTC 3.64x (threshold was >2.10x)",
     "value": 3.64,
-    "threshold": 2.10
+    "threshold": 2.1
   },
   {
     "id": 1738944000000,
@@ -22,7 +22,7 @@
     "timestamp": "2026-02-06 13:35:00 UTC",
     "type": "data",
     "severity": "critical",
-    "message": "Challenger January cuts: 108,435 — highest January since 2009 GFC",
+    "message": "Challenger January cuts: 108,435 \u2014 highest January since 2009 GFC",
     "value": 108435,
     "threshold": null
   },
@@ -31,7 +31,7 @@
     "timestamp": "2026-02-06 13:40:00 UTC",
     "type": "data",
     "severity": "critical",
-    "message": "Challenger January hires: 5,306 — lowest January EVER recorded",
+    "message": "Challenger January hires: 5,306 \u2014 lowest January EVER recorded",
     "value": 5306,
     "threshold": null
   },
@@ -40,8 +40,17 @@
     "timestamp": "2026-02-06 15:30:00 UTC",
     "type": "prediction",
     "severity": "warning",
-    "message": "KFRC Prediction #4 marked PARTIAL — guided +2% (wrong) but described 'frozen' market (right), stock -5.7%",
+    "message": "KFRC Prediction #4 marked PARTIAL \u2014 guided +2% (wrong) but described 'frozen' market (right), stock -5.7%",
     "value": null,
     "threshold": null
+  },
+  {
+    "id": 1770404347165,
+    "timestamp": "2026-02-06 18:59:07 UTC",
+    "type": "fred",
+    "severity": "warning",
+    "message": "JOLTS Job Openings breached threshold: 7K (threshold: 7K)",
+    "value": 6542.0,
+    "threshold": 7000
   }
 ]
