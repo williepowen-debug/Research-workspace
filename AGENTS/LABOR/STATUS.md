@@ -28,7 +28,7 @@ This is not synchronized recession — it's a **"barbell" economy**:
 
 | Indicator | Value | Status | Trend |
 |-----------|-------|--------|-------|
-| Initial Claims | 209K | 🟢 | Flat (gig blind spot) |
+| Initial Claims | **231K** | 🟡 | **+22K spike, breached 230K** |
 | U-3 Unemployment | 4.4% | 🟡 | +0.3pp YoY |
 | U-6 Underemployment | 8.4% | 🟠 | +0.8pp YoY |
 | Temp Employment YoY | -12% | 🔴 | RE-ACCELERATING |
@@ -38,6 +38,8 @@ This is not synchronized recession — it's a **"barbell" economy**:
 | **Openings/Unemployed** | **0.87** | 🟠 | **Below 1.0 first time since 2021** |
 | ISM Services Employment | 50.3 | 🟠 | Barely expanding, -1.4pp MoM |
 | Challenger Annual | 1.2M | 🔴 | +58% YoY, 7th highest ever |
+| **Challenger Jan 2026** | **108K** | 🔴 | **HIGHEST JAN SINCE 2009** |
+| **Challenger Hiring Plans** | **5,306** | 🔴 | **LOWEST JAN EVER** |
 | DOGE Cuts | 307K | 🔴 | 24% of all 2025 cuts |
 | Google "Severance" | 100 | 🔴 | ALL-TIME HIGH |
 | ISM Mfg Employment | 48.1% | 🔴 | 28 months contraction |
@@ -46,7 +48,15 @@ This is not synchronized recession — it's a **"barbell" economy**:
 
 **Composite Assessment:** Surface GREEN, Hidden RED — JOLTS confirms demand collapse
 
-### 🆕 Feb 5 Update — JOLTS Collapse
+### 🆕 Feb 6 Update — Claims Spike + Challenger Confirms
+- **Initial Claims: 231K** (vs 212K exp, prev 209K) — **+22K jump, breached 230K threshold**
+- **Challenger Jan cuts: 108,435** — **HIGHEST JANUARY SINCE 2009 GFC** (+118% YoY)
+- **Challenger hiring plans: 5,306** — **LOWEST JANUARY EVER RECORDED**
+- Healthcare cuts: 17,107 — most since April 2020, last holdout sector now breaking
+- AI-attributed cuts: 7,624 (7% of total)
+- KFRC: "persistently weak and largely frozen labor market"
+
+### Feb 5 Update — JOLTS Collapse
 - **JOLTS Job Openings: 6.5M** (down from 6.9M revised) — **LOWEST SINCE DECEMBER 2017**
 - **Openings/Unemployed: 0.87** — below 1.0 for first time since Feb 2021
 - **1 million more unemployed than job openings** (7.5M vs 6.5M)

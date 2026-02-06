@@ -1,5 +1,5 @@
 # PROME STATUS.md
-**Updated:** 2026-02-06 00:32 UTC
+**Updated:** 2026-02-06 16:45 UTC
 
 ---
 
@@ -7,7 +7,7 @@
 
 | Agent | Status | Current Focus | Next Critical |
 |-------|--------|---------------|---------------|
-| **LABOR** | 🔴 RED | JOLTS collapse (6.5M, 2017 low); ADP miss | **KFRC earnings Feb 6** (prediction #4); Claims 8:30am |
+| **LABOR** | 🔴 RED | **Claims 231K (+22K spike); Challenger 108K (2009 high)** | NFP Feb 11; watch if claims stays elevated |
 | **CARL** | 🟡 YELLOW | Watching LABOR; subprime stress building | Follows LABOR by 3-6mo |
 | **HENRY** | 🟢 GREEN | Cluster 6 complete; 56 vectors | VIX spike watch; tech breadth 45% |
 | **SAM** | 🟡 YELLOW | **Auction PASSED** (3.64 BTC) | **Feb 8 election** — Takaichi outcome |
@@ -118,12 +118,12 @@ AGENTS/REGINALD/sub-agents/CORAL/
 
 | Thread | Status | Owner | Next Action |
 |--------|--------|-------|-------------|
-| **KRE puts** | 🟢 LIVE | PROME | Monitor; add on triggers |
+| **KRE puts** | 🟢 LIVE | PROME | $72.30, at entry; put volume +46% this week |
 | **CORAL FL monitoring** | 🟢 ACTIVE | CORAL | Track blacklist, bankruptcies, VLY |
-| **KFRC earnings Feb 6** | ⏳ TOMORROW | LABOR | Prediction #4 — temp bellwether |
-| **Claims Feb 6** | ⏳ TOMORROW | LABOR | 8:30am ET — weekly read |
-| **Challenger Jan cuts Feb 6** | ⏳ TOMORROW | LABOR | First Thursday — 75K+ expected |
-| SAM Feb 8 election | ⏳ WAITING | SAM | Takaichi outcome |
+| **Claims spike** | ✅ CONFIRMED | LABOR | 231K — breached 230K, watch for persistence |
+| **Challenger Jan** | ✅ CONFIRMED | LABOR | 108K cuts (2009 high), 5.3K hires (record low) |
+| **KFRC** | ⚠️ PARTIAL | LABOR | Prediction #4 resolved — thesis validated, guidance beat |
+| **SAM Feb 8 election** | ⏳ SUNDAY | SAM | Takaichi seat count — >260 = fiscal risk |
 | NFP Feb 11 | ⏳ WAITING | LABOR | Delayed employment report |
 | VLY Q1 earnings | ⏳ ~Apr 23 | CORAL | First post-SIRS visibility |
 | First Brands examiner Feb 25 | ⏳ WAITING | OTTO | Fraud thesis validation |

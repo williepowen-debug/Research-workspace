@@ -14,7 +14,7 @@
 | 1 | Claims break >300K sustained | Q2-Q3 2026 | 65% | ⏳ Pending |
 | 2 | U-3 rises to >5.0% | Q3 2026 | 55% | ⏳ Pending |
 | 3 | NFP prints negative (<0) | Q2 2026 | 50% | ⏳ Pending |
-| 4 | Temp staffing (KFRC/RHI) guides down | Q1 2026 | 70% | ⏳ Pending |
+| 4 | Temp staffing (KFRC/RHI) guides down | Q1 2026 | 70% | ⚠️ **PARTIAL** — See resolved |
 
 ### CARL
 | # | Prediction | Timeframe | Confidence | Status |
@@ -140,6 +140,7 @@
 | Agent | Prediction | Outcome | Date | Notes |
 |-------|------------|---------|------|-------|
 | SAM | Feb 5 30Y JGB auction BTC >2.10x (not failure) | ✅ CORRECT | Feb 5, 2026 | BTC 3.64x — way above threshold. Life insurers re-engaged at 3.6%+ yields. Crisis deferred, not resolved. |
+| LABOR | KFRC/RHI guides down | ⚠️ PARTIAL | Feb 6, 2026 | KFRC guided Q1 +2% vs estimates (technically wrong), BUT described market as "persistently weak and largely frozen." Stock dropped 5.7% despite beat. Underlying thesis validated — companies using temp as hedge, not expanding. Prediction poorly specified. |
 
 ---
 
@@ -151,6 +152,8 @@ Track over time:
 - Average confidence on confirmed vs disconfirmed
 
 *Goal: Get better at estimating uncertainty, not at being right.*
+
+**Resolved: 2 | Correct: 1 | Partial: 1 | Wrong: 0**
 
 ---
 
