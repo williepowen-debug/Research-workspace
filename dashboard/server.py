@@ -17,6 +17,10 @@ WORKSPACE = "/home/moltbot/.openclaw/workspace"
 ALERTS_FILE = os.path.join(WORKSPACE, "dashboard", "alerts.json")
 FRED_API_KEY = "8ce3f08db56f151f54221a0dd12b63de"
 
+# Telegram alerting - direct bot API
+TELEGRAM_BOT_TOKEN = "8533568512:AAEf4FwstJbg0GE0FcEB-w96I9hJokPuY8k"
+TELEGRAM_CHAT_ID = "8463631023"  # Will's Telegram ID
+
 # Price cache (avoid hammering APIs)
 price_cache = {
     "data": None,
@@ -154,6 +158,39 @@ def check_fred_alerts(fred_data):
         
         last_breach_state[key] = breached
 
+def send_telegram_alert(message, severity="warning"):
+    """Send alert to Telegram via Bot API"""
+    try:
+        # Add emoji based on severity
+        emoji = {"critical": "🚨", "warning": "⚠️", "info": "ℹ️", "success": "✅"}.get(severity, "📊")
+        full_message = f"{emoji} *PROME Alert*\n\n{message}"
+        
+        # Use Telegram Bot API directly
+        payload = json.dumps({
+            "chat_id": TELEGRAM_CHAT_ID,
+            "text": full_message,
+            "parse_mode": "Markdown"
+        }).encode('utf-8')
+        
+        req = urllib.request.Request(
+            f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage",
+            data=payload,
+            headers={"Content-Type": "application/json"},
+            method="POST"
+        )
+        
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            result = json.loads(resp.read().decode())
+            if result.get("ok"):
+                print(f"[Telegram] Alert sent: {message[:50]}...")
+                return True
+            else:
+                print(f"[Telegram] API error: {result}")
+                return False
+    except Exception as e:
+        print(f"[Telegram] Failed to send alert: {e}")
+        return False
+
 def load_alerts():
     """Load alerts from file"""
     if os.path.exists(ALERTS_FILE):
@@ -171,7 +208,7 @@ def save_alerts(alerts):
     with open(ALERTS_FILE, 'w') as f:
         json.dump(alerts, f, indent=2)
 
-def add_alert(alert_type, severity, message, value=None, threshold=None):
+def add_alert(alert_type, severity, message, value=None, threshold=None, notify=True):
     """Add a new alert"""
     alerts = load_alerts()
     alert = {
@@ -186,6 +223,11 @@ def add_alert(alert_type, severity, message, value=None, threshold=None):
     alerts.append(alert)
     save_alerts(alerts)
     print(f"[Alert] {severity.upper()}: {message}")
+    
+    # Send to Telegram for critical and warning alerts
+    if notify and severity in ["critical", "warning"]:
+        send_telegram_alert(message, severity)
+    
     return alert
 
 def check_thresholds(prices):
