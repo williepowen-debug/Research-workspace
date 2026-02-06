@@ -1,5 +1,5 @@
 # CARL STATUS
-**Last Updated:** 2026-02-02 | **Status:** 🟠 ELEVATED — Latent Stress Awaiting Trigger
+**Last Updated:** 2026-02-06 | **Status:** 🟠 ELEVATED — Subprime Breaking, Prime Holding
 
 ---
 
@@ -26,9 +26,11 @@ Per REGINALD: Claims >300K or U-3 >5.0% → all ORANGE banks escalate simultaneo
 
 | Indicator | Value | Status | Implication |
 |-----------|-------|--------|-------------|
-| CC Delinquency 90+ | Rising | 🟠 | Approaching 2019 levels |
-| CC Minimum Payment Rate | 12-yr HIGH | 🔴 | Zombie borrowers maxed out |
-| Auto Delinquency 60+ | 6.1% (subprime) | 🟠 | Auto stress precedes housing |
+| CC Delinquency 30+ | **2.98%** (declining) | 🟢 | 5th straight quarter down |
+| CC Delinquency 90+ | 7.05% (flat YoY) | 🟡 | Stabilized at elevated level |
+| Auto Delinquency 60+ | **6.74% (subprime)** | 🔴 | **32-YEAR HIGH** (worst since 1994) |
+| Auto Delinquency 60+ | 0.37% (prime) | 🟢 | Prime holding fine |
+| Total Household Debt | **$18.59T** (record) | 🟠 | +$4.44T since 2019 |
 | Medical Debt (collections) | $88-140B | 🟠 | Plus $50-100B pre-collections |
 | BNPL Stacking | 63% simultaneous | 🔴 | Hidden leverage multiplier |
 | Hardship 401k Withdrawals | ATH (4.8-5.0%) | 🔴 | Buffer exhaustion signal |

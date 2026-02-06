@@ -1,5 +1,5 @@
 # LIQUID STATUS
-**Last Updated:** 2026-02-02 | **Status:** 🟠 ELEVATED — Buffer Exhausted, System Fed-Dependent
+**Last Updated:** 2026-02-06 | **Status:** 🟠 ELEVATED — Buffer GONE, System Fed-Dependent
 
 ---
 
@@ -23,8 +23,9 @@ The system now operates in a **Fed-dependent regime**. Any shock that exceeds re
 
 | Vector | Value | Status | Threshold |
 |--------|-------|--------|-----------|
-| RRP Balance | $10.4B | 🔴 RED | <$5B critical |
-| SOFR-IORB Spread | +3bps | 🟢 GREEN | >+5bps yellow |
+| RRP Balance | **~$6B** | 🔴 RED | <$5B critical — **EFFECTIVELY ZERO** |
+| SOFR-IORB Spread | **0 bps** | 🟢 GREEN | >+5bps yellow |
+| SOFR | 3.65% | 🟢 GREEN | = IORB (perfect alignment) |
 | SRF Usage (peak) | $74.6B | 🟠 ORANGE | >$50B sustained |
 | Dealer Net Position | ~$200B | 🟠 ORANGE | >$200B clogged |
 | Basis Trade Exposure | $1.85T | 🟡 YELLOW | >$2.0T orange |

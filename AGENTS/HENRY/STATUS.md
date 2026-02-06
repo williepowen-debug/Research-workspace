@@ -1,7 +1,7 @@
 # HENRY STATUS.md
 **Agent:** HENRY (Market Structure & Historical Anomalies)
-**Updated:** 2026-02-03
-**Status:** YELLOW — Stable but Fragile | Internal Rot Emerging
+**Updated:** 2026-02-06
+**Status:** 🟡 YELLOW — Vol Spike, Positioning-Driven (Not Fundamental)
 
 ---
 
@@ -23,17 +23,24 @@ The equity market is a **derivatives-driven machine** where dealer hedging and s
 
 | Indicator | Current | Threshold | Status |
 |-----------|---------|-----------|--------|
-| SPX Spot | 6,939 | — | Near ATH |
-| IV Rank | 7.94% | <10% = extreme | 🔴 RED |
+| SPX Spot | ~6,850 | — | Off ATH, testing support |
+| **VIX** | **21.77** | >20 = elevated | 🟠 ORANGE (+16.79% single session) |
+| **MOVE** | **65.82** | <80 = calm | 🟢 GREEN (near 4-yr lows) |
+| **VIX/MOVE Ratio** | **3.0x** | Typical 4-6x | 🟡 DIVERGENCE — equity vol > bond vol |
 | Net GEX | ~$62B | <$2B = thin | 🟢 GREEN |
-| HY OAS | ~2.7% | <3% = tight | 🟠 ORANGE |
+| HY OAS | **~281 bps** | <300 = tight | 🟠 ORANGE (near 2007 lows) |
+| 0DTE Share | **61%** of SPX | Was 51% | 🟠 ORANGE (amplification risk) |
 | High-Low Index | 88.0% | >80% = strength | 🟢 GREEN |
 | McClellan Sum | 2,589 | <+500 = bearish | 🟢 GREEN |
 | Tech Breadth | 45.7% | <40% = danger | 🟠 ORANGE |
 | Earnings Rev Ratio | 1.05 | <0.70 = recession | 🟡 YELLOW |
 | Layoff YoY | +58% | >40% = stress | 🔴 RED |
 
-**Composite:** 🟡 YELLOW — Breadth healthy, but Tech rot + corporate stress = fragility
+**Composite:** 🟡 YELLOW — VIX spike positioning-driven (MOVE calm). Breadth healthy but Tech rot persists.
+
+**Key divergence:** Bond vol (MOVE 65.82) extremely calm while equity vol (VIX 21.77) spiked. Ratio 3.0x vs typical 4-6x. This suggests:
+1. Equity move is positioning/event-driven, likely to revert, OR
+2. Bond vol is too complacent and will catch up
 
 ---
 

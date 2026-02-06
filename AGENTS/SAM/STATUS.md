@@ -32,7 +32,7 @@ The yen has been the release valve (155.94 currently), but if bonds break first,
 | JGB 20Y | ~3.19% | 🟡 YELLOW | ATH 3.47% (Jan) |
 | JGB 30Y | **~3.57%** | 🟡 YELLOW | Watch >4.00% |
 | JGB 40Y | **~3.85%** | 🟡 YELLOW | ATH 4.24% (Jan) |
-| USD/JPY | ~159 | 🟡 YELLOW | 160 🔴 |
+| USD/JPY | **~156.7-157** | 🟡 YELLOW | 160 🔴 |
 | 30Y Auction BTC | **3.64** | 🟢 GREEN | Above 12mo avg (3.35) |
 
 **Composite:** Post-auction rally. Yields retreated from ATH. Yen stable. Demand returned. Election is now the swing factor.
