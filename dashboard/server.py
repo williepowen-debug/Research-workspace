@@ -53,6 +53,13 @@ bls_cache = {
     "ttl": 3600  # 1 hour
 }
 
+# Google Trends cache
+trends_cache = {
+    "data": None,
+    "timestamp": 0,
+    "ttl": 86400  # 24 hours - trends don't change fast
+}
+
 # SEC filings cache
 sec_cache = {
     "data": None,
@@ -239,6 +246,60 @@ def fetch_bls_data():
     bls_cache["timestamp"] = now
     
     return bls_data
+
+def fetch_treasury_auctions():
+    """Fetch recent Treasury auction results from TreasuryDirect"""
+    now = time.time()
+    
+    # Return cached data if fresh  
+    if trends_cache["data"] and (now - trends_cache["timestamp"]) < trends_cache["ttl"]:
+        return trends_cache["data"]
+    
+    auction_data = {
+        "auctions": [],
+        "updated": None
+    }
+    
+    try:
+        # TreasuryDirect API for completed auctions
+        url = "https://www.treasurydirect.gov/TA_WS/securities/auctioned?format=json&pagesize=15"
+        
+        req = urllib.request.Request(
+            url,
+            headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+        )
+        
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            data = json.loads(resp.read().decode())
+            
+            for record in data:
+                # Only include notes/bonds (not bills) for meaningful BTC analysis
+                sec_type = record.get("securityType", "")
+                term = record.get("securityTerm", "")
+                
+                btc = record.get("bidToCoverRatio", "")
+                high_yield = record.get("highYield", "") or record.get("highInvestmentRate", "")
+                
+                auction = {
+                    "security_type": sec_type,
+                    "security_term": term,
+                    "auction_date": record.get("auctionDate", "")[:10] if record.get("auctionDate") else "",
+                    "high_yield": high_yield,
+                    "bid_to_cover": btc,
+                    "type": record.get("type", ""),
+                }
+                auction_data["auctions"].append(auction)
+                
+    except Exception as e:
+        print(f"[Treasury] Fetch error: {e}")
+    
+    auction_data["updated"] = time.strftime("%Y-%m-%d %H:%M:%S UTC", time.gmtime())
+    
+    # Cache it (reusing trends_cache)
+    trends_cache["data"] = auction_data  
+    trends_cache["timestamp"] = now
+    
+    return auction_data
 
 def fetch_sec_filings():
     """Fetch recent SEC filings for watchlist companies"""
@@ -609,6 +670,19 @@ class DashboardHandler(http.server.SimpleHTTPRequestHandler):
                 self.send_header('Access-Control-Allow-Origin', '*')
                 self.end_headers()
                 self.wfile.write(json.dumps(prices).encode('utf-8'))
+            except Exception as e:
+                self.send_error(500, str(e))
+            return
+        
+        # API endpoint to get Treasury auction data
+        if parsed.path == '/api/treasury':
+            try:
+                treasury_data = fetch_treasury_auctions()
+                self.send_response(200)
+                self.send_header('Content-type', 'application/json')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                self.wfile.write(json.dumps(treasury_data).encode('utf-8'))
             except Exception as e:
                 self.send_error(500, str(e))
             return
