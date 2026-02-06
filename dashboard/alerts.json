@@ -52,5 +52,14 @@
     "message": "JOLTS Job Openings breached threshold: 7K (threshold: 7K)",
     "value": 6542.0,
     "threshold": 7000
+  },
+  {
+    "id": 1770405258802,
+    "timestamp": "2026-02-06 19:14:18 UTC",
+    "type": "fred",
+    "severity": "warning",
+    "message": "JOLTS Job Openings breached threshold: 7K (threshold: 7K)",
+    "value": 6542.0,
+    "threshold": 7000
   }
 ]
