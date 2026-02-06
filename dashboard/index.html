@@ -737,6 +737,42 @@
             </div>
             
             <div class="agents-section">
+                <div class="section-title">Economic Indicators (FRED)</div>
+                <div class="market-grid" id="fred-grid">
+                    <div class="market-card">
+                        <div class="market-label">Initial Claims</div>
+                        <div class="market-value" id="fred-icsa">—</div>
+                        <div class="market-threshold" id="fred-icsa-meta">Threshold: >250K</div>
+                    </div>
+                    <div class="market-card">
+                        <div class="market-label">Continuing Claims</div>
+                        <div class="market-value" id="fred-ccsa">—</div>
+                        <div class="market-threshold" id="fred-ccsa-meta">Threshold: >2M</div>
+                    </div>
+                    <div class="market-card">
+                        <div class="market-label">JOLTS Openings</div>
+                        <div class="market-value" id="fred-jtsjol">—</div>
+                        <div class="market-threshold" id="fred-jtsjol-meta">Threshold: <7M</div>
+                    </div>
+                    <div class="market-card">
+                        <div class="market-label">Unemployment Rate</div>
+                        <div class="market-value" id="fred-unrate">—</div>
+                        <div class="market-threshold" id="fred-unrate-meta">Threshold: >5.0%</div>
+                    </div>
+                    <div class="market-card">
+                        <div class="market-label">Temp Employment</div>
+                        <div class="market-value" id="fred-temphelps">—</div>
+                        <div class="market-threshold" id="fred-temphelps-meta">Leading indicator</div>
+                    </div>
+                    <div class="market-card">
+                        <div class="market-label">Nonfarm Payrolls</div>
+                        <div class="market-value" id="fred-payems">—</div>
+                        <div class="market-threshold" id="fred-payems-meta">Total employment</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="agents-section">
                 <div class="section-title">Market Data</div>
                 <div class="market-grid" id="market-grid">
                     <div class="market-card">
@@ -1004,12 +1040,69 @@
             document.getElementById('update-time').textContent = data.updated || new Date().toISOString();
         }
         
+        async function fetchFred() {
+            try {
+                const resp = await fetch('/api/fred');
+                if (resp.ok) {
+                    const data = await resp.json();
+                    updateFred(data);
+                }
+            } catch (e) {
+                console.error('FRED fetch error:', e);
+            }
+        }
+        
+        function formatFredValue(value, format) {
+            if (format === 'thousands') {
+                if (value >= 1000000) return (value / 1000000).toFixed(2) + 'M';
+                if (value >= 1000) return (value / 1000).toFixed(0) + 'K';
+                return value.toFixed(0);
+            }
+            if (format === 'percent') return value.toFixed(1) + '%';
+            return value.toString();
+        }
+        
+        function updateFred(data) {
+            const series = data.series || {};
+            
+            for (const [id, info] of Object.entries(series)) {
+                const el = document.getElementById('fred-' + id.toLowerCase());
+                const metaEl = document.getElementById('fred-' + id.toLowerCase() + '-meta');
+                
+                if (!el) continue;
+                
+                if (info.error) {
+                    el.textContent = 'Error';
+                    el.className = 'market-value';
+                    continue;
+                }
+                
+                const formatted = formatFredValue(info.value, info.format);
+                let changeStr = '';
+                if (info.change !== null) {
+                    const changeFormatted = info.format === 'percent' 
+                        ? (info.change >= 0 ? '+' : '') + info.change.toFixed(1) + '%'
+                        : (info.change >= 0 ? '+' : '') + formatFredValue(Math.abs(info.change), info.format);
+                    changeStr = ` (${info.change >= 0 ? '↑' : '↓'}${changeFormatted.replace(/^[+-]/, '')})`;
+                }
+                
+                el.textContent = formatted;
+                el.className = 'market-value ' + (info.breached ? 'breach' : 'normal');
+                
+                if (metaEl && info.date) {
+                    metaEl.textContent = info.date + changeStr;
+                }
+            }
+        }
+        
         // Init
         renderAgents();
         fetchPrices();
         fetchAlerts();
+        fetchFred();
         setInterval(fetchPrices, 60000);
         setInterval(fetchAlerts, 60000);
+        setInterval(fetchFred, 300000);  // FRED data every 5 min (doesn't change often)
     </script>
 </body>
 </html>

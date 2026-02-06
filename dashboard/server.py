@@ -15,6 +15,7 @@ from urllib.parse import urlparse, parse_qs
 PORT = 8080
 WORKSPACE = "/home/moltbot/.openclaw/workspace"
 ALERTS_FILE = os.path.join(WORKSPACE, "dashboard", "alerts.json")
+FRED_API_KEY = "8ce3f08db56f151f54221a0dd12b63de"
 
 # Price cache (avoid hammering APIs)
 price_cache = {
@@ -23,8 +24,135 @@ price_cache = {
     "ttl": 300  # 5 minutes
 }
 
+# FRED data cache (longer TTL - economic data doesn't change intraday)
+fred_cache = {
+    "data": None,
+    "timestamp": 0,
+    "ttl": 3600  # 1 hour
+}
+
 # Alert tracking
 last_breach_state = {}
+
+# FRED series we care about
+FRED_SERIES = {
+    "ICSA": {"name": "Initial Claims", "threshold": 250000, "direction": "above", "format": "thousands"},
+    "CCSA": {"name": "Continuing Claims", "threshold": 2000000, "direction": "above", "format": "thousands"},
+    "JTSJOL": {"name": "JOLTS Job Openings", "threshold": 7000, "direction": "below", "format": "thousands"},
+    "TEMPHELPS": {"name": "Temp Employment", "threshold": None, "direction": None, "format": "thousands"},
+    "UNRATE": {"name": "Unemployment Rate", "threshold": 5.0, "direction": "above", "format": "percent"},
+    "PAYEMS": {"name": "Nonfarm Payrolls", "threshold": None, "direction": None, "format": "thousands"},
+}
+
+def fetch_fred_data():
+    """Fetch economic data from FRED API"""
+    now = time.time()
+    
+    # Return cached data if fresh
+    if fred_cache["data"] and (now - fred_cache["timestamp"]) < fred_cache["ttl"]:
+        return fred_cache["data"]
+    
+    fred_data = {
+        "series": {},
+        "updated": None
+    }
+    
+    for series_id, config in FRED_SERIES.items():
+        try:
+            url = f"https://api.stlouisfed.org/fred/series/observations?series_id={series_id}&api_key={FRED_API_KEY}&file_type=json&sort_order=desc&limit=5"
+            req = urllib.request.Request(url, headers={"User-Agent": "PROME-Dashboard/1.0"})
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                data = json.loads(resp.read().decode())
+                observations = data.get("observations", [])
+                
+                if observations:
+                    # Get latest non-empty value
+                    latest = None
+                    prev = None
+                    for i, obs in enumerate(observations):
+                        if obs.get("value") and obs["value"] != ".":
+                            if latest is None:
+                                latest = obs
+                            elif prev is None:
+                                prev = obs
+                                break
+                    
+                    if latest:
+                        value = float(latest["value"])
+                        prev_value = float(prev["value"]) if prev and prev["value"] != "." else None
+                        change = None
+                        if prev_value is not None:
+                            change = value - prev_value
+                        
+                        fred_data["series"][series_id] = {
+                            "name": config["name"],
+                            "value": value,
+                            "previous": prev_value,
+                            "change": change,
+                            "date": latest["date"],
+                            "threshold": config["threshold"],
+                            "direction": config["direction"],
+                            "format": config["format"],
+                            "breached": check_fred_breach(value, config)
+                        }
+        except Exception as e:
+            print(f"[FRED] {series_id} fetch error: {e}")
+            fred_data["series"][series_id] = {"error": str(e), "name": config["name"]}
+    
+    fred_data["updated"] = time.strftime("%Y-%m-%d %H:%M:%S UTC", time.gmtime())
+    
+    # Cache it
+    fred_cache["data"] = fred_data
+    fred_cache["timestamp"] = now
+    
+    # Check for alert-worthy changes
+    check_fred_alerts(fred_data)
+    
+    return fred_data
+
+def check_fred_breach(value, config):
+    """Check if a FRED value breaches its threshold"""
+    if config["threshold"] is None:
+        return False
+    if config["direction"] == "above":
+        return value > config["threshold"]
+    elif config["direction"] == "below":
+        return value < config["threshold"]
+    return False
+
+def check_fred_alerts(fred_data):
+    """Generate alerts for FRED threshold breaches"""
+    global last_breach_state
+    
+    for series_id, data in fred_data["series"].items():
+        if "error" in data:
+            continue
+        
+        key = f"fred_{series_id}"
+        breached = data.get("breached", False)
+        prev_breached = last_breach_state.get(key, False)
+        
+        if breached and not prev_breached:
+            value = data["value"]
+            threshold = data["threshold"]
+            name = data["name"]
+            
+            if data["format"] == "thousands":
+                value_str = f"{value/1000:.0f}K" if value >= 1000 else f"{value:.0f}"
+                thresh_str = f"{threshold/1000:.0f}K" if threshold >= 1000 else f"{threshold:.0f}"
+            else:
+                value_str = f"{value:.1f}%"
+                thresh_str = f"{threshold:.1f}%"
+            
+            add_alert(
+                alert_type="fred",
+                severity="critical" if series_id in ["ICSA", "UNRATE"] else "warning",
+                message=f"{name} breached threshold: {value_str} (threshold: {thresh_str})",
+                value=value,
+                threshold=threshold
+            )
+        
+        last_breach_state[key] = breached
 
 def load_alerts():
     """Load alerts from file"""
@@ -218,6 +346,19 @@ class DashboardHandler(http.server.SimpleHTTPRequestHandler):
                 self.send_header('Access-Control-Allow-Origin', '*')
                 self.end_headers()
                 self.wfile.write(json.dumps(prices).encode('utf-8'))
+            except Exception as e:
+                self.send_error(500, str(e))
+            return
+        
+        # API endpoint to get FRED economic data
+        if parsed.path == '/api/fred':
+            try:
+                fred_data = fetch_fred_data()
+                self.send_response(200)
+                self.send_header('Content-type', 'application/json')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                self.wfile.write(json.dumps(fred_data).encode('utf-8'))
             except Exception as e:
                 self.send_error(500, str(e))
             return
