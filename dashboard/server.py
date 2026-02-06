@@ -761,7 +761,7 @@ class DashboardHandler(http.server.SimpleHTTPRequestHandler):
             self.wfile.write(json.dumps(alert).encode('utf-8'))
             return
         
-        # API endpoint to get agent statuses
+        # API endpoint to get agent statuses (dynamically parsed from STATUS.md)
         if parsed.path == '/api/agents':
             try:
                 agents_data = []
@@ -774,6 +774,9 @@ class DashboardHandler(http.server.SimpleHTTPRequestHandler):
                     ('LIQUID', 'AGENTS/LIQUID/STATUS.md'),
                     ('MARCO', 'AGENTS/MARCO/STATUS.md'),
                     ('OTTO', 'AGENTS/OTTO/STATUS.md'),
+                    ('CORAL', 'AGENTS/REGINALD/sub-agents/CORAL/STATUS.md'),
+                    ('BROCK', 'AGENTS/REGINALD/sub-agents/BROCK/STATUS.md'),
+                    ('CREED', 'AGENTS/REGINALD/CREED/STATUS.md'),
                 ]
                 
                 for name, path in agents:
@@ -782,13 +785,22 @@ class DashboardHandler(http.server.SimpleHTTPRequestHandler):
                     if os.path.exists(full_path):
                         with open(full_path, 'r') as f:
                             content = f.read(500)  # Read first 500 chars
-                            if '🔴' in content or 'RED' in content or 'CRITICAL' in content:
+                            # Check for status indicators (order matters - most severe first)
+                            if '🔴' in content:
                                 status = 'RED'
-                            elif '🟠' in content or 'ORANGE' in content or 'ELEVATED' in content:
+                            elif 'CRITICAL' in content.upper():
+                                status = 'RED'
+                            elif '🟠' in content:
                                 status = 'ORANGE'
-                            elif '🟡' in content or 'YELLOW' in content:
+                            elif 'ELEVATED' in content.upper() or 'ORANGE' in content.upper():
+                                status = 'ORANGE'
+                            elif '🟡' in content:
                                 status = 'YELLOW'
-                            elif '🟢' in content or 'GREEN' in content:
+                            elif 'YELLOW' in content.upper():
+                                status = 'YELLOW'
+                            elif '🟢' in content:
+                                status = 'GREEN'
+                            elif 'GREEN' in content.upper():
                                 status = 'GREEN'
                     
                     agents_data.append({'name': name, 'status': status, 'file': path})

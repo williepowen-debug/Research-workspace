@@ -911,19 +911,64 @@
     
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script>
-        const agents = [
-            { id: 'LABOR', status: 'red', label: 'Employment', file: 'AGENTS/LABOR/STATUS.md' },
-            { id: 'CARL', status: 'orange', label: 'Consumer', file: 'AGENTS/CARL/STATUS.md' },
-            { id: 'HENRY', status: 'yellow', label: 'Market Structure', file: 'AGENTS/HENRY/STATUS.md' },
-            { id: 'SAM', status: 'yellow', label: 'Japan/JGB', file: 'AGENTS/SAM/STATUS.md' },
-            { id: 'REGINALD', status: 'orange', label: 'Regional Banks', file: 'AGENTS/REGINALD/STATUS.md' },
-            { id: 'LIQUID', status: 'green', label: 'Funding/Repo', file: 'AGENTS/LIQUID/STATUS.md' },
-            { id: 'MARCO', status: 'orange', label: 'Migration', file: 'AGENTS/MARCO/STATUS.md' },
-            { id: 'CORAL', status: 'orange', label: 'Florida CRE', file: 'AGENTS/REGINALD/sub-agents/CORAL/STATUS.md' },
-            { id: 'BROCK', status: 'yellow', label: 'BDC/Credit', file: 'AGENTS/REGINALD/sub-agents/BROCK/STATUS.md' },
-            { id: 'CREED', status: 'yellow', label: 'CRE Maturity', file: 'AGENTS/REGINALD/sub-agents/CREED/STATUS.md' },
-            { id: 'OTTO', status: 'red', label: 'NDFI/Fraud', file: 'AGENTS/OTTO/STATUS.md' },
+        // Agent definitions - status will be fetched dynamically
+        let agents = [
+            { id: 'LABOR', status: 'unknown', label: 'Employment', file: 'AGENTS/LABOR/STATUS.md' },
+            { id: 'CARL', status: 'unknown', label: 'Consumer', file: 'AGENTS/CARL/STATUS.md' },
+            { id: 'HENRY', status: 'unknown', label: 'Market Structure', file: 'AGENTS/HENRY/STATUS.md' },
+            { id: 'SAM', status: 'unknown', label: 'Japan/JGB', file: 'AGENTS/SAM/STATUS.md' },
+            { id: 'REGINALD', status: 'unknown', label: 'Regional Banks', file: 'AGENTS/REGINALD/STATUS.md' },
+            { id: 'LIQUID', status: 'unknown', label: 'Funding/Repo', file: 'AGENTS/LIQUID/STATUS.md' },
+            { id: 'MARCO', status: 'unknown', label: 'Migration', file: 'AGENTS/MARCO/STATUS.md' },
+            { id: 'CORAL', status: 'unknown', label: 'Florida CRE', file: 'AGENTS/REGINALD/sub-agents/CORAL/STATUS.md' },
+            { id: 'BROCK', status: 'unknown', label: 'BDC/Credit', file: 'AGENTS/REGINALD/sub-agents/BROCK/STATUS.md' },
+            { id: 'CREED', status: 'unknown', label: 'CRE Maturity', file: 'AGENTS/REGINALD/CREED/STATUS.md' },
+            { id: 'OTTO', status: 'unknown', label: 'NDFI/Fraud', file: 'AGENTS/OTTO/STATUS.md' },
         ];
+        
+        async function fetchAgentStatuses() {
+            try {
+                const resp = await fetch('/api/agents');
+                if (resp.ok) {
+                    const data = await resp.json();
+                    // Update agent statuses from API
+                    for (const apiAgent of data) {
+                        const agent = agents.find(a => a.id === apiAgent.name);
+                        if (agent) {
+                            agent.status = apiAgent.status.toLowerCase();
+                        }
+                    }
+                    renderAgents();
+                    updateTransmissionChain();
+                }
+            } catch (e) {
+                console.error('Agent status fetch error:', e);
+            }
+        }
+        
+        function updateTransmissionChain() {
+            // Update transmission chain based on current agent statuses
+            const laborStatus = agents.find(a => a.id === 'LABOR')?.status || 'unknown';
+            const carlStatus = agents.find(a => a.id === 'CARL')?.status || 'unknown';
+            const reginaldStatus = agents.find(a => a.id === 'REGINALD')?.status || 'unknown';
+            
+            const statusEmoji = {
+                'red': '🔴', 'orange': '🟠', 'yellow': '🟡', 'green': '🟢', 'unknown': '⚪'
+            };
+            
+            // Update chain nodes
+            const chainNodes = document.querySelectorAll('.chain-node');
+            if (chainNodes.length >= 3) {
+                chainNodes[0].querySelector('.chain-node-status').textContent = statusEmoji[laborStatus];
+                chainNodes[0].classList.toggle('active-stress', laborStatus === 'red');
+                
+                chainNodes[1].querySelector('.chain-node-status').textContent = statusEmoji[carlStatus];
+                chainNodes[1].classList.toggle('active-stress', carlStatus === 'red');
+                
+                chainNodes[2].querySelector('.chain-node-status').textContent = statusEmoji[reginaldStatus];
+                chainNodes[2].classList.toggle('active-stress', reginaldStatus === 'red');
+            }
+        }
         
         const ENTRY_PRICE = 72.62;
         
@@ -1282,13 +1327,14 @@
         }
         
         // Init
-        renderAgents();
+        fetchAgentStatuses();  // Fetch dynamic status first
         fetchPrices();
         fetchAlerts();
         fetchFred();
         fetchBls();
         fetchTreasury();
         fetchSec();
+        setInterval(fetchAgentStatuses, 300000);  // Agent status every 5 min
         setInterval(fetchPrices, 60000);
         setInterval(fetchAlerts, 60000);
         setInterval(fetchFred, 300000);  // FRED data every 5 min (doesn't change often)
