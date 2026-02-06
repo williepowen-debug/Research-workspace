@@ -737,6 +737,47 @@
             </div>
             
             <div class="agents-section">
+                <div class="section-title">Employment by Sector (BLS)</div>
+                <div class="market-grid" id="bls-grid">
+                    <div class="market-card">
+                        <div class="market-label">Temp Help Services</div>
+                        <div class="market-value" id="bls-temp">—</div>
+                        <div class="market-threshold" id="bls-temp-meta">Leading indicator</div>
+                    </div>
+                    <div class="market-card">
+                        <div class="market-label">Total Private</div>
+                        <div class="market-value" id="bls-private">—</div>
+                        <div class="market-threshold" id="bls-private-meta">Headline</div>
+                    </div>
+                    <div class="market-card">
+                        <div class="market-label">Manufacturing</div>
+                        <div class="market-value" id="bls-mfg">—</div>
+                        <div class="market-threshold" id="bls-mfg-meta">Cyclical</div>
+                    </div>
+                    <div class="market-card">
+                        <div class="market-label">Retail Trade</div>
+                        <div class="market-value" id="bls-retail">—</div>
+                        <div class="market-threshold" id="bls-retail-meta">Consumer proxy</div>
+                    </div>
+                    <div class="market-card">
+                        <div class="market-label">Healthcare</div>
+                        <div class="market-value" id="bls-health">—</div>
+                        <div class="market-threshold" id="bls-health-meta">Defensive</div>
+                    </div>
+                    <div class="market-card">
+                        <div class="market-label">Construction</div>
+                        <div class="market-value" id="bls-construction">—</div>
+                        <div class="market-threshold" id="bls-construction-meta">Rate sensitive</div>
+                    </div>
+                    <div class="market-card">
+                        <div class="market-label">Financial Activities</div>
+                        <div class="market-value" id="bls-financial">—</div>
+                        <div class="market-threshold" id="bls-financial-meta">Bank sector</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="agents-section">
                 <div class="section-title">Economic Indicators (FRED)</div>
                 <div class="market-grid" id="fred-grid">
                     <div class="market-card">
@@ -1040,6 +1081,58 @@
             document.getElementById('update-time').textContent = data.updated || new Date().toISOString();
         }
         
+        async function fetchBls() {
+            try {
+                const resp = await fetch('/api/bls');
+                if (resp.ok) {
+                    const data = await resp.json();
+                    updateBls(data);
+                }
+            } catch (e) {
+                console.error('BLS fetch error:', e);
+            }
+        }
+        
+        function updateBls(data) {
+            const series = data.series || {};
+            
+            // Map series IDs to element IDs
+            const mapping = {
+                'CES6056132001': 'bls-temp',
+                'CES0500000001': 'bls-private',
+                'CES3000000001': 'bls-mfg',
+                'CES4200000001': 'bls-retail',
+                'CES6500000001': 'bls-health',
+                'CES2000000001': 'bls-construction',
+                'CES5500000001': 'bls-financial',
+            };
+            
+            for (const [seriesId, elId] of Object.entries(mapping)) {
+                const el = document.getElementById(elId);
+                const metaEl = document.getElementById(elId + '-meta');
+                const info = series[seriesId];
+                
+                if (!el || !info) continue;
+                
+                // Format value in millions for readability
+                const valueM = (info.value / 1000).toFixed(2) + 'M';
+                el.textContent = valueM;
+                
+                // Show month-over-month change
+                if (metaEl && info.change !== null) {
+                    const changeK = info.change.toFixed(0) + 'K';
+                    const arrow = info.change >= 0 ? '↑' : '↓';
+                    const color = info.change >= 0 ? 'var(--green)' : 'var(--red)';
+                    metaEl.innerHTML = `${info.period} <span style="color:${color}">${arrow}${Math.abs(info.change).toFixed(0)}K MoM</span>`;
+                }
+                
+                // Color code based on MoM change for temp (leading indicator)
+                if (seriesId === 'CES6056132001' && info.change !== null) {
+                    el.className = 'market-value ' + (info.change < 0 ? 'warning' : 'normal');
+                }
+            }
+        }
+        
         async function fetchFred() {
             try {
                 const resp = await fetch('/api/fred');
@@ -1100,9 +1193,11 @@
         fetchPrices();
         fetchAlerts();
         fetchFred();
+        fetchBls();
         setInterval(fetchPrices, 60000);
         setInterval(fetchAlerts, 60000);
         setInterval(fetchFred, 300000);  // FRED data every 5 min (doesn't change often)
+        setInterval(fetchBls, 300000);   // BLS data every 5 min
     </script>
 </body>
 </html>

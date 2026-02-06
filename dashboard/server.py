@@ -16,6 +16,7 @@ PORT = 8080
 WORKSPACE = "/home/moltbot/.openclaw/workspace"
 ALERTS_FILE = os.path.join(WORKSPACE, "dashboard", "alerts.json")
 FRED_API_KEY = "8ce3f08db56f151f54221a0dd12b63de"
+BLS_API_KEY = "28cc34af39834eb2a4d85d3119f72077"
 
 # Telegram alerting - direct bot API
 TELEGRAM_BOT_TOKEN = "***REMOVED***:***REMOVED***"
@@ -30,6 +31,13 @@ price_cache = {
 
 # FRED data cache (longer TTL - economic data doesn't change intraday)
 fred_cache = {
+    "data": None,
+    "timestamp": 0,
+    "ttl": 3600  # 1 hour
+}
+
+# BLS data cache
+bls_cache = {
     "data": None,
     "timestamp": 0,
     "ttl": 3600  # 1 hour
@@ -113,6 +121,104 @@ def fetch_fred_data():
     check_fred_alerts(fred_data)
     
     return fred_data
+
+# BLS series we care about
+# CES = Current Employment Statistics (establishment survey)
+# Series ID format: CES + adjustment + supersector + industry + data_type
+BLS_SERIES = {
+    "CES0500000001": {"name": "Total Private Employment", "format": "thousands"},
+    "CES6056132001": {"name": "Temp Help Services", "format": "thousands"},  # Key leading indicator
+    "CES3000000001": {"name": "Manufacturing Employment", "format": "thousands"},
+    "CES4200000001": {"name": "Retail Trade Employment", "format": "thousands"},
+    "CES6500000001": {"name": "Healthcare Employment", "format": "thousands"},
+    "CES2000000001": {"name": "Construction Employment", "format": "thousands"},
+    "CES5500000001": {"name": "Financial Activities", "format": "thousands"},
+    "LNS14000000": {"name": "Unemployment Rate (BLS)", "format": "percent"},
+}
+
+def fetch_bls_data():
+    """Fetch employment data from BLS API"""
+    now = time.time()
+    
+    # Return cached data if fresh
+    if bls_cache["data"] and (now - bls_cache["timestamp"]) < bls_cache["ttl"]:
+        return bls_cache["data"]
+    
+    bls_data = {
+        "series": {},
+        "updated": None
+    }
+    
+    try:
+        # BLS API v2 - can fetch multiple series at once
+        import datetime
+        current_year = datetime.datetime.now().year
+        
+        payload = json.dumps({
+            "seriesid": list(BLS_SERIES.keys()),
+            "startyear": str(current_year - 1),
+            "endyear": str(current_year),
+            "registrationkey": BLS_API_KEY
+        }).encode('utf-8')
+        
+        req = urllib.request.Request(
+            "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+            data=payload,
+            headers={
+                "Content-Type": "application/json",
+                "User-Agent": "PROME-Dashboard/1.0"
+            },
+            method="POST"
+        )
+        
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            data = json.loads(resp.read().decode())
+            
+            if data.get("status") == "REQUEST_SUCCEEDED":
+                for series in data.get("Results", {}).get("series", []):
+                    series_id = series.get("seriesID")
+                    config = BLS_SERIES.get(series_id, {})
+                    observations = series.get("data", [])
+                    
+                    if observations:
+                        # BLS returns most recent first
+                        latest = observations[0]
+                        prev = observations[1] if len(observations) > 1 else None
+                        
+                        value = float(latest.get("value", 0))
+                        prev_value = float(prev.get("value", 0)) if prev else None
+                        change = value - prev_value if prev_value else None
+                        
+                        # Calculate YoY change if we have enough data
+                        yoy_change = None
+                        for obs in observations:
+                            if obs.get("year") == str(current_year - 1) and obs.get("period") == latest.get("period"):
+                                yoy_value = float(obs.get("value", 0))
+                                yoy_change = value - yoy_value
+                                break
+                        
+                        bls_data["series"][series_id] = {
+                            "name": config.get("name", series_id),
+                            "value": value,
+                            "previous": prev_value,
+                            "change": change,
+                            "yoy_change": yoy_change,
+                            "period": f"{latest.get('periodName', '')} {latest.get('year', '')}",
+                            "format": config.get("format", "thousands")
+                        }
+            else:
+                print(f"[BLS] API error: {data.get('message', 'Unknown error')}")
+                
+    except Exception as e:
+        print(f"[BLS] Fetch error: {e}")
+    
+    bls_data["updated"] = time.strftime("%Y-%m-%d %H:%M:%S UTC", time.gmtime())
+    
+    # Cache it
+    bls_cache["data"] = bls_data
+    bls_cache["timestamp"] = now
+    
+    return bls_data
 
 def check_fred_breach(value, config):
     """Check if a FRED value breaches its threshold"""
@@ -388,6 +494,19 @@ class DashboardHandler(http.server.SimpleHTTPRequestHandler):
                 self.send_header('Access-Control-Allow-Origin', '*')
                 self.end_headers()
                 self.wfile.write(json.dumps(prices).encode('utf-8'))
+            except Exception as e:
+                self.send_error(500, str(e))
+            return
+        
+        # API endpoint to get BLS employment data
+        if parsed.path == '/api/bls':
+            try:
+                bls_data = fetch_bls_data()
+                self.send_response(200)
+                self.send_header('Content-type', 'application/json')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                self.wfile.write(json.dumps(bls_data).encode('utf-8'))
             except Exception as e:
                 self.send_error(500, str(e))
             return
