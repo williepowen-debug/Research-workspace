@@ -1,5 +1,5 @@
 # PROME STATUS.md
-**Updated:** 2026-02-06 16:45 UTC
+**Updated:** 2026-02-06 17:25 UTC
 
 ---
 
@@ -8,11 +8,11 @@
 | Agent | Status | Current Focus | Next Critical |
 |-------|--------|---------------|---------------|
 | **LABOR** | 🔴 RED | **Claims 231K (+22K spike); Challenger 108K (2009 high)** | NFP Feb 11; watch if claims stays elevated |
-| **CARL** | 🟡 YELLOW | Watching LABOR; subprime stress building | Follows LABOR by 3-6mo |
-| **HENRY** | 🟢 GREEN | Cluster 6 complete; 56 vectors | VIX spike watch; tech breadth 45% |
+| **CARL** | 🟠 ORANGE | **Subprime auto 6.74% (32-yr high)**; prime fine | Follows LABOR by 3-6mo; Feb 10 NY Fed |
+| **HENRY** | 🟡 YELLOW | **VIX 21.77 spike**; MOVE 65.82 (divergence) | HY OAS 281bps tight; 0DTE 61% |
 | **SAM** | 🟡 YELLOW | **Auction PASSED** (3.64 BTC) | **Feb 8 election** — Takaichi outcome |
 | **REGINALD** | 🟠 ELEVATED | VLY Q4 beat = counter-signal; thesis intact | VLY Q1 earnings ~Apr 23 |
-| **LIQUID** | 🟢 GREEN | Metastable; RRP near zero | Quarter-end Mar 31 |
+| **LIQUID** | 🟢 GREEN | **RRP ~$6B (buffer GONE)**; SOFR=IORB | Quarter-end Mar 31 |
 | **MARCO** | 🟠 ORANGE | 8-series complete | H-2A surge; remittance divergence |
 | **BROCK** | 🟡 YELLOW | PIK concentration; shadow defaults | Q4 BDC earnings Feb-Mar |
 | **CREED** | 🟡 YELLOW | $936B maturity wall | Forced recognition 2026-27 |
@@ -167,13 +167,24 @@ AGENTS/REGINALD/sub-agents/CORAL/
 
 ---
 
-## Tomorrow (Feb 6) Focus
+## Today's Data (Feb 6) — INTEGRATED ✅
 
-1. **KFRC earnings** — Temp staffing bellwether, prediction #4 tests (70% conf guide down)
-2. **Initial Claims** — 8:30am ET, watch for breach of 230K
-3. **Challenger January cuts** — First Thursday, expecting 75K+ based on announcements
-4. Monitor KRE position
-5. **SAM:** Feb 8 election approaches — Takaichi seat count critical
+| Data | Result | Implication |
+|------|--------|-------------|
+| Claims | **231K** (+22K spike) | 🔴 Breached 230K threshold |
+| Challenger Jan | **108K cuts** | 🔴 Highest Jan since 2009 GFC |
+| Challenger hires | **5,306** | 🔴 Lowest Jan EVER recorded |
+| KFRC | Beat but "frozen market" | ⚠️ PARTIAL — stock -5.7% |
+| Subprime auto | **6.74%** | 🔴 32-year high |
+| HY OAS | **281 bps** | 🟠 Near 2007 lows (complacent) |
+| VIX/MOVE | 21.77 / 65.82 | 🟡 Divergence (equity vol > bond vol) |
+| RRP | **~$6B** | 🔴 Buffer effectively zero |
+
+## Next Catalysts
+
+1. **Feb 8 (Sunday):** Japan snap election — Takaichi seat count (>260 = fiscal pressure)
+2. **Feb 10 (Mon):** NY Fed Q4 Household Debt report — watch subprime details
+3. **Feb 11 (Tues):** NFP employment report — delayed from usual Friday
 
 ---
 
