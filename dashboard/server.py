@@ -14,6 +14,7 @@ from urllib.parse import urlparse, parse_qs
 
 PORT = 8080
 WORKSPACE = "/home/moltbot/.openclaw/workspace"
+ALERTS_FILE = os.path.join(WORKSPACE, "dashboard", "alerts.json")
 
 # Price cache (avoid hammering APIs)
 price_cache = {
@@ -21,6 +22,97 @@ price_cache = {
     "timestamp": 0,
     "ttl": 300  # 5 minutes
 }
+
+# Alert tracking
+last_breach_state = {}
+
+def load_alerts():
+    """Load alerts from file"""
+    if os.path.exists(ALERTS_FILE):
+        try:
+            with open(ALERTS_FILE, 'r') as f:
+                return json.load(f)
+        except:
+            return []
+    return []
+
+def save_alerts(alerts):
+    """Save alerts to file"""
+    # Keep only last 100 alerts
+    alerts = alerts[-100:]
+    with open(ALERTS_FILE, 'w') as f:
+        json.dump(alerts, f, indent=2)
+
+def add_alert(alert_type, severity, message, value=None, threshold=None):
+    """Add a new alert"""
+    alerts = load_alerts()
+    alert = {
+        "id": int(time.time() * 1000),
+        "timestamp": time.strftime("%Y-%m-%d %H:%M:%S UTC", time.gmtime()),
+        "type": alert_type,
+        "severity": severity,  # critical, warning, info, success
+        "message": message,
+        "value": value,
+        "threshold": threshold
+    }
+    alerts.append(alert)
+    save_alerts(alerts)
+    print(f"[Alert] {severity.upper()}: {message}")
+    return alert
+
+def check_thresholds(prices):
+    """Check prices against thresholds and generate alerts"""
+    global last_breach_state
+    
+    checks = [
+        ("KRE", "below", "KRE dropped below ${threshold} (Position target approaching)"),
+        ("VIX", "above", "VIX spiked above {threshold} (Fear elevated)"),
+        ("BTC", "below", "BTC dropped below ${threshold} (Liquidity warning)"),
+        ("USDJPY", "above", "USD/JPY broke above {threshold} (SAM threshold breached)"),
+        ("TNX", "above", "10Y Treasury yield above {threshold}% (Restrictive)"),
+        ("HYG", "below", "HYG dropped below ${threshold} (Credit stress signal)"),
+    ]
+    
+    for symbol, direction, msg_template in checks:
+        if symbol not in prices or prices[symbol]["value"] is None:
+            continue
+        
+        value = prices[symbol]["value"]
+        threshold = prices[symbol]["threshold"]
+        
+        if threshold is None:
+            continue
+        
+        # Determine if currently breached
+        if direction == "below":
+            breached = value < threshold
+        else:
+            breached = value > threshold
+        
+        # Check if state changed
+        prev_breached = last_breach_state.get(symbol, False)
+        
+        if breached and not prev_breached:
+            # New breach - alert!
+            msg = msg_template.format(threshold=threshold)
+            add_alert(
+                alert_type="threshold",
+                severity="warning" if symbol not in ["VIX", "USDJPY"] else "critical",
+                message=msg,
+                value=value,
+                threshold=threshold
+            )
+        elif not breached and prev_breached:
+            # Recovered
+            add_alert(
+                alert_type="threshold",
+                severity="info",
+                message=f"{symbol} recovered (now {value}, threshold was {threshold})",
+                value=value,
+                threshold=threshold
+            )
+        
+        last_breach_state[symbol] = breached
 
 def fetch_prices():
     """Fetch current prices from free APIs"""
@@ -71,6 +163,9 @@ def fetch_prices():
     # Cache it
     price_cache["data"] = prices
     price_cache["timestamp"] = now
+    
+    # Check thresholds and generate alerts
+    check_thresholds(prices)
     
     return prices
 
@@ -125,6 +220,41 @@ class DashboardHandler(http.server.SimpleHTTPRequestHandler):
                 self.wfile.write(json.dumps(prices).encode('utf-8'))
             except Exception as e:
                 self.send_error(500, str(e))
+            return
+        
+        # API endpoint to get alerts
+        if parsed.path == '/api/alerts':
+            try:
+                params = parse_qs(parsed.query)
+                limit = int(params.get('limit', [50])[0])
+                alerts = load_alerts()
+                # Return most recent first
+                alerts = list(reversed(alerts[-limit:]))
+                
+                self.send_response(200)
+                self.send_header('Content-type', 'application/json')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                self.wfile.write(json.dumps(alerts).encode('utf-8'))
+            except Exception as e:
+                self.send_error(500, str(e))
+            return
+        
+        # API endpoint to add manual alert
+        if parsed.path == '/api/alerts/add':
+            params = parse_qs(parsed.query)
+            msg = params.get('message', ['Manual alert'])[0]
+            severity = params.get('severity', ['info'])[0]
+            alert = add_alert(
+                alert_type="manual",
+                severity=severity,
+                message=msg
+            )
+            self.send_response(200)
+            self.send_header('Content-type', 'application/json')
+            self.send_header('Access-Control-Allow-Origin', '*')
+            self.end_headers()
+            self.wfile.write(json.dumps(alert).encode('utf-8'))
             return
         
         # API endpoint to get agent statuses

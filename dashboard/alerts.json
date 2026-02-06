@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1738860000000,
+    "timestamp": "2026-02-05 17:00:00 UTC",
+    "type": "prediction",
+    "severity": "success",
+    "message": "SAM Prediction #1 resolved CORRECT — JGB 30Y auction BTC 3.64x (threshold was >2.10x)",
+    "value": 3.64,
+    "threshold": 2.10
+  },
+  {
+    "id": 1738944000000,
+    "timestamp": "2026-02-06 13:32:00 UTC",
+    "type": "threshold",
+    "severity": "warning",
+    "message": "Initial Claims breached 230K threshold",
+    "value": 231000,
+    "threshold": 230000
+  },
+  {
+    "id": 1738944300000,
+    "timestamp": "2026-02-06 13:35:00 UTC",
+    "type": "data",
+    "severity": "critical",
+    "message": "Challenger January cuts: 108,435 — highest January since 2009 GFC",
+    "value": 108435,
+    "threshold": null
+  },
+  {
+    "id": 1738944600000,
+    "timestamp": "2026-02-06 13:40:00 UTC",
+    "type": "data",
+    "severity": "critical",
+    "message": "Challenger January hires: 5,306 — lowest January EVER recorded",
+    "value": 5306,
+    "threshold": null
+  },
+  {
+    "id": 1738951200000,
+    "timestamp": "2026-02-06 15:30:00 UTC",
+    "type": "prediction",
+    "severity": "warning",
+    "message": "KFRC Prediction #4 marked PARTIAL — guided +2% (wrong) but described 'frozen' market (right), stock -5.7%",
+    "value": null,
+    "threshold": null
+  }
+]
