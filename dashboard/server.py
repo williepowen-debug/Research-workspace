@@ -67,11 +67,40 @@ sec_cache = {
     "ttl": 1800  # 30 min - filings can drop anytime
 }
 
-# Track seen filings to avoid duplicate alerts
-seen_filings = set()
+# Track seen filings to avoid duplicate alerts - loaded from disk
+seen_filings = load_seen_filings()
 
-# Alert tracking
-last_breach_state = {}
+# Alert tracking - persisted to disk
+BREACH_STATE_FILE = os.path.join(WORKSPACE, "dashboard", "breach_state.json")
+SEEN_FILINGS_FILE = os.path.join(WORKSPACE, "dashboard", "seen_filings.json")
+
+def load_breach_state():
+    if os.path.exists(BREACH_STATE_FILE):
+        try:
+            with open(BREACH_STATE_FILE, 'r') as f:
+                return json.load(f)
+        except:
+            pass
+    return {}
+
+def save_breach_state(state):
+    with open(BREACH_STATE_FILE, 'w') as f:
+        json.dump(state, f)
+
+def load_seen_filings():
+    if os.path.exists(SEEN_FILINGS_FILE):
+        try:
+            with open(SEEN_FILINGS_FILE, 'r') as f:
+                return set(json.load(f))
+        except:
+            pass
+    return set()
+
+def save_seen_filings(filings):
+    with open(SEEN_FILINGS_FILE, 'w') as f:
+        json.dump(list(filings), f)
+
+last_breach_state = load_breach_state()
 
 # FRED series we care about
 FRED_SERIES = {
@@ -369,6 +398,7 @@ def fetch_sec_filings():
                     # Alert on new filings (10-K, 10-Q, 8-K only)
                     if filing_id not in seen_filings and form_type in ["10-K", "10-Q", "8-K"]:
                         seen_filings.add(filing_id)
+                        save_seen_filings(seen_filings)  # Persist immediately
                         # Only alert if filing is from last 7 days
                         try:
                             from datetime import datetime, timedelta
@@ -439,6 +469,9 @@ def check_fred_alerts(fred_data):
             )
         
         last_breach_state[key] = breached
+    
+    # Persist state
+    save_breach_state(last_breach_state)
 
 def send_telegram_alert(message, severity="warning"):
     """Send alert to Telegram via Bot API"""
@@ -565,6 +598,9 @@ def check_thresholds(prices):
             )
         
         last_breach_state[symbol] = breached
+    
+    # Persist state
+    save_breach_state(last_breach_state)
 
 def fetch_prices():
     """Fetch current prices from free APIs"""
