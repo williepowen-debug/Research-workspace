@@ -28,5 +28,25 @@
     "runtime_sec": 11.0,
     "timestamp": "2026-02-07 18:14:29 UTC",
     "session_key": "agent:carl:subagent:a8fb5972-8a0d-4c42-8fa2-ab38cc7100e6"
+  },
+  {
+    "id": "labor_1770492395956",
+    "agent": "labor",
+    "task": "Ongoing session - status check",
+    "status": "running",
+    "result": null,
+    "runtime_sec": null,
+    "timestamp": "2026-02-07 19:26:35 UTC",
+    "session_key": null
+  },
+  {
+    "id": "agent:labor:subagent:c4ab8979-e8a7-4ea6-b732-a69108359517",
+    "agent": "labor",
+    "task": "Ongoing session - status check",
+    "status": "completed",
+    "result": "CRITICAL - Claims 231K, Challenger 108K (2009 high), watching NFP Feb 11",
+    "runtime_sec": 18.0,
+    "timestamp": "2026-02-07 19:27:06 UTC",
+    "session_key": "agent:labor:subagent:c4ab8979-e8a7-4ea6-b732-a69108359517"
   }
 ]

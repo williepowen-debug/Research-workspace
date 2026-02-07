@@ -131,6 +131,37 @@ Repository: `https://github.com/williepowen-debug/Research-workspace`
 - ✅ MARCO 7-series (TX border cities) + 8-series (H-2A, State Fiscal, CaliBaja, Remittances)
 - ✅ New leading indicators: H-2A certifications, remittance divergence
 
+### Feb 7, 2026 — Major Infrastructure Build
+
+**Sub-Agent System Built:**
+- 7 research agents configured (LABOR, CARL, HENRY, SAM, REGINALD, LIQUID, MARCO)
+- Each runs on Sonnet 4.5 (cost-efficient), Prome on Opus (synthesis)
+- Separate context windows — agent research doesn't clog Prome's context
+- Workspaces at `~/.openclaw/agents/[name]/workspace/`
+
+**Daily Check-In System:**
+- Cron jobs for LABOR (8am), CARL (8:15am), MARCO (8:30am) — weekdays
+- Agents review STATUS.md, propose actions
+- Proposals sent to Will via Telegram with [Approve] [Reject] buttons
+- On approval, action executes
+
+**Dashboard Upgraded:**
+- Tabbed navigation (Overview / Sub-Agents / Data)
+- Hero status card (system-wide assessment)
+- Countdown timers for catalysts
+- Sub-agent activity panel with real-time updates
+- Alert badge in header
+
+**Transcript Archiving:**
+- `transcripts/[agent]/` folder for readable markdown versions
+- Git-tracked for audit trail
+- Includes agent thinking, tool usage, costs
+
+**Key Files Created:**
+- `OPERATIONS.md` — Central operating manual
+- `PROPOSALS.md` — Agent action queue
+- Agent SOUL.md/AGENTS.md for all 7 research agents
+
 ## Key Learnings (Feb 2026)
 
 - **H-2A is a leading indicator** — 8x growth since 2005 validates domestic labor scarcity independent of disputed DHS data
