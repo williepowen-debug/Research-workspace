@@ -1,5 +1,5 @@
 # MARCO STATUS
-**Last Updated:** 2026-02-04 | **Status:** 🟠 ORANGE — Regional Stress Pattern Validated + Multi-State Exposure Mapped
+**Last Updated:** 2026-02-07 | **Status:** 🟠 ORANGE — Regional Stress Pattern Validated + Multi-State Exposure Mapped
 
 ---
 
@@ -30,7 +30,9 @@ Three domains tracked:
 | Indicator | Value | Status | Trend |
 |-----------|-------|--------|-------|
 | H-2A Certifications | 400K+ (8x since 2005) | 🔴 BREACHED | Labor scarcity confirmed |
-| Canadian Visitors YoY | -26% | 🔴 BREACHED | 12+ months decline |
+| Canadian Visitors YoY | **-28%** (22.9M trips) | 🔴 BREACHED | **Upgraded from -26%** |
+| Canadian Airline Seats Q1 2026 | **-450K (-10%)** | 🔴 BREACHED | Structural capacity shift |
+| Canadian Land Crossings (Oct) | **-17.7%** | 🔴 BREACHED | Car traffic collapsed |
 | FL Insurance vs National | 4.5x | 🔴 BREACHED | +72% since 2019 |
 | CA Net Domestic Migration | -216K | 🔴 BREACHED | Structural exodus |
 | Imperial County Unemployment | 20-31% | 🔴 BREACHED | Structural |
@@ -46,11 +48,74 @@ Three domains tracked:
 | El Paso Deficit | $55-62M | 🟠 CRITICAL | Pension 60% funded |
 | Nogales Residential | -43% YoY | 🟠 CRITICAL | Crashed |
 
-**Composite:** 7 BREACHED, 10 CRITICAL = Multi-state stress transmission underway
+**Composite:** 10 BREACHED, 10 CRITICAL = Multi-state stress transmission underway
 
 ---
 
-## NEW RESEARCH INTEGRATED (Feb 4, 2026)
+## NEW RESEARCH INTEGRATED (Feb 7, 2026)
+
+### RP-MAR-9: Canadian Tourism — The Complete Picture
+
+**🔴 THE RUPTURE IS NOW STRUCTURAL**
+
+Three reports document the most significant shift in North American travel since 9/11:
+
+#### Key Numbers (2025)
+
+| Metric | Value | Context |
+|--------|-------|---------|
+| Canadian trips to US | **22.9M** | -28% from 31.9M (2024) |
+| Car crossings (Oct 2025) | **-17.7% YoY** | 1.59M vs 1.93M |
+| Airline capacity Q1 2026 | **-10% (~450K seats)** | Las Vegas -82K, Orlando -79K |
+| FL bookings (Mar Break) | **-23.3%** | Forward bookings collapsed |
+| Canada domestic tourism | **$80.1B YTD** | 129% of 2019 baseline |
+
+#### Airline Capacity Redirect
+
+| Carrier | US Capacity Change | Where Redirected |
+|---------|-------------------|------------------|
+| Flair | **-58%** | Domestic (+34%) |
+| WestJet | -19% | Mexico +40% (Cancun = 50% of MX) |
+| Air Canada | -7% | Europe, LatAm ("6th Freedom" via hubs) |
+| Porter | -5% | Selective codeshare (AA partnership) |
+
+**The "Snowbird Collapse":**
+- 70% of Canadians uncomfortable traveling to US for winter (Angus Reid)
+- $5.7B projected US tourism loss
+- 53.1% plan to spend less in US (StatCan consumer survey)
+- Airlines added **+36% seats to Latin America** while cutting US
+
+#### Land Border Data (CBP/BTS)
+
+- Oct 2025 personal vehicles: 1.59M (down from 1.93M YoY)
+- Pedestrians: +68.3% (modal shift to walking in urban border areas)
+- Buffalo-Niagara Falls: 32.9% of all northern border vehicles
+- Detroit: 27.7% of vehicles
+- **2025 total person-crossings: ~74.5M** (still -13.5% vs 2019 baseline)
+
+#### Domestic Substitution Effect
+
+**Canada's internal tourism is booming:**
+- Q2 2025: 90.6M domestic trips (+10.9% YoY)
+- Summer 2025: ~$60B revenue (record)
+- PEI: +97.2% spending growth
+- BC: +35.2% spending growth
+- Atlantic Canada: 8x nightly spend ($184 vs $140 national avg)
+- "Canada Strong" rail pass drove +3.9% passenger rail growth
+
+#### Transmission to Florida (CORAL/REGINALD)
+
+This directly feeds the FL thesis:
+1. Canadian snowbirds = significant FL condo buyer/renter base
+2. Reduced Canadian demand → increased FL inventory overhang
+3. Condo associations losing seasonal fee revenue
+4. Already visible: FL condo inventory at 9 months (buyer's market)
+
+**Key insight:** The Canadian withdrawal is not temporary sentiment — airlines have physically redirected aircraft. This is a **structural capacity shift** that takes years to reverse.
+
+---
+
+### RP-MAR-8 Series (Feb 4, 2026)
 
 ### RP-MAR-8.1: H-2A Visa Pipeline Analysis
 **Key finding:** H-2A is the **leading indicator** for domestic labor scarcity.
@@ -130,7 +195,9 @@ Migration shift (UVL: "balanced") → Tax revenue at risk
 | 1 | Nogales residential floor at -50% to -60% | Q2 2026 | 65% |
 | 2 | El Paso credit downgrade or negative | Q4 2026 | 55% |
 | 8 | FL condo inventory >9 months | Q2 2026 | 75% |
-| 10 | Canadian visitors >-20% YoY | Through Q2 2026 | 80% |
+| 10 | Canadian visitors >-20% YoY | Through Q2 2026 | ✅ **CONFIRMED** (-28%) |
+| 18 | Canadian airline US capacity stays -10%+ | Through Q2 2026 | 75% |
+| 19 | FL March Break Canadian bookings -20%+ | Mar 2026 | 80% |
 | 11 | **H-2A certifications >425K** | FY 2026 | 70% |
 | 12 | **Central America remittances -10% (reversal)** | H2 2026 | 60% |
 | 13 | **Imperial County stays BBB or worse** | Through 2026 | 75% |
@@ -165,10 +232,35 @@ Migration shift (UVL: "balanced") → Tax revenue at risk
 
 ---
 
+## DATA SOURCES — CANADIAN TOURISM MONITORING
+
+### Statistics Canada (Primary)
+- **National Travel Survey**: Quarterly domestic/international trips
+- **Border data**: Canadian residents returning from US
+- URL: `statcan.gc.ca/en/subjects/travel_and_tourism`
+- Update: Monthly with ~2 month lag
+
+### BTS (US Side)
+- **Border Crossing Entry Data**: Monthly vehicle/pedestrian counts
+- URL: `data.bts.gov/stories/s/Border-Crossing-Entry-Data/jswi-2e7b/`
+- Key ports: Buffalo-Niagara (32.9%), Detroit (27.7%), Blaine (24.3%)
+
+### OAG / Cirium (Airline)
+- Seat capacity by route
+- Forward booking data
+- Used by carriers for scheduling
+
+### Destination Canada
+- **Tourism Data Collective**: Real-time indicators
+- URL: `tourismdatacollective.ca`
+- Has Aurora AI search tool
+
+---
+
 ## WORKBOOK REFS
-- **VX.tsv**: 47 vectors (7 BREACHED, 10 CRITICAL)
-- **ML.tsv**: 42 entries
-- **FLOW.tsv**: 11 transmission pathways
-- **Research**: RP-MAR-7.1 through 7.5 (TX border), RP-MAR-8.1 through 8.5 (H-2A, State Fiscal, CaliBaja, Remittances)
+- **VX.tsv**: 50 vectors (10 BREACHED, 10 CRITICAL)
+- **ML.tsv**: 45 entries
+- **FLOW.tsv**: 12 transmission pathways
+- **Research**: RP-MAR-7 (TX), RP-MAR-8 (H-2A/State/CaliBaja/Remittances), **RP-MAR-9 (Canadian Tourism)**
 
 *Next update trigger: BLS Feb 7, Statistics Canada Jan data, USDA Farm Labor Q4*
