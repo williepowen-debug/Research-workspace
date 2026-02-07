@@ -1,0 +1,32 @@
+[
+  {
+    "id": "test123",
+    "agent": "labor",
+    "task": "Test spawn - summarize STATUS",
+    "status": "running",
+    "result": null,
+    "runtime_sec": null,
+    "timestamp": "2026-02-07 18:09:06 UTC",
+    "session_key": "test123"
+  },
+  {
+    "id": "agent:labor:subagent:a38ee1b5-e3ba-43fd-9a90-338b28ecc866",
+    "agent": "labor",
+    "task": "One-sentence STATUS summary",
+    "status": "completed",
+    "result": "JOLTS collapsed to 6.5M (lowest since 2017), openings-to-unemployed below 1.0",
+    "runtime_sec": 12.0,
+    "timestamp": "2026-02-07 18:09:33 UTC",
+    "session_key": "agent:labor:subagent:a38ee1b5-e3ba-43fd-9a90-338b28ecc866"
+  },
+  {
+    "id": "agent:carl:subagent:a8fb5972-8a0d-4c42-8fa2-ab38cc7100e6",
+    "agent": "carl",
+    "task": "Most concerning indicator",
+    "status": "completed",
+    "result": "Flagship Credit Acceptance distress with 52.9% negative equity - warehouse lender writedown risk",
+    "runtime_sec": 11.0,
+    "timestamp": "2026-02-07 18:14:29 UTC",
+    "session_key": "agent:carl:subagent:a8fb5972-8a0d-4c42-8fa2-ab38cc7100e6"
+  }
+]

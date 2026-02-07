@@ -1,0 +1,167 @@
+// Multi-Agent Configuration for PROME Research Network
+// Phase 1: PROME + LABOR
+// 
+// To apply: openclaw gateway call config.apply --params '{"raw": "<contents>", "baseHash": "<from config.get>"}'
+// Or copy to ~/.openclaw/openclaw.json and restart gateway
+
+{
+  meta: {
+    lastTouchedVersion: "2026.1.30",
+    lastTouchedAt: "2026-02-07T16:30:00.000Z"
+  },
+  
+  wizard: {
+    lastRunAt: "2026-02-01T04:05:21.694Z",
+    lastRunVersion: "2026.1.30",
+    lastRunCommand: "onboard",
+    lastRunMode: "local"
+  },
+  
+  auth: {
+    profiles: {
+      "anthropic:default": {
+        provider: "anthropic",
+        mode: "token"
+      }
+    }
+  },
+  
+  // ========== MULTI-AGENT CONFIGURATION ==========
+  agents: {
+    defaults: {
+      workspace: "/home/moltbot/.openclaw/workspace",
+      model: "anthropic/claude-sonnet-4-5",
+      compaction: {
+        mode: "safeguard"
+      },
+      maxConcurrent: 4,
+      subagents: {
+        maxConcurrent: 8
+      }
+    },
+    
+    list: [
+      // PROME: Coordinator (talks to Will)
+      {
+        id: "prome",
+        name: "Prome",
+        default: true,
+        workspace: "/home/moltbot/.openclaw/workspace",
+        model: "anthropic/claude-opus-4-5",
+        identity: { name: "Prome" },
+        subagents: {
+          allowAgents: ["labor", "carl", "reginald", "sam", "henry", "liquid"]
+        }
+      },
+      
+      // LABOR: Employment domain (RESTRICTED)
+      {
+        id: "labor",
+        name: "LABOR",
+        workspace: "/home/moltbot/.openclaw/agents/labor/workspace",
+        agentDir: "/home/moltbot/.openclaw/agents/labor/agent",
+        model: "anthropic/claude-sonnet-4-5",
+        identity: { name: "LABOR" },
+        tools: {
+          deny: ["sessions_spawn", "sessions_send", "cron", "gateway", "message"]
+        }
+      }
+    ]
+  },
+  
+  // Route Will's Telegram to PROME
+  bindings: [
+    { 
+      agentId: "prome", 
+      match: { 
+        channel: "telegram", 
+        peer: { kind: "dm", id: "8463631023" }
+      }
+    }
+  ],
+  
+  // Agent-to-agent messaging
+  tools: {
+    web: {
+      search: {
+        apiKey: "BSAqLCfkAyORUNThO5yiRfi-v0Fu6Sq"
+      }
+    },
+    agentToAgent: {
+      enabled: true,
+      allow: ["prome", "labor"]
+    }
+  },
+  
+  messages: {
+    ackReactionScope: "group-mentions"
+  },
+  
+  commands: {
+    native: "auto",
+    nativeSkills: "auto"
+  },
+  
+  hooks: {
+    enabled: true,
+    path: "/hooks",
+    token: "prome-hooks-7f3a9c2e1d",
+    internal: {
+      enabled: true,
+      entries: {
+        "command-logger": { enabled: true },
+        "session-memory": { enabled: true }
+      }
+    }
+  },
+  
+  channels: {
+    telegram: {
+      enabled: true,
+      dmPolicy: "pairing",
+      botToken: "***REMOVED***:***REMOVED***",
+      groupPolicy: "allowlist",
+      streamMode: "partial"
+    }
+  },
+  
+  gateway: {
+    port: 18789,
+    mode: "local",
+    bind: "loopback",
+    auth: {
+      mode: "token",
+      token: "b43ff1ebc910e025d4d29f7bfc6e422c6a800a2d24518bc3"
+    },
+    tailscale: {
+      mode: "off",
+      resetOnExit: false
+    }
+  },
+  
+  skills: {
+    install: {
+      nodeManager: "npm"
+    }
+  },
+  
+  plugins: {
+    slots: {
+      memory: "memory-lancedb"
+    },
+    entries: {
+      telegram: { enabled: true },
+      "memory-lancedb": {
+        enabled: true,
+        config: {
+          embedding: {
+            apiKey: "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",
+            model: "text-embedding-3-small"
+          },
+          autoCapture: false,
+          autoRecall: true
+        }
+      }
+    }
+  }
+}

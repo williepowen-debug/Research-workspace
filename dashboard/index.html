@@ -67,6 +67,123 @@
         
         .logo span { color: var(--text-muted); font-weight: 400; }
         
+        .tab-nav {
+            display: flex;
+            gap: 4px;
+            margin-left: 24px;
+            background: var(--bg-tertiary);
+            padding: 4px;
+            border-radius: 8px;
+        }
+        
+        .tab-btn {
+            background: transparent;
+            border: none;
+            color: var(--text-muted);
+            font-size: 13px;
+            font-weight: 500;
+            padding: 8px 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.15s ease;
+            font-family: inherit;
+        }
+        
+        .tab-btn:hover {
+            color: var(--text-secondary);
+            background: var(--bg-secondary);
+        }
+        
+        .tab-btn.active {
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+        }
+        
+        .tab-page {
+            display: none;
+        }
+        
+        .tab-page.active {
+            display: block;
+        }
+        
+        /* Hero Status Card */
+        .hero-status {
+            background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-tertiary) 100%);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 20px 24px;
+            margin-bottom: 24px;
+            text-align: center;
+        }
+        
+        .hero-agents {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            flex-wrap: wrap;
+            margin-bottom: 12px;
+        }
+        
+        .hero-agent {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        
+        .hero-agent .agent-status {
+            width: 12px;
+            height: 12px;
+        }
+        
+        .hero-summary {
+            font-size: 13px;
+            color: var(--text-secondary);
+        }
+        
+        .hero-summary.elevated { color: var(--orange); }
+        .hero-summary.critical { color: var(--red); }
+        .hero-summary.stable { color: var(--green); }
+        
+        /* Alert Badge */
+        .alert-badge {
+            background: var(--red);
+            color: white;
+            font-size: 11px;
+            font-weight: 600;
+            padding: 2px 8px;
+            border-radius: 10px;
+            margin-left: 8px;
+            display: none;
+        }
+        
+        .alert-badge.visible {
+            display: inline-block;
+        }
+        
+        /* Countdown */
+        .countdown {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            color: var(--accent);
+            background: var(--bg-primary);
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+        
+        .countdown.urgent {
+            color: var(--red);
+            background: var(--red-bg);
+        }
+        
+        .countdown.soon {
+            color: var(--orange);
+            background: var(--orange-bg);
+        }
+        
         .system-badge {
             display: flex;
             align-items: center;
@@ -617,6 +734,12 @@
     <header class="header">
         <div class="header-left">
             <div class="logo">PROME <span>Dashboard</span></div>
+            <nav class="tab-nav">
+                <button class="tab-btn active" data-tab="overview">Overview</button>
+                <button class="tab-btn" data-tab="subagents">Sub-Agents</button>
+                <button class="tab-btn" data-tab="data">Data</button>
+            </nav>
+            <span class="alert-badge" id="header-alert-badge">0</span>
             <div class="system-badge orange" id="system-badge">Elevated</div>
         </div>
         <div class="header-right">
@@ -649,27 +772,27 @@
             
             <div class="sidebar-section">
                 <div class="sidebar-title">Upcoming</div>
-                <div id="catalysts">
-                    <div class="catalyst-item">
-                        <span class="catalyst-date">Feb 8</span>
-                        <span class="catalyst-text">Japan Election</span>
-                        <span class="catalyst-priority priority-critical">Critical</span>
-                    </div>
-                    <div class="catalyst-item">
-                        <span class="catalyst-date">Feb 10</span>
-                        <span class="catalyst-text">NY Fed Household Debt</span>
-                        <span class="catalyst-priority priority-high">High</span>
-                    </div>
-                    <div class="catalyst-item">
-                        <span class="catalyst-date">Feb 11</span>
-                        <span class="catalyst-text">NFP Report</span>
-                        <span class="catalyst-priority priority-critical">Critical</span>
-                    </div>
-                </div>
+                <div id="catalysts"></div>
             </div>
         </aside>
         
         <main class="content">
+            <!-- OVERVIEW TAB -->
+            <div class="tab-page active" id="tab-overview">
+            
+            <!-- Hero Status Card -->
+            <div class="hero-status" id="hero-status">
+                <div class="hero-agents" id="hero-agents">
+                    <span class="hero-agent"><span class="agent-status unknown"></span> LABOR</span>
+                    <span class="hero-agent"><span class="agent-status unknown"></span> CARL</span>
+                    <span class="hero-agent"><span class="agent-status unknown"></span> HENRY</span>
+                    <span class="hero-agent"><span class="agent-status unknown"></span> SAM</span>
+                    <span class="hero-agent"><span class="agent-status unknown"></span> REGINALD</span>
+                    <span class="hero-agent"><span class="agent-status unknown"></span> LIQUID</span>
+                </div>
+                <div class="hero-summary" id="hero-summary">Loading system status...</div>
+            </div>
+            
             <div class="position-card">
                 <div class="position-header">
                     <div>
@@ -736,6 +859,60 @@
                 <div class="agents-grid" id="agents-grid"></div>
             </div>
             
+            <div class="agents-section">
+                <div class="section-title">Sub-Agent Activity</div>
+                <div id="subagent-preview" style="display: flex; flex-direction: column; gap: 8px;">
+                    <div class="alert-empty">Loading...</div>
+                </div>
+                <div style="margin-top: 12px; text-align: center;">
+                    <button class="tab-btn" onclick="switchTab('subagents')" style="background: var(--bg-tertiary);">View All Activity →</button>
+                </div>
+            </div>
+            
+            <div class="predictions-row">
+                <div class="prediction-stat">
+                    <div class="prediction-number pending" id="pred-total">40+</div>
+                    <div class="prediction-label">Active</div>
+                </div>
+                <div class="prediction-stat">
+                    <div class="prediction-number correct" id="pred-correct">1</div>
+                    <div class="prediction-label">Correct</div>
+                </div>
+                <div class="prediction-stat">
+                    <div class="prediction-number wrong" id="pred-wrong">0</div>
+                    <div class="prediction-label">Wrong</div>
+                </div>
+                <div class="prediction-stat">
+                    <div class="prediction-number pending" id="pred-due">3</div>
+                    <div class="prediction-label">Due This Week</div>
+                </div>
+            </div>
+            </div>
+            
+            <!-- SUB-AGENTS TAB -->
+            <div class="tab-page" id="tab-subagents">
+            <div class="agents-section">
+                <div class="section-title">Agent Network</div>
+                <div class="agents-grid" id="agents-grid-full"></div>
+            </div>
+            
+            <div class="agents-section">
+                <div class="section-title">Recent Activity</div>
+                <div id="subagent-activity-full" style="display: flex; flex-direction: column; gap: 8px;">
+                    <div class="alert-empty">Loading sub-agent activity...</div>
+                </div>
+            </div>
+            
+            <div class="agents-section">
+                <div class="section-title">Active Sessions</div>
+                <div id="active-sessions" style="display: flex; flex-direction: column; gap: 8px;">
+                    <div class="alert-empty">No active sessions</div>
+                </div>
+            </div>
+            </div>
+            
+            <!-- DATA TAB -->
+            <div class="tab-page" id="tab-data">
             <div class="agents-section">
                 <div class="section-title">Employment by Sector (BLS)</div>
                 <div class="market-grid" id="bls-grid">
@@ -873,23 +1050,6 @@
                 </div>
             </div>
             
-            <div class="predictions-row">
-                <div class="prediction-stat">
-                    <div class="prediction-number pending" id="pred-total">40+</div>
-                    <div class="prediction-label">Active</div>
-                </div>
-                <div class="prediction-stat">
-                    <div class="prediction-number correct" id="pred-correct">1</div>
-                    <div class="prediction-label">Correct</div>
-                </div>
-                <div class="prediction-stat">
-                    <div class="prediction-number wrong" id="pred-wrong">0</div>
-                    <div class="prediction-label">Wrong</div>
-                </div>
-                <div class="prediction-stat">
-                    <div class="prediction-number pending" id="pred-due">3</div>
-                    <div class="prediction-label">Due This Week</div>
-                </div>
             </div>
         </main>
     </div>
@@ -940,6 +1100,7 @@
                     }
                     renderAgents();
                     updateTransmissionChain();
+                    updateHeroStatus();
                 }
             } catch (e) {
                 console.error('Agent status fetch error:', e);
@@ -968,6 +1129,46 @@
                 chainNodes[2].querySelector('.chain-node-status').textContent = statusEmoji[reginaldStatus];
                 chainNodes[2].classList.toggle('active-stress', reginaldStatus === 'red');
             }
+        }
+        
+        function updateHeroStatus() {
+            const heroAgents = document.getElementById('hero-agents');
+            const heroSummary = document.getElementById('hero-summary');
+            if (!heroAgents || !heroSummary) return;
+            
+            const coreAgents = ['LABOR', 'CARL', 'HENRY', 'SAM', 'REGINALD', 'LIQUID'];
+            let redCount = 0, orangeCount = 0, yellowCount = 0, greenCount = 0;
+            
+            heroAgents.innerHTML = coreAgents.map(name => {
+                const agent = agents.find(a => a.id === name);
+                const status = agent?.status || 'unknown';
+                
+                if (status === 'red') redCount++;
+                else if (status === 'orange') orangeCount++;
+                else if (status === 'yellow') yellowCount++;
+                else if (status === 'green') greenCount++;
+                
+                return `<span class="hero-agent"><span class="agent-status ${status}"></span> ${name}</span>`;
+            }).join('');
+            
+            // Determine overall status
+            let summaryText, summaryClass;
+            if (redCount >= 2) {
+                summaryText = `🔴 CRITICAL — ${redCount} agents in RED`;
+                summaryClass = 'critical';
+            } else if (redCount >= 1 || orangeCount >= 2) {
+                summaryText = `🟠 ELEVATED — ${redCount} RED, ${orangeCount} ORANGE`;
+                summaryClass = 'elevated';
+            } else if (orangeCount >= 1 || yellowCount >= 2) {
+                summaryText = `🟡 MONITORING — ${yellowCount + orangeCount} agents elevated`;
+                summaryClass = '';
+            } else {
+                summaryText = `🟢 STABLE — All systems nominal`;
+                summaryClass = 'stable';
+            }
+            
+            heroSummary.textContent = summaryText;
+            heroSummary.className = 'hero-summary ' + summaryClass;
         }
         
         const ENTRY_PRICE = 72.62;
@@ -1015,6 +1216,93 @@
             if (e.key === 'Escape') closeModal();
         });
         
+        // Tab switching
+        function switchTab(tabId) {
+            // Update buttons
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.tab === tabId);
+            });
+            // Update pages
+            document.querySelectorAll('.tab-page').forEach(page => {
+                page.classList.toggle('active', page.id === 'tab-' + tabId);
+            });
+            // Refresh data for the tab
+            if (tabId === 'subagents') {
+                renderAgentsFull();
+                fetchSubagents();
+            }
+        }
+        
+        document.querySelectorAll('.tab-btn[data-tab]').forEach(btn => {
+            btn.addEventListener('click', () => switchTab(btn.dataset.tab));
+        });
+        
+        function renderAgentsFull() {
+            const grid = document.getElementById('agents-grid-full');
+            if (!grid) return;
+            grid.innerHTML = agents.map(a => `
+                <div class="agent-card" onclick="showAgent('${a.id}', '${a.file}')">
+                    <div class="agent-header">
+                        <span class="agent-name">${a.id}</span>
+                        <span class="agent-status ${a.status}"></span>
+                    </div>
+                    <div class="agent-label">${a.label}</div>
+                </div>
+            `).join('');
+        }
+        
+        // Catalysts with countdown timers
+        const catalysts = [
+            { date: '2026-02-08T09:00:00+09:00', text: 'Japan Election', priority: 'critical', agent: 'SAM' },
+            { date: '2026-02-10T10:00:00-05:00', text: 'NY Fed Household Debt', priority: 'high', agent: 'CARL' },
+            { date: '2026-02-11T08:30:00-05:00', text: 'NFP Report', priority: 'critical', agent: 'LABOR' },
+            { date: '2026-02-13T08:30:00-05:00', text: 'Initial Claims', priority: 'medium', agent: 'LABOR' },
+            { date: '2026-02-19T00:00:00+09:00', text: '20Y JGB Auction', priority: 'high', agent: 'SAM' },
+        ];
+        
+        function formatCountdown(targetDate) {
+            const now = new Date();
+            const diff = targetDate - now;
+            
+            if (diff < 0) return { text: 'PASSED', class: '' };
+            
+            const hours = Math.floor(diff / (1000 * 60 * 60));
+            const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+            
+            if (hours < 24) {
+                const urgency = hours < 6 ? 'urgent' : hours < 24 ? 'soon' : '';
+                return { text: `${hours}h ${minutes}m`, class: urgency };
+            } else {
+                const days = Math.floor(hours / 24);
+                const remainingHours = hours % 24;
+                return { text: `${days}d ${remainingHours}h`, class: '' };
+            }
+        }
+        
+        function renderCatalysts() {
+            const container = document.getElementById('catalysts');
+            if (!container) return;
+            
+            const now = new Date();
+            const upcoming = catalysts
+                .map(c => ({ ...c, dateObj: new Date(c.date) }))
+                .filter(c => c.dateObj > now)
+                .sort((a, b) => a.dateObj - b.dateObj)
+                .slice(0, 5);
+            
+            container.innerHTML = upcoming.map(c => {
+                const countdown = formatCountdown(c.dateObj);
+                const dateStr = c.dateObj.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+                return `
+                    <div class="catalyst-item">
+                        <span class="catalyst-date">${dateStr}</span>
+                        <span class="catalyst-text">${c.text}</span>
+                        <span class="countdown ${countdown.class}">${countdown.text}</span>
+                    </div>
+                `;
+            }).join('');
+        }
+        
         function formatAlertTime(timestamp) {
             const alertDate = new Date(timestamp + ' UTC');
             const now = new Date();
@@ -1043,8 +1331,16 @@
         function renderAlerts(alerts) {
             const log = document.getElementById('alert-log');
             const count = document.getElementById('alert-count');
+            const headerBadge = document.getElementById('header-alert-badge');
             
             count.textContent = alerts.length;
+            
+            // Update header badge
+            if (headerBadge) {
+                const criticalCount = alerts.filter(a => a.severity === 'critical' || a.severity === 'warning').length;
+                headerBadge.textContent = criticalCount;
+                headerBadge.classList.toggle('visible', criticalCount > 0);
+            }
             
             if (!alerts || alerts.length === 0) {
                 log.innerHTML = '<div class="alert-empty">No alerts</div>';
@@ -1194,6 +1490,63 @@
             }
         }
         
+        async function fetchSubagents() {
+            try {
+                const resp = await fetch('/api/subagents?limit=15');
+                if (resp.ok) {
+                    const data = await resp.json();
+                    updateSubagents(data);
+                }
+            } catch (e) {
+                console.error('Subagent fetch error:', e);
+            }
+        }
+        
+        function updateSubagents(entries) {
+            const preview = document.getElementById('subagent-preview');
+            const full = document.getElementById('subagent-activity-full');
+            
+            if (!entries || entries.length === 0) {
+                const empty = '<div class="alert-empty">No sub-agent activity yet</div>';
+                if (preview) preview.innerHTML = empty;
+                if (full) full.innerHTML = empty;
+                return;
+            }
+            
+            const renderEntry = (e, showResult = false) => {
+                const statusColor = e.status === 'completed' ? 'var(--green)' :
+                                   e.status === 'running' ? 'var(--yellow)' :
+                                   e.status === 'failed' ? 'var(--red)' : 'var(--text-muted)';
+                const statusIcon = e.status === 'completed' ? '✓' :
+                                  e.status === 'running' ? '⟳' :
+                                  e.status === 'failed' ? '✗' : '?';
+                const runtimeStr = e.runtime_sec ? `${e.runtime_sec.toFixed(1)}s` : '';
+                
+                let html = `
+                    <div class="catalyst-item">
+                        <span style="color: ${statusColor}; font-weight: 600; min-width: 20px;">${statusIcon}</span>
+                        <span style="font-weight: 600; color: var(--accent); min-width: 70px;">${e.agent.toUpperCase()}</span>
+                        <span class="catalyst-text" style="flex: 1;">${e.task}</span>
+                        ${runtimeStr ? `<span style="color: var(--text-muted); font-size: 11px;">${runtimeStr}</span>` : ''}
+                        <span style="color: var(--text-muted); font-size: 11px; min-width: 60px; text-align: right;">${formatAlertTime(e.timestamp)}</span>
+                    </div>`;
+                if (showResult && e.result) {
+                    html += `<div style="margin-left: 90px; margin-top: -4px; margin-bottom: 8px; padding: 8px 12px; background: var(--bg-tertiary); border-radius: 6px; font-size: 12px; color: var(--text-secondary);">${e.result}</div>`;
+                }
+                return html;
+            };
+            
+            // Preview: last 5, no results
+            if (preview) {
+                preview.innerHTML = entries.slice(0, 5).map(e => renderEntry(e, false)).join('');
+            }
+            
+            // Full: all entries with results
+            if (full) {
+                full.innerHTML = entries.map(e => renderEntry(e, true)).join('');
+            }
+        }
+        
         function updateSec(data) {
             const container = document.getElementById('sec-filings');
             const filings = data.filings || [];
@@ -1334,6 +1687,8 @@
         fetchBls();
         fetchTreasury();
         fetchSec();
+        fetchSubagents();  // Sub-agent activity
+        renderCatalysts();  // Render catalysts with countdowns
         setInterval(fetchAgentStatuses, 300000);  // Agent status every 5 min
         setInterval(fetchPrices, 60000);
         setInterval(fetchAlerts, 60000);
@@ -1341,6 +1696,8 @@
         setInterval(fetchBls, 300000);   // BLS data every 5 min
         setInterval(fetchTreasury, 3600000);  // Treasury auctions every hour
         setInterval(fetchSec, 600000);   // SEC filings every 10 min
+        setInterval(fetchSubagents, 30000);  // Sub-agent activity every 30 sec
+        setInterval(renderCatalysts, 60000);  // Update countdowns every minute
     </script>
 </body>
 </html>
