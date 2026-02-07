@@ -28,8 +28,10 @@ Per REGINALD: Claims >300K or U-3 >5.0% → all ORANGE banks escalate simultaneo
 |-----------|-------|--------|-------------|
 | CC Delinquency 30+ | **2.98%** (declining) | 🟢 | 5th straight quarter down |
 | CC Delinquency 90+ | 7.05% (flat YoY) | 🟡 | Stabilized at elevated level |
-| Auto Delinquency 60+ | **6.74% (subprime)** | 🔴 | **32-YEAR HIGH** (worst since 1994) |
+| Auto Delinquency 60+ | **6.65% (total)** | 🔴 | **Highest since 1993 records began** |
+| Auto Delinquency 60+ (Monoline) | **16.6%** | 🔴 | Historic highs for non-bank lenders |
 | Auto Delinquency 60+ | 0.37% (prime) | 🟢 | Prime holding fine |
+| Negative Equity (Auto) | **52.9%** | 🔴 | Over half of borrowers "upside down" |
 | Total Household Debt | **$18.59T** (record) | 🟠 | +$4.44T since 2019 |
 | Medical Debt (collections) | $88-140B | 🟠 | Plus $50-100B pre-collections |
 | BNPL Stacking | 63% simultaneous | 🔴 | Hidden leverage multiplier |
@@ -197,6 +199,39 @@ Stock drops → Deposit flight → Credit tightens
 
 ---
 
+---
+
+## SUBPRIME AUTO: THE "FOURTH CASE" THESIS
+
+**New research (Feb 2026):** Tricolor Holdings ($800M fraud) and PrimaLend (Chapter 11) have triggered sector-wide warehouse audits. The "cockroach theory" is active — JPMorgan and Fifth Third took $200M+ combined losses.
+
+### Distressed Lender Watchlist
+
+| Lender | Priority | Key Signal |
+|--------|----------|------------|
+| **Flagship Credit Acceptance** | 🔴 CRITICAL | Mass layoffs (Apr 2025-Jan 2026), fire sale to InterVest (Nov 2025), $5B+ portfolio |
+| **Exeter Finance** | 🟠 HIGH | S&P hiked ECNL on 8 ABS deals, 2026-1 issuance at 20.75% expected loss |
+| **Consumer Portfolio Services (CPSS)** | 🟠 HIGH | Class-action litigation (repos), $900M forward flow dependency |
+| **American Credit Acceptance** | 🟡 ELEVATED | Originations -19.4% YoY, forecasted collections declining |
+| **Westlake Financial** | 🟡 MONITOR | Complex SPV structure, moving down-market to "Standard" tier |
+
+### Why This Matters for CARL
+
+1. **Tricolor Pattern = Fraud Risk Everywhere:** Double-pledging, manipulated loan tapes, multiple warehouse silos
+2. **Warehouse Lending Squeeze:** JPM, Fifth Third, Wells conducting forensic audits — smaller lenders can't survive scrutiny
+3. **52.9% Negative Equity:** Every repo = higher NCO because collateral worth fraction of loan balance
+4. **Extended Terms:** 27.5% of loans >72 months — extends the negative equity trap
+
+### Transmission to Banks
+
+Subprime auto → Warehouse lenders → Money-center bank losses (already happening: JPM, Fifth Third)
+
+**Fifth Third took $170-200M charge in Q3 2025 from Tricolor exposure alone.**
+
+If Flagship or Exeter collapses, warehouse lenders (many are regional banks) face similar writedowns.
+
+---
+
 ## RESEARCH GAPS
 
 - [ ] Current NY Fed consumer credit panel (Q4 2025)
@@ -205,6 +240,7 @@ Stock drops → Deposit flight → Credit tightens
 - [ ] Gig worker income volatility (real-time)
 - [ ] Medical debt trajectory post-ACA changes
 - [ ] Student loan restart impact (IBR/SAVE litigation)
+- [x] Subprime auto lender forensics (Tricolor, PrimaLend, Flagship) — DONE
 
 ---
 

@@ -146,6 +146,52 @@ FL Supreme Court (Oct 2025) upheld 100% owner consent for termination. This **fr
 
 ---
 
+## Institutional Capital Response (Feb 2026 Research)
+
+### The Opportunity Layer
+
+While distressed owners face forced sales, institutional capital sees **acquisition opportunity**:
+
+**Condo De-Conversions:**
+- Institutional buyers acquiring majority of units
+- Terminate association → convert to market-rate rental
+- Biscayne 21 ruling complicates (100% consent required)
+- Result: **Receivership becomes primary exit** for institutions too
+
+**Build-to-Rent (BTR) Pivot:**
+- Institutions shifting from scattered-site to purpose-built rental
+- AMH: 92% of acquisitions now from in-house development
+- Tampa/Orlando: ~4,000 BTR units each in pipeline
+- Avoids condo mess entirely — new construction, rental-only
+
+**Migration Normalization:**
+- FL net domestic migration: +314,000 (2022) → +23,000 (2025)
+- "Pull-forward" effect exhausted
+- Demand softening compounds condo inventory surge
+- Median DOM: 80 days (up from 73 YoY)
+- Strongest buyer's market in decade (30% more sellers than buyers)
+
+### Market Metrics (2025)
+
+| Metric | Value | Context |
+|--------|-------|---------|
+| FL Condo Inventory | ~9 months supply | Definitive buyer's market |
+| FL SFH Price Change | -0.9% to -1.4% YoY | Slight decline |
+| Miami DOM | 69 days | Extended |
+| Orlando DOM | 67-78 days | Extended |
+| FL Foreclosure Rate | #1 nationally | 1 in 230 homes |
+
+### Institutional Insurance Response
+
+Large SFR operators (AMH, INVH) deploying **captive insurance** to manage FL hurricane exposure:
+- Pure captive: $250K capital requirement
+- Parametric insurance: pays on trigger (wind speed/flood level), not adjustment
+- AMH net casualty: $4.0M (2024) vs $16.3M (2022) — effective risk management
+
+**Implication:** Institutional players can self-insure in ways that condo associations and individual owners cannot. Structural advantage compounds over time.
+
+---
+
 ## Stress Scenarios
 
 ### Scenario A: Gradual Grind (Base Case)
