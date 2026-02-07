@@ -66,7 +66,8 @@ Files with suspicious patterns will be moved to `rejected/`.
 
 ## Directories
 
-- `pending/` — Drop new research here
+- `prompts/QUEUE.md` — **Research prompts to run** (PROME adds, you pick)
+- `pending/` — Drop completed research here
 - `processed/` — PROME moves files here after integration
 - `rejected/` — Files that failed validation (review manually)
 
