@@ -15,6 +15,7 @@ from urllib.parse import urlparse, parse_qs
 PORT = 8080
 WORKSPACE = "/home/moltbot/.openclaw/workspace"
 ALERTS_FILE = os.path.join(WORKSPACE, "dashboard", "alerts.json")
+SUBAGENT_LOG_FILE = os.path.join(WORKSPACE, "dashboard", "subagent_log.json")
 FRED_API_KEY = "8ce3f08db56f151f54221a0dd12b63de"
 BLS_API_KEY = "28cc34af39834eb2a4d85d3119f72077"
 
@@ -523,6 +524,52 @@ def save_alerts(alerts):
     with open(ALERTS_FILE, 'w') as f:
         json.dump(alerts, f, indent=2)
 
+def load_subagent_log():
+    """Load subagent activity log"""
+    if os.path.exists(SUBAGENT_LOG_FILE):
+        try:
+            with open(SUBAGENT_LOG_FILE, 'r') as f:
+                return json.load(f)
+        except:
+            return []
+    return []
+
+def save_subagent_log(log):
+    """Save subagent activity log"""
+    # Keep last 50 entries
+    log = log[-50:]
+    with open(SUBAGENT_LOG_FILE, 'w') as f:
+        json.dump(log, f, indent=2)
+
+def add_subagent_entry(agent_id, task, status="running", result=None, session_key=None, runtime_sec=None):
+    """Add or update a subagent log entry"""
+    log = load_subagent_log()
+    
+    entry = {
+        "id": session_key or f"{agent_id}_{int(time.time() * 1000)}",
+        "agent": agent_id,
+        "task": task[:200],  # Truncate long tasks
+        "status": status,  # running, completed, failed
+        "result": result[:500] if result else None,  # Truncate long results
+        "runtime_sec": runtime_sec,
+        "timestamp": time.strftime("%Y-%m-%d %H:%M:%S UTC", time.gmtime()),
+        "session_key": session_key
+    }
+    
+    # Update existing entry if same session_key, otherwise add new
+    updated = False
+    for i, existing in enumerate(log):
+        if existing.get("session_key") == session_key and session_key:
+            log[i] = entry
+            updated = True
+            break
+    
+    if not updated:
+        log.append(entry)
+    
+    save_subagent_log(log)
+    return entry
+
 def add_alert(alert_type, severity, message, value=None, threshold=None, notify=True):
     """Add a new alert"""
     alerts = load_alerts()
@@ -795,6 +842,51 @@ class DashboardHandler(http.server.SimpleHTTPRequestHandler):
             self.send_header('Access-Control-Allow-Origin', '*')
             self.end_headers()
             self.wfile.write(json.dumps(alert).encode('utf-8'))
+            return
+        
+        # API endpoint to get subagent activity log
+        if parsed.path == '/api/subagents':
+            try:
+                params = parse_qs(parsed.query)
+                limit = int(params.get('limit', [20])[0])
+                log = load_subagent_log()
+                # Return most recent first
+                log = list(reversed(log[-limit:]))
+                
+                self.send_response(200)
+                self.send_header('Content-type', 'application/json')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                self.wfile.write(json.dumps(log).encode('utf-8'))
+            except Exception as e:
+                self.send_error(500, str(e))
+            return
+        
+        # API endpoint to add/update subagent entry (called by Prome)
+        if parsed.path == '/api/subagents/log':
+            params = parse_qs(parsed.query)
+            agent_id = params.get('agent', ['unknown'])[0]
+            task = params.get('task', [''])[0]
+            status = params.get('status', ['running'])[0]
+            result = params.get('result', [None])[0]
+            session_key = params.get('session_key', [None])[0]
+            runtime = params.get('runtime', [None])[0]
+            runtime_sec = float(runtime) if runtime else None
+            
+            entry = add_subagent_entry(
+                agent_id=agent_id,
+                task=task,
+                status=status,
+                result=result,
+                session_key=session_key,
+                runtime_sec=runtime_sec
+            )
+            
+            self.send_response(200)
+            self.send_header('Content-type', 'application/json')
+            self.send_header('Access-Control-Allow-Origin', '*')
+            self.end_headers()
+            self.wfile.write(json.dumps(entry).encode('utf-8'))
             return
         
         # API endpoint to get agent statuses (dynamically parsed from STATUS.md)
