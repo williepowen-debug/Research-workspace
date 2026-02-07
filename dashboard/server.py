@@ -67,9 +67,6 @@ sec_cache = {
     "ttl": 1800  # 30 min - filings can drop anytime
 }
 
-# Track seen filings to avoid duplicate alerts - loaded from disk
-seen_filings = load_seen_filings()
-
 # Alert tracking - persisted to disk
 BREACH_STATE_FILE = os.path.join(WORKSPACE, "dashboard", "breach_state.json")
 SEEN_FILINGS_FILE = os.path.join(WORKSPACE, "dashboard", "seen_filings.json")
@@ -95,6 +92,9 @@ def load_seen_filings():
         except:
             pass
     return set()
+
+# Track seen filings to avoid duplicate alerts - loaded from disk
+seen_filings = load_seen_filings()
 
 def save_seen_filings(filings):
     with open(SEEN_FILINGS_FILE, 'w') as f:
