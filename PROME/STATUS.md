@@ -1,5 +1,26 @@
 # PROME STATUS.md
-**Updated:** 2026-02-06 17:25 UTC
+**Updated:** 2026-02-07 22:20 UTC
+
+---
+
+## Infrastructure Status
+
+| Component | Status | Notes |
+|-----------|--------|-------|
+| **Sub-Agent System** | 🟢 LIVE | 7 agents configured (Sonnet 4.5) |
+| **Daily Check-Ins** | 🟢 ACTIVE | LABOR 8am, CARL 8:15am, MARCO 8:30am ET |
+| **Dashboard** | 🟢 RUNNING | http://100.86.70.6:8080 |
+| **Proposal System** | 🟢 READY | Telegram buttons for approve/reject |
+| **Transcripts** | 🟢 ACTIVE | Auto-saved to transcripts/, git-tracked |
+
+**Agents Available:**
+- LABOR, CARL, HENRY, SAM, REGINALD, LIQUID, MARCO
+- All spawnable via `sessions_spawn(agentId="...")`
+
+**Key Files:**
+- `OPERATIONS.md` — Full operating manual
+- `PROPOSALS.md` — Agent action queue
+- `transcripts/` — Saved conversations
 
 ---
 

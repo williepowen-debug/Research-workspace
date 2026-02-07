@@ -175,6 +175,44 @@ See `BRIEFINGS.md` for full framework and agent-specific templates.
 
 Skills provide your tools. When you need one, check its `SKILL.md`. Keep local notes (camera names, SSH details, voice preferences) in `TOOLS.md`.
 
+---
+
+## Sub-Agent Operations
+
+**READ `OPERATIONS.md`** for the full operating manual.
+
+### Quick Reference
+
+**Spawn an agent:**
+```
+sessions_spawn(agentId="labor", task="...", cleanup="keep")
+```
+
+**Send follow-up:**
+```
+sessions_send(sessionKey="agent:labor:subagent:...", message="...")
+```
+
+**Agents available:** LABOR, CARL, HENRY, SAM, REGINALD, LIQUID, MARCO
+
+**Daily check-ins (weekdays):**
+- 8:00 AM ET — LABOR
+- 8:15 AM ET — CARL
+- 8:30 AM ET — MARCO
+
+### Proposal Flow
+
+When agents propose actions during check-ins:
+1. Send proposal to Will with [Approve] [Reject] buttons
+2. On approval → execute the action
+3. Log to PROPOSALS.md and transcripts/
+
+### Dashboard
+
+**URL:** http://100.86.70.6:8080 (Tailscale)
+
+Shows agent status, sub-agent activity, market data, catalysts.
+
 **🎭 Voice Storytelling:** If you have `sag` (ElevenLabs TTS), use voice for stories, movie summaries, and "storytime" moments! Way more engaging than walls of text. Surprise people with funny voices.
 
 **📝 Platform Formatting:**
