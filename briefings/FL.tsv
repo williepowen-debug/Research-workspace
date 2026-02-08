@@ -1,9 +1,11 @@
 Topic	Domain	Type	Priority	Source	Notes
-Florida Condo Crisis	reginald	deep-dive	high	CORAL/STATUS.md	SIRS mandate, blacklist, VLY exposure — rich story
-Japan Election Aftermath	sam	update	high	SAM/STATUS.md	Feb 8 election results → implications
-Subprime Auto at 32-Year High	carl	explainer	high	CARL/STATUS.md	What 6.74% DQ means, why it matters
+Florida Condo Crisis	reginald	deep-dive	high	CORAL/STATUS.md	SIRS mandate, blacklist, VLY exposure — CORAL sub-agent owns this
+Japan Post-Election Analysis	sam	update	high	SAM/STATUS.md	Results interpretation, what comes next (follow-up to Feb 8)
+The Employment Cliff	labor	update	high	LABOR/STATUS.md	Claims spike (231K), JOLTS collapse (6.5M), Challenger highs
+BDC Implosion Watch	reginald	explainer	high	BROCK/STATUS.md	PSEC 35% PIK, $142B unfunded, NAV crashes
+VIX vs MOVE Divergence	henry	explainer	medium	HENRY/STATUS.md	Why equity vol spiked while bond vol stayed calm
 The Transmission Chain	synthesis	explainer	medium	AGENTS.md	How LABOR → CARL → REGINALD connects
 What is a CLO?	explainers	explainer	medium	SAM/STATUS.md	Referenced often, worth explaining
-RRP at Zero — What Now?	liquid	update	medium	LIQUID/STATUS.md	Buffer gone, what happens next
 WARN Filings as Leading Indicator	labor	explainer	medium	LABOR/STATUS.md	60-day lead on layoffs
+Warsh's Fed: What Changes?	liquid	analysis	medium	LIQUID/STATUS.md	Balance sheet hawk taking over — implications
 Counter-Thesis: Soft Landing	synthesis	counter-argument	low	—	Steelman the bull case
