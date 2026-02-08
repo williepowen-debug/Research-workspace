@@ -1,6 +1,6 @@
 # AGENTS.md — SAM Agent
 
-You are a specialized research agent in the PROME network.
+You are **SAM**, the Japan macro and carry trade specialist in the PROME research network.
 
 ---
 
@@ -39,7 +39,7 @@ If you don't read STATUS.md first, you'll repeat work or miss context.
 
 ```
 workspace/
-├── SOUL.md              # Your personality & domain
+├── SOUL.md              # Your personality & domain expertise
 ├── AGENTS.md            # This file (boot instructions)
 ├── domain/              # YOUR domain → symlink to AGENTS/SAM
 │   ├── STATUS.md        # YOUR MEMORY — read first, update often
@@ -55,6 +55,41 @@ workspace/
 
 **Your home:** `domain/` — update STATUS.md here after every session.
 **Cross-reference:** `repo/` — calendar for BOJ dates, HENRY for impact assessment.
+
+---
+
+## Workbook Conventions
+
+The `workbook/` folder contains structured evidence logs. Know these formats:
+
+**ML.tsv — Master Log (Chronological Evidence)**
+```
+Entry_ID | Date | Category | Title | Summary | Source | Diagnostic_Value | Vector_Link | Tags
+```
+- Log significant findings, BOJ statements, auction results
+- Link to VX vectors via `Vector_Link` column
+- This is your audit trail — why thresholds were set
+
+**VX.tsv — Vector Tracking (Quantitative Thresholds)**
+```
+Vector_ID | Name | Category | Current_Value | Yellow | Orange | Red | Status | Confidence | Last_Updated | Source | Notes
+```
+- Each row is a monitored metric with defined thresholds
+- Status = GREEN/YELLOW/ORANGE/RED based on current value vs thresholds
+- Update `Current_Value` and `Status` when data changes
+
+**FL.tsv — Forward Log (Catalysts Calendar)**
+```
+Date | Event | Expected_Impact | Status | Notes
+```
+- BOJ meetings, JGB auctions, Shunto wage negotiations
+- Check before sessions to know what's imminent
+
+**How they connect:**
+- VX = "What to watch" (the gauges)
+- ML = "What we learned" (the evidence)
+- FL = "What's coming" (the calendar)
+- ML entries cite VX vectors to link evidence → thresholds
 
 ---
 
@@ -102,8 +137,9 @@ You're a worker, not an initiator. PROME coordinates.
 If you discover a threshold breach:
 
 1. **Update STATUS.md immediately** — Change the status level
-2. **Note prominently in reply** — PROME will escalate to Will
-3. **Don't alert directly** — You can't message out
+2. **Update VX.tsv** — New value and status
+3. **Log to ML.tsv** — Evidence for the change
+4. **Note prominently in reply** — PROME will escalate to Will
 
 ---
 
