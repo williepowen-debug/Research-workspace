@@ -1,19 +1,78 @@
 # CALENDAR — Unified Event Tracker
 
-*Cross-agent calendar for key dates. Updated: 2026-02-05 00:55 UTC*
+*Cross-agent calendar for key dates. Updated: 2026-02-09 18:10 UTC*
 
 ---
 
-## THIS WEEK (Feb 3-9)
+## 📊 KEY ECONOMIC DATA RELEASES (2026)
 
-| Date | Event | Agent | Priority | Notes |
-|------|-------|-------|----------|-------|
-| **Feb 4** | Quarterly Refunding Announcement (QRA) | LIQUID | 🟠 HIGH | Treasury Q2 coupon sizes |
-| **Feb 5** | **30Y JGB Auction** | SAM | 🔴 CRITICAL | THE test. BTC <2.00x = failure |
-| **Feb 6** | Initial Claims | LABOR | 🟠 HIGH | Thursday 8:30am ET |
-| **Feb 6** | Challenger Job Cuts (Jan) | LABOR | 🟠 HIGH | Expecting 75K+ |
-| **Feb 6** | KFRC Q4 Earnings | LABOR | 🔴 CRITICAL | Temp staffing bellwether |
-| **Feb 8** | **Japan Snap Election** | SAM | 🔴 CRITICAL | Takaichi seat count: >260 = mandate |
+*All times Eastern. These are the "master variable" releases for our thesis.*
+
+### **Employment (LABOR trigger)**
+| Date | Release | Time | Priority |
+|------|---------|------|----------|
+| **Feb 11** | NFP (Jan 2026) | 8:30 AM | 🔴 CRITICAL |
+| Mar 6 | NFP (Feb 2026) | 8:30 AM | 🔴 CRITICAL |
+| Apr 3 | NFP (Mar 2026) | 8:30 AM | 🔴 CRITICAL |
+| May 8 | NFP (Apr 2026) | 8:30 AM | 🔴 CRITICAL |
+| Jun 5 | NFP (May 2026) | 8:30 AM | 🔴 CRITICAL |
+| Jul 2 | NFP (Jun 2026) | 8:30 AM | 🔴 CRITICAL |
+
+### **Initial Claims (Weekly — Every Thursday 8:30 AM ET)**
+| Week | Date | Watch For |
+|------|------|-----------|
+| This week | Feb 12 | Sustained >230K |
+| Next week | Feb 19 | Breach 250K = ORANGE |
+| — | Feb 26 | — |
+| — | Mar 5, 12, 19, 26 | Spike >300K = RED |
+
+*Threshold: <230K GREEN | 230-250K YELLOW | 250-300K ORANGE | >300K RED*
+
+### **Consumer Credit (CARL confirmation)**
+| Date | Release | Time | Priority |
+|------|---------|------|----------|
+| **Feb 10** | NY Fed Q4 2025 Household Debt | 11:00 AM | 🔴 CRITICAL |
+| ~May | NY Fed Q1 2026 Household Debt | 11:00 AM | 🟠 HIGH |
+| ~Aug | NY Fed Q2 2026 Household Debt | 11:00 AM | 🟠 HIGH |
+
+### **Inflation (Fed policy)**
+| Date | Release | Time | Priority |
+|------|---------|------|----------|
+| Feb 13 | CPI (Jan 2026) | 8:30 AM | 🟠 HIGH |
+| Mar 11 | CPI (Feb 2026) | 8:30 AM | 🟠 HIGH |
+| Apr 10 | CPI (Mar 2026) | 8:30 AM | 🟠 HIGH |
+| May 12 | CPI (Apr 2026) | 8:30 AM | 🟠 HIGH |
+| Jun 10 | CPI (May 2026) | 8:30 AM | 🟠 HIGH |
+
+### **Fed Meetings**
+| Date | Event | Priority |
+|------|-------|----------|
+| Mar 18 | FOMC Decision | 🟠 HIGH |
+| Apr 29 | FOMC Decision | 🟠 HIGH |
+| Jun 17 | FOMC Decision | 🟠 HIGH |
+| Jul 29 | FOMC Decision | 🟠 HIGH |
+| Sep 16 | FOMC Decision | 🟠 HIGH |
+
+---
+
+## THIS WEEK (Feb 9-15)
+
+| Date | Time | Event | Agent | Priority | Notes |
+|------|------|-------|-------|----------|-------|
+| **Feb 10** | 11:00 AM | **NY Fed Q4 Household Debt** | CARL | 🔴 CRITICAL | Auto DQ >7%? CC reversal? |
+| Feb 10 | 8:30 AM | Employment Cost Index (Q4) | LABOR | 🟡 MEDIUM | Wage pressure check |
+| **Feb 11** | 8:30 AM | **NFP (Jan 2026)** | LABOR | 🔴 CRITICAL | Sub-50K? Negative? THE test |
+| Feb 11 | — | 10Y Treasury Auction (~$42B) | LIQUID | 🟠 HIGH | BTC <2.30x = stress |
+| Feb 12 | — | 30Y Treasury Auction (~$25B) | LIQUID | 🟠 HIGH | Duration demand |
+| **Feb 12** | 8:30 AM | **Initial Claims** | LABOR | 🟠 HIGH | Confirm 231K spike or revert |
+| Feb 13 | 8:30 AM | CPI (Jan 2026) | PROME | 🟠 HIGH | Fed policy watch |
+| Feb 13 | — | MOF Weekly Flow Data | SAM | 🟠 HIGH | Repatriation signal |
+
+### Completed This Week
+- ✅ **Feb 8** Japan Snap Election — Takaichi landslide (316 LDP, 352 coalition) → SAM RED
+- ✅ **Feb 6** Initial Claims — 231K (+22K spike, breached 230K)
+- ✅ **Feb 6** KFRC Q4 — Mixed: beat estimates but confirms "persistent stagnation"
+- ✅ **Feb 5** 30Y JGB Auction — (check SAM STATUS for result)
 
 ---
 
@@ -49,40 +108,47 @@
 
 ---
 
-## NEXT WEEK (Feb 10-16)
+## NEXT WEEK (Feb 16-22)
 
-| Date | Event | Agent | Priority | Notes |
-|------|-------|-------|----------|-------|
-| Feb 10 | 3Y Treasury Auction (~$58B) | LIQUID | 🟡 MEDIUM | Short-end absorption |
-| Feb 11 | 10Y Treasury Auction (~$42B) | LIQUID | 🟠 HIGH | Benchmark. Watch BTC <2.30x |
-| Feb 12 | 30Y Treasury Auction (~$25B) | LIQUID | 🟠 HIGH | Duration test |
-| Feb 13 | Initial Claims | LABOR | 🟡 MEDIUM | Weekly |
-
----
-
-## WEEK OF FEB 17-23
-
-| Date | Event | Agent | Priority | Notes |
-|------|-------|-------|----------|-------|
-| Feb 19 | 20Y JGB Auction | SAM | 🟠 HIGH | First since Jan 20 failure |
-| Feb 20 | Initial Claims | LABOR | 🟡 MEDIUM | Weekly |
-| ~Feb 20 | Robert Half (RHI) Earnings | LABOR | 🟠 HIGH | Second temp staffing read |
+| Date | Time | Event | Agent | Priority | Notes |
+|------|------|-------|-------|----------|-------|
+| Feb 16 | — | Presidents' Day (Market Closed) | — | ⚪ | — |
+| **Feb 19** | 8:30 AM | **Initial Claims** | LABOR | 🟠 HIGH | Sustained >230K = concern |
+| **Feb 19** | — | **20Y JGB Auction** | SAM | 🔴 CRITICAL | BTC <2.3x = crisis trigger |
+| ~Feb 20 | — | Robert Half (RHI) Earnings | LABOR | 🟠 HIGH | Second temp staffing read |
+| ~Feb 20 | — | Statistics Canada (Jan) | MARCO | 🟠 HIGH | Canadian tourism continuation |
 
 ---
 
-## LATE FEB / MARCH
+## WEEK OF FEB 23-28
 
-| Date | Event | Agent | Priority | Notes |
-|------|-------|-------|----------|-------|
-| Feb 27 | Initial Claims | LABOR | 🟡 MEDIUM | Weekly |
-| Late Feb | JOLTS (Dec 2025) | LABOR | 🟡 MEDIUM | May be delayed |
-| Mar TBD | Bank 10-K CRE Mod Disclosures | CREED | 🔴 CRITICAL | ASU 2022-02 disclosure cliff |
-| Mar TBD | PSEC S&P Rating Review | BROCK | 🟠 HIGH | BB+ → BB? downgrade risk |
-| Mar TBD | Edmentum Restructuring Update | BROCK | 🟠 HIGH | Multi-fund coordinated markdown |
-| Mar 4 | Fed Beige Book | LABOR | 🟠 HIGH | Ground truth from Fed contacts |
-| Mar 7 | February NFP | LABOR | 🟠 HIGH | If shutdown resolved |
-| Mar 31 | Q1 Quarter-End | LIQUID | 🟠 HIGH | SOFR spike, SRF usage expected |
-| Mar 31 | JPM Collar Expiry | HENRY | 🟡 MEDIUM | 7155c / 6475-5470p spread |
+| Date | Time | Event | Agent | Priority | Notes |
+|------|------|-------|-------|----------|-------|
+| Feb 26 | 8:30 AM | Initial Claims | LABOR | 🟡 MEDIUM | Weekly |
+| Feb 26 | 10:00 AM | PCE (Jan 2026) | PROME | 🟠 HIGH | Fed's preferred inflation gauge |
+| Feb 27 | 8:30 AM | PPI (Jan 2026) | PROME | 🟡 MEDIUM | Producer prices |
+
+---
+
+## MARCH 2026
+
+| Date | Time | Event | Agent | Priority | Notes |
+|------|------|-------|-------|----------|-------|
+| Mar 5 | 8:30 AM | Initial Claims | LABOR | 🟡 MEDIUM | Weekly |
+| **Mar 6** | 8:30 AM | **NFP (Feb 2026)** | LABOR | 🔴 CRITICAL | Monthly health check |
+| **Mar 11** | 8:30 AM | **CPI (Feb 2026)** | PROME | 🟠 HIGH | Inflation check |
+| Mar 12 | 8:30 AM | PPI (Feb 2026) | PROME | 🟡 MEDIUM | Producer prices |
+| Mar 12 | 8:30 AM | Initial Claims | LABOR | 🟡 MEDIUM | Weekly |
+| **Mar 13-14** | — | **BOJ Meeting** | SAM | 🔴 CRITICAL | Takaichi pressure test |
+| **Mar 18** | 2:00 PM | **FOMC Decision** | PROME | 🟠 HIGH | Rate decision + projections |
+| Mar 19 | 8:30 AM | Initial Claims | LABOR | 🟡 MEDIUM | Weekly |
+| Mar 26 | 8:30 AM | Initial Claims | LABOR | 🟡 MEDIUM | Weekly |
+| Mar 27 | 8:30 AM | PCE (Feb 2026) | PROME | 🟠 HIGH | Fed's preferred inflation |
+| **Mar 31** | — | **Q1 Quarter-End** | LIQUID | 🟠 HIGH | SOFR spike, SRF usage expected |
+| Mar 31 | — | JPM Collar Expiry | HENRY | 🟡 MEDIUM | 7155c / 6475-5470p spread |
+| ~Mar 31 | — | Japan FY-End ESR Disclosures | SAM | 🔴 CRITICAL | Insurer solvency reveals |
+| Mar TBD | — | Bank 10-K CRE Mod Disclosures | CREED | 🔴 CRITICAL | ASU 2022-02 disclosure cliff |
+| Mar TBD | — | PSEC S&P Rating Review | BROCK | 🟠 HIGH | BB+ → BB? downgrade risk |
 
 ---
 

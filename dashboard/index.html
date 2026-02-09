@@ -1253,11 +1253,32 @@
         
         // Catalysts with countdown timers
         const catalysts = [
-            { date: '2026-02-08T09:00:00+09:00', text: 'Japan Election', priority: 'critical', agent: 'SAM' },
-            { date: '2026-02-10T10:00:00-05:00', text: 'NY Fed Household Debt', priority: 'high', agent: 'CARL' },
-            { date: '2026-02-11T08:30:00-05:00', text: 'NFP Report', priority: 'critical', agent: 'LABOR' },
-            { date: '2026-02-13T08:30:00-05:00', text: 'Initial Claims', priority: 'medium', agent: 'LABOR' },
-            { date: '2026-02-19T00:00:00+09:00', text: '20Y JGB Auction', priority: 'high', agent: 'SAM' },
+            // This week
+            { date: '2026-02-10T11:00:00-05:00', text: 'NY Fed Q4 Household Debt', priority: 'critical', agent: 'CARL' },
+            { date: '2026-02-11T08:30:00-05:00', text: 'NFP (Jan 2026)', priority: 'critical', agent: 'LABOR' },
+            { date: '2026-02-12T08:30:00-05:00', text: 'Initial Claims', priority: 'high', agent: 'LABOR' },
+            { date: '2026-02-13T08:30:00-05:00', text: 'CPI (Jan 2026)', priority: 'high', agent: 'PROME' },
+            // Next week
+            { date: '2026-02-19T08:30:00-05:00', text: 'Initial Claims', priority: 'medium', agent: 'LABOR' },
+            { date: '2026-02-19T10:00:00+09:00', text: '20Y JGB Auction', priority: 'critical', agent: 'SAM' },
+            { date: '2026-02-26T08:30:00-05:00', text: 'Initial Claims', priority: 'medium', agent: 'LABOR' },
+            // March
+            { date: '2026-03-06T08:30:00-05:00', text: 'NFP (Feb 2026)', priority: 'critical', agent: 'LABOR' },
+            { date: '2026-03-11T08:30:00-05:00', text: 'CPI (Feb 2026)', priority: 'high', agent: 'PROME' },
+            { date: '2026-03-13T00:00:00+09:00', text: 'BOJ Meeting', priority: 'critical', agent: 'SAM' },
+            { date: '2026-03-18T14:00:00-04:00', text: 'FOMC Decision', priority: 'high', agent: 'PROME' },
+            { date: '2026-03-31T00:00:00-04:00', text: 'Q1 Quarter-End / ESR', priority: 'high', agent: 'LIQUID/SAM' },
+            // April
+            { date: '2026-04-03T08:30:00-04:00', text: 'NFP (Mar 2026)', priority: 'critical', agent: 'LABOR' },
+            { date: '2026-04-10T08:30:00-04:00', text: 'CPI (Mar 2026)', priority: 'high', agent: 'PROME' },
+            { date: '2026-04-29T14:00:00-04:00', text: 'FOMC Decision', priority: 'high', agent: 'PROME' },
+            // May
+            { date: '2026-05-08T08:30:00-04:00', text: 'NFP (Apr 2026)', priority: 'critical', agent: 'LABOR' },
+            { date: '2026-05-15T00:00:00-04:00', text: 'KRE $70 PUT EXPIRY', priority: 'critical', agent: 'PROME' },
+            // June
+            { date: '2026-06-05T08:30:00-04:00', text: 'NFP (May 2026)', priority: 'critical', agent: 'LABOR' },
+            { date: '2026-06-17T14:00:00-04:00', text: 'FOMC Decision', priority: 'high', agent: 'PROME' },
+            { date: '2026-06-18T00:00:00-04:00', text: 'KRE $60 PUT EXPIRY', priority: 'critical', agent: 'PROME' },
         ];
         
         function formatCountdown(targetDate) {
