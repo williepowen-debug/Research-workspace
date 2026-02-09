@@ -50,11 +50,11 @@
 | Metric | Value |
 |--------|-------|
 | Entry | $72.62 |
-| Current | **$66.66** |
+| Current | **$73.59** |
 | Target | $65.00 |
-| Move | **-8.2%** ✅ |
+| Move | +1.3% |
 
-Position moving in our direction. Now within striking distance of first target.
+Position slightly against us. Waiting for catalysts to confirm thesis.
 
 ---
 
