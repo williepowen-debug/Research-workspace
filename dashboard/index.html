@@ -913,129 +913,248 @@
             
             <!-- DATA TAB -->
             <div class="tab-page" id="tab-data">
-            <div class="agents-section">
-                <div class="section-title">Employment by Sector (BLS)</div>
-                <div class="market-grid" id="bls-grid">
-                    <div class="market-card">
-                        <div class="market-label">Temp Help Services</div>
-                        <div class="market-value" id="bls-temp">—</div>
-                        <div class="market-threshold" id="bls-temp-meta">Leading indicator</div>
-                    </div>
-                    <div class="market-card">
-                        <div class="market-label">Total Private</div>
-                        <div class="market-value" id="bls-private">—</div>
-                        <div class="market-threshold" id="bls-private-meta">Headline</div>
-                    </div>
-                    <div class="market-card">
-                        <div class="market-label">Manufacturing</div>
-                        <div class="market-value" id="bls-mfg">—</div>
-                        <div class="market-threshold" id="bls-mfg-meta">Cyclical</div>
-                    </div>
-                    <div class="market-card">
-                        <div class="market-label">Retail Trade</div>
-                        <div class="market-value" id="bls-retail">—</div>
-                        <div class="market-threshold" id="bls-retail-meta">Consumer proxy</div>
-                    </div>
-                    <div class="market-card">
-                        <div class="market-label">Healthcare</div>
-                        <div class="market-value" id="bls-health">—</div>
-                        <div class="market-threshold" id="bls-health-meta">Defensive</div>
-                    </div>
-                    <div class="market-card">
-                        <div class="market-label">Construction</div>
-                        <div class="market-value" id="bls-construction">—</div>
-                        <div class="market-threshold" id="bls-construction-meta">Rate sensitive</div>
-                    </div>
-                    <div class="market-card">
-                        <div class="market-label">Financial Activities</div>
-                        <div class="market-value" id="bls-financial">—</div>
-                        <div class="market-threshold" id="bls-financial-meta">Bank sector</div>
-                    </div>
-                </div>
-            </div>
             
-            <div class="agents-section">
-                <div class="section-title">Economic Indicators (FRED)</div>
-                <div class="market-grid" id="fred-grid">
+            <!-- LABOR Domain -->
+            <div class="agents-section" style="border-left: 3px solid var(--red); padding-left: 16px;">
+                <div class="section-title" style="display: flex; align-items: center; gap: 8px;">
+                    <span class="agent-status red" style="width: 8px; height: 8px;"></span>
+                    LABOR — Employment
+                </div>
+                <div class="market-grid">
                     <div class="market-card">
                         <div class="market-label">Initial Claims</div>
-                        <div class="market-value" id="fred-icsa">—</div>
-                        <div class="market-threshold" id="fred-icsa-meta">Threshold: >250K</div>
-                    </div>
-                    <div class="market-card">
-                        <div class="market-label">Continuing Claims</div>
-                        <div class="market-value" id="fred-ccsa">—</div>
-                        <div class="market-threshold" id="fred-ccsa-meta">Threshold: >2M</div>
+                        <div class="market-value" id="labor-claims">231K</div>
+                        <div class="market-threshold">🟡 &gt;230K | 🟠 &gt;250K | 🔴 &gt;300K</div>
                     </div>
                     <div class="market-card">
                         <div class="market-label">JOLTS Openings</div>
-                        <div class="market-value" id="fred-jtsjol">—</div>
-                        <div class="market-threshold" id="fred-jtsjol-meta">Threshold: <7M</div>
+                        <div class="market-value" id="labor-jolts">6.5M</div>
+                        <div class="market-threshold">🟠 &lt;7M (7yr low)</div>
                     </div>
                     <div class="market-card">
-                        <div class="market-label">Unemployment Rate</div>
-                        <div class="market-value" id="fred-unrate">—</div>
-                        <div class="market-threshold" id="fred-unrate-meta">Threshold: >5.0%</div>
+                        <div class="market-label">Unemployment (U-3)</div>
+                        <div class="market-value" id="labor-u3">4.1%</div>
+                        <div class="market-threshold">🔴 &gt;5.0%</div>
                     </div>
                     <div class="market-card">
-                        <div class="market-label">Temp Employment</div>
-                        <div class="market-value" id="fred-temphelps">—</div>
-                        <div class="market-threshold" id="fred-temphelps-meta">Leading indicator</div>
+                        <div class="market-label">Temp Staffing YoY</div>
+                        <div class="market-value warning" id="labor-temp">-12%</div>
+                        <div class="market-threshold">🔴 &lt;-6% (leading)</div>
                     </div>
                     <div class="market-card">
-                        <div class="market-label">Nonfarm Payrolls</div>
-                        <div class="market-value" id="fred-payems">—</div>
-                        <div class="market-threshold" id="fred-payems-meta">Total employment</div>
+                        <div class="market-label">Challenger Layoffs</div>
+                        <div class="market-value warning" id="labor-challenger">108K</div>
+                        <div class="market-threshold">🔴 Highest Jan since GFC</div>
+                    </div>
+                    <div class="market-card">
+                        <div class="market-label">NFP (Last)</div>
+                        <div class="market-value" id="labor-nfp">—</div>
+                        <div class="market-threshold">Next: Feb 11 8:30am</div>
                     </div>
                 </div>
             </div>
             
-            <div class="agents-section">
-                <div class="section-title">Market Data</div>
-                <div class="market-grid" id="market-grid">
+            <!-- CARL Domain -->
+            <div class="agents-section" style="border-left: 3px solid var(--orange); padding-left: 16px;">
+                <div class="section-title" style="display: flex; align-items: center; gap: 8px;">
+                    <span class="agent-status orange" style="width: 8px; height: 8px;"></span>
+                    CARL — Consumer Credit
+                </div>
+                <div class="market-grid">
                     <div class="market-card">
-                        <div class="market-label">KRE (Position)</div>
-                        <div class="market-value" id="price-kre">—</div>
-                        <div class="market-threshold">Target: &lt;$65</div>
+                        <div class="market-label">Auto DQ 60+ (Total)</div>
+                        <div class="market-value warning" id="carl-auto-dq">6.65%</div>
+                        <div class="market-threshold">🔴 &gt;7% (35bps away)</div>
                     </div>
                     <div class="market-card">
-                        <div class="market-label">VIX</div>
-                        <div class="market-value" id="price-vix">—</div>
-                        <div class="market-threshold">Watch: &gt;25</div>
+                        <div class="market-label">Auto DQ (Subprime)</div>
+                        <div class="market-value breach" id="carl-auto-subprime">16.6%</div>
+                        <div class="market-threshold">🔴 Historic high</div>
                     </div>
                     <div class="market-card">
-                        <div class="market-label">BTC (Liquidity)</div>
-                        <div class="market-value" id="price-btc">—</div>
-                        <div class="market-threshold">Watch: &lt;$60K</div>
+                        <div class="market-label">CC DQ 30+</div>
+                        <div class="market-value" id="carl-cc-30">2.98%</div>
+                        <div class="market-threshold">🟢 Declining (5th Q down)</div>
                     </div>
+                    <div class="market-card">
+                        <div class="market-label">CC DQ 90+</div>
+                        <div class="market-value" id="carl-cc-90">7.05%</div>
+                        <div class="market-threshold">🟠 Near 2019 peak</div>
+                    </div>
+                    <div class="market-card">
+                        <div class="market-label">Household Debt</div>
+                        <div class="market-value" id="carl-debt">$18.59T</div>
+                        <div class="market-threshold">Q3 2025 record</div>
+                    </div>
+                    <div class="market-card">
+                        <div class="market-label">NY Fed Report</div>
+                        <div class="market-value" id="carl-nyfed">—</div>
+                        <div class="market-threshold">Next: Feb 10 11am</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- SAM Domain -->
+            <div class="agents-section" style="border-left: 3px solid var(--red); padding-left: 16px;">
+                <div class="section-title" style="display: flex; align-items: center; gap: 8px;">
+                    <span class="agent-status red" style="width: 8px; height: 8px;"></span>
+                    SAM — Japan / Carry Trade
+                </div>
+                <div class="market-grid">
                     <div class="market-card">
                         <div class="market-label">USD/JPY</div>
-                        <div class="market-value" id="price-usdjpy">—</div>
-                        <div class="market-threshold">Threshold: &gt;160</div>
+                        <div class="market-value" id="sam-usdjpy">156.25</div>
+                        <div class="market-threshold">🟠 &gt;155 | 🔴 &gt;160</div>
+                    </div>
+                    <div class="market-card">
+                        <div class="market-label">JGB 10Y</div>
+                        <div class="market-value" id="sam-jgb10">2.29%</div>
+                        <div class="market-threshold">🔴 &gt;2.50%</div>
+                    </div>
+                    <div class="market-card">
+                        <div class="market-label">JGB 30Y</div>
+                        <div class="market-value" id="sam-jgb30">3.57%</div>
+                        <div class="market-threshold">🔴 &gt;4.00%</div>
+                    </div>
+                    <div class="market-card">
+                        <div class="market-label">Nikkei 225</div>
+                        <div class="market-value" id="sam-nikkei">54,254</div>
+                        <div class="market-threshold">+3.89% post-election</div>
+                    </div>
+                    <div class="market-card">
+                        <div class="market-label">BOJ Rate</div>
+                        <div class="market-value" id="sam-boj">0.50%</div>
+                        <div class="market-threshold">Takaichi ceiling: 0.75%</div>
+                    </div>
+                    <div class="market-card">
+                        <div class="market-label">Next 20Y JGB</div>
+                        <div class="market-value" id="sam-auction">Feb 19</div>
+                        <div class="market-threshold">🔴 BTC &lt;2.3x = crisis</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- HENRY Domain -->
+            <div class="agents-section" style="border-left: 3px solid var(--yellow); padding-left: 16px;">
+                <div class="section-title" style="display: flex; align-items: center; gap: 8px;">
+                    <span class="agent-status yellow" style="width: 8px; height: 8px;"></span>
+                    HENRY — Market Structure
+                </div>
+                <div class="market-grid">
+                    <div class="market-card">
+                        <div class="market-label">VIX</div>
+                        <div class="market-value" id="henry-vix">16.54</div>
+                        <div class="market-threshold">🟡 &gt;20 | 🔴 &gt;25</div>
+                    </div>
+                    <div class="market-card">
+                        <div class="market-label">SPX</div>
+                        <div class="market-value" id="henry-spx">6,886</div>
+                        <div class="market-threshold">Put Wall: 6,920</div>
+                    </div>
+                    <div class="market-card">
+                        <div class="market-label">GEX (Gamma)</div>
+                        <div class="market-value" id="henry-gex">+$62B</div>
+                        <div class="market-threshold">🟢 Positive = stable</div>
+                    </div>
+                    <div class="market-card">
+                        <div class="market-label">HY OAS</div>
+                        <div class="market-value" id="henry-oas">2.70%</div>
+                        <div class="market-threshold">🟢 Tight (complacent)</div>
+                    </div>
+                    <div class="market-card">
+                        <div class="market-label">IV Rank</div>
+                        <div class="market-value" id="henry-ivr">7.94%</div>
+                        <div class="market-threshold">Extreme complacency</div>
+                    </div>
+                    <div class="market-card">
+                        <div class="market-label">CTA Flip</div>
+                        <div class="market-value" id="henry-cta">6,494</div>
+                        <div class="market-threshold">CTAs flip short below</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- LIQUID Domain -->
+            <div class="agents-section" style="border-left: 3px solid var(--green); padding-left: 16px;">
+                <div class="section-title" style="display: flex; align-items: center; gap: 8px;">
+                    <span class="agent-status green" style="width: 8px; height: 8px;"></span>
+                    LIQUID — Funding / Plumbing
+                </div>
+                <div class="market-grid">
+                    <div class="market-card">
+                        <div class="market-label">RRP Balance</div>
+                        <div class="market-value warning" id="liquid-rrp">$10.4B</div>
+                        <div class="market-threshold">🔴 &lt;$5B (buffer GONE)</div>
+                    </div>
+                    <div class="market-card">
+                        <div class="market-label">SOFR</div>
+                        <div class="market-value" id="liquid-sofr">4.37%</div>
+                        <div class="market-threshold">= IORB (stable)</div>
                     </div>
                     <div class="market-card">
                         <div class="market-label">10Y Treasury</div>
-                        <div class="market-value" id="price-tnx">—</div>
-                        <div class="market-threshold">Watch: &gt;5.0%</div>
+                        <div class="market-value" id="liquid-10y">4.65%</div>
+                        <div class="market-threshold">🟡 &gt;4.75% | 🔴 &gt;5.0%</div>
                     </div>
                     <div class="market-card">
-                        <div class="market-label">HYG (Credit)</div>
-                        <div class="market-value" id="price-hyg">—</div>
-                        <div class="market-threshold">Stress: &lt;$75</div>
+                        <div class="market-label">TGA Balance</div>
+                        <div class="market-value" id="liquid-tga">—</div>
+                        <div class="market-threshold">Treasury cash</div>
                     </div>
                     <div class="market-card">
-                        <div class="market-label">SPY</div>
-                        <div class="market-value" id="price-spy">—</div>
-                        <div class="market-threshold">Context</div>
+                        <div class="market-label">SRF Usage</div>
+                        <div class="market-value" id="liquid-srf">$0</div>
+                        <div class="market-threshold">🔴 &gt;$50B = stress</div>
                     </div>
                     <div class="market-card">
-                        <div class="market-label">Gold</div>
-                        <div class="market-value" id="price-gld">—</div>
-                        <div class="market-threshold">Risk-off signal</div>
+                        <div class="market-label">Q-End Watch</div>
+                        <div class="market-value" id="liquid-qend">Mar 31</div>
+                        <div class="market-threshold">SOFR spike expected</div>
                     </div>
                 </div>
             </div>
             
+            <!-- REGINALD Domain -->
+            <div class="agents-section" style="border-left: 3px solid var(--orange); padding-left: 16px;">
+                <div class="section-title" style="display: flex; align-items: center; gap: 8px;">
+                    <span class="agent-status orange" style="width: 8px; height: 8px;"></span>
+                    REGINALD — Regional Banks
+                </div>
+                <div class="market-grid">
+                    <div class="market-card">
+                        <div class="market-label">KRE (Position)</div>
+                        <div class="market-value" id="reginald-kre">$73.59</div>
+                        <div class="market-threshold">Entry: $72.62 | Target: $65</div>
+                    </div>
+                    <div class="market-card">
+                        <div class="market-label">EGBN (DC Office)</div>
+                        <div class="market-value breach" id="reginald-egbn">—</div>
+                        <div class="market-threshold">🔴 RED tier</div>
+                    </div>
+                    <div class="market-card">
+                        <div class="market-label">WAL (Fraud)</div>
+                        <div class="market-value warning" id="reginald-wal">—</div>
+                        <div class="market-threshold">🟠 ORANGE tier</div>
+                    </div>
+                    <div class="market-card">
+                        <div class="market-label">VLY (FL CRE)</div>
+                        <div class="market-value" id="reginald-vly">—</div>
+                        <div class="market-threshold">Q4 beat (counter-signal)</div>
+                    </div>
+                    <div class="market-card">
+                        <div class="market-label">Office CMBS DQ</div>
+                        <div class="market-value breach" id="reginald-cmbs">10.4%</div>
+                        <div class="market-threshold">🔴 &gt;10%</div>
+                    </div>
+                    <div class="market-card">
+                        <div class="market-label">Next Earnings</div>
+                        <div class="market-value" id="reginald-earnings">Apr 20-29</div>
+                        <div class="market-threshold">ZION → WAL → VLY → EGBN</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Treasury Auctions & SEC Filings -->
             <div class="agents-section">
                 <div class="section-title">Recent Treasury Auctions</div>
                 <div id="treasury-auctions" style="display: flex; flex-direction: column; gap: 8px;">
