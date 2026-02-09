@@ -586,38 +586,105 @@ Either: Ueda backs down (YCC return, D2) OR Ueda holds (JGB spike, C scenario)
 
 ## BOTTOM LINE
 
-**Feb 5 reprieve ERASED. Takaichi landslide confirms the collision course.**
+**Feb 5 reprieve ERASED. Takaichi landslide confirms collision course. UST transmission ACTIVE.**
 
-**The election result:**
+### Political Reality (Feb 8)
 - LDP + Ishin: 310+ seats (2/3 supermajority)
 - Takaichi has unconstrained legislative power
-- Food tax suspension + ¥783B budget = CONFIRMED
+- ¥122T budget + food tax suspension = CONFIRMED
 - Markets "spooked" (Reuters) — debt/GDP 260%+ and fiscal restraint gone
+- No internal constraints (Ishiba purged), no coalition constraints (Ishin accelerator)
+- Only BOJ (Ueda) and market constraints remain
 
-**What changed:**
-- D2 scenario (monetary dominance) probability: 10% → **30-35%**
-- Soft landing probability: 25-30% → **10-15%**
-- Feb 19 20Y auction is now CRITICAL — will insurers still buy after landslide?
+### Transmission Status (🔴 ACTIVE)
 
-**The transmission chain reactivates:**
+**Life insurer → UST repatriation is NOT theoretical. It is happening NOW:**
+- Current flow: **$10-15B/month** (confirmed Jan 2026, "liquidating US/European debt")
+- Meiji Yasuda: ¥1.386T ($9.7B) unrealized JGB losses — HIGHEST disclosed
+- Nippon Life: ¥220B realized losses from JGB sales = liquidity pressure REAL
+- Major insurers REDUCING JGBs (first time since 2016) = stress deleveraging, not rotation
+
+**Repatriation scenarios:**
+- **Base (60%):** $80-120B over 12-24mo ($7-10B/mo) — manageable
+- **Stress (30%):** $150-250B over 6-12mo ($20-40B/mo) — **LIQUID vector activates**
+- **Crisis (10%):** $300-500B over 3-6mo ($100-165B/mo) — global contagion
+
+**For context:** Japan holds $600-810B UST (55-68% of $1.1T total). Even base case = $80-120B supply shock into $2T Treasury deficit environment. **This is the marginal buyer disappearing.**
+
+### The Transmission Chain
+
 ```
-Takaichi supermajority
+TAKAICHI SUPERMAJORITY (confirmed Feb 8)
     ↓
 Fiscal expansion accelerates (no constraints)
     ↓
-More JGB issuance + higher yields
+¥122T budget + March 31 miss + Q2 issuance wave
     ↓
-Life insurers forced to choose: buy at higher yields or sell UST to repatriate
+JGB yields rise (insurers can't absorb supply)
     ↓
-Either path = stress (JGB selloff OR UST repatriation → LIQUID vector)
+INSURER CAPITAL STRESS (ESR deteriorates, unrealized losses mount)
     ↓
-BOJ caught: normalize (break JGBs) or pause (break yen)
+Sell foreign bonds (primarily UST) → repatriate to buy JGBs
+    ↓
+$80-250B UST supply shock over 6-24 months
+    ↓
+UST yields rise +15-80bp (LIQUID vector)
+    ↓
+Regional bank HTM portfolios stressed (KRE)
+    ↓
+Credit spreads widen (REGINALD)
+    ↓
+S&P correction (HENRY, negative ERP -1.80%)
+    ↓
+GLOBAL CONTAGION
 ```
 
-**Feb 5 auction showed insurers will buy at 3.6%+. But that was BEFORE the landslide removed fiscal restraint hope.**
+### Next Inflection: FEB 19 20Y AUCTION
 
-**Next inflection: Feb 19 20Y auction.** If demand weak = acute stress returns. If demand holds = controlled chaos continues (but fiscal doom loop accelerating).
+**This determines the speed:**
+- **PASS** (BTC >2.8x): Continue gradual, base case 70%
+- **WEAK** (BTC 2.3-2.8x): Shift to stress case 45%, $20-40B/mo flows
+- **FAIL** (BTC <2.3x): Crisis case 20%, $40-60B wave in 4-8 weeks
 
-**Yen still at 159. Import inflation building. BOJ normalization vs fiscal expansion = irreconcilable collision approaching.**
+### What Changed
+
+**Scenario probabilities:**
+- D2 (monetary dominance): 10% → **30-35%** (supermajority enables BOJ pressure)
+- Soft landing: 25-30% → **10-15%** (landslide removes fiscal restraint hope)
+- Feb 19 20Y auction: CRITICAL — will insurers still buy after landslide?
+
+**The collision:**
+- Ueda wants normalization (1.0%+ terminal rate)
+- Takaichi draws 0.75% ceiling (Aida explicit statement)
+- April BOJ meeting = SHOWDOWN (if inflation hot + budget passed)
+- Yen at 159, import inflation building
+- BOJ caught: normalize (break JGBs) or pause (break yen)
+
+### Monitoring Priorities
+
+**PRIORITY 1 — Feb 19 20Y Auction:**
+- BTC <2.5x = escalate immediately to PROME
+- Determines if transmission stays gradual or accelerates
+
+**PRIORITY 2 — MOF Weekly Flow Data (Thursdays):**
+- Current: -¥400B/mo
+- Alert threshold: >¥1T/mo = crisis liquidation
+
+**PRIORITY 3 — USD/JPY Correlation Breakdown:**
+- Track 5-day rolling correlation with UST 10Y
+- Alert: Goes negative = heavy repatriation
+
+**PRIORITY 4 — ESR Disclosures (March 31 FY-end):**
+- Published April-May
+- Major insurer <180% = forced selling in 8-12 weeks
+- Watch: Meiji Yasuda (not disclosed yet — red flag)
+
+**PRIORITY 5 — BOJ April Meeting:**
+- If Ueda pushes 0.75% after hot inflation + budget passed = collision
+- Takaichi escalation: Katayama pressure, Diet questioning, BOJ Law threats
+
+**The fuse is lit. Feb 19 determines burn rate.**
 
 *Next update: Feb 19 post-20Y auction or sooner if thresholds breach*
+
+*Full transmission analysis: workbook/LIFE_INSURER_UST_DEEP_DIVE.md (38KB)*
