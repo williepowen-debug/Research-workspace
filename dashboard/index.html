@@ -728,6 +728,191 @@
                 grid-template-columns: repeat(2, 1fr);
             }
         }
+        
+        /* Calendar Styles */
+        .calendar-container {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 24px;
+        }
+        
+        .calendar-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 24px;
+        }
+        
+        .calendar-title {
+            font-size: 20px;
+            font-weight: 600;
+        }
+        
+        .calendar-nav {
+            display: flex;
+            gap: 8px;
+        }
+        
+        .calendar-nav button {
+            background: var(--bg-tertiary);
+            border: 1px solid var(--border);
+            color: var(--text-primary);
+            padding: 8px 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-family: inherit;
+            font-size: 13px;
+            transition: all 0.15s ease;
+        }
+        
+        .calendar-nav button:hover {
+            background: var(--bg-primary);
+            border-color: var(--border-hover);
+        }
+        
+        .calendar-grid {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 4px;
+        }
+        
+        .calendar-day-header {
+            text-align: center;
+            font-size: 11px;
+            font-weight: 600;
+            color: var(--text-muted);
+            padding: 8px;
+            text-transform: uppercase;
+        }
+        
+        .calendar-day {
+            min-height: 90px;
+            background: var(--bg-tertiary);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 8px;
+            position: relative;
+            transition: all 0.15s ease;
+        }
+        
+        .calendar-day:hover {
+            border-color: var(--border-hover);
+        }
+        
+        .calendar-day.other-month {
+            opacity: 0.4;
+        }
+        
+        .calendar-day.today {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 1px var(--accent);
+        }
+        
+        .calendar-day-number {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text-secondary);
+            margin-bottom: 6px;
+        }
+        
+        .calendar-day.today .calendar-day-number {
+            color: var(--accent);
+        }
+        
+        .calendar-events {
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+        }
+        
+        .calendar-event {
+            font-size: 10px;
+            padding: 3px 6px;
+            border-radius: 4px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            cursor: pointer;
+        }
+        
+        .calendar-event:hover {
+            filter: brightness(1.2);
+        }
+        
+        .calendar-event.critical {
+            background: var(--red-bg);
+            color: var(--red);
+            border-left: 2px solid var(--red);
+        }
+        
+        .calendar-event.high {
+            background: var(--orange-bg);
+            color: var(--orange);
+            border-left: 2px solid var(--orange);
+        }
+        
+        .calendar-event.medium {
+            background: var(--yellow-bg);
+            color: var(--yellow);
+            border-left: 2px solid var(--yellow);
+        }
+        
+        .calendar-event.low {
+            background: var(--green-bg);
+            color: var(--green);
+            border-left: 2px solid var(--green);
+        }
+        
+        .calendar-legend {
+            display: flex;
+            gap: 16px;
+            margin-top: 20px;
+            padding-top: 16px;
+            border-top: 1px solid var(--border);
+            flex-wrap: wrap;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 11px;
+            color: var(--text-muted);
+        }
+        
+        .legend-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 3px;
+        }
+        
+        .legend-dot.critical { background: var(--red); }
+        .legend-dot.high { background: var(--orange); }
+        .legend-dot.medium { background: var(--yellow); }
+        .legend-dot.low { background: var(--green); }
+        
+        .calendar-event-tooltip {
+            position: absolute;
+            background: var(--bg-primary);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 12px;
+            z-index: 100;
+            max-width: 250px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            font-size: 12px;
+        }
+        
+        .calendar-event-tooltip h4 {
+            margin: 0 0 8px 0;
+            font-size: 13px;
+        }
+        
+        .calendar-event-tooltip p {
+            margin: 4px 0;
+            color: var(--text-secondary);
+        }
     </style>
 </head>
 <body>
@@ -738,6 +923,7 @@
                 <button class="tab-btn active" data-tab="overview">Overview</button>
                 <button class="tab-btn" data-tab="subagents">Sub-Agents</button>
                 <button class="tab-btn" data-tab="data">Data</button>
+                <button class="tab-btn" data-tab="calendar">Calendar</button>
             </nav>
             <span class="alert-badge" id="header-alert-badge">0</span>
             <div class="system-badge red" id="system-badge">Critical</div>
@@ -1170,6 +1356,30 @@
             </div>
             
             </div>
+            
+            <!-- CALENDAR TAB -->
+            <div class="tab-page" id="tab-calendar">
+                <div class="calendar-container">
+                    <div class="calendar-header">
+                        <div class="calendar-title" id="calendar-month-title">February 2026</div>
+                        <div class="calendar-nav">
+                            <button onclick="changeMonth(-1)">← Prev</button>
+                            <button onclick="goToToday()">Today</button>
+                            <button onclick="changeMonth(1)">Next →</button>
+                        </div>
+                    </div>
+                    <div class="calendar-grid" id="calendar-grid">
+                        <!-- Calendar will be rendered by JS -->
+                    </div>
+                    <div class="calendar-legend">
+                        <div class="legend-item"><span class="legend-dot critical"></span> Critical</div>
+                        <div class="legend-item"><span class="legend-dot high"></span> High</div>
+                        <div class="legend-item"><span class="legend-dot medium"></span> Medium</div>
+                        <div class="legend-item"><span class="legend-dot low"></span> Low/Info</div>
+                    </div>
+                </div>
+            </div>
+            
         </main>
     </div>
     
@@ -1441,6 +1651,109 @@
                     </div>
                 `;
             }).join('');
+        }
+        
+        // Calendar rendering
+        let currentCalendarDate = new Date();
+        
+        function changeMonth(delta) {
+            currentCalendarDate.setMonth(currentCalendarDate.getMonth() + delta);
+            renderCalendar();
+        }
+        
+        function goToToday() {
+            currentCalendarDate = new Date();
+            renderCalendar();
+        }
+        
+        function getEventsForDate(year, month, day) {
+            const dateStr = `${year}-${String(month + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+            return catalysts.filter(c => {
+                const eventDate = new Date(c.date);
+                const eventDateStr = `${eventDate.getFullYear()}-${String(eventDate.getMonth() + 1).padStart(2, '0')}-${String(eventDate.getDate()).padStart(2, '0')}`;
+                return eventDateStr === dateStr;
+            });
+        }
+        
+        function renderCalendar() {
+            const grid = document.getElementById('calendar-grid');
+            const title = document.getElementById('calendar-month-title');
+            if (!grid || !title) return;
+            
+            const year = currentCalendarDate.getFullYear();
+            const month = currentCalendarDate.getMonth();
+            
+            const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 
+                               'July', 'August', 'September', 'October', 'November', 'December'];
+            title.textContent = `${monthNames[month]} ${year}`;
+            
+            // Day headers
+            const dayNames = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+            let html = dayNames.map(d => `<div class="calendar-day-header">${d}</div>`).join('');
+            
+            // First day of month and total days
+            const firstDay = new Date(year, month, 1).getDay();
+            const daysInMonth = new Date(year, month + 1, 0).getDate();
+            const daysInPrevMonth = new Date(year, month, 0).getDate();
+            
+            // Today
+            const today = new Date();
+            const isCurrentMonth = today.getFullYear() === year && today.getMonth() === month;
+            
+            // Previous month days
+            for (let i = firstDay - 1; i >= 0; i--) {
+                const day = daysInPrevMonth - i;
+                const prevMonth = month === 0 ? 11 : month - 1;
+                const prevYear = month === 0 ? year - 1 : year;
+                const events = getEventsForDate(prevYear, prevMonth, day);
+                html += renderDayCell(day, events, true, false);
+            }
+            
+            // Current month days
+            for (let day = 1; day <= daysInMonth; day++) {
+                const isToday = isCurrentMonth && today.getDate() === day;
+                const events = getEventsForDate(year, month, day);
+                html += renderDayCell(day, events, false, isToday);
+            }
+            
+            // Next month days
+            const totalCells = Math.ceil((firstDay + daysInMonth) / 7) * 7;
+            const nextMonthDays = totalCells - (firstDay + daysInMonth);
+            const nextMonth = month === 11 ? 0 : month + 1;
+            const nextYear = month === 11 ? year + 1 : year;
+            for (let day = 1; day <= nextMonthDays; day++) {
+                const events = getEventsForDate(nextYear, nextMonth, day);
+                html += renderDayCell(day, events, true, false);
+            }
+            
+            grid.innerHTML = html;
+        }
+        
+        function renderDayCell(day, events, isOtherMonth, isToday) {
+            const classes = ['calendar-day'];
+            if (isOtherMonth) classes.push('other-month');
+            if (isToday) classes.push('today');
+            
+            let eventsHtml = '';
+            if (events.length > 0) {
+                eventsHtml = '<div class="calendar-events">';
+                // Show max 3 events, then "+N more"
+                const displayEvents = events.slice(0, 3);
+                for (const event of displayEvents) {
+                    eventsHtml += `<div class="calendar-event ${event.priority}" title="${event.text} (${event.agent})">${event.text}</div>`;
+                }
+                if (events.length > 3) {
+                    eventsHtml += `<div class="calendar-event low">+${events.length - 3} more</div>`;
+                }
+                eventsHtml += '</div>';
+            }
+            
+            return `
+                <div class="${classes.join(' ')}">
+                    <div class="calendar-day-number">${day}</div>
+                    ${eventsHtml}
+                </div>
+            `;
         }
         
         function formatAlertTime(timestamp) {
@@ -1829,6 +2142,7 @@
         fetchSec();
         fetchSubagents();  // Sub-agent activity
         renderCatalysts();  // Render catalysts with countdowns
+        renderCalendar();   // Render calendar view
         setInterval(fetchAgentStatuses, 300000);  // Agent status every 5 min
         setInterval(fetchPrices, 60000);
         setInterval(fetchAlerts, 60000);
