@@ -3,7 +3,7 @@
 - **Name:** Will
 - **What to call them:** Will
 - **Pronouns:** *(TBD)*
-- **Timezone:** *(TBD)*
+- **Timezone:** Eastern (ET / EST / EDT)
 
 ---
 
