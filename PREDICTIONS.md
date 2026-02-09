@@ -2,7 +2,18 @@
 
 *Working model, not truth. Track our predictions to calibrate confidence over time.*
 
-**Last updated:** 2026-02-05
+**Last updated:** 2026-02-09
+
+## RECENTLY RESOLVED
+
+| # | Prediction | Result | Confidence | Notes |
+|---|------------|--------|------------|-------|
+| SAM-1 | 30Y JGB BTC >2.10x | ✅ CORRECT | 65% | BTC 3.64x (Feb 5) |
+| SAM-2 | USD/JPY <160 through election | ✅ CORRECT | 70% | 156.25 post-election |
+| SAM-3 | Takaichi <260 seats | ❌ WRONG | 55% | 316 LDP seats — supermajority |
+| LABOR-4 | KFRC guides down | ⚠️ PARTIAL | 70% | Beat estimates but confirms "stagnation" |
+
+**Running Score:** 2.5/4 (62.5%)
 
 ---
 
@@ -54,8 +65,8 @@
 | # | Prediction | Timeframe | Confidence | Status |
 |---|------------|-----------|------------|--------|
 | 1 | Feb 5 30Y JGB auction BTC >2.10x (not failure) | Feb 5, 2026 | 65% | ✅ **CORRECT** — BTC 3.64x |
-| 2 | USD/JPY stays <160 through election | Feb 8, 2026 | 70% | ⏳ Pending (~159 currently) |
-| 3 | Takaichi wins but <260 seats | Feb 8, 2026 | 55% | ⏳ Pending |
+| 2 | USD/JPY stays <160 through election | Feb 8, 2026 | 70% | ✅ **CORRECT** — 156.25 post-election |
+| 3 | Takaichi wins but <260 seats | Feb 8, 2026 | 55% | ❌ **WRONG** — 316 LDP seats (supermajority) |
 | 4 | JGB 30Y stays <4.0% through Q1 | Q1 2026 | 60% | ⏳ Pending (3.57% currently) |
 | 5 | BOJ signals faster hikes post-election | Feb-Mar 2026 | 70% | ⏳ Pending |
 | 6 | Life insurers announce more JGB selling | Q1 2026 | 75% | ⏳ Pending |

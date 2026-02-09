@@ -1,5 +1,5 @@
 ID	Name	Current Value	Status	Green	Yellow	Orange	Red	Last Updated	Source	Notes
-VX-LAB-1.01	Initial Claims	209K	GREEN	<230K	230-250K	250-300K	>300K	2026-02-01	DOL Jan 24	⚠️ Gig economy blind spot - 15% of workforce invisible
+VX-LAB-1.01	Initial Claims	231K	YELLOW	<230K	230-250K	250-300K	>300K	2026-02-06	DOL Week ending Feb 1	⚠️ Breached 230K threshold (+22K spike from 209K). Gig economy blind spot - 15% of workforce invisible
 VX-LAB-1.02	Continuing Claims	~1.9M	GREEN	<2.0M	2.0-2.1M	2.1-2.5M	>2.5M	2026-02-01	DOL Weekly	Duration indicator
 VX-LAB-1.03	Claims 4-Week Avg	~205K	GREEN	<230K	230-250K	250-300K	>300K	2026-02-01	DOL Weekly	Smoothed signal - artificially low?
 VX-LAB-1.04	Indeed Postings YoY	-5.2%	YELLOW	>0%	-5% to 0%	-10% to -5%	<-10%	2026-02-01	Indeed Dec 31	AT THRESHOLD - hiring weak

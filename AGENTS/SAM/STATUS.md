@@ -1,5 +1,5 @@
 # SAM STATUS
-**Last Updated:** 2026-02-08 23:00 UTC | **Status:** 🔴 RED — Takaichi Landslide + UST Transmission Active
+**Last Updated:** 2026-02-09 16:45 UTC | **Status:** 🔴 RED — Takaichi Landslide + UST Transmission Active
 
 ---
 
@@ -27,11 +27,11 @@ The yen has been the release valve (~159 currently), but if bonds break first, F
 
 | Vector | Value | Status | Threshold |
 |--------|-------|--------|-----------|
-| JGB 10Y | ~2.26% | 🟡 YELLOW | Watch >2.50% |
+| JGB 10Y | ~2.29% | 🟡 YELLOW | Watch >2.50% |
 | JGB 20Y | ~3.19% | 🟡 YELLOW | ATH 3.47% (Jan) |
 | JGB 30Y | **~3.57%** | 🟡 YELLOW | Watch >4.00% |
 | JGB 40Y | **~3.85%** | 🟡 YELLOW | ATH 4.24% (Jan) |
-| USD/JPY | **~156.7-157** | 🟡 YELLOW | 160 🔴 |
+| USD/JPY | **~156.25** | 🟡 YELLOW | 160 🔴 (yen STRENGTHENED post-election) |
 | 30Y Auction BTC | **3.64** | 🟢 GREEN | Above 12mo avg (3.35) |
 
 **Composite:** Post-auction rally. Yields retreated from ATH. Yen stable. Demand returned. Election is now the swing factor.
@@ -88,6 +88,23 @@ The yen has been the release valve (~159 currently), but if bonds break first, F
 Translation: Full steam ahead on Sanaeconomics.
 
 **Scenario implications:** D2 (monetary dominance) probability SURGES. This is the collision course confirmed.
+
+### Feb 9 Market Reaction — Honeymoon Phase
+
+| Metric | Level | Change | Signal |
+|--------|-------|--------|--------|
+| Nikkei 225 | 56,363.94 | +3.89% | Equity rally on fiscal stimulus certainty |
+| USD/JPY | ~156.25 | -2.75 (-1.7%) | 🟡 **YEN STRENGTHENING** (was 159) |
+| JGB 10Y | 2.292% | +0.002 | Flat, no bond vigilante response yet |
+
+**Counterintuitive signal:** Stocks up, yen UP, bonds stable.
+
+**Interpretation:**
+- Equities: Market welcomes mandate + stimulus certainty
+- **Yen strength = key signal:** Either (A) carry unwind positioning, (B) early insurer repatriation, or (C) anticipation of MOF intervention at 160
+- JGBs: No immediate vigilante response — market giving honeymoon period
+
+**Watch:** If USD/JPY continues to 155 while UST yields stable = **repatriation acceleration** (correlation breakdown signal). This would confirm base-to-stress case transition.
 
 ---
 
