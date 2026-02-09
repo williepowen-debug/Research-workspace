@@ -1,11 +1,18 @@
 Topic	Domain	Type	Priority	Source	Notes
+
+## STORY QUEUE — Briefings to Produce
 Florida Condo Crisis	reginald	deep-dive	high	CORAL/STATUS.md	SIRS mandate, blacklist, VLY exposure — CORAL sub-agent owns this
 Japan Post-Election Analysis	sam	update	high	SAM/STATUS.md	Results interpretation, what comes next (follow-up to Feb 8)
 The Employment Cliff	labor	update	high	LABOR/STATUS.md	Claims spike (231K), JOLTS collapse (6.5M), Challenger highs
 BDC Implosion Watch	reginald	explainer	high	BROCK/STATUS.md	PSEC 35% PIK, $142B unfunded, NAV crashes
 VIX vs MOVE Divergence	henry	explainer	medium	HENRY/STATUS.md	Why equity vol spiked while bond vol stayed calm
-The Transmission Chain	synthesis	explainer	medium	AGENTS.md	How LABOR → CARL → REGINALD connects
-What is a CLO?	explainers	explainer	medium	SAM/STATUS.md	Referenced often, worth explaining
-WARN Filings as Leading Indicator	labor	explainer	medium	LABOR/STATUS.md	60-day lead on layoffs
 Warsh's Fed: What Changes?	liquid	analysis	medium	LIQUID/STATUS.md	Balance sheet hawk taking over — implications
 Counter-Thesis: Soft Landing	synthesis	counter-argument	low	—	Steelman the bull case
+
+## TEACHING QUEUE — Concepts to Explain/Reinforce
+What is a CLO?	explainers	explainer	high	SAM/STATUS.md	Referenced often, Will asked about it indirectly — foundational for understanding Japan life insurer risk
+WARN Filings as Leading Indicator	labor	explainer	medium	LABOR/STATUS.md	60-day lead on layoffs
+The Transmission Chain	synthesis	explainer	medium	AGENTS.md	How LABOR → CARL → REGINALD connects
+Fiscal vs Monetary Policy	explainers	explainer	medium	2026-02-08 session	Covered today but worth standalone reinforcement in different context
+FX Intervention Mechanics	explainers	explainer	medium	2026-02-08 session	Covered stages today; historical examples would solidify
+Carry Trade Deep Dive	explainers	explainer	medium	SAM briefings	Mentioned multiple times, deserves dedicated treatment
