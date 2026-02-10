@@ -2,6 +2,17 @@
 
 Skills define _how_ tools work. This file is for _your_ specifics — the stuff that's unique to your setup.
 
+## PDF Reading
+
+`pdfminer.six` installed (2026-02-10). I can read PDFs from git:
+```python
+from pdfminer.high_level import extract_text
+text = extract_text('/path/to/file.pdf')
+```
+Add PDFs to `domain/sources/` folders and I'll extract them.
+
+---
+
 ## What Goes Here
 
 Things like:
