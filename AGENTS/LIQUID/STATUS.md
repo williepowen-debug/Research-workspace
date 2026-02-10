@@ -1,19 +1,30 @@
 # LIQUID STATUS
-**Last Updated:** 2026-02-06 | **Status:** 🟠 ELEVATED — Buffer GONE, System Fed-Dependent
+**Last Updated:** 2026-02-10 | **Status:** 🟠 ELEVATED — Double Buffer Gone (Domestic + Foreign)
 
 ---
 
 ## THESIS
 
-**The plumbing is fragile. The buffer is gone. The Fed is the only thing holding it together.**
+**The plumbing is fragile. BOTH buffers are gone. The Fed is the only thing holding it together.**
 
-US Treasury/repo funding markets have transitioned to a structurally vulnerable state:
+US Treasury/repo funding markets face **dual vulnerability**:
+
+### Pillar 1: Domestic Plumbing (Existing)
 - **RRP depleted** — $10.4B remaining vs $2.5T peak. Buffer = ZERO.
 - **SRF ceiling is porous** — Dec 31: SOFR traded 12bps ABOVE the Fed's backstop rate
 - **Dealers stuffed** — ~$200B net long Treasuries, SLR prevents expansion
 - **Basis trade armed** — $1.85T hedge fund positions funded by money market repos
 
-The system now operates in a **Fed-dependent regime**. Any shock that exceeds real-time Fed intervention capacity triggers cascade.
+### Pillar 2: Foreign Official Sector (NEW - Feb 2026)
+- **China strategic exit** — Official $688B, TRUE exposure ~$2.5-2.8T (Belgium/Euroclear proxies)
+- **Japan life insurer repatriation** — $10-15B/month selling, hedge ratios down 50%→30%
+- **Saudi petrodollar decline** — Vision 2030 deficit = no marginal buying
+- **$300B annual demand hole** — Must be absorbed by leveraged private buyers
+- **No 2016 safety net** — No ECB/BOJ QE to offset, Fed doing QT not QE
+
+The system now operates in a **dual-fragility regime**:
+1. **Domestic**: Fed intervention required real-time (no RRP buffer)
+2. **Foreign**: Term premium must rise to attract private buyers (no FOI subsidy)
 
 **Confidence:** Pattern 90% | Timing 70% | Magnitude 85%
 
@@ -21,20 +32,31 @@ The system now operates in a **Fed-dependent regime**. Any shock that exceeds re
 
 ## SIGNAL DASHBOARD
 
+### Domestic Plumbing
 | Vector | Value | Status | Threshold |
 |--------|-------|--------|-----------|
-| RRP Balance | **~$6B** | 🔴 RED | <$5B critical — **EFFECTIVELY ZERO** |
-| SOFR-IORB Spread | **0 bps** | 🟢 GREEN | >+5bps yellow |
-| SOFR | 3.65% | 🟢 GREEN | = IORB (perfect alignment) |
+| RRP Balance | **~$10B** | 🔴 RED | <$5B critical — **EFFECTIVELY ZERO** |
+| SOFR-IORB Spread | **+3 bps** | 🟢 GREEN | >+5bps yellow |
+| SOFR | 3.68% | 🟢 GREEN | Near IORB |
 | SRF Usage (peak) | $74.6B | 🟠 ORANGE | >$50B sustained |
 | Dealer Net Position | ~$200B | 🟠 ORANGE | >$200B clogged |
 | Basis Trade Exposure | $1.85T | 🟡 YELLOW | >$2.0T orange |
 | Treasury FTD | $42.4B | 🟡 YELLOW | >$50B orange |
 | Auction BTC (5Y/7Y) | 2.34-2.45x | 🟡 YELLOW | <2.30x orange |
-| Auction BTC (2Y/10Y) | 2.55-3.16x | 🟢 GREEN | Healthy |
 | CLO AAA Spread | 115bps | 🟢 GREEN | >150bps trigger |
 
-**Composite Assessment:** Structural vulnerability HIGH, active stress LOW
+### Foreign Official Sector (NEW)
+| Vector | Value | Status | Threshold |
+|--------|-------|--------|-----------|
+| China Holdings (TIC) | **$688B** | 🟡 YELLOW | <$700B yellow, <$600B orange |
+| Japan Holdings | ~$1.1T | 🟢 GREEN | Life insurers selling $10-15B/mo |
+| FOI Share of Market | **~30%** | 🟠 ORANGE | Was 50% in 2015 |
+| Term Premium (ACM) | **0.80%** | 🟡 YELLOW | >1.0% orange (rising) |
+| Annual FOI Demand Hole | **~$300B** | 🟠 ORANGE | Japan + China + Saudi combined |
+
+**Composite Assessment:** 
+- Domestic: Structural vulnerability HIGH, active stress LOW
+- Foreign: Structural withdrawal ACTIVE, replacement buyers LEVERAGED
 
 ---
 
@@ -172,6 +194,86 @@ Kevin Warsh nominated as Fed Chair (Jan 30). Key for LIQUID:
 
 ---
 
+## FOREIGN OFFICIAL SECTOR WITHDRAWAL (NEW)
+
+**Added:** 2026-02-10 | **Source:** China UST Research (6 prompts)
+
+### The Hidden Picture: China's TRUE Exposure
+
+Official TIC data shows $688B — but this is **misleading**:
+
+| Category | Amount |
+|----------|--------|
+| Official TIC Data | $688B |
+| Belgium/Euroclear (hidden) | $400-500B |
+| Agency Bonds | $300B+ |
+| State Bank Portfolios | $298B |
+| Shadow Bank NFAs | $500-700B |
+| **Realistic Total** | **$2.5-2.8T** |
+
+The "decline" from $1.06T (2021) is largely **migration to offshore custodians**, not exit.
+
+### Feb 2026: Window Guidance to Banks
+
+**Critical development:** Chinese regulators issued verbal directive to Big Four banks:
+- Stop adding to UST positions
+- Gradually reduce where excessive
+- Framed as "risk management" not de-dollarization
+- **Extends mandate beyond PBOC to entire banking system**
+
+### The Convergence: $300B Annual Demand Hole
+
+| Source | Annual Withdrawal | Driver |
+|--------|-------------------|--------|
+| Japan (life insurers) | ~$150B | 30Y JGB at 3.9%, hedge costs high |
+| China (strategic) | ~$100B | Window guidance, trade war prep |
+| Saudi Arabia | ~$50B | Vision 2030 deficits |
+| **TOTAL** | **~$300B/yr** | |
+
+### Why 2026 ≠ 2016
+
+**2015-16:** China sold ~$500B, but ECB/BOJ QE created offsetting private demand.
+
+**2026:** No safety net:
+- Fed doing QT (not QE)
+- ON RRP buffer depleted
+- US deficit ~$2T/year (OBBBA)
+- Japan also a SELLER, not buyer
+- **Jan 23, 2026:** Coordinated US-Japan FX intervention
+
+### Term Premium Impact
+
+| Metric | Value |
+|--------|-------|
+| Current ACM Term Premium | 0.80% |
+| Historical Average | 2.16% |
+| Without FOI Subsidy | ~1.80-1.90% |
+
+Academic estimates: $200B reduction = **+30 to +100bps** persistent yield impact.
+
+### Triggers for Aggressive Selling
+
+| Trigger | Likelihood | Mechanism |
+|---------|------------|-----------|
+| Reserve freeze (Russia-style) | Low | Total liquidation |
+| Secondary sanctions | Medium | Preemptive exit |
+| 50%+ tariffs (no carve-outs) | Medium | Retaliation |
+| Taiwan escalation | Low | Financial war prep |
+
+**Key date:** Trump-Xi Beijing summit April 2026
+
+### Who Fills the Hole?
+
+| Buyer | Mechanism | Risk |
+|-------|-----------|------|
+| Basis trade HFs | $1.4T, **18:1 leverage** | Reflexive deleveraging |
+| Domestic banks | eSLR relief (+$34.5B/G-SIB) | Regulatory capture |
+| Stablecoins/MMFs | GENIUS Act | Front-end only |
+
+**Implication:** System transitions from official-sector stability to private-sector fragility.
+
+---
+
 ## FLOWS STATUS
 
 | Flow | Speed | Status | Trigger |
@@ -187,6 +289,7 @@ Kevin Warsh nominated as Fed Chair (Jan 30). Key for LIQUID:
 
 ## PREDICTIONS (Falsifiable)
 
+### Domestic Plumbing
 | # | Prediction | Timeframe | Confidence |
 |---|------------|-----------|------------|
 | 1 | SOFR-IORB spread stays <+10bps absent shock | Q1 2026 | 80% |
@@ -195,6 +298,15 @@ Kevin Warsh nominated as Fed Chair (Jan 30). Key for LIQUID:
 | 4 | No auction failure (BTC >2.0x) in Q1 | Q1 2026 | 75% |
 | 5 | Warsh confirmation delayed or blocked | H1 2026 | 55% |
 | 6 | Reserve balances drop below $2.8T | Q2 2026 | 60% |
+
+### Foreign Official Sector (NEW)
+| # | Prediction | Timeframe | Confidence |
+|---|------------|-----------|------------|
+| 7 | China official TIC holdings fall below $650B | Q2 2026 | 70% |
+| 8 | Belgium holdings rise (China proxy) as China TIC falls | Q2 2026 | 65% |
+| 9 | 10Y term premium (ACM) rises above 1.0% | H2 2026 | 60% |
+| 10 | Auction indirect bid % declines to <65% on average | Q2 2026 | 55% |
+| 11 | Japan continues net selling USTs (TIC monthly) | Through 2026 | 75% |
 
 ---
 
@@ -240,20 +352,32 @@ Kevin Warsh nominated as Fed Chair (Jan 30). Key for LIQUID:
 - ML-LIQ-004 through 007: Core research validating thesis
 - ML-LIQ-018: 7Y Auction Playbook
 - ML-LIQ-022-024: Warsh integration
+- **ML-LIQ-026-029: China UST / FOI Research (Feb 2026)**
 - FLOW-LIQUID-1.01: RRP Depletion Cascade
+- **FLOW-LIQUID-5.01-5.02: FOI Exit Cascades**
 - Research: "The Vanishing Buffer" (RRP depletion analysis)
+- **Research: CHINA_UST_RESEARCH.md (6-prompt deep dive)**
 
 ---
 
 ## BOTTOM LINE
 
-The funding market is a bomb with the safety removed. The fuse isn't lit — Fed intervention (RMP, SRF) is holding things together. But:
+The funding market has **two missing safety systems**:
 
-1. **Buffer = zero** — No shock absorption capacity
+### Domestic (Existing)
+1. **Buffer = zero** — No RRP shock absorption
 2. **Dealers clogged** — No market-making elasticity  
 3. **$1.85T basis trade** — Transmission mechanism armed
-4. **Warsh nomination** — Fed willingness to intervene may decline
+4. **Warsh nomination** — Fed willingness may decline
 
-System is stable **until it isn't**. When stress hits, it will transmit faster than historical precedent because the RRP cushion that existed in 2020-2023 is gone.
+### Foreign Official (NEW)
+5. **$300B demand hole** — Japan/China/Saudi all exiting
+6. **No 2016 safety net** — No ECB/BOJ QE to absorb
+7. **Replacement = leveraged** — Basis trade HFs at 18:1
+8. **Term premium must rise** — From 0.8% toward 1.5-2.0%
 
-*Next update trigger: Quarter-end (Mar 31) or SOFR-IORB >+10bps*
+System is transitioning from **official-sector stability** (price-insensitive buyers) to **private-sector fragility** (leveraged, price-sensitive buyers). This is structural, not cyclical.
+
+The Fed can address domestic plumbing stress (SRF, RMP). It **cannot replace** $300B/year in foreign official demand. That adjustment happens through **higher yields**.
+
+*Next update trigger: Quarter-end (Mar 31), SOFR-IORB >+10bps, or TIC data showing accelerated FOI exit*
