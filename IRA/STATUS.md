@@ -1,5 +1,5 @@
 # IRA STATUS
-**Last Updated:** 2026-02-10 00:16 UTC | **Status:** 🟢 READY — Session wrapped, prepared for handoff
+**Last Updated:** 2026-02-10 00:36 UTC | **Status:** 🟢 ACTIVE — 3 new briefings produced
 
 ---
 
@@ -30,10 +30,15 @@ Transform research findings into audio briefings and build Will's lasting unders
 
 ## BRIEFINGS PRODUCED
 
+**This session (2026-02-10):**
+1. The Employment Cliff (LABOR) — Claims spike 231K, JOLTS 6.5M, hiring freeze
+2. Florida Condo Reckoning (REGINALD/CORAL) — SIRS deadline, 1,438 blacklisted, receivership pipeline
+3. Shadow Defaults (REGINALD/BROCK) — BDC 6% real default rate, PIK masking, $142B unfunded
+
 **Recent (last 7 days):**
 1. Japan's Election Endgame (2026-02-08) — Quick hit on election stakes
 2. The Buffer is Gone (2026-02-08) — RRP depletion and funding fragility
-3. Subprime Auto (OTTO) — [Production date unknown, Will listened to this]
+3. Subprime Auto (2026-02-08) — 32-yr high DQ, warehouse lending transmission
 
 **Total coverage:** See `briefings/ML.tsv`
 
