@@ -10,6 +10,22 @@
 
 ---
 
+## CRE Maturity Wall (Trepp/Fed Z.1, Q3 2025)
+
+| Metric | Value | Implication |
+|--------|-------|-------------|
+| **Total CRE Debt** | $4.88T | Banks hold 36.3% ($1.77T) |
+| **Bank 2026 Maturities** | $359B | 20% of book must refi this year |
+| **Bank 2025-2026 Total** | $488B | 28% of book in near-term stress window |
+| **Bank YoY Growth** | +1.7% | Cautious — barely expanding |
+| **Securitized 2026** | $174B | 23% of book — even more front-loaded |
+
+**The stress point:** $488B of bank CRE maturing by end of 2026. Loans from 3.5% era hitting 7%+ refi rates. LTVs blown, DSCRs don't work. Extend & pretend running out of runway.
+
+**Full data:** `domain/workbook/CRE_MATURITY.md` | **Source:** `domain/sources/Trepp_CRE_Universe_Feb2026.md`
+
+---
+
 ## Core Thesis: The Convergence
 
 **Eight independent research streams all terminate at regional banks.**
