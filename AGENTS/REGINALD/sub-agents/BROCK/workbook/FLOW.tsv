@@ -13,3 +13,7 @@ PARTNERSHIP_RISK	Bank-PC JVs	Originating Banks	Citi/Apollo, Wells/Centerbridge r
 TIMING_LAG	BDC Stress	Bank Earnings	2-3 quarter lag from BDC portfolio stress to bank P&L	Predictable	Watch BDC Q4 → Bank Q2-Q3 2026
 TRIGGER	Employment Decline	Portfolio Cos	Revenue -10-15% breaks debt service even with PIK	LABOR dependent	Middle market cos highly employment-sensitive
 RATE_PARADOX	Fed Rate Cuts	BDC Liquidity	Lower yields → redemption pressure → gates → forced sales	Denominator effect	PIK ratio rises mathematically as cash income falls
+9_AI_CAPEX	Big Tech Capex	Neocloud Debt	Capex pullback → revenue miss → debt service fails	$600B projected 2026	Mirrors 2001 telecom bust (60% decline)
+10_GPU_COLLATERAL	GPU Value Decline	BDC NAV	40-60% value loss in 18mo vs 6yr depreciation	$26.6B neocloud debt	CoreWeave, Lambda, Crusoe exposed
+11_VENDOR_FINANCE	Nvidia Financing	Customer Default	$110B to customers (vs Lucent $15B in 2000)	Circular	NVDA exposed if customers fail
+12_NEOCLOUD_BANK	Neocloud Stress	Bank Fund Finance	BDC NAV decline → coverage breach → forced repayment	$1.2T bank-NDFI	Path 2 to regional bank stress

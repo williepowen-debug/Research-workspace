@@ -37,6 +37,12 @@
 3. **"Beneath the Ice"** — Surface metrics GREEN, hidden stress ORANGE-RED
 4. **"WARN Pipeline"** — Q4 filings = Q1-Q2 actuals, pain locked in
 5. **"Metastable"** — LIQUID is calm until it isn't, hours to crisis if triggered
+6. **"Shadow Banking Nexus"** — $1.2T bank→NDFI exposure (10.4% of loans); 20% NAV stress triggers asset coverage breach → dividend halt → forced repayment → bank losses
+
+### Transmission Paths (Feb 2026)
+**Path 1 (Classic):** CRE stress → Bank CRE losses → KRE
+**Path 2 (BROCK):** AI Capex reversal → Neocloud/BDC NAV → Bank fund finance → KRE
+Both converge on regional banks. Path 2 may trigger faster.
 
 ---
 
