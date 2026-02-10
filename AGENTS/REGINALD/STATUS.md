@@ -1,5 +1,5 @@
 # REGINALD STATUS
-**Last Updated:** 2026-02-06 | **Status:** 🟠 ELEVATED — Convergence Thesis Active
+**Last Updated:** 2026-02-10 | **Status:** 🟠 ELEVATED — Convergence Thesis Active
 
 *Updated by Prome*
 
@@ -55,7 +55,7 @@ This wasn't designed — it emerged from research. Regional banks are the common
 | **NDFI/Auto Fraud** | OTTO | $1.7T bank exposure to non-depository lenders, $591M+ losses disclosed |
 | **Federal Layoffs** | LABOR | DOGE cuts hitting DC corridor banks (EGBN, BHRB) |
 | **Consumer Credit** | CARL | 37% of Americans can't cover $400, stress transmission accelerating |
-| **BDC/Fund Finance** | BROCK | $142B unfunded commitments, NAVs crashing (PSEC -57%) |
+| **BDC/Fund Finance** | BROCK | $1.2T bank-NDFI exposure, PIK masking 6% shadow defaults, AI infrastructure risk emerging |
 | **Migration** | MARCO | Border city stress, FL triple exposure, workforce exit |
 | **FHLB/Funding** | LIQUID | RRP at zero, FHLB is convergence point for all stress |
 | **Japan Contagion** | SAM | Repatriation → UST → CLO → BDC → banks |
@@ -259,11 +259,44 @@ Monitors Florida condo crisis and transmission to regional bank balance sheets. 
 
 **Files:** `sub-agents/CORAL/STATUS.md`, `sub-agents/CORAL/workbook/`
 
-### CREED (CRE Deep Dive)
-Monitors commercial real estate stress — delinquencies, valuations, maturity walls. See `CREED/STATUS.md`.
+### CREED (CRE Deep Dive) 🟠 ORANGE
+Monitors commercial real estate stress — delinquencies, valuations, maturity walls.
 
-### BROCK (BDC & Private Credit)
-Monitors Business Development Companies and private credit stress. **Currently 🟠 ORANGE** — PSEC at 35% PIK, >50% BDCs burning cash. See `BROCK/STATUS.md`.
+**Current signals:**
+- Office CMBS DQ: **12.34%** (ATH, exceeds GFC peak)
+- Special Servicing: **17.16%** (2x GFC)
+- Maturity Wall: **$936B** in 2026, ~$336B refinancing gap
+- Loss Severity: 49.7-63% (vs 20-40% in bank models)
+- Bank mods +66% YoY, re-defaults +90% YoY
+
+**Key finding:** Extend-and-pretend masking stress. Employment is the trigger that breaks it.
+
+**Predictions:** 5 active | See `CREED/STATUS.md`
+
+---
+
+### BROCK (BDC & Private Credit) 🟠 ORANGE
+Monitors Business Development Companies and private credit stress.
+
+**Current signals:**
+- PIK concentration: PSEC 35%, FSK 27%, BXSL 20%
+- Shadow default rate: ~6% (vs reported 2.1%)
+- >50% of BDCs burning cash (dividends > cash generated)
+- Bank-NDFI exposure: **$1.2T** (10.4% of bank loans)
+
+**NEW — AI Infrastructure Risk:**
+- $450B+ deployed to tech/AI via private credit
+- GPU collateral depreciates 40-60% in 18mo vs 6-year loans
+- **HRZN collapsed 21%** (forced Monroe merger) — first AI canary
+- Nvidia has $110B customer financing (vs Lucent's $15B in 2000)
+- Blue Owl walked from Oracle data center deal
+
+**Two transmission paths to KRE:**
+1. **Classic:** CRE stress → Bank CRE losses → KRE (CREED)
+2. **NEW:** AI Capex → Neocloud/BDC NAV → Bank fund finance → KRE (BROCK)
+
+**Canaries:** PSEC (PIK), HRZN (AI/tech)
+**Predictions:** 11 active | See `sub-agents/BROCK/STATUS.md`
 
 ---
 
