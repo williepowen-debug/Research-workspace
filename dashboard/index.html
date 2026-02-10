@@ -966,20 +966,59 @@
             <!-- OVERVIEW TAB -->
             <div class="tab-page active" id="tab-overview">
             
-            <!-- Hero Status Card -->
-            <div class="hero-status" id="hero-status">
-                <div class="hero-agents" id="hero-agents">
-                    <span class="hero-agent"><span class="agent-status unknown"></span> LABOR</span>
-                    <span class="hero-agent"><span class="agent-status unknown"></span> CARL</span>
-                    <span class="hero-agent"><span class="agent-status unknown"></span> HENRY</span>
-                    <span class="hero-agent"><span class="agent-status unknown"></span> SAM</span>
-                    <span class="hero-agent"><span class="agent-status unknown"></span> REGINALD</span>
-                    <span class="hero-agent"><span class="agent-status unknown"></span> LIQUID</span>
+            <!-- 1. THESIS STATUS PANEL -->
+            <div class="agents-section" style="background: linear-gradient(135deg, var(--bg-secondary) 0%, rgba(239,68,68,0.1) 100%); border: 1px solid var(--red); border-radius: 12px; padding: 20px; margin-bottom: 20px;">
+                <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 16px;">
+                    <div style="flex: 1; min-width: 280px;">
+                        <div style="font-size: 11px; text-transform: uppercase; letter-spacing: 1px; color: var(--text-muted); margin-bottom: 8px;">Thesis Status</div>
+                        <div style="font-size: 20px; font-weight: 600; color: var(--text-primary); line-height: 1.4; margin-bottom: 12px;">
+                            Consumer stress at <span style="color: var(--red);">92% of GFC peak</span>.<br>
+                            Employment trigger not yet fired.
+                        </div>
+                        <div style="font-size: 14px; color: var(--text-secondary);">
+                            Position: <span style="color: var(--yellow);">Waiting for catalyst</span> — KRE needs -9% by May expiry
+                        </div>
+                    </div>
+                    <div style="background: var(--bg-tertiary); border-radius: 8px; padding: 12px 16px; min-width: 200px;">
+                        <div style="font-size: 11px; color: var(--red); font-weight: 600; margin-bottom: 6px;">⚡ LATEST UPDATE</div>
+                        <div style="font-size: 13px; color: var(--text-primary); font-weight: 500;">CARL upgraded to 🔴 RED</div>
+                        <div style="font-size: 12px; color: var(--text-secondary); margin-top: 4px;">CC delinquency 12.70% — only 1pp from GFC peak</div>
+                        <div style="font-size: 11px; color: var(--text-muted); margin-top: 6px;">Feb 10, 2026</div>
+                    </div>
                 </div>
-                <div class="hero-summary" id="hero-summary">Loading system status...</div>
             </div>
             
-            <div class="position-card">
+            <!-- 2. CRITICAL METRICS STRIP -->
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; margin-bottom: 20px;">
+                <div style="background: var(--red-bg); border: 1px solid var(--red); border-radius: 8px; padding: 14px; text-align: center;">
+                    <div style="font-size: 11px; color: var(--text-muted); margin-bottom: 4px;">CC 90+ DQ</div>
+                    <div style="font-size: 24px; font-weight: 700; color: var(--red);">12.70%</div>
+                    <div style="font-size: 10px; color: var(--red);">92% of GFC peak</div>
+                </div>
+                <div style="background: var(--yellow-bg); border: 1px solid var(--yellow); border-radius: 8px; padding: 14px; text-align: center;">
+                    <div style="font-size: 11px; color: var(--text-muted); margin-bottom: 4px;">Initial Claims</div>
+                    <div style="font-size: 24px; font-weight: 700; color: var(--yellow);">231K</div>
+                    <div style="font-size: 10px; color: var(--yellow);">Watch &gt;250K</div>
+                </div>
+                <div style="background: var(--orange-bg); border: 1px solid var(--orange); border-radius: 8px; padding: 14px; text-align: center;">
+                    <div style="font-size: 11px; color: var(--text-muted); margin-bottom: 4px;">USD/JPY</div>
+                    <div style="font-size: 24px; font-weight: 700; color: var(--orange);">156.25</div>
+                    <div style="font-size: 10px; color: var(--orange);">🔴 above 160</div>
+                </div>
+                <div style="background: var(--green-bg); border: 1px solid var(--green); border-radius: 8px; padding: 14px; text-align: center;">
+                    <div style="font-size: 11px; color: var(--text-muted); margin-bottom: 4px;">VIX</div>
+                    <div style="font-size: 24px; font-weight: 700; color: var(--green);">16.54</div>
+                    <div style="font-size: 10px; color: var(--text-muted);">Complacent</div>
+                </div>
+                <div style="background: var(--bg-tertiary); border: 1px solid var(--border); border-radius: 8px; padding: 14px; text-align: center;">
+                    <div style="font-size: 11px; color: var(--text-muted); margin-bottom: 4px;">KRE</div>
+                    <div style="font-size: 24px; font-weight: 700; color: var(--text-primary);">$73.59</div>
+                    <div style="font-size: 10px; color: var(--text-muted);">Target: $65</div>
+                </div>
+            </div>
+            
+            <!-- 3. POSITION CARD WITH DAYS TO EXPIRY -->
+            <div class="position-card" style="margin-bottom: 20px;">
                 <div class="position-header">
                     <div>
                         <div class="position-title">Active Position</div>
@@ -987,41 +1026,53 @@
                         <div class="position-type">2× $70P May 15 · 2× $60P Jun 18</div>
                     </div>
                     <div class="position-pnl">
-                        <div class="position-pnl-label">Unrealized P&L</div>
-                        <div class="position-pnl-value" id="position-pnl">—</div>
+                        <div class="position-pnl-label">Max Risk</div>
+                        <div class="position-pnl-value" style="color: var(--text-secondary);">~$800-900</div>
                     </div>
                 </div>
-                <div class="position-stats">
-                    <div class="position-stat">
-                        <div class="position-stat-value" id="stat-entry">$72.62</div>
-                        <div class="position-stat-label">Entry</div>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 12px; margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--border);">
+                    <div style="text-align: center;">
+                        <div style="font-size: 11px; color: var(--text-muted); margin-bottom: 4px;">May $70 Put</div>
+                        <div style="font-size: 18px; font-weight: 600; color: var(--orange);" id="may-expiry-days">94</div>
+                        <div style="font-size: 10px; color: var(--text-muted);">days left</div>
+                        <div style="font-size: 11px; color: var(--text-secondary); margin-top: 4px;">Break-even: ~$67</div>
                     </div>
-                    <div class="position-stat">
-                        <div class="position-stat-value" id="stat-current">$73.59</div>
-                        <div class="position-stat-label">Current</div>
+                    <div style="text-align: center;">
+                        <div style="font-size: 11px; color: var(--text-muted); margin-bottom: 4px;">Jun $60 Put</div>
+                        <div style="font-size: 18px; font-weight: 600; color: var(--green);" id="jun-expiry-days">128</div>
+                        <div style="font-size: 10px; color: var(--text-muted);">days left</div>
+                        <div style="font-size: 11px; color: var(--text-secondary); margin-top: 4px;">Break-even: ~$58</div>
                     </div>
-                    <div class="position-stat">
-                        <div class="position-stat-value" id="stat-target">$65.00</div>
-                        <div class="position-stat-label">Target</div>
+                    <div style="text-align: center;">
+                        <div style="font-size: 11px; color: var(--text-muted); margin-bottom: 4px;">Entry</div>
+                        <div style="font-size: 18px; font-weight: 600; color: var(--text-primary);">$72.62</div>
+                        <div style="font-size: 10px; color: var(--text-muted);">Feb 4</div>
                     </div>
-                    <div class="position-stat">
-                        <div class="position-stat-value">$800-900</div>
-                        <div class="position-stat-label">Risk</div>
+                    <div style="text-align: center;">
+                        <div style="font-size: 11px; color: var(--text-muted); margin-bottom: 4px;">Current</div>
+                        <div style="font-size: 18px; font-weight: 600; color: var(--red);">$73.59</div>
+                        <div style="font-size: 10px; color: var(--red);">+1.3%</div>
+                    </div>
+                    <div style="text-align: center;">
+                        <div style="font-size: 11px; color: var(--text-muted); margin-bottom: 4px;">Target</div>
+                        <div style="font-size: 18px; font-weight: 600; color: var(--green);">$65.00</div>
+                        <div style="font-size: 10px; color: var(--green);">-11.7%</div>
                     </div>
                 </div>
             </div>
             
+            <!-- Transmission Chain (updated CARL to RED) -->
             <div class="chain-card">
                 <div class="chain-title">Transmission Chain</div>
                 <div class="chain">
-                    <div class="chain-node active-stress" onclick="showAgent('LABOR', 'AGENTS/LABOR/STATUS.md')">
+                    <div class="chain-node active-stress" onclick="showAgent('LABOR', 'AGENTS/LABOR/STATUS.md')" style="border-color: var(--red); background: var(--red-bg);">
                         <div class="chain-node-status">🔴</div>
                         <div class="chain-node-name">LABOR</div>
                         <div class="chain-node-label">Employment</div>
                     </div>
-                    <div class="chain-arrow">→</div>
-                    <div class="chain-node" onclick="showAgent('CARL', 'AGENTS/CARL/STATUS.md')">
-                        <div class="chain-node-status">🟠</div>
+                    <div class="chain-arrow" style="color: var(--red);">→</div>
+                    <div class="chain-node active-stress" onclick="showAgent('CARL', 'AGENTS/CARL/STATUS.md')" style="border-color: var(--red); background: var(--red-bg);">
+                        <div class="chain-node-status">🔴</div>
                         <div class="chain-node-name">CARL</div>
                         <div class="chain-node-label">Consumer</div>
                     </div>
@@ -1035,16 +1086,50 @@
                     <div class="chain-node">
                         <div class="chain-node-status">💰</div>
                         <div class="chain-node-name">KRE</div>
-                        <div class="chain-node-label">Position</div>
+                        <div class="chain-node-label">$73.59</div>
                     </div>
                 </div>
             </div>
             
-            <div class="agents-section">
+            <!-- 4. UPDATED PREDICTIONS SCORECARD -->
+            <div class="agents-section" style="background: var(--bg-secondary); border-radius: 12px; padding: 20px; margin-top: 20px;">
+                <div class="section-title" style="margin-bottom: 16px;">Prediction Scorecard</div>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 16px; text-align: center;">
+                    <div>
+                        <div style="font-size: 32px; font-weight: 700; color: var(--green);">4.5</div>
+                        <div style="font-size: 12px; color: var(--text-muted);">Correct</div>
+                    </div>
+                    <div>
+                        <div style="font-size: 32px; font-weight: 700; color: var(--red);">1</div>
+                        <div style="font-size: 12px; color: var(--text-muted);">Wrong</div>
+                    </div>
+                    <div>
+                        <div style="font-size: 32px; font-weight: 700; color: var(--accent);">75%</div>
+                        <div style="font-size: 12px; color: var(--text-muted);">Accuracy</div>
+                    </div>
+                    <div>
+                        <div style="font-size: 32px; font-weight: 700; color: var(--text-secondary);">40+</div>
+                        <div style="font-size: 12px; color: var(--text-muted);">Active</div>
+                    </div>
+                </div>
+                <div style="margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--border);">
+                    <div style="font-size: 12px; color: var(--text-muted); margin-bottom: 8px;">Recently Resolved</div>
+                    <div style="display: flex; flex-direction: column; gap: 6px; font-size: 13px;">
+                        <div><span style="color: var(--green);">✅</span> CARL #1: CC 90+ exceeded 2019 peak — <span style="color: var(--green);">12.70%</span></div>
+                        <div><span style="color: var(--green);">✅</span> CARL #3: FL foreclosures +100% YoY — <span style="color: var(--green);">+190%</span></div>
+                        <div><span style="color: var(--green);">✅</span> SAM #1: 30Y JGB auction BTC &gt;2.10x — <span style="color: var(--green);">3.64x</span></div>
+                        <div><span style="color: var(--red);">❌</span> SAM #3: Takaichi &lt;260 seats — <span style="color: var(--red);">316 (wrong)</span></div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- All Agents Grid -->
+            <div class="agents-section" style="margin-top: 20px;">
                 <div class="section-title">All Agents</div>
                 <div class="agents-grid" id="agents-grid"></div>
             </div>
             
+            <!-- Sub-Agent Activity Preview -->
             <div class="agents-section">
                 <div class="section-title">Sub-Agent Activity</div>
                 <div id="subagent-preview" style="display: flex; flex-direction: column; gap: 8px;">
@@ -1052,25 +1137,6 @@
                 </div>
                 <div style="margin-top: 12px; text-align: center;">
                     <button class="tab-btn" onclick="switchTab('subagents')" style="background: var(--bg-tertiary);">View All Activity →</button>
-                </div>
-            </div>
-            
-            <div class="predictions-row">
-                <div class="prediction-stat">
-                    <div class="prediction-number pending" id="pred-total">40+</div>
-                    <div class="prediction-label">Active</div>
-                </div>
-                <div class="prediction-stat">
-                    <div class="prediction-number correct" id="pred-correct">2.5</div>
-                    <div class="prediction-label">Correct</div>
-                </div>
-                <div class="prediction-stat">
-                    <div class="prediction-number wrong" id="pred-wrong">1</div>
-                    <div class="prediction-label">Wrong</div>
-                </div>
-                <div class="prediction-stat">
-                    <div class="prediction-number pending" id="pred-due">2</div>
-                    <div class="prediction-label">Due This Week</div>
                 </div>
             </div>
             </div>
@@ -2344,6 +2410,28 @@
             }
         }
         
+        // Calculate days to expiry for puts
+        function updateExpiryDays() {
+            const now = new Date();
+            const mayExpiry = new Date('2026-05-15T16:00:00-04:00');
+            const junExpiry = new Date('2026-06-18T16:00:00-04:00');
+            
+            const mayDays = Math.ceil((mayExpiry - now) / (1000 * 60 * 60 * 24));
+            const junDays = Math.ceil((junExpiry - now) / (1000 * 60 * 60 * 24));
+            
+            const mayEl = document.getElementById('may-expiry-days');
+            const junEl = document.getElementById('jun-expiry-days');
+            
+            if (mayEl) {
+                mayEl.textContent = mayDays;
+                mayEl.style.color = mayDays < 30 ? 'var(--red)' : mayDays < 60 ? 'var(--orange)' : 'var(--yellow)';
+            }
+            if (junEl) {
+                junEl.textContent = junDays;
+                junEl.style.color = junDays < 30 ? 'var(--red)' : junDays < 60 ? 'var(--orange)' : 'var(--green)';
+            }
+        }
+        
         // Init
         fetchAgentStatuses();  // Fetch dynamic status first
         fetchPrices();
@@ -2355,6 +2443,7 @@
         fetchSubagents();  // Sub-agent activity
         renderCatalysts();  // Render catalysts with countdowns
         renderCalendar();   // Render calendar view
+        updateExpiryDays(); // Calculate days to expiry
         setInterval(fetchAgentStatuses, 300000);  // Agent status every 5 min
         setInterval(fetchPrices, 60000);
         setInterval(fetchAlerts, 60000);
@@ -2364,6 +2453,7 @@
         setInterval(fetchSec, 600000);   // SEC filings every 10 min
         setInterval(fetchSubagents, 30000);  // Sub-agent activity every 30 sec
         setInterval(renderCatalysts, 60000);  // Update countdowns every minute
+        setInterval(updateExpiryDays, 3600000);  // Update expiry days every hour
     </script>
 </body>
 </html>
