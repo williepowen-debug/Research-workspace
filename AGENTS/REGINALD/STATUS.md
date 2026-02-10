@@ -16,10 +16,10 @@
 
 | Agent | Signal | Value | Threshold | Status | Updated |
 |-------|--------|-------|-----------|--------|---------|
-| **CREED** | Office CMBS DQ | 12.34% | >10% RED | 🔴 | Feb 3 |
+| **CREED** | Office CMBS DQ | **12.34%** (+103bps MoM) | >10% RED | 🔴 **ATH** | Feb 10 |
+| **CREED** | MF CMBS DQ | 6.94% (+232bps YoY) | >8% RED | 🟠 | Feb 10 |
 | **CREED** | Special Servicing | 17.16% | >12% RED | 🔴 | Feb 3 |
 | **CREED** | 2026 Maturity Wall | $936B | — | 🔴 | Feb 3 |
-| **CREED** | Bank CRE DQ | 4.18% | >5% ORANGE | 🟡 | Feb 3 |
 | **BROCK** | PSEC PIK % | 35% | >25% RED | 🔴 | Feb 10 |
 | **BROCK** | HRZN NAV Δ | -21% | >-15% RED | 🔴 | Feb 10 |
 | **BROCK** | Bank-NDFI Exposure | $1.2T | >$1T ORANGE | 🟠 | Feb 10 |
@@ -29,7 +29,7 @@
 | **CORAL** | Assoc. Bankruptcies | 1 | >3 ORANGE | 🟡 | Feb 6 |
 | **CORAL** | VLY Non-accruals | 0.87% | >1.0% ORANGE | 🟡 | Feb 6 |
 
-**Summary:** CREED 🔴 | BROCK 🟠 | CORAL 🟠
+**Summary:** CREED 🔴 (Office ATH) | BROCK 🟠 | CORAL 🟠
 
 **Transmission paths active:**
 1. CRE → Bank losses (CREED) — waiting for employment trigger

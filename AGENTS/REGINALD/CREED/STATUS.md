@@ -1,5 +1,5 @@
 # CREED STATUS
-**Last Updated:** 2026-02-03 | **Status:** 🟠 ORANGE — Extend-and-Pretend Masking Severe Stress
+**Last Updated:** 2026-02-10 | **Status:** 🔴 RED — Office CMBS at New All-Time High
 
 ---
 
@@ -19,13 +19,14 @@ The gap is extend-and-pretend: loan modifications, FHLB liquidity, regulatory fo
 
 | Domain | Metric | Current | GFC Peak | Status |
 |--------|--------|---------|----------|--------|
-| **Office CMBS DQ** | Delinquency | 11.31% | ~10% | 🔴 RED |
+| **Office CMBS DQ** | Delinquency | **12.34%** (Jan 2026, +103bps MoM) | ~10% | 🔴 **NEW ATH** |
 | **Special Servicing** | Rate | 17.16% | ~10.67% | 🔴 RED (2x GFC) |
 | **Loss Severity** | Resolutions | 49.7-63% | ~33% | 🔴 RED |
 | **Bank CRE DQ** | Large banks | 4.18% | — | 🟡 YELLOW (declining) |
 | **Maturity Wall** | 2026 | $936B | — | 🔴 RED |
 | **Refinancing Gap** | Estimate | ~$336B (36%) | — | 🟠 ORANGE |
-| **MF CMBS DQ** | Delinquency | 6.64% | — | 🟠 ORANGE |
+| **MF CMBS DQ** | Delinquency | **6.94%** (Jan 2026, +232bps YoY) | — | 🟠 ORANGE |
+| **Overall CMBS DQ** | With balloons | 9.14% (shadow stress) | — | 🟠 ORANGE |
 | **Bank Mods** | Volume | $27.7B (+66% YoY) | — | 🟠 ORANGE |
 
 ---
