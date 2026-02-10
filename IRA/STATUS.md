@@ -1,5 +1,5 @@
 # IRA STATUS
-**Last Updated:** 2026-02-09 22:11 UTC | **Status:** 🟢 ACTIVE — Git structure established, tracking in sync
+**Last Updated:** 2026-02-10 00:16 UTC | **Status:** 🟢 READY — Session wrapped, prepared for handoff
 
 ---
 
@@ -89,9 +89,29 @@ Concepts that need dedicated explainers:
 
 **If Will wants stories:** Scan STATUS files, produce 2-3 briefings from queue
 
-**If Will has questions:** Continue dialogue-based learning (this is where breakthroughs happen)
+**If Will has questions:** Continue dialogue-based learning (this is where breakthroughs happens)
 
 **If Will wants teaching:** Produce explainer on CLOs or carry trade
+
+---
+
+## OPERATIONAL NOTES
+
+**Git Workflow (Established 2026-02-09):**
+- Commit after every session (Option A)
+- Update LEARNER.md, STATUS.md as session progresses
+- Commit message format: "IRA session YYYY-MM-DD: [brief description]"
+- Always push so Will can track in GitHub
+
+**Session Rhythm (Established):**
+- **Adaptive boot sequence** — follow full boot if finding stories; skip to response if Will has immediate question
+- **Option C confirmed** — Will values BOTH briefings AND follow-up conversation (dialogue is where real learning happens)
+- **Briefings are springboards for teaching** — not just content delivery
+
+**System Notes:**
+- Will uses `/clear` command periodically to manage context
+- After clear, boot fresh from files (LEARNER.md, CURRICULUM.md, STATUS.md, FL/ML logs)
+- Git-tracked files are the memory system across sessions
 
 ---
 
