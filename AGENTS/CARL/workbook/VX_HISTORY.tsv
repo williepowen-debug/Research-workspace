@@ -27,3 +27,11 @@ VX-CARL-5.03	2026-01-24	23%	ELEVATED	Underinsurance Rate: medical (Commonwealth 
 VX-CARL-5.04	2026-01-24	62%	CRITICAL	Paycheck-to-Paycheck: structural fragility (LendingClub)
 VX-CARL-5.05	2026-01-24	+33% YoY	BREACHED	Hardship Withdrawal Trend: doubled since 2018; cross-ref VX-CARL-4.01
 VX-CARL-5.06	2026-01-24	450K+	CRITICAL	CA Insurance Retreat: FAIR Plan policies accelerating
+VX-CARL-6.01	2026-02-10	12.70%	BREACHED	CC 90+ DQ: 92% of GFC peak (13.74%) — Q4 2025 NY Fed
+VX-CARL-6.02	2026-02-10	5.21%	BREACHED	Auto 90+ DQ: At historical max (5.27%) — Q4 2025 NY Fed
+VX-CARL-6.03	2026-02-10	$18.78T	BREACHED	Total Household Debt: Record high (+$4.6T since 2019)
+VX-CARL-6.04	2026-02-10	3.0%	BREACHED	Q1 Income Mortgage DQ: Back to 2016 levels (5x pandemic lows)
+VX-CARL-6.05	2026-02-10	4.10%	BREACHED	FL 90+ DQ: +49% YoY (was 2.76%)
+VX-CARL-6.06	2026-02-10	+190%	BREACHED	FL Foreclosures YoY: Accelerating from +57%
+VX-CARL-6.07	2026-02-10	+0.6pp	CRITICAL	Unemployment→Mortgage Correlation: Counties with +1.6pp unemployment see +0.6pp mortgage DQ (NY Fed LSE)
+VX-CARL-6.08	2026-02-10	Gulf Coast FL	BREACHED	Home Price Decline Zone: Pronounced declines correlate with rising DQ (NY Fed LSE)
