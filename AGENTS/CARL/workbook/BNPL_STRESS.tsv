@@ -1,0 +1,37 @@
+Provider	Active Users	TPV Growth	Delinquency Rate (30+)	Delinquency Rate (60+)	Delinquency Rate (90+)	Late Fee Revenue %	Funding Cost	Stock Price	Status	Last Updated	Next Earnings	Notes
+Affirm	18.7M	+23% YoY	4.2%	2.8%	1.9%	~15%	8.5-9.0%	$57.23	🟢 GREEN	2025-Q3	2026-02-12	TPV growth strong; DQ rates elevated but stable; high funding costs compress margins
+Klarna	150M global (37M US)	+28% YoY	3.8%	2.3%	1.5%	Minimal (fee-light)	6.0-7.0%	Private (IPO pending)	🟢 GREEN	2025-Q4	2026-03 (IPO expected)	Strong growth; lower DQ vs peers; IPO delayed multiple times; profitability achieved Q2 2025
+Afterpay (Block)	24M US	+15% YoY	5.1%	3.4%	2.2%	0% (no late fees)	4.5-5.5%	$89.34 (SQ)	🟡 YELLOW	2025-Q3	2026-02-20 (Block earnings)	DQ crossing 5% threshold; Square integration complete; merchant-funded model under pressure
+PayPal BNPL	30M+ active	+8% YoY	3.2%	1.9%	1.2%	~10%	3.0-4.0%	$92.15	🟡 YELLOW	2025-Q3	2026-02-05	TPV growth slowing below 10% threshold; lowest funding cost (balance sheet); merchant competition intense
+
+# THRESHOLDS
+# 🟢 GREEN: DQ 30+ <4%, TPV growth >15%, stable funding
+# 🟡 YELLOW: DQ 30+ 4-5%, TPV growth 10-15%, rising funding costs
+# 🟠 ORANGE: DQ 30+ >5%, TPV growth <10%, funding stress signals
+# 🔴 RED: Forbearance programs launched, warehouse line cuts, regulatory action, bankruptcy risk
+
+# KEY RISKS (Feb 2026)
+# - Employment shock → conversion velocity = 0-3 months (faster than credit cards)
+# - 63% of users have multiple simultaneous BNPL loans (stacking = hidden leverage)
+# - $24-36B phantom debt unreported to credit bureaus
+# - Merchant-funded models break if merchants pull back (Afterpay, Klarna)
+# - Rising funding costs compress unit economics (Affirm especially vulnerable)
+# - Regulatory scrutiny increasing (CFPB 1033 rule, state-level licensing)
+
+# WATCH FOR:
+# - PayPal TPV growth staying sub-10% → signals market saturation
+# - Afterpay DQ >6% → first to break given no-late-fee model
+# - Affirm funding cost >10% → refinancing crisis
+# - Klarna IPO delay beyond Q1 2026 → private funding stress
+# - Any provider launching "hardship programs" or "payment flexibility" → RED FLAG
+
+# UPCOMING CATALYSTS:
+# 2026-02-05: PayPal Q4 earnings
+# 2026-02-12: Affirm Q2 FY2026 earnings
+# 2026-02-20: Block (Afterpay) Q4 earnings
+# 2026-03-??: Klarna IPO expected (watch for further delays)
+# 2026-04-30: CFPB 1033 implementation deadline (open banking data sharing)
+
+# TRANSMISSION TO BANKS:
+# BNPL stress → Consumer liquidity crisis → Credit card/auto DQ spike → Bank NCOs (REGINALD)
+# Also: Several BNPL providers use bank warehouse lines (Affirm: Cross River, Celtic) → direct bank exposure

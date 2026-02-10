@@ -1,10 +1,55 @@
 [
   {
+    "id": 1770768000000,
+    "timestamp": "2026-02-09 21:20:00 UTC",
+    "type": "research",
+    "severity": "info",
+    "message": "4 agents completed domain research: LABOR (GovCon), CARL (BNPL/State), MARCO (Muni/Ag), REGINALD (VLY/Convergence)",
+    "value": null,
+    "threshold": null
+  },
+  {
+    "id": 1770681600000,
+    "timestamp": "2026-02-09 13:45:00 UTC",
+    "type": "agent",
+    "severity": "critical",
+    "message": "SAM escalated to RED — Takaichi landslide (316 LDP seats, 2/3 supermajority)",
+    "value": 316,
+    "threshold": 260
+  },
+  {
+    "id": 1770681500000,
+    "timestamp": "2026-02-09 13:43:00 UTC",
+    "type": "prediction",
+    "severity": "warning",
+    "message": "SAM Prediction #3 resolved WRONG — Takaichi got 316 seats (predicted <260)",
+    "value": 316,
+    "threshold": 260
+  },
+  {
+    "id": 1770681400000,
+    "timestamp": "2026-02-09 13:42:00 UTC",
+    "type": "prediction",
+    "severity": "success",
+    "message": "SAM Prediction #2 resolved CORRECT — USD/JPY stayed <160 through election (156.25)",
+    "value": 156.25,
+    "threshold": 160
+  },
+  {
+    "id": 1770595200000,
+    "timestamp": "2026-02-08 09:00:00 UTC",
+    "type": "event",
+    "severity": "critical",
+    "message": "Japan Snap Election — Takaichi landslide victory, LDP supermajority confirmed",
+    "value": null,
+    "threshold": null
+  },
+  {
     "id": 1738860000000,
     "timestamp": "2026-02-05 17:00:00 UTC",
     "type": "prediction",
     "severity": "success",
-    "message": "SAM Prediction #1 resolved CORRECT \u2014 JGB 30Y auction BTC 3.64x (threshold was >2.10x)",
+    "message": "SAM Prediction #1 resolved CORRECT — JGB 30Y auction BTC 3.64x (threshold was >2.10x)",
     "value": 3.64,
     "threshold": 2.1
   },
@@ -22,7 +67,7 @@
     "timestamp": "2026-02-06 13:35:00 UTC",
     "type": "data",
     "severity": "critical",
-    "message": "Challenger January cuts: 108,435 \u2014 highest January since 2009 GFC",
+    "message": "Challenger January cuts: 108,435 — highest January since 2009 GFC",
     "value": 108435,
     "threshold": null
   },
@@ -31,7 +76,7 @@
     "timestamp": "2026-02-06 13:40:00 UTC",
     "type": "data",
     "severity": "critical",
-    "message": "Challenger January hires: 5,306 \u2014 lowest January EVER recorded",
+    "message": "Challenger January hires: 5,306 — lowest January EVER recorded",
     "value": 5306,
     "threshold": null
   },
@@ -40,89 +85,8 @@
     "timestamp": "2026-02-06 15:30:00 UTC",
     "type": "prediction",
     "severity": "warning",
-    "message": "KFRC Prediction #4 marked PARTIAL \u2014 guided +2% (wrong) but described 'frozen' market (right), stock -5.7%",
+    "message": "KFRC Prediction #4 marked PARTIAL — guided +2% (wrong) but described 'frozen' market (right)",
     "value": null,
     "threshold": null
-  },
-  {
-    "id": 1770404347165,
-    "timestamp": "2026-02-06 18:59:07 UTC",
-    "type": "fred",
-    "severity": "warning",
-    "message": "JOLTS Job Openings breached threshold: 7K (threshold: 7K)",
-    "value": 6542.0,
-    "threshold": 7000
-  },
-  {
-    "id": 1770405258802,
-    "timestamp": "2026-02-06 19:14:18 UTC",
-    "type": "fred",
-    "severity": "warning",
-    "message": "JOLTS Job Openings breached threshold: 7K (threshold: 7K)",
-    "value": 6542.0,
-    "threshold": 7000
-  },
-  {
-    "id": 1770407442149,
-    "timestamp": "2026-02-06 19:50:42 UTC",
-    "type": "fred",
-    "severity": "warning",
-    "message": "JOLTS Job Openings breached threshold: 7K (threshold: 7K)",
-    "value": 6542.0,
-    "threshold": 7000
-  },
-  {
-    "id": 1770409051656,
-    "timestamp": "2026-02-06 20:17:31 UTC",
-    "type": "sec",
-    "severity": "warning",
-    "message": "WAL filed 8-K: WESTERN ALLIANCE BANCORPORATION",
-    "value": "2026-02-05",
-    "threshold": null
-  },
-  {
-    "id": 1770409242044,
-    "timestamp": "2026-02-06 20:20:42 UTC",
-    "type": "fred",
-    "severity": "warning",
-    "message": "JOLTS Job Openings breached threshold: 7K (threshold: 7K)",
-    "value": 6542.0,
-    "threshold": 7000
-  },
-  {
-    "id": 1770410142685,
-    "timestamp": "2026-02-06 20:35:42 UTC",
-    "type": "fred",
-    "severity": "warning",
-    "message": "JOLTS Job Openings breached threshold: 7K (threshold: 7K)",
-    "value": 6542.0,
-    "threshold": 7000
-  },
-  {
-    "id": 1770412259752,
-    "timestamp": "2026-02-06 21:10:59 UTC",
-    "type": "sec",
-    "severity": "warning",
-    "message": "WAL filed 8-K: WESTERN ALLIANCE BANCORPORATION",
-    "value": "2026-02-05",
-    "threshold": null
-  },
-  {
-    "id": 1770412860427,
-    "timestamp": "2026-02-06 21:21:00 UTC",
-    "type": "sec",
-    "severity": "warning",
-    "message": "WAL filed 8-K: WESTERN ALLIANCE BANCORPORATION",
-    "value": "2026-02-05",
-    "threshold": null
-  },
-  {
-    "id": 1770412862362,
-    "timestamp": "2026-02-06 21:21:02 UTC",
-    "type": "fred",
-    "severity": "warning",
-    "message": "JOLTS Job Openings breached threshold: 7K (threshold: 7K)",
-    "value": 6542.0,
-    "threshold": 7000
   }
 ]
