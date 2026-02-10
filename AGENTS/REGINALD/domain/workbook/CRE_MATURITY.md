@@ -1,9 +1,47 @@
 # CRE Maturity Wall — Tracking Workbook
-**Last Updated:** 2026-02-10 | **Source:** Trepp / Fed Z.1
+**Last Updated:** 2026-02-10 | **Source:** Trepp / Fed Z.1 / Fed H.8
 
 ---
 
-## Current State (Q3 2025)
+## Weekly Bank CRE Activity (Fed H.8)
+
+**Latest Release:** February 6, 2026
+
+### Current Balances (as of Jan 28, 2026)
+
+| Category | Balance | YoY Growth | Recent Trend |
+|----------|---------|------------|--------------|
+| **Total CRE Loans** | **$3,072B** | +1.6% | Slight acceleration |
+| Commercial RE | $3,072B | +1.6% | +6.1% Dec (annualized) |
+| Construction | $454B | -5.1% | Declining steadily |
+| Multifamily | $628B | +4.7% | Growing |
+| Farmland | $120B | +3.6% | Stable |
+
+### Weekly Tracking
+
+| Week Ending | CRE Total | WoW Δ | Construction | Multifamily |
+|-------------|-----------|-------|--------------|-------------|
+| Jan 28, 2026 | $3,072.3B | +$1.8B | $453.5B | $627.8B |
+| Jan 21, 2026 | $3,070.5B | +$3.1B | $453.9B | $622.6B |
+| Jan 14, 2026 | $3,067.4B | +$0.6B | $452.7B | $618.1B |
+| Jan 07, 2026 | $3,066.8B | — | $455.0B | — |
+| Dec 2025 | $3,065.8B | — | $454.0B | — |
+| Dec 2024 | $3,002.5B | — | $477.7B | $599.7B |
+
+### What This Tells Us
+
+1. **Banks still lending CRE** — +$70B YoY, but pace is slow (+1.6%)
+2. **Construction pulling back** — Down $24B from Dec 2024, developers cautious
+3. **Multifamily still growing** — +$28B YoY, banks see this as "safer"
+4. **Mismatch:** Banks growing CRE book while $359B needs to refi in 2026
+
+### Update Schedule
+
+H.8 releases every Friday at 4:15 PM ET. Next release: Feb 13, 2026.
+
+---
+
+## CRE Debt Universe (Q3 2025)
 
 ### Total CRE Debt: $4.88 Trillion
 
@@ -99,10 +137,11 @@ Metros with highest office vacancy + bank CRE concentration:
 
 | Metric | Current | Yellow | Orange | Red |
 |--------|---------|--------|--------|-----|
-| Bank CRE growth YoY | +1.7% | <1% | 0% | Negative |
+| Bank CRE growth YoY (H.8) | +1.6% | <1% | 0% | Negative |
 | 2026 maturities (bank) | $359B | — | — | Watch for acceleration |
-| CMBS delinquency | ~5.5% | >6% | >7% | >8% |
-| Office CMBS DQ | ~8%+ | >9% | >10% | >12% |
+| Overall CMBS DQ | 7.47% | >7.5% | >8% | 🟠 Approaching |
+| Office CMBS DQ | **12.34%** | — | — | 🔴 ATH |
+| Multifamily CMBS DQ | 6.94% | >7% | >8% | 🟡 Rising fast |
 
 ---
 
@@ -121,16 +160,18 @@ Metros with highest office vacancy + bank CRE concentration:
 
 | Date | Source | Changes |
 |------|--------|---------|
+| 2026-02-10 | Fed H.8 (Feb 6 release) | Added weekly tracking section |
 | 2026-02-10 | Trepp Feb 2026 (Q3 2025 data) | Initial workbook creation |
 
 ---
 
 ## Next Data Points
 
+- [ ] Fed H.8 weekly release (every Friday 4:15 PM ET)
 - [ ] Fed Z.1 Q4 2025 release (~March 2026)
 - [ ] CMBS delinquency updates (Trepp monthly)
 - [ ] Bank earnings Q4 2025 (CRE reserve builds?)
 
 ---
 
-*This workbook tracks the structural refinancing pressure on banks. Update quarterly with Z.1 releases.*
+*This workbook tracks bank CRE activity (weekly) and structural refinancing pressure (quarterly). Cross-reference with CMBS_DELINQUENCY.md for stress indicators.*
