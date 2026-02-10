@@ -1,11 +1,13 @@
 # BROCK STATUS
-**Last Updated:** 2026-02-03 21:06 UTC | **Status:** 🟠 ORANGE — Elevated Stress, Shadow Defaults Rising
+**Last Updated:** 2026-02-10 02:00 UTC | **Status:** 🟠 ORANGE — Elevated Stress, AI Infrastructure Risk Emerging
 
 ---
 
 ## THESIS
 
 **"Private Credit's Public Reckoning" — PIK masks a 6% shadow default rate, not the reported 2.1%.**
+
+**NEW: AI Infrastructure as Accelerant** — $450B+ deployed to tech/AI, with GPU-backed lending creating 2000-style vendor financing risk. HRZN collapse is the canary.
 
 The BDC ecosystem is bifurcating:
 - **Top-tier managers** (Ares, Blue Owl, Golub) — disciplined underwriting, low PIK, stable
@@ -33,6 +35,57 @@ Software overweight + PIK accumulation + redemption pressure = systemic fragilit
 | **MAIN** | 1.2% | Stable | 1.35x | Industry Gold Standard | 🟢 GREEN |
 
 **Key Insight:** >50% of BDCs burning cash (dividends > cash generated). GSBD de-risking but dividend coverage collapsed to 0.80x.
+
+---
+
+## 🆕 AI INFRASTRUCTURE EXPOSURE — THE NEW RISK VECTOR
+
+**Scale:** Private credit has deployed ~$450B to tech sector, with $750B projected for AI infrastructure by 2030.
+
+### The Neocloud Problem
+
+GPU-backed lending to "neocloud" providers mirrors 2000 telecom vendor financing:
+
+| Company | Total Financing | Key Lender | Risk Profile |
+|---------|-----------------|------------|--------------|
+| CoreWeave | $12.7B | Blackstone ($7.5B) | Net loss $863M, Microsoft concentration |
+| Crusoe | $11.6B | Brookfield, Blue Owl | Extreme leverage, Stargate project |
+| Lambda | $2.3B | Various | Sale-leaseback to stay liquid |
+
+**The GPU Collateral Problem:** GPUs lose 40-60% value in 18-24 months, but loans depreciate over 6 years. Nvidia's product cycle is now 1 year (Blackwell → Vera Rubin → Vera Rubin Ultra).
+
+### BDC AI/Data Center Exposure
+
+| BDC | Exposure | AI/Data Center Names | Warning Signs |
+|-----|----------|---------------------|---------------|
+| **HTGC** | $425M+ identified | Shield AI, Saronic, ClickUp, Stoke Space | High burn, venture stage |
+| **Blue Owl (OTF)** | $12.7B tech | Meta Hyperion ($27B JV), Boomi, Anaplan | **Walked from Oracle deal** |
+| **HRZN** | Tech-heavy | Multiple Grade 1 positions | 🔴 **NAV collapsed 21%**, merging |
+| **TRIN** | Equipment finance | GPU/server leasing | 1.0% non-accrual (stable) |
+| **FSK** | ABF 14.4% | Tech with rising PIK | NCI 7.5% PIK rate |
+
+### Distress Signals
+
+1. **HRZN collapse:** NAV $9.06 → $7.12 (21% decline), 5 investments at 64% write-down, forced merger with Monroe
+2. **Blue Owl walked from Oracle data center deal** — institutional appetite may be peaking
+3. **"SaaSpocalypse"** — AI cannibalizing SaaS revenue, hitting software-heavy BDC portfolios
+4. **Circular financing:** Nvidia has $110B in vendor financing to its own customers (vs Lucent's $15B in 2000)
+
+### Transmission Path
+
+```
+AI Capex Bubble ($3-5T planned) → Neocloud GPU-Backed Debt
+                                          ↓
+                                 BDC Portfolios ($450B+)
+                                          ↓
+                           Distress (HRZN already collapsing)
+                                          ↓
+                              Bank Fund Finance Exposure
+                                          ↓
+                                   Regional Bank Stress
+```
+
+**Full research:** `research/sources/AI_Infrastructure_Credit_Risk_Feb2026.md`
 
 ---
 
@@ -92,6 +145,7 @@ Software overweight + PIK accumulation + redemption pressure = systemic fragilit
 ### 🔴 RED — Distressed
 - **PSEC** — 16.9% PIK, BB+ downgrade, 36% top-5 concentration, $248M realized losses, dividend cut
 - **TCPC** — 🚨 **19% NAV decline Q4 2025** (9.6% non-accruals at cost), Edmentum/aggregator exposure
+- **HRZN** — 🚨 **21% NAV decline** ($9.06 → $7.12), 5 investments at Grade 1 (64% write-down), **merging with Monroe Capital** (distress-driven)
 
 ### 🟠 ORANGE — Elevated Risk
 - **FSK** — $3.95B PIK (27%), 89% dividend coverage, largest absolute PIK
@@ -210,6 +264,9 @@ Software overweight + PIK accumulation + redemption pressure = systemic fragilit
 | 3 | At least one major BDC triggers redemption gate | 2026 | 55% |
 | 4 | Software sector BDC exposure declines <18% | Q4 2026 | 60% |
 | 5 | Shadow default rate acknowledged by rating agency | 2026 | 50% |
+| 6 | **NEW:** Neocloud credit event (CoreWeave, Lambda, or Crusoe stress/downgrade) | H2 2026 | 45% |
+| 7 | **NEW:** AI infrastructure markdown forces BDC sector-wide write-down (>$500M aggregate) | 2026-2027 | 40% |
+| 8 | **NEW:** Blue Owl reduces hyperscale data center exposure or exits position | Q3-Q4 2026 | 35% |
 
 ---
 
@@ -217,8 +274,12 @@ Software overweight + PIK accumulation + redemption pressure = systemic fragilit
 
 The BDC market has grown to $482B on the back of PIK and "extend & pretend." The reported 2.1% default rate is a fiction — the shadow rate is ~6%. More than half of BDCs are paying dividends they haven't earned in cash.
 
-**PSEC is the canary.** When it gets downgraded again or cuts dividends, it signals the broader reckoning is accelerating.
+**Two canaries now:**
+1. **PSEC** — PIK concentration, dividend sustainability
+2. **HRZN** — AI/tech infrastructure exposure, already collapsing
 
-Watch for: PIK-to-NII deltas, LTV migration toward 80%, and any software markdown that forces synchronized markdowns across the Pluralsight-style club deals.
+**NEW RISK:** The AI infrastructure buildout has created a second layer of fragility. GPU-backed lending to neoclouds (CoreWeave, Lambda, Crusoe) mirrors the telecom vendor financing of 2000. Blue Owl walking from the Oracle deal may signal peak institutional appetite.
 
-*Next update: Post Q1 2026 earnings*
+Watch for: PIK-to-NII deltas, LTV migration toward 80%, software markdowns, **and any neocloud credit stress**.
+
+*Next update: Post Q1 2026 earnings + monitor neocloud credit events*
