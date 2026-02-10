@@ -34,6 +34,7 @@ Transform research findings into audio briefings and build Will's lasting unders
 1. The Employment Cliff (LABOR) — Claims spike 231K, JOLTS 6.5M, hiring freeze
 2. Florida Condo Reckoning (REGINALD/CORAL) — SIRS deadline, 1,438 blacklisted, receivership pipeline
 3. Shadow Defaults (REGINALD/BROCK) — BDC 6% real default rate, PIK masking, $142B unfunded
+4. **Bond Yields Explained (EXPLAINER)** — Price/yield mechanics, risk-on/off, Japan vs US, connects to thesis
 
 **Recent (last 7 days):**
 1. Japan's Election Endgame (2026-02-08) — Quick hit on election stakes
