@@ -127,13 +127,19 @@ IRA/
 ├── STATUS.md (this file)
 ├── LEARNER.md (Will's knowledge state)
 ├── CURRICULUM.md (knowledge architecture)
-└── briefings/ → symlink to ../briefings/ (shared)
+└── briefings/ (all briefing content)
     ├── ML.tsv (coverage log)
     ├── FL.tsv (story + teaching queue)
-    ├── sam/ (Japan briefings)
-    ├── liquid/ (funding market briefings)
-    └── [other domains]
+    ├── labor/ (LABOR domain briefings)
+    ├── sam/ (SAM/Japan briefings)
+    ├── liquid/ (LIQUID/funding briefings)
+    ├── reginald/ (REGINALD/banking briefings)
+    ├── carl/ (CARL/consumer briefings)
+    ├── explainers/ (concept explainers)
+    └── synthesis/ (cross-domain synthesis)
 ```
+
+**Note:** Everything IRA-related is now consolidated under `IRA/` for cleaner organization.
 
 ---
 
