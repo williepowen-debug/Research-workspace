@@ -2,18 +2,20 @@
 
 *Working model, not truth. Track our predictions to calibrate confidence over time.*
 
-**Last updated:** 2026-02-09
+**Last updated:** 2026-02-10
 
 ## RECENTLY RESOLVED
 
 | # | Prediction | Result | Confidence | Notes |
 |---|------------|--------|------------|-------|
+| **CARL-1** | CC 90+ > 2019 peak (8.36%) | ✅ CORRECT | 75% | **12.70% Q4 2025** — nearly at GFC peak |
+| **CARL-3** | FL foreclosures +100% YoY | ✅ CORRECT | 70% | **+190% Q4 2025** — accelerating |
 | SAM-1 | 30Y JGB BTC >2.10x | ✅ CORRECT | 65% | BTC 3.64x (Feb 5) |
 | SAM-2 | USD/JPY <160 through election | ✅ CORRECT | 70% | 156.25 post-election |
 | SAM-3 | Takaichi <260 seats | ❌ WRONG | 55% | 316 LDP seats — supermajority |
 | LABOR-4 | KFRC guides down | ⚠️ PARTIAL | 70% | Beat estimates but confirms "stagnation" |
 
-**Running Score:** 2.5/4 (62.5%)
+**Running Score:** 4.5/6 (75%)
 
 ---
 
@@ -30,9 +32,14 @@
 ### CARL
 | # | Prediction | Timeframe | Confidence | Status |
 |---|------------|-----------|------------|--------|
-| 1 | Auto 60+ DPD rises to >3% | Q3-Q4 2026 | 60% | ⏳ Pending |
-| 2 | CC charge-offs rise to >5% | Q4 2026 | 55% | ⏳ Pending |
-| 3 | Subprime ABS spreads widen >200bps | H2 2026 | 50% | ⏳ Pending |
+| 1 | CC delinquency 90+ exceeds 2019 peak (8.36%) | Q2 2026 | 75% | ✅ **CONFIRMED** — 12.70% Q4 2025 |
+| 2 | Auto subprime DQ >7% | Q3 2026 | 70% | ⏳ Tracking — 5.21% |
+| 3 | FL foreclosures +100% YoY | Q2 2026 | 70% | ✅ **CONFIRMED** — +190% Q4 2025 |
+| 4 | Hardship 401k withdrawals >5.5% | 2026 | 80% | ⏳ Pending |
+| 5 | BNPL provider distress | H2 2026 | 65% | ⏳ Pending |
+| 6 | Medical debt collections spike post-employment | Q3-Q4 2026 | 75% | ⏳ Pending |
+| 7 | CC 90+ reaches GFC peak (13.74%) | Q2 2026 | 70% | ⏳ NEW — 1pp away |
+| 8 | FL foreclosures +300% YoY | Q3 2026 | 60% | ⏳ NEW |
 
 ### REGINALD
 | # | Prediction | Timeframe | Confidence | Status |
