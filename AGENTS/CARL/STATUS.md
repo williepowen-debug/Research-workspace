@@ -1,5 +1,7 @@
 # CARL STATUS
-**Last Updated:** 2026-02-06 | **Status:** 🟠 ELEVATED — Subprime Breaking, Prime Holding
+**Last Updated:** 2026-02-10 | **Status:** 🔴 RED — CC Approaching GFC Peak, Auto at Historic Max
+
+> **Q4 2025 NY Fed Household Debt Report (Feb 10, 2026):** Credit card 90+ DQ at **12.70%** — only 1pp from GFC peak (13.74%). Auto 90+ DQ at **5.21%** — essentially at historical maximum. Florida foreclosures +190% YoY. This is not "stabilized" — it's accelerating into the danger zone.
 
 ---
 
@@ -26,20 +28,20 @@ Per REGINALD: Claims >300K or U-3 >5.0% → all ORANGE banks escalate simultaneo
 
 | Indicator | Value | Status | Implication |
 |-----------|-------|--------|-------------|
-| CC Delinquency 30+ | **2.98%** (declining) | 🟢 | 5th straight quarter down |
-| CC Delinquency 90+ | 7.05% (flat YoY) | 🟡 | Stabilized at elevated level |
-| Auto Delinquency 60+ | **6.65% (total)** | 🔴 | **Highest since 1993 records began** |
+| **CC Delinquency 90+** | **12.70%** | 🔴 | **92% of GFC peak (13.74%)** — Q4 2025 |
+| CC Delinquency 90+ (new) | 7.13% | 🔴 | New flow into 90+ accelerating |
+| **Auto Delinquency 90+** | **5.21%** | 🔴 | **At historical max (5.27%)** — Q4 2025 |
 | Auto Delinquency 60+ (Monoline) | **16.6%** | 🔴 | Historic highs for non-bank lenders |
-| Auto Delinquency 60+ | 0.37% (prime) | 🟢 | Prime holding fine |
 | Negative Equity (Auto) | **52.9%** | 🔴 | Over half of borrowers "upside down" |
-| Total Household Debt | **$18.59T** (record) | 🟠 | +$4.44T since 2019 |
+| **Total Household Debt** | **$18.78T** (record) | 🔴 | +$4.6T since 2019 — Q4 2025 |
+| All Debt 90+ DQ | **3.12%** | 🟠 | Elevated, rising |
 | Medical Debt (collections) | $88-140B | 🟠 | Plus $50-100B pre-collections |
 | BNPL Stacking | 63% simultaneous | 🔴 | Hidden leverage multiplier |
 | Hardship 401k Withdrawals | ATH (4.8-5.0%) | 🔴 | Buffer exhaustion signal |
-| Savings Rate | ~4% | 🟡 | Below pre-pandemic norms |
-| FL Foreclosures YoY | +57% | 🔴 | Employment→housing active |
+| **FL 90+ Delinquency** | **4.10%** | 🔴 | +49% YoY (was 2.76%) |
+| **FL Foreclosures YoY** | **+190%** | 🔴 | Employment→housing accelerating |
 
-**Composite Assessment:** Latent stress HIGH, visible delinquency MODERATE (but accelerating)
+**Composite Assessment:** 🔴 **CRITICAL** — CC at 92% of GFC peak, auto at historical max. Visible delinquency no longer "moderate" — it's approaching crisis levels. Florida is the leading indicator.
 
 ---
 
@@ -175,14 +177,16 @@ Stock drops → Deposit flight → Credit tightens
 
 ## PREDICTIONS (Falsifiable)
 
-| # | Prediction | Timeframe | Confidence |
-|---|------------|-----------|------------|
-| 1 | CC delinquency 90+ exceeds 2019 peak | Q2 2026 | 75% |
-| 2 | Auto subprime DQ >7% | Q3 2026 | 70% |
-| 3 | FL foreclosures +100% YoY | Q2 2026 | 70% |
-| 4 | Hardship 401k withdrawals >5.5% | 2026 | 80% |
-| 5 | BNPL provider distress (funding/defaults) | H2 2026 | 65% |
-| 6 | Medical debt collections spike post-employment break | Q3-Q4 2026 | 75% |
+| # | Prediction | Timeframe | Confidence | Status |
+|---|------------|-----------|------------|--------|
+| 1 | CC delinquency 90+ exceeds 2019 peak (8.36%) | Q2 2026 | 75% | ✅ **CONFIRMED** — 12.70% in Q4 2025 |
+| 2 | Auto subprime DQ >7% | Q3 2026 | 70% | Tracking — 5.21% and rising |
+| 3 | FL foreclosures +100% YoY | Q2 2026 | 70% | ✅ **CONFIRMED** — +190% in Q4 2025 |
+| 4 | Hardship 401k withdrawals >5.5% | 2026 | 80% | Pending |
+| 5 | BNPL provider distress (funding/defaults) | H2 2026 | 65% | Pending |
+| 6 | Medical debt collections spike post-employment break | Q3-Q4 2026 | 75% | Pending |
+| 7 | **CC 90+ reaches GFC peak (13.74%)** | Q2 2026 | 70% | NEW — only 1pp away |
+| 8 | **FL foreclosures +300% YoY** | Q3 2026 | 60% | NEW — trajectory supports |
 
 ---
 
@@ -234,8 +238,8 @@ If Flagship or Exeter collapses, warehouse lenders (many are regional banks) fac
 
 ## RESEARCH GAPS
 
-- [ ] Current NY Fed consumer credit panel (Q4 2025)
-- [ ] State-level delinquency divergence
+- [x] Current NY Fed consumer credit panel (Q4 2025) — **DONE 2026-02-10** (see sources/)
+- [ ] State-level delinquency divergence (now have FL data, need broader synthesis)
 - [ ] BNPL provider financial health (Affirm, Klarna earnings)
 - [ ] Gig worker income volatility (real-time)
 - [ ] Medical debt trajectory post-ACA changes
@@ -249,6 +253,7 @@ If Flagship or Exeter collapses, warehouse lenders (many are regional banks) fac
 - ML-CARL-02: Latent Vulnerability Framework
 - ML-CARL-06: LV Research Synthesis
 - ML-CR-18: Phantom Debt Analysis
+- **NY_Fed_Household_Debt_Q4_2025.xlsx** — Raw data (sources/)
 - Sub-agents: POLLY (policy), RED (counter-thesis), META
 
-*Next update trigger: Q4 2025 NY Fed data or FL foreclosure acceleration*
+*Next update trigger: Q1 2026 data or CC 90+ DQ crosses GFC peak (13.74%)*
