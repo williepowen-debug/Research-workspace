@@ -1,13 +1,13 @@
 # PROME STATUS.md
-**Updated:** 2026-02-10 00:13 UTC
+**Updated:** 2026-02-10 17:35 UTC
 
 ---
 
 ## System Status: 🔴 CRITICAL
 
-**Two major catalysts TODAY (Feb 10):**
-- **8:30 AM ET** — NFP January (LABOR expects sub-50K, tail risk negative)
-- **11:00 AM ET** — NY Fed Q4 Household Debt (CARL watching auto DQ >7%)
+**NY Fed Q4 2025 Data Received — CARL Upgraded to RED**
+
+Consumer stress now at crisis levels. Credit card 90+ DQ at **12.70%** (92% of GFC peak). Auto at **5.21%** (historical max). Florida foreclosures +190% YoY.
 
 ---
 
@@ -15,15 +15,15 @@
 
 | Agent | Status | Current Focus | Next Critical |
 |-------|--------|---------------|---------------|
-| **LABOR** | 🔴 RED | All leading indicators RED; Claims 231K, Challenger 108K (GFC high) | **NFP TODAY** |
-| **CARL** | 🟠 ELEVATED | Auto DQ 6.65% (35bps from 7% threshold) | **NY Fed TODAY** |
+| **LABOR** | 🔴 RED | All leading indicators RED; Claims 231K, Challenger 108K (GFC high) | Claims Feb 12 |
+| **CARL** | 🔴 RED | **CC 12.70% (near GFC), Auto 5.21% (ATH), FL +190% foreclosures** | Q1 2026 data |
 | **HENRY** | 🟡 YELLOW | VIX ~16.5 (complacency); GEX +$62B | HY OAS tight |
 | **SAM** | 🔴 RED | Takaichi supermajority; yen 156.25; insurer transmission $10-15B/mo | **20Y JGB Feb 19** |
 | **REGINALD** | 🟠 ELEVATED | Watching LABOR trigger (Claims >300K or U-3 >5.0%) | Q1 earnings Apr |
-| **LIQUID** | 🟢 GREEN | RRP ~$10B (buffer gone); basis trade $1.85T | Quarter-end Mar 31 |
+| **LIQUID** | 🟢 GREEN | RRP ~$10B (buffer gone); basis trade $1.85T; FOI demand hole $300B/yr | Quarter-end Mar 31 |
 | **MARCO** | 🟠 ORANGE | Mexico remittances -5%; Canadian visitors -28% | Stats Canada ~Feb 15 |
 
-**Composite:** 🔴 CRITICAL — SAM RED + LABOR RED + dual catalysts today
+**Composite:** 🔴 CRITICAL — LABOR RED + SAM RED + **CARL RED** (upgraded today)
 
 ---
 
@@ -53,10 +53,12 @@
 
 ## Predictions Scorecard
 
-**Resolved:** 2.5 correct / 1 wrong (71%)
+**Resolved:** 4.5 correct / 1 wrong (75%)
 
 | Prediction | Result |
 |------------|--------|
+| **CARL #1: CC 90+ > 2019 (8.36%)** | ✅ **CORRECT (12.70%)** |
+| **CARL #3: FL foreclosures +100% YoY** | ✅ **CORRECT (+190%)** |
 | SAM #1: 30Y JGB BTC >2.10x | ✅ CORRECT (3.64x) |
 | SAM #2: USD/JPY <160 through election | ✅ CORRECT (156.25) |
 | SAM #3: Takaichi <260 seats | ❌ WRONG (316) |

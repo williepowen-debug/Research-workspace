@@ -1108,10 +1108,10 @@
                         <div style="font-size: 11px; color: var(--text-muted);">LABOR</div>
                         <div style="font-size: 18px; font-weight: 600; color: var(--red);">🔴 RED</div>
                     </div>
-                    <div style="font-size: 24px; color: var(--orange);">→</div>
-                    <div style="text-align: center; padding: 12px 20px; background: var(--orange-bg); border-radius: 8px; border: 1px solid var(--orange);">
+                    <div style="font-size: 24px; color: var(--red);">→</div>
+                    <div style="text-align: center; padding: 12px 20px; background: var(--red-bg); border-radius: 8px; border: 1px solid var(--red);">
                         <div style="font-size: 11px; color: var(--text-muted);">CARL</div>
-                        <div style="font-size: 18px; font-weight: 600; color: var(--orange);">🟠 ELEVATED</div>
+                        <div style="font-size: 18px; font-weight: 600; color: var(--red);">🔴 RED</div>
                     </div>
                     <div style="font-size: 24px; color: var(--text-muted);">→</div>
                     <div style="text-align: center; padding: 12px 20px; background: var(--bg-tertiary); border-radius: 8px; border: 1px solid var(--border);">
@@ -1185,16 +1185,21 @@
             </div>
             
             <!-- CARL Domain -->
-            <div class="agents-section" style="border-left: 3px solid var(--orange); padding-left: 16px;">
+            <div class="agents-section" style="border-left: 3px solid var(--red); padding-left: 16px;">
                 <div class="section-title" style="display: flex; align-items: center; gap: 8px;">
-                    <span class="agent-status orange" style="width: 8px; height: 8px;"></span>
-                    CARL — Consumer Credit
+                    <span class="agent-status red" style="width: 8px; height: 8px;"></span>
+                    CARL — Consumer Credit 🔴 RED
                 </div>
                 <div class="market-grid">
                     <div class="market-card">
-                        <div class="market-label">Auto DQ 60+ (Total)</div>
-                        <div class="market-value warning" id="carl-auto-dq">6.65%</div>
-                        <div class="market-threshold">🔴 &gt;7% (35bps away)</div>
+                        <div class="market-label">CC DQ 90+ ⚠️</div>
+                        <div class="market-value breach" id="carl-cc-90">12.70%</div>
+                        <div class="market-threshold">🔴 92% of GFC peak (13.74%)</div>
+                    </div>
+                    <div class="market-card">
+                        <div class="market-label">Auto DQ 90+</div>
+                        <div class="market-value breach" id="carl-auto-dq">5.21%</div>
+                        <div class="market-threshold">🔴 At historical max (5.27%)</div>
                     </div>
                     <div class="market-card">
                         <div class="market-label">Auto DQ (Subprime)</div>
@@ -1207,14 +1212,9 @@
                         <div class="market-threshold">🔴 Every repo = loss</div>
                     </div>
                     <div class="market-card">
-                        <div class="market-label">CC DQ 30+</div>
-                        <div class="market-value" id="carl-cc-30">2.98%</div>
-                        <div class="market-threshold">🟢 Declining (5th Q down)</div>
-                    </div>
-                    <div class="market-card">
-                        <div class="market-label">CC DQ 90+</div>
-                        <div class="market-value" id="carl-cc-90">7.05%</div>
-                        <div class="market-threshold">🟠 Near 2019 peak</div>
+                        <div class="market-label">Total Household Debt</div>
+                        <div class="market-value breach" id="carl-debt">$18.78T</div>
+                        <div class="market-threshold">🔴 Record high</div>
                     </div>
                     <div class="market-card">
                         <div class="market-label">401k Hardship</div>
@@ -1222,19 +1222,19 @@
                         <div class="market-threshold">🔴 Buffer exhaustion</div>
                     </div>
                     <div class="market-card">
+                        <div class="market-label">FL 90+ DQ</div>
+                        <div class="market-value breach" id="carl-fl-dq">4.10%</div>
+                        <div class="market-threshold">🔴 +49% YoY (was 2.76%)</div>
+                    </div>
+                    <div class="market-card">
                         <div class="market-label">FL Foreclosures YoY</div>
-                        <div class="market-value breach" id="carl-fl-foreclosure">+57%</div>
-                        <div class="market-threshold">🔴 Transmission active</div>
+                        <div class="market-value breach" id="carl-fl-foreclosure">+190%</div>
+                        <div class="market-threshold">🔴 Accelerating</div>
                     </div>
                     <div class="market-card">
-                        <div class="market-label">BNPL DQ (Affirm)</div>
-                        <div class="market-value warning" id="carl-bnpl">4.2%</div>
-                        <div class="market-threshold">🟡 Watch &gt;5%</div>
-                    </div>
-                    <div class="market-card">
-                        <div class="market-label">NY Fed Report</div>
-                        <div class="market-value" id="carl-nyfed">Feb 10</div>
-                        <div class="market-threshold">11am ET — auto DQ breach?</div>
+                        <div class="market-label">Q1 Income DQ</div>
+                        <div class="market-value breach" id="carl-q1-mtg">3.0%</div>
+                        <div class="market-threshold">🔴 Back to 2016 (5x lows)</div>
                     </div>
                 </div>
             </div>
