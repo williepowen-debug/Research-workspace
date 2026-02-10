@@ -1,5 +1,5 @@
 # LIQUID STATUS
-**Last Updated:** 2026-02-10 | **Status:** 🟠 ELEVATED — Double Buffer Gone (Domestic + Foreign)
+**Last Updated:** 2026-02-10 16:50 UTC | **Status:** 🟠 ELEVATED — Double Buffer Gone (Domestic + Foreign)
 
 ---
 
@@ -35,23 +35,24 @@ The system now operates in a **dual-fragility regime**:
 ### Domestic Plumbing
 | Vector | Value | Status | Threshold |
 |--------|-------|--------|-----------|
-| RRP Balance | **~$10B** | 🔴 RED | <$5B critical — **EFFECTIVELY ZERO** |
-| SOFR-IORB Spread | **+3 bps** | 🟢 GREEN | >+5bps yellow |
-| SOFR | 3.68% | 🟢 GREEN | Near IORB |
-| SRF Usage (peak) | $74.6B | 🟠 ORANGE | >$50B sustained |
+| RRP Balance | **$1.3B** | 🔴 RED | <$5B critical — **EFFECTIVELY ZERO** |
+| SOFR-IORB Spread | **-1 bp** | 🟢 GREEN | >+5bps yellow |
+| SOFR | 3.64% | 🟢 GREEN | Within corridor |
+| SRF Usage | **$3.0B** | 🟢 GREEN | >$50B sustained = stress |
 | Dealer Net Position | ~$200B | 🟠 ORANGE | >$200B clogged |
 | Basis Trade Exposure | $1.85T | 🟡 YELLOW | >$2.0T orange |
 | Treasury FTD | $42.4B | 🟡 YELLOW | >$50B orange |
-| Auction BTC (5Y/7Y) | 2.34-2.45x | 🟡 YELLOW | <2.30x orange |
+| Auction BTC | 2.45-2.86x | 🟢 GREEN | <2.30x orange |
+| Reserve Balances | **$2.937T** | 🟡 YELLOW | Down $296B YoY |
 | CLO AAA Spread | 115bps | 🟢 GREEN | >150bps trigger |
 
 ### Foreign Official Sector (NEW)
 | Vector | Value | Status | Threshold |
 |--------|-------|--------|-----------|
 | China Holdings (TIC) | **$688B** | 🟡 YELLOW | <$700B yellow, <$600B orange |
-| Japan Holdings | ~$1.1T | 🟢 GREEN | Life insurers selling $10-15B/mo |
+| Japan Holdings | ~$1.1T | 🟡 YELLOW | Life insurers selling $10-15B/mo. **Takaichi supermajority confirms hawkish path** |
 | FOI Share of Market | **~30%** | 🟠 ORANGE | Was 50% in 2015 |
-| Term Premium (ACM) | **0.80%** | 🟡 YELLOW | >1.0% orange (rising) |
+| Term Premium (ACM) | **0.80%** | 🟡 YELLOW | SF Fed CR model: 1.22%. Rising = FOI subsidy evaporating |
 | Annual FOI Demand Hole | **~$300B** | 🟠 ORANGE | Japan + China + Saudi combined |
 
 **Composite Assessment:** 
