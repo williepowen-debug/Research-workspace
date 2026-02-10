@@ -100,10 +100,11 @@ The gap is extend-and-pretend: loan modifications, FHLB liquidity, regulatory fo
 | Event | Timing | Impact |
 |-------|--------|--------|
 | Q4 2025 10-Ks | Feb-Mar 2026 | ASU 2022-02 mod disclosure cliff |
-| VLY non-accruals | Q1 2026 | $421M, trend direction |
-| Office CMBS DQ | Monthly | Peaked Oct 11.76%? Confirm decline |
+| VLY Q4 results | **REVIEW NEEDED** | CRE concentration, non-accruals, mods |
+| Office CMBS DQ | Monthly | **NEW ATH 12.34%** — NOT declining, accelerating |
 | Employment data | Ongoing | LABOR transmission trigger |
 | Yale $6B secondary | Q1 2026 | Pricing = industry mark-to-market |
+| Feb Trepp report | ~Mar 2026 | Confirm Jan acceleration or one-off |
 
 ---
 
