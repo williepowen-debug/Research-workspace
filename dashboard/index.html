@@ -1100,6 +1100,35 @@
             <!-- DATA TAB -->
             <div class="tab-page" id="tab-data">
             
+            <!-- Transmission Chain Status -->
+            <div class="agents-section" style="background: var(--bg-secondary); border-radius: 12px; padding: 20px; margin-bottom: 24px;">
+                <div class="section-title" style="margin-bottom: 16px;">Transmission Chain Status</div>
+                <div style="display: flex; align-items: center; justify-content: center; gap: 12px; flex-wrap: wrap;">
+                    <div style="text-align: center; padding: 12px 20px; background: var(--red-bg); border-radius: 8px; border: 1px solid var(--red);">
+                        <div style="font-size: 11px; color: var(--text-muted);">LABOR</div>
+                        <div style="font-size: 18px; font-weight: 600; color: var(--red);">🔴 RED</div>
+                    </div>
+                    <div style="font-size: 24px; color: var(--orange);">→</div>
+                    <div style="text-align: center; padding: 12px 20px; background: var(--orange-bg); border-radius: 8px; border: 1px solid var(--orange);">
+                        <div style="font-size: 11px; color: var(--text-muted);">CARL</div>
+                        <div style="font-size: 18px; font-weight: 600; color: var(--orange);">🟠 ELEVATED</div>
+                    </div>
+                    <div style="font-size: 24px; color: var(--text-muted);">→</div>
+                    <div style="text-align: center; padding: 12px 20px; background: var(--bg-tertiary); border-radius: 8px; border: 1px solid var(--border);">
+                        <div style="font-size: 11px; color: var(--text-muted);">REGINALD</div>
+                        <div style="font-size: 18px; font-weight: 600; color: var(--text-secondary);">⏳ WAITING</div>
+                    </div>
+                    <div style="font-size: 24px; color: var(--text-muted);">→</div>
+                    <div style="text-align: center; padding: 12px 20px; background: var(--bg-tertiary); border-radius: 8px; border: 1px solid var(--border);">
+                        <div style="font-size: 11px; color: var(--text-muted);">KRE</div>
+                        <div style="font-size: 18px; font-weight: 600; color: var(--text-secondary);">$73.59</div>
+                    </div>
+                </div>
+                <div style="text-align: center; margin-top: 12px; font-size: 12px; color: var(--text-muted);">
+                    Trigger: Claims &gt;300K or U-3 &gt;5.0% → All ORANGE banks escalate
+                </div>
+            </div>
+            
             <!-- LABOR Domain -->
             <div class="agents-section" style="border-left: 3px solid var(--red); padding-left: 16px;">
                 <div class="section-title" style="display: flex; align-items: center; gap: 8px;">
@@ -1118,9 +1147,19 @@
                         <div class="market-threshold">🟠 &lt;7M (7yr low)</div>
                     </div>
                     <div class="market-card">
+                        <div class="market-label">Openings/Unemployed</div>
+                        <div class="market-value warning" id="labor-ratio">0.87</div>
+                        <div class="market-threshold">🟠 &lt;1.0 first time since 2021</div>
+                    </div>
+                    <div class="market-card">
                         <div class="market-label">Unemployment (U-3)</div>
-                        <div class="market-value" id="labor-u3">4.1%</div>
+                        <div class="market-value" id="labor-u3">4.4%</div>
                         <div class="market-threshold">🔴 &gt;5.0%</div>
+                    </div>
+                    <div class="market-card">
+                        <div class="market-label">U-6 Underemployment</div>
+                        <div class="market-value warning" id="labor-u6">8.4%</div>
+                        <div class="market-threshold">🟠 +0.8pp YoY</div>
                     </div>
                     <div class="market-card">
                         <div class="market-label">Temp Staffing YoY</div>
@@ -1133,9 +1172,14 @@
                         <div class="market-threshold">🔴 Highest Jan since GFC</div>
                     </div>
                     <div class="market-card">
-                        <div class="market-label">NFP (Last)</div>
-                        <div class="market-value" id="labor-nfp">—</div>
-                        <div class="market-threshold">Next: Feb 11 8:30am</div>
+                        <div class="market-label">Google "Severance"</div>
+                        <div class="market-value breach" id="labor-severance">ATH</div>
+                        <div class="market-threshold">🔴 Above GFC + pandemic</div>
+                    </div>
+                    <div class="market-card">
+                        <div class="market-label">NFP (Next)</div>
+                        <div class="market-value" id="labor-nfp">Feb 11</div>
+                        <div class="market-threshold">8:30am ET — expect sub-50K</div>
                     </div>
                 </div>
             </div>
@@ -1158,6 +1202,11 @@
                         <div class="market-threshold">🔴 Historic high</div>
                     </div>
                     <div class="market-card">
+                        <div class="market-label">Negative Equity (Auto)</div>
+                        <div class="market-value breach" id="carl-neg-equity">52.9%</div>
+                        <div class="market-threshold">🔴 Every repo = loss</div>
+                    </div>
+                    <div class="market-card">
                         <div class="market-label">CC DQ 30+</div>
                         <div class="market-value" id="carl-cc-30">2.98%</div>
                         <div class="market-threshold">🟢 Declining (5th Q down)</div>
@@ -1168,14 +1217,24 @@
                         <div class="market-threshold">🟠 Near 2019 peak</div>
                     </div>
                     <div class="market-card">
-                        <div class="market-label">Household Debt</div>
-                        <div class="market-value" id="carl-debt">$18.59T</div>
-                        <div class="market-threshold">Q3 2025 record</div>
+                        <div class="market-label">401k Hardship</div>
+                        <div class="market-value breach" id="carl-401k">4.8% ATH</div>
+                        <div class="market-threshold">🔴 Buffer exhaustion</div>
+                    </div>
+                    <div class="market-card">
+                        <div class="market-label">FL Foreclosures YoY</div>
+                        <div class="market-value breach" id="carl-fl-foreclosure">+57%</div>
+                        <div class="market-threshold">🔴 Transmission active</div>
+                    </div>
+                    <div class="market-card">
+                        <div class="market-label">BNPL DQ (Affirm)</div>
+                        <div class="market-value warning" id="carl-bnpl">4.2%</div>
+                        <div class="market-threshold">🟡 Watch &gt;5%</div>
                     </div>
                     <div class="market-card">
                         <div class="market-label">NY Fed Report</div>
-                        <div class="market-value" id="carl-nyfed">—</div>
-                        <div class="market-threshold">Next: Feb 10 11am</div>
+                        <div class="market-value" id="carl-nyfed">Feb 10</div>
+                        <div class="market-threshold">11am ET — auto DQ breach?</div>
                     </div>
                 </div>
             </div>
@@ -1198,14 +1257,29 @@
                         <div class="market-threshold">🔴 &gt;2.50%</div>
                     </div>
                     <div class="market-card">
+                        <div class="market-label">JGB 20Y</div>
+                        <div class="market-value" id="sam-jgb20">3.19%</div>
+                        <div class="market-threshold">Auction focus tenor</div>
+                    </div>
+                    <div class="market-card">
                         <div class="market-label">JGB 30Y</div>
                         <div class="market-value" id="sam-jgb30">3.57%</div>
                         <div class="market-threshold">🔴 &gt;4.00%</div>
                     </div>
                     <div class="market-card">
-                        <div class="market-label">Nikkei 225</div>
-                        <div class="market-value" id="sam-nikkei">54,254</div>
-                        <div class="market-threshold">+3.89% post-election</div>
+                        <div class="market-label">JGB 40Y</div>
+                        <div class="market-value" id="sam-jgb40">3.85%</div>
+                        <div class="market-threshold">Life insurer focal point</div>
+                    </div>
+                    <div class="market-card">
+                        <div class="market-label">Last 30Y BTC</div>
+                        <div class="market-value" id="sam-btc">3.64x</div>
+                        <div class="market-threshold">🟢 Above avg (3.35)</div>
+                    </div>
+                    <div class="market-card">
+                        <div class="market-label">Insurer Flow</div>
+                        <div class="market-value warning" id="sam-flow">$10-15B/mo</div>
+                        <div class="market-threshold">🟠 UST selling ACTIVE</div>
                     </div>
                     <div class="market-card">
                         <div class="market-label">BOJ Rate</div>
@@ -1213,7 +1287,7 @@
                         <div class="market-threshold">Takaichi ceiling: 0.75%</div>
                     </div>
                     <div class="market-card">
-                        <div class="market-label">Next 20Y JGB</div>
+                        <div class="market-label">Next 20Y Auction</div>
                         <div class="market-value" id="sam-auction">Feb 19</div>
                         <div class="market-threshold">🔴 BTC &lt;2.3x = crisis</div>
                     </div>
@@ -1278,24 +1352,64 @@
                         <div class="market-threshold">= IORB (stable)</div>
                     </div>
                     <div class="market-card">
-                        <div class="market-label">10Y Treasury</div>
-                        <div class="market-value" id="liquid-10y">4.65%</div>
-                        <div class="market-threshold">🟡 &gt;4.75% | 🔴 &gt;5.0%</div>
+                        <div class="market-label">Basis Trade</div>
+                        <div class="market-value warning" id="liquid-basis">$1.85T</div>
+                        <div class="market-threshold">🟠 &gt;$2T = unwind risk</div>
                     </div>
                     <div class="market-card">
-                        <div class="market-label">TGA Balance</div>
-                        <div class="market-value" id="liquid-tga">—</div>
-                        <div class="market-threshold">Treasury cash</div>
+                        <div class="market-label">Dealer Position</div>
+                        <div class="market-value warning" id="liquid-dealer">~$200B</div>
+                        <div class="market-threshold">🟠 Stuffed, no capacity</div>
                     </div>
                     <div class="market-card">
-                        <div class="market-label">SRF Usage</div>
-                        <div class="market-value" id="liquid-srf">$0</div>
-                        <div class="market-threshold">🔴 &gt;$50B = stress</div>
+                        <div class="market-label">SRF Peak (Dec)</div>
+                        <div class="market-value warning" id="liquid-srf">$74.6B</div>
+                        <div class="market-threshold">🟠 Stress visible at Q-end</div>
                     </div>
                     <div class="market-card">
                         <div class="market-label">Q-End Watch</div>
                         <div class="market-value" id="liquid-qend">Mar 31</div>
                         <div class="market-threshold">SOFR spike expected</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- MARCO Domain -->
+            <div class="agents-section" style="border-left: 3px solid var(--orange); padding-left: 16px;">
+                <div class="section-title" style="display: flex; align-items: center; gap: 8px;">
+                    <span class="agent-status orange" style="width: 8px; height: 8px;"></span>
+                    MARCO — Migration / Border
+                </div>
+                <div class="market-grid">
+                    <div class="market-card">
+                        <div class="market-label">Canadian Visitors YoY</div>
+                        <div class="market-value breach" id="marco-canada">-28%</div>
+                        <div class="market-threshold">🔴 Structural collapse</div>
+                    </div>
+                    <div class="market-card">
+                        <div class="market-label">H-2A Certifications</div>
+                        <div class="market-value breach" id="marco-h2a">400K+</div>
+                        <div class="market-threshold">🔴 8x since 2005 (scarcity)</div>
+                    </div>
+                    <div class="market-card">
+                        <div class="market-label">Mexico Remittances</div>
+                        <div class="market-value warning" id="marco-remit">-5% YTD</div>
+                        <div class="market-threshold">🟠 Worker stress signal</div>
+                    </div>
+                    <div class="market-card">
+                        <div class="market-label">FL Insurance vs Natl</div>
+                        <div class="market-value breach" id="marco-insurance">4.5x</div>
+                        <div class="market-threshold">🔴 Exodus driver</div>
+                    </div>
+                    <div class="market-card">
+                        <div class="market-label">Ag Employment</div>
+                        <div class="market-value breach" id="marco-ag">-155K</div>
+                        <div class="market-threshold">🔴 Mar-Jul reversal</div>
+                    </div>
+                    <div class="market-card">
+                        <div class="market-label">El Paso Deficit</div>
+                        <div class="market-value warning" id="marco-elpaso">$55-62M</div>
+                        <div class="market-threshold">🟠 Pension 60% funded</div>
                     </div>
                 </div>
             </div>
@@ -1337,6 +1451,41 @@
                         <div class="market-value" id="reginald-earnings">Apr 20-29</div>
                         <div class="market-threshold">ZION → WAL → VLY → EGBN</div>
                     </div>
+                </div>
+            </div>
+            
+            <!-- Convergence Scores -->
+            <div class="agents-section" style="background: var(--bg-secondary); border-radius: 12px; padding: 20px;">
+                <div class="section-title" style="margin-bottom: 16px;">Bank Convergence Scores (Multi-Channel Exposure)</div>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px;">
+                    <div style="background: var(--red-bg); border: 1px solid var(--red); border-radius: 8px; padding: 16px; text-align: center;">
+                        <div style="font-size: 28px; font-weight: 700; color: var(--red);">12</div>
+                        <div style="font-size: 14px; font-weight: 600; color: var(--text-primary);">EGBN</div>
+                        <div style="font-size: 11px; color: var(--text-muted);">DC Office 100%</div>
+                    </div>
+                    <div style="background: var(--orange-bg); border: 1px solid var(--orange); border-radius: 8px; padding: 16px; text-align: center;">
+                        <div style="font-size: 28px; font-weight: 700; color: var(--orange);">10</div>
+                        <div style="font-size: 14px; font-weight: 600; color: var(--text-primary);">WAL</div>
+                        <div style="font-size: 11px; color: var(--text-muted);">NDFI + Fraud + FF</div>
+                    </div>
+                    <div style="background: var(--orange-bg); border: 1px solid var(--orange); border-radius: 8px; padding: 16px; text-align: center;">
+                        <div style="font-size: 28px; font-weight: 700; color: var(--orange);">9</div>
+                        <div style="font-size: 14px; font-weight: 600; color: var(--text-primary);">VLY</div>
+                        <div style="font-size: 11px; color: var(--text-muted);">FL CRE + BDC</div>
+                    </div>
+                    <div style="background: var(--orange-bg); border: 1px solid var(--orange); border-radius: 8px; padding: 16px; text-align: center;">
+                        <div style="font-size: 28px; font-weight: 700; color: var(--orange);">9</div>
+                        <div style="font-size: 14px; font-weight: 600; color: var(--text-primary);">CFG</div>
+                        <div style="font-size: 11px; color: var(--text-muted);">Fund Finance</div>
+                    </div>
+                    <div style="background: var(--orange-bg); border: 1px solid var(--orange); border-radius: 8px; padding: 16px; text-align: center;">
+                        <div style="font-size: 28px; font-weight: 700; color: var(--orange);">9</div>
+                        <div style="font-size: 14px; font-weight: 600; color: var(--text-primary);">ZION</div>
+                        <div style="font-size: 11px; color: var(--text-muted);">Hidden Muni $5.78B</div>
+                    </div>
+                </div>
+                <div style="margin-top: 12px; font-size: 11px; color: var(--text-muted); text-align: center;">
+                    Score = Σ(channel_severity × bank_exposure) | 8 channels: CRE, NDFI, BDC, Consumer, FL, Muni, Fund Finance, Deposit
                 </div>
             </div>
             
