@@ -1,5 +1,5 @@
 # LABOR STATUS
-**Last Updated:** 2026-02-05 | **Status:** 🔴 CRITICAL — Employment Break Accelerating
+**Last Updated:** 2026-02-10 | **Status:** 🔴 CRITICAL — Employment Break Accelerating + Small Biz Breaking
 
 ---
 
@@ -102,13 +102,37 @@ This is not synchronized recession — it's a **"barbell" economy**:
 
 1. **"Hotel California"** — Hires rate lowest since 2012 (ex-pandemic). Workers trapped in current roles. Job security high but mobility dead.
 
-2. **"Barbell Economy"** — Large corps cutting + Manufacturing jobless + Small biz supply-constrained. NOT synchronized recession.
+2. **"Barbell Economy"** — Large corps cutting + Manufacturing jobless + Small biz supply-constrained. NOT synchronized recession. **⚠️ UPDATE Feb 10: Smallest firms (1-9 emp) now BREAKING — see below.**
 
 3. **"Vibe-cession Gap"** — 1 in 3 workers report layoff anxiety. Employed workers behaving as if in recession → consumer pullback before official data.
 
 4. **"WARN Pipeline"** — Q4 2025 filings = Q1-Q2 2026 actual layoffs. Pain is locked in through H1.
 
 5. **"Permanent Displacement"** — Logistics automation (28% cost advantage) and AI coding replacement = structural, not cyclical.
+
+---
+
+## 🆕 SMALL BUSINESS STRESS (Feb 10, 2026)
+
+**Source:** NY Fed Economic Heterogeneity Indicators (Small Business Credit Survey)
+
+The "supply-constrained small business" narrative is BREAKING for the smallest firms:
+
+| Metric | 1-9 Employees | 10+ Employees | Signal |
+|--------|---------------|---------------|--------|
+| **Revenue Growth** | **NEGATIVE** (2024) | Weak positive | 🔴 First time since pandemic |
+| Employment Growth | Negative/Weak | Weak positive | 🔴 Higher downsizing in 2024 |
+| Credit Access | Constrained | Less constrained | 🟠 Supply-side tightening |
+
+**Regional (NY/NJ/CT) vs National:**
+- Regional firms have had negative employment growth **every year since 2020** (except 2023)
+- More firms expecting revenue declines in 2025
+- Input/wage costs rising despite national decline
+
+**Critical quote:**
+> "These trends in employment and revenue growth **continued in 2025** for small businesses with 1 to 9 employees" — Intuit Small Business Index (475K firms)
+
+**Why this matters:** Small businesses = 46% of US employment, 63% of new job creation. If the smallest firms (2/3 of all firms) flip from "constrained but trying to hire" to "downsizing," the labor market safety net disappears. NFIB optimism metrics mask this bifurcation.
 
 ---
 
