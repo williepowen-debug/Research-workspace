@@ -1,5 +1,5 @@
 ID	Date	Event	Domain	Vectors	Expected Impact	Priority	Status	Notes
-FL-CARL-001	2026-02-11	NY Fed Consumer Credit Panel Q4	CREDIT	CC DQ, Auto DQ	Key read on delinquency trajectory	CRITICAL	PENDING	Watch for CC 90+ acceleration
+FL-CARL-001	2026-02-10	NY Fed Consumer Credit Panel Q4	CREDIT	CC DQ, Auto DQ	Key read on delinquency trajectory	CRITICAL	COMPLETE	CC 90+ at 12.70% (92% of GFC), Auto 90+ at 5.21% (ATH), FL +190% foreclosures
 FL-CARL-002	2026-02-14	Fed Consumer Credit G.19 (Dec)	CREDIT	Revolving, Non-revolving	Total consumer debt levels	MEDIUM	PENDING	Doesn't capture phantom debt
 FL-CARL-003	2026-02	Affirm (AFRM) Earnings	BNPL	BNPL health	BNPL provider stress indicator	HIGH	PENDING	Watch delinquency rates, funding costs
 FL-CARL-004	2026-02	Klarna Filing/Earnings	BNPL	BNPL health	IPO filing may reveal credit metrics	MEDIUM	PENDING	Pre-IPO disclosure
