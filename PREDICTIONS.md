@@ -51,6 +51,12 @@
 | 3 | At least one major BDC triggers redemption gate | 2026 | 55% | ⏳ Pending |
 | 4 | Software sector BDC exposure declines <18% | Q4 2026 | 60% | ⏳ Pending |
 | 5 | Shadow default rate acknowledged by rating agency | 2026 | 50% | ⏳ Pending |
+| 6 | Neocloud credit event (CoreWeave, Lambda, or Crusoe stress/downgrade) | H2 2026 | 45% | ⏳ Pending |
+| 7 | AI infrastructure markdown forces BDC sector-wide write-down (>$500M aggregate) | 2026-2027 | 40% | ⏳ Pending |
+| 8 | Blue Owl reduces hyperscale data center exposure or exits position | Q3-Q4 2026 | 35% | ⏳ Pending |
+| 9 | HRZN merger terms worse than announced (NAV floor broken) | Q1-Q2 2026 | 60% | ⏳ Pending |
+| 10 | HTGC tech-driven NAV decline >10% | H2 2026 | 50% | ⏳ Pending |
+| 11 | First BDC breaches 150% asset coverage (triggers dividend halt) | 2026 | 55% | ⏳ Pending |
 
 ### CREED
 | # | Prediction | Timeframe | Confidence | Status |
