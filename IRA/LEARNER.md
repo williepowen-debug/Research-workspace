@@ -25,11 +25,12 @@ Track concepts as: `🟢 solid` | `🟡 familiar` | `🔴 gap` | `⚪ unexposed`
 ### Macro Fundamentals
 | Concept | Status | Last Touched | Notes |
 |---------|--------|--------------|-------|
+| **Bond yield mechanics** | 🟡 | 2026-02-10 | **Work in progress** — price/yield inverse relationship; feels "shaky"; dedicated explainer produced after US yields fell to 4.2%; understands conceptually but not yet internalized |
 | Interest rate mechanics | 🟡 | — | Understands rates go up → borrowing costs more, but Fed transmission mechanism unclear |
-| Yield curve basics | 🟡 | — | Knows inversion = recession signal, mechanics fuzzy |
+| Yield curve basics | 🟡 | 2026-02-10 | Knows inversion = recession signal; explainer covered normal/inverted/bear steepening |
 | Inflation dynamics | 🟡 | — | CPI vs PCE distinction unclear |
 | Currency fundamentals | ⚪ | — | — |
-| Central bank operations | ⚪ | — | — |
+| Central bank operations | 🟡 | 2026-02-10 | QE/QT/YCC covered in bond explainer; conceptual grasp, not yet deep |
 | Crisis coordination frameworks | 🟢 | 2026-02-08 | Understands 2008 model: acute crisis enables coordination; chronic stress prevents it |
 | Politician vs technocrat roles | 🟢 | 2026-02-08 | Sees distinction clearly — politicians enable/constrain technocrats |
 | Institutional incentive alignment | 🟢 | 2026-02-08 | Recognizes Japan's three-player prisoner's dilemma (Takaichi/Katayama/Ueda) |
@@ -178,6 +179,15 @@ Track concepts as: `🟢 solid` | `🟡 familiar` | `🔴 gap` | `⚪ unexposed`
 - **Total listening time:** ~39 minutes
 - **Next:** Will to listen and potentially return with questions
 
+**2026-02-10 (continuation, ~1h later):**
+- **Trigger:** Question about why US bond yields falling, what it means
+- **Context:** US 10Y fell to 4.2% on weak employment data; Will feeling "shaky" on bond mechanics
+- **Response:** Explained falling yields = flight to safety, recession pricing; connects to Employment Cliff thesis
+- **Teaching moment:** Will acknowledged "hard to fully grasp/internalize" — this is a work in progress
+- **Action:** Produced dedicated "Bond Yields Explained" explainer (14min) covering price/yield inverse, risk-on/off, Japan vs US
+- **Goal:** Move bond mechanics from 🟡 "shaky" to 🟢 "solid" through repeated exposure + explainer
+- **Note:** Will listened to Employment Cliff and BDC Shadow Defaults already; bond explainer queued
+
 ---
 
-*Last updated: 2026-02-10 (00:45 UTC)*
+*Last updated: 2026-02-10 (19:43 UTC)*
