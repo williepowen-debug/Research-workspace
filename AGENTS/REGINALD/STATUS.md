@@ -10,7 +10,24 @@
 
 ---
 
-## CRE Maturity Wall (Trepp/Fed Z.1, Q3 2025)
+## CRE Stress Dashboard (Trepp Data)
+
+### CMBS Delinquency (January 2026)
+
+| Sector | Rate | MoM Δ | YoY Δ | Status |
+|--------|------|-------|-------|--------|
+| **Office** | **12.34%** | +103 bps | +211 bps | 🔴 ALL-TIME HIGH |
+| Multifamily | 6.94% | +30 bps | +232 bps | 🟠 Spreading |
+| Retail | 7.04% | +12 bps | -48 bps | 🟡 Stable |
+| Lodging | 5.56% | -105 bps | -67 bps | 🟢 Improving |
+| Industrial | 0.62% | -18 bps | +16 bps | 🟢 Low |
+| **Overall** | **7.47%** | +17 bps | +91 bps | 🟠 Rising |
+
+**Shadow stress:** Including matured balloons (extend-and-pretend), effective rate = **9.14%**
+
+**Full data:** `domain/workbook/CMBS_DELINQUENCY.md`
+
+### CRE Maturity Wall (Fed Z.1, Q3 2025)
 
 | Metric | Value | Implication |
 |--------|-------|-------------|
