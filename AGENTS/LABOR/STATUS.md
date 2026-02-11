@@ -24,6 +24,24 @@ This is not synchronized recession — it's a **"barbell" economy**:
 
 ---
 
+## "HOTEL CALIFORNIA" DIVERGENCE DASHBOARD
+
+**Thesis:** Easy to keep your job, hard to find a new one → Duration lengthens while entry slows.
+
+| Metric | Current | Status | Threshold Breached | Interpretation |
+|--------|---------|--------|-------------------|----------------|
+| **Initial Claims** | **231K** | 🟡 | +22K spike | Entry flow: New job losers (weekly) |
+| **Continuing Claims** | **1,844K** | 🟢 | Stable | Stock: People still on UI (duration proxy) |
+| **4-Week Avg Continuing** | **~1.85M** | 🟢 | Below 1.9M | Smoothed duration signal |
+| **Insured Unemployment Rate** | **1.2%** | 🟢 | Pre-pandemic avg | Continuing ÷ covered employment |
+| **Duration Proxy** | **8.0 weeks** | 🟡 | Rising | Continuing ÷ initial claims |
+
+**Divergence Watch:** If initial claims stay <250K but continuing claims breach 1.9M, it confirms "Hotel California" — workers stuck on UI longer, re-employment frozen.
+
+**Current Status:** NO divergence yet. Both metrics stable. But initial claims spiked +22K (Feb 6) — watch for follow-through.
+
+---
+
 ## SIGNAL DASHBOARD
 
 | Indicator | Value | Status | Trend |
@@ -221,13 +239,35 @@ The "supply-constrained small business" narrative is BREAKING for the smallest f
 
 ---
 
+## UI EXHAUSTION TRANSMISSION TIMELINE
+
+**New Framework:** Tracking state-by-state UI benefit exhaustion as the mechanism for employment → consumer stress transmission.
+
+**Florida (12-week duration) = Canary State**
+
+| Event | Date | Lag | Notes |
+|-------|------|-----|-------|
+| Q4 2025 FL WARN filings | Oct-Dec 2025 | — | 22,771 workers (+76% YoY) |
+| Actual layoffs | Dec 2025 - Feb 2026 | 60 days | Kroger (935), Disney (~2K), healthcare (17K) |
+| UI exhaustion begins | **Mar-Apr 2026** | +12 weeks | **CRITICAL WINDOW** |
+| Credit card delinquencies | **May 2026** | +2 weeks | FL-specific stress signal |
+| Auto loan stress | **Jun 2026** | +4 weeks | Consumer transmission confirmed |
+| Foreclosures accelerate | **Jul 2026** | +8 weeks | Housing stress (already +57% YoY) |
+| **CA/NY exhaustion begins** | **Aug 2026** | +26 weeks | National signal (standard duration states) |
+
+**Cross-Agent Trigger:** FL exhaustion rate >50% in Q2 2026 → CARL consumer stress alert, REGINALD regional bank stress (FL-heavy portfolios).
+
+**See:** `domain/workbook/STATE_EXHAUSTION.md` for full framework.
+
+---
+
 ## RESEARCH GAPS
 
-- [ ] Continuing Claims trend (duration indicator)
+- [x] ~~Continuing Claims trend (duration indicator)~~ — **COMPLETED: VX-LAB-1.02A, VX-LAB-1.02B**
+- [x] ~~State-level UI exhaustion rates~~ — **COMPLETED: STATE_EXHAUSTION.md**
 - [ ] Gig economy metrics (15% workforce invisible to UI)
 - [ ] LinkedIn hiring rate data
 - [ ] ADP private payrolls vs BLS reconciliation
-- [ ] State-level UI exhaustion rates
 
 ---
 

@@ -60,6 +60,77 @@ This is an additional stress vector — tariffs are effectively a regressive con
 
 ---
 
+## ABS TRUSTEE REPORT MONITORING
+
+**Status:** 🟡 FRAMEWORK ESTABLISHED — Baseline data collection in progress
+
+**Purpose:** Real-time consumer payment stress via monthly ABS performance data (30-45 day lag vs NY Fed's 60-90 day lag)
+
+**Why This Matters:**
+- **30-45 day earlier signal** than NY Fed quarterly reports
+- **Payment Rate = Leading Indicator** — drops 1-2 months BEFORE delinquencies rise
+- **Monthly granularity** — can detect stress acceleration in real-time
+- **Vintage tracking** — isolate 2024/2025 underwriting quality vs 2019 baseline
+
+**Watchlist (11 trusts across credit spectrum):**
+
+**Credit Card (5):**
+- Discover Card Master Trust I (broad consumer base)
+- American Express Credit Account Master Trust (prime/super-prime benchmark)
+- Capital One Multi-asset Execution Trust (prime/subprime mix)
+- Synchrony Credit Card Master Note Trust (retail card exposure)
+- Citibank Credit Card Issuance Trust (major bank issuer)
+
+**Auto (6):**
+- Santander Drive Auto Receivables Trust (subprime bellwether)
+- Exeter Finance auto trusts (deep subprime, S&P elevated loss expectations)
+- Ally Auto Receivables Trust (prime/near-prime)
+- CarMax Auto Owner Trust (used car indicator)
+- Toyota Auto Receivables Owner Trust (prime baseline)
+- GM Financial Auto Leasing Trust (lease vs retail)
+
+**Key Metrics Tracked:**
+1. **Principal Payment Rate** (% of balance paid monthly) — LEADING INDICATOR
+2. **30+ Day Delinquency** — Early-stage stress
+3. **Charge-off Rate** — Final confirmation
+4. **Vintage Performance** — 2024/2025 vs 2019 baseline
+
+**Alert Thresholds (Credit Card):**
+- 🟡 YELLOW: Payment rate 18-20%, 30+ DQ 4-5%
+- 🟠 ORANGE: Payment rate 15-18%, 30+ DQ 5-7%
+- 🔴 RED: Payment rate <15%, 30+ DQ >7%
+
+**Alert Thresholds (Subprime Auto):**
+- 🟡 YELLOW: Payment rate 3.5-4%, 30+ DQ 10-12%
+- 🟠 ORANGE: Payment rate 3-3.5%, 30+ DQ 12-15%
+- 🔴 RED: Payment rate <3%, 30+ DQ >15%
+
+**Monthly Protocol:**
+- Week 1: Check issuer IR sites for early data
+- Week 2-3: Pull Form 10-D from EDGAR (due within 15 days of distribution)
+- Week 3-4: Update VX.tsv, compare to baselines, flag breaches
+
+**Integration Points:**
+- **LABOR → ABS:** Payment rate should drop 30-60 days after UI exhaustion begins (FL test case)
+- **ABS vs NY Fed:** Divergence detection — ABS stress shows before quarterly data
+- **ABS → REGINALD:** Stress in Jan-Feb 2026 → Bank NCO warnings Apr-May 2026
+
+**Current Status:**
+- Framework document: ✅ Complete (`domain/workbook/ABS_TRACKING_FRAMEWORK.md`)
+- VX.tsv vectors: ✅ Added (VX-CARL-ABS-01 through ABS-14)
+- ML.tsv master log: ✅ Created (ML-CARL-ABS-001)
+- Baseline data: 🔄 IN PROGRESS (targeting Discover, Capital One, Santander)
+- First monthly cycle: 📅 SCHEDULED (Feb 15, 2026 for Jan data)
+
+**Next Actions:**
+1. Pull Jan 2026 data from 3 priority trusts (baseline establishment)
+2. Add FL.tsv calendar entries for monthly ABS checks
+3. First comparative analysis (ABS Jan data vs NY Fed Q4 data)
+
+**Reference:** `domain/workbook/ABS_TRACKING_FRAMEWORK.md`
+
+---
+
 ## THE LATENT POPULATION
 
 25-40% of US households are "one incident away" from crisis:

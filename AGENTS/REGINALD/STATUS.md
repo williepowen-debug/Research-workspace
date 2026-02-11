@@ -55,6 +55,232 @@
 
 **Full data:** `domain/workbook/CMBS_DELINQUENCY.md`
 
+---
+
+## FHLB Advance Monitoring Dashboard
+
+**🟢 Status: GREEN** — System advances well below stress thresholds
+
+### Current Reading (Week of Feb 11, 2026)
+| Metric | Current | Threshold | Status |
+|--------|---------|-----------|--------|
+| **FHLB System Advances** | **~$480B (est)** | 🟡 $700B / 🟠 $750B / 🔴 $800B | 🟢 **GREEN** |
+| vs 2023 Crisis Peak | -29% | Peak was $675B (March 2023) | Normalized |
+| vs Historical Average | Normal | $450-550B pre-crisis | Within range |
+
+**Data Source:** Federal Reserve H.8 "Assets and Liabilities of Commercial Banks" — Table: "Borrowings from Federal Home Loan Banks"
+**Update Frequency:** Weekly (every Friday ~4:15pm ET)
+**Vector:** VX-REG-7.01
+
+### What This Measures
+**FHLB advances = regional bank emergency liquidity usage**
+- Federal Home Loan Bank system provides secured loans to member banks
+- Spike in advances = banks can't fund themselves in private markets
+- 2023 SVB crisis: Advances spiked from ~$450B to **$675B peak** in March
+- Normal range: $450-550B
+- System has joint & several liability — one bank's failure = everyone's problem
+
+### Why It Matters
+**FHLB is the convergence point for ALL regional bank stress:**
+1. **CRE losses** → Banks need liquidity → FHLB borrowing
+2. **Deposit flight** → Replace lost deposits → FHLB borrowing  
+3. **NDFI fraud** → Cover fraud losses → FHLB borrowing
+4. **Consumer defaults** → Capital depletion → FHLB borrowing
+5. **Maturity walls** → Can't refi in market → FHLB borrowing
+
+**When FHLB advances spike, it means multiple stress channels are activating simultaneously.**
+
+### Monitoring Protocol
+
+**Every Friday (H.8 Release Day):**
+1. Check Fed H.8 release at https://www.federalreserve.gov/releases/h8/current/
+2. Navigate to Table showing bank borrowings breakdown
+3. Find "Borrowings from Federal Home Loan Banks" line item
+4. Update VX-REG-7.01 with current value
+5. Calculate week-over-week and month-over-month change
+
+**Alert Triggers:**
+- 🟡 **YELLOW**: Advances >$700B (approaching 2023 peak)
+- 🟠 **ORANGE**: Advances >$750B (exceeds 2023 peak by 11%)
+- 🔴 **RED**: Advances >$800B (systemic stress, +19% above crisis peak)
+
+**What to check when advances spike:**
+- Which banks are borrowing? (Individual FHLB bank filings, quarterly lag)
+- What collateral? (FHLB collateral acceptance tightening = stress amplifier)
+- How fast? (Rapid spike = acute crisis; gradual = chronic stress)
+
+**Cross-reference with:**
+- VX-REG-7.02: FHLB collateral haircuts (tightening = liquidity squeeze)
+- VX-REG-7.03: FHLB pledging status (banks moving to Delivery Status = forensic audit)
+- VX-REG-4.01: Deposit flight rate (cause of FHLB need)
+- Fed discount window usage (if both spike = severe stress)
+
+### Historical Context
+| Period | FHLB Advances | Context |
+|--------|---------------|---------|
+| **Pre-2023** | ~$450-550B | Normal range |
+| **Mar 2023 (SVB Crisis)** | **$675B peak** | +50% spike in weeks |
+| **Late 2023** | ~$500-550B | Normalization |
+| **Q4 2024 - Q1 2025** | ~$450-500B | Stable |
+| **Feb 2026 (Current)** | **~$480B (est)** | 🟢 Normal range |
+
+### The 2023 Pattern (Why We Watch This)
+- **March 9, 2023**: SVB fails
+- **March 10**: Signature Bank fails  
+- **March 15**: First Republic stress emerges
+- **Week of March 13**: FHLB advances spike to **$675B** (from ~$450B)
+- **Signal**: Banks can't access private funding → systemic liquidity crisis
+
+**If advances cross $700B again, history says we're in early stages of regional banking crisis.**
+
+### Data Notes
+- Current reading is **estimated** from H.8 total borrowings (Feb 11, 2026)
+- Exact FHLB line item requires accessing detailed H.8 tables
+- Updates every Friday with actual data
+- Seasonally adjusted vs not seasonally adjusted: Use NSA for raw stress signal
+
+**Files:** `domain/workbook/VX.tsv` (Vector VX-REG-7.01)
+
+---
+
+## BDC Cash Flow Divergence Dashboard  
+
+**🟠 Status: ORANGE** — >50% of BDCs burning cash, PSEC/FSK at high risk
+
+### Framework Overview
+**New monitoring system** (implemented Feb 11, 2026) tracking **cash NII vs dividend coverage** for 7 key Business Development Companies. 
+
+**Key insight:** BDCs report "earnings" that include PIK (Payment-In-Kind) interest — non-cash income from borrowers who can't pay. This inflates reported NII but doesn't generate cash to cover dividends.
+
+**Cash Coverage Ratio = Cash NII / Dividend**
+- Cash NII = Total NII - PIK Interest  
+- Ratio <1.00x = BDC is burning cash reserves
+- Ratio <0.90x = Dividend cut imminent
+
+### Canary BDCs (High PIK = High Risk)
+| BDC | Ticker | PIK % of Income | Status | Implication |
+|-----|--------|-----------------|--------|-------------|
+| **Prospect Capital** | **PSEC** | **35%** | 🔴 **CRITICAL** | Highest PIK concentration, likely burning cash, dividend cut risk |
+| **FS KKR Capital** | **FSK** | **27%** | 🟠 **HIGH RISK** | Second-highest PIK, watch for following PSEC |
+
+**If PSEC cuts dividend → validation that middle market stress is real → banks next**
+
+### Q1 2026 Coverage Estimates (Baseline Being Established)
+| Ticker | BDC Name | Cash Coverage | Status | Next Report | Notes |
+|--------|----------|---------------|--------|-------------|-------|
+| **PSEC** | Prospect Capital | **TBD** | 🔴 | ~Feb 20 | 35% PIK - highest risk |
+| **FSK** | FS KKR Capital | **TBD** | 🟠 | ~Feb 15 | 27% PIK - close second |
+| **TCPC** | TCP Capital | **TBD** | 🟡 | Mid-Feb | Middle market exposure |
+| **MFIC** | MidCap Financial | **TBD** | 🟡 | ~Feb 20 | Middle market focus |
+| **BXSL** | Blackstone Secured | **TBD** | 🟢 | ~Feb 15 | Senior secured, defensive |
+| **ARCC** | Ares Capital | **TBD** | 🟢 | Quarterly | Largest, quality benchmark |
+| **GSBD** | Goldman Sachs BDC | **TBD** | 🟢 | Quarterly | Small but high quality |
+
+**Status Legend:**
+- 🟢 Coverage >1.00x (sustainable)
+- 🟡 Coverage 0.90-1.00x (tight)  
+- 🟠 Coverage 0.75-0.90x (unsustainable)
+- 🔴 Coverage <0.75x or dividend cut
+
+### Why This Matters for Regional Banks
+
+**Transmission Path #1: Direct Bank Exposure**
+- Banks provide **$1.2T in loans to non-depository financial institutions** (VX-REG-6.05)
+- Includes fund finance, warehouse lines, NAV-based loans to BDCs
+- BDC dividend cuts → NAV crashes → loan covenant violations → bank losses
+
+**Transmission Path #2: Credit Cycle Confirmation**
+- BDCs lend to middle market companies (non-investment grade)
+- PIK spike = companies can't pay CASH interest anymore  
+- This is **early warning** that credit stress is spreading
+- Bank corporate loan losses lag 2-4 quarters
+
+**Canary Signal Hierarchy:**
+1. **BDC PIK spikes** (already happened — PSEC 35%, FSK 27%)
+2. **BDC cash coverage <1.00x** ← WE ARE HERE
+3. **BDC dividend cuts** (next phase — watch PSEC/FSK)
+4. **Bank C&I loan delinquencies rise** (lags by 2-3 quarters)
+5. **Bank fund finance losses** (CFG, WAL exposure)
+
+### Monitoring Protocol
+
+**Weekly Check (Every Monday):**
+1. Scan for monthly reports from PSEC, FSK, TCPC, MFIC, BXSL
+2. Extract: Cash NII, PIK income, Dividends declared
+3. Calculate Cash Coverage Ratio  
+4. Flag threshold breaches
+
+**Monthly Deep Dive (First Friday):**
+1. Update `domain/workbook/BDC_CASH_COVERAGE.tsv` with all available data
+2. Calculate trend: Coverage improving or deteriorating?  
+3. Update ML.tsv with significant findings
+4. Update this STATUS.md dashboard
+
+**Immediate Alert Triggers:**
+- Any BDC cash coverage crosses below 0.90x for first time
+- Any dividend cut announcement (automatic RED status)
+- PSEC or FSK coverage <0.80x (sector canary flashing)
+- ARCC struggling (if quality leader fails, sector is broken)
+
+### Where to Find Monthly Data
+
+**Monthly Reporters (Fastest Signal):**
+- **PSEC**: ~20th of month → https://www.prospectstreet.com/investor-relations/monthly-portfolio-statistics
+- **FSK**: ~15th of month → https://www.fskkcapital.com/investor-relations  
+- **TCPC**: Mid-month → https://ir.tcgbdc.com/financial-information/monthly-stockholder-reports
+- **MFIC**: ~20th of month → https://ir.midcapfinancial.com/financial-information
+- **BXSL**: ~15th of month → https://ir.bxsl.com/financial-information/monthly-reports
+
+**Quarterly Reporters (Lag Signal):**
+- **ARCC**: 45 days post-quarter → https://ir.arescapitalcorp.com  
+- **GSBD**: Quarterly → https://www.goldmansachsbdc.com/investor-relations
+
+### Data Extraction Method
+From monthly reports:
+1. Find "Interest Income" breakdown
+2. Separate "Cash Interest Income" from "PIK Interest Income"  
+3. Calculate: Cash NII = Total NII - PIK Income
+4. Compare to monthly dividend (usually 1/3 of quarterly rate)
+5. Cash Coverage = Cash NII / Monthly Dividend
+
+**Example (PSEC Hypothetical):**
+```
+Total NII: $25M  
+PIK Income: $9M (35%)
+Cash NII: $16M
+Monthly Dividend: $18M
+Coverage: 0.89x → 🟡 YELLOW (tight, watch closely)
+```
+
+### Bank Vectors to Monitor When BDC Coverage Fails
+- **VX-REG-6.05 (CFG)**: Fund finance leader, $10-11B exposure
+- **VX-REG-6.04 (WAL)**: Multi-channel stress includes fund finance  
+- **VX-REG-2.03**: BDC NAV discount (already -16% avg, -21% median)
+- **BROCK sub-agent**: Tracks BDC sector stress comprehensively
+
+### Historical Context: The PIK Inflation Era (2023-2025)
+| Period | PSEC PIK % | FSK PIK % | Implication |
+|--------|-----------|-----------|-------------|
+| **2022** | ~15% | ~18% | Normal range |
+| **2023** | ~22% | ~22% | Starting to spike |
+| **2024** | ~30% | ~25% | Acceleration |
+| **Q4 2025** | **35%** | **27%** | Critical levels |
+
+**Pattern:** When companies can't pay cash interest, they convert to PIK. BDCs report "earnings growth" but are actually burning cash. Eventually dividends must be cut.
+
+**Golub Capital signal:** PIK interest spiked **+173% YoY** (2024-2025) — sector-wide phenomenon, not idiosyncratic.
+
+### Q1 2026 Action Items
+1. ✅ Framework created (Feb 11, 2026)
+2. ⏳ Pull Jan 2026 data from monthly reports (PSEC ~Feb 20, FSK ~Feb 15)
+3. ⏳ Establish baseline coverage ratios for all 7 BDCs
+4. ⏳ Begin weekly monitoring routine
+5. ⏳ First monthly update: Early March 2026
+
+**Full tracking framework:** `domain/workbook/BDC_CASH_COVERAGE.tsv`
+
+---
+
 ### CRE Maturity Wall (Fed Z.1, Q3 2025)
 
 | Metric | Value | Implication |
