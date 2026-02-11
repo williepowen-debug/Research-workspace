@@ -110,6 +110,79 @@ SSB represents a **contrarian macro bet** on regional bank stress transmission t
 - **Lease-up taking >18-24 month "digestion period"**
 - **Rate cuts not coming** to relieve floating rate pressure
 
+---
+
+## 🆕 RP-CREED-8: Sponsor Capitulation Framework (Feb 11, 2026)
+
+### The Rate Cap Cliff — We Are IN the Window
+
+| Expiration Window | Estimated Volume | DSCR Impact | Sponsor Action |
+|-------------------|------------------|-------------|----------------|
+| **Q1-Q2 2025** | $150B | 1.25x → 0.95x | Exhaust reserves |
+| **Q3-Q4 2025** | $160B | → 0.80x | Issue LP capital calls |
+| **2026** | $539B | Structural negative carry | **Refinance or hand back keys** |
+| **2027** | $550B | Stabilize or sell | Recapitalize |
+
+**Key insight:** 2021-vintage rate caps (2-3 year) have already expired. We're in the window where sponsors face market-rate interest for the first time.
+
+### Sponsor Taxonomy — Who Breaks First?
+
+| Sponsor Type | Typical Equity | Recourse? | Capitulation Timeline | Strategy |
+|--------------|----------------|-----------|----------------------|----------|
+| **Private Equity** | 1-5% GP | Non-recourse | **6-9 months** | Hand back keys while current |
+| **Regional Developer** | 10-20% | Often recourse | **18-24 months** | Fight until personal liquidity exhausted |
+| **Institutional** | 5-10% | Non-recourse | Variable | Portfolio sale / Continuation fund |
+| **Family Office** | 100% | N/A | Never | Hold forever |
+
+**PE (Blackstone, Starwood) = 10% of US apartments.** 58% of Blackstone's portfolio acquired 2021+.
+
+### Why Non-Accrual Stays at 0.02%
+
+**The "Bad Boy" Carve-Out Trap:**
+- PE sponsors have non-recourse debt
+- BUT "bad boy" carve-outs trigger if sponsor diverts income for repairs ("waste")
+- This converts the ENTIRE loan to recourse
+- So PE sponsors hand back keys **while still current** to avoid personal liability
+- Result: Substandard (9.36%) without Non-Accrual (0.02%)
+
+**This means conversion from substandard to loss can happen FAST** — PE sponsors don't fight, they exit cleanly.
+
+### LP Fatigue — The Breaking Mechanism
+
+**"DPI is the New IRR"**
+- Limited Partners tired of paper returns, demanding cash distributions
+- When GP issues capital call for negative carry, LPs refusing to participate
+- Continuation vehicles ($240B in 2025, up 48%) = Band-aid, not cure
+
+**What drains sponsor liquidity:**
+1. LP refusal to fund capital calls
+2. Fund redemptions forcing asset sales
+3. Corporate margin calls on GP credit facilities
+4. Competing demands across distressed portfolio
+
+### The Break Point Framework
+
+| Sponsor Type | Capitulation Trigger | Loss Tolerance |
+|--------------|---------------------|----------------|
+| **Private Equity** | Basis > Market Value | 100% of equity (walk away) |
+| **Regional Dev** | Personal liquidity exhaustion | 100% equity + personal assets |
+| **Institutional** | Redemption/DPI pressure | 20-40% discount to NAV |
+
+### Implications for SSB
+
+The 9.36% MF substandard at SSB is from IBTX (Texas) sponsors who are:
+- **Most likely regional developers** (local Texas operators)
+- **With recourse obligations** (personal guarantees common)
+- **In the 18-24 month window** before capitulation
+
+**Timeline:** IBTX acquired Feb 2024 → 18-24 months = **Aug 2025 - Feb 2026**
+
+We are AT the edge of the regional developer capitulation window.
+
+**Watch for:** Any uptick in Non-Accrual above 0.5% = sponsors tapping out.
+
+**Source:** `CREED/research/RP-CREED-8_Sponsor_Capitulation_Framework_2026-02-11.md`
+
 ### The KEY Metric: Non-Accrual Migration
 
 | Metric | Current | Warning Level |
@@ -247,6 +320,30 @@ SSB's defensive profile (low beta, institutional ownership) means:
 5. **Quality rotation** → SSB outperforms in any "flight to quality"
 6. **Time decay** → June expiry may be too early if thesis takes longer
 7. **Austin recovery** → Consensus 18-24 month digestion, overlaps our June expiry
+
+### 🆕 Timing Recalibration (RP-CREED-8)
+
+**The research changes the timing calculus:**
+
+- IBTX acquired Feb 2024
+- Regional developers capitulate at **18-24 months**
+- 18 months = **Aug 2025** (already passed)
+- 24 months = **Feb 2026** (NOW)
+
+**We are at the START of the capitulation window**, not ahead of it.
+
+However, the **three firewalls** (PCD, LTV, current payments) mean losses won't hit P&L immediately. The sequence:
+
+1. Sponsors tap out → keys returned (Q1-Q2 2026)
+2. SSB takes REO → triggers ACL rebuild (Q2-Q3 2026)
+3. Charge-offs hit earnings (Q3-Q4 2026)
+
+**June 2026 may see:**
+- Rising Non-Accrual (visible)
+- Increased provision guidance (visible)
+- But NOT actual charge-offs yet (delayed)
+
+**Verdict:** June is early but playable for the SIGNAL. September/December better for LOSS recognition.
 
 ### Position Sizing Rationale
 - $373 = ~17% of total portfolio risk (~$2,230)
