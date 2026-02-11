@@ -81,6 +81,88 @@ SSB represents a **contrarian macro bet** on regional bank stress transmission t
 
 ---
 
+## 🆕 RP-CORAL-8: Florida-Specific Exposure Deep Dive (Feb 11, 2026)
+
+### The Florida Pivot is Complete
+
+- **Aug 31, 2025:** SSB redomiciled from South Carolina to Florida
+- **HQ:** Winter Haven, FL (between Tampa and Orlando)
+- **Regional HQ:** Tampa Rivergate Tower (17,000 sq ft, opened Aug 2025)
+- SSB is now a **Florida-domiciled bank** — regulatory supervision aligned with FL cycles
+
+### CRE Concentration: 320.5% of Capital
+
+SSB's CRE exposure exceeds the informal 300% regulatory threshold. This puts them on enhanced supervisory radar.
+
+### The Association Prime Moat — AND Risk
+
+**What is it?** SSB's specialized HOA/Condo Association banking vertical.
+
+| Metric | Value |
+|--------|-------|
+| **Originations since 1996** | $1.4B+ |
+| **Loan security** | Assessment income pledge |
+| **Deposit source** | Mandatory HOA operating/reserve accounts |
+| **Key advantage** | Low-cost, sticky deposits |
+
+**Why it matters for our thesis:**
+
+SSB is positioned as the **primary liquidity provider** for FL condo associations facing SB 4-D compliance. This is BOTH:
+- **Opportunity:** Massive loan demand as condos fund SIRS repairs
+- **Risk:** If associations can't collect assessments, SSB's loans default
+
+### The SB 4-D Regulatory Cliff
+
+| Deadline | Requirement | Impact |
+|----------|-------------|--------|
+| Dec 31, 2024 | Reserve waiver prohibition | Associations MUST fund reserves |
+| Dec 31, 2025 | SIRS completion | All 3+ story buildings need study |
+| Jan 1, 2026 | Digital records access | 25+ unit associations |
+| Ongoing | 10-year SIRS refresh | Perpetual compliance burden |
+
+**Cost reality:** Miami Beach towers facing **$65,000-$100,000 per unit** in special assessments for repairs + reserves.
+
+### The "Non-Warrantable Condo" Problem
+
+When associations fail SIRS or have underfunded reserves:
+- Fannie/Freddie won't buy the mortgages
+- Traditional lenders exit
+- **SSB's "Portfolio Condo" product** steps in
+
+This is **adverse selection** — SSB is lending into buildings that others won't touch.
+
+### Geographic MSA Breakdown
+
+| MSA | Strategy | Risk Profile |
+|-----|----------|--------------|
+| **Tampa** | Regional HQ, owner-occupied CRE, C&I | 🟡 MODERATE |
+| **Miami/South FL** | Condo, MF, Association Prime | 🔴 HIGH |
+| **Orlando** | Core deposits, professional services | 🟢 LOW |
+| **Jacksonville** | Industrial, logistics | 🟢 LOW |
+
+**South Florida is the concentration risk.** Tampa is expansion, Miami is legacy exposure.
+
+### Insurance Crisis: Stabilizing But Not Solved
+
+SSB's own analysis claims 2022 reforms (SB 2D, SB 4-D) are helping:
+- AOB abuse loopholes closed
+- Citizens depopulation underway
+- Private carriers returning
+
+**BUT:** Reconstruction costs still $162/sq ft (vs $103 in 2015). Structural, not cyclical.
+
+### Where FL Stress Will Manifest
+
+1. **Association Prime loans** — If unit owners can't pay special assessments
+2. **Portfolio Condo mortgages** — If non-warrantable buildings see defaults
+3. **HOA deposit outflows** — If associations liquidate reserves for repairs
+
+**Leading indicator:** Watch for Association Prime delinquency mentions in earnings calls. Currently not disclosed separately.
+
+**Source:** `CORAL/research/RP-CORAL-8_SSB_Florida_Exposure_2026-02-11.md`
+
+---
+
 ## 🆕 RP-TEX-5 Findings: The 9.36% Is 100% Texas (Feb 11, 2026)
 
 **CRITICAL UPDATE:** Deep research confirms the 9.36% MF substandard figure is **entirely from the IBTX Texas portfolio** — NOT Florida.
