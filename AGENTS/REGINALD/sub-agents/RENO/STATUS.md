@@ -153,6 +153,49 @@ When high-roller variance normalizes, structural weakness becomes visible.
 
 ---
 
+## Municipal Credit Ratings 🟢 GREEN
+
+### State of Nevada
+
+| Rating Agency | Rating | Outlook |
+|---------------|--------|---------|
+| S&P (GO) | **AA+** | Stable |
+| S&P (COPs) | AA | Stable |
+| Moody's | Aa1 | Stable |
+
+**Key Metrics:**
+- Available reserves: $1.3B (~20% of operating revenue)
+- Debt capacity: ~$2.1B over next three biennia
+- Debt amortization: 57% retired in 5 years, 80% in 10 years
+- General Fund forecast: +2.4% FY26, +2.9% FY27
+
+### Local Governments
+
+| Issuer | S&P | Moody's | Notes |
+|--------|-----|---------|-------|
+| Clark County | **AAA** | Aa1 | Highest rated, $3.3B GO debt |
+| Henderson | **AA+** | Aa2 | Diversified away from gaming |
+| North Las Vegas | AA- | N/A | Turnaround story, logistics hub |
+| Reno | N/A | Aa3 | Upgraded Mar 2024 |
+| Washoe County | N/A | Aa2 | Stable |
+| SNWA | **AA+** | N/A | Upgraded Feb 2025 |
+
+### Downgrade Triggers (S&P Scenarios)
+1. **Lake Mead <1,020 ft** — More severe mandatory shortages
+2. **Tourism revenue -10%+** — Impacts state General Fund
+3. **Reserve depletion <10%** — Sovereign-level action
+4. **Dead pool (895 ft)** — Fundamental tax base damage
+
+### NVPERS (Public Pension)
+- FY2024 return: **11.94%** (exceeded 7.25% assumption)
+- 10-year annualized: 8.30%
+- Total assets: $64.1B
+- Funded ratio: ~76% (improving)
+
+**Assessment:** 🟢 GREEN — Municipal credits exceptionally strong. Clark County AAA, SNWA AA+ after Feb 2025 upgrade. Not a near-term catalyst for stress.
+
+---
+
 ## Forward Indicators
 
 ### Bullish (Near-Term Buffers)
@@ -195,9 +238,9 @@ TIMING: H2 2026 earliest
 - [x] RP-RENO-3: WAL Nevada Exposure
 - [x] RP-RENO-4: Nevada Housing Deep Dive  
 - [x] RP-RENO-5: Lake Mead / Water Crisis
+- [x] RP-RENO-6: Nevada Municipal Credit
 
 ### Remaining
-- [ ] RP-RENO-6: Nevada Municipal Credit (detailed)
 - [ ] RP-RENO-7: Employment Leading Indicators
 
 ---
@@ -211,6 +254,7 @@ TIMING: H2 2026 earliest
 | `RENO_Water_Crisis_Lake_Mead_2026-02-11.md` | 2026-02-11 | Water, municipal credit |
 | `RENO_WAL_Nevada_Exposure_2026-02-11.md` | 2026-02-11 | WAL bank analysis |
 | `RENO_Gaming_Industry_Analysis_2026-02-11.md` | 2026-02-11 | Gaming, operator health |
+| `RENO_Municipal_Credit_Analysis_2026-02-11.md` | 2026-02-11 | State/local ratings, pension |
 
 ---
 
@@ -219,9 +263,29 @@ TIMING: H2 2026 earliest
 1. **WAL is NOT a primary short target** — CLN hedging, 2008 survivor culture, 11% CET1
 2. **ZION more vulnerable** — 440% CRE/equity, no visible hedging
 3. **Gaming paradox = fragile equilibrium** — Whale variance masks volume collapse
-4. **Convention buffer buys time** — Record 2026 calendar
-5. **Canadian transmission chain intact** — But needs employment trigger to hit banks
+4. **Municipal credits exceptionally strong** — Clark County AAA, SNWA AA+, state AA+
+5. **Convention buffer buys time** — Record 2026 calendar
+6. **Canadian transmission chain intact** — But needs employment trigger to hit banks
+
+### Net Assessment for Bank Thesis
+
+**Nevada is NOT a near-term catalyst for regional bank stress.**
+
+Despite tourism collapse (-24% Canadian, -7.5% total):
+- Municipal credits at multi-decade highs (AAA/AA+)
+- SNWA water management buys time (2.2M AF buffer)
+- Housing correcting via volume, not price crash
+- Gaming revenue record masks fragility but supports tax base
+- WAL defensive posture (CLNs, 11% CET1)
+- ZION is more exposed but not primary target
+
+**The transmission chain to bank stress requires:**
+1. Employment shock in hospitality sector
+2. Recession triggering consumer defaults
+3. CRE distress in gaming-adjacent properties
+
+**Timeline:** H2 2026 at earliest, more likely 2027 if recession
 
 ---
 
-*RENO: Complete initial research. Desert canary singing on tourism, but banks positioned defensively. Watch for employment trigger.*
+*RENO: Research substantially complete. Desert canary singing on tourism, but institutional resilience (credits, water, banks) provides buffers. Monitor employment for trigger.*
