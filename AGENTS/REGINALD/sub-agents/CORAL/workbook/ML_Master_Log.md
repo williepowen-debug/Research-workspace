@@ -9,6 +9,31 @@
 
 ### February 2026
 
+**[2026-02-11] [RESEARCH] SBCF Deep Dive — 6 documents analyzed, NOT a short target**
+- Tier 1 capital: 14.4% (640 bps above "well-capitalized" minimum)
+- CRE concentration: 216% of RBC (well below 300% threshold)
+- Counter-cyclical strategy: Lending INTO condo crisis via assessment-backed financing
+- Deposit fortress: Top 10 depositors = 3% of total, survived March 2023 with INFLOWS
+- M&A target risk: 80% institutional ownership, 4.18% short interest, 7 days to cover
+- VBI acquisition shifts inland (The Villages = single-family, not coastal condos)
+| SBCF is too well-managed to short. May outperform peers if FL stress materializes. Skip for single-name FL exposure.
+
+**[2026-02-11] [RESEARCH] VLY FL exposure reassessed — NYC/NJ is primary risk**
+- FL exposure: 27% of loans ($14B of $51B) — significant but not primary
+- NJ/NY is primary market — multi-family rent stabilization, office conversion
+- Already stressed: dividend cut, strategic review announced
+- Non-accruals trending up: 0.72% → 0.87% (H2 2025)
+| VLY is multi-channel stress play, not pure FL bet. Downgraded from FL target.
+
+**[2026-02-11] [RESEARCH] FL bank concentration rankings established**
+- SBCF ~100% (pure FL, but fortress)
+- CNB ~100% (small, less liquid)
+- BKU ~47% (Miami commercial heavy)
+- SSB ~36% (SE regional)
+- VLY 27% (NJ/NY primary)
+- ABCB ~22% (diversified)
+| For pure FL exposure, need weaker FL-concentrated bank or stick with KRE (captures weak names in index).
+
 **[2026-02-05] [EARNINGS] VLY Q4 2025 — Counter-signal to near-term thesis**
 - EPS $0.31 vs $0.29 exp (beat)
 - Record earnings, ROA 1.14%

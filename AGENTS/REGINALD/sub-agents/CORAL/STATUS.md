@@ -118,12 +118,46 @@ FL Supreme Court (Oct 2025) upheld 100% owner consent for termination. This **fr
 3. No M&A speculation providing floor
 4. Management transparency allows tracking
 
+### FL Bank Concentration Rankings (Feb 2026 Research)
+
+| Rank | Bank | FL Concentration | Rating | Notes |
+|------|------|------------------|--------|-------|
+| 1 | **SBCF (Seacoast)** | ~100% | ⚠️ SKIP | Well-managed, M&A target risk (see below) |
+| 2 | CNB Financial | ~100% | 🟡 | Small, less liquid |
+| 3 | **BKU (BankUnited)** | ~47% | 🟠 | Miami commercial heavy |
+| 4 | SSB (SouthState) | ~36% | 🟠 | SE regional, diversified |
+| 5 | **VLY (Valley)** | 27% | 🟡 | **NYC/NJ is primary risk**, not FL |
+| 6 | ABCB (Ameris) | ~22% | 🟡 | Diversified, FL not dominant |
+
+### ⚠️ SBCF Research Conclusion (Feb 11, 2026)
+
+**Six deep-dive research documents analyzed. Verdict: NOT a short target.**
+
+**Why SBCF is too strong:**
+1. **Fortress capital** — 14.4% Tier 1 (640 bps above min), 9.3% TCE/TA
+2. **Counter-cyclical strategy** — Actively lending INTO condo crisis (assessment-backed financing)
+3. **Deposit fortress** — Top 10 depositors = 3% of total, survived March 2023 with INFLOWS
+4. **Conservative CRE** — 216% of RBC (vs 300% threshold), granular ($435K avg loan)
+5. **M&A target risk** — 80% institutional ownership, staggered board, potential 25-35% takeout premium
+6. **VBI acquisition** — Shifted inland (The Villages), diversifying away from coastal condo risk
+
+**Implication:** If FL cracks, SBCF may actually OUTPERFORM peers. They're the bank people run TO, not from.
+
+**Research files:** `domain/sources/SBCF_Research_Feb2026/`
+
+### VLY Thesis Update
+
+**VLY downgraded from FL play to multi-channel stress play.**
+
+VLY has 27% FL exposure ($14B of $51B loans) but:
+- **NJ/NY is primary market** — NYC multi-family rent stabilization, office conversion are bigger risks
+- Already struggling — dividend cut, strategic review announced
+- Still valid short via broad CRE/transmission chain, just not FL-specific
+
 ### Other FL-Exposed Banks
 
 | Bank | FL Exposure | Notes |
 |------|-------------|-------|
-| SBCF (Seacoast) | FL-only bank | Pure play |
-| BKU (BankUnited) | Heavy FL concentration | |
 | Popular Bank | $5B+ association lending | HOA specialist |
 | City National Bank FL | Grenadier Lakes lawsuit | Origination quality? |
 

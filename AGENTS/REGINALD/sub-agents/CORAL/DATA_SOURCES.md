@@ -3,6 +3,28 @@
 
 ---
 
+## Research Archive
+
+### SBCF Research (Feb 11, 2026)
+
+**Location:** `sources/SBCF_Research_Feb2026/`
+
+| File | Content | Key Finding |
+|------|---------|-------------|
+| SBCF_Earnings_Call_Q4_2025.md | Full transcript | Management bullish, 3 bps NCOs |
+| SBCF_Condo_Crisis_Exposure.md | HOA lending analysis | Counter-cyclical strategy, lending INTO crisis |
+| SBCF_Portfolio_Composition.md | Loan book breakdown | 47% CRE, 216% concentration, granular |
+| SBCF_Credit_Quality.md | 8-quarter credit trends | NPLs 0.57%, exited fintech book |
+| SBCF_MA_Analysis.md | M&A target viability | 80% institutional, takeout risk |
+| SBCF_Capital_Regulatory.md | Capital & regulatory | 14.4% Tier 1, no MOUs, Fed waiver granted |
+| SBCF_Deposit_Stability.md | Deposit analysis | Top 10 = 3%, 167% liquidity coverage |
+| FL_Bank_Comparison_SBCF_ABCB_HOMB.md | Peer comparison | SBCF most FL-concentrated but strongest |
+| FL_Bank_Concentration_Rankings.md | FL exposure rankings | SBCF ~100%, BKU ~47%, VLY 27% |
+
+**Conclusion:** SBCF is NOT a short target. Fortress balance sheet, M&A target risk.
+
+---
+
 ## Primary Sources
 
 ### Regulatory & Government

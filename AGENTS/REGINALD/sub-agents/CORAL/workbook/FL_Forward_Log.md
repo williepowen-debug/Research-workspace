@@ -32,9 +32,9 @@
 | Apr 29 | EGBN Q1 Earnings | DC corridor stress | ⏳ Pending |
 
 **Q1 Earnings Watch List for CORAL:**
-- VLY: Non-accrual trend, HOA loan performance, reserve build
-- SBCF: FL-only bank, purest expression
-- BKU: FL concentration
+- VLY: Non-accrual trend, HOA loan performance, reserve build — **now viewed as NYC/NJ play, not pure FL**
+- SBCF: FL-only bank — **⚠️ SKIP as short target (fortress balance sheet, M&A risk)**
+- BKU: FL concentration — **potential alternative FL target, needs research**
 
 ---
 
