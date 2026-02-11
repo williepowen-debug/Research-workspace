@@ -74,6 +74,20 @@
 | 4 | Austin MF vacancy peaks >16% | H1 2026 | 65% | ⏳ Pending |
 | 5 | FL condo foreclosures +75% YoY | 2026 | 60% | ⏳ Pending |
 
+### RENO (Nevada Stress Monitor)
+| # | Prediction | Timeframe | Confidence | Status |
+|---|------------|-----------|------------|--------|
+| 1 | Nevada UR reaches 5.6%+ | Q2 2026 | 75% | ⏳ Pending (currently 5.2%) |
+| 2 | Nevada UR reaches 5.9%+ | Q4 2026 | 65% | ⏳ Pending |
+| 3 | Strip gaming revenue turns negative YoY | H2 2026 | 55% | ⏳ Pending (currently +0.03%) |
+| 4 | Canadian visitors remain >-20% YoY | Through Q2 2026 | 85% | ⏳ Pending (currently -24%) |
+| 5 | Nevada construction jobs stay negative YoY | Through 2026 | 80% | ⏳ Pending (currently -9.3%) |
+| 6 | Weekly UI claims exceed 4,000 sustained | H2 2026 | 50% | ⏳ Pending (currently ~2,700) |
+| 7 | Caesars EBITDA remains negative YoY | Through Q2 2026 | 70% | ⏳ Pending (Q3 was -19%) |
+| 8 | WAL Nevada NCOs stay <0.50% | Through Q2 2026 | 75% | ⏳ Pending (currently 0.24%) |
+| 9 | Convention attendance meets record projections | 2026 | 70% | ⏳ Buffer tracking |
+| 10 | Nevada median home price stays >$420K | Through 2026 | 70% | ⏳ Pending (currently $470K) |
+
 ### SAM
 | # | Prediction | Timeframe | Confidence | Status |
 |---|------------|-----------|------------|--------|
