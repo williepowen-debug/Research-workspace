@@ -1,13 +1,13 @@
 # PROME STATUS.md
-**Updated:** 2026-02-10 17:35 UTC
+**Updated:** 2026-02-11 00:35 UTC
 
 ---
 
 ## System Status: 🔴 CRITICAL
 
-**NY Fed Q4 2025 Data Received — CARL Upgraded to RED**
+**NFP TOMORROW (Feb 11, 8:30am ET) — Bloomberg calling ZERO jobs**
 
-Consumer stress now at crisis levels. Credit card 90+ DQ at **12.70%** (92% of GFC peak). Auto at **5.21%** (historical max). Florida foreclosures +190% YoY.
+Bloomberg Economics expects zero headline NFP + ~1M jobs revised away. If correct, narrative reset incoming. New upstream plays ready for entry at open.
 
 ---
 
@@ -38,8 +38,9 @@ Consumer stress now at crisis levels. Credit card 90+ DQ at **12.70%** (92% of G
 
 ---
 
-## Position
+## Positions
 
+### Core Thesis: KRE
 **KRE Puts:** 2× $70P May 15 · 2× $60P Jun 18
 
 | Metric | Value |
@@ -48,6 +49,16 @@ Consumer stress now at crisis levels. Credit card 90+ DQ at **12.70%** (92% of G
 | Current | $73.59 |
 | Target | $65.00 |
 | Status | Slightly underwater (+1.3%) |
+
+### Upstream Canaries (PLANNED — Entry Feb 11)
+
+| Position | Contracts | Est. Cost | Limit | Thesis |
+|----------|-----------|-----------|-------|--------|
+| HYG 77P Jun 18 | ~55 | ~$2,400 | $0.43-0.45 | Credit leads equity |
+| IWM 245P Jun 30 | 2 | ~$1,300 | $6.40-6.50 | Small caps lead |
+
+**Why:** HY OAS at 2.84% vs 5.2% avg = historic tightness. Credit must crack before KRE.
+**Strategy:** Wait until 9:45-10am for spreads to settle. If NFP bad, adjust limits up ~20%.
 
 ---
 
@@ -93,14 +104,29 @@ Consumer stress now at crisis levels. Credit card 90+ DQ at **12.70%** (92% of G
 
 | Date | Event | Agent | Priority |
 |------|-------|-------|----------|
-| **Feb 10** | NFP January (8:30am ET) | LABOR | 🔴 CRITICAL |
-| **Feb 10** | NY Fed Q4 Household Debt (11am ET) | CARL | 🔴 CRITICAL |
+| **Feb 11** | **NFP January (8:30am ET)** | LABOR | 🔴 CRITICAL |
 | Feb 12 | Initial Claims | LABOR | 🟠 HIGH |
 | Feb 13 | CPI January | PROME | 🟠 HIGH |
 | **Feb 19** | 20Y JGB Auction | SAM | 🔴 CRITICAL |
 | Mar 6 | NFP February | LABOR | 🔴 CRITICAL |
 | Mar 13-14 | BOJ Meeting | SAM | 🔴 CRITICAL |
+| Mid-Apr | Q1 Bank Earnings | REGINALD | 🔴 CRITICAL |
 
 ---
 
-*Last updated: 2026-02-10 00:13 UTC*
+## Pending Research (Next Session)
+
+Will deferred a couple research items — pick up next session.
+
+---
+
+## Active Threads
+
+1. **NFP Entry** — Execute HYG/IWM positions at open Feb 11
+2. **Bloomberg NFP Preview** — Zero jobs expected, ~1M revised away
+3. **Confidence Framework** — 65-75% KRE hits $60 by year-end, 45-50% by July
+4. **Red-team thesis** — Still need to build soft landing counter-case
+
+---
+
+*Last updated: 2026-02-11 00:35 UTC*
