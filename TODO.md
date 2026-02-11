@@ -51,13 +51,15 @@
 
 ---
 
-## 🤠 Research Prompts (TEX) — NEW
+## 🤠 Research Prompts (TEX)
+
+### Completed ✅
+- [x] **RP-TEX-1:** Austin MF Deep Dive — 14.2% vacancy, DSCR ~1.02x, -5% rents, recovery Q3-Q4 2026
+- [x] **RP-TEX-2:** Houston Energy — Buffered ($75 WTI), banks 0-0.26% NPAs, 2027 hedging cliff
 
 ### Pending (Priority Order)
 - [ ] **RP-TEX-5:** SSB Texas Portfolio — MSA breakdown, CRE types, IBTX legacy quality, Austin MF specifics
-- [ ] **RP-TEX-1:** Austin MF Deep Dive — Vacancy, rents, supply pipeline, DSCR stress, bank exposure
 - [ ] **RP-TEX-6:** Texas Bank Landscape — TCBI, BOK, CFR comparison, alternative short targets
-- [ ] **RP-TEX-2:** Houston Energy — Oil sensitivity, E&P employment, energy loan exposure
 - [ ] **RP-TEX-3:** DFW Growth Assessment — Migration, corporate relocations, insurance/tax burden
 - [ ] **RP-TEX-7:** Property Insurance — Hail/wind exposure, rate trends, FL comparison
 - [ ] **RP-TEX-4:** Texas State Fiscal — Credit ratings, rainy day fund, liability verification
