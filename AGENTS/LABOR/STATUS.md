@@ -261,11 +261,72 @@ The "supply-constrained small business" narrative is BREAKING for the smallest f
 
 ---
 
+---
+
+## 🆕 GIG ECONOMY STRESS BASELINE (Feb 11, 2026)
+
+**The Invisible 24M:** 15% of workforce not captured by UI claims — no safety net, faster conversion to stress.
+
+### Key Metrics
+
+| Metric | Current Value | Stress Threshold | Status |
+|--------|---------------|------------------|--------|
+| **Dave 28DPD** (cash advance default) | **1.95-2.00%** | >2.10% | 🟢 |
+| **Uber/Lyft hourly** | $23.33/$23.23 | <local min wage | 🟡 |
+| **Drivers using cash advances** | **65%** | >60% = no runway | 🔴 |
+| **Drivers delayed essential bills** | **61%** | >50% = crisis | 🔴 |
+| **Payout speed as dealbreaker** | 85% | — | Retention risk |
+
+### Platform Performance (Q4 2025)
+
+| Platform | Revenue | Drivers/Workers | Key Insight |
+|----------|---------|-----------------|-------------|
+| Uber | $14.4B (+20%) | 9.7M (+19%) | Supply outpacing demand |
+| Lyft | $5.1B (+19%) | 12Q record hours | Workers working more for same income |
+| DoorDash | ~$4B (+38%) | Tip-reliant | "Pay anxiety" rising |
+| Dave Inc. | $164M (+62%) | MTMs growing | Cash advances as survival tool |
+
+### Geographic Concentration
+
+| State | Gig % of Workforce | Watch For |
+|-------|-------------------|-----------|
+| **Florida** | **22%** (highest) | Our canary state |
+| California | 20% | Highest searches |
+| Texas | 18% | — |
+| Illinois | 18% | — |
+
+### The 1099-K Cliff (Supply Contraction Risk)
+
+| Tax Year | Reporting Threshold | Impact |
+|----------|---------------------|--------|
+| 2025 | $5,000 | Current |
+| **2026** | **$2,500** | **20% plan to quit** |
+| 2027 | $600 | Mass formalization |
+
+**73% of gig workers don't know the threshold.** Tax filing season 2026 could trigger awareness shock.
+
+### Monitoring Protocol
+
+1. **Weekly:** Google Trends "gig work," "side hustle," "rent assistance" in FL/CA/TX
+2. **Quarterly:** Dave Inc. earnings (28DPD rate), Uber/Lyft driver supply
+3. **Annually:** Avalara 1099-K awareness survey
+
+### Stress Thresholds
+
+- **Dave 28DPD >2.10%** → Cash advance defaults rising, income exhaustion
+- **Expedited transfer fees up 15%+ QoQ** → Terminal liquidity crisis
+- **Tip reliance >45%** → Driver supply contraction imminent
+- **Google "rent assistance" +20% YoY in FL** → Gig safety net failing
+
+**Source:** `LABOR/research/RP-LABOR-12_Gig_Economy_Baseline_2026-02-11.md`
+
+---
+
 ## RESEARCH GAPS
 
 - [x] ~~Continuing Claims trend (duration indicator)~~ — **COMPLETED: VX-LAB-1.02A, VX-LAB-1.02B**
 - [x] ~~State-level UI exhaustion rates~~ — **COMPLETED: STATE_EXHAUSTION.md**
-- [ ] Gig economy metrics (15% workforce invisible to UI)
+- [x] ~~Gig economy metrics (15% workforce invisible to UI)~~ — **COMPLETED: RP-LABOR-12**
 - [ ] LinkedIn hiring rate data
 - [ ] ADP private payrolls vs BLS reconciliation
 
