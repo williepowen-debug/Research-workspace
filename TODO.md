@@ -51,18 +51,15 @@
 
 ---
 
-## 🤠 Research Prompts (TEX)
+## 🤠 Research Prompts (TEX) — 100% COMPLETE ✅
 
-### Completed ✅
-- [x] **RP-TEX-1:** Austin MF Deep Dive — 14.2% vacancy, DSCR ~1.02x, -5% rents, recovery Q3-Q4 2026
-- [x] **RP-TEX-2:** Houston Energy — Buffered ($75 WTI), banks 0-0.26% NPAs, 2027 hedging cliff
-
-### Pending (Priority Order)
-- [ ] **RP-TEX-5:** SSB Texas Portfolio — MSA breakdown, CRE types, IBTX legacy quality, Austin MF specifics
-- [ ] **RP-TEX-6:** Texas Bank Landscape — TCBI, BOK, CFR comparison, alternative short targets
-- [ ] **RP-TEX-3:** DFW Growth Assessment — Migration, corporate relocations, insurance/tax burden
-- [ ] **RP-TEX-7:** Property Insurance — Hail/wind exposure, rate trends, FL comparison
-- [ ] **RP-TEX-4:** Texas State Fiscal — Credit ratings, rainy day fund, liability verification
+### All Prompts Finished
+- [x] **RP-TEX-1:** Austin MF — 14.2% vacancy, DSCR ~1.02x, recovery Q3-Q4 2026
+- [x] **RP-TEX-2:** Houston Energy — Buffered ($75), 2027 hedging cliff
+- [x] **RP-TEX-3:** DFW Growth — Migration -70%, insurance crisis ($6K avg), corps intact
+- [x] **RP-TEX-4:** State Fiscal — AAA ratings, ESF $27.4B at cap, TRS unsound (2028+ issue)
+- [x] **RP-TEX-5:** SSB Portfolio — MF 99% current, 52% LTV, timing not credit
+- [x] **RP-TEX-6:** Bank Landscape — TCBI/CFR/BOKF defensive, SSB remains best target
 
 ---
 
