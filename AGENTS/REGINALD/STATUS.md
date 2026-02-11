@@ -159,7 +159,7 @@ The FL thesis has grown into its own sub-agent. Key findings from RP-FL research
 | **SBCF** | **~100%** | Pure FL ($16B) | 🟢 SKIP | Fortress (14.4% CET1), M&A target, counter-cyclical strategy |
 | **CNB** | ~100% | Pure FL | 🟠 HIGH | Small, less liquid |
 | **BKU** | ~47% | Miami commercial | 🟢 SKIP | Well-managed (12.3% CET1), credit improving |
-| **SSB** | ~36% + TX | **$17.9B CRE (37%)** | 🟠 **WATCH** | **Lowest capital (11.4%), HOA/condo direct, TX = correlation risk** |
+| **SSB** | FL 23% + TX 19% | **$17.9B CRE (37%)** | 🔴 **POSITION** | **2x $90P Jun 18 — MF 9.36% substandard, "Support & Survive" masking stress** |
 | **VLY** | **27%** | $14B of $51B loans | 🟡 MODERATE | **NJ/NY is primary market** — FL is secondary exposure |
 | **ABCB** | ~22% | SE regional | 🟡 MODERATE | Diversified, FL not dominant |
 | **HOMB** | 28% | $4.15B | 🟢 PREPARED | **$33M hurricane reserve** — proactive management |
@@ -209,7 +209,7 @@ The FL thesis has grown into its own sub-agent. Key findings from RP-FL research
 |--------|------|--------|--------|------------------|
 | **SBCF** | Seacoast Banking | 🟢 SKIP | FL ~100% | Fortress balance sheet (14.4% CET1), M&A target risk |
 | **BKU** | BankUnited | 🟢 SKIP | FL ~47% | Well-managed (12.3% CET1, credit improving) |
-| **SSB** | SouthState | 🟠 **WATCH** | FL ~36% + TX | **Lowest capital (11.4%), CRE 37%, HOA/condo direct, TX correlation** |
+| **SSB** | SouthState | 🔴 **POSITION** | FL ~36% + TX | **2x $90P Jun 18 — MF 9.36% substandard, 64% floating, HOA direct** |
 | **IBOC** | Int'l Bancshares | 🟠 ORANGE | TX Border | MARCO thesis (only publicly traded option) |
 
 ### Tier 4: Defensive/De-Risked
@@ -224,20 +224,29 @@ The FL thesis has grown into its own sub-agent. Key findings from RP-FL research
 
 ## Current Position Context
 
-**Live Trade:** 2x KRE $70P (May 15) + 2x KRE $60P (June 18)
-- Entry: KRE at $72.62 (ATH)
-- Risk: ~$800-900 defined
-- Thesis: 8-channel convergence on regional banks
+**Live Positions (Feb 11, 2026):**
+
+| Ticker | Position | Expiry | Entry | Risk | Thesis |
+|--------|----------|--------|-------|------|--------|
+| KRE | 2x $70P | May 15 | — | ~$400 | Broad regional bank stress |
+| KRE | 2x $60P | Jun 18 | — | ~$400 | Tail risk / cascade |
+| HYG | 10x $75P | Jun 18 | $0.30 | $307 | Credit canary (cracks before banks) |
+| IWM | 1x $250P | Jun 30 | ~$7.50 | ~$750 | Small cap stress transmission |
+| **SSB** | **2x $90P** | **Jun 18** | **$1.86** | **$373** | **FL single-name — MF stress visible** |
+
+**Total defined risk:** ~$2,230
 
 **KRE captures broad stress but:**
 - Includes "apex predators" (AUB) and "prepared" names (HOMB)
 - Averages across all geographies
-- Single names may offer more leverage to specific channels
+- SSB is the targeted FL/TX single-name expression
 
-**Potential single-name additions:**
-- **SBCF** — purest FL insurance expression
-- **VLY** — most multi-channel overlap
-- **IBOC** — only TX border expression (outside KRE)
+**SSB thesis (CORAL):**
+- MF substandard 9.36% (highest CRE category), NPLs 0.02%
+- "Support and Survive" masking true stress
+- 64% floating rate = Fed sensitivity
+- FL 23% + TX 19% = Sunbelt correlation risk
+- Full thesis: `sub-agents/CORAL/research/SSB_THESIS.md`
 
 ---
 
@@ -257,6 +266,8 @@ The FL thesis has grown into its own sub-agent. Key findings from RP-FL research
 | **FL association bankruptcies** | 1 (Palm Greens) | 🟡 | Cluster of 3-5 = thesis validation |
 | **VLY non-accruals** | 0.87% | 🟡 | >1.0% = FL stress manifesting |
 | **VLY Q1 earnings (~Apr 23)** | Pending | 🟡 | HOA loan performance, reserve build |
+| **SSB MF substandard** | 9.36% | 🟠 | Watch for NPL migration (currently 0.02%) |
+| **SSB Q1 earnings (~late Apr)** | Pending | 🟡 | NCO trajectory, MF commentary, reserve changes |
 | **Stablecoin market cap** | ~$180B | 🟡 | Growth >$200B/year = deposit pressure |
 | **Fed H.8 deposit data** | Weekly | 🟡 | Regional bank deposit outflows |
 | **CUBI earnings** | Quarterly | 🟡 | Crypto deposit trends, regulatory updates |
