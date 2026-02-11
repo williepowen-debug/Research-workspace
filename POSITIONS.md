@@ -1,5 +1,5 @@
 # POSITIONS.md — Active Trades & Watchlist
-**Last Updated:** 2026-02-10 | **Status:** 1 Active Position
+**Last Updated:** 2026-02-11 | **Status:** 2 Active Positions
 
 *Bridges research to positioning. Each trade has a thesis, catalyst, and edge.*
 
@@ -44,6 +44,43 @@
 - $55.00 — 2023 crisis lows (stretch target)
 
 **Status:** 🟡 ACTIVE — Underwater but thesis intact. Watching NFP + earnings.
+
+---
+
+### HYG — High Yield Credit ETF (Short via Puts) 🆕
+
+| Field | Value |
+|-------|-------|
+| **Position** | 10x $75P (Jun 18) |
+| **Entry Date** | Feb 11, 2026 |
+| **Entry Price** | $0.30/contract ($306.74 total) |
+| **Current HYG** | ~$80 |
+| **Risk Defined** | $306.74 (premium paid) |
+| **Target** | HYG $75 (-6%) for breakeven, $72 for 3x |
+| **Stop/Invalidation** | HYG > $82 sustained (new highs) |
+| **Source Agent** | HENRY |
+
+**Thesis:**
+HYG is the upstream "canary" — credit stress shows here before KRE. HY OAS at 2.84% vs 5.2% historical average = historic tightness. IV only ~10.7% (cheap protection). If risk-off materializes, HYG cracks first.
+
+**Catalyst:**
+- Any credit event (defaults, downgrades)
+- Risk-off regime shift (VIX spike)
+- Earnings misses in leveraged issuers
+- Spread widening from historic tights
+
+**Edge:**
+- Spreads have nowhere to go but wider from current levels
+- Puts are cheap (low IV)
+- Transmission chain: HYG widens → funding costs rise → KRE follows
+
+**Key Levels:**
+- $80 — Current level
+- $78 — Support
+- $75 — Strike / breakeven
+- $72 — Full thesis (~3x return)
+
+**Status:** 🟢 NEW — Entered post-NFP headline beat (market not selling off yet = good entry)
 
 ---
 
