@@ -1,5 +1,5 @@
 # POSITIONS.md — Active Trades & Watchlist
-**Last Updated:** 2026-02-11 | **Status:** 2 Active Positions
+**Last Updated:** 2026-02-11 | **Status:** 4 Active Positions
 
 *Bridges research to positioning. Each trade has a thesis, catalyst, and edge.*
 
@@ -84,18 +84,65 @@ HYG is the upstream "canary" — credit stress shows here before KRE. HY OAS at 
 
 ---
 
-## Watchlist (Research Complete, No Position Yet)
-
-### SBCF — Seacoast Banking (FL Pure Play)
+### IWM — Russell 2000 ETF (Short via Puts) 🆕
 
 | Field | Value |
 |-------|-------|
-| **Thesis** | Purest expression of Florida insurance/condo crisis |
-| **Why Watching** | 100% FL exposure, no geographic hedge |
-| **Concern** | Small cap, potential M&A takeout could put floor under short |
-| **Catalyst** | Hurricane season (Jun-Nov), Citizens assessment, condo bankruptcies |
+| **Position** | 1x $250P (Jun 30) |
+| **Entry Date** | Feb 11, 2026 |
+| **Entry Price** | ~$7.50/contract |
+| **Current IWM** | ~$267 |
+| **Risk Defined** | ~$750 (premium paid) |
+| **Target** | IWM $250 (-6%) for breakeven |
+| **Stop/Invalidation** | IWM > $275 sustained |
+| **Source Agent** | HENRY / LABOR |
+
+**Thesis:**
+Small caps are rate-sensitive + leveraged. If Fed stays higher for longer (wages +3.7% = sticky inflation), small caps get squeezed. Also more exposed to employment stress than large caps.
+
+**Status:** 🟢 NEW — Filled on NFP fade
+
+---
+
+### SSB — SouthState Corp (Short via Puts) 🆕
+
+| Field | Value |
+|-------|-------|
+| **Position** | 2x $90P (Jun 18) |
+| **Entry Date** | Feb 11, 2026 |
+| **Entry Price** | $1.86/contract ($373.35 total) |
+| **Risk Defined** | $373.35 (premium paid) |
+| **Target** | SSB $90 for breakeven, $85 for 2x |
+| **Stop/Invalidation** | SSB > $105 sustained |
+| **Source Agent** | REGINALD / CORAL |
+
+**Thesis:**
+SSB is the most interesting FL bank short candidate (per CORAL research):
+- Lowest capital of FL peers (CET1 11.4%)
+- Highest CRE concentration (37% investor CRE)
+- Direct HOA exposure ("Association Prime")
+- TX = correlation risk, not diversification
+- ACL declining (releasing reserves into stress)
+
+**Catalyst:**
+- NCO spike (currently 0.09% — stable but stress in classified loans)
+- Q1 2026 earnings
+- FL condo/HOA stress transmission
+
+**Status:** 🟢 NEW — Single-name expression of FL thesis
+
+---
+
+## Watchlist (Research Complete, No Position Yet)
+
+### SBCF — Seacoast Banking (FL Pure Play) — ⚠️ SKIP
+
+| Field | Value |
+|-------|-------|
+| **Thesis** | Was: purest FL exposure |
+| **Why Skipped** | Fortress balance sheet (14.4% CET1), M&A target risk, counter-cyclical strategy |
 | **Source** | REGINALD/CORAL |
-| **Action** | Wait for FL catalyst or position via puts on weakness |
+| **Action** | Eliminated — SSB is better target (lower capital, actual cracks) |
 
 ### VLY — Valley National (Multi-Channel)
 
