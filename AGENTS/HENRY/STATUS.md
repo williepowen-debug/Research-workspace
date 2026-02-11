@@ -1,7 +1,7 @@
 # HENRY STATUS.md
 **Agent:** HENRY (Market Structure & Historical Anomalies)
-**Updated:** 2026-02-06
-**Status:** 🟡 YELLOW — Vol Spike, Positioning-Driven (Not Fundamental)
+**Updated:** 2026-02-11
+**Status:** 🟡 YELLOW — NFP Headline vs Revision Divergence Playing Out
 
 ---
 
@@ -145,6 +145,37 @@ Risk parity deleverages   → T+5 to T+30 (largest, last)
 **REGINALD → HENRY:**
 - Bank CDS widening → credit stress → equity transmission
 - Regional bank weakness = canary for broader credit
+
+---
+
+## 🆕 Feb 11 — NFP Market Reaction
+
+**The Pattern:** Headline spike → fade
+
+| Asset | 8:30 Reaction | 9:30+ Action | Read |
+|-------|---------------|--------------|------|
+| IWM | Spiked to $269.31 | Fading to $266-267 | Algos bought headline, humans reading revision |
+| SPX | Gap up | Giving back gains | Same pattern |
+| VIX | Dropped | Stabilizing | Risk-on fading |
+
+**What happened:**
+1. **8:30 AM** — Algos read "+130K vs +55K exp" → BUY
+2. **8:35 AM** — Initial spike (IWM +$3, touched $269)
+3. **8:40+ AM** — Humans read revision (-1M jobs, 2025 stagnation) → selling begins
+4. **9:30+ AM** — Fading toward flat
+
+**The revision story:**
+- 2025 job growth: +584K → +181K (revised down 69%)
+- Over 1M phantom jobs
+- 2025 averaged +15K/month (stagnation, not resilience)
+
+**Positioning implication:**
+This is a "headline vs reality" divergence. Machines trade the beat; humans price the revision. If fade continues through the day, market is correctly re-pricing.
+
+**For thesis:**
+- Employment hasn't broken (no cascade trigger)
+- But the "cushion" was revealed as thinner than priced
+- Q2-Q3 danger window remains intact
 
 ---
 
