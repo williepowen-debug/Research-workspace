@@ -1,11 +1,23 @@
 # BROCK STATUS
-**Last Updated:** 2026-02-10 02:37 UTC | **Status:** 🟠 ORANGE — Elevated Stress, AI Infrastructure Risk Emerging
+**Last Updated:** 2026-02-11 19:30 UTC | **Status:** 🟠 ORANGE — Elevated Stress, Bankruptcy Wave Accelerating
 
 ---
 
 ## THESIS
 
 **"Private Credit's Public Reckoning" — PIK masks a 6% shadow default rate, not the reported 2.1%.**
+
+### 🚨 Corporate Bankruptcies Spiking (Feb 11, 2026)
+
+| Metric | Value | Context |
+|--------|-------|---------|
+| Large bankruptcies last week | **9** | >$50M liabilities |
+| 3-week rolling average | **6** | **Highest since COVID** |
+| Last 3 weeks total | **18 companies** | Accelerating |
+
+**Historical context:** Only 2001 recession, GFC (peak of 9 in 2009), and 2020 pandemic saw higher rates.
+
+**Why this matters for BROCK:** BDCs and private credit are the funding backstop for leveraged middle-market companies. When bankruptcy filings spike, BDC portfolios take losses with a 1-2 quarter lag. This is a **leading indicator** for BDC non-accruals.
 
 **NEW: AI Infrastructure as Accelerant** — $450B+ deployed to tech/AI, with GPU-backed lending creating 2000-style vendor financing risk. HRZN collapse is the canary.
 

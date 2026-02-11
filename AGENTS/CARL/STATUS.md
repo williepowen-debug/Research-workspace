@@ -50,7 +50,13 @@ Per REGINALD: Claims >300K or U-3 >5.0% → all ORANGE banks escalate simultaneo
 
 **Retail Sales (Dec 2025):** 0% MoM (vs +0.4% est), Control Group **-0.1%** (first decline in 3 months). Discretionary pulling back: Furniture -0.9%, Clothing -0.7%, Electronics -0.4%.
 
-**Composite Assessment:** 🔴 **CRITICAL** — CC at 92% of GFC peak, auto at historical max. The +5.1pp rise since Q3 2022 is **larger than the entire 2008-2009 increase**. Young Americans (18-39) transitioning into serious delinquency at crisis rates. Florida is the leading indicator.
+**Tariff Tax Burden (Tax Foundation, Feb 2026):**
+- 2025: **$1,000/household** effective tax increase
+- 2026: **$1,300/household** if current policies persist
+
+This is an additional stress vector — tariffs are effectively a regressive consumption tax hitting the "37% can't cover $400" population hardest.
+
+**Composite Assessment:** 🔴 **CRITICAL** — CC at 92% of GFC peak, auto at historical max. The +5.1pp rise since Q3 2022 is **larger than the entire 2008-2009 increase**. Young Americans (18-39) transitioning into serious delinquency at crisis rates. Tariff burden adds $1,000-1,300/household stress. Florida is the leading indicator.
 
 ---
 
