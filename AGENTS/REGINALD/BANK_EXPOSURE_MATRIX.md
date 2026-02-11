@@ -113,12 +113,13 @@ This **COMPOUNDS** the FL insurance doom loop — same borrowers hit by both:
 
 **Combined FL Risk Assessment:**
 
-| Bank | Insurance Risk | Assessment Risk | Combined |
-|------|----------------|-----------------|----------|
-| **SBCF** | 🔴 CRITICAL | 🔴 CRITICAL | 🔴 **SEVERE** |
-| **VLY** | 🔴 VERY HIGH | 🟠 HIGH | 🔴 **VERY HIGH** |
-| **BKU** | 🔴 HIGH | 🔴 HIGH | 🔴 **VERY HIGH** |
-| **FHN** | 🟠 HIGH | 🟠 ELEVATED | 🟠 **ELEVATED** |
+| Bank | Insurance Risk | Assessment Risk | MF Stress | Combined | Notes |
+|------|----------------|-----------------|-----------|----------|-------|
+| **SSB** | 🟠 HIGH | 🟠 HIGH | 🔴 **9.36%** | 🔴 **POSITION** | Lowest capital, MF substandard highest of any CRE |
+| **SBCF** | 🔴 CRITICAL | 🔴 CRITICAL | 🟡 | 🟢 SKIP | Fortress balance sheet, M&A target |
+| **VLY** | 🔴 VERY HIGH | 🟠 HIGH | 🟠 | 🟠 ELEVATED | NJ/NY is primary market |
+| **BKU** | 🔴 HIGH | 🔴 HIGH | 🟡 | 🟢 SKIP | Well-managed, credit improving |
+| **FHN** | 🟠 HIGH | 🟠 ELEVATED | 🟡 | 🟠 ELEVATED | TN diversification |
 
 **Key Insight:** Not a new column — sub-channel of existing FL GEO exposure. Same banks, compounded risk.
 
@@ -159,7 +160,8 @@ This **COMPOUNDS** the FL insurance doom loop — same borrowers hit by both:
 | **VLY** | VLY | $60B | 🟢 LOW | $7.4B FL CRE is toxic. Who inherits that? Unattractive to acquirers. |
 | **WAL** | WAL | $80B | 🟡 MAYBE | Innovation banking valuable, but fraud overhang deters. If cleaned up, attractive. |
 | **ZION** | ZION | $90B | 🟠 MODERATE | "Collection of banks" could be broken up or acquired. Clean-ish. |
-| **SBCF** | SBCF | $15B | 🟢 LOW | 100% FL exposure = pure hurricane liability. No rational acquirer. |
+| **SBCF** | SBCF | $15B | 🟠 MODERATE | FL exposure BUT fortress balance sheet makes it attractive target. M&A floor risk. |
+| **SSB** | SSB | $67B | 🟢 LOW | FL+TX correlation = double hurricane/macro exposure. IBTX integration ongoing. |
 | **CFG** | CFG | $220B | 🔴 HIGH | Too big for most, but very clean. Scale advantage. |
 | **BHRB** | BHRB | $8B | ⛔ IN DEAL | Already acquiring LINKBANCORP. Don't short active merger names. |
 | **WBS** | WBS | $80B | ⛔ BEING ACQUIRED | Santander deal closes H2 2026. Off the table. |
@@ -167,8 +169,12 @@ This **COMPOUNDS** the FL insurance doom loop — same borrowers hit by both:
 ### Implication for Shorts
 
 **Best short candidates (no M&A floor):**
-- **VLY** — FL CRE concentration makes it unattractive to acquirers
-- **SBCF** — 100% FL = no rational buyer for hurricane liability
+- **SSB** — 🔴 **POSITION ACTIVE** — FL+TX correlation, lowest capital, MF 9.36% substandard
+- **VLY** — FL CRE concentration makes it unattractive to acquirers (NJ/NY is primary risk)
+
+**Eliminated from consideration:**
+- **SBCF** — Fortress balance sheet (14.4% CET1), M&A target risk
+- **BKU** — Well-managed (12.3% CET1), credit improving
 
 **Risky to short (M&A floor possible):**
 - **EGBN** — Distressed but DC franchise could attract fire-sale bid
@@ -210,6 +216,7 @@ This **COMPOUNDS** the FL insurance doom loop — same borrowers hit by both:
 | **Valley National** | VLY | 🟠 475% | ⬜ | ⬜ | 🟠 $85M | 🟡 9.3% | 🟡 4.10% | 🔴 FL $7.4B | ⬜ | **9** | FL CRE = 28% of book. Snowbird concentration |
 | **Citizens Financial** | CFG | ⬜ | ⬜ | 🟡 Moderate | 🔴 $10-11B | 🟠 18.7% | 🟠 5.10% | 🟡 FL/CA | ⬜ | **8** | Major fund finance + consumer + FHLB |
 | **Zions Bancorp** | ZION | 🟡 | 🟠 9% | ⬜ | 🟠 $60M loss | ⬜ | 🟡 4.70% | 🟡 Houston | ⬜ | **6** | FHLB haircut stress, fraud losses |
+| **SouthState** | SSB | 🔴 272% | ⬜ | ⬜ | ⬜ | 🟡 | ⬜ | 🔴 FL+TX 42% | ⬜ | **7** | 🔴 **POSITION** — MF 9.36% substandard, 64% floating, HOA direct |
 
 ---
 
@@ -237,15 +244,55 @@ This **COMPOUNDS** the FL insurance doom loop — same borrowers hit by both:
 |------|--------|------|--------|-------------|-------|------------|
 | **Valley National** | VLY | ~25% | $7.4B (28%) | 45+ | Miami/Tampa CRE | 🔴 VERY HIGH |
 | **First Horizon** | FHN | ~18% | Unknown | 76 | Panhandle + Miami wealth | 🟠 HIGH |
-| **Seacoast Banking** | SBCF | >90% | High | Dense | Villages dominance | 🔴 PURE PLAY |
+| **Seacoast Banking** | SBCF | >90% | High | Dense | Villages dominance | 🔴 PURE PLAY (SKIP) |
+| **SouthState** | SSB | ~23% + TX 19% | **$17.9B (37%)** | 251 total | FL + TX Sunbelt CRE | 🔴 **POSITION** |
 | **ServisFirst** | SFBS | ~30% | Moderate | 10 | Panhandle/Central corridor | 🟠 |
-| **BankUnited** | BKU | >60% | High | Dense | Miami commercial | 🔴 PURE PLAY |
+| **BankUnited** | BKU | >60% | High | Dense | Miami commercial | 🟢 SKIP (well-managed) |
 | **Flagstar** | FLG | ~8% | Moderate | 26 | South FL | 🟡 |
 | **Citizens** | CFG | ~5% | Low | Branch-light | Wealth/Commercial only | 🟡 |
 
+### 🔴 SSB DEEP DIVE — POSITION ACTIVE (Feb 11, 2026)
+
+**Position:** 2x $90P Jun 18, 2026 @ $1.86 ($373 risk)
+
+**Why SSB over VLY/SBCF:**
+| Factor | SSB | VLY | SBCF |
+|--------|-----|-----|------|
+| CET1 | **11.4%** (lowest) | 10.2% | 14.4% |
+| CRE/Loans | **37%** | 28% | ~25% |
+| FL + TX | 42% combined | NJ/NY primary | 100% FL |
+| M&A Risk | LOW | LOW | HIGH |
+| HOA Direct | **Yes (Assoc. Prime)** | Yes | Counter-cyclical |
+
+**Critical MF Finding:**
+- **Substandard: 9.36%** (highest of ANY CRE category at SSB)
+- **Non-Accrual: 0.02%** (near zero)
+- **Explanation: "Support and Survive"** — borrowers subsidizing negative carry to protect 48% equity stakes
+- **Risk:** Sponsor liquidity is finite; if "higher for longer" persists, exhaustion → NPL spike
+
+**MF Portfolio Profile:**
+- Total exposure: ~$4.4B (~9% of loans)
+- 64% floating rate = massive Fed sensitivity
+- Vintage risk: 2021-2023 cohort "broken" (originated 3-4%, now at 8%+)
+- Geographic: GA 38%, FL 24%, TX 14% (Atlanta/Austin supply gluts + FL insurance crisis)
+
+**Short Interest & Positioning:**
+- 2.43% of float (BELOW peer avg 3.42%) — contrarian position
+- 89.76% institutional ownership — "dip-buying floor"
+- Beta 0.74 — defensive, "flight to quality"
+- Analysts: 11 Strong Buy, 1 Buy, 3 Hold, 0 Sell
+
+**Thesis:** Contrarian MACRO bet. SSB is well-run, but even quality banks have CRE concentration. MF stress already visible (9.36% substandard), masked by "Support and Survive." Higher-for-longer + macro event = sponsor exhaustion.
+
+**Monitor:** Q1 2026 earnings (~late April) — substandard trend, NCO trajectory, NPL migration
+
+**Full thesis:** `sub-agents/CORAL/research/SSB_THESIS.md`
+
 **Florida Summary:**
-- VLY is the most leveraged KRE name to FL property cycle
-- SBCF/BKU are pure-plays but smaller
+- **SSB is the FL single-name play** — lowest capital, highest CRE, MF stress visible
+- VLY has FL exposure but NJ/NY is primary market
+- SBCF is pure FL but fortress balance sheet + M&A target = SKIP
+- BKU well-managed, credit improving = SKIP
 - FHN has diversification via Tennessee core
 - If Citizens Insurance ($678B exposure) or condo crisis accelerates, VLY/FHN/SBCF hit first
 
