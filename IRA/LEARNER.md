@@ -25,7 +25,7 @@ Track concepts as: `🟢 solid` | `🟡 familiar` | `🔴 gap` | `⚪ unexposed`
 ### Macro Fundamentals
 | Concept | Status | Last Touched | Notes |
 |---------|--------|--------------|-------|
-| **Bond yield mechanics** | 🟡 | 2026-02-10 | **Work in progress** — price/yield inverse relationship; feels "shaky"; dedicated explainer produced after US yields fell to 4.2%; understands conceptually but not yet internalized |
+| **Bond yield mechanics** | 🟡 | 2026-02-11 | **Progressing well** — price/yield inverse understood; applied to VLY bond portfolio correctly; connects falling yields to recession signal; working through timeline mechanics (when bonds bought vs now); moving from conceptual to applied |
 | Interest rate mechanics | 🟡 | — | Understands rates go up → borrowing costs more, but Fed transmission mechanism unclear |
 | Yield curve basics | 🟡 | 2026-02-10 | Knows inversion = recession signal; explainer covered normal/inverted/bear steepening |
 | Inflation dynamics | 🟡 | — | CPI vs PCE distinction unclear |
@@ -58,11 +58,14 @@ Track concepts as: `🟢 solid` | `🟡 familiar` | `🔴 gap` | `⚪ unexposed`
 ### Banking/Credit (REGINALD domain)
 | Concept | Status | Last Touched | Notes |
 |---------|--------|--------------|-------|
-| Bank balance sheet basics | ⚪ | — | — |
-| CRE exposure mechanics | ⚪ | — | — |
+| Bank balance sheet basics | 🟡 | 2026-02-11 | **SVB connection made** — understands unrealized vs realized losses; how forced selling crystallizes losses |
+| SVB failure mechanics | 🟢 | 2026-02-11 | **Synthesis moment** — connected SVB bond losses + bank run → VLY CRE exposure; understands fast death vs slow death |
+| Unrealized vs realized losses | 🟢 | 2026-02-11 | Gets it: paper losses harmless until forced to sell |
+| CRE exposure mechanics | 🟡 | 2026-02-11 | Understands scale matters ($500M bond losses vs $5B CRE losses); why refi won't save underwater loans |
 | Net interest margin | ⚪ | — | — |
 | Loan loss provisions | ⚪ | — | — |
-| Regional vs money center | ⚪ | — | — |
+| Regional vs money center | 🟡 | 2026-02-11 | Understands depositor base differences (SVB flighty tech vs VLY stickier commercial) |
+| Capital adequacy basics | 🟡 | 2026-02-11 | Grasps exposure relative to capital base (VLY ~$3B capital, potential $5B+ CRE losses = wipeout) |
 
 ### Market Structure (HENRY domain)
 | Concept | Status | Last Touched | Notes |
@@ -142,11 +145,19 @@ Track concepts as: `🟢 solid` | `🟡 familiar` | `🔴 gap` | `⚪ unexposed`
 - Teaching without connecting to current events
 - Oversimplifying strategic trade-offs — he gets the nuance
 
-*Breakthroughs this session:*
+*Breakthroughs observed:*
 
 - 2026-02-08 (early): Independently arrived at "bonds before currency" logic — showing he's internalizing the framework, not just hearing facts
 - 2026-02-08 (mid): Asked follow-up questions that revealed gaps (fiscal expansion mechanics, yen breaking) — good signal of active learning
 - 2026-02-08 (late): **Spotted the institutional vulnerability** — "Perhaps there might not be a powerful enough voice in Takaichi's circle to dissuade her" — this is high-level institutional analysis, not just event tracking
+- 2026-02-11: **Connected SVB → VLY mechanics unprompted** — asked "And the bond losses is what killed SVB right?" at exactly the right moment; showing cross-case pattern recognition
+- 2026-02-11: **Asked the scale question** — "I just did not know how significant differences might be" — this is the critical question that separates noise from signal; good instinct
+
+*Teaching techniques that work:*
+
+- **Concrete scale comparisons** — "$500M vs $5B" and "15-30% vs 150%+ of capital" made abstract exposure tangible
+- **Timeline clarity** — "2019-2021 they bought bonds... 2022-2023 Fed jacked rates... Now 2026..." helped him see the sequence
+- **"You're exactly right + slight correction"** approach works well when he's close but needs calibration
 
 ---
 
@@ -188,6 +199,15 @@ Track concepts as: `🟢 solid` | `🟡 familiar` | `🔴 gap` | `⚪ unexposed`
 - **Goal:** Move bond mechanics from 🟡 "shaky" to 🟢 "solid" through repeated exposure + explainer
 - **Note:** Will listened to Employment Cliff and BDC Shadow Defaults already; bond explainer queued
 
+**2026-02-11 (evening session, ~15min):**
+- **Trigger:** Follow-up questions on bond yields and VLY exposure after listening to briefings
+- **Topics:** Bond yield timeline (when VLY bought vs now), why falling yields help bond portfolio slightly but don't solve CRE problem, why refinancing won't save underwater CRE loans, scale comparison ($500M vs $5B)
+- **Breakthrough:** **Connected SVB mechanics to VLY** — recognized that SVB died from bond losses + bank run forcing sales (fast death) vs VLY facing CRE losses that could trigger slow death; asked exactly the right question about scale significance
+- **Mastery:** 🟢 SVB failure mechanics, 🟢 unrealized vs realized losses, improved 🟡 bond yield understanding from conceptual to applied
+- **Teaching effectiveness:** Working through the "I believe" statements with precision ("you've got it exactly right" + "slightly backwards") helped calibrate understanding; scale comparison ($500M vs $5B, 15-30% vs 150%+ of capital) made abstract concrete
+- **Pattern recognition:** Now synthesizing across cases (SVB 2023, Japan fiscal trap, VLY regional stress) — this is Tier 2/3 thinking
+- **Next:** Continue listening to briefings; bond mechanics likely needs one more cycle to hit 🟢
+
 ---
 
-*Last updated: 2026-02-10 (19:43 UTC)*
+*Last updated: 2026-02-11 (20:32 UTC)*
