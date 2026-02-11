@@ -156,9 +156,9 @@ FL Supreme Court (Oct 2025) upheld 100% owner consent for termination. This **fr
 4. **HOA deposits only** — $2.1B deposits, no direct lending
 5. **Management executing** — De-risking visible in data
 
-### 🟠 SSB Research Conclusion (Feb 11, 2026)
+### 🟠 SSB Research Conclusion (Feb 11, 2026) — POSITION ACTIVE
 
-**Q4 2025 earnings analyzed. Verdict: WATCHLIST — most interesting FL candidate.**
+**COMPREHENSIVE THESIS COMPLETE. Position: 2x $90P Jun 18 @ $1.86 ($373 risk)**
 
 **Why SSB has cracks:**
 
@@ -177,11 +177,45 @@ FL Supreme Court (Oct 2025) upheld 100% owner consent for termination. This **fr
 - NIM: 3.85% (compressing, down 20 bps QoQ)
 - IBTX merger: $17B absorbed Jan 2025 (TX correlation risk, not diversification)
 
-**TX exposure reframe:**
-Management pitches TX as diversification. It's actually Sunbelt correlation risk — Austin MF oversupply, same rate/insurance pressures. If thesis works, SSB gets hit on BOTH flanks.
+#### 🚨 MULTIFAMILY STRESS — CRITICAL FINDING
 
-**Missing catalyst:**
-NCOs still 0.09%. Stress visible in classified loans but not yet charged off. Management bullish (buybacks, dividend raise). Need NCO spike or reserve build as entry trigger.
+**MF Substandard Rate: 9.36%** — Highest of ANY CRE category at SSB
+
+| Credit Grade | % of MF Portfolio | Implied DSCR |
+|--------------|-------------------|--------------|
+| **Substandard** | **9.36%** | **<1.0x** |
+| Special Mention | 1.80% | 1.0x-1.2x |
+| Pass | 88.8% | >1.2x |
+| **Non-Accrual** | **0.02%** | Borrowers still paying |
+
+**"Support and Survive" Dynamic:**
+- 9.36% of MF loans technically in default (DSCR <1.0x)
+- BUT borrowers keep paying from outside sources to protect 48% equity stakes
+- This is MASKING true stress — NPLs artificially suppressed
+- Sponsor liquidity is finite; if "higher for longer" persists, exhaustion → NPL spike
+
+**MF Geographic Concentration:**
+- Georgia: ~38% (Atlanta supply glut)
+- Florida: ~24% (Insurance crisis — structural)
+- Texas: ~14% (Austin rent contraction)
+- 64% floating rate exposure = massive Fed sensitivity
+
+**Vintage Risk:** 2021-2023 cohort "broken" — originated at 3-4% rates, now resetting to 8%+
+
+#### Short Interest & Market Positioning
+
+| Metric | Value | Implication |
+|--------|-------|-------------|
+| Short Interest | 2.43% of float | Below peer avg (3.42%) |
+| Borrow Fee | 0.26% | Easy, General Collateral |
+| Institutional Ownership | 89.76% | "Dip-buying floor" |
+| Beta vs KRE | 0.71-0.74 | Defensive, "quality" |
+| 22% spike post-earnings | New bearish cohort entering | |
+
+**Analyst Coverage:**
+- 15 analysts: 11 Strong Buy, 1 Buy, 3 Hold, 0 Sell
+- Price targets: $103 (low) → $120 (median) → $128 (high)
+- Position is HIGHLY CONTRARIAN
 
 **🚨 EARNINGS CALL CONFIRMATION (Jan 23, 2026):**
 
@@ -195,9 +229,26 @@ Analyst asked about substandard increase. Management response:
 - Payout ratio 97% in Q4 — returning capital, not building reserves
 - NO analyst questions on FL condo/HOA, reserve adequacy, or consumer stress
 
-**Verdict:** Transcript CONFIRMS thesis. Position entered Feb 11 (2x $90P Jun 18 @ $1.86).
+**Position Thesis:**
+This is a contrarian MACRO bet, not a fundamental short. SSB is well-run. The thesis is that:
+1. Even well-run banks have CRE concentration
+2. MF stress is already visible (9.36% substandard)
+3. "Support and Survive" is masking true distress
+4. Higher-for-longer + macro event = sponsor exhaustion = NPL spike
 
-**Research files:** `sources/SSB_Analysis_Q4_2025.md`, `sources/SSB_Q4_2025_Earnings_Call_Analysis.md`
+**Key Monitoring:**
+- Q1 2026 earnings (~late April): Substandard trend, NCO trajectory, NPL migration
+- CPI Feb 18, 20Y JGB Feb 19 (macro catalysts)
+- $90 strike needs ~15% decline from ~$105
+
+**Research files:**
+- `sources/SSB_Analysis_Q4_2025.md`
+- `sources/SSB_Q4_2025_Earnings_Call_Analysis.md`
+- `sources/SSB_Short_Interest_Analysis_2026-02-11.md`
+- `sources/SSB_Analyst_Coverage_2026-02-11.md`
+- `sources/SSB_Multifamily_Analysis_2026-02-11.md`
+- `sources/SSB_Stock_Dynamics_2026-02-11.md`
+- **`research/SSB_THESIS.md`** ← COMPREHENSIVE THESIS DOCUMENT
 
 ### VLY Thesis Update
 
