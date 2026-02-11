@@ -1,5 +1,5 @@
 # LABOR STATUS
-**Last Updated:** 2026-02-10 | **Status:** 🔴 CRITICAL — Employment Break Accelerating + Small Biz Breaking
+**Last Updated:** 2026-02-11 | **Status:** 🔴 CRITICAL — Benchmark Revision Exposes 1M Phantom Jobs
 
 ---
 
@@ -29,10 +29,14 @@ This is not synchronized recession — it's a **"barbell" economy**:
 | Indicator | Value | Status | Trend |
 |-----------|-------|--------|-------|
 | Initial Claims | **231K** | 🟡 | **+22K spike, breached 230K** |
-| U-3 Unemployment | 4.4% | 🟡 | +0.3pp YoY |
+| U-3 Unemployment | **4.3%** | 🟡 | +0.3pp YoY (was 4.0% Jan '25) |
 | U-6 Underemployment | 8.4% | 🟠 | +0.8pp YoY |
+| **Long-term Unemployed** | **1.8M** | 🔴 | **+386K YoY (+28%)** |
+| Part-time (Economic) | 4.9M | 🟠 | +410K YoY |
 | Temp Employment YoY | -12% | 🔴 | RE-ACCELERATING |
-| NFP Monthly | +50K (Dec) | 🟠 | 2025 avg 49K vs 2024 168K |
+| **NFP Jan 2026** | **+130K** | 🟡 | Beat +55K exp, but... |
+| **2025 Job Growth** | **+181K total** | 🔴 | **Revised from +584K (-69%)** |
+| **2025 Monthly Avg** | **+15K/mo** | 🔴 | **STAGNATION** |
 | **ADP Private Payrolls** | **+22K (Jan)** | 🔴 | **MISS: +22K vs +45K exp** |
 | **JOLTS Openings** | **6.5M (Dec)** | 🔴 | **LOWEST SINCE 2017** |
 | **Openings/Unemployed** | **0.87** | 🟠 | **Below 1.0 first time since 2021** |
@@ -47,6 +51,48 @@ This is not synchronized recession — it's a **"barbell" economy**:
 | Fed Beige Book | 4/12 deteriorating | 🟠 | "Low-hire, low-fire" |
 
 **Composite Assessment:** Surface GREEN, Hidden RED — JOLTS confirms demand collapse
+
+### 🚨 Feb 11 Update — NFP + BENCHMARK REVISION BOMBSHELL
+
+**Headline:** +130K (vs +55K exp) — surface beat, but the revisions are the story.
+
+**The Benchmark Revision:**
+| Metric | Reported | Revised | Revision |
+|--------|----------|---------|----------|
+| March 2025 Level | 159.3M | 158.4M | **-898K** |
+| Sept 2025 Level | 159.6M | 158.5M | **-1,045K** |
+| Dec 2025 Level | 159.5M | 158.5M | **-1,029K** |
+| **2025 Job Growth** | **+584K** | **+181K** | **-69%** |
+
+**Over 1 million jobs that were reported in 2025 didn't exist.** The "resilient labor market" was a statistical mirage. 2025 averaged +15K/month — effectively stagnation.
+
+**YoY Deterioration (Jan '26 vs Jan '25):**
+| Metric | Jan 2025 | Jan 2026 | YoY Δ |
+|--------|----------|----------|-------|
+| Unemployment Rate | 4.0% | 4.3% | +30 bps |
+| Unemployed | 6.9M | 7.4M | +500K |
+| **Long-term Unemployed** | **1.4M** | **1.8M** | **+386K (+28%)** |
+| Part-time (Econ) | 4.5M | 4.9M | +410K |
+
+**"Hotel California" Confirmed:** Long-term unemployed (27+ weeks) surged 28% YoY. Now 25% of all unemployed are stuck. People losing jobs aren't finding new ones.
+
+**Sector Losses:**
+- **Federal Government: -34K** (down 327K / -10.9% since Oct 2024 peak)
+- **Financial Activities: -22K** (down 49K since May 2025 peak)
+- Insurance carriers: -11K in month
+
+**Sector Gains:**
+- Health care: +82K (only bright spot)
+- Social assistance: +42K
+- Construction: +33K
+
+**Revisions to prior months:**
+- Nov: +41K (was +56K)
+- Dec: +48K (was +50K)
+
+**Assessment:** Surface headline (+130K beat) masks structural rot. We entered 2026 with 1M fewer employed than believed, federal workforce hemorrhaging, and long-term unemployed surging. The transmission trigger (claims >300K, U-3 >5%) hasn't fired, but the foundation is rotten.
+
+---
 
 ### 🆕 Feb 6 Update — Claims Spike + Challenger Confirms
 - **Initial Claims: 231K** (vs 212K exp, prev 209K) — **+22K jump, breached 230K threshold**
@@ -74,14 +120,15 @@ This is not synchronized recession — it's a **"barbell" economy**:
 
 ## SECTOR BREAKDOWN
 
-| Sector | Cuts (2025-26) | Signal |
-|--------|----------------|--------|
-| **Federal (DOGE)** | 307K | 🔴 Largest restructuring ever |
-| **Tech** | ~245K | 🔴 AI replacement permanent |
-| **Logistics** | 78K (UPS alone) | 🔴 Automation = no recovery |
-| **Auto** | ~45K | 🟠 Coordinated, not idiosyncratic |
-| **Services** | ~17K | 🟡 Leading indicator |
-| **Consumer** | ~20K | 🟡 Demand destruction signal |
+| Sector | Cuts (2025-26) | Signal | Notes |
+|--------|----------------|--------|-------|
+| **Federal (DOGE)** | **327K** | 🔴 | **-10.9% since Oct '24 peak, -34K in Jan alone** |
+| **Financial Activities** | 49K | 🔴 | **-22K in Jan, insurance -11K** |
+| **Tech** | ~245K | 🔴 | AI replacement permanent |
+| **Logistics** | 78K (UPS alone) | 🔴 | Automation = no recovery |
+| **Auto** | ~45K | 🟠 | Coordinated, not idiosyncratic |
+| **Services** | ~17K | 🟡 | Leading indicator |
+| **Consumer** | ~20K | 🟡 | Demand destruction signal |
 
 ---
 
@@ -186,4 +233,4 @@ The "supply-constrained small business" narrative is BREAKING for the smallest f
 - **VX.tsv**: 45+ vectors tracked
 - **Research**: RP-LAB-003 through RP-LAB-011
 
-*Next update trigger: BLS February report (delayed) or claims breach 230K*
+*Next update trigger: March 6 NFP (February data) or claims breach 250K*
