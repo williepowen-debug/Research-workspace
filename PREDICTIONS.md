@@ -73,6 +73,8 @@
 | 3 | Forced recognition $140-250B | 2026-27 | 70% | ⏳ Pending |
 | 4 | Austin MF vacancy peaks >16% | H1 2026 | 65% | ⏳ Pending |
 | 5 | FL condo foreclosures +75% YoY | 2026 | 60% | ⏳ Pending |
+| 6 | **MF non-accrual rises >1% at regional banks (sponsor capitulation begins)** | Q2-Q3 2026 | 55% | ⏳ NEW (RP-CREED-8) |
+| 7 | **SSB MF non-accrual rises from 0.02% to >0.5%** | Q2-Q3 2026 | 50% | ⏳ NEW (RP-CREED-8) |
 
 ### RENO (Nevada Stress Monitor)
 | # | Prediction | Timeframe | Confidence | Status |
@@ -97,6 +99,9 @@
 | 4 | JGB 30Y stays <4.0% through Q1 | Q1 2026 | 60% | ⏳ Pending (3.57% currently) |
 | 5 | BOJ signals faster hikes post-election | Feb-Mar 2026 | 70% | ⏳ Pending |
 | 6 | Life insurers announce more JGB selling | Q1 2026 | 75% | ⏳ Pending |
+| 7 | **Shunto base-up ≥3.5% ("Strong")** | Late Mar 2026 | **48%** | ⏳ NEW (RP-SAM-10) |
+| 8 | **BOJ hikes to 1.00% in April** (conditional on Strong Shunto) | Apr 23-24 | **85%** | ⏳ NEW (RP-SAM-10) |
+| 9 | **Real wages turn positive (YoY)** | Mid-2026 | 55% | ⏳ NEW (RP-SAM-10) |
 
 ### LIQUID
 | # | Prediction | Timeframe | Confidence | Status |

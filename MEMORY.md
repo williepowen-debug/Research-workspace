@@ -44,6 +44,60 @@
 **Path 2 (BROCK):** AI Capex reversal → Neocloud/BDC NAV → Bank fund finance → KRE
 Both converge on regional banks. Path 2 may trigger faster.
 
+### 🆕 Sponsor Capitulation Framework (RP-CREED-8, Feb 11)
+
+**When do MF sponsors stop subsidizing negative carry?**
+
+| Sponsor Type | Capitulation Timeline |
+|--------------|----------------------|
+| **PE (non-recourse)** | **6-9 months** — hand keys back while current |
+| **Regional Developer (recourse)** | **18-24 months** — fight until personal liquidity exhausted |
+
+**Rate Cap Cliff Calendar:**
+- 2021 vintage caps: EXPIRED
+- 2022 vintage caps: Expiring 2025-2026
+- $539B CRE maturities in 2026
+- $550B in 2027
+
+**Why Non-Accrual stays low (0.02%):** PE sponsors exit BEFORE non-accrual to avoid "bad boy" carve-outs converting to recourse.
+
+**LP Fatigue:** "DPI is the New IRR" — LPs refusing capital calls for negative-carry assets. This is what breaks "Support and Survive."
+
+### 🆕 SSB Florida Risk (RP-CORAL-8, Feb 11)
+
+SSB's FL risk isn't generic CRE — it's **Association Prime** (HOA/condo banking) exposed to **SB 4-D compliance cliff**.
+
+- $1.4B+ Association loans since 1996 (secured by assessment income)
+- "Portfolio Condo" product = adverse selection (GSE-rejected buildings)
+- SIRS deadline Dec 2025 → $65K-$100K per unit assessments
+- South Florida is the concentration risk
+
+**Watch:** Association Prime delinquency disclosure (not currently broken out).
+
+### 🆕 Gig Economy Baseline (RP-LABOR-12, Feb 11)
+
+**24M invisible workers** (15% of workforce) not captured by UI claims.
+
+- **65% on cash advances** to bridge payout delays (zero buffer)
+- **61% delayed essential bills**
+- FL has **highest gig concentration (22%)**
+- **Dave 28DPD** is the canary metric (currently 1.95-2.00%, stress >2.10%)
+
+**Caveat:** 65% stat from Everee (payroll company with bias), specifically about payout bridging. But implication holds: no financial runway.
+
+### 🆕 Shunto 2026 Probability Flip (RP-SAM-10, Feb 11)
+
+**Major revision:**
+- Strong (≥3.5%): 20% → **48%** (NOW MOST LIKELY)
+- Moderate (2.5-3.5%): 55% → **42%**
+- Weak (<2.5%): 25% → **10%**
+
+**Why:** "Stag Hunt" dynamics — cost of under-paying > cost of hike. Labor shortage + Takaichi pressure.
+
+**Conditional:** If Strong Shunto → **85% April BOJ hike to 1.00%**
+
+**Dates:** Feb 19 electronics deadline → Mid-March Yamaba → Late March first tally → Apr 23-24 BOJ
+
 ---
 
 ## Structural Knowledge
@@ -120,11 +174,13 @@ Repository: `https://github.com/williepowen-debug/Research-workspace`
 
 ## Open Questions / Future Work
 
-- GIG integration — 16-25M workers invisible to UI, not fully in CARL
+- ~~GIG integration — 16-25M workers invisible to UI~~ ✅ **RESOLVED: RP-LABOR-12**
 - Secondary agent audit — EARNINGS, FOREX, OTTO, REITS need STATUS.md review
 - **Red-team the thesis** — We haven't built the counter-case. Need to stress-test soft landing scenario.
-- **Edge vs confirmation bias** — 40+ predictions, zero resolved. Track record will tell us if synthesis = edge or cope.
-- **Positioning framework** — Research operation built, trading operation not. Bridge needed.
+- **Edge vs confirmation bias** — 40+ predictions, ~6 resolved (75% accuracy). Small sample but promising.
+- **Positioning framework** — Research operation built, 4 positions entered. Execution improving.
+- **TEX remaining prompts** — RP-TEX-3, 4, 6, 7 still pending
+- **CARL ABS baseline** — 3-4 hours manual extraction needed
 
 ---
 
@@ -136,6 +192,18 @@ Repository: `https://github.com/williepowen-debug/Research-workspace`
 - ✅ BROCK/CREED STATUS.md built out
 - ✅ MARCO 7-series (TX border cities) + 8-series (H-2A, State Fiscal, CaliBaja, Remittances)
 - ✅ New leading indicators: H-2A certifications, remittance divergence
+
+### Feb 11, 2026 — Evening Research Batch
+
+**4 Major Research Prompts Completed:**
+- ✅ **RP-CREED-8:** Sponsor Capitulation Framework (PE 6-9mo, Regional 18-24mo)
+- ✅ **RP-CORAL-8:** SSB Florida Exposure (Association Prime + SB 4-D cliff)
+- ✅ **RP-LABOR-12:** Gig Economy Baseline (65% on cash advances, Dave 28DPD tracking)
+- ✅ **RP-SAM-10:** Shunto 2026 Framework (Strong probability 20% → 48%)
+
+**Key insight:** Shunto probability completely flipped — "Strong" now most likely. If Strong → 85% April BOJ hike. Accelerates Japan transmission timeline.
+
+**SSB Thesis Sharpened:** FL risk is specifically Association Prime / SB 4-D compliance, not generic CRE. Non-Accrual (0.02%) is THE metric to watch — sponsor capitulation window is NOW (Feb 2026 = IBTX + 24 months).
 
 ### Feb 7, 2026 — Major Infrastructure Build
 
