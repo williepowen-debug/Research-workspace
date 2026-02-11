@@ -294,7 +294,19 @@ The FL thesis has grown into its own sub-agent. Key findings from RP-FL research
 
 ## Sub-Agents
 
-### CORAL (Florida Real Estate Stress) 🟠 ORANGE — **[NEW]**
+### RENO (Nevada Stress Monitor) 🟡 YELLOW — **[NEW - BUILDING]**
+Monitors Nevada's converging stress channels: Canadian tourism decline, housing vulnerability, water crisis. Nevada is a "canary state" — led into 2008 crisis by 6-12 months.
+
+**Key channels:**
+- Tourism (25% of GDP, Canadian exposure)
+- Housing (2008 epicenter, boom/bust)
+- Water (Lake Mead, structural constraint)
+
+**Bank transmission:** WAL (Bank of Nevada), ZION (Nevada State Bank)
+
+**Files:** `sub-agents/RENO/STATUS.md`, `sub-agents/RENO/research/RENO_RESEARCH_PROMPTS.md`
+
+### CORAL (Florida Real Estate Stress) 🟠 ORANGE
 Monitors Florida condo crisis and transmission to regional bank balance sheets. Owns the "Coral Bleaching" thesis — SIRS mandates, insurance stress, bridge loans, developer activity.
 
 **Key metrics tracked:**
