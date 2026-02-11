@@ -100,7 +100,7 @@ This wasn't designed — it emerged from research. Regional banks are the common
 |------|------|-------|------------------------|
 | 1 | **EGBN** | 12 | Pure DC (100%), already in crisis, CRE 547% |
 | 2 | **WAL** | 10 | NDFI + Fraud + Fund Finance + FHLB + **$1.36B unrated muni "shadow book"** |
-| 3 | **VLY** | 9 | FL CRE 28% of book + BDC + Consumer — most paths to stress |
+| 3 | **VLY** | 9 | NYC/NJ multi-family primary + BDC + Consumer — FL is 27% but diversified |
 | 4 | **CFG** | 9 | Fund finance ($10-11B) + Consumer 18.7% + FHLB 5.1% |
 | 5 | **ZION** | 9 | **$5.78B total muni exposure** (hidden) + NDFI fraud + $524M unfunded |
 
@@ -154,18 +154,24 @@ The FL thesis has grown into its own sub-agent. Key findings from RP-FL research
 
 **Biscayne 21 Ruling (Oct 2025):** FL Supreme Court upheld 100% owner consent for termination. Developer buyouts frozen — receivership is now the primary resolution path. **Extended workout timelines for banks.**
 
-| Bank | FL CRE | Specific Exposure | Risk | Notes |
-|------|--------|-------------------|------|-------|
-| **VLY** | $7.4B (28%) | **45% in Miami MSA** ($3.33B) | 🔴 CRITICAL | HOA lending division = direct association loan exposure |
-| **SBCF** | ~100% FL | Pure play | 🔴 CRITICAL | FL-only bank, no hedge |
-| **BKU** | 60%+ | Miami commercial | 🔴 HIGH | Heavy SE FL concentration |
-| **HOMB** | 28% | $4.15B | 🟢 PREPARED | **$33M hurricane reserve** — proactive |
+| Bank | FL Concentration | Specific Exposure | Risk | Notes |
+|------|------------------|-------------------|------|-------|
+| **SBCF** | **~100%** | Pure FL play ($16B assets) | 🔴 CRITICAL | **Highest FL concentration in KRE** — no diversification hedge |
+| **CNB** | ~100% | Pure FL | 🟠 HIGH | Small, less liquid |
+| **BKU** | ~47% | Miami commercial | 🟠 HIGH | Heavy SE FL concentration |
+| **SSB** | ~36% | SE regional | 🟠 ELEVATED | Diversified across SE |
+| **VLY** | **27%** | $14B of $51B loans | 🟡 MODERATE | **NJ/NY is primary market** — FL is secondary exposure |
+| **ABCB** | ~22% | SE regional | 🟡 MODERATE | Diversified, FL not dominant |
+| **HOMB** | 28% | $4.15B | 🟢 PREPARED | **$33M hurricane reserve** — proactive management |
 
-**VLY Deep Dive (from RP-FL-1.3):**
-- Multifamily DSCR: 1.41x (compressed by insurance costs)
+**VLY Deep Dive (Updated Feb 11 from FL Research):**
+- **27.3% FL exposure** ($14.0B of $51.2B loans) — significant but NOT primary market
+- **NJ/NY is primary vulnerability** — multi-family rent stabilization, office conversion pressures
+- Already struggling: dividend cut, strategic review announced
 - Non-accruals trending up: 0.72% → 0.87% (H2 2025)
 - De-risking via Brookfield sale ($1B at 1% discount)
-- Direct HOA lending = **double exposure** (association loans + individual mortgages on same buildings)
+- **Trading implication:** VLY is multi-channel stress play, not pure FL bet
+- **For pure FL exposure:** SBCF (~100% FL) is cleaner expression
 
 **Full Florida analysis:** `sub-agents/CORAL/STATUS.md`
 
@@ -186,7 +192,7 @@ The FL thesis has grown into its own sub-agent. Key findings from RP-FL research
 |--------|------|--------|-------------------|--------------|
 | **EGBN** | Eagle Bancorp | 🔴 RED | 12 | DC 100% + CRE 547% + already in crisis |
 | **WAL** | Western Alliance | 🔴 RED | 10 | Multi-channel: NDFI + Fraud + Fund Finance + FHLB + Unrated Munis |
-| **VLY** | Valley National | 🔴 RED | 9 | FL CRE 28% + BDC + Consumer — most paths to break |
+| **VLY** | Valley National | 🟠 ORANGE | 9 | **NYC/NJ multi-family primary risk** — FL is 27% but diversified; dividend cut, profitability struggles already manifesting |
 
 ### Tier 2: Elevated Multi-Channel
 
@@ -201,8 +207,9 @@ The FL thesis has grown into its own sub-agent. Key findings from RP-FL research
 
 | Ticker | Bank | Rating | Region | Trade Expression |
 |--------|------|--------|--------|------------------|
-| **SBCF** | Seacoast Banking | 🔴 RED | FL 100% | FL insurance thesis (purest expression) |
-| **BKU** | BankUnited | 🟠 ORANGE | FL 60%+ | Miami commercial |
+| **SBCF** | Seacoast Banking | 🔴 RED | FL ~100% | **Pure FL play** — most concentrated FL exposure in KRE |
+| **BKU** | BankUnited | 🟠 ORANGE | FL ~47% | Miami commercial, second-highest FL concentration |
+| **SSB** | SouthState | 🟠 ORANGE | FL ~36% | SE regional with significant FL book |
 | **IBOC** | Int'l Bancshares | 🟠 ORANGE | TX Border | MARCO thesis (only publicly traded option) |
 
 ### Tier 4: Defensive/De-Risked
