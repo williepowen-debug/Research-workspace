@@ -35,6 +35,22 @@
 
 ---
 
+## 🎰 Research Prompts (RENO)
+
+### Completed ✅
+- [x] RP-RENO-1: Canadian Tourism Impact
+- [x] RP-RENO-2: Gaming Industry Health
+- [x] RP-RENO-3: WAL Nevada Exposure
+- [x] RP-RENO-4: Nevada Housing Deep Dive
+- [x] RP-RENO-5: Lake Mead / Water Crisis
+- [x] RP-RENO-6: Nevada Municipal Credit
+- [x] RP-RENO-7: Employment Leading Indicators
+
+### Pending
+- [ ] **CZR Deep Dive** — Caesars as direct casino short: debt structure ($11.9B), covenant analysis, EBITDA trajectory, M&A floor risk, whale revenue concentration. Compare to bank path (KRE) for timing/catalyst clarity.
+
+---
+
 ## 🛠️ System Tasks
 
 ### Dashboard
@@ -73,4 +89,4 @@
 
 ---
 
-*Last updated: 2026-02-10*
+*Last updated: 2026-02-11*
