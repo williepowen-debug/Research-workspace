@@ -79,6 +79,57 @@ SSB represents a **contrarian macro bet** on regional bank stress transmission t
 - Unlike Austin supply glut (will burn off), FL insurance is STRUCTURAL
 - 24% of portfolio facing non-cyclical expense-side destruction
 
+---
+
+## 🆕 RP-TEX-5 Findings: The 9.36% Is 100% Texas (Feb 11, 2026)
+
+**CRITICAL UPDATE:** Deep research confirms the 9.36% MF substandard figure is **entirely from the IBTX Texas portfolio** — NOT Florida.
+
+### IBTX Portfolio MSA Breakdown
+
+| Region | Primary MSAs | Est. Loans | % of Book | MF Risk |
+|--------|--------------|------------|-----------|---------|
+| North Texas | Dallas-Fort Worth | $6.86B | 47% | 🟠 MODERATE |
+| Colorado | Denver, Springs | $3.50B | 24% | 🟡 LOW-MOD |
+| Houston | Houston, Woodlands | $2.34B | 16% | 🟢 LOW |
+| **Central Texas** | **Austin, San Antonio** | **$1.9B** | **13%** | **🔴 HIGH** |
+
+**Key insight:** Austin is only 13% of IBTX book but generates disproportionate stress — IBTX's Austin entry was aggressive construction lending during 2021-22 boom.
+
+### The Three Firewalls (Complicating Our Thesis)
+
+1. **PCD Shield:** SSB marked **$2.8-3.1B** as "Purchased Credit Deteriorated" at acquisition. Losses are pre-provisioned and won't hit 2026 P&L.
+
+2. **52% LTV:** Sponsors have 48% equity at risk. SSB only loses principal if values drop >48% — historically rare even in severe recession.
+
+3. **99% Current:** Despite DSCR <1.0x, sponsors are paying out of pocket to protect equity stakes.
+
+### What Breaks the Firewalls
+
+- **Sponsor liquidity exhaustion** (from employment shock, other portfolio failures)
+- **Lease-up taking >18-24 month "digestion period"**
+- **Rate cuts not coming** to relieve floating rate pressure
+
+### The KEY Metric: Non-Accrual Migration
+
+| Metric | Current | Warning Level |
+|--------|---------|---------------|
+| Substandard | 9.36% | Already elevated |
+| Non-Accrual | **0.02%** | Watch for >1-2% |
+
+**If Non-Accrual spikes** → sponsors tapped out → foreclosure cycle → thesis plays out.
+**If Non-Accrual stays <0.5%** → "Support and Survive" is working → thesis delayed.
+
+### Thesis Refinement
+
+The 9.36% substandard is **Texas MF, not Florida MF**. The SSB thesis now has TWO legs:
+1. **Texas MF** (9.36% substandard) — "Support and Survive" depends on sponsor liquidity
+2. **Florida CRE** (insurance/condo crisis) — structural, not visible in current MF metrics
+
+The COMBINED 42% Sunbelt exposure (FL 23% + TX 19%) means both legs can fire simultaneously under macro stress.
+
+**Source:** `TEX/sources/TEX_SSB_Texas_Portfolio_Analysis_2026-02-11.md`
+
 ### 3. Vintage Risk is Concentrated
 
 **2021-2023 Originations = "Broken" Vintage**
@@ -191,10 +242,11 @@ SSB's defensive profile (low beta, institutional ownership) means:
 
 1. **Fed cuts rates** → DSCRs improve, substandard migrates to pass
 2. **Sponsor liquidity holds** → "Support and Survive" works for 12+ more months
-3. **IBTX purchase accounting** → $310M discount buffer absorbs TX losses
+3. **IBTX purchase accounting** → **$2.8-3.1B PCD mark** absorbs TX losses (larger than we thought)
 4. **Institutional dip-buying** → 90% ownership creates price floor
 5. **Quality rotation** → SSB outperforms in any "flight to quality"
 6. **Time decay** → June expiry may be too early if thesis takes longer
+7. **Austin recovery** → Consensus 18-24 month digestion, overlaps our June expiry
 
 ### Position Sizing Rationale
 - $373 = ~17% of total portfolio risk (~$2,230)
