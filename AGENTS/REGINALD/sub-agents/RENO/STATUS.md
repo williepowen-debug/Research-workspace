@@ -2,7 +2,7 @@
 ## REGINALD Sub-Agent | Tourism, Housing & Water Canary
 
 **Last Updated:** 2026-02-11  
-**Signal Status:** 🟡 YELLOW — Research Phase, Building Thesis
+**Signal Status:** 🟠 ORANGE — Tourism Stress Confirmed, Housing Correcting, Water Managed
 
 ---
 
@@ -12,74 +12,108 @@ Track Nevada's converging stress channels and their transmission to regional ban
 
 ---
 
-## The Nevada Thesis (Preliminary)
+## The Nevada Thesis
 
-### Core Hypothesis: "The Desert Mirage"
+### Core Hypothesis: "The Desert Canary"
 
-Nevada's economy is built on three pillars, all currently under stress:
+Nevada's economy rests on three pillars, with stress levels now confirmed:
 
-1. **Tourism/Gaming** — 25%+ of state GDP, vulnerable to Canadian boycotts and discretionary spending cuts
-2. **Housing** — Boom/bust cycle more extreme than national averages, early indicator of consumer stress
-3. **Water** — Lake Mead at historic lows, structural growth constraint, municipal credit risk
+1. **Tourism/Gaming** 🔴 — Canadian boycott real (-25% arrivals), route suspensions, 18-year low in volume
+2. **Housing** 🟡 — Correction underway (5 months supply), NOT crash (equity buffers holding)
+3. **Water** 🟢 — Surprisingly resilient (SNWA AA+ rated, 2.2M AF banked, 11-year buffer)
 
-### Transmission Chain (Hypothesized)
+### Key Finding: "The Paradox"
 
-```
-Canadian Tourism Decline
-    → Vegas Strip revenue drop
-    → Gaming employment cuts
-    → Housing demand collapse
-    → Foreclosure surge
-    → Bank CRE/Resi losses
-    
-Water Crisis Escalation
-    → Development moratoriums
-    → Municipal credit downgrades
-    → Property value impairment
-    → Bank muni/CRE exposure
-```
+**Gaming revenue hit record highs in 2025 ($8.9B Strip) despite -7.5% visitor decline.** This is NOT resilience—it's baccarat whale concentration. The mass-market leisure base (Canadian + domestic drive-in) is eroding. When high-roller variance normalizes, the structural weakness becomes visible.
 
 ---
 
-## Key Metrics Dashboard (TO BUILD)
+## Key Metrics Dashboard
 
-### Tourism Channel
-
-| Metric | Current Value | Threshold | Status |
-|--------|---------------|-----------|--------|
-| Canadian Visitor Count | ❓ TBD | YoY decline >10% | ❓ |
-| Vegas Strip RevPAR | ❓ TBD | YoY decline >5% | ❓ |
-| Gaming Revenue (Monthly) | ❓ TBD | YoY decline | ❓ |
-| McCarran/Harry Reid Arrivals | ❓ TBD | Canadian capacity cuts | ❓ |
-| Convention Bookings | ❓ TBD | Forward calendar | ❓ |
-
-### Housing Channel
+### Tourism Channel 🔴 RED
 
 | Metric | Current Value | Threshold | Status |
 |--------|---------------|-----------|--------|
-| Vegas Median Home Price | ❓ TBD | YoY change | ❓ |
-| Inventory (Months Supply) | ❓ TBD | >6 months = buyer's market | ❓ |
-| Days on Market | ❓ TBD | Trend | ❓ |
-| Foreclosure Rate | ❓ TBD | vs national | ❓ |
-| Mortgage Delinquency (NV) | ❓ TBD | 90+ DPD | ❓ |
-| Price-to-Income Ratio | ❓ TBD | Affordability stress | ❓ |
+| Canadian Visitor YoY | **-25%** | >10% decline | 🔴 |
+| Total Visitors (2025) | **38.5M** | 18-year low | 🔴 |
+| Vegas Strip RevPAR | **$147.30** | -8.8% YoY | 🟠 |
+| Hotel Occupancy | **80.3%** | -3.3 pts YoY | 🟠 |
+| WestJet Capacity Cut | **-32%** | Route suspensions | 🔴 |
+| Days on Market | **85 days** | +26 days YoY | 🟡 |
 
-### Water/Climate Channel
+**Canadian Tourism Impact (2024 baseline → 2025 collapse):**
+- 2024: 1.42M Canadian visitors (~28% of international arrivals)
+- 2025: ~1.1M visitors (-25% decline, ~320K visitors lost)
+- Direct economic impact: ~$2.5B annually, 25,000+ jobs
+- Average Canadian trip spend: ~$1,700 (higher than domestic)
+
+**WestJet Summer 2026 Actions:**
+- Toronto-Las Vegas: **SUSPENDED**
+- Winnipeg-Las Vegas: **SUSPENDED**  
+- Overall US capacity: **-32%** ASMs
+- Air Canada maintaining reduced service
+
+**Sentiment Data:**
+- 82% of Canadians canceled/modified US travel plans
+- 80% express "fear rather than hope" about bilateral relationship
+- Two-thirds reducing American product purchases
+
+### Housing Channel 🟡 YELLOW
 
 | Metric | Current Value | Threshold | Status |
 |--------|---------------|-----------|--------|
-| Lake Mead Level | ❓ TBD | <1,000 ft = Tier 2 shortage | ❓ |
-| Colorado River Allocation | ❓ TBD | NV share cuts | ❓ |
-| Development Moratoriums | ❓ TBD | Any new restrictions | ❓ |
-| SNWA Conservation Mandates | ❓ TBD | Escalation | ❓ |
-| Municipal Credit Ratings | ❓ TBD | Watch/Negative outlooks | ❓ |
+| Median SFR Price | **$470,000** | -3.1% YoY | 🟡 |
+| Median Condo Price | **$283,750** | -3.2% YoY | 🟡 |
+| Months of Supply | **5.0** | >6 = buyer's | 🟡 |
+| Days on Market | **85** | +44% YoY | 🟠 |
+| Sale-to-List Ratio | **97.2%** | Negotiating room | 🟡 |
+| Total Sales (Jan 2026) | **1,825** | -8.2% YoY | 🟠 |
+| Foreclosure Rate | **1:248** | Top 5 nationally | 🟠 |
+| Cash Sales | **26%** | Investor floor | 🟢 |
+| Mortgage Delinquency | **4.5%** (30+ DPD) | +0.2 pts YoY | 🟡 |
 
-### Employment Channel
+**Critical Context: Why No 2008 Repeat (Yet)**
+
+| Factor | 2006-2007 | 2025-2026 |
+|--------|-----------|-----------|
+| Lending Standards | Subprime, No-Doc | Dodd-Frank, ATR |
+| Homeowner Equity | Minimal/Negative | **Historically High** |
+| Rate Type | High ARM share | 30-year fixed dominant |
+| Supply Source | Builder oversupply | Resale scarcity |
+| Investor Profile | Short-term specs | Long-term landlords |
+
+**Bottom line:** Housing is correcting via volume collapse (18-year low), not price crash. Equity buffers and locked-in <4% mortgages prevent forced selling. Risk is prolonged stagnation, not 2008.
+
+### Water/Climate Channel 🟢 GREEN (Managed Risk)
+
+| Metric | Current Value | Threshold | Status |
+|--------|---------------|-----------|--------|
+| Lake Mead Level | **1,065.82 ft** | <1,050 = Tier 2 | 🟡 |
+| Deficit from Full Pool | **-163 ft** | Structural | 🟠 |
+| Live Storage Capacity | **~31%** | Historic low | 🟠 |
+| NV Allocation Cut (Tier 1) | **-21,000 AF** | 7% reduction | 🟡 |
+| Actual Consumption | **212,000 AF** | Well below cap | 🟢 |
+| SNWA Banked Reserves | **2.2M AF** | **11+ years buffer** | 🟢 |
+| SNWA Credit Rating | **AA+ (S&P)** | Stable outlook | 🟢 |
+| LVVWD Rating | **Aa1 (Moody's)** | Stable | 🟢 |
+
+**Why Water Isn't The Near-Term Risk:**
+1. Return-flow credits: NV reuses 99% of indoor water → can withdraw more than base allocation
+2. Banked reserves: 2.2M AF = 11x annual consumption
+3. Conservation success: 212K AF actual vs 270K AF even in Tier 3 scenario
+4. Infrastructure: Intake No. 3 can pump to 875 ft (below 895 ft dead pool)
+
+**Long-term Risk (2027-2030):**
+- Tier 2/3 shortage possible if below-average runoff
+- Post-2026 compact negotiations at impasse
+- 4% tail risk of 10 MAF flows → system collapse scenario
+
+### Employment Channel 🟡 YELLOW (Data Gap)
 
 | Metric | Current Value | Threshold | Status |
 |--------|---------------|-----------|--------|
 | NV Unemployment Rate | ❓ TBD | vs national gap | ❓ |
-| Gaming Employment | ❓ TBD | YoY change | ❓ |
+| Gaming Employment | **Pressure expected** | Canadian decline | 🟡 |
 | Construction Employment | ❓ TBD | Leading indicator | ❓ |
 | Initial Claims (NV) | ❓ TBD | Trend | ❓ |
 
@@ -95,130 +129,111 @@ WAL is already on REGINALD watchlist (convergence score 8) for:
 - Fund finance exposure
 - FHLB dependency (5.63%)
 
-**Nevada adds another channel:**
+**Nevada-specific exposure (Bank of Nevada subsidiary):**
 
 | Metric | Value | Context |
 |--------|-------|---------|
-| Bank of Nevada (subsidiary) | ❓ TBD | Vegas commercial/CRE |
-| NV Loan Concentration | ❓ TBD | % of total portfolio |
-| NV CRE Exposure | ❓ TBD | Strip-adjacent, hospitality |
-| NV Resi Exposure | ❓ TBD | Consumer mortgage book |
+| Bank of Nevada | Subsidiary | Vegas commercial/CRE focus |
+| NV Loan Concentration | ❓ TBD | % of total portfolio needed |
+| Hospitality CRE | High exposure likely | Strip-adjacent lending |
+| Tourism correlation | **Elevated risk** | Canadian decline → borrower stress |
 
-**Other NV-Exposed Banks:**
+### Zions (Nevada State Bank)
 
-| Bank | Ticker | NV Presence | Notes |
-|------|--------|-------------|-------|
-| Western Alliance | WAL | Bank of Nevada subsidiary | Primary target |
-| First Interstate | FIBK | NV operations | Montana HQ, regional |
-| Glacier Bancorp | GBCI | Nevada division | Pacific Northwest focus |
-| Zions (Nevada State Bank) | ZION | NSB subsidiary | Already on watchlist |
-
----
-
-## Geographic Focus
-
-### Las Vegas Metro (Primary)
-- Population: ~2.3M (70% of state)
-- Strip-dependent economy
-- Housing boom/bust epicenter
-- Water allocation priority
-
-### Reno-Sparks (Secondary)
-- Population: ~500K
-- Tech/logistics growth (Tesla Gigafactory)
-- Less tourism-dependent
-- Different water basin (Truckee River)
-
-### Rural Nevada
-- Mining communities
-- Extreme water stress
-- Minimal bank exposure
+| Metric | Value | Context |
+|--------|-------|---------|
+| Nevada State Bank | Subsidiary | Consumer/small business |
+| Already on REGINALD | ORANGE tier | CRE concentration concerns |
+| NV-specific risk | Tourism employment | Gaming sector borrowers |
 
 ---
 
-## Historical Context: 2008 Lessons
+## Scenario Assessment (Updated)
 
-Nevada was the worst-hit state in the GFC:
+### Scenario A: Tourism Shock — MATERIALIZING 🔴
+- Canadian boycott confirmed (-25%)
+- WestJet capacity cuts locked in
+- Convention calendar remains strong (buffer)
+- **Status:** In progress, watch Q1-Q2 2026 strip revenue
 
-| Metric | 2008-2012 Peak-to-Trough | National |
-|--------|--------------------------|----------|
-| Home Price Decline | **-62%** | -33% |
-| Foreclosure Rate | **#1 in nation** for 5 years | — |
-| Unemployment Peak | **14.9%** | 10.0% |
-| Gaming Revenue Drop | -17% | — |
-| Population Growth | Reversed (net outmigration) | — |
+### Scenario B: Housing Correction — UNDERWAY 🟡
+- Volume collapse (18-year low)
+- Prices softening (-3%)
+- Inventory building (5 months)
+- **Status:** Correction not crash, equity buffers holding
 
-**Key lesson:** Nevada leads into stress and leads out. Early warning signals here preceded national recognition by 6-12 months in 2007.
+### Scenario C: Water Crisis — MANAGED 🟢
+- SNWA reserves provide buffer
+- Municipal credits stable
+- Post-2026 compact key risk
+- **Status:** Not near-term catalyst
+
+### Scenario D: Convergence — WATCH 🟠
+- Requires recession + all channels correlating
+- Housing equity prevents 2008 feedback loop
+- Tourism stress alone insufficient for bank contagion
+- **Trigger needed:** Employment shock
+
+---
+
+## Key Findings Summary
+
+### Bullish Surprises
+1. **Water management exceptional** — SNWA 2.2M AF reserves, AA+ rating
+2. **Homeowner equity high** — No forced selling wave
+3. **Cash buyers provide floor** — 26% of sales
+4. **Builder incentives absorbing stress** — Rate buydowns to 3.875%
+
+### Bearish Confirmations
+1. **Canadian boycott real and deepening** — 25% decline, route cuts permanent
+2. **Gaming revenue paradox** — Whale concentration masks mass-market erosion
+3. **18-year sales low** — Volume collapse, market frozen
+4. **Foreclosure rate elevated** — 1:248, top 5 nationally
+
+### Transmission to Banks (Hypothesized)
+```
+Canadian Tourism -25%
+    → Strip RevPAR -8.8%
+    → Hospitality employment pressure (lag 2-3 quarters)
+    → Gaming sector borrower stress
+    → WAL/ZION Nevada exposure at risk
+    → TIMING: H2 2026 if recession
+```
 
 ---
 
 ## Research Status
 
-### Completed
-- [ ] Initial thesis scaffolding
-
-### In Progress
-- [ ] Research prompts created (see `research/RENO_RESEARCH_PROMPTS.md`)
+### Completed ✅
+- [x] RP-RENO-1: Canadian Tourism Impact
+- [x] RP-RENO-4: Nevada Housing Deep Dive  
+- [x] RP-RENO-5: Lake Mead / Water Crisis
 
 ### Pending
-- [ ] RP-RENO-1: Canadian Tourism Impact
-- [ ] RP-RENO-2: Nevada Housing Deep Dive
-- [ ] RP-RENO-3: Lake Mead / Water Crisis
-- [ ] RP-RENO-4: WAL Nevada Exposure
-- [ ] RP-RENO-5: Gaming Industry Health
-- [ ] RP-RENO-6: Nevada Municipal Credit
+- [ ] RP-RENO-3: WAL Nevada Exposure (need 10-K detail)
+- [ ] RP-RENO-2: Gaming Industry Health (MGM, CZR earnings)
+- [ ] RP-RENO-6: Nevada Municipal Credit (detailed)
 - [ ] RP-RENO-7: Employment Leading Indicators
 
 ---
 
-## Stress Scenarios
+## Sources Archive
 
-### Scenario A: Tourism Shock (Near-Term)
-- Canadian boycott intensifies
-- Convention cancellations
-- Strip revenue -10-15%
-- Gaming employment cuts
-- **Timeline:** Q1-Q2 2026
-
-### Scenario B: Housing Correction (Medium-Term)
-- Rate shock hits affordability
-- Inventory surge
-- Price declines begin
-- Foreclosure uptick
-- **Timeline:** Q3 2026 - Q1 2027
-
-### Scenario C: Water Crisis Escalation (Structural)
-- Lake Mead hits Tier 2/3 shortage
-- Development moratoriums
-- Municipal downgrades
-- Long-term growth cap
-- **Timeline:** 2026-2028
-
-### Scenario D: Convergence (Bear Case)
-- All three channels correlate
-- 2008-style feedback loop
-- Nevada leads national downturn
-- **Trigger:** Recession + Canadian pullback + drought
-
----
-
-## Open Questions
-
-1. **Canadian exposure quantification:** What % of Vegas visitors are Canadian? What's the $ impact per visitor?
-2. **WAL Nevada concentration:** How much of WAL's book is Nevada-specific?
-3. **Water timeline:** When does Lake Mead hit critical thresholds?
-4. **Housing leading indicators:** What metrics led in 2006-2007?
-5. **Gaming company health:** Are Strip operators (MGM, CZR, LVS) showing stress?
+| Document | Date | Coverage |
+|----------|------|----------|
+| `RENO_Canadian_Tourism_Impact_2026-02-11.md` | 2026-02-11 | Tourism economics, boycott data |
+| `RENO_Housing_Market_Analysis_2026-02-11.md` | 2026-02-11 | Housing metrics, 2008 comparison |
+| `RENO_Water_Crisis_Lake_Mead_2026-02-11.md` | 2026-02-11 | Water, municipal credit |
 
 ---
 
 ## Feeds To
 
-- **REGINALD** — Bank exposure (WAL, ZION Nevada State Bank)
-- **CARL** — Consumer stress signals from NV housing/employment
-- **MARCO** — Migration patterns (CA → NV flows)
-- **LABOR** — Gaming/hospitality employment
+- **REGINALD** — WAL/ZION Nevada exposure assessment
+- **CARL** — Consumer stress signals (housing affordability, cost burden)
+- **MARCO** — Migration patterns (CA → NV flows stalling?)
+- **LABOR** — Gaming/hospitality employment (watch for WARN filings)
 
 ---
 
-*RENO: Watching the desert canary*
+*RENO: The desert canary is singing—Canadian tourism collapsed, housing frozen, but water management buys time.*
