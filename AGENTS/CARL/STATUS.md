@@ -1,5 +1,5 @@
 # CARL STATUS
-**Last Updated:** 2026-02-10 | **Status:** 🔴 RED — CC Approaching GFC Peak, Auto at Historic Max
+**Last Updated:** 2026-02-11 | **Status:** 🔴 RED — CC Approaching GFC Peak, Auto at Historic Max
 
 > **Q4 2025 NY Fed Household Debt Report (Feb 10, 2026):** Credit card 90+ DQ at **12.70%** — only 1pp from GFC peak (13.74%). Auto 90+ DQ at **5.21%** — essentially at historical maximum. Florida foreclosures +190% YoY. This is not "stabilized" — it's accelerating into the danger zone.
 
@@ -29,7 +29,8 @@ Per REGINALD: Claims >300K or U-3 >5.0% → all ORANGE banks escalate simultaneo
 | Indicator | Value | Status | Implication |
 |-----------|-------|--------|-------------|
 | **CC Delinquency 90+** | **12.70%** | 🔴 | **92% of GFC peak (13.74%)** — Q4 2025 |
-| CC Delinquency 90+ (new) | 7.13% | 🔴 | New flow into 90+ accelerating |
+| CC Transition Rate (90+) | **7.1%** | 🔴 | 3rd highest since Q1 2011 |
+| CC Rise Since Q3 2022 | **+5.1 pp** | 🔴 | **LARGER than 2008-09 rise** — Kobeissi |
 | **Auto Delinquency 90+** | **5.21%** | 🔴 | **At historical max (5.27%)** — Q4 2025 |
 | Auto Delinquency 60+ (Monoline) | **16.6%** | 🔴 | Historic highs for non-bank lenders |
 | Negative Equity (Auto) | **52.9%** | 🔴 | Over half of borrowers "upside down" |
@@ -41,7 +42,15 @@ Per REGINALD: Claims >300K or U-3 >5.0% → all ORANGE banks escalate simultaneo
 | **FL 90+ Delinquency** | **4.10%** | 🔴 | +49% YoY (was 2.76%) |
 | **FL Foreclosures YoY** | **+190%** | 🔴 | Employment→housing accelerating |
 
-**Composite Assessment:** 🔴 **CRITICAL** — CC at 92% of GFC peak, auto at historical max. Visible delinquency no longer "moderate" — it's approaching crisis levels. Florida is the leading indicator.
+**Age Breakdown (transition into 90+ days):**
+- 18-29: **9.5%** (hardest hit)
+- 30-39: **8.6%**
+- 40-49: 8.1%
+- 50-59: 6.2%
+
+**Retail Sales (Dec 2025):** 0% MoM (vs +0.4% est), Control Group **-0.1%** (first decline in 3 months). Discretionary pulling back: Furniture -0.9%, Clothing -0.7%, Electronics -0.4%.
+
+**Composite Assessment:** 🔴 **CRITICAL** — CC at 92% of GFC peak, auto at historical max. The +5.1pp rise since Q3 2022 is **larger than the entire 2008-2009 increase**. Young Americans (18-39) transitioning into serious delinquency at crisis rates. Florida is the leading indicator.
 
 ---
 

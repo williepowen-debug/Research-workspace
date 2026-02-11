@@ -2,7 +2,7 @@
 
 *Working model, not truth. Track our predictions to calibrate confidence over time.*
 
-**Last updated:** 2026-02-10
+**Last updated:** 2026-02-11
 
 ## RECENTLY RESOLVED
 
@@ -104,6 +104,8 @@
 | 1 | RRP effectively at zero (<$5B) by Q2 | Q2 2026 | 80% | ⏳ Pending |
 | 2 | SOFR-IORB spread spikes >+10bps at quarter-end | Q1-Q2 2026 | 65% | ⏳ Pending |
 | 3 | SRF usage >$50B at least once | 2026 | 50% | ⏳ Pending |
+| 4 | 10Y auction BTC falls below 2.30x | Q2 2026 | 55% | ⏳ NEW — Feb 11 was 2.39 (close) |
+| 5 | Indirect bidder % declines to <62% sustained | Q2 2026 | 50% | ⏳ NEW — Feb 11 was 64.5% |
 
 ### MARCO (Border Cities & Migration)
 | # | Prediction | Timeframe | Confidence | Status |
