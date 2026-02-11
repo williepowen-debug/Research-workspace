@@ -183,7 +183,21 @@ Management pitches TX as diversification. It's actually Sunbelt correlation risk
 **Missing catalyst:**
 NCOs still 0.09%. Stress visible in classified loans but not yet charged off. Management bullish (buybacks, dividend raise). Need NCO spike or reserve build as entry trigger.
 
-**Research files:** `sources/SSB_Analysis_Q4_2025.md`
+**🚨 EARNINGS CALL CONFIRMATION (Jan 23, 2026):**
+
+Analyst asked about substandard increase. Management response:
+> "The increase was due to a **handful of multifamily properties that are in lease-up**. The credit team is not concerned... It's just a **timing issue**."
+
+- MF stress is ALREADY showing up in classified loans
+- Management dismissing it as "timing" and "tons of equity" (52% LTV)
+- TX/CO production +15% QoQ, 65% of new hires in TX/CO
+- Strategy: "We want them to continue doing exactly what they've been doing" (CRE)
+- Payout ratio 97% in Q4 — returning capital, not building reserves
+- NO analyst questions on FL condo/HOA, reserve adequacy, or consumer stress
+
+**Verdict:** Transcript CONFIRMS thesis. Position entered Feb 11 (2x $90P Jun 18 @ $1.86).
+
+**Research files:** `sources/SSB_Analysis_Q4_2025.md`, `sources/SSB_Q4_2025_Earnings_Call_Analysis.md`
 
 ### VLY Thesis Update
 
