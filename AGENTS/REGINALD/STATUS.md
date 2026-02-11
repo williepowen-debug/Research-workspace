@@ -1,5 +1,5 @@
 # REGINALD STATUS
-**Last Updated:** 2026-02-10 | **Status:** 🟠 ELEVATED — Convergence Thesis Active
+**Last Updated:** 2026-02-11 | **Status:** 🟠 ELEVATED — Convergence Thesis Active
 
 *Updated by Prome*
 
@@ -156,10 +156,10 @@ The FL thesis has grown into its own sub-agent. Key findings from RP-FL research
 
 | Bank | FL Concentration | Specific Exposure | Risk | Notes |
 |------|------------------|-------------------|------|-------|
-| **SBCF** | **~100%** | Pure FL play ($16B assets) | 🔴 CRITICAL | **Highest FL concentration in KRE** — no diversification hedge |
+| **SBCF** | **~100%** | Pure FL ($16B) | 🟢 SKIP | Fortress (14.4% CET1), M&A target, counter-cyclical strategy |
 | **CNB** | ~100% | Pure FL | 🟠 HIGH | Small, less liquid |
-| **BKU** | ~47% | Miami commercial | 🟠 HIGH | Heavy SE FL concentration |
-| **SSB** | ~36% | SE regional | 🟠 ELEVATED | Diversified across SE |
+| **BKU** | ~47% | Miami commercial | 🟢 SKIP | Well-managed (12.3% CET1), credit improving |
+| **SSB** | ~36% + TX | **$17.9B CRE (37%)** | 🟠 **WATCH** | **Lowest capital (11.4%), HOA/condo direct, TX = correlation risk** |
 | **VLY** | **27%** | $14B of $51B loans | 🟡 MODERATE | **NJ/NY is primary market** — FL is secondary exposure |
 | **ABCB** | ~22% | SE regional | 🟡 MODERATE | Diversified, FL not dominant |
 | **HOMB** | 28% | $4.15B | 🟢 PREPARED | **$33M hurricane reserve** — proactive management |
@@ -207,9 +207,9 @@ The FL thesis has grown into its own sub-agent. Key findings from RP-FL research
 
 | Ticker | Bank | Rating | Region | Trade Expression |
 |--------|------|--------|--------|------------------|
-| **SBCF** | Seacoast Banking | 🔴 RED | FL ~100% | **Pure FL play** — most concentrated FL exposure in KRE |
-| **BKU** | BankUnited | 🟠 ORANGE | FL ~47% | Miami commercial, second-highest FL concentration |
-| **SSB** | SouthState | 🟠 ORANGE | FL ~36% | SE regional with significant FL book |
+| **SBCF** | Seacoast Banking | 🟢 SKIP | FL ~100% | Fortress balance sheet (14.4% CET1), M&A target risk |
+| **BKU** | BankUnited | 🟢 SKIP | FL ~47% | Well-managed (12.3% CET1, credit improving) |
+| **SSB** | SouthState | 🟠 **WATCH** | FL ~36% + TX | **Lowest capital (11.4%), CRE 37%, HOA/condo direct, TX correlation** |
 | **IBOC** | Int'l Bancshares | 🟠 ORANGE | TX Border | MARCO thesis (only publicly traded option) |
 
 ### Tier 4: Defensive/De-Risked

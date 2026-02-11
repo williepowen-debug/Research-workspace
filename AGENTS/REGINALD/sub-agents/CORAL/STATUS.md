@@ -1,7 +1,7 @@
 # CORAL — Florida Real Estate Stress Monitor
 ## REGINALD Sub-Agent | Condo Crisis & Regional Bank Exposure
 
-**Last Updated:** 2026-02-05  
+**Last Updated:** 2026-02-11  
 **Signal Status:** 🟠 ORANGE — Stress Accumulating, Catalyst Pending
 
 ---
@@ -118,14 +118,14 @@ FL Supreme Court (Oct 2025) upheld 100% owner consent for termination. This **fr
 3. No M&A speculation providing floor
 4. Management transparency allows tracking
 
-### FL Bank Concentration Rankings (Feb 2026 Research)
+### FL Bank Concentration Rankings (Updated Feb 11, 2026)
 
 | Rank | Bank | FL Concentration | Rating | Notes |
 |------|------|------------------|--------|-------|
-| 1 | **SBCF (Seacoast)** | ~100% | ⚠️ SKIP | Well-managed, M&A target risk (see below) |
+| 1 | **SBCF (Seacoast)** | ~100% | ⚠️ SKIP | Fortress balance sheet, M&A target risk |
 | 2 | CNB Financial | ~100% | 🟡 | Small, less liquid |
-| 3 | **BKU (BankUnited)** | ~47% | 🟠 | Miami commercial heavy |
-| 4 | SSB (SouthState) | ~36% | 🟠 | SE regional, diversified |
+| 3 | **BKU (BankUnited)** | ~47% | ⚠️ SKIP | Well-managed (CET1 12.3%, credit improving) |
+| 4 | **SSB (SouthState)** | ~36% | 🟠 **WATCHLIST** | **Lowest capital (11.4%), HOA exposure, TX correlation** |
 | 5 | **VLY (Valley)** | 27% | 🟡 | **NYC/NJ is primary risk**, not FL |
 | 6 | ABCB (Ameris) | ~22% | 🟡 | Diversified, FL not dominant |
 
@@ -144,6 +144,46 @@ FL Supreme Court (Oct 2025) upheld 100% owner consent for termination. This **fr
 **Implication:** If FL cracks, SBCF may actually OUTPERFORM peers. They're the bank people run TO, not from.
 
 **Research files:** `domain/sources/SBCF_Research_Feb2026/`
+
+### ⚠️ BKU Research Conclusion (Feb 11, 2026)
+
+**Six deep-dive research documents analyzed. Verdict: NOT a short target.**
+
+**Why BKU is too strong:**
+1. **Strong capital** — CET1 12.3%, 580 bps buffer over minimums
+2. **CRE well-managed** — 185% of RBC, below regulatory threshold
+3. **Credit improving** — Criticized loans DOWN $185M, NIM expanding to 3.06%
+4. **HOA deposits only** — $2.1B deposits, no direct lending
+5. **Management executing** — De-risking visible in data
+
+### 🟠 SSB Research Conclusion (Feb 11, 2026)
+
+**Q4 2025 earnings analyzed. Verdict: WATCHLIST — most interesting FL candidate.**
+
+**Why SSB has cracks:**
+
+| Factor | SSB | vs BKU | vs SBCF |
+|--------|-----|--------|---------|
+| CET1 | **11.4%** | 12.3% | 14.4% |
+| CRE/RBC | **272-385%** | 185% | 216% |
+| HOA Exposure | **Direct (Assoc. Prime)** | Deposits only | Counter-cyclical |
+| Condo Exposure | **Portfolio Condo** | Limited | Limited |
+
+**Key metrics (Q4 2025):**
+- Investor CRE: $17.9B (**37% of loans**)
+- ACL/Loans: 1.20% (declining from 1.37% — releasing reserves into stress)
+- NCOs: 0.09% (stable — stress visible in classified, not yet charged off)
+- Nonaccruals: +44% YoY ($297M vs $207M)
+- NIM: 3.85% (compressing, down 20 bps QoQ)
+- IBTX merger: $17B absorbed Jan 2025 (TX correlation risk, not diversification)
+
+**TX exposure reframe:**
+Management pitches TX as diversification. It's actually Sunbelt correlation risk — Austin MF oversupply, same rate/insurance pressures. If thesis works, SSB gets hit on BOTH flanks.
+
+**Missing catalyst:**
+NCOs still 0.09%. Stress visible in classified loans but not yet charged off. Management bullish (buybacks, dividend raise). Need NCO spike or reserve build as entry trigger.
+
+**Research files:** `sources/SSB_Analysis_Q4_2025.md`
 
 ### VLY Thesis Update
 
