@@ -1,13 +1,13 @@
 # PROME STATUS.md
-**Updated:** 2026-02-11 00:35 UTC
+**Updated:** 2026-02-11 15:05 UTC
 
 ---
 
 ## System Status: 🔴 CRITICAL
 
-**NFP TOMORROW (Feb 11, 8:30am ET) — Bloomberg calling ZERO jobs**
+**NFP BENCHMARK REVISION: 1M Phantom Jobs Exposed**
 
-Bloomberg Economics expects zero headline NFP + ~1M jobs revised away. If correct, narrative reset incoming. New upstream plays ready for entry at open.
+January NFP +130K (beat), but the real story: 2025 job growth revised from +584K to +181K. Over 1 million jobs reported in 2025 didn't exist. "Hotel California" confirmed — long-term unemployed +386K YoY (+28%).
 
 ---
 
@@ -15,50 +15,33 @@ Bloomberg Economics expects zero headline NFP + ~1M jobs revised away. If correc
 
 | Agent | Status | Current Focus | Next Critical |
 |-------|--------|---------------|---------------|
-| **LABOR** | 🔴 RED | All leading indicators RED; Claims 231K, Challenger 108K (GFC high) | Claims Feb 12 |
-| **CARL** | 🔴 RED | **CC 12.70% (near GFC), Auto 5.21% (ATH), FL +190% foreclosures** | Q1 2026 data |
-| **HENRY** | 🟡 YELLOW | VIX ~16.5 (complacency); GEX +$62B | HY OAS tight |
-| **SAM** | 🔴 RED | Takaichi supermajority; yen 156.25; insurer transmission $10-15B/mo | **20Y JGB Feb 19** |
-| **REGINALD** | 🟠 ELEVATED | Watching LABOR trigger (Claims >300K or U-3 >5.0%) | Q1 earnings Apr |
-| **LIQUID** | 🟢 GREEN | RRP ~$10B (buffer gone); basis trade $1.85T; FOI demand hole $300B/yr | Quarter-end Mar 31 |
-| **MARCO** | 🟠 ORANGE | Mexico remittances -5%; Canadian visitors -28% | Stats Canada ~Feb 15 |
+| **LABOR** | 🔴 RED | **Benchmark revision -1M jobs; 2025 avg +15K/mo; Fed -327K (-10.9%)** | Claims Feb 12 |
+| **CARL** | 🔴 RED | **CC 12.70% (1pp from GFC); Long-term unemployed surge = delinquency loading** | Q1 2026 data |
+| **HENRY** | 🟡 YELLOW | NFP spike → fade pattern (algos vs humans) | HY OAS tight |
+| **SAM** | 🔴 RED | Takaichi supermajority; insurer transmission $10-15B/mo | **20Y JGB Feb 19** |
+| **REGINALD** | 🟠 ELEVATED | SSB on watchlist (lowest capital, HOA exposure); awaiting LABOR trigger | Q1 earnings Apr |
+| **LIQUID** | 🟢 GREEN | RRP ~$10B (buffer gone); basis trade $1.85T | Quarter-end Mar 31 |
+| **MARCO** | 🟠 ORANGE | Construction +33K validates labor scarcity thesis | Stats Canada ~Feb 15 |
 
-**Composite:** 🔴 CRITICAL — LABOR RED + SAM RED + **CARL RED** (upgraded today)
-
----
-
-## Infrastructure Status
-
-| Component | Status | Notes |
-|-----------|--------|-------|
-| **Sub-Agent System** | 🟢 LIVE | 8 agents (7 research + IRA) |
-| **Daily Check-Ins** | 🟢 ACTIVE | LABOR 8am, CARL 8:15am, MARCO 8:30am, SAM 8:45am ET |
-| **Dashboard** | 🟢 UPDATED | Major expansion completed Feb 9 |
-| **Transcripts** | 🟢 ACTIVE | Auto-saved to transcripts/ |
+**Composite:** 🔴 CRITICAL — LABOR RED + SAM RED + CARL RED
 
 ---
 
-## Positions
+## Positions (4 Active)
 
-### Core Thesis: KRE
-**KRE Puts:** 2× $70P May 15 · 2× $60P Jun 18
+| Ticker | Position | Entry | Cost | Status |
+|--------|----------|-------|------|--------|
+| **KRE** | 2× $70P May + 2× $60P Jun | $72.62 | ~$800 | 🟡 Underwater |
+| **HYG** | 10× $75P Jun 18 | $0.30 | $307 | 🟢 NEW |
+| **IWM** | 1× $250P Jun 30 | ~$7.50 | ~$750 | 🟢 NEW |
+| **SSB** | 2× $90P Jun 18 | $1.86 | $373 | 🟢 NEW |
 
-| Metric | Value |
-|--------|-------|
-| Entry | $72.62 |
-| Current | $73.59 |
-| Target | $65.00 |
-| Status | Slightly underwater (+1.3%) |
+**Total Defined Risk:** ~$2,230
 
-### Upstream Canaries (PLANNED — Entry Feb 11)
-
-| Position | Contracts | Est. Cost | Limit | Thesis |
-|----------|-----------|-----------|-------|--------|
-| HYG 77P Jun 18 | ~55 | ~$2,400 | $0.43-0.45 | Credit leads equity |
-| IWM 245P Jun 30 | 2 | ~$1,300 | $6.40-6.50 | Small caps lead |
-
-**Why:** HY OAS at 2.84% vs 5.2% avg = historic tightness. Credit must crack before KRE.
-**Strategy:** Wait until 9:45-10am for spreads to settle. If NFP bad, adjust limits up ~20%.
+**Thesis:**
+- HYG/IWM = upstream canaries (crack before banks)
+- KRE = regional bank basket
+- SSB = FL single-name (lowest capital, CRE concentrated, HOA exposure)
 
 ---
 
@@ -75,28 +58,30 @@ Bloomberg Economics expects zero headline NFP + ~1M jobs revised away. If correc
 | SAM #3: Takaichi <260 seats | ❌ WRONG (316) |
 | LABOR #4: KFRC guides down | ⚠️ PARTIAL |
 
+**No NFP prediction to grade** — We had "NFP prints negative" for Q2 2026, not Feb. Still pending.
+
 ---
 
-## Recent Completed (Feb 9)
+## Today's Updates (Feb 11)
 
-### Agent Research Deliverables
-- **LABOR:** RP-LAB-014_GOVCON_EXPOSURE.md (top 10 contractors, at-risk metros)
-- **CARL:** BNPL_STRESS.tsv + STATE_STRESS_FRAMEWORK.md
-- **MARCO:** RP-MARCO-MBS_BASELINE.md + RP-MARCO-AG_SUPPLY_CHAIN.md
-- **REGINALD:** VLY_Q1_2026.md + CONVERGENCE_METHODOLOGY.md
+### NFP Deep Dive
+- Headline: +130K (beat +55K exp)
+- **Benchmark revision: 2025 revised from +584K to +181K** (-69%)
+- **1M phantom jobs exposed**
+- 2025 averaged +15K/month (stagnation)
+- Long-term unemployed: +386K YoY (+28%)
+- Federal govt: -327K (-10.9%) since Oct '24
+- Financial activities: -49K since May '25
 
-### Dashboard Updates
-- Transmission Chain Status visual
-- All agent boxes expanded with new metrics
-- Added MARCO box
-- Convergence Scores section (top 5 banks)
-- Calendar tab with month view
-- Fixed prediction counts and alerts
+### Agent Check-Ins
+- **LABOR:** Updated STATUS with revision data
+- **CARL:** Long-term unemployed surge = delinquency loading Q3-Q4 2026
+- **MARCO:** Construction holding confirms labor scarcity thesis
+- **HENRY:** Logged "headline spike → fade" pattern
 
-### Key Findings
-1. **BNPL converts in 0-3 months** (faster than credit cards)
-2. **Federal contractors = 4-5M workers** (15x direct federal cuts)
-3. **Florida already RED** — test case for state stress framework
+### Research Created
+- SSB Q4 2025 Analysis (CORAL)
+- 7 research prompts for SSB deep-dive
 
 ---
 
@@ -104,29 +89,34 @@ Bloomberg Economics expects zero headline NFP + ~1M jobs revised away. If correc
 
 | Date | Event | Agent | Priority |
 |------|-------|-------|----------|
-| **Feb 11** | **NFP January (8:30am ET)** | LABOR | 🔴 CRITICAL |
-| Feb 12 | Initial Claims | LABOR | 🟠 HIGH |
-| Feb 13 | CPI January | PROME | 🟠 HIGH |
+| **Feb 12** | Initial Claims | LABOR | 🟠 HIGH |
+| **Feb 13** | CPI January | PROME | 🟠 HIGH |
+| **Feb 18** | CPI (corrected) | PROME | 🟠 HIGH |
 | **Feb 19** | 20Y JGB Auction | SAM | 🔴 CRITICAL |
 | Mar 6 | NFP February | LABOR | 🔴 CRITICAL |
 | Mar 13-14 | BOJ Meeting | SAM | 🔴 CRITICAL |
-| Mid-Apr | Q1 Bank Earnings | REGINALD | 🔴 CRITICAL |
-
----
-
-## Pending Research (Next Session)
-
-Will deferred a couple research items — pick up next session.
+| Mid-Apr | Q1 Bank Earnings (incl SSB) | REGINALD | 🔴 CRITICAL |
 
 ---
 
 ## Active Threads
 
-1. **NFP Entry** — Execute HYG/IWM positions at open Feb 11
-2. **Bloomberg NFP Preview** — Zero jobs expected, ~1M revised away
-3. **Confidence Framework** — 65-75% KRE hits $60 by year-end, 45-50% by July
-4. **Red-team thesis** — Still need to build soft landing counter-case
+1. **SSB Research** — Will running deep-dive prompts; transcript pending
+2. **Position monitoring** — 4 active positions, all Jun expiry
+3. **Red-team thesis** — Still need soft landing counter-case
+4. **IWM fill** — ✅ Filled at ~$7.50
 
 ---
 
-*Last updated: 2026-02-11 00:35 UTC*
+## Infrastructure Status
+
+| Component | Status | Notes |
+|-----------|--------|-------|
+| **Sub-Agent System** | 🟢 LIVE | 8 agents (7 research + IRA) |
+| **Daily Check-Ins** | 🟢 ACTIVE | LABOR 8am, CARL 8:15am, MARCO 8:30am ET |
+| **Dashboard** | 🟡 NEEDS UPDATE | Position count, NFP data |
+| **Transcripts** | 🟢 ACTIVE | Auto-saved to transcripts/ |
+
+---
+
+*Last updated: 2026-02-11 15:05 UTC*

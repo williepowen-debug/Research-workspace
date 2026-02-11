@@ -972,11 +972,11 @@
                     <div style="flex: 1; min-width: 280px;">
                         <div style="font-size: 11px; text-transform: uppercase; letter-spacing: 1px; color: var(--text-muted); margin-bottom: 8px;">Thesis Status</div>
                         <div style="font-size: 20px; font-weight: 600; color: var(--text-primary); line-height: 1.4; margin-bottom: 12px;">
-                            Consumer stress at <span style="color: var(--red);">92% of GFC peak</span>.<br>
-                            Employment trigger not yet fired.
+                            <span style="color: var(--red);">1M phantom jobs</span> exposed in revision.<br>
+                            2025 was stagnation (+15K/mo), not growth.
                         </div>
                         <div style="font-size: 14px; color: var(--text-secondary);">
-                            Position: <span style="color: var(--yellow);">Waiting for catalyst</span> — KRE needs -9% by May expiry
+                            Position: <span style="color: var(--green);">4 active</span> — KRE, HYG, IWM, SSB puts loaded
                         </div>
                     </div>
                     <div style="background: var(--bg-tertiary); border-radius: 8px; padding: 12px 16px; min-width: 200px;">
@@ -1017,46 +1017,80 @@
                 </div>
             </div>
             
-            <!-- 3. POSITION CARD WITH DAYS TO EXPIRY -->
-            <div class="position-card" style="margin-bottom: 20px;">
-                <div class="position-header">
-                    <div>
-                        <div class="position-title">Active Position</div>
-                        <div class="position-ticker">KRE Puts</div>
-                        <div class="position-type">2× $70P May 15 · 2× $60P Jun 18</div>
-                    </div>
-                    <div class="position-pnl">
-                        <div class="position-pnl-label">Max Risk</div>
-                        <div class="position-pnl-value" style="color: var(--text-secondary);">~$800-900</div>
-                    </div>
+            <!-- 3. POSITIONS GRID (4 Active) -->
+            <div style="margin-bottom: 20px;">
+                <div style="font-size: 12px; color: var(--text-muted); margin-bottom: 12px; display: flex; justify-content: space-between;">
+                    <span>ACTIVE POSITIONS (4)</span>
+                    <span>Total Risk: ~$2,230</span>
                 </div>
-                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 12px; margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--border);">
-                    <div style="text-align: center;">
-                        <div style="font-size: 11px; color: var(--text-muted); margin-bottom: 4px;">May $70 Put</div>
-                        <div style="font-size: 18px; font-weight: 600; color: var(--orange);" id="may-expiry-days">94</div>
-                        <div style="font-size: 10px; color: var(--text-muted);">days left</div>
-                        <div style="font-size: 11px; color: var(--text-secondary); margin-top: 4px;">Break-even: ~$67</div>
+                <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px;">
+                    <!-- KRE -->
+                    <div class="position-card" style="margin: 0;">
+                        <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+                            <div>
+                                <div class="position-ticker">KRE</div>
+                                <div style="font-size: 11px; color: var(--text-muted);">2× $70P May · 2× $60P Jun</div>
+                            </div>
+                            <div style="text-align: right;">
+                                <div style="font-size: 11px; color: var(--text-muted);">Risk</div>
+                                <div style="font-size: 14px; font-weight: 600;">~$800</div>
+                            </div>
+                        </div>
+                        <div style="margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--border); display: flex; justify-content: space-between;">
+                            <div><span style="color: var(--text-muted);">Entry:</span> $72.62</div>
+                            <div><span style="color: var(--text-muted);">Target:</span> <span style="color: var(--green);">$65</span></div>
+                        </div>
                     </div>
-                    <div style="text-align: center;">
-                        <div style="font-size: 11px; color: var(--text-muted); margin-bottom: 4px;">Jun $60 Put</div>
-                        <div style="font-size: 18px; font-weight: 600; color: var(--green);" id="jun-expiry-days">128</div>
-                        <div style="font-size: 10px; color: var(--text-muted);">days left</div>
-                        <div style="font-size: 11px; color: var(--text-secondary); margin-top: 4px;">Break-even: ~$58</div>
+                    <!-- HYG -->
+                    <div class="position-card" style="margin: 0; border-color: var(--green);">
+                        <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+                            <div>
+                                <div class="position-ticker">HYG <span style="font-size: 10px; color: var(--green);">NEW</span></div>
+                                <div style="font-size: 11px; color: var(--text-muted);">10× $75P Jun 18</div>
+                            </div>
+                            <div style="text-align: right;">
+                                <div style="font-size: 11px; color: var(--text-muted);">Risk</div>
+                                <div style="font-size: 14px; font-weight: 600;">$307</div>
+                            </div>
+                        </div>
+                        <div style="margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--border); display: flex; justify-content: space-between;">
+                            <div><span style="color: var(--text-muted);">Entry:</span> $0.30</div>
+                            <div><span style="color: var(--text-muted);">Thesis:</span> Credit canary</div>
+                        </div>
                     </div>
-                    <div style="text-align: center;">
-                        <div style="font-size: 11px; color: var(--text-muted); margin-bottom: 4px;">Entry</div>
-                        <div style="font-size: 18px; font-weight: 600; color: var(--text-primary);">$72.62</div>
-                        <div style="font-size: 10px; color: var(--text-muted);">Feb 4</div>
+                    <!-- IWM -->
+                    <div class="position-card" style="margin: 0; border-color: var(--green);">
+                        <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+                            <div>
+                                <div class="position-ticker">IWM <span style="font-size: 10px; color: var(--green);">NEW</span></div>
+                                <div style="font-size: 11px; color: var(--text-muted);">1× $250P Jun 30</div>
+                            </div>
+                            <div style="text-align: right;">
+                                <div style="font-size: 11px; color: var(--text-muted);">Risk</div>
+                                <div style="font-size: 14px; font-weight: 600;">~$750</div>
+                            </div>
+                        </div>
+                        <div style="margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--border); display: flex; justify-content: space-between;">
+                            <div><span style="color: var(--text-muted);">Entry:</span> ~$7.50</div>
+                            <div><span style="color: var(--text-muted);">Thesis:</span> Small cap stress</div>
+                        </div>
                     </div>
-                    <div style="text-align: center;">
-                        <div style="font-size: 11px; color: var(--text-muted); margin-bottom: 4px;">Current</div>
-                        <div style="font-size: 18px; font-weight: 600; color: var(--red);">$73.59</div>
-                        <div style="font-size: 10px; color: var(--red);">+1.3%</div>
-                    </div>
-                    <div style="text-align: center;">
-                        <div style="font-size: 11px; color: var(--text-muted); margin-bottom: 4px;">Target</div>
-                        <div style="font-size: 18px; font-weight: 600; color: var(--green);">$65.00</div>
-                        <div style="font-size: 10px; color: var(--green);">-11.7%</div>
+                    <!-- SSB -->
+                    <div class="position-card" style="margin: 0; border-color: var(--green);">
+                        <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+                            <div>
+                                <div class="position-ticker">SSB <span style="font-size: 10px; color: var(--green);">NEW</span></div>
+                                <div style="font-size: 11px; color: var(--text-muted);">2× $90P Jun 18</div>
+                            </div>
+                            <div style="text-align: right;">
+                                <div style="font-size: 11px; color: var(--text-muted);">Risk</div>
+                                <div style="font-size: 14px; font-weight: 600;">$373</div>
+                            </div>
+                        </div>
+                        <div style="margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--border); display: flex; justify-content: space-between;">
+                            <div><span style="color: var(--text-muted);">Entry:</span> $1.86</div>
+                            <div><span style="color: var(--text-muted);">Thesis:</span> FL bank</div>
+                        </div>
                     </div>
                 </div>
             </div>
