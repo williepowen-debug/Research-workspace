@@ -1,5 +1,5 @@
 # LIQUID STATUS
-**Last Updated:** 2026-02-10 16:50 UTC | **Status:** 🟠 ELEVATED — Double Buffer Gone (Domestic + Foreign)
+**Last Updated:** 2026-02-11 19:22 UTC | **Status:** 🟠 ELEVATED — Double Buffer Gone (Domestic + Foreign)
 
 ---
 
@@ -42,7 +42,8 @@ The system now operates in a **dual-fragility regime**:
 | Dealer Net Position | ~$200B | 🟠 ORANGE | >$200B clogged |
 | Basis Trade Exposure | $1.85T | 🟡 YELLOW | >$2.0T orange |
 | Treasury FTD | $42.4B | 🟡 YELLOW | >$50B orange |
-| Auction BTC | 2.45-2.86x | 🟢 GREEN | <2.30x orange |
+| Auction BTC (10Y, Feb 11) | **2.39x** | 🟡 YELLOW | <2.30x orange — down from 2.55 |
+| Auction Indirects (10Y) | **64.5%** | 🟡 YELLOW | Down from 69.6% — foreign softening? |
 | Reserve Balances | **$2.937T** | 🟡 YELLOW | Down $296B YoY |
 | CLO AAA Spread | 115bps | 🟢 GREEN | >150bps trigger |
 
