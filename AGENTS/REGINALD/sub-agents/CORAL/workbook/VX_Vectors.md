@@ -108,15 +108,38 @@
 *Source: VLY earnings, 10-Q/K*
 *Last Updated: 2026-02-05*
 
-### Other FL-Exposed Banks
+### FL-Exposed Banks (Feb 2026 Research Update)
 
-| Bank | FL Exposure | Key Metric | Status |
-|------|-------------|------------|--------|
-| SBCF (Seacoast) | ~100% FL | Pure play | 🟠 |
-| BKU (BankUnited) | Heavy FL | TBD | 🟡 |
-| Popular Bank | $5B+ HOA lending | Association specialist | 🟡 |
+| Bank | FL Concentration | Key Metrics | Verdict | Status |
+|------|------------------|-------------|---------|--------|
+| **SBCF (Seacoast)** | ~100% FL | Tier 1: 14.4%, CRE: 216%, Top 10 deps: 3% | ⚠️ **SKIP** (M&A target, fortress) | 🟢 |
+| CNB Financial | ~100% FL | Small, less liquid | 🟡 Watch | 🟡 |
+| **BKU (BankUnited)** | ~47% FL | Miami commercial heavy | Potential target | 🟠 |
+| SSB (SouthState) | ~36% FL | SE regional, diversified | — | 🟡 |
+| **VLY (Valley)** | 27% FL | NJ/NY primary risk, not FL | Multi-channel, not FL play | 🟡 |
+| ABCB (Ameris) | ~22% FL | Diversified | — | 🟡 |
+| Popular Bank | $5B+ HOA lending | Association specialist | — | 🟡 |
 
-*Need to populate with earnings data*
+### SBCF Deep Dive Metrics (Q4 2025)
+
+| Metric | Value | Context | Implication |
+|--------|-------|---------|-------------|
+| Tier 1 Capital | **14.4%** | 640 bps above min | Fortress |
+| TCE/TA | **9.3%** | Strong | Loss absorption |
+| CRE / RBC | **216%** | vs 300% threshold | 84 pts headroom |
+| CLD / RBC | **32%** | vs 100% threshold | Very conservative |
+| ACL | **1.42%** | + $150M purchase discount | 2.61% total loss absorption |
+| Avg Loan Size | **$435K** | Granular | No concentration |
+| NCOs | **3 bps** | Industry-leading | Clean book |
+| Top 10 Depositors | **3%** | of total deposits | No concentration risk |
+| Uninsured & Uncollateralized | **30%** | True run risk | Low |
+| Liquidity Coverage | **167%** | of uninsured deps | Can cover all |
+| Cost of Deposits | **1.67%** | Best in class, declining | Franchise value |
+| Short Interest | **4.18%** | 7 days to cover | Squeeze risk if M&A |
+| P/TBV | **~2.0x** | Premium valuation | Takeout at 2.5-2.7x? |
+
+*Source: SBCF Q4 2025 earnings, 10-K, research documents*
+*Last Updated: 2026-02-11*
 
 ---
 
