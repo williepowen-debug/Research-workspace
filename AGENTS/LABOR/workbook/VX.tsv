@@ -1,6 +1,8 @@
 ID	Name	Current Value	Status	Green	Yellow	Orange	Red	Last Updated	Source	Notes
 VX-LAB-1.01	Initial Claims	231K	YELLOW	<230K	230-250K	250-300K	>300K	2026-02-06	DOL Week ending Feb 1	⚠️ Breached 230K threshold (+22K spike from 209K). Gig economy blind spot - 15% of workforce invisible
-VX-LAB-1.02	Continuing Claims	~1.9M	GREEN	<2.0M	2.0-2.1M	2.1-2.5M	>2.5M	2026-02-01	DOL Weekly	Duration indicator
+VX-LAB-1.02	Continuing Claims (Weekly)	1,844K	GREEN	<1.9M	1.9-2.1M	2.1-2.5M	>2.5M	2026-01-24	DOL Weekly	Duration indicator - week ending Jan 24
+VX-LAB-1.02A	Continuing Claims (4-Week Avg)	~1.85M	GREEN	<1.9M	1.9-2.1M	2.1-2.5M	>2.5M	2026-01-24	DOL Weekly	Hotel California metric - smoothed duration signal
+VX-LAB-1.02B	Insured Unemployment Rate	1.2%	GREEN	<1.3%	1.3-1.5%	1.5-1.8%	>1.8%	2026-01-24	DOL Weekly	Continuing claims / covered employment (~155M). Pre-pandemic avg: 1.2%
 VX-LAB-1.03	Claims 4-Week Avg	~205K	GREEN	<230K	230-250K	250-300K	>300K	2026-02-01	DOL Weekly	Smoothed signal - artificially low?
 VX-LAB-1.04	Indeed Postings YoY	-5.2%	YELLOW	>0%	-5% to 0%	-10% to -5%	<-10%	2026-02-01	Indeed Dec 31	AT THRESHOLD - hiring weak
 VX-LAB-2.01	NFP (MoM)	+50K (Dec)	ORANGE	>150K	50-150K	0-50K	<0	2026-02-01	BLS Dec 2025	CRITICAL: Very weak print; 2025 avg 49K vs 2024 168K

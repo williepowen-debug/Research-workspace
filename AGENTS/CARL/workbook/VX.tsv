@@ -1,0 +1,53 @@
+Vector_ID	Name	Category	Current_Value	Yellow	Orange	Red	Status	Confidence	Last_Updated	Source	Notes
+VX-CARL-1.01	Credit Card 90+ DQ	CREDIT	12.70%	10%	12%	13.7%	RED	HIGH	2026-02-10	NY Fed Q4 2025	92% of GFC peak (13.74%)
+VX-CARL-1.02	Credit Card Payment Rate	CREDIT	PENDING	18-20%	15-18%	<15%	PENDING	MEDIUM	2026-02-11	ABS Framework	LEADING INDICATOR - Track via ABS
+VX-CARL-1.03	BNPL Late Rate	BNPL	42%	40%	45%	50%	YELLOW	MEDIUM	2026-01-22	Industry Reports	Approaching 45% threshold
+VX-CARL-1.04	Subprime Auto 60+ DQ	AUTO	6.65%	5%	6%	7%	ORANGE	HIGH	2026-01-22	Industry Data	ATH since 1994
+VX-CARL-1.05	Deep Subprime Auto Acceleration	AUTO	+40% YoY	+30%	+40%	+50%	ORANGE	HIGH	2026-01-22	Industry Data	Accelerating delinquency
+VX-CARL-1.06	Student Loan Conditional DQ	STUDENT	31%	25%	30%	35%	ORANGE	MEDIUM	2026-01-22	Industry Data	Conditional on repayment
+VX-CARL-1.07	Gen Z Prime Contagion	DEMOGRAPHIC	23%	20%	25%	30%	YELLOW	MEDIUM	2026-01-22	Industry Data	Structural breaking point
+VX-CARL-1.08	Medical Debt (Collections)	MEDICAL	$88-140B	$100B	$150B	$200B	YELLOW	LOW	2026-01-22	CFPB	Returning to credit reports
+VX-CARL-1.09	Auto Denial Rate	AUTO	15.2%	15%	20%	25%	YELLOW	MEDIUM	2026-01-22	Industry Data	Doubled from baseline
+VX-CARL-2.01	Rent Late Rate	HOUSING	11.7%	12%	15%	18%	GREEN	MEDIUM	2026-01-22	Industry Reports	Below threshold
+VX-CARL-2.02	HOA Assessments (Surfside)	HOUSING	$134K-$400K	$150K	$200K	$250K	YELLOW	HIGH	2026-01-22	News Reports	FL condo crisis
+VX-CARL-2.03	Homeowners Insurance (High-risk)	INSURANCE	50% YoY	40%	60%	80%	YELLOW	HIGH	2026-01-22	Industry Data	CA/FL stress zones
+VX-CARL-2.04	Auto Insurance CPI	INSURANCE	20-30% YoY	25%	35%	50%	YELLOW	HIGH	2026-01-22	CPI Data	Regressive tax effect
+VX-CARL-2.05	Utility Arrears	UTILITIES	$23B	$20B	$25B	$30B	ORANGE	MEDIUM	2026-01-22	Utility Reports	1-in-6 households behind
+VX-CARL-2.06	Uninsured Rate (Medical)	INSURANCE	~10%	12%	15%	20%	YELLOW	MEDIUM	2026-01-22	Census/KFF	ACA cliff activated
+VX-CARL-3.01	Jobs Spread	LABOR	8 pts	5	0	<0	YELLOW	HIGH	2026-01-22	JOLTS	Approaching inversion
+VX-CARL-3.02	Long-term Unemployed	LABOR	1.95M	2M	2.5M	3M	GREEN	HIGH	2026-01-22	BLS	Below threshold
+VX-CARL-3.03	Govt Workforce Drop	LABOR	162K	100K	150K	200K	ORANGE	MEDIUM	2026-01-22	BLS	LIHEAP staff eliminated
+VX-CARL-3.04	Savings Rate	MACRO	~4.5%	4%	3%	<3%	YELLOW	HIGH	2026-01-22	BEA	Master switch - buffer exhaustion
+VX-CARL-4.01	Hardship 401k Withdrawals	BUFFER	4.8%	4.5%	5%	5.5%	ORANGE	HIGH	2026-01-22	Vanguard	ATH - buffer exhaustion
+VX-CARL-4.02	Gambling Losses	STRESS	$264B	$275B	$300B	$350B	GREEN	LOW	2026-01-22	Industry Data	Elevated but stable
+VX-CARL-4.03	Trade-down Migration	CONSUMPTION	2.6M >$100K	2M	2.5M	3M	ORANGE	MEDIUM	2026-01-22	Dollar Tree	High-income downshifting
+VX-CARL-5.01	Liquidity Fragility (Can't cover $400)	LATENT	37%	40%	45%	50%	YELLOW	HIGH	2026-01-24	Fed SHED 2023	One-incident-away population
+VX-CARL-5.02	Care Deferral Rate	LATENT	28-38%	35%	40%	50%	YELLOW	MEDIUM	2026-01-24	NHIS/Gallup	Deferred care due to cost
+VX-CARL-5.03	Underinsurance Rate (Medical)	LATENT	23%	25%	30%	35%	YELLOW	MEDIUM	2026-01-24	Commonwealth Fund 2024	23% threshold
+VX-CARL-5.04	Paycheck-to-Paycheck	LATENT	62%	65%	70%	75%	ORANGE	HIGH	2026-01-24	LendingClub	Structural fragility
+VX-CARL-5.05	Hardship Withdrawal Trend	BUFFER	+33% YoY	+25%	+35%	+50%	YELLOW	HIGH	2026-01-24	Industry Data	Doubled since 2018
+VX-CARL-5.06	CA Insurance Retreat	INSURANCE	450K+	400K	500K	600K	ORANGE	HIGH	2026-01-24	CA FAIR Plan	FAIR Plan policies accelerating
+VX-CARL-6.01	CC 90+ DQ	CREDIT	12.70%	10%	12%	13.74%	RED	HIGH	2026-02-10	NY Fed Q4 2025	92% of GFC peak
+VX-CARL-6.02	Auto 90+ DQ	AUTO	5.21%	4%	5%	5.27%	RED	HIGH	2026-02-10	NY Fed Q4 2025	At historical max
+VX-CARL-6.03	Total Household Debt	DEBT	$18.78T	$18T	$19T	$20T	ORANGE	HIGH	2026-02-10	NY Fed Q4 2025	Record high (+$4.6T since 2019)
+VX-CARL-6.04	Q1 Income Mortgage DQ	HOUSING	3.0%	2.5%	3%	3.5%	ORANGE	HIGH	2026-02-10	NY Fed Q4 2025	5x pandemic lows
+VX-CARL-6.05	FL 90+ DQ	GEOGRAPHIC	4.10%	3.5%	4%	5%	ORANGE	HIGH	2026-02-10	NY Fed Q4 2025	+49% YoY (was 2.76%)
+VX-CARL-6.06	FL Foreclosures YoY	GEOGRAPHIC	+190%	+75%	+150%	+200%	RED	HIGH	2026-02-10	ATTOM	Accelerating from +57%
+VX-CARL-6.07	Unemployment→Mortgage Correlation	TRANSMISSION	+0.6pp DQ per +1.6pp U3	+0.4pp	+0.6pp	+0.8pp	ORANGE	HIGH	2026-02-10	NY Fed LSE	Transmission multiplier
+VX-CARL-6.08	Home Price Decline Zone	GEOGRAPHIC	Gulf Coast FL	Isolated	Regional	National	ORANGE	MEDIUM	2026-02-10	NY Fed LSE	Correlates with rising DQ
+VX-CARL-6.09	Retail Sales MoM	CONSUMPTION	0% MoM	-0.5%	-1%	-2%	YELLOW	HIGH	2026-02-10	Bloomberg Dec 2025	Unexpectedly stalled
+VX-CARL-6.10	Retail Control Group	CONSUMPTION	-0.1% MoM	-0.5%	-1%	-1.5%	YELLOW	HIGH	2026-02-10	Bloomberg Dec 2025	Feeds directly into GDP
+VX-CARL-ABS-01	ABS CC Payment Rate (Discover)	ABS-CC	PENDING	18-20%	15-18%	<15%	PENDING	MEDIUM	2026-02-11	EDGAR 10-D	LEADING INDICATOR - baseline needed
+VX-CARL-ABS-02	ABS CC 30+ DQ (Discover)	ABS-CC	PENDING	4-5%	5-7%	>7%	PENDING	MEDIUM	2026-02-11	EDGAR 10-D	Monthly tracking
+VX-CARL-ABS-03	ABS CC Charge-off Rate (Discover)	ABS-CC	PENDING	5-7%	7-10%	>10%	PENDING	MEDIUM	2026-02-11	EDGAR 10-D	Annualized
+VX-CARL-ABS-04	ABS CC Vintage 2024/2025 vs 2019 (Discover)	ABS-CC	PENDING	1.2-1.5x	1.5-2x	>2x	PENDING	LOW	2026-02-11	EDGAR 10-D	Underwriting quality
+VX-CARL-ABS-05	ABS CC Payment Rate (Capital One)	ABS-CC	PENDING	18-20%	15-18%	<15%	PENDING	MEDIUM	2026-02-11	EDGAR 10-D	Prime/subprime mix
+VX-CARL-ABS-06	ABS CC 30+ DQ (Capital One)	ABS-CC	PENDING	4-5%	5-7%	>7%	PENDING	MEDIUM	2026-02-11	EDGAR 10-D	Monthly tracking
+VX-CARL-ABS-07	ABS CC Charge-off Rate (Capital One)	ABS-CC	PENDING	5-7%	7-10%	>10%	PENDING	MEDIUM	2026-02-11	EDGAR 10-D	Annualized
+VX-CARL-ABS-08	ABS Auto Payment Rate (Santander)	ABS-AUTO	PENDING	3.5-4%	3-3.5%	<3%	PENDING	MEDIUM	2026-02-11	EDGAR 10-D	Subprime auto bellwether
+VX-CARL-ABS-09	ABS Auto 30+ DQ (Santander)	ABS-AUTO	PENDING	10-12%	12-15%	>15%	PENDING	HIGH	2026-02-11	EDGAR 10-D	Subprime threshold
+VX-CARL-ABS-10	ABS Auto Charge-off Rate (Santander)	ABS-AUTO	PENDING	8-10%	10-12%	>12%	PENDING	HIGH	2026-02-11	EDGAR 10-D	Subprime auto stress
+VX-CARL-ABS-11	ABS Auto 30+ DQ (Exeter)	ABS-AUTO	PENDING	12-15%	15-18%	>18%	PENDING	HIGH	2026-02-11	EDGAR 10-D	Deep subprime - S&P elevated loss
+VX-CARL-ABS-12	ABS Auto Payment Rate (Ally)	ABS-AUTO	PENDING	4-5%	3.5-4%	<3.5%	PENDING	MEDIUM	2026-02-11	EDGAR 10-D	Prime/near-prime comparison
+VX-CARL-ABS-13	ABS Payment Rate Cross-Trust Divergence	ABS-COMPOSITE	PENDING	<1pp	1-2pp	>2pp	PENDING	LOW	2026-02-11	Multiple trusts	Signal dispersion/stress concentration
+VX-CARL-ABS-14	ABS vs NY Fed DQ Divergence	ABS-COMPOSITE	PENDING	<0.5pp	0.5-1pp	>1pp	PENDING	MEDIUM	2026-02-11	ABS vs NY Fed	Early warning confirmation

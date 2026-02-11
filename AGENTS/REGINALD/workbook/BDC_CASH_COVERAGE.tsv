@@ -1,0 +1,169 @@
+BDC_Ticker	BDC_Name	Report_Month	Cash_NII	Dividend_Per_Share	Cash_Coverage_Ratio	Status	Last_Updated	Data_Source	Notes
+PSEC	Prospect Capital	Jan_2026	TBD	$0.06	TBD	PENDING	2026-02-11	Monthly Earnings Release	Highest PIK concentration (35% of income) - high dividend cut risk
+FSK	FS KKR Capital	Jan_2026	TBD	$0.70	TBD	PENDING	2026-02-11	Monthly Earnings Release	PIK 27% of income - watch for deterioration
+TCPC	TCP Capital	Jan_2026	TBD	$0.38	TBD	PENDING	2026-02-11	Monthly Earnings Release	Reports monthly - moderate PIK exposure
+ARCC	Ares Capital	Jan_2026	TBD	$0.48	TBD	PENDING	2026-02-11	Quarterly Earnings	Largest BDC - quality benchmark
+GSBD	Goldman Sachs BDC	Jan_2026	TBD	$0.45	TBD	PENDING	2026-02-11	Quarterly Earnings	High-quality portfolio but small
+MFIC	MidCap Financial	Jan_2026	TBD	$0.29	TBD	PENDING	2026-02-11	Monthly Earnings Release	Middle market focus
+BXSL	Blackstone Secured Lending	Jan_2026	TBD	$0.69	TBD	PENDING	2026-02-11	Monthly Earnings Release	Senior secured focus - lower risk profile
+
+# BDC CASH COVERAGE TRACKING FRAMEWORK
+
+## Purpose
+Track monthly cash net investment income (NII) vs dividend coverage for key BDCs. PIK income (Payment-In-Kind) is excluded because it's non-cash earnings that inflates reported NII but doesn't generate cash to cover dividends.
+
+## Key Metric
+**Cash Coverage Ratio = Cash NII / Dividend Declared**
+- Cash NII = Total NII - PIK Interest Income
+- This measures whether the BDC generates enough CASH to pay its dividend
+- Ratio <1.00x = burning cash reserves or cutting dividends
+
+## Status Thresholds
+- 🟢 GREEN: Cash coverage >1.00x (sustainable)
+- 🟡 YELLOW: Cash coverage 0.90-1.00x (tight, watch closely)
+- 🟠 ORANGE: Cash coverage 0.75-0.90x (unsustainable, cut likely)
+- 🔴 RED: Cash coverage <0.75x OR dividend cut announced
+
+## Target BDCs
+7 BDCs selected based on:
+1. Monthly reporting (faster signal)
+2. High PIK concentration (PSEC, FSK = canaries)
+3. Bank exposure via fund finance / warehouse lines
+4. Size & liquidity (tradable names)
+
+### Canaries (High PIK Risk)
+- **PSEC**: 35% PIK - HIGHEST RISK, already burning cash
+- **FSK**: 27% PIK - close behind, watch for cut
+
+### Quality Benchmarks
+- **ARCC**: Largest, best quality - if ARCC struggles, sector is broken
+- **BXSL**: Senior secured focus, Blackstone backing - defensive
+
+### Middle Market Exposure
+- **TCPC, MFIC**: Middle market lenders where stress transmits first
+- **GSBD**: Goldman brand but small scale
+
+## Data Sources
+
+### Monthly Reporters (Check These First)
+- **PSEC**: Reports ~20th of month for prior month
+  - Source: https://www.prospectstreet.com/investor-relations/monthly-portfolio-statistics
+  - Look for: "Cash Interest Income" vs "Total Interest Income" (difference = PIK)
+
+- **FSK**: Reports ~15th of month
+  - Source: https://www.fskkcapital.com/investor-relations
+  - Look for: "Cash Interest Income" in monthly commentary
+
+- **TCPC**: Reports mid-month
+  - Source: https://ir.tcgbdc.com/financial-information/monthly-stockholder-reports
+
+- **MFIC**: Reports ~20th of month
+  - Source: https://ir.midcapfinancial.com/financial-information
+
+- **BXSL**: Reports ~15th of month
+  - Source: https://ir.bxsl.com/financial-information/monthly-reports
+
+### Quarterly Reporters (Lag Signal)
+- **ARCC**: Reports quarterly earnings ~45 days after quarter-end
+  - Source: https://ir.arescapitalcorp.com
+  - Gold standard for BDC sector health
+
+- **GSBD**: Reports quarterly
+  - Source: https://www.goldmansachsbdc.com/investor-relations
+
+## Monitoring Protocol
+
+### Weekly Check (Every Monday)
+1. Scan for new monthly reports from PSEC, FSK, TCPC, MFIC, BXSL
+2. If report released, extract:
+   - Total NII
+   - PIK interest income (or calculate: Total Interest - Cash Interest)
+   - Dividend declared
+   - Calculate Cash Coverage Ratio
+
+### Monthly Deep Dive (First Friday of Month)
+1. Update this tracker with all available data
+2. Calculate trend: Is coverage improving or deteriorating?
+3. Flag any BDCs that crossed threshold (e.g., YELLOW → ORANGE)
+4. Update ML.tsv with significant findings
+5. Update STATUS.md dashboard
+
+### Immediate Alert Triggers
+- Any cash coverage <0.90x for first time
+- Any dividend cut announcement (RED status immediately)
+- Any BDC guidance of "reviewing dividend policy"
+- PSEC or FSK coverage <0.80x (sector canary)
+
+## How to Extract Cash NII
+
+### From Monthly Reports
+1. Look for "Interest Income" breakdown:
+   - "Cash Interest Income" = what we want
+   - "PIK Interest Income" = exclude this
+   - "Fee Income" = include (usually cash)
+   - "Other Income" = include if cash
+
+2. If only total NII reported:
+   - Look for "Non-cash interest income" or "PIK income"
+   - Cash NII = Total NII - PIK Income
+
+3. Calculate monthly dividend:
+   - Most BDCs pay monthly
+   - Dividend = (Quarterly dividend rate / 3) × shares outstanding
+   - Or check monthly distribution announcement
+
+### Example (PSEC)
+```
+Total NII for month: $25M
+PIK Interest Income: $9M (35% of interest income)
+Cash NII = $25M - $9M = $16M
+Monthly Dividend: $18M ($0.06/share × 300M shares)
+Cash Coverage = $16M / $18M = 0.89x → YELLOW status
+```
+
+## Transmission to KRE Thesis
+
+### Direct Path: Bank Fund Finance Exposure
+- Banks provide warehouse lines and NAV-based loans to BDCs
+- BDC dividend cuts → NAV falls → loan covenants tested
+- Bank exposure: $1.2T to NDFIs (includes BDC backstop lines)
+
+### Indirect Path: Credit Cycle Confirmation
+- BDCs lend to middle market = early cycle indicator
+- PIK spike = companies can't pay cash interest
+- Cash coverage <1.00x = BDC stress → bank credit losses lag 2-4 quarters
+
+### Canary Signal
+- **PSEC cutting dividend** = middle market stress is real
+- **FSK following** = not idiosyncratic, it's sector-wide
+- **ARCC struggling** = credit cycle has turned, banks next
+
+### Bank Vectors to Watch When BDC Cash Coverage Fails
+- VX-REG-6.05: CFG (fund finance leader)
+- VX-REG-2.03: BDC NAV discount widens (already -16% avg)
+- VX-REG-6.02: VLY (BDC exposure + CRE)
+- VX-REG-6.04: WAL (fund finance + fraud)
+
+## Historical Context
+
+### 2023-2024: PIK Inflation Era
+- PSEC PIK rose from ~15% to 35%
+- FSK PIK rose from ~18% to 27%
+- Pattern: Companies can't pay cash interest, convert to PIK
+- BDCs report "earnings growth" but cash flow negative
+
+### The Reckoning
+- >50% of BDCs currently burn cash (dividends > cash generated)
+- Golub Capital: PIK spiked 173% YoY
+- This tracker captures WHEN the cash runs out
+- Dividend cuts = forced recognition of asset quality
+
+## Q1 2026 Baseline (To Be Established)
+- This framework is NEW as of Feb 11, 2026
+- Next step: Pull Jan 2026 data for all 7 BDCs
+- Establish baseline coverage ratios
+- Monitor monthly for deterioration
+
+## Update History
+- 2026-02-11: Framework created by REGINALD sub-agent
+- Next update: After Feb monthly reports released (PSEC ~Feb 20, FSK ~Feb 15)

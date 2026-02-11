@@ -14,3 +14,11 @@ FL-CARL-012	Q2 2026	Student Loan IBR/SAVE Litigation	POLICY	Student loan	Resolut
 FL-CARL-013	2026-02	Ally Financial (ALLY) Earnings	AUTO	Auto subprime	Subprime auto bellwether	HIGH	PENDING	Watch NCOs, delinquency guidance
 FL-CARL-014	2026-02	Capital One (COF) Earnings	CREDIT	CC portfolio	Major CC issuer NCO trajectory	HIGH	PENDING	Subprime CC exposure
 FL-CARL-015	ONGOING	CA Fire Season	INSURANCE	CA uninsured	Single event trigger for mass foreclosure	HIGH	WATCH	150K+ households at risk
+FL-CARL-ABS-001	2026-02-15	ABS Jan 2026 Data Release (Baseline)	CREDIT-ABS	Payment Rate, 30+ DQ	Establish baseline for monthly tracking; 30-45 day lag vs NY Fed	CRITICAL	PENDING	Discover, Capital One, Santander priority; see ABS_BASELINE_PROTOCOL.md
+FL-CARL-ABS-002	2026-03-15	ABS Feb 2026 Data Release	CREDIT-ABS	Payment Rate, 30+ DQ	First MoM comparison; confirm/refute Jan trend	HIGH	PENDING	Compare to Jan baseline; flag >2% payment rate drop
+FL-CARL-ABS-003	2026-04-15	ABS Mar 2026 Data Release	CREDIT-ABS	Payment Rate, 30+ DQ	Q1 2026 trend complete; compare to LABOR UI exhaustion	HIGH	PENDING	Should show FL stress if LABOR→CARL transmission active
+FL-CARL-ABS-004	2026-05-15	NY Fed Q1 2026 Household Debt Report	CREDIT	CC/Auto DQ quarterly	Compare to ABS Jan-Mar trend (divergence test)	CRITICAL	PENDING	ABS should show stress 30-60 days earlier than NY Fed
+FL-CARL-ABS-005	2026-05-15	ABS Apr 2026 Data Release	CREDIT-ABS	Payment Rate, 30+ DQ	Post-Q1 earnings; banks may have flagged NCO concerns	HIGH	PENDING	Cross-ref with bank earnings warnings (Apr)
+FL-CARL-ABS-006	2026-06-15	ABS May 2026 Data Release	CREDIT-ABS	Payment Rate, 30+ DQ	6-month trend; Q2 halfway point	MEDIUM	PENDING	Monitor for seasonal effects vs structural deterioration
+FL-CARL-ABS-007	2026-07-15	ABS Jun 2026 Data Release	CREDIT-ABS	Payment Rate, 30+ DQ	Q2 2026 complete; LABOR severance exhaustion should be visible	CRITICAL	PENDING	Per LABOR: Q2-Q3 2026 danger window; ABS should confirm conversion
+FL-CARL-ABS-008	MONTHLY	ABS Watchlist Check (Ongoing)	CREDIT-ABS	All ABS vectors	Monthly Form 10-D monitoring for 11 trusts	HIGH	ONGOING	See ABS_TRACKING_FRAMEWORK.md for full protocol

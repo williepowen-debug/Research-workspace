@@ -56,6 +56,76 @@ The system now operates in a **dual-fragility regime**:
 | Term Premium (ACM) | **0.80%** | 🟡 YELLOW | SF Fed CR model: 1.22%. Rising = FOI subsidy evaporating |
 | Annual FOI Demand Hole | **~$300B** | 🟠 ORANGE | Japan + China + Saudi combined |
 
+#### Foreign Custodial Flow Disaggregation (PRIORITY)
+| Vector | Value | Status | Threshold |
+|--------|-------|--------|-----------|
+| **Belgium UST Holdings** | **$481B** | 🟠 ORANGE | >$400B orange, >$500B red |
+| Belgium + China Combined Flow | **-$100B/qtr (est)** | 🔴 RED | -$50B/qtr orange |
+
+**Methodology:**
+- **Belgium TIC** = proxy for China PBOC custody via Euroclear Brussels
+- Baseline: ~$300B (2023) → Now $481B (Nov 2025) = **+$180B** increase
+- **China official TIC**: $688B (down from $1.06T peak)
+- **Combined reading**: China down $372B from peak, Belgium up $180B = **net -$192B outflow**
+
+**Scenario Distinction:**
+- **Scenario A (Benign)**: Belgium TIC ↑ + BIS Table B4 custody ↑ = PBOC custody migration (just moved)
+- **Scenario B (Crisis)**: Belgium TIC ↑ + BIS custody flat = **actual stealth exit**
+
+**Current Assessment**: ORANGE trending RED
+- Belgium surge ($300B→$481B) exceeds normal custody migration
+- Combined China+Belgium quarterly flow running -$100B/quarter (est)
+- BIS B4 cross-reference pending (quarterly lag)
+
+**Monitoring Protocol:**
+- **Monthly**: TIC data release (next: Feb 18 for Dec 2025)
+- **Quarterly**: BIS International Banking Statistics Table B4
+- **Watch Date**: Trump-Xi Beijing summit (April 2026) — pre-positioning window
+
+### Collateral Velocity / Rehypothecation Monitoring (NEW)
+| Vector | Value | Status | Threshold |
+|--------|-------|--------|-----------|
+| **Collateral Velocity Ratio** | **~2.8x (est)** | 🟢 GREEN | <2.5x yellow, <2.0x orange, <1.5x red |
+
+**Calculation:**
+```
+Velocity Ratio = (Triparty Repo Volume) / (Outstanding UST)
+```
+
+**Data Sources:**
+- SIFMA Triparty Repo Statistics (weekly): https://www.sifma.org/resources/research/us-repo-markets-data/
+- SIFMA Outstanding UST (monthly): https://www.sifma.org/resources/research/us-treasury-securities-statistics/
+- Typical recent values: ~$4.5T triparty / ~$27T outstanding = 2.8x baseline
+
+**Thresholds:**
+- **Baseline**: ~2.8x (2023-25 average)
+- **YELLOW**: <2.5x (slowing rehypothecation)
+- **ORANGE**: <2.0x (velocity crisis — dealers refusing to intermediate)
+- **RED**: <1.5x (March 2020 levels — market breakdown)
+
+**Early Warning Sequence:**
+```
+Velocity drops
+    ↓
+Dealers stuffed (can't expand balance sheets)
+    ↓
+FTDs spike (settlement fails)
+    ↓
+Auction fails (no bid at clearing price)
+```
+
+**Current Reading**: GREEN (estimated ~2.8x)
+- Triparty repo volume: ~$4.5T (est, needs SIFMA verification)
+- Outstanding UST: ~$27T marketable
+- Velocity: stable at 2023-25 baseline
+- **Note**: Actual values require weekly SIFMA update
+
+**Monitoring Protocol:**
+- **Weekly**: Pull SIFMA triparty repo volume (published Thursday/Friday)
+- **Monthly**: Update outstanding UST denominator
+- **Alert Trigger**: Two consecutive weeks <2.5x = escalate to PROME
+- **Cross-check**: Compare with VX-LIQUID-1.03 (FTD) and VX-LIQUID-1.05 (Dealer Net Position)
+
 **Composite Assessment:** 
 - Domestic: Structural vulnerability HIGH, active stress LOW
 - Foreign: Structural withdrawal ACTIVE, replacement buyers LEVERAGED
@@ -309,6 +379,10 @@ Academic estimates: $200B reduction = **+30 to +100bps** persistent yield impact
 | 9 | 10Y term premium (ACM) rises above 1.0% | H2 2026 | 60% |
 | 10 | Auction indirect bid % declines to <65% on average | Q2 2026 | 55% |
 | 11 | Japan continues net selling USTs (TIC monthly) | Through 2026 | 75% |
+| 12 | **Belgium holdings exceed $500B (RED threshold)** | **Q2 2026** | **60%** |
+| 13 | **Belgium+China combined flow <-$50B in single quarter** | **Q1-Q2 2026** | **65%** |
+| 14 | **Collateral velocity drops below 2.5x (YELLOW)** | **Q2 2026** | **50%** |
+| 15 | **BIS B4 data confirms stealth exit (Scenario B)** | **H1 2026** | **55%** |
 
 ---
 
@@ -341,12 +415,21 @@ Academic estimates: $200B reduction = **+30 to +100bps** persistent yield impact
 - Treasury auction results (especially 7Y tenor)
 - Dealer positioning (FR 2004)
 - Reserve balances (H.4.1)
+- **SIFMA triparty repo volume** (collateral velocity calculation)
+
+**Monthly:**
+- **TIC data releases** (Belgium + China custodial flow tracking)
+- Outstanding UST data (collateral velocity denominator)
+
+**Quarterly:**
+- **BIS International Banking Statistics Table B4** (custodial claims cross-reference)
 
 **Event-driven:**
 - Fed communications on balance sheet
 - Warsh confirmation news
 - Japan BOJ policy signals
 - Quarter-end funding stress
+- **Trump-Xi summit (April 2026)** — pre-positioning for custodial exit
 
 ---
 
@@ -355,6 +438,9 @@ Academic estimates: $200B reduction = **+30 to +100bps** persistent yield impact
 - ML-LIQ-018: 7Y Auction Playbook
 - ML-LIQ-022-024: Warsh integration
 - **ML-LIQ-026-029: China UST / FOI Research (Feb 2026)**
+- **ML-LIQ-031: Foreign Custodial Flow Disaggregation Framework**
+- **ML-LIQ-032: Collateral Velocity / Rehypothecation Framework**
+- **ML-LIQ-033-034: Belgium TIC Baseline + BIS Cross-Reference Protocol**
 - FLOW-LIQUID-1.01: RRP Depletion Cascade
 - **FLOW-LIQUID-5.01-5.02: FOI Exit Cascades**
 - Research: "The Vanishing Buffer" (RRP depletion analysis)

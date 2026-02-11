@@ -440,6 +440,248 @@ Either: Ueda backs down (YCC return, D2) OR Ueda holds (JGB spike, C scenario)
 
 ---
 
+## REAL WAGE GROWTH vs INFLATION DASHBOARD
+
+**STATUS:** 🟠 **ORANGE** — Real wages at **0.0%** — BOJ TRAPPED, April collision risk **HIGH**
+
+### The Critical Dynamic
+
+**Real wage growth is THE constraint on BOJ normalization.** Ueda cannot hike if real wages are negative or flat — households cannot absorb higher rates when purchasing power is stagnant. This creates the **Takaichi-Ueda collision**:
+
+```
+Takaichi fiscal expansion (¥122T budget)
+    ↓
+Import inflation + weak yen (USD/JPY ~156)
+    ↓
+Nominal wages lag inflation (Shunto results critical)
+    ↓
+Real wages = 0% or negative
+    ↓
+BOJ CANNOT HIKE (destroys consumption)
+    ↓
+Ueda trapped: normalize (break economy) OR pause (break credibility)
+    ↓
+April BOJ Meeting = SHOWDOWN
+```
+
+### Current Readings (Feb 11, 2026)
+
+| Component | Latest | YoY Change | Status | Source |
+|-----------|--------|------------|--------|--------|
+| **Tokyo CPI (Core)** | 2.0% | Down from 2.3% (Dec) | 🟢 GREEN | Jan 2026, Stats Bureau |
+| **National CPI (Core-core)** | 2.4% | Sticky services inflation | 🟡 YELLOW | Jan 2026, Stats Bureau |
+| **Nominal Wage Growth** | 2.40% | Modest acceleration | 🟡 YELLOW | Dec 2025, Monthly Labor Survey |
+| **Real Wage Growth** | **0.0%** | **Flat (2.40% - 2.4%)** | 🟠 **ORANGE** | Feb 2026 (derived) |
+
+**Formula:** Real Wage Growth = Nominal Wage Growth - Core-core CPI  
+**Current:** 2.40% - 2.4% = **0.0%**
+
+### Thresholds & BOJ Implications
+
+| Real Wage Growth | Status | BOJ Policy Space | Takaichi Pressure | Market Impact |
+|------------------|--------|------------------|-------------------|---------------|
+| **≥ +1.0%** | 🟢 **GREEN** | **Can normalize freely** | Low — wage gains support consumption | JGBs sell off (hike pricing), yen strengthens |
+| **0% to +1.0%** | 🟡 **YELLOW** | **Cautious hikes only** | Moderate — "go slow" messaging | Mixed — hikes priced but pace constrained |
+| **-0.5% to 0%** | 🟠 **ORANGE** (NOW) | **TRAPPED — cannot hike** | High — Ueda pressured to pause | JGBs rally (hike hopes fade), yen weakens |
+| **< -0.5%** | 🔴 **RED** | **Forced to CUT or YCC return** | Extreme — Aida demands dovish pivot | Crisis scenario — D2 (monetary dominance) |
+
+**Current: 0.0% = ORANGE.** BOJ cannot hike in this environment. Ueda's dilemma:
+- **Hike anyway** → Consumption collapses, recession, political backlash, Takaichi sends Katayama to BOJ
+- **Pause** → Inflation stays hot, yen weakens further, credibility shot, may never escape
+
+### Shunto 2026 — The Catalyst (Late March)
+
+**Shunto** (春闘, "Spring Offensive") = Japan's annual coordinated wage negotiations between major firms and unions (Rengo). Results announced **late March 2026**.
+
+**Why it matters:**
+- Shunto sets wage trajectory for FY2026 (April-March)
+- 2025 Shunto delivered **5.1% wage hikes** (highest in 33 years) — but inflation ate it all
+- 2026 Shunto needs **≥3.0% hikes** to push real wages positive
+- Takaichi publicly urged business lobby (Keidanren) to deliver "above-inflation" raises
+
+**Timeline:**
+- **Mid-Feb:** Early hints from major employers (Toyota, Sony, Panasonic)
+- **Late March:** Rengo announces aggregate results (usually last week of March)
+- **Early April:** BOJ Meeting (April 23-24) — **Ueda must react to Shunto outcome**
+
+**Scenarios:**
+
+| Shunto Outcome | Nominal Wage Growth | Real Wage Growth (vs 2.4% CPI) | BOJ April Response | Takaichi Reaction |
+|----------------|---------------------|--------------------------------|--------------------|--------------------|
+| **Strong (≥3.5%)** | +3.5%+ | +1.1%+ (GREEN) | Hike to 0.50%, signal more | Tolerates (still <0.75% ceiling) |
+| **Moderate (2.5-3.5%)** | +2.5-3.5% | +0.1% to +1.1% (YELLOW) | Hold, cautious on timing | Pressure builds, Aida commentary |
+| **Weak (<2.5%)** | <2.5% | Negative (RED) | **TRAPPED** — cannot hike | Extreme pressure, 0.75% ceiling debate starts |
+
+**Current probability (Feb 11):**
+- **Strong:** 20% (corporate profits good, labor market tight, but cautious on fiscal/trade uncertainty)
+- **Moderate:** 55% (base case — enough to avoid political backlash but not enough for BOJ comfort)
+- **Weak:** 25% (recession fears, Trump tariff uncertainty, China slowdown)
+
+### April BOJ Collision Probability
+
+**If Shunto delivers <2.5% (weak):**
+- Real wages stay **ORANGE/RED**
+- Ueda faces choice: hike anyway (political suicide) OR pause (credibility death)
+- **Takaichi escalation:** Katayama summons Ueda for "coordination meeting"
+- **Collision probability: 70%+**
+
+**Market trigger:** If Ueda signals April pause due to wage weakness → JGBs rally short-term but yen selloff resumes → import inflation worsens → vicious cycle.
+
+**Cross-reference:** VX-SAM-8.01 through VX-SAM-8.04, VX-SAM-6.03 (Takaichi pressure)
+
+---
+
+## MOF PORTFOLIO FLOW TRACKING — Weekly Repatriation Monitor
+
+**STATUS:** 🟢 **GREEN** — Normal capital outflow continues, **no repatriation detected yet**
+
+### The Transmission Mechanism
+
+**Life insurers repatriating UST holdings is the primary transmission vector to LIQUID.** This dashboard monitors **MOF weekly portfolio investment data** to detect early acceleration from gradual ($10-15B/mo currently) to stress/crisis repatriation.
+
+**Why it matters:**
+- Japan holds **$600-810B UST** (life insurers alone)
+- **MOF weekly data** shows real-time foreign bond purchases/sales by major investors
+- **Leading indicator** (1-4 weeks) before quarterly IIP data
+- Detects shift from voluntary rotation → forced liquidation
+
+### Data Source & Navigation
+
+**Primary source:** Ministry of Finance (MOF) — International Transactions in Securities (Weekly)
+
+**URL:** https://www.mof.go.jp/english/policy/international_policy/reference/itn_transactions_in_securities/index.htm
+
+**Direct data:**
+- **Latest PDF:** https://www.mof.go.jp/english/policy/international_policy/reference/itn_transactions_in_securities/week.pdf
+- **Historical CSV:** https://www.mof.go.jp/policy/international_policy/reference/itn_transactions_in_securities/week.csv
+
+**Release schedule:** Every **Thursday** (covering prior week's transactions)
+
+**Target metric:** "Residents transactions in foreign securities — **Bonds**" (¥ billions)
+
+**Sign convention (CRITICAL):**
+- **Positive (+)** = Japanese investors **buying** foreign bonds (capital outflow, normal)
+- **Negative (-)** = Japanese investors **selling** foreign bonds (**REPATRIATION**, stress signal)
+
+### Current Readings (Feb 11, 2026)
+
+**January 2026 monthly flow:**
+
+| Week Ending | Foreign Bond Flow (¥B) | Signal |
+|-------------|------------------------|--------|
+| Jan 10 | +¥104,243 | 🟢 Buying (normal outflow) |
+| Jan 17 | +¥77,749 | 🟢 Buying (normal) |
+| Jan 24 | +¥79,240 | 🟢 Buying (normal) |
+| Jan 31 | +¥104,882 | 🟢 Buying (normal) |
+| **Monthly Total** | **+¥366B** | **🟢 GREEN — Normal capital outflow** |
+
+**Status:** Japanese investors are still **NET BUYING** foreign bonds. No repatriation detected. This is consistent with **gradual base case** — insurers continue normal foreign investment while trimming JGBs opportunistically.
+
+**December 2025 context:**
+- Mixed weeks (some positive, some negative)
+- Net slightly negative (minor repatriation)
+- Consistent with $10-15B/mo stress level documented in LIFE_INSURER_UST_DEEP_DIVE.md
+
+### Thresholds & Repatriation Phases
+
+| Monthly Net Flow | Annualized Rate | Status | Phase | Market Impact |
+|------------------|-----------------|--------|-------|---------------|
+| **> ¥0 (buying)** | Normal outflow | 🟢 **GREEN** (NOW) | **Base case** — No repatriation | Business as usual |
+| **¥0 to -¥500B/mo** | $40-70B/yr selling | 🟡 **YELLOW** | **Early repatriation** | Gradual UST supply, manageable |
+| **-¥500B to -¥1T/mo** | $70-140B/yr selling | 🟠 **ORANGE** | **Accelerated stress** | LIQUID alert, KRE transmission risk |
+| **< -¥1T/mo** | >$140B/yr selling | 🔴 **RED** | **Crisis liquidation** | Global contagion, credit spreads blow out |
+
+**Conversion:** ¥100B/mo ≈ $700M/mo ≈ $8.4B/yr (at USD/JPY 143)  
+**At current USD/JPY 156:** ¥100B/mo ≈ $640M/mo ≈ $7.7B/yr
+
+### Monitoring Protocol
+
+**WEEKLY (Every Thursday):**
+
+1. **Check MOF release** (usually 8:50am JST)
+   - Download latest PDF or check CSV
+   - Extract "Residents transactions in foreign securities — Bonds" row
+
+2. **Calculate 4-week rolling sum** (monthly equivalent)
+   - Add last 4 weeks
+   - Compare to thresholds
+
+3. **Watch for sign flip** (positive → negative)
+   - **First negative week** = yellow flag (could be noise)
+   - **Two consecutive negative weeks** = orange alert (repatriation starting)
+   - **-¥500B+ in single week** = red alert (crisis acceleration)
+
+4. **Cross-reference with other signals:**
+   - USD/JPY correlation (if UST yields rise but yen strengthens = repatriation)
+   - JGB 30Y-10Y spread (>140bp = insurers stopped buying long end)
+   - News flow (insurer earnings, policy announcements)
+
+**MONTHLY (After month-end):**
+- Calculate full month net flow
+- Compare to previous months (trend)
+- Update VX-SAM-9.01 and VX-SAM-9.02 in VX.tsv
+
+**TRIGGERS FOR ESCALATION TO PROME:**
+
+1. **YELLOW ALERT:** 4-week rolling sum **-¥500B to -¥1T**
+   - Message: "MOF flow turning negative, early repatriation detected"
+   - Action: LIQUID notified, increase monitoring frequency
+
+2. **ORANGE ALERT:** 4-week rolling sum **< -¥1T** OR single week **< -¥500B**
+   - Message: "Accelerated repatriation active, stress case transition"
+   - Action: LIQUID red alert, HENRY/REGINALD notified, KRE watch activated
+
+3. **RED ALERT:** Single week **< -¥1T** OR two consecutive weeks **< -¥500B each**
+   - Message: "Crisis liquidation detected, forced selling likely"
+   - Action: All agents notified, global contagion protocols
+
+### What Drives Repatriation
+
+**From gradual (GREEN) to stress (ORANGE/RED):**
+
+1. **JGB yields spike** (30Y >4.0%, 40Y >4.5%)
+   - Insurers' unrealized losses mount
+   - ESR ratios fall below 180% (Early Remedial Action threshold)
+   - **Forced selling** in 8-12 weeks
+
+2. **Policy lapses accelerate** (aging population, low rates)
+   - Insurers need cash to pay out policies
+   - Sell foreign bonds (have FX gains at 150+ yen)
+   - Convert USD → JPY
+
+3. **Feb 19 20Y auction FAILS** (BTC <2.3x)
+   - Panic repatriation to buy JGBs
+   - Domestic bonds suddenly attractive vs foreign
+
+4. **USD/JPY falls sharply** (toward 145)
+   - Unhedged FX losses mount (¥10.5T at 145)
+   - Forced liquidation to stop bleeding
+
+5. **FSA regulatory pressure** (ESR below 150%)
+   - Capital call from regulator
+   - Must sell risky assets → foreign bonds first
+
+**Historical precedent:** March 2020 (COVID panic) saw -¥2T+ weeks, but reversed quickly. Current risk is **sustained multi-month selling**, not one-time shock.
+
+### Link to LIQUID Vector
+
+**Current:** $10-15B/mo (confirmed Jan 2026, from STATUS.md life insurer analysis)  
+**Base case:** $80-120B over 12-24mo ($7-10B/mo average)  
+**Stress case:** $150-250B over 6-12mo ($20-40B/mo average) ← **MOF ORANGE threshold**  
+**Crisis case:** $300-500B over 3-6mo ($100-165B/mo) ← **MOF RED threshold**
+
+**MOF flow as leading indicator:**
+- MOF weekly data shows **institutional flows** (major investors)
+- Confirms/refutes quarterly IIP data
+- **1-4 week lead time** vs anecdotal reports
+- If MOF turns negative while JGB yields stable → **early warning of stress** before auction failures
+
+**For LIQUID:** When MOF 4-week sum crosses -¥500B (YELLOW), escalate to "repatriation acceleration confirmed" — KRE transmission risk rises from 30% to 50%+.
+
+**Cross-reference:** VX-SAM-9.01, VX-SAM-9.02, workbook/LIFE_INSURER_UST_DEEP_DIVE.md
+
+---
+
 ## CROSS-AGENT CONNECTIONS
 
 | Agent | Connection | Signal |
