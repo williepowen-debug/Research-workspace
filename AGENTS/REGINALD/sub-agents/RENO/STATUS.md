@@ -1,8 +1,10 @@
 # RENO — Nevada Stress Monitor
 ## REGINALD Sub-Agent | Tourism, Housing & Water Canary
 
-**Last Updated:** 2026-02-11  
-**Signal Status:** 🟠 ORANGE — Tourism Stress Confirmed, Gaming Paradox, Banks Positioned Defensively
+**Last Updated:** 2026-02-11 (PM)  
+**Signal Status:** 🟠 ORANGE — Employment Deteriorating, Tourism Stress Confirmed, Banks Defensive
+
+**RESEARCH COMPLETE** — All 7 research prompts finished
 
 ---
 
@@ -83,6 +85,35 @@ When high-roller variance normalizes, structural weakness becomes visible.
 | Cash Sales | **26%** | Investor floor | 🟢 |
 
 **Why No 2008 Repeat:** High equity, locked-in sub-4% mortgages, no ARMs, no subprime. Volume collapse, not price crash.
+
+### Employment Channel 🟠 ORANGE — NEW
+
+| Metric | Current Value | Threshold | Status |
+|--------|---------------|-----------|--------|
+| Statewide UR (SA) | **5.2%** | vs 4.4% national | 🔴 46th rank |
+| Las Vegas MSA UR | **5.2%** | 2nd worst large metro | 🔴 |
+| Reno-Sparks MSA UR | **4.0%** | More resilient | 🟡 |
+| Construction Jobs | **-10,500** | -9.3% YoY | 🔴 |
+| UI Initial Claims | **13,852** | +13.3% MoM | 🟠 |
+| UI Exhaustion Rate | **41%** | Workers stuck | 🔴 |
+| Prof/Business Svcs | **-1,600** | Dec decline (largest) | 🟠 |
+| Financial Activities | **-3,600** | -4.5% YoY | 🟡 |
+
+**2026 Forecasts (Consensus):**
+| Metric | June 2026 | Dec 2026 |
+|--------|-----------|----------|
+| Unemployment Rate | **5.6%** | **5.9%** |
+| Job Growth YoY | +0.8% | +0.1% |
+| Visitor Volume | -1.4% | -0.2% |
+| Taxable Sales | +0.1% | +0.5% |
+
+**Key Finding: "Low-Hire, Low-Fire" Paradox**
+- Employers maintaining payrolls but refusing to expand
+- Construction -9.3% mirrors RATE of early 2008 decline (not yet scale)
+- 41% UI exhaustion = workers can't re-enter workforce
+- Black Nevadans: 10.09% UR (2x White); Youth (16-19): 23.94%
+
+**Structural Conclusion:** Nevada most vulnerable state to national slowdown. "Yellow lights on dashboard now a steady, ominous glow."
 
 ### Water/Climate Channel 🟢 GREEN
 
@@ -213,35 +244,42 @@ When high-roller variance normalizes, structural weakness becomes visible.
 
 ---
 
-## Transmission Chain (Updated)
+## Transmission Chain (Updated with Employment Data)
 
 ```
-Canadian Tourism -24%
-    → Strip visitor volume -7.5%
-    → Gaming mix shifts to whales (volatile)
-    → Hospitality employment pressure (lag 2-3Q)
-    → Gaming/CRE borrower stress
+Canadian Tourism -24% (CONFIRMED)
+    → Strip visitor volume -7.5% (CONFIRMED)
+    → Gaming mix shifts to whales (CONFIRMED, fragile)
+    → Construction jobs -9.3% (CONFIRMED, 2008-rate parallel)
+    → Hospitality employment (FORECAST: UR 5.2% → 5.9% by Dec '26)
+    ↓
+EMPLOYMENT DETERIORATION UNDERWAY:
+- Initial claims +13.3% MoM ⚠️
+- 41% exhaustion rate (workers stuck)
+- Professional services -1,600/mo
+- Consensus: Nevada "most vulnerable state to national slowdown"
+    ↓
+    → Consumer stress (lagging, not yet visible)
+    → Gaming/CRE borrower stress (H2 2026)
     → WAL NV loans (18-22% of book) at risk
     → ZION NSB more vulnerable (440% CRE/equity)
     
-TRIGGER NEEDED: Recession + employment shock
-TIMING: H2 2026 earliest
+STATUS: Employment deterioration UNDERWAY, bank stress NOT YET
+TIMING: H2 2026 for employment trigger, bank stress 2-3Q after
 ```
 
 ---
 
 ## Research Status
 
-### Completed ✅
+### Completed ✅ (ALL 7/7)
 - [x] RP-RENO-1: Canadian Tourism Impact
 - [x] RP-RENO-2: Gaming Industry Health
 - [x] RP-RENO-3: WAL Nevada Exposure
 - [x] RP-RENO-4: Nevada Housing Deep Dive  
 - [x] RP-RENO-5: Lake Mead / Water Crisis
 - [x] RP-RENO-6: Nevada Municipal Credit
-
-### Remaining
-- [ ] RP-RENO-7: Employment Leading Indicators
+- [x] RP-RENO-7: Employment Leading Indicators ✅ NEW
 
 ---
 
@@ -255,6 +293,7 @@ TIMING: H2 2026 earliest
 | `RENO_WAL_Nevada_Exposure_2026-02-11.md` | 2026-02-11 | WAL bank analysis |
 | `RENO_Gaming_Industry_Analysis_2026-02-11.md` | 2026-02-11 | Gaming, operator health |
 | `RENO_Municipal_Credit_Analysis_2026-02-11.md` | 2026-02-11 | State/local ratings, pension |
+| `RENO_Nevada_Labor_Market_Analysis_2026-02-11.md` | 2026-02-11 | **Employment leading indicators** |
 
 ---
 
