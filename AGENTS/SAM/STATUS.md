@@ -512,10 +512,24 @@ April BOJ Meeting = SHOWDOWN
 | **Moderate (2.5-3.5%)** | +2.5-3.5% | +0.1% to +1.1% (YELLOW) | Hold, cautious on timing | Pressure builds, Aida commentary |
 | **Weak (<2.5%)** | <2.5% | Negative (RED) | **TRAPPED** — cannot hike | Extreme pressure, 0.75% ceiling debate starts |
 
-**Current probability (Feb 11):**
-- **Strong:** 20% (corporate profits good, labor market tight, but cautious on fiscal/trade uncertainty)
-- **Moderate:** 55% (base case — enough to avoid political backlash but not enough for BOJ comfort)
-- **Weak:** 25% (recession fears, Trump tariff uncertainty, China slowdown)
+**Current probability (Feb 11) — REVISED via RP-SAM-10:**
+
+| Outcome | Base-Up Range | Previous | **Revised** | Rationale |
+|---------|---------------|----------|-------------|-----------|
+| **Strong** | ≥3.5% | 20% | **48%** | Rengo 5%+ demand; corporate profits; Takaichi mandate |
+| **Moderate** | 2.5-3.5% | 55% | **42%** | SME bottlenecks; tariff uncertainty |
+| **Weak** | <2.5% | 25% | **10%** | Labor shortage makes this functionally impossible |
+
+**Key insight:** "Stag Hunt" game theory — companies making wage decisions watching peers, not just own profits. The **cost of under-paying** (labor flight, reputation) now exceeds the cost of the hike.
+
+### Key Signals to Watch (Feb-March)
+
+| Signal | Date | Threshold | Implication |
+|--------|------|-----------|-------------|
+| **Electronics union response** | Feb 19 | ¥18,000 demand met? | Tech sector bellwether |
+| **Toyota full acceptance** | Mid-March | Full amount | National pattern setter |
+| **Aeon/Watami settlements** | Early March | 6-7% range | Service sector floor |
+| **MHLW real wage data** | March/April | Positive | BOJ policy space opens |
 
 ### April BOJ Collision Probability
 
