@@ -66,6 +66,8 @@ This is not synchronized recession — it's a **"barbell" economy**:
 
 **Over 1 million jobs that were reported in 2025 didn't exist.** The "resilient labor market" was a statistical mirage. 2025 averaged +15K/month — effectively stagnation.
 
+**Historical Context (Bloomberg):** The **-862K** final benchmark revision is the **largest downward revision since 2009**. You have to go back to the GFC to find a comparable miss. This isn't statistical noise — it's structural.
+
 **YoY Deterioration (Jan '26 vs Jan '25):**
 | Metric | Jan 2025 | Jan 2026 | YoY Δ |
 |--------|----------|----------|-------|
@@ -77,14 +79,15 @@ This is not synchronized recession — it's a **"barbell" economy**:
 **"Hotel California" Confirmed:** Long-term unemployed (27+ weeks) surged 28% YoY. Now 25% of all unemployed are stuck. People losing jobs aren't finding new ones.
 
 **Sector Losses:**
-- **Federal Government: -34K** (down 327K / -10.9% since Oct 2024 peak)
-- **Financial Activities: -22K** (down 49K since May 2025 peak)
+- **Federal Government: -50K** (down 327K / -10.9% since Oct 2024 peak)
+- **Financial Activities: -25K** (down 49K since May 2025 peak) — the "resilient" sector is cutting
 - Insurance carriers: -11K in month
 
 **Sector Gains:**
-- Health care: +82K (only bright spot)
-- Social assistance: +42K
+- **Private education & health: +140K** (only bright spot, masking weakness elsewhere)
+- Professional & business services: +30K
 - Construction: +33K
+- Transportation: +20K
 
 **Revisions to prior months:**
 - Nov: +41K (was +56K)
