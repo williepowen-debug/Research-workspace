@@ -52,6 +52,9 @@ If SPX drops 10%+, the top 60% (whose spending has held up the K-shape) suddenly
 | **Student Loan 90+ DQ** | **9.5%** | 🔴 | $159B delinquent (+$150B YoY) |
 | **SAVE Plan** | **ENJOINED** | 🔴 | 7M+ in limbo, IDR suspended |
 | **BNPL Late Payments** | **41%** | 🟠 | +7pp YoY deterioration |
+| **CC Utilization Rate** | **23.6%** | 🟡 | $1.28T / $5.42T; 60% carry balance |
+| **Subprime Auto ABS 60+ DQ** | **>6%** | 🔴 | **RECORD** — vs Prime 0.2% (30x gap) |
+| **Medical Collections** | **$88B** | 🟠 | 43M credit reports; 58% of all collections |
 
 **Age Breakdown (transition into 90+ days):**
 - 18-29: **9.5%** (hardest hit)
@@ -622,6 +625,104 @@ If Flagship or Exeter collapses, warehouse lenders (many are regional banks) fac
 
 ---
 
+## 🆕 CC UTILIZATION & AVAILABLE CREDIT (Feb 12, 2026)
+
+**Source:** NY Fed Q4 2025, WalletHub
+
+| Metric | Q4 2025 | Context |
+|--------|---------|---------|
+| **Total CC Balance** | **$1.28T** | Record high |
+| **Total CC Limit** | **$5.42T** | +$95B QoQ |
+| **Available Credit** | **$4.15T** | Buffer shrinking |
+| **Utilization Rate** | **23.6%** | Elevated but not critical |
+| **Cardholders Carrying Balance** | **60%** | Majority revolving |
+| **Average APR** | **20.97%** | 22.30% for revolvers |
+
+**Why Utilization Matters:**
+- High utilization = stress BEFORE delinquency
+- 30%+ utilization = credit score penalty zone
+- Utilization rising while limits flat = squeeze
+
+**Reference:** `workbook/VX.tsv` (VX-CARL-UTIL-01, VX-CARL-UTIL-02)
+
+---
+
+## 🆕 STATE STRESS DIFFUSION MODEL (Feb 12, 2026)
+
+**Purpose:** Identify "Next FL" — which states follow Florida's trajectory
+
+### Tier 1: CRITICAL (Following FL)
+| State | CC 90+ DQ | Auto 90+ DQ | Foreclosure YoY | Status |
+|-------|-----------|-------------|-----------------|--------|
+| **FL** | 4.10% | 6.2% | +190% | 🔴 CANARY |
+| **TX** | 3.2% | 5.8% | +45% | 🟠 ELEVATED |
+| **MS** | 4.8% | 6.5% | +38% | 🟠 ELEVATED |
+| **LA** | 4.2% | 6.1% | +42% | 🟠 ELEVATED |
+| **NV** | 3.5% | 5.4% | +55% | 🟠 ELEVATED |
+
+### Tier 2: WATCH
+| State | CC 90+ DQ | Auto 90+ DQ | Foreclosure YoY | Status |
+|-------|-----------|-------------|-----------------|--------|
+| AZ | 3.0% | 5.2% | +35% | 🟡 WATCH |
+| GA | 3.4% | 5.5% | +28% | 🟡 WATCH |
+| SC | 3.3% | 5.3% | +32% | 🟡 WATCH |
+
+**Key Insight:** TX is #2 behind FL — and SSB has 19% exposure there.
+
+**Reference:** `workbook/STATE_DIFFUSION.tsv`
+
+---
+
+## 🆕 ABS BASELINE (Partial — Feb 12, 2026)
+
+**Subprime Auto ABS: 🔴 RECORD STRESS**
+
+| Metric | Value | Context |
+|--------|-------|---------|
+| Subprime 60+ DQ | **>6%** | **Record high** (Oct 2025) |
+| Prime 60+ DQ | 0.2% | Pristine |
+| Differential | **30x** | K-shape in credit |
+| Overall Auto 60+ DQ | 1.47% | Above 2009 peak |
+
+**What This Shows:**
+The 30x gap between subprime (>6%) and prime (0.2%) is the K-shape economy in one chart. Same labor market, completely different credit performance. Employment shock collapses prime toward subprime.
+
+**Pending:** Full ABS extraction (Discover CC, Capital One, Santander 10-Ds)
+
+**Reference:** `workbook/ABS_BASELINE.tsv`
+
+---
+
+## 🆕 MEDICAL DEBT FRAMEWORK (Feb 12, 2026)
+
+**The Problem:** Medical debt is 58% of all collections but hardest to track.
+
+| Metric | Value | Source |
+|--------|-------|--------|
+| Medical collections on credit reports | **$88B** | CFPB |
+| Pre-collections (invisible) | **$50-100B** | CFPB estimate |
+| Credit reports affected | **43 million** | CFPB |
+| Households with medical debt | **~20%** | CFPB |
+
+**Demographic Concentration:**
+- Black households: 28% (1.65x baseline)
+- Hispanic households: 22% (1.29x baseline)
+- Southeast/Southwest states highest
+
+**Why It Matters for CARL:**
+- 60%+ can't cover deductible → any medical event = instant debt
+- Medical event = double shock (cost + lost income)
+- "Caregiver Multiplier": 50% MORE income lost than patient's contribution
+
+**Proxy Tracking:**
+- Hospital bad debt (HCA, THC earnings)
+- Google Trends "medical debt help"
+- CFPB complaint trends
+
+**Reference:** `sources/MedicalDebt_Framework_2026-02.md`
+
+---
+
 ## 🆕 GOOGLE TRENDS MONITORING (Monthly)
 
 **Purpose:** Real-time alternative stress signals before official data releases
@@ -657,9 +758,11 @@ If Flagship or Exeter collapses, warehouse lenders (many are regional banks) fac
 - [x] Gig worker stress — **DONE 2026-02-12** (GIG sub-agent revived, Dave 28DPD)
 - [x] Subprime auto lender forensics — **DONE** (Tricolor, PrimaLend, Flagship)
 - [x] Google Trends monitoring — **DONE 2026-02-12** (protocol established)
-- [ ] State-level delinquency divergence (have FL, need broader synthesis)
-- [ ] Medical debt trajectory post-ACA changes
-- [ ] ABS baseline data extraction (3-4 hours manual work)
+- [x] State-level delinquency divergence — **DONE 2026-02-12** (STATE_DIFFUSION.tsv)
+- [x] Medical debt framework — **DONE 2026-02-12** (proxy indicators, $88B baseline)
+- [x] CC utilization tracking — **DONE 2026-02-12** (23.6%, 60% carry balance)
+- [x] ABS baseline (partial) — **DONE 2026-02-12** (subprime auto >6% record)
+- [ ] ABS full extraction (Discover, Capital One 10-Ds) — 3-4 hours manual work
 
 ---
 

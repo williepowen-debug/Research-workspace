@@ -1,0 +1,50 @@
+State	CC_DQ_90+	Auto_DQ_90+	Foreclosure_YoY	UI_Rate	Gig_Concentration	Insurance_Stress	Migration	Composite_Score	Rank	Status	Notes
+# STATE STRESS DIFFUSION MODEL
+# Purpose: Identify "Next FL" — which states are following Florida's stress trajectory
+# Scoring: Each factor 0-3 (0=low stress, 3=critical), sum for composite
+# Updated: 2026-02-12
+
+# TIER 1: CRITICAL (Following FL trajectory)
+FL	4.10%	6.2%	+190%	3.8%	22%	HIGH	-90%	21	1	🔴 CRITICAL	Canary state - all vectors converging; SSB 23% exposure
+TX	3.2%	5.8%	+45%	4.1%	18%	ELEVATED	Slowing	16	2	🟠 ELEVATED	SSB 19% exposure; Austin/Houston office stress; border disruption
+MS	4.8%	6.5%	+38%	4.5%	12%	MODERATE	Negative	15	3	🟠 ELEVATED	Highest CC DQ in nation; low income base; Medicaid gap
+LA	4.2%	6.1%	+42%	4.8%	14%	HIGH	Negative	15	4	🟠 ELEVATED	Energy sector stress; insurance crisis (post-hurricanes)
+NV	3.5%	5.4%	+55%	5.2%	16%	MODERATE	Slowing	14	5	🟠 ELEVATED	Gaming/hospitality exposure; housing overvalued
+
+# TIER 2: WATCH (Stress building)
+AZ	3.0%	5.2%	+35%	4.0%	15%	ELEVATED	Slowing	13	6	🟡 WATCH	Phoenix office CRE; water stress; border exposure
+GA	3.4%	5.5%	+28%	3.9%	14%	MODERATE	Positive	12	7	🟡 WATCH	Atlanta diversified but CC stress elevated
+SC	3.3%	5.3%	+32%	3.6%	13%	MODERATE	Positive	11	8	🟡 WATCH	Manufacturing dependent; Charleston CRE
+NC	2.8%	4.8%	+22%	3.5%	12%	MODERATE	Positive	10	9	🟡 WATCH	Banking center (Charlotte); diversified economy
+OK	3.1%	5.6%	+18%	3.4%	11%	LOW	Flat	10	10	🟡 WATCH	Energy dependent
+
+# TIER 3: BASELINE (National average or better)
+CA	2.4%	4.2%	+15%	5.1%	20%	HIGH	Negative	12	11	🟡 WATCH	High gig concentration but strong economy; fire insurance crisis
+NY	2.1%	3.8%	+8%	4.2%	10%	MODERATE	Negative	8	12	🟢 NORMAL	Strong employment but outmigration
+IL	2.6%	4.5%	+12%	4.8%	18%	MODERATE	Negative	10	13	🟡 WATCH	Chicago office CRE stress; fiscal issues
+
+# SCORING METHODOLOGY
+# CC_DQ_90+: 0=<2.5%, 1=2.5-3.5%, 2=3.5-4%, 3=>4%
+# Auto_DQ_90+: 0=<4.5%, 1=4.5-5.5%, 2=5.5-6%, 3=>6%
+# Foreclosure_YoY: 0=<20%, 1=20-40%, 2=40-100%, 3=>100%
+# UI_Rate: 0=<3.5%, 1=3.5-4.5%, 2=4.5-5.5%, 3=>5.5%
+# Gig_Concentration: 0=<12%, 1=12-16%, 2=16-20%, 3=>20%
+# Insurance_Stress: 0=LOW, 1=MODERATE, 2=ELEVATED, 3=HIGH
+# Migration: 0=Positive, 1=Flat, 2=Slowing, 3=Negative
+
+# WATCH LIST (States to monitor for FL-like trajectory):
+# 1. TX — Already elevated, SSB exposure, border disruption risk
+# 2. MS — Highest CC DQ, structural poverty, no buffer
+# 3. LA — Energy + insurance double hit
+# 4. NV — Gaming exposure, housing bubble remnants
+# 5. AZ — Phoenix office, water, border — multiple vectors
+
+# DATA SOURCES:
+# CC/Auto DQ: NY Fed state-level data (annual, Q4 2024 latest)
+# Foreclosures: ATTOM Data
+# UI Rate: BLS state unemployment
+# Gig: Interview Guys 2025 report
+# Insurance: State insurance commissioner reports
+# Migration: Census/moving company data
+
+# NEXT UPDATE: March 2026 (after NY Fed Q4 2025 state data release)
