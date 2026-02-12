@@ -130,8 +130,11 @@ The U.S. labor market has entered a structural break masked by surface-level sta
 | 4 | Florida foreclosures +75%+ YoY | Q2 2026 | 75% |
 | 5 | Kforce (KFRC) earnings miss | Q1 2026 | 70% |
 | 6 | ISM Mfg Employment stays <50 | Through 2026 | 80% |
-| 7 | DOGE separations exceed 400K | Q3 2026 | 60% |
-| 8 | BLS benchmark revision >500K downward | Q1 2027 | 65% |
+| 7 | NFIB hard-to-fill >30% persists | Through Q2 2026 | 85% |
+| 8 | DOGE separations exceed 400K | Q3 2026 | 60% |
+| 9 | Data center employment turns negative if AI capex slows | H2 2026 | 55% |
+| 10 | BLS benchmark revision >500K downward | Q1 2027 | 65% |
+| 11 | "Late-cycle" language in Fed communications | Q2-Q3 2026 | 50% |
 
 ---
 

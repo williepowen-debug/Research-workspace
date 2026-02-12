@@ -190,13 +190,21 @@ Japan is in a **fiscal doom loop** (acknowledged as "credible tail risk" by Alli
 
 ## PREDICTIONS
 
+### Resolved (3/6, 67% accuracy)
+| # | Prediction | Result |
+|---|------------|--------|
+| 1 | Feb 5 30Y BTC >2.10x | ✅ BTC 3.64x |
+| 2 | USD/JPY <160 through election | ✅ Stayed ~156-159 |
+| 3 | Takaichi <260 seats | ❌ 300+ (landslide) |
+
+### Pending
 | # | Prediction | Timeframe | Confidence |
 |---|------------|-----------|------------|
-| 1 | JGB 30Y stays <4.0% through Q1 | Q1 2026 | 60% |
-| 2 | BOJ signals faster hikes post-election | Feb-Mar | 70% |
-| 3 | Life insurers announce more JGB selling | Q1 earnings | 75% |
-| 4 | Strong Shunto (≥3.5%) delivers | Late March | 48% |
-| 5 | April BOJ hike to 0.75% if Shunto strong | Apr 23-24 | 85% (conditional) |
+| 4 | JGB 30Y stays <4.0% through Q1 | Q1 2026 | 60% |
+| 5 | BOJ signals faster hikes post-election | Feb-Mar | 70% |
+| 6 | Life insurers announce more JGB selling | Q1 earnings | 75% |
+| 7 | Strong Shunto (≥3.5%) delivers | Late March | 48% |
+| 8 | April BOJ hike to 0.75% if Shunto strong | Apr 23-24 | 85% (conditional) |
 
 ---
 

@@ -19,6 +19,38 @@ Surface metrics look manageable (unemployment 4.4%, spending holding). Underneat
 
 ---
 
+## THE LATENT POPULATION
+
+25-40% of US households are "one incident away" from crisis:
+
+| Category | Population | Trigger |
+|----------|------------|---------|
+| Can't cover $400 | 37% (~95M) | Any unexpected expense |
+| Can't cover $1,000 | 53% (~136M) | Any moderate shock |
+| Can't cover deductible | 60%+ | Any medical event |
+| Paycheck-to-paycheck | 60-64% | Single missed check |
+
+**The "23% Threshold"**: Gen Z prime contagion, medical underinsurance, DOC underinsured — all converge on 23%.
+
+**The "60% Cluster"**: Paycheck-to-paycheck, can't cover deductible, ALICE — all ~60%. Majority has no buffer.
+
+---
+
+## PHANTOM DEBT
+
+$150-200B **invisible** to credit bureaus:
+
+| Type | Volume | Bureau Visibility |
+|------|--------|-------------------|
+| BNPL outstanding | $24-36B phantom | 40-60% unreported |
+| Cash advance apps | $3-5B | 0% reported |
+| Medical (pre-collections) | $50-100B | 0% until collections |
+| Informal/family loans | $50-75B | 0% reported |
+
+**BNPL stacking**: 63% have multiple simultaneous loans = hidden leverage.
+
+---
+
 ## SIGNAL DASHBOARD
 
 | Indicator | Value | Status | Context |
@@ -85,6 +117,31 @@ Surface metrics look manageable (unemployment 4.4%, spending holding). Underneat
 **For 37% (can't cover $400), LEP is ~3 months.** Standard 12-month models are outdated.
 
 **Payment Hierarchy:** Auto (highest) → Mortgage → Student → CC (first to miss)
+
+---
+
+## DOUBLE TRIGGER DYNAMICS
+
+Default requires BOTH:
+1. **Negative equity / high leverage** (structural vulnerability)
+2. **Liquidity shock** (income disruption)
+
+Neither alone is sufficient. **Employment provides the liquidity shock.** When both triggers present, conversion rate approaches 100%.
+
+**Caregiver Multiplier:** Health shock to one member reduces income 50% MORE than that person's contribution.
+
+---
+
+## SUBPRIME AUTO STRESS
+
+| Lender | Status | Signal |
+|--------|--------|--------|
+| **Flagship Credit** | 🔴 CRITICAL | Mass layoffs, fire sale to InterVest |
+| **Exeter Finance** | 🟠 HIGH | S&P hiked ECNL on 8 ABS deals |
+| **CPSS** | 🟠 HIGH | Class-action, $900M forward flow dependency |
+| Tricolor | 💀 | $800M fraud, Fifth Third took $170M loss |
+
+**Cockroach theory:** If Tricolor hid $800M, others likely hiding losses too.
 
 ---
 
