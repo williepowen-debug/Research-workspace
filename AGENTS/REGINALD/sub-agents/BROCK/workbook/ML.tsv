@@ -24,3 +24,7 @@ DATE	EVENT	ENTITY	IMPACT	SOURCE
 2023-XX-XX	SVB/Signature/FRC collapse	Regional Banks	RED - Created void in fund finance; CFG/Huntington fill gap	FDIC
 2026-02-12	Burry short PLTR thesis published	PLTR/AI Sector	RED - FV $46 vs $135 (66% downside), 6.5% dilution, consultancy not SaaS	Burry Substack
 2025-11-30	Burry SBC Framework published	AI/Tech Sector	ORANGE - 30-50% earnings manipulation via SBC add-backs, NVDA/TSLA/AMZN cited	Burry Substack
+2026-01-09	Burry GPU Failure Analysis published	NVDA/Hyperscalers	RED - 9% Y1 failure → 35-45% Y3, 12x worse MTBF after 2-3 years, 5-6yr depreciation is fiction	Burry Substack
+2026-01-09	Burry Power Grid Bottleneck warning	AI Infra Sector	ORANGE - US grid "not capable of supporting $3T capex spend," SMRs not economically feasible	Burry Substack
+2026-01-09	Burry Blackwell Thermal Issues flagged	NVDA	ORANGE - 43-71% higher power, liquid cooling req'd, projected >50% 3Y failure rate	Burry Substack
+2026-01-09	Burry: "Inventory problem" in AI buildout	AI Sector	YELLOW - Power constraints + obsolescence = stranded GPU assets	Burry Substack
