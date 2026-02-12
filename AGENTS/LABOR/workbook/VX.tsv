@@ -1,9 +1,9 @@
 ID	Name	Current Value	Status	Green	Yellow	Orange	Red	Last Updated	Source	Notes
-VX-LAB-1.01	Initial Claims	231K	YELLOW	<230K	230-250K	250-300K	>300K	2026-02-06	DOL Week ending Feb 1	⚠️ Breached 230K threshold (+22K spike from 209K). Gig economy blind spot - 15% of workforce invisible
-VX-LAB-1.02	Continuing Claims (Weekly)	1,844K	GREEN	<1.9M	1.9-2.1M	2.1-2.5M	>2.5M	2026-01-24	DOL Weekly	Duration indicator - week ending Jan 24
+VX-LAB-1.01	Initial Claims	227K	GREEN	<230K	230-250K	250-300K	>300K	2026-02-12	DOL Week ending Feb 7	Reverted from 232K spike. Back below 230K threshold. Winter storms cited. Gig economy blind spot - 15% of workforce invisible
+VX-LAB-1.02	Continuing Claims (Weekly)	1,862K	GREEN	<1.9M	1.9-2.1M	2.1-2.5M	>2.5M	2026-02-12	DOL Week ending Feb 1	+21K WoW. Approaching 1.9M threshold. "Hotel California" - people staying on UI longer
 VX-LAB-1.02A	Continuing Claims (4-Week Avg)	~1.85M	GREEN	<1.9M	1.9-2.1M	2.1-2.5M	>2.5M	2026-01-24	DOL Weekly	Hotel California metric - smoothed duration signal
 VX-LAB-1.02B	Insured Unemployment Rate	1.2%	GREEN	<1.3%	1.3-1.5%	1.5-1.8%	>1.8%	2026-01-24	DOL Weekly	Continuing claims / covered employment (~155M). Pre-pandemic avg: 1.2%
-VX-LAB-1.03	Claims 4-Week Avg	~205K	GREEN	<230K	230-250K	250-300K	>300K	2026-02-01	DOL Weekly	Smoothed signal - artificially low?
+VX-LAB-1.03	Claims 4-Week Avg	219.5K	GREEN	<230K	230-250K	250-300K	>300K	2026-02-12	DOL Weekly	Rising (+7K WoW). Smoothed signal trending toward threshold
 VX-LAB-1.04	Indeed Postings YoY	-5.2%	YELLOW	>0%	-5% to 0%	-10% to -5%	<-10%	2026-02-01	Indeed Dec 31	AT THRESHOLD - hiring weak
 VX-LAB-2.01	NFP (MoM)	+50K (Dec)	ORANGE	>150K	50-150K	0-50K	<0	2026-02-01	BLS Dec 2025	CRITICAL: Very weak print; 2025 avg 49K vs 2024 168K
 VX-LAB-2.02	Unemployment Rate	4.4%	YELLOW	<4.3%	4.3-4.5%	4.5-5.0%	>5.0%	2026-02-01	BLS Dec 2025	At upper yellow
@@ -36,7 +36,7 @@ VX-LAB-7.07	Key Agencies Cut	IRS, EPA, CDC, FEMA, CISA, DOE	CRITICAL	-	-	-	-	202
 VX-LAB-6.03	UPS Workforce	Logistics Demand	-78K (2025-2026)	>50K cuts	>75K cuts	>100K cuts	RED	85%	2026-02-02	Reuters, NYT	78K already announced. Automated mega-hubs replacing workers. Amazon volume shrinkage. BREACHED.
 VX-LAB-6.04	Auto Sector Cuts	Manufacturing Demand	~45K (Nissan+Ford+GM+Bosch)	>30K cuts	>50K cuts	>75K cuts	ORANGE	80%	2026-02-02	Reuters, BBC, CNN	Nissan 20K + Ford 11K + Bosch 13K + GM 1.5K. Coordinated not idiosyncratic.
 VX-LAB-6.05	Prof Services Cuts	Discretionary Spend	~17K (Accenture+PwC)	>10K cuts	>20K cuts	>30K cuts	YELLOW	75%	2026-02-02	News sources	Corporate cost-cutting extending to advisory. Leading indicator.
-VX-LAB-6.06	Consumer Sector Cuts	Demand Signal	~20K (Nestle+Target+Kroger)	>15K cuts	>25K cuts	>40K cuts	YELLOW	75%	2026-02-02	News sources	Consumer-facing companies cutting = demand destruction.
+VX-LAB-6.06	Consumer Sector Cuts	Demand Signal	~26K (Nestle+Target+Kroger+Heineken)	>15K cuts	>25K cuts	>40K cuts	ORANGE	80%	2026-02-12	News sources	Consumer-facing companies cutting = demand destruction. Heineken 6K added Feb 12 (beverages = demand signal).
 VX-LAB-4.03	NFIB Hiring Plans	Small Business Intent	17% net	>20%	15-20%	10-15%	<10%	2026-02-02	NFIB Jan 2026	Up from summer low of 14%. Recovering but constrained by labor supply (33% hard to fill).
 VX-LAB-4.06	NFIB Optimism Index	Small Business Sentiment	99.5	>100	95-100	90-95	<90	2026-02-02	NFIB Jan 2026	Above 52yr avg of 98. Uncertainty dropped to 84 (lowest since June 2024). Bullish for Q1 demand.
 VX-LAB-4.07	NFIB Hard to Fill	Labor Supply Constraint	33%	<25%	25-30%	30-35%	>35%	2026-02-02	NFIB Jan 2026	Above 2007 peak (30%), below 2019 peak (39%). Structural not cyclical. 91% find few/no qualified applicants.

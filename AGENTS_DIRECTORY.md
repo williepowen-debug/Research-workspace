@@ -87,6 +87,13 @@
 **Domain:** REIT monitoring
 **Status:** Background, cross-ref with CREED
 
+### RED 🔴
+**Domain:** Network Adversarial Analysis
+**Thesis:** Find what's wrong. Challenge every thesis. Present the strongest counter-case.
+**Tracks:** Counter-evidence across all agents, cross-agent contradictions, soft landing scenarios
+**Modes:** Targeted Challenge (single agent) | Network Sweep (all agents)
+**Role:** Honesty mechanism — prevents confirmation bias
+
 ---
 
 ## TRANSMISSION CHAIN

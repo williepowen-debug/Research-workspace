@@ -1,5 +1,5 @@
 # MARCO STATUS
-**Last Updated:** 2026-02-07 | **Status:** 🟠 ORANGE — Regional Stress Pattern Validated + Multi-State Exposure Mapped
+**Last Updated:** 2026-02-12 | **Status:** 🟠 ORANGE — Regional Stress Pattern Validated + Enforcement Policy Volatility
 
 ---
 
@@ -49,6 +49,61 @@ Three domains tracked:
 | Nogales Residential | -43% YoY | 🟠 CRITICAL | Crashed |
 
 **Composite:** 10 BREACHED, 10 CRITICAL = Multi-state stress transmission underway
+
+---
+
+## ENFORCEMENT POLICY DEVELOPMENTS (Feb 11-12, 2026)
+
+**🟠 CRITICAL UPDATE: Enforcement trajectory now VOLATILE and UNPREDICTABLE**
+
+### DHS Appropriations Crisis
+- **Deadline:** Feb 13, 2026 (midnight Friday) — Congress must pass $64.4B DHS funding or face shutdown
+- **Trigger:** Minneapolis shootings (January 2026) — ICE killed two U.S. citizens (Renee Good, Alex Pretti)
+- **Senate Democrats blocked DHS bill** — Secured 2-week negotiation window for ICE/CBP reforms
+- **10-point Democratic demand list** (Jeffries/Schumer):
+  - Judicial warrants (not administrative warrants)
+  - Body cameras with footage access
+  - Face mask ban (ID visibility)
+  - Sensitive location protections (churches, schools, hospitals, courts)
+  - Use-of-force standards
+  - State/local oversight mechanisms
+
+### Policy Accelerations (Feb 2026)
+1. **ICE Warrantless Home Entry** — Internal memo allows entry with "administrative warrants" (DHS-issued, not judicial) — violates 4th Amendment norms and longstanding policy
+2. **Removal Hearing Streamlining** — EOIR clarified removal hearings can be shortened to **30 minutes** in certain jurisdictions
+3. **Facial Recognition Deployment** — ICE using real-time facial recognition to scan protesters/observers — collecting data on U.S. citizens engaging in 1st Amendment activities
+4. **Sanctuary City Provisions** — Republican push to punish sanctuary cities in DHS funding bill
+
+### The OBBBA Backstop
+- **$170B outside annual appropriations** (July 2025 One Big Beautiful Bill Act)
+  - $75B to ICE alone
+  - $65B to CBP
+- **Only $15B spent so far** (per USAspending.gov) — massive remaining capacity
+- Even if annual appropriations blocked, enforcement can continue from OBBBA funds
+- Congress can rescind via legislation before Sept 30, 2029 expiration
+
+### Implications for Thesis
+**This is NOT a simple "enforcement accelerating" story. It's a VOLATILITY story:**
+
+| Scenario | Probability | Implication |
+|----------|------------|-------------|
+| **Appropriations pass with reforms** | 40% | Enforcement constrained; judicial warrants slow operations |
+| **Appropriations pass minimal reforms** | 30% | Status quo continues; OBBBA funds enable sustained ops |
+| **Shutdown / continuing resolution** | 20% | Short-term disruption; OBBBA backstop |
+| **Major policy reversal** | 10% | Post-shooting backlash forces pullback |
+
+**Key insight:** The $170B OBBBA funding creates a **floor** for enforcement activity that annual appropriations can't easily constrain. But political backlash (Minneapolis shootings, facial recognition controversy) creates **ceiling** pressure. Result: **high volatility, low predictability.**
+
+**Cross-agent implications:**
+- **→ LABOR:** Federal govt payrolls -34K (Jan NFP) confirms DOGE/RIF impact; enforcement volatility affects ag/construction labor supply predictability
+- **→ CARL:** Uncertainty affects consumer behavior in high-immigrant communities
+- **→ REGINALD:** Border city fiscal planning complicated by unpredictable enforcement trajectory
+
+**Monitoring priorities:**
+1. Feb 13 deadline outcome
+2. Use-of-force incident frequency (leading indicator of policy sustainability)
+3. Court challenges to warrantless entry policy
+4. OBBBA spending rate (current: $15B/$170B spent)
 
 ---
 
@@ -224,7 +279,8 @@ Migration shift (UVL: "balanced") → Tax revenue at risk
 
 | Date | Event | Significance |
 |------|-------|--------------|
-| Feb 7 | BLS Employment | Latino industry validation |
+| ✅ Feb 11 | BLS Employment (Jan 2026) | +130K payrolls (beat expectations); Federal govt -34K; 2025 revised down -898K |
+| **Feb 13** | **DHS Appropriations Deadline** | **Midnight deadline; ICE/CBP funding; enforcement trajectory** |
 | ~Feb 15 | USDA Farm Labor Q4 | Ag displacement continuation |
 | ~Mar 15 | Statistics Canada Jan | First 2026 Canadian data |
 | Jul 2026 | USMCA Review | Critical for TX/AZ border economy |

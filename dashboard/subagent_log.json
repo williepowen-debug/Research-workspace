@@ -1,5 +1,35 @@
 [
   {
+    "id": "agent:marco:subagent:baf3f51c",
+    "agent": "marco",
+    "task": "Daily check-in (Feb 12)",
+    "status": "completed",
+    "result": "ORANGE - DHS appropriations deadline Feb 13, enforcement policy volatility elevated",
+    "runtime_sec": 158,
+    "timestamp": "2026-02-12 13:33:00 UTC",
+    "session_key": "agent:marco:subagent:baf3f51c-a204-4c0c-b881-55c740f8cbf2"
+  },
+  {
+    "id": "agent:carl:subagent:86af9b62",
+    "agent": "carl",
+    "task": "Daily check-in (Feb 12)",
+    "status": "completed",
+    "result": "RED - CC 12.70% (1pp from GFC), Auto 5.21% (0.06pp from max), Long-term unemployed +28% YoY",
+    "runtime_sec": 45,
+    "timestamp": "2026-02-12 13:20:00 UTC",
+    "session_key": "agent:carl:subagent:86af9b62-d7fc-40ac-8299-a7c0063bb81b"
+  },
+  {
+    "id": "agent:labor:subagent:d4a33e1b",
+    "agent": "labor",
+    "task": "Daily check-in (Feb 12)",
+    "status": "completed",
+    "result": "RED CRITICAL - Heineken 6K cuts, Claims 231K watch, Google 'severance' at ATH",
+    "runtime_sec": 47,
+    "timestamp": "2026-02-12 13:20:00 UTC",
+    "session_key": "agent:labor:subagent:d4a33e1b-8505-48bd-8bd3-1a76237730ab"
+  },
+  {
     "id": "agent:labor:subagent:b0a6391c",
     "agent": "labor",
     "task": "Federal contractor exposure research + duration analysis",
@@ -38,46 +68,6 @@
     "runtime_sec": 178,
     "timestamp": "2026-02-09 21:22:00 UTC",
     "session_key": "agent:reginald:subagent:5ecb30f6-df38-4c41-8cdd-3930688998a2"
-  },
-  {
-    "id": "agent:labor:subagent:6cb493ed",
-    "agent": "labor",
-    "task": "Domain improvement suggestions (3 ideas)",
-    "status": "completed",
-    "result": "Proposed: Gig Economy Tracker, Duration Analysis, Federal Contractor Pipeline",
-    "runtime_sec": 74,
-    "timestamp": "2026-02-09 20:38:00 UTC",
-    "session_key": "agent:labor:subagent:6cb493ed-f5bc-4a8d-91be-99e7afbc8ec9"
-  },
-  {
-    "id": "agent:carl:subagent:e440ca2f",
-    "agent": "carl",
-    "task": "Domain improvement suggestions (3 ideas)",
-    "status": "completed",
-    "result": "Proposed: Leading Indicators Automation, BNPL Stress Monitor, State Divergence Tracker",
-    "runtime_sec": 77,
-    "timestamp": "2026-02-09 20:38:00 UTC",
-    "session_key": "agent:carl:subagent:e440ca2f-8d34-4175-8bae-655a4bed33e0"
-  },
-  {
-    "id": "agent:marco:subagent:81f56c0f",
-    "agent": "marco",
-    "task": "Domain improvement suggestions (3 ideas)",
-    "status": "completed",
-    "result": "Proposed: Municipal Bond Early Warning, Ag Supply Chain Dashboard, Canadian Forward Booking",
-    "runtime_sec": 74,
-    "timestamp": "2026-02-09 20:38:00 UTC",
-    "session_key": "agent:marco:subagent:81f56c0f-d28c-4932-b16d-79c67b2237ad"
-  },
-  {
-    "id": "agent:reginald:subagent:52ba657a",
-    "agent": "reginald",
-    "task": "Domain improvement suggestions (3 ideas)",
-    "status": "completed",
-    "result": "Proposed: Weekly Data Refresh, Earnings Pre-Positioning, Live Convergence Dashboard",
-    "runtime_sec": 70,
-    "timestamp": "2026-02-09 20:38:00 UTC",
-    "session_key": "agent:reginald:subagent:52ba657a-a275-4301-9a91-85528f957c0b"
   },
   {
     "id": "agent:sam:subagent:b6dab8cb",

@@ -1,5 +1,86 @@
 [
   {
+    "id": 1770912000000,
+    "timestamp": "2026-02-12 14:00:00 UTC",
+    "type": "agent",
+    "severity": "warning",
+    "message": "LABOR: Consumer Sector Cuts escalated to ORANGE (26K total — Heineken +6K)",
+    "value": 26000,
+    "threshold": 25000
+  },
+  {
+    "id": 1770901800000,
+    "timestamp": "2026-02-12 13:30:00 UTC",
+    "type": "agent",
+    "severity": "warning",
+    "message": "MARCO: DHS appropriations deadline Feb 13 — enforcement policy volatility elevated",
+    "value": null,
+    "threshold": null
+  },
+  {
+    "id": 1770901200000,
+    "timestamp": "2026-02-12 13:20:00 UTC",
+    "type": "agent",
+    "severity": "info",
+    "message": "Daily check-ins complete: LABOR (Claims watch), CARL (CC 12.70%), MARCO (DHS deadline)",
+    "value": null,
+    "threshold": null
+  },
+  {
+    "id": 1770854400000,
+    "timestamp": "2026-02-11 23:55:00 UTC",
+    "type": "research",
+    "severity": "critical",
+    "message": "4 major research prompts completed: CREED-8 (Capitulation), CORAL-8 (SSB FL), LABOR-12 (Gig), SAM-10 (Shunto)",
+    "value": null,
+    "threshold": null
+  },
+  {
+    "id": 1770854000000,
+    "timestamp": "2026-02-11 23:50:00 UTC",
+    "type": "threshold",
+    "severity": "critical",
+    "message": "SAM: Shunto probability FLIPPED — Strong now 48% (was 20%), April BOJ hike 85% conditional",
+    "value": 48,
+    "threshold": 20
+  },
+  {
+    "id": 1770853800000,
+    "timestamp": "2026-02-11 23:45:00 UTC",
+    "type": "data",
+    "severity": "critical",
+    "message": "LABOR: NFP benchmark revision -898K jobs — largest since 2009 GFC. 2025 job growth cut 69%.",
+    "value": -898000,
+    "threshold": null
+  },
+  {
+    "id": 1770768600000,
+    "timestamp": "2026-02-10 20:30:00 UTC",
+    "type": "threshold",
+    "severity": "critical",
+    "message": "CARL: Auto 90+ DQ hit 5.21% — only 0.06pp from historical max (5.27%)",
+    "value": 5.21,
+    "threshold": 5.27
+  },
+  {
+    "id": 1770768400000,
+    "timestamp": "2026-02-10 20:27:00 UTC",
+    "type": "threshold",
+    "severity": "critical",
+    "message": "CARL: CC 90+ DQ hit 12.70% — only 1.04pp from GFC peak (13.74%)",
+    "value": 12.70,
+    "threshold": 13.74
+  },
+  {
+    "id": 1770768200000,
+    "timestamp": "2026-02-10 20:25:00 UTC",
+    "type": "threshold",
+    "severity": "critical",
+    "message": "CARL: FL Foreclosures +190% YoY — RED threshold breached (was +57%)",
+    "value": 190,
+    "threshold": 200
+  },
+  {
     "id": 1770768000000,
     "timestamp": "2026-02-09 21:20:00 UTC",
     "type": "research",
