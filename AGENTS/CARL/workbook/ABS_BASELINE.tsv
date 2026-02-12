@@ -1,0 +1,35 @@
+Trust	Type	Issuer	60+_DQ	90+_DQ	Payment_Rate	Charge_Off	Status	Date	Source	Notes
+# ABS TRUST BASELINE DATA
+# Priority trusts for CARL consumer stress monitoring
+# Full extraction pending; this is partial baseline from available data
+
+# SUBPRIME AUTO (Highest Signal)
+Santander_Drive_2024	Subprime Auto	Santander	>6.0%	TBD	TBD	TBD	🔴 CRITICAL	Oct-2025	Fitch/KBRA	Record high 60+ DQ for subprime; bellwether trust
+Exeter_2024	Deep Subprime Auto	Exeter Finance	TBD	TBD	TBD	20.75% ECNL	🔴 CRITICAL	2025	S&P	S&P hiked expected cumulative net loss on 8 deals
+Aggregate_Subprime_Auto	Subprime Auto	Multiple	>6.0%	TBD	TBD	TBD	🔴 CRITICAL	Oct-2025	CBT News	Record delinquency; financial strain deepening
+
+# PRIME AUTO (Baseline Comparison)
+Aggregate_Prime_Auto	Prime Auto	Multiple	0.2%	TBD	TBD	TBD	🟢 NORMAL	Oct-2025	Fitch	Pristine; shows K-shape bifurcation
+
+# CREDIT CARD (Pending Full Extraction)
+Discover_DCMT	Prime CC	Discover	TBD	TBD	TBD	TBD	TBD	Pending	EDGAR 10-D	Priority trust for CC baseline
+Capital_One_COMET	Mix CC	Capital One	TBD	TBD	TBD	TBD	TBD	Pending	EDGAR 10-D	Prime/subprime mix
+Synchrony_SYNIT	Retail CC	Synchrony	TBD	TBD	TBD	TBD	TBD	Pending	EDGAR 10-D	Retail card exposure
+
+# OVERALL AUTO MARKET
+Aggregate_All_Auto	All Auto	TransUnion	1.47%	TBD	TBD	TBD	🟡 ELEVATED	Q4-2024	TransUnion	Above 2009 peak (1.46%)
+
+# KEY INSIGHT:
+# Subprime Auto 60+ DQ >6% (record) vs Prime 0.2% = 30x differential
+# This is the K-shape in real-time: same economy, completely different credit performance
+# Employment shock will collapse the prime side toward subprime
+
+# NEXT STEPS:
+# 1. Pull Jan 2026 10-D from EDGAR for Discover, Capital One, Santander
+# 2. Establish payment rate baseline (leading indicator)
+# 3. Track vintage performance (2024/2025 vs 2019 baseline)
+
+# THRESHOLDS:
+# Subprime Auto 60+ DQ: 🟢<4% | 🟡4-5% | 🟠5-6% | 🔴>6%
+# Prime Auto 60+ DQ: 🟢<0.3% | 🟡0.3-0.5% | 🟠0.5-1% | 🔴>1%
+# CC Payment Rate: 🟢>20% | 🟡18-20% | 🟠15-18% | 🔴<15%
