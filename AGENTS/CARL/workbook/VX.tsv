@@ -15,7 +15,7 @@ VX-CARL-2.04	Auto Insurance CPI	INSURANCE	20-30% YoY	25%	35%	50%	YELLOW	HIGH	202
 VX-CARL-2.05	Utility Arrears	UTILITIES	$23B	$20B	$25B	$30B	ORANGE	MEDIUM	2026-01-22	Utility Reports	1-in-6 households behind
 VX-CARL-2.06	Uninsured Rate (Medical)	INSURANCE	~10%	12%	15%	20%	YELLOW	MEDIUM	2026-01-22	Census/KFF	ACA cliff activated
 VX-CARL-3.01	Jobs Spread	LABOR	8 pts	5	0	<0	YELLOW	HIGH	2026-01-22	JOLTS	Approaching inversion
-VX-CARL-3.02	Long-term Unemployed	LABOR	1.95M	2M	2.5M	3M	GREEN	HIGH	2026-01-22	BLS	Below threshold
+VX-CARL-3.02	Long-term Unemployed	LABOR	1.8M	2M	2.5M	3M	YELLOW	HIGH	2026-02-12	BLS Jan 2026	+386K YoY (+28%); "Hotel California" - 25% of unemployed stuck 27+ weeks
 VX-CARL-3.03	Govt Workforce Drop	LABOR	162K	100K	150K	200K	ORANGE	MEDIUM	2026-01-22	BLS	LIHEAP staff eliminated
 VX-CARL-3.04	Savings Rate	MACRO	~4.5%	4%	3%	<3%	YELLOW	HIGH	2026-01-22	BEA	Master switch - buffer exhaustion
 VX-CARL-4.01	Hardship 401k Withdrawals	BUFFER	4.8%	4.5%	5%	5.5%	ORANGE	HIGH	2026-01-22	Vanguard	ATH - buffer exhaustion
