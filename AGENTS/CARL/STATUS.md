@@ -1,546 +1,147 @@
 # CARL STATUS
-**Last Updated:** 2026-02-12 | **Status:** 🔴 RED — CC Approaching GFC Peak, Auto at Historic Max
-
-> **Q4 2025 NY Fed Household Debt Report (Feb 10, 2026):** Credit card 90+ DQ at **12.70%** — only 1pp from GFC peak (13.74%). Auto 90+ DQ at **5.21%** — essentially at historical maximum. Florida foreclosures +190% YoY. This is not "stabilized" — it's accelerating into the danger zone.
+**Last Updated:** 2026-02-12 | **Status:** 🔴 RED — CC 92% of GFC Peak, Auto at Historic Max
 
 ---
 
 ## THESIS
 
-**"Beneath the Ice" — 60% of America is structurally fragile, and employment is the trigger.**
+**"Beneath the Ice" — 60% of America is structurally fragile, employment is the trigger.**
 
-Surface metrics look manageable (unemployment 4.4%, consumer spending holding). But underneath:
-- **25-40% of households** are ONE INCIDENT away from financial crisis
-- **$150-200B phantom debt** invisible to credit bureaus (BNPL, cash advances, medical)
-- **60%+ can't cover their deductible** — any medical event = instant debt creation
-- **37% can't cover $400** — job loss converts to missed payments in weeks, not months
+Surface metrics look manageable (unemployment 4.4%, spending holding). Underneath:
+- **37% can't cover $400** — job loss converts to missed payments in weeks
+- **$150-200B phantom debt** invisible to bureaus (BNPL, cash advances, medical)
+- **60%+ can't cover deductible** — any medical event = instant debt
+- **63% BNPL stacking** — multiple simultaneous loans = hidden leverage
 
-The latent vulnerability is loaded. **Employment is the detonator.**
+**Employment is the detonator.** Per LABOR: ~580K layoffs announced, temp -12%, severance exhausts Q2-Q3.
 
-Per LABOR: ~580K layoffs announced, temp employment -12%, severance runways exhaust Q2-Q3 2026.
-Per REGINALD: Claims >300K or U-3 >5.0% → all ORANGE banks escalate simultaneously.
-
-**CARL sits in the middle of this chain.** Employment shock → Consumer distress → Bank credit losses.
-
-**⚠️ Alternate Path — HENRY → CARL (Reverse Wealth Effect):**
-If SPX drops 10%+, the top 60% (whose spending has held up the K-shape) suddenly pull back. K-shape collapses from the TOP, not just the bottom. This transmission bypasses LABOR — market crash → wealth destruction → spending collapse → bank credit losses. Fast path.
+**Alternate Path — HENRY → CARL:** If SPX drops 10%+, top 60% pulls back spending. K-shape collapses from TOP, bypasses LABOR.
 
 ---
 
 ## SIGNAL DASHBOARD
 
-| Indicator | Value | Status | Implication |
-|-----------|-------|--------|-------------|
-| **CC Delinquency 90+** | **12.70%** | 🔴 | **92% of GFC peak (13.74%)** — Q4 2025 |
-| CC Transition Rate (90+) | **7.1%** | 🔴 | 3rd highest since Q1 2011 |
-| CC Rise Since Q3 2022 | **+5.1 pp** | 🔴 | **LARGER than 2008-09 rise** — Kobeissi |
-| **Auto Delinquency 90+** | **5.21%** | 🔴 | **At historical max (5.27%)** — Q4 2025 |
-| Auto Delinquency 60+ (Monoline) | **16.6%** | 🔴 | Historic highs for non-bank lenders |
-| Negative Equity (Auto) | **52.9%** | 🔴 | Over half of borrowers "upside down" |
-| **Total Household Debt** | **$18.78T** (record) | 🔴 | +$4.6T since 2019 — Q4 2025 |
-| All Debt 90+ DQ | **3.12%** | 🟠 | Elevated, rising |
-| Medical Debt (collections) | $88-140B | 🟠 | Plus $50-100B pre-collections |
-| BNPL Stacking | 63% simultaneous | 🔴 | Hidden leverage multiplier |
-| Hardship 401k Withdrawals | ATH (4.8-5.0%) | 🔴 | Buffer exhaustion signal |
-| **FL 90+ Delinquency** | **4.10%** | 🔴 | +49% YoY (was 2.76%) |
-| **FL Foreclosures YoY** | **+190%** | 🔴 | Employment→housing accelerating |
-| **National Foreclosures (Q4 2025)** | **58,140** | 🟠 | **+41% YoY** — Validates Q2 2026 wave |
-| **Fannie Multifamily Serious DQ** | **0.75%** | 🟠 | **94% of GFC peak** — 5bps from 0.80% |
-| **Freddie Multifamily Serious DQ** | **0.48%** | 🟠 | **Highest in 21 years** — Doubled in 2 years |
-| **NAR Housing Crisis Declaration** | **"New crisis"** | 🔴 | Chief Economist admits crisis — consensus break |
-| **Student Loan 30+ DQ** | **16.3%** | 🔴 | **WORST EVER** — Q4 2025, up from ~1% |
-| **Student Loan 90+ DQ** | **9.5%** | 🔴 | $159B delinquent (+$150B YoY) |
-| **SAVE Plan** | **ENJOINED** | 🔴 | 7M+ in limbo, IDR suspended |
-| **BNPL Late Payments** | **41%** | 🟠 | +7pp YoY deterioration |
-| **CC Utilization Rate** | **23.6%** | 🟡 | $1.28T / $5.42T; 60% carry balance |
-| **Subprime Auto ABS 60+ DQ** | **>6%** | 🔴 | **RECORD** — vs Prime 0.2% (30x gap) |
-| **Medical Collections** | **$88B** | 🟠 | 43M credit reports; 58% of all collections |
+| Indicator | Value | Status | Context |
+|-----------|-------|--------|---------|
+| **CC 90+ DQ** | **12.70%** | 🔴 | 92% of GFC peak (13.74%) |
+| CC Rise Since Q3 2022 | +5.1 pp | 🔴 | LARGER than 2008-09 rise |
+| **Auto 90+ DQ** | **5.21%** | 🔴 | At historical max |
+| Auto 60+ (Monoline) | 16.6% | 🔴 | Non-bank historic highs |
+| Negative Equity (Auto) | 52.9% | 🔴 | Over half underwater |
+| **Student Loan 30+ DQ** | **16.3%** | 🔴 | WORST EVER |
+| **Student Loan 90+ DQ** | **9.5%** | 🔴 | +$150B YoY |
+| Total Household Debt | $18.78T | 🔴 | Record |
+| **Fannie MF DQ** | **0.75%** | 🟠 | 94% of GFC peak (0.80%) |
+| **Freddie MF DQ** | **0.48%** | 🟠 | Highest in 21 years |
+| **National Foreclosures Q4** | **58,140** | 🟠 | +41% YoY |
+| **FL Foreclosures** | +190% YoY | 🔴 | Employment→housing accelerating |
+| BNPL Late Payments | 41% | 🟠 | +7pp YoY |
+| BNPL Subprime Share | 61% | 🔴 | |
+| CC Utilization | 23.6% | 🟡 | 60% carry balance |
+| **Subprime Auto ABS 60+** | **>6%** | 🔴 | RECORD (vs Prime 0.2%) |
 
-**Age Breakdown (transition into 90+ days):**
-- 18-29: **9.5%** (hardest hit)
-- 30-39: **8.6%**
-- 40-49: 8.1%
-- 50-59: 6.2%
-
-**Retail Sales (Dec 2025):** 0% MoM (vs +0.4% est), Control Group **-0.1%** (first decline in 3 months). Discretionary pulling back: Furniture -0.9%, Clothing -0.7%, Electronics -0.4%.
-
-**Tariff Tax Burden (Tax Foundation, Feb 2026):**
-- 2025: **$1,000/household** effective tax increase
-- 2026: **$1,300/household** if current policies persist
-
-This is an additional stress vector — tariffs are effectively a regressive consumption tax hitting the "37% can't cover $400" population hardest.
+**Age breakdown (transition to 90+ days):** 18-29: 9.5% | 30-39: 8.6% | 40-49: 8.1%
 
 ---
 
-## 🆕 HOUSING VELOCITY COLLAPSE (Feb 12, 2026)
-
-**Existing Home Sales: -8.4% MoM** (biggest drop in 4 years)
+## HOUSING VELOCITY COLLAPSE (Feb 12)
 
 | Metric | Jan 2026 | Context |
 |--------|----------|---------|
-| Sales (SAAR) | 3.91M | Lowest since Dec 2023 |
-| Days on Market | **46 days** | Up from 39 |
-| South Region | **-9.0% MoM** | Worst region |
-| West Region | **-10.3% MoM** | Biggest drop |
+| Existing Home Sales | -8.4% MoM | Biggest drop in 4 years |
+| Days on Market | 46 days | Up from 39 |
+| South Region | -9.0% MoM | Worst region |
 
-**South Florida = Slowest Housing Markets in US:**
+**South Florida = Slowest Markets in US:**
+- Ft. Lauderdale: 99 days (#2 slowest)
+- Miami: 92 days (#4)
+- West Palm Beach: 87 days (#5)
 
-| Metro | Days on Market | National Rank |
-|-------|----------------|---------------|
-| Ft. Lauderdale | 99 days (+19% YoY) | #2 Slowest |
-| Miami | 92 days (+12% YoY) | #4 Slowest |
-| West Palm Beach | 87 days (+7% YoY) | #5 Slowest |
-| Austin, TX | — | #1 Slowest |
-
-**Why this matters for CARL:**
-- **Hotel California extends to housing** — Can't sell, can't exit
-- Stressed homeowners trapped → delinquency duration extends
-- Bank collateral cannot be liquidated → loss recognition delayed
-- First-time buyers only 31% (vs historic 40%) — affordability crisis
-
-**Composite Assessment:** 🔴 **CRITICAL** — CC at 92% of GFC peak, auto at historical max. The +5.1pp rise since Q3 2022 is **larger than the entire 2008-2009 increase**. Young Americans (18-39) transitioning into serious delinquency at crisis rates. Tariff burden adds $1,000-1,300/household stress. Housing velocity collapsed. Florida is the leading indicator — now confirmed as slowest housing market in America.
+**NAR Chief Economist (Feb 12):** "We are in a new housing crisis. Americans are stuck."
 
 ---
 
-## 🆕 FORECLOSURE ACCELERATION — Q2 2026 TIMELINE CONFIRMED (Feb 12, 2026)
+## STATE STRESS DIFFUSION
 
-**National Foreclosures (Q4 2025): 58,140 (+41% YoY)**
+| Tier | States | Key Metrics |
+|------|--------|-------------|
+| **CRITICAL** | **FL** (canary), TX, MS, LA, NV | CC 3.2-4.8%, Auto 5.4-6.5%, Foreclosure +38-190% |
+| **WATCH** | AZ, GA, SC | CC 3.0-3.4%, Auto 5.2-5.5% |
 
-| Metric | Q4 2025 | Q4 2024 | Q4 2021 | YoY Change |
-|--------|---------|---------|---------|------------|
-| Foreclosures | **58,140** | 41,220 | 8,860 | **+41%** |
-
-**Source:** NY Fed Consumer Credit Panel/Equifax (published Feb 10, 2026)
-
-### Trajectory Analysis
-
-- **556% above Q4 2021 trough** (58,140 / 8,860 = 6.56x)
-- **Sustained acceleration:** Following FL +190% YoY (ATTOM)
-- **Geographic spread:** National data validates FL as leading indicator
-
-### Q2 2026 Timeline: UNCHANGED — ON SCHEDULE
-
-**Original forecast (Wright + CARL):** Foreclosures accelerate Q2 2026
-
-**Q4 2025 data interpretation:**
-- Q4 2025 = **SETUP** (delinquency acceleration)
-- Q2 2026 = **CONVERSION** (DQ → foreclosure completion)
-
-**Lag structure:**
-- DQ spike: Nov 2025 = 609K new delinquencies (ML-CARL-DQ-001)
-- Foreclosure lag: 6-12 months from DQ → completion
-- Peak foreclosures: Q2-Q3 2026
-
-**Wright's forecast validated:** Not early, not late. **On schedule.**
-
-### NAR Chief Economist: "New Housing Crisis"
-
-**Lawrence Yun (NAR Chief Economist), Feb 12, 2026:**
-> "We are in a new housing crisis. Americans are stuck."
-
-**Supporting data:**
-- Home sales: -8.4% MoM (Dec-Jan), -4.4% YoY
-- Days on market: 46 days (up from 39)
-- First-time buyers: 31% (vs historic 40%)
-
-**Significance:** This is **consensus-breaking**. The NAR — the official voice of the real estate industry — is admitting crisis, not housing bears or bloggers. The "soft landing" narrative is dead.
-
-### Multifamily Stress Near GFC Peak
-
-**Kobeissi Letter (Feb 11-12, 2026):**
-
-| Agency | Serious DQ | Context |
-|--------|------------|---------|
-| **Fannie Mae** | **0.75%** | **94% of GFC peak (0.80%)** — 5bps away |
-| **Freddie Mac** | **0.48%** | **Highest in 21 years** — Doubled in 2 years |
-| 2014-2019 avg | 0.01%-0.10% | Baseline |
-
-**Transmission chain:**
-```
-Consumer stress (CARL)
-    ↓
-Multifamily DQ (renters can't pay)
-    ↓
-CRE stress (CREED) (landlords can't pay)
-    ↓
-Bank losses (REGINALD)
-```
-
-### Auto Credit Canary: Carvana -16% in 2 Days
-
-**Event (Feb 10-12, 2026):**
-- Judge ordered document turnover re: Drivetime
-- Allegedly hiding **$1B+ in losses**
-- Stock dropped **-16%** in 2 days
-
-**Context:**
-- Follows Tricolor ($800M fraud), PrimaLend (Ch 11), Flagship fire sale
-- Subprime auto 90+ DQ: 5.21% (at historical max)
-- Negative equity: 52.9% (over half underwater)
-
-**Cockroach theory:** If Carvana is hiding $1B+, others likely are too.
-
-**Transmission:** Auto lender distress → ABS market freeze → Bank warehouse losses (already happening: JPM, Fifth Third took $200M+ combined)
-
-### Multi-Vector Convergence
-
-**All three major consumer debt categories showing stress simultaneously:**
-
-1. **Single-family housing:** Foreclosures +41% YoY, NAR declares "crisis"
-2. **Multifamily:** DQ at 94% of GFC peak (Fannie)
-3. **Auto:** Carvana distress, subprime at 5.21% DQ
-
-This is **not isolated stress**. This is **systemic consumer distress** across all major asset classes.
-
-### SSB Thesis Implications
-
-**SSB exposure (from 10-K):**
-- FL: 23% of loan book (4th largest market)
-- TX: 19% of loan book (3rd largest market)
-
-**New stress signals:**
-1. **National foreclosures +41%** → SSB's FL/TX exposure is in the epicenter
-2. **FL = 3 of top 5 slowest housing markets** (Ft. Lauderdale #2, Miami #4, West Palm #5)
-3. **Multifamily DQ near GFC peak** → SSB has multifamily exposure (check next 10-Q)
-4. **NAR declares crisis** → Undermines "soft landing" narrative supporting SSB valuation
-
-**SSB "Support and Survive" risk:**
-- Longer forbearance = more time for stress to convert to default
-- 2024/2025 vintages at risk (post-rate-shock originations)
-- Q2 2026 foreclosure wave will hit FL/TX disproportionately
-
-**Watch:** SSB Q1 2026 earnings (Apr 2026) for FL/TX DQ trends and early payment defaults.
-
----
-
----
-
-## ABS TRUSTEE REPORT MONITORING
-
-**Status:** 🟡 FRAMEWORK ESTABLISHED — Baseline data collection in progress
-
-**Purpose:** Real-time consumer payment stress via monthly ABS performance data (30-45 day lag vs NY Fed's 60-90 day lag)
-
-**Why This Matters:**
-- **30-45 day earlier signal** than NY Fed quarterly reports
-- **Payment Rate = Leading Indicator** — drops 1-2 months BEFORE delinquencies rise
-- **Monthly granularity** — can detect stress acceleration in real-time
-- **Vintage tracking** — isolate 2024/2025 underwriting quality vs 2019 baseline
-
-**Watchlist (11 trusts across credit spectrum):**
-
-**Credit Card (5):**
-- Discover Card Master Trust I (broad consumer base)
-- American Express Credit Account Master Trust (prime/super-prime benchmark)
-- Capital One Multi-asset Execution Trust (prime/subprime mix)
-- Synchrony Credit Card Master Note Trust (retail card exposure)
-- Citibank Credit Card Issuance Trust (major bank issuer)
-
-**Auto (6):**
-- Santander Drive Auto Receivables Trust (subprime bellwether)
-- Exeter Finance auto trusts (deep subprime, S&P elevated loss expectations)
-- Ally Auto Receivables Trust (prime/near-prime)
-- CarMax Auto Owner Trust (used car indicator)
-- Toyota Auto Receivables Owner Trust (prime baseline)
-- GM Financial Auto Leasing Trust (lease vs retail)
-
-**Key Metrics Tracked:**
-1. **Principal Payment Rate** (% of balance paid monthly) — LEADING INDICATOR
-2. **30+ Day Delinquency** — Early-stage stress
-3. **Charge-off Rate** — Final confirmation
-4. **Vintage Performance** — 2024/2025 vs 2019 baseline
-
-**Alert Thresholds (Credit Card):**
-- 🟡 YELLOW: Payment rate 18-20%, 30+ DQ 4-5%
-- 🟠 ORANGE: Payment rate 15-18%, 30+ DQ 5-7%
-- 🔴 RED: Payment rate <15%, 30+ DQ >7%
-
-**Alert Thresholds (Subprime Auto):**
-- 🟡 YELLOW: Payment rate 3.5-4%, 30+ DQ 10-12%
-- 🟠 ORANGE: Payment rate 3-3.5%, 30+ DQ 12-15%
-- 🔴 RED: Payment rate <3%, 30+ DQ >15%
-
-**Monthly Protocol:**
-- Week 1: Check issuer IR sites for early data
-- Week 2-3: Pull Form 10-D from EDGAR (due within 15 days of distribution)
-- Week 3-4: Update VX.tsv, compare to baselines, flag breaches
-
-**Integration Points:**
-- **LABOR → ABS:** Payment rate should drop 30-60 days after UI exhaustion begins (FL test case)
-- **ABS vs NY Fed:** Divergence detection — ABS stress shows before quarterly data
-- **ABS → REGINALD:** Stress in Jan-Feb 2026 → Bank NCO warnings Apr-May 2026
-
-**Current Status:**
-- Framework document: ✅ Complete (`domain/workbook/ABS_TRACKING_FRAMEWORK.md`)
-- VX.tsv vectors: ✅ Added (VX-CARL-ABS-01 through ABS-14)
-- ML.tsv master log: ✅ Created (ML-CARL-ABS-001)
-- Baseline data: 🔄 IN PROGRESS (targeting Discover, Capital One, Santander)
-- First monthly cycle: 📅 SCHEDULED (Feb 15, 2026 for Jan data)
-
-**Next Actions:**
-1. Pull Jan 2026 data from 3 priority trusts (baseline establishment)
-2. Add FL.tsv calendar entries for monthly ABS checks
-3. First comparative analysis (ABS Jan data vs NY Fed Q4 data)
-
-**Reference:** `domain/workbook/ABS_TRACKING_FRAMEWORK.md`
-
----
-
-## THE LATENT POPULATION
-
-25-40% of US households are "one incident away" from crisis:
-
-| Category | Population | Trigger |
-|----------|------------|---------|
-| Can't cover $400 | 37% (~95M) | Any unexpected expense |
-| Can't cover $1,000 | 53% (~136M) | Any moderate shock |
-| Can't cover deductible | 60%+ | Any medical event |
-| Underinsured (medical) | 23% (~46M) | Single diagnosis |
-| Paycheck-to-paycheck | 60-64% | Single missed check |
-| ALICE households | 33% | Any income disruption |
-
-**The "23% Threshold"**: Three independent metrics (Gen Z prime contagion, medical underinsurance, DOC underinsured) converge on 23%. This may be a structural breaking point.
-
-**The "60% Cluster"**: Paycheck-to-paycheck, can't cover deductible, ALICE — all ~60%. Majority of America has no buffer.
-
----
-
-## PHANTOM DEBT
-
-$150-200B in consumer debt **invisible** to credit bureaus:
-
-| Type | Volume | Bureau Visibility |
-|------|--------|-------------------|
-| BNPL outstanding | $24-36B phantom | 40-60% unreported |
-| Cash advance apps | $3-5B | 0% reported |
-| Earned wage access | $2-4B | 0% reported |
-| Medical (pre-collections) | $50-100B | 0% until collections |
-| Informal/family loans | $50-75B | 0% reported |
-
-**Why it matters:** Traditional underwriting models don't see this debt. A consumer with "good credit" may already be stretched thin by phantom obligations. When employment shock hits, they convert faster than models predict.
-
-**BNPL stacking**: 63% of BNPL users have multiple simultaneous loans. This is hidden leverage.
-
----
-
-## 🆕 BNPL HEALTH MONITOR (Feb 12, 2026)
-
-**Source:** Richmond Fed Economic Brief 26-05 (Feb 2026)
-
-### Market Overview
-| Metric | Value | Context |
-|--------|-------|---------|
-| Total Transaction Value | **$70B** | ~20% annual growth |
-| Share of CC Spending | 1.1% | Small but growing |
-| Outstanding Debt (avg) | $3.02B | Short-term loans cycle fast |
-| Charge-Off Rate | 1.83% (2023) | Down from 2.63% (2022) |
-
-### 🔴 STRESS SIGNALS
-
-| Indicator | Value | Threshold | Status |
-|-----------|-------|-----------|--------|
-| **Late Payment Rate** | **41%** | >45% | 🟠 ELEVATED |
-| Prior Year | 34% | — | +7pp YoY deterioration |
-| **Subprime Concentration** | **61%** | >55% | 🔴 CRITICAL |
-| Repayment Confidence | 59% "very confident" | <55% | 🟡 WATCH |
-
-**Key Insight:** 41% of BNPL users made at least one late payment in 2025 (up from 34% in 2024). This is a **leading indicator** — late payments spike before charge-offs rise.
-
-### User Profile (Hidden Risk)
-| Credit Tier | FICO Range | Share of Originations |
-|-------------|------------|----------------------|
-| **Deep Subprime** | 300-579 | **45%** |
-| **Subprime** | 580-619 | **16%** |
-| Near-Prime+ | 620+ | 39% |
-
-**61% of BNPL originations go to subprime or worse.** These are the same consumers with:
-- CC 90+ DQ at 12.70%
-- Auto 90+ DQ at 5.21%
-- 63% BNPL stacking (multiple simultaneous loans)
-
-### Provider Dashboard
-
-| Provider | 30+ DQ | Status | Next Earnings |
-|----------|--------|--------|---------------|
-| Affirm | 4.2% | 🟢 GREEN | Feb 12 |
-| Klarna | 3.8% | 🟢 GREEN | IPO (Mar?) |
-| Afterpay | 5.1% | 🟡 YELLOW | Feb 20 (Block) |
-| PayPal | 3.2% | 🟡 YELLOW | Feb 5 ✅ |
-
-**Watch:** Afterpay crossing 5% threshold; no late fees = faster stress conversion.
-
-### Credit Bureau Reporting (Jun 2025)
-- **Affirm:** Now reporting to bureaus (positive for visibility)
-- **Klarna, Afterpay:** Resisting — argue models penalize short-term usage
-- **Implication:** Still ~40-60% of BNPL debt unreported
-
-### Transmission Path
-```
-Employment shock (LABOR)
-    ↓ (0-3 months)
-BNPL users (61% subprime) miss payments first
-    ↓
-Late payments spike (41% → ?%)
-    ↓
-Charge-offs follow (lagging 3-6 months)
-    ↓
-CC/Auto stress (BNPL users carry higher balances)
-    ↓
-Bank NCOs (REGINALD)
-```
-
-**Reference:** `workbook/BNPL_STRESS.tsv`, `sources/RichmondFed_BNPL_2026-02.md`
-
----
-
-## 🆕 STUDENT LOAN CRISIS (Feb 12, 2026)
-
-**Source:** NY Fed Q4 2025 Household Debt Report (Feb 10, 2026)
-
-### Delinquency Explosion
-
-| Metric | Q4 2025 | Prior (Forbearance) | Status |
-|--------|---------|---------------------|--------|
-| **30+ Day DQ Rate** | **16.3%** | ~1% | 🔴 **WORST EVER** |
-| **90+ Day DQ Rate** | **9.5%** | ~1% | 🔴 CRITICAL |
-| **30+ Day Delinquent** | **$271B** | — | 16.4% of total |
-| **90+ Day Delinquent** | **$159B** | ~$9B | **+$150B YoY** |
-| **Total Student Debt** | $1.66T | $1.60T | +$60B |
-
-**What happened:** Federal student loans came out of 4-year forbearance. Delinquencies that were hidden are now appearing on credit reports. This is one of the largest credit stress events in US history.
-
-### SAVE Plan Litigation
-
-| Element | Status |
-|---------|--------|
-| **SAVE Plan** | 🔴 ENJOINED by courts |
-| **IDR Applications** | 🔴 SUSPENDED |
-| **Borrowers in Limbo** | **7M+** in administrative forbearance |
-| **On-Ramp Protection** | Ended Oct 2024 |
-
-**7M+ borrowers cannot make progress on debt AND cannot fall delinquent** — frozen in place while litigation continues.
-
-### Credit Score Destruction
-
-**>9 million borrowers** face significant credit score drops:
-
-| Prior Credit Score | Average Drop |
-|--------------------|--------------|
-| 760+ (Superprime) | **-171 points** |
-| 720-759 | -165 points |
-| 660-719 | -165 points |
-| 620-659 | -143 points |
-| <620 (Subprime) | -87 points |
-
-**Implication:** Credit access reduced → higher rates on CC/auto → debt service burden increases → spending pulls back.
-
-### Spillover Risk
-
-**JPMorgan Research:**
-- Collections reduce disposable income **$3.1-8.5B/month**
-- People adding CC debt BECAUSE student loans consuming income
-- Student loan stress → CC stress → Auto stress (cascade)
-
-### Population at Risk
-
-| Group | Count | Risk |
-|-------|-------|------|
-| SAVE enrollees | 7M+ | Frozen, no progress |
-| Delinquent borrowers | 9.7M | Credit score destruction |
-| Potential defaulters | 4.3M | Default cliff 2026 |
-| Total portfolio at risk | $600B | 38% of $1.58T |
-
-### Transmission Path
-```
-SAVE litigation continues
-    ↓
-9M+ face credit score drops (87-171 points)
-    ↓
-Credit access reduced → rates rise
-    ↓
-CC/Auto balances increase (spillover)
-    ↓
-Consumer spending pulls back
-    ↓
-REGINALD → Bank NCOs
-```
-
-**Reference:** `sources/StudentLoan_Data_2026-02.md`
+**TX is #2 behind FL — SSB has 19% TX exposure.**
 
 ---
 
 ## CONVERSION VELOCITY
 
-**Timeline from trigger to delinquency has COMPRESSED vs historical norms.**
+**Timeline COMPRESSED vs historical norms:**
 
-| Trigger | Time to First Missed Payment |
-|---------|------------------------------|
+| Trigger | Time to First Miss |
+|---------|-------------------|
 | Job loss (hourly/gig) | 0-1 month |
-| Divorce/separation | 1-3 months |
 | Job loss (salaried) | 2-5 months |
-| Auto accident | 3-6 months |
 | Medical event | 3-9 months |
 
-**Critical finding:** For 37% of Americans (can't cover $400), the Loss Emergence Period is effectively **3 months or less**. Standard 12-month LEP models are dangerously outdated.
+**For 37% (can't cover $400), LEP is ~3 months.** Standard 12-month models are outdated.
 
-**Payment Hierarchy (2024-2025):**
-1. Auto loan (highest priority — need car for work)
-2. Mortgage
-3. Student loan (garnishment threat)
-4. Credit card (lowest priority — first to miss)
-
-**Implication:** Credit card delinquencies are the early warning signal. They rise first.
-
----
-
-## DOUBLE TRIGGER DYNAMICS
-
-Default requires BOTH conditions:
-1. **Negative equity / high leverage** (structural vulnerability)
-2. **Liquidity shock** (income disruption)
-
-Neither alone is sufficient. **Employment provides the liquidity shock.**
-
-When both triggers present, conversion rate approaches **100%**.
-
-**The Caregiver Multiplier:** Health shock to one household member reduces income by 50% MORE than that person's contribution (caregiver reduces hours). Doubles effective shock.
+**Payment Hierarchy:** Auto (highest) → Mortgage → Student → CC (first to miss)
 
 ---
 
 ## TRANSMISSION TO REGINALD
 
-CARL → REGINALD pathway:
-
 ```
-Employment shock (LABOR)
-    ↓ 0-3 months
-Consumer misses payments (CARL)
-    ↓ 30-90 days
-Delinquency → Charge-off (CARL)
-    ↓ 90-180 days
-Bank NCOs rise (REGINALD)
-    ↓ Earnings release
-Stock drops → Deposit flight → Credit tightens
+Employment shock (LABOR) → 0-3 months
+Consumer misses payments (CARL) → 30-90 days  
+Delinquency → Charge-off (CARL) → 90-180 days
+Bank NCOs rise (REGINALD) → Earnings release
 ```
 
 **Timeline:** 3-9 months from employment break to visible bank credit deterioration.
 
-**LABOR danger window (Q2-Q3 2026) → CARL conversion (Q3-Q4 2026) → REGINALD stress (Q4 2026-Q1 2027)**
+**LABOR danger (Q2-Q3 2026) → CARL conversion (Q3-Q4 2026) → REGINALD stress (Q4 2026-Q1 2027)**
 
 ---
 
-## GEOGRAPHIC HOTSPOTS
+## PREDICTIONS
 
-| State | Signal | Data |
-|-------|--------|------|
-| **Florida** | 🔴 CANARY | WARN +76%, Foreclosures +57% |
-| **California** | 🟠 | WARN +16%, Fire insurance crisis |
-| **Texas** | 🟡 | Holding (energy), immigration disruption |
-| **New York** | 🟠 | Labor supply > demand (reversal) |
+### Confirmed ✅
+| # | Prediction | Result |
+|---|------------|--------|
+| 1 | CC 90+ exceeds 2019 peak (8.36%) | **12.70%** Q4 2025 |
+| 3 | FL foreclosures +100% YoY | **+190%** Q4 2025 |
+| 4 | Hardship 401k >5.5% | **6%** |
 
-**Florida is the test case.** Employment stress is already converting to housing stress. Watch for spread to other states.
+### Imminent ⚠️
+| # | Prediction | Current | Gap | Timeframe | Conf |
+|---|------------|---------|-----|-----------|------|
+| 12 | Student 90+ DQ >10% | 9.5% | 0.5pp | Q1 2026 | 85% |
+| 16 | Fannie MF DQ >0.80% | 0.75% | 0.05pp | Q1 2026 | 80% |
+| 11 | CC 90+ DQ >13.74% (GFC) | 12.70% | 1.04pp | Q2 2026 | 75% |
 
-**California fire insurance:** 150K+ households in fire zones uninsured. Single fire event = mass foreclosure trigger.
+### Tracking 📊
+| # | Prediction | Current | Target | Timeframe | Conf |
+|---|------------|---------|--------|-----------|------|
+| 17 | National foreclosures >70K/qtr | 58K | 70K | Q2 2026 | 75% |
+| 14 | Subprime Auto ABS 60+ >7% | >6% | 7% | Q2 2026 | 65% |
+| 2 | Auto subprime DQ >7% (NY Fed) | 5.21% | 7% | Q3 2026 | 70% |
+| 13 | Dave 28DPD >2.10% | ~2.0% | 2.10% | Q2-Q3 | 55% |
+| 15 | TX foreclosures +100% YoY | +45% | +100% | Q3 2026 | 50% |
+
+---
+
+## DANGER WINDOW: Q3-Q4 2026
+
+- LABOR severance runways exhaust → UI claims spike
+- Hourly/gig converts 0-1 month, salaried 2-5 months
+- CC delinquencies rise first (lowest priority)
+- Housing/foreclosure lags (longest)
+
+---
+
+## SUB-AGENTS
+
+**GIG:** Tracks 24M invisible workers. Dave 28DPD = primary canary (current 1.95-2.00%, stress >2.10%)
 
 ---
 
@@ -548,247 +149,31 @@ Stock drops → Deposit flight → Credit tightens
 
 | From | Condition | Effect on CARL |
 |------|-----------|----------------|
-| LABOR | Claims >250K sustained | Conversion velocity accelerates |
-| LABOR | Temp YoY stays <-6% | Leading indicator confirmed |
-| LABOR | Severance runways exhaust | Q2-Q3 claims spike |
-| REGINALD | Bank credit tightens | Refinance options disappear |
-| POP | Small biz revenue drops | Owner-consumer stress hidden |
-
-| From CARL | Condition | Effect |
-|-----------|-----------|--------|
-| CC DQ >5% | → REGINALD | Consumer NCO wave begins |
-| Auto DQ spike | → REGINALD | Subprime auto portfolios hit |
-| FL foreclosures spread | → REGINALD | Regional bank CRE + resi exposure |
-
----
-
-## PREDICTIONS (Falsifiable)
-
-### Confirmed ✅
-| # | Prediction | Result | Confidence |
-|---|------------|--------|------------|
-| 1 | CC 90+ exceeds 2019 peak (8.36%) | **12.70%** Q4 2025 | 75% |
-| 3 | FL foreclosures +100% YoY | **+190%** Q4 2025 | 70% |
-| 4 | Hardship 401k >5.5% | **6%** (Wright) | 80% |
-
-### Imminent ⚠️ (Next 30-60 days)
-| # | Prediction | Current | Gap | Timeframe | Confidence |
-|---|------------|---------|-----|-----------|------------|
-| 12 | **Student Loan 90+ DQ >10%** | 9.5% | 0.5pp | Q1 2026 | **85%** |
-| 16 | **Fannie MF DQ >0.80% (GFC)** | 0.75% | 0.05pp | Q1 2026 | **80%** |
-| 11 | **CC 90+ DQ >13.74% (GFC)** | 12.70% | 1.04pp | Q2 2026 | **75%** |
-
-### Tracking 📊 (Q2-Q3 2026)
-| # | Prediction | Current | Target | Timeframe | Confidence |
-|---|------------|---------|--------|-----------|------------|
-| 17 | National foreclosures >70K/qtr | 58K | 70K | Q2 2026 | 75% |
-| 14 | Subprime Auto ABS 60+ DQ >7% | >6% | 7% | Q2 2026 | 65% |
-| 2 | Auto subprime DQ >7% (NY Fed) | 5.21% | 7% | Q3 2026 | 70% |
-| 13 | Dave 28DPD >2.10% (gig) | 1.95-2.00% | 2.10% | Q2-Q3 2026 | 55% |
-| 15 | TX foreclosures +100% YoY | +45% | +100% | Q3 2026 | 50% |
-| 8 | FL foreclosures +300% YoY | +190% | +300% | Q3 2026 | 60% |
-
-### Pending (Employment-Dependent)
-| # | Prediction | Timeframe | Confidence |
-|---|------------|-----------|------------|
-| 5 | BNPL provider distress | H2 2026 | 65% |
-| 6 | Medical debt spike post-employment | Q3-Q4 2026 | 75% |
-
----
-
-## DANGER WINDOW
-
-**Q3-Q4 2026** (lagging LABOR by 3-6 months)
-
-- LABOR severance runways exhaust → UI claims spike
-- Hourly/gig workers convert in 0-1 month
-- Salaried workers convert in 2-5 months
-- CC delinquencies rise first (lowest payment priority)
-- Auto follows (but people hold on longer — need car for job search)
-- Mortgage/foreclosure lags (longest to convert)
-
----
-
----
-
-## SUBPRIME AUTO: THE "FOURTH CASE" THESIS
-
-**New research (Feb 2026):** Tricolor Holdings ($800M fraud) and PrimaLend (Chapter 11) have triggered sector-wide warehouse audits. The "cockroach theory" is active — JPMorgan and Fifth Third took $200M+ combined losses.
-
-### Distressed Lender Watchlist
-
-| Lender | Priority | Key Signal |
-|--------|----------|------------|
-| **Flagship Credit Acceptance** | 🔴 CRITICAL | Mass layoffs (Apr 2025-Jan 2026), fire sale to InterVest (Nov 2025), $5B+ portfolio |
-| **Exeter Finance** | 🟠 HIGH | S&P hiked ECNL on 8 ABS deals, 2026-1 issuance at 20.75% expected loss |
-| **Consumer Portfolio Services (CPSS)** | 🟠 HIGH | Class-action litigation (repos), $900M forward flow dependency |
-| **American Credit Acceptance** | 🟡 ELEVATED | Originations -19.4% YoY, forecasted collections declining |
-| **Westlake Financial** | 🟡 MONITOR | Complex SPV structure, moving down-market to "Standard" tier |
-
-### Why This Matters for CARL
-
-1. **Tricolor Pattern = Fraud Risk Everywhere:** Double-pledging, manipulated loan tapes, multiple warehouse silos
-2. **Warehouse Lending Squeeze:** JPM, Fifth Third, Wells conducting forensic audits — smaller lenders can't survive scrutiny
-3. **52.9% Negative Equity:** Every repo = higher NCO because collateral worth fraction of loan balance
-4. **Extended Terms:** 27.5% of loans >72 months — extends the negative equity trap
-
-### Transmission to Banks
-
-Subprime auto → Warehouse lenders → Money-center bank losses (already happening: JPM, Fifth Third)
-
-**Fifth Third took $170-200M charge in Q3 2025 from Tricolor exposure alone.**
-
-If Flagship or Exeter collapses, warehouse lenders (many are regional banks) face similar writedowns.
-
----
-
-## 🆕 CC UTILIZATION & AVAILABLE CREDIT (Feb 12, 2026)
-
-**Source:** NY Fed Q4 2025, WalletHub
-
-| Metric | Q4 2025 | Context |
-|--------|---------|---------|
-| **Total CC Balance** | **$1.28T** | Record high |
-| **Total CC Limit** | **$5.42T** | +$95B QoQ |
-| **Available Credit** | **$4.15T** | Buffer shrinking |
-| **Utilization Rate** | **23.6%** | Elevated but not critical |
-| **Cardholders Carrying Balance** | **60%** | Majority revolving |
-| **Average APR** | **20.97%** | 22.30% for revolvers |
-
-**Why Utilization Matters:**
-- High utilization = stress BEFORE delinquency
-- 30%+ utilization = credit score penalty zone
-- Utilization rising while limits flat = squeeze
-
-**Reference:** `workbook/VX.tsv` (VX-CARL-UTIL-01, VX-CARL-UTIL-02)
-
----
-
-## 🆕 STATE STRESS DIFFUSION MODEL (Feb 12, 2026)
-
-**Purpose:** Identify "Next FL" — which states follow Florida's trajectory
-
-### Tier 1: CRITICAL (Following FL)
-| State | CC 90+ DQ | Auto 90+ DQ | Foreclosure YoY | Status |
-|-------|-----------|-------------|-----------------|--------|
-| **FL** | 4.10% | 6.2% | +190% | 🔴 CANARY |
-| **TX** | 3.2% | 5.8% | +45% | 🟠 ELEVATED |
-| **MS** | 4.8% | 6.5% | +38% | 🟠 ELEVATED |
-| **LA** | 4.2% | 6.1% | +42% | 🟠 ELEVATED |
-| **NV** | 3.5% | 5.4% | +55% | 🟠 ELEVATED |
-
-### Tier 2: WATCH
-| State | CC 90+ DQ | Auto 90+ DQ | Foreclosure YoY | Status |
-|-------|-----------|-------------|-----------------|--------|
-| AZ | 3.0% | 5.2% | +35% | 🟡 WATCH |
-| GA | 3.4% | 5.5% | +28% | 🟡 WATCH |
-| SC | 3.3% | 5.3% | +32% | 🟡 WATCH |
-
-**Key Insight:** TX is #2 behind FL — and SSB has 19% exposure there.
-
-**Reference:** `workbook/STATE_DIFFUSION.tsv`
-
----
-
-## 🆕 ABS BASELINE (Partial — Feb 12, 2026)
-
-**Subprime Auto ABS: 🔴 RECORD STRESS**
-
-| Metric | Value | Context |
-|--------|-------|---------|
-| Subprime 60+ DQ | **>6%** | **Record high** (Oct 2025) |
-| Prime 60+ DQ | 0.2% | Pristine |
-| Differential | **30x** | K-shape in credit |
-| Overall Auto 60+ DQ | 1.47% | Above 2009 peak |
-
-**What This Shows:**
-The 30x gap between subprime (>6%) and prime (0.2%) is the K-shape economy in one chart. Same labor market, completely different credit performance. Employment shock collapses prime toward subprime.
-
-**Pending:** Full ABS extraction (Discover CC, Capital One, Santander 10-Ds)
-
-**Reference:** `workbook/ABS_BASELINE.tsv`
-
----
-
-## 🆕 MEDICAL DEBT FRAMEWORK (Feb 12, 2026)
-
-**The Problem:** Medical debt is 58% of all collections but hardest to track.
-
-| Metric | Value | Source |
-|--------|-------|--------|
-| Medical collections on credit reports | **$88B** | CFPB |
-| Pre-collections (invisible) | **$50-100B** | CFPB estimate |
-| Credit reports affected | **43 million** | CFPB |
-| Households with medical debt | **~20%** | CFPB |
-
-**Demographic Concentration:**
-- Black households: 28% (1.65x baseline)
-- Hispanic households: 22% (1.29x baseline)
-- Southeast/Southwest states highest
-
-**Why It Matters for CARL:**
-- 60%+ can't cover deductible → any medical event = instant debt
-- Medical event = double shock (cost + lost income)
-- "Caregiver Multiplier": 50% MORE income lost than patient's contribution
-
-**Proxy Tracking:**
-- Hospital bad debt (HCA, THC earnings)
-- Google Trends "medical debt help"
-- CFPB complaint trends
-
-**Reference:** `sources/MedicalDebt_Framework_2026-02.md`
-
----
-
-## 🆕 GOOGLE TRENDS MONITORING (Monthly)
-
-**Purpose:** Real-time alternative stress signals before official data releases
-
-**Protocol:** Check monthly, log to `workbook/TRENDS.tsv`
-
-| Tier | Terms | What It Signals |
-|------|-------|-----------------|
-| **Desperation** | sell plasma, pawn shop, payday loan | Buffer exhaustion |
-| **Housing** | eviction help, can't pay rent | Housing stress |
-| **Debt** | debt relief, bankruptcy lawyer | Debt overload |
-| **Basics** | food bank near me, utility assistance | Subsistence stress |
-
-**Geographies:** US National, FL, TX, CA
-
-**Thresholds:**
-- 🟢 NORMAL: YoY <15%
-- 🟡 WATCH: YoY 15-20%
-- 🟠 ELEVATED: YoY 20-30%
-- 🔴 CRITICAL: YoY >30% or ATH
-
-**Schedule:** Week 3 of each month (post-data release quiet period)
-
-**Reference:** `workbook/TRENDS.tsv`
+| LABOR | Claims >250K sustained | Conversion accelerates |
+| LABOR | Severance exhausts | Q2-Q3 claims spike |
+| HENRY | SPX -10%+ | Reverse Wealth Effect (fast path) |
+| REGINALD | Credit tightens | Refinance options disappear |
 
 ---
 
 ## RESEARCH GAPS
 
-- [x] Current NY Fed consumer credit panel (Q4 2025) — **DONE 2026-02-10**
-- [x] BNPL provider financial health — **DONE 2026-02-12** (Richmond Fed + provider tracking)
-- [x] Student loan restart impact — **DONE 2026-02-12** (SAVE litigation, 16.3% DQ)
-- [x] Gig worker stress — **DONE 2026-02-12** (GIG sub-agent revived, Dave 28DPD)
-- [x] Subprime auto lender forensics — **DONE** (Tricolor, PrimaLend, Flagship)
-- [x] Google Trends monitoring — **DONE 2026-02-12** (protocol established)
-- [x] State-level delinquency divergence — **DONE 2026-02-12** (STATE_DIFFUSION.tsv)
-- [x] Medical debt framework — **DONE 2026-02-12** (proxy indicators, $88B baseline)
-- [x] CC utilization tracking — **DONE 2026-02-12** (23.6%, 60% carry balance)
-- [x] ABS baseline (partial) — **DONE 2026-02-12** (subprime auto >6% record)
-- [ ] ABS full extraction (Discover, Capital One 10-Ds) — 3-4 hours manual work
+- [x] NY Fed Q4 2025 — DONE
+- [x] BNPL provider health — DONE (Richmond Fed)
+- [x] Student loan restart — DONE (SAVE litigation)
+- [x] Gig worker stress — DONE (GIG sub-agent)
+- [x] State diffusion — DONE
+- [x] Google Trends protocol — DONE
+- [ ] Full ABS extraction (Discover, Capital One) — 3-4 hours manual
 
 ---
 
 ## KEY DOCS
-- ML-CARL-01: Beneath the Ice Synthesis
-- ML-CARL-02: Latent Vulnerability Framework
-- ML-CARL-06: LV Research Synthesis
-- ML-CR-18: Phantom Debt Analysis
-- **NY_Fed_Household_Debt_Q4_2025.xlsx** — Raw data (sources/)
-- Sub-agents: POLLY (policy), RED (counter-thesis), META
+- **workbook/ABS_BASELINE.tsv** — Subprime auto >6% record
+- **workbook/STATE_DIFFUSION.tsv** — State stress rankings
+- **workbook/BNPL_STRESS.tsv** — 41% late payments
+- **workbook/TRENDS.tsv** — Google Trends protocol
+- **sources/StudentLoan_Data_2026-02.md** — 16.3% worst ever
+- Sub-agents: GIG (Dave 28DPD canary)
 
-*Next update trigger: Q1 2026 data or CC 90+ DQ crosses GFC peak (13.74%)*
+*Next update: Q1 2026 data or CC 90+ crosses GFC peak*
