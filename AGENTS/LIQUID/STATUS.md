@@ -112,16 +112,22 @@ Timeline: May 2026 Powell term expires.
 | 2 | SRF usage >$50B at March quarter-end | Mar 31 | 70% |
 | 3 | RRP stays <$50B through H1 | H1 2026 | 85% |
 | 4 | No auction failure (BTC >2.0x) in Q1 | Q1 2026 | 75% |
-| 5 | Reserve balances drop below $2.8T | Q2 2026 | 60% |
+| 5 | Warsh confirmation delayed or blocked | H1 2026 | 55% |
+| 6 | Reserve balances drop below $2.8T | Q2 2026 | 60% |
 
 ### Foreign Official
 | # | Prediction | Timeframe | Confidence |
 |---|------------|-----------|------------|
-| 6 | China TIC falls below $650B | Q2 2026 | 75% |
-| 7 | Belgium exceeds $500B (RED threshold) | Q2 2026 | 70% |
-| 8 | 10Y term premium rises above 1.0% | H2 2026 | 70% |
-| 9 | April summit fails tariff de-escalation | April 2026 | 55% |
-| 10 | 10Y yields exceed 5.0% | Q3-Q4 2026 | 60% |
+| 7 | China TIC falls below $650B | Q2 2026 | 75% |
+| 8 | Belgium exceeds $500B (RED threshold) | Q2 2026 | 70% |
+| 9 | 10Y term premium rises above 1.0% | H2 2026 | 70% |
+| 10 | Auction indirect bid % <65% avg | Q2 2026 | 60% |
+| 11 | Japan continues net selling USTs | Through 2026 | 75% |
+| 12 | BIS B4 confirms stealth exit (Scenario B) | Q2 2026 | 60% |
+| 13 | China sells >$50B in single quarter | Q2-Q3 2026 | 65% |
+| 14 | April summit fails tariff de-escalation | April 2026 | 55% |
+| 15 | Collateral velocity drops below 2.5x | Q2 2026 | 50% |
+| 16 | 10Y yields exceed 5.0% | Q3-Q4 2026 | 60% |
 
 ---
 
