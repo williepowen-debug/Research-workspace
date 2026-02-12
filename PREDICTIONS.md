@@ -39,7 +39,7 @@
 | 1 | CC delinquency 90+ exceeds 2019 peak (8.36%) | Q2 2026 | 75% | ✅ **CONFIRMED** — 12.70% Q4 2025 |
 | 2 | Auto subprime DQ >7% | Q3 2026 | 70% | ⏳ Tracking — 5.21% |
 | 3 | FL foreclosures +100% YoY | Q2 2026 | 70% | ✅ **CONFIRMED** — +190% Q4 2025 |
-| 4 | Hardship 401k withdrawals >5.5% | 2026 | 80% | ⏳ Pending |
+| 4 | Hardship 401k withdrawals >5.5% | 2026 | 80% | ✅ **CONFIRMED** — Wright: 6% as of 2024 |
 | 5 | BNPL provider distress | H2 2026 | 65% | ⏳ Pending |
 | 6 | Medical debt collections spike post-employment | Q3-Q4 2026 | 75% | ⏳ Pending |
 | 7 | CC 90+ reaches GFC peak (13.74%) | Q2 2026 | 70% | ⏳ NEW — 1pp away |
