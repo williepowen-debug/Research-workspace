@@ -1,0 +1,29 @@
+Date	Term	Geography	Value	YoY Change	Status	Notes
+# Google Trends Alternative Stress Signals
+# Scale: 0-100 (relative search interest, 100 = peak)
+# Check monthly, flag YoY >20% increase
+# Focus: FL, TX, CA, National
+# URL: https://trends.google.com/trends/explore
+
+# THRESHOLDS
+# 🟢 NORMAL: YoY change <15%
+# 🟡 WATCH: YoY change 15-20%
+# 🟠 ELEVATED: YoY change 20-30%
+# 🔴 CRITICAL: YoY change >30% OR ATH
+
+# TERMS TO TRACK (Monthly)
+# Tier 1 (Desperation): sell plasma, pawn shop, payday loan
+# Tier 2 (Housing): eviction help, can't pay rent, eviction notice
+# Tier 3 (Debt): debt relief, bankruptcy lawyer, debt consolidation
+# Tier 4 (Basics): food bank near me, utility assistance
+
+# BASELINE CHECK - Feb 2026 (to be populated on first full check)
+# Next scheduled: Week of Feb 17, 2026
+
+# PROTOCOL:
+# 1. Go to Google Trends
+# 2. Enter term, set geography (US, then FL, TX)
+# 3. Set time range: Past 12 months
+# 4. Compare to same period prior year
+# 5. Log value (0-100) and YoY change
+# 6. Flag any >20% YoY or ATH

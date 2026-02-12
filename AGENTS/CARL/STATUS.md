@@ -622,15 +622,44 @@ If Flagship or Exeter collapses, warehouse lenders (many are regional banks) fac
 
 ---
 
+## 🆕 GOOGLE TRENDS MONITORING (Monthly)
+
+**Purpose:** Real-time alternative stress signals before official data releases
+
+**Protocol:** Check monthly, log to `workbook/TRENDS.tsv`
+
+| Tier | Terms | What It Signals |
+|------|-------|-----------------|
+| **Desperation** | sell plasma, pawn shop, payday loan | Buffer exhaustion |
+| **Housing** | eviction help, can't pay rent | Housing stress |
+| **Debt** | debt relief, bankruptcy lawyer | Debt overload |
+| **Basics** | food bank near me, utility assistance | Subsistence stress |
+
+**Geographies:** US National, FL, TX, CA
+
+**Thresholds:**
+- 🟢 NORMAL: YoY <15%
+- 🟡 WATCH: YoY 15-20%
+- 🟠 ELEVATED: YoY 20-30%
+- 🔴 CRITICAL: YoY >30% or ATH
+
+**Schedule:** Week 3 of each month (post-data release quiet period)
+
+**Reference:** `workbook/TRENDS.tsv`
+
+---
+
 ## RESEARCH GAPS
 
-- [x] Current NY Fed consumer credit panel (Q4 2025) — **DONE 2026-02-10** (see sources/)
-- [ ] State-level delinquency divergence (now have FL data, need broader synthesis)
-- [ ] BNPL provider financial health (Affirm, Klarna earnings)
-- [ ] Gig worker income volatility (real-time)
+- [x] Current NY Fed consumer credit panel (Q4 2025) — **DONE 2026-02-10**
+- [x] BNPL provider financial health — **DONE 2026-02-12** (Richmond Fed + provider tracking)
+- [x] Student loan restart impact — **DONE 2026-02-12** (SAVE litigation, 16.3% DQ)
+- [x] Gig worker stress — **DONE 2026-02-12** (GIG sub-agent revived, Dave 28DPD)
+- [x] Subprime auto lender forensics — **DONE** (Tricolor, PrimaLend, Flagship)
+- [x] Google Trends monitoring — **DONE 2026-02-12** (protocol established)
+- [ ] State-level delinquency divergence (have FL, need broader synthesis)
 - [ ] Medical debt trajectory post-ACA changes
-- [ ] Student loan restart impact (IBR/SAVE litigation)
-- [x] Subprime auto lender forensics (Tricolor, PrimaLend, Flagship) — DONE
+- [ ] ABS baseline data extraction (3-4 hours manual work)
 
 ---
 
