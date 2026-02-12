@@ -1,13 +1,13 @@
 Topic	Domain	Type	Priority	Source	Notes
 
 ## STORY QUEUE — Briefings to Produce
-Florida Condo Crisis	reginald	deep-dive	high	CORAL/STATUS.md	SIRS mandate, blacklist, VLY exposure — CORAL sub-agent owns this
-Japan Post-Election Analysis	sam	update	high	SAM/STATUS.md	Results interpretation, what comes next (follow-up to Feb 8)
-The Employment Cliff	labor	update	high	LABOR/STATUS.md	Claims spike (231K), JOLTS collapse (6.5M), Challenger highs
-BDC Implosion Watch	reginald	explainer	high	BROCK/STATUS.md	PSEC 35% PIK, $142B unfunded, NAV crashes
-VIX vs MOVE Divergence	henry	explainer	medium	HENRY/STATUS.md	Why equity vol spiked while bond vol stayed calm
-Warsh's Fed: What Changes?	liquid	analysis	medium	LIQUID/STATUS.md	Balance sheet hawk taking over — implications
+BDC Implosion Watch	reginald	explainer	high	BROCK/STATUS.md	PSEC 35% PIK, $142B unfunded, HRZN collapse, AI infrastructure bubble
+The SSB Bet	reginald	thesis	high	CORAL/STATUS.md	MF substandard 9.36%, "support and survive", contrarian position vs 11 analysts
+VIX vs MOVE Divergence	henry	explainer	medium	HENRY/STATUS.md	Why equity vol spiked while bond vol stayed calm; Feb 11 NFP reaction
+The AI Infrastructure Bubble	brock	explainer	medium	BROCK/STATUS.md	GPU-backed lending, neocloud risk, 2000 telecom parallels, HRZN canary
+Warsh's Fed: What Changes?	liquid	analysis	medium	LIQUID/STATUS.md	Balance sheet hawk taking over — implications for SRF, crisis response
 Counter-Thesis: Soft Landing	synthesis	counter-argument	low	—	Steelman the bull case
+Small Business Breaking	labor	update	low	LABOR/STATUS.md	1-9 employee firms flipping negative, safety valve gone
 
 ## TEACHING QUEUE — Concepts to Explain/Reinforce
 What is a CLO?	explainers	explainer	high	SAM/STATUS.md	Referenced often, Will asked about it indirectly — foundational for understanding Japan life insurer risk
