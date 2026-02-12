@@ -1,5 +1,5 @@
 # BROCK STATUS
-**Last Updated:** 2026-02-11 19:30 UTC | **Status:** 🟠 ORANGE — Elevated Stress, Bankruptcy Wave Accelerating
+**Last Updated:** 2026-02-12 19:12 UTC | **Status:** 🟠 ORANGE — Elevated Stress, Burry PLTR Thesis Adds Path 2 Risk
 
 ---
 
@@ -66,6 +66,37 @@ Wall Street adds back SBC in "adjusted" earnings, making tech earnings appear **
 - Consultancy multiple (5-10x) vs SaaS multiple (50-100x) = 80%+ downside
 
 **Full research:** `sources/Burry_SBC_Dilution_Framework_2025-11-30.md`, `sources/Burry_Palantir_Short_Thesis_2026-02-12.md`
+
+### 🔗 CONNECTION TO PATH 2: AI CAPEX REVERSAL
+
+**Burry's PLTR thesis ACCELERATES Path 2 probability:**
+
+1. **Sentiment Catalyst:** If PLTR collapses 40-60% (to Burry's fair value), it becomes the poster child for AI bubble excess
+   - Market begins questioning ALL AI valuations with high SBC
+   - NVDA, hyperscalers face "if PLTR was a fraud, what about the rest?" narrative
+
+2. **Consultancy Repricing = GPU Demand Destruction:**
+   - PLTR revalued as consultancy (5-10x) not SaaS (50-100x) = 80% downside
+   - If PLTR is just consultants, then AI "product" narrative breaks
+   - Neoclouds (CoreWeave, Lambda) exposed as GPU renters, not tech companies
+   - BDC lenders to neoclouds mark down collateral aggressively
+
+3. **FCF Stress Amplified:**
+   - Big Tech already showing FCF compression (AMZN -$17B to -$28B)
+   - If AI beneficiaries like PLTR collapse, CFO scrutiny on capex intensifies
+   - "Why are we spending $650B if PLTR was a mirage?" → Capex cut triggers
+
+4. **Timing Impact:**
+   - **Before Burry:** Path 2 trigger = organic FCF stress forcing capex cuts (late 2026)
+   - **After Burry:** Path 2 trigger = PLTR collapse → AI narrative break → emergency capex cuts (mid-late 2026)
+   - **Probability increase:** 40% → 50% for H2 2026 capex reversal
+
+**What would confirm acceleration:**
+- PLTR drops below $100 before Q1 earnings (narrative shift underway)
+- Big Tech capex guidance includes "reviewing efficiency" language
+- Any neocloud (CoreWeave/Lambda/Crusoe) struggles to close next financing round
+
+**Bottom line:** Burry's PLTR short is a bet against AI narrative itself. If he's right, it's not just PLTR — it's the entire $3-5T capex cycle at risk. BDC GPU-backed exposure becomes toxic faster than baseline Path 2 timeline.
 
 ---
 
@@ -141,7 +172,7 @@ AI Capex Bubble ($3-5T planned) → Neocloud GPU-Backed Debt
 
 ## 🆕 BIG TECH CAPEX MONITOR (Feb 12, 2026)
 
-**Path 2 Status:** 🟡 DORMANT — Stress building, not triggered
+**Path 2 Status:** 🟠 ELEVATED — Burry PLTR Thesis Adds Narrative Collapse Risk
 
 | Metric | Value | Status |
 |--------|-------|--------|
@@ -149,18 +180,31 @@ AI Capex Bubble ($3-5T planned) → Neocloud GPU-Backed Debt
 | Adjusted Growth (ex-memory inflation) | **40%** (vs 80% in 2025) | 🟡 SLOWING |
 | Amazon 2026 FCF | **-$17B to -$28B** | 🟠 NEGATIVE |
 | Big Tech FCF Impact | **Down 90%** YoY | 🟠 STRESS |
+| **🆕 PLTR vs Burry FV** | **$135 vs $46 (-66%)** | **🔴 EXTREME** |
+| **🆕 Burry Position** | **Active puts on PLTR** | **🔴 LIVE BET** |
 
 **Interpretation:** 
 - Headline capex still accelerating — no reversal yet
 - BUT: Cash flow is getting crushed as spending outpaces AI revenue
 - FCF stress is the **leading indicator** — if it forces capex cuts, Path 2 triggers
+- **NEW: Burry's PLTR short = bet against AI narrative itself**
+  - If PLTR reprices as consultancy (not SaaS), AI "product" story breaks
+  - Market questions ALL AI valuations with high SBC (NVDA $91B buybacks to nowhere)
+  - Neoclouds get revalued as GPU renters, not tech → BDC collateral panic
 
-**What would trigger Path 2:**
-1. Q1 2026 earnings: Capex guidance CUT (not just slowed growth)
-2. Neocloud distress: CoreWeave/Crusoe/Lambda funding round failures
-3. BDC NAV: Tech-heavy BDCs (HTGC, HRZN) mark down AI exposure
+**What would trigger Path 2 (UPDATED):**
+1. **🆕 PLTR falls below $100** — Burry thesis gaining traction, AI narrative cracks
+2. Q1 2026 earnings: Capex guidance CUT (not just slowed growth)
+3. Neocloud distress: CoreWeave/Crusoe/Lambda funding round failures
+4. BDC NAV: Tech-heavy BDCs (HTGC, HRZN) mark down AI exposure
+5. **🆕 Big Tech mentions "capex efficiency review"** — CFO pushback on ROI
 
-**Next check:** Q1 2026 Big Tech earnings (late April)
+**Probability Update:**
+- **Before Burry:** 40% Path 2 by end-2026
+- **After Burry:** **50% Path 2 by H2 2026** (accelerated 1-2 quarters)
+- If PLTR <$100 before Q1 earnings: **65% Path 2 by Q3 2026**
+
+**Next check:** PLTR price action + Q1 2026 Big Tech earnings (late April)
 
 ---
 
@@ -345,6 +389,11 @@ AI Capex Bubble ($3-5T planned) → Neocloud GPU-Backed Debt
 | 9 | HRZN merger terms worse than announced (NAV floor broken) | Q1-Q2 2026 | 60% |
 | 10 | HTGC tech-driven NAV decline >10% | H2 2026 | 50% |
 | 11 | First BDC breaches 150% asset coverage (triggers dividend halt) | 2026 | 55% |
+| 12 | PLTR falls below $80 (40%+ from current levels) | H2 2026 | 60% |
+| 13 | At least one AI darling (PLTR/NVDA/SMCI) reports adj. earnings with SBC criticism from analysts | Q1-Q2 2026 | 55% |
+| 14 | Big Tech Q1 2026 earnings: At least one GOOG/MSFT/AMZN cuts FY capex guidance (not just slows growth) | Q1 2026 earnings | 40% |
+| 15 | Burry's PLTR short generates >20% profit (PLTR below $108) by year-end | Q4 2026 | 50% |
+| 16 | AI infrastructure markdown triggers revaluation of HTGC tech portfolio (>15% NAV impact) | H2 2026 | 45% |
 
 ---
 
@@ -352,12 +401,31 @@ AI Capex Bubble ($3-5T planned) → Neocloud GPU-Backed Debt
 
 The BDC market has grown to $482B on the back of PIK and "extend & pretend." The reported 2.1% default rate is a fiction — the shadow rate is ~6%. More than half of BDCs are paying dividends they haven't earned in cash.
 
-**Two canaries now:**
+**Three canaries now:**
 1. **PSEC** — PIK concentration, dividend sustainability
 2. **HRZN** — AI/tech infrastructure exposure, already collapsing
+3. **🆕 PLTR** — Burry's short thesis = AI narrative stress test
 
-**NEW RISK:** The AI infrastructure buildout has created a second layer of fragility. GPU-backed lending to neoclouds (CoreWeave, Lambda, Crusoe) mirrors the telecom vendor financing of 2000. Blue Owl walking from the Oracle deal may signal peak institutional appetite.
+**NEW RISK LAYERS:**
+1. **AI infrastructure:** GPU-backed lending to neoclouds (CoreWeave, Lambda, Crusoe) mirrors telecom vendor financing of 2000
+2. **SBC manipulation:** Burry framework shows AI earnings are 30-50% fiction via stock compensation add-backs
+3. **Narrative fragility:** If PLTR reprices as consultancy (not SaaS), entire AI capex cycle gets questioned
 
-Watch for: PIK-to-NII deltas, LTV migration toward 80%, software markdowns, **and any neocloud credit stress**.
+**Path 2 Acceleration:** Burry's PLTR thesis increases probability of AI capex reversal from 40% to 50% by H2 2026. If PLTR <$100 before Q1 earnings, probability jumps to 65% by Q3 2026.
 
-*Next update: Post Q1 2026 earnings + monitor neocloud credit events*
+**Transmission path if Burry is right:**
+```
+PLTR collapse → AI narrative breaks → Big Tech CFO scrutiny → Emergency capex cuts
+                                               ↓
+                                      Neocloud funding dries up
+                                               ↓
+                                   BDC GPU collateral panic (CoreWeave, Lambda)
+                                               ↓
+                                      HTGC/tech-heavy BDC NAV collapse
+                                               ↓
+                                     Regional bank fund finance stress
+```
+
+Watch for: PIK-to-NII deltas, LTV migration toward 80%, software markdowns, **neocloud credit stress, PLTR price <$100, and any Big Tech "capex efficiency" language**.
+
+*Next update: Post Q1 2026 earnings + monitor PLTR price action + neocloud credit events*
