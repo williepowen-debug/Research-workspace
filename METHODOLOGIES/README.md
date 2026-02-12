@@ -11,6 +11,8 @@ These are **general-purpose tools** - not agent-specific. Apply across domains.
 | File | Source | Use Case |
 |------|--------|----------|
 | `Burry_Scion_Analyst_Template.md` | Burry Substack (Jan 2026) | Bottom-up equity valuation (long & short) |
+| `Burry_Put_Selection_Philosophy.md` | Burry Substack (Jan 2026) | Options positioning for speculative vs analyzable trades |
+| `Burry_MCCP_Investment_Vehicle.md` | Burry Substack (Jan 2026) | Mandatory Cumulative Convertible Preferred plays |
 
 ---
 
