@@ -11,7 +11,7 @@ The equity market is **derivatives-driven** where dealer hedging dominates short
 2. **Margin Paradox:** Record 13.2% profit margins sustained by 1.2M layoffs (+58% YoY)
 3. **Earnings Quality Decay:** 15% EPS growth on 7.2% revenue = financial engineering
 
-**Current State:** Positive gamma (~$62B) with EXTREME complacency (IV Rank 7.94%). SPX at gamma flip zone (~6,850). No cushion.
+**Current State:** Positive gamma (~$62B) with EXTREME complacency (IV Rank 7.94%). SPX at gamma flip zone (~6,850). Zweig Breadth Thrust ACTIVE (historically 100% success rate) but rotation violent: Tech bleeds, Cyclicals lead. No cushion.
 
 **Peak Risk Positioning (Feb 12):**
 - 0DTE dominance: **65%** of SPX volume (record), **78%** NDX
