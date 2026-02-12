@@ -17,6 +17,9 @@ The equity market is a **derivatives-driven machine** where dealer hedging and s
 
 **No cushion exists.** Credit spreads tight, VIX low, earnings revisions neutral (1.05). Markets pricing zero risk precisely as corporate stress builds beneath.
 
+**🆕 SBC Valuation Gap (Burry Framework, Feb 12):**
+Tech earnings overstated 30-50% due to SBC add-backs. Palantir ($375B mkt cap) worth ~$46/share per Burry's DCF (66% downside). Nvidia's $91B "buybacks" = zero share reduction. When AI FOMO fades, repricing will be violent. This is hidden fragility in the "Tech Rot" thesis.
+
 **⚠️ HENRY → CARL Transmission (Reverse Wealth Effect):**
 If SPX drops 10%+, the top 60% (who've been insulated by stock gains) suddenly pull back spending. K-shape collapses from the TOP, accelerating consumer stress independently of employment. This is a fast path that bypasses LABOR.
 

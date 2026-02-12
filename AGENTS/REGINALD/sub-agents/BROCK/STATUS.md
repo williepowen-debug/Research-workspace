@@ -31,6 +31,44 @@ Software overweight + PIK accumulation + redemption pressure = systemic fragilit
 
 ---
 
+## 🆕 BURRY SBC FRAMEWORK (Feb 12, 2026)
+
+**Source:** Michael Burry / Cassandra Unchained — Two articles integrated
+
+### The Hidden Tax on Shareholders
+
+Wall Street adds back SBC in "adjusted" earnings, making tech earnings appear **30-50% better** than reality.
+
+**Burry's Modified DCF:** `PV = CF / (d - g + y)` where y = dilution rate
+
+| Company | Annual Dilution | Key Finding |
+|---------|-----------------|-------------|
+| **Palantir** | **6.5%** | "First B/S ratio >1" — 5 billionaires, $4.5B revenue |
+| Tesla | 3.6% | Musk $1T pay package continues destruction |
+| Nvidia | ~0% (net) | $91B buybacks, share count UNCHANGED ("buyback to nowhere") |
+| Amazon | 1.3% | Gave employees $233B vs $220B earned |
+
+### Palantir Short Thesis (Burry has puts)
+
+| Metric | Value |
+|--------|-------|
+| Market Cap | $375B |
+| Burry Fair Value | **~$46/share** (66% downside) |
+| Annual Dilution | 6.5% |
+| True Business | Consultancy masquerading as SaaS |
+
+**Key admission (Karp):** "We don't have the bandwidth outside America" = NOT a SaaS company
+
+**Why it matters for BROCK:**
+- AI capex beneficiaries (PLTR, NVDA) are overvalued by SBC manipulation
+- When AI FOMO fades, repricing will be violent
+- PLTR government contracts = policy risk under any admin change
+- Consultancy multiple (5-10x) vs SaaS multiple (50-100x) = 80%+ downside
+
+**Full research:** `sources/Burry_SBC_Dilution_Framework_2025-11-30.md`, `sources/Burry_Palantir_Short_Thesis_2026-02-12.md`
+
+---
+
 ## SIGNAL DASHBOARD — PIK CONCENTRATION RANKING (Feb 2026)
 
 | Ticker | PIK % | YoY Δ | Div Coverage | Flag | Signal |
