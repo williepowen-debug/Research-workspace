@@ -74,6 +74,8 @@ $150-200B **invisible** to credit bureaus:
 
 **Age breakdown (transition to 90+ days):** 18-29: 9.5% | 30-39: 8.6% | 40-49: 8.1%
 
+**Tariff Tax Burden (Tax Foundation):** $1,000/household (2025) → $1,300/household (2026) — regressive hit on 37% who can't cover $400.
+
 ---
 
 ## HOUSING VELOCITY COLLAPSE (Feb 12)

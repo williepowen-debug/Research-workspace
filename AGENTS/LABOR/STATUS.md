@@ -45,6 +45,9 @@ The U.S. labor market has entered a structural break masked by surface-level sta
 | DOGE Cuts | 307K | 🔴 | 24% of all 2025 cuts |
 | Google "Severance" | 100 | 🔴 | ALL-TIME HIGH |
 | ISM Mfg Employment | 48.1% | 🔴 | 28 months contraction |
+| ISM Services Employment | 50.3 | 🟠 | Barely expanding, -1.4pp MoM |
+| Cass Freight | -7.5% YoY | 🔴 | New cycle low |
+| Fed Beige Book | 4/12 deteriorating | 🟠 | "Low-hire, low-fire" |
 
 **Hotel California Check:** Initial claims stable but continuing claims rising = workers stuck on UI longer. Duration proxy 8.0 weeks and climbing.
 
@@ -59,6 +62,34 @@ The U.S. labor market has entered a structural break masked by surface-level sta
 | **"Vibe-cession Gap"** | 1 in 3 report layoff anxiety. Behaving as if in recession. |
 | **"WARN Pipeline"** | Q4 2025 filings = Q1-Q2 2026 actuals. Pain locked in. |
 | **"Data Center Cliff"** (Burry) | 94-95% of net non-resi construction = data centers. If AI capex slows, "abyss awaits." |
+
+---
+
+## BURRY LATE-CYCLE ASSESSMENT (Jan 12, 2026)
+
+**Key quotes from "Short Thoughts":**
+
+> "Hours worked and labor income are both flatlining... **classic late-cycle economic effects.**"
+
+> "DOGE – **300,000 jobs eliminated, 300,000 jobs on the block**. This swamps anything going on with AI job replacement."
+
+> "Data centers are accounting for **94-95% of net growth in private non-residential construction**... If the data center buildout slows, something akin to the **abyss awaits.**"
+
+> "Penn-Wharton estimated AI's impact on productivity is just **1 basis point in 2025**. If productivity is running at 2-3%, **well over 99% of the hundreds of billions being spent has not impacted economic productivity yet**."
+
+**Implication:** Even if AI works, it displaces workers faster than creates jobs. Either outcome bad for labor.
+
+---
+
+## SMALL BUSINESS STRESS (Feb 10)
+
+| Metric | 1-9 Employees | 10+ Employees |
+|--------|---------------|---------------|
+| Revenue Growth | **NEGATIVE** | Weak positive |
+| Employment Growth | Negative/Weak | Weak positive |
+| Credit Access | Constrained | Less constrained |
+
+**Small business = 46% of US employment, 63% of new job creation.** If smallest firms flip from "constrained but hiring" to "downsizing," safety net disappears.
 
 ---
 
