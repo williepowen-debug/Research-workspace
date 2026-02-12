@@ -2,7 +2,7 @@
 
 *Working model, not truth. Track our predictions to calibrate confidence over time.*
 
-**Last updated:** 2026-02-11
+**Last updated:** 2026-02-12
 
 ## RECENTLY RESOLVED
 
@@ -111,6 +111,11 @@
 | 3 | SRF usage >$50B at least once | 2026 | 50% | ⏳ Pending |
 | 4 | 10Y auction BTC falls below 2.30x | Q2 2026 | 55% | ⏳ NEW — Feb 11 was 2.39 (close) |
 | 5 | Indirect bidder % declines to <62% sustained | Q2 2026 | 50% | ⏳ NEW — Feb 11 was 64.5% |
+| 6 | **Belgium TIC >$500B** (China stealth exit accelerating) | Q2 2026 | 55% | ⏳ NEW — Currently $481B |
+| 7 | **China official TIC <$650B** (accelerating exit) | Q3 2026 | 50% | ⏳ NEW — Currently $682.6B |
+| 8 | **Combined China+Belgium quarterly outflow >$100B** | Q2 2026 | 45% | ⏳ NEW |
+| 9 | **Term premium (ACM) rises >1.0%** | H2 2026 | 60% | ⏳ NEW — Currently 0.80% |
+| 10 | **Trump-Xi summit fails to reduce tariffs** | Apr 2026 | 55% | ⏳ NEW — Catalyst for exit acceleration |
 
 ### MARCO (Border Cities & Migration)
 | # | Prediction | Timeframe | Confidence | Status |
@@ -171,6 +176,10 @@
 | 1 | KRE drops below $65 (breakout fails, stress materializes) | Q2 2026 | 55% | ⏳ Pending |
 | 2 | KRE drops below $55 (multi-channel convergence plays out) | Q2-Q3 2026 | 40% | ⏳ Pending |
 | 3 | At least one of the 8 convergence channels triggers visible regional bank stress | H1 2026 | 70% | ⏳ Pending |
+| 4 | **SSB Q1 earnings shows NPL >0.5%** (FL convergence validates) | Late Apr 2026 | 35% | ⏳ NEW — Currently 0.02% |
+| 5 | **SLOOS shows continued C&I tightening to small firms** | Apr 2026 | 70% | ⏳ NEW — Jan SLOOS confirmed |
+| 6 | **FL UI exhaustion wave begins** (12-week duration) | Mar-Apr 2026 | 75% | ⏳ NEW |
+| 7 | **Japan + China combined UST exit >$300B/year pace confirmed** | H1 2026 | 60% | ⏳ NEW — TIC data tracking |
 
 **Trade Position:**
 - 2x KRE $70 puts (May 15) — Break-even ~$67

@@ -101,6 +101,31 @@ AI Capex Bubble ($3-5T planned) → Neocloud GPU-Backed Debt
 
 ---
 
+## 🆕 BIG TECH CAPEX MONITOR (Feb 12, 2026)
+
+**Path 2 Status:** 🟡 DORMANT — Stress building, not triggered
+
+| Metric | Value | Status |
+|--------|-------|--------|
+| 2026 Capex (GOOG/MSFT/AMZN/META) | **$650B** | 🟢 ACCELERATING |
+| Adjusted Growth (ex-memory inflation) | **40%** (vs 80% in 2025) | 🟡 SLOWING |
+| Amazon 2026 FCF | **-$17B to -$28B** | 🟠 NEGATIVE |
+| Big Tech FCF Impact | **Down 90%** YoY | 🟠 STRESS |
+
+**Interpretation:** 
+- Headline capex still accelerating — no reversal yet
+- BUT: Cash flow is getting crushed as spending outpaces AI revenue
+- FCF stress is the **leading indicator** — if it forces capex cuts, Path 2 triggers
+
+**What would trigger Path 2:**
+1. Q1 2026 earnings: Capex guidance CUT (not just slowed growth)
+2. Neocloud distress: CoreWeave/Crusoe/Lambda funding round failures
+3. BDC NAV: Tech-heavy BDCs (HTGC, HRZN) mark down AI exposure
+
+**Next check:** Q1 2026 Big Tech earnings (late April)
+
+---
+
 ## KEY METRICS (Industry)
 
 | Metric | Current | Warning | Distressed |

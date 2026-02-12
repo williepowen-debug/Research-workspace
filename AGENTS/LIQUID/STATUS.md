@@ -1,5 +1,5 @@
 # LIQUID STATUS
-**Last Updated:** 2026-02-11 19:22 UTC | **Status:** 🟠 ELEVATED — Double Buffer Gone (Domestic + Foreign)
+**Last Updated:** 2026-02-12 16:27 UTC | **Status:** 🔴 **CRITICAL** — Stealth Exit Confirmed (China/Belgium Vector Active)
 
 ---
 
@@ -15,18 +15,29 @@ US Treasury/repo funding markets face **dual vulnerability**:
 - **Dealers stuffed** — ~$200B net long Treasuries, SLR prevents expansion
 - **Basis trade armed** — $1.85T hedge fund positions funded by money market repos
 
-### Pillar 2: Foreign Official Sector (NEW - Feb 2026)
-- **China strategic exit** — Official $688B, TRUE exposure ~$2.5-2.8T (Belgium/Euroclear proxies)
-- **Japan life insurer repatriation** — $10-15B/month selling, hedge ratios down 50%→30%
-- **Saudi petrodollar decline** — Vision 2030 deficit = no marginal buying
-- **$300B annual demand hole** — Must be absorbed by leveraged private buyers
+### Pillar 2: Foreign Official Sector (UPGRADED - Feb 12, 2026)
+- **China stealth exit CONFIRMED** — Belgium $481B (+33% YoY) = Euroclear custody proxy
+- **Feb 9, 2026 window guidance** — China regulators told banks to REDUCE UST holdings
+- **China TRUE exposure $2.5-2.8T** — Official TIC $682.6B dramatically understates
+- **Japan life insurer repatriation** — $150B/year selling, hedge ratios down 50%→30%
+- **Saudi petrodollar decline** — Vision 2030 deficit = no marginal buying (~$50B/yr)
+- **$300B annual demand hole** — Japan $150B + China $100B + Saudi $50B
 - **No 2016 safety net** — No ECB/BOJ QE to offset, Fed doing QT not QE
+- **April 2026 catalyst** — Trump-Xi Beijing summit = pre-positioning window
 
 The system now operates in a **dual-fragility regime**:
 1. **Domestic**: Fed intervention required real-time (no RRP buffer)
 2. **Foreign**: Term premium must rise to attract private buyers (no FOI subsidy)
 
-**Confidence:** Pattern 90% | Timing 70% | Magnitude 85%
+**Confidence:** Pattern 95% | Timing 75% | Magnitude 90%
+
+**UPGRADE RATIONALE (Feb 12):**
+- Belgium $481B surge (+$120B/12mo) while China declined -$86B = **Mirror pattern confirmed**
+- Feb 9 Bloomberg: Window guidance to Chinese banks = **Strategic withdrawal validated**
+- Euroclear custody mechanism confirmed (103 central banks use Brussels hub)
+- Combined China+Belgium flow = **-$100B/quarter** (RED threshold breached)
+- Academic research: $300B FOI exit = **+90-210 bps term premium** required
+- **Trump-Xi summit April 2026** = Two-month countdown to catalyst window
 
 ---
 
@@ -371,18 +382,19 @@ Academic estimates: $200B reduction = **+30 to +100bps** persistent yield impact
 | 5 | Warsh confirmation delayed or blocked | H1 2026 | 55% |
 | 6 | Reserve balances drop below $2.8T | Q2 2026 | 60% |
 
-### Foreign Official Sector (NEW)
+### Foreign Official Sector (UPGRADED - Feb 12)
 | # | Prediction | Timeframe | Confidence |
 |---|------------|-----------|------------|
-| 7 | China official TIC holdings fall below $650B | Q2 2026 | 70% |
-| 8 | Belgium holdings rise (China proxy) as China TIC falls | Q2 2026 | 65% |
-| 9 | 10Y term premium (ACM) rises above 1.0% | H2 2026 | 60% |
-| 10 | Auction indirect bid % declines to <65% on average | Q2 2026 | 55% |
+| 7 | China official TIC holdings fall below $650B | Q2 2026 | **75%** ⬆️ |
+| 8 | Belgium holdings exceed $500B (RED threshold) | Q2 2026 | **70%** ⬆️ |
+| 9 | 10Y term premium (ACM) rises above 1.0% | H2 2026 | **70%** ⬆️ |
+| 10 | Auction indirect bid % declines to <65% on average | Q2 2026 | **60%** ⬆️ |
 | 11 | Japan continues net selling USTs (TIC monthly) | Through 2026 | 75% |
-| 12 | **Belgium holdings exceed $500B (RED threshold)** | **Q2 2026** | **60%** |
-| 13 | **Belgium+China combined flow <-$50B in single quarter** | **Q1-Q2 2026** | **65%** |
-| 14 | **Collateral velocity drops below 2.5x (YELLOW)** | **Q2 2026** | **50%** |
-| 15 | **BIS B4 data confirms stealth exit (Scenario B)** | **H1 2026** | **55%** |
+| 12 | **BIS B4 data confirms stealth exit (Scenario B)** | **Q2 2026** | **60%** ⬆️ |
+| 13 | **China sells >$50B in single quarter (TIC official)** | **Q2-Q3 2026** | **65%** 🆕 |
+| 14 | **April summit fails to produce tariff de-escalation** | **April 2026** | **55%** 🆕 |
+| 15 | **Collateral velocity drops below 2.5x (YELLOW)** | **Q2 2026** | **50%** |
+| 16 | **10Y yields exceed 5.0% (term premium adjustment)** | **Q3-Q4 2026** | **60%** 🆕 |
 
 ---
 
@@ -418,18 +430,27 @@ Academic estimates: $200B reduction = **+30 to +100bps** persistent yield impact
 - **SIFMA triparty repo volume** (collateral velocity calculation)
 
 **Monthly:**
-- **TIC data releases** (Belgium + China custodial flow tracking)
+- **TIC data releases** (Belgium + China custodial flow tracking) — **CRITICAL**
+  - **Next:** Feb 18 (Dec 2025 data) — Post-window guidance baseline
+  - **Watch:** Belgium >$500B = RED | China <$650B = acceleration
 - Outstanding UST data (collateral velocity denominator)
+- Term premium (ACM, SF Fed models) — Watch for >1.0% breach
 
 **Quarterly:**
 - **BIS International Banking Statistics Table B4** (custodial claims cross-reference)
 
 **Event-driven:**
+- **Trump-Xi Beijing summit (April 2026)** — **CRITICAL CATALYST WINDOW**
+  - Pre-positioning: China selling Jan-Mar 2026 (ahead of tariff risk)
+  - Post-positioning: Outcome determines acceleration (failure = $200-300B exit)
+- **Taiwan arms sales** (>$5B triggers Chinese retaliation, UST pressure)
+- **USD/CNY breach of 7.40** (yuan defense = forced UST selling)
+- **BIS B4 data release (March 2026)** — Scenario A vs B confirmation
+- **Secondary sanctions legislation** (SWIFT/OFAC = preemptive liquidation risk)
 - Fed communications on balance sheet
 - Warsh confirmation news
-- Japan BOJ policy signals
+- Japan BOJ policy signals (SAM monitors)
 - Quarter-end funding stress
-- **Trump-Xi summit (April 2026)** — pre-positioning for custodial exit
 
 ---
 
@@ -441,10 +462,12 @@ Academic estimates: $200B reduction = **+30 to +100bps** persistent yield impact
 - **ML-LIQ-031: Foreign Custodial Flow Disaggregation Framework**
 - **ML-LIQ-032: Collateral Velocity / Rehypothecation Framework**
 - **ML-LIQ-033-034: Belgium TIC Baseline + BIS Cross-Reference Protocol**
+- **ML-LIQ-035: China/Belgium UST Exposure — Second FOI Shock Vector (Feb 12)**
 - FLOW-LIQUID-1.01: RRP Depletion Cascade
 - **FLOW-LIQUID-5.01-5.02: FOI Exit Cascades**
 - Research: "The Vanishing Buffer" (RRP depletion analysis)
 - **Research: CHINA_UST_RESEARCH.md (6-prompt deep dive)**
+- **Research: RP-LIQUID-CHINA_BELGIUM.md (Comprehensive China/Belgium analysis)**
 
 ---
 
@@ -458,11 +481,14 @@ The funding market has **two missing safety systems**:
 3. **$1.85T basis trade** — Transmission mechanism armed
 4. **Warsh nomination** — Fed willingness may decline
 
-### Foreign Official (NEW)
-5. **$300B demand hole** — Japan/China/Saudi all exiting
-6. **No 2016 safety net** — No ECB/BOJ QE to absorb
-7. **Replacement = leveraged** — Basis trade HFs at 18:1
-8. **Term premium must rise** — From 0.8% toward 1.5-2.0%
+### Foreign Official (UPGRADED - Feb 12)
+5. **China stealth exit confirmed** — Belgium $481B (+33% YoY) = Euroclear proxy
+6. **Feb 9, 2026 window guidance** — China banks told to reduce UST holdings
+7. **$300B demand hole** — Japan $150B + China $100B + Saudi $50B per year
+8. **No 2016 safety net** — No ECB/BOJ QE to absorb, Fed doing QT
+9. **Replacement = leveraged** — Basis trade HFs at 18:1, reflexive deleveraging risk
+10. **Term premium must rise** — From 0.8% toward 1.5-2.0% (+90-210 bps adjustment)
+11. **April 2026 catalyst** — Trump-Xi summit = pre-positioning window (2 months)
 
 System is transitioning from **official-sector stability** (price-insensitive buyers) to **private-sector fragility** (leveraged, price-sensitive buyers). This is structural, not cyclical.
 
