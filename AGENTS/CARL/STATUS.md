@@ -59,7 +59,35 @@ If SPX drops 10%+, the top 60% (whose spending has held up the K-shape) suddenly
 
 This is an additional stress vector — tariffs are effectively a regressive consumption tax hitting the "37% can't cover $400" population hardest.
 
-**Composite Assessment:** 🔴 **CRITICAL** — CC at 92% of GFC peak, auto at historical max. The +5.1pp rise since Q3 2022 is **larger than the entire 2008-2009 increase**. Young Americans (18-39) transitioning into serious delinquency at crisis rates. Tariff burden adds $1,000-1,300/household stress. Florida is the leading indicator.
+---
+
+## 🆕 HOUSING VELOCITY COLLAPSE (Feb 12, 2026)
+
+**Existing Home Sales: -8.4% MoM** (biggest drop in 4 years)
+
+| Metric | Jan 2026 | Context |
+|--------|----------|---------|
+| Sales (SAAR) | 3.91M | Lowest since Dec 2023 |
+| Days on Market | **46 days** | Up from 39 |
+| South Region | **-9.0% MoM** | Worst region |
+| West Region | **-10.3% MoM** | Biggest drop |
+
+**South Florida = Slowest Housing Markets in US:**
+
+| Metro | Days on Market | National Rank |
+|-------|----------------|---------------|
+| Ft. Lauderdale | 99 days (+19% YoY) | #2 Slowest |
+| Miami | 92 days (+12% YoY) | #4 Slowest |
+| West Palm Beach | 87 days (+7% YoY) | #5 Slowest |
+| Austin, TX | — | #1 Slowest |
+
+**Why this matters for CARL:**
+- **Hotel California extends to housing** — Can't sell, can't exit
+- Stressed homeowners trapped → delinquency duration extends
+- Bank collateral cannot be liquidated → loss recognition delayed
+- First-time buyers only 31% (vs historic 40%) — affordability crisis
+
+**Composite Assessment:** 🔴 **CRITICAL** — CC at 92% of GFC peak, auto at historical max. The +5.1pp rise since Q3 2022 is **larger than the entire 2008-2009 increase**. Young Americans (18-39) transitioning into serious delinquency at crisis rates. Tariff burden adds $1,000-1,300/household stress. Housing velocity collapsed. Florida is the leading indicator — now confirmed as slowest housing market in America.
 
 ---
 

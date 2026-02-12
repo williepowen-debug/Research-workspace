@@ -75,6 +75,22 @@ FL Supreme Court (Oct 2025) upheld 100% owner consent for termination. This **fr
 | Loss Severity (Condo) | 45-55% | High | 🔴 |
 | Workout Timeline | 600+ days | Extended | 🟠 |
 
+### 🆕 Housing Velocity Crisis (Feb 12, 2026)
+
+**South Florida = Slowest Housing Markets in America**
+
+| Metro | Days on Market | YoY Change | National Rank |
+|-------|----------------|------------|---------------|
+| **Ft. Lauderdale** | **99 days** | +19% | **#2 Slowest** |
+| **Miami** | **92 days** | +12% | **#4 Slowest** |
+| **West Palm Beach** | **87 days** | +7% | **#5 Slowest** |
+
+*Source: Redfin Dec 2025 MLS data*
+
+**National context:** Existing home sales fell 8.4% MoM (Jan 2026) — biggest drop in 4 years. South region -9.0%.
+
+**Thesis implication:** "Support and Survive" sponsors CANNOT exit via sale. Market is frozen. Extends non-accrual recognition timeline but also traps distressed assets on bank balance sheets longer.
+
 ---
 
 ## Geographic Concentration
