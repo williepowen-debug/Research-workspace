@@ -28,6 +28,10 @@
 | 2 | U-3 rises to >5.0% | Q3 2026 | 55% | ⏳ Pending |
 | 3 | NFP prints negative (<0) | Q2 2026 | 50% | ⏳ Pending |
 | 4 | Temp staffing (KFRC/RHI) guides down | Q1 2026 | 70% | ⚠️ **PARTIAL** — See resolved |
+| 5 | **DOGE total separations exceed 400K** | Q3 2026 | 60% | ⏳ NEW (Burry) |
+| 6 | **Data center/construction employment growth turns negative if AI capex slows** | H2 2026 | 55% | ⏳ NEW (Burry) |
+| 7 | **BLS benchmark revision continues (>500K downward revision in 2026)** | Q1 2027 | 65% | ⏳ NEW (Burry) |
+| 8 | **"Late-cycle" language appears in Fed communications** | Q2-Q3 2026 | 50% | ⏳ NEW (Burry) |
 
 ### CARL
 | # | Prediction | Timeframe | Confidence | Status |
@@ -64,6 +68,10 @@
 | 9 | HRZN merger terms worse than announced (NAV floor broken) | Q1-Q2 2026 | 60% | ⏳ Pending |
 | 10 | HTGC tech-driven NAV decline >10% | H2 2026 | 50% | ⏳ Pending |
 | 11 | First BDC breaches 150% asset coverage (triggers dividend halt) | 2026 | 55% | ⏳ Pending |
+| 12 | **Hyperscaler accelerates GPU depreciation (5-6yr → 3-4yr)** | 2026 | 50% | ⏳ NEW (Burry) |
+| 13 | **GPU failure rate disclosure forces BDC collateral revaluation** | H2 2026 | 40% | ⏳ NEW (Burry) |
+| 14 | **Power grid constraint cited in Big Tech earnings call** | Q2-Q3 2026 | 55% | ⏳ NEW (Burry) |
+| 15 | **Blackwell overheating/failure issues become widely reported** | H1 2026 | 45% | ⏳ NEW (Burry) |
 
 ### CREED
 | # | Prediction | Timeframe | Confidence | Status |

@@ -139,6 +139,48 @@ This is not synchronized recession — it's a **"barbell" economy**:
 
 ---
 
+## 🆕 BURRY LATE-CYCLE ASSESSMENT (Feb 12, 2026)
+
+**Source:** Michael Burry "Short Thoughts" (Jan 12, 2026) — **Burry sees what we see.**
+
+### Core Assessment
+
+> "Something is going on in the labor market."
+
+> "Hours worked and labor income are both flatlining as well. This paired to the frequent, large downward revisions are **classic late-cycle economic effects**."
+
+### DOGE as Primary Driver
+
+> "The biggest jobs driver so far has been **DOGE – 300,000 jobs eliminated, 300,000 jobs on the block**. This swamps anything going on with AI job replacement."
+
+**Our tracking:** 307K federal + 275K private = ~580K. Burry's 600K DOGE figure (300K done + 300K planned) aligns with our estimates.
+
+### AI Productivity Myth
+
+> "Penn-Wharton estimated AI's impact on productivity is just **1 basis point in 2025**. If productivity is running at 2-3%, **well over 99% of the hundreds of billions being spent has not impacted economic productivity yet**."
+
+> "The St. Louis Fed estimates even if productivity saved 5% of work hours, the entire benefit may have dissipated into 'on-the-job' leisure activities."
+
+**Implication:** AI is NOT absorbing displaced workers. The "AI will create new jobs" narrative has no data support.
+
+### Data Center Dependency
+
+> "Data centers are accounting for **94-95% of net growth in private non-residential construction** the last 2 years."
+
+> "Yet private jobs are no great shakes. **If the data center buildout slows, something akin to the abyss awaits.**"
+
+**Cross-reference:** BROCK Path 2 — If AI capex reverses, the only source of construction job growth collapses simultaneously.
+
+### Burry's Conclusion
+
+> "The picture does look late cycle. If the AI productivity boom finally arrives this year as the bulls say, it may do so as a **hammer blow**."
+
+**Translation:** Even if AI works, it displaces workers faster than it creates jobs. Either outcome (AI fails OR AI succeeds) is bad for labor.
+
+**Full research:** `sources/Burry_Late_Cycle_Labor_Assessment_2026-01-12.md`
+
+---
+
 ## SECTOR BREAKDOWN
 
 | Sector | Cuts (2025-26) | Signal | Notes |
@@ -177,6 +219,8 @@ This is not synchronized recession — it's a **"barbell" economy**:
 4. **"WARN Pipeline"** — Q4 2025 filings = Q1-Q2 2026 actual layoffs. Pain is locked in through H1.
 
 5. **"Permanent Displacement"** — Logistics automation (28% cost advantage) and AI coding replacement = structural, not cyclical.
+
+6. **🆕 "Data Center Cliff"** — Data centers are 94-95% of net growth in private non-residential construction. If AI capex slows, "something akin to the abyss awaits." (Burry, Jan 2026)
 
 ---
 
@@ -226,6 +270,10 @@ The "supply-constrained small business" narrative is BREAKING for the smallest f
 | 5 | Kforce (KFRC) earnings miss | Q1 2026 | 70% |
 | 6 | ISM Mfg Employment stays <50 | Through 2026 | 80% |
 | 7 | NFIB hard-to-fill >30% persists | Through Q2 2026 | 85% |
+| 8 | DOGE total separations exceed 400K (Burry's 300K "on the block" realized) | Q3 2026 | 60% |
+| 9 | Data center/construction employment growth turns negative if AI capex slows | H2 2026 | 55% |
+| 10 | BLS benchmark revision pattern continues (>500K downward revision in 2026) | Q1 2027 | 65% |
+| 11 | "Late-cycle" language appears in Fed communications (Beige Book or FOMC) | Q2-Q3 2026 | 50% |
 
 ---
 

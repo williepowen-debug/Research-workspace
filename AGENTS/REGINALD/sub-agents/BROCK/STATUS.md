@@ -67,6 +67,71 @@ Wall Street adds back SBC in "adjusted" earnings, making tech earnings appear **
 
 **Full research:** `sources/Burry_SBC_Dilution_Framework_2025-11-30.md`, `sources/Burry_Palantir_Short_Thesis_2026-02-12.md`
 
+---
+
+## 🆕 GPU FAILURE & DEPRECIATION ANALYSIS (Feb 12, 2026)
+
+**Source:** Michael Burry "Blessed Fraud Recurrence" (Jan 9, 2026)
+
+### The Depreciation Lie
+
+5-6 year GPU depreciation schedules are fiction. Hard data:
+
+| Metric | Value | Source |
+|--------|-------|--------|
+| **First-year failure rate** | **9%** | Meta Llama training study |
+| **3-year failure rate** | **35-45%** (projected) | Oak Ridge Titan study extrapolation |
+| **Aging curve** | **12x worse MTBF** after 2-3 years | Oak Ridge empirical data |
+| **Blackwell Y1 failure** | **>9%** (projected) | Higher thermals, liquid cooling req'd |
+| **Blackwell 3Y failure** | **>50%** (projected) | Burry estimate |
+
+**Arrhenius Rule:** Every 10°C increase in circuit temp = halve the lifetime.
+
+**Blackwell problems:**
+- Power usage 43-71% higher than Hopper
+- Higher thermal density (two dies in one package)
+- Documented overheating issues
+- Larger package = more failure points
+- Requires liquid cooling (displacing homes near waterways)
+
+### Technological Obsolescence
+
+Nvidia's product cycle is now **annual**, incompatible with 5-6 year depreciation:
+
+```
+2024: Hopper (H100)
+2025: Blackwell  
+2026: Vera Rubin (announced Jan 8, 2026)
+      → "Inference 5x greater than Blackwell? In one year?"
+```
+
+**Satya Nadella confirmed:** "Did not want to get stuck with 4-5 years of depreciation on one generation."
+
+### Power Grid Bottleneck
+
+> "Access to energy, T&D, does not magically appear in the US: it takes years of planning which we have not done and the **current map of US electrical grid is not capable of supporting $3T in Capex spend**."
+
+**SMR (Small Modular Reactor) is NOT a solution:**
+- Burry: "I am of the opinion, after substantial work, that SMRs are simply **not economically feasible**"
+- "A dozen SMRs by 2030 would imply on the order of less than 3.6 GW of generation capacity"
+- A "gamble on recouping sacrificed economies of scale via mass production"
+
+**China comparison:** Responding quickly to AI power demands while US falls behind due to politics/regulations.
+
+> "I see a big inventory problem in the AI buildout as a result of the current power generation setup."
+
+### Implications
+
+1. **Overvalued assets** — GPUs on balance sheets at 5-6 year depreciation are mispriced
+2. **Overstated earnings** — Depreciation expense too low = profits too high
+3. **BDC collateral risk** — GPU-backed loans using 6-year schedules on 2-3 year assets
+4. **Inventory glut** — Power constraints + obsolescence = stranded assets
+5. **Write-down wave** — When hyperscalers acknowledge reality, marks cascade to BDCs
+
+**Full research:** `sources/Burry_GPU_Failure_Depreciation_2026-01-09.md`
+
+---
+
 ### 🔗 CONNECTION TO PATH 2: AI CAPEX REVERSAL
 
 **Burry's PLTR thesis ACCELERATES Path 2 probability:**
@@ -394,6 +459,10 @@ AI Capex Bubble ($3-5T planned) → Neocloud GPU-Backed Debt
 | 14 | Big Tech Q1 2026 earnings: At least one GOOG/MSFT/AMZN cuts FY capex guidance (not just slows growth) | Q1 2026 earnings | 40% |
 | 15 | Burry's PLTR short generates >20% profit (PLTR below $108) by year-end | Q4 2026 | 50% |
 | 16 | AI infrastructure markdown triggers revaluation of HTGC tech portfolio (>15% NAV impact) | H2 2026 | 45% |
+| 17 | At least one hyperscaler (GOOG/MSFT/AMZN/META) accelerates GPU depreciation schedule (from 5-6yr to 3-4yr) | 2026 | 50% |
+| 18 | GPU failure rate disclosure forces BDC collateral revaluation (CoreWeave or similar) | H2 2026 | 40% |
+| 19 | Power grid constraint cited as capex limitation in Big Tech earnings call | Q2-Q3 2026 | 55% |
+| 20 | Blackwell overheating/failure issues become public (beyond current reports) | H1 2026 | 45% |
 
 ---
 
