@@ -1,7 +1,7 @@
 # Current State
 
-**Last Updated:** 2026-01-27 (Session 016 — Crypto/Stablecoin Domain + News Sweep)
-**Network:** 319 nodes | 567 edges | 173 catalysts | 35 patterns | 11 clusters
+**Last Updated:** 2026-02-12 (Session 018 — Gemini Research Integration)
+**Network:** 325 nodes | 580 edges | 185 catalysts | 37 patterns | 11 clusters
 
 ---
 
@@ -36,50 +36,62 @@ The thesis is WRONG if:
 | ~~Jan 20~~ | ~~Trump housing EO~~ | housing | PHM, INVH, AMH | **FIRED** - BTR exemption confirmed |
 | ~~Jan 15~~ | ~~Clarity Act markup~~ | finance | - | **FIRED** - Proceeded as scheduled |
 | ~~Jan 27~~ | ~~RTX Q4 earnings + 2026 outlook~~ | defense | RTX | **FIRED** — Beat estimates; Calio defied dividend EO; +2.5% AH |
-| **Jan 29** | **CLARITY Act Senate Ag Committee markup** | crypto | XRP, COIN | **RESCHEDULED** from Jan 27 (winter storm) |
-| TBD | CLARITY Act Senate Banking markup | crypto | XRP, COIN | **POSTPONED** — Coinbase pulled support Jan 14; no date |
-| 2026-Q1 | RLUSD Japan launch via SBI Holdings | crypto | XRP | **NEW** — $300B market entry |
-| Ongoing | XRP ETF approvals (11+ filings; deadline Mar 27) | crypto | XRP | **NEW** |
-| Ongoing | WLFI OCC bank charter application | crypto | - | **NEW** — Trump family banking license for USD1 |
-| Ongoing | Senate ethics scrutiny of Witkoff crypto stakes | crypto | - | **NEW** — Warren/Merkley "staggering conflict" |
-| Feb 6 | Hegseth underperformer list | defense | LMT, RTX, NOC, GD | **CRITICAL** — RTX 90%+ inclusion |
-| Feb 19 | Treasury "large institutional investor" definition due | housing | INVH, AMH, BX | **NEW** |
+| ~~Jan 29~~ | ~~CLARITY Act Senate Ag Committee markup~~ | crypto | XRP, COIN | **POSTPONED** indefinitely — Coinbase-bank stalemate |
+| TBD | CLARITY Act resolution | crypto | XRP, COIN | **GRIDLOCKED** — Sen. Warner: "crypto hell"; yield dispute unresolved |
+| 2026-Q1 | RLUSD Japan launch via SBI Holdings | crypto | XRP | **ACTIVE** — $300B market entry |
+| **Mar 27** | **XRP ETF SEC deadline** | crypto | XRP | **CRITICAL** — Rule change decision; 11+ filings pending |
+| Ongoing | WLFI OCC bank charter application | crypto | - | **ACTIVE** — Filed Jan 7, 2026; Trump family banking license |
+| Ongoing | Senate ethics scrutiny of Witkoff crypto stakes | crypto | - | **ESCALATING** — UAE $500M stake revealed; Ro Khanna investigation |
+| ~~Feb 6~~ | ~~Hegseth underperformer list~~ | defense | LMT, RTX, NOC, GD | **DELAYED** — Extended review period; 15-day remediation window |
+| **Feb 19** | **Treasury "large institutional investor" definition** | housing | INVH, AMH, BX | **CRITICAL** — 100-home vs 1,000-home threshold |
 | Feb 2026 | PHM/INVH/AMH Q4 earnings | housing | PHM, INVH, AMH | PENDING |
-| Mar 21 | Agency guidance on housing EO due (60 days) | housing | INVH, AMH | **NEW** |
+| **Mar 21** | **Agency guidance on housing EO** | housing | INVH, AMH | **CRITICAL** — First-look protections |
 | H1 2026 | Securitize SPAC close (CEPT→SECZ) | finance | CEPT, SECZ | S-4 filed |
-| **Feb 3** | **Regulator anti-debanking strategy deadline** | finance | JPM, BAC, COF | **NEW** — Per Aug 2025 EO |
-| Ongoing | **Trump v. JPMorgan ($5B lawsuit)** | finance | JPM | **NEW** — Filed Jan 22 |
-| Ongoing | **DOGE-SSA Hatch Act proceedings** | cross-domain | - | **NEW** — 2 referrals pending |
-| Ongoing | **DOGE-SSA criminal investigation** | cross-domain | - | **NEW** — Demanded by Congress |
-| Ongoing | **DOJ voter roll lawsuits** | cross-domain | - | **NEW** — 18+ states sued; 2 judges blocked |
-| **Jan 23** | **Warren/Kim/Blumenthal letter to Hegseth** | defense | UMAC | Demanding 1789 conflict investigation |
-| **Jan 26** | **Bessent terminates ALL Booz Allen contracts** | finance | BAH | **FIRED** — $21M cancelled; retribution for tax leak |
+| ~~Feb 3~~ | ~~Regulator anti-debanking strategy deadline~~ | finance | JPM, BAC, COF | **FIRED** — Per Aug 2025 EO |
+| Ongoing | Trump v. JPMorgan ($5B lawsuit) | finance | JPM | **ACTIVE** — Miami-Dade litigation |
+| Ongoing | DOGE-SSA Hatch Act proceedings | cross-domain | - | **ESCALATING** — 2 referrals; Democracy Forward FOIA |
+| Ongoing | DOGE-SSA criminal investigation | cross-domain | - | **ACTIVE** — H.R. 1877, H.Res 195 introduced |
+| Ongoing | DOJ voter roll lawsuits | cross-domain | - | **EXPANDED** — 24 states + DC sued |
+| Ongoing | **Musk deposition order** | cross-domain | - | **NEW** — Judge Chuang (D.Md.) ordered in USAID case |
+| Ongoing | **GAO Pulte investigation** | housing | PHM | **ACTIVE** — Opened Dec 4, 2025; abuse of authority |
+| Ongoing | **Swalwell v. Pulte lawsuit** | housing | - | **NEW** — Alleges selective enforcement |
+| **Jul 5, 2026** | **Trump Accounts launch** | finance | SPY, QQQ | **NEW** — $1K/child; ~$15B initial injection |
+| **Mid-2026** | **$2,000 tariff dividend checks** | finance | - | **NEW** — Pre-midterm fiscal stimulus |
+| ~~Jan 26~~ | ~~Bessent terminates ALL Booz Allen contracts~~ | finance | BAH | **FIRED** — $21M cancelled; -11% stock |
+| Ongoing | **SpaceX $2B Golden Dome contract** | defense | - | **NEW** — 600 AMTI satellites; 1789 Capital conflict |
+| Ongoing | **DOJ subpoenas to Fed** | finance | - | **NEW** — Grand jury targeting Powell; pressure tactic |
+| Ongoing | **Kevin Warsh confirmation** | finance | - | **ACTIVE** — Bessent selected; Tillis blocking
 
 ---
 
 ## Open Questions
 
 - ~~BTR carve-out language~~ **RESOLVED** — Exemption for "planned, permitted, financed, constructed as rental communities"
-- Bessent definition threshold — could be as low as dozens of homes (watch Feb 19)
-- Pulte OGE 278 PHM holdings detail
+- **Feb 19 threshold**: Will Bessent use 100-home or 1,000-home? (critical for INVH/AMH impact)
+- Pulte OGE 278 PHM holdings detail — **still opaque** despite GAO investigation
 - Atkins Securitize recusal status — S-4 now filed, decision imminent
 - Ferguson EA/PIF recusal question
-- Will Raytheon be on Hegseth's underperformer list? **HIGH PROBABILITY** — Trump named RTX specifically
-- Which other primes (LMT, NOC, GD, BA) will be on Feb 6 list?
-- Will LMT legal challenge to EO succeed?
+- ~~Will Raytheon be on Hegseth's underperformer list?~~ **DELAYED** — Extended review period; RTX signed remediation deals
+- Which primes will survive extended review? (LMT, NOC, GD all negotiating)
 - **DOGE-SSA:** Who specifically signed the Voter Data Agreement? (names still redacted)
 - **DOGE-SSA:** Was data actually transferred to True the Vote/EIN?
 - **DOGE-SSA:** What's in the encrypted file sent to Steve Davis? (SSA cannot access)
 - **DOGE-SSA:** Connection between CPI/EIN and Leonard Leo's network?
 - **DOGE-SSA:** What is Marko Elez doing with HHS Medicare/Medicaid and DOL unemployment data access?
-- **1789 Capital:** Does 1789 have other rare earth/critical mineral investments besides Vulcan? (Needed to predict next 84-Day Loop)
-- **1789 Capital:** Full portfolio list — PitchBook access would help
-- **Golden Dome:** When will SpaceX $2B satellite contract be formally announced?
-- **Crypto:** Is there a direct Ripple → Trump family equity/token relationship? (Key gap — no evidence found)
-- **Crypto:** Will OCC approve WLFI bank charter? (Trump family direct banking license)
-- **Crypto:** Did Bo Hines resign due to Ripple pressure? (Insider alleged "pressed too hard")
+- **1789 Capital:** Full portfolio beyond SpaceX, xAI, Anduril — PitchBook access would help
+- ~~Golden Dome SpaceX contract~~ **PARTIALLY RESOLVED** — $2B AMTI confirmed; 600 satellites
+- **Golden Dome:** What's the final architecture? Congress demanding plan within 2 months
+- ~~Crypto: Ripple → Trump equity?~~ **RESOLVED** — No direct relationship; transactional access only
+- ~~Crypto: Bo Hines resignation~~ **RESOLVED** — Replaced by Patrick Witt; joined Tether
+- **Crypto:** Will OCC approve WLFI bank charter? (Trump family direct banking license for USD1)
 - **Crypto:** What is Sacks' ongoing BitGo communication? (IPO directly benefits him)
 - **Crypto:** Will stablecoin issuers get Fed master accounts? (Not in GENIUS Act but lobbied for)
+- **Crypto:** How will UAE $500M stake affect US policy? (national security investigation underway)
+- **Crypto:** Will USD1 Binance concentration (87%) create de-peg risk?
+- **Finance:** Will Warsh be confirmed? (Tillis blocking; Bessent selected him)
+- **Finance:** What triggers DOJ grand jury to escalate against Powell?
+- **Finance:** How will $2,000 tariff dividends interact with Fed tightening? (inflationary)
+- **Housing:** Will Swalwell lawsuit expose Pulte/Bessent dual residence claims?
 
 ---
 
@@ -87,6 +99,28 @@ The thesis is WRONG if:
 
 | Date | Change | Domain |
 |------|--------|--------|
+| 2026-02-12 | **Session 018**: Gemini research integration; 6 new nodes, 13 edges, 12 catalysts, 2 patterns | ALL |
+| 2026-02-12 | **USD1 update**: Now $3.3-3.4B circulation; **87% concentrated on Binance** (severe counterparty risk) | crypto |
+| 2026-02-12 | **UAE stake revealed**: Sheikh Tahnoon's Aryam Investment bought 49% of WLFI for $500M (4 days pre-inauguration) | crypto |
+| 2026-02-12 | **CLARITY Act gridlocked**: Coinbase withdrew support; stablecoin yield dispute; Sen. Warner "crypto hell" | crypto |
+| 2026-02-12 | **Patrick Witt replaces Bo Hines**: Former Pentagon tech official now Crypto Council ED (Feb 10 meeting) | crypto |
+| 2026-02-12 | **Feb 6 list DELAYED**: Pentagon "extended review"; 15-day remediation window for contractors | defense |
+| 2026-02-12 | **RTX Feb 4 deals**: 5 Pentagon agreements; 1,000+ Tomahawks, 1,900 AMRAAMs, 500 SM-6s | defense |
+| 2026-02-12 | **SpaceX $2B AMTI contract**: 600 satellites for Golden Dome; 1789 Capital conflict flagged | defense |
+| 2026-02-12 | **Golden Dome costs**: WH $175B vs CBO $831B vs watchdog $3.6-4.4T (20-year) | defense |
+| 2026-02-12 | **DOGE workforce**: ~300,000 reductions (10%); IRS -19,200; VHA -25,000; Ed -40% | cross-domain |
+| 2026-02-12 | **SSA data crisis**: Full database (~300M Americans) uploaded to Cloudflare; voter data agreement | cross-domain |
+| 2026-02-12 | **Musk deposition ordered**: Judge Chuang (D.Md.) in USAID lawsuit; exec privilege rejected | cross-domain |
+| 2026-02-12 | **Pulte consolidation**: Made himself chair of BOTH Fannie Mae and Freddie Mac; GAO investigating | housing |
+| 2026-02-12 | **BTR exploitation confirmed**: AMH 95.7% internal builds; 37th-largest homebuilder | housing |
+| 2026-02-12 | **Treasury Feb 19 threshold**: 100-home vs 1,000-home; Bessent hinted low | housing |
+| 2026-02-12 | **Trump Accounts announced**: $1K/child born 2025-2028; Jul 5 launch; ~$15B initial | finance |
+| 2026-02-12 | **Shadow Fed Chair walked back**: Bessent conceded "market confusion" concern | finance |
+| 2026-02-12 | **DOJ subpoenas to Fed**: Grand jury targeting Powell over building renovations | finance |
+| 2026-02-12 | **Warsh lawsuit threat**: Trump "joked" about suing; Bessent wouldn't rule out | finance |
+| 2026-02-12 | **$2,000 tariff dividends**: Mid-2026 target; pre-midterm stimulus | finance |
+| 2026-02-12 | **American state capitalism**: Price floors for critical minerals; federal equity stakes | finance |
+| 2026-02-12 | **FinCEN Minnesota GTO**: Effective Feb 12; $3K+ international transfer reporting | finance |
 | 2026-01-27 | **Session 016**: Created crypto/stablecoin domain (C13); 18 new nodes, 27 edges, 11 catalysts, 4 patterns | crypto |
 | 2026-01-27 | **Ripple network mapped**: $70M+ political spend → Mar-a-Lago access → SEC dismissal → OCC charter → $2.4B acquisitions | crypto |
 | 2026-01-27 | **Stablecoin Regulatory Capture Loop**: Officials shape policy → mandates Treasury reserves → officials' products generate yield | crypto |
