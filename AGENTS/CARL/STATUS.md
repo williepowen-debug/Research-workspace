@@ -564,18 +564,35 @@ Stock drops → Deposit flight → Credit tightens
 
 ## PREDICTIONS (Falsifiable)
 
-| # | Prediction | Timeframe | Confidence | Status |
-|---|------------|-----------|------------|--------|
-| 1 | CC delinquency 90+ exceeds 2019 peak (8.36%) | Q2 2026 | 75% | ✅ **CONFIRMED** — 12.70% in Q4 2025 |
-| 2 | Auto subprime DQ >7% | Q3 2026 | 70% | Tracking — 5.21% and rising |
-| 3 | FL foreclosures +100% YoY | Q2 2026 | 70% | ✅ **CONFIRMED** — +190% in Q4 2025 |
-| 4 | Hardship 401k withdrawals >5.5% | 2026 | 80% | Pending |
-| 5 | BNPL provider distress (funding/defaults) | H2 2026 | 65% | Pending |
-| 6 | Medical debt collections spike post-employment break | Q3-Q4 2026 | 75% | Pending |
-| 7 | **CC 90+ reaches GFC peak (13.74%)** | Q2 2026 | 70% | NEW — only 1pp away |
-| 8 | **FL foreclosures +300% YoY** | Q3 2026 | 60% | NEW — trajectory supports |
-| 9 | **National foreclosures >70K (quarterly)** | Q2 2026 | 75% | ✅ **ON TRACK** — 58K in Q4 2025 (+41% YoY) |
-| 10 | **Fannie multifamily DQ crosses 0.80% (GFC peak)** | Q2 2026 | 65% | ⚠️ **IMMINENT** — 0.75% (5bps away) |
+### Confirmed ✅
+| # | Prediction | Result | Confidence |
+|---|------------|--------|------------|
+| 1 | CC 90+ exceeds 2019 peak (8.36%) | **12.70%** Q4 2025 | 75% |
+| 3 | FL foreclosures +100% YoY | **+190%** Q4 2025 | 70% |
+| 4 | Hardship 401k >5.5% | **6%** (Wright) | 80% |
+
+### Imminent ⚠️ (Next 30-60 days)
+| # | Prediction | Current | Gap | Timeframe | Confidence |
+|---|------------|---------|-----|-----------|------------|
+| 12 | **Student Loan 90+ DQ >10%** | 9.5% | 0.5pp | Q1 2026 | **85%** |
+| 16 | **Fannie MF DQ >0.80% (GFC)** | 0.75% | 0.05pp | Q1 2026 | **80%** |
+| 11 | **CC 90+ DQ >13.74% (GFC)** | 12.70% | 1.04pp | Q2 2026 | **75%** |
+
+### Tracking 📊 (Q2-Q3 2026)
+| # | Prediction | Current | Target | Timeframe | Confidence |
+|---|------------|---------|--------|-----------|------------|
+| 17 | National foreclosures >70K/qtr | 58K | 70K | Q2 2026 | 75% |
+| 14 | Subprime Auto ABS 60+ DQ >7% | >6% | 7% | Q2 2026 | 65% |
+| 2 | Auto subprime DQ >7% (NY Fed) | 5.21% | 7% | Q3 2026 | 70% |
+| 13 | Dave 28DPD >2.10% (gig) | 1.95-2.00% | 2.10% | Q2-Q3 2026 | 55% |
+| 15 | TX foreclosures +100% YoY | +45% | +100% | Q3 2026 | 50% |
+| 8 | FL foreclosures +300% YoY | +190% | +300% | Q3 2026 | 60% |
+
+### Pending (Employment-Dependent)
+| # | Prediction | Timeframe | Confidence |
+|---|------------|-----------|------------|
+| 5 | BNPL provider distress | H2 2026 | 65% |
+| 6 | Medical debt spike post-employment | Q3-Q4 2026 | 75% |
 
 ---
 

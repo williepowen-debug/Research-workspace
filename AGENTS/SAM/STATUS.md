@@ -1,5 +1,5 @@
 # SAM STATUS
-**Last Updated:** 2026-02-09 16:45 UTC | **Status:** 🔴 RED — Takaichi Landslide + UST Transmission Active
+**Last Updated:** 2026-02-12 20:42 UTC | **Status:** 🔴 RED — Floating Mortgage Bomb + Global Bond Stress Context
 
 ---
 
@@ -61,12 +61,12 @@ The yen has been the release valve (~159 currently), but if bonds break first, F
 
 ## FEB 8 ELECTION — RESULT: TAKAICHI LANDSLIDE ✅
 
-**FINAL RESULT:** LDP + Ishin coalition secured **2/3 supermajority** (~310+ of 465 seats)
+**FINAL RESULT:** LDP + Ishin coalition secured **2/3 supermajority** (352 of 465 seats)
 
 | Metric | Result | Signal |
 |--------|--------|--------|
-| **LDP seats** | 274-328 projected | 🔴 Far above 233 majority threshold |
-| **Coalition total** | 310+ (2/3 supermajority) | 🔴 Can override upper house |
+| **LDP seats** | **316** (+118 from prior) | 🔴 Far above 233 majority threshold |
+| **Coalition total** | **352** (2/3 supermajority) | 🔴 Can override upper house |
 | **Turnout** | ~56% | 🟡 Higher than 2024 (54%) — favored Takaichi |
 | **Mandate** | "Historic" landslide (Reuters) | 🔴 Strong mandate for fiscal expansion |
 
@@ -297,7 +297,50 @@ This is the **fiscal-monetary collision line:**
 
 ## TRANSMISSION MECHANISMS
 
-### 1. Fiscal Doom Loop (CONFIRMED)
+### 1. Floating Rate Mortgage Bomb (🔴 NEW — FEB 12)
+
+**STATUS:** 🟠 **LATENT CRITICAL** — The domestic political constraint on BOJ normalization
+
+**75% of Japanese mortgages are floating rate** (tied to short-term prime rate, which tracks BOJ policy rate). This is the OPPOSITE of the US (90% fixed 30-year mortgages).
+
+**The mechanism:**
+```
+BOJ normalizes toward 1.0%+ (Ueda's target)
+    ↓
+Short-term prime rate rises (linked to policy rate)
+    ↓
+75% of mortgages reprice upward IMMEDIATELY
+    ↓
+Household disposable income collapses
+    ↓
+Real wages ALREADY at 0.0% (VX-SAM-8.04) → mortgage increases push NEGATIVE
+    ↓
+Consumption craters + mortgage defaults rise
+    ↓
+POLITICAL BACKLASH — BOJ CANNOT CONTINUE
+    ↓
+Ueda trapped: normalize (break households) OR pause (break yen/inflation)
+```
+
+**This explains Takaichi's 0.75% ceiling (VX-SAM-6.03).** It's not arbitrary — it's mortgage holder protection.
+
+**Key data (Feb 12, Seeking Alpha / Morningstar):**
+- **75% floating rate exposure** (vs US 10%)
+- **2016-2025 avg refinancing rate: 0.33%** (near-zero for 9 years)
+- **Current refinancing: 2.5-3.5%** (~8x increase)
+- **Morningstar study:** If sustained at 3%, interest costs hit **30% of budget** in 10 years (¥36.7T/yr vs current ~10%)
+
+**Implications:**
+1. **BOJ terminal rate is LOWER than market thinks** — 0.75% may be the ceiling, not 1.25-1.5%
+2. **Takaichi-Ueda collision is INEVITABLE** — Ueda wants 1.0%+, mortgages constrain him to 0.75%
+3. **April BOJ hike to 0.75% triggers immediate backlash** — mortgage payments spike, consumption falls
+4. **D2 (Monetary Dominance) probability INCREASES** — political constraints strengthen YCC return case
+
+**Cross-reference:** VX-SAM-10.01, VX-SAM-10.02, ML-JPN-169
+
+---
+
+### 2. Fiscal Doom Loop (CONFIRMED)
 ```
 Takaichi fiscal expansion
     ↓
@@ -312,7 +355,7 @@ More issuance needed
 Repeat until intervention or crisis
 ```
 
-### 2. Life Insurer → UST Repatriation (🔴 ACTIVE — ACCELERATING)
+### 3. Life Insurer → UST Repatriation (🔴 ACTIVE — ACCELERATING)
 
 **STATUS:** Transmission is NOT theoretical. Confirmed active as of Jan 2026.
 
@@ -368,10 +411,12 @@ Global contagion
 - **Stress case (30%):** $150-250B over 6-12mo ($20-40B/month) ← LIQUID vector activates
 - **Crisis case (10%):** $300-500B over 3-6mo ($100-165B/month) ← Global contagion
 
-**Next inflection: FEB 19 20Y AUCTION**
-- PASS (BTC >2.8x) → continue gradual, base case 70%
-- WEAK (BTC 2.3-2.8x) → accelerate to stress, stress case 45%
-- FAIL (BTC <2.3x) → crisis case 20%, $40-60B wave in 4-8 weeks
+**Next inflection: FEB 19 20Y AUCTION** (REVISED THRESHOLDS — Global Bond Stress)
+- **PASS** (BTC >3.0x, tail <2bp) → continue gradual, base case 65%
+- **WEAK** (BTC 2.5-3.0x, tail 2-4bp) → accelerate to stress, stress case 50%
+- **FAIL** (BTC <2.5x, tail >4bp) → crisis case 25%, $40-60B wave in 4-8 weeks
+
+**Threshold revision rationale (Feb 12):** US 10Y auction (Feb 11) showed 1.4bp tail (biggest since Aug 2024) — global bond market stress is SYSTEMIC, not Japan-specific. Japanese 20Y (less liquid, higher fiscal risk) needs STRONGER demand to pass in this environment. Tail metric now critical alongside BTC.
 
 **Early warning signals:**
 1. **MOF weekly flow data** (Thursdays) — watch for >¥1T/month foreign bond selling
@@ -389,7 +434,7 @@ Global contagion
 
 **See:** `workbook/LIFE_INSURER_UST_DEEP_DIVE.md` (38KB comprehensive analysis)
 
-### 3. Yen Break → Inflation → BOJ Forced Hike (LATENT)
+### 4. Yen Break → Inflation → BOJ Forced Hike (LATENT)
 ```
 USD/JPY >160
     ↓
@@ -402,7 +447,7 @@ JGB yields spike more
 Doom loop accelerates
 ```
 
-### 4. BOJ-Takaichi Collision (LIVE)
+### 5. BOJ-Takaichi Collision (LIVE)
 ```
 Ueda commits to normalization (1.0%+ target)
     ↓
@@ -419,22 +464,29 @@ Either: Ueda backs down (YCC return, D2) OR Ueda holds (JGB spike, C scenario)
 
 ---
 
-## SCENARIO PROBABILITIES (Updated Feb 8 Post-Election)
+## SCENARIO PROBABILITIES (Updated Feb 12 — Floating Mortgage Vector)
 
 | Scenario | Probability | Change | Description |
 |----------|-------------|--------|-------------|
-| **A/A+** Soft landing | 10-15% ↓↓ | Feb 5 reprieve erased — landslide = fiscal acceleration |
-| **B** Controlled chaos | 45-50% ↓ | Auction passed but fiscal expansion pressure returns |
-| **C** Acute panic | 5-8% ↑ | Re-opens if Feb 19 20Y auction fails |
-| **D1** Austerity | 2-3% ↓ | Takaichi mandate makes this impossible |
-| **D2** Monetary dominance | 30-35% ↑↑↑ | **LIVE** — supermajority = YCC return path opens |
+| **A/A+** Soft landing | 8-12% ↓ | Mortgage constraint + fiscal expansion = lower odds |
+| **B** Controlled chaos | 42-48% ↓ | Base case but floating mortgages add fragility |
+| **C** Acute panic | 5-8% → | Feb 19 20Y auction remains trigger |
+| **D1** Austerity | 2-3% → | Takaichi mandate makes this impossible |
+| **D2** Monetary dominance | 32-40% ↑ | **LIVE** — mortgage constraint + supermajority = YCC return more likely |
 
-**Key shift:** D2 (monetary dominance) is now the primary alternative scenario. Takaichi's 2/3 majority gives her the legislative power to pressure BOJ directly or pivot back to fiscal dominance if JGB stress escalates.
+**Key shift (Feb 12):** D2 (monetary dominance) probability INCREASES with floating mortgage bomb discovery. The 75% floating-rate exposure is a HARD POLITICAL CONSTRAINT on BOJ normalization — Ueda cannot hike beyond 0.75% without breaking household consumption. Combined with Takaichi's 2/3 majority and explicit 0.75% ceiling (Aida statement), the path to YCC return strengthens.
+
+**The mortgage trap:**
+- Real wages at 0.0% (VX-SAM-8.04)
+- + BOJ hike to 0.75% = mortgage payments spike
+- + Food spending at 44-year high
+- = Consumption collapses → recession → Takaichi FORCES BOJ back to YCC
 
 **What to watch:**
-- Feb 19 20Y auction — Will insurers still buy after landslide removes fiscal restraint hope?
-- BOJ reaction — Ueda's first comments post-election critical
-- Yen — USD/JPY already at 159, fiscal expansion = weaker yen = import inflation = forced BOJ action
+- **Feb 19 20Y auction** — Will insurers still buy after landslide removes fiscal restraint hope?
+- **BOJ April meeting** — If Shunto strong (48% prob), Ueda pushes 0.75% → mortgage backlash begins
+- **Household consumption data** — Early evidence of mortgage payment stress
+- **Aida commentary** — Trial balloons on BOJ policy stance
 
 *Baseline remains B (controlled chaos), but D2 path is now wide open.*
 
@@ -745,7 +797,7 @@ April BOJ Meeting = SHOWDOWN
 | ~~Feb 5~~ | ~~30Y JGB Auction~~ | ✅ PASSED | BTC 3.64x, tail 0.8bp — crisis deferred |
 | ~~Feb 8~~ | ~~Snap Election~~ | ✅ **LANDSLIDE** | 310+ seats, 2/3 supermajority |
 | **Mid-Feb** | **Special Diet Session** | 🔴 CRITICAL | Takaichi re-elected PM |
-| **Feb 19** | **20Y JGB Auction** | 🔴 **CRITICAL** | First test post-landslide |
+| **Feb 19** | **20Y JGB Auction + Electronics Shunto Deadline** | 🔴 **CRITICAL** | First JGB test post-landslide + wage negotiation signal |
 | **Mar 18-19** | **BOJ Meeting** | 🔴 **CRITICAL** | Hold or 0.25% hike with hold signal? |
 | **March 31** | **Budget Deadline** | 🔴 **WILL MISS** | Provisional budget needed |
 | **April** | **BOJ Meeting** | 🔴 **DANGER ZONE** | Ueda pushes 0.75%? Takaichi collision? |
@@ -804,10 +856,11 @@ April BOJ Meeting = SHOWDOWN
    - 🔴 RED: >¥2T/mo (crisis liquidation)
    - **Where:** https://www.mof.go.jp/english/international_policy/reference/iip/
 
-2. **Feb 19 20Y Auction** (CRITICAL INFLECTION)
-   - 🟢 PASS: BTC >2.8x → continue gradual ($10-15B/mo)
-   - 🟡 WEAK: BTC 2.3-2.8x → accelerate to stress ($20-40B/mo)
-   - 🔴 FAIL: BTC <2.3x → crisis cascade ($40-60B wave in 4-8 weeks)
+2. **Feb 19 20Y Auction** (CRITICAL INFLECTION — REVISED THRESHOLDS)
+   - 🟢 PASS: BTC >3.0x, tail <2bp → continue gradual ($10-15B/mo)
+   - 🟡 WEAK: BTC 2.5-3.0x, tail 2-4bp → accelerate to stress ($20-40B/mo)
+   - 🔴 FAIL: BTC <2.5x, tail >4bp → crisis cascade ($40-60B wave in 4-8 weeks)
+   - **NOTE:** Thresholds raised due to global bond stress (US 10Y 1.4bp tail Feb 11)
 
 3. **USD/JPY Correlation Breakdown**
    - Normal: UST yields ↑ = USD/JPY ↑ (correlation +0.6 to +0.8)
@@ -859,15 +912,43 @@ April BOJ Meeting = SHOWDOWN
 
 ## BOTTOM LINE
 
-**Feb 5 reprieve ERASED. Takaichi landslide confirms collision course. UST transmission ACTIVE.**
+**Feb 12 UPDATE: FLOATING MORTGAGE BOMB DISCOVERED. BOJ normalization ceiling LOWER than market thinks. D2 probability rises.**
 
-### Political Reality (Feb 8)
-- LDP + Ishin: 310+ seats (2/3 supermajority)
-- Takaichi has unconstrained legislative power
-- ¥122T budget + food tax suspension = CONFIRMED
-- Markets "spooked" (Reuters) — debt/GDP 260%+ and fiscal restraint gone
+### Political Reality (Feb 8-12)
+- **LDP 316 seats (+118)**, Coalition 352 total (2/3 supermajority)
+- Takaichi has unconstrained legislative power through 2028
+- ¥122T budget + ¥11T energy subsidies + 8% food tax suspension (2 years) = CONFIRMED
+- Semiconductor/AI funding quadrupled, 2% GDP defense spending
+- Markets "spooked" (Reuters) — debt/GDP 235% and fiscal restraint gone
 - No internal constraints (Ishiba purged), no coalition constraints (Ishin accelerator)
-- Only BOJ (Ueda) and market constraints remain
+- Only BOJ (Ueda) and market constraints remain — **BUT Ueda now constrained by floating mortgages**
+
+### NEW: Floating Mortgage Constraint (🟠 CRITICAL)
+
+**75% of Japanese mortgages are floating rate** (vs US 90% fixed 30-year). This is the DOMESTIC political constraint on BOJ normalization.
+
+**The trap:**
+- BOJ hikes → prime rate rises → 75% of mortgages reprice IMMEDIATELY
+- Real wages already 0.0% (VX-SAM-8.04) → mortgage increases = negative real income
+- Food spending at 44-year high + 60% import dependency = no cushion
+- Consumption collapses → political backlash → **BOJ CANNOT HIKE BEYOND 0.75%**
+
+**This explains Takaichi's 0.75% ceiling** — it's mortgage holder protection, not arbitrary.
+
+**Refinancing crisis data (NEW):**
+- 2016-2025 average: 0.33% (near-zero for 9 years)
+- Current: 2.5-3.5% (~8x increase)
+- Morningstar study: Sustained 3% refinancing → **30% of budget in interest costs in 10 years** (¥36.7T/yr vs current ~10%)
+
+**Implications:**
+1. BOJ terminal rate is LOWER than market expects (0.75% ceiling, not 1.25-1.5%)
+2. Takaichi-Ueda collision is INEVITABLE (Ueda wants 1.0%+, mortgages trap him at 0.75%)
+3. April BOJ hike to 0.75% triggers immediate household stress
+4. **D2 (Monetary Dominance) probability RISES** — mortgage constraint + supermajority = YCC return more likely
+
+**Source:** Seeking Alpha Feb 12 2026, Morningstar study, VX-SAM-10.01, ML-JPN-169
+
+---
 
 ### Transmission Status (🔴 ACTIVE)
 
@@ -912,19 +993,28 @@ S&P correction (HENRY, negative ERP -1.80%)
 GLOBAL CONTAGION
 ```
 
-### Next Inflection: FEB 19 20Y AUCTION
+### Next Inflection: FEB 19 20Y AUCTION (+ Global Bond Stress Context)
 
-**This determines the speed:**
-- **PASS** (BTC >2.8x): Continue gradual, base case 70%
-- **WEAK** (BTC 2.3-2.8x): Shift to stress case 45%, $20-40B/mo flows
-- **FAIL** (BTC <2.3x): Crisis case 20%, $40-60B wave in 4-8 weeks
+**REVISED THRESHOLDS (Feb 12):**
+- **PASS** (BTC >3.0x, tail <2bp): Continue gradual, base case 65%
+- **WEAK** (BTC 2.5-3.0x, tail 2-4bp): Shift to stress case 50%, $20-40B/mo flows
+- **FAIL** (BTC <2.5x, tail >4bp): Crisis case 25%, $40-60B wave in 4-8 weeks
 
-### What Changed
+**Why thresholds raised:** US 10Y auction (Feb 11) showed 1.4bp tail (biggest since Aug 2024) = global bond market stress is SYSTEMIC. Japanese 20Y needs stronger demand to pass in this environment. US margin debt at $1.23T ATH + 0DTE options 55-78% of volume = equity fragility building. If US corrects → GPIF mechanical selling (FL-JPN-075) + carry unwind.
+
+### What Changed (Feb 12 Update)
 
 **Scenario probabilities:**
-- D2 (monetary dominance): 10% → **30-35%** (supermajority enables BOJ pressure)
-- Soft landing: 25-30% → **10-15%** (landslide removes fiscal restraint hope)
+- D2 (monetary dominance): 30-35% → **32-40%** (floating mortgage constraint + supermajority)
+- Soft landing: 10-15% → **8-12%** (mortgage adds fragility to fiscal expansion)
+- Controlled chaos: 45-50% → **42-48%** (base case but more constrained)
 - Feb 19 20Y auction: CRITICAL — will insurers still buy after landslide?
+
+**NEW VECTOR: Floating mortgage bomb**
+- 75% floating rate (vs US 10%) = direct transmission from BOJ to households
+- Refinancing at 8x higher cost (0.33% → 2.5-3.5%)
+- Morningstar: 30% of budget in interest if sustained at 3%
+- This is the HARD CEILING on BOJ normalization — political, not economic
 
 **The collision:**
 - Ueda wants normalization (1.0%+ terminal rate)
@@ -935,9 +1025,11 @@ GLOBAL CONTAGION
 
 ### Monitoring Priorities
 
-**PRIORITY 1 — Feb 19 20Y Auction:**
-- BTC <2.5x = escalate immediately to PROME
+**PRIORITY 1 — Feb 19 20Y Auction (+ Electronics Shunto):**
+- BTC <2.5x OR tail >4bp = escalate immediately to PROME
 - Determines if transmission stays gradual or accelerates
+- Global bond stress context: US 10Y weak (1.4bp tail) = higher bar for Japan pass
+- Electronics Shunto response ≥¥15,000 = Strong wage case gains confidence
 
 **PRIORITY 2 — MOF Weekly Flow Data (Thursdays):**
 - Current: -¥400B/mo

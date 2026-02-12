@@ -1,7 +1,7 @@
 # HENRY STATUS.md
 **Agent:** HENRY (Market Structure & Historical Anomalies)
-**Updated:** 2026-02-11
-**Status:** 🟡 YELLOW — NFP Headline vs Revision Divergence Playing Out
+**Updated:** 2026-02-12 20:30 UTC
+**Status:** 🟡 YELLOW — Peak Risk Positioning: 0DTE + Margin ATH + Credit Divergence
 
 ---
 
@@ -15,7 +15,12 @@ The equity market is a **derivatives-driven machine** where dealer hedging and s
 
 **Current State:** Positive gamma with EXTREME complacency (IV Rank 7.94%). Zweig Breadth Thrust ACTIVE — historically 100% success rate. But rotation is violent: Tech bleeds, Cyclicals lead.
 
-**No cushion exists.** Credit spreads tight, VIX low, earnings revisions neutral (1.05). Markets pricing zero risk precisely as corporate stress builds beneath.
+**🆕 PEAK RISK POSITIONING (Feb 11-12):** Three simultaneous extremes converged:
+1. **0DTE dominance:** 65% of SPX volume (record), 78% NDX, 55% overall market
+2. **Margin debt ATH:** $1.23T (historically peaks before crashes: 2000, 2007, 2021)
+3. **Credit divergence:** 10Y auction 1.4bps tail (worst since Aug 2024) + CBRE -12% (CRE liquidity freeze)
+
+**No cushion exists.** Credit spreads tight (281bps), VIX suppressed (21.77), margin debt ATH, 0DTE record dominance. Markets pricing zero risk precisely as positioning reaches historical extremes AND credit markets signal stress. **Margin of error is GONE.**
 
 **🆕 SBC Valuation Gap (Burry Framework, Feb 12):**
 Tech earnings overstated 30-50% due to SBC add-backs. Palantir ($375B mkt cap) worth ~$46/share per Burry's DCF (66% downside). Nvidia's $91B "buybacks" = zero share reduction. When AI FOMO fades, repricing will be violent. This is hidden fragility in the "Tech Rot" thesis.
@@ -50,7 +55,9 @@ If SPX drops 10%+, the top 60% (who've been insulated by stock gains) suddenly p
 | **VIX/MOVE Ratio** | **3.0x** | Typical 4-6x | 🟡 DIVERGENCE — equity vol > bond vol |
 | Net GEX | ~$62B | <$2B = thin | 🟢 GREEN |
 | HY OAS | **~281 bps** | <300 = tight | 🟠 ORANGE (near 2007 lows) |
-| 0DTE Share | **61%** of SPX | Was 51% | 🟠 ORANGE (amplification risk) |
+| **0DTE Share (SPX)** | **65%** | Was 50% Jan'24 | 🔴 RED (extreme amplification risk) |
+| **0DTE Share (Overall)** | **55%** | Was 38% in 2024 | 🔴 RED (record dominance) |
+| **Margin Debt** | **$1.23T** | ATH | 🔴 RED (historically peaks before crashes) |
 | High-Low Index | 88.0% | >80% = strength | 🟢 GREEN |
 | McClellan Sum | 2,589 | <+500 = bearish | 🟢 GREEN |
 | Tech Breadth | 45.7% | <40% = danger | 🟠 ORANGE |
@@ -266,23 +273,148 @@ This is a "headline vs reality" divergence. Machines trade the beat; humans pric
 
 ---
 
+## 🆕 Feb 11-12 SIGNAL ESCALATION
+
+**Four converging signals indicate PEAK RISK positioning:**
+
+### 1. 0DTE Dominance at Record Extremes (🔴 RED)
+- **NDX:** 78% of daily options volume (+23 pts since 2024)
+- **SPX:** 65% (up from 50% Jan 2024)
+- **QQQ/SPY:** ~60%
+- **IWM:** ~40%
+- **Overall market:** 55% (up from 38% in 2024)
+
+**Interpretation:** Market MORE dependent on 0DTE gamma stabilization than Aug 2024 stress test. Intraday liquidity now dominated by same-day expiry mechanics. "Risk appetite is through the roof" — this is euphoric positioning. If 0DTE volume collapses like Aug 2024 (-26%), liquidity withdrawal will be faster and deeper.
+
+**Fragility Assessment:** AMPLIFIED. The machine is now calibrated for extreme vol suppression via dealer gamma. Any disruption to this mechanism (realized vol spike, dealer hedging flow, liquidity withdrawal) will have LARGER impact than historical precedent.
+
+### 2. Margin Debt All-Time High (🔴 RED)
+- **$1.23 TRILLION** (FINRA, Dec 2025)
+- New all-time high, exceeding 2021 peak
+- Historical pattern: margin debt peaks BEFORE crashes
+  - 2000 peak → crash
+  - 2007 peak → GFC
+  - 2021 peak → 2022 bear market
+
+**Interpretation:** Leveraged speculation at historical extremes. Combined with 0DTE dominance = double amplification. Investors using borrowed money to bet on same-day options. When margin calls hit, forced selling accelerates.
+
+**Cross-signal:** Margin debt ATH + 0DTE record + VIX suppression = coiled spring. No historical analogue for THIS combination.
+
+### 3. Treasury Auction Stress — 10Y Tail (🟠 ORANGE)
+- **Feb 11 auction:** 1.4bps tail (high yield 4.177% vs WI 4.163%)
+- **Largest tail since Aug 2024**
+- Market commentary: "Ugly auction" — weak demand
+
+**Interpretation:** Credit/duration markets pricing HIGHER risk than equity markets. Investors avoiding safe assets (Treasuries) while VIX remains suppressed (21.77) is a **divergence signal**. Historically, credit leads equity. Treasury auction stress preceded Aug 2024 vol event.
+
+**Watch:** If MOVE Index rises toward 100+ while VIX stays flat, credit stress incoming (per Leading Indicator Sequence).
+
+**Cross-reference:** LIQUID agent should monitor RRP levels and funding stress. Treasury demand weakness + RRP depletion = no cushion for March 31 quarter-end.
+
+### 4. CRE Liquidity Freeze — CBRE Proxy (🟠 ORANGE)
+- **CBRE down -12%+** in recent sessions
+- Only comparable drops: **COVID crash and GFC**
+- Market commentary: "Deal machine staying clogged longer than thought"
+- Pattern: "Slow grind, not sudden apocalypse" — **volume first, valuations second**
+
+**Interpretation:** CRE transaction market frozen. This is EARLY-STAGE credit stress, not fundamental deterioration yet. Banks holding CRE exposure at "extend and pretend" valuations. When transaction volume forces mark-to-market, valuations follow.
+
+**Timeline convergence:** This is the EARLY WARNING for CREED's H2 2026 maturity wall ($936B CRE matures, 60% multifamily in H2). Regional banks (REGINALD domain) will show stress first.
+
+**Watch:** Regional bank stocks (KRE components), especially ZION/WAL/VLY exposure to CRE. Q1 earnings (Apr 20-29) will be critical for reserve build disclosures.
+
+---
+
+## FRAGILITY ASSESSMENT UPDATE
+
+**Question:** Does 0DTE dominance + margin ATH change fragility assessment?
+
+**Answer:** YES. Status remains 🟡 YELLOW but fragility is AMPLIFIED.
+
+**Key changes:**
+1. **Positioning risk now EXTREME** — 0DTE at 65% (SPX) + margin debt ATH = leveraged speculation on steroids
+2. **Liquidity dependence HIGHER** — Market more reliant on 0DTE gamma mechanics than ever
+3. **Credit divergence emerging** — Treasury auction stress + CBRE collapse = credit seeing risk equity ignores
+4. **No cushion** — VIX 21.77, HY OAS 281bps, margin ATH = peak complacency precisely as stress builds
+
+**Analogue update:** Current positioning EXCEEDS Aug 2024 in every dimension:
+- 0DTE: 65% vs 57%
+- Margin debt: $1.23T ATH vs $1.15T
+- Credit signals: Treasury tail + CRE stress vs clean auction backdrop
+
+**If** a catalyst forces 0DTE volume collapse (like Aug 2024's -26%), the dislocation will be FASTER and LARGER. The machine is wound tighter.
+
+**Status remains YELLOW because:**
+- No fundamental trigger (employment stable, earnings neutral)
+- Put Wall intact at 6,920
+- GEX still positive ($62B)
+- Zweig Breadth Thrust still active (structural bull)
+
+**But the margin of error is GONE.** Next stress event will test whether structural bids (buybacks, passive flows) can absorb forced selling from levered 0DTE unwind.
+
+---
+
+## GAMMA / POSITIONING IMPLICATIONS
+
+**0DTE at 65% of SPX volume creates:**
+
+1. **Intraday Vol Suppression** — Dealers sell gamma → hedge flow dampens moves → VIX stays low
+2. **Latent Fragility** — If realized vol spikes OR liquidity withdraws, dealers flip to buying gamma → accelerates moves
+3. **Feedback Loop Risk** — 0DTE volume collapses when volatility rises (Aug 2024: -26%) → removes stabilizing bid → vol rises further
+4. **No Historical Precedent** — This level of 0DTE dominance has NEVER been tested in a true stress scenario
+
+**Key levels for gamma mechanics:**
+- **Volatility Trigger:** ~6,880 (SpotGamma) — below this, vol expands
+- **Gamma Flip:** ~6,850 (current) — near the edge; below = dealers flip short gamma
+- **Put Wall:** 6,920 — structural support from options positioning
+
+**Current positioning:** SPX at 6,850 is EXACTLY at the gamma flip zone. Market is one bad session from flipping dealer positioning from stabilizing (long gamma) to destabilizing (short gamma).
+
+**10Y Treasury Auction Tail Signal:**
+- Weak demand for duration = investors rotating OUT of safe assets
+- This contradicts "flight to safety" behavior you'd expect if risks were acknowledged
+- Suggests: **Risk is being IGNORED in equity markets but PRICED in credit/duration markets**
+- Historical precedent: Credit leads equity by 1-3 sessions (per Credit-Equity Transmission Tracker)
+
+**Next catalysts to watch:**
+- Feb 13 CPI (8:30 AM) — if hot, could trigger vol spike
+- Feb 19 Initial Claims — sustained >230K = employment stress building
+- Feb 19 20Y JGB Auction (SAM domain) — BTC <2.3x = Japan crisis trigger
+- March 31 quarter-end — SOFR spike, funding stress expected
+
+---
+
 ## WHAT TO WATCH THIS WEEK
 
-1. **MOVE Index** — Any rise toward 100+ while VIX stays flat
+1. **MOVE Index** — Any rise toward 100+ while VIX stays flat (credit-equity divergence)
 2. **VIX Term Structure** — Check VX1 vs spot daily
 3. **SPX vs 6,920 Put Wall** — First test of structural support
-4. **0DTE Volume** — Drop >15% = liquidity withdrawal signal
-5. **🆕 PLTR Price Action** — Break below $100 = AI thematic repricing catalyst
-6. **🆕 XLK Breadth** — Currently 45.7%, watch for breach <40% (sector stress)
-7. **🆕 Tech Share Counts** — Monitor NVDA/TSLA/PLTR dilution vs buyback announcements
+4. **🔴 0DTE Volume Changes** — Drop >15% = liquidity withdrawal signal (Aug 2024: -26%)
+5. **🔴 Margin Debt (Monthly)** — Next FINRA release; watch for reversal from ATH
+6. **🔴 Treasury Auctions** — Feb 12 30Y auction; watch for continued tail/weak demand
+7. **🔴 CBRE / KRE** — CRE liquidity proxy + regional bank contagion watch
+8. **🆕 PLTR Price Action** — Break below $100 = AI thematic repricing catalyst
+9. **🆕 XLK Breadth** — Currently 45.7%, watch for breach <40% (sector stress)
+10. **🆕 Tech Share Counts** — Monitor NVDA/TSLA/PLTR dilution vs buyback announcements
+11. **Feb 13 CPI (8:30 AM)** — Hot print could trigger vol spike in current positioning
+12. **Feb 19 Initial Claims** — Sustained >230K = employment stress building
 
 ---
 
 ## BOTTOM LINE
 
-The machine is **loaded for destabilization** but currently **set to stabilize**. No active warning signals, but no cushion either. When LABOR/CARL triggers fire, transmission will be fast — potentially faster than Aug 2024 given tighter spreads and lower vol starting point.
+The machine is **loaded for destabilization** and **wound tighter than Aug 2024**. Positioning at PEAK RISK: 0DTE dominance (65% SPX), margin debt ATH ($1.23T), credit divergence emerging (10Y tail, CBRE collapse). 
 
-**The phase transition won't be gradual. Watch the sequence.**
+**Status remains YELLOW** because structural supports intact (ZBT, Put Wall, positive GEX, buybacks). But **margin of error is GONE**. 
+
+**Critical difference from Aug 2024:** Positioning MORE extreme in every dimension. If catalyst forces 0DTE liquidity withdrawal (-26% like Aug), dislocation will be FASTER and LARGER. Credit already signaling stress (Treasury auction weakness, CRE freeze) while equity complacent (VIX 21.77, IV Rank 7.94%).
+
+When LABOR/CARL triggers fire, transmission will be **amplified** by:
+1. Record 0DTE dependence (gamma unwind accelerates moves)
+2. Margin debt ATH (forced selling from margin calls)
+3. Credit-equity divergence (credit leading, equity following with lag)
+
+**The phase transition won't be gradual. Watch the sequence. The coil is tighter than ever.**
 
 ---
 

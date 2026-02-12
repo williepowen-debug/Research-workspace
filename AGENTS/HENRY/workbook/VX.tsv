@@ -5,12 +5,12 @@ VX-HEN-1.03	Equal-Weight vs Cap-Weight Spread	CON	4.03%	YELLOW	P70	P00	2026-01-2
 VX-HEN-2.01	CAPE/Shiller P/E	VAL	40.65	RED	P97	P00	2026-01-26	Approaching 2000 peak of 44.19; mean 17.33
 VX-HEN-2.02	Buffett Indicator	VAL	230%	RED	>99	NONE (ATH)	2026-01-26	2.4 std dev above trend; 2000 was 140%
 VX-HEN-2.03	Equity Risk Premium	VAL	-1.80%	RED	P99	PJ89	2026-01-26	NEGATIVE ERP; stocks yield less than Treasuries
-VX-HEN-3.01	Margin Debt % of GDP	LEV	3.94%	YELLOW	P75	P00	2026-01-26	$1.226T margin debt; up 36% YoY
+VX-HEN-3.01	Margin Debt % of GDP	LEV	3.95%	RED	P75	P00	2026-02-12	$1.23T margin debt ATH (Dec 2025 FINRA); historically peaks before crashes (2000, 2007, 2021); up 36% YoY
 VX-HEN-3.02	Household Equity Allocation	LEV	47.08%	RED	>99	NONE (ATH)	2026-01-26	Exceeds 2000 peak of ~42%; Q3 2025 data
 VX-HEN-4.01	VIX Level	SEN	16.07	GREEN	P35	P08	2026-01-26	Low VIX despite elevated risk metrics
 VX-HEN-4.02	Equity Put/Call Ratio	SEN	0.58	ORANGE	P25	P00	2026-01-26	Bullish positioning; threshold <0.6
 VX-HEN-5.01	DXY Dollar Index	CUR	120.45	YELLOW	P80	Context	2026-01-26	Strong dollar; Jan 2006=100 baseline
-VX-HEN-6.01	0DTE Volume Ratio	NOV	59%	ORANGE	>99	NONE (ATH)	2026-01-26	0DTE as % of total SPX options; no historical precedent; 2.3M contracts/day
+VX-HEN-6.01	0DTE Volume Ratio	NOV	61%	ORANGE	>99	NONE (ATH)	2026-02-12	SPX 65% (was 50% Jan'24), NDX 78%, QQQ/SPY ~60%, IWM ~40%; overall 55% (was 38% in 2024); amplification risk extreme
 VX-HEN-6.02	Passive Market Share	NOV	55%	ORANGE	>99	NONE (ATH)	2026-01-26	Passive % of US equity AUM; crossed 50% in 2023; effective share ~75-80%
 VX-HEN-6.03	PIK Income %	NOV	12.8%	YELLOW	P85	P08	2026-01-26	PIK as % of BDC gross income; shadow default proxy; alert >15%
 VX-HEN-6.04	Private Credit AUM	NOV	$3.0T	YELLOW	>99	NONE	2026-01-26	Broad definition; $5T projected by 2029; shadow leverage vehicle
