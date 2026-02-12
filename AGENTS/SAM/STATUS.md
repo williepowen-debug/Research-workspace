@@ -64,6 +64,23 @@ Japan is in a **fiscal doom loop** (acknowledged as "credible tail risk" by Alli
 
 ---
 
+## REAL WAGE CONSTRAINT
+
+**STATUS:** 🟠 **ORANGE** — Real wages at **0.0%** — BOJ TRAPPED
+
+| Component | Latest | Status |
+|-----------|--------|--------|
+| Tokyo CPI (Core) | 2.0% | 🟢 |
+| National CPI (Core-core) | 2.4% | 🟡 |
+| Nominal Wage Growth | 2.40% | 🟡 |
+| **Real Wage Growth** | **0.0%** | 🟠 |
+
+**Formula:** 2.40% - 2.4% = **0.0%**
+
+**The trap:** Ueda cannot hike if real wages flat — households can't absorb higher rates. Creates Takaichi-Ueda collision.
+
+---
+
 ## SHUNTO 2026 (Wage Negotiations)
 
 **Late March results determine BOJ path.**
@@ -163,6 +180,20 @@ Japan is in a **fiscal doom loop** (acknowledged as "credible tail risk" by Alli
 | 🔴 FAIL | <2.5x | >4bp | Crisis cascade |
 
 **Why higher bar:** US 10Y auction showed 1.4bp tail (worst since Aug 2024) — global stress is SYSTEMIC.
+
+---
+
+## KEY VOICES TO TRACK
+
+| Name | Role | Signal Value |
+|------|------|--------------|
+| **Takuji Aida** | Special Advisor, Credit Agricole | 🔴 HIGHEST — "Intellectual father of Sanaenomics", public statements = admin trial balloons |
+| Katsunobu Katayama | Finance Minister | MOF/BOJ coordination |
+| Kazuo Ueda | BOJ Governor | Independence test |
+
+**Aida's key position:** "Tolerate BOJ hike to 0.75%, then demand pause until 2027" ← THE CEILING
+
+**Where to monitor:** Bloomberg interviews, Credit Agricole notes, Nikkei
 
 ---
 
