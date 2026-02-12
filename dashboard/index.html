@@ -1290,6 +1290,61 @@
                 </div>
             </div>
             
+            <!-- 5. IMMINENT PREDICTIONS -->
+            <div class="agents-section" style="background: linear-gradient(135deg, var(--bg-secondary) 0%, rgba(249,115,22,0.1) 100%); border: 1px solid var(--orange); border-radius: 12px; padding: 20px; margin-top: 20px;">
+                <div class="section-title" style="color: var(--orange); margin-bottom: 16px;">⏰ Imminent Predictions (Next 30-90 Days)</div>
+                <div style="display: flex; flex-direction: column; gap: 12px;">
+                    <div style="display: grid; grid-template-columns: 60px 1fr 100px 80px; gap: 12px; padding: 12px; background: var(--bg-primary); border-radius: 8px; align-items: center;">
+                        <div style="font-weight: 600; color: var(--red);">CARL-12</div>
+                        <div>
+                            <div style="font-weight: 500;">Student Loan 90+ DQ &gt;10%</div>
+                            <div style="font-size: 11px; color: var(--text-muted);">Current: 9.5% → Target: 10% (0.5pp gap)</div>
+                        </div>
+                        <div style="text-align: center;"><span style="background: var(--red-bg); color: var(--red); padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600;">Q1 2026</span></div>
+                        <div style="text-align: center; font-family: 'JetBrains Mono', monospace; font-weight: 600; color: var(--green);">85%</div>
+                    </div>
+                    <div style="display: grid; grid-template-columns: 60px 1fr 100px 80px; gap: 12px; padding: 12px; background: var(--bg-primary); border-radius: 8px; align-items: center;">
+                        <div style="font-weight: 600; color: var(--red);">CARL-16</div>
+                        <div>
+                            <div style="font-weight: 500;">Fannie MF DQ &gt;0.80% (GFC peak)</div>
+                            <div style="font-size: 11px; color: var(--text-muted);">Current: 0.75% → Target: 0.80% (0.05pp gap)</div>
+                        </div>
+                        <div style="text-align: center;"><span style="background: var(--red-bg); color: var(--red); padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600;">Q1 2026</span></div>
+                        <div style="text-align: center; font-family: 'JetBrains Mono', monospace; font-weight: 600; color: var(--green);">80%</div>
+                    </div>
+                    <div style="display: grid; grid-template-columns: 60px 1fr 100px 80px; gap: 12px; padding: 12px; background: var(--bg-primary); border-radius: 8px; align-items: center;">
+                        <div style="font-weight: 600; color: var(--red);">CARL-11</div>
+                        <div>
+                            <div style="font-weight: 500;">CC 90+ DQ &gt;13.74% (GFC peak)</div>
+                            <div style="font-size: 11px; color: var(--text-muted);">Current: 12.70% → Target: 13.74% (1.04pp gap)</div>
+                        </div>
+                        <div style="text-align: center;"><span style="background: var(--orange-bg); color: var(--orange); padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600;">Q2 2026</span></div>
+                        <div style="text-align: center; font-family: 'JetBrains Mono', monospace; font-weight: 600; color: var(--green);">75%</div>
+                    </div>
+                    <div style="display: grid; grid-template-columns: 60px 1fr 100px 80px; gap: 12px; padding: 12px; background: var(--bg-primary); border-radius: 8px; align-items: center;">
+                        <div style="font-weight: 600; color: var(--red);">CARL-17</div>
+                        <div>
+                            <div style="font-weight: 500;">National foreclosures &gt;70K/quarter</div>
+                            <div style="font-size: 11px; color: var(--text-muted);">Current: 58K → Target: 70K (12K gap)</div>
+                        </div>
+                        <div style="text-align: center;"><span style="background: var(--orange-bg); color: var(--orange); padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600;">Q2 2026</span></div>
+                        <div style="text-align: center; font-family: 'JetBrains Mono', monospace; font-weight: 600; color: var(--green);">75%</div>
+                    </div>
+                    <div style="display: grid; grid-template-columns: 60px 1fr 100px 80px; gap: 12px; padding: 12px; background: var(--bg-primary); border-radius: 8px; align-items: center;">
+                        <div style="font-weight: 600; color: var(--orange);">SAM-7</div>
+                        <div>
+                            <div style="font-weight: 500;">Strong Shunto (&gt;3.5%) → April BOJ hike</div>
+                            <div style="font-size: 11px; color: var(--text-muted);">Shunto deadline: Feb 19 → Mid-March tally</div>
+                        </div>
+                        <div style="text-align: center;"><span style="background: var(--orange-bg); color: var(--orange); padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600;">Apr 2026</span></div>
+                        <div style="text-align: center; font-family: 'JetBrains Mono', monospace; font-weight: 600; color: var(--yellow);">48%</div>
+                    </div>
+                </div>
+                <div style="margin-top: 12px; font-size: 11px; color: var(--text-muted); text-align: right;">
+                    Sorted by proximity • Confidence in green
+                </div>
+            </div>
+            
             <!-- All Agents Grid -->
             <div class="agents-section" style="margin-top: 20px;">
                 <div class="section-title">All Agents</div>
@@ -1981,9 +2036,14 @@
             predictions: [
                 { num: 1, text: 'CC 90+ exceeds 2019 peak (8.36%)', status: 'confirmed', result: '12.70%' },
                 { num: 3, text: 'FL foreclosures +100% YoY', status: 'confirmed', result: '+190%' },
-                { num: 7, text: 'CC 90+ reaches GFC peak (13.74%)', status: 'tracking', conf: '70%' },
-                { num: 9, text: 'National foreclosures >70K quarterly', status: 'tracking', conf: '75%' },
-                { num: 10, text: 'Fannie MF DQ crosses 0.80%', status: 'imminent', conf: '65%' },
+                { num: 4, text: 'Hardship 401k >5.5%', status: 'confirmed', result: '6%' },
+                { num: 12, text: 'Student Loan 90+ DQ >10%', status: 'imminent', current: '9.5%', gap: '0.5pp', conf: '85%', timeframe: 'Q1 2026' },
+                { num: 16, text: 'Fannie MF DQ >0.80% (GFC)', status: 'imminent', current: '0.75%', gap: '0.05pp', conf: '80%', timeframe: 'Q1 2026' },
+                { num: 11, text: 'CC 90+ DQ >13.74% (GFC)', status: 'imminent', current: '12.70%', gap: '1.04pp', conf: '75%', timeframe: 'Q2 2026' },
+                { num: 17, text: 'National foreclosures >70K/qtr', status: 'tracking', current: '58K', gap: '12K', conf: '75%', timeframe: 'Q2 2026' },
+                { num: 14, text: 'Subprime Auto ABS 60+ DQ >7%', status: 'tracking', current: '>6%', gap: '<1pp', conf: '65%', timeframe: 'Q2 2026' },
+                { num: 13, text: 'Dave 28DPD >2.10% (gig)', status: 'tracking', current: '1.95-2.00%', gap: '0.10-0.15pp', conf: '55%', timeframe: 'Q2-Q3 2026' },
+                { num: 15, text: 'TX foreclosures +100% YoY', status: 'tracking', current: '+45%', gap: '55pp', conf: '50%', timeframe: 'Q3 2026' },
             ]
         };
         
@@ -2106,18 +2166,51 @@
                     
                     <div class="agent-tab-content" id="agent-tab-predictions">
                         <div class="agent-section">
-                            <div class="agent-section-title">Predictions Tracker</div>
+                            <div class="agent-section-title">✅ Confirmed</div>
                             <table class="signal-table">
-                                <thead>
-                                    <tr><th>#</th><th>Prediction</th><th>Status</th><th>Result/Confidence</th></tr>
-                                </thead>
+                                <thead><tr><th>#</th><th>Prediction</th><th>Result</th></tr></thead>
                                 <tbody>
-                                    ${carlData.predictions.map(p => `
+                                    ${carlData.predictions.filter(p => p.status === 'confirmed').map(p => `
                                         <tr>
                                             <td style="font-weight: 600;">${p.num}</td>
                                             <td>${p.text}</td>
-                                            <td><span class="status-badge ${p.status === 'confirmed' ? 'green' : p.status === 'imminent' ? 'orange' : 'yellow'}">${p.status.toUpperCase()}</span></td>
-                                            <td style="font-family: 'JetBrains Mono', monospace; color: ${p.status === 'confirmed' ? 'var(--green)' : 'var(--text-secondary)'};">${p.result || p.conf || '—'}</td>
+                                            <td style="font-family: 'JetBrains Mono', monospace; color: var(--green); font-weight: 600;">${p.result}</td>
+                                        </tr>
+                                    `).join('')}
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="agent-section">
+                            <div class="agent-section-title">⏰ Imminent (Next 30-90 Days)</div>
+                            <table class="signal-table">
+                                <thead><tr><th>#</th><th>Prediction</th><th>Current</th><th>Gap</th><th>When</th><th>Conf</th></tr></thead>
+                                <tbody>
+                                    ${carlData.predictions.filter(p => p.status === 'imminent').map(p => `
+                                        <tr style="background: var(--orange-bg);">
+                                            <td style="font-weight: 600; color: var(--orange);">${p.num}</td>
+                                            <td style="font-weight: 500;">${p.text}</td>
+                                            <td style="font-family: 'JetBrains Mono', monospace;">${p.current}</td>
+                                            <td style="font-family: 'JetBrains Mono', monospace; color: var(--orange);">${p.gap}</td>
+                                            <td><span class="status-badge orange">${p.timeframe}</span></td>
+                                            <td style="font-family: 'JetBrains Mono', monospace; font-weight: 600; color: var(--green);">${p.conf}</td>
+                                        </tr>
+                                    `).join('')}
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="agent-section">
+                            <div class="agent-section-title">📊 Tracking</div>
+                            <table class="signal-table">
+                                <thead><tr><th>#</th><th>Prediction</th><th>Current</th><th>Gap</th><th>When</th><th>Conf</th></tr></thead>
+                                <tbody>
+                                    ${carlData.predictions.filter(p => p.status === 'tracking').map(p => `
+                                        <tr>
+                                            <td style="font-weight: 600;">${p.num}</td>
+                                            <td>${p.text}</td>
+                                            <td style="font-family: 'JetBrains Mono', monospace;">${p.current}</td>
+                                            <td style="font-family: 'JetBrains Mono', monospace; color: var(--text-secondary);">${p.gap}</td>
+                                            <td><span class="status-badge yellow">${p.timeframe}</span></td>
+                                            <td style="font-family: 'JetBrains Mono', monospace;">${p.conf}</td>
                                         </tr>
                                     `).join('')}
                                 </tbody>

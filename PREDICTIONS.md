@@ -46,6 +46,13 @@
 | 8 | FL foreclosures +300% YoY | Q3 2026 | 60% | ⏳ NEW |
 | 9 | **Cities with negative YoY prices exceed 50 of 85** (Wright tracker) | Q2 2026 | 65% | ⏳ NEW (Wright) |
 | 10 | **FL net migration stays <50K/year** | 2026 | 70% | ⏳ NEW (Wright) |
+| 11 | **CC 90+ DQ crosses GFC peak (13.74%)** | Q2 2026 | 75% | ⏳ IMMINENT — 1.04pp away |
+| 12 | **Student Loan 90+ DQ >10%** | Q1 2026 | 85% | ⏳ IMMINENT — 0.5pp away |
+| 13 | **Dave 28DPD >2.10% (gig stress canary)** | Q2-Q3 2026 | 55% | ⏳ Tracking — 1.95-2.00% |
+| 14 | **Subprime Auto ABS 60+ DQ >7%** | Q2 2026 | 65% | ⏳ Tracking — >6% |
+| 15 | **TX foreclosures follow FL trajectory (+100% YoY)** | Q3 2026 | 50% | ⏳ NEW — Currently +45% |
+| 16 | **Fannie MF DQ crosses GFC peak (0.80%)** | Q1 2026 | 80% | ⏳ IMMINENT — 0.05pp away |
+| 17 | **National foreclosures >70K/quarter** | Q2 2026 | 75% | ⏳ Tracking — 58K Q4 2025 |
 
 ### REGINALD
 | # | Prediction | Timeframe | Confidence | Status |

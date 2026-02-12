@@ -1,5 +1,5 @@
 # CREED STATUS
-**Last Updated:** 2026-02-10 | **Status:** 🔴 RED — Office CMBS at New All-Time High
+**Last Updated:** 2026-02-12 | **Status:** 🔴 RED — Office Special Servicing Accelerating
 
 ---
 
@@ -20,7 +20,8 @@ The gap is extend-and-pretend: loan modifications, FHLB liquidity, regulatory fo
 | Domain | Metric | Current | GFC Peak | Status |
 |--------|--------|---------|----------|--------|
 | **Office CMBS DQ** | Delinquency | **12.34%** (Jan 2026, +103bps MoM) | ~10% | 🔴 **NEW ATH** |
-| **Special Servicing** | Rate | 17.16% | ~10.67% | 🔴 RED (2x GFC) |
+| **Special Servicing** | Office rate | **17.11%** (Jan 2026, +47bps MoM) | ~10.67% | 🔴 RED (2x GFC) |
+| **Overall CMBS SS** | CMBS 2.0 | **10.91%** (+20bps MoM) | — | 🟠 ORANGE |
 | **Loss Severity** | Resolutions | 49.7-63% | ~33% | 🔴 RED |
 | **Bank CRE DQ** | Large banks | 4.18% | — | 🟡 YELLOW (declining) |
 | **Maturity Wall** | 2026 | $936B | — | 🔴 RED |
@@ -63,12 +64,27 @@ The gap is extend-and-pretend: loan modifications, FHLB liquidity, regulatory fo
 - Class B/C obsolescence largely permanent
 - Only 10-15% suitable for conversion
 
+### 6. Chicago Price Discovery: -71% Average (NEW Feb 2026)
+- 5 major transactions: -61% to -82.6% declines
+- 600 West Chicago: $510M → $89M (-82.6%)
+- 70 West Madison: $377M → $80M (-78.6%)
+- **Actual sales, not appraisals** — validates extreme valuation collapse
+- Midwest/secondary market banks face massive reserve builds
+
+### 7. "Extend to 2028" Creating New Maturity Cliff (NEW Feb 2026)
+- Willis Tower: $1.3B extended to 2028 (underwater -20%, Blackstone)
+- One New York Plaza: $835M extended to Jan 2028 (Brookfield)
+- Pattern: 24-month extensions from 2026 → 2028
+- **Risk:** 10-20% of $936B wall kicked to 2028 = $94-187B deferred crisis
+- Bifurcation: office getting extensions, retail facing foreclosure
+
 ---
 
 ## REGIONAL HOTSPOTS
 
 | Market | Issue | Key Metric | Status |
 |--------|-------|------------|--------|
+| **Chicago** | Office price collapse | **-71% avg transaction pricing** (5 sales) | 🔴 RED |
 | **DC/NoVA** | Federal employment + office | 27% vacancy, DOGE cuts | 🔴 RED |
 | **Austin** | MF oversupply | 15.3% vacancy (worst nationally) | 🔴 RED |
 | **Florida** | Condo crisis | 1,438 blacklisted buildings, +57% foreclosures YoY | 🔴 RED |
@@ -93,6 +109,11 @@ The gap is extend-and-pretend: loan modifications, FHLB liquidity, regulatory fo
 - 🟠 DCOM: 550%, actively de-risking
 - 🟠 VLY: 475%, managed through Q4 but non-accruals up
 
+**NEW RISK (Feb 2026): Chicago -71% requires exposure check**
+- 🔴 WAL (Western Alliance): Multi-market, Chicago exposure unknown
+- 🔴 ZION (Zions): Western US, secondary market exposure
+- 🟠 NYCB successor: Post-Flagstar merger, legacy Midwest CRE
+
 ---
 
 ## WATCH FOR (Near-term)
@@ -100,10 +121,12 @@ The gap is extend-and-pretend: loan modifications, FHLB liquidity, regulatory fo
 | Event | Timing | Impact |
 |-------|--------|--------|
 | Q4 2025 10-Ks | Feb-Mar 2026 | ASU 2022-02 mod disclosure cliff |
-| VLY Q4 results | **REVIEW NEEDED** | CRE concentration, non-accruals, mods |
+| VLY Q4 results | **REVIEWED** | Past dues +67%, watch for Q1 progression |
 | Office CMBS DQ | Monthly | **NEW ATH 12.34%** — NOT declining, accelerating |
+| Special servicing | Monthly | **17.11% office**, 59% of Jan transfers — stress pipeline |
+| **"Extend to 2028" volume** | **H1 2026** | **Track what % of $936B wall kicked to 2028** |
+| Chicago bank exposures | Q1 10-Ks | WAL/ZION/NYCB footnotes — -71% pricing = reserve risk |
 | Employment data | Ongoing | LABOR transmission trigger |
-| Yale $6B secondary | Q1 2026 | Pricing = industry mark-to-market |
 | Feb Trepp report | ~Mar 2026 | Confirm Jan acceleration or one-off |
 
 ---
@@ -134,6 +157,8 @@ See `research/` folder for detailed outputs.
 
 CRE stress is real and severe. Bank metrics look healthy because of extend-and-pretend. The $936B maturity wall with ~36% refinancing gap means $140-250B of forced recognition is coming.
 
-**The question is timing, not if.** Employment is the trigger. If employment holds, H2 2026 forcing window. If employment breaks, acceleration toward upper bound.
+**NEW (Feb 2026):** Chicago price discovery at -71% confirms extreme valuation collapse in secondary markets. Extend-and-pretend creating 2028 maturity cliff — at least $2.1B confirmed (Willis Tower, One NY Plaza), likely much more. If 10-20% of 2026 wall extended, H2 2026 forcing window partially defused but 2028 becomes new crisis point.
 
-*Next update: Post Q4 10-K releases (Mar 2026)*
+**The question is timing, not if.** Employment is the trigger. If employment holds, partial H2 2026 + concentrated 2028 recognition. If employment breaks, acceleration toward upper bound across both windows.
+
+*Next update: Post Q4 10-K releases (Mar 2026) — watch for Chicago exposure disclosures*
