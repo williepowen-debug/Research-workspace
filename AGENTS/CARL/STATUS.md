@@ -48,6 +48,10 @@ If SPX drops 10%+, the top 60% (whose spending has held up the K-shape) suddenly
 | **Fannie Multifamily Serious DQ** | **0.75%** | 🟠 | **94% of GFC peak** — 5bps from 0.80% |
 | **Freddie Multifamily Serious DQ** | **0.48%** | 🟠 | **Highest in 21 years** — Doubled in 2 years |
 | **NAR Housing Crisis Declaration** | **"New crisis"** | 🔴 | Chief Economist admits crisis — consensus break |
+| **Student Loan 30+ DQ** | **16.3%** | 🔴 | **WORST EVER** — Q4 2025, up from ~1% |
+| **Student Loan 90+ DQ** | **9.5%** | 🔴 | $159B delinquent (+$150B YoY) |
+| **SAVE Plan** | **ENJOINED** | 🔴 | 7M+ in limbo, IDR suspended |
+| **BNPL Late Payments** | **41%** | 🟠 | +7pp YoY deterioration |
 
 **Age Breakdown (transition into 90+ days):**
 - 18-29: **9.5%** (hardest hit)
@@ -383,6 +387,82 @@ Bank NCOs (REGINALD)
 ```
 
 **Reference:** `workbook/BNPL_STRESS.tsv`, `sources/RichmondFed_BNPL_2026-02.md`
+
+---
+
+## 🆕 STUDENT LOAN CRISIS (Feb 12, 2026)
+
+**Source:** NY Fed Q4 2025 Household Debt Report (Feb 10, 2026)
+
+### Delinquency Explosion
+
+| Metric | Q4 2025 | Prior (Forbearance) | Status |
+|--------|---------|---------------------|--------|
+| **30+ Day DQ Rate** | **16.3%** | ~1% | 🔴 **WORST EVER** |
+| **90+ Day DQ Rate** | **9.5%** | ~1% | 🔴 CRITICAL |
+| **30+ Day Delinquent** | **$271B** | — | 16.4% of total |
+| **90+ Day Delinquent** | **$159B** | ~$9B | **+$150B YoY** |
+| **Total Student Debt** | $1.66T | $1.60T | +$60B |
+
+**What happened:** Federal student loans came out of 4-year forbearance. Delinquencies that were hidden are now appearing on credit reports. This is one of the largest credit stress events in US history.
+
+### SAVE Plan Litigation
+
+| Element | Status |
+|---------|--------|
+| **SAVE Plan** | 🔴 ENJOINED by courts |
+| **IDR Applications** | 🔴 SUSPENDED |
+| **Borrowers in Limbo** | **7M+** in administrative forbearance |
+| **On-Ramp Protection** | Ended Oct 2024 |
+
+**7M+ borrowers cannot make progress on debt AND cannot fall delinquent** — frozen in place while litigation continues.
+
+### Credit Score Destruction
+
+**>9 million borrowers** face significant credit score drops:
+
+| Prior Credit Score | Average Drop |
+|--------------------|--------------|
+| 760+ (Superprime) | **-171 points** |
+| 720-759 | -165 points |
+| 660-719 | -165 points |
+| 620-659 | -143 points |
+| <620 (Subprime) | -87 points |
+
+**Implication:** Credit access reduced → higher rates on CC/auto → debt service burden increases → spending pulls back.
+
+### Spillover Risk
+
+**JPMorgan Research:**
+- Collections reduce disposable income **$3.1-8.5B/month**
+- People adding CC debt BECAUSE student loans consuming income
+- Student loan stress → CC stress → Auto stress (cascade)
+
+### Population at Risk
+
+| Group | Count | Risk |
+|-------|-------|------|
+| SAVE enrollees | 7M+ | Frozen, no progress |
+| Delinquent borrowers | 9.7M | Credit score destruction |
+| Potential defaulters | 4.3M | Default cliff 2026 |
+| Total portfolio at risk | $600B | 38% of $1.58T |
+
+### Transmission Path
+```
+SAVE litigation continues
+    ↓
+9M+ face credit score drops (87-171 points)
+    ↓
+Credit access reduced → rates rise
+    ↓
+CC/Auto balances increase (spillover)
+    ↓
+Consumer spending pulls back
+    ↓
+REGINALD → Bank NCOs
+```
+
+**Reference:** `sources/StudentLoan_Data_2026-02.md`
 
 ---
 
