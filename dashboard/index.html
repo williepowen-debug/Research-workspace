@@ -648,10 +648,143 @@
             background: var(--bg-secondary);
             border: 1px solid var(--border);
             border-radius: 12px;
-            max-width: 800px;
+            max-width: 900px;
             width: 100%;
             margin-top: 40px;
         }
+        
+        .modal-content.agent-dashboard {
+            max-width: 1100px;
+        }
+        
+        /* Agent Dashboard Styles */
+        .agent-dash-header {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            padding: 20px 24px;
+            border-bottom: 1px solid var(--border);
+            background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-tertiary) 100%);
+        }
+        
+        .agent-dash-status {
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+        }
+        
+        .agent-dash-status.red { background: var(--red-bg); border: 2px solid var(--red); }
+        .agent-dash-status.orange { background: var(--orange-bg); border: 2px solid var(--orange); }
+        .agent-dash-status.yellow { background: var(--yellow-bg); border: 2px solid var(--yellow); }
+        .agent-dash-status.green { background: var(--green-bg); border: 2px solid var(--green); }
+        
+        .agent-dash-info { flex: 1; }
+        .agent-dash-name { font-size: 22px; font-weight: 700; }
+        .agent-dash-subtitle { font-size: 13px; color: var(--text-secondary); margin-top: 2px; }
+        
+        .agent-dash-metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 12px;
+            padding: 16px 24px;
+            background: var(--bg-primary);
+            border-bottom: 1px solid var(--border);
+        }
+        
+        .agent-metric {
+            text-align: center;
+            padding: 12px;
+            background: var(--bg-secondary);
+            border-radius: 8px;
+            border: 1px solid var(--border);
+        }
+        
+        .agent-metric.critical { border-color: var(--red); background: var(--red-bg); }
+        .agent-metric.elevated { border-color: var(--orange); background: var(--orange-bg); }
+        .agent-metric.watch { border-color: var(--yellow); background: var(--yellow-bg); }
+        
+        .agent-metric-value { font-size: 20px; font-weight: 700; font-family: 'JetBrains Mono', monospace; }
+        .agent-metric-value.red { color: var(--red); }
+        .agent-metric-value.orange { color: var(--orange); }
+        .agent-metric-value.yellow { color: var(--yellow); }
+        .agent-metric-value.green { color: var(--green); }
+        
+        .agent-metric-label { font-size: 10px; color: var(--text-muted); text-transform: uppercase; margin-top: 4px; }
+        
+        .agent-dash-body { padding: 20px 24px; max-height: 60vh; overflow-y: auto; }
+        
+        .agent-section { margin-bottom: 24px; }
+        .agent-section-title { 
+            font-size: 13px; 
+            font-weight: 600; 
+            color: var(--text-secondary); 
+            text-transform: uppercase; 
+            letter-spacing: 0.5px;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .agent-section-title::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: var(--border);
+        }
+        
+        .signal-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+        .signal-table th { 
+            text-align: left; 
+            padding: 8px 12px; 
+            background: var(--bg-tertiary); 
+            font-weight: 600; 
+            font-size: 11px;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+        }
+        .signal-table td { padding: 10px 12px; border-bottom: 1px solid var(--border); }
+        .signal-table tr:hover { background: var(--bg-tertiary); }
+        
+        .status-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 11px;
+            font-weight: 600;
+        }
+        .status-badge.red { background: var(--red-bg); color: var(--red); }
+        .status-badge.orange { background: var(--orange-bg); color: var(--orange); }
+        .status-badge.yellow { background: var(--yellow-bg); color: var(--yellow); }
+        .status-badge.green { background: var(--green-bg); color: var(--green); }
+        
+        .agent-tabs {
+            display: flex;
+            gap: 4px;
+            padding: 0 24px;
+            background: var(--bg-primary);
+            border-bottom: 1px solid var(--border);
+        }
+        
+        .agent-tab {
+            padding: 12px 16px;
+            font-size: 13px;
+            font-weight: 500;
+            color: var(--text-muted);
+            cursor: pointer;
+            border-bottom: 2px solid transparent;
+            transition: all 0.15s ease;
+        }
+        .agent-tab:hover { color: var(--text-secondary); }
+        .agent-tab.active { color: var(--text-primary); border-bottom-color: var(--accent); }
+        
+        .agent-tab-content { display: none; }
+        .agent-tab-content.active { display: block; }
         
         .modal-header {
             display: flex;
@@ -1814,8 +1947,59 @@
             `).join('');
         }
         
+        // CARL Dashboard Data
+        const carlData = {
+            status: 'red',
+            subtitle: 'Consumer Credit Stress Monitor',
+            thesis: '"Beneath the Ice" — 60% of America is structurally fragile, and employment is the trigger.',
+            metrics: [
+                { label: 'CC 90+ DQ', value: '12.70%', status: 'red', context: '92% of GFC peak' },
+                { label: 'Auto 90+ DQ', value: '5.21%', status: 'red', context: 'At historical max' },
+                { label: 'Student 30+ DQ', value: '16.3%', status: 'red', context: 'Worst ever' },
+                { label: 'BNPL Late', value: '41%', status: 'orange', context: '+7pp YoY' },
+                { label: 'CC Utilization', value: '23.6%', status: 'yellow', context: '$1.28T / $5.42T' },
+                { label: 'Subprime Auto ABS', value: '>6%', status: 'red', context: 'Record high' },
+            ],
+            signals: [
+                { indicator: 'CC Delinquency 90+', value: '12.70%', status: 'red', note: '92% of GFC peak (13.74%)' },
+                { indicator: 'Auto Delinquency 90+', value: '5.21%', status: 'red', note: 'At historical max (5.27%)' },
+                { indicator: 'Student Loan 30+ DQ', value: '16.3%', status: 'red', note: 'WORST EVER — up from ~1%' },
+                { indicator: 'Student Loan 90+ DQ', value: '9.5%', status: 'red', note: '$159B delinquent (+$150B YoY)' },
+                { indicator: 'SAVE Plan', value: 'ENJOINED', status: 'red', note: '7M+ in limbo, IDR suspended' },
+                { indicator: 'BNPL Late Payments', value: '41%', status: 'orange', note: '+7pp YoY deterioration' },
+                { indicator: 'Fannie MF DQ', value: '0.75%', status: 'orange', note: '94% of GFC peak' },
+                { indicator: 'FL Foreclosures YoY', value: '+190%', status: 'red', note: 'Employment→housing accelerating' },
+                { indicator: 'National Foreclosures', value: '58,140', status: 'orange', note: '+41% YoY (Q4 2025)' },
+            ],
+            stateDiffusion: [
+                { state: 'FL', ccDq: '4.10%', autoDq: '6.2%', foreclosure: '+190%', status: 'red', note: 'Canary — SSB 23%' },
+                { state: 'TX', ccDq: '3.2%', autoDq: '5.8%', foreclosure: '+45%', status: 'orange', note: 'SSB 19%' },
+                { state: 'MS', ccDq: '4.8%', autoDq: '6.5%', foreclosure: '+38%', status: 'orange', note: 'Highest CC DQ' },
+                { state: 'LA', ccDq: '4.2%', autoDq: '6.1%', foreclosure: '+42%', status: 'orange', note: 'Energy + insurance' },
+                { state: 'NV', ccDq: '3.5%', autoDq: '5.4%', foreclosure: '+55%', status: 'orange', note: 'Gaming exposure' },
+            ],
+            predictions: [
+                { num: 1, text: 'CC 90+ exceeds 2019 peak (8.36%)', status: 'confirmed', result: '12.70%' },
+                { num: 3, text: 'FL foreclosures +100% YoY', status: 'confirmed', result: '+190%' },
+                { num: 7, text: 'CC 90+ reaches GFC peak (13.74%)', status: 'tracking', conf: '70%' },
+                { num: 9, text: 'National foreclosures >70K quarterly', status: 'tracking', conf: '75%' },
+                { num: 10, text: 'Fannie MF DQ crosses 0.80%', status: 'imminent', conf: '65%' },
+            ]
+        };
+        
         async function showAgent(name, file) {
-            document.getElementById('modal').classList.add('active');
+            const modal = document.getElementById('modal');
+            const modalContent = modal.querySelector('.modal-content');
+            
+            // For CARL, show custom dashboard
+            if (name === 'CARL') {
+                showCarlDashboard();
+                return;
+            }
+            
+            // Default behavior for other agents
+            modalContent.classList.remove('agent-dashboard');
+            modal.classList.add('active');
             document.getElementById('modal-title').textContent = name;
             document.getElementById('modal-body').innerHTML = '<p style="color: var(--text-muted);">Loading...</p>';
             
@@ -1830,6 +2014,139 @@
             } catch (e) {
                 document.getElementById('modal-body').innerHTML = '<p>Error loading file</p>';
             }
+        }
+        
+        function showCarlDashboard() {
+            const modal = document.getElementById('modal');
+            const modalContent = modal.querySelector('.modal-content');
+            modalContent.classList.add('agent-dashboard');
+            
+            const statusIcon = carlData.status === 'red' ? '🔴' : carlData.status === 'orange' ? '🟠' : '🟡';
+            
+            modalContent.innerHTML = `
+                <div class="agent-dash-header">
+                    <div class="agent-dash-status ${carlData.status}">${statusIcon}</div>
+                    <div class="agent-dash-info">
+                        <div class="agent-dash-name">CARL</div>
+                        <div class="agent-dash-subtitle">${carlData.subtitle}</div>
+                    </div>
+                    <button class="modal-close" onclick="closeModal()">✕</button>
+                </div>
+                
+                <div class="agent-dash-metrics">
+                    ${carlData.metrics.map(m => `
+                        <div class="agent-metric ${m.status === 'red' ? 'critical' : m.status === 'orange' ? 'elevated' : m.status === 'yellow' ? 'watch' : ''}">
+                            <div class="agent-metric-value ${m.status}">${m.value}</div>
+                            <div class="agent-metric-label">${m.label}</div>
+                        </div>
+                    `).join('')}
+                </div>
+                
+                <div class="agent-tabs">
+                    <div class="agent-tab active" onclick="switchAgentTab('signals')">Signals</div>
+                    <div class="agent-tab" onclick="switchAgentTab('states')">State Diffusion</div>
+                    <div class="agent-tab" onclick="switchAgentTab('predictions')">Predictions</div>
+                    <div class="agent-tab" onclick="switchAgentTab('raw')">Raw STATUS.md</div>
+                </div>
+                
+                <div class="agent-dash-body">
+                    <div class="agent-tab-content active" id="agent-tab-signals">
+                        <div class="agent-section">
+                            <div class="agent-section-title">Signal Dashboard</div>
+                            <table class="signal-table">
+                                <thead>
+                                    <tr><th>Indicator</th><th>Value</th><th>Status</th><th>Note</th></tr>
+                                </thead>
+                                <tbody>
+                                    ${carlData.signals.map(s => `
+                                        <tr>
+                                            <td style="font-weight: 500;">${s.indicator}</td>
+                                            <td style="font-family: 'JetBrains Mono', monospace; font-weight: 600;">${s.value}</td>
+                                            <td><span class="status-badge ${s.status}">${s.status.toUpperCase()}</span></td>
+                                            <td style="color: var(--text-secondary); font-size: 12px;">${s.note}</td>
+                                        </tr>
+                                    `).join('')}
+                                </tbody>
+                            </table>
+                        </div>
+                        
+                        <div class="agent-section">
+                            <div class="agent-section-title">Thesis</div>
+                            <p style="color: var(--text-secondary); font-style: italic; padding: 12px; background: var(--bg-primary); border-radius: 8px; border-left: 3px solid var(--red);">
+                                ${carlData.thesis}
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="agent-tab-content" id="agent-tab-states">
+                        <div class="agent-section">
+                            <div class="agent-section-title">State Stress Diffusion — "Next FL"</div>
+                            <table class="signal-table">
+                                <thead>
+                                    <tr><th>State</th><th>CC 90+ DQ</th><th>Auto 90+ DQ</th><th>Foreclosure YoY</th><th>Status</th><th>Notes</th></tr>
+                                </thead>
+                                <tbody>
+                                    ${carlData.stateDiffusion.map(s => `
+                                        <tr>
+                                            <td style="font-weight: 600;">${s.state}</td>
+                                            <td style="font-family: 'JetBrains Mono', monospace;">${s.ccDq}</td>
+                                            <td style="font-family: 'JetBrains Mono', monospace;">${s.autoDq}</td>
+                                            <td style="font-family: 'JetBrains Mono', monospace; color: var(--red);">${s.foreclosure}</td>
+                                            <td><span class="status-badge ${s.status}">${s.status.toUpperCase()}</span></td>
+                                            <td style="color: var(--text-secondary); font-size: 12px;">${s.note}</td>
+                                        </tr>
+                                    `).join('')}
+                                </tbody>
+                            </table>
+                            <p style="margin-top: 12px; font-size: 12px; color: var(--text-muted);">
+                                <strong>Key:</strong> TX is #2 behind FL — SSB has 19% exposure there.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="agent-tab-content" id="agent-tab-predictions">
+                        <div class="agent-section">
+                            <div class="agent-section-title">Predictions Tracker</div>
+                            <table class="signal-table">
+                                <thead>
+                                    <tr><th>#</th><th>Prediction</th><th>Status</th><th>Result/Confidence</th></tr>
+                                </thead>
+                                <tbody>
+                                    ${carlData.predictions.map(p => `
+                                        <tr>
+                                            <td style="font-weight: 600;">${p.num}</td>
+                                            <td>${p.text}</td>
+                                            <td><span class="status-badge ${p.status === 'confirmed' ? 'green' : p.status === 'imminent' ? 'orange' : 'yellow'}">${p.status.toUpperCase()}</span></td>
+                                            <td style="font-family: 'JetBrains Mono', monospace; color: ${p.status === 'confirmed' ? 'var(--green)' : 'var(--text-secondary)'};">${p.result || p.conf || '—'}</td>
+                                        </tr>
+                                    `).join('')}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    
+                    <div class="agent-tab-content" id="agent-tab-raw">
+                        <div id="carl-raw-content" style="color: var(--text-muted);">Loading...</div>
+                    </div>
+                </div>
+            `;
+            
+            modal.classList.add('active');
+            
+            // Load raw content for the raw tab
+            fetch('/api/file?path=' + encodeURIComponent('AGENTS/CARL/STATUS.md'))
+                .then(r => r.ok ? r.text() : 'Could not load')
+                .then(text => {
+                    document.getElementById('carl-raw-content').innerHTML = marked.parse(text);
+                })
+                .catch(() => {
+                    document.getElementById('carl-raw-content').innerHTML = '<p>Error loading file</p>';
+                });
+        }
+        
+        function switchAgentTab(tabId) {
+            document.querySelectorAll('.agent-tab').forEach(t => t.classList.toggle('active', t.textContent.toLowerCase().includes(tabId.substring(0, 4))));
+            document.querySelectorAll('.agent-tab-content').forEach(c => c.classList.toggle('active', c.id === 'agent-tab-' + tabId));
         }
         
         function closeModal() {
