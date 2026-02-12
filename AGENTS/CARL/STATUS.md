@@ -198,6 +198,87 @@ Bank NCOs rise (REGINALD) → Earnings release
 
 ---
 
+## BNPL HEALTH MONITOR
+
+**Source:** Richmond Fed Economic Brief 26-05 (Feb 2026)
+
+| Indicator | Value | Status |
+|-----------|-------|--------|
+| **Late Payment Rate** | **41%** | 🟠 (+7pp YoY) |
+| **Subprime Concentration** | **61%** | 🔴 |
+| Total Transaction Value | $70B | ~20% growth |
+
+**User Profile:** 45% deep subprime (300-579), 16% subprime (580-619), 39% near-prime+
+
+**Provider Dashboard:**
+| Provider | 30+ DQ | Next Earnings |
+|----------|--------|---------------|
+| Affirm | 4.2% | Feb 12 |
+| Klarna | 3.8% | IPO (Mar?) |
+| Afterpay | 5.1% 🟡 | Feb 20 (Block) |
+
+---
+
+## STUDENT LOAN CRISIS
+
+**Source:** NY Fed Q4 2025 (Feb 10, 2026)
+
+| Metric | Q4 2025 | Status |
+|--------|---------|--------|
+| **30+ Day DQ** | **16.3%** | 🔴 WORST EVER |
+| **90+ Day DQ** | **9.5%** | 🔴 |
+| **90+ Delinquent** | **$159B** | +$150B YoY |
+| Total Student Debt | $1.66T | |
+
+**SAVE Plan:** ENJOINED by courts. 7M+ borrowers in limbo.
+
+**Credit Score Destruction (>9M borrowers):**
+- 760+ (Superprime): **-171 points**
+- 720-759: -165 points
+- <620 (Subprime): -87 points
+
+**Spillover:** JPM estimates collections reduce disposable income $3.1-8.5B/month → adding CC debt to cover.
+
+---
+
+## MEDICAL DEBT FRAMEWORK
+
+| Metric | Value |
+|--------|-------|
+| Medical collections | **$88B** |
+| Pre-collections (invisible) | $50-100B |
+| Credit reports affected | **43 million** |
+| Households with medical debt | ~20% |
+
+**Medical = 58% of all collections.** Hardest to track. Proxies: Hospital bad debt (HCA, THC), Google Trends "medical debt help".
+
+---
+
+## ABS BASELINE
+
+| Metric | Value | Context |
+|--------|-------|---------|
+| Subprime Auto 60+ DQ | **>6%** | 🔴 RECORD |
+| Prime Auto 60+ DQ | 0.2% | 🟢 |
+| **Differential** | **30x** | K-shape in credit |
+
+The 30x gap = K-shape economy in one chart. Employment shock collapses prime toward subprime.
+
+---
+
+## FORECLOSURE TIMELINE VALIDATION
+
+**National Q4 2025:** 58,140 (+41% YoY) — 556% above Q4 2021 trough
+
+**Q2 2026 Timeline: ON SCHEDULE**
+- Q4 2025 = SETUP (DQ acceleration)
+- Q2 2026 = CONVERSION (DQ → foreclosure completion)
+- Lag: 6-12 months from DQ spike to completion
+
+**Wright's forecast validated.** Not early, not late.
+
+---
+
 ## SUB-AGENTS
 
 **GIG:** Tracks 24M invisible workers. Dave 28DPD = primary canary (current 1.95-2.00%, stress >2.10%)
