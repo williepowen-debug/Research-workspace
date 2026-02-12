@@ -22,6 +22,9 @@ Per REGINALD: Claims >300K or U-3 >5.0% → all ORANGE banks escalate simultaneo
 
 **CARL sits in the middle of this chain.** Employment shock → Consumer distress → Bank credit losses.
 
+**⚠️ Alternate Path — HENRY → CARL (Reverse Wealth Effect):**
+If SPX drops 10%+, the top 60% (whose spending has held up the K-shape) suddenly pull back. K-shape collapses from the TOP, not just the bottom. This transmission bypasses LABOR — market crash → wealth destruction → spending collapse → bank credit losses. Fast path.
+
 ---
 
 ## SIGNAL DASHBOARD

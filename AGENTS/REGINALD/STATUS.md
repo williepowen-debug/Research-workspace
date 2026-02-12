@@ -78,6 +78,46 @@
 - Spike in advances = banks can't fund themselves in private markets
 - 2023 SVB crisis: Advances spiked from ~$450B to **$675B peak** in March
 - Normal range: $450-550B
+
+---
+
+## 🆕 SLOOS Credit Crunch Monitor (Jan 2026)
+
+**🟠 Status: TIGHTENING** — REGINALD → LABOR feedback loop ACTIVE
+
+### January 2026 Senior Loan Officer Survey
+
+| Loan Type | Standards | 2026 Quality Outlook |
+|-----------|-----------|----------------------|
+| **C&I (All Sizes)** | **TIGHTENED** ⚠️ | — |
+| **C&I (Small Firms)** | **TIGHTENED** ⚠️ | **DETERIORATING** 🔴 |
+| CRE | Unchanged | Improving |
+| Consumer | Unchanged/Eased | Deteriorating |
+
+**Key Finding (Fed SLOOS Jan 2026):**
+> "Modest net shares of banks reported having **tightened standards on C&I loans to firms of ALL sizes.**"
+> "Banks reported expecting loan quality to **deteriorate for C&I loans to small firms.**"
+
+### REGINALD → LABOR Feedback Loop
+
+```
+Regional banks tighten C&I lending
+    ↓
+Small businesses can't access credit
+    ↓
+Payroll stress → Layoffs
+    ↓
+LABOR unemployment rises
+    ↓
+Consumer stress (CARL)
+    ↓
+Bank credit losses (REGINALD)
+```
+
+**This is an AMPLIFIER, not a trigger.** Once employment stress begins, credit tightening accelerates it. The loop is now ACTIVE.
+
+**Data Source:** Federal Reserve SLOOS (Quarterly)
+**Next Release:** ~Late April 2026 (Q1 data)
 - System has joint & several liability — one bank's failure = everyone's problem
 
 ### Why It Matters
