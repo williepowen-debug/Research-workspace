@@ -51,3 +51,12 @@ VX-CARL-ABS-11	ABS Auto 30+ DQ (Exeter)	ABS-AUTO	PENDING	12-15%	15-18%	>18%	PEND
 VX-CARL-ABS-12	ABS Auto Payment Rate (Ally)	ABS-AUTO	PENDING	4-5%	3.5-4%	<3.5%	PENDING	MEDIUM	2026-02-11	EDGAR 10-D	Prime/near-prime comparison
 VX-CARL-ABS-13	ABS Payment Rate Cross-Trust Divergence	ABS-COMPOSITE	PENDING	<1pp	1-2pp	>2pp	PENDING	LOW	2026-02-11	Multiple trusts	Signal dispersion/stress concentration
 VX-CARL-ABS-14	ABS vs NY Fed DQ Divergence	ABS-COMPOSITE	PENDING	<0.5pp	0.5-1pp	>1pp	PENDING	MEDIUM	2026-02-11	ABS vs NY Fed	Early warning confirmation
+VX-CARL-FC-01	National Foreclosures (Quarterly)	FORECLOSURES	58,140	50,000	60,000	70,000	ORANGE	HIGH	2026-02-12	NY Fed/Equifax Q4 2025	+41% YoY; validates Q2 2026 wave forecast
+VX-CARL-MF-01	Fannie Mae Multifamily Serious DQ	MULTIFAMILY	0.75%	0.60%	0.70%	0.80%	ORANGE	MEDIUM-HIGH	2026-02-12	Kobeissi/Fannie Mae	94% of GFC peak (0.80%); 5bps away from RED
+VX-CARL-MF-02	Freddie Mac Multifamily Serious DQ	MULTIFAMILY	0.48%	0.30%	0.40%	0.50%	ORANGE	MEDIUM-HIGH	2026-02-12	Kobeissi/Freddie Mac	Highest in 21 years; DOUBLED in 2 years
+VX-CARL-AUTO-CVNA	Carvana Stock (Auto Credit Canary)	AUTO-CANARY	-16% (2-day)	-10%	-15%	-20%	ORANGE	MEDIUM	2026-02-12	Market data	Fraud allegations; $1B+ hidden losses; auto credit stress signal
+VX-CARL-NAR-01	NAR Housing Crisis Declaration	CONSENSUS	DECLARED	CAUTIOUS	WARNING	CRISIS	RED	HIGH	2026-02-12	NAR Lawrence Yun	"New housing crisis" + "Americans are stuck" — consensus break
+VX-CARL-BNPL-01	BNPL Late Payment Rate	Consumer Credit	% of BNPL users making at least one late payment (annual)	%	41%	>45%	>50%	>55%	ELEVATED	RISING	HIGH	LendingTree Survey	Richmond Fed 2026-02	2026-02-12	Up from 34% in 2024; +7pp YoY deterioration
+VX-CARL-BNPL-02	BNPL Charge-Off Rate	Consumer Credit	Annual charge-off rate on BNPL loans	%	1.83%	>2.5%	>3.5%	>4.5%	NORMAL	IMPROVING	MEDIUM	CFPB Data	Richmond Fed 2026-02	2026-02-12	Down from 2.63% in 2022; but late payments rising
+VX-CARL-BNPL-03	BNPL Subprime Concentration	Consumer Credit	% of BNPL originations to subprime/deep subprime (FICO <620)	%	61%	>55%	>65%	>70%	CRITICAL	STABLE	HIGH	CFPB 2022 Data	Richmond Fed 2026-02	2026-02-12	45% deep subprime + 16% subprime = hidden risk concentration
+VX-CARL-BNPL-04	BNPL Repayment Confidence	Consumer Credit	% of BNPL users very confident in ability to repay on time	%	59%	<55%	<50%	<45%	ELEVATED	TBD	MEDIUM	LendingTree Survey	Richmond Fed 2026-02	2026-02-12	41% have lower confidence = liquidity stress signal

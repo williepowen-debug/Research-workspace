@@ -1,5 +1,5 @@
 # CARL STATUS
-**Last Updated:** 2026-02-11 | **Status:** 🔴 RED — CC Approaching GFC Peak, Auto at Historic Max
+**Last Updated:** 2026-02-12 | **Status:** 🔴 RED — CC Approaching GFC Peak, Auto at Historic Max
 
 > **Q4 2025 NY Fed Household Debt Report (Feb 10, 2026):** Credit card 90+ DQ at **12.70%** — only 1pp from GFC peak (13.74%). Auto 90+ DQ at **5.21%** — essentially at historical maximum. Florida foreclosures +190% YoY. This is not "stabilized" — it's accelerating into the danger zone.
 
@@ -44,6 +44,10 @@ If SPX drops 10%+, the top 60% (whose spending has held up the K-shape) suddenly
 | Hardship 401k Withdrawals | ATH (4.8-5.0%) | 🔴 | Buffer exhaustion signal |
 | **FL 90+ Delinquency** | **4.10%** | 🔴 | +49% YoY (was 2.76%) |
 | **FL Foreclosures YoY** | **+190%** | 🔴 | Employment→housing accelerating |
+| **National Foreclosures (Q4 2025)** | **58,140** | 🟠 | **+41% YoY** — Validates Q2 2026 wave |
+| **Fannie Multifamily Serious DQ** | **0.75%** | 🟠 | **94% of GFC peak** — 5bps from 0.80% |
+| **Freddie Multifamily Serious DQ** | **0.48%** | 🟠 | **Highest in 21 years** — Doubled in 2 years |
+| **NAR Housing Crisis Declaration** | **"New crisis"** | 🔴 | Chief Economist admits crisis — consensus break |
 
 **Age Breakdown (transition into 90+ days):**
 - 18-29: **9.5%** (hardest hit)
@@ -88,6 +92,119 @@ This is an additional stress vector — tariffs are effectively a regressive con
 - First-time buyers only 31% (vs historic 40%) — affordability crisis
 
 **Composite Assessment:** 🔴 **CRITICAL** — CC at 92% of GFC peak, auto at historical max. The +5.1pp rise since Q3 2022 is **larger than the entire 2008-2009 increase**. Young Americans (18-39) transitioning into serious delinquency at crisis rates. Tariff burden adds $1,000-1,300/household stress. Housing velocity collapsed. Florida is the leading indicator — now confirmed as slowest housing market in America.
+
+---
+
+## 🆕 FORECLOSURE ACCELERATION — Q2 2026 TIMELINE CONFIRMED (Feb 12, 2026)
+
+**National Foreclosures (Q4 2025): 58,140 (+41% YoY)**
+
+| Metric | Q4 2025 | Q4 2024 | Q4 2021 | YoY Change |
+|--------|---------|---------|---------|------------|
+| Foreclosures | **58,140** | 41,220 | 8,860 | **+41%** |
+
+**Source:** NY Fed Consumer Credit Panel/Equifax (published Feb 10, 2026)
+
+### Trajectory Analysis
+
+- **556% above Q4 2021 trough** (58,140 / 8,860 = 6.56x)
+- **Sustained acceleration:** Following FL +190% YoY (ATTOM)
+- **Geographic spread:** National data validates FL as leading indicator
+
+### Q2 2026 Timeline: UNCHANGED — ON SCHEDULE
+
+**Original forecast (Wright + CARL):** Foreclosures accelerate Q2 2026
+
+**Q4 2025 data interpretation:**
+- Q4 2025 = **SETUP** (delinquency acceleration)
+- Q2 2026 = **CONVERSION** (DQ → foreclosure completion)
+
+**Lag structure:**
+- DQ spike: Nov 2025 = 609K new delinquencies (ML-CARL-DQ-001)
+- Foreclosure lag: 6-12 months from DQ → completion
+- Peak foreclosures: Q2-Q3 2026
+
+**Wright's forecast validated:** Not early, not late. **On schedule.**
+
+### NAR Chief Economist: "New Housing Crisis"
+
+**Lawrence Yun (NAR Chief Economist), Feb 12, 2026:**
+> "We are in a new housing crisis. Americans are stuck."
+
+**Supporting data:**
+- Home sales: -8.4% MoM (Dec-Jan), -4.4% YoY
+- Days on market: 46 days (up from 39)
+- First-time buyers: 31% (vs historic 40%)
+
+**Significance:** This is **consensus-breaking**. The NAR — the official voice of the real estate industry — is admitting crisis, not housing bears or bloggers. The "soft landing" narrative is dead.
+
+### Multifamily Stress Near GFC Peak
+
+**Kobeissi Letter (Feb 11-12, 2026):**
+
+| Agency | Serious DQ | Context |
+|--------|------------|---------|
+| **Fannie Mae** | **0.75%** | **94% of GFC peak (0.80%)** — 5bps away |
+| **Freddie Mac** | **0.48%** | **Highest in 21 years** — Doubled in 2 years |
+| 2014-2019 avg | 0.01%-0.10% | Baseline |
+
+**Transmission chain:**
+```
+Consumer stress (CARL)
+    ↓
+Multifamily DQ (renters can't pay)
+    ↓
+CRE stress (CREED) (landlords can't pay)
+    ↓
+Bank losses (REGINALD)
+```
+
+### Auto Credit Canary: Carvana -16% in 2 Days
+
+**Event (Feb 10-12, 2026):**
+- Judge ordered document turnover re: Drivetime
+- Allegedly hiding **$1B+ in losses**
+- Stock dropped **-16%** in 2 days
+
+**Context:**
+- Follows Tricolor ($800M fraud), PrimaLend (Ch 11), Flagship fire sale
+- Subprime auto 90+ DQ: 5.21% (at historical max)
+- Negative equity: 52.9% (over half underwater)
+
+**Cockroach theory:** If Carvana is hiding $1B+, others likely are too.
+
+**Transmission:** Auto lender distress → ABS market freeze → Bank warehouse losses (already happening: JPM, Fifth Third took $200M+ combined)
+
+### Multi-Vector Convergence
+
+**All three major consumer debt categories showing stress simultaneously:**
+
+1. **Single-family housing:** Foreclosures +41% YoY, NAR declares "crisis"
+2. **Multifamily:** DQ at 94% of GFC peak (Fannie)
+3. **Auto:** Carvana distress, subprime at 5.21% DQ
+
+This is **not isolated stress**. This is **systemic consumer distress** across all major asset classes.
+
+### SSB Thesis Implications
+
+**SSB exposure (from 10-K):**
+- FL: 23% of loan book (4th largest market)
+- TX: 19% of loan book (3rd largest market)
+
+**New stress signals:**
+1. **National foreclosures +41%** → SSB's FL/TX exposure is in the epicenter
+2. **FL = 3 of top 5 slowest housing markets** (Ft. Lauderdale #2, Miami #4, West Palm #5)
+3. **Multifamily DQ near GFC peak** → SSB has multifamily exposure (check next 10-Q)
+4. **NAR declares crisis** → Undermines "soft landing" narrative supporting SSB valuation
+
+**SSB "Support and Survive" risk:**
+- Longer forbearance = more time for stress to convert to default
+- 2024/2025 vintages at risk (post-rate-shock originations)
+- Q2 2026 foreclosure wave will hit FL/TX disproportionately
+
+**Watch:** SSB Q1 2026 earnings (Apr 2026) for FL/TX DQ trends and early payment defaults.
+
+---
 
 ---
 
@@ -199,6 +316,76 @@ $150-200B in consumer debt **invisible** to credit bureaus:
 
 ---
 
+## 🆕 BNPL HEALTH MONITOR (Feb 12, 2026)
+
+**Source:** Richmond Fed Economic Brief 26-05 (Feb 2026)
+
+### Market Overview
+| Metric | Value | Context |
+|--------|-------|---------|
+| Total Transaction Value | **$70B** | ~20% annual growth |
+| Share of CC Spending | 1.1% | Small but growing |
+| Outstanding Debt (avg) | $3.02B | Short-term loans cycle fast |
+| Charge-Off Rate | 1.83% (2023) | Down from 2.63% (2022) |
+
+### 🔴 STRESS SIGNALS
+
+| Indicator | Value | Threshold | Status |
+|-----------|-------|-----------|--------|
+| **Late Payment Rate** | **41%** | >45% | 🟠 ELEVATED |
+| Prior Year | 34% | — | +7pp YoY deterioration |
+| **Subprime Concentration** | **61%** | >55% | 🔴 CRITICAL |
+| Repayment Confidence | 59% "very confident" | <55% | 🟡 WATCH |
+
+**Key Insight:** 41% of BNPL users made at least one late payment in 2025 (up from 34% in 2024). This is a **leading indicator** — late payments spike before charge-offs rise.
+
+### User Profile (Hidden Risk)
+| Credit Tier | FICO Range | Share of Originations |
+|-------------|------------|----------------------|
+| **Deep Subprime** | 300-579 | **45%** |
+| **Subprime** | 580-619 | **16%** |
+| Near-Prime+ | 620+ | 39% |
+
+**61% of BNPL originations go to subprime or worse.** These are the same consumers with:
+- CC 90+ DQ at 12.70%
+- Auto 90+ DQ at 5.21%
+- 63% BNPL stacking (multiple simultaneous loans)
+
+### Provider Dashboard
+
+| Provider | 30+ DQ | Status | Next Earnings |
+|----------|--------|--------|---------------|
+| Affirm | 4.2% | 🟢 GREEN | Feb 12 |
+| Klarna | 3.8% | 🟢 GREEN | IPO (Mar?) |
+| Afterpay | 5.1% | 🟡 YELLOW | Feb 20 (Block) |
+| PayPal | 3.2% | 🟡 YELLOW | Feb 5 ✅ |
+
+**Watch:** Afterpay crossing 5% threshold; no late fees = faster stress conversion.
+
+### Credit Bureau Reporting (Jun 2025)
+- **Affirm:** Now reporting to bureaus (positive for visibility)
+- **Klarna, Afterpay:** Resisting — argue models penalize short-term usage
+- **Implication:** Still ~40-60% of BNPL debt unreported
+
+### Transmission Path
+```
+Employment shock (LABOR)
+    ↓ (0-3 months)
+BNPL users (61% subprime) miss payments first
+    ↓
+Late payments spike (41% → ?%)
+    ↓
+Charge-offs follow (lagging 3-6 months)
+    ↓
+CC/Auto stress (BNPL users carry higher balances)
+    ↓
+Bank NCOs (REGINALD)
+```
+
+**Reference:** `workbook/BNPL_STRESS.tsv`, `sources/RichmondFed_BNPL_2026-02.md`
+
+---
+
 ## CONVERSION VELOCITY
 
 **Timeline from trigger to delinquency has COMPRESSED vs historical norms.**
@@ -304,6 +491,8 @@ Stock drops → Deposit flight → Credit tightens
 | 6 | Medical debt collections spike post-employment break | Q3-Q4 2026 | 75% | Pending |
 | 7 | **CC 90+ reaches GFC peak (13.74%)** | Q2 2026 | 70% | NEW — only 1pp away |
 | 8 | **FL foreclosures +300% YoY** | Q3 2026 | 60% | NEW — trajectory supports |
+| 9 | **National foreclosures >70K (quarterly)** | Q2 2026 | 75% | ✅ **ON TRACK** — 58K in Q4 2025 (+41% YoY) |
+| 10 | **Fannie multifamily DQ crosses 0.80% (GFC peak)** | Q2 2026 | 65% | ⚠️ **IMMINENT** — 0.75% (5bps away) |
 
 ---
 
