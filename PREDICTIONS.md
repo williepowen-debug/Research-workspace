@@ -44,6 +44,8 @@
 | 6 | Medical debt collections spike post-employment | Q3-Q4 2026 | 75% | ⏳ Pending |
 | 7 | CC 90+ reaches GFC peak (13.74%) | Q2 2026 | 70% | ⏳ NEW — 1pp away |
 | 8 | FL foreclosures +300% YoY | Q3 2026 | 60% | ⏳ NEW |
+| 9 | **Cities with negative YoY prices exceed 50 of 85** (Wright tracker) | Q2 2026 | 65% | ⏳ NEW (Wright) |
+| 10 | **FL net migration stays <50K/year** | 2026 | 70% | ⏳ NEW (Wright) |
 
 ### REGINALD
 | # | Prediction | Timeframe | Confidence | Status |
@@ -53,6 +55,7 @@
 | 3 | WAL fraud reserve increase | Q1-Q2 2026 | 55% | ⏳ Pending |
 | 4 | Additional bank fraud disclosures (10-K season) | Mar 2026 | 50% | ⏳ Pending |
 | 5 | First wave "can't extend anymore" CRE forced sales | Q2-Q3 2026 | 60% | ⏳ Pending |
+| 6 | **Additional bank failures in 2026 (≥3 total)** | 2026 | 55% | ⏳ NEW (Wright) — "cockroach theory" |
 
 ### BROCK
 | # | Prediction | Timeframe | Confidence | Status |
