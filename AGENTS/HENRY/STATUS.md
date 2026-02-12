@@ -20,8 +20,23 @@ The equity market is a **derivatives-driven machine** where dealer hedging and s
 **🆕 SBC Valuation Gap (Burry Framework, Feb 12):**
 Tech earnings overstated 30-50% due to SBC add-backs. Palantir ($375B mkt cap) worth ~$46/share per Burry's DCF (66% downside). Nvidia's $91B "buybacks" = zero share reduction. When AI FOMO fades, repricing will be violent. This is hidden fragility in the "Tech Rot" thesis.
 
+**SBC Mechanism:**
+- "Adjusted" earnings add back SBC (real economic cost) → inflates profitability 30-50%
+- True P/E multiples 50-100% HIGHER than reported (40x "adjusted" = 60-80x GAAP)
+- Aggregate tech dilution ~4.8% annually (NVDA 3.2%, TSLA 3.6%, PLTR 6.5%)
+- Buyback efficiency collapsed: NVDA $91B deployed = ZERO net share reduction
+- Passive flows ($380B/yr) are market-cap weighted → amplify dilution by buying MORE shares of diluting companies
+
+**Structural Bid thesis interaction:**
+The $1.02T annual buyback bid overstated by 30-50% in tech (50% of SPX). Real tech buyback support = $300-500B, not $700B, due to dilution offset. This reduces perceived "support floor" significantly.
+
+**CRITICAL: This expands Reverse Wealth Effect magnitude 2-3x.**
+If tech (50% of SPX) overvalued 30-50%, true fair value 15-25% lower. A 10% nominal decline = 25-35% from adjusted peak when repriced to GAAP. Wealth destruction $19T vs $8T baseline → consumer spending shock NON-LINEAR at that scale. HENRY → CARL becomes FASTER transmission than LABOR → CARL → REGINALD.
+
 **⚠️ HENRY → CARL Transmission (Reverse Wealth Effect):**
 If SPX drops 10%+, the top 60% (who've been insulated by stock gains) suddenly pull back spending. K-shape collapses from the TOP, accelerating consumer stress independently of employment. This is a fast path that bypasses LABOR.
+
+**🆕 SBC Repricing amplifies this 2-3x:** If tech overvalued 30-50% due to SBC manipulation, true decline from adjusted peak = 25-35% when repriced to GAAP. Wealth destruction $19T vs $8T baseline. Consumer response non-linear at this magnitude. HENRY → CARL may be FASTER and LARGER than LABOR → CARL → REGINALD sequence.
 
 ---
 
@@ -182,6 +197,10 @@ Risk parity deleverages   → T+5 to T+30 (largest, last)
 | H2 | If MOVE >115 while VIX <20, credit stress incoming | Divergence | 2-5 days | 70% |
 | H3 | Next gamma flip event recovers <5 sessions IF Fed messaging supports | Fed response | Event-dependent | 65% |
 | H4 | Equity cannot bottom until HY OAS peaks | Credit leads | Coincident | 85% |
+| **H5** | **PLTR breaks $100 → AI thematic repricing begins** | **Sentiment shift** | **2-6 weeks cascade** | **75%** |
+| **H6** | **Tech multiple compression 20-30% when SBC scrutiny intensifies** | **Regulatory/activist catalyst** | **3-9 months** | **70%** |
+| **H7** | **XLK breadth <40% precedes sector repricing by 2-4 weeks** | **Breadth deterioration** | **Leading indicator** | **80%** |
+| **H8** | **Reverse Wealth Effect 2-3x larger than baseline if SBC repricing occurs** | **Tech decline >20%** | **Coincident with decline** | **65%** |
 
 ---
 
@@ -190,6 +209,13 @@ Risk parity deleverages   → T+5 to T+30 (largest, last)
 **LABOR → HENRY:**
 - Claims >300K or U-3 >5% = fundamental trigger
 - Bad NFP print → immediate gamma test of Put Wall
+
+**HENRY → CARL (🆕 SBC AMPLIFICATION):**
+- If tech reprices on SBC recognition, Reverse Wealth Effect 2-3x larger than baseline
+- $19T wealth destruction vs $8T in 10% nominal decline
+- Top 60% spending shock faster/larger than employment-driven stress
+- CARL should model $75T household equity exposure × 25-35% "true" decline scenario
+- Transmission: Tech narrative fade → repricing → wealth shock → immediate spending pullback
 
 **CARL → HENRY:**
 - Consumer stress → corporate stress → HY widens → equity follows
@@ -246,6 +272,9 @@ This is a "headline vs reality" divergence. Machines trade the beat; humans pric
 2. **VIX Term Structure** — Check VX1 vs spot daily
 3. **SPX vs 6,920 Put Wall** — First test of structural support
 4. **0DTE Volume** — Drop >15% = liquidity withdrawal signal
+5. **🆕 PLTR Price Action** — Break below $100 = AI thematic repricing catalyst
+6. **🆕 XLK Breadth** — Currently 45.7%, watch for breach <40% (sector stress)
+7. **🆕 Tech Share Counts** — Monitor NVDA/TSLA/PLTR dilution vs buyback announcements
 
 ---
 
