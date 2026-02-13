@@ -153,6 +153,9 @@
 | 13 | **Property stabilization not until H2 2027** (MS/GS consensus) | H2 2027 | 70% | ⏳ NEW (RP-ZHAO-5) — 766M sqm overhang |
 | 14 | **Vanke avoids full default (state backstop holds)** | 2026 | 80% | ⏳ NEW (RP-ZHAO-5) — Shenzhen Metro lifelines |
 | 15 | **Developer recovery rates stay <5% (offshore bonds)** | 2026-27 | 85% | ⏳ NEW (RP-ZHAO-5) — Evergrande <0.6% |
+| 16 | **China UST reduction pace stays >$60B/year** | 2026 | 75% | ⏳ NEW (RP-ZHAO-7) — Currently $72B/year |
+| 17 | **No Taiwan kinetic escalation (Level 3+)** | 2026 | 85% | ⏳ NEW (RP-ZHAO-7) — Baseline expectation |
+| 18 | **PBOC gold purchases >100 tons in any quarter** | 2026 | 50% | ⏳ NEW (RP-ZHAO-7) — Sanctions prep indicator |
 
 **Key Findings (Feb 13 — Research Batch Complete):**
 1. **Dedollarization is WRONG** — Belgium proxy thesis VALIDATED by CFR, JPMorgan, Goldman, Aberdeen, ECB. True holdings ~$1.8-1.9T stable since 2015.
