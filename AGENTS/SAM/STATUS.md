@@ -44,9 +44,38 @@ Japan is in a **fiscal doom loop** (acknowledged as "credible tail risk" by Alli
 - Ishin = ACCELERATOR (vs Komeito was brake)
 - Only constraints: BOJ (Ueda) and markets
 
-**Key voices:**
-- **Takuji Aida** (Special Advisor): "Intellectual father of Sanaenomics" — his public statements = admin trial balloons
-- **Katsunobu Katayama** (Finance Minister): MOF/BOJ coordination
+---
+
+## POLITICAL POWER STRUCTURE
+
+### TAKAICHI'S INNER CIRCLE — The 5 Special Advisors
+
+| Advisor | Role | Signal |
+|---------|------|--------|
+| **Takuji Aida** | Chief Economist (Credit Agricole) | 🔴 **KEY VOICE** — public statements = admin signals |
+| Sadamasa Oue | Defense hawk (ex-ASDF Lt General) | Driving "Active Defense" buildup |
+| Takashi Endo | Ishin liaison | Coalition manager |
+| Midori Matsushima | Immigration policy | Takaichi loyalist |
+| Takahiro Inoue | Media strategy | Attack dog, rural messaging |
+
+### THE 0.75% CEILING — Containment Strategy
+
+**Aida's explicit position:**
+> "Tolerate BOJ hike to 0.75%, then demand pause until 2027."
+
+- BOJ currently at 0.25%
+- Market expects July hike to 0.50%
+- Takaichi will tolerate → **0.75% MAX**
+- Above 0.75% = political pressure escalates (Katayama sent to BOJ)
+
+**Implication:** BOJ normalization path CAPPED. Ueda wants 1.0%+. Collision inevitable.
+
+### LDP INTERNAL DYNAMICS
+
+**Ishiba faction PURGED:**
+- "Kishida-Ishiba line extinguished" — loyalists relegated to bottom of PR lists
+- No internal LDP opposition remains
+- Takaichi's control is TOTAL
 
 ---
 
@@ -99,6 +128,53 @@ Japan is in a **fiscal doom loop** (acknowledged as "credible tail risk" by Alli
 
 ---
 
+## BOJ SHOWDOWN TIMELINE
+
+### March 18-19 BOJ Meeting
+**Expected:** HOLD at 0.25%, OR 0.25% hike with STRONG HOLD SIGNAL through Q2
+
+**Why:**
+- Inflation moderating (but still >2%)
+- Pre-budget passage — no fiscal shock yet
+- Ueda likely to wait for April fiscal clarity
+
+**Market pricing:** ~40% hike probability
+
+### April BOJ Meeting — "DANGER ZONE"
+
+**Collision scenario:**
+- Budget passes (April-May)
+- Fiscal expansion confirmed
+- Inflation data STILL hot (import costs + domestic demand)
+- Ueda pushes for 0.75% hike
+
+**Takaichi response:**
+- Sends Katayama to BOJ for "coordination meeting"
+- Public pressure: "Hike threatens recovery"
+- Market intervention: Verbal yen support
+
+**This is the showdown.** Ueda wants normalization. Takaichi has drawn 0.75% ceiling. If April inflation hot, collision becomes acute.
+
+**Watch for:**
+- Katayama statements in March
+- Aida commentary on "appropriate pace"
+- Diet questioning of Ueda
+
+---
+
+## FISCAL TIMELINE
+
+| Date | Event | Status |
+|------|-------|--------|
+| FY2026 Budget | ¥122 trillion drafted | 🔴 Not debated yet |
+| **March 31** | FY2026 deadline | 🔴 **WILL BE MISSED** |
+| April-May | Provisional budget | 🔴 Interim measure |
+| April-May | Full budget passage | 🔴 Delayed |
+
+**Implication:** JGB issuance compressed into Q2 = WALL of supply in short window.
+
+---
+
 ## LIFE INSURER REPATRIATION (🔴 ACTIVE)
 
 **Transmission is NOT theoretical. Confirmed active Jan 2026.**
@@ -113,11 +189,23 @@ Japan is in a **fiscal doom loop** (acknowledged as "credible tail risk" by Alli
 | 🟡 YELLOW | Nippon, Sumitomo, Dai-ichi | $200-290B | $80-120B |
 | 🟢 GREEN | Asahi, Japan Post | $100-160B | $20-40B |
 
-**Key signals:**
-- Meiji Yasuda: ¥1.386T ($9.7B) unrealized JGB losses — HIGHEST
-- Nippon Life: ¥220B realized losses = liquidity pressure REAL
-- REDUCING JGBs (first time since 2016) = stress, not rotation
+**Industry-wide stress:**
+- Total unrealized JGB losses: **¥9 trillion ($60B)**
+- ESR ratios deteriorating (new mark-to-market regulation)
+- Foreign bond holdings: **$1.5-1.8 trillion**
+- UST component: **$600-810 billion**
+
+**Key signals by insurer:**
+- **Meiji Yasuda:** ¥1.386T ($9.7B) unrealized losses — HIGHEST. Acquiring U.S. Banner Life (fleeing domestic)
+- **Fukoku:** FIRST MOVER — stopped buying 30/40Y JGBs in Jan 2026
+- **Nippon Life:** ¥220B realized losses = liquidity pressure REAL. Reducing JGBs first time since 2016
+- **Sumitomo:** FX strategy = sell USD when yen >150 (currently 159 = sell signal)
+- **Dai-ichi:** "Not yet time for full-fledged return to bond markets"
+
+**Critical findings:**
+- NOT rotation — it's STRESS (selling foreign AND JGBs simultaneously)
 - Hedge ratios at 14-year low (30%, down from 45%)
+- If USD/JPY falls to 145: ¥10.5T loss on unhedged positions → forced liquidation
 
 ### Repatriation Scenarios
 
@@ -180,6 +268,49 @@ Japan is in a **fiscal doom loop** (acknowledged as "credible tail risk" by Alli
 | 🔴 FAIL | <2.5x | >4bp | Crisis cascade |
 
 **Why higher bar:** US 10Y auction showed 1.4bp tail (worst since Aug 2024) — global stress is SYSTEMIC.
+
+---
+
+## WHAT TO WATCH
+
+### JGB/BOJ Thresholds
+| Metric | Current | Watch Level | Interpretation |
+|--------|---------|-------------|----------------|
+| 10Y JGB | ~2.29% | >2.50% | 🔴 RED ALERT |
+| 30Y JGB | ~3.57% | >4.00% | Accelerate repatriation |
+| 40Y JGB | ~3.85% | >5.00% | Crisis liquidation |
+| USD/JPY | ~156 | >160 | MOF intervention |
+| **BOJ Rate** | **0.25%** | **>0.75%** | 🔴 **POLITICAL COLLISION** |
+
+### UST Early Warning Signals
+
+**TIER 1 — IMMEDIATE (1-4 week lead):**
+1. **MOF Weekly Flow Data** (Thursdays)
+   - 🟡 YELLOW: >¥500B/mo selling
+   - 🟠 ORANGE: >¥1T/mo
+   - 🔴 RED: >¥2T/mo
+
+2. **Feb 19 20Y Auction**
+   - 🟢 PASS: BTC >3.0x, tail <2bp
+   - 🟡 WEAK: BTC 2.5-3.0x, tail 2-4bp
+   - 🔴 FAIL: BTC <2.5x, tail >4bp
+
+3. **USD/JPY Correlation**
+   - Normal: +0.6 to +0.8 with UST yields
+   - 🔴 RED: Goes NEGATIVE = heavy repatriation
+
+**TIER 2 — LEADING (4-12 week lead):**
+4. **ESR Disclosures** (March 31 FY-end)
+   - 🟠 ORANGE: <180%
+   - 🔴 RED: <150% (forced selling)
+
+5. **30Y-10Y JGB Spread**
+   - Current: ~131bp
+   - 🔴 RED: >145bp (insurers stopped buying long end)
+
+6. **Insurer Policy Language**
+   - 🟡 YELLOW: "Trimming foreign bonds"
+   - 🔴 RED: "Liquidating foreign holdings"
 
 ---
 
