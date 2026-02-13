@@ -1,11 +1,11 @@
 # ZHAO STATUS.md
-**Updated:** 2026-02-13 03:25 UTC
+**Updated:** 2026-02-13 15:00 UTC
 
 ---
 
-## Current Status: 🟠 ELEVATED
+## Current Status: 🟠 ELEVATED → 🔴 CONFIRMED
 
-**Stealth UST exit confirmed. Property crisis ongoing. Watching for acceleration.**
+**Belgium proxy thesis INSTITUTIONALLY VALIDATED. China executing custodial arbitrage, not dedollarization. True holdings stable ~$1.8-1.9T.**
 
 ---
 
@@ -13,58 +13,117 @@
 
 | Metric | Current | Yellow | Orange | Red | Status |
 |--------|---------|--------|--------|-----|--------|
-| China Official UST | ~$770B | <$750B | <$700B | <$650B | 🟢 GREEN |
-| Belgium TIC (proxy) | $481B | >$450B | >$480B | >$500B | 🟠 ORANGE |
-| Combined Flow Rate | ~$100B/yr exit | $75B | $150B | $250B | 🟡 YELLOW |
+| China Official UST | $682.6B | <$750B | <$700B | <$650B | 🟠 ORANGE |
+| Belgium TIC (proxy) | **$481B ATH** | >$450B | >$480B | >$500B | 🟠 ORANGE |
+| Belgium YoY Growth | **+33%** | >15% | >25% | >35% | 🟠 ORANGE |
+| True China Holdings | ~$1.85T | — | — | — | ✅ STABLE |
 | USD/CNY | 7.25 | >7.30 | >7.40 | >7.50 | 🟢 GREEN |
 | HK Aggregate Balance | ~$45B | <$40B | <$30B | <$20B | 🟢 GREEN |
-| Evergrande Bond | ~$0.08 | — | — | — | 🔴 DEFAULT |
-| Country Garden Bond | ~$0.12 | <$0.20 | <$0.15 | <$0.10 | 🟠 ORANGE |
 
 ---
 
-## Active Thesis
+## THESIS VALIDATION: Euroclear Proxy (Feb 13)
 
-### 1. Stealth UST Exit 🟠
+### Institutional Consensus
 
-**Evidence:**
-- Belgium holdings: $481B (Euroclear = China custody proxy)
-- Feb 9, 2026: Chinese banks instructed to reduce USD asset exposure
-- Official holdings declined from $1.1T (2021) to ~$770B (2025)
-- Combined with Japan (~$1.1T declining): $300B/year demand hole
+| Institution | Position |
+|-------------|----------|
+| **CFR (Brad Setser)** | "China's true holdings stable at $1.8-1.9T since 2015" |
+| **J.P. Morgan** | "China has not been reducing holdings, just disguising them" |
+| **Goldman Sachs** | Supports proxy thesis |
+| **Aberdeen** | "Limited evidence of China actively reducing US exposure" |
+| **ECB (Official)** | Acknowledges Belgian stats inflated by Chinese sovereign wealth |
 
-**Status:** ACTIVE — Watching Feb 18 TIC data for confirmation
+**Source:** RP-ZHAO-1_BELGIUM_TIC_PROXY.md
 
-### 2. Property → Banking Stress 🟡
+### The Math
 
-**Evidence:**
-- Evergrande: Liquidation ordered Jan 2024, restructuring ongoing
-- Country Garden: Defaulted Sep 2023, offshore bonds at $0.12
-- LGFV debt: ~$9T, local government land sale revenue down 40%+
-- Shadow banking: Trust products, wealth management under pressure
+| Period | China Official | Belgium | Combined |
+|--------|---------------|---------|----------|
+| Dec 2020 | $1,072B | $254B | $1,326B |
+| Nov 2025 | $683B | $481B | **$1,164B** |
+| Change | -$389B | +$227B | -$162B |
 
-**Status:** CHRONIC — Not yet acute banking crisis, but stress building
+- Belgium absorbs **58%** of China's apparent "exit"
+- Remaining gap = Agency MBS rotation + valuation changes
+- **True holdings: ~$1.8-1.9T** (stable since 2015)
 
-### 3. Currency Defense Scenario 🟢
+### Why It's Happening
 
-**Evidence:**
-- USD/CNY at 7.25 (below intervention threshold)
-- PBOC maintaining stability, no major intervention signals
-- HK peg stable (Aggregate Balance ~$45B)
-
-**Status:** DORMANT — Would activate if USD/CNY >7.40
+1. **Post-Russia sanctions:** €193B frozen at Euroclear → visibility = vulnerability
+2. **Macroeconomic trilemma:** Can't exit USD without collapsing exports
+3. **Solution:** Change WHERE, not WHAT they hold
+4. **Omnibus accounts:** SAFE invisible to US reporting
 
 ---
 
-## Predictions
+## Active Vectors
+
+### 1. Custodial Arbitrage 🔴 CONFIRMED
+
+**Mechanism:**
+- SAFE migrating reserves from direct US custody → Euroclear omnibus
+- Assets vanish from "China" line, appear in "Belgium"
+- TIC system cannot pierce custodial veil
+
+**Evidence:**
+- Belgium +$227B (2020-2025) vs China -$389B
+- 33% YoY growth rate (vs Japan 11%, UK 16%)
+- ECB officially acknowledges the mechanism
+
+**Status:** VALIDATED — This is operational fact, not theory
+
+### 2. Agency MBS Rotation 🟡 NEW
+
+**Mechanism:**
+- China letting short-end Treasuries mature without reinvestment
+- Aggressively accumulating Agency MBS (Fannie/Freddie)
+- Same US govt backing, better yield
+
+**Evidence:**
+- Mid-2022: China became **#1 global holder of Agency MBS**
+- Purchased **$100B in Agency bonds** in 18 months to late 2023
+- Agency data in separate TIC tables → not visible in headlines
+
+**Status:** ACTIVE — Further obscures true dollar footprint
+
+### 3. SEC Mandate Catalyst 🟡 UPCOMING
+
+**2026-2027 Clearing Mandate:**
+- Dec 31, 2026: Cash market central clearing required
+- Jun 30, 2027: Repo market central clearing required
+- **Offshore ICSDs (Euroclear) EXEMPT**
+
+**Regulatory Arbitrage:**
+- Massive incentive to route through Brussels
+- Avoids margin costs, operational burden, reporting
+- Euroclear launched DVP repo service **Feb 18, 2025**
+
+**Implication:** Belgium TIC will grow further into late 2020s
+
+### 4. Property → Banking Stress 🟡 CHRONIC
+
+**Evidence:**
+- Evergrande: Liquidation ongoing
+- Country Garden: Offshore bonds at $0.12
+- LGFV debt: ~$9T, land sale revenue down 40%+
+- Shadow banking under pressure
+
+**Status:** CHRONIC — Not yet acute, stress building
+
+---
+
+## Predictions (Updated)
 
 | ID | Prediction | Timeframe | Confidence | Status |
 |----|------------|-----------|------------|--------|
-| ZHAO-1 | Belgium TIC >$500B | Q1 2026 | 55% | PENDING |
-| ZHAO-2 | China official <$700B | Q2 2026 | 45% | PENDING |
-| ZHAO-3 | Combined outflow >$150B/year | 2026 | 50% | PENDING |
-| ZHAO-4 | Major LGFV restructuring announced | H1 2026 | 60% | PENDING |
-| ZHAO-5 | Trump-Xi summit fails/no deal | Q2 2026 | 55% | PENDING |
+| ZHAO-1 | Belgium TIC >$500B | Q1 2026 | **65%** ↑ | ⏳ IMMINENT |
+| ZHAO-2 | China official <$650B | Q3 2026 | 50% | ⏳ Tracking |
+| ZHAO-3 | Combined outflow >$150B/year | 2026 | 45% | ⏳ Tracking |
+| ZHAO-4 | Major LGFV restructuring | H1 2026 | 60% | ⏳ Pending |
+| ZHAO-5 | Trump-Xi summit fails/no deal | Q2 2026 | 55% | ⏳ Pending |
+| ZHAO-6 | **Belgium YoY growth stays >25%** | 2026 | **70%** | ⏳ NEW |
+| ZHAO-7 | **Agency MBS rotation continues ($50B+)** | 2026 | 65% | ⏳ NEW |
 
 ---
 
@@ -72,10 +131,11 @@
 
 | Date | Event | Relevance |
 |------|-------|-----------|
-| **Feb 18** | Dec TIC Data | Belgium proxy check |
-| **Mar 15** | Feb TIC Data | Next update |
+| **Feb 18** | Dec TIC Data | Belgium proxy check — threshold $500B |
+| **Mar 15** | Feb TIC Data | Next monthly update |
 | **Apr 2026** | Trump-Xi Summit? | Geopolitical catalyst |
-| **Q1 End** | SAFE Quarterly | FX reserves breakdown |
+| **Dec 2026** | SEC Cash Clearing | Arbitrage begins |
+| **Jun 2027** | SEC Repo Clearing | Full mandate |
 
 ---
 
@@ -83,8 +143,8 @@
 
 | Agent | Vector | Current Flow |
 |-------|--------|--------------|
-| **LIQUID** | UST demand hole | Belgium $481B + Japan exit = ~$300B/yr |
-| **SAM** | Asia anchor pair | Both sovereigns stressed |
+| **LIQUID** | UST demand hole | Belgium $481B + Japan exit = structural gap |
+| **SAM** | Asia anchor pair | Both sovereigns stressed, yen/yuan correlation |
 | **HENRY** | Risk-off trigger | China crisis → global selloff |
 | **REGINALD** | Bank exposure | US banks with China/HK books |
 
@@ -95,33 +155,40 @@
 - **TIC:** https://ticdata.treasury.gov/
 - **PBOC:** http://www.pbc.gov.cn/
 - **SAFE:** https://www.safe.gov.cn/
-- **Developer Bonds:** Bloomberg, FT
-- **HK Aggregate:** https://www.hkma.gov.hk/
+- **Brad Setser/CFR:** https://www.cfr.org/
+- **Euroclear:** https://www.euroclear.com/
 
 ---
 
 ## What Would Change Our View
 
-**Bullish for China (bearish for thesis):**
-- Massive fiscal stimulus (>5% GDP) announced
-- Property bailout that actually recapitalizes developers
-- Capital controls relaxed + inflows resume
-- USD/CNY <7.00 sustained
-
-**Bearish for China (bullish for thesis):**
-- Belgium TIC >$520B (acceleration)
-- Bank recapitalization announced (NPL admission)
-- HK Aggregate Balance <$30B
+**Bearish (accelerating exit):**
+- Belgium TIC >$520B by Q2 (acceleration confirmed)
+- China official <$650B (optical threshold)
 - USD/CNY >7.40 with intervention
+- PBOC selling to defend currency
+
+**Bullish (reversal):**
+- Belgium growth decelerates (<15% YoY)
+- China official holdings stabilize
+- Massive fiscal stimulus (>5% GDP)
+- Trade deal reduces tariff pressure
 
 ---
 
 ## Bottom Line
 
-China is executing a slow-motion UST exit via Belgium/Euroclear while managing a chronic property crisis. Not yet acute, but the $300B/year demand hole (with Japan) is structural.
+**The dedollarization narrative is WRONG.**
 
-**Key watch:** Feb 18 TIC data — does Belgium continue rising?
+China is executing **custodial arbitrage** — moving reserves from visible US custody to invisible Euroclear omnibus accounts. True holdings are **stable at $1.8-1.9T** since 2015.
+
+The risk isn't that China abandons USD. The risk is:
+1. **Opacity** — We can't see the real positions
+2. **Fragility** — If they ever DO need to exit fast, the plumbing can't handle it
+3. **Structural demand gap** — Even stable holdings ≠ new buying
+
+**Watch Feb 18:** Does Belgium breach $500B?
 
 ---
 
-*Last updated: 2026-02-13 03:25 UTC*
+*Last updated: 2026-02-13 15:00 UTC*

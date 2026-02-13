@@ -135,6 +135,19 @@
 | 9 | **Term premium (ACM) rises >1.0%** | H2 2026 | 60% | ⏳ NEW — Currently 0.80% |
 | 10 | **Trump-Xi summit fails to reduce tariffs** | Apr 2026 | 55% | ⏳ NEW — Catalyst for exit acceleration |
 
+### ZHAO (China Macro)
+| # | Prediction | Timeframe | Confidence | Status |
+|---|------------|-----------|------------|--------|
+| 1 | **Belgium TIC >$500B** (proxy thesis validated) | Q1 2026 | **65%** | ⏳ IMMINENT — $481B, $19B gap |
+| 2 | China official TIC <$650B | Q3 2026 | 50% | ⏳ Tracking — $682.6B |
+| 3 | Belgium YoY growth stays >25% | 2026 | **70%** | ⏳ NEW — Currently 33% |
+| 4 | Major LGFV restructuring announced | H1 2026 | 60% | ⏳ Pending |
+| 5 | Trump-Xi summit fails/no deal | Q2 2026 | 55% | ⏳ Pending |
+| 6 | **Agency MBS rotation continues ($50B+)** | 2026 | 65% | ⏳ NEW — China is #1 holder |
+| 7 | **True holdings stay stable ($1.7-2.0T adjusted)** | Through 2026 | **80%** | ⏳ NEW — Setser/CFR baseline |
+
+**Key Finding (Feb 13):** Belgium proxy thesis INSTITUTIONALLY VALIDATED by CFR, JPMorgan, Goldman, Aberdeen, and ECB. China is not dedollarizing — executing custodial arbitrage via Euroclear. True holdings ~$1.8-1.9T stable since 2015.
+
 ### MARCO (Border Cities & Migration)
 | # | Prediction | Timeframe | Confidence | Status |
 |---|------------|-----------|------------|--------|

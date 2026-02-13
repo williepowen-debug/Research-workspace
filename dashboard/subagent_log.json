@@ -1,33 +1,43 @@
 [
   {
-    "id": "agent:marco:subagent:baf3f51c",
-    "agent": "marco",
-    "task": "Daily check-in (Feb 12)",
-    "status": "completed",
-    "result": "ORANGE - DHS appropriations deadline Feb 13, enforcement policy volatility elevated",
-    "runtime_sec": 158,
-    "timestamp": "2026-02-12 13:33:00 UTC",
-    "session_key": "agent:marco:subagent:baf3f51c-a204-4c0c-b881-55c740f8cbf2"
-  },
-  {
-    "id": "agent:carl:subagent:86af9b62",
-    "agent": "carl",
-    "task": "Daily check-in (Feb 12)",
-    "status": "completed",
-    "result": "RED - CC 12.70% (1pp from GFC), Auto 5.21% (0.06pp from max), Long-term unemployed +28% YoY",
-    "runtime_sec": 45,
-    "timestamp": "2026-02-12 13:20:00 UTC",
-    "session_key": "agent:carl:subagent:86af9b62-d7fc-40ac-8299-a7c0063bb81b"
-  },
-  {
-    "id": "agent:labor:subagent:d4a33e1b",
+    "id": "agent:labor:subagent:eacefd53",
     "agent": "labor",
-    "task": "Daily check-in (Feb 12)",
+    "task": "Daily check-in (Feb 9)",
     "status": "completed",
-    "result": "RED CRITICAL - Heineken 6K cuts, Claims 231K watch, Google 'severance' at ATH",
-    "runtime_sec": 47,
-    "timestamp": "2026-02-12 13:20:00 UTC",
-    "session_key": "agent:labor:subagent:d4a33e1b-8505-48bd-8bd3-1a76237730ab"
+    "result": "RED CRITICAL - Pre-NFP holding, all leading indicators RED, expecting sub-50K",
+    "runtime_sec": 137,
+    "timestamp": "2026-02-09 13:02:00 UTC",
+    "session_key": "agent:labor:subagent:eacefd53-3c33-45b5-97c2-3c1ec0615879"
+  },
+  {
+    "id": "agent:carl:subagent:e967408a",
+    "agent": "carl",
+    "task": "Daily check-in (Feb 9)",
+    "status": "completed",
+    "result": "ELEVATED - Auto DQ 6.65% (35bps from threshold), NY Fed Q4 tomorrow",
+    "runtime_sec": 74,
+    "timestamp": "2026-02-09 13:16:00 UTC",
+    "session_key": "agent:carl:subagent:e967408a-a8cc-44a2-94b9-00c856df8eb9"
+  },
+  {
+    "id": "agent:marco:subagent:ffb7a410",
+    "agent": "marco",
+    "task": "Daily check-in (Feb 9)",
+    "status": "completed",
+    "result": "ORANGE - Mexico remittances Nov -9% MoM, watching Japan spillover on USD/MXN",
+    "runtime_sec": 104,
+    "timestamp": "2026-02-09 13:32:00 UTC",
+    "session_key": "agent:marco:subagent:ffb7a410-bbd8-4832-9bb8-fd238ce09b60"
+  },
+  {
+    "id": "agent:sam:subagent:b6dab8cb",
+    "agent": "sam",
+    "task": "Daily check-in (Feb 9)",
+    "status": "completed",
+    "result": "RED - Takaichi landslide, yen strengthened to 156.25, Feb 19 auction critical",
+    "runtime_sec": 163,
+    "timestamp": "2026-02-09 13:47:00 UTC",
+    "session_key": "agent:sam:subagent:b6dab8cb-9e9d-4541-9398-5b3868bc2f68"
   },
   {
     "id": "agent:labor:subagent:b0a6391c",
@@ -70,43 +80,33 @@
     "session_key": "agent:reginald:subagent:5ecb30f6-df38-4c41-8cdd-3930688998a2"
   },
   {
-    "id": "agent:sam:subagent:b6dab8cb",
-    "agent": "sam",
-    "task": "Daily check-in (Feb 9)",
-    "status": "completed",
-    "result": "RED - Takaichi landslide, yen strengthened to 156.25, Feb 19 auction critical",
-    "runtime_sec": 163,
-    "timestamp": "2026-02-09 13:47:00 UTC",
-    "session_key": "agent:sam:subagent:b6dab8cb-9e9d-4541-9398-5b3868bc2f68"
-  },
-  {
-    "id": "agent:labor:subagent:eacefd53",
-    "agent": "labor",
-    "task": "Daily check-in (Feb 9)",
-    "status": "completed",
-    "result": "RED CRITICAL - Pre-NFP holding, all leading indicators RED, expecting sub-50K",
-    "runtime_sec": 137,
-    "timestamp": "2026-02-09 13:02:00 UTC",
-    "session_key": "agent:labor:subagent:eacefd53-3c33-45b5-97c2-3c1ec0615879"
-  },
-  {
-    "id": "agent:carl:subagent:e967408a",
+    "id": "agent:carl:subagent:86af9b62",
     "agent": "carl",
-    "task": "Daily check-in (Feb 9)",
+    "task": "Daily check-in (Feb 12)",
     "status": "completed",
-    "result": "ELEVATED - Auto DQ 6.65% (35bps from threshold), NY Fed Q4 tomorrow",
-    "runtime_sec": 74,
-    "timestamp": "2026-02-09 13:16:00 UTC",
-    "session_key": "agent:carl:subagent:e967408a-a8cc-44a2-94b9-00c856df8eb9"
+    "result": "RED - CC 12.70% (1pp from GFC), Auto 5.21% (0.06pp from max), Long-term unemployed +28% YoY",
+    "runtime_sec": 45,
+    "timestamp": "2026-02-12 13:20:00 UTC",
+    "session_key": "agent:carl:subagent:86af9b62-d7fc-40ac-8299-a7c0063bb81b"
   },
   {
-    "id": "agent:marco:subagent:ffb7a410",
-    "agent": "marco",
-    "task": "Daily check-in (Feb 9)",
+    "id": "agent:labor:subagent:d4a33e1b",
+    "agent": "labor",
+    "task": "Daily check-in (Feb 12)",
     "status": "completed",
-    "result": "ORANGE - Mexico remittances Nov -9% MoM, watching Japan spillover on USD/MXN",
-    "runtime_sec": 104,
-    "timestamp": "2026-02-09 13:32:00 UTC",
-    "session_key": "agent:marco:subagent:ffb7a410-bbd8-4832-9bb8-fd238ce09b60"
+    "result": "RED CRITICAL - Heineken 6K cuts, Claims 231K watch, Google 'severance' at ATH",
+    "runtime_sec": 47,
+    "timestamp": "2026-02-12 13:20:00 UTC",
+    "session_key": "agent:labor:subagent:d4a33e1b-8505-48bd-8bd3-1a76237730ab"
+  },
+  {
+    "id": "agent:marco:subagent:baf3f51c",
+    "agent": "marco",
+    "task": "Daily check-in (Feb 12)",
+    "status": "completed",
+    "result": "ORANGE - DHS appropriations deadline Feb 13, enforcement policy volatility elevated",
+    "runtime_sec": 158,
+    "timestamp": "2026-02-12 13:33:00 UTC",
+    "session_key": "agent:marco:subagent:baf3f51c-a204-4c0c-b881-55c740f8cbf2"
   }
 ]

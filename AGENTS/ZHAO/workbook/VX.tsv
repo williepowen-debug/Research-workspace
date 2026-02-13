@@ -1,7 +1,10 @@
 Vector_ID	Name	Category	Current_Value	Yellow	Orange	Red	Status	Confidence	Last_Updated	Source	Notes
-VX-ZHAO-1.01	Belgium TIC Holdings	CAPITAL_FLOWS	481	450	480	500	ORANGE	HIGH	2026-02-12	TIC Data	China proxy via Euroclear custody
-VX-ZHAO-1.02	China Official UST	CAPITAL_FLOWS	770	750	700	650	GREEN	HIGH	2026-02-12	TIC Data	Declining from $1.1T (2021)
+VX-ZHAO-1.01	Belgium TIC Holdings	CAPITAL_FLOWS	481	450	480	500	ORANGE	HIGH	2026-02-13	TIC Data	China proxy via Euroclear custody - ATH Nov 2025
+VX-ZHAO-1.02	China Official UST	CAPITAL_FLOWS	682.6	750	700	650	ORANGE	HIGH	2026-02-13	TIC Data	Nov 2025 reading - declining from $1.1T (2021)
 VX-ZHAO-1.03	Combined Annual Outflow	CAPITAL_FLOWS	100	75	150	250	YELLOW	MEDIUM	2026-02-12	Calculated	Japan + China combined UST exit rate (B$/yr)
+VX-ZHAO-1.04	Belgium YoY Growth	CAPITAL_FLOWS	33	15	25	35	ORANGE	HIGH	2026-02-13	TIC Data	Outpacing Japan (11%) and UK (16%)
+VX-ZHAO-1.05	True China Holdings (Adj)	CAPITAL_FLOWS	1850	1700	1600	1500	GREEN	HIGH	2026-02-13	Setser/CFR	Stable since 2015 when adjusted for Belgium
+VX-ZHAO-1.06	Agency MBS Rotation	CAPITAL_FLOWS	100	50	75	100	GREEN	MEDIUM	2026-02-13	Ginnie Mae	18-month Agency accumulation to late 2023
 VX-ZHAO-2.01	USD/CNY	CURRENCY	7.25	7.30	7.40	7.50	GREEN	HIGH	2026-02-13	Bloomberg	PBOC intervention threshold ~7.35
 VX-ZHAO-2.02	CNH-CNY Spread	CURRENCY	0.02	0.03	0.05	0.08	GREEN	MEDIUM	2026-02-13	Bloomberg	Offshore premium = capital flight pressure
 VX-ZHAO-2.03	HK Aggregate Balance	CURRENCY	45	40	30	20	GREEN	HIGH	2026-02-13	HKMA	HK dollar peg buffer (B HKD)
@@ -9,3 +12,5 @@ VX-ZHAO-3.01	Evergrande Bond Price	PROPERTY	0.08	0.15	0.10	0.05	RED	HIGH	2026-02
 VX-ZHAO-3.02	Country Garden Bond	PROPERTY	0.12	0.20	0.15	0.10	ORANGE	HIGH	2026-02-13	Bloomberg	Defaulted Sep 2023, restructuring
 VX-ZHAO-3.03	Land Sale Revenue YoY	PROPERTY	-40	-20	-35	-50	ORANGE	MEDIUM	2026-01-15	NBS	Local government fiscal stress
 VX-ZHAO-4.01	China Manufacturing PMI	ECONOMY	49.5	49	48	47	YELLOW	HIGH	2026-02-01	NBS	Contraction <50
+VX-ZHAO-5.01	Institutional Consensus	VALIDATION	5	3	4	5	GREEN	HIGH	2026-02-13	RP-ZHAO-1	5/5 institutions confirm proxy thesis (CFR/JPM/GS/Aberdeen/ECB)
+VX-ZHAO-5.02	SEC Clearing Mandate	REGULATORY	0	0	0	1	GREEN	LOW	2026-02-13	SEC.gov	Dec 2026 cash / Jun 2027 repo - Euroclear exempt

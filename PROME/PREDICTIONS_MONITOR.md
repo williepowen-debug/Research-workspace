@@ -94,9 +94,11 @@ Run this check weekly or when data releases:
 
 ### ZHAO Thresholds
 ```
-[ ] Belgium TIC: $___B (ORANGE >$480B, RED >$500B, currently $481B)
-[ ] China Official: $___B (ORANGE <$700B, currently ~$770B)
+[ ] Belgium TIC: $___B (ORANGE >$480B, RED >$500B, currently $481B) — PROXY THESIS VALIDATED
+[ ] China Official: $___B (ORANGE <$700B, RED <$650B, currently $682.6B) — Near ORANGE
+[ ] Belgium YoY Growth: ___% (ORANGE >25%, RED >35%, currently 33%)
 [ ] USD/CNY: ___ (YELLOW >7.30, ORANGE >7.40, currently 7.25)
+[ ] True Holdings (Adjusted): ~$1.85T — STABLE since 2015 (Setser/CFR)
 ```
 
 ---
