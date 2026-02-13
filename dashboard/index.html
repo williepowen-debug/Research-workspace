@@ -1054,6 +1054,7 @@
             <div class="logo">PROME <span>Dashboard</span></div>
             <nav class="tab-nav">
                 <button class="tab-btn active" data-tab="overview">Overview</button>
+                <button class="tab-btn" data-tab="predictions">Predictions</button>
                 <button class="tab-btn" data-tab="subagents">Sub-Agents</button>
                 <button class="tab-btn" data-tab="data">Data</button>
                 <button class="tab-btn" data-tab="calendar">Calendar</button>
@@ -1383,6 +1384,68 @@
                     <div class="alert-empty">No active sessions</div>
                 </div>
             </div>
+            </div>
+            
+            <!-- PREDICTIONS TAB -->
+            <div class="tab-page" id="tab-predictions" style="display: none;">
+            
+            <!-- Calibration Stats -->
+            <div class="agents-section" style="background: linear-gradient(135deg, var(--bg-secondary), var(--bg-tertiary)); border-radius: 12px; padding: 24px; margin-bottom: 24px;">
+                <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px;">
+                    <div>
+                        <div style="font-size: 13px; color: var(--text-muted); margin-bottom: 4px;">📊 PREDICTION ACCURACY</div>
+                        <div style="font-size: 32px; font-weight: 700;" id="pred-accuracy">75%</div>
+                        <div style="font-size: 12px; color: var(--text-muted);" id="pred-stats">4.5/6 resolved</div>
+                    </div>
+                    <div style="display: flex; gap: 24px;">
+                        <div style="text-align: center;">
+                            <div style="font-size: 24px; font-weight: 600; color: var(--green);" id="pred-correct">4</div>
+                            <div style="font-size: 11px; color: var(--text-muted);">Correct</div>
+                        </div>
+                        <div style="text-align: center;">
+                            <div style="font-size: 24px; font-weight: 600; color: var(--yellow);" id="pred-partial">1</div>
+                            <div style="font-size: 11px; color: var(--text-muted);">Partial</div>
+                        </div>
+                        <div style="text-align: center;">
+                            <div style="font-size: 24px; font-weight: 600; color: var(--red);" id="pred-wrong">1</div>
+                            <div style="font-size: 11px; color: var(--text-muted);">Wrong</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Imminent Predictions -->
+            <div class="agents-section" style="background: var(--red-bg); border: 1px solid var(--red); border-radius: 12px; padding: 20px; margin-bottom: 24px;">
+                <div class="section-title" style="color: var(--red); margin-bottom: 16px;">🔴 IMMINENT (Gap &lt;10%)</div>
+                <div id="pred-imminent" style="display: flex; flex-direction: column; gap: 8px;">
+                    <div class="alert-empty">Loading...</div>
+                </div>
+            </div>
+            
+            <!-- Approaching Predictions -->
+            <div class="agents-section" style="background: var(--yellow-bg); border: 1px solid var(--yellow); border-radius: 12px; padding: 20px; margin-bottom: 24px;">
+                <div class="section-title" style="color: var(--yellow); margin-bottom: 16px;">🟡 APPROACHING (1-3 months)</div>
+                <div id="pred-approaching" style="display: flex; flex-direction: column; gap: 8px;">
+                    <div class="alert-empty">Loading...</div>
+                </div>
+            </div>
+            
+            <!-- By Agent Accordion -->
+            <div class="agents-section" style="margin-bottom: 24px;">
+                <div class="section-title" style="margin-bottom: 16px;">📋 By Agent</div>
+                <div id="pred-by-agent" style="display: flex; flex-direction: column; gap: 8px;">
+                    <div class="alert-empty">Loading...</div>
+                </div>
+            </div>
+            
+            <!-- Recent Resolutions -->
+            <div class="agents-section">
+                <div class="section-title" style="margin-bottom: 16px;">✅ Recently Resolved</div>
+                <div id="pred-resolved" style="display: flex; flex-direction: column; gap: 8px;">
+                    <div class="alert-empty">Loading...</div>
+                </div>
+            </div>
+            
             </div>
             
             <!-- DATA TAB -->
@@ -2881,8 +2944,146 @@
             }
         }
         
+        // Fetch and render predictions
+        async function fetchPredictions() {
+            try {
+                const resp = await fetch('/api/predictions');
+                if (resp.ok) {
+                    const data = await resp.json();
+                    renderPredictions(data);
+                }
+            } catch (e) {
+                console.error('Predictions fetch error:', e);
+            }
+        }
+        
+        function renderPredictions(data) {
+            // Update calibration stats
+            const cal = data.calibration || {};
+            const accEl = document.getElementById('pred-accuracy');
+            const statsEl = document.getElementById('pred-stats');
+            const correctEl = document.getElementById('pred-correct');
+            const partialEl = document.getElementById('pred-partial');
+            const wrongEl = document.getElementById('pred-wrong');
+            
+            if (accEl) accEl.textContent = cal.accuracy + '%';
+            if (statsEl) statsEl.textContent = (cal.correct + cal.partial * 0.5) + '/' + cal.total + ' resolved';
+            if (correctEl) correctEl.textContent = Math.floor(cal.correct);
+            if (partialEl) partialEl.textContent = Math.floor(cal.partial);
+            if (wrongEl) wrongEl.textContent = Math.floor(cal.wrong);
+            
+            // Set accuracy color
+            if (accEl) {
+                const acc = cal.accuracy || 0;
+                accEl.style.color = acc >= 70 ? 'var(--green)' : acc >= 50 ? 'var(--yellow)' : 'var(--red)';
+            }
+            
+            // Render imminent predictions
+            const imminentEl = document.getElementById('pred-imminent');
+            if (imminentEl && data.imminent) {
+                if (data.imminent.length === 0) {
+                    imminentEl.innerHTML = '<div class="alert-empty">No imminent predictions</div>';
+                } else {
+                    imminentEl.innerHTML = data.imminent.map(p => `
+                        <div style="display: flex; justify-content: space-between; align-items: center; padding: 12px; background: var(--bg-secondary); border-radius: 8px;">
+                            <div>
+                                <div style="font-weight: 600; color: var(--text-primary);">${p.prediction}</div>
+                                <div style="font-size: 12px; color: var(--text-muted);">${p.agent} • ${p.eta}</div>
+                            </div>
+                            <div style="text-align: right;">
+                                <div style="font-size: 14px;"><span style="color: var(--text-muted);">${p.current}</span> → <span style="color: var(--red);">${p.target}</span></div>
+                                <div style="font-size: 12px; color: var(--red); font-weight: 600;">Gap: ${p.gap}</div>
+                            </div>
+                        </div>
+                    `).join('');
+                }
+            }
+            
+            // Render approaching predictions
+            const approachingEl = document.getElementById('pred-approaching');
+            if (approachingEl && data.approaching) {
+                if (data.approaching.length === 0) {
+                    approachingEl.innerHTML = '<div class="alert-empty">No approaching predictions</div>';
+                } else {
+                    approachingEl.innerHTML = data.approaching.map(p => `
+                        <div style="display: flex; justify-content: space-between; align-items: center; padding: 12px; background: var(--bg-secondary); border-radius: 8px;">
+                            <div>
+                                <div style="font-weight: 500; color: var(--text-primary);">${p.prediction}</div>
+                                <div style="font-size: 12px; color: var(--text-muted);">${p.agent} • ${p.eta}</div>
+                            </div>
+                            <div style="text-align: right;">
+                                <div style="font-size: 13px;"><span style="color: var(--text-muted);">${p.current}</span> → <span style="color: var(--yellow);">${p.target}</span></div>
+                                <div style="font-size: 11px; color: var(--yellow);">Gap: ${p.gap}</div>
+                            </div>
+                        </div>
+                    `).join('');
+                }
+            }
+            
+            // Render by agent
+            const byAgentEl = document.getElementById('pred-by-agent');
+            if (byAgentEl && data.by_agent) {
+                const agents = Object.keys(data.by_agent);
+                if (agents.length === 0) {
+                    byAgentEl.innerHTML = '<div class="alert-empty">No predictions by agent</div>';
+                } else {
+                    byAgentEl.innerHTML = agents.map(agent => {
+                        const preds = data.by_agent[agent];
+                        const confirmed = preds.filter(p => p.status === 'confirmed').length;
+                        const imminent = preds.filter(p => p.status === 'imminent').length;
+                        const tracking = preds.filter(p => p.status === 'tracking' || p.status === 'pending' || p.status === 'new').length;
+                        
+                        return `
+                            <details style="background: var(--bg-secondary); border-radius: 8px; overflow: hidden;">
+                                <summary style="padding: 12px 16px; cursor: pointer; display: flex; justify-content: space-between; align-items: center;">
+                                    <span style="font-weight: 600;">${agent}</span>
+                                    <div style="display: flex; gap: 8px; font-size: 12px;">
+                                        ${confirmed > 0 ? `<span style="color: var(--green);">✅ ${confirmed}</span>` : ''}
+                                        ${imminent > 0 ? `<span style="color: var(--red);">🔴 ${imminent}</span>` : ''}
+                                        <span style="color: var(--text-muted);">📊 ${tracking}</span>
+                                    </div>
+                                </summary>
+                                <div style="padding: 8px 16px 16px; display: flex; flex-direction: column; gap: 6px;">
+                                    ${preds.map(p => `
+                                        <div style="display: flex; justify-content: space-between; align-items: center; padding: 8px; background: var(--bg-tertiary); border-radius: 6px; font-size: 13px;">
+                                            <span>${p.prediction.substring(0, 60)}${p.prediction.length > 60 ? '...' : ''}</span>
+                                            <span style="color: var(--text-muted); font-size: 11px;">${p.timeframe} • ${p.confidence}</span>
+                                        </div>
+                                    `).join('')}
+                                </div>
+                            </details>
+                        `;
+                    }).join('');
+                }
+            }
+            
+            // Render resolved
+            const resolvedEl = document.getElementById('pred-resolved');
+            if (resolvedEl && data.resolved) {
+                if (data.resolved.length === 0) {
+                    resolvedEl.innerHTML = '<div class="alert-empty">No resolved predictions</div>';
+                } else {
+                    resolvedEl.innerHTML = data.resolved.map(p => {
+                        const isCorrect = p.result.includes('✅');
+                        const isWrong = p.result.includes('❌');
+                        const color = isCorrect ? 'var(--green)' : isWrong ? 'var(--red)' : 'var(--yellow)';
+                        return `
+                            <div style="display: flex; justify-content: space-between; align-items: center; padding: 12px; background: var(--bg-secondary); border-radius: 8px; border-left: 3px solid ${color};">
+                                <div>
+                                    <div style="font-weight: 500; color: var(--text-primary);">${p.prediction}</div>
+                                    <div style="font-size: 12px; color: var(--text-muted);">${p.notes}</div>
+                                </div>
+                                <div style="font-size: 18px;">${isCorrect ? '✅' : isWrong ? '❌' : '⚠️'}</div>
+                            </div>
+                        `;
+                    }).join('');
+                }
+            }
+        }
+        
         // Init
         fetchAgentStatuses();  // Fetch dynamic status first
+        fetchPredictions();    // Fetch predictions
         fetchPrices();
         fetchAlerts();
         fetchFred();
@@ -2894,6 +3095,7 @@
         renderCalendar();   // Render calendar view
         updateExpiryDays(); // Calculate days to expiry
         setInterval(fetchAgentStatuses, 300000);  // Agent status every 5 min
+        setInterval(fetchPredictions, 300000);  // Predictions every 5 min
         setInterval(fetchPrices, 60000);
         setInterval(fetchAlerts, 60000);
         setInterval(fetchFred, 300000);  // FRED data every 5 min (doesn't change often)
