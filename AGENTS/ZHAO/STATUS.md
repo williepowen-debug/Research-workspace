@@ -5,16 +5,16 @@
 
 ## Current Status: 🔴 CRITICAL
 
-**RESEARCH BATCH COMPLETE (8/9):**
+**RESEARCH BATCH COMPLETE (9/9):** ✅
 - ✅ RP-ZHAO-1: Belgium Proxy Thesis
 - ✅ RP-ZHAO-2: LGFV/Banking Transmission
 - ✅ RP-ZHAO-3: PBOC Policy Playbook
 - ✅ RP-ZHAO-4: HK Peg / LERS Analysis
 - ✅ RP-ZHAO-5: Developer Bonds / Property Crisis
-- ✅ RP-ZHAO-6: Data Sources & Monitoring Guide ← NEW
+- ✅ RP-ZHAO-6: Data Sources & Monitoring Guide
 - ✅ RP-ZHAO-7: Taiwan Escalation Analysis
+- ✅ RP-ZHAO-8: Counter-Thesis (Soft Landing)
 - ✅ RP-ZHAO-9: Chinese Insurers UST Holdings
-- ⏳ RP-ZHAO-8: Counter-thesis (optional)
 
 **Key validated theses:**
 1. **Belgium proxy = custodial arbitrage**, not dedollarization (true holdings ~$1.8-1.9T stable)
