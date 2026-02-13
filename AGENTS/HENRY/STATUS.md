@@ -75,6 +75,23 @@ The equity market is **derivatives-driven** where dealer hedging dominates short
 
 ---
 
+## 0DTE FEEDBACK LOOP
+
+**0DTE at 65% of SPX volume creates latent fragility:**
+
+1. **Normal mode:** Dealers sell gamma → hedge flow dampens moves → VIX stays low
+2. **Stress mode:** Realized vol spikes OR liquidity withdraws → dealers flip to buying gamma → accelerates moves
+3. **Feedback:** 0DTE volume collapses when vol rises (Aug 2024: -26%) → removes stabilizing bid → vol rises further
+
+**No historical precedent** for testing 65% 0DTE dominance in true stress. Current positioning EXCEEDS Aug 2024:
+- 0DTE: **65%** vs 57%
+- Margin debt: **$1.23T** ATH vs $1.15T
+- Credit: Treasury tail + CRE stress vs clean backdrop
+
+**The machine is wound tighter.**
+
+---
+
 ## CASCADE ORDER
 
 | Order | Strategy | AUM | Trigger | Speed |
@@ -136,6 +153,14 @@ Risk parity deleverages   → T+5 to T+30 (largest, last)
 | +50-100 bps | 0-1 session | -5% to -10% |
 | +100+ bps | Same day | -10%+ |
 
+### Alert Thresholds (5-Day HY OAS Change)
+| Level | Change | Implication |
+|-------|--------|-------------|
+| 🟢 GREEN | <+25 bps | Normal |
+| 🟡 YELLOW | +25 bps | Mild stress → hedge window 2-3 sessions |
+| 🟠 ORANGE | +50 bps | Severe → equity reaction 0-1 sessions |
+| 🔴 RED | +75+ bps | Crisis → no lead time |
+
 **Key Rule:** Equity CANNOT bottom until HY OAS peaks.
 
 ---
@@ -144,10 +169,11 @@ Risk parity deleverages   → T+5 to T+30 (largest, last)
 
 **LABOR → HENRY:** Claims >300K or U-3 >5% = fundamental trigger → gamma test of Put Wall
 
-**HENRY → CARL (Reverse Wealth Effect):**
+**HENRY → CARL (Reverse Wealth Effect + SBC Amplification):**
 - If SPX drops 10%+, top 60% pulls back spending
-- SBC repricing amplifies 2-3x: $19T wealth destruction vs $8T baseline
-- **Faster transmission than LABOR → CARL → REGINALD**
+- **SBC repricing math:** If tech earnings overstated 30-50%, true decline = 25-35%
+- $75T household equity × 25-35% = **$19-26T** wealth destruction (vs $8T in 10% nominal)
+- **Faster transmission than LABOR → CARL → REGINALD** (wealth shock → immediate spending)
 
 **SAM → HENRY:** Japan overnight leads US. Yen appreciation = carry unwind = Aug 2024 playbook.
 
