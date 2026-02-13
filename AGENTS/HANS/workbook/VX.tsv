@@ -1,0 +1,13 @@
+Vector_ID	Name	Category	Current_Value	Yellow	Orange	Red	Status	Confidence	Last_Updated	Source	Notes
+VX-HANS-1.01	UK UST Holdings	UST_DEMAND	750	700	650	600	GREEN	LOW	2026-02-13	TIC Data	Estimate - verify with TIC
+VX-HANS-1.02	Ireland UST Holdings	UST_DEMAND	350	300	275	250	GREEN	LOW	2026-02-13	TIC Data	Fund domicile - custody bias
+VX-HANS-1.03	Luxembourg UST Holdings	UST_DEMAND	400	350	300	250	GREEN	LOW	2026-02-13	TIC Data	Fund domicile - custody bias
+VX-HANS-1.04	Belgium UST Holdings	UST_DEMAND	481	450	480	500	ORANGE	HIGH	2026-02-13	TIC Data	ZHAO overlap - Euroclear/China
+VX-HANS-2.01	EUR/USD	CURRENCY	1.08	1.05	1.00	0.95	GREEN	HIGH	2026-02-13	Bloomberg	Parity = significant threshold
+VX-HANS-2.02	GBP/USD	CURRENCY	1.26	1.20	1.15	1.10	GREEN	HIGH	2026-02-13	Bloomberg	Cable
+VX-HANS-2.03	DXY	CURRENCY	104	108	110	115	GREEN	HIGH	2026-02-13	Bloomberg	Dollar strength index
+VX-HANS-3.01	Italy-Germany 10Y Spread	SOVEREIGN	120	150	200	250	GREEN	MEDIUM	2026-02-13	Bloomberg	Eurozone stress barometer
+VX-HANS-3.02	France-Germany 10Y Spread	SOVEREIGN	70	80	100	120	YELLOW	MEDIUM	2026-02-13	Bloomberg	Political risk proxy
+VX-HANS-4.01	ECB Deposit Rate	POLICY	2.75	2.50	2.25	2.00	GREEN	HIGH	2026-02-13	ECB	Cutting cycle
+VX-HANS-4.02	BoE Bank Rate	POLICY	4.50	4.25	4.00	3.75	GREEN	HIGH	2026-02-13	BoE	Still elevated
+VX-HANS-5.01	Euro Stoxx Banks Index	BANKING	TBD	TBD	TBD	TBD	PENDING	LOW	2026-02-13	Bloomberg	Need baseline

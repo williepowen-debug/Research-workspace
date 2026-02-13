@@ -1,0 +1,8 @@
+Flow_ID	Name	Category	Trigger	Stage_1	Stage_2	Stage_3	Stage_4	Terminal_Risk	Status	Confidence	Source	Notes
+FLOW-HANS-1	European_UST_Selling	UST_DEMAND	European fiscal/pension stress	UK/Ireland/Lux reduce holdings	TIC data shows outflows	UST yield pressure	Fed response required	Higher US rates / funding stress	MONITORING	MEDIUM	Initial	UK gilt crisis 2022 = model
+FLOW-HANS-2	EUR_Parity_Break	CURRENCY	ECB aggressive cuts / Fed holds	EUR/USD approaches parity	Capital flight to USD	US earnings headwind	Risk-off sentiment	USD funding stress / EM pressure	DORMANT	MEDIUM	Initial	Last parity: Sep 2022
+FLOW-HANS-3	ECB_Fed_Divergence	POLICY	ECB cuts faster than Fed	Rate differential widens	EUR carry trade builds	USD funding demand rises	European bank USD stress	Repo/swap line activation	MONITORING	MEDIUM	Initial	2023 model
+FLOW-HANS-4	Sovereign_Spread_Blowout	SOVEREIGN	Italy political crisis / France downgrade	BTP-Bund >200bps	Contagion to periphery	ECB TPI activation	Risk-off globally	Flight to UST (supportive)	DORMANT	MEDIUM	Initial	2011/2012 model
+FLOW-HANS-5	UK_Pension_Stress	PENSIONS	Gilt yield spike / LDI stress	Forced gilt selling	BoE intervention	Spillover to UST curve	Global duration repricing	Higher long-end yields	DORMANT	MEDIUM	Initial	Sep 2022 model
+FLOW-HANS-6	European_Bank_Contagion	BANKING	Major bank stress (DB, UBS integration)	CDS widen across sector	US bank CDS sympathy	Counterparty concern	Credit tightening	Risk-off / flight to quality	DORMANT	MEDIUM	Initial	Credit Suisse 2023 model
+FLOW-HANS-7	Energy_Shock_Transmission	ENERGY	Russia gas cutoff / LNG shortage	European industry curtailment	Global commodity repricing	US inflation pressure	Fed response constrained	Stagflation risk	DORMANT	LOW	Initial	2022 model
