@@ -76,21 +76,128 @@
 
 ---
 
-## MONITORING DASHBOARDS
+## FHLB ADVANCE MONITORING
 
-### FHLB Advances
-| Metric | Current | Status |
-|--------|---------|--------|
-| System Advances | ~$480B | 🟢 GREEN |
-| vs 2023 Peak | -29% | Normalized |
+**🟢 Status: GREEN** — System advances well below stress thresholds
 
-**Thresholds:** 🟡 $700B | 🟠 $750B | 🔴 $800B
+| Metric | Current | Threshold | Status |
+|--------|---------|-----------|--------|
+| **FHLB System Advances** | **~$480B** | 🟡 $700B / 🟠 $750B / 🔴 $800B | 🟢 GREEN |
+| vs 2023 Crisis Peak | -29% | Peak was $675B (March 2023) | Normalized |
 
-### SLOOS Credit (Jan 2026)
-- **C&I (All Sizes):** TIGHTENED ⚠️
-- **C&I (Small Firms):** DETERIORATING outlook 🔴
+**Data Source:** Federal Reserve H.8 "Assets and Liabilities of Commercial Banks"
+**Update:** Weekly (Friday ~4:15pm ET)
 
-**REGINALD → LABOR feedback loop is ACTIVE.** Credit tightening accelerates employment stress.
+**What This Measures:**
+- FHLB advances = regional bank emergency liquidity usage
+- Spike in advances = banks can't fund themselves in private markets
+- 2023 SVB crisis: Advances spiked from ~$450B to **$675B peak**
+
+**Why FHLB is the convergence point:**
+1. CRE losses → need liquidity → FHLB
+2. Deposit flight → replace deposits → FHLB
+3. Consumer defaults → capital depletion → FHLB
+
+**If advances cross $700B = early stages of regional banking crisis.**
+
+---
+
+## SLOOS CREDIT CRUNCH (Jan 2026)
+
+**🟠 Status: TIGHTENING** — REGINALD → LABOR feedback loop ACTIVE
+
+| Loan Type | Standards | 2026 Quality Outlook |
+|-----------|-----------|----------------------|
+| **C&I (All Sizes)** | **TIGHTENED** ⚠️ | — |
+| **C&I (Small Firms)** | **TIGHTENED** ⚠️ | **DETERIORATING** 🔴 |
+| CRE | Unchanged | Improving |
+| Consumer | Unchanged/Eased | Deteriorating |
+
+**Fed quote:**
+> "Banks reported expecting loan quality to **deteriorate for C&I loans to small firms.**"
+
+### REGINALD → LABOR Feedback Loop
+
+```
+Regional banks tighten C&I lending
+    ↓
+Small businesses can't access credit
+    ↓
+Payroll stress → Layoffs
+    ↓
+LABOR unemployment rises
+    ↓
+Consumer stress (CARL)
+    ↓
+Bank credit losses (REGINALD)
+```
+
+**This is an AMPLIFIER, not a trigger.** Once employment stress begins, credit tightening accelerates it.
+
+**Next Release:** ~Late April 2026 (Q1 data)
+
+---
+
+## BDC CASH FLOW DIVERGENCE
+
+**🟠 Status: ORANGE** — >50% of BDCs burning cash, PSEC/FSK at high risk
+
+**Key insight:** BDCs report "earnings" that include PIK (non-cash income). This inflates NII but doesn't generate cash for dividends.
+
+**Cash Coverage = Cash NII / Dividend**
+- <1.00x = burning cash reserves
+- <0.90x = dividend cut imminent
+
+### Canary BDCs (High PIK = High Risk)
+
+| BDC | Ticker | PIK % | Status | Next Report |
+|-----|--------|-------|--------|-------------|
+| **Prospect Capital** | **PSEC** | **35%** | 🔴 CRITICAL | ~Feb 20 |
+| **FS KKR Capital** | **FSK** | **27%** | 🟠 HIGH | ~Feb 15 |
+| TCP Capital | TCPC | — | 🟡 | Mid-Feb |
+| MidCap Financial | MFIC | — | 🟡 | ~Feb 20 |
+| Blackstone Secured | BXSL | — | 🟢 | ~Feb 15 |
+| Ares Capital | ARCC | — | 🟢 | Quarterly |
+| Goldman Sachs BDC | GSBD | — | 🟢 | Quarterly |
+
+**If PSEC cuts dividend → validates middle market stress is real → banks next**
+
+### Canary Signal Hierarchy
+1. BDC PIK spikes ✅ (PSEC 35%, FSK 27%)
+2. **BDC cash coverage <1.00x** ← WE ARE HERE
+3. BDC dividend cuts (watch PSEC/FSK)
+4. Bank C&I delinquencies rise (lags 2-3 quarters)
+5. Bank fund finance losses (CFG, WAL exposure)
+
+### Transmission to Banks
+- Banks provide **$1.2T in loans to NDFIs** (VX-REG-6.05)
+- BDC dividend cuts → NAV crashes → loan covenant violations → bank losses
+
+---
+
+## THE MATRIX: Convergence Scores
+
+### Multi-Channel Exposure Rankings
+
+| Rank | Bank | Score | Primary Vulnerabilities |
+|------|------|-------|------------------------|
+| 1 | **EGBN** | 12 | Pure DC (100%), already in crisis, CRE 547% |
+| 2 | **WAL** | 10 | NDFI + Fraud + Fund Finance + FHLB + **$1.36B unrated muni shadow book** |
+| 3 | **VLY** | 9 | NYC/NJ MF primary + BDC + Consumer — FL is 27% but diversified |
+| 4 | **CFG** | 9 | Fund finance ($10-11B) + Consumer 18.7% + FHLB 5.1% |
+| 5 | **ZION** | 9 | **$5.78B total muni exposure** (hidden) + NDFI + $524M unfunded |
+
+### Key Pattern: Multi-Channel > Single-Channel
+
+Pure plays (EGBN, SBCF, IBOC) are binary bets. Multi-channel names (WAL, VLY, CFG, ZION) have multiple paths to stress — don't need ALL to break, just 2-3 to correlate.
+
+### Hidden Exposures Discovered
+
+| Bank | What Market Sees | What We Found |
+|------|------------------|---------------|
+| **ZION** | $1.4B muni securities | **$5.78B total** (+ $4.36B loans + $524M unfunded) |
+| **WAL** | $2.28B muni securities | $1.36B is **UNRATED** = private placements, shadow book |
+| **CFG** | Big muni investor? | **$1M** — they're not in munis at all |
 
 ---
 
