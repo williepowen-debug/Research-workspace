@@ -1,0 +1,4 @@
+Entry_ID	Date	Category	Title	Summary	Source	Diagnostic_Value	Vector_Link	Tags
+ML-ZHAO-001	2026-02-13	SETUP	Agent initialized	ZHAO agent created to track China macro, capital flows, UST holdings, property crisis	PROME	HIGH	—	setup,initialization
+ML-ZHAO-002	2026-02-09	CAPITAL_FLOWS	Chinese banks told to reduce USD	Feb 9 guidance: Chinese banks instructed to reduce USD asset exposure. Confirms stealth exit thesis.	FT/Reuters	HIGH	VX-ZHAO-2.01	ust,capital_flows,policy
+ML-ZHAO-003	2026-02-12	CAPITAL_FLOWS	Belgium TIC at $481B	Belgium holdings (China proxy via Euroclear) at $481B. Near $500B threshold.	TIC Data	HIGH	VX-ZHAO-1.01	belgium,ust,proxy
