@@ -140,13 +140,26 @@
 |---|------------|-----------|------------|--------|
 | 1 | **Belgium TIC >$500B** (proxy thesis validated) | Q1 2026 | **65%** | ⏳ IMMINENT — $481B, $19B gap |
 | 2 | China official TIC <$650B | Q3 2026 | 50% | ⏳ Tracking — $682.6B |
-| 3 | Belgium YoY growth stays >25% | 2026 | **70%** | ⏳ NEW — Currently 33% |
+| 3 | Belgium YoY growth stays >25% | 2026 | **70%** | ⏳ Tracking — Currently 33% |
 | 4 | Major LGFV restructuring announced | H1 2026 | 60% | ⏳ Pending |
 | 5 | Trump-Xi summit fails/no deal | Q2 2026 | 55% | ⏳ Pending |
-| 6 | **Agency MBS rotation continues ($50B+)** | 2026 | 65% | ⏳ NEW — China is #1 holder |
-| 7 | **True holdings stay stable ($1.7-2.0T adjusted)** | Through 2026 | **80%** | ⏳ NEW — Setser/CFR baseline |
+| 6 | **Agency MBS rotation continues ($50B+)** | 2026 | 65% | ⏳ Tracking — China is #1 holder |
+| 7 | **True holdings stay stable ($1.7-2.0T adjusted)** | Through 2026 | **80%** | ⏳ Tracking — Setser/CFR baseline |
+| 8 | **Regional bank NPL >12% (any province)** | H1 2026 | 55% | ⏳ NEW (RP-ZHAO-2) — Guizhou 11.6% |
+| 9 | **>250 small banks consolidated in 2026** | 2026 | 60% | ⏳ NEW (RP-ZHAO-2) — 199 in 2024 |
+| 10 | **Another liquidity crunch forcing UST sales** | 2026 | **70%** | ⏳ NEW (RP-ZHAO-2) — Feb 2026 proved pattern |
+| 11 | **Gold accumulation streak continues (18+ months)** | Q2 2026 | 75% | ⏳ NEW (RP-ZHAO-3) — 15 consecutive months |
+| 12 | **HK Aggregate Balance stays >$40B** (no peg stress) | Through 2026 | 75% | ⏳ NEW (RP-ZHAO-4) — Currently $53.9B |
+| 13 | **Property stabilization not until H2 2027** (MS/GS consensus) | H2 2027 | 70% | ⏳ NEW (RP-ZHAO-5) — 766M sqm overhang |
+| 14 | **Vanke avoids full default (state backstop holds)** | 2026 | 80% | ⏳ NEW (RP-ZHAO-5) — Shenzhen Metro lifelines |
+| 15 | **Developer recovery rates stay <5% (offshore bonds)** | 2026-27 | 85% | ⏳ NEW (RP-ZHAO-5) — Evergrande <0.6% |
 
-**Key Finding (Feb 13):** Belgium proxy thesis INSTITUTIONALLY VALIDATED by CFR, JPMorgan, Goldman, Aberdeen, and ECB. China is not dedollarizing — executing custodial arbitrage via Euroclear. True holdings ~$1.8-1.9T stable since 2015.
+**Key Findings (Feb 13 — Research Batch Complete):**
+1. **Dedollarization is WRONG** — Belgium proxy thesis VALIDATED by CFR, JPMorgan, Goldman, Aberdeen, ECB. True holdings ~$1.8-1.9T stable since 2015.
+2. **LGFV/Banking transmission CONFIRMED** — Feb 2026 $456B crunch proved the pattern: domestic stress → forced UST sales.
+3. **PBOC building "defensive wall"** — Backdoor intervention, gold accumulation, crypto ban, gated exits.
+4. **HK peg = UST liquidation channel** — HKMA holds ~$410B in USD assets. Crisis = hundreds of billions in forced sales.
+5. **Property zombification** — Decade of deleveraging, not Lehman. Full par recovery is OVER.
 
 ### MARCO (Border Cities & Migration)
 | # | Prediction | Timeframe | Confidence | Status |

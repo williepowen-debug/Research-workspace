@@ -113,8 +113,10 @@
 | Date | Time | Event | Agent | Priority | Notes |
 |------|------|-------|-------|----------|-------|
 | Feb 16 | — | Presidents' Day (Market Closed) | — | ⚪ | — |
+| **Feb 18** | 4:00 PM | **Dec TIC Data Release** | ZHAO/LIQUID | 🔴 CRITICAL | Belgium >$500B? China <$680B? |
 | **Feb 19** | 8:30 AM | **Initial Claims** | LABOR | 🟠 HIGH | Sustained >230K = concern |
 | **Feb 19** | — | **20Y JGB Auction** | SAM | 🔴 CRITICAL | BTC <2.3x = crisis trigger |
+| **Feb 19** | — | **Shunto Electronics Deadline** | SAM | 🔴 CRITICAL | First union wage demands |
 | ~Feb 20 | — | Robert Half (RHI) Earnings | LABOR | 🟠 HIGH | Second temp staffing read |
 | ~Feb 20 | — | Statistics Canada (Jan) | MARCO | 🟠 HIGH | Canadian tourism continuation |
 
