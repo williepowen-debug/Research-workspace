@@ -156,6 +156,8 @@
 | 16 | **China UST reduction pace stays >$60B/year** | 2026 | 75% | ⏳ NEW (RP-ZHAO-7) — Currently $72B/year |
 | 17 | **No Taiwan kinetic escalation (Level 3+)** | 2026 | 85% | ⏳ NEW (RP-ZHAO-7) — Baseline expectation |
 | 18 | **PBOC gold purchases >100 tons in any quarter** | 2026 | 50% | ⏳ NEW (RP-ZHAO-7) — Sanctions prep indicator |
+| 19 | **Chinese insurers overseas FI stays <$25B** | End 2026 | **85%** | ⏳ NEW (RP-ZHAO-9) — Currently $17.5B |
+| 20 | **No insurer-driven UST liquidation event** | 2026 | **90%** | ⏳ NEW (RP-ZHAO-9) — Holdings ~$6B vs $900B daily vol |
 
 **Key Findings (Feb 13 — Research Batch Complete):**
 1. **Dedollarization is WRONG** — Belgium proxy thesis VALIDATED by CFR, JPMorgan, Goldman, Aberdeen, ECB. True holdings ~$1.8-1.9T stable since 2015.
@@ -163,6 +165,8 @@
 3. **PBOC building "defensive wall"** — Backdoor intervention, gold accumulation, crypto ban, gated exits.
 4. **HK peg = UST liquidation channel** — HKMA holds ~$410B in USD assets. Crisis = hundreds of billions in forced sales.
 5. **Property zombification** — Decade of deleveraging, not Lehman. Full par recovery is OVER.
+6. **Taiwan = ALL channels** — Escalation activates every transmission simultaneously. Existing positions ARE Taiwan hedges.
+7. **Insurers NOT material** — ~$6B UST holdings (vs Japan ~$500B). Lagging confirmation signal, not leading indicator.
 
 ### MARCO (Border Cities & Migration)
 | # | Prediction | Timeframe | Confidence | Status |
