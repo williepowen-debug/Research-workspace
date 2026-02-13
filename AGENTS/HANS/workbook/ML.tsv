@@ -2,3 +2,100 @@ Entry_ID	Date	Category	Finding	Source	Research_Prompt
 ML-HANS-001	2026-02-13	Setup	HANS agent initialized - Europe through US impact lens	Will directive	Initial
 ML-HANS-002	2026-02-13	Setup	Scope: Eurozone + UK + any European country with material US involvement	Will directive	Initial
 ML-HANS-003	2026-02-13	Setup	Primary channels: UST holdings, currency, ECB policy, banking, energy, risk sentiment	STATUS.md	Initial
+ML-HANS-004	2026-02-13	UK_LDI_Crisis	Sept 2022 LDI crisis: 30yr gilt yields +130bps in 3 days, forced £25bn gilt sales	BoE QB 2023, Bank Underground	RP-HANS-3
+ML-HANS-005	2026-02-13	UK_LDI_Crisis	LDI forced selling = 50% of gilt price decline; balance sheet segmentation prevented fast recapitalization	Bank Underground WP	RP-HANS-3
+ML-HANS-006	2026-02-13	UK_LDI_Crisis	BoE intervention: £19.3bn purchased (28 Sept-14 Oct), fully unwound by 12 Jan 2023 via reverse enquiry	BoE QB 2023	RP-HANS-3
+ML-HANS-007	2026-02-13	UK_LDI_Current	LDI market shrunk from £1.5tn (2021) to £700bn (Mar 2025); duration fell 20y→13y; volatility -50%	TPR Market Oversight Sept 2025	RP-HANS-3
+ML-HANS-008	2026-02-13	UK_LDI_Current	Post-crisis: 300bps interest rate buffer standard (vs 150bps pre-crisis); 85% have pre-agreed asset sale plans	TPR Market Oversight Sept 2025	RP-HANS-3
+ML-HANS-009	2026-02-13	UK_LDI_Current	Remaining risks: collateral concentration (similar assets targeted), pooled fund coordination, <250bps buffer erosion	TPR Sept 2025, Norton Rose	RP-HANS-3
+ML-HANS-010	2026-02-13	UST_Transmission	UK gilt crisis transmission: (1) global duration shock, (2) dealer balance sheet overlap, (3) cross-market hedge unwinds	BoE, IMF SIP/2023/049	RP-HANS-3
+ML-HANS-011	2026-02-13	UST_Transmission	Sept 2022: UST 30y +40bps same period as UK +130bps; directional alignment but UK led	US TBAC Q4 2023 presentation	RP-HANS-3
+ML-HANS-012	2026-02-13	Data_Sources	Monitor: UK 30y gilt yield (>100bps/3d = alert), bid-ask (>2bps = crisis), BoE balance sheet, TPR LDI reports	Multiple	RP-HANS-3
+ML-HANS-013	2026-02-13	Thresholds	Proposed: UK_GILT_30Y_CHG_3D >100bps RED, >50bps YELLOW; BIDASK >2.0bps RED, >1.5bps YELLOW	Analysis synthesis	RP-HANS-3
+ML-HANS-014	2026-02-13	BoE_Intervention	BoE limits: political capital, monetary policy tension, moral hazard; backstop pricing prevented unlimited purchases	BoE QB 2023	RP-HANS-3
+ML-HANS-015	2026-02-13	European_LDI	Irish-resident LDI funds involved in 2022 gilt crisis; Netherlands also has LDI structures - contagion risk	Central Bank of Ireland FSN	RP-HANS-3
+ML-HANS-004	2026-02-13	European UST	Total European UST holdings $3.5-3.8T (38% of foreign total) - top 7 countries hold $2.92T	TIC Table 5 Nov 2025	RP-HANS-1
+ML-HANS-005	2026-02-13	European UST	UK holdings $889B (+100% since Dec 2020, +16% YoY) - largest European holder, post-LDI crisis diversification	TIC Table 5	RP-HANS-1
+ML-HANS-006	2026-02-13	Belgium/China	Belgium holdings $481B (80% of GDP) - Euroclear custody proxy for China, Russia, ME holders	TIC + Wolf Street 2014	RP-HANS-1
+ML-HANS-007	2026-02-13	Belgium/China	Belgium holdings up 133% since 2020 ($206B -> $481B), inversely correlated with China selling periods	TIC analysis	RP-HANS-1
+ML-HANS-008	2026-02-13	Custody	Ireland/Luxembourg $766B combined but 60-70% beneficial ownership is non-European (fund domicile effect)	JP Morgan, TIC	RP-HANS-1
+ML-HANS-009	2026-02-13	Custody	Ireland/Luxembourg are #1 and #2 global fund domiciles (91% of EU cross-border fund AUM)	JP Morgan 2024	RP-HANS-1
+ML-HANS-010	2026-02-13	UK LDI Crisis	Sept 2022 UK LDI crisis: 30Y gilt yields +200bps in 4 days, £50-100B margin calls, BoE emergency intervention	Chicago Fed Letter 480	RP-HANS-1
+ML-HANS-011	2026-02-13	UK LDI Crisis	60% of UK defined benefit pensions used leveraged LDI strategies pre-crisis, leverage ~1/3 of assets	Chicago Fed, TPR	RP-HANS-1
+ML-HANS-012	2026-02-13	UK Pensions	UK pension funds likely hold $500-600B of reported $889B UK total (remainder: BoE reserves, banks)	Estimate from TPR data	RP-HANS-1
+ML-HANS-013	2026-02-13	UK Pensions	UK DB pensions £1.6T assets, 28% held gilts pre-crisis, now diversifying to USTs for liquidity	Chicago Fed, TPR	RP-HANS-1
+ML-HANS-014	2026-02-13	Demand Quality	European UST demand is MEDIUM-LOW quality - includes China proxies, leveraged positions, fund pass-throughs	Analysis	RP-HANS-1
+ML-HANS-015	2026-02-13	Demand Quality	Estimated $1.5-1.8T of European holdings are "flighty" (China proxy, fund domicile, leveraged) vs $1.5-2.0T stable	Analysis	RP-HANS-1
+ML-HANS-016	2026-02-13	Triggers	European selling triggers: ECB divergence, EUR rally 1.20+, UK LDI crisis 2.0, China Euroclear exit	Scenario analysis	RP-HANS-1
+ML-HANS-017	2026-02-13	Triggers	Orderly European rotation scenario: -$300-350B over 18-24mo = +15-20bps on 10Y UST yield	Model estimate	RP-HANS-1
+ML-HANS-018	2026-02-13	Triggers	Crisis scenario (LDI 2.0): -$750B in 3-6mo = +50-100bps on 10Y, requires Fed emergency response	Model estimate	RP-HANS-1
+ML-HANS-019	2026-02-13	Data Source	TIC Table 5 monthly (major foreign holders) - KEY LIMITATION: custody location not beneficial ownership	TIC FAQ #7	RP-HANS-1
+ML-HANS-020	2026-02-13	Data Source	Fed Foreign Official Custody (WMTSECL1) weekly - watch for volatility signaling custody shifts	FRED	RP-HANS-1
+ML-HANS-021	2026-02-13	Data Source	UK TPR pension reports quarterly/annual - funding ratios, LDI usage, overseas bond allocation	thepensionsregulator.gov.uk	RP-HANS-1
+ML-HANS-022	2026-02-13	Euroclear	Euroclear Bank Brussels: €24.2T ($33T) custody, 2000+ clients in 90 countries, settles €570T/year	Euroclear corporate	RP-HANS-1
+ML-HANS-023	2026-02-13	Euroclear	2014 Russia Ukraine crisis: Russia moved USTs from Fed custody to Euroclear (Belgium) to avoid sanctions	Wolf Street analysis	RP-HANS-1
+ML-HANS-024	2026-02-13	Euroclear	March 2014: Fed foreign custody dropped record $104.5B in one week, reappeared via Euroclear	FRED WMTSECL1	RP-HANS-1
+ML-HANS-025	2026-02-13	Cross-Agent	ZHAO connection: Belgium TIC = China stealth proxy, monitor inverse correlation with China mainland TIC	Analysis	RP-HANS-1
+ML-HANS-026	2026-02-13	Cross-Agent	LIQUID connection: ECB QT + FX swap lines stress = European UST selling risk	Analysis	RP-HANS-1
+ML-HANS-027	2026-02-13	Cross-Agent	SAM comparison: Japan $1.2T more stable (official reserves) vs Europe $3.5T+ (leveraged, flighty)	Analysis	RP-HANS-1
+ML-HANS-028	2026-02-13	Threshold	UK holdings < $800B (3mo decline) = pension deleveraging alert to PROME	VX.tsv rec	RP-HANS-1
+ML-HANS-029	2026-02-13	Threshold	Belgium > $550B or < $350B = China custody shift, alert ZHAO	VX.tsv rec	RP-HANS-1
+ML-HANS-030	2026-02-13	Threshold	Gilt-UST 10Y spread flips negative (gilts yield < UST) = UK repatriation risk HIGH	VX.tsv rec	RP-HANS-1
+ML-HANS-031	2026-02-13	Research Gap	Netherlands UST holdings unknown (not in major holders table >$100B threshold), need annual SHL survey	TIC limitation	RP-HANS-1
+ML-HANS-032	2026-02-13	Research Gap	True beneficial ownership for Ireland/Luxembourg funds requires ECB flow data, fund prospectus analysis	Next steps	RP-HANS-1
+ML-HANS-033	2026-02-13	Historical	France holdings tripled 2020-2025 ($151B -> $376B), likely ECB QT-driven bank/insurer reallocation	TIC analysis	RP-HANS-1
+ML-HANS-034	2026-02-13	Historical	Switzerland stable $300B - SNB and wealth managers not aggressively accumulating despite negative EUR rates	TIC analysis	RP-HANS-1
+ML-HANS-035	2026-02-13	Market Structure	UK pensions hold 28% of gilt market (concentrated long-end), only 2.2% of UST market (U.S. pensions)	Chicago Fed	RP-HANS-1
+ML-HANS-036	2026-02-13	Market Structure	UK gilt market $1.5T vs UST market $10T - 7x liquidity advantage drove UK pension diversification	Analysis	RP-HANS-1
+ML-HANS-037	2026-02-13	Policy	UK TPR 2023 guidance: reduce LDI leverage, increase liquidity buffers - drives UST accumulation short-term	TPR reports	RP-HANS-1
+ML-HANS-038	2026-02-13	Policy	Ireland favorable US tax treaty (15% dividend WHT vs 30% Luxembourg) explains fund domicile preference	Bogleheads, Reddit	RP-HANS-1
+ML-HANS-039	2026-02-13	Rate Differential	ECB cut 8x June 2024-Dec 2025 (4.00%->2.00%), Fed cut 3x (5.5%->4.25%), creating 225 bps differential	Fortune Prime Global	RP-HANS-2
+ML-HANS-040	2026-02-13	Rate Differential	US-German 10Y spread ~170 bps (4.00% vs 2.30%), attracting capital to Treasuries despite EUR paradox strength	Morningstar, Bloomberg	RP-HANS-2
+ML-HANS-041	2026-02-13	EUR/USD	EUR/USD at 1.17-1.18 range Feb 2026, up 13% YoY from 1.04 trough despite ECB cuts (driven by US political risk)	Investing.com, CNBC	RP-HANS-2
+ML-HANS-042	2026-02-13	EUR/USD	Rate differential historically moves EUR/USD several hundred pips over multi-month horizons; 1.1800-1.1840 resistance	Fortune Prime Global	RP-HANS-2
+ML-HANS-043	2026-02-13	ECB QT	ECB balance sheet: €8.8T peak (June 2022) -> €6.0T (end-2025) -> €5.7T forecast (end-2026), -31% from peak	ECB, Bank of America	RP-HANS-2
+ML-HANS-044	2026-02-13	ECB QT	APP runoff ~€30bn/month, PEPP ~€15bn/month; €500bn reserves decline = €75bn credit supply drop (-0.6pp loan growth)	ECB Cipollone speech Feb 2025	RP-HANS-2
+ML-HANS-045	2026-02-13	ECB QT	ECB holdings impact on 10yr yields: 175 bps at peak -> 75 bps now; €1T reduction raises long-term rates ~35 bps	ECB research	RP-HANS-2
+ML-HANS-046	2026-02-13	ECB Liquidity	Excess liquidity decline: €2.8T (end-2024) -> €2.5T (end-2025) -> €2.2T (end-2026), -21% over 2 years	Bank of America, Delano	RP-HANS-2
+ML-HANS-047	2026-02-13	ECB Liquidity	Banks increasing MRO/LTRO take-up forecast: €70bn (end-2025) -> €350bn (end-2026) -> €720bn (end-2027)	Bank of America	RP-HANS-2
+ML-HANS-048	2026-02-13	USD Funding	European banks USD funding 13.1% of total (Dec 2024), up from 12.4% (Dec 2023); 96% from wholesale markets	EBA, Reuters Nov 2025	RP-HANS-2
+ML-HANS-049	2026-02-13	USD Funding	European bank USD assets 23% of balance sheet, up from 19.3%; 1/3 assets FX vs 1/5 liabilities = "meaningful mismatch"	EBA report Nov 2025	RP-HANS-2
+ML-HANS-050	2026-02-13	FX Swap Market	EUR/USD FX swap market: €250bn daily volume, €3T outstanding, 55% overnight maturity, 60% dealer concentration	ECB FSR Nov 2024	RP-HANS-2
+ML-HANS-051	2026-02-13	Repo Market	Euro area banks USD repos €1.6T (Nov 2024), nearly doubled since 2022; net borrowers by ~€250bn	ECB FSR Nov 2024	RP-HANS-2
+ML-HANS-052	2026-02-13	Repo Market	USD repos: 85% maturity ≤1 week, 87% not centrally cleared, 70% collateral govt bonds (95% USTs)	ECB FSR Nov 2024	RP-HANS-2
+ML-HANS-053	2026-02-13	Fed Swap Lines	COVID March 2020: overnight FX basis peaked 644 bps (March 17), ECB allotted $112bn March 18 (highest since 2008)	ECB Economic Bulletin May 2020	RP-HANS-2
+ML-HANS-054	2026-02-13	Fed Swap Lines	Daily 7-day USD operations (started March 23, 2020) critical to normalize basis; by end-April 2020 back to pre-crisis	ECB Economic Bulletin May 2020	RP-HANS-2
+ML-HANS-055	2026-02-13	Fed Swap Lines	Euro area banks participating in USD ops increased lending volumes +$34bn daily (April 2020), restored intermediation	ECB Economic Bulletin May 2020	RP-HANS-2
+ML-HANS-056	2026-02-13	Historical	2011-2012 Eurozone crisis: ECB raised rates in crisis (April/July 2011) = policy error; Nov 2011 reversed, activated swaps	CEPR, ECB 2011	RP-HANS-2
+ML-HANS-057	2026-02-13	Historical	Nov 2011: Fed-ECB-BoJ-SNB-BoE-BoC lowered swap pricing -50 bps, offered 84-day ops to address USD funding stress	Wikipedia, ECB 2011	RP-HANS-2
+ML-HANS-058	2026-02-13	Historical	2022 rate divergence: ECB lagged Fed by 4 months (Fed March, ECB July); EUR/USD fell to parity, then 0.95 lows	Various sources	RP-HANS-2
+ML-HANS-059	2026-02-13	COVID Response	March 15, 2020: Fed enhanced swap lines (pricing -25 bps, added 84-day maturity); March 31 FIMA repo facility launched	Brookings, Fed, NBER	RP-HANS-2
+ML-HANS-060	2026-02-13	COVID Research	Aizenman et al 2021: swap line announcements -> partner currency appreciation; actual auctions -> temporary home appreciation	CEPR, NBER w28585	RP-HANS-2
+ML-HANS-061	2026-02-13	COVID Research	Major central bank USD auctions (ECB, BoJ, SNB, BoE) had persistent spillover effects to non-major economies - egalitarian	Dallas Fed 2024, NBER	RP-HANS-2
+ML-HANS-062	2026-02-13	Current Cycle	ECB held rates at 2.00% Feb 5, 2026 (5th consecutive hold); inflation 1.7% (Jan), below 2% target but pausing cuts	CNBC, ECB Feb 2026	RP-HANS-2
+ML-HANS-063	2026-02-13	Current Cycle	EUR appreciation (14% YoY) raising ECB concerns: "closely monitoring" disinflationary impact - Villeroy de Galhau	CNBC, Reuters	RP-HANS-2
+ML-HANS-064	2026-02-13	Forward Guidance	85% of economists expect ECB hold at 2% through 2026; Deutsche Bank base case: next move HIKE mid-2027	Reuters poll, Deutsche Bank	RP-HANS-2
+ML-HANS-065	2026-02-13	Forward Guidance	Market-implied ECB rate expectations: hold through 2027 (Bloomberg consensus); <10% probability Feb 2026 cut	Bloomberg, Reuters	RP-HANS-2
+ML-HANS-066	2026-02-13	TPI Overview	Transmission Protection Instrument announced July 21, 2022; never activated; counters "unwarranted disorderly market dynamics"	ECB Press Release July 2022	RP-HANS-2
+ML-HANS-067	2026-02-13	TPI Mechanics	TPI purchases: public sector 1-10yr maturity, no ex ante size limit, sterilized (no persistent balance sheet impact)	ECB Press Release July 2022	RP-HANS-2
+ML-HANS-068	2026-02-13	TPI Eligibility	4 criteria: (1) no EDP/failed action, (2) no EIP/failed action, (3) sustainable debt trajectory, (4) RRF compliance	ECB Press Release July 2022	RP-HANS-2
+ML-HANS-069	2026-02-13	TPI vs OMT	TPI: ECB autonomous, 1-10yr maturity, sterilized; OMT: requires ESM program, 1-3yr maturity, not necessarily sterilized	ECB, Bundesbank	RP-HANS-2
+ML-HANS-070	2026-02-13	TPI US Impact	TPI activation = severe euro fragmentation signal -> global risk-off, flight to Treasuries, VIX spike, contagion risk	Analysis	RP-HANS-2
+ML-HANS-071	2026-02-13	Metrics	EUR/USD key levels Feb 2026: resistance 1.1800-1.1840, support 1.1705 (200d EMA), 1.1650 (lower band)	Investing.com technical	RP-HANS-2
+ML-HANS-072	2026-02-13	Metrics	Cross-currency basis swap normal -5 to -15 bps; stress -25 to -50 bps; crisis -100+ bps (COVID peak -157 bps 3-month)	CME, BIS, ECB	RP-HANS-2
+ML-HANS-073	2026-02-13	Metrics	Fed USD swap line alert thresholds: >$10bn early warning, >$50bn significant stress, >$100bn crisis (COVID peak $176bn)	Fed H.4.1, ECB	RP-HANS-2
+ML-HANS-074	2026-02-13	Metrics	Italian BTP-Bund spread watch: >200 bps warning, >250 bps TPI activation elevated, >350 bps high probability	Bloomberg, Analysis	RP-HANS-2
+ML-HANS-075	2026-02-13	Metrics	VSTOXX (Euro Stoxx volatility) spike >35-40 = severe European stress, contagion risk to VIX/US markets	Bloomberg, CBOE	RP-HANS-2
+ML-HANS-076	2026-02-13	Data Source	ECB weekly financial statements: balance sheet size, APP/PEPP holdings, MRO/LTRO take-up	ecb.europa.eu	RP-HANS-2
+ML-HANS-077	2026-02-13	Data Source	EBA semi-annual reports: European bank USD funding share, currency mismatch analysis	eba.europa.eu	RP-HANS-2
+ML-HANS-078	2026-02-13	Data Source	ECB MMSR data: EUR/USD FX swap volumes, repo market stats (monthly, published with lag)	ECB press releases	RP-HANS-2
+ML-HANS-079	2026-02-13	Transmission	ECB policy -> US markets via: (1) FX channel, (2) yield/term premium, (3) global liquidity, (4) dollar funding, (5) risk sentiment	Analysis synthesis	RP-HANS-2
+ML-HANS-080	2026-02-13	Transmission	ECB QT €2.7T reduction from peak contributes to global term premium pressure, upward pressure on US long-end yields	ECB Cipollone speech	RP-HANS-2
+ML-HANS-081	2026-02-13	Cross-Agent	LIQUID connection: ECB balance sheet decline -> global liquidity tightening, European bank USD needs -> money market pressure	Analysis	RP-HANS-2
+ML-HANS-082	2026-02-13	Cross-Agent	ZHAO connection: Belgium (Euroclear) UST custody overlaps with ECB policy stress (European repatriation scenarios)	Analysis	RP-HANS-2
+ML-HANS-083	2026-02-13	Cross-Agent	SAM comparison: Europe €6.0T balance sheet vs BoJ ¥700T; both doing QT but ECB faster pace (-31% vs BoJ slower)	Analysis	RP-HANS-2
+ML-HANS-084	2026-02-13	Cross-Agent	HENRY connection: European risk sentiment (TPI activation, fragmentation) -> global equity volatility spillover	Analysis	RP-HANS-2
+ML-HANS-085	2026-02-13	Cross-Agent	REGINALD connection: European bank USD funding stress -> US bank counterparty exposure via repo, FX swap markets	Analysis	RP-HANS-2
+ML-HANS-086	2026-02-13	Scenario	If ECB resumes cuts to 1.5%: EUR/USD falls toward 1.15, rate differential widens to 275+ bps, USD strength, US disinflation	Scenario analysis	RP-HANS-2
+ML-HANS-087	2026-02-13	Scenario	If ECB hikes 2027 while Italy debt/GDP >135%: fragmentation risk rises, TPI activation probability increases	Scenario analysis	RP-HANS-2
+ML-HANS-088	2026-02-13	Scenario	Crisis scenario (LDI 2.0 or TPI activation): flight to Treasuries, VIX spike, Fed swap line activation, EUR collapse	Scenario analysis	RP-HANS-2

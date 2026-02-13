@@ -1,13 +1,33 @@
 Vector_ID	Name	Category	Current_Value	Yellow	Orange	Red	Status	Confidence	Last_Updated	Source	Notes
-VX-HANS-1.01	UK UST Holdings	UST_DEMAND	750	700	650	600	GREEN	LOW	2026-02-13	TIC Data	Estimate - verify with TIC
-VX-HANS-1.02	Ireland UST Holdings	UST_DEMAND	350	300	275	250	GREEN	LOW	2026-02-13	TIC Data	Fund domicile - custody bias
-VX-HANS-1.03	Luxembourg UST Holdings	UST_DEMAND	400	350	300	250	GREEN	LOW	2026-02-13	TIC Data	Fund domicile - custody bias
-VX-HANS-1.04	Belgium UST Holdings	UST_DEMAND	481	450	480	500	ORANGE	HIGH	2026-02-13	TIC Data	ZHAO overlap - Euroclear/China
-VX-HANS-2.01	EUR/USD	CURRENCY	1.08	1.05	1.00	0.95	GREEN	HIGH	2026-02-13	Bloomberg	Parity = significant threshold
+VX-HANS-1.01	UK UST Holdings	UST_DEMAND	888.5	850	800	750	GREEN	HIGH	2026-02-13	TIC Nov 2025	Post-LDI diversification - NOT stable
+VX-HANS-1.02	Ireland UST Holdings	UST_DEMAND	340.3	320	300	280	GREEN	HIGH	2026-02-13	TIC Nov 2025	Fund domicile - 60-70% non-European beneficial owners
+VX-HANS-1.03	Luxembourg UST Holdings	UST_DEMAND	425.6	400	375	350	GREEN	HIGH	2026-02-13	TIC Nov 2025	Fund domicile - 60-70% non-European beneficial owners
+VX-HANS-1.04	Belgium UST Holdings	UST_DEMAND	481.0	550	400	350	ORANGE	HIGH	2026-02-13	TIC Nov 2025	ZHAO overlap - Euroclear/China proxy
+VX-HANS-1.05	France UST Holdings	UST_DEMAND	376.1	350	325	300	GREEN	HIGH	2026-02-13	TIC Nov 2025	ECB QT reallocation
+VX-HANS-1.06	Switzerland UST Holdings	UST_DEMAND	300.3	280	260	240	GREEN	HIGH	2026-02-13	TIC Nov 2025	SNB reserves + wealth management
+VX-HANS-1.07	Germany UST Holdings	UST_DEMAND	109.8	100	90	80	GREEN	HIGH	2026-02-13	TIC Nov 2025	Small holder
+VX-HANS-1.08	Total Europe Top 7 UST	UST_DEMAND	2921.6	2800	2600	2400	GREEN	HIGH	2026-02-13	TIC Nov 2025	Sum of top 7 - watch for decline
+VX-HANS-2.01	EUR/USD	CURRENCY	1.178	1.15	1.10	1.05	GREEN	HIGH	2026-02-13	Bloomberg	Below 1.15 = ECB restart cuts likely
 VX-HANS-2.02	GBP/USD	CURRENCY	1.26	1.20	1.15	1.10	GREEN	HIGH	2026-02-13	Bloomberg	Cable
-VX-HANS-2.03	DXY	CURRENCY	104	108	110	115	GREEN	HIGH	2026-02-13	Bloomberg	Dollar strength index
-VX-HANS-3.01	Italy-Germany 10Y Spread	SOVEREIGN	120	150	200	250	GREEN	MEDIUM	2026-02-13	Bloomberg	Eurozone stress barometer
+VX-HANS-2.03	DXY	CURRENCY	98.25	100	102	105	GREEN	HIGH	2026-02-13	Bloomberg	Dollar strength index - down 10% in 2025
+VX-HANS-2.04	EUR/USD 3M Cross-Currency Basis	CURRENCY	-12	-25	-50	-100	GREEN	HIGH	2026-02-13	Bloomberg/CME	COVID crisis peak -157 bps
+VX-HANS-2.05	Fed USD Swap Line to ECB	CURRENCY	0	10	50	100	GREEN	HIGH	2026-02-13	Fed H.4.1	USD billions - COVID peak $176bn
+VX-HANS-3.01	Italy-Germany 10Y Spread	SOVEREIGN	130	200	250	350	GREEN	MEDIUM	2026-02-13	Bloomberg	TPI activation: >250 elevated, >350 high prob
 VX-HANS-3.02	France-Germany 10Y Spread	SOVEREIGN	70	80	100	120	YELLOW	MEDIUM	2026-02-13	Bloomberg	Political risk proxy
-VX-HANS-4.01	ECB Deposit Rate	POLICY	2.75	2.50	2.25	2.00	GREEN	HIGH	2026-02-13	ECB	Cutting cycle
+VX-HANS-3.03	UK Gilt-UST 10Y Spread	SOVEREIGN	50	20	0	-20	GREEN	HIGH	2026-02-13	Bloomberg	Negative = UK repatriation risk
+VX-HANS-4.01	ECB Deposit Rate	POLICY	2.00	1.75	1.50	1.25	GREEN	HIGH	2026-02-13	ECB	On hold Feb 2026, next move likely 2027 hike
 VX-HANS-4.02	BoE Bank Rate	POLICY	4.50	4.25	4.00	3.75	GREEN	HIGH	2026-02-13	BoE	Still elevated
+VX-HANS-4.03	Fed-ECB Deposit Differential	POLICY	225	250	275	300	YELLOW	HIGH	2026-02-13	Calc	Fed Funds mid minus ECB deposit (bps)
+VX-HANS-4.04	ECB Balance Sheet	POLICY	6000	5700	5400	5100	GREEN	HIGH	2026-02-13	ECB	EUR billions - QT in progress, peak 8800
+VX-HANS-4.05	ECB Excess Liquidity	POLICY	2500	2200	2000	1800	GREEN	HIGH	2026-02-13	ECB/BofA	EUR billions - below 2000 = stress risk
+VX-HANS-4.06	US-German 10Y Spread	POLICY	170	150	130	110	YELLOW	HIGH	2026-02-13	Bloomberg	Bps - narrowing = capital rotation to Europe
 VX-HANS-5.01	Euro Stoxx Banks Index	BANKING	TBD	TBD	TBD	TBD	PENDING	LOW	2026-02-13	Bloomberg	Need baseline
+VX-HANS-6.01	Fed Foreign Official Custody	UST_DEMAND	TBD	TBD	TBD	TBD	PENDING	MEDIUM	2026-02-13	FRED WMTSECL1	Weekly - watch for Belgium shifts
+VX-HANS-6.02	UK Pension Funding Ratio	UK_PENSIONS	95	100	105	110	GREEN	MEDIUM	2026-02-13	TPR est	Above 105% = risk asset rotation risk
+VX-HANS-6.03	UK Pension LDI Leverage	UK_PENSIONS	0.20	0.18	0.15	0.12	GREEN	LOW	2026-02-13	TPR est	Leverage as % of assets - post-crisis reduction
+VX-HANS-7.01	EU Bank USD Funding Share	BANKING	13.1	13.5	14.0	15.0	YELLOW	HIGH	2026-02-13	EBA Nov 2025	% of total funding - structural vulnerability
+VX-HANS-7.02	EU Bank USD Assets Share	BANKING	23.0	24.0	25.0	27.0	YELLOW	HIGH	2026-02-13	EBA Nov 2025	% of balance sheet - currency mismatch
+VX-HANS-7.03	Euro Area USD Repo Outstanding	BANKING	1600	1700	1800	2000	YELLOW	MEDIUM	2026-02-13	ECB FSR Nov 2024	EUR billions - doubled since 2022
+VX-HANS-7.04	EUR/USD FX Swap Daily Volume	BANKING	250	300	350	400	GREEN	MEDIUM	2026-02-13	ECB MMSR	EUR billions - spike = stress or unwind
+VX-HANS-7.05	VSTOXX	RISK_SENTIMENT	18	25	35	45	GREEN	HIGH	2026-02-13	Bloomberg	Euro Stoxx volatility - >35 severe stress
+VX-HANS-7.06	ECB MRO/LTRO Take-up	BANKING	50	150	300	500	GREEN	MEDIUM	2026-02-13	ECB est	EUR billions - rising = reserve shortage
