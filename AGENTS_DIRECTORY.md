@@ -55,12 +55,23 @@
 **Critical Window:** Feb 3-8 (10Y auction ✓ → 30Y Feb 5 → Election Feb 8)
 **Role:** Japan anchor breaking = global contagion risk
 
-### ZHAO 🟠 **[NEW]**
-**Domain:** China Macro, Capital Flows, UST Holdings
-**Thesis:** "Stealth Exit" — China reducing UST via Belgium proxy, property crisis ongoing
-**Tracks:** TIC data (Belgium), PBOC, developer bonds, USD/CNY, HK peg
-**Key Levels:** Belgium >$500B (RED), China official <$700B (ORANGE), USD/CNY >7.40 (intervention)
-**Role:** The other anchor — parallel trigger via capital flight or UST liquidation
+### ZHAO 🔴
+**Domain:** China Macro & Capital Flows
+**Thesis:** Dedollarization is WRONG — custodial arbitrage, not exit. True holdings ~$1.8-1.9T stable.
+**Tracks:** TIC data (China + Belgium proxy), LGFV/banking, HK peg, property sector
+**Transmission:** LGFV stress → Regional NPL → Liquidity crunch → UST liquidation
+**Key Levels:** Belgium >$500B | China <$650B | HK AB <$40B
+**Research:** 9/9 prompts complete
+**Status:** Active
+
+### HANS 🟡 **[NEW]**
+**Domain:** Europe (US Impact Lens)
+**Thesis:** European dynamics → US transmission through UST demand, currency, ECB policy
+**Tracks:** European UST holdings (UK, Ireland, Lux, Belgium), EUR/USD, GBP/USD, ECB/BoE, sovereign spreads
+**Transmission:** European selling → UST yield pressure | ECB divergence → USD stress | Sovereign crisis → risk-off
+**Key Levels:** EUR/USD <1.05 | Italy-Germany >150bps | France-Germany >80bps
+**Cross-refs:** ZHAO (Belgium overlap), LIQUID (ECB), SAM (Japan + Europe = demand pillars)
+**Status:** Initializing — needs research prompts run
 
 ---
 
@@ -115,7 +126,7 @@ REGINALD (bank losses follow)
 [LIQUID amplifies at any stage]
 
 HENRY tells us HOW FAST
-SAM + ZHAO are parallel global risk (Japan + China anchors)
+SAM + ZHAO + HANS are parallel global risk (Japan + China + Europe anchors)
 BROCK (under REGINALD) is private credit early warning
 ```
 
@@ -141,6 +152,7 @@ BROCK (under REGINALD) is private credit early warning
 | LIQUID | `AGENTS/LIQUID/STATUS.md` | `LIQUID_SKELETON.md` | `workbook/` |
 | SAM | `AGENTS/SAM/STATUS.md` | `SAM_SKELETON.md` | `workbook/` |
 | ZHAO | `AGENTS/ZHAO/STATUS.md` | — | `workbook/` |
+| HANS | `AGENTS/HANS/STATUS.md` | — | `workbook/` |
 | CREED | `AGENTS/REGINALD/CREED/` | `CREED_SKELETON.md` | `workbook/` |
 | BROCK | `AGENTS/REGINALD/BROCK/` | `BROCK_SKELETON.md` | `workbook/` |
 | CORAL | `AGENTS/REGINALD/sub-agents/CORAL/` | — | `research/` |
