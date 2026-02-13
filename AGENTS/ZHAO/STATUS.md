@@ -1,22 +1,36 @@
 # ZHAO STATUS.md
-**Updated:** 2026-02-13 15:00 UTC
+**Updated:** 2026-02-13 15:30 UTC
 
 ---
 
-## Current Status: 🟠 ELEVATED → 🔴 CONFIRMED
+## Current Status: 🔴 CRITICAL
 
-**Belgium proxy thesis INSTITUTIONALLY VALIDATED. China executing custodial arbitrage, not dedollarization. True holdings stable ~$1.8-1.9T.**
+**Two validated theses:** (1) Belgium proxy = custodial arbitrage, not dedollarization; (2) LGFV/banking stress creates REAL transmission risk to UST liquidation during liquidity crunches.
 
 ---
 
 ## Key Metrics
 
+### Capital Flows
 | Metric | Current | Yellow | Orange | Red | Status |
 |--------|---------|--------|--------|-----|--------|
 | China Official UST | $682.6B | <$750B | <$700B | <$650B | 🟠 ORANGE |
 | Belgium TIC (proxy) | **$481B ATH** | >$450B | >$480B | >$500B | 🟠 ORANGE |
 | Belgium YoY Growth | **+33%** | >15% | >25% | >35% | 🟠 ORANGE |
 | True China Holdings | ~$1.85T | — | — | — | ✅ STABLE |
+
+### LGFV / Banking (NEW)
+| Metric | Current | Yellow | Orange | Red | Status |
+|--------|---------|--------|--------|-----|--------|
+| LGFV Total Debt | 60T RMB | 50T | 55T | 65T | 🟠 ORANGE |
+| Govt Debt/GDP | **124%** | 100% | 115% | 130% | 🟠 ORANGE |
+| Regional Bank NPL (Guizhou) | **11.6%** | >8% | >10% | >12% | 🔴 RED |
+| Land Revenue YoY | **-14.7%** | -10% | -15% | -20% | 🟠 ORANGE |
+| PBOC Policy Rate | **1.4%** | <1.5% | <1.25% | <1.0% | 🟠 ORANGE |
+
+### Currency
+| Metric | Current | Yellow | Orange | Red | Status |
+|--------|---------|--------|--------|-----|--------|
 | USD/CNY | 7.25 | >7.30 | >7.40 | >7.50 | 🟢 GREEN |
 | HK Aggregate Balance | ~$45B | <$40B | <$30B | <$20B | 🟢 GREEN |
 
@@ -101,15 +115,35 @@
 
 **Implication:** Belgium TIC will grow further into late 2020s
 
-### 4. Property → Banking Stress 🟡 CHRONIC
+### 4. LGFV → Banking Transmission 🔴 VALIDATED (RP-ZHAO-2)
 
-**Evidence:**
-- Evergrande: Liquidation ongoing
-- Country Garden: Offshore bonds at $0.12
-- LGFV debt: ~$9T, land sale revenue down 40%+
-- Shadow banking under pressure
+**Scale:**
+- LGFV debt: **60T RMB ($8.4T)** — IMF/Fitch estimate
+- Total govt debt: **124% of GDP** (augmented)
+- 12 "high-risk" provinces under central oversight
 
-**Status:** CHRONIC — Not yet acute, stress building
+**Banking Exposure:**
+- Megabanks (Big 6): 4.6% property NPL, 3T RMB recap underway
+- **Regional banks: CRISIS** — Bank of Guizhou 11.6% NPL, Zhengzhou 9.55%
+- 199 small banks deregistered/merged in 2024
+- ~300 rural banks consolidated into regional giants
+
+**Land Revenue Collapse:**
+- 2021 peak: 8.7T RMB → 2025: 4.15T RMB (**-52%**)
+- 4th consecutive year of double-digit decline
+- Fiscal model is BROKEN
+
+**Transmission Mechanism:**
+- Feb 2026: **$456B liquidity crunch** → PBOC injected 1T RMB
+- Policy rate cut to **1.4% (record low)**
+- Banks advised to reduce UST exposure
+- Liquidity stress → UST sales = **RECURRING FEATURE**
+
+**Shadow Banking:**
+- AVIC Trust: 60B RMB failed (Apr 2025), SOE guarantee GONE
+- Zhejiang WMP crisis late 2025
+
+**Status:** VALIDATED — NOT Lehman, but "managed volatility" / zombie economy risk
 
 ---
 
@@ -124,6 +158,9 @@
 | ZHAO-5 | Trump-Xi summit fails/no deal | Q2 2026 | 55% | ⏳ Pending |
 | ZHAO-6 | **Belgium YoY growth stays >25%** | 2026 | **70%** | ⏳ NEW |
 | ZHAO-7 | **Agency MBS rotation continues ($50B+)** | 2026 | 65% | ⏳ NEW |
+| ZHAO-8 | **Regional bank NPL >12% (any province)** | H1 2026 | 55% | ⏳ NEW (RP-ZHAO-2) |
+| ZHAO-9 | **>250 small banks consolidated in 2026** | 2026 | 60% | ⏳ NEW (RP-ZHAO-2) |
+| ZHAO-10 | **Liquidity crunch forcing UST sales (again)** | 2026 | **70%** | ⏳ NEW (RP-ZHAO-2) |
 
 ---
 

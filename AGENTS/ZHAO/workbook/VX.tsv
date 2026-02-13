@@ -1,6 +1,6 @@
 Vector_ID	Name	Category	Current_Value	Yellow	Orange	Red	Status	Confidence	Last_Updated	Source	Notes
 VX-ZHAO-1.01	Belgium TIC Holdings	CAPITAL_FLOWS	481	450	480	500	ORANGE	HIGH	2026-02-13	TIC Data	China proxy via Euroclear custody - ATH Nov 2025
-VX-ZHAO-1.02	China Official UST	CAPITAL_FLOWS	682.6	750	700	650	ORANGE	HIGH	2026-02-13	TIC Data	Nov 2025 reading - declining from $1.1T (2021)
+VX-ZHAO-1.02	China Official UST	CAPITAL_FLOWS	682.6	750	700	650	ORANGE	HIGH	2026-02-13	TIC Data	Nov 2025 reading - lowest since 2008
 VX-ZHAO-1.03	Combined Annual Outflow	CAPITAL_FLOWS	100	75	150	250	YELLOW	MEDIUM	2026-02-12	Calculated	Japan + China combined UST exit rate (B$/yr)
 VX-ZHAO-1.04	Belgium YoY Growth	CAPITAL_FLOWS	33	15	25	35	ORANGE	HIGH	2026-02-13	TIC Data	Outpacing Japan (11%) and UK (16%)
 VX-ZHAO-1.05	True China Holdings (Adj)	CAPITAL_FLOWS	1850	1700	1600	1500	GREEN	HIGH	2026-02-13	Setser/CFR	Stable since 2015 when adjusted for Belgium
@@ -10,7 +10,17 @@ VX-ZHAO-2.02	CNH-CNY Spread	CURRENCY	0.02	0.03	0.05	0.08	GREEN	MEDIUM	2026-02-13
 VX-ZHAO-2.03	HK Aggregate Balance	CURRENCY	45	40	30	20	GREEN	HIGH	2026-02-13	HKMA	HK dollar peg buffer (B HKD)
 VX-ZHAO-3.01	Evergrande Bond Price	PROPERTY	0.08	0.15	0.10	0.05	RED	HIGH	2026-02-13	Bloomberg	Already in default/liquidation
 VX-ZHAO-3.02	Country Garden Bond	PROPERTY	0.12	0.20	0.15	0.10	ORANGE	HIGH	2026-02-13	Bloomberg	Defaulted Sep 2023, restructuring
-VX-ZHAO-3.03	Land Sale Revenue YoY	PROPERTY	-40	-20	-35	-50	ORANGE	MEDIUM	2026-01-15	NBS	Local government fiscal stress
+VX-ZHAO-3.03	Land Sale Revenue YoY	PROPERTY	-14.7	-10	-15	-20	ORANGE	HIGH	2026-02-13	RP-ZHAO-2	4th consecutive year of double-digit decline, halved since 2021
 VX-ZHAO-4.01	China Manufacturing PMI	ECONOMY	49.5	49	48	47	YELLOW	HIGH	2026-02-01	NBS	Contraction <50
 VX-ZHAO-5.01	Institutional Consensus	VALIDATION	5	3	4	5	GREEN	HIGH	2026-02-13	RP-ZHAO-1	5/5 institutions confirm proxy thesis (CFR/JPM/GS/Aberdeen/ECB)
 VX-ZHAO-5.02	SEC Clearing Mandate	REGULATORY	0	0	0	1	GREEN	LOW	2026-02-13	SEC.gov	Dec 2026 cash / Jun 2027 repo - Euroclear exempt
+VX-ZHAO-6.01	LGFV Total Debt	LGFV_BANKING	60	50	55	65	ORANGE	MEDIUM	2026-02-13	RP-ZHAO-2	IMF/Fitch estimate ~60T RMB ($8.4T)
+VX-ZHAO-6.02	Govt Debt/GDP (Augmented)	LGFV_BANKING	124	100	115	130	ORANGE	MEDIUM	2026-02-13	RP-ZHAO-2	Including all off-budget obligations
+VX-ZHAO-6.03	Regional Bank NPL (Guizhou)	LGFV_BANKING	11.6	8	10	12	RED	HIGH	2026-02-13	RP-ZHAO-2	Bank of Guizhou property NPL - canary
+VX-ZHAO-6.04	Bank of Zhengzhou NPL	LGFV_BANKING	9.55	7	8.5	10	ORANGE	HIGH	2026-02-13	RP-ZHAO-2	Property development NPL
+VX-ZHAO-6.05	Small Banks Consolidated	LGFV_BANKING	199	100	150	200	ORANGE	MEDIUM	2026-02-13	RP-ZHAO-2	2024 total - 199 deregistered/merged
+VX-ZHAO-6.06	PBOC Policy Rate	LGFV_BANKING	1.4	1.5	1.25	1.0	ORANGE	HIGH	2026-02-13	RP-ZHAO-2	Record low Feb 2026 - easing to manage stress
+VX-ZHAO-6.07	Feb 2026 Liquidity Gap	LGFV_BANKING	456	200	350	500	ORANGE	HIGH	2026-02-13	RP-ZHAO-2	$456B (3.2T RMB) - PBOC injected 1T RMB
+VX-ZHAO-6.08	Debt Swap Coverage	LGFV_BANKING	30	50	40	30	RED	MEDIUM	2026-02-13	RP-ZHAO-2	10T swap covers only 30% of 34T debt gap
+VX-ZHAO-6.09	S&P NPA Forecast	LGFV_BANKING	5.1	5.0	5.5	6.0	YELLOW	MEDIUM	2026-02-13	RP-ZHAO-2	Current 5.1%, forecast 5.4-5.8% (2025-27)
+VX-ZHAO-6.10	CIPS Volume YoY	LGFV_BANKING	43	20	35	50	ORANGE	MEDIUM	2026-02-13	RP-ZHAO-2	$24T in 2024, +43% YoY - alternative rails
