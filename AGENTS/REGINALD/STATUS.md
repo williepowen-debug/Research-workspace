@@ -100,6 +100,14 @@
 
 **If advances cross $700B = early stages of regional banking crisis.**
 
+### Historical Context
+| Period | Advances | Context |
+|--------|----------|---------|
+| Pre-2023 | ~$450-550B | Normal range |
+| **Mar 2023 (SVB)** | **$675B** | +50% spike in weeks |
+| Late 2023 | ~$500-550B | Normalization |
+| **Feb 2026** | **~$480B** | 🟢 Normal range |
+
 ---
 
 ## SLOOS CREDIT CRUNCH (Jan 2026)
@@ -172,6 +180,22 @@ Bank credit losses (REGINALD)
 ### Transmission to Banks
 - Banks provide **$1.2T in loans to NDFIs** (VX-REG-6.05)
 - BDC dividend cuts → NAV crashes → loan covenant violations → bank losses
+
+### PIK Inflation Trend
+| Year | PSEC PIK | FSK PIK | Signal |
+|------|----------|---------|--------|
+| 2022 | ~15% | ~18% | Normal |
+| 2023 | ~22% | ~22% | Starting spike |
+| 2024 | ~30% | ~25% | Accelerating |
+| **Q4 2025** | **35%** | **27%** | 🔴 Critical |
+
+### Monthly Data Sources
+- **PSEC** (~20th): prospectstreet.com/investor-relations
+- **FSK** (~15th): fskkcapital.com/investor-relations
+- **TCPC** (mid-month): ir.tcgbdc.com
+- **MFIC** (~20th): ir.midcapfinancial.com
+- **BXSL** (~15th): ir.bxsl.com
+- **ARCC/GSBD**: Quarterly only
 
 ---
 
