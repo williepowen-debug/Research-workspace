@@ -45,3 +45,10 @@ ML-ZHAO-040	2026-02-13	Insurance	Hong Kong concentration: 51% of overseas assets
 ML-ZHAO-041	2026-02-13	Insurance	QDII quota: $390.23B approved, $32.3B utilized by insurers	SAFE data	RP-ZHAO-9
 ML-ZHAO-042	2026-02-13	Insurance	Market impact: $100B sale = ~5 bps yield move (central), UST daily vol ~$900B	Fed research	RP-ZHAO-9
 ML-ZHAO-043	2026-02-13	Insurance	Key finding: Official-sector channels dominate China UST narratives, not insurers	RP-ZHAO-9 conclusion	RP-ZHAO-9
+ML-ZHAO-044	2026-02-13	DataSources	TIC Table 5 publication lag: ~1.5 months from as-of date	Treasury TIC documentation	RP-ZHAO-6
+ML-ZHAO-045	2026-02-13	DataSources	TIC SHL survey (Agency MBS by country): ~8-10 months lag after June 30	Treasury documentation	RP-ZHAO-6
+ML-ZHAO-046	2026-02-13	DataSources	HKMA Aggregate Balance: Free API, near-real-time daily updates	HKMA API docs	RP-ZHAO-6
+ML-ZHAO-047	2026-02-13	DataSources	ChinaBond curves: Daily updates ~17:30, free web access	ChinaBond/CCDC	RP-ZHAO-6
+ML-ZHAO-048	2026-02-13	DataSources	NFRA provincial NPLs: Quarterly, variable lag, branch-level webpages	NFRA branch examples	RP-ZHAO-6
+ML-ZHAO-049	2026-02-13	DataSources	Land-transfer revenue: No centralized dataset, combine MOF national + provincial bulletins	MOF/provincial sources	RP-ZHAO-6
+ML-ZHAO-050	2026-02-13	DataSources	Belgium TIC note: Line historically included Luxembourg prior to June 2002	Treasury historical file	RP-ZHAO-6
