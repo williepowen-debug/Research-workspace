@@ -1,11 +1,23 @@
 # ZHAO STATUS.md
-**Updated:** 2026-02-13 15:30 UTC
+**Updated:** 2026-02-13 16:45 UTC
 
 ---
 
 ## Current Status: 🔴 CRITICAL
 
-**Two validated theses:** (1) Belgium proxy = custodial arbitrage, not dedollarization; (2) LGFV/banking stress creates REAL transmission risk to UST liquidation during liquidity crunches.
+**RESEARCH BATCH COMPLETE (5/5):**
+- ✅ RP-ZHAO-1: Belgium Proxy Thesis
+- ✅ RP-ZHAO-2: LGFV/Banking Transmission
+- ✅ RP-ZHAO-3: PBOC Policy Playbook
+- ✅ RP-ZHAO-4: HK Peg / LERS Analysis
+- ✅ RP-ZHAO-5: Developer Bonds / Property Crisis
+
+**Key validated theses:**
+1. **Belgium proxy = custodial arbitrage**, not dedollarization (true holdings ~$1.8-1.9T stable)
+2. **LGFV/banking stress** creates REAL transmission to UST liquidation during crises
+3. **PBOC building "defensive wall"** — redundant systems for USD independence
+4. **HK peg → UST liquidation** is a direct global transmission channel (~$410B at risk)
+5. **Property sector "zombified"** — decade of deleveraging, <0.6% recovery for Evergrande
 
 ---
 
@@ -28,11 +40,21 @@
 | Land Revenue YoY | **-14.7%** | -10% | -15% | -20% | 🟠 ORANGE |
 | PBOC Policy Rate | **1.4%** | <1.5% | <1.25% | <1.0% | 🟠 ORANGE |
 
-### Currency
+### Currency / HK Peg
 | Metric | Current | Yellow | Orange | Red | Status |
 |--------|---------|--------|--------|-----|--------|
 | USD/CNY | 7.25 | >7.30 | >7.40 | >7.50 | 🟢 GREEN |
-| HK Aggregate Balance | ~$45B | <$40B | <$30B | <$20B | 🟢 GREEN |
+| HK Aggregate Balance | **HK$53.9B** | <$45B | <$40B | <$30B | 🟢 GREEN |
+| HIBOR-SOFR Spread | ~-30bps | >-100bps | >-200bps | >-300bps | 🟢 GREEN |
+| HK Backing Ratio | ~110% | <108% | <105% | <102% | 🟢 GREEN |
+
+### HK Peg Early Warning (NEW - RP-ZHAO-4)
+| Indicator | Current | Stressed Threshold | Status |
+|-----------|---------|-------------------|--------|
+| Option-Implied Vol | ~2% | >5% | 🟢 GREEN |
+| 12M Forward Points | ~500 | >1,500 | 🟢 GREEN |
+| HKD Deposit Growth | +0.5% YoY | Negative YoY | 🟢 GREEN |
+| UST Yield Impact | N/A | >20bps on HKMA selling | 🟢 GREEN |
 
 ---
 
@@ -115,7 +137,78 @@
 
 **Implication:** Belgium TIC will grow further into late 2020s
 
-### 4. LGFV → Banking Transmission 🔴 VALIDATED (RP-ZHAO-2)
+### 4. PBOC Policy Playbook 🟡 OPERATIONAL (RP-ZHAO-3)
+
+**Feb 9, 2026 Directive = Paradigm Shift:**
+- "Window guidance" to commercial banks — NOT official reserves
+- Creates "defensive wall" reducing systemic exposure
+- **State banks as "invisible arm"** — backdoor intervention via swap market
+
+**Capital Controls:**
+- "Facilitated entry, gated exit" — SAFE Circular 28 eases FDI entry, exits gated
+- Crypto "Ban 2.0" (Feb 6/12) — mining "completely cleared"
+- Gold accumulation: **15 consecutive months**
+
+**US Treasury Response (Jan 2026):**
+> "We no longer rely primarily on formal reserves to assess China's FX policies"
+
+**Status:** OPERATIONAL — China building redundant defensive systems
+
+### 5. HK Peg → UST Liquidation Transmission 🟡 DORMANT (RP-ZHAO-4)
+
+**HKMA Holdings:**
+- **~US$410B** in USD assets (79.1% of Exchange Fund)
+- Vast majority = UST + Agency debt
+
+**Transmission Mechanism:**
+1. HKD hits 7.85 weak-side, capital flees
+2. HKMA must sell USD to buy HKD
+3. To get USD → sells UST
+4. Severe crisis: **hundreds of billions** in UST liquidation in weeks
+
+**Safety Valve:**
+- **FIMA Repo Facility** — borrow USD vs UST collateral instead of selling
+- Critical for preventing disorderly liquidation
+- **May not be available in sanctions scenario**
+
+**Tail Risk:**
+- US sanctions "nuclear option" — deny HKMA USD clearing
+- Low probability but discussed in NSC circles
+- Would force massive UST liquidation AND cut off safety valve
+
+**Current Status:**
+- AB: HK$53.9B (stable, above $45B floor)
+- HIBOR-SOFR: ~-30bps (normalized)
+- No stress indicators
+
+**Status:** DORMANT — Mechanism understood, no current activation
+
+### 6. Property Sector Deleveraging 🔴 ONGOING (RP-ZHAO-5)
+
+**Recovery Reality:**
+- Evergrande: **<0.6% recovery** over 10 years
+- Country Garden: $17.7B restructured, 90% haircuts or MCBs
+- Sunac: First "full equitization" — $9.6B → equity Jun 30, 2026
+- RE USD bond default rate: **>70%**
+
+**Stabilization Timeline:**
+- Morgan Stanley: Bottom **H2 2027** (Tier 1/2)
+- Goldman: Bottom **2027**, possible 10% more drop
+- Inventory: 766M sqm (45% above 10yr avg)
+
+**Vanke = "Too Big to Fail":**
+- S&P: SD (Selective Default)
+- Shenzhen Metro (SOE) providing RMB 20.3B+ loans
+- Now effectively state-backed
+
+**White List Mechanism:**
+- Project-based (not entity-based) support
+- RMB 7T approved loans
+- Most distressed excluded
+
+**Status:** ONGOING — Decade of slow deleveraging, NOT Lehman
+
+### 7. LGFV → Banking Transmission 🔴 VALIDATED (RP-ZHAO-2)
 
 **Scale:**
 - LGFV debt: **60T RMB ($8.4T)** — IMF/Fitch estimate
