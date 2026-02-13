@@ -1,0 +1,5 @@
+ID	Name	Current	Threshold_Yellow	Threshold_Orange	Threshold_Red	Status	Updated
+VX-RENO-1.01	Gaming Revenue YoY	+2%	<0%	<-5%	<-10%	GREEN	2026-02-11
+VX-RENO-1.02	Canadian Tourism YoY	-28%	<-10%	<-20%	<-30%	ORANGE	2026-02-11
+VX-RENO-2.01	Lake Mead Capacity	27%	<30%	<25%	<20%	YELLOW	2026-02-11
+VX-RENO-3.01	WAL NV CRE Exposure	$2.1B	>$1.5B	>$2.0B	>$2.5B	YELLOW	2026-02-11
