@@ -999,8 +999,14 @@ class DashboardHandler(http.server.SimpleHTTPRequestHandler):
         # API endpoint to add/update subagent entry (called by Prome)
         if parsed.path == '/api/subagents/log':
             params = parse_qs(parsed.query)
-            agent_id = params.get('agent', ['unknown'])[0]
-            task = params.get('task', [''])[0]
+            agent_id = params.get('agent', [None])[0]
+            task = params.get('task', [None])[0]
+            
+            # Require agent and task to prevent bogus entries
+            if not agent_id or not task:
+                self.send_error(400, "Missing required parameters: agent, task")
+                return
+            
             status = params.get('status', ['running'])[0]
             result = params.get('result', [None])[0]
             session_key = params.get('session_key', [None])[0]
