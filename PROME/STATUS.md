@@ -1,5 +1,5 @@
 # PROME STATUS.md
-**Updated:** 2026-02-12 16:55 UTC
+**Updated:** 2026-02-13 14:30 UTC
 
 ---
 
@@ -119,11 +119,12 @@
 
 | Component | Status | Notes |
 |-----------|--------|-------|
-| **Sub-Agent System** | 🟢 LIVE | 8 agents configured |
+| **Sub-Agent System** | 🟢 LIVE | 11 agents configured (added ZHAO Feb 13) |
 | **Daily Check-Ins** | 🟢 ACTIVE | LABOR 8am, CARL 8:15am, MARCO 8:30am ET |
 | **Dashboard** | 🟢 UPDATED | Sub-agent activity visible |
 | **Transcripts** | 🟢 ACTIVE | Auto-saved |
 | **Research Archive** | 🟢 CURRENT | All prompts archived |
+| **Predictions Monitor** | 🟢 NEW | `PROME/PREDICTIONS_MONITOR.md` — threshold tracking |
 
 ---
 
