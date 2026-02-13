@@ -592,6 +592,140 @@ def add_alert(alert_type, severity, message, value=None, threshold=None, notify=
     
     return alert
 
+def parse_predictions():
+    """Parse PREDICTIONS.md and return structured data"""
+    import re
+    
+    predictions_file = os.path.join(WORKSPACE, "PREDICTIONS.md")
+    monitor_file = os.path.join(WORKSPACE, "PROME/PREDICTIONS_MONITOR.md")
+    
+    result = {
+        "calibration": {"total": 0, "correct": 0, "partial": 0, "wrong": 0, "accuracy": 0},
+        "imminent": [],
+        "approaching": [],
+        "by_agent": {},
+        "resolved": [],
+        "updated": time.strftime("%Y-%m-%d %H:%M:%S UTC", time.gmtime())
+    }
+    
+    # Parse PREDICTIONS_MONITOR.md for imminent/approaching
+    if os.path.exists(monitor_file):
+        try:
+            with open(monitor_file, 'r') as f:
+                content = f.read()
+            
+            # Parse imminent section
+            imminent_match = re.search(r'## 🔴 IMMINENT.*?\n\n\|.*?\n\|[-|\s]+\n(.*?)\n\n', content, re.DOTALL)
+            if imminent_match:
+                for line in imminent_match.group(1).strip().split('\n'):
+                    parts = [p.strip() for p in line.split('|')[1:-1]]
+                    if len(parts) >= 6:
+                        result["imminent"].append({
+                            "id": parts[0].replace('**', ''),
+                            "prediction": parts[1],
+                            "current": parts[2],
+                            "target": parts[3],
+                            "gap": parts[4].replace('**', ''),
+                            "eta": parts[5],
+                            "agent": parts[6] if len(parts) > 6 else ""
+                        })
+            
+            # Parse approaching section
+            approaching_match = re.search(r'## 🟡 APPROACHING.*?\n\n\|.*?\n\|[-|\s]+\n(.*?)\n\n', content, re.DOTALL)
+            if approaching_match:
+                for line in approaching_match.group(1).strip().split('\n'):
+                    parts = [p.strip() for p in line.split('|')[1:-1]]
+                    if len(parts) >= 6:
+                        result["approaching"].append({
+                            "id": parts[0],
+                            "prediction": parts[1],
+                            "current": parts[2],
+                            "target": parts[3],
+                            "gap": parts[4],
+                            "eta": parts[5],
+                            "agent": parts[6] if len(parts) > 6 else ""
+                        })
+        except Exception as e:
+            print(f"[Predictions] Monitor parse error: {e}")
+    
+    # Parse PREDICTIONS.md for full data
+    if os.path.exists(predictions_file):
+        try:
+            with open(predictions_file, 'r') as f:
+                content = f.read()
+            
+            # Parse resolved section
+            resolved_match = re.search(r'## RECENTLY RESOLVED\n\n\|.*?\n\|[-|\s]+\n(.*?)\n\n---', content, re.DOTALL)
+            if resolved_match:
+                for line in resolved_match.group(1).strip().split('\n'):
+                    parts = [p.strip() for p in line.split('|')[1:-1]]
+                    if len(parts) >= 5:
+                        is_correct = '✅' in parts[2]
+                        is_wrong = '❌' in parts[2]
+                        is_partial = '⚠️' in parts[2]
+                        result["resolved"].append({
+                            "id": parts[0].replace('**', ''),
+                            "prediction": parts[1],
+                            "result": parts[2],
+                            "confidence": parts[3],
+                            "notes": parts[4] if len(parts) > 4 else ""
+                        })
+                        result["calibration"]["total"] += 1
+                        if is_correct:
+                            result["calibration"]["correct"] += 1
+                        elif is_wrong:
+                            result["calibration"]["wrong"] += 1
+                        elif is_partial:
+                            result["calibration"]["partial"] += 0.5
+                            result["calibration"]["correct"] += 0.5
+            
+            # Calculate accuracy
+            if result["calibration"]["total"] > 0:
+                result["calibration"]["accuracy"] = round(
+                    (result["calibration"]["correct"] + result["calibration"]["partial"] * 0.5) / 
+                    result["calibration"]["total"] * 100, 1
+                )
+            
+            # Parse active predictions by agent
+            agents = ["LABOR", "CARL", "REGINALD", "BROCK", "CREED", "RENO", "SAM", "LIQUID", "MARCO", "HENRY", "OTTO", "PROME", "ZHAO"]
+            for agent in agents:
+                pattern = rf'### {agent}\n\|.*?\n\|[-|\s]+\n(.*?)(?=\n\n### |\n\n---|\Z)'
+                match = re.search(pattern, content, re.DOTALL)
+                if match:
+                    predictions = []
+                    for line in match.group(1).strip().split('\n'):
+                        if not line.strip() or line.startswith('|--'):
+                            continue
+                        parts = [p.strip() for p in line.split('|')[1:-1]]
+                        if len(parts) >= 5:
+                            status = "pending"
+                            if '✅' in parts[4]:
+                                status = "confirmed"
+                            elif '⏳' in parts[4]:
+                                if 'IMMINENT' in parts[4].upper():
+                                    status = "imminent"
+                                elif 'NEW' in parts[4].upper():
+                                    status = "new"
+                                else:
+                                    status = "tracking"
+                            
+                            predictions.append({
+                                "id": parts[0],
+                                "prediction": parts[1],
+                                "timeframe": parts[2],
+                                "confidence": parts[3],
+                                "status": status,
+                                "raw_status": parts[4]
+                            })
+                    
+                    if predictions:
+                        result["by_agent"][agent] = predictions
+        
+        except Exception as e:
+            print(f"[Predictions] Parse error: {e}")
+    
+    return result
+
 def check_thresholds(prices):
     """Check prices against thresholds and generate alerts"""
     global last_breach_state
@@ -887,6 +1021,19 @@ class DashboardHandler(http.server.SimpleHTTPRequestHandler):
             self.send_header('Access-Control-Allow-Origin', '*')
             self.end_headers()
             self.wfile.write(json.dumps(entry).encode('utf-8'))
+            return
+        
+        # API endpoint to get predictions (parsed from PREDICTIONS.md)
+        if parsed.path == '/api/predictions':
+            try:
+                predictions_data = parse_predictions()
+                self.send_response(200)
+                self.send_header('Content-type', 'application/json')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                self.wfile.write(json.dumps(predictions_data).encode('utf-8'))
+            except Exception as e:
+                self.send_error(500, str(e))
             return
         
         # API endpoint to get agent statuses (dynamically parsed from STATUS.md)
