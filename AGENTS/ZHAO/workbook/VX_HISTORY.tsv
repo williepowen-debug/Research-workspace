@@ -1,0 +1,6 @@
+Date	Vector_ID	Previous_Value	New_Value	Change	Status_Change	Source	Notes
+2026-02-13	VX-ZHAO-1.01	—	481	Initial	—	TIC Data	Belgium TIC ATH - ZHAO agent created
+2026-02-13	VX-ZHAO-1.02	—	682.6	Initial	—	TIC Data	China official UST - lowest since 2008
+2026-02-13	VX-ZHAO-1.04	—	33	Initial	—	TIC Data	Belgium YoY growth rate
+2026-02-13	VX-ZHAO-2.03	—	53.9	Initial	—	HKMA	HK Aggregate Balance (stable)
+2026-02-13	VX-ZHAO-3.03	—	-14.7	Initial	—	RP-ZHAO-2	Land sale revenue YoY
