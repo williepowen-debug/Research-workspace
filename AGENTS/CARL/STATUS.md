@@ -266,6 +266,60 @@ The 30x gap = K-shape economy in one chart. Employment shock collapses prime tow
 
 ---
 
+## ABS TRUSTEE REPORT MONITORING
+
+**Status:** 🟡 FRAMEWORK ESTABLISHED
+
+**Purpose:** Real-time consumer payment stress (30-45 day lag vs NY Fed's 60-90 day)
+
+**Why This Matters:**
+- Payment Rate = **LEADING INDICATOR** — drops 1-2 months BEFORE delinquencies rise
+- Monthly granularity detects stress acceleration in real-time
+
+### Watchlist (11 trusts)
+
+**Credit Card (5):**
+- Discover Card Master Trust I
+- American Express Credit Account Master Trust
+- Capital One Multi-asset Execution Trust
+- Synchrony Credit Card Master Note Trust
+- Citibank Credit Card Issuance Trust
+
+**Auto (6):**
+- Santander Drive Auto Receivables Trust (subprime bellwether)
+- Exeter Finance auto trusts (deep subprime)
+- Ally Auto Receivables Trust (prime/near-prime)
+- CarMax Auto Owner Trust (used car)
+- Toyota Auto Receivables Owner Trust (prime baseline)
+- GM Financial Auto Leasing Trust
+
+### Key Metrics
+1. **Principal Payment Rate** — LEADING
+2. **30+ Day Delinquency** — Early stress
+3. **Charge-off Rate** — Confirmation
+4. **Vintage Performance** — 2024/2025 vs 2019
+
+### Alert Thresholds
+
+**Credit Card:**
+- 🟡 Payment rate 18-20%, 30+ DQ 4-5%
+- 🟠 Payment rate 15-18%, 30+ DQ 5-7%
+- 🔴 Payment rate <15%, 30+ DQ >7%
+
+**Subprime Auto:**
+- 🟡 Payment rate 3.5-4%, 30+ DQ 10-12%
+- 🟠 Payment rate 3-3.5%, 30+ DQ 12-15%
+- 🔴 Payment rate <3%, 30+ DQ >15%
+
+**Monthly Protocol:**
+- Week 1: Check issuer IR sites
+- Week 2-3: Pull 10-D from EDGAR
+- Week 3-4: Update VX.tsv, flag breaches
+
+**Integration:** ABS stress shows 30-60 days after UI exhaustion (FL test case)
+
+---
+
 ## FORECLOSURE TIMELINE VALIDATION
 
 **National Q4 2025:** 58,140 (+41% YoY) — 556% above Q4 2021 trough

@@ -50,6 +50,38 @@ System transitioning from **official-sector stability** to **private-sector frag
 
 ---
 
+## THE RRP STORY
+
+**What happened:**
+- RRP peaked at **$2.5T** (Dec 2022) — excess liquidity parked at Fed
+- Drained steadily as MMFs rotated to T-bills and private repo
+- Hit effective floor (~$2B) by Jan 2025
+- Fed responded with Reserve Management Purchases ($40B/mo T-bills)
+
+**Why it matters:**
+- RRP was the system's **shock absorber**
+- When funding stress hit, cash could flow OUT of RRP into markets
+- With RRP at zero, there's no buffer — stress transmits directly to rates
+
+**Current state:**
+- $1.3B (functionally zero)
+- Any TGA rebuild or auction settlement now drains reserves 1:1
+
+---
+
+## DEALER CAPACITY CONSTRAINT
+
+**The undervalued indicator:** FR 2004 Net Positioning
+
+- Dealers net long ~$200B Treasuries
+- **SLR (Supplementary Leverage Ratio) prevents balance sheet expansion**
+- Even at profitable spreads, dealers WON'T intermediate
+- When dealers "stuffed" = zero elasticity for shocks
+
+**Implication:** Market depth is an illusion. **Liquidity can vanish instantly.**
+
+---
+
 ## TRANSMISSION MECHANISMS
 
 ### 1. Basis Trade Unwind (ARMED)
@@ -73,9 +105,52 @@ China window guidance + Japan life insurer selling + Saudi deficit → $300B/yea
 
 ---
 
-## THE BELGIUM SIGNAL
+## FOREIGN OFFICIAL SECTOR WITHDRAWAL
 
-**Belgium TIC = proxy for China PBOC custody via Euroclear Brussels.**
+### The Hidden Picture: China's TRUE Exposure
+
+Official TIC shows $688B — but **misleading**:
+
+| Category | Amount |
+|----------|--------|
+| Official TIC Data | $688B |
+| Belgium/Euroclear (hidden) | $400-500B |
+| Agency Bonds | $300B+ |
+| State Bank Portfolios | $298B |
+| Shadow Bank NFAs | $500-700B |
+| **Realistic Total** | **$2.5-2.8T** |
+
+The "decline" from $1.06T (2021) is largely **migration to offshore custodians**, not exit.
+
+### Feb 2026: Window Guidance to Banks
+
+**Critical development:** Chinese regulators issued verbal directive to Big Four banks:
+- Stop adding to UST positions
+- Gradually reduce where excessive
+- **Extends mandate beyond PBOC to entire banking system**
+
+### The Convergence: $300B Annual Demand Hole
+
+| Source | Annual Withdrawal | Driver |
+|--------|-------------------|--------|
+| Japan (life insurers) | ~$150B | 30Y JGB at 3.9%, hedge costs high |
+| China (strategic) | ~$100B | Window guidance, trade war prep |
+| Saudi Arabia | ~$50B | Vision 2030 deficits |
+| **TOTAL** | **~$300B/yr** | |
+
+### Why 2026 ≠ 2016
+
+**2015-16:** China sold ~$500B, but ECB/BOJ QE created offsetting private demand.
+
+**2026:** No safety net:
+- Fed doing QT (not QE)
+- ON RRP buffer depleted
+- US deficit ~$2T/year
+- Japan also a SELLER, not buyer
+
+### The Belgium Signal
+
+**Belgium TIC = proxy for China PBOC via Euroclear Brussels.**
 
 | Metric | Value |
 |--------|-------|
@@ -85,7 +160,17 @@ China window guidance + Japan life insurer selling + Saudi deficit → $300B/yea
 
 **Interpretation:** China down $372B from peak, Belgium up $180B = net -$192B outflow. Not custody migration — actual exit.
 
-**Watch Date:** Feb 18 TIC release (Dec 2025 data), April Trump-Xi summit.
+### Who Fills the Hole?
+
+| Buyer | Mechanism | Risk |
+|-------|-----------|------|
+| Basis trade HFs | $1.4T, **18:1 leverage** | Reflexive deleveraging |
+| Domestic banks | eSLR relief (+$34.5B/G-SIB) | Regulatory capture |
+| Stablecoins/MMFs | GENIUS Act | Front-end only |
+
+**System transitions from official-sector stability to private-sector fragility.**
+
+**Watch Dates:** Feb 18 TIC release, April Trump-Xi summit
 
 ---
 

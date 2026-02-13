@@ -45,6 +45,24 @@ The equity market is **derivatives-driven** where dealer hedging dominates short
 
 ---
 
+## CTA TREND SIGNAL DASHBOARD
+
+| Metric | Current | Status | Implication |
+|--------|---------|--------|-------------|
+| **SPX vs 10-DMA** | -0.29% | 🟢 | Below avg but not stressed |
+| **SPX vs 50-DMA** | -1.02% | 🟡 | Normal pullback |
+| **SPX vs 200-DMA** | +5.84% | 🟢 | Bull trend intact |
+| **10/50 Crossover** | -50 pts | 🟠 | **10-DMA BELOW 50-DMA = Short-term CTAs BEARISH** |
+| **50/200 Crossover** | +470 pts | 🟢 | Medium-term CTAs bullish |
+| **Distance to 6494** | +356 pts | 🟢 | 5.2% cushion |
+
+**Thresholds:**
+- 🟡 YELLOW: 10-DMA > 50-DMA but narrowing (<100 pts)
+- 🟠 ORANGE: 10-DMA < 50-DMA (CURRENT) = short-term CTAs selling
+- 🔴 RED: 50-DMA approaching 200-DMA (<100 pts) OR SPX < 6,494
+
+---
+
 ## KEY LEVELS
 
 | Level | SPX Price | Significance |
@@ -65,6 +83,46 @@ The equity market is **derivatives-driven** where dealer hedging dominates short
 | 2 | Short-Term CTAs | ~$100B | Short MA breach | Days |
 | 3 | Medium-Term CTAs | ~$200B | 50/200 DMA, 6494 | 1-4 weeks |
 | 4 | Risk Parity | ~$1T | Cross-asset correlation | Monthly |
+
+---
+
+## LEADING INDICATOR SEQUENCE
+
+When stress approaches, watch for this sequence:
+
+```
+MOVE rises (VIX flat)     → 2-5 days before
+         ↓
+VIX inverts (spot > futures) → 1-3 days before
+         ↓
+GEX thins (<$2B)          → 1 day before
+         ↓
+DIX drops (<40%)          → 1-2 days before
+         ↓
+PUT WALL BREAKS           → T-0: Cascade begins
+         ↓
+CTAs flip at 6,494        → T+1 to T+5
+         ↓
+Risk parity deleverages   → T+5 to T+30 (largest, last)
+```
+
+**Currently:** All indicators GREEN/YELLOW. No sequence activation.
+
+---
+
+## HISTORICAL PATTERN MATCH
+
+| Current vs. | Similarity | Key Difference |
+|-------------|------------|----------------|
+| **Aug 2024** | HIGH | Same 0DTE regime, similar complacency |
+| **Feb 2018** | MEDIUM | No XIV-style products now |
+| **Mar 2020** | LOW | No pandemic, but credit complacency similar |
+
+**Aug 2024 lessons:**
+- VIX spike to 65 was 85% "artificial" (bid-ask widening)
+- 0DTE volume dropped 26% — liquidity withdrew
+- Recovery in 3 sessions once arbitrageurs compressed VIX basis
+- Equity bottomed same day as credit stabilized
 
 ---
 
