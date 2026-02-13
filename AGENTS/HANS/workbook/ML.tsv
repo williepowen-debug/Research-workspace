@@ -1,0 +1,4 @@
+Entry_ID	Date	Category	Finding	Source	Research_Prompt
+ML-HANS-001	2026-02-13	Setup	HANS agent initialized - Europe through US impact lens	Will directive	Initial
+ML-HANS-002	2026-02-13	Setup	Scope: Eurozone + UK + any European country with material US involvement	Will directive	Initial
+ML-HANS-003	2026-02-13	Setup	Primary channels: UST holdings, currency, ECB policy, banking, energy, risk sentiment	STATUS.md	Initial
