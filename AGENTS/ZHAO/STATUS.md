@@ -5,15 +5,15 @@
 
 ## Current Status: 🔴 CRITICAL
 
-**RESEARCH BATCH COMPLETE (7/9):**
+**RESEARCH BATCH COMPLETE (8/9):**
 - ✅ RP-ZHAO-1: Belgium Proxy Thesis
 - ✅ RP-ZHAO-2: LGFV/Banking Transmission
 - ✅ RP-ZHAO-3: PBOC Policy Playbook
 - ✅ RP-ZHAO-4: HK Peg / LERS Analysis
 - ✅ RP-ZHAO-5: Developer Bonds / Property Crisis
+- ✅ RP-ZHAO-6: Data Sources & Monitoring Guide ← NEW
 - ✅ RP-ZHAO-7: Taiwan Escalation Analysis
-- ✅ **RP-ZHAO-9: Chinese Insurers UST Holdings** ← NEW
-- ⏳ RP-ZHAO-6: Data Sources (optional)
+- ✅ RP-ZHAO-9: Chinese Insurers UST Holdings
 - ⏳ RP-ZHAO-8: Counter-thesis (optional)
 
 **Key validated theses:**
@@ -326,13 +326,42 @@
 
 ---
 
-## Data Sources
+## Data Sources (RP-ZHAO-6)
 
-- **TIC:** https://ticdata.treasury.gov/
-- **PBOC:** http://www.pbc.gov.cn/
-- **SAFE:** https://www.safe.gov.cn/
-- **Brad Setser/CFR:** https://www.cfr.org/
-- **Euroclear:** https://www.euroclear.com/
+### Primary Sources by Cadence
+
+**Daily (Automate):**
+| Source | URL |
+|--------|-----|
+| HKMA Aggregate Balance API | https://apidocs.hkma.gov.hk/documentation/market-data-and-statistics/daily-monetary-statistics/daily-figures-monetary-base/ |
+| HIBOR Fixings | https://www.hkab.org.hk/en/interest-rates/hibor |
+| ChinaBond Curves | https://yield.chinabond.com.cn/cbweb-mn/yield_main?locale=en_US |
+
+**Monthly (~45 day lag):**
+| Source | URL |
+|--------|-----|
+| TIC Table 5 | https://ticdata.treasury.gov/resource-center/data-chart-center/tic/Documents/slt_table5.html |
+| SAFE Reserves | https://www.safe.gov.cn/en/OfficialReserveAssets/index.html |
+| SAFE FX Settlement | https://www.safe.gov.cn/en/ForeignExchangeSettlementandSa/index.html |
+| NBS Property | https://data.stats.gov.cn/english/easyquery.htm?cn=C01 |
+
+**Quarterly:**
+| Source | URL (Example) |
+|--------|---------------|
+| Guizhou NPL | https://www.nfra.gov.cn/branch/guizhou/ |
+| MOF Land Revenue | https://gks.mof.gov.cn/tongjishuju/ |
+
+**Annual (~8-10 month lag):**
+| Source | URL |
+|--------|-----|
+| TIC SHL Survey (Agency MBS) | https://ticdata.treasury.gov/resource-center/data-chart-center/tic/Documents/shl2024r.pdf |
+
+### Free Aggregators
+- **Brad Setser (CFR):** @Brad_Setser — reserves, TIC analysis
+- **Michael Pettis:** @michaelxpettis — China macro
+- **China Beige Book:** @ChinaBeigeBook — ground-level data
+
+**Full reference:** `sources/RP-ZHAO-6_DATA_SOURCES_MONITORING_GUIDE.md`
 
 ---
 
