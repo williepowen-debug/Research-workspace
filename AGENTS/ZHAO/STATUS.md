@@ -1,16 +1,20 @@
 # ZHAO STATUS.md
-**Updated:** 2026-02-13 16:45 UTC
+**Updated:** 2026-02-13 18:25 UTC
 
 ---
 
 ## Current Status: 🔴 CRITICAL
 
-**RESEARCH BATCH COMPLETE (5/5):**
+**RESEARCH BATCH COMPLETE (7/9):**
 - ✅ RP-ZHAO-1: Belgium Proxy Thesis
 - ✅ RP-ZHAO-2: LGFV/Banking Transmission
 - ✅ RP-ZHAO-3: PBOC Policy Playbook
 - ✅ RP-ZHAO-4: HK Peg / LERS Analysis
 - ✅ RP-ZHAO-5: Developer Bonds / Property Crisis
+- ✅ RP-ZHAO-7: Taiwan Escalation Analysis
+- ✅ **RP-ZHAO-9: Chinese Insurers UST Holdings** ← NEW
+- ⏳ RP-ZHAO-6: Data Sources (optional)
+- ⏳ RP-ZHAO-8: Counter-thesis (optional)
 
 **Key validated theses:**
 1. **Belgium proxy = custodial arbitrage**, not dedollarization (true holdings ~$1.8-1.9T stable)
@@ -18,6 +22,8 @@
 3. **PBOC building "defensive wall"** — redundant systems for USD independence
 4. **HK peg → UST liquidation** is a direct global transmission channel (~$410B at risk)
 5. **Property sector "zombified"** — decade of deleveraging, <0.6% recovery for Evergrande
+6. **Taiwan escalation** activates ALL channels simultaneously — existing positions ARE Taiwan hedges
+7. **Chinese insurers NOT material** — ~$6B UST (vs Japan ~$500B), lagging confirmation signal only
 
 ---
 
@@ -208,7 +214,45 @@
 
 **Status:** ONGOING — Decade of slow deleveraging, NOT Lehman
 
-### 7. LGFV → Banking Transmission 🔴 VALIDATED (RP-ZHAO-2)
+### 7. Chinese Insurers 🟢 NOT MATERIAL (RP-ZHAO-9)
+
+**Scale Reality:**
+- Total overseas investments: **$76.1B** (end-2024)
+- Fixed income share: **23%** = ~$17.5B
+- **Estimated UST holdings: $3-10B** (mid ~$6B)
+
+**China ≠ Japan:**
+| Metric | China Insurers | Japan Lifers |
+|--------|---------------|--------------|
+| Foreign securities (% assets) | **1.6%** | **25.2%** |
+| Estimated UST | $3-10B | $300-500B |
+| Overseas cap | 15% | None |
+
+**Key Finding:**
+> "Official-sector and quasi-official channels are more likely to dominate China-linked UST flow narratives than insurers alone."
+
+**Channel Hierarchy (validated):**
+1. SAFE/PBOC reserves → PRIMARY (RP-ZHAO-1, 3)
+2. State banks "invisible arm" → SECONDARY (RP-ZHAO-3)
+3. LGFV → regional bank crunch → TERTIARY (RP-ZHAO-2)
+4. **Insurers → LAGGING CONFIRMATION ONLY** (RP-ZHAO-9)
+
+**Liquidation Triggers:**
+- Solvency ratio <120% (forced de-risk)
+- RMB depreciation → 15% cap binds mechanically
+- Hedging costs exceed 10% ceiling
+- Surrender wave / liquidity demand
+
+**Monitoring:**
+- NFRA funds utilization (quarterly)
+- IAMAC survey updates (irregular)
+- Average solvency ratio trends
+
+**Status:** NOT MATERIAL — Focus stays on official/state bank channels
+
+---
+
+### 8. LGFV → Banking Transmission 🔴 VALIDATED (RP-ZHAO-2)
 
 **Scale:**
 - LGFV debt: **60T RMB ($8.4T)** — IMF/Fitch estimate
@@ -254,6 +298,8 @@
 | ZHAO-8 | **Regional bank NPL >12% (any province)** | H1 2026 | 55% | ⏳ NEW (RP-ZHAO-2) |
 | ZHAO-9 | **>250 small banks consolidated in 2026** | 2026 | 60% | ⏳ NEW (RP-ZHAO-2) |
 | ZHAO-10 | **Liquidity crunch forcing UST sales (again)** | 2026 | **70%** | ⏳ NEW (RP-ZHAO-2) |
+| ZHAO-19 | **Chinese insurers' overseas FI stays <$25B** | End 2026 | **85%** | ⏳ NEW (RP-ZHAO-9) |
+| ZHAO-20 | **No insurer-driven UST liquidation event** | 2026 | **90%** | ⏳ NEW (RP-ZHAO-9) |
 
 ---
 
