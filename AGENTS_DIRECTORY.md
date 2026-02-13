@@ -1,6 +1,6 @@
 # AGENTS DIRECTORY
 
-*Quick reference for all research agents. Updated: 2026-02-05*
+*Quick reference for all research agents. Updated: 2026-02-13*
 
 ---
 
@@ -55,6 +55,13 @@
 **Critical Window:** Feb 3-8 (10Y auction ✓ → 30Y Feb 5 → Election Feb 8)
 **Role:** Japan anchor breaking = global contagion risk
 
+### ZHAO 🟠 **[NEW]**
+**Domain:** China Macro, Capital Flows, UST Holdings
+**Thesis:** "Stealth Exit" — China reducing UST via Belgium proxy, property crisis ongoing
+**Tracks:** TIC data (Belgium), PBOC, developer bonds, USD/CNY, HK peg
+**Key Levels:** Belgium >$500B (RED), China official <$700B (ORANGE), USD/CNY >7.40 (intervention)
+**Role:** The other anchor — parallel trigger via capital flight or UST liquidation
+
 ---
 
 ## SPECIALIZED AGENTS
@@ -108,7 +115,7 @@ REGINALD (bank losses follow)
 [LIQUID amplifies at any stage]
 
 HENRY tells us HOW FAST
-SAM is parallel global risk
+SAM + ZHAO are parallel global risk (Japan + China anchors)
 BROCK (under REGINALD) is private credit early warning
 ```
 
@@ -133,6 +140,7 @@ BROCK (under REGINALD) is private credit early warning
 | HENRY | `AGENTS/HENRY/STATUS.md` | `HENRY_SKELETON.md` | `workbook/` |
 | LIQUID | `AGENTS/LIQUID/STATUS.md` | `LIQUID_SKELETON.md` | `workbook/` |
 | SAM | `AGENTS/SAM/STATUS.md` | `SAM_SKELETON.md` | `workbook/` |
+| ZHAO | `AGENTS/ZHAO/STATUS.md` | — | `workbook/` |
 | CREED | `AGENTS/REGINALD/CREED/` | `CREED_SKELETON.md` | `workbook/` |
 | BROCK | `AGENTS/REGINALD/BROCK/` | `BROCK_SKELETON.md` | `workbook/` |
 | CORAL | `AGENTS/REGINALD/sub-agents/CORAL/` | — | `research/` |
