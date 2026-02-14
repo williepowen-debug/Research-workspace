@@ -78,6 +78,16 @@ The gap is extend-and-pretend: loan modifications, FHLB liquidity, regulatory fo
 - **Risk:** 10-20% of $936B wall kicked to 2028 = $94-187B deferred crisis
 - Bifurcation: office getting extensions, retail facing foreclosure
 
+### 8. DC/DOGE: Federal Employment as Discrete CRE Stress Vector (NEW Feb 2026)
+- **RP-CREED-10 completed:** DOGE = largest peacetime federal workforce cut on record
+- **271,000 federal workers cut** (9% decline) through Nov 2025, federal employment at lowest since 1966
+- **DC office vacancy: 20.0% → 22.6%** (Q1→Q2 2025) driven by federal lease terminations
+- **GSA accelerating reductions:** 3M sf eliminated FY2025, 90 properties disposed
+- **Eagle Bancorp (EGBN) canary signal:** Q1 2025 NI plunged **89% to $1.7M**, $74.9M office loan non-accrual
+- **Burke & Herbert (BHRB) deteriorating:** Allowance coverage 104.6% → 78.6% (Q1→Q2 2025)
+- **Transmission timeline:** 6-18 month lag from workforce cuts → bank CRE metrics; **peak bank stress Q2-Q4 2026**
+- Unlike 2013 sequester (temporary), DOGE cuts are permanent + coincide with 22%+ vacancy + 12% utilization crisis
+
 ---
 
 ## REGIONAL HOTSPOTS
@@ -85,7 +95,7 @@ The gap is extend-and-pretend: loan modifications, FHLB liquidity, regulatory fo
 | Market | Issue | Key Metric | Status |
 |--------|-------|------------|--------|
 | **Chicago** | Office price collapse | **-71% avg transaction pricing** (5 sales) | 🔴 RED |
-| **DC/NoVA** | Federal employment + office | 27% vacancy, DOGE cuts | 🔴 RED |
+| **DC/NoVA** | DOGE federal cuts + office | **271K jobs cut (9%), 22.6% vacancy, EGBN NI -89%** | 🔴 RED |
 | **Austin** | MF oversupply | 15.3% vacancy (worst nationally) | 🔴 RED |
 | **Florida** | Condo crisis | 1,438 blacklisted buildings, +57% foreclosures YoY | 🔴 RED |
 | **SF** | Office (AI partially offsetting) | 36% vacancy, AI = 35% of leasing | 🟠 ORANGE |
@@ -145,11 +155,16 @@ The gap is extend-and-pretend: loan modifications, FHLB liquidity, regulatory fo
 
 ## RESEARCH STATUS
 
-**Completed:** 12 research questions (RQ-CREED-001 through 012)
+**Completed:** 
+- 12 research questions (RQ-CREED-001 through 012)
+- **RP-CREED-10: DC/DOGE Federal Employment Impact on CRE** (Feb 13, 2026)
+- **RP-CREED-11: Sunbelt MF Demand Deterioration** (Feb 13, 2026)
+
 **Queued:** 6 remaining (pensions, regulatory forbearance, municipal impact, conversions, data centers, international comparison)
 
 See `RESEARCH_STATUS.md` for full research log.
 See `research/` folder for detailed outputs.
+See `sources/` folder for raw research compilations.
 
 ---
 
