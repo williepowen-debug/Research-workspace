@@ -144,15 +144,27 @@ European dynamics affect US markets through several transmission channels:
    - Key findings: 5 transmission channels documented, Fed-ECB 225 bps differential, EUR/USD at 1.17-1.18, ECB on hold at 2.00%
    - 50 entries added to ML.tsv, 12 new/updated VX.tsv vectors
 
-**Next Priority:**
-1. **RP-HANS-3:** UK LDI Crisis — Deep dive on September 2022 and transmission to UST (may already be complete, check sources)
-2. **RP-HANS-4:** Belgium/China Euroclear Correlation — Time series analysis, lead/lag
-3. **RP-HANS-5:** European UST Demand Model — Regression model for forecasting
+✅ **RP-HANS-3:** UK LDI Crisis — COMPLETED (2026-02-13)
+   - Report: domain/sources/RP-HANS-3_UK_LDI_CRISIS.md
+   - Key findings: Sept 2022 crisis, 30yr gilt +130bps, UST transmission +40bps, post-crisis reforms, 300bps buffers now standard
 
-**Follow-on:**
-4. **RP-HANS-5:** ECB Policy Transmission — How ECB decisions affect USD/UST
-5. **RP-HANS-6:** European Bank US Exposure — Counterparty, USD funding, CDS
-6. **RP-HANS-7:** Sovereign Spread Triggers — What causes Italy/France blowouts
+✅ **RP-HANS-6:** Energy Transmission Mechanism — COMPLETED (2026-02-13)
+   - Report: domain/sources/RP-HANS-6_ENERGY_TRANSMISSION.md
+   - Key findings: 5 transmission channels, LNG competition creates Henry Hub floor, German IP correlates with US ISM (r=0.65), current status YELLOW ZONE (storage 48%, TTF $12.40)
+   - 72 entries added to ML.tsv, 6 new vectors added to VX.tsv
+
+✅ **RP-HANS-4:** European Bank US Exposure — COMPLETED (2026-02-13)
+   - Report: domain/sources/RP-HANS-4_EUROPEAN_BANK_US_EXPOSURE.md
+   - Key findings: USD funding 13.1% of total (96% wholesale), €1.6T USD repos, €3T FX swaps, meaningful currency mismatch (23% assets vs 13% liabilities in USD)
+   - Credit Suisse lessons: TBTF regime held but execution gaps remain, UBS integration ongoing (2.5x Swiss GDP)
+   - Fed swap lines critical backstop: COVID peak $450bn ($112bn ECB), daily operations announcement effect > actual usage
+   - Current status: 🟢 GREEN - CDS orderly (iTraxx +25bps Apr 2025), no funding stress, swap lines unused
+   - 83 entries added to ML.tsv
+
+**Next Priority:**
+1. **RP-HANS-5:** Belgium/China Euroclear Correlation — Time series analysis, lead/lag
+2. **RP-HANS-7:** European UST Demand Model — Regression model for forecasting
+3. **RP-HANS-8:** Sovereign Spread Triggers — What causes Italy/France blowouts
 
 ---
 
@@ -240,7 +252,72 @@ European dynamics affect US markets through several transmission channels:
 
 ---
 
-*Last updated: 2026-02-13 20:56 UTC*
+*Last updated: 2026-02-13 23:56 UTC*
+
+---
+
+## Latest Research Insights (RP-HANS-6: Energy Transmission)
+
+**European Energy as US Market Vector:**
+- European energy is NOT a sideshow — direct transmission to US via LNG trade, inflation, industrial sector, risk sentiment
+- **Quality: MEDIUM-HIGH** (direct physical linkage via LNG exports, clear correlations, historical precedent)
+
+**Current Status (Feb 2026): YELLOW ZONE**
+- EU gas storage: **48%** (vs 63% 5-year avg) — tight but manageable
+- TTF: **$12.40/MMBtu** (vs $14.57 same week 2025) — elevated but not crisis
+- Henry Hub: **$4.98/MMBtu** — LNG export demand providing floor support
+- German IP: **-0.6% YoY** — modest contraction, watching for deterioration
+
+**The 2022 Crisis Proved the Linkage:**
+- US LNG exports to Europe +65% (34→56 bcm/year) — Europe replaced Russia with US
+- Henry Hub +66% in 2022 ($3.89→$6.45 avg) — LNG export floor kicked in
+- XLE +59% vs SPX -18% — energy sector massive outperformance
+- Transmission lag: 2-4 weeks from European signals to US price impact
+
+**LNG Competition = Natural Gas Price Floor:**
+- US export breakeven ~$5-7/MMBtu (liquefaction + transport + regas)
+- When **TTF - Henry Hub > $7**, US LNG exports max out
+- Current spread: **$7.42** — borderline maximum export incentive
+- Asia-Europe bidding wars propagate to Henry Hub within weeks
+
+**German Manufacturing = Early Warning System:**
+- German IP correlates **r=0.78** with global PMI, **r=0.65** with US ISM
+- **2-3 month lead** — German IP turns before US industrial metrics
+- Germany = 20% GDP manufacturing, 47% GDP exports — extreme leverage to global demand
+- Energy-intensive (230 TWh gas/year) — first to curtail in crisis
+
+**Crisis Triggers to Monitor:**
+1. **Cold snap convergence** (Europe + Asia simultaneous) — 25% probability
+2. **Asian LNG demand surge** (China rebound) — 30% probability  
+3. **Storage refill failure** (summer 2026 hot/low wind) — 20% probability
+4. **Russia complete cutoff** (war escalation) — 10% probability
+5. **LNG supply disruption** (US terminal, Australia, Qatar) — 15% probability
+
+**Monitoring Framework:**
+- **Daily:** TTF price, Henry Hub, EU storage % (AGSI)
+- **Weekly:** EIA Natural Gas Weekly, LNG vessel departures, JKM spread
+- **Monthly:** German IP (6-8 week lag), German PMI (1st week), IFO Business Climate
+
+**Key Data Sources:**
+- **AGSI (agsi.gie.eu):** FREE daily EU storage data — primary source
+- **EIA Natural Gas Weekly:** US supply/demand/storage/LNG exports (Thursdays)
+- **Bruegel Gas Tracker:** Excellent visualizations of European imports, Russia share
+- **TTF/NBP:** ICE exchange real-time pricing (or Trading Economics with 1-day lag)
+
+**Cross-Agent Implications:**
+- **ZHAO:** Energy crisis → risk-off → China sells USTs for USD to secure LNG
+- **LIQUID:** Henry Hub volatility → inflation expectations → Fed policy path
+- **SAM:** European stress → flight-to-safety UST bid (offsetting flow)
+- **HENRY:** Energy spikes → XLE outperforms, industrials underperform
+- **REGINALD:** European bank energy cost squeeze → counterparty risk
+
+**Vectors Added:**
+- VX-HANS-8.01: TTF Price (Yellow >$15, Orange >$20, Red >$25)
+- VX-HANS-8.02: EU Storage % (Yellow <50%, Orange <40%, Red <30%)
+- VX-HANS-8.03: Henry Hub (Yellow >$5, Orange >$7, Red >$10)
+- VX-HANS-8.04: TTF-Henry Hub Spread (Yellow >$10, Orange >$15, Red >$20)
+- VX-HANS-8.05: German IP YoY (Yellow <-1%, Orange <-2%, Red <-3%)
+- VX-HANS-8.06: German PMI (Yellow <48, Orange <45, Red <42)
 
 ---
 

@@ -99,3 +99,214 @@ ML-HANS-085	2026-02-13	Cross-Agent	REGINALD connection: European bank USD fundin
 ML-HANS-086	2026-02-13	Scenario	If ECB resumes cuts to 1.5%: EUR/USD falls toward 1.15, rate differential widens to 275+ bps, USD strength, US disinflation	Scenario analysis	RP-HANS-2
 ML-HANS-087	2026-02-13	Scenario	If ECB hikes 2027 while Italy debt/GDP >135%: fragmentation risk rises, TPI activation probability increases	Scenario analysis	RP-HANS-2
 ML-HANS-088	2026-02-13	Scenario	Crisis scenario (LDI 2.0 or TPI activation): flight to Treasuries, VIX spike, Fed swap line activation, EUR collapse	Scenario analysis	RP-HANS-2
+ML-HANS-089	2026-02-13	USD Funding	European banks USD funding 13.1% of total (Dec 2024), up from 12.4% (Dec 2023); 96% from wholesale markets	EBA Nov 2025	RP-HANS-4
+ML-HANS-090	2026-02-13	USD Funding	European bank USD assets 23% of balance sheet (Dec 2024), up from 19.3% YoY; meaningful currency mismatch	EBA Nov 2025	RP-HANS-4
+ML-HANS-091	2026-02-13	USD Funding	Euro area banks (48 SIs): 17% of total funding USD-denominated; 23% foreign currency (USD largest component)	ECB FSR Nov 2024	RP-HANS-4
+ML-HANS-092	2026-02-13	USD Funding	USD funding breakdown: 31% unsecured from financials (CP), 28% repos, remainder debt securities/deposits	ECB FSR Nov 2024	RP-HANS-4
+ML-HANS-093	2026-02-13	Repo Market	European banks USD repos €1.6T (Nov 2024), nearly doubled since 2022; net USD borrowers by ~€250bn	ECB FSR Nov 2024	RP-HANS-4
+ML-HANS-094	2026-02-13	Repo Market	USD repos: 85% maturity ≤1 week, 87% not centrally cleared, 70% collateral govt bonds (95% USTs)	ECB FSR Nov 2024	RP-HANS-4
+ML-HANS-095	2026-02-13	FX Swap Market	EUR/USD FX swap market: €250bn daily volume, €3T outstanding, 55% overnight maturity (Q2 2024)	ECB FSR Nov 2024	RP-HANS-4
+ML-HANS-096	2026-02-13	FX Swap Market	Top 4 euro area FX swap dealers = 60% of market (up from 50% five years ago) - high concentration	ECB FSR Nov 2024	RP-HANS-4
+ML-HANS-097	2026-02-13	FX Swap Market	Euro area banks net USD sellers to euro area non-banks; net positions tripled in 5 years (investment/pension funds 3-5x)	ECB FSR Nov 2024	RP-HANS-4
+ML-HANS-098	2026-02-13	Transmission	European banks intermediate USD: receive cash from US broker-dealers, lend to offshore investment funds	ECB FSR Nov 2024-2025	RP-HANS-4
+ML-HANS-099	2026-02-13	Transmission	70% of net USD lending by euro area banks goes to non-euro area non-banks (global USD intermediation role)	ECB FSR Nov 2024	RP-HANS-4
+ML-HANS-100	2026-02-13	Vulnerability	Short-term wholesale USD funding can expose banks to liquidity stress when funding dries up in volatility	ECB FSR Nov 2024	RP-HANS-4
+ML-HANS-101	2026-02-13	Vulnerability	USD liquidity coverage usually lower than total LCR; some EU banks NSFR <100% in USD despite meeting overall	EBA Nov 2025	RP-HANS-4
+ML-HANS-102	2026-02-13	Vulnerability	Off-balance-sheet FX swaps make it harder for policymakers to assess USD rollover needs in advance	ECB FSR Nov 2024	RP-HANS-4
+ML-HANS-103	2026-02-13	CDS Spreads	European bank CDS Apr 2025 tariff sell-off: Barclays +38bps, BNP +40bps from 2025 tights; orderly, no weak links	TwentyFour AM Apr 2025	RP-HANS-4
+ML-HANS-104	2026-02-13	CDS Spreads	iTraxx Europe Senior Financial +25bps (Apr 2025 stress week) vs +20bps broader index; differential below LT average	TwentyFour AM Apr 2025	RP-HANS-4
+ML-HANS-105	2026-02-13	CDS Spreads	Some European banks outperformed US peers in CDS (Barclays/BNP +38-40bps vs BofA/Citi +50bps) - notable reversal	TwentyFour AM Apr 2025	RP-HANS-4
+ML-HANS-106	2026-02-13	CDS Spreads	Current status Feb 2026: No signs of funding stress in European bank CDS market, moves orderly and in line with peers	TwentyFour AM analysis	RP-HANS-4
+ML-HANS-107	2026-02-13	Credit Suisse	CS share price down >90% from 2021 to March 2023; crisis years in making (scandals, losses, strategy failures)	CEPR, FINMA Dec 2023	RP-HANS-4
+ML-HANS-108	2026-02-13	Credit Suisse	CS met all regulatory requirements at failure: CET1 ~15% (vs 11% req), leverage 15%, liquidity way above - paradox	CEPR Expert Group Sept 2023	RP-HANS-4
+ML-HANS-109	2026-02-13	Credit Suisse	CS paradox explanations: (1) regulatory metrics unsuitable for confidence crisis, (2) trapped capital concerns, (3) transparency issues	CEPR Expert Group	RP-HANS-4
+ML-HANS-110	2026-02-13	Credit Suisse	UBS acquired CS for $3bn with CHF 250bn SNB liquidity (CHF 100bn federal guarantee), CHF 9bn loss guarantee	CEPR, UBS	RP-HANS-4
+ML-HANS-111	2026-02-13	Credit Suisse	CS AT1 bonds CHF 16bn fully written down (public support trigger clause) while equity got $3bn - hierarchy violation	CEPR, FINMA	RP-HANS-4
+ML-HANS-112	2026-02-13	Credit Suisse	Bail-in was technically feasible and prepared; merger chosen for fewer execution risks, not TBTF regime failure	CEPR Expert Group	RP-HANS-4
+ML-HANS-113	2026-02-13	Credit Suisse	Remaining execution risk: US SEC requirements could delay bail-in conversion beyond crisis weekend (FSB issue)	CEPR Expert Group	RP-HANS-4
+ML-HANS-114	2026-02-13	UBS Integration	UBS now 2.5x Swiss GDP - heightens TBTF risk, moral hazard; no domestic merger option if UBS fails	CEPR, UBS	RP-HANS-4
+ML-HANS-115	2026-02-13	UBS Integration	UBS disposing CS international assets: Japan wealth management deal, talks on China platform and Turkey investment bank	S&P Global	RP-HANS-4
+ML-HANS-116	2026-02-13	FINMA Lessons	FINMA took 43 investigations, 9 reprimands, 16 criminal charges, 11 enforcement proceedings (2012-2023) at CS	FINMA Dec 2023	RP-HANS-4
+ML-HANS-117	2026-02-13	FINMA Lessons	FINMA reached limits of legal powers - intensive supervision cannot prevent failure if business model fundamentally flawed	FINMA Dec 2023	RP-HANS-4
+ML-HANS-118	2026-02-13	FINMA Lessons	FINMA recommendations: Senior Managers Regime, fines power, stronger governance intervention, capital regulation improvements	FINMA Dec 2023	RP-HANS-4
+ML-HANS-119	2026-02-13	FINMA Lessons	CS parent (CS AG) had weakest capital adequacy within group - became weakest link despite group meeting requirements	FINMA, CEPR	RP-HANS-4
+ML-HANS-120	2026-02-13	Counterparty	Top 4 US banks (JPM, Citi, BofA, Goldman) account for bulk of all US derivatives exposure to European banks	OCC Q1 2025, Euromoney	RP-HANS-4
+ML-HANS-121	2026-02-13	Counterparty	Goldman Sachs $7.2T cumulative derivatives exposure to Deutsche, Barclays, RBS (2016 IMF data)	Wall St on Parade, IMF 2016	RP-HANS-4
+ML-HANS-122	2026-02-13	Counterparty	JPMorgan $54T notional derivatives exposure Q1 2024; hedges European sovereign debt via contracts with German/French lenders	OCC, CJR	RP-HANS-4
+ML-HANS-123	2026-02-13	Counterparty	IMF 2016: Deutsche Bank heavily interconnected to JPM, Citi, Goldman, MS, BofA and other European mega banks	IMF 2016, Global Research	RP-HANS-4
+ML-HANS-124	2026-02-13	Counterparty	87% of European USD repos not centrally cleared - higher counterparty risk than centrally cleared transactions	ECB FSR Nov 2024	RP-HANS-4
+ML-HANS-125	2026-02-13	European Banks	HSBC $2.99T assets (2024-end), largest European bank; BNP Paribas, Deutsche, Barclays, UBS, Credit Agricole, SocGen major players	S&P Global, GlobalData	RP-HANS-4
+ML-HANS-126	2026-02-13	European Banks	French banks' US branches most active in repo markets; German banks focus more on lending, rely on HQ funding	ECB FSR Nov 2025	RP-HANS-4
+ML-HANS-127	2026-02-13	European Banks	After decade of US decline, Euro area banks recently expanded US affiliate balance sheets (broker-dealers especially)	ECB FSR Nov 2025	RP-HANS-4
+ML-HANS-128	2026-02-13	European Banks	Societe Generale 68.5% net income surge 2024 (cost-reduction program); BNP/Credit Agricole strong corporate/wealth management	GlobalData	RP-HANS-4
+ML-HANS-129	2026-02-13	Fed Swap Lines	Permanent standing swap lines (since Oct 2013): BoC, BoE, BoJ, ECB, SNB, Bank of Mexico - unlimited	Fed, NY Fed, CFR	RP-HANS-4
+ML-HANS-130	2026-02-13	Fed Swap Lines	COVID March 2020: Fed enhanced standing lines (pricing -25bps, added 84-day), temporary lines to 9 countries ($30-60bn limits)	Fed, Richmond Fed	RP-HANS-4
+ML-HANS-131	2026-02-13	Fed Swap Lines	COVID peak April 2020: $450bn total outstanding, Japan $225bn (largest), ECB $112bn (March 18 highest since 2008)	CFR, ECB, Richmond Fed	RP-HANS-4
+ML-HANS-132	2026-02-13	Fed Swap Lines	March 20, 2020 daily 7-day USD operations announcement stopped basis spread widening; settlement normalized spreads	NY Fed Liberty St Econ	RP-HANS-4
+ML-HANS-133	2026-02-13	Fed Swap Lines	COVID March 17, 2020: overnight FX basis peaked 644bps, 3-month basis -157bps; ECB allotted $112bn March 18	ECB Econ Bulletin May 2020	RP-HANS-4
+ML-HANS-134	2026-02-13	Fed Swap Lines	Credit Suisse crisis March 2023: Fed announced daily 7-day operations March 19 (frequency increased from weekly)	Fed, Richmond Fed	RP-HANS-4
+ML-HANS-135	2026-02-13	Fed Swap Lines	2011-2012 Eurozone crisis: Nov 2011 Fed-ECB-BoJ-SNB-BoE-BoC lowered swap pricing -50bps, offered 84-day ops	CEPR, Wikipedia	RP-HANS-4
+ML-HANS-136	2026-02-13	Fed Swap Lines	Research finding: announcement of daily operations (not just actual usage) critical to normalizing basis spreads	NY Fed Goldberg/Ravazzolo 2021	RP-HANS-4
+ML-HANS-137	2026-02-13	Fed Swap Lines	Spillover effects: Major CB USD auctions (ECB, BoJ, SNB, BoE) had persistent benefits to non-major economies (egalitarian)	Dallas Fed 2024, NBER	RP-HANS-4
+ML-HANS-138	2026-02-13	Fed Swap Lines	Swap line selection criteria: "global economic significance", dollar gap in banking systems, ability to repay	FOMC transcripts Oct 2008	RP-HANS-4
+ML-HANS-139	2026-02-13	Fed Swap Lines	Emerging markets (Brazil, Mexico, Korea, Singapore) required additional collateral (Fed rights to seize NY Fed assets)	CFR, FOMC transcripts	RP-HANS-4
+ML-HANS-140	2026-02-13	Fed Swap Lines	FIMA Repo Facility (March 31, 2020): CBs can exchange Treasuries for USD; "sidestep issue" of swap line selection	Fed, Richmond Fed	RP-HANS-4
+ML-HANS-141	2026-02-13	Moral Hazard	Permanent swap lines may encourage currency mismatches - banks expect CB to provide FX in crisis, reduces market discipline	Geithner FOMC 2008, CFR	RP-HANS-4
+ML-HANS-142	2026-02-13	Basel III	US Basel III "endgame" delayed: Sept 2024 revised proposal rolled back increases, now July 2025 implementation (likely 2027)	CEPR, European Parliament	RP-HANS-4
+ML-HANS-143	2026-02-13	Basel III	EU/UK delayed Basel III implementation citing US inaction; UK pushed to Jan 1, 2027; creates regulatory arbitrage	Bank of England, CEPR	RP-HANS-4
+ML-HANS-144	2026-02-13	Basel III	ECB stress test 2025: average Basel III impact in first year close to zero; capital requirements declined for some banks	ECB Banking Supervision	RP-HANS-4
+ML-HANS-145	2026-02-13	Capital	No evidence capital requirements are binding constraint for European banks in 2025; strong 2024 earnings, well-capitalized	Bruegel, ECB	RP-HANS-4
+ML-HANS-146	2026-02-13	Capital	Trapped capital concern: foreign supervisors ring-fence capital in subsidiaries, limits upstreaming to parent (CS issue)	FINMA, CEPR	RP-HANS-4
+ML-HANS-147	2026-02-13	Capital	Fed IHC rules: foreign banks >$50bn US assets must form US IHC, subject to US capital/liquidity requirements	Federal Reserve	RP-HANS-4
+ML-HANS-148	2026-02-13	Thresholds	Proposed: iTraxx Europe Senior Financial >50bps YELLOW, >75bps ORANGE, >125bps RED	Analysis synthesis	RP-HANS-4
+ML-HANS-149	2026-02-13	Thresholds	Proposed: EUR/USD 3M basis swap <-25bps YELLOW, <-50bps ORANGE, <-100bps RED	Analysis synthesis	RP-HANS-4
+ML-HANS-150	2026-02-13	Thresholds	Proposed: Fed ECB swap line outstanding >$10bn YELLOW, >$50bn ORANGE, >$100bn RED	Analysis synthesis	RP-HANS-4
+ML-HANS-151	2026-02-13	Thresholds	Proposed: Deutsche Bank 5Y CDS >75bps YELLOW, >125bps ORANGE, >200bps RED	Analysis synthesis	RP-HANS-4
+ML-HANS-152	2026-02-13	Thresholds	Proposed: European bank USD funding % >14% YELLOW, >15% ORANGE, >16% RED	Analysis synthesis	RP-HANS-4
+ML-HANS-153	2026-02-13	Scenario	Orderly stress (swap activation): -5 to -10bps UST 10Y, +10-20bps US bank CDS, -2 to -5% S&P; 25-30% probability next 12mo	Analysis	RP-HANS-4
+ML-HANS-154	2026-02-13	Scenario	Major bank failure: -30 to -50bps initial UST (then +20-40bps selling), +50-100bps US bank CDS, -10 to -20% S&P; 5-10% probability	Analysis	RP-HANS-4
+ML-HANS-155	2026-02-13	Scenario	Sovereign-bank doom loop (Italy): volatile UST (-50bps then +30-60bps), VIX >50, -15 to -25% S&P; 10-15% probability	Analysis	RP-HANS-4
+ML-HANS-156	2026-02-13	Transmission	European bank stress transmits via: (1) USD funding freeze, (2) forced UST sales, (3) derivatives counterparty, (4) risk-off, (5) USD intermediation halt	Analysis synthesis	RP-HANS-4
+ML-HANS-157	2026-02-13	Transmission	If European banks reduce USD intermediation (€1.6T repos, €3T FX swaps): offshore funds, hedge funds face USD shortages	ECB, Analysis	RP-HANS-4
+ML-HANS-158	2026-02-13	Transmission	European crisis forced asset sales: $500-600bn European-held USTs at risk in crisis scenario, ~€700bn USD lending contracts	Analysis	RP-HANS-4
+ML-HANS-159	2026-02-13	Cross-Agent	ZHAO alert: European bank stress could trigger Belgium (Euroclear) UST custody shifts as China/foreign holders reposition	Analysis	RP-HANS-4
+ML-HANS-160	2026-02-13	Cross-Agent	LIQUID alert: ECB swap line usage >$50bn signals USD funding stress in European banking system, money market pressure	Analysis	RP-HANS-4
+ML-HANS-161	2026-02-13	Cross-Agent	REGINALD alert: iTraxx Europe Senior Financial >100bps or major European bank CDS >200bps = counterparty risk spike	Analysis	RP-HANS-4
+ML-HANS-162	2026-02-13	Cross-Agent	SAM comparison: European banks more vulnerable than Japanese banks (wholesale/short-term USD funding vs official reserves)	Analysis	RP-HANS-4
+ML-HANS-163	2026-02-13	Cross-Agent	HENRY alert: European bank equity index (SX7P) -15% in 5 days = risk-off contagion to US equities likely	Analysis	RP-HANS-4
+ML-HANS-164	2026-02-13	Data Source	Fed H.4.1 Weekly: Central bank liquidity swaps outstanding by institution (released Thursdays)	Federal Reserve	RP-HANS-4
+ML-HANS-165	2026-02-13	Data Source	EBA Risk Dashboard (semi-annual): European bank USD funding share, currency mismatch metrics	eba.europa.eu	RP-HANS-4
+ML-HANS-166	2026-02-13	Data Source	ECB FSR (semi-annual): Repo/FX swap data, USD intermediation analysis, balance sheet breakdowns	ecb.europa.eu	RP-HANS-4
+ML-HANS-167	2026-02-13	Data Source	OCC Derivatives Report (quarterly): US bank counterparty exposures, derivatives notional by bank	occ.gov	RP-HANS-4
+ML-HANS-168	2026-02-13	Data Source	Markit iTraxx Europe indices (daily): European bank CDS spreads, financials vs non-financials differential	Bloomberg, Markit	RP-HANS-4
+ML-HANS-169	2026-02-13	Historical	2008 crisis: Fed swap lines to ECB/SNB Dec 2007, expanded to 9 additional CBs post-Lehman (Sept-Oct 2008)	CFR, Federal Reserve	RP-HANS-4
+ML-HANS-170	2026-02-13	Historical	European banks reduced US presence for decade post-2008, recently reversing (broker-dealer expansion)	ECB FSR Nov 2025	RP-HANS-4
+ML-HANS-171	2026-02-13	Current Status	Feb 2026: European bank stress levels LOW - CDS orderly, no weak links, USD funding metrics stable, swap lines unused	Multiple sources	RP-HANS-4
+ML-HANS-089	2026-02-13	Sovereign_Spreads	BTP-Bund spread historical: ~550bps peak (Nov 2011), ~330bps (Nov 2018 budget), ~240bps (July 2022 Draghi collapse)	Reuters, Bruegel, Finimize	RP-HANS-5
+ML-HANS-090	2026-02-13	Sovereign_Spreads	Italy spread triggers: political chaos, populist coalitions, anti-euro rhetoric, fiscal profligacy, redenomination risk	Historical analysis	RP-HANS-5
+ML-HANS-091	2026-02-13	Sovereign_Spreads	Redenomination risk explained ~50% of 250bps Italy yield spike during 2011-2012 crisis - euro breakup fears priced in	Allianz Trade analysis	RP-HANS-5
+ML-HANS-092	2026-02-13	Sovereign_Spreads	Italy spread >200bps transmits to corporate borrowing costs within 6-9 months; 2011 spread rise blocked ECB easing transmission	Bruegel 2018	RP-HANS-5
+ML-HANS-093	2026-02-13	Sovereign_Spreads	March 2025: BTP-Bund spread fell below 100bps (lowest since 2021) due to German debt brake loosening + Italy fiscal discipline	Reuters March 2025	RP-HANS-5
+ML-HANS-094	2026-02-13	France_Political	France OAT-Bund spread hit 84bps (Dec 2024) - widest since Sept 2012 crisis; Barnier budget crisis, Article 49.3 invoked	Euronews Dec 2024	RP-HANS-5
+ML-HANS-095	2026-02-13	France_Political	France debt/GDP 114.1% (Q1 2025), 3rd highest in eurozone; fiscal deficit 5.5% projected (vs 5% target)	OMFIF Oct 2025	RP-HANS-5
+ML-HANS-096	2026-02-13	France_Political	Political instability premium: 21bps of France spread = pure political risk; pre-election avg 53bps, post-election avg 74bps	OMFIF Oct 2025	RP-HANS-5
+ML-HANS-097	2026-02-13	France_Political	France political risk cost: €6-7.5bn over lifecycle of €457bn debt issued since June 2024 election - equivalent to APL budget	OMFIF Oct 2025	RP-HANS-5
+ML-HANS-098	2026-02-13	France_Political	France on 4th Prime Minister since June 2024 hung parliament; Lecornu government under pressure from left and right	ECFR, OMFIF	RP-HANS-5
+ML-HANS-099	2026-02-13	France_Political	France investor base: 55% foreign (higher than Italy/Spain), 25% foreign NBFIs (most flight-prone) - high spread elasticity	UniCredit, OMFIF	RP-HANS-5
+ML-HANS-100	2026-02-13	France_Political	France downgraded by all 3 major agencies 2024-2025: S&P (Oct 2025), Fitch, Moody's - fiscal trajectory deterioration	OMFIF, Fitch	RP-HANS-5
+ML-HANS-101	2026-02-13	Eurozone_Crisis	2011-2012 crisis transmission to US: UST 10Y fell ~100bps during European stress peaks - flight-to-safety dominated	IMF WP 2011, ABC News	RP-HANS-5
+ML-HANS-102	2026-02-13	Eurozone_Crisis	Nov 30, 2011: Fed-ECB-BoJ-BoE-SNB coordinated USD swap line expansion (-50bps) to prevent European bank dollar funding freeze	Multiple sources	RP-HANS-5
+ML-HANS-103	2026-02-13	Eurozone_Crisis	2011 European crisis: investors accepted negative real returns on UST to escape sovereign risk - extreme flight-to-quality	ABC News Jan 2012	RP-HANS-5
+ML-HANS-104	2026-02-13	UST_Impact	Moderate European sovereign stress (spreads 150-250bps) = UST rally 20-50bps, dollar +2-5%, S&P 500 -5-15%	Analysis synthesis	RP-HANS-5
+ML-HANS-105	2026-02-13	UST_Impact	Severe fragmentation (spreads >300bps, redenomination risk) = systemic risk-off, can HURT UST despite flight bid (liquidity crunch)	Analysis synthesis	RP-HANS-5
+ML-HANS-106	2026-02-13	UST_Impact	European stress HELPS UST when: isolated periphery, ECB backstop credible, no bank runs, no dollar funding stress	Analysis synthesis	RP-HANS-5
+ML-HANS-107	2026-02-13	UST_Impact	European stress HURTS UST when: France+Germany stressed, euro breakup fears, bank funding freeze, Fed swap lines activated	Analysis synthesis	RP-HANS-5
+ML-HANS-108	2026-02-13	UST_Impact	Aug-Nov 2011 example: Italy spread 300-550bps -> UST rallied (3.0% to 1.8%), BUT required Fed swap line intervention	Historical analysis	RP-HANS-5
+ML-HANS-109	2026-02-13	ECB_OMT	OMT announced Sept 2012: unlimited bond purchases (1-3yr maturity), requires ESM program + IMF conditionality, never activated	ECB Sept 2012	RP-HANS-5
+ML-HANS-110	2026-02-13	ECB_OMT	OMT key features: no ex ante size limit, pari passu creditor status, fully sterilized, requires full ESM program compliance	ECB Sept 2012	RP-HANS-5
+ML-HANS-111	2026-02-13	ECB_OMT	OMT effectiveness paradox: "whatever it takes" credibility despite never being used - spreads collapsed on announcement alone	ECB Draghi 2013	RP-HANS-5
+ML-HANS-112	2026-02-13	ECB_OMT	OMT limits: political cost of ESM conditionality, stigma of market access loss, Bundesbank opposition, unclear activation threshold	OMFIF, Bundesbank	RP-HANS-5
+ML-HANS-113	2026-02-13	ECB_TPI	TPI announced July 2022: counters "unwarranted disorderly" spread widening, 1-10yr bonds, no ESM program required	ECB July 2022	RP-HANS-5
+ML-HANS-114	2026-02-13	ECB_TPI	TPI eligibility (cumulative): no EDP/failed action, no excessive imbalances, sustainable debt, sound macro policies	ECB July 2022	RP-HANS-5
+ML-HANS-115	2026-02-13	ECB_TPI	TPI vs OMT: TPI = ECB autonomous (1-10yr); OMT = requires ESM program (1-3yr); both unlimited, sterilized	OMFIF, Bundesbank	RP-HANS-5
+ML-HANS-116	2026-02-13	ECB_TPI	France currently INELIGIBLE for TPI (under Excessive Deficit Procedure), but ECB has "substantial discretion" to waive	OMFIF Aug 2022	RP-HANS-5
+ML-HANS-117	2026-02-13	ECB_TPI	TPI credibility untested (never activated); announced with 50bps ECB rate hike to allow tightening without fragmentation	OMFIF Aug 2022	RP-HANS-5
+ML-HANS-118	2026-02-13	ECB_TPI	TPI risk: "fiscal trap" if ECB becomes only buyer for high-debt sovereigns, drying up market liquidity and free float	OMFIF Aug 2022	RP-HANS-5
+ML-HANS-119	2026-02-13	Political_Calendar	2026 Q1: Spain regional (Feb 8 Aragon, Mar 15 Castilla y León), France municipal (Mar 15), Germany state (Mar)	Euronews Dec 2025	RP-HANS-5
+ML-HANS-120	2026-02-13	Political_Calendar	2026 Q2-Q3: Hungary parliamentary (Orbán at risk), Italy referendum, Spain Andalusia (June 30), Germany state (Sept)	Euronews Dec 2025	RP-HANS-5
+ML-HANS-121	2026-02-13	Political_Calendar	2026 Q3-Q4: Sweden general (Sept), Latvia/Denmark parliamentary (Oct), Bulgaria presidential (Nov 8), US midterms (Nov)	Euronews Dec 2025	RP-HANS-5
+ML-HANS-122	2026-02-13	Political_Calendar	High risk: Germany AfD could win outright majority in Saxony-Anhalt (Sept 2026) - psychological barrier breach	ECFR Jan 2026	RP-HANS-5
+ML-HANS-123	2026-02-13	Political_Calendar	High risk: France Lecornu government could collapse under left-right pressure - 4th PM in 18 months signals instability	ECFR Jan 2026	RP-HANS-5
+ML-HANS-124	2026-02-13	Political_Calendar	Hungary election could end Orbán 14-year rule; Péter Magyar's Tisza party polling +13pts; impacts EU-Russia-Ukraine dynamics	Euronews Dec 2025	RP-HANS-5
+ML-HANS-125	2026-02-13	Thresholds	BTP-Bund spread: <100bps GREEN, 100-150bps YELLOW, 150-200bps ORANGE, 200-250bps RED, >250bps CRISIS	Analysis	RP-HANS-5
+ML-HANS-126	2026-02-13	Thresholds	OAT-Bund spread: <60bps GREEN, 60-80bps YELLOW, 80-100bps ORANGE, >100bps RED, >120bps CRISIS	Analysis	RP-HANS-5
+ML-HANS-127	2026-02-13	Thresholds	Spain-Bund spread: <80bps GREEN, 80-120bps YELLOW, 120-150bps ORANGE, >150bps RED	Analysis	RP-HANS-5
+ML-HANS-128	2026-02-13	Thresholds	EUR/USD: >1.05 normal, 1.00-1.05 watch, <1.00 crisis mode; USD LIBOR-OIS: <25bps normal, 25-50bps watch, >50bps crisis	Analysis	RP-HANS-5
+ML-HANS-129	2026-02-13	Thresholds	VIX: <20 normal, 20-30 yellow, 30-40 orange, >40 red (flight-to-quality but systemic risk)	Analysis	RP-HANS-5
+ML-HANS-130	2026-02-13	Triggers	European spread blowout triggers: political instability, fiscal deterioration, redenomination risk, ECB credibility loss	Analysis synthesis	RP-HANS-5
+ML-HANS-131	2026-02-13	Triggers	Warning signs of UST reversal (from help to hurt): France >100bps + Italy >250bps simultaneously, redenomination risk, bank funding freeze	Analysis	RP-HANS-5
+ML-HANS-132	2026-02-13	Triggers	Early warning: 2Y spreads widen faster than 10Y (liquidity stress), foreign NBFI selling, CDS decoupling, cross-country correlation	Analysis	RP-HANS-5
+ML-HANS-133	2026-02-13	Monitoring	Daily (if spread alert): Italy 10Y >150bps, France 10Y >80bps, EUR/USD <1.05	VX.tsv recommendation	RP-HANS-5
+ML-HANS-134	2026-02-13	Monitoring	Weekly: All periphery spreads, ECB speeches/minutes, political calendar updates	Protocol	RP-HANS-5
+ML-HANS-135	2026-02-13	Monitoring	Monthly: TIC European UST holdings, ECB balance sheet PEPP reinvestment, European bank USD funding indicators	Protocol	RP-HANS-5
+ML-HANS-136	2026-02-13	Cross-Agent	ZHAO: Belgium=Euroclear=European sovereign custody; monitor overlap with spread stress (repatriation risk)	Analysis	RP-HANS-5
+ML-HANS-137	2026-02-13	Cross-Agent	LIQUID: ECB balance sheet, PEPP reinvestment tracking; 100% Italy reinvestment June-July = selective intervention signal	Analysis	RP-HANS-5
+ML-HANS-138	2026-02-13	Cross-Agent	SAM: European UST holdings (TIC data) overlay with sovereign stress - flight-to-safety = European selling EGBs, buying UST	Analysis	RP-HANS-5
+ML-HANS-139	2026-02-13	Cross-Agent	HENRY: European equity risk-off spillover to US when sovereign stress; VSTOXX >35-40 = contagion to VIX/S&P 500	Analysis	RP-HANS-5
+ML-HANS-140	2026-02-13	Cross-Agent	REGINALD: US bank exposure to European counterparties; US MMF holdings of European CP/CD at risk in funding freeze	Analysis	RP-HANS-5
+ML-HANS-141	2026-02-13	Data_Source	MTS Markets: real-time European sovereign spreads vs Germany benchmark	mtsmarkets.com	RP-HANS-5
+ML-HANS-142	2026-02-13	Data_Source	ECB PEPP reinvestment data: monthly publication shows country allocation (100% Italy concentration = stress signal)	ecb.europa.eu	RP-HANS-5
+ML-HANS-143	2026-02-13	Research_Gap	2Y spread dynamics (liquidity stress leading indicator) need real-time monitoring dashboard	Next steps	RP-HANS-5
+ML-HANS-144	2026-02-13	Research_Gap	European bank CDS vs sovereign CDS correlation analysis - corporate-sovereign doom loop monitoring	Next steps	RP-HANS-5
+ML-HANS-089	2026-02-13	Energy Crisis	2022 European energy crisis: Russia invaded Ukraine Feb 24, Nord Stream sabotaged Sept, TTF peaked €345/MWh (~$103/MMBtu) Aug 2022	IEA, Bruegel	RP-HANS-6
+ML-HANS-090	2026-02-13	Energy Crisis	2022 crisis transmission to US: Henry Hub +66% ($3.89 -> $6.45 avg), XLE +59% (vs SPX -18%), Energy CPI +29.3% YoY	EIA, S&P	RP-HANS-6
+ML-HANS-091	2026-02-13	LNG Trade	US LNG exports to Europe surged 65% in 2022 (34 bcm -> 56 bcm), Europe replaced Russia with US as primary gas supplier	IEA, EIA	RP-HANS-6
+ML-HANS-092	2026-02-13	LNG Trade	US became Europe's largest LNG supplier 2022; current exports ~60+ bcm/year, annualized 14 bcf/d (Jan 2026 data)	EIA Weekly	RP-HANS-6
+ML-HANS-093	2026-02-13	LNG Trade	37 LNG vessels departed US ports Jan 15-21, 2026 (~139 bcf capacity); Sabine Pass (9), Plaquemines (8), Corpus Christi (6)	EIA Weekly	RP-HANS-6
+ML-HANS-094	2026-02-13	LNG Competition	LNG arbitrage: US export breakeven ~$5-7/MMBtu; when TTF-Henry Hub >$7, exports max out; creates Henry Hub price floor	Analysis	RP-HANS-6
+ML-HANS-095	2026-02-13	LNG Competition	Asia-Europe LNG bidding war: China demand surge (restock/cold) -> Asia outbids Europe -> European storage draw -> TTF spikes -> Henry Hub follows	Mechanism	RP-HANS-6
+ML-HANS-096	2026-02-13	Current Prices	Henry Hub: $4.98/MMBtu (Jan 21, 2026, up from $3.12 week prior - cold snap); TTF: $12.40/MMBtu (weekly avg); JKM: $10.73/MMBtu	EIA, Bloomberg	RP-HANS-6
+ML-HANS-097	2026-02-13	Current Prices	TTF $12.40/MMBtu vs $14.57 same week 2025 - elevated but not crisis; normal pre-crisis $5-8/MMBtu, 2022 peak $103	Bloomberg	RP-HANS-6
+ML-HANS-098	2026-02-13	EU Storage	European gas storage 48% full (Jan 20, 2026) vs 63% 5-year average - YELLOW ZONE (crisis <30%, warning <40%)	AGSI (Gas Infrastructure Europe)	RP-HANS-6
+ML-HANS-099	2026-02-13	EU Storage	If withdrawals match 5yr avg (14.5 bcf/d through March), end-of-season storage ~25-30%; historical low 20% (2018)	EIA, AGSI analysis	RP-HANS-6
+ML-HANS-100	2026-02-13	Russia Dependence	Russia gas to Europe down 90% from pre-war: ~30-35 bcm/year (7-8% share) vs 155 bcm/year (40% share) in 2021	Bruegel, IEA	RP-HANS-6
+ML-HANS-101	2026-02-13	Russia Dependence	Europe's new suppliers: US LNG 60 bcm, Norway pipeline 100 bcm, Algeria 30 bcm, Qatar LNG 20 bcm, spot LNG 40 bcm	IEA, Bruegel	RP-HANS-6
+ML-HANS-102	2026-02-13	Germany IP	German industrial production -0.6% YoY (Dec 2025), -1.9% MoM; peak crisis impact -4.1% YoY (Nov 2022)	Destatis, Trading Economics	RP-HANS-6
+ML-HANS-103	2026-02-13	Germany IP	Germany = 20% GDP manufacturing (vs 11% US, 8% UK); energy-intensive (230 TWh gas/year, 40% of total gas demand)	Destatis	RP-HANS-6
+ML-HANS-104	2026-02-13	Germany Sectors	Key German sectors: motor vehicles 12%, machinery 12%, metals 10%, chemicals 7%; chemicals/metals heavily gas-dependent	Trading Economics	RP-HANS-6
+ML-HANS-105	2026-02-13	Bellwether	German IP correlates with global PMI (r=0.78) and US ISM Manufacturing (r=0.65); 2-3 month lead on US metrics	Analysis 2015-2025	RP-HANS-6
+ML-HANS-106	2026-02-13	Bellwether	Germany = largest EU economy (25% GDP), export-oriented (47% GDP vs 12% US), supply chain hub, capital goods leader	Analysis	RP-HANS-6
+ML-HANS-107	2026-02-13	Supply Chain	2022 crisis: BASF curtailed ammonia (gas-intensive) at Ludwigshafen -> global fertilizer shortage -> US ag input costs +30-40%	Various	RP-HANS-6
+ML-HANS-108	2026-02-13	Supply Chain	European aluminum/steel smelters shut 30-40% capacity 2022 -> US metal prices elevated, construction costs up	Various	RP-HANS-6
+ML-HANS-109	2026-02-13	Supply Chain	US imports from Germany fell -8.2% in 2023 vs 2022 - supply chain stress visible in bilateral trade	Trade data	RP-HANS-6
+ML-HANS-110	2026-02-13	Demand Destruction	EU gas consumption fell ~15% in 2022 vs 2021; IEA projected potential 27 bcm supply gap in 2023 if Russia cut to zero	IEA report 2023	RP-HANS-6
+ML-HANS-111	2026-02-13	Demand Destruction	Permanent industrial demand down -10% vs 2021; energy-intensive industries relocated (fertilizer offline, smelters closed)	Estimate	RP-HANS-6
+ML-HANS-112	2026-02-13	Crisis Triggers	Scenario 1 (25% prob): Cold snap Europe+Asia -> LNG bidding war -> Henry Hub $8-12, US CPI energy +15-20%, XLE +30%	Analysis	RP-HANS-6
+ML-HANS-113	2026-02-13	Crisis Triggers	Scenario 2 (15% prob): LNG supply disruption (US terminal outage, Australia shutdown) -> TTF $20-30, global LNG shortage	Analysis	RP-HANS-6
+ML-HANS-114	2026-02-13	Crisis Triggers	Scenario 3 (10% prob): Russia complete cutoff (war escalation) -> TTF $18-25, European recession, EUR/USD <1.05	Analysis	RP-HANS-6
+ML-HANS-115	2026-02-13	Crisis Triggers	Scenario 4 (30% prob): Asian demand surge (China rebound + cold) -> LNG demand +20%, Henry Hub $6-9, Europe loses bidding	Analysis	RP-HANS-6
+ML-HANS-116	2026-02-13	Crisis Triggers	Scenario 5 (20% prob): Storage refill failure summer 2026 (hot weather, low wind) -> fails to reach 90% by Nov -> winter crisis	Analysis	RP-HANS-6
+ML-HANS-117	2026-02-13	Crisis Triggers	Scenario 6 (12% prob): Qatar LNG disruption (conflict, sabotage) - Qatar = 25% global LNG -> TTF/JKM $25-35, Henry Hub $10-15	Analysis	RP-HANS-6
+ML-HANS-118	2026-02-13	Warning Indicators	RED ZONE: EU storage <35% end-Feb, TTF >$20/MMBtu 2+ weeks, TTF-Henry Hub >$15, German IP -3% MoM, grid emergency	Thresholds	RP-HANS-6
+ML-HANS-119	2026-02-13	Warning Indicators	ORANGE ZONE: EU storage 35-45% end-Feb, TTF $15-20, TTF-Henry Hub $10-15, German IP -1 to -3% MoM, LNG freight spike	Thresholds	RP-HANS-6
+ML-HANS-120	2026-02-13	Warning Indicators	YELLOW ZONE: EU storage 45-55% (current), TTF $10-15 (current), TTF-Henry Hub $5-10, German IP flat to -1% MoM	Thresholds	RP-HANS-6
+ML-HANS-121	2026-02-13	Warning Indicators	GREEN ZONE: EU storage >55%, TTF <$10, TTF-Henry Hub <$5, German IP growing	Thresholds	RP-HANS-6
+ML-HANS-122	2026-02-13	Leading Indicators	LNG tanker freight rates (Baltic Exchange LNG Index) - rising = high competition for cargoes, 2-4 week lead	Data source	RP-HANS-6
+ML-HANS-123	2026-02-13	Leading Indicators	JKM vs TTF spread - if JKM > TTF, Europe loses LNG bidding war to Asia, 2-4 week lead	Bloomberg	RP-HANS-6
+ML-HANS-124	2026-02-13	Leading Indicators	ECMWF (European) + CPC (US) 2-week weather forecasts - cold snaps drive demand, 2-week lead	Forecast models	RP-HANS-6
+ML-HANS-125	2026-02-13	Leading Indicators	China gas imports (JODI monthly data) - surge signals Asian LNG competition rising, 1-month lead	JODI database	RP-HANS-6
+ML-HANS-126	2026-02-13	Leading Indicators	Norwegian pipeline maintenance schedules - outages reduce European supply, creates price spikes, tracked via operator notices	Equinor, Gassco	RP-HANS-6
+ML-HANS-127	2026-02-13	Leading Indicators	France nuclear availability (EDF reports) - low nuclear = more gas demand for power generation, 1-month lead	EDF	RP-HANS-6
+ML-HANS-128	2026-02-13	Data Source	TTF (Dutch Title Transfer Facility) - primary European gas benchmark, ICE exchange, real-time pricing	www.theice.com	RP-HANS-6
+ML-HANS-129	2026-02-13	Data Source	NBP (UK National Balancing Point) - UK gas benchmark, ICE exchange, early warning for European stress	www.theice.com	RP-HANS-6
+ML-HANS-130	2026-02-13	Data Source	AGSI (Aggregated Gas Storage Inventory) - FREE daily EU storage data, updated 13:00 CET, country-level granularity	https://agsi.gie.eu/	RP-HANS-6
+ML-HANS-131	2026-02-13	Data Source	EIA Natural Gas Weekly Update (final Jan 2026, replaced by Storage Report Supplement) - supply, demand, storage, LNG exports	www.eia.gov/naturalgas/weekly/	RP-HANS-6
+ML-HANS-132	2026-02-13	Data Source	Henry Hub spot/futures - US natural gas benchmark, CME Group, real-time pricing and forward curve	www.cmegroup.com	RP-HANS-6
+ML-HANS-133	2026-02-13	Data Source	German IP (Destatis) - monthly, ~6-8 week lag; Factory Orders ~6 week lag (2mo lead on IP)	www.destatis.de/EN	RP-HANS-6
+ML-HANS-134	2026-02-13	Data Source	German Manufacturing PMI (S&P Global) - monthly, 1st week, forward-looking survey, 2-3 month lead on IP	www.spglobal.com	RP-HANS-6
+ML-HANS-135	2026-02-13	Data Source	IFO Business Climate (IFO Institute) - monthly, last week of month, sentiment and expectations	www.ifo.de/en	RP-HANS-6
+ML-HANS-136	2026-02-13	Data Source	Bruegel European gas import tracker - FREE weekly/monthly data visualizing import sources, storage, Russia share	www.bruegel.org/dataset/european-natural-gas-imports	RP-HANS-6
+ML-HANS-137	2026-02-13	Data Source	CME European Natural Gas options - exercise prices published ~13:15 London time on expiry, settlement reference	www.cmegroup.com/markets/energy/natural-gas.html	RP-HANS-6
+ML-HANS-138	2026-02-13	Henry Hub Basis	Gulf Coast LNG hubs (Houston Ship Channel) trade at premium to Henry Hub when export demand strong; current $4.55 vs $4.98	EIA Weekly	RP-HANS-6
+ML-HANS-139	2026-02-13	Henry Hub Basis	Crisis mode: Houston Ship Channel can trade $1-2/MMBtu ABOVE Henry Hub (export pull), signals max LNG export demand	EIA analysis	RP-HANS-6
+ML-HANS-140	2026-02-13	US Storage	US natural gas storage 3,065 Bcf (Jan 16, 2026), 6% above 5-year avg, 5% above year-ago; net withdrawals 120 Bcf (week)	EIA Weekly	RP-HANS-6
+ML-HANS-141	2026-02-13	US Storage	Average withdrawal rate 2% lower than 5yr avg; if trend continues, end-March storage 1,995 Bcf (177 Bcf above 5yr avg)	EIA Weekly	RP-HANS-6
+ML-HANS-142	2026-02-13	Historical	2022 Aug peak: TTF €345/MWh, JKM $70/MMBtu, Henry Hub $9.88/MMBtu - price hierarchy inverted (normal: Asia > Europe > US)	Bloomberg, EIA	RP-HANS-6
+ML-HANS-143	2026-02-13	Historical	2022 crisis averted by: industrial demand destruction -15-20%, unseasonably warm winter (HDD -10 to -15% below normal), storage >50%	IEA, NOAA	RP-HANS-6
+ML-HANS-144	2026-02-13	Historical	Sept 2022 Nord Stream sabotage permanently destroyed Russia-Germany pipeline; 3 explosions damaged NS1 and NS2	Various	RP-HANS-6
+ML-HANS-145	2026-02-13	Permanent Changes	Post-2022: Germany accelerated LNG terminals (0 -> 3 operational by 2024); US LNG export capacity increased, terminals approved	Various	RP-HANS-6
+ML-HANS-146	2026-02-13	Permanent Changes	Henry Hub price structure changed: higher floor due to LNG export optionality; natural gas viewed as strategic commodity (geopolitical premium)	Analysis	RP-HANS-6
+ML-HANS-147	2026-02-13	Transmission	5 channels Europe energy -> US markets: (1) LNG competition, (2) industrial demand destruction, (3) commodity repricing, (4) German manufacturing bellwether, (5) risk sentiment	Analysis	RP-HANS-6
+ML-HANS-148	2026-02-13	US Impact	European energy crisis -> US natural gas floor support, energy sector outperformance, inflation via CPI energy component, industrial input costs	Synthesis	RP-HANS-6
+ML-HANS-149	2026-02-13	US Impact	German IP falling + energy prices rising = US industrial sector headwinds, multinational earnings hit, reduced export demand	Correlation analysis	RP-HANS-6
+ML-HANS-150	2026-02-13	Cross-Agent	ZHAO connection: European energy crisis -> risk-off -> China may sell USTs for USD liquidity to secure LNG cargoes	Analysis	RP-HANS-6
+ML-HANS-151	2026-02-13	Cross-Agent	LIQUID connection: Henry Hub volatility -> inflation expectations -> Fed policy path -> money market rates, UST demand	Analysis	RP-HANS-6
+ML-HANS-152	2026-02-13	Cross-Agent	SAM connection: European stress -> flight to safety -> UST bid (offset to negative flows from other sources)	Analysis	RP-HANS-6
+ML-HANS-153	2026-02-13	Cross-Agent	HENRY connection: Energy price spikes -> equity volatility (XLE outperforms, industrials underperform), risk sentiment shifts	Analysis	RP-HANS-6
+ML-HANS-154	2026-02-13	Cross-Agent	REGINALD connection: European bank stress (energy cost squeeze) -> counterparty risk, USD funding needs	Analysis	RP-HANS-6
+ML-HANS-155	2026-02-13	Forecast	Base case (60% prob): EU storage navigates winter, TTF $10-15, Henry Hub $4-6, German IP flat to +0.5% YoY mid-2026	Analysis	RP-HANS-6
+ML-HANS-156	2026-02-13	Forecast	Upside (25% prob): Mild weather + high renewables, TTF $8-10, Henry Hub $3-4, energy CPI negative, rate cuts supported	Analysis	RP-HANS-6
+ML-HANS-157	2026-02-13	Forecast	Downside (15% prob): Cold snap or supply disruption, TTF $18-25, Henry Hub $7-10, German IP -2 to -3%, energy CPI +10-15%, recession risk	Analysis	RP-HANS-6
+ML-HANS-158	2026-02-13	Current Status	Overall energy transmission status: YELLOW ZONE (Feb 2026) - storage tight but manageable, prices elevated but not panicked	Assessment	RP-HANS-6
+ML-HANS-159	2026-02-13	Dashboard	European energy signals for US watchers: Daily (TTF, Henry Hub, EU storage %), Weekly (EIA report, LNG vessels, JKM spread), Monthly (German IP/PMI)	Framework	RP-HANS-6
+ML-HANS-160	2026-02-13	Dashboard	US market implications: TTF >$20 -> long XLE/UST/USD; EU storage <35% -> long nat gas futures; German IP <-2% -> short XLI	Actionable trades	RP-HANS-6

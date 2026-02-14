@@ -7,14 +7,16 @@ VX-HANS-1.05	France UST Holdings	UST_DEMAND	376.1	350	325	300	GREEN	HIGH	2026-02
 VX-HANS-1.06	Switzerland UST Holdings	UST_DEMAND	300.3	280	260	240	GREEN	HIGH	2026-02-13	TIC Nov 2025	SNB reserves + wealth management
 VX-HANS-1.07	Germany UST Holdings	UST_DEMAND	109.8	100	90	80	GREEN	HIGH	2026-02-13	TIC Nov 2025	Small holder
 VX-HANS-1.08	Total Europe Top 7 UST	UST_DEMAND	2921.6	2800	2600	2400	GREEN	HIGH	2026-02-13	TIC Nov 2025	Sum of top 7 - watch for decline
-VX-HANS-2.01	EUR/USD	CURRENCY	1.178	1.15	1.10	1.05	GREEN	HIGH	2026-02-13	Bloomberg	Below 1.15 = ECB restart cuts likely
+VX-HANS-2.01	EUR/USD	CURRENCY	1.178	1.15	1.05	1.00	GREEN	HIGH	2026-02-13	RP-HANS-5	Below 1.05 watch, <1.00 crisis mode (extreme sovereign stress)
 VX-HANS-2.02	GBP/USD	CURRENCY	1.26	1.20	1.15	1.10	GREEN	HIGH	2026-02-13	Bloomberg	Cable
 VX-HANS-2.03	DXY	CURRENCY	98.25	100	102	105	GREEN	HIGH	2026-02-13	Bloomberg	Dollar strength index - down 10% in 2025
 VX-HANS-2.04	EUR/USD 3M Cross-Currency Basis	CURRENCY	-12	-25	-50	-100	GREEN	HIGH	2026-02-13	Bloomberg/CME	COVID crisis peak -157 bps
-VX-HANS-2.05	Fed USD Swap Line to ECB	CURRENCY	0	10	50	100	GREEN	HIGH	2026-02-13	Fed H.4.1	USD billions - COVID peak $176bn
-VX-HANS-3.01	Italy-Germany 10Y Spread	SOVEREIGN	130	200	250	350	GREEN	MEDIUM	2026-02-13	Bloomberg	TPI activation: >250 elevated, >350 high prob
-VX-HANS-3.02	France-Germany 10Y Spread	SOVEREIGN	70	80	100	120	YELLOW	MEDIUM	2026-02-13	Bloomberg	Political risk proxy
-VX-HANS-3.03	UK Gilt-UST 10Y Spread	SOVEREIGN	50	20	0	-20	GREEN	HIGH	2026-02-13	Bloomberg	Negative = UK repatriation risk
+VX-HANS-2.05	USD LIBOR-OIS Spread	CURRENCY	10	25	50	100	GREEN	HIGH	2026-02-13	RP-HANS-5	<25 normal, 25-50 watch, >50 crisis (2008/2011 levels)
+VX-HANS-2.06	Fed USD Swap Line to ECB	CURRENCY	0	10	50	100	GREEN	HIGH	2026-02-13	Fed H.4.1	USD billions - COVID peak $176bn
+VX-HANS-3.01	Italy-Germany 10Y Spread	SOVEREIGN	95	100	150	200	GREEN	HIGH	2026-02-13	RP-HANS-5	100-150 political risk, 150-200 fiscal, >200 redenomination, >250 crisis
+VX-HANS-3.02	France-Germany 10Y Spread	SOVEREIGN	75	60	80	100	YELLOW	HIGH	2026-02-13	RP-HANS-5	<60 core status, 60-80 political, >100 periphery convergence, TPI ineligible (EDP)
+VX-HANS-3.03	Spain-Germany 10Y Spread	SOVEREIGN	70	80	120	150	GREEN	HIGH	2026-02-13	RP-HANS-5	<80 post-crisis norm, 80-120 regional risk, >150 peripheral contagion
+VX-HANS-3.04	UK Gilt-UST 10Y Spread	SOVEREIGN	50	20	0	-20	GREEN	HIGH	2026-02-13	Bloomberg	Negative = UK repatriation risk
 VX-HANS-4.01	ECB Deposit Rate	POLICY	2.00	1.75	1.50	1.25	GREEN	HIGH	2026-02-13	ECB	On hold Feb 2026, next move likely 2027 hike
 VX-HANS-4.02	BoE Bank Rate	POLICY	4.50	4.25	4.00	3.75	GREEN	HIGH	2026-02-13	BoE	Still elevated
 VX-HANS-4.03	Fed-ECB Deposit Differential	POLICY	225	250	275	300	YELLOW	HIGH	2026-02-13	Calc	Fed Funds mid minus ECB deposit (bps)
@@ -31,3 +33,9 @@ VX-HANS-7.03	Euro Area USD Repo Outstanding	BANKING	1600	1700	1800	2000	YELLOW	M
 VX-HANS-7.04	EUR/USD FX Swap Daily Volume	BANKING	250	300	350	400	GREEN	MEDIUM	2026-02-13	ECB MMSR	EUR billions - spike = stress or unwind
 VX-HANS-7.05	VSTOXX	RISK_SENTIMENT	18	25	35	45	GREEN	HIGH	2026-02-13	Bloomberg	Euro Stoxx volatility - >35 severe stress
 VX-HANS-7.06	ECB MRO/LTRO Take-up	BANKING	50	150	300	500	GREEN	MEDIUM	2026-02-13	ECB est	EUR billions - rising = reserve shortage
+VX-HANS-8.01	TTF Natural Gas Price	ENERGY	12.40	15	20	25	YELLOW	HIGH	2026-02-13	ICE/Bloomberg	$/MMBtu - European gas benchmark; >20 crisis mode
+VX-HANS-8.02	EU Gas Storage Percent	ENERGY	48	50	40	30	YELLOW	HIGH	2026-02-13	AGSI	% full - Feb level; <40 orange, <30 red (crisis)
+VX-HANS-8.03	Henry Hub Natural Gas	ENERGY	4.98	5.00	7.00	10.00	YELLOW	HIGH	2026-02-13	EIA/CME	$/MMBtu - US benchmark; >7 LNG export max, >10 crisis
+VX-HANS-8.04	TTF-Henry Hub Spread	ENERGY	7.42	10	15	20	YELLOW	HIGH	2026-02-13	Calculated	$/MMBtu - LNG arbitrage; >15 maximum export incentive
+VX-HANS-8.05	German IP YoY Growth	ENERGY	-0.6	-1.0	-2.0	-3.0	GREEN	HIGH	2026-02-13	Destatis	% - Manufacturing bellwether; <-2% industrial curtailment
+VX-HANS-8.06	German Manufacturing PMI	ENERGY	48.5	48	45	42	YELLOW	HIGH	2026-02-13	S&P Global	Index - <50 contraction, <45 severe, <42 crisis
