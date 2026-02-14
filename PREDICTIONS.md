@@ -3,6 +3,41 @@
 *Working model, not truth. Track our predictions to calibrate confidence over time.*
 
 **Last updated:** 2026-02-14
+**Thesis Confidence:** 80% (RED team validated — see `AGENTS/RED/RED_TEAM_REPORT_2026-02-14.md`)
+
+---
+
+## OVERALL THESIS CONFIDENCE
+
+**Current Assessment: 80%** (Updated 2026-02-14 post-additional evidence)
+
+| Date | Confidence | Event | Reasoning |
+|------|------------|-------|-----------|
+| 2026-02-14 | **80%** | Additional evidence (Wright/SAM/BROCK) | Timeline FORWARD (Feb-May), 5 paths (not 3), stress ACCELERATING |
+| 2026-02-14 | 65% | RED team challenge-back | Upgraded from 45% after defending against data |
+| 2026-02-14 | 45% | RED team initial | Downgraded from 75% on timing/soft landing concerns |
+| 2026-02-10 | 75% | Baseline | Original thesis confidence |
+
+**Final Reframe (Feb 14, Round 3):**
+> **"We're not positioned ahead of stress — we're positioned IN THE MIDDLE of it."**
+
+**Five Independent Paths to Win:**
+1. **LABOR → CARL → REGINALD** (Bottom-up) — **ALREADY FIRING** (Wright 609K Oct)
+2. **HENRY → CARL ← LABOR** (Top-down wealth) — Japan Feb 19 OR PLTR <$100
+3. **Credit bifurcation collapse** — **ALREADY FIRING** (BROCK 9 bankruptcies/week)
+4. **Japan → HENRY → CARL/REGINALD** (Independent) — **Feb 19 catalyst** (Shunto + JGB)
+5. **Housing trap → CARL** (Bypasses LABOR) — **90-day window NOW** (Wright Feb-May)
+
+**Component Confidence:**
+- Consumer stress CURRENT + ACCELERATING: **95%** ✅ (Wright 609K)
+- CRE stress CURRENT: 90% ✅ (CBRE -12%, MF DQ 0.75%)
+- Market structure fragile: **85%** ✅ (115 stocks, margin ATH, PLTR bubble)
+- Multiple independent paths: **80%** ✅ (5 paths, 3 already firing)
+- Timeline Feb-May 2026: **70%** ✅ (Wright 90-day + Japan Feb 19)
+- Jun positions profitable: **65%** ✅ (well-timed, not tight)
+- Soft landing fails: **80%** ✅ (Japan binary + Wright acceleration)
+
+---
 
 ## RECENTLY RESOLVED
 
