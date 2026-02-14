@@ -131,6 +131,7 @@
 | Date | Time | Event | Agent | Priority | Notes |
 |------|------|-------|-------|----------|-------|
 | **~Feb 25** | — | **First Brands Examiner Report** | OTTO | 🔴 CRITICAL | De Luca report on $2.3B fraud. MAY BE KILLED if Ch. 7 conversion first |
+| **~Feb 25-28** | — | **Ally 10-K Filing** | OTTO | 🟠 HIGH | Watch for Carvana-specific disclosure, forward flow language changes |
 | Feb 26 | 8:30 AM | Initial Claims | LABOR | 🟡 MEDIUM | Weekly |
 | Feb 26 | 10:00 AM | PCE (Jan 2026) | PROME | 🟠 HIGH | Fed's preferred inflation gauge |
 | Feb 27 | 8:30 AM | PPI (Jan 2026) | PROME | 🟡 MEDIUM | Producer prices |
@@ -141,6 +142,7 @@
 
 | Date | Time | Event | Agent | Priority | Notes |
 |------|------|-------|-------|----------|-------|
+| **Early Mar** | — | **CFPB Funding Lapse** | OTTO | 🔴 CRITICAL | If no congressional action, Bureau enters shutdown. Regulatory vacuum for subprime |
 | Mar 5 | 8:30 AM | Initial Claims | LABOR | 🟡 MEDIUM | Weekly |
 | **Mar 6** | 8:30 AM | **NFP (Feb 2026)** | LABOR | 🔴 CRITICAL | Monthly health check |
 | **Mar 11** | 8:30 AM | **CPI (Feb 2026)** | PROME | 🟠 HIGH | Inflation check |
