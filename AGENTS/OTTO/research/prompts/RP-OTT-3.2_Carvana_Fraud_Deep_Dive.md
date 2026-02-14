@@ -1,66 +1,72 @@
-# RP-OTT-3.2: Carvana Fraud Deep Dive
+# Research Prompt: Carvana / Drivetime Fraud Allegations Deep Dive
 
-**Priority:** HIGH
-**Created:** 2026-02-14
-**Status:** PENDING
+**Goal:** Investigate the February 2026 fraud allegations against Carvana related to its Drivetime subsidiary.
 
 ---
 
-## Research Question
+## Background Context
 
-Is Carvana the "4th cockroach" in the subprime auto fraud pattern?
+On approximately February 12, 2026, a judge ordered Carvana to turn over documents related to its Drivetime subsidiary. The allegation is that Carvana has been hiding over $1 billion in losses through Drivetime. The stock dropped approximately 16% over two days following this news.
 
-## Background
+This is potentially significant because the subprime auto lending sector has recently seen several fraud cases:
+- Tricolor Holdings: $800M collateral gap, double-pledging fraud, executives charged
+- First Brands: $9.3B bankruptcy with fraud allegations
+- PrimaLend: $286M bankruptcy
 
-**Feb 12, 2026:** Judge ordered Carvana to turn over documents related to Drivetime subsidiary. Allegation: hiding $1B+ in losses. Stock dropped ~16% in 2 days.
+---
 
-Twitter source (@JG_Nuke): "Carvana could be the next cockroach."
-
-## Key Questions
+## Research Questions
 
 ### 1. Corporate Structure
-- What is Drivetime? How does it relate to Carvana?
-- Is there off-balance sheet exposure?
-- Who are the principals? (Garcia family connections)
+- What is Drivetime and how does it relate to Carvana?
+- Who owns Drivetime? Is it a subsidiary, affiliate, or related party?
+- What is the Garcia family's role in both companies?
+- Is there off-balance sheet exposure between the entities?
+- How are transactions between Carvana and Drivetime structured?
 
 ### 2. Fraud Allegations
-- What specifically is alleged to be hidden?
-- What documents are being sought?
-- Who filed the lawsuit/motion?
-- What is the legal timeline?
+- What specifically is Carvana alleged to be hiding?
+- What documents has the court ordered to be turned over?
+- Who filed the lawsuit or motion that led to this order?
+- What court is this in and what is the case number?
+- What is the legal timeline going forward?
 
-### 3. Subprime Exposure
-- What % of Carvana originations are subprime?
-- Do they securitize? What ABS trusts?
-- Who are warehouse lenders?
-- Is there double-pledging risk like Tricolor?
+### 3. Subprime Auto Exposure
+- What percentage of Carvana's loan originations are subprime (credit scores below 620)?
+- Does Carvana securitize its auto loans? If so, what ABS trusts exist?
+- Who provides warehouse lending facilities to Carvana?
+- What is the total size of Carvana's loan portfolio?
+- Is there any risk of double-pledging similar to Tricolor?
 
-### 4. Connection to OTTO Thesis
-- Does this fit the "cockroach" pattern?
-- Is it similar to Tricolor (fraud) or PrimaLend (macro stress)?
-- Bank exposure to Carvana facilities?
+### 4. Financial Analysis
+- What are Carvana's reported vs. actual losses?
+- How has Carvana's loan performance (delinquency, charge-off rates) trended?
+- What is the breakdown of Carvana's revenue by segment?
+- Are there related-party transactions with Drivetime in the financials?
 
-### 5. Market Implications
-- CVNA market cap impact
-- Subprime auto ABS spread impact
-- Does this trigger warehouse lender tightening?
-
-## Output Format
-
-1. Executive summary (1 paragraph)
-2. Corporate structure diagram
-3. Fraud allegation timeline
-4. Transmission risk assessment
-5. Prediction: Is this the "4th case"? (with confidence)
-
-## Sources
-
-- Court filings (PACER, state courts)
-- Carvana 10-K/10-Q (Drivetime disclosures)
-- Short seller reports
-- Bloomberg, Reuters coverage
-- @JG_Nuke thread
+### 5. Market Impact
+- What has been the stock price impact?
+- Have any analysts downgraded Carvana?
+- Has there been any impact on subprime auto ABS spreads?
+- Are warehouse lenders reassessing their exposure to Carvana?
 
 ---
 
-*If confirmed as fraud, this is OTTO-001 (4th case discovered) and triggers URGENT to all agents*
+## Requested Output Format
+
+1. **Executive Summary** (2-3 paragraphs): What is the allegation and how serious is it?
+2. **Corporate Structure Diagram**: Visual showing Carvana-Drivetime relationship
+3. **Fraud Allegation Timeline**: Key dates and events
+4. **Financial Exposure Assessment**: Quantify the risk
+5. **Conclusion**: Is this a major fraud case or overblown? Confidence level?
+
+---
+
+## Suggested Sources
+
+- Court filings (search PACER and state courts for Carvana, Drivetime)
+- Carvana 10-K and 10-Q filings (search for Drivetime disclosures, related party transactions)
+- Short seller reports (Hindenburg, Muddy Waters, etc.)
+- Bloomberg, Reuters, Wall Street Journal coverage
+- SEC EDGAR filings
+- Twitter/X financial accounts covering the story
