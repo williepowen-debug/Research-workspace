@@ -24,3 +24,7 @@ FL-OTTO-022	2026-09-15	NY FAIR Business Practices Act	Finalization deadline; cod
 FL-OTTO-023	2026-04	DLT Collateral Registry Pilot	First multi-state distributed ledger for subprime auto collateral	VX-OTTO-037	WATCHING	003	If successful, eliminates double-pledging latency window
 FL-OTTO-024	2026-02-15	Fed 2026 Stress Test Scenarios	Finalization of severely adverse scenario (5.5pp unemployment, 54% equity decline)	VX-OTTO-041	WATCHING	003	First time with public comment on hypothetical conditions
 FL-OTTO-025	Ongoing	BDC Redemption Monitoring	Watch for >5% NAV redemption requests as crisis signal	VX-OTTO-032	ELEVATED	003	Feedback loop trigger; Oaktree at 4.89% already near threshold
+FL-OTTO-026	2026-02-18	Carvana Q4/FY2025 Earnings	CRITICAL: 10-K filing, GT opinion, related-party disclosures, Gotham rebuttal	VX-OTTO-060, VX-OTTO-067	CRITICAL	006	Decision point: 10-K delayed or GT resigns = RED. Clean filing + substantive rebuttal = bear thesis weakens.
+FL-OTTO-027	Ongoing	Carvana ABS Spread Monitoring	Track N-series (non-prime) spreads for contagion signal	VX-OTTO-062	ELEVATED	006	If Carvana stress spreads to broader subprime ABS market = systemic
+FL-OTTO-028	2026-03-15	Carvana Discovery Production 1	First wave: early custodian ESI due per Feb 10 order	VX-OTTO-066	WATCHING	006	May reveal DriveTime internal communications
+FL-OTTO-029	2026-06-12	Carvana Discovery Production 2	Second wave: remaining custodian ESI due	VX-OTTO-066	WATCHING	006	Rolling production through mid-2026
