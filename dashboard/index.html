@@ -2524,14 +2524,16 @@
                 { id: 'carl', label: '💳 CARL', x: 60, y: 0, fixed: true, color: { background: '#d29922', border: '#e3b341' }, font: { color: '#fff', size: 14 }, shape: 'ellipse', size: 32, borderWidth: 4 },
                 { id: 'reginald', label: '🏦 REGINALD', x: 240, y: 0, fixed: true, color: { background: '#d29922', border: '#e3b341' }, font: { color: '#fff', size: 14 }, shape: 'ellipse', size: 32, borderWidth: 4 },
                 
-                // RIGHT - Foreign channels (stacked vertically) → LIQUID
-                { id: 'zhao', label: '🇨🇳 ZHAO', x: 450, y: -100, fixed: true, color: { background: '#f85149', border: '#ff7b72' }, font: { color: '#fff', size: 13 }, shape: 'ellipse', size: 26, borderWidth: 3 },
-                { id: 'hans', label: '🇪🇺 HANS', x: 450, y: -40, fixed: true, color: { background: '#3fb950', border: '#56d364' }, font: { color: '#fff', size: 13 }, shape: 'ellipse', size: 26, borderWidth: 3 },
-                { id: 'sam', label: '🇯🇵 SAM', x: 450, y: 20, fixed: true, color: { background: '#f85149', border: '#ff7b72' }, font: { color: '#fff', size: 13 }, shape: 'ellipse', size: 26, borderWidth: 3 },
-                { id: 'liquid', label: '💧 LIQUID', x: 350, y: -40, fixed: true, color: { background: '#f85149', border: '#ff7b72' }, font: { color: '#fff', size: 13 }, shape: 'ellipse', size: 28, borderWidth: 3 },
+                // RIGHT - Foreign channels (stacked vertically on FAR right)
+                { id: 'zhao', label: '🇨🇳 ZHAO', x: 520, y: -80, fixed: true, color: { background: '#f85149', border: '#ff7b72' }, font: { color: '#fff', size: 13 }, shape: 'ellipse', size: 26, borderWidth: 3 },
+                { id: 'hans', label: '🇪🇺 HANS', x: 520, y: -20, fixed: true, color: { background: '#3fb950', border: '#56d364' }, font: { color: '#fff', size: 13 }, shape: 'ellipse', size: 26, borderWidth: 3 },
+                { id: 'sam', label: '🇯🇵 SAM', x: 520, y: 40, fixed: true, color: { background: '#f85149', border: '#ff7b72' }, font: { color: '#fff', size: 13 }, shape: 'ellipse', size: 26, borderWidth: 3 },
                 
-                // FAR RIGHT - Market monitor
-                { id: 'henry', label: '📊 HENRY', x: 450, y: 100, fixed: true, color: { background: '#e3b341', border: '#f0d060' }, font: { color: '#000', size: 13 }, shape: 'diamond', size: 26, borderWidth: 3 },
+                // LIQUID sits between foreign channels and REGINALD
+                { id: 'liquid', label: '💧 LIQUID', x: 400, y: -20, fixed: true, color: { background: '#f85149', border: '#ff7b72' }, font: { color: '#fff', size: 13 }, shape: 'ellipse', size: 30, borderWidth: 3 },
+                
+                // HENRY - Market structure monitor (below SAM, connects to positions)
+                { id: 'henry', label: '📊 HENRY', x: 400, y: 100, fixed: true, color: { background: '#e3b341', border: '#f0d060' }, font: { color: '#000', size: 13 }, shape: 'diamond', size: 28, borderWidth: 3 },
                 
                 // SUB-AGENTS - Under CARL and REGINALD
                 { id: 'gig', label: 'GIG', x: 60, y: 100, fixed: true, color: { background: '#484f58', border: '#6e7681' }, font: { color: '#fff', size: 11 }, shape: 'box', size: 16, borderWidth: 2 },
@@ -2540,33 +2542,34 @@
                 { id: 'coral', label: 'CORAL', x: 260, y: 100, fixed: true, color: { background: '#484f58', border: '#6e7681' }, font: { color: '#fff', size: 11 }, shape: 'box', size: 16, borderWidth: 2 },
                 { id: 'tex', label: 'TEX', x: 320, y: 100, fixed: true, color: { background: '#484f58', border: '#6e7681' }, font: { color: '#fff', size: 11 }, shape: 'box', size: 16, borderWidth: 2 },
                 
-                // BOTTOM - Positions
-                { id: 'positions', label: '📈 POSITIONS\nKRE | SSB | IWM | HYG', x: 240, y: 200, fixed: true, color: { background: '#a371f7', border: '#bc8cff' }, font: { color: '#fff', size: 11 }, shape: 'box', size: 22, borderWidth: 3 }
+                // BOTTOM - Positions (larger, prominent)
+                { id: 'positions', label: '📈 POSITIONS\nKRE | SSB | IWM | HYG', x: 240, y: 220, fixed: true, color: { background: '#a371f7', border: '#bc8cff' }, font: { color: '#fff', size: 14, bold: true }, shape: 'box', size: 30, borderWidth: 4 }
             ]);
             const edges = new vis.DataSet([
-                // CORE TRANSMISSION CHAIN (thick red arrows)
-                { from: 'labor', to: 'carl', arrows: 'to', color: { color: '#f85149' }, width: 5, label: 'triggers' },
-                { from: 'carl', to: 'reginald', arrows: 'to', color: { color: '#f85149' }, width: 5, label: 'converts' },
+                // ═══ CORE TRANSMISSION CHAIN (thick red arrows) ═══
+                { from: 'labor', to: 'carl', arrows: 'to', color: { color: '#f85149' }, width: 6, label: 'triggers', font: { color: '#f85149', size: 12, strokeWidth: 0 } },
+                { from: 'carl', to: 'reginald', arrows: 'to', color: { color: '#f85149' }, width: 6, label: 'converts', font: { color: '#f85149', size: 12, strokeWidth: 0 } },
                 
                 // MARCO feeds LABOR
-                { from: 'marco', to: 'labor', arrows: 'to', color: { color: '#8b949e' }, width: 2, label: 'migration' },
+                { from: 'marco', to: 'labor', arrows: 'to', color: { color: '#8b949e' }, width: 2, label: 'migration', font: { color: '#8b949e', size: 10, strokeWidth: 0 } },
                 
-                // FOREIGN CHANNELS → LIQUID (right side funnel)
-                { from: 'zhao', to: 'liquid', arrows: 'to', color: { color: '#8b949e' }, width: 2 },
-                { from: 'hans', to: 'liquid', arrows: 'to', color: { color: '#8b949e' }, width: 2 },
-                { from: 'sam', to: 'liquid', arrows: 'to', color: { color: '#8b949e' }, width: 2 },
+                // ═══ FOREIGN FLOWS → LIQUID (arrows point INTO liquid) ═══
+                { from: 'zhao', to: 'liquid', arrows: 'to', color: { color: '#58a6ff' }, width: 3, label: 'China', font: { color: '#58a6ff', size: 10, strokeWidth: 0 } },
+                { from: 'hans', to: 'liquid', arrows: 'to', color: { color: '#58a6ff' }, width: 3, label: 'Europe', font: { color: '#58a6ff', size: 10, strokeWidth: 0 } },
+                { from: 'sam', to: 'liquid', arrows: 'to', color: { color: '#58a6ff' }, width: 3, label: 'Japan', font: { color: '#58a6ff', size: 10, strokeWidth: 0 } },
                 
                 // LIQUID amplifies REGINALD
-                { from: 'liquid', to: 'reginald', arrows: 'to', color: { color: '#d29922' }, width: 4, label: 'amplifies' },
+                { from: 'liquid', to: 'reginald', arrows: 'to', color: { color: '#d29922' }, width: 5, label: 'amplifies', font: { color: '#d29922', size: 12, strokeWidth: 0 } },
                 
-                // SAM also triggers HENRY (carry unwind)
-                { from: 'sam', to: 'henry', arrows: 'to', color: { color: '#f85149' }, width: 2, label: 'carry unwind' },
+                // ═══ MARKET STRUCTURE CONNECTIONS ═══
+                { from: 'sam', to: 'henry', arrows: 'to', color: { color: '#f85149' }, width: 3, label: 'carry unwind', font: { color: '#f85149', size: 10, strokeWidth: 0 } },
+                { from: 'labor', to: 'henry', arrows: 'to', color: { color: '#8b949e' }, width: 2, dashes: true, label: 'sentiment', font: { color: '#8b949e', size: 10, strokeWidth: 0 } },
                 
-                // To POSITIONS
-                { from: 'henry', to: 'positions', arrows: 'to', color: { color: '#a371f7' }, width: 2 },
-                { from: 'reginald', to: 'positions', arrows: 'to', color: { color: '#a371f7' }, width: 2 },
+                // ═══ TO POSITIONS (purple - the payoff) ═══
+                { from: 'henry', to: 'positions', arrows: 'to', color: { color: '#a371f7' }, width: 3 },
+                { from: 'reginald', to: 'positions', arrows: 'to', color: { color: '#a371f7' }, width: 4 },
                 
-                // SUB-AGENTS
+                // ═══ SUB-AGENTS (thin gray) ═══
                 { from: 'carl', to: 'gig', arrows: 'to', color: { color: '#6e7681' }, width: 1 },
                 { from: 'reginald', to: 'creed', arrows: 'to', color: { color: '#6e7681' }, width: 1 },
                 { from: 'reginald', to: 'brock', arrows: 'to', color: { color: '#6e7681' }, width: 1 },
