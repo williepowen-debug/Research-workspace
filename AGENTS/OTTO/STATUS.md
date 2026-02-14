@@ -1,7 +1,7 @@
 # OTTO STATUS
 **Last Updated:** 2026-02-14 21:30 UTC | **Status:** 🔴 CRITICAL — Systemic Fraud + Bankruptcy Surge + Feb 18 Decisive
 
-**Vectors:** 88 | **ML Entries:** 124 | **Research Packages:** 15 complete
+**Vectors:** 88 | **ML Entries:** 130 | **Research Packages:** 15 complete
 
 ---
 
@@ -272,7 +272,7 @@ Validated by S&P CreditWatch actions on Lendbuzz/SAFCO citing immigration enforc
 
 ## KEY DOCS
 - workbook/VX.tsv (88 vectors)
-- workbook/ML.tsv (124 entries)
+- workbook/ML.tsv (130 entries)
 - workbook/FL.tsv (35 calendar items)
 - workbook/FLOW.tsv (15 pathways)
 - **research/outputs/RP-OTT-1.1 through 1.7** (7 reports — fraud/structural)
