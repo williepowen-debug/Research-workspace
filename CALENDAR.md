@@ -165,6 +165,7 @@
 |------|-------|-------|----------|-------|
 | **Mar 15** | Carvana Discovery Production 1 | OTTO | 🟠 HIGH | First wave ESI from Feb 10 order |
 | Apr 15 | Tax Season | LIQUID | 🟠 HIGH | TGA rebuild drains reserves |
+| ~Apr 15-20 | Ally Financial Q1 2026 Earnings | OTTO | 🟠 HIGH | $6B Carvana forward flow; subprime commentary |
 | **Apr 20-29** | **CONVERGENCE BANK EARNINGS** | REGINALD | 🔴 CRITICAL | ZION → WAL → VLY → EGBN |
 | **Apr 30** | **Tricolor Vehicle Liquidation Deadline** | OTTO | 🟠 HIGH | 10,000 vehicles; recovery rates indicator |
 | Apr/May | BOJ Meeting | SAM | 🟠 HIGH | Next hike window |
