@@ -1,5 +1,5 @@
 # BROCK STATUS
-**Last Updated:** 2026-02-12 19:12 UTC | **Status:** 🟠 ORANGE — Elevated Stress, Burry PLTR Thesis Adds Path 2 Risk
+**Last Updated:** 2026-02-14 20:15 UTC | **Status:** 🔴 RED — Bankruptcy Surge Validates Acceleration Thesis
 
 ---
 
@@ -7,13 +7,19 @@
 
 **"Private Credit's Public Reckoning" — PIK masks a 6% shadow default rate, not the reported 2.1%.**
 
-### 🚨 Corporate Bankruptcies Spiking (Feb 11, 2026)
+### 🚨 CORPORATE BANKRUPTCIES AT POST-COVID HIGH (Feb 14, 2026)
 
 | Metric | Value | Context |
 |--------|-------|---------|
-| Large bankruptcies last week | **9** | >$50M liabilities |
-| 3-week rolling average | **6** | **Highest since COVID** |
-| Last 3 weeks total | **18 companies** | Accelerating |
+| Large bankruptcies (week ending Feb 11) | **9** | >$50M liabilities each |
+| 3-week rolling average | **6/week** | **HIGHEST SINCE 2020** |
+| 3-week total | **18 filings** | $6-8B+ combined liabilities |
+| Jan 2026 Ch.11 commercial filings | **+76% YoY** | 956 vs 544 — largest surge since pandemic |
+| Consumer-facing sectors | **50% of filings** | Retail (30%) + Restaurants (20%) |
+
+**Upcoming risk:** QVC Group ($6.6B debt) + New Fortress Energy ($8B+) = $15B more if they file.
+
+**NEW: PE Portfolio Unwind Pattern** — Paladin Capital (20+ trucking subs), Clearlake/Pretium ($1.84B), Fat Brands (18 restaurant concepts). Pattern is overleveraged PE-backed companies collapsing.
 
 **Historical context:** Only 2001 recession, GFC (peak of 9 in 2009), and 2020 pandemic saw higher rates.
 
