@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.6/vis-network.min.js"></script>
+    <script src="https://unpkg.com/vis-network@9.1.6/dist/vis-network.min.js"></script>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         
@@ -1466,6 +1466,8 @@
                         width: 100%;
                         height: calc(100vh - 340px);
                         min-height: 500px;
+                        background: #1a1a2e;
+                        border: 1px solid #30363d;
                     }
                     #network-legend {
                         display: flex;
@@ -2501,27 +2503,45 @@
         // Network visualization
         let networkInitialized = false;
         function initNetwork() {
+            console.log('initNetwork called, initialized:', networkInitialized);
             if (networkInitialized) return;
             const container = document.getElementById('network-graph');
+            console.log('container:', container);
             if (!container) return;
+            console.log('vis available:', typeof vis);
             
+            // Fixed positions for clean hierarchical layout
+            // Row 1: PROME (top center)
+            // Row 2: Parallel foreign channels (ZHAO, HANS, SAM) + MARCO
+            // Row 3: Core transmission chain (LABOR → CARL → REGINALD) + LIQUID + HENRY
+            // Row 4: Sub-agents
+            // Row 5: POSITIONS
             const nodes = new vis.DataSet([
-                { id: 'prome', label: '🧠 PROME', color: { background: '#58a6ff', border: '#79c0ff' }, font: { color: '#fff', size: 14 }, shape: 'box', size: 35, borderWidth: 3 },
-                { id: 'labor', label: '👷 LABOR', color: { background: '#f85149', border: '#ff7b72' }, font: { color: '#fff', size: 14 }, shape: 'ellipse', size: 32, borderWidth: 4 },
-                { id: 'carl', label: '💳 CARL', color: { background: '#d29922', border: '#e3b341' }, font: { color: '#fff', size: 14 }, shape: 'ellipse', size: 32, borderWidth: 4 },
-                { id: 'reginald', label: '🏦 REGINALD', color: { background: '#d29922', border: '#e3b341' }, font: { color: '#fff', size: 14 }, shape: 'ellipse', size: 32, borderWidth: 4 },
-                { id: 'liquid', label: '💧 LIQUID', color: { background: '#f85149', border: '#ff7b72' }, font: { color: '#fff', size: 13 }, shape: 'ellipse', size: 28, borderWidth: 3 },
-                { id: 'sam', label: '🇯🇵 SAM', color: { background: '#f85149', border: '#ff7b72' }, font: { color: '#fff', size: 13 }, shape: 'ellipse', size: 28, borderWidth: 3 },
-                { id: 'zhao', label: '🇨🇳 ZHAO', color: { background: '#f85149', border: '#ff7b72' }, font: { color: '#fff', size: 13 }, shape: 'ellipse', size: 28, borderWidth: 3 },
-                { id: 'hans', label: '🇪🇺 HANS', color: { background: '#3fb950', border: '#56d364' }, font: { color: '#fff', size: 13 }, shape: 'ellipse', size: 28, borderWidth: 3 },
-                { id: 'henry', label: '📊 HENRY', color: { background: '#e3b341', border: '#f0d060' }, font: { color: '#000', size: 13 }, shape: 'diamond', size: 26, borderWidth: 3 },
-                { id: 'marco', label: '🚶 MARCO', color: { background: '#d29922', border: '#e3b341' }, font: { color: '#fff', size: 12 }, shape: 'ellipse', size: 24, borderWidth: 2 },
-                { id: 'creed', label: 'CREED', color: { background: '#484f58', border: '#6e7681' }, font: { color: '#fff', size: 11 }, shape: 'box', size: 16, borderWidth: 2 },
-                { id: 'brock', label: 'BROCK', color: { background: '#484f58', border: '#6e7681' }, font: { color: '#fff', size: 11 }, shape: 'box', size: 16, borderWidth: 2 },
-                { id: 'tex', label: 'TEX', color: { background: '#484f58', border: '#6e7681' }, font: { color: '#fff', size: 11 }, shape: 'box', size: 16, borderWidth: 2 },
-                { id: 'coral', label: 'CORAL', color: { background: '#484f58', border: '#6e7681' }, font: { color: '#fff', size: 11 }, shape: 'box', size: 16, borderWidth: 2 },
-                { id: 'gig', label: 'GIG', color: { background: '#484f58', border: '#6e7681' }, font: { color: '#fff', size: 11 }, shape: 'box', size: 16, borderWidth: 2 },
-                { id: 'positions', label: '📈 POSITIONS\nKRE | SSB | IWM | HYG', color: { background: '#a371f7', border: '#bc8cff' }, font: { color: '#fff', size: 11 }, shape: 'box', size: 22, borderWidth: 3 }
+                // Row 1 - Orchestrator
+                { id: 'prome', label: '🧠 PROME', x: 0, y: -200, fixed: true, color: { background: '#58a6ff', border: '#79c0ff' }, font: { color: '#fff', size: 14 }, shape: 'box', size: 35, borderWidth: 3 },
+                
+                // Row 2 - Foreign/Parallel channels
+                { id: 'zhao', label: '🇨🇳 ZHAO', x: -200, y: -80, fixed: true, color: { background: '#f85149', border: '#ff7b72' }, font: { color: '#fff', size: 13 }, shape: 'ellipse', size: 28, borderWidth: 3 },
+                { id: 'hans', label: '🇪🇺 HANS', x: -80, y: -80, fixed: true, color: { background: '#3fb950', border: '#56d364' }, font: { color: '#fff', size: 13 }, shape: 'ellipse', size: 28, borderWidth: 3 },
+                { id: 'sam', label: '🇯🇵 SAM', x: 200, y: -80, fixed: true, color: { background: '#f85149', border: '#ff7b72' }, font: { color: '#fff', size: 13 }, shape: 'ellipse', size: 28, borderWidth: 3 },
+                { id: 'marco', label: '🚶 MARCO', x: -320, y: 40, fixed: true, color: { background: '#d29922', border: '#e3b341' }, font: { color: '#fff', size: 12 }, shape: 'ellipse', size: 24, borderWidth: 2 },
+                
+                // Row 3 - Core transmission chain (left to right)
+                { id: 'labor', label: '👷 LABOR', x: -180, y: 40, fixed: true, color: { background: '#f85149', border: '#ff7b72' }, font: { color: '#fff', size: 14 }, shape: 'ellipse', size: 32, borderWidth: 4 },
+                { id: 'carl', label: '💳 CARL', x: 0, y: 40, fixed: true, color: { background: '#d29922', border: '#e3b341' }, font: { color: '#fff', size: 14 }, shape: 'ellipse', size: 32, borderWidth: 4 },
+                { id: 'reginald', label: '🏦 REGINALD', x: 180, y: 40, fixed: true, color: { background: '#d29922', border: '#e3b341' }, font: { color: '#fff', size: 14 }, shape: 'ellipse', size: 32, borderWidth: 4 },
+                { id: 'liquid', label: '💧 LIQUID', x: 80, y: -80, fixed: true, color: { background: '#f85149', border: '#ff7b72' }, font: { color: '#fff', size: 13 }, shape: 'ellipse', size: 28, borderWidth: 3 },
+                { id: 'henry', label: '📊 HENRY', x: 320, y: 40, fixed: true, color: { background: '#e3b341', border: '#f0d060' }, font: { color: '#000', size: 13 }, shape: 'diamond', size: 26, borderWidth: 3 },
+                
+                // Row 4 - Sub-agents (under their parents)
+                { id: 'gig', label: 'GIG', x: -40, y: 140, fixed: true, color: { background: '#484f58', border: '#6e7681' }, font: { color: '#fff', size: 11 }, shape: 'box', size: 16, borderWidth: 2 },
+                { id: 'creed', label: 'CREED', x: 100, y: 140, fixed: true, color: { background: '#484f58', border: '#6e7681' }, font: { color: '#fff', size: 11 }, shape: 'box', size: 16, borderWidth: 2 },
+                { id: 'brock', label: 'BROCK', x: 180, y: 140, fixed: true, color: { background: '#484f58', border: '#6e7681' }, font: { color: '#fff', size: 11 }, shape: 'box', size: 16, borderWidth: 2 },
+                { id: 'coral', label: 'CORAL', x: 260, y: 140, fixed: true, color: { background: '#484f58', border: '#6e7681' }, font: { color: '#fff', size: 11 }, shape: 'box', size: 16, borderWidth: 2 },
+                { id: 'tex', label: 'TEX', x: 340, y: 140, fixed: true, color: { background: '#484f58', border: '#6e7681' }, font: { color: '#fff', size: 11 }, shape: 'box', size: 16, borderWidth: 2 },
+                
+                // Row 5 - Positions (bottom)
+                { id: 'positions', label: '📈 POSITIONS\nKRE | SSB | IWM | HYG', x: 180, y: 240, fixed: true, color: { background: '#a371f7', border: '#bc8cff' }, font: { color: '#fff', size: 11 }, shape: 'box', size: 22, borderWidth: 3 }
             ]);
             const edges = new vis.DataSet([
                 { from: 'labor', to: 'carl', arrows: 'to', color: { color: '#f85149' }, width: 5, label: 'triggers' },
@@ -2549,12 +2569,7 @@
                 { from: 'zhao', to: 'sam', arrows: 'to,from', color: { color: '#6e7681' }, width: 1, dashes: true }
             ]);
             const options = {
-                physics: {
-                    enabled: true,
-                    solver: 'forceAtlas2Based',
-                    forceAtlas2Based: { gravitationalConstant: -100, centralGravity: 0.01, springLength: 160, springConstant: 0.06 },
-                    stabilization: { iterations: 250 }
-                },
+                physics: { enabled: false },  // Fixed positions, no physics
                 nodes: {
                     borderWidth: 3,
                     borderWidthSelected: 5,
@@ -2568,8 +2583,14 @@
                 },
                 interaction: { hover: true, tooltipDelay: 200 }
             };
-            new vis.Network(container, { nodes, edges }, options);
-            networkInitialized = true;
+            try {
+                new vis.Network(container, { nodes, edges }, options);
+                networkInitialized = true;
+                console.log('Network created successfully');
+            } catch(e) {
+                console.error('vis.Network error:', e);
+                container.innerHTML = '<div style="color: red; padding: 20px;">Error: ' + e.message + '</div>';
+            }
         }
         
         // Tab switching
