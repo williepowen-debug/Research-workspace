@@ -271,6 +271,7 @@ Validated by S&P CreditWatch actions on Lendbuzz/SAFCO citing immigration enforc
 ---
 
 ## KEY DOCS
+- **TRADE.md** — Position ideas from domain research (CVNA, ALLY, monolines)
 - workbook/VX.tsv (88 vectors)
 - workbook/ML.tsv (130 entries)
 - workbook/FL.tsv (35 calendar items)
