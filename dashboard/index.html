@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.6/vis-network.min.js"></script>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         
@@ -1541,81 +1542,7 @@
                     </div>
                 </div>
                 
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.6/vis-network.min.js"></script>
-                <script>
-                function initNetwork() {
-                    var nodes = new vis.DataSet([
-                        { id: 'prome', label: '🧠 PROME', color: { background: '#58a6ff', border: '#79c0ff' }, font: { color: '#fff', size: 14 }, shape: 'box', size: 35, borderWidth: 3 },
-                        { id: 'labor', label: '👷 LABOR', color: { background: '#f85149', border: '#ff7b72' }, font: { color: '#fff', size: 14 }, shape: 'ellipse', size: 32, borderWidth: 4 },
-                        { id: 'carl', label: '💳 CARL', color: { background: '#d29922', border: '#e3b341' }, font: { color: '#fff', size: 14 }, shape: 'ellipse', size: 32, borderWidth: 4 },
-                        { id: 'reginald', label: '🏦 REGINALD', color: { background: '#d29922', border: '#e3b341' }, font: { color: '#fff', size: 14 }, shape: 'ellipse', size: 32, borderWidth: 4 },
-                        { id: 'liquid', label: '💧 LIQUID', color: { background: '#f85149', border: '#ff7b72' }, font: { color: '#fff', size: 13 }, shape: 'ellipse', size: 28, borderWidth: 3 },
-                        { id: 'sam', label: '🇯🇵 SAM', color: { background: '#f85149', border: '#ff7b72' }, font: { color: '#fff', size: 13 }, shape: 'ellipse', size: 28, borderWidth: 3 },
-                        { id: 'zhao', label: '🇨🇳 ZHAO', color: { background: '#f85149', border: '#ff7b72' }, font: { color: '#fff', size: 13 }, shape: 'ellipse', size: 28, borderWidth: 3 },
-                        { id: 'hans', label: '🇪🇺 HANS', color: { background: '#3fb950', border: '#56d364' }, font: { color: '#fff', size: 13 }, shape: 'ellipse', size: 28, borderWidth: 3 },
-                        { id: 'henry', label: '📊 HENRY', color: { background: '#e3b341', border: '#f0d060' }, font: { color: '#000', size: 13 }, shape: 'diamond', size: 26, borderWidth: 3 },
-                        { id: 'marco', label: '🚶 MARCO', color: { background: '#d29922', border: '#e3b341' }, font: { color: '#fff', size: 12 }, shape: 'ellipse', size: 24, borderWidth: 2 },
-                        { id: 'creed', label: 'CREED', color: { background: '#484f58', border: '#6e7681' }, font: { color: '#fff', size: 11 }, shape: 'box', size: 16, borderWidth: 2 },
-                        { id: 'brock', label: 'BROCK', color: { background: '#484f58', border: '#6e7681' }, font: { color: '#fff', size: 11 }, shape: 'box', size: 16, borderWidth: 2 },
-                        { id: 'tex', label: 'TEX', color: { background: '#484f58', border: '#6e7681' }, font: { color: '#fff', size: 11 }, shape: 'box', size: 16, borderWidth: 2 },
-                        { id: 'coral', label: 'CORAL', color: { background: '#484f58', border: '#6e7681' }, font: { color: '#fff', size: 11 }, shape: 'box', size: 16, borderWidth: 2 },
-                        { id: 'gig', label: 'GIG', color: { background: '#484f58', border: '#6e7681' }, font: { color: '#fff', size: 11 }, shape: 'box', size: 16, borderWidth: 2 },
-                        { id: 'positions', label: '📈 POSITIONS\nKRE | SSB | IWM | HYG', color: { background: '#a371f7', border: '#bc8cff' }, font: { color: '#fff', size: 11 }, shape: 'box', size: 22, borderWidth: 3 }
-                    ]);
-                    var edges = new vis.DataSet([
-                        { from: 'labor', to: 'carl', arrows: 'to', color: { color: '#f85149' }, width: 5, label: 'triggers' },
-                        { from: 'carl', to: 'reginald', arrows: 'to', color: { color: '#f85149' }, width: 5, label: 'converts' },
-                        { from: 'prome', to: 'labor', arrows: 'to', color: { color: '#58a6ff' }, width: 2, dashes: true },
-                        { from: 'prome', to: 'carl', arrows: 'to', color: { color: '#58a6ff' }, width: 2, dashes: true },
-                        { from: 'prome', to: 'reginald', arrows: 'to', color: { color: '#58a6ff' }, width: 2, dashes: true },
-                        { from: 'prome', to: 'liquid', arrows: 'to', color: { color: '#58a6ff' }, width: 2, dashes: true },
-                        { from: 'prome', to: 'sam', arrows: 'to', color: { color: '#58a6ff' }, width: 2, dashes: true },
-                        { from: 'prome', to: 'henry', arrows: 'to', color: { color: '#58a6ff' }, width: 2, dashes: true },
-                        { from: 'sam', to: 'liquid', arrows: 'to', color: { color: '#8b949e' }, width: 2, label: 'UST flows' },
-                        { from: 'zhao', to: 'liquid', arrows: 'to', color: { color: '#8b949e' }, width: 2, label: 'Belgium' },
-                        { from: 'hans', to: 'liquid', arrows: 'to', color: { color: '#8b949e' }, width: 2, label: 'EUR/UST' },
-                        { from: 'liquid', to: 'reginald', arrows: 'to', color: { color: '#d29922' }, width: 4, label: 'amplifies' },
-                        { from: 'sam', to: 'henry', arrows: 'to', color: { color: '#f85149' }, width: 2, label: 'carry unwind' },
-                        { from: 'henry', to: 'positions', arrows: 'to', color: { color: '#a371f7' }, width: 2 },
-                        { from: 'reginald', to: 'positions', arrows: 'to', color: { color: '#a371f7' }, width: 2 },
-                        { from: 'marco', to: 'labor', arrows: 'to', color: { color: '#8b949e' }, width: 2, label: 'migration' },
-                        { from: 'reginald', to: 'creed', arrows: 'to', color: { color: '#6e7681' }, width: 1 },
-                        { from: 'reginald', to: 'brock', arrows: 'to', color: { color: '#6e7681' }, width: 1 },
-                        { from: 'reginald', to: 'tex', arrows: 'to', color: { color: '#6e7681' }, width: 1 },
-                        { from: 'reginald', to: 'coral', arrows: 'to', color: { color: '#6e7681' }, width: 1 },
-                        { from: 'carl', to: 'gig', arrows: 'to', color: { color: '#6e7681' }, width: 1 },
-                        { from: 'hans', to: 'sam', arrows: 'to,from', color: { color: '#6e7681' }, width: 1, dashes: true },
-                        { from: 'zhao', to: 'sam', arrows: 'to,from', color: { color: '#6e7681' }, width: 1, dashes: true }
-                    ]);
-                    var container = document.getElementById('network-graph');
-                    var data = { nodes: nodes, edges: edges };
-                    var options = {
-                        physics: {
-                            enabled: true,
-                            solver: 'forceAtlas2Based',
-                            forceAtlas2Based: { gravitationalConstant: -100, centralGravity: 0.01, springLength: 160, springConstant: 0.06 },
-                            stabilization: { iterations: 250 }
-                        },
-                        nodes: {
-                            borderWidth: 3,
-                            borderWidthSelected: 5,
-                            font: { face: 'arial', multi: 'html' },
-                            shadow: { enabled: true, color: 'rgba(0,0,0,0.5)', size: 10, x: 3, y: 3 }
-                        },
-                        edges: {
-                            font: { size: 10, color: '#8b949e', strokeWidth: 0 },
-                            smooth: { type: 'curvedCW', roundness: 0.2 },
-                            shadow: true
-                        },
-                        interaction: { hover: true, tooltipDelay: 200 }
-                    };
-                    new vis.Network(container, data, options);
-                }
-                // Init network when tab is shown (avoid hidden element sizing issues)
-                document.querySelector('[data-tab="network"]').addEventListener('click', function() {
-                    setTimeout(initNetwork, 100);
-                });
-                </script>
+<!-- vis.js loaded in main script section below -->
             </div>
             
             <!-- SUB-AGENTS TAB -->
@@ -2571,6 +2498,80 @@
             if (e.key === 'Escape') closeModal();
         });
         
+        // Network visualization
+        let networkInitialized = false;
+        function initNetwork() {
+            if (networkInitialized) return;
+            const container = document.getElementById('network-graph');
+            if (!container) return;
+            
+            const nodes = new vis.DataSet([
+                { id: 'prome', label: '🧠 PROME', color: { background: '#58a6ff', border: '#79c0ff' }, font: { color: '#fff', size: 14 }, shape: 'box', size: 35, borderWidth: 3 },
+                { id: 'labor', label: '👷 LABOR', color: { background: '#f85149', border: '#ff7b72' }, font: { color: '#fff', size: 14 }, shape: 'ellipse', size: 32, borderWidth: 4 },
+                { id: 'carl', label: '💳 CARL', color: { background: '#d29922', border: '#e3b341' }, font: { color: '#fff', size: 14 }, shape: 'ellipse', size: 32, borderWidth: 4 },
+                { id: 'reginald', label: '🏦 REGINALD', color: { background: '#d29922', border: '#e3b341' }, font: { color: '#fff', size: 14 }, shape: 'ellipse', size: 32, borderWidth: 4 },
+                { id: 'liquid', label: '💧 LIQUID', color: { background: '#f85149', border: '#ff7b72' }, font: { color: '#fff', size: 13 }, shape: 'ellipse', size: 28, borderWidth: 3 },
+                { id: 'sam', label: '🇯🇵 SAM', color: { background: '#f85149', border: '#ff7b72' }, font: { color: '#fff', size: 13 }, shape: 'ellipse', size: 28, borderWidth: 3 },
+                { id: 'zhao', label: '🇨🇳 ZHAO', color: { background: '#f85149', border: '#ff7b72' }, font: { color: '#fff', size: 13 }, shape: 'ellipse', size: 28, borderWidth: 3 },
+                { id: 'hans', label: '🇪🇺 HANS', color: { background: '#3fb950', border: '#56d364' }, font: { color: '#fff', size: 13 }, shape: 'ellipse', size: 28, borderWidth: 3 },
+                { id: 'henry', label: '📊 HENRY', color: { background: '#e3b341', border: '#f0d060' }, font: { color: '#000', size: 13 }, shape: 'diamond', size: 26, borderWidth: 3 },
+                { id: 'marco', label: '🚶 MARCO', color: { background: '#d29922', border: '#e3b341' }, font: { color: '#fff', size: 12 }, shape: 'ellipse', size: 24, borderWidth: 2 },
+                { id: 'creed', label: 'CREED', color: { background: '#484f58', border: '#6e7681' }, font: { color: '#fff', size: 11 }, shape: 'box', size: 16, borderWidth: 2 },
+                { id: 'brock', label: 'BROCK', color: { background: '#484f58', border: '#6e7681' }, font: { color: '#fff', size: 11 }, shape: 'box', size: 16, borderWidth: 2 },
+                { id: 'tex', label: 'TEX', color: { background: '#484f58', border: '#6e7681' }, font: { color: '#fff', size: 11 }, shape: 'box', size: 16, borderWidth: 2 },
+                { id: 'coral', label: 'CORAL', color: { background: '#484f58', border: '#6e7681' }, font: { color: '#fff', size: 11 }, shape: 'box', size: 16, borderWidth: 2 },
+                { id: 'gig', label: 'GIG', color: { background: '#484f58', border: '#6e7681' }, font: { color: '#fff', size: 11 }, shape: 'box', size: 16, borderWidth: 2 },
+                { id: 'positions', label: '📈 POSITIONS\nKRE | SSB | IWM | HYG', color: { background: '#a371f7', border: '#bc8cff' }, font: { color: '#fff', size: 11 }, shape: 'box', size: 22, borderWidth: 3 }
+            ]);
+            const edges = new vis.DataSet([
+                { from: 'labor', to: 'carl', arrows: 'to', color: { color: '#f85149' }, width: 5, label: 'triggers' },
+                { from: 'carl', to: 'reginald', arrows: 'to', color: { color: '#f85149' }, width: 5, label: 'converts' },
+                { from: 'prome', to: 'labor', arrows: 'to', color: { color: '#58a6ff' }, width: 2, dashes: true },
+                { from: 'prome', to: 'carl', arrows: 'to', color: { color: '#58a6ff' }, width: 2, dashes: true },
+                { from: 'prome', to: 'reginald', arrows: 'to', color: { color: '#58a6ff' }, width: 2, dashes: true },
+                { from: 'prome', to: 'liquid', arrows: 'to', color: { color: '#58a6ff' }, width: 2, dashes: true },
+                { from: 'prome', to: 'sam', arrows: 'to', color: { color: '#58a6ff' }, width: 2, dashes: true },
+                { from: 'prome', to: 'henry', arrows: 'to', color: { color: '#58a6ff' }, width: 2, dashes: true },
+                { from: 'sam', to: 'liquid', arrows: 'to', color: { color: '#8b949e' }, width: 2, label: 'UST flows' },
+                { from: 'zhao', to: 'liquid', arrows: 'to', color: { color: '#8b949e' }, width: 2, label: 'Belgium' },
+                { from: 'hans', to: 'liquid', arrows: 'to', color: { color: '#8b949e' }, width: 2, label: 'EUR/UST' },
+                { from: 'liquid', to: 'reginald', arrows: 'to', color: { color: '#d29922' }, width: 4, label: 'amplifies' },
+                { from: 'sam', to: 'henry', arrows: 'to', color: { color: '#f85149' }, width: 2, label: 'carry unwind' },
+                { from: 'henry', to: 'positions', arrows: 'to', color: { color: '#a371f7' }, width: 2 },
+                { from: 'reginald', to: 'positions', arrows: 'to', color: { color: '#a371f7' }, width: 2 },
+                { from: 'marco', to: 'labor', arrows: 'to', color: { color: '#8b949e' }, width: 2, label: 'migration' },
+                { from: 'reginald', to: 'creed', arrows: 'to', color: { color: '#6e7681' }, width: 1 },
+                { from: 'reginald', to: 'brock', arrows: 'to', color: { color: '#6e7681' }, width: 1 },
+                { from: 'reginald', to: 'tex', arrows: 'to', color: { color: '#6e7681' }, width: 1 },
+                { from: 'reginald', to: 'coral', arrows: 'to', color: { color: '#6e7681' }, width: 1 },
+                { from: 'carl', to: 'gig', arrows: 'to', color: { color: '#6e7681' }, width: 1 },
+                { from: 'hans', to: 'sam', arrows: 'to,from', color: { color: '#6e7681' }, width: 1, dashes: true },
+                { from: 'zhao', to: 'sam', arrows: 'to,from', color: { color: '#6e7681' }, width: 1, dashes: true }
+            ]);
+            const options = {
+                physics: {
+                    enabled: true,
+                    solver: 'forceAtlas2Based',
+                    forceAtlas2Based: { gravitationalConstant: -100, centralGravity: 0.01, springLength: 160, springConstant: 0.06 },
+                    stabilization: { iterations: 250 }
+                },
+                nodes: {
+                    borderWidth: 3,
+                    borderWidthSelected: 5,
+                    font: { face: 'arial', multi: 'html' },
+                    shadow: { enabled: true, color: 'rgba(0,0,0,0.5)', size: 10, x: 3, y: 3 }
+                },
+                edges: {
+                    font: { size: 10, color: '#8b949e', strokeWidth: 0 },
+                    smooth: { type: 'curvedCW', roundness: 0.2 },
+                    shadow: true
+                },
+                interaction: { hover: true, tooltipDelay: 200 }
+            };
+            new vis.Network(container, { nodes, edges }, options);
+            networkInitialized = true;
+        }
+        
         // Tab switching
         function switchTab(tabId) {
             // Update buttons
@@ -2585,6 +2586,10 @@
             if (tabId === 'subagents') {
                 renderAgentsFull();
                 fetchSubagents();
+            }
+            // Initialize network when tab is shown
+            if (tabId === 'network') {
+                setTimeout(initNetwork, 50);
             }
         }
         
