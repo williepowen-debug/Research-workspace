@@ -340,9 +340,10 @@ Low DQ: Alaska, Utah, Washington (3.2%)
 ## DANGER WINDOW
 
 **Q1-Q2 2026 (Fraud Discovery Phase)**
-- Warehouse audits ongoing
-- Flagship and other weak hands under scrutiny
-- If 4th case found, "cockroach" thesis confirmed
+- **Carvana Feb 18 earnings** — largest potential case ($70B+ mkt cap)
+- First Brands Ch. 7 conversion risk — kills examiner if happens
+- PrimaLend BVY2 fraud investigation emerging
+- Warehouse audits ongoing across industry
 
 **Q3-Q4 2026 (Transmission Phase)**
 - Lagging LABOR by 3-6 months
@@ -387,4 +388,4 @@ The immigration-credit nexus was well-documented in 2008-2011:
 - research/outputs/RP-OTT-2.1 through 2.4 (4 reports — immigration transmission)
 - research/RP-OTT-3.1_Carvana_DriveTime_Deep_Dive.md
 
-*Next update trigger: 4th fraud case discovery, CFPB funding lapse, bank loss >$1B, or remittance reversal signal*
+*Next update trigger: Carvana Feb 18 earnings, First Brands Ch. 7 decision, PrimaLend confirmation, CFPB funding lapse, or remittance reversal signal*
