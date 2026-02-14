@@ -2542,8 +2542,15 @@
                 { id: 'coral', label: '🌴 CORAL\nFlorida', x: 280, y: 140, fixed: true, color: { background: '#484f58', border: '#6e7681' }, font: { color: '#fff', size: 10 }, shape: 'box', size: 18, borderWidth: 2 },
                 { id: 'tex', label: '🤠 TEX\nTexas', x: 340, y: 120, fixed: true, color: { background: '#484f58', border: '#6e7681' }, font: { color: '#fff', size: 10 }, shape: 'box', size: 18, borderWidth: 2 },
                 
+                // RED - Stress testing (validates positions)
+                { id: 'red', label: '🔴 RED\nStress Test', x: 400, y: 200, fixed: true, color: { background: '#dc2626', border: '#ef4444' }, font: { color: '#fff', size: 11 }, shape: 'box', size: 22, borderWidth: 3 },
+                
+                // Additional REGINALD sub-agents
+                { id: 'reno', label: '🔍 RENO\nBank Research', x: 80, y: 180, fixed: true, color: { background: '#484f58', border: '#6e7681' }, font: { color: '#fff', size: 10 }, shape: 'box', size: 16, borderWidth: 2 },
+                { id: 'otto', label: '🕵️ OTTO\nNDFI/Fraud', x: 160, y: 180, fixed: true, color: { background: '#484f58', border: '#6e7681' }, font: { color: '#fff', size: 10 }, shape: 'box', size: 16, borderWidth: 2 },
+                
                 // BOTTOM - Positions (larger, prominent, more space)
-                { id: 'positions', label: '📈 POSITIONS\nKRE | SSB | IWM | HYG', x: 240, y: 260, fixed: true, color: { background: '#a371f7', border: '#bc8cff' }, font: { color: '#fff', size: 14, bold: true }, shape: 'box', size: 32, borderWidth: 4 }
+                { id: 'positions', label: '📈 POSITIONS\nKRE | SSB | IWM | HYG', x: 240, y: 300, fixed: true, color: { background: '#a371f7', border: '#bc8cff' }, font: { color: '#fff', size: 14, bold: true }, shape: 'box', size: 32, borderWidth: 4 }
             ]);
             const edges = new vis.DataSet([
                 // ═══ CORE TRANSMISSION CHAIN (thick red arrows) ═══
@@ -2574,7 +2581,19 @@
                 { from: 'creed', to: 'reginald', arrows: 'to', color: { color: '#6e7681' }, width: 2, label: 'CRE', font: { color: '#6e7681', size: 9, strokeWidth: 0 } },
                 { from: 'brock', to: 'reginald', arrows: 'to', color: { color: '#6e7681' }, width: 2, label: 'BDC', font: { color: '#6e7681', size: 9, strokeWidth: 0 } },
                 { from: 'coral', to: 'reginald', arrows: 'to', color: { color: '#6e7681' }, width: 2, label: 'FL', font: { color: '#6e7681', size: 9, strokeWidth: 0 } },
-                { from: 'tex', to: 'reginald', arrows: 'to', color: { color: '#6e7681' }, width: 2, label: 'TX', font: { color: '#6e7681', size: 9, strokeWidth: 0 } }
+                { from: 'tex', to: 'reginald', arrows: 'to', color: { color: '#6e7681' }, width: 2, label: 'TX', font: { color: '#6e7681', size: 9, strokeWidth: 0 } },
+                { from: 'reno', to: 'reginald', arrows: 'to', color: { color: '#6e7681' }, width: 2, label: 'banks', font: { color: '#6e7681', size: 9, strokeWidth: 0 } },
+                { from: 'otto', to: 'reginald', arrows: 'to', color: { color: '#6e7681' }, width: 2, label: 'fraud', font: { color: '#6e7681', size: 9, strokeWidth: 0 } },
+                
+                // ═══ NEW CONNECTIONS ═══
+                // LIQUID affects market structure
+                { from: 'liquid', to: 'henry', arrows: 'to', color: { color: '#f85149' }, width: 2, dashes: true, label: 'funding stress', font: { color: '#f85149', size: 9, strokeWidth: 0 } },
+                // MARCO affects consumer (border state spending)
+                { from: 'marco', to: 'carl', arrows: 'to', color: { color: '#8b949e' }, width: 2, dashes: true, label: 'border spend', font: { color: '#8b949e', size: 9, strokeWidth: 0 } },
+                // RED stress tests positions
+                { from: 'red', to: 'positions', arrows: 'to', color: { color: '#dc2626' }, width: 3, label: 'validates', font: { color: '#dc2626', size: 10, strokeWidth: 0 } },
+                // REGINALD feeds RED for stress testing
+                { from: 'reginald', to: 'red', arrows: 'to', color: { color: '#8b949e' }, width: 2, dashes: true }
             ]);
             const options = {
                 physics: { enabled: false },  // Fixed positions, no physics
