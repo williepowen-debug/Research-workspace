@@ -1,294 +1,264 @@
-# MEMORY.md — Prome's Long-Term Memory
+# MEMORY — Key Insights & Lessons
 
-*Curated insights, lessons, and context that persists across sessions.*
+**Purpose:** Critical learnings that should persist across sessions
 
----
-
-## About Will
-
-*See USER.md for full profile. Key working preferences:*
-
-- Prefers STATUS.md (living docs) over handoffs
-- Values falsifiable predictions over "paper shuffling"
-- Appreciates direct analysis, not hedged language
-- Audio briefings work well (5-10 min, Speechify while walking)
-- Ultimate test: does the system produce tradeable insights?
+**Last Updated:** 2026-02-14
 
 ---
 
-## The Research Framework
+## RED TEAM SESSION (Feb 14, 2026)
 
-### Core Thesis (as of Feb 2026)
-**Stress transmission chain:** LABOR → CARL → REGINALD
-- Employment is the master variable / trigger
-- Consumer stress converts latent vulnerability to actual distress  
-- Bank credit losses follow consumer defaults
+### Core Reframe: Acknowledgment Lag → In The Middle Of It
+**Round 1:** "Predicting when stress will arrive"  
+**Round 2:** "Betting on when market reprices stress that's already HERE"  
+**Round 3:** **"We're not positioned ahead of stress — we're positioned IN THE MIDDLE of it"**
 
-**LIQUID** runs parallel — funding/plumbing risk that can amplify any stage
-
-### Timing
-- LABOR danger window: Q2-Q3 2026
-- CARL danger window: Q3-Q4 2026 (lags 3-6 months)
-- REGINALD danger window: Q4 2026-Q1 2027
-
-### Key Frameworks
-1. **"Hotel California"** — Easy to keep job, hard to find new one (hires rate lowest since 2012)
-2. **"Barbell Economy"** — Large corps cutting + Mfg jobless expansion + Small biz supply-constrained
-3. **"Beneath the Ice"** — Surface metrics GREEN, hidden stress ORANGE-RED
-4. **"WARN Pipeline"** — Q4 filings = Q1-Q2 actuals, pain locked in
-5. **"Metastable"** — LIQUID is calm until it isn't, hours to crisis if triggered
-6. **"Shadow Banking Nexus"** — $1.2T bank→NDFI exposure (10.4% of loans); 20% NAV stress triggers asset coverage breach → dividend halt → forced repayment → bank losses
-
-### Transmission Paths (Feb 2026)
-**Path 1 (Classic):** CRE stress → Bank CRE losses → KRE
-**Path 2 (BROCK):** AI Capex reversal → Neocloud/BDC NAV → Bank fund finance → KRE
-Both converge on regional banks. Path 2 may trigger faster.
-
-### 🆕 Credit Stabilization Finding (Feb 14)
-
-**"Coiled Spring, Not Active Fire"**
-
-Fed CC 30+ DQ: 2.98% (Q3 2025) — 5th consecutive quarterly decline
-- Discover NCO: 5.0% ↓ (3rd consecutive decline)
-- Capital One 30+ DQ: 4.53% ↓ (first YoY improvement)
-
-**BUT concentrated stress remains:**
-- FL 90+ DQ: 13.49%
-- TX 90+ DQ: 12.99%
-- NV 90+ DQ: 14.53%
-- Age 30-49: +250bps above 2019
-- Spread: NV 14.53% vs WI 7.62% = 6.91pp K-shape
-
-**Interpretation:** Aggregate metrics stabilizing at ~35-50% of GFC peak. System has NO BUFFER. Employment shock (LABOR) is the release mechanism. Without it, credit plateaus. With it, stressed segments convert immediately.
-
-**NY Fed (Feb 10):** Called it "K-shaped economy" — "some groups are really struggling"
-
-### 🆕 Sponsor Capitulation Framework (RP-CREED-8, Feb 11)
-
-**When do MF sponsors stop subsidizing negative carry?**
-
-| Sponsor Type | Capitulation Timeline |
-|--------------|----------------------|
-| **PE (non-recourse)** | **6-9 months** — hand keys back while current |
-| **Regional Developer (recourse)** | **18-24 months** — fight until personal liquidity exhausted |
-
-**Rate Cap Cliff Calendar:**
-- 2021 vintage caps: EXPIRED
-- 2022 vintage caps: Expiring 2025-2026
-- $539B CRE maturities in 2026
-- $550B in 2027
-
-**Why Non-Accrual stays low (0.02%):** PE sponsors exit BEFORE non-accrual to avoid "bad boy" carve-outs converting to recourse.
-
-**LP Fatigue:** "DPI is the New IRR" — LPs refusing capital calls for negative-carry assets. This is what breaks "Support and Survive."
-
-### 🆕 SSB Florida Risk (RP-CORAL-8, Feb 11)
-
-SSB's FL risk isn't generic CRE — it's **Association Prime** (HOA/condo banking) exposed to **SB 4-D compliance cliff**.
-
-- $1.4B+ Association loans since 1996 (secured by assessment income)
-- "Portfolio Condo" product = adverse selection (GSE-rejected buildings)
-- SIRS deadline Dec 2025 → $65K-$100K per unit assessments
-- South Florida is the concentration risk
-
-**Watch:** Association Prime delinquency disclosure (not currently broken out).
-
-### 🆕 Gig Economy Baseline (RP-LABOR-12, Feb 11)
-
-**24M invisible workers** (15% of workforce) not captured by UI claims.
-
-- **65% on cash advances** to bridge payout delays (zero buffer)
-- **61% delayed essential bills**
-- FL has **highest gig concentration (22%)**
-- **Dave 28DPD** is the canary metric (currently 1.95-2.00%, stress >2.10%)
-
-**Caveat:** 65% stat from Everee (payroll company with bias), specifically about payout bridging. But implication holds: no financial runway.
-
-### 🆕 Shunto 2026 Probability Flip (RP-SAM-10, Feb 11)
-
-**Major revision:**
-- Strong (≥3.5%): 20% → **48%** (NOW MOST LIKELY)
-- Moderate (2.5-3.5%): 55% → **42%**
-- Weak (<2.5%): 25% → **10%**
-
-**Why:** "Stag Hunt" dynamics — cost of under-paying > cost of hike. Labor shortage + Takaichi pressure.
-
-**Conditional:** If Strong Shunto → **85% April BOJ hike to 1.00%**
-
-**Dates:** Feb 19 electronics deadline → Mid-March Yamaba → Late March first tally → Apr 23-24 BOJ
+**Implication:** Timeline is NOW (Feb-May), not future (Apr-Jun). Wright 609K proves conversion is happening in real-time.
 
 ---
 
-## Structural Knowledge
+### Thesis Confidence Evolution
+| Date | Confidence | Reason |
+|------|------------|--------|
+| Feb 10 | 75% | Baseline thesis |
+| Feb 14 (RED initial) | 45% | Timing concerns, soft landing underweighted |
+| Feb 14 (Challenge-back) | 65% | FHLB error reversed, stress is CURRENT not building |
+| Feb 14 (Additional evidence) | **80%** | Wright 609K + Japan binary + BROCK acceleration |
 
-### Bank Watchlist (REGINALD)
-- **RED:** EGBN, BHRB (DC corridor, federal employment exposure)
-- **ORANGE:** WAL, TOWN, DCOM, VLY, FLG
-- **YELLOW:** CFG, ZION, SFBS, AUB
-- **GREEN:** MTB
+**Meta-Lesson:**
+> "10% confidence drop worth 100% clarity gain"
 
-### Employment Triggers (cross-agent)
-- Claims >300K OR U-3 >5.0% → REGINALD banks escalate
-- Temp YoY <-6% → LABOR leading indicator confirmed
-- NFP <0 → Risk-off, LIQUID stress
+Three rounds of adversarial testing produced HIGHER confidence (80% vs 75% start) but with **vastly better reasoning**.
 
-### LIQUID Key Levels
-- RRP <$5B = RED (currently $10.4B, effectively zero)
-- SOFR-IORB >+5bps = YELLOW, >+15bps = ORANGE
-- Auction BTC <2.30x = YELLOW, <2.00x = RED
-- SRF usage >$50B sustained = ORANGE
+**The Wright 609K Finding:**
+> 609,000 borrowers went current → delinquent in ONE MONTH (Oct→Nov 2025)
+> Largest single-month inflow since May 2020
+> **Employed people defaulting because underwater + HUD ended deferrals Oct 1**
+> Employment is NOT a buffer when you're already trapped
 
-### HENRY Key Levels & Framework (Feb 2026)
-**Thesis:** "The Loaded Machine" — market is derivatives-driven, stable but fragile
-
-**Key Price Levels:**
-- Put Wall: 6,920 (first structural support)
-- CTA Flip: 6,494 (CTAs flip short below this)
-- Volatility Trigger: 6,400 (gamma flip zone)
-
-**Leading Indicator Sequence:**
-1. MOVE rises while VIX flat (2-5 day lead)
-2. VIX term structure inverts (1-3 day lead)
-3. GEX < $2B (1 day lead)
-4. DIX < 40% (1-2 day lead)
-5. Put Wall breaks → cascade begins
-
-**Cascade Order (who sells first):**
-1. Fast vol-control (immediate)
-2. Short-term CTAs (days)
-3. Medium-term CTAs (1-4 weeks)
-4. Risk parity (last, largest)
-
-**Current state:** Positive gamma (~$62B), IV Rank 7.94% (extreme complacency), HY OAS 2.7% (tight). No risk premium priced.
+This single data point destroyed the "soft landing needs employment to hold" assumption.
 
 ---
 
-## Lessons Learned
+### Five Transmission Paths (Not One)
 
-### Research Process
-- STATUS.md > Handoffs — living doc always reflects current understanding
-- Workbooks hold evidence (ML=log, VX=vectors, FL=calendar, FLOW=pathways)
-- ~100 lines, 2-min read is the target for STATUS.md
-- Make predictions falsifiable with dates and confidence levels
+**Original model:** LABOR → CARL → REGINALD (bottom-up, 3-9 months)
 
-### Data Sources
-- BLS can go dark (shutdown) — have alternative indicators ready
-- Google Trends can be leading indicator (severance searches at ATH)
-- WARN databases are state-level, 60-day lead on actual layoffs
-- Temp staffing earnings (KFRC, RHI) are bellwethers
+**Complete model (post additional evidence):**
 
-### Communication
-- Will appreciates audio briefings for synthesis (5-7 min, situation + light positioning)
-- Can send voice messages via Telegram
-- Direct analysis preferred over hedged language
+1. **Path A (Bottom-up):** LABOR → CARL → REGINALD
+   - Employment cracks → Consumer defaults → Bank NCOs
+   - Timeline: 3-9 months
+   - **Status:** Wright shows ALREADY FIRING (609K current→delinquent Oct)
 
----
+2. **Path B (Top-down):** HENRY → CARL ← LABOR
+   - Equity crash → Wealth effect → Spending pullback
+   - Timeline: 0-2 weeks (FAST)
+   - **Catalyst:** PLTR <$100 (AI bubble poster child) OR Japan carry unwind
 
-## GitHub
-Repository: `https://github.com/williepowen-debug/Research-workspace`
-- All agent files, workbooks, research
-- STATUS.md files are the entry points
+3. **Path C (Bifurcation Collapse):** Credit discovers real economy
+   - HY OAS spikes → Reprices HENRY + REGINALD simultaneously
+   - Timeline: 2-4 weeks once started
+   - **Status:** BROCK bankruptcies spiking (9 last week >$50M)
 
----
+4. **Path D (NEW — Japan Independent):** SAM → HENRY → CARL/REGINALD
+   - 75% Japanese mortgages are FLOATING RATE (vs 3% US)
+   - BOJ hikes → prime rate rises → 75% reprice IMMEDIATELY
+   - Creates binary: Hike = recession OR Don't hike = JGB crisis → UST selling
+   - Timeline: **DAYS** (Aug 2024: yen +3% = VIX 65 in hours)
+   - **Catalyst:** Feb 19 (Shunto ≥3.5% AND JGB BTC <2.0x)
+   - **Key:** INDEPENDENT of US employment — can fire anytime
 
-## Open Questions / Future Work
+5. **Path E (NEW — Housing Stress on Employed):** Housing trap → CARL (bypasses LABOR)
+   - Wright: 609K current→delinquent in ONE MONTH (Oct→Nov 2025)
+   - HUD ended repeat partial claims Oct 1 → safety net GONE
+   - Employed people defaulting (were current) = underwater + can't refi
+   - Timeline: **90-day window = Feb-May 2026** (lands in Jun expiry)
+   - **Key:** Employment is NOT a buffer if already underwater
 
-- ~~GIG integration — 16-25M workers invisible to UI~~ ✅ **RESOLVED: RP-LABOR-12**
-- Secondary agent audit — EARNINGS, FOREX, OTTO, REITS need STATUS.md review
-- **Red-team the thesis** — We haven't built the counter-case. Need to stress-test soft landing scenario.
-- **Edge vs confirmation bias** — 40+ predictions, ~6 resolved (75% accuracy). Small sample but promising.
-- **Positioning framework** — Research operation built, 4 positions entered. Execution improving.
-- **TEX remaining prompts** — RP-TEX-3, 4, 6, 7 still pending
-- **CARL ABS baseline** — 3-4 hours manual extraction needed
-
----
-
-## Recently Completed
-
-- ✅ PREDICTIONS.md created (cross-agent prediction tracking)
-- ✅ HENRY cluster 6.1-6.6 complete (56 total vectors)
-- ✅ PROME boot structure created (STATUS.md, session-end checklist)
-- ✅ BROCK/CREED STATUS.md built out
-- ✅ MARCO 7-series (TX border cities) + 8-series (H-2A, State Fiscal, CaliBaja, Remittances)
-- ✅ New leading indicators: H-2A certifications, remittance divergence
-
-### Feb 12, 2026 — Full System Convergence
-
-**All 6 core agents at RED or CRITICAL.** First time system has achieved full convergence.
-
-**CREED Chicago Analysis:**
-- 5 actual sales: avg **-71%** (range -61% to -82.6%)
-- Willis Tower: $1.3B → $600M (-54%)
-- 1 South Wacker: $302M → $52M (-82.6%, worst)
-- Validates secondary market repricing **far worse than modeled**
-- Refinancing gap estimate: $336B → **$400-450B**
-
-**"Extend to 2028" Pattern Identified:**
-- Willis Tower ($1.3B Blackstone) + One NY Plaza ($835M Brookfield) extended
-- Estimated **$75-100B deferred** to 2028 maturity cliff
-- Pattern = "kick can" not resolution
-
-**HENRY "Peak Risk Positioning":**
-- 0DTE: **65%** of volume (vs 57% Aug 2024)
-- Margin debt: **$1.23T ATH**
-- SPX at gamma flip zone: 6,850
-- Tighter than August 2024 pre-selloff
-
-**Position Performance (Feb 12 EOD):**
-- KRE $70P: +26% total
-- IWM $250P: +28.5% total  
-- VLY $10P: +18.7% total
-- Selloff aligned with transmission chain thesis
-
-### Feb 11, 2026 — Evening Research Batch
-
-**4 Major Research Prompts Completed:**
-- ✅ **RP-CREED-8:** Sponsor Capitulation Framework (PE 6-9mo, Regional 18-24mo)
-- ✅ **RP-CORAL-8:** SSB Florida Exposure (Association Prime + SB 4-D cliff)
-- ✅ **RP-LABOR-12:** Gig Economy Baseline (65% on cash advances, Dave 28DPD tracking)
-- ✅ **RP-SAM-10:** Shunto 2026 Framework (Strong probability 20% → 48%)
-
-**Key insight:** Shunto probability completely flipped — "Strong" now most likely. If Strong → 85% April BOJ hike. Accelerates Japan transmission timeline.
-
-**SSB Thesis Sharpened:** FL risk is specifically Association Prime / SB 4-D compliance, not generic CRE. Non-Accrual (0.02%) is THE metric to watch — sponsor capitulation window is NOW (Feb 2026 = IBTX + 24 months).
-
-### Feb 7, 2026 — Major Infrastructure Build
-
-**Sub-Agent System Built:**
-- 7 research agents configured (LABOR, CARL, HENRY, SAM, REGINALD, LIQUID, MARCO)
-- Each runs on Sonnet 4.5 (cost-efficient), Prome on Opus (synthesis)
-- Separate context windows — agent research doesn't clog Prome's context
-- Workspaces at `~/.openclaw/agents/[name]/workspace/`
-
-**Daily Check-In System:**
-- Cron jobs for LABOR (8am), CARL (8:15am), MARCO (8:30am) — weekdays
-- Agents review STATUS.md, propose actions
-- Proposals sent to Will via Telegram with [Approve] [Reject] buttons
-- On approval, action executes
-
-**Dashboard Upgraded:**
-- Tabbed navigation (Overview / Sub-Agents / Data)
-- Hero status card (system-wide assessment)
-- Countdown timers for catalysts
-- Sub-agent activity panel with real-time updates
-- Alert badge in header
-
-**Transcript Archiving:**
-- `transcripts/[agent]/` folder for readable markdown versions
-- Git-tracked for audit trail
-- Includes agent thinking, tool usage, costs
-
-**Key Files Created:**
-- `OPERATIONS.md` — Central operating manual
-- `PROPOSALS.md` — Agent action queue
-- Agent SOUL.md/AGENTS.md for all 7 research agents
-
-## Key Learnings (Feb 2026)
-
-- **H-2A is a leading indicator** — 8x growth since 2005 validates domestic labor scarcity independent of disputed DHS data
-- **Remittance divergence** — Mexico down (-5%), Central America up (+26%) = precautionary liquidation. Reversal call: H2 2026.
-- **Each Tier-1 state has different primary vulnerability** — TX (enforcement cost), AZ (URS formula), FL (insurance), CA (workforce)
+**Critical Insight:** We now have FIVE independent paths, not one. Don't need employment to crack (Paths B, D, E bypass it). Don't need US-only catalyst (Path D is Japan). Timeline is NOW (Paths A, C, E already firing).
 
 ---
 
-*Last updated: 2026-02-04*
+### Critical Errors Corrected
+
+#### 1. FHLB as Leading Indicator (WRONG)
+**RED's error:** Used FHLB at $480B as "proof no crisis exists"
+
+**Truth:** FHLB is LAGGING
+- Spikes DURING crisis, not before
+- SVB didn't tap FHLB until March 9, 2023 (days before failure)
+- Absence of spike ≠ absence of stress
+
+**Implication:** Removed RED's strongest counter-evidence (-15% from bearish discount)
+
+#### 2. Stress is "Building" (WRONG FRAMING)
+**RED's error:** Said "stress will arrive Q2-Q3"
+
+**Truth:** Stress is CURRENT
+- MF DQ at 0.75% (0.05pp from GFC peak) = HERE
+- Foreclosures +41% YoY = ACCELERATING
+- CBRE -12% = CURRENT (only comparable: GFC, COVID)
+
+**Implication:** Not predicting arrival, betting on acknowledgment
+
+#### 3. CBRE as Lagging (WRONG)
+**RED's error:** Dismissed CBRE -12% as "5 sales, selection bias"
+
+**Truth:** CBRE is LEADING
+- Intermediary sees transaction freeze first
+- -12% only comparable to systemic crises
+- If extend-and-pretend worked, CBRE would be -2-3%, not -12%
+
+**Implication:** Moves CRE timeline FORWARD, not backward
+
+---
+
+### Position Strategy (Post-RED)
+
+**KEEP Jun positions:**
+- 4 months = viable if Apr-May trigger
+- Cascades are FAST (2-4 weeks: Aug 2024, Lehman both <2 weeks)
+- Timeline tighter than RED initially thought
+
+**ADD Sep/Dec as insurance:**
+- NOT replacements
+- Covers "right thesis, slow acknowledgment"
+- +3 months runway for same strikes
+
+**Falsification Criteria:**
+Exit 50% if **BOTH:**
+1. Claims <240K through end-March (employment not cracking)
+2. CBRE rebounds to >-5% (CRE stress reversing)
+
+Exit 100% if **ANY:**
+1. Fed announces BTFP 2.0 or equivalent
+2. HY OAS compresses <260bps sustained
+3. Claims <240K through April AND Core PCE <2.5% AND Fed cuts June
+
+**Key:** Need BOTH conditions (AND) for partial exit. Single data point not enough.
+
+---
+
+### Daily Credit Monitoring (NEW — Feb 14)
+
+**Purpose:** Detect bifurcation collapse in real-time
+
+**Signals:**
+1. **HY OAS 5-day change**
+   - 🟢 <+25bps: Normal
+   - 🟡 +25-50bps: Mild stress (2-3 session hedge window)
+   - 🟠 +50-75bps: Severe (0-1 session equity impact)
+   - 🔴 +75+bps: Crisis (no lead time)
+
+2. **VIX Basis** (spot vs VIX1M)
+   - 🟢 Contango: Normal
+   - 🔴 Backwardation: Stress
+
+3. **CBRE Acceleration**
+   - Currently: -12%
+   - Watch: <-15% (accelerating) OR >-5% (reversing)
+
+**Historical Rule:** Equity cannot bottom until HY OAS peaks.
+
+---
+
+### What Still Holds (Soft Landing Possible)
+
+**Conditions for soft landing:**
+1. Claims stay <250K through Q2
+2. Core PCE reaches <2.5%
+3. Fed cuts 2-3x H2 without crisis
+4. K-shape stays contained (30x prime/subprime gap persists)
+
+**Probability:** ~35-40% (up from RED's initial <10%)
+
+**If 4+ of these confirm by May, soft landing is real:**
+- Claims <250K ✓ Tracking (227K currently)
+- HY OAS <300bps ✓ Currently 281
+- FHLB <$550B ✓ Currently $480B
+- Core PCE <2.5% ⏳ Pending
+- Fed cuts June ⏳ Pending
+- SPX holds 6,400 ⏳ Tracking
+
+---
+
+### Component Confidence (Current — Post Additional Evidence)
+
+| Component | Confidence | Status |
+|-----------|------------|--------|
+| **Consumer stress CURRENT** | **95%** | ✅ Wright 609K acceleration + Foreclosures + CC |
+| CRE stress CURRENT | 90% | ✅ CBRE -12%, MF DQ 0.75% |
+| **Market structure fragile** | **85%** | ✅ 115 stocks + margin ATH + PLTR bubble |
+| **Multiple paths to trigger** | **80%** | ✅ **5 paths (was 3), 3 already firing** |
+| **Timeline Feb-May 2026** | **70%** | ✅ Wright 90-day + Japan Feb 19 + BROCK now |
+| **Jun positions profitable** | **65%** | ✅ **Well-timed** (was "tight but viable") |
+| **Soft landing fails** | **80%** | ✅ Japan binary + Wright acceleration |
+
+**Overall Thesis: 80%** (up from 65%, up from 45%, vs 75% baseline)
+
+---
+
+### Key Data Points (Imminent Thresholds)
+
+| Metric | Current | Threshold | Gap | Timeframe |
+|--------|---------|-----------|-----|-----------|
+| **Wright Current→Delinquent** | **609K (Oct)** | **>400K sustained** | **Watch Feb data** | **Mid-Feb 2026** |
+| **BROCK Large Bankruptcies** | **9 last week** | **Sustained >5/week** | **Already there** | **Ongoing** |
+| **Japan Shunto** | **TBD** | **≥3.5% = "Strong"** | **Feb 19** | **2 days** |
+| **Japan 20Y JGB BTC** | **TBD** | **<2.0x = stress** | **Feb 19** | **2 days** |
+| **PSEC Dividend Coverage** | **~1.0x** | **<1.0x = cut** | **Feb 20 report** | **3 days** |
+| **Fannie MF DQ** | 0.75% | 0.80% GFC peak | 0.05pp | Q1 2026 |
+| **CC 90+ DQ** | 12.70% | 13.74% GFC peak | 1.04pp | Q2 2026 |
+| **CBRE** | -12% | -15% acceleration | 3pp | Watching |
+| **Initial Claims** | 227K | 250K trigger | 23K | Feb-Mar |
+
+---
+
+### Lessons for Future Sessions
+
+1. **Adversarial process is valuable** — Challenge-back exposed logical errors and improved thesis
+2. **Leading vs lagging matters** — 47% of predictions were lagging (can't trade on them)
+3. **Framing matters** — "Stress HERE, betting on acknowledgment" is clearer than "predicting stress"
+4. **Multiple paths increase probability** — Three transmission paths better than one
+5. **AND conditions for falsification** — Single data point isn't enough (need claims <240K AND CBRE rebounds)
+
+---
+
+### Next Catalysts (Feb 15-20) — CRITICAL WINDOW
+
+**Feb 15 (Saturday):**
+- FSK (FS KKR Capital) earnings — Watch PIK %, dividend coverage
+- If coverage <1.0x or dividend cut = BDC stress confirmation
+
+**Feb 18 (Tuesday):**
+- Dec TIC Data (ZHAO/LIQUID) — China/Belgium UST holdings
+- Watch for Belgium >$500B (RED threshold) or China <$650B
+
+**Feb 19 (Wednesday) — DUAL JAPAN CATALYST:**
+- **Shunto Electronics Wage Settlement** — First major sector
+  - ≥3.5% = "Strong" → BOJ forced to hike faster
+  - <3.0% = "Weak" → BOJ can stay dovish
+- **20Y JGB Auction** — Watch BTC (bid-to-cover)
+  - <2.0x = stress (life insurers retreating)
+  - >3.0x = strong demand
+- **If BOTH fire (Shunto ≥3.5% AND BTC <2.0x) = Path D trigger**
+
+**Feb 20 (Thursday):**
+- PSEC (Prospect Capital) earnings — Highest PIK (35%)
+- Watch dividend coverage (cash NII / dividend)
+- If <1.0x or dividend cut = validates shadow defaults
+
+**Mid-Feb (TBD):**
+- Wright mortgage data update (Nov→Dec, Dec→Jan flows)
+- Watch for sustained >400K/month current→delinquent
+- Oct was 609K — if Nov/Dec confirm = acceleration validated
+
+---
+
+**Status:** RED team complete, THREE rounds of adversarial testing  
+**Confidence:** 80% (up from 65%, up from 45%, vs 75% baseline)  
+**Next Review:** Feb 19 Japan data OR Wright Feb update OR BROCK earnings
+**Full Report:** `AGENTS/RED/RED_TEAM_REPORT_2026-02-14.md`
+
+---
