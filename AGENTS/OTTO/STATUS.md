@@ -11,6 +11,7 @@
 - Bridgecrest has **HIGHEST repo rate** (0.93%) of ALL ABS servicers
 - Extension rate = **largest increase** among 23 issuers (DQ masking)
 - Garcia II: convicted felon (Lincoln S&L 1990), $3.6B+ insider sales since 2020
+- **ALLY CONTAGION CONFIRMED:** $6B forward flow is "WITHOUT RECOURSE" — Ally fully bears credit risk
 - **Feb 18 earnings DECISIVE:** 10-K delayed or GT resigns = RED
 - Stock: $486 ATH → $343 current (-30%)
 
@@ -119,7 +120,7 @@ Multiple fraud types have emerged across the **auto industry ecosystem** (lendin
 
 | Lender | Status | Key Signals |
 |--------|--------|-------------|
-| **Carvana/Bridgecrest** | 🔴 CRITICAL | $1B+ earnings overstatement allegations; $26B servicing; 0.117% fee; highest repo rate; Feb 18 earnings |
+| **Carvana/Bridgecrest** | 🔴 CRITICAL | $1B+ earnings allegations; $26B servicing; **Ally $6B forward flow WITHOUT RECOURSE**; Feb 18 earnings |
 | **Exeter Finance** | 🟠 HIGH | 8 ABS deals ECNL raised; 2023-1 revised to 26.50% from 21.00% |
 | **Consumer Portfolio Services** | 🟠 HIGH | Repo class-action; $535M warehouse dependency; terminated direct lending |
 | **Lendbuzz/SAFCO** | 🟠 HIGH | S&P CreditWatch Negative citing immigration enforcement; first agency precedent |
@@ -380,8 +381,8 @@ The immigration-credit nexus was well-documented in 2008-2011:
 ---
 
 ## KEY DOCS
-- workbook/VX.tsv (77 vectors)
-- workbook/ML.tsv (96 entries)
+- workbook/VX.tsv (78 vectors)
+- workbook/ML.tsv (102 entries)
 - workbook/FL.tsv (35 calendar items)
 - workbook/FLOW.tsv (15 pathways)
 - research/outputs/RP-OTT-1.1 through 1.7 (7 reports — fraud/structural)
