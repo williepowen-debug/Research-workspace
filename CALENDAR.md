@@ -1,6 +1,6 @@
 # CALENDAR — Unified Event Tracker
 
-*Cross-agent calendar for key dates. Updated: 2026-02-09 18:10 UTC*
+*Cross-agent calendar for key dates. Updated: 2026-02-14 18:25 UTC*
 
 ---
 
@@ -67,6 +67,8 @@
 | **Feb 12** | 8:30 AM | **Initial Claims** | LABOR | 🟠 HIGH | Confirm 231K spike or revert |
 | Feb 13 | 8:30 AM | CPI (Jan 2026) | PROME | 🟠 HIGH | Fed policy watch |
 | Feb 13 | — | MOF Weekly Flow Data | SAM | 🟠 HIGH | Repatriation signal |
+| **Feb 13-17** | — | **PrimaLend Plan Confirmation** | OTTO | 🔴 CRITICAL | Watch for BVY2 fraud findings, creditor recovery |
+| **Feb 15** | — | **FSK (FS KKR) Q4 Earnings** | BROCK | 🔴 CRITICAL | PIK 27%, dividend coverage |
 
 ### Completed This Week
 - ✅ **Feb 8** Japan Snap Election — Takaichi landslide (316 LDP, 352 coalition) → SAM RED
@@ -113,10 +115,12 @@
 | Date | Time | Event | Agent | Priority | Notes |
 |------|------|-------|-------|----------|-------|
 | Feb 16 | — | Presidents' Day (Market Closed) | — | ⚪ | — |
+| **Feb 18** | AMC | **Carvana (CVNA) Q4/FY2025 Earnings** | OTTO | 🔴 CRITICAL | 10-K filing, GT opinion, Gotham rebuttal. Delayed/GT resigns = RED |
 | **Feb 18** | 4:00 PM | **Dec TIC Data Release** | ZHAO/LIQUID | 🔴 CRITICAL | Belgium >$500B? China <$680B? |
 | **Feb 19** | 8:30 AM | **Initial Claims** | LABOR | 🟠 HIGH | Sustained >230K = concern |
 | **Feb 19** | — | **20Y JGB Auction** | SAM | 🔴 CRITICAL | BTC <2.3x = crisis trigger |
 | **Feb 19** | — | **Shunto Electronics Deadline** | SAM | 🔴 CRITICAL | First union wage demands |
+| **Feb 20** | AMC | **PSEC (Prospect Capital) Q4 Earnings** | BROCK/OTTO | 🔴 CRITICAL | PIK 35%, dividend coverage. Cut = validates shadow defaults |
 | ~Feb 20 | — | Robert Half (RHI) Earnings | LABOR | 🟠 HIGH | Second temp staffing read |
 | ~Feb 20 | — | Statistics Canada (Jan) | MARCO | 🟠 HIGH | Canadian tourism continuation |
 
@@ -126,6 +130,7 @@
 
 | Date | Time | Event | Agent | Priority | Notes |
 |------|------|-------|-------|----------|-------|
+| **~Feb 25** | — | **First Brands Examiner Report** | OTTO | 🔴 CRITICAL | De Luca report on $2.3B fraud. MAY BE KILLED if Ch. 7 conversion first |
 | Feb 26 | 8:30 AM | Initial Claims | LABOR | 🟡 MEDIUM | Weekly |
 | Feb 26 | 10:00 AM | PCE (Jan 2026) | PROME | 🟠 HIGH | Fed's preferred inflation gauge |
 | Feb 27 | 8:30 AM | PPI (Jan 2026) | PROME | 🟡 MEDIUM | Producer prices |
@@ -158,15 +163,20 @@
 
 | Date | Event | Agent | Priority | Notes |
 |------|-------|-------|----------|-------|
+| **Mar 15** | Carvana Discovery Production 1 | OTTO | 🟠 HIGH | First wave ESI from Feb 10 order |
 | Apr 15 | Tax Season | LIQUID | 🟠 HIGH | TGA rebuild drains reserves |
 | **Apr 20-29** | **CONVERGENCE BANK EARNINGS** | REGINALD | 🔴 CRITICAL | ZION → WAL → VLY → EGBN |
+| **Apr 30** | **Tricolor Vehicle Liquidation Deadline** | OTTO | 🟠 HIGH | 10,000 vehicles; recovery rates indicator |
 | Apr/May | BOJ Meeting | SAM | 🟠 HIGH | Next hike window |
 | **May 15** | **KRE $70 PUT EXPIRY** | PROME | 🔴 CRITICAL | First position expiry |
+| **Jun 12** | Carvana Discovery Production 2 | OTTO | 🟠 HIGH | Second wave ESI |
+| Jun 2026 | First Brands Trial | OTTO | 🟠 HIGH | James brothers; 2-week trial scheduled |
 | **Jun 18** | **KRE $60 PUT EXPIRY** | PROME | 🔴 CRITICAL | Second position expiry |
 | Q2 | BDC Maturity Wall Begins | BROCK | 🟠 HIGH | 2021-22 vintage PIK balances refinancing |
 | Q2 | Potential BDC Dividend Cuts | BROCK | 🟠 HIGH | PSEC/FSK/TCPC/GSBD watch |
 | Jun 30 | Q2 Quarter-End / GSIB | LIQUID | 🟡 MEDIUM | Dealer constraints |
 | Jun 2026 | ESR Full Implementation | SAM | 🟡 MEDIUM | Structural UST demand void |
+| **Aug 2026** | **Tricolor Chu Criminal Trial** | OTTO | 🟠 HIGH | SDNY; Kollar/Seibold cooperating |
 | **H2 2026** | **Peak CRE Maturity Wall** | CREED | 🔴 CRITICAL | $936B annual; 60% MF matures H2 |
 | **H2 2026** | **MF Maturity Concentration** | CREED | 🔴 CRITICAL | Sunbelt oversupply + maturity = forced recognition |
 | Q2-Q3 | LABOR Danger Window | LABOR | 🔴 CRITICAL | Employment deterioration expected |
