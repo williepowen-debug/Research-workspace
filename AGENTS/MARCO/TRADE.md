@@ -1,0 +1,119 @@
+# MARCO — Trade Ideas
+
+**Last Updated:** 2026-02-14
+**Domain:** Migration, Labor Flows, Immigration Enforcement, Border Economics
+
+---
+
+## Active Positions
+
+*None directly from MARCO. Indirect exposure via:*
+- **OTTO positions** — Immigration → "Invisible Exit" → auto defaults
+- **LABOR positions** — Immigration enforcement → construction/transport collapse
+
+---
+
+## Watchlist
+
+### 🔴 IBOC (International Bancshares) — PUTS
+
+**Thesis:** Only publicly traded TX border bank. Laredo/McAllen/Brownsville concentration. Immigration enforcement + labor disruption = direct hit.
+
+**Entry Triggers:**
+- [ ] Mass deportation operations begin at scale
+- [ ] Laredo water crisis worsens
+- [ ] TX border DQ accelerates (currently 7.92% state avg)
+- [ ] Remittance data shows Mexico collapse (currently -5%)
+
+**Anti-Triggers:**
+- Enforcement pauses
+- Policy reversal
+- Strong border economy data
+
+**Position Sizing:**
+- Small (1%), illiquid
+- Sept 2026 expiry (policy timeline uncertain)
+
+**Status:** ⏳ WATCHING — Policy dependent
+
+---
+
+### 🟡 Agriculture Exposure
+
+**Thesis:** Central America remittances UP (+18-25%) = "liquidation mode." When complete, workers leave. Agriculture loses labor force.
+
+**Candidates:**
+
+| Ticker | Exposure |
+|--------|----------|
+| CALM | Cal-Maine Foods (eggs) |
+| TSN | Tyson Foods |
+| PPC | Pilgrim's Pride |
+| SFM | Sprouts |
+| — | Agricultural REITs |
+
+**Entry Triggers:**
+- [ ] Central America remittances reverse (liquidation complete)
+- [ ] Labor shortage headlines in agriculture
+- [ ] Food price spikes (supply constraint)
+
+**Notes:**
+- Complex — labor shortage could be inflationary, not bearish
+- Some companies benefit from higher prices
+- Need to identify which are labor-cost sensitive
+
+**Status:** 🔍 RESEARCH — Unclear direction
+
+---
+
+### 🟡 Construction/Homebuilders
+
+**Thesis:** Construction employment: +9K vs +124K YoY (-92.7%). Vehicle-dependent, immigrant-heavy sector being gutted.
+
+**Candidates:**
+- See LABOR/TRADE.md (XHB, DHI, LEN)
+
+**Status:** 🔍 RESEARCH — LABOR nexus
+
+---
+
+### 🟢 Canadian Exposure?
+
+**Thesis:** Canadian work permits -28% YoY. Policy divergence: Canada tightening as US enforces. Could affect cross-border labor flows.
+
+**Notes:**
+- Less clear transmission to tradeable positions
+- EWC (Canada ETF)?
+
+**Status:** 💭 IDEA — Low conviction
+
+---
+
+## Key Metrics to Watch
+
+| Metric | Current | Threshold | Signal |
+|--------|---------|-----------|--------|
+| Mexico Remittances | -5% | Reversal to negative | Workers gone |
+| Central America Remittances | +18-25% | Reversal | Liquidation complete |
+| Construction Employment | -92.7% YoY growth | Sustained | 🔴 Stress |
+| TX Border DQ | 7.92% | >9% | Accelerating |
+
+---
+
+## Geographic Risk Map
+
+| Region | Risk | Notes |
+|--------|------|-------|
+| TX Border | 🔴 HIGH | Direct enforcement, IBOC exposure |
+| FL Agriculture | 🔴 HIGH | 287(g), Belle Glade/Pahokee |
+| CA Central Valley | 🟠 MODERATE | Sanctuary buffer |
+| AZ Border | 🟠 MODERATE | Less banking exposure |
+
+---
+
+## Cross-References
+
+- **OTTO/TRADE.md** — "Invisible Exit" thesis
+- **LABOR/TRADE.md** — Employment collapse data
+- **REGINALD/TRADE.md** — IBOC as regional bank play
+- **TEX/STATUS.md** — Texas-specific data
