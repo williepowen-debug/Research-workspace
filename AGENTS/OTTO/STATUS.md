@@ -275,7 +275,7 @@ Validated by S&P CreditWatch actions on Lendbuzz/SAFCO citing immigration enforc
 - workbook/VX.tsv (83 vectors)
 - workbook/ML.tsv (130 entries)
 - workbook/FL.tsv (35 calendar items)
-- workbook/FLOW.tsv (15 pathways)
+- workbook/FLOW.tsv (21 pathways)
 - **research/outputs/RP-OTT-1.1 through 1.7** (7 reports — fraud/structural)
 - **research/outputs/RP-OTT-2.1 through 2.4** (4 reports — immigration transmission)
 - **research/outputs/RP-OTT-3.1** (Feb 2026 developments — First Brands indictments, Flagship)
