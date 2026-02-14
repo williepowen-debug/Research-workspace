@@ -1,0 +1,93 @@
+%%{init: {'theme': 'dark', 'themeVariables': { 'primaryColor': '#58a6ff', 'primaryTextColor': '#fff', 'primaryBorderColor': '#30363d', 'lineColor': '#8b949e', 'secondaryColor': '#21262d', 'tertiaryColor': '#161b22'}}}%%
+flowchart TB
+    subgraph ORCHESTRATOR["🧠 ORCHESTRATOR"]
+        PROME[["PROME<br/>Synthesis & Coordination"]]
+    end
+    
+    subgraph TRANSMISSION["📊 CORE TRANSMISSION CHAIN"]
+        direction LR
+        LABOR["👷 LABOR<br/>Employment<br/>🔴 RED"]
+        CARL["💳 CARL<br/>Consumer Credit<br/>🟠 ELEVATED"]
+        REGINALD["🏦 REGINALD<br/>Regional Banks<br/>🟠 ELEVATED"]
+        
+        LABOR -->|"triggers"| CARL
+        CARL -->|"converts to"| REGINALD
+    end
+    
+    subgraph PARALLEL["🌐 PARALLEL CHANNELS"]
+        LIQUID["💧 LIQUID<br/>Funding/Plumbing<br/>🟢 GREEN"]
+        SAM["🇯🇵 SAM<br/>Japan Macro<br/>🔴 RED"]
+        ZHAO["🇨🇳 ZHAO<br/>China Macro<br/>✅ COMPLETE"]
+        HANS["🇪🇺 HANS<br/>Europe<br/>✅ COMPLETE"]
+    end
+    
+    subgraph MARKET["📈 MARKET"]
+        HENRY["📊 HENRY<br/>Market Structure<br/>🟡 YELLOW"]
+        POSITIONS[["📈 POSITIONS<br/>KRE | SSB | IWM | HYG"]]
+    end
+    
+    subgraph SUPPORT["🔧 SUPPORT"]
+        MARCO["🚶 MARCO<br/>Migration<br/>🟠 ORANGE"]
+    end
+    
+    subgraph REGINALD_SUB["REGINALD Sub-Agents"]
+        CREED["CREED<br/>CRE/Office"]
+        BROCK["BROCK<br/>BDC/Credit"]
+        TEX["TEX<br/>Texas"]
+        CORAL["CORAL<br/>Florida/SSB"]
+    end
+    
+    subgraph CARL_SUB["CARL Sub-Agents"]
+        GIG["GIG<br/>Gig Economy"]
+    end
+    
+    %% Orchestration
+    PROME -.->|orchestrates| LABOR
+    PROME -.->|orchestrates| CARL
+    PROME -.->|orchestrates| REGINALD
+    PROME -.->|orchestrates| LIQUID
+    PROME -.->|orchestrates| SAM
+    
+    %% Parallel to LIQUID
+    SAM -->|"UST flows"| LIQUID
+    ZHAO -->|"Belgium proxy"| LIQUID
+    HANS -->|"EUR/UST"| LIQUID
+    
+    %% LIQUID amplifies
+    LIQUID -->|"amplifies"| REGINALD
+    
+    %% SAM independent
+    SAM -->|"carry unwind"| HENRY
+    
+    %% To positions
+    HENRY --> POSITIONS
+    REGINALD --> POSITIONS
+    
+    %% Support
+    MARCO -->|"migration data"| LABOR
+    
+    %% Sub-agents
+    REGINALD --- CREED
+    REGINALD --- BROCK
+    REGINALD --- TEX
+    REGINALD --- CORAL
+    CARL --- GIG
+    
+    %% Cross connections
+    HANS <-->|"rate diff"| SAM
+    ZHAO <-->|"Asia flows"| SAM
+    
+    %% Styling
+    classDef red fill:#f85149,stroke:#f85149,color:#fff
+    classDef orange fill:#d29922,stroke:#d29922,color:#fff
+    classDef green fill:#3fb950,stroke:#3fb950,color:#fff
+    classDef blue fill:#58a6ff,stroke:#58a6ff,color:#fff
+    classDef gray fill:#8b949e,stroke:#8b949e,color:#fff
+    classDef purple fill:#a371f7,stroke:#a371f7,color:#fff
+    
+    class LABOR,SAM red
+    class CARL,REGINALD,HENRY,MARCO orange
+    class LIQUID,ZHAO,HANS green
+    class PROME blue
+    class CREED,BROCK,TEX,CORAL,GIG gray
+    class POSITIONS purple
