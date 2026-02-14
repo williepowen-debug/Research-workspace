@@ -1,40 +1,38 @@
-ID	Target_Date	Catalyst	Expected_Impact	Vectors_Affected	Status	Added_Session	Notes
-FL-OTTO-001	2026-06	First Brands Trial	Fraud allegations tested in court; may reveal additional details	VX-OTTO-001, VX-OTTO-006	PENDING	000	Judge Lopez scheduled 2-week trial
-FL-OTTO-002	Ongoing	DOJ Investigation Expansion	May charge additional individuals or companies	VX-OTTO-006, VX-OTTO-002	WATCHING	000	Kollar, Seibold cooperating — may provide evidence on others
-FL-OTTO-003	Q1-Q2 2026	Warehouse Lender Audits	May discover additional fraud at other lenders	VX-OTTO-002, VX-OTTO-004	WATCHING	000	Industry-wide reassessment underway
-FL-OTTO-004	Quarterly	Bank Earnings Disclosures	May reveal additional auto-related losses	VX-OTTO-003	WATCHING	000	Watch JPM, Fifth Third, regional banks
-FL-OTTO-005	Monthly	Auto ABS Deal Performance	Early warning for cascade/downgrade wave	VX-OTTO-007	WATCHING	000	Spreads elevated but stable
-FL-OTTO-006	Q1-Q2 2026	Flagship Credit Acceptance - Post-Acquisition Audit	InterVest forensic review — no issues found so far	VX-OTTO-008	WATCHING	001	DOWNGRADED from CRITICAL. No fraud/collateral issues reported. May be orderly transition.
-FL-OTTO-007	Ongoing	Exeter Finance ABS Surveillance	S&P/Moody's tracking; further ECNL increases = downgrade risk	VX-OTTO-009	WATCHING	001	8 deals already flagged Nov 2025
-FL-OTTO-008	2026	CPS Repossession Litigation	Class-action outcome could create material contingent liability	VX-OTTO-010	WATCHING	001	Settlement or adverse judgment = covenant stress
-FL-OTTO-009	Q1 2026	Ally Financial Restructuring	2% workforce cut early 2026; watching for further distress signals	VX-OTTO-004	WATCHING	001	Major player tightening = industry signal
-FL-OTTO-010	2026-02-25	First Brands Examiner Report	Martin De Luca report on $2.3B missing from factored receivables	VX-OTTO-016	CRITICAL	001	May reveal additional fraud or identify where $2.3B went
-FL-OTTO-011	2026-04-30	Tricolor Vehicle Liquidation Deadline	10,000 vehicles to be sold; recovery rates will indicate collateral values	VX-OTTO-014	ELEVATED	001	Vervent/Holman joint auctioneers
-FL-OTTO-012	Ongoing	Andy Mata Grand Jury	DOJ targeting operational layer of Tricolor	VX-OTTO-015	CRITICAL	001	May lead to additional charges or cooperating witnesses
-FL-OTTO-013	Ongoing	Onset Financial Litigation	Onset vs James brothers; $200M "pilfered" claim; intervention dispute	VX-OTTO-016	ELEVATED	001	Committee argues Onset was participant not victim
-FL-OTTO-014	2026-02-09	PrimaLend Plan Voting Deadline	Creditor vote on reorganization plan	VX-OTTO-001	WATCHING	001	Market test for subprime sector appetite
-FL-OTTO-015	Early 2026	First Brands Section 363 Sale	Sale process for Fram, Raybestos, Trico core brands	VX-OTTO-016, VX-OTTO-023	CRITICAL	002	Liquidity depends on Ford/GM bridge; examiner report Feb 25
-FL-OTTO-016	Ongoing	Ford/GM First Brands Financing Review	OEMs assessing continued support vs alternative suppliers	VX-OTTO-016	ELEVATED	002	"Too critical to fail" but not indefinite
-FL-OTTO-017	2026	James Brothers Criminal Trial	Patrick and Edward James trial for $9.3B fraud	VX-OTTO-023	WATCHING	002	Life sentence potential; Enron parallels
-FL-OTTO-018	Monthly	Subprime ABS Spread Monitoring	Watch BBB spreads for stress signal	VX-OTTO-029	WATCHING	002	180bps current; >250bps = elevated stress
-FL-OTTO-019	Quarterly	2022 Vintage Surveillance	Rating agency reviews for worst-performing cohort	VX-OTTO-026	ELEVATED	002	CNL 22.42%; if approaches 30%, downgrade wave begins
-FL-OTTO-020	Early March 2026	CFPB Funding Lapse	If no congressional action, Bureau enters shutdown posture	VX-OTTO-035	CRITICAL	003	Would pause supervision, rulemaking, and litigation
-FL-OTTO-021	2026-08	Daniel Chu Criminal Trial	SDNY trial; "Enron defense" strategy; key evidence: recorded calls	VX-OTTO-024	ELEVATED	003	Bellwether for corporate fraud prosecution in private credit era
-FL-OTTO-022	2026-09-15	NY FAIR Business Practices Act	Finalization deadline; codifies CFPB terms into state law	VX-OTTO-036	WATCHING	003	Could create most stringent state-level consumer protection
-FL-OTTO-023	2026-04	DLT Collateral Registry Pilot	First multi-state distributed ledger for subprime auto collateral	VX-OTTO-037	WATCHING	003	If successful, eliminates double-pledging latency window
-FL-OTTO-024	2026-02-15	Fed 2026 Stress Test Scenarios	Finalization of severely adverse scenario (5.5pp unemployment, 54% equity decline)	VX-OTTO-041	WATCHING	003	First time with public comment on hypothetical conditions
-FL-OTTO-025	Ongoing	BDC Redemption Monitoring	Watch for >5% NAV redemption requests as crisis signal	VX-OTTO-032	ELEVATED	003	Feedback loop trigger; Oaktree at 4.89% already near threshold
-FL-OTTO-026	2026-02-18	Carvana Q4/FY2025 Earnings	CRITICAL: 10-K filing, GT opinion, related-party disclosures, Gotham rebuttal	VX-OTTO-060, VX-OTTO-067	CRITICAL	006	Decision point: 10-K delayed or GT resigns = RED. Clean filing + substantive rebuttal = bear thesis weakens.
-FL-OTTO-027	Ongoing	Carvana ABS Spread Monitoring	Track N-series (non-prime) spreads for contagion signal	VX-OTTO-062	ELEVATED	006	If Carvana stress spreads to broader subprime ABS market = systemic
-FL-OTTO-028	2026-03-15	Carvana Discovery Production 1	First wave: early custodian ESI due per Feb 10 order	VX-OTTO-066	WATCHING	006	May reveal DriveTime internal communications
-FL-OTTO-029	2026-06-12	Carvana Discovery Production 2	Second wave: remaining custodian ESI due	VX-OTTO-066	WATCHING	006	Rolling production through mid-2026
-FL-OTTO-030	2026-02-13 to 17	PrimaLend Plan Confirmation	Confirmation hearing THIS WEEK; liquidating trust; Jan 23 auction results should be revealed	VX-OTTO-025	CRITICAL	007	Watch for BVY2 fraud findings; creditor recovery rates
-FL-OTTO-031	~2026-02-25	First Brands Examiner Report	Martin De Luca (Boies Schiller) report on $2.3B factored receivables + $800M supply chain fraud	VX-OTTO-016	CRITICAL	007	May be killed if Ch. 7 conversion happens first. Race against liquidation.
-FL-OTTO-032	Ongoing	First Brands Ch. 7 Conversion	Some units considering Chapter 7 to cut advisory costs; would accelerate asset sales but kill examiner	VX-OTTO-016	CRITICAL	007	Watch for court filing. If happens, examiner investigation likely ends.
-FL-OTTO-033	Ongoing	Flagship InterVest Closing	Closing NOT confirmed as of Feb 14; no fraud/collateral issues reported	VX-OTTO-008	WATCHING	007	Clean closing = orderly transition. Delay/issues = escalate risk.
-FL-OTTO-034	Ongoing	First Brands Mediation	Judge Isgur mediating creditor disputes over collateral priority	VX-OTTO-016	ELEVATED	007	Outcome determines who gets paid in liquidation.
-FL-OTTO-035	2026-08	Tricolor Chu Trial	Daniel Chu criminal trial in SDNY	VX-OTTO-024	WATCHING	007	Kollar/Seibold cooperating = strong prosecution case.
-FL-OTTO-036	Ongoing	Lendbuzz/SAFCO S&P CreditWatch Resolution	S&P placed 15 classes on CreditWatch Negative (Sept 2025) citing immigration enforcement. Still unresolved despite new issuance. Resolution = validation or dismissal of immigration thesis.	VX-OTTO-030	ELEVATED	RP-OTT-3.1	KBRA rated LBZZ 2026-1 AAA anyway — rating agency divergence
-FL-OTTO-037	Q1 2026	Ford/GM First Brands $48M Advance Payment	Court approval sought late Jan 2026 for ~$48M advance from Ford, GM, Harley, Polaris, VW, BMW, Nissan, Audi. Critical bridge financing. Status unclear.	VX-OTTO-016	ELEVATED	RP-OTT-3.1	Ford most vulnerable (F-150 wipers). If deal fails, accelerates wind-down.
-FL-OTTO-038	2026-02	Ally 10-K Filing	Watch for Carvana-specific disclosure changes, any modification of forward flow language, or new related-party transaction disclosures.	VX-OTTO-075	ELEVATED	RP-OTT-4.1	If forced to break out Carvana DQ/NCO, could reveal adverse quality
-FL-OTTO-039	~2027-01	GM/Ford ILC First Deposits	~12 months from Jan 21, 2026 approval. First deposit-taking announcement = competitive pressure begins on monolines.	VX-OTTO-044	WATCHING	RP-OTT-4.1	Toyota precedent: $5B → $13.9B in ~3 years
+ID	Date	Entity	Catalyst	Impact	Status	Next_Check	Notes
+FL-OTTO-001	2026-02-13 to 17	PrimaLend	PrimaLend Plan Confirmation	Confirmation hearing THIS WEEK; liquidating trust; Jan 23 au...	CRITICAL	-	Watch for BVY2 fraud findings; creditor recovery rates
+FL-OTTO-002	2026-02-18	Carvana	Carvana Q4/FY2025 Earnings	CRITICAL: 10-K filing, GT opinion, related-party disclosures...	CRITICAL	-	Decision point: 10-K delayed or GT resigns = RED. Clean filing + substantive rebuttal = bear thes...
+FL-OTTO-003	Early 2026	FirstBrands	First Brands Section 363 Sale	Sale process for Fram, Raybestos, Trico core brands	CRITICAL	-	Liquidity depends on Ford/GM bridge; examiner report Feb 25
+FL-OTTO-004	Early March 2026	Regulatory	CFPB Funding Lapse	If no congressional action, Bureau enters shutdown posture	CRITICAL	-	Would pause supervision, rulemaking, and litigation
+FL-OTTO-005	Ongoing	Tricolor	Andy Mata Grand Jury	DOJ targeting operational layer of Tricolor	CRITICAL	Weekly	May lead to additional charges or cooperating witnesses
+FL-OTTO-006	Ongoing	FirstBrands	First Brands Ch. 7 Conversion	Some units considering Chapter 7 to cut advisory costs; woul...	CRITICAL	Weekly	Watch for court filing. If happens, examiner investigation likely ends.
+FL-OTTO-007	~2026-02-25	FirstBrands	First Brands Examiner Report	Martin De Luca (Boies Schiller) report on $2.3B factored rec...	CRITICAL	-	May be killed if Ch. 7 conversion happens first. Race against liquidation.
+FL-OTTO-008	2026-02	Carvana	Ally 10-K Filing	Watch for Carvana-specific disclosure changes, any modificat...	ELEVATED	-	If forced to break out Carvana DQ/NCO, could reveal adverse quality
+FL-OTTO-009	2026-04-30	Tricolor	Tricolor Vehicle Liquidation Deadline	10,000 vehicles to be sold; recovery rates will indicate col...	ELEVATED	-	Vervent/Holman joint auctioneers
+FL-OTTO-010	Ongoing	FirstBrands	Onset Financial Litigation	"Onset vs James brothers; $200M ""pilfered"" claim; interventio..."	ELEVATED	Weekly	Committee argues Onset was participant not victim
+FL-OTTO-011	Ongoing	FirstBrands	Ford/GM First Brands Financing Review	OEMs assessing continued support vs alternative suppliers	ELEVATED	Weekly	Too critical to fail but not indefinite
+FL-OTTO-012	Ongoing	BDC	BDC Redemption Monitoring	Watch for >5% NAV redemption requests as crisis signal	ELEVATED	Weekly	Feedback loop trigger; Oaktree at 4.89% already near threshold
+FL-OTTO-013	Ongoing	Carvana	Carvana ABS Spread Monitoring	Track N-series (non-prime) spreads for contagion signal	ELEVATED	Weekly	If Carvana stress spreads to broader subprime ABS market = systemic
+FL-OTTO-014	Ongoing	FirstBrands	First Brands Mediation	Judge Isgur mediating creditor disputes over collateral prio...	ELEVATED	Weekly	Outcome determines who gets paid in liquidation.
+FL-OTTO-015	Ongoing	Lendbuzz/SAFCO	Lendbuzz/SAFCO S&P CreditWatch Resolution	S&P placed 15 classes on CreditWatch Negative (Sept 2025) ci...	ELEVATED	Weekly	KBRA rated LBZZ 2026-1 AAA anyway — rating agency divergence
+FL-OTTO-016	Q1 2026	FirstBrands	Ford/GM First Brands $48M Advance Payment	Court approval sought late Jan 2026 for ~$48M advance from F...	ELEVATED	Monthly	Ford most vulnerable (F-150 wipers). If deal fails, accelerates wind-down.
+FL-OTTO-017	Quarterly	ABS	2022 Vintage Surveillance	Rating agency reviews for worst-performing cohort	ELEVATED	-	CNL 22.42%; if approaches 30%, downgrade wave begins
+FL-OTTO-018	2026	Industry	CPS Repossession Litigation	Class-action outcome could create material contingent liabil...	WATCHING	Quarterly	Settlement or adverse judgment = covenant stress
+FL-OTTO-019	2026	FirstBrands	James Brothers Criminal Trial	Patrick and Edward James trial for $9.3B fraud	WATCHING	Quarterly	Life sentence potential; Enron parallels
+FL-OTTO-020	2026-03-15	Carvana	Carvana Discovery Production 1	First wave: early custodian ESI due per Feb 10 order	WATCHING	-	May reveal DriveTime internal communications
+FL-OTTO-021	2026-04	Industry	DLT Collateral Registry Pilot	First multi-state distributed ledger for subprime auto colla...	WATCHING	-	If successful, eliminates double-pledging latency window
+FL-OTTO-022	2026-06-12	Carvana	Carvana Discovery Production 2	Second wave: remaining custodian ESI due	WATCHING	-	Rolling production through mid-2026
+FL-OTTO-023	2026-08	Tricolor	Tricolor Chu Trial	Daniel Chu criminal trial in SDNY	WATCHING	-	Kollar/Seibold cooperating = strong prosecution case.
+FL-OTTO-024	2026-09-15	Regulatory	NY FAIR Business Practices Act	Finalization deadline; codifies CFPB terms into state law	WATCHING	-	Could create most stringent state-level consumer protection
+FL-OTTO-025	Monthly	ABS	Auto ABS Deal Performance	Early warning for cascade/downgrade wave	WATCHING	-	Spreads elevated but stable
+FL-OTTO-026	Monthly	ABS	Subprime ABS Spread Monitoring	Watch BBB spreads for stress signal	WATCHING	-	180bps current; >250bps = elevated stress
+FL-OTTO-027	Ongoing	Industry	DOJ Investigation Expansion	May charge additional individuals or companies	WATCHING	Weekly	Kollar, Seibold cooperating — may provide evidence on others
+FL-OTTO-028	Ongoing	Exeter	Exeter Finance ABS Surveillance	S&P/Moody's tracking; further ECNL increases = downgrade ris...	WATCHING	Weekly	8 deals already flagged Nov 2025
+FL-OTTO-029	Ongoing	Flagship	Flagship InterVest Closing	Closing NOT confirmed as of Feb 14; no fraud/collateral issu...	WATCHING	Weekly	Clean closing = orderly transition. Delay/issues = escalate risk.
+FL-OTTO-030	Q1 2026	Ally	Ally Financial Restructuring	2% workforce cut early 2026; watching for further distress s...	WATCHING	Monthly	Major player tightening = industry signal
+FL-OTTO-031	Q1-Q2 2026	Warehouse	Warehouse Lender Audits	May discover additional fraud at other lenders	WATCHING	Monthly	Industry-wide reassessment underway
+FL-OTTO-032	Q1-Q2 2026	Flagship	Flagship Credit Acceptance - Post-Acquisition Audit	InterVest forensic review — no issues found so far	WATCHING	Monthly	DOWNGRADED from CRITICAL. No fraud/collateral issues reported. May be orderly transition.
+FL-OTTO-033	Quarterly	Industry	Bank Earnings Disclosures	May reveal additional auto-related losses	WATCHING	-	Watch JPM, Fifth Third, regional banks
+FL-OTTO-034	~2027-01	ILC	GM/Ford ILC First Deposits	~12 months from Jan 21, 2026 approval. First deposit-taking ...	WATCHING	-	Toyota precedent: $5B → $13.9B in ~3 years
+FL-OTTO-035	2026-02-09	PrimaLend	PrimaLend Plan Voting Deadline	Creditor vote on reorganization plan	RESOLVED	-	Market test for subprime sector appetite
+FL-OTTO-036	2026-02-15	Regulatory	Fed 2026 Stress Test Scenarios	Finalization of severely adverse scenario (5.5pp unemploymen...	RESOLVED	-	First time with public comment on hypothetical conditions
+FL-OTTO-037	2026-06	FirstBrands	First Brands Trial	Fraud allegations tested in court; may reveal additional det...	PENDING	-	Judge Lopez scheduled 2-week trial
