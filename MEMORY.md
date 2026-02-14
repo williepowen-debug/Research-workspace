@@ -44,6 +44,25 @@
 **Path 2 (BROCK):** AI Capex reversal → Neocloud/BDC NAV → Bank fund finance → KRE
 Both converge on regional banks. Path 2 may trigger faster.
 
+### 🆕 Credit Stabilization Finding (Feb 14)
+
+**"Coiled Spring, Not Active Fire"**
+
+Fed CC 30+ DQ: 2.98% (Q3 2025) — 5th consecutive quarterly decline
+- Discover NCO: 5.0% ↓ (3rd consecutive decline)
+- Capital One 30+ DQ: 4.53% ↓ (first YoY improvement)
+
+**BUT concentrated stress remains:**
+- FL 90+ DQ: 13.49%
+- TX 90+ DQ: 12.99%
+- NV 90+ DQ: 14.53%
+- Age 30-49: +250bps above 2019
+- Spread: NV 14.53% vs WI 7.62% = 6.91pp K-shape
+
+**Interpretation:** Aggregate metrics stabilizing at ~35-50% of GFC peak. System has NO BUFFER. Employment shock (LABOR) is the release mechanism. Without it, credit plateaus. With it, stressed segments convert immediately.
+
+**NY Fed (Feb 10):** Called it "K-shaped economy" — "some groups are really struggling"
+
 ### 🆕 Sponsor Capitulation Framework (RP-CREED-8, Feb 11)
 
 **When do MF sponsors stop subsidizing negative carry?**
