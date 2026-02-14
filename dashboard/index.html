@@ -2519,10 +2519,10 @@
                 // LEFT - Support
                 { id: 'marco', label: '🚶 MARCO', x: -280, y: 0, fixed: true, color: { background: '#d29922', border: '#e3b341' }, font: { color: '#fff', size: 12 }, shape: 'ellipse', size: 24, borderWidth: 2 },
                 
-                // CENTER - Core transmission chain (left to right)
-                { id: 'labor', label: '👷 LABOR', x: -120, y: 0, fixed: true, color: { background: '#f85149', border: '#ff7b72' }, font: { color: '#fff', size: 14 }, shape: 'ellipse', size: 32, borderWidth: 4 },
-                { id: 'carl', label: '💳 CARL', x: 60, y: 0, fixed: true, color: { background: '#d29922', border: '#e3b341' }, font: { color: '#fff', size: 14 }, shape: 'ellipse', size: 32, borderWidth: 4 },
-                { id: 'reginald', label: '🏦 REGINALD', x: 240, y: 0, fixed: true, color: { background: '#d29922', border: '#e3b341' }, font: { color: '#fff', size: 14 }, shape: 'ellipse', size: 32, borderWidth: 4 },
+                // CENTER - Core transmission chain (left to right, bigger nodes)
+                { id: 'labor', label: '👷 LABOR\nEmployment', x: -120, y: 0, fixed: true, color: { background: '#f85149', border: '#ff7b72' }, font: { color: '#fff', size: 12 }, shape: 'ellipse', size: 38, borderWidth: 4 },
+                { id: 'carl', label: '💳 CARL\nConsumer', x: 60, y: 0, fixed: true, color: { background: '#d29922', border: '#e3b341' }, font: { color: '#fff', size: 12 }, shape: 'ellipse', size: 38, borderWidth: 4 },
+                { id: 'reginald', label: '🏦 REGINALD\nBanks', x: 240, y: 0, fixed: true, color: { background: '#d29922', border: '#e3b341' }, font: { color: '#fff', size: 12 }, shape: 'ellipse', size: 38, borderWidth: 4 },
                 
                 // RIGHT - Foreign channels (stacked vertically on FAR right)
                 { id: 'zhao', label: '🇨🇳 ZHAO', x: 520, y: -80, fixed: true, color: { background: '#f85149', border: '#ff7b72' }, font: { color: '#fff', size: 13 }, shape: 'ellipse', size: 26, borderWidth: 3 },
@@ -2535,15 +2535,15 @@
                 // HENRY - Market structure monitor (below SAM, connects to positions)
                 { id: 'henry', label: '📊 HENRY', x: 400, y: 100, fixed: true, color: { background: '#e3b341', border: '#f0d060' }, font: { color: '#000', size: 13 }, shape: 'diamond', size: 28, borderWidth: 3 },
                 
-                // SUB-AGENTS - Under CARL and REGINALD
-                { id: 'gig', label: 'GIG', x: 60, y: 100, fixed: true, color: { background: '#484f58', border: '#6e7681' }, font: { color: '#fff', size: 11 }, shape: 'box', size: 16, borderWidth: 2 },
-                { id: 'creed', label: 'CREED', x: 140, y: 100, fixed: true, color: { background: '#484f58', border: '#6e7681' }, font: { color: '#fff', size: 11 }, shape: 'box', size: 16, borderWidth: 2 },
-                { id: 'brock', label: 'BROCK', x: 200, y: 100, fixed: true, color: { background: '#484f58', border: '#6e7681' }, font: { color: '#fff', size: 11 }, shape: 'box', size: 16, borderWidth: 2 },
-                { id: 'coral', label: 'CORAL', x: 260, y: 100, fixed: true, color: { background: '#484f58', border: '#6e7681' }, font: { color: '#fff', size: 11 }, shape: 'box', size: 16, borderWidth: 2 },
-                { id: 'tex', label: 'TEX', x: 320, y: 100, fixed: true, color: { background: '#484f58', border: '#6e7681' }, font: { color: '#fff', size: 11 }, shape: 'box', size: 16, borderWidth: 2 },
+                // SUB-AGENTS - Below their parents, spread out for readability
+                { id: 'gig', label: '👷 GIG\nGig Economy', x: 60, y: 120, fixed: true, color: { background: '#484f58', border: '#6e7681' }, font: { color: '#fff', size: 10 }, shape: 'box', size: 18, borderWidth: 2 },
+                { id: 'creed', label: '🏢 CREED\nCRE/Office', x: 120, y: 140, fixed: true, color: { background: '#484f58', border: '#6e7681' }, font: { color: '#fff', size: 10 }, shape: 'box', size: 18, borderWidth: 2 },
+                { id: 'brock', label: '💼 BROCK\nBDC/Credit', x: 200, y: 120, fixed: true, color: { background: '#484f58', border: '#6e7681' }, font: { color: '#fff', size: 10 }, shape: 'box', size: 18, borderWidth: 2 },
+                { id: 'coral', label: '🌴 CORAL\nFlorida', x: 280, y: 140, fixed: true, color: { background: '#484f58', border: '#6e7681' }, font: { color: '#fff', size: 10 }, shape: 'box', size: 18, borderWidth: 2 },
+                { id: 'tex', label: '🤠 TEX\nTexas', x: 340, y: 120, fixed: true, color: { background: '#484f58', border: '#6e7681' }, font: { color: '#fff', size: 10 }, shape: 'box', size: 18, borderWidth: 2 },
                 
-                // BOTTOM - Positions (larger, prominent)
-                { id: 'positions', label: '📈 POSITIONS\nKRE | SSB | IWM | HYG', x: 240, y: 220, fixed: true, color: { background: '#a371f7', border: '#bc8cff' }, font: { color: '#fff', size: 14, bold: true }, shape: 'box', size: 30, borderWidth: 4 }
+                // BOTTOM - Positions (larger, prominent, more space)
+                { id: 'positions', label: '📈 POSITIONS\nKRE | SSB | IWM | HYG', x: 240, y: 260, fixed: true, color: { background: '#a371f7', border: '#bc8cff' }, font: { color: '#fff', size: 14, bold: true }, shape: 'box', size: 32, borderWidth: 4 }
             ]);
             const edges = new vis.DataSet([
                 // ═══ CORE TRANSMISSION CHAIN (thick red arrows) ═══
@@ -2569,12 +2569,12 @@
                 { from: 'henry', to: 'positions', arrows: 'to', color: { color: '#a371f7' }, width: 3 },
                 { from: 'reginald', to: 'positions', arrows: 'to', color: { color: '#a371f7' }, width: 4 },
                 
-                // ═══ SUB-AGENTS (thin gray) ═══
-                { from: 'carl', to: 'gig', arrows: 'to', color: { color: '#6e7681' }, width: 1 },
-                { from: 'reginald', to: 'creed', arrows: 'to', color: { color: '#6e7681' }, width: 1 },
-                { from: 'reginald', to: 'brock', arrows: 'to', color: { color: '#6e7681' }, width: 1 },
-                { from: 'reginald', to: 'coral', arrows: 'to', color: { color: '#6e7681' }, width: 1 },
-                { from: 'reginald', to: 'tex', arrows: 'to', color: { color: '#6e7681' }, width: 1 }
+                // ═══ SUB-AGENTS feed INTO parents ═══
+                { from: 'gig', to: 'carl', arrows: 'to', color: { color: '#6e7681' }, width: 2, label: 'gig data', font: { color: '#6e7681', size: 9, strokeWidth: 0 } },
+                { from: 'creed', to: 'reginald', arrows: 'to', color: { color: '#6e7681' }, width: 2, label: 'CRE', font: { color: '#6e7681', size: 9, strokeWidth: 0 } },
+                { from: 'brock', to: 'reginald', arrows: 'to', color: { color: '#6e7681' }, width: 2, label: 'BDC', font: { color: '#6e7681', size: 9, strokeWidth: 0 } },
+                { from: 'coral', to: 'reginald', arrows: 'to', color: { color: '#6e7681' }, width: 2, label: 'FL', font: { color: '#6e7681', size: 9, strokeWidth: 0 } },
+                { from: 'tex', to: 'reginald', arrows: 'to', color: { color: '#6e7681' }, width: 2, label: 'TX', font: { color: '#6e7681', size: 9, strokeWidth: 0 } }
             ]);
             const options = {
                 physics: { enabled: false },  // Fixed positions, no physics
