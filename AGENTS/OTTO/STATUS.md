@@ -1,30 +1,56 @@
 # OTTO STATUS
-**Last Updated:** 2026-02-14 | **Status:** 🔴 CRITICAL — Systemic Fraud + Carvana Allegations + Bankruptcy Surge
+**Last Updated:** 2026-02-14 | **Status:** 🔴 CRITICAL — Carvana Feb 18 + First Brands Ch. 7 Risk + S&P Immigration Precedent
 
 ---
 
 ## 🆕 FEBRUARY 2026 DEVELOPMENTS
 
-### Carvana Fraud Allegations (Feb 12)
-- Judge ordered document turnover re: Drivetime subsidiary
-- Allegation: Hiding **$1B+ in losses**
-- Stock -16% in 2 days (from $335 to ~$280)
-- **Potential "4th cockroach"** — needs investigation (RP-OTT-3.2)
+### Carvana Fraud Allegations (CRITICAL — Feb 18)
+- **RP-OTT-3.1 COMPLETE**: Full deep dive on $1B+ earnings overstatement allegations
+- Bridgecrest (Garcia II) services **$26B portfolio** at 0.117% fee (abnormally low)
+- Bridgecrest has **HIGHEST repo rate** (0.93%) of ALL ABS servicers
+- Extension rate = **largest increase** among 23 issuers (DQ masking)
+- Garcia II: convicted felon (Lincoln S&L 1990), $3.6B+ insider sales since 2020
+- **Feb 18 earnings DECISIVE:** 10-K delayed or GT resigns = RED
+- Stock: $486 ATH → $343 current (-30%)
 
-### Bankruptcy Surge (Feb 11)
-- **9 large bankruptcies (>$50M)** last week
-- 18 companies in last 3 weeks
-- Highest 3-week average since COVID
-- Cross-reference with BROCK data — transmission may be active
+### First Brands — ESCALATING (Ch. 7 Risk)
+- **Bloomberg Feb 13:** Some units may convert to Chapter 7 liquidation
+- Ch. 7 = kills examiner investigation (De Luca report ~Feb 25 in jeopardy)
+- $48M OEM bridge (Ford/GM/VW/BMW/Harley/Nissan/Audi) burned through
+- Cash depleted despite $1.1B DIP; hundreds of millions in professional fees
+- Ford most exposed: F-150 wipers, F-series = 40% of US sales
+- Mediation with Judge Isgur ongoing
 
-### PrimaLend Resolution
-- Jan 23 auction completed
-- Plan vote approved
-- **Status: Needs update on outcome** (RP-OTT-3.1)
+### PrimaLend — Fraud Angle Emerging
+- Plan confirmation hearing **THIS WEEK** (Feb 13-17)
+- **NEW:** $34M BVY2 transaction under Special Committee investigation (CEO Jensen's entity)
+- Prime Asset lawsuit: $45M "dumping ground" allegation
+- What was macro-driven now has fraud angle
+- Liquidating trust = modest recovery
+
+### Flagship — DOWNGRADED
+- InterVest acquisition (Nov 2025) closing NOT confirmed
+- **NO fraud or collateral discrepancies** reported publicly
+- Apr 2024 layoffs were macro-driven
+- May be orderly transition vs distressed
+- **Status: YELLOW** (was RED)
+
+### S&P Immigration Precedent
+- **FIRST TIME** rating agency explicitly cited immigration enforcement as credit factor
+- Lendbuzz (LBZZ 2024-1 to 2025-2) + SAFCO 2025-1 on CreditWatch Negative
+- Validates OTTO's "Invisible Exit" thesis at rating agency level
+- Despite this, Lendbuzz issued $246M ABS (Feb 2026) rated AAA by KBRA — market appetite persists
+
+### Fed 2026 Stress Test (Feb 4)
+- 10% unemployment, 58% equity decline, 30% house price, 39% CRE
+- **NO auto-specific scenarios** — stress captured only via unemployment
+- USD appreciates vs all currencies **EXCEPT JPY** (safe-haven) — validates SAM
 
 ### Upcoming Catalysts
-- **Feb 15:** Fed stress test scenarios published
-- **Feb 25:** First Brands examiner report (CRITICAL)
+- **Feb 13-17:** PrimaLend plan confirmation (CRITICAL)
+- **Feb 18:** Carvana Q4/FY2025 earnings (CRITICAL)
+- **~Feb 25:** First Brands examiner report (if not Ch. 7 first)
 
 ---
 
