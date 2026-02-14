@@ -96,8 +96,8 @@ Multiple fraud types have emerged across the **auto industry ecosystem** (lendin
 
 | Indicator | Value | Status | Implication |
 |-----------|-------|--------|-------------|
-| Known Fraud Cases | 3 (Tricolor, First Brands, PrimaLend) | 🔴 | Pattern established |
-| Bank Losses Disclosed | $591M+ (JPM $170M, Fifth Third $178M, Barclays £110M) | 🟠 | Approaching $1B threshold |
+| Known Fraud Cases | 3-4 (Tricolor, First Brands, PrimaLend, Carvana pending) | 🔴 | Pattern established |
+| Bank Losses Disclosed | ~$1.8B+ (Tricolor ~$591M + First Brands ~$1.2B) | 🔴 | Exceeded $1B threshold |
 | 2022 Vintage CNL | 22.42% at 31 months | 🔴 | Worst cohort; peak pricing |
 | Subprime ANL | 10.13% (Oct 2025) | 🔴 | Approaching GFC levels |
 | **Recovery Ratio** | **30.58% (vs 41% benchmark)** | 🔴 | "Invisible Exit" confirmed |
@@ -123,6 +123,7 @@ Multiple fraud types have emerged across the **auto industry ecosystem** (lendin
 | **Exeter Finance** | 🟠 HIGH | 8 ABS deals ECNL raised; 2023-1 revised to 26.50% from 21.00% |
 | **Consumer Portfolio Services** | 🟠 HIGH | Repo class-action; $535M warehouse dependency; terminated direct lending |
 | **Lendbuzz/SAFCO** | 🟠 HIGH | S&P CreditWatch Negative citing immigration enforcement; first agency precedent |
+| **First Help Financial (FHF)** | 🟠 HIGH | S&P CreditWatch Negative citing immigration enforcement; immigrant-corridor exposure |
 | **Flagship Credit Acceptance** | 🟡 WATCH | InterVest acquisition; NO fraud/collateral issues found; may be orderly transition |
 | **American Credit Acceptance** | 🟡 ELEVATED | -19.4% originations YoY; private; contraction warning |
 | **Westlake Financial** | 🟡 MONITOR | Operational complexity; watching |
@@ -285,9 +286,10 @@ Low DQ: Alaska, Utah, Washington (3.2%)
 
 | From OTTO | Condition | Effect |
 |-----------|-----------|--------|
-| Bank loss >$1B | → REGINALD | NDFI contagion active |
+| Bank loss >$1B | → REGINALD | NDFI contagion active (ALREADY TRIGGERED) |
 | Warehouse freeze | → CARL, LIQUID | Credit crunch |
-| Flagship files | → ALL | 4th case confirmation |
+| Carvana Feb 18 fails | → ALL | Largest case; $26B servicing at risk |
+| First Brands Ch. 7 | → BROCK | BDC exposure $237M + $2.7B CLO |
 
 ---
 
@@ -316,7 +318,7 @@ Low DQ: Alaska, Utah, Washington (3.2%)
 ### Fraud & Structural
 | # | Prediction | Timeframe | Confidence |
 |---|------------|-----------|------------|
-| 1 | 4th fraud case (Flagship or other) discovered | Q2 2026 | 70% |
+| 1 | 4th fraud case confirmed (Carvana Feb 18 or other) | Q1-Q2 2026 | 70% |
 | 2 | 2022 vintage CNL exceeds 25% | Q2-Q3 2026 | 75% |
 | 3 | Subprime BBB spreads >250bps | H1 2026 | 60% |
 | 4 | Total bank losses >$1B disclosed | Q2 2026 | 65% |
@@ -377,13 +379,12 @@ The immigration-credit nexus was well-documented in 2008-2011:
 ---
 
 ## KEY DOCS
-- workbook/VX.tsv (72 vectors)
+- workbook/VX.tsv (75 vectors)
 - workbook/ML.tsv (96 entries)
 - workbook/FL.tsv (35 calendar items)
 - workbook/FLOW.tsv (15 pathways)
-- research/outputs/RP-OTT-1.* (5 reports — fraud/structural)
-- research/outputs/RP-OTT-2.* (4 reports — immigration transmission)
-- research/RP-OTT-3.1 (Carvana/DriveTime deep dive)
-- research/RP-OTT-3.2 (Feb 2026 sector update)
+- research/outputs/RP-OTT-1.1 through 1.7 (7 reports — fraud/structural)
+- research/outputs/RP-OTT-2.1 through 2.4 (4 reports — immigration transmission)
+- research/RP-OTT-3.1_Carvana_DriveTime_Deep_Dive.md
 
 *Next update trigger: 4th fraud case discovery, CFPB funding lapse, bank loss >$1B, or remittance reversal signal*
