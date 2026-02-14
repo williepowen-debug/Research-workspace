@@ -1,5 +1,7 @@
 # OTTO STATUS
-**Last Updated:** 2026-02-14 | **Status:** 🔴 CRITICAL — Carvana Feb 18 + First Brands Ch. 7 Risk + S&P Immigration Precedent
+**Last Updated:** 2026-02-14 20:20 UTC | **Status:** 🔴 CRITICAL — Subprime DQ Record + Ally-Carvana Contagion + Feb 18 Decisive
+
+**Vectors:** 83 | **ML Entries:** 109
 
 ---
 
@@ -9,9 +11,17 @@
 - **RP-OTT-3.1 COMPLETE**: Full deep dive on $1B+ earnings overstatement allegations
 - Bridgecrest (Garcia II) services **$26B portfolio** at 0.117% fee (abnormally low)
 - Bridgecrest has **HIGHEST repo rate** (0.93%) of ALL ABS servicers
-- Extension rate = **largest increase** among 23 issuers (DQ masking)
+- Extension rate **DOUBLED 1.97% → 4.18%** = **LARGEST increase** of ALL 23 issuers (DQ masking)
 - Garcia II: convicted felon (Lincoln S&L 1990), $3.6B+ insider sales since 2020
-- **ALLY CONTAGION CONFIRMED:** $6B forward flow is "WITHOUT RECOURSE" — Ally fully bears credit risk
+
+**🆕 ALLY-CARVANA CONTAGION PATH MAPPED:**
+- $19B purchased since 2017 = **42% of Carvana's $46B originations**
+- Carvana = **17% of Ally's used auto book** (single-originator concentration)
+- $6B forward flow is **WITHOUT RECOURSE** — Ally fully bears credit risk
+- **33 metrics redacted** in SEC filings (FICO, LTV, triggers = HIDDEN)
+- Ally does NOT disclose Carvana-specific performance
+- **CLIFF RISK:** When Bridgecrest extensions can't mask DQ, losses crystallize fast
+
 - **Feb 18 earnings DECISIVE:** 10-K delayed or GT resigns = RED
 - Stock: $486 ATH → $343 current (-30%)
 
@@ -36,6 +46,13 @@
 - Apr 2024 layoffs were macro-driven
 - May be orderly transition vs distressed
 - **Status: YELLOW** (was RED)
+
+### 🆕 Subprime Auto DQ at ALL-TIME RECORD
+- **60+ day DQ: 6.65%** (Oct 2025) = **HIGHEST since Fitch began tracking (early 1990s)**
+- Subprime default rate (repos + near-repos): **~10%** (Sep 2025) = highest since 2008-2009
+- Prime DQ: stable at 0.37% — **K-SHAPE CONFIRMED**
+- State leaders: **TX 7.92%, FL 6.54%**, NV 6.39%, AZ 6.23%
+- Florida bankruptcy filings +23.5% YoY = leading indicator
 
 ### S&P Immigration Precedent
 - **FIRST TIME** rating agency explicitly cited immigration enforcement as credit factor
