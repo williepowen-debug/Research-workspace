@@ -1,5 +1,30 @@
 # OTTO STATUS
-**Last Updated:** 2026-02-04 | **Status:** 🔴 CRITICAL — Systemic Fraud + Immigration Transmission Confirmed
+**Last Updated:** 2026-02-14 | **Status:** 🔴 CRITICAL — Systemic Fraud + Carvana Allegations + Bankruptcy Surge
+
+---
+
+## 🆕 FEBRUARY 2026 DEVELOPMENTS
+
+### Carvana Fraud Allegations (Feb 12)
+- Judge ordered document turnover re: Drivetime subsidiary
+- Allegation: Hiding **$1B+ in losses**
+- Stock -16% in 2 days (from $335 to ~$280)
+- **Potential "4th cockroach"** — needs investigation (RP-OTT-3.2)
+
+### Bankruptcy Surge (Feb 11)
+- **9 large bankruptcies (>$50M)** last week
+- 18 companies in last 3 weeks
+- Highest 3-week average since COVID
+- Cross-reference with BROCK data — transmission may be active
+
+### PrimaLend Resolution
+- Jan 23 auction completed
+- Plan vote approved
+- **Status: Needs update on outcome** (RP-OTT-3.1)
+
+### Upcoming Catalysts
+- **Feb 15:** Fed stress test scenarios published
+- **Feb 25:** First Brands examiner report (CRITICAL)
 
 ---
 
