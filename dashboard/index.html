@@ -1054,6 +1054,7 @@
             <div class="logo">PROME <span>Dashboard</span></div>
             <nav class="tab-nav">
                 <button class="tab-btn active" data-tab="overview">Overview</button>
+                <button class="tab-btn" data-tab="network">Network</button>
                 <button class="tab-btn" data-tab="predictions">Predictions</button>
                 <button class="tab-btn" data-tab="subagents">Sub-Agents</button>
                 <button class="tab-btn" data-tab="data">Data</button>
@@ -1362,6 +1363,20 @@
                     <button class="tab-btn" onclick="switchTab('subagents')" style="background: var(--bg-tertiary);">View All Activity →</button>
                 </div>
             </div>
+            </div>
+            
+            <!-- NETWORK TAB -->
+            <div class="tab-page" id="tab-network">
+                <style>
+                    #network-frame {
+                        width: 100%;
+                        height: calc(100vh - 180px);
+                        border: none;
+                        border-radius: 12px;
+                        background: #0d1117;
+                    }
+                </style>
+                <iframe id="network-frame" src="../PROME/agent_network.html"></iframe>
             </div>
             
             <!-- SUB-AGENTS TAB -->
