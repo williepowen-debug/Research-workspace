@@ -58,12 +58,16 @@
 
 ### Primary: "The Cockroach" — When you find one, there are more.
 
-Three major fraud cases have exposed a systematic pattern in subprime auto:
-- **Tricolor Holdings** → $800M collateral gap; double-pledging; executives charged (life sentence potential)
-- **First Brands** → $9.3B debt; "Ponzi scheme" characterization; James brothers arrested Jan 2026
-- **PrimaLend** → $286M; macro stress (not fraud); liquidating trust vote Feb 9
+Multiple fraud types have emerged across the **auto industry ecosystem** (lending, parts, supply chain):
 
-**Core Mechanism:** Lenders pledge same loans to multiple warehouse facilities, fabricate data to inflate borrowing base, extract cash before collapse. Tricolor ran this 2018-2025.
+| Case | Type | Scale | Status |
+|------|------|-------|--------|
+| **Tricolor Holdings** | Double-pledging | $2B debt, $800M gap | Ch. 7; Chu trial Aug 2026 |
+| **First Brands** | Invoice fabrication | $9.3B debt | Ch. 11 → Ch. 7 risk; De Luca ~Feb 25 |
+| **PrimaLend** | BVY2 fraud emerging | $286M debt | Plan confirmation this week |
+| **Carvana** | Related-party (alleged) | $70B+ mkt cap | **Feb 18 earnings decisive** |
+
+**Core Pattern:** Different mechanisms but same outcome — stress hidden until collapse, insiders extract value before discovery.
 
 ### Secondary: "The Invisible Exit" — Immigration-Auto Transmission Chain 🆕
 
@@ -115,13 +119,15 @@ Three major fraud cases have exposed a systematic pattern in subprime auto:
 
 | Lender | Status | Key Signals |
 |--------|--------|-------------|
-| **Flagship Credit Acceptance** | 🔴 CRITICAL | Fire sale to InterVest; mass layoffs; "toxic/downward spiral" — matches Tricolor pattern |
+| **Carvana/Bridgecrest** | 🔴 CRITICAL | $1B+ earnings overstatement allegations; $26B servicing; 0.117% fee; highest repo rate; Feb 18 earnings |
 | **Exeter Finance** | 🟠 HIGH | 8 ABS deals ECNL raised; 2023-1 revised to 26.50% from 21.00% |
 | **Consumer Portfolio Services** | 🟠 HIGH | Repo class-action; $535M warehouse dependency; terminated direct lending |
+| **Lendbuzz/SAFCO** | 🟠 HIGH | S&P CreditWatch Negative citing immigration enforcement; first agency precedent |
+| **Flagship Credit Acceptance** | 🟡 WATCH | InterVest acquisition; NO fraud/collateral issues found; may be orderly transition |
 | **American Credit Acceptance** | 🟡 ELEVATED | -19.4% originations YoY; private; contraction warning |
 | **Westlake Financial** | 🟡 MONITOR | Operational complexity; watching |
 
-**4th Case Call:** Flagship is the primary candidate. If collateral gap exists (like Tricolor's $800M), discovery likely Q1-Q2 2026.
+**4th Case Assessment:** Carvana is now the primary candidate IF Feb 18 earnings reveal issues (10-K delay, GT resignation, disclosure expansion). Different fraud type (related-party manipulation vs double-pledging) but largest potential scale ($70B+ mkt cap). Flagship downgraded — no fraud indicators found.
 
 ---
 
@@ -289,12 +295,17 @@ Low DQ: Alaska, Utah, Washington (3.2%)
 
 | Date | Event | Urgency |
 |------|-------|---------|
-| **Feb 9** | PrimaLend voting deadline | 🟡 |
-| **Feb 15** | Fed stress test scenarios finalized | 🟡 |
-| **Feb 25** | First Brands examiner report | 🟠 |
-| **Early March** | CFPB funding lapse possible | 🔴 |
+| **Feb 13-17** | PrimaLend plan confirmation | 🔴 |
+| **Feb 15** | FSK Q4 earnings | 🔴 |
+| **Feb 18** | **Carvana Q4/FY2025 earnings** | 🔴 |
+| **Feb 20** | PSEC Q4 earnings | 🔴 |
+| **~Feb 25** | First Brands examiner report (if not Ch. 7) | 🔴 |
+| **Early March** | CFPB funding lapse possible | 🟠 |
+| **Mar 15** | Carvana discovery production 1 | 🟠 |
 | **April** | DLT collateral registry pilot | 🟡 |
 | **Apr 30** | Tricolor vehicle liquidation deadline | 🟠 |
+| **Jun 12** | Carvana discovery production 2 | 🟠 |
+| **June** | First Brands trial | 🟠 |
 | **August** | Daniel Chu trial | 🟠 |
 | **Sept 15** | NY FAIR Act deadline | 🟡 |
 
@@ -366,11 +377,13 @@ The immigration-credit nexus was well-documented in 2008-2011:
 ---
 
 ## KEY DOCS
-- workbook/VX.tsv (59 vectors)
-- workbook/ML.tsv (71 entries)
-- workbook/FL.tsv (25 calendar items)
+- workbook/VX.tsv (72 vectors)
+- workbook/ML.tsv (96 entries)
+- workbook/FL.tsv (35 calendar items)
 - workbook/FLOW.tsv (15 pathways)
-- research/outputs/RP-OTT-1.* (7 research reports — fraud/structural)
-- research/outputs/RP-OTT-2.* (4 research reports — immigration transmission) 🆕
+- research/outputs/RP-OTT-1.* (5 reports — fraud/structural)
+- research/outputs/RP-OTT-2.* (4 reports — immigration transmission)
+- research/RP-OTT-3.1 (Carvana/DriveTime deep dive)
+- research/RP-OTT-3.2 (Feb 2026 sector update)
 
 *Next update trigger: 4th fraud case discovery, CFPB funding lapse, bank loss >$1B, or remittance reversal signal*

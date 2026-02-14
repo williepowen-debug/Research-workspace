@@ -1,12 +1,12 @@
-# OTTO DOMAIN SKELETON v1.0
+# OTTO DOMAIN SKELETON v2.0
 
 # Purpose: Structural scaffold for LLM domain orientation
-# Domain:  Subprime Auto Lending Fraud, Double-Pledging, ABS Exposure, Warehouse Risk
-# Agent:   OTTO (Automotive Fraud & Subprime Auto Monitoring Agent)
+# Domain:  Auto Industry Fraud — Subprime Lending, Parts/Supply Chain, Related-Party Manipulation
+# Agent:   OTTO (Automotive Fraud & Stress Monitoring Agent)
 #
-# Version: 1.0
+# Version: 2.0
 # Created: 2026-01-26
-# Updated: 2026-01-26
+# Updated: 2026-02-14
 # Author:  PROME Network
 
 ---
@@ -17,453 +17,385 @@
 
 ### About This Agent
 
-OTTO monitors the emerging subprime auto lending fraud pattern with focus on:
-- Known fraud cases (Tricolor, First Brands, PrimaLend)
+OTTO monitors fraud and stress across the auto industry ecosystem:
+
+**Subprime Auto Lending:**
+- Known fraud cases (Tricolor, PrimaLend)
 - Double-pledging schemes in warehouse lending
 - Bank exposure to collapsed lenders
-- Systemic transmission to broader auto credit market
-- Regulatory/legal developments
+- Immigration-auto transmission ("Invisible Exit")
 
-**Coordination:** Primary linkages to CARL (consumer auto DQ), REGINALD (bank exposure), LIQUID (funding)
+**Auto Parts/Supply Chain:**
+- First Brands ($9.3B bankruptcy, invoice fraud)
+- OEM dependency and supply chain stress
+
+**Related-Party Manipulation:**
+- Carvana/DriveTime ($1B+ earnings overstatement allegations)
+- Bridgecrest servicing anomalies
+
+**Coordination:** Primary linkages to CARL (consumer auto DQ), REGINALD (bank exposure), LIQUID (funding), MARCO (immigration transmission)
 
 ### Current Thesis
 
-**PRIMARY THESIS: Systematic Fraud Uncovered in Subprime Auto**
+**PRIMARY THESIS: "The Cockroach" — Systematic Fraud Across Auto Industry**
 
-A pattern of systematic fraud has been uncovered in subprime auto lending, centered on double-pledging schemes:
+Multiple fraud types have emerged across the auto ecosystem:
 
-1. **Tricolor Holdings** → Chapter 7 bankruptcy (Sept 2025); executives charged with fraud (Dec 2025); ~$2B debt; double-pledging + data manipulation
-2. **First Brands** → Bankruptcy; double-pledging in supply chain/inventory finance; trial June 2026
-3. **PrimaLend** → Chapter 11 (Oct 2025); warehouse line stress; seeking restructuring
+| Case | Type | Scale | Status |
+|------|------|-------|--------|
+| **Tricolor Holdings** | Double-pledging | $2B debt, $800M gap | Ch. 7; execs charged |
+| **First Brands** | Invoice fabrication | $9.3B debt | Ch. 11; Ch. 7 risk; James brothers arrested |
+| **PrimaLend** | TBD ($34M BVY2 under investigation) | $286M debt | Plan confirmation this week |
+| **Carvana** | Related-party manipulation (alleged) | $70B+ mkt cap | Feb 18 earnings decisive |
 
-**Key Mechanism:** Lenders pledge same collateral (auto loans) to multiple warehouse lenders, fabricate data to make delinquent loans appear current, extract billions before collapse.
+**Core Pattern:** Different mechanisms (double-pledging, invoice fabrication, related-party subsidies) but same outcome — stress hidden until collapse, insiders extract value before discovery.
 
-**Bank Losses Confirmed:**
-- JPMorgan Chase: $170M loss (Tricolor)
-- Fifth Third Bank: $200M loss (Tricolor)
-- Multiple others exposed (Jefferies, UBS)
+**SECONDARY THESIS: "The Invisible Exit" — Immigration-Auto Transmission**
 
-**Confidence:** Pattern 90% | Magnitude 75% | Contagion 70%
-**Status:** CRITICAL — Active fraud prosecutions; systemic reassessment underway
+Immigrants don't default through traditional channels — they disappear. The loan goes from current to "skip" with no recovery. This breaks roll-rate models.
 
-**Invalidation Criteria:**
-- DOJ finds fraud limited to named companies only
-- Warehouse lenders resume normal operations without tightening
-- No additional subprime lender failures in 6 months
-- Bank losses contained to disclosed amounts
+**Key Metrics:**
+- Construction employment: -92.7% YoY
+- Transportation employment: -95.9% YoY
+- Recovery ratio: 30.58% (vs 41% benchmark)
+- 60+ DQ: 6.74% (32-year high)
+- S&P cited immigration enforcement as credit factor (precedent)
+
+**Confidence:** 
+- Pattern: 90%
+- Magnitude: 75%
+- Contagion: 70%
+- Immigration transmission: 85%
+
+**Status:** 🔴 CRITICAL — Multiple active prosecutions; Feb 18 Carvana catalyst; First Brands Ch. 7 risk
 
 ### Scenario Framework
 
 | Scenario | Probability | Description | Primary Vector |
 |----------|-------------|-------------|----------------|
-| **A** | 25% | Fraud contained to known cases | VX-OTTO-001 |
-| **B** | 40% | Additional lenders discovered with similar fraud | VX-OTTO-002 |
-| **C** | 25% | Systemic credit tightening hits subprime consumers | VX-OTTO-004 |
-| **D** | 10% | Major bank takes material losses; contagion | VX-OTTO-003 |
+| **A** | 20% | Fraud contained to known cases | VX-OTTO-001 |
+| **B** | 35% | Carvana allegations validated (largest case) | VX-OTTO-060 |
+| **C** | 30% | Immigration transmission accelerates Q1-Q2 | VX-OTTO-055 |
+| **D** | 15% | Systemic credit freeze; multiple banks impaired | VX-OTTO-003, VX-OTTO-020 |
 
 ### Coordinating Agents
 
 | Agent | Domain | Key Linkages |
 |-------|--------|--------------|
-| **CARL** | Consumer stress | Auto DQ already BREACHED (6.65%); credit access tightening |
-| **REGINALD** | Regional banks | Warehouse line exposure; ABS holdings |
+| **CARL** | Consumer stress | Auto DQ 6.74% (32-year high); credit access tightening |
+| **REGINALD** | Regional banks | Warehouse exposure; NDFI concentration 8-12% |
 | **LIQUID** | Treasury/funding | Funding stress from lender collapses |
-| **EARNINGS** | Corporate earnings | Bank provisions from auto exposure |
+| **MARCO** | Immigration | Employment collapse; remittance signals |
+| **BROCK** | BDC/Private Credit | First Brands $237M BDC + $2.7B CLO exposure |
 
 ---
 
 ## 1. ENTITY TYPES
 
-### Known Fraud Cases
+### Active Fraud/Stress Cases
 
-| Entity | Status | Debt | Fraud Allegations | Key Dates |
-|--------|--------|------|-------------------|-----------|
-| **Tricolor Holdings** | Chapter 7 | ~$2B | Double-pledging; data manipulation; fabricated payments | Filed Sept 2025; Charges Dec 2025 |
-| **First Brands** | Bankruptcy | TBD | Double-pledging in supply chain/inventory finance | Trial June 2026 |
-| **PrimaLend** | Chapter 11 | $286M | Warehouse line stress; sued by Prime Asset LLC | Filed Oct 2025 |
+| Entity | Type | Status | Scale | Key Dates |
+|--------|------|--------|-------|-----------|
+| **Tricolor Holdings** | Double-pledging | Ch. 7; criminal | $2B debt, $800M gap | Chu trial Aug 2026 |
+| **First Brands Group** | Invoice fabrication | Ch. 11 → Ch. 7? | $9.3B debt | De Luca report ~Feb 25 |
+| **PrimaLend** | BVY2 under investigation | Plan confirmation | $286M debt | This week (Feb 13-17) |
+| **Carvana/DriveTime** | Related-party (alleged) | Active trading | $70B+ mkt cap | Feb 18 earnings |
 
-### Key Executives (Tricolor)
+### Key Executives
 
+**Tricolor:**
 | Name | Role | Status |
 |------|------|--------|
-| **Daniel Chu** | Founder/CEO | Charged; faces life in prison |
-| **Daniel Goodgame** | COO | Charged |
-| **Jerome Kollar** | Former exec | Pled guilty; cooperating |
-| **Ameryn Seibold** | Former exec | Pled guilty; cooperating |
+| Daniel Chu | Founder/CEO | Arrested FL; NOT GUILTY plea; trial Aug 2026 |
+| David Goodgame | COO | Arrested TX; NOT GUILTY plea |
+| Jerome Kollar | Former exec | Pled guilty; cooperating |
+| Ameryn Seibold | Former exec | Pled guilty; cooperating |
+| Andy Mata | SVP Servicing | Under grand jury investigation |
+
+**First Brands:**
+| Name | Role | Status |
+|------|------|--------|
+| Patrick James | CEO | Arrested Jan 2026; $50M bond |
+| Edward James | Co-founder | Arrested Jan 2026 |
+
+**Carvana:**
+| Name | Role | Status |
+|------|------|--------|
+| Ernest Garcia II | Controlling shareholder | Convicted felon (Lincoln S&L 1990); 80% voting control |
+| Ernest Garcia III | CEO | Son of EG II |
 
 ### Bank Exposure
 
 | Bank | Exposure | Loss Disclosed | Status |
 |------|----------|----------------|--------|
 | **JPMorgan Chase** | Tricolor | $170M | Disclosed |
-| **Fifth Third** | Tricolor | $200M | Disclosed; cooperating with law enforcement |
-| **Jefferies** | Multiple | TBD | Reported exposure |
-| **UBS** | Multiple | TBD | Reported exposure |
+| **Fifth Third** | Tricolor | $178M | Disclosed; cooperating |
+| **Barclays** | Tricolor | £110M/$146M | Disclosed |
+| **Jefferies** | First Brands | $715M | Reported |
+| **UBS** | First Brands | $500M (receivables) | Reported |
+| **Regional cluster** | Tricolor | ~$75M | Origin, Renasant, TBK |
 
-### Warehouse Lenders at Risk
+**Total disclosed: ~$1.8B+**
 
-| Type | Description | Risk Level |
-|------|-------------|------------|
-| **Bank warehouse lines** | Senior secured to SPVs | HIGH — reassessing all subprime exposure |
-| **Private credit** | Mezzanine/junior tranches | CRITICAL — first loss position |
-| **ABS investors** | Securitization buyers | ELEVATED — deal performance deteriorating |
+### Lender Watchlist (Feb 2026)
+
+| Lender | Status | Key Signals |
+|--------|--------|-------------|
+| **Carvana/Bridgecrest** | 🔴 CRITICAL | $26B servicing; 0.117% fee; highest repo rate; Feb 18 |
+| **Exeter Finance** | 🟠 HIGH | 8 ABS ECNL raised; 2023-1 → 26.50% |
+| **Consumer Portfolio Services** | 🟠 HIGH | Repo litigation; warehouse dependent |
+| **Lendbuzz/SAFCO** | 🟠 HIGH | S&P CreditWatch (immigration) |
+| **Flagship Credit** | 🟡 WATCH | InterVest acquisition; NO fraud found |
+| **American Credit Acceptance** | 🟡 ELEVATED | -19.4% originations YoY |
 
 ---
 
 ## 2. FRAUD MECHANISMS
 
-### Double-Pledging Scheme
+### Type 1: Double-Pledging (Tricolor)
 
 ```
 HOW IT WORKS:
-1. Subprime lender originates auto loans
-2. Loans placed in Special Purpose Vehicle (SPV)
-3. SPV pledges loans as collateral to Warehouse Lender A
-4. SAME loans secretly pledged to Warehouse Lender B (different SPV)
-5. Lender extracts funding from both → cash extraction
-6. When defaults rise, insufficient collateral to cover both lines
-7. Lenders discover duplication only in bankruptcy
+1. Lender originates auto loans
+2. Loans placed in SPV, pledged to Warehouse A
+3. SAME loans secretly pledged to Warehouse B (different SPV)
+4. Lender extracts funding from both
+5. Collapse when insufficient collateral discovered
 
-WHY IT'S HARD TO DETECT:
-- Each warehouse lender examines only their SPV
-- No cross-facility collateral reconciliation
-- Fragmented oversight across legal entities
-- Electronic chattel paper control weaknesses
+WHY HARD TO DETECT:
+- Each warehouse examines only their SPV
+- No cross-facility reconciliation
+- Electronic chattel paper control gaps
 ```
 
-### Data Manipulation
+### Type 2: Invoice Fabrication (First Brands)
 
 ```
 HOW IT WORKS:
-1. Delinquent loans should be flagged and excluded from borrowing base
-2. Lender manipulates loan tapes to show delinquent loans as current
-3. Fabricates customer payment records
-4. Inflates borrowing base → extracts more funding
-5. Audits miss manipulation due to falsified records
+1. Supplier creates invoices for goods not delivered
+2. Multi-factors same receivables to multiple lenders
+3. Off-balance sheet SPEs hide true leverage
+4. $2.3B in factored receivables under investigation
+
+OUTCOME:
+- $9.3B debt vs $12M cash at filing
+- "Ponzi scheme" characterization
+- OEMs (Ford, GM) forced to provide bridge financing
 ```
 
-### Off-Balance Sheet Financing (First Brands)
+### Type 3: Related-Party Manipulation (Carvana — Alleged)
+
+```
+GOTHAM THESIS:
+1. Bridgecrest (Garcia II) services Carvana loans at 0.117% (below market)
+2. Low fee enables Carvana to sell loans at inflated prices
+3. DriveTime absorbs costs, levers to 20-40x EBITDA
+4. Value shifted from private DriveTime to public Carvana
+5. Garcia II extracts via $3.6B+ insider sales
+
+KEY METRICS:
+- Bridgecrest: $26B serviced portfolio
+- Bridgecrest repo rate: 0.93% (HIGHEST of all servicers)
+- Extension rate: largest increase among 23 issuers (masking)
+- Non-prime 60+ DQ: 17.48% (2021-N1 pool)
+```
+
+### Type 4: Abandonment/Skip ("Invisible Exit")
 
 ```
 HOW IT WORKS:
-1. Aggressive acquisition strategy in aftermarket auto parts
-2. Heavy use of off-balance sheet financing (poorly disclosed)
-3. Double-pledging in supply chain and inventory finance
-4. Investors unaware of true leverage
-5. Collapse when financing pulled
+1. Immigrant borrower loses job (enforcement/fear)
+2. Vehicle becomes detection liability (not asset)
+3. Borrower + vehicle disappear simultaneously
+4. Loan goes from current to "skip" with $0 recovery
+5. Cross-border enforcement impossible
+
+WHY MODELS MISS IT:
+- Traditional roll-rate assumes gradual 30→60→90→repo
+- Skip bypasses entire chain
+- Recovery ratio collapsed to 30.58% (vs 41% benchmark)
 ```
 
 ---
 
 ## 3. TRANSMISSION PATHS
 
-### FLOW-OTTO-01: Warehouse Line Contagion
+### Active Flows
 
+**FLOW-01: Warehouse Contagion** — ACTIVE
 ```
-Speed: WEEKS
-Status: ACTIVE — Lenders reassessing
-Layer: Funding
-
-Pathway:
-  Fraud discovered at subprime lender
-    → Warehouse lenders pull lines (self-protection)
-    → Other subprime lenders face liquidity squeeze
-    → Unable to fund new originations
-    → Origination volume collapses
-    → Credit access for subprime consumers tightens
-    → CARL auto DQ rises further (can't refinance)
-    → Delinquencies accelerate
-
-Trigger: Warehouse lenders broadly tighten; >2 additional lender failures
-Current Position: ACTIVE — Lenders reassessing all subprime exposure
-Historical Precedent: 2007-2008 mortgage warehouse collapse
+Fraud discovered → Lines pulled → Liquidity squeeze → Origination collapses
+→ Consumer credit access declines → CARL
 ```
 
-### FLOW-OTTO-02: Bank Loss Cascade
-
+**FLOW-05: NDFI Concentration Stress** — ELEVATED
 ```
-Speed: QUARTERS
-Status: ELEVATED — JPM/Fifth Third losses disclosed
-Layer: Banking
-
-Pathway:
-  Bank discloses auto warehouse losses
-    → Investors question other exposures
-    → Bank tightens all warehouse/auto lending
-    → Provisioning increases
-    → Credit availability declines
-    → Earnings pressure → REGINALD
-
-Trigger: Bank loss >$500M from auto exposure; multiple banks disclose
-Current Position: JPM $170M, Fifth Third $200M — contained so far
-Historical Precedent: 2008 bank write-downs
+NDFI losses → Regional bank capital pressure → C&I pullback
+→ REGINALD
 ```
 
-### FLOW-OTTO-03: ABS Performance Deterioration
-
+**FLOW-09: Immigration Transmission** — CRITICAL 🆕
 ```
-Speed: MONTHS
-Status: LATENT — Watching deal performance
-Layer: Securitization
-
-Pathway:
-  Subprime auto ABS deal performance deteriorates
-    → Downgrades begin
-    → CLO/fund holders face mark-to-market losses
-    → Forced selling
-    → Spread widening
-    → New issuance freezes
-    → Origination funding dries up
-
-Trigger: Major subprime auto ABS deal downgraded; spread +100bps
-Current Position: Spreads elevated but not crisis; watching
-Historical Precedent: 2007 subprime MBS cascade
-Coordination: REGINALD (bank ABS holdings), LIQUID (spread widening)
+Enforcement fear → Employment collapse (construction -93%, transport -96%)
+→ 60-day DQ spike (6.74% record) → 90-day (Q1-Q2 2026)
+→ Skip rate accelerates → Recovery ratio crashes
+→ ABS subordinate stress → CARL, REGINALD
 ```
 
-### FLOW-OTTO-04: Consumer Credit Crunch
-
+**FLOW-10: Carvana Contagion** — WATCH 🆕
 ```
-Speed: IMMEDIATE — Already active
-Status: CRITICAL — Credit tightening underway
-Layer: Consumer
-
-Pathway:
-  Fraud discovery + lender failures
-    → Warehouse lenders tighten across industry
-    → Subprime auto origination declines
-    → Consumers can't get car loans
-    → Can't refinance underwater loans
-    → Delinquencies accelerate (CARL already 6.65% BREACHED)
-    → Repossessions spike
-    → Feedback to bank losses
-
-Trigger: Fed SLOOS shows tightening; subprime origination -20%+
-Current Position: ACTIVE — Fed data shows banks tightening standards
-Historical Precedent: 2008-2009 credit crunch
-Coordination: CARL (consumer DQ)
+Feb 18: 10-K delayed OR GT resigns
+→ Stock collapse (already -30% from ATH)
+→ $26B Bridgecrest servicing at risk
+→ ABS market reprices all Carvana-linked pools
+→ S&P 500 rebalance volatility
 ```
+
+### Latent Flows
+
+**FLOW-06:** 2022 vintage CNL hits 30% → Subordinate downgrades → Spread cascade
+**FLOW-08:** CFPB funding lapse (Mar 2026) → Federal supervision pauses → State patchwork
 
 ---
 
 ## 4. THRESHOLDS (Consolidated Tripwires)
 
-**Color Coding:** 🟢 GREEN | 🟡 YELLOW | 🟠 ORANGE | 🔴 RED
-
 ### FRAUD SCOPE
 
 | Metric | Current | Yellow | Orange | Red | Status |
 |--------|---------|--------|--------|-----|--------|
-| **Known fraud cases** | 3 (Tricolor, First Brands, PrimaLend) | 4 | 5+ | 7+ | 🔴 RED |
-| **Bank losses disclosed** | $370M+ | $500M | $1B | $2B+ | 🟠 ORANGE |
-| **DOJ investigations** | 1 active (Tricolor) | 2 | 3+ | Industry-wide | 🟡 YELLOW |
+| **Known fraud cases** | 3-4 (Tricolor, First Brands, PrimaLend, Carvana?) | 4 | 5+ | 7+ | 🔴 RED |
+| **Bank losses disclosed** | ~$1.8B+ | $1.5B | $2B | $3B+ | 🔴 RED |
+| **DOJ investigations** | 2 active (Tricolor, First Brands) | 3 | 4+ | Industry-wide | 🟠 ORANGE |
 
-### WAREHOUSE LENDING
+### IMMIGRATION TRANSMISSION 🆕
 
 | Metric | Current | Yellow | Orange | Red | Status |
 |--------|---------|--------|--------|-----|--------|
-| **Warehouse line availability** | Tightening | Selective cuts | Broad cuts | Frozen | 🟠 ORANGE |
-| **Subprime origination volume** | Declining | -15% | -25% | -40%+ | 🟡 YELLOW |
+| **60+ DQ rate** | 6.74% (32-year high) | >6.5% | >7.0% | >8.0% | 🔴 RED |
+| **Recovery ratio** | 30.58% | <35% | <30% | <25% | 🔴 RED |
+| **Construction employment YoY** | -92.7% | -50% | -75% | -90%+ | 🔴 RED |
+
+### CARVANA-SPECIFIC 🆕
+
+| Metric | Current | Yellow | Orange | Red | Status |
+|--------|---------|--------|--------|-----|--------|
+| **Feb 18 earnings** | Pending | Normal | Disclosure expansion | 10-K delay/GT resigns | ⏳ PENDING |
+| **Stock (from $486 ATH)** | -30% ($343) | -20% | -40% | -60%+ | 🟠 ORANGE |
+| **Bridgecrest repo rate** | 0.93% (highest) | >0.8% | >1.0% | >1.2% | 🔴 RED |
 
 ### ABS PERFORMANCE
 
 | Metric | Current | Yellow | Orange | Red | Status |
 |--------|---------|--------|--------|-----|--------|
-| **Subprime auto ABS spreads** | Elevated | +50bps | +100bps | +200bps | 🟡 YELLOW |
-| **Subprime auto ABS downgrades** | Minimal | 3+ deals | 10+ deals | Sector-wide | 🟢 GREEN |
-
-### CONSUMER TRANSMISSION (Link to CARL)
-
-| Metric | Current | Yellow | Orange | Red | Status |
-|--------|---------|--------|--------|-----|--------|
-| **Auto DQ rate** | 6.65% (CARL) | >6.5% | >7.0% | >8.0% | 🔴 RED (BREACHED) |
-| **Subprime approval rate** | Declining | -10% | -20% | -30%+ | 🟡 YELLOW |
+| **2022 vintage CNL** | 22.42% | 20% | 25% | 30% | 🔴 RED |
+| **Subprime ANL** | 10.13% | 9% | 11% | 13%+ | 🔴 RED |
+| **Subprime BBB spreads** | 180bps | 150bps | 200bps | 300bps | 🟠 ORANGE |
 
 ---
 
-## 5. VECTOR REGISTRY
+## 5. CRITICAL TIMELINE
 
-### VX-OTTO-001: Known Fraud Cases
+### This Week (Feb 13-17)
+| Date | Event | Priority |
+|------|-------|----------|
+| **Feb 13-17** | PrimaLend plan confirmation | 🔴 CRITICAL |
+| **Feb 15** | FSK Q4 earnings | 🔴 CRITICAL |
 
-| Field | Value |
-|-------|-------|
-| **Name** | Identified Fraud Lenders |
-| **Current** | 3 (Tricolor, First Brands, PrimaLend) |
-| **Status** | 🔴 RED |
-| **Confidence** | 90% |
-| **Context** | Pattern established; more likely to emerge |
-| **Downstream** | Bank losses; credit tightening |
+### Next Week (Feb 16-22)
+| Date | Event | Priority |
+|------|-------|----------|
+| **Feb 18** | Carvana Q4/FY2025 earnings | 🔴 CRITICAL |
+| **Feb 20** | PSEC Q4 earnings | 🔴 CRITICAL |
 
-### VX-OTTO-002: Additional Lender Risk
+### Feb 23-28
+| Date | Event | Priority |
+|------|-------|----------|
+| **~Feb 25** | First Brands examiner report | 🔴 CRITICAL (if not Ch. 7) |
 
-| Field | Value |
-|-------|-------|
-| **Name** | Undiscovered Fraud Potential |
-| **Current** | Unknown — reassessment underway |
-| **Status** | 🟠 ORANGE |
-| **Confidence** | 70% |
-| **Context** | Warehouse lenders auditing all exposures |
-| **Downstream** | Cascade if more discovered |
-
-### VX-OTTO-003: Bank Exposure
-
-| Field | Value |
-|-------|-------|
-| **Name** | Bank Losses from Auto Fraud |
-| **Current** | $370M+ (JPM $170M, Fifth Third $200M) |
-| **Status** | 🟠 ORANGE |
-| **Confidence** | 85% |
-| **Context** | Disclosed losses; more may emerge |
-| **Downstream** | Provisioning; credit tightening |
-| **Coordination** | REGINALD, EARNINGS |
-
-### VX-OTTO-004: Warehouse Line Availability
-
-| Field | Value |
-|-------|-------|
-| **Name** | Subprime Auto Funding Access |
-| **Current** | Tightening across industry |
-| **Status** | 🟠 ORANGE |
-| **Confidence** | 80% |
-| **Context** | Lenders reassessing all subprime exposure |
-| **Downstream** | Origination decline; consumer credit crunch |
-| **Coordination** | LIQUID |
-
-### VX-OTTO-005: Consumer Credit Access
-
-| Field | Value |
-|-------|-------|
-| **Name** | Subprime Auto Loan Availability |
-| **Current** | Declining; standards tightening |
-| **Status** | 🟡 YELLOW |
-| **Confidence** | 75% |
-| **Context** | Fed SLOOS shows tightening; delinquencies at 2009 levels |
-| **Downstream** | CARL auto DQ acceleration |
-| **Coordination** | CARL |
-
-### VX-OTTO-006: Legal/Regulatory
-
-| Field | Value |
-|-------|-------|
-| **Name** | DOJ/SEC Investigation Status |
-| **Current** | Tricolor charges filed; First Brands trial June 2026 |
-| **Status** | 🟡 YELLOW |
-| **Confidence** | 80% |
-| **Context** | Cooperating witnesses; investigation may expand |
-| **Downstream** | Additional fraud discovery |
+### Q2+ 2026
+| Date | Event | Priority |
+|------|-------|----------|
+| Mar 15 | Carvana discovery production 1 | 🟠 HIGH |
+| Apr 30 | Tricolor vehicle liquidation | 🟠 HIGH |
+| Jun 2026 | First Brands trial | 🟠 HIGH |
+| Jun 12 | Carvana discovery production 2 | 🟠 HIGH |
+| Aug 2026 | Tricolor Chu trial | 🟠 HIGH |
 
 ---
 
-## 6. CURRENT WATCHLIST (Jan 26, 2026)
-
-### 🔴 RED STATUS (Immediate Action)
-
-| Entity | Value | Note |
-|--------|-------|------|
-| **Known fraud cases** | 3 lenders | Tricolor, First Brands, PrimaLend |
-| **Auto DQ (via CARL)** | 6.65% | ATH; BREACHED threshold |
-
-### 🟠 ORANGE STATUS (24-Hour Watch)
-
-| Entity | Value | Threshold | Note |
-|--------|-------|-----------|------|
-| **Bank losses** | $370M+ | $1B | More may emerge |
-| **Warehouse availability** | Tightening | Broad cuts | Industry reassessing |
-| **Additional lender risk** | Unknown | 4th case | Pattern suggests more |
-
-### 🟡 YELLOW STATUS (Daily Monitor)
-
-| Entity | Value | Note |
-|--------|-------|------|
-| DOJ investigation | Active | May expand |
-| ABS spreads | Elevated | Not crisis yet |
-| Consumer credit access | Declining | Fed SLOOS confirms |
-
-### 🟢 GREEN STATUS (Weekly Check)
-
-| Entity | Value | Note |
-|--------|-------|------|
-| ABS downgrades | Minimal | Watching |
-
----
-
-## 7. CRITICAL TIMELINE
-
-### Past Events
-
-| Date | Event | Impact |
-|------|-------|--------|
-| 2018 (approx) | Tricolor fraud scheme begins | Per DOJ indictment |
-| Sept 2025 | Tricolor Chapter 7 bankruptcy | ~$2B debt; 25,000 creditors |
-| Oct 2025 | PrimaLend Chapter 11 | $286M debt; restructuring |
-| Oct 2025 | First Brands double-pledging revealed | Cambridge Associates analysis |
-| Dec 2025 | Tricolor executives charged | Chu, Goodgame, Kollar, Seibold |
-| Jan 2026 | Kollar, Seibold plead guilty | Cooperating with DOJ |
-
-### Upcoming Critical
-
-| Date | Event | Urgency | Why It Matters |
-|------|-------|---------|----------------|
-| **June 2026** | First Brands trial | 🟠 ELEVATED | Fraud allegations tested |
-| **Ongoing** | DOJ investigation | 🟠 ELEVATED | May expand to other lenders |
-| **Q1-Q2 2026** | Warehouse lender audits | 🟠 ELEVATED | May discover additional fraud |
-| **Monthly** | Auto ABS deal performance | 🟡 YELLOW | Early warning for cascade |
-
----
-
-## 8. DATA SOURCES
+## 6. DATA SOURCES
 
 ### Primary
 
 | Source | Content | Frequency |
 |--------|---------|-----------|
-| **PACER/Court filings** | Bankruptcy proceedings, DOJ charges | As filed |
-| **DOJ Press Releases** | Criminal charges, plea agreements | As announced |
-| **Bank earnings/8-Ks** | Loss disclosures | Quarterly/As filed |
+| **PACER/Court filings** | Bankruptcy, criminal | As filed |
+| **SEC EDGAR** | 10-K, 10-Q, ABS servicer reports | Quarterly |
+| **DOJ Press Releases** | Charges, pleas | As announced |
+| **Bank earnings/8-Ks** | Loss disclosures | Quarterly |
 
 ### Secondary
 
 | Source | Content | Frequency |
 |--------|---------|-----------|
 | Auto Finance News | Industry coverage | Daily |
-| Auto Remarketing | Subprime coverage | Daily |
-| Bloomberg/Reuters | Bank exposure | As reported |
+| S&P/KBRA/Moody's | ABS surveillance | Ongoing |
+| Bloomberg/Reuters | Breaking news | Real-time |
 | Fed SLOOS | Lending standards | Quarterly |
 
 ---
 
-## 9. GLOSSARY
+## 7. GLOSSARY
 
 | Term | Definition |
 |------|------------|
-| **Double-pledging** | Fraudulently pledging same collateral to multiple lenders |
-| **Warehouse line** | Credit facility to fund loan origination before securitization |
-| **SPV** | Special Purpose Vehicle — legal entity holding loan collateral |
-| **Borrowing base** | Eligible collateral determining how much can be borrowed |
-| **Chattel paper** | Document evidencing monetary obligation + security interest |
-| **ABS** | Asset-Backed Security — securitized auto loans |
+| **Double-pledging** | Pledging same collateral to multiple lenders |
+| **Warehouse line** | Credit facility to fund origination before securitization |
+| **SPV** | Special Purpose Vehicle — legal entity holding collateral |
+| **BHPH** | Buy Here Pay Here — in-house financing dealer |
+| **Skip** | Borrower who disappears with vehicle (no recovery) |
+| **ANL** | Annualized Net Loss |
+| **CNL** | Cumulative Net Loss |
+| **ECNL** | Expected Cumulative Net Loss |
+| **Bridgecrest** | DriveTime subsidiary servicing Carvana loans |
 
 ---
 
-## 10. INVALIDATION FRAMEWORK
+## 8. INVALIDATION FRAMEWORK
 
 ### Thesis Invalidation
 
 | Condition | Confidence Impact |
 |-----------|-------------------|
-| DOJ finds fraud limited to Tricolor only | Pattern -30% |
+| Carvana Feb 18 clean with substantive rebuttal | Carvana thesis -40% |
+| DOJ finds fraud limited to named companies only | Pattern -30% |
 | No additional lender failures in 6 months | Contagion -25% |
-| Warehouse lenders resume normal operations | Magnitude -20% |
+| Claims <240K + recovery ratio rebounds >35% | Immigration -30% |
 | Bank losses contained to current disclosures | Magnitude -15% |
 
 ### Escalation Triggers
 
 | Condition | Action |
 |-----------|--------|
-| 4th fraud case discovered | URGENT to CARL, REGINALD |
-| Bank loss >$500M announced | URGENT to REGINALD, EARNINGS |
-| Warehouse lines frozen broadly | URGENT to CARL, LIQUID |
-| DOJ announces industry-wide probe | ELEVATED to ALL |
+| Carvana 10-K delayed or GT resigns | URGENT to ALL |
+| First Brands converts to Ch. 7 | URGENT to BROCK (BDC exposure) |
+| 5th fraud case discovered | URGENT to CARL, REGINALD |
+| Bank loss >$500M new announcement | URGENT to REGINALD, EARNINGS |
+| Recovery ratio <28% | URGENT to CARL |
+
+---
+
+## 9. KEY DOCS
+
+- workbook/VX.tsv (72 vectors)
+- workbook/ML.tsv (96 entries)
+- workbook/FL.tsv (35 calendar items)
+- workbook/FLOW.tsv (15 pathways)
+- research/RP-OTT-1.* (fraud/structural)
+- research/RP-OTT-2.* (immigration transmission)
+- research/RP-OTT-3.1 (Carvana/DriveTime)
+- research/RP-OTT-3.2 (Feb 2026 sector update)
 
 ---
 
@@ -471,8 +403,9 @@ Coordination: CARL (consumer DQ)
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0 | 2026-01-26 | Initial skeleton with current fraud cases |
+| 1.0 | 2026-01-26 | Initial skeleton |
+| **2.0** | **2026-02-14** | Added Carvana, immigration thesis, updated watchlist, expanded scope to include auto parts |
 
 ---
 
-*OTTO Domain Skeleton v1.0 | Created: 2026-01-26*
+*OTTO Domain Skeleton v2.0 | Updated: 2026-02-14*
