@@ -18,6 +18,7 @@
 | RP-OTT-2.3 | BDC/Private Credit | 2026-02-04 | $237M First Brands BDC exposure; CLO transmission | ML-OTTO-033-038 |
 | RP-OTT-2.4 | Immigration-Auto Nexus | 2026-02-04 | "Invisible Exit" validated; 2008 parallel confirmed | ML-OTTO-051-071 |
 | **RP-OTT-3.1** | **Carvana/DriveTime** | **2026-02-14** | **$1B+ earnings overstatement allegations; $26B Bridgecrest; Feb 18 catalyst** | **ML-OTTO-072-084** |
+| RP-OTT-3.2 | Feb 2026 Sector Update | 2026-02-14 | First Brands Ch. 7 risk; PrimaLend fraud emergence; Flagship downgrade; S&P immigration precedent | ML-OTTO-085-096 |
 
 ---
 
@@ -25,12 +26,14 @@
 
 | Target | Catalyst | Status | Next Update |
 |--------|----------|--------|-------------|
+| **First Brands** | **Ch. 7 conversion risk** | 🔴 CRITICAL | Daily |
 | **Carvana (CVNA)** | Feb 18 earnings | 🔴 CRITICAL | Post-earnings |
-| Flagship Credit | InterVest audit | 🔴 CRITICAL | Ongoing |
-| First Brands | Examiner report Feb 25 | 🟠 ELEVATED | Feb 25 |
-| Tricolor | Vehicle liquidation Apr 30 | 🟡 WATCHING | Apr |
+| **PrimaLend** | Plan confirmation THIS WEEK | 🔴 CRITICAL | Feb 17 |
+| First Brands | Examiner report ~Feb 25 | 🟠 ELEVATED | Feb 25 (if not Ch. 7) |
+| Flagship Credit | InterVest closing | 🟡 WATCHING | Ongoing (DOWNGRADED from CRITICAL) |
+| Tricolor | Chu trial Aug 2026 | 🟡 WATCHING | Aug |
+| Lendbuzz/SAFCO | S&P CreditWatch | 🟡 WATCHING | Rating action |
 | Exeter Finance | ABS surveillance | 🟡 WATCHING | Quarterly |
-| CPS | Repo litigation | 🟡 WATCHING | Ongoing |
 
 ---
 
@@ -59,8 +62,9 @@
 
 ---
 
-## KEY VECTORS ADDED THIS SESSION
+## KEY VECTORS ADDED/UPDATED THIS SESSION
 
+### Session 006 (Carvana)
 | VX-ID | Name | Status |
 |-------|------|--------|
 | VX-OTTO-060 | Carvana Related-Party Risk | 🟠 ORANGE |
@@ -72,6 +76,18 @@
 | VX-OTTO-066 | Carvana Discovery Order | 🟠 ORANGE |
 | VX-OTTO-067 | Grant Thornton Conflict | 🟠 ORANGE |
 | VX-OTTO-068 | Carvana S&P 500 Status | 🟡 YELLOW |
+
+### Session 007 (Feb 2026 Sector Update)
+| VX-ID | Name | Status | Change |
+|-------|------|--------|--------|
+| VX-OTTO-008 | Flagship Credit | 🟡 YELLOW | ⬇️ DOWNGRADED from RED |
+| VX-OTTO-016 | First Brands Wind-Down | 🔴 RED | ⬆️ ESCALATED (Ch. 7 risk) |
+| VX-OTTO-024 | Tricolor Criminal | 🟠 ORANGE | Updated (Chu extraction) |
+| VX-OTTO-025 | PrimaLend Restructuring | 🟠 ORANGE | ⬆️ UPGRADED (fraud angle) |
+| VX-OTTO-069 | S&P Immigration Risk | 🟠 ORANGE | NEW |
+| VX-OTTO-070 | Fed 2026 Stress Test | 🟡 YELLOW | NEW |
+| VX-OTTO-071 | First Brands OEM Dependency | 🔴 RED | NEW |
+| VX-OTTO-072 | PrimaLend BVY2 Fraud | 🟠 ORANGE | NEW |
 
 ---
 
