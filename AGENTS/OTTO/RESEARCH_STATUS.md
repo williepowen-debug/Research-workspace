@@ -19,6 +19,7 @@
 | RP-OTT-2.4 | Immigration-Auto Nexus | 2026-02-04 | "Invisible Exit" validated; 2008 parallel confirmed | ML-OTTO-051-071 |
 | **RP-OTT-3.1** | **Carvana/DriveTime** | **2026-02-14** | **$1B+ earnings overstatement allegations; $26B Bridgecrest; Feb 18 catalyst** | **ML-OTTO-072-084** |
 | RP-OTT-3.2 | Feb 2026 Sector Update | 2026-02-14 | First Brands Ch. 7 risk; PrimaLend fraud emergence; Flagship downgrade; S&P immigration precedent | ML-OTTO-085-096 |
+| **RP-OTT-4.1** | **Ally/GM/Ford ILC** | **2026-02-14** | **Ally-Carvana "without recourse" confirmed; ILC Tier 1 ≥15%; 100-200bp captive advantage** | **ML-OTTO-097-102** |
 
 ---
 
