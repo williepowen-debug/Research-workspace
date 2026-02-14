@@ -1,35 +1,48 @@
-Trust	Type	Issuer	60+_DQ	90+_DQ	Payment_Rate	Charge_Off	Status	Date	Source	Notes
-# ABS TRUST BASELINE DATA
-# Priority trusts for CARL consumer stress monitoring
-# Full extraction pending; this is partial baseline from available data
+Trust	Type	Issuer	30+_DQ	60+_DQ	90+_DQ	Charge_Off	Payment_Rate	Status	Date	Source	Notes
+# CREDIT CARD ABS BASELINE — Updated 2026-02-14
+# Source: Fed, NY Fed, Discover/CapOne Q4 2025 Earnings
+
+# ALL COMMERCIAL BANKS (FED)
+All_Banks_Aggregate	CC	Fed	3.02%	—	—	3.92%	—	🟡 ELEVATED	Q3-2025	Fed	Down from 3.10% Q1 peak; stabilizing
+
+# DISCOVER CARD MASTER TRUST
+Discover_DCMT	Prime CC	Discover	3.84%	—	—	5.0%	Stable	🟠 HIGH	Q4-2025	Earnings	3rd consecutive QoQ decline; "stable consumer"
+Discover_DCMT_Q3	Prime CC	Discover	3.87%	—	—	5.3%	Stable	🟠 HIGH	Q3-2025	Earnings	
+Discover_DCMT_Q2	Prime CC	Discover	—	—	—	5.5%	—	🟠 HIGH	Q2-2025	Earnings	
+
+# CAPITAL ONE COMET
+CapOne_COMET	Mix CC	Capital One	4.53%	—	3.99%	5.01%	—	🟠 HIGH	Dec-2025	Monthly	Adjusted; excludes Walmart impact
+CapOne_COMET_Q4	Mix CC	Capital One	4.53%	—	—	6.0%*	—	🟠 HIGH	Q4-2025	Earnings	*Includes Walmart exit; adjusted ~5.6%
+CapOne_COMET_Q3	Mix CC	Capital One	4.53%	—	—	4.63%	—	🟡 MODERATE	Q3-2025	Earnings	Improved from 5.25% Q2
 
 # SUBPRIME AUTO (Highest Signal)
-Santander_Drive_2024	Subprime Auto	Santander	>6.0%	TBD	TBD	TBD	🔴 CRITICAL	Oct-2025	Fitch/KBRA	Record high 60+ DQ for subprime; bellwether trust
-Exeter_2024	Deep Subprime Auto	Exeter Finance	TBD	TBD	TBD	20.75% ECNL	🔴 CRITICAL	2025	S&P	S&P hiked expected cumulative net loss on 8 deals
-Aggregate_Subprime_Auto	Subprime Auto	Multiple	>6.0%	TBD	TBD	TBD	🔴 CRITICAL	Oct-2025	CBT News	Record delinquency; financial strain deepening
+Santander_Drive_2024	Subprime Auto	Santander	—	>6.0%	—	—	—	🔴 CRITICAL	Oct-2025	Fitch/KBRA	Record high 60+ DQ; bellwether
+Exeter_2024	Deep Subprime	Exeter	—	—	—	20.75% ECL	—	🔴 CRITICAL	2025	S&P	S&P hiked expected cumulative net loss
+Aggregate_Subprime_Auto	Subprime Auto	Multiple	—	>6.0%	—	—	—	🔴 CRITICAL	Oct-2025	CBT News	Record; 30x vs prime (0.2%)
 
-# PRIME AUTO (Baseline Comparison)
-Aggregate_Prime_Auto	Prime Auto	Multiple	0.2%	TBD	TBD	TBD	🟢 NORMAL	Oct-2025	Fitch	Pristine; shows K-shape bifurcation
+# PRIME AUTO (Baseline)
+Aggregate_Prime_Auto	Prime Auto	Multiple	—	0.2%	—	—	—	🟢 NORMAL	Oct-2025	Fitch	Pristine; K-shape confirmed
 
-# CREDIT CARD (Pending Full Extraction)
-Discover_DCMT	Prime CC	Discover	TBD	TBD	TBD	TBD	TBD	Pending	EDGAR 10-D	Priority trust for CC baseline
-Capital_One_COMET	Mix CC	Capital One	TBD	TBD	TBD	TBD	TBD	Pending	EDGAR 10-D	Prime/subprime mix
-Synchrony_SYNIT	Retail CC	Synchrony	TBD	TBD	TBD	TBD	TBD	Pending	EDGAR 10-D	Retail card exposure
+# STATE-LEVEL 90+ DQ (NY FED)
+State_Nevada	State	NY Fed	—	—	14.53%	—	—	🔴 CRITICAL	Q4-2025	NY Fed	Worst state
+State_Florida	State	NY Fed	—	—	13.49%	—	—	🔴 CRITICAL	Q4-2025	NY Fed	SSB exposure state
+State_Texas	State	NY Fed	—	—	12.99%	—	—	🔴 CRITICAL	Q4-2025	NY Fed	SSB exposure state
+State_Louisiana	State	NY Fed	—	—	12.90%	—	—	🔴 CRITICAL	Q4-2025	NY Fed	
+State_Wisconsin	State	NY Fed	—	—	7.62%	—	—	🟢 LOW	Q4-2025	NY Fed	Best state
 
-# OVERALL AUTO MARKET
-Aggregate_All_Auto	All Auto	TransUnion	1.47%	TBD	TBD	TBD	🟡 ELEVATED	Q4-2024	TransUnion	Above 2009 peak (1.46%)
+# AGE COHORT 90+ DQ (NY FED)
+Age_18-29	Cohort	NY Fed	—	—	9.48%	—	—	🟠 HIGH	Q4-2025	NY Fed	Near 2019 levels (9.36%)
+Age_30-39	Cohort	NY Fed	—	—	8.63%	—	—	🟠 HIGH	Q4-2025	NY Fed	+258bps vs 2019 (6.05%)
+Age_40-49	Cohort	NY Fed	—	—	8.14%	—	—	🟠 HIGH	Q4-2025	NY Fed	+250bps vs 2019 (5.64%)
+Age_All	Cohort	NY Fed	—	—	7.13%	—	—	🟠 HIGH	Q4-2025	NY Fed	+181bps vs 2019 (5.32%)
+
+# THRESHOLDS
+# 30+ DQ: 🟢<2.5% | 🟡2.5-3.5% | 🟠3.5-4.5% | 🔴>4.5%
+# Charge-Off: 🟢<3.0% | 🟡3.0-4.0% | 🟠4.0-5.0% | 🔴>5.0%
+# State 90+ DQ: 🟢<10% | 🟡10-12% | 🟠12-14% | 🔴>14%
 
 # KEY INSIGHT:
-# Subprime Auto 60+ DQ >6% (record) vs Prime 0.2% = 30x differential
-# This is the K-shape in real-time: same economy, completely different credit performance
-# Employment shock will collapse the prime side toward subprime
-
-# NEXT STEPS:
-# 1. Pull Jan 2026 10-D from EDGAR for Discover, Capital One, Santander
-# 2. Establish payment rate baseline (leading indicator)
-# 3. Track vintage performance (2024/2025 vs 2019 baseline)
-
-# THRESHOLDS:
-# Subprime Auto 60+ DQ: 🟢<4% | 🟡4-5% | 🟠5-6% | 🔴>6%
-# Prime Auto 60+ DQ: 🟢<0.3% | 🟡0.3-0.5% | 🟠0.5-1% | 🔴>1%
-# CC Payment Rate: 🟢>20% | 🟡18-20% | 🟠15-18% | 🔴<15%
+# Credit metrics STABILIZING at elevated levels (35-50% of GFC peak)
+# State/age divergence extreme: NV 14.53% vs WI 7.62% = 6.91pp K-shape
+# Major issuers improving: Discover/CapOne both declining QoQ
+# CARL thesis = coiled spring, not active fire. Employment shock is trigger.

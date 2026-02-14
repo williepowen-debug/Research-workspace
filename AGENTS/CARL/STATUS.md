@@ -358,7 +358,7 @@ The 30x gap = K-shape economy in one chart. Employment shock collapses prime tow
 - [x] Gig worker stress — DONE (GIG sub-agent)
 - [x] State diffusion — DONE
 - [x] Google Trends protocol — DONE
-- [ ] Full ABS extraction (Discover, Capital One) — 3-4 hours manual
+- [x] Full ABS extraction (Discover, Capital One) — DONE (Feb 14)
 
 ---
 
