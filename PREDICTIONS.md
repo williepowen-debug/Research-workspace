@@ -2,7 +2,7 @@
 
 *Working model, not truth. Track our predictions to calibrate confidence over time.*
 
-**Last updated:** 2026-02-12
+**Last updated:** 2026-02-14
 
 ## RECENTLY RESOLVED
 
