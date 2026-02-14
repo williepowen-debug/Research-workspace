@@ -2510,63 +2510,68 @@
             if (!container) return;
             console.log('vis available:', typeof vis);
             
-            // Fixed positions for clean hierarchical layout
-            // Row 1: PROME (top center)
-            // Row 2: Parallel foreign channels (ZHAO, HANS, SAM) + MARCO
-            // Row 3: Core transmission chain (LABOR → CARL → REGINALD) + LIQUID + HENRY
-            // Row 4: Sub-agents
-            // Row 5: POSITIONS
+            // Fixed positions - clean layout
+            // LEFT: MARCO feeds LABOR
+            // CENTER: Core transmission chain (LABOR → CARL → REGINALD)
+            // RIGHT: Foreign channels (ZHAO/HANS/SAM) → LIQUID → amplifies REGINALD
+            // BOTTOM: Sub-agents under parents, then POSITIONS
             const nodes = new vis.DataSet([
-                // Row 1 - Orchestrator
-                { id: 'prome', label: '🧠 PROME', x: 0, y: -200, fixed: true, color: { background: '#58a6ff', border: '#79c0ff' }, font: { color: '#fff', size: 14 }, shape: 'box', size: 35, borderWidth: 3 },
+                // LEFT - Support
+                { id: 'marco', label: '🚶 MARCO', x: -280, y: 0, fixed: true, color: { background: '#d29922', border: '#e3b341' }, font: { color: '#fff', size: 12 }, shape: 'ellipse', size: 24, borderWidth: 2 },
                 
-                // Row 2 - Foreign/Parallel channels
-                { id: 'zhao', label: '🇨🇳 ZHAO', x: -200, y: -80, fixed: true, color: { background: '#f85149', border: '#ff7b72' }, font: { color: '#fff', size: 13 }, shape: 'ellipse', size: 28, borderWidth: 3 },
-                { id: 'hans', label: '🇪🇺 HANS', x: -80, y: -80, fixed: true, color: { background: '#3fb950', border: '#56d364' }, font: { color: '#fff', size: 13 }, shape: 'ellipse', size: 28, borderWidth: 3 },
-                { id: 'sam', label: '🇯🇵 SAM', x: 200, y: -80, fixed: true, color: { background: '#f85149', border: '#ff7b72' }, font: { color: '#fff', size: 13 }, shape: 'ellipse', size: 28, borderWidth: 3 },
-                { id: 'marco', label: '🚶 MARCO', x: -320, y: 40, fixed: true, color: { background: '#d29922', border: '#e3b341' }, font: { color: '#fff', size: 12 }, shape: 'ellipse', size: 24, borderWidth: 2 },
+                // CENTER - Core transmission chain (left to right)
+                { id: 'labor', label: '👷 LABOR', x: -120, y: 0, fixed: true, color: { background: '#f85149', border: '#ff7b72' }, font: { color: '#fff', size: 14 }, shape: 'ellipse', size: 32, borderWidth: 4 },
+                { id: 'carl', label: '💳 CARL', x: 60, y: 0, fixed: true, color: { background: '#d29922', border: '#e3b341' }, font: { color: '#fff', size: 14 }, shape: 'ellipse', size: 32, borderWidth: 4 },
+                { id: 'reginald', label: '🏦 REGINALD', x: 240, y: 0, fixed: true, color: { background: '#d29922', border: '#e3b341' }, font: { color: '#fff', size: 14 }, shape: 'ellipse', size: 32, borderWidth: 4 },
                 
-                // Row 3 - Core transmission chain (left to right)
-                { id: 'labor', label: '👷 LABOR', x: -180, y: 40, fixed: true, color: { background: '#f85149', border: '#ff7b72' }, font: { color: '#fff', size: 14 }, shape: 'ellipse', size: 32, borderWidth: 4 },
-                { id: 'carl', label: '💳 CARL', x: 0, y: 40, fixed: true, color: { background: '#d29922', border: '#e3b341' }, font: { color: '#fff', size: 14 }, shape: 'ellipse', size: 32, borderWidth: 4 },
-                { id: 'reginald', label: '🏦 REGINALD', x: 180, y: 40, fixed: true, color: { background: '#d29922', border: '#e3b341' }, font: { color: '#fff', size: 14 }, shape: 'ellipse', size: 32, borderWidth: 4 },
-                { id: 'liquid', label: '💧 LIQUID', x: 80, y: -80, fixed: true, color: { background: '#f85149', border: '#ff7b72' }, font: { color: '#fff', size: 13 }, shape: 'ellipse', size: 28, borderWidth: 3 },
-                { id: 'henry', label: '📊 HENRY', x: 320, y: 40, fixed: true, color: { background: '#e3b341', border: '#f0d060' }, font: { color: '#000', size: 13 }, shape: 'diamond', size: 26, borderWidth: 3 },
+                // RIGHT - Foreign channels (stacked vertically) → LIQUID
+                { id: 'zhao', label: '🇨🇳 ZHAO', x: 450, y: -100, fixed: true, color: { background: '#f85149', border: '#ff7b72' }, font: { color: '#fff', size: 13 }, shape: 'ellipse', size: 26, borderWidth: 3 },
+                { id: 'hans', label: '🇪🇺 HANS', x: 450, y: -40, fixed: true, color: { background: '#3fb950', border: '#56d364' }, font: { color: '#fff', size: 13 }, shape: 'ellipse', size: 26, borderWidth: 3 },
+                { id: 'sam', label: '🇯🇵 SAM', x: 450, y: 20, fixed: true, color: { background: '#f85149', border: '#ff7b72' }, font: { color: '#fff', size: 13 }, shape: 'ellipse', size: 26, borderWidth: 3 },
+                { id: 'liquid', label: '💧 LIQUID', x: 350, y: -40, fixed: true, color: { background: '#f85149', border: '#ff7b72' }, font: { color: '#fff', size: 13 }, shape: 'ellipse', size: 28, borderWidth: 3 },
                 
-                // Row 4 - Sub-agents (under their parents)
-                { id: 'gig', label: 'GIG', x: -40, y: 140, fixed: true, color: { background: '#484f58', border: '#6e7681' }, font: { color: '#fff', size: 11 }, shape: 'box', size: 16, borderWidth: 2 },
-                { id: 'creed', label: 'CREED', x: 100, y: 140, fixed: true, color: { background: '#484f58', border: '#6e7681' }, font: { color: '#fff', size: 11 }, shape: 'box', size: 16, borderWidth: 2 },
-                { id: 'brock', label: 'BROCK', x: 180, y: 140, fixed: true, color: { background: '#484f58', border: '#6e7681' }, font: { color: '#fff', size: 11 }, shape: 'box', size: 16, borderWidth: 2 },
-                { id: 'coral', label: 'CORAL', x: 260, y: 140, fixed: true, color: { background: '#484f58', border: '#6e7681' }, font: { color: '#fff', size: 11 }, shape: 'box', size: 16, borderWidth: 2 },
-                { id: 'tex', label: 'TEX', x: 340, y: 140, fixed: true, color: { background: '#484f58', border: '#6e7681' }, font: { color: '#fff', size: 11 }, shape: 'box', size: 16, borderWidth: 2 },
+                // FAR RIGHT - Market monitor
+                { id: 'henry', label: '📊 HENRY', x: 450, y: 100, fixed: true, color: { background: '#e3b341', border: '#f0d060' }, font: { color: '#000', size: 13 }, shape: 'diamond', size: 26, borderWidth: 3 },
                 
-                // Row 5 - Positions (bottom)
-                { id: 'positions', label: '📈 POSITIONS\nKRE | SSB | IWM | HYG', x: 180, y: 240, fixed: true, color: { background: '#a371f7', border: '#bc8cff' }, font: { color: '#fff', size: 11 }, shape: 'box', size: 22, borderWidth: 3 }
+                // SUB-AGENTS - Under CARL and REGINALD
+                { id: 'gig', label: 'GIG', x: 60, y: 100, fixed: true, color: { background: '#484f58', border: '#6e7681' }, font: { color: '#fff', size: 11 }, shape: 'box', size: 16, borderWidth: 2 },
+                { id: 'creed', label: 'CREED', x: 140, y: 100, fixed: true, color: { background: '#484f58', border: '#6e7681' }, font: { color: '#fff', size: 11 }, shape: 'box', size: 16, borderWidth: 2 },
+                { id: 'brock', label: 'BROCK', x: 200, y: 100, fixed: true, color: { background: '#484f58', border: '#6e7681' }, font: { color: '#fff', size: 11 }, shape: 'box', size: 16, borderWidth: 2 },
+                { id: 'coral', label: 'CORAL', x: 260, y: 100, fixed: true, color: { background: '#484f58', border: '#6e7681' }, font: { color: '#fff', size: 11 }, shape: 'box', size: 16, borderWidth: 2 },
+                { id: 'tex', label: 'TEX', x: 320, y: 100, fixed: true, color: { background: '#484f58', border: '#6e7681' }, font: { color: '#fff', size: 11 }, shape: 'box', size: 16, borderWidth: 2 },
+                
+                // BOTTOM - Positions
+                { id: 'positions', label: '📈 POSITIONS\nKRE | SSB | IWM | HYG', x: 240, y: 200, fixed: true, color: { background: '#a371f7', border: '#bc8cff' }, font: { color: '#fff', size: 11 }, shape: 'box', size: 22, borderWidth: 3 }
             ]);
             const edges = new vis.DataSet([
+                // CORE TRANSMISSION CHAIN (thick red arrows)
                 { from: 'labor', to: 'carl', arrows: 'to', color: { color: '#f85149' }, width: 5, label: 'triggers' },
                 { from: 'carl', to: 'reginald', arrows: 'to', color: { color: '#f85149' }, width: 5, label: 'converts' },
-                { from: 'prome', to: 'labor', arrows: 'to', color: { color: '#58a6ff' }, width: 2, dashes: true },
-                { from: 'prome', to: 'carl', arrows: 'to', color: { color: '#58a6ff' }, width: 2, dashes: true },
-                { from: 'prome', to: 'reginald', arrows: 'to', color: { color: '#58a6ff' }, width: 2, dashes: true },
-                { from: 'prome', to: 'liquid', arrows: 'to', color: { color: '#58a6ff' }, width: 2, dashes: true },
-                { from: 'prome', to: 'sam', arrows: 'to', color: { color: '#58a6ff' }, width: 2, dashes: true },
-                { from: 'prome', to: 'henry', arrows: 'to', color: { color: '#58a6ff' }, width: 2, dashes: true },
-                { from: 'sam', to: 'liquid', arrows: 'to', color: { color: '#8b949e' }, width: 2, label: 'UST flows' },
-                { from: 'zhao', to: 'liquid', arrows: 'to', color: { color: '#8b949e' }, width: 2, label: 'Belgium' },
-                { from: 'hans', to: 'liquid', arrows: 'to', color: { color: '#8b949e' }, width: 2, label: 'EUR/UST' },
+                
+                // MARCO feeds LABOR
+                { from: 'marco', to: 'labor', arrows: 'to', color: { color: '#8b949e' }, width: 2, label: 'migration' },
+                
+                // FOREIGN CHANNELS → LIQUID (right side funnel)
+                { from: 'zhao', to: 'liquid', arrows: 'to', color: { color: '#8b949e' }, width: 2 },
+                { from: 'hans', to: 'liquid', arrows: 'to', color: { color: '#8b949e' }, width: 2 },
+                { from: 'sam', to: 'liquid', arrows: 'to', color: { color: '#8b949e' }, width: 2 },
+                
+                // LIQUID amplifies REGINALD
                 { from: 'liquid', to: 'reginald', arrows: 'to', color: { color: '#d29922' }, width: 4, label: 'amplifies' },
+                
+                // SAM also triggers HENRY (carry unwind)
                 { from: 'sam', to: 'henry', arrows: 'to', color: { color: '#f85149' }, width: 2, label: 'carry unwind' },
+                
+                // To POSITIONS
                 { from: 'henry', to: 'positions', arrows: 'to', color: { color: '#a371f7' }, width: 2 },
                 { from: 'reginald', to: 'positions', arrows: 'to', color: { color: '#a371f7' }, width: 2 },
-                { from: 'marco', to: 'labor', arrows: 'to', color: { color: '#8b949e' }, width: 2, label: 'migration' },
+                
+                // SUB-AGENTS
+                { from: 'carl', to: 'gig', arrows: 'to', color: { color: '#6e7681' }, width: 1 },
                 { from: 'reginald', to: 'creed', arrows: 'to', color: { color: '#6e7681' }, width: 1 },
                 { from: 'reginald', to: 'brock', arrows: 'to', color: { color: '#6e7681' }, width: 1 },
-                { from: 'reginald', to: 'tex', arrows: 'to', color: { color: '#6e7681' }, width: 1 },
                 { from: 'reginald', to: 'coral', arrows: 'to', color: { color: '#6e7681' }, width: 1 },
-                { from: 'carl', to: 'gig', arrows: 'to', color: { color: '#6e7681' }, width: 1 },
-                { from: 'hans', to: 'sam', arrows: 'to,from', color: { color: '#6e7681' }, width: 1, dashes: true },
-                { from: 'zhao', to: 'sam', arrows: 'to,from', color: { color: '#6e7681' }, width: 1, dashes: true }
+                { from: 'reginald', to: 'tex', arrows: 'to', color: { color: '#6e7681' }, width: 1 }
             ]);
             const options = {
                 physics: { enabled: false },  // Fixed positions, no physics
