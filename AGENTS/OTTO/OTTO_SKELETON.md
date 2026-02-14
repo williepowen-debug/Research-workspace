@@ -135,7 +135,7 @@ Immigrants don't default through traditional channels — they disappear. The lo
 | **UBS** | First Brands | $500M (receivables) | Reported |
 | **Regional cluster** | Tricolor | ~$75M | Origin, Renasant, TBK |
 
-**Total disclosed: ~$1.8B+**
+**Total disclosed: ~$1.8B+** (Tricolor ~$591M + First Brands ~$1.2B)
 
 ### Lender Watchlist (Feb 2026)
 
@@ -143,9 +143,11 @@ Immigrants don't default through traditional channels — they disappear. The lo
 |--------|--------|-------------|
 | **Carvana/Bridgecrest** | 🔴 CRITICAL | $26B servicing; 0.117% fee; highest repo rate; Feb 18 |
 | **Exeter Finance** | 🟠 HIGH | 8 ABS ECNL raised; 2023-1 → 26.50% |
-| **Consumer Portfolio Services** | 🟠 HIGH | Repo litigation; warehouse dependent |
-| **Lendbuzz/SAFCO** | 🟠 HIGH | S&P CreditWatch (immigration) |
+| **Consumer Portfolio Services** | 🟠 HIGH | Repo litigation; $900M Forward Flow; 19.75% ECNL |
+| **Lendbuzz/SAFCO/FHF** | 🟠 HIGH | S&P CreditWatch (immigration enforcement) |
+| **Ally Financial** | 🟡 WATCH | 2% workforce cut; $6B Carvana forward flow |
 | **Flagship Credit** | 🟡 WATCH | InterVest acquisition; NO fraud found |
+| **Westlake Financial** | 🟡 MONITOR | 12.75% ECNL; TX/CA/FL concentration |
 | **American Credit Acceptance** | 🟡 ELEVATED | -19.4% originations YoY |
 
 ---
@@ -220,6 +222,8 @@ WHY MODELS MISS IT:
 
 ## 3. TRANSMISSION PATHS
 
+*Full details in workbook/FLOW.tsv (15 pathways). Key flows below:*
+
 ### Active Flows
 
 **FLOW-01: Warehouse Contagion** — ACTIVE
@@ -234,7 +238,7 @@ NDFI losses → Regional bank capital pressure → C&I pullback
 → REGINALD
 ```
 
-**FLOW-09: Immigration Transmission** — CRITICAL 🆕
+**FLOW-09: Immigration Transmission (FLOW-11 in FLOW.tsv)** — CRITICAL 🆕
 ```
 Enforcement fear → Employment collapse (construction -93%, transport -96%)
 → 60-day DQ spike (6.74% record) → 90-day (Q1-Q2 2026)
@@ -242,7 +246,15 @@ Enforcement fear → Employment collapse (construction -93%, transport -96%)
 → ABS subordinate stress → CARL, REGINALD
 ```
 
-**FLOW-10: Carvana Contagion** — WATCH 🆕
+**FLOW-13: Employment-Auto Transmission** — ACTIVE
+```
+Vehicle-dependent workers lose income → 30-day (1mo) → 60-day (3-4mo)
+→ 90+ default (5-6mo) → Q1-Q2 2026 mass repossession wave
+```
+
+### Watch Flows
+
+**Carvana Contagion** (not yet in FLOW.tsv)
 ```
 Feb 18: 10-K delayed OR GT resigns
 → Stock collapse (already -30% from ATH)
@@ -255,6 +267,7 @@ Feb 18: 10-K delayed OR GT resigns
 
 **FLOW-06:** 2022 vintage CNL hits 30% → Subordinate downgrades → Spread cascade
 **FLOW-08:** CFPB funding lapse (Mar 2026) → Federal supervision pauses → State patchwork
+**FLOW-07:** BDC redemptions >5% NAV → Forced sales → NAV markdowns → Private credit crisis
 
 ---
 
@@ -388,14 +401,13 @@ Feb 18: 10-K delayed OR GT resigns
 
 ## 9. KEY DOCS
 
-- workbook/VX.tsv (72 vectors)
+- workbook/VX.tsv (75 vectors)
 - workbook/ML.tsv (96 entries)
 - workbook/FL.tsv (35 calendar items)
 - workbook/FLOW.tsv (15 pathways)
-- research/RP-OTT-1.* (fraud/structural)
-- research/RP-OTT-2.* (immigration transmission)
-- research/RP-OTT-3.1 (Carvana/DriveTime)
-- research/RP-OTT-3.2 (Feb 2026 sector update)
+- research/outputs/RP-OTT-1.1 through 1.7 (7 reports — fraud/structural)
+- research/outputs/RP-OTT-2.1 through 2.4 (4 reports — immigration transmission)
+- research/RP-OTT-3.1_Carvana_DriveTime_Deep_Dive.md
 
 ---
 

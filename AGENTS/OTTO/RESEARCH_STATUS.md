@@ -80,7 +80,9 @@
 ### Session 007 (Feb 2026 Sector Update)
 | VX-ID | Name | Status | Change |
 |-------|------|--------|--------|
+| VX-OTTO-003 | Bank Losses | 🔴 RED | Updated ($1.8B+ total) |
 | VX-OTTO-008 | Flagship Credit | 🟡 YELLOW | ⬇️ DOWNGRADED from RED |
+| VX-OTTO-010 | CPS | 🟠 ORANGE | Updated ($900M FF, 19.75% ECNL) |
 | VX-OTTO-016 | First Brands Wind-Down | 🔴 RED | ⬆️ ESCALATED (Ch. 7 risk) |
 | VX-OTTO-024 | Tricolor Criminal | 🟠 ORANGE | Updated (Chu extraction) |
 | VX-OTTO-025 | PrimaLend Restructuring | 🟠 ORANGE | ⬆️ UPGRADED (fraud angle) |
@@ -88,7 +90,10 @@
 | VX-OTTO-070 | Fed 2026 Stress Test | 🟡 YELLOW | NEW |
 | VX-OTTO-071 | First Brands OEM Dependency | 🔴 RED | NEW |
 | VX-OTTO-072 | PrimaLend BVY2 Fraud | 🟠 ORANGE | NEW |
+| VX-OTTO-073 | First Help Financial (FHF) | 🟠 ORANGE | NEW |
+| VX-OTTO-074 | Westlake Financial | 🟡 YELLOW | NEW |
+| VX-OTTO-075 | Ally Financial | 🟡 YELLOW | NEW |
 
 ---
 
-*RESEARCH_STATUS.md v2.0*
+*RESEARCH_STATUS.md v2.1*
