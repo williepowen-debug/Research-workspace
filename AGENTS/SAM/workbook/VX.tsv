@@ -7,21 +7,21 @@ VX-SAM-2.01	USD/JPY	Currency	~156.25	158	160	163	GREEN	90%	2026-02-09	Reuters	ST
 VX-SAM-2.02	EUR/JPY	Currency	~165	165	170	175	YELLOW	80%	2026-02-05	Bloomberg	Secondary intervention trigger.
 VX-SAM-3.01	30Y JGB Auction BTC	Auction Health	3.64	3.00	2.50	2.00	GREEN	95%	2026-02-05	MOF	Feb 5 auction PASSED. Above 12mo avg (3.35). Crisis deferred.
 VX-SAM-3.02	30Y JGB Auction Tail	Auction Health	0.8bp	3bp	6bp	10bp	GREEN	95%	2026-02-05	MOF	Tight tail = confident buyers. Down from 10bp in Jan.
-VX-SAM-3.03	20Y JGB Auction BTC	Auction Health	3.14	2.80	2.40	2.00	YELLOW	80%	2026-01-20	MOF	Jan 20 was worst since 1987. Next auction Feb 19.
+VX-SAM-3.03	20Y JGB Auction BTC	Auction Health	3.14 (Jan 20)	3.00	2.50	2.00	YELLOW	80%	2026-02-15	MOF	🔴 FEB 19 IMMINENT. Jan 20 worst since 1987. Thresholds TIGHTENED per ML-JPN-170 (global bond stress = higher bar). >3.0x = safe, 2.5-3.0x = weak, <2.0x = fail. DUAL CATALYST with Shunto.
 VX-SAM-4.01	Life Insurer Sentiment	Structural Demand	Re-engaging	Cautious	Avoiding	Selling	GREEN	75%	2026-02-05	Meiji Yasuda	"Attractive opportunities" at 3.6%+ yields. Post-auction shift.
 VX-SAM-4.02	Big 4 Unrealized Losses	Stress Level	¥9T ($60B)	¥5T	¥10T	¥15T	ORANGE	80%	2026-02-05	Industry Est	Structural overhang. Drives repatriation risk.
-VX-SAM-5.01	Takaichi Approval	Political	~70% personal	60%	50%	40%	GREEN	75%	2026-02-05	Polls	High personal, LDP only 30%. Election Feb 8.
-VX-SAM-5.02	LDP Actual Seats	Political	310+ (2/3 super)	250-260	240-250	<240	RED	95%	2026-02-08	Election Results	LANDSLIDE. Unconstrained fiscal expansion confirmed. D2 scenario opens.
+VX-SAM-5.01	Takaichi Approval	Political	~70% personal	60%	50%	40%	GREEN	75%	2026-02-15	Polls	LESS RELEVANT post-supermajority. 316 seats = unconstrained through 2028. Approval matters less than BOJ collision dynamics.
+VX-SAM-5.02	LDP Actual Seats	Political	316 (Coalition 352)	250-260	240-250	<240	RETIRED	95%	2026-02-15	Election Results	RESOLVED Feb 8. LDP 316 (+118), Coalition 352 = 2/3 supermajority. Unconstrained through 2028. D2 path validated.
 VX-SAM-6.01	BOJ Policy Rate	Monetary	0.25%	0.50%	0.75%	1.00%	GREEN	90%	2026-02-05	BOJ	July hike expected. Normalization continuing.
 VX-SAM-6.02	BOJ 10Y Target	Monetary	Flexible	+/-0.5%	+/-0.75%	Abandoned	GREEN	85%	2026-02-05	BOJ	YCC effectively over but not officially abandoned.
 VX-SAM-6.03	Takaichi BOJ Pressure	Political-Monetary	LOW	MODERATE	HIGH	EXTREME	GREEN	80%	2026-02-08	Aida/Kantei	THE 0.75% CEILING: Aida stated "tolerate to 0.75%, then pause until 2027". GREEN=<0.50%, YELLOW=0.50-0.75% (tolerated), ORANGE=>0.75% (Katayama sent to BOJ), RED=BOJ Law revision threats. Watch Aida commentary + Katayama statements.
-VX-SAM-7.01	Scenario A/A+ Probability	Outcome	10-15%	-	-	-	-	75%	2026-02-08	PROME	Soft landing. Landslide erased auction reprieve.
-VX-SAM-7.02	Scenario B Probability	Outcome	50-55%	-	-	-	-	75%	2026-02-05	PROME	Controlled chaos. Base case.
-VX-SAM-7.03	Scenario C Probability	Outcome	3-5%	-	-	-	-	75%	2026-02-05	PROME	Acute panic. Largely closed by auction.
-VX-SAM-7.04	Scenario D2 Probability	Outcome	30-35%	-	-	-	-	80%	2026-02-08	PROME	Monetary dominance. LIVE - supermajority enables BOJ pressure path.
+VX-SAM-7.01	Scenario A/A+ Probability	Outcome	8-12%	-	-	-	-	75%	2026-02-15	PROME	Soft landing. ↓ Mortgage constraint + landslide reduce odds.
+VX-SAM-7.02	Scenario B Probability	Outcome	42-48%	-	-	-	-	75%	2026-02-15	PROME	Controlled chaos. Base case but fragile. ↓ from 50-55%.
+VX-SAM-7.03	Scenario C Probability	Outcome	5-8%	-	-	-	-	75%	2026-02-15	PROME	Acute panic. Low but FAST if triggered. Feb 19 could reopen.
+VX-SAM-7.04	Scenario D2 Probability	Outcome	32-40%	-	-	-	-	80%	2026-02-15	PROME	Monetary dominance (YCC return). ↑ Supermajority + mortgage constraint strengthen path.
 VX-SAM-8.01	Tokyo CPI (Core ex Food)	Real Wage Tracking	2.0% YoY	2.2%	2.5%	3.0%	GREEN	90%	2026-01-30	Stats Bureau	Leading indicator for national inflation. Jan 2026 at 2.0%, lowest since Oct 2024.
 VX-SAM-8.02	National CPI (Core-core)	Real Wage Tracking	2.4% YoY	2.5%	2.8%	3.0%	YELLOW	90%	2026-01-23	Stats Bureau	Ex food and fuel. Sticky services inflation component.
-VX-SAM-8.03	Nominal Wage Growth	Real Wage Tracking	2.40% YoY	2.5%	3.0%	3.5%	YELLOW	85%	2025-12-25	MHLW Survey	Dec 2025 Monthly Labor Survey. Watch for Shunto 2026 impact (late March).
+VX-SAM-8.03	Nominal Wage Growth	Real Wage Tracking	2.40% YoY	2.5%	3.0%	3.5%	YELLOW	85%	2026-02-15	MHLW Survey	Dec 2025 data. SUPERSEDED by Shunto 2026 (late March). Feb 19 electronics = first signal. VX-SAM-8.05 tracks outcome.
 VX-SAM-8.04	Real Wage Growth	Real Wage Tracking	0.0%	0.0%	-0.5%	-1.0%	ORANGE	85%	2026-02-11	Derived	Nominal (2.40%) - Inflation (2.4%) = 0.0%. BOJ TRAPPED at zero real wage growth. April collision risk HIGH.
 VX-SAM-9.01	MOF Weekly Foreign Bond Flow	Capital Flow	¥366B/mo buying	¥0B	-¥500B/mo	-¥1T/mo	GREEN	85%	2026-02-11	MOF Weekly	Jan 2026: ¥366B net BUYING foreign bonds (capital outflow). Positive = buying (outflow), Negative = selling (repatriation). GREEN = normal outflow, YELLOW = slowing, ORANGE = repatriation begins, RED = crisis liquidation.
 VX-SAM-9.02	MOF Monthly Repatriation Rate	Capital Flow	¥0B/mo	¥500B/mo	¥1T/mo	¥2T/mo	GREEN	80%	2026-02-11	MOF Derived	Calculated as net SELLING (negative flow). Current: no repatriation (normal capital outflow continues). Threshold breach = acceleration to stress case.

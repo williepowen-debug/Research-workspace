@@ -11,8 +11,9 @@
 | # | Prediction | Timeframe | Confidence | Status | Invalidation |
 |---|------------|-----------|------------|--------|--------------|
 | 4 | JGB 30Y stays <4.0% through Q1 | Q1 2026 | 60% | ⏳ Pending | 30Y closes >4.0% for 3+ consecutive days |
-| 9 | Feb 19 20Y auction BTC >2.0x (passes) | Feb 19 | 55% | ⏳ IMMINENT | BTC <2.0x |
+| 9 | Feb 19 20Y auction doesn't fail (BTC >2.0x) | Feb 19 | 55% | ⏳ IMMINENT | BTC <2.0x |
 | 10 | 20Y auction tail <4bp | Feb 19 | 50% | ⏳ IMMINENT | Tail >4bp |
+| 20 | Feb 19 20Y auction truly safe (BTC >3.0x) | Feb 19 | 35% | ⏳ IMMINENT | BTC <3.0x — higher bar due to global bond stress (US 10Y 1.4bp tail) |
 
 ### BOJ Policy
 | # | Prediction | Timeframe | Confidence | Status | Invalidation |
@@ -46,15 +47,22 @@
 | 17 | Scenario B (Controlled Chaos) remains most likely | Q1-Q2 2026 | 55% | ⏳ Pending | Clear shift to A (soft landing) or D2 (monetary dominance) |
 | 18 | D2 (Monetary Dominance) probability rises if April BOJ-Takaichi collision | Apr-May 2026 | 60% | ⏳ Pending | Smooth April BOJ meeting, no political pressure |
 
+### Path D Transmission (Dual Catalyst)
+| # | Prediction | Timeframe | Confidence | Status | Invalidation |
+|---|------------|-----------|------------|--------|--------------|
+| 19 | If Feb 19 dual catalyst fires (Shunto ≥3.5% AND BTC <2.0x), VIX >25 within 5 trading days | Feb 19-26 | 70% (conditional) | ⏳ IMMINENT | Both fire but VIX stays <20 through Feb 26 |
+
 ---
 
 ## IMMINENT PREDICTIONS (Next 7 Days)
 
 | # | Prediction | Date | Confidence | What to Watch |
 |---|------------|------|------------|---------------|
-| 9 | 20Y JGB auction passes (BTC >2.0x) | Feb 19 | 55% | BTC, tail spread |
+| 9 | 20Y JGB auction doesn't fail (BTC >2.0x) | Feb 19 | 55% | BTC — minimum threshold |
 | 10 | 20Y auction tail <4bp | Feb 19 | 50% | Tail spread |
 | 12 | Electronics Shunto demand ≥3.5% | Feb 19 | 45% | Union announcements |
+| 19 | Path D trigger → VIX >25 within 5 days | Feb 19-26 | 70% (conditional) | Requires BOTH #9 fail AND #12 fire |
+| 20 | 20Y auction truly safe (BTC >3.0x) | Feb 19 | 35% | Higher bar — global stress context |
 
 ---
 
@@ -131,10 +139,10 @@
 | 3 | Takaichi <260 seats | ❌ **WRONG** | 2026-02-08 | LDP 316, landslide — underestimated momentum |
 
 ### Calibration
-- Total predictions: 15 (active)
+- Total predictions: 17 (active)
 - Confirmed: 2
 - Disconfirmed: 1
-- Pending: 15
+- Pending: 17
 - Accuracy on resolved: 67% (2/3)
 
 *Goal: 60%+ accuracy on predictions with >60% confidence.*
