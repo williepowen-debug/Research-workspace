@@ -43,6 +43,7 @@
 
 | # | Prediction | Result | Confidence | Notes |
 |---|------------|--------|------------|-------|
+| **OTTO-4** | Bank losses >$1B (auto fraud) | ✅ CORRECT | 65% | **$1.8B** — Tricolor $591M + First Brands ~$1.2B (Feb 14) |
 | **CARL-1** | CC 90+ > 2019 peak (8.36%) | ✅ CORRECT | 75% | **12.70% Q4 2025** — nearly at GFC peak |
 | **CARL-3** | FL foreclosures +100% YoY | ✅ CORRECT | 70% | **+190% Q4 2025** — accelerating |
 | SAM-1 | 30Y JGB BTC >2.10x | ✅ CORRECT | 65% | BTC 3.64x (Feb 5) |
@@ -50,7 +51,7 @@
 | SAM-3 | Takaichi <260 seats | ❌ WRONG | 55% | 316 LDP seats — supermajority |
 | LABOR-4 | KFRC guides down | ⚠️ PARTIAL | 70% | Beat estimates but confirms "stagnation" |
 
-**Running Score:** 4.5/6 (75%)
+**Running Score:** 5.5/7 (79%)
 
 ---
 
@@ -239,10 +240,10 @@
 ### OTTO (Subprime Auto Fraud & Immigration Transmission)
 | # | Prediction | Timeframe | Confidence | Status |
 |---|------------|-----------|------------|--------|
-| 1 | 4th fraud case (Flagship or other) discovered | Q2 2026 | 70% | ⏳ Pending |
+| 1 | 4th fraud case (Carvana Feb 18 or other) discovered | Q1-Q2 2026 | **75%** | ⏳ IMMINENT — Feb 18 decisive |
 | 2 | 2022 vintage CNL exceeds 25% | Q2-Q3 2026 | 75% | ⏳ Pending |
 | 3 | Subprime BBB ABS spreads >250bps | H1 2026 | 60% | ⏳ Pending |
-| 4 | Total bank losses >$1B disclosed (auto fraud) | Q2 2026 | 65% | ⏳ Pending |
+| 4 | Total bank losses >$1B disclosed (auto fraud) | Q2 2026 | 65% | ✅ **CONFIRMED** — $1.8B (Tricolor $591M + First Brands ~$1.2B) |
 | 5 | Monoline 60+ DPD exceeds 18% | Q3 2026 | 70% | ⏳ Pending |
 | 6 | BDC redemptions trigger at least one fund gate | H2 2026 | 50% | ⏳ Pending |
 | 7 | CFPB enters funding lapse / operational pause | Q1 2026 | 55% | ⏳ Pending |
@@ -255,6 +256,12 @@
 | 14 | Recovery ratio falls below 28% (skip rate acceleration) | Q2-Q3 2026 | 60% | ⏳ Pending |
 | 15 | Texas border county auto DQ exceeds 10% | Q2 2026 | 70% | ⏳ Pending |
 | 16 | BHPH dealer failures spike in FL 287(g) corridors | Q2-Q3 2026 | 55% | ⏳ Pending |
+| 17 | **Carvana: GT resigns OR 10-K delayed OR material weakness** | Feb 18 | **60%** | ⏳ IMMINENT — 4 days |
+| 18 | **Carvana: Stock -30%+ on fraud confirmation** | Q1 2026 | 55% | ⏳ Conditional on #17 |
+| 19 | **De Luca examiner reveals >$2B additional fraud at First Brands** | ~Feb 25 | 65% | ⏳ IMMINENT — 11 days |
+| 20 | **Ally forced to disclose Carvana-specific losses** | Q1-Q2 2026 | 50% | ⏳ Pending |
+| 21 | **Monoline failure or forced sale (Exeter, CPS, Westlake)** | H2 2026 | 55% | ⏳ Pending — ILC squeeze |
+| 22 | **Subprime 60+ DQ >7%** (new record) | Q2 2026 | 70% | ⏳ Tracking — currently 6.65% |
 
 ### PROME (Cross-Agent / Convergence)
 | # | Prediction | Timeframe | Confidence | Status |
