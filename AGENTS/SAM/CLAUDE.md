@@ -288,15 +288,17 @@ AGENTS/SAM/
 ├── STATUS.md           # Live dashboard — signals, scenarios, thresholds
 ├── PREDICTIONS.md      # Falsifiable claims
 ├── TRADE.md            # Position ideas
+├── RESEARCH_STATUS.md  # What's been researched
 ├── research/
-│   ├── RESEARCH_STATUS.md
 │   ├── outputs/        # RP-SAM-XX research packages
+│   ├── prompts/        # Research prompt templates
 │   └── japanese_sources/
 ├── workbook/
 │   ├── VX.tsv          # Vectors
 │   ├── ML.tsv          # Master Log
 │   ├── FL.tsv          # Future Log
-│   └── FLOW.tsv        # Transmission pathways
+│   ├── FLOW.tsv        # Transmission pathways
+│   └── VX_HISTORY.tsv  # Vector change tracking
 └── sources/            # Raw materials
 ```
 
