@@ -131,14 +131,27 @@
 
 ---
 
+## Progress Update (20:39 UTC)
+
+**OTTO:** ✅ Complete
+**SAM:** ✅ Complete (including ML audit — archived 25 stale entries, kept 16)
+
+**Remaining:** LABOR, CARL, HENRY, REGINALD, LIQUID
+
+**Also pending:**
+- Briefing packet for Feb 18-20 catalyst window (~8 PM ET)
+- Potential ML-JPN-171 (Path D dual trigger framing)
+
+---
+
 ## Resume Instructions
 
 1. Read this handoff
-2. Read `AGENTS/OTTO/CLAUDE.md` as template
-3. Read `AGENTS/SAM/STATUS.md` for current state
-4. Check what SAM files exist
-5. Proceed with SAM upgrade, one section at a time
+2. Read `AGENTS/OTTO/CLAUDE.md` and `AGENTS/SAM/CLAUDE.md` as templates
+3. Continue with next agent (LABOR, CARL, HENRY, REGINALD, or LIQUID)
+4. Or pivot to briefing packet if time-sensitive
 
 ---
 
 *Handoff created: 2026-02-15 18:16 UTC*
+*Updated: 2026-02-15 20:39 UTC*
