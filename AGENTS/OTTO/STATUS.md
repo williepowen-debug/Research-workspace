@@ -1,7 +1,19 @@
 # OTTO STATUS
-**Last Updated:** 2026-02-14 21:30 UTC | **Status:** 🔴 CRITICAL — Systemic Fraud + Bankruptcy Surge + Feb 18 Decisive
+
+**Signal Status:** 🔴 CRITICAL | **Last Updated:** 2026-02-15 17:45 UTC
+
+**Summary:** Systemic Fraud + Bankruptcy Surge + Feb 18 Decisive
 
 **Vectors:** 83 | **ML Entries:** 130 | **Research Packages:** 15 complete
+
+## Outbound Signals (for Prome)
+
+| To | Priority | Signal |
+|----|----------|--------|
+| REGINALD | 🔴 | Bank losses ~$1.8B+ disclosed; Feb 18 Carvana could expand |
+| BROCK | 🔴 | First Brands BDC exposure $237M; Ch. 7 risk kills examiner report |
+| CARL | 🟠 | Auto DQ 6.74% (32-yr high); credit access tightening |
+| LIQUID | 🟠 | Warehouse stress if Carvana Feb 18 goes badly |
 
 ---
 

@@ -55,8 +55,9 @@
 **HEIGHTENED MONITORING:** Multiple triggers converging in 5-day window
 **RED TEAM RESULT:** 80% thesis confidence — "positioned IN THE MIDDLE of stress, not ahead of it"
 
-### Feb 15 (Saturday):
-- [ ] FSK earnings (BDC, PIK 27%) — Watch dividend coverage <1.0x
+### Feb 25-26 (Wed-Thu):
+- [ ] FSK earnings (BDC, PIK 27%) — Results Feb 25 after close, call Feb 26
+- Watch dividend coverage <1.0x
 
 ### Feb 18 (Tuesday):
 - [ ] Dec TIC data (China/Belgium UST holdings)
