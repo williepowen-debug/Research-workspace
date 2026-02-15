@@ -1,5 +1,17 @@
 # SAM STATUS
-**Last Updated:** 2026-02-12 | **Status:** 🔴 RED — Floating Mortgage Bomb + Life Insurer Exit Active
+
+**Signal Status:** 🔴 RED | **Last Updated:** 2026-02-15 19:53 UTC
+
+**Summary:** Floating Mortgage Bomb + Life Insurer Exit Active + Feb 19 Dual Catalyst
+
+## Outbound Signals (for Prome)
+
+| To | Priority | Signal |
+|----|----------|--------|
+| HENRY | 🔴 | Feb 19 dual catalyst (Shunto + 20Y JGB) — if both fire, Path D trigger |
+| LIQUID | 🔴 | JGB stress could accelerate life insurer UST repatriation |
+| LIQUID | 🟠 | Feb 19 20Y auction — BTC <2.0x = crisis signal |
+| PROME | 🟠 | Floating mortgage constraint caps BOJ at 0.75% — market expects higher |
 
 ---
 
