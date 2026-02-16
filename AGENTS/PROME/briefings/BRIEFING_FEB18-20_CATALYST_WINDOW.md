@@ -1,8 +1,37 @@
 # BRIEFING PACKET: Feb 18-20 Catalyst Window
 
 **Prepared:** 2026-02-15 22:10 UTC  
+**Updated:** 2026-02-16 03:20 UTC  
 **Author:** Prome  
 **Status:** 🔴 CRITICAL — Multiple triggers converging in 3-day window
+
+---
+
+## ⚠️ MAJOR UPDATE: WAL DOWNGRADED (Feb 16)
+
+**Source:** Deep research + OTTO re-assessment  
+**Change:** WAL downgraded from "Patient Zero" → "Secondary Perception Risk"
+
+### Key Findings
+| Exposure | Previous Assumption | Actual Finding |
+|----------|---------------------|----------------|
+| Carvana warehouse | Probable | **UNCONFIRMED** (Ally dominates) |
+| BDC credit facilities | Material | **ZERO** (custodial only) |
+| Cantor fraud | Contagion risk | **CONTAINED** ($30M reserved, $25M insured) |
+| FHLB reliance | Elevated | **DECLINING** (deposits +16% YoY) |
+| Auto exposure | Direct warehouse | **INDIRECT** (lender finance to managers) |
+
+### Revised Patient Zero Ranking
+| Bank | Previous | Revised | Primary Risk |
+|------|----------|---------|--------------|
+| RF | #3 | **#1 (70%)** | Direct Tricolor warehouse + CRE |
+| CFG | #2 | **#2 (55%)** | BDC facilities + $12B auto book |
+| WAL | #1 | **#3 (35%)** | Perception only — fundamentals improving |
+
+### Strategic Implication
+**"WAL is not patient zero. WAL is the decoy."** — OTTO
+
+The cockroaches are real, but we were looking in the wrong kitchen. Feb 18 Carvana catalyst is now less WAL-relevant and more RF/CFG-relevant.
 
 ---
 
@@ -41,6 +70,27 @@
 - **DELAYED/GT ISSUE:** 🔴 URGENT — Escalate to all agents, fraud pattern +30%
 
 **Action if fires:** If 10-K delayed or GT resigns, alert immediately. This validates cockroach pattern.
+
+**⚠️ WAL Transmission Update:** Per Feb 16 analysis, Carvana stress transmits to **RF/CFG** before WAL. Watch regional bank reactions, not WAL specifically.
+
+---
+
+#### 1b. Regional Bank Watch — RF/CFG (NEW)
+**Agent:** REGINALD  
+**Priority:** 🔴 CRITICAL (elevated from previous)
+
+**Why these banks now:**
+- **RF (Regions Financial):** Direct Tricolor warehouse exposure (subprime auto), CRE concentration
+- **CFG (Citizens Financial):** BDC credit facilities, $12B direct auto book
+
+**What to watch on Carvana reaction:**
+| Signal | Bank | Threshold | Implication |
+|--------|------|-----------|-------------|
+| Stock drawdown | RF | >-5% same day as CVNA | Guilt-by-association transmission |
+| CDS widening | RF, CFG | >+20bp | Credit stress beginning |
+| Short interest | RF, CFG | >+2% | Shorts rotating from WAL |
+
+**If Carvana misses badly:** Monitor RF/CFG for secondary impact within 24-48 hours. They're now the primary transmission path, not WAL.
 
 ---
 
