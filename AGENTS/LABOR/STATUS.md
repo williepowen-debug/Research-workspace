@@ -178,19 +178,68 @@ The U.S. labor market has entered a structural break masked by surface-level sta
 
 ---
 
+## RECENT RESEARCH (Feb 16, 2026)
+
+**Completed 4 critical catalyst prep + staffing targets research:**
+
+### 1. Shunto 2026 Baseline (RP-LAB-013)
+- **Consensus:** 5.0-5.5% wage settlements expected
+- **Shock threshold:** ≥6.0% = BOJ emergency action → yen carry unwind → US hiring freeze
+- **Feb 19 catalyst:** Electronics union demands (watch for ≥¥19,500/month = 6.5%+)
+- **Transmission lag:** 2-4 weeks (shock→US claims spike)
+
+### 2. PSEC Portfolio Overlap (RP-LAB-014)
+- **Portfolio:** 97 companies, 33 industries, heavy business services/logistics/manufacturing
+- **Current PIK:** 35% = cash stress spreading
+- **Leading indicator:** PSEC stress → middle-market layoffs 1-2Q ahead of BLS data
+- **Feb 20 catalyst:** Q4 earnings - watch dividend cut, PIK% >40%, NAV decline
+
+### 3. Wright Delinquency Q4 2025 (RP-LAB-015)
+- **Total 90+ transitions DOUBLED:** 1.70% → 3.26% YoY
+- **HELOC crisis:** +121% YoY (homeowner liquidity exhaustion)
+- **Geographic validation:** FL/CA delinquency concentration = WARN hotspot overlap
+- **Transmission confirmed:** Q3 layoffs → Q4 UI exhaustion → Q4 delinquencies
+
+### 4. Staffing Targets Research (RP-LAB-016) — **PROME REQUEST**
+- **All 3 targets CONFIRMING thesis:** KELYA/RHI/MAN showing revenue declines, hiring freeze
+- **KELYA:** Q4 -11.9%, 2026 guide "mid-single-digit decline", temp (ETM) -18.6%, federal -8%
+- **RHI (HIGHEST CONVICTION):** Q4 -7%, staffing -9%, Q1 guide -5%, white-collar freeze, no excuses
+- **MAN:** Q4 +1% CC (flat), adj EPS -17%, FY net loss, U.S./Europe weak, global buffer
+- **Conviction ranking:** RHI 85% > KELYA 75% > MAN 65% > KRE 70% > SYF/ALLY 65-70%
+- **Lead time:** Staffing leads banks/credit by 3-6 months (already declining vs will decline)
+- **Sector repricing:** All staffing stocks down 7-15% on Feb 12 earnings (sector-wide)
+
+**Status:** 🔴 Employment→credit transmission ACTIVE. Q2-Q3 danger window on track. **Staffing = Patient Zero, already infected.**
+
+---
+
 ## RESEARCH GAPS
 
 - [x] Continuing Claims trend — COMPLETED
 - [x] State-level UI exhaustion rates — COMPLETED
 - [x] Gig economy metrics — COMPLETED (RP-LABOR-12)
+- [x] Shunto baseline & shock thresholds — COMPLETED (RP-LAB-013)
+- [x] PSEC portfolio sector analysis — COMPLETED (RP-LAB-014)
+- [x] Wright delinquency update — COMPLETED (RP-LAB-015)
+- [x] Staffing company targets (PROME request) — COMPLETED (RP-LAB-016)
 - [ ] LinkedIn hiring rate data
 - [ ] ADP vs BLS reconciliation
 
 ---
 
 ## WORKBOOK REFS
-- **ML.tsv**: ML-LAB-001 through ML-LAB-045
-- **VX.tsv**: 45+ vectors
-- **Research**: RP-LAB-003 through RP-LAB-012
+- **ML.tsv**: ML-LAB-001 through ML-LAB-063 (added 6 entries today)
+- **VX.tsv**: 52 vectors (added 7 new: PSEC PIK, Wright delinquency metrics, Shunto, staffing targets)
+- **Research**: RP-LAB-003 through RP-LAB-016 (added 4 reports today)
 
-*Next update trigger: March 6 NFP or claims breach 250K*
+### New Vectors (Feb 16, 2026)
+- **VX-LAB-8.04:** PSEC PIK Income % (35%, YELLOW - watch Feb 20 earnings)
+- **VX-LAB-9.01:** Total 90+ Delinquency Transition (3.26%, RED - doubled YoY)
+- **VX-LAB-9.02:** HELOC 90+ Transition (1.24%, RED - +121% YoY, liquidity crisis)
+- **VX-LAB-9.03:** Mortgage 90+ Transition (1.38%, ORANGE - FL/CA concentration)
+- **VX-LAB-11.01:** Shunto Wage Settlement (TBD, GAP - Feb 19 demands, Mar 15 settlements)
+- **VX-LAB-13.01:** KELYA Revenue YoY (-11.9%, RED - temp down 18.6%, federal -8%)
+- **VX-LAB-13.02:** RHI Revenue YoY (-7%, RED - staffing -9%, highest conviction target)
+- **VX-LAB-13.03:** MAN Revenue YoY CC (+1%, YELLOW - adj EPS -17%, global buffer)
+
+*Next update trigger: Feb 19 Shunto demands, Feb 20 PSEC earnings, or March 6 NFP or claims breach 250K*

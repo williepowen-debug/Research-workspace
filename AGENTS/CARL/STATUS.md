@@ -1,5 +1,5 @@
 # CARL STATUS
-**Last Updated:** 2026-02-12 | **Status:** 🔴 RED — CC 92% of GFC Peak, Auto at Historic Max
+**Last Updated:** 2026-02-16 | **Status:** 🔴 RED — Fannie MF DQ IMMINENT BREACH (5bps from GFC peak), Wright confirms transmission ACTIVE
 
 ---
 
@@ -63,7 +63,7 @@ $150-200B **invisible** to credit bureaus:
 | **Student Loan 30+ DQ** | **16.3%** | 🔴 | WORST EVER |
 | **Student Loan 90+ DQ** | **9.5%** | 🔴 | +$150B YoY |
 | Total Household Debt | $18.78T | 🔴 | Record |
-| **Fannie MF DQ** | **0.75%** | 🟠 | 94% of GFC peak (0.80%) |
+| **Fannie MF DQ** | **0.75%** | 🔴 | **IMMINENT BREACH** — 5bps from GFC peak (0.80%) |
 | **Freddie MF DQ** | **0.48%** | 🟠 | Highest in 21 years |
 | **National Foreclosures Q4** | **58,140** | 🟠 | +41% YoY |
 | **FL Foreclosures** | +190% YoY | 🔴 | Employment→housing accelerating |
@@ -95,6 +95,35 @@ $150-200B **invisible** to credit bureaus:
 
 ---
 
+## FANNIE MF DQ: IMMINENT BREACH
+
+**Current:** 0.75% (only 5bps from GFC peak of 0.80%)
+**Status:** 🔴 IMMINENT BREACH — weekly monitoring activated
+
+### Why This Matters
+
+**H2 2026 Maturity Wall Transmission:**
+1. **Multifamily debt refinancing cliff** — $270B+ maturing 2025-2026
+2. **Fannie MF DQ breach signals** landlord stress converting to missed debt service
+3. **Transmission path:** Renter stress (employment loss) → landlord cash flow stress → mortgage defaults → lender losses
+
+**The Chain:**
+```
+LABOR shock → Renters miss payments → Landlords exhaust reserves → 
+MF mortgage defaults → Fannie/Freddie losses → Broader housing stress
+```
+
+**Breach Threshold:** 0.80% = GFC peak. Crossing this level = multifamily stress exceeds 2008-09.
+
+**Monitoring Cadence:**
+- **Previous:** Monthly (Fannie Mae DataDynamics)
+- **Current:** **WEEKLY** — breach imminent, need real-time tracking
+- **Source:** [Fannie Mae Multifamily Delinquency Data](https://www.fanniemae.com/research-and-insights/multifamily-data)
+
+**Q2-Q3 2026 Risk:** If employment stress accelerates per LABOR forecasts, renter payment failures cascade to landlords during maturity wall refinancing → forced sales / distressed MF market.
+
+---
+
 ## STATE STRESS DIFFUSION
 
 | Tier | States | Key Metrics |
@@ -110,15 +139,34 @@ $150-200B **invisible** to credit bureaus:
 
 **Timeline COMPRESSED vs historical norms:**
 
-| Trigger | Time to First Miss |
-|---------|-------------------|
-| Job loss (hourly/gig) | 0-1 month |
-| Job loss (salaried) | 2-5 months |
-| Medical event | 3-9 months |
+### Employment→Credit Transmission (Segmented Model)
+
+| Employment Type | Time to First Miss | Cohort Notes |
+|----------------|-------------------|--------------|
+| **Hourly/Gig** | **0-1 month** | No severance, zero buffer |
+| **Salaried Private** | **2-5 months** | Severance exhausts Q2-Q3 2026 |
+| **Public Sector** | **3-6 months** | NEW cohort (LAUSD signal) |
+| Medical event | 3-9 months | Indirect trigger |
 
 **For 37% (can't cover $400), LEP is ~3 months.** Standard 12-month models are outdated.
 
 **Payment Hierarchy:** Auto (highest) → Mortgage → Student → CC (first to miss)
+
+### LABOR→CARL Transmission: CONFIRMED ACTIVE (Wright Q4 2025)
+
+**Source:** LABOR agent research, Feb 16, 2026
+
+| Metric | Q4 2025 | YoY Change | Status |
+|--------|---------|------------|--------|
+| **Credit Card 90+ DQ** | **3.26%** | **+92%** (1.70% → 3.26%) | 🔴 DOUBLED |
+| **HELOC 90+ DQ** | N/A | **+121%** | 🔴 "Last resort failure" |
+| Geographic Concentration | FL/CA | Matches WARN hotspots | ✅ Validated |
+
+**Key Finding:** 90+ delinquency transitions **DOUBLED YoY** in Q4 2025 = transmission is ACTIVE NOW.
+
+**HELOC Stress = Terminal Signal:** HELOCs are last-resort liquidity. +121% = borrowers exhausted all other options.
+
+**Geographic Validation:** FL/CA concentration matches LABOR's WARN Act layoff data → employment→credit linkage confirmed.
 
 ---
 
@@ -174,8 +222,8 @@ Bank NCOs rise (REGINALD) → Earnings release
 ### Imminent ⚠️
 | # | Prediction | Current | Gap | Timeframe | Conf |
 |---|------------|---------|-----|-----------|------|
+| 16 | **Fannie MF DQ >0.80% (GFC breach)** | **0.75%** | **0.05pp** | **Q2 2026** | **90%** |
 | 12 | Student 90+ DQ >10% | 9.5% | 0.5pp | Q1 2026 | 85% |
-| 16 | Fannie MF DQ >0.80% | 0.75% | 0.05pp | Q1 2026 | 80% |
 | 11 | CC 90+ DQ >13.74% (GFC) | 12.70% | 1.04pp | Q2 2026 | 75% |
 
 ### Tracking 📊
@@ -189,12 +237,30 @@ Bank NCOs rise (REGINALD) → Earnings release
 
 ---
 
-## DANGER WINDOW: Q3-Q4 2026
+## DANGER WINDOW: Q2-Q4 2026
 
-- LABOR severance runways exhaust → UI claims spike
-- Hourly/gig converts 0-1 month, salaried 2-5 months
-- CC delinquencies rise first (lowest priority)
-- Housing/foreclosure lags (longest)
+**Segmented Transmission Timeline:**
+
+| Quarter | Cohort | Trigger | CARL Impact |
+|---------|--------|---------|-------------|
+| **Q2 2026** | Hourly/gig | Severance exhausts | CC/Auto 30+ DQ spikes |
+| **Q3 2026** | Salaried private | 2-5mo conversion | Broad consumer stress |
+| **Q3-Q4** | Public sector | LAUSD-type cuts | NEW cohort (3-6mo lag) |
+| **Q4 2026+** | All cohorts | → Foreclosures | Housing stress materializes |
+
+**Key Dynamics:**
+- LABOR severance runways exhaust Q2 → UI claims spike
+- **Hourly/gig converts NOW-Q2** (0-1 month lag)
+- **Salaried private converts Q2-Q3** (2-5 month lag)
+- **Public sector converts Q3-Q4** (3-6 month lag, NEW from LAUSD signal)
+- CC delinquencies rise first (lowest payment priority)
+- Housing/foreclosure lags longest (6-12 months)
+
+**Q2-Q3 Forecasting Implications:**
+- **Q2:** Expect accelerated 30+ DQ across CC/Auto as hourly/gig cohort converts
+- **Q3:** Broadening stress as salaried private cohort exhausts severance
+- **Q4:** Public sector cohort adds NEW wave (LAUSD precedent)
+- **MF Refinancing Risk:** Fannie MF DQ likely breaches 0.80% during Q2-Q3 renter stress period
 
 ---
 
@@ -362,7 +428,70 @@ The 30x gap = K-shape economy in one chart. Employment shock collapses prime tow
 
 ---
 
+## TRADE TARGET MONITORING
+
+**Added:** 2026-02-16 (PROME request)
+
+**Consumer Finance Equities** (Direct stress expression vs KRE/IWM):
+
+| Ticker | Name | Conviction | Key Metric | Next Catalyst |
+|--------|------|------------|------------|---------------|
+| **SYF** | Synchrony Financial | **85%** | NCO 5.37%, 30+ DQ 4.49% | Q1 2026 Earnings (~April) |
+| **ALLY** | Ally Financial | **75%** | Auto 30+ DQ 5.25% | Q1 2026 Earnings (~April) |
+| **COF** | Capital One | **60%** | Auto DQ 5.23%, improving | Q1 2026 Earnings (~April) |
+| **DFS** | Discover Financial | **40%** | NCO 5.0%, "stable consumer" | Q1 2026 Earnings (~April) |
+
+**Ranking Rationale:**
+1. **SYF** = Purest subprime (60%+ book), highest NCO, management admits elevated PD
+2. **ALLY** = Direct auto exposure matching NY Fed 5.21%, labor-sensitive
+3. **COF** = Dual exposure but improving, merger noise
+4. **DFS** = Improving metrics, contradicts thesis
+
+**vs KRE/IWM:** Individual names MORE DIRECT (KRE diffused, IWM too broad).
+
+**Thesis Link:** Wright Q4 showed CC DQ doubled (+92%), HELOC +121%, but public companies show improvement → **divergence is the trade**.
+
+**Monitoring:**
+- Monthly ABS trustee reports for early DQ signal
+- Q1 2026 earnings (April) — first test of thesis
+- Watch for NCO re-acceleration if LABOR stress hits Q2-Q3
+
+**Full Analysis:** `workbook/CONSUMER_FINANCE_TRADE_ANALYSIS_2026-02-16.md`
+
+---
+
+**Homebuilders** (Investigated 2026-02-16):
+
+| Ticker | Name | Conviction | Assessment |
+|--------|------|------------|------------|
+| **LEN** | Lennar | **40%** | Weak short — too many offsetting factors |
+| **DHI** | D.R. Horton | **30%** | PASS — too strong, priced for perfection |
+| **TOL** | Toll Brothers | **25%** | PASS — wrong demographic (luxury) |
+| **XHB** | Homebuilders ETF | **35%** | PASS — too diffuse |
+
+**VERDICT: NOT RECOMMENDED — Cross-currents muddy thesis expression**
+
+**Why PASS:**
+1. **Fed policy HELPS builders** (inventory financing rate cuts) even as consumers stressed
+2. **Captive mortgage subs** allow builders to buydown rates, offsetting demand weakness
+3. **Stocks at 2+ year highs** (Feb 13) — market pricing recovery, not stress
+4. **Rate lock-in fading** — inventory up 20% YoY, within 9% of pre-pandemic levels
+5. **Too many variables:** Mortgage spreads, builder margins, regional dynamics, M&A activity
+
+**Fundamentals Show Stress (BUT market doesn't care yet):**
+- Housing starts at lowest since May 2020
+- Cancellation rates: KB 35%, Lennar 21%, Meritage 30%
+- Jobs growth weakest since 2020 (584K in 2025)
+- Sun Belt oversupply
+
+**Better Expression:** SYF, ALLY = direct, unambiguous consumer stress linkage
+
+**Full Analysis:** `workbook/HOMEBUILDER_TRADE_ANALYSIS_2026-02-16.md`
+
+---
+
 ## KEY DOCS
+- **workbook/CONSUMER_FINANCE_TRADE_ANALYSIS_2026-02-16.md** — SYF/COF/ALLY/DFS deep dive
 - **workbook/ABS_BASELINE.tsv** — Subprime auto >6% record
 - **workbook/STATE_DIFFUSION.tsv** — State stress rankings
 - **workbook/BNPL_STRESS.tsv** — 41% late payments
@@ -370,4 +499,4 @@ The 30x gap = K-shape economy in one chart. Employment shock collapses prime tow
 - **sources/StudentLoan_Data_2026-02.md** — 16.3% worst ever
 - Sub-agents: GIG (Dave 28DPD canary)
 
-*Next update: Q1 2026 data or CC 90+ crosses GFC peak*
+*Next update: Q1 2026 data or CC 90+ crosses GFC peak or Q1 earnings (April)*

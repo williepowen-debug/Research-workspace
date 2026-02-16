@@ -1,5 +1,5 @@
 # HENRY STATUS
-**Last Updated:** 2026-02-12 | **Status:** 🟡 YELLOW — Peak Risk Positioning (0DTE + Margin ATH + Credit Divergence)
+**Last Updated:** 2026-02-16 | **Status:** 🟡 YELLOW — Peak Risk Positioning (0DTE + Margin ATH + Credit Divergence)
 
 ---
 
@@ -19,6 +19,14 @@ The equity market is **derivatives-driven** where dealer hedging dominates short
 - Credit divergence: 10Y auction 1.4bps tail (worst since Aug 2024)
 
 **SBC Valuation Gap (Burry):** Tech earnings overstated 30-50% due to SBC add-backs. PLTR worth ~$46/share vs $135 current. NVDA's $91B "buybacks" = zero share reduction. If this reprices, Reverse Wealth Effect 2-3x larger than baseline.
+
+**Volatility Trade Analysis (Feb 16):**
+- **Long vol (VIX calls, UVXY) = LOW conviction (2-3/10)** for Feb 19-20 window
+- VIX already elevated (21.77 vs. Aug '24 baseline 13) = less room to spike
+- Contango decay + timing binary = poor risk/reward
+- **Equity puts (SYF, ALLY, KRE) = HIGH conviction (7-8/10)** — direct bifurcation exposure, better asymmetry
+- Aug 2024 lesson: VIX 65 spike was 85% artificial (bid-ask), recovered in 3 sessions
+- Vol positioning neutral (not crowded either way)
 
 ---
 
