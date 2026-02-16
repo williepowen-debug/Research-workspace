@@ -8,12 +8,14 @@
 
 ## Outbound Signals (for Prome)
 
-| To | Priority | Signal |
-|----|----------|--------|
-| REGINALD | 🔴 | Bank losses ~$1.8B+ disclosed; Feb 18 Carvana could expand |
-| BROCK | 🔴 | First Brands BDC exposure $237M; Ch. 7 risk kills examiner report |
-| CARL | 🟠 | Auto DQ 6.74% (32-yr high); credit access tightening |
-| LIQUID | 🟠 | Warehouse stress if Carvana Feb 18 goes badly |
+| To | Priority | Signal | Status |
+|----|----------|--------|--------|
+| REGINALD | 🔴 | Bank losses ~$1.8B+ disclosed; Feb 18 Carvana could expand | ✅ BRIEFED 2026-02-16 |
+| REGINALD | 🔴 | RF $68M Tricolor loss (missing from their data); HBAN 44% consumer = highest fraud surface | ✅ BRIEFED 2026-02-16 |
+| REGINALD | 🔴 | CFG $10-11B fund finance → BDC→First Brands contagion path; WAL 10.5% NDFI concentration | ✅ BRIEFED 2026-02-16 |
+| BROCK | 🔴 | First Brands BDC exposure $237M; Ch. 7 risk kills examiner report | PENDING |
+| CARL | 🟠 | Auto DQ 6.74% (32-yr high); credit access tightening | PENDING |
+| LIQUID | 🟠 | Warehouse stress if Carvana Feb 18 goes badly | PENDING |
 
 ---
 

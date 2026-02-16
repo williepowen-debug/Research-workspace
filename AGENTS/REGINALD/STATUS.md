@@ -1,5 +1,5 @@
 # REGINALD STATUS
-**Last Updated:** 2026-02-16 | **Status:** 🟠 ELEVATED — Convergence Thesis Active
+**Last Updated:** 2026-02-16 02:20 UTC | **Status:** 🔴 ELEVATED-ARMED — Japan Transmission Active, Triple Catalyst Window Feb 18-20, OTTO Auto Intel Integrated
 
 ---
 
@@ -16,7 +16,7 @@
 | **BDC/Fund Finance** (BROCK) | $1.2T exposure, PIK masking 6% shadow defaults |
 | **Migration** (MARCO) | Border city stress, FL triple exposure |
 | **FHLB/Funding** (LIQUID) | RRP at zero, FHLB is convergence point |
-| **Japan Contagion** (SAM) | Repatriation → UST → CLO → BDC → banks |
+| **Japan Contagion** (SAM) | **ACTIVE:** Repatriation $10-15B/mo → UST → CLO → BDC → banks |
 
 **Key insight:** Banks with exposure to MULTIPLE channels have more "paths to break."
 
@@ -261,15 +261,32 @@ Pure plays (EGBN, SBCF, IBOC) are binary bets. Multi-channel names (WAL, VLY, CF
 
 **Total defined risk:** ~$2,230
 
+### 🟠 Position Timing Consideration (Feb 16 Update)
+
+**SAM intelligence:** Aug 2024 transmission timeline shows T+2-3 weeks for KRE impact after yen spike. May 15 expiry = "TIGHT" for Path D transmission.
+
+**Probability capture:**
+- May 15: ~35% (dual fire Feb 19 + fast transmission only)
+- Jun 18: ~60% (adds delayed Shunto + April BOJ + employment path)
+
+**Tactical decision:** WAIT until Feb 18-20 triple catalyst window resolves. If Path D fires (dual catalyst), hold all positions. If not, consider rolling 1x May 15 → Jun 18 to align with higher probability window.
+
+**See:** `POSITION_ADJUSTMENT_FEB16.md` for full analysis
+
+**Execution window:** Feb 21-24 (after PSEC earnings, before next catalyst)
+
 ---
 
 ## KEY SIGNALS TO MONITOR
 
 | Signal | Current | Status | Trigger |
 |--------|---------|--------|---------|
+| **Japan Repatriation** | **$10-15B/mo** | **🟠** | **TIC Feb 18: Belgium >$500B = RED** |
+| **CLO AAA Spreads** | **125bps** | 🟢 | **>165bps = BDC transmission** |
+| **SOFR-IORB Spread** | **-1bp** | 🟢 | **>+15bps = FHLB spike** |
 | FHLB Advances | ~$480B | 🟢 | >$700B = stress |
-| FL Blacklist Count | 1,438 | 🟠 | >2,000 = acceleration |
-| FL Association Bankruptcies | 1 | 🟡 | Cluster of 3-5 |
+| Office CMBS DQ | 12.34% | 🔴 | ATH, watching migration |
+| PSEC PIK % | 35% | 🔴 | Earnings Feb 20 |
 | SSB MF Substandard | 9.36% | 🟠 | Watch NPL migration |
 | VLY Non-accruals | 0.87% | 🟡 | >1.0% = FL stress |
 
@@ -297,14 +314,38 @@ Fed will "drop some prior demands for banks to address deficiencies."
 
 ---
 
+## 🔴 CRITICAL: FEB 18-20 TRIPLE CATALYST WINDOW
+
+**SAM/LIQUID cross-agent intelligence:**
+
+| Date | Catalyst | Threshold | Impact |
+|------|----------|-----------|--------|
+| **Feb 18 (Tue)** | TIC Data (Dec) | Belgium >$500B | Japan repatriation confirmed → $300B UST demand void |
+| **Feb 19 (Wed)** | Shunto Electronics + 20Y JGB | ≥3.5% wage AND BTC <2.0x | Path D fires → Carry unwind → VIX spike → CLO >165bps |
+| **Feb 20 (Thu)** | PSEC Earnings | Dividend cut or coverage <1.0x | BDC shadow defaults validated → $1.2T bank NDFI risk |
+
+**NEW INTELLIGENCE:**
+- **Japan repatriation ACTIVE NOW:** $10-15B/month (life insurers selling UST → JGB 30Y 3.6%+)
+- **Transmission speed:** If Feb 19 fires both = **DAYS** (Aug 2024 was hours)
+- **Dual buffer failure:** RRP $1.3B (depleted) + China stealth exit = $300B annual demand hole
+- **FHLB trigger:** SOFR-IORB >+15bps = funding stress (currently -1bp GREEN)
+
+**Position timing:** May 15 / Jun 18 expiries **validated** — transmission completes well before first expiry if Path D fires.
+
+**Key insight:** Japan transmission pathway **INDEPENDENT of employment**. Two paths to break, not one.
+
+---
+
 ## CROSS-AGENT TRIGGERS
 
 | Condition | Source | Effect |
 |-----------|--------|--------|
 | Claims >300K | LABOR | All ORANGE → RED |
-| CLO AAA >150bps | LIQUID | BDC transmission fires |
+| CLO AAA >165bps | SAM/LIQUID | BDC transmission fires → bank fund finance stress |
 | CC 90+ >5% | CARL | Consumer NCO wave |
 | NFP <0 | LABOR | Risk-off, LIQUID stress |
+| SOFR-IORB >+15bps | LIQUID | Funding stress → FHLB spike |
+| Belgium >$500B (TIC) | SAM | Japan repatriation RED confirmation |
 
 ---
 
@@ -333,3 +374,45 @@ Status 🟠 ELEVATED because:
 *Next update: Q1 bank earnings (Apr 20-29)*
 
 **Full analysis:** `BANK_EXPOSURE_MATRIX.md`
+
+---
+
+## 🔗 OTTO CROSS-AGENT COLLABORATION (Feb 16, 2026)
+
+**OTTO domain:** Subprime auto, fraud, ABS delinquencies, Carvana/Ally
+
+**Intel shared:**
+- **Auto 60+ DQ: 6.74%** (32-year high) — VX-OTTO-1.01
+- **2022 vintage CNL: 22.42%** at 31 months (crisis level) — VX-OTTO-1.02
+- **Recovery ratio: 30.58%** vs 41% benchmark (severe LGD) — VX-OTTO-1.03
+- **Tricolor fraud:** $2B debt, $800M gap, JPM $170M, FITB $145M, RF $68M
+- **First Brands:** $9.3B debt, 15 BDCs $237M exposure, DOJ indicted Jan 29
+- **Carvana/Ally:** $19B exposure (42% of Ally originations), **NO RECOURSE**
+
+**Triple-exposed banks (Auto + BDC + CRE):**
+1. **WAL** — OTTO endorses as "patient zero" if Feb 18 goes badly
+2. **CFG** — $10-11B fund finance, 18.7% consumer
+3. **ZION** — 9% NDFI, already Cantor-wounded
+4. **RF** — 16.4% consumer + $68M Tricolor + $4.17B CLO
+5. **HBAN** — 44% consumer (highest auto concentration)
+
+**Feb 18 coordinated monitoring:**
+- **Carvana earnings:** Base -15-20%, Escalation -30-45%, **Extreme -60-80%** (Grant Thornton resigns)
+- **ALLY stock:** -10% = stress confirmation
+- **Auto ABS spreads:** Widening = liquidity stress
+- **WAL/HBAN/RF/CFG price action:** Relative to KRE
+
+**Transmission timeline:**
+- OTTO sees fraud/DQ at originators (NOW)
+- BDCs see stress 1-2 quarters later (Q2-Q3 2026)
+- Banks see fund finance losses 2-3 quarters later (Q3-Q4 2026)
+- **BUT:** If Feb 18 Extreme scenario fires (Grant Thornton resigns) → timeline compresses from quarters to **DAYS**
+
+**Research gaps identified:**
+1. Which banks provide warehouse lines to Exeter, CPS, Westlake, Lendbuzz?
+2. Which banks back the 15 BDCs with First Brands exposure?
+3. WAL's 10.5% NDFI — how much is auto warehouse vs other?
+4. HBAN's 44% consumer — auto % within that?
+5. Regional bank deposits AT Ally or correspondent relationships?
+
+**Full OTTO intelligence:** `workbook/OTTO_INTEL.md`
