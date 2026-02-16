@@ -21,17 +21,23 @@
 | FHLB reliance | Elevated | **DECLINING** (deposits +16% YoY) |
 | Auto exposure | Direct warehouse | **INDIRECT** (lender finance to managers) |
 
-### Revised Patient Zero Ranking
-| Bank | Previous | Revised | Primary Risk |
-|------|----------|---------|--------------|
-| RF | #3 | **#1 (70%)** | Direct Tricolor warehouse + CRE |
-| CFG | #2 | **#2 (55%)** | BDC facilities + $12B auto book |
-| WAL | #1 | **#3 (35%)** | Perception only — fundamentals improving |
+### CONSENSUS Patient Zero Ranking (Post OTTO-REGINALD Debate)
+| Bank | Probability | Primary Risk | Evidence Quality |
+|------|-------------|--------------|------------------|
+| **WAL** | **55% (#1)** | Perception contagion (70%) + undisclosed cockroaches (30%) | 8 confirmed channels |
+| **FITB** | **50% (#2)** 🆕 | $200M Tricolor warehouse (court-confirmed) | Tier 1 evidence |
+| CFG | 40% (#3) | Fund finance scale | Capability-based |
+| RF | 25% (#5) ⬇️ | Strong fundamentals, no verified crisis | UNVERIFIED claims |
 
-### Strategic Implication
-**"WAL is not patient zero. WAL is the decoy."** — OTTO
+### Key Insight: WAL Risk = PERCEPTION > CREDIT
+- **70%** of WAL risk is perception-driven (SVB optics, short seller target, Twitter mob)
+- **30%** is potential undisclosed credit (unnamed SPVANA partner, note finance book)
 
-The cockroaches are real, but we were looking in the wrong kitchen. Feb 18 Carvana catalyst is now less WAL-relevant and more RF/CFG-relevant.
+### Debate Resolution
+- OTTO originally pivoted to RF as patient zero (70%)
+- REGINALD challenged: RF Tricolor exposure is UNVERIFIED
+- OTTO conceded: "I inferred it from capabilities, not evidence"
+- **Consensus:** WAL remains #1, FITB enters #2 with confirmed exposure, RF drops to #5
 
 ---
 

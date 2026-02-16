@@ -2,7 +2,7 @@
 
 *Working model, not truth. Track our predictions to calibrate confidence over time.*
 
-**Last updated:** 2026-02-14
+**Last updated:** 2026-02-16
 **Thesis Confidence:** 80% (RED team validated — see `AGENTS/RED/RED_TEAM_REPORT_2026-02-14.md`)
 
 ---
@@ -99,6 +99,19 @@
 | 4 | Additional bank fraud disclosures (10-K season) | Mar 2026 | 50% | ⏳ Pending |
 | 5 | First wave "can't extend anymore" CRE forced sales | Q2-Q3 2026 | 60% | ⏳ Pending |
 | 6 | **Additional bank failures in 2026 (≥3 total)** | 2026 | 55% | ⏳ NEW (Wright) — "cockroach theory" |
+
+### REGIONAL BANK PATIENT ZERO (OTTO-REGINALD Consensus 2026-02-16)
+| Bank | Probability | Primary Risk Vector | Evidence Tier |
+|------|-------------|---------------------|---------------|
+| **WAL** | **55% (#1)** | Perception contagion (70%) + undisclosed cockroaches (30%) | Tier 1 (8 confirmed channels) |
+| **FITB** | **50% (#2)** | $200M Tricolor warehouse loss (court-confirmed) | Tier 1 |
+| CFG | 40% (#3) | Fund finance scale + BDC adjacency | Tier 2/3 |
+| ZION | 35% (#4) | $5.78B muni + Cantor-adjacent | Tier 1/2 |
+| RF | 25% (#5) ⬇️ | Strong fundamentals, no verified crisis exposures | **UNVERIFIED** (Tier 3) |
+
+**Key Finding:** RF's claimed Tricolor exposure was INFERENCE, not EVIDENCE. OTTO conceded after REGINALD challenge.
+**Updated Thesis:** WAL risk is 70% perception-driven (short seller target), 30% potential undisclosed credit.
+**See:** `AGENTS/PROME/debates/OTTO_REGINALD_WAL_DEBATE_2026-02-16.md`
 
 ### BROCK
 | # | Prediction | Timeframe | Confidence | Status |
