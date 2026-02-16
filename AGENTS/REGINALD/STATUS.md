@@ -1,5 +1,5 @@
 # REGINALD STATUS
-**Last Updated:** 2026-02-12 | **Status:** 🟠 ELEVATED — Convergence Thesis Active
+**Last Updated:** 2026-02-16 | **Status:** 🟠 ELEVATED — Convergence Thesis Active
 
 ---
 
@@ -161,10 +161,10 @@ Bank credit losses (REGINALD)
 | BDC | Ticker | PIK % | Status | Next Report |
 |-----|--------|-------|--------|-------------|
 | **Prospect Capital** | **PSEC** | **35%** | 🔴 CRITICAL | ~Feb 20 |
-| **FS KKR Capital** | **FSK** | **27%** | 🟠 HIGH | ~Feb 15 |
+| **FS KKR Capital** | **FSK** | **27%** | 🟠 HIGH | Feb 25 |
 | TCP Capital | TCPC | — | 🟡 | Mid-Feb |
 | MidCap Financial | MFIC | — | 🟡 | ~Feb 20 |
-| Blackstone Secured | BXSL | — | 🟢 | ~Feb 15 |
+| Blackstone Secured | BXSL | — | 🟢 | Feb 19 |
 | Ares Capital | ARCC | — | 🟢 | Quarterly |
 | Goldman Sachs BDC | GSBD | — | 🟢 | Quarterly |
 
@@ -287,10 +287,13 @@ Fed will "drop some prior demands for banks to address deficiencies."
 
 ## SUB-AGENTS
 
+*Full coordination protocol: `SUB_AGENTS.md`*
+
 - **CREED** (CRE): Office ATH, $936B maturity wall, -71% Chicago repricing
 - **BROCK** (BDC/Private Credit): PIK 35%, HRZN collapsed, AI infra risk
 - **CORAL** (Florida): Condo crisis, SIRS mandate, association bankruptcies
 - **RENO** (Nevada): Canadian tourism, housing, water stress
+- **TEX** (Texas): Border exposure, munis, Barclays void
 
 ---
 
