@@ -1,7 +1,7 @@
 ID	Name	Category	Current_Value	Yellow	Orange	Red	Status	Confidence	Last_Updated	Source	Cross_Links	Notes
 VX-REG-1.01	KRE ETF Price	1-Bellwether	$67.61 (-5% from high)	-10%	-15%	-20%	GREEN	85%	2026-02-16	Finviz	ML-REG-001	52wk high $71.26. Surface GREEN indicator. UPDATE PRICE.
 VX-REG-2.01	Regional CLO Holdings	2-Credit	Concentrated: RF $4.17B (13.5%)	Sector-wide	RF-specific	RF + others	GREEN	85%	2026-01-26	10-Q/10-K	ML-REG-005	Idiosyncratic not systemic. RF=HIGH, BANC=ELEVATED, others LOW.
-VX-REG-2.02	CLO AAA Spreads	3-Systemic	~115bps	150bps	165bps	180bps	GREEN	75%	2026-02-16	PSQA Proxy	ML-REG-004, FLOW-REG-1.01	Japan bid anchoring. Trigger is US credit cycle.
+VX-REG-2.02	CLO AAA Spreads	3-Systemic	125bps (SAM)	150bps	165bps	180bps	GREEN	85%	2026-02-16	SAM/PSQA	ML-REG-004, FLOW-REG-1.01	Japan repatriation ACTIVE $10-15B/mo. >165bps = BDC transmission.
 VX-REG-2.03	BDC NAV Discount	5-Shadow	-16% avg (-21% median)	>10%	>15%	>20%	ORANGE	80%	2026-01-26	CEF Connect	ML-REG-003, FLOW-REG-9.01	PSEC -57%, FSK -34%. Crisis territory.
 VX-REG-3.01	CRE Loan 90+ DQ	2-Credit	1.56% (banks)	>3%	>5%	>7%	GREEN	85%	2026-02-15	FRED	ML-REG-002, CREED	Q3 2025. Office CMBS 12.34% ATH (Jan 2026).
 VX-REG-4.01	Deposit Flight Rate	4-Funding	TBD	-2% QoQ	-4%	-6%	GAP	70%	2026-02-16	Call Reports	FL-REG-002, FL-REG-019	Q4 data Feb 15 = TODAY. Update when available.
@@ -35,6 +35,13 @@ VX-REG-13.01	CRE/Equity Concentration	2-Credit	1,788 banks >300%	>2,000	>2,200	S
 VX-REG-13.02	Office CRE Loss Severity	2-Credit	70-97% actual	Gap >40pp	>50pp	Recognition	RED	90%	2026-02-02	RQ-REG-I01	ML-REG-053	vs 20-40% modeled. Catastrophic gap.
 VX-REG-14.01	Shunto 2026 Outcome	6-Cross-Border	TBD (Feb 19 electronics)	<3.0% Weak	2.5-3.5% Mod	≥3.5% Strong	PENDING	48%	2026-02-16	SAM	SAM VX-SAM-8.05, FL-REG-023	🔴 DUAL CATALYST. Strong → 85% April BOJ hike.
 VX-REG-14.02	20Y JGB Auction BTC	6-Cross-Border	3.14 (Jan 20)	<3.0x Weak	<2.5x Stress	<2.0x FAIL	PENDING	80%	2026-02-16	MOF	SAM VX-SAM-3.03, FL-REG-024	🔴 DUAL CATALYST. Jan 20 worst since 1987. Feb 19.
-VX-REG-14.03	Japan Repatriation Rate	6-Cross-Border	¥0B/mo (outflow)	¥500B/mo	¥1T/mo	¥2T/mo	GREEN	80%	2026-02-16	MOF Weekly	SAM VX-SAM-9.02, FLOW-REG-13.01	Currently buying, not selling.
+VX-REG-14.03	Japan Repatriation Rate	6-Cross-Border	$10-15B/mo ACTIVE	¥500B/mo	¥1T/mo	¥2T/mo	ORANGE	90%	2026-02-16	SAM Intel	SAM VX-SAM-9.02, FLOW-REG-13.01	Life insurers SELLING UST for JGB 30Y 3.6%+. TIC Feb 18.
 VX-REG-14.04	Wright Current→Delinquent	2-Credit	609K (Oct 2025)	>400K/mo	>500K/mo	>700K/mo	ORANGE	85%	2026-02-16	Wright	CARL, FLOW-REG-14.01	Largest since May 2020. Waiting Nov/Dec data.
 VX-REG-FAIL-01	Metropolitan Capital Failure	2-Credit	Failed Jan 31	—	—	—	CONFIRMED	95%	2026-02-12	FDIC	ML-REG-055	First 2026 failure. $261M Chicago. Cockroach theory.
+VX-REG-15.01	SOFR-IORB Spread	4-Funding	-1bp (GREEN)	+5bps	+10bps	+15bps	GREEN	90%	2026-02-16	LIQUID	FLOW-REG-3.01	LIQUID trigger: >+15bps = funding stress → FHLB spike. Monitor daily.
+VX-OTTO-1.01	Auto 60+ Day DQ	2-Credit	6.74%	>5.5%	>6.0%	>7.0%	ORANGE	90%	2026-02-16	OTTO	OTTO_INTEL.md	OTTO: 32-year high. Leads bank auto NCOs by 1-2 quarters.
+VX-OTTO-1.02	2022 Vintage CNL	2-Credit	22.42% at 31 months	>18%	>20%	>25%	RED	85%	2026-02-16	OTTO	OTTO_INTEL.md	OTTO: Crisis-level cumulative net loss. 2022 vintage "broken."
+VX-OTTO-1.03	Auto Recovery Ratio	2-Credit	30.58%	<40%	<35%	<30%	ORANGE	85%	2026-02-16	OTTO	OTTO_INTEL.md	OTTO: vs 41% benchmark. Severe loss given default.
+VX-OTTO-2.01	Carvana Stock	1-Bellwether	$313 (pre-earnings)	-20%	-40%	-60%	PENDING	75%	2026-02-16	OTTO	OTTO_INTEL.md	Feb 18 earnings. Base -15-20%, Escalation -30-45%, Extreme -60-80%.
+VX-OTTO-2.02	Ally Financial Stock	1-Bellwether	TBD	-10%	-15%	-20%	PENDING	80%	2026-02-16	OTTO	OTTO_INTEL.md	$19B Carvana exposure (42% originations), NO RECOURSE. Feb 18 reaction.
+VX-OTTO-3.01	First Brands BDC Exposure	5-Shadow	$237M across 15 BDCs	BDC stress	Dividend cuts	NAV collapse	ORANGE	95%	2026-02-16	OTTO	OTTO_INTEL.md	$9.3B debt, $12M cash at bankruptcy. Which banks back the 15 BDCs?
