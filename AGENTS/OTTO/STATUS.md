@@ -1,6 +1,6 @@
 # OTTO STATUS
 
-**Signal Status:** 🔴 CRITICAL | **Last Updated:** 2026-02-15 17:45 UTC
+**Signal Status:** 🔴 CRITICAL | **Last Updated:** 2026-02-16 23:30 UTC
 
 **Summary:** Systemic Fraud + Bankruptcy Surge + Feb 18 Decisive
 
@@ -14,12 +14,50 @@
 | REGINALD | 🔴 | RF $68M Tricolor loss (missing from their data); HBAN 44% consumer = highest fraud surface | ✅ BRIEFED 2026-02-16 |
 | REGINALD | 🔴 | CFG $10-11B fund finance → BDC→First Brands contagion path; WAL 10.5% NDFI concentration | ✅ BRIEFED 2026-02-16 |
 | BROCK | 🔴 | First Brands BDC exposure $237M; Ch. 7 risk kills examiner report | PENDING |
-| CARL | 🟠 | Auto DQ 6.74% (32-yr high); credit access tightening | PENDING |
+| CARL | 🔴 | Auto extensions RISING (3.81% subprime, 5x prime); Cards HEALING (-8% mods); K-shape confirmed | **UPDATED 2026-02-16** |
 | LIQUID | 🟠 | Warehouse stress if Carvana Feb 18 goes badly | PENDING |
 
 ---
 
 ## 🆕 FEBRUARY 2026 DEVELOPMENTS
+
+### 🆕 ABS Extension Data — "Extend and Pretend" QUANTIFIED (Feb 16)
+
+**Source:** S&P Global Auto ABS Tracker (via dealershipguy, Feb 2025)
+
+**Extension Rates (Dec 2024):**
+| Segment | Extension Rate | Trend |
+|---------|---------------|-------|
+| Prime | 0.77% | Stable |
+| **Subprime** | **3.81%** | **Rising** |
+
+**Subprime is 5x prime extension rate**
+
+**Individual Subprime Lender Extensions (SPIKING):**
+| Lender | Previous | Current | Change |
+|--------|----------|---------|--------|
+| **Westlake** | — | **>9.5%** | Highest |
+| **DriveTime** | 4.71% | **6.41%** | +36% |
+| **Carvana** | 3.72% | **5.41%** | +45% |
+
+**Management Quotes (Earnings Calls) — Confirming "Extend and Pretend":**
+- **ALLY CFO Russ Hutchinson:** "Moving back the timing of repossessions and removing some of the friction around extensions"
+- **CarMax CFO Enrique Mayor-Mora:** "Began testing an enhancement to our policy that further empowers delinquent customers to take advantage of a payment extension"
+- **NY Fed Warning:** Extensions "create a wave of debt that likely won't be paid"
+
+**60+ Day Delinquencies (Dec 2024):**
+- Subprime: **6.56%** — HIGHEST EVER RECORDED
+- Prime: 0.62% — stable
+
+**Cards vs Auto Comparison (10-K Verification, Feb 16):**
+| Product | Modification Trend | Interpretation |
+|---------|-------------------|----------------|
+| **Cards (SYF)** | -8% YoY ($2.7B → $2.5B) | **Genuine healing** |
+| **Auto (Subprime ABS)** | +45% (Carvana), +36% (DriveTime) | **Papering over stress** |
+
+**Implication:** Auto subprime lenders are actively masking delinquencies via extensions. When extensions unwind, losses crystallize. This validates Hindenburg's "extend and pretend" thesis with hard data.
+
+---
 
 ### Carvana Fraud Allegations (CRITICAL — Feb 18)
 **Court Order Breakthrough (Feb 11-12):**
@@ -211,6 +249,8 @@ Validated by S&P CreditWatch actions on Lendbuzz/SAFCO citing immigration enforc
 | Recovery Ratio | 30.58% (vs 41% benchmark) | 🔴 |
 | NDFI Bank Exposure | $1.7T (34% of C&I at top 25 banks) | 🔴 |
 | **Ally-Carvana Exposure** | **$19B (17% of Ally used-auto, NO recourse)** | 🔴 |
+| **Subprime Extension Rate** | **3.81% (5x prime, RISING)** | 🔴 |
+| **Carvana Extension Rate** | **5.41% (+45% spike)** | 🔴 |
 | **First Brands Debt Trading** | **13-16 cents (senior)** | 🔴 |
 | GM/Ford ILC | Approved; 12mo to deposits | 🟢 |
 
@@ -281,6 +321,8 @@ Validated by S&P CreditWatch actions on Lendbuzz/SAFCO citing immigration enforc
 | GM/Ford ILC = monoline squeeze | CARL | Credit access may narrow for deep subprime |
 | JPY appreciates in Fed stress test | SAM | Japan transmission path validated |
 | 46 S&P downgrades (all subprime) | HENRY | Credit structure fragility |
+| **Cards healing, Auto extending** | CARL | K-shape confirmed: cards -8% mods, auto +45% extensions |
+| **ALLY loosening extension policy** | REGINALD | Management confirming "extend and pretend" |
 
 ---
 

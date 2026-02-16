@@ -68,8 +68,8 @@
 - **ALERT:** If BOTH fire (Shunto ≥3.5% AND BTC <2.0x) = Path D trigger
 
 ### Feb 20 (Thursday):
-- [ ] PSEC earnings (BDC, PIK 35%) — Watch dividend coverage or cut
-- **ALERT:** If dividend cut = validates shadow defaults, INCREASE positions
+- [ ] Initial claims (weekly)
+- ~~PSEC earnings~~ — **REMOVED**: Already reported Feb 10, actual PIK 8.6% (not 35%), dividend coverage 140.7%
 
 ### Mid-Feb (TBD):
 - [ ] Wright mortgage data update (Nov→Dec, Dec→Jan current→delinquent flows)

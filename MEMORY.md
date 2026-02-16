@@ -262,3 +262,49 @@ Exit 100% if **ANY:**
 **Full Report:** `AGENTS/RED/RED_TEAM_REPORT_2026-02-14.md`
 
 ---
+
+## CONSUMER FINANCE THESIS BROKEN (Feb 16, 2026)
+
+### The Discovery
+Verified 5 consumer finance names against primary SEC filings AND aggregate Fed/CFPB data:
+
+| Name | Expected | Actual | Source |
+|------|----------|--------|--------|
+| SYF | Stress | NCO ↓ YoY, DQ ↓ YoY | SEC 10-K |
+| BFH | Stress | NCO 7.4→7.1%, early DQ below pre-pandemic | SEC 10-K |
+| ALLY | Stress | 3rd consecutive quarter improvement | SEC 10-K |
+| CACC | Stress | Managed via 12.6% volume cut | SEC 10-K |
+| AFRM | Stress | +43% GMV, GAAP profitable | SEC 10-Q |
+
+**Aggregate confirmation:**
+- Fed 30-day card DQ: 2.98% — fifth consecutive decline
+- CFPB: "fallen to pre-pandemic levels"
+- Auto 60+ DPD: 1.9%, flat YoY
+
+### Key Insight: K-Shape is EXTREME
+**Underwater homeowners ≠ employed cardholders**
+
+Wright 609K current→delinquent mortgage borrowers are NOT the same population driving credit card data. The K-shape means:
+- Employed cardholders = healing (can make minimum payments)
+- Trapped homeowners = defaulting (underwater, can't refi, HUD ended deferrals)
+
+These are different populations. Stress in mortgages doesn't transmit to cards while employment holds.
+
+### Revised Transmission Model
+**Wrong:** LABOR → CARL (cards/auto) → REGINALD  
+**Right:** Housing → Banks directly (bypasses consumer credit)
+
+Consumer credit only cracks if employment cracks (claims >250K sustained).
+
+### Trades Affected
+- ❌ SYF puts — broken thesis
+- ❌ BFH puts — broken thesis  
+- ❌ ALLY puts — broken thesis
+- ⚠️ CACC puts — conditional on employment crack
+- ✅ KRE puts — still valid (direct CRE exposure, not consumer credit)
+- ✅ Staffing puts — employment leading indicator
+
+### Lesson: Verify Agent Data
+PSEC was claimed at 35% PIK — actual was 8.6%. Agent research requires verification against primary SEC filings before trading.
+
+---

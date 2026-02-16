@@ -1,6 +1,6 @@
 # OTTO — Trade Ideas
 
-**Last Updated:** 2026-02-14
+**Last Updated:** 2026-02-16
 **Domain:** Subprime Auto Lending, ABS, Immigration-Credit Nexus
 
 ---
@@ -18,6 +18,8 @@
 ### 🔴 CVNA (Carvana) — SHORT / PUTS
 
 **Thesis:** Related-party fraud allegations; Bridgecrest masking delinquencies via extensions; Garcia family history of fraud; SEC investigation active.
+
+**NEW (Feb 16):** S&P ABS data confirms Carvana extension rate spiked 3.72% → 5.41% (+45%). Highest increase among subprime issuers. Validates "extend and pretend" thesis with hard data.
 
 **ML Support:** ML-053 to ML-065, ML-070, ML-074-076, ML-099-104, ML-113-115 (27 entries)
 
@@ -62,6 +64,8 @@
 ### 🟡 ALLY (Ally Financial) — PUTS
 
 **Thesis:** $19B Carvana exposure WITHOUT RECOURSE. 17% of used auto book. If Carvana's loan quality is worse than reported, Ally takes direct losses. No Carvana-specific disclosure = hidden risk.
+
+**NEW (Feb 16):** ALLY CFO Russ Hutchinson confirmed on earnings call: "Moving back the timing of repossessions and removing some of the friction around extensions." Management explicitly loosening extension policy = extend and pretend.
 
 **ML Support:** ML-070, ML-074, ML-080-082, ML-107-110 (10 entries)
 

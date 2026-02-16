@@ -1,5 +1,5 @@
 # MARCO STATUS
-**Last Updated:** 2026-02-12 | **Status:** 🟠 ORANGE — Regional Stress Pattern Validated + Enforcement Policy Volatility
+**Last Updated:** 2026-02-16 | **Status:** 🔴 RED — DHS Shutdown Active + Canadian Collapse Continuing + CRITICAL CATALYST WINDOW
 
 ---
 
@@ -52,58 +52,65 @@ Three domains tracked:
 
 ---
 
-## ENFORCEMENT POLICY DEVELOPMENTS (Feb 11-12, 2026)
+## ENFORCEMENT POLICY DEVELOPMENTS (Feb 16, 2026)
 
-**🟠 CRITICAL UPDATE: Enforcement trajectory now VOLATILE and UNPREDICTABLE**
+**🔴 DHS SHUTDOWN ACTIVE — VOLATILITY SCENARIO CONFIRMED**
 
-### DHS Appropriations Crisis
-- **Deadline:** Feb 13, 2026 (midnight Friday) — Congress must pass $64.4B DHS funding or face shutdown
-- **Trigger:** Minneapolis shootings (January 2026) — ICE killed two U.S. citizens (Renee Good, Alex Pretti)
-- **Senate Democrats blocked DHS bill** — Secured 2-week negotiation window for ICE/CBP reforms
-- **10-point Democratic demand list** (Jeffries/Schumer):
-  - Judicial warrants (not administrative warrants)
-  - Body cameras with footage access
-  - Face mask ban (ID visibility)
-  - Sensitive location protections (churches, schools, hospitals, courts)
-  - Use-of-force standards
-  - State/local oversight mechanisms
+### DHS Shutdown Status (Feb 14 - Present)
+- **Shutdown began:** Feb 14, 2026 at 12:01 AM ET (Day 3 as of Feb 16)
+- **Cause:** Democrats blocked second two-week CR on Feb 12; Congress left for recess
+- **Duration estimate:** "At least 10 days" per POLITICO — earliest resolution ~Feb 23-24 (State of Union timing)
+- **Operational impact:** LIMITED due to OBBBA backstop (see below)
 
-### Policy Accelerations (Feb 2026)
-1. **ICE Warrantless Home Entry** — Internal memo allows entry with "administrative warrants" (DHS-issued, not judicial) — violates 4th Amendment norms and longstanding policy
-2. **Removal Hearing Streamlining** — EOIR clarified removal hearings can be shortened to **30 minutes** in certain jurisdictions
-3. **Facial Recognition Deployment** — ICE using real-time facial recognition to scan protesters/observers — collecting data on U.S. citizens engaging in 1st Amendment activities
-4. **Sanctuary City Provisions** — Republican push to punish sanctuary cities in DHS funding bill
+### OBBBA Backstop Validated
+- **$170B outside annual appropriations** still active (July 2025 One Big Beautiful Bill Act)
+  - $75B to ICE, $65B to CBP
+  - Only $15B spent so far — $155B remaining capacity
+- **ICE/CBP get only 60% from annual appropriations** — rest from mandatory funding, fees, OBBBA
+- **Result:** ~92% of DHS workforce still active; ICE/CBP operations CONTINUE
+- **Exception:** TSA employees miss paychecks mid-March 2026 → potential walkouts (public disruption catalyst)
 
-### The OBBBA Backstop
-- **$170B outside annual appropriations** (July 2025 One Big Beautiful Bill Act)
-  - $75B to ICE alone
-  - $65B to CBP
-- **Only $15B spent so far** (per USAspending.gov) — massive remaining capacity
-- Even if annual appropriations blocked, enforcement can continue from OBBBA funds
-- Congress can rescind via legislation before Sept 30, 2029 expiration
+### Democratic Reform Demands (Unresolved)
+Senate Democrats' 12-point demand list for ICE/CBP (updated from original 10):
+1. **Judicial warrants** (not administrative warrants) before entering private property
+2. **Verify non-citizenship** before detention
+3. **No face masks**; standardized civil enforcement uniforms (not paramilitary gear)
+4. **Body cameras** with ID (agency, number, name)
+5. **Sensitive location bans** (medical facilities, schools, childcare, churches, polling places, courts)
+6. **No profiling** based on location, job, language, accent, race, ethnicity
+7. **No large-scale ops** without state/local consent
+8. **Agent removal** while under investigation
+9. **State/local prosecution authority** for crimes by agents
+10. **Use-of-force policy** + expanded training
+11. **Immediate lawyer access** for detainees
+12. **No harassment of federal agents** (Republican counter-demand)
 
-### Implications for Thesis
-**This is NOT a simple "enforcement accelerating" story. It's a VOLATILITY story:**
+**Republican response:** "Excessive bureaucracy," but "room for compromise"
 
-| Scenario | Probability | Implication |
-|----------|------------|-------------|
-| **Appropriations pass with reforms** | 40% | Enforcement constrained; judicial warrants slow operations |
-| **Appropriations pass minimal reforms** | 30% | Status quo continues; OBBBA funds enable sustained ops |
-| **Shutdown / continuing resolution** | 20% | Short-term disruption; OBBBA backstop |
-| **Major policy reversal** | 10% | Post-shooting backlash forces pullback |
+### Timeline & Implications
+| Date | Event | Significance |
+|------|-------|--------------|
+| Feb 13 | Deadline passed | DHS appropriations expired |
+| Feb 14 | Shutdown begins | Only affects DHS (not whole govt) |
+| Feb 16 | **TODAY** | Day 3; Congress on recess |
+| ~Feb 23-24 | Earliest resolution | State of Union timing; negotiations ongoing |
+| Mid-Mar 2026 | **TSA paycheck risk** | Walkouts possible → airport disruption |
 
-**Key insight:** The $170B OBBBA funding creates a **floor** for enforcement activity that annual appropriations can't easily constrain. But political backlash (Minneapolis shootings, facial recognition controversy) creates **ceiling** pressure. Result: **high volatility, low predictability.**
+### Enforcement Trajectory: CONFIRMED VOLATILITY
+**The thesis was correct:** OBBBA creates a **floor** (operations continue), but political backlash creates **ceiling** (reforms demanded). Result: **HIGH VOLATILITY, LOW PREDICTABILITY.**
 
-**Cross-agent implications:**
-- **→ LABOR:** Federal govt payrolls -34K (Jan NFP) confirms DOGE/RIF impact; enforcement volatility affects ag/construction labor supply predictability
-- **→ CARL:** Uncertainty affects consumer behavior in high-immigrant communities
-- **→ REGINALD:** Border city fiscal planning complicated by unpredictable enforcement trajectory
+**Current state:**
+- Enforcement can continue operationally via OBBBA
+- But political pressure (Minneapolis shootings, facial recognition, warrantless entry) building
+- TSA walkout risk in March = public pain point
+- Resolution uncertain; could be minimal reforms OR major constraints
 
 **Monitoring priorities:**
-1. Feb 13 deadline outcome
-2. Use-of-force incident frequency (leading indicator of policy sustainability)
-3. Court challenges to warrantless entry policy
-4. OBBBA spending rate (current: $15B/$170B spent)
+1. ✅ Shutdown occurred as predicted
+2. TSA paycheck timeline (mid-March trigger)
+3. Negotiation outcome (reforms vs. status quo)
+4. Use-of-force incidents during shutdown (validates/undermines Democratic demands)
+5. OBBBA spending rate ($15B/$170B = only 9% deployed)
 
 ---
 
@@ -111,15 +118,16 @@ Three domains tracked:
 
 ### RP-MAR-9: Canadian Tourism — The Complete Picture
 
-**🔴 THE RUPTURE IS NOW STRUCTURAL**
+**🔴 THE RUPTURE IS NOW STRUCTURAL — JANUARY 2026 CONFIRMS CONTINUATION**
 
 Three reports document the most significant shift in North American travel since 9/11:
 
-#### Key Numbers (2025)
+#### Key Numbers (2025 Full Year + Jan 2026 Update)
 
 | Metric | Value | Context |
 |--------|-------|---------|
-| Canadian trips to US | **22.9M** | -28% from 31.9M (2024) |
+| Canadian trips to US (2025) | **22.9M** | -28% from 31.9M (2024) |
+| **Jan 2026 YoY trend** | **CONTINUING DECLINE** | US travel down even as int'l travel +11.1% |
 | Car crossings (Oct 2025) | **-17.7% YoY** | 1.59M vs 1.93M |
 | Airline capacity Q1 2026 | **-10% (~450K seats)** | Las Vegas -82K, Orlando -79K |
 | FL bookings (Mar Break) | **-23.3%** | Forward bookings collapsed |
@@ -157,6 +165,15 @@ Three reports document the most significant shift in North American travel since
 - BC: +35.2% spending growth
 - Atlantic Canada: 8x nightly spend ($184 vs $140 national avg)
 - "Canada Strong" rail pass drove +3.9% passenger rail growth
+
+**Jan 2026 Update (Flight Centre/YouGov):**
+- **62% of Canadians LESS likely to visit US in 2026** (only 8% more likely)
+- Top factors: Political/cultural climate (57%), border hassles (53%), safety/security (46%), cost/FX (44%)
+- **Canada #1 destination** (37% of wishlists)
+- **Europe #2** (25% of wishlists) — confidence surging
+- 86% say "travel feels different this year"
+- 58% prioritize cost; 20% willing to pay more for domestic to support local jobs
+- **STRUCTURAL SHIFT:** "This could permanently reshape where Canadian travel dollars flow" (Flight Centre MD)
 
 #### Transmission to Florida (CORAL/REGINALD)
 
