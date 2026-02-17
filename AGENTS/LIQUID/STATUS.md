@@ -1,5 +1,15 @@
 # LIQUID STATUS
-**Last Updated:** 2026-02-12 | **Status:** 🔴 CRITICAL — Stealth Exit Confirmed (China/Belgium Vector Active)
+**Last Updated:** 2026-02-17 | **Status:** 🔴 CRITICAL — Stealth Exit Confirmed + Repo Spike
+
+---
+
+## RECENT EVENTS
+
+**Feb 17, 2026 — Overnight Repo Spike**
+- Fed prints **$11B** in overnight repo market — **largest amount in 2026**
+- Prior weeks: near-zero repo usage
+- Signal: Funding stress emerging as RRP buffer depleted
+- Watch: If sustained >$10B = reserve scarcity beginning
 
 ---
 
@@ -30,6 +40,7 @@ System transitioning from **official-sector stability** to **private-sector frag
 | Vector | Value | Status | Threshold |
 |--------|-------|--------|-----------|
 | **RRP Balance** | **$1.3B** | 🔴 | <$5B = effectively ZERO |
+| **Fed Overnight Repo** | **$11B** (Feb 16) | 🟠 | Largest 2026 — funding stress |
 | SOFR-IORB Spread | -1 bp | 🟢 | >+5bps yellow |
 | SRF Usage | $3.0B | 🟢 | >$50B sustained = stress |
 | Dealer Net Position | ~$200B | 🟠 | >$200B clogged |
