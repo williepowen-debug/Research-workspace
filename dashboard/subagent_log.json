@@ -108,5 +108,45 @@
     "runtime_sec": 158,
     "timestamp": "2026-02-12 13:33:00 UTC",
     "session_key": "agent:marco:subagent:baf3f51c-a204-4c0c-b881-55c740f8cbf2"
+  },
+  {
+    "id": "agent:labor:subagent:f9ec51ae",
+    "agent": "labor",
+    "task": "Daily check-in (Feb 17)",
+    "status": "completed",
+    "result": "RED - DHS shutdown Day 5 (234K unpaid), KELYA Q1 guide -11% to -13%, Presidents' Day distortion hits Feb 27 not Feb 20",
+    "runtime_sec": 175,
+    "timestamp": "2026-02-17 13:00:00 UTC",
+    "session_key": "agent:labor:subagent:f9ec51ae-98b6-485c-8c56-5958007100bc"
+  },
+  {
+    "id": "agent:carl:subagent:a5c78215",
+    "agent": "carl",
+    "task": "Daily check-in (Feb 17)",
+    "status": "completed",
+    "result": "RED - K-shape stratification confirmed (prime fine, subprime collapsing), Student 90+ DQ at 9.6% (0.4pp from threshold), DHS consumption shock logged",
+    "runtime_sec": 97,
+    "timestamp": "2026-02-17 13:15:00 UTC",
+    "session_key": "agent:carl:subagent:a5c78215-b66a-4dea-bd34-6a142419c5ba"
+  },
+  {
+    "id": "agent:marco:subagent:e587340f",
+    "agent": "marco",
+    "task": "Daily check-in (Feb 17)",
+    "status": "completed",
+    "result": "RED - Mexico remittances BREACHED (-4.6% FY2025, worst since GFC), E-Verify suspended during shutdown, 11 vectors now breached",
+    "runtime_sec": 196,
+    "timestamp": "2026-02-17 13:30:00 UTC",
+    "session_key": "agent:marco:subagent:e587340f-8311-4a8c-bb89-8691b6c70a0d"
+  },
+  {
+    "id": "agent:reginald:subagent:318b90fe",
+    "agent": "reginald",
+    "task": "Cross-agent alert: DHS shutdown DC exposure",
+    "status": "completed",
+    "result": "Logged DHS shutdown for EGBN (100% DC, CRE 547%) - spending shock hits before claims data shows it",
+    "runtime_sec": 121,
+    "timestamp": "2026-02-17 13:05:00 UTC",
+    "session_key": "agent:reginald:subagent:318b90fe-3d26-4581-be2a-c448f6b4901a"
   }
 ]
