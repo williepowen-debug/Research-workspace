@@ -121,6 +121,23 @@ The gap is extend-and-pretend: loan modifications, FHLB liquidity, regulatory fo
 - Collateral: 2.6 million SF office tower, Lower Manhattan
 - Signals even Class A Manhattan office hitting distress
 - Source: Trepp CMBS Special Servicing Report January 2026
+
+### 15. Apollo CREF Exiting CRE — $9B Portfolio Offload (NEW Feb 17, 2026)
+- **Apollo Commercial Real Estate Finance** offloading nearly **entire $9B CRE loan portfolio** to Athene
+- Posted lower Q4 earnings + prior-year loss
+- **Significance:** When Apollo — one of most sophisticated distressed players — wants OUT of CRE lending, that's capitulation, not repositioning
+- Signal: Smart money sees what's coming and is exiting before recognition phase
+
+### 16. BXMT Office Exit + Recognition Phase Beginning (NEW Feb 17, 2026)
+- **Blackstone Mortgage Trust (BXMT)** strategic pivot:
+  - Office exposure: **-50% since 2021**, now 20% of portfolio
+  - Foreclosed on **1800 Larimer** (544K SF Denver office) — actual price discovery
+  - REO up to **$1.3B** (taking properties back vs extending)
+  - Resolved **$2.3B impaired loans** since Q3 2024 peak
+  - Redeploying 80-85% of new capital to MF/Industrial
+- **Contrast with extend-and-pretend:** BXMT is eating losses NOW rather than extending
+- Portfolio now 99% performing (up from 96%) — cleaned up by taking pain
+- **Implication:** Recognition phase starting for sophisticated lenders
 - Bifurcation: office getting extensions, retail facing foreclosure
 
 ### 10. Healthcare CRE: Hospital "Triple Whammy" (NEW Feb 17, 2026)
