@@ -67,6 +67,13 @@ Track Texas's stress channels and their transmission to SSB's balance sheet.
 | Property Taxes | 🟡 Disadvantage | 1.5-2% vs 0.6% in Phoenix/Nashville |
 | Office Vacancy | 🟠 Bifurcated | 24.8% overall, but Class A improving |
 | Reverse Migration | ⚠️ Emerging | OK, AR gaining from TX |
+| **Tariff Burden** | 🔴 **$21B** | **NEW (Feb 17)** — Mar-Nov 2025; #2 state behind CA; pass-through to consumers |
+
+### Texas QUAD Whammy (Updated Feb 17)
+1. ❌ **Highest CRE supply** — 592K MF units delivered 2024, Austin 14.2% vacancy
+2. ❌ **Highest DSCR stress** — San Antonio 17.8%, Houston 14.3%, DFW 13.4%
+3. ❌ **Highest insurance burden** — 6.27% of revenue (double national avg)
+4. ❌ **$21B tariff costs** — passed through to TX consumers/businesses
 
 ### State Fiscal 🟢 GREEN — FORTRESS
 
