@@ -1,5 +1,5 @@
 # MARCO STATUS
-**Last Updated:** 2026-02-16 | **Status:** 🔴 RED — DHS Shutdown Active + Canadian Collapse Continuing + CRITICAL CATALYST WINDOW
+**Last Updated:** 2026-02-17 | **Status:** 🔴 RED — DHS Shutdown Day 5 + E-Verify Suspended + Mexico Remittances -4.6% (Worst Since 2009) + H-2A Reform Imminent
 
 ---
 
@@ -38,7 +38,7 @@ Three domains tracked:
 | Imperial County Unemployment | 20-31% | 🔴 BREACHED | Structural |
 | Net US Migration | -290K to -525K | 🔴 BREACHED | Historic negative |
 | Ag Employment (Mar-Jul) | -155K | 🔴 BREACHED | Complete reversal |
-| Mexico Remittances | -5% YTD, June -16.2% | 🟠 CRITICAL | Worst since 2012 |
+| Mexico Remittances | **-4.6% FY2025 FINAL ($61.8B)** | 🔴 BREACHED | **Worst since 2009 (GFC)** |
 | Central America Remittances | +20-26% | 🟠 CRITICAL | Precautionary surge (unsustainable) |
 | Latino Industry Jobs | -35% (Construction -93%) | 🟠 CRITICAL | Fear-driven withdrawal |
 | AZ Urban Revenue Sharing | -19% | 🟠 CRITICAL | Flat tax transmission |
@@ -52,15 +52,29 @@ Three domains tracked:
 
 ---
 
-## ENFORCEMENT POLICY DEVELOPMENTS (Feb 16, 2026)
+## ENFORCEMENT POLICY DEVELOPMENTS (Feb 17, 2026)
 
-**🔴 DHS SHUTDOWN ACTIVE — VOLATILITY SCENARIO CONFIRMED**
+**🔴 DHS SHUTDOWN ACTIVE — DAY 5 — E-VERIFY SUSPENDED (NEW)**
 
 ### DHS Shutdown Status (Feb 14 - Present)
-- **Shutdown began:** Feb 14, 2026 at 12:01 AM ET (Day 3 as of Feb 16)
+- **Shutdown began:** Feb 14, 2026 at 12:01 AM ET (**Day 5 as of Feb 17**)
 - **Cause:** Democrats blocked second two-week CR on Feb 12; Congress left for recess
 - **Duration estimate:** "At least 10 days" per POLITICO — earliest resolution ~Feb 23-24 (State of Union timing)
-- **Operational impact:** LIMITED due to OBBBA backstop (see below)
+- **Operational impact:** LIMITED on enforcement (OBBBA backstop), but **E-VERIFY SUSPENDED (CONFIRMED)**
+
+### 🆕 NEW — E-Verify Suspension (Feb 14+)
+- **E-Verify is suspended** — employers cannot electronically verify new hire work authorization
+- Employers must now rely on **manual Form I-9 compliance** during the lapse
+- USCIS Director Edlow: USCIS itself remains operational (fee-funded), but system is down
+- **Impact on H-2A pipeline:** Employers cannot process new H-2A worker arrivals through standard verification; creates processing bottleneck mid-planting season
+- **Impact on enforcement:** Without E-Verify, employers have reduced compliance pressure — paradoxically may benefit undocumented workers short-term
+- **Resolution timeline:** Restores when Congress acts (target Feb 23)
+
+### 🆕 NEW — Morale/Operational Signals (Feb 16-17)
+- **Coast Guard commandant:** DHS shutdown will "**cripple morale**" — direct quote, unprecedented language from active service chief
+- **TSA:** 90%+ essential but unpaid; walkout risk if shutdown extends past first payroll miss (mid-March)
+- **Border Patrol/ICE:** Working unpaid; field operations continuing via OBBBA
+- **Houston Chronicle (Feb 2026):** ICE raids sparking **confirmed labor shortages in South Texas** — business leaders reporting direct operational impact
 
 ### OBBBA Backstop Validated
 - **$170B outside annual appropriations** still active (July 2025 One Big Beautiful Bill Act)
@@ -189,14 +203,23 @@ This directly feeds the FL thesis:
 
 ### RP-MAR-8 Series (Feb 4, 2026)
 
-### RP-MAR-8.1: H-2A Visa Pipeline Analysis
+### RP-MAR-8.1: H-2A Visa Pipeline Analysis (UPDATED Feb 17)
 **Key finding:** H-2A is the **leading indicator** for domestic labor scarcity.
-- 48K (2005) → 400K+ (FY2025) = 8x growth
+- 48K (2005) → **415K (FY2025 CONFIRMED)** = 8.6x growth (upgrade from 400K+ estimate)
+- **Only 182 domestic applicants out of 415K positions advertised (<0.04%)** — structural dependency confirmed
 - 93% Mexican nationals; Florida leads (14.6% of certifications)
-- Only fills 15-20% of total farm labor need
+- Only fills 15-20% of total farm labor need (680K undocumented farmworkers remain uncovered)
 - Year-round industries (dairy, mushrooms, CEA) EXCLUDED = structural gap
 - 43-day govt shutdown (2025) halted processing → supply chain fragility exposed
 - New AEWR methodology reduces wages $4-7/hr (UFW lawsuit pending)
+- **🆕 H-2A REFORM LEGISLATION IMMINENT (Feb 17 NEW):**
+  - House Ag Committee Chairman G.T. Thompson (R-PA) targeting bill before **March 31, 2026**
+  - Bipartisan congressional task force recommendations include:
+    - Allow H-2A for **year-round jobs** (dairy, ranches) — closes structural gap
+    - **Limit wage increases to 3.25%/yr** (AEWR cap)
+    - Path for ~680K existing undocumented farmworkers (politically contentious)
+  - House Judiciary Committee has jurisdiction (less ag-friendly than Ag Committee)
+  - If passes: potentially adds 100K+ workers to H-2A pipeline in 12-18 months
 
 ### RP-MAR-8.2: Tier-1 State Fiscal Exposure
 **Key finding:** Each border state has **different primary vulnerability.**
@@ -215,12 +238,19 @@ This directly feeds the FL thesis:
 - TX outperforming: 6.8% GDP growth vs CA 1.2%
 - **Lithium Valley** emerging as upside catalyst
 
-### RP-MAR-8.4: Remittance Divergence
+### RP-MAR-8.4: Remittance Divergence (UPDATED Feb 17 — FULL YEAR 2025 CONFIRMED)
 **Key finding:** Mexico vs Central America divergence validates **different migrant behaviors.**
-- Mexico: -5.1% YTD, June -16.2% (mature diaspora, super peso eroding purchasing power)
+- **🆕 BANXICO FINAL DATA (Feb 2026):** Mexico 2025 remittances = **$61.8B** (down from $64.8B in 2024)
+  - Full-year decline: **-4.6%** — WORST SINCE 2009 (GFC-level drop)
+  - Represents 3.4% of Mexico GDP
+  - December 2025: $5.3B (+1.9% YoY) — slight Q4 rebound, not trend change
+  - Electronic transfers: 99.1% ($61.2B); 49.6% collected in cash
+  - Top receiving states: Guanajuato (8.9%), Michoacán (8.7%), Jalisco (8.3%)
+  - BBVA estimates migrants will pay **$3B in remittance taxes 2026-2034** under 1% tax
+  - **Prediction 15 VALIDATED:** Mexico remittances full-year -5%+ → CONFIRMED at -4.6% ✅ (within range)
 - Central America: +20.4% (Honduras +26%, Guatemala +20.2%) — **precautionary liquidation**
 - Central America surge is **UNSUSTAINABLE** — once savings exhausted, flows collapse
-- 1% remittance tax (Jan 2026) will cost Mexico ~$3B through 2034
+- 1% remittance tax (Jan 2026) will cost Mexico ~$3B through 2034 (BBVA confirmed)
 - Latino industry jobs collapsed: Construction -93%, Transportation -96%
 
 ---
@@ -274,7 +304,7 @@ Migration shift (UVL: "balanced") → Tax revenue at risk
 | 12 | **Central America remittances -10% (reversal)** | H2 2026 | 60% |
 | 13 | **Imperial County stays BBB or worse** | Through 2026 | 75% |
 | 14 | **CA produce prices +15%** | H2 2026 | 55% |
-| 15 | **Mexico remittances full-year -5%+** | 2026 | 70% |
+| 15 | **Mexico remittances full-year -4.6% (2025 confirmed)** | 2025 FINAL | ✅ **CONFIRMED** (-4.6%, worst since 2009) |
 | 16 | **AZ border cities -10% shared revenue** | FY 2026 | 65% |
 | 17 | **FL Citizens exposure >$750B** | Q4 2026 | 60% |
 
