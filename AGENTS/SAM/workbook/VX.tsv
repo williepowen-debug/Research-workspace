@@ -1,9 +1,9 @@
 ID	Name	Category	Current_Value	Yellow	Orange	Red	Status	Confidence	Last_Updated	Source	Notes
-VX-SAM-1.01	JGB 10Y Yield	Bond Market	~2.29%	2.30%	2.50%	3.00%	YELLOW	85%	2026-02-09	Reuters	Key BOJ watch level. Above 2.0% triggers policy discussion. Flat post-election.
-VX-SAM-1.02	JGB 20Y Yield	Bond Market	~3.19%	3.30%	3.50%	4.00%	YELLOW	85%	2026-02-05	Bloomberg	ATH 3.47% (Jan 2026). Life insurer benchmark.
-VX-SAM-1.03	JGB 30Y Yield	Bond Market	~3.57%	3.75%	4.00%	4.50%	YELLOW	85%	2026-02-05	MOF Auction	Post-auction rally from 3.62%. Watch >4.0% for structural break.
-VX-SAM-1.04	JGB 40Y Yield	Bond Market	~3.85%	4.00%	4.25%	4.75%	YELLOW	85%	2026-02-05	Bloomberg	ATH 4.24% (Jan 2026). Post-auction rally -10bp.
-VX-SAM-2.01	USD/JPY	Currency	~156.25	158	160	163	GREEN	90%	2026-02-09	Reuters	STRENGTHENED post-election (-1.7% from 159). Carry unwind OR early repatriation signal. Watch correlation breakdown.
+VX-SAM-1.01	JGB 10Y Yield	Bond Market	~2.16-2.20%	2.30%	2.50%	3.00%	GREEN	85%	2026-02-17	ainvest/Bloomberg	⬇️ UPDATED Feb 17. Post-Takaichi "responsible fiscal" rally. Fell from 2.29% (Feb 9) to 2.16% (Feb 17). ATH was 2.35% (Jan 20). Now well below YELLOW threshold. 5Y auction BTC 3.1 supporting rally.
+VX-SAM-1.02	JGB 20Y Yield	Bond Market	~3.05%	3.30%	3.50%	4.00%	GREEN	80%	2026-02-17	ET India/Bloomberg	⬇️ UPDATED Feb 17. Post-election Takaichi rally. Fell -5.5bp to 3.05% (Feb 12), continuing lower. ATH 3.47% (Jan 20). FEB 19 AUCTION IMMINENT — this is the critical level.
+VX-SAM-1.03	JGB 30Y Yield	Bond Market	~3.05-3.10%	3.75%	4.00%	4.50%	GREEN	80%	2026-02-17	ET India	⬇️ UPDATED Feb 17. MAJOR MOVE. Fell -7.5bp to 3.05% (Feb 12) from 3.57% (Feb 5). Takaichi "responsible" pledge triggered sharp long-end rally. Watch for reversal on auction stress.
+VX-SAM-1.04	JGB 40Y Yield	Bond Market	~3.645%	4.00%	4.25%	4.75%	GREEN	85%	2026-02-17	ET India	⬇️ UPDATED Feb 17. ATH 4.24% (Jan 2026). Post-election fell -8bp to 3.645% (Feb 12). Significant fiscal risk premium removal.
+VX-SAM-2.01	USD/JPY	Currency	~152-153	158	160	163	GREEN	90%	2026-02-17	Walletinvestor	⬇️ UPDATED Feb 17. Yen STRENGTHENED significantly. From 156.25 (Feb 9) to ~152-153. JGB rally + risk-off + Takaichi "responsible" fiscal pledge removing fiscal risk premium. Rabobank 12mo target: 145. If yields reverse up, yen reversal risk.
 VX-SAM-2.02	EUR/JPY	Currency	~165	165	170	175	YELLOW	80%	2026-02-05	Bloomberg	Secondary intervention trigger.
 VX-SAM-3.01	30Y JGB Auction BTC	Auction Health	3.64	3.00	2.50	2.00	GREEN	95%	2026-02-05	MOF	Feb 5 auction PASSED. Above 12mo avg (3.35). Crisis deferred.
 VX-SAM-3.02	30Y JGB Auction Tail	Auction Health	0.8bp	3bp	6bp	10bp	GREEN	95%	2026-02-05	MOF	Tight tail = confident buyers. Down from 10bp in Jan.
@@ -12,7 +12,7 @@ VX-SAM-4.01	Life Insurer Sentiment	Structural Demand	Re-engaging	Cautious	Avoidi
 VX-SAM-4.02	Big 4 Unrealized Losses	Stress Level	¥9T ($60B)	¥5T	¥10T	¥15T	ORANGE	80%	2026-02-05	Industry Est	Structural overhang. Drives repatriation risk.
 VX-SAM-5.01	Takaichi Approval	Political	~70% personal	60%	50%	40%	GREEN	75%	2026-02-15	Polls	LESS RELEVANT post-supermajority. 316 seats = unconstrained through 2028. Approval matters less than BOJ collision dynamics.
 VX-SAM-5.02	LDP Actual Seats	Political	316 (Coalition 352)	250-260	240-250	<240	RETIRED	95%	2026-02-15	Election Results	RESOLVED Feb 8. LDP 316 (+118), Coalition 352 = 2/3 supermajority. Unconstrained through 2028. D2 path validated.
-VX-SAM-6.01	BOJ Policy Rate	Monetary	0.25%	0.50%	0.75%	1.00%	GREEN	90%	2026-02-05	BOJ	July hike expected. Normalization continuing.
+VX-SAM-6.01	BOJ Policy Rate	Monetary	0.75%	0.75%	1.00%	1.25%	YELLOW	90%	2026-02-17	Reuters/BOJ	🔴 CRITICAL UPDATE. BOJ hiked to 0.75% in December 2025. Held at Jan 23-24. This IS Takaichi's stated ceiling. Next hike (to 1.00%) triggers political collision. Tamura (hawkish): "this spring" hike possible. Markets: 80% chance by April. Takata voted for 1.00% at Jan meeting (8-1 defeated). YELLOW = at ceiling, next step = collision.
 VX-SAM-6.02	BOJ 10Y Target	Monetary	Flexible	+/-0.5%	+/-0.75%	Abandoned	GREEN	85%	2026-02-05	BOJ	YCC effectively over but not officially abandoned.
 VX-SAM-6.03	Takaichi BOJ Pressure	Political-Monetary	LOW	MODERATE	HIGH	EXTREME	GREEN	80%	2026-02-08	Aida/Kantei	THE 0.75% CEILING: Aida stated "tolerate to 0.75%, then pause until 2027". GREEN=<0.50%, YELLOW=0.50-0.75% (tolerated), ORANGE=>0.75% (Katayama sent to BOJ), RED=BOJ Law revision threats. Watch Aida commentary + Katayama statements.
 VX-SAM-7.01	Scenario A/A+ Probability	Outcome	8-12%	-	-	-	-	75%	2026-02-15	PROME	Soft landing. ↓ Mortgage constraint + landslide reduce odds.
