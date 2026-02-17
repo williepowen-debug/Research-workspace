@@ -1,5 +1,5 @@
 # REGINALD STATUS
-**Last Updated:** 2026-02-16 02:20 UTC | **Status:** 🔴 ELEVATED-ARMED — Japan Transmission Active, Triple Catalyst Window Feb 18-20, OTTO Auto Intel Integrated
+**Last Updated:** 2026-02-17 13:23 UTC | **Status:** 🔴 ELEVATED-ARMED — Japan Transmission Active, Triple Catalyst Window Feb 18-20, OTTO Auto Intel Integrated, DHS Shutdown Spending Shock Active
 
 ---
 
@@ -11,7 +11,7 @@
 |---------|-----------|
 | **CRE** (CREED) | 70% of CRE loans at regionals, extend-and-pretend masking 70-97% loss severity |
 | **NDFI/Auto Fraud** | $1.7T bank exposure, $591M+ losses disclosed |
-| **Federal Layoffs** (LABOR) | DOGE cuts hitting DC corridor (EGBN, BHRB) |
+| **Federal Layoffs** (LABOR) | DOGE cuts + **DHS shutdown (234K unpaid, Day 5)** hitting DC corridor (EGBN, BHRB) |
 | **Consumer Credit** (CARL) | 37% can't cover $400, stress transmission accelerating |
 | **BDC/Fund Finance** (BROCK) | $1.2T exposure, PIK masking 6% shadow defaults |
 | **Migration** (MARCO) | Border city stress, FL triple exposure |
@@ -285,10 +285,48 @@ Pure plays (EGBN, SBCF, IBOC) are binary bets. Multi-channel names (WAL, VLY, CF
 | **CLO AAA Spreads** | **125bps** | 🟢 | **>165bps = BDC transmission** |
 | **SOFR-IORB Spread** | **-1bp** | 🟢 | **>+15bps = FHLB spike** |
 | FHLB Advances | ~$480B | 🟢 | >$700B = stress |
+| **DHS Shutdown Duration** | **Day 5 (Feb 17)** | 🟠 | **March 6 = paychecks missed; 4+ weeks = UCFE spike** |
 | Office CMBS DQ | 12.34% | 🔴 | ATH, watching migration |
 | PSEC PIK % | 35% | 🔴 | Earnings Feb 20 |
 | SSB MF Substandard | 9.36% | 🟠 | Watch NPL migration |
 | VLY Non-accruals | 0.87% | 🟡 | >1.0% = FL stress |
+
+---
+
+## 🔴 DC CHANNEL UPDATE: DHS Shutdown Spending Shock (Feb 17, 2026)
+
+**Source:** LABOR Cross-Agent Alert | **Logged:** ML-REG-064
+
+**Facts:**
+- 234K DHS workers working **without pay** — Day 5 of shutdown
+- Congress returns Feb 23 → **minimum 11-day shutdown** (resolution no earlier than ~March 6)
+- **First missed paychecks this week or next** (week of Feb 17-24)
+- Geographic concentration includes **DC metro area**
+
+**Why this is material for EGBN:**
+- EGBN is 100% DC-exposed, score 12, CRE 547%, already in crisis ($140.8M Q3 NCOs)
+- DHS spending collapse hits DC commercial retail/hospitality → EGBN CRE book (the non-office portion)
+- **Compounds** DOGE federal workforce reductions already elevating DC UCFE (+543% YoY, ORANGE)
+- DC unemployment lagging indicator — spending shock arrives weeks before claims data
+
+**BHRB (~35% DC):** Secondary exposure noted. Active acquirer (LINKBANCORP deal) — DO NOT SHORT, but watch muni portfolio stress if DC tax base deteriorates further.
+
+**Key mechanic:** DHS workers are EMPLOYED but unpaid — they do NOT immediately file UCFE claims. Stress transmission path:
+```
+Missed paychecks → Reduced spending → DC retail/commercial revenue drops
+    → CRE rent stress → EGBN loan performance → NPL migration
+    (If shutdown extends 4+ weeks: UCFE claims spike as workers exhaust savings)
+```
+
+**Threshold watch:** VX-REG-11.03 DC UCFE already at +543% (ORANGE, RED = +600%). Shutdown extending 4+ weeks could push this to RED independently of DOGE.
+
+**Timeline:**
+| Date | Event |
+|------|-------|
+| Feb 17-24 | First missed DHS paychecks |
+| Feb 23 | Congress returns |
+| ~March 6 | Earliest possible resolution (11-day minimum) |
+| March 6+ | If unresolved: UCFE claims start rising from DHS furloughs |
 
 ---
 
@@ -344,6 +382,7 @@ Fed will "drop some prior demands for banks to address deficiencies."
 | CLO AAA >165bps | SAM/LIQUID | BDC transmission fires → bank fund finance stress |
 | CC 90+ >5% | CARL | Consumer NCO wave |
 | NFP <0 | LABOR | Risk-off, LIQUID stress |
+| DHS shutdown >4 weeks | LABOR | DC UCFE claims spike → EGBN NPL migration accelerates |
 | SOFR-IORB >+15bps | LIQUID | Funding stress → FHLB spike |
 | Belgium >$500B (TIC) | SAM | Japan repatriation RED confirmation |
 
