@@ -1,6 +1,6 @@
 # SAM STATUS
 
-**Signal Status:** 🔴 RED | **Last Updated:** 2026-02-17 18:45 UTC
+**Signal Status:** 🔴 RED | **Last Updated:** 2026-02-17 23:10 UTC
 
 **Summary:** BOJ AT 0.75% CEILING + Feb 19 Dual Catalyst T-2 Days + JGB Rally Active
 
@@ -18,6 +18,48 @@
 | LIQUID | 🔴 | JGB stress could accelerate life insurer UST repatriation |
 | LIQUID | 🟠 | Feb 19 20Y auction — BTC <2.0x = crisis signal |
 | PROME | 🟠 | Floating mortgage constraint caps BOJ at 0.75% — market expects higher |
+
+---
+
+## 🆕 USDJPY/SPY CORRELATION — Divergence Starting (Feb 17, 2026)
+
+### The Carry Trade Correlation
+
+| Timeframe | USDJPY | SPY | Correlation |
+|-----------|--------|-----|-------------|
+| 6-Month | +4.16% | +6.12% | Tracked together until Jan |
+| 1-Year | +0.63% | +12.00% | **Massive divergence** |
+
+### Key Pattern
+
+**Yen has already strengthened 7% since October — SPY hasn't noticed.**
+
+- Oct 2025: USDJPY peaked at +8%
+- Feb 2026: USDJPY at +0.6%
+- **That's 7% yen strength** that equities are ignoring
+
+### Historical Template (Apr-May 2025)
+
+- USDJPY crashed to -15% (major yen strength)
+- SPY barely dipped (~-5%)
+- This was likely a carry unwind event
+- Equities recovered, but the correlation exists in stress
+
+### Feb 19 Catalyst Risk
+
+If Shunto wages ≥3.5% + JGB auction weak:
+- BOJ hike expectations spike
+- Yen could move like Apr-May 2025
+- Current slow grind could **accelerate through 150**
+
+**Aug 2024 Precedent:**
+- Yen moved +3% in days
+- VIX spiked to 65
+- Equities gapped down hard
+
+### Implication
+
+The yen is **coiling**. 7% move already happened quietly. If Feb 19 catalysts hit, the next leg could be violent. SPY is lagging the yen move — that gap closes in stress.
 
 ---
 

@@ -79,6 +79,37 @@ KRE puts entered near top of 16% rally. Three drivers of downside:
 
 **Pattern:** This is orderly de-risking — gradual rotation before disorderly repricing.
 
+### CRE Equity vs Debt Mispricing — The 55pp Gap
+
+**The equity holders got destroyed. The debt holders (banks) pretend nothing happened.**
+
+| Asset | 1Y Return | What It Represents |
+|-------|-----------|-------------------|
+| **KRE** | **+16%** | Banks holding CRE debt |
+| SPY | +12% | Broad market |
+| VNQ | +4% | Broad REITs (masked) |
+| CBRE | **-2%** | CRE transaction market |
+| BXP | **-14%** | Boston office equity |
+| SLG | **-39%** | NYC office equity |
+
+**KRE +16% vs SLG -39% = 55 percentage point gap**
+
+The buildings are worth less (SLG). The transaction market is frozen (CBRE -11% in 6M). But the loans on those buildings? Banks say they're fine (KRE +16%).
+
+**That gap closes through bank losses, not office recovery.**
+
+### CBRE — The Transaction Canary
+
+| Timeframe | CBRE | SPY | Divergence |
+|-----------|------|-----|------------|
+| 6-Month | **-11.13%** | +6.12% | 17pp |
+| 1-Year | -1.73% | +12.00% | 14pp |
+
+- CBRE is the world's largest CRE services firm
+- They see transaction flow, valuations, refinancing activity
+- **-11% in 6 months = transaction market frozen**
+- Making lower lows while SPY makes higher highs
+
 ---
 
 ## SUB-AGENT DASHBOARD

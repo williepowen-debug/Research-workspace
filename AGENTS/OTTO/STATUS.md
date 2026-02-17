@@ -1,6 +1,6 @@
 # OTTO STATUS
 
-**Signal Status:** 🔴 CRITICAL | **Last Updated:** 2026-02-17 21:30 UTC
+**Signal Status:** 🔴 CRITICAL | **Last Updated:** 2026-02-17 23:10 UTC
 
 **Summary:** Systemic Fraud + Bankruptcy Surge + Feb 18 Decisive
 
@@ -120,8 +120,26 @@
 - Ally does NOT disclose Carvana-specific DQ/NCO
 - **CLIFF RISK:** When Bridgecrest extensions unwind, losses crystallize fast
 
+### 🆕 CVNA/ALLY Correlation — Contagion NOT Priced (Feb 17 Chart Analysis)
+
+**Stock Performance:**
+| Timeframe | CVNA | ALLY | Correlation |
+|-----------|------|------|-------------|
+| 6-Month | **+0.27%** | +6.28% | Weak |
+| 1-Year | +22.99% | +7.58% | Weak |
+
+**Key Observations:**
+- CVNA is wildly volatile (60%+ swings, peaked at +60% in 2025)
+- ALLY has been stable despite $19B CVNA exposure
+- **The market isn't pricing contagion risk**
+
+**What to Watch Feb 18:**
+- If CVNA crashes and ALLY ignores it → contagion still not priced
+- If ALLY gaps down >3% on CVNA news → contagion being recognized for first time
+- This could create opportunity in ALLY puts if correlation spikes
+
 **Market Reaction:**
-- Stock: $486 ATH → ~$313 current (**-35% from late-Jan high**)
+- Stock: $486 ATH → ~$351 current
 - Short interest: ~7% of float
 - Subprime ABS spreads widened modestly
 
