@@ -1,5 +1,5 @@
 # LABOR STATUS
-**Last Updated:** 2026-02-12 | **Status:** 🔴 CRITICAL — Benchmark Revision Exposes 1M Phantom Jobs
+**Last Updated:** 2026-02-17 | **Status:** 🔴 CRITICAL — Benchmark Revision Exposes 1M Phantom Jobs | DHS Shutdown Day 5
 
 ---
 
@@ -178,6 +178,52 @@ The U.S. labor market has entered a structural break masked by surface-level sta
 
 ---
 
+## OVERNIGHT DEVELOPMENTS (Feb 15-17, Presidents' Day Weekend)
+
+### 1. DHS Partial Government Shutdown — NEW STRESS VECTOR
+- **Started:** Feb 12-13, 2026 (CR lapsed after Senate passed, House failed)
+- **Status as of Feb 17:** ONGOING. Congress not scheduled to return until Feb 23
+- **Scale:** ~260,000 DHS employees; 90% (~234K) designated "essential" = working without pay
+- **Impact:** Near-term spending shock to 234K federal workers + household dependents
+- **Overlap:** DHS concentrates in FL/TX/CA/NY — our WARN hotspot geographies
+- **Claims watch:** Working-without-pay workers do NOT file UI claims → artificially suppresses initial claims during shutdown. Resolution may cause retroactive pay spike, then delay before normalization.
+- **Vector:** New entry needed — DHS Shutdown Stress (VX-LAB-14.01)
+
+### 2. KELYA Q1 2026 Guidance — WORSE THAN LOGGED
+- **Previous STATUS.md entry:** "2026 guide: mid-single-digit decline"
+- **Actual Q1 2026 guide:** Revenue **-11% to -13% YoY** (-3% to -5% underlying, ex-discrete items)
+- **EBITDA margin Q1 guide:** ~1.5% (below Q4's 2.0%; thin-margin survival mode)
+- **EPS miss Q4:** $0.16 actual vs $0.45 estimate = **missed by $0.29 (64% miss)**
+- **Discrete drivers:** Federal contractors + 3 large commercial customers = ~8% of revenue headwind
+- **Bull thesis remaining:** Expects H2 2026 organic growth return (unverifiable, forward-looking)
+- **Barrington:** Cut PT from $16 → $15, maintained Outperform (bulls holding thin conviction)
+- **PROME upgraded conviction to 80%** (from my prior 75%). Warranted given Q1 guide deterioration.
+
+### 3. RHI Already Reported — CALENDAR UPDATE
+- **RHI Q4 2025:** Reported January 29, 2026
+- **EPS:** $0.32 actual vs $0.30 estimate (beat by $0.02 — thin beat, no upside thesis)
+- **CALENDAR.md "~Feb 20 RHI"** is stale — RHI has already reported
+- **Action:** Remove from upcoming earnings watch. RHI data is already embedded in sector read.
+
+### 4. Tech Layoffs YTD 2026: 30,700+ Jobs
+- Amazon: ~16,000 corporate roles (largest single cut)
+- Gaming: Wildlight/Riot/Ubisoft (continuing)
+- Amazon, Citi, Pinterest leading non-tech cuts
+- Confirms Challenger Jan 2026 trajectory continuing through Feb
+
+### 5. FDA/HHS DOGE Layoff Volatility
+- HHS rescinded SOME terminations for medical devices, food ingredients roles at FDA
+- Creates instability: workers don't know if they're terminated or not
+- Labor market signal: DOGE cut → reinstatement = net 0 for employment but MAX UNCERTAINTY
+- Workers in limbo do not job search efficiently → hiring rate suppressed further
+
+### 6. Shunto 2026 — No Shock Signal Yet
+- Rengo maintaining "5% or higher" target = in-line with baseline (5.0-5.5%)
+- NO shock signal detected ahead of Feb 19 electronics union demands
+- Thursday Feb 20 Shunto context: Watch if electronics unions demand ≥¥19,500/month (6.5%+)
+
+---
+
 ## RECENT RESEARCH (Feb 16, 2026)
 
 **Completed 4 critical catalyst prep + staffing targets research:**
@@ -205,7 +251,7 @@ The U.S. labor market has entered a structural break masked by surface-level sta
 - **KELYA:** Q4 -11.9%, 2026 guide "mid-single-digit decline", temp (ETM) -18.6%, federal -8%
 - **RHI (HIGHEST CONVICTION):** Q4 -7%, staffing -9%, Q1 guide -5%, white-collar freeze, no excuses
 - **MAN:** Q4 +1% CC (flat), adj EPS -17%, FY net loss, U.S./Europe weak, global buffer
-- **Conviction ranking:** RHI 85% > KELYA 75% > MAN 65% > KRE 70% > SYF/ALLY 65-70%
+- **Conviction ranking:** RHI 85% > **KELYA 80%** (PROME upgrade, Q1 guide worse than logged) > KRE 70% > MAN 65% > SYF/ALLY 65-70%
 - **Lead time:** Staffing leads banks/credit by 3-6 months (already declining vs will decline)
 - **Sector repricing:** All staffing stocks down 7-15% on Feb 12 earnings (sector-wide)
 
@@ -222,15 +268,17 @@ The U.S. labor market has entered a structural break masked by surface-level sta
 - [x] PSEC portfolio sector analysis — COMPLETED (RP-LAB-014)
 - [x] Wright delinquency update — COMPLETED (RP-LAB-015)
 - [x] Staffing company targets (PROME request) — COMPLETED (RP-LAB-016)
+- [x] Presidents' Day seasonal claims distortion — COMPLETED (RP-LAB-017)
+- [x] DHS shutdown claims suppression mechanism — COMPLETED (ML-LAB-064, VX-LAB-14.01)
 - [ ] LinkedIn hiring rate data
 - [ ] ADP vs BLS reconciliation
 
 ---
 
 ## WORKBOOK REFS
-- **ML.tsv**: ML-LAB-001 through ML-LAB-063 (added 6 entries today)
-- **VX.tsv**: 52 vectors (added 7 new: PSEC PIK, Wright delinquency metrics, Shunto, staffing targets)
-- **Research**: RP-LAB-003 through RP-LAB-016 (added 4 reports today)
+- **ML.tsv**: ML-LAB-001 through ML-LAB-066 (added 3 entries Feb 17)
+- **VX.tsv**: 53 vectors (added VX-LAB-14.01 Feb 17)
+- **Research**: RP-LAB-003 through RP-LAB-017 (added 1 report Feb 17)
 
 ### New Vectors (Feb 16, 2026)
 - **VX-LAB-8.04:** PSEC PIK Income % (35%, YELLOW - watch Feb 20 earnings)
@@ -242,4 +290,7 @@ The U.S. labor market has entered a structural break masked by surface-level sta
 - **VX-LAB-13.02:** RHI Revenue YoY (-7%, RED - staffing -9%, highest conviction target)
 - **VX-LAB-13.03:** MAN Revenue YoY CC (+1%, YELLOW - adj EPS -17%, global buffer)
 
-*Next update trigger: Feb 19 Shunto demands, Feb 20 PSEC earnings, or March 6 NFP or claims breach 250K*
+### New Vectors (Feb 17, 2026)
+- **VX-LAB-14.01:** DHS Partial Shutdown Day Count (Day 5, ORANGE - suppresses spending not claims; resolution target Feb 23)
+
+*Next update triggers: Feb 19 Shunto electronics demands | Feb 20 Initial Claims (Thursday) | Feb 20 PSEC Q4 earnings | Mar 6 NFP | Claims breach 250K | DHS shutdown resolution*
