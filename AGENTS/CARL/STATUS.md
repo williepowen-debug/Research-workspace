@@ -124,7 +124,28 @@ $150-200B **invisible** to credit bureaus:
 
 ---
 
-## DHS SHUTDOWN — CONSUMER STRESS VECTOR (NEW Feb 17)
+## CONSUMER BEHAVIOR SIGNALS — QSR STRESS (NEW Feb 17)
+
+**Wendy's Q4 2025 Results (Feb 16, 2026):**
+| Metric | Value | Context |
+|--------|-------|---------|
+| **Same-store sales** | **-11.3%** | Traffic-driven collapse |
+| Store closures (H1 2026) | 300-360 | 5-6% of US footprint |
+| 2024 closures | 240 | Already underway |
+| Global sales | -3.5% YoY | |
+
+**K-Shape in Real Economy:**
+- McDonald's: **+6.8%** same-store sales (value meals winning)
+- Wendy's: **-11.3%** (mid-market positioning dying)
+- Pizza Hut: 250 closures planned (4% of domestic)
+
+**Implication:** Consumer trading down HARD. Traffic collapse (not just ticket shrinkage) = demand destruction. Credit metrics (cards, auto) look fine because employed can make minimum payments. But **discretionary spending is cratering** — this is the behavior shift that precedes credit deterioration.
+
+**Management quote:** "In 2025, we swung the pendulum too far towards limited-time price promotions instead of everyday value."
+
+---
+
+## DHS SHUTDOWN — CONSUMER STRESS VECTOR (Feb 17)
 
 **Started:** Feb 12-13, 2026 (CR lapsed; House failed to pass). Congress returns ~Feb 23.
 

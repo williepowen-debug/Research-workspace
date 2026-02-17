@@ -1,5 +1,5 @@
 # CREED STATUS
-**Last Updated:** 2026-02-12 | **Status:** 🔴 RED — Office Special Servicing Accelerating
+**Last Updated:** 2026-02-17 | **Status:** 🔴 RED — Office Special Servicing Accelerating + Insurer Exit + Retail Resolution at 42%
 
 ---
 
@@ -64,21 +64,43 @@ The gap is extend-and-pretend: loan modifications, FHLB liquidity, regulatory fo
 - Class B/C obsolescence largely permanent
 - Only 10-15% suitable for conversion
 
-### 6. Chicago Price Discovery: -71% Average (NEW Feb 2026)
+### 6. Palisades Center Resolution: 42% Recovery (NEW Feb 17, 2026)
+- **12th largest US mall** (2.3M SF, West Nyack, NY)
+- Peak value: $881M (2016) → Appraisal: $209M (2023) → **Sale: $175M (2026)**
+- **Value decline: 80%** from peak
+- Debt: $418.5M → Recovery: $175M = **42% recovery rate**
+- Sole bidder at auction (Black Diamond Capital)
+- Foreclosure timeline: Feb 2023 → Feb 2026 = **3 years to clear**
+- **Implication:** Even Class A retail (affluent trade area, 12M visitors/yr) = massive haircuts
+- Conservative LTV doesn't protect when values drop 80%
+
+### 7. Chicago Price Discovery: -71% Average (Feb 2026)
 - 5 major transactions: -61% to -82.6% declines
 - 600 West Chicago: $510M → $89M (-82.6%)
 - 70 West Madison: $377M → $80M (-78.6%)
 - **Actual sales, not appraisals** — validates extreme valuation collapse
 - Midwest/secondary market banks face massive reserve builds
 
-### 7. "Extend to 2028" Creating New Maturity Cliff (NEW Feb 2026)
+### 8. Insurer Office Exit — $103B Maturity Wall (NEW Feb 17, 2026)
+- **US life insurers:** $960B total CRE exposure, 65% in mortgages
+- **Office allocation collapsing:** 25% (2020) → 18% (2024) and declining
+- **Insurers NOT rolling office debt** — exiting sector entirely
+- **$60B maturing 2025-2028:** 2025 $17.96B, 2026 $17.04B, 2027 $14.68B, 2028 $10.78B
+- **Total through 2036:** ~$103B
+- **Replacement capital:** Alternative asset managers (Brookfield et al.) — but only for trophy assets
+- **50 California St. example:** MassMutual debt → American National (Brookfield arm), 8 days before maturity
+- **Industry quote:** "The losses, when eventually recognized, will be concentrated in properties and markets where no amount of sponsor strength can overcome 35% vacancy and 50% value declines."
+- **Extend-and-pretend acknowledged:** "If you see a path for repayment, you're going to do it"
+- **Chart saved:** `SIGNALS/images/insurer_office_maturities_2025-2036.jpg`
+
+### 9. "Extend to 2028" Creating New Maturity Cliff (Feb 2026)
 - Willis Tower: $1.3B extended to 2028 (underwater -20%, Blackstone)
 - One New York Plaza: $835M extended to Jan 2028 (Brookfield)
 - Pattern: 24-month extensions from 2026 → 2028
 - **Risk:** 10-20% of $936B wall kicked to 2028 = $94-187B deferred crisis
 - Bifurcation: office getting extensions, retail facing foreclosure
 
-### 8. DC/DOGE: Federal Employment as Discrete CRE Stress Vector (NEW Feb 2026)
+### 10. DC/DOGE: Federal Employment as Discrete CRE Stress Vector (Feb 2026)
 - **RP-CREED-10 completed:** DOGE = largest peacetime federal workforce cut on record
 - **271,000 federal workers cut** (9% decline) through Nov 2025, federal employment at lowest since 1966
 - **DC office vacancy: 20.0% → 22.6%** (Q1→Q2 2025) driven by federal lease terminations
