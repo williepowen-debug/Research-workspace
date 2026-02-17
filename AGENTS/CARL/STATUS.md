@@ -111,6 +111,17 @@ $150-200B **invisible** to credit bureaus:
 
 **Tariff Tax Burden (Tax Foundation):** $1,000/household (2025) → $1,300/household (2026) — regressive hit on 37% who can't cover $400.
 
+**State-Level Tariff Burden (Mar-Nov 2025):** Top 3 consumer markets extracted $71B:
+| State | Tariff Paid | Consumer Impact |
+|-------|-------------|-----------------|
+| CA | $38B | 🔴 Largest burden |
+| TX | $21B | 🔴 + CRE + insurance = quad whammy |
+| FL | $12B | 🔴 + housing collapse overlap |
+| MI | $13B | 🟠 Auto supply chain stress |
+| GA | $12B | 🟠 Logistics hub pass-through |
+
+*Source: Trade Partnership Worldwide (Feb 12, 2026). These costs pass through to consumers via higher prices — concentrated in exactly our stress geographies.*
+
 ---
 
 ## DHS SHUTDOWN — CONSUMER STRESS VECTOR (NEW Feb 17)
