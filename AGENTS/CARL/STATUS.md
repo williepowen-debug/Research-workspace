@@ -100,11 +100,11 @@ $150-200B **invisible** to credit bureaus:
 | **Fannie MF DQ** | **0.75%** | 🔴 | **IMMINENT BREACH** — 5bps from GFC peak (0.80%) |
 | **Freddie MF DQ** | **0.48%** | 🟠 | Highest in 21 years |
 | **National Foreclosures Q4** | **58,140** | 🟠 | +41% YoY |
-| **FL Foreclosures** | +190% YoY | 🔴 | Employment→housing accelerating |
+| **FL Foreclosures** | +190% YoY | 🔴 | Employment→housing accelerating; FL DQ entry rate DOWN (cure rate collapsed) |
 | BNPL Late Payments | 41% | 🟠 | +7pp YoY |
 | BNPL Subprime Share | 61% | 🔴 | |
 | CC Utilization | 23.6% | 🟡 | 60% carry balance |
-| **Subprime Auto ABS 60+** | **>6%** | 🔴 | RECORD (vs Prime 0.2%) |
+| **Subprime Auto ABS 60+** | **6.9%** (Jan 2026) | 🔴 | **ALL-TIME RECORD** (vs Prime 0.4% = 17x gap) |
 | **DHS Shutdown — Workers Without Pay** | **234K** | 🔴 | **NEW (Feb 12+) — Day 5+; first missed paycheck imminent; FL/TX/CA/NY overlap with WARN hotspots** |
 
 **Age breakdown (transition to 90+ days):** 18-29: 9.5% | 30-39: 8.6% | 40-49: 8.1%
@@ -192,6 +192,138 @@ Pay cessation (Day 1-7) → Emergency fund depletion
 - **Trigger:** Day 14+ = formal threshold entry (VX candidate)
 - **Resolution watch:** Feb 23 Congress return = earliest plausible fix
 - Dave 28DPD (GIG canary): flag if moves above 2.05% this week
+
+---
+
+## ICE MORTGAGE DATA — WRIGHT 609K DEEP DIVE (Feb 17)
+
+**Source clarification:** "Wright" = independent Substack analyst citing ICE data. The 609K figure is from **ICE Mortgage Technology First Look at November 2025 Mortgage Data** (released Dec 23, 2025).
+
+### Critical Context: Source & Calendar Effect
+
+| Question | Answer |
+|----------|--------|
+| **Source** | ICE Mortgage Technology (Andy Walden) — not CFPB/MBA/CoreLogic |
+| **What 609K means** | Borrowers current in OCTOBER became delinquent in NOVEMBER (not Oct delinquency) |
+| **ICE's own explanation** | **Calendar effect**: Nov 2025 ended on Sunday → payments scheduled Dec 1 count as late |
+| **Historical comps (Sunday-end Nov)** | 2014: +61 bps / 2008: +112 bps / 2003: +57 bps (Nov 2025: +50 bps — SMALLER) |
+| **Dec 2025 reversal?** | **PARTIAL** — early-stage DQs improved (rate fell 16 bps, 3 bps below last year) |
+| **But...** | 90+ day DQs INCREASED +30K to highest in 3 years; +19K above last year's level |
+
+**Assessment:** 609K spike was primarily calendar-driven. STRUCTURAL stress is real but lives in the 90+ day bucket (continuing to rise), not new entry flows (which partially reversed).
+
+### 1. Geographic Breakdown
+
+**MBA Q4 2025 — Largest QoQ DQ increases:**
+| State | Change | Context |
+|-------|--------|---------|
+| **Mississippi** | **+109 bps** 🔴 | Highest nationally |
+| **Louisiana** | **+89 bps** 🔴 | #2 |
+| **Maryland** | **+87 bps** 🔴 | DOGE/federal worker concentration |
+| **Oklahoma** | **+86 bps** 🔴 | Energy sector |
+| **Indiana** | **+86 bps** 🔴 | Manufacturing belt |
+
+**Q3 2025 hotspots:** Arizona +29 bps, Louisiana +28, Indiana +28, Iowa +26, Texas +24
+
+**ICE November noncurrent % (highest):** Louisiana 8.75%, Mississippi 8.74%, Alabama/Arkansas/Indiana 6-7%
+
+**ICE November YoY changes:**
+- DECREASES: **Florida -7.07%** (#1), South Carolina -4.72%
+- INCREASES: Maryland +16.4%, Utah, Arizona, Arkansas
+
+**Cotality September 2025 metro hotspots:** Odessa TX (+1.3 pp), San Angelo TX (+1.0 pp), Cape Coral FL, Lakeland FL
+
+**KEY INSIGHT:** FL overall DQ rate is DOWN YoY despite +190% foreclosures. This is NOT contradictory — borrowers who DO fall DQ in FL are NOT CURING (they're proceeding straight to foreclosure). The cure rate has collapsed. Delinquency entry rate is down; the foreclosure pipeline is clearing 2023-2024 DQ cohort.
+
+### 2. Servicer Breakdown
+
+**Non-banks dominate, especially FHA/VA:**
+
+| Metric | Banks | Non-Banks |
+|--------|-------|-----------|
+| Agency servicing UPB | 28% | **72%** |
+| Ginnie Mae (FHA/VA) UPB | 11% | **89%** |
+
+**Largest servicers by UPB (July 2025):** Lakeview $738B, Mr. Cooper $673B, Pennymac $659B
+
+**Highest 30-day DQ share in Ginnie Mae (July 2025):**
+- Lakeview: **18%** 🔴
+- Freedom Mortgage: **15.5%** 🔴
+- Pennymac: **10.8%** 🟠
+- Carrington: 6.5% | Newrez: 5.8%
+
+**Highest YTD flow into 30-day DQ:** Carrington 10.6%, Lakeview 9.8%
+
+**REGINALD Implication:** FHA/VA stress does NOT directly hit bank NCOs. Banks retreated from Ginnie Mae. Bank exposure is INDIRECT: (1) warehouse lending to non-bank servicers, (2) servicer advance obligations if non-banks become illiquid, (3) Ginnie Mae guaranty backstop. This is systemic risk via servicer liquidity, not bank credit losses on mortgages.
+
+### 3. Loan Type Split
+
+**MBA Q4 2025:**
+| Loan Type | DQ Rate | QoQ Change | YoY Change |
+|-----------|---------|------------|------------|
+| **FHA** | **11.52%** 🔴 | +74 bps | **+104 bps** |
+| **VA** | **4.6%** 🟠 | +10 bps | ≈ flat |
+| **Conventional** | **2.89%** 🟡 | +27 bps | ≈ flat |
+
+- FHA 90+ day serious DQ: +106 bps QoQ (highest since Q2 2021)
+- FHA foreclosures: **+59% YoY** (December)
+- VA foreclosures: resuming after moratorium
+- **Government loans driving almost ALL foreclosure growth**
+- 2022-2023 FHA vintage performing worst (affordability stretch)
+
+### 4. Sustained vs. Spike — Data Release Schedule
+
+**Is 609K structural or temporary?**
+- **CALENDAR EFFECT confirmed (primary driver)**
+- December early-stage DQs: IMPROVED (reversed)
+- 90+ day DQs: STILL RISING (+30K in December, +19K above last year)
+- Foreclosure inventory: +25% YoY, +47K units above last year
+
+**Data releases to watch:**
+- **ICE First Look Jan 2026:** ~late February 2026 (this week!)
+- **Next ICE Mortgage Monitor:** March 5 webinar
+- **MBA Q1 2026 NDS:** ~May 2026
+
+**ICE First Look Jan 2026 is imminent** — this will confirm whether December cure continued or 90+ day stress accelerated in Q1.
+
+### 5. Negative Equity Correlation
+
+**Scale:**
+- **1.1 million underwater at end 2025** (highest since early 2018) — ICE Feb 2026
+- **1.6% of mortgages** underwater Oct 2025 (up from 1.0% in April 2025 = +60% in 6 months)
+- **6.9% have limited equity** (highest since mid-2020)
+
+**Who is most underwater:**
+| Cohort | Underwater Rate |
+|--------|----------------|
+| FHA/VA borrowers in Cape Coral FL | **>60%** 🔴 |
+| 2023-2024 vintage in Cape Coral FL | **27%** 🔴 |
+| 2022 vintage in Austin TX | **25%** 🔴 |
+| 2023-2024 vintage in Austin TX | **15%** 🟠 |
+| National average all mortgages | 1.6% |
+
+**Double trigger confirmed:** FHA/VA 2022-2023 vintage borrowers in Sun Belt markets are simultaneously:
+1. Underwater (negative equity) → can't refi, can't sell
+2. Subject to income shocks (labor market, HUD partial claims ending)
+This is EXACTLY the CARL thesis: employed people defaulting because underwater + can't refi
+
+### 6. GFC Comparison
+
+**609K vs GFC:**
+| Period | Context | Scale |
+|--------|---------|-------|
+| **Nov 2025** | 609K new DQs (calendar effect + structural) | Overall DQ 3.85% |
+| **May 2020** | COVID forbearance shock | Overall DQ 7.76% (+4 pp in 2 months) |
+| **GFC peak (Q1 2010)** | Multi-year accumulation | Overall DQ ~10-11% |
+| **GFC subprime peak** | Subprime cohort only | ~26% |
+
+- 609K is "largest since May 2020" — primarily COVID shock reference, NOT GFC
+- ICE data not publicly available pre-2014 in comparable format
+- Current 3.85% is 50% below COVID peak and ~35% of GFC peak
+- BUT: negative equity nationally was 26% at GFC peak vs 1.6% today → current stress is SELECTIVE not BROAD
+- GFC was an equity destruction event. Today's stress is an income shock event on underwater 2022-2023 vintage FHA/VA borrowers
+
+**Cautionary note:** Current 90+ day DQ (530K loans) is rising. If employment deteriorates materially, this could cascade. But comparing to GFC in absolute terms requires the national home price destruction that doesn't exist yet (~0.6% national HPA in 2025, though Sun Belt declining).
 
 ---
 
@@ -437,15 +569,20 @@ Bank NCOs rise (REGINALD) → Earnings release
 
 ---
 
-## ABS BASELINE
+## ABS BASELINE (Updated Feb 17, 2026)
 
 | Metric | Value | Context |
 |--------|-------|---------|
-| Subprime Auto 60+ DQ | **>6%** | 🔴 RECORD |
-| Prime Auto 60+ DQ | 0.2% | 🟢 |
-| **Differential** | **30x** | K-shape in credit |
+| **Subprime Auto 60+ DQ** | **6.9%** (Jan 2026) | 🔴 **ALL-TIME RECORD** (Fitch) |
+| Prime Auto 60+ DQ | 0.4% | 🟢 Same as Jan 2018 |
+| **Differential** | **17x** | K-shape in credit |
+| Overall Auto 60+ DQ | 1.61% (Dec 2025) | Equifax |
+| Auto DTI | 7.2% | Lowest since 2014 |
 
-The 30x gap = K-shape economy in one chart. Employment shock collapses prime toward subprime.
+**Source:** Wolf Richter / Fitch Ratings ABS Index (Feb 17, 2026)
+**Chart:** `SIGNALS/images/subprime_auto_abs_60_dq_record_jan2026.jpg`
+
+The 17x gap (6.9% vs 0.4%) = K-shape economy visualized. Subprime at record, prime pristine. Employment shock collapses prime toward subprime.
 
 ---
 
@@ -554,6 +691,10 @@ Expected effect: Print will be **artificially low**. Any number below 220K is sh
 - [x] State diffusion — DONE
 - [x] Google Trends protocol — DONE
 - [x] Full ABS extraction (Discover, Capital One) — DONE (Feb 14)
+- [x] **ICE/Wright 609K deep dive** — DONE (Feb 17): Source confirmed ICE, calendar effect primary driver, geographic/servicer/loan type/negative equity breakdown complete (ML-CARL-MTG-016 through -022)
+- [ ] ICE First Look January 2026 — IMMINENT (expected this week)
+- [ ] MBA Q1 2026 NDS — May 2026
+- [ ] Non-bank servicer liquidity stress (Lakeview/Freedom) — ongoing monitor
 
 ---
 
@@ -660,4 +801,4 @@ Expected effect: Print will be **artificially low**. Any number below 220K is sh
 - **sources/StudentLoan_Data_2026-02.md** — 16.3% worst ever
 - Sub-agents: GIG (Dave 28DPD canary)
 
-*Next update: Q1 2026 data or CC 90+ crosses GFC peak or Q1 earnings (April)*
+*Next update: ICE First Look Jan 2026 (~this week), Q1 2026 data or CC 90+ crosses GFC peak or Q1 earnings (April)*
