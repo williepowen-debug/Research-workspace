@@ -1,5 +1,5 @@
 # PROME STATUS.md
-**Updated:** 2026-02-17 12:50 UTC
+**Updated:** 2026-02-17 22:20 UTC
 
 ---
 
@@ -20,7 +20,7 @@
 | **REGINALD** | 🟠 ELEVATED | CRE direct exposure; SSB watch | Feb 14 |
 | **LIQUID** | 🟢 GREEN | Belgium $481B; **Feb 18 TIC watch** | Feb 13 |
 | **MARCO** | 🟠 ORANGE | Construction +33K; Migration data complete | Feb 13 |
-| **OTTO** | 🟠 ELEVATED | **CVNA primary target** — ABS extensions, Hindenburg | Feb 16 |
+| **OTTO** | 🔴 CRITICAL | **CVNA Feb 18 earnings** — Gotham FOIA evidence loaded; $310P/$290P position | Feb 17 |
 | **BROCK** | 🟠 ELEVATED | PIK errors corrected (8.5-8.6% actual, not 27-35%) | Feb 16 |
 
 **Composite:** 🔴 CRITICAL — Feb 18-19 catalyst window imminent
@@ -55,13 +55,38 @@ Underwater homeowners ≠ employed cardholders. Wright 609K current→delinquent
 
 ---
 
-## NEW PRIMARY TARGET: CVNA
+## 🔴 CVNA POSITION ACTIVE — FEB 18 CATALYST
 
-### Why Carvana?
-- S&P ABS data: Extensions 3.72% → 5.41% (+45%)
-- Subprime 60+ DQ: **6.56% — highest ever recorded**
-- Hindenburg report: Related-party manipulation, 44% underwater, insiders dumping
-- **Feb 18 earnings catalyst** — 10-K filing, GT opinion
+### Position
+- **$310P/$290P Feb 27** @ $4.84 net debit
+- Max loss: $484 | Max gain: $1,516 (3.1:1)
+- Break-even: $305.16 (-12.3%)
+- Dashboard tracking live at http://100.86.70.6:8080
+
+### Gotham FOIA Evidence (Feb 17)
+**Obtained DriveTime 2024 AR + GoFi 2024 AR via FOIA — saved to OTTO/sources/**
+
+| Metric | 2024 | 2023 | 2022 |
+|--------|------|------|------|
+| EBITDA/Interest | **1.0x** | **0.5x** | 3.8x |
+| Charge-Offs | **13.5%** | 12.1% | 9.0% |
+| Net Debt | **$3.82B** | $3.07B | $2.57B |
+
+**Key Findings:**
+- DriveTime subsidies = 73% of CVNA EBITDA
+- DT can barely cover interest (was 3.8x in 2022, now 1.0x)
+- Charge-offs spiked 50% in 2 years
+- SEC subpoena already received (June 2025)
+- **Gotham price target: $100-$186** (61-79% downside)
+
+### Feb 18 Watch List
+| Event | Probability | Impact |
+|-------|-------------|--------|
+| GT Resignation | 5% | -40%+ |
+| 10-K Delay | 20% | -15-25% |
+| Qualified Opinion | 10% | -20-30% |
+| Material Weakness | 30% | -8-15% |
+| Clean + beat | 35% | +10-15% |
 
 ### KELYA Confirmed ✅
 - 80% conviction after 10-K verification
