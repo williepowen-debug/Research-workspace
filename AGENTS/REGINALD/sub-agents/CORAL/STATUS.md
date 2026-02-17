@@ -91,6 +91,24 @@ FL Supreme Court (Oct 2025) upheld 100% owner consent for termination. This **fr
 
 **Thesis implication:** "Support and Survive" sponsors CANNOT exit via sale. Market is frozen. Extends non-accrual recognition timeline but also traps distressed assets on bank balance sheets longer.
 
+### 🆕 Tariff Burden (Feb 17, 2026)
+
+**Florida: $12B in tariffs paid** (Mar-Nov 2025) — #4 state nationally behind CA ($38B), TX ($21B), MI ($13B).
+
+| Factor | Impact |
+|--------|--------|
+| Port of Miami/Jacksonville | Major import hubs — tariff costs concentrate here |
+| Consumer pass-through | $12B extracted from FL economy → reduced spending capacity |
+| Overlap with stress | Same geography as condo crisis + insurance crisis + foreclosure #1 |
+
+**Florida TRIPLE whammy now QUAD:**
+1. ❌ Condo reserve crisis (SB 4-D / HB 913 mandates)
+2. ❌ Insurance market fragility (14 carriers enhanced monitoring)
+3. ❌ Housing velocity collapse (99 days DOM Ft. Lauderdale)
+4. ❌ **$12B tariff burden** — consumer cost pressure
+
+*Source: Trade Partnership Worldwide (Feb 12, 2026)*
+
 ---
 
 ## Geographic Concentration
