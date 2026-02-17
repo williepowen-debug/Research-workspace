@@ -1,0 +1,960 @@
+ANNUAL FINANCIAL STATEMENTS
+
+For the years ended December 31, 2024 and 2023
+
+INDEX TO FINANCIAL STATEMENTS
+
+Report of Independent Certified Public Accountants
+Balance Sheets as of December 31, 2024 and 2023
+Statements of Operations for the Years Ended December 31, 2024 and 2023
+Statements of Member's Equity for the Years Ended December 31, 2024 and 2023
+Statements of Cash Flows for the Years Ended December 31, 2024 and 2023
+Notes to the Financial Statements
+
+Page
+3
+5
+6
+7
+8
+9
+
+2
+
+Report of Independent Certified Public Accountants
+
+Member
+GoFi, LLC
+
+Opinion
+We have audited the financial statements of GoFi, LLC (an Arizona corporation) (the “Company”), which comprise 
+the balance sheets as of December 31, 2024 and 2023, and the related statements of operations, changes in member’s 
+equity, and cash flows for the years then ended, and the related notes to the financial statements.
+
+In our opinion, the accompanying financial statements present fairly, in all material respects, the financial position of 
+the Company as of December 31, 2024 and 2023, and the results of its operations and its cash flows for the years 
+then ended in accordance with accounting principles generally accepted in the United States of America.
+
+Basis for opinion
+We conducted our audits of the financial statements in accordance with auditing standards generally accepted in the 
+United States of America (US GAAS). Our responsibilities under those standards are further described in the 
+Auditor’s Responsibilities for the Audit of the Financial Statements section of our report. We are required to be 
+independent of the Company and to meet our other ethical responsibilities in accordance with the relevant ethical 
+requirements relating to our audits. We believe that the audit evidence we have obtained is sufficient and appropriate 
+to provide a basis for our audit opinion.
+
+Responsibilities of management for the financial statements
+Management is responsible for the preparation and fair presentation of the financial statements in accordance with 
+accounting principles generally accepted in the United States of America, and for the design, implementation, and 
+maintenance of internal control relevant to the preparation and fair presentation of financial statements that are free 
+from material misstatement, whether due to fraud or error.
+
+In preparing the financial statements, management is required to evaluate whether there are conditions or events, 
+considered in the aggregate, that raise substantial doubt about the Company’s ability to continue as a going concern 
+for one year after the date the financial statements are issued.
+
+Auditor’s responsibilities for the audit of the financial statements
+Our objectives are to obtain reasonable assurance about whether the financial statements as a whole are free from 
+material misstatement, whether due to fraud or error, and to issue an auditor’s report that includes our opinion. 
+Reasonable assurance is a high level of assurance but is not absolute assurance and therefore is not a guarantee that 
+an audit conducted in accordance with US GAAS will always detect a material misstatement when it exists. The risk 
+of not detecting a material misstatement resulting from fraud is higher than for one resulting from error, as fraud 
+may involve collusion, forgery, intentional omissions, misrepresentations, or the override of internal control. 
+Misstatements are considered material if there is a substantial likelihood that, individually or in the aggregate, they 
+would influence the judgment made by a reasonable user based on the financial statements.
+
+In performing an audit in accordance with US GAAS, we:
+
+•
+•
+
+Exercise professional judgment and maintain professional skepticism throughout the audit.
+Identify and assess the risks of material misstatement of the financial statements, whether due to fraud or 
+error, and design and perform audit procedures responsive to those risks. Such procedures include 
+examining, on a test basis, evidence regarding the amounts and disclosures in the financial statements.
+
+3
+
+Report of Independent Certified Public Accountants (continued)
+
+•
+
+•
+
+•
+
+Obtain an understanding of internal control relevant to the audit in order to design audit procedures that are 
+appropriate in the circumstances, but not for the purpose of expressing an opinion on the effectiveness of 
+the Company’s internal control. Accordingly, no such opinion is expressed.
+Evaluate the appropriateness of accounting policies used and the reasonableness of significant accounting 
+estimates made by management, as well as evaluate the overall presentation of the financial statements.
+Conclude whether, in our judgment, there are conditions or events, considered in the aggregate, that raise 
+substantial doubt about the Company’s ability to continue as a going concern for a reasonable period of 
+time.
+
+We are required to communicate with those charged with governance regarding, among other matters, the planned 
+scope and timing of the audit, significant audit findings, and certain internal control-related matters that we 
+identified during the audit.
+
+/s/ GRANT THORNTON LLP
+Phoenix, Arizona
+June 25, 2025
+
+4
+
+GoFi, LLC
+Balance Sheets
+
+December 31, 2024
+
+December 31, 2023
+
+$ 
+
+7,839,411  $ 
+
+3,528,993 
+
+2,190,167 
+
+505,149 
+
+5,310,454 
+
+6,442,008 
+
+1,871,900 
+
+608,043 
+
+$ 
+
+14,063,720  $ 
+
+14,232,405 
+
+ASSETS
+
+Cash and cash equivalents
+
+Finance receivables measured at fair value
+
+Property and equipment, net
+
+Prepaid and other assets
+
+Total assets
+
+LIABILITIES AND MEMBER'S EQUITY
+
+Liabilities:
+
+Accounts payable and accrued expenses
+
+$ 
+
+2,822,538  $ 
+
+Related party payables
+
+Total liabilities
+
+Member's equity:
+
+Member's capital
+
+Accumulated deficit
+
+Total member's equity
+
+Total liabilities and member's equity
+
+2,057,914 
+
+4,880,452 
+
+2,817,660 
+
+1,299,878 
+
+4,117,538 
+
+69,845,825 
+
+60,009,871 
+
+(60,662,557)   
+
+(49,895,004) 
+
+9,183,268 
+
+$ 
+
+14,063,720  $ 
+
+10,114,867 
+
+14,232,405 
+
+See accompanying notes to the financial statements.
+
+5
+
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GoFi, LLC
+Statements of Operations
+
+Years Ended December 31,
+
+2024
+
+2023
+
+$ 
+
+7,185,702  $ 
+
+1,876,468 
+
+196,919 
+
+7,382,621 
+
+5,363 
+
+1,881,831 
+
+16,961,139 
+
+1,189,035 
+
+18,150,174 
+
+11,557,776 
+
+737,766 
+
+12,295,542 
+
+$ 
+
+(10,767,553)  $ 
+
+(10,413,711) 
+
+Revenue:
+
+Gain on sale of finance receivables (1)
+Interest income
+
+Total revenue
+
+Costs and expenses:
+
+Operating expenses (2)
+Other expense
+
+Total costs and expenses
+
+Net loss
+
+(1)
+(2)
+
+Includes $7,185,702 and $1,876,468 for the twelve months ended December 31, 2024 and 2023, respectively, associated with related parties.
+Includes $7,163,300 and $4,291,518 for the twelve months ended December 31, 2024 and 2023, respectively, associated with related parties.
+
+See accompanying notes to the financial statements.
+
+6
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Balance, December 31, 2022
+
+Net loss
+
+Member contribution
+
+Balance, December 31, 2023
+
+Net loss
+
+Member contribution
+
+Member withdrawal
+
+Balance, December 31, 2024
+
+GoFi, LLC
+Statements of Member's Equity
+
+Member's Capital
+
+Accumulated 
+Deficit
+
+Total Member's 
+Equity
+
+$ 
+
+$ 
+
+$ 
+
+$ 
+
+40,011,871  $ 
+
+(39,481,293)  $ 
+
+530,578 
+
+— 
+
+(10,413,711)   
+
+(10,413,711) 
+
+19,998,000 
+
+— 
+
+60,009,871  $ 
+
+(49,895,004)  $ 
+
+19,998,000 
+
+10,114,867 
+
+— 
+
+(10,767,553)   
+
+(10,767,553) 
+
+10,000,000 
+
+(164,046)  $ 
+
+— 
+
+—  $ 
+
+69,845,825  $ 
+
+(60,662,557)  $ 
+
+10,000,000 
+
+(164,046) 
+
+9,183,268 
+
+See accompanying notes to the financial statements.
+
+7
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GoFi, LLC
+Statements of Cash Flows
+
+Cash Flows from Operating Activities:
+
+Net loss
+
+Adjustments to reconcile net loss to net cash used in operating activities:
+
+Purchase of finance receivables measured at fair value
+
+Collections on finance receivable principal balances
+Finance receivables principal sold (1)
+Depreciation expense
+
+Changes in assets and liabilities:
+
+Related party payables
+Accounts payable and accrued expenses
+
+Prepaid and other assets
+
+Net cash used in operating activities
+
+Cash Flows from Investing Activities:
+
+Purchases of property and equipment
+Capitalization of internally developed software (3)
+Net cash used in investing activities
+
+Cash Flows from Financing Activities:
+
+Member contribution
+
+Member withdrawal
+
+Net cash provided by financing activities
+
+Net increase in cash and cash equivalents
+
+Cash and cash equivalents, beginning of period
+
+Cash and cash equivalents, end of period
+
+Years Ended December 31,
+
+2024
+
+2023
+
+$ 
+
+(10,767,553)  $ 
+
+(10,413,711) 
+
+(165,633,114)   
+
+(54,865,023) 
+
+992,227 
+
+341,182 
+
+167,553,902 
+
+49,390,076 
+
+901,424 
+
+414,531 
+
+758,036 
+4,878 
+
+102,894 
+
+(3,151,628) 
+2,584,239 
+
+(605,220) 
+
+(6,087,306)   
+
+(16,305,554) 
+
+(29,493)   
+
+(1,190,198)   
+
+(1,219,691)   
+
+(11,373) 
+
+(1,285,763) 
+
+(1,297,136) 
+
+10,000,000 
+
+19,998,000 
+
+(164,046)   
+
+— 
+
+9,835,954 
+
+19,998,000 
+
+2,528,957 
+
+5,310,454 
+
+$ 
+
+7,839,411  $ 
+
+2,395,310 
+
+2,915,144 
+
+5,310,454 
+
+(1)
+(2)
+
+Includes $167,553,902 and $49,390,076 for the twelve months ended December 31, 2024 and 2023, respectively, associated with related parties.
+Includes $(1,190,198) and$(1,285,763)  for the twelve months ended December 31, 2024 and 2023, respectively, associated with related parties.
+
+See accompanying notes to the financial statements.
+
+8
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GoFi, LLC
+Notes to the Financial Statements
+
+NOTE 1 — DESCRIPTION OF BUSINESS AND OWNERSHIP
+
+Overview
+
+GoFi, LLC ("GoFi" and herein referred to as "the Company") provides a full spectrum auto financing solution that 
+
+empowers its partners to simplify the car buying experience. GoFi's proprietary loan origination system, powered by integrated 
+machine learning algorithms, is built upon an entirely cloud based infrastructure. The Company offers products such as 
+traditional turn-down finance arrangements to fully integrated co-branded finance and digital retail partnerships.
+
+The Company has multiple dealer agreements (the "Dealer Agreements"); where the Company agrees to purchase retail 
+
+installment contracts (the "Contracts") from various third-party dealers (the "Dealers"), for Contracts that met specific criteria 
+for both parties. The Dealers are under no obligation to sell and the Company is under no obligation to buy any Contracts.
+
+Upon purchase of the Contracts, the Dealers assign GoFi all rights, titles, and interest to the Contracts. At that point, GoFi 
+is entitled to all cash flows including principal, interest, and late fee payments, as well as recovery proceeds received from the 
+sale of a vehicle in the event of a repossession. The Dealers also assign all servicing rights with respect to such Contracts to 
+GoFi, including the right and responsibility for administering and collecting all amounts due under the Contracts. After the sale 
+of the Contracts to GoFi, the Dealers cease to have any rights to the Contracts, its cash flows, or its servicing. GoFi generally 
+does not have recourse to Dealers with respect to the loan performance of the Contracts.
+
+The Company has a servicing agreement with Bridgecrest Credit Company, LLC ("BCC"), whereby BCC has agreed to 
+perform certain servicing and collection activities. The Company also has a purchase agreement with Bridgecrest Acceptance 
+Corporation ("Bridgecrest"), whereby Bridgecrest agreed to purchase certain finance receivables for an amount equal to the fair 
+market value on the related transfer date of the receivables.
+
+Ownership
+
+GoFi is a wholly-owned subsidiary of GO Capital Holdings, LLC ("GCH"). GCH is a wholly-owned subsidiary of 
+SilverRock Holdings, LLC ("SRH"). SRH is wholly-owned by Oreno Holdings, LLC ("Oreno"), an entity beneficially owned 
+by certain shareholders of Bridgecrest, BCC, and DriveTime Automotive Group, Inc. ("DriveTime").
+
+NOTE 2 — SIGNIFICANT ACCOUNTING POLICIES
+
+Use of estimates
+
+The preparation of the financial statements in conformity with generally accepted accounting principles in the United States 
+
+("U.S. GAAP") requires management to make estimates and assumptions that affect the reported amount of assets and 
+liabilities. Certain accounting estimates involve significant judgments, assumptions, and estimates by management that have a 
+material impact on the carrying value of certain assets and liabilities, disclosures of contingent assets and liabilities, and the 
+reported amounts of income and expenses during the reporting period, which management considers to be critical accounting 
+estimates. The judgments, assumptions, and estimates used by management are based on historical experience, management’s 
+experience, and other factors, which are believed to be reasonable under the circumstances. Because of the nature of the 
+judgments and assumptions made by management, actual results could differ materially from these judgments and estimates, 
+which could have a material impact on the carrying values of the Company's assets and liabilities and results of operations. 
+Significant items subject to estimates and assumptions include the estimation of finance receivables measured at fair value. 
+Estimates used in deriving these amounts are described below in the footnotes herein. Actual results could differ from these 
+estimates.
+
+9
+
+GoFi, LLC
+Notes to the Financial Statements — (Continued)
+
+Cash & cash equivalents
+
+The Company considers all highly liquid investments with original maturities at the date of purchase of three months or 
+
+less to be cash equivalents. Periodically, the Company maintains cash in excess of the amounts insured by the federal 
+government with certain financial institutions. The Company has not experienced any losses with these financial institutions.
+
+Finance receivables measured at fair value
+
+Under the fair value method of accounting, the fair value of finance receivables is based on the exit price an entity would 
+receive to sell an asset in an orderly transaction between market participants at the measurement date. The Company measures 
+the fair value of its finance receivables using an estimate of the fair value exit prices from the historical transactions in which 
+the Company purchases the finance receivables from a third party and other market information and loan performance data. See 
+Note 3 - Fair Value of Finance Receivables for further disclosures related to the fair value measurement of the Company's 
+finance receivables. The Company assesses the value of its finance receivables by estimating the anticipated sale price, 
+informed by historical data. The Company generally sells its finance receivables within 30 days of acquiring them and does not 
+intend to hold them to maturity.
+
+The Company accounts for sales of finance receivables in accordance with ASC 860, Transfers and Servicing ("ASC 
+860"). ASC 860 states that a transfer of an entire financial asset, a group of entire financial assets, or a participating interest in 
+an entire financial asset in which the transferor surrenders control over those financial assets is accounted for as a sale only if all 
+of the following conditions are met:
+
+Each transferee has the right to pledge or exchange the assets (or beneficial interests) it received, and no condition both 
+
+The transferred financial assets have been isolated from the transferor - put presumptively beyond the reach of the 
+
+•
+transferor and its creditors, even in bankruptcy or other receivership.
+•
+constrains the transferee (or third-party holder of its beneficial interests) from taking advantage of its right to pledge or 
+exchange the asset and provides more than a trivial benefit to the transferor.
+•
+The transferor, its consolidated affiliates included in the financial statements being presented or its agents do not 
+maintain effective control over the transferred financial assets or third-party beneficial interests related to those transferred 
+assets.
+
+For the years ended December 31, 2024 and 2023, all transfers of finance receivables met the requirements for sale 
+treatment. The Company records the gain on the sale of a finance receivable upon the transfer of the underlying finance 
+receivable to a third party, in an amount equal to the fair value of the net proceeds received, less the carrying amount of the 
+finance receivable. Any significant estimated post-sale obligations or contingent obligations to the purchaser of the receivables 
+would be accrued if probable and estimable in accordance with ASC 450, Contingencies. Any such obligations are considered 
+in the Company's determination of the accounting for the transfers of the finance receivables under ASC 860.
+
+Property and equipment
+
+Property and equipment consists of equipment and software. Property and equipment is stated at cost and is presented net 
+of accumulated deprecation and amortization. Depreciation is computed using the straight-line method over the estimated useful 
+life of the assets, which are five years for equipment and three years for software. 
+
+The Company capitalizes direct costs of materials and services consumed in developing or obtaining internal use software. 
+The Company also capitalizes payroll and payroll-related costs for employees who are directly associated with and who devote 
+time to the development of software products for internal use, to the extent of the time spent directly on the project. 
+Capitalization of costs begins during the development stage and ends when the software is available for general use. For the 
+years ended December 31, 2024 and 2023, the Company capitalized $1.2 million and $1.3 million, respectively, of payroll and 
+payroll-related costs for employee time associated with the development of software products for internal use. Amortization of 
+these costs is computed using the straight-line method over a three-year period.
+
+10
+
+GoFi, LLC
+Notes to the Financial Statements — (Continued)
+
+Income taxes
+
+GoFi is organized in Arizona as a limited liability company and treated as a partnership for U.S. federal and state income 
+
+tax purposes. The Company is not subject to federal income taxes and passes on results of operations through to the Company's 
+member, allocated pursuant to the Operating Agreement. Accordingly, no provision for income taxes, except for any amount of 
+entity level state tax in certain jurisdictions, have been recorded in these financial statements.
+
+Recent accounting pronouncements 
+
+From time to time, new accounting pronouncements are issued by the FASB or other accounting standards setting bodies, 
+
+which the Company may adopt as of the specified date required by each standard. The Company continues to evaluate the 
+impact of recently issued standards that are not yet effective to determine whether they will have a material impact on the 
+Company's financial statements upon adoption. 
+
+Adoption of new accounting standards
+
+Enhanced income tax disclosures. The FASB issued ASU 2023-09 - Income Taxes (Topic 740): Improvements to Income 
+
+Tax Disclosures, which requires entities to provide more detailed and disaggregate certain information on income tax 
+disclosures. The guidance would require entities to disclose percentages and amounts in the rate reconciliation table on an 
+annual basis, along with certain qualitative disclosures. Additionally, the update requires entities to disaggregate annual income 
+taxes paid by federal, state, and foreign taxes, as well as by jurisdictions exceeding a certain quantitative threshold. The 
+guidance is effective for fiscal years beginning after December 15, 2024. The Company plans to implement the amendment for 
+the fiscal year beginning January 1, 2025. The Company does not expect the amendment to have a material impact on the 
+Company's financial statements and related disclosures.
+
+Income statement expense disaggregation. In July 2023, the FASB issued proposed ASU Income Statement—Reporting 
+Comprehensive Income—Expense Disaggregation Disclosures Subtopic 220-40 Disaggregation of Income Statement Expenses. 
+The proposed ASU would require interim and annual detailed disclosures in the notes to the financial statements of specific 
+categories underlying certain expense captions, such as employee compensation and depreciation. Further disaggregation would 
+be required for employee compensation and depreciation. The FASB has not yet determined an effective date for the proposed 
+ASU, and the Company is evaluating the impact the amendment will have on the financial statements upon adoption.
+
+NOTE 3 — FAIR VALUE OF FINANCE RECEIVABLES
+
+GAAP defines fair value, establishes a framework for measuring fair value, and requires disclosures about fair value 
+measurements. GAAP emphasizes that fair value is intended to be a market-based measurement, as opposed to a transaction 
+specific measurement.
+
+Fair value is defined as the price that would be received to sell an asset or paid to transfer a liability in an orderly 
+transaction between market participants at the measurement date. Depending on the nature of the asset or liability, various 
+techniques and assumptions can be used to estimate the fair value. Fair values of financial instruments are based on estimates 
+using quoted market prices, discounted cash flows, or other valuation techniques. Those techniques are significantly affected by 
+the assumptions used, including the discount rate and the estimated timing and amount of future cash flows. Therefore, the 
+estimates of fair value may differ substantially from amounts that ultimately may be realized or paid at settlement or maturity of 
+the financial instruments and those differences may be material. Accordingly, the aggregate fair value amounts presented do not 
+represent the Company's underlying institutional value. 
+
+11
+
+GoFi, LLC
+Notes to the Financial Statements — (Continued)
+
+When assessing the inputs used in calculating the fair value of the Company's financial instruments, the Company uses a 
+
+three-tier hierarchy. This hierarchy indicates to what extent the inputs used in the Company's calculations are observable in the 
+market. The different levels of the hierarchy are defined as follows:
+
+Level 1: Unadjusted quoted prices in active markets for identical assets or liabilities.
+
+Level 2: Other than quoted prices that are observable in the market for the asset or liability, either directly or 
+indirectly.
+
+Level 3: Inputs are unobservable and reflect management's estimates of assumptions that market participants would 
+use in pricing the asset or liability.
+
+The Company does not transfer the fair value of its finance receivables measured at fair value between hierarchy levels.
+
+Limitations
+
+Fair values of financial instruments are based on relevant market information and information about the financial 
+instrument. They are subjective in nature and involve uncertainties and matters of judgment and, therefore, cannot be 
+determined with ultimate precision. These estimates do not reflect any premium or discount that could result from offering for 
+sale at one time the Company's entire holdings of a particular instrument. Changes in assumptions could significantly affect 
+these estimates. Because the fair value is estimated as of each balance sheet date presented, the amounts that will actually be 
+realized or paid in settlement of the instruments could be significantly different.
+
+The following table is a summary of the activity related to the fair value of finance receivables for the years ended 
+
+December 31, 2024 and 2023:
+
+Finance receivables measured at fair value, beginning of period
+
+Purchase of finance receivables measured at fair value
+
+Payments related to finance receivables
+
+Finance receivables principal sold
+
+Finance receivables measured at fair value, end of period
+
+Year Ended December 31,
+
+2024
+
+2023
+
+6,442,008  $ 
+
+165,633,114 
+
+1,308,243 
+
+54,865,023 
+
+(992,227)   
+
+(341,182) 
+
+(167,553,902)   
+
+(49,390,076) 
+
+3,528,993  $ 
+
+6,442,008 
+
+$ 
+
+$ 
+
+As of December 31, 2024 and 2023, the aggregate fair value of loans that are active and less than 90 days past due was 
+$3.5 million and $6.4 million, respectively, and the aggregate unpaid loan principal balance of such loans was $3.5 million and 
+$6.4 million, respectively. As of December 31, 2024 and 2023, there were no loans that were active and 90 days or more past 
+due. As of December 31, 2024 and 2023, the aggregate fair value and principal balance of all loans previously charged off was 
+de minimis.
+
+Valuation methodology
+
+The Company measures the fair value of its finance receivables by using an estimate of the fair value exit prices from the 
+
+historical transactions in which the Company purchases the finance receivables from a third party and other market information 
+and loan performance data. The fair value of these financial assets are classified as Level 2 under the fair value hierarchy. The 
+Company sells substantially all finance receivables acquired within 30 days of the date of purchase.
+
+12
+
+ 
+ 
+ 
+ 
+GoFi, LLC
+Notes to the Financial Statements — (Continued)
+
+NOTE 4 — PROPERTY AND EQUIPMENT
+
+Property and equipment consisted of the following as of December 31, 2024 and 2023:
+
+Equipment
+
+Software
+
+Total property and equipment
+
+Less: accumulated depreciation and amortization
+
+Property and equipment, net
+
+Depreciation and amortization expense
+
+Year Ended December 31,
+
+2024
+
+2023
+
+41,732  $ 
+
+3,464,390 
+
+3,506,122 
+
+(1,315,955)  $ 
+
+2,190,167  $ 
+
+11,374 
+
+2,281,109 
+
+2,292,483 
+
+(420,583) 
+
+1,871,900 
+
+$ 
+
+$ 
+
+Total depreciation and amortization expense related to property and equipment for the years ended  December 31, 2024 and 
+
+2023 was $0.9 million and $0.4 million, respectively, which is included in other expense in the accompanying statements of 
+operations.
+
+NOTE 5 — RELATED PARTY TRANSACTIONS 
+
+Finance receivables measured at fair value
+
+From time to time, GoFi may sell finance receivables measured at fair value to Bridgecrest. During the years ended 
+
+December 31, 2024 and 2023, GoFi sold $167.6 million and $49.4 million, respectively, of finance receivables measured at fair 
+value for total proceeds of $174.7 million and $51.3 million, respectively. See Note 3 - Fair Value of Finance Receivables for 
+further discussion.
+
+BCC servicing agreement
+
+GoFi has a servicing agreement with BCC pursuant to which the BCC has agreed to perform certain servicing and 
+
+collections activities with respect to finance receivables GoFi owns after purchase. During the years ended December 31, 2024 
+and 2023 the fees related to the servicing agreement were $0.1 million and de minimis, respectively.
+
+Shared services
+
+GoFi has a shared services agreement with DriveTime. DriveTime may pay certain payroll and administrative expenses on 
+
+behalf of the Company, and the Company reimburses DriveTime for those expenses. During the years ended December 31, 
+2024 and 2023, the Company incurred DriveTime $9.3 million and $5.8 million, respectively, related to the shared services 
+agreement, of which, $7.2 million and $4.3 million, respectively, were reported as operating expenses on the Statements of 
+Operations, $1.2 million and $1.3 million, respectively, were reported as property and equipment, net on the Balance Sheets, 
+and $0.9 million and $0.2 million, respectively, were reimbursements for customer payments paid to GoFi and owed to 
+DriveTime, which were reported on the Balance Sheets as an asset and a liability until such reimbursement was made to 
+DriveTime.
+
+Related party payables
+
+Related party payables totaled $2.1 million and $1.3 million for the years ended December 31, 2024 and 2023, 
+
+respectively. The liability relates to amounts owed to DriveTime pursuant to the shared services agreement and BCC pursuant 
+to the servicing arrangement for 2024 and 2023, respectively.
+
+13
+
+ 
+ 
+ 
+ 
+ 
+GoFi, LLC
+Notes to the Financial Statements — (Continued)
+
+NOTE 6 — INCOME TAXES 
+
+GoFi is treated as a partnership for U.S. federal and state income tax purposes. There is no provision for income taxes, 
+except for any amount of entity level state tax in certain jurisdictions. Income or losses of a partnership flow through to the 
+individual member, who report such income or loss on their individual income tax returns. GoFi did not record any income tax 
+liability for the years ended December 31, 2024 and 2023. GoFi also did not record any net deferred tax assets or liabilities for 
+the years ended December 31, 2024 and 2023. 
+
+For the years ended December 31, 2024 and 2023, the Company has not recorded any liabilities for unrecognized tax 
+
+benefits, nor has the Company recorded any liability for interest or penalties related to such positions in the Company's 
+financial statements.
+
+NOTE 7 — COMMITMENTS AND CONTINGENCIES 
+
+Legal matters
+
+The Company may be involved in various claims and actions arising in the ordinary course of business. In the opinion of 
+
+management, based on consultation with legal counsel, the ultimate disposition of these matters will not have a materially 
+adverse effect on us. In accordance with FASB ASC 450, Contingencies, the Company establishes an accrual for a liability 
+when it is both probable that the liability has been incurred and the amount of the loss can be reasonably estimated. These 
+accruals are reviewed monthly and adjusted to reflect the impact of negotiations, settlements and payments, rulings, advice of 
+legal counsel, and other information and events pertaining to a particular case. Legal expenses related to defense, negotiations, 
+settlements, rulings, and advice of outside legal counsel are expensed as incurred. At December 31, 2024 and 2023, the 
+Company did not have any material accruals for legal contingencies. 
+
+Additionally, in the ordinary course of business, the Company may be a defendant in or subject to various other types of 
+
+legal proceedings. Although the Company cannot determine at this time the amount of the ultimate exposure from these 
+lawsuits, if any, based on the advice of counsel management does not expect the final outcome to have a material adverse effect 
+on us.
+
+NOTE 8 — SUBSEQUENT EVENTS 
+
+The Company has evaluated subsequent events for potential recognition and/or disclosure through June 25, 2025, the date 
+
+the financial statements were available for issuance. No subsequent events requiring disclosure were identified.
+
+14
+
+

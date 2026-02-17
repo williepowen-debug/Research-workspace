@@ -1,0 +1,5604 @@
+GOTHAM CITY RESEARCH  
+
+Carvana: Bridgecrest and  
+
+the Undisclosed Transactions  
+
+and Debts  
+
+• 
+
+• 
+
+• 
+
+Last year: both Hindenburg Research and Jim Chanos lamented at the limited 
+transparency into Carvana’s related parties, DriveTime and Bridgecrest. 
+
+Last week: Carvana refused to release ﬁnancial details about DriveTime in a 
+closely watched lawsuit against Carvana and its executives, alleging they carried 
+out a fraudulent “pump and dump scheme” 
+
+TODAY: Gotham City Research has obtained the DriveTime 2024 Annual Report and  
+The GoFI LLC Annual Report Via Freedom of Information Act request. We are releasing 
+both today, along with our report. 
+
+We can see why Carvana wants to keep DriveTime in the shadows:  
+
+•  DriveTime burned over $1 billion in cash from 2023-2024. 
+•  Over $1 billion in debt, not contributions from Garcia, funded these losses. 
+•  We believe DriveTime’s subsidies fuel over 73% of CVNA EBITDA. 
+•  DriveTime is levered 20x-40x in 2023-2024. We estimate 2025 leverage remains elevated at 20x. 
+• 
+
+Bridgecrest instantly marked down its $5.9 billion loan book by -15% in 2024.  
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GOTHAM CITY RESEARCH LLC  www.gothamcityresearch.com 
+
+info@gothamcityresearch.com 
+
+DISCLAIMER: This report (the “Report”) has been produced by GOTHAM CITY RESEARCH LLC (“GCR”) and General Industrial Partners LLP (“GIP”).  
+
+GCR is not registered as an investment advisor and does not hold regulatory licenses or authorisations in any jurisdiction. GCR is not an independent 
+analyst,  or  an  investment  ﬁrm  or  a  credit  institution  (as  deﬁned  in  Directive  2014/65/EU)  and  its  main  business  is  not  to  produce  investment 
+recommendations within the meaning of Regulation (EU) No 596/2014 of the European Parliament and of the Council of 16 April 2014 on market 
+abuse (“EU MAR”), including as it forms part of United Kingdom domestic law by virtue of the European Union (Withdrawal) Act 2018 (“UK MAR”) 
+and, together with EU MAR, “MAR”). Further, GCR is not an expert within the meaning of the Commission Delegated Regulation (EU) 2016/958 of 9 
+March 2016 supplementing MAR. 
+
+GIP is authorised and regulated by the Financial Conduct Authority in the United Kingdom (FRN 705149) and is a Registered Investment Advisor with 
+the U.S. Securities and Exchange Commission (CIK 0001719883). 
+
+This Report is for informational purposes only and is not, and should not be construed to be, investment advice or an offer or solicitation to buy or 
+sell securities or any other investment product.  No person should take any investment action as a result of reviewing the Report without consulting 
+its  own  ﬁnancial,  legal,  tax  and  other  advisers  and  reaching  its  own  views  regarding  the  subject matter  discussed  herein. GCR  and GIP  do not 
+propose or recommend any particular investment proposal or any particular investment decisions and do not recommend or suggest an investment 
+strategy, explicitly or implicitly, concerning Iron Mountain Inc. (the “Covered Issuer”), which is discussed in the Report. Accordingly, the Report is 
+not, and should not be construed as, information recommending or suggesting an investment strategy or an investment recommendation or other 
+information recommending or suggesting an investment strategy within the meaning of MAR and any delegated legislation thereunder.  Information 
+in this Report represents the views of the GCR and GIP and alternative views are likely to exist concerning the subject matter of the Report.  
+
+Our research expresses our opinions, which we have based upon publicly obtainable information (including information obtained through Freedom 
+of  Information  Requests),  ﬁeld  research,  inferences  and  deductions  through  our  due  diligence  and  analytical  process.  The  main  sources  of 
+information used to prepare the Report include, but are not limited to: publications in reliable information services, domestic and foreign trade 
+media, trade publications, published statistics, rating agencies and publications of the Covered Issuer.  We also sometimes speak with and may 
+include quotations in our reports from industry experts and/or former employees of companies we evaluate who we believe are reliable sources of 
+information  and  opinions.  We  cannot  and  do  not  provide  any  representations  or  warranties  with  respect  to  the  accuracy,  completeness,  or 
+interpretation of the information or opinions they have provided to us. The quotations used in our research reports do not reﬂect all information or 
+opinions they have shared with us. In addition, the experts have typically received compensation for their conversations with us and may have 
+conﬂicts of interest or other biases, which may give them an incentive to provide us with inaccurate, incomplete or otherwise prejudiced opinions 
+or information. Former employees that we speak with are by deﬁnition separated from the company and thus the information or opinions they have 
+provided may be outdated. The Report has not been presented to the Covered Issuer before its publication. The preparation of this Report was 
+completed on 28th of January 2026, 10:30 a.m. EST.  GCR and GIP are under no obligation, but reserve the right to, publish additional reports in the 
+future. 
+
+Our research and Report include forward-looking statements, estimates, projections, and opinions prepared with respect to, among other things, 
+certain accounting, legal, and regulatory issues the Covered Issuer faces and the potential impact of those issues on its future business, ﬁnancial 
+condition and results of operations, as well as more generally, the Covered Issuer’s anticipated operating performance, access to capital markets, 
+market conditions, assets and liabilities. Such statements, estimates, projections and opinions may prove to be substantially inaccurate and are 
+inherently subject to signiﬁcant risks and uncertainties beyond GCR’s, GIP’s and their affiliates’ control. No representation is made, or warranty 
+given as to the accuracy, completeness, achievability or reasonableness of such statements of opinion.  
+
+GCR and GIP believe all information contained herein is accurate and reliable, and has been obtained from public sources it believes to be accurate 
+and  reliable. However,  such  information  is  presented “as  is,”  without  warranty  of  any  kind,  whether  express  or implied. GCR  and GIP  and  their 
+affiliates make no representation, express or implied, as to the accuracy, timeliness, or completeness of any such information or with regard to the 
+results to be obtained from its use. All expressions of opinion are subject to change without notice, and GCR and GIP are not obligated to update or 
+supplement  any  Reports or  any  of  the  information,  analysis  and  opinion  contained  in  them. GCR  and GIP  make  no  representation,  express or 
+implied, as to the accuracy, completeness, achievability, reasonableness, timeliness of any such information or statements or with regard to the 
+results to be obtained from its use. 
+
+You agree to do your own research and due diligence before making any investment decision with respect to securities covered herein. You represent 
+to GCR and GIP that you have sufficient investment sophistication to critically assess the information, analysis, and opinions in this Report.  
+
+In no event will you hold GCR and GIP or any affiliated and related parties liable for any direct or indirect trading losses caused by any information 
+in this Report. Affiliated and related parties include, but are not limited to partners, principals, officers, directors, employees, members, clients, 
+investors, advisors, consultants and agents. In no event shall GCR and GIP or their affiliates and their related persons be liable for any claims, 
+losses, costs or damages of any kind, including direct, indirect, punitive, exemplary, incidental, special, or consequential damages, arising out of 
+or in any way connected with any content of this Report. You further agree that you will not communicate the contents of this report to any other 
+person unless that person has agreed to be bound by these same terms. 
+
+CONFLICT OF INTEREST: At the time of publication of this Report, GCR, GIP, their affiliates, or related persons (possibly along with or through its 
+members, partners, affiliates, employees, and/or consultants), hold short positions in the Covered Issuer’s stock (and/or options. swaps, and other 
+derivatives related to the stock) and stand to proﬁt in the event the Covered Issuer’s stock price declines.  Thus, while GCR and GIP have made 
+every effort to present the information contained in the Report in an objective manner, the reader of the Report must bear in mind that GCR’s and 
+GIP’s interests and that of their affiliates is to see the price of the Covered Issuer’s stock price decline.  
+
+Page 2 of 70 
+
+ 
+ 
+GOTHAM CITY RESEARCH LLC  www.gothamcityresearch.com 
+
+info@gothamcityresearch.com 
+
+GCR, GIP, and their affiliates may take additional positions in the Covered Issuer (both long and short) at a future date, and disclaim any obligation 
+to notify the market of any such changes except to the extent that it is legally required.  In order to manage risk, we must close open positions as 
+we deem prudent. We do not provide “price targets”, although we may express our opinion of what the security is worth. An opinion of the value of 
+a security differs from a price target in that we do not purport to have any insight as to how the market as a whole might value a security – we can 
+only speak for how we, ourselves, view its value.  We therefore do not hold a position until it reaches a certain price target, nor do we hold positions 
+until they reach the price at which we have expressed a valuation opinion. There are numerous factors that enter into investment decisions aside 
+from opinions of the value of the security, including without limitation, the borrow cost of a shorted security, the potential for a “short squeeze”, 
+prudent risk sizing relative to capital and volatility, reduced information asymmetry, the opportunity cost of capital, client expectations, and the 
+ability to hedge market risk, among other things.  Therefore, you should assume that upon publication of this report, we will, or have begun to, close 
+a substantial portion – possibly the entirety – of our positions in the Covered Issuer’s securities. 
+
+UK-Speciﬁc Disclosure 
+
+This Report constitutes a ﬁnancial promotion under s. 21 of the Financial Services and Markets Act 2000 (as amended) and is issued and 
+approved by GIP with respect to any person in the United Kingdom.  This Report is only suitable for persons who qualify as (a) investment 
+professionals falling within Article 19 of the Financial Services and Markets Act 2000 (Financial Promotion) order 2005 (the “FPO”), or (b) high net 
+worth entities falling within Article 49 of the FPO (the “Eligible Recipient(s)”). This Report is only being issued to and directed at, and should only 
+be reviewed by, Eligible Recipients and is without prejudice to any other restrictions or warnings set out in herein.
+
+Page 3 of 70 
+
+ 
+ 
+GOTHAM CITY RESEARCH LLC  www.gothamcityresearch.com 
+
+info@gothamcityresearch.com 
+
+Table of Contents 
+
+Introduction 
+DriveTime Debt issuances drive Carvana proﬁts 
+
+I. 
+II. 
+III.  We think CVNA related party reliance 3x > reported 
+CVNA proﬁts are fueled by DriveTime’s 20-40x leverage 
+IV. 
+Garcia extracted $352m while leverage grew to 20x-40x 
+V. 
+Bridgecrest $900m loan loss: BAC’s pain is CVNA’s gain 
+VI. 
+VII. 
+CVNA-tied loans in BAC misrepresented in SEC ﬁlings 
+VIII.  Why we think BridgeCrest drives CVNA’s Gain on sales 
+GoFi, DriveTime, and the circular ﬂow of money 
+IX. 
+GoFi originations and its Gain on Sale are suspect 
+X. 
+Accounting irregularities re: SilverRock & commissions 
+XI. 
+Bridgecrest, servicing related Accounting irregularities 
+XII. 
+XIII.  CVNA shares uninvestable, accident waiting to happen 
+XIV. 
+
+End Notes 
+
+ 
+GOTHAM CITY RESEARCH LLC 
+
+GOTHAM CITY RESEARCH’S OPINIONS 
+
+a 
+Company: Carvana Co 
+
+•  CVNA 2023-2024 earnings are overstated by $1 billion+, 
+
+Ticker: CVNA 
+
+and far more dependent on related parties than disclosed. 
+•  DriveTime’s  leverage  fuels  CVNA  Adj  EBITDA.  Without 
+DriveTime  credit,  CVNA  earnings  collapse,  and  CVNA 
+Adjusted EBITDA doesn’t cover its interest expense.  
+
+•  CVNA 2025 10K will be delayed, 2023/2024 10Ks restated, 
+BLAST ABS restated, & Grant Thornton will resign as auditor. 
+•  CVNA  and  DriveTime  creditors’  ability  and  willingness  to 
+fund  this  scheme  will  change  once  they  realize  that  the 
+ecosystem is more levered than publicly disclosed. 
+
+CEO: Ernest C Garcia III 
+
+Share price: $477.72 
+
+52-week high: $486.89 
+
+52-week low: $148.25 
+
+Market cap: $100,349.8M 
+
+Total debt: $5,203.0M 
+
+SUMMARY OF THE BASES OF OPINIONS 
+
+Enterprise Value: $104,557.8M 
+
+•  DriveTime burned over $1 billion in cash ﬂow from operating 
+
+Shares outstanding: 141.4M 
+
+activities, and Free cash ﬂow, from 2023-2024. 
+
+•  DT  generated  over  $1  billion  in  cash  ﬂow  from  ﬁnancing 
+
+YTD 2025 Adj EBITDA: $1.726B 
+
+activities via debt issuance, from 2023-2024.  
+
+YTD 2025 Net Income: $0.944B 
+
+•  DriveTime leverage in 2023/2024 sits at 20x-40x, far higher 
+
+than historical levels (capped at 10.3x before 2023). 
+
+YTD 2025 Other income: $1.274B 
+
+•  DriveTime’s ratio of adj EBITDA to interest expense = 0.5x-
+
+YTD 2025 Adj EBITDA margin: 11.7% 
+
+1.0x , for 2023-2024. Far lower than previous years. 
+
+•  DriveTime marked down its loan portfolio by $900m while 
+CVNA recognized gain on Loan sales of $755m in 2024. 
+•  CNVA 10K ’24 claims it has and may sell loans to DriveTime, 
+but the DriveTime AR does not conﬁrm this claim. Neither 
+CVNA nor DriveTime disclose when nor how much. 
+
+•  We have uncovered dozens of loans tied to cars that CVNA 
+sold,  that  appear  on  Bridgecrest  balance  sheet  and 
+VinAudit reports. 
+
+•  Bridgecrest  is  listed  as  the  originator  yet  both  DriveTime 
+and Carvana ﬁlings don’t disclose Bridgecrest as originator. 
+•  CVNA claims Bridgecrest is a third party servicer, but BAC 
+
+is fully owned by Ernie Garcia II. 
+
+•  We  estimate  Bridgecrest earns  a very  low  servicing fee  of 
+0.117% per year on loans sold by CVNA to “Third parties”   
+•  We  believe  CVNA  sells  loans  to “third  parties”  at  inﬂated 
+rates  (booking  Gain  on  Sales).  in  exchange  BridgeCrest 
+charges these “third parties” with very low servicing fees.  
+•  GoFi LLC is fully owned by Garcia II. Like DT, GoFi burned 
+cash  in  2023  and  2024.  GoFi  revenues  are  GoS  from 
+DriveTime, and its expenses are payments to DriveTime. 
+
+YTD 2025 Net margin: 6.4%  
+
+YTD ’25 Adj EBITDA margin, ex other: 3.4% 
+
+YTD 2025 Net margin, ex other: -2.5% 
+
+2024 Adj EBITDA: $1.378B 
+
+2024 Net Income: $0.404B 
+
+2024 Other income: $1.151B 
+
+2024 Adj EBITDA margin: 10.1% 
+
+2024 Adj Net margin: 3.0% 
+
+2024 Adj EBITDA margin, ex other: 1.8% 
+
+2024 Adj Net margin, ex other: -6.0% 
+
+FYE: December 31 
+
+Auditor: Grant Thornton 
+
+Analyst ratings: 18 Buys, 6 Holds, 2 Sells  
+
+•  GoFi and Carvana share the same mailing address. 
+•  We  have  detected  accounting 
+
+irregularities 
+
+in  sales 
+
+commissions and servicing reported ﬁgures.  
+
+•  Carvana, DriveTime/Bridgecrest, GoFi all share the same 
+auditor, Grant Thornton. Same auditor as Tricolor.   
+
+Page 2 of 70 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Introduction  
+
+Carvana (“CVNA”) appears to show signs of an unquestionable turnaround story. Sentiment on 
+the street has shifted from fear to greed. For example, Morgan Stanley, who had a $1 stock price 
+target in 2022, upgraded its CVNA bull case to $750 on “robotaxi optionality thesis” just a few 
+weeks ago.1 Yet Gain on loan sales + related party income drive 75% of 2025YTD adj EBITDA2:  
+
+CVNA US: Financial Information
+FY Dec 31 ($mln)
+Revenue
+
+Adj EBITDA margin (%)
+% of income from related parties and Gain on Sales
+Net Income/(Loss)
+FCF (CFO - Capex)
+Net debt 
+
+Adjusted EBITDA -1,041.0
+-7.7%
+-59.5%
+-2,894.0
+-1,836.0
+7,875.0
+
+2023
+
+2022
+
+2024
+13,604.0 10,771.0 13,673.0
+1,378.0
+10.1%
+71.3%
+404.0
+827.0
+3,916.0
+
+339.0
+3.1%
+176.4%
+150.0
+716.0
+5,743.0
+
+YTD 2025
+14,719.0
+1,726.0
+11.7%
+66.9%
+944.0
+510.0
+3,061.0
+
+Although Carvana’s revenue growth has been impressive, the resulting scale in its business has 
+not  diminished  CVNA’s  reliance  on  these  sources  for  proﬁt.  Many  skeptics  have  claimed  that 
+CVNA  uses  DriveTime  (“DT”)  to  artiﬁcially  boosts  its  reported  results,  and  that  Ernie  Garcia  II 
+funds DT’s losses, but the market consensus is that everything is disclosed.3   
+
+Actually, we found this is not the case at all. We obtained the DriveTime’s 2024 Annual Report 
+through a Freedom of Information Act request, and we believe it is a smoking gun that reveals 
+many undisclosed facts about related party DriveTime. A cursory glance of the ﬁnancials shows: 
+
+•  DriveTime burned over $1 billion in cash from 2022-2024. 2022-2024 net margins are 0%.  
+•  To fund this $1 billion hole, DriveTime issued more than $1 billion in debt, levering up 20x-
+
+40x in 2023-2024, after years of leverage far lower, and never exceeding 10.3x. 
+
+•  DT Proﬁts don’t cover interest expense, as coverage ratio fell to 0.5-1.0x, from over 2x. 
+
+Last Friday, in an ongoing class action litigation against Carvana, it was revealed that CVNA is 
+trying to keep DriveTime’s ﬁnancial statements sealed from public view.4 From the above facts, 
+we can see why, but that just begins to scratch the surface of something far more dangerous: 
+
+•  DriveTime marked down $5.9 billion of loans by -15%, and its loans historically lose -30%. 
+
+These toxic loans are what backs DriveTime’s debt issuance, at 20x-40x leverage. 
+
+•  GoFi sells loans to Bridgecrest at prices above fair value, then GoFi pays back Bridgecrest 
+with these Gain on Sales. This helps GoFi book revenue, and Bridgecrest boost proﬁts. 
+•  We believe Carvana uses Bridgecrest to book artiﬁcial Gain on Sales in a similar way as 
+
+• 
+
+GoFi does with Bridgecrest. 
+In Bridgecrest securitization ﬁlings, Bridgecrest and GoFi appear as originators of loans 
+tied to cars sold by CVNA. Yet the CVNA 10K, DriveTime 2024 annual report and GoFi 2024 
+AR do not mention that Bridgecrest or GoFi originates loans for Carvana.  
+
+•  We  see  accounting  and  disclosure  discrepancies  between  CVNA  and  DriveTime. 
+Meanwhile, Grant Thornton, who was Tricolor’s auditor, audits all three Garcia entities. 
+
+Gotham City Research believes CVNA’s earnings are more dependent on its related parties than 
+disclosed;  and  more  levered  indirectly  than  assumed,  as  DriveTime’s  leverage  drives  CVNA 
+earnings. We see problems with accounting, disclosure, and business practices that will lead to 
+regulatory trouble. At best, we believe CVNA is far less proﬁtable than believed, as a standalone 
+business.  At  worst,  CVNA  is  more  like  Tricolor5,  rather  than  Amazon6.  Either  way,  shares  face 
+massive downside risk to the share price.  
+
+Page 3 of 70 
+
+ 
+ 
+ 
+DriveTime Debt issuances drive Carvana proﬁts 
+
+CVNA 2020-2023: at best, too aggressive; at worst a “fraudulent pump & dump scheme” 
+
+In many ways, Carvana was the posterchild of the excesses of the 2021 craziness in the US stock 
+market. After years of debt-fueled, proﬁt-less growth at any cost, CVNA stock peaked in 2021, 
+and  fell  -99%  within  a  year.1  According  to  Cliff  Sosin  and  Rob  Vinall,  two  vocal  believers  and 
+shareholders of Carvana, mistakes were made and perhaps CVNA got too aggressive.2 
+
+According to others, such as the United Association National Pension, however, CVNA was not 
+merely “aggressive”: “Carvana’s sustainable growth machine was a lemon, built on a fraudulent 
+pump-and-dump  scheme  to  boost  Carvana’s  retail  sales  growth,  and  a  series  of 
+misrepresentations and omissions designed to artiﬁcially inﬂate Carvana’s share prices for long 
+enough  to  allow  the  Company’s  founders  and  executives  to  sell  nearly  $3.76  billion  of  their 
+personally held stock at artiﬁcially inﬂated prices.”3  
+
+The litigation also speciﬁcally alleges: “Garcia Senior caused DriveTime to enter into a sham 
+pass-through sales arrangement with Garcia Junior at Carvana to boost materially Carvana’s 
+reported retail sales.”4 
+
+Since 2023 the Company has reported proﬁts, positive free cash ﬂow, and lower debt every year, 
+and the stock has catapulted way above its prior highs, even entering the S&P 500 last month.5  
+As a result, somewhat understandably, the market believes that either critics were wrong about 
+CVNA’s  past  misconduct,  or  even  if  they  were  correct,  the  company  has  outgrown  its  legacy 
+problems, including concerns regarding leverage and related party dependence.  
+
+We estimate related parties boosted CVNA over $1 billion higher than disclosed in 2023-2024  
+
+All would seem picture perfect since 2023, except that is not what the DriveTime 2024 annual 
+report, which we obtained via FOIA request, shows. DriveTime’s ﬁnancial statements have been 
+hidden from public view for years (the last years’ records we see is for 2014), and CVNA seems to 
+make every effort to keep them out of the public eye, as evidenced by last Friday’s court ruling.  
+
+And we can see why: in its 10K, CVNA claims $345 million of its 2023-2024 Adj EBITDA originate 
+from 100% gross margin related party income6, or 20% of Adj EBITDA.  We estimate CVNA’s 2023-
+2024 earnings dependence on related parties was at least 2.2x-3.5x more than disclosed, or least 
+$1 billion direct beneﬁt from its related parties in 2023-20247:   
+
+CVNA US: Related party analysis
+
+FY Dec 31 ($mln)
+Carvana: Adjusted EBITDA
+Carvana: Related party income (Other Sales and revenues)
+GCR estimate for related party benefit 
+GCR estimate for related party benefit as multiple of Related party income
+
+2023
+339.0
+145.0
+324.4
+2.2x
+
+2024
+1,378.0
+200.0
+707.6
+3.5x
+
+Gotham City Research believes CVNA’s related party dependence is far greater than disclosed 
+and that this dependence hangs by a delicate thread, as DriveTime leverage is 20x-40x. Thus, we 
+don’t think leverage in the Carvana ecosystem has actually been reduced: it’s been transferred 
+over to DriveTime. Thus, CVNA’s effective leverage – earnings dependence on credit – has not. 
+
+Page 4 of 70 
+
+ 
+ 
+ 
+ 
+ 
+Gotham City Research’s thesis summarized with a diagram 
+
+We believe the two largest drivers of CVNA earnings - related party income and Gain on Loan sales 
+-  are  larger,  and  more  dependent  on  DriveTime  &  the  Garcia  ecosystem,  than  previously 
+disclosed. And CVNA’s dependence is fuelled by proceeds from debt issuance at DriveTime, not 
+cash ﬂows, as DriveTime burned $1 billion cash over the last year. And DriveTime is levered at 20x-
+40x and cannot service its interest expense with cash ﬂow. 
+
+Thus,  the  foundation  to  CVNA’s  earnings  is  very  weak.  But  it  gets  even  worse:  DriveTime’s 
+leverage/debt  are  in  turn  backed  by  toxic  subprime  loans  –  consisting  of  both  Carvana  and 
+DriveTime related loans – which DriveTime then marks down 15% (perhaps because DriveTime 
+has realized losses of ~-30-40%% over time on its loans). Finally, this highly fragile construct is all 
+rooted  in  accounting  and  loan  irregularities.  The  numbers  don’t  add  up.  We  don’t  believe  the 
+Carvana, DriveTime, GoFi, and securitization disclosures are correct. 
+
+The following reverse pyramid depicts what we believe, along with the complex interplay between 
+CVNA’s earnings and its related parties8: 
+
+Carvana Earnings, depend on:
+
+DriveTime debt issuance, at:
+
+Historic 20x-40x leverage, 
+backed by:
+
+Toxic CVNA & 
+Bridgecrest loans
+
+Accounting & loan 
+irregularities
+
+Transparency  is  not  Carvana’s  friend:  We  believe  that  without  DriveTime  operating  in  the 
+shadows, this scheme fails to work. We don’t think that Carvana and DriveTime’s stakeholders 
+necessarily know the whole picture. Transparency into DriveTime changes that.  
+
+Were DriveTime’s creditors’ ability or willingness to fund DriveTime’s losses and leverage change 
+CVNA’s earnings and creditworthiness would collapse.  
+
+With DriveTime’s ﬁnancial health as stretched as is – and geared far more aggressively than it has 
+been historically – we fear its leverage is high enough for a DriveTime bankruptcy or credit issue 
+to arise, which would also harm CVNA. We explain in this report how and why these linkages work. 
+
+Page 5 of 70 
+
+ 
+ 
+ 
+ 
+ 
+We think CVNA related party reliance 3x > reported  
+
+Gotham City Research believes DriveTime fuels over 73% of CVNA Adj EBITDA 
+
+Carvana originally started as a subsidiary of DriveTime in 2012.1 Despite spinning out of DriveTime 
+in 2014 and going public in 20172, CVNA’s proﬁts and overall business are highly dependent on 
+DriveTime  today.  This  dependence  is  a  fact,  and  the  market  consensus  believes  this  is  all 
+disclosed. Our due diligence – which includes analyzing the DriveTime 2024 annual report (which 
+the company evidently wants to hide) – leads us to the following opinions: 
+
+•  DriveTime  is  not  run  as  a  standalone,  for-proﬁt  business,  and  that  instead,  its  primary 
+
+purpose is to subsidize CVNA, since 2022. 
+
+•  CVNA’s dependence on DriveTime is far larger than disclosed. We estimate CVNA 2023-
+
+2024 proﬁts are overstated by over $1 billion because DriveTime takes the hit.  
+
+•  Even  worse,  CVNA’s  dependence  is  not  backed  by  DriveTime’s  cash  ﬂow,  but  by  debt 
+issuance. In fact, CVNA proﬁts hang by a weak thread, as DriveTime is levered 20x-40x. 
+
+In this section, we focus on why believe this dependence is greater than $1 billion over the last 
+few  years,  which  is  far  more  than  disclosed.  Then  in  the  next  section,  we  discuss  how  this 
+dependence is tied to 20x-40x leverage. The following facts and observations support our views: 
+
+•  DriveTime  burned  over  $1  billion  in  cash  ﬂow  between  2023-2024,  even  while  CVNA 
+
+generated cash ﬂow for the ﬁrst time ever, starting in those years.  
+
+•  DriveTime  net  margins are  basically  0%  from  2022-2024,  and  actually down  in  2024  vs 
+2022 levels. This contrasts with CVNA reported net margins which have only grown since 
+2022 (2023 & 2024 are coincidentally only years ever that CVNA reported positive proﬁts). 
+•  DriveTime  ADJ  EBITDA  margins  in  2022-2024,  like  cash  ﬂow  and  net  margins,  are 
+
+anomalously and notably worse off than past periods. 
+
+•  DriveTime  low  margins  are  particularly  more  suspicious  given  DriveTime’s  revenue  per 
+
+employee has increased by 70% from 2011 to 2024.  
+
+•  DriveTime’s  level  of  reported  cash  balances,  Property,  Plant,  and  Equipment,  and 
+
+purchase of PP&E are at or below levels they were 12 years ago.  
+
+•  SilverRock  is  a  much  bigger  business  in  2024  than  it  was  in  the  past.  Given 
+insurance/warranties provide cash  upfront  (Deferred  revenue  and refund reserves),  we 
+are puzzled at DT’s particularly bad cash outﬂows in 2023-2024. 
+
+•  Ernie  Garcia  II  has  valuable  experience  maximizing  value  for  himself  under  3  different 
+constructs:  1)  Ugly  Duckling:  Public  company  only  2)  DriveTime:  private  company  only 
+and 3) A Public CVNA that is highly dependent on a private DriveTime, while fully owned. 
+•  We believe these experiences makes Garcia II a grandmaster of “skillful ﬁnancing, timing 
+and self-dealing” –   Garcia II could give us a master class on Related Party Transactions.   
+
+Before we jump into what the DriveTime 2024 Annual Report reveals we would like to provide a 
+quick rundown on the history leading up to Carvana. And that requires discussing Ernie Garcia II 
+and DriveTime. Cliff Sosin praises CVNA CEO, Ernie Garcia III (son of Ernie Garcia II) as better than 
+Amazon founder, Jeff Bezos.3 But we ﬁnd the father, Ernie Garcia II’s story, far more remarkable.  
+
+Ernie  Garcia  II  has  a  storied  life,  perhaps  appropriate  for  a  Netﬂix  documentary:  (i)  He  was 
+convicted of charges alleging he helped a company report fake accounting income through sham 
+transactions4,  (ii)  soon  after,  he  ﬁled  for  bankruptcy5  (iii)  Built  Ugly  Duckling  (later  renamed 
+
+Page 6 of 70 
+
+ 
+ 
+DriveTime) into a top seller and ﬁnancer of used cars for people with lousy credit histories6 and 
+(iii) became a billionaire.7  
+
+Ernie Garcia’s life story, Carvana, and DriveTime, may all be complex, but we ﬁnd Ernie Garcia II 
+very  easy  to  understand,  and  instructive,  in  one  speciﬁc  way:  He  has  an  amazing  talent  for 
+enriching himself. They say watch what they do, not what they say. Thus, we believe, if you know 
+Garcia II’s incentives, you will know the outcomes. At least, it’s been predictive so far. 
+
+DriveTime 2008-2022: appears to be run like a standalone, for-proﬁt business Ernie Garcia II 
+
+The below timeline shows an abbreviated history of DriveTime and Carvana, from 1991-20228: 
+
+1991 
+Garcia  II  buys 
+Ugly Duckling 
+
+1996 
+Ugly  Duckling 
+IPO  
+
+2001 
+UGLY  private 
+after  its  stock 
+fell -90% 
+
+2002 
+Name change 
+to DriveTime 
+
+2012 
+Carvana 
+founded 
+sub of DT 
+
+as 
+
+2017 
+Carvana IPO 
+
+2022 
+CVNA  shares 
+-99%,  nearly 
+bankrupt 
+
+Garcia II had incentive to maximize UGLY’s stock price when its shares were publicly listed. After 
+Garcia II took UGLY private, after shares fell -90%, he had incentive to maximize DriveTime as a 
+for proﬁt company. The used car business is a difficult business, but we see strong evidence that 
+Ernie Garcia II ran DriveTime as a proﬁt maximizing business from 2008-20139:  
+
+DriveTime Automotive and Subsidiaries: Metrics
+
+FY Dec 31 ($mln)
+Revenue
+Adjusted EBITDA 
+Adj EBITDA margin (%)
+Net Income 
+Net margin (%)
+CFO
+Total assets
+Total equity 
+RoA (%)
+RoE (%)
+
+2013
+1,400.9
+174.0
+12.4%
+30.3
+2.2%
+-172.3
+2,326.1
+488.0
+1.3%
+6.2%
+* RoA and RoE columns represent the average values from 2008 to 2013 in the final column.
+
+2012
+1,221.1
+162.9
+13.3%
+59.4
+4.9%
+-69.9
+1,989.1
+467.6
+3.0%
+12.7%
+
+2010
+1,025.7
+197.9
+19.3%
+70.7
+6.9%
+5.9
+1,568.2
+418.8
+4.5%
+16.9%
+
+2011
+1,122.0
+180.5
+16.1%
+88.1
+7.9%
+-25.2
+1,766.8
+457.8
+5.0%
+19.3%
+
+2008
+1,058.6
+104.5
+9.9%
+-0.3
+0.0%
+60.0
+1,430.7
+266.0
+0.0%
+-0.1%
+
+2009
+946.3
+159.5
+16.9%
+52.0
+5.5%
+85.3
+1,432.1
+293.1
+3.6%
+17.7%
+
+Cumul. 
+('08-'13)*
+6,774.6
+979.3
+14.5%
+300.2
+4.4%
+-116.1
+
+2.9%
+12.1%
+
+We observe the following qualities of DriveTime’s business during these pre CVNA years: 
+
+•  while prone to extreme cyclicality, there are some decent years of earnings and ROE. 
+•  That said, Cash ﬂows and proﬁts are episodic and highly volatile.  
+•  There’s  evident  discipline  when  it  comes  to  Leverage  and  interest  expensive  coverage 
+
+management (see our next section for more details. 
+
+Thus, even when Garcia II had incentive to run DriveTime as a proﬁt-maximizing business, we see 
+a highly cyclical business with extreme variations in proﬁt and cash ﬂow. 
+
+DriveTime since 2022: purpose to maximize CVNA, at its own expense? 
+
+Once CVNA spun out of DriveTime, and became a publicly traded company, Garcia II’s incentives 
+changed. He had a large stake in CVNA, CVNA shares were publicly listed and CVNA’s ﬁnancial 
+information was publicly available. On the other hand, he fully owned DriveTime whose ﬁnancial 
+information  was  not  publicly  disclosed.    And  given  the  signiﬁcant  related  party  transactions 
+between Carvana and DriveTime, Garcia II has had strong incentive to run DriveTime to maximize 
+CVNA stock price. Perhaps this is why CVNA was at best “aggressive” pre-2022 as bulls believe, 
+and at worst manipulated DriveTime to juice CVNA’s stock price.  
+
+Page 7 of 70 
+
+ 
+ 
+ 
+ 
+ 
+We believe the incentives became stronger since 2022 for DriveTime to take a hit to beneﬁt CVNA. 
+Coincidentally, we see DriveTime’s ﬁnancial results suspiciously deteriorate and differ after 2022, 
+compared to its past reported results10:  
+
+DriveTime Automotive and Subsidiaries: Metrics
+
+FY Dec 31 ($mln)
+Revenue
+Adjusted EBITDA
+Adj EBITDA margin (%)
+Net Income 
+Net margin (%)
+CFO
+Total assets
+Total equity 
+RoA (%)
+RoE (%)
+
+2022
+2,808.4
+333.0
+11.9%
+39.3
+1.4%
+95.4
+5,729.1
+840.9
+0.7%
+4.7%
+
+2023
+3,246.6
+85.6
+2.6%
+-69.3
+-2.1%
+-324.4
+5,729.1
+840.9
+-1.2%
+-8.2%
+
+Cumul. 
+('22-'24) *
+9,718.0
+646.1
+6.6%
+10.8
+0.1%
+-936.6
+
+0.0%
+0.4%
+
+2024
+3,663.0
+227.5
+6.2%
+40.8
+1.1%
+-707.6
+6,689.4
+870.7
+0.6%
+4.7%
+
+* RoA and RoE columns represent the average values from 2022 to 2024 in the final column.
+
+Know the incentives, know the outcomes: Ernie Garcia II has far more money tied up in CVNA 
+stock, then he does in DriveTime. DriveTime is private, CVNA is public. It makes sense that he 
+would pull every trick possible to boost CVNA. 
+
+CVNA bulls claim scale is the reason CVNA is proﬁtable, yet DriveTime doesn’t scale 
+
+Carvana  bulls  claim  that  scale  is  the  reason  CVNA  has  become  proﬁtable  in  recent  years. 
+Evidently, this logic does not apply to DriveTime: DriveTime is a far larger as of 2022-2024 than the 
+past, yet its proﬁt margins, cash ﬂows, and ROEs are far worse than they were in 2008-2013. The 
+structural decline in DriveTime’s proﬁtability in 2022-2024 vs past periods is particularly odd. We 
+think that maybe the simplest explanation is the correct one: CVNA’s proﬁts depend far more on 
+DriveTime than even its skeptics believe, backed by balance sheet fragility no one could imagine.  
+
+DriveTime burned ~$1 billion in cash ﬂow while CVNA earned ~$400 million, from 2022-2024 
+
+Cash ﬂow from operating activities 2023 and 2024 anomalously burned $1 billion cumulatively11: 
+
+Page 8 of 70 
+
+ 
+ 
+ 
+ 
+ 
+DriveTime 2022-2024 cash ﬂow pain, is Carvana’s cash ﬂow gain: a coincidence we think not 
+
+DriveTime’s  Free  Cash  ﬂow  is  similarly  bad  as  its  cash  ﬂow  from  operating  activities,  over  the 
+same time period. Moreover, DriveTime’s cash burn worsened from 2022-2024 even as CVNA’s 
+cash ﬂow became positive since 2023, for the ﬁrst time ever in its history12:  
+
+DriveTime vs Carvana: CFO and FCF comparison
+
+FY Dec 31 ($mln)
+DriveTime: CFO
+DriveTime: FCF
+
+2022
+95.4
+62.0
+Carvana: CFO -1,324.0
+-1,836.0
+Carvana: FCF
+
+2023
+-324.4
+-339.9
+803.0
+716.0
+
+Cumul. 
+('22-'24)
+-936.6
+-1,006.4
+397.0
+-293.0
+
+2024
+-707.6
+-728.5
+918.0
+827.0
+
+DriveTime 2022-2024 looks like the pre-2023 “aggressive” Carvana 
+
+CVNA and DT look like they are running in the exact opposite directions from 2022-2024. In fact, 
+DT  looks  very  much  like  the “old”  Carvana,  the  one  pre  2023  whose  stock  fell  -99%  and  went 
+nearly went bankrupt13:  
+
+FY Dec 31 ($mln)
+CFO
+Purchase of P&E
+FCF
+
+Carvana: Free Cash Flow (FCF)
+2019
+-757.0
+-231.0
+-988.0
+
+2018
+-414.3
+-143.7
+-558.0
+
+2020
+-608.0
+-360.0
+-968.0
+
+2021
+-2,594.0
+-557.0
+-3,151.0
+
+2022
+-1,324.0
+-512.0
+-1,836.0
+
+Gotham City Research believes that DriveTime has burned over $1 billion in cash – worse than we 
+have  ever  seen  in  prior  years,  both  in  relative  and  absolute  terms  –  because  DriveTime  is 
+subsidizing Carvana’s business. Were DriveTime operate simply as a cash ﬂow neutral business, 
+it would imply that DriveTime’s value transfer to Carvana is $1 billion. Seeing that DriveTime has 
+generated positive operating and free cash ﬂow in past periods, we believe this a conservative 
+assumption, and thus believe DriveTime is inﬂating Carvana’s business by at least $1 billion. Our 
+examination of DriveTime’s EBITDA validates our approach as well. 
+
+DriveTime adj EBITDA also structurally lower in 2022-2024 
+
+DriveTime’s Adjusted EBITDA margins are structurally lower in recent years14: 
+
+DriveTime: Adjusted EBITDA and Adjusted EBITDA excluding the add back for portfolio debt interest expense
+
+FY Dec 31 ($mln)
+Adjusted EBITDA 
+% margin
+Adj EBITDA excl portfolio debt int expense addback
+% margin
+
+2009
+159.5
+
+2010
+197.9
+
+2024
+2023
+2022
+2011
+2008
+227.5
+85.6
+104.5
+333.0
+180.5
+6.2%
+2.6%
+9.9% 16.9% 19.3% 16.1% 13.3% 12.4% 11.9%
+-5.9
+-71.1
+246.4
+137.1
+40.2
+129.6
+84.2
+8.8% -2.2% -0.2%
+8.9% 12.6% 12.2%
+3.8%
+
+2013
+174.0
+
+2012
+162.9
+
+121.0
+9.9%
+
+131.8
+9.4%
+
+…even  as Carvana’s adj EBITDA Margins  are  structurally higher  in recent  years,  2x  higher  than 
+industry peers15:  
+
+CVNA US: Financial Information
+FY Dec 31 ($mln)
+Revenue
+
+2022
+
+Adj EBITDA margin (%)
+% of income from related parties and Gain on Sales
+Net Income/(Loss)
+FCF (CFO - Capex)
+Net debt 
+
+Adjusted EBITDA -1,041.0
+-7.7%
+-59.5%
+-2,894.0
+-1,836.0
+7,875.0
+
+2023
+
+2024
+13,604.0 10,771.0 13,673.0
+1,378.0
+10.1%
+71.3%
+404.0
+827.0
+3,916.0
+
+339.0
+3.1%
+176.4%
+150.0
+716.0
+5,743.0
+
+YTD 2025
+14,719.0
+1,726.0
+11.7%
+66.9%
+944.0
+510.0
+3,061.0
+
+Page 9 of 70 
+
+ 
+ 
+ 
+ 
+ 
+ 
+Carvana’s 13.5% adj EBITDA margin targets aren’t a coincidence16: these are Adj EBITDA Margin 
+ﬁgures that DriveTime has achieved and exceeded in the past, and as a far smaller company than 
+either DriveTime or Carvana are today.   
+
+DriveTime, is a much larger company today, yet the company is reporting lowest ever adj EBITDA 
+margins we have seen in public records.   
+
+We think this is classic Ernie Garcia II. Follow the incentives – which is to boost the value of the 
+public-facing  CVNA  –  and  the  outcomes  make  sense.  CVNA  earnings  get  the  beneﬁt  publicly, 
+while DriveTime takes the hit, in the shadows. This works so long as there’s no transparency. 
+
+We believe it is not a coincidence that CVNA adj EBITDA margins have expanded at the same time 
+that  DriveTime’s  adj  EBITDA  margins  have  collapsed,  because  of  the  other  red  ﬂags  we  have 
+already  identiﬁed,  as  well  as others  explained  later  in this  report.  Here  we estimate  what that 
+value transfer – which is ultimately funded by credit, not cash ﬂow or Ernie Garcia’s contributions, 
+as  he  as  actually  extracted  cash  out  of  DriveTime  –  looks  like,  from  an  Adjusted  EBITDA 
+approach17: 
+
+DriveTime: Scenario Analysis
+FY Dec 31 ($mln)
+
+Adj EBITDA excl the addback for portfolio debt int expense
+% margin
+
+2022
+
+2024
+Reported Revenue 2,808.4 3,246.6 3,663.0
+246.4
+-5.9
+-71.1
+8.8% -2.2% -0.2%
+
+2023
+
+Scenario 1: Assume 10.6% margin for each year 10.6% 10.6% 10.6%
+386.8
+342.8
+296.5
+-50.1 -413.9 -392.6
+
+Implied Adjusted EBITDA
+$ variance: Reported vs Scenario Estimate
+
+Scenario 2: Assume 12.6% margin for each year 12.6% 12.6% 12.6%
+462.8
+$ variance: Reported vs Scenario Estimate -108.4 -481.2 -468.6
+
+Implied Adjusted EBITDA
+
+410.1
+
+354.8
+
+Scenario 3: Assume 14.0% margin for each year 14.0% 14.0% 14.0%
+512.8
+$ variance: Reported vs Scenario Estimate -146.8 -525.6 -518.7
+
+Implied Adjusted EBITDA
+
+393.2
+
+454.5
+
+Our adj EBITDA approach validates our cash ﬂow approach. We believe Scenario 2 and Scenario 
+3 are more credible given that DriveTime is a larger company today than it was in the past and 
+even when DriveTime was reporting 12-19% adj ebitda margins back in 2008-2013, its revenue per 
+employee was lower than it is today.  
+
+DriveTime’s revenue per employee higher from 2022-2024 vs past 
+
+DT’s revenue per employee is around $760,000 per employee as of 2024, far higher than the $440-
+$480K range in 2010-201318:  
+
+DriveTime: Employee Analysis
+
+FY Dec 31 ($mln)
+Number of employees
+Total Revenues ($ mln)
+Revenue per employee ($)
+
+2010
+2,243
+1,025.7
+457,308
+
+$   
+
+2011
+2,410
+1,122.0
+465,546
+
+$   
+
+2012
+2,530
+1,221.1
+482,634
+
+$   
+
+2013
+3,165
+1,400.9
+442,621
+
+$   
+
+2022
+4,566
+2,808.4
+615,062
+
+$   
+
+2023
+4,368
+3,246.6
+743,261
+
+$   
+
+2024
+4,800
+3,663.0
+763,130
+
+$   
+
+Revenue per employee today is far higher, which shows how DriveTime has grown in economies 
+of scale. Yet below the Revenue line, we don’t see evidence of this scale beneﬁt. We believe this 
+is because DriveTime subsidizes Carvana, taking a hit on its own margins.  
+
+If anything, DriveTime’s structurally higher revenue per employee means the company has the 
+potentially to report far higher proﬁt margins today than it did in the 2008-2013 period. 
+
+Page 10 of 70 
+
+ 
+ 
+ 
+ 
+DriveTime 2023/2024 cash levels lower than 2012/2013 cash levels 
+
+Even though DriveTime’s reported revenues have more than tripled since 2008, its cash and cash 
+equivalents balance as of 2024 is lower than it was in 2008. Real businesses require minimum 
+levels of cash to operate their businesses. The below table shows DriveTime’s Cash and Cash 
+Equivalents for 2008-2013, 2022-202419: 
+
+FY Dec 31 ($mln)
+Cash & Equiv.
+
+2008
+25.5
+
+DriveTime: Cash and cash equivalents ("Cash & Equiv.")
+2011
+25.9
+
+2013
+30.8
+
+2012
+26.5
+
+2010
+23.7
+
+2009
+21.5
+
+2022
+44.1
+
+2023
+16.4
+
+2024
+24.3
+
+The  fact  the  Company’s  cash  levels  are  lower  than  they  were  in  2008  supports  our  view  that 
+DriveTime is not run as a for proﬁt enterprise. 
+
+DriveTime cash as % of revenue has suspiciously declined over time 
+
+DriveTime’s cash has precipitously declined as a % of revenue. DriveTime had steadily maintained 
+cash  at  around  2.2%-2.4%  of  revenue  between  2008-2013.  This  seems  like  very  intentional 
+ﬁnancial  management,  evidence  of  a  well-run,  for-proﬁt  enterprise.  Suspiciously,  cash  has 
+declined 0.5%-0.7% of revenue in recent years20: 
+
+FY Dec 31 ($mln)
+Cash & Equiv.
+Total revenue
+ % of Revenue
+
+2008
+25.5
+1,058.6
+2.4%
+
+DriveTime: Cash and cash equivalents ("Cash & Equiv.")
+2011
+25.9
+1,122.0
+2.3%
+
+2013
+30.8
+1,400.9
+2.2%
+
+2012
+26.5
+1,221.1
+2.2%
+
+2010
+23.7
+1,025.7
+2.3%
+
+2009
+21.5
+946.3
+2.3%
+
+2022
+44.1
+2,808.4
+1.6%
+
+2023
+16.4
+3,246.6
+0.5%
+
+2024
+24.3
+3,663.0
+0.7%
+
+Carvana  cash  as  %  of  revenue  for  2016-present  conﬁrms  cash  remaining  steady  as  %  of 
+revenue21: 
+
+Carvana: Cash and cash equivalents ("Cash & Equiv.")
+
+FY Dec 31 ($mln)
+Cash & Equiv.
+Total revenue
+ % of Revenue
+
+2016
+39.2
+365.1
+10.7%
+
+2017
+172.7
+858.9
+20.1%
+
+2018
+78.9
+1,955.5
+4.0%
+
+2019
+76.0
+3,940.0
+1.9%
+
+2021
+403.0
+
+2020
+301.0
+
+2024 YTD 2025
+2,142.0
+5,587.0 12,814.0 13,604.0 10,771.0 13,673.0 14,719.0
+14.6%
+
+2022
+434.0
+
+2023
+530.0
+
+1,716.0
+
+12.6%
+
+5.4%
+
+4.9%
+
+3.2%
+
+3.1%
+
+DriveTime 2023/2024 PP&E levels similar to 2012/2013 cash levels 
+
+Despite the fact business has signiﬁcantly grown, DriveTime’s PP&E is lower as of 2024 vs 11 years 
+ago, 201322: 
+
+FY Dec 31 ($mln)
+P&E, net
+
+DriveTime: Property and Equipment, net ("P&E, net")
+2011
+90.7
+
+2012
+2013
+93.1 103.7
+
+2008
+51.5
+
+2009
+51.4
+
+2010
+61.6
+
+2022
+2023
+N/A 113.3
+
+2024
+96.5
+
+DriveTime 2023/2024 capex spend lower than 2012/2013 capex spend 
+
+Similarly DriveTime’s capex spend 2024 is lower than it was a decade ago23: 
+
+DriveTime: Purchase of Property and Equipment ("Purchase  of P&E")
+
+FY Dec 31 ($mln)
+Purchase of P&E
+
+2008 2009 2010 2011 2012 2013 2022 2023 2024
+-7.2 -13.3 -20.9 -44.2 -24.5 -36.3 -33.4 -15.6 -20.8
+
+Capex as % of revenue, for 2008-2013, 2022-202424: 
+
+FY Dec 31 ($mln)
+Purchase of P&E
+Total Revenue
+% of Revenue
+
+DriveTime: Purchase of Property and Equipment analysis
+2011
+-44.2
+1,122.0
+-3.9%
+
+2010
+-20.9
+1,025.7
+-2.0%
+
+2012
+-24.5
+1,221.1
+-2.0%
+
+2013
+-36.3
+1,400.9
+-2.6%
+
+2009
+-13.3
+946.3
+-1.4%
+
+2022
+-33.4
+2,808.4
+-1.2%
+
+2008
+-7.2
+1,058.6
+-0.7%
+
+2023
+-15.6
+3,246.6
+-0.5%
+
+2024
+-20.8
+3,663.0
+-0.6%
+
+Page 11 of 70 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CVNA proﬁts are fueled by DriveTime’s 20-40x leverage 
+
+DriveTime levered up 20x-40x in 2023-2024, way beyond its historic levels 
+
+The  2024  DriveTime  Annual  Report,  which  CVNA  evidently  does  not  want  publicly  available, 
+reveals many things. In the prior section, we explained how DT has burned over $1 billion in cash 
+ﬂow from 2022-2024, during the same period that CVNA generated cash ﬂow for the ﬁrst time 
+ever. We see these as interconnected.  DriveTime’s pain is Carvana’s gain. 
+
+But Carvana’s dependence on DriveTime is incredibly fragile, as DriveTime levered up to 20x-40x 
+in 2023-2024, well beyond its historical levels of 5x-10x. Gotham City Research believes this 
+leverage is beyond aggressive, and that over 100% of Carvana’s earnings are at risk of evaporating 
+overnight because of this leverage. Here are some of the observations that support our views: 
+
+•  DriveTime Net Debt to Adjusted EBITDA surged to 20x-40x in 2023-2024, well beyond its 
+
+historic range of ~5x-10x. 
+
+•  DriveTime 2023-2024 surge in leverage coincides with Carvana’s reduction in leverage. 
+
+DT’s leverage is way beyond its peer, CACC’s, leverage levels. 
+
+•  DriveTime 2023-2024 interest expense coverage ratio is 0.5x-1.0x, dramatically lower 
+than its historic 2.5x. This compares against CACC which is far more conservative. 
+•  Quality of DriveTime’s funding sources have worsened over time, and appears much 
+
+lower in quality compared to CarMax and AutoNation.  
+
+•  We estimate that DriveTime’s available liquidity as a % of revenue is only 0.7%, versus 
+
+7.3% and 9.7% for AutoNation and CarMax, respectively, as of 2024. 
+
+•  We Estimate DriveTime 2025 leverage is ~20x, remains elevated compared to its past. 
+•  Starting next month, CVNA “Paid in Kind” PIK interest becomes cash interest expense. 
+•  We calculate that CVNA would have failed to service its debt from 2022-2024 without 
+
+DriveTime’s related party beneﬁt. 
+
+CVNA’s  earnings  depend  on  Drivetime,  but  its  sources  of  cash  have  been  credit.  Therefore, 
+Carvana’s ability to service its debt depends on DriveTime and its solvency.  
+
+Without raising $1 billion Debt, DriveTime would’ve been insolvent and CVNA unproﬁtable 
+
+DriveTime is not generating cash ﬂow from operating activities nor free cash ﬂow. DriveTime is 
+burning cash from 2022-2024. So how is the business still in operation? Drivetime raised over $1 
+billion in net debt1: 
+
+DriveTime: CF Statement items
+
+2023
+
+2022
+
+2024
+FY Dec 31 ($mln)
+DriveTime: CFO 95.4 -324.4 -707.6
+DriveTime: CFI
+-47.6 -49.5 -18.2
+DriveTime: CFF -115.5 379.9 766.7
+
+Cumul. 
+('22-'24)
+-936.6
+-115.3
+1,031.1
+
+Some  Carvana  skeptics  have  conjectured  that  DriveTime  boosts  CVNA  result  by  absorbing 
+losses/costs and that Ernie Garcia II backstops these losses with cash contributions.2 What we 
+ﬁnd  is  something  far  worse:  DriveTime’s  cash  burn  is  supported  not  by  Ernie  Garcia,  but  by 
+creditors, namely debt from term securitisation and wholesale funding sources3: 
+
+Page 12 of 70 
+
+ 
+ 
+ 
+DriveTime: Garcia's net cash extraction versus total financing raised
+
+FY Dec 31 ($mln)
+DriveTime: Net (distribution to)/contributions from shareholders [A]
+Total financing net raised (term securitization and wholesale) [B]
+Net cash extraction as % total funds raised [A/B]
+
+2022
+-218.9
+112.7
+-194.2%
+
+2023
+-122.1
+517.1
+-23.6%
+
+Cumul. 
+('22-'24)
+-351.9
+1,430.0
+-24.6%
+
+2024
+-10.9
+800.2
+-1.4%
+
+In fact, as you can see from the table above, Ernie Garcia actually has extracted $352 million out 
+of DriveTime, not contributed cash into DriveTime, despite the fact DriveTime has been burning 
+cash.  The  cash  Garcia  is  extracting  out  of  DriveTime  is  funded  by  debt  issuance.  The  “total 
+ﬁnancing  net  raised”  row  is  the  sum  of  “proceeds  from”  and  “repayment  of”  portfolio  term 
+ﬁnancings and portfolio warehouse facilities4: 
+
+DriveTime’s leverage is 18.2x-40.0x, up after 2022 DriveTime Leverage appears notably higher 
+2022-2024  vs  past  periods  (based  on  net  Debt  to  ADJ  EBITDA).  From  2008-2013,  DriveTime’s 
+leverage never exceeded 10.3x. Even in 2022, the critical year where CVNA nearly went bankrupt, 
+DriveTime  leverage  was  9.2x.  Only  in  2023  and  2024,  the  years  whereby  CVNA  suspiciously 
+became cash ﬂow positive, does DriveTime’s leverage balloon5:  
+
+FY Dec 31 ($mln)
+Adj earnings EBITDA
+
+DriveTime: Net debt / Adjusted earnings EBITDA ("Leverage Ratio")
+2008
+104.5
+Net debt 1,081.5
+10.3x
+
+2013
+174.0
+1,655.7
+9.5x
+
+2012
+162.9
+1,395.8
+8.6x
+
+2011
+180.5
+1,195.5
+6.6x
+
+2010
+197.9
+1,046.5
+5.3x
+
+2009
+159.5
+1,065.7
+6.7x
+
+2022
+333.0
+3,067.6
+9.2x
+
+Leverage Ratio
+
+2023
+85.6
+3,441.5
+40.2x
+
+2024
+227.5
+4,229.8
+18.6x
+
+Credit  Acceptance  (CACC)  another  subprime  lender’s  leverage  from  2022-2024  a  lot  lower, 
+resembles DriveTime and its leverage in the years prior to 20236:  
+
+FY Dec 31 ($mln)
+EBITDA
+Net debt
+Leverage Ratio
+
+2008
+159.8
+638.6
+4.0x
+
+CACC US: Net debt / EBITDA ("Leverage Ratio")
+2013
+2011
+2009
+468.6
+357.7
+266.6
+1,388.2
+993.2
+504.8
+3.0x
+2.8x
+1.9x
+
+2012
+411.6
+1,241.8
+3.0x
+
+2010
+305.7
+681.9
+2.2x
+
+2022
+887.3
+4,583.0
+5.2x
+
+2023
+643.0
+5,054.3
+7.9x
+
+2024
+755.7
+6,009.2
+8.0x
+
+DT leverage is massively up, while CVNA leverage has declined7: 
+
+Carvana: Net Debt / Adjusted EBITDA ("Leverage Ratio")
+FY Dec 31 ($mln)
+Total Debt
+Less: Cash & Equiv.
+Net Debt
+
+2022
+8,309.0
+-434.0
+7,875.0
+Adjusted EBITDA -1,041.0
+-7.6x
+
+2024
+5,632.0
+-1,716.0
+3,916.0
+1,378.0
+2.8x
+
+2023
+6,273.0
+-530.0
+5,743.0
+339.0
+16.9x
+
+2025 TTM
+5,203.0
+-2,142.0
+3,061.0
+2,085.0
+1.5x
+
+Leverage Ratio
+
+Page 13 of 70 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+DT burned cash and had its lowest reported margins ever at the very same CVNA reported its best 
+ever  cash  ﬂow  and  proﬁts.  And  DT  had  its  highest  ever  leverage  even  as  CVNA  reduced  its 
+leverage.  We  don’t  think  these  are  coincidences:  DriveTime’s  pain,  has  been  CVNA’s  gain. We 
+believe the DriveTime 2024 Annual Report reveals that this is not sustainable indeﬁnitely, contrary 
+to what the market seems to believe. 
+
+DriveTime 2023-2024 interest coverage: cannot cover interest organically 
+
+•  DriveTime adj EBITDA does not cover Interest expense in recent years8  
+
+FY Dec 31 ($mln)
+DT: Ratio of adjusted earnings EBITDA to total interest expense 
+
+2022
+3.80x
+
+2023
+0.50x
+
+2024
+1.00x
+
+•  DriveTime’s adj EBITDA covered its interest expense between 2008-2013 (even 2008!)9 
+
+FY Dec 31 ($mln)
+Adjusted EBITDA
+Total interest expense
+Interest Coverage
+
+DriveTime: Interest Coverage
+2009
+159.5
+110.7
+1.44x
+
+2008
+104.5
+97.1
+1.08x
+
+2010
+197.9
+98.1
+2.02x
+
+2011
+180.5
+73.1
+2.47x
+
+2012
+162.9
+73.1
+2.23x
+
+2013
+174.0
+75.1
+2.32x
+
+•  Drivetime’s Interest coverage ratio compares poorly vs CACC10 
+
+FY Dec 31 ($mln)
+EBITDA
+Total interest expense
+Interest Coverage
+
+2008
+159.8
+43.2
+3.70x
+
+CACC US: Interest Coverage
+2012
+411.6
+63.4
+6.49x
+
+2010
+305.7
+47.8
+6.40x
+
+2011
+357.7
+57.2
+6.25x
+
+2009
+266.6
+32.4
+8.23x
+
+2013
+468.6
+65.0
+7.21x
+
+2022
+887.3
+166.6
+5.33x
+
+2023
+643.0
+266.5
+2.41x
+
+2024
+755.7
+419.5
+1.80x
+
+We estimate Carvana’s leverage and ability to service its debt far worse without DriveTime 
+
+We estimate CVNA couldn’t service interest without DriveTime in 2023 and 202411:  
+
+CVNA US: Interest coverage analysis
+
+FY Dec 31 ($mln)
+Carvana: Adjusted EBITDA
+Carvana: Total interest expense
+CVNA Adjusted EBITDA / Total interest expense
+CVNA Adj EBITDA adjusted for related party benefit 
+Carvana: Total interest expense
+GCR estimated interest coverage ratio for CVNA
+
+2023
+339.0
+632.0
+0.54x
+14.6
+632.0
+0.02x
+
+2024
+1,378.0
+651.0
+2.12x
+670.4
+651.0
+1.03x
+
+Cumul 
+('23-'24)
+1,717.0
+1,283.0
+1.34x
+685.0
+1,283.0
+0.53x
+
+Without DriveTime beneﬁt, we estimate CVNA’s 2024 leverage would be 5.8x12:  
+
+CVNA US: Net debt analysis
+
+FY Dec 31 ($mln)
+Carvana: Net debt [A]
+Carvana: Adjusted EBITDA [B]
+Leverage ratio [C=A/B]
+Drivetime: Cash Flow from Operating Activities [D]
+CVNA Adj EBITDA adjusted for related party benefit  [E=B+D]
+Implied leverage ratio adj. for related party benefit [F=A/E]
+
+2023
+5,743.0
+339.0
+16.9x
+-324.4
+14.6
+393.0x
+
+2024
+3,916.0
+1,378.0
+2.8x
+-707.6
+670.4
+5.8x
+
+Page 14 of 70 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+We Estimate DriveTime 2025 leverage is at least 20x, remains elevated  
+
+We  estimate  that  DriveTime’s  debt  load  has  only  worsened  since  2024.  We  estimate  that 
+Bridgecrest  debt  outstanding  has  grown  to  $4.4  billion  (this  is  through  buildout  of  the  BLAST 
+securitizations). And that wholesale has grown to $0.6 billion. Therefore, we estimate total debt 
+is $5.0 billion as of 2025.  
+
+We conservatively assume DriveTime 2025 revenue grew to $4 billion, and that DriveTime’s adj 
+EBITDA margins for 2025 remains ﬂat relative to 2024 at 6.2%. Given EBITDA declined for both 
+AutoNation 2025 EBITDA -15% and KMX -20%, this doesn’t seem like an aggressive assumption. 
+
+DriveTime’s Funding sources: worse in 2024 than in 2013 
+
+NMC health was a Dubai-based company with shares listed UK that we were short. It turns out 
+there was fraud.13 One of the red ﬂags – the quality of the Company’s ﬁnancing sources declined 
+over time. That is the exact opposite of what we expected as a company grew with scale over time. 
+
+Not saying DriveTime is NMC Health, but in this regard, the fact pattern is similar: DriveTime is a 
+far larger company today than it was in 2013, yet the quality of DriveTime’s funding sources have 
+actually  worsened  from  since  2013.  In  2013,  DriveTime  had  Senior  Secured  Notes  Payable, 
+implying that creditors were able/willing to lend to the corporate, rather than to its asset pools14: 
+
+In 2024, DT’s portfolio term ﬁnancings consist of Portfolio Warehouse Facilities and Portfolio term 
+ﬁnancings. The Company no longer has Senior Secured Notes15:  
+
+Page 15 of 70 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+By comparison, both CarMax and Autonation have a revolver (a source of unsecured credit) 
+
+In reviewing DriveTime’s ﬁnancials, we were struck by the very low cash and equivalents balance. 
+Even though DriveTime’s reported revenues have more than tripled since 2008, its cash and cash 
+equivalents balance as of 2024 is lower than it was in 200816: 
+
+FY Dec 31 ($mln)
+Cash & Equiv.
+
+2008
+25.5
+
+DriveTime: Cash and cash equivalents ("Cash & Equiv.")
+2011
+25.9
+
+2012
+26.5
+
+2010
+23.7
+
+2013
+30.8
+
+2009
+21.5
+
+2022
+44.1
+
+2023
+16.4
+
+2024
+24.3
+
+ While DriveTime claims to have $778.0 million of liquidity at YE 2024, these are entirely sourced 
+from asset-based  facilities.    DriveTime  operates  in a  cyclical  and volatile  business,  combining 
+both  cyclical  demand  and  value  of  used  cars,  as  well  as  unsecured  lending  to  subprime 
+borrowers.  In our view it is strange that DriveTime does not have an unsecured corporate revolving 
+credit facility, which would provide DriveTime accessible liquidity regardless of its ability to post 
+collateral – which may or may not be available in an adverse situation. 
+
+We  evaluated  DriveTime’s  competitors,  CarMax  and  AutoNation,  to  assess  whether  our 
+expectations of prudent ﬁnancial resource management were reﬂected in the industry.  CarMax 
+and Auto Nation do indeed have corporate Revolving Credit Facilities, with which to manage their 
+liquidity needs.   
+
+As  is  visible  below,  we  calculate  that  AutoNation  and  CarMax  have  between  7%  and  10%  of 
+revenues in available corporate liquidity, whereas DriveTime has only 0.7% available corporate 
+liquidity to weather any storm, a situation we believe is highly risky17: 
+
+Comparable 
+Liquidity
+DriveTime
+Carmax
+AutoNation
+
+Revenues 
+($mln)
+3,663
+26,536
+26,765
+
+Period
+FY2024
+FY2024
+FY2024
+
+Cash & 
+Equiv. 
+($mln)
+24
+574
+60
+
+Corporate 
+RCF capacity 
+($mln)
+0
+2,000
+1,899
+
+Corporate 
+available 
+liquidity ($mln)
+24
+2,574
+1,959
+
+Liquidity  / 
+Revenues
+0.7%
+9.7%
+7.3%
+
+Given DriveTime’s size and the cyclicality of its business, we are surprised that the company has 
+not  secured  a  general  corporate  revolver  in  place.    We  wonder  if  this is  because  creditors  are 
+uncomfortable  with  DriveTime’s  leverage,  which  would 
+indicate  signiﬁcantly  worsened 
+creditworthiness. 
+
+Page 16 of 70 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Garcia extracted $352m while leverage grew to 20x-40x 
+
+Ernie Garcia II has extracted $352 million out of DriveTime, contrary to claims otherwise 
+
+There are suspicions in the marketplace that Carvana’s reported results are too good to be true, 
+and that the Company uses related parties to secretly absorb losses, and Ernie Garcia II injects 
+proceeds from CVNA share sales into these related parties to neutralize these losses. It has been 
+speculated1: 
+
+1.  DriveTime as a hidden-loss entity: Losses from risky loans (>70% default rates) are 
+
+allegedly moved off CVNA books  
+
+2.  These losses are absorbed by DriveTime, owned by Ernie Garcia II.  
+3.  This structure is described as "Ponzi-like" using share sales and stock price runs to reﬁll 
+
+capital as losses mount at DriveTime. 
+
+The DriveTime 2024 Annual Report conﬁrms that DriveTime absorbs huge cash losses. However, 
+it also reveals that debt issuance, not cash injections from Garcia II, prop up DriveTime, allowing 
+it to funnel proceeds to Carvana. But while DriveTime has been burning cash and raising debt, 
+Ernie Garcia II has extracted massive amounts of cash out of DriveTime. We ﬁnd this suspicious 
+for the following reasons: 
+
+1.  The Amounts Garcia II has extracted are very large, versus proﬁts and cash ﬂow. 
+2.  The Amounts are very large compared to proceeds from debt issuances. 
+3.  Timing of extraction is suspicious: why extract cash out as you’re burning cash and 
+
+raising debt, rather than when generating cash and paying down debt? 
+
+4.  These are also suspicious also given the context that CVNA was nearly bankrupt 
+5.  The way Garcia II extracts odd as well: Garcia II has only injected funds into DriveTime – 
+via contributions – and only extracted funds out of BridgeCrest –  via distributions. 
+Distributions have far exceeded contributions. 
+
+6.  We wonder if Garcia injects cash into DriveTime to maintain access to DriveTime related 
+
+credit facilities.  
+
+7.  Garcia II must be extracting cash out of BridgeCrest related sources, but it’s not clear 
+
+exactly how. 
+
+8.  We wonder if creditors even know that Garcia is injecting funds into DriveTime but 
+
+extracting far larger amounts out of Bridgecrest. 
+
+Ernie Garcia II has pulled out of over $352 million of DriveTime between 2022-2024 
+
+The DriveTime 2024 statement of cash ﬂows reveals Garcia II has been taking money out, not 
+putting into, a cash incinerating DriveTime2: 
+
+Page 17 of 70 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Within the ﬁrst three months of 2025, Garcia contributed and withdrew $200 million3: 
+
+The Amounts are very large compared to the debt issuance. We calculate that Garcia II took out 
+$352 million while DriveTime raised $1.43 billion in debt4:  
+
+DriveTime: Garcia's net cash extraction versus total financing raised
+
+FY Dec 31 ($mln)
+DriveTime: Net (distribution to)/contributions from shareholders [A]
+Total financing net raised (term securitization and wholesale) [B]
+Net cash extraction as % total funds raised [A/B]
+
+2022
+-218.9
+112.7
+-194.2%
+
+2023
+-122.1
+517.1
+-23.6%
+
+Cumul. 
+('22-'24)
+-351.9
+1,430.0
+-24.6%
+
+2024
+-10.9
+800.2
+-1.4%
+
+Garcia cash extraction is large even compared to DriveTime’s cash burn 
+
+We calculate DriveTime burned over $1 billion in free cash ﬂow between 2022-2024, and Garcia 
+extracted  $352  million,  which  is  equivalent  to  more  than  one  third  the  amount  the  business 
+burned5: 
+
+DriveTime (DT): Accounting for Garcia net cash extraction
+
+FY Dec 31 ($mln)
+DT: FCF [A]
+DT: Garcia net cash extraction [B]
+Total [A+B]
+
+2022
+62.0
+-218.9
+-156.9
+
+2023
+-339.9
+-122.1
+-462.0
+
+Cumul. 
+('22-'24)
+-1,006.4
+-351.9
+-1,358.3
+
+2024
+-728.5
+-10.9
+-739.4
+
+Garcia’s $352 million extraction is large compared to DriveTime’s 2022-2024 cumulative proﬁts6:  
+
+DriveTime (DT): Accounting for Garcia net cash extraction
+
+FY Dec 31 ($mln)
+DT: Garcia net cash extraction
+DT: Net Income
+DT net cash extraction as % of DT Net Income
+
+2022
+-218.9
+39.3
+
+2023
+-122.1
+-69.3
+-557.7% 176.1%
+
+Cumul. 
+('22-'24)
+-351.9
+10.8
+-26.7% -3273.2%
+
+2024
+-10.9
+40.8
+
+Garcia’s $352 million extraction is large compared to CVNA’s 2023-2024 cumulative proﬁts7: 
+
+DriveTime (DT): Accounting for Garcia net cash extraction
+
+FY Dec 31 ($mln)
+DT: Garcia net cash extraction
+CVNA: Net Income
+DT net cash extraction as % of CVNA Net Income
+
+2023
+-122.1
+150.0
+-81.4%
+
+Cumul. 
+('23-'24)
+-133.0
+554.0
+-24.0%
+
+2024
+-10.9
+404.0
+-2.7%
+
+Page 18 of 70 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Garcia earns a lot from other related party transactions with DriveTime, making this all the more 
+puzzling8: 
+
+Garcia II injecting into DriveTime, withdrawing out of Bridgecrest 
+
+The Garcia II are contributing funds into DriveTime while extracting funds from Bridgecrest.  Equity 
+investment increases paid in capital9: 
+
+However, the group sees net dividends paid out, from Bridgecrest, to Garcia II10: 
+
+Page 19 of 70 
+
+ 
+ 
+ 
+ 
+ 
+ 
+It  is  important  to  recall  that DT and Bridgecrest  are  CONSOLIDATED, but Bridgecrest  is NOT a 
+subsidiary – it is a sister company under “common control”.  So Bridgecrest pays a dividend, while 
+DT receives an infusion of new capital – why does DT need an infusion of capital, that seems like 
+a sick business – being subsidized by shareholders!11 
+
+The reasons for injecting equity into could be manifold, but one thing we note is that Bridgecrest 
+is funded via securitizations, which are large, static pools that are raised sporadically. They are 
+also asset backed, and not dependent on the creditworthiness of the issuer12: 
+
+Page 20 of 70 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+DriveTime accesses portfolio warehouse facilities, and the revolving inventory facility13: 
+
+These facilities, evidently named after DriveTime, allow DT to access liquidity rapidly.  By adding 
+equity  to  DriveTime,  this  injection  of  additional  funds  may  enhance  its  creditworthiness  and 
+therefore increase DTs ability to access these revolving facilities14: 
+
+An alternative that we frequently see with levered companies private (equity) companies that see 
+shareholders  injecting  funds  is  that  the  banks  are  demanding  more  capital  to  maintain  debt 
+facilities, which might be an alternate explanation. 
+
+Page 21 of 70 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Bridgecrest $900m loan loss: BAC’s pain is CVNA’s gain 
+
+BridgeCrest: Carvana acts like it has something to hide when it comes to BridgeCrest 
+
+Gotham  City  Research  has  observed  that  Carvana  acts  as  if  it  has  something  to  hide  when  it 
+comes to the entity called ‘Bridgecrest’. For example, the word ‘Bridgecrest’ does not appear at 
+all in CVNA 10K 2024. On its customer-facing website, Carvana acknowledges the existence of a 
+company called Bridgecrest, but refers to the company as merely a “third party loan servicer”1:  
+
+Actually, BridgeCrest is not a “third party”, but a related party, as it is ultimately 100% owned by 
+Ernie Garcia II. Also, Bridgecrest is not merely Carvana’s loan servicer but wears many hats: BAC’s 
+securitization program refers to BAC as: “sponsor”, “servicer”, “seller” and “originator”, etc2: 
+
+The absence of independent oversight is how people got screwed by Bernie Madoff.3 We believe 
+CVNA obfuscates who BridgeCrest is, and what it does, for the following reasons: 
+
+•  CVNA sells cars and then offloads toxic loans onto Bridgecrest’s balance sheet (most of 
+DriveTime’s  balance  sheet  is  Bridgecrest’s  balance  sheet.  And  Bridgecrest’s  balance 
+sheet is fully consolidated onto DriveTime).  
+
+•  So not only does Carvana’s earnings depend on proceeds from DriveTime debt issuances, 
+
+but the balance sheet backing DriveTime’s debt consist of toxic assets.  
+
+•  CVNA uses BridgeCrest servicing to generate artiﬁcial Gain on Sales. 
+
+In  this  and  the  next  section  Gotham  City  Research  explains  why  we  believe  Carvana  uses 
+Bridgecrest – via origination and/or asset sales – to dump risky loans on its balance sheet. That 
+Bridgecrest’s pain is Carvana’s gain.  
+
+Page 22 of 70 
+
+ 
+ 
+ 
+ 
+The following facts support our opinions: 
+
+•  DriveTime discloses $5.0 billion in loans on its balance sheet as of 2024, but mentions 
+$5.9  billion “originated  and  retained”  loans  elsewhere  in  its  2024  Annual  Report.  This 
+difference is explained as the loan principal balance versus the fair value of them. 
+
+•  Thus, DT recognized an instant $900 million marked to market loss on its loan portfolio in 
+2024, even as CVNA recognized an instant $755 million gains on its sale of its loans in 
+2024. DriveTime’s behavior in 2024 differs from how it marked its loan book in 2013. 
+•  Charge off-related notes to the ﬁnancial statements in the DriveTime 2024 annual report 
+
+• 
+
+reveal a 30% loss rate on its loans. 
+In  its  10K  2024,  CVNA  claims  “DriveTime  has  also  in  the  past  and  may  in  the  future 
+purchase or  sell  certain  vehicles  or automotive ﬁnance  receivables  from or  to  us.”  But 
+does not disclose speciﬁc amounts or any further information in its 10K. 
+
+•  Suspiciously, there is no mention of DriveTime purchasing or selling ﬁnance receivables 
+
+from/to CVNA in the DriveTime Annual Report 2024.  
+
+•  The only reported purchase of receivables is from GoFi LLC, a related party. 
+
+DriveTime instantly recognizes a marked to market loss on its 2024 loan balances 
+
+Many  Carvana  skeptics  have  already  shared  concerns  about  the  quality  and  trajectory  of 
+Subprime auto loans, and that Carvana and BridgeCrest could not be immune to that.4 We won’t 
+bore you with a repeat of that, as many Carvana watchers have already warned about the poor 
+quality of the Carvana and Bridgecrest loan pools. What we see in the DriveTime 2024 AR proves 
+that their concerns are correct: DT says its owned portfolio loan principal balance is $5.9 billion, 
+yet instantly marks this portfolio down to a fair value of $5.0 billion, an immediate -15% haircut5: 
+
+The Bridgecrest instant marked to market loss for 2023 and 2024 calculation6 
+
+1.  2024: $5.6+$0.3 = $5.9 vs $5.0 marked to market = difference = $900 million haircut 
+2.  2023: $4.8+$0.2 = $5.0 vs $4.2 marked to market = difference = $800 million haircut 
+
+Seeing that Gain on loan sales is such a large source of CVNA’s proﬁts, yet CVNA doesn’t disclose 
+how  exactly  they  generate  these  gains,  this  ﬁnding  is  very  concerning.  DriveTime’s  aggressive 
+markdown in 2024 coincides with Carvana’s large 2025 Gain on Loan Sales of $755 million7: 
+
+CVNA Gain on Loan Sales & Bridgecrest finance receivables balances
+2024
+755.0
+4,969.9
+5,930.1
+-960.2
+
+FY Dec 31 ($mln)
+CVNA: Gain on Loan Sales
+Bridgecrest: Fair value
+Bridgecrest: Loan principal balance
+Bridgecrest: Net
+
+2023
+434.0
+4,201.3
+5,003.5
+-802.2
+
+2022
+411.0
+3,756.1
+n/a
+n/a
+
+Page 23 of 70 
+
+ 
+ 
+ 
+ 
+ 
+This fact pattern is consistent with what is explained in the prior sections: CVNA and DriveTime 
+results move suspiciously in opposing directions. It’s as if DriveTime’s pain, is Carvana’s gain.  
+
+On its ﬁnance receivables, DriveTime 2013 looks like a for proﬁt business, 2023/2024 do not  
+
+A look at DriveTime’s balance sheet in in 2013 conﬁrms that 2023 and 2024 are suspicious. In 
+2013, the difference between carrying value and fair value of DriveTime’s ﬁnance receivable is not 
+only small, but the Level 3 value is higher than the Carrying Value – the exact opposite of 20248: 
+
+The difference in Principal Balances and Total Finance receivables is also small in 20139: 
+
+Just like other red ﬂags we have already discussed, the difference between loan principal amount 
+and fair value lead us to believe DriveTime’s origination activities are not evident of a for proﬁt 
+business, whereas it was in the past. CVNA sells most of its loans, but how CVNA marks its loan 
+book more resembles how DriveTime does so in 2013, compared to how DriveTime does in 202410: 
+
+Carvana says it has sold loans to DriveTime, but doesn’t specify how much nor when exactly 
+
+CVNA  details  dozens  of  immaterial  related  party  transactions,  their  exact  dollar  amounts  and 
+details, in its 10K. Yet when it comes to its lending relationship with its related party, Bridgecrest, 
+CVNA  refuses  to  even  mention  Bridgecrest  by  name  (you  have  to  work  out  that  Bridgecrest  is 
+actually consolidated into DriveTime, which isn’t necessarily an obvious fact), and also provides 
+zero disclosures on exact dollar amounts of its lending activity with Bridgecrest, instead saying11:  
+
+“DriveTime  has  also  in  the  past  and  may  in  the  future  purchase  or  sell  certain  vehicles  or 
+automotive ﬁnance receivables from or to us.”   
+
+Page 24 of 70 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+DriveTime also does not disclose any purchase of loans from Carvana 
+
+Carvana says that it sells loans to DriveTime without specifying how much or when. DriveTime 
+does  not  even  disclose  that  they  purchase  or  sells  loans  from  CVNA.  Though  DriveTime  does 
+disclose purchases of ﬁnance receivables, these are tiny amounts compared to Originations12: 
+
+DriveTime’s purchase of $174.7 million are all purchases from GoFi LLC, a related party 
+
+DriveTime’s purchased 174.7 million of receivables from GoFi LLC, a related party ultimately fully 
+owned by Ernie Garcia II13: 
+
+There is a footnote, mentioning that $170 million on receivables on balance were “originated and 
+purchased from related parties”. We are not sure why this footnote refers related parties in the 
+plural, as DriveTime has only disclosed purchase from a single related party, GoFi14: 
+
+DriveTime assets are of poor quality: the fair value of loans charged off = 11 cents on the $ 
+
+Of all loans the Company has charged off, where the loan principal balances were $2.3 billion 
+as of 2024, the fair market value of that $2.3 billion is $251 million, implying losses of 89%.15 
+
+Page 25 of 70 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+From the disclosures shown in the previous page, we can calculate the total marked to market 
+return on the portfolio, inclusive of both the current and charged off loans: 
+
+• 
+
+• 
+
+If we combine the principals of the charged off loans and the existing loans, we arrive at 
+$8.2 billion = $5.6+$0.3+$2.3 billion.  
+If we combine the fair value of the charged off loans and the existing loans, we arrive at 
+$5.0 billion = $4.6+0.166+$0.25 billion. 
+
+Thus, on a $8.2 billion combined principal of loans as of 2024, the fair market value of these loans 
+is  $5.0  billion.  This  implies  the  marked  to fair  value total  loss  is -39%.  Our  calculation  is a  bit 
+higher but within range of the assumptions shown below (from the same page as the screenshot 
+from the previous page), under ‘Remaining cumulative net losses” 
+
+The difference between our calculation and the inputs may be that our calculation is for the total, 
+not remaining, losses. 
+
+Bridgecrest assets are of poor quality: No FiCo score percentage high vs others16 
+
+FICO Analysis by Issuer
+
+Total # of 
+Loans
+302,905
+224,186
+311,426
+58,281
+
+Total # of 
+Loans with no 
+or zero FICO
+20,285
+6,758
+0
+2,750
+
+Issuer ABS
+Bridgecrest
+Carvana
+Carmax 2025
+ALLY 2025-1
+
+FICO Analysis: BLASTs
+
+Bridgecrest 
+ABS
+BLAST 2026-1
+BLAST 2025-4
+BLAST 2025-3
+BLAST 2025-2
+BLAST 2025-1
+BLAST 2024-4
+BLAST 2024-3
+BLAST 2024-2
+BLAST 2024-1
+
+Total # of 
+Loans
+33,934
+30,066
+26,229
+40,030
+34,784
+37,360
+39,836
+30,596
+30,070
+
+Total # of 
+Loans with no 
+or zero FICO
+1,299
+962
+2,093
+2,978
+2,761
+2,807
+3,177
+2,138
+2,070
+
+% of 
+Total
+6.7%
+3.0%
+0.0%
+4.7%
+
+% of 
+Total
+3.8%
+3.2%
+8.0%
+7.4%
+7.9%
+7.5%
+8.0%
+7.0%
+6.9%
+
+Page 26 of 70 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CVNA-tied loans in BAC misrepresented in SEC ﬁlings 
+
+In  the  previous  section,  we  explained  how  DriveTime’s  treatment  of  its  loans  contrasted  with 
+Carvana’s treatment of its own: whereas, CVNA instantly book gains on loans that it sold in 2024, 
+DriveTime  immediately  marked  down  the  value  of  its  loans  in  2024.  We  ﬁnd  this  divergence 
+suspect, especially given that Carvana admits to selling loans to DriveTime, but oddly does not 
+disclose when nor how much. In this section, we show hard evidence that CVNA’s toxic loans sit 
+on DriveTime’s balance sheet. We provide irrefutable evidence that they are on balance sheet. 
+Gotham City Research believes this has some serious implications, including:  
+
+•  Carvana, DriveTime, and/or Bridgecrest securitization SEC ﬁlings and disclosures to the 
+
+SEC fundamentally mispresent and omit material activities between them.  
+
+•  The auditors are in trouble, and there will be an independent investigation into all these.  
+•  Risk of double pledging of collateral and collateral misrepresentation. 
+
+The following facts support our opinion:  
+
+•  Gotham  City  Research  has  uncovered  dozens  of  auto  vehicles  tied  to  Carvana,  not 
+DriveTime, that appear in Bridgecrest securitizations (BLASTs) and vehicle history reports.  
+•  These records conﬁrm that there are loans on Bridgecrest’s balance sheet that are tied to 
+
+vehicles that CVNA sold. These records claim BridgeCrest is the originator. 
+
+•  But  neither  Carvana  nor  DriveTime  annual  reports  disclose  that  Bridgecrest  originates 
+loans  for  vehicles  sold  by  Carvana.  Either  these  disclosures  are  incorrect,  or  the 
+BridgeCrest securitization XML ﬁles are incorrect in labelling Bridgecrest as originator. 
+•  There is both Main Street and Wall Street confusion as to whether Bridgecrest or Carvana 
+is the lender to customers who buy cars from Carvana as evident in Court ﬁlings, Better 
+Business Bureau correspondences, Reddit, and other online forums 
+
+Irrefutable loan-level evidence that Bridgecrest holds CVNA-related loans, why it matters 
+
+The table shows loans that appear in BridgeCrest ABS securitizations that are tied to CVNA1:  
+
+Asset 
+Number
+3351830
+3405694
+3425144
+3378339
+3502408
+3569031
+3593816
+3600478
+3608972
+3630320
+3698371
+3721624
+3806217
+3830854
+3838507
+3845495
+3847293
+3865084
+3877445
+3887205
+3885323
+3986182
+4018039
+4076337
+4084349
+4100348
+4130647
+4209318
+4220502
+4233066
+4242617
+4250692
+4276579
+4459562
+
+BLAST 
+Securitization: 
+Year & Series 
+2024_1
+2024_1
+2024_1
+2024_1
+2024_2
+2024_3
+2024_3
+2024_3
+2024_3
+2024_3
+2024_3
+2024_4
+2024_4
+2025_1
+2025_1
+2025_1
+2025_1
+2025_1
+2025_1
+2025_1
+2025_1
+2025_2
+2025_2
+2025_2
+2025_2
+2025_2
+2025_2
+2025_3
+2025_3
+2025_3
+2025_3
+2025_3
+2025_4
+2025_4
+
+Origination 
+date: Month 
+& Year
+09/2023
+11/2023
+11/2023
+10/2023
+01/2024
+03/2024
+04/2024
+04/2024
+04/2024
+05/2024
+06/2024
+07/2024
+08/2024
+09/2024
+09/2024
+09/2024
+09/2024
+10/2024
+10/2024
+10/2024
+10/2024
+12/2024
+01/2025
+02/2025
+03/2025
+03/2025
+03/2025
+05/2025
+05/2025
+04/2025
+05/2025
+05/2025
+06/2025
+09/2025
+
+Vehicle 
+Manufacturer 
+name
+Honda
+Ford
+Chevrolet
+Chevrolet
+BUICK
+Hyundai
+Toyota
+Chevrolet
+Hyundai
+Nissan
+Jeep
+Mazda
+Hyundai
+Ford
+Toyota
+Chevrolet
+Mitsubishi
+Ford
+Chevrolet
+Ford
+Chevrolet
+Lincoln
+Nissan
+Nissan
+Chevrolet
+Hyundai
+Hyundai
+Dodge
+Chevrolet
+Toyota
+Hyundai
+Hyundai
+Hyundai
+Chevrolet
+
+Vehicle 
+Model 
+Vehicle Model 
+Year
+name
+2013
+Pilot
+2017
+Edge
+2020
+Equinox
+2018
+Equinox
+2019
+Encore
+2019
+TUCSON
+2017
+Camry
+2021
+Traverse
+SANTA FE Sport 2018
+2015
+Rogue
+2018
+Compass
+2018
+CX-5
+2018
+ELANTRA
+2018
+Escape
+2014
+Camry
+2023
+Trailblazer
+2018
+Outlander
+2019
+Fiesta
+2015
+Camaro
+2022
+Edge
+2021
+Equinox
+2021
+Corsair
+2023
+Altima
+2021
+Rogue
+2023
+Malibu
+2023
+SANTA FE
+2023
+ELANTRA
+2019
+Journey
+2024
+Malibu
+2016
+Camry
+2017
+SONATA
+2023
+SONATA
+2023
+SANTA FE
+2024
+Malibu
+
+Originator 
+Name
+BAC
+BAC
+BAC
+BAC
+GOFI
+BAC
+BAC
+BAC
+BAC
+BAC
+BAC
+BAC
+BAC
+BAC
+BAC
+BAC
+BAC
+BAC
+BAC
+BAC
+GOFI
+BAC
+BAC
+BAC
+BAC
+BAC
+BAC
+BAC
+BAC
+GOFI
+BAC
+BAC
+BAC
+BAC
+
+Obligor 
+Credit 
+Score
+495
+558
+591
+537
+568
+N/A
+477
+568
+510
+567
+501
+530
+670
+458
+568
+665
+600
+494
+441
+498
+448
+575
+677
+609
+599
+501
+533
+514
+516
+571
+488
+524
+566
+532
+
+VIN Number
+
+Bridgecrest  KL4CJ1SB8KB880848
+Bridgecrest  KM8J2CA43KU889854
+Bridgecrest  4T1BF1FK3HU722326
+Bridgecrest  1GNERGKW8MJ172919
+Bridgecrest
+Bridgecrest
+Bridgecrest
+Bridgecrest
+Bridgecrest
+Bridgecrest
+Bridgecrest
+Bridgecrest
+Bridgecrest
+Bridgecrest
+Bridgecrest
+Bridgecrest
+
+Lienholder
+Latest Listed for sale
+Bridgecrest  5FNYF4H50DB052860
+Carvana 2023-09-17
+Bridgecrest  2FMPK3K9XHBC41026
+Carvana 2023-11-27
+Carvana 2023-11-05
+Bridgecrest  3GNAXJEV1LS513028
+Hertz Car Sales 2023-09-28, Carvana 2023-09-23 Bridgecrest  2GNAXHEV0J6333057
+Carvana 2024-01-07
+Carvana 2024-02-24
+Carvana 2024-04-13
+Carvana 2024-04-11
+5XYZTDLB1JG524658
+Carvana 2024-04-04
+KNMAT2MT6FP525804
+Carvana 2024-05-28
+3C4NJDCB4JT234444
+Carvana 2024-06-18
+JM3KFBCM0J0467431
+Carvana 2024-07-07
+5NPD74LF6JH247581
+Carvana 2024-08-15
+1FMCU0HD4JUC47164
+Carvana 2024-09-27
+4T1BF1FK3EU848066
+Carvana 2024-09-18
+KL79MPS25PB172085
+Carvana 2024-09-14
+JA4AD3A31JZ069662
+Carvana 2024-08-29
+3FADP4EJ7KM129638
+Carvana 2024-10-27
+2G1FB1E3XF9106430
+Carvana 2024-10-16
+Carvana 2024-10-17
+2FMPK4K95NBA39681
+Hertz Car Sales 2024-10-13, Carvana 2024-09-29 Bridgecrest  2GNAXKEV6M6101967
+5LMCJ1D96MUL18009
+Carvana 2024-12-10
+Bridgecrest
+1N4BL4BV6PN341342
+Bridgecrest
+Carvana 2024-12-30
+JN8AT3CA6MW023940
+Hertz Car Sales 2025-01-30, Carvana 2025-01-30 Bridgecrest
+1G1ZD5ST9PF140886
+Hertz Car Sales 2025-02-27, Carvana 2025-02-24 Bridgecrest
+5NMS2DAJXPH629809
+Hertz Car Sales 2025-03-16, Carvana 2025-03-08 Bridgecrest
+KMHLS4AGXPU473039
+Bridgecrest
+Carvana 2025-03-14
+3C4PDCBB2KT764327
+Carvana 2025-05-01
+Bridgecrest
+1G1ZD5ST5RF172060
+Hertz Car Sales 2025-05-16, Carvana 2025-05-15 Bridgecrest
+4T1BF1FK4GU568031
+Bridgecrest
+Carvana 2025-04-27
+5NPE24AF7HH572238
+Carvana 2025-05-05
+Bridgecrest
+KMHL64JA3PA318611
+Carvana 2025-05-14, Hertz Car Sales 2025-05-14 Bridgecrest
+5NMS24AJ4PH543024
+Hertz Car Sales 2025-06-05, Carvana 2025-05-14 Bridgecrest
+1G1ZD5ST9RF216366
+Hertz Car Sales 2025-10-01, Carvana 2025-09-17 Bridgecrest
+
+Page 27 of 70 
+
+ 
+ 
+ 
+What  the  table  shows:  Each  row  in  the  table  shows  a  loan  that  appears  in  BridgeCrest 
+securitizations XML ﬁles submitted to the SEC. The Asset number is an identiﬁer found in the XML 
+ﬁles. For each loan, we found evidence that CVNA sold the car. The loan details in the XML ﬁles 
+match the information found in Vin reports, including car model, model year, price, etc.  
+
+Tying the securitization loan data to the Vinaudit reports: a walkthrough via example 
+
+While  Carvana  acknowledges  an  ongoing  relationship  with  DriveTime,  speciﬁc  disclosures 
+remain lacking. Carvana’s 2024 10-K notes that DriveTime has historically engaged in—and may 
+continue to engage in—the purchase or sale of vehicles and ﬁnance receivables with Carvana. 
+However, Carvana provides no speciﬁc data regarding the timing, frequency, or amounts of these 
+transactions between Carvana and DriveTime2: 
+
+An examination of Bridgecrest (BLAST) securitization ﬁles reveals cases in which Carvana is listed 
+as the seller for vehicles where Bridgecrest is both the designated loan originator and lienholder. 
+
+A speciﬁc example of the above involves a 2021 Lincoln Corsair (VIN: 5LMCJ1D96MUL18009)3: 
+
+The VinAudit report conﬁrms Bridgecrest as the lienholder of the vehicle4: 
+
+Sale records from the same report show that on December 10th 2024, the vehicle was listed for 
+sale by Carvana with a price of $28,5905:  
+
+Page 28 of 70 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The BLAST 2025-2 securitization ﬁle includes a 2021 Lincoln Corsair of vehicle amount $28,590 
+that  was originated by Bridgecrest  Acceptance  Corp  (BAC)  in  December  2024.  The  origination 
+date  corresponds  with  the  vehicle’s  sale  listing  by  Carvana,  as  documented  via  VinAudit.  The 
+following data was extracted from the relevant securitization records6: 
+
+ns1:assetTypeNumber
+BAC
+ns1:vehicleManufacturerName
+Lincoln
+
+ns1:assetNumber
+3986182
+ns1:vehicleModelName
+Corsair
+
+ns1:originatorName
+BAC
+ns1:vehicleModelYear
+2021
+
+ns1:originationDate
+12/2024
+ns1:vehicleValueAmount
+28590.46000000
+
+Note how the originator name appears as BAC (shorthand for Bridgecrest). But these are loans 
+on cars that Carvana sold. 
+
+No mention of Bridgecrest originating loans for vehicles sold by anyone other than DriveTime 
+
+Evidence  from  the  BLAST  securitization  pools  and  VinAudit  reports  conﬂict  with  DriveTime’s 
+disclosures. There is no mention in the DriveTime AR of origination on purchase of Carvana cars: 
+
+• 
+
+In its DriveTime 2024 AR, there is clearly no mention of BridgeCrest originating loans or 
+providing auto ﬁnancing to Carvana, nor anyone else, except for itself (DriveTime) 
+
+•  DriveTime also does not disclose any purchase of loans from Carvana (which conﬂicts 
+
+with CVNA 10K, which claims CVNA does sell loans to DriveTime). 
+
+The DriveTime 2024AR mentions that BAC provides auto ﬁnancing for DriveTime, no mention of 
+Carvana7:  
+
+“Bridgecrest  Acceptance  Corporation  provides  auto  ﬁnancing  and  loan  servicing  for 
+substantially all vehicles sold by DTAG as well as third-party loan servicing.” 
+
+Same thing, no mention in other parts of the DriveTime 2024 AR8: 
+
+“DTAG originates and sells 100% of its loans to Bridgecrest, which Bridgecrest is required 
+to purchase.” The ﬁling also notes that Bridgecrest was “speciﬁcally created and designed 
+by DTAG to obtain third-party ﬁnancing for DTAG’s originations.”  
+
+Additionally,  a  BLAST  prospectus  conﬁrms  that  the  seller  –  Bridgecrest  Acceptance  Corp  – 
+“provides  ﬁnancing  for  substantially  all  of  the  used  vehicles  DriveTime  Car  Sales  sells  at  its 
+dealerships  through  retail  installment  sales  contracts  utilizing  a  centralized  underwriting 
+process.”9: 
+
+Page 29 of 70 
+
+ 
+ 
+ 
+ 
+ 
+ 
+No mention of Bridgecrest originating loans for Carvana cars, in Carvana disclosures either 
+
+Carvana’s website https://www.carvana.com/help/payment-and-ﬁnancing/i-ﬁnanced-my-loan-
+with-carvana-who-is-bridgecre…  identiﬁes Bridgecrest as its “third-party loan servicer”, in the 
+context of Carvana ﬁnancing the car purchase, not Bridgecrest ﬁnancing the car purchase10:  
+
+•  The CVNA website clearly states that Carvana, not Bridgecrest, is the lienholder. 
+•  The CVNA does not mention that Bridgecrest can be the lender nor originator. 
+•  And it’s not just Carvana’s website: the word ‘Bridgecrest’ does not even appear a single 
+
+time in the CVNA 2024 10K nor the CVNA 2025 proxy statement (def 14a).  
+
+•  There is also no mention in CVNA’s 2024 10K that DriveTime nor Bridgecrest originates 
+
+any of its loans. 
+
+Carvana admits it sells loans to DriveTime (without mentioning the name Bridgecrest) 
+
+Carvana’s latest 10K acknowledges it sells loans to DriveTime, but CVNA does not specify when 
+exactly nor how much exactly it has bought or sold ﬁnance receivables from/to DriveTime11: 
+
+-  CVNA 2024 10K: We beneﬁt from our relationship and a series of arrangements with 
+DriveTime and its affiliates that cannot be assumed to have been negotiated at arm’s 
+length. DriveTime has also in the past and may in the future purchase or sell certain 
+vehicles or automotive ﬁnance receivables from or to us.  
+
+This would explain how Carvana could originate loans and then sell them to DriveTime. But this 
+conﬂicts  with  the  BLAST  securitization  disclosures.  These  disclosures  cannot  be  all  accurate, 
+which is why we believe someone will get in trouble here.  
+
+Evidence of obvious confusion as to who Bridgecrest is and who Carvana is:  In consumer 
+complaints  and  comments,  we  see  Bridgecrest  mentioned  as  the  lienholder,  lender,  etc.  of 
+Carvana car purchases. There is evidence of obvious confusion as to who Bridgecrest is and who 
+Carvana is: Not just in the SEC filings nor DriveTime 2024. See the supplemental report for more 
+information with examples from12: 
+
+1.  Court filings 
+2.  Consumer complaints 
+3.  Consumer online forums, social media. 
+
+Page 30 of 70 
+
+ 
+ 
+ 
+ 
+ 
+ 
+Why we think BridgeCrest drives CVNA’s Gain on sales 
+
+Gain on Sales are disclosed as big driver of earnings, but CVNA does not disclose how  
+
+High dependence and ramp up in Gain on Sales for CVNA’s predecessor company, Ugly Duckling 
+(before it became DriveTime) was a red ﬂag, a precursor to decline in earnings. We are seeing both 
+in the case of CVNA, as Gain on Sales have grown aggressively over the last few years1: 
+
+FY Dec 31 ($mln)
+
+CVNA: Adjusted EBITDA and Gain on Loan Sales (GoS)
+2024 9M 2025
+2023
+Total revenues 10,771.0 13,673.0 14,719.0
+1,726.0
+339.0
+11.7%
+3.1%
+878.0
+434.0
+50.9%
+128.0%
+
+Adjusted EBITDA
+Adj EBITDA margin
+Gain on Loan Sales
+GoS as % of Adj EBITDA
+
+1,378.0
+10.1%
+755.0
+54.8%
+
+But CVNA does not explain how they achieve their Gain on Sales. Yes, CVNA says it originates and 
+soon after sells its receivables, booking a gain, but that is about saying as much as “we make 
+money buying low and selling high.”  
+
+Gotham  City  Research  believes  Carvana’s  Gain  on  Sale  is  not  a  gain  with  real  underlying 
+economic substance; rather we believe Carvana sells loans to “third parties” (who may be related 
+parties)  at  artiﬁcially  inﬂated  prices  vs  fair  value,  recognizes  this  difference  as  “gain  on  loan 
+sales”, and BridgeCrest the servicer subsidizes the “third parties” in an amount equal or greater 
+to  these  Gain  on  Sale  amounts.  Thus,  we  see  the  Gain  on  Sales  as  a  clever  way  for 
+DriveTime/Bridgecrest to subsidize Carvana. Carvana’s gain, is Bridgecrest’s pain. 
+
+Why we believe Carvana’s Gain on Sales are driven by Bridgecrest servicing fee games 
+
+Carvana provides limited to no disclosure regarding its Gain on Loan Sales, even though it is the 
+single  largest  component  of  its  proﬁts.  CVNA  and  Bridgecrest  are  sister  companies  under 
+common control and ownership, and Bridgecrest services all Carvana loans – an inherent conﬂict 
+of interest. Thus, their owner, Ernie Garcia II cold take a hit in one company, Bridgecrest, for the 
+beneﬁt  of  the  other,  Carvana.  Gotham  City  Research  believes  the  Garcias  use  Bridgecrest  as 
+servicer  to  help  Carvana  report  bogus  Gain  on  loan  sales.  In  fact,  we  see  a  scheme  that 
+resembles what we see between GoFi and DriveTime (see the GoFi section for more details). Here 
+are the facts that support our view: 
+
+1.  Ally and Purchaser trusts pay servicing fee of 2.9% and 2.2% respectively in 2024, $87.1 
+and $84.5 million in fees. These ﬁgures can be calculated with the CVNA 10K & DEF14.  
+
+2.  Undisclosed Third parties pay 0.12% in servicing fees, which amounts to $10.4 million in 
+2024.  it is unclear if these third parties are related parties. We are able to calculate this 
+implied servicing fee with ﬁgures only found in the DriveTime 2024 Annual Report. 
+
+3.  Third parties would pay $133-$177 million in fees, not $10.4 million, If they paid 
+
+servicing fees closer to market rates (which we believe Ally and Purchaser do in 2024). 
+
+4.  The average maturity of Subprime auto loans is just over 5 years. 5 years of servicing 
+
+fees for third parties would be 133-177 * 5 = $667-$889 million in fees. CVNA reported 
+$755m of Gain on Loan Sales in 2024. We don’t think it’s a coincidence these amounts 
+are similar.  
+
+5.  What we are observing reminds us of the transactions between GoFi and DriveTime. 
+GoFi sells loans to DriveTime and artiﬁcially generate Gain on Sales (nearly 100% of 
+
+Page 31 of 70 
+
+ 
+ 
+ 
+Goﬁ’s revenues). GoFi then uses those proceeds to pay DriveTime’s expenses.  Please 
+see the GoFi Gain on Sale section for more details. 
+
+6.  CVNA outright says not to assume its business dealings with its related parties are arm’s 
+
+length. 
+
+CVNA DEF14A reveals key Bridgecrest servicing related details not found in CVNA 10K 
+
+CVNA  10K  2024  provides  limited  information  regarding  fees  that  DriveTime  (i.e.,  Bridgecrest) 
+earns  from  servicing.  However,  CVNA’s  proxy  statements,  DEF14,  provides  a  bunch  of 
+information not available in the 10K.  
+
+CVNA DEFf14 reveals that Ally and Purchaser trusts pay the highest fee amounts in $ terms2: 
+
+We calculate the servicing fee rates with the information provided from the DEF143: 
+
+Carvana: Servicing Agreements with DriveTime (DT)
+
+FY End December
+
+DT servicing fee for…
+
+Carvana (CVNA)
+Third parties
+Ally Parties
+Purchaser trusts
+CVNA Credit facilities
+Total
+
+DT 
+servicing 
+fee ($mln)
+
+2024
+Receivables 
+amount 
+($mln)
+
+6.4
+10.4
+87.1
+84.5
+3.7
+192.1
+
+612
+8,888
+3,000
+3,800
+0
+16,300
+
+Implied 
+servicing 
+fee (%)
+
+1.046%
+0.117%
+2.903%
+2.224%
+n/a
+1.179%
+
+Ally and Purchaser trust pay a higher rate than CVNA does. But what of Third parties?4  
+
+DriveTime 2024 AR reveals key details to calculate servicing fees % for third parties 
+
+The DriveTime 2024 annual report that contains critical information not found in Carvana ﬁlings. 
+
+Page 32 of 70 
+
+ 
+ 
+ 
+ 
+ 
+•  servicing and other revenue for 2024 = $196.662 million. The sum of all disclosed 
+
+servicing related fees in CVNA def 14 = $192, quite similar. 
+
+•  Additionally,  DriveTime  2024  Annual  Report  discloses  the  total  $  amount  of  loans 
+serviced,  split  by  loans  owned  by  DriveTime  vs  loans  owned  by  third  parties:  As  of 
+December 31, 2024, Bridgecrest serviced $22.2 billion in loan principal balances, which 
+consisted of $5.9 billion in loan principal balances owned by Bridgecrest and $16.3 billion 
+in loan principal balances owned by third parties.5 
+
+•  Thus if we reduce $16.3 billion – the loan amount Drivetime services third parties – by the 
+sum  of  the  amounts  of  loans  disclosed  in  above  table  that  DT  services  –  we  can  then 
+calculate the implied fee rate for third parties. 
+
+We calculate that Third parties pay 0.12% far lower than 1-3% for everyone else 
+
+As you can see in the table above, Third parties pay far less in servicing fee rate than everyone 
+else. We think this is how CVNA structures transactions with third parties to book high Gain on 
+Sale.  
+
+Whereby we calculate that CVNA’s 2023 and 2024 Gain on Sale amounts are roughly equivalent 
+to 5 years of reduced servicing fees. Here are supporting facts: 
+
+• 
+
+If  third  parties  were  to  pay  market  rates  rather  than  the  suspicious  0.12%  rate,  we 
+calculate they would pay between $197.6-$258.0 million per year. 
+
+•  5 years of servicing fees at market rates = 666.6 – 888.8 million in total fees. 
+•  CVNA’s 2024 gain on sales amount sits between this range. 
+
+We  think  Carvana  and  Bridgecrest  structured  this  loan  sale  transaction  with  third  parties 
+whereby: 
+
+1.  CVNA sells the loans to third parties at a premium to fair value of the loans, whereby the 
+
+premium minus fair value = the gain on loan sales. 
+
+2.  CVNA in exchange directs Bridgecrest to de facto waive at least 5 years of servicing fees. 
+3.  Win win. 
+
+This  table  below  shows  the  $  amounts  that  third  party  would  at  the  respective  fee  rates.  The 
+second row show the total $ amount over 5 years6: 
+
+For 2024
+Annual ($mln)
+5 years worth ($mln)
+
+3.0%
+266.6
+1,333.2
+
+2.5%
+222.2
+1,111.0
+
+2.0%
+177.8
+888.8
+
+1.5%
+133.3
+666.6
+
+1.0%
+88.9
+444.4
+
+0.5%
+44.4
+222.2
+
+Carvana: Market based fee range calculation of CVNA and Third parties' Receivables amounts
+
+($mln)
+
+DriveTime 
+servicing fee 
+for…
+
+CVNA
+
+Third parties
+
+Total
+
+2024
+
+Receivables 
+amount
+
+Receivables' 
+market based fee: 
+Low end
+
+Receivables' 
+market based 
+fee: High end 
+
+Receivables' 
+market based 
+fee: Average
+
+612
+
+8,888
+
+9,500
+
+13.6
+
+666.6
+
+680.2
+
+17.8
+
+888.8
+
+906.6
+
+15.7
+
+777.7
+
+793.4
+
+For 2023 and 2022, we deduce that total loan principal balance = sum of CVNA securitization 
+transactions: as this $16.3bln in loan principal balances owned by third parties” is very similar to 
+
+Page 33 of 70 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+the total CVNA securitization transaction (disclosed in 10K) amounts from 2019 to 2024 ($16.8bln 
+is the sum total)7:  
+
+FY Dec 31 ($mln)
+Securitization Transactions 
+
+Carvana: Finance Receivable Balances
+2021
+5,000.0
+
+2019
+1,900.0
+
+2020
+899.8
+
+2018
+0.0
+
+2022
+2,400.0
+
+2023
+2,800.0
+
+2024
+3,800.0
+
+For 2022 and 2023, we also see that that CVNA and third parties pay a far lower servicing fee rate 
+than other parties8: 
+
+Carvana: Servicing Agreements with DriveTime (DT)
+
+FY End December
+
+2022
+
+2023
+
+2024
+
+DT servicing fee for…
+
+Carvana (CVNA)
+Third parties
+Ally Parties
+Purchaser trusts
+CVNA Credit facilities
+Total
+
+DT 
+servicing 
+fee ($mln)
+
+Receivables 
+amount 
+($mln)
+
+Implied 
+servicing 
+fee (%)
+
+DT 
+servicing 
+fee ($mln)
+
+Receivables 
+amount 
+($mln)
+
+Implied 
+servicing 
+fee (%)
+
+DT 
+servicing 
+fee ($mln)
+
+Receivables 
+amount 
+($mln)
+
+Implied 
+servicing 
+fee (%)
+
+3.7
+6.8
+45.6
+63.6
+6.1
+125.8
+
+1,334
+1,701
+3,800
+2,400
+965
+10,200
+
+0.277%
+0.400%
+1.200%
+2.650%
+0.632%
+1.233%
+
+3.7
+4.5
+72.4
+65.0
+8.8
+154.4
+
+807
+5,238
+3,600
+2,800
+555
+13,000
+
+0.458%
+0.086%
+2.011%
+2.321%
+1.586%
+1.188%
+
+6.4
+10.4
+87.1
+84.5
+3.7
+192.1
+
+612
+8,888
+3,000
+3,800
+0
+16,300
+
+1.046%
+0.117%
+2.903%
+2.224%
+n/a
+1.179%
+
+Carvana says don’t assume its related party transactions are arm’s length CVNA 10K9 
+
+Servicing fee rate disclosures validate our approach 
+
+The  Servicing  fee  rates  that  Ally  and  Purchaser  Trusts  pay  appear  to  be  a  blended  average  of 
+servicing fee rates we found disclosed. Fees as low as 0.54% per annum10: 
+
+Fees as high as 3.50%11 
+
+Page 34 of 70 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GoFi, DriveTime, and the circular ﬂow of money 
+
+The DriveTime 2024 ﬁnancials reveal that DriveTime is in very fragile ﬁnancial condition. Adjusted 
+EBITDA  doesn’t  cover  interest  expense  in  either  2023  nor  2024,  it  is  levered  20x-40x,  just  to 
+backstop a billion dollars in cash burn. This fragile construct drives CVNA earnings.  
+
+We  obtained  the  GoFi  2024  Annual  Report  via  FOIA  request:  it  reveals  that  GoFi  might  be  to 
+DriveTime,  what  DriveTime  is  to  CVNA:  a  vehicle  to  artiﬁcially  overstated  DriveTime’s  reported 
+results. And also, GoFi too is audited by Grant Thornton, just like DriveTime and Carvana. 
+
+GoFi seems to serve multiple roles, but in this section, we focus on why we believe GoFi Is used 
+to overstate DriveTime results, and therefore indirectly subsidize CVNA. Why would Garcia use 
+GoFi to do so, if he already has DriveTime?  
+
+We think DriveTime may have reached its limits, as leverage grew high in 2023/2024, so Garcia 
+reactivated GoFi just in case, and has ramped up its activities as needed. There are two speciﬁc 
+ways we believe GoFi boosts CVNA: (i) GoFi incurs costs/losses from Bridgecrest, to relieve some 
+pressure  off  DriveTime,  so  DT  can  take  more  risk  to  subsidize  CVNA  (ii)  GoFi  works  with 
+Bridgecrest to help CVNA dump its toxic loans on GoFi/Bridgecrest’s balance sheet. 
+
+This section focuses on: 
+
+1.  Introducing GoFi as an undisclosed related party.  
+2.  Like DriveTime, GoFi also burns cash from 2022-2024, even as CVNA generates cash. 
+3.  Like DriveTime, GoFi doesn’t seem to be operated as a standalone, for-proﬁt company. 
+goal is to subsidize the Garcia ecosystem, whereby the primary beneﬁciary is CVNA. 
+
+4.  We estimate 2022-2024 total $20-$30 million in total subsidization of DriveTime. 
+5.  This subsidization funded by Ernie Garcia capital contributions. 
+6.  GoFi is presented as an AI play, but we don’t see evidence of AI play in ﬁnancial 
+
+statements. 
+
+7.  Nearly all of GoFi’s revenue seems Gain on Sales to BridgeCrest.  
+
+GoFi “launches” in 2022, according to a Bridgecrest press release 
+
+In 2022: “Bridgecrest, one of the country's leading digital ﬁnancial services providers, announced 
+the launch of its newest affiliate, GoFi, an AI-enabled, digital-ﬁrst lending platform.” 1 
+
+The  2022  article  below  states “GoFi  is  focused  on  offering  its  innovative  white-label  and  co-
+branded auto ﬁnance solutions to banks, lenders and other partners”2: 
+https://www.prnewswire.com/news-releases/bridgecrest-launches-goﬁ-to-create-digital-ﬁrst-
+lending-platform-301616060.html 
+
+GoFi is not an affiliate, but a related party 
+
+The Bridgecrest press release claims GoFi is an affiliate, but Drive Time and GoFi’s 2024 annual 
+reports refer to GoFi as a related party of DriveTime. This distinction matters: the DriveTime and 
+GoFi  ﬁlings  reveal  GoFi  is  NOT  consolidated  unto  DriveTime  (though  as  we  show  later,  GoFi 
+actually originally launched in 2011 as a subsidiary of DriveTime!).  
+
+Page 35 of 70 
+
+ 
+ 
+ 
+ 
+ 
+ 
+GoFi is 100% owned by Ernest C Garcia II3:        
+
+No evidence of AI related revenue or spending in GoFi 2024 annual report 
+
+There  is  no  mention  of  AI,  Artiﬁcial  intelligence  in  GoFi’s  annual  report.  There  is  no  income, 
+expense,  asset  or  liability  that  appears  in  any  way  related  to  AI.  Instead,  nearly  100%  of  its 
+activities in income statement are related party transactions4: 
+
+1.  Revenue Includes $7,185,702 and $1,876,468 for the twelve months ended December 
+
+31, 2024 and 2023, respectively, associated with related parties. 
+
+2.  Operating expenses Includes $7,163,300 and $4,291,518 for the twelve months ended 
+
+December 31, 2024 and 2023, respectively, associated with related parties. 
+
+3.  We note that the related party revenues and operating expenses are similar in amount. 
+
+Cash ﬂow statement concerns: cash incinerator, backstopped by ‘Member contribution’5 
+
+Cash  ﬂow  statement  is  basically  all  related  party  action  too:  Capitalization  of  internally 
+developed software 100% related parties: Includes $(1,190,198) and$(1,285,763) for the twelve 
+months ended December 31, 2024 and 2023, respectively, associated with related parties. 
+
+Page 36 of 70 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GoFi boosts DriveTime reported results 
+
+While it doesn’t appear to be much, GoFi’s related party transactions boost DriveTime’s results 
+(by absorbing costs). For example, in 2024 we estimate that without GoFi DriveTime would have 
+reported  $30,  not  $40  million  net  proﬁt.  And  for  2023,  an  $89  million  loss  instead  of  
+$69 million loss6: 
+
+DriveTime net income adjusted for GoFi subsidization
+
+2024
+FY Dec 31 ($mln)
+40.8
+DriveTime net income [A]
+9.8
+Less: GoFi GoFi subsidization * [B]
+DT net income - GoFi subsidization [A-B]
+31.0
+* Calculation is Member contribution + Member withdrawal.
+
+2023
+-69.3
+20.0
+-89.3
+
+Cumul. 
+(2023-2024)
+-28.5
+29.8
+-58.3
+
+GoFi almost looks like an extension of DriveTime/Bridgecrest 
+
+Perhaps the  fact  GoFi was  originally referred  to  as  an affiliate of Bridgecrest  is  revealing;  GoFi 
+website appears tied to BridgeCrest. For example, if you select ‘customers’ on GoFi’s website, 2 
+out of 3 links direct to Bridgecrest, and 1 out of 3 links is a dead end7: 
+
+•  Want to sign up for AutoPay or make a payment? – click here, and it’s a Bridgecrest URL8 
+•  Questions about your loan? Need to talk to an agent? – click here, and it’s Bridgecrest 
+
+URL9 
+
+•  Need help with a vehicle purchase in progress? – click here, and it’s a defunct page10 
+
+The GoFi website is not up to the standard of a legit company, much less one operating in ﬁnancial 
+services, or in A.I. – there’s no links nor anything beyond what you see below under ‘Products’11: 
+
+Page 37 of 70 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Bridgecrest and GoFi: evidence they act like one company 
+
+GoFi LLC shares many of the same top officers as Bridgecrest12: 
+
+•  Ernie Garcia II ultimately owns 100% of GoFi LLC and Bridgecrest 
+•  Mary Leigh Phillips is CEO of GoFi and Bridgecrest 
+
+•  Daniel Gaudreau is CFO of DriveTime and GoFi 
+•  Clay Scheitzach is General Counsel of both as well. 
+
+•  GoFi LLC shares same address as Bridgecrest 
+
+This  April  2025  GoFi  ﬁling  lists  its  mailing  address  as  1720  W  Rio  Salado  Parkway,  Tempe,  AZ 
+8528113: 
+
+Page 38 of 70 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The same address is associated with Bridgecrest across multiple sources14: 
+
+Also, 1720 W Rio Salado Parkway, Tempe, AZ 85281 seems to be the DriveTime Corporate Office15: 
+
+Clicking on any of the entity names above leads to an “Entity Info” page where the entity name is 
+GoFi  LLC.  Names  we’ve  come  across  before  are  some  of  the  listed  managers  (Mary  Leigh 
+Philipps and Daniel Gaudreau)16: 
+
+Page 39 of 70 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+GoFi impact on DT interest expense coverage: DriveTime interest coverage as calculated and 
+stated (latter just from 2022 onwards)17: 
+
+DriveTime: Ratio of adjusted earnings EBITDA to total interest expense ("Interest Coverage")
+
+FY Dec 31 ($mln)
+Adjusted earnings EBITDA
+Total interest expense
+Interest Coverage (calculated)
+Interest Coverage (stated)
+
+2008
+104.5
+97.1
+1.08x
+
+2009
+159.5
+110.7
+1.44x
+
+2010
+197.9
+98.1
+2.02x
+
+2011
+180.5
+73.1
+2.47x
+
+2012
+162.9
+73.1
+2.23x
+
+2013
+174.0
+75.1
+2.32x
+
+2022
+333.0
+88.4
+3.77x
+3.8x
+
+2023
+85.6
+159.5
+0.54x
+0.5x
+
+2024
+227.5
+235.9
+0.96x
+1.0x
+
+DriveTime interest coverage adjusted for GoFi subsidization for 2023 and 202418: 
+
+DriveTime: Interest Coverage adjusted for GoFi subsidization
+2023
+85.6
+20.0
+65.6
+159.5
+0.41x
+
+FY Dec 31 ($mln)
+DriveTime Adjusted earnings EBITDA
+Less: GoFi net member contribution / (withdrawal)
+Adj earnings EBITDA - GoFi net member cont/(withdrawal)
+Total interest expense
+Implied Coverage ratio adjusted 
+
+2024
+227.5
+9.8
+217.7
+235.9
+0.92x
+
+Possible explanation as to why structured as related party, not subsidiary of Bridgecrest 
+
+Why would Ernie Garcia II originally refer to GoFi as an affiliate of Bridgecrest, but then structure 
+the relationship as a related party (i.e., whereby they are under common ownership vis a vis Ernie 
+Garcia II, but Drivetime/Bridgecrest doesn’t own and therefore doesn’t consolidate GoFi)? GoFi 
+used to be a subsidiary of DriveTime, and thus used to be an affiliate. 
+
+However,  we  believe  one  advantage  of  this  structure  is  that  if  Garcia  II  wants  to  subsidize 
+DriveTime, doing so through GoFi is more elegant than injecting capital into DriveTime directly. If 
+he  injects  capital  directly,  there  are  balance  sheet  and  cash  ﬂow  statement  implications. 
+However, if he subsidizes DriveTime via GoFi, those de facto contributions would help DriveTime’s 
+income statement. 
+
+In summary: It appears DriveTime buys loans at an artiﬁcial premium to GoFi’s fair market value.  
+With  the  gain  on  these  loan  sales,  Goﬁ  then  contributes  funds  to  DriveTime,  which  boosts 
+DriveTime’s income statement.  Ultimately, we think the costs of these roundabout transactions 
+are borne by BLAST and possibly Carvana creditors. 
+
+In the next section, we explain how GoFi’s originations are suspect and remind us of Bridgecrest 
+loans that were tied to Carvana. We then explain how GoFi’s construct might be a blueprint for 
+other related party schemes.  
+
+Page 40 of 70 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GoFi originations and its Gain on Sale are suspect 
+
+Why we believe Carvana is dumping loans onto GoFi, and about GoFi’s Gain on Sales  
+
+As we have learned from Carvana and Bridgecrest ﬁling disclosures, the absence of disclosure 
+does not necessarily mean there’s an absence of transaction. We believe GoFi was created (or 
+more precisely, reactivated) because DriveTime/Bridgecrest was reaching limits on its ability to 
+backstop  CVNA  in  2024  –  20x-40x  leverage  seems  aggressive  even  by  the  standards  of  the 
+Garcias, who even the most diehard and loyal bulls have said have been “aggressive”. Here are 
+the reasons that support our view: 
+
+•  GoFi sold loans to BridgeCrest. Disclosed and matching on both GoFi and DriveTime 
+
+ﬁlings. Goﬁ, however, does not disclose who exactly it bought the loans from. 
+
+•  GoFi is referred to as originator, in some of the loans found in BLAST sec submissions, 
+yet there is no disclosure nor evidence of origination in GoFi’s 2024 Annual Report. 
+•  GoFi has been referred to explicitly as Carvana lender: This company has a bunch of 
+different names anybody else have a car with GOFI as lender ? They are all Same 
+company with different names anybody else1 
+
+•  GoFi and CVNA share the same lienholder addresses, according to multiple different 
+
+• 
+
+sources, and true both in the past as well as the present.  
+In some of these BLASTs, we have found Carvana appears as seller where GoFi is 
+referred to as originator in BLAST securitizations (similar to what we found for BAC). 
+•  No mention of GoFi in CVNA ﬁlings nor CVNA in GoFi in CVNA ﬁlings, despite a long 
+history together for over 10 years, and despite the fact Garcia II owns 100% of GoFi. 
+•  Although GoFi has been referred to as an affiliate of BridgeCrest (which would apply if it 
+is consolidated under Bridgecrest/DriveTime), and there are many concrete signs they are 
+de facto the same company, DriveTime and GoFi 2024 feelings reveal that GoFi is a related 
+party, not affiliate, and thus not consolidated under Bridgecrest.  
+
+•  Bridgecrest lends to and/or purchases ﬁnance receivables from cars CVNA sold. these 
+transactions occurred, CVNA didn’t disclose, thus we think they do same here with GoFi. 
+
+GoFi reports that it purchases and sells ﬁnance receivables in its 2024 annual report2: 
+
+Page 41 of 70 
+
+ 
+ 
+ 
+ 
+ 
+Nearly  100%  of  GoFi  Revenues  are  Gain  on  sales  from  the  purchase  and  sale  of  ﬁnance 
+receivables3: 
+
+Note how there is no mention of origination. We have not seen any mention of origination in the 
+entire GoFi 2024 Annual Report.  
+
+Also,  we  note  that  this  $7.1  million  gain  on  sale  is  calculated  as  the  difference  between  total 
+proceeds of $174.7 million less $167.6 million of ﬁnance receivables measured at fair value.4 
+
+In its 2024 annual report, GoFi discloses that they sold these ﬁnance receivables to related party 
+Bridgecrest. And it looks like BridgeCrest purchased these loans from GoFi at a premium to fair 
+value. Maybe BridgeCrest is able and willing to overpay for these loans because GoFi subsidizes 
+BridgeCrest costs (evidently where the subsidization is far greater than this gain on sale), as we 
+explained in the prior section. 
+
+But who does GoFi purchase from? GoFi doesn’t reveal the identity of who they buy from, instead 
+using the all too familiar language that we have found on CVNA, DriveTime, and CVNA website: 
+“Third party” dealers. When Grant Thornton audited companies – Carvana, DriveTime, and now 
+GoFi – have said “third party” we have actually found cases it means “related party”. There’s also 
+no mention of GoFi in CVNA ﬁling, and no mention of CVNA in GoFi ﬁling. We ﬁnd this disclosure 
+omission  notable,  given  that  we  identiﬁed  vehicles  that  Carvana  sold  that  are  classiﬁed  as 
+originated by GoFi in BLAST securitizations.  
+
+Page 42 of 70 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Carvana identiﬁed as seller where GoFi is referred to as originator in BLAST securitizations 
+
+In some of these BLASTs, we have found Carvana identiﬁed as seller of the vehicle where GoFi is 
+referred to as originator in BLAST securitizations. Here is an illustrative example. 
+
+VinAudit report on 2016 Toyota Camry (VIN: 4T1BF1FK4GU568031) and its speciﬁcations5: 
+
+Bridgecrest is detailed as the vehicle’s lienholder6:      
+
+Sale Records show Carvana as the seller. The latest “listed for sale” date is 2025-04-27, with a 
+listing price of $13,5907:  
+
+This 2016 Toyota Camry with vehicle amount of $13,590 is found in Bridgecrest’s BLAST 2025-3. 
+Within this ﬁle, the originator name associated with this row is GOFI8:  
+
+ns1:assetTypeNumber
+BAC
+ns1:vehicleManufacturerName ns1:vehicleModelName ns1:vehicleNewUsedCode
+TOYOTA
+
+ns1:assetNumber
+4233066
+
+Camry
+
+2
+
+ns1:reportingPeriodBeginningDate ns1:reportingPeriodEndingDate ns1:originatorName
+11-01-2025
+
+ns1:originationDate
+04/2025
+
+11-30-2025
+ns1:vehicleModelYear
+2016
+
+GOFI
+ns1:vehicleTypeCode ns1:vehicleValueAmount
+1
+
+13590.00000000
+
+It’s not just in this example: GoFi is Referred to as ‘originator’ in BLAST for growing % of loans9: 
+
+GoFi originated loans: BLAST 2024-1 to BLAST 2026-1
+
+GOFI as the 
+originator: 
+Origination 
+year
+
+Origination Date: 
+No. of loans 
+originated per 
+year
+
+Origination 
+Date: % of 
+total
+
+2021
+
+2022
+
+2023
+
+2024
+
+2025
+
+2026
+
+Total
+
+0
+
+3
+
+1,283
+
+6,703
+
+8,677
+
+0
+
+0.0%
+
+0.0%
+
+7.7%
+
+40.2%
+
+52.1%
+
+0.0%
+
+16,666
+
+100.0%
+
+Page 43 of 70 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+But in GoFi Annual report 2024 no mention of origination activity. Contrasts this against DriveTime 
+ﬁling  where  there  are  many  disclosures  regarding  its  origination  activities  (but  no  disclosure 
+regarding origination of loans for cars that Carvana sold).  
+
+GoFi and Carvana share the same addresses as lienholders 
+
+GoFI LLC and Carvana share same Lienholder address: State of Massachusetts records reveal 
+that GoFI LLC and Carvana share the same Lienholder address. GoFi’s mailing address is PO BOX 
+29002 / PHOENIX / AZ 8503810: 
+
+Carvana’s mailing address is also PO BOX 29002 / PHOENIX / AZ 8503811: 
+
+21 November 2025 Texas Department of Motor Vehicles Registration and Title System lienholder 
+list also reveals that GoFi and Carvana also show that they share the same address12: 
+
+GoFi address: PO Box 29002, Phoenix, AZ 85038 
+
+Carvana’s own website says: If you are ﬁnancing with Carvana, the lien holder address is Carvana 
+LLC: PO Box 29002, Phoenix, Az 8503813: 
+
+GoFI and Carvana and DriveTime: a long history together since 2011 
+
+GoFi is portrayed as if it were something new back in its 2022 PR by Bridgecrest. But in reality, 
+GoFi has existed for a long time. GoFi launched in 2011 (GoFi has gone number the names CarFi 
+LLC, GFC Lending LLC, Go Financial Company LLC, and GoFi)14: 
+
+GoFi is an indirect lender15: 
+
+Page 44 of 70 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GoFi grew quickly in 2 years from 2011-2013, its balance sheet larger in 2013 than in 202416: 
+
+But then just 2 years later DriveTime sold GoFi to the shareholders of DriveTime. IT is also shown 
+that GoFi purchased loans from Carvana17: 
+
+GoFi has been referred to explicitly as Carvana lender: 
+
+Source:https://www.facebook.com/groups/610745439892680/posts/1524639308503284/?
+comment_id=1553352638965284 
+
+Page 45 of 70 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Accounting irregularities re: SilverRock & commissions 
+
+Accounting irregularities in Related party commissions (a big part of CVNA earnings) 
+
+As we have previously discussed, Carvana earnings are highly dependent on “Other Sales and 
+Revenue”, which consists of disclosed related party income and Gain on Sales. The Disclosed 
+related party income consists of related party commissions on ancillary products1:  
+
+And these related party commissions consist of 100% gross margins2: 
+
+Hindenburg Research last year questioned the economics of these transactions, saying3: 
+
+Carvana Appears To Be Dumping Unreported Costs Of Extended Warranties Onto Related-Party 
+DriveTime,  Resulting  In  Artiﬁcially  Inﬂated  Revenue  And  Proﬁtability.  We  Estimate  Carvana 
+Reports ~58% More Warranty Income Per Sale Due To An Overly Favorable Relationship With The 
+Private Entity Controlled By Its CEO’s Father”  
+
+Hindenburg did not possess the DriveTime 2024 Annual Report. Upon our review of these new 
+sources of information, Gotham City Research believes there is indeed something off about these 
+transactions. Speciﬁcally, we ﬁnd both the implied economics as well as the accounting of them, 
+highly suspect. Therefore, we believe one of Carvana’s most important sources of proﬁts is not 
+reliable. Here are the facts and observations supporting our opinions: 
+
+1.  SilverRock and DT/BAC generate similar amounts of revenue from ancillary products but 
+SilverRock’s cost of revenue is 2x Dr. This seems where value is extracted away from DT 
+into CVNA. This conﬁrms Hindenburg’s suspicion something is off. 
+
+2.  We see accounting irregularities within the CVNA 10K 2024, regarding its Commission 
+
+and other sales and revenue disclosures.  
+
+3.  We also see accounting irregularities in reported Commission related party transaction 
+
+ﬁgures, between the CVNA 2024 10K and DriveTime 2024 Annual Report. 
+4.  Similar problems with Other ancillary services related party transactions. 
+5.  Commissions balance sheet ﬁgures in DriveTime accounting irregularities. 
+
+SilverRock’s gross margins on ancillary products are 15% while for DriveTime, 55% 
+
+In the last few pages of the DriveTime 2024 Annual Report, DriveTime discloses a Supplementary 
+ﬁnancial statement that provides information from a segment/business entity perspective. With 
+these  numbers,  we  calculate  proﬁtability  for  Ancillary  products  (these  are  where  the  CVNA 
+related party commissions come from). Even though SilverRock Group is the brand and corporate 
+entity  tied  to  these  ancillary  products,  somehow  DriveTime  entity  reports  higher  margins  on 
+them4: 
+
+2024 Ancillary product profitability analysis
+
+FY Dec 31 ($mln) Revenue
+315.2
+SilverRock Group
+281.1
+DT, BAC & Cons. Entries
+596.3
+Total
+
+Costs Gross Profit
+47.7
+267.5
+153.5
+127.6
+201.2
+395.1
+
+GM (%)
+15.1%
+54.6%
+33.7%
+
+Page 46 of 70 
+
+ 
+ 
+  
+ 
+ 
+Figures from the prior table are from the below, shows that SilverRock’s ancillary product cost of 
+sales is more than double DriveTime/Bridgecrest’s5: 
+
+COMMISSION paid to related party and other third parties are reﬂected in this ancillary product 
+cost of sales line, as revealed in the DriveTime 2024 AR6: 
+
+Therefore,  it  seems  the  Garcias  funnel  income  out  of  SilverRock  and  into  Carvana,  out  of 
+SilverRock’s cost of sales, explaining why their Costs are double DriveTime/Bridgecrest’s. 
+
+Commission and other don’t match within CVNA 10K 2024 
+
+Sales commissions, earned from related parties, and at 100% gross margin, are a large portion of 
+CVNA’s reported proﬁts. Given how important these numbers are to CVNA, it is concerning that 
+these ﬁgures don’t reconcile within CVNA 2024 10K: You’ll see at the bottom of the exhibit below 
+that  the  sales  commissions  on  VSCs  and  reported  related  party  revenues  of ‘other  sales  and 
+revenue’ don’t match7:  
+
+Carvana: Other sales and revenue by component
+
+FY Dec 31 ($mln)
+
+Gain on Loan Sales 
+
+Sales commissions on complementary products: VSC
+
+Master Dealer Agreement: Adjust excess reserve payment calcs
+
+Plug/other/undisclosed
+
+Reported Other sales and revenue
+
+Sales commissions VSC + Adjust excess reserve payment calcs
+
+Reported related party revenue portion in Other sales and revenue
+
+Difference
+
+2022
+
+411.0
+
+176.0
+
+1.0
+
+153.0
+
+741.0
+
+177.0
+
+176.0
+
+1.0
+
+2023
+
+434.0
+
+138.0
+
+0.0
+
+2024 YTD 2025
+
+755.0
+
+193.0
+
+0.0
+
+878.0
+
+242.0
+
+0.0
+
+181.0
+
+203.0
+
+154.0
+
+753.0 1,151.0
+
+1,274.0
+
+138.0
+
+145.0
+
+-7.0
+
+193.0
+
+200.0
+
+-7.0
+
+242.0
+
+248.0
+
+-6.0
+
+Page 47 of 70 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Commission related party transactions don’t match between CVNA and DriveTime 
+
+Not only do these important ﬁgures not match within CVNA’s 2024 10K, they don’t match between 
+CVNA and DriveTime’s respective 2024 annual reports: 
+
+1.  CVNA reports $193, $138, and $176 million of commissions  
+2.  DriveTime reports $205, $148, $183 million but are reported as include on balance sheet.  
+3.  DriveTime  reports  different  ﬁgures  as  the  amortized  expense  of  these  balance  sheet 
+items. But neither the amounts reported by DriveTime reconcile with CVNA’s ﬁgures. 
+
+Disclosure  in  CVNA  10K  2024:  Master  Dealer  Agreement  with  DriveTime  for  the  sale  and 
+administration  of  Vehicle  Service  Contracts  (VSCs).  VSC  Commissions  earned  by  CVNA  were 
+$193 million in 2024, $138 million in 2023, and $176 million in 2022. See below8: 
+
+Disclosure  in  DriveTime  2024:  Master  Dealer  Agreement  between  SilverRock  and  CVNA. 
+SilverRock pays Carvana commissions for the sale of SilverRock products, which are recorded as 
+deferred acquisition costs. Commissions Paid to Carvana include $205.3 million in 2024, $148.5 
+million in 2023, and $183.5 million in 2022. See below9: 
+
+Page 48 of 70 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Deferred acquisition costs and other assets balance sheet odd too 
+
+DriveTime  accounts  for  these  sales  commissions  both  on  its  income  statement  and  balance 
+sheet.  On  DriveTime’s  consolidated  balance  sheet,  this  Deferred  acquisition  costs  and  other 
+assets appears in the amount of $540.2 million10: 
+
+The same asset appears in a separate Bridgecrest balance sheet, in the amount $1.12 billion, 
+more than double what appears in the consolidated balance sheet11: 
+
+Yes, the above table presents a summary of the assets and liabilities of Bridgecrest before giving 
+effect  to  the  elimination  of  intercompany  transactions.  If  we  look  at  the  footnote  2  for  the 
+deferred acquisition costs and other assets, footnote 2 says12:  
+
+Includes $541.2 million and $476.3 million as of December 31, 2024 and December 31, 2023, 
+respectively, of intercompany receivables from DriveTime Automotive Group, Inc. 
+
+But even if we reduce the $1,123.7 million in Deferred acquisition costs and others by $541.2 
+million of intercompany receivables, we are left with $582 million. This $582 million does not 
+reconcile with the $540 million on the consolidated balance sheet. 
+
+Even stranger, in the supplemental balance sheet, Deferred acquisition costs and other assets 
+are minus $373.228 million under DTAG/BAC13:  
+
+Page 49 of 70 
+
+ 
+ 
+ 
+ 
+ 
+Other ancillary revenue activities: accounting regularities 
+
+Gotham City Research examined the accounting of 3 different sources of ancillary revenues: 
+
+1.  Wholesale vehicle sales 
+2.  Wholesale Marketplace 
+3.  Reconditioning 
+
+And we checked the disclosures across CVNA 2024 10K, CVNA DEF14, and the DriveTime 2024 
+Annual Report. The wholesale vehicle sales ﬁgures match across all 3 different sources14: 
+
+Carvana 2024 10K (in $mln)
+
+Carvana DEF 14As (in $mln)
+
+Wholesale Vehicle Sales: Figure comparison
+
+2024 CVNA Revenue recognized 12.0 2024 CVNA Revenue recognized from DT 12.2 2024 DT purchases from CVNA
+2023 CVNA Revenue recognized 10.0 2023 CVNA Revenue recognized from DT
+9.8 2023 DT purchases from CVNA
+2022 CVNA Revenue recognized 30.0 2022 CVNA Revenue recognized from DT 29.6 2022 DT purchases from CVNA
+
+DriveTime 2024 AR (in $mln)
+12.5
+10.5
+29.6
+
+However, when it comes to Wholesale Marketplace and Reconditioning, they don’t match. We 
+ﬁnd 3 sets of different disclosures for Wholesale Marketplace: 
+
+Wholesale Marketplace Revenues: Figure comparison
+
+Carvana 2024 10K (in $mln)
+
+Carvana DEF 14As (in $mln)
+2024 CVNA Revenue recognized 16.0 2024 CVNA Revenue recognized from DT 11.3
+8.0
+2023 CVNA Revenue recognized 9.0 2023 CVNA Revenue recognized from DT
+2.8
+2022 CVNA Revenue recognized 2.0 2022 CVNA Revenue recognized from DT
+
+2024 COGS to DT related to reconditioning 2.0
+2023 COGS to DT related to reconditioning <1.0
+
+We also ﬁnd 3 sets of different disclosures for Reconditioning: 
+
+DriveTime 2024 AR (in $mln)
+4.9
+3.6
+3.4
+4.7
+3.5
+1.2
+
+2024 Fees paid to CVNA
+2023 Fees paid to CVNA
+2022 Fees paid to CVNA
+… of which incl. in COGS (2024)
+… of which incl. in COGS (2023)
+… of which incl. in COGS (2022)
+
+Retail Vehicle Acquisition & Reconditioning ("Recon") Services Agreements: Figure comparison
+
+Carvana 2024 10K (in $mln)
+2024 Inventory vehicles and recon services
+0.0
+2023 Inventory vehicles and recon services <1.0
+
+2024 CVNA Revenue recognized from DT recon services
+2023 CVNA Revenue recognized from DT recon services
+
+Carvana DEF 14As (in $mln)
+4.2
+0.8
+
+1.0
+2024 COGS recognized re these vehicles
+2023 COGS recognized re these vehicles
+4.0
+2022 COGS recognized re these vehicles 22.0
+
+2024 CVNA Expenses recognized from DT recon services
+2023 CVNA Expenses recognized from DT recon services
+
+2.7
+0.5
+
+2024 DT payment for vehicle recon costs
+2023 DT payment for vehicle recon costs
+… of which incl. in COGS (2024)
+… of which incl. in COGS (2023)
+… of which incl. in inventory (2024)
+… of which incl. in inventory (2023)
+
+DriveTime 2024 AR (in $mln)
+4.5
+0.4
+3.8
+0.1
+0.7
+0.3
+
+2024 CVNA expenses re DT vehicle purchase agreement  N/A
+2023 CVNA expenses re DT vehicle purchase agreement 
+2022 CVNA expenses re DT vehicle purchase agreement 
+
+0.1 Adesa held $Xmln of DT inventory (2024)
+2.3 Adesa held $Xmln of DT inventory (2024)
+
+5.3
+8.4
+
+ We also want to ﬁnd something we found particularly odd about reconditioning services: who 
+paid who? 
+
+•  CVNA says it paid DT -  CVNA say its paid DT and that these costs for CVNA are reﬂected 
+
+in COGs in the amounts of 1, 4 and 22 million. 
+
+•  DT says it paid CVNA, but that it also was paid. The numbers don’t reconcile with CVNA’s.  
+•  and the Carvana proxy presents something totally different.  
+
+Page 50 of 70 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Bridgecrest, servicing related Accounting irregularities  
+
+Bridgecrest is very important to Carvana, but we see accounting irregularities  
+
+Carvana  earnings  are  highly  dependent  on  related  party  income  and  Gain  on  Sales.  We  have 
+explained why we believe Bridgecrest plays a critical role in boosting CVNA results far more than 
+CVNA discloses. We have explained that we believe this happens in two different ways: 
+
+1.  CVNA  works  with  Bridgecrest  to  artiﬁcially  generate  Gain  on  Loan  Sales  from  sale  of 
+
+ﬁnance receivables to third parties. 
+
+2.  CVNA dumps bad loans onto Bridgecrest, and thus Bridgecrest’s pain, is Carvana’s gain. 
+
+What  gives  us  additional  conﬁdence  that  Carvana  and  Bridgecrest  are  up  to  no  good:  we  see 
+accounting irregularities in Bridgecrest related ﬁgures and disclosures. Here is what supports our 
+view: 
+
+1.  The servicing revenue amounts disclosed in CVNA 2024 10K don’t match the amounts 
+
+disclosed in DriveTime’s 2024 AR.  
+
+2.  BridgeCrest ﬁnancials servicing vs supplemental don’t match. 
+3.  BridgeCrest balance sheet ﬁgures don’t match with consolidated or supplemental ﬁgures 
+4.  The CVNA 10K understates the relationship, compared to the def14a ﬁling.  
+
+Servicing revenues don’t match between CVNA 10K and DT AR  
+
+The CVNA 10K 2024 states it paid DriveTime $10, $13, and $10 million1: 
+
+The DriveTime 2024 AR states it generated $9.0, $13.8, and $10.0 million2: 
+
+BridgeCrest acceptance Servicing and other revenue accounting irregularities  
+
+The  DriveTime  2024  includes  select  income  statement  amounts  for  Bridgecrest  Acceptance 
+Corporation. According to the Bridgecrest income statement disclosures, Bridgecrest generated 
+$206.6 million in servicing and other revenue in 20243: 
+
+Page 51 of 70 
+
+ 
+ 
+ 
+ 
+ 
+ 
+It’s not clear how/why this $206.6 million is larger than the consolidated total amount of $196 
+million, given that the Bridgecrest income statement disclosures don’t say they are before giving 
+effect to elimination. After all, for the BridgeCrest, it is explicitly disclosed that the Bridgecrest 
+balance sheet is before giving effect to elimination. 
+
+Even more bizarre: in the DriveTime supplemental ﬁnancial statements, DriveTime Automative 
+Group, BridgeCrest Acceptance Corporation and Consolidating Entities report a MINUS $64.4 
+million in servicing and other revenue4: 
+
+This  amount  clearly  does  not  match  $206.6  million  amount  from  the  Bridgecrest  income 
+statement disclosures. This would seem to be a contradiction. 
+
+What’s also strange is that the $261 million under the “consolidated SilverRock Group” column 
+doesn’t match the $206.6 million either. We don’t know how or why, but in theory the SilverRock 
+Group column may house Bridgecrest Credit (“BCC”), the servicing business, as the following 
+shows that SilverRock Group is a member of BCC5: 
+
+Page 52 of 70 
+
+ 
+ 
+ 
+ 
+ 
+But SilverRock Group is consolidated within Bridgecrest Acceptance, so BridgeCrest Credit 
+should be included within Bridgecrest Acceptance6:  
+
+There could be a convoluted explanation, reconciling these seeming contradictions. But given we 
+suspect that Bridgecrest’s servicing business plays a critical role in artiﬁcially boosting CVNA’s 
+proﬁts via gain on loan sales (as we discussed), we are not surprised that these numbers don’t 
+make sense. 
+
+Bridgecrest balance sheet accounting irregularities  
+
+We examined the Bridgecrest balance sheet against the DriveTime consolidated balance sheet. 
+The  amounts  mostly  match  between  the  two  (even  though  the  Bridgecrest  balance  sheet  is 
+presented before giving effect to the elimination of intercompany transactions)7: 
+
+1.  Restricted cash – nearly matches 
+2.  Finance receivables – match exactly 
+3.  On the liabilities side: Portfolio term and Portfolio warehouse facilities all match 
+
+Page 53 of 70 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Deferred acquisition costs and other assets 
+
+But  the  $1,123,702  of  deferred  acquisition  costs  and  other  assets  on  the  Bridgecrest  balance 
+sheet (see prior page) doesn’t match the amounts show in the below table8: 
+
+It’s also not clear how the minus $373.2 million in Deferred acquisition costs and other assets 
+works,  especially  since  income  statement  shows  real  amounts  for  ancillary  product  cost  of 
+sales9:
+
+Bridgecrest cash 
+
+BridgeCrest  Acceptance  Corp  –  Cash  and  cash  equivalents  of  $17,108  doesn’t  match  the  of 
+$9,879 of cash for DriveTime Automotive Group, Inc., Bridgecrest Acceptance Corporation and 
+Consolidating Entries in the below table10: 
+
+This would imply that DTAG cash = negative, Or that the BAC cash portion is included into the 
+DTAG/BAC  consolidation,  and  the  remainder  is  actually  in  SilverRock  Group.  If  either  of  these 
+possibilities are correct, this further validates our view that DriveTime doesn’t appear to be run as 
+an independent for proﬁt enterprise, as the implied cash for DriveTime would be absurdly low. 
+
+Page 54 of 70 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Grant Thornton: auditor for Tricolor, CVNA, & DriveTime 
+
+Why we believe Grant Thornton is in a lot of trouble 
+
+Grant  Thornton  was  the  auditor  of  Tricolor  –  Carvana’s  peer  that  recently  went  bankrupt  and 
+where there was a multi-year fraud.1 Following an initial 2022 audit by another ﬁrm (Crowe) that 
+raised concerns, Tricolor hired Grant Thornton to vet its 2023 and 2024 accounts. Like Carvana, 
+Tricolor was a one stop shop – sold cars, ﬁnanced them, and serviced them. Tricolor became one 
+of the largest in the country. Yet as the DOJ complaint alleges, there was falsifying auto-loan data 
+and ‘double pledging’ collateral2: 
+
+“As alleged in the indictment, CEO Daniel Chu was the leader of an elaborate scheme to 
+defraud  creditors  of  Tricolor,”  said  U.S.  Attorney  Jay  Clayton.   “At  his  direction,  Tricolor 
+repeatedly lied to banks and other credit providers, including by falsifying auto-loan data 
+and ‘double pledging’ collateral.”  
+
+Grant Thornton is also the auditor for Carvana, DriveTime, and GoFi LLC. Although they aren’t the 
+same  companies,  they  are  under  common  control,  and  there  are  material  related  party 
+transactions between them. 
+
+Gotham City Research believes Grant Thornton and Carvana are in trouble in the following ways: 
+
+•  Grant  Thornton  will  resign  or  be  terminated  as  the  auditor  for  the  Garcia  companies, 
+
+including Carvana, DriveTime, or GoFi. 
+
+•  Carvana and DriveTime’s reported ﬁgures and disclosures will be found to be deﬁcient, 
+
+and thus will be required to restate past ﬁnancial statements. 
+
+•  Carvana, DriveTime, and GoFi’s 2025 annual reports will be delayed.  
+•  The SEC will intensify its on-going scrutiny of Carvana, leading to enforcement action.  
+
+Here are the reasons we believe Grant Thornton and Carvana are in trouble: 
+
+•  Accounting  irregularities  within  each  and  between  the  Carvana  and  DriveTime  2024 
+
+Annual Reports. 
+
+•  Key material omissions of fact/disclosures as explained in this report. 
+
+CVNA disclosed that they received a SEC subpoena in June 20253 
+
+The wheels of justice turn slowly, but grind exceedingly ﬁne. 
+
+Page 55 of 70 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CVNA shares uninvestable, accident waiting to happen 
+
+Why we believe shares are uninvestable, as it can face sudden and permanent impairment 
+
+Overall, we believe that Carvana’s shares are uninvestable and have a far higher chance of being 
+worth zero than the market currently believes.  The reason for this is that we see this related party 
+construct as an accident that is waiting to happen for the following reasons: 
+
+•  Leverage – both disclosed and hidden, as we discussed in this report. 
+•  Toxic and illiquid assets backing this leverage. 
+•  Accounting  irregularities,  disclosure  omissions,  suspicious  related  party  transactions, 
+and,  conﬂicts  of  interest.  Trust  is  foundational  to  credit,  yet  we  see  many  reasons  to 
+distrust the Garcia ecosystem, as we explained in this report. 
+
+•  Complexity and interconnectedness between parties that are suspicious and levered. 
+
+While we have identiﬁed many factors that are quantiﬁable in this report, in most cases we never 
+uncover ALL the schemes, in situations like these.  It could be anything to trigger a collapse. Here 
+are some things that could act as the proverbial needle that breaks the Camel’s back: 
+
+•  CVNA, DriveTime, and GoFi’s auditor Grant Thornton resigns, delays the CVNA 2025 10K. 
+•  The SEC intensiﬁes scrutiny, and other agencies investigate Carvana and DriveTime. 
+•  Carvana  or  Bridgecrest  creditors  ability  or  willingness  to  fund  these  businesses  or 
+securitizations declines or ceases, because of reasons identiﬁed in this report, market 
+conditions, or other factors. 
+
+We believe it takes very little to trigger a series of events that lead to a permanent impairment of 
+value of CVNA shares. 
+
+Why we believe shares are worth $100-$186, implying -61%-79% downside 
+
+Absent the risk of an accident, we lay out our scenarios on how investors might value shares of 
+Carvana, should our assumptions prove correct.   
+
+We run two scenarios1:  
+
+(a) Scenario 1: we adjust the EBITDA of Carvana for the subsidy from DriveTime, as well as haircut 
+Carvana’s  growth  proﬁle,  given  we  believe  that  DriveTime  supports  Carvana’s  growth  by 
+absorbing  bad  loans  from  CVNA  car  sales,  thus  enabling  Carvana  to  grow  and  capture  the 
+seemingly risk-free upside of the car while transferring the actual risk onto DriveTime. 
+
+(b)  a  scenario  where  we  exclude  all  related  party  EBITDA  as  well  as  gain  on  sale  proﬁts  from 
+Carvana’s EBITDA – as we see Gain On Sales as also linked to Drivetime. We then apply a more 
+modest 22x EBITDA multiple, which is inline with the current S&P 500 multiple, even though the 
+case could be made that S&P500 as a whole contains higher quality businesses than CVNA. 
+
+Page 56 of 70 
+
+ 
+ 
+Valuation
+CVNA market valuation
+CVNA Enterprise Value [A]
+CVNA Reported net debt as at Q3 2025 [B]
+CVNA Adj EBITDA: 2025 consensus [C]
+CVNA EV / Adj EBITDA multiple [D=A/C]
+
+Related Party 
+only ($mln)
+
+Related Party 
+and Gain on 
+Sale ($mln)
+
+104,557.8
+3,061.0
+2,256.9
+46.3x
+
+104,557.8
+3,061.0
+2,256.9
+46.3x
+
+Adjusting CVNA valuation for related parties and/or gain on sale
+
+Growth of CVNA Revenues: 2026 consensus [J]
+% of growth attributable to DT/BLAST  [I]
+GCR growth expectations if DT/BLAST arms length [K=J*(1-I)]
+AN US: 2026e growth consensus [L]
+KMX US: 2026e growth consensus [M]
+AN and KMX average growth expected 2026 [N=((L+M)/2)
+AN US: EV / EBITDA multiple 2025 consensus [O]
+KMX US: EV / EBITDA multiple 2025 consensus [P]
+AN and KMX average growth multiple [Q=((O+P)/2)
+GCR Adjusted EBITDA multiple [R]
+GCR CVNA Adj EBITDA 2025e [G]
+GCR implied growth adjusted CVNA Enterprise Value  [S=R*G]
+CVNA Reported net debt as at Q3 2025 [B]
+CVNA implied Market cap [T=S-B]
+CVNA current market cap [U]
+CVNA share price potential downside
+
+27.8%
+33.0%
+18.6%
+2.5%
+0.5%
+1.5%
+10.8x
+9.0x
+9.9x
+33.6x
+1,256.9
+42,273.8
+3,061.0
+39,212.8
+100,349.8
+-61%
+
+21.5x
+1,130.7
+24,309.3
+3,061.0
+21,248.3
+100,349.8
+-79%
+
+In our “Related Party Only” scenario, we haircut the consensus 2025 EBITDA by $1bn, which is 
+the  estimate  we  infer  from  our  work  above  that  DriveTime  subsidizes  Carvana’s  EBITDA  by.  
+Further,  we  also  haircut  the  growth  of  Carvana,  as  we  believe  that  DriveTime’s  absorption  of 
+Carvana low quality lending helps spur Carvana’s growth – in the end subprime car selling is more 
+a  lending  business  than  a  car  retailing  business  in  our  opinion.  This  reduced  growth  naturally 
+leads to a lower EBITDA multiple for the company, which we estimate by interpolating Carvana’s 
+existing multiple and growth rate for 2026, and the growth rates and multiples of its peers, CarMax 
+and Auto Nation. In this case we see 61% downside to Carvana shares. 
+
+In  our  “Related  Party  and  Gain  on  Sale”  scenario,  we  annualize  Carvana’s  9-month  EBITDA 
+excluding related party and Gain on Sale calculated above, which leads to a slightly lower EBITDA 
+than in the prior scenario.  Further, given the issues Carvana will be facing in a more stringent 
+scenario with higher earnings haircuts we also assume a lower multiple, in line with the S&P500’s 
+current estimated 21.5x EV / EBITDA multiple.  This leads to a downside of nearly 80%. 
+
+As  mentioned  above,  none  of  these  scenarios  contemplate  any  part  of the  ﬁnancing waterfall 
+supporting  Carvana’s  earnings  and  revenues  will  be  impaired,  and  we  believe  this  is  a  likely 
+scenario,  given  the  multitude  of  points  of  breakage  across  the  Garcia  group.    This  is  why  we 
+believe actual downside is highly likely to be greater than the exercise in quantiﬁcation we have 
+portrayed above. 
+
+Page 57 of 70 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+End Notes 
+
+Introduction 
+
+1.  Bloomberg news story dated 8th January 2026 reported the following: 
+
+Carvana’s acquisition of another new car dealership last month in an early 
+adopting robotaxi metro area is a signal that the company is “readily expanding” 
+its total addressable market, Morgan Stanley writes, boosting its bull case on the 
+stock to $750 from $700.  
+
+Analyst Daniela Haigian notes that Carvana made four new Chrysler, Dodge, 
+Jeep, and Ram dealer acquisitions last year, all in early-adopting robotaxi metro 
+areas of Phoenix, Dallas, San Diego and Atlanta  
+
+“The strategic expansions, albeit small at this stage, are supportive of our 
+robotaxi optionality thesis by expanding physical infrastructure in optimal 
+autonomous vehicle metro areas,” Haigian writes  
+
+“We also believe it signals to investors that the company is readily exploring 
+expanding the total addressable market into new car and parts & service, where 
+it already has expertise”  
+
+She notes the potential for a partnership with Waymo for megaﬂeet services in 
+metro areas where Waymo has no operational partner and where Carvana 
+already has physical infrastructure within a 10-mile radius of city center; there’s 
+also potential partnerships with other autonomous vehicle providers, excluding 
+Tesla  
+
+Haigian writes that she’s building a new robotaxi model for the company  
+
+“It’s time for investors to consider a total addressable market beyond used cars,” 
+she said 
+
+2.  CVNA ﬁlings and presentations. 
+3.  Sources include: 
+
+https://www.reddit.com/r/stocks/comments/1phs4pg/carvana_cvna_is_highly_fraudule
+nt/?utm_source=chatgpt.com 
+https://hindenburgresearch.com/carvana/ 
+https://x.com/silberschmelzer/status/1983724463129797101 
+https://x.com/blue_chip1/status/2000446431929536825 
+4.  https://x.com/MinotaurStocks/status/2014764757782561055 
+5.  https://www.reuters.com/business/ﬁrst-brands-tricolor-collapses-invite-more-scrutiny-
+
+wall-street-sees-robust-2025-10-14/ 
+6.  Cliff Sosin comments during a podcast: 
+
+https://open.spotify.com/episode/5ZFlZ2J9uZ0VgOIcZdKuaS 
+
+Question: Is there another business that comes to mind, maybe it's Amazon, 
+that you think captures all these same things that has interested you through 
+time just to like draw a comparative point for people? 
+
+Page 58 of 70 
+
+ 
+ 
+ 
+Cliff Sosin: I actually love the comparison to Amazon. the analogy to to Amazon 
+actually I think is is apt.  
+
+DriveTime Debt issuances drive Carvana proﬁts 
+
+1.  https://reboundcapital.substack.com/p/carvana-turnaround-story 
+2.  RV Capital 12 January 2023 letter: 
+
+Where did Carvana go wrong then? It is difficult to say from the outside, 
+especially as the situation continues to develop, but my sense is that the 
+company was simply too aggressive. It went hell-for-leather in virtually every 
+aspect of its business. This is most obvious in its ﬁnancial structure where it 
+used too much debt. It is also apparent in its operations: it tried to carry almost 
+every type of car in inventory, it extended its logistics network into nearly every 
+corner of the US, and it provided ﬁnancing for nearly every type of customer. As a 
+counterpoint, CarMax, in over 30 years of operations still only provides ﬁnancing 
+to prime customers, outsourcing subprime customers to third parties. A more 
+cautious approach would have been to start with a narrow range of inventory, 
+markets, and customers and, having proﬁtably scaled in one niche, gradually 
+expand outwards. 
+
+3.  https://www.slideshare.net/secret/GwSaBo7Vt9cMqN 
+4.  https://www.slideshare.net/secret/GwSaBo7Vt9cMqN 
+5.  https://www.bloomberg.com/news/articles/2025-12-05/carvana-crh-and-comfort-
+
+systems-to-join-s-p-500-in-rebalancing 
+
+6.  CVNA 2024 10-K states “Other sales and revenues are 100% gross margin products for 
+
+which gross proﬁt equals revenue”. 
+
+7.  Gotham City Research analysis. ‘GCR estimate for related party beneﬁt’ is DriveTime’s 
+
+‘Net cash (used in) provided by operating activities’ (which were both negative numbers 
+in 2023 and 2024). 
+
+8.  Gotham City Research analysis.  
+
+We think CVNA related party reliance 3x > reported 
+
+1.  https://investors.carvana.com/~/media/Files/C/Carvana-IR/reports-and-
+
+presentations/introduction-to-carvana-v1.pdf 
+
+2.  https://investors.carvana.com/news-releases/2017/04-28-2017-
+
+043036860#:~:text=The%20shares%20are%20expected%20to,subject%20to%20custo
+mary%20closing%20conditions 
+
+3.  Cliff Sosin comments during a podcast: 
+
+https://open.spotify.com/episode/5ZFlZ2J9uZ0VgOIcZdKuaS 
+
+Cliff Sosin: As to Ernie, I think, you know, at the risk of inﬂating his ego, I, I think 
+that someday people will compare Jeff Bezos to Ernie Garcia, not the other way 
+around. He's extraordinary, right?  
+
+4.  https://www.latimes.com/archives/la-xpm-1990-10-31-ﬁ-3371-story.html 
+5.  https://www.forbes.com/forbes/2001/1126/082.html 
+6.  https://www.forbes.com/forbes/2001/1126/082.html 
+
+Page 59 of 70 
+
+ 
+ 
+ 
+ 
+7.  https://www.forbes.com/proﬁle/ernest-garcia-ii/ 
+8.  Gotham City Research analysis. Sources used to create the table include: 
+
+https://highyieldharry.beehiiv.com/p/the-carvana-case-study    
+
+https://www.bloomberg.com/news/articles/2017-06-06/cars-in-vending-machines-a-
+fading-ipo-and-an-ex-con-behind-them 
+
+https://www.encyclopedia.com/books/politics-and-business-magazines/ugly-duckling-
+corporation 
+
+https://www.forbes.com/sites/nathanvardi/2017/12/18/how-an-ex-con-became-a-
+billionaire-from-used-cars/ 
+
+https://www.bizjournals.com/phoenix/stories/2002/08/26/daily43.html 
+http://www.nexis.com/docview/getDocForCuiReq?lni=44YY-28G0-010F-
+K0WD&csi=8399&oc=00240&perma=true 
+
+https://www.sec.gov/Archives/edgar/data/1690820/000119312517106717/d297157ds1.
+htm#:~:text=The%20consolidated%20ﬁnancial%20statements%20of,2014%20at%20th
+eir%20historical%20basis. 
+
+https://investors.carvana.com/news-releases/2017/04-28-2017-043036860 
+
+https://longbridge.com/en/news/270751024   https://www.theglobeandmail.com/invest
+ing/article-from-bankruptcy-fears-to-sp-500-carvana-outvalues-detroit-giants/     
+
+https://www.inc.com/tekendra-parmar/carvana-joins-sp-500/91275807 
+
+9.  Gotham City Research analysis of DriveTime ﬁlings. The ‘Adjusted EBITDA’ ﬁgures are as 
+follows: "Adjusted EBITDA" from 2008 to 2010, "Recurring Adjusted EBITDA" from 2011 to 
+2013. RoA is calculated as: Net Income / Total Assets. RoE is calculated as: Net Income 
+/ Total equity. In the Cumulative column, the RoA and RoE ﬁgures represent the average 
+values from 2008 to 2013. ‘CFO’ is the reported “Net cash provided by (used in) 
+operating activities.” 
+
+10. Gotham City Research analysis of DriveTime 2024 Annual Report. The ‘Adjusted EBITDA’ 
+row is the company’s "Adjusted earnings EBITDA". RoA is calculated as: Net Income / 
+Total Assets. RoE is calculated as: Net Income / Total equity. In the Cumulative column, 
+the RoA and RoE ﬁgures represent the average values from 2022 to 2024. We assume 
+that the 2022 Total assets and Total equity ﬁgures are the same as 2023, due to lack of 
+information in the DriveTime 2024 ﬁling. ‘CFO’ is the reported “Net cash provided by 
+(used in) operating activities.”  
+11. DriveTime 2024 Annual Report. 
+12. Gotham City Research analysis of DriveTime and Carvana ﬁlings. FCF is calculated as: 
+
+CFO less capex (“purchase of P&E”) for both companies. 
+
+13. Gotham City Research analysis of Carvana ﬁlings. 
+14. Gotham City Research analysis of DriveTime ﬁlings. The ‘Adjusted EBITDA’ ﬁgures from 
+the DriveTime ﬁlings are the following: “Adjusted EBITDA” from 2008 to 2010, “Recurring 
+Adjusted EBITDA” from 2011 to 2013, and “Adjusted earnings EBITDA” from 2022 to 
+2024. For the years 2008 to 2013, DriveTime does not report Adjusted EBITDA excluding 
+
+Page 60 of 70 
+
+ 
+ 
+the add back for portfolio debt interest expense, so we calculate this as: Adjusted 
+EBITDA less Portfolio Debt Interest expense. 
+
+15. Gotham City Research analysis of Carvana ﬁlings. The YTD 2025 column is as at Q3 
+
+2025. The ‘% of income from related parties and Gain on Sales’ is calculated as: (Gain 
+on Loan Sales + Related party sales: Other sales and revenues + Related party sales: 
+Wholesale sales and revenues) / Adjusted EBITDA. 
+
+16. Ernie Garcia III during CVNA’s Q3 2025 earnings call held in October 2025: With 
+constantly evolving technology, constantly evolving customer preferences and 
+expectations, and an ambitious group of thoughtful people, new opportunities emerge 
+faster than we are able to take advantage of the ones we previously saw. With AI, this is 
+more true today than it has ever been. The future is bright. Selling 3 million cars per year 
+with 13.5% adjusted EBITDA margins in 5, 10 years is very achievable. There's a lot left to 
+do, and there's an excited team ready to do it. We'll continue to aggressively pursue rapid 
+progress, and we aren't tired. The march continues. 
+
+17. Gotham City Research analysis. The scenario 1 assumption of 10.6% is derived from the 
+cumulative Adjusted EBITDA excluding the add back for portfolio debt interest expense 
+margin from 2009 to 2013. The scenario 2 assumption of 12.6% is based on the 2010 
+margin, which was DriveTime’s highest reported margin between 2009 and 2013.   
+18. Gotham City Research analysis. The 2022 and 2023 employee count ﬁgures were 
+
+obtained from the Wayback Machine: 
+https://web.archive.org/web/20231203212523/https://www.greatplacetowork.com/cert
+iﬁed-company/1000080 
+https://web.archive.org/web/20231203212523/https://www.greatplacetowork.com/cert
+iﬁed-company/1000080 
+
+19. Gotham City Research analysis of DriveTime ﬁlings. 
+20. Gotham City Research analysis of DriveTime ﬁlings. 
+21. Gotham City Research analysis of CVNA ﬁlings. 
+22. Gotham City Research analysis of DriveTime ﬁlings. 
+23. Gotham City Research analysis of DriveTime ﬁlings. 
+24. Gotham City Research analysis of DriveTime ﬁlings. 
+
+CVNA proﬁts are fueled by DriveTime’s 20-40x leverage 
+
+1.  Gotham City research analysis of DriveTime 2024 Annual Report.  
+2.  Sources include: 
+
+https://www.reddit.com/r/stocks/comments/1phs4pg/carvana_cvna_is_highly_fraudule
+nt/?utm_source=chatgpt.com 
+https://hindenburgresearch.com/carvana/ 
+https://x.com/silberschmelzer/status/1983724463129797101 
+https://x.com/blue_chip1/status/2000446431929536825 
+https://www.reddit.com/r/stocks/comments/1phs4pg/carvana_cvna_is_highly_fraudule
+nt/?utm_source=chatgpt.com 
+https://hindenburgresearch.com/carvana/ 
+
+3.  Gotham City Research analysis of DriveTime 2024 Annual Report. The ‘DriveTime: Net 
+
+(distribution to)/contributions from shareholders [A]’ row is calculated as: Contributions 
+
+Page 61 of 70 
+
+ 
+ 
+ 
+from shareholders + Distributions to shareholders. The ‘Total ﬁnancing net raised (term 
+securitization and wholesale) [B]’ row is calculated as: Proceeds from portfolio term 
+ﬁnancings + Repayment of portfolio term ﬁnancings + Proceeds from portfolio 
+warehouse facilities + Repayment of portfolio warehouse facilities. 
+
+4.  DriveTime 2024 Annual Report. 
+5.  Gotham City research analysis of DriveTime ﬁlings. The ‘Adj earnings EBITDA’ ﬁgures 
+
+used are: “Adjusted EBITDA” from 2008 to 2010, “Recurring Adjusted EBITDA” from 2011 
+to 2013, “Adjusted earnings EBITDA” from 2022 to 2024. The 2022 Net debt ﬁgure is a 
+GCR estimate calculated as the sum of: 2023 YE net debt + 2023 cash burn before 
+ﬁnancing activities + 2023 cash burn in investing activities. 
+
+6.  Gotham City research analysis of CACC ﬁlings. 
+7.  Gotham City research analysis of CVNA ﬁlings.  
+8.  Gotham City research analysis of DriveTime 2024 Annual Report. 
+9.  Gotham City research analysis of DriveTime ﬁlings. 
+10. Gotham City research analysis of CACC ﬁlings. 
+11. Gotham City research analysis. The ‘CVNA Adj EBITDA adjusted for related party beneﬁt’ 
+row is calculated as: CVNA reported Adjusted EBITDA + DriveTime reported Net cash 
+(used in) provided by operating activities. 
+
+12. Gotham City research analysis. 
+13. https://www.reuters.com/sustainability/boards-policy-regulation/ey-negligently-
+missed-huge-fraud-collapsed-hospital-operator-3-bln-uk-trial-2025-05-19/ 
+
+14. DriveTime 2013 Annual Report. 
+15. DriveTime 2024 Annual Report. 
+16. Gotham City Research analysis of DriveTime ﬁlings. 
+17. Gotham City Research analysis. 
+
+Garcia extracted $352m while leverage grew to 20x-40x 
+
+1.  https://x.com/TheRealDonaldC3/status/1955062438811811963 
+2.  DriveTime 2024 Annual Report. 
+3.  DriveTime 2024 Annual Report. 
+4.  Gotham City research analysis of DriveTime 2024 Annual Report. The ‘DriveTime: Net 
+
+(distribution to)/contributions from shareholders [A]’ row is calculated as: Contributions 
+from shareholders + Distributions to shareholders. The ‘Total ﬁnancing net raised (term 
+securitization and wholesale) [B]’ row is calculated as: Proceeds from portfolio term 
+ﬁnancings + Repayment of portfolio term ﬁnancings + Proceeds from portfolio 
+warehouse facilities + Repayment of portfolio warehouse facilities. 
+
+5.  Gotham City Research analysis. FCF is calculated as: CFO less capex (“purchase of 
+
+P&E”). DT: Garcia net cash extraction is explained in endnote #4 above in this chapter. 
+
+6.  Gotham City Research analysis.  
+7.  Gotham City Research analysis.  
+8.  DriveTime 2024 Annual Report. 
+9.  DriveTime 2024 Annual Report. 
+10. DriveTime 2024 Annual Report. 
+
+Page 62 of 70 
+
+ 
+ 
+ 
+11. DriveTime 2024 Annual Report. 
+12. DriveTime 2024 Annual Report. 
+13. DriveTime 2024 Annual Report. 
+14. DriveTime 2024 annual report. 
+
+Bridgecrest $900m loan loss: BAC pain, CVNA gain 
+
+1.  https://www.carvana.com/help/payment-and-ﬁnancing/i-ﬁnanced-my-loan-with-
+
+carvana-who-is-bridgecrest 
+
+2.  https://www.spglobal.com/ratings/en/regulatory/delegate/getPDF?articleId=3350623&t
+
+ype=FULL&subType=PRESALE&defaultFormat=HTML 
+
+3.  Sources:  
+
+https://thehedgefundjournal.com/madoff-
+d1/#:~:text=Obscure%20auditors,they%20do%20not%20conduct%20audits. 
+https://www.linkedin.com/pulse/bernie-madoff-ponzi-scheme-greatest-fraud-wall-
+street-pabasara-9wlkc/ 
+https://sites.lsa.umich.edu/mje/2025/04/04/hiding-in-plain-sight-the-madoff-scandal-
+and-regulatory-
+failure/#:~:text=Together%2C%20they%20fabricated%20backdated%20trades,and%20
+Exchange%20Commission%2C%202009). 
+
+4.  Sources include but are not limited to: 
+
+https://www.bloomberg.com/news/articles/2025-10-22/chanos-says-lots-of-red-ﬂags-
+at-carvana-amid-auto-loan-woes 
+https://x.com/wallstengine/status/1981039752355987728 
+https://x.com/SilbergleitJr/status/1974143909094641881 
+https://x.com/LastBearStandng/status/1976285687273095576 
+https://x.com/silberschmelzer/status/1981097620249726987 
+
+5.  DriveTime 2024 Annual Report.  
+6.  Gotham City Research analysis of DriveTime 2024 Annual Report. The screenshot is also 
+
+from the DriveTime 2024 Annual Report. 
+
+7.  Gotham City Research analysis of CVNA and DriveTime ﬁlings. 
+8.  DriveTime 2013 Annual Report. 
+9.  DriveTime 2013 annual report. 
+10. CVNA 2024 10-K. 
+11. CVNA 2024 10-K. 
+12. DriveTime 2024 Annual Report. 
+13. DriveTime 2024 Annual Report. 
+14. DriveTime 2024 Annual Report. 
+15. DriveTime 2024 Annual Report. 
+16. Gotham City Research analysis of securitization ﬁles of Bridgecrest, Carvana, CarMax 
+
+and Ally.  
+
+CVNA-tied loans in BAC misrepresented in SEC ﬁlings 
+
+1.  Gotham City Research analysis of BLAST securitization ﬁles. 
+
+Page 63 of 70 
+
+ 
+ 
+ 
+ 
+2.  CVNA 2024 10-K. 
+3.  VinAudit report. 
+4.  VinAudit report. 
+5.  VinAudit report. 
+6.  Data extracted from Bridgecrest’s BLAST-2 securitization ﬁle. 
+7.  Text is from the DriveTime 2024 Annual Report. 
+8.  Text and screenshot are both from the DriveTime 2024 Annual Report. 
+9.  https://www.sec.gov/Archives/edgar/data/2050168/000119312525012110/d902532d42
+
+4b5.htm 
+
+10. https://www.carvana.com/help/payment-and-ﬁnancing/i-ﬁnanced-my-loan-with-
+
+carvana-who-is-bridgecrest 
+
+11. Text and screenshot are both from the CVNA 2024 10-K. 
+12. Refer to Supplemental for more information. 
+
+Why we think BridgeCrest drives CVNA’s Gain on sales 
+
+1.  Gotham City research analysis of Carvana ﬁlings. 
+2.  Carvana DEF 14A. 
+3.  Gotham City Research analysis. The ‘DT Servicing fees’ ﬁgures are obtained from 
+Carvana’s DEF 14A. The ‘Receivables amount’ ﬁgures are obtained as follows:  
+
+Ally Parties and Purchaser Trusts from Carvana’s DEF 14A (During the year ended 
+December 31, 2024, we sold approximately $3.0 billion in principal balances of 
+ﬁnance receivables under the purchase and sale agreement … Under these 2024 
+agreements, the purchaser trusts purchased an aggregate of approximately $3.8 
+billion in principal balances of ﬁnance receivables). 
+
+CVNA Credit facilities from Carvana’s 2024 10-K (The subsidiaries that entered 
+into these Finance Receivable Facilities are each wholly owned, special purpose 
+entities whose assets are not available to the general creditors of the Company. 
+As of December 31, 2024 and 2023, the Company had zero and $555 million, 
+respectively, outstanding under these Finance Receivable Facilities, unused 
+capacity of $2.7 billion and $2.1 billion). 
+
+Carvana (CVNA) is from Carvana’s 2024 10-K too, taking the 2024 Carrying value 
+of ﬁnance receivables ($612mln). 
+
+Third Parties is the remaining amount after deducting $16.3 billion (obtained 
+from DriveTime’s 2024 Annual Report) from each ﬁgure above, which is 
+$8.888bln. 
+
+The ‘Implied servicing fee’ column is then calculated as: DT servicing fee / Receivables 
+amount. 
+
+4.  Carvana DEF 14A. 
+5.  DriveTime 2024 annual report. 
+6.  Gotham City Research analysis.  
+
+Page 64 of 70 
+
+ 
+ 
+ 
+The ﬁrst exhibit is a sensitivity analysis showing the dollar amount that Third Party would 
+pay at different rates. The second row then shows the dollar amount over 5 years, with 
+the orange highlighted rows indicating where CVNA’s 2024 gain on sale amount sits 
+within this range. 
+The second exhibit illustrates what CVNA and Third parties would pay at market-based 
+rates, based on their respective Receivables amount. For CVNA, the low-end fee is 
+calculated as: $612mln * 2.224% (i.e., the Implied servicing fee of the Purchaser Trusts). 
+CVNA’s high-end fee is then calculated as: $612mln * 2.903% (i.e., the Implied servicing 
+fee of the Ally Parties). The Third parties’ row is derived from the sensitivity analysis in 
+the prior exhibit. Note that the average Third Parties ﬁgure of $777mln is not far off 
+CVNA’s disclosed 2024 gain on loan of $755mln. 
+7.  Gotham City Research analysis of CVNA ﬁlings.  
+8.  Gotham City Research analysis. 2022 and 2023 are both based on the same 
+
+methodology explained for 2024 above in footnotes #3 and #6 in this chapter. 
+
+9.  CVNA 2024 10-K. 
+10. https://www.sec.gov/Archives/edgar/data/1770373/000119312520311748/d24796dex9
+
+91.htm 
+
+11. https://www.spglobal.com/ratings/en/regulatory/article/-/view/sourceId/13515409 
+
+https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3502702 
+
+GoFi, DriveTime, and the circular ﬂow of money 
+
+1.  https://www.prnewswire.com/news-releases/bridgecrest-launches-goﬁ-to-create-
+
+digital-ﬁrst-lending-platform-301616060.html 
+
+2.  https://www.prnewswire.com/news-releases/bridgecrest-launches-goﬁ-to-create-
+
+digital-ﬁrst-lending-platform-301616060.html 
+
+3.  GoFi 2024 Annual Report. 
+4.  GoFi 2024 Annual Report. 
+5.  GoFi 2024 Annual Report. 
+6.  Gotham City Research analysis. 
+7.  https://www.go-ﬁ.com/customers 
+8.  https://www2.bridgecrest.com/payment-options 
+9.  https://www2.bridgecrest.com/customer-support-center 
+10. https://goﬁ.webﬂow.io/contact-info 
+11. https://www.go-ﬁ.com/#products 
+12. DriveTime 2024 Annual Report.  
+13. GoFi business registry ﬁling. 
+14. Sources for each screenshot:  
+
+https://www2.bridgecrest.com/privacy-policy 
+https://www2.bridgecrest.com/terms-of-use 
+https://ecorp.sos.ga.gov/BusinessSearch/BusinessInformation?businessId=2153792 
+
+15. Sources for each screenshot: 
+
+https://www.naics.com/company-proﬁle-page/?co=998 
+https://www.google.com/search?q=drivetime+1720+w+rio+salado+parkway&rlz=1C1G
+CEA_enGB1187GB1187&oq=drivetime+1720+w+rio+salado+parkway&gs_lcrp=EgZjaHJ
+
+Page 65 of 70 
+
+ 
+ 
+ 
+vbWUyBggAEEUYOTIICAEQABgWGB4yCAgCEAAYFhgeMggIAxAAGBYYHjIHCAQQABjvBT
+IKCAUQABiABBiiBDIKCAYQABiABBiiBDIHCAcQABjvBdIBCDc1MjBqMGo3qAIAsAIA&sou
+rceid=chrome&ie=UTF-8 
+
+16. Arizona Business Center registry: 
+
+https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=L16920530&__ncf
+orminfo=SODJAuIoREnwSzk__MdZeuATFEjcSO-
+A2UqF_wleebyuqC8JVjoZN6i0xpvg7hNA9qVl94hZm36lSYxG_lnF35HscvUFvn3c 
+17. Gotham City Research analysis of DriveTime ﬁlings. The Adjusted EBITDA ﬁgures are: 
+
+“Adjusted EBITDA” from 2008 to 2010, “Recurring Adjusted EBITDA” from 2011 to 2013, 
+“Adjusted earnings EBITDA” from 2022 to 2024. 
+
+18. Gotham City Research analysis of the 2024 DriveTime and GoFi Annual Reports. ‘GoFi 
+net member contribution / (withdrawal)’ is calculated as: Member contribution + 
+Member withdrawal.  
+
+GoFi originations and its Gain on Sale are suspect 
+
+1.  https://www.facebook.com/share/p/1BRXmQaNaF/ 
+2.  GoFi 2024 Annual Report. 
+3.  GoFi 2024 Annual Report. 
+4.  GoFi 2024 Annual Report. 
+5.  VinAudit report. 
+6.  VinAudit report. 
+7.  VinAudit report. 
+8.  Data from Bridgecrest BLAST-3 securitization ﬁle. 
+9.  Gotham City Research analysis of BLAST securitization ﬁles. 
+10. https://www.mass.gov/doc/lienholder-code-list/download 
+11. https://www.mass.gov/doc/lienholder-code-list/download 
+12. A Texas Department of Motor Vehicles Registration and Title System lienholder list 
+
+(dated 21 November 2025). 
+
+13. https://www.carvana.com/help/purchasing-a-car/what-is-the-lien-holder-address-for-
+
+insurance-purposes 
+
+14. DriveTime 2012 Annual Report. 
+15. DriveTime 2012 Annual Report. 
+16. DriveTime 10Q for the quarter period ended March 31, 2013. 
+17. DriveTime 2013 Annual Report. 
+
+Accounting irregularities re: SilverRock & commissions 
+
+1.  CVNA 2024 10-K. 
+2.  CVNA 2024 10-K. 
+3.  https://hindenburgresearch.com/carvana/ 
+4.  Gotham City Research analysis. 
+5.  DriveTime 2024 Annual Report. 
+6.  DriveTime 2024 Annual Report. 
+
+Page 66 of 70 
+
+ 
+ 
+ 
+ 
+7.  Gotham City Research analysis of CVNA ﬁlings. The ‘Plug/other/undisclosed’ is 
+
+calculated as: Reported Other sales and revenue less than the sum of the ﬁrst 3 rows of 
+this exhibit. 
+8.  CVNA 2024 10-K. 
+9.  DriveTime 2024 Annual Report. 
+10. DriveTime 2024 Annual Report. 
+11. DriveTime 2024 Annual Report. 
+12. DriveTime 2024 Annual Report. 
+13. DriveTime 2024 Annual Report. 
+14. Gotham City Research analysis of Carvana ﬁlings and DriveTime 2024 Annual Report. 
+
+Bridgecrest, servicing related Accounting irregularities 
+
+1.  CVNA 2024 10-K. 
+2.  DriveTime 2024 Annual Report. 
+3.  DriveTime 2024 Annual Report. 
+4.  DriveTime 2024 Annual Report. 
+5.  Arizona Business Center registry: 
+
+https://ecorp.azcc.gov/BusinessSearch/BusinessInfo?entityNumber=L15746685 
+
+6.  DriveTime 2024 Annual Report. 
+7.  DriveTime 2024 Annual Report. 
+8.  DriveTime 2024 Annual Report. 
+9.  DriveTime 2024 Annual Report. 
+10. DriveTime 2024 Annual Report. 
+
+Grant Thornton: auditor for Tricolor, CVNA, & DriveTime 
+
+1.  https://www.bloomberg.com/news/features/2025-11-10/tricolor-auto-bankruptcy-
+
+kicked-off-by-jpmorgan-phone-call?embedded-checkout=true 
+
+2.  https://www.justice.gov/usao-sdny/pr/ceo-cfo-coo-charged-connection-billion-dollar-
+
+collapse-tricolor-auto 
+
+3.  CVNA 10-Q ﬁled on 30 July 2025. 
+
+CVNA shares uninvestable, accident waiting to happen 
+
+1.  Gotham City Research analysis. 
+
+Page 67 of 70 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
