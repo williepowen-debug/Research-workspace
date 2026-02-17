@@ -115,11 +115,14 @@
 | Date | Time | Event | Agent | Priority | Notes |
 |------|------|-------|-------|----------|-------|
 | Feb 16 | — | Presidents' Day (Market Closed) | — | ⚪ | — |
-| **Feb 18** | AMC | **Carvana (CVNA) Q4/FY2025 Earnings** | OTTO | 🔴 CRITICAL | 10-K filing, GT opinion, Gotham rebuttal. Delayed/GT resigns = RED |
-| **Feb 18** | 4:00 PM | **Dec TIC Data Release** | ZHAO/LIQUID | 🔴 CRITICAL | Belgium >$500B? China <$680B? |
-| **Feb 19** | 8:30 AM | **Initial Claims** | LABOR | 🟠 HIGH | Sustained >230K = concern |
-| **Feb 19** | — | **20Y JGB Auction** | SAM | 🔴 CRITICAL | BTC <2.3x = crisis trigger |
-| **Feb 19** | — | **Shunto Electronics Deadline** | SAM | 🔴 CRITICAL | First union wage demands |
+| **Feb 18** | AMC | **Carvana (CVNA) Q4/FY2025 Earnings** | CARL/OTTO | 🔴 CRITICAL | Going concern? ABS extensions? Ally $6B forward flow. Highest urgency |
+| **Feb 18** | AMC | **DoorDash (DASH) Q4 Earnings** | GIG | 🟠 HIGH | Dasher count, orders/dasher — gig economy signal |
+| **Feb 18** | 4:00 PM | **Dec TIC Data Release** | LIQUID/SAM | 🔴 CRITICAL | Belgium >$500B? Japan selling? China <$680B? |
+| **Feb 19** | 8:30 AM | **Initial Claims** | LABOR | 🟠 HIGH | ⚠️ DHS distortion — don't trust this print |
+| **Feb 19** | 2:00 PM | **FOMC Minutes (Jan meeting)** | PROME | 🟠 HIGH | Watch for "financial stability" or "credit conditions" language |
+| **Feb 19** | 8:35 PM ET Tue | **20Y JGB Auction Results** | SAM | 🔴 CRITICAL | BTC <2.0x = Path D condition |
+| **Feb 19** | overnight | **Shunto Electronics Demand** | SAM | 🟠 HIGH | ¥18,000 demand (settlement is March) |
+| **Feb 19** | — | **VIX Expiration** | HENRY | 🟠 HIGH | Forced repositioning in negative gamma regime |
 | **Feb 20** | AMC | **PSEC (Prospect Capital) Q4 Earnings** | BROCK/OTTO | 🔴 CRITICAL | PIK 35%, dividend coverage. Cut = validates shadow defaults |
 | ~Feb 20 | — | Robert Half (RHI) Earnings | LABOR | 🟠 HIGH | Second temp staffing read |
 | ~Feb 20 | — | Statistics Canada (Jan) | MARCO | 🟠 HIGH | Canadian tourism continuation |
