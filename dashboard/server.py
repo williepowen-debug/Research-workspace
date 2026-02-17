@@ -737,6 +737,7 @@ def check_thresholds(prices):
         ("USDJPY", "above", "USD/JPY broke above {threshold} (SAM threshold breached)"),
         ("TNX", "above", "10Y Treasury yield above {threshold}% (Restrictive)"),
         ("HYG", "below", "HYG dropped below ${threshold} (Credit stress signal)"),
+        ("CVNA", "below", "🎯 CVNA dropped below ${threshold} (Put spread break-even hit!)"),
     ]
     
     for symbol, direction, msg_template in checks:
@@ -800,6 +801,7 @@ def fetch_prices():
         "HYG": {"value": None, "threshold": 75, "direction": "below"},   # HY bond ETF (proxy for spreads)
         "SPY": {"value": None, "threshold": None, "direction": None},    # Context
         "GLD": {"value": None, "threshold": None, "direction": None},    # Risk-off indicator
+        "CVNA": {"value": None, "threshold": 305, "direction": "below"},  # Carvana - put spread BE at $305
         "updated": None
     }
     
@@ -816,7 +818,7 @@ def fetch_prices():
         print(f"[Prices] BTC fetch error: {e}")
     
     # Fetch from Yahoo Finance
-    for symbol, key in [("KRE", "KRE"), ("^VIX", "VIX"), ("USDJPY=X", "USDJPY"), ("^TNX", "TNX"), ("HYG", "HYG"), ("SPY", "SPY"), ("GLD", "GLD")]:
+    for symbol, key in [("KRE", "KRE"), ("^VIX", "VIX"), ("USDJPY=X", "USDJPY"), ("^TNX", "TNX"), ("HYG", "HYG"), ("SPY", "SPY"), ("GLD", "GLD"), ("CVNA", "CVNA")]:
         try:
             url = f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?interval=1d&range=1d"
             req = urllib.request.Request(url, headers={"User-Agent": "PROME-Dashboard/1.0"})
