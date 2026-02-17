@@ -89,7 +89,7 @@ Wright 609K proves conversion is happening in real-time. Timeline is NOW, not fu
 
 ---
 
-## Positions (4 Active)
+## Positions (5 Active)
 
 | Ticker | Position | Entry | Cost | Status |
 |--------|----------|-------|------|--------|
@@ -97,8 +97,9 @@ Wright 609K proves conversion is happening in real-time. Timeline is NOW, not fu
 | **HYG** | 10× $75P Jun 18 | $0.30 | $307 | 🟢 Active |
 | **IWM** | 1× $250P Jun 30 | ~$7.50 | ~$750 | 🟢 Active |
 | **SSB** | 2× $90P Jun 18 | $1.86 | $373 | 🟢 Active |
+| **KELYA** | 1× $7.5P Aug 21 | $0.75 | $76 | 🟢 **NEW** (Feb 17) |
 
-**Total Defined Risk:** ~$2,230
+**Total Defined Risk:** ~$2,306
 
 **Trade Candidates (Updated):**
 - ✅ KELYA — 80% conviction (staffing, verified)
@@ -169,4 +170,4 @@ Wright 609K proves conversion is happening in real-time. Timeline is NOW, not fu
 
 ---
 
-*Last updated: 2026-02-17 12:50 UTC*
+*Last updated: 2026-02-17 14:37 UTC*
