@@ -1,8 +1,8 @@
 # CORAL — Florida Real Estate Stress Monitor
 ## REGINALD Sub-Agent | Condo Crisis & Regional Bank Exposure
 
-**Last Updated:** 2026-02-11  
-**Signal Status:** 🟠 ORANGE — Stress Accumulating, Catalyst Pending
+**Last Updated:** 2026-02-17  
+**Signal Status:** 🟠 ORANGE — Stress Accumulating + MF Repricing Confirmed (-22%)
 
 ---
 
@@ -74,6 +74,18 @@ FL Supreme Court (Oct 2025) upheld 100% owner consent for termination. This **fr
 | FL Foreclosure Rate | #1 nationally (1 in 230) | Elevated | 🔴 |
 | Loss Severity (Condo) | 45-55% | High | 🔴 |
 | Workout Timeline | 600+ days | Extended | 🟠 |
+
+### 🆕 MF Transaction Repricing (Feb 17, 2026)
+
+**Princeton Grove Apartments (Homestead, FL):**
+- **$51M (2021) → $40M (2026) = -22% loss**
+- 216 units, Marlin Spring → Grand Peaks
+- Confirms MF repricing in South Florida despite "improving" new origination spreads
+
+**Sonder Hotel Foreclosure (Hillsboro Beach):**
+- $26M loan, operator Chapter 7 (Nov 2025)
+- Lender paid $2M+ in back taxes before filing
+- Hospitality stress compounding condo crisis
 
 ### 🆕 Housing Velocity Crisis (Feb 12, 2026)
 

@@ -100,7 +100,24 @@ The gap is extend-and-pretend: loan modifications, FHLB liquidity, regulatory fo
 - **Risk:** 10-20% of $936B wall kicked to 2028 = $94-187B deferred crisis
 - Bifurcation: office getting extensions, retail facing foreclosure
 
-### 10. DC/DOGE: Federal Employment as Discrete CRE Stress Vector (Feb 2026)
+### 10. Healthcare CRE: Hospital "Triple Whammy" (NEW Feb 17, 2026)
+- **Triple whammy:** Medicaid cuts ($1.1T) + ACA subsidies expired + Medicare Advantage freeze
+- **12 million Americans** losing insurance coverage
+- **Distressed hospital sales: 43%** (2025) — record (was 30%)
+- **~33% of hospitals** operating at a loss NOW
+- **Estimate: ~50%** in red within 3 years
+- **Pennsylvania:** 37% at loss, 14 projected closures by 2030
+- **Real estate transmission:**
+  - Sale-leasebacks accelerating (desperation capital)
+  - Brown University Health: JLL hired to "optimize" 4.5M SF portfolio
+  - Expansions paused/cancelled across sector
+  - OB/GYN services cut first (low margin)
+- **Sale-leaseback trap:** Prospect Medical + Steward Health Care both cited onerous rent as bankruptcy reason
+- **Rural hospitals especially at risk** (Medicaid = larger share of revenue)
+- **Quote:** "They're just getting absolutely hammered in all directions"
+- **Consideration:** May warrant dedicated tracker if distressed sales accelerate
+
+### 11. DC/DOGE: Federal Employment as Discrete CRE Stress Vector (Feb 2026)
 - **RP-CREED-10 completed:** DOGE = largest peacetime federal workforce cut on record
 - **271,000 federal workers cut** (9% decline) through Nov 2025, federal employment at lowest since 1966
 - **DC office vacancy: 20.0% → 22.6%** (Q1→Q2 2025) driven by federal lease terminations
@@ -109,6 +126,25 @@ The gap is extend-and-pretend: loan modifications, FHLB liquidity, regulatory fo
 - **Burke & Herbert (BHRB) deteriorating:** Allowance coverage 104.6% → 78.6% (Q1→Q2 2025)
 - **Transmission timeline:** 6-18 month lag from workforce cuts → bank CRE metrics; **peak bank stress Q2-Q4 2026**
 - Unlike 2013 sequester (temporary), DOGE cuts are permanent + coincide with 22%+ vacancy + 12% utilization crisis
+
+---
+
+## SIGNAL CAVEATS
+
+### CBRE Stock as Mixed Signal (Feb 17, 2026)
+**CBRE -26% two-day rout (Feb 12-13)** — $12B market cap erased — is NOT a pure CRE stress signal.
+
+**What happened:**
+- "AI scare trade" — fear of broker disintermediation
+- CoStar already replaced ~500 roles via AI
+- Spread to JLL (-14%), Cushman (-13%), office REITs (-6.7%)
+- "Sharpest sell-off since 2008 financial crisis"
+
+**The irony:** CBRE reported $818M profit (+15% YoY) same day, projected continued growth.
+
+**Implication:** CBRE stock is now a **mixed signal** (CRE stress + AI disruption). Can't use as pure CRE leading indicator. The -12% price decline we referenced earlier is contaminated with AI sentiment.
+
+**Still useful:** The SPEED of the sell-off ($12B in 48 hours on sentiment) reveals market fragility. See HENRY for broader market structure implications.
 
 ---
 

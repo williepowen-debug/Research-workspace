@@ -20,6 +20,8 @@ The equity market is **derivatives-driven** where dealer hedging dominates short
 
 **SBC Valuation Gap (Burry):** Tech earnings overstated 30-50% due to SBC add-backs. PLTR worth ~$46/share vs $135 current. NVDA's $91B "buybacks" = zero share reduction. If this reprices, Reverse Wealth Effect 2-3x larger than baseline.
 
+**CRE "AI Scare Trade" (Feb 12-13):** CBRE -26% ($12B wiped) in 48 hours on AI disintermediation fear — NOT fundamentals (reported +15% profit same day). JLL -14%, Cushman -13%, office REITs -6.7%. "Sharpest sell-off since 2008." Reveals how fast sentiment can crater sectors. Applies to any "high-fee, labor-intensive" industry.
+
 **Volatility Trade Analysis (Feb 16):**
 - **Long vol (VIX calls, UVXY) = LOW conviction (2-3/10)** for Feb 19-20 window
 - VIX already elevated (21.77 vs. Aug '24 baseline 13) = less room to spike
