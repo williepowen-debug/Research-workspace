@@ -129,6 +129,32 @@ The gap is extend-and-pretend: loan modifications, FHLB liquidity, regulatory fo
 
 ---
 
+## EMERGING RISKS (Lower Priority)
+
+### Industrial Vintage Obsolescence (Feb 17, 2026)
+**Pre-2010 industrial isn't "safe"** — bleeding occupancy since 2023.
+
+| Vintage | 2023-2025 Trend |
+|---------|-----------------|
+| 2010+ | Still positive absorption (~250M SF/yr) |
+| 2000-2009 | **NEGATIVE** (flipped 2023) |
+| Pre-2000 | Consistently negative |
+
+**Total losses (pre-2010, 100K+ SF):** ~325M SF over 3 years
+
+**Why:**
+- Clear heights: 30-32ft (old) vs 36-40ft (required for robotics)
+- Power capacity: 1,000 amps (2005) vs 4,000 amps (now)
+- Data centers competing for utility capacity
+
+**The "fix":** Raise the roof ($1.5M-$8M per building) — but doesn't always pencil.
+
+**Bank implication:** Loans on pre-2010 industrial may face refinancing pressure as tenants migrate to Class A. Not urgent like office, but watch for concentration.
+
+**Chart saved:** `SIGNALS/images/industrial_occupancy_by_vintage_2016-2025.jpg`
+
+---
+
 ## SIGNAL CAVEATS
 
 ### CBRE Stock as Mixed Signal (Feb 17, 2026)
