@@ -1,6 +1,6 @@
 # OTTO STATUS
 
-**Signal Status:** 🔴 CRITICAL | **Last Updated:** 2026-02-16 23:30 UTC
+**Signal Status:** 🔴 CRITICAL | **Last Updated:** 2026-02-17 21:30 UTC
 
 **Summary:** Systemic Fraud + Bankruptcy Surge + Feb 18 Decisive
 
@@ -65,10 +65,48 @@
 - This implicitly validates plaintiffs' concerns about related-party manipulation
 - Case: *In re Carvana Co. Securities Litigation* (No. 2:22-cv-02126)
 
-**Gotham City Research (Jan 28, 2026):**
+**Gotham City Research (Jan 28, 2026) — NOW WITH FOIA DOCUMENTS:**
 - Alleges **$1B+ earnings overstatement** via DriveTime/Bridgecrest manipulation
 - DriveTime is NOT a subsidiary — separate company owned by Ernest Garcia II (CEO's father)
 - Bridgecrest (Garcia II-owned) services **$26B portfolio** at abnormally low 0.117% fee
+
+### 🆕 GOTHAM FOIA BOMBSHELL — DriveTime 2024 Financials Obtained (Feb 17)
+
+**Source:** Gotham obtained DriveTime 2024 AR + GoFi 2024 AR via FOIA request. Documents saved to `OTTO/sources/`.
+
+**DriveTime Financial Collapse (from their own filings):**
+| Metric | 2024 | 2023 | 2022 |
+|--------|------|------|------|
+| Net Income | $40.8M | **-$69.3M** | $39.3M |
+| Net Debt | **$3.82B** | $3.07B | $2.57B |
+| Adj EBITDA | $227.5M | $85.6M | $333.0M |
+| **EBITDA / Interest** | **1.0x** | **0.5x** | 3.8x |
+| Net Charge-Offs | **13.5%** | 12.1% | 9.0% |
+| 60+ Day DQ | **10.7%** | 10.3% | 9.9% |
+
+**CRITICAL FINDINGS:**
+1. **Interest coverage collapsed:** 3.8x (2022) → 0.5x (2023) → 1.0x (2024)
+2. **DriveTime burned $1B+ cash 2023-2024** — funded by debt, NOT Garcia equity
+3. **Leverage 20x-40x** — historical max was 10.3x before 2023
+4. **DriveTime subsidies = 73% of CVNA EBITDA** — CVNA not profitable standalone
+5. **Bridgecrest marked down $5.9B loan book by -15%** — recognizing losses
+6. **Charge-offs spiking:** 9.0% → 13.5% in two years
+
+**Gotham's Predictions:**
+- ❌ GT will resign as auditor (same pattern as Tricolor)
+- ❌ 2023/2024 10-Ks will be restated
+- ❌ BLAST ABS will be restated  
+- ❌ 2025 10-K will be delayed
+- ❌ SEC enforcement action coming (subpoena already received June 2025)
+
+**Gotham Price Target: $100-$186** (61-79% downside from ~$477)
+
+**Tricolor Parallel (CRITICAL):**
+- Same auditor (Grant Thornton)
+- GT resigned before Tricolor collapse
+- CEO Daniel Chu indicted for falsifying loan data, double-pledging collateral
+- $800M-$1B fraud discovered
+- Chapter 7 bankruptcy
 
 **Credit Quality DETERIORATING:**
 - **44% of loans to nonprime borrowers** (FICO 601-660) — far higher than typical lenders
