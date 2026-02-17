@@ -2,7 +2,7 @@ Vector_ID	Name	Category	Current_Value	Yellow	Orange	Red	Status	Confidence	Last_U
 VX-CARL-1.01	Credit Card 90+ DQ	CREDIT	12.70%	10%	12%	13.7%	RED	HIGH	2026-02-10	NY Fed Q4 2025	92% of GFC peak (13.74%)
 VX-CARL-1.02	Credit Card Payment Rate	CREDIT	PENDING	18-20%	15-18%	<15%	PENDING	MEDIUM	2026-02-11	ABS Framework	LEADING INDICATOR - Track via ABS
 VX-CARL-1.03	BNPL Late Rate	BNPL	42%	40%	45%	50%	YELLOW	MEDIUM	2026-01-22	Industry Reports	Approaching 45% threshold
-VX-CARL-1.04	Subprime Auto 60+ DQ	AUTO	6.65%	5%	6%	7%	ORANGE	HIGH	2026-01-22	Industry Data	ATH since 1994
+VX-CARL-1.04	Subprime Auto 60+ DQ	AUTO	6.9%	5%	6%	7%	RED	HIGH	2026-02-17	Fitch ABS Index (Jan 2026) / Wolf Richter	ALL-TIME RECORD (Jan 2026). Prime 0.4% = 17x gap. K-shape in credit visualized. Updated from 6.65% (Jan-22).
 VX-CARL-1.05	Deep Subprime Auto Acceleration	AUTO	+40% YoY	+30%	+40%	+50%	ORANGE	HIGH	2026-01-22	Industry Data	Accelerating delinquency
 VX-CARL-1.06	Student Loan Conditional DQ	STUDENT	31%	25%	30%	35%	ORANGE	MEDIUM	2026-01-22	Industry Data	Conditional on repayment
 VX-CARL-1.07	Gen Z Prime Contagion	DEMOGRAPHIC	23%	20%	25%	30%	YELLOW	MEDIUM	2026-01-22	Industry Data	Structural breaking point
@@ -67,4 +67,4 @@ VX-CARL-SL-04	Credit Score Impact Population	Consumer Credit	Number of borrowers
 VX-CARL-UTIL-01	CC Utilization Rate	Consumer Credit	Total CC balance / Total CC limit	%	23.6%	>25%	>30%	>35%	ELEVATED	RISING	HIGH	NY Fed Q4 2025	WalletHub	2026-02-12	$1.28T balance / $5.42T limit; 60% carry balance month to month
 VX-CARL-UTIL-02	Available Credit	Consumer Credit	Total available credit on credit cards	$T	$4.15T	<$4.0T	<$3.5T	<$3.0T	NORMAL	DECLINING	HIGH	NY Fed Q4 2025	WalletHub	2026-02-12	Buffer shrinking as balances rise and limits tighten
 VX-CARL-MED-01	Medical Collections	Consumer Credit	Total medical debt in collections on credit reports	$B	$88B	>$100B	>$120B	>$150B	ELEVATED	TBD	MEDIUM	CFPB 2022	CFPB	2026-02-12	58% of all collections; 43M credit reports affected; data lagged
-VX-CARL-ABS-01	Subprime Auto 60+ DQ (ABS)	Consumer Credit	Subprime auto loan 60+ day delinquency in ABS trusts	%	>6%	>5%	>6%	>7%	CRITICAL	RISING	HIGH	Fitch/KBRA	Oct 2025	2026-02-12	RECORD HIGH - prime at 0.2% shows bifurcation
+VX-CARL-ABS-01	Subprime Auto 60+ DQ (ABS)	Consumer Credit	Subprime auto loan 60+ day delinquency in ABS trusts	%	6.9%	>5%	>6%	>7%	RED	RISING	HIGH	Fitch ABS Index (Jan 2026) / Wolf Richter	2026-02-17	ALL-TIME RECORD Jan 2026. Prime 60+ at 0.4% = 17x gap. K-shape in ABS confirmed. Updated from >6%.

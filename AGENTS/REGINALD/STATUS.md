@@ -1,5 +1,5 @@
 # REGINALD STATUS
-**Last Updated:** 2026-02-17 13:23 UTC | **Status:** 🔴 ELEVATED-ARMED — Japan Transmission Active, Triple Catalyst Window Feb 18-20, OTTO Auto Intel Integrated, DHS Shutdown Spending Shock Active
+**Last Updated:** 2026-02-17 18:30 UTC | **Status:** 🔴 ELEVATED-ARMED — Japan Transmission Active, Triple Catalyst Window Feb 18-20, OTTO Auto Intel Integrated, DHS Shutdown Active, CRE Recognition Phase Underway (Apollo/BXMT/Zombie Loans), BELT Geographic Diffusion Confirmed
 
 ---
 
@@ -26,15 +26,21 @@
 
 | Agent | Signal | Value | Status |
 |-------|--------|-------|--------|
-| **CREED** | Office CMBS DQ | **12.34%** (+103bps MoM) | 🔴 ATH |
+| **CREED** | Office CMBS DQ | **12.34%** (+103bps MoM, exceeds GFC) | 🔴 NEW ATH |
+| **CREED** | CMBS Zombie Loans | **$25B** past maturity (no extension/resolution) | 🔴 |
+| **CREED** | Apollo CRE Exit | **$9B** portfolio offloaded to Athene | 🔴 Capitulation |
+| **CREED** | BXMT Recognition | $2.3B losses taken, office -50% since 2021 | 🔴 |
 | **CREED** | MF CMBS DQ | 6.94% (+232bps YoY) | 🟠 |
-| **CREED** | Special Servicing | 17.16% | 🔴 |
+| **CREED** | Special Servicing | 17.11% | 🔴 |
 | **CREED** | 2026 Maturity Wall | $936B | 🔴 |
 | **BROCK** | PSEC PIK % | 35% | 🔴 |
 | **BROCK** | HRZN NAV Δ | -21% | 🔴 |
 | **BROCK** | Bank-NDFI Exposure | $1.2T | 🟠 |
 | **CORAL** | FL Blacklist Count | 1,438 | 🟠 |
 | **CORAL** | VLY Non-accruals | 0.87% | 🟡 |
+| **BELT** | MS Mortgage DQ Δ | **+109 bps QoQ** (#1 nationally) | 🔴 |
+| **BELT** | LA Mortgage DQ Δ | +89 bps QoQ (#2 nationally) | 🔴 |
+| **BELT** | MD Mortgage DQ Δ | +87 bps QoQ, +16.4% YoY (DOGE) | 🔴 |
 
 **Transmission paths:**
 1. CRE → Bank losses (CREED) — waiting for employment trigger
@@ -47,7 +53,7 @@
 
 | Sector | Rate | MoM Δ | Status |
 |--------|------|-------|--------|
-| **Office** | **12.34%** | +103 bps | 🔴 ALL-TIME HIGH |
+| **Office** | **12.34%** | +103 bps | 🔴 ALL-TIME HIGH (exceeds GFC ~10%) |
 | Multifamily | 6.94% | +30 bps | 🟠 |
 | Retail | 7.04% | +12 bps | 🟡 |
 | **Overall** | **7.47%** | +17 bps | 🟠 |
@@ -55,6 +61,22 @@
 **Shadow stress (with matured balloons):** 9.14%
 
 **Chicago repricing (CREED Feb 12):** -71% average across 5 sales. Willis Tower: $1.3B → $600M. Refinancing gap widens to $400-450B.
+
+### 🔴 CRE Recognition Phase — Institutional Capitulation (Feb 17, 2026)
+
+**The smart money is taking losses NOW. Regional banks are next.**
+
+| Event | Detail | Signal |
+|-------|--------|--------|
+| **Apollo CREF exit** | Offloading **~$9B CRE loan portfolio** to Athene | Capitulation: even distressed specialists are OUT |
+| **BXMT recognition** | $2.3B impaired loans resolved, office -50% since 2021 | Institutional loss-taking underway |
+| **$25B zombie loans** | CMBS loans past maturity, no extension/resolution | Extend-and-pretend hitting structural limits |
+| **One NY Plaza** | $835M Brookfield → special servicing (Jan 2026) | Class A Manhattan office breaching |
+| **Maturity payoff rate** | 75% (2024) → <50% (2026 YTD) | Refinancing capacity collapsing |
+
+**Capital vacuum forming:** Apollo + BXMT + Life insurers all exiting office simultaneously. Banks can't sell — they stay trapped. Forced recognition is arithmetic now, not if.
+
+**Masking gap:** Bank CRE DQ = 4.18% vs CMBS Office = 12.34%. Gap = **8.16 pp of extend-and-pretend remaining.** As CMBS forces price discovery, this gap closes through bank reserves, not recoveries.
 
 ---
 
@@ -344,11 +366,11 @@ Fed will "drop some prior demands for banks to address deficiencies."
 
 *Full coordination protocol: `SUB_AGENTS.md`*
 
-- **CREED** (CRE): Office ATH, $936B maturity wall, -71% Chicago repricing
-- **BROCK** (BDC/Private Credit): PIK 35%, HRZN collapsed, AI infra risk
-- **CORAL** (Florida): Condo crisis, SIRS mandate, association bankruptcies
-- **RENO** (Nevada): Canadian tourism, housing, water stress
-- **TEX** (Texas): Border exposure, munis, Barclays void
+- **CREED** (CRE): Office ATH 12.34%, $936B maturity wall, Apollo exit, BXMT recognition, $25B zombie loans
+- **BROCK** (BDC/Private Credit): PIK 35%, HRZN collapsed, AI infra risk, PSEC earnings Feb 20
+- **CORAL** (Florida): Condo crisis, SIRS mandate, association bankruptcies, -22% MF repricing confirmed
+- **TEX** (Texas): Austin MF 14.2% vacancy, DFW stress emerging, SSB correlation confirmed
+- **BELT** (Sun Belt Diffusion): NEW — MS/LA/MD/OK/IN leading in mortgage DQ; geographic stress broader than FL/TX thesis
 
 ---
 

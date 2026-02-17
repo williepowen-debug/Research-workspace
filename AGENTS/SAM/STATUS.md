@@ -1,8 +1,14 @@
 # SAM STATUS
 
-**Signal Status:** 🔴 RED | **Last Updated:** 2026-02-15 19:53 UTC
+**Signal Status:** 🔴 RED | **Last Updated:** 2026-02-17 18:45 UTC
 
-**Summary:** Floating Mortgage Bomb + Life Insurer Exit Active + Feb 19 Dual Catalyst
+**Summary:** BOJ AT 0.75% CEILING + Feb 19 Dual Catalyst T-2 Days + JGB Rally Active
+
+**⚠️ CRITICAL DATA CORRECTIONS (Feb 17 review):**
+- BOJ rate was WRONG in STATUS.md: 0.25% → **0.75%** (hiked December 2025, held Jan 23-24)
+- USD/JPY was stale: 156.25 → **~152-153** (yen strengthened materially)
+- JGB yields have FALLEN sharply since Feb 5 (Takaichi "responsible fiscal" rally)
+- Feb 19 Shunto event: DEMAND SUBMISSION, not settlement (response due mid-March)
 
 ## Outbound Signals (for Prome)
 
@@ -35,14 +41,17 @@ Japan is in a **fiscal doom loop** (acknowledged as "credible tail risk" by Alli
 
 ## SIGNAL DASHBOARD
 
-| Vector | Value | Status | Threshold |
-|--------|-------|--------|-----------|
-| JGB 10Y | ~2.29% | 🟡 | Watch >2.50% |
-| JGB 30Y | ~3.57% | 🟡 | Watch >4.00% |
-| JGB 40Y | ~3.85% | 🟡 | ATH 4.24% (Jan) |
-| USD/JPY | ~156.25 | 🟡 | 160 🔴 |
-| Real Wage Growth | **0.0%** | 🟠 | BOJ trapped |
-| 30Y Auction BTC | 3.64 | 🟢 | Feb 5 passed |
+| Vector | Value | Status | Change | Threshold |
+|--------|-------|--------|--------|-----------|
+| **BOJ Rate** | **0.75%** | 🟡 | ⬆️ AT CEILING | Next hike = collision |
+| JGB 10Y | ~2.16-2.20% | 🟢 | ⬇️ from 2.29% | Watch >2.50% |
+| JGB 20Y | ~3.05% | 🟢 | ⬇️ from 3.19% | **FEB 19 AUCTION** |
+| JGB 30Y | ~3.05-3.10% | 🟢 | ⬇️ from 3.57% | Watch >4.00% |
+| JGB 40Y | ~3.65% | 🟢 | ⬇️ from 3.85% | ATH 4.24% (Jan) |
+| USD/JPY | ~152-153 | 🟢 | ⬇️ from 156.25 | 160 🔴 |
+| Real Wage Growth | **0.0%** | 🟠 | flat | BOJ trapped |
+| 30Y Auction BTC | 3.64 | 🟢 | — | Feb 5 passed |
+| 5Y Auction BTC | 3.10 | 🟢 | Feb 17 passed | Below 3.48 avg |
 
 ---
 
@@ -98,10 +107,13 @@ Japan is in a **fiscal doom loop** (acknowledged as "credible tail risk" by Alli
 | Relationship | ANTAGONISTIC (not coordinated like Abe-Kuroda) |
 | Ueda term | Through 2028 — cannot be fired |
 | Takaichi ceiling | **0.75%** (explicit) |
+| BOJ current rate | **0.75%** ← **CEILING REACHED** |
 | Ueda target | **1.0%+** |
+| Next hike | 1.00% = DIRECT breach of Takaichi ceiling |
+| Market pricing | ~80% hike by April (Tamura + Takata hawkish) |
 | Escalation tools | Moral suasion → Diet questioning → BOJ Law revision threats |
 
-**April BOJ Meeting = DANGER ZONE.** If Shunto strong + budget passed + inflation hot → collision.
+**April BOJ Meeting = ACTIVE DANGER ZONE.** The 0.75% ceiling has been reached. Next hike = collision.
 
 ---
 
@@ -142,35 +154,38 @@ Japan is in a **fiscal doom loop** (acknowledged as "credible tail risk" by Alli
 
 ## BOJ SHOWDOWN TIMELINE
 
-### March 18-19 BOJ Meeting
-**Expected:** HOLD at 0.25%, OR 0.25% hike with STRONG HOLD SIGNAL through Q2
+### March 13-14 BOJ Meeting (**NOTE: CALENDAR says Mar 13-14, not 18-19**)
+**Expected:** HOLD at 0.75%, with hawkish forward guidance toward April
 
 **Why:**
-- Inflation moderating (but still >2%)
-- Pre-budget passage — no fiscal shock yet
-- Ueda likely to wait for April fiscal clarity
+- BOJ ALREADY at 0.75% — Takaichi's stated ceiling
+- Tamura Feb 13: "this spring" hike possible, Japan "very close" to 2% target
+- Takata voted for 1.00% at January meeting
+- Markets pricing ~80% hike by April
+- Next hike = Takaichi political collision (0.75% was the tolerance limit)
 
-**Market pricing:** ~40% hike probability
+**Market pricing:** ~80% hike probability by April (UP from 40%)
 
-### April BOJ Meeting — "DANGER ZONE"
+### April BOJ Meeting (Apr 23-24) — "DANGER ZONE" 🔴
 
 **Collision scenario:**
-- Budget passes (April-May)
-- Fiscal expansion confirmed
-- Inflation data STILL hot (import costs + domestic demand)
-- Ueda pushes for 0.75% hike
+- BOJ already at 0.75% = Takaichi's HARD CEILING
+- Tamura + Takata pushing for 1.00%
+- Budget passes (April-May) + inflation still >2% + Shunto strong → Ueda has full cover
+- Ueda pushes for 1.00% hike
 
-**Takaichi response:**
+**Takaichi response:** (Aida's explicit ceiling = 0.75%, then "pause until 2027")
 - Sends Katayama to BOJ for "coordination meeting"
-- Public pressure: "Hike threatens recovery"
-- Market intervention: Verbal yen support
+- Public pressure escalates: "Hike threatens mortgages and recovery"
+- Threats to amend BOJ law
 
-**This is the showdown.** Ueda wants normalization. Takaichi has drawn 0.75% ceiling. If April inflation hot, collision becomes acute.
+**The 0.75% ceiling is now BREACHED if Ueda hikes.** This isn't theoretical anymore — it's the next decision.
 
 **Watch for:**
-- Katayama statements in March
-- Aida commentary on "appropriate pace"
-- Diet questioning of Ueda
+- Katayama statements in March (preemptive pressure)
+- Aida commentary — he WILL push back if March BOJ sounds hawkish
+- Diet questioning of Ueda (escalation tool)
+- Any floating mortgage political backlash coverage
 
 ---
 
@@ -269,17 +284,72 @@ Japan is in a **fiscal doom loop** (acknowledged as "credible tail risk" by Alli
 
 ---
 
-## NEXT INFLECTION: FEB 19 20Y AUCTION
+## 🚨 FEB 19 PLAYBOOK — T-2 DAYS
 
-**REVISED THRESHOLDS (Global Bond Stress Context):**
+### EVENT 1: 20Y JGB Auction
+**When:** ~10:20 AM Tokyo time (01:20 AM UTC / 8:20 PM ET Feb 18)
+**Results published:** ~10:35 AM Tokyo (01:35 AM UTC)
+**Source:** MOF website (mof.go.jp/english/jgbs/auction), Bloomberg, Reuters
+
+**Context going in:**
+- Jan 20: WORST 20Y demand since 1987 (BTC collapsed)
+- Feb 5 30Y: PASSED strongly (BTC 3.64x, tail 0.8bp)
+- Feb 17 5Y: Passed (BTC 3.1, below avg 3.48 — "steady")
+- JGB yields have rallied sharply (10Y: 2.29% → 2.16%)
+- Takaichi "responsible fiscal" pledge reducing fiscal risk premium
+- Life insurers said "attractive opportunities" at 3.6%+ (but 20Y now ~3.05%)
+- Momentum: POSITIVE vs January
+
+**Thresholds (revised for current rally context):**
+
+| Result | BTC | Tail | Implication | Action |
+|--------|-----|------|-------------|--------|
+| 🟢 PASS | >3.0x | <2bp | Fiscal stress abating, Jan was one-off | Monitor only |
+| 🟡 WEAK | 2.5-3.0x | 2-4bp | Demand cautious despite rally | Flag to PROME |
+| 🟠 STRESS | 2.0-2.5x | 4-6bp | Life insurers still retreating | Alert LIQUID |
+| 🔴 FAIL | <2.0x | >6bp | Crisis signal — doom loop risk | PATH D TRIGGER condition met |
+
+**Note on thresholds:** The STATUS.md thresholds of <2.5x=fail need updating given rally context. Life insurers said "attractive" at 3.6%+ — current 20Y at ~3.05% may NOT attract them as strongly. This creates a subtle trap: yields have rallied down to levels that might not bring structural buyers back. **Watch tail more than BTC** — a wide tail with decent BTC = smart money leaving while passive bids fill.
+
+### EVENT 2: Electronics Shunto Demand Submission (JEIU)
+**When:** During Japan business hours Feb 19 (overnight ET)
+**Nature:** ⚠️ DEMAND submission, NOT settlement. Company responses due mid-March.
+**Source:** Jiji Press, Nikkei, Rengo announcements
+
+**What to watch on Feb 19:**
+- Confirm ≥¥18,000 demand submitted (already telegraphed — this is the record ask)
+- Watch for any major company (Sony, Hitachi, Panasonic, NEC) making **same-day acceptance** signals
+- Watch for company comments like "positive response" or "will consider in full"
+- Any hint of early negotiation acceptance = STRONG pre-signal
+
+**Signal interpretation:**
+| Signal | Implication |
+|--------|-------------|
+| ¥18,000+ demand submitted + company positive response | STRONG → BOJ hike pressure |
+| ¥18,000+ demand submitted, companies silent (normal) | Direction = STRONG, wait for mid-March |
+| <¥18,000 demand (surprise downward revision) | WEAK signal — unexpected |
+
+**Reality check:** The "≥3.5% settlement" threshold won't be confirmed until late March. Feb 19 gives us DIRECTION not magnitude. Current demand (¥18,000) = record = points strongly toward ≥3.5%.
+
+### PATH D TRIGGER: BOTH FIRE
+**Condition:** Shunto signals STRONG (≥¥18,000 submitted, positive early company signals) **AND** 20Y BTC <2.0x
+**Probability:** ~10-15% on Feb 19 specifically (main Shunto signal delayed to March)
+**Note:** Given JGB rally, auction failure is LESS likely than pre-rally. Path D more likely March-April.
+
+### IF PATH D TRIGGERS — TRANSMISSION SPEED
+From Aug 2024 precedent:
+- **Hours 0-2:** Yen move triggers margin calls on carry trades
+- **Hours 2-8:** Asian market cascade (Nikkei, Hang Seng)
+- **Hours 8-16:** UST selling accelerates as Japan repatriates
+- **Hours 16-24:** VIX spikes (Aug 2024: VIX 65), S&P -3%+ intraday
+
+**REVISED NEXT INFLECTION THRESHOLDS:**
 
 | Result | BTC | Tail | Implication |
 |--------|-----|------|-------------|
-| 🟢 PASS | >3.0x | <2bp | Continue gradual |
-| 🟡 WEAK | 2.5-3.0x | 2-4bp | Accelerate to stress |
-| 🔴 FAIL | <2.5x | >4bp | Crisis cascade |
-
-**Why higher bar:** US 10Y auction showed 1.4bp tail (worst since Aug 2024) — global stress is SYSTEMIC.
+| 🟢 PASS | >3.0x | <2bp | Risk premium normalizing post-Takaichi pledge |
+| 🟡 WEAK | 2.5-3.0x | 2-4bp | Underlying demand stress despite rally |
+| 🔴 FAIL | <2.0x | >6bp | Crisis cascade — Path D trigger |
 
 ---
 
@@ -384,19 +454,23 @@ Japan is in a **fiscal doom loop** (acknowledged as "credible tail risk" by Alli
 
 ## BOTTOM LINE
 
-**Feb 12 UPDATE: Floating mortgage bomb discovered. BOJ ceiling LOWER than market thinks. D2 probability rises.**
+**Feb 17 UPDATE: BOJ ALREADY AT 0.75% CEILING. Collision is IMMINENT not theoretical.**
 
-- **Takaichi supermajority** — fiscal restraint gone, only BOJ and markets constrain
-- **75% floating mortgages** — hard ceiling on normalization (0.75%)
-- **Life insurers ACTIVELY selling** — $10-15B/month, base case $80-120B/year
-- **Feb 19 20Y auction** — first test post-landslide
+- **BOJ rate = 0.75%** — Takaichi's stated tolerance limit. ALREADY THERE.
+- **JGB yields FELL sharply** — Takaichi "responsible fiscal" pledge triggered rally (10Y: 2.29% → 2.16%)
+- **USD/JPY strengthened** — 156 → 152-153. Yen 3% stronger than STATUS.md showed.
+- **Feb 19 Shunto clarification**: Electronics DEMAND submission (≥¥18,000). Company responses due mid-March.
+- **Next BOJ hike (to 1.00%)** = political collision. Tamura pushing, Takata voted for it. Markets 80% by April.
+- **Takaichi "responsible" pledge** — short-term bond market relief, but structural fiscal path unchanged.
+- **5Y JGB auction passed** (Feb 17, BTC 3.1) — positive momentum going into Feb 19 20Y.
+- **Jupiter Asset Mgmt** closed JGB shorts — contrarian bullish signal.
 
 **The collision:**
-- Ueda wants 1.0%+ terminal
-- Takaichi draws 0.75% ceiling
-- Mortgages constrain Ueda further
-- April = showdown if inflation hot
+- Ueda wants 1.0%+ terminal rate
+- Takaichi ceiling = 0.75% (NOW REACHED)
+- 75% floating mortgages constrain further
+- April = SHOWDOWN if Shunto strong + inflation hot
 
-*Next update: Feb 19 post-20Y auction*
+*Next update: Feb 19 post-20Y auction + post-Shunto demand submission*
 
 **Full analysis:** `workbook/LIFE_INSURER_UST_DEEP_DIVE.md` (38KB)
