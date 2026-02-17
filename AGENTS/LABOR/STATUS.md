@@ -53,6 +53,39 @@ The U.S. labor market has entered a structural break masked by surface-level sta
 
 ---
 
+## BLS BENCHMARK REVISION — 1.03M PHANTOM JOBS EXPOSED (Feb 11, 2026)
+
+**Source:** BLS Annual Benchmark Revision, Wolf Richter analysis
+
+### The Revision
+
+| Metric | Reported | Revised | Overstatement |
+|--------|----------|---------|---------------|
+| **Total 2024-2025 job growth** | +1.21M | **+181K** | **1.03M phantom jobs** |
+| 2025 full year | +584K | **+181K** | -69% |
+| Nov 2025 (worst month) | ~+50K | **-175K** | 225K swing |
+
+### Why It Matters
+
+1. **Survey vs Actual:** BLS monthly data = surveys + birth/death model. QCEW (payroll tax data) = actual count.
+2. **Overstated for 2 years:** The "strong labor market" narrative was based on ~1M phantom jobs that didn't exist.
+3. **Multiple months flipped negative:** Several late-2025 months reported as gains were actually LOSSES.
+
+### Visual Evidence
+
+**Chart:** `SIGNALS/images/nonfarm_payroll_revisions_2023-2026.jpg`
+
+Shows blue (reported) vs red (revised) — consistent overstatement through 2024, dramatic divergence in 2025, Nov 2025 flipped from +50K to -175K.
+
+### Implication for Thesis
+
+- The employment "cushion" everyone assumes exists is **1 million jobs smaller**
+- Monthly job reports should be viewed with skepticism until benchmark-confirmed
+- LABOR's "weaker than reported" thesis = **VALIDATED**
+- The initial claims stability (227K) may also be masking weakness
+
+---
+
 ## KEY FRAMEWORKS
 
 | Framework | Summary |
