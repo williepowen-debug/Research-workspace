@@ -1,5 +1,5 @@
 # HENRY STATUS
-**Last Updated:** 2026-02-16 | **Status:** 🟡 YELLOW — Peak Risk Positioning (0DTE + Margin ATH + Credit Divergence)
+**Last Updated:** 2026-02-17 | **Status:** 🟠 ORANGE — Below Volatility Trigger + 99th Percentile Dispersion + Negative Gamma Regime
 
 ---
 
@@ -36,15 +36,18 @@ The equity market is **derivatives-driven** where dealer hedging dominates short
 
 | Indicator | Current | Threshold | Status |
 |-----------|---------|-----------|--------|
-| SPX Spot | ~6,850 | — | At gamma flip zone |
-| **VIX** | **21.77** | >20 elevated | 🟠 +16.79% single session |
+| **SPX Spot** | **6,836** | Vol Trigger 6,900 | 🔴 **BELOW** |
+| **VIX** | **22.16** | >20 elevated | 🟠 +7.57% (Feb 17) |
+| **Dispersion** | **10.8%** avg move | 99th %ile | 🔴 Extreme fragmentation |
+| **Put Skew** | 90-day high | >90th %ile | 🟠 Heavy downside demand |
+| **IV Rank** | ~20% | Low | 🟡 Options cheap = tension |
 | **MOVE** | **65.82** | <80 calm | 🟢 Near 4-yr lows |
-| VIX/MOVE Ratio | 3.0x | Typical 4-6x | 🟡 Equity vol > bond vol |
+| VIX/MOVE Ratio | 3.4x | Typical 4-6x | 🟡 Equity vol > bond vol |
 | Net GEX | ~$62B | <$2B thin | 🟢 |
 | HY OAS | ~281 bps | <300 tight | 🟠 Near 2007 lows |
 | **0DTE Share (SPX)** | **65%** | Was 50% Jan'24 | 🔴 |
 | **Margin Debt** | **$1.23T** | ATH | 🔴 |
-| High-Low Index | 88.0% | >80% strength | 🟢 |
+| **Mag 7 Positioning** | **ATH** | Per Goldman | 🔴 No dry powder |
 | Tech Breadth | 45.7% | <40% danger | 🟠 |
 | Layoff YoY | +58% | >40% stress | 🔴 |
 
@@ -73,15 +76,69 @@ The equity market is **derivatives-driven** where dealer hedging dominates short
 
 ---
 
-## KEY LEVELS
+## KEY LEVELS (Updated Feb 17)
 
-| Level | SPX Price | Significance |
-|-------|-----------|--------------|
-| Max GEX / Resistance | 7,000 | Dealer selling pressure |
-| **Put Wall** | 6,920 | First structural support |
-| **CTA Flip** | 6,494 | Medium-term CTAs flip short |
-| **Volatility Trigger** | 6,400 | Gamma flip zone |
-| JPM Collar Put | 6,475 | Institutional hedge floor |
+| Level | SPX Price | Significance | Status |
+|-------|-----------|--------------|--------|
+| Max GEX / Resistance | 7,000 | Dealer selling pressure | — |
+| **Volatility Trigger** | **6,900** | Gamma flip zone | 🔴 **BELOW** (closed 6,836) |
+| **Put Wall** | 6,800 | Structural support | 🟠 Testing |
+| **Acceleration Zone** | 6,600s | Negative gamma feedback target | Watch |
+| **CTA Flip** | 6,494 | Medium-term CTAs flip short | 🟢 5.2% cushion |
+| JPM Collar Put | 6,475 | Institutional hedge floor | — |
+
+**Current:** SPX closed **6,836** on Friday. **BELOW Volatility Trigger (6,900).**
+
+---
+
+## GAMMA REGIME STATUS (NEW Feb 17, 2026)
+
+**Source:** SpotGamma / LaDuc Trading
+
+### Regime: NEGATIVE GAMMA (Fragile)
+
+SPX broke below **Volatility Trigger (6,900)** and **Risk Pivot**, closing at 6,836 with VIX >20.
+
+**What this means:**
+- **Above Vol Trigger:** Dealers DAMPEN downside moves (positive gamma)
+- **Below Vol Trigger:** Dealers REINFORCE downside moves (negative gamma)
+
+**Currently BELOW = dealers now accelerate downside, not cushion it.**
+
+### Dispersion: 99th Percentile
+
+- SPX flat over past month
+- But average constituent moved **10.8%**
+- **99th percentile dispersion** = extreme fragmentation beneath surface
+- Index stability is MASKING underlying stress
+
+### Put Skew Tension
+
+| Metric | Current | Percentile | Implication |
+|--------|---------|------------|-------------|
+| Put Skew | 90-day high | >90th | Heavy downside demand |
+| IV Rank | ~20% | Low | Options still cheap |
+| **Tension** | High | — | Can snap — vol expansion risk |
+
+When put demand rises while IV stays compressed = spring loaded for vol expansion if price breaks lower.
+
+### Scenario Matrix
+
+| If SPX... | Then... |
+|-----------|---------|
+| **Breaks 6,800 sustained** | Negative gamma feedback intensifies → target 6,600s |
+| **Reclaims 6,900** | Stabilizes, eases immediate pressure |
+| **Stays 6,800-6,900** | Choppy, vulnerable to event catalysts |
+
+### Week Catalysts (Compressed Week)
+
+| Date | Event | Risk |
+|------|-------|------|
+| Wed 2/19 | **VIX Expiration** + Fed Minutes | Forced repositioning |
+| Thu 2/20 | Jobless Claims | ⚠️ DHS distortion |
+| Fri 2/21 | **OPEX** + PCE | Dealer hedging adjusts |
+
+**VIX expiration + OPEX in same week = elevated repositioning risk while negative gamma.**
 
 ---
 
