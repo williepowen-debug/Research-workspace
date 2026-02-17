@@ -1,5 +1,5 @@
 # CARL STATUS
-**Last Updated:** 2026-02-16 | **Status:** 🔴 RED — Fannie MF DQ IMMINENT BREACH (5bps from GFC peak), Wright confirms transmission ACTIVE
+**Last Updated:** 2026-02-17 | **Status:** 🔴 RED — Fannie MF DQ IMMINENT BREACH (5bps from GFC peak), Wright confirms transmission ACTIVE | DHS Shutdown Day 5 NEW vector
 
 ---
 
@@ -16,6 +16,40 @@ Surface metrics look manageable (unemployment 4.4%, spending holding). Underneat
 **Employment is the detonator.** Per LABOR: ~580K layoffs announced, temp -12%, severance exhausts Q2-Q3.
 
 **Alternate Path — HENRY → CARL:** If SPX drops 10%+, top 60% pulls back spending. K-shape collapses from TOP, bypasses LABOR.
+
+---
+
+## K-SHAPE RECONCILIATION (Updated Feb 17)
+
+**Why public data and macro data can both be right simultaneously.**
+
+### The Two-Tier Consumer Market
+
+| Tier | Share of Population | Credit Signal | Employment Signal | Status |
+|------|--------------------|--------------|--------------------|--------|
+| **Prime / Near-Prime** | ~40% | ✅ Improving | Stable | 🟢 FINE |
+| **Subprime / Stressed** | ~60% | ❌ Collapsing | Deteriorating | 🔴 CRISIS |
+
+### What Each Data Source Is Measuring
+
+| Source | What It Reflects | Reading | Validity |
+|--------|-----------------|---------|----------|
+| Fed 30-day CC DQ (2.98%, ↓5th consecutive) | **Prime-weighted** aggregate | Declining | ✅ Accurate for prime |
+| SYF / ALLY / BFH / AFRM / SC Q4 filings | **Surviving book** (charged-off stress already removed) | Improving | ✅ Accurate for book |
+| NY Fed Q4 2025 aggregate (4.8% DQ, 12.70% CC 90+) | **Full population** including stressed cohort | Highest since 2017 | ✅ True macro signal |
+| Wright 609K current→delinquent (Oct 2025) | **Transition cohort** — bottom quintile | Collapsing | ✅ Leading indicator |
+
+### Key Insight
+The thesis is **not broken — it's stratified.** Public company improving metrics reflect:
+1. Charge-offs of worst accounts already cleared (denominator shrinks)
+2. Prime/near-prime customers in their books still paying
+3. New originations tilted conservative post-2023
+
+The Wright cohort (609K current→delinquent in a single month) is **real stress happening NOW**, just not in books these companies predominantly hold.
+
+### Transmission Implication
+**Revised:** Employment shock → Housing stress → Banks (first leg bypasses consumer credit).
+**CARL role:** Primary = MF/housing channel (Fannie DQ). Secondary = subprime cohort tracking (CVNA ABS, DHS workers, Wright-type monitoring).
 
 ---
 
@@ -61,7 +95,7 @@ $150-200B **invisible** to credit bureaus:
 | Auto 60+ (Monoline) | 16.6% | 🔴 | Non-bank historic highs |
 | Negative Equity (Auto) | 52.9% | 🔴 | Over half underwater |
 | **Student Loan 30+ DQ** | **16.3%** | 🔴 | WORST EVER |
-| **Student Loan 90+ DQ** | **9.5%** | 🔴 | +$150B YoY |
+| **Student Loan 90+ DQ** | **9.6%** | 🔴 | +$150B YoY — UPDATED Feb 17 (was 9.5%), 0.4pp from 10% threshold |
 | Total Household Debt | $18.78T | 🔴 | Record |
 | **Fannie MF DQ** | **0.75%** | 🔴 | **IMMINENT BREACH** — 5bps from GFC peak (0.80%) |
 | **Freddie MF DQ** | **0.48%** | 🟠 | Highest in 21 years |
@@ -71,10 +105,61 @@ $150-200B **invisible** to credit bureaus:
 | BNPL Subprime Share | 61% | 🔴 | |
 | CC Utilization | 23.6% | 🟡 | 60% carry balance |
 | **Subprime Auto ABS 60+** | **>6%** | 🔴 | RECORD (vs Prime 0.2%) |
+| **DHS Shutdown — Workers Without Pay** | **234K** | 🔴 | **NEW (Feb 12+) — Day 5+; first missed paycheck imminent; FL/TX/CA/NY overlap with WARN hotspots** |
 
 **Age breakdown (transition to 90+ days):** 18-29: 9.5% | 30-39: 8.6% | 40-49: 8.1%
 
 **Tariff Tax Burden (Tax Foundation):** $1,000/household (2025) → $1,300/household (2026) — regressive hit on 37% who can't cover $400.
+
+---
+
+## DHS SHUTDOWN — CONSUMER STRESS VECTOR (NEW Feb 17)
+
+**Started:** Feb 12-13, 2026 (CR lapsed; House failed to pass). Congress returns ~Feb 23.
+
+### Scale & Consumption Impact
+
+| Factor | Detail |
+|--------|--------|
+| Total DHS employees | ~260,000 |
+| Working without pay ("essential") | **234,000** |
+| Annualized salary at risk | ~$15B (~$65K median GS salary × 234K) |
+| Expected pay cessation duration | **10-14 days minimum** (if resolution Feb 23) |
+| First missed paycheck | **This week** (bi-weekly pay cycle) |
+
+### Geographic Overlap — WARN Hotspot Confirmation
+
+| DHS Component | Primary States | WARN Overlap |
+|---------------|---------------|--------------|
+| Border Patrol / CBP | TX, AZ, CA | ✅ WARN hotspots |
+| TSA | All major airports — FL, TX, CA, NY | ✅ FL canary |
+| Coast Guard | FL (Gulf), CA, NY | ✅ FL canary |
+| ICE | FL, TX, CA, NY | ✅ WARN hotspots |
+
+**This is concentrated in exactly our stress geographies.**
+
+### Transmission Mechanism
+```
+Pay cessation (Day 1-7) → Emergency fund depletion
+→ First missed auto/rent (Day 8-14 for zero-buffer workers)
+→ Payday/cash advance demand spike
+→ BNPL and cash advance app DQ (GIG canary: Dave 28DPD)
+→ If extended >30 days → CC delinquency transition
+```
+
+**Speed:** For workers who can't cover $400 (37% of all Americans — DHS GS-7 to GS-11 workers heavily represented), conversion to delinquency is measured in **days, not months**.
+
+### Claims Distortion
+- Essential workers **cannot file UI** while working without pay
+- **Thursday Feb 19-20 initial claims print = suppressed / unreliable**
+- Resolution creates retroactive pay spike → normalization lag
+- **DO NOT use Feb 19-20 claims as trend signal in either direction**
+
+### Monitoring
+- Shutdown duration counter: active (Day 5 as of Feb 17)
+- **Trigger:** Day 14+ = formal threshold entry (VX candidate)
+- **Resolution watch:** Feb 23 Congress return = earliest plausible fix
+- Dave 28DPD (GIG canary): flag if moves above 2.05% this week
 
 ---
 
@@ -223,7 +308,7 @@ Bank NCOs rise (REGINALD) → Earnings release
 | # | Prediction | Current | Gap | Timeframe | Conf |
 |---|------------|---------|-----|-----------|------|
 | 16 | **Fannie MF DQ >0.80% (GFC breach)** | **0.75%** | **0.05pp** | **Q2 2026** | **90%** |
-| 12 | Student 90+ DQ >10% | 9.5% | 0.5pp | Q1 2026 | 85% |
+| 12 | Student 90+ DQ >10% | **9.6%** | **0.4pp** | Q1 2026 | **88%** |
 | 11 | CC 90+ DQ >13.74% (GFC) | 12.70% | 1.04pp | Q2 2026 | 75% |
 
 ### Tracking 📊
@@ -292,7 +377,7 @@ Bank NCOs rise (REGINALD) → Earnings release
 | Metric | Q4 2025 | Status |
 |--------|---------|--------|
 | **30+ Day DQ** | **16.3%** | 🔴 WORST EVER |
-| **90+ Day DQ** | **9.5%** | 🔴 |
+| **90+ Day DQ** | **9.6%** | 🔴 |
 | **90+ Delinquent** | **$159B** | +$150B YoY |
 | Total Student Debt | $1.66T | |
 
@@ -414,6 +499,18 @@ The 30x gap = K-shape economy in one chart. Employment shock collapses prime tow
 | HENRY | SPX -10%+ | Reverse Wealth Effect (fast path) |
 | REGINALD | Credit tightens | Refinance options disappear |
 
+### ⚠️ DATA QUALITY FLAG — ACTIVE (Feb 17)
+
+**Thursday Feb 19-20 Initial Claims: DO NOT INTERPRET AS TREND**
+
+Two simultaneous distortions:
+1. **DHS Shutdown:** 234K essential workers working unpaid → ineligible for UI → suppresses numerator
+2. **Presidents' Day Holiday (Feb 16):** State workforce agencies partially closed → filing lag, processing delay
+
+Expected effect: Print will be **artificially low**. Any number below 220K is shutdown/holiday artifact, not a genuine signal.
+
+**Next reliable claims print: Feb 26, 2026.** Monitor that date for shutdown resolution effects (retroactive pay = workers who didn't file, will they spike?) — but even Feb 26 may carry noise if resolution is Feb 23 or later.
+
 ---
 
 ## RESEARCH GAPS
@@ -449,14 +546,46 @@ The 30x gap = K-shape economy in one chart. Employment shock collapses prime tow
 
 **vs KRE/IWM:** Individual names MORE DIRECT (KRE diffused, IWM too broad).
 
-**Thesis Link:** Wright Q4 showed CC DQ doubled (+92%), HELOC +121%, but public companies show improvement → **divergence is the trade**.
+**⚠️ THESIS REVISION (Feb 16-17):** SEC filing verification showed SYF, BFH, ALLY, AFRM, SC ALL IMPROVING at public company level. Fed 30-day card DQ: 2.98% — fifth consecutive decline. **Conviction on consumer finance equity shorts REDUCED pending Q1 2026 earnings confirmation.** Stress is real but concentrated in subprime cohorts that don't dominate public co books. Wright 609K current→delinquent (Oct) is the stress locus, not these names' reported books.
+
+**Revised Thesis Link:** K-shape is the key. Prime consumers fine (Fed DQ declining). Subprime/stressed cohort collapsing (Wright, NY Fed aggregate 4.8%). Public co improvement ≠ macro improvement. Watch for divergence to close at Q1 2026 earnings (April).
+
+**Revised Transmission:** Housing → Banks directly (bypasses consumer credit as first leg). CARL role now: primary housing/MF channel (Fannie MF DQ), secondary specific cohort tracking (subprime auto, DHS workers).
 
 **Monitoring:**
 - Monthly ABS trustee reports for early DQ signal
-- Q1 2026 earnings (April) — first test of thesis
+- Q1 2026 earnings (April) — first real test post-revision
 - Watch for NCO re-acceleration if LABOR stress hits Q2-Q3
 
 **Full Analysis:** `workbook/CONSUMER_FINANCE_TRADE_ANALYSIS_2026-02-16.md`
+
+---
+
+### CVNA — PRIMARY ABS MONITORING TARGET
+
+**Elevated:** 2026-02-17 (PROME directive)
+
+**Why Primary:**
+- ABS extensions: **+45%** (Hindenburg report — servicer managing defaults, not investor confidence)
+- Gotham City Research short report active
+- Q4/FY2025 earnings: **Feb 18** (tomorrow — CRITICAL catalyst)
+- Ally Financial $6B forward flow exposure → transmission to REGINALD if CVNA deteriorates
+
+**Threshold Framework:**
+
+| Metric | Green | Yellow | Orange | 🔴 Red |
+|--------|-------|--------|--------|--------|
+| ABS Extension Rate | <30% | 30-40% | 40-50% | **>50%** |
+| ABS 30+ DQ | <3% | 3-5% | 5-8% | >8% |
+| GT opinion (Feb 18) | Issued clean | Qualified | Adverse | Withheld/Resigned |
+
+**Feb 18 Earnings Watch:**
+- Going concern (GT) opinion = immediate RED
+- Delayed filing = RED
+- ABS extension language in 10-K = key read-through
+- Ally forward flow commentary = REGINALD trigger
+
+**Cross-agent:** If CVNA ABS extension >50% confirmed, notify REGINALD (Ally $6B exposure) and OTTO (litigation overlap).
 
 ---
 
