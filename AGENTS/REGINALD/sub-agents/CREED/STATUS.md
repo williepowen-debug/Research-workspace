@@ -1,5 +1,5 @@
 # CREED STATUS
-**Last Updated:** 2026-02-17 | **Status:** 🔴 RED — Office Special Servicing Accelerating + Insurer Exit + Retail Resolution at 42%
+**Last Updated:** 2026-02-17 | **Status:** 🔴 RED — Office CMBS DQ All-Time Record (12.34%) + $25B Zombie Loans + Extend-and-Pretend Collapsing
 
 ---
 
@@ -98,6 +98,29 @@ The gap is extend-and-pretend: loan modifications, FHLB liquidity, regulatory fo
 - One New York Plaza: $835M extended to Jan 2028 (Brookfield)
 - Pattern: 24-month extensions from 2026 → 2028
 - **Risk:** 10-20% of $936B wall kicked to 2028 = $94-187B deferred crisis
+
+### 12. CMBS Office DQ Hits All-Time Record — 12.34% (NEW Feb 17, 2026)
+- **Office CMBS DQ: 12.34%** (Jan 2026) — **highest since Trepp began tracking in 2000**
+- +103 bps MoM acceleration
+- **Exceeds GFC peak** (~10%)
+- **Maturity payoff rate collapsing:** 75% (2024) → **<50%** (2026 YTD)
+- **>50% of ~$100B** CRE loans in CMBS due 2026 unlikely to repay at maturity (Morningstar DBRS)
+
+### 13. $25B CMBS "Zombie Loans" Past Maturity (NEW Feb 17, 2026)
+- **$25 billion** of CMBS loans now past maturity WITHOUT being:
+  - Paid off
+  - Liquidated
+  - Formally extended
+- These are "zombie loans" — neither performing nor resolved
+- Extend-and-pretend reaching structural limits
+- **NYT HQ Building (Brookfield):** $515M loan extended **5 times since 2020** — poster child
+- **One New York Plaza:** $835M to special servicing (Jan 2026) — 2.6M SF Lower Manhattan
+
+### 14. Special Servicing Surge — One New York Plaza $835M (NEW Feb 17, 2026)
+- **Largest CMBS transfer to special servicing in January 2026**
+- Collateral: 2.6 million SF office tower, Lower Manhattan
+- Signals even Class A Manhattan office hitting distress
+- Source: Trepp CMBS Special Servicing Report January 2026
 - Bifurcation: office getting extensions, retail facing foreclosure
 
 ### 10. Healthcare CRE: Hospital "Triple Whammy" (NEW Feb 17, 2026)
