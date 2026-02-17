@@ -1,5 +1,5 @@
 # HENRY STATUS
-**Last Updated:** 2026-02-17 | **Status:** 🟠 ORANGE — Below Volatility Trigger + 99th Percentile Dispersion + Negative Gamma Regime
+**Last Updated:** 2026-02-17 23:10 UTC | **Status:** 🟠 ORANGE — Below Volatility Trigger + 99th Percentile Dispersion + Negative Gamma Regime
 
 ---
 
@@ -29,6 +29,62 @@ The equity market is **derivatives-driven** where dealer hedging dominates short
 - **Equity puts (SYF, ALLY, KRE) = HIGH conviction (7-8/10)** — direct bifurcation exposure, better asymmetry
 - Aug 2024 lesson: VIX 65 spike was 85% artificial (bid-ask), recovered in 3 sessions
 - Vol positioning neutral (not crowded either way)
+
+---
+
+## 🆕 QUALITY ROTATION UNDERWAY (Feb 17, 2026)
+
+**Multi-asset evidence of smart money de-risking across credit spectrum.**
+
+### The Quality Cascade — All Steps Confirmed
+
+| Step | Comparison | Evidence | Status |
+|------|------------|----------|--------|
+| 1 | IG > HY | LQD +1.79% vs HYG +0.44% (6M) | ✅ |
+| 2 | Better HY > Worse HY | HYG -0.35% vs JNK -0.44% (1M) | ✅ |
+| 3 | Leveraged loans crack | **BKLN -1.99% (1Y), at 52-week lows** | ✅ |
+| 4 | Specific names blow out | Pending (CVNA tomorrow?) | ⏳ |
+| 5 | Contagion spreads | Pending | ⏳ |
+
+### BKLN — The Clearest Signal
+
+**Leveraged loans at 52-week lows while equities near highs.**
+
+| Timeframe | BKLN | SPY | Divergence |
+|-----------|------|-----|------------|
+| 6-Month | **-1.43%** | +6.12% | 7.5pp |
+| 1-Year | **-1.99%** | +12.00% | 14pp |
+
+- BKLN is floating rate, senior secured — NOT rate sensitive
+- If senior secured debt is selling, it's **pure credit concern**
+- Rallied to 52-week high in Nov, **gave it ALL back** by Feb
+- Institutional credit investors are exiting while equities party
+
+**This is the "credit leading equities" pattern that precedes repricing events.**
+
+### November Hope Trade Fading
+
+| Asset | 6M Return | Pattern |
+|-------|-----------|---------|
+| KRE | +16.14% | Hope rally → rolling over |
+| IWM | +15.82% | Hope rally → rolling over |
+| USDJPY | +8% → +0.6% | Yen strengthening |
+| HYG | +0.44% | Lagging IG |
+| BKLN | **-1.43%** | Breaking down |
+
+**The November deregulation/domestic bid is unwinding across all risk assets.**
+
+### IWM/SPY — Small Cap Beta Risk
+
+| Timeframe | IWM | SPY | Gap |
+|-----------|-----|-----|-----|
+| 6-Month | +15.82% | +6.12% | +9.7pp |
+| 1-Year | +16.42% | +12.00% | +4.4pp |
+
+- **Entire IWM outperformance came from November election spike**
+- Before election: IWM tracked SPY or underperformed
+- Small caps = higher beta — fall faster in drawdowns (Feb-Apr 2025: IWM -20% vs SPY flat)
+- Premium at risk if hope trade unwinds
 
 ---
 
