@@ -1,31 +1,32 @@
 # June 2026 Put Candidates
 
-**Last Updated:** 2026-02-16 21:00 UTC  
+**Last Updated:** 2026-02-17 00:45 UTC  
 **Original Thesis:** Consumer/employment stress → credit deterioration → equity repricing  
 **Expiry:** June 2026 (~4 months)  
-**Status:** 🔴 CONSUMER FINANCE THESIS CLOSED — Staffing/CRE remain viable
+**Status:** 🔴 PIVOT: Cards broken → **Subprime Auto (CVNA)** is the trade
 
 ---
 
 ## Executive Summary
 
-After comprehensive verification of **8 names** against primary SEC filings, earnings transcripts, and aggregate Fed/CFPB data, the consumer credit stress thesis **does not hold**.
+After comprehensive verification against primary SEC filings, ABS data, and aggregate Fed/CFPB data:
+- **Cards:** Healing (modifications DECLINING)
+- **Subprime Auto:** Stress being PAPERED OVER (extensions RISING)
 
-**Verified Today (Feb 16):**
-- FSK: 27% PIK → **8.5%** (same error as PSEC)
-- SC: Normalizing, 30-89 DQ **down 27bps YoY**
-- KELYA: **CONFIRMED stress** (80% conviction)
-- Aggregate data: Fed card DQ declining, auto flat
+**Key Discovery (Feb 16 late session):**
+S&P ABS data shows subprime auto extensions at 3.81% (5x prime). Individual lenders spiking: Carvana +45%, DriveTime +36%, Westlake >9.5%. Management explicitly loosening extension policies.
 
 **What Works:**
-| Target | Conviction | Thesis |
-|--------|------------|--------|
-| **KELYA** | **80%** | Staffing stress confirmed (-11.9% rev, GP -150bps) |
-| **KRE** | 70% | Direct CRE exposure (not via consumer credit) |
-| **CACC** | 40% | Conditional — only if claims >250K |
+| Target | Conviction | Thesis | Catalyst |
+|--------|------------|--------|----------|
+| **CVNA** | **75%** | Extend & pretend; fraud allegations; 4x industry DQ | **Feb 18 earnings** |
+| **KELYA** | **80%** | Staffing stress confirmed (-11.9% rev) | Ongoing |
+| **KRE** | 70% | Direct CRE exposure | CRE maturity wall |
+| ALLY | 50% | $19B CVNA exposure, no recourse | Secondary to CVNA |
+| CACC | 40% | Conditional — only if claims >250K | Employment crack |
 
 **What's Broken:**
-- All consumer finance puts (SYF, BFH, ALLY, AFRM, SC)
+- All card puts (SYF, BFH — mods declining, genuine healing)
 - All BDC puts (PSEC, FSK — PIK data was wrong)
 
 ---
@@ -34,17 +35,76 @@ After comprehensive verification of **8 names** against primary SEC filings, ear
 
 | Ticker | Category | Agent Claim | Verified | Conviction |
 |--------|----------|-------------|----------|------------|
+| **CVNA** | Subprime Auto | Extend & pretend | ✅ **ABS DATA CONFIRMS** | **75%** |
 | **KELYA** | Staffing | Stress | ✅ **CONFIRMED** | **80%** |
 | KRE | Regional Banks | CRE stress | ✅ Via REGINALD | 70% |
+| ALLY | Auto | Hidden CVNA exposure | ⚠️ Secondary play | 50% |
 | CACC | Deep Subprime | Stress | ✅ Managed | 40% conditional |
 | RHI | Staffing | Stress | ⚠️ Mixed | 50% |
-| SYF | Cards | Stress | ❌ Improving | 0% |
-| BFH | Cards | Stress | ❌ Improving | 0% |
-| ALLY | Auto | Stress | ❌ Improving | 0% |
+| SYF | Cards | Stress | ❌ Mods declining | 0% |
+| BFH | Cards | Stress | ❌ Mods declining | 0% |
 | AFRM | BNPL | Stress | ❌ Thriving | 0% |
 | SC | Subprime Auto | Stress | ❌ Normalizing | 0% |
 | PSEC | BDC | 35% PIK | ❌ 8.6% actual | 0% |
 | FSK | BDC | 27% PIK | ❌ 8.5% actual | 0% |
+
+---
+
+## 🔴 NEW — CVNA (Carvana) — PRIMARY TARGET
+
+**Conviction: 75%**  
+**Status:** Fraud allegations + ABS data confirms "extend and pretend"  
+**Catalyst:** Feb 18 earnings (10-K filing)
+
+### Why CVNA (Not Cards)
+
+**Cards (SYF):** Modifications DECLINING -8% YoY → Genuine healing  
+**Subprime Auto (CVNA):** Extensions RISING +45% → Papering over stress
+
+### ABS Extension Data (S&P, Dec 2024)
+| Lender | Extension Rate | Trend |
+|--------|---------------|-------|
+| Prime avg | 0.77% | Stable |
+| Subprime avg | 3.81% | Rising |
+| **Carvana** | **5.41%** | **+45%** |
+| DriveTime | 6.41% | +36% |
+| Westlake | >9.5% | Highest |
+
+### Credit Quality (Hindenburg + S&P)
+| Metric | Carvana | Industry | Multiple |
+|--------|---------|----------|----------|
+| Prime 61+ DQ | **1.3%** | 0.3% | **4.3x worse** |
+| Nonprime mix | **44%** | ~25% | Concentrated |
+| Underwater loans | **44%** | — | Post-2022 originations |
+
+### Fraud Allegations
+- **Hindenburg Research:** "Father-Son Accounting Grift"
+- **Gotham City:** $1B+ earnings overstatement via DriveTime
+- **Court order (Feb 11):** Judge compelled DriveTime documents
+- **SEC investigation:** Active (undisclosed)
+- **Garcia family history:** Father pled guilty to bank fraud (1990)
+
+### Ally Contagion
+- $19B purchased from Carvana (17% of Ally used-auto book)
+- **NO RECOURSE** — Ally bears 100% credit risk
+- Ally CFO: "Moving back timing of repossessions and removing friction around extensions"
+
+### Entry Triggers
+- [ ] GT auditor resignation → IMMEDIATE
+- [ ] 10-K delay → IMMEDIATE
+- [ ] Earnings miss + guidance cut → Confirm entry
+- [ ] DriveTime docs reveal manipulation → Confirm entry
+
+### Position Sizing
+- Speculative: 1-2% portfolio max
+- June 2026 expiry (avoid IV crush)
+- Strikes: $250-300 range (30-40% OTM)
+- Current price: ~$313
+
+### Risk
+- Squeeze if earnings beat
+- IV crush post-Feb 18
+- $44B market cap = harder to collapse
 
 ---
 
@@ -251,8 +311,10 @@ These are different populations. Stress in mortgages doesn't transmit to cards w
 
 ## Action Items
 
-### Add
-- [ ] KELYA puts (verify options liquidity/strikes)
+### Add (Priority Order)
+- [ ] **CVNA puts** — Feb 18 catalyst, verify strikes/liquidity
+- [ ] KELYA puts — verify options liquidity/strikes
+- [ ] ALLY puts — secondary to CVNA, same thesis
 
 ### Hold
 - [x] KRE (thesis shifted to CRE, still valid)
@@ -260,14 +322,15 @@ These are different populations. Stress in mortgages doesn't transmit to cards w
 - [x] HYG (credit canary)
 
 ### Remove/Avoid
-- [x] SYF, BFH, ALLY, AFRM, SC — thesis broken
+- [x] SYF, BFH, AFRM, SC — thesis broken (healing)
 - [x] PSEC, FSK — data errors, not stressed
 
 ### Monitor
+- **Feb 18: CVNA earnings** — PRIMARY CATALYST
+- Feb 18: TIC data
+- Feb 19: Japan dual catalyst (Shunto + JGB)
 - Claims: >250K = game changer for CACC
 - Wright: Sustained >400K/month = housing acceleration
-- Feb 19: Japan dual catalyst (Shunto + JGB)
-- Feb 25-26: FSK earnings (expect stabilization)
 
 ---
 
@@ -281,5 +344,5 @@ These are different populations. Stress in mortgages doesn't transmit to cards w
 
 ---
 
-*File updated: 2026-02-16 21:00 UTC*  
-*Session conclusion: Consumer finance thesis CLOSED. Staffing (KELYA) and CRE (KRE) remain viable.*
+*File updated: 2026-02-17 00:45 UTC*  
+*Session conclusion: Cards thesis CLOSED (healing). PIVOT to subprime auto — CVNA is primary target. Feb 18 earnings is the catalyst.*
