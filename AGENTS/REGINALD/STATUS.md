@@ -1,5 +1,5 @@
 # REGINALD STATUS
-**Last Updated:** 2026-02-17 18:30 UTC | **Status:** 🔴 ELEVATED-ARMED — Japan Transmission Active, Triple Catalyst Window Feb 18-20, OTTO Auto Intel Integrated, DHS Shutdown Active, CRE Recognition Phase Underway (Apollo/BXMT/Zombie Loans), BELT Geographic Diffusion Confirmed
+**Last Updated:** 2026-02-17 22:48 UTC | **Status:** 🔴 ELEVATED-ARMED — Japan Transmission Active, Triple Catalyst Window Feb 18-20, OTTO Auto Intel Integrated, DHS Shutdown Active, CRE Recognition Phase Underway (Apollo/BXMT/Zombie Loans), BELT Geographic Diffusion Confirmed
 
 ---
 
@@ -19,6 +19,65 @@
 | **Japan Contagion** (SAM) | **ACTIVE:** Repatriation $10-15B/mo → UST → CLO → BDC → banks |
 
 **Key insight:** Banks with exposure to MULTIPLE channels have more "paths to break."
+
+---
+
+## 🆕 MARKET INTELLIGENCE: Quality Rotation Underway (Feb 17, 2026)
+
+**Summary:** Multi-asset quality rotation confirms thesis — smart money de-risking across credit spectrum while equities hold.
+
+### Price Action Divergences (6-Month)
+
+| Comparison | Safer Asset | Riskier Asset | Divergence |
+|------------|-------------|---------------|------------|
+| **XLF vs KRE** | XLF -0.50% | KRE +16.14% | Regionals outperformed on hope → now fading |
+| **LQD vs HYG** | LQD +1.79% | HYG +0.44% | IG outperforming HY by 4x |
+| **HYG vs JNK** | HYG -0.35% | JNK -0.44% | Better junk outperforming worse junk |
+| **BKLN** | — | **-1.43%** | Leveraged loans breaking down (near 52-wk lows) |
+| **KRE vs KBE** | KBE +13.02% | KRE +16.14% | Regional premium at risk of mean reversion |
+
+**The Quality Cascade:**
+```
+Step 1: IG outperforms HY              ✓ CONFIRMED
+Step 2: Better HY outperforms worse HY ✓ CONFIRMED  
+Step 3: Leveraged loans crack          ✓ BKLN BREAKING
+Step 4: Specific names blow out        ⏳ PENDING
+Step 5: Contagion spreads              ⏳ PENDING
+```
+
+### Target Bank Performance vs KRE
+
+| Stock | 6M Return | vs KRE (+16%) | Implication |
+|-------|-----------|---------------|-------------|
+| **EGBN** | **+46.48%** | +30% premium | 🔴 MASSIVELY OVEREXTENDED — worst fundamentals, best returns |
+| **VLY** | **+36.66%** | +20% premium | 🔴 OVEREXTENDED — FL CRE concentration mispriced |
+| **KRE** | +16.14% | baseline | — |
+| **WAL** | +14.63% | -1.5% lag | 🟡 ALREADY UNDERPERFORMING — market sniffing issues |
+
+**EGBN Paradox:** 
+- Fundamentals: 100% DC office exposure, Convergence Score 12 (worst)
+- Performance: +46% (3x index return)
+- Interpretation: Maximum hope-based premium on maximum fundamental risk
+- **Mean reversion risk is enormous**
+
+**WAL Signal:**
+- Underperformed despite deregulation bid
+- NDFI fraud exposure, fund finance concentration  
+- Smart money already rotating out
+
+### Intraday Confirmation (Feb 17)
+- XLF: +1.06%
+- KRE: +0.35%
+- **71 bps underperformance on a green day = distribution pattern**
+
+### Implications for Position
+
+KRE puts entered near top of 16% rally. Three drivers of downside:
+1. **Premium compression:** 3% KRE vs KBE premium at risk (~$2/share)
+2. **Quality rotation:** BKLN/HYG/JNK cascade continuing
+3. **Credit events:** Q1 earnings (April) expose extend-and-pretend
+
+**Pattern:** This is orderly de-risking — gradual rotation before disorderly repricing.
 
 ---
 
