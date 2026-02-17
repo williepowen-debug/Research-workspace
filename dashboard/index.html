@@ -2661,23 +2661,23 @@
         
         // Catalysts with countdown timers
         const catalysts = [
-            // This week
-            { date: '2026-02-10T11:00:00-05:00', text: 'NY Fed Q4 Household Debt', priority: 'critical', agent: 'CARL' },
-            { date: '2026-02-11T08:30:00-05:00', text: 'NFP (Jan 2026)', priority: 'critical', agent: 'LABOR' },
-            { date: '2026-02-12T08:30:00-05:00', text: 'Initial Claims', priority: 'high', agent: 'LABOR' },
-            { date: '2026-02-12T07:00:00-05:00', text: 'MAIN Q4 Earnings', priority: 'low', agent: 'BROCK' },
-            { date: '2026-02-13T08:30:00-05:00', text: 'CPI (Jan 2026)', priority: 'high', agent: 'PROME' },
-            // Next week - BROCK BDC Earnings
-            { date: '2026-02-18T07:00:00-05:00', text: 'ARCC Q4 Earnings', priority: 'medium', agent: 'BROCK' },
-            { date: '2026-02-19T07:00:00-05:00', text: 'FSK Q4 Earnings (PIK 27%)', priority: 'high', agent: 'BROCK' },
-            { date: '2026-02-19T08:30:00-05:00', text: 'Initial Claims', priority: 'medium', agent: 'LABOR' },
-            { date: '2026-02-19T10:00:00+09:00', text: '20Y JGB Auction', priority: 'critical', agent: 'SAM' },
-            { date: '2026-02-20T07:00:00-05:00', text: 'BXSL Q4 Earnings', priority: 'medium', agent: 'BROCK' },
-            // Late Feb - BROCK Critical + CREED Bank 10-Ks
-            { date: '2026-02-25T07:00:00-05:00', text: 'PSEC Q4 Earnings (PIK 35%)', priority: 'critical', agent: 'BROCK' },
+            // COMPLETED - This week (Feb 10-14)
+            { date: '2026-02-10T11:00:00-05:00', text: '✅ NY Fed Q4 Household Debt', priority: 'critical', agent: 'CARL' },
+            { date: '2026-02-11T08:30:00-05:00', text: '✅ NFP (Jan 2026)', priority: 'critical', agent: 'LABOR' },
+            { date: '2026-02-12T08:30:00-05:00', text: '✅ Initial Claims (227K)', priority: 'high', agent: 'LABOR' },
+            { date: '2026-02-13T08:30:00-05:00', text: '✅ CPI (Jan 2026)', priority: 'high', agent: 'PROME' },
+            // THIS WEEK (Feb 17-21) - CRITICAL CATALYST WINDOW
+            { date: '2026-02-18T16:00:00-05:00', text: '🔴 CVNA Q4 Earnings (AMC) — 10-K, extensions, GT opinion', priority: 'critical', agent: 'OTTO' },
+            { date: '2026-02-18T16:00:00-05:00', text: '🔴 Dec TIC Data — Belgium >$500B?', priority: 'critical', agent: 'ZHAO/LIQUID' },
+            { date: '2026-02-18T14:00:00-05:00', text: 'Fed Minutes (Jan meeting)', priority: 'high', agent: 'PROME' },
+            { date: '2026-02-19T06:00:00-05:00', text: '🔴 Shunto Electronics — ≥3.5% = Strong', priority: 'critical', agent: 'SAM' },
+            { date: '2026-02-19T10:00:00+09:00', text: '🔴 20Y JGB Auction — BTC <2.0x = stress', priority: 'critical', agent: 'SAM' },
+            { date: '2026-02-20T08:30:00-05:00', text: 'Initial Claims (clean read)', priority: 'high', agent: 'LABOR' },
+            // Late Feb - FSK/BDC Earnings + CREED Bank 10-Ks
+            { date: '2026-02-25T16:00:00-05:00', text: 'FSK Q4 Earnings (PIK 8.5% actual)', priority: 'high', agent: 'BROCK' },
             { date: '2026-02-26T07:00:00-05:00', text: 'GBDC Q4 Earnings', priority: 'medium', agent: 'BROCK' },
-            { date: '2026-02-26T08:30:00-05:00', text: 'Initial Claims', priority: 'medium', agent: 'LABOR' },
-            { date: '2026-02-27T07:00:00-05:00', text: 'TCPC Q4 Earnings (NAV watch)', priority: 'critical', agent: 'BROCK' },
+            { date: '2026-02-27T08:30:00-05:00', text: 'Initial Claims (holiday distorted)', priority: 'medium', agent: 'LABOR' },
+            { date: '2026-02-27T07:00:00-05:00', text: 'TCPC Q4 Earnings (NAV watch)', priority: 'high', agent: 'BROCK' },
             { date: '2026-02-27T07:00:00-05:00', text: 'GSBD Q4 Earnings', priority: 'high', agent: 'BROCK' },
             { date: '2026-02-28T07:00:00-05:00', text: 'MFIC Q4 Earnings', priority: 'high', agent: 'BROCK' },
             { date: '2026-02-28T00:00:00-05:00', text: 'Bank 10-K Filing Deadline', priority: 'high', agent: 'CREED' },
@@ -2705,6 +2705,8 @@
             { date: '2026-06-17T14:00:00-04:00', text: 'FOMC Decision', priority: 'high', agent: 'PROME' },
             { date: '2026-06-18T00:00:00-04:00', text: 'KRE $60 PUT EXPIRY', priority: 'critical', agent: 'PROME' },
             { date: '2026-06-30T00:00:00-04:00', text: 'H2 CRE Maturity Wall Begins', priority: 'critical', agent: 'CREED' },
+            // August
+            { date: '2026-08-21T00:00:00-04:00', text: 'KELYA $7.5 PUT EXPIRY', priority: 'high', agent: 'LABOR' },
         ];
         
         function formatCountdown(targetDate) {
