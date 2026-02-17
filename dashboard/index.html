@@ -1228,6 +1228,26 @@
                             <div><span style="color: var(--text-muted);">Thesis:</span> FL bank</div>
                         </div>
                     </div>
+                    <!-- CVNA -->
+                    <div class="position-card" style="margin: 0; border-color: var(--red);">
+                        <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+                            <div>
+                                <div class="position-ticker">CVNA <span style="font-size: 10px; color: var(--red);">🎯 EARNINGS</span></div>
+                                <div style="font-size: 11px; color: var(--text-muted);">1× $310P/$290P Feb 27</div>
+                            </div>
+                            <div style="text-align: right;">
+                                <div style="font-size: 11px; color: var(--text-muted);">Risk</div>
+                                <div style="font-size: 14px; font-weight: 600;">$484</div>
+                            </div>
+                        </div>
+                        <div style="margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--border); display: flex; justify-content: space-between;">
+                            <div><span style="color: var(--text-muted);">BE:</span> $305.16</div>
+                            <div><span style="color: var(--text-muted);">Max:</span> <span style="color: var(--green);">$1,516</span></div>
+                        </div>
+                        <div style="margin-top: 8px; font-size: 10px; color: var(--yellow);">
+                            📅 Feb 18 earnings | Gotham fraud thesis | GT audit risk
+                        </div>
+                    </div>
                 </div>
             </div>
             
@@ -2070,6 +2090,46 @@
                 </div>
                 <div style="margin-top: 12px; font-size: 11px; color: var(--text-muted); text-align: center;">
                     Score = Σ(channel_severity × bank_exposure) | 8 channels: CRE, NDFI, BDC, Consumer, FL, Muni, Fund Finance, Deposit
+                </div>
+            </div>
+            
+            <!-- OTTO Domain (Event Trades) -->
+            <div class="agents-section" style="border-left: 3px solid var(--red); padding-left: 16px;">
+                <div class="section-title" style="display: flex; align-items: center; gap: 8px;">
+                    <span class="agent-status red" style="width: 8px; height: 8px;"></span>
+                    OTTO — Event Trades / Fraud Watch
+                </div>
+                <div class="market-grid">
+                    <div class="market-card" style="border-color: var(--red);">
+                        <div class="market-label">CVNA (Position) 🎯</div>
+                        <div class="market-value" id="price-cvna">—</div>
+                        <div class="market-threshold">BE: $305 | Feb 18 Earnings</div>
+                    </div>
+                    <div class="market-card">
+                        <div class="market-label">Gotham Target</div>
+                        <div class="market-value breach">$100-186</div>
+                        <div class="market-threshold">61-79% downside</div>
+                    </div>
+                    <div class="market-card">
+                        <div class="market-label">DT EBITDA/Interest</div>
+                        <div class="market-value breach">1.0x</div>
+                        <div class="market-threshold">🔴 Was 3.8x in 2022</div>
+                    </div>
+                    <div class="market-card">
+                        <div class="market-label">DT Charge-Offs</div>
+                        <div class="market-value breach">13.5%</div>
+                        <div class="market-threshold">🔴 Up from 9.0% (2022)</div>
+                    </div>
+                    <div class="market-card">
+                        <div class="market-label">Auditor</div>
+                        <div class="market-value warning">Grant Thornton</div>
+                        <div class="market-threshold">⚠️ Same as Tricolor</div>
+                    </div>
+                    <div class="market-card">
+                        <div class="market-label">Catalyst</div>
+                        <div class="market-value" style="color: var(--red); font-size: 14px;">Feb 18 10-K</div>
+                        <div class="market-threshold">GT resign? Delay? Qualified?</div>
+                    </div>
                 </div>
             </div>
             
@@ -2983,6 +3043,16 @@
             }
             if (data.GLD && data.GLD.value) {
                 document.getElementById('price-gld').textContent = '$' + data.GLD.value.toFixed(2);
+            }
+            
+            // CVNA
+            if (data.CVNA && data.CVNA.value) {
+                const cvna = data.CVNA.value;
+                const cvnaEl = document.getElementById('price-cvna');
+                if (cvnaEl) {
+                    cvnaEl.textContent = '$' + cvna.toFixed(2);
+                    cvnaEl.className = 'market-value ' + (cvna < 305 ? 'breach' : cvna < 320 ? 'warning' : 'normal');
+                }
             }
             
             document.getElementById('update-time').textContent = data.updated || new Date().toISOString();
