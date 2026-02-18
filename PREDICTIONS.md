@@ -2,7 +2,7 @@
 
 *Working model, not truth. Track our predictions to calibrate confidence over time.*
 
-**Last updated:** 2026-02-16
+**Last updated:** 2026-02-18 00:20 UTC
 **Thesis Confidence:** 80% (RED team validated — see `AGENTS/RED/RED_TEAM_REPORT_2026-02-14.md`)
 
 ---
@@ -36,6 +36,73 @@
 - Timeline Feb-May 2026: **70%** ✅ (Wright 90-day + Japan Feb 19)
 - Jun positions profitable: **65%** ✅ (well-timed, not tight)
 - Soft landing fails: **80%** ✅ (Japan binary + Wright acceleration)
+
+---
+
+## 🆕 FEB 18-20 CATALYST WEEK PREDICTIONS (Added 2026-02-18)
+
+### CVNA Earnings — Feb 18 (After Close)
+
+| # | Prediction | Probability | Confirmation | Falsification |
+|---|------------|-------------|--------------|---------------|
+| CVNA-E1 | 10-K filed on time (no delay) | 70% | Filed same day | Delayed >24 hours |
+| CVNA-E2 | GT remains auditor (no resignation) | 90% | Standard opinion | GT resigns or qualified |
+| CVNA-E3 | Extension rate disclosed >6% | 60% | >6% in 10-K | <5% or not disclosed |
+| CVNA-E4 | Stock drops >5% by Feb 20 close | 45% | Close <$333 | Holds above $350 |
+| CVNA-E5 | Our puts profitable at expiry | 35% | CVNA <$305 by Feb 27 | CVNA >$310 |
+| CVNA-E6 | Our puts max gain ($20) | 10% | CVNA <$290 by Feb 27 | CVNA >$290 |
+
+**Binary Catalyst Matrix:**
+| Event | Probability | Expected Impact |
+|-------|-------------|-----------------|
+| GT Resignation | 5% | -40%+ |
+| 10-K Delay | 15% | -15-25% |
+| Qualified Opinion | 8% | -20-30% |
+| Material Weakness | 25% | -8-15% |
+| Clean + Beat | 40% | +10-15% |
+
+### Japan — Feb 19
+
+| # | Prediction | Probability | Confirmation | Falsification |
+|---|------------|-------------|--------------|---------------|
+| JAP-1 | Shunto electronics demand ≥3.5% | 55% | Reported ≥3.5% | <3.0% |
+| JAP-2 | 20Y JGB auction passes (BTC >2.5x) | 65% | BTC >2.5x, tail <3bp | BTC <2.0x or tail >5bp |
+| JAP-3 | Path D trigger (BOTH fire) | 12% | Shunto ≥3.5% AND BTC <2.0x | Either fails |
+| JAP-4 | USDJPY breaks 150 by Feb 21 | 20% | Spot <150 | Holds >152 |
+
+### TIC Data — Feb 18 (4PM ET)
+
+| # | Prediction | Probability | Confirmation | Falsification |
+|---|------------|-------------|--------------|---------------|
+| TIC-1 | Belgium holdings >$500B | 40% | >$500B | <$450B |
+| TIC-2 | China holdings decline | 60% | <$760B | >$780B |
+| TIC-3 | Net foreign selling >$20B/month | 50% | Outflow >$20B | Inflow or <$10B |
+
+### Initial Claims — Feb 20
+
+| # | Prediction | Probability | Confirmation | Falsification |
+|---|------------|-------------|--------------|---------------|
+| CLM-1 | Claims 225K-240K range | 70% | Within range | Outside range |
+| CLM-2 | DHS distortion visible (spike then reverses) | 55% | >245K then reverses | Stays <235K |
+| CLM-3 | 4-week avg stays <250K | 80% | <250K | >250K |
+
+### Week Composite Scenarios
+
+| Scenario | Probability | Definition |
+|----------|-------------|------------|
+| **Bull (thesis challenged)** | 20% | CVNA clean + Japan passes + claims <235K |
+| **Base (status quo)** | 50% | Mixed signals, no major catalyst fires |
+| **Bear (thesis confirmed)** | 30% | CVNA red flag OR Japan Path D OR claims spike |
+
+### Thesis Positions (Jun Expiry) — Predicted Outcomes
+
+| Position | Profitable at Expiry | Confidence |
+|----------|---------------------|------------|
+| KRE puts | 65% | High — CRE math is arithmetic |
+| IWM puts | 60% | Medium-high — beta unwind |
+| HYG puts | 55% | Medium — credit complacency must break |
+| SSB puts | 60% | Medium-high — FL CRE concentration |
+| KELYA puts | 70% | High — already cracking |
 
 ---
 

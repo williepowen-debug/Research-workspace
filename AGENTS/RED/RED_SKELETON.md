@@ -52,12 +52,12 @@
 - Forced recognition pushed to Q4 2026 - Q1 2027
 - Our Jun positions may expire before stress visible
 
-### FHLB: No Regional Bank Stress (Yet)
+### FHLB: ~~No Regional Bank Stress~~ ⚠️ COUNTER-EVIDENCE INVALIDATED (Feb 17)
 | Metric | Current | Crisis Level | Status |
 |--------|---------|--------------|--------|
-| **FHLB Advances** | **$480B** | $700B+ | 🟢 29% BELOW 2023 peak |
+| **FHLB Advances** | **$480B** | $700B+ | ~~🟢~~ ⚠️ LAGGING INDICATOR |
 
-**If regional banks were stressed, FHLB would be $600-700B+ already.**
+**CORRECTION (per MEMORY.md Feb 14):** FHLB advances are LAGGING, not leading. SVB didn't tap FHLB until March 9, 2023 — days before failure. Absence of spike does NOT equal absence of stress. This counter-evidence has been REMOVED from RED's toolkit. Do not re-use without explicit lagging caveat.
 
 ### BDC → Bank Transmission is SPECULATIVE
 - PSEC PIK at 35% for 3+ years — no bank contagion yet
@@ -259,25 +259,29 @@
 ## PROBABILITY UPDATES
 
 **Thesis Confidence:**
-- Pre-RED TEAM: 75%
-- Post-RED TEAM: **45%**
+- Pre-RED TEAM (Jan): 75%
+- Post-RED TEAM (Jan): **45%**
+- Post-Feb 14 adversarial session: **80%** (three rounds, challenge-back integrated)
+- Post-Feb 17 chart-only challenge: 48-52% (SUPERSEDED — chart analysis was incomplete)
+- **Post-Feb 17 full evidence review: 63-67%** (updated final)
 
-**Why Downgraded:**
-- Timing gaps (3-6 months early)
-- Soft landing >40% probability (was <10%)
-- Regulatory forbearance extends timeline
-- Position theta killing us
-- Ignoring AI/fiscal/immigration offsets
+**Why the Feb 17 Final is 63-67% (Not 82%, Not 48-52%):**
+- Employment (227K claims) still intact → limits ceiling
+- HY OAS at 281bps → not yet in crisis territory
+- Regulatory forbearance → real runway added Feb 11
+- BTFP 2.0 risk 40-50% → structural Fed put remains
+- Soft landing ~30-35% probability → meaningful
 
-**Component Probabilities:**
-| Thesis Component | Confidence |
-|------------------|------------|
-| Consumer stress real | 85% ✅ |
-| CRE repricing inevitable | 80% ✅ |
-| Employment trigger necessary | **35%** ⚠️ (was 75%) |
-| Transmission to banks proven | **40%** ⚠️ (was 70%) |
-| Timing Q2-Q3 2026 | **25%** ⚠️ (was 65%) |
-| Our positions profitable | **30%** 🔴 (was 60%) |
+**Component Probabilities (Feb 17 Updated):**
+| Thesis Component | Confidence | Change |
+|------------------|------------|--------|
+| Consumer stress CURRENT (not building) | **95%** ✅ | ↑ (Wright, foreclosures, HELOC) |
+| CRE repricing CURRENT (not building) | **90%** ✅ | ↑ (Apollo exit, BXMT, zombies) |
+| Multiple paths (5 paths, 3 firing) | **80%** ✅ | ↑ (NEW — employment not required) |
+| Employment trigger necessary | **25%** ⚠️ | ↓ (Paths B/D/E bypass it) |
+| Transmission to banks proven | **55%** ⚠️ | ↑ (from 40%, Apollo + BXMT + BDC) |
+| Timing Feb-Jun 2026 | **55%** ⚠️ | ↑ (from 25%, "IN middle of it" reframe) |
+| Our positions profitable | **50%** 🟡 | ↑ (from 30%) |
 
 ---
 
