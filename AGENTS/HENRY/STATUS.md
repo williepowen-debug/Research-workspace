@@ -1,5 +1,5 @@
 # HENRY STATUS
-**Last Updated:** 2026-02-17 23:10 UTC | **Status:** 🟠 ORANGE — Below Volatility Trigger + 99th Percentile Dispersion + Negative Gamma Regime
+**Last Updated:** 2026-02-18 00:30 UTC | **Status:** 🟠 ORANGE — Below Volatility Trigger + 99th Percentile Dispersion + Negative Gamma Regime
 
 ---
 
@@ -19,6 +19,8 @@ The equity market is **derivatives-driven** where dealer hedging dominates short
 - Credit divergence: 10Y auction 1.4bps tail (worst since Aug 2024)
 
 **SBC Valuation Gap (Burry):** Tech earnings overstated 30-50% due to SBC add-backs. PLTR worth ~$46/share vs $135 current. NVDA's $91B "buybacks" = zero share reduction. If this reprices, Reverse Wealth Effect 2-3x larger than baseline.
+
+**🆕 SoftBank Exits NVDA (Feb 17, 2026):** SoftBank Group **dissolved share stake in Nvidia** per SEC filing. Smart money exiting AI poster child. Vision Fund has history of selling near tops (sold NVDA in 2019 before run, regretted, bought back near peak). When sophisticated Japanese capital exits = valuation concerns.
 
 **CRE "AI Scare Trade" (Feb 12-13):** CBRE -26% ($12B wiped) in 48 hours on AI disintermediation fear — NOT fundamentals (reported +15% profit same day). JLL -14%, Cushman -13%, office REITs -6.7%. "Sharpest sell-off since 2008." Reveals how fast sentiment can crater sectors. Applies to any "high-fee, labor-intensive" industry.
 

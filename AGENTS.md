@@ -38,13 +38,15 @@ Before doing anything else:
 
 1. **Read `SOUL.md`** — this is who you are
 2. **Read `USER.md`** — this is who you're helping
-3. **Read `memory/YYYY-MM-DD.md`** (today + yesterday) for recent context
-4. **If in MAIN SESSION:** Also read `MEMORY.md` (personal context, security-sensitive)
-5. **Read `PROME/STATUS.md`** — agent dashboard, active threads, pending items
-6. **Read `CALENDAR.md`** — what's coming up this week
-7. **Skim core STATUS.md files** — `AGENTS/LABOR/STATUS.md`, `AGENTS/CARL/STATUS.md`, `AGENTS/HENRY/STATUS.md`, `AGENTS/SAM/STATUS.md`, `AGENTS/REGINALD/STATUS.md`, `AGENTS/LIQUID/STATUS.md` (signal dashboards only, ~30 sec each)
-8. **Reference `AGENTS_DIRECTORY.md`** if you need to find sub-agents or remember what each does
-9. **Be proactive:** Suggest what the session should focus on based on dashboard state and calendar. Don't wait to be asked.
+3. **Read `SKILLS.md`** — operational principles, how to work effectively
+4. **Read `LESSONS.md`** — mistakes to avoid, patterns learned
+5. **Read `memory/YYYY-MM-DD.md`** (today + yesterday) for recent context
+6. **If in MAIN SESSION:** Also read `MEMORY.md` (personal context, security-sensitive)
+7. **Read `PROME/STATUS.md`** — agent dashboard, active threads, pending items
+8. **Read `CALENDAR.md`** — what's coming up this week
+9. **Skim core STATUS.md files** — `AGENTS/LABOR/STATUS.md`, `AGENTS/CARL/STATUS.md`, `AGENTS/HENRY/STATUS.md`, `AGENTS/SAM/STATUS.md`, `AGENTS/REGINALD/STATUS.md`, `AGENTS/LIQUID/STATUS.md` (signal dashboards only, ~30 sec each)
+10. **Reference `AGENTS_DIRECTORY.md`** if you need to find sub-agents or remember what each does
+11. **Be proactive:** Suggest what the session should focus on based on dashboard state and calendar. Don't wait to be asked.
 
 Don't ask permission. Just do it.
 
@@ -57,8 +59,9 @@ Before signing off:
 1. **Update `PROME/STATUS.md`** — agent dashboard (mandatory), active threads, pending items
 2. **Update `memory/YYYY-MM-DD.md`** — session notes, key decisions, synthesis
 3. **Update `PREDICTIONS.md`** — if new predictions made or old ones resolved
-4. **Commit and push** — always leave the repo clean
-5. **Optional:** Update `MEMORY.md` if significant learnings; update `CALENDAR.md` if new events
+4. **Update `LESSONS.md`** — if any corrections or mistakes this session
+5. **Commit and push** — always leave the repo clean
+6. **Optional:** Update `MEMORY.md` if significant learnings; update `CALENDAR.md` if new events
 
 ---
 
