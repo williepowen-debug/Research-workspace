@@ -50,34 +50,57 @@
 
 ---
 
-## Current Priority — CRITICAL CATALYST WINDOW (Feb 15-20)
+## Current Priority — UPDATED Feb 18
 
-**HEIGHTENED MONITORING:** Multiple triggers converging in 5-day window
-**RED TEAM RESULT:** 80% thesis confidence — "positioned IN THE MIDDLE of stress, not ahead of it"
+**KEY INSIGHT:** Feb-Mar is SETUP. April-June is EXECUTION.
 
-### Feb 25-26 (Wed-Thu):
-- [ ] FSK earnings (BDC, PIK 27%) — Results Feb 25 after close, call Feb 26
-- Watch dividend coverage <1.0x
+### IMMEDIATE (Feb 19-21):
 
-### Feb 18 (Tuesday):
-- [ ] Dec TIC data (China/Belgium UST holdings)
-
-### Feb 19 (Wednesday) — **DUAL JAPAN CATALYST:**
-- [ ] Shunto Electronics wage settlement (watch for ≥3.5% = "Strong")
+**Feb 19 (Wednesday) — DUAL JAPAN CATALYST:**
+- [ ] Shunto Electronics wage demand (watch for ≥¥18,000 = "Strong")
 - [ ] 20Y JGB auction (watch for BTC <2.0x = stress)
-- **ALERT:** If BOTH fire (Shunto ≥3.5% AND BTC <2.0x) = Path D trigger
+- **ALERT:** If BOTH fire = Path D trigger
 
-### Feb 20 (Thursday):
-- [ ] Initial claims (weekly)
-- ~~PSEC earnings~~ — **REMOVED**: Already reported Feb 10, actual PIK 8.6% (not 35%), dividend coverage 140.7%
+**Feb 21 (Friday):**
+- [ ] German flash PMI
+- **ALERT:** If <48.0 → March US ISM sub-49 near-certain (per HANS)
 
-### Mid-Feb (TBD):
-- [ ] Wright mortgage data update (Nov→Dec, Dec→Jan current→delinquent flows)
-- **ALERT:** If >400K/month sustained = acceleration confirmed
-- **ALERT:** If >700K/month = INCREASE positions
+### NEAR-TERM (Feb-Mar):
 
-**Falsification (from RED team):**
+**Mar 1 — OPEC+ Meeting:**
+- Watch for April restart confirmation
+- If confirmed → 140M barrel flush thesis LOCKED IN
+
+**Mar 5 — ACF LIHEAP Briefing:**
+- If no hiring announced → operational failure confirmed
+- Escalates Winter 26-27 risk
+
+**Late March:**
+- Baltic ice breaks → EXIT TNP/TNK tanker longs
+- Transition to crude shorts
+
+### APRIL-JUNE (Execution Window):
+
+**April:**
+- Bank earnings (KRE catalyst)
+- CVX Q1 earnings (CPC miss expected)
+- ISM reality check (sub-49 expected)
+
+**April-May:**
+- 140M barrel crude flush arrives
+- Initiate crude puts if not already positioned
+
+### New Trades to Monitor:
+
+| Trade | Entry | Exit Trigger |
+|-------|-------|--------------|
+| TNP/STNG longs | Consider now | Ice breaks (late March) |
+| CVX short | April | After crude peaks |
+| Crude puts | Late March/April | May expiry |
+
+### Falsification (from RED team):
 - Exit 50% if: Claims <240K through March AND Wright <300K/month
+- Exit 100% if: BTFP 2.0 OR HY OAS <260bps OR Ukraine ceasefire deal
 - Exit 100% if: BTFP 2.0 OR HY OAS <260bps OR Japan both fail
 
 **If nothing urgent before Feb 15, reply HEARTBEAT_OK.**
