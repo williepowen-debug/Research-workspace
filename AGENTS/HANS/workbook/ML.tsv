@@ -310,3 +310,40 @@ ML-HANS-157	2026-02-13	Forecast	Downside (15% prob): Cold snap or supply disrupt
 ML-HANS-158	2026-02-13	Current Status	Overall energy transmission status: YELLOW ZONE (Feb 2026) - storage tight but manageable, prices elevated but not panicked	Assessment	RP-HANS-6
 ML-HANS-159	2026-02-13	Dashboard	European energy signals for US watchers: Daily (TTF, Henry Hub, EU storage %), Weekly (EIA report, LNG vessels, JKM spread), Monthly (German IP/PMI)	Framework	RP-HANS-6
 ML-HANS-160	2026-02-13	Dashboard	US market implications: TTF >$20 -> long XLE/UST/USD; EU storage <35% -> long nat gas futures; German IP <-2% -> short XLI	Actionable trades	RP-HANS-6
+ML-HANS-161	2026-02-18	Diesel_Supply	Russia pre-2022: supplied ~40% EU diesel imports (~500-630k bpd); post-Feb 2023 ban: dropped 96% to ~24k bpd direct	EIA/Bruegel/Vortexa	RP-HANS-7
+ML-HANS-162	2026-02-18	Diesel_Supply	Post-ban replacement: Middle East (340k bpd), US (150k bpd), India (120k bpd), Turkey (40k bpd); total ~850k bpd imports	IEA 2025	RP-HANS-7
+ML-HANS-163	2026-02-18	Diesel_Supply	India (Jamnagar) sources 1/3 crude from Russia; 40% of diesel exports go to EU (~120k bpd). At risk from EU 18th sanctions	IEA/OGJ 2025	RP-HANS-7
+ML-HANS-164	2026-02-18	Diesel_Supply	Turkey: 3 refineries use ~50% Russian crude; 40k bpd diesel to EU. Also at risk from EU 18th sanctions package	IEA/OGJ 2025	RP-HANS-7
+ML-HANS-165	2026-02-18	Diesel_Supply	EU 18th sanctions (Jul 2025, effective Jan 21 2026): bans refined products derived from Russian crude - closes India/Turkey loophole	EC/Reuters	RP-HANS-7
+ML-HANS-166	2026-02-18	Russian_Refineries	Q1 2024: Ukrainian drone strikes took 10-14% of Russian refining capacity offline; ~600k bpd refinery capacity disrupted	IEA 2024	RP-HANS-7
+ML-HANS-167	2026-02-18	Russian_Refineries	2025: >20 Russian refineries struck; ~20% national capacity offline at various points; Oct 2025 EU sanctions on Rosneft/Lukoil/Gazprom Neft	EIA/Carnegie/OPIS	RP-HANS-7
+ML-HANS-168	2026-02-18	Russian_Refineries	Sep 2025: Russian diesel exports fell to 5-year low of ~586k bpd (total global). H1 2025 avg ~1.0 million bpd	Vortexa/OilPrice	RP-HANS-7
+ML-HANS-169	2026-02-18	Russian_Refineries	Russia resilience: repaired faster than expected; runs recovered from 5.0 (Sep) to 5.5 mb/d (Dec 2025); Jan 2026 diesel output 1.8 mb/d (highest since Jan 2025)	Vortexa/Kpler	RP-HANS-7
+ML-HANS-170	2026-02-18	Russian_Refineries	Nov 2025 OPIS: Russian diesel down 30-50% at peak; buyers shunning sanctioned supply even when physically available	OPIS Nov 2025	RP-HANS-7
+ML-HANS-171	2026-02-18	Diesel_Prices	ARA ULSD crack vs Brent: spiked to $46/bbl Nov 2025 (2-year high, vs $19/bbl a year prior); eased to ~$21/bbl Jan 2026	OPIS/ICE	RP-HANS-7
+ML-HANS-172	2026-02-18	Diesel_Prices	German pump diesel: €1.714/liter (Feb 2026) - 15.7% above EU average of €1.536/liter	fuel-prices.eu	RP-HANS-7
+ML-HANS-173	2026-02-18	Diesel_Prices	JP Morgan 2026 forecast: European diesel margins $17-19/bbl in 2025, rising to $21/bbl in 2026 as refinery shutdowns accelerate	Reuters/JPM	RP-HANS-7
+ML-HANS-174	2026-02-18	Diesel_Prices	EIA Dec 2025: diesel crack spreads hit highest levels all year following Russian refinery outages + EU sanctions on Rosneft/Lukoil	EIA Dec 2025	RP-HANS-7
+ML-HANS-175	2026-02-18	Diesel_Scenario	20-30% further Russian export decline: ARA crack could spike $30-46/bbl; EU pump price +15-35%; 20% scenario equivalent to India/Turkey loophole closure already implemented	HANS analysis	RP-HANS-7
+ML-HANS-176	2026-02-18	Diesel_Industries	Road freight: diesel = 95% of fuel; represents 25-30% of trucking operating costs. EU freight fell 3.4% in 2023, 0.6% growth 2024, stagnating 2025	IEA/Eurostat/Upply	RP-HANS-7
+ML-HANS-177	2026-02-18	Diesel_Industries	Agriculture: ~80% of machinery fuel is diesel; tractors, combines, irrigation pumps. No practical near-term alternative for heavy equipment	OECD/IEA	RP-HANS-7
+ML-HANS-178	2026-02-18	Diesel_Industries	Diesel demand proxy for global economic activity: trucks, ships, power generators, agricultural/industrial machinery (Reuters 2025)	Reuters Jul 2025	RP-HANS-7
+ML-HANS-179	2026-02-18	Deindustrialization	German manufacturing PMI Dec 2025: 47.0 (falling from 48.2 Nov 2025); output declined for first time in 10 months; export sales -5 consecutive months	Reuters/HCOB/S&P Global	RP-HANS-7
+ML-HANS-180	2026-02-18	Deindustrialization	DIHK 2024 survey: 51% of German companies with 500+ employees considering or already moving production abroad (up 8% from 2023); energy costs primary driver	DIHK 2024	RP-HANS-7
+ML-HANS-181	2026-02-18	Deindustrialization	~120,000 German manufacturing jobs lost in 2024; total workforce ~6.67 million. German manufacturing output declining since 2017	EnergyNewsBeat/Destatis	RP-HANS-7
+ML-HANS-182	2026-02-18	Deindustrialization	Volkswagen: 35,000 job cuts, 3 plant closures in Germany. VW Works Council: "This is the plan of Germany's largest industrial group to start the selloff in its home country"	Bloomberg/Reuters	RP-HANS-7
+ML-HANS-183	2026-02-18	Deindustrialization	BASF: permanently downsizing Ludwigshafen operations; shifting to US/China for cheaper energy. One of world's largest chemical complexes retreating	BASF/Politico	RP-HANS-7
+ML-HANS-184	2026-02-18	Deindustrialization	Siemens CEO Kaeser: "There is nothing that would speak in favour of investing in Germany. Our last investments were mainly made abroad"	Bild/Bundestag committee	RP-HANS-7
+ML-HANS-185	2026-02-18	Deindustrialization	Michelin Germany: "We can't export truck tires from Germany at competitive prices" (Feb 2024); plant closures following	Bloomberg	RP-HANS-7
+ML-HANS-186	2026-02-18	Deindustrialization	ThyssenKrupp: Kreuztal-Eichen site closure; steel under pressure from high energy costs + cheap Chinese imports	ADL/Reuters	RP-HANS-7
+ML-HANS-187	2026-02-18	Deindustrialization	Diesel = linchpin of ALL German manufacturing logistics (not just energy-intensive sectors). Germany's JIT supply chain efficiency becomes liability when diesel expensive	HANS analysis	RP-HANS-7
+ML-HANS-188	2026-02-18	Deindustrialization	EIB survey: energy cost surge in 2023 was biggest factor preventing eurozone firms from long-term investment (was 5th in 2019)	EIB	RP-HANS-7
+ML-HANS-189	2026-02-18	Deindustrialization	German economic trajectory: 2025 GDP near-zero growth (Q1 +0.3%, Q2 -0.2%, Q3 0%); 3rd consecutive year of contraction/stagnation	EC/Reuters	RP-HANS-7
+ML-HANS-190	2026-02-18	US_Transmission	German IP → US ISM correlation r=0.65 (2-3 month lead). German PMI 47.0 Dec 2025 = leading indicator for US industrial headwind	RP-HANS-6/7	RP-HANS-7
+ML-HANS-191	2026-02-18	US_Transmission	European diesel tightness → US distillate exports rise (US Gulf Coast supplying Europe) → US domestic distillate prices elevated → PPI/CPI impact	EIA Dec 2025	RP-HANS-7
+ML-HANS-192	2026-02-18	US_Transmission	ARA crack spread at $40-46/bbl → US distillate export incentive maximized → US domestic diesel supply tightens → US trucking/agriculture cost impact	HANS analysis	RP-HANS-7
+ML-HANS-193	2026-02-18	US_Transmission	German deindustrialization → European bank NPL risk → counterparty exposure (REGINALD connection); US bank CDS widen with European stress	HANS analysis	RP-HANS-7
+ML-HANS-194	2026-02-18	Current_Status	Jan 21 2026: EU 18th sanctions on Indian/Turkish diesel derived from Russian crude took effect. This closes ~160k bpd of EU supply — effectively implementing the "20% scenario" now	EC/OGJ/IEA	RP-HANS-7
+ML-HANS-195	2026-02-18	Current_Status	Russia imposed diesel export ban for non-producing companies Sep 2025, extended through Mar 2026. Manages domestic supply; reduces global export availability	OilPrice.com	RP-HANS-7
+ML-HANS-196	2026-02-18	Current_Status	China importing record Urals crude in Jan 2026 (doubled MoM); Jamnagar received ZERO Russian oil Jan 2026 (OFAC sanctions on Rosneft)	CREA Jan 2026	RP-HANS-7
+ML-HANS-197	2026-02-18	Assessment	Diesel thesis assessment: YES, a 20-30% further Russian diesel export decline accelerates European deindustrialization. 51% of companies at "considering" threshold — one shock away from "deciding"	HANS analysis	RP-HANS-7

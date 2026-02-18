@@ -1,5 +1,5 @@
 # HANS STATUS.md
-**Updated:** 2026-02-13 20:56 UTC
+**Updated:** 2026-02-18 16:55 UTC
 
 ---
 
@@ -161,10 +161,16 @@ European dynamics affect US markets through several transmission channels:
    - Current status: 🟢 GREEN - CDS orderly (iTraxx +25bps Apr 2025), no funding stress, swap lines unused
    - 83 entries added to ML.tsv
 
+✅ **RP-HANS-7:** Russian Diesel / European Industrial Impact — COMPLETED (2026-02-18)
+   - Report: domain/sources/RP-HANS-7_RUSSIAN_DIESEL_EUROPEAN_INDUSTRIAL_IMPACT.md
+   - Key findings: EU successfully eliminated direct Russian diesel (96% collapse); new shock from India/Turkey loophole closure (Jan 21 2026, ~160k bpd); ARA crack peaked $46/bbl Nov 2025; German PMI 47.0 deepening contraction; 51% large German companies considering relocation
+   - 37 entries added to ML.tsv, 6 new VX vectors added
+   - **DEINDUSTRIALIZATION THESIS: CONFIRMED ACCELERATING**
+
 **Next Priority:**
 1. **RP-HANS-5:** Belgium/China Euroclear Correlation — Time series analysis, lead/lag
-2. **RP-HANS-7:** European UST Demand Model — Regression model for forecasting
-3. **RP-HANS-8:** Sovereign Spread Triggers — What causes Italy/France blowouts
+2. **RP-HANS-8:** European UST Demand Model — Regression model for forecasting
+3. **RP-HANS-9:** Sovereign Spread Triggers — What causes Italy/France blowouts
 
 ---
 
@@ -253,6 +259,64 @@ European dynamics affect US markets through several transmission channels:
 ---
 
 *Last updated: 2026-02-13 23:56 UTC*
+
+---
+
+## Latest Research Insights (RP-HANS-7: Russian Diesel / European Industrial Impact)
+
+**Research Date: 2026-02-18**
+
+**The Core Question:** Does Ukraine's refinery strike campaign + EU diesel sanctions accelerate European deindustrialization?  
+**Answer: YES — confirmed accelerant**
+
+**Key Data:**
+- Pre-2022: Russia supplied **~40% of EU diesel imports** (~500-630k bpd); post-Feb 2023 ban: **96% collapse** to ~24k bpd direct
+- EU replaced Russian diesel with Middle East (340k bpd), US (150k bpd), India (120k bpd), Turkey (40k bpd) = ~850k bpd total imports
+- **The India/Turkey loophole:** Both source 33-50% feedstock from Russia; combined ~160k bpd to EU now banned (EU 18th sanctions, Jan 21 2026)
+- **Ukrainian strikes:** >20 refineries hit in 2025; Russian exports fell to 5-year low of 586k bpd (Sep 2025) before recovering to ~900k bpd (Dec 2025)
+- **Market impact:** ARA diesel crack peaked **$46/bbl (Nov 2025)** — 2-year high, vs $19/bbl a year prior; currently ~$21-22/bbl
+- **German pump diesel:** €1.714/liter — **15.7% above EU average**
+- **German PMI:** 47.0 Dec 2025 (deepening contraction); output down for first time in 10 months
+- **DIHK survey (2024):** **51% of German companies with 500+ employees** considering or already moving abroad (up 8% from 2023)
+
+**Deindustrialization Acceleration Assessment:**
+- German manufacturing output declining since 2017 (structural)
+- 2022-2023 energy shock turned structural → accelerating
+- 2025: No recovery; PMI 47, near-zero GDP growth, 120,000 mfg jobs lost in 2024
+- Diesel is the **linchpin** — unlike gas (energy-intensive only), diesel affects logistics for ALL manufacturers
+- Germany's JIT supply chain efficiency becomes **liability** when diesel is expensive/unreliable
+- 51% of companies at "considering relocation" threshold → one more energy shock = "deciding"
+
+**German Companies Most Exposed:**
+| Company | Sector | Status |
+|---------|--------|--------|
+| BASF | Chemicals | Permanently downsizing Ludwigshafen; shifting to US/China |
+| Volkswagen | Autos | 35,000 job cuts, 3 German plant closures |
+| ThyssenKrupp | Steel | Kreuztal-Eichen closure; structural losses |
+| Bosch | Auto parts | Restructuring underway |
+| DB Schenker/DHL/Dachser | Logistics | Direct diesel cost exposure — front-line impact |
+| Michelin Germany | Tires | "Can't export at competitive prices"; plant closures |
+| Siemens | Industrial | CEO: "Nothing speaks in favour of investing in Germany" |
+
+**US Market Implications:**
+1. **German IP → US ISM** (r=0.65, 2-3 month lead): German PMI 47.0 = US industrial headwind incoming
+2. **EU distillate demand → US Gulf Coast exports**: ARA crack spike lifts US refinery margins → XLE/US distillate traders benefit
+3. **US PPI/CPI**: European diesel tightness pulls US distillate exports → domestic diesel prices elevated
+4. **European bank NPLs** (REGINALD connection): German corporate distress → credit deterioration
+5. **UST safe haven bid** (SAM connection): Deeper European recession → flight to safety
+
+**New Vectors Added:**
+- VX-HANS-9.01: ARA ULSD Crack vs Brent (Yellow >$25, Orange >$35, Red >$45/bbl)
+- VX-HANS-9.02: German Pump Diesel Price (Yellow >€1.80, Orange >€2.00, Red >€2.20/L)
+- VX-HANS-9.03: Russian Total Diesel Exports (Yellow <800k, Orange <650k, Red <500k bpd)
+- VX-HANS-9.04: EU ARA Diesel Stocks vs 5yr avg (Yellow <-10%, Orange <-20%, Red <-30%)
+- VX-HANS-9.05: European Diesel Imports ex-Russia (Yellow <800k, Orange <700k, Red <600k bpd)
+- VX-HANS-8.06 updated: German PMI now 47.0 (RED threshold breached — deepening contraction)
+
+**Monitoring:**
+- **Daily:** ARA crack spread (OPIS), Russian diesel loading data (Kpler/Vortexa), Ukrainian drone strike reports
+- **Weekly:** EIA US distillate export data (Thursday), EU ARA diesel stocks (Euroilstocks)
+- **Monthly:** German IP (Destatis, 6-8 week lag), IEA Oil Market Report (diesel section), CREA Russia fossil fuel report
 
 ---
 
