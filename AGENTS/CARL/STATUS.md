@@ -1,5 +1,5 @@
 # CARL STATUS
-**Last Updated:** 2026-02-18 (SUBAGENT — Maryland Deep-Dive + Research Task Approval) | **Status:** 🔴 RED — Fannie MF DQ IMMINENT BREACH (6bps from GFC peak), Foreclosures +32% YoY Jan 2026, FHA DQ highest since 2021, DOGE contractor fast-path ACTIVE | **Maryland DOGE→DQ transmission CONFIRMED** (#1 YoY noncurrent, #3 QoQ increase, top-5 foreclosures) | DHS Shutdown Day 6 (no resolution) | ICE First Look Jan 2026 DAILY MONITORING ACTIVATED
+**Last Updated:** 2026-02-18 | **Status:** 🔴 RED — Fannie MF DQ IMMINENT BREACH (6bps from GFC peak), Foreclosures +32% YoY Jan 2026, FHA DQ highest since 2021, DOGE contractor fast-path ACTIVE | **Maryland DOGE→DQ transmission CONFIRMED** | Gas Transmission Analysis Complete (marginal impact)
 
 ---
 
@@ -82,6 +82,44 @@ $150-200B **invisible** to credit bureaus:
 | Informal/family loans | $50-75B | 0% reported |
 
 **BNPL stacking**: 63% have multiple simultaneous loans = hidden leverage.
+
+---
+
+## 🆕 GAS PRICE TRANSMISSION — ANALYSIS COMPLETE (Feb 18)
+
+**Verdict: MARGINALLY ADDITIVE — NOT A THESIS CHANGER**
+
+### Transmission Chain (Heavily Dampened)
+
+TTF spike 30-50% → Henry Hub +10-25% → Retail bills +8-15% (3-12 month lag)
+
+| Henry Hub Change | Retail Residential Impact | Annual Bill Impact |
+|------------------|---------------------------|-------------------|
+| +30% (+$1.35/MMBtu) | +8–10% | **+$75–95/year** |
+| +50% (+$2.25/MMBtu) | +12–15% | **+$115–145/year** |
+
+### Why It's Marginal
+
+- Commodity = 40-60% of retail bill (rest is fixed distribution costs)
+- 2025 precedent: Henry Hub +58% YoY → Residential only +4%
+- Geographic mismatch: Highest exposure (Northeast) ≠ Primary CARL states (FL, TX, MS)
+
+### Most Exposed
+
+| Segment | Energy Burden |
+|---------|---------------|
+| Bottom quintile | **6-10%** of income (3x average) |
+| Baltimore metro | **26%** of income (worst of 25 metros) |
+| Low-income renters in old buildings | Highest burden, no control over efficiency |
+
+### THE REAL RISK: LIHEAP Cuts
+
+⚠️ **LIHEAP provides $300-600/year to ~6M households**
+- DOGE targeting HHS/ACF programs (LIHEAP administered by ACF)
+- Gas spike + LIHEAP cut = **$375-745/year effective burden** for most vulnerable
+- This converts marginal stress into material stress for 6M households
+
+**Status:** 🟡 MONITORING — Not threshold breach, but watch DOGE + LIHEAP intersection
 
 ---
 

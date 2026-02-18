@@ -1,5 +1,5 @@
 # LIQUID STATUS
-**Last Updated:** 2026-02-17 | **Status:** 🔴 CRITICAL — Stealth Exit Confirmed + Repo Spike
+**Last Updated:** 2026-02-18 | **Status:** 🔴 CRITICAL — Stealth Exit Confirmed + Repo Spike + Baltic Ice Crisis
 
 ---
 
@@ -10,6 +10,53 @@
 - Prior weeks: near-zero repo usage
 - Signal: Funding stress emerging as RRP buffer depleted
 - Watch: If sustained >$10B = reserve scarcity beginning
+
+---
+
+## 🆕 UKRAINE REFINERY CAMPAIGN — SHIPPING/INSURANCE IMPLICATIONS (Feb 18)
+
+### War Risk Insurance Premiums — BLACK SEA 🔴
+
+| Period | AWRP (% hull value) | Notes |
+|--------|---------------------|-------|
+| Mid-2025 | 0.3–0.4% | Pre-escalation baseline |
+| Dec 3-4, 2025 | 0.6–1.0% | **+250% in days** — Ukraine hits shadow fleet |
+| Jan 13, 2026 | **1.0%+** | CPC terminal strikes (Chevron-chartered ships hit) |
+| **Feb 2026** | **1.0%+ quoted; daily review** | Structurally elevated |
+
+- Policies now reviewed **every 24 hours** (was weekly pre-conflict)
+- Suezmax Black Sea voyage = **~$800K war risk premium** at 1% hull
+- Ukraine expanded targeting to sanctioned-compliant vessels (Jan 13)
+
+### Baltic Ice Crisis — WORST IN 15 YEARS 🔴
+
+- Gulf of Finland **mostly ice-covered** — worst since Feb 2010/2011
+- Primorsk exports: **490K bpd** first half Feb — **down 33% YoY, 50% vs Feb 2024**
+- Icebreaker escorts **mandatory** at Primorsk/Vysotsk (Feb 17)
+- Russia redeploying Arctic nuclear icebreakers *Sibir* and *Murmansk* to Baltic
+- **March 1:** Mandatory escorts expand to Ust-Luga
+- 5-7 day convoy waiting times already
+
+**Compound effect:** Russia's TWO main export corridors squeezed simultaneously:
+- Black Sea (war risk, tanker avoidance)
+- Baltic Sea (ice)
+- **140M barrels involuntary floating storage** — can't find buyers OR return to port
+
+### Reinsurer Exposure — AVOID SHORT
+
+- RNR, MKL, AXS already excluded RUB exposure from treaties
+- Reserves digested ($25-45M range)
+- Primary exposure at Lloyd's syndicates (not cleanly tradeable)
+- Short thesis only works on Tuapse-scale cluster event
+
+### Trade Recommendation
+
+| Trade | Conviction | Rationale |
+|-------|------------|-----------|
+| **Long STNG (Scorpio Tankers)** | 🟢 HIGH | Refinery damage → product tanker demand |
+| Long INSW, ASC | 🟢 MEDIUM | Clean tanker diversification |
+| Crude call spreads | 🟡 SPEC | If Russian supply forced below expectations |
+| Short reinsurers | 🔴 AVOID | Exposure already excluded |
 
 ---
 

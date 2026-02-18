@@ -1,6 +1,6 @@
 # SAM STATUS
 
-**Signal Status:** 🔴 RED | **Last Updated:** 2026-02-17 23:10 UTC
+**Signal Status:** 🔴 RED | **Last Updated:** 2026-02-18 17:00 UTC
 
 **Summary:** BOJ AT 0.75% CEILING + Feb 19 Dual Catalyst T-2 Days + JGB Rally Active
 
@@ -311,6 +311,85 @@ Japan is in a **fiscal doom loop** (acknowledged as "credible tail risk" by Alli
 2. **Fiscal Doom Loop:** Expansion → issuance → higher yields → worse fiscal → more issuance
 3. **Life Insurer Exit:** JGB losses → sell UST → repatriate → UST yields rise → global contagion
 4. **Yen Break:** USD/JPY >160 → import inflation → forced BOJ hike → accelerates doom loop
+
+---
+
+## 🛢️ OIL-JPY TRANSMISSION (Added Feb 18, 2026)
+
+### CRITICAL FINDING: Oil Spike = JPY WEAKNESS (Not Strength)
+
+**Despite JPY's safe-haven status, trade deficit effect DOMINATES during oil shocks.**
+
+### Historical Precedent
+
+| Event | Date | Oil Move | JPY Move | Source |
+|-------|------|----------|----------|--------|
+| **Israel-Iran strikes** | June 13, 2025 | Spike | **-2.4% vs USD** | Reuters |
+| **Russia-Ukraine invasion** | Feb 24, 2022 | Spike | **-11.5% over Mar-Apr** | Reuters |
+
+**Reuters (June 2025):**
+> "The Japanese yen, normally one of the most sought after safe havens in times of geopolitical stress, has dropped 2.4% against the U.S. dollar...since Israel launched missile attacks against Iranian nuclear and military targets."
+
+**Citi Analysts:**
+> "A rise in crude oil prices causes a deterioration not only in Japan's trade balance but also its terms of trade, so it fundamentally acts to weaken the yen."
+
+### Why Trade Deficit > Safe Haven
+
+- Japan imports **90% of energy**
+- Oil spike → higher import bill → trade deficit widens
+- Trade deficit → more JPY selling to buy USD for oil imports
+- Safe haven bid exists but is **overwhelmed** by structural selling
+
+### Trade Implications (IRAN SCENARIO)
+
+| Trade | Direction | Verdict | Reason |
+|-------|-----------|---------|--------|
+| **FXY calls** | Long yen | ❌ WRONG | Yen weakens on oil spike |
+| **FXY puts** | Short yen | ✅ CORRECT | Trade deficit effect dominates |
+| **EWJ puts** | Short Japan equities | ⚠️ MIXED | Weak yen helps exporters, but margin compression hurts |
+| **Oil (USO/BNO)** | Long | ✅ CLEANEST | Direct Iran exposure, no JPY complication |
+
+### Key Insight
+
+**If HAWK's Iran thesis plays out (oil $67 → $87+):**
+- JPY weakens (opposite of intuition)
+- FXY calls = LOSING trade
+- Pure oil long = cleaner expression
+
+**If SAM's Japan thesis plays out (Shunto strong + BOJ hike):**
+- JPY strengthens (BOJ rate differential)
+- FXY calls = WINNING trade
+- But gets COMPLICATED if oil also spikes (opposing forces)
+
+### Combined Scenario Risk
+
+**Worst case for FXY longs:** Iran strikes + weak Shunto
+- Oil spikes → JPY weakens (trade deficit)
+- Weak wages → BOJ can't hike → no rate support
+- Result: JPY collapses, FXY calls destroyed
+
+**Best case for FXY longs:** No Iran escalation + strong Shunto
+- Oil stable → no trade deficit pressure
+- Strong wages → BOJ hikes → rate differential favors JPY
+- Result: JPY strengthens, FXY calls win
+
+### Monitoring
+
+**Watch USDJPY on any Iran news:**
+- If USDJPY rises (yen weakens) on oil spike = trade deficit narrative winning
+- If USDJPY falls (yen strengthens) = safe haven winning (rare, historical says unlikely)
+
+### 🎯 REVISED TRADE RECOMMENDATIONS (Feb 18)
+
+| Scenario | EWJ Puts | FXY Calls | USO Calls |
+|----------|----------|-----------|-----------|
+| BOJ hike (Shunto strong) | ✅ Win | ❌ Lose | — |
+| Oil spike (Iran) | ✅ Win (margin compression) | ❌ Lose (trade deficit) | ✅ Win |
+| Carry unwind | ✅ Win | ✅ Win | — |
+
+**Allocation:** 50% EWJ puts / 35% USO calls / 15% wait for Shunto
+
+**FXY calls DROPPED from Japan playbook** — only wins in narrow scenario (strong Shunto + no oil spike).
 
 ---
 

@@ -1,7 +1,7 @@
 # HAWK STATUS
 
-**Last Updated:** 2026-02-18  
-**Overall Status:** 🔴 RED — Iran buildup active
+**Last Updated:** 2026-02-18 17:05 UTC  
+**Overall Status:** 🔴 RED — Iran buildup active + Ukraine refinery campaign escalating + US Refiner Analysis Complete
 
 ---
 
@@ -52,6 +52,37 @@
 
 ---
 
+### 🆕 US REFINERS — UKRAINE STRIKE BENEFICIARIES (Feb 18)
+
+**Context:** Ukraine hitting Russian refineries (Volgograd, Ukhta) reduces Russian product exports. Russia banned gasoline exports through March 2026.
+
+#### Crack Spread Levels
+
+| Period | 3-2-1 Crack |
+|--------|-------------|
+| 2022 post-invasion peak | $45–50/bbl |
+| H1 2025 (weak) | $12–15/bbl |
+| **Today (Feb 18)** | **$25–27/bbl** |
+
+**⚠️ Today:** Crude (+3.52%) outpacing RBOB (+2.57%) — cracks narrowing intraday on Iran headlines.
+
+#### Valuation Problem
+
+- VLO at $197 = **ABOVE consensus target $188** (already +100% from trough)
+- Ceasefire risk: VLO could drop to **$72-96** (−51% to −63%)
+
+#### Trade Recommendations
+
+| Trade | Conviction | Rationale |
+|-------|------------|-----------|
+| **VLO Apr call spread ($200/$225)** | 🟢 BEST | Defined risk, catches March 1 Russia ban extension |
+| MPC over VLO (equity) | 🟡 IF FORCED | MPLX buffer helps downside |
+| Outright VLO equity | 🔴 AVOID | Above target, ceasefire risk enormous |
+
+**Key Catalyst:** March 1 — Russia extending gasoline ban = bullish; lifting = cracks collapse
+
+---
+
 ### 2. VENEZUELA 🟠 ORANGE — Annexation Rhetoric Active
 
 **Current Status:**
@@ -84,17 +115,65 @@
 
 ---
 
-### 4. RUSSIA-UKRAINE 🟡 YELLOW — Frozen Conflict
+### 4. RUSSIA-UKRAINE 🟠 ORANGE — Oil Infrastructure Campaign Active
 
 **Current Status:**
 - Front lines stable
 - Trump administration peace push ongoing
-- Sanctions regime in place
+- **Ukraine drone campaign on Russian refineries ESCALATING (Feb 2026)**
+
+**Oil Infrastructure Campaign (NEW — Feb 18):**
+
+| Date | Target | Capacity | Notes |
+|------|--------|----------|-------|
+| Feb 11 | Volgograd (Lukoil) | ~250k bbl/day | First major 2026 shutdown |
+| Feb 12 | Ukhta (Lukoil) | ~50k bbl/day | **Record range: 1,750km from border** |
+| Feb 2026 | Ilsky refinery | ~100k bbl/day | Black Sea region |
+
+**Damage Assessment:**
+- 16 Russian refineries targeted (38% of total capacity)
+- Actual throughput: **~335k bbl/day below YoY** (~5 Mbd vs 5.3 Mbd)
+- IEA: Impact will suppress Russian refining **until mid-2026**
+- Russia using spare capacity to offset — only ~3% actual production drop
+
+**Paradox — Crude Exports UP:**
+- Bloomberg (Feb 18): Russian crude exports **3.39M bbl/day** (4-week avg)
+- Growing for 4th consecutive week
+- Why: Russia can't refine it → exports crude instead
+- Revenue to Kremlin: **$1.09B/week** (highest in 2 months)
+
+**Oil Price Transmission:**
+| Product | Impact | Reason |
+|---------|--------|--------|
+| Crude oil | Neutral/slight DOWN | More Russian crude on market |
+| Gasoline/Diesel | UP +$2-5 | Less refined products |
+
+**Escalation Scenarios:**
+| Event | Probability | Oil Impact |
+|-------|-------------|------------|
+| Strikes continue (current pace) | 60% | Crude neutral, products +$2-5 |
+| Major escalation (more refineries) | 25% | Crude neutral, products +$5-10 |
+| Russia retaliates on Ukraine energy | 10% | Crude +$5-10, products +$5-10 |
+| Permanent refinery destruction | 5% | Crude +$3-5, products +$10-15 |
+
+**Key Insight:**
+Ukraine's refinery campaign is **BULLISH for refined products (gasoline, diesel) but NOT for crude oil.** This is different from Iran scenario (which affects crude supply directly).
 
 **Watch For:**
 - Major offensive by either side
 - Sanctions changes (tightening or loosening)
 - NATO involvement shifts
+- **Escalation of drone campaign (new targets, higher frequency)**
+- **Russian retaliation on Ukrainian energy infrastructure**
+- **Baltic Sea ice (ACTIVE):** Worst in 15 years — Primorsk exports down 33% YoY, icebreaker escorts mandatory
+
+**Baltic Ice Crisis (Feb 17-18):**
+- Gulf of Finland mostly ice-covered
+- Primorsk: 490k bpd first half Feb (vs 730k bpd Feb 2025)
+- 5-7 day convoy waiting times
+- Russia redeploying Arctic icebreakers to Baltic
+- March 1: Mandatory escorts expand to Ust-Luga
+- **Compounds Black Sea war risk** — both export corridors squeezed
 
 ---
 
@@ -114,13 +193,18 @@
 
 ## MARKET TRANSMISSION SUMMARY
 
-| Situation | Oil Impact | VIX Impact | UST Impact | Timeline |
-|-----------|-----------|------------|------------|----------|
-| Iran strike | +$20-40 | +20-40 | Yields down | Hours |
-| Iran deal | -$5 | -5 | Yields up | Days |
-| Venezuela intervention | +$5-10 | +10 | Mixed | Days |
-| Taiwan crisis | +$10-20 | +30-50 | Yields down | Hours |
-| Trade escalation | Sector-specific | +5-10 | Mixed | Days |
+| Situation | Oil (Crude) | Oil (Products) | VIX Impact | UST Impact | Timeline |
+|-----------|-------------|----------------|------------|------------|----------|
+| Iran strike | +$20-40 | +$20-40 | +20-40 | Yields down | Hours |
+| Iran deal | -$5 | -$5 | -5 | Yields up | Days |
+| **Ukraine refinery strikes (current)** | **Neutral** | **+$2-5** | **Minimal** | **Neutral** | **Ongoing** |
+| Ukraine refinery escalation | Neutral | +$5-10 | +5 | Neutral | Days |
+| Russia retaliates on Ukraine energy | +$5-10 | +$5-10 | +10 | Neutral | Days |
+| Venezuela intervention | +$5-10 | +$5-10 | +10 | Mixed | Days |
+| Taiwan crisis | +$10-20 | +$10-20 | +30-50 | Yields down | Hours |
+| Trade escalation | Sector-specific | Sector-specific | +5-10 | Mixed | Days |
+
+**Key distinction:** Ukraine strikes affect PRODUCTS (gasoline/diesel) more than CRUDE. Iran affects CRUDE directly (supply disruption).
 
 ---
 
@@ -128,11 +212,13 @@
 
 | Agent | Relevant Situations | Transmission Mechanism |
 |-------|---------------------|------------------------|
-| CARL | Iran, Venezuela | Oil → gas prices → consumer squeeze |
+| CARL | Iran, Venezuela, **Ukraine refinery** | Oil/gas prices → consumer squeeze |
 | HENRY | All | VIX spike → gamma → positioning cascade |
 | SAM | Iran, Taiwan | Energy dependence, safe haven flows |
 | ZHAO | Taiwan, Trade | Direct exposure, retaliation risk |
 | LIQUID | All (flight to safety) | UST demand surge, funding market stress |
+
+**CARL Note:** Ukraine refinery strikes → gasoline/diesel prices UP → directly hits US consumer at pump. This is ACTIVE NOW, not theoretical.
 
 ---
 
@@ -145,6 +231,7 @@
 - Reuters, AP, CNN, Axios defense coverage
 - ISW (Institute for Study of War)
 - CSIS, CFR analysis
+- **Ukraine refinery tracking:** Kyiv Independent, Carnegie Endowment, Bloomberg, Kpler, IEA Monthly Oil Report
 
 ---
 
