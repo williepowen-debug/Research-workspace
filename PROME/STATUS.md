@@ -1,11 +1,11 @@
 # PROME STATUS.md
-**Updated:** 2026-02-17 22:20 UTC
+**Updated:** 2026-02-18 18:15 UTC
 
 ---
 
 ## System Status: 🔴 CRITICAL
 
-**Major thesis revision: Consumer finance puts BROKEN. Housing → Banks is the path.**
+**Major research day complete. Thesis timing VALIDATED. Two-phase oil trade identified.**
 
 ---
 
@@ -14,185 +14,104 @@
 | Agent | Status | Current Focus | Last Update |
 |-------|--------|---------------|-------------|
 | **LABOR** | 🔴 RED | Benchmark -1M jobs; WARN decade-high; Claims 227K | Feb 11 |
-| **CARL** | 🟠 ELEVATED | **CC/Auto HEALING** — K-shape extreme; Mortgages stressed | Feb 16 |
-| **HENRY** | 🟡 YELLOW | CTA dashboard + HY OAS tracker; market structure fragile | Feb 12 |
-| **SAM** | 🔴 RED | **Feb 19 DUAL CATALYST** — Shunto + 20Y JGB | Feb 11 |
+| **CARL** | 🟠 ORANGE | LIHEAP risk deferred to Winter 26-27; Gas transmission marginal | Feb 18 |
+| **HENRY** | 🟠 ORANGE | Full cross-vector synthesis complete; Negative gamma regime | Feb 18 |
+| **SAM** | 🔴 RED | **Feb 19 DUAL CATALYST** — Shunto + 20Y JGB; Oil-JPY thesis validated | Feb 18 |
 | **REGINALD** | 🟠 ELEVATED | CRE direct exposure; SSB watch | Feb 14 |
-| **LIQUID** | 🟢 GREEN | Belgium $481B; **Feb 18 TIC watch** | Feb 13 |
+| **LIQUID** | 🔴 CRITICAL | Baltic ice crisis; 140M barrel flush April-May; TNP/STNG trades | Feb 18 |
 | **MARCO** | 🟠 ORANGE | Construction +33K; Migration data complete | Feb 13 |
-| **OTTO** | 🔴 CRITICAL | **CVNA Feb 18 earnings** — Gotham FOIA evidence loaded; $310P/$290P position | Feb 17 |
-| **BROCK** | 🟠 ELEVATED | PIK errors corrected (8.5-8.6% actual, not 27-35%) | Feb 16 |
+| **HAWK** | 🔴 RED | Iran buildup; Russian revenue -50% YoY CONFIRMED; CVX short thesis | Feb 18 |
+| **HANS** | 🟠 ORANGE | German IP validates Q2-Q3 stress; Jan ISM = false positive | Feb 18 |
+| **ZHAO** | 🟢 GREEN | India pullback structural (2.09M→1.1M bpd); US-India trade deal driver | Feb 18 |
+| **DARWIN** | 🟢 GREEN | Weekly scan; unbrowse installed | Feb 18 |
 
-**Composite:** 🔴 CRITICAL — Feb 18-19 catalyst window imminent
-
----
-
-## ⚠️ CRITICAL THESIS UPDATE (Feb 16)
-
-### Consumer Finance Puts: BROKEN ❌
-
-Verified 8 names against primary SEC filings + Fed/CFPB aggregate data:
-
-| Name | Expected | Actual | Trade |
-|------|----------|--------|-------|
-| SYF | Stress | NCO ↓, DQ ↓ YoY | ❌ |
-| BFH | Stress | NCO 7.4→7.1%, early DQ below pre-pandemic | ❌ |
-| ALLY | Stress | 3rd consecutive Q improvement | ❌ |
-| AFRM | Stress | +43% GMV, GAAP profitable | ❌ |
-| SC | Stress | Normalizing, 30-89 DQ down 27bps YoY | ❌ |
-| PSEC | 35% PIK | **8.6% actual** | ❌ Agent error |
-| FSK | 27% PIK | **8.5% actual** | ❌ Agent error |
-
-**Aggregate data confirms:**
-- Fed 30-day card DQ: 2.98% — **fifth consecutive decline**
-- CFPB: "fallen to pre-pandemic levels"
-- Auto 60+ DPD: 1.9%, flat YoY
-
-### K-Shape is EXTREME
-Underwater homeowners ≠ employed cardholders. Wright 609K current→delinquent mortgage borrowers are NOT the same population driving credit card data.
-
-**Revised transmission:** Housing → Banks directly (bypasses consumer credit)
+**Composite:** 🔴 CRITICAL — Feb 19 Japan catalyst + Q2 stress window validated
 
 ---
 
-## 🔴 CVNA POSITION ACTIVE — FEB 18 CATALYST
+## 🆕 TODAY'S KEY FINDINGS (Feb 18)
 
-### Position
-- **$310P/$290P Feb 27** @ $4.84 net debit
-- Max loss: $484 | Max gain: $1,516 (3.1:1)
-- Break-even: $305.16 (-12.3%)
-- Dashboard tracking live at http://100.86.70.6:8080
+### Two-Phase Oil Trade
+| Phase | Timing | Action |
+|-------|--------|--------|
+| **Setup** | Feb-Mar | Long TNP/STNG (ice premium), hold existing positions |
+| **Execution** | Apr-May | Short crude (140M barrel flush), CVX short, KRE/IWM catalysts fire |
 
-### Gotham FOIA Evidence (Feb 17)
-**Obtained DriveTime 2024 AR + GoFi 2024 AR via FOIA — saved to OTTO/sources/**
+### New Trade Ideas
+| Trade | Source | Conviction |
+|-------|--------|------------|
+| **Long TNP** | LIQUID | HIGH — ice-class tanker, Baltic chaos beneficiary |
+| **Long STNG** | LIQUID | HIGH — product tankers, refinery damage thesis |
+| **Short CVX (April)** | HAWK | MEDIUM — 29% CPC exposure, Q1 miss coming |
+| **Short crude (Apr-May)** | LIQUID | HIGH — 140M barrel + OPEC+ restart + Baltic flush |
 
-| Metric | 2024 | 2023 | 2022 |
-|--------|------|------|------|
-| EBITDA/Interest | **1.0x** | **0.5x** | 3.8x |
-| Charge-Offs | **13.5%** | 12.1% | 9.0% |
-| Net Debt | **$3.82B** | $3.07B | $2.57B |
+### Thesis Validation
+- **KRE puts:** ✅ STRONGLY REINFORCED — April bank earnings catalyst
+- **IWM puts:** ✅ STRONGLY REINFORCED — January ISM fake, Q2 reality
+- **HYG puts:** ✅ REINFORCED — Medium-term, Q2 is when credit breaks
 
-**Key Findings:**
-- DriveTime subsidies = 73% of CVNA EBITDA
-- DT can barely cover interest (was 3.8x in 2022, now 1.0x)
-- Charge-offs spiked 50% in 2 years
-- SEC subpoena already received (June 2025)
-- **Gotham price target: $100-$186** (61-79% downside)
-
-### Feb 18 Watch List
-| Event | Probability | Impact |
-|-------|-------------|--------|
-| GT Resignation | 5% | -40%+ |
-| 10-K Delay | 20% | -15-25% |
-| Qualified Opinion | 10% | -20-30% |
-| Material Weakness | 30% | -8-15% |
-| Clean + beat | 35% | +10-15% |
-
-### KELYA Confirmed ✅
-- 80% conviction after 10-K verification
-- -11.9% Q4 revenue, GP -150bps
-- CEO: "capital over people" — customers defecting
-- Staffing = employment leading indicator
+### Avoid (Crowded/Mispriced)
+- VLO/MPC equity — already priced
+- Long JPY as oil hedge — WRONG (oil spike = yen weakness)
+- Reinsurer shorts — exposure excluded from treaties
 
 ---
 
-## RED Team Results (Feb 14)
+## Key Dates
 
-**Final confidence: 80%** (after 3 rounds of adversarial testing)
-
-### Five Transmission Paths (Not One)
-1. **Path A (Bottom-up):** LABOR → CARL → REGINALD — 3-9 months
-2. **Path B (Top-down):** HENRY crash → Wealth effect — 0-2 weeks
-3. **Path C (Bifurcation):** Credit discovers real economy — 2-4 weeks
-4. **Path D (Japan):** SAM independent — **DAYS** (Aug 2024: yen +3% = VIX 65 in hours)
-5. **Path E (Housing):** Wright 609K bypasses LABOR — **90-day window = Feb-May**
-
-### Key Insight
-> "We're not positioned ahead of stress — we're positioned IN THE MIDDLE of it"
-
-Wright 609K proves conversion is happening in real-time. Timeline is NOW, not future.
+| Date | Event | Agent |
+|------|-------|-------|
+| **Feb 19** | Shunto demand + 20Y JGB auction | SAM |
+| **Feb 21** | German flash PMI | HANS |
+| **Mar 1** | OPEC+ meeting (April restart?) | LIQUID |
+| **Mar 5** | ACF LIHEAP staffing briefing | CARL |
+| **Late Mar** | Baltic ice breaks — exit TNP | LIQUID |
+| **April** | Bank earnings (KRE catalyst) | REGINALD |
+| **Apr-May** | 140M barrel flush | LIQUID |
 
 ---
 
-## Positions (5 Active)
+## Research Threads Completed Today
 
-| Ticker | Position | Entry | Cost | Status |
-|--------|----------|-------|------|--------|
-| **KRE** | 2× $70P May + 2× $60P Jun | $72.62 | ~$800 | 🟡 Underwater |
-| **HYG** | 10× $75P Jun 18 | $0.30 | $307 | 🟢 Active |
-| **IWM** | 1× $250P Jun 30 | ~$7.50 | ~$750 | 🟢 Active |
-| **SSB** | 2× $90P Jun 18 | $1.86 | $373 | 🟢 Active |
-| **KELYA** | 1× $7.5P Aug 21 | $0.75 | $76 | 🟢 **NEW** (Feb 17) |
+### Wave 1 (Ukraine-derived)
+1. ✅ LIQUID — Insurance/shipping (war risk 250%, Baltic ice, STNG)
+2. ✅ HAWK — US refiners (VLO/MPC already priced, call spreads only)
+3. ✅ CARL — Gas transmission (marginal, LIHEAP real risk)
+4. ✅ HANS — Russian diesel → EU deindustrialization (confirmed accelerant)
 
-**Total Defined Risk:** ~$2,306
-
-**Trade Candidates (Updated):**
-- ✅ KELYA — 80% conviction (staffing, verified)
-- ✅ CVNA — Primary target (ABS extensions, Feb 18)
-- ✅ KRE — 70% conviction (direct CRE, valid)
-- ⚠️ CACC — 40% conditional (needs claims >250K)
-- ❌ SYF/BFH/ALLY — Broken thesis
+### Wave 2 (Follow-up threads)
+1. ✅ LIQUID — Ice-class operators (TNP/TNK), flush timing (Apr-May)
+2. ✅ HANS — German IP → US ISM (March 47-49, validates Q2-Q3)
+3. ✅ HAWK — CPC exposure (CVX 29%), Russian revenue (-50% YoY)
+4. ✅ CARL — LIHEAP budget (FY26 funded, Winter 26-27 danger)
+5. ✅ ZHAO — India pullback (structural, US trade deal, floor 400-500K bpd)
+6. ✅ HENRY — Cross-vector synthesis (two-phase trade, sequencing)
 
 ---
 
-## IMMINENT CATALYSTS
+## Active Positions
 
-| Date | Event | Agent | Priority |
-|------|-------|-------|----------|
-| **TODAY** | Markets reopen (Presidents' Day over) | — | — |
-| **Feb 18 (Tomorrow)** | **CVNA Q4 Earnings** | OTTO | 🔴 CRITICAL |
-| **Feb 18 (Tomorrow)** | **Dec TIC Data** | ZHAO/LIQUID | 🔴 (Belgium $500B watch) |
-| **Feb 19 (Wed)** | **Shunto Electronics** | SAM | 🔴 CRITICAL (≥3.5% = Strong) |
-| **Feb 19 (Wed)** | **20Y JGB Auction** | SAM | 🔴 CRITICAL (BTC <2.0x = stress) |
-| **Feb 20 (Thu)** | Initial Claims | LABOR | 🟠 HIGH |
-| **Feb 25-26** | FSK Earnings | BROCK | 🟠 (PIK 8.5% actual, not 27%) |
-
-**If BOTH fire Feb 19 (Shunto ≥3.5% AND JGB BTC <2.0x) = Path D trigger**
+| Position | Expiry | Status | Catalyst |
+|----------|--------|--------|----------|
+| KRE puts | May | ✅ HOLD | April bank earnings |
+| IWM puts | Jun | ✅ HOLD | Q2 ISM reality |
+| HYG puts | Jun | ✅ HOLD | Q2 credit break |
+| KELYA puts | Jun | ✅ HOLD | Employment leading |
 
 ---
 
-## Falsification Criteria
+## Unified Thesis (HENRY Synthesis)
 
-**Exit 50% if BOTH:**
-1. Claims <240K through end-March
-2. CBRE rebounds to >-5%
+> A Russian oil supply disruption is building in slow motion. Its April-May consequences are NOT yet priced. It arrives into an equity structure with zero shock absorbers.
 
-**Exit 100% if ANY:**
-1. Fed announces BTFP 2.0
-2. HY OAS compresses <260bps sustained
-3. Claims <240K through April AND Core PCE <2.5% AND Fed cuts June
+**Feb-Mar is setup. April-June is when it pays.**
 
 ---
 
-## Key Metrics
+## Next Session Priorities
 
-| Metric | Current | Threshold | Status |
-|--------|---------|-----------|--------|
-| Wright Current→DQ | 609K (Oct) | >400K sustained | 🔴 FIRING |
-| Fannie MF DQ | 0.75% | 0.80% GFC peak | 🟠 5bps away |
-| Initial Claims | 227K | 250K trigger | 🟡 23K gap |
-| HY OAS | 281 bps | Watch expansion | 🟢 Normal |
-| CBRE | -12% | -15% acceleration | 🟠 Watching |
-
----
-
-## Lessons Learned
-
-1. **Agent data requires verification** — PSEC/FSK PIK claims were ~4x wrong
-2. **K-shape is extreme** — Mortgage stress ≠ card stress while employment holds
-3. **Multiple paths increase probability** — 5 independent paths now, 3 already firing
-4. **Adversarial testing improves thesis** — RED team raised confidence from 75% to 80%
-
----
-
-## Open Items
-
-1. ~~Red-team the thesis~~ ✅ Complete (Feb 14)
-2. ~~Verify consumer finance names~~ ✅ Complete (Feb 16) — BROKEN
-3. **Feb 18 CVNA earnings** — Primary catalyst
-4. **Feb 19 Japan dual catalyst** — Shunto + JGB
-5. **Position monitoring** — Jun expiry, time decay active
-
----
-
-*Last updated: 2026-02-17 14:37 UTC*
+1. Monitor Feb 19 Japan dual catalyst (Shunto + 20Y JGB)
+2. Watch Feb 21 German flash PMI (<48 = March ISM sub-49 locked in)
+3. Consider TNP/STNG entry if not already positioned
+4. Track CVNA earnings aftermath
+5. Prep for March 1 OPEC+ decision

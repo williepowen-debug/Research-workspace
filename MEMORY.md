@@ -2,7 +2,85 @@
 
 **Purpose:** Critical learnings that should persist across sessions
 
-**Last Updated:** 2026-02-18
+**Last Updated:** 2026-02-18 18:15 UTC
+
+---
+
+## DEEP RESEARCH SESSION (Feb 18, 2026 — Afternoon)
+
+### The Two-Phase Oil Trade (Critical Insight)
+
+**Before today:** "Long oil on Russia stress"
+**After today:** WRONG timing.
+
+| Phase | Timing | Action |
+|-------|--------|--------|
+| **Setup** | Feb-Mar | Supply squeeze. Play via STNG/TNP (tankers), NOT crude |
+| **Execution** | Apr-May | 140M barrel flush. SHORT crude then |
+
+**Why it matters:** Most people will get caught buying crude at the top in March. The sequencing is the alpha.
+
+### New Trade Ideas Discovered
+
+| Trade | Source | Conviction |
+|-------|--------|------------|
+| **Long TNP** | LIQUID | HIGH — ice-class tanker leader |
+| **Long STNG** | LIQUID | HIGH — product tankers |
+| **Short CVX (April)** | HAWK | MEDIUM — 29% CPC exposure |
+| **Short crude (Apr-May)** | LIQUID | HIGH — triple flush |
+
+### Key Findings
+
+**Baltic Ice (LIQUID):**
+- Worst in 15 years
+- Russia's BOTH export corridors squeezed (Baltic + Black Sea)
+- 140M barrels in involuntary floating storage
+
+**January ISM is FAKE (HANS):**
+- 52.6% = tariff front-running (pre-ordering before tariffs)
+- German IP Dec: -1.9% MoM (massive miss)
+- German IP leads US ISM by 2-3 months (r=0.65)
+- **March ISM prediction: 47-49** (contraction)
+- Gap of +5.5 pts always closes via ISM falling DOWN
+
+**CVX Short Thesis (HAWK):**
+- 29% of CPC throughput (350K bpd)
+- $48B Tengiz expansion just completed
+- Export route is binding constraint
+- Q1 miss coming
+
+**Russian Revenue Confirmed (HAWK + ZHAO):**
+- $1.09B/week was dead cat bounce
+- Real signal: Budget revenues **-50% YoY** in January
+- India shift is STRUCTURAL (US trade deal, not price)
+- Floor: 400-500K bpd (Nayara dependency)
+
+**Oil-JPY Inversion (SAM):**
+- Oil spike = JPY WEAKNESS (not strength)
+- Japan imports 90% of oil → trade deficit widens
+- Long JPY as oil hedge is WRONG and crowded
+- EWJ puts > FXY calls
+
+### Thesis Validation
+
+All existing positions REINFORCED:
+- **KRE puts:** April bank earnings = catalyst
+- **IWM puts:** January ISM fake, Q2 reality
+- **HYG puts:** Q2 is when credit breaks
+
+### Risk: Ceasefire
+
+Everything reverses on Ukraine deal. Trump-Putin talking. Cover fast if announced.
+
+### Key Dates
+
+| Date | Event | Action |
+|------|-------|--------|
+| Feb 19 | Shunto + 20Y JGB | Watch Path D trigger |
+| Feb 21 | German flash PMI | <48 locks in March ISM sub-49 |
+| Mar 1 | OPEC+ meeting | April restart = flush locked in |
+| Late March | Ice breaks | Exit TNP/STNG, initiate crude shorts |
+| April | Bank earnings | KRE catalyst |
 
 ---
 
