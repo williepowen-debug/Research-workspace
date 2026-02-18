@@ -228,6 +228,185 @@ When put demand rises while IV stays compressed = spring loaded for vol expansio
 
 ---
 
+## 🆕 CROSS-VECTOR SYNTHESIS NOTE (Feb 18, 2026)
+
+*Compiled from LIQUID, HAWK, CARL, HANS, SAM daily research.*
+
+### THE UNIFIED THESIS: A COMPOUND SUPPLY SHOCK MEETS A LOADED MACHINE
+
+Today's research vectors converge on a single narrative: **a Russian oil supply disruption is building in slow motion, its April-May consequences not yet priced, arriving into an equity structure with no shock absorbers.**
+
+---
+
+### THREAD 1: The Shipping Choke (LIQUID)
+
+Russia's two main export corridors are simultaneously impaired:
+
+| Corridor | Disruption | Magnitude |
+|----------|-----------|-----------|
+| Baltic Sea | Worst ice in 15 years; icebreaker escorts mandatory | Primorsk exports -33% YoY in first half Feb |
+| Black Sea | War risk premiums 250% spike; daily policy reviews | Suezmax = ~$800K war risk premium per voyage |
+
+**The 140M barrel floating storage scenario** (April-May): Russian tankers unable to clear — too expensive to insure, too iced to dock. They become involuntary floating storage. When ice breaks in April-May, that inventory floods spot markets simultaneously. This is a **supply dump**, not a supply squeeze.
+
+But between now and then? Supply is actually constrained. **Crude is likely to spike near-term before the dump.**
+
+Two-phase setup:
+- **Feb-Mar:** Supply squeeze → crude strength → inflationary pressure
+- **Apr-May:** 140M barrel dump → crude reversal → commodity vol spike
+
+**Trade implication:** Long STNG/INSW (product tankers, refinery-disruption beneficiaries) is the cleanest expression. Less crowded than crude longs, benefits from BOTH phases (demand for tankers to move product goes up regardless).
+
+---
+
+### THREAD 2: The CVX Short — But Timing Matters (HAWK)
+
+CVX's CPC (Caspian Pipeline Consortium) exposure runs through the Black Sea. War risk and drone strikes have disrupted Tengiz loading. HAWK's thesis: Ukraine's campaign is working **with a lag** — revenue recognition lags physical disruption by 30-60 days.
+
+**Risk:** Near-term crude spike could mask CVX exposure losses if the stock rallies with oil. CVX short only works cleanly if:
+1. Black Sea disruptions persist through Q1 earnings (March/April reporting)
+2. Crude prices normalize or fall (Apr-May dump scenario)
+
+VLO/MPC already priced → avoid. CVX short: wait for the crude spike to peak. Don't short into a supply disruption headline.
+
+---
+
+### THREAD 3: The False Spring — January ISM Noise (HANS)
+
+**This is critical for sequencing.** German IP validates Q2-Q3 as the global manufacturing stress window. January ISM beat = tariff front-running (companies pre-ordering inventory before tariffs hit). This is borrowed demand from Q2.
+
+What this means:
+- Q1 data will look deceptively strong
+- Markets will be slow to reprice manufacturing stress
+- When tariff front-running reverses in Q2, the ISM drop will be sharp and consensus will be caught offsides
+
+**IWM puts** are perfectly positioned for this: small caps are manufacturing-heavy, have no pricing power to absorb cost pass-through, and are currently priced for the "hope trade" that's already unwinding (BKLN at 52-week lows while IWM sits on November gains).
+
+---
+
+### THREAD 4: The Yen Inversion (SAM)
+
+Counter-consensus insight: **Oil spike = JPY weakness, not strength.** Japan imports ~90% of its oil. An oil shock widens Japan's trade deficit, weakens the yen, and creates dual pain for foreign holders of Japanese equities (equity down + currency down).
+
+**EWJ puts > FXY calls** because:
+- FXY calls profit only from yen strength (wrong direction in oil spike)
+- EWJ puts profit from equity + currency compression simultaneously
+- At current positioning, long JPY as oil hedge is a crowded consensus trade — it's wrong
+
+**Cross-asset correlation to monitor:** When crude rises, watch USD/JPY direction. If USD/JPY RISES with crude (not falls), that confirms SAM's thesis and will squeeze long-JPY hedge trades.
+
+---
+
+### THREAD 5: Consumer Buffer (CARL)
+
+LIHEAP risk deferred to Winter 2026-27. Good news for near-term consumer: energy assistance programs survive through this winter. **But this is a buffer, not a cure.** The delay means:
+- No additional consumer stress from LIHEAP cuts for 30-60 days (Feb-Mar quiet)
+- Gas transmission marginal — not a near-term catalyst
+- CARL's danger window (Q3-Q4 2026) remains on track
+
+**For our positions:** KRE/IWM/HYG are not threatened by CARL near-term. Medium-term CARL transmission (Q3-Q4) remains intact as the slow-burn risk.
+
+---
+
+### POSITIONING CONNECTIONS: 5 ANSWERS
+
+**Q1: Crowded trades to avoid**
+
+| Crowded Trade | Why to Avoid |
+|---------------|-------------|
+| Long crude (CL/XLE) | Energy/Materials >95% above 50-DMA; consensus supply squeeze narrative |
+| Long VLO/MPC | HAWK confirms already priced |
+| Long JPY as oil hedge | SAM: wrong direction; short squeeze risk |
+| Short reinsurers (RNR/MKL) | LIQUID: RUB exposure excluded from treaties; already digested |
+| Long ISM-beat trade (IWM longs) | HANS: ISM is tariff front-running, not real demand |
+
+**The uncrowded plays: STNG/INSW (product tankers), EWJ puts, crude call spreads for April-May peak.**
+
+---
+
+**Q2: Gamma/Flow Considerations**
+
+In the current **negative gamma regime** (SPX 6,836 < Vol Trigger 6,900):
+
+- A crude spike feeds inflation → Fed can't cut → rate-sensitive assets under pressure → dealers reinforce moves lower, not dampen
+- 0DTE at 65% means intraday vol will be violent on any oil headline
+- Energy sector rotation (XLK breadth 45.7%, energy >95%) is already underway — oil spike would accelerate this rotation, not reverse it
+- **Key gamma dynamic:** If SPX tries to recover on "energy strength = growth optimism," the negative gamma regime caps rallies; dealers will sell into bounces
+
+**Options-specific:**
+- STNG calls: implied vol likely cheap (shipping thesis is niche, not in standard option flow)
+- EWJ puts: check put skew — JPY carry trade consensus = EWJ puts may be cheap relative to FXY
+- Crude call spreads Apr-May: buy the spike scenario without paying for unlimited upside
+- CVX puts: look at Q1 earnings timing (~April) as catalyst, buy after crude peaks
+
+---
+
+**Q3: Sequencing — Near-term vs Medium-term**
+
+**February-March (Immediate):**
+
+| Date | Catalyst | Impact |
+|------|---------|--------|
+| Feb 18 (TODAY) | TIC data — Belgium/China | LIQUID trigger; if Belgium >$500B = RED |
+| Feb 19 | VIX expiration + FOMC minutes | Negative gamma repositioning; watch "financial stability" language |
+| Feb 19 | 20Y JGB auction | SAM: BTC <2.0x = Path D (yen crisis) |
+| Mar 1 | Ust-Luga mandatory icebreaker escorts | Shipping disruption intensifies; crude supply squeeze headlines |
+| Mar 13-14 | BOJ meeting | Yen catalyst; if hawkish = carry unwind |
+| Mar 18 | FOMC decision | Crude-driven inflation = fewer cuts priced → equity pressure |
+| Mar 31 | Q1 quarter-end / SRF spike | LIQUID: $50B+ SRF usage expected |
+
+**April-June (Medium-term — the stress window):**
+
+| Date | Catalyst | Impact |
+|------|---------|--------|
+| Apr-May | 140M barrel Russian flush | Crude dump → commodity vol; shipping rates crater |
+| Apr 15 | Tax season TGA drain | LIQUID: reserves drain 1:1 |
+| Apr 20-29 | Bank earnings (ZION/WAL/VLY/EGBN) | KRE puts — the convergence |
+| Apr-May | Q1 tariff front-running revealed | IWM puts — ISM false positive exposed |
+| May 15 | KRE $70 puts expire | Position expiry — need breach before this |
+
+**The Q2-Q3 window is the danger zone.** HANS's German IP, LIQUID's basis trade risk, CARL's consumer transmission, SAM's yen dynamics, and HAWK's CVX thesis all converge in April-June. **This is not an accident — this is the timeline.**
+
+---
+
+**Q4: Cross-Asset Correlations to Monitor**
+
+| Correlation | Direction | Threshold/Signal | Implication |
+|-------------|-----------|-----------------|-------------|
+| Crude → USD/JPY | SAM: POSITIVE (not inverse) | USD/JPY rising WITH crude = SAM confirmed | EWJ puts activated; squeeze long-JPY hedges |
+| BKLN vs HYG | BKLN leads | BKLN at 52-wk lows while HYG holds | Credit stress building under surface |
+| VIX vs MOVE | MOVE leads equity vol | MOVE >100 while VIX flat = 2-5 day warning | Initiate cascade sequence |
+| Tanker rates vs crude | Rates lead price | STNG/TNP outperformance precedes crude move | Watch as leading indicator |
+| German IP → ISM | 4-6 week lag | German weakness in Jan → US weakness in Q2 | Short IWM on ISM reversal |
+| Belgium TIC → 10Y yield | Belgium >$500B = China accelerating exit | Yields rise without growth catalyst | HYG + IWM puts amplify |
+
+**The crude-yen-VIX triangle:** Oil spike → yen weakness (SAM) → carry unwind risk → VIX spike. But unlike August 2024, this would be SLOWER (not BoJ overnight shock) — giving more time to position. Watch crude > $85 as the threshold where JPY weakness becomes consensus-disruptive.
+
+---
+
+**Q5: Do Today's Findings Reinforce Existing Positions?**
+
+| Position | Verdict | Reasoning |
+|----------|---------|-----------|
+| **KRE puts ($70, May 15)** | ✅ STRONGLY REINFORCED | Oil spike → persistent inflation → no rate cuts → regional banks squeezed. April 20-29 bank earnings = catalyst window. Time is right. |
+| **IWM puts** | ✅ STRONGLY REINFORCED | January ISM is fake (HANS). Q2 tariff front-running reversal crushes small caps. German IP confirms global manufacturing stress arriving in Q2-Q3. |
+| **HYG puts** | ✅ REINFORCED WITH NUANCE | Near-term: energy HY may prop HYG up temporarily on crude spike. Medium-term: HANS manufacturing stress + CARL consumer deferred but building = HY widening in Q2. Don't panic if HYG holds in Feb-Mar. Wait for Q2. |
+
+**No position changes recommended.** Today's research confirms the timing thesis: **Feb-Mar is setup, Apr-Jun is execution.**
+
+---
+
+### NEW WATCH ITEMS FROM TODAY
+
+1. **Crude $85 threshold** — When breached, activates yen weakness cascade (SAM)
+2. **Mar 1 shipping data** — Ust-Luga mandatory escorts = first hard number on Baltic disruption
+3. **STNG/INSW price action** — Leading indicator for crude supply dynamics
+4. **USD/JPY on oil spike days** — Confirms SAM thesis (should RISE, not fall)
+5. **HYG energy component weight** — If energy HY props HYG, it masks underlying stress
+6. **German IFO/PMI March** — Confirms or denies HANS Q2-Q3 deterioration timeline
+
+---
+
 ## LEADING INDICATOR SEQUENCE
 
 When stress approaches, watch for this sequence:

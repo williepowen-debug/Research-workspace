@@ -1,7 +1,7 @@
 # HAWK STATUS
 
-**Last Updated:** 2026-02-18 17:05 UTC  
-**Overall Status:** 🔴 RED — Iran buildup active + Ukraine refinery campaign escalating + US Refiner Analysis Complete
+**Last Updated:** 2026-02-18 17:45 UTC  
+**Overall Status:** 🔴 RED — Iran buildup active + Ukraine refinery campaign escalating + Russian Revenue Thesis CONFIRMED
 
 ---
 
@@ -174,6 +174,45 @@ Ukraine's refinery campaign is **BULLISH for refined products (gasoline, diesel)
 - Russia redeploying Arctic icebreakers to Baltic
 - March 1: Mandatory escorts expand to Ust-Luga
 - **Compounds Black Sea war risk** — both export corridors squeezed
+
+---
+
+## 🆕 RUSSIAN REVENUE THESIS — CONFIRMED (Feb 18)
+
+### India Pullback (ZHAO Research)
+
+**The shift is STRUCTURAL, not temporary:**
+
+| Month | India Russian Crude | Share of Imports |
+|-------|---------------------|------------------|
+| Jun 2025 (peak) | 2.09M bpd | ~40% |
+| Jan 2026 | **1.1M bpd** | **21%** |
+| Mar 2026 (est.) | ~800K bpd | ~15% |
+
+**Three drivers (all reinforcing):**
+1. US sanctions on Rosneft/Lukoil (Oct/Nov 2025)
+2. **US-India trade deal** — India traded Russian oil access for 18% tariff
+3. EU refined product ban hurt refinery economics
+
+**Floor:** ~400-500K bpd (Nayara refinery structurally dependent)
+
+### China Absorption
+
+- China absorbing displaced barrels: Feb 2026 at **2.07M bpd** (new record)
+- BUT at steeper discounts — Urals: $5 → **$15/bbl delivered**
+- Net: Russia has NOT found full replacement
+
+### Russian Revenue Damage — CONFIRMED 🔴
+
+| Metric | Jan 2026 | YoY Change |
+|--------|----------|------------|
+| Oil/gas revenue | $5.1B | **-50%** |
+| Budget deficit | $22.3B | Half of full-year target in 1 month |
+| Urals price | ~$40/bbl | vs $93/bbl breakeven |
+
+**The refinery campaign IS WORKING** — with 6-12 month lag. The $1.09B/week headline was a dead cat bounce from crude redirect. Real damage confirmed.
+
+**Reversal trigger:** Ukraine ceasefire → sanctions rollback → India returns
 
 ---
 

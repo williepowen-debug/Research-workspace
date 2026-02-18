@@ -167,10 +167,16 @@ European dynamics affect US markets through several transmission channels:
    - 37 entries added to ML.tsv, 6 new VX vectors added
    - **DEINDUSTRIALIZATION THESIS: CONFIRMED ACCELERATING**
 
+✅ **RP-HANS-8:** German IP → US ISM Transmission Quantification — COMPLETED (2026-02-18)
+   - Report: domain/sources/RP-HANS-8_GERMAN_IP_US_ISM_TRANSMISSION.md
+   - Key findings: German IP Dec -1.9% MoM / -0.6% YoY; PMI 47.0→49.1 Jan; US ISM Jan 52.6 = TARIFF FRONT-RUNNING FALSE POSITIVE; Q2-Q3 stress thesis VALIDATED
+   - ISM Prediction: March 2026 = 47-49, April 2026 = 47-50 (confidence 60%)
+   - 14 entries added to ML.tsv, 6 new VX vectors added
+
 **Next Priority:**
 1. **RP-HANS-5:** Belgium/China Euroclear Correlation — Time series analysis, lead/lag
-2. **RP-HANS-8:** European UST Demand Model — Regression model for forecasting
-3. **RP-HANS-9:** Sovereign Spread Triggers — What causes Italy/France blowouts
+2. **RP-HANS-9:** European UST Demand Model — Regression model for forecasting
+3. **RP-HANS-10:** Sovereign Spread Triggers — What causes Italy/France blowouts
 
 ---
 
@@ -258,7 +264,7 @@ European dynamics affect US markets through several transmission channels:
 
 ---
 
-*Last updated: 2026-02-13 23:56 UTC*
+*Last updated: 2026-02-18 17:30 UTC*
 
 ---
 
@@ -317,6 +323,55 @@ European dynamics affect US markets through several transmission channels:
 - **Daily:** ARA crack spread (OPIS), Russian diesel loading data (Kpler/Vortexa), Ukrainian drone strike reports
 - **Weekly:** EIA US distillate export data (Thursday), EU ARA diesel stocks (Euroilstocks)
 - **Monthly:** German IP (Destatis, 6-8 week lag), IEA Oil Market Report (diesel section), CREA Russia fossil fuel report
+
+---
+
+## Latest Research Insights (RP-HANS-8: German IP → US ISM Transmission)
+
+**Research Date: 2026-02-18**
+
+**THE CORE QUESTION:** Does German IP contraction predict US manufacturing weakness, and does it validate Q2-Q3 2026 stress timing?  
+**ANSWER: YES — Q2-Q3 THESIS VALIDATED. JANUARY 2026 ISM SPIKE IS A TARIFF FALSE POSITIVE.**
+
+### Key Data Points
+
+**German Industrial Production (December 2025 — Destatis Feb 6, 2026):**
+- **December MoM: -1.9%** (expected -0.3% — massive miss)
+- December YoY: -0.6% (6th consecutive YoY decline)
+- Full Year 2025: **-1.1%** vs 2024 (third consecutive annual decline)
+- Capital goods: -5.3% MoM | Automotive: **-8.9% MoM** | Machinery: -6.8% MoM
+- Energy-intensive branches: -17.8% cumulative vs 2021 (structural deindustrialization confirmed)
+
+**German PMI Trend:**
+| Month | PMI | Status |
+|-------|-----|--------|
+| Dec 2025 | 47.0 | 🔴 Sharpest contraction in 10 months |
+| Jan 2026 | 49.1 | 🟡 Recovery but still below 50; "fragile" |
+
+**US ISM Manufacturing January 2026: 52.6% = FALSE POSITIVE**
+- ISM report explicitly cites: *"buying appears to be to get ahead of expected price increases due to tariff issues"*
+- Employment: 28 consecutive months contracting (structural)
+- Historical analogue: 2018 tariff front-running (ISM 61.3) → reversed to 47.8 within 6-8 quarters
+
+### ISM Predictions
+
+| Month | Prediction | Basis | Confidence |
+|-------|-----------|-------|------------|
+| Feb 2026 | 48-50 | Tariff impulse fades, German Dec signal arrives | 65% |
+| **Mar 2026** | **47-49 (CONTRACTION)** | German Dec PMI 47.0 / IP -1.9% transmits at 2-3m lag | **60%** |
+| Apr 2026 | 47-50 | German Jan 49.1 partial offset | 55% |
+| Q2 2026 | 47-49 sustained | Full tariff reversal + sustained German weakness | 55% |
+
+### Thesis Timing Assessment
+
+| Component | Status |
+|-----------|--------|
+| Q2-Q3 2026 stress timing | ✅ **VALIDATED** |
+| January 2026 ISM (false dawn) | ✅ **CONFIRMED** — tariff front-running |
+| German weakness transmitting | ✅ **ON TRACK** — 2-3m lag |
+| Employment structural weakness | ✅ **CONFIRMED** — 28-month contraction |
+
+**Key risk:** German January 2026 recovery (PMI 49.1) could continue → would delay (not eliminate) Q2 stress. Watch **German February 2026 flash PMI** (~Feb 21) as the critical indicator.
 
 ---
 

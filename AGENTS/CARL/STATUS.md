@@ -112,14 +112,33 @@ TTF spike 30-50% → Henry Hub +10-25% → Retail bills +8-15% (3-12 month lag)
 | Baltimore metro | **26%** of income (worst of 25 metros) |
 | Low-income renters in old buildings | Highest burden, no control over efficiency |
 
-### THE REAL RISK: LIHEAP Cuts
+### THE REAL RISK: LIHEAP Cuts 🟠 UPGRADED
 
-⚠️ **LIHEAP provides $300-600/year to ~6M households**
-- DOGE targeting HHS/ACF programs (LIHEAP administered by ACF)
-- Gas spike + LIHEAP cut = **$375-745/year effective burden** for most vulnerable
-- This converts marginal stress into material stress for 6M households
+**Current Season (Winter 2025-26): SAFE**
+- FY2026 funded at **$4.045B** (signed Feb 3, 2026)
+- Funds flowing, current heating season covered
 
-**Status:** 🟡 MONITORING — Not threshold breach, but watch DOGE + LIHEAP intersection
+**BUT the infrastructure is broken:**
+- DOGE fired **entire LIHEAP staff** (~24 people) at HHS/ACF on **April 1, 2025**
+- Staff have **NOT been rehired** — states running blind
+- ACF briefing to Congress due **~March 5, 2026** — first checkpoint on hiring plans
+
+**Real Danger Window: Winter 2026-27** 🔴
+- Trump FY2027 budget (~March) will propose **ZERO again**
+- If shutdown at Oct 1 (like FY2026's 43-day shutdown) → LIHEAP delayed entering heating season
+- 6M households at risk
+
+**Kill Zone Geographic Overlap:**
+- NY/PA/MI/OH corridor = highest LIHEAP dependency AND highest consumer stress
+
+**Triggers to Monitor:**
+| Date | Event | Significance |
+|------|-------|--------------|
+| ~Mar 5, 2026 | ACF staffing briefing | If no hiring → operational failure confirmed |
+| Mar 2026 | Trump FY2027 budget | Zero LIHEAP again signals intent |
+| Sept 30, 2026 | FY2027 appropriations | Shutdown risk → LIHEAP delay |
+
+**Status:** 🟠 ORANGE — Risk deferred to Winter 2026-27, but infrastructure already degraded
 
 ---
 

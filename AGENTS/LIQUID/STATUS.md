@@ -49,6 +49,46 @@
 - Primary exposure at Lloyd's syndicates (not cleanly tradeable)
 - Short thesis only works on Tuapse-scale cluster event
 
+---
+
+## 🆕 ICE-CLASS OPERATORS + 140M BARREL FLUSH (Feb 18)
+
+### Tradeable Ice-Class Plays
+
+| Ticker | Name | Ice-Class Profile | Notes |
+|--------|------|-------------------|-------|
+| **TNP** | Tsakos Energy Navigation | ⭐⭐⭐ HIGHEST | "World's largest ice-class tanker operator" — 17 vessels |
+| **TNK** | Teekay Tankers | ⭐⭐ HIGH | 18 Aframax/LR2, Baltic exposure |
+| FRO | Frontline | ⭐ MEDIUM | Large Aframax fleet, less pure-play |
+
+### Ice Break Timing
+
+- **Normal year:** Gulf of Finland clears mid-April
+- **Severe winter (2025-26):** Estimate **late March (partial) to mid-April (full)**
+- Last comparable: Feb 2010/2011
+
+### 140M Barrel Flush Scenario — APRIL-MAY CRUDE BEARISH 🔴
+
+**Triple flush converging:**
+| Component | Impact |
+|-----------|--------|
+| Russian Baltic export recovery | +300-500K bpd |
+| 140M floating storage unwind (~90 days) | +1.5M bpd equivalent |
+| OPEC+ April restart (if confirmed Mar 1) | +138K bpd/month |
+
+**Positioning Framework:**
+- **NOW → March 15:** Long TNP, TNK (ice premium)
+- **March 15 → April 15:** EXIT tanker longs, INITIATE short crude
+- **April-May:** Short crude conviction (target $55-57)
+
+### India Pullback (ZHAO Research)
+
+- India imports collapsed: 2.09M bpd (Jun 2025) → **1.1M bpd (Jan 2026)** → ~800K bpd (Mar est.)
+- Floor: ~400-500K bpd (Nayara refinery structural dependency)
+- China absorbing slack: Feb 2026 at **2.07M bpd** (new record)
+- Urals discount widened: $5 → **$15/bbl delivered**
+- Shift is DURABLE (US-India trade deal, Rosneft/Lukoil sanctions)
+
 ### Trade Recommendation
 
 | Trade | Conviction | Rationale |
