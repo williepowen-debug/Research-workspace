@@ -33,7 +33,7 @@
 
 **Market Transmission:**
 - **Oil:** Brent currently ~$78. Iran produces 3.2M bbl/day. Strait of Hormuz = 20% global oil transit
-- **VIX:** Currently ~15. Strike announcement = instant spike to 25-35+
+- **VIX:** Currently ~21-22 (as of Feb 18). Strike announcement = spike to 35-45+
 - **UST:** Flight to safety = yields down short-term (complicates rate thesis)
 - **Gold:** Up 3-5% on any strike
 - **Defense stocks:** Up (LMT, RTX, NOC, GD)

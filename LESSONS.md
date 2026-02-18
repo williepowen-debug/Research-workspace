@@ -57,6 +57,11 @@ Categories: `[Analysis]` `[Communication]` `[Execution]` `[Verification]` `[Memo
 **Pattern:** Sub-agents can hallucinate confidently. Research scans mix real findings with plausible-sounding fiction.
 **Rule:** Before implementing any agent-recommended upgrade (models, tools, packages), verify it exists: check official docs, try the API, test in sandbox. "Agent found X" ≠ "X exists."
 
+### 2026-02-18 — [Verification]
+**Mistake:** Stated "VIX ~15" in analysis when actual VIX was ~21-22. Pulled from HAWK's STATUS.md which I wrote with unverified placeholder data.
+**Pattern:** Citing own unverified data as fact. Writing placeholder assumptions that later get treated as researched findings.
+**Rule:** Real-time market prices (VIX, oil, yields) must be pulled from actual sources (Yahoo Finance, FRED, CNBC) at time of analysis. Never cite agent STATUS.md for current prices without verification. "I wrote it earlier" ≠ "it's accurate now."
+
 ---
 
 ## Pending Review
