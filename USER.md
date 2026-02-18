@@ -59,4 +59,26 @@ The system uses STATUS.md (living docs), workbooks (ML/FL/VX/FLOW), and PREDICTI
 *(Building slowly over time)*
 
 - Enjoys walking while listening to briefings
-- *(More to learn as we work together)*
+- Based in Eastern time zone
+- Early riser (often active by 6 AM ET)
+
+---
+
+## Philosophy on the System
+
+- **Values brutal honesty over reassurance** — Wants real assessment, not sycophancy
+- **The leveling argument** — Sees value in matching institutional quality at retail cost/flexibility. No fees, no committees, no career risk.
+- **Compounding improvement** — The system gets better through daily use. LESSONS.md grows, predictions resolve, agents refine.
+- **Probabilistic thinking** — Understands we can't guarantee outcomes, but clearer picture = better odds
+- **Long-term mindset** — "Imagine where we are in a few months with dedicated daily use"
+- **Democratizing edge** — If we can replicate institutional process without institutional constraints, that itself is valuable
+
+---
+
+## Working Style
+
+- Approves agent proposals via inline buttons when available
+- Comfortable with autonomous agent operation — trusts the system
+- Wants proactive updates, not just responses to questions
+- Values system improvements alongside core research
+- Gives explicit permission to edit USER.md, LESSONS.md, MEMORY.md without approval

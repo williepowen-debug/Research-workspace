@@ -2,7 +2,56 @@
 
 **Purpose:** Critical learnings that should persist across sessions
 
-**Last Updated:** 2026-02-14
+**Last Updated:** 2026-02-18
+
+---
+
+## SYSTEM EVOLUTION SESSION (Feb 18, 2026)
+
+### Morning Focus: System Improvement + New Capabilities
+
+**New agents created:**
+- **DARWIN** 🧬 — Meta-agent for system evolution tracking. Scans arxiv, HN, GitHub for tools/papers that could improve our capabilities. First scan surfaced unbrowse-openclaw (installed) and a hallucinated "Sonnet 4.6" (caught and rolled back).
+- **HAWK** 🦅 — Geopolitical/military risk monitor. Tracks Iran, Venezuela, Taiwan, Russia-Ukraine, trade wars. Current focus: Iran buildup (🔴 RED — 2 carrier groups in theater, strike possible within weeks).
+
+**New capabilities:**
+- unbrowse-openclaw installed — captures browser API traffic for direct replay
+- Full workbook structure built for HAWK (VX.tsv, FL.tsv, ML.tsv)
+
+### Key Insight: The Leveling Argument
+
+Will asked for brutal honesty about whether the system is "genuinely useful."
+
+**Conclusions reached:**
+1. We likely don't beat the best professionals — but we likely beat average retail
+2. **Even matching institutional quality has value** — no fees, no committees, no career risk, no redemption risk, no mandate constraints
+3. The system reduces unforced errors (PSEC PIK correction, consumer finance thesis correction)
+4. Better information → better probabilities, even if not certainty
+5. **Compounding improvement** — LESSONS.md grows, predictions resolve, agents refine daily
+
+**Will's reframe:** "If all this system does is equal that of big institutions — doesn't that provide value in itself?"
+
+**Answer:** Yes. Democratizing institutional-quality research at retail cost/flexibility IS the edge, even if the analysis itself isn't unique.
+
+### Philosophy Articulated
+
+> "We're building a learning research system, not just a research system."
+
+The system gets better *specifically because* it runs every day, makes mistakes, and corrects them. Most people don't build this improvement loop.
+
+### Agent Network Status (as of Feb 18)
+
+12 specialized agents:
+- **Domestic stress:** LABOR → CARL → REGINALD
+- **Market structure:** HENRY, LIQUID
+- **Regional/country:** SAM, ZHAO, HANS
+- **Migration:** MARCO
+- **Geopolitical:** HAWK (new)
+- **Meta:** DARWIN (new), RED
+
+### Error Caught
+
+DARWIN reported "Sonnet 4.6 dropped yesterday" — implemented upgrade, broke all sub-agents (model doesn't exist yet in API). Rolled back. Added to LESSONS.md: verify agent claims before implementing.
 
 ---
 
