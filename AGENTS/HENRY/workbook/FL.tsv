@@ -1,10 +1,10 @@
 ID	Date	Event	Why_Watching	Priority	Target_Date
 FL-HEN-001	2026-01-26	Session 001 Baseline	COMPLETE - Established baseline readings for all 11 vectors from primary sources	DONE	2026-01-26
-FL-HEN-002	2026-01-26	FOMC Meeting	Fed policy decision; rate path affects ERP calculation and risk appetite	HIGH	2026-01-29
-FL-HEN-003	2026-01-26	Mag 7 Earnings Season	NVDA, AAPL, MSFT, AMZN, GOOGL, META, TSLA Q4 earnings; concentration risk catalyst	HIGH	2026-01-28 to 2026-02-15
-FL-HEN-004	2026-01-26	Q4 2025 GDP Release	Updates Buffett Indicator denominator	MEDIUM	2026-01-30
+FL-HEN-002	2026-01-26	FOMC Meeting	DONE - Fed held rates Jan 29, hawkish lean	DONE	2026-01-29
+FL-HEN-003	2026-01-26	Mag 7 Earnings Season	DONE - Mixed results, NVDA strong, TSLA weak, Meta beat	DONE	2026-01-28 to 2026-02-15
+FL-HEN-004	2026-01-26	Q4 2025 GDP Release	DONE - GDP released Jan 30	DONE	2026-01-30
 FL-HEN-005	2026-01-26	Fed Z.1 Release	Updates household equity allocation (Q4 2025 data)	MEDIUM	2026-03-12
-FL-HEN-006	2026-01-26	CAPE Monthly Update	Shiller P/E monthly refresh	MEDIUM	2026-02-01
+FL-HEN-006	2026-01-26	CAPE Monthly Update	DONE - CAPE updated Feb 1	DONE	2026-02-01
 FL-HEN-007	2026-01-26	Breadth Deterioration Watch	If % >200 DMA drops below 50%, escalate concentration concern	HIGH	Ongoing
 FL-HEN-008	2026-01-26	Private Credit Maturity Wall	~$300B+ private debt matures in 2025-2026 ZIRP vintage; refinancing risk if rates stay elevated	HIGH	2025-2026
 FL-HEN-009	2026-01-26	NAIC SVO Fund Alignment Project	Regulatory ruling on Rated Note Feeder treatment; could force insurance divestment of private credit	HIGH	TBD (2026)
