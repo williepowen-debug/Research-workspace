@@ -105,6 +105,17 @@
 **Domain:** REIT monitoring
 **Status:** Background, cross-ref with CREED
 
+---
+
+## META AGENTS
+
+### DARWIN 🧬
+**Domain:** System Evolution & AI Research
+**Thesis:** Systematically track AI/ML tooling landscape, surface improvements before we stumble onto them
+**Tracks:** arxiv, HN, GitHub trending, MCP tools, infrastructure plays, model releases
+**Output:** Weekly scans, experiment proposals, backlog of improvements
+**Role:** Makes the system better over time
+
 ### RED 🔴
 **Domain:** Network Adversarial Analysis
 **Thesis:** Find what's wrong. Challenge every thesis. Present the strongest counter-case.
@@ -128,6 +139,9 @@ REGINALD (bank losses follow)
 HENRY tells us HOW FAST
 SAM + ZHAO + HANS are parallel global risk (Japan + China + Europe anchors)
 BROCK (under REGINALD) is private credit early warning
+
+DARWIN (meta) improves the system itself
+RED (adversarial) challenges all theses
 ```
 
 ---
@@ -156,6 +170,7 @@ BROCK (under REGINALD) is private credit early warning
 | CREED | `AGENTS/REGINALD/CREED/` | `CREED_SKELETON.md` | `workbook/` |
 | BROCK | `AGENTS/REGINALD/BROCK/` | `BROCK_SKELETON.md` | `workbook/` |
 | CORAL | `AGENTS/REGINALD/sub-agents/CORAL/` | — | `research/` |
+| DARWIN | `AGENTS/DARWIN/STATUS.md` | `AGENT.md` | `BACKLOG.md` |
 
 ---
 
