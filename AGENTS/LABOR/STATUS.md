@@ -364,16 +364,34 @@ Shows blue (reported) vs red (revised) — consistent overstatement through 2024
 ---
 
 ## WORKBOOK REFS
-- **ML.tsv**: ML-LAB-001 through ML-LAB-066 (added 3 entries Feb 17)
-- **VX.tsv**: 54 vectors (added VX-LAB-14.01 Feb 17; VX-LAB-14.02 Feb 18)
-- **Research**: RP-LAB-003 through RP-LAB-017 (added 1 report Feb 17)
+- **ML.tsv**: ML-LAB-001 through ML-LAB-067 (67 entries)
+- **VX.tsv**: 68 vectors
+- **Research**: RP-LAB-003 through RP-LAB-017
 
-### New Vectors (Feb 16, 2026)
+### Vector Series Reference
+- **1.xx:** Claims (initial, continuing)
+- **2.xx:** BLS Employment (NFP, U-3, U-6, hours, wages)
+- **3.xx:** JOLTS (openings, quits, layoffs)
+- **4.xx:** Leading indicators (temp, NFIB, ISM, contractors)
+- **5.xx:** Hidden unemployment (part-time, discouraged, long-term)
+- **6.xx:** Sector layoffs (tech, logistics, auto, consumer, prof services)
+- **7.xx:** Federal/DOGE cuts
+- **8.xx:** Challenger announcements, PSEC
+- **9.xx:** WARN filings (state-level)
+- **10.xx:** Google Trends sentiment
+- **11.xx:** Freight/Beige Book
+- **12.xx:** Small business stress
+- **13.xx:** Staffing companies (KELYA, RHI, MAN)
+- **14.xx:** DHS shutdown / RIF pipeline
+- **15.xx:** Credit transmission (delinquency transitions) — NEW
+- **16.xx:** Japan catalysts (Shunto) — NEW
+
+### New Vectors (Feb 16-18, 2026)
 - **VX-LAB-8.04:** PSEC PIK Income % (35%, YELLOW - watch Feb 20 earnings)
-- **VX-LAB-9.01:** Total 90+ Delinquency Transition (3.26%, RED - doubled YoY)
-- **VX-LAB-9.02:** HELOC 90+ Transition (1.24%, RED - +121% YoY, liquidity crisis)
-- **VX-LAB-9.03:** Mortgage 90+ Transition (1.38%, ORANGE - FL/CA concentration)
-- **VX-LAB-11.01:** Shunto Wage Settlement (TBD, GAP - Feb 19 demands, Mar 15 settlements)
+- **VX-LAB-15.01:** Total 90+ Delinquency Transition (3.26%, RED - doubled YoY)
+- **VX-LAB-15.02:** HELOC 90+ Transition (1.24%, RED - +121% YoY, liquidity crisis)
+- **VX-LAB-15.03:** Mortgage 90+ Transition (1.38%, ORANGE - FL/CA concentration)
+- **VX-LAB-16.01:** Shunto Wage Settlement (TBD, GAP - Feb 19 demands, Mar 15 settlements)
 - **VX-LAB-13.01:** KELYA Revenue YoY (-11.9%, RED - temp down 18.6%, federal -8%)
 - **VX-LAB-13.02:** RHI Revenue YoY (-7%, RED - staffing -9%, highest conviction target)
 - **VX-LAB-13.03:** MAN Revenue YoY CC (+1%, YELLOW - adj EPS -17%, global buffer)
