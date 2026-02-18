@@ -8,8 +8,11 @@
 | Position | Expiry | Entry Thesis | Exit Triggers |
 |----------|--------|--------------|---------------|
 | **IWM puts (Jun)** | Jun 2026 | Small caps priced for hope trade, ISM Jan was tariff front-running (HANS), German IP collapse leads US by 2-3 months | German PMI <48 (Thursday) confirms, or Q2 ISM sub-49 |
+| **HYG puts (Jun $75P)** | Jun 2026 | HY OAS at 2.84% (historic tights) vs 5.2% historical avg. IV ~10.7% = cheap protection. Credit upstream canary. | HY OAS +50bps in 5 days, or credit event |
 
-**Position Rationale:** IWM +16% Nov-Feb = pure deregulation/domestic bid hope. BKLN at 52-week lows shows credit already exiting. January ISM 52.6% was pre-ordering before tariffs (HANS), not real demand. German IP -1.9% MoM leads US ISM by 2-3 months → March ISM sub-49 expected. Small caps have no pricing power to absorb tariff pass-through.
+**Position Rationale — IWM:** IWM +16% Nov-Feb = pure deregulation/domestic bid hope. BKLN at 52-week lows shows credit already exiting. January ISM 52.6% was pre-ordering before tariffs (HANS), not real demand. German IP -1.9% MoM leads US ISM by 2-3 months → March ISM sub-49 expected. Small caps have no pricing power to absorb tariff pass-through.
+
+**Position Rationale — HYG:** HYG is the upstream canary for credit stress. Spreads at historic tights while consumer stress (CARL) at GFC levels = bifurcation that must close. IV cheap at 10.7%. If risk-off arrives, HY cracks first before equities.
 
 ---
 
