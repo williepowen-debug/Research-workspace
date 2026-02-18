@@ -116,6 +116,14 @@
 **Output:** Weekly scans, experiment proposals, backlog of improvements
 **Role:** Makes the system better over time
 
+### HAWK 🦅
+**Domain:** Geopolitical & Military Risk
+**Thesis:** External shocks can trigger market moves regardless of domestic fundamentals
+**Tracks:** Military conflicts (Iran, Venezuela, Taiwan), trade wars, oil chokepoints, sanctions
+**Status Tiers:** GREEN (weekly) → YELLOW (2x/week) → ORANGE (daily) → RED (continuous)
+**Current:** 🔴 RED — Iran buildup active (strike possible within weeks)
+**Role:** Parallel trigger vector alongside SAM/ZHAO/HANS — can accelerate timeline
+
 ### RED 🔴
 **Domain:** Network Adversarial Analysis
 **Thesis:** Find what's wrong. Challenge every thesis. Present the strongest counter-case.
@@ -142,6 +150,7 @@ BROCK (under REGINALD) is private credit early warning
 
 DARWIN (meta) improves the system itself
 RED (adversarial) challenges all theses
+HAWK (geopolitical) external shock vector — Iran, trade wars, military
 ```
 
 ---
@@ -171,6 +180,7 @@ RED (adversarial) challenges all theses
 | BROCK | `AGENTS/REGINALD/BROCK/` | `BROCK_SKELETON.md` | `workbook/` |
 | CORAL | `AGENTS/REGINALD/sub-agents/CORAL/` | — | `research/` |
 | DARWIN | `AGENTS/DARWIN/STATUS.md` | `AGENT.md` | `BACKLOG.md` |
+| HAWK | `AGENTS/HAWK/STATUS.md` | `AGENT.md` | `SOURCES.md` |
 
 ---
 

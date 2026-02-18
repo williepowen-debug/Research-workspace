@@ -1,5 +1,5 @@
 # LABOR STATUS
-**Last Updated:** 2026-02-17 | **Status:** 🔴 CRITICAL — Benchmark Revision Exposes 1M Phantom Jobs | DHS Shutdown Day 5
+**Last Updated:** 2026-02-18 | **Status:** 🔴 CRITICAL — Federal Layoff Protections EXPIRED | DHS Shutdown Day 6 | Mass RIFs May Now Proceed
 
 ---
 
@@ -211,6 +211,45 @@ Shows blue (reported) vs red (revised) — consistent overstatement through 2024
 
 ---
 
+## OVERNIGHT DEVELOPMENTS (Feb 18, 2026) — 🚨 CRITICAL NEW VECTOR
+
+### 1. FEDERAL LAYOFF PROTECTIONS EXPIRED — 🔴 NEW
+- **Status:** CR provisions barring federal RIFs expired with the DHS CR on Feb 13
+- **Effect:** Agencies now FREE to proceed with mass layoffs — no congressional protection remaining
+- **Scale:** ~4,000 federal employees had pending RIF notices blocked by CR language (Commerce, Education, Energy, HHS, HUD, DHS, Treasury)
+- **Legal status:** Court hearing today (Feb 18) — Judge Illston (N.D. Cal.) deciding scope of prior injunction
+- **State Dept carve-out:** ~250 Foreign Service RIF notices already upheld by Illston (Jan 9)
+- **Administration intent:** Per legal experts, "this administration will likely pursue more layoffs if court allows"
+- **Key implication:** The 307K DOGE total could accelerate SHARPLY. Previously blocked ~4K = tip of iceberg
+- **Claims note:** RIF notices → actual separations → claims filing = 2-4 week lag. Watch Mar 5/12 claims prints.
+- **VX update:** VX-LAB-14.01 (DHS Shutdown) escalating; new vector may be needed for "RIF Pipeline Unlocked"
+
+### 2. DOGE CONTRACT CUTS — ACCELERATING
+- **Latest (Feb 17):** 273 contracts terminated (ceiling $5.1B) → $1.4B savings in 4 weeks
+- **Cumulative DOGE claimed savings:** $215B (highly suspect; DOGE math inflates ceiling vs realized)
+- **HHS, GSA leading:** "most reported savings" per DOGE efficiency leaderboard
+- **Suppressed claims channel:** Federal contract workers losing work may not show in initial claims immediately
+- **Running total implication:** DOGE separations pace accelerating. 307K estimate may be understated.
+
+### 3. DHS SHUTDOWN — DAY 6, NO OFF-RAMP
+- **Congress on recess until Feb 23** — no resolution possible before then
+- **Status:** "No clear off-ramp." Both sides pointing fingers.
+- **Essential workers:** ~90% of DHS (234K workers) working without pay
+- **ICE/CBP:** Still funded via separate immigration enforcement appropriation — operational
+- **Paycheck risk:** Workers approaching first missed paycheck window; pressure will mount
+- **Claims note:** Working-without-pay federal workers CANNOT file UI → initial claims artificially suppressed. Resolution = retroactive pay, then normalization. Feb 19 claims print will NOT reflect this.
+- **Negotiations:** Democrats want body cameras, masks off ICE agents; Republicans blocking. No breakthrough.
+
+### 4. TECH LAYOFFS YTD UPDATE
+- **Current total:** 37,478 workers, 60 events (as of Feb 17) — up from 30,700 logged Feb 15
+- **+6,778 workers in 2 days** — acceleration continuing
+- **100+ companies** have filed WARN notices for 2026 cuts
+- **Amazon:** ~16,000 corporate cuts (largest single event); record revenue concurrent with record cuts
+- **Zillow:** 200 jobs (2% workforce), Feb 2026
+- **AI anxiety:** Workers reporting layoff fear surged 28% (2024) → 40% (2026)
+
+---
+
 ## OVERNIGHT DEVELOPMENTS (Feb 15-17, Presidents' Day Weekend)
 
 ### 1. DHS Partial Government Shutdown — NEW STRESS VECTOR
@@ -308,9 +347,15 @@ Shows blue (reported) vs red (revised) — consistent overstatement through 2024
 
 ---
 
+## PENDING TASKS
+
+- **[ ] DASH Earnings Read (Tonight, Feb 18 after close):** DoorDash reports Q4 2025 after market close. Scan Dasher supply/demand metrics — driver saturation, active Dasher counts, order frequency, payout rates. Signal for gig worker stress and income sufficiency vs 1099-K cliff thesis.
+
+---
+
 ## WORKBOOK REFS
 - **ML.tsv**: ML-LAB-001 through ML-LAB-066 (added 3 entries Feb 17)
-- **VX.tsv**: 53 vectors (added VX-LAB-14.01 Feb 17)
+- **VX.tsv**: 54 vectors (added VX-LAB-14.01 Feb 17; VX-LAB-14.02 Feb 18)
 - **Research**: RP-LAB-003 through RP-LAB-017 (added 1 report Feb 17)
 
 ### New Vectors (Feb 16, 2026)
@@ -326,4 +371,12 @@ Shows blue (reported) vs red (revised) — consistent overstatement through 2024
 ### New Vectors (Feb 17, 2026)
 - **VX-LAB-14.01:** DHS Partial Shutdown Day Count (Day 5, ORANGE - suppresses spending not claims; resolution target Feb 23)
 
-*Next update triggers: Feb 19 Shunto electronics demands | Feb 20 Initial Claims (Thursday) | Feb 20 PSEC Q4 earnings | Mar 6 NFP | Claims breach 250K | DHS shutdown resolution*
+### New Vectors (Feb 18, 2026)
+- **VX-LAB-14.02:** Federal RIF Pipeline Status (ORANGE - ~4,000 pending RIF notices; CR protections expired Feb 13; courts may block/unblock; Judge Illston ruling pending)
+  - **Track:** Court injunction scope (blocked/unblocked), new agency RIF filings by Commerce/Education/Energy/HHS/HUD/DHS/Treasury
+  - **GREEN:** Court blocks all RIFs, no new filings
+  - **YELLOW:** Partial block; <500 additional RIF notices
+  - **ORANGE:** Courts allow RIFs to proceed; 500-2,000 additional notices filed (CURRENT)
+  - **RED:** Full unlocking; >2,000 new RIF notices; DOGE total heading toward 400K+
+
+*Next update triggers: Feb 19 Initial Claims 8:30 AM ET (⚠️ DHS distortion—print will be suppressed) | Feb 19 FOMC Minutes 2:00 PM ET | Feb 19 Shunto electronics demands (overnight) | Feb 20 PSEC Q4 earnings | Mar 6 NFP | Claims breach 250K | Court ruling on RIF injunction (Judge Illston) | DHS shutdown resolution (earliest Feb 23)*
