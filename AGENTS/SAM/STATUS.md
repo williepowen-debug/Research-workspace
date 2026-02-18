@@ -379,6 +379,11 @@ Japan is in a **fiscal doom loop** (acknowledged as "credible tail risk" by Alli
 - If USDJPY rises (yen weakens) on oil spike = trade deficit narrative winning
 - If USDJPY falls (yen strengthens) = safe haven winning (rare, historical says unlikely)
 
+**Cross-Asset Signal (per HENRY synthesis):**
+- Long-JPY as oil hedge is CONSENSUS and WRONG
+- When crude spikes, if USD/JPY rises = squeeze on long-JPY positions begins
+- This confirms SAM thesis and creates alpha opportunity
+
 ### 🎯 REVISED TRADE RECOMMENDATIONS (Feb 18)
 
 | Scenario | EWJ Puts | FXY Calls | USO Calls |
