@@ -1,5 +1,5 @@
 # MARCO STATUS
-**Last Updated:** 2026-02-17 | **Status:** 🔴 RED — DHS Shutdown Day 5 + E-Verify Suspended + Mexico Remittances -4.6% (Worst Since 2009) + H-2A Reform Imminent
+**Last Updated:** 2026-02-18 | **Status:** 🔴 RED — DHS Shutdown Day 6 + Negotiations Stalled + RIF Protections Expired + Farm Bill H-2A Markup Feb 23 + MN H-2A -12%
 
 ---
 
@@ -52,12 +52,30 @@ Three domains tracked:
 
 ---
 
-## ENFORCEMENT POLICY DEVELOPMENTS (Feb 17, 2026)
+## ENFORCEMENT POLICY DEVELOPMENTS (Feb 18, 2026 — UPDATED)
 
-**🔴 DHS SHUTDOWN ACTIVE — DAY 5 — E-VERIFY SUSPENDED (NEW)**
+### 🆕 NEW (Feb 18) — Day 6 Status: Negotiations Stalled + RIF Protections Expired
+- **Shutdown Day 6** — Congress returns Feb 23; no deal imminent
+- **Democrats sent counteroffer** on ICE reforms to White House/Republicans (Feb 17, CBS News confirmed)
+- **White House:** "parties are still pretty far apart" — Trump: "We're going to protect ICE"
+- **Democrats condensed to 3 core asks:** (1) end roving patrols/sensitive location bans, (2) use-of-force code, (3) body cameras + no masks
+- **Key sticking point:** No-masks demand — Homan says agents need masks for safety; Republicans strongly opposing
+- **Republicans agreed** to body cameras in principle — only item with common ground
+- **🆕 RIF PROTECTIONS EXPIRED (Feb 13):** CR provision blocking federal layoffs lapsed with DHS shutdown
+  - ~4,000 federal workers (Commerce, Education, Energy, HHS, HUD, DHS, Treasury) with pending RIF notices now exposed
+  - Federal court (Judge Illston, San Francisco) holding hearing on whether layoffs remain blocked
+  - State Dept already confirmed ~250 Foreign Service RIF notices can stand
+  - Federal employment already at **lowest since 1966** after DOGE year-one cuts
+- **🆕 TSA PAYCHECK TIMELINE REFINED:**
+  - **March 3:** TSA agents receive partial paycheck (reduced hours)
+  - **March 17:** TSA agents miss full paycheck — walkout risk triggers (spring break peak, 2.5M/day screened)
+  - Prior estimate of "mid-March" now tightened — **March 17 is the hard trigger**
+- **🆕 AIRPORT IMPACT:** Delta/United reporting delays; TSA/CBP staffing strain creating travel bottlenecks (VisaVerge, Feb 17)
+
+**🔴 DHS SHUTDOWN ACTIVE — DAY 6 — E-VERIFY SUSPENDED — RIF PROTECTIONS EXPIRED**
 
 ### DHS Shutdown Status (Feb 14 - Present)
-- **Shutdown began:** Feb 14, 2026 at 12:01 AM ET (**Day 5 as of Feb 17**)
+- **Shutdown began:** Feb 14, 2026 at 12:01 AM ET (**Day 6 as of Feb 18**)
 - **Cause:** Democrats blocked second two-week CR on Feb 12; Congress left for recess
 - **Duration estimate:** "At least 10 days" per POLITICO — earliest resolution ~Feb 23-24 (State of Union timing)
 - **Operational impact:** LIMITED on enforcement (OBBBA backstop), but **E-VERIFY SUSPENDED (CONFIRMED)**
@@ -203,7 +221,7 @@ This directly feeds the FL thesis:
 
 ### RP-MAR-8 Series (Feb 4, 2026)
 
-### RP-MAR-8.1: H-2A Visa Pipeline Analysis (UPDATED Feb 17)
+### RP-MAR-8.1: H-2A Visa Pipeline Analysis (UPDATED Feb 18)
 **Key finding:** H-2A is the **leading indicator** for domestic labor scarcity.
 - 48K (2005) → **415K (FY2025 CONFIRMED)** = 8.6x growth (upgrade from 400K+ estimate)
 - **Only 182 domestic applicants out of 415K positions advertised (<0.04%)** — structural dependency confirmed
@@ -212,14 +230,20 @@ This directly feeds the FL thesis:
 - Year-round industries (dairy, mushrooms, CEA) EXCLUDED = structural gap
 - 43-day govt shutdown (2025) halted processing → supply chain fragility exposed
 - New AEWR methodology reduces wages $4-7/hr (UFW lawsuit pending)
-- **🆕 H-2A REFORM LEGISLATION IMMINENT (Feb 17 NEW):**
-  - House Ag Committee Chairman G.T. Thompson (R-PA) targeting bill before **March 31, 2026**
-  - Bipartisan congressional task force recommendations include:
-    - Allow H-2A for **year-round jobs** (dairy, ranches) — closes structural gap
-    - **Limit wage increases to 3.25%/yr** (AEWR cap)
-    - Path for ~680K existing undocumented farmworkers (politically contentious)
-  - House Judiciary Committee has jurisdiction (less ag-friendly than Ag Committee)
+- **🆕 H-2A REFORM — FARM BILL 2026 RELEASED (Feb 16 NEW):**
+  - House Ag Chairman G.T. Thompson (R-PA) released **Farm, Food, and National Security Act of 2026** on Feb 13-16
+  - **House Ag Committee markup: February 23, 2026** (same day Congress returns from recess)
+  - Bill includes year-round H-2A provisions (dairy, meatpacking), ag credit, conservation programs
+  - Bipartisan support sought — Thompson stripping contentious provisions to ensure passage
+  - National Milk Producers Federation, American Soybean Association, NCFC all support bill
+  - House Judiciary Committee retains separate jurisdiction on worker path-to-legality components
   - If passes: potentially adds 100K+ workers to H-2A pipeline in 12-18 months
+- **🆕 MINNESOTA H-2A DROP (Star Tribune, Feb 16 NEW):**
+  - H-2A visas in MN fell **-12%** in H1 2025 vs H1 2024 (after Trump enforcement tightening)
+  - Minnesota farms reporting confirmed labor shortages; workers afraid to present for work
+  - Validates fear-driven withdrawal thesis extends into upper Midwest (not just border states)
+  - Administration's own admission: raids worsen food prices (FERN/The Nation, Feb 12)
+  - 40% of US farmworkers estimated undocumented; raids compound structural scarcity
 
 ### RP-MAR-8.2: Tier-1 State Fiscal Exposure
 **Key finding:** Each border state has **different primary vulnerability.**
@@ -327,11 +351,18 @@ Migration shift (UVL: "balanced") → Tax revenue at risk
 | Date | Event | Significance |
 |------|-------|--------------|
 | ✅ Feb 11 | BLS Employment (Jan 2026) | +130K payrolls (beat expectations); Federal govt -34K; 2025 revised down -898K |
-| **Feb 13** | **DHS Appropriations Deadline** | **Midnight deadline; ICE/CBP funding; enforcement trajectory** |
-| ~Feb 15 | USDA Farm Labor Q4 | Ag displacement continuation |
-| ~Mar 15 | Statistics Canada Jan | First 2026 Canadian data |
+| ✅ Feb 13 | DHS Appropriations Deadline | Lapsed — shutdown triggered — RIF protections also expired |
+| ✅ Feb 14 | DHS Shutdown Day 1 | E-Verify suspended; ICE/CBP 93%+ operational via OBBBA |
+| ✅ Feb 16 | Farm Bill 2026 Released | Thompson released draft; Ag groups responding |
+| ✅ Feb 17 | Dem counteroffer on ICE | Parties "far apart"; negotiation ongoing |
+| **Feb 18** | **TODAY — Day 6** | TSA/CBP travel disruptions; court ruling on RIFs pending |
+| **Feb 23** | **Congress Returns + Farm Bill Markup** | Earliest shutdown resolution; House Ag Committee begins Farm Bill markup |
+| **Mar 3** | TSA Partial Paycheck | First financial pain; partial miss |
+| **Mar 6** | NFP (Feb 2026) | Next jobs data; watch for DOGE/RIF signal |
+| **Mar 17** | **TSA Full Paycheck Miss** | Hard walkout trigger — spring break peak (2.5M/day) |
+| ~Mar 20 | Statistics Canada Jan | First 2026 Canadian data |
 | Jul 2026 | USMCA Review | Critical for TX/AZ border economy |
-| Jan 2026 | 1% Remittance Tax | Mexico flow impact |
+| Jan 2026 | 1% Remittance Tax | Mexico flow impact (already active) |
 
 ---
 

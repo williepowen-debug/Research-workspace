@@ -52,6 +52,11 @@ Categories: `[Analysis]` `[Communication]` `[Execution]` `[Verification]` `[Memo
 **Pattern:** Documenting principles after building architecture adds little value — the architecture already does the work.
 **Rule:** Build the system first. Document for reference, not behavior change. Time spent on architecture beats time spent on instruction docs.
 
+### 2026-02-18 — [Verification]
+**Mistake:** DARWIN reported "Claude Sonnet 4.6 dropped yesterday" — implemented upgrade, but model doesn't exist.
+**Pattern:** Sub-agents can hallucinate confidently. Research scans mix real findings with plausible-sounding fiction.
+**Rule:** Before implementing any agent-recommended upgrade (models, tools, packages), verify it exists: check official docs, try the API, test in sandbox. "Agent found X" ≠ "X exists."
+
 ---
 
 ## Pending Review

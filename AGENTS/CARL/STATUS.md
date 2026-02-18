@@ -1,5 +1,5 @@
 # CARL STATUS
-**Last Updated:** 2026-02-17 | **Status:** 🔴 RED — Fannie MF DQ IMMINENT BREACH (5bps from GFC peak), Wright confirms transmission ACTIVE | DHS Shutdown Day 5 NEW vector
+**Last Updated:** 2026-02-18 (SUBAGENT — Maryland Deep-Dive + Research Task Approval) | **Status:** 🔴 RED — Fannie MF DQ IMMINENT BREACH (6bps from GFC peak), Foreclosures +32% YoY Jan 2026, FHA DQ highest since 2021, DOGE contractor fast-path ACTIVE | **Maryland DOGE→DQ transmission CONFIRMED** (#1 YoY noncurrent, #3 QoQ increase, top-5 foreclosures) | DHS Shutdown Day 6 (no resolution) | ICE First Look Jan 2026 DAILY MONITORING ACTIVATED
 
 ---
 
@@ -97,15 +97,16 @@ $150-200B **invisible** to credit bureaus:
 | **Student Loan 30+ DQ** | **16.3%** | 🔴 | WORST EVER |
 | **Student Loan 90+ DQ** | **9.6%** | 🔴 | +$150B YoY — UPDATED Feb 17 (was 9.5%), 0.4pp from 10% threshold |
 | Total Household Debt | $18.78T | 🔴 | Record |
-| **Fannie MF DQ** | **0.75%** | 🔴 | **IMMINENT BREACH** — 5bps from GFC peak (0.80%) |
+| **Fannie MF DQ** | **0.74%** | 🔴 | **IMMINENT BREACH** — 6bps from GFC peak (0.80%); Q4 2025 official earnings confirmed (+6bps QoQ, from 0.68% Q3) |
 | **Freddie MF DQ** | **0.48%** | 🟠 | Highest in 21 years |
-| **National Foreclosures Q4** | **58,140** | 🟠 | +41% YoY |
+| **National Foreclosures Q4** | **58,140** | 🟠 | +41% YoY (Q4 2025 quarterly total) |
+| **Foreclosure Filings Jan 2026** | **40,534** | 🟠 | +32% YoY; starts +26%; completions +59%; DE/NV/FL worst rates; FL/TX/CA top starts — 11th consecutive annual increase |
 | **FL Foreclosures** | +190% YoY | 🔴 | Employment→housing accelerating; FL DQ entry rate DOWN (cure rate collapsed) |
 | BNPL Late Payments | 41% | 🟠 | +7pp YoY |
 | BNPL Subprime Share | 61% | 🔴 | |
 | CC Utilization | 23.6% | 🟡 | 60% carry balance |
 | **Subprime Auto ABS 60+** | **6.9%** (Jan 2026) | 🔴 | **ALL-TIME RECORD** (vs Prime 0.4% = 17x gap) |
-| **DHS Shutdown — Workers Without Pay** | **234K** | 🔴 | **NEW (Feb 12+) — Day 5+; first missed paycheck imminent; FL/TX/CA/NY overlap with WARN hotspots** |
+| **DHS Shutdown — Workers Without Pay** | **234K** | 🔴 | **Day 6 (Feb 18); White House rejected Dem compromise; no end in sight; Congress returns Feb 23 earliest; contractors NOT guaranteed back pay — stop-work orders issued** |
 
 **Age breakdown (transition to 90+ days):** 18-29: 9.5% | 30-39: 8.6% | 40-49: 8.1%
 
@@ -169,7 +170,34 @@ Both QSR and Auto Aftermarket show same K-shape:
 
 ---
 
-## DHS SHUTDOWN — CONSUMER STRESS VECTOR (Feb 17)
+## DHS SHUTDOWN — CONSUMER STRESS VECTOR (Updated Feb 18)
+
+### Day 6 Status Update
+- **White House rejected** Democrats' latest compromise proposal (ICE oversight limits)
+- **No end in sight** — Senate left town; both sides pointing fingers
+- **Congress returns Feb 23** (earliest plausible resolution)
+- **State of the Union** risk: shutdown may still be active during SOTU address
+- **Contractor impact**: Stop-work orders issued; invoice payment halted; companies "deciding federal work is too hard" (PSC/Kostro); NO back-pay guarantee for contractors
+- **43-day DHS shutdown** from October 2025 was the starting context; now in 2nd DHS shutdown of this FY
+
+### ⚠️ NEW VECTOR: DOGE Contract Terminations
+| Metric | Data |
+|--------|------|
+| Contracts terminated (4 weeks) | **273** |
+| Dollar value terminated | **$5.1B** |
+| Key agencies | DHS, Department of War |
+| Back-pay for contractors | **NONE** — no statutory guarantee |
+| Consumer conversion lag | **0-2 months** (fast-path) |
+
+**Implication**: DOGE contract terminations are MORE CONSUMER-DAMAGING per capita than direct RIFs:
+- Federal employees get RIF notice (60 days) + back pay until terminated
+- Contractors get stop-work order and ZERO back-pay
+- Many are single-income households in high-COL DC/VA/MD metro
+- Maryland mortgage DQ already showing DOGE pre-transmission: +87bps QoQ
+
+---
+
+## DHS SHUTDOWN — CONSUMER STRESS VECTOR (Feb 18, original section)
 
 **Started:** Feb 12-13, 2026 (CR lapsed; House failed to pass). Congress returns ~Feb 23.
 
@@ -216,6 +244,32 @@ Pay cessation (Day 1-7) → Emergency fund depletion
 - **Trigger:** Day 14+ = formal threshold entry (VX candidate)
 - **Resolution watch:** Feb 23 Congress return = earliest plausible fix
 - Dave 28DPD (GIG canary): flag if moves above 2.05% this week
+
+---
+
+## MBA Q4 2025 — NEW DATA (Feb 13, 2026) ✅
+
+**Published:** Feb 12, 2026 (MBA National Delinquency Survey)
+
+| Metric | Q4 2025 | QoQ Change | YoY Change | Status |
+|--------|---------|------------|------------|--------|
+| **Overall DQ Rate** | **4.26%** | +27bps | +28bps | 🟠 |
+| 30-day DQ | 2.07% | -5bps | | |
+| 60-day DQ | 0.92% | +16bps | | |
+| **90-day DQ** | **1.27%** | **+16bps** | | 🟠 |
+| **FHA DQ** | **11.52%** | **+74bps** | **+49bps YoY** | 🔴 Highest since Q2 2021 |
+| FHA 90+ DQ (serious) | | **+76bps** | **+106bps** | 🔴 |
+| FHA foreclosure inventory | Highest since Q1 2020 | | | 🔴 |
+| VA DQ | 4.60% | +10bps | -10bps | 🟡 |
+| Conventional DQ | 2.89% | +27bps | +27bps | 🟡 |
+| Foreclosure process % | 0.53% | +3bps | +8bps | 🟡 |
+| Seriously DQ (non-SA) | **1.85%** | **+24bps** | **+17bps** | 🟠 |
+
+**MBA Chief Analyst Quote (Marina Walsh):** *"The most pronounced uptick was with FHA loans... The fourth quarter results may have been impacted by the expiration of pandemic-era, FHA relief options as well as disparities in the labor market — a key determinant of mortgage delinquency levels."*
+
+**Key Insight:** MBA explicitly cited LABOR MARKET as driver. The official data now connects employment stress → mortgage delinquency. This is confirmation of CARL's central thesis.
+
+**2022-2023 FHA vintage = worst performers.** Affordable market stretch + rate lock-in = double trigger cohort confirmed.
 
 ---
 
@@ -370,7 +424,7 @@ This is EXACTLY the CARL thesis: employed people defaulting because underwater +
 
 ## FANNIE MF DQ: IMMINENT BREACH
 
-**Current:** 0.75% (only 5bps from GFC peak of 0.80%)
+**Current:** 0.74% (only 6bps from GFC peak of 0.80%) — **Q4 2025 official Fannie Mae earnings confirmed** (up from 0.68% in Q3; +6bps QoQ). Note: STATUS.md previously had 0.75% from an earlier source; 0.74% is official.
 **Status:** 🔴 IMMINENT BREACH — weekly monitoring activated
 
 ### Why This Matters
@@ -391,6 +445,7 @@ MF mortgage defaults → Fannie/Freddie losses → Broader housing stress
 **Monitoring Cadence:**
 - **Previous:** Monthly (Fannie Mae DataDynamics)
 - **Current:** **WEEKLY** — breach imminent, need real-time tracking
+- **Q4 2025 official:** Fannie also reduced MF allowance by $93M (stabilized property values + charged-off loans). This is an accounting normalization, NOT a sign of improvement — DQ still rising +6bps QoQ.
 - **Source:** [Fannie Mae Multifamily Delinquency Data](https://www.fanniemae.com/research-and-insights/multifamily-data)
 
 **Q2-Q3 2026 Risk:** If employment stress accelerates per LABOR forecasts, renter payment failures cascade to landlords during maturity wall refinancing → forced sales / distressed MF market.
@@ -402,9 +457,12 @@ MF mortgage defaults → Fannie/Freddie losses → Broader housing stress
 | Tier | States | Key Metrics |
 |------|--------|-------------|
 | **CRITICAL** | **FL** (canary), TX, MS, LA, NV | CC 3.2-4.8%, Auto 5.4-6.5%, Foreclosure +38-190% |
+| **CRITICAL** | **MD** (DOGE ground zero) | MBA Q4 DQ +87bps QoQ (#3 national); ICE Nov noncurrent +16.4% YoY (#1 national); Top 5 foreclosure rate; UI claims +19.7% (vs national -14.9%); DOGE → DQ confirmed |
 | **WATCH** | AZ, GA, SC | CC 3.0-3.4%, Auto 5.2-5.5% |
 
 **TX is #2 behind FL — SSB has 19% TX exposure.**
+
+**MD is the DOGE laboratory** — highest federal worker concentration in continental US + zero-buffer housing costs + confirmed DQ acceleration. Full profile: `research/MARYLAND_DEEP_DIVE_2026-02-18.md`
 
 ---
 
@@ -417,8 +475,10 @@ MF mortgage defaults → Fannie/Freddie losses → Broader housing stress
 | Employment Type | Time to First Miss | Cohort Notes |
 |----------------|-------------------|--------------|
 | **Hourly/Gig** | **0-1 month** | No severance, zero buffer |
+| **Federal Contractors (DOGE cuts)** | **0-2 months** | **NEW — FAST PATH** Stop-work orders = immediate income loss; NO back-pay guarantee; 273 contracts/$5.1B terminated in 4 weeks. |
 | **Salaried Private** | **2-5 months** | Severance exhausts Q2-Q3 2026 |
-| **Public Sector** | **3-6 months** | NEW cohort (LAUSD signal) |
+| **Direct Federal Employees (RIF)** | **1-3 months** | CR protection EXPIRED Feb 2026; ~4,000 with pending notices now unblocked; 60-day RIF notice then termination. Less severe than contractors (guaranteed back-pay during notice period). |
+| **Public Sector (state/local)** | **3-6 months** | LAUSD-type cuts; Q3-Q4 conversion |
 | Medical event | 3-9 months | Indirect trigger |
 
 **For 37% (can't cover $400), LEP is ~3 months.** Standard 12-month models are outdated.
@@ -495,7 +555,7 @@ Bank NCOs rise (REGINALD) → Earnings release
 ### Imminent ⚠️
 | # | Prediction | Current | Gap | Timeframe | Conf |
 |---|------------|---------|-----|-----------|------|
-| 16 | **Fannie MF DQ >0.80% (GFC breach)** | **0.75%** | **0.05pp** | **Q2 2026** | **90%** |
+| 16 | **Fannie MF DQ >0.80% (GFC breach)** | **0.74%** | **0.06pp** | **Q2 2026** | **90%** |
 | 12 | Student 90+ DQ >10% | **9.6%** | **0.4pp** | Q1 2026 | **88%** |
 | 11 | CC 90+ DQ >13.74% (GFC) | 12.70% | 1.04pp | Q2 2026 | 75% |
 
@@ -516,18 +576,22 @@ Bank NCOs rise (REGINALD) → Earnings release
 
 | Quarter | Cohort | Trigger | CARL Impact |
 |---------|--------|---------|-------------|
+| **Q1-Q2 2026** | **Federal contractors (DOGE)** | **ACTIVE NOW** — stop-work orders, terminated contracts | **NEW FAST PATH**: CC/Auto misses within 0-2 months; MD/VA/DC metro concentrated |
 | **Q2 2026** | Hourly/gig | Severance exhausts | CC/Auto 30+ DQ spikes |
+| **Q2-Q3 2026** | Direct federal employees (RIF) | CR protection expired, 4K unblocked | Moderate acceleration vs prior Q3-Q4 estimate |
 | **Q3 2026** | Salaried private | 2-5mo conversion | Broad consumer stress |
-| **Q3-Q4** | Public sector | LAUSD-type cuts | NEW cohort (3-6mo lag) |
+| **Q3-Q4** | Public sector (state/local) | LAUSD-type cuts | 3-6mo lag |
 | **Q4 2026+** | All cohorts | → Foreclosures | Housing stress materializes |
 
 **Key Dynamics:**
 - LABOR severance runways exhaust Q2 → UI claims spike
+- **Federal contractor DOGE cohort is NEW and IMMEDIATE** (0-2 month lag)
 - **Hourly/gig converts NOW-Q2** (0-1 month lag)
 - **Salaried private converts Q2-Q3** (2-5 month lag)
 - **Public sector converts Q3-Q4** (3-6 month lag, NEW from LAUSD signal)
 - CC delinquencies rise first (lowest payment priority)
 - Housing/foreclosure lags longest (6-12 months)
+- **Claims data UNRELIABLE through Mar 5-12** (DHS essential workers can't file; retroactive pay normalization lag)
 
 **Q2-Q3 Forecasting Implications:**
 - **Q2:** Expect accelerated 30+ DQ across CC/Auto as hourly/gig cohort converts
@@ -689,10 +753,12 @@ The 17x gap (6.9% vs 0.4%) = K-shape economy visualized. Subprime at record, pri
 |------|-----------|----------------|
 | LABOR | Claims >250K sustained | Conversion accelerates |
 | LABOR | Severance exhausts | Q2-Q3 claims spike |
+| LABOR | **DOGE contract terminations accelerating** | **NEW: Q1-Q2 fast-path; contractors convert 0-2 months; MD/VA/DC = stress concentration** |
+| LABOR | **Federal RIF unblocked (CR expired)** | **NEW: ~4,000 immediate + pipeline; 1-3 month conversion; claims signal unreliable until Mar 5-12** |
 | HENRY | SPX -10%+ | Reverse Wealth Effect (fast path) |
 | REGINALD | Credit tightens | Refinance options disappear |
 
-### ⚠️ DATA QUALITY FLAG — ACTIVE (Feb 17)
+### ⚠️ DATA QUALITY FLAG — ACTIVE (Updated Feb 18)
 
 **Thursday Feb 19-20 Initial Claims: DO NOT INTERPRET AS TREND**
 
@@ -702,7 +768,53 @@ Two simultaneous distortions:
 
 Expected effect: Print will be **artificially low**. Any number below 220K is shutdown/holiday artifact, not a genuine signal.
 
-**Next reliable claims print: Feb 26, 2026.** Monitor that date for shutdown resolution effects (retroactive pay = workers who didn't file, will they spike?) — but even Feb 26 may carry noise if resolution is Feb 23 or later.
+**EXTENDED FLAG (Feb 26 and Mar 5):** DHS shutdown ongoing Day 6 with no resolution. White House rejected Dem compromise. Even Feb 26 print will carry noise.
+
+**LABOR assessment:** Real claims signal delayed until **Mar 5-12 prints**.
+
+⚠️ **SILENT LOSSES NOT IN CLAIMS:** Federal contractor DOGE terminations (273 contracts/$5.1B in 4 weeks) = contractors are often ineligible for UI or don't file. This is a HIDDEN LOSS CHANNEL invisible to claims data. CARL's delinquency indicators (ABS trustee, Dave 28DPD) will detect this faster than UI claims.
+
+**UPDATED (Feb 18 — LABOR cross-agent):** Real claims signal now expected delayed until **Mar 5-12 prints** (LABOR assessment). DHS shutdown extended with no resolution. Federal contractor DOGE terminations create silent job loss not captured by UI (contractors often ineligible or don't file). **CARL delinquency indicators will lead claims by the time claims normalize.**
+
+---
+
+## APPROVED RESEARCH TASKS (Will-Approved 2026-02-18)
+
+### ✅ #1 — ICE First Look January 2026 (MONITORING — DAILY)
+**Status:** PENDING — expected release ~Feb 20-25, 2026
+**Monitor:** https://mortgagetech.ice.com/resources/data-reports (check daily)
+**When it drops:**
+- Update Wright 609K analysis: did 90+ day DQs continue rising in January?
+- Check Maryland noncurrent rate specifically (was +16.4% YoY in Nov — will Jan show 2nd wave?)
+- Key: early DQ reversing (Dec pattern) or re-accelerating (DOGE Jan 2026 wave)?
+- Andy Walden (ICE) Twitter often announces day-of release
+**Added to:** FL.tsv as FL-CARL-MD-001
+
+### 🔴 #2 — Maryland Deep-Dive — COMPLETED 2026-02-18
+**Status:** DONE — see `research/MARYLAND_DEEP_DIVE_2026-02-18.md`
+**Key findings:**
+- Maryland MBA Q4 DQ: +87 bps QoQ — **#3 nationally** (MS, LA, MD)
+- Maryland ICE Nov noncurrent: +16.4% YoY — **#1 nationally**
+- Maryland ATTOM Jan 2026: **Top 5 foreclosure rates** nationally
+- Richmond Fed: MD federal workforce -5.4% (Jan-May 2025); UCFE claims +110.7%
+- Maryland UI claims +19.7% (Jan-Jun 2025) vs national **-14.9%** — OPPOSITE direction
+- DOGE WARN: 13 companies, 2,425+ workers filed in MD/VA (Apr 2025); small businesses excluded
+- Housing cost burden: Recent buyers spending 40% of gross / 56-67% of net income on housing
+- Federal contractor avg salary ~$100K DC area; MD housing costs = structural zero-buffer
+- **DOGE → MD DQ TRANSMISSION IS CONFIRMED IN THE DATA**
+**Added to:** STATE_DIFFUSION.tsv (elevated to CRITICAL), ML.tsv (ML-CARL-MD-001, -002, ML-CARL-DOGE-001)
+
+### 📋 #3 — Federal Contractor Debt Profile (IN PROGRESS)
+**Status:** Partial — initial framework established; deeper SCF/academic research pending
+**Findings so far:**
+- DC area contractor avg salary: $90-102K/year (Salary.com, ZipRecruiter 2025)
+- MD housing cost: PITI+HOA at $3,420-3,620/month = 56-67% of net take-home
+- Typical contractor DTI estimate: 50-60% (mortgage + auto + student loans)
+- "Asset-rich, cash-flow poor" — high home values, little liquid buffer
+- Stop-work order = ZERO back-pay, ZERO severance → 0-2 months to miss payment
+- National household debt-to-GDP at 20-year lows (aggregate), but this masks HIGH-COST-METRO vulnerability
+**Pending:** Survey of Consumer Finances deep-dive for DC metro 60th-80th income percentile households; academic literature on contractor financial fragility
+**Added to:** FL.tsv as FL-CARL-CONT-001 (research task, March 2026)
 
 ---
 
@@ -716,9 +828,15 @@ Expected effect: Print will be **artificially low**. Any number below 220K is sh
 - [x] Google Trends protocol — DONE
 - [x] Full ABS extraction (Discover, Capital One) — DONE (Feb 14)
 - [x] **ICE/Wright 609K deep dive** — DONE (Feb 17): Source confirmed ICE, calendar effect primary driver, geographic/servicer/loan type/negative equity breakdown complete (ML-CARL-MTG-016 through -022)
-- [ ] ICE First Look January 2026 — IMMINENT (expected this week)
+- [x] **MBA Q4 2025 NDS** — DONE (Feb 13, 2026): 4.26% overall, FHA 11.52%, seriously DQ 1.85%; FHA forecast inventory highest since Q1 2020; MBA cited LABOR market as key driver
+- [x] **ATTOM January 2026 Foreclosures** — DONE (Feb 11, 2026): 40,534 filings (+32% YoY); starts +26%; completions +59%; FL/TX/CA top starts; DE/NV/FL worst rates
+- [x] **Fannie Mae Q4 2025 earnings** — DONE (Feb 2026): MF DQ 0.74% (+6bps QoQ, from 0.68%); SF DQ 0.58%; MF allowance reduced $93M (accounting normalization, not improvement signal)
+- [x] **Maryland Deep-Dive** — DONE (Feb 18, 2026): Full consumer credit/foreclosure profile. DOGE transmission CONFIRMED. See research/MARYLAND_DEEP_DIVE_2026-02-18.md
+- [ ] **CVNA Q4 2025 earnings** — PENDING (today, after market close)
+- [ ] **ICE First Look January 2026** — DAILY MONITORING — Expected ~Feb 20-25, 2026 (FL-CARL-MD-001)
 - [ ] MBA Q1 2026 NDS — May 2026
 - [ ] Non-bank servicer liquidity stress (Lakeview/Freedom) — ongoing monitor
+- [ ] **Federal Contractor Debt Profile** — PARTIAL (Feb 18) — Pending SCF deep-dive and academic sources (FL-CARL-CONT-001, March 2026)
 
 ---
 
@@ -776,11 +894,15 @@ Expected effect: Print will be **artificially low**. Any number below 220K is sh
 | ABS 30+ DQ | <3% | 3-5% | 5-8% | >8% |
 | GT opinion (Feb 18) | Issued clean | Qualified | Adverse | Withheld/Resigned |
 
-**Feb 18 Earnings Watch:**
+**Feb 18 Earnings Watch (TODAY — after market close):**
+- ⏳ RESULTS PENDING as of 1:15 PM UTC Feb 18
 - Going concern (GT) opinion = immediate RED
 - Delayed filing = RED
 - ABS extension language in 10-K = key read-through
 - Ally forward flow commentary = REGINALD trigger
+- Options traders pricing 15.52% move; CVNA down ~22-27% from recent highs going into print
+- Consensus: EPS $1.13, Revenue $5.20-5.25B (prior Q3 was $5.65B, beat by 11.1%)
+- **UPDATE STATUS.md AFTER RESULTS RELEASE**
 
 **Cross-agent:** If CVNA ABS extension >50% confirmed, notify REGINALD (Ally $6B exposure) and OTTO (litigation overlap).
 
@@ -819,10 +941,31 @@ Expected effect: Print will be **artificially low**. Any number below 220K is sh
 ## KEY DOCS
 - **workbook/CONSUMER_FINANCE_TRADE_ANALYSIS_2026-02-16.md** — SYF/COF/ALLY/DFS deep dive
 - **workbook/ABS_BASELINE.tsv** — Subprime auto >6% record
-- **workbook/STATE_DIFFUSION.tsv** — State stress rankings
+- **workbook/STATE_DIFFUSION.tsv** — State stress rankings (MD added as CRITICAL)
 - **workbook/BNPL_STRESS.tsv** — 41% late payments
 - **workbook/TRENDS.tsv** — Google Trends protocol
 - **sources/StudentLoan_Data_2026-02.md** — 16.3% worst ever
+- **research/MARYLAND_DEEP_DIVE_2026-02-18.md** — 🔴 NEW: Full MD consumer credit/foreclosure profile; DOGE→DQ transmission confirmed; federal contractor debt vulnerability; 0-2 month transmission evidence
 - Sub-agents: GIG (Dave 28DPD canary)
 
-*Next update: ICE First Look Jan 2026 (~this week), Q1 2026 data or CC 90+ crosses GFC peak or Q1 earnings (April)*
+*Next update: CVNA Q4 earnings (today, after close) → update CVNA section; ICE First Look Jan 2026 (DAILY MONITORING — ~Feb 20-25) → update Wright 609K analysis with Jan data and check MD specifically; Mar 5-12 for first clean claims print; MD DHCD Q3/Q4 2025 report (~March 2026); Fed Contractor Debt Profile SCF research (~March 2026); Q1 2026 earnings (April) for bank/consumer credit confirmation*
+
+---
+
+## FEBRUARY 18, 2026 — DAILY CHECK-IN SUMMARY (UPDATED)
+
+**What changed today:**
+1. ✅ **Fannie MF DQ corrected**: 0.74% (official Q4 2025 earnings), not 0.75%. Gap = 6bps.
+2. ✅ **MBA Q4 2025 confirmed**: 4.26% overall (+27bps); FHA 11.52% (highest since 2021); FHA serious DQ +106bps; MBA explicitly linked to LABOR market disparities.
+3. ✅ **ATTOM Jan 2026 foreclosures**: 40,534 (+32% YoY); completions +59% YoY; 11th consecutive annual increase. DE/NV/FL worst. FL/TX/CA top starts.
+4. ✅ **DOGE contract terminations**: 273 contracts/$5.1B in 4 weeks added as NEW consumer stress vector (fast-path, 0-2 months).
+5. ✅ **Federal RIF unblocked**: CR provision expired; ~4,000 employees with pending notices now active; 1-3 month CARL conversion lag.
+6. ✅ **DHS Shutdown Day 6**: No resolution. White House rejected compromise. Congress returns Feb 23. Contractors NOT getting back-pay.
+7. ✅ **Maryland elevated to CRITICAL** (previously WATCH): FULL DEEP-DIVE COMPLETE. DOGE → DQ transmission CONFIRMED. Maryland is #1 noncurrent YoY increase (ICE Nov), #3 quarterly DQ increase (MBA Q4), top 5 foreclosure rate (ATTOM). UI claims +19.7% vs national -14.9%. 0-2 month transmission structurally confirmed by housing cost burden analysis. See `research/MARYLAND_DEEP_DIVE_2026-02-18.md`.
+8. ✅ **Claims signal delayed to Mar 5-12**: Silent contractor losses invisible to UI; CARL ABS indicators will detect first.
+9. ⏳ **CVNA earnings PENDING**: After market close today. Critical catalyst.
+10. ✅ **Timeline REVISED**: Contractor/federal cohort added as Q1-Q2 fast path (pulled forward from Q3-Q4).
+11. ✅ **Three approved research tasks logged**: ICE First Look (daily monitoring), Maryland Deep-Dive (DONE), Federal Contractor Debt Profile (partial, FL-CARL-CONT-001 for March).
+12. ✅ **STATE_DIFFUSION.tsv updated**: Maryland added as CRITICAL tier entry with full data.
+13. ✅ **FL.tsv updated**: ICE First Look daily monitoring (FL-CARL-MD-001), MD DHCD report watch (FL-CARL-MD-002), contractor debt research (FL-CARL-CONT-001).
+14. ✅ **ML.tsv updated**: ML-CARL-MD-001 (MD DQ data), ML-CARL-MD-002 (housing cost burden), ML-CARL-DOGE-001 (DOGE geography confirmed).
