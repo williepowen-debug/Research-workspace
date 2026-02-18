@@ -1,5 +1,5 @@
 # MARCO STATUS
-**Last Updated:** 2026-02-18 | **Status:** 🔴 RED — DHS Shutdown Day 6 + Negotiations Stalled + RIF Protections Expired + Farm Bill H-2A Markup Feb 23 + MN H-2A -12%
+**Last Updated:** 2026-02-18 (Subagent: Farm Bill + State H-2A Research) | **Status:** 🔴 RED — DHS Shutdown Day 6 + RIF Protections Expired + Farm Bill Markup Feb 23 + National Fear-Withdrawal Pattern CONFIRMED (Partial)
 
 ---
 
@@ -221,28 +221,119 @@ This directly feeds the FL thesis:
 
 ### RP-MAR-8 Series (Feb 4, 2026)
 
-### RP-MAR-8.1: H-2A Visa Pipeline Analysis (UPDATED Feb 18)
+### RP-MAR-8.1: H-2A Visa Pipeline Analysis (UPDATED Feb 18 — Deep Research Session)
 **Key finding:** H-2A is the **leading indicator** for domestic labor scarcity.
 - 48K (2005) → **415K (FY2025 CONFIRMED)** = 8.6x growth (upgrade from 400K+ estimate)
 - **Only 182 domestic applicants out of 415K positions advertised (<0.04%)** — structural dependency confirmed
 - 93% Mexican nationals; Florida leads (14.6% of certifications)
 - Only fills 15-20% of total farm labor need (680K undocumented farmworkers remain uncovered)
 - Year-round industries (dairy, mushrooms, CEA) EXCLUDED = structural gap
-- 43-day govt shutdown (2025) halted processing → supply chain fragility exposed
-- New AEWR methodology reduces wages $4-7/hr (UFW lawsuit pending)
-- **🆕 H-2A REFORM — FARM BILL 2026 RELEASED (Feb 16 NEW):**
-  - House Ag Chairman G.T. Thompson (R-PA) released **Farm, Food, and National Security Act of 2026** on Feb 13-16
-  - **House Ag Committee markup: February 23, 2026** (same day Congress returns from recess)
-  - Bill includes year-round H-2A provisions (dairy, meatpacking), ag credit, conservation programs
-  - Bipartisan support sought — Thompson stripping contentious provisions to ensure passage
-  - National Milk Producers Federation, American Soybean Association, NCFC all support bill
-  - House Judiciary Committee retains separate jurisdiction on worker path-to-legality components
-  - If passes: potentially adds 100K+ workers to H-2A pipeline in 12-18 months
-- **🆕 MINNESOTA H-2A DROP (Star Tribune, Feb 16 NEW):**
+- New AEWR methodology (DOL Oct 2025 Interim Final Rule): tiered occupation-specific wages, reduces employment costs for nearly all H-2A employers
+
+#### 🆕 RP-MAR-10: FARM BILL 2026 DEEP DIVE (Feb 18)
+
+**CRITICAL CORRECTION FROM STATUS.MD:** The Farm, Food, and National Security Act of 2026 does NOT directly include H-2A year-round provisions. The bill is traditional farm bill (commodities, conservation, dairy, SNAP, credit, rural development). H-2A reform is a SEPARATE, YET-TO-BE-RELEASED bill.
+
+**Farm, Food, and National Security Act of 2026** (FFNSA 2026 — Thompson's Farm Bill):
+- Released: Feb 13, 2026 | Markup: Feb 23, 2026
+- 12 titles: commodity programs, conservation, nutrition/SNAP, credit, rural development, dairy programs, export promotion, research
+- **Does NOT include H-2A labor reform** — dairy groups praised dairy programs only, not labor
+- AFBF specifically identified "ag labor crisis" as STILL a "top priority" needing separate action
+- House Judiciary retains jurisdiction on immigration/labor reform
+
+**Thompson's Separate Ag Labor Bill (NOT YET RELEASED as of Feb 18):**
+- Thompson pledged Q1 2026 release — described as a "strong bipartisan document"
+- Will address: AEWR volatility, housing/transportation requirements, administrative delays, year-round access
+- Jurisdictional battle: Thompson wants to route through Ag Committee; Johnson/Judiciary reluctant
+- Ranking Member Craig (D-MN) expects FWMA bipartisan provisions to reappear
+- Rep. Moolenaar (R-MI) pushing H-2A minimum wage FREEZE to attach to labor bill
+
+**Farm Workforce Modernization Act (FWMA, H.R. 3227, 119th Congress) — the template:**
+*This is the closest bill text to what Thompson's labor bill will likely contain:*
+
+**(a) YEAR-ROUND JOB ELIGIBILITY SCOPE:**
+- **20,000 year-round H-2A visas** (3-year duration, vs current 10-month cap)
+- Eligible: dairy, mushrooms, greenhouses, livestock — ANY year-round agricultural operation
+- Cap adjusted annually based on labor metrics; emergency determination possible for severe shortages
+- Current law: only sheep/goat range operations allowed year-round — so this would be a landmark expansion
+
+**(b) WAGE CAP DETAILS (AEWR):**
+- **Maximum annual AEWR increase: 3.25%** (through 2030 in FWMA — expected to carry forward in Thompson bill)
+- **Minimum annual AEWR decrease: 1.5%** (floor/ceiling mechanism)
+- Switches from single regional AEWR to **occupation-specific AEWRs** (higher-skilled = higher wage)
+- DOL Oct 2025 IFR already implements tiered methodology — bill would legislatively cap the escalation
+- Context: Without cap, CA AEWR was $19.75 (2024); WA/OR at $19.25; these are barriers to program use
+
+**(c) UNDOCUMENTED WORKER PATH-TO-LEGALITY:**
+- **Certified Agricultural Worker (CAW) status**: temporary legal status for workers with 180+ days ag work in past 2 years
+- CAW renewable annually with 100+ days/year continued ag work
+- **Green card pathway**: $1,000 fine + continued ag work (4 more years if 10+ years total; 8 more years if less)
+- **H-2A workers**: can apply for green card after 10 years of ag work
+- **Mandatory E-Verify** for all agricultural employers (phased in over time)
+- **KEY JURISDICTIONAL ISSUE**: Legalization is under Judiciary Committee, NOT Ag Committee
+- Thompson said he's "had discussions with Judiciary" — "they're ready to entertain serious work"
+- **RISK**: If routed through Ag, no legalization. If routed through Judiciary, contentious/slower.
+- Thompson previously stripped "contentious provisions" from farm bill — legalization likely NOT in FFNSA 2026
+- Rep. Van Orden (R-WI) wants to ELIMINATE H-2A entirely — touchback legalization alternative
+- Senate's Klobuchar co-sponsoring Bennet bill for year-round migrant ag worker visas (separate track)
+
+**Bottom line for markup Feb 23:** FFNSA 2026 markup will be about commodities/SNAP/dairy/conservation — NOT H-2A reform. The H-2A labor bill is a Q1-Q2 2026 separate release. Watch for Thompson's standalone labor bill, expected weeks after farm bill markup.
+
+#### 🆕 RP-MAR-11: STATE-LEVEL H-2A ANALYSIS — IS MINNESOTA'S -12% NATIONAL? (Feb 18)
+
+**NATIONAL FY2025 PICTURE (Oct 2024 – Sep 2025, USDA/OFLC data):**
+
+| State | FY2025 H-2A Change | Share of Total | Driver |
+|-------|-------------------|----------------|--------|
+| **Florida** | **+9,000** ↑ (outpacing all) | 14.6% | Expanding, despite +10% AEWR |
+| **Georgia** | Declined ↓ | ~8% | Southeast decline pattern |
+| **California** | **-2,000+** ↓ (3rd straight year) | ~8% | Regulatory costs + AEWR ($19.75) — NOT primarily fear |
+| **Washington** | Declined ↓ | ~7% | High AEWR ($19.25) + travel-fear disruption |
+| **North Carolina** | Declined ↓ | ~7% | Southeast decline pattern |
+| All other 38+ states | Increased ↑ | ~63% | Expansion norm |
+
+**THE FEAR-WITHDRAWAL THESIS — WHAT ACTUALLY HAPPENED IN 2025:**
+
+*Two distinct phenomena operating simultaneously:*
+
+**Phenomenon 1: H-2A Certification Declines (Employer-Side)**
+- CA/WA/NC declines started BEFORE Trump enforcement (CA: 3rd consecutive year — Biden era)
+- Primary driver: HIGH AEWR rates, regulatory complexity (disaggregation rule), cost barriers
+- **NOT primarily fear-driven** — these were employers not applying, not workers refusing to come
+- MN's -12% in H1 2025 is the clearest post-Trump signal in H-2A certifications specifically
+
+**Phenomenon 2: Undocumented Worker Fear-Withdrawal (Worker-Side)**
+- **CONFIRMED NATIONALLY** but with important nuances:
+  - **California**: Workers largely DID show up by harvest (Oct 2025 Ag Alert confirmed)
+    - Localized disruptions: Kern County citrus (Jan 2025 BP operation), Oxnard strawberries (Jun 2025)
+    - "Went back to pretty much normal" after raids ended each region
+    - DAMC canceled Ag Labor Survey + DOL canceled NAWS survey — **data gap deliberately created**
+    - WA cherry growers: California workers afraid to drive north — **crops spoiled in WA**
+  - **North Carolina**: Widespread stress/anxiety documented (March 2025) — farmworkers and owners
+  - **Washington**: Cherry spoilage confirmed from California worker travel refusal
+  - **Minnesota**: -12% H1 2025 vs H1 2024 — workers afraid to present for certified H-2A jobs
+  - **National pattern**: "ICE agents sitting at gas station near dairy farm — people didn't want to come to work" (Rep. Craig's constituent report)
+
+**Key finding:** Fear-withdrawal is NOT evenly distributed. It's:
+1. **Concentrated in border-adjacent and high-raid counties** (Kern CA, Ventura CA, border towns)
+2. **Amplified for traveling workers** (interstate movement declining — WA cherries case)
+3. **Temporary but recurring** — returns during and after raid surges, recedes when raids move on
+4. **More severe for dairy/year-round workers** (no legal path, can't take H-2A, most exposed)
+
+**DATA GAP WARNING:** USDA canceled Agricultural Labor Survey (Aug 2025). DOL canceled National Agricultural Workers Survey. **This means we will lose the primary data sources for tracking farmworker fear-withdrawal.** The administration is effectively blinding the data.
+
+**What this means for the thesis:**
+- MN's -12% likely repeating in NC and parts of WA in comparable H1 2025 data (not yet published)
+- CA is a more complex story — high AEWR was already suppressing H-2A before Trump
+- Florida is the outlier — H-2A expanding even as enforcement intensifies (seasonal vs year-round dynamics)
+- The truly vulnerable population is the 680K undocumented farmworkers who have NO legal path — concentrated in CA, FL, TX, WA, NC
+
+**Produce price risk**: Fear-withdrawal creates LATENT price risk — concentrated in spring planting season (now) and summer harvest. If raids surge during planting (Mar-May 2026), CA/WA produce prices could spike faster than H2 2026 (our Prediction 14 target).
+
+- **🆕 MINNESOTA H-2A DROP (Star Tribune, Feb 16 — CONFIRMED):**
   - H-2A visas in MN fell **-12%** in H1 2025 vs H1 2024 (after Trump enforcement tightening)
   - Minnesota farms reporting confirmed labor shortages; workers afraid to present for work
-  - Validates fear-driven withdrawal thesis extends into upper Midwest (not just border states)
-  - Administration's own admission: raids worsen food prices (FERN/The Nation, Feb 12)
+  - Validates fear-driven withdrawal extends into upper Midwest (not just border states)
   - 40% of US farmworkers estimated undocumented; raids compound structural scarcity
 
 ### RP-MAR-8.2: Tier-1 State Fiscal Exposure
@@ -328,6 +419,8 @@ Migration shift (UVL: "balanced") → Tax revenue at risk
 | 12 | **Central America remittances -10% (reversal)** | H2 2026 | 60% |
 | 13 | **Imperial County stays BBB or worse** | Through 2026 | 75% |
 | 14 | **CA produce prices +15%** | H2 2026 | 55% |
+| 20 | **Thompson Ag Labor Bill — year-round H-2A provisions enacted** | Q3 2026 | 45% (jurisdictional hurdle) |
+| 21 | **Planting-season raid surge → produce price spike earlier than H2** | Mar-May 2026 | 40% if raids escalate |
 | 15 | **Mexico remittances full-year -4.6% (2025 confirmed)** | 2025 FINAL | ✅ **CONFIRMED** (-4.6%, worst since 2009) |
 | 16 | **AZ border cities -10% shared revenue** | FY 2026 | 65% |
 | 17 | **FL Citizens exposure >$750B** | Q4 2026 | 60% |
@@ -353,10 +446,11 @@ Migration shift (UVL: "balanced") → Tax revenue at risk
 | ✅ Feb 11 | BLS Employment (Jan 2026) | +130K payrolls (beat expectations); Federal govt -34K; 2025 revised down -898K |
 | ✅ Feb 13 | DHS Appropriations Deadline | Lapsed — shutdown triggered — RIF protections also expired |
 | ✅ Feb 14 | DHS Shutdown Day 1 | E-Verify suspended; ICE/CBP 93%+ operational via OBBBA |
-| ✅ Feb 16 | Farm Bill 2026 Released | Thompson released draft; Ag groups responding |
+| ✅ Feb 16 | Farm Bill 2026 Released | Thompson released draft; Ag groups responding. **NOTE: Does NOT include H-2A year-round reform — that is a SEPARATE bill (Q1-Q2 2026)** |
 | ✅ Feb 17 | Dem counteroffer on ICE | Parties "far apart"; negotiation ongoing |
 | **Feb 18** | **TODAY — Day 6** | TSA/CBP travel disruptions; court ruling on RIFs pending |
-| **Feb 23** | **Congress Returns + Farm Bill Markup** | Earliest shutdown resolution; House Ag Committee begins Farm Bill markup |
+| **Feb 23** | **Congress Returns + Farm Bill Markup** | Earliest shutdown resolution; House Ag Committee begins Farm Bill markup (commodities/SNAP/dairy — NOT H-2A). Thompson's separate ag labor bill NOT yet released. |
+| **Q1-Q2 2026** | **Thompson Standalone Ag Labor Bill** | H-2A year-round reform (dairy/meatpacking), AEWR 3.25% cap, CAW legalization pathway — NOT yet released; Judiciary jurisdiction battle ongoing |
 | **Mar 3** | TSA Partial Paycheck | First financial pain; partial miss |
 | **Mar 6** | NFP (Feb 2026) | Next jobs data; watch for DOGE/RIF signal |
 | **Mar 17** | **TSA Full Paycheck Miss** | Hard walkout trigger — spring break peak (2.5M/day) |
@@ -395,6 +489,32 @@ Migration shift (UVL: "balanced") → Tax revenue at risk
 - **VX.tsv**: 50 vectors (10 BREACHED, 10 CRITICAL)
 - **ML.tsv**: 45 entries
 - **FLOW.tsv**: 12 transmission pathways
-- **Research**: RP-MAR-7 (TX), RP-MAR-8 (H-2A/State/CaliBaja/Remittances), **RP-MAR-9 (Canadian Tourism)**
+- **Research**: RP-MAR-7 (TX), RP-MAR-8 (H-2A/State/CaliBaja/Remittances), **RP-MAR-9 (Canadian Tourism)**, **RP-MAR-10 (Farm Bill 2026 Deep Dive)**, **RP-MAR-11 (State-Level H-2A Analysis)**
 
-*Next update trigger: BLS Feb 7, Statistics Canada Jan data, USDA Farm Labor Q4*
+*Next update trigger: Thompson Ag Labor Bill release (Q1 2026), Statistics Canada Jan data, USDA Farm Labor Q4, Feb 23 Farm Bill Markup outcome*
+
+---
+
+## RP-MAR-10 SUMMARY: FARM BILL 2026 CONFIRMED STRUCTURE
+
+| Question | Answer | Source |
+|----------|--------|--------|
+| Farm Bill (FFNSA 2026) includes H-2A year-round? | **NO** — separate bill, not released | Agriculture.com, AmericanAgNetwork |
+| H-2A year-round scope (FWMA template) | 20,000 cap, 3-yr visas, dairy/meatpacking/all year-round ag | FWMA H.R.3227, MSU Extension |
+| AEWR wage cap | **3.25% max annual increase** (1.5% floor) through 2030 | FWMA, NatAgLawCenter, MSU |
+| Undocumented worker legalization | CAW status (180-day qualifier), green card $1K fine + 4-8 yrs | FWMA Title 1, Congress.gov |
+| Legalization in farm bill? | **NO** — Judiciary jurisdiction; Thompson negotiating separately | AmericanAgNetwork, Politico |
+| Markup Feb 23 covers | Commodities, SNAP, conservation, dairy, credit, rural dev | AFBF, IDFA, NFFC statements |
+
+## RP-MAR-11 SUMMARY: STATE-LEVEL FEAR-WITHDRAWAL VALIDATION
+
+| State | H-2A FY2025 | Fear-Withdrawal 2025 | Verdict |
+|-------|-------------|----------------------|---------|
+| **Minnesota** | -12% H1 2025 | Workers afraid to report for certified jobs | ✅ CONFIRMED |
+| **California** | -2,000+ (3rd yr) | Localized disruptions (Kern, Oxnard) — workers mostly showed up | ⚠️ PARTIAL — high AEWR primary driver |
+| **Washington** | Declined | Cherry crop losses — CA workers refused to travel north | ✅ CONFIRMED (travel effect) |
+| **North Carolina** | Declined | "Overwhelming stress/anxiety" documented Mar 2025 | ⚠️ PROBABLE — hard data pending |
+| **Florida** | +9,000 ↑ | Expanding despite enforcement | ❌ No fear-withdrawal signal (H-2A) |
+| **National** | Mixed | "ICE at gas station = workers don't come" (Rep. Craig) | ✅ Pattern CONFIRMED, varies by location |
+
+**KEY DATA GAP**: USDA canceled Agricultural Labor Survey; DOL canceled National Agricultural Workers Survey. Primary tracking tools being eliminated. Future fear-withdrawal will be harder to quantify.

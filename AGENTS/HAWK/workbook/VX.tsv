@@ -1,0 +1,8 @@
+ID	SITUATION	TIER	DESCRIPTION	TRIGGERS_UP	TRIGGERS_DOWN	MARKET_IMPACT	UPDATED
+VX-HAWK-IRAN-01	Iran Nuclear/Military Crisis	RED	US military buildup active, strike possible within weeks	Talks collapse, strike ordered, carrier in theater	Deal reached, military drawdown	Oil +$20-40, VIX +20-40, UST down, Gold +5%	2026-02-18
+VX-HAWK-IRAN-02	Strait of Hormuz	YELLOW	20% global oil transits; closure risk if Iran conflict	Iran mines strait, attacks tanker, US strike triggers retaliation	De-escalation, naval escort agreement	Oil +$30-50, shipping rates spike, inflation shock	2026-02-18
+VX-HAWK-VEN-01	Venezuela Annexation	ORANGE	Trump admin rhetoric on "taking" Venezuela	Military intervention announced, sanctions tightened	Rhetoric cools, status quo	Oil +$5-10, LatAm risk-off	2026-02-18
+VX-HAWK-TWN-01	Taiwan Strait	YELLOW	Baseline PRC-Taiwan tension	PLA exercises exceed norms, US transit, blockade	Calm period, diplomatic engagement	Oil +$10-20, VIX +30-50, massive risk-off	2026-02-18
+VX-HAWK-UKR-01	Russia-Ukraine	YELLOW	Frozen conflict, Trump peace push	Major offensive, NATO escalation	Ceasefire, peace deal	Energy spike (Europe), VIX +10-20	2026-02-18
+VX-HAWK-TRADE-01	US-China Trade War	YELLOW	Tariffs in place, chip controls active	New tariffs, rare earth controls, retaliation	Tariff rollback, deal progress	Sector rotation, CNY move	2026-02-18
+VX-HAWK-TRADE-02	Broad Tariff Policy	YELLOW	Section 301, USMCA, other trade actions	New country tariffs, auto tariffs	Trade deals, exemptions	Sector-specific	2026-02-18
