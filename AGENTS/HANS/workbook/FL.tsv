@@ -1,4 +1,11 @@
 Date	Event	Expected_Impact	Agent_Relevance	Status	Notes
+2026-02-20	HCOB Flash Germany PMI (Manufacturing + Composite)	CRITICAL — IWM put thesis trigger	HIGH	PENDING	08:30 UTC / 09:30 CET / 03:30 ET | Mfg threshold: <48.0 = ADD puts; <47.0 = aggressive add
+2026-02-20	HCOB Flash France PMI (08:15 UTC)	Warm-up signal for German print	MEDIUM	PENDING	15 minutes before Germany; France weakness = German weakness likely
+2026-02-20	HCOB Flash Eurozone PMI (09:00 UTC)	Eurozone composite confirmation	MEDIUM	PENDING	30 min after Germany; confirms/denies German signal
+2026-02-20	S&P Global Flash US PMI (14:45 UTC)	Same-day US manufacturing signal	MEDIUM	PENDING	9:45 AM ET; if weak with Germany = doubles thesis narrative
+2026-02-23	German Federal Election	CDU likely wins; fiscal boost potential	HIGH	PENDING	May front-run PMI optimism before print; fiscal boost = 3-6m lag before real impact
+2026-03-02	US ISM Manufacturing (Feb 2026)	Thesis confirmation / denial event	HIGH	PENDING	Should show tariff impulse fading; target: 48-50 per RP-HANS-8
+2026-03-02	HCOB Germany Final PMI (Feb 2026)	Confirmation of flash reading	MEDIUM	PENDING	Watch for revision vs flash
 2026-02-18	TIC Data Release	European holdings update (UK, Ireland, Lux, Belgium)	HIGH	PENDING	Monthly holdings data
 2026-03-06	ECB Rate Decision	Policy divergence signal	MEDIUM	PENDING	Expected 25bp cut
 2026-03-20	BoE Rate Decision	UK rates / GBP	MEDIUM	PENDING	Hold expected

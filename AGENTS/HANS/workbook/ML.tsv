@@ -361,3 +361,19 @@ ML-HANS-356	2026-02-18	German_IP_Transmission	Thesis Q2-Q3 2026 stress VALIDATED
 ML-HANS-357	2026-02-18	German_IP_Transmission	Historical analogue: 2018 tariff front-running spike (ISM 61.3 Aug 2018) → reversal to 47.8 by early 2020; 1-2Q lag	Historical analysis	RP-HANS-8
 ML-HANS-358	2026-02-18	German_IP_Transmission	German full year 2025 IP: -1.1%; energy-intensive branches -2.6% YoY in Dec, down 17.8% vs 2021 (cumulative deindustrialization)	Destatis Feb 2026	RP-HANS-8
 ML-HANS-359	2026-02-18	German_IP_Transmission	Key watchpoint: German February 2026 PMI flash (~Feb 21) and final (~Mar 4); if < 48.0 = ISM March sub-49 expected	Analysis	RP-HANS-8
+ML-HANS-360	2026-02-18	Flash_PMI_Playbook	HCOB Flash Germany PMI release: Friday Feb 20 2026 at 08:30 UTC / 09:30 CET / 03:30 AM ET	S&P Global PMI Calendar confirmed	RP-HANS-9
+ML-HANS-361	2026-02-18	Flash_PMI_Playbook	January 2026 flash PMI beat: Manufacturing 48.7 vs consensus 47.8; final revised to 49.1 (3-month high)	S&P Global / Trading Economics	RP-HANS-9
+ML-HANS-362	2026-02-18	Flash_PMI_Playbook	January 2026 final PMI: Composite 52.1 (vs flash 52.5); Services 52.4 (vs flash 53.3) — both slight misses	Trading Economics Feb 2026	RP-HANS-9
+ML-HANS-363	2026-02-18	Flash_PMI_Playbook	Feb 2026 consensus estimate (unofficial): Manufacturing ~49.0-49.5; Composite ~52.0-52.5; no formal Bloomberg yet	TE model + RP-HANS-9 analysis	RP-HANS-9
+ML-HANS-364	2026-02-18	Flash_PMI_Playbook	IWM put ADD trigger: Germany manufacturing flash PMI < 48.0 (below Jan flash 48.7)	Trade thesis	RP-HANS-9
+ML-HANS-365	2026-02-18	Flash_PMI_Playbook	Aggressive add trigger: Germany manufacturing < 47.0 AND composite < 51.0 (below Dec 2025 level)	Trade thesis	RP-HANS-9
+ML-HANS-366	2026-02-18	Flash_PMI_Playbook	Hold / no add: PMI 48.0-49.9 — thesis intact from Dec 47.0 print; wait for March ISM confirmation	Trade thesis	RP-HANS-9
+ML-HANS-367	2026-02-18	Flash_PMI_Playbook	Trim / reassess: Manufacturing > 50.0 — thesis DELAYED, not invalidated; reduce size, recalibrate	Trade thesis	RP-HANS-9
+ML-HANS-368	2026-02-18	Flash_PMI_Playbook	Immediate market reaction on <48.0: EUR/USD -0.3 to -0.7%; DAX futures -0.5 to -1.5%; IWM -0.5 to -1.5%; UST 10Y -2-5bps	Historical PMI surprise analysis	RP-HANS-9
+ML-HANS-369	2026-02-18	Flash_PMI_Playbook	Other positioning on <48.0: Long TLT (duration bid); EWG puts (Germany ETF); UVXY calls; short XLI; EUR/USD puts	Trade thesis	RP-HANS-9
+ML-HANS-370	2026-02-18	Flash_PMI_Playbook	Historical: German PMI sub-48 → US ISM sub-50 in 3-5 months. 2022: sub-48 Jun → ISM 49.0 Nov. 2019: sub-48 Feb → ISM 49.1 Aug	Historical analysis	RP-HANS-9
+ML-HANS-371	2026-02-18	Flash_PMI_Playbook	France PMI at 08:15 UTC (15 min before Germany) — use as warm-up signal; France weak = Germany likely weak	S&P PMI calendar	RP-HANS-9
+ML-HANS-372	2026-02-18	Flash_PMI_Playbook	S&P Global Flash US PMI at 14:45 UTC (09:45 AM ET) same day — if also weak with Germany, doubles the narrative pressure	S&P PMI calendar	RP-HANS-9
+ML-HANS-373	2026-02-18	Flash_PMI_Playbook	Key sub-indices to watch: New Orders (leading), Output (was 51.4 in Jan), Employment (structural decline), Business Expectations	RP-HANS-9 analysis	RP-HANS-9
+ML-HANS-374	2026-02-18	Flash_PMI_Playbook	Risk to thesis (upside): German election fiscal boost (CDU likely Feb 23); China demand surge; EU tariff exemptions	RP-HANS-9 risk analysis	RP-HANS-9
+ML-HANS-375	2026-02-18	Flash_PMI_Playbook	Optimal put expiry: April 2026 — captures March ISM sub-50 if thesis plays out; March expiry too tight	Trade sizing recommendation	RP-HANS-9

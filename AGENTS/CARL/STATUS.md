@@ -3,6 +3,16 @@
 
 ---
 
+## ACTIVE POSITIONS
+
+| Position | Expiry | Entry Thesis | Exit Triggers |
+|----------|--------|--------------|---------------|
+| **HYG puts (Jun)** | Jun 2026 | HY OAS at 281 (2007 lows) while consumer stress at GFC levels. Bifurcation collapse = HY reprices | HY OAS >350 sustained, or position doubles |
+
+**Position Rationale:** Credit markets pricing soft landing (OAS near 2007 lows) while consumer stress indicators (CC 90+ 12.7%, Fannie MF 0.74%) approach GFC peaks. When markets acknowledge reality, HY spreads blow out. HYG is the vehicle.
+
+---
+
 ## THESIS
 
 **"Beneath the Ice" — 60% of America is structurally fragile, employment is the trigger.**
@@ -951,15 +961,27 @@ Expected effect: Print will be **artificially low**. Any number below 220K is sh
 | ABS 30+ DQ | <3% | 3-5% | 5-8% | >8% |
 | GT opinion (Feb 18) | Issued clean | Qualified | Adverse | Withheld/Resigned |
 
-**Feb 18 Earnings Watch (TODAY — after market close):**
-- ⏳ RESULTS PENDING as of 1:15 PM UTC Feb 18
-- Going concern (GT) opinion = immediate RED
-- Delayed filing = RED
-- ABS extension language in 10-K = key read-through
-- Ally forward flow commentary = REGINALD trigger
-- Options traders pricing 15.52% move; CVNA down ~22-27% from recent highs going into print
-- Consensus: EPS $1.13, Revenue $5.20-5.25B (prior Q3 was $5.65B, beat by 11.1%)
-- **UPDATE STATUS.md AFTER RESULTS RELEASE**
+**Feb 18 Earnings RESULTS (After-hours):**
+
+| Metric | Actual | Expected | Result |
+|--------|--------|----------|--------|
+| Revenue | $5.60B | $5.27B | ✅ BEAT |
+| Adj EBITDA | $511M | $535.7M | ❌ MISS |
+| EBITDA Margin | 10.1% | 10.4% | ❌ MISS |
+| Units Sold | 163,522 | ~156K | ✅ BEAT |
+| GPU | $3,076 | — | ❌ Down $255 QoQ |
+
+**Stock:** 🔴 **DOWN ~24% after-hours**
+
+**Same-day Gotham City NEW Report:**
+- Bridgecrest (not CVNA) is actual lienholder on cars CVNA sold
+- 34 new VINs where Bridgecrest holds title but CVNA sold vehicle
+- CVNA selling cars without proper title, issuing temp plates from other states
+- Gain on Loan Sales tied to related party DriveTime/Bridgecrest
+
+**Thesis Validation:** GPU compression + margin miss + Gotham title fraud allegations. The thesis was RIGHT. 
+**Position Miss:** We closed CVNA put spread ($310P/$290P Feb 27) for ~$86 loss hours before this drop.
+**Lesson:** Sub-agent timing call didn't have full context on potential same-day Gotham report.
 
 **Cross-agent:** If CVNA ABS extension >50% confirmed, notify REGINALD (Ally $6B exposure) and OTTO (litigation overlap).
 
@@ -1006,6 +1028,19 @@ Expected effect: Print will be **artificially low**. Any number below 220K is sh
 - Sub-agents: GIG (Dave 28DPD canary)
 
 *Next update: CVNA Q4 earnings (today, after close) → update CVNA section; ICE First Look Jan 2026 (DAILY MONITORING — ~Feb 20-25) → update Wright 609K analysis with Jan data and check MD specifically; Mar 5-12 for first clean claims print; MD DHCD Q3/Q4 2025 report (~March 2026); Fed Contractor Debt Profile SCF research (~March 2026); Q1 2026 earnings (April) for bank/consumer credit confirmation*
+
+---
+
+## CONSUMER EARNINGS — FEB 18, 2026 (K-Shape Evidence)
+
+| Company | Key Result | K-Shape Signal |
+|---------|------------|----------------|
+| **DASH** | EPS $0.48 miss, Rev $3.96B miss, GOV guidance $31.4B beats, $5B buyback | 🟡 Guidance beat suggests delivery demand holding |
+| **BKNG** | Rev $6.3B BEAT ($5.42B exp), EPS $48.80 beat, room nights +9% YoY, 25:1 split | 🟢 Premium travel STRONG |
+| **EBAY** | EPS $1.41 beat, Rev $2.9B beat, guidance $3.025B ahead | 🟢 Value-seeking consumers active |
+| **WING** | EPS $1.00 beat ($0.85 exp), Rev miss, **SSS -5.8% Q4** | 🔴 **Consumer stress signal** — restaurant traffic collapse |
+
+**K-Shape Reading:** BKNG (high-end) crushing it. WING (mid-market QSR) collapsing SSS -5.8%. Same pattern as Wendy's -11.3% vs McDonald's +6.8%. Premium consumers fine, mid-market stressed.
 
 ---
 

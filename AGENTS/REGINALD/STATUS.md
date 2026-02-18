@@ -323,6 +323,17 @@ Bank credit losses (REGINALD)
 | 4 | **CFG** | 9 | Fund finance ($10-11B) + Consumer 18.7% + FHLB 5.1% |
 | 5 | **ZION** | 9 | **$5.78B total muni exposure** (hidden) + NDFI + $524M unfunded |
 
+### 🔴 Office CMBS Deep Dive — Highest CRE/Equity Banks (Feb 18, 2026)
+
+| Bank | CRE/Equity Ratio | Primary Risk |
+|------|------------------|--------------|
+| **Flagstar** | **481%** | Extreme concentration |
+| **Bank OZK** | **465%** | Construction lending |
+| **Zions** | **376%** | Multi-channel + muni hidden exposure |
+| **Valley National (VLY)** | ~300% est | NYC/NJ MF heavy |
+
+**Why this matters:** CRE/Equity ratio shows how many times over a bank's equity is exposed to CRE. If CRE values drop 20%, a bank at 400% CRE/Equity loses 80% of equity (before reserves). These are the banks that can't survive mark-to-market.
+
 ### Key Pattern: Multi-Channel > Single-Channel
 
 Pure plays (EGBN, SBCF, IBOC) are binary bets. Multi-channel names (WAL, VLY, CFG, ZION) have multiple paths to stress — don't need ALL to break, just 2-3 to correlate.
