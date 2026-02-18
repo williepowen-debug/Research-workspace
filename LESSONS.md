@@ -73,6 +73,24 @@ Categories: `[Analysis]` `[Communication]` `[Execution]` `[Verification]` `[Memo
 
 **Additional rule:** When user repeatedly asks "are you sure?" — that's signal. Pause and re-examine assumptions instead of re-confirming.
 
+### 2026-02-18 — [Process]
+**Mistake:** OTTO had no procedure for monitoring short-seller reports after initial read. Gotham/Hindenburg reports were saved but never tracked for catalyst timing.
+**Pattern:** One-time research without follow-up monitoring. "Read and file" instead of "read, track, act."
+**Rule:** Short-seller reports need active monitoring:
+1. Log to agent's Trade Log immediately
+2. Set calendar reminder for stated catalyst dates
+3. Add to FL.tsv as active event
+4. Monitor for updates/new releases
+
+### 2026-02-18 — [Memory]
+**Mistake:** VX_HISTORY.tsv abandoned across almost all agents. VX.tsv has duplicate IDs, schema drift, conflicting statuses.
+**Pattern:** Workbook infrastructure created but not maintained. Schema violations accumulate silently.
+**Rule:** Workbook hygiene requires periodic audits:
+1. VX.tsv: IDs must be unique, schema columns must match header
+2. FL.tsv: TBD dates must be filled when events complete
+3. VX_HISTORY: Either maintain it or deprecate it explicitly
+4. Quarterly audit of all agent workbooks for integrity
+
 ---
 
 ## Pending Review
