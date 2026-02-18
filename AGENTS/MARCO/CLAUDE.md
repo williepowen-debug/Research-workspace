@@ -14,7 +14,7 @@ Read these files in parallel:
 1. `MARCO_SKELETON.md` — Core methodology and current state
 2. `RESEARCH_STATUS.md` — CHECK EXHAUSTED SECTION BEFORE SUGGESTING ANY RESEARCH
 3. Most recent `handoffs/MARCO_NNN_HANDOFF.md` file — Last session summary
-4. Check `C:/Projects/AGENT_COMMS/MARCO_INBOX/` — Any messages from other agents
+4. Check for any messages from PROME or other agents
 
 ### Step 2: Load Workbook (as needed)
 The workbook TSVs in `workbook/` contain:
@@ -44,10 +44,10 @@ After loading, report:
 Before ending a session:
 1. Ensure all observations logged to workbook/ML.tsv
 2. Check FL entries — retire any with passed dates
-3. When retiring FL entries, record outcome (FIRED/DID_NOT_FIRE/PARTIAL) and update `C:/Projects/META/FL_CALIBRATION.md`
+3. When retiring FL entries, record outcome (FIRED/DID_NOT_FIRE/PARTIAL)
 4. Create handoff file: `handoffs/MARCO_NNN_HANDOFF.md` (3-digit session number)
 5. Update MARCO_SKELETON.md if needed
-6. Check if any signals should go to CARL inbox
+6. Flag any cross-agent signals for PROME
 
 ---
 
@@ -58,8 +58,7 @@ Population movement disruptions create localized economic stress that compounds 
 
 ### Peer Agent
 **CARL** (Consumer Stress) — Florida is primary intersection
-- CARL inbox: `C:/Projects/AGENT_COMMS/CARL_INBOX/`
-- MARCO inbox: `C:/Projects/AGENT_COMMS/MARCO_INBOX/`
+- Cross-agent signals coordinated via PROME
 
 ### Domain Boundaries
 - **MARCO owns:** Population MOVEMENT (tourism, migration, workforce displacement)
@@ -84,22 +83,23 @@ Population movement disruptions create localized economic stress that compounds 
 ## FILE LOCATIONS
 
 ```
-C:/Projects/MARCO/
+/home/moltbot/.openclaw/workspace/AGENTS/MARCO/
 ├── CLAUDE.md                              # This file
 ├── MARCO_SKELETON.md                      # Core methodology
+├── STATUS.md                              # Current state (primary memory)
+├── TRADE.md                               # Trade ideas
 ├── handoffs/
 │   └── MARCO_NNN_HANDOFF.md               # Session handoffs (3-digit)
 ├── workbook/
-│   ├── VX.tsv                             # Vectors
-│   ├── ML.tsv                             # Master Log
+│   ├── VX.tsv                             # Vectors (47)
+│   ├── ML.tsv                             # Master Log (61)
 │   ├── FL.tsv                             # Future Log
-│   └── FLOW.tsv                           # Flows
+│   ├── FLOW.tsv                           # Transmission pathways
+│   └── VX_HISTORY.tsv                     # (deprecated — sparse)
 └── research/
     ├── prompts/                           # Research prompts
     └── outputs/                           # Research results
 
-C:/Projects/AGENT_COMMS/
-├── MARCO_INBOX/                           # Messages TO Marco
-├── CARL_INBOX/                            # Messages TO Carl
-└── SHARED_INTEL/                          # Cross-agent intel
+Agent workspace (for agent-specific files):
+/home/moltbot/.openclaw/agents/marco/workspace/
 ```

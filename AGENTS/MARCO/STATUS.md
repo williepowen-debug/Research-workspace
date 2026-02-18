@@ -486,8 +486,8 @@ Migration shift (UVL: "balanced") → Tax revenue at risk
 ---
 
 ## WORKBOOK REFS
-- **VX.tsv**: 50 vectors (10 BREACHED, 10 CRITICAL)
-- **ML.tsv**: 45 entries
+- **VX.tsv**: 47 vectors (10 BREACHED, 10 CRITICAL)
+- **ML.tsv**: 61 entries
 - **FLOW.tsv**: 12 transmission pathways
 - **Research**: RP-MAR-7 (TX), RP-MAR-8 (H-2A/State/CaliBaja/Remittances), **RP-MAR-9 (Canadian Tourism)**, **RP-MAR-10 (Farm Bill 2026 Deep Dive)**, **RP-MAR-11 (State-Level H-2A Analysis)**
 
