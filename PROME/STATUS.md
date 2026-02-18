@@ -1,5 +1,5 @@
 # PROME STATUS.md
-**Updated:** 2026-02-18 18:15 UTC
+**Updated:** 2026-02-18 21:56 UTC
 
 ---
 
@@ -68,6 +68,32 @@
 | **Late Mar** | Baltic ice breaks — exit TNP | LIQUID |
 | **April** | Bank earnings (KRE catalyst) | REGINALD |
 | **Apr-May** | 140M barrel flush | LIQUID |
+
+---
+
+## Agent Position Documentation (Feb 18 21:56 UTC)
+
+**Systematic update completed across all agents:**
+
+| Agent | Update | Position Tracked |
+|-------|--------|------------------|
+| **LABOR** | ✅ | KELYA puts (Jun) — staffing leads by 3-6 months |
+| **CARL** | ✅ | HYG puts (Jun) — bifurcation collapse thesis |
+| **CARL** | ✅ | CVNA earnings results + Gotham report added |
+| **CARL** | ✅ | Consumer earnings K-shape (DASH, BKNG, EBAY, WING) |
+| **HENRY** | ✅ | IWM puts (Jun) — fake ISM, German PMI lead |
+| **LIQUID** | ✅ | TEN calls (Jun $30) — 14 ice-class vessels verified |
+| **REGINALD** | ✅ | KRE/SSB puts already documented + CRE/Equity ratios |
+| **OTTO** | ✅ | CVNA thesis validated (down 24%), timing miss documented |
+| **SAM** | ✅ | Already comprehensive for Feb 19 catalyst |
+| **HANS** | ✅ | German PMI playbook already complete (Thursday) |
+| **HAWK** | ✅ | Iran/Ukraine current |
+| **ZHAO** | ✅ | Research complete |
+| **MARCO** | ✅ | Current |
+| **DARWIN** | 🟡 | Initializing |
+| **RED** | 🟡 | Feb 13 — could use refresh |
+
+**CVNA LESSON:** Thesis was right (GPU compression, margin miss, Gotham same-day). We closed for $86 loss, then it dropped 24%. Sub-agent timing call lacked context on potential Gotham releases. Key takeaway: save short-seller report patterns and release timing to agent domain folders.
 
 ---
 

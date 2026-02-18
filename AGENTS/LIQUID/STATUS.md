@@ -100,6 +100,18 @@
 
 ---
 
+## ACTIVE POSITIONS
+
+| Position | Expiry | Entry Thesis | Exit Triggers |
+|----------|--------|--------------|---------------|
+| **TEN calls (Jun $30)** | Jun 2026 | TEN = world's largest ice-class fleet (14 vessels: 6x 1A, 8x 1B from tenn.gr). Baltic ice worst in 15 years. Ice premium persists until late March. | Ice breaks (late March) → exit. Target 50-100% gain. |
+
+**Position Rationale:** TEN over STNG because TEN has DIRECT ice-class exposure (14 verified vessels on tenn.gr). STNG is product tankers. Baltic ice + Black Sea war risk = Russia's two export corridors squeezed. 140M barrels in floating storage. Ice premium accrues to TEN specifically.
+
+**Exit Strategy:** When Baltic ice breaks (late March), exit TEN and transition to crude shorts (140M barrel flush hits April-May).
+
+---
+
 ## THESIS
 
 **The plumbing is fragile. BOTH buffers are gone.**

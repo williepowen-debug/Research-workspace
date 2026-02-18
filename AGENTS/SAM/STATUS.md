@@ -1,8 +1,8 @@
 # SAM STATUS
 
-**Signal Status:** 🔴 RED | **Last Updated:** 2026-02-18 17:00 UTC
+**Signal Status:** 🔴 RED | **Last Updated:** 2026-02-18 19:45 UTC
 
-**Summary:** BOJ AT 0.75% CEILING + Feb 19 Dual Catalyst T-2 Days + JGB Rally Active
+**Summary:** BOJ AT 0.75% CEILING + Feb 19 Dual Catalyst T-1 DAY + FULL PLAYBOOK READY
 
 **⚠️ CRITICAL DATA CORRECTIONS (Feb 17 review):**
 - BOJ rate was WRONG in STATUS.md: 0.25% → **0.75%** (hiked December 2025, held Jan 23-24)
@@ -410,72 +410,222 @@ Japan is in a **fiscal doom loop** (acknowledged as "credible tail risk" by Alli
 
 ---
 
-## 🚨 FEB 19 PLAYBOOK — T-2 DAYS
+## 🚨 FEB 19 PLAYBOOK — T-1 DAY (FINAL VERSION)
 
-### EVENT 1: 20Y JGB Auction
-**When:** ~10:20 AM Tokyo time (01:20 AM UTC / 8:20 PM ET Feb 18)
-**Results published:** ~10:35 AM Tokyo (01:35 AM UTC)
-**Source:** MOF website (mof.go.jp/english/jgbs/auction), Bloomberg, Reuters
+### EVENT 1: 20Y JGB Auction — EXACT TIMING (FROM MOF SCHEDULE)
+
+**⏰ CONFIRMED TIMES (Japan Standard Time = UTC+9):**
+| Time | Event | UTC | ET (Feb 18) |
+|------|-------|-----|-------------|
+| 10:30 AM JST | Bidding opens (auction notice) | 01:30 AM | 8:30 PM |
+| 12:35 PM JST | **RESULTS PUBLISHED ← TRADE TRIGGER** | 03:35 AM | **10:35 PM** |
+| 15:15 PM JST | Full detail (special participants) | 06:15 AM | 1:15 AM |
+
+**Source:** MOF weekly schedule confirmed; MOF results at mof.go.jp/english/policy/jgbs/auction/calendar/eresul/
 
 **Context going in:**
-- Jan 20: WORST 20Y demand since 1987 (BTC collapsed)
+- **Jan 20 official data (MOF):** Competitive bids 1,939.9B / Total accepted 799.5B → BTC = **2.43x**, tail = **0.25 yen (21bp)** — the TAIL is what made it "worst since 1987", not BTC alone
+- **Jan 20 yield at auction:** 3.274% (lowest accepted), avg 3.253%
+- **Current 20Y yield (Feb 18):** ~2.965% — **31bp LOWER than Jan 20 auction levels**
+- **Feb 19 offering:** ~¥800 billion (reopening of Jan 2026 issue, same bond)
 - Feb 5 30Y: PASSED strongly (BTC 3.64x, tail 0.8bp)
-- Feb 17 5Y: Passed (BTC 3.1, below avg 3.48 — "steady")
-- JGB yields have rallied sharply (10Y: 2.29% → 2.16%)
-- Takaichi "responsible fiscal" pledge reducing fiscal risk premium
-- Life insurers said "attractive opportunities" at 3.6%+ (but 20Y now ~3.05%)
-- Momentum: POSITIVE vs January
+- Feb 17 5Y: Passed (BTC 3.10, below 3.48 avg — "steady")
+- JGB yields rallied: 10Y 2.29%→2.135%, 20Y 3.19%→2.965%
+- Takaichi "responsible fiscal" pledge triggered rally (short-term relief only)
 
-**Thresholds (revised for current rally context):**
+**🚨 THE CRITICAL TRAP:**
+Life insurers said they find JGBs "attractive" at **3.6%+** yields. Current 20Y at **2.965%** is **63bp BELOW** that threshold. The yield rally has removed the structural buyer return. We are conducting this auction at levels that may NOT attract life insurer bids. This is the hidden risk: the rally looks like demand, but may be short-covering.
+
+**Thresholds for Feb 19 (calibrated to current 2.965% yield level):**
 
 | Result | BTC | Tail | Implication | Action |
 |--------|-----|------|-------------|--------|
-| 🟢 PASS | >3.0x | <2bp | Fiscal stress abating, Jan was one-off | Monitor only |
-| 🟡 WEAK | 2.5-3.0x | 2-4bp | Demand cautious despite rally | Flag to PROME |
-| 🟠 STRESS | 2.0-2.5x | 4-6bp | Life insurers still retreating | Alert LIQUID |
-| 🔴 FAIL | <2.0x | >6bp | Crisis signal — doom loop risk | PATH D TRIGGER condition met |
+| 🟢 PASS | >2.8x | <0.15 yen | Takaichi pledge holding, relief rally real | Monitor only |
+| 🟡 WEAK | 2.2-2.8x | 0.15-0.25 yen | Structural demand absent at these yields | Flag to PROME |
+| 🟠 STRESS | 1.8-2.2x | 0.25-0.40 yen | Life insurers NOT returning despite "pledge" | Alert LIQUID |
+| 🔴 FAIL | <2.0x + wide tail | >0.40 yen | Crisis signal = Jan 20 repeat or worse | PATH D TRIGGER |
 
-**Note on thresholds:** The STATUS.md thresholds of <2.5x=fail need updating given rally context. Life insurers said "attractive" at 3.6%+ — current 20Y at ~3.05% may NOT attract them as strongly. This creates a subtle trap: yields have rallied down to levels that might not bring structural buyers back. **Watch tail more than BTC** — a wide tail with decent BTC = smart money leaving while passive bids fill.
+**Primary watch metric:** The TAIL (not BTC). Jan 20 tail was 0.25 yen. If Feb 19 tail is >0.25 yen at LOWER yield, structural buyer exodus is confirmed.
 
-### EVENT 2: Electronics Shunto Demand Submission (JEIU)
-**When:** During Japan business hours Feb 19 (overnight ET)
-**Nature:** ⚠️ DEMAND submission, NOT settlement. Company responses due mid-March.
-**Source:** Jiji Press, Nikkei, Rengo announcements
+### EVENT 2: Electronics Shunto — WHAT ACTUALLY HAPPENS ON FEB 19
 
-**What to watch on Feb 19:**
-- Confirm ≥¥18,000 demand submitted (already telegraphed — this is the record ask)
-- Watch for any major company (Sony, Hitachi, Panasonic, NEC) making **same-day acceptance** signals
-- Watch for company comments like "positive response" or "will consider in full"
-- Any hint of early negotiation acceptance = STRONG pre-signal
+**⚠️ CRITICAL CLARIFICATION:** Feb 19 is NOT a single announcement event.
+
+**What happens:**
+- **Deadline:** Each individual electronics union submits its formal demand to its company
+- **¥18,000 demand ALREADY CONFIRMED:** JEIU central committee adopted this Jan 27-28
+- **Company responses:** Mid-March (~March 12-13, "yamaba" day)
+- **Settlement known:** Late March first tally; Apr 23-24 BOJ uses it
+
+**What to watch on Feb 19 (business hours, overnight ET):**
+- Jiji Press/Nikkei confirming submissions filed (routine, expected)
+- Any major company making **same-day positive response signal** (rare but possible)
+- Watch for any union with demand **>¥18,000** (upside surprise)
+- Watch for any union with demand **<¥18,000** (downside surprise — very unlikely)
+
+**¥18,000 in percentage terms:**
+
+| Base Wage | ¥18,000 / Month = | vs 2025 (¥17,000) |
+|-----------|-------------------|-------------------|
+| ¥480,000 | **3.75%** base-up | +5.9% YoY escalation |
+| ¥500,000 | **3.60%** base-up | +5.9% YoY escalation |
+| ¥430,000 | **4.19%** base-up | +5.9% YoY escalation |
+
+**Total wage increase** (base-up + regular ~2% increment) = approx **5.6-6.0%** if full demand met
+**BOJ threshold:** ≥3.5% base-up = STRONG signal for summer hike
+**2025 result for reference:** ¥17,000 demand → Hitachi/NEC granted full demand → Hitachi confirmed 6.2% total increase → Rengo average 5.25%
 
 **Signal interpretation:**
 | Signal | Implication |
 |--------|-------------|
-| ¥18,000+ demand submitted + company positive response | STRONG → BOJ hike pressure |
-| ¥18,000+ demand submitted, companies silent (normal) | Direction = STRONG, wait for mid-March |
-| <¥18,000 demand (surprise downward revision) | WEAK signal — unexpected |
+| ¥18,000+ demands filed + zero company objections | Direction CONFIRMED STRONG → BOJ hike path |
+| Any company pre-signals "will discuss positively" | Very early but bullish |
+| Any union below ¥18,000 (surprise revision) | 🔴 Weakness — BOJ pause risk |
+| Demands filed silently (most likely) | Wait for mid-March settlement |
 
-**Reality check:** The "≥3.5% settlement" threshold won't be confirmed until late March. Feb 19 gives us DIRECTION not magnitude. Current demand (¥18,000) = record = points strongly toward ≥3.5%.
+**Reality check:** Feb 19 is a DIRECTION indicator, not magnitude. The real print is mid-March. But the record demand (¥18,000) itself is already a bullish signal; it's already priced by informed participants.
 
 ### PATH D TRIGGER: BOTH FIRE
-**Condition:** Shunto signals STRONG (≥¥18,000 submitted, positive early company signals) **AND** 20Y BTC <2.0x
-**Probability:** ~10-15% on Feb 19 specifically (main Shunto signal delayed to March)
-**Note:** Given JGB rally, auction failure is LESS likely than pre-rally. Path D more likely March-April.
 
-### IF PATH D TRIGGERS — TRANSMISSION SPEED
-From Aug 2024 precedent:
-- **Hours 0-2:** Yen move triggers margin calls on carry trades
-- **Hours 2-8:** Asian market cascade (Nikkei, Hang Seng)
-- **Hours 8-16:** UST selling accelerates as Japan repatriates
-- **Hours 16-24:** VIX spikes (Aug 2024: VIX 65), S&P -3%+ intraday
+**Condition:** 20Y BTC <2.0x AND tail >0.40 yen **AND** Shunto ≥¥18,000 confirmed (demand signal only)
+**Probability on Feb 19:** ~8-12% (auction failure less likely given yield rally; Shunto signal is already baked in)
+**Full Path D probability:** More likely at late March settlement + April BOJ meeting
 
-**REVISED NEXT INFLECTION THRESHOLDS:**
+### IF PATH D TRIGGERS — TRANSMISSION SPEED (AUG 2024 TEMPLATE)
 
-| Result | BTC | Tail | Implication |
-|--------|-----|------|-------------|
-| 🟢 PASS | >3.0x | <2bp | Risk premium normalizing post-Takaichi pledge |
-| 🟡 WEAK | 2.5-3.0x | 2-4bp | Underlying demand stress despite rally |
-| 🔴 FAIL | <2.0x | >6bp | Crisis cascade — Path D trigger |
+**Aug 2024 precedent (BOJ hike July 31 → carry unwind):**
+- Hours 0-48: USD/JPY 155 → 150 = **3-4% yen strength** (initial move)
+- Hours 48-96: USD/JPY 150 → 142 = **another 5% yen strength** (acceleration)
+- Day 5 (Aug 5): VIX hit **65.73 intraday**, Nikkei -12.4% (worst day since 1987)
+- Total move: ~12% yen strength over 4-5 days
+
+**Current context vs Aug 2024:**
+- USD/JPY now at 152-153 (not 161). Less carry extended.
+- But: carry rebuilding happened since Aug 2024 dip. Positioning is fresh.
+- The 7% yen move since Oct 2025 peak is QUIET carry unwind already in progress.
+- A Feb 19 trigger would be ADDITIVE to existing slow unwind, not starting from scratch.
+
+**Transmission timeline for Feb 19 trigger (if it fires):**
+- **T+0 (12:35 PM JST / 10:35 PM ET Feb 18):** Auction results hit screens
+- **T+15 min:** USD/JPY initial reaction — +/- 0.5% move
+- **T+2 hours:** Tokyo interbank confirms direction; Nikkei futures open pricing
+- **T+8 hours (Asia open):** Nikkei cash open; carry positions trigger margin calls
+- **T+16 hours (Europe open):** Real cascade begins if both fired
+- **T+24-48 hours:** S&P opens in stress; VIX spike begins
+
+---
+
+## 🎯 SCENARIO PLAYBOOK — FEB 19 DECISION TREE
+
+### SCENARIO 1: BOTH FIRE 🔴🔴
+**Trigger:** 20Y BTC <2.0x + tail >0.40 yen AND ¥18,000 demand filed (≥¥18,000 signal strong)
+
+**Mechanics:**
+- Strong Shunto → BOJ hike expectation (April meeting priced in) → rate differential narrows → carry unwind
+- Auction failure → life insurer structural buyer confirmed absent → fiscal doom loop concern
+- BOTH = BOJ trapped: can't hike (bond market failing) but must (wages strong) → INCOHERENCE SIGNAL
+- Carry positions unwind regardless of which "wins" — uncertainty itself triggers exit
+
+**Immediate trade (within 15 min of 12:35 PM JST result):**
+- **EWJ puts** — Nikkei will gap down on Asia open (carry unwind + bond stress)
+- **Short USDJPY** (long yen) — initial move: carry unwind dominates Shunto signal
+- **Vol buying** (VIX calls) — VIX currently suppressed; this is the event to spike it
+
+**Speed of yen move:**
+- Initial (0-2 hours): 0.5-1.0% yen strength (USDJPY 152 → 150.5-151.5)
+- Asia open (T+8 hours): 1.5-2.5% total (USDJPY → 148-150)
+- Europe open (T+16 hours): 2.5-4.0% total if positions cascade
+- Aug 2024 template suggests 3% in days, then potential 8-12% in a week IF equities crack
+
+**Key risk to this trade:** JGB stress could paradoxically WEAKEN yen if markets price BOJ monetization (YCC return) → yen collapses like sterling in Truss. This is the "fiscal doom loop" outcome, not carry unwind. If USD/JPY RISES on auction failure = fiscal risk pricing, not rate differential. In that case: REVERSE yen trade, double EWJ puts.
+
+**Confidence:** HIGH (8-12% probability, but clear trade if it fires)
+
+---
+
+### SCENARIO 2: SHUNTO STRONG, AUCTION PASSES 🟢🟢 → 🟠 Nuance
+**Trigger:** BTC >2.8x, tail <0.15 yen AND ¥18,000 demand confirmed
+
+**What this means:**
+- The "fiscal pledge" rally is HOLDING — Takaichi's responsible fiscal rhetoric is working
+- Bond market accepts the Takaichi compromise (spend but don't destabilize)
+- Strong Shunto → BOJ hike locked in for April/June
+- JGB market functioning → BOJ has room to hike without sparking bond crisis
+
+**Market reaction:**
+- JPY strengthens moderately (BOJ rate hike priced) — carry unwind begins SLOWLY
+- USDJPY 152 → 149-150 over 2-4 weeks
+- No crisis cascade; orderly adjustment
+- Nikkei mildly lower (yen strength hurts exporters)
+
+**Implication for thesis:**
+- Path D delayed to April BOJ meeting (1.0% hike = Takaichi collision)
+- Status: YELLOW → watchful. The slow grind continues.
+- The 7% quiet yen move expands further. SPY gap still doesn't close.
+
+**Trade:** No urgent action. Wait for April BOJ meeting setup. EWJ puts as vol is cheap now.
+
+---
+
+### SCENARIO 3: SHUNTO WEAK (SURPRISE), AUCTION FAILS 🔴🔴 → Different Beast
+**Trigger:** BTC <2.0x AND ¥18,000 demand LOWER than expected (below ¥18,000) — very unlikely but possible
+
+**What this means:**
+- WORST scenario for the BOJ — cannot hike (wages weak) AND cannot stand pat (bonds failing)
+- Perfect fiscal doom loop: issuance must continue, buyers retreating, BOJ politically constrained
+- This is NOT the Aug 2024 template — it's the UK Gilt crisis template
+
+**Market reaction:**
+- JPY likely WEAKENS first (fiscal risk, no BOJ hike support, markets price YCC return)
+- USDJPY rises toward 155-160
+- Then reversal: if BoJ forced to buy bonds → yen collapses further
+- This is the D2 scenario (monetary dominance path)
+
+**Trade:** Paradoxically BULLISH for USO/oil (yen weakness = trade deficit pressure) and BEARISH for everything Japan. Short yen, long vol.
+
+**Probability:** Very low (<3%). ¥18,000 demand is confirmed. Auction failure at these yield levels would require extreme shock.
+
+---
+
+### SCENARIO 4: BOTH MISS — THESIS DELAYED OR DEAD? 🟢🟢
+**Trigger:** BTC >3.0x (auction strong) AND demand submissions uneventful (¥18,000 filed, no surprise)
+
+**What this means:**
+- Takaichi "responsible fiscal" pledge is working better than expected
+- JGB structural reform buying actually absorbing supply
+- Feb 19 is a non-event; real test is March settlement + April BOJ
+
+**Is the thesis DELAYED or DEAD?**
+- **DELAYED** (not dead). The structural issues remain:
+  - Life insurers ESR ratios deteriorating (March 31 FY-end reveals)
+  - BOJ rate collision at 1.0%+ still coming in April
+  - Budget passage compressed into April-May = JGB supply wall
+  - ¥122T fiscal expansion still not priced fully
+- The thesis resets to March 13-14 BOJ meeting + March 15 Shunto tally
+
+**Trade:** Do nothing on Feb 19. Wait for late March. EWJ puts remain valid as insurance.
+
+---
+
+## AUG 2024 TEMPLATE — EXACT NUMBERS
+
+| Date | Event | USDJPY | Change | VIX |
+|------|-------|--------|--------|-----|
+| Jul 3, 2024 | USD/JPY peak | 161.7 | — | ~12 |
+| Jul 31, 2024 | BOJ hike (0%→0.25%) | ~155 | — | ~17 |
+| Aug 2, 2024 | Weak US payrolls add fuel | ~150 | -3.2% in 2 days | ~25 |
+| **Aug 5, 2024** | **Carry unwind peak** | **141.7** | **-8.5% from Jul 31** | **65.73** |
+| Aug 15, 2024 | Partial recovery | ~148 | — | ~20 |
+
+**Lesson:** The initial trigger (BOJ hike) gave 3% in 48 hours. But the ACCELERATION was driven by US payrolls surprise. For Feb 19 to replicate Aug 2024, we need a second catalyst (possibly FOMC minutes Feb 19 at 2PM ET). VIX Expiration also on Feb 19 — forced gamma repositioning.
+
+**Feb 19 has THREE events simultaneously:**
+1. 20Y JGB auction results (10:35 PM ET Feb 18)
+2. Shunto demand submission deadline (overnight)
+3. **FOMC Minutes 2:00 PM ET Feb 19** — potential second catalyst if dovish
+4. **VIX Expiration Feb 19** — mechanical volatility
+
+This is a **multi-event day**. If JGB fails AND FOMC is dovish (US rates fall, narrowing differential), the carry unwind could be sharp.
 
 ---
 
@@ -597,6 +747,17 @@ From Aug 2024 precedent:
 - 75% floating mortgages constrain further
 - April = SHOWDOWN if Shunto strong + inflation hot
 
-*Next update: Feb 19 post-20Y auction + post-Shunto demand submission*
+*Next update: Feb 19 post-20Y auction + post-Shunto demand submission (results hit at 12:35 PM JST / 10:35 PM ET Feb 18)*
 
 **Full analysis:** `workbook/LIFE_INSURER_UST_DEEP_DIVE.md` (38KB)
+
+---
+
+## 🔴 FEB 19 DATA CORRECTIONS (Feb 18 Research)
+
+1. **20Y auction times confirmed from MOF schedule:** Results at 12:35 PM JST (NOT 10:35 AM as previously noted)
+2. **Jan 20 BTC:** 2.43x (competitive bids 1,939.9B / total accepted 799.5B) — "worst since 1987" was the TAIL (0.25 yen), not BTC alone
+3. **Jan 20 yield:** 3.274% cleared — current 20Y at 2.965% is 31bp LOWER. Life insurers wanted 3.6%+.
+4. **Shunto event nature:** Feb 19 = DEADLINE for submissions (not announcement). ¥18,000 = confirmed Jan 27. Companies respond mid-March.
+5. **¥18,000 in %:** ~3.6-4.0% base-up (vs ¥480,000-¥500,000 base wage), ~5.6-6.0% total with regular increment
+6. **Aug 2024 template:** USDJPY went 155→141.7 (-8.5%) in 5 days; VIX hit 65.73. Initial move 3% in 48 hours.

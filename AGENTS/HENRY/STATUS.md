@@ -1,5 +1,15 @@
 # HENRY STATUS
-**Last Updated:** 2026-02-18 00:30 UTC | **Status:** 🟠 ORANGE — Below Volatility Trigger + 99th Percentile Dispersion + Negative Gamma Regime
+**Last Updated:** 2026-02-18 21:45 UTC | **Status:** 🟠 ORANGE — HY OAS 6 bps from 300 | VIX contango shallow | MOVE +20% from lows | No threshold breach yet
+
+---
+
+## ACTIVE POSITIONS
+
+| Position | Expiry | Entry Thesis | Exit Triggers |
+|----------|--------|--------------|---------------|
+| **IWM puts (Jun)** | Jun 2026 | Small caps priced for hope trade, ISM Jan was tariff front-running (HANS), German IP collapse leads US by 2-3 months | German PMI <48 (Thursday) confirms, or Q2 ISM sub-49 |
+
+**Position Rationale:** IWM +16% Nov-Feb = pure deregulation/domestic bid hope. BKLN at 52-week lows shows credit already exiting. January ISM 52.6% was pre-ordering before tariffs (HANS), not real demand. German IP -1.9% MoM leads US ISM by 2-3 months → March ISM sub-49 expected. Small caps have no pricing power to absorb tariff pass-through.
 
 ---
 
@@ -94,15 +104,15 @@ The equity market is **derivatives-driven** where dealer hedging dominates short
 
 | Indicator | Current | Threshold | Status |
 |-----------|---------|-----------|--------|
-| **SPX Spot** | **6,836** | Vol Trigger 6,900 | 🔴 **BELOW** |
-| **VIX** | **22.16** | >20 elevated | 🟠 +7.57% (Feb 17) |
+| **SPX Spot** | **6,881** | Vol Trigger 6,900 | 🟠 **BELOW** (Feb 18 intraday, approaching) |
+| **VIX** | **20.29** (Feb 17 close) | >20 elevated | 🟠 Likely ~18-19 intraday Feb 18 |
 | **Dispersion** | **10.8%** avg move | 99th %ile | 🔴 Extreme fragmentation |
-| **Put Skew** | 90-day high | >90th %ile | 🟠 Heavy downside demand |
+| **Put Skew** | 90-day high | >90th %ile | 🟠 Heavy downside demand; record VIX call volume Feb 12-16 |
 | **IV Rank** | ~20% | Low | 🟡 Options cheap = tension |
-| **MOVE** | **65.82** | <80 calm | 🟢 Near 4-yr lows |
-| VIX/MOVE Ratio | 3.4x | Typical 4-6x | 🟡 Equity vol > bond vol |
+| **MOVE** | **68.84** | <80 calm | 🟡 +20% from 4-yr low of 57.51 (Feb 4) |
+| VIX/MOVE Ratio | 2.95x | Typical 4-6x | 🟡 Equity vol runs cheap vs bond vol |
 | Net GEX | ~$62B | <$2B thin | 🟢 |
-| HY OAS | ~281 bps | <300 tight | 🟠 Near 2007 lows |
+| HY OAS | **294 bps** | <300 tight | 🟠 6 bps from "elevated" threshold |
 | **0DTE Share (SPX)** | **65%** | Was 50% Jan'24 | 🔴 |
 | **Margin Debt** | **$1.23T** | ATH | 🔴 |
 | **Mag 7 Positioning** | **ATH** | Per Goldman | 🔴 No dry powder |
@@ -139,13 +149,13 @@ The equity market is **derivatives-driven** where dealer hedging dominates short
 | Level | SPX Price | Significance | Status |
 |-------|-----------|--------------|--------|
 | Max GEX / Resistance | 7,000 | Dealer selling pressure | — |
-| **Volatility Trigger** | **6,900** | Gamma flip zone | 🔴 **BELOW** (closed 6,836) |
-| **Put Wall** | 6,800 | Structural support | 🟠 Testing |
+| **Volatility Trigger** | **6,900** | Gamma flip zone | 🟠 **APPROACHING** (Feb 18 intraday: 6,881) |
+| **Put Wall** | 6,800 | Structural support | 🟢 Above |
 | **Acceleration Zone** | 6,600s | Negative gamma feedback target | Watch |
-| **CTA Flip** | 6,494 | Medium-term CTAs flip short | 🟢 5.2% cushion |
+| **CTA Flip** | 6,494 | Medium-term CTAs flip short | 🟢 5.6% cushion |
 | JPM Collar Put | 6,475 | Institutional hedge floor | — |
 
-**Current:** SPX closed **6,836** on Friday. **BELOW Volatility Trigger (6,900).**
+**Current:** SPX at **6,881** on Feb 18 (+0.56%). **19 pts below Volatility Trigger (6,900). Reclaiming ground.**
 
 ---
 
@@ -449,7 +459,7 @@ Risk parity deleverages   → T+5 to T+30 (largest, last)
 
 ## CREDIT-EQUITY TRANSMISSION
 
-**HY OAS at 281 bps = near 2007 lows.** Pricing zero default risk.
+**HY OAS at 294 bps = approaching "elevated" 300 bps threshold. Tested 295-297 twice in Feb without breaking through. Floor rising from 265 (Jan) → 284 (Feb). Pricing minimal but non-zero default risk.**
 
 | HY Change | Typical Lag | Equity Impact |
 |-----------|-------------|---------------|

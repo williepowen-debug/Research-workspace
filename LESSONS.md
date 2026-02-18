@@ -62,6 +62,17 @@ Categories: `[Analysis]` `[Communication]` `[Execution]` `[Verification]` `[Memo
 **Pattern:** Citing own unverified data as fact. Writing placeholder assumptions that later get treated as researched findings.
 **Rule:** Real-time market prices (VIX, oil, yields) must be pulled from actual sources (Yahoo Finance, FRED, CNBC) at time of analysis. Never cite agent STATUS.md for current prices without verification. "I wrote it earlier" ≠ "it's accurate now."
 
+### 2026-02-18 — [Process] ⚠️ COSTLY
+**Mistake:** Spawned OTTO to analyze CVNA position before earnings. OTTO recommended closing based on "Gotham catalysts 2-3 weeks away." But Will had shared images showing Gotham was releasing a NEW REPORT TODAY, timed with earnings. I didn't pass this to OTTO. Will closed position for $86 loss. Stock dropped 15% after-hours — the trade would have worked.
+**Pattern:** Sub-agents only know what you tell them. Fresh context from conversation doesn't automatically transfer to spawned tasks.
+**Rule:** When spawning sub-agents for time-sensitive decisions:
+1. Include ALL recent developments explicitly in the task
+2. Especially anything that changes catalyst TIMING
+3. If user shared images/news in-session, summarize key points in the spawn task
+4. "Sub-agent analyzed it" ≠ "sub-agent had full context"
+
+**Additional rule:** When user repeatedly asks "are you sure?" — that's signal. Pause and re-examine assumptions instead of re-confirming.
+
 ---
 
 ## Pending Review

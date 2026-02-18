@@ -3,6 +3,16 @@
 
 ---
 
+## ACTIVE POSITIONS
+
+| Position | Expiry | Entry Thesis | Exit Triggers |
+|----------|--------|--------------|---------------|
+| **KELYA puts (Jun)** | Jun 2026 | Temp staffing -18.6% YoY, federal -8%, Q1 guide -11% to -13% | Claims >300K confirms, or position doubles |
+
+**Position Rationale:** Staffing leads banks/credit by 3-6 months. KELYA is "patient zero" — already declining while KRE/IWM still pricing soft landing. Q1 guide deterioration (worse than initially logged) validates acceleration thesis.
+
+---
+
 ## THESIS
 
 **"Hotel California" labor market: easy to keep your job, hard to find a new one.**

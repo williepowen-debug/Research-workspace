@@ -1,5 +1,5 @@
 # HANS STATUS.md
-**Updated:** 2026-02-18 16:55 UTC
+**Updated:** 2026-02-18 21:50 UTC
 
 ---
 
@@ -173,10 +173,16 @@ European dynamics affect US markets through several transmission channels:
    - ISM Prediction: March 2026 = 47-49, April 2026 = 47-50 (confidence 60%)
    - 14 entries added to ML.tsv, 6 new VX vectors added
 
+✅ **RP-HANS-9:** German Flash PMI Feb 2026 Playbook — COMPLETED (2026-02-18)
+   - Report: domain/sources/RP-HANS-9_GERMAN_FLASH_PMI_FEB2026_PLAYBOOK.md
+   - Key findings: Release Fri Feb 20 08:30 UTC; ADD threshold <48.0; AGGRESSIVE <47.0; April expiry optimal
+   - 16 entries added to ML.tsv; FL.tsv updated with all PMI calendar events
+   - **NEXT ACTION: Monitor France PMI 08:15 UTC Friday as warm-up; act on German print 08:30 UTC**
+
 **Next Priority:**
 1. **RP-HANS-5:** Belgium/China Euroclear Correlation — Time series analysis, lead/lag
-2. **RP-HANS-9:** European UST Demand Model — Regression model for forecasting
-3. **RP-HANS-10:** Sovereign Spread Triggers — What causes Italy/France blowouts
+2. **RP-HANS-10:** European UST Demand Model — Regression model for forecasting
+3. **RP-HANS-11:** Sovereign Spread Triggers — What causes Italy/France blowouts
 
 ---
 
@@ -195,8 +201,14 @@ European dynamics affect US markets through several transmission channels:
 
 | Date | Event | Relevance |
 |------|-------|-----------|
-| TBD | ECB Rate Decision | Policy divergence |
-| TBD | BoE Rate Decision | UK rates/GBP |
+| **Feb 20 08:30 UTC** | **🚨 HCOB Flash Germany PMI** | **CRITICAL — IWM puts thesis trigger. Threshold: <48.0 ADD, <47.0 AGGRESSIVE** |
+| Feb 20 08:15 UTC | HCOB Flash France PMI | Warm-up for Germany; weak France = weak Germany likely |
+| Feb 20 09:00 UTC | HCOB Flash Eurozone PMI | Composite picture |
+| Feb 20 14:45 UTC | S&P Global Flash US PMI | Same-day US confirmation; weak = doubles thesis narrative |
+| Feb 23 | German Federal Election | CDU likely wins; fiscal boost potential (3-6m lag) |
+| Mar 2 | US ISM Manufacturing (Feb) | Tariff fade confirmation; target 48-50 |
+| Mar 6 | ECB Rate Decision | Policy divergence signal |
+| Mar 20 | BoE Rate Decision | UK rates/GBP |
 | Feb 18 | TIC Data | European holdings update |
 
 ---

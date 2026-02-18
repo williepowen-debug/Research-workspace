@@ -59,7 +59,34 @@
 
 ---
 
-### Carvana Fraud Allegations (CRITICAL — Feb 18)
+### 🔴 CVNA Q4 2025 EARNINGS + NEW GOTHAM REPORT (Feb 18, 2026)
+
+**RESULTS:**
+| Metric | Actual | Expected | Result |
+|--------|--------|----------|--------|
+| Revenue | $5.60B | $5.27B | ✅ BEAT |
+| Adj EBITDA | $511M | $535.7M | ❌ MISS |
+| EBITDA Margin | 10.1% | 10.4% | ❌ MISS |
+| Units Sold | 163,522 | ~156K | ✅ BEAT |
+| GPU | $3,076 | — | ❌ **Down $255 QoQ** |
+
+**Stock:** 🔴 **DOWN ~24% after-hours**
+
+**NEW GOTHAM REPORT (Same Day as Earnings):**
+- Bridgecrest (not CVNA) is actual lienholder on cars CVNA sold
+- **34 new VINs** where Bridgecrest holds title but CVNA sold vehicle
+- CVNA selling cars without proper title, issuing temp plates from other states
+- Gain on Loan Sales tied to related party DriveTime/Bridgecrest
+
+**Position Outcome:**
+- We closed CVNA put spread ($310P/$290P Feb 27) for ~$86 loss hours before drop
+- Thesis was RIGHT (GPU compression, margin miss, fraud allegations)
+- Timing call was WRONG (OTTO didn't know about same-day Gotham release)
+- **LESSON:** Save Gotham/short-seller release patterns to OTTO for future reference
+
+---
+
+### Carvana Fraud Allegations (CRITICAL — Updated)
 **Court Order Breakthrough (Feb 11-12):**
 - **Judge John Z. Boyle (D. Ariz.) granted motion to compel DriveTime documents** — forces production of internal communications previously withheld as "attorneys-eyes-only"
 - This implicitly validates plaintiffs' concerns about related-party manipulation
