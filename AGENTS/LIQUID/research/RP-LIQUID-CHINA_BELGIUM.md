@@ -5,6 +5,11 @@
 **Date:** 2026-02-12  
 **Status:** 🔴 **CRITICAL** — Stealth Exit Pattern Confirmed
 
+> **⚠️ Corrections (Feb 19, 2026):**
+> - JGB 30Y yield was ~3.05%, not 3.9% as stated in this report
+> - RRP updated to ~$0.86B (was $1.3B at time of writing)
+> - Core analysis and conclusions remain valid
+
 ---
 
 ## EXECUTIVE SUMMARY
