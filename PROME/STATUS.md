@@ -1,11 +1,11 @@
 # PROME STATUS.md
-**Updated:** 2026-02-18 21:56 UTC
+**Updated:** 2026-02-19 03:00 UTC
 
 ---
 
-## System Status: 🔴 CRITICAL
+## System Status: 🔴 CRITICAL — WATCHING JGB AUCTION
 
-**Major research day complete. Thesis timing VALIDATED. Two-phase oil trade identified.**
+**20Y JGB auction at 03:35 UTC. Workspace reorganization complete.**
 
 ---
 
@@ -134,10 +134,30 @@
 
 ---
 
+---
+
+## Session Feb 19 (02:00-03:00 UTC)
+
+### Workspace Reorganization Complete
+**Commit `f8c8928`:** Root files 22 → 12
+- Created TRADING.md (pre-advice checklist + positions)
+- Moved reference docs to docs/, operational files to PROME/
+- Deleted obsolete STATUS.md, consolidated SKILLS.md into AGENTS.md
+
+**Commit `2ce6c81`:** Directory consolidation
+- Merged tools/ into scripts/
+- Archived handoffs/ and research/ to archive/
+- Moved METHODOLOGIES/ to domain/methodologies/
+
+### CVNA Lesson Documented
+Pre-compaction, I recommended closing CVNA put spread before earnings. Stock dropped 20% after-hours — would have been near-max profit. Added to LESSONS.md with detailed post-mortem. Created TRADING.md pre-advice checklist to prevent repeat.
+
+---
+
 ## Next Session Priorities
 
-1. Monitor Feb 19 Japan dual catalyst (Shunto + 20Y JGB)
+1. **IMMEDIATE:** 20Y JGB auction results (03:35 UTC) — BTC <2.0x = Path D trigger
 2. Watch Feb 21 German flash PMI (<48 = March ISM sub-49 locked in)
 3. Consider TNP/STNG entry if not already positioned
-4. Track CVNA earnings aftermath
-5. Prep for March 1 OPEC+ decision
+4. Prep for March 1 OPEC+ decision
+5. Update CALENDAR.md (stale dates)
