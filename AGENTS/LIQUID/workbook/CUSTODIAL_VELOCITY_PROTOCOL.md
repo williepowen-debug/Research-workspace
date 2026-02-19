@@ -12,7 +12,7 @@
 Distinguish between **benign custody migration** (China moving assets to European custodians) vs **stealth exit** (actual selling disguised as custody shift).
 
 ### The Problem
-- China official TIC holdings: $688B (down from $1.06T peak)
+- China official TIC holdings: $682.6B (down from $1.06T in 2021)
 - Belgium TIC holdings: $481B (up from ~$300B baseline)
 - **Is this migration or exit?** Critical difference for term premium impact.
 
@@ -23,7 +23,7 @@ Distinguish between **benign custody migration** (China moving assets to Europea
 | **Treasury TIC Data** | Monthly | treasury.gov/resource-center/data-chart-center/tic | Official holdings by country |
 | **BIS Table B4** | Quarterly | bis.org/statistics/bankstats.htm | Custodial claims by banking system |
 
-**Next TIC Release:** Feb 18, 2026 (Dec 2025 data)  
+**Next TIC Release:** Mar 18, 2026 (Jan 2026 data) — Dec 2025 released Feb 18  
 **Next BIS Release:** Q1 2026 data (April/May 2026)
 
 ### Methodology: Two-Signal Cross-Reference
@@ -244,7 +244,7 @@ Collateral Velocity Ratio = (Triparty Repo Volume) / (Outstanding UST)
 
 ### Foreign Custodial Flow
 - **Belgium TIC**: $481B (Nov 2025) — ORANGE status
-- **China TIC**: $688B (Nov 2025) — YELLOW status
+- **China TIC**: $682.6B (Nov 2025) — YELLOW status
 - **Combined flow**: Est. -$100B/quarter — RED status
 - **Next data**: Feb 18, 2026 (Dec 2025 TIC)
 - **BIS validation**: Pending Q4 2025 data (April 2026)

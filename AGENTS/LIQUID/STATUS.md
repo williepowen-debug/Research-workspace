@@ -81,7 +81,7 @@
 | Ticker | Name | Ice-Class Profile | Notes |
 |--------|------|-------------------|-------|
 | **TEN** | Tsakos Energy Navigation | ⭐⭐⭐ HIGHEST | One of largest ice-class operators — 14 vessels (8x 1A, 6x 1B) |
-| **TNK** | Teekay Tankers | ⭐⭐ HIGH | 18 Aframax/LR2, Baltic exposure |
+| **TNK** | Teekay Tankers | ⭐ MEDIUM | Suezmax/Aframax fleet, Baltic routes but no verified ice-class vessels |
 | FRO | Frontline | ⭐ MEDIUM | Large Aframax fleet, less pure-play |
 
 ### Ice Break Timing
@@ -100,7 +100,7 @@
 | OPEC+ April restart (if confirmed Mar 1) | +138K bpd/month |
 
 **Positioning Framework:**
-- **NOW → March 15:** Long TEN, TNK (ice premium)
+- **NOW → March 15:** Long TEN (ice premium) — TNK as secondary (Baltic routes, not ice-class)
 - **March 15 → April 15:** EXIT tanker longs, INITIATE short crude
 - **April-May:** Short crude conviction (target $55-57)
 
@@ -183,7 +183,7 @@ System transitioning from **official-sector stability** to **private-sector frag
 ### Foreign Official
 | Vector | Value | Status | Threshold |
 |--------|-------|--------|-----------|
-| China Holdings (TIC) | $688B | 🟡 | <$650B orange |
+| China Holdings (TIC) | $682.6B (Nov 2025) | 🟡 | <$650B orange |
 | **Belgium Holdings** | **$481B** | 🟠 | >$500B red |
 | Japan Holdings | ~$1.1T | 🟡 | Life insurers selling $10-15B/mo |
 | FOI Share of Market | ~30% | 🟠 | Was 50% in 2015 |
@@ -261,11 +261,11 @@ China window guidance + Japan life insurer selling + Saudi deficit → $300B/yea
 
 ### The Hidden Picture: China's TRUE Exposure
 
-Official TIC shows $688B — but **misleading**:
+Official TIC shows $682.6B (Nov 2025) — but **misleading**:
 
 | Category | Amount |
 |----------|--------|
-| Official TIC Data | $688B |
+| Official TIC Data | $682.6B |
 | Belgium/Euroclear (hidden) | $400-500B |
 | Agency Bonds | $300B+ |
 | State Bank Portfolios | $298B |
@@ -307,10 +307,10 @@ The "decline" from $1.06T (2021) is largely **migration to offshore custodians**
 | Metric | Value |
 |--------|-------|
 | Belgium holdings | $481B (+33% YoY) |
-| China official | $688B (down from $1.32T all-time peak, $1.06T in 2021) |
+| China official | $682.6B (down from $1.32T all-time peak, $1.06T in 2021) |
 | Combined flow | -$100B/quarter (est) |
 
-**Interpretation:** China down $372B from peak, Belgium up $180B = net -$192B outflow. Not custody migration — actual exit.
+**Interpretation:** China down ~$377B from 2021 level ($1.06T → $682.6B), Belgium up ~$180B = net -$197B outflow. Not custody migration — actual exit.
 
 ### Who Fills the Hole?
 
