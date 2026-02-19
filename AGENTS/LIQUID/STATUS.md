@@ -1,15 +1,38 @@
 # LIQUID STATUS
-**Last Updated:** 2026-02-18 | **Status:** 🔴 CRITICAL — Stealth Exit Confirmed + Repo Spike + Baltic Ice Crisis
+**Last Updated:** 2026-02-19 | **Status:** 🔴 CRITICAL — REPO STRESS ESCALATION + STEALTH QE ACTIVE
 
 ---
 
 ## RECENT EVENTS
 
-**Feb 17, 2026 — Overnight Repo Spike**
-- Fed prints **$11B** in overnight repo market — **largest amount in 2026**
-- Prior weeks: near-zero repo usage
-- Signal: Funding stress emerging as RRP buffer depleted
-- Watch: If sustained >$10B = reserve scarcity beginning
+**Feb 18-19, 2026 — STANDING REPO FACILITY SPIKE + STEALTH QE**
+- **SRF Usage: $30.5B** — Third highest since summer 2020
+  - $11B morning + $19.5B afternoon
+  - **Afternoon spike is ABNORMAL** (SRF normally quiet after morning)
+  - Previous Feb 17 overnight repo: $11B (now exceeded)
+- **Fed RMPs: $8B printed** to buy T-bills (stealth QE to ease stress)
+  - Balance sheet turning back UP after QT pause
+- **Treasury Auctions: $216B T-bills in ONE DAY**
+  - Massive liquidity drain as cash flows to TGA
+- **Current Liquidity State:**
+  - RRP: ~$0.86B (effectively EMPTY, was $2.5T peak)
+  - Bank reserves: ~$2.9T (declining)
+  - TGA: ~$900B (rebuilt from $300B, drained ~$600B from system)
+  - SOFR spread: WIDENING above Fed's preferred range
+- **STRUCTURAL RISK — BASIS TRADE DEPENDENCY:**
+  - 40-50% of Treasury absorption = 50-100x levered hedge fund basis trades
+  - Funded in repo market
+  - If repo breaks → basis trade unwinds → forced Treasury selling → yield spike
+  - **Fed officials warned about this Q3-Q4 2025** — now materializing
+- **Rolling Pressure:** $600B T-bills rolling every 5 days
+  - "Yellenomics" front-loaded issuance creates structural repo dependency
+
+**CONNECTIONS:**
+- **Blue Owl Capital** redemption halt (Feb) — credit stress meets funding stress
+- **Arthur Hayes "printer" call** — Fed forced into stealth QE via RMPs
+- **Fed pivoting back to expansion** despite prior QT commitment
+
+**Signal:** Repo market under acute stress. Fed intervening via SRF + stealth QE. System at breaking point without RRP buffer.
 
 ---
 
@@ -57,7 +80,7 @@
 
 | Ticker | Name | Ice-Class Profile | Notes |
 |--------|------|-------------------|-------|
-| **TNP** | Tsakos Energy Navigation | ⭐⭐⭐ HIGHEST | "World's largest ice-class tanker operator" — 17 vessels |
+| **TEN** | Tsakos Energy Navigation | ⭐⭐⭐ HIGHEST | One of largest ice-class operators — 14 vessels (8x 1A, 6x 1B) |
 | **TNK** | Teekay Tankers | ⭐⭐ HIGH | 18 Aframax/LR2, Baltic exposure |
 | FRO | Frontline | ⭐ MEDIUM | Large Aframax fleet, less pure-play |
 
@@ -77,7 +100,7 @@
 | OPEC+ April restart (if confirmed Mar 1) | +138K bpd/month |
 
 **Positioning Framework:**
-- **NOW → March 15:** Long TNP, TNK (ice premium)
+- **NOW → March 15:** Long TEN, TNK (ice premium)
 - **March 15 → April 15:** EXIT tanker longs, INITIATE short crude
 - **April-May:** Short crude conviction (target $55-57)
 
@@ -104,7 +127,7 @@
 
 | Position | Expiry | Entry Thesis | Exit Triggers |
 |----------|--------|--------------|---------------|
-| **TEN calls (Jun $30)** | Jun 2026 | TEN = world's largest ice-class fleet (14 vessels: 6x 1A, 8x 1B from tenn.gr). Baltic ice worst in 15 years. Ice premium persists until late March. | Ice breaks (late March) → exit. Target 50-100% gain. |
+| **TEN calls (Jun $30)** | Jun 2026 | TEN = one of world's largest ice-class fleets (14 vessels: 8x 1A, 6x 1B from tenn.gr). Baltic ice worst in 15 years. Ice premium persists until late March. | Ice breaks (late March) → exit. Target 50-100% gain. |
 
 **Position Rationale:** TEN over STNG because TEN has DIRECT ice-class exposure (14 verified vessels on tenn.gr). STNG is product tankers. Baltic ice + Black Sea war risk = Russia's two export corridors squeezed. 140M barrels in floating storage. Ice premium accrues to TEN specifically.
 
@@ -114,13 +137,20 @@
 
 ## THESIS
 
-**The plumbing is fragile. BOTH buffers are gone.**
+**The plumbing is breaking. BOTH buffers gone. Fed forced into stealth QE.**
 
-### Domestic Plumbing
-- **RRP depleted** — $1.3B remaining vs $2.5T peak. Buffer = ZERO.
-- **SRF ceiling porous** — Dec 31: SOFR traded 12bps ABOVE Fed backstop
+### Domestic Plumbing — ACUTE STRESS (Feb 18-19)
+- **RRP depleted** — ~$0.86B remaining vs $2.5T peak. Buffer = ZERO.
+- **SRF spiking** — $30.5B (third highest since summer 2020), afternoon abnormal
+- **Fed doing stealth QE** — $8B RMPs printed to ease repo stress, balance sheet UP
 - **Dealers stuffed** — ~$200B net long Treasuries, SLR prevents expansion
-- **Basis trade armed** — $1.85T hedge fund positions funded by repos
+- **Basis trade CRITICAL** — 40-50% of Treasury absorption = 50-100x levered HFs funded by repos
+  - **Fed officials warned Q3-Q4 2025** — now materializing
+  - If repo breaks → forced unwind → Treasury selling cascade
+- **Rolling pressure** — $600B T-bills every 5 days, structural repo dependency
+- **SOFR spread widening** — Cost of capital above Fed's preferred range
+- **Reserves declining** — $2.9T, approaching $2.8T ORANGE threshold
+- **TGA drain** — Rebuilt to $900B from $300B, drained $600B from system
 
 ### Foreign Official Sector (Feb 12 UPGRADE)
 - **China stealth exit CONFIRMED** — Belgium $481B (+33% YoY) = Euroclear custody proxy
@@ -138,15 +168,17 @@ System transitioning from **official-sector stability** to **private-sector frag
 ### Domestic
 | Vector | Value | Status | Threshold |
 |--------|-------|--------|-----------|
-| **RRP Balance** | **$1.3B** | 🔴 | <$5B = effectively ZERO |
-| **Fed Overnight Repo** | **$11B** (Feb 16) | 🟠 | Largest 2026 — funding stress |
-| SOFR-IORB Spread | -1 bp | 🟢 | >+5bps yellow |
-| SRF Usage | $3.0B | 🟢 | >$50B sustained = stress |
+| **RRP Balance** | **$0.86B** | 🔴 | <$5B = effectively ZERO |
+| **SRF Usage** | **$30.5B** (Feb 18) | 🟡 | >$25B YELLOW, >$50B ORANGE |
+| **SOFR-IORB Spread** | **WIDENING** | 🟡 | Above Fed preferred range |
+| **Reserve Balances** | **$2.9T** | 🟡 | Declining, <$2.8T = ORANGE |
+| **Fed RMPs (Stealth QE)** | **$8B** (Feb 18) | 🟠 | Balance sheet turning UP |
 | Dealer Net Position | ~$200B | 🟠 | >$200B clogged |
-| Basis Trade Exposure | $1.85T | 🟡 | >$2.0T orange |
+| **Basis Trade Exposure** | **$1.85T** | 🟠 | 40-50% of TSY absorption, 50-100x levered |
 | Treasury FTD | $42.4B | 🟡 | >$50B orange |
 | Auction BTC (10Y) | 2.39x | 🟡 | <2.30x orange |
-| Reserve Balances | $2.937T | 🟡 | Down $296B YoY |
+| **TGA Balance** | **~$900B** | 🟠 | Drained $600B from system |
+| **T-bill Rolling Pressure** | **$600B/5 days** | 🟠 | Structural repo dependency |
 
 ### Foreign Official
 | Vector | Value | Status | Threshold |
@@ -174,7 +206,7 @@ System transitioning from **official-sector stability** to **private-sector frag
 - With RRP at zero, there's no buffer — stress transmits directly to rates
 
 **Current state:**
-- $1.3B (functionally zero)
+- ~$0.86B (functionally zero) — Feb 18, 2026
 - Any TGA rebuild or auction settlement now drains reserves 1:1
 
 ---
@@ -194,8 +226,18 @@ System transitioning from **official-sector stability** to **private-sector frag
 
 ## TRANSMISSION MECHANISMS
 
-### 1. Basis Trade Unwind (ARMED)
-MMF stress → Stop rolling FICC repo ($2.48T) → HFs can't fund → Forced Treasury selling → Yield spike → Cascade
+### 1. Basis Trade Unwind (ACTIVELY STRESSED — FEB 18-19)
+**STATUS: Fed officials warned Q3-Q4 2025, now materializing**
+- 40-50% of Treasury absorption = 50-100x levered HF basis trades
+- Funded by repo market ($2.48T FICC sponsored repo)
+- $600B T-bills rolling every 5 days creates structural dependency
+- **Feb 18-19 stress sequence:**
+  - $216B T-bill auction → TGA drain → reserves drop
+  - SRF spikes to $30.5B (third highest since summer 2020)
+  - SOFR spread widens above Fed preferred range
+  - Fed forced to print $8B (RMPs) to prevent repo breakdown
+- **Transmission:** Repo stress → HFs can't fund → Forced Treasury selling → Yield spike → Cascade
+- **Risk:** If Fed loses control of repo rates, basis trade unwinds reflexively
 
 ### 2. SRF Ceiling Breach (CONFIRMED)
 Quarter-end + demand → GSIB dealers won't expand → SOFR trades ABOVE SRF rate
@@ -348,23 +390,61 @@ Timeline: May 2026 Powell term expires.
 
 ## WHAT TO WATCH
 
-**Daily:** SOFR, RRP, SRF usage
+**Daily:** 
+- **SRF usage** (watch for sustained >$50B = ORANGE)
+- **SOFR spread** (widening = funding stress transmission)
+- **RRP** (already at floor, can't go lower)
+- **Fed RMPs** (balance sheet expansion pace)
 
-**Weekly:** Auction results (7Y key), dealer positioning, reserve balances
+**Weekly:** 
+- **Auction results** (7Y key, watch for deterioration)
+- **Dealer positioning** (FR 2004 net position)
+- **Reserve balances** (approaching $2.8T ORANGE threshold)
+- **T-bill rolling** ($600B every 5 days)
 
-**Monthly:** TIC data (next Feb 18) — Belgium + China flow critical
+**Monthly:** 
+- **TIC data** (next release: Belgium + China flow critical)
+- **Basis trade exposure** (SEC Form PF, lagged)
 
-**Event-driven:** Trump-Xi summit (April), Fed communications, Warsh confirmation
+**Event-driven:** 
+- **Trump-Xi summit (April)** — pre-positioning window for China exit
+- **Fed communications** — repo stress response, QT/QE policy
+- **Warsh confirmation** — would reduce Fed willingness to intervene
+- **April tax season** — TGA drain accelerates
+
+**Cross-Domain Signals:**
+- **Blue Owl** redemption halt (credit stress amplifies funding stress)
+- **Arthur Hayes** "printer" thesis (validated by $8B stealth QE)
 
 ---
 
 ## BOTTOM LINE
 
-**Two missing safety systems:**
+**System under acute stress. Fed forced into stealth QE.**
 
-1. **Domestic buffer = zero** — No RRP shock absorption, dealers clogged
-2. **Foreign buyer = exiting** — $300B/year demand hole, no 2016 ECB/BOJ offset
+**Three simultaneous pressures (Feb 18-19):**
 
-**Fed can address domestic plumbing.** It **cannot replace** $300B/year in foreign demand. That adjustment happens through **higher yields**.
+1. **Domestic plumbing breaking** 
+   - RRP buffer GONE (~$0.86B vs $2.5T peak)
+   - SRF spiked to $30.5B (third highest since summer 2020)
+   - SOFR spread widening above Fed preferred range
+   - Fed forced to print $8B (stealth QE) to prevent breakdown
+   - **40-50% of Treasury absorption = 50-100x levered basis trades funded by repo**
+   - **If repo breaks → forced unwind → Treasury cascade**
 
-*Next trigger: Mar 31 quarter-end, TIC data, or FOI exit acceleration*
+2. **Foreign buyer exiting** 
+   - $300B/year demand hole (China + Japan + Saudi)
+   - No 2016 ECB/BOJ QE offset
+   - Belgium $481B (stealth exit proxy)
+
+3. **Rolling pressure** 
+   - $600B T-bills rolling every 5 days
+   - $216B auctioned in ONE DAY (Feb 18)
+   - TGA drained $600B from system ($300B → $900B rebuild)
+
+**Fed can address domestic plumbing via QE, but cannot replace $300B/year foreign demand. That adjustment requires higher yields.**
+
+**Arthur Hayes thesis validated:** Fed cannot sustain QT with RRP depleted and basis trade dependency. Printer is ON ($8B RMPs).
+
+*Immediate watch: SRF sustained >$50B, SOFR spread breakout, reserve balances <$2.8T*
+*Next catalysts: Mar 31 quarter-end, April TGA drain, Trump-Xi summit*
