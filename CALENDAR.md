@@ -1,6 +1,6 @@
 # CALENDAR — Unified Event Tracker
 
-*Cross-agent calendar for key dates. Updated: 2026-02-14 18:25 UTC*
+*Cross-agent calendar for key dates. Updated: 2026-02-19 00:15 UTC*
 
 ---
 
@@ -55,26 +55,17 @@
 
 ---
 
-## THIS WEEK (Feb 9-15)
+## LAST WEEK (Feb 9-15) — COMPLETED
 
-| Date | Time | Event | Agent | Priority | Notes |
-|------|------|-------|-------|----------|-------|
-| **Feb 10** | 11:00 AM | **NY Fed Q4 Household Debt** | CARL | 🔴 CRITICAL | Auto DQ >7%? CC reversal? |
-| Feb 10 | 8:30 AM | Employment Cost Index (Q4) | LABOR | 🟡 MEDIUM | Wage pressure check |
-| **Feb 11** | 8:30 AM | **NFP (Jan 2026)** | LABOR | 🔴 CRITICAL | Sub-50K? Negative? THE test |
-| Feb 11 | — | 10Y Treasury Auction (~$42B) | LIQUID | 🟠 HIGH | BTC <2.30x = stress |
-| Feb 12 | — | 30Y Treasury Auction (~$25B) | LIQUID | 🟠 HIGH | Duration demand |
-| **Feb 12** | 8:30 AM | **Initial Claims** | LABOR | 🟠 HIGH | Confirm 231K spike or revert |
-| Feb 13 | 8:30 AM | CPI (Jan 2026) | PROME | 🟠 HIGH | Fed policy watch |
-| Feb 13 | — | MOF Weekly Flow Data | SAM | 🟠 HIGH | Repatriation signal |
-| **Feb 13-17** | — | **PrimaLend Plan Confirmation** | OTTO | 🔴 CRITICAL | Watch for BVY2 fraud findings, creditor recovery |
-| **Feb 15** | — | **FSK (FS KKR) Q4 Earnings** | BROCK | 🔴 CRITICAL | PIK 27%, dividend coverage |
-
-### Completed This Week
+### Completed
+- ✅ **Feb 10** NY Fed Q4 Household Debt — CC 90+ DQ 12.70% (92% of GFC peak)
+- ✅ **Feb 11** NFP (Jan 2026) — +130K, beat estimates
+- ✅ **Feb 11** 10Y Treasury Auction — UGLY: 1.4bps tail (largest since Aug 2024)
+- ✅ **Feb 12** 30Y Treasury Auction — STRONG: BTC 2.66x, foreign 69.9%
+- ✅ **Feb 12** Initial Claims — 227K (below 230K)
+- ✅ **Feb 13** CPI (Jan 2026) — (check PROME STATUS)
+- ✅ **Feb 15** FSK Q4 Earnings — (check BROCK STATUS)
 - ✅ **Feb 8** Japan Snap Election — Takaichi landslide (316 LDP, 352 coalition) → SAM RED
-- ✅ **Feb 6** Initial Claims — 231K (+22K spike, breached 230K)
-- ✅ **Feb 6** KFRC Q4 — Mixed: beat estimates but confirms "persistent stagnation"
-- ✅ **Feb 5** 30Y JGB Auction — (check SAM STATUS for result)
 
 ---
 
@@ -110,22 +101,23 @@
 
 ---
 
-## NEXT WEEK (Feb 16-22)
+## THIS WEEK (Feb 16-22)
 
-| Date | Time | Event | Agent | Priority | Notes |
-|------|------|-------|-------|----------|-------|
-| Feb 16 | — | Presidents' Day (Market Closed) | — | ⚪ | — |
-| **Feb 18** | AMC | **Carvana (CVNA) Q4/FY2025 Earnings** | CARL/OTTO | 🔴 CRITICAL | Going concern? ABS extensions? Ally $6B forward flow. Highest urgency |
-| **Feb 18** | AMC | **DoorDash (DASH) Q4 Earnings** | GIG | 🟠 HIGH | Dasher count, orders/dasher — gig economy signal |
-| **Feb 18** | 4:00 PM | **Dec TIC Data Release** | LIQUID/SAM | 🔴 CRITICAL | Belgium >$500B? Japan selling? China <$680B? |
-| **Feb 19** | 8:30 AM | **Initial Claims** | LABOR | 🟠 HIGH | ⚠️ DHS distortion — don't trust this print |
-| **Feb 19** | 2:00 PM | **FOMC Minutes (Jan meeting)** | PROME | 🟠 HIGH | Watch for "financial stability" or "credit conditions" language |
-| **Feb 19** | 8:35 PM ET Tue | **20Y JGB Auction Results** | SAM | 🔴 CRITICAL | BTC <2.0x = Path D condition |
-| **Feb 19** | overnight | **Shunto Electronics Demand** | SAM | 🟠 HIGH | ¥18,000 demand (settlement is March) |
-| **Feb 19** | — | **VIX Expiration** | HENRY | 🟠 HIGH | Forced repositioning in negative gamma regime |
-| **Feb 20** | AMC | **PSEC (Prospect Capital) Q4 Earnings** | BROCK/OTTO | 🔴 CRITICAL | PIK 35%, dividend coverage. Cut = validates shadow defaults |
-| ~Feb 20 | — | Robert Half (RHI) Earnings | LABOR | 🟠 HIGH | Second temp staffing read |
-| ~Feb 20 | — | Statistics Canada (Jan) | MARCO | 🟠 HIGH | Canadian tourism continuation |
+| Date | Time | Event | Agent | Priority | Status |
+|------|------|-------|-------|----------|--------|
+| ~~Feb 16~~ | — | Presidents' Day (Market Closed) | — | ⚪ | ✅ PAST |
+| ~~**Feb 18**~~ | AMC | **Carvana (CVNA) Q4/FY2025 Earnings** | CARL/OTTO | 🔴 | ✅ Reported — down 24% on Gotham report |
+| ~~**Feb 18**~~ | AMC | **DoorDash (DASH) Q4 Earnings** | GIG | 🟠 | ✅ Check STATUS |
+| ~~**Feb 18**~~ | 4:00 PM | **Dec TIC Data Release** | LIQUID/SAM | 🔴 | ✅ Released — awaiting processing |
+| **Feb 19** | 8:30 AM | **Initial Claims** | LABOR | 🟠 | ⏳ TODAY — DHS distortion warning |
+| **Feb 19** | 2:00 PM | **FOMC Minutes (Jan meeting)** | PROME | 🟠 | ⏳ TODAY |
+| **Feb 19** | ~10:35 PM ET | **20Y JGB Auction Results** | SAM | 🔴 | ⏳ TONIGHT — BTC <2.0x = Path D |
+| **Feb 19** | overnight | **Shunto Electronics Demand** | SAM | 🟠 | ⏳ TONIGHT — ≥¥18,000 = Strong |
+| **Feb 19** | — | **VIX Expiration** | HENRY | 🟠 | ⏳ TODAY |
+| **Feb 20** | AMC | **PSEC (Prospect Capital) Q4 Earnings** | BROCK/OTTO | 🔴 | PENDING |
+| ~Feb 20 | — | Robert Half (RHI) Earnings | LABOR | 🟠 | PENDING |
+| ~Feb 20 | — | Statistics Canada (Jan) | MARCO | 🟠 | PENDING |
+| **Feb 21** | 3:30 AM ET | **German Flash PMI** | HANS | 🔴 | PENDING — <48 = March ISM sub-49 locked in |
 
 ---
 

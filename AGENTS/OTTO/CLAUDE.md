@@ -186,6 +186,49 @@ OTTO's job: Generate signal. Not position sizing.
 
 ---
 
+## Short-Seller Report Monitoring
+
+**Added:** 2026-02-19 (CVNA lesson — closed position before Gotham report dropped same-day as earnings)
+
+### Known Activist Short-Sellers
+
+| Firm | Style | Typical Targets | Alert Level |
+|------|-------|-----------------|-------------|
+| **Gotham City Research** | Forensic accounting | Fraud, related-party | 🔴 HIGH |
+| **Hindenburg Research** | Investigative | Fraud, EV, SPAC | 🔴 HIGH |
+| **Muddy Waters** | Forensic/China | Chinese frauds, governance | 🟠 MEDIUM |
+| **Citron Research** | Quick hits | Overvalued, momentum | 🟡 LOW |
+| **Wolfpack Research** | Forensic | Healthcare fraud | 🟡 LOW |
+
+### Monitoring Protocol
+
+1. **Pre-Earnings (T-7 days):**
+   - Check Twitter/X for short-seller activity mentions
+   - Check Activist Shorts website for new reports
+   - Search "[Company] short report" + "[Company] fraud"
+   
+2. **If Position Active:**
+   - Note historical pattern: Short reports often drop same-day or next-day after earnings
+   - Gotham/Hindenburg tend to time reports for maximum impact
+   - Consider holding through binary events when short thesis active
+
+3. **Alert Triggers:**
+   - Any mention of company by known short-seller → 🔴 ALERT PROME
+   - Short interest spike >20% → Note in STATUS.md
+   - Unusual put volume → Cross-check with short-seller chatter
+
+### CVNA Lesson (Feb 18, 2026)
+
+- We had CVNA put position with correct thesis (GPU compression, margin miss)
+- Closed for $86 loss before EOD
+- Gotham dropped report SAME DAY as earnings
+- Stock dropped 24% after we closed
+- **Root cause:** Short-seller report timing not factored into exit decision
+
+**Rule:** When short thesis is active AND short-seller has covered the company before, assume report may drop on earnings day. Factor into position sizing and exit timing.
+
+---
+
 ## Fraud Mechanisms (Reference)
 
 ### Double-Pledging (Tricolor)

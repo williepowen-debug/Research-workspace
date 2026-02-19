@@ -1,9 +1,10 @@
 ID	DATE	SITUATION	EVENT	SIGNIFICANCE	MARKET_IMPACT	STATUS
-FL-HAWK-001	2026-02-TBD	Iran	Geneva follow-up talks	Determines deal vs strike path	High — outcome defines trajectory	PENDING
-FL-HAWK-002	2026-02-TBD	Iran	USS Gerald Ford arrives in theater	Full strike capability in position	Medium — already pricing in	PENDING
-FL-HAWK-003	2026-02-TBD	Iran	Congressional briefings on military options	Political signal on strike authorization	Medium	PENDING
-FL-HAWK-004	2026-02-19	Japan	Shunto wage settlements begin	BOJ policy signal (cross-ref SAM)	High for Japan path	PENDING
+FL-HAWK-001	2026-02-24	Iran	Geneva follow-up talks (estimated)	Determines deal vs strike path	High — outcome defines trajectory	PENDING
+FL-HAWK-002	2026-02-22	Iran	USS Gerald Ford arrives in theater (estimated)	Full strike capability in position	Medium — already pricing in	PENDING
+FL-HAWK-003	2026-02-20	Iran	Congressional briefings on military options	Political signal on strike authorization	Medium	WATCH
+FL-HAWK-004	2026-02-19	Japan	Shunto wage settlements begin	BOJ policy signal (cross-ref SAM)	High for Japan path	ACTIVE
 FL-HAWK-005	2026-02-23	Trade	Farm Bill markup (H-2A provisions)	Cross-ref MARCO	Low direct HAWK relevance	PENDING
-FL-HAWK-006	2026-03-TBD	Venezuela	Any military exercise near Venezuela	Escalation indicator	Medium	WATCH
+FL-HAWK-006	2026-03-15	Venezuela	Any military exercise near Venezuela	Escalation indicator	Medium	WATCH
 FL-HAWK-007	2026-Q1	Taiwan	PLA exercises around Taiwan	Baseline or escalation indicator	Depends on scope	WATCH
 FL-HAWK-008	2026-Q1	Trade	Potential new China tariff announcements	Retaliation cycle trigger	Medium-High	WATCH
+FL-HAWK-009	2026-03-01	Russia	Russia gasoline export ban extension/expiry	Crack spread catalyst	High for refiners	PENDING
