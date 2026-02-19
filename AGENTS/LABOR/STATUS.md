@@ -108,6 +108,61 @@ Shows blue (reported) vs red (revised) — consistent overstatement through 2024
 
 ---
 
+## 🆕 LIQUIDITY STRESS → EMPLOYMENT TRANSMISSION (Feb 19, 2026)
+
+**Cross-agent signal from LIQUID/REGINALD:** Liquidity stress accelerating employment transmission timeline.
+
+### Signals This Week
+
+| Date | Signal | Magnitude |
+|------|--------|-----------|
+| Feb 10 | Blue Owl founders pledge $1.9B shares as collateral | 🟠 |
+| Feb 12 | Blue Owl announces $1.4B asset sale at 99.7% par | 🟠 |
+| Feb 18 | **Fed pumps $18.5B overnight repo** (4th largest since COVID) | 🔴 |
+| Feb 19 | **Blue Owl PERMANENTLY halts redemptions** on retail private credit fund | 🔴 |
+
+### Transmission Chain
+
+```
+Fed repo stress (dealer constraints) + Blue Owl halt (private credit freeze)
+                              ↓
+BOTH traditional bank AND non-bank lending channels tightening
+                              ↓
+Middle-market companies (PSEC universe) lose funding access
+                              ↓
+Employment cuts = ONLY variable left to preserve cash
+```
+
+### Accelerated Timeline
+
+| Stage | Event | Timing |
+|-------|-------|--------|
+| TODAY | Blue Owl redemption halt | Feb 19 |
+| +2-4 weeks | Other private credit funds face pressure | Mar 2026 |
+| +4-8 weeks | Middle-market companies lose funding | Apr 2026 |
+| +8-12 weeks | **Layoffs/WARN notices spike** | **May-Jun 2026** |
+| +12-16 weeks | **Initial claims spike** | **Jun-Jul 2026** |
+
+### Contagion Watch
+
+**If 2+ major private credit managers halt redemptions → ESCALATE:**
+- Ares Capital (ARCC)
+- Blackstone Secured Lending (BXSL)
+- Apollo (various funds)
+
+**Status:** Fuse lit. Q2-Q3 2026 danger window = **CONFIRMED AND POTENTIALLY ACCELERATING**
+
+### PSEC Earnings (Feb 20) — Leading Indicator
+
+Watch for:
+- PIK >40% (currently 35%) → RED
+- Dividend cut → Liquidity crisis
+- NAV decline >5% → Mark deterioration
+
+If PSEC shows stress → **Middle-market employment transmission = CONFIRMED ACTIVE**
+
+---
+
 ## BURRY LATE-CYCLE ASSESSMENT (Jan 12, 2026)
 
 **Key quotes from "Short Thoughts":**
