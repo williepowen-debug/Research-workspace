@@ -99,7 +99,7 @@
 
 | Metric | Current | Threshold | Signal |
 |--------|---------|-----------|--------|
-| RRP | ~$0 | N/A | Reserve scarcity |
+| RRP | ~$0.86B | <$5B | Reserve scarcity |
 | SOFR-Fed Funds | ~0bp | >20bp | 🔴 Stress |
 | 10Y Yield | ~4.5% | >4.75% | Rates breaking higher |
 | Belgium Holdings | $481B | >$500B | China proxy |
