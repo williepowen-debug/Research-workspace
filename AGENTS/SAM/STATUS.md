@@ -87,7 +87,7 @@ Japan is in a **fiscal doom loop** (acknowledged as "credible tail risk" by Alli
 |--------|-------|--------|--------|-----------|
 | **BOJ Rate** | **0.75%** | 🟡 | ⬆️ AT CEILING | Next hike = collision |
 | JGB 10Y | ~2.16-2.20% | 🟢 | ⬇️ from 2.29% | Watch >2.50% |
-| JGB 20Y | ~3.05% | 🟢 | ⬇️ from 3.19% | **FEB 19 AUCTION** |
+| JGB 20Y | ~2.965% | 🟢 | **FEB 19: BTC 3.08 PASSED** | Path D NOT triggered |
 | JGB 30Y | ~3.05-3.10% | 🟢 | ⬇️ from 3.57% | Watch >4.00% |
 | JGB 40Y | ~3.65% | 🟢 | ⬇️ from 3.85% | ATH 4.24% (Jan) |
 | USD/JPY | ~152-153 | 🟢 | ⬇️ from 156.25 | 160 🔴 |
