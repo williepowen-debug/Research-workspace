@@ -1,7 +1,7 @@
 # HAWK STATUS
 
-**Last Updated:** 2026-02-18 17:45 UTC  
-**Overall Status:** 🔴 RED — Iran buildup active + Ukraine refinery campaign escalating + Russian Revenue Thesis CONFIRMED
+**Last Updated:** 2026-02-19 03:40 UTC  
+**Overall Status:** 🔴 RED — Iran buildup + Shadow Fleet Enforcement Escalating + Russian Revenue Thesis CONFIRMED
 
 ---
 
@@ -216,7 +216,109 @@ Ukraine's refinery campaign is **BULLISH for refined products (gasoline, diesel)
 
 ---
 
-### 5. TRADE WAR 🟡 YELLOW — Tariffs Active
+### 🆕 5. SHADOW FLEET ENFORCEMENT 🔴 RED — Naval Confrontation Risk Rising
+
+**Added:** 2026-02-19 03:40 UTC
+
+**Summary:** US-led enforcement campaign seizing Russian/Iranian/Venezuelan shadow fleet tankers. Russia threatening naval response. 3.7M bpd (65% of Russian seaborne oil) at risk. Compounds Baltic ice squeeze.
+
+#### Scale of Shadow Fleet
+
+| Metric | Value | Source |
+|--------|-------|--------|
+| Total vessels | 1,100-1,500 | KSE/Wikipedia |
+| **Barrels per day** | **3.7M bpd** | CSIS/Kpler |
+| % of Russia seaborne oil | **65%** | CSIS |
+| Annual revenue | **$87-100B** | CSIS |
+| % over 15 years old | 72% | CSIS |
+| % lacking insurance | 60% | S&P Global |
+| **% now sanctioned** | **40%** | United24 |
+| **% halted operations** | **20%** | Zelenskyy |
+
+**Key insight:** Shadow fleet revenue (~$100B/yr) **exceeds total Western military/economic aid to Ukraine**.
+
+#### Enforcement Timeline
+
+| Date | Actor | Action | Significance |
+|------|-------|--------|--------------|
+| Mar 2025 | Germany | Seized Eventin + confiscated 100K tons oil | First cargo confiscation |
+| Apr 2025 | Estonia | Seized Kiwala (flagless) | Baltic enforcement |
+| **Jun 2025** | **Russia** | **Navy convoy escorts begin** | Corvette Boykiy escorts tankers through English Channel |
+| Sep 2025 | France | Seized Boracay | Putin called it "piracy" |
+| Nov 2025 | Ukraine | Drone strikes on tankers Virat, Kairos, Dashan | Kinetic attacks on fleet |
+| Dec 2025 | Ukraine | **First Mediterranean strike** | 1,750km range demonstrated |
+| Dec 2025 | Finland | Seized Eagle S (cable damage) | Sabotage linkage |
+| Jan 2026 | **US** | Seized Marinera | **Russia deployed submarine to escort** |
+| Feb 15 | US | Boarded Veronica III | Tried to evade quarantine |
+| **Feb 17** | **Russia** | **Patrushev threatens naval deployment** | "Navy will break any blockade" |
+
+#### Patrushev Statement (Feb 17, 2026)
+
+> "If this situation cannot be resolved peacefully, the navy will break any blockade and move to eliminate it."
+>
+> "Let's not forget that many vessels sail the seas under European flags – **we, too, may take an interest in what they are carrying and where they are headed.**"
+
+**Implication:** Russia threatening to seize European commercial vessels as retaliation.
+
+#### Military Dimension
+
+**Russia already escorting tankers:**
+- Jun 2025: First convoy — Selva + Sierra escorted by missile corvette Boykiy
+- Jan 2026: Submarine deployed to escort Marinera during US pursuit
+- Patrushev now threatening permanent naval escort presence
+
+**Ukraine drone strikes (US-approved):**
+- SBU conducting kinetic strikes on shadow tankers
+- Trump administration **approved assistance** (The Atlantic)
+- US considers it "important tool" to pressure Kremlin
+- First Mediterranean strike Dec 2025 — expanding operational range
+
+#### Escalation Scenarios
+
+| Scenario | Probability | Trigger | Market Impact |
+|----------|-------------|---------|---------------|
+| Naval Standoff | 25% | Russia escorts tanker, US/UK intercepts | Oil +$5-10, VIX +10-15 |
+| Shots Fired | 10% | Confrontation escalates | Oil +$15-25, VIX +25-40 |
+| Russia Seizes European Ship | 5% | Per Patrushev threat | Supply chain chaos, oil +$10-20, risk-off |
+| Major Tanker Sinking (Ukraine) | 15% | Drone strike success | Environmental crisis, shipping +50%, oil +$5-10 |
+| Status Quo Intensification | 45% | More seizures, more escorts | Gradual supply squeeze |
+
+#### Connection to Thesis
+
+| Vector | Status | Combined Effect |
+|--------|--------|-----------------|
+| Baltic Ice | 🔴 Active | Physical blockage of Baltic exports |
+| Shadow Fleet Seizures | 🔴 Escalating | 20% halted = ~740K bpd offline |
+| EU 598-vessel ban | 🔴 Active | Port/services denial |
+| Ukraine drone strikes | 🔴 Active | Kinetic attacks on tankers |
+| Insurance/maintenance | 🟠 Ongoing | 60% uninsured, aging fleet = accidents |
+
+**PINCER effect:** Russia's oil export channels being constricted from MULTIPLE directions simultaneously:
+- Baltic route: Ice + icebreaker limits
+- Atlantic/Med route: Seizures + naval interdiction
+- All routes: Insurance denial + aging fleet + Ukraine strikes
+
+**Net:** 3.7M bpd at risk. 20% already halted. This ADDS to Baltic ice squeeze (140M barrels floating storage).
+
+#### Cross-Agent Links
+
+| Agent | Transmission |
+|-------|--------------|
+| **LIQUID** | Compounds oil supply squeeze; validates TEN ice-class thesis |
+| **HENRY** | Escalation = VIX spike = gamma unwind |
+| **CARL** | Oil spike = gas prices = consumer pain |
+| **SAM** | Japan 90% energy import dependent |
+
+**Watch For:**
+- Russian naval escort deployments (Baltic, Atlantic)
+- US/UK/France seizure announcements
+- Ukraine drone strike reports
+- Russian retaliation against European shipping
+- Environmental disaster (uninsured tanker spill)
+
+---
+
+### 6. TRADE WAR 🟡 YELLOW — Tariffs Active
 
 **Current Status:**
 - China tariffs in place
@@ -239,11 +341,17 @@ Ukraine's refinery campaign is **BULLISH for refined products (gasoline, diesel)
 | **Ukraine refinery strikes (current)** | **Neutral** | **+$2-5** | **Minimal** | **Neutral** | **Ongoing** |
 | Ukraine refinery escalation | Neutral | +$5-10 | +5 | Neutral | Days |
 | Russia retaliates on Ukraine energy | +$5-10 | +$5-10 | +10 | Neutral | Days |
+| **Shadow fleet seizures (current)** | **+$2-5** | **+$2-5** | **Minimal** | **Neutral** | **Ongoing** |
+| **Shadow fleet naval confrontation** | **+$10-20** | **+$10-20** | **+15-30** | **Yields down** | **Hours** |
+| **Russia seizes European ship** | **+$10-20** | **+$10-20** | **+20-35** | **Yields down** | **Hours** |
 | Venezuela intervention | +$5-10 | +$5-10 | +10 | Mixed | Days |
 | Taiwan crisis | +$10-20 | +$10-20 | +30-50 | Yields down | Hours |
 | Trade escalation | Sector-specific | Sector-specific | +5-10 | Mixed | Days |
 
-**Key distinction:** Ukraine strikes affect PRODUCTS (gasoline/diesel) more than CRUDE. Iran affects CRUDE directly (supply disruption).
+**Key distinctions:** 
+- Ukraine strikes affect PRODUCTS (gasoline/diesel) more than CRUDE
+- Iran affects CRUDE directly (supply disruption)
+- Shadow fleet enforcement affects CRUDE supply + creates naval escalation risk
 
 ---
 
