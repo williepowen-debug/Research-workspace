@@ -3,9 +3,9 @@
 
 ---
 
-## System Status: 🔴 CRITICAL — FEB 19 CATALYST LIVE
+## System Status: 🔴 CRITICAL — LIQUIDITY STRESS SIGNALS + FEB 19 CATALYSTS COMPLETE
 
-**Shunto ✅ CONFIRMED ("Strong" — Sharp ¥18,000). JGB auction ⏳ results pending (~15 min lag).**
+**Japan: Shunto ✅ ¥18K, JGB ✅ BTC 3.08 passed. Liquidity: Fed repo $18.5B 🔴, Blue Owl halt 🔴**
 
 ---
 
