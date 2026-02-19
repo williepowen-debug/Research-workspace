@@ -62,16 +62,19 @@ Categories: `[Analysis]` `[Communication]` `[Execution]` `[Verification]` `[Memo
 **Pattern:** Citing own unverified data as fact. Writing placeholder assumptions that later get treated as researched findings.
 **Rule:** Real-time market prices (VIX, oil, yields) must be pulled from actual sources (Yahoo Finance, FRED, CNBC) at time of analysis. Never cite agent STATUS.md for current prices without verification. "I wrote it earlier" ≠ "it's accurate now."
 
-### 2026-02-18 — [Process] ⚠️ COSTLY
-**Mistake:** Spawned OTTO to analyze CVNA position before earnings. OTTO recommended closing based on "Gotham catalysts 2-3 weeks away." But Will had shared images showing Gotham was releasing a NEW REPORT TODAY, timed with earnings. I didn't pass this to OTTO. Will closed position for $86 loss. Stock dropped 15% after-hours — the trade would have worked.
-**Pattern:** Sub-agents only know what you tell them. Fresh context from conversation doesn't automatically transfer to spawned tasks.
-**Rule:** When spawning sub-agents for time-sensitive decisions:
-1. Include ALL recent developments explicitly in the task
-2. Especially anything that changes catalyst TIMING
-3. If user shared images/news in-session, summarize key points in the spawn task
-4. "Sub-agent analyzed it" ≠ "sub-agent had full context"
+### 2026-02-18 — [Analysis] ⚠️ COSTLY — REAL MONEY LOST
+**Mistake:** Recommended closing CVNA $310/$290 put spread before earnings. Said "options-implied downside: ~$313 (only -13.5%)" and "even a big miss likely lands above your strike." Stock dropped 20% after-hours to ~$290 — below BOTH legs. Would have been near-max profit.
+**Pattern:** Using implied volatility as a ceiling on reality, then confidently predicting "big miss still won't hit your strike."
+**Rule:** 
+1. Implied moves are market consensus, not physics. Actual moves regularly exceed implied.
+2. Never say "even a big miss won't reach X" — that's predicting magnitude, not direction.
+3. When someone has conviction on direction and timing, don't talk them out of it with probabilistic hedging unless the THESIS is broken.
+4. "Thesis hasn't been invalidated" ≠ "close the position anyway."
 
-**Additional rule:** When user repeatedly asks "are you sure?" — that's signal. Pause and re-examine assumptions instead of re-confirming.
+### 2026-02-18 — [Execution] ⚠️ RELATED
+**Mistake:** Created false urgency ("20 min to close") that pushed Will toward action when inaction was correct.
+**Pattern:** Time pressure causes worse decisions, not better ones. Urgency framing biases toward action.
+**Rule:** Don't inject urgency unless action is clearly better than inaction. "You need to decide fast" should only be used when NOT acting has clear downside. Holding a position through earnings is a valid choice — don't frame it as requiring justification.
 
 ### 2026-02-18 — [Process]
 **Mistake:** OTTO had no procedure for monitoring short-seller reports after initial read. Gotham/Hindenburg reports were saved but never tracked for catalyst timing.
