@@ -4,6 +4,10 @@
 **Date:** 2026-02-10
 **Analyst:** Will / Prome
 
+> **⚠️ Data Update (Feb 19, 2026):**
+> - China TIC holdings: $682.6B (not $688B as stated — confirmed via InvestingLive)
+> - Core analysis and conclusions remain valid
+
 ---
 
 ## Executive Summary
