@@ -241,14 +241,16 @@ Trigger (BOJ hike, risk-off, yen intervention)
 
 | Metric | Current | 🟡 Yellow | 🟠 Orange | 🔴 Red |
 |--------|---------|-----------|-----------|--------|
-| JGB 10Y Yield | ~2.29% | 2.30% | 2.50% | 3.00% |
-| JGB 30Y Yield | ~3.57% | 3.75% | 4.00% | 4.50% |
-| USD/JPY | ~156 | 158 | 160 | 163 |
+| JGB 10Y Yield | ~2.16-2.20% | 2.30% | 2.50% | 3.00% |
+| JGB 30Y Yield | ~3.05-3.10% | 3.75% | 4.00% | 4.50% |
+| USD/JPY | ~152-153 | 158 | 160 | 163 |
+| BOJ Rate | **0.75%** | — | — | **>0.75% = COLLISION** |
 | 20Y Auction BTC | — | <2.8x | <2.4x | <2.0x |
 | MOF Weekly Flow | — | -¥500B/mo | -¥1T/mo | -¥2T/mo |
 | Real Wage Growth | ~0.0% | 0.0% | -0.5% | -1.0% |
 
 **Full dashboard:** See STATUS.md and workbook/VX.tsv
+*Last updated: 2026-02-19*
 
 ---
 

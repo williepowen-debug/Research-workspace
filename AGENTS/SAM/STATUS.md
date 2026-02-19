@@ -634,11 +634,11 @@ This is a **multi-event day**. If JGB fails AND FOMC is dovish (US rates fall, n
 ### JGB/BOJ Thresholds
 | Metric | Current | Watch Level | Interpretation |
 |--------|---------|-------------|----------------|
-| 10Y JGB | ~2.29% | >2.50% | 🔴 RED ALERT |
-| 30Y JGB | ~3.57% | >4.00% | Accelerate repatriation |
-| 40Y JGB | ~3.85% | >5.00% | Crisis liquidation |
-| USD/JPY | ~156 | >160 | MOF intervention |
-| **BOJ Rate** | **0.25%** | **>0.75%** | 🔴 **POLITICAL COLLISION** |
+| 10Y JGB | ~2.16-2.20% | >2.50% | 🔴 RED ALERT |
+| 30Y JGB | ~3.05-3.10% | >4.00% | Accelerate repatriation |
+| 40Y JGB | ~3.65% | >5.00% | Crisis liquidation |
+| USD/JPY | ~152-153 | >160 | MOF intervention |
+| **BOJ Rate** | **0.75%** | **>0.75%** | 🔴 **POLITICAL COLLISION — CEILING ALREADY REACHED** |
 
 ### UST Early Warning Signals
 
