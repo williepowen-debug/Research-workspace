@@ -178,6 +178,20 @@ Japan is in a **fiscal doom loop** (acknowledged as "credible tail risk" by Alli
 
 ## SHUNTO 2026 (Wage Negotiations)
 
+### 🟢 FEB 19 UPDATE: ¥18,000 DEMAND CONFIRMED — "STRONG" THRESHOLD MET
+
+**Sharp (electronics):** ¥18,000 wage demand submitted Feb 18 — **HIGHEST SINCE 1998**
+- 2025 demand: ¥17,000 → 2026: ¥18,000 (+5.9% escalation)
+- Management response: March 18
+- This MEETS the "Strong" threshold (≥¥18,000 = ≥3.6% base-up)
+
+Other demands filed:
+- Toyota Group: Record bonus demand (5.29 months avg)
+- Daihatsu: ¥22,000 total
+- Mazda: ¥19,000 total
+
+**Implication:** BOJ hike path strengthening. April meeting now ~85% if Shunto settlement confirms these levels.
+
 **Late March results determine BOJ path.**
 
 | Outcome | Nominal Wage | Real Wage | BOJ Response | Probability |
