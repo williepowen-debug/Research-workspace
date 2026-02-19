@@ -182,7 +182,7 @@ Japan is in a **fiscal doom loop** (acknowledged as "credible tail risk" by Alli
 
 | Outcome | Nominal Wage | Real Wage | BOJ Response | Probability |
 |---------|--------------|-----------|--------------|-------------|
-| **Strong (≥3.5%)** | +3.5%+ | +1.1%+ GREEN | Hike to 0.50-0.75% | **48%** |
+| **Strong (≥3.5%)** | +3.5%+ | +1.1%+ GREEN | Hike to **1.00%** | **48%** |
 | Moderate (2.5-3.5%) | +2.5-3.5% | 0-1.1% YELLOW | Cautious | 42% |
 | Weak (<2.5%) | <2.5% | Negative RED | TRAPPED | 10% |
 
@@ -691,7 +691,7 @@ This is a **multi-event day**. If JGB fails AND FOMC is dovish (US rates fall, n
 | Date | Event | Priority |
 |------|-------|----------|
 | **Feb 19** | **20Y JGB Auction + Electronics Shunto** | 🔴 CRITICAL |
-| Mar 18-19 | BOJ Meeting | 🔴 |
+| Mar 13-14 | BOJ Meeting | 🔴 |
 | March 31 | Budget Deadline (WILL MISS) | 🔴 |
 | **April** | **BOJ Meeting — DANGER ZONE** | 🔴 |
 | April-May | Full Budget Passage | 🔴 |
