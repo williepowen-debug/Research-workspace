@@ -1,5 +1,5 @@
 # CARL STATUS
-**Last Updated:** 2026-02-18 | **Status:** 🔴 RED — Fannie MF DQ IMMINENT BREACH (6bps from GFC peak), Foreclosures +32% YoY Jan 2026, FHA DQ highest since 2021, DOGE contractor fast-path ACTIVE | **Maryland DOGE→DQ transmission CONFIRMED** | Gas Transmission Analysis Complete (marginal impact)
+**Last Updated:** 2026-02-19 | **Status:** 🔴 RED — Fannie MF DQ IMMINENT BREACH (6bps from GFC peak), Subprime Auto RECORD (6.9%, 0.1pp from RED), Private Credit Freeze ACTIVE (Blue Owl) | **DUAL TRANSMISSION PATHS: DOGE (0-2mo) + Private Credit Middle-Market (May-Jun layoffs → Q3 conversion)** | Maryland DOGE→DQ CONFIRMED
 
 ---
 
@@ -591,7 +591,51 @@ Neither alone is sufficient. **Employment provides the liquidity shock.** When b
 | **CPSS** | 🟠 HIGH | Class-action, $900M forward flow dependency |
 | Tricolor | 💀 | $800M fraud, Fifth Third took $170M loss |
 
+**Scale Context:**
+- **3 MILLION cars repossessed in 2025** (vs 1.7M in GFC 2009) = **+76% above GFC peak**
+- Total auto debt: $1.67 trillion (+$312B in 5 years)
+- Subprime 60+ DQ: 6.9% (ALL-TIME RECORD, 0.1pp from RED threshold)
+
 **Cockroach theory:** If Tricolor hid $800M, others likely hiding losses too.
+
+---
+
+## BDC/PRIVATE CREDIT → EMPLOYMENT → CONSUMER TRANSMISSION (NEW Feb 19, 2026)
+
+**From LABOR:** Blue Owl private credit fund **PERMANENTLY halted redemptions** (Feb 19). Fed pumped $18.5B overnight repo (Feb 18, 4th largest since COVID). This is NOT isolated — it's a liquidity freeze signal.
+
+### Transmission Chain
+
+```
+Fed repo stress (dealer constraints) + Blue Owl halt (private credit freeze)
+                              ↓
+BOTH traditional bank AND non-bank lending channels tightening
+                              ↓
+Middle-market companies (PSEC universe) lose funding access
+                              ↓
+Employment cuts = ONLY variable left to preserve cash
+                              ↓
+Consumer stress accelerates (CARL conversion)
+```
+
+### Accelerated Timeline
+
+| Stage | Event | Timing |
+|-------|-------|--------|
+| **TODAY** | Blue Owl redemption halt | Feb 19 |
+| +2-4 weeks | Other private credit funds face pressure | Mar 2026 |
+| +4-8 weeks | Middle-market companies lose funding | Apr 2026 |
+| +8-12 weeks | **Layoffs/WARN notices spike** | **May-Jun 2026** |
+| +12-16 weeks | **Consumer delinquencies rise** | **Q3 2026** |
+
+**CARL Monitoring:**
+- **Primary:** BROCK tracks BDC stress (PSEC PIK >40%, dividend cuts, NAV declines)
+- **Secondary:** LABOR tracks employment cuts (WARN filings, layoff announcements)
+- **CARL role:** Measure consumer conversion velocity when middle-market layoffs materialize
+
+**Key Catalyst:** PSEC Q4 earnings (Feb 20, 2026) — if PIK >40% or dividend cut → confirms middle-market stress ACTIVE.
+
+**Cross-reference:** BROCK STATUS.md for BDC portfolio quality; LABOR STATUS.md for employment transmission timing.
 
 ---
 
@@ -607,6 +651,8 @@ Bank NCOs rise (REGINALD) → Earnings release
 **Timeline:** 3-9 months from employment break to visible bank credit deterioration.
 
 **LABOR danger (Q2-Q3 2026) → CARL conversion (Q3-Q4 2026) → REGINALD stress (Q4 2026-Q1 2027)**
+
+**NEW ACCELERANT (Feb 19):** Private credit freeze creates DUAL employment transmission path (DOGE + middle-market), compressing conversion timeline.
 
 ---
 
@@ -643,12 +689,19 @@ Bank NCOs rise (REGINALD) → Earnings release
 
 | Quarter | Cohort | Trigger | CARL Impact |
 |---------|--------|---------|-------------|
-| **Q1-Q2 2026** | **Federal contractors (DOGE)** | **ACTIVE NOW** — stop-work orders, terminated contracts | **NEW FAST PATH**: CC/Auto misses within 0-2 months; MD/VA/DC metro concentrated |
+| **Q1-Q2 2026** | **Federal contractors (DOGE)** | **ACTIVE NOW** — stop-work orders, terminated contracts | **FAST PATH #1**: CC/Auto misses within 0-2 months; MD/VA/DC metro concentrated |
 | **Q2 2026** | Hourly/gig | Severance exhausts | CC/Auto 30+ DQ spikes |
 | **Q2-Q3 2026** | Direct federal employees (RIF) | CR protection expired, 4K unblocked | Moderate acceleration vs prior Q3-Q4 estimate |
+| **Q2-Q3 2026** | **Private credit middle-market (Blue Owl freeze)** | **NEW: Liquidity stress → funding loss → layoffs (May-Jun)** | **FAST PATH #2**: Employment cuts materialize Q2 → Q3 consumer conversion; overlaps with DOGE cohort |
 | **Q3 2026** | Salaried private | 2-5mo conversion | Broad consumer stress |
 | **Q3-Q4** | Public sector (state/local) | LAUSD-type cuts | 3-6mo lag |
 | **Q4 2026+** | All cohorts | → Foreclosures | Housing stress materializes |
+
+**DUAL TRANSMISSION PATHS NOW ACTIVE:**
+1. **DOGE (federal contractors):** 0-2 month lag, converting NOW
+2. **Private credit freeze:** May-Jun layoffs → Q3 consumer conversion
+
+**Combined effect:** Q2-Q3 consumer stress ACCELERATED beyond original forecasts.
 
 **Key Dynamics:**
 - LABOR severance runways exhaust Q2 → UI claims spike
@@ -822,6 +875,8 @@ The 17x gap (6.9% vs 0.4%) = K-shape economy visualized. Subprime at record, pri
 | LABOR | Severance exhausts | Q2-Q3 claims spike |
 | LABOR | **DOGE contract terminations accelerating** | **NEW: Q1-Q2 fast-path; contractors convert 0-2 months; MD/VA/DC = stress concentration** |
 | LABOR | **Federal RIF unblocked (CR expired)** | **NEW: ~4,000 immediate + pipeline; 1-3 month conversion; claims signal unreliable until Mar 5-12** |
+| LABOR | **Blue Owl private credit freeze (Feb 19)** | **NEW: Liquidity stress → middle-market credit freeze → employment cuts (May-Jun) → Q3 consumer conversion; DUAL transmission path with DOGE** |
+| BROCK | BDC stress (PSEC PIK >40%, dividend cuts) | Leading indicator for middle-market employment cuts → consumer stress acceleration |
 | HENRY | SPX -10%+ | Reverse Wealth Effect (fast path) |
 | REGINALD | Credit tightens | Refinance options disappear |
 
