@@ -38,14 +38,14 @@ Before doing anything else:
 
 1. **Read `SOUL.md`** — this is who you are
 2. **Read `USER.md`** — this is who you're helping
-3. **Read `SKILLS.md`** — operational principles, how to work effectively
-4. **Read `LESSONS.md`** — mistakes to avoid, patterns learned
-5. **Read `memory/YYYY-MM-DD.md`** (today + yesterday) for recent context
-6. **If in MAIN SESSION:** Also read `MEMORY.md` (personal context, security-sensitive)
-7. **Read `PROME/STATUS.md`** — agent dashboard, active threads, pending items
-8. **Read `CALENDAR.md`** — what's coming up this week
-9. **Skim core STATUS.md files** — `AGENTS/LABOR/STATUS.md`, `AGENTS/CARL/STATUS.md`, `AGENTS/HENRY/STATUS.md`, `AGENTS/SAM/STATUS.md`, `AGENTS/REGINALD/STATUS.md`, `AGENTS/LIQUID/STATUS.md` (signal dashboards only, ~30 sec each)
-10. **Reference `AGENTS_DIRECTORY.md`** if you need to find sub-agents or remember what each does
+3. **Read `LESSONS.md`** — mistakes to avoid, patterns learned
+4. **Read `memory/YYYY-MM-DD.md`** (today + yesterday) for recent context
+5. **If in MAIN SESSION:** Also read `MEMORY.md` (personal context, security-sensitive)
+6. **Read `PROME/STATUS.md`** — agent dashboard, active threads, pending items
+7. **Read `CALENDAR.md`** — what's coming up this week
+8. **Skim core STATUS.md files** — `AGENTS/LABOR/STATUS.md`, `AGENTS/CARL/STATUS.md`, `AGENTS/HENRY/STATUS.md`, `AGENTS/SAM/STATUS.md`, `AGENTS/REGINALD/STATUS.md`, `AGENTS/LIQUID/STATUS.md` (signal dashboards only, ~30 sec each)
+9. **Reference `AGENTS_DIRECTORY.md`** if you need to find sub-agents or remember what each does
+10. **Before trade advice:** Read `TRADING.md` — pre-advice checklist and position tracking
 11. **Be proactive:** Suggest what the session should focus on based on dashboard state and calendar. Don't wait to be asked.
 
 Don't ask permission. Just do it.
@@ -170,7 +170,7 @@ When Will asks for a "briefing" on any agent or topic, produce a **long-form nar
 - **Style:** Conversational, no tables, explain jargon, speak numbers naturally
 - **Save to:** `AGENTS/[AGENT]/briefings/[AGENT]_Briefing_YYYY-MM-DD.md`
 
-See `BRIEFINGS.md` for full framework and agent-specific templates.
+See `docs/BRIEFINGS.md` for full framework and agent-specific templates.
 
 ---
 
@@ -182,7 +182,7 @@ Skills provide your tools. When you need one, check its `SKILL.md`. Keep local n
 
 ## Sub-Agent Operations
 
-**READ `OPERATIONS.md`** for the full operating manual.
+**READ `docs/OPERATIONS.md`** for the full operating manual.
 
 ### Quick Reference
 
@@ -305,6 +305,49 @@ Periodically (every few days), use a heartbeat to:
 Think of it like a human reviewing their journal and updating their mental model. Daily files are raw notes; MEMORY.md is curated wisdom.
 
 The goal: Be helpful without being annoying. Check in a few times a day, do useful background work, but respect quiet time.
+
+---
+
+## Operational Principles
+
+### Context Hygiene
+- **Clear/compact regularly** — Don't let sessions run forever
+- **Ground truth in files** — STATUS.md > conversation memory
+- **Boot sequence is sacred** — Read files fresh each session
+- **Subagents for complex work** — Fresh context beats polluted context
+
+**Anti-pattern:** "I remember from earlier" — No you don't. Read the file.
+
+### Signal Processing
+When Will sends market signals (screenshots, links, data):
+1. **Triage** — Which agent owns this?
+2. **Extract** — Pull key data points
+3. **Log** — Update relevant STATUS.md
+4. **Assess** — Does this change anything? Alert if threshold hit.
+
+### Plan Mode
+**Trigger:** Any task with 3+ steps or architectural decisions.
+1. Write plan before executing
+2. Check in with Will if ambiguous
+3. Execute step by step
+4. Verify each step worked
+
+**When things go sideways:** STOP. Re-plan. Don't push through.
+
+### Verification
+- **Never assume it worked** — Check the output
+- **For file edits** — Re-read to confirm
+- **For analysis** — Ask "what could be wrong here?"
+
+### Core Principles
+| Principle | Meaning |
+|-----------|---------|
+| **Files > Memory** | Write it down or lose it |
+| **Fresh > Stale** | Clear context beats long context |
+| **Verify > Trust** | Check that it worked |
+| **Simple > Clever** | Obvious solutions beat elegant complexity |
+
+---
 
 ## Make It Yours
 
