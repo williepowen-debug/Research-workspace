@@ -20,7 +20,7 @@
   - TGA: ~$900B (rebuilt from $300B, drained ~$600B from system)
   - SOFR spread: WIDENING above Fed's preferred range
 - **STRUCTURAL RISK — BASIS TRADE DEPENDENCY:**
-  - 40-50% of Treasury absorption = 50-100x levered hedge fund basis trades
+  - 40-50% of Treasury absorption = highly levered hedge fund basis trades (typically 10-50x)
   - Funded in repo market
   - If repo breaks → basis trade unwinds → forced Treasury selling → yield spike
   - **Fed officials warned about this Q3-Q4 2025** — now materializing
@@ -144,7 +144,7 @@
 - **SRF spiking** — $30.5B (third highest since summer 2020), afternoon abnormal
 - **Fed doing stealth QE** — $8B RMPs printed to ease repo stress, balance sheet UP
 - **Dealers stuffed** — ~$200B net long Treasuries, SLR prevents expansion
-- **Basis trade CRITICAL** — 40-50% of Treasury absorption = 50-100x levered HFs funded by repos
+- **Basis trade CRITICAL** — 40-50% of Treasury absorption = highly levered HFs (10-50x typical) funded by repos
   - **Fed officials warned Q3-Q4 2025** — now materializing
   - If repo breaks → forced unwind → Treasury selling cascade
 - **Rolling pressure** — $600B T-bills every 5 days, structural repo dependency
@@ -174,7 +174,7 @@ System transitioning from **official-sector stability** to **private-sector frag
 | **Reserve Balances** | **$2.9T** | 🟡 | Declining, <$2.8T = ORANGE |
 | **Fed RMPs (Stealth QE)** | **$8B** (Feb 18) | 🟠 | Balance sheet turning UP |
 | Dealer Net Position | ~$200B | 🟠 | >$200B clogged |
-| **Basis Trade Exposure** | **$1.85T** | 🟠 | 40-50% of TSY absorption, 50-100x levered |
+| **Basis Trade Exposure** | **$1-2T** | 🟠 | 40-50% of TSY absorption, typically 10-50x levered |
 | Treasury FTD | $42.4B | 🟡 | >$50B orange |
 | Auction BTC (10Y) | 2.53x (Feb 11) | 🟡 | <2.30x orange — Feb 11 had 1.4bps tail (ugly) |
 | **TGA Balance** | **~$900B** | 🟠 | Drained $600B from system |
@@ -228,7 +228,7 @@ System transitioning from **official-sector stability** to **private-sector frag
 
 ### 1. Basis Trade Unwind (ACTIVELY STRESSED — FEB 18-19)
 **STATUS: Fed officials warned Q3-Q4 2025, now materializing**
-- 40-50% of Treasury absorption = 50-100x levered HF basis trades
+- 40-50% of Treasury absorption = highly levered HF basis trades (10-50x typical)
 - Funded by repo market ($2.48T FICC sponsored repo)
 - $600B T-bills rolling every 5 days creates structural dependency
 - **Feb 18-19 stress sequence:**
@@ -285,7 +285,7 @@ The "decline" from $1.06T (2021) is largely **migration to offshore custodians**
 
 | Source | Annual Withdrawal | Driver |
 |--------|-------------------|--------|
-| Japan (life insurers) | ~$150B | 30Y JGB at ~3.05%, hedge costs high |
+| Japan (life insurers) | ~$150B | 30Y JGB at 3.39% (peaked 3.9% Jan), hedge costs high |
 | China (strategic) | ~$100B | Window guidance, trade war prep |
 | Saudi Arabia | ~$50B | Vision 2030 deficits |
 | **TOTAL** | **~$300B/yr** | |
@@ -316,7 +316,7 @@ The "decline" from $1.06T (2021) is largely **migration to offshore custodians**
 
 | Buyer | Mechanism | Risk |
 |-------|-----------|------|
-| Basis trade HFs | $1.85T, **50-100x leverage** | Reflexive deleveraging |
+| Basis trade HFs | $1.85T, **10-50x leverage typical (extremes to 100x)** | Reflexive deleveraging |
 | Domestic banks | eSLR relief (+$34.5B/G-SIB) | Regulatory capture |
 | Stablecoins/MMFs | GENIUS Act | Front-end only |
 
@@ -429,7 +429,7 @@ Timeline: May 2026 Powell term expires.
    - SRF spiked to $30.5B (third highest since summer 2020)
    - SOFR spread widening above Fed preferred range
    - Fed forced to print $8B (stealth QE) to prevent breakdown
-   - **40-50% of Treasury absorption = 50-100x levered basis trades funded by repo**
+   - **40-50% of Treasury absorption = highly levered basis trades (10-50x typical) funded by repo**
    - **If repo breaks → forced unwind → Treasury cascade**
 
 2. **Foreign buyer exiting** 
