@@ -176,7 +176,7 @@ System transitioning from **official-sector stability** to **private-sector frag
 | Dealer Net Position | ~$200B | 🟠 | >$200B clogged |
 | **Basis Trade Exposure** | **$1.85T** | 🟠 | 40-50% of TSY absorption, 50-100x levered |
 | Treasury FTD | $42.4B | 🟡 | >$50B orange |
-| Auction BTC (10Y) | 2.39x | 🟡 | <2.30x orange |
+| Auction BTC (10Y) | 2.53x (Feb 11) | 🟡 | <2.30x orange — Feb 11 had 1.4bps tail (ugly) |
 | **TGA Balance** | **~$900B** | 🟠 | Drained $600B from system |
 | **T-bill Rolling Pressure** | **$600B/5 days** | 🟠 | Structural repo dependency |
 
@@ -285,7 +285,7 @@ The "decline" from $1.06T (2021) is largely **migration to offshore custodians**
 
 | Source | Annual Withdrawal | Driver |
 |--------|-------------------|--------|
-| Japan (life insurers) | ~$150B | 30Y JGB at 3.9%, hedge costs high |
+| Japan (life insurers) | ~$150B | 30Y JGB at ~3.05%, hedge costs high |
 | China (strategic) | ~$100B | Window guidance, trade war prep |
 | Saudi Arabia | ~$50B | Vision 2030 deficits |
 | **TOTAL** | **~$300B/yr** | |
@@ -307,7 +307,7 @@ The "decline" from $1.06T (2021) is largely **migration to offshore custodians**
 | Metric | Value |
 |--------|-------|
 | Belgium holdings | $481B (+33% YoY) |
-| China official | $688B (down from $1.06T peak) |
+| China official | $688B (down from $1.32T all-time peak, $1.06T in 2021) |
 | Combined flow | -$100B/quarter (est) |
 
 **Interpretation:** China down $372B from peak, Belgium up $180B = net -$192B outflow. Not custody migration — actual exit.
@@ -316,13 +316,13 @@ The "decline" from $1.06T (2021) is largely **migration to offshore custodians**
 
 | Buyer | Mechanism | Risk |
 |-------|-----------|------|
-| Basis trade HFs | $1.4T, **18:1 leverage** | Reflexive deleveraging |
+| Basis trade HFs | $1.85T, **50-100x leverage** | Reflexive deleveraging |
 | Domestic banks | eSLR relief (+$34.5B/G-SIB) | Regulatory capture |
 | Stablecoins/MMFs | GENIUS Act | Front-end only |
 
 **System transitions from official-sector stability to private-sector fragility.**
 
-**Watch Dates:** Feb 18 TIC release, April Trump-Xi summit
+**Watch Dates:** Mid-March TIC release (Jan 2026 data), April Trump-Xi summit
 
 ---
 
