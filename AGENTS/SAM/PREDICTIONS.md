@@ -19,7 +19,7 @@
 | # | Prediction | Timeframe | Confidence | Status | Invalidation |
 |---|------------|-----------|------------|--------|--------------|
 | 5 | BOJ signals faster hikes post-election | Feb-Mar 2026 | 70% | ⏳ Pending | BOJ maintains dovish tone through March |
-| 8 | April BOJ hike to 0.75% if Shunto strong | Apr 23-24 | 85% (conditional) | ⏳ Pending | Shunto <3.5% OR BOJ holds despite strong Shunto |
+| 8 | April BOJ hike to **1.00%** if Shunto strong | Apr 23-24 | 85% (conditional) | ⏳ Pending | Shunto <3.5% OR BOJ holds despite strong Shunto. NOTE: BOJ already at 0.75% (hiked Dec 2025). Next hike = 1.00% = Takaichi collision. |
 | 11 | BOJ terminal rate capped at 0.75% (political ceiling) | 2026 | 65% | ⏳ Pending | BOJ hikes above 0.75% without political backlash |
 
 ### Shunto / Wages
