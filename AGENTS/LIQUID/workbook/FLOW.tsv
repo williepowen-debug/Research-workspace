@@ -1,5 +1,5 @@
 Flow_ID	Name	Speed	Status	Layer	Trigger	Current_Position	Key_Insight
-FLOW-LIQUID-1.01	RRP Depletion Cascade	HOURS to DAYS	ARMED	Domestic Funding	RRP <$5B AND any flow shock	At floor ($10.4B as of Feb 2) - TRIGGERED	Zero buffer gone. System now entirely Fed-dependent. Fed responded with RMP. $10B still ~0% of $2.5T peak.
+FLOW-LIQUID-1.01	RRP Depletion Cascade	HOURS to DAYS	ARMED	Domestic Funding	RRP <$5B AND any flow shock	At floor (~$0.86B as of Feb 18) - TRIGGERED	Zero buffer gone. System now entirely Fed-dependent. Fed responded with RMP + $8B stealth QE. <$1B vs $2.5T peak = effectively zero.
 FLOW-LIQUID-1.02	Japan Repatriation Transmission	DAYS	LATENT	Cross-Border	USD/JPY >160 OR BOJ emergency	USD/JPY ~158 (Feb 2)	RRP depletion removes shock absorber for Japan flows. Japan election Feb 8.
 FLOW-LIQUID-2.01	FHLB Stress Cascade	DAYS to WEEKS	LATENT	Domestic	Advance rate >85%, delivery issues	Normal	Hidden second-order stress path. REGINALD monitors.
 FLOW-LIQUID-2.02	Basis Trade Unwind Cascade	HOURS	ARMED	Domestic/Leverage	SOFR spike + MMF WAM shortening	$1.85T exposure	MMF→FICC→Dealers→HF→Basis Trade. If MMFs pull repo, HFs forced to sell Treasuries. March 2020 repeat without buffer.
