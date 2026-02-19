@@ -334,7 +334,7 @@ Exit 100% if **ANY:**
 | **BROCK Large Bankruptcies** | **9 last week** | **Sustained >5/week** | **Already there** | **Ongoing** |
 | **Japan Shunto** | **TBD** | **≥3.5% = "Strong"** | **Feb 19** | **2 days** |
 | **Japan 20Y JGB BTC** | **TBD** | **<2.0x = stress** | **Feb 19** | **2 days** |
-| **PSEC Dividend Coverage** | **~1.0x** | **<1.0x = cut** | **Feb 20 report** | **3 days** |
+| **PSEC Dividend Coverage** | **~1.0x** | **<1.0x = cut** | ~~Feb 20~~ **Feb 9-10 REPORTED** | ✅ Dividend maintained |
 | **Fannie MF DQ** | 0.75% | 0.80% GFC peak | 0.05pp | Q1 2026 |
 | **CC 90+ DQ** | 12.70% | 13.74% GFC peak | 1.04pp | Q2 2026 |
 | **CBRE** | -12% | -15% acceleration | 3pp | Watching |
@@ -371,10 +371,10 @@ Exit 100% if **ANY:**
   - >3.0x = strong demand
 - **If BOTH fire (Shunto ≥3.5% AND BTC <2.0x) = Path D trigger**
 
-**Feb 20 (Thursday):**
-- PSEC (Prospect Capital) earnings — Highest PIK (35%)
-- Watch dividend coverage (cash NII / dividend)
-- If <1.0x or dividend cut = validates shadow defaults
+**~~Feb 20~~ Feb 9-10 (COMPLETE):**
+- PSEC (Prospect Capital) earnings — ✅ REPORTED
+- **Result:** Dividend MAINTAINED (did NOT cut)
+- PIK remains elevated (~35%) but no immediate stress signal
 
 **Mid-Feb (TBD):**
 - Wright mortgage data update (Nov→Dec, Dec→Jan flows)

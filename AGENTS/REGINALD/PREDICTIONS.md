@@ -53,7 +53,7 @@
 
 | # | Prediction | Date | Confidence | What to Watch |
 |---|------------|------|------------|---------------|
-| 10 | PSEC dividend action | Feb 20 | 65% | Earnings call, coverage ratio |
+| 10 | PSEC dividend action | ~~Feb 20~~ **Feb 9-10 (REPORTED)** | 65% | **RESULT: Dividend MAINTAINED** |
 | 11 | FSK dividend coverage | Feb 25 | 55% | PIK %, cash NII vs dividend |
 
 ---
@@ -119,7 +119,7 @@
 
 | Date | Bank | Ticker | Priority | Watch For |
 |------|------|--------|----------|-----------|
-| **Feb 20** | PSEC | PSEC | 🔴 | Dividend action, PIK 35% |
+| ~~Feb 20~~ **Feb 9-10** | PSEC | PSEC | ✅ COMPLETE | Dividend MAINTAINED |
 | **Feb 25** | FSK | FSK | 🔴 | PIK %, dividend coverage (call Feb 26) |
 | **~Apr 20** | Zions | ZION | 🔴 | Muni losses, NDFI commentary |
 | **~Apr 21** | Western Alliance | WAL | 🔴 | Fraud reserve, unrated munis |

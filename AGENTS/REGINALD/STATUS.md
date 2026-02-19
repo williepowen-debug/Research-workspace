@@ -272,7 +272,7 @@ Bank credit losses (REGINALD)
 
 | BDC | Ticker | PIK % | Status | Next Report |
 |-----|--------|-------|--------|-------------|
-| **Prospect Capital** | **PSEC** | **35%** | 🔴 CRITICAL | ~Feb 20 |
+| **Prospect Capital** | **PSEC** | **35%** | ✅ REPORTED Feb 9-10 | Dividend maintained |
 | **FS KKR Capital** | **FSK** | **27%** | 🟠 HIGH | Feb 25 |
 | TCP Capital | TCPC | — | 🟡 | Mid-Feb |
 | MidCap Financial | MFIC | — | 🟡 | ~Feb 20 |
@@ -410,7 +410,7 @@ Pure plays (EGBN, SBCF, IBOC) are binary bets. Multi-channel names (WAL, VLY, CF
 | FHLB Advances | ~$480B | 🟢 | >$700B = stress |
 | **DHS Shutdown Duration** | **Day 5 (Feb 17)** | 🟠 | **March 6 = paychecks missed; 4+ weeks = UCFE spike** |
 | Office CMBS DQ | 12.34% | 🔴 | ATH, watching migration |
-| PSEC PIK % | 35% | 🔴 | Earnings Feb 20 |
+| PSEC PIK % | 35% | ✅ | Reported Feb 9-10 — dividend maintained |
 | SSB MF Substandard | 9.36% | 🟠 | Watch NPL migration |
 | VLY Non-accruals | 0.87% | 🟡 | >1.0% = FL stress |
 
@@ -468,7 +468,7 @@ Fed will "drop some prior demands for banks to address deficiencies."
 *Full coordination protocol: `SUB_AGENTS.md`*
 
 - **CREED** (CRE): Office ATH 12.34%, $936B maturity wall, Apollo exit, BXMT recognition, $25B zombie loans
-- **BROCK** (BDC/Private Credit): PIK 35%, HRZN collapsed, AI infra risk, PSEC earnings Feb 20
+- **BROCK** (BDC/Private Credit): PIK 35%, HRZN collapsed, AI infra risk, PSEC reported Feb 9-10 (dividend maintained)
 - **CORAL** (Florida): Condo crisis, SIRS mandate, association bankruptcies, -22% MF repricing confirmed
 - **TEX** (Texas): Austin MF 14.2% vacancy, DFW stress emerging, SSB correlation confirmed
 - **BELT** (Sun Belt Diffusion): NEW — MS/LA/MD/OK/IN leading in mortgage DQ; geographic stress broader than FL/TX thesis
@@ -483,7 +483,7 @@ Fed will "drop some prior demands for banks to address deficiencies."
 |------|----------|-----------|--------|
 | **Feb 18 (Tue)** | TIC Data (Dec) | Belgium >$500B | Japan repatriation confirmed → $300B UST demand void |
 | **Feb 19 (Wed)** | Shunto Electronics + 20Y JGB | ≥3.5% wage AND BTC <2.0x | Path D fires → Carry unwind → VIX spike → CLO >165bps |
-| **Feb 20 (Thu)** | PSEC Earnings | Dividend cut or coverage <1.0x | BDC shadow defaults validated → $1.2T bank NDFI risk |
+| ~~Feb 20~~ **Feb 9-10** | PSEC Earnings | ✅ COMPLETE — Dividend maintained | Watch FSK Feb 25 instead |
 
 **NEW INTELLIGENCE:**
 - **Japan repatriation ACTIVE NOW:** $10-15B/month (life insurers selling UST → JGB 30Y 3.6%+)
