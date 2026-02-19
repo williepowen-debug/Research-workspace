@@ -5,9 +5,9 @@ FL-LIQ-003	2026-Q1	FUNDING	RRP Full Depletion	COMPLETE - RRP at effective zero (
 FL-LIQ-004	2026-01-29	AUCTIONS	7-Year Note Auction ($44B) 1:00 PM ET	RESULT: BTC 2.45x (below avg 2.54x), no significant tail. Weak but acceptable. 7Y tenor cleared without stress.	VX-LIQUID-2.01, VX-LIQUID-2.03	COMPLETE	CRITICAL	Cleared weak but OK
 FL-LIQ-005	2026-01-21	AUCTIONS	20-Year Bond Reopening ($13B)	RESULT: High yield 4.846%, BTC 2.86x, Indirect 64.5%, Dealer 6.2% (very low = strong organic demand). Stopped through WI by 1bp. No stress despite Greenland geopolitical noise.	VX-LIQUID-2.01, VX-LIQUID-2.02	COMPLETE	MEDIUM	Strong auction, low dealer takedown
 FL-LIQ-006	2026-02-04	POLICY	Quarterly Refunding Announcement (QRA)	Treasury announces coupon sizes for Q2. Critical for supply outlook and market positioning.	VX-LIQUID-2.01, VX-LIQUID-2.02	ACTIVE	HIGH
-FL-LIQ-007	2026-02-10	AUCTIONS	3-Year Note (~$58B)	Short-end absorption check	VX-LIQUID-2.01	ACTIVE	MEDIUM
-FL-LIQ-008	2026-02-11	AUCTIONS	10-Year Note (~$42B)	Benchmark auction. Watch BTC <2.30x, Indirect <60%.	VX-LIQUID-2.01, VX-LIQUID-2.02	ACTIVE	HIGH
-FL-LIQ-009	2026-02-12	AUCTIONS	30-Year Bond (~$25B)	Duration test. Watch Indirect <60% for foreign demand signal.	VX-LIQUID-2.02	ACTIVE	HIGH
+FL-LIQ-007	2026-02-10	AUCTIONS	3-Year Note (~$58B)	Short-end absorption check	VX-LIQUID-2.01	COMPLETE	MEDIUM	Cleared without stress
+FL-LIQ-008	2026-02-11	AUCTIONS	10-Year Note (~$42B)	Benchmark auction. Watch BTC <2.30x, Indirect <60%.	VX-LIQUID-2.01, VX-LIQUID-2.02	COMPLETE	HIGH	UGLY: 1.4bps tail (largest since Aug 2024) - see ML-LIQ-036
+FL-LIQ-009	2026-02-12	AUCTIONS	30-Year Bond (~$25B)	Duration test. Watch Indirect <60% for foreign demand signal.	VX-LIQUID-2.02	COMPLETE	HIGH	STRONG: BTC 2.66x, foreign 69.9% - see ML-LIQ-040
 FL-LIQ-010	2026-03-31	FUNDING	Q1 Quarter-End	Expect SOFR spike, elevated SRF usage due to dealer window dressing. "Sawtooth" pattern is new normal.	VX-LIQUID-1.01, VX-LIQUID-1.04	ACTIVE	MEDIUM
 FL-LIQ-011	2026-04-15	FUNDING	April Tax Season	TGA rebuilds will drain reserves directly (no RRP buffer). Risk of reserves dropping below $3T.	VX-LIQUID-1.02, VX-LIQUID-1.01	ACTIVE	HIGH
 FL-LIQ-012	2026-06-30	FUNDING	Q2 Quarter-End / GSIB Snapshot	Year-end style constraints as dealers manage GSIB scores. Expect elevated SRF usage.	VX-LIQUID-1.04	ACTIVE	MEDIUM
