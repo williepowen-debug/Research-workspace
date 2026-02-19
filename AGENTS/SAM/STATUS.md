@@ -126,12 +126,12 @@ Japan is in a **fiscal doom loop** (acknowledged as "credible tail risk" by Alli
 **Aida's explicit position:**
 > "Tolerate BOJ hike to 0.75%, then demand pause until 2027."
 
-- BOJ currently at 0.25%
-- Market expects July hike to 0.50%
-- Takaichi will tolerate → **0.75% MAX**
+- **BOJ NOW AT 0.75%** — CEILING REACHED (Dec 2025 hike)
+- Takaichi ceiling = **0.75% MAX**
+- Next hike to **1.00%** = political collision
 - Above 0.75% = political pressure escalates (Katayama sent to BOJ)
 
-**Implication:** BOJ normalization path CAPPED. Ueda wants 1.0%+. Collision inevitable.
+**Implication:** BOJ normalization path CAPPED. Ueda wants 1.0%+. Collision is NOW — next hike triggers it.
 
 ### LDP INTERNAL DYNAMICS
 
@@ -724,7 +724,7 @@ This is a **multi-event day**. If JGB fails AND FOMC is dovish (US rates fall, n
 | 5 | BOJ signals faster hikes post-election | Feb-Mar | 70% |
 | 6 | Life insurers announce more JGB selling | Q1 earnings | 75% |
 | 7 | Strong Shunto (≥3.5%) delivers | Late March | 48% |
-| 8 | April BOJ hike to 0.75% if Shunto strong | Apr 23-24 | 85% (conditional) |
+| 8 | April BOJ hike to **1.00%** if Shunto strong | Apr 23-24 | 85% (conditional) |
 
 ---
 
