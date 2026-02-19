@@ -268,7 +268,7 @@ Japan is in a **fiscal doom loop** (acknowledged as "credible tail risk" by Alli
 - **Meiji Yasuda:** ¥1.386T ($9.7B) unrealized losses — HIGHEST. Acquiring U.S. Banner Life (fleeing domestic)
 - **Fukoku:** FIRST MOVER — stopped buying 30/40Y JGBs in Jan 2026
 - **Nippon Life:** ¥220B realized losses = liquidity pressure REAL. Reducing JGBs first time since 2016
-- **Sumitomo:** FX strategy = sell USD when yen >150 (currently 159 = sell signal)
+- **Sumitomo:** FX strategy = sell USD when yen >150 (currently ~152-153 = still above 150, sell zone ACTIVE)
 - **Dai-ichi:** "Not yet time for full-fledged return to bond markets"
 
 **Critical findings:**
@@ -648,10 +648,11 @@ This is a **multi-event day**. If JGB fails AND FOMC is dovish (US rates fall, n
    - 🟠 ORANGE: >¥1T/mo
    - 🔴 RED: >¥2T/mo
 
-2. **Feb 19 20Y Auction**
-   - 🟢 PASS: BTC >3.0x, tail <2bp
-   - 🟡 WEAK: BTC 2.5-3.0x, tail 2-4bp
-   - 🔴 FAIL: BTC <2.5x, tail >4bp
+2. **Feb 19 20Y Auction** *(calibrated to global bond stress per ML-JPN-170)*
+   - 🟢 SAFE: BTC >3.0x, tail <0.15 yen (raised from 2.8x — US 10Y weakness = need higher bar)
+   - 🟡 WEAK: BTC 2.2-3.0x, tail 0.15-0.25 yen
+   - 🟠 STRESS: BTC 1.8-2.2x, tail 0.25-0.40 yen
+   - 🔴 FAIL: BTC <2.0x + tail >0.40 yen (PATH D TRIGGER)
 
 3. **USD/JPY Correlation**
    - Normal: +0.6 to +0.8 with UST yields
