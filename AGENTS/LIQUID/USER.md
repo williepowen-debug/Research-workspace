@@ -18,11 +18,11 @@
 
 | Position | Expiry | Entry Thesis |
 |----------|--------|--------------|
-| TEN calls ($30) | Jun 2026 | World's largest ice-class fleet (14 vessels). Baltic ice worst in 15 years. |
+| TEN calls ($30) | Jun 2026 | One of largest ice-class fleets (14 vessels: 8x 1A, 6x 1B). Baltic ice worst in 15 years. |
 
 ## Key Dates
 
-- **Feb 18:** TIC data release (Belgium/China Dec 2025)
 - **Mar 31:** Q1 quarter-end (SRF spike expected)
 - **Apr 15:** Tax season TGA drain
 - **April:** Trump-Xi summit (FOI pre-positioning window)
+- **Mid-March:** Next TIC release (Jan 2026 data)
