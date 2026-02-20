@@ -37,7 +37,7 @@ The U.S. labor market has entered a structural break masked by surface-level sta
 
 | Indicator | Value | Status | Note |
 |-----------|-------|--------|------|
-| **Initial Claims** | **227K** | 🟢 | Feb 12: reverted below 230K |
+| **Initial Claims** | **206K** | 🟢 | **Feb 19: -23K WoW, lowest since early Jan** |
 | **Continuing Claims** | **1.862M** | 🟢 | Rising trend (Hotel California) |
 | U-3 Unemployment | 4.3% | 🟡 | +0.3pp YoY |
 | U-6 Underemployment | 8.4% | 🟠 | +0.8pp YoY |
@@ -273,6 +273,46 @@ If PSEC shows stress → **Middle-market employment transmission = CONFIRMED ACT
 - Temp leading indicator (3-6 month lead) points here
 - DOGE downstream effects hit GovCon staffing
 - FL UI exhaustion begins (Mar-Apr)
+
+---
+
+## 🆕 INITIAL CLAIMS — 206K (Feb 19, 2026)
+
+**Source:** DOL, Oxford Economics
+
+| Metric | Value | Prior | Expected |
+|--------|-------|-------|----------|
+| Initial Claims | **206,000** | 229K (rev) | 225K |
+| Change | **-23,000** | — | — |
+| 4-Week MA | 219,000 | 220K | — |
+| Continuing Claims | 1.869M | 1.852M | — |
+
+**Key Points:**
+- Lowest since early January
+- Biggest single-week drop since November
+- Beat expectations by 19K
+
+**Oxford Economics (Michael Pearce):**
+> "The renewed decline in initial jobless claims back toward 200,000 is consistent with other signs that labor market conditions are stabilizing. **The labor market remains in a low-hire, low-fire equilibrium.**"
+
+**For RED Team (KRE Debate):**
+This is the strongest data point for the employment firewall thesis:
+- Claims at 206K = **WAY below** 250K stress threshold
+- **Below** 230K bearish falsification level
+- Reinforces "low-fire" environment
+
+**For PROME (Bearish Thesis):**
+- "Low-hire, low-fire" = hiring freeze eventually becomes layoffs
+- Continuing claims ticked UP 17K = workers stuck longer once unemployed
+- This is a **timing** argument, not a current-state argument
+
+**Juxtaposition with Walmart:**
+- WMT CFO same day: "hiring recession"
+- DOL data same day: Claims at multi-week lows
+
+Both can be true: Companies aren't firing (claims low) but also aren't hiring (WMT's "hiring recession"). That's the "low-hire, low-fire equilibrium" exactly.
+
+**Status:** Employment firewall INTACT. No crack visible in claims data. Watch for continuing claims trend (Hotel California indicator).
 
 ---
 

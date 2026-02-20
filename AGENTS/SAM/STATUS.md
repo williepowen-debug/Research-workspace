@@ -764,6 +764,53 @@ This is a **multi-event day**. If JGB fails AND FOMC is dovish (US rates fall, n
 
 *Next update: Feb 19 post-20Y auction + post-Shunto demand submission (results hit at 12:35 PM JST / 10:35 PM ET Feb 18)*
 
+---
+
+## 🆕 BOJ BOARD NOMINATIONS — TAKAICHI'S FIRST PICKS (Feb 18-19, 2026)
+
+**Source:** Bloomberg/Japan Times (Feb 18), Reuters (Feb 13)
+
+### The Setup
+
+- **Two seats opening:** Asahi Noguchi (term ends March 31) + Junko Nakagawa (term ends June 29)
+- **Nominations expected:** As early as **Feb 25** (next Wednesday)
+- **Requires:** Approval from both chambers of parliament
+
+### The Surprise — Honda Interview (Feb 13)
+
+**Etsuro Honda** (Takaichi's chief economic advisor, longtime Abe associate) told Reuters:
+
+> "Japan is out of deflation and faces the challenge of coming up with a growth strategy. It's in a different phase from Abe's era... **I don't necessarily think they need to be reflationists** who are proposing powerful monetary easing."
+
+> "I can see how rate hikes are needed for price stability."
+
+Honda also said:
+- BOJ may see scope to raise rates this year
+- March hike premature (need to assess December hike impact)
+- "If Japan's economic fundamentals improve, the yen will naturally rise"
+
+### Why This Matters
+
+**Expected:** Takaichi (Abe's ideological heir) stacks BOJ with doves, obstructs rate hikes
+**Signaled:** Takaichi may **NOT** fight gradual normalization — Honda says reflationists not needed
+
+### Path D Implications
+
+If Takaichi picks neutral/hawkish members on Feb 25:
+- BOJ hike path to 1.0%+ STRENGTHENS
+- Yen strengthens (rate differential narrows)
+- Carry unwind accelerates
+
+**Feb 19 Shunto + JGB auction results = foundation. Feb 25 board picks = direction signal.**
+
+| Board Pick Profile | BOJ Path | JPY Impact |
+|-------------------|----------|------------|
+| Dovish (reflationist) | Constrained at 0.75% | Weakens |
+| **Neutral** | **1.0% by summer likely** | **Strengthens** |
+| Hawkish | 1.0%+ by April possible | Strong rally |
+
+**Watch:** Feb 25 announcement + market reaction. If picks are neutral → April BOJ hike = 90%+ probability.
+
 **Full analysis:** `workbook/LIFE_INSURER_UST_DEEP_DIVE.md` (38KB)
 
 ---
