@@ -175,17 +175,78 @@ workspace/
 ├── PROME/
 │   └── STATUS.md       # Prome's dashboard
 ├── AGENTS/
-│   ├── LABOR/STATUS.md
-│   ├── CARL/STATUS.md
-│   ├── HENRY/STATUS.md
-│   ├── SAM/STATUS.md
-│   ├── REGINALD/STATUS.md
-│   ├── LIQUID/STATUS.md
-│   └── MARCO/STATUS.md
+│   ├── LABOR/
+│   │   ├── STATUS.md
+│   │   └── INBOX.md      # Signals from Prome
+│   ├── CARL/
+│   │   ├── STATUS.md
+│   │   └── INBOX.md
+│   ├── HENRY/
+│   │   ├── STATUS.md
+│   │   └── INBOX.md
+│   ├── SAM/
+│   │   ├── STATUS.md
+│   │   └── INBOX.md
+│   ├── REGINALD/
+│   │   ├── STATUS.md
+│   │   └── INBOX.md
+│   ├── LIQUID/
+│   │   ├── STATUS.md
+│   │   └── INBOX.md
+│   ├── HAWK/
+│   │   ├── STATUS.md
+│   │   └── INBOX.md
+│   └── MARCO/
+│       ├── STATUS.md
+│       └── INBOX.md
 ├── transcripts/        # Saved agent conversations
 ├── dashboard/          # Web dashboard
 └── memory/             # Daily session notes
 ```
+
+---
+
+## Signal Routing (Inbox System)
+
+**Full protocol:** `docs/SIGNAL_ROUTING.md`
+
+### How It Works
+
+```
+Will sends signal → Prome filters & routes → Agent INBOX.md → Agent processes
+```
+
+**Prome's job:** Sort signals to the right agent. Don't decide *where* in STATUS.md — just get it to the right house.
+
+**Agent's job:** On session start, check INBOX.md and decide: INTEGRATE, UPDATE, ARCHIVE, or DISCARD.
+
+### Agent Boot Sequence (Updated)
+
+Every agent session should start:
+
+1. **Read INBOX.md** — Process any signals from Prome
+2. Read STATUS.md — Current state
+3. Do assigned task
+4. Update STATUS.md if needed
+5. Clear processed inbox entries
+
+### Inbox Locations
+
+Each agent has `AGENTS/[NAME]/INBOX.md`
+
+### Cross-Agent Signals
+
+Some signals touch multiple agents. Prome routes to PRIMARY and notes secondaries:
+
+| Signal Type | Primary | Secondary |
+|-------------|---------|-----------|
+| Employment | LABOR | CARL, REGINALD |
+| Consumer credit | CARL | REGINALD |
+| BOJ/Japan | SAM | LIQUID, HENRY |
+| Fed policy | LIQUID | HENRY, REGINALD |
+| Geopolitical | HAWK | SAM, LIQUID |
+| Market structure | HENRY | LIQUID |
+| Bank stress | REGINALD | CARL |
 
 ---
 

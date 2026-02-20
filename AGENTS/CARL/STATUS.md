@@ -192,7 +192,48 @@ TTF spike 30-50% → Henry Hub +10-25% → Retail bills +8-15% (3-12 month lag)
 
 ---
 
-## CONSUMER BEHAVIOR SIGNALS — K-SHAPE IN REAL ECONOMY (Updated Feb 17)
+## CONSUMER BEHAVIOR SIGNALS — K-SHAPE IN REAL ECONOMY (Updated Feb 19)
+
+### 🆕 Walmart Q4 FY2026 — BELLWETHER SIGNAL (Feb 19, 2026)
+
+**Source:** CNBC, Bloomberg, Reuters
+
+| Metric | Actual | Expected | Result |
+|--------|--------|----------|--------|
+| EPS (adj) | $0.74 | $0.73 | ✅ Beat |
+| Revenue | $190.66B | $190.43B | ✅ Beat |
+| FY26 EPS Guide | $2.75-2.85 | **$2.96** | ❌ **MISS by 4-7%** |
+
+**Stock:** Down 1.4%
+
+**CFO John David Rainey Key Quotes:**
+
+> "Our goal is to outperform this guidance, but we believe it's prudent to start the year with **a level of conservatism given the backdrop is still somewhat unstable**."
+
+Specific pressures cited:
+- **"Hiring recession"** — his exact words
+- Poor consumer sentiment
+- Student loan debt burdens
+- Tariff uncertainty
+
+**K-Shape CONFIRMED by Bellwether:**
+
+Rainey explicitly said they "**see some pressure on the lowest income cohort**" — spending gap with higher earners has "**gapped out a little bit**."
+
+Meanwhile, upper-income gains: Almost ALL of the mid-single-digit fashion growth came from households earning >$100K.
+
+**Sales Mix Problem:**
+- Grocery inflation cooled to 1.1-1.3%
+- Consumers NOT pocketing savings — **redirecting from high-margin discretionary to low-margin groceries**
+- Margins pressured despite solid revenue
+
+**Implication for CARL:**
+- K-shape thesis confirmed by largest consumer bellwether
+- Lower-income stress is real and widening
+- "Hiring recession" language from CFO notable — they see labor softening
+- Trade-down accelerating (upper incomes shopping at Walmart for deals)
+
+**Cross-reference:** LABOR's employment firewall thesis gets support from WMT CFO seeing "hiring recession" — but claims data (206K) shows no crack yet. The question is whether it stays contained or spreads.
 
 ### QSR Stress — Wendy's Q4 2025 (Feb 16, 2026)
 
