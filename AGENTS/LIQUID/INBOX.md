@@ -29,3 +29,20 @@ See `docs/SIGNAL_ROUTING.md` for protocol.
 **For LIQUID:** Confirmatory of existing China/Belgium research (ML-LIQ-026, ML-LIQ-035). Adds color: FOI retreat broadening beyond China/Japan to European pensions and EM central banks. Note Denmark selling explicitly linked to Greenland/Trump threat.
 
 ---
+
+### US Trade Deficit Jumped 33% in December — $70.3B
+
+**When:** 2026-02-19 (processed 04:03 UTC Feb 20)
+**Source:** Bureau of Economic Analysis via Yahoo Finance
+**Via:** Will (Telegram)
+**Veracity:** ✅ Official BEA data
+
+**Raw signal:**
+- Dec 2025 trade deficit: $70.3B (+33% MoM)
+- Oct 2025 was ~$30B — lowest since 2009 (tariff front-running distortion)
+- Second consecutive monthly increase
+- Data delayed by government shutdown
+
+**For LIQUID:** Trade deficit affects dollar recycling flows. October's artificially low deficit (tariff pre-ordering) now reversing. Wider deficit = more dollars flowing out, but also means foreigners have more dollars to potentially recycle into UST (or not, if diversifying). Context for FOI demand dynamics.
+
+---
