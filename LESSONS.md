@@ -94,6 +94,26 @@ Categories: `[Analysis]` `[Communication]` `[Execution]` `[Verification]` `[Memo
 3. VX_HISTORY: Either maintain it or deprecate it explicitly
 4. Quarterly audit of all agent workbooks for integrity
 
+### 2026-02-20 — [Analysis]
+**Mistake:** Cited Wright 609K delinquencies as structural stress without noting ICE's caveat that November ending on Sunday inflated the figure.
+**Pattern:** Using headline numbers without reading methodology caveats.
+**Rule:** When citing data, check for calendar effects, seasonal adjustments, and methodology notes. Always read the source's own caveats.
+
+### 2026-02-20 — [Analysis]
+**Mistake:** RED cited "capital fortress" (CET1 ratios) as defense without accounting for 2018 deregulation that exempted regionals from stress testing.
+**Pattern:** Assuming regulatory protections exist without verifying they still apply.
+**Rule:** Before citing regulatory buffers as safety, verify the regulations weren't rolled back. Post-2018, most regionals aren't subject to CCAR/DFAST.
+
+### 2026-02-20 — [Process]
+**Lesson:** Structured adversarial debates with explicit probability tracking are highly effective for sharpening thesis.
+**Pattern:** Unstructured disagreement leads to talking past each other; structured debate forces engagement.
+**Rule:** For major trades, run Prome vs RED debate with: steelman requirement, crux identification, cross-examination, scenario matrix, EV calculation. Judge intervention with new information is most effective at forcing updates.
+
+### 2026-02-20 — [Process]
+**Lesson:** Both sides moved toward center during debate (Prome -7pp, RED +22pp). Side that moved more learned more.
+**Pattern:** Tracking probability updates reveals which arguments actually landed.
+**Rule:** After debates, log probability movements. If one side moved significantly more, their original position was likely weaker or they engaged more honestly with counter-evidence.
+
 ---
 
 ## Pending Review
@@ -102,4 +122,4 @@ Categories: `[Analysis]` `[Communication]` `[Execution]` `[Verification]` `[Memo
 
 ---
 
-*Last reviewed: 2026-02-18*
+*Last reviewed: 2026-02-20*
