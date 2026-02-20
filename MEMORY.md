@@ -2,7 +2,7 @@
 
 **Purpose:** Critical learnings that should persist across sessions
 
-**Last Updated:** 2026-02-18 18:15 UTC
+**Last Updated:** 2026-02-19 18:43 UTC
 
 ---
 

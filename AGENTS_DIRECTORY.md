@@ -133,6 +133,25 @@
 
 ---
 
+## TRADING OPERATIONS
+
+### FORGE 🔨
+**Domain:** Trading Execution & Position Management
+**Thesis:** Convert agent research into positions. Credit leads equities.
+**Tracks:** Active trades, technicals, catalysts, P/L
+**Current Focus:** KRE puts (regional bank stress thesis)
+**Location:** `FORGE/STATUS.md`
+**Sub-folders:**
+- **KRE/** — Regional banks trade (puts, Jun 2026)
+- *(More trades added as opened)*
+
+**How It Works:**
+```
+AGENTS (research) → FORGE (execution) → P/L (accountability)
+```
+
+---
+
 ## TRANSMISSION CHAIN
 
 ```
@@ -181,6 +200,7 @@ HAWK (geopolitical) external shock vector — Iran, trade wars, military
 | CORAL | `AGENTS/REGINALD/sub-agents/CORAL/` | — | `research/` |
 | DARWIN | `AGENTS/DARWIN/STATUS.md` | `AGENT.md` | `BACKLOG.md` |
 | HAWK | `AGENTS/HAWK/STATUS.md` | `AGENT.md` | `SOURCES.md` |
+| **FORGE** | `FORGE/STATUS.md` | — | `KRE/`, etc. |
 
 ---
 
