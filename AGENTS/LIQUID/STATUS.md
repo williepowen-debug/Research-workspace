@@ -29,6 +29,12 @@
 
 **CONNECTIONS:**
 - **Blue Owl Capital** redemption halt (Feb) — credit stress meets funding stress
+  - **Risk migration:** Sold $1.4B loans to pension funds + own insurer at 99.7% par to meet redemptions
+  - Private credit risk now sitting in retirement funds — systemic contagion pathway
+- **Bank lending to shadow banks collapsing** — NDFI lending YoY from 55% → 30%
+  - Funding spigot closing for BDCs/private credit (explains Blue Owl stress)
+  - **Divergence:** BAC committing $25B to private credit (vulture or falling knife?)
+- **Cross-asset contagion risk** — Jordi Visser warning: IGV (software) weakness → HY spreads → credit stress
 - **Arthur Hayes "printer" call** — Fed forced into stealth QE via RMPs
 - **Fed pivoting back to expansion** despite prior QT commitment
 
