@@ -46,4 +46,21 @@ See `docs/SIGNAL_ROUTING.md` for protocol.
 
 ---
 
+### Home Affordability Crisis — Utility/Insurance Costs Surging
+
+**When:** 2026-02-19 (processed 04:06 UTC Feb 20)
+**Source:** BLS via @FirstSquawk
+**Via:** Will (Telegram)
+**Veracity:** ✅ BLS official data
+
+**Raw signal:**
+Since January 2020:
+- Utility gas service: **+56%**
+- Electricity prices: **+41%**
+- Home insurance: **+14%**
+
+**For CARL:** Adds to housing cost burden beyond mortgage. These are non-discretionary costs hitting the "60% cluster" (paycheck-to-paycheck, can't cover deductible). Connects to LIHEAP risk for Winter 2026-27. Even homeowners with fixed mortgages face rising carrying costs.
+
+---
+
 *Inbox clear as of 2026-02-20 03:36 UTC*
