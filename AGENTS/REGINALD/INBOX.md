@@ -40,3 +40,29 @@ See `docs/SIGNAL_ROUTING.md` for protocol.
 
 ---
 
+### CRE Distress Fire Sales — Nightingale Tracker (Feb 10-12)
+
+**When:** 2026-02-10 to 02-12 (processed 04:05 UTC Feb 20)
+**Source:** @FCNightingale (Nightingale Associates) — CRE auction/sale tracker
+**Via:** Will (Telegram)
+**Veracity:** ✅ Auction results are public record; Nightingale is credible CRE source
+
+**Raw signal (sample of distress):**
+
+| Property | Sale Price | Discount | Notes |
+|----------|-----------|----------|-------|
+| Concord Tech Center, CA | $42.25M | **-71%** | Bought $148M (2018), foreclosure |
+| Danville Village Mall, IL | $1.25M ($4.44/SF) | — | 8% leased, built 1976 |
+| Former Kodak plant, Rochester | $352,500 (**$0.45/SF**) | — | 780,915 SF vacant |
+| Progressive HQ, OH | $6.75M ($10.53/SF) | — | Tax revenue collapse for schools |
+| Portland office buildings | Various | **-70% to -85%** | Multiple sales cited |
+
+**Other signals:**
+- KKR Mortgage REIT selling troubled assets (life sciences, multifamily, office) — risk rating 5 (lowest)
+- Denver office ($48.75M purchase) may be **demolished** for apartments
+- Denver multifamily offering **10-12 weeks free rent** to attract tenants
+
+**For REGINALD:** Real-time evidence of CRE value destruction. These assets are on regional bank balance sheets. 71% discounts, $0.45/SF sales, demolition of 5-year-old purchases. This is what extend-and-pretend is hiding until refinancing forces marks.
+
+---
+
