@@ -6,5 +6,21 @@ See `docs/SIGNAL_ROUTING.md` for protocol.
 
 ---
 
-<!-- New signals below this line -->
+### IGV Collapse + Equity-to-Credit Contagion — Visser
+
+**When:** 2026-02-19 09:35 AM (processed 03:48 UTC Feb 20)
+**Source:** Twitter @jvisserlabs (Jordi Visser, ex-CIO Weiss Multi-Strategy)
+**Via:** Will (Telegram)
+**Veracity:** IGV collapse ✅ verified (-32% from peak, -21.69% YTD, 52-week low $79.65)
+
+**Raw signal:**
+- IGV (software ETF) not rallying this week = bad sign
+- "Without a rally in SaaS, the equity to credit contagion risk remains high"
+- Blue Owl halting redemption = credit stress symptom
+- His "turbulence model" flashing rising deleveraging risk
+- "Watch HY for cross-asset contagion"
+
+**For HENRY:** Software/SaaS as leading sector for equity-to-credit transmission. IGV down 32% from peak while SPX holds — sector divergence widening. Primary signal in LIQUID.
+
+---
 

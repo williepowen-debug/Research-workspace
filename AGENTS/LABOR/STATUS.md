@@ -1,5 +1,5 @@
 # LABOR STATUS
-**Last Updated:** 2026-02-18 | **Status:** 🔴 CRITICAL — Federal Layoff Protections EXPIRED | DHS Shutdown Day 6 | Mass RIFs May Now Proceed
+**Last Updated:** 2026-02-20 | **Status:** 🔴 CRITICAL — Federal Layoff Protections EXPIRED | DHS Shutdown Day 8 | Mass RIFs May Now Proceed
 
 ---
 
@@ -37,8 +37,8 @@ The U.S. labor market has entered a structural break masked by surface-level sta
 
 | Indicator | Value | Status | Note |
 |-----------|-------|--------|------|
-| **Initial Claims** | **206K** | 🟢 | **Feb 19: -23K WoW, lowest since early Jan** |
-| **Continuing Claims** | **1.862M** | 🟢 | Rising trend (Hotel California) |
+| **Initial Claims** | **206K** | 🟢 | **Feb 19: -23K WoW, lowest since early Jan. WMT "hiring recession" same day.** |
+| **Continuing Claims** | **1.869M** | 🟢 | +17K WoW. Rising trend (Hotel California) |
 | U-3 Unemployment | 4.3% | 🟡 | +0.3pp YoY |
 | U-6 Underemployment | 8.4% | 🟠 | +0.8pp YoY |
 | **Long-term Unemployed** | **1.8M** | 🔴 | **+386K YoY (+28%)** |
