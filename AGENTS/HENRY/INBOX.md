@@ -41,3 +41,20 @@ See `docs/SIGNAL_ROUTING.md` for protocol.
 
 ---
 
+### S&P 500 Dispersion Signal — Overbought + Oversold Simultaneously
+
+**When:** 2026-02-19 (processed 04:02 UTC Feb 20)
+**Source:** Bespoke Investment Group via The Kobeissi Letter / EndGame Macro
+**Via:** Will (Telegram)
+**Veracity:** ✅ Bespoke data (reputable quant shop)
+
+**Raw signal:**
+- 54% of S&P 500 stocks overbought — highest since June 2025
+- 26.8% of S&P 500 stocks oversold — elevated
+- Both elevated simultaneously = unusual
+- EndGame Macro: "It's a dispersion signal and a picture of a market that's no longer moving as one"
+
+**For HENRY:** Market bifurcation signal. Not a contradiction — it's showing some sectors stretched up while others beaten down. Dispersion often precedes volatility. Connects to IGV (-32%) diverging from SPX, Mag 7 vs equal-weight, K-shape in equities.
+
+---
+
