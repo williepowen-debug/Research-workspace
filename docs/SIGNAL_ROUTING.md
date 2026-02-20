@@ -50,26 +50,55 @@ Will sends signal (screenshot, article, data)
 
 ## Inbox Format
 
+Keep it simple. Prome delivers the package — agent decides what it means.
+
 Each signal entry in `AGENTS/[AGENT]/INBOX.md`:
 
 ```markdown
 ---
-## [YYYY-MM-DD HH:MM UTC] Signal Title
+### Signal Title — Brief Context
 
-**Source:** Publication, date, author if notable
+**When:** YYYY-MM-DD (processed HH:MM UTC)
+**Source:** Publication | Author (if notable)
+**Via:** How it reached us (Will, scrape, alert)
 
-**Signal:** 2-3 sentence summary of what matters
+**Raw signal:**
+- Key data point 1
+- Key data point 2
+- "Direct quote if important"
 
-**Key Data:**
-- Metric: Value (vs prior/expected)
-- Quote: "exact words if important"
-
-**Relevance:** Why this matters to this agent's thesis
-
-**Cross-agent:** Tag other agents if relevant (e.g., "Also relevant to HENRY")
+**For [AGENT]:** One line on why it landed here
 
 ---
 ```
+
+### Field Reference
+
+| Field | Required | Notes |
+|-------|----------|-------|
+| **Title** | ✅ | Descriptive, not editorializing |
+| **When** | ✅ | Event date + processing time |
+| **Source** | ✅ | Publication and author |
+| **Via** | ✅ | Will, automated alert, web search, etc. |
+| **Raw signal** | ✅ | Facts only — metrics, quotes, data |
+| **For [AGENT]** | ✅ | Brief routing context (not thesis judgment) |
+
+### What NOT to Include
+
+- ❌ "CONFIRMS thesis" / "CHALLENGES thesis" — agent decides
+- ❌ Vector references (VX-XXX-000) — agent knows their own system
+- ❌ Reliability tiers — source speaks for itself
+- ❌ Cross-agent routing in the entry — handle separately
+
+### Cross-Agent Signals
+
+If a signal touches multiple agents, Prome has two options:
+
+1. **Primary only:** Put in primary agent's inbox, note "FYI: may be relevant to [OTHER]" in the routing line. Agent can forward if they choose.
+
+2. **Multiple inboxes:** For major signals, put separate entries in each relevant inbox with context tailored to that agent.
+
+Default to option 1. Use option 2 sparingly for high-impact signals.
 
 ---
 
