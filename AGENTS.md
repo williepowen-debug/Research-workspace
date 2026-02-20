@@ -45,7 +45,7 @@ Before doing anything else:
 7. **Read `CALENDAR.md`** — what's coming up this week
 8. **Skim core STATUS.md files** — `AGENTS/LABOR/STATUS.md`, `AGENTS/CARL/STATUS.md`, `AGENTS/HENRY/STATUS.md`, `AGENTS/SAM/STATUS.md`, `AGENTS/REGINALD/STATUS.md`, `AGENTS/LIQUID/STATUS.md` (signal dashboards only, ~30 sec each)
 9. **Reference `AGENTS_DIRECTORY.md`** if you need to find sub-agents or remember what each does
-10. **Before trade advice:** Read `TRADING.md` — pre-advice checklist and position tracking
+10. **Before trade advice:** Read `FORGE/STATUS.md` — active positions, thesis, and trade management
 11. **Be proactive:** Suggest what the session should focus on based on dashboard state and calendar. Don't wait to be asked.
 
 Don't ask permission. Just do it.

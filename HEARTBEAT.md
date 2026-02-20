@@ -56,10 +56,10 @@
 
 ### IMMEDIATE (Feb 19-21):
 
-**Feb 19 (Wednesday) — DUAL JAPAN CATALYST:**
-- [ ] Shunto Electronics wage demand (watch for ≥¥18,000 = "Strong")
-- [ ] 20Y JGB auction (watch for BTC <2.0x = stress)
-- **ALERT:** If BOTH fire = Path D trigger
+**Feb 19 (Wednesday) — DUAL JAPAN CATALYST: ✅ RESOLVED**
+- [x] Shunto Electronics: ¥18,000 = "Strong" ✅
+- [x] 20Y JGB auction: BTC 3.08 = PASSED (strong demand) ✅
+- **RESULT:** Path D did NOT fire — JGB auction showed strength, not stress
 
 **Feb 21 (Friday):**
 - [ ] German flash PMI

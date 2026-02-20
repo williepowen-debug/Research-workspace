@@ -19,6 +19,7 @@ RED exists to **attack the thesis**. Every position needs a skeptic. RED's job i
 
 | Challenge | Date | Target | Grade | Key Finding |
 |-----------|------|--------|-------|-------------|
+| KRE Challenge | Feb 20 | KRE June Puts | A- | Thesis valid (75%) but timing mispriced by 2-3 quarters |
 | SSB V2 | Feb 12 | SSB $90P | B- | Near-neutral EV; timing is main risk |
 | SAM V2 | Feb 12 | Japan thesis | Upgraded | Shunto now #2 catalyst (was #7) |
 | Network Sweep | Feb 12 | Full system | B+ | Direction 60-75%, timing 25-35% |
@@ -78,9 +79,10 @@ RED/
 
 ## NEXT ACTIONS
 
-1. Re-challenge SSB after Q1 earnings (late April)
-2. Update competing hypothesis probabilities monthly
-3. Network sweep after Feb 19 dual catalyst
+1. Monitor KRE weekly (claims, FHLB balance)
+2. Re-challenge KRE in May 2026 if employment holding
+3. Re-challenge SSB after Q1 earnings (late April)
+4. Update competing hypothesis probabilities monthly
 
 ---
 
