@@ -12,7 +12,7 @@
 
 2. **Put OI at 94th percentile of 52-week range** per Market Chameleon. Significance: Institutional hedging at near-record levels despite equity rally.
 
-3. **Wright: 609K current→delinquent in October 2025** — largest single-month inflow since May 2020. Source: Black Knight/ICE mortgage monitor. Significance: Employed borrowers defaulting due to underwater positions, not job loss.
+3. **ICE: 609K newly delinquent in November 2025** — largest single-month inflow since May 2020. Source: ICE Mortgage Technology "First Look" (Dec 23, 2025). **Caveat:** ICE notes November ending on Sunday inflated the number (calendar effect). **However:** Serious delinquencies (90+ days) rose 8.2% to 463K (highest since early 2025), foreclosure starts +25% YoY, foreclosure inventory +25.4% YoY. Underlying trend is real even if headline is noisy.
 
 ---
 
@@ -56,7 +56,7 @@ The 10pp haircut from "thesis correct" to "hits by year-end" reflects timing unc
 
 3. **$65 strike positioning:** Highest put OI in June chain (40,735). Market drew its line at my strike.
 
-4. **Five parallel paths:** Don't need all to fire, just one to cascade. Path E (Wright) already active.
+4. **Five parallel paths:** Don't need all to fire, just one to cascade. Path E (mortgage stress) showing in foreclosure data even if headline 609K is noisy.
 
 5. **November rally was wrong:** Built on 3-4 rate cuts expected, Fed delivered hawkish guidance.
 
