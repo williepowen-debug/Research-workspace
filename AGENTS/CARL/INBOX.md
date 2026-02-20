@@ -29,4 +29,21 @@ See `docs/SIGNAL_ROUTING.md` for protocol.
 
 ---
 
+### Klarna Stock -27%, Credit Losses +60% YoY — BNPL Stress Confirmed
+
+**When:** 2026-02-19 (processed 04:06 UTC Feb 20)
+**Source:** Financial Times via @MauiBoyMacro
+**Via:** Will (Telegram)
+**Veracity:** ✅ FT article, public company data
+
+**Raw signal:**
+- Klarna stock sinks 27% 
+- Set aside $250M for credit losses in Q4 — **up 60% YoY**
+- Share price down 2/3 since September IPO
+- Headline: "Bad loan costs soar"
+
+**For CARL:** Confirms BNPL stress thesis. Klarna is one of the largest BNPL providers globally. 60% YoY increase in credit loss provisions = subprime consumer stress materializing. Connects to existing BNPL tracking: 41% late payment rate, 61% subprime concentration. This is the cohort cracking.
+
+---
+
 *Inbox clear as of 2026-02-20 03:36 UTC*
