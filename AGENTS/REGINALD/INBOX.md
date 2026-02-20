@@ -23,3 +23,20 @@ See `docs/SIGNAL_ROUTING.md` for protocol.
 
 ---
 
+### Bank of America $25B Private Credit Commitment
+
+**When:** 2026-02-19 (processed 03:52 UTC Feb 20)
+**Source:** Bloomberg, Reuters (internal memo)
+**Via:** Will (Telegram)
+**Veracity:** ✅ Multi-source confirmed
+
+**Raw signal:**
+- BAC committing $25B of own balance sheet to private credit deals
+- Joining Wall Street rivals putting capital behind private credit
+- Per internal memo
+- Context: While NDFI lending overall pulling back, BAC going opposite direction
+
+**For REGINALD:** Major bank increasing private credit exposure. If thesis plays out (private credit stress), BAC has $25B direct exposure. Watch for concentration risk in Q1 earnings commentary. Primary signal in LIQUID.
+
+---
+

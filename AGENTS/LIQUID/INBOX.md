@@ -42,3 +42,38 @@ See `docs/SIGNAL_ROUTING.md` for protocol.
 
 ---
 
+### Blue Owl Sold $1.4B Loans to Pensions + Own Insurer
+
+**When:** 2026-02-19/20 (processed 03:52 UTC Feb 20)
+**Source:** Bloomberg, Reuters, CNBC
+**Via:** Will (Telegram)
+**Veracity:** ✅ Multi-source confirmed
+
+**Raw signal:**
+- Blue Owl sold $1.4B portfolio of loans from several BDCs
+- Buyers: 3 North American pension giants + Blue Owl's OWN insurer
+- Price: 99.7% of par (near full value)
+- Unlocks ~30% NAV payout for OBDC II investors
+- Context: Done to meet redemption deadline after halting redemptions
+
+**For LIQUID:** Contagion pathway identified — private credit risk now sitting with pension funds and insurers. If these loans sour, it's not just BDC investors hurt — it's retirement funds.
+
+---
+
+### Bank of America $25B Private Credit Commitment
+
+**When:** 2026-02-19 (processed 03:52 UTC Feb 20)
+**Source:** Bloomberg, Reuters (internal memo)
+**Via:** Will (Telegram)
+**Veracity:** ✅ Multi-source confirmed
+
+**Raw signal:**
+- BAC committing $25B of own balance sheet to private credit deals
+- Joining Wall Street rivals (JPM, etc.) putting capital behind private credit
+- Per internal memo seen by Reuters
+- "Preparing a war chest to further its advance in the lucrative slice of finance"
+
+**For LIQUID:** Contrasts with NDFI pullback chart — some banks retreating, BAC doubling down. Either vulture opportunity or catching falling knife. Watch BAC exposure if private credit stress spreads. FYI: Also relevant to REGINALD.
+
+---
+

@@ -24,3 +24,20 @@ See `docs/SIGNAL_ROUTING.md` for protocol.
 
 ---
 
+### Clear Street IPO Withdrawn — Capital Markets Closing
+
+**When:** 2026-02-19 (processed 03:52 UTC Feb 20)
+**Source:** Bloomberg, Reuters
+**Via:** Will (Telegram)
+**Veracity:** ✅ Multi-source confirmed
+
+**Raw signal:**
+- Clear Street (fintech broker, cloud-based) withdrew IPO filing entirely
+- Had already postponed Feb 12, cut target by ~2/3
+- Cited "market conditions" and "heightened bearish sentiments on financial and software stocks"
+- IPO market stress now extending to new listings market
+
+**For HENRY:** IPO window closing for fintech/financial companies. Capital markets risk-off signal. Second delayed listing in a week at time of postponement.
+
+---
+
