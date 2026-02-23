@@ -1,5 +1,5 @@
 # REGINALD STATUS
-**Last Updated:** 2026-02-23 11:10 UTC | **Status:** 🔴 CRITICAL — WAL Hidden CRE Thesis Validated; NDFI Risk Corrected; Blue Owl Private Credit GATE (2008 vibes)
+**Last Updated:** 2026-02-23 12:55 UTC | **Status:** 🔴 CRITICAL — WAL Hidden CRE Thesis Validated (Off-BS Confirms); Total Hidden CRE $3.0B; Blue Owl Private Credit GATE
 
 ---
 
@@ -50,6 +50,83 @@ Bloomberg notes "some comparing it to the run-up to the 2008 financial crisis"
 - Validates "bifurcation collapse" timing (credit discovering real economy)
 
 **Status:** 🔴 ACTIVE STRESS — First gate is rarely the last
+
+---
+
+### 🔴 COMPREHENSIVE WORKBOOK UPDATE — WAL/REGIONAL HIDDEN CRE (Feb 23)
+
+**Source:** `domain/sources/WAL_REGIONAL_WORKBOOK_2026-02-23.xlsx` (6 sheets, 21 SDF files parsed)
+
+#### OFF-BALANCE-SHEET CONFIRMS ON-BALANCE-SHEET PATTERN
+
+**WAL Granular RC-L Data (RCON6550 = Off-BS Memo3 Analog):**
+
+| Quarter | Memo3 (On-BS) | RCON6550 (Off-BS) | **Total Hidden CRE** |
+|---------|---------------|-------------------|---------------------|
+| Q2 2024 | $1.49B | $357M | **$1.85B** |
+| Q4 2024 | $2.05B | $470M | **$2.52B** |
+| Q4 2025 | $2.73B | $273M | **$3.00B** |
+| **18-Month Change** | +83% | -24% | **+62%** |
+
+**🚨 SMOKING GUN — Classification is STRUCTURAL:**
+- **RCON3816 (CRE secured by RE) = $0 in ALL 7 quarters**
+- ALL of WAL's off-balance-sheet CRE is in RCON6550 (not secured by RE)
+- Same pattern on BOTH funded AND unfunded books = deliberate classification policy
+- This is NOT a one-off anomaly — it's embedded in how WAL originates CRE
+
+**Q4 2025 Second Surge:**
+- Memo3 +$478M in ONE quarter (new all-time high at $2.73B)
+- Memo3/C&I back to 24.2%
+- Total hidden CRE (Memo3 + RCON6550) = **$3.0B**
+- Meanwhile: Moody's upgraded, labeled CRE "declined," narrative is de-risking
+
+#### OZK OFF-BALANCE-SHEET = WORST OF ALL
+
+| Metric | OZK | WAL | EGBN |
+|--------|-----|-----|------|
+| Total Unused Commitments | **$10.6B** | $15.1B | $1.6B |
+| UC / Total Assets | **43%** | 22% | 15% |
+| RESG (CRE) % of UC | **66%** | — | — |
+| All-In CRE/Tier 1 (est.) | **~680%** | ~500% | ~558% |
+
+**CEO Gleason quote (Q3 2025):** "Almost as many unfunded as funded" in RESG
+**Implication:** OZK's off-balance-sheet CRE adds ~265 ppts to already-alarming 415% on-balance-sheet ratio
+
+#### THREE-BANK COMPARISON MATRIX
+
+| Bank | Memo3/C&I Trend | Pattern | True CRE/Tier 1 | Constr/Tier 1 | Risk |
+|------|-----------------|---------|-----------------|---------------|------|
+| **WAL** | ↑ 16%→24% | 🚨 ACTIVE MIGRATION | 474% | 52% ✅ | **CRITICAL** |
+| OZK | ↓ 82%→38% | Structural (C&I diluting) | 415% | 142% ⚠️ | HIGH |
+| EGBN | ↓ 38%→24% | Structural (runoff) | 497% | 102% ⚠️ | HIGH |
+
+**WAL is the ONLY bank with GROWING hidden CRE ratio** — crossed 20% threshold Q4 2024, now at new high.
+
+#### PATH 5 — SECURITIES PORTFOLIO = CLEAN
+
+- WAL has **ZERO CMBS/ABS** in securities portfolio
+- All ABS/CMBS MDRM codes = $0 across all 7 quarters
+- Securities book is 100% agency-backed (FNMA, FHLMC, GNMA)
+- **Conclusion:** All CRE risk is in LOAN book, not securities. No third vector.
+
+#### PATH 3 — REGULATORY GAP
+
+**Critical Finding:**
+- All 3 banks breach SR 07-1 300% threshold in EVERY quarter
+- **NONE have publicly disclosed CRE concentration management plans**
+- **NO CRE-specific enforcement actions** found (FDIC/FRB/OCC databases)
+- WAL's Memo3 pattern = most significant gap between data and oversight
+
+**OZK CEO (American Banker, Jul 2024):** "We're not specifically focused on getting below the [300% threshold]. That will probably be a natural product of diversification. It's not the goal. It's just a byproduct."
+
+#### WORKBOOK METHODOLOGY
+
+- 21 SDF files parsed (3 banks × 7 quarters)
+- MDRM codes: RCON2746 (Memo3), RCON1766 (C&I), RCON6550 (Off-BS hidden CRE), RCON3816 (Off-BS labeled CRE)
+- Capital: RCOA8274 (Tier 1)
+- Period: Q2 2024 – Q4 2025
+
+**Files saved:** `WAL_REGIONAL_WORKBOOK_2026-02-23.xlsx`
 
 ---
 
