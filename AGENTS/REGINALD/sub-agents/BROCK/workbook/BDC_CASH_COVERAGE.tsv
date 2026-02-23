@@ -1,11 +1,13 @@
-BDC_Ticker	BDC_Name	Report_Month	Cash_NII	Dividend_Per_Share	Cash_Coverage_Ratio	Status	Last_Updated	Data_Source	Notes
-PSEC	Prospect Capital	Jan_2026	TBD	$0.06	TBD	PENDING	2026-02-11	Monthly Earnings Release	Highest PIK concentration (35% of income) - high dividend cut risk
-FSK	FS KKR Capital	Jan_2026	TBD	$0.70	TBD	PENDING	2026-02-11	Monthly Earnings Release	PIK 27% of income - watch for deterioration
-TCPC	TCP Capital	Jan_2026	TBD	$0.38	TBD	PENDING	2026-02-11	Monthly Earnings Release	Reports monthly - moderate PIK exposure
-ARCC	Ares Capital	Jan_2026	TBD	$0.48	TBD	PENDING	2026-02-11	Quarterly Earnings	Largest BDC - quality benchmark
-GSBD	Goldman Sachs BDC	Jan_2026	TBD	$0.45	TBD	PENDING	2026-02-11	Quarterly Earnings	High-quality portfolio but small
-MFIC	MidCap Financial	Jan_2026	TBD	$0.29	TBD	PENDING	2026-02-11	Monthly Earnings Release	Middle market focus
-BXSL	Blackstone Secured Lending	Jan_2026	TBD	$0.69	TBD	PENDING	2026-02-11	Monthly Earnings Release	Senior secured focus - lower risk profile
+BDC_Ticker	BDC_Name	Report_Period	NII_Per_Share	Dividend_Per_Share	Coverage_Ratio	Status	Last_Updated	Data_Source	Notes
+MAIN	Main Street Capital	Q4_2025	$1.01-1.05	$0.75	~1.35x	GREEN	2026-02-23	Q4 Preliminary	Gold standard: NAV $33.29-33.37, ROE >17%, record $700M investments
+ARCC	Ares Capital	Q4_2025	$0.50 Core	$0.48	1.04x	YELLOW	2026-02-23	Q4 Earnings Feb 4	NAV $19.94, portfolio $29.5B FV, Q4 commitments $5.8B
+BXSL	Blackstone Secured Lending	Q3_2025	$0.82	$0.77	1.06x	GREEN	2026-02-23	Q3 Earnings	Q4 earnings Feb 25. First lien 97.5%, low non-accruals
+PSEC	Prospect Capital	Q4_2025	TBD	$0.06	TBD	PENDING	2026-02-23	Earnings Feb 25	PIK 35% - HIGHEST RISK. Feb 9-10 dividend maintained
+FSK	FS KKR Capital	Q4_2025	TBD	$0.70	TBD	PENDING	2026-02-23	Earnings Feb 25	PIK 27% - First major BDC post-Blue Owl gate
+TCPC	TCP Capital	Q4_2025	TBD	$0.38	TBD	PENDING	2026-02-23	Earnings Feb 27	NAV collapsed -19% Q4, 9.6% non-accruals
+GSBD	Goldman Sachs BDC	Q4_2025	TBD	$0.45	TBD	PENDING	2026-02-23	Earnings Feb 27	Coverage 0.80x last Q - watching trajectory
+MFIC	MidCap Financial	Q4_2025	TBD	$0.29	TBD	PENDING	2026-02-23	Earnings Feb 28	PIK accelerating (+47% QoQ last quarter)
+OWL	Blue Owl Capital	Q4_2025	N/A	N/A	GATED	RED	2026-02-23	Feb 18 Gate	OBDC II permanently gated. Selling 35% of loans. -16% stock.
 
 # BDC CASH COVERAGE TRACKING FRAMEWORK
 
