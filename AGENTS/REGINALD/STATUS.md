@@ -1,5 +1,5 @@
 # REGINALD STATUS
-**Last Updated:** 2026-02-23 05:10 UTC | **Status:** 🔴 CRITICAL — WAL Management CONFIRMS Relabeling Strategy; H1 2026 Stress Window Validated
+**Last Updated:** 2026-02-23 05:20 UTC | **Status:** 🔴 CRITICAL — WAL Hidden CRE Thesis Validated; NDFI Risk Corrected (Lower Than Expected)
 
 ---
 
@@ -208,6 +208,35 @@ Translation: Betting on Trump administration to delay SR 07-1 enforcement on CRE
 | **ECR Deposit Risk** | Mortgage warehouse 100% beta | Flight risk |
 
 **Verdict:** WAL is PRIMARY single-name target. Management's own words confirm thesis.
+
+### ✅ NDFI RISK ASSESSMENT — CORRECTED (Feb 23, 2026)
+
+**Previous assumption:** WAL has dangerous NDFI exposure (~10.5% of loans, possible auto warehouse)
+
+**Actual finding (per deep research):**
+
+| Component | Amount | % of Loans | Risk Level |
+|-----------|--------|------------|------------|
+| **Total NDFI** | **$13.6B** | **24%** | Headline looks scary |
+| Mortgage Credit Intermediaries | $9.2B | 16% | 🟢 LOW — self-liquidating, 0.08% reserve |
+| **Ex-Mortgage NDFI** | **$4.3B** | **8%** | 🟡 Moderate |
+| → Business Credit Intermediaries | ~$3.4B | 6% | 🟡 BDC/private credit, secured SPVs |
+| → Private Equity Funds | ~$950M | 1.7% | 🟢 Capital call lines, near-zero losses |
+
+**Key corrections:**
+1. ❌ **NO auto warehouse exposure** — WAL's warehouse is 100% mortgage through AmeriHome
+2. ❌ **No subprime auto lender relationships** — searched for Exeter, CACC, Westlake, CPS, DriveTime, Lendbuzz = nothing
+3. ✅ **BDC/Lender Finance: $5B+ committed, ~$3.4B drawn** — secured non-recourse SPV structures
+4. ✅ **Note Finance: $2B portfolio** — Cantor ($98M) is only issue; full portfolio reviewed, no additional problems
+
+**Historical loss experience:**
+- Mortgage warehouse: **$0 problem loans** (2024), 0.08% reserve
+- Fund banking: **0.18% reserve**, "virtually no losses" per management
+- Industry NDFI PDNA: **0.15%** vs C&I PDNA of 1.32%
+
+**Implication:** NDFI is NOT a primary risk vector for WAL. The 24% headline is misleading — 68% is low-risk mortgage warehouse. The ex-mortgage 8% is secured and has minimal loss history.
+
+**PRIMARY THESIS UNCHANGED: Hidden CRE relabeling (Memo Item 3) + H1 stress guidance + 474% CRE/Tier 1**
 
 ### 📝 ECR DEPOSIT SENSITIVITY
 
@@ -441,10 +470,10 @@ Construction spending (seasonally adjusted annual rate):
 | Channel | Mechanism |
 |---------|-----------|
 | **CRE** (CREED) | 70% of CRE loans at regionals, extend-and-pretend masking 70-97% loss severity |
-| **NDFI/Auto Fraud** | $1.7T bank exposure, $591M+ losses disclosed |
+| **NDFI/Auto Fraud** | $1.7T industry exposure — *NOTE: WAL has minimal auto warehouse; NDFI is 68% mortgage (low risk)* |
 | **Federal Layoffs** (LABOR) | DOGE cuts + **DHS shutdown (234K unpaid, Day 5)** hitting DC corridor (EGBN, BHRB) |
 | **Consumer Credit** (CARL) | 37% can't cover $400, stress transmission accelerating |
-| **BDC/Fund Finance** (BROCK) | $1.2T exposure, PIK masking 6% shadow defaults |
+| **BDC/Fund Finance** (BROCK) | $1.2T exposure, PIK masking 6% shadow defaults — *WAL: $5B committed, secured SPVs* |
 | **Migration** (MARCO) | Border city stress, FL triple exposure |
 | **FHLB/Funding** (LIQUID) | RRP at zero, FHLB is convergence point |
 | **Japan Contagion** (SAM) | **ACTIVE:** Repatriation $10-15B/mo → UST → CLO → BDC → banks |
@@ -862,7 +891,7 @@ Bank credit losses (REGINALD)
 | Rank | Bank | Score | Primary Vulnerabilities |
 |------|------|-------|------------------------|
 | 1 | **EGBN** | 12 | Pure DC (100%), already in crisis, CRE 547% |
-| 2 | **WAL** | 10 | NDFI + Fraud + Fund Finance + FHLB + **$1.36B unrated muni shadow book** |
+| 2 | **WAL** | 10 | **Hidden CRE (24.2% Memo3)** + Fund Finance ($5B) + **$1.36B unrated muni** + H1 stress *(NDFI corrected: low risk)* |
 | 3 | **VLY** | 9 | NYC/NJ MF primary + BDC + Consumer — FL is 27% but diversified |
 | 4 | **CFG** | 9 | Fund finance ($10-11B) + Consumer 18.7% + FHLB 5.1% |
 | 5 | **ZION** | 9 | **$5.78B total muni exposure** (hidden) + NDFI + $524M unfunded |
@@ -898,7 +927,7 @@ Pure plays (EGBN, SBCF, IBOC) are binary bets. Multi-channel names (WAL, VLY, CF
 | Ticker | Rating | Score | Primary Risk |
 |--------|--------|-------|--------------|
 | **EGBN** | 🔴 RED | 12 | DC 100% + CRE 547% + already in crisis |
-| **WAL** | 🚨 **CRITICAL** | 10 | **MGMT CONFIRMED RELABELING** + $36.8B true CRE + H1 stress guidance + 474% CRE/Tier 1 |
+| **WAL** | 🚨 **CRITICAL** | 10 | **MGMT CONFIRMED RELABELING** + $36.8B true CRE + H1 stress + 474% CRE/Tier 1 *(NDFI corrected: low risk)* |
 | **VLY** | 🟠 ORANGE | 9 | NYC/NJ MF primary — FL 27% diversified |
 
 ### Tier 2: Elevated
@@ -1140,9 +1169,9 @@ Status upgraded 🔴 CRITICAL because:
 - **BUT:** If Feb 18 Extreme scenario fires (Grant Thornton resigns) → timeline compresses from quarters to **DAYS**
 
 **Research gaps identified:**
-1. Which banks provide warehouse lines to Exeter, CPS, Westlake, Lendbuzz?
+1. Which banks provide warehouse lines to Exeter, CPS, Westlake, Lendbuzz? *(Note: WAL confirmed NO auto warehouse)*
 2. Which banks back the 15 BDCs with First Brands exposure?
-3. WAL's 10.5% NDFI — how much is auto warehouse vs other?
+3. ~~WAL's 10.5% NDFI — how much is auto warehouse vs other?~~ ✅ **RESOLVED:** 68% mortgage, 8% ex-mortgage, NO auto
 4. HBAN's 44% consumer — auto % within that?
 5. Regional bank deposits AT Ally or correspondent relationships?
 
