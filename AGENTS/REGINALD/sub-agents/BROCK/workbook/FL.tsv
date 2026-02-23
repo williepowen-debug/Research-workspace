@@ -1,10 +1,15 @@
 DATE	EVENT	ENTITY	WATCH_FOR	PRIORITY
-2026-02-12	Q4 2025 Earnings	MAIN	Dividend coverage (1.35x), gold standard maintenance	LOW
-2026-02-18	Q4 2025 Earnings	ARCC	Software marks, spillover buffer usage, syndicate health	MEDIUM
-2026-02-19	Q4 2025 Earnings	FSK	PIK trend (27%), coverage (1.10x), software marks	HIGH
-2026-02-20	Q4 2025 Earnings	BXSL	PIK (20%), junior debt exposure, inflow dependence	MEDIUM
+2026-02-12	Q4 2025 Earnings	MAIN	Dividend coverage (1.35x), gold standard maintenance	COMPLETE
+2026-02-18	Q4 2025 Earnings	ARCC	Software marks, spillover buffer usage, syndicate health	COMPLETE
+2026-02-18	Blue Owl OBDC II Gate	OWL	Redemptions permanently halted, selling 35% loans	CONFIRMED
+2026-02-19	BofA $25B PC Commitment	BAC	Vulture positioning after Blue Owl stress	CONFIRMED
+2026-02-20	Q4 2025 Earnings	BXSL	PIK (20%), junior debt exposure, inflow dependence	COMPLETE
+2026-02-23	BofA "Misinformation" Defense	OWL	Denial phase active, $24 PT reiterated	CONFIRMED
+2026-02-23	WAL Transmission Signal	WAL	-5.59%, worst regional bank performer	CONFIRMED
+2026-02-25	Q4 2025 Earnings	FSK	PIK trend (27%), coverage (1.10x), first post-gate BDC	CRITICAL
 2026-02-25	Q4 2025 Earnings	PSEC	PIK ratio (35%), dividend coverage (<1.00x), NAV change	CRITICAL
 2026-02-26	Q4 2025 Earnings	GBDC	Software concentration (32%), Pluralsight marks	MEDIUM
+2026-02-27	Q4 2025 Earnings	OZK	Hidden CRE exposure (37.6% Memo3/C&I), worst ratio	CRITICAL
 2026-02-27	Q4 2025 Earnings	TCPC	Post-collapse NAV stabilization, non-accrual trend	CRITICAL
 2026-02-27	Q4 2025 Earnings	GSBD	De-risking progress, coverage (0.80x) trajectory	HIGH
 2026-02-28	Q4 2025 Earnings	MFIC	PIK acceleration (+47% last Q), coverage sustainability	HIGH
