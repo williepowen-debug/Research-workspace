@@ -1,5 +1,44 @@
 # MARCO STATUS
-**Last Updated:** 2026-02-20 (Subagent: Florida Migration Collapse Integration) | **Status:** 🔴 RED — FLORIDA MIGRATION THESIS CONFIRMED (93% collapse, #1→#8, Alabama>FL) + DHS Shutdown Day 8 + Midwest Reversal Validated
+**Last Updated:** 2026-02-23 (Audit + Daily Check-In) | **Status:** 🔴 RED — FLORIDA MIGRATION THESIS CONFIRMED (93% collapse, #1→#8, Alabama>FL) + DHS Shutdown Day 10 + E-Verify BREACHED + 15% Tariff Accelerant
+
+---
+
+## 🆕 UPDATE — Feb 23, 2026 Daily Check-In
+
+### E-Verify Suspension: BREACHED (Day 10)
+- **DHS Shutdown:** Day 10 (since Feb 14)
+- **E-Verify:** SUSPENDED since Day 1 — now **BREACHED** (>7 day threshold)
+- **Impact:** H-2A processing bottlenecked during critical planting season (Mar-May)
+- **Congress:** Returns today (Feb 23); Farm Bill markup TODAY (does NOT include H-2A reform)
+- **TSA Risk:** Mar 3 partial paycheck, Mar 17 full miss = walkout risk
+
+### 15% Tariff Announcement: THESIS ACCELERANT
+Trump announced **15% global tariff** (Feb 21, raised from 10%) after Supreme Court struck down IEEPA tariffs. Market selloff reflects uncertainty.
+
+**Impact on MARCO thesis — REINFORCING across all vectors:**
+
+| Vector | Impact |
+|--------|--------|
+| Border Economy (TX/AZ) | $100K jobs at risk in El Paso corridor; McAllen/Laredo retail already -27% |
+| Remittances | Inflation → reduced migrant income → further decline |
+| CA Produce Prices | Tariff + fear-withdrawal = price spike may hit Mar-May, not H2 |
+| Consumer Transmission | LABOR→CARL→REGINALD timeline compresses |
+| Municipal Revenue | Sales tax collapse deepens (El Paso: $24M→$3M) |
+
+**→ Prediction #21 confidence UPGRADED: 40% → 55%** (planting-season raid surge → earlier produce spike)
+
+### Thresholds Approaching
+
+| Metric | Current | Breach | Status |
+|--------|---------|--------|--------|
+| FL Condo Inventory | 8.8mo | >9mo | **0.2mo from breach** |
+| FL Citizens Exposure | $678.8B | >$750B | Q3-Q4 2026 |
+| E-Verify Suspension | Day 10 | >7 days | **✅ BREACHED** |
+
+### Weekend Enforcement Developments
+- **Minneapolis "Metro Surge" winding down** — shifting geography, not stopping
+- **Dilley family detention crisis** — 1,400+ detained (triple Oct 2025), children held 113+ days
+- **US Embassy Mexico security alert** (Feb 22) — Guadalajara, Cancún, Tijuana sheltering in place
 
 ---
 
