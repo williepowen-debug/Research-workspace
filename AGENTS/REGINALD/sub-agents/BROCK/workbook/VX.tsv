@@ -1,4 +1,9 @@
 METRIC	ENTITY	VALUE	THRESHOLD_Y	THRESHOLD_R	STATUS	UPDATED
+Blue Owl OBDC II Status	OWL	GATED	Gate risk	GATED	RED	2026-02-18
+Blue Owl Stock Decline	OWL	-16% (5 days)	>-10%	>-15%	RED	2026-02-23
+WAL Transmission	WAL	-5.59% (Feb 23)	>-3%	>-5%	RED	2026-02-23
+Big Bank PC Exposure	JPM+BAC+C	$100B+	$75B	$100B	RED	2026-02-23
+BofA Client Outflows	BAC	$8.3B (wk)	$5B	$8B	RED	2026-02-23
 PIK % of Investment Income	PSEC	35.0%	>15%	>25%	RED	2025-Q3
 PIK % of Investment Income	FSK	27.0%	>15%	>25%	RED	2025-Q3
 PIK % of Investment Income	BXSL	20.0%	>15%	>25%	ORANGE	2025-Q3
