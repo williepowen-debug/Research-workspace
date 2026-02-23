@@ -426,9 +426,9 @@ Earnings call revealed deposit cost ranking by segment:
 
 **WAL single-name puts:** Thesis STRENGTHENED by primary source confirmation. Management explicitly stating relabeling strategy + H1 stress guidance = rare alignment of quantitative data + qualitative admission.
 
-**Strike selection:** Focus on strikes that capture 20-30% downside (typical regional bank stress move). Current price ~$70 → $49-56 range targets.
+**Strike selection:** Focus on strikes that capture 25-30% downside (typical regional bank stress move). Current price ~$95 → $70-75 range targets.
 
-**Timing:** Consider entry after Feb 19 Japan catalyst resolves. If Path D fires, wait for initial vol spike to settle. If not, enter on any rally.
+**Timing:** Feb 19 Japan catalyst RESOLVED (Path D did NOT fire — JGB auction passed with BTC 3.08). Ready for entry.
 
 ---
 
@@ -1141,9 +1141,9 @@ Pure plays (EGBN, SBCF, IBOC) are binary bets. Multi-channel names (WAL, VLY, CF
 - ✅ Reserve risk: C&I methodology applied to hidden CRE losses
 - ⚠️ Regulatory relief bet: Trump admin may delay enforcement
 
-**Entry timing:** After Feb 19 Japan catalyst. If Path D fires, wait for vol spike to settle.
+**Entry timing:** Feb 19 Japan catalyst resolved (Path D did NOT fire). Ready for entry now.
 
-**Strike consideration:** ~$55-60P Jun 18 (20-25% below current ~$70)
+**Strike consideration:** ~$70-75P Jun 18 (25-30% below current ~$95)
 
 ### 🟠 Position Timing Consideration (Feb 16 Update)
 
@@ -1153,7 +1153,7 @@ Pure plays (EGBN, SBCF, IBOC) are binary bets. Multi-channel names (WAL, VLY, CF
 - May 15: ~35% (dual fire Feb 19 + fast transmission only)
 - Jun 18: ~60% (adds delayed Shunto + April BOJ + employment path)
 
-**Tactical decision:** WAIT until Feb 18-20 triple catalyst window resolves. If Path D fires (dual catalyst), hold all positions. If not, consider rolling 1x May 15 → Jun 18 to align with higher probability window.
+**Tactical decision:** ✅ Feb 18-20 catalyst window RESOLVED. Path D did NOT fire (JGB auction strong). German PMI beat (50.7). Timeline intact for Jun positions.
 
 **See:** `POSITION_ADJUSTMENT_FEB16.md` for full analysis
 
@@ -1297,10 +1297,12 @@ Status upgraded 🔴 CRITICAL because:
 - 🟠 Employment trigger hasn't fired yet (but Japan + housing paths are independent)
 
 **Next catalysts:**
-- Feb 19: Japan dual catalyst (Shunto + 20Y JGB)
-- Feb 25: FSK earnings (BDC canary)
-- March: Cantor appraisals → Q1 earnings
-- Apr 20-29: Q1 bank earnings
+- ~~Feb 19: Japan dual catalyst~~ ✅ RESOLVED (Path D did NOT fire)
+- **Feb 25: FSK earnings (BDC canary)**
+- **Early March: Cantor appraisals**
+- **Mar 1: OPEC+ meeting**
+- **Apr 20-29: Q1 bank earnings**
+- **May 12: WAL Investor Day**
 
 *Full analysis: `BANK_EXPOSURE_MATRIX.md`*
 
