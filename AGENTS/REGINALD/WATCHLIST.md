@@ -1,6 +1,6 @@
 # REGINALD WATCHLIST
 
-**Last Updated:** 2026-02-23 14:15 UTC
+**Last Updated:** 2026-02-23 15:58 UTC
 **Quick-scan targets for daily monitoring**
 
 ---
@@ -9,18 +9,22 @@
 
 | Ticker | Position | Entry | Current | P/L | Thesis | Next Catalyst |
 |--------|----------|-------|---------|-----|--------|---------------|
-| **KRE** | Puts | — | ~$60 | — | Regional bank convergence | Q1 earnings (Apr) |
+| **KRE** | 4x $60P Dec, 2x $70P May, 2x $60P Sep, 2x $60P Jun | Various | — | +23-41% | Regional bank convergence | Q1 earnings (Apr) |
+| **WAL** | 1x $82.5P Jun | $3.91 | $4.80 | **+22.86%** | Hidden CRE $3B, relabeling | Cantor (Mar), Q1 (Apr), Investor Day (May 12) |
 | **SSB** | 2x $90P Jun | $1.86 | — | — | FL MF 9.36% substandard, lowest capital | Q1 earnings (~Apr 25) |
+| **IWM** | 1x $250P Jun | $7.69 | $9.98 | +29.83% | Small cap stress | — |
+| **HYG** | 10x $75P Jun | $0.31 | $0.31 | +1.06% | Credit stress | — |
+| **VLY** | 10x $10P Mar | $0.08 | $0.10 | +18.70% | FL CRE | — |
 
 ---
 
 ## 🚨 PRIMARY TARGETS (Ready for Entry)
 
-### WAL — Western Alliance Bancorp
+### WAL — Western Alliance Bancorp ✅ POSITION ACTIVE
 | Metric | Value | Status |
 |--------|-------|--------|
-| **Price** | ~$95 | |
-| **Strike Target** | $70-75P Jun | 25-30% OTM |
+| **Price** | $88.03 (Feb 23) | 🔴 -5.5% today, broke 50-day MA |
+| **Position** | 1x $82.5P Jun @ $3.91 | **+22.86%** |
 | **Hidden CRE** | $3.0B (24.2% Memo3/C&I) | 🔴 ONLY bank with GROWING ratio |
 | **CRE/Tier 1** | 474% | 🔴 Breaches 300% threshold |
 | **Cantor Exposure** | $98M | Appraisals March |
