@@ -9,7 +9,7 @@ VX-REG-5.01	Japan Regional Bank Exposure	6-Cross-Border	¥9.7T CLO (Norinchukin)
 VX-REG-6.01	RF (Regions Financial)	1-Bellwether	$28.60	-10%	-15%	-20%	GREEN	80%	2026-02-16	Yahoo	ML-REG-007	CLO concentration bellwether. $4.17B CLO. UPDATE PRICE.
 VX-REG-6.02	VLY (Valley National)	1-Bellwether	$11.77	-10%	-15%	-20%	GREEN	80%	2026-02-05	Yahoo	ML-REG-026	Q4 BEAT. Rating 9.5→7.5. CRE 58%+. UPDATE PRICE.
 VX-REG-6.03	FLG (Flagstar/NYCB)	1-Bellwether	$13.93	-10%	-15%	-20%	GREEN	80%	2026-01-30	Yahoo	ML-REG-027	Rating 8.9→7.0. Extend-and-pretend working. UPDATE PRICE.
-VX-REG-6.04	WAL (Western Alliance)	1-Bellwether	$88.00	-10%	-15%	-20%	GREEN	82%	2026-02-16	Yahoo	ML-REG-040	Cantor fraud $98.6M under-reserved. UPDATE PRICE.
+VX-REG-6.04	WAL (Western Alliance)	1-Bellwether	$95.01	-10%	-15%	-20%	GREEN	85%	2026-02-23	Yahoo	ML-REG-040, ML-REG-071, ML-REG-072, ML-REG-073	🚨 CRITICAL: $3.0B hidden CRE (Memo3+RCON6550), mgmt confirmed "remixing," 474% CRE/Tier 1. PRIMARY TARGET.
 VX-REG-6.05	CFG (Citizens Financial)	1-Bellwether	$64.00	-10%	-15%	-20%	GREEN	75%	2026-02-02	Yahoo	ML-REG-049, FLOW-REG-5.01	Fund finance expansion. Leverage-on-leverage risk.
 VX-REG-6.06	CMA (Comerica)	1-Bellwether	$95.00 (merger)	-10%	-15%	-20%	GREEN	79%	2026-01-26	Yahoo	ML-REG-010	Fifth Third merger closed Feb 1.
 VX-REG-6.07	KEY (KeyCorp)	1-Bellwether	$21.20	-10%	-15%	-20%	GREEN	78%	2026-01-26	Yahoo	ML-REG-010	Office NPL + equipment fraud exposure. UPDATE PRICE.
@@ -45,3 +45,5 @@ VX-OTTO-1.03	Auto Recovery Ratio	2-Credit	30.58%	<40%	<35%	<30%	ORANGE	85%	2026-
 VX-OTTO-2.01	Carvana Stock	1-Bellwether	$313 (pre-earnings)	-20%	-40%	-60%	PENDING	75%	2026-02-16	OTTO	OTTO_INTEL.md	Feb 18 earnings. Base -15-20%, Escalation -30-45%, Extreme -60-80%.
 VX-OTTO-2.02	Ally Financial Stock	1-Bellwether	TBD	-10%	-15%	-20%	PENDING	80%	2026-02-16	OTTO	OTTO_INTEL.md	$19B Carvana exposure (42% originations), NO RECOURSE. Feb 18 reaction.
 VX-OTTO-3.01	First Brands BDC Exposure	5-Shadow	$237M across 15 BDCs	BDC stress	Dividend cuts	NAV collapse	ORANGE	95%	2026-02-16	OTTO	OTTO_INTEL.md	$9.3B debt, $12M cash at bankruptcy. Which banks back the 15 BDCs?
+VX-REG-16.01	Blue Owl Private Credit Gate	5-Shadow	GATED (Feb 23)	First gate	Multiple gates	Sector contagion	RED	95%	2026-02-23	Bloomberg	ML-REG-070, FLOW-REG-17.01	🔴 FIRST PRIVATE CREDIT GATE THIS CYCLE. $1.8T market. Monitor OWL, ARES, APO, FSK.
+VX-REG-16.02	WAL Hidden CRE Total	2-Credit	$3.0B (Memo3+RCON6550)	>$2.5B	>$3.0B	>$3.5B	ORANGE	98%	2026-02-23	FFIEC CDR	ML-REG-071, ML-REG-072	+62% in 18 months. Structural classification policy confirmed. Off-BS mirrors on-BS.
