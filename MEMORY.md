@@ -2,7 +2,7 @@
 
 **Purpose:** Critical learnings that should persist across sessions
 
-**Last Updated:** 2026-02-23 03:05 UTC
+**Last Updated:** 2026-02-23 11:05 UTC
 
 ---
 
@@ -46,7 +46,34 @@ Screened 7 target banks. **3 flagged Metropolitan Capital Pattern (>20% Memo3/C&
 - **KRE puts:** STRENGTHENED — 3 of 7 constituents have hidden CRE
 - **SSB puts:** VALIDATED — cleanest book (0.9%), risk is visible
 - **OZK:** NEW TARGET — worst hidden ratio
-- **WAL:** NEW TARGET — largest hidden exposure
+- **WAL:** PRIMARY TARGET — largest hidden exposure + management confirmed relabeling
+
+### WAL Thesis Finalized (Feb 23, 2026)
+
+**Grade: A+** — Quantitative + Qualitative + Timeline aligned
+
+**Primary Risk (Hidden CRE):**
+- $2.73B hidden CRE in C&I (Memo Item 3)
+- 24.2% ratio — only bank with GROWING hidden ratio (up from 15.5% in Q2 2024)
+- Management explicitly said "remixing into C&I" = relabeling confirmed
+- 474% CRE/Tier 1 (breaches 300% SR 07-1 threshold)
+
+**NDFI Correction (Feb 23):**
+- Originally thought major risk (~$6.5B)
+- Reality: 68% mortgage warehouse (0.08% reserves, near-zero losses)
+- NO auto warehouse exposure
+- Ex-mortgage only $4.3B (8%) — secured SPV structures
+- **NDFI removed as risk vector**
+
+**Position:**
+- Price: ~$95.01
+- Strike: $70-75P Jun (25-30% OTM)
+- Catalysts: Cantor appraisals (Mar), Q1 earnings, **Investor Day (May 12)**
+
+**Key Quotes (Q4 2025 earnings call):**
+- Ken: "reserves adjusting modestly as our mix shifts towards higher return C&I growth"
+- Tim Bruckner: "we curtailed our growth and pressed out...CRE loans as a percentage decreased"
+- Reality: True CRE stable at ~$36.8B while labeled CRE fell — they relabeled, not reduced
 
 ### Research Methodology
 **How to screen for hidden CRE:**

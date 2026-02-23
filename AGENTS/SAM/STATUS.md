@@ -1,8 +1,36 @@
 # SAM STATUS
 
-**Signal Status:** 🟢 GREEN | **Last Updated:** 2026-02-23 00:25 UTC
+**Signal Status:** 🟢 GREEN | **Last Updated:** 2026-02-23 11:10 UTC
 
 **Summary:** FEB 19 PASSED — JGB Demand Holding, Path D Deferred. Life Insurer Research COMPLETE.
+
+---
+
+## 📥 NEW SIGNAL: BOJ Hikes = Risk Asset Crusher (Feb 23)
+
+**Source:** BTC/USD weekly chart overlaid with BOJ rate hikes
+
+**Pattern Confirmation — Every BOJ Hike Triggers Risk-Off:**
+
+| Date | BOJ Action | BTC Drawdown | Notes |
+|------|------------|--------------|-------|
+| Mar 19, 2024 | First hike (exit NIRP) | **-23.06%** | End of negative rates |
+| Jul 31, 2024 | Second hike to 0.25% | **-26.61%** | Triggered Aug 5 VIX 65 |
+| Jan 24, 2025 | Third hike to 0.50% | **-31.89%** | |
+| Dec 19, 2025 | Fourth hike to 0.75% | **-39.11%** | Most recent |
+
+**Key Insight:** BOJ hikes are becoming MORE damaging to risk assets (-23% → -39%). Each successive hike hits harder as:
+1. Carry trade unwind compounds
+2. Yen strength accelerates
+3. Global liquidity tightens
+
+**Implication for Path D:**
+- Next BOJ hike (Apr 23-24, 1.0% possible) = another -25-40% risk asset drawdown expected
+- Pattern is CONSISTENT and TRADEABLE
+- BTC as proxy suggests broader risk assets (equities, HY credit) follow similar pattern
+- Our Jun puts should benefit from any April BOJ action
+
+**Cross-reference:** Aug 2024 (Jul 31 hike) → VIX 65 within days. Pattern holds.
 
 ---
 
