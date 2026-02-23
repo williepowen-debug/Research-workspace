@@ -2,7 +2,35 @@
 
 **Purpose:** Critical learnings that should persist across sessions
 
-**Last Updated:** 2026-02-23 11:05 UTC
+**Last Updated:** 2026-02-23 21:48 UTC
+
+---
+
+## TRADING DAY VALIDATION (Feb 23, 2026)
+
+### WAL Position Entered — Immediate Validation
+- **Entry:** 1x WAL $82.5P Jun @ $3.91
+- **Day 1:** +22.86% (stock -5.59%)
+- **Technical:** Broke 50-day AND 200-day MAs in one session
+
+**Hidden CRE screen validated:** WAL (-5.59%) and EGBN (-5.70%) = worst performers in regional banks. Market sniffing out the right names.
+
+### Broad Deleveraging — Not Just Regionals
+- BofA clients dumped **$8.3B** single-stock (third-highest since 2008)
+- Hedge funds net sellers at **fastest pace since March '25** (GS prime desk)
+- JPMorgan trading desk: "New normal" for 2026
+- Barclays: Volatility patterns similar to 2008 crash and last year's tariff rollout
+
+**Implication:** Regional bank thesis rides a larger wave of institutional deleveraging.
+
+### Blue Owl = First Crack in Private Credit
+- Halted OBDC II redemptions
+- Selling 35% of loans
+- BofA's "misinformation" defense = talking their book ($25B commitment)
+- Treasury Sec Bessent publicly "concerned"
+
+### Lesson: RED Team Timing is Ironic
+RED graded WAL thesis C- (25-30% probability) hours before stock dropped 5.5% and broke both MAs. Adversarial review is valuable, but market has final vote.
 
 ---
 
