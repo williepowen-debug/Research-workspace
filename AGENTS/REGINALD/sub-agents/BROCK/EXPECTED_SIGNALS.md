@@ -1,6 +1,6 @@
 # BROCK Expected Signals
 
-**Last Updated:** 2026-02-10
+**Last Updated:** 2026-02-23
 **Agent:** BROCK (BDC/Private Credit Stress Monitor)
 **Parent:** REGINALD
 
@@ -102,10 +102,11 @@ Private BDC investors trying to exit.
 | 5-10% | Elevated, manageable | YELLOW |
 | 10-15% | Stress, gate risk | ORANGE |
 | >15% | Gate imminent | RED, signal REGINALD |
+| **GATED** | **Redemptions halted** | **🔴 CRISIS — Prediction #3 CONFIRMED** |
 
-**Current canary:** Blue Owl OTIC at 17% requests — raised cap to avoid pro-rata gate.
+**🚨 Feb 18, 2026: Blue Owl OBDC II permanently gated.** First major BDC redemption gate. $1.7B retail fund trapped. Selling 35% of loans to pay down debt.
 
-**Key question:** Are gates being used? Gates = forced sellers in secondary.
+**Key question:** Will contagion spread to other BDCs? Watch FSK earnings Tuesday.
 
 ---
 
@@ -198,14 +199,23 @@ BROCK stress transmits to regional banks via fund finance exposure ($1.2T bank-N
 **Signal REGINALD when:**
 1. Any BDC with >$2B bank revolver experiences NAV decline >15%
 2. Multiple BDCs mark down same portfolio company (synchronized stress)
-3. Redemption gates trigger at non-traded BDC with bank sub-lines
+3. Redemption gates trigger at non-traded BDC with bank sub-lines ✅ **TRIGGERED FEB 18**
 4. PIK % rises above 20% at FSK or ARCC (largest syndicates)
 5. Software sector experiences broad markdown >5%
 
 **Key bank exposures to flag:**
 - CFG: Fund finance priority, SVB refugees
-- WAL: $98M Cantor non-accrual already
+- WAL: $98M Cantor non-accrual already, **-5.59% on Feb 23 (transmission confirmed)**
 - Regional banks in ARCC syndicate (39 lenders)
+
+**🚨 Feb 23 Transmission Confirmed:**
+- Blue Owl gate (Feb 18) → Private credit fear
+- BofA "misinformation" defense → Denial phase = smart money exits
+- BofA clients dump $8.3B → Third-highest since 2008
+- WAL -5.59% → Worst regional bank performer
+- EGBN -5.70% → Second-worst (both have hidden CRE >20%)
+
+This is the transmission path firing in real-time.
 
 ---
 
@@ -231,20 +241,21 @@ Funding markets amplify BDC stress.
 
 ---
 
-## Earnings Calendar (Q4 2025)
+## Earnings Calendar (Q4 2025) — Updated Feb 23
 
-| Date | Ticker | Priority | Watch For |
-|------|--------|----------|-----------|
-| Feb 12 | MAIN | LOW | Gold standard maintenance |
-| Feb 18 | ARCC | MEDIUM | Software marks, syndicate health |
-| Feb 19 | FSK | HIGH | PIK trend (27%), coverage |
-| Feb 20 | BXSL | MEDIUM | PIK (20%), AI exposure |
-| Feb 25 | PSEC | CRITICAL | PIK (35%), dividend sustainability |
-| Feb 26 | GBDC | MEDIUM | Software concentration (32%) |
-| Feb 27 | TCPC | CRITICAL | Post-collapse stabilization |
-| Feb 27 | GSBD | HIGH | Coverage (0.80x) trajectory |
-| Feb 28 | MFIC | HIGH | PIK acceleration |
-| TBD | HRZN | CRITICAL | Monroe merger terms |
+| Date | Ticker | Priority | Watch For | Status |
+|------|--------|----------|-----------|--------|
+| Feb 12 | MAIN | LOW | Gold standard maintenance | ✅ COMPLETE |
+| Feb 18 | ARCC | MEDIUM | Software marks, syndicate health | ✅ COMPLETE |
+| Feb 20 | BXSL | MEDIUM | PIK (20%), AI exposure | ✅ COMPLETE |
+| **Feb 25** | **FSK** | **CRITICAL** | **First major BDC post-Blue Owl gate. PIK trend (27%), coverage** | ⏳ TUESDAY |
+| **Feb 25** | **PSEC** | **CRITICAL** | **PIK (35%), dividend sustainability (maintained Feb 9-10)** | ⏳ TUESDAY |
+| Feb 26 | GBDC | MEDIUM | Software concentration (32%) | ⏳ |
+| **Feb 27** | **OZK** | **CRITICAL** | **Hidden CRE validation (37.6% Memo3/C&I — worst ratio)** | ⏳ THURSDAY |
+| Feb 27 | TCPC | CRITICAL | Post-collapse stabilization | ⏳ |
+| Feb 27 | GSBD | HIGH | Coverage (0.80x) trajectory | ⏳ |
+| Feb 28 | MFIC | HIGH | PIK acceleration | ⏳ |
+| TBD | HRZN | CRITICAL | Monroe merger terms | ⏳ |
 
 ---
 
