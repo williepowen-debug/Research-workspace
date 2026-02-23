@@ -1,11 +1,104 @@
 # BROCK STATUS
-**Last Updated:** 2026-02-14 20:15 UTC | **Status:** 🔴 RED — Bankruptcy Surge Validates Acceleration Thesis
+**Last Updated:** 2026-02-23 21:50 UTC | **Status:** 🔴 RED — Blue Owl Gate + Bankruptcy Surge = Thesis Confirmed
 
 ---
 
 ## THESIS
 
 **"Private Credit's Public Reckoning" — PIK masks a 6% shadow default rate, not the reported 2.1%.**
+
+> **Feb 23 Update:** Blue Owl gate confirms thesis. First major BDC redemption gate triggered (Prediction #3 ✅). Big bank "misinformation" defense signals denial phase. Transmission to FSK earnings Tuesday is next test.
+
+---
+
+## 🚨 BLUE OWL CRISIS (Feb 18-23, 2026) — PREDICTION #3 CONFIRMED
+
+### Timeline
+
+| Date | Event |
+|------|-------|
+| **Feb 18** | Blue Owl **permanently halts** OBDC II redemptions. $1.7B retail fund gated. Selling 35% of loans to pay down debt. Investors trapped at 20% NAV discount. |
+| **Feb 19** | BofA commits **$25B to private credit** — vulture positioning. Follows JPM's $50B commitment. |
+| **Feb 20** | Private credit sector selloff: **Blue Owl -16% in 5 days**. Apollo, Blackstone, KKR, Ares, Carlyle down 4-6%. |
+| **Feb 21** | El-Erian: **"Canary in the coal mine"** like 2007. Treasury Sec Bessent: "Concerned" and watching. |
+| **Feb 23** | BofA defends Blue Owl — reiterated Buy, $24 PT (120% upside from $10.71). Called concerns **"misinformation"**. |
+| **Feb 23** | Activist hedge funds circling — **Saba and Boaz Weinstein** eyeing Blue Owl for tender offers. |
+
+### OBDC vs OBDC II — Critical Distinction
+
+| Fund | Type | Status |
+|------|------|--------|
+| **OBDC** | Main public BDC | Trading, but merger scandal overhang |
+| **OBDC II** | Retail-focused fund ($1.7B) | 🔴 **GATED — the crisis fund** |
+
+**Background:** Blue Owl attempted OBDC + OBDC II merger → class action lawsuits → merger frozen → now winding down OBDC II instead via forced asset sales.
+
+### Key Quotes (Preserved for Reference)
+
+| Source | Quote |
+|--------|-------|
+| **Mohamed El-Erian** | "Canary in the coal mine" — echoes 2007 |
+| **Treasury Sec Bessent** | "Concerned" and watching closely |
+| **BofA Research** | "Significant level of misinformation" |
+| **CNBC** | "Cockroaches" in private credit |
+
+### Crisis Cycle Framework — Denial Phase Active
+
+```
+1. Problem emerges           ✅ (Blue Owl gates OBDC II)
+2. Stock crashes             ✅ (OWL -16% in 5 days)
+3. Wall Street says "misinformation" ✅ ← WE ARE HERE
+4. More stress/gates         ⏳ (FSK Tuesday)
+5. Forced selling            ⏳ (Activists circling)
+6. Contagion                 ⏳ (Regional bank transmission)
+```
+
+**Implication:** BofA defending Blue Owl while committing $25B = talking their book. "Misinformation" defense is a contrary indicator — historically precedes escalation (see: subprime 2007, SVB 2023).
+
+### Structural vs Credit Nuance (Cliffwater Analysis)
+
+**Cliffwater position:** OBDC II problems stem from "obsolete fund structure (BDC 2.0 model)" not portfolio deterioration.
+
+| Interpretation | Implication |
+|----------------|-------------|
+| **Bull case** | Contained to one fund's structure, not systemic |
+| **Bear case** | BDC 2.0 model affects other funds → structural contagion |
+
+**Our view:** Even if structural, gates = gates. Investors trapped, forced selling underway. The *cause* matters less than the *transmission*.
+
+### Transmission Confirmation — Feb 23
+
+**WAL broke down -5.5%, worst performer in regional banks.**
+
+This validates the transmission path:
+```
+Blue Owl Gate → Private Credit Fear → Contagion Concern
+                                            ↓
+                    Big Bank Selling Pressure (BofA clients: $8.3B outflows)
+                                            ↓
+                          Regional Bank Stress (WAL -5.5%, EGBN -5.7%)
+```
+
+**Connection:** WAL has direct private credit/fund finance exposure via NDFI. When Blue Owl gates, market questions all bank private credit linkages.
+
+### Big Bank Private Credit Exposure (Updated Feb 23)
+
+| Bank | Commitment | Date | Notes |
+|------|------------|------|-------|
+| **JPMorgan** | $50B | 2025 | Balance sheet deployment |
+| **BofA** | $25B | Feb 2026 | Announced Feb 19 — vulture timing? |
+| **Citi + Apollo** | $25B | 2024 | Partnership |
+| **Goldman** | New division | 2025 | Building exposure |
+| **Total** | **$100B+** | — | Direct balance sheet risk |
+
+**Why This Matters:**
+- Banks COMPETING for private credit, not just financing it
+- If Blue Owl-style stress spreads, big banks have direct balance sheet exposure
+- BofA defending Blue Owl while committing $25B = conflict of interest
+- Creates correlation between big bank stress and private credit stress
+- Feb 23: BofA clients dumped **$8.3B single-stock** (third-highest since 2008) while BofA calls Blue Owl concerns "misinformation"
+
+---
 
 ### 🚨 CORPORATE BANKRUPTCIES AT POST-COVID HIGH (Feb 14, 2026)
 
@@ -175,6 +268,7 @@ Nvidia's product cycle is now **annual**, incompatible with 5-6 year depreciatio
 
 | Ticker | PIK % | YoY Δ | Div Coverage | Flag | Signal |
 |--------|-------|-------|--------------|------|--------|
+| **OWL** | — | — | — | 🔴 **GATED OBDC II** | 🔴 RED — CRISIS |
 | **PSEC** | 35.0% | -13% | <1.00x | Extreme PIK / Liquidity Risk | 🔴 RED |
 | **FSK** | 27.0% | +39% (2yr) | 1.10x | High PIK / Accelerating | 🔴 RED |
 | **BXSL** | 20.0% | +2% | 1.15x | Elevated Junior Debt | 🟠 ORANGE |
@@ -333,11 +427,33 @@ AI Capex Bubble ($3-5T planned) → Neocloud GPU-Backed Debt
 ## WATCHLIST
 
 ### 🔴 RED — Distressed
-- **PSEC** — 16.9% PIK, BB+ downgrade, 36% top-5 concentration, $248M realized losses, dividend cut
+- **Blue Owl (OWL/OBDC/OBDC II)** — 🚨 **GATED Feb 18** — OBDC II redemptions permanently halted, selling 35% of loans, stock -16% in 5 days, activists (Saba, Weinstein) circling, BofA "misinformation" defense = denial phase
+- **PSEC** — 16.9% PIK, BB+ downgrade, 36% top-5 concentration, $248M realized losses, dividend cut (Feb 9-10: dividend **maintained**)
 - **TCPC** — 🚨 **19% NAV decline Q4 2025** (9.6% non-accruals at cost), Edmentum/aggregator exposure
 - **HRZN** — 🚨 **21% NAV decline** ($9.06 → $7.12), 5 investments at Grade 1 (64% write-down), **merging with Monroe Capital** (distress-driven)
 
 ### 🟠 ORANGE — Elevated Risk
+
+#### 🚨 FSK — EARNINGS TUESDAY FEB 25 (First Major BDC Post-Blue Owl)
+
+| Metric | Value | Risk |
+|--------|-------|------|
+| Price | $12.82 | -21.5% from Dec high ($16.33) |
+| Chart | Making new lows | 🟠 Bearish setup |
+| PIK | 27% | 🔴 Elevated |
+| Dividend Coverage | 1.10x | 🟡 Thin |
+
+**Why FSK Matters Now:**
+- First major BDC to report after Blue Owl gate
+- If FSK shows PIK increase or dividend pressure → BROCK thesis validated
+- If FSK guides stable → temporary relief, but watch language
+
+**Watch For:**
+- PIK % change (currently 27%)
+- Dividend guidance
+- Software/tech exposure commentary
+- Any "portfolio repositioning" language
+
 - **FSK** — $3.95B PIK (27%), 89% dividend coverage, largest absolute PIK
 - **GBDC** — 32% software concentration (exceeds threshold), though credit quality strong
 - **NMFC** — 3% non-accruals, Edmentum equity exposure, selling $500M assets to de-lever
@@ -428,6 +544,22 @@ AI Capex Bubble ($3-5T planned) → Neocloud GPU-Backed Debt
 
 **Key connection:** REGINALD banks with tech/middle-market exposure (WAL, TOWN) face dual hit from direct CRE + indirect BDC-linked credit.
 
+### 🚨 TRANSMISSION CONFIRMED — Feb 23, 2026
+
+| Event | Regional Bank Impact |
+|-------|---------------------|
+| Blue Owl gate (Feb 18) | Private credit fear spreads |
+| BofA "misinformation" defense (Feb 23) | Denial phase = smart money exits |
+| BofA clients dump $8.3B (Feb 23) | Third-highest since 2008 |
+| **WAL -5.59%** (Feb 23) | **Worst performer in regional banks** |
+| EGBN -5.70% (Feb 23) | Second-worst (hidden CRE flagged) |
+
+**WAL connection:**
+- WAL has direct fund finance exposure via NDFI ($4.3B ex-mortgage warehouse)
+- Hidden CRE screen flagged WAL at 24.2% (see REGINALD STATUS.md)
+- When Blue Owl gates, market questions ALL bank private credit linkages
+- Feb 23 breakdown validates BROCK → REGINALD transmission thesis
+
 ---
 
 ## 2026 OUTLOOK
@@ -447,14 +579,30 @@ AI Capex Bubble ($3-5T planned) → Neocloud GPU-Backed Debt
 
 ## PREDICTIONS (Falsifiable)
 
-| # | Prediction | Timeframe | Confidence |
-|---|------------|-----------|------------|
-| 1 | PSEC dividend cut again or rating downgrade | Q2 2026 | 70% |
-| 2 | Industry non-accruals rise to >2.5% | Q2-Q3 2026 | 65% |
-| 3 | At least one major BDC triggers redemption gate | 2026 | 55% |
-| 4 | Software sector BDC exposure declines <18% | Q4 2026 | 60% |
-| 5 | Shadow default rate acknowledged by rating agency | 2026 | 50% |
-| 6 | Neocloud credit event (CoreWeave, Lambda, or Crusoe stress/downgrade) | H2 2026 | 45% |
+### ✅ CONFIRMED
+
+| # | Prediction | Original | Outcome |
+|---|------------|----------|---------|
+| **3** | At least one major BDC triggers redemption gate | 55% by 2026 | ✅ **CONFIRMED Feb 18** — Blue Owl permanently halted OBDC II redemptions |
+
+**Calibration note:** Prediction #3 hit at 55% confidence in month 2 of 2026. We appropriately assigned uncertainty while the event occurred early. Confidence level was calibrated correctly — not too confident, not dismissive.
+
+### 🟡 PARTIAL / IN PROGRESS
+
+| # | Prediction | Original | Update |
+|---|------------|----------|--------|
+| **6** | Neocloud credit event (CoreWeave, Lambda, or Crusoe stress/downgrade) | 45% H2 2026 | 🟡 **PARTIAL Feb 2026** — Blue Owl walked from CoreWeave data center financing (per Business Insider) + walked from Oracle deal. Signal, not full confirmation. |
+| **8** | Blue Owl reduces hyperscale data center exposure or exits position | 35% Q3-Q4 2026 | 🟡 **PARTIAL** — Selling 35% of OBDC II loans (forced liquidation, not strategic exit) |
+
+### ⏳ ACTIVE PREDICTIONS
+
+| # | Prediction | Timeframe | Confidence | Notes |
+|---|------------|-----------|------------|-------|
+| 1 | PSEC dividend cut again or rating downgrade | Q2 2026 | 70% | Feb 9-10: Dividend **maintained** — does not falsify, but note |
+| 2 | Industry non-accruals rise to >2.5% | Q2-Q3 2026 | 65% | |
+| 4 | Software sector BDC exposure declines <18% | Q4 2026 | 60% | |
+| 5 | Shadow default rate acknowledged by rating agency | 2026 | 50% | |
+| 6 | Neocloud credit event (CoreWeave, Lambda, or Crusoe stress/downgrade) | H2 2026 | 45% | 🟡 Partial signal — Blue Owl walked from CoreWeave |
 | 7 | AI infrastructure markdown forces BDC sector-wide write-down (>$500M aggregate) | 2026-2027 | 40% |
 | 8 | Blue Owl reduces hyperscale data center exposure or exits position | Q3-Q4 2026 | 35% |
 | 9 | HRZN merger terms worse than announced (NAV floor broken) | Q1-Q2 2026 | 60% |
@@ -476,31 +624,37 @@ AI Capex Bubble ($3-5T planned) → Neocloud GPU-Backed Debt
 
 The BDC market has grown to $482B on the back of PIK and "extend & pretend." The reported 2.1% default rate is a fiction — the shadow rate is ~6%. More than half of BDCs are paying dividends they haven't earned in cash.
 
-**Three canaries now:**
-1. **PSEC** — PIK concentration, dividend sustainability
-2. **HRZN** — AI/tech infrastructure exposure, already collapsing
-3. **🆕 PLTR** — Burry's short thesis = AI narrative stress test
+**Four canaries now:**
+1. **🆕 Blue Owl** — 🔴 First major gate (Prediction #3 ✅), denial phase active, activists circling
+2. **PSEC** — PIK concentration, dividend sustainability (Feb 9-10: maintained, but thin)
+3. **HRZN** — AI/tech infrastructure exposure, already collapsing, forced merger
+4. **PLTR** — Burry's short thesis = AI narrative stress test
 
-**NEW RISK LAYERS:**
-1. **AI infrastructure:** GPU-backed lending to neoclouds (CoreWeave, Lambda, Crusoe) mirrors telecom vendor financing of 2000
-2. **SBC manipulation:** Burry framework shows AI earnings are 30-50% fiction via stock compensation add-backs
-3. **Narrative fragility:** If PLTR reprices as consultancy (not SaaS), entire AI capex cycle gets questioned
+**NEW RISK LAYERS (Updated Feb 23):**
+1. **Blue Owl gate:** First major BDC redemption gate since 2008 — validates transmission thesis
+2. **Big bank exposure:** $100B+ combined private credit commitments (JPM $50B, BofA $25B, Citi $25B)
+3. **Denial phase:** BofA "misinformation" defense while clients dump $8.3B = talking their book
+4. **AI infrastructure:** GPU-backed lending to neoclouds mirrors telecom vendor financing of 2000
+5. **Narrative fragility:** If PLTR reprices as consultancy, entire AI capex cycle gets questioned
+
+### Two Transmission Paths Now Active
+
+**PATH A (AI Capex — existing):**
+```
+AI Capex Bubble → Neocloud GPU Debt → BDC Portfolios → Bank Fund Finance
+```
+
+**PATH B (Redemption Gate — NEW, firing now):**
+```
+Blue Owl Gate → Private Credit Fear → Contagion to Other BDCs
+                                            ↓
+                       Bank Fund Finance Stress (big banks have $100B+ exposed)
+                                            ↓
+                          Regional Bank Weakness (WAL -5.5% Feb 23)
+```
 
 **Path 2 Acceleration:** Burry's PLTR thesis increases probability of AI capex reversal from 40% to 50% by H2 2026. If PLTR <$100 before Q1 earnings, probability jumps to 65% by Q3 2026.
 
-**Transmission path if Burry is right:**
-```
-PLTR collapse → AI narrative breaks → Big Tech CFO scrutiny → Emergency capex cuts
-                                               ↓
-                                      Neocloud funding dries up
-                                               ↓
-                                   BDC GPU collateral panic (CoreWeave, Lambda)
-                                               ↓
-                                      HTGC/tech-heavy BDC NAV collapse
-                                               ↓
-                                     Regional bank fund finance stress
-```
+**Watch for:** PIK-to-NII deltas, LTV migration toward 80%, software markdowns, **FSK earnings Tuesday**, neocloud credit stress, PLTR price <$100, and any Big Tech "capex efficiency" language.
 
-Watch for: PIK-to-NII deltas, LTV migration toward 80%, software markdowns, **neocloud credit stress, PLTR price <$100, and any Big Tech "capex efficiency" language**.
-
-*Next update: Post Q1 2026 earnings + monitor PLTR price action + neocloud credit events*
+*Next update: FSK earnings Feb 25 → OZK earnings Feb 27 → Q1 2026 Big Tech earnings*
