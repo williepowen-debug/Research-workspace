@@ -1,5 +1,5 @@
 # CARL STATUS
-**Last Updated:** 2026-02-23 01:10 UTC | **Status:** 🔴 RED — Fannie MF DQ IMMINENT BREACH (6bps from GFC peak), Subprime Auto RECORD (6.9%, 0.1pp from RED), Private Credit Freeze ACTIVE (Blue Owl) | **DUAL TRANSMISSION PATHS: DOGE (0-2mo) + Private Credit Middle-Market (May-Jun layoffs → Q3 conversion)** | Maryland DOGE→DQ CONFIRMED
+**Last Updated:** 2026-02-23 11:10 UTC | **Status:** 🔴 RED — Fannie MF DQ IMMINENT BREACH (6bps from GFC peak), Subprime Auto RECORD (6.9%, 0.1pp from RED), Private Credit Freeze ACTIVE (Blue Owl), US Net Savings at ZERO | **DUAL TRANSMISSION PATHS: DOGE (0-2mo) + Private Credit Middle-Market (May-Jun layoffs → Q3 conversion)** | Maryland DOGE→DQ CONFIRMED
 
 ---
 
@@ -77,6 +77,41 @@ Path F (new):      AI displacement → White-collar income impairment → Prime 
 ```
 
 Both paths converge at REGINALD (bank losses).
+
+---
+
+## 📥 NEW SIGNAL: US Net Savings Rate at ZERO (Feb 23)
+
+**Source:** FRED — Net saving as % of gross national income (@FinanceLancelot)
+
+**The Chart:**
+- 1965: **12.5%** net savings rate
+- 1980s-2000s: Oscillated 5-8%
+- 2008 GFC: Crashed to **-2.5%** (negative = dissaving)
+- Post-GFC recovery to ~5%
+- 2020-present: Collapsed back to **~0%**
+
+**Current State: Zero Buffer**
+
+US households and businesses are saving NOTHING relative to national income. This means:
+1. **No shock absorber** — any income disruption → immediate stress
+2. **Structural fragility** — even employed consumers have no cushion
+3. **Historical context** — only GFC had negative savings; we're at GFC-adjacent levels
+
+**Implication for CARL Thesis:**
+
+This explains why Wright showed 609K current → delinquent in ONE MONTH (Oct 2025):
+- Borrowers who were CURRENT had no savings buffer
+- Any income stress (hours cut, bonus missed, unexpected expense) → immediate default
+- Employment alone is NOT a buffer when savings = 0
+
+**Cross-reference:**
+- Excess savings depleted (Fed research, mid-2024)
+- Credit card debt at ATH
+- "Buy Now Pay Later" explosion
+- 401(k) hardship withdrawals rising
+
+**This is structural consumer fragility, not cyclical.**
 
 ### Cross-Agent Links
 

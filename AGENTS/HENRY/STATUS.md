@@ -1,5 +1,5 @@
 # HENRY STATUS
-**Last Updated:** 2026-02-18 21:45 UTC | **Status:** 🟠 ORANGE — HY OAS 6 bps from 300 | VIX contango shallow | MOVE +20% from lows | No threshold breach yet
+**Last Updated:** 2026-02-23 11:10 UTC | **Status:** 🟠 ORANGE — HY OAS 6 bps from 300 | VIX contango shallow | MOVE +20% from lows | Burry GPU depreciation thesis ACTIVE | Net Investment at cycle lows
 
 ---
 
@@ -34,6 +34,90 @@ The equity market is **derivatives-driven** where dealer hedging dominates short
 **SBC Valuation Gap (Burry):** Tech earnings overstated 30-50% due to SBC add-backs. PLTR worth ~$46/share vs $135 current. NVDA's $91B "buybacks" = zero share reduction. If this reprices, Reverse Wealth Effect 2-3x larger than baseline.
 
 **🆕 SoftBank Exits NVDA (Feb 17, 2026):** SoftBank Group **dissolved share stake in Nvidia** per SEC filing. Smart money exiting AI poster child. Vision Fund has history of selling near tops (sold NVDA in 2019 before run, regretted, bought back near peak). When sophisticated Japanese capital exits = valuation concerns.
+
+---
+
+## 🆕 BURRY GPU DEPRECIATION THESIS (Feb 23)
+
+**Source:** @aakashgupta thread analyzing Burry's NVDA/PLTR puts + Cassandra Unchained research
+
+### The Depreciation Trick
+
+**Core Thesis:** Hyperscalers are overstating earnings by mismatching GPU depreciation schedules.
+
+| Reality | Accounting |
+|---------|------------|
+| H100s economically obsolete by 2027 (3-year cycle) | Depreciated over 5-6 years |
+| 2-3x compute/watt each generation | Straight-line depreciation |
+
+**Burry's Math:**
+- **$176 BILLION depreciation understatement** between 2026-2028
+- Operating income inflated **20%+** at Oracle and Meta
+- This is the "accounting trick" Burry is betting against
+
+### Cash Flow Reality Check
+
+| Company | FCF Today | FCF 2026 Projected | Change |
+|---------|-----------|-------------------|--------|
+| Amazon | Positive | **-$17B to -$28B** | 🔴 Negative |
+| Alphabet | $73.3B | **$8.2B** | **-90%** |
+
+**Big Five Bond Issuance:**
+- 2025: **$108 BILLION** raised in bonds
+- Prior 9-year average: ~$36B/year
+- **3x normal pace** — they're funding capex with debt
+
+**Data Center ABS:**
+- $13.3B this year in data center asset-backed securities
+- "A structure with a history that includes Enron and 2008"
+
+### The Math That Scares
+
+**AI Capex Reality:**
+- 2026 hyperscaler capex guidance: **$650-700 BILLION** (60%+ increase from $381B in 2025)
+- Amazon alone: $200B (vs $146B consensus → stock lost $450B in 9 sessions when announced)
+- Plan to add $2T in AI assets by 2030
+- At 20% depreciation = **$400B/year** (exceeds combined 2025 profits)
+
+**AI Revenue vs Infrastructure:**
+- AI services revenue: ~$25 billion
+- Infrastructure spend: ~$650 billion
+- **Return: 4 cents per dollar invested**
+
+### Cassandra's Net Investment Chart (Feb 23)
+
+**S&P 500 Net Investment (Capex Less Depreciation) / Nominal GDP**
+
+Historical pattern: Every prior peak preceded major correction:
+- Tech Media Telecom Boom → NASDAQ Peak Mar 2000 → crash
+- Housing Boom → S&P 500 Peak Nov 2007 → crash
+- Oil Shale Revolution → S&P Energy Index Peak Jul 2014 → crash
+
+**Current:** "Cloud and AI Boom" with NASDAQ 100 at new highs Q4 2025 — but **net investment at LOWS**.
+
+**Translation:** AI boom is a CAPEX spending bubble, not real investment. Companies spending massively but creating no net new productive capacity relative to GDP.
+
+### Burry Timing Caveat
+
+**Historical pattern:**
+- Shorted Tesla at $180 → went to $1,200
+- Called housing crisis 2 years early, nearly went bankrupt waiting
+- "Structural analysis correct, timing wrong, market can stay irrational long enough to wipe out the trade"
+
+**His solution:** Capped downside via puts (NVDA, PLTR) — limited loss, asymmetric upside.
+
+### Implication for Our Thesis
+
+| Signal | Status | Impact |
+|--------|--------|--------|
+| AI capex bubble | ACTIVE | When it pops → Path B (top-down) trigger |
+| Depreciation cliff | 2026-2028 | Earnings restatements possible |
+| FCF collapse | Projected 2026 | Amazon negative, Alphabet -90% |
+| Data center ABS | $13.3B | Structured product risk |
+
+**Cross-reference:** SoftBank exiting NVDA (Feb 17) = smart money agrees with Burry's concerns.
+
+**Position consideration:** NVDA/PLTR puts are Burry's trade. Our exposure is via IWM (small caps get hit in any risk-off) and HYG (credit reprices before equities).
 
 **CRE "AI Scare Trade" (Feb 12-13):** CBRE -26% ($12B wiped) in 48 hours on AI disintermediation fear — NOT fundamentals (reported +15% profit same day). JLL -14%, Cushman -13%, office REITs -6.7%. "Sharpest sell-off since 2008." Reveals how fast sentiment can crater sectors. Applies to any "high-fee, labor-intensive" industry.
 
