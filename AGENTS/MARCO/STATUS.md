@@ -1,5 +1,5 @@
 # MARCO STATUS
-**Last Updated:** 2026-02-18 (Subagent: Farm Bill + State H-2A Research) | **Status:** 🔴 RED — DHS Shutdown Day 6 + RIF Protections Expired + Farm Bill Markup Feb 23 + National Fear-Withdrawal Pattern CONFIRMED (Partial)
+**Last Updated:** 2026-02-20 (Subagent: Florida Migration Collapse Integration) | **Status:** 🔴 RED — FLORIDA MIGRATION THESIS CONFIRMED (93% collapse, #1→#8, Alabama>FL) + DHS Shutdown Day 8 + Midwest Reversal Validated
 
 ---
 
@@ -29,6 +29,7 @@ Three domains tracked:
 
 | Indicator | Value | Status | Trend |
 |-----------|-------|--------|-------|
+| **🆕 FL Net Domestic Migration** | **22,517 (2025) — 93% COLLAPSE from 311K (2022)** | **🔴 BREACHED** | **#1→#8 destination; Alabama>FL** |
 | H-2A Certifications | 400K+ (8x since 2005) | 🔴 BREACHED | Labor scarcity confirmed |
 | Canadian Visitors YoY | **-28%** (22.9M trips) | 🔴 BREACHED | **Upgraded from -26%** |
 | Canadian Airline Seats Q1 2026 | **-450K (-10%)** | 🔴 BREACHED | Structural capacity shift |
@@ -48,7 +49,52 @@ Three domains tracked:
 | El Paso Deficit | $55-62M | 🟠 CRITICAL | Pension 60% funded |
 | Nogales Residential | -43% YoY | 🟠 CRITICAL | Crashed |
 
-**Composite:** 10 BREACHED, 10 CRITICAL = Multi-state stress transmission underway
+**Composite:** 11 BREACHED, 9 CRITICAL = Multi-state stress transmission accelerating — **FLORIDA THESIS CONFIRMED**
+
+---
+
+## 🔴 BREAKTHROUGH — FLORIDA MIGRATION COLLAPSE (Feb 20, 2026)
+
+### Census Data: 93% Collapse in Net Domestic Migration (2022-2025)
+
+**The Numbers:**
+| Year | Net Domestic Migration | Change from 2022 | National Rank |
+|------|----------------------|-----------------|--------------|
+| 2022 | 310,892 | Baseline | **#1** |
+| 2023 | 185,067 | -40% | Top 5 |
+| 2024 | 63,346 | -80% | ~#8 |
+| 2025 | **22,517** | **-93%** | **#8** |
+
+**Key Findings:**
+- Florida dropped from **#1 to #8** for domestic migration destination
+- **Alabama now attracts MORE domestic migrants than Florida**
+- 311K → 23K collapse in just 3 years (unprecedented for Tier-1 destination state)
+- International migration (+411K in 2024) was masking the collapse, but that pipeline is now severed (CHNV/TPS terminated)
+
+**Midwest Reversal CONFIRMED:**
+- **Ohio:** Lost 32,000 (2021) → **GAINING 12,000** (2025) — complete reversal
+- **Michigan:** Turned positive for first time this decade
+- First time this decade the Midwest as a region saw net positive domestic migration
+- Validates SF Fed "Sun Belt to Snow Belt reversal" long-term thesis
+
+**Why This Matters:**
+This is the STRONGEST OFFICIAL VALIDATION of the thesis. Leading indicators have transmitted to actual migration flows **FASTER** than the predicted 12-24 month lag:
+1. **Insurance crisis** (4.5x national, +72% since 2019) → VX-MARCO-3.01 BREACHED
+2. **Price reversal** (FL -5% to -12%, Snowbelt +7% to +21%) → VX-MARCO-3.02 BREACHED
+3. **Condo inventory** (8.8 months supply, approaching distress) → VX-MARCO-FL-02 CRITICAL
+4. **Canadian tourism** (-28% YoY, 12+ months sustained) → VX-MARCO-1.01 BREACHED
+5. → **Migration collapse** (93% decline, #1 to #8) → **VX-MARCO-3.03 NOW BREACHED**
+
+Florida's "special market" narrative is **BROKEN**. The cost-of-living arbitrage that drove 40+ years of Sun Belt dominance has been **EXHAUSTED**.
+
+**Next Risks:**
+- International migration offset (+411K) is dissolving due to CHNV/TPS terminations
+- Florida may see **POPULATION DECLINE** in 2026-27 if both domestic AND international turn negative simultaneously
+- Tax revenue cliff for state/local governments
+- Housing market further stress (already 8.8mo condo inventory)
+- Labor shortage compounds (500K+ vacancies, immigrant workforce losing legal status)
+
+**→ Flagged to PROME as core thesis confirmation at 95% confidence**
 
 ---
 

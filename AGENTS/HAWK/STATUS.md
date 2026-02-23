@@ -1,7 +1,51 @@
 # HAWK STATUS
 
-**Last Updated:** 2026-02-19 03:40 UTC  
-**Overall Status:** 🔴 RED — Iran buildup + Shadow Fleet Enforcement Escalating + Russian Revenue Thesis CONFIRMED
+**Last Updated:** 2026-02-22 19:40 UTC  
+**Overall Status:** 🔴 RED — IRAN STRIKE PUBLICLY CONSIDERED + Shadow Fleet Enforcement Escalating
+
+---
+
+## 📥 INBOX (New Data — Feb 22)
+
+### 🔴 CRITICAL: Trump Publicly Considering Military Strike on Iran (Feb 20-21)
+
+**What happened:**
+- **Feb 20:** Trump told reporters at White House: "I guess I can say I am considering that" (limited military strike)
+- Goal: Pressure Tehran into nuclear deal
+- Democrats urging no strike without congressional approval
+- Reports of targeting "specific individuals" + regime change options being discussed
+
+**Market Impact (Feb 19-21):**
+- **Oil hit 6-month high** — Iran tensions driving prices
+- **Gold hit $5,000** — flight to safety
+- **S&P/Dow snapped winning streak** (Feb 19)
+- **Iran-Russia naval exercises announced** — signal of alignment
+
+**Key quotes:**
+- Trump: "I guess I can say I am considering [a limited strike]"
+- Barclays: "equity markets have largely shrugged off geopolitical noise so far"
+- Capital.com analyst: "renewed geopolitical tension between US and Iran is now clearly feeding into prices"
+
+**Escalation Assessment:**
+- Talks in Geneva still ongoing but "pretty far apart"
+- 2 carrier groups in theater (as previously tracked)
+- Strike decision could come within weeks
+
+**Update trigger thresholds (from existing framework):**
+| Event | Probability | Market Impact |
+|-------|-------------|---------------|
+| Talks collapse | 40% → **45%** | Oil +$10-15, VIX +10 |
+| Limited strike (nuclear sites) | 25% → **30%** | Oil +$20-30, VIX +20 |
+| Broader campaign | 10% | Oil +$40+, VIX +40, flight to safety |
+| Deal reached | 25% → **15%** | Oil -$5, risk-on |
+
+**Cross-agent flags:**
+- CARL: Oil spike → gas prices → consumer squeeze accelerates
+- HENRY: VIX spike risk if strike announced
+- SAM: Japan 90% energy import dependent
+- LIQUID: Flight to safety flows
+
+---
 
 ---
 

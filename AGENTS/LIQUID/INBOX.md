@@ -6,7 +6,7 @@ See `docs/SIGNAL_ROUTING.md` for protocol.
 
 ---
 
-**Prior batch processed 2026-02-20 03:54 UTC.**
+**Last processed 2026-02-20 04:17 UTC.**
 
 ---
 

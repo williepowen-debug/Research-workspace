@@ -61,9 +61,9 @@
 - [x] 20Y JGB auction: BTC 3.08 = PASSED (strong demand) ✅
 - **RESULT:** Path D did NOT fire — JGB auction showed strength, not stress
 
-**Feb 21 (Friday):**
-- [ ] German flash PMI
-- **ALERT:** If <48.0 → March US ISM sub-49 near-certain (per HANS)
+**Feb 21 (Friday) — RESOLVED:**
+- [x] German flash PMI: **50.7** (beat, above 48.0 threshold) ✅
+- ISM sub-49 NOT locked in — complicates weakness thesis but doesn't falsify
 
 ### NEAR-TERM (Feb-Mar):
 
@@ -103,7 +103,7 @@
 - Exit 100% if: BTFP 2.0 OR HY OAS <260bps OR Ukraine ceasefire deal
 - Exit 100% if: BTFP 2.0 OR HY OAS <260bps OR Japan both fail
 
-**If nothing urgent before Feb 15, reply HEARTBEAT_OK.**
+**Next catalyst: Mar 1 OPEC+ meeting.**
 
 ---
 

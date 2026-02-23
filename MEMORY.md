@@ -2,7 +2,59 @@
 
 **Purpose:** Critical learnings that should persist across sessions
 
-**Last Updated:** 2026-02-19 18:43 UTC
+**Last Updated:** 2026-02-23 03:05 UTC
+
+---
+
+## HIDDEN CRE DISCOVERY SESSION (Feb 22-23, 2026)
+
+### The Metropolitan Capital Pattern — MAJOR FINDING
+
+**What we discovered:** Banks hide CRE exposure in C&I lines via "loans to finance CRE not secured by real estate" (Schedule RC-C Memo Item 3, RCON2746).
+
+**Metropolitan Capital Bank (failed Jan 30, 2026):**
+- Labeled as 10.7% CRE, 77.5% C&I
+- **Actual:** 61% CRE when including Memo Item 3
+- $54.1M hidden CRE in C&I (39.6% of C&I book)
+- Charge-offs: $18.1M — **100% were CRE losses**
+- NCO rate: **13.3%**
+
+**The Classification Game — Three Levels of Masking:**
+1. Extend-and-pretend (don't force refinancing)
+2. Mark-to-model (don't write down)
+3. **Classification** (call CRE "C&I" if unsecured) ← NEW DISCOVERY
+
+### Hidden CRE Screen Results
+
+Screened 7 target banks. **3 flagged Metropolitan Capital Pattern (>20% Memo3/C&I):**
+
+| Bank | Memo3/C&I | True CRE | Implication |
+|------|-----------|----------|-------------|
+| **OZK** | **37.6%** | 71.5% | WORST — worse than Metropolitan |
+| **WAL** | **24.2%** | 59.0% | $2.73B hidden + $1.36B unrated munis = $4.1B |
+| **EGBN** | **23.7%** | 80.9% | Already in crisis, now worse |
+
+**Clean books:** VLY (7.0%), FBC (3.9%), ZION (1.8%), **SSB (0.9%)**
+
+### Chicago = Ground Zero Confirmed
+- 70-94% discounts on actual transactions (Fox Business Feb 22)
+- 401 S. State St: $68.1M → $4.2M (-94%)
+- 311 S. Wacker: $302M → $45M (-85%)
+- Validates loss severity thesis
+
+### Position Implications
+- **KRE puts:** STRENGTHENED — 3 of 7 constituents have hidden CRE
+- **SSB puts:** VALIDATED — cleanest book (0.9%), risk is visible
+- **OZK:** NEW TARGET — worst hidden ratio
+- **WAL:** NEW TARGET — largest hidden exposure
+
+### Research Methodology
+**How to screen for hidden CRE:**
+1. Pull FFIEC Call Report Schedule RC-C Part I
+2. Item 4: C&I loans
+3. Memo Item 3 (RCON2746): "Loans to finance CRE not secured by RE"
+4. Calculate: Memo3 / Item 4 = Hidden CRE ratio
+5. Flag if >20%
 
 ---
 

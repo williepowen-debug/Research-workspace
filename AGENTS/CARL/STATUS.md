@@ -1,5 +1,107 @@
 # CARL STATUS
-**Last Updated:** 2026-02-19 | **Status:** 🔴 RED — Fannie MF DQ IMMINENT BREACH (6bps from GFC peak), Subprime Auto RECORD (6.9%, 0.1pp from RED), Private Credit Freeze ACTIVE (Blue Owl) | **DUAL TRANSMISSION PATHS: DOGE (0-2mo) + Private Credit Middle-Market (May-Jun layoffs → Q3 conversion)** | Maryland DOGE→DQ CONFIRMED
+**Last Updated:** 2026-02-23 01:10 UTC | **Status:** 🔴 RED — Fannie MF DQ IMMINENT BREACH (6bps from GFC peak), Subprime Auto RECORD (6.9%, 0.1pp from RED), Private Credit Freeze ACTIVE (Blue Owl) | **DUAL TRANSMISSION PATHS: DOGE (0-2mo) + Private Credit Middle-Market (May-Jun layoffs → Q3 conversion)** | Maryland DOGE→DQ CONFIRMED
+
+---
+
+## 📥 INBOX: Prime Borrower Stress Research Brief (Feb 23)
+
+**Source:** Citrini Research "2028 Global Intelligence Crisis" thought exercise + Prome synthesis
+
+### New Thesis Component: Prime Mortgage Risk
+
+Citrini identifies a transmission channel we've underweighted: **prime borrower income impairment**.
+
+**Key insight:**
+> "In 2008, the loans were bad on day one. In 2028, the loans were good on day one. The world just changed after they were written."
+
+This is NOT traditional credit analysis. 780 FICO borrowers with 20% down and verified income are becoming impaired because their **income assumptions no longer hold**.
+
+### The Math
+
+- Top 20% of earners = ~65% of discretionary spending
+- These borrowers = backbone of $13T mortgage market
+- White-collar displacement → income impairment → prime mortgage stress
+- Different risk model than subprime (performing until world changes)
+
+### New Monitoring Vectors — Prime Borrower Stress
+
+| Signal | Source | Why It Matters |
+|--------|--------|----------------|
+| **HELOC draws by prime borrowers** | Fed, bank filings | Invisible stress before delinquency |
+| **401(k) hardship withdrawals** | Fidelity/Vanguard reports | Prime borrowers draining retirement |
+| **Credit card debt vs mortgage current** | Consumer credit data | Paying mortgage, maxing cards = pre-distress |
+| **Tech-heavy ZIP code delinquencies** | Fannie Mae, CoreLogic | SF, Seattle, Austin = new subprime |
+| **Jumbo mortgage early-stage DQ** | Fannie Mae flags | Prime borrower leading indicator |
+| **Savings rate by income decile** | BEA | Top quintile savings = spending buffer |
+
+### Geographic Risk Map
+
+**High-risk ZIPs (>40% tech/finance employment):**
+- San Francisco Bay Area
+- Seattle metro
+- Austin
+- Manhattan (finance)
+- Boston (biotech/finance)
+- Denver (tech)
+
+**Citrini data point:** Zillow HVI fell 11% YoY SF, 9% Seattle, 8% Austin in their scenario.
+
+### Pre-Distress Indicators (Before Delinquency)
+
+Watch for prime borrowers who are:
+1. **HELOC drawing** — using home equity to cover expenses
+2. **401(k) withdrawing** — raiding retirement for liquidity
+3. **Credit card stacking** — mortgage current but cards maxed
+4. **Spending collapse** — maintaining payments by cutting everything else
+
+These behaviors precede delinquency by 3-6 months.
+
+### Thresholds
+
+| Metric | Yellow | Orange | Red |
+|--------|--------|--------|-----|
+| Tech ZIP delinquency YoY | +20% | +50% | +100% |
+| Jumbo early-stage DQ | +0.2pp | +0.5pp | +1.0pp |
+| Prime HELOC draws YoY | +15% | +25% | +40% |
+| Top quintile savings rate | <8% | <6% | <4% |
+
+### Integration with Existing Thesis
+
+**Current CARL focus:** Subprime/stressed cohort (60% of population)
+**Addition:** Prime cohort stress (top 20-40%) via AI displacement
+
+**Revised transmission model:**
+```
+Path A (existing): Employment → Subprime stress → Banks
+Path F (new):      AI displacement → White-collar income impairment → Prime mortgage stress → Banks
+```
+
+Both paths converge at REGINALD (bank losses).
+
+### Cross-Agent Links
+
+| Agent | Connection |
+|-------|------------|
+| **LABOR** | White-collar JOLTS, AI displacement signals |
+| **REGINALD** | Prime mortgage exposure at regional banks |
+| **BROCK** | ARR-backed loans, software company defaults |
+
+### Falsification
+
+Prime mortgage thesis is WRONG if:
+- Tech ZIP delinquencies stay flat through Q3 2026
+- White-collar job openings recover
+- Jumbo early-stage DQ stays below historical norms
+- Top quintile spending remains stable
+
+### Action Items
+
+1. Add tech-heavy ZIP delinquency tracking to dashboard
+2. Request Fannie Mae "elevated early-stage delinquency" data for high-income ZIPs
+3. Monitor bank earnings for jumbo mortgage commentary (April)
+4. Cross-reference with LABOR white-collar displacement signals
+
+**Research Report:** To be compiled as RP-CARL-X when patterns confirmed
 
 ---
 
@@ -178,6 +280,15 @@ TTF spike 30-50% → Henry Hub +10-25% → Retail bills +8-15% (3-12 month lag)
 **Age breakdown (transition to 90+ days):** 18-29: 9.5% | 30-39: 8.6% | 40-49: 8.1%
 
 **Tariff Tax Burden (Tax Foundation):** $1,000/household (2025) → $1,300/household (2026) — regressive hit on 37% who can't cover $400.
+
+**🆕 Utility/Insurance Cost Surge (Feb 19, 2026 — BLS):**
+
+Since January 2020:
+- **Utility gas service: +56%**
+- **Electricity prices: +41%**  
+- **Home insurance: +14%**
+
+**Impact:** Non-discretionary costs hitting the "60% cluster" (paycheck-to-paycheck, can't cover deductible). Even homeowners with fixed mortgages face rising carrying costs. Connects to LIHEAP risk for Winter 2026-27. These costs are ADDITIVE to mortgage/rent — no escape valve for stressed households.
 
 **State-Level Tariff Burden (Mar-Nov 2025):** Top 3 consumer markets extracted $71B:
 | State | Tariff Paid | Consumer Impact |
@@ -775,11 +886,19 @@ Bank NCOs rise (REGINALD) → Earnings release
 **User Profile:** 45% deep subprime (300-579), 16% subprime (580-619), 39% near-prime+
 
 **Provider Dashboard:**
-| Provider | 30+ DQ | Next Earnings |
-|----------|--------|---------------|
-| Affirm | 4.2% | Feb 12 |
-| Klarna | 3.8% | IPO (Mar?) |
-| Afterpay | 5.1% 🟡 | Feb 20 (Block) |
+| Provider | 30+ DQ | Stock Performance | Status |
+|----------|--------|-------------------|--------|
+| Affirm | 4.2% | — | Feb 12 earnings |
+| **Klarna** | **3.8%** | **-27% (Feb 19)** | 🔴 **STRESS CONFIRMED** |
+| Afterpay | 5.1% 🟡 | — | Feb 20 (Block) |
+
+**🆕 Klarna Stress CONFIRMED (Feb 19, 2026):**
+- Stock **-27%** following Q4 2025 earnings
+- Credit loss provisions: **$250M** in Q4 — **+60% YoY**
+- Share price down **2/3 since September IPO**
+- FT headline: "Bad loan costs soar"
+- **Validates BNPL stress thesis:** One of largest providers globally confirms subprime consumer stress materializing
+- Connects to 41% late payment rate, 61% subprime concentration — **this is the cohort cracking**
 
 ---
 
@@ -795,6 +914,15 @@ Bank NCOs rise (REGINALD) → Earnings release
 | Total Student Debt | $1.66T | |
 
 **SAVE Plan:** ENJOINED by courts. 7M+ borrowers in limbo.
+
+**🆕 Borrower Defense Discharges BLOCKED (Feb 19, 2026):**
+- **170,000 borrowers** affected (defrauded by schools, legally qualify for full discharge)
+- Jan 28, 2026 deadline PASSED — automatic discharges should have triggered
+- Education Dept (McMahon) **blocking discharges**, seeking 18-month extension
+- Court initially denied extension; Dept filed for reconsideration
+- Borrowers stuck in "still in review" limbo — no decisions received
+- April deadline for next wave of post-class applicants
+- **Policy-driven stress:** Active obstruction of legally mandated relief adds to existing 16.3% 30+ DQ crisis
 
 **Credit Score Destruction (>9M borrowers):**
 - 760+ (Superprime): **-171 points**

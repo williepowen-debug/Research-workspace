@@ -1,14 +1,94 @@
 # SAM STATUS
 
-**Signal Status:** 🔴 RED | **Last Updated:** 2026-02-18 19:45 UTC
+**Signal Status:** 🟢 GREEN | **Last Updated:** 2026-02-23 00:25 UTC
 
-**Summary:** BOJ AT 0.75% CEILING + Feb 19 Dual Catalyst T-1 DAY + FULL PLAYBOOK READY
+**Summary:** FEB 19 PASSED — JGB Demand Holding, Path D Deferred. Life Insurer Research COMPLETE.
 
-**⚠️ CRITICAL DATA CORRECTIONS (Feb 17 review):**
-- BOJ rate was WRONG in STATUS.md: 0.25% → **0.75%** (hiked December 2025, held Jan 23-24)
-- USD/JPY was stale: 156.25 → **~152-153** (yen strengthened materially)
-- JGB yields have FALLEN sharply since Feb 5 (Takaichi "responsible fiscal" rally)
-- Feb 19 Shunto event: DEMAND SUBMISSION, not settlement (response due mid-March)
+---
+
+## ✅ RESEARCH COMPLETE: Life Insurer Stress Deep Dive (Feb 22-23)
+
+**Report:** `domain/sources/RP-SAM-4_JAPAN_LIFE_INSURER_STRESS.md`
+
+### Key Findings
+
+**1. Accounting Relief (JICPA) — Likely to Pass**
+- Eliminates 50% impairment trigger for policy reserve-matching bonds
+- Comment period ends **Mar 17, 2026**
+- HIGH likelihood of approval (FSA coordination, market rallied)
+- Defers crisis but does NOT solve underlying losses
+
+**2. Hedge Ratios — MUCH LOWER THAN EXPECTED**
+| Insurer | Hedge Ratio |
+|---------|-------------|
+| Nippon Life | **~20%** |
+| Dai-ichi Life | ~36% |
+| Sumitomo Life | ~57% |
+| Meiji Yasuda | ~60% |
+
+**Nippon Life at 20% = massive yen exposure**
+
+**3. Dual Regime Creates Confusion**
+- J-ICS/ESR (solvency): Full MTM — regulatory pressure remains
+- JICPA (accounting): Held-to-maturity — earnings look fine
+- Can hide from investors but NOT regulators
+
+**4. December Selling — Signal, Not Crisis**
+- ¥254.3B sold (highest since March)
+- BUT = only 0.25% of ~¥100T holdings
+- Full year 2025 was still +¥13.59T net BUYING
+
+**5. Trigger Thresholds**
+| Trigger | Level | Impact |
+|---------|-------|--------|
+| USD/JPY | <145 | 🔴 Unhedged positions underwater |
+| JICPA rejected | Any | 🔴 Forced selling resumes |
+| JGB 10Y | >2.5% | 🟠 Solvency pressure |
+| Monthly selling | >¥500B | 🟠 Pace accelerating |
+
+### Assessment
+
+**Japan = slow-burn tailwind, not near-term catalyst**
+- Structural shift is real (~$150B/year of $300B demand hole)
+- But pace is gradual (years, not months)
+- Accounting relief will defer crisis
+- **Key swing factor: USD/JPY** — sharp yen strength could accelerate
+
+### Catalyst Calendar
+| Date | Event |
+|------|-------|
+| Mar 17 | JICPA comment period ends |
+| Mid-Mar | Shunto wage settlement |
+| Mar 31 | FY2025 ends, ESR reporting begins |
+| Apr 23-24 | BOJ meeting (1.0% possible) |
+
+---
+
+## 📥 INBOX (Processed)
+
+### ✅ Japan Life Insurers $86B Losses — PROCESSED → RP-SAM-4
+
+### ✅ Trump 15% Tariff (Japan hit hardest) — LOGGED
+- Japan faces ~2pp tariff increase
+- Adds to multi-directional squeeze
+- May accelerate "sell foreign assets" behavior
+
+---
+
+**🟢 FEB 20 UPDATE: Path D NOT Triggered — Crisis Deferred to April**
+- **Feb 19 20Y JGB auction PASSED:** BTC 3.08 (above 2.8x threshold) — structural buyer demand HELD
+- **JGB yields FALLING post-auction:** 10Y down 4bp to 2.10%, 5Y down 2.5bp to 1.605%
+- **PATH D COUNTER-SIGNAL:** Yields DOWN = Prices UP = Demand HOLDING
+  - Path D requires JGB WEAKNESS (yields rising, buyers fleeing, bond vigilante attack)
+  - Current reality: JGB STRENGTH (yields falling, buyers returning at current levels, auction passing)
+  - This is the OPPOSITE of the stress scenario — Feb 19 dual catalyst did NOT ignite doom loop
+- **Takaichi "responsible fiscal" pledge working (short-term)** — bond market accepting the compromise
+- **Fed/NY Fed coordination active** — Jan 23 yen coordination calls signal backstop framework (rate checks, potential intervention if USD/JPY breaks 145/160)
+- **Path D timeline RESET:** Crisis deferred to **April BOJ meeting** (Apr 23-24)
+  - Mar 13-14 BOJ: likely HOLD at 0.75% with hawkish guidance
+  - Late March Shunto settlement: If ≥3.5% base-up = "Strong" signal
+  - April BOJ: If Shunto strong + inflation >2% = 1.00% hike = **TAKAICHI COLLISION** (0.75% ceiling breached)
+- **Small caps struggling** — Takaichi trade + AI rotation = domestic equity weakness (consumption concern proxy, not JGB-critical)
 
 ## Outbound Signals (for Prome)
 
@@ -86,7 +166,8 @@ Japan is in a **fiscal doom loop** (acknowledged as "credible tail risk" by Alli
 | Vector | Value | Status | Change | Threshold |
 |--------|-------|--------|--------|-----------|
 | **BOJ Rate** | **0.75%** | 🟡 | ⬆️ AT CEILING | Next hike = collision |
-| JGB 10Y | ~2.16-2.20% | 🟢 | ⬇️ from 2.29% | Watch >2.50% |
+| **JGB 10Y** | **2.10%** | 🟢 | **⬇️ -4bp (Feb 20)** | Watch >2.50% |
+| JGB 5Y | 1.605% | 🟢 | ⬇️ -2.5bp (Feb 20) | Watch >2.00% |
 | JGB 20Y | ~2.965% | 🟢 | **FEB 19: BTC 3.08 PASSED** | Path D NOT triggered |
 | JGB 30Y | ~3.05-3.10% | 🟢 | ⬇️ from 3.57% | Watch >4.00% |
 | JGB 40Y | ~3.65% | 🟢 | ⬇️ from 3.85% | ATH 4.24% (Jan) |
