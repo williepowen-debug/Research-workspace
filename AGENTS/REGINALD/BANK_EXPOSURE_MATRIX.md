@@ -2,12 +2,69 @@
 
 *Cross-referencing regional banks against the 8 KRE convergence channels + Municipal/Geographic stress*
 
-**Last Updated:** 2026-02-05 01:50 UTC
-**Status:** ✅ COMPLETE — All research integrated + M&A analysis + RP-REG-4.x channels
+**Last Updated:** 2026-02-23 13:50 UTC
+**Status:** ✅ UPDATED — Hidden CRE screen integrated + Metropolitan Capital autopsy + Chicago loss severity
 
 ---
 
 ## CRITICAL FINDINGS
+
+### 🚨 Hidden CRE — The Classification Game (NEW Feb 23, 2026)
+
+**Discovery:** Banks hide CRE exposure by classifying unsecured CRE loans as "C&I" — exposed via Schedule RC-C Memo Item 3 (RCON2746).
+
+**Metropolitan Capital Bank (Chicago, failed Jan 30, 2026):**
+- Labeled as 10.7% CRE, 77.5% C&I
+- **Actual:** 61% CRE when including Memo Item 3
+- $54.1M hidden CRE in C&I (39.6% of C&I book)
+- Charge-offs: $18.1M — **100% were CRE losses**
+- NCO rate: **13.3%** — validates Chicago loss severity
+
+**Chicago = Ground Zero (Fox Business, Feb 22, 2026):**
+- **70-94% discounts** on actual transactions
+- 401 S. State St: $68.1M → $4.2M (**-94%**)
+- 311 S. Wacker: $302M → $45M (**-85%**)
+- "Values unlikely to rebound to pre-2020 levels"
+
+**Hidden CRE Screen — 3 of 7 Banks Flag Metropolitan Pattern:**
+
+| Rank | Bank | Memo3 | Memo3/C&I | True CRE | Trend | Status |
+|------|------|-------|-----------|----------|-------|--------|
+| 1 | **OZK** | $1.29B | **37.6%** | 71.5% | ↓ (structural) | 🚨 CRITICAL — Worse than Metropolitan |
+| 2 | **WAL** | $2.73B | **24.2%** | 59.0% | **↑ GROWING** | 🚨 PRIMARY TARGET — Active relabeling |
+| 3 | **EGBN** | $231M | **23.7%** | 80.9% | ↓ (structural) | 🚨 CRITICAL — Already in crisis |
+| 4 | VLY | $555M | 7.0% | 72.4% | — | ✅ Below threshold |
+| 5 | FBC | $390M | 3.9% | 75.4% | — | ✅ Below threshold |
+| 6 | ZION | $257M | 1.8% | 63.1% | — | ✅ Below threshold |
+| 7 | **SSB** | $64M | **0.9%** | 78.9% | — | ✅ **Cleanest** — risk is visible |
+
+**Metropolitan Capital Pattern threshold:** Memo3 > 20% of C&I
+
+**The Classification Game — Three Levels of Masking:**
+1. **Level 1:** Extend-and-pretend (don't force refinancing)
+2. **Level 2:** Mark-to-model (don't write down)
+3. **Level 3:** **Classification** (call CRE "C&I" if unsecured) ← DISCOVERED
+
+**WAL is ONLY bank with GROWING hidden ratio:**
+- Q2 2024: 15.5% → Q4 2025: 24.2% (up 56%)
+- $438M single-quarter surge in Q4 2024
+- Management said "remixing into higher-return C&I" = relabeling CONFIRMED
+- Total hidden: $3.0B (Memo3 $2.73B + off-BS RCON6550 $273M)
+
+**Regulatory Concentration (SR 07-1 — 300% threshold):**
+| Bank | CRE/Tier 1 | Construction/Tier 1 | Status |
+|------|------------|---------------------|--------|
+| EGBN | **497%** | 102% | 🔴 Both breached |
+| WAL | **474%** | 76% | 🔴 CRE breached |
+| OZK | **415%** | **142%** | 🔴 Both breached |
+
+**Position Implications:**
+- **KRE puts:** STRENGTHENED — 3 of 7 constituents have hidden CRE
+- **SSB puts:** VALIDATED — cleanest book (0.9%), risk is where we see it
+- **WAL:** 🎯 PRIMARY TARGET — only growing hidden ratio + management confirmed relabeling
+- **OZK:** Secondary target — worst ratio but structural (not migrating)
+
+---
 
 ### Municipal Securities — The Hidden Exposure (RP-REG-3.2)
 **Key Bifurcation:** Banks either hold munis as HQLA (MTB, WBS, BHRB) or treat them as a lending vertical (ZION, WAL)
@@ -212,7 +269,7 @@ This **COMPOUNDS** the FL insurance doom loop — same borrowers hit by both:
 | Bank | Ticker | CRE | NDFI | DC | BDC | CONS | FHLB | GEO | MUNI | Score | Notes |
 |------|--------|-----|------|-----|-----|------|------|-----|------|-------|-------|
 | **Eagle Bancorp** | EGBN | 🔴 547% | ⬜ | 🔴 100% | ⬜ | ⬜ | 🟡 6.9% liq | 🔴 DC | 🟠 DC Muni | **11** | "Value Trap" — $140.8M NCOs Q3, taking pain |
-| **Western Alliance** | WAL | 🟠 | 🟠 10.5% | ⬜ | 🟠 Fund Banking | ⬜ | 🟠 5.63% | ⬜ | ⬜ | **8** | Fraud $98.6M + NDFI + Fund Finance + FHLB |
+| **Western Alliance** | WAL | 🔴 **474%** | 🟡 8% ex-mort | ⬜ | 🟠 Fund Banking | ⬜ | 🟠 5.63% | ⬜ | 🟠 $1.36B unrated | **12** | 🚨 **$3.0B hidden CRE** + 24.2% Memo3/C&I GROWING + Cantor $98M |
 | **Valley National** | VLY | 🟠 475% | ⬜ | ⬜ | 🟠 $85M | 🟡 9.3% | 🟡 4.10% | 🔴 FL $7.4B | ⬜ | **9** | FL CRE = 28% of book. Snowbird concentration |
 | **Citizens Financial** | CFG | ⬜ | ⬜ | 🟡 Moderate | 🔴 $10-11B | 🟠 18.7% | 🟠 5.10% | 🟡 FL/CA | ⬜ | **8** | Major fund finance + consumer + FHLB |
 | **Zions Bancorp** | ZION | 🟡 | 🟠 9% | ⬜ | 🟠 $60M loss | ⬜ | 🟡 4.70% | 🟡 Houston | ⬜ | **6** | FHLB haircut stress, fraud losses |
@@ -375,7 +432,7 @@ This **COMPOUNDS** the FL insurance doom loop — same borrowers hit by both:
 | Rank | Bank | Ticker | CRE | NDFI | DC | BDC | CONS | FHLB | GEO | MUNI | Total | Key Vulnerabilities |
 |------|------|--------|-----|------|-----|-----|------|------|-----|------|-------|---------------------|
 | 1 | **Eagle Bancorp** | EGBN | 3 | 0 | 3 | 0 | 0 | 1 | 3 | 2 | **12** | Pure DC play, already in crisis |
-| 2 | **Western Alliance** | WAL | 2 | 2 | 0 | 2 | 0 | 2 | 0 | 2 | **10** | Fraud + NDFI + Fund Finance + **$1.36B unrated munis** |
+| 2 | **Western Alliance** | WAL | 3 | 1 | 0 | 2 | 0 | 2 | 0 | 2 | **12** | 🚨 **$3.0B hidden CRE (24.2% Memo3/C&I, GROWING)** + $1.36B unrated munis + Cantor $98M |
 | 3 | **Valley National** | VLY | 2 | 0 | 0 | 2 | 1 | 1 | 3 | 0 | **9** | FL CRE = 28% of book |
 | 4 | **Citizens Financial** | CFG | 0 | 0 | 1 | 3 | 2 | 2 | 1 | 0 | **9** | Fund finance concentration + FHLB |
 | 5 | **Zions** | ZION | 1 | 2 | 0 | 2 | 0 | 1 | 0 | 3 | **9** | **$5.78B muni exposure** + $524M unfunded + fraud |
@@ -395,9 +452,9 @@ This **COMPOUNDS** the FL insurance doom loop — same borrowers hit by both:
 
 | Rank | Bank | Ticker | Score | M&A Risk | Thesis | Why Top Tier |
 |------|------|--------|-------|----------|--------|--------------|
-| **1** | **Valley National** | VLY | 9 | 🟢 LOW | FL + Multi-channel | $7.4B FL CRE makes it unattractive to acquirers. 4 paths to stress. Not priced for distress. |
-| **2** | **Seacoast** | SBCF | N/A | 🟢 LOW | FL Insurance | 100% FL = pure hurricane liability. No rational buyer. Purest FL expression. |
-| **3** | **Western Alliance** | WAL | 10 | 🟡 MAYBE | Multi-channel | Highest convergence score. Fraud overhang deters M&A but creates uncertainty. |
+| **1** | **Western Alliance** | WAL | 12 | 🟡 MAYBE | Hidden CRE + Multi-channel | 🚨 **PRIMARY TARGET** — $3.0B hidden CRE, ONLY bank with growing Memo3/C&I ratio (24.2%), management confirmed "remixing into C&I" = relabeling. Cantor Mar, Q1 Apr, Investor Day May 12. |
+| **2** | **Valley National** | VLY | 9 | 🟢 LOW | FL + Multi-channel | $7.4B FL CRE makes it unattractive to acquirers. 4 paths to stress. Not priced for distress. |
+| **3** | **Seacoast** | SBCF | N/A | 🟢 LOW | FL Insurance | 100% FL = pure hurricane liability. No rational buyer. Purest FL expression. |
 
 ### 🟡 SECOND TIER: Good Thesis, Some M&A Risk
 
@@ -515,6 +572,7 @@ Two banks have hidden municipal exposure that doesn't show on the securities lin
 
 | Date | Update | Source |
 |------|--------|--------|
+| 2026-02-23 13:50 | 🚨 **MAJOR** — Hidden CRE screen (Memo Item 3), Metropolitan Capital autopsy, Chicago loss severity, WAL promoted to PRIMARY TARGET | Prome deep research |
 | 2026-02-05 00:20 | **COMPLETE** — FL Insurance/Banking Nexus (RP-REG-3.5) | Will's research |
 | 2026-02-04 23:40 | Santander/Webster acquisition noted (M&A context) | News |
 | 2026-02-04 23:05 | Municipal securities + TX border research integrated (RP-REG-3.2, 3.4) | Will's research |

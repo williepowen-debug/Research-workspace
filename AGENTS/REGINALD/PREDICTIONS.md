@@ -1,6 +1,6 @@
 # REGINALD PREDICTIONS.md
 
-**Last Updated:** 2026-02-16
+**Last Updated:** 2026-02-23
 
 *Falsifiable predictions for regional bank convergence thesis. Track to calibrate confidence.*
 
@@ -36,9 +36,19 @@
 
 | # | Prediction | Timeframe | Confidence | Status | Invalidation |
 |---|------------|-----------|------------|--------|--------------|
-| 10 | PSEC cuts dividend in 2026 | 2026 | 65% | ⏳ Pending | PSEC maintains dividend through 2026 |
+| 10 | ~~PSEC cuts dividend in 2026~~ | ~~2026~~ | ~~65%~~ | ❌ **WRONG** | ~~PSEC maintains dividend~~ → **Maintained Feb 9-10** |
 | 11 | At least one major BDC (PSEC, FSK, TCPC) cuts dividend | H1 2026 | 55% | ⏳ Pending | All maintain dividends through H1 |
 | 12 | BDC sector average PIK exceeds 25% | Q2 2026 | 60% | ⏳ Pending | PIK declines to <20% |
+
+### Hidden CRE / Classification Risk (NEW — Feb 23)
+
+| # | Prediction | Timeframe | Confidence | Status | Invalidation |
+|---|------------|-----------|------------|--------|--------------|
+| 15 | WAL hidden CRE ratio (Memo3/C&I) exceeds 30% | Q2 2026 | 60% | ⏳ Pending | Ratio declines below 20% |
+| 16 | OZK reports CRE charge-offs >5% annualized | H1 2026 | 55% | ⏳ Pending | NCO <2% through H1 |
+| 17 | At least one bank with >20% Memo3/C&I ratio has capital event | 2026 | 50% | ⏳ Pending | All 3 (WAL, OZK, EGBN) avoid capital events |
+| 18 | Metropolitan Capital pattern (hidden CRE failure) replicates | H1 2026 | 45% | ⏳ Pending | No bank failures with >20% Memo3/C&I |
+| 19 | Chicago office losses exceed 80% average discount | Q2 2026 | 70% | ⏳ Pending | Discounts stabilize at <60% |
 
 ### Multi-Channel Convergence
 
@@ -53,8 +63,9 @@
 
 | # | Prediction | Date | Confidence | What to Watch |
 |---|------------|------|------------|---------------|
-| 10 | PSEC dividend action | ~~Feb 20~~ **Feb 9-10 (REPORTED)** | 65% | **RESULT: Dividend MAINTAINED** |
-| 11 | FSK dividend coverage | Feb 25 | 55% | PIK %, cash NII vs dividend |
+| ~~10~~ | ~~PSEC dividend action~~ | ~~Feb 9-10~~ | ~~65%~~ | ✅ **RESOLVED: Dividend MAINTAINED** |
+| 11 | FSK dividend coverage | **Feb 25** | 55% | PIK %, cash NII vs dividend |
+| 16 | OZK Q4 2025 earnings | **Feb 27** | 55% | NCO %, CRE commentary, Memo3 growth |
 
 ---
 
@@ -97,9 +108,11 @@
 | REGINALD Prediction | Depends On | Sub-Agent |
 |---------------------|------------|-----------|
 | Office DQ predictions (#1-3) | CMBS data, maturity tracking | CREED |
-| BDC predictions (#10-12) | PIK monitoring, earnings | BROCK |
+| BDC predictions (#11-12) | PIK monitoring, earnings | BROCK |
 | SSB prediction (#7) | FL condo/HOA stress | CORAL |
 | Phoenix repricing (#2) | Sunbelt CRE analysis | CREED |
+| Hidden CRE (#15-18) | Call Report monitoring, FFIEC | REGINALD direct |
+| Chicago losses (#19) | Transaction data | CREED |
 
 ---
 
@@ -132,14 +145,16 @@
 
 ### Resolved
 
-*No predictions resolved yet.*
+| # | Prediction | Confidence | Outcome | Notes |
+|---|------------|------------|---------|-------|
+| 10 | PSEC cuts dividend in 2026 | 65% | ❌ **WRONG** | Dividend maintained Feb 9-10, 2026. PIK remains elevated (~35%) but NII coverage sufficient. |
 
 ### Calibration
-- Total predictions: 14 (active)
+- Total predictions: 18 (14 original + 5 hidden CRE - 1 resolved)
 - Confirmed: 0
-- Disconfirmed: 0
-- Pending: 14
-- Accuracy on resolved: N/A
+- Disconfirmed: 1 (PSEC)
+- Pending: 17
+- Accuracy on resolved: **0%** (1 sample — too early to calibrate)
 
 *Goal: 60%+ accuracy on predictions with >60% confidence.*
 
