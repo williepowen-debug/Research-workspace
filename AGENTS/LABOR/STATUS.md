@@ -1,9 +1,28 @@
 # LABOR STATUS
-**Last Updated:** 2026-02-23 01:10 UTC | **Status:** 🔴 CRITICAL — Federal Layoff Protections EXPIRED | DHS Shutdown Day 8 | Mass RIFs May Now Proceed
+**Last Updated:** 2026-02-23 13:00 UTC | **Status:** 🔴 CRITICAL — Federal Layoff Protections EXPIRED | DHS Shutdown Day 11 | Mass RIFs May Now Proceed
 
 ---
 
-## 📥 INBOX: AI Displacement Research Brief (Feb 23)
+## 🆕 WHITE-COLLAR DETERIORATION CONFIRMED (Feb 19-23)
+
+**College grad unemployment hits record 36.6%** of all unemployed 25+ (Jan 2026, Bloomberg). Credential no longer protects against unemployment. **Validates Citrini white-collar displacement thesis:**
+- Top 20% earners = 65% of discretionary spending
+- White-collar job losses have deeper consumption impact than blue-collar
+- Standard LABOR dashboard may mask deterioration if aggregate data driven by low-skill hiring while professional hiring freezes
+
+**Cross-validation:**
+- WMT "hiring recession" (Feb 19) + Claims at 206K = low-fire confirmed, but also low-hire
+- RHI Q4: staffing revenue -9%, white-collar freeze (highest conviction target)
+- KELYA: temp -18.6%, federal -8%, professional services weak
+- Challenger Jan 2026 hiring plans: 5,306 = LOWEST JAN EVER
+
+**Implication:** "Hotel California" expanding to credentialed workers. Employment firewall may be masking structural white-collar displacement that doesn't show in initial claims (workers staying put vs getting fired, but can't find new jobs when needed).
+
+**ML-LAB-068 logged.** Cross-linked to CARL (consumption transmission) and Citrini AI displacement framework.
+
+---
+
+## 📥 INBOX: AI Displacement Research Brief (Feb 23) — ARCHIVED
 
 **Source:** Citrini Research "2028 Global Intelligence Crisis" thought exercise + Prome synthesis
 
@@ -114,6 +133,7 @@ The U.S. labor market has entered a structural break masked by surface-level sta
 | U-3 Unemployment | 4.3% | 🟡 | +0.3pp YoY |
 | U-6 Underemployment | 8.4% | 🟠 | +0.8pp YoY |
 | **Long-term Unemployed** | **1.8M** | 🔴 | **+386K YoY (+28%)** |
+| **College Grad Unemployment** | **36.6%** | 🟠 | **Record high (Jan 2026). 36.6% of unemployed 25+ have 4-year degree. White-collar deterioration.** |
 | Part-time (Economic) | 4.9M | 🟠 | +410K YoY |
 | Temp Employment YoY | -12% | 🔴 | RE-ACCELERATING |
 | **NFP Jan 2026** | **+130K** | 🟡 | Beat +55K exp, but revisions tell story |

@@ -130,6 +130,52 @@ Bloomberg notes "some comparing it to the run-up to the 2008 financial crisis"
 
 ---
 
+### 📋 REGULATORY TIMELINE — WHY MEMO3 SURGED (Feb 23 Research)
+
+**Key Finding:** The Memo3 surge wasn't caused by a rule change. It was caused by a structural shift in how CRE capital gets deployed — ACCELERATED by regulatory incentives.
+
+#### What DID NOT Change
+- Memo Item 3 definition itself (stable for years)
+- Call report instructions for "secured by RE" vs C&I classification
+- Definition: "Loans NOT secured by RE but whose proceeds are used for CRE purposes"
+- **This is NOT a reporting artifact — it's real CRE exposure**
+
+#### What DID Change — The Timeline
+
+| Date | Event | Role |
+|------|-------|------|
+| **Jul 2023** | Basel III Endgame NPR | **ANTICIPATION** — Proposed 15-25bp higher CRE risk weights |
+| **Dec 2023** | FDIC CRE Concentration Advisory | **PUSH** — Replaced 2008 version, ratcheted supervisory pressure at 300% threshold |
+| **2023-24** | Post-SVB Supervisory Intensification | **PRESSURE** — CRE-concentrated banks faced heightened examination |
+| **2024-25** | Fund Finance & NAV Lending Boom | **MECHANISM** — $100B+ market, potential $600B by 2030 |
+| **Sep 2024** | Basel III Endgame Watered Down | Reduced urgency but behavior already embedded |
+| **Dec 2025** | OCC/FDIC Rescind Leveraged Lending Guidance | **SIGNAL** — Broader deregulatory direction |
+
+#### The Mechanism — Fund Finance
+
+**How it works:**
+1. WAL's Fund Banking Team provides subscription lines / capital call facilities to PE & CRE funds
+2. Loans secured by **LP commitments or fund equity** — NOT by real estate directly
+3. Classifies as **C&I** on call report (not secured by RE)
+4. But **PURPOSE is real estate** → shows up in Memo Item 3
+
+**EWBC similar:** Expanded institutional lending to RE sponsors and cross-border CRE capital providers
+
+#### The Synthesis
+
+| Component | Status |
+|-----------|--------|
+| **Motive** | Dec 2023 FDIC advisory + Basel III anticipation |
+| **Vehicle** | Fund finance boom (subscription lines, NAV loans) |
+| **Result** | CRE-purpose exposure in C&I classification |
+| **Blind spot** | Headline CRE "declining" while true CRE stable/growing |
+
+**Bottom line:** The loans are real, the CRE purpose is real, but the classification creates a regulatory and investor blind spot. Banks had every incentive to structure new RE lending as C&I wherever possible starting in early 2024.
+
+**Q4 2024 Inflection:** WAL's $438M single-quarter Memo3 surge coincides EXACTLY with peak Basel III uncertainty + 12 months post-FDIC advisory.
+
+---
+
 ### 🔴 CHICAGO FIRE SALES — 70-94% DISCOUNTS CONFIRMED (Fox Business, Feb 22)
 **Source:** Fox Business "Chicago emerging as focal point for America's office market downturn"
 
