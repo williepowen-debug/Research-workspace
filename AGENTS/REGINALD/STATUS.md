@@ -1,5 +1,5 @@
 # REGINALD STATUS
-**Last Updated:** 2026-02-23 03:00 UTC | **Status:** 🔴 CRITICAL — Hidden CRE Screen: 3 of 7 Banks Flag Metropolitan Pattern (OZK 37.6%, WAL 24.2%, EGBN 23.7%)
+**Last Updated:** 2026-02-23 03:40 UTC | **Status:** 🔴 CRITICAL — WAL Active CRE Migration Confirmed; 3 of 7 Banks Flag Metropolitan Pattern; All Breach SR 07-1
 
 ---
 
@@ -108,55 +108,121 @@ This is the extend-and-pretend variant: don't even label the CRE as CRE. Need to
 
 ---
 
-## 🔴 HIDDEN CRE SCREEN — MEMO ITEM 3 ANALYSIS (Feb 23, 2026)
+## 🔴 HIDDEN CRE ANALYSIS — COMPREHENSIVE (Feb 23, 2026)
 
-**Methodology:** Screened 7 target banks using FFIEC Call Report Schedule RC-C Memorandum Item 3 (RCON2746): "Loans to finance CRE/construction NOT secured by real estate." This exposes CRE risk hiding in C&I lines.
+**Scope:** 7 regional banks screened, 21 Call Reports parsed (Q2 2024 – Q4 2025), Schedule RC-C + RC-R  
+**Metropolitan Capital Pattern threshold:** Memo3 > 20% of C&I loans  
+**Source files:** `domain/sources/HIDDEN_CRE_*.xlsx`
 
-**Metropolitan Capital Pattern threshold:** Memo3 > 20% of C&I loans
+---
 
-### 🚨 THREE BANKS FLAG CRITICAL
+### FINAL RISK RANKINGS
 
-| Rank | Ticker | Bank | Hidden CRE ($M) | Memo3/C&I | Labeled CRE | **TRUE CRE** | Risk Tier |
-|------|--------|------|-----------------|-----------|-------------|--------------|-----------|
-| 1 | **OZK** | Bank OZK | $1,289 | **37.6%** | 67.6% | **71.5%** | 🚨 CRITICAL |
-| 2 | **WAL** | Western Alliance | $2,730 | **24.2%** | 54.7% | **59.0%** | 🚨 CRITICAL |
-| 3 | **EGBN** | EagleBank | $231 | **23.7%** | 77.8% | **80.9%** | 🚨 CRITICAL |
+| Rank | Ticker | Verdict | Memo3/C&I | Trend | True CRE/Tier 1 | Constr/Tier 1 |
+|------|--------|---------|-----------|-------|-----------------|---------------|
+| 1 | **WAL** | 🚨 **CRITICAL** | 24.2% | **↑ ACTIVE MIGRATION** | 474% | 52% |
+| 2 | **OZK** | ⚠️ HIGH | 37.6% | ↓ Structural | 415% | **142%** ⚠️ |
+| 3 | **EGBN** | ⚠️ HIGH | 23.7% | ↓ Structural | **497%** | **102%** ⚠️ |
 
-### ✅ FOUR BANKS — CLEAN C&I BOOKS
+**SR 07-1 Thresholds:** 300% CRE / 100% Construction — **All three breach CRE in EVERY quarter**
 
-| Rank | Ticker | Bank | Memo3/C&I | True CRE | Notes |
-|------|--------|------|-----------|----------|-------|
-| 4 | VLY | Valley National | 7.0% | 72.4% | High CRE but honest labeling |
-| 5 | FBC | Flagstar Bank | 3.9% | 75.4% | $29B MF but minimal hiding |
-| 6 | ZION | Zions | 1.8% | 63.1% | Clean despite muni issues |
-| 7 | **SSB** | SouthState | **0.9%** | 78.9% | **Cleanest C&I book** |
+---
 
-### Key Findings
+### 🚨 WAL IS THE PRIMARY TARGET — ACTIVE CRE MIGRATION
 
-1. **OZK is worse than Metropolitan Capital.** 37.6% hidden CRE ratio vs Metropolitan's 39.6%. Construction lender masquerading as C&I bank. $1.29B in unsecured CRE financing.
+**The Smoking Gun:**
+- Memo3/C&I ratio **GREW** from 15.5% → 24.2% (+8.7pp over 18 months)
+- Crossed 20% threshold in **Q4 2024** via $438M single-quarter Memo3 surge + C&I contraction
+- Labeled CRE **falling** (59.9% → 54.6%) while true CRE **holds** (~59-62%)
+- **Hidden CRE is SUBSTITUTING for labeled CRE** — systematic relabeling in progress
+- Largest absolute exposure: **$36.8B true CRE vs $7.75B Tier 1**
 
-2. **WAL has largest absolute hidden exposure: $2.73B.** Combined with $1.36B unrated muni shadow book discovered earlier = **$4.1B in hidden risk**. Multiple layers of opacity.
+**Why WAL is worse than OZK/EGBN:**
+- OZK: Ratio DECLINING (82% → 38%) due to C&I growth (+129%)
+- EGBN: Ratio DECLINING (38% → 24%) due to both Memo3 and C&I shrinking
+- WAL: Ratio **GROWING** — only bank actively migrating CRE into C&I
 
-3. **EGBN at 80.9% true CRE** — already in crisis mode ($140.8M Q3 NCOs). Almost no buffer. Hidden CRE makes bad situation worse.
+---
 
-4. **SSB (our put position) is the cleanest.** Highest labeled CRE (78.8%) but most honest classification (0.9% hidden). Risk is visible, not masked.
+### Q4 2025 SCREEN RESULTS
 
-5. **VLY and FBC labeled as high-CRE banks for a reason** — they're not hiding it. ZION's issues are in munis, not CRE classification.
+#### 🚨 THREE BANKS FLAG CRITICAL
 
-### Implications for Positions
+| Ticker | Bank | Hidden CRE | Memo3/C&I | Labeled CRE | **TRUE CRE** |
+|--------|------|-----------|-----------|-------------|--------------|
+| **OZK** | Bank OZK | $1.29B | **37.6%** | 66.6% | **70.6%** |
+| **WAL** | Western Alliance | $2.73B | **24.2%** | 54.6% | **59.0%** |
+| **EGBN** | EagleBank | $231M | **23.7%** | 77.8% | **80.9%** |
+
+#### ✅ FOUR BANKS — CLEAN C&I BOOKS
+
+| Ticker | Bank | Memo3/C&I | True CRE | Notes |
+|--------|------|-----------|----------|-------|
+| VLY | Valley National | 7.0% | 72.4% | High CRE but honest |
+| FBC | Flagstar Bank | 3.9% | 75.4% | $29B MF, minimal hiding |
+| ZION | Zions | 1.8% | 63.1% | Clean C&I |
+| **SSB** | SouthState | **0.9%** | 78.9% | **Cleanest book** |
+
+---
+
+### TREND ANALYSIS (7 Quarters: Q2 2024 – Q4 2025)
+
+| Bank | Memo3/C&I Direction | Memo3 $ Change | C&I $ Change | Diagnosis |
+|------|---------------------|----------------|--------------|-----------|
+| **WAL** | **↑ 15.5% → 24.2%** | +82.7% ($1.5B → $2.7B) | +17% | 🚨 **ACTIVE MIGRATION** |
+| OZK | ↓ 82.0% → 37.6% | +4.9% (oscillating ~$1B) | +129% | STRUCTURAL (diluting) |
+| EGBN | ↓ 38.3% → 23.7% | -19.8% ($288K → $231K) | +30% | STRUCTURAL (declining) |
+
+---
+
+### CAPITAL ADEQUACY (SR 07-1 Overlay)
+
+| Bank | True CRE ($B) | Tier 1 ($B) | **True CRE / Tier 1** | Constr / Tier 1 |
+|------|---------------|-------------|----------------------|-----------------|
+| EGBN | $5.97 | $1.20 | **497%** 🔴 | 102% ⚠️ |
+| WAL | $36.77 | $7.75 | **474%** 🔴 | 52% ✅ |
+| OZK | $22.80 | $5.49 | **415%** 🔴 | 142% ⚠️ |
+
+**All three breach 300% threshold in EVERY quarter of 18-month window**  
+**OZK and EGBN also breach 100% Construction threshold**
+
+---
+
+### KEY FINDINGS
+
+1. **WAL is ACTIVELY migrating CRE → C&I.** Only bank with growing ratio. Labeled CRE falling while true CRE holds = systematic relabeling.
+
+2. **OZK has highest hidden ratio (37.6%) but is diluting** via genuine C&I growth (+129%). Construction breach (142%) is the bigger risk.
+
+3. **EGBN has worst concentration (497% CRE/Tier 1)** but trajectory is improving. Primary risk is absolute labeled CRE (78%), not hidden migration.
+
+4. **All three breach SR 07-1** in every quarter — Memo3 deepens existing concentration, doesn't create it.
+
+5. **SSB is cleanest** — 0.9% hidden, risk is visible. Our put is on honest books.
+
+---
+
+### POSITION IMPLICATIONS
 
 | Position | Finding | Action |
 |----------|---------|--------|
 | **KRE puts** | 3 of 7 constituents have hidden CRE | ✅ STRENGTHENS thesis |
-| **SSB puts** | Cleanest C&I book, honest labeling | ✅ Risk is where we see it |
-| **OZK** | Worst hidden ratio (37.6%) | ⚠️ Consider single-name |
-| **WAL** | $4.1B total hidden exposure | ⚠️ Consider single-name |
+| **SSB puts** | Cleanest C&I book (0.9%) | ✅ Risk is where we see it |
+| **WAL** | Active migration + $36.8B true CRE | 🎯 **PRIMARY single-name target** |
+| **OZK** | 142% construction breach | 🎯 Secondary single-name target |
 
-### New Watchlist Priority
+---
 
-**OZK and WAL now elevated to Tier 0** — both have Metropolitan Capital pattern PLUS significant absolute hidden exposure. If Chicago-style losses hit their hidden CRE books, charge-off rates could match Metropolitan's 13.3%.
+### REMAINING RESEARCH PATHS
 
-**Source:** FFIEC CDR Call Reports Q4 2025, Schedule RC-C Memo Item 3 (RCON2746)
+| Path | Description | Priority |
+|------|-------------|----------|
+| 3 | SR 07-1 concentration management plan filings | HIGH |
+| 4 | Off-balance-sheet CRE (Schedule RC-L) | MEDIUM |
+| 5 | CMBS holdings (Schedule RC-B) | LOW |
+| 6 | Screen remaining ~30 mid-cap regionals | MEDIUM |
+
+**Source:** FFIEC CDR Call Reports Q2 2024 – Q4 2025, 21 SDF files parsed
 
 ---
 
