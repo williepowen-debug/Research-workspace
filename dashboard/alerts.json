@@ -13,7 +13,7 @@
     "timestamp": "2026-02-17 13:40:00 UTC",
     "type": "threshold",
     "severity": "critical",
-    "message": "MARCO: Mexico remittances BREACHED — FY2025 -4.6% YoY ($61.8B), worst since 2009 GFC",
+    "message": "MARCO: Mexico remittances BREACHED \u2014 FY2025 -4.6% YoY ($61.8B), worst since 2009 GFC",
     "value": -4.6,
     "threshold": -5.0
   },
@@ -22,7 +22,7 @@
     "timestamp": "2026-02-17 13:30:00 UTC",
     "type": "event",
     "severity": "warning",
-    "message": "E-Verify SUSPENDED during DHS shutdown — hiring verification offline until Feb 23",
+    "message": "E-Verify SUSPENDED during DHS shutdown \u2014 hiring verification offline until Feb 23",
     "value": null,
     "threshold": null
   },
@@ -31,7 +31,7 @@
     "timestamp": "2026-02-17 13:00:00 UTC",
     "type": "event",
     "severity": "warning",
-    "message": "DHS Shutdown Day 5 — 234K workers unpaid, claims data suppressed, Congress returns Feb 23",
+    "message": "DHS Shutdown Day 5 \u2014 234K workers unpaid, claims data suppressed, Congress returns Feb 23",
     "value": 234000,
     "threshold": null
   },
@@ -40,7 +40,7 @@
     "timestamp": "2026-02-16 13:00:00 UTC",
     "type": "research",
     "severity": "critical",
-    "message": "Consumer finance thesis BROKEN — SYF/BFH/ALLY/AFRM all improving per SEC filings. K-shape confirmed.",
+    "message": "Consumer finance thesis BROKEN \u2014 SYF/BFH/ALLY/AFRM all improving per SEC filings. K-shape confirmed.",
     "value": null,
     "threshold": null
   },
@@ -58,7 +58,7 @@
     "timestamp": "2026-02-16 12:56:00 UTC",
     "type": "research",
     "severity": "critical",
-    "message": "CVNA elevated to primary target — ABS extensions +45% (5.41%), subprime 60+ DQ 6.56% (record), Hindenburg report",
+    "message": "CVNA elevated to primary target \u2014 ABS extensions +45% (5.41%), subprime 60+ DQ 6.56% (record), Hindenburg report",
     "value": 5.41,
     "threshold": null
   },
@@ -67,7 +67,7 @@
     "timestamp": "2026-02-12 14:00:00 UTC",
     "type": "agent",
     "severity": "warning",
-    "message": "LABOR: Consumer Sector Cuts escalated to ORANGE (26K total — Heineken +6K)",
+    "message": "LABOR: Consumer Sector Cuts escalated to ORANGE (26K total \u2014 Heineken +6K)",
     "value": 26000,
     "threshold": 25000
   },
@@ -76,7 +76,7 @@
     "timestamp": "2026-02-12 13:30:00 UTC",
     "type": "agent",
     "severity": "warning",
-    "message": "MARCO: DHS appropriations deadline Feb 13 — enforcement policy volatility elevated",
+    "message": "MARCO: DHS appropriations deadline Feb 13 \u2014 enforcement policy volatility elevated",
     "value": null,
     "threshold": null
   },
@@ -103,7 +103,7 @@
     "timestamp": "2026-02-11 23:50:00 UTC",
     "type": "threshold",
     "severity": "critical",
-    "message": "SAM: Shunto probability FLIPPED — Strong now 48% (was 20%), April BOJ hike 85% conditional",
+    "message": "SAM: Shunto probability FLIPPED \u2014 Strong now 48% (was 20%), April BOJ hike 85% conditional",
     "value": 48,
     "threshold": 20
   },
@@ -112,7 +112,7 @@
     "timestamp": "2026-02-11 23:45:00 UTC",
     "type": "data",
     "severity": "critical",
-    "message": "LABOR: NFP benchmark revision -898K jobs — largest since 2009 GFC. 2025 job growth cut 69%.",
+    "message": "LABOR: NFP benchmark revision -898K jobs \u2014 largest since 2009 GFC. 2025 job growth cut 69%.",
     "value": -898000,
     "threshold": null
   },
@@ -121,7 +121,7 @@
     "timestamp": "2026-02-10 20:30:00 UTC",
     "type": "threshold",
     "severity": "critical",
-    "message": "CARL: Auto 90+ DQ hit 5.21% — only 0.06pp from historical max (5.27%)",
+    "message": "CARL: Auto 90+ DQ hit 5.21% \u2014 only 0.06pp from historical max (5.27%)",
     "value": 5.21,
     "threshold": 5.27
   },
@@ -130,7 +130,7 @@
     "timestamp": "2026-02-10 20:27:00 UTC",
     "type": "threshold",
     "severity": "critical",
-    "message": "CARL: CC 90+ DQ hit 12.70% — only 1.04pp from GFC peak (13.74%)",
+    "message": "CARL: CC 90+ DQ hit 12.70% \u2014 only 1.04pp from GFC peak (13.74%)",
     "value": 12.7,
     "threshold": 13.74
   },
@@ -139,7 +139,7 @@
     "timestamp": "2026-02-10 20:25:00 UTC",
     "type": "threshold",
     "severity": "critical",
-    "message": "CARL: FL Foreclosures +190% YoY — RED threshold breached (was +57%)",
+    "message": "CARL: FL Foreclosures +190% YoY \u2014 RED threshold breached (was +57%)",
     "value": 190,
     "threshold": 200
   },
@@ -157,7 +157,7 @@
     "timestamp": "2026-02-09 13:45:00 UTC",
     "type": "agent",
     "severity": "critical",
-    "message": "SAM escalated to RED — Takaichi landslide (316 LDP seats, 2/3 supermajority)",
+    "message": "SAM escalated to RED \u2014 Takaichi landslide (316 LDP seats, 2/3 supermajority)",
     "value": 316,
     "threshold": 260
   },
@@ -166,7 +166,7 @@
     "timestamp": "2026-02-09 13:43:00 UTC",
     "type": "prediction",
     "severity": "warning",
-    "message": "SAM Prediction #3 resolved WRONG — Takaichi got 316 seats (predicted <260)",
+    "message": "SAM Prediction #3 resolved WRONG \u2014 Takaichi got 316 seats (predicted <260)",
     "value": 316,
     "threshold": 260
   },
@@ -175,7 +175,7 @@
     "timestamp": "2026-02-09 13:42:00 UTC",
     "type": "prediction",
     "severity": "success",
-    "message": "SAM Prediction #2 resolved CORRECT — USD/JPY stayed <160 through election (156.25)",
+    "message": "SAM Prediction #2 resolved CORRECT \u2014 USD/JPY stayed <160 through election (156.25)",
     "value": 156.25,
     "threshold": 160
   },
@@ -184,7 +184,7 @@
     "timestamp": "2026-02-08 09:00:00 UTC",
     "type": "event",
     "severity": "critical",
-    "message": "Japan Snap Election — Takaichi landslide victory, LDP supermajority confirmed",
+    "message": "Japan Snap Election \u2014 Takaichi landslide victory, LDP supermajority confirmed",
     "value": null,
     "threshold": null
   },
@@ -193,7 +193,7 @@
     "timestamp": "2026-02-05 17:00:00 UTC",
     "type": "prediction",
     "severity": "success",
-    "message": "SAM Prediction #1 resolved CORRECT — JGB 30Y auction BTC 3.64x (threshold was >2.10x)",
+    "message": "SAM Prediction #1 resolved CORRECT \u2014 JGB 30Y auction BTC 3.64x (threshold was >2.10x)",
     "value": 3.64,
     "threshold": 2.1
   },
@@ -211,7 +211,7 @@
     "timestamp": "2026-02-06 13:35:00 UTC",
     "type": "data",
     "severity": "critical",
-    "message": "Challenger January cuts: 108,435 — highest January since 2009 GFC",
+    "message": "Challenger January cuts: 108,435 \u2014 highest January since 2009 GFC",
     "value": 108435,
     "threshold": null
   },
@@ -220,7 +220,7 @@
     "timestamp": "2026-02-06 13:40:00 UTC",
     "type": "data",
     "severity": "critical",
-    "message": "Challenger January hires: 5,306 — lowest January EVER recorded",
+    "message": "Challenger January hires: 5,306 \u2014 lowest January EVER recorded",
     "value": 5306,
     "threshold": null
   },
@@ -229,7 +229,7 @@
     "timestamp": "2026-02-06 15:30:00 UTC",
     "type": "prediction",
     "severity": "warning",
-    "message": "KFRC Prediction #4 marked PARTIAL — guided +2% (wrong) but described 'frozen' market (right)",
+    "message": "KFRC Prediction #4 marked PARTIAL \u2014 guided +2% (wrong) but described 'frozen' market (right)",
     "value": null,
     "threshold": null
   },
@@ -240,6 +240,15 @@
     "severity": "info",
     "message": "CFG filed 10-K: CITIZENS FINANCIAL GROUP INC/RI",
     "value": "2026-02-12",
+    "threshold": null
+  },
+  {
+    "id": 1771635574426,
+    "timestamp": "2026-02-21 00:59:34 UTC",
+    "type": "sec",
+    "severity": "warning",
+    "message": "WAL filed 8-K: WESTERN ALLIANCE BANCORPORATION",
+    "value": "2026-02-20",
     "threshold": null
   }
 ]

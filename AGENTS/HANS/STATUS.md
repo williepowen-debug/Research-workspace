@@ -1,5 +1,52 @@
 # HANS STATUS.md
-**Updated:** 2026-02-18 21:50 UTC
+**Updated:** 2026-02-22 19:40 UTC
+
+---
+
+## 📥 INBOX (New Data — Feb 22)
+
+### 🟠 German Flash PMI (Feb 21) — BEAT, Complicates Thesis
+- **Manufacturing: 50.7** vs 49.5 expected (BEAT, back into expansion first time since June 2022)
+- **Services: 53.4** vs 52.4 expected (BEAT)
+- **Composite: 53.1** vs 52.3 expected (BEAT)
+
+**Implication:** RP-HANS-8 predicted German weakness → US ISM sub-49 in March. This print COMPLICATES that thesis:
+- German manufacturing back in expansion unexpectedly
+- 4-month high in business activity
+- Tariff-driven recovery? Or genuine improvement?
+
+**Action Required:** Reassess March ISM prediction. If German recovery sustains (watch March flash PMI), the Q2 stress thesis via German IP transmission needs revision.
+
+**Possible explanations:**
+1. One-off tariff front-running (same as US Jan ISM 52.6)
+2. Election stimulus expectations (CDU win Feb 23)
+3. Energy cost stabilization effect
+4. Genuine cyclical turn
+
+**Watch:** Mar 24 German flash PMI — if >50.5 again, thesis weakens significantly.
+
+---
+
+### 🟡 Trump 15% Tariff — EU/UK Hit Hardest (FT Analysis)
+**Source:** Financial Times, Johannes Fritz/Global Trade Alert
+
+Flat 15% tariff analysis — counterintuitive results:
+
+**Winners (effective tariff REDUCTION):**
+- Brazil: +14pp reduction
+- China: +10pp reduction
+- India: +8pp reduction
+
+**Losers (effective tariff INCREASE):**
+- UK, Italy, Singapore, France, South Korea, Germany, Netherlands, Japan all face INCREASES
+- EU overall faces ~2pp increase
+
+**Implication:** 
+1. German PMI beat may be front-running BEFORE tariff pain hits
+2. US allies getting squeezed while adversaries benefit = policy incoherence
+3. This could reverse the PMI improvement once tariffs actually bite (Q2-Q3)
+
+**Action:** Factor into ISM transmission model. Tariff implementation timeline matters — front-running now, pain later.
 
 ---
 

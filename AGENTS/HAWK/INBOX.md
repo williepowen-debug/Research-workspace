@@ -65,3 +65,59 @@ See `docs/SIGNAL_ROUTING.md` for protocol.
 
 ---
 
+### EGYOSINT Iran Posture Map — 20 Feb 2026 (Visual Compilation)
+
+**When:** 2026-02-20 04:07 UTC
+**Source:** @EGYOSINT (Egypt's Intel Observer) via @TheIntelFrog
+**Via:** Will (Telegram)
+**Veracity:** ⚠️ OSINT compilation — individual datapoints verifiable via ADS-B/AIS, aggregation unattributed
+
+**Naval (confirmed/expanded):**
+- **Abraham Lincoln CSG** (Arabian Sea): Lincoln + Frank E. Petersen, Spruance, Michael Murphy
+- **Gerald R. Ford CSG** (On Deployment): Ford + Winston S. Churchill, Bainbridge, Mahan
+- Other ME assets: USS Roosevelt (Med), USS McFaul + Mitscher (Persian Gulf), USS Delbert D. Black (Red Sea), USS Bulkeley (Med)
+- **Ohio-class submarine** (location unknown) — if SSGN = 154 Tomahawks; if SSBN = nuclear deterrent posture
+
+**Air (confirmed/expanded):**
+- +190 C-17A flights since Jan 16
+- +21 C-5M flights (KSA, Qatar, Djibouti)
+- 50+ KC-135/KC-46 tankers
+- 30x F-35A (Muwaffaq Salti AB + Al Dhafra AB)
+- 20-24 F-15E, 12x F-22, 36x F-16
+- 6x E-3 AWACS, 2x RC-135 SIGINT, 5x EA-11A BACN, 6x EA-18G Growler
+- **WC-135R "Nuke Sniffer"** (Mildenhall, UK) — nuclear detection aircraft
+- U-2 Dragon Lady (departed Fairford, UK)
+- A-10 Thunderbolt (Muwaffaq Salti AB) — ground attack
+
+**Air Defense:**
+- THAAD: +1 battery to KSA or Qatar
+- MIM-104 Patriot: multiple batteries region-wide
+- +100 C-17A/C-5M flights transferring AD systems
+
+**For HAWK:** This is the most comprehensive posture map yet. Key additions vs previous signals:
+1. Ohio-class sub presence (first confirmation)
+2. WC-135R Nuke Sniffer deployment (suggests monitoring for Iranian nuclear activity)
+3. A-10s staged (implies ground strike capability, not just air superiority)
+4. Air defense surge (+100 flights just for AD)
+
+This is a strike-capable force, not defensive. Two CSGs bracketing Iran (Arabian Sea + approaching Med), complete SEAD package (Growlers + F-35), ISR (U-2, RC-135, AWACS), and now nuclear detection assets.
+
+---
+
+### F-22 Deployment Context — "A Decision Was Made"
+
+**When:** 2026-02-20 ~00:00 UTC
+**Source:** @RealestMercury (mil aviation commentator) QTing @ArmchairAdmiral
+**Via:** Will (Telegram)
+**Veracity:** ⚠️ Commentary, but maintenance facts are accurate
+
+**Raw signal:**
+- F-22 Raptor requires 40+ hours of maintenance per 1 hour of flight time
+- TREND 61 flight (F-22 squadron) arrived at RAF Lakenheath
+- Commenter: "An entire squadron means a decision was made"
+- These aren't moved "for sh*ts and giggles"
+
+**For HAWK:** Reinforces strike posture assessment. F-22s are the most maintenance-intensive fighters in inventory. You don't deploy a squadron transatlantic unless you intend to use them. Lakenheath positions them for Middle East ops (refuel over Europe → theater). This is air superiority prep, likely to establish no-fly or escort strike packages into contested Iranian airspace.
+
+---
+

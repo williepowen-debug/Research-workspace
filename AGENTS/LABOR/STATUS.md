@@ -1,5 +1,77 @@
 # LABOR STATUS
-**Last Updated:** 2026-02-20 | **Status:** 🔴 CRITICAL — Federal Layoff Protections EXPIRED | DHS Shutdown Day 8 | Mass RIFs May Now Proceed
+**Last Updated:** 2026-02-23 01:10 UTC | **Status:** 🔴 CRITICAL — Federal Layoff Protections EXPIRED | DHS Shutdown Day 8 | Mass RIFs May Now Proceed
+
+---
+
+## 📥 INBOX: AI Displacement Research Brief (Feb 23)
+
+**Source:** Citrini Research "2028 Global Intelligence Crisis" thought exercise + Prome synthesis
+
+### New Monitoring Vectors — White-Collar Specific
+
+The standard LABOR dashboard tracks aggregate employment. Citrini's framework highlights that **white-collar displacement** is the critical transmission channel, and it may be masked by aggregate data.
+
+**Rationale:** Top 20% of earners drive ~65% of discretionary spending. White-collar job losses have lagged but deeper consumption impact than blue-collar losses.
+
+### Vectors to Add
+
+| Signal | Source | Frequency | Why It Matters |
+|--------|--------|-----------|----------------|
+| **JOLTS by sector** (software, finance, consulting) | BLS JOLTS | Monthly | White-collar openings collapsing while blue-collar stable |
+| **Indeed postings by category** | Indeed Hiring Lab | Weekly | Real-time leading indicator by job type |
+| **ADP/Equifax filing composition** | ADP reports | Monthly | White-collar vs blue-collar claim composition |
+| **Unemployed-to-openings ratio** | JOLTS derived | Monthly | >1.5 = structural, not cyclical |
+| **Tech sector layoff tracker** | Layoffs.fyi | Real-time | Cumulative tech/software displacement |
+| **Consulting utilization rates** | Accenture, Deloitte calls | Quarterly | Leading indicator for professional services |
+
+### Key Thresholds (From Citrini)
+
+| Metric | Yellow | Orange | Red |
+|--------|--------|--------|-----|
+| JOLTS software/finance openings YoY | <-10% | <-15% | <-20% |
+| Initial claims (white-collar composition) | >30% | >40% | >50% |
+| Unemployed-to-openings | >1.3 | >1.5 | >1.7 |
+| Indeed white-collar postings YoY | <-10% | <-15% | <-20% |
+
+### The "Intelligence Displacement Spiral"
+
+```
+AI capability improves
+    ↓
+White-collar layoffs / wage compression
+    ↓
+Displaced workers downshift to service/gig economy
+    ↓
+Wage compression in service sector
+    ↓
+Top 20% spending collapses (65% of discretionary)
+    ↓
+Consumer economy contracts
+    ↓
+More companies adopt AI to protect margins
+    ↓
+AI capability improves... (repeat)
+```
+
+**Key insight:** No natural brake. Unlike cyclical recessions, the cause (AI improvement) doesn't self-correct.
+
+### Citrini Timeline Markers
+
+| Their Date | Event | What to Watch Now |
+|------------|-------|-------------------|
+| Late 2025 | Agentic coding step function | ✅ Already happening |
+| Summer 2026 | Mid-year procurement review | Q2-Q3 earnings for software/SaaS |
+| Oct 2026 | JOLTS <5.5M, claims spike | Watch for deceleration pattern |
+| Q3 2027 | Mass white-collar claims surge | If Path F fires |
+
+### Action Items
+
+1. Add white-collar specific JOLTS breakdown to dashboard
+2. Track Indeed Hiring Lab sector data weekly
+3. Monitor ServiceNow, Accenture, Salesforce earnings for demand signals
+4. Cross-reference with CARL (income impairment → mortgage stress)
+
+**Research Report:** To be compiled as RP-LABOR-X when patterns confirmed
 
 ---
 

@@ -1,9 +1,90 @@
 # LIQUID STATUS
-**Last Updated:** 2026-02-19 | **Status:** 🔴 CRITICAL — REPO STRESS ESCALATION + STEALTH QE ACTIVE
+**Last Updated:** 2026-02-22 19:40 UTC | **Status:** 🔴 CRITICAL — FED LOSING CONTROL: SOFR ABOVE CEILING + FOREIGN DEMAND COLLAPSE
+
+---
+
+## 📥 INBOX (New Data — Feb 22)
+
+### Oil at 6-Month High (Feb 19-21) — Compounds Tanker Thesis
+- **Trump publicly considering Iran strike** (Feb 20) — oil spiked to 6-month high
+- **Gold hit $5,000** — flight to safety
+- **Iran-Russia naval exercises announced**
+
+**Connection to existing thesis:**
+- Ice-class tanker thesis (TEN calls) REINFORCED
+- Baltic ice squeeze + Iran geopolitical premium = dual tailwind for oil/tanker plays
+- If strike happens: Oil +$20-30 immediately (per HAWK framework)
+- TEN position benefits from both ice premium AND geopolitical premium
+
+**Watch:** Any Iran strike announcement would accelerate oil thesis timing. May need to adjust April-May crude short entry if Iran escalates further.
+
+---
+
+### 🟠 Blue Owl OBDC II Clarification (Feb 18)
+**Source:** Blue Owl Capital official statement + SEC filing obdc-20250930.htm
+
+**What actually happened:**
+- OBDC II is a closed-end finite-life fund (stopped selling shares April 2021)
+- Original plan: 5% quarterly tenders (investors could exit 100% if no queue)
+- **Feb 18 change:** No more quarterly tenders. Instead, returning **30% of NAV to ALL shareholders** within 45 days.
+- Remaining 70%: "Contemplating" liquidity event in 3-4 year window (not committed)
+
+**Blue Owl statement:** "Contrary to what has been reported, we are not halting investor liquidity... we are accelerating the return of capital."
+
+**Translation:** This is a **partial forced liquidation**, not a redemption halt. They're selling 30% of assets and distributing proceeds. Better than a gate, but still abnormal — they can't maintain normal redemption operations.
+
+**Signal:** Still credit stress indicator, but more nuanced than initial reports suggested. Managed unwind vs panic gate.
+
+**Action:** Update Blue Owl reference in thesis section. Note: Risk was migrated to pension funds ($1.4B loans sold at 99.7% par).
+
+---
+
+### 🔴 CLO Equity Funds Crashing — Credit Stress Confirmation (Bloomberg)
+**Source:** Bloomberg (Feb 2026)
+
+CLO equity funds at record lows:
+- Eagle Point Credit: -15%
+- Oxford Lane Capital: -25%
+- Carlyle Credit Income: -30%
+- Pearl Diver: -35%
+- Sound Point Meridian: -40%
+
+All since Dec 2025. "Software loans sell off" driving losses.
+
+**Implication:** CLO equity is first-loss tranche. This crashing = defaults eating through equity cushion. Validates the credit stress thesis.
+
+**Cross-link:** Watch CLO AAA spreads (our existing VX vector). If AAA starts widening, senior tranches being hit = much bigger problem.
 
 ---
 
 ## RECENT EVENTS
+
+**Feb 19-20, 2026 — FUNDING STRESS INTENSIFIES: US 20Y AUCTION UGLY + SOFR ABOVE FED CEILING**
+- **US 20-Year Treasury Auction (Feb 19) — UGLY:**
+  - High yield 4.66% vs WI 4.64% (**2bp tail** — largest since Nov 2024)
+  - **BTC 2.36** — LOWEST since Nov 2024 (BREACHED YELLOW threshold <2.30x)
+  - **Indirect (foreign) bid: 55%** — **SECOND LOWEST ON RECORD**
+  - Primary dealers forced to absorb 17.6%, Direct 27%
+  - **CRITICAL:** Foreign demand COLLAPSING at long end (confirms FOI exit thesis)
+  - **NOTE:** This is US 20Y (ugly), NOT Japan 20Y JGB (which passed Feb 19 with BTC 3.08)
+- **SOFR 75th Percentile ABOVE Fed's Upper Bound:**
+  - 3.78% (Feb 17), 3.81% (Feb 18) — ABOVE IORB effective upper bound (3.65%)
+  - **25% of $3.2 TRILLION daily repo market financing ABOVE Fed's ceiling**
+  - **NOT month/quarter-end** — this is abnormal mid-month stress
+  - Fed LOSING CONTROL over short-term rates despite SRF facility
+  - SRF ceiling POROUS (GSIB constraints prevent arbitrage, validated ML-LIQ-005)
+- **$80B Liquidity Shock (Kramer analysis):**
+  - Treasury settlements draining liquidity
+  - $216B T-bills auctioned Feb 19 alone
+  - S&P down 7 of 10 settlement days
+  - Weakness likely to persist until April (post tax season)
+- **Basis Trade Leverage at EXTREMES:**
+  - 50-100x leverage (not just 10-50x typical)
+  - Absorbing 40-50% of all Treasury demand
+  - **If repo breaks → 40%+ of demand VANISHES**
+  - Reflexive cascade risk EXTREME
+
+**INTERPRETATION:** System stress ESCALATING. Fed losing control over repo rates, foreign buyers exiting, basis trade at extreme leverage. Triple failure point converging: domestic plumbing breaking + foreign demand gone + leverage at extremes.
 
 **Feb 18-19, 2026 — STANDING REPO FACILITY SPIKE + STEALTH QE**
 - **SRF Usage: $30.5B** — Third highest since summer 2020
@@ -38,7 +119,7 @@
 - **Arthur Hayes "printer" call** — Fed forced into stealth QE via RMPs
 - **Fed pivoting back to expansion** despite prior QT commitment
 
-**Signal:** Repo market under acute stress. Fed intervening via SRF + stealth QE. System at breaking point without RRP buffer.
+**Signal:** **TRIPLE FAILURE POINT CONVERGING.** (1) Fed LOSING CONTROL: SOFR 75th percentile 3.78-3.81% ABOVE Fed ceiling, 25% of $3.2T repo market financing above bounds. (2) FOREIGN DEMAND COLLAPSE: US 20Y auction Indirect bid 55% (2nd lowest ON RECORD), BTC 2.36 (lowest since Nov 2024). (3) EXTREME LEVERAGE: Basis trade at 50-100x absorbing 40-50% of demand — if repo breaks, 40%+ demand vanishes. Fed intervening via SRF + stealth QE but LOSING CONTROL. System breaking despite intervention.
 
 ---
 
@@ -143,9 +224,18 @@
 
 ## THESIS
 
-**The plumbing is breaking. BOTH buffers gone. Fed forced into stealth QE.**
+**The plumbing is breaking. Fed LOSING CONTROL. Triple failure point converging.**
 
-### Domestic Plumbing — ACUTE STRESS (Feb 18-19)
+### Domestic Plumbing — CRITICAL STRESS ESCALATION (Feb 18-20)
+**FEB 20 UPDATE:** System stress INTENSIFYING. Fed losing control over repo rates despite intervention.
+- **SOFR 75th percentile 3.78-3.81% — ABOVE Fed's effective ceiling (IORB 3.65%)**
+  - 25% of $3.2 TRILLION daily repo market financing ABOVE Fed's upper bound
+  - **NOT quarter-end** — this is abnormal mid-month stress
+  - Fed LOSING CONTROL over the most important price of all — the price of money
+- **SRF ceiling POROUS** — GSIB constraints prevent arbitrage (dealers won't expand balance sheets)
+- **Basis trade leverage at EXTREMES** — 50-100x (not just 10-50x typical)
+  - If repo breaks → 40%+ of Treasury demand VANISHES instantly
+  - Reflexive cascade risk EXTREME
 - **RRP depleted** — ~$0.86B remaining vs $2.5T peak. Buffer = ZERO.
 - **SRF spiking** — $30.5B (third highest since summer 2020), afternoon abnormal
 - **Fed doing stealth QE** — $8B RMPs printed to ease repo stress, balance sheet UP
@@ -158,14 +248,25 @@
 - **Reserves declining** — $2.9T, approaching $2.8T ORANGE threshold
 - **TGA drain** — Rebuilt to $900B from $300B, drained $600B from system
 
-### Foreign Official Sector (Feb 12 UPGRADE)
+### Foreign Official Sector (Feb 12 UPGRADE → Feb 20 COLLAPSE CONFIRMED)
+**FEB 20 UPDATE:** US 20Y auction CONFIRMS foreign demand collapse.
+- **US 20-Year auction (Feb 19):** Indirect bid 55% — **SECOND LOWEST ON RECORD**
+  - BTC 2.36 (lowest since Nov 2024), 2bp tail (largest since Nov 2024)
+  - Foreign buyers EXITING long-duration Treasuries
+  - **CONTRAST:** Japan 20Y JGB auction same day passed with BTC 3.08 (strong)
+  - Different markets, opposite outcomes — US foreign demand collapsing while Japan holding
 - **China stealth exit CONFIRMED** — Belgium $481B (+33% YoY) = Euroclear custody proxy
 - **Feb 9 window guidance** — China banks told to REDUCE UST holdings
 - **$300B annual demand hole** — Japan $150B + China $100B + Saudi $50B
+- **NEW: European pensions joining exit** — Denmark AkademikerPension sold $100M (Greenland/Trump threat), Dutch ABP cut €10B
+- **NEW: EM diversifying** — India at 5-year low, Brazil reduced
+- **Foreign share collapse** — 50% (2015) → 31% (2026)
+- **Countervailing:** Japan, UK, Canada INCREASED (fragmented, not coordinated)
 - **No 2016 safety net** — No ECB/BOJ QE to offset, Fed doing QT
 - **April catalyst** — Trump-Xi Beijing summit = pre-positioning window
+- **Trade deficit context** — Dec $70.3B (+33% MoM), reversing Oct's artificial low. Wider deficit = more dollars out, but FOI NOT recycling back into UST (active diversification confirmed).
 
-System transitioning from **official-sector stability** to **private-sector fragility** (18:1 leveraged basis trade HFs replacing price-insensitive sovereign buyers).
+System transitioning from **official-sector stability** to **private-sector fragility** (18:1 leveraged basis trade HFs replacing price-insensitive sovereign buyers). Exit broadening beyond China/Japan to European pensions (geopolitical) and EM central banks (diversification).
 
 ---
 
@@ -176,13 +277,16 @@ System transitioning from **official-sector stability** to **private-sector frag
 |--------|-------|--------|-----------|
 | **RRP Balance** | **$0.86B** | 🔴 | <$5B = effectively ZERO |
 | **SRF Usage** | **$30.5B** (Feb 18) | 🟡 | >$25B YELLOW, >$50B ORANGE |
-| **SOFR-IORB Spread** | **WIDENING** | 🟡 | Above Fed preferred range |
+| **SOFR 75th Percentile** | **3.78-3.81%** (Feb 17-18) | 🔴 | **ABOVE Fed ceiling (IORB 3.65%) — 25% of $3.2T repo market above bounds** |
+| **SOFR-IORB Spread** | **WIDENING** | 🟠 | Above Fed preferred range, losing control |
 | **Reserve Balances** | **$2.9T** | 🟡 | Declining, <$2.8T = ORANGE |
 | **Fed RMPs (Stealth QE)** | **$8B** (Feb 18) | 🟠 | Balance sheet turning UP |
 | Dealer Net Position | ~$200B | 🟠 | >$200B clogged |
-| **Basis Trade Exposure** | **$1-2T** | 🟠 | 40-50% of TSY absorption, typically 10-50x levered |
+| **Basis Trade Exposure** | **$1-2T (50-100x extremes)** | 🔴 | **40-50% of TSY demand, extreme leverage, reflexive cascade risk** |
 | Treasury FTD | $42.4B | 🟡 | >$50B orange |
-| Auction BTC (10Y) | 2.53x (Feb 11) | 🟡 | <2.30x orange — Feb 11 had 1.4bps tail (ugly) |
+| **Auction BTC (20Y)** | **2.36x** (Feb 19) | 🟡 | **BREACHED YELLOW <2.30x — lowest since Nov 2024** |
+| **Auction Indirect (20Y)** | **55%** (Feb 19) | 🟠 | **BREACHED ORANGE <55% — 2nd lowest ON RECORD** |
+| **Auction Tail (20Y)** | **2.0bps** (Feb 19) | 🟡 | Largest since Nov 2024 |
 | **TGA Balance** | **~$900B** | 🟠 | Drained $600B from system |
 | **T-bill Rolling Pressure** | **$600B/5 days** | 🟠 | Structural repo dependency |
 
@@ -421,6 +525,7 @@ Timeline: May 2026 Powell term expires.
 **Cross-Domain Signals:**
 - **Blue Owl** redemption halt (credit stress amplifies funding stress)
 - **Arthur Hayes** "printer" thesis (validated by $8B stealth QE)
+- **Corporate bond volume** — Record $61B/day CONFIRMED (Jan 2026, +11% YoY, first time above $61B). Current HY OAS ~281bps (tight). **Interpretation:** LEAN BEAR given context (Blue Owl, NDFI pullback, Visser warnings). High volume + tight spreads = early-stage repositioning before spread widening. **Watch for divergence:** If volume stays high AND HY OAS widens >300bps = stress confirmation. Currently monitoring, not actionable.
 
 ---
 
