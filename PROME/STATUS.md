@@ -1,11 +1,11 @@
 # PROME STATUS.md
-**Updated:** 2026-02-23 13:25 UTC
+**Updated:** 2026-02-24 17:15 UTC
 
 ---
 
-## System Status: 🔴 CRITICAL — WAL THESIS COMPLETE (A+): Ready for Position Entry
+## System Status: 🔴 CRITICAL — WAL Position ENTERED (+22.86% Day 1) | OZK Earnings Thursday | MF Loss Acceleration Confirmed
 
-**Today's work:** Integrated comprehensive workbook (6 sheets, 21 SDF files), logged regulatory timeline (WHY Memo3 surged), confirmed off-balance-sheet pattern (RCON3816=$0 all quarters). Total hidden CRE = $3.0B. Position discussion: $70-75P Jun, size smaller than KRE.
+**Today's work:** Logged Cred iQ Bank MF data (1.37% DQ = post-GFC high, loss timeline ACCELERATING vs GFC). Market selloff Monday (Dow -822, tariffs). KRE put volume +116%. Evaluating OZK add before Thursday earnings.
 
 ---
 
@@ -19,7 +19,7 @@
 | **SAM** | 🟠 ORANGE | Japan = slow-burn tailwind; RP-SAM-4 research complete | Feb 23 |
 | **REGINALD** | 🔴 CRITICAL | **WAL earnings call analyzed** — relabeling CONFIRMED by management | Feb 23 |
 | **LIQUID** | 🔴 CRITICAL | Baltic ice crisis; 140M barrel flush April-May; TNP/STNG trades | Feb 18 |
-| **MARCO** | 🟠 ORANGE | Construction +33K; Migration data complete | Feb 13 |
+| **MARCO** | 🔴 RED | FL Airport Cascade CONFIRMED (FLL/MIA negative, OIA domestic -0.36%) | Feb 24 |
 | **HAWK** | 🔴 RED | Iran buildup; Russian revenue -50% YoY CONFIRMED; CVX short thesis | Feb 18 |
 | **HANS** | 🟠 ORANGE | German PMI beat (50.7) — complicates ISM weakness thesis | Feb 22 |
 | **ZHAO** | 🟢 GREEN | India pullback structural (2.09M→1.1M bpd); US-India trade deal driver | Feb 18 |
@@ -29,40 +29,44 @@
 
 ---
 
-## 🆕 TODAY'S WORK (Feb 23, Morning Session ~8am-9:30am ET)
+## 🆕 TODAY'S WORK (Feb 24, ~12pm ET)
 
-### Session 5: Signal Dump + Workbook Integration
-**Signals logged:**
-- BOJ rate hikes → BTC correlation (every hike = -23% to -39%)
-- US Net Savings at ZERO (structural fragility)
-- Blue Owl private credit GATE (first crack in $1.8T market)
-- Burry GPU depreciation thesis ($176B understatement)
-- Cassandra net investment chart (AI = capex bubble)
+### WAL Position Validation
+- **Entry:** 1x WAL $82.5P Jun @ $3.91 (Friday Feb 21)
+- **Day 1:** +22.86% (stock -5.59%, broke 50/200 MA)
+- **Current:** Stock recovering to ~$93 (+2.4% today)
+- Position working as expected
 
-**Workbook integrated:** `WAL_REGIONAL_WORKBOOK_2026-02-23.xlsx`
-- 6 sheets covering Paths 0-5 + Dashboard + Methodology
-- RCON3816 = $0 ALL quarters (off-BS confirms on-BS pattern)
-- Total hidden CRE: **$3.0B** (up 62% in 18 months)
+### Cred iQ Bank MF Stress Data (NEW)
+**Source:** Bisnow article, Cred iQ report
 
-**Regulatory timeline logged:**
-- Dec 2023 FDIC Advisory = PUSH
-- Jul 2023 Basel III NPR = ANTICIPATION  
-- Fund finance boom = MECHANISM
-- Q4 2024 surge = perfectly aligned with regulatory pressure
+| Metric | Value | Context |
+|--------|-------|---------|
+| Bank MF 90+ DQ | **1.09%** ($7.1B) | POST-GFC HIGH |
+| Bank MF total DQ | **1.37%** | Was 0.23-0.39% pre-2022 |
+| Quarterly loss rate | **0.14%** ($911M) | Was ~0% for 2017-2021 |
 
-**WAL thesis grade: A+**
-- Quantitative + Qualitative + Mechanical + Motivational + Timeline
+**Critical finding:** Loss timeline COMPRESSING vs GFC (faster due to floating-rate exposure)
 
-**Position discussion:**
-- Will considering entry today (Monday)
-- $70-75P Jun (25-30% OTM)
-- Size smaller than KRE (single-name risk)
+**Updated:** CREED STATUS.md with new signal dashboard + Finding #17
 
-**Agent check-ins:**
-- LABOR: Employment firewall holding (206K), college grad 36.6% record
-- CARL: Three thresholds imminent (MF 6bps, auto 0.1pp, student 0.4pp)
+### Market Context
+- Monday selloff: Dow -822 (-1.66%), S&P -1.04%
+- Drivers: Tariffs (Trump global tariffs after SCOTUS ruling) + AI concerns
+- **KRE put volume +116%** (208,216 puts)
+- BTC -29% YTD ($88K → $63K)
 
-**Banks to screen:** EWBC (priority), NYCB, CMA, OZK deep dive
+### Florida Airport Cascade (Overnight Feb 23-24)
+- FLL/MIA both negative
+- **OIA domestic -0.36%** (ALREADY NEGATIVE)
+- International +8.20% masking weakness
+- Statewide collapse confirmed — same pre-flip pattern as MIA
+- MARCO upgraded to 95% confidence
+
+### Position Evaluation
+- **OZK**: Best add candidate (37.6% hidden CRE, earnings Thu)
+- **WAL**: Could add at lower strike ($70-75P)
+- **VLY**: 25 days to expiry, needs decision
 
 ---
 
@@ -122,24 +126,29 @@
 | Date | Event | Agent |
 |------|-------|-------|
 | **Feb 25** | FSK earnings (BDC canary) | BROCK |
+| **Feb 26** | Initial Claims + PCE | LABOR/PROME |
+| **Feb 27** | **OZK Earnings** — worst hidden CRE (37.6%) | REGINALD |
 | **Mar 1** | OPEC+ meeting (April restart?) | LIQUID |
 | **Early Mar** | Cantor appraisals due | REGINALD |
 | **Late Mar** | Baltic ice breaks — exit TNP | LIQUID |
 | **April** | Bank earnings (KRE catalyst) | REGINALD |
 | **Apr-May** | 140M barrel flush | LIQUID |
+| **May 12** | WAL Investor Day | REGINALD |
 
 ---
 
 ## Active Positions
 
-| Position | Expiry | Status |
-|----------|--------|--------|
-| KRE puts | May/Jun | ✅ HOLD — 3 of 7 constituents have hidden CRE |
-| SSB puts | Jun | ✅ HOLD — Cleanest book (0.9% hidden) |
-| IWM puts | Jun | ✅ HOLD |
-| HYG puts | Jun | ✅ HOLD |
-| **WAL** | — | 🎯 **READY FOR ENTRY** — thesis complete |
-| OZK | — | 🎯 Secondary target — 37.6% hidden, 142% construction |
+| Position | Entry | Expiry | Status |
+|----------|-------|--------|--------|
+| **WAL $82.5P** | $3.91 | Jun | ✅ **+22.86% Day 1** — Stock broke 50/200 MA |
+| KRE puts | — | May/Jun | ✅ HOLD — 3 of 7 constituents have hidden CRE |
+| SSB puts | — | Jun | ✅ HOLD — Cleanest book (0.9% hidden) |
+| IWM puts | — | Jun | ✅ HOLD |
+| HYG puts | — | Jun | ✅ HOLD |
+| VLY $10P | — | Mar-20 | ⚠️ 25 days, illiquid — decision needed |
+| EGBN $25P | — | — | ⚠️ OI: 4, hold to expiry |
+| **OZK** | — | — | 🎯 **ADD CANDIDATE** — 37.6% hidden, earnings Thu |
 
 ---
 
@@ -155,11 +164,22 @@
 
 ## Next Session Priorities
 
-1. **WAL position sizing** — Strike selection, entry timing
-2. **OZK deep dive** — Secondary single-name candidate
-3. **FSK earnings prep** (Feb 25) — BDC canary
+1. **OZK position decision** — Add before Thursday earnings?
+2. **VLY $10P Mar-20** — 25 days, illiquid — close or hold?
+3. **FSK earnings** (tomorrow Feb 25) — BDC canary, watch PIK %
 4. **IREN settlement check** (Feb 25) — 100 shares @ $40 via put exercise
 
 ---
 
-**Ready for fresh context.**
+## Pending Actions for Review
+
+| Action | Priority | Status |
+|--------|----------|--------|
+| OZK add decision | 🔴 HIGH | Earnings Thu — decide by Wed close |
+| VLY position | 🟠 MEDIUM | 25 days, illiquid |
+| Nevada gaming data | 🟡 LOW | MARCO confirmatory |
+| LAS airport data | 🟡 LOW | MARCO confirmatory |
+
+---
+
+**Commits this session:** `3c9aacc`, `71eff50` (pushed)
