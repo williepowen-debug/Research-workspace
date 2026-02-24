@@ -30,11 +30,17 @@
 - **Source:** https://gaming.library.unlv.edu/reports/6_month_NV_25_12.pdf
 
 ### Airport Enplanements
-- [ ] MIA December 2025 / January 2026
-- [ ] MCO December 2025 / January 2026  
-- [ ] LAS December 2025 / January 2026
-- [ ] PHX December 2025 / January 2026
+- [x] **FLL December 2024 (FULL YEAR)** ✅ Added 2026-02-24
+  - Total: 35.2M (+0.3% YoY)
+  - Domestic: 27.9M (+2.4% YoY)
+  - **International: 7.3M (-7.2% YoY) — H2 COLLAPSED**
+  - H2 2024: -7.3% Jun → -23.6% Nov (peak stress)
+- [ ] MIA December 2024 / January 2025
+- [ ] MCO December 2024 / January 2025  
+- [ ] LAS December 2024 / January 2025
+- [ ] PHX December 2024 / January 2025
 - **Note:** PDF reports from airport authority websites
+- **Filed:** `baselines/FLL_AIRPORT_DATA_2024.md`
 
 ---
 
