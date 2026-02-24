@@ -49,7 +49,17 @@
   - **Theme park anchor effect:** Disney/Universal = must-go
   - **Budget Canadian collapsing:** Hamilton -75.7%, Winnipeg -14.2%
   - **Filed:** `baselines/MCO_AIRPORT_DATA_2024-2025.md`
-- [ ] LAS December 2024 / January 2025
+- [x] **LAS Oct-Dec 2025 + Full Year** ✅ Added 2026-02-24
+  - Total 2025: 55.0M (-5.9% YoY) — **WORSE THAN FLORIDA**
+  - Domestic: 50.6M (-5.9%)
+  - International: 3.4M (-7.4%)
+  - **December: -10.3% (accelerating)**
+  - **Canadian carriers collapsed:**
+    - Flair: -65.9%
+    - Lynx: -100% (ceased operations)
+    - WestJet: -27.8%
+    - Air Canada: -21.9%
+  - **Filed:** `baselines/LAS_AIRPORT_DATA_2025.md`
 - [ ] PHX December 2024 / January 2025
 - **Note:** PDF reports from airport authority websites
 
