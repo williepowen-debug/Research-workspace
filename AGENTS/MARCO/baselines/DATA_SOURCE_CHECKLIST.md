@@ -35,12 +35,17 @@
   - Domestic: 27.9M (+2.4% YoY)
   - **International: 7.3M (-7.2% YoY) — H2 COLLAPSED**
   - H2 2024: -7.3% Jun → -23.6% Nov (peak stress)
-- [ ] MIA December 2024 / January 2025
+  - **Filed:** `baselines/FLL_AIRPORT_DATA_2024.md`
+- [x] **MIA 2024 + 2025 + Feb 2026 Daily** ✅ Added 2026-02-24
+  - 2024: 55.9M (+6.85% YoY) — strong
+  - **2025: 55.3M (-1.09% YoY) — FLIPPED NEGATIVE**
+  - International 2025: -1.25%
+  - **Feb 2026 Daily: -6.24% passengers, -8.26% flights (PEAK SNOWBIRD)**
+  - **Filed:** `baselines/MIA_AIRPORT_DATA_2024-2025.md`
 - [ ] MCO December 2024 / January 2025  
 - [ ] LAS December 2024 / January 2025
 - [ ] PHX December 2024 / January 2025
 - **Note:** PDF reports from airport authority websites
-- **Filed:** `baselines/FLL_AIRPORT_DATA_2024.md`
 
 ---
 
