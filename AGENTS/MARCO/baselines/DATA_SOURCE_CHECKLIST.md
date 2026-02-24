@@ -42,10 +42,26 @@
   - International 2025: -1.25%
   - **Feb 2026 Daily: -6.24% passengers, -8.26% flights (PEAK SNOWBIRD)**
   - **Filed:** `baselines/MIA_AIRPORT_DATA_2024-2025.md`
-- [ ] MCO December 2024 / January 2025  
+- [x] **MCO CYE 2024 vs 2025 + International O&D** ✅ Added 2026-02-24
+  - Total: 57.7M (+0.8% YoY) — **OUTLIER, holding**
+  - Domestic: 49.2M (-0.4%) — first weakness
+  - International: 8.5M (+8.2%) — UK/Caribbean offsetting
+  - **Theme park anchor effect:** Disney/Universal = must-go
+  - **Budget Canadian collapsing:** Hamilton -75.7%, Winnipeg -14.2%
+  - **Filed:** `baselines/MCO_AIRPORT_DATA_2024-2025.md`
 - [ ] LAS December 2024 / January 2025
 - [ ] PHX December 2024 / January 2025
 - **Note:** PDF reports from airport authority websites
+
+### FLORIDA AIRPORT TRIFECTA COMPLETE ✅
+
+| Airport | Total | Intl | Canadian Exposure | Status |
+|---------|-------|------|-------------------|--------|
+| FLL | +0.3% | **-7.2%** | HIGH | 🔴 COLLAPSED |
+| MIA | -1.09% | -1.25% | MEDIUM | 🟡 FLIPPING |
+| MCO | +0.8% | +8.2% | MEDIUM | 🟢 HOLDING (theme parks) |
+
+**Key Finding:** Canadian boycott hitting DISCRETIONARY travel (FLL beach, MIA cruise), not ANCHOR destinations (MCO theme parks). Budget routes collapsing first.
 
 ---
 
