@@ -37,9 +37,13 @@ We are positioned for a repricing of systemic risk that markets are currently de
 
 | Ticker | Position | Expiry | Strikes | Status | Thesis |
 |--------|----------|--------|---------|--------|--------|
+| **WAL** | **Puts** | **Jun 2026** | **$82.5P** | **ACTIVE +30%** | **[WAL/](WAL/) — Hidden CRE, relabeling** |
 | KRE | Puts | Jun 2026 | $60P, $65P, $67P | ACTIVE | [KRE/](KRE/) |
+| KRE | Puts | Mar 2026 | $62P | UNDERWATER | Time decay hurting |
 | IWM | Puts | Jun 2026 | TBD | ACTIVE | Small caps, rate sensitive |
 | HYG | Puts | Jun 2026 | TBD | ACTIVE | Credit stress direct play |
+| VLY | Puts | Mar 20, 2026 | $10P | +18.7% | 25 days to expiry, illiquid |
+| FSK | Puts | Apr 2026 | $10P | -71% | BDC canary, essentially dead |
 | KELYA | Puts | TBD | TBD | WATCHING | Staffing/employment lead |
 
 ### Bullish / Other
@@ -62,10 +66,12 @@ We are positioned for a repricing of systemic risk that markets are currently de
 
 | Date | Event | Impact |
 |------|-------|--------|
-| Feb 20 | Monthly OpEx | KRE volatility |
-| Feb 21 | German Flash PMI | If <48, locks in March ISM sub-49 |
-| Late March | Shunto wage settlements | Japan/BOJ catalyst |
-| April | Q1 Bank Earnings | CRE provision reveals |
+| Feb 25 | FSK Earnings | BDC canary |
+| Mar 1 | OPEC+ Meeting | Oil thesis |
+| Late March | Ice breaks | Exit tanker longs |
+| **Apr 16** | **OZK Earnings** | **CRE provision, potential entry catalyst** |
+| April | Q1 Bank Earnings (WAL, regionals) | CRE provision reveals |
+| **May 12** | **WAL Investor Day** | Management questioned on CRE strategy |
 | May-June | Consumer conversion | LABOR thesis plays out |
 
 ---
@@ -84,6 +90,7 @@ We are positioned for a repricing of systemic risk that markets are currently de
 
 | Ticker | Why Watching | Entry Trigger |
 |--------|--------------|---------------|
+| **OZK** | **Worst hidden CRE ratio (37.6%)**, 142% Constr/Tier 1 | **Aug $40P @ ~$1.75** — Earnings Apr 16 |
 | STNG | Tanker / Russia oil squeeze | Decision on oil trades |
 | TNP | Ice-class tanker leader | Decision on oil trades |
 | CVX | 29% CPC exposure, short candidate | April earnings setup |
@@ -124,5 +131,7 @@ We are positioned for a repricing of systemic risk that markets are currently de
 ## Session Notes
 
 *Updated each session with key observations*
+
+**Feb 24:** WAL position +30.54%. Entered 1x $82.5P Jun @ $3.91. Comprehensive chart analysis across 6-bank watchlist (KRE, WAL, OZK, ZION, FLG, EGBN). ALL names hit 52-week highs in Feb and reversed — textbook distribution pattern. Heavy volume on selloffs confirms institutional exit. OZK lagging the selloff (-7% from peak vs WAL -9.5%) — considering Aug $40P. RED challenged "topped" thesis at 40-50% confidence (vs our 75-80%), valid technical skepticism but didn't engage fundamental case (hidden CRE, Memo Item 3). KRE couldn't bounce on risk-on day (VIX -8%) — weak signal.
 
 **Feb 19-20:** Blue Owl gated redemptions. KRE sold off into close (-$1.00). Descending triangle forming with $70 support being tested. Technical and fundamental alignment strengthening. Debate with RED concluded at 55% Prome vs 25% RED for >15% decline by late 2026.

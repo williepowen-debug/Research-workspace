@@ -1092,6 +1092,53 @@ Pure plays (EGBN, SBCF, IBOC) are binary bets. Multi-channel names (WAL, VLY, CF
 
 ---
 
+## 🎯 CORE 6-BANK TECHNICAL WATCHLIST (Feb 24, 2026)
+
+**Purpose:** Active monitoring for distribution patterns and breakdown signals.
+
+### 1-Year Support Levels
+
+| Ticker | Role | Current | Feb High | 2025 Low | Downside to Low |
+|--------|------|---------|----------|----------|-----------------|
+| **KRE** | Sector index | $68.54 | $74.08 | $47.08 (Mar) | **-31%** |
+| **WAL** | Primary target | $88.15 | $97.23 | $57.08 (May) | **-35%** |
+| **OZK** | Secondary target | $48.41 | $51.94 | $35.71 (Mar) | **-26%** |
+| **ZION** | Clean comparison | $59.17 | $66.17 | $38.32 (May) | **-36%** |
+| **FLG** | Post-crisis template | $13.49 | $14.54 | $9.04 (May) | **-33%** |
+| **EGBN** | Stress confirmation | $25.00 | $29.26 | $15.03 (Oct) | **-40%** |
+
+### Distribution Pattern Status (Feb 24)
+
+| Ticker | Pattern | From Peak | Verdict |
+|--------|---------|-----------|---------|
+| **EGBN** | Most violent distribution | -14.5% | 🔴 HEAVY |
+| **WAL** | Parabolic → dump | -9.5% | 🔴 HEAVY |
+| **ZION** | Steady decline | -11% | 🟡 MODERATE |
+| **KRE** | Index confirming | -8% | 🟡 MODERATE |
+| **FLG** | Can't hold gains | -8% | 🟡 WEAK (post-crisis template) |
+| **OZK** | Lagging selloff | -7% | ⚠️ WATCH — hasn't caught down yet |
+
+### Key Observations
+
+1. **All 6 topped in Feb 2026** — Coordinated sector rotation, not idiosyncratic
+2. **Heavy volume on distribution** — Institutional exit confirmed
+3. **Lower highs forming** — Bearish structure on WAL, KRE, ZION, FLG
+4. **OZK lagging** — Either more resilient OR hasn't caught down yet (thesis: more downside coming)
+5. **FLG = template** — Shows what happens post-crisis (struggles to hold any rally)
+6. **KRE can't bounce on risk-on days** — Feb 24: VIX -8%, KRE flat = underlying weakness
+
+### RED Team Challenge (Feb 24)
+
+RED graded "topped" thesis at **40-50%** (vs our 75-80%). Key challenges:
+- Sector correlation is normal behavior, not conspiracy
+- Volume analysis lacks benchmark context
+- 2025 lows may be irrelevant if macro differs
+- Bull case: Fed pivot, M&A, curve steepening, CRE priced in
+
+**Counter:** RED didn't engage fundamental thesis (hidden CRE, Memo Item 3, loss severity). Technical skepticism valid, but credit analysis is core case.
+
+---
+
 ## BANK WATCHLIST
 
 ### Tier 1: Maximum Stress (4+ channels)
