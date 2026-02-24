@@ -250,5 +250,14 @@
     "message": "WAL filed 8-K: WESTERN ALLIANCE BANCORPORATION",
     "value": "2026-02-20",
     "threshold": null
+  },
+  {
+    "id": 1771948427068,
+    "timestamp": "2026-02-24 15:53:47 UTC",
+    "type": "sec",
+    "severity": "info",
+    "message": "WAL filed 10-K: WESTERN ALLIANCE BANCORPORATION",
+    "value": "2026-02-23",
+    "threshold": null
   }
 ]
