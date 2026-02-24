@@ -304,6 +304,18 @@
 | 15 | Mexico remittances full-year decline >5% | 2026 | 70% | ⏳ Pending |
 | 16 | Arizona border cities face >10% shared revenue decline | FY 2026 | 65% | ⏳ Pending |
 | 17 | FL Citizens Insurance exposure exceeds $750B | Q4 2026 | 60% | ⏳ Pending |
+| 18 | **OIA (Orlando) flips negative (<0% YoY)** | Q2-Q3 2026 | **70%** | ⏳ NEW — Domestic -0.36%, intl +8.2% masking |
+| 19 | **MIA daily passengers stay <-5% YoY through peak season** | Feb-Mar 2026 | **75%** | ⏳ NEW — Currently -6.24% |
+| 20 | **All 3 major FL airports negative simultaneously** | Q3 2026 | **65%** | ⏳ NEW — 2 of 3 already there |
+| 21 | **FL tourism revenue declines >10% YoY** | H2 2026 | 55% | ⏳ NEW — Airport cascade transmission |
+
+**🆕 Florida Airport Cascade Thesis (Feb 24, 2026):**
+- **Pattern:** FLL (Canadian exposure) → MIA (LatAm buffer) → OIA (theme parks) with 12-month lag each
+- **FLL:** First to crack H2 2024 (intl -7.3% Jun → -23.6% Nov)
+- **MIA:** Flipped 2024→2025 (+6.85% → -1.09%) — 8pp swing; Feb daily -6.24% pax, -8.26% flights
+- **OIA:** +0.81% total BUT domestic ALREADY -0.36%, intl +8.2% masking — SAME PRE-FLIP PATTERN as MIA
+- **Signal:** Airlines cutting capacity (-8.26%) faster than demand falling (-6.24%) = forward weakness
+- **See:** `AGENTS/MARCO/baselines/OIA_AIRPORT_DATA_2024-2025.md`
 
 ### HENRY
 | # | Prediction | Timeframe | Confidence | Status |

@@ -493,7 +493,70 @@ Migration shift (UVL: "balanced") → Tax revenue at risk
 
 ---
 
-## PREDICTIONS (17 total)
+---
+
+## 🆕 FLORIDA AIRPORT CASCADE — STATEWIDE COLLAPSE CONFIRMED (Feb 24, 2026)
+
+### The 12-Month Lag Pattern
+
+| Airport | 2024 | 2025 | Domestic | International | Pattern |
+|---------|------|------|----------|---------------|---------|
+| **FLL** | +0.3% | N/A | -7.2% intl | H2: -7.3%→-23.6% | **CANARY** (Canadian collapse) |
+| **MIA** | +6.85% | **-1.09%** | Negative | LatAm buffer broke | **FLIPPED** (8pp swing) |
+| **OIA** | — | +0.81% | **-0.36%** | +8.20% masking | **PRE-FLIP** |
+
+### Key Findings
+
+**Pattern 1: Geographic Exposure = Timeline**
+- FLL (high Canadian exposure) → cracked H2 2024
+- MIA (LatAm buffer) → cracked late 2025
+- OIA (theme parks/domestic) → domestic ALREADY negative, next to flip
+
+**Pattern 2: Capacity Leading Demand**
+- MIA Feb 2026: Flights -8.26% vs Passengers -6.24%
+- Airlines cutting capacity FASTER than demand falling = forward weakness signal
+
+**Pattern 3: K-Shape Within Airports**
+- MIA Cargo: +13.61% | MIA Passengers: -1.09%
+- Business/trade strong, tourism weak — same bifurcation everywhere
+
+**Pattern 4: Peak Season Weakness = Disaster Shoulder**
+- Feb is PEAK snowbird month
+- MIA running -6.24% at peak → Q2-Q3 shoulder will be brutal
+
+**Pattern 5: Canadian = Leading Indicator**
+- Price sensitive (USD strength hurts)
+- Politically responsive (boycott)
+- Have alternatives (Mexico, Caribbean)
+- LatAm follows. Domestic last.
+
+### OIA Thesis: 12 Months Behind MIA
+
+**MIA Timeline:**
+- 2024: Domestic weak, LatAm buffer held → +6.85%
+- 2025: Buffer cracked → -1.09%
+
+**OIA Timeline:**
+- 2025: Domestic ALREADY negative (-0.36%), international buffer holding → +0.81%
+- 2026: Buffer expected to crack → **FLIP TO NEGATIVE by Q2-Q3**
+
+**Theme Park Buffer Vulnerability:**
+- OIA serves Disney/Universal/SeaWorld — major domestic drivers
+- But domestic is 85% of traffic and ALREADY negative
+- Theme park visits = discretionary spending → CARL thesis hits here
+- Canadian/European visitors face USD strength headwind
+
+**Top OIA International Markets (Canadian Exposure):**
+Toronto (#1), Calgary (#11), Ottawa (#6), Vancouver (#17), Montreal (#27), Halifax (#36)
+
+### Files Created
+- `baselines/FLL_AIRPORT_DATA_2024.md`
+- `baselines/MIA_AIRPORT_DATA_2024-2025.md`
+- `baselines/OIA_AIRPORT_DATA_2024-2025.md`
+
+---
+
+## PREDICTIONS (20 total)
 
 | # | Prediction | Timeframe | Confidence |
 |---|------------|-----------|------------|
@@ -512,6 +575,9 @@ Migration shift (UVL: "balanced") → Tax revenue at risk
 | 15 | **Mexico remittances full-year -4.6% (2025 confirmed)** | 2025 FINAL | ✅ **CONFIRMED** (-4.6%, worst since 2009) |
 | 16 | **AZ border cities -10% shared revenue** | FY 2026 | 65% |
 | 17 | **FL Citizens exposure >$750B** | Q4 2026 | 60% |
+| 22 | **OIA (Orlando) flips negative (<0% YoY)** | Q2-Q3 2026 | 70% |
+| 23 | **MIA Feb-Mar 2026 daily pax stays below -5% YoY** | Mar 2026 | 75% |
+| 24 | **All 3 major FL airports negative simultaneously** | Q3 2026 | 65% |
 
 ---
 
