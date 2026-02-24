@@ -2,7 +2,119 @@
 
 **Purpose:** Critical learnings that should persist across sessions
 
-**Last Updated:** 2026-02-23 21:48 UTC
+**Last Updated:** 2026-02-24 20:05 UTC
+
+---
+
+## 6-BANK CHART ANALYSIS SESSION (Feb 24, 2026)
+
+### The Core Watchlist Framework
+
+Built a systematic 6-bank watchlist for regional bank thesis:
+
+| Ticker | Role | Why |
+|--------|------|-----|
+| **KRE** | Sector index | When this breaks, everything breaks |
+| **WAL** | Primary target | Hidden CRE growing, management relabeling |
+| **OZK** | Secondary target | Worst hidden ratio (37.6%), CEO dismissive |
+| **ZION** | Clean comparison | 1.8% Memo3 — if it holds while others crack, thesis validated |
+| **FLG** | Post-crisis template | Ex-NYCB, shows what recovery looks like (struggles to hold gains) |
+| **EGBN** | Stress confirmation | Most volatile, 80.9% true CRE |
+
+### Distribution Pattern — All Topped Feb 2026
+
+**Key Finding:** ALL 6 names hit 52-week highs in February and reversed. This is coordinated sector rotation, not idiosyncratic.
+
+| Ticker | 2025 Low | Feb 2026 High | Downside to Low |
+|--------|----------|---------------|-----------------|
+| KRE | $47.08 | $74.08 | -31% |
+| WAL | $57.08 | $97.23 | -35% |
+| OZK | $35.71 | $51.94 | -26% |
+| ZION | $38.32 | $66.17 | -36% |
+| FLG | $9.04 | $14.54 | -33% |
+| EGBN | $15.03 | $29.26 | -40% |
+
+**Pattern observations:**
+- Heavy volume on distribution = institutional exit
+- WAL most violent (parabolic +70% rally then dump)
+- EGBN most volatile (-14.5% from peak)
+- OZK lagging selloff (-7%) = hasn't caught down yet
+- KRE can't bounce on risk-on days (VIX -8%, KRE flat)
+
+**Confidence:** 75-80% this is THE TOP, not pullback
+
+### RED Team Challenge — Valid Pushback
+
+RED graded thesis at 40-50% (vs our 75-80%). Key challenges worth remembering:
+
+1. **Sector correlation is normal** — Regionals move together because they share exposure (rates, CRE). Synchronization isn't "conspiracy."
+2. **Volume analysis needs benchmarks** — Without 20-day/90-day comparisons, "heavy volume" is vibes.
+3. **2025 lows may be irrelevant** — If macro backdrop differs, those levels aren't automatic targets.
+4. **Bull cases we're underweighting:**
+   - Fed pivot → NIM expansion → banks rip
+   - M&A deal → "we could be next" premium
+   - CRE fears already priced at 2025 lows
+   - Short squeeze if positioning too bearish
+
+**RED's core accusation:** "Will is +30% and WANTS it to be the top. Confirmation bias."
+
+**Counter:** RED didn't engage fundamental thesis (hidden CRE, Memo Item 3). Technical skepticism valid, but credit analysis is core case.
+
+**Lesson:** Adversarial review is valuable even when it doesn't change conclusion. RED raised confidence in our reasoning quality, even if probability estimate differs.
+
+### Life Sciences CRE — Disaster Sector
+
+**JLL Data:**
+- 27% vacancy (up from 6.6% in 2022 = 20.4pp spike in 3 years)
+- 48% vacancy on 2022-2024 vintage buildings
+- WORSE than office (22.5%)
+
+**Why it collapsed:**
+1. VC funding dried up (biotech startups were tenants)
+2. NIH grants stalled ($5B behind)
+3. Massive overbuilding during COVID
+
+**Why it's worse than office:** Lab space is highly specialized (can't convert easily). Higher TI costs. Tenant base is rate-sensitive.
+
+**OZK exposure:** $50M Chicago life science property on non-accrual
+
+### Why Isn't Hidden CRE Bigger News?
+
+**The edge exists BECAUSE it's not consensus:**
+
+1. **Memo Item 3 is obscure** — Requires FFIEC Call Report deep dive
+2. **Sell-side conflicts** — Bank analysts work for banks
+3. **Extend-and-pretend working** — No failures = no story
+4. **"Crisis is over" narrative** — SVB/NYCB happened, moved on
+5. **Timing burned analysts** — Predicted CRE crash since 2023, look like broken clocks
+6. **Career risk** — Being early = looking wrong; being late = "no one saw it"
+
+**Lesson:** If everyone knew about hidden CRE, it would be priced in. Obscurity IS the edge.
+
+### FORGE Structure — Trade Management
+
+Learned/reinforced:
+- **FORGE** = trading operations hub at `FORGE/STATUS.md`
+- Each trade gets own folder (`FORGE/WAL/`, `FORGE/KRE/`)
+- Folders contain: STATUS.md (thesis), TECHNICALS.md (charts), CATALYSTS.md (events), JOURNAL.md (decisions)
+- FORGE connects research (AGENTS) to execution (positions) to accountability (P/L)
+
+### Key Corrections This Session
+
+- **OZK earnings:** NOT Feb 27 — next is **April 16, 2026** (Q4 2025 already reported)
+- **NYCB:** Rebranded to **FLG (Flagstar Financial)** Oct 2024
+- **CMA (Comerica):** Bought by **FITB (Fifth Third)**, finalized Feb 2, 2026
+
+### Position Status (Feb 24 close)
+
+| Position | P/L | Notes |
+|----------|-----|-------|
+| WAL $82.5P Jun | **+30.54%** | Primary thesis working |
+| VLY $10P Mar-20 | +18.70% | 25 days, illiquid, needs decision |
+| KRE $62P Mar-31 | -26.52% | Underwater, time decay |
+| FSK $10P Apr | -71.71% | Essentially dead |
+
+**OZK consideration:** Aug $40P @ ~$1.75 (17% OTM, captures Apr 16 earnings)
 
 ---
 
