@@ -1,5 +1,5 @@
 # CREED STATUS
-**Last Updated:** 2026-02-17 | **Status:** 🔴 RED — Office CMBS DQ All-Time Record (12.34%) + $25B Zombie Loans + Extend-and-Pretend Collapsing
+**Last Updated:** 2026-02-24 | **Status:** 🔴 RED — Office CMBS DQ All-Time Record (12.34%) + Bank MF DQ at Post-GFC High (1.37%) + Loss Cycle ACCELERATING
 
 ---
 
@@ -27,6 +27,9 @@ The gap is extend-and-pretend: loan modifications, FHLB liquidity, regulatory fo
 | **Maturity Wall** | 2026 | $936B | — | 🔴 RED |
 | **Refinancing Gap** | Estimate | ~$336B (36%) | — | 🟠 ORANGE |
 | **MF CMBS DQ** | Delinquency | **6.94%** (Jan 2026, +232bps YoY) | — | 🟠 ORANGE |
+| **Bank MF DQ** | Total DQ | **1.37%** (Q3 2025) | 5.7% | 🔴 **POST-GFC HIGH** |
+| **Bank MF 90+** | Serious DQ | **1.09%** ($7.1B) | — | 🔴 RED |
+| **Bank MF Loss** | Quarterly | **0.14%** ($911M) | 1.24% | 🟠 ACCELERATING |
 | **Overall CMBS DQ** | With balloons | 9.14% (shadow stress) | — | 🟠 ORANGE |
 | **Bank Mods** | Volume | $27.7B (+66% YoY) | — | 🟠 ORANGE |
 
@@ -139,6 +142,42 @@ The gap is extend-and-pretend: loan modifications, FHLB liquidity, regulatory fo
 - Portfolio now 99% performing (up from 96%) — cleaned up by taking pain
 - **Implication:** Recognition phase starting for sophisticated lenders
 - Bifurcation: office getting extensions, retail facing foreclosure
+
+### 17. Bank MF Stress at Post-GFC High — Loss Cycle ACCELERATING (NEW Feb 24, 2026)
+
+**Source:** Cred iQ Report (via Bisnow, Feb 24, 2026)
+
+**Key Data Points:**
+- **$7.1B seriously delinquent** (90+ days) bank-held MF loans
+- **1.37% total MF DQ rate** — post-GFC HIGH (was 0.23-0.39% pre-2022)
+- **1.09% in 90+ bucket** = "severe end, borrowers exhausted short-term remedies"
+- **0.28% early-stage** (30-89 days) = new stress active but not overwhelming
+- **0.14% quarterly loss rate** ($911M) — was ~0% for 2017-2021
+- **GFC peak comparison:** 1.24% losses, 5.7% DQ
+
+**Critical Finding — Loss Timeline COMPRESSION:**
+> "Losses today are compressing on a faster timeline than during the GFC, when they took about four years to fully materialize."
+
+**Why Faster?**
+- Higher floating-rate exposure (vs fixed-rate GFC vintage)
+- Rapid cap-rate expansion
+- Value declines concentrated in 2021-22 vintage + specific markets
+
+**CMBS MF Comparison:**
+- Bank MF DQ: **1.37%** (recognizing slower)
+- CMBS MF DQ: **6.6%** (Dec 2025) — banks lagging recognition by ~5x
+
+**Resolution Phase Beginning:**
+- $7.1B at "severe end" = beyond extend-and-pretend
+- Workouts, modifications, note sales will define next 1-2 years
+- 2021-22 vintage = highest risk (overleveraged at near-zero rates)
+
+**Implication for Thesis:**
+- Q2-Q3 2026 timing VALIDATED — loss acceleration means faster recognition than GFC
+- OZK/WAL/EGBN MF exposure faces same dynamics
+- Bank vs CMBS gap (1.37% vs 6.6%) = extend-and-pretend still working but narrowing
+
+---
 
 ### 10. Healthcare CRE: Hospital "Triple Whammy" (NEW Feb 17, 2026)
 - **Triple whammy:** Medicaid cuts ($1.1T) + ACA subsidies expired + Medicare Advantage freeze
