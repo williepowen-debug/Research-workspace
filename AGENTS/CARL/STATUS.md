@@ -310,7 +310,7 @@ TTF spike 30-50% → Henry Hub +10-25% → Retail bills +8-15% (3-12 month lag)
 | BNPL Subprime Share | 61% | 🔴 | |
 | CC Utilization | 23.6% | 🟡 | 60% carry balance |
 | **Subprime Auto ABS 60+** | **6.9%** (Jan 2026) | 🔴 | **ALL-TIME RECORD** (vs Prime 0.4% = 17x gap) |
-| **DHS Shutdown — Workers Without Pay** | **234K** | 🔴 | **Day 6 (Feb 18); White House rejected Dem compromise; no end in sight; Congress returns Feb 23 earliest; contractors NOT guaranteed back pay — stop-work orders issued** |
+| **DHS Shutdown — Workers Without Pay** | **234K** | 🔴 | **Day 11 (Feb 24); White House rejected Dem compromise; no end in sight; contractors NOT guaranteed back pay — stop-work orders issued** |
 
 **Age breakdown (transition to 90+ days):** 18-29: 9.5% | 30-39: 8.6% | 40-49: 8.1%
 
