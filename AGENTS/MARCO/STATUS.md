@@ -87,8 +87,11 @@ Three domains tracked:
 | FL Citizens Exposure | $678.8B | 🟠 CRITICAL | +23% YoY |
 | El Paso Deficit | $55-62M | 🟠 CRITICAL | Pension 60% funded |
 | Nogales Residential | -43% YoY | 🟠 CRITICAL | Crashed |
+| **🆕 Canada Tourism Index (CTI)** | **0.72** (vs 2019 baseline) | **🔴 BREACHED** | **Crisis territory (<0.75)** |
+| **🆕 Sun Belt Migration Delta** | **-534K** (Tier 1: FL/TX/AZ/NV) | **🔴 BREACHED** | **80% momentum collapse** |
+| **🆕 TX Net Domestic Migration** | **+67K** (was +219K in 2022) | **🟠 CRITICAL** | **-69% decline parallels FL** |
 
-**Composite:** 11 BREACHED, 9 CRITICAL = Multi-state stress transmission accelerating — **FLORIDA THESIS CONFIRMED**
+**Composite:** 13 BREACHED, 10 CRITICAL = Multi-state stress transmission accelerating — **FLORIDA THESIS CONFIRMED**
 
 ---
 
