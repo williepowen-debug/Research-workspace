@@ -2,7 +2,58 @@
 
 **Purpose:** Critical learnings that should persist across sessions
 
-**Last Updated:** 2026-02-25 01:01 UTC
+**Last Updated:** 2026-02-25 23:10 UTC
+
+---
+
+## OZK 10-K DEEP DIVE SESSION (Feb 25, 2026)
+
+### The Smoking Guns (10-K Verified)
+
+1. **Construction reserves CUT 41%** ($235M → $139M) while construction losses ACCELERATED (67% of all NCOs)
+2. **Illinois = 67% of NPLs** — Chicago is ground zero and they're concentrated there
+3. **$19.08B unfunded commitments** (higher than our $10.6B estimate) — must fund into stress
+4. **Life science +506% YoY** — completed projects into 35% vacancy market
+5. **Liquidity ($14B) < Commitments ($19B)** — math doesn't work if stressed
+
+### Behavioral Confirmation
+
+| Signal | Finding |
+|--------|---------|
+| Stock buyback | $460K of $200M auth (0.2%) |
+| Insider buys | ZERO in 6+ months |
+| Insider sells | ALL C-suite (CFO, CRO, CLO) |
+| Short interest | 14-15% (3-4x peers) |
+
+**Translation:** Everyone who knows the inside is either selling or not buying.
+
+### WAL vs OZK — Different Risk Profiles
+
+| Factor | WAL | OZK |
+|--------|-----|-----|
+| Thesis type | Hidden CRE relabeling (active) | Visible CRE stress (life sciences) |
+| Short interest | 4.4% (not crowded) | 14-15% (crowded) |
+| Management behavior | Relabeling, growing hidden ratio | Selling loans, cutting exposure |
+| Better trade? | **YES — less crowded** | Good thesis but picked over |
+
+### Process Learnings
+
+- **Verify earnings dates from primary source** — I had Feb 27 wrong (Q4 was Jan 20)
+- **10-K reading with Will worked well** — collaborative, he pulled pages, I analyzed
+- **Insider transactions + short interest = behavioral layer** on top of fundamentals
+- **Crowding matters** — 14-15% short means you're not early, you're joining a crowd
+
+### OZK Key Dates
+
+- Q4 2025 earnings: Jan 20, 2026 (DONE)
+- Next earnings (Q1 2026): **April 16, 2026**
+- 10-K filed: February 2026
+
+### Files Created
+
+- `AGENTS/REGINALD/OZK/STATUS.md`
+- `AGENTS/REGINALD/OZK/10K_ANALYSIS_2024.md`
+- `AGENTS/REGINALD/domain/sources/RP-REG-7_OZK_THESIS.md`
 
 ---
 
