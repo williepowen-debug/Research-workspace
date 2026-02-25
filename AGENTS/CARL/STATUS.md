@@ -1,5 +1,5 @@
 # CARL STATUS
-**Last Updated:** 2026-02-23 11:10 UTC | **Status:** 🔴 RED — Fannie MF DQ IMMINENT BREACH (6bps from GFC peak), Subprime Auto RECORD (6.9%, 0.1pp from RED), Private Credit Freeze ACTIVE (Blue Owl), US Net Savings at ZERO | **DUAL TRANSMISSION PATHS: DOGE (0-2mo) + Private Credit Middle-Market (May-Jun layoffs → Q3 conversion)** | Maryland DOGE→DQ CONFIRMED
+**Last Updated:** 2026-02-25 13:15 UTC | **Status:** 🔴 RED — Fannie MF DQ IMMINENT BREACH (6bps from GFC peak), Subprime Auto RECORD (6.9%, 0.1pp from RED), Private Credit Freeze ACTIVE (Blue Owl), US Net Savings at ZERO | **DUAL TRANSMISSION PATHS: DOGE (0-2mo) + Private Credit Middle-Market (May-Jun layoffs → Q3 conversion)** | Maryland DOGE→DQ CONFIRMED
 
 ---
 
@@ -426,10 +426,10 @@ Both QSR and Auto Aftermarket show same K-shape:
 
 ## DHS SHUTDOWN — CONSUMER STRESS VECTOR (Updated Feb 18)
 
-### Day 6 Status Update
+### Day 13 Status Update (Feb 25, 2026)
 - **White House rejected** Democrats' latest compromise proposal (ICE oversight limits)
 - **No end in sight** — Senate left town; both sides pointing fingers
-- **Congress returns Feb 23** (earliest plausible resolution)
+- **Nearly 2 weeks unpaid** — First paychecks already missed; consumer conversion accelerating
 - **State of the Union** risk: shutdown may still be active during SOTU address
 - **Contractor impact**: Stop-work orders issued; invoice payment halted; companies "deciding federal work is too hard" (PSC/Kostro); NO back-pay guarantee for contractors
 - **43-day DHS shutdown** from October 2025 was the starting context; now in 2nd DHS shutdown of this FY
