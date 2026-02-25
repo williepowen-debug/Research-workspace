@@ -1,5 +1,5 @@
 # CREED STATUS
-**Last Updated:** 2026-02-24 | **Status:** 🔴 RED — Office CMBS DQ All-Time Record (12.34%) + Bank MF DQ at Post-GFC High (1.37%) + Loss Cycle ACCELERATING
+**Last Updated:** 2026-02-25 | **Status:** 🔴 RED — CMBS $57.7B Default Expected (2026); Large Banks 5% CRE PDNA; Loss Cycle ACCELERATING
 
 ---
 
@@ -32,6 +32,43 @@ The gap is extend-and-pretend: loan modifications, FHLB liquidity, regulatory fo
 | **Bank MF Loss** | Quarterly | **0.14%** ($911M) | 1.24% | 🟠 ACCELERATING |
 | **Overall CMBS DQ** | With balloons | 9.14% (shadow stress) | — | 🟠 ORANGE |
 | **Bank Mods** | Volume | $27.7B (+66% YoY) | — | 🟠 ORANGE |
+
+---
+
+## 📥 NEW INTEL (Feb 24-25)
+
+### CMBS Maturity Wall — $57.7B DEFAULTS EXPECTED
+**Source:** Morningstar / Trepp (via @LeylaKuni, Feb 23)
+
+- **$100B+** total CMBS maturities in 2026
+- **$57.7B likely to default** (~58%)
+- **$76.6B hitting "hard maturity"** — no more extension options
+- Breakdown: Fixed $43B, Floating $51B
+
+**Implication:** Extend-and-pretend ends 2026. Forced recognition coming.
+
+---
+
+### FDIC Q4 — Large Banks Have WORST CRE DQ
+**Source:** FDIC Q4 Banking Profile (via @KenTumin, Feb 24)
+
+- Banks >$250B assets: **~5% PDNA** on non-owner-occupied CRE
+- Highest since 2013
+- Smaller banks (<$10B): only 1-2%
+
+**Implication:** Counterintuitive — largest banks have worst CRE exposure. May be SSFA/concentration effects.
+
+---
+
+### Florida CRE Bankruptcy — Pavo Fresh
+**Source:** Bankruptcy filing, Feb 23, 2026
+
+- Largo, FL real estate firm
+- Chapter 11, Middle District of Florida
+- Multiple foreclosures in Pinellas County
+- Part of group with $7M mortgage debt
+
+Pattern continues: FL CRE stress ongoing.
 
 ---
 
