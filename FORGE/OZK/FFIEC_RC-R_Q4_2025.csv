@@ -1,0 +1,35 @@
+Call Date;Bank RSSD Identifier;MDRM #;Value;Last Update;Short Definition;Call Schedule;Line Number
+20251231;107244;RCOA3792;6498818;20260130;Total capital (sum of items 26 and 46);RCRI;47
+20251231;107244;RCOA7204;13.6365%;20260130;Leverage ratio (item 26 divided by 30);RCRI;31
+20251231;107244;RCOA7205;14.7957%;20260130;Total capital ratio (item 47 divided by item 48);RCRI;51
+20251231;107244;RCOA7206;12.4961%;20260130;Tier 1 capital ratio (item 26 divided by item 48);RCRI;50
+20251231;107244;RCOA8274;5488755;20260130;Tier 1 capital (sum of items 19 and 25);RCRI;26
+20251231;107244;RCOAA223;43923668;20260130;Total risk-weighted assets (from Schedule RC-R, Part II, item 31);RCRI;48
+20251231;107244;RCOAP793;11.7244%;20260130;Common equity tier 1 capital ratio (item 19 divided by item 48);RCRI;49
+20251231;107244;RCON2746;1289437;20260130;Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column B;RCCI;M3
+20251231;107244;RCON1766;3431585;20260130;Commercial and industrial loans;RCCI;4
+20251231;107244;RCONS475;0;20260130;Held-to-maturity securities;RCRII;9a
+20251231;107244;RCONS476;0;20260130;Held-to-maturity securities;RCRII;9a
+20251231;107244;RCONS477;0;20260130;Held-to-maturity securities;RCRII;9a
+20251231;107244;RCONS478;0;20260130;Held-to-maturity securities;RCRII;9a
+20251231;107244;RCONS479;0;20260130;Held-to-maturity securities;RCRII;9a
+20251231;107244;RCONS480;0;20260130;Available-for-sale securities;RCRII;9b
+20251231;107244;RCONS481;0;20260130;Available-for-sale securities;RCRII;9b
+20251231;107244;RCONS482;0;20260130;Available-for-sale securities;RCRII;9b
+20251231;107244;RCONS483;0;20260130;Available-for-sale securities;RCRII;9b
+20251231;107244;RCONS484;0;20260130;Available-for-sale securities;RCRII;9b
+20251231;107244;RCONS485;0;20260130;Trading assets;RCRII;9c
+20251231;107244;RCONS486;0;20260130;Trading assets;RCRII;9c
+20251231;107244;RCONS487;0;20260130;Trading assets;RCRII;9c
+20251231;107244;RCONS488;0;20260130;Trading assets;RCRII;9c
+20251231;107244;RCONS489;0;20260130;Trading assets;RCRII;9c
+20251231;107244;RCONS490;0;20260130;All other on-balance sheet securitization exposures;RCRII;9d
+20251231;107244;RCONS491;0;20260130;All other on-balance sheet securitization exposures;RCRII;9d
+20251231;107244;RCONS492;0;20260130;All other on-balance sheet securitization exposures;RCRII;9d
+20251231;107244;RCONS493;0;20260130;All other on-balance sheet securitization exposures;RCRII;9d
+20251231;107244;RCONS494;0;20260130;All other on-balance sheet securitization exposures;RCRII;9d
+20251231;107244;RCONS495;0;20260130;Off-balance sheet securitization exposures;RCRII;10
+20251231;107244;RCONS496;0;20260130;Off-balance sheet securitization exposures;RCRII;10
+20251231;107244;RCONS497;0;20260130;Off-balance sheet securitization exposures;RCRII;10
+20251231;107244;RCONS498;0;20260130;Off-balance sheet securitization exposures;RCRII;10
+20251231;107244;RCONS499;0;20260130;Off-balance sheet securitization exposures;RCRII;10
