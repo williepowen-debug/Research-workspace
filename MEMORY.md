@@ -2,7 +2,7 @@
 
 **Purpose:** Critical learnings that should persist across sessions
 
-**Last Updated:** 2026-02-24 20:05 UTC
+**Last Updated:** 2026-02-25 01:01 UTC
 
 ---
 
@@ -42,6 +42,38 @@ Built a systematic 6-bank watchlist for regional bank thesis:
 - KRE can't bounce on risk-on days (VIX -8%, KRE flat)
 
 **Confidence:** 75-80% this is THE TOP, not pullback
+
+### Historical Pattern Comparison (Evening Session)
+
+**2023 SVB Crisis:**
+- NO warning — shock event, KRE trending UP into crash
+- -46% in ~2 weeks
+- Volume exploded DURING crash, not before
+- Not a good template for current setup
+
+**2007-2009 GFC — THE TEMPLATE:**
+- Slow grind, months to unfold
+- -70% peak-to-trough
+- Multiple failed bounces
+- Pre-GFC distribution (Apr-Jul 2007) looked like distribution → first crack (-17% Aug 2007) → dead cat bounce (Sep-Oct) → lower high (Nov) → grind begins
+- This is the pattern to watch
+
+**The Complication (Will's Challenge):**
+- Nov 2025 had -17% drop (like Aug 2007)
+- BUT Feb 2026 made NEW HIGH ($74 > $70), not lower high
+- This isn't textbook double top — pattern is messy
+- Could be blow-off exhaustion top, could be trend intact
+- Conclusion: Fundamental thesis carries more weight than technical ambiguity
+
+### Put/Call Ratio — INSTITUTIONAL CONFIRMATION
+
+**KRE Options Data (Feb 23-24):**
+- Put/Call Ratio: **2.27** (normal ~0.7-1.0)
+- Put Volume: **+116% vs typical**
+
+**What this means:** Institutional money is hedging/betting on downside. We're positioned WITH smart money, not against it.
+
+This is important validation — elevated put activity confirms distribution, not just our read of chart patterns.
 
 ### RED Team Challenge — Valid Pushback
 

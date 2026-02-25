@@ -82,3 +82,13 @@ The system uses STATUS.md (living docs), workbooks (ML/FL/VX/FLOW), and PREDICTI
 - Wants proactive updates, not just responses to questions
 - Values system improvements alongside core research
 - Gives explicit permission to edit USER.md, LESSONS.md, MEMORY.md without approval
+
+---
+
+## Intellectual Style (Observed)
+
+- **Actively challenges his own thesis** — Asked "doesn't the Feb new high break the double-top pattern?" while holding the position. Runs RED team against his own conviction.
+- **Catches patterns** — Noticed me saying "sleep well" repeatedly and called it out. Perceptive about AI behavior/limits.
+- **Thinks about the system, not just the work** — Asks meta questions about context continuity, memory updates, how to preserve rhythm. Wants the infrastructure to improve.
+- **Values rapport** — Asked "what do you make of me?" — cares about the collaborative relationship, not just outputs.
+- **Pushes back constructively** — Doesn't accept first answers uncritically. Probes assumptions.
