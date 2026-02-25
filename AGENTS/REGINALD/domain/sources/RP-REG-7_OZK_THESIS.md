@@ -1,9 +1,10 @@
 # OZK THESIS — Bank OZK Deep Dive
 
 **Created:** 2026-02-25  
-**Updated:** 2026-02-25 22:00 UTC — **10-K VERIFIED** ✅  
+**Updated:** 2026-02-25 23:00 UTC — **10-K VERIFIED** ✅  
 **Status:** COMPLETE — Ready for Position  
-**Earnings:** Feb 27, 2026 (Thursday)  
+**Last Earnings:** Jan 20, 2026 (Q4 2025 — already reported)  
+**Next Earnings:** April 16, 2026 (Q1 2026)  
 **Grade:** A (Upgraded — 10-K data confirmed and strengthened thesis)
 
 **10-K Analysis:** See `../OZK/10K_ANALYSIS_2024.md` for full data extraction
