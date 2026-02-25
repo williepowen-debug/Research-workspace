@@ -1,7 +1,8 @@
 # OZK STATUS
-**Last Updated:** 2026-02-25 22:00 UTC  
+**Last Updated:** 2026-02-25 23:00 UTC  
 **Status:** 🔴 HIGH CONVICTION SHORT  
-**Earnings:** Feb 27, 2026 (Thursday)  
+**Last Earnings:** Jan 20, 2026 (Q4 2025) — Already reported  
+**Next Earnings:** April 16, 2026 (Q1 2026)  
 **Position:** PENDING — Aug $40P recommended
 
 ---
@@ -52,9 +53,10 @@
 
 | Date | Event |
 |------|-------|
-| **Feb 27** | Q4 2025 Earnings |
-| Q1 2026 | Continued life science stress |
-| 2026 | IQHQ ($915M) resolution window |
+| ~~Jan 20~~ | ~~Q4 2025 Earnings~~ ✅ DONE |
+| **Apr 16** | **Q1 2026 Earnings** ← Next catalyst |
+| Mid-2026 | IQHQ ($915M) resolution window |
+| Ongoing | Life science vacancy / Chicago stress |
 
 ## Position Recommendation
 
@@ -65,6 +67,32 @@
 | Premium | ~$1.75 |
 | OTM | 17% |
 | Target | $35-38 (TBV erosion) |
+
+## Insider Activity (Last 6-7 Months)
+
+**Zero buys. All sells.**
+
+| Date | Insider | Role | Shares | Price |
+|------|---------|------|--------|-------|
+| Jul 22 | Tim Hicks | CFO | 10,000 | $53 |
+| Jun 12 | Peter Kenny | Director | 782 | $45 |
+| May 13 | Arindam Majumdar | **CRO** | 654 | $47 |
+| Mar 14 | Alan Jessup | Chief Lending Officer | 6,477 | $43 |
+| Feb 6 | Paschall Hamblen | Executive | 4,000 | $53 |
+| Jan 23 | Paschall Hamblen | Executive | 2,000 | $51 |
+| Jan 22 | Tim Hicks | CFO | 10,000 | $50 |
+
+**CRO selling = he sees the credit risk and doesn't want to own it.**
+
+## Short Interest
+
+| Metric | OZK | Peers (WAL/ZION) |
+|--------|-----|------------------|
+| Short % of float | **14-15%** | 3-5% |
+| Days to cover | **12-18** | 3-5 |
+| Crowding | **HIGH** ⚠️ | Low |
+
+Trade is crowded — size accordingly. Squeeze risk exists.
 
 ## Key Documents
 
