@@ -1,9 +1,12 @@
 # OZK THESIS — Bank OZK Deep Dive
 
 **Created:** 2026-02-25  
+**Updated:** 2026-02-25 22:00 UTC — **10-K VERIFIED** ✅  
 **Status:** COMPLETE — Ready for Position  
-**Earnings:** Feb 27, 2026 (2 days)  
-**Grade:** A- (Quantitative Strong, Catalyst Imminent, Execution Risk)
+**Earnings:** Feb 27, 2026 (Thursday)  
+**Grade:** A (Upgraded — 10-K data confirmed and strengthened thesis)
+
+**10-K Analysis:** See `../OZK/10K_ANALYSIS_2024.md` for full data extraction
 
 ---
 
