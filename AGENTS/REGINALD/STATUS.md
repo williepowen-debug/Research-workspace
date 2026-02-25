@@ -1,5 +1,16 @@
 # REGINALD STATUS
-**Last Updated:** 2026-02-25 02:12 UTC | **Status:** 🔴 CRITICAL — SSFA Capital Arbitrage Discovered; Private Credit 5.8% Default; CMBS $57.7B Maturity Wall
+**Last Updated:** 2026-02-25 18:45 UTC | **Status:** 🔴 CRITICAL — SSFA Capital Arbitrage Discovered; Private Credit 5.8% Default; CMBS $57.7B Maturity Wall
+
+### 🎯 OZK THESIS COMPLETE (Feb 25, 2026)
+**Document:** `domain/sources/RP-REG-7_OZK_THESIS.md` | **Grade:** A-  
+**Earnings:** Feb 27 (2 days!) | **Position:** Aug $40P (~$1.75, 17% OTM)
+
+**Key findings:**
+- CRE/Tier 1: 415% (with unfunded: **~900%** per Moody's)
+- Hidden CRE: **37.6%** Memo3/C&I (WORST in screen, comparable to failed Metropolitan)
+- Problem loans: $915M IQHQ (vacant), $265M Pacific Center (SOLD at discount), $202M Bioterra (distressed)
+- **Strategy shift:** First major loan sale in bank history = management acknowledging stress
+- Life sciences market: 35% vacancy in OZK's core San Diego market
 
 ---
 
@@ -1247,7 +1258,7 @@ Pure plays (EGBN, SBCF, IBOC) are binary bets. Multi-channel names (WAL, VLY, CF
 |--------|------|---------|----------|----------|-----------------|
 | **KRE** | Sector index | $68.54 | $74.08 | $47.08 (Mar) | **-31%** |
 | **WAL** | Primary target | $88.15 | $97.23 | $57.08 (May) | **-35%** |
-| **OZK** | Secondary target | $48.41 | $51.94 | $35.71 (Mar) | **-26%** |
+| **OZK** | Secondary target ✅ THESIS | $48.41 | $51.94 | $35.71 (Mar) | **-26%** |
 | **ZION** | Clean comparison | $59.17 | $66.17 | $38.32 (May) | **-36%** |
 | **FLG** | Post-crisis template | $13.49 | $14.54 | $9.04 (May) | **-33%** |
 | **EGBN** | Stress confirmation | $25.00 | $29.26 | $15.03 (Oct) | **-40%** |
