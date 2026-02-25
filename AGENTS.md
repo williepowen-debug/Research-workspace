@@ -78,6 +78,13 @@ Ask yourself before closing:
 
 Write these to `memory/YYYY-MM-DD.md` or `MEMORY.md`. Future-you needs context, not just facts.
 
+### Also Capture
+- **Key files touched:** What was created/modified (helps future-you find stuff)
+- **What method worked well:** Process learnings worth repeating
+- **Unresolved debates:** Things we disagreed on or left open (not just questions — active tensions)
+- **Sub-agents spawned:** What's out there, completed or pending
+- **Will's availability signal:** Traveling? Busy week? Affects next session pacing
+
 ### Handoff Summary Format
 End with a clean summary:
 ```
@@ -87,6 +94,8 @@ End with a clean summary:
 **Open questions:** [what's unresolved]
 **Tomorrow:** [next actions]
 **Rhythm note:** [1-2 sentences on where we are mentally]
+**Files:** [key files created/modified]
+**Debates:** [unresolved tensions]
 ```
 
 ---
