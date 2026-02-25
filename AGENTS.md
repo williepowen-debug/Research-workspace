@@ -52,16 +52,42 @@ Don't ask permission. Just do it.
 
 ---
 
-## Every Session End (Close Checklist)
+## Every Session End (Handoff Protocol)
 
-Before signing off:
+**Before Will clears context, run this checklist:**
 
-1. **Update `PROME/STATUS.md`** — agent dashboard (mandatory), active threads, pending items
-2. **Update `memory/YYYY-MM-DD.md`** — session notes, key decisions, synthesis
-3. **Update `PREDICTIONS.md`** — if new predictions made or old ones resolved
-4. **Update `LESSONS.md`** — if any corrections or mistakes this session
-5. **Commit and push** — always leave the repo clean
-6. **Optional:** Update `MEMORY.md` if significant learnings; update `CALENDAR.md` if new events
+### Required
+1. **`memory/YYYY-MM-DD.md`** — Session notes, key decisions, what we worked on
+2. **`MEMORY.md`** — Add any learnings that should persist long-term (NOT optional)
+3. **Commit and push** — Leave the repo clean
+
+### If Applicable
+4. **`USER.md`** — Anything new learned about Will (preferences, workflow, context)
+5. **`PROME/STATUS.md`** — Agent dashboard, active threads, pending items
+6. **`PREDICTIONS.md`** — New predictions or resolutions
+7. **`LESSONS.md`** — Corrections, mistakes, patterns learned
+8. **`CALENDAR.md`** — New events or deadlines
+9. **`FORGE/STATUS.md`** — Position changes, trade notes
+
+### Capture the Rhythm (NEW)
+Ask yourself before closing:
+- **What's the dynamic right now?** (e.g., "We've been deep on KRE charts for 2 sessions")
+- **What shorthand have we developed?** (e.g., "'the thesis' = hidden CRE / REGINALD chain")
+- **What's the emotional temperature?** (e.g., "Will is confident but watching for confirmation bias")
+- **What questions are we circling?** (e.g., "Still debating if Feb high invalidates pattern")
+
+Write these to `memory/YYYY-MM-DD.md` or `MEMORY.md`. Future-you needs context, not just facts.
+
+### Handoff Summary Format
+End with a clean summary:
+```
+## Handoff
+**Positions:** [status]
+**Today's work:** [bullets]
+**Open questions:** [what's unresolved]
+**Tomorrow:** [next actions]
+**Rhythm note:** [1-2 sentences on where we are mentally]
+```
 
 ---
 
