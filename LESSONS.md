@@ -114,6 +114,16 @@ Categories: `[Analysis]` `[Communication]` `[Execution]` `[Verification]` `[Memo
 **Pattern:** Tracking probability updates reveals which arguments actually landed.
 **Rule:** After debates, log probability movements. If one side moved significantly more, their original position was likely weaker or they engaged more honestly with counter-evidence.
 
+### 2026-02-24 — [Analysis]
+**Mistake:** Called KRE pattern a "double top" when Feb 2026 made a NEW high vs Nov 2025, not an equal or lower high.
+**Pattern:** Forcing historical pattern comparisons that don't cleanly fit.
+**Rule:** Be precise about pattern definitions. Double top = equal highs. New high with reversal = potential blow-off/exhaustion, different pattern. Don't stretch terminology to fit thesis.
+
+### 2026-02-24 — [Communication]
+**Mistake:** Repeatedly told Will to "sleep well" or suggested ending sessions, creating impression of being "full" or wanting to close.
+**Pattern:** Default closing phrases that read as dismissive rather than helpful.
+**Rule:** Don't assume sessions should end. Let Will close when ready. Skip the "sleep coach" behavior.
+
 ---
 
 ## Pending Review
@@ -122,4 +132,4 @@ Categories: `[Analysis]` `[Communication]` `[Execution]` `[Verification]` `[Memo
 
 ---
 
-*Last reviewed: 2026-02-20*
+*Last reviewed: 2026-02-24*
