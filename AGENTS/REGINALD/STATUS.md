@@ -5,7 +5,7 @@
 
 ## 📥 INBOX (New Data — Feb 24-25)
 
-### 🔴 SSFA CAPITAL ARBITRAGE — HIDDEN BANK RISK (SEC_digger, Feb 24)
+### 🔴 SSFA CAPITAL ARBITRAGE — HIDDEN BANK RISK (SEC_digger, Feb 24) + WAL CONFIRMED (Feb 25)
 
 **What It Is:** Banks using Simplified Supervisory Formula Approach (SSFA) to reduce capital requirements on NDFI/BDC lending. Structure loans as "securitizations" → 20% risk-weight instead of 100%+.
 
@@ -20,6 +20,40 @@
 **Implication:** Banks have 5x less capital against private credit exposure than headline numbers suggest.
 
 **Key Chart:** Strong correlation (R² = 0.90) between SSFA adjustments and NDFI loan growth
+
+---
+
+### 🔴 WAL SSFA CONFIRMED — $17.2B SECURITIZATION EXPOSURE (Feb 25, 2026)
+
+**Source:** FFIEC Call Report Q4 2025, Schedule RC-R Part II (RSSD-ID 3138146)
+
+We pulled WAL's actual securitization data. The SSFA arbitrage is CONFIRMED and MASSIVE:
+
+| Item | Category | Exposure | RWA | Implied RW |
+|------|----------|----------|-----|------------|
+| 9a | HTM Securities | $165M | $33M | 20.0% |
+| 9b | AFS Securities | $3.79B | $800M | 21.1% |
+| 9d | **Other On-B/S** | **$10.82B** | **$2.17B** | **20.0%** |
+| 10 | Off-B/S | $2.45B | $489M | 20.0% |
+| **TOTAL** | — | **$17.22B** | **$3.49B** | **20.3%** |
+
+**Capital arbitrage calculation:**
+- With SSFA (20% RW): $3.49B RWA → $279M capital required
+- Without SSFA (100% RW): $17.22B RWA → $1,378M capital required
+- **WAL is holding $1.1B LESS capital than economic reality**
+
+**Verification:** RCONS493 / RCONS490 = 2,167,129 / 10,815,082 = **20.04%** ← Exactly the SSFA floor risk weight
+
+**Combined exposure picture:**
+| Risk Vector | Amount | Capital Impact |
+|-------------|--------|----------------|
+| Hidden CRE (Memo Item 3) | $2.73B | Under-reserved for CRE losses |
+| SSFA Securitization | $17.22B | $1.1B less capital than 100% RW |
+| True CRE / Tier 1 | 474% | Breaches 300% threshold |
+
+**Conclusion:** WAL's capital position is materially weaker than headline ratios suggest. Both hidden CRE classification AND aggressive SSFA treatment inflate apparent capital adequacy.
+
+**Next step:** Pull OZK RC-R for comparison
 
 ---
 

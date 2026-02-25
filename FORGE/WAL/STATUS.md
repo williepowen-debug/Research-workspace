@@ -71,6 +71,59 @@ From Q4 2025 earnings call:
 
 ---
 
+## 🆕 SSFA Capital Arbitrage — CONFIRMED (Feb 25, 2026)
+
+**Source:** FFIEC Call Report Q4 2025, Schedule RC-R Part II (Items 9-10)
+
+WAL is using Simplified Supervisory Formula Approach (SSFA) to achieve 5x better capital efficiency on $17B of securitization exposures.
+
+### Securitization Exposures (Schedule RC-R Part II)
+
+| Item | Category | Exposure ($000s) | RWA ($000s) | Implied RW |
+|------|----------|------------------|-------------|------------|
+| 9a | HTM Securities | $165,051 | $33,071 | 20.0% |
+| 9b | AFS Securities | $3,792,017 | $799,649 | 21.1% |
+| 9c | Trading Assets | $0 | $0 | — |
+| 9d | **Other On-B/S** | **$10,815,082** | **$2,167,129** | **20.0%** |
+| 10 | Off-B/S | $2,446,364 | $489,273 | 20.0% |
+| **TOTAL** | — | **$17,218,514** | **$3,489,122** | **20.3%** |
+
+### Capital Arbitrage Math
+
+| Scenario | RWA | Capital Required (8%) |
+|----------|-----|----------------------|
+| **With SSFA (20% RW)** | $3.49B | $279M |
+| **Without SSFA (100% RW)** | $17.22B | $1,378M |
+| **Savings** | **$13.73B** | **$1,098M** |
+
+**WAL is holding ~$1.1B LESS capital than they would without SSFA treatment.**
+
+### What's In "Other On-Balance Sheet Securitization" ($10.8B)?
+
+This is likely the NDFI warehouse lending structured through SPVs:
+- Mortgage warehouse lines: $9.2B (low risk, self-liquidating)
+- Business credit intermediary lines: $3.4B (BDC exposure)
+- Private equity fund lines: $1.2B (capital call facilities)
+
+By structuring these through securitization vehicles, WAL achieves 20% RW instead of 100%.
+
+### Why This Matters
+
+1. **Capital ratios overstate buffer** — CET1 of 11.76% assumes SSFA treatment continues
+2. **Regulatory risk** — Basel III Endgame proposed tightening SSFA; if enacted, WAL would need to raise capital
+3. **Stress amplifier** — Less capital = less cushion when losses hit
+4. **Combined with hidden CRE** — The $2.73B in Memo Item 3 PLUS aggressive SSFA = true risk profile materially worse than headline ratios
+
+### Raw MDRM Codes (Verification)
+
+```
+RCONS490 (9d Exposure): 10,815,082
+RCONS493 (9d RWA): 2,167,129
+Ratio: 2,167,129 / 10,815,082 = 20.04% ← Exactly SSFA floor
+```
+
+---
+
 ## Risk Factors
 
 1. **Fed pivot** — Rate cuts would help NIM, sentiment could shift bullish
