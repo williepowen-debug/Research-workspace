@@ -2,7 +2,7 @@
 
 > *Where research becomes action. Named for Prometheus's fire — the same fire that powers the forge.*
 
-**Last Updated:** 2026-02-20 00:22 UTC
+**Last Updated:** 2026-02-25 23:15 UTC
 
 ---
 
@@ -38,11 +38,12 @@ We are positioned for a repricing of systemic risk that markets are currently de
 | Ticker | Position | Expiry | Strikes | Status | Thesis |
 |--------|----------|--------|---------|--------|--------|
 | **WAL** | **Puts** | **Jun 2026** | **$82.5P** | **ACTIVE +30%** | **[WAL/](WAL/) — Hidden CRE, relabeling** |
+| **OZK** | **Puts** | **Aug 2026** | **$40P** | **PENDING — THESIS READY** | **Grade A. Crowded (14-15% short). Size small.** |
 | KRE | Puts | Jun 2026 | $60P, $65P, $67P | ACTIVE | [KRE/](KRE/) |
-| KRE | Puts | Mar 2026 | $62P | UNDERWATER | Time decay hurting |
+| KRE | Puts | Mar 2026 | $62P | UNDERWATER | Time decay hurting — ROLL to June $65P |
 | IWM | Puts | Jun 2026 | TBD | ACTIVE | Small caps, rate sensitive |
 | HYG | Puts | Jun 2026 | TBD | ACTIVE | Credit stress direct play |
-| VLY | Puts | Mar 20, 2026 | $10P | +18.7% | 25 days to expiry, illiquid |
+| VLY | Puts | Mar 20, 2026 | $10P | +18.7% | 24 days to expiry, illiquid — DECISION NEEDED |
 | FSK | Puts | Apr 2026 | $10P | -71% | BDC canary, essentially dead |
 | KELYA | Puts | TBD | TBD | WATCHING | Staffing/employment lead |
 

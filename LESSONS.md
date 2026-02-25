@@ -132,4 +132,11 @@ Categories: `[Analysis]` `[Communication]` `[Execution]` `[Verification]` `[Memo
 
 ---
 
-*Last reviewed: 2026-02-24*
+### 2026-02-25 — [Verification]
+**Mistake:** Stated OZK earnings was Feb 27, but Q4 2025 already reported Jan 20. Next earnings is April 16.
+**Pattern:** Using stale/assumed dates without verifying against primary source (company IR page or SEC filings).
+**Rule:** Before citing any earnings date, verify from company IR page or SEC 8-K. Don't trust memory or secondary sources for dates. Search "[Ticker] earnings date" and check IR page directly.
+
+---
+
+*Last reviewed: 2026-02-25*

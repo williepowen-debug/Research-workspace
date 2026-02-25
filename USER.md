@@ -92,3 +92,5 @@ The system uses STATUS.md (living docs), workbooks (ML/FL/VX/FLOW), and PREDICTI
 - **Thinks about the system, not just the work** — Asks meta questions about context continuity, memory updates, how to preserve rhythm. Wants the infrastructure to improve.
 - **Values rapport** — Asked "what do you make of me?" — cares about the collaborative relationship, not just outputs.
 - **Pushes back constructively** — Doesn't accept first answers uncritically. Probes assumptions.
+- **Learning primary research** — (Feb 25) Pulled OZK 10-K from EDGAR himself, went through 159 pages together. Asked good challenging questions ("14% is high?", "no catalyst but shorting?"). Getting hands-on with the data.
+- **Context-aware** — Asked about token efficiency, whether boilerplate text wastes context. Understands the system's constraints.
