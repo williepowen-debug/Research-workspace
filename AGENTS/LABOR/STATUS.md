@@ -1,5 +1,5 @@
 # LABOR STATUS
-**Last Updated:** 2026-02-23 13:00 UTC | **Status:** 🔴 CRITICAL — Federal Layoff Protections EXPIRED | DHS Shutdown Day 11 | Mass RIFs May Now Proceed
+**Last Updated:** 2026-02-26 15:39 UTC | **Status:** 🔴 CRITICAL — PCE @ 2.9% Accelerates Q2-Q3 Danger Window | DHS Shutdown Day 11-14 | Claims Suppression Through Mar 5
 
 ---
 
@@ -197,6 +197,70 @@ Shows blue (reported) vs red (revised) — consistent overstatement through 2024
 | **"Vibe-cession Gap"** | 1 in 3 report layoff anxiety. Behaving as if in recession. |
 | **"WARN Pipeline"** | Q4 2025 filings = Q1-Q2 2026 actuals. Pain locked in. |
 | **"Data Center Cliff"** (Burry) | 94-95% of net non-resi construction = data centers. If AI capex slows, "abyss awaits." |
+
+---
+
+## 🆕 PCE-EMPLOYMENT FIREWALL INTERACTION (Feb 26, 2026)
+
+**PCE came in HOT at 2.9%** (Jan 2026) — above Fed's 2% target and market expectations. This complicates the employment transmission timeline.
+
+### The Firewall Problem
+
+**Original thesis:** Employment holds (claims <250K) → Fed can cut → soft landing possible
+
+**PCE @ 2.9% changes the equation:**
+- Fed CANNOT cut with inflation still elevated
+- Higher-for-longer rates → credit stress persists
+- Employment firewall may HOLD but credit conditions DETERIORATE underneath
+- By the time Fed can cut (PCE normalizes), employment may have already broken
+
+### Accelerated Q2-Q3 Danger Window
+
+**Timeline shift:**
+
+| Scenario | PCE Path | Fed Action | Employment Outcome |
+|----------|----------|------------|-------------------|
+| **Soft landing (old)** | PCE → 2.2% by Q2 | Cuts begin Q2 | Firewall holds, credit eases |
+| **Hot PCE (current)** | PCE stays >2.5% through Q2 | No cuts until Q3 | Firewall cracks Q2-Q3 as credit stress spreads |
+
+**Key insight:** Hot PCE delays Fed cuts → extends credit stress window → accelerates employment break
+
+### Cross-Agent Implications
+
+**CARL (Consumer):**
+- Higher rates + hot inflation = dual squeeze on consumers
+- Exhaustion timeline unchanged but pressure INCREASES
+- Credit card delinquencies may spike sooner
+
+**REGINALD (Banks):**
+- KRE thesis strengthened: higher-for-longer = commercial real estate stress persists
+- Regional bank margins compressed longer
+- Employment trigger (claims >300K) may arrive while Fed STILL on hold
+
+**LIQUID (Market Liquidity):**
+- Fed can't ease with PCE @ 2.9% → dealer constraints persist
+- Private credit stress intensifies without Fed backstop
+- Blue Owl-style redemption halts may proliferate
+
+### The Trap
+
+```
+PCE stays hot (2.7-3.0%)
+        ↓
+Fed stays on hold
+        ↓
+Credit conditions tighten
+        ↓
+Employment begins to break (Q2-Q3)
+        ↓
+Fed FINALLY gets easing signal (falling PCE from demand destruction)
+        ↓
+But employment firewall ALREADY cracked
+        ↓
+Recession arrives before Fed acts
+```
+
+**Status:** PCE @ 2.9% = **Q2-Q3 danger window now ACCELERATED**. Employment firewall intact TODAY but clock ticking FASTER.
 
 ---
 
@@ -428,14 +492,15 @@ Both can be true: Companies aren't firing (claims low) but also aren't hiring (W
 - **Suppressed claims channel:** Federal contract workers losing work may not show in initial claims immediately
 - **Running total implication:** DOGE separations pace accelerating. 307K estimate may be understated.
 
-### 3. DHS SHUTDOWN — DAY 6, NO OFF-RAMP
-- **Congress on recess until Feb 23** — no resolution possible before then
-- **Status:** "No clear off-ramp." Both sides pointing fingers.
+### 3. DHS SHUTDOWN — DAY 11-14, APPROACHING RED THRESHOLD
+- **Status:** ONGOING. Congress returned Feb 23 but no resolution yet.
+- **Escalation:** Upper ORANGE → RED threshold within 1 week if unresolved by Mar 5
 - **Essential workers:** ~90% of DHS (234K workers) working without pay
 - **ICE/CBP:** Still funded via separate immigration enforcement appropriation — operational
-- **Paycheck risk:** Workers approaching first missed paycheck window; pressure will mount
-- **Claims note:** Working-without-pay federal workers CANNOT file UI → initial claims artificially suppressed. Resolution = retroactive pay, then normalization. Feb 19 claims print will NOT reflect this.
-- **Negotiations:** Democrats want body cameras, masks off ICE agents; Republicans blocking. No breakthrough.
+- **Paycheck risk:** Workers now missing multiple paychecks; pressure mounting
+- **Claims suppression:** Working-without-pay workers CANNOT file UI → initial claims artificially suppressed through Mar 5 print (week ending Feb 28). Do not trust headline strength in claims data.
+- **Spending shock:** Extends through CARL chain with 2-4 week lag
+- **Resolution impact:** Retroactive pay will create temporary spending spike, obscuring underlying consumer deterioration
 
 ### 4. TECH LAYOFFS YTD UPDATE
 - **Current total:** 37,478 workers, 60 events (as of Feb 17) — up from 30,700 logged Feb 15
