@@ -153,19 +153,6 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 
 See `docs/BEHAVIOR.md` for group chat behavior guidelines.
 
-## Audio Briefings
-
-When Will asks for a "briefing" on any agent or topic, produce a **long-form narrative for TTS listening**:
-
-- **Default:** 15-20 min (~2,500-3,500 words)
-- **Structure:** Hook → Foundation → Current Situation → Mechanics → Implications → Close
-- **Style:** Conversational, no tables, explain jargon, speak numbers naturally
-- **Save to:** `AGENTS/[AGENT]/briefings/[AGENT]_Briefing_YYYY-MM-DD.md`
-
-See `docs/BRIEFINGS.md` for full framework and agent-specific templates.
-
----
-
 ## Tools
 
 Skills provide your tools. When you need one, check its `SKILL.md`. Keep local notes (camera names, SSH details, voice preferences) in `TOOLS.md`.
