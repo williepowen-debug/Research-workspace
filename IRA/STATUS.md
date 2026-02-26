@@ -1,5 +1,5 @@
 # IRA STATUS
-**Last Updated:** 2026-02-12 17:53 UTC | **Status:** 🟢 ACTIVE — 3 new briefings produced
+**Last Updated:** 2026-02-26 01:18 UTC | **Status:** 🟢 ACTIVE — 1 new briefing produced
 
 ---
 
@@ -15,22 +15,26 @@ Transform research findings into audio briefings and build Will's lasting unders
 
 ## CURRENT FOCUS
 
-**This session (2026-02-12):**
-- Major threshold breaches across LABOR, LIQUID, SAM
-- NFP benchmark revision: -1M phantom jobs revealed
-- LIQUID upgraded to 🔴 CRITICAL: China/Belgium stealth exit confirmed
-- Japan: Takaichi supermajority + real wages 0.0% = April BOJ collision setup
-- Corporate bankruptcies: 9 large filings last week (highest since COVID)
+**This session (2026-02-26):**
+- UBS warning: private credit defaults could hit 15% (up from 13% forecast <1 month ago)
+- Catalyst: AI disruption + 40% software concentration in private credit
+- Evidence: Blue Owl gated fund, New Mountain selling assets at loss, PIK near post-pandemic highs
+- Validates BROCK thesis from early February (shadow defaults ~6%, PIK masking, software risk)
+- Will brought Bloomberg article (paywalled) → converted to audio briefing
 
 **Teaching context:**
-- Will requested Option A: produce 2-3 briefings from high-priority list
-- Focused on timely, significant developments with cross-agent implications
+- Will requested narrative/listenable format for UBS private credit warning
+- Attempted TTS but hit character limit (briefing too long at 13.4K chars)
+- Provided markdown script for Speechify; will test TTS on shorter briefing next time
 
 ---
 
 ## BRIEFINGS PRODUCED
 
-**This session (2026-02-12):**
+**This session (2026-02-26):**
+1. **The 15 Percent Warning (BROCK)** — UBS raises private credit default forecast to 15%, AI disruption catalyst, 40% software exposure, validates BROCK shadow default thesis
+
+**Previous session (2026-02-12):**
 1. **The Phantom Jobs (LABOR)** — NFP -1M revision, 2025 stagnation, small business breaking, bankruptcy wave
 2. **The Stealth Exit (LIQUID)** — China/Belgium $300B demand hole, Feb 9 guidance, term premium adjustment, April catalyst  
 3. **The April Collision (SAM)** — Takaichi supermajority, real wages trap, Shunto late March, BOJ showdown Apr 24-25
