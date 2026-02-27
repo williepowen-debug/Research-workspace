@@ -1,5 +1,5 @@
 # REGINALD STATUS
-**Last Updated:** 2026-02-27 16:00 UTC | **Status:** 🔴 CRITICAL
+**Last Updated:** 2026-02-27 16:49 UTC | **Status:** 🔴 CRITICAL — BROCK SIGNAL PROCESSED
 
 **Known Data Issues:** DHS shutdown now Day 14+ (was Day 5 in prior version). OZK earnings were Jan 20, NOT Feb 27. BROCK outbound signal delivered (was "PENDING"). Subprime auto DQ now 7.1% (was 6.74%). PSEC PIK was 8.6% verified, NOT 35%.
 
@@ -14,7 +14,7 @@ Eight independent channels terminate at regional banks. Banks with MULTIPLE chan
 | CRE (CREED) | 70% of CRE at regionals, 70-94% loss severity confirmed | 🔴 |
 | Hidden CRE | Memo Item 3 relabeling — WAL 24.2%, OZK 37.6%, EGBN 23.7% | 🔴 |
 | SSFA Arbitrage | $1T in capital-light NDFI lending, WAL $17.2B at 20% RW | 🔴 NEW |
-| Private Credit | Fitch PCDR 5.8% (record), Blue Owl gating, Medallia 78¢, Jefferies sued | 🔴 |
+| Private Credit | FSK div -31% CONFIRMED, Medallia 78¢ ALL cross-holders, Blue Owl gating, Saba distress fund, UBS 15% stress scenario | 🔴 🔴 ESCALATING |
 | CMBS Maturity | $57.7B defaults expected, $76.6B hard maturity, no extensions left | 🔴 |
 | Federal Layoffs | DOGE 307K+ cuts, DHS shutdown Day 14+, DC corridor stress | 🟠 |
 | Consumer (CARL) | Subprime auto 7.1% RED, Fannie MF 6bps from GFC | 🟠 |
@@ -22,17 +22,27 @@ Eight independent channels terminate at regional banks. Banks with MULTIPLE chan
 
 ---
 
-## INBOX (Unprocessed)
+## INBOX (Processed 2026-02-27 16:49 UTC)
 
-| Signal | Priority | Source |
-|--------|----------|--------|
-| Chicago downgrade + BROCK upstream | 🔴 | Feb 27 |
-| Equifax subprime auto 7.1% (RED breach) | 🔴 | OTTO Feb 27 |
-| Jefferies sued + SEC probe (First Brands) | 🔴 | OTTO Feb 27 |
-| First Brands mediation halted — examiner likely moot | 🟠 | OTTO Feb 27 |
-| FDIC Q4: large banks worst CRE DQ (~5% PDNA) | 🟠 | Feb 24 |
-| Metropolitan Capital: CET1 3.0%, GAAP equity negative | 🟠 | Feb 24 |
-| Insurance Level 3 assets $685B hidden | 🟡 | Feb 24 |
+All inbox signals processed. See ML-REG-081 through ML-REG-095, VX-REG-17.01 through 17.04.
+
+| Signal | Disposition | ML Entry |
+|--------|-------------|----------|
+| BROCK: FSK div cut -31% | INTEGRATE + LOG | ML-REG-081 |
+| BROCK: Medallia 78¢ cross-holders | VECTOR RED + LOG | ML-REG-082, VX-REG-17.01 |
+| BROCK: Saba dedicated distress fund | LOG | ML-REG-083 |
+| BROCK: UBS 15% scenario / Blackstone AI deflection | LOG | ML-REG-084, VX-REG-17.02 |
+| BROCK: Insurer $2T concentration | VECTOR + LOG | ML-REG-085, VX-REG-17.03 |
+| BROCK: Fund finance bank exposure | INTEGRATE + LOG | ML-REG-086, VX-REG-17.04 |
+| BROCK: CLO warehouse risk | LOG | ML-REG-087 |
+| WAL/First Brands/Jefferies fraud | INTEGRATE + LOG | ML-REG-088 |
+| Metropolitan Capital GAAP equity negative | LOG | ML-REG-089 |
+| FDIC Q4 CRE PDNA by bank size | LOG | ML-REG-090 |
+| Apollo/MFS UK fraud | LOG | ML-REG-091 |
+| First Citizens/KEY M&A | LOG (bull case) | ML-REG-092 |
+| Regionals P/E discount 3 turns | LOG (bull case) | ML-REG-093 |
+| Chicago Fitch downgrade → OZK | INTEGRATE + LOG | ML-REG-094 |
+| Regional bloodbath Feb 23 | LOG | ML-REG-095 |
 
 ---
 
@@ -43,7 +53,7 @@ Eight independent channels terminate at regional banks. Banks with MULTIPLE chan
 | Office CMBS DQ | 12.34% (+103bps MoM) | 🔴 ATH, exceeds GFC |
 | CMBS Special Servicing | 17.11% | 🔴 |
 | Private Credit Default | 5.8% (Fitch, Jan 2026) | 🔴 Record |
-| Subprime Auto 60+ DQ | **7.1%** (Equifax Dec 2025) | 🔴 RED threshold breached |
+| Subprime Auto 60+ DQ | **7.1%** (Equifax Dec 2025) | 🔴 RED threshold breached (VX updated) |
 | FHLB Advances | ~$480B | 🟢 (stress = >$700B) |
 | BKLN | 52-week lows | 🔴 Institutional put buying |
 | Bank CRE DQ vs CMBS | 4.18% vs 12.34% = **8.16pp masking gap** | 🔴 |
@@ -66,6 +76,23 @@ Eight independent channels terminate at regional banks. Banks with MULTIPLE chan
 
 ---
 
+## PRIVATE CREDIT → BANK TRANSMISSION MAP (BROCK Signal Feb 27)
+
+| Path | Mechanism | Banks Exposed | Status |
+|------|-----------|--------------|--------|
+| Fund Finance | BDC credit facilities; if NAV overstated → collateral impaired | CFG ($10-11B), KeyBanc, Truist, Synovus | 🔴 ACTIVE |
+| Insurer Deposits | $2T insurer PC concentration; stress → deposit withdrawal / GIC non-renewal | Athene/Apollo-linked institutions | 🟠 WATCH |
+| CLO Warehouse | Private credit ≈ 30% overlap with CLO collateral; stress → spread widening | RF ($4.17B CLO primary), regional warehouses | 🟠 BUILDING |
+| Direct Co-Investment | Some mid-size banks hold PC directly (rare) | Undisclosed | 🟡 LOW |
+
+**BROCK's key insight:** AI disruption wave has NOT yet hit private credit marks. Current 78¢ on Medallia = pre-AI stress. Double trigger risk if AI starts marking portfolios.
+
+**Most exposed per BROCK path:**
+1. **CFG** — $10-11B fund finance; LP liquidity tightening → draw risk; PRIMARY exposure to private credit → bank path
+2. **KeyBanc** — BDC fund finance; absorbed into First Citizens, but legacy exposure
+3. **Truist** — Reported BDC exposure; large enough to absorb but watch utilization
+4. **RF** — $4.17B CLO; not fund finance directly, but CLO warehouse deterioration secondary
+
 ## SUB-AGENT DASHBOARD
 
 | Agent | Domain | Key Signal | Status |
@@ -77,13 +104,15 @@ Eight independent channels terminate at regional banks. Banks with MULTIPLE chan
 
 ---
 
-## KEY LEVELS & WATCHLIST (Feb 27)
+## KEY LEVELS & WATCHLIST (Feb 27 EOD)
 
 | Ticker | Current | Feb High | 2025 Low | From Peak |
 |--------|---------|----------|----------|-----------|
-| KRE | **$67.34** | $74.08 | $47.08 | **-9.1%** |
-| WAL | ~$84 | $97.23 | $57.08 | **-13.6%** |
+| KRE | **$67.67** (prev close $70.39, -3.85% today) | $74.08 | $47.08 | **-8.6%** |
+| WAL | ~$82-84 (down 4%+ on Jefferies/First Brands) | $97.23 | $57.08 | **-14%+** |
 | OZK | ~$48 | $51.94 | $35.71 | **-7.6%** |
+
+**Today's session:** KRE -3.85% on heavy volume. Private credit + fraud vectors firing simultaneously.
 
 **Quality rotation:** Steps 1-4 confirmed (IG>HY, better HY>worse HY, BKLN cracking, specific names blowing out). Step 5 (contagion) starting.
 
