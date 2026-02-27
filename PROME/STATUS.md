@@ -1,11 +1,11 @@
 # PROME STATUS.md
-**Updated:** 2026-02-25 23:10 UTC
+**Updated:** 2026-02-27 00:30 UTC
 
 ---
 
-## System Status: 🔴 CRITICAL — OZK Thesis COMPLETE (Grade A) | 10-K Verified | Trade Crowded (14-15% short)
+## System Status: 🔴 CRITICAL — Private Credit Recognition Wave Underway | BROCK Agent Live | KRE Roll Tomorrow
 
-**Today's work:** OZK 10-K deep dive with Will. Verified all key metrics. Found smoking guns: construction reserves cut 41%, Illinois 67% of NPLs, $19B unfunded > $14B liquidity. Insider selling confirmed (zero buys). Short interest 14-15% = crowded. CORRECTED: OZK earnings was Jan 20 (not Feb 27), next is April 16.
+**Today's work:** Processed 12 private credit signals (Medallia 78¢, FSK div cut, Weinstein, UBS 15%, insurers $2T, Chicago downgrade). Created BROCK as standalone agent — 3 spawns, full STATUS/ML/VX built, upstream signals sent to REGINALD + LIQUID. Formalized signal flow convention. Graded Will's performance. Tomorrow: KRE roll to June, VLY decision.
 
 ---
 
@@ -17,7 +17,8 @@
 | **CARL** | 🟠 ORANGE | LIHEAP risk deferred to Winter 26-27; Gas transmission marginal | Feb 18 |
 | **HENRY** | 🟠 ORANGE | Full cross-vector synthesis complete; Negative gamma regime | Feb 18 |
 | **SAM** | 🟠 ORANGE | Japan = slow-burn tailwind; RP-SAM-4 research complete | Feb 23 |
-| **REGINALD** | 🔴 CRITICAL | **OZK thesis A grade** — 10-K verified, insider selling, 14-15% short | Feb 25 |
+| **REGINALD** | 🔴 CRITICAL | OZK thesis A grade; BROCK upstream signal received (private credit → bank transmission) | Feb 27 |
+| **BROCK** | 🔴 RED→CRITICAL | **NEW AGENT** — Private credit cracking: Medallia 78¢, FSK div cut, Blue Owl gating, insurers $2T exposed | Feb 27 |
 | **LIQUID** | 🔴 CRITICAL | Baltic ice crisis; 140M barrel flush April-May; TNP/STNG trades | Feb 18 |
 | **MARCO** | 🔴 RED | FL Airport Cascade CONFIRMED (FLL/MIA negative, OIA domestic -0.36%) | Feb 24 |
 | **HAWK** | 🔴 RED | Iran buildup; Russian revenue -50% YoY CONFIRMED; CVX short thesis | Feb 18 |

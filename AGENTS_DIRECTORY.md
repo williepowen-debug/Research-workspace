@@ -1,6 +1,28 @@
 # AGENTS DIRECTORY
 
-*Quick reference for all research agents. Updated: 2026-02-13*
+*Quick reference for all research agents. Updated: 2026-02-26*
+
+---
+
+## SIGNAL FLOW CONVENTION
+
+**Sub-agents own the detail. Parents get distilled summaries.**
+
+When routing signals:
+1. **Raw signals** go to the most specific agent (e.g., BROCK for private credit, CREED for CRE)
+2. Sub-agents process, analyze, and produce a **distilled summary** of key findings
+3. **Summaries flow upward** to parent agents (BROCK → REGINALD, CREED → REGINALD)
+4. **Cross-agent summaries** flow laterally when transmission matters (BROCK → LIQUID for funding impact, REGINALD → HENRY for market structure)
+5. Parent/lateral agents should NOT receive raw signal dumps — only actionable synthesis
+
+```
+BROCK (private credit detail) → REGINALD (bank impact) 
+                               → LIQUID (funding transmission summary)
+CREED (CRE detail)            → REGINALD (bank impact)
+CORAL (FL condos)             → REGINALD (bank impact)
+```
+
+**Rule of thumb:** If an agent doesn't need the detail to do their job, send the headline + implication, not the full signal.
 
 ---
 
