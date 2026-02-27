@@ -595,6 +595,91 @@
         .market-value.warning { color: var(--orange); }
         .market-value.normal { color: var(--text-primary); }
         
+        /* Breach/warning card backgrounds */
+        .market-card.card-breach {
+            background: var(--red-bg);
+            border-color: var(--red);
+        }
+        .market-card.card-warning {
+            background: var(--orange-bg);
+            border-color: var(--orange);
+        }
+        .market-card.card-green {
+            background: var(--green-bg);
+            border-color: var(--green);
+        }
+        
+        /* Collapsible sections */
+        .section-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+            padding: 8px 0;
+            user-select: none;
+        }
+        .section-header:hover { opacity: 0.8; }
+        .section-header .chevron {
+            transition: transform 0.2s;
+            color: var(--text-muted);
+            font-size: 14px;
+        }
+        .agents-section.collapsed .market-grid,
+        .agents-section.collapsed .section-body {
+            display: none;
+        }
+        .agents-section.collapsed .chevron {
+            transform: rotate(-90deg);
+        }
+        
+        /* What Changed Today strip */
+        .changes-strip {
+            display: flex;
+            gap: 16px;
+            padding: 10px 16px;
+            background: var(--bg-tertiary);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            margin-bottom: 20px;
+            overflow-x: auto;
+            white-space: nowrap;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 13px;
+        }
+        .change-item {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .change-label { color: var(--text-muted); }
+        .change-up { color: var(--green); }
+        .change-down { color: var(--red); }
+        .change-flat { color: var(--text-secondary); }
+        
+        /* Position table (overview) */
+        .positions-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 13px;
+        }
+        .positions-table th {
+            text-align: left;
+            font-size: 10px;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            padding: 8px 12px;
+            border-bottom: 1px solid var(--border);
+        }
+        .positions-table td {
+            padding: 8px 12px;
+            border-bottom: 1px solid var(--border);
+            font-family: 'JetBrains Mono', monospace;
+        }
+        .positions-table tr:hover {
+            background: var(--bg-tertiary);
+        }
+        
         /* Predictions Summary */
         .predictions-row {
             display: flex;
@@ -1122,6 +1207,23 @@
                         <div style="font-size: 11px; color: var(--text-muted); margin-top: 6px;">Feb 10, 2026</div>
                     </div>
                 </div>
+            </div>
+            
+            <!-- 1.5 WHAT CHANGED TODAY -->
+            <div class="changes-strip" id="changes-strip">
+                <span class="change-label">Loading changes...</span>
+            </div>
+            
+            <!-- 1.6 POSITION P/L TABLE -->
+            <div style="background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 12px; padding: 16px; margin-bottom: 20px;">
+                <div style="font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; color: var(--text-muted); margin-bottom: 12px;">Positions P/L</div>
+                <table class="positions-table" id="positions-table">
+                    <thead>
+                        <tr><th>Position</th><th>Price</th><th>Day</th><th>Total P/L</th><th>Status</th></tr>
+                    </thead>
+                    <tbody id="positions-tbody">
+                    </tbody>
+                </table>
             </div>
             
             <!-- 2. CRITICAL METRICS STRIP -->
@@ -1681,7 +1783,7 @@
             <div class="agents-section" style="border-left: 3px solid var(--red); padding-left: 16px;">
                 <div class="section-title" style="display: flex; align-items: center; gap: 8px;">
                     <span class="agent-status red" style="width: 8px; height: 8px;"></span>
-                    LABOR — Employment
+                    <div class="section-header" onclick="this.closest('.agents-section').classList.toggle('collapsed')">LABOR — Employment <span class="chevron">▼</span></div>
                 </div>
                 <div class="market-grid">
                     <div class="market-card">
@@ -1741,7 +1843,7 @@
             <div class="agents-section" style="border-left: 3px solid var(--red); padding-left: 16px;">
                 <div class="section-title" style="display: flex; align-items: center; gap: 8px;">
                     <span class="agent-status red" style="width: 8px; height: 8px;"></span>
-                    CARL — Consumer Credit 🔴 RED
+                    <div class="section-header" onclick="this.closest('.agents-section').classList.toggle('collapsed')">CARL — Consumer Credit 🔴 RED <span class="chevron">▼</span></div>
                 </div>
                 <div class="market-grid">
                     <div class="market-card">
@@ -1801,7 +1903,7 @@
             <div class="agents-section" style="border-left: 3px solid var(--red); padding-left: 16px;">
                 <div class="section-title" style="display: flex; align-items: center; gap: 8px;">
                     <span class="agent-status red" style="width: 8px; height: 8px;"></span>
-                    SAM — Japan / Carry Trade
+                    <div class="section-header" onclick="this.closest('.agents-section').classList.toggle('collapsed')">SAM — Japan / Carry Trade <span class="chevron">▼</span></div>
                 </div>
                 <div class="market-grid">
                     <div class="market-card">
@@ -1856,7 +1958,7 @@
             <div class="agents-section" style="border-left: 3px solid var(--yellow); padding-left: 16px;">
                 <div class="section-title" style="display: flex; align-items: center; gap: 8px;">
                     <span class="agent-status yellow" style="width: 8px; height: 8px;"></span>
-                    HENRY — Market Structure
+                    <div class="section-header" onclick="this.closest('.agents-section').classList.toggle('collapsed')">HENRY — Market Structure <span class="chevron">▼</span></div>
                 </div>
                 <div class="market-grid">
                     <div class="market-card">
@@ -1896,7 +1998,7 @@
             <div class="agents-section" style="border-left: 3px solid var(--green); padding-left: 16px;">
                 <div class="section-title" style="display: flex; align-items: center; gap: 8px;">
                     <span class="agent-status green" style="width: 8px; height: 8px;"></span>
-                    LIQUID — Funding / Plumbing
+                    <div class="section-header" onclick="this.closest('.agents-section').classList.toggle('collapsed')">LIQUID — Funding / Plumbing <span class="chevron">▼</span></div>
                 </div>
                 <div class="market-grid">
                     <div class="market-card">
@@ -1951,7 +2053,7 @@
             <div class="agents-section" style="border-left: 3px solid var(--orange); padding-left: 16px;">
                 <div class="section-title" style="display: flex; align-items: center; gap: 8px;">
                     <span class="agent-status orange" style="width: 8px; height: 8px;"></span>
-                    MARCO — Migration / Border
+                    <div class="section-header" onclick="this.closest('.agents-section').classList.toggle('collapsed')">MARCO — Migration / Border <span class="chevron">▼</span></div>
                 </div>
                 <div class="market-grid">
                     <div class="market-card">
@@ -1991,7 +2093,7 @@
             <div class="agents-section" style="border-left: 3px solid var(--orange); padding-left: 16px;">
                 <div class="section-title" style="display: flex; align-items: center; gap: 8px;">
                     <span class="agent-status orange" style="width: 8px; height: 8px;"></span>
-                    REGINALD — Regional Banks
+                    <div class="section-header" onclick="this.closest('.agents-section').classList.toggle('collapsed')">REGINALD — Regional Banks <span class="chevron">▼</span></div>
                 </div>
                 <div class="market-grid">
                     <div class="market-card">
@@ -2091,7 +2193,7 @@
             <div class="agents-section" style="border-left: 3px solid var(--red); padding-left: 16px;">
                 <div class="section-title" style="display: flex; align-items: center; gap: 8px;">
                     <span class="agent-status red" style="width: 8px; height: 8px;"></span>
-                    Hidden CRE — Memo Item 3 Screen
+                    <div class="section-header" onclick="this.closest('.agents-section').classList.toggle('collapsed')">Hidden CRE — Memo Item 3 Screen <span class="chevron">▼</span></div>
                 </div>
                 <div class="market-grid">
                     <div class="market-card" style="border-color: var(--red);">
@@ -3336,6 +3438,36 @@
                 }
             }
             
+            // Color card backgrounds based on breach state
+            function colorCard(el, state) {
+                if (!el) return;
+                const card = el.closest('.market-card');
+                if (!card) return;
+                card.classList.remove('card-breach', 'card-warning', 'card-green');
+                if (state === 'breach') card.classList.add('card-breach');
+                else if (state === 'warning') card.classList.add('card-warning');
+                else if (state === 'green') card.classList.add('card-green');
+            }
+            
+            // Color LABOR cards
+            if (series.ICSA && !series.ICSA.error) {
+                const v = series.ICSA.value;
+                colorCard(document.getElementById('labor-claims'), v > 250000 ? 'breach' : v > 230000 ? 'warning' : 'green');
+            }
+            if (series.UNRATE && !series.UNRATE.error) {
+                colorCard(document.getElementById('labor-u3'), series.UNRATE.value > 5.0 ? 'breach' : series.UNRATE.value > 4.5 ? 'warning' : null);
+            }
+            
+            // Color HENRY cards
+            if (priceData && priceData.VIX && priceData.VIX.value) {
+                const v = priceData.VIX.value;
+                colorCard(document.getElementById('henry-vix'), v > 30 ? 'breach' : v > 20 ? 'warning' : 'green');
+            }
+            if (series.BAMLH0A0HYM2 && !series.BAMLH0A0HYM2.error) {
+                const v = series.BAMLH0A0HYM2.value;
+                colorCard(document.getElementById('henry-oas'), v > 4.0 ? 'breach' : v > 3.0 ? 'warning' : null);
+            }
+            
             // LABOR ratio (JOLTS/Unemployed) — compute if both available
             if (series.JTSJOL && !series.JTSJOL.error && series.UNRATE && !series.UNRATE.error) {
                 // Rough calc: JOLTS openings (thousands) / (UNRATE% * civilian labor force ~168M)
@@ -3595,6 +3727,107 @@
                 }
             }
         }
+        
+        // Positions data (from FORGE - updated manually or via future API)
+        const positions = [
+            { name: 'WAL $85P Jun', qty: 1, pnl: '+57.4%', status: 'green' },
+            { name: 'WAL $82.5P Jun', qty: 1, pnl: '+102.2%', status: 'green' },
+            { name: 'KRE $67P Jun', qty: 1, pnl: '+52.0%', status: 'green' },
+            { name: 'KRE $65P Jun', qty: 4, pnl: '+17.4%', status: 'green' },
+            { name: 'KRE $60P Jun', qty: 5, pnl: '+42-79%', status: 'green' },
+            { name: 'KRE $60P Sep', qty: 2, pnl: '+62.2%', status: 'green' },
+            { name: 'KRE $62P Mar', qty: 5, pnl: '-11.0%', status: 'red' },
+            { name: 'ZION $57.5P Jul', qty: 1, pnl: '+19.8%', status: 'green' },
+            { name: 'OZK $42.5P Aug', qty: 1, pnl: '-25.2%', status: 'red' },
+            { name: 'IWM $250P Jun', qty: 1, pnl: '+23.5%', status: 'green' },
+            { name: 'HYG $75P Jun', qty: 10, pnl: '+20.6%', status: 'green' },
+            { name: 'FLG $13P Jul', qty: 1, pnl: '+37.9%', status: 'green' },
+        ];
+        
+        function renderPositions() {
+            const tbody = document.getElementById('positions-tbody');
+            if (!tbody) return;
+            tbody.innerHTML = positions.map(p => {
+                const color = p.status === 'green' ? 'var(--green)' : 'var(--red)';
+                const icon = p.status === 'green' ? '▲' : '▼';
+                return `<tr>
+                    <td style="color: var(--text-primary); font-weight: 500;">${p.name} <span style="color: var(--text-muted);">×${p.qty}</span></td>
+                    <td id="pos-price-${p.name.split(' ')[0].toLowerCase()}" style="color: var(--text-secondary);">—</td>
+                    <td style="color: var(--text-muted);">—</td>
+                    <td style="color: ${color}; font-weight: 600;">${p.pnl}</td>
+                    <td style="color: ${color};">${icon}</td>
+                </tr>`;
+            }).join('');
+        }
+        renderPositions();
+        
+        // "What Changed Today" strip - updates from price/fred data
+        let prevPrices = {};
+        let prevFred = {};
+        
+        function updateChangesStrip() {
+            const strip = document.getElementById('changes-strip');
+            if (!strip) return;
+            
+            const changes = [];
+            
+            // Price changes
+            if (latestPriceData) {
+                const items = [
+                    { key: 'KRE', label: 'KRE', fmt: v => '$' + v.toFixed(2) },
+                    { key: 'WAL', label: 'WAL', fmt: v => '$' + v.toFixed(2) },
+                    { key: 'VIX', label: 'VIX', fmt: v => v.toFixed(2) },
+                    { key: 'HYG', label: 'HYG', fmt: v => '$' + v.toFixed(2) },
+                    { key: 'IWM', label: 'IWM', fmt: v => '$' + v.toFixed(2) },
+                    { key: 'OZK', label: 'OZK', fmt: v => '$' + v.toFixed(2) },
+                ];
+                for (const item of items) {
+                    const d = latestPriceData[item.key];
+                    if (d && d.value) {
+                        const prev = prevPrices[item.key];
+                        if (prev) {
+                            const diff = d.value - prev;
+                            if (Math.abs(diff) > 0.01) {
+                                const cls = diff > 0 ? 'change-up' : 'change-down';
+                                const arrow = diff > 0 ? '↑' : '↓';
+                                const pct = ((diff / prev) * 100).toFixed(1);
+                                changes.push(`<span class="change-item"><span class="change-label">${item.label}</span> <span class="${cls}">${arrow}${Math.abs(pct)}%</span></span>`);
+                            }
+                        }
+                        prevPrices[item.key] = d.value;
+                    }
+                }
+            }
+            
+            // FRED changes
+            if (latestFredData && latestFredData.series) {
+                const items = [
+                    { key: 'ICSA', label: 'Claims', fmt: v => Math.round(v/1000) + 'K' },
+                    { key: 'BAMLH0A0HYM2', label: 'HY OAS', fmt: v => v.toFixed(2) + '%' },
+                    { key: 'SOFR', label: 'SOFR', fmt: v => v.toFixed(2) + '%' },
+                ];
+                for (const item of items) {
+                    const s = latestFredData.series[item.key];
+                    if (s && !s.error && s.change !== null && s.change !== undefined) {
+                        const cls = s.change > 0 ? 'change-up' : s.change < 0 ? 'change-down' : 'change-flat';
+                        const arrow = s.change > 0 ? '↑' : s.change < 0 ? '↓' : '→';
+                        changes.push(`<span class="change-item"><span class="change-label">${item.label}</span> <span class="${cls}">${arrow}${item.fmt(s.value)}</span></span>`);
+                    }
+                }
+            }
+            
+            if (changes.length > 0) {
+                strip.innerHTML = changes.join('<span style="color: var(--border);">|</span>');
+            } else {
+                strip.innerHTML = '<span class="change-label">Waiting for data...</span>';
+            }
+        }
+        
+        // Call changes strip after each data update
+        const _wrapFred2 = updateFred;
+        updateFred = function(data) { _wrapFred2(data); updateChangesStrip(); };
+        const _wrapPrices2 = updatePrices;
+        updatePrices = function(data) { _wrapPrices2(data); updateChangesStrip(); };
         
         // Init
         fetchAgentStatuses();  // Fetch dynamic status first
