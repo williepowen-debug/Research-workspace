@@ -3095,8 +3095,10 @@
                 document.getElementById('stat-current').textContent = '$' + kre.toFixed(2);
                 const chainKre = document.getElementById('chain-kre-price');
                 const dataKre = document.getElementById('data-kre-price');
+                const stripKre = document.getElementById('strip-kre');
                 if (chainKre) chainKre.textContent = '$' + kre.toFixed(2);
                 if (dataKre) dataKre.textContent = '$' + kre.toFixed(2);
+                if (stripKre) { stripKre.textContent = '$' + kre.toFixed(2); stripKre.style.color = kre < 60 ? 'var(--green)' : kre < 65 ? 'var(--yellow)' : 'var(--text-primary)'; }
                 
                 const pnl = (ENTRY_PRICE - kre).toFixed(2);
                 const pnlEl = document.getElementById('header-pnl');
@@ -3126,6 +3128,13 @@
                 document.getElementById('price-vix').textContent = vix.toFixed(2);
                 document.getElementById('header-vix').textContent = vix.toFixed(2);
                 document.getElementById('price-vix').className = 'market-value ' + (vix > 25 ? 'breach' : 'normal');
+                // Strip card
+                const sv = document.getElementById('strip-vix');
+                const sc = document.getElementById('strip-vix-card');
+                const sl = document.getElementById('strip-vix-label');
+                if (sv) { sv.textContent = vix.toFixed(2); sv.style.color = vix > 30 ? 'var(--red)' : vix > 20 ? 'var(--orange)' : 'var(--green)'; }
+                if (sc) { sc.style.background = vix > 30 ? 'var(--red-bg)' : vix > 20 ? 'var(--orange-bg)' : 'var(--green-bg)'; sc.style.borderColor = vix > 30 ? 'var(--red)' : vix > 20 ? 'var(--orange)' : 'var(--green)'; }
+                if (sl) sl.textContent = vix > 30 ? '🔴 Fear' : vix > 20 ? '🟠 Elevated' : '🟢 Calm';
             }
             
             // WAL
@@ -3161,6 +3170,8 @@
                 const usdjpy = data.USDJPY.value;
                 document.getElementById('price-usdjpy').textContent = '¥' + usdjpy.toFixed(2);
                 document.getElementById('price-usdjpy').className = 'market-value ' + (usdjpy > 160 ? 'breach' : usdjpy > 158 ? 'warning' : 'normal');
+                const su = document.getElementById('strip-usdjpy');
+                if (su) su.textContent = usdjpy.toFixed(2);
             }
             
             // Others
@@ -3420,6 +3431,12 @@
                 if (metaEl && info.date) {
                     metaEl.textContent = info.date + changeStr;
                 }
+                
+                // Direct strip updates
+                if (id === 'ICSA' && !info.error) {
+                    const sc = document.getElementById('strip-claims');
+                    if (sc) { sc.textContent = Math.round(info.value / 1000) + 'K'; sc.style.color = info.value > 250000 ? 'var(--red)' : info.value > 230000 ? 'var(--yellow)' : 'var(--green)'; }
+                }
             }
         }
         
@@ -3602,6 +3619,7 @@
             _origUpdateFred(data);
             latestFredData = data;
             updateDomainCards(latestFredData, latestPriceData);
+            if (typeof updateChangesStrip === 'function') updateChangesStrip();
         };
         
         const _origUpdatePrices = updatePrices;
@@ -3609,6 +3627,7 @@
             _origUpdatePrices(data);
             latestPriceData = data;
             updateDomainCards(latestFredData, latestPriceData);
+            if (typeof updateChangesStrip === 'function') updateChangesStrip();
         };
         
         // Calculate days to expiry for puts
@@ -3924,10 +3943,7 @@
         }
         
         // Call changes strip after each data update
-        const _wrapFred2 = updateFred;
-        updateFred = function(data) { _wrapFred2(data); updateChangesStrip(); };
-        const _wrapPrices2 = updatePrices;
-        updatePrices = function(data) { _wrapPrices2(data); updateChangesStrip(); };
+        // Changes strip is called from within updateDomainCards already via the first wrap
         
         // Init
         fetchAgentStatuses();  // Fetch dynamic status first
