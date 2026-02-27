@@ -1256,30 +1256,90 @@
                 </div>
                 <div style="background: var(--yellow-bg); border: 1px solid var(--yellow); border-radius: 8px; padding: 14px; text-align: center;">
                     <div style="font-size: 11px; color: var(--text-muted); margin-bottom: 4px;">Initial Claims</div>
-                    <div style="font-size: 24px; font-weight: 700; color: var(--yellow);">231K</div>
+                    <div style="font-size: 24px; font-weight: 700;" id="strip-claims">—</div>
                     <div style="font-size: 10px; color: var(--yellow);">Watch &gt;250K</div>
                 </div>
-                <div style="background: var(--orange-bg); border: 1px solid var(--orange); border-radius: 8px; padding: 14px; text-align: center;">
+                <div id="strip-usdjpy-card" style="background: var(--orange-bg); border: 1px solid var(--orange); border-radius: 8px; padding: 14px; text-align: center;">
                     <div style="font-size: 11px; color: var(--text-muted); margin-bottom: 4px;">USD/JPY</div>
-                    <div style="font-size: 24px; font-weight: 700; color: var(--orange);">156.25</div>
+                    <div style="font-size: 24px; font-weight: 700; color: var(--orange);" id="strip-usdjpy">—</div>
                     <div style="font-size: 10px; color: var(--orange);">🔴 above 160</div>
                 </div>
-                <div style="background: var(--green-bg); border: 1px solid var(--green); border-radius: 8px; padding: 14px; text-align: center;">
+                <div id="strip-vix-card" style="background: var(--bg-tertiary); border: 1px solid var(--border); border-radius: 8px; padding: 14px; text-align: center;">
                     <div style="font-size: 11px; color: var(--text-muted); margin-bottom: 4px;">VIX</div>
-                    <div style="font-size: 24px; font-weight: 700; color: var(--green);">16.54</div>
-                    <div style="font-size: 10px; color: var(--text-muted);">Complacent</div>
+                    <div style="font-size: 24px; font-weight: 700;" id="strip-vix">—</div>
+                    <div style="font-size: 10px; color: var(--text-muted);" id="strip-vix-label">Loading...</div>
                 </div>
-                <div style="background: var(--bg-tertiary); border: 1px solid var(--border); border-radius: 8px; padding: 14px; text-align: center;">
+                <div id="strip-kre-card" style="background: var(--bg-tertiary); border: 1px solid var(--border); border-radius: 8px; padding: 14px; text-align: center;">
                     <div style="font-size: 11px; color: var(--text-muted); margin-bottom: 4px;">KRE</div>
-                    <div style="font-size: 24px; font-weight: 700; color: var(--text-primary);">$73.59</div>
-                    <div style="font-size: 10px; color: var(--text-muted);">Target: $65</div>
+                    <div style="font-size: 24px; font-weight: 700;" id="strip-kre">—</div>
+                    <div style="font-size: 10px; color: var(--text-muted);">Target: $60</div>
                 </div>
             </div>
             
-            <!-- 3. POSITIONS GRID (4 Active) -->
+            <!-- 3. TRANSMISSION + SCORECARD (side by side) -->
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 20px;">
+            
+            <!-- LEFT: Transmission Chain -->
+            <div style="background: linear-gradient(135deg, var(--bg-secondary) 0%, rgba(239,68,68,0.05) 100%); border: 1px solid #3b1c1c; border-radius: 12px; padding: 16px;">
+                <div style="font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; color: #f87171; margin-bottom: 12px;">⚡ Transmission Chain</div>
+                <div style="display: flex; align-items: center; justify-content: center; gap: 8px; flex-wrap: wrap;">
+                    <div style="text-align: center; padding: 10px 14px; background: var(--red-bg); border: 1px solid var(--red); border-radius: 8px;">
+                        <div style="font-size: 16px;">🔴</div>
+                        <div style="font-size: 11px; font-weight: 600;">LABOR</div>
+                    </div>
+                    <span style="color: var(--red);">→</span>
+                    <div style="text-align: center; padding: 10px 14px; background: var(--red-bg); border: 1px solid var(--red); border-radius: 8px;">
+                        <div style="font-size: 16px;">🔴</div>
+                        <div style="font-size: 11px; font-weight: 600;">CARL</div>
+                    </div>
+                    <span style="color: var(--red);">→</span>
+                    <div style="text-align: center; padding: 10px 14px; background: var(--red-bg); border: 1px solid var(--red); border-radius: 8px;">
+                        <div style="font-size: 16px;">🔴</div>
+                        <div style="font-size: 11px; font-weight: 600;">REGINALD</div>
+                    </div>
+                    <span style="color: var(--text-muted);">→</span>
+                    <div style="text-align: center; padding: 10px 14px; background: var(--bg-tertiary); border: 1px solid var(--border); border-radius: 8px;">
+                        <div style="font-size: 14px; font-weight: 700;" id="chain-kre-inline">💰</div>
+                        <div style="font-size: 11px; font-weight: 600;">KRE</div>
+                    </div>
+                </div>
+                <div style="text-align: center; margin-top: 10px; font-size: 11px; color: var(--text-muted);">
+                    Trigger: Claims &gt;300K or U-3 &gt;5.0% → all RED → repricing
+                </div>
+            </div>
+            
+            <!-- RIGHT: Scorecard -->
+            <div style="background: linear-gradient(135deg, var(--bg-secondary) 0%, rgba(234,179,8,0.05) 100%); border: 1px solid #3d3414; border-radius: 12px; padding: 16px;">
+                <div style="font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; color: #facc15; margin-bottom: 12px;">🏆 Prediction Scorecard</div>
+                <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; text-align: center;">
+                    <div>
+                        <div style="font-size: 28px; font-weight: 700; color: var(--green);" id="main-correct-2">12.5</div>
+                        <div style="font-size: 10px; color: var(--text-muted);">Correct</div>
+                    </div>
+                    <div>
+                        <div style="font-size: 28px; font-weight: 700; color: var(--red);" id="main-wrong-2">10</div>
+                        <div style="font-size: 10px; color: var(--text-muted);">Wrong</div>
+                    </div>
+                    <div>
+                        <div style="font-size: 28px; font-weight: 700; color: var(--accent);" id="main-accuracy-2">55%</div>
+                        <div style="font-size: 10px; color: var(--text-muted);">Overall</div>
+                    </div>
+                    <div>
+                        <div style="font-size: 28px; font-weight: 700; color: var(--green);">79%</div>
+                        <div style="font-size: 10px; color: var(--text-muted);">Thesis</div>
+                    </div>
+                </div>
+                <div style="margin-top: 10px; font-size: 11px; color: var(--text-muted); text-align: center;">
+                    High conf (>70%): 88% hit rate · Calibration: excellent
+                </div>
+            </div>
+            
+            </div>
+            
+            <!-- OLD POSITIONS GRID - NOW COMPACT -->
             <div style="margin-bottom: 20px; background: linear-gradient(135deg, var(--bg-secondary) 0%, rgba(34,197,94,0.03) 100%); border: 1px solid #1a3a2a; border-radius: 12px; padding: 16px;">
                 <div style="font-size: 12px; color: #4ade80; margin-bottom: 12px; display: flex; justify-content: space-between; text-transform: uppercase; letter-spacing: 0.5px;">
-                    <span>📊 Active Positions</span>
+                    <span>📊 Position Details</span>
                     <span style="color: var(--text-muted);">Total Risk: ~$5,000</span>
                 </div>
                 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px;">
@@ -1371,64 +1431,7 @@
                 </div>
             </div>
             
-            <!-- Transmission Chain (updated CARL to RED) -->
-            <div class="chain-card">
-                <div class="chain-title">Transmission Chain</div>
-                <div class="chain">
-                    <div class="chain-node active-stress" onclick="showAgent('LABOR', 'AGENTS/LABOR/STATUS.md')" style="border-color: var(--red); background: var(--red-bg);">
-                        <div class="chain-node-status">🔴</div>
-                        <div class="chain-node-name">LABOR</div>
-                        <div class="chain-node-label">Employment</div>
-                    </div>
-                    <div class="chain-arrow" style="color: var(--red);">→</div>
-                    <div class="chain-node active-stress" onclick="showAgent('CARL', 'AGENTS/CARL/STATUS.md')" style="border-color: var(--red); background: var(--red-bg);">
-                        <div class="chain-node-status">🔴</div>
-                        <div class="chain-node-name">CARL</div>
-                        <div class="chain-node-label">Consumer</div>
-                    </div>
-                    <div class="chain-arrow">→</div>
-                    <div class="chain-node" onclick="showAgent('REGINALD', 'AGENTS/REGINALD/STATUS.md')">
-                        <div class="chain-node-status">🟠</div>
-                        <div class="chain-node-name">REGINALD</div>
-                        <div class="chain-node-label">Banks</div>
-                    </div>
-                    <div class="chain-arrow">→</div>
-                    <div class="chain-node">
-                        <div class="chain-node-status">💰</div>
-                        <div class="chain-node-name">KRE</div>
-                        <div class="chain-node-label" id="chain-kre-price">—</div>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- 4. UPDATED PREDICTIONS SCORECARD -->
-            <div class="agents-section" style="background: linear-gradient(135deg, var(--bg-secondary) 0%, rgba(234,179,8,0.05) 100%); border: 1px solid #3d3414; border-radius: 12px; padding: 20px; margin-top: 20px;">
-                <div style="font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; color: #facc15; margin-bottom: 16px;">🏆 Prediction Scorecard</div>
-                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 16px; text-align: center;">
-                    <div>
-                        <div style="font-size: 32px; font-weight: 700; color: var(--green);" id="main-correct">12.5</div>
-                        <div style="font-size: 12px; color: var(--text-muted);">Correct</div>
-                    </div>
-                    <div>
-                        <div style="font-size: 32px; font-weight: 700; color: var(--red);" id="main-wrong">10</div>
-                        <div style="font-size: 12px; color: var(--text-muted);">Wrong</div>
-                    </div>
-                    <div>
-                        <div style="font-size: 32px; font-weight: 700; color: var(--accent);" id="main-accuracy">55%</div>
-                        <div style="font-size: 12px; color: var(--text-muted);">Accuracy</div>
-                    </div>
-                    <div>
-                        <div style="font-size: 32px; font-weight: 700; color: var(--text-secondary);">40+</div>
-                        <div style="font-size: 12px; color: var(--text-muted);">Active</div>
-                    </div>
-                </div>
-                <div style="margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--border);">
-                    <div style="font-size: 12px; color: var(--text-muted); margin-bottom: 8px;">Recently Resolved</div>
-                    <div style="display: flex; flex-direction: column; gap: 6px; font-size: 13px;" id="main-resolved">
-                        <div style="color: var(--text-muted);">Loading...</div>
-                    </div>
-                </div>
-            </div>
+            <!-- Old transmission chain + scorecard removed — now in side-by-side layout above -->
             
             <!-- 5. IMMINENT PREDICTIONS -->
             <div class="agents-section" style="background: linear-gradient(135deg, var(--bg-secondary) 0%, rgba(249,115,22,0.1) 100%); border: 1px solid var(--orange); border-radius: 12px; padding: 20px; margin-top: 20px;">
@@ -3459,6 +3462,47 @@
                 }
             }
             
+            // Update critical metrics strip
+            if (priceData) {
+                // VIX strip
+                if (priceData.VIX && priceData.VIX.value) {
+                    const v = priceData.VIX.value;
+                    const el = document.getElementById('strip-vix');
+                    const card = document.getElementById('strip-vix-card');
+                    const label = document.getElementById('strip-vix-label');
+                    if (el) el.textContent = v.toFixed(2);
+                    if (el) el.style.color = v > 30 ? 'var(--red)' : v > 20 ? 'var(--orange)' : 'var(--green)';
+                    if (card) {
+                        card.style.background = v > 30 ? 'var(--red-bg)' : v > 20 ? 'var(--orange-bg)' : 'var(--green-bg)';
+                        card.style.borderColor = v > 30 ? 'var(--red)' : v > 20 ? 'var(--orange)' : 'var(--green)';
+                    }
+                    if (label) label.textContent = v > 30 ? '🔴 Fear' : v > 20 ? '🟠 Elevated' : '🟢 Calm';
+                }
+                // KRE strip
+                if (priceData.KRE && priceData.KRE.value) {
+                    const v = priceData.KRE.value;
+                    const el = document.getElementById('strip-kre');
+                    const card = document.getElementById('strip-kre-card');
+                    if (el) el.textContent = '$' + v.toFixed(2);
+                    if (el) el.style.color = v < 60 ? 'var(--green)' : v < 65 ? 'var(--yellow)' : 'var(--text-primary)';
+                    if (card && v < 65) { card.style.background = 'var(--green-bg)'; card.style.borderColor = 'var(--green)'; }
+                }
+                // USDJPY strip
+                if (priceData.USDJPY && priceData.USDJPY.value) {
+                    const el = document.getElementById('strip-usdjpy');
+                    if (el) el.textContent = priceData.USDJPY.value.toFixed(2);
+                }
+            }
+            // Claims strip
+            if (series.ICSA && !series.ICSA.error) {
+                const v = series.ICSA.value;
+                const el = document.getElementById('strip-claims');
+                if (el) {
+                    el.textContent = Math.round(v / 1000) + 'K';
+                    el.style.color = v > 250000 ? 'var(--red)' : v > 230000 ? 'var(--yellow)' : 'var(--green)';
+                }
+            }
+            
             // Color card backgrounds based on breach state
             function colorCard(el, state) {
                 if (!el) return;
@@ -3618,27 +3662,14 @@
             if (wrongEl) wrongEl.textContent = Math.floor(cal.wrong);
             
             // Sync main dashboard scorecard
-            const mainCorrect = document.getElementById('main-correct');
-            const mainWrong = document.getElementById('main-wrong');
-            const mainAccuracy = document.getElementById('main-accuracy');
+            const mainCorrect = document.getElementById('main-correct-2');
+            const mainWrong = document.getElementById('main-wrong-2');
+            const mainAccuracy = document.getElementById('main-accuracy-2');
             if (mainCorrect) mainCorrect.textContent = cal.correct;
             if (mainWrong) mainWrong.textContent = Math.floor(cal.wrong);
             if (mainAccuracy) mainAccuracy.textContent = Math.round(cal.accuracy) + '%';
             
-            // Render recently resolved on main dashboard (last 8)
-            const mainResolved = document.getElementById('main-resolved');
-            if (mainResolved && data.resolved) {
-                const recent = data.resolved.slice(0, 8);
-                mainResolved.innerHTML = recent.map(p => {
-                    const isCorrect = p.result.includes('✅');
-                    const isWrong = p.result.includes('❌');
-                    const icon = isCorrect ? '<span style="color: var(--green);">✅</span>' : 
-                                 isWrong ? '<span style="color: var(--red);">❌</span>' : 
-                                 '<span style="color: var(--yellow);">⚠️</span>';
-                    const color = isCorrect ? 'var(--green)' : isWrong ? 'var(--red)' : 'var(--yellow)';
-                    return `<div>${icon} <strong>${p.id}</strong>: ${p.prediction} — <span style="color: ${color};">${p.notes || p.result}</span></div>`;
-                }).join('');
-            }
+            // (Recently resolved list removed — scorecard is now compact)
             
             // Set accuracy color
             if (accEl) {
