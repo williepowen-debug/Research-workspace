@@ -1301,13 +1301,8 @@
                 </div>
                 <div style="margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--border);">
                     <div style="font-size: 12px; color: var(--text-muted); margin-bottom: 8px;">Recently Resolved</div>
-                    <div style="display: flex; flex-direction: column; gap: 6px; font-size: 13px;">
-                        <div><span style="color: var(--green);">✅</span> OTTO #4: Bank losses &gt;$1B — <span style="color: var(--green);">$1.8B</span></div>
-                        <div><span style="color: var(--green);">✅</span> CARL #1: CC 90+ exceeded 2019 peak — <span style="color: var(--green);">12.70%</span></div>
-                        <div><span style="color: var(--green);">✅</span> CARL #3: FL foreclosures +100% YoY — <span style="color: var(--green);">+190%</span></div>
-                        <div><span style="color: var(--green);">✅</span> SAM #1/#2: JGB 3.64x + USDJPY &lt;160 ✅</div>
-                        <div><span style="color: var(--yellow);">⚠️</span> LABOR #4: KFRC — beat but confirms stagnation</div>
-                        <div><span style="color: var(--red);">❌</span> SAM #3: Takaichi &lt;260 seats — <span style="color: var(--red);">316</span></div>
+                    <div style="display: flex; flex-direction: column; gap: 6px; font-size: 13px;" id="main-resolved">
+                        <div style="color: var(--text-muted);">Loading...</div>
                     </div>
                 </div>
             </div>
@@ -3359,6 +3354,21 @@
             if (mainCorrect) mainCorrect.textContent = cal.correct;
             if (mainWrong) mainWrong.textContent = Math.floor(cal.wrong);
             if (mainAccuracy) mainAccuracy.textContent = Math.round(cal.accuracy) + '%';
+            
+            // Render recently resolved on main dashboard (last 8)
+            const mainResolved = document.getElementById('main-resolved');
+            if (mainResolved && data.resolved) {
+                const recent = data.resolved.slice(0, 8);
+                mainResolved.innerHTML = recent.map(p => {
+                    const isCorrect = p.result.includes('✅');
+                    const isWrong = p.result.includes('❌');
+                    const icon = isCorrect ? '<span style="color: var(--green);">✅</span>' : 
+                                 isWrong ? '<span style="color: var(--red);">❌</span>' : 
+                                 '<span style="color: var(--yellow);">⚠️</span>';
+                    const color = isCorrect ? 'var(--green)' : isWrong ? 'var(--red)' : 'var(--yellow)';
+                    return `<div>${icon} <strong>${p.id}</strong>: ${p.prediction} — <span style="color: ${color};">${p.notes || p.result}</span></div>`;
+                }).join('');
+            }
             
             // Set accuracy color
             if (accEl) {
