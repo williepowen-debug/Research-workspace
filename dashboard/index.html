@@ -1228,24 +1228,21 @@
                             <div><span style="color: var(--text-muted);">Thesis:</span> FL bank</div>
                         </div>
                     </div>
-                    <!-- CVNA -->
-                    <div class="position-card" style="margin: 0; border-color: var(--red);">
+                    <!-- WAL -->
+                    <div class="position-card" style="margin: 0; border-color: var(--green);">
                         <div style="display: flex; justify-content: space-between; align-items: flex-start;">
                             <div>
-                                <div class="position-ticker">CVNA <span style="font-size: 10px; color: var(--red);">🎯 EARNINGS</span></div>
-                                <div style="font-size: 11px; color: var(--text-muted);">1× $310P/$290P Feb 27</div>
+                                <div class="position-ticker">WAL <span style="font-size: 10px; color: var(--green);">🎯 PRIMARY</span></div>
+                                <div style="font-size: 11px; color: var(--text-muted);">1× $82.5P Jun 2026</div>
                             </div>
                             <div style="text-align: right;">
-                                <div style="font-size: 11px; color: var(--text-muted);">Risk</div>
-                                <div style="font-size: 14px; font-weight: 600;">$484</div>
+                                <div style="font-size: 11px; color: var(--text-muted);">Price</div>
+                                <div style="font-size: 14px; font-weight: 600;" id="price-wal-card">—</div>
                             </div>
                         </div>
                         <div style="margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--border); display: flex; justify-content: space-between;">
-                            <div><span style="color: var(--text-muted);">BE:</span> $305.16</div>
-                            <div><span style="color: var(--text-muted);">Max:</span> <span style="color: var(--green);">$1,516</span></div>
-                        </div>
-                        <div style="margin-top: 8px; font-size: 10px; color: var(--yellow);">
-                            📅 Feb 18 earnings | Gotham fraud thesis | GT audit risk
+                            <div><span style="color: var(--text-muted);">Entry:</span> $3.91</div>
+                            <div><span style="color: var(--text-muted);">Thesis:</span> Hidden CRE</div>
                         </div>
                     </div>
                 </div>
@@ -1276,7 +1273,7 @@
                     <div class="chain-node">
                         <div class="chain-node-status">💰</div>
                         <div class="chain-node-name">KRE</div>
-                        <div class="chain-node-label">$73.59</div>
+                        <div class="chain-node-label" id="chain-kre-price">—</div>
                     </div>
                 </div>
             </div>
@@ -1286,7 +1283,7 @@
                 <div class="section-title" style="margin-bottom: 16px;">Prediction Scorecard</div>
                 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 16px; text-align: center;">
                     <div>
-                        <div style="font-size: 32px; font-weight: 700; color: var(--green);">4.5</div>
+                        <div style="font-size: 32px; font-weight: 700; color: var(--green);">5.5</div>
                         <div style="font-size: 12px; color: var(--text-muted);">Correct</div>
                     </div>
                     <div>
@@ -1294,7 +1291,7 @@
                         <div style="font-size: 12px; color: var(--text-muted);">Wrong</div>
                     </div>
                     <div>
-                        <div style="font-size: 32px; font-weight: 700; color: var(--accent);">75%</div>
+                        <div style="font-size: 32px; font-weight: 700; color: var(--accent);">79%</div>
                         <div style="font-size: 12px; color: var(--text-muted);">Accuracy</div>
                     </div>
                     <div>
@@ -1305,10 +1302,12 @@
                 <div style="margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--border);">
                     <div style="font-size: 12px; color: var(--text-muted); margin-bottom: 8px;">Recently Resolved</div>
                     <div style="display: flex; flex-direction: column; gap: 6px; font-size: 13px;">
+                        <div><span style="color: var(--green);">✅</span> OTTO #4: Bank losses &gt;$1B — <span style="color: var(--green);">$1.8B</span></div>
                         <div><span style="color: var(--green);">✅</span> CARL #1: CC 90+ exceeded 2019 peak — <span style="color: var(--green);">12.70%</span></div>
                         <div><span style="color: var(--green);">✅</span> CARL #3: FL foreclosures +100% YoY — <span style="color: var(--green);">+190%</span></div>
-                        <div><span style="color: var(--green);">✅</span> SAM #1: 30Y JGB auction BTC &gt;2.10x — <span style="color: var(--green);">3.64x</span></div>
-                        <div><span style="color: var(--red);">❌</span> SAM #3: Takaichi &lt;260 seats — <span style="color: var(--red);">316 (wrong)</span></div>
+                        <div><span style="color: var(--green);">✅</span> SAM #1/#2: JGB 3.64x + USDJPY &lt;160 ✅</div>
+                        <div><span style="color: var(--yellow);">⚠️</span> LABOR #4: KFRC — beat but confirms stagnation</div>
+                        <div><span style="color: var(--red);">❌</span> SAM #3: Takaichi &lt;260 seats — <span style="color: var(--red);">316</span></div>
                     </div>
                 </div>
             </div>
@@ -1356,11 +1355,11 @@
                     <div style="display: grid; grid-template-columns: 60px 1fr 100px 80px; gap: 12px; padding: 12px; background: var(--bg-primary); border-radius: 8px; align-items: center;">
                         <div style="font-weight: 600; color: var(--orange);">SAM-7</div>
                         <div>
-                            <div style="font-weight: 500;">Strong Shunto (&gt;3.5%) → April BOJ hike</div>
-                            <div style="font-size: 11px; color: var(--text-muted);">Shunto deadline: Feb 19 → Mid-March tally</div>
+                            <div style="font-weight: 500;">Strong Shunto → April BOJ hike</div>
+                            <div style="font-size: 11px; color: var(--text-muted);">Electronics ¥18K ✅ | Mid-March tally pending</div>
                         </div>
                         <div style="text-align: center;"><span style="background: var(--orange-bg); color: var(--orange); padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600;">Apr 2026</span></div>
-                        <div style="text-align: center; font-family: 'JetBrains Mono', monospace; font-weight: 600; color: var(--yellow);">48%</div>
+                        <div style="text-align: center; font-family: 'JetBrains Mono', monospace; font-weight: 600; color: var(--yellow);">55%</div>
                     </div>
                 </div>
                 <div style="margin-top: 12px; font-size: 11px; color: var(--text-muted); text-align: right;">
@@ -1548,9 +1547,9 @@
                         <div class="status-item"><div class="status-dot red"></div><span><strong>LIQUID</strong> 🔴</span></div>
                         <div class="status-item"><div class="status-dot red"></div><span><strong>ZHAO</strong> 🔴</span></div>
                         <div class="status-item"><div class="status-dot orange"></div><span><strong>CARL</strong> 🟠</span></div>
-                        <div class="status-item"><div class="status-dot orange"></div><span><strong>REGINALD</strong> 🟠</span></div>
-                        <div class="status-item"><div class="status-dot yellow"></div><span><strong>HENRY</strong> 🟡</span></div>
-                        <div class="status-item"><div class="status-dot green"></div><span><strong>HANS</strong> ✅</span></div>
+                        <div class="status-item"><div class="status-dot red"></div><span><strong>REGINALD</strong> 🔴</span></div>
+                        <div class="status-item"><div class="status-dot red"></div><span><strong>HENRY</strong> 🔴</span></div>
+                        <div class="status-item"><div class="status-dot red"></div><span><strong>BROCK</strong> 🔴</span></div>
                     </div>
                     
                     <div id="network-graph"></div>
@@ -1597,12 +1596,12 @@
                 <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px;">
                     <div>
                         <div style="font-size: 13px; color: var(--text-muted); margin-bottom: 4px;">📊 PREDICTION ACCURACY</div>
-                        <div style="font-size: 32px; font-weight: 700;" id="pred-accuracy">75%</div>
-                        <div style="font-size: 12px; color: var(--text-muted);" id="pred-stats">4.5/6 resolved</div>
+                        <div style="font-size: 32px; font-weight: 700;" id="pred-accuracy">57%</div>
+                        <div style="font-size: 12px; color: var(--text-muted);" id="pred-stats">12.5/22 resolved</div>
                     </div>
                     <div style="display: flex; gap: 24px;">
                         <div style="text-align: center;">
-                            <div style="font-size: 24px; font-weight: 600; color: var(--green);" id="pred-correct">4</div>
+                            <div style="font-size: 24px; font-weight: 600; color: var(--green);" id="pred-correct">12</div>
                             <div style="font-size: 11px; color: var(--text-muted);">Correct</div>
                         </div>
                         <div style="text-align: center;">
@@ -1610,7 +1609,7 @@
                             <div style="font-size: 11px; color: var(--text-muted);">Partial</div>
                         </div>
                         <div style="text-align: center;">
-                            <div style="font-size: 24px; font-weight: 600; color: var(--red);" id="pred-wrong">1</div>
+                            <div style="font-size: 24px; font-weight: 600; color: var(--red);" id="pred-wrong">9</div>
                             <div style="font-size: 11px; color: var(--text-muted);">Wrong</div>
                         </div>
                     </div>
@@ -1668,14 +1667,14 @@
                         <div style="font-size: 18px; font-weight: 600; color: var(--red);">🔴 RED</div>
                     </div>
                     <div style="font-size: 24px; color: var(--text-muted);">→</div>
-                    <div style="text-align: center; padding: 12px 20px; background: var(--bg-tertiary); border-radius: 8px; border: 1px solid var(--border);">
+                    <div style="text-align: center; padding: 12px 20px; background: var(--red-bg); border-radius: 8px; border: 1px solid var(--red);">
                         <div style="font-size: 11px; color: var(--text-muted);">REGINALD</div>
-                        <div style="font-size: 18px; font-weight: 600; color: var(--text-secondary);">⏳ WAITING</div>
+                        <div style="font-size: 18px; font-weight: 600; color: var(--red);">🔴 RED</div>
                     </div>
                     <div style="font-size: 24px; color: var(--text-muted);">→</div>
                     <div style="text-align: center; padding: 12px 20px; background: var(--bg-tertiary); border-radius: 8px; border: 1px solid var(--border);">
                         <div style="font-size: 11px; color: var(--text-muted);">KRE</div>
-                        <div style="font-size: 18px; font-weight: 600; color: var(--text-secondary);">$73.59</div>
+                        <div style="font-size: 18px; font-weight: 600; color: var(--text-secondary);" id="data-kre-price">—</div>
                     </div>
                 </div>
                 <div style="text-align: center; margin-top: 12px; font-size: 12px; color: var(--text-muted);">
@@ -1737,8 +1736,8 @@
                     </div>
                     <div class="market-card">
                         <div class="market-label">NFP (Next)</div>
-                        <div class="market-value" id="labor-nfp">Feb 11</div>
-                        <div class="market-threshold">8:30am ET — expect sub-50K</div>
+                        <div class="market-value" id="labor-nfp">Mar 6</div>
+                        <div class="market-threshold">8:30am ET — Feb 2026 data</div>
                     </div>
                 </div>
             </div>
@@ -1851,9 +1850,9 @@
                         <div class="market-threshold">Takaichi ceiling: 0.75%</div>
                     </div>
                     <div class="market-card">
-                        <div class="market-label">Next 20Y Auction</div>
-                        <div class="market-value" id="sam-auction">Feb 19</div>
-                        <div class="market-threshold">🔴 BTC &lt;2.3x = crisis</div>
+                        <div class="market-label">Last 20Y BTC</div>
+                        <div class="market-value" id="sam-auction">3.08x ✅</div>
+                        <div class="market-threshold">🟢 Feb 19 — strong demand</div>
                     </div>
                 </div>
             </div>
@@ -2002,23 +2001,23 @@
                 <div class="market-grid">
                     <div class="market-card">
                         <div class="market-label">KRE (Position)</div>
-                        <div class="market-value" id="reginald-kre">$73.59</div>
-                        <div class="market-threshold">Entry: $72.62 | Target: $65</div>
+                        <div class="market-value" id="reginald-kre">—</div>
+                        <div class="market-threshold">Puts: $60P/$65P/$67P Jun</div>
+                    </div>
+                    <div class="market-card" style="border-color: var(--red);">
+                        <div class="market-label">WAL (Hidden CRE) 🎯</div>
+                        <div class="market-value breach" id="reginald-wal">—</div>
+                        <div class="market-threshold">🔴 $82.5P Jun — PRIMARY TARGET</div>
+                    </div>
+                    <div class="market-card" style="border-color: var(--red);">
+                        <div class="market-label">OZK (Hidden CRE)</div>
+                        <div class="market-value warning" id="reginald-ozk">—</div>
+                        <div class="market-threshold">🔴 37.6% hidden — Apr 16 earnings</div>
                     </div>
                     <div class="market-card">
                         <div class="market-label">EGBN (DC Office)</div>
                         <div class="market-value breach" id="reginald-egbn">—</div>
-                        <div class="market-threshold">🔴 RED tier</div>
-                    </div>
-                    <div class="market-card">
-                        <div class="market-label">WAL (Fraud)</div>
-                        <div class="market-value warning" id="reginald-wal">—</div>
-                        <div class="market-threshold">🟠 ORANGE tier</div>
-                    </div>
-                    <div class="market-card">
-                        <div class="market-label">VLY (FL CRE)</div>
-                        <div class="market-value" id="reginald-vly">—</div>
-                        <div class="market-threshold">Q4 beat (counter-signal)</div>
+                        <div class="market-threshold">🔴 547% CRE/equity</div>
                     </div>
                     <div class="market-card">
                         <div class="market-label">Office CMBS DQ</div>
@@ -2067,20 +2066,20 @@
                         <div style="font-size: 14px; font-weight: 600; color: var(--text-primary);">EGBN</div>
                         <div style="font-size: 11px; color: var(--text-muted);">DC Office 100%</div>
                     </div>
-                    <div style="background: var(--orange-bg); border: 1px solid var(--orange); border-radius: 8px; padding: 16px; text-align: center;">
-                        <div style="font-size: 28px; font-weight: 700; color: var(--orange);">10</div>
+                    <div style="background: var(--red-bg); border: 1px solid var(--red); border-radius: 8px; padding: 16px; text-align: center;">
+                        <div style="font-size: 28px; font-weight: 700; color: var(--red);">11</div>
                         <div style="font-size: 14px; font-weight: 600; color: var(--text-primary);">WAL</div>
-                        <div style="font-size: 11px; color: var(--text-muted);">NDFI + Fraud + FF</div>
+                        <div style="font-size: 11px; color: var(--text-muted);">Hidden CRE + SSFA + Jefferies</div>
+                    </div>
+                    <div style="background: var(--red-bg); border: 1px solid var(--red); border-radius: 8px; padding: 16px; text-align: center;">
+                        <div style="font-size: 28px; font-weight: 700; color: var(--red);">10</div>
+                        <div style="font-size: 14px; font-weight: 600; color: var(--text-primary);">OZK</div>
+                        <div style="font-size: 11px; color: var(--text-muted);">Hidden CRE 37.6% + Life Sci</div>
                     </div>
                     <div style="background: var(--orange-bg); border: 1px solid var(--orange); border-radius: 8px; padding: 16px; text-align: center;">
                         <div style="font-size: 28px; font-weight: 700; color: var(--orange);">9</div>
                         <div style="font-size: 14px; font-weight: 600; color: var(--text-primary);">VLY</div>
                         <div style="font-size: 11px; color: var(--text-muted);">FL CRE + BDC</div>
-                    </div>
-                    <div style="background: var(--orange-bg); border: 1px solid var(--orange); border-radius: 8px; padding: 16px; text-align: center;">
-                        <div style="font-size: 28px; font-weight: 700; color: var(--orange);">9</div>
-                        <div style="font-size: 14px; font-weight: 600; color: var(--text-primary);">CFG</div>
-                        <div style="font-size: 11px; color: var(--text-muted);">Fund Finance</div>
                     </div>
                     <div style="background: var(--orange-bg); border: 1px solid var(--orange); border-radius: 8px; padding: 16px; text-align: center;">
                         <div style="font-size: 28px; font-weight: 700; color: var(--orange);">9</div>
@@ -2093,42 +2092,42 @@
                 </div>
             </div>
             
-            <!-- OTTO Domain (Event Trades) -->
+            <!-- Hidden CRE Domain (Memo Item 3) -->
             <div class="agents-section" style="border-left: 3px solid var(--red); padding-left: 16px;">
                 <div class="section-title" style="display: flex; align-items: center; gap: 8px;">
                     <span class="agent-status red" style="width: 8px; height: 8px;"></span>
-                    OTTO — Event Trades / Fraud Watch
+                    Hidden CRE — Memo Item 3 Screen
                 </div>
                 <div class="market-grid">
                     <div class="market-card" style="border-color: var(--red);">
-                        <div class="market-label">CVNA (Position) 🎯</div>
-                        <div class="market-value" id="price-cvna">—</div>
-                        <div class="market-threshold">BE: $305 | Feb 18 Earnings</div>
+                        <div class="market-label">OZK Hidden CRE</div>
+                        <div class="market-value breach">37.6%</div>
+                        <div class="market-threshold">🔴 WORST — worse than Metropolitan</div>
+                    </div>
+                    <div class="market-card" style="border-color: var(--red);">
+                        <div class="market-label">WAL Hidden CRE</div>
+                        <div class="market-value breach">24.2%</div>
+                        <div class="market-threshold">🔴 GROWING (was 15.5%)</div>
+                    </div>
+                    <div class="market-card" style="border-color: var(--orange);">
+                        <div class="market-label">EGBN Hidden CRE</div>
+                        <div class="market-value warning">23.7%</div>
+                        <div class="market-threshold">🟠 True CRE: 80.9%</div>
                     </div>
                     <div class="market-card">
-                        <div class="market-label">Gotham Target</div>
-                        <div class="market-value breach">$100-186</div>
-                        <div class="market-threshold">61-79% downside</div>
+                        <div class="market-label">ZION Hidden CRE</div>
+                        <div class="market-value">1.8%</div>
+                        <div class="market-threshold">🟢 Clean comparison</div>
                     </div>
                     <div class="market-card">
-                        <div class="market-label">DT EBITDA/Interest</div>
-                        <div class="market-value breach">1.0x</div>
-                        <div class="market-threshold">🔴 Was 3.8x in 2022</div>
+                        <div class="market-label">SSB Hidden CRE</div>
+                        <div class="market-value">0.9%</div>
+                        <div class="market-threshold">🟢 Cleanest book</div>
                     </div>
                     <div class="market-card">
-                        <div class="market-label">DT Charge-Offs</div>
-                        <div class="market-value breach">13.5%</div>
-                        <div class="market-threshold">🔴 Up from 9.0% (2022)</div>
-                    </div>
-                    <div class="market-card">
-                        <div class="market-label">Auditor</div>
-                        <div class="market-value warning">Grant Thornton</div>
-                        <div class="market-threshold">⚠️ Same as Tricolor</div>
-                    </div>
-                    <div class="market-card">
-                        <div class="market-label">Catalyst</div>
-                        <div class="market-value" style="color: var(--red); font-size: 14px;">Feb 18 10-K</div>
-                        <div class="market-threshold">GT resign? Delay? Qualified?</div>
+                        <div class="market-label">Metropolitan Capital</div>
+                        <div class="market-value breach">FAILED</div>
+                        <div class="market-threshold">🔴 Jan 30 — labeled 10.7%, true 61%</div>
                     </div>
                 </div>
             </div>
@@ -2610,7 +2609,7 @@
                 { id: 'otto', label: '🕵️ OTTO\nNDFI/Fraud', x: 160, y: 180, fixed: true, color: { background: '#484f58', border: '#6e7681' }, font: { color: '#fff', size: 10 }, shape: 'box', size: 16, borderWidth: 2 },
                 
                 // BOTTOM - Positions (larger, prominent, more space)
-                { id: 'positions', label: '📈 POSITIONS\nKRE | SSB | IWM | HYG', x: 240, y: 300, fixed: true, color: { background: '#a371f7', border: '#bc8cff' }, font: { color: '#fff', size: 14, bold: true }, shape: 'box', size: 32, borderWidth: 4 }
+                { id: 'positions', label: '📈 POSITIONS\nWAL | KRE | IWM | HYG | SSB', x: 240, y: 300, fixed: true, color: { background: '#a371f7', border: '#bc8cff' }, font: { color: '#fff', size: 14, bold: true }, shape: 'box', size: 32, borderWidth: 4 }
             ]);
             const edges = new vis.DataSet([
                 // ═══ CORE TRANSMISSION CHAIN (thick red arrows) ═══
@@ -2721,52 +2720,39 @@
         
         // Catalysts with countdown timers
         const catalysts = [
-            // COMPLETED - This week (Feb 10-14)
-            { date: '2026-02-10T11:00:00-05:00', text: '✅ NY Fed Q4 Household Debt', priority: 'critical', agent: 'CARL' },
-            { date: '2026-02-11T08:30:00-05:00', text: '✅ NFP (Jan 2026)', priority: 'critical', agent: 'LABOR' },
-            { date: '2026-02-12T08:30:00-05:00', text: '✅ Initial Claims (227K)', priority: 'high', agent: 'LABOR' },
-            { date: '2026-02-13T08:30:00-05:00', text: '✅ CPI (Jan 2026)', priority: 'high', agent: 'PROME' },
-            // THIS WEEK (Feb 17-21) - CRITICAL CATALYST WINDOW
-            { date: '2026-02-18T16:00:00-05:00', text: '🔴 CVNA Q4 Earnings (AMC) — 10-K, extensions, GT opinion', priority: 'critical', agent: 'OTTO' },
-            { date: '2026-02-18T16:00:00-05:00', text: '🔴 Dec TIC Data — Belgium >$500B?', priority: 'critical', agent: 'ZHAO/LIQUID' },
-            { date: '2026-02-18T14:00:00-05:00', text: 'Fed Minutes (Jan meeting)', priority: 'high', agent: 'PROME' },
-            { date: '2026-02-19T06:00:00-05:00', text: '🔴 Shunto Electronics — ≥3.5% = Strong', priority: 'critical', agent: 'SAM' },
-            { date: '2026-02-19T10:00:00+09:00', text: '🔴 20Y JGB Auction — BTC <2.0x = stress', priority: 'critical', agent: 'SAM' },
-            { date: '2026-02-20T08:30:00-05:00', text: 'Initial Claims (clean read)', priority: 'high', agent: 'LABOR' },
-            // Late Feb - FSK/BDC Earnings + CREED Bank 10-Ks
-            { date: '2026-02-25T16:00:00-05:00', text: 'FSK Q4 Earnings (PIK 8.5% actual)', priority: 'high', agent: 'BROCK' },
-            { date: '2026-02-26T07:00:00-05:00', text: 'GBDC Q4 Earnings', priority: 'medium', agent: 'BROCK' },
-            { date: '2026-02-27T08:30:00-05:00', text: 'Initial Claims (holiday distorted)', priority: 'medium', agent: 'LABOR' },
-            { date: '2026-02-27T07:00:00-05:00', text: 'TCPC Q4 Earnings (NAV watch)', priority: 'high', agent: 'BROCK' },
-            { date: '2026-02-27T07:00:00-05:00', text: 'GSBD Q4 Earnings', priority: 'high', agent: 'BROCK' },
-            { date: '2026-02-28T07:00:00-05:00', text: 'MFIC Q4 Earnings', priority: 'high', agent: 'BROCK' },
-            { date: '2026-02-28T00:00:00-05:00', text: 'Bank 10-K Filing Deadline', priority: 'high', agent: 'CREED' },
             // March
-            { date: '2026-03-06T08:30:00-05:00', text: 'NFP (Feb 2026)', priority: 'critical', agent: 'LABOR' },
+            { date: '2026-03-01T00:00:00-05:00', text: '🔴 OPEC+ Meeting (April restart?)', priority: 'critical', agent: 'LIQUID' },
+            { date: '2026-03-02T00:00:00-05:00', text: '🔴 KRE Mar $62P Roll (cash settles)', priority: 'critical', agent: 'PROME' },
+            { date: '2026-03-05T00:00:00-05:00', text: 'ACF LIHEAP Briefing', priority: 'high', agent: 'CARL' },
+            { date: '2026-03-06T08:30:00-05:00', text: '🔴 NFP (Feb 2026)', priority: 'critical', agent: 'LABOR' },
             { date: '2026-03-10T00:00:00-05:00', text: 'Trepp Feb CMBS Report', priority: 'high', agent: 'CREED' },
-            { date: '2026-03-11T08:30:00-05:00', text: 'CPI (Feb 2026)', priority: 'high', agent: 'PROME' },
+            { date: '2026-03-11T08:30:00-05:00', text: 'CPI (Feb 2026)', priority: 'high', agent: 'HENRY' },
             { date: '2026-03-13T00:00:00+09:00', text: 'BOJ Meeting', priority: 'critical', agent: 'SAM' },
-            { date: '2026-03-18T14:00:00-04:00', text: 'FOMC Decision', priority: 'high', agent: 'PROME' },
+            { date: '2026-03-17T14:00:00-04:00', text: '🔴 FOMC Decision + SEP', priority: 'critical', agent: 'HENRY' },
             { date: '2026-03-18T00:00:00+09:00', text: 'Shunto First Tally (wage results)', priority: 'critical', agent: 'SAM' },
-            { date: '2026-03-31T00:00:00-04:00', text: 'Q1 Quarter-End / ESR', priority: 'high', agent: 'LIQUID/SAM' },
+            { date: '2026-03-20T00:00:00-04:00', text: 'VLY $10P Mar-20 EXPIRY', priority: 'high', agent: 'PROME' },
+            { date: '2026-03-31T00:00:00-04:00', text: 'Q1 Quarter-End / ESR', priority: 'high', agent: 'LIQUID' },
+            { date: '2026-03-31T00:00:00-04:00', text: '⚓ Baltic ice breaks → exit tanker longs', priority: 'high', agent: 'LIQUID' },
             // April
             { date: '2026-04-03T08:30:00-04:00', text: 'NFP (Mar 2026)', priority: 'critical', agent: 'LABOR' },
-            { date: '2026-04-10T08:30:00-04:00', text: 'CPI (Mar 2026)', priority: 'high', agent: 'PROME' },
-            { date: '2026-04-29T14:00:00-04:00', text: 'FOMC Decision', priority: 'high', agent: 'PROME' },
-            // Late April - Q1 Earnings
-            { date: '2026-04-23T00:00:00-04:00', text: 'SSB Q1 Earnings (FL/TX watch)', priority: 'critical', agent: 'CARL' },
-            { date: '2026-04-24T00:00:00+09:00', text: 'BOJ Meeting (April hike?)', priority: 'critical', agent: 'SAM' },
+            { date: '2026-04-10T08:30:00-04:00', text: 'CPI (Mar 2026)', priority: 'high', agent: 'HENRY' },
+            { date: '2026-04-16T00:00:00-04:00', text: '🔴 OZK Q1 Earnings', priority: 'critical', agent: 'REGINALD' },
+            { date: '2026-04-20T00:00:00-04:00', text: '🔴 ZION Q1 Earnings', priority: 'critical', agent: 'REGINALD' },
+            { date: '2026-04-22T00:00:00-04:00', text: '🔴 WAL Q1 Earnings', priority: 'critical', agent: 'REGINALD' },
+            { date: '2026-04-23T00:00:00-04:00', text: 'SSB Q1 Earnings (FL/TX watch)', priority: 'critical', agent: 'REGINALD' },
+            { date: '2026-04-24T00:00:00+09:00', text: '🔴 BOJ Meeting (April hike?)', priority: 'critical', agent: 'SAM' },
+            { date: '2026-04-29T14:00:00-04:00', text: 'FOMC Decision', priority: 'high', agent: 'HENRY' },
             // May
             { date: '2026-05-08T08:30:00-04:00', text: 'NFP (Apr 2026)', priority: 'critical', agent: 'LABOR' },
-            { date: '2026-05-13T11:00:00-04:00', text: 'NY Fed Q1 Household Debt (CARL predictions)', priority: 'critical', agent: 'CARL' },
-            { date: '2026-05-15T00:00:00-04:00', text: 'KRE $70 PUT EXPIRY', priority: 'critical', agent: 'PROME' },
-            // June - H2 Maturity Wall begins
+            { date: '2026-05-12T00:00:00-04:00', text: '🔴 WAL Investor Day', priority: 'critical', agent: 'REGINALD' },
+            { date: '2026-05-13T11:00:00-04:00', text: 'NY Fed Q1 Household Debt', priority: 'critical', agent: 'CARL' },
+            // June - Position expiries + maturity wall
             { date: '2026-06-05T08:30:00-04:00', text: 'NFP (May 2026)', priority: 'critical', agent: 'LABOR' },
-            { date: '2026-06-17T14:00:00-04:00', text: 'FOMC Decision', priority: 'high', agent: 'PROME' },
-            { date: '2026-06-18T00:00:00-04:00', text: 'KRE $60 PUT EXPIRY', priority: 'critical', agent: 'PROME' },
-            { date: '2026-06-30T00:00:00-04:00', text: 'H2 CRE Maturity Wall Begins', priority: 'critical', agent: 'CREED' },
+            { date: '2026-06-17T14:00:00-04:00', text: 'FOMC Decision', priority: 'high', agent: 'HENRY' },
+            { date: '2026-06-18T00:00:00-04:00', text: '🔴 KRE/WAL/IWM/HYG PUT EXPIRY (Jun)', priority: 'critical', agent: 'PROME' },
+            { date: '2026-06-30T00:00:00-04:00', text: '🔴 H2 CRE Maturity Wall Begins', priority: 'critical', agent: 'CREED' },
             // August
-            { date: '2026-08-21T00:00:00-04:00', text: 'KELYA $7.5 PUT EXPIRY', priority: 'high', agent: 'LABOR' },
+            { date: '2026-08-21T00:00:00-04:00', text: 'OZK Aug $40P EXPIRY', priority: 'high', agent: 'PROME' },
         ];
         
         function formatCountdown(targetDate) {
@@ -2986,6 +2972,10 @@
                 document.getElementById('price-kre').textContent = '$' + kre.toFixed(2);
                 document.getElementById('header-kre').textContent = '$' + kre.toFixed(2);
                 document.getElementById('stat-current').textContent = '$' + kre.toFixed(2);
+                const chainKre = document.getElementById('chain-kre-price');
+                const dataKre = document.getElementById('data-kre-price');
+                if (chainKre) chainKre.textContent = '$' + kre.toFixed(2);
+                if (dataKre) dataKre.textContent = '$' + kre.toFixed(2);
                 
                 const pnl = (ENTRY_PRICE - kre).toFixed(2);
                 const pnlEl = document.getElementById('header-pnl');
@@ -3017,11 +3007,32 @@
                 document.getElementById('price-vix').className = 'market-value ' + (vix > 25 ? 'breach' : 'normal');
             }
             
-            // BTC
-            if (data.BTC.value) {
-                const btc = data.BTC.value;
-                document.getElementById('price-btc').textContent = '$' + (btc / 1000).toFixed(1) + 'K';
-                document.getElementById('price-btc').className = 'market-value ' + (btc < 60000 ? 'breach' : 'normal');
+            // WAL
+            if (data.WAL && data.WAL.value) {
+                const wal = data.WAL.value;
+                const walCard = document.getElementById('price-wal-card');
+                const walReg = document.getElementById('reginald-wal');
+                if (walCard) walCard.textContent = '$' + wal.toFixed(2);
+                if (walReg) walReg.textContent = '$' + wal.toFixed(2);
+            }
+            
+            // OZK
+            if (data.OZK && data.OZK.value) {
+                const ozk = data.OZK.value;
+                const ozkReg = document.getElementById('reginald-ozk');
+                if (ozkReg) ozkReg.textContent = '$' + ozk.toFixed(2);
+            }
+            
+            // IWM
+            if (data.IWM && data.IWM.value) {
+                const iwmEl = document.getElementById('price-iwm');
+                if (iwmEl) iwmEl.textContent = '$' + data.IWM.value.toFixed(2);
+            }
+            
+            // KRE → REGINALD
+            if (data.KRE && data.KRE.value) {
+                const kreReg = document.getElementById('reginald-kre');
+                if (kreReg) kreReg.textContent = '$' + data.KRE.value.toFixed(2);
             }
             
             // USD/JPY
@@ -3043,16 +3054,6 @@
             }
             if (data.GLD && data.GLD.value) {
                 document.getElementById('price-gld').textContent = '$' + data.GLD.value.toFixed(2);
-            }
-            
-            // CVNA
-            if (data.CVNA && data.CVNA.value) {
-                const cvna = data.CVNA.value;
-                const cvnaEl = document.getElementById('price-cvna');
-                if (cvnaEl) {
-                    cvnaEl.textContent = '$' + cvna.toFixed(2);
-                    cvnaEl.className = 'market-value ' + (cvna < 305 ? 'breach' : cvna < 320 ? 'warning' : 'normal');
-                }
             }
             
             document.getElementById('update-time').textContent = data.updated || new Date().toISOString();

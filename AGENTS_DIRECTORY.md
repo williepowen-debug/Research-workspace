@@ -1,230 +1,50 @@
 # AGENTS DIRECTORY
 
-*Quick reference for all research agents. Updated: 2026-02-26*
+*Quick reference. Updated: 2026-02-27*
 
----
+## Signal Flow
+Sub-agents own detail → distill upward to parents → lateral only when transmission matters. Don't dump raw signals to parents.
 
-## SIGNAL FLOW CONVENTION
+## Core Chain
 
-**Sub-agents own the detail. Parents get distilled summaries.**
+| Agent | Domain | Status | Key |
+|-------|--------|--------|-----|
+| **LABOR** | Employment | 🟡 | Claims, NFP, JOLTS, DOGE cuts. Danger: Q2-Q3 2026 |
+| **CARL** | Consumer credit | 🟡 | DQ, subprime auto, phantom debt. Lags LABOR 3-6mo. Subs: POLLY, POP, GIG, DOC, NICK |
+| **REGINALD** | Regional banks | 🟡 | CRE, bank watchlist, FHLB. Subs: CREED (CRE), BROCK (BDC) 🟠, CORAL (FL condos) 🟠 |
 
-When routing signals:
-1. **Raw signals** go to the most specific agent (e.g., BROCK for private credit, CREED for CRE)
-2. Sub-agents process, analyze, and produce a **distilled summary** of key findings
-3. **Summaries flow upward** to parent agents (BROCK → REGINALD, CREED → REGINALD)
-4. **Cross-agent summaries** flow laterally when transmission matters (BROCK → LIQUID for funding impact, REGINALD → HENRY for market structure)
-5. Parent/lateral agents should NOT receive raw signal dumps — only actionable synthesis
+## Market Structure
 
+| Agent | Domain | Status | Key |
+|-------|--------|--------|-----|
+| **HENRY** | Market structure + econ data | 🟡 | Gamma/GEX, VIX, CPI/PPI/PCE/NFP/ISM. Calendar: `HENRY/domain/ECON_CALENDAR.md` |
+| **LIQUID** | Funding/Treasury | 🟡 | RRP, SOFR, SRF, auctions. Hours to crisis when it breaks |
+| **SAM** | Japan/BOJ/JGB | 🔴 | JGB stress → global contagion |
+| **ZHAO** | China/capital flows | 🔴 | TIC data, LGFV, HK peg. True holdings ~$1.8-1.9T stable |
+| **HANS** | Europe (US lens) | 🟡 | UST demand, ECB, sovereign spreads. Needs research prompts |
+
+## Specialized
+
+| Agent | Domain | Notes |
+|-------|--------|-------|
+| **HAWK** | Geopolitical/military | 🔴 Iran active. Parallel trigger vector |
+| **BARON** | Trump network/policy | Active |
+| **MARCO** | Migration/labor flows | Background |
+| **RED** | Adversarial analysis | Challenges all theses |
+| **DARWIN** | System evolution/AI | Weekly scans, improvement backlog |
+| BUFFER, EARNINGS, FOREX, OTTO, REITS | Various | Background/event-driven |
+
+## Trading: FORGE
+`FORGE/STATUS.md` — converts research → positions → P/L. Sub-folders per trade (KRE/, WAL/, etc.)
+
+## Transmission
 ```
-BROCK (private credit detail) → REGINALD (bank impact) 
-                               → LIQUID (funding transmission summary)
-CREED (CRE detail)            → REGINALD (bank impact)
-CORAL (FL condos)             → REGINALD (bank impact)
-```
-
-**Rule of thumb:** If an agent doesn't need the detail to do their job, send the headline + implication, not the full signal.
-
----
-
-## CORE AGENTS (Stress Transmission Chain)
-
-### LABOR 🟡
-**Domain:** Employment & Labor Market
-**Thesis:** "Hotel California" — Easy to keep a job, hard to find a new one
-**Tracks:** Claims, NFP, JOLTS, temp staffing, WARN filings, federal cuts (DOGE)
-**Danger Window:** Q2-Q3 2026
-**Key Signals:** Claims >300K, U-3 >5%, Temp YoY <-6%
-
-### CARL 🟡
-**Domain:** Consumer Credit & Household Stress
-**Thesis:** "Beneath the Ice" — Surface metrics green, hidden stress building
-**Tracks:** Delinquencies, subprime auto, phantom debt, credit card stress
-**Danger Window:** Q3-Q4 2026 (lags LABOR 3-6 months)
-**Sub-agents:** POLLY (politics), POP (population), GIG (gig economy), DOC (healthcare), NICK (student loans)
-
-### REGINALD 🟡
-**Domain:** Regional Banks & Credit Intermediaries
-**Thesis:** CRE stress is real but extend-and-pretend masks it. Employment is the trigger.
-**Tracks:** Bank watchlist, CRE concentration, fraud exposure, FHLB dynamics
-**Danger Window:** Q4 2026-Q1 2027 (lags CARL)
-**Sub-agents:**
-- **CREED** — CRE deep dive (delinquencies, valuations, maturities)
-- **BROCK** — BDCs & private credit (redemptions, PIK, bank credit lines) 🟠
-- **CORAL** — Florida condo crisis & regional bank exposure 🟠 **[NEW]**
-
----
-
-## MARKET STRUCTURE AGENTS
-
-### HENRY 🟡
-**Domain:** Market Structure, Historical Anomalies & Macro Data
-**Thesis:** "The Loaded Machine" — Derivatives-driven, stable but fragile
-**Tracks:** Gamma/GEX, VIX structure, credit spreads, systematic flows, **economic releases (CPI/PPI/PCE/NFP/ISM/FOMC)**
-**Key Levels:** Put Wall 6,800 | CTA Flip 6,494 | Vol Trigger 6,400
-**Calendar:** `AGENTS/HENRY/domain/ECON_CALENDAR.md`
-**Role:** Tells us HOW FAST stress transmits when triggers fire + flags macro data surprises
-
-### LIQUID 🟡
-**Domain:** Funding Markets & Treasury Plumbing
-**Thesis:** "Metastable" — Calm until it isn't, hours to crisis
-**Tracks:** RRP, SOFR spreads, SRF usage, Treasury auctions
-**Key Levels:** RRP <$5B (RED), SOFR-IORB >+15bps (ORANGE)
-**Role:** Parallel stress vector that can amplify any stage
-
-### SAM 🔴
-**Domain:** Japan Sovereign, BOJ, JGB Markets, Yen
-**Thesis:** "Bonds before currency" — JGB stress is primary vector
-**Tracks:** JGB yields, auction demand, life insurer flows, USD/JPY
-**Critical Window:** Feb 3-8 (10Y auction ✓ → 30Y Feb 5 → Election Feb 8)
-**Role:** Japan anchor breaking = global contagion risk
-
-### ZHAO 🔴
-**Domain:** China Macro & Capital Flows
-**Thesis:** Dedollarization is WRONG — custodial arbitrage, not exit. True holdings ~$1.8-1.9T stable.
-**Tracks:** TIC data (China + Belgium proxy), LGFV/banking, HK peg, property sector
-**Transmission:** LGFV stress → Regional NPL → Liquidity crunch → UST liquidation
-**Key Levels:** Belgium >$500B | China <$650B | HK AB <$40B
-**Research:** 9/9 prompts complete
-**Status:** Active
-
-### HANS 🟡 **[NEW]**
-**Domain:** Europe (US Impact Lens)
-**Thesis:** European dynamics → US transmission through UST demand, currency, ECB policy
-**Tracks:** European UST holdings (UK, Ireland, Lux, Belgium), EUR/USD, GBP/USD, ECB/BoE, sovereign spreads
-**Transmission:** European selling → UST yield pressure | ECB divergence → USD stress | Sovereign crisis → risk-off
-**Key Levels:** EUR/USD <1.05 | Italy-Germany >150bps | France-Germany >80bps
-**Cross-refs:** ZHAO (Belgium overlap), LIQUID (ECB), SAM (Japan + Europe = demand pillars)
-**Status:** Initializing — needs research prompts run
-
----
-
-## SPECIALIZED AGENTS
-
-### BARON
-**Domain:** Trump network / policy influence
-**Status:** Active but not in core stress chain
-
-### MARCO
-**Domain:** Macro migration / labor flows
-**Status:** Background monitoring
-
-### BUFFER
-**Domain:** Volatility / buffer monitoring
-**Status:** Background monitoring
-
-### EARNINGS
-**Domain:** Earnings calendar & surprises
-**Status:** Event-driven
-
-### FOREX
-**Domain:** Currency dynamics
-**Status:** Background, cross-ref with SAM
-
-### OTTO
-**Domain:** TBD
-**Status:** TBD
-
-### REITS
-**Domain:** REIT monitoring
-**Status:** Background, cross-ref with CREED
-
----
-
-## META AGENTS
-
-### DARWIN 🧬
-**Domain:** System Evolution & AI Research
-**Thesis:** Systematically track AI/ML tooling landscape, surface improvements before we stumble onto them
-**Tracks:** arxiv, HN, GitHub trending, MCP tools, infrastructure plays, model releases
-**Output:** Weekly scans, experiment proposals, backlog of improvements
-**Role:** Makes the system better over time
-
-### HAWK 🦅
-**Domain:** Geopolitical & Military Risk
-**Thesis:** External shocks can trigger market moves regardless of domestic fundamentals
-**Tracks:** Military conflicts (Iran, Venezuela, Taiwan), trade wars, oil chokepoints, sanctions
-**Status Tiers:** GREEN (weekly) → YELLOW (2x/week) → ORANGE (daily) → RED (continuous)
-**Current:** 🔴 RED — Iran buildup active (strike possible within weeks)
-**Role:** Parallel trigger vector alongside SAM/ZHAO/HANS — can accelerate timeline
-
-### RED 🔴
-**Domain:** Network Adversarial Analysis
-**Thesis:** Find what's wrong. Challenge every thesis. Present the strongest counter-case.
-**Tracks:** Counter-evidence across all agents, cross-agent contradictions, soft landing scenarios
-**Modes:** Targeted Challenge (single agent) | Network Sweep (all agents)
-**Role:** Honesty mechanism — prevents confirmation bias
-
----
-
-## TRADING OPERATIONS
-
-### FORGE 🔨
-**Domain:** Trading Execution & Position Management
-**Thesis:** Convert agent research into positions. Credit leads equities.
-**Tracks:** Active trades, technicals, catalysts, P/L
-**Current Focus:** KRE puts (regional bank stress thesis)
-**Location:** `FORGE/STATUS.md`
-**Sub-folders:**
-- **KRE/** — Regional banks trade (puts, Jun 2026)
-- *(More trades added as opened)*
-
-**How It Works:**
-```
-AGENTS (research) → FORGE (execution) → P/L (accountability)
+LABOR → CARL → REGINALD → repricing
+LIQUID amplifies any stage | HENRY = speed gauge
+SAM + ZHAO + HANS = parallel global risk | HAWK = external shock
 ```
 
----
+## File Paths
+All agents at `AGENTS/<NAME>/STATUS.md`. Sub-agents: `AGENTS/<PARENT>/<SUB>/`. FORGE at `FORGE/STATUS.md`.
 
-## TRANSMISSION CHAIN
-
-```
-LABOR (employment breaks)
-   ↓
-CARL (consumer stress transmits)
-   ↓
-REGINALD (bank losses follow)
-   ↓
-[LIQUID amplifies at any stage]
-
-HENRY tells us HOW FAST
-SAM + ZHAO + HANS are parallel global risk (Japan + China + Europe anchors)
-BROCK (under REGINALD) is private credit early warning
-
-DARWIN (meta) improves the system itself
-RED (adversarial) challenges all theses
-HAWK (geopolitical) external shock vector — Iran, trade wars, military
-```
-
----
-
-## STATUS KEY
-
-- 🟢 GREEN — No active stress
-- 🟡 YELLOW — Monitoring, some signals
-- 🟠 ORANGE — Elevated stress, watch closely
-- 🔴 RED — Active stress / Critical event window
-
----
-
-## WHERE TO FIND THINGS
-
-| Agent | STATUS.md | Skeleton | Workbook |
-|-------|-----------|----------|----------|
-| LABOR | `AGENTS/LABOR/STATUS.md` | `LABOR_SKELETON.md` | `workbook/` |
-| CARL | `AGENTS/CARL/STATUS.md` | `CARL_SKELETON.md` | `workbook/` |
-| REGINALD | `AGENTS/REGINALD/STATUS.md` | `REGINALD_SKELETON.md` | `workbook/` |
-| HENRY | `AGENTS/HENRY/STATUS.md` | `HENRY_SKELETON.md` | `workbook/` |
-| LIQUID | `AGENTS/LIQUID/STATUS.md` | `LIQUID_SKELETON.md` | `workbook/` |
-| SAM | `AGENTS/SAM/STATUS.md` | `SAM_SKELETON.md` | `workbook/` |
-| ZHAO | `AGENTS/ZHAO/STATUS.md` | — | `workbook/` |
-| HANS | `AGENTS/HANS/STATUS.md` | — | `workbook/` |
-| CREED | `AGENTS/REGINALD/CREED/` | `CREED_SKELETON.md` | `workbook/` |
-| BROCK | `AGENTS/REGINALD/BROCK/` | `BROCK_SKELETON.md` | `workbook/` |
-| CORAL | `AGENTS/REGINALD/sub-agents/CORAL/` | — | `research/` |
-| DARWIN | `AGENTS/DARWIN/STATUS.md` | `AGENT.md` | `BACKLOG.md` |
-| HAWK | `AGENTS/HAWK/STATUS.md` | `AGENT.md` | `SOURCES.md` |
-| **FORGE** | `FORGE/STATUS.md` | — | `KRE/`, etc. |
-
----
-
-*This file is Prome's quick reference. Update when agents change.*
+Status key: 🟢 none | 🟡 monitoring | 🟠 elevated | 🔴 active/critical
