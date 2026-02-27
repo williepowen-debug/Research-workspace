@@ -259,5 +259,23 @@
     "message": "WAL filed 10-K: WESTERN ALLIANCE BANCORPORATION",
     "value": "2026-02-23",
     "threshold": null
+  },
+  {
+    "id": 1772133800250,
+    "timestamp": "2026-02-26 19:23:20 UTC",
+    "type": "sec",
+    "severity": "warning",
+    "message": "EGBN filed 8-K: EAGLE BANCORP INC",
+    "value": "2026-02-25",
+    "threshold": null
+  },
+  {
+    "id": 1772133800776,
+    "timestamp": "2026-02-26 19:23:20 UTC",
+    "type": "sec",
+    "severity": "info",
+    "message": "ZION filed 10-K: ZIONS BANCORPORATION, NATIONAL ASSOCIATION /UT/",
+    "value": "2026-02-24",
+    "threshold": null
   }
 ]

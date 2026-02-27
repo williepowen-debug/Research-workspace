@@ -47,6 +47,25 @@ Categories: `[Analysis]` `[Communication]` `[Execution]` `[Verification]` `[Memo
 **Pattern:** Features can break (quota, config, API changes) without obvious errors.
 **Rule:** Periodically test critical features, don't assume they work. When something feels off, verify the tools are actually functioning.
 
+### 2026-02-26 — [Process]
+**Mistake:** Created BROCK agent with stale/wrong data in STATUS.md (PSEC 35% PIK, FSK dividend "maintained", BXSL 🟢) without flagging it in boot instructions.
+**Pattern:** New agents inherit existing files without context on what's known-bad.
+**Rule:** When standing up a new agent, audit the data they'll inherit. Add a "Known Data Issues" section to AGENTS.md flagging anything stale or verified-wrong. Don't let a fresh agent trust poisoned data.
+
+### 2026-02-26 — [Process]
+**Mistake:** Told BROCK to write upstream signals to `repo/AGENTS/REGINALD/inbox/` but REGINALD reads a single `INBOX.md` file, not a folder.
+**Pattern:** Assuming all agents use the same inbox convention without checking.
+**Rule:** Before defining inter-agent signal paths, verify the RECEIVING agent's actual boot sequence and inbox format.
+
+### 2026-02-26 — [Process]
+**Mistake:** Routed all private credit signals to LIQUID initially. Will caught that BROCK owns private credit.
+**Pattern:** Defaulting to the "biggest" agent instead of the most specific one.
+**Rule:** Route signals to the most granular specialist first. Raw signals → specialist, distilled summaries → parent/lateral agents.
+
+### 2026-02-26 — [Process]
+**Learning:** Reviewing agent setup from the agent's perspective (simulating first boot) caught 3 real issues. Second-pass review is worth the time.
+**Rule:** Before spawning a new or significantly updated agent, do a "first boot simulation" — read every file they'll see and ask: what would confuse me?
+
 ### 2026-02-18 — [Process]
 **Mistake:** Created SKILLS.md thinking it would improve workflow, then realized it's mostly redundant.
 **Pattern:** Documenting principles after building architecture adds little value — the architecture already does the work.

@@ -1173,7 +1173,7 @@ Bank credit losses (REGINALD)
 | BDC | Ticker | PIK % | Status | Next Report |
 |-----|--------|-------|--------|-------------|
 | **Prospect Capital** | **PSEC** | **35%** | ✅ REPORTED Feb 9-10 | Dividend maintained |
-| **FS KKR Capital** | **FSK** | **27%** | 🟠 HIGH | Feb 25 |
+| **FS KKR Capital** | **FSK** | **27%** | ✅ REPORTED Feb 19 | NAV -11.6% YoY, non-accrual 3.4% ↑ |
 | TCP Capital | TCPC | — | 🟡 | Mid-Feb |
 | MidCap Financial | MFIC | — | 🟡 | ~Feb 20 |
 | Blackstone Secured | BXSL | — | 🟢 | Feb 19 |
@@ -1432,7 +1432,7 @@ Fed will "drop some prior demands for banks to address deficiencies."
 *Full coordination protocol: `SUB_AGENTS.md`*
 
 - **CREED** (CRE): Office ATH 12.34%, $936B maturity wall, Apollo exit, BXMT recognition, $25B zombie loans, **CHICAGO "GROUND ZERO" CONFIRMED (70-94% loss severity)**
-- **BROCK** (BDC/Private Credit): PIK 35%, HRZN collapsed, AI infra risk, PSEC reported Feb 9-10 (dividend maintained)
+- **BROCK** (BDC/Private Credit): PIK 35%, HRZN collapsed, AI infra risk, PSEC reported Feb 9-10 (dividend maintained), **FSK Q4: NAV -11.6% YoY, non-accrual 3.4% (↑), EPS negative, leverage 122%**
 - **CORAL** (Florida): Condo crisis, SIRS mandate, association bankruptcies, -22% MF repricing confirmed
 - **TEX** (Texas): Austin MF 14.2% vacancy, DFW stress emerging, SSB correlation confirmed
 - **BELT** (Sun Belt Diffusion): NEW — MS/LA/MD/OK/IN leading in mortgage DQ; geographic stress broader than FL/TX thesis
@@ -1501,7 +1501,8 @@ Status upgraded 🔴 CRITICAL because:
 
 **Next catalysts:**
 - ~~Feb 19: Japan dual catalyst~~ ✅ RESOLVED (Path D did NOT fire)
-- **Feb 25: FSK earnings (BDC canary)**
+- ~~Feb 25: FSK earnings (BDC canary)~~ ✅ REPORTED Feb 19 — NAV -11.6%, non-accrual rising
+- **Feb 27: OZK earnings** (2 days!)
 - **Early March: Cantor appraisals**
 - **Mar 1: OPEC+ meeting**
 - **Apr 20-29: Q1 bank earnings**
