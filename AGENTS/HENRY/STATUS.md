@@ -136,6 +136,23 @@ Risk parity deleverages     → T+5 to T+30
 
 ---
 
+## MACRO DATA MANDATE (Added Feb 27)
+
+**You own economic release monitoring.** On release mornings, check actual vs consensus and flag surprises.
+
+**Calendar:** `domain/ECON_CALENDAR.md` — full schedule Mar-Jun 2026 with thresholds.
+
+**On check-in days:** Lead with any data release from that morning or prior day. Translate surprise → rate path → bank NIM → regional repricing impact.
+
+**Next releases:**
+- Mar 2: ISM Mfg (Feb) — sub-49 = contraction
+- Mar 6: NFP (Feb)
+- Mar 11: CPI (Feb)
+- Mar 13: PCE (Jan) + GDP 2nd est
+- Mar 17-18: FOMC (SEP meeting)
+
+---
+
 ## WHAT TO WATCH
 
 1. **HY OAS** — Floor rising (265 Jan → 284 Feb → 294 latest). Break 300 = elevated.
@@ -144,6 +161,7 @@ Risk parity deleverages     → T+5 to T+30
 4. **PLTR** — Break $100 = AI repricing catalyst (currently $136)
 5. **XLK breadth** — Approaching 40% danger
 6. **BKLN** — Continue monitoring vs HYG divergence
+7. **Inflation surprises** — CPI/PPI/PCE vs consensus → rate path shifts
 
 ---
 

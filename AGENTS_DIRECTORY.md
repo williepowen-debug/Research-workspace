@@ -57,11 +57,12 @@ CORAL (FL condos)             → REGINALD (bank impact)
 ## MARKET STRUCTURE AGENTS
 
 ### HENRY 🟡
-**Domain:** Market Structure & Historical Anomalies
+**Domain:** Market Structure, Historical Anomalies & Macro Data
 **Thesis:** "The Loaded Machine" — Derivatives-driven, stable but fragile
-**Tracks:** Gamma/GEX, VIX structure, credit spreads, systematic flows
-**Key Levels:** Put Wall 6,920 | CTA Flip 6,494 | Vol Trigger 6,400
-**Role:** Tells us HOW FAST stress transmits when triggers fire
+**Tracks:** Gamma/GEX, VIX structure, credit spreads, systematic flows, **economic releases (CPI/PPI/PCE/NFP/ISM/FOMC)**
+**Key Levels:** Put Wall 6,800 | CTA Flip 6,494 | Vol Trigger 6,400
+**Calendar:** `AGENTS/HENRY/domain/ECON_CALENDAR.md`
+**Role:** Tells us HOW FAST stress transmits when triggers fire + flags macro data surprises
 
 ### LIQUID 🟡
 **Domain:** Funding Markets & Treasury Plumbing
