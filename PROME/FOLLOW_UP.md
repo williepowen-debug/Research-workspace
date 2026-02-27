@@ -1,136 +1,111 @@
-# FOLLOW UP — Open Research Threads
+# FOLLOW UP — Open Threads & Known Gaps
 
-*Generated Feb 27, 2026. These are claims, inferences, and hypotheses from tonight's session that need deeper investigation. Each one is a potential session topic or agent task.*
-
-**Context:** These emerged from the Feb 27 EOD agent run + synthesis + "what's hidden" analysis. They range from verifiable data questions to structural hypotheses. Priority = how much it could change our positioning if confirmed.
+*Feb 27, 2026. You (Prome) made big claims tonight. Some are solid. Some are vibes. This file tells you which is which so you don't repeat unverified assertions to Will as fact.*
 
 ---
 
-## 1. The Triple Stack — Reserve Release + Reclassification + Deteriorating Credit
+## ⚠️ THINGS YOU SAID THAT MIGHT BE WRONG
 
-**Claim:** Banks are simultaneously hiding CRE in C&I (H.8 confirms), releasing loan loss reserves (-7.7%), and reporting "improving" credit quality. When this unwinds, the actual earnings hit will be 2-3x what anyone models because nobody is stacking all three layers.
+Read these first. These are claims you made that sounded good but lack evidence.
 
-**To investigate:**
-- [ ] Pull historical reserve release data from H.8/FRED — are reserves at cycle lows?
-- [ ] Compare 2006-2007 reserve release patterns to current — is the template accurate?
-- [ ] Quantify: if WAL's true CRE is 59% (not 34.8%) AND reserves are depleted, what's the actual earnings hit per share?
-- [ ] Are any analysts modeling the combined effect? Or is everyone looking at these in isolation?
-- [ ] Can we screen for banks with BOTH high Memo Item 3 ratios AND aggressive reserve releases?
+### "Earnings hit will be 2-3x what anyone models"
+**You made up the multiplier.** You have no math behind "2-3x." The logic (reserve release + reclassification + deteriorating credit = stacked losses) is sound, but the magnitude is a guess.
+- **To fix:** Spawn REGINALD → "Pull WAL's ALLL (Allowance for Loan and Lease Losses) from 10-K. Compare to true CRE exposure ($36.8B). At 30-40% loss severity on stressed loans, what reserve level would be needed? What's the current shortfall? Give me a per-share EPS impact estimate."
+- **Also:** Pull the same for OZK and ZION. Three data points = pattern.
+- **Historical check:** Did banks release reserves in 2006-2007 before the crisis? How fast did they have to rebuild? What was the EPS impact?
 
-**Priority:** 🔴 This determines the MAGNITUDE of our thesis, not just the direction.
+### "Apollo might be this cycle's Lehman"
+**You don't know how interconnected Apollo actually is.** Three stress events on one day ≠ systemic node. Key unknowns:
+- **Is Athene ring-fenced from Atlas SP?** If yes, the "interconnection" is narrative, not structural. Apollo's 10-K will say.
+- **How much of Athene's $250B+ is Apollo-originated private credit?** If 20%, manageable. If 60%+, systemic.
+- **Are there MORE hidden Apollo vehicles like Atlas SP?** MFS connection was unknown until today.
+- **To fix:** Pull Apollo 10-K (SEC EDGAR). Search for "Athene" + "related party" + "affiliated investments." This is a 2-hour deep dive, not a quick search.
 
----
+### "AI layoffs will accelerate faster than any historical template"
+**You have ONE data point (Block).** That's not a trend. 
+- **To fix:** Ask LABOR → "Compile all 2026 layoffs citing AI as reason. How many jobs? What sectors? What's the run rate vs. 2001 and 2008 trajectories?"
+- **Counter you didn't engage with:** AI also CREATES jobs. Net effect could be neutral. You need to address this or it's confirmation bias.
 
-## 2. Apollo as Interconnection Node
+### "Nobody is pricing the restatement scenario"
+**Restatements are extremely rare.** Memo Item 3 reclassification is legal — it's a judgment call, not fraud. Banks will say "our classifications are appropriate" and auditors will sign off. More likely scenario: larger-than-expected reserve BUILDS in Q1 + analyst questions on calls → gradual re-rating, not explosive event. **You probably overstated severity. The grind (HENRY's 55% case) is more likely than the explosion.**
 
-**Claim:** Apollo isn't just a put candidate — it might be this cycle's systemic node connecting private credit, insurance, structured products, and international lending. If Apollo stress transmits to Athene, it jumps from Wall Street to Main Street.
+### "HY OAS 320bps is the threshold"
+**Where did this number come from?** Check if SAM sourced it or invented it. Context: HY OAS was ~450bps in Oct 2023, ~500bps in March 2023 (SVB), ~300bps mid-2024. Current: 298bps. Is 320 meaningful or just 22bps of noise?
+- **To fix:** Pull HY OAS history. What happened at 320 last time it crossed? Was there contagion or did it pass through?
 
-**To investigate:**
-- [ ] How much of Athene's general account is invested in Apollo-originated private credit? (>30% = structural vulnerability)
-- [ ] Map Apollo's full subsidiary/vehicle structure — MFIC, Atlas SP, Athene, what else?
-- [ ] What are Athene's regulatory capital requirements? How much private credit markdown can they absorb before triggering regulatory action?
-- [ ] Are other insurers similarly concentrated? (Met Life, Prudential, AIG all have PE partnerships)
-- [ ] Pull Athene's latest statutory filing — what's the actual asset allocation?
-- [ ] Is anyone else making this connection publicly? (If not, that's edge. If yes, how is it priced?)
-
-**Priority:** 🔴 If confirmed, APO puts aren't a trade — they're the trade. And the insurance transmission is BROCK's Stage 4 trigger.
-
----
-
-## 3. AI Layoffs as Structural Acceleration
-
-**Claim:** AI gives every CFO political cover for massive layoffs. Unlike prior cycles where layoffs signaled failure, AI layoffs signal "efficiency." This could accelerate the employment crack faster than any historical template.
-
-**To investigate:**
-- [ ] Compile 2026 AI-cited layoffs — how many jobs, which sectors, what pace?
-- [ ] Compare to 2001 (dot-com) and 2008 (GFC) layoff trajectories — is this faster?
-- [ ] Are AI layoffs showing up in claims data yet? Or is there a lag?
-- [ ] How does the Fed view AI layoffs? "Structural adjustment" vs "cyclical weakness" — this framing determines policy response
-- [ ] What does LABOR's WARN pipeline show for AI-cited cuts specifically?
-
-**Priority:** 🟠 Affects TIMING of our thesis more than direction. If employment cracks in Q1 instead of Q2-Q3, our June puts have even more runway.
+### Agent Corrections May Be Leading-the-Witness
+**You told agents "this should change your view" then asked "did it change your view?"** All 4 said yes and gave neat probability shifts. Would they have moved without your framing? Probably less. Treat the direction as real (all moved same way = signal) but the magnitude (55% → 68%) as soft. **Don't quote agent probabilities to Will as precision — they're directional indicators.**
 
 ---
 
-## 4. The Self-Reinforcing Loop
+## 🔴 HIGH PRIORITY — Investigate Next Session
 
-**Claim:** Hot PPI → Fed can't cut → mortgage rates stay 7%+ → housing frozen → current-to-delinquent borrowers keep flowing → bank balance sheets deteriorate → banks tighten lending → credit gets tighter → loop repeats. Time itself is the catalyst.
+### 1. Reserve Adequacy (THE key quantification)
+**Why:** Determines MAGNITUDE of our thesis. Direction is established. Magnitude is what we trade on.
+- Spawn REGINALD: "WAL ALLL vs true CRE exposure. What's the reserve shortfall at 30/40/50% loss severity? EPS impact?"
+- Cross-reference H.8 aggregate reserve release trend with individual bank levels
+- **The question:** Are reserves at cycle lows industry-wide? If yes, the rebuild will crush earnings across the sector.
 
-**To investigate:**
-- [ ] Is Wright still publishing monthly current-to-delinquent data? Get the latest (should be Dec or Jan by now)
-- [ ] Quantify the flow: at 609K/month current→delinquent, how long until it moves aggregate DQ rates enough to force bank recognition?
-- [ ] Are any banks already tightening lending standards? (Senior Loan Officer Survey — SLOOS)
-- [ ] Model the loop: if Fed holds through June, how many more months of 7% mortgages, how many more delinquent borrowers?
+### 2. Apollo 10-K Deep Dive
+**Why:** If Apollo/Athene is genuinely interconnected, APO puts aren't a side bet — they're potentially the biggest trade in the book.
+- Pull from EDGAR. Map: Athene general account allocation, affiliated investment %, ring-fencing provisions.
+- **The question:** Is Athene structurally exposed to Apollo's private credit book, or legally separated?
 
-**Priority:** 🟠 This is the "time is the catalyst" argument. If confirmed, it means we don't need a specific event — we just need to hold our positions and let the math work.
-
----
-
-## 5. H.8 C&I Surge — Organic or Reclassification?
-
-**Claim:** C&I at +14.4% annualized (highest in entire H.8 dataset) while CRE at +1.1% is too divergent to be organic. This is industry-level Memo Item 3 reclassification.
-
-**To investigate:**
-- [ ] Pull C&I and CRE growth rates for the last 10 years from H.8 — has a divergence this large ever occurred?
-- [ ] Cross-reference with individual bank call reports — do the banks with highest Memo Item 3 ratios also show the most C&I growth?
-- [ ] Is there a legitimate economic explanation? (Could tariff front-running drive real C&I demand?)
-- [ ] Can we estimate how much of the C&I surge is reclassified CRE? (Compare Memo Item 3 growth to C&I growth)
-
-**Priority:** 🟠 This is the evidence base for "systemic, not idiosyncratic." If we can prove reclassification at scale, it's a research product in itself.
+### 3. Circuit Breakers We're Not Modeling
+**Why:** We're very good at modeling what goes wrong. We're bad at modeling what stops it.
+- **BTFP 2.0:** If announced, breaks the loop instantly. How likely? Any Fed signals?
+- **Surprise Fed cut:** They cut in Sept 2024 despite sticky inflation. Could do it again if employment cracks.
+- **Coordinated extend-and-pretend:** Works if asset values stabilize. Does the H.8 C&I surge actually mean banks are successfully rolling?
+- **Short squeeze:** KRE short interest? If too crowded, a squeeze could wipe our puts before thesis plays out.
+- **To fix:** Run RED team specifically on circuit breakers. "What kills our thesis in the next 60 days?"
 
 ---
 
-## 6. MFS as WAL Template
+## 🟠 MEDIUM PRIORITY
 
-**Claim:** MFS collapsed via double-pledging — same fraud vector as WAL/First Brands/Tricolor/Jefferies. MFS is a structural template for what WAL's blowup could look like.
+### 4. H.8 C&I Surge — Prove It's Reclassification
+- Pull 10-year C&I and CRE growth from FRED. Has this divergence ever happened before?
+- Cross-reference: do banks with highest Memo3 ratios show highest C&I growth?
+- **Counter to address:** Tariff front-running could drive legitimate C&I demand. Rule this out.
 
-**To investigate:**
-- [ ] How exactly did MFS's double-pledging work? Get the details of the administration filing.
-- [ ] Compare mechanism to WAL/First Brands — is it actually the same pattern or just superficially similar?
-- [ ] What was the timeline from first suspicion to collapse at MFS? (Gives us a timing template)
-- [ ] Jefferies is exposed to BOTH MFS and WAL/First Brands — are they the common thread?
-- [ ] What's the status of First Brands discovery? (Mar 15 Production 1 deadline per CALENDAR)
+### 5. Wright Mortgage Data Update
+- Last data point was Oct (609K current→delinquent). Nov/Dec/Jan should be available.
+- **The question:** Is the flow accelerating, stable, or declining? This validates or weakens the self-reinforcing loop.
 
-**Priority:** 🟡 REGINALD already moved WAL probability 55% → 68% on this. Deeper investigation could either confirm or walk it back.
+### 6. MFS Mechanism Deep Dive
+- How exactly did MFS double-pledging work? Get administration filing details.
+- Compare to WAL/First Brands mechanism — actually the same or just superficially similar?
+- Timeline from first suspicion to collapse at MFS = template for WAL timing.
 
----
-
-## 7. Credit Spread Thresholds
-
-**Claim:** HY OAS at 320bps is the threshold where credit transmission is confirmed and carry unwind becomes possible without BOJ action.
-
-**To investigate:**
-- [ ] Why 320bps specifically? Is there historical precedent for this level triggering contagion?
-- [ ] Current: 298bps. Rate of change: +12bps/week. At this pace, we hit 320 in ~2 weeks. Is this pace sustainable?
-- [ ] What happened last time HY OAS crossed 320? (Pull the date, what was the market context)
-- [ ] Is LIQUID tracking the right spread? Should we also watch CLO AAA, IG OAS, or CMBX?
-
-**Priority:** 🟡 This is a trigger threshold. Getting it right matters for timing.
+### 7. Credit Spread History
+- Pull HY OAS crossing 320bps dates. What was market context? Did contagion follow?
+- Should we watch different spreads? CLO AAA, CMBX, IG OAS — which is the better canary?
 
 ---
 
-## 8. Comparative System Analysis
+## 🟡 LOWER PRIORITY
 
-**Claim (Prome's):** Our multi-agent system with persistent memory, cross-pollination, adversarial review, and accountability tracking is genuinely novel among individual/retail users.
+### 8. AI Layoff Tracking
+- LABOR should maintain a running tally of AI-cited layoffs
+- Need 5-10 data points before calling Block a "trend"
+- Net job creation vs destruction question needs honest engagement
 
-**To investigate:**
-- [ ] Are there other individual investors running similar systems? (Search harder — AI trading Twitter, Reddit r/algotrading, Substack)
-- [ ] What are the actual quant funds doing with LLMs? (Any public research?)
-- [ ] What are our system's real weaknesses vs institutional setups? (Data latency, execution, backtesting)
-- [ ] Is there a way to add quantitative backtesting to our qualitative framework?
-
-**Priority:** 🟡 Meta-question about the system itself. Important for long-term development but not urgent.
+### 9. System Comparison
+- Search harder for similar retail agent setups (crypto traders, quant Twitter, Reddit)
+- Honest about what we're missing: real-time data, backtesting, execution automation
+- Our edge = domain knowledge + process, not technology
 
 ---
 
-## How To Use This File
+## META: How To Use This File
 
-Each item is a potential:
-1. **Agent task** — spawn the relevant agent with the investigation questions
-2. **Deep research session** — Will + Prome working through primary sources together
-3. **RED team topic** — have RED attack the specific claim
+**Every session start:** Skim the ⚠️ section. These are your guardrails — things you believe but haven't proven. Don't repeat them as fact.
 
-When an item is resolved, move it to the bottom under "Resolved" with the finding and date.
+**When Will asks about a topic:** Check if it's in here. If yes, tell him the current evidence level (proven / likely / unverified / possibly wrong).
+
+**When an item is resolved:** Move to bottom with finding + date. Don't delete — the resolution is as valuable as the question.
+
+**When you make new claims:** Add them here with a gap assessment. If you can't identify the gap, that's the biggest gap of all.
 
 ---
 
