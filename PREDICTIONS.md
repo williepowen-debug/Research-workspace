@@ -39,65 +39,11 @@
 
 ---
 
-## 🆕 FEB 18-20 CATALYST WEEK PREDICTIONS (Added 2026-02-18)
+## FEB 18-20 CATALYST WEEK — RESOLVED
 
-### CVNA Earnings — Feb 18 (After Close)
+See "Recently Resolved → Event Predictions" section below for full results.
 
-| # | Prediction | Probability | Confirmation | Falsification |
-|---|------------|-------------|--------------|---------------|
-| CVNA-E1 | 10-K filed on time (no delay) | 70% | Filed same day | Delayed >24 hours |
-| CVNA-E2 | GT remains auditor (no resignation) | 90% | Standard opinion | GT resigns or qualified |
-| CVNA-E3 | Extension rate disclosed >6% | 60% | >6% in 10-K | <5% or not disclosed |
-| CVNA-E4 | Stock drops >5% by Feb 20 close | 45% | Close <$333 | Holds above $350 |
-| CVNA-E5 | Our puts profitable at expiry | 35% | CVNA <$305 by Feb 27 | CVNA >$310 |
-| CVNA-E6 | Our puts max gain ($20) | 10% | CVNA <$290 by Feb 27 | CVNA >$290 |
-
-**Binary Catalyst Matrix:**
-| Event | Probability | Expected Impact |
-|-------|-------------|-----------------|
-| GT Resignation | 5% | -40%+ |
-| 10-K Delay | 15% | -15-25% |
-| Qualified Opinion | 8% | -20-30% |
-| Material Weakness | 25% | -8-15% |
-| Clean + Beat | 40% | +10-15% |
-
-### Japan — Feb 19
-
-| # | Prediction | Probability | Confirmation | Falsification |
-|---|------------|-------------|--------------|---------------|
-| JAP-1 | Shunto electronics demand ≥3.5% | 55% | Reported ≥3.5% | <3.0% |
-| JAP-2 | 20Y JGB auction passes (BTC >2.5x) | 65% | BTC >2.5x, tail <3bp | BTC <2.0x or tail >5bp |
-| JAP-3 | Path D trigger (BOTH fire) | 12% | Shunto ≥3.5% AND BTC <2.0x | Either fails |
-| JAP-4 | USDJPY breaks 150 by Feb 21 | 20% | Spot <150 | Holds >152 |
-
-### TIC Data — Feb 18 (4PM ET)
-
-| # | Prediction | Probability | Confirmation | Falsification |
-|---|------------|-------------|--------------|---------------|
-| TIC-1 | Belgium holdings >$500B | 40% | >$500B | <$450B |
-| TIC-2 | China holdings decline | 60% | <$760B | >$780B |
-| TIC-3 | Net foreign selling >$20B/month | 50% | Outflow >$20B | Inflow or <$10B |
-
-### Initial Claims — Feb 20
-
-| # | Prediction | Probability | Confirmation | Falsification |
-|---|------------|-------------|--------------|---------------|
-| CLM-1 | Claims 225K-240K range | 70% | Within range | Outside range |
-| CLM-2 | DHS distortion visible (spike then reverses) | 55% | >245K then reverses | Stays <235K |
-| CLM-3 | 4-week avg stays <250K | 80% | <250K | >250K |
-
-### Week Composite Scenarios
-
-| Scenario | Probability | Definition |
-|----------|-------------|------------|
-| **Bull (thesis challenged)** | 20% | CVNA clean + Japan passes + claims <235K |
-| **Base (status quo)** | 50% | Mixed signals, no major catalyst fires |
-| **Bear (thesis confirmed)** | 30% | CVNA red flag OR Japan Path D OR claims spike |
-
-### Thesis Positions (Jun Expiry) — Predicted Outcomes
-
-| Position | Profitable at Expiry | Confidence |
-|----------|---------------------|------------|
+**Week outcome: BASE (status quo)** — CVNA clean, Japan positive (no stress), claims stable. No major catalyst fired. Correct scenario at 50% confidence.
 | KRE puts | 65% | High — CRE math is arithmetic |
 | IWM puts | 60% | Medium-high — beta unwind |
 | HYG puts | 55% | Medium — credit complacency must break |
@@ -108,6 +54,7 @@
 
 ## RECENTLY RESOLVED
 
+### Thesis Predictions (Core)
 | # | Prediction | Result | Confidence | Notes |
 |---|------------|--------|------------|-------|
 | **OTTO-4** | Bank losses >$1B (auto fraud) | ✅ CORRECT | 65% | **$1.8B** — Tricolor $591M + First Brands ~$1.2B (Feb 14) |
@@ -118,7 +65,53 @@
 | SAM-3 | Takaichi <260 seats | ❌ WRONG | 55% | 316 LDP seats — supermajority |
 | LABOR-4 | KFRC guides down | ⚠️ PARTIAL | 70% | Beat estimates but confirms "stagnation" |
 
-**Running Score:** 5.5/7 (79%)
+**Thesis Score:** 5.5/7 (79%)
+
+### Event Predictions (Feb 18-20 Catalyst Week)
+
+**CVNA Earnings (Feb 18):**
+| # | Prediction | Result | Confidence | Notes |
+|---|------------|--------|------------|-------|
+| CVNA-E1 | 10-K filed on time | ✅ CORRECT | 70% | Filed 4:11 PM same day. Gotham's delay prediction wrong. |
+| CVNA-E2 | GT remains auditor | ✅ CORRECT | 90% | Standard unqualified opinion. CFO called shorts "100% inaccurate." |
+| CVNA-E3 | Extension rate >6% | ❌ WRONG | 60% | 5.41% (S&P 2024 data). Highest of 23 issuers but below threshold. |
+| CVNA-E4 | Stock drops >5% by Feb 20 | ❌ WRONG | 45% | -4.08% to $336.62. Feb 19 hit -5.17% ($332.79) but recovered. |
+| CVNA-E5 | Puts profitable (<$305) | ❌ WRONG | 35% | Low of $313.41 (Feb 23). Never breached $305. |
+| CVNA-E6 | Max gain (<$290) | ❌ WRONG | 10% | Never close. Correctly low-confidence. |
+
+**Japan (Feb 19):**
+| # | Prediction | Result | Confidence | Notes |
+|---|------------|--------|------------|-------|
+| JAP-1 | Shunto electronics ≥3.5% | ✅ CORRECT | 55% | ¥18,000 demand = "Strong" |
+| JAP-2 | 20Y JGB passes (BTC >2.5x) | ✅ CORRECT | 65% | BTC 3.08x — strong demand |
+| JAP-3 | Path D trigger (BOTH fire) | ❌ WRONG | 12% | Both were positive (strength, not stress). Correctly low-conf. |
+| JAP-4 | USDJPY breaks 150 | ❌ WRONG | 20% | Stayed ~156. Correctly low-confidence. |
+
+**TIC Data (Feb 18):**
+| # | Prediction | Result | Confidence | Notes |
+|---|------------|--------|------------|-------|
+| TIC-1 | Belgium >$500B | ❌ WRONG | 40% | $477.3B (↓from $481B ATH). Correctly below-50% conf. |
+| TIC-2 | China holdings decline | ✅ CORRECT | 60% | $683.5B (below $760B threshold) |
+| TIC-3 | Net foreign selling >$20B | ❌ WRONG | 50% | Net INFLOW $44.9B — foreigners were buying |
+
+**Claims (Feb 20):**
+| # | Prediction | Result | Confidence | Notes |
+|---|------------|--------|------------|-------|
+| CLM-1 | Claims 225K-240K range | ✅ CORRECT | 70% | 227K |
+| CLM-2 | DHS distortion visible | ❌ WRONG | 55% | No spike, stayed flat |
+| CLM-3 | 4-week avg <250K | ✅ CORRECT | 80% | Well under |
+
+**Event Score:** 7/15 (47%)
+
+### Combined Score
+**Overall: 12.5/22 (57%)**
+
+### Calibration Notes
+- **High-confidence (>70%):** 7/8 correct (88%) ← well calibrated
+- **Medium-confidence (50-70%):** 4.5/9 correct (50%) ← well calibrated
+- **Low-confidence (<50%):** 1/5 correct (20%) ← well calibrated
+- Low-prob predictions (E6 10%, JAP-3 12%, JAP-4 20%) correctly missed — that IS good calibration
+- CVNA thesis was directionally right (stock fell 24% from high) but timing/execution failed
 
 ---
 

@@ -21,12 +21,13 @@ BLS_API_KEY = "28cc34af39834eb2a4d85d3119f72077"
 
 # SEC EDGAR watchlist - banks we're tracking
 SEC_WATCHLIST = {
-    "VLY": {"cik": "0000714310", "name": "Valley National Bancorp"},
     "WAL": {"cik": "0001212545", "name": "Western Alliance Bancorporation"},
+    "OZK": {"cik": "0001569650", "name": "Bank OZK"},
+    "VLY": {"cik": "0000714310", "name": "Valley National Bancorp"},
     "EGBN": {"cik": "0001050441", "name": "Eagle Bancorp Inc"},
     "ZION": {"cik": "0000109380", "name": "Zions Bancorporation"},
-    "CFG": {"cik": "0000759944", "name": "Citizens Financial Group"},
     "FLG": {"cik": "0001033012", "name": "Flagstar Bancorp Inc"},
+    "BXSL": {"cik": "0001736035", "name": "Blackstone Secured Lending Fund"},
 }
 
 # Telegram alerting - direct bot API
@@ -731,13 +732,13 @@ def check_thresholds(prices):
     global last_breach_state
     
     checks = [
-        ("KRE", "below", "KRE dropped below ${threshold} (Position target approaching)"),
+        ("KRE", "below", "KRE dropped below ${threshold} (Regional bank stress)"),
+        ("WAL", "below", "🎯 WAL dropped below ${threshold} (Put strike breached!)"),
+        ("OZK", "below", "OZK dropped below ${threshold} (Thesis target approaching)"),
         ("VIX", "above", "VIX spiked above {threshold} (Fear elevated)"),
-        ("BTC", "below", "BTC dropped below ${threshold} (Liquidity warning)"),
         ("USDJPY", "above", "USD/JPY broke above {threshold} (SAM threshold breached)"),
         ("TNX", "above", "10Y Treasury yield above {threshold}% (Restrictive)"),
         ("HYG", "below", "HYG dropped below ${threshold} (Credit stress signal)"),
-        ("CVNA", "below", "🎯 CVNA dropped below ${threshold} (Put spread break-even hit!)"),
     ]
     
     for symbol, direction, msg_template in checks:
@@ -793,32 +794,21 @@ def fetch_prices():
         return price_cache["data"]
     
     prices = {
-        "KRE": {"value": None, "threshold": 65, "direction": "below"},
+        "KRE": {"value": None, "threshold": 60, "direction": "below"},    # Regional banks - put strike
+        "WAL": {"value": None, "threshold": 82.5, "direction": "below"},  # Primary thesis - put strike
+        "OZK": {"value": None, "threshold": 40, "direction": "below"},    # Secondary thesis - watching
         "VIX": {"value": None, "threshold": 25, "direction": "above"},
-        "BTC": {"value": None, "threshold": 60000, "direction": "below"},
         "USDJPY": {"value": None, "threshold": 160, "direction": "above"},
-        "TNX": {"value": None, "threshold": 5.0, "direction": "above"},  # 10Y Treasury yield
-        "HYG": {"value": None, "threshold": 75, "direction": "below"},   # HY bond ETF (proxy for spreads)
-        "SPY": {"value": None, "threshold": None, "direction": None},    # Context
-        "GLD": {"value": None, "threshold": None, "direction": None},    # Risk-off indicator
-        "CVNA": {"value": None, "threshold": 305, "direction": "below"},  # Carvana - put spread BE at $305
+        "TNX": {"value": None, "threshold": 5.0, "direction": "above"},   # 10Y Treasury yield
+        "HYG": {"value": None, "threshold": 75, "direction": "below"},    # Credit stress proxy
+        "IWM": {"value": None, "threshold": None, "direction": None},     # Small caps - position held
+        "SPY": {"value": None, "threshold": None, "direction": None},     # Context
+        "GLD": {"value": None, "threshold": None, "direction": None},     # Risk-off indicator
         "updated": None
     }
     
-    # Fetch BTC from CoinGecko (free, no auth)
-    try:
-        req = urllib.request.Request(
-            "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd",
-            headers={"User-Agent": "PROME-Dashboard/1.0"}
-        )
-        with urllib.request.urlopen(req, timeout=10) as resp:
-            data = json.loads(resp.read().decode())
-            prices["BTC"]["value"] = data.get("bitcoin", {}).get("usd")
-    except Exception as e:
-        print(f"[Prices] BTC fetch error: {e}")
-    
     # Fetch from Yahoo Finance
-    for symbol, key in [("KRE", "KRE"), ("^VIX", "VIX"), ("USDJPY=X", "USDJPY"), ("^TNX", "TNX"), ("HYG", "HYG"), ("SPY", "SPY"), ("GLD", "GLD"), ("CVNA", "CVNA")]:
+    for symbol, key in [("KRE", "KRE"), ("WAL", "WAL"), ("OZK", "OZK"), ("^VIX", "VIX"), ("USDJPY=X", "USDJPY"), ("^TNX", "TNX"), ("HYG", "HYG"), ("IWM", "IWM"), ("SPY", "SPY"), ("GLD", "GLD")]:
         try:
             url = f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?interval=1d&range=1d"
             req = urllib.request.Request(url, headers={"User-Agent": "PROME-Dashboard/1.0"})

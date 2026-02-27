@@ -56,14 +56,11 @@
 
 | Date | Event | Priority |
 |------|-------|----------|
-| **Feb 27** | KRE roll + VLY decision | ⏳ TODAY |
+| **Mon Mar 2** | KRE roll (cash settles) | 🔴 |
 | Mar 1 | OPEC+ meeting | 🟠 |
-| Mar 6 | NFP (Feb 2026) | 🔴 |
-| Early Mar | Cantor appraisals | 🟠 |
-| Late Mar | Baltic ice breaks → exit tankers | 🟠 |
-| Apr 16 | OZK Q1 earnings | 🔴 |
-| April | Q1 bank earnings (WAL, regionals) | 🔴 |
-| May | BDC earnings (BXSL, FSK, OWL) | 🔴 |
+| Mar 6 | NFP (Feb) | 🔴 |
+| Mar 17-18 | FOMC (SEP) | 🔴 |
+| Apr 16-29 | Bank earnings (OZK/ZION/WAL/VLY/EGBN) | 🔴 |
 | May 12 | WAL Investor Day | 🔴 |
 
 ---

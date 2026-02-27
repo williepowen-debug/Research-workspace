@@ -1,5 +1,5 @@
 # PREDICTIONS MONITOR
-**Updated:** 2026-02-13
+**Updated:** 2026-02-27
 
 Quick-reference for predictions closest to resolution. Check daily.
 
@@ -13,8 +13,7 @@ Quick-reference for predictions closest to resolution. Check daily.
 | **CARL-11** | CC 90+ DQ >13.74% (GFC) | 12.70% | 13.74% | **1.04pp** | Q2 2026 | CARL |
 | **CARL-12** | Student 90+ DQ >10% | 9.5% | 10.0% | **0.5pp** | Q1 2026 | CARL |
 | **CARL-14** | Subprime Auto 60+ >7% | 6.65% | 7.00% | **0.35pp** | Q2 2026 | CARL |
-| **LIQUID-6** | Belgium TIC >$500B | $481B | $500B | **$19B** | Feb 18 TIC | LIQUID/ZHAO |
-| **SAM-7** | Shunto ≥3.5% (Strong) | TBD | 3.5% | — | Late Mar | SAM |
+| **SAM-7** | Shunto tally ≥3.5% | Electronics ¥18K ✅ | 3.5% | — | Mid-Mar tally | SAM |
 
 ---
 
@@ -34,13 +33,12 @@ Quick-reference for predictions closest to resolution. Check daily.
 
 | Date | Event | Prediction | Agent |
 |------|-------|------------|-------|
-| **Feb 18** | Dec TIC Data | Belgium >$500B? | ZHAO/LIQUID |
-| **Feb 19** | 20Y JGB Auction | BTC stress? | SAM |
-| **Feb 19** | Electronics Shunto | Strong signal? | SAM |
-| **Mid-Mar** | Shunto Yamaba | Base-up % | SAM |
-| **Late Mar** | Shunto First Tally | ≥3.5%? | SAM |
-| **Late Apr** | SSB Q1 Earnings | NPL >0.5%? | REGINALD |
-| **Apr 23-24** | BOJ MPM | Rate to 1.0%? | SAM |
+| **Mid-Mar** | Shunto First Tally | ≥3.5% base-up? | SAM |
+| **Mar 17** | FOMC + SEP | Dot plot shift? | HENRY |
+| **Apr 16** | OZK Q1 Earnings | CRE provisions spike? | REGINALD |
+| **Apr 22** | WAL Q1 Earnings | Hidden CRE disclosed? | REGINALD |
+| **Apr 23-24** | BOJ MPM | Rate to 0.75%? | SAM |
+| **May 12** | WAL Investor Day | CRE strategy questioned? | REGINALD |
 
 ---
 
@@ -48,13 +46,15 @@ Quick-reference for predictions closest to resolution. Check daily.
 
 | ID | Prediction | Result | Date | Notes |
 |----|------------|--------|------|-------|
+| OTTO-4 | Bank losses >$1B (auto fraud) | ✅ $1.8B | Feb 14 | Tricolor $591M + First Brands ~$1.2B |
 | CARL-1 | CC 90+ >8.36% | ✅ 12.70% | Feb 10 | NY Fed Q4 2025 |
 | CARL-3 | FL foreclosures +100% | ✅ +190% | Feb 10 | Q4 2025 data |
 | SAM-1 | 30Y JGB BTC >2.10x | ✅ 3.64x | Feb 5 | Strong demand |
 | SAM-2 | USD/JPY <160 | ✅ 156.25 | Feb 8 | Post-election |
 | SAM-3 | Takaichi <260 seats | ❌ 316 | Feb 8 | Supermajority |
+| LABOR-4 | KFRC guides down | ⚠️ Partial | Feb 11 | Beat but confirms stagnation |
 
-**Running Score:** 4.5/6 (75%)
+**Running Score:** 5.5/7 (79%)
 
 ---
 
