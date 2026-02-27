@@ -58,6 +58,16 @@
 **Mistake:** Read 3 files instead of full boot, jumped to responding. Misread WAL -10% as +10%, gave sloppy analysis, Will noticed.
 **Rule:** AGENTS.md boot sequence is mandatory. Every session, no shortcuts. Read SOUL → USER → LESSONS → memory → PROME/STATUS → FORGE/STATUS before saying anything substantive. The 2 minutes it takes prevents the 10 minutes of bad output.
 
+### [Process] — Write Files For How You Actually Read Them
+**Learned from:** FOLLOW_UP.md rewrite (Feb 27). First version was a research to-do list. Second version was a self-correction tool.
+**Rules:**
+1. You skim headers and bold text first — put the important stuff there
+2. Guardrails before opportunities — "things you might be wrong about" goes ABOVE "things to investigate"
+3. Questions > statements — "Is Athene ring-fenced?" is actionable, "investigate Apollo's structure" is vague
+4. Include counters inline with claims — don't put them in a separate section you'll skip
+5. Specific spawn commands > "have agent look into it" — copy-pasteable saves a thinking step
+6. Add a meta instruction telling future-you to MAINTAIN the file, not just consume it
+
 ### [Analysis] — Double-Check Direction When Reading Screenshots
 **Mistake:** Called WAL +10.64% (it was -10.64%), called a red watchlist "green." Twice in one session. Extracted correct numbers but inverted the sign/color.
 **Rule:** When reading price screenshots, state the direction explicitly and verify against context. If everything else is selling off, a stock isn't up 10%.
