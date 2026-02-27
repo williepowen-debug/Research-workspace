@@ -1,7 +1,7 @@
 # PROME STATUS.md
 **Updated:** 2026-02-27 04:50 UTC
 
-**Last context:** KRE -3.9% ($67.64), thesis printing. Roll order prepped (~$1,351, waiting on cash). HENRY spawned clean (🔴 RED — SPX at Put Wall). OTTO cleaned via self-spawn. All 6 agent check-ins processed. NEXT: Execute KRE roll, screen BXSL/OWL, prune REGINALD (68KB).
+**Last context:** KRE closed ~$67.34 (-4.3%). REGINALD pruned (68KB→6.2KB). Cash tied up in Fidelity settlement — $81 available, ~$4K Monday. NEXT: KRE roll Monday, WAL exit criteria, screen BXSL/OWL, check remaining agent spawn-readiness.
 
 ## 🔴 CRITICAL — Private Credit Recognition Wave | Multiple Vectors Confirming
 
