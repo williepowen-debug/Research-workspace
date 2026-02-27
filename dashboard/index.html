@@ -3297,6 +3297,123 @@
             }
         }
         
+        // Wire FRED + Yahoo data into domain cards
+        function updateDomainCards(fredData, priceData) {
+            const series = fredData ? (fredData.series || {}) : {};
+            
+            // LABOR domain cards
+            if (series.ICSA && !series.ICSA.error) {
+                const el = document.getElementById('labor-claims');
+                if (el) el.textContent = Math.round(series.ICSA.value / 1000) + 'K';
+            }
+            if (series.JTSJOL && !series.JTSJOL.error) {
+                const el = document.getElementById('labor-jolts');
+                if (el) el.textContent = (series.JTSJOL.value / 1000).toFixed(1) + 'M';
+            }
+            if (series.UNRATE && !series.UNRATE.error) {
+                const el = document.getElementById('labor-u3');
+                if (el) el.textContent = series.UNRATE.value.toFixed(1) + '%';
+            }
+            if (series.U6RATE && !series.U6RATE.error) {
+                const el = document.getElementById('labor-u6');
+                if (el) el.textContent = series.U6RATE.value.toFixed(1) + '%';
+            }
+            
+            // HENRY domain cards (from Yahoo prices)
+            if (priceData) {
+                if (priceData.VIX && priceData.VIX.value) {
+                    const el = document.getElementById('henry-vix');
+                    if (el) {
+                        el.textContent = priceData.VIX.value.toFixed(2);
+                        el.className = 'market-value ' + (priceData.VIX.value > 25 ? 'breach' : priceData.VIX.value > 20 ? 'warning' : '');
+                    }
+                }
+                if (priceData.SPY && priceData.SPY.value) {
+                    const el = document.getElementById('henry-spx');
+                    // SPX ≈ SPY * 10
+                    const spx = Math.round(priceData.SPY.value * 10);
+                    if (el) el.textContent = spx.toLocaleString();
+                }
+            }
+            
+            // LABOR ratio (JOLTS/Unemployed) — compute if both available
+            if (series.JTSJOL && !series.JTSJOL.error && series.UNRATE && !series.UNRATE.error) {
+                // Rough calc: JOLTS openings (thousands) / (UNRATE% * civilian labor force ~168M)
+                const unemployed = (series.UNRATE.value / 100) * 168000; // thousands
+                const ratio = (series.JTSJOL.value / unemployed).toFixed(2);
+                const el = document.getElementById('labor-ratio');
+                if (el) {
+                    el.textContent = ratio;
+                    el.className = 'market-value ' + (ratio < 1.0 ? 'warning' : '');
+                }
+            }
+            
+            // HENRY HY OAS from FRED
+            if (series.BAMLH0A0HYM2 && !series.BAMLH0A0HYM2.error) {
+                const el = document.getElementById('henry-oas');
+                if (el) {
+                    el.textContent = series.BAMLH0A0HYM2.value.toFixed(2) + '%';
+                    el.className = 'market-value ' + (series.BAMLH0A0HYM2.value > 4.0 ? 'breach' : series.BAMLH0A0HYM2.value > 3.0 ? 'warning' : '');
+                }
+            }
+            
+            // LIQUID domain cards
+            if (series.RRPONTSYD && !series.RRPONTSYD.error) {
+                const el = document.getElementById('liquid-rrp');
+                // RRP is in millions from FRED
+                const rrpB = (series.RRPONTSYD.value / 1000).toFixed(1);
+                if (el) {
+                    el.textContent = '$' + rrpB + 'B';
+                    el.className = 'market-value ' + (series.RRPONTSYD.value < 50000 ? 'warning' : '');
+                }
+            }
+            if (series.SOFR && !series.SOFR.error) {
+                const el = document.getElementById('liquid-sofr');
+                if (el) el.textContent = series.SOFR.value.toFixed(2) + '%';
+            }
+            
+            // SAM — USD/JPY from prices
+            if (priceData && priceData.USDJPY && priceData.USDJPY.value) {
+                const el = document.getElementById('sam-usdjpy');
+                if (el) el.textContent = priceData.USDJPY.value.toFixed(2);
+            }
+            
+            // REGINALD — bank prices from Yahoo
+            if (priceData) {
+                if (priceData.KRE && priceData.KRE.value) {
+                    const el = document.getElementById('reginald-kre');
+                    if (el) el.textContent = '$' + priceData.KRE.value.toFixed(2);
+                }
+                if (priceData.WAL && priceData.WAL.value) {
+                    const el = document.getElementById('reginald-wal');
+                    if (el) el.textContent = '$' + priceData.WAL.value.toFixed(2);
+                }
+                if (priceData.OZK && priceData.OZK.value) {
+                    const el = document.getElementById('reginald-ozk');
+                    if (el) el.textContent = '$' + priceData.OZK.value.toFixed(2);
+                }
+            }
+        }
+        
+        // Store latest data for cross-updates
+        let latestFredData = null;
+        let latestPriceData = null;
+        
+        // Wrap existing fetchers to also update domain cards
+        const _origUpdateFred = updateFred;
+        updateFred = function(data) {
+            _origUpdateFred(data);
+            latestFredData = data;
+            updateDomainCards(latestFredData, latestPriceData);
+        };
+        
+        const _origUpdatePrices = updatePrices;
+        updatePrices = function(data) {
+            _origUpdatePrices(data);
+            latestPriceData = data;
+            updateDomainCards(latestFredData, latestPriceData);
+        };
+        
         // Calculate days to expiry for puts
         function updateExpiryDays() {
             const now = new Date();

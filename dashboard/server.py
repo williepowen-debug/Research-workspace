@@ -106,12 +106,19 @@ last_breach_state = load_breach_state()
 
 # FRED series we care about
 FRED_SERIES = {
+    # LABOR
     "ICSA": {"name": "Initial Claims", "threshold": 250000, "direction": "above", "format": "thousands"},
     "CCSA": {"name": "Continuing Claims", "threshold": 2000000, "direction": "above", "format": "thousands"},
     "JTSJOL": {"name": "JOLTS Job Openings", "threshold": 7000, "direction": "below", "format": "thousands"},
     "TEMPHELPS": {"name": "Temp Employment", "threshold": None, "direction": None, "format": "thousands"},
     "UNRATE": {"name": "Unemployment Rate", "threshold": 5.0, "direction": "above", "format": "percent"},
+    "U6RATE": {"name": "U-6 Underemployment", "threshold": 9.0, "direction": "above", "format": "percent"},
     "PAYEMS": {"name": "Nonfarm Payrolls", "threshold": None, "direction": None, "format": "thousands"},
+    # HENRY
+    "BAMLH0A0HYM2": {"name": "HY OAS", "threshold": 4.0, "direction": "above", "format": "percent"},
+    # LIQUID
+    "SOFR": {"name": "SOFR Rate", "threshold": 4.50, "direction": "above", "format": "percent"},
+    "RRPONTSYD": {"name": "RRP Balance", "threshold": 50, "direction": "below", "format": "billions"},
 }
 
 def fetch_fred_data():

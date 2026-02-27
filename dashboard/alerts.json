@@ -304,5 +304,14 @@
     "message": "BXSL filed 10-K: Blackstone Secured Lending Fund",
     "value": "2026-02-25",
     "threshold": null
+  },
+  {
+    "id": 1772219088502,
+    "timestamp": "2026-02-27 19:04:48 UTC",
+    "type": "fred",
+    "severity": "warning",
+    "message": "RRP Balance breached threshold: 16.3% (threshold: 50.0%)",
+    "value": 16.318,
+    "threshold": 50
   }
 ]
