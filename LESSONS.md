@@ -4,163 +4,54 @@
 
 ---
 
-## How to Use
+## Core Rules
 
-After any correction from Will:
-1. Identify the **pattern** (not just the instance)
-2. Write a **rule** that prevents recurrence
-3. Add entry below with date and category
+### [Verification] — Verify Before Citing
+**Pattern:** Multiple mistakes from trusting secondary sources, agent data, or own STATUS files without checking primary sources.
+**Rules:**
+1. Agent-sourced metrics → verify against SEC 10-K/10-Q before trading
+2. Earnings dates → verify from company IR page or SEC 8-K
+3. Real-time prices (VIX, oil, yields) → pull from actual sources, not STATUS files
+4. Bond ETF comparisons → check duration before inferring credit signal
+5. Data with caveats (calendar effects, seasonal adjustments) → read the source's methodology
+6. Regulatory buffers → verify regulations weren't rolled back (post-2018 regionals exempt from CCAR/DFAST)
+7. Indicator type → confirm leading/coincident/lagging before using as signal (FHLB is lagging)
 
-Categories: `[Analysis]` `[Communication]` `[Execution]` `[Verification]` `[Memory]` `[Process]`
+### [Analysis] — Don't Override Conviction With Probabilistic Hedging ⚠️ COSTLY
+**Mistake:** Recommended closing CVNA put spread before earnings. Said "even a big miss likely lands above your strike." Stock dropped 20% — would have been near-max profit.
+**Rules:**
+1. Implied moves are consensus, not ceilings. Actual moves regularly exceed implied.
+2. Never say "even a big miss won't reach X" — that's predicting magnitude.
+3. When someone has conviction + timing, don't talk them out of it unless the THESIS is broken.
+4. Don't inject false urgency ("20 min to close") that biases toward action when inaction is valid.
 
----
+### [Analysis] — Test Thesis Against Data, Not Data Against Thesis
+**Mistake:** Assumed consumer finance stress (SYF, BFH, ALLY) based on thesis, but SEC filings showed improvement.
+**Rule:** For any "stress" claim, check actual filings. K-shape means different populations behave differently. Confirmation bias is the biggest risk.
 
-## Lessons
+### [Analysis] — Cross-System Timing Requires Cross-System Reads
+**Mistake:** Gave "Q2-Q3" timing estimate from a single-vector read.
+**Rule:** Timing estimates spanning the full thesis require reading all agent STATUS files, not just the one you're working on.
 
-### 2026-02-16 — [Analysis]
-**Mistake:** Claimed PSEC had 35% PIK ratio based on agent research without verifying against SEC filings.
-**Pattern:** Trusting derived data without primary source verification.
-**Rule:** Before trading on any agent-sourced metric, verify against SEC 10-K/10-Q. "Agent says X" ≠ "X is true."
+### [Process] — Agent Standup Checklist
+**Learned from:** BROCK creation (Feb 26) — multiple issues caught.
+**Rules:**
+1. Audit inherited data — flag anything stale or verified-wrong
+2. Verify receiving agent's inbox format before defining signal paths
+3. Route signals to most granular specialist first
+4. Do a "first boot simulation" before spawning — read every file they'll see
 
-### 2026-02-16 — [Analysis]
-**Mistake:** Assumed consumer finance stress (SYF, BFH, ALLY) based on thesis, but actual SEC filings showed improvement.
-**Pattern:** Confirmation bias — looking for data that fits thesis, not testing thesis against data.
-**Rule:** For any "stress" claim, check if the actual company filings confirm or contradict. K-shape means different populations behave differently.
+### [Process] — Structured Adversarial Debates
+**Learned from:** RED team sessions — probability tracking forces honest engagement.
+**Rules:**
+1. Run steelman + cross-examination + scenario matrix for major trades
+2. Track probability movements — side that moved more engaged more honestly
+3. Judge intervention with new information is most effective at forcing updates
 
-### 2026-02-14 — [Analysis]
-**Mistake:** Used FHLB at $480B as counter-evidence for stress, but FHLB is lagging (spikes during crisis, not before).
-**Pattern:** Using lagging indicators as leading indicators.
-**Rule:** Before citing any metric as "no stress signal," verify if it's leading, coincident, or lagging. Lagging indicators can't predict.
-
-### 2026-02-17 — [Analysis]
-**Mistake:** Interpreted LQD vs HYG outperformance as "quality rotation" without accounting for duration difference (8.36yr vs 4.06yr).
-**Pattern:** Confounding variables in chart interpretation.
-**Rule:** When comparing bond ETFs, always check duration. Total return differences can be rate moves, not credit moves. Use OAS for credit signal.
-
-### 2026-02-18 — [Execution]
-**Mistake:** Tried to install PyTorch on 1.9GB RAM VPS — got OOM killed.
-**Pattern:** Not checking resource constraints before heavy operations.
-**Rule:** Before installing large packages or running memory-intensive tasks, check `free -h`. If <500MB available, use API-based alternatives or lighter tools.
-
-### 2026-02-18 — [Execution]
-**Mistake:** Didn't notice OpenClaw memory_recall was failing silently until explicitly tested.
-**Pattern:** Features can break (quota, config, API changes) without obvious errors.
-**Rule:** Periodically test critical features, don't assume they work. When something feels off, verify the tools are actually functioning.
-
-### 2026-02-26 — [Process]
-**Mistake:** Created BROCK agent with stale/wrong data in STATUS.md (PSEC 35% PIK, FSK dividend "maintained", BXSL 🟢) without flagging it in boot instructions.
-**Pattern:** New agents inherit existing files without context on what's known-bad.
-**Rule:** When standing up a new agent, audit the data they'll inherit. Add a "Known Data Issues" section to AGENTS.md flagging anything stale or verified-wrong. Don't let a fresh agent trust poisoned data.
-
-### 2026-02-26 — [Process]
-**Mistake:** Told BROCK to write upstream signals to `repo/AGENTS/REGINALD/inbox/` but REGINALD reads a single `INBOX.md` file, not a folder.
-**Pattern:** Assuming all agents use the same inbox convention without checking.
-**Rule:** Before defining inter-agent signal paths, verify the RECEIVING agent's actual boot sequence and inbox format.
-
-### 2026-02-26 — [Process]
-**Mistake:** Routed all private credit signals to LIQUID initially. Will caught that BROCK owns private credit.
-**Pattern:** Defaulting to the "biggest" agent instead of the most specific one.
-**Rule:** Route signals to the most granular specialist first. Raw signals → specialist, distilled summaries → parent/lateral agents.
-
-### 2026-02-26 — [Process]
-**Learning:** Reviewing agent setup from the agent's perspective (simulating first boot) caught 3 real issues. Second-pass review is worth the time.
-**Rule:** Before spawning a new or significantly updated agent, do a "first boot simulation" — read every file they'll see and ask: what would confuse me?
-
-### 2026-02-18 — [Process]
-**Mistake:** Created SKILLS.md thinking it would improve workflow, then realized it's mostly redundant.
-**Pattern:** Documenting principles after building architecture adds little value — the architecture already does the work.
-**Rule:** Build the system first. Document for reference, not behavior change. Time spent on architecture beats time spent on instruction docs.
-
-### 2026-02-18 — [Verification]
-**Mistake:** DARWIN reported "Claude Sonnet 4.6 dropped yesterday" — implemented upgrade, but model doesn't exist.
-**Pattern:** Sub-agents can hallucinate confidently. Research scans mix real findings with plausible-sounding fiction.
-**Rule:** Before implementing any agent-recommended upgrade (models, tools, packages), verify it exists: check official docs, try the API, test in sandbox. "Agent found X" ≠ "X exists."
-
-### 2026-02-18 — [Verification]
-**Mistake:** Stated "VIX ~15" in analysis when actual VIX was ~21-22. Pulled from HAWK's STATUS.md which I wrote with unverified placeholder data.
-**Pattern:** Citing own unverified data as fact. Writing placeholder assumptions that later get treated as researched findings.
-**Rule:** Real-time market prices (VIX, oil, yields) must be pulled from actual sources (Yahoo Finance, FRED, CNBC) at time of analysis. Never cite agent STATUS.md for current prices without verification. "I wrote it earlier" ≠ "it's accurate now."
-
-### 2026-02-18 — [Analysis] ⚠️ COSTLY — REAL MONEY LOST
-**Mistake:** Recommended closing CVNA $310/$290 put spread before earnings. Said "options-implied downside: ~$313 (only -13.5%)" and "even a big miss likely lands above your strike." Stock dropped 20% after-hours to ~$290 — below BOTH legs. Would have been near-max profit.
-**Pattern:** Using implied volatility as a ceiling on reality, then confidently predicting "big miss still won't hit your strike."
-**Rule:** 
-1. Implied moves are market consensus, not physics. Actual moves regularly exceed implied.
-2. Never say "even a big miss won't reach X" — that's predicting magnitude, not direction.
-3. When someone has conviction on direction and timing, don't talk them out of it with probabilistic hedging unless the THESIS is broken.
-4. "Thesis hasn't been invalidated" ≠ "close the position anyway."
-
-### 2026-02-18 — [Execution] ⚠️ RELATED
-**Mistake:** Created false urgency ("20 min to close") that pushed Will toward action when inaction was correct.
-**Pattern:** Time pressure causes worse decisions, not better ones. Urgency framing biases toward action.
-**Rule:** Don't inject urgency unless action is clearly better than inaction. "You need to decide fast" should only be used when NOT acting has clear downside. Holding a position through earnings is a valid choice — don't frame it as requiring justification.
-
-### 2026-02-18 — [Process]
-**Mistake:** OTTO had no procedure for monitoring short-seller reports after initial read. Gotham/Hindenburg reports were saved but never tracked for catalyst timing.
-**Pattern:** One-time research without follow-up monitoring. "Read and file" instead of "read, track, act."
-**Rule:** Short-seller reports need active monitoring:
-1. Log to agent's Trade Log immediately
-2. Set calendar reminder for stated catalyst dates
-3. Add to FL.tsv as active event
-4. Monitor for updates/new releases
-
-### 2026-02-18 — [Memory]
-**Mistake:** VX_HISTORY.tsv abandoned across almost all agents. VX.tsv has duplicate IDs, schema drift, conflicting statuses.
-**Pattern:** Workbook infrastructure created but not maintained. Schema violations accumulate silently.
-**Rule:** Workbook hygiene requires periodic audits:
-1. VX.tsv: IDs must be unique, schema columns must match header
-2. FL.tsv: TBD dates must be filled when events complete
-3. VX_HISTORY: Either maintain it or deprecate it explicitly
-4. Quarterly audit of all agent workbooks for integrity
-
-### 2026-02-20 — [Analysis]
-**Mistake:** Cited Wright 609K delinquencies as structural stress without noting ICE's caveat that November ending on Sunday inflated the figure.
-**Pattern:** Using headline numbers without reading methodology caveats.
-**Rule:** When citing data, check for calendar effects, seasonal adjustments, and methodology notes. Always read the source's own caveats.
-
-### 2026-02-20 — [Analysis]
-**Mistake:** RED cited "capital fortress" (CET1 ratios) as defense without accounting for 2018 deregulation that exempted regionals from stress testing.
-**Pattern:** Assuming regulatory protections exist without verifying they still apply.
-**Rule:** Before citing regulatory buffers as safety, verify the regulations weren't rolled back. Post-2018, most regionals aren't subject to CCAR/DFAST.
-
-### 2026-02-20 — [Process]
-**Lesson:** Structured adversarial debates with explicit probability tracking are highly effective for sharpening thesis.
-**Pattern:** Unstructured disagreement leads to talking past each other; structured debate forces engagement.
-**Rule:** For major trades, run Prome vs RED debate with: steelman requirement, crux identification, cross-examination, scenario matrix, EV calculation. Judge intervention with new information is most effective at forcing updates.
-
-### 2026-02-20 — [Process]
-**Lesson:** Both sides moved toward center during debate (Prome -7pp, RED +22pp). Side that moved more learned more.
-**Pattern:** Tracking probability updates reveals which arguments actually landed.
-**Rule:** After debates, log probability movements. If one side moved significantly more, their original position was likely weaker or they engaged more honestly with counter-evidence.
-
-### 2026-02-24 — [Analysis]
-**Mistake:** Called KRE pattern a "double top" when Feb 2026 made a NEW high vs Nov 2025, not an equal or lower high.
-**Pattern:** Forcing historical pattern comparisons that don't cleanly fit.
-**Rule:** Be precise about pattern definitions. Double top = equal highs. New high with reversal = potential blow-off/exhaustion, different pattern. Don't stretch terminology to fit thesis.
-
-### 2026-02-24 — [Communication]
-**Mistake:** Repeatedly told Will to "sleep well" or suggested ending sessions, creating impression of being "full" or wanting to close.
-**Pattern:** Default closing phrases that read as dismissive rather than helpful.
-**Rule:** Don't assume sessions should end. Let Will close when ready. Skip the "sleep coach" behavior.
+### [Verification] — Agent Claims Can Be Hallucinated
+**Mistake:** DARWIN reported "Sonnet 4.6 dropped" — implemented upgrade, broke all sub-agents (model doesn't exist).
+**Rule:** Before implementing any agent-recommended upgrade, verify it exists via official docs or API test.
 
 ---
 
-### 2026-02-25 — [Verification]
-**Mistake:** Stated OZK earnings was Feb 27, but Q4 2025 already reported Jan 20. Next earnings is April 16.
-**Pattern:** Using stale/assumed dates without verifying against primary source (company IR page or SEC filings).
-**Rule:** Before citing any earnings date, verify from company IR page or SEC 8-K. Don't trust memory or secondary sources for dates.
-
-### 2026-02-26 — [Analysis]
-**Mistake:** Gave Will a "Q2-Q3" timing estimate for the repricing event based only on private credit signals — without reading fresh STATUS from LABOR, HENRY, LIQUID, SAM, CARL, MARCO.
-**Pattern:** Making cross-system timing calls from a single-vector read.
-**Rule:** Timing estimates that span the full thesis (when does the market reprice?) require reading all agent STATUS files, not just the vector you're currently working on. Single-vector reads give single-vector timelines.
-
----
-
-## Pending Review
-
-*(Add items here during session, move to Lessons after confirming the pattern)*
-
----
-
-*Last reviewed: 2026-02-26*
+*Last reviewed: 2026-02-27*
