@@ -1,140 +1,150 @@
 # FORGE — Trading Operations
 
-> *Where research becomes action. Named for Prometheus's fire — the same fire that powers the forge.*
-
-**Last Updated:** 2026-02-27 00:50 UTC
-
----
-
-## What Is FORGE?
-
-FORGE is the trading arm of the research operation. While the AGENTS (LABOR, CARL, REGINALD, HENRY, LIQUID, SAM, etc.) gather intelligence and track stress signals, FORGE converts that research into positions.
-
-**The flow:**
-```
-AGENTS (research) → FORGE (execution) → P/L (accountability)
-```
-
-Each trade in FORGE has:
-- **STATUS.md** — Thesis, position, key levels, triggers
-- **TECHNICALS.md** — Chart analysis, patterns, MAs
-- **CATALYSTS.md** — Timeline of events that could move the trade
-- **JOURNAL.md** — Decision log, observations, lessons
+**Last Updated:** 2026-02-27 18:30 UTC (from portfolio screenshot)
 
 ---
 
 ## Overall Thesis
 
-We are positioned for a repricing of systemic risk that markets are currently denying. The thesis is that stress in private credit (BDCs) and commercial real estate (CRE) will transmit to regional banks, triggering a recognition event that reprices KRE and related assets.
+Positioned for repricing of systemic risk. Credit leads equities. Stress visible in private credit (BDC gates, CRE deterioration). Equity in denial.
 
-**Core Belief:** Credit leads equities. The stress is already visible in credit markets (BKLN at 52-week lows, BDC gates, CRE deterioration). Equity markets are in denial. When recognition happens, it happens fast.
+**Account:** $46,335 | +162.8% all-time | Today: +$1,124 (+2.49%)
 
 ---
 
-## Active Positions
+## Active Positions — Thesis Puts
 
-### Bearish / Risk-Off
+### WAL — Primary Target (Hidden CRE)
+| Strike | Expiry | Qty | Price | Day | Total P/L | Notes |
+|--------|--------|-----|-------|-----|-----------|-------|
+| **$85P** | Jun 18 | 1 | $9.30 | +$3.70 | **+57.4%** | |
+| **$82.5P** | Jun 18 | 1 | $7.90 | +$3.20 | **+102.2%** | Entry $3.91. ITM. |
 
-| Ticker | Position | Expiry | Strikes | Status | Thesis |
-|--------|----------|--------|---------|--------|--------|
-| **WAL** | **Puts** | **Jun 2026** | **$82.5P** | **ACTIVE +30%+** | **[WAL/](WAL/) — Hidden CRE, relabeling. Needs exit criteria.** |
-| **OZK** | **Puts** | **Aug 2026** | **$40P** | **PENDING — THESIS READY** | **Grade A. Crowded (14-15% short). Size small. Earnings Apr 16.** |
-| KRE | Puts | Jun 2026 | $60P, $65P, $67P | ACTIVE | [KRE/](KRE/) |
-| KRE | Puts | Mar 2026 | $62P | ❌ UNDERWATER | **ROLL to Jun $65P — attempting Feb 27** |
-| IWM | Puts | Jun 2026 | TBD | ACTIVE | Small caps, rate sensitive. ⚠️ Confirm held |
-| HYG | Puts | Jun 2026 | TBD | ACTIVE | Credit stress direct play. ⚠️ Confirm held |
-| VLY | Puts | Mar 20, 2026 | $10P | +18.7% | **~22 days, illiquid — DECISION THIS WEEK** |
-| ~~FSK~~ | ~~Puts~~ | ~~Apr 2026~~ | ~~$10P~~ | **CLOSED ~$15** | **Sold — illiquid, thesis confirmed after exit (div cut -31%)** |
-| KELYA | Puts | TBD | TBD | WATCHING | Staffing/employment lead |
+### KRE — Sector Index
+| Strike | Expiry | Qty | Price | Day | Total P/L | Notes |
+|--------|--------|-----|-------|-----|-----------|-------|
+| $67P | Jun 30 | 1 | $4.95 | +$1.57 | **+52.0%** | |
+| $65P | Jun 30 | 4 | $3.30 | +$0.37 | +17.4% | Largest lot |
+| $63P | Jun 30 | 1 | $2.90 | +$0.40 | +4.1% | |
+| $60P | Jun 30 | 3 | $4.15 | +$0.88 | +41.7% | |
+| $60P | Jun 30 | 2 | $2.30 | +$0.71 | **+78.7%** | Different cost basis |
+| $60P | Sep 30 | 2 | $3.45 | +$0.45 | +62.2% | Longer dated |
+| **$62P** | **Mar 31** | **5** | $1.03 | +$0.07 | **-11.0%** | ⚠️ **ROLL MON → Jun $65P** |
 
-### Bullish / Other
+### Other Banks
+| Ticker | Strike | Expiry | Qty | Price | Day | Total P/L |
+|--------|--------|--------|-----|-------|-----|-----------|
+| **OZK $42.5P** | Aug 21 | 1 | $2.65 | +$0.54 | -25.2% | Entered. Earnings Apr 16. |
+| ZION $57.5P | Jul 17 | 1 | $4.80 | +$1.60 | +19.8% | |
+| FLG $13P | Jul 17 | 1 | $1.25 | +$0.40 | +37.9% | Ex-NYCB |
+| EGBN $25P | Jun 18 | 1 | $0.45 | -$1.11 | **-71.3%** | Essentially dead |
+| SSB $90P | Jun 18 | 2 | $1.10 | -$0.76 | -41.1% | FL bank thesis |
+| VLY $10P | Mar 20 | 10 | $0.05 | $0.00 | **-40.7%** | $50 total value. Dead. |
 
-| Ticker | Position | Expiry | Strikes | Status | Thesis |
-|--------|----------|--------|---------|--------|--------|
-| TEN | Calls | TBD | TBD | PENDING | Russian oil / tanker play |
+### Broader Risk-Off
+| Ticker | Strike | Expiry | Qty | Price | Day | Total P/L |
+|--------|--------|--------|-----|-------|-----|-----------|
+| IWM $250P | Jun 30 | 1 | $9.49 | +$1.86 | +23.5% | Small caps |
+| HYG $75P | Jun 18 | 10 | $0.37 | -$0.03 | +20.6% | Credit stress |
+| KELYA $7.5P | Aug 21 | 1 | $0.75 | $0.00 | -1.0% | Staffing lead |
+
+---
+
+## Non-Thesis Positions
+
+### Core Hold
+| Ticker | Type | Qty | Value | Total P/L | Notes |
+|--------|------|-----|-------|-----------|-------|
+| **AAPL** | Shares | 100 | $26,631 | **+1,028%** | Legacy. 57% of portfolio. Don't touch. |
+
+### Commodities / Macro
+| Ticker | Type | Qty | Price | Total P/L | Thesis |
+|--------|------|-----|-------|-----------|--------|
+| GLD | Shares | 2 | $480.70 | +13.4% | Risk-off / inflation |
+| SLV | Shares | 15 | $84.01 | -1.6% | Silver |
+| USO | Shares | 3 | $81.51 | +16.8% | Oil — tanker/Russia thesis |
+| CPER | Shares | 6 | $36.80 | +6.2% | Copper |
+| PALL | Shares | 1 | $161.87 | +1.0% | Palladium |
+| FXY | Shares | 8 | $58.90 | -0.8% | Yen long — SAM thesis |
+
+### Equity Longs
+| Ticker | Type | Qty | Price | Total P/L | Notes |
+|--------|------|-----|-------|-----------|-------|
+| INVH | Shares | 17 | $26.51 | +0.6% | Invitation Homes |
+| AMH | Shares | 12 | $30.27 | -1.8% | American Homes 4 Rent |
+| GOOG | Shares | 1 | $305.60 | -8.6% | |
+| PLTR | Shares | 2 | $134.85 | **-14.9%** | |
+| RKLB | Shares | 2 | $65.22 | **-31.8%** | Rocket Lab |
+| OKLO | Shares | 3 | $62.64 | **-31.0%** | Nuclear |
+| SLVP | Shares | 3 | $46.80 | +8.9% | Silver miners |
+| XAR | Shares | 1 | $278.82 | +11.3% | Aerospace/defense |
+| ITA | Shares | 1 | $240.95 | +9.5% | Aerospace/defense |
+| TBT | Shares | 14 | $32.30 | -8.8% | Short 20Y Treasury |
+| CEPT | Shares | 15 | $11.22 | -1.4% | Cantor Equity Partners |
 
 ---
 
 ## Portfolio Metrics
 
-**Total Premium at Risk:** ~$2,500 (estimated across all puts)  
-**Max Gain Scenario:** 3-5x on KRE if thesis plays out  
-**Max Loss Scenario:** Premium expiration if soft landing
+| Metric | Value |
+|--------|-------|
+| Account value | $46,335 |
+| Cash | $3,331 (7.2%) |
+| Day P/L | +$1,124 (+2.49%) |
+| All-time P/L | +$26,174 (+162.8%) |
+| AAPL weight | 57.5% |
+| Thesis puts (est. premium) | ~$5,000 |
+| Pending activity | $751 |
 
 ---
 
-## Key Dates
+## Immediate Actions
 
-| Date | Event | Impact |
-|------|-------|--------|
-| ~~Feb 25~~ | ~~FSK Earnings~~ | ✅ DONE — div cut -31%, thesis confirmed |
-| Mar 1 | OPEC+ Meeting | Oil thesis |
-| Late March | Ice breaks | Exit tanker longs |
-| **Apr 16** | **OZK Earnings** | **CRE provision, potential entry catalyst** |
-| April | Q1 Bank Earnings (WAL, regionals) | CRE provision reveals |
-| **May 12** | **WAL Investor Day** | Management questioned on CRE strategy |
-| May-June | Consumer conversion | LABOR thesis plays out |
-
----
-
-## Risk Management Rules
-
-1. **Position sizing:** No single trade >5% of portfolio
-2. **Time stops:** Re-evaluate if thesis hasn't triggered by 60% of time to expiry
-3. **Falsification triggers:** Exit 50% if claims <230K through March AND FHLB <$500B
-4. **Add triggers:** Add on Path E confirmation (Feb-Mar foreclosures spike)
-5. **Hard stop:** Exit 100% if BTFP 2.0 announced or KRE breaks $73
+| Priority | Action | Deadline |
+|----------|--------|----------|
+| 🔴 | **KRE $62P Mar → Roll to Jun $65P** | Monday Mar 2 (cash settles) |
+| 🟠 | VLY $10P Mar — let expire worthless ($50 value) | Mar 20 |
+| 🟠 | EGBN $25P — essentially dead ($45 value) | Jun 18 |
+| 🟡 | Consider trimming WAL $82.5P (+102%) | Lock some profit |
+| 🟡 | Consider trimming KRE $60P Jun (+79%) | Lock some profit |
 
 ---
 
 ## Watchlist
 
-| Ticker | Why Watching | Entry Trigger |
-|--------|--------------|---------------|
-| **OZK** | **Worst hidden CRE ratio (37.6%)**, 142% Constr/Tier 1 | **Aug $40P @ ~$1.75** — Earnings Apr 16 |
-| STNG | Tanker / Russia oil squeeze | Decision on oil trades |
-| TNP | Ice-class tanker leader | Decision on oil trades |
-| CVX | 29% CPC exposure, short candidate | April earnings setup |
-| EGBN | Weakest regional bank (547% CRE/equity) | Individual bank short |
-| **BXSL** | **Medallia 78¢ in 10-K; NAV overstated** | **NEW — screen puts (BROCK thesis)** |
-| **OWL** | **Blue Owl epicenter; OBDC II gated; Weinstein positioned against** | **NEW — screen puts (BROCK thesis)** |
+| Ticker | Thesis | Entry Trigger |
+|--------|--------|---------------|
+| BXSL | Medallia 78¢, NAV overstated | Screen puts (BROCK) |
+| OWL | Blue Owl epicenter, OBDC II gated | Screen puts (BROCK) |
+| STNG/TNP | Tanker / Baltic ice | Late March |
+| CVX | 29% CPC exposure | April earnings |
+
+---
+
+## Key Dates
+
+| Date | Event |
+|------|-------|
+| **Mon Mar 2** | KRE $62P roll (cash settles) |
+| Mar 1 | OPEC+ meeting |
+| Mar 6 | NFP (Feb) |
+| Mar 20 | VLY $10P expiry |
+| Apr 16 | OZK Q1 earnings |
+| Apr 22 | WAL Q1 earnings |
+| May 12 | WAL Investor Day |
+| Jun 18-30 | Most puts expire |
+
+---
+
+## Risk Management
+
+1. No single trade >5% of portfolio
+2. Re-evaluate at 60% of time to expiry
+3. **Falsification:** Exit 50% if claims <230K through March AND FHLB <$500B
+4. **Hard stop:** Exit 100% if BTFP 2.0 or KRE breaks $73
+5. Trim winners >100% to lock profit (WAL $82.5P qualifies now)
 
 ---
 
 ## Quick Links
-
-**Top Level:**
-- **Full Portfolio:** [PORTFOLIO.md](PORTFOLIO.md) — All positions with P/L
-- **Pre-Advice Protocol:** [PROTOCOL.md](PROTOCOL.md) — Read before recommending trades
-
-**KRE Trade:**
-- **Thesis & Position:** [KRE/STATUS.md](KRE/STATUS.md)
-- **Chart Analysis:** [KRE/TECHNICALS.md](KRE/TECHNICALS.md)
-- **Event Timeline:** [KRE/CATALYSTS.md](KRE/CATALYSTS.md)
-- **Trade Log:** [KRE/JOURNAL.md](KRE/JOURNAL.md)
-- **RED vs Prome Debate:** [KRE/DEBATE_SUMMARY.md](KRE/DEBATE_SUMMARY.md)
-
----
-
-## How FORGE Connects to AGENTS
-
-| Agent | What They Track | How It Feeds FORGE |
-|-------|-----------------|-------------------|
-| LABOR | Employment, claims, layoffs | Timing for consumer stress |
-| CARL | Consumer credit, delinquencies | Direct KRE thesis input |
-| REGINALD | Regional banks, CRE exposure | Direct KRE thesis input |
-| BROCK | **BDCs & Private Credit** | Direct thesis — marks, dividends, gates, insurer exposure |
-| CREED | CRE markets, valuations | Direct KRE thesis input |
-| HENRY | Market structure, flows | Timing and sentiment |
-| LIQUID | Funding markets, Fed | Systemic stress signals |
-| SAM | Japan, carry trade | Independent catalyst path |
-
----
-
-## Session Notes
-
-*Updated each session with key observations*
-
-**Feb 24:** WAL position +30.54%. Entered 1x $82.5P Jun @ $3.91. Comprehensive chart analysis across 6-bank watchlist (KRE, WAL, OZK, ZION, FLG, EGBN). ALL names hit 52-week highs in Feb and reversed — textbook distribution pattern. Heavy volume on selloffs confirms institutional exit. OZK lagging the selloff (-7% from peak vs WAL -9.5%) — considering Aug $40P. RED challenged "topped" thesis at 40-50% confidence (vs our 75-80%), valid technical skepticism but didn't engage fundamental case (hidden CRE, Memo Item 3). KRE couldn't bounce on risk-on day (VIX -8%) — weak signal.
-
-**Feb 19-20:** Blue Owl gated redemptions. KRE sold off into close (-$1.00). Descending triangle forming with $70 support being tested. Technical and fundamental alignment strengthening. Debate with RED concluded at 55% Prome vs 25% RED for >15% decline by late 2026.
+- [KRE/STATUS.md](KRE/) | [WAL/](WAL/) | [PROTOCOL.md](PROTOCOL.md) | [PORTFOLIO.md](PORTFOLIO.md)

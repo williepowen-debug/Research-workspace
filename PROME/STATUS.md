@@ -26,25 +26,36 @@
 
 ---
 
-## Active Positions
+## Active Positions (Updated Feb 27 from screenshot)
 
-| Position | Expiry | Status | Action |
-|----------|--------|--------|--------|
-| WAL $85P | Jun 2026 | ✅ +40.5% | Trim decision pending |
-| WAL $82.5P | Jun 2026 | ✅ **+77%** ITM | **TRIM 1 of 1 → lock profit** |
-| KRE $62P | Mar 2026 | ⚠️ $3.85 from ITM | **ROLL to Jun $65P Monday** |
-| KRE puts (multi) | Jun 2026 | ✅ Hold | $60, $65, $67 strikes |
-| VLY $10P | Mar 20 | ⚠️ Illiquid | **Decision this week** |
-| IWM puts | Jun 2026 | ✅ Hold | Confirm still held |
-| HYG puts | Jun 2026 | ✅ Hold | Confirm still held |
-| SSB puts | Jun 2026 | ✅ Hold | Confirm still held |
-| EGBN $25P | — | ⚠️ OI: 4 | Hold to expiry |
+**Account:** $46,335 | +162.8% all-time | AAPL = 57.5% (legacy, don't touch)
+
+| Position | Expiry | Qty | P/L | Action |
+|----------|--------|-----|-----|--------|
+| WAL $85P | Jun 18 | 1 | **+57.4%** | |
+| WAL $82.5P | Jun 18 | 1 | **+102.2%** | 🟡 Trim? Lock profit |
+| KRE $67P | Jun 30 | 1 | +52.0% | |
+| KRE $65P | Jun 30 | 4 | +17.4% | |
+| KRE $63P | Jun 30 | 1 | +4.1% | |
+| KRE $60P | Jun 30 | 3+2 | +42/+79% | 🟡 Trim 1x at +79%? |
+| KRE $60P | Sep 30 | 2 | +62.2% | Longer dated |
+| **KRE $62P** | **Mar 31** | **5** | **-11%** | 🔴 **ROLL MON → Jun $65P** |
+| OZK $42.5P | Aug 21 | 1 | -25.2% | Entered. Apr 16 earnings. |
+| ZION $57.5P | Jul 17 | 1 | +19.8% | |
+| FLG $13P | Jul 17 | 1 | +37.9% | |
+| IWM $250P | Jun 30 | 1 | +23.5% | |
+| HYG $75P | Jun 18 | 10 | +20.6% | |
+| SSB $90P | Jun 18 | 2 | -41.1% | |
+| EGBN $25P | Jun 18 | 1 | -71.3% | Dead |
+| VLY $10P | Mar 20 | 10 | -40.7% | Dead ($50 value) |
+| KELYA $7.5P | Aug 21 | 1 | -1.0% | |
+
+Also: FXY (yen/SAM), USO (oil), GLD/SLV, TBT, CEPT + equity longs. Full detail → `FORGE/STATUS.md`
 
 **Watchlist:**
 
 | Ticker | Thesis | Entry |
 |--------|--------|-------|
-| OZK | Hidden CRE 37.6%, 10-K verified | Aug $40P — earnings Apr 16 |
 | BXSL | Medallia 78¢, NAV overstated | Screen options |
 | OWL | Blue Owl epicenter, OBDC II gated | Screen options |
 | STNG/TNP | Tanker / Baltic ice | Late March |
