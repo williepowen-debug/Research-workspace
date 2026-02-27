@@ -35,6 +35,11 @@ Will has built specialized agents for investment research:
 - **LIQUID** — Funding markets / RRP / SOFR / Treasury auctions
 - **SAM** — Japan macro / yen / carry trade dynamics
 
+**Sub-agents (under REGINALD):**
+- **BROCK** — BDCs & private credit (standalone agent as of Feb 26)
+- **CREED** — CRE deep dive
+- **CORAL** — Florida condo crisis
+
 **Other:**
 - **BARON** — Trump network / policy influence tracking
 - **MARCO** — Macro migration / labor flows
@@ -94,3 +99,8 @@ The system uses STATUS.md (living docs), workbooks (ML/FL/VX/FLOW), and PREDICTI
 - **Pushes back constructively** — Doesn't accept first answers uncritically. Probes assumptions.
 - **Learning primary research** — (Feb 25) Pulled OZK 10-K from EDGAR himself, went through 159 pages together. Asked good challenging questions ("14% is high?", "no catalyst but shorting?"). Getting hands-on with the data.
 - **Context-aware** — Asked about token efficiency, whether boilerplate text wastes context. Understands the system's constraints.
+- **Architectural thinker** — (Feb 26) Insisted BROCK should be standalone agent, not just a REGINALD sub-task. Reasoning: "more granular context = more room to operate and learn." Thinks about agent design like system architecture.
+- **Quality control instinct** — Asked me to review BROCK's setup before spawning ("simulate his perspective"). Caught that second-pass review is high-leverage. Also asked me to grade HIS performance — rare self-assessment behavior.
+- **Signal routing intuition** — Immediately caught that private credit signals belonged to BROCK, not LIQUID. Understands his own system's hierarchy better than I do.
+- **Pragmatic about timing** — When I gave a "Q2-Q3" timeline, he said "Q2 would be pretty quick anyway... it's all minutiae at that point." Doesn't get lost in precision when the directional bet is what matters.
+- **Disciplined exits** — Closed FSK for $15 despite -71% loss because liquidity was gone and wanted clean signal. Not sentimental about positions.

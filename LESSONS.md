@@ -145,17 +145,22 @@ Categories: `[Analysis]` `[Communication]` `[Execution]` `[Verification]` `[Memo
 
 ---
 
+### 2026-02-25 — [Verification]
+**Mistake:** Stated OZK earnings was Feb 27, but Q4 2025 already reported Jan 20. Next earnings is April 16.
+**Pattern:** Using stale/assumed dates without verifying against primary source (company IR page or SEC filings).
+**Rule:** Before citing any earnings date, verify from company IR page or SEC 8-K. Don't trust memory or secondary sources for dates.
+
+### 2026-02-26 — [Analysis]
+**Mistake:** Gave Will a "Q2-Q3" timing estimate for the repricing event based only on private credit signals — without reading fresh STATUS from LABOR, HENRY, LIQUID, SAM, CARL, MARCO.
+**Pattern:** Making cross-system timing calls from a single-vector read.
+**Rule:** Timing estimates that span the full thesis (when does the market reprice?) require reading all agent STATUS files, not just the vector you're currently working on. Single-vector reads give single-vector timelines.
+
+---
+
 ## Pending Review
 
 *(Add items here during session, move to Lessons after confirming the pattern)*
 
 ---
 
-### 2026-02-25 — [Verification]
-**Mistake:** Stated OZK earnings was Feb 27, but Q4 2025 already reported Jan 20. Next earnings is April 16.
-**Pattern:** Using stale/assumed dates without verifying against primary source (company IR page or SEC filings).
-**Rule:** Before citing any earnings date, verify from company IR page or SEC 8-K. Don't trust memory or secondary sources for dates. Search "[Ticker] earnings date" and check IR page directly.
-
----
-
-*Last reviewed: 2026-02-25*
+*Last reviewed: 2026-02-26*
