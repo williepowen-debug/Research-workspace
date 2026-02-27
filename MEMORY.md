@@ -1,6 +1,6 @@
 # MEMORY — Key Insights & Lessons
 
-**Last Updated:** 2026-02-27
+**Last Updated:** 2026-02-27 22:15 UTC
 
 ---
 
@@ -35,6 +35,22 @@ Phase 1 (Feb-Mar): Supply squeeze → tankers (STNG/TNP). Phase 2 (Apr-May): 140
 ### RED Team (Feb 14) — 80% Confidence
 Betting on ACKNOWLEDGMENT of existing stress, not predicting new stress. 5 transmission paths. Falsification: exit 50% if claims <240K + CBRE >-5%; exit 100% if BTFP 2.0 / HY OAS <260bps.
 *Full report → `AGENTS/RED/RED_TEAM_REPORT_2026-02-14.md`*
+
+### Convergence Day — Feb 27 (MAJOR)
+Best single day of thesis confirmation. Multiple independent vectors fired simultaneously:
+
+**New signals discovered via EOD agent run:**
+- **MFS Collapse (UK):** £2B fraud, double-pledging. Barclays £600M, Jefferies £100M, Apollo/Atlas SP exposed. Reuters "cockroach" framing. Drove bank rout.
+- **Apollo Triple Stress:** MFIC dividend cut (2nd BDC in 48hrs) + Atlas SP/MFS + Medallia 78¢. Most exposed alt manager. Athene insurance = Stage 4 risk.
+- **Block 4K Layoffs:** 50% of workforce, AI-cited. Leading indicator for white-collar labor.
+- **H.8 Systemic:** CRE +1.1% (from +5.9%), C&I +14.4%. Industry-level Memo Item 3 reclassification CONFIRMED.
+- **Credit Widening:** HY OAS 2.98% (+12bps/week). First sustained widening off Jan tights.
+- **PPI Core +0.8%** (2.6x expected). Fed trap closed — can't cut into hot inflation while employment cracks.
+
+**Key conclusion:** Private credit → bank equity transmission is LIVE. MFS → Jefferies/Barclays → sector derisking → WAL -10.64%. WAL had NO specific catalyst — pure vulnerability premium.
+
+**New watchlist:** APO puts (very high conviction).
+**Threshold:** HY OAS 320bps = credit transmission confirmed.
 
 ---
 

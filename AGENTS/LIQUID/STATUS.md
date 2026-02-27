@@ -358,10 +358,20 @@ System transitioning from **official-sector stability** to **private-sector frag
 
 ## SIGNAL DASHBOARD
 
+### Credit Spreads (NEW — Feb 27)
+| Vector | Value | Status | Threshold |
+|--------|-------|--------|-----------|
+| **HY OAS** | **2.98% (+12bps/week)** | 🟠 | **320bps = CONFIRMATION THRESHOLD** |
+| **IG OAS** | **0.82% (+4bps/week)** | 🟡 | 90bps = YELLOW, 100bps = ORANGE |
+| **CLO Equity (Eagle Point)** | **-15% since Dec** | 🔴 | First-loss tranche absorbing defaults |
+| **CLO Equity (Oxford Lane)** | **-25% since Dec** | 🔴 | Accelerating losses |
+| **CLO Equity (Carlyle/Sound Point)** | **-30% to -40% since Dec** | 🔴 | Extreme stress |
+| **Apollo MFIC Dividend** | **CUT** | 🔴 | BDC dividend cuts = leverage stress |
+
 ### Domestic
 | Vector | Value | Status | Threshold |
 |--------|-------|--------|-----------|
-| **RRP Balance** | **$0.86B** | 🔴 | <$5B = effectively ZERO |
+| **RRP Balance** | **$16.3B** (Feb 27, spike from $3.8B) | 🟡 | Month-end + flight to safety; <$5B = structural ZERO |
 | **SRF Usage** | **$30.5B** (Feb 18) | 🟡 | >$25B YELLOW, >$50B ORANGE |
 | **SOFR 75th Percentile** | **3.78-3.81%** (Feb 17-18) | 🔴 | **ABOVE Fed ceiling (IORB 3.65%) — 25% of $3.2T repo market above bounds** |
 | **SOFR-IORB Spread** | **WIDENING** | 🟠 | Above Fed preferred range, losing control |
