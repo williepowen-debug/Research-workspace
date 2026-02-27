@@ -1,5 +1,5 @@
 # CARL STATUS
-**Last Updated:** 2026-02-27 13:15 UTC | **Status:** 🔴 RED — Fannie MF DQ IMMINENT BREACH (6bps from GFC peak), Subprime Auto RECORD (6.9%, 0.1pp from RED), Private Credit Freeze ACTIVE (Blue Owl), US Net Savings at ZERO | **DUAL TRANSMISSION PATHS: DOGE (0-2mo) + Private Credit Middle-Market (May-Jun layoffs → Q3 conversion)** | Maryland DOGE→DQ CONFIRMED | NEW VECTOR: 15% Global Tariff → Trade-Sector Hiring Freeze (Feb 27)
+**Last Updated:** 2026-02-27 22:17 UTC | **Status:** 🔴 RED — Fannie MF DQ IMMINENT BREACH (6bps from GFC peak), Subprime Auto RECORD (6.9%, 0.1pp from RED), Private Credit Freeze ACTIVE (Blue Owl), US Net Savings at ZERO | **TRIPLE TRANSMISSION PATHS: DOGE (0-2mo) + Private Credit Middle-Market (May-Jun layoffs → Q3 conversion) + SUPPLY-SIDE CREDIT WITHDRAWAL (Block/Klarna/Blue Owl)** | Maryland DOGE→DQ CONFIRMED | NEW VECTOR: 15% Global Tariff → Trade-Sector Hiring Freeze (Feb 27) | NEW VECTOR: Block 4K layoffs (50% workforce) = fintech credit supply contraction for bottom 40% | PPI core +0.8% (2.6x expected) = Fed TRAPPED, no cut escape valve | Timeline shift: Q2 peak stress visibility probability raised from 45% → 65%
 
 ---
 

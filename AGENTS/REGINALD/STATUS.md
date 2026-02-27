@@ -122,6 +122,13 @@ All inbox signals processed. See ML-REG-081 through ML-REG-095, VX-REG-17.01 thr
 
 **Feb 27 session:** Entire sector red. Broad market rout — Dow -777pts. Triggers: (1) PPI +0.5% MoM vs +0.3% expected; Core PPI +0.8% (double forecast); YoY core +3.6%. (2) UBS downgraded US equities to Neutral. (3) AI disruption fears. **(4) MFS COLLAPSE — primary driver of bank rout per BROCK/LIQUID.** Market Financial Solutions (UK) collapsed — £2B fraud, suspected double-pledging. Barclays -4.2% (£600M hit), Jefferies -11% (£100M hit). Apollo/Atlas SP, Wells Fargo, Santander also exposed. Reuters framed as "cockroaches in private credit." REGINALD had ML-REG-091 (Apollo/MFS) but did NOT identify this as primary bank rout driver — MISSED. WAL low of $81.75 today = approaching $82.5P strike.
 
+**⚠️ MFS → WAL STRUCTURAL TEMPLATE (Updated 2026-02-27 22:17 UTC, from PROME cross-signal):**
+MFS is NOT merely a sentiment catalyst — it is a completed collapse case study for WAL's exact fraud mechanism. Key upgrade:
+- **Mechanism confirmed:** Double-pledging unwinds instantaneously (vs CRE slow bleed) — single counterparty pull → collateral discovery → cascade. Recovery = near zero vs 40-50% CRE recovery.
+- **Timing acceleration:** Jefferies took £100M hit on MFS. They will NOW audit entire portfolio for similar double-pledge arrangements. If Jefferies is in WAL/First Brands/Tricolor deal, that review is active in March — not May Investor Day.
+- **New risk vector:** Counterparty-initiated surfacing. WAL doesn't need to self-disclose. A Jefferies internal audit or regulator response forces it.
+- **Conviction updated:** WAL major stress event probability **55% → 68%**. Primary change = timing compression (May → March-April window).
+
 **H.8 Confirmation (Feb 27, source: H.8):** CRE +1.1% annualized (from +5.9% Dec) while C&I surged +14.4% (highest in dataset). Industry-level Memo Item 3 reclassification confirmed. Reserves released -7.7%. This validates WAL 24.2% and OZK 37.6% hidden ratios as SYSTEMIC, not idiosyncratic. Banks industry-wide are reclassifying CRE → C&I. Reserve release masks deterioration.
 
 **Quality rotation:** Steps 1-4 confirmed. Step 5 (contagion) ACCELERATING — sector-wide rout Feb 27 with no single name-specific catalyst. Beta amplification across all watchlist names.

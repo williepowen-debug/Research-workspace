@@ -109,6 +109,21 @@ Risk parity deleverages     → T+5 to T+30
 
 ---
 
+## CREDIT-PRIMARY REFRAME (Added Feb 27 — Cross-Agent Signal from BROCK/LIQUID)
+
+**Upgraded:** Credit is PRIMARY driver, not secondary amplifier. MFS (UK lender, £2B fraud) → Barclays -4.2%, Jefferies -11%, Apollo hit. MFIC dividend cut = 2nd BDC cut in 48hrs. HY OAS +12bps/week to 4-month wides. This is credit contagion dressed as a tech selloff.
+
+**Implication for cascade model:** Vol-control/CTA triggers (fast, sharp) are 30% probability path. Credit-driven slow grind is 55% probability path. No V-recovery until HY OAS peaks (H4 confirmed as primary rule). 2-4 week grinding chop-down, episodic headline risk, each rally sold.
+
+**HY OAS promoted to PRIMARY signal.** Rate of change (+12bps/wk) now as important as level (300bps threshold). CLO spreads added to watch list.
+
+**Path probabilities:**
+- Fast gamma cascade (sharp break, V-bounce) → 30%
+- Slow credit grind (-1 to -1.5%/day, no recovery) → 55%
+- Muddle-through → 15%
+
+---
+
 ## TRANSMISSION PATHS
 
 - **LABOR → HENRY:** Claims >300K = fundamental trigger → gamma test of Put Wall
