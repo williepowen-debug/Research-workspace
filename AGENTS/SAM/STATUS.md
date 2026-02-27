@@ -189,10 +189,32 @@ Japan is in a **fiscal doom loop** (acknowledged as "credible tail risk" by Alli
 
 ---
 
+## 🆕 US CREDIT STRESS — EXTERNAL CARRY TRIGGER (Feb 27, 2026)
+
+**Source:** LIQUID + BROCK findings, routed via Prome
+
+**The insight:** Carry unwinds don't require BOJ action. They require RISK APPETITE collapse. US credit stress can be the second catalyst — or the primary one.
+
+| Signal | Value | Status | Threshold |
+|--------|-------|--------|-----------|
+| HY OAS | **2.98%** | 🟡 YELLOW | >320bps = 🔴 systemic |
+| Direction | **Widening** (12bps/week) | 🟠 | Reversal confirmed |
+| MFS (UK lender) | **Collapsed** (£2B fraud) | 🔴 | — |
+| Apollo stress | **Triple** (MFIC div cut + MFS + Medallia 78¢) | 🔴 | — |
+
+**Framework update:** HY OAS >320bps added as carry unwind trigger. Does NOT require BOJ action. If credit contagion hits during any Japan catalyst (weak auction, dovish surprise, Takaichi escalation), timing pulls forward from April.
+
+**Carry unwind probability:** Upgraded from ~25-30% to **35-40%** (>5% USDJPY move by April). Timing risk: could be BEFORE April BOJ if credit stress accelerates.
+
+**Key asymmetry:** USDJPY held 156 on -1% SPX (equity noise). -3% SPX driven by credit contagion is different — carry is funded leverage, and when credit desks pull lines, leveraged positions unwind across the capital structure simultaneously. Aug 2024 template: BOJ gave initial 3%, US payrolls gave the acceleration. US credit is that acceleration energy.
+
+---
+
 ## SIGNAL DASHBOARD
 
 | Vector | Value | Status | Change | Threshold |
 |--------|-------|--------|--------|-----------|
+| **HY OAS** | **2.98%** | 🟡 | ⬆️ +12bps/wk | >320bps = 🔴 carry trigger |
 | **BOJ Rate** | **0.75%** | 🟡 | ⬆️ AT CEILING | Next hike = collision |
 | **JGB 10Y** | **2.11%** | 🟢 | **⬇️ -4bp (Feb 27)** | Watch >2.50% |
 | JGB 5Y | 1.605% | 🟢 | ⬇️ -2.5bp (Feb 20) | Watch >2.00% |

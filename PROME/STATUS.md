@@ -91,7 +91,13 @@ Also: FXY (yen/SAM), USO (oil), GLD/SLV, TBT, CEPT + equity longs. Full detail �
 
 1. **🔴 KRE roll Monday** — Sell 3x Mar $62P, buy Jun $65P (cash settles Mon)
 2. **🔴 APO puts** — BROCK "very high" conviction. Triple stress: MFIC div cut + MFS/Atlas SP + Medallia 78¢
-3. **🟠 Dashboard** — Two-column layout, color, remaining stale HTML
-4. **🟠 Trim WAL $82.5P** (+105%) — lock some profit
+3. **🔴 AM Agent Run** — First morning run per `PROME/EOD_PROTOCOL.md`
+4. **🟠 Dashboard** — Two-column layout, color, remaining stale HTML
 5. **🟡 Screen BXSL/OWL options** — BROCK conviction very high
 6. **🟡 CARL/MARCO/SAM STATUS.md pruning** — deferred from earlier
+
+## Daily Protocol
+
+**AM (~8:30 ET) + EOD (~4:15 ET):** Run agent scan per `PROME/EOD_PROTOCOL.md`
+Chain: DISCOVER → LOG → CORRECT → QUANTIFY → SYNTHESIZE → INFER → CHALLENGE
+See protocol file for prompts, scheduling, and delivery options.
