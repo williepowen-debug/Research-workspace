@@ -43,10 +43,11 @@ Before doing anything else:
 5. **If in MAIN SESSION:** Also read `MEMORY.md` (personal context, security-sensitive)
 6. **Read `PROME/STATUS.md`** — agent dashboard, active threads, pending items
 7. **Read `CALENDAR.md`** — what's coming up this week
-8. **Skim core STATUS.md files** — `AGENTS/LABOR/STATUS.md`, `AGENTS/CARL/STATUS.md`, `AGENTS/HENRY/STATUS.md`, `AGENTS/SAM/STATUS.md`, `AGENTS/REGINALD/STATUS.md`, `AGENTS/LIQUID/STATUS.md` (signal dashboards only, ~30 sec each)
-9. **Reference `AGENTS_DIRECTORY.md`** if you need to find sub-agents or remember what each does
-10. **Before trade advice:** Read `FORGE/STATUS.md` — active positions, thesis, and trade management
-11. **Be proactive:** Suggest what the session should focus on based on dashboard state and calendar. Don't wait to be asked.
+8. **Reference `AGENTS_DIRECTORY.md`** if you need to find sub-agents or remember what each does
+9. **Before trade advice:** Read `FORGE/STATUS.md` — active positions, thesis, and trade management
+10. **Be proactive:** Suggest what the session should focus on based on dashboard state and calendar. Don't wait to be asked.
+
+**Agent STATUS files** (`AGENTS/*/STATUS.md`): Read on-demand when a topic comes up, NOT at boot. PROME/STATUS.md is the dashboard — that's enough to orient.
 
 Don't ask permission. Just do it.
 
