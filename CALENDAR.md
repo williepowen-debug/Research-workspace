@@ -8,128 +8,34 @@
 
 *All times Eastern. These are the "master variable" releases for our thesis.*
 
-### **Employment (LABOR trigger)**
-| Date | Release | Time | Priority |
-|------|---------|------|----------|
-| **Feb 11** | NFP (Jan 2026) | 8:30 AM | 🔴 CRITICAL |
-| Mar 6 | NFP (Feb 2026) | 8:30 AM | 🔴 CRITICAL |
-| Apr 3 | NFP (Mar 2026) | 8:30 AM | 🔴 CRITICAL |
-| May 8 | NFP (Apr 2026) | 8:30 AM | 🔴 CRITICAL |
-| Jun 5 | NFP (May 2026) | 8:30 AM | 🔴 CRITICAL |
-| Jul 2 | NFP (Jun 2026) | 8:30 AM | 🔴 CRITICAL |
+### **Recurring Releases**
 
-### **Initial Claims (Weekly — Every Thursday 8:30 AM ET)**
-| Week | Date | Watch For |
-|------|------|-----------|
-| This week | Feb 12 | Sustained >230K |
-| Next week | Feb 19 | Breach 250K = ORANGE |
-| — | Feb 26 | — |
-| — | Mar 5, 12, 19, 26 | Spike >300K = RED |
+**NFP** — First Friday monthly, 8:30 AM ET | 🔴 CRITICAL
+Next: Mar 6, Apr 3, May 8, Jun 5
 
-*Threshold: <230K GREEN | 230-250K YELLOW | 250-300K ORANGE | >300K RED*
+**Initial Claims** — Every Thursday, 8:30 AM ET
+Threshold: <230K 🟢 | 230-250K 🟡 | 250-300K 🟠 | >300K 🔴
 
-### **Consumer Credit (CARL confirmation)**
-| Date | Release | Time | Priority |
-|------|---------|------|----------|
-| **Feb 10** | NY Fed Q4 2025 Household Debt | 11:00 AM | 🔴 CRITICAL |
-| ~May | NY Fed Q1 2026 Household Debt | 11:00 AM | 🟠 HIGH |
-| ~Aug | NY Fed Q2 2026 Household Debt | 11:00 AM | 🟠 HIGH |
+**CPI** — Monthly, 8:30 AM ET | 🟠 HIGH
+Next: Mar 11, Apr 10, May 12
 
-### **Inflation (Fed policy)**
-| Date | Release | Time | Priority |
-|------|---------|------|----------|
-| Feb 13 | CPI (Jan 2026) | 8:30 AM | 🟠 HIGH |
-| Mar 11 | CPI (Feb 2026) | 8:30 AM | 🟠 HIGH |
-| Apr 10 | CPI (Mar 2026) | 8:30 AM | 🟠 HIGH |
-| May 12 | CPI (Apr 2026) | 8:30 AM | 🟠 HIGH |
-| Jun 10 | CPI (May 2026) | 8:30 AM | 🟠 HIGH |
+**FOMC** — Mar 18, Apr 29, Jun 17, Jul 29, Sep 16
 
-### **Fed Meetings**
-| Date | Event | Priority |
-|------|-------|----------|
-| Mar 18 | FOMC Decision | 🟠 HIGH |
-| Apr 29 | FOMC Decision | 🟠 HIGH |
-| Jun 17 | FOMC Decision | 🟠 HIGH |
-| Jul 29 | FOMC Decision | 🟠 HIGH |
-| Sep 16 | FOMC Decision | 🟠 HIGH |
+**NY Fed Household Debt** — Quarterly | ~May (Q1), ~Aug (Q2)
 
 ---
 
-## LAST WEEK (Feb 9-15) — COMPLETED
+## BANK EARNINGS WATCH — Q1 2026
 
-### Completed
-- ✅ **Feb 10** NY Fed Q4 Household Debt — CC 90+ DQ 12.70% (92% of GFC peak)
-- ✅ **Feb 11** NFP (Jan 2026) — +130K, beat estimates
-- ✅ **Feb 11** 10Y Treasury Auction — UGLY: 1.4bps tail (largest since Aug 2024)
-- ✅ **Feb 12** 30Y Treasury Auction — STRONG: BTC 2.66x, foreign 69.9%
-- ✅ **Feb 12** Initial Claims — 227K (below 230K)
-- ✅ **Feb 13** CPI (Jan 2026) — (check PROME STATUS)
-- ✅ **Feb 15** FSK Q4 Earnings — (check BROCK STATUS)
-- ✅ **Feb 8** Japan Snap Election — Takaichi landslide (316 LDP, 352 coalition) → SAM RED
+| Date | Bank | Ticker | Priority | Watch For |
+|------|------|--------|----------|-----------|
+| **Apr 16** | **OZK** | OZK | 🔴 CRITICAL | Construction NCOs, life science, reserves |
+| **~Apr 20** | **Zions Bancorp** | ZION | 🔴 CRITICAL | Muni losses, unfunded draws, NDFI |
+| **~Apr 21** | **Western Alliance** | WAL | 🔴 CRITICAL | Fraud reserve, muni marks, FHLB |
+| **~Apr 23** | **Valley National** | VLY | 🔴 CRITICAL | FL CRE, BDC exposure, NCOs |
+| **~Apr 29** | **Eagle Bancorp** | EGBN | 🟠 HIGH | DC office, deposits, capital |
 
----
-
-## BDC EARNINGS WATCH (Feb 2026)
-
-| Date | Event | Agent | Priority | Notes |
-|------|-------|-------|----------|-------|
-| Feb TBD | PSEC Q4 Earnings | BROCK | 🔴 CRITICAL | PIK 35%, coverage <1.00x, NAV change |
-| Feb TBD | TCPC Q4 Earnings | BROCK | 🔴 CRITICAL | Post-collapse NAV stabilization |
-| Feb TBD | FSK Q4 Earnings | BROCK | 🟠 HIGH | PIK 27%, software marks |
-| Feb TBD | GSBD Q4 Earnings | BROCK | 🟠 HIGH | De-risking progress, 0.80x coverage |
-| Feb TBD | MFIC Q4 Earnings | BROCK | 🟠 HIGH | PIK acceleration (+47% last Q) |
-| Feb TBD | ARCC Q4 Earnings | BROCK | 🟡 MEDIUM | Software marks, syndicate health |
-
----
-
-## BANK EARNINGS WATCH — CONVERGENCE TARGETS (Q1 2026)
-
-| Date | Bank | Ticker | Score | Priority | Watch For |
-|------|------|--------|-------|----------|-----------|
-| **Apr 20** | **Zions Bancorp** | ZION | 9 | 🔴 CRITICAL | Muni loan losses, unfunded draws, NDFI commentary |
-| **~Apr 21** | **Western Alliance** | WAL | 10 | 🔴 CRITICAL | Fraud reserve, unrated muni marks, FHLB advances |
-| **~Apr 23** | **Valley National** | VLY | 9 | 🔴 CRITICAL | FL CRE performance, BDC exposure, NCO trends |
-| **Apr 29** | **Eagle Bancorp** | EGBN | 12 | 🟠 HIGH | DC office, deposit flight, capital adequacy |
-| TBD | Citizens Financial | CFG | 9 | 🟠 HIGH | Fund finance commentary, consumer trends |
-| TBD | Burke & Herbert | BHRB | 5 | 🟡 MEDIUM | DC muni marks, GovCon performance |
-
-*Note: WAL/VLY dates estimated based on typical cadence. Confirm closer to date.*
-
-### Q4 2025 Results (Already Reported)
-- **VLY:** Jan 29 — Beat estimates, NCOs 18bps, FL performing
-- **EGBN:** Jan 21 — EPS $0.25, beat estimates, but watch Q1
-
----
-
-## THIS WEEK (Feb 16-22)
-
-| Date | Time | Event | Agent | Priority | Status |
-|------|------|-------|-------|----------|--------|
-| ~~Feb 16~~ | — | Presidents' Day (Market Closed) | — | ⚪ | ✅ PAST |
-| ~~**Feb 18**~~ | AMC | **Carvana (CVNA) Q4/FY2025 Earnings** | CARL/OTTO | 🔴 | ✅ Reported — down 24% on Gotham report |
-| ~~**Feb 18**~~ | AMC | **DoorDash (DASH) Q4 Earnings** | GIG | 🟠 | ✅ Check STATUS |
-| ~~**Feb 18**~~ | 4:00 PM | **Dec TIC Data Release** | LIQUID/SAM | 🔴 | ✅ Released — awaiting processing |
-| **Feb 19** | 8:30 AM | **Initial Claims** | LABOR | 🟠 | ⏳ TODAY — DHS distortion warning |
-| **Feb 19** | 2:00 PM | **FOMC Minutes (Jan meeting)** | PROME | 🟠 | ⏳ TODAY |
-| **Feb 19** | ~10:35 PM ET | **20Y JGB Auction Results** | SAM | 🔴 | ⏳ TONIGHT — BTC <2.0x = Path D |
-| **Feb 19** | overnight | **Shunto Electronics Demand** | SAM | 🟠 | ⏳ TONIGHT — ≥¥18,000 = Strong |
-| **Feb 19** | — | **VIX Expiration** | HENRY | 🟠 | ⏳ TODAY |
-| **Feb 20** | AMC | **PSEC (Prospect Capital) Q4 Earnings** | BROCK/OTTO | 🔴 | PENDING |
-| ~Feb 20 | — | Robert Half (RHI) Earnings | LABOR | 🟠 | PENDING |
-| ~Feb 20 | — | Statistics Canada (Jan) | MARCO | 🟠 | PENDING |
-| **Feb 21** | 3:30 AM ET | **German Flash PMI** | HANS | 🔴 | PENDING — <48 = March ISM sub-49 locked in |
-
----
-
-## WEEK OF FEB 23-28
-
-| Date | Time | Event | Agent | Priority | Notes |
-|------|------|-------|-------|----------|-------|
-| **~Feb 25** | — | **First Brands Examiner Report** | OTTO | 🔴 CRITICAL | De Luca report on $2.3B fraud. MAY BE KILLED if Ch. 7 conversion first |
-| **~Feb 25-28** | — | **Ally 10-K Filing** | OTTO | 🟠 HIGH | Watch for Carvana-specific disclosure, forward flow language changes |
-| Feb 26 | 8:30 AM | Initial Claims | LABOR | 🟡 MEDIUM | Weekly |
-| Feb 26 | 10:00 AM | PCE (Jan 2026) | PROME | 🟠 HIGH | Fed's preferred inflation gauge |
-| Feb 27 | 8:30 AM | PPI (Jan 2026) | PROME | 🟡 MEDIUM | Producer prices |
+*Dates estimated — confirm closer.*
 
 ---
 
@@ -137,22 +43,17 @@
 
 | Date | Time | Event | Agent | Priority | Notes |
 |------|------|-------|-------|----------|-------|
-| **Early Mar** | — | **CFPB Funding Lapse** | OTTO | 🔴 CRITICAL | If no congressional action, Bureau enters shutdown. Regulatory vacuum for subprime |
-| Mar 5 | 8:30 AM | Initial Claims | LABOR | 🟡 MEDIUM | Weekly |
+| **Early Mar** | — | **CFPB Funding Lapse** | OTTO | 🔴 CRITICAL | Regulatory vacuum for subprime |
 | **Mar 6** | 8:30 AM | **NFP (Feb 2026)** | LABOR | 🔴 CRITICAL | Monthly health check |
 | **Mar 11** | 8:30 AM | **CPI (Feb 2026)** | PROME | 🟠 HIGH | Inflation check |
-| Mar 12 | 8:30 AM | PPI (Feb 2026) | PROME | 🟡 MEDIUM | Producer prices |
-| Mar 12 | 8:30 AM | Initial Claims | LABOR | 🟡 MEDIUM | Weekly |
 | **Mar 13-14** | — | **BOJ Meeting** | SAM | 🔴 CRITICAL | Takaichi pressure test |
 | **Mar 18** | 2:00 PM | **FOMC Decision** | PROME | 🟠 HIGH | Rate decision + projections |
-| Mar 19 | 8:30 AM | Initial Claims | LABOR | 🟡 MEDIUM | Weekly |
-| Mar 26 | 8:30 AM | Initial Claims | LABOR | 🟡 MEDIUM | Weekly |
 | Mar 27 | 8:30 AM | PCE (Feb 2026) | PROME | 🟠 HIGH | Fed's preferred inflation |
 | **Mar 31** | — | **Q1 Quarter-End** | LIQUID | 🟠 HIGH | SOFR spike, SRF usage expected |
-| Mar 31 | — | JPM Collar Expiry | HENRY | 🟡 MEDIUM | 7155c / 6475-5470p spread |
 | ~Mar 31 | — | Japan FY-End ESR Disclosures | SAM | 🔴 CRITICAL | Insurer solvency reveals |
-| Mar TBD | — | Bank 10-K CRE Mod Disclosures | CREED | 🔴 CRITICAL | ASU 2022-02 disclosure cliff |
-| Mar TBD | — | PSEC S&P Rating Review | BROCK | 🟠 HIGH | BB+ → BB? downgrade risk |
+| ~Mar 31 | — | JPM Collar Expiry | HENRY | 🟡 | 7155c / 6475-5470p |
+| Mar TBD | — | Bank 10-K CRE Mod Disclosures | CREED | 🔴 CRITICAL | ASU 2022-02 cliff |
+| Mar TBD | — | PSEC S&P Rating Review | BROCK | 🟠 HIGH | BB+ → BB? |
 
 ---
 
@@ -160,12 +61,11 @@
 
 | Date | Event | Agent | Priority | Notes |
 |------|-------|-------|----------|-------|
-| **Mar 15** | Carvana Discovery Production 1 | OTTO | 🟠 HIGH | First wave ESI from Feb 10 order |
-| Apr 15 | Tax Season | LIQUID | 🟠 HIGH | TGA rebuild drains reserves |
-| ~Apr 15-20 | Ally Financial Q1 2026 Earnings | OTTO | 🟠 HIGH | $6B Carvana forward flow; subprime commentary |
-| **Apr 16** | **OZK Q1 2026 Earnings** | REGINALD | 🔴 CRITICAL | Thesis Grade A — watch construction NCOs, life science updates, reserve trends |
-| **Apr 20-29** | **CONVERGENCE BANK EARNINGS** | REGINALD | 🔴 CRITICAL | ZION → WAL → VLY → EGBN |
-| **Apr 30** | **Tricolor Vehicle Liquidation Deadline** | OTTO | 🟠 HIGH | 10,000 vehicles; recovery rates indicator |
+| **Mar 15** | Carvana Discovery Production 1 | OTTO | 🟠 HIGH | First wave ESI |
+| Apr 15 | Tax Season / TGA rebuild | LIQUID | 🟠 HIGH | Drains reserves |
+| ~Apr 15-20 | Ally Financial Q1 Earnings | OTTO | 🟠 HIGH | $6B Carvana forward flow |
+| **Apr 16-29** | **Bank Earnings Window** | REGINALD | 🔴 CRITICAL | See Bank Earnings table above |
+| **Apr 30** | Tricolor Liquidation Deadline | OTTO | 🟠 HIGH | 10K vehicles; recovery rates |
 | Apr/May | BOJ Meeting | SAM | 🟠 HIGH | Next hike window |
 | **May 15** | **KRE $70 PUT EXPIRY** | PROME | 🔴 CRITICAL | First position expiry |
 | **Jun 12** | Carvana Discovery Production 2 | OTTO | 🟠 HIGH | Second wave ESI |
@@ -186,34 +86,12 @@
 
 ---
 
-## DELAYED / TBD
+## BACKGROUND WATCH
 
-| Event | Agent | Status | Notes |
-|-------|-------|--------|-------|
-| January 2026 NFP | LABOR | DELAYED | Government shutdown |
-| DOGE Next Agency Target | LABOR | WATCH | Unpredictable |
-| Federal RIF Announcements | LABOR | WATCH | Lagging indicator |
-| WARN Pipeline Materialization | LABOR | Q1-Q2 | 60-day lag = H1 pain locked in |
+- DOGE next agency target (LABOR) — unpredictable
+- WARN pipeline materializing Q1-Q2 (60-day lag = H1 pain locked in)
+- Federal RIF announcements (lagging)
 
 ---
 
-## PRIORITY KEY
-
-- 🔴 **CRITICAL** — Market-moving, thesis-defining
-- 🟠 **HIGH** — Important signal, needs attention
-- 🟡 **MEDIUM** — Track but not urgent
-- ⚪ **LOW** — Background monitoring
-
----
-
-## HOW TO USE
-
-**At session start:** Scan "This Week" and "Next Week" to know what's imminent.
-
-**When updating:** After an event fires, move it to the relevant agent's ML.tsv (Master Log) and remove from here.
-
-**Source files:** Individual agent FL.tsv files have full detail. This is the summary view.
-
----
-
-*Next update: After Feb 5 30Y auction result*
+*Updated: 2026-02-27. Remove events after they fire → log to agent ML.tsv.*

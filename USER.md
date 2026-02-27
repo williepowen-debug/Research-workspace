@@ -21,86 +21,22 @@ The research is interesting in its own right, but the ultimate test is whether t
 
 ---
 
-## The Agent Network
+## Communication & Style
 
-Will has built specialized agents for investment research:
+- Telegram for research. Audio briefings while walking (5-10 min).
+- Direct analysis, no hedging. Epistemic humility: "working model, not truth."
+- Values brutal honesty over reassurance. Probabilistic thinking.
+- Early riser (~6 AM ET). Approves proposals via inline buttons.
+- Comfortable with autonomous ops. Gives permission to edit USER.md, LESSONS.md, MEMORY.md without asking.
 
-**Core Chain:**
-- **LABOR** — Employment / leading indicators for consumer stress
-- **CARL** — Consumer financial stress & household vulnerability (has sub-agents)
-- **REGINALD** — Regional banks + CRE exposure (has sub-agents: BROCK, CREED)
-
-**Market-Facing:**
-- **HENRY** — Market structure / sentiment / 0DTE / gamma dynamics
-- **LIQUID** — Funding markets / RRP / SOFR / Treasury auctions
-- **SAM** — Japan macro / yen / carry trade dynamics
-
-**Sub-agents (under REGINALD):**
-- **BROCK** — BDCs & private credit (standalone agent as of Feb 26)
-- **CREED** — CRE deep dive
-- **CORAL** — Florida condo crisis
-
-**Other:**
-- **BARON** — Trump network / policy influence tracking
-- **MARCO** — Macro migration / labor flows
-- **BUFFER** — Volatility / buffer monitoring
-- **EARNINGS, FOREX, OTTO, REITS** — Specialized monitors (less active)
-
-The system uses STATUS.md (living docs), workbooks (ML/FL/VX/FLOW), and PREDICTIONS.md for accountability.
+*Agent roster → `AGENTS_DIRECTORY.md`*
 
 ---
 
-## Communication Preferences
+## How Will Thinks
 
-- **Telegram** for research delivery and discussion
-- Audio briefings work well (Speechify) — 5-10 min while walking
-- Prefers direct analysis over hedged language
-- Values epistemic humility: "working model, not truth"
-
----
-
-## Personal Context
-
-*(Building slowly over time)*
-
-- Enjoys walking while listening to briefings
-- Based in Eastern time zone
-- Early riser (often active by 6 AM ET)
-
----
-
-## Philosophy on the System
-
-- **Values brutal honesty over reassurance** — Wants real assessment, not sycophancy
-- **The leveling argument** — Sees value in matching institutional quality at retail cost/flexibility. No fees, no committees, no career risk.
-- **Compounding improvement** — The system gets better through daily use. LESSONS.md grows, predictions resolve, agents refine.
-- **Probabilistic thinking** — Understands we can't guarantee outcomes, but clearer picture = better odds
-- **Long-term mindset** — "Imagine where we are in a few months with dedicated daily use"
-- **Democratizing edge** — If we can replicate institutional process without institutional constraints, that itself is valuable
-
----
-
-## Working Style
-
-- Approves agent proposals via inline buttons when available
-- Comfortable with autonomous agent operation — trusts the system
-- Wants proactive updates, not just responses to questions
-- Values system improvements alongside core research
-- Gives explicit permission to edit USER.md, LESSONS.md, MEMORY.md without approval
-
----
-
-## Intellectual Style (Observed)
-
-- **Actively challenges his own thesis** — Asked "doesn't the Feb new high break the double-top pattern?" while holding the position. Runs RED team against his own conviction.
-- **Catches patterns** — Noticed me saying "sleep well" repeatedly and called it out. Perceptive about AI behavior/limits.
-- **Thinks about the system, not just the work** — Asks meta questions about context continuity, memory updates, how to preserve rhythm. Wants the infrastructure to improve.
-- **Values rapport** — Asked "what do you make of me?" — cares about the collaborative relationship, not just outputs.
-- **Pushes back constructively** — Doesn't accept first answers uncritically. Probes assumptions.
-- **Learning primary research** — (Feb 25) Pulled OZK 10-K from EDGAR himself, went through 159 pages together. Asked good challenging questions ("14% is high?", "no catalyst but shorting?"). Getting hands-on with the data.
-- **Context-aware** — Asked about token efficiency, whether boilerplate text wastes context. Understands the system's constraints.
-- **Architectural thinker** — (Feb 26) Insisted BROCK should be standalone agent, not just a REGINALD sub-task. Reasoning: "more granular context = more room to operate and learn." Thinks about agent design like system architecture.
-- **Quality control instinct** — Asked me to review BROCK's setup before spawning ("simulate his perspective"). Caught that second-pass review is high-leverage. Also asked me to grade HIS performance — rare self-assessment behavior.
-- **Signal routing intuition** — Immediately caught that private credit signals belonged to BROCK, not LIQUID. Understands his own system's hierarchy better than I do.
-- **Pragmatic about timing** — When I gave a "Q2-Q3" timeline, he said "Q2 would be pretty quick anyway... it's all minutiae at that point." Doesn't get lost in precision when the directional bet is what matters.
-- **Disciplined exits** — Closed FSK for $15 despite -71% loss because liquidity was gone and wanted clean signal. Not sentimental about positions.
+- **Challenges his own thesis** — runs RED team against his own conviction, asks "doesn't this break the pattern?"
+- **Systems thinker** — designs agent architecture, optimizes context, thinks about infrastructure not just content
+- **Pushes back, then verifies** — doesn't accept first answers; pulls primary sources (10-Ks, EDGAR) himself
+- **Disciplined trader** — cuts losers without sentiment (FSK -71% closed for clean signal), pragmatic on timing
+- **Wants proactive updates** — don't wait to be asked
