@@ -1,7 +1,7 @@
 # PROME STATUS.md
 **Updated:** 2026-02-27 04:50 UTC
 
-**Last context:** KRE down -3.9% to $67.64. Sold 10 FXY + 1 PALL. KRE roll order prepped but waiting on cash settlement (~$4,100 available once settled). Agent check-ins processed (LABOR, CARL, MARCO, OTTO, ZHAO, SAM). BROCK/LABOR/MARCO proposals approved and executed. NEXT: HENRY STATUS.md prune (29KB → <10KB) before spawning him. REGINALD prune still pending (68KB).
+**Last context:** KRE -3.9% ($67.64), thesis printing. Roll order prepped (~$1,351, waiting on cash). HENRY spawned clean (🔴 RED — SPX at Put Wall). OTTO cleaned via self-spawn. All 6 agent check-ins processed. NEXT: Execute KRE roll, screen BXSL/OWL, prune REGINALD (68KB).
 
 ## 🔴 CRITICAL — Private Credit Recognition Wave | Multiple Vectors Confirming
 

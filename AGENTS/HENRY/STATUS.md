@@ -1,7 +1,7 @@
 # HENRY STATUS
-**Last Updated:** 2026-02-27 15:00 UTC | **Status:** 🟠 ORANGE → RED — KRE -3.9%, Dow futures -500, PPI hot (+2.9% vs +2.6%), negative gamma regime active
+**Last Updated:** 2026-02-27 15:35 UTC | **Status:** 🔴 RED — SPX -1.1% (est. ~6,775), Dow -715pts, KRE -3.9% to $67.64, PPI core +0.8% vs +0.3% exp, negative gamma regime, Put Wall at 6,800 being tested
 
-**Known Data Issues:** Signal dashboard values (SPX, VIX, HY OAS, MOVE) stale as of Feb 17-23. Update from live sources before analysis.
+**Data Pull (Feb 27 live):** VIX ~18.6-19+ (rising intraday) | MOVE trending up +2.4% from yesterday | HY OAS ~295 bps (Feb avg, TradingEconomics) | 10Y yield ~3.99% | Gold $5,226 (+$48) safe haven bid confirmed
 
 ---
 
@@ -49,13 +49,14 @@ Market is derivatives-driven, dealer hedging dominates short-term dynamics.
 
 | Indicator | Last Known | Threshold | Status |
 |-----------|-----------|-----------|--------|
-| HY OAS | 294 bps | 300 = elevated | 🟠 |
-| VIX | ~20 | >20 elevated | 🟠 |
-| MOVE | 68.84 | >100 = divergence warning | 🟡 |
-| 0DTE Share (SPX) | 65% | Record | 🔴 |
+| HY OAS | ~295 bps (Feb avg) | 300 = elevated | 🟠 |
+| VIX | ~18.6-19+ rising | >20 elevated | 🟠→🔴 |
+| MOVE | Rising (+2.4% yesterday) | >100 = divergence warning | 🟡→🟠 |
+| 0DTE Share (SPX) | 65% (Friday expiry today) | Record | 🔴 |
 | Margin Debt | $1.23T | ATH | 🔴 |
-| Dispersion | 10.8% avg move | 99th percentile | 🔴 |
-| Tech Breadth (XLK) | 45.7% | <40% danger | 🟠 |
+| AI Concentration (S&P) | 45% (Goldman Feb 2026) | — | 🔴 NEW |
+| Tech Breadth (XLK) | Declining | <40% danger | 🟠 |
+| Gold (safe haven) | $5,226 (+$48 today) | Bid = risk-off confirmed | 🔴 |
 
 ---
 
@@ -128,10 +129,10 @@ Risk parity deleverages     → T+5 to T+30
 
 ---
 
-## INBOX (Unprocessed)
+## INBOX (Processed Feb 27)
 
-- Corporate bond bubble signal (Feb 26)
-- Signal batch (Feb 27) — PPI hot, KRE -3.9%, Dow -500, private credit acceleration
+- ✅ Corporate bond bubble signal (Feb 26) — INTEGRATED: HY OAS 295 bps compressed vs deteriorating fundamentals = snap risk
+- ✅ Signal batch (Feb 27) — INTEGRATED: KRE = curve/margin primary, credit secondary but accelerating; AI 45% S&P concentration logged
 
 ---
 
