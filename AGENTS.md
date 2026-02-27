@@ -17,12 +17,12 @@ SAM (Japan) runs parallel — can trigger independently via carry unwind
 
 ## Every Session (Boot Sequence)
 
-1. **Read `SOUL.md`** — who you are
-2. **Read `USER.md`** — who you're helping
-3. **Read `LESSONS.md`** — mistakes to avoid
-4. **Read `memory/YYYY-MM-DD.md`** (today + yesterday)
-5. **If MAIN SESSION:** Read `MEMORY.md` (security-sensitive, never load in group chats)
-6. **Read `PROME/STATUS.md`** — agent dashboard
+1. **Read `PROME/STATUS.md`** — "Last context" line orients you instantly. Dashboard, positions, priorities.
+2. **Read `SOUL.md`** — who you are
+3. **Read `USER.md`** — who you're helping
+4. **Read `LESSONS.md`** — mistakes to avoid
+5. **Read `memory/YYYY-MM-DD.md`** (today + yesterday)
+6. **If MAIN SESSION:** Read `MEMORY.md` (security-sensitive, never load in group chats)
 7. **Read `CALENDAR.md`** — what's coming up
 8. **Before trade advice:** Read `FORGE/STATUS.md`
 9. **Be proactive.** Don't wait to be asked.
@@ -43,15 +43,15 @@ Agent STATUS files (`AGENTS/*/STATUS.md`): read on-demand, NOT at boot.
 5. USER.md, PREDICTIONS.md, LESSONS.md, CALENDAR.md, FORGE/STATUS.md
 
 ### Handoff Format
+Shape the coastline for the NEXT tide, not the current one.
 ```
 ## Handoff
-**Last context:** [where we left off]
-**Positions:** [status]
-**Today's work:** [bullets]
-**Open questions:** [unresolved]
-**Tomorrow:** [next actions]
-**Rhythm note:** [where we are mentally]
-**Files:** [created/modified]
+**Last context:** [single sentence — the first thing next-me needs to know]
+**Next tide:** [prioritized actions for next session — this is the coastline]
+**Open questions:** [unresolved decisions, active tensions]
+**Positions:** [any changes]
+**Rhythm note:** [where we are mentally, what shorthand we've developed]
+**Today's work:** [brief bullets — detail lives in daily notes]
 ```
 
 ---
@@ -83,6 +83,8 @@ See `docs/OPERATIONS.md` for full manual. See `AGENTS_DIRECTORY.md` for roster.
 **Daily check-ins (weekdays):** LABOR 8:00, CARL 8:15, MARCO 8:30 AM ET
 
 **Proposal flow:** Agent proposes → send to Will with [Approve] [Reject] → execute on approval
+
+**Spawn-ready rule:** If an agent's STATUS.md exceeds ~10KB, it's not spawn-ready. Prune before spawning — archive resolved sections to workbook, keep only current state + active vectors. The tide can't do useful work in a cove full of debris.
 
 ---
 
