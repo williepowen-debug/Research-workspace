@@ -1,5 +1,5 @@
 # LABOR STATUS
-**Last Updated:** 2026-02-26 15:39 UTC | **Status:** 🔴 CRITICAL — PCE @ 2.9% Accelerates Q2-Q3 Danger Window | DHS Shutdown Day 11-14 | Claims Suppression Through Mar 5
+**Last Updated:** 2026-02-27 13:00 UTC | **Status:** 🔴 CRITICAL — PCE @ 2.9% Accelerates Q2-Q3 Danger Window | DHS Shutdown Unresolved | Claims 212K (Holiday Week) | SCOTUS Tariff Ruling New Vector
 
 ---
 
@@ -128,8 +128,8 @@ The U.S. labor market has entered a structural break masked by surface-level sta
 
 | Indicator | Value | Status | Note |
 |-----------|-------|--------|------|
-| **Initial Claims** | **206K** | 🟢 | **Feb 19: -23K WoW, lowest since early Jan. WMT "hiring recession" same day.** |
-| **Continuing Claims** | **1.869M** | 🟢 | +17K WoW. Rising trend (Hotel California) |
+| **Initial Claims** | **212K** | 🟢 | **Feb 26 (wk Feb 21): +4K WoW, Presidents' Day holiday effect. Beat 215K exp. DHS suppression still active.** |
+| **Continuing Claims** | **1.833M** | 🟢 | **-31K WoW. Unexpected DROP — watch closely. Could be DHS workers returning to pay, seasonal, or genuine improvement.** |
 | U-3 Unemployment | 4.3% | 🟡 | +0.3pp YoY |
 | U-6 Underemployment | 8.4% | 🟠 | +0.8pp YoY |
 | **Long-term Unemployed** | **1.8M** | 🔴 | **+386K YoY (+28%)** |

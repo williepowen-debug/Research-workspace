@@ -1,8 +1,8 @@
 # SAM STATUS
 
-**Signal Status:** 🟢 GREEN | **Last Updated:** 2026-02-23 11:10 UTC
+**Signal Status:** 🟡 YELLOW | **Last Updated:** 2026-02-27 13:45 UTC
 
-**Summary:** FEB 19 PASSED — JGB Demand Holding, Path D Deferred. Life Insurer Research COMPLETE.
+**Summary:** FEB 26 PIVOT — Takaichi picks DOVES for BOJ board. Hike path constrained. JGB curve steepening. Yen sold. BOJ independence threatened.
 
 ---
 
@@ -875,7 +875,38 @@ This is a **multi-event day**. If JGB fails AND FOMC is dovish (US rates fall, n
 
 ---
 
-## 🆕 BOJ BOARD NOMINATIONS — TAKAICHI'S FIRST PICKS (Feb 18-19, 2026)
+## 🔴 BOJ BOARD NOMINATIONS — TAKAICHI PICKS DOVES (Feb 26, 2026 — CONFIRMED)
+
+**MAJOR SIGNAL: Honda's "reflationists not needed" signal from Feb 13 was WRONG or a head-fake. Takaichi picked full doves.**
+
+### Nominees (announced Feb 26):
+- **Toichiro Asada** — Academic, advocate for "massive stimulus." Replaces Asahi Noguchi (end of March). Ties to dovish ex-BOJ executives.
+- **Ayano Sato** — Academic, "preached benefits of expansionary fiscal AND monetary policy." Replaces Junko Nakagawa (June 29). Nakagawa was neutral-to-slightly-hawkish — direct hawk-for-dove swap.
+
+### Process Significance:
+- **MOF was kept OUT OF THE LOOP** — Takaichi held selections closely, excluded Finance Ministry
+- Needs lower house (majority) + upper house (minority) approval — upper house vote is uncertain
+- Market reaction: **Yen SOLD, JGB yield curve STEEPENED**
+
+### Path Implications — DOWNGRADE:
+| BOJ Path | Previous View | Updated View |
+|----------|---------------|--------------|
+| April 1.0% hike | 85% conditional | 🔴 NOW ~40% — Takaichi board signal delays |
+| Terminal rate >1.0% | Likely by 2027 | Constrained — Takaichi stacking board |
+| BOJ independence | Contested | 🔴 Actively threatened — Nomura: "bond AND currency selling risk" |
+
+### The 0.75% Ceiling — NOW ENFORCED BY PERSONNEL:
+Takaichi's ceiling of 0.75% was previously a political threat. Now it's being INSTITUTIONALIZED via board composition. If Asada/Sato confirmed, the board shifts decisively dovish. Ueda (through 2028) faces internal BOJ resistance to hikes, not just external political pressure.
+
+### Upper House Risk:
+Coalition has lower house majority but NOT upper house majority. Opposition votes needed. If blocked, Takaichi loses face but BOJ hike path reopens. Watch for upper house vote.
+
+### Long-Term Threat (Reuters):
+When Ueda + deputies' terms end in 2028, Takaichi picks all new leadership. Full reflation regime possible by 2028-2029.
+
+---
+
+## 🆕 BOJ BOARD NOMINATIONS — TAKAICHI'S FIRST PICKS (Feb 18-19, 2026 — PRE-ANNOUNCEMENT ANALYSIS)
 
 **Source:** Bloomberg/Japan Times (Feb 18), Reuters (Feb 13)
 

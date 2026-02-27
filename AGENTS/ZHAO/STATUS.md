@@ -1,5 +1,5 @@
 # ZHAO STATUS.md
-**Updated:** 2026-02-13 18:25 UTC
+**Updated:** 2026-02-27 13:46 UTC
 
 ---
 
@@ -32,9 +32,9 @@
 ### Capital Flows
 | Metric | Current | Yellow | Orange | Red | Status |
 |--------|---------|--------|--------|-----|--------|
-| China Official UST | $682.6B | <$750B | <$700B | <$650B | 🟠 ORANGE |
-| Belgium TIC (proxy) | **$481B ATH** | >$450B | >$480B | >$500B | 🟠 ORANGE |
-| Belgium YoY Growth | **+33%** | >15% | >25% | >35% | 🟠 ORANGE |
+| China Official UST | **$683.5B** (Dec 2025) | <$750B | <$700B | <$650B | 🟠 ORANGE |
+| Belgium TIC (proxy) | **$477.3B** (Dec 2025, ↓from $481B ATH Nov) | >$450B | >$480B | >$500B | 🟠 ORANGE |
+| Belgium YoY Growth | **~26%** (est, vs $379B Dec 2024) | >15% | >25% | >35% | 🟠 ORANGE |
 | True China Holdings | ~$1.85T | — | — | — | ✅ STABLE |
 
 ### LGFV / Banking (NEW)
@@ -307,7 +307,7 @@
 
 | Date | Event | Relevance |
 |------|-------|-----------|
-| **Feb 18** | Dec TIC Data | Belgium proxy check — threshold $500B |
+| **Feb 18** | Dec TIC Data | ✅ RECEIVED — Belgium $477.3B, China $683.5B |
 | **Mar 15** | Feb TIC Data | Next monthly update |
 | **Apr 2026** | Trump-Xi Summit? | Geopolitical catalyst |
 | **Dec 2026** | SEC Cash Clearing | Arbitrage begins |

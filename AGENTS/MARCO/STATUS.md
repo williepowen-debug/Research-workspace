@@ -1,5 +1,42 @@
 # MARCO STATUS
-**Last Updated:** 2026-02-23 (Audit + Daily Check-In) | **Status:** 🔴 RED — FLORIDA MIGRATION THESIS CONFIRMED (93% collapse, #1→#8, Alabama>FL) + DHS Shutdown Day 10 + E-Verify BREACHED + 15% Tariff Accelerant
+**Last Updated:** 2026-02-27 (Daily Check-In) | **Status:** 🔴 RED — FLORIDA MIGRATION THESIS CONFIRMED + DHS Shutdown Day 13 ONGOING (no deal) + TSA Partial Pay Feb 28 + Americans Emigrating First Time Since 1930s (WSJ)
+
+---
+
+## 🆕 UPDATE — Feb 27, 2026 Daily Check-In
+
+### DHS Shutdown Day 13 — No Resolution
+- Senate voted **50-45** to advance DHS funding (fell short of 60-vote threshold) — shutdown continues
+- **TSA partial paycheck: Feb 28 (TOMORROW)** — 61,000 agents receive reduced pay
+- **First full missed check now: Mar 14** (earlier than the Mar 17 estimate in prior update — refine threshold)
+- CBP diverting internal funding to continue paying some employees (Feb 26)
+- Sec. Noem threatening to end **TSA PreCheck** program (CNN interview, Feb 26) — escalation signal
+- **World Cup 2026 host cities**: DHS shutdown blocking FEMA from releasing security planning funds
+- Air Transat canceled ALL 11 Canada→US routes this summer, including Fort Lauderdale
+
+### WSJ: Americans Emigrating — First Time Since 1930s (Feb 26)
+- **WSJ analysis (Feb 26):** Net US migration **negative 150,000 in 2025** — first time since Great Depression
+- At least **180,000 American citizens** moved abroad in 2025 (15-country sample, total higher)
+- Brookings: expects **outflow to increase in 2026**
+- Top destinations: Spain, Netherlands, Czech Republic, Ireland (doubled in decade), Germany (took more Americans than reverse), Portugal (+500% US citizens)
+- Drivers: telecommuters/retirees (US income goes further abroad), safety concerns, political climate
+- **KEY LINK TO THESIS:** This validates the Sun Belt reversal — not just domestic migration reshuffling, but absolute population loss. Amplifies FL municipal revenue risk.
+
+### FL Tourism 2025 Full Year: Official Data Released (Feb 23)
+- **Record 143.3M total visitors** in 2025 (domestic +0.3%, overseas +4%)
+- **Canadian visitors: -14.7%** (official VISIT FLORIDA data) — first time using state's own numbers
+- Domestic recovery masking Canadian collapse — same pattern as airport data
+- Air Transat canceled all 11 summer Canada→US routes including Fort Lauderdale
+- VISIT FLORIDA launched expanded Canadian marketing campaign (late Jan 2026) — reactive, not proactive
+
+### CA Farm Labor Survey: Enforcement Fear CONFIRMED Pre-Planting (Feb 25-26)
+- Michigan State / California Farm Bureau survey: 500+ farmers, 50/58 counties, late 2025–early 2026
+- **<1% lost workers directly** to immigration enforcement
+- BUT: **Heightened threat alone** caused disruptions to daily farm operations (even without actual raids)
+- Farmers responses: reduced production, more contract labor, **increased H-2A use**
+- FreshFruitPortal: food industry still expects labor issues in 2026 as immigrants "wait for their chance to return to work"
+- Capstone analysis: immigrants in "wait and see" posture — **NOT returned to pre-Trump participation levels**
+- **Timing risk: planting season begins NOW (Mar-May)** — fear-disruption suppressed all winter, will resurface at peak need
 
 ---
 
@@ -10,7 +47,7 @@
 - **E-Verify:** SUSPENDED since Day 1 — now **BREACHED** (>7 day threshold)
 - **Impact:** H-2A processing bottlenecked during critical planting season (Mar-May)
 - **Congress:** Returns today (Feb 23); Farm Bill markup TODAY (does NOT include H-2A reform)
-- **TSA Risk:** Mar 3 partial paycheck, Mar 17 full miss = walkout risk
+- **TSA Risk:** Mar 3 partial paycheck, Mar 14 full miss = walkout risk
 
 ### 15% Tariff Announcement: THESIS ACCELERANT
 Trump announced **15% global tariff** (Feb 21, raised from 10%) after Supreme Court struck down IEEPA tariffs. Market selloff reflects uncertainty.
@@ -25,7 +62,7 @@ Trump announced **15% global tariff** (Feb 21, raised from 10%) after Supreme Co
 | Consumer Transmission | LABOR→CARL→REGINALD timeline compresses |
 | Municipal Revenue | Sales tax collapse deepens (El Paso: $24M→$3M) |
 
-**→ Prediction #21 confidence UPGRADED: 40% → 55%** (planting-season raid surge → earlier produce spike)
+**→ Prediction #21 confidence UPGRADED: 40% → 50%** (planting-season raid surge → earlier produce spike; CA farm survey confirms labor gap)
 
 ### Thresholds Approaching
 
@@ -156,7 +193,7 @@ Florida's "special market" narrative is **BROKEN**. The cost-of-living arbitrage
   - Federal employment already at **lowest since 1966** after DOGE year-one cuts
 - **🆕 TSA PAYCHECK TIMELINE REFINED:**
   - **March 3:** TSA agents receive partial paycheck (reduced hours)
-  - **March 17:** TSA agents miss full paycheck — walkout risk triggers (spring break peak, 2.5M/day screened)
+  - **March 14:** TSA agents miss full paycheck — walkout risk triggers (spring break peak, 2.5M/day screened)
   - Prior estimate of "mid-March" now tightened — **March 17 is the hard trigger**
 - **🆕 AIRPORT IMPACT:** Delta/United reporting delays; TSA/CBP staffing strain creating travel bottlenecks (VisaVerge, Feb 17)
 
@@ -497,6 +534,12 @@ Migration shift (UVL: "balanced") → Tax revenue at risk
 
 ## 🆕 FLORIDA AIRPORT CASCADE — STATEWIDE COLLAPSE CONFIRMED (Feb 24, 2026)
 
+### 🆕 New Data Points (Feb 27, 2026)
+- **Air Transat canceled ALL 11 Canada→US summer routes** including Fort Lauderdale — forward capacity gone
+- **VISIT FLORIDA official data: Canadian visitors -14.7% YoY** — first confirmed state-agency number; corroborates thesis
+- **TSA walkout risk (Mar 14)** adds operational disruption layer on top of demand collapse
+- **Prediction #25 added:** TSA partial/full walkout → measurable FL airport delays by Mar 21 (60% confidence)
+
 ### The 12-Month Lag Pattern
 
 | Airport | 2024 | 2025 | Domestic | International | Pattern |
@@ -571,13 +614,27 @@ Toronto (#1), Calgary (#11), Ottawa (#6), Vancouver (#17), Montreal (#27), Halif
 | 13 | **Imperial County stays BBB or worse** | Through 2026 | 75% |
 | 14 | **CA produce prices +15%** | H2 2026 | 55% |
 | 20 | **Thompson Ag Labor Bill — year-round H-2A provisions enacted** | Q3 2026 | 45% (jurisdictional hurdle) |
-| 21 | **Planting-season raid surge → produce price spike earlier than H2** | Mar-May 2026 | 40% if raids escalate |
+| 21 | **Planting-season raid surge → produce price spike earlier than H2** | Mar-May 2026 | 50% *(upgraded from 40%)* |
 | 15 | **Mexico remittances full-year -4.6% (2025 confirmed)** | 2025 FINAL | ✅ **CONFIRMED** (-4.6%, worst since 2009) |
 | 16 | **AZ border cities -10% shared revenue** | FY 2026 | 65% |
 | 17 | **FL Citizens exposure >$750B** | Q4 2026 | 60% |
 | 22 | **OIA (Orlando) flips negative (<0% YoY)** | Q2-Q3 2026 | 70% |
 | 23 | **MIA Feb-Mar 2026 daily pax stays below -5% YoY** | Mar 2026 | 75% |
 | 24 | **All 3 major FL airports negative simultaneously** | Q3 2026 | 65% |
+| 25 | **TSA partial/full walkout triggers measurable FL airport delays** | By Mar 21, 2026 | 60% |
+
+---
+
+## 🆕 PROPOSED NEW VECTOR: VX-MARCO-EMG-01 — US Citizen Emigration Rate
+
+WSJ (Feb 2026) reports Americans emigrating at rates not seen since 1930s. Novel outbound vector — historically MARCO tracks inbound disruption. Proposed thresholds:
+- **GREEN:** <5,000 IRS expatriations/quarter (baseline)
+- **YELLOW:** 5,000–8,000/quarter (elevated, watch)
+- **ORANGE:** 8,000–12,000/quarter (structural signal)
+- **RED:** >12,000/quarter (brain drain / tax base erosion)
+
+Data sources: IRS Form 8854 quarterly filings; State Dept consular data; destination country residency permits.
+*Awaiting PROME approval to add to VX.tsv.*
 
 ---
 
@@ -607,7 +664,7 @@ Toronto (#1), Calgary (#11), Ottawa (#6), Vancouver (#17), Montreal (#27), Halif
 | **Q1-Q2 2026** | **Thompson Standalone Ag Labor Bill** | H-2A year-round reform (dairy/meatpacking), AEWR 3.25% cap, CAW legalization pathway — NOT yet released; Judiciary jurisdiction battle ongoing |
 | **Mar 3** | TSA Partial Paycheck | First financial pain; partial miss |
 | **Mar 6** | NFP (Feb 2026) | Next jobs data; watch for DOGE/RIF signal |
-| **Mar 17** | **TSA Full Paycheck Miss** | Hard walkout trigger — spring break peak (2.5M/day) |
+| **Mar 14** | **TSA Full Paycheck Miss** | Hard walkout trigger — spring break peak (2.5M/day) |
 | ~Mar 20 | Statistics Canada Jan | First 2026 Canadian data |
 | Jul 2026 | USMCA Review | Critical for TX/AZ border economy |
 | Jan 2026 | 1% Remittance Tax | Mexico flow impact (already active) |
