@@ -54,6 +54,9 @@
 
 ---
 
+### [Dashboard] — Removing HTML? Grep JS for the IDs
+Bare `getElementById('gone').textContent` kills the ENTIRE function. Cascade failure: KRE populated but VIX/USDJPY/all strip cards showed "—". Always null-guard.
+
 ### [Process] — Don't Spiral on Debugging
 **Pattern:** When something doesn't work as expected (e.g., browser showing stale data), I re-read the same code 5+ times, add debug logging, check the same API endpoint repeatedly — burning context and Will's patience.
 **Rule:** If code works when tested directly (curl, python -c) but not in browser → it's caching. Say "hard refresh" and move on. Max 2 attempts before asking user to check browser console or refresh.

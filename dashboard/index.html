@@ -3088,11 +3088,14 @@
         
         function updatePrices(data) {
             // KRE
-            if (data.KRE.value) {
+            if (data.KRE && data.KRE.value) {
                 const kre = data.KRE.value;
-                document.getElementById('price-kre').textContent = '$' + kre.toFixed(2);
-                document.getElementById('header-kre').textContent = '$' + kre.toFixed(2);
-                document.getElementById('stat-current').textContent = '$' + kre.toFixed(2);
+                const priceKre = document.getElementById('price-kre');
+                if (priceKre) priceKre.textContent = '$' + kre.toFixed(2);
+                const headerKre = document.getElementById('header-kre');
+                if (headerKre) headerKre.textContent = '$' + kre.toFixed(2);
+                const statCurrent = document.getElementById('stat-current');
+                if (statCurrent) statCurrent.textContent = '$' + kre.toFixed(2);
                 const chainKre = document.getElementById('chain-kre-price');
                 const dataKre = document.getElementById('data-kre-price');
                 const stripKre = document.getElementById('strip-kre');
@@ -3105,30 +3108,24 @@
                 const posPnlEl = document.getElementById('position-pnl');
                 
                 if (pnl > 0) {
-                    pnlEl.textContent = '+$' + pnl;
-                    pnlEl.className = 'header-stat-value positive';
-                    posPnlEl.textContent = '+$' + pnl + '/sh';
-                    posPnlEl.style.color = 'var(--green)';
+                    if (pnlEl) { pnlEl.textContent = '+$' + pnl; pnlEl.className = 'header-stat-value positive'; }
+                    if (posPnlEl) { posPnlEl.textContent = '+$' + pnl + '/sh'; posPnlEl.style.color = 'var(--green)'; }
                 } else if (pnl < 0) {
-                    pnlEl.textContent = '-$' + Math.abs(pnl);
-                    pnlEl.className = 'header-stat-value negative';
-                    posPnlEl.textContent = '-$' + Math.abs(pnl) + '/sh';
-                    posPnlEl.style.color = 'var(--red)';
+                    if (pnlEl) { pnlEl.textContent = '-$' + Math.abs(pnl); pnlEl.className = 'header-stat-value negative'; }
+                    if (posPnlEl) { posPnlEl.textContent = '-$' + Math.abs(pnl) + '/sh'; posPnlEl.style.color = 'var(--red)'; }
                 } else {
-                    pnlEl.textContent = 'Flat';
-                    pnlEl.className = 'header-stat-value';
-                    posPnlEl.textContent = 'Flat';
-                    posPnlEl.style.color = 'var(--text-muted)';
+                    if (pnlEl) { pnlEl.textContent = 'Flat'; pnlEl.className = 'header-stat-value'; }
+                    if (posPnlEl) { posPnlEl.textContent = 'Flat'; posPnlEl.style.color = 'var(--text-muted)'; }
                 }
             }
             
             // VIX
-            if (data.VIX.value) {
+            if (data.VIX && data.VIX.value) {
                 const vix = data.VIX.value;
-                document.getElementById('price-vix').textContent = vix.toFixed(2);
-                document.getElementById('header-vix').textContent = vix.toFixed(2);
-                document.getElementById('price-vix').className = 'market-value ' + (vix > 25 ? 'breach' : 'normal');
-                // Strip card
+                const pv = document.getElementById('price-vix');
+                if (pv) { pv.textContent = vix.toFixed(2); pv.className = 'market-value ' + (vix > 25 ? 'breach' : 'normal'); }
+                const hv = document.getElementById('header-vix');
+                if (hv) hv.textContent = vix.toFixed(2);
                 const sv = document.getElementById('strip-vix');
                 const sc = document.getElementById('strip-vix-card');
                 const sl = document.getElementById('strip-vix-label');
@@ -3148,9 +3145,8 @@
             
             // OZK
             if (data.OZK && data.OZK.value) {
-                const ozk = data.OZK.value;
                 const ozkReg = document.getElementById('reginald-ozk');
-                if (ozkReg) ozkReg.textContent = '$' + ozk.toFixed(2);
+                if (ozkReg) ozkReg.textContent = '$' + data.OZK.value.toFixed(2);
             }
             
             // IWM
@@ -3166,29 +3162,22 @@
             }
             
             // USD/JPY
-            if (data.USDJPY.value) {
+            if (data.USDJPY && data.USDJPY.value) {
                 const usdjpy = data.USDJPY.value;
-                document.getElementById('price-usdjpy').textContent = '¥' + usdjpy.toFixed(2);
-                document.getElementById('price-usdjpy').className = 'market-value ' + (usdjpy > 160 ? 'breach' : usdjpy > 158 ? 'warning' : 'normal');
+                const pu = document.getElementById('price-usdjpy');
+                if (pu) { pu.textContent = '¥' + usdjpy.toFixed(2); pu.className = 'market-value ' + (usdjpy > 160 ? 'breach' : usdjpy > 158 ? 'warning' : 'normal'); }
                 const su = document.getElementById('strip-usdjpy');
                 if (su) su.textContent = usdjpy.toFixed(2);
             }
             
-            // Others
-            if (data.TNX && data.TNX.value) {
-                document.getElementById('price-tnx').textContent = data.TNX.value.toFixed(2) + '%';
-            }
-            if (data.HYG && data.HYG.value) {
-                document.getElementById('price-hyg').textContent = '$' + data.HYG.value.toFixed(2);
-            }
-            if (data.SPY && data.SPY.value) {
-                document.getElementById('price-spy').textContent = '$' + data.SPY.value.toFixed(2);
-            }
-            if (data.GLD && data.GLD.value) {
-                document.getElementById('price-gld').textContent = '$' + data.GLD.value.toFixed(2);
-            }
+            // Others — all null-guarded
+            if (data.TNX && data.TNX.value) { const e = document.getElementById('price-tnx'); if (e) e.textContent = data.TNX.value.toFixed(2) + '%'; }
+            if (data.HYG && data.HYG.value) { const e = document.getElementById('price-hyg'); if (e) e.textContent = '$' + data.HYG.value.toFixed(2); }
+            if (data.SPY && data.SPY.value) { const e = document.getElementById('price-spy'); if (e) e.textContent = '$' + data.SPY.value.toFixed(2); }
+            if (data.GLD && data.GLD.value) { const e = document.getElementById('price-gld'); if (e) e.textContent = '$' + data.GLD.value.toFixed(2); }
             
-            document.getElementById('update-time').textContent = data.updated || new Date().toISOString();
+            const ut = document.getElementById('update-time');
+            if (ut) ut.textContent = data.updated || new Date().toISOString();
         }
         
         async function fetchTreasury() {
