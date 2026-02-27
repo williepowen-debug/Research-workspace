@@ -655,30 +655,35 @@ def parse_predictions():
             with open(predictions_file, 'r') as f:
                 content = f.read()
             
-            # Parse resolved section
-            resolved_match = re.search(r'## RECENTLY RESOLVED\n\n\|.*?\n\|[-|\s]+\n(.*?)\n\n---', content, re.DOTALL)
-            if resolved_match:
-                for line in resolved_match.group(1).strip().split('\n'):
-                    parts = [p.strip() for p in line.split('|')[1:-1]]
-                    if len(parts) >= 5:
-                        is_correct = '✅' in parts[2]
-                        is_wrong = '❌' in parts[2]
-                        is_partial = '⚠️' in parts[2]
-                        result["resolved"].append({
-                            "id": parts[0].replace('**', ''),
-                            "prediction": parts[1],
-                            "result": parts[2],
-                            "confidence": parts[3],
-                            "notes": parts[4] if len(parts) > 4 else ""
-                        })
-                        result["calibration"]["total"] += 1
-                        if is_correct:
-                            result["calibration"]["correct"] += 1
-                        elif is_wrong:
-                            result["calibration"]["wrong"] += 1
-                        elif is_partial:
-                            result["calibration"]["partial"] += 0.5
-                            result["calibration"]["correct"] += 0.5
+            # Parse resolved section — find ALL tables under RECENTLY RESOLVED
+            resolved_section = re.search(r'## RECENTLY RESOLVED\n(.*?)(?=\n## [A-Z]|\n---\n\n## |\Z)', content, re.DOTALL)
+            if resolved_section:
+                # Find all markdown tables in the resolved section
+                tables = re.findall(r'\|.*?\n\|[-|\s]+\n(.*?)(?=\n\n|\n###|\Z)', resolved_section.group(1), re.DOTALL)
+                for table in tables:
+                    for line in table.strip().split('\n'):
+                        if not line.strip() or not line.strip().startswith('|'):
+                            continue
+                        parts = [p.strip() for p in line.split('|')[1:-1]]
+                        if len(parts) >= 3:
+                            is_correct = '✅' in parts[2]
+                            is_wrong = '❌' in parts[2]
+                            is_partial = '⚠️' in parts[2]
+                            result["resolved"].append({
+                                "id": parts[0].replace('**', ''),
+                                "prediction": parts[1],
+                                "result": parts[2],
+                                "confidence": parts[3] if len(parts) > 3 else "",
+                                "notes": parts[4] if len(parts) > 4 else ""
+                            })
+                            result["calibration"]["total"] += 1
+                            if is_correct:
+                                result["calibration"]["correct"] += 1
+                            elif is_wrong:
+                                result["calibration"]["wrong"] += 1
+                            elif is_partial:
+                                result["calibration"]["partial"] += 0.5
+                                result["calibration"]["correct"] += 0.5
             
             # Calculate accuracy
             if result["calibration"]["total"] > 0:

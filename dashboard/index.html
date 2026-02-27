@@ -1283,15 +1283,15 @@
                 <div class="section-title" style="margin-bottom: 16px;">Prediction Scorecard</div>
                 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 16px; text-align: center;">
                     <div>
-                        <div style="font-size: 32px; font-weight: 700; color: var(--green);">5.5</div>
+                        <div style="font-size: 32px; font-weight: 700; color: var(--green);" id="main-correct">12.5</div>
                         <div style="font-size: 12px; color: var(--text-muted);">Correct</div>
                     </div>
                     <div>
-                        <div style="font-size: 32px; font-weight: 700; color: var(--red);">1</div>
+                        <div style="font-size: 32px; font-weight: 700; color: var(--red);" id="main-wrong">10</div>
                         <div style="font-size: 12px; color: var(--text-muted);">Wrong</div>
                     </div>
                     <div>
-                        <div style="font-size: 32px; font-weight: 700; color: var(--accent);">79%</div>
+                        <div style="font-size: 32px; font-weight: 700; color: var(--accent);" id="main-accuracy">55%</div>
                         <div style="font-size: 12px; color: var(--text-muted);">Accuracy</div>
                     </div>
                     <div>
@@ -3351,6 +3351,14 @@
             if (correctEl) correctEl.textContent = Math.floor(cal.correct);
             if (partialEl) partialEl.textContent = Math.floor(cal.partial);
             if (wrongEl) wrongEl.textContent = Math.floor(cal.wrong);
+            
+            // Sync main dashboard scorecard
+            const mainCorrect = document.getElementById('main-correct');
+            const mainWrong = document.getElementById('main-wrong');
+            const mainAccuracy = document.getElementById('main-accuracy');
+            if (mainCorrect) mainCorrect.textContent = cal.correct;
+            if (mainWrong) mainWrong.textContent = Math.floor(cal.wrong);
+            if (mainAccuracy) mainAccuracy.textContent = Math.round(cal.accuracy) + '%';
             
             // Set accuracy color
             if (accEl) {
