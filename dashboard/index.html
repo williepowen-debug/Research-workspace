@@ -1210,20 +1210,41 @@
             </div>
             
             <!-- 1.5 WHAT CHANGED TODAY -->
-            <div class="changes-strip" id="changes-strip">
-                <span class="change-label">Loading changes...</span>
+            <div class="changes-strip" id="changes-strip" style="background: linear-gradient(90deg, var(--bg-tertiary) 0%, rgba(59,130,246,0.05) 100%); border-color: #1e3a5f;">
+                <span class="change-label">⚡ Loading changes...</span>
             </div>
             
-            <!-- 1.6 POSITION P/L TABLE -->
-            <div style="background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 12px; padding: 16px; margin-bottom: 20px;">
-                <div style="font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; color: var(--text-muted); margin-bottom: 12px;">Positions P/L</div>
-                <table class="positions-table" id="positions-table">
-                    <thead>
-                        <tr><th>Position</th><th>Price</th><th>Day</th><th>Total P/L</th><th>Status</th></tr>
-                    </thead>
-                    <tbody id="positions-tbody">
-                    </tbody>
-                </table>
+            <!-- 1.6 TWO-COLUMN: POSITIONS + CATALYSTS/PREDICTIONS -->
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 20px;">
+                <!-- LEFT: Positions -->
+                <div style="background: linear-gradient(135deg, var(--bg-secondary) 0%, rgba(139,92,246,0.05) 100%); border: 1px solid #2d2054; border-radius: 12px; padding: 16px;">
+                    <div style="font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; color: #a78bfa; margin-bottom: 12px; display: flex; justify-content: space-between;">
+                        <span>📈 Positions P/L</span>
+                        <span style="color: var(--text-muted);">Feb 27</span>
+                    </div>
+                    <table class="positions-table" id="positions-table">
+                        <thead>
+                            <tr><th>Position</th><th>Qty</th><th>Total P/L</th></tr>
+                        </thead>
+                        <tbody id="positions-tbody">
+                        </tbody>
+                    </table>
+                </div>
+                
+                <!-- RIGHT: Catalysts + Imminent Predictions -->
+                <div style="display: flex; flex-direction: column; gap: 16px;">
+                    <!-- Next Catalysts -->
+                    <div style="background: linear-gradient(135deg, var(--bg-secondary) 0%, rgba(59,130,246,0.05) 100%); border: 1px solid #1e3a5f; border-radius: 12px; padding: 16px; flex: 1;">
+                        <div style="font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; color: #60a5fa; margin-bottom: 12px;">📅 Next Catalysts</div>
+                        <div id="overview-catalysts" style="display: flex; flex-direction: column; gap: 6px;"></div>
+                    </div>
+                    
+                    <!-- Imminent Predictions -->
+                    <div style="background: linear-gradient(135deg, var(--bg-secondary) 0%, rgba(239,68,68,0.05) 100%); border: 1px solid #3b1c1c; border-radius: 12px; padding: 16px; flex: 1;">
+                        <div style="font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; color: #f87171; margin-bottom: 12px;">🎯 Imminent Predictions</div>
+                        <div id="overview-imminent" style="display: flex; flex-direction: column; gap: 6px;"></div>
+                    </div>
+                </div>
             </div>
             
             <!-- 2. CRITICAL METRICS STRIP -->
@@ -1256,10 +1277,10 @@
             </div>
             
             <!-- 3. POSITIONS GRID (4 Active) -->
-            <div style="margin-bottom: 20px;">
-                <div style="font-size: 12px; color: var(--text-muted); margin-bottom: 12px; display: flex; justify-content: space-between;">
-                    <span>ACTIVE POSITIONS (4)</span>
-                    <span>Total Risk: ~$2,230</span>
+            <div style="margin-bottom: 20px; background: linear-gradient(135deg, var(--bg-secondary) 0%, rgba(34,197,94,0.03) 100%); border: 1px solid #1a3a2a; border-radius: 12px; padding: 16px;">
+                <div style="font-size: 12px; color: #4ade80; margin-bottom: 12px; display: flex; justify-content: space-between; text-transform: uppercase; letter-spacing: 0.5px;">
+                    <span>📊 Active Positions</span>
+                    <span style="color: var(--text-muted);">Total Risk: ~$5,000</span>
                 </div>
                 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px;">
                     <!-- KRE -->
@@ -1381,8 +1402,8 @@
             </div>
             
             <!-- 4. UPDATED PREDICTIONS SCORECARD -->
-            <div class="agents-section" style="background: var(--bg-secondary); border-radius: 12px; padding: 20px; margin-top: 20px;">
-                <div class="section-title" style="margin-bottom: 16px;">Prediction Scorecard</div>
+            <div class="agents-section" style="background: linear-gradient(135deg, var(--bg-secondary) 0%, rgba(234,179,8,0.05) 100%); border: 1px solid #3d3414; border-radius: 12px; padding: 20px; margin-top: 20px;">
+                <div style="font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; color: #facc15; margin-bottom: 16px;">🏆 Prediction Scorecard</div>
                 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 16px; text-align: center;">
                     <div>
                         <div style="font-size: 32px; font-weight: 700; color: var(--green);" id="main-correct">12.5</div>
@@ -1780,7 +1801,7 @@
             </div>
             
             <!-- LABOR Domain -->
-            <div class="agents-section" style="border-left: 3px solid var(--red); padding-left: 16px;">
+            <div class="agents-section" style="border-left: 3px solid var(--red); padding-left: 16px; background: linear-gradient(90deg, rgba(239,68,68,0.06) 0%, transparent 40%); border-radius: 8px; padding: 16px;">
                 <div class="section-title" style="display: flex; align-items: center; gap: 8px;">
                     <span class="agent-status red" style="width: 8px; height: 8px;"></span>
                     <div class="section-header" onclick="this.closest('.agents-section').classList.toggle('collapsed')">LABOR — Employment <span class="chevron">▼</span></div>
@@ -1955,7 +1976,7 @@
             </div>
             
             <!-- HENRY Domain -->
-            <div class="agents-section" style="border-left: 3px solid var(--yellow); padding-left: 16px;">
+            <div class="agents-section" style="border-left: 3px solid var(--yellow); padding-left: 16px; background: linear-gradient(90deg, rgba(234,179,8,0.06) 0%, transparent 40%); border-radius: 8px; padding: 16px;">
                 <div class="section-title" style="display: flex; align-items: center; gap: 8px;">
                     <span class="agent-status yellow" style="width: 8px; height: 8px;"></span>
                     <div class="section-header" onclick="this.closest('.agents-section').classList.toggle('collapsed')">HENRY — Market Structure <span class="chevron">▼</span></div>
@@ -1995,7 +2016,7 @@
             </div>
             
             <!-- LIQUID Domain -->
-            <div class="agents-section" style="border-left: 3px solid var(--green); padding-left: 16px;">
+            <div class="agents-section" style="border-left: 3px solid var(--green); padding-left: 16px; background: linear-gradient(90deg, rgba(34,197,94,0.06) 0%, transparent 40%); border-radius: 8px; padding: 16px;">
                 <div class="section-title" style="display: flex; align-items: center; gap: 8px;">
                     <span class="agent-status green" style="width: 8px; height: 8px;"></span>
                     <div class="section-header" onclick="this.closest('.agents-section').classList.toggle('collapsed')">LIQUID — Funding / Plumbing <span class="chevron">▼</span></div>
@@ -2050,7 +2071,7 @@
             </div>
             
             <!-- MARCO Domain -->
-            <div class="agents-section" style="border-left: 3px solid var(--orange); padding-left: 16px;">
+            <div class="agents-section" style="border-left: 3px solid var(--orange); padding-left: 16px; background: linear-gradient(90deg, rgba(249,115,22,0.06) 0%, transparent 40%); border-radius: 8px; padding: 16px;">
                 <div class="section-title" style="display: flex; align-items: center; gap: 8px;">
                     <span class="agent-status orange" style="width: 8px; height: 8px;"></span>
                     <div class="section-header" onclick="this.closest('.agents-section').classList.toggle('collapsed')">MARCO — Migration / Border <span class="chevron">▼</span></div>
@@ -3749,17 +3770,65 @@
             if (!tbody) return;
             tbody.innerHTML = positions.map(p => {
                 const color = p.status === 'green' ? 'var(--green)' : 'var(--red)';
-                const icon = p.status === 'green' ? '▲' : '▼';
+                const icon = p.status === 'green' ? '↑' : '↓';
                 return `<tr>
-                    <td style="color: var(--text-primary); font-weight: 500;">${p.name} <span style="color: var(--text-muted);">×${p.qty}</span></td>
-                    <td id="pos-price-${p.name.split(' ')[0].toLowerCase()}" style="color: var(--text-secondary);">—</td>
-                    <td style="color: var(--text-muted);">—</td>
-                    <td style="color: ${color}; font-weight: 600;">${p.pnl}</td>
-                    <td style="color: ${color};">${icon}</td>
+                    <td style="color: var(--text-primary); font-weight: 500;">${p.name}</td>
+                    <td style="color: var(--text-muted); text-align: center;">×${p.qty}</td>
+                    <td style="color: ${color}; font-weight: 600; text-align: right;">${icon} ${p.pnl}</td>
                 </tr>`;
             }).join('');
         }
         renderPositions();
+        
+        // Render overview catalysts (next 5)
+        function renderOverviewCatalysts() {
+            const container = document.getElementById('overview-catalysts');
+            if (!container) return;
+            const now = new Date();
+            const upcoming = catalysts
+                .map(c => ({ ...c, dateObj: new Date(c.date) }))
+                .filter(c => c.dateObj > now)
+                .sort((a, b) => a.dateObj - b.dateObj)
+                .slice(0, 5);
+            
+            container.innerHTML = upcoming.map(c => {
+                const dateStr = c.dateObj.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+                const countdown = formatCountdown(c.dateObj);
+                const isCritical = c.priority === 'critical';
+                return `<div style="display: flex; align-items: center; gap: 8px; padding: 6px 8px; background: var(--bg-tertiary); border-radius: 6px; font-size: 12px;">
+                    <span style="color: var(--text-muted); min-width: 42px; font-family: 'JetBrains Mono', monospace; font-size: 11px;">${dateStr}</span>
+                    <span style="flex: 1; color: ${isCritical ? 'var(--text-primary)' : 'var(--text-secondary)'};">${c.text.replace(/🔴\s?/,'').replace(/⚓\s?/,'')}</span>
+                    <span class="countdown ${countdown.class}" style="font-size: 10px;">${countdown.text}</span>
+                </div>`;
+            }).join('');
+        }
+        renderOverviewCatalysts();
+        
+        // Render overview imminent predictions
+        async function renderOverviewImminent() {
+            try {
+                const resp = await fetch('/api/predictions');
+                if (!resp.ok) return;
+                const data = await resp.json();
+                const container = document.getElementById('overview-imminent');
+                if (!container || !data.imminent) return;
+                
+                const items = data.imminent.slice(0, 4);
+                container.innerHTML = items.map(p => {
+                    return `<div style="display: flex; align-items: center; justify-content: space-between; padding: 6px 8px; background: var(--bg-tertiary); border-radius: 6px; font-size: 12px;">
+                        <div>
+                            <span style="color: var(--text-primary);">${p.prediction}</span>
+                            <span style="color: var(--text-muted); font-size: 10px; margin-left: 6px;">${p.agent}</span>
+                        </div>
+                        <div style="text-align: right; font-family: 'JetBrains Mono', monospace; font-size: 11px;">
+                            <span style="color: var(--text-muted);">${p.current}</span>
+                            <span style="color: var(--red); margin-left: 4px;">→ ${p.target}</span>
+                        </div>
+                    </div>`;
+                }).join('');
+            } catch(e) { console.error('Imminent fetch:', e); }
+        }
+        renderOverviewImminent();
         
         // "What Changed Today" strip - updates from price/fred data
         let prevPrices = {};
