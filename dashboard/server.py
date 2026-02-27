@@ -118,7 +118,7 @@ FRED_SERIES = {
     "BAMLH0A0HYM2": {"name": "HY OAS", "threshold": 4.0, "direction": "above", "format": "percent"},
     # LIQUID
     "SOFR": {"name": "SOFR Rate", "threshold": 4.50, "direction": "above", "format": "percent"},
-    "RRPONTSYD": {"name": "RRP Balance", "threshold": 50, "direction": "below", "format": "billions"},
+    "RRPONTSYD": {"name": "RRP Balance", "threshold": 5, "direction": "below", "format": "billions"},
 }
 
 def fetch_fred_data():
