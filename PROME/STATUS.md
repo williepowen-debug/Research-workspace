@@ -1,7 +1,7 @@
 # PROME STATUS.md
 **Updated:** 2026-02-27 17:30 UTC
 
-**Last context:** BLOODBATH day — KRE -5.1% ($66.81), WAL -10% ($81.01), all 18 regionals red. WAL $82.5P now +77% ITM. REGINALD processed BROCK's 12-signal inbox (all 8 channels RED). HENRY got macro data mandate + econ calendar (Mar-Jun). NEXT: Dashboard overhaul, then profit-taking decisions (trim WAL $82.5P + 1x KRE Jun $60P), KRE roll Monday.
+**Last context:** Dashboard overhaul + predictions scorecard resolved. Server updated (WAL/OZK/IWM added, CVNA/BTC removed). Frontend overhauled (Hidden CRE section, new catalyst calendar, dynamic prices). Predictions now 12.5/22 (57% overall, 79% thesis-only, calibration excellent). CONTINUING dashboard work next session. Still need: profit-taking decisions, KRE roll Monday, CARL/MARCO/SAM pruning.
 
 ## 🔴 CRITICAL — Private Credit Recognition Wave | Multiple Vectors Confirming
 
