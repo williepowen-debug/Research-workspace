@@ -54,6 +54,14 @@
 
 ---
 
+### [Process] — Never Skip Boot Sequence
+**Mistake:** Read 3 files instead of full boot, jumped to responding. Misread WAL -10% as +10%, gave sloppy analysis, Will noticed.
+**Rule:** AGENTS.md boot sequence is mandatory. Every session, no shortcuts. Read SOUL → USER → LESSONS → memory → PROME/STATUS → FORGE/STATUS before saying anything substantive. The 2 minutes it takes prevents the 10 minutes of bad output.
+
+### [Analysis] — Double-Check Direction When Reading Screenshots
+**Mistake:** Called WAL +10.64% (it was -10.64%), called a red watchlist "green." Twice in one session. Extracted correct numbers but inverted the sign/color.
+**Rule:** When reading price screenshots, state the direction explicitly and verify against context. If everything else is selling off, a stock isn't up 10%.
+
 ### [Dashboard] — Removing HTML? Grep JS for the IDs
 Bare `getElementById('gone').textContent` kills the ENTIRE function. Cascade failure: KRE populated but VIX/USDJPY/all strip cards showed "—". Always null-guard.
 
