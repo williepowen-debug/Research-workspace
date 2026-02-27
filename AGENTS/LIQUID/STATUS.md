@@ -1,5 +1,91 @@
 # LIQUID STATUS
-**Last Updated:** 2026-02-22 19:40 UTC | **Status:** 🔴 CRITICAL — FED LOSING CONTROL: SOFR ABOVE CEILING + FOREIGN DEMAND COLLAPSE
+**Last Updated:** 2026-02-27 22:09 UTC | **Status:** 🔴 CRITICAL — MFS FRAUD CONFIRMED £2B + CREDIT SPREADS 4-MONTH HIGH + RRP $16.3B + CLO EQUITY CRASHING
+
+---
+
+## 📥 EOD UPDATE — Feb 27, 2026 (FINAL)
+
+### 🔴 UK MORTGAGE LENDER COLLAPSE — MFS CONTAGION [UPGRADED]
+- **Market Financial Solutions (MFS)** — London-based complex property-backed lender — placed into administration Feb 26
+- **FRAUD CONFIRMED: £2B total exposure** (upgraded from initial £930M shortfall estimate)
+- **Mechanism: Double-pledging** — same collateral pledged multiple times to different lenders; assets do not exist at claimed values
+- **Bank/Lender Exposure (confirmed):**
+  - **Barclays** — equity -4.2%; credit exposure via structured facilities
+  - **Jefferies** — equity -10.7%; warehouse lending exposure
+  - **Apollo Global** — direct lending exposure (size unconfirmed)
+  - **Wells Fargo** — credit facility exposure (size unconfirmed)
+  - **Santander** — equity -5%; credit exposure
+- **Private credit trigger**: Reviving "cockroaches" narrative — more hidden stress in credit industry
+- **Connection**: Blue Owl OBDC II stress (Feb 18) + MFS collapse = TWO credit events in 9 days
+- **Cross-link**: REGINALD — bank funding stress amplified via credit contagion
+
+### 🔴 MFS → BANK EQUITY TRANSMISSION PATH [KEY MECHANISM — "COCKROACH" EVENT]
+**This is the proof of concept that private credit stress transmits to public markets.**
+
+```
+PRIVATE CREDIT STRESS → PUBLIC MARKET CONTAGION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. MFS (private lender) double-pledges collateral to 5 lenders
+        ↓
+2. Administration triggered → lenders discover £2B fraud
+        ↓
+3. Banks holding MFS warehouse/credit facilities face write-downs
+   (Barclays, Jefferies, Apollo, WF, Santander)
+        ↓
+4. Bank equities sell off SAME DAY (Barclays -4.2%, Jefferies -10.7%, Santander -5%)
+        ↓
+5. Credit spreads widen as market prices in "cockroach" risk
+   (HY OAS +12bps in 1 week → 2.98%, widest in 4 months)
+        ↓
+6. CLO equity funds already down 15-40% since Dec (first-loss absorbed)
+        ↓
+7. Apollo MFIC dividend CUT (BROCK signal) — BDC stress spreading
+        ↓
+8. If HY OAS reaches 320bps → CREDIT TRANSMISSION CONFIRMED
+        ↓
+9. Funding markets amplify: RRP spikes (flight to safety), SOFR elevated
+```
+
+**Why this matters:** MFS is not a one-off. It's proof that fraudulent/stressed private credit assets
+sit inside institutions that also fund in public markets. The write-down pathway is direct and fast.
+Barclays and Jefferies equity prices responded the same trading session. This is not "contained."
+
+### 🟠 CREDIT SPREADS WIDENING — MOST IN 4 MONTHS (Bloomberg)
+- **HY OAS (BAMLH0A0HYM2)**: 2.98% (Feb 26) — up from 2.86% on Feb 20 (+12bps in 1 week)
+- **IG OAS (BAMLC0A0CM)**: 0.82% (Feb 26) — up from 0.78% on Feb 20 (+4bps in 1 week)
+- **Asian IG**: +2bps on Friday (Bloomberg)
+- **Context**: Spreads coming off historic tights (~250bps HY, ~74bps IG in Jan). Now breaking out.
+- **Assessment**: Still early — NOT yet at stress thresholds — but direction change confirmed
+- **🚨 KEY THRESHOLD TO WATCH: HY OAS 320bps = CREDIT TRANSMISSION CONFIRMED**
+  - Current: 298bps. Need +22bps more to hit confirmation level.
+  - At 320bps: market is pricing systemic credit stress, not idiosyncratic events
+  - Triggers re-evaluation of all private credit → public market transmission theses
+
+### 🔴 CROSS-AGENT SIGNALS — Feb 27 EOD
+**BROCK (Private Credit / BDC):**
+- **Apollo MFIC dividend CUT** — BDC dividend sustainability collapsing under leverage stress
+- **Rubric Capital letter on BDC leverage masking** — activist/investor flagging that BDC portfolios are obscuring true leverage through NAV marks. Same "cockroach" dynamic as MFS.
+- Connection: Apollo exposed via MFS AND via MFIC dividend cut. Double exposure confirmed.
+
+**HENRY (Market Structure):**
+- **Largest monthly decline since March 2025** — equity market stress at 11-month high
+- February 2026 = worst month since the Mar 2025 stress episode
+- Context: This compounds credit spread widening; equity VaR hits trigger credit portfolio rebalancing
+
+### 🟡 RRP SPIKE — $16.3B (Feb 27)
+- RRP: $16.3B on Feb 27 — up from $3.8B Feb 26 and $1.2B Feb 25
+- **Most likely**: Month-end cash parking + flight to safety amid equity selloff
+- **But note**: Could signal MMF risk aversion — parking cash at Fed vs private repo
+- Previous trend was near-zero; this reversal bears watching
+
+### 🟡 SOFR / FUNDING
+- SOFR: 3.67% (Feb 26) — still 2bps above IORB (3.65%)
+- Not a new spike, but PERSISTENTLY above target range
+- Reserve balances: $2,965B (week of Feb 25) — actually ROSE slightly (stealth QE working?)
+
+### REUTERS QUOTE (Feb 27)
+"Credit fears are weighing on the banking sector today. And of course this continuing AI selloff and the PPI report, which was very ugly." — Cardillo
 
 ---
 
@@ -529,7 +615,26 @@ Timeline: May 2026 Powell term expires.
 
 ---
 
-## BOTTOM LINE
+## BOTTOM LINE — UPDATED FEB 27 EOD
+
+**🔴 MFS IS THE COCKROACH EVENT. Private credit fraud → public market transmission PROVEN.**
+
+**Feb 27 Synthesis:**
+- MFS collapse = £2B fraud via double-pledging. Not a liquidity event — FRAUD. Collateral that doesn't exist.
+- Banks (Barclays, Jefferies, Santander) repriced SAME SESSION. Apollo and WF also exposed.
+- CLO equity down 15-40% since Dec. BDC dividend cuts starting (Apollo MFIC).
+- HY OAS at 298bps — 22bps from 320bps confirmation threshold.
+- HENRY: worst month since Mar 2025. Equity stress = credit stress amplifier.
+- RRP $16.3B spike = month-end + flight to safety. Not yet structural, but directionally concerning.
+- SOFR still 2bps above IORB (3.67% vs 3.65%) — funding stress persisting.
+
+**The narrative is shifting:** From "isolated credit incidents" to "systemic private credit stress with public market transmission." This is what cockroach theory predicted.
+
+**Watch:** HY OAS 320bps = confirmation. Apollo MFIC / BDC dividend trajectory. Any further MFS-linked counterparty disclosures.
+
+---
+
+## BOTTOM LINE — STRUCTURAL (Feb 18-19 Context)
 
 **System under acute stress. Fed forced into stealth QE.**
 

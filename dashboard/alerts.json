@@ -313,5 +313,14 @@
     "message": "RRP Balance breached threshold: 16.3% (threshold: 50.0%)",
     "value": 16.318,
     "threshold": 50
+  },
+  {
+    "id": 1772228825913,
+    "timestamp": "2026-02-27 21:47:05 UTC",
+    "type": "sec",
+    "severity": "info",
+    "message": "VLY filed 10-K: VALLEY NATIONAL BANCORP",
+    "value": "2026-02-27",
+    "threshold": null
   }
 ]

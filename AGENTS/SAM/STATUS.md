@@ -1,8 +1,8 @@
 # SAM STATUS
 
-**Signal Status:** 🟡 YELLOW | **Last Updated:** 2026-02-27 13:45 UTC
+**Signal Status:** 🟡 YELLOW | **Last Updated:** 2026-02-27 21:45 UTC
 
-**Summary:** FEB 26 PIVOT — Takaichi picks DOVES for BOJ board. Hike path constrained. JGB curve steepening. Yen sold. BOJ independence threatened.
+**Summary:** FEB 27 EOD — USDJPY 156.09, yen slightly weaker (+0.15%). JGB 10Y at 2.11% (-4bp). Nikkei +0.16% (near 59,000 all-time high). US risk-off (Nvidia slump, S&P -0.54%) NOT spilling into carry unwind — dovish BOJ board nominees (Asada/Sato) and hot US PPI keeping carry trade ALIVE. Ueda counter-signaling: flagged March AND April meetings as "live" for hikes. Two-sided tension building but no unwind today.
 
 ---
 
@@ -194,12 +194,12 @@ Japan is in a **fiscal doom loop** (acknowledged as "credible tail risk" by Alli
 | Vector | Value | Status | Change | Threshold |
 |--------|-------|--------|--------|-----------|
 | **BOJ Rate** | **0.75%** | 🟡 | ⬆️ AT CEILING | Next hike = collision |
-| **JGB 10Y** | **2.10%** | 🟢 | **⬇️ -4bp (Feb 20)** | Watch >2.50% |
+| **JGB 10Y** | **2.11%** | 🟢 | **⬇️ -4bp (Feb 27)** | Watch >2.50% |
 | JGB 5Y | 1.605% | 🟢 | ⬇️ -2.5bp (Feb 20) | Watch >2.00% |
 | JGB 20Y | ~2.965% | 🟢 | **FEB 19: BTC 3.08 PASSED** | Path D NOT triggered |
 | JGB 30Y | ~3.05-3.10% | 🟢 | ⬇️ from 3.57% | Watch >4.00% |
 | JGB 40Y | ~3.65% | 🟢 | ⬇️ from 3.85% | ATH 4.24% (Jan) |
-| USD/JPY | ~152-153 | 🟢 | ⬇️ from 156.25 | 160 🔴 |
+| USD/JPY | ~156.09 | 🟡 | ⬆️ yen weaker vs Feb | 160 🔴 |
 | Real Wage Growth | **0.0%** | 🟠 | flat | BOJ trapped |
 | 30Y Auction BTC | 3.64 | 🟢 | — | Feb 5 passed |
 | 5Y Auction BTC | 3.10 | 🟢 | Feb 17 passed | Below 3.48 avg |

@@ -6,6 +6,7 @@
 
 | Ticker | Thesis | Entry Trigger | Owner |
 |--------|--------|---------------|-------|
+| **APO** | Triple stress: MFIC div cut + Atlas SP/MFS + Medallia 78¢. Athene insurance transmission risk. | Screen puts Monday | BROCK |
 | BXSL | Medallia 78¢, NAV overstated | Screen puts | BROCK |
 | OWL | Blue Owl epicenter, OBDC II gated | Screen puts | BROCK |
 | STNG/TNP | Tanker / Baltic ice squeeze | Late March (ice breaks) | LIQUID |

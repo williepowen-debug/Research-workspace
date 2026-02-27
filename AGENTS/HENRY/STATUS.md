@@ -1,7 +1,7 @@
 # HENRY STATUS
-**Last Updated:** 2026-02-27 15:35 UTC | **Status:** 🔴 RED — SPX -1.1% (est. ~6,775), Dow -715pts, KRE -3.9% to $67.64, PPI core +0.8% vs +0.3% exp, negative gamma regime, Put Wall at 6,800 being tested
+**Last Updated:** 2026-02-27 21:45 UTC | **Status:** 🔴 RED — SPX CLOSE 6,843.16 (-0.95%), Dow -777pts (-1.57%), Nasdaq -1.13%, IWM -1.83%, KRE -3.3%, WAL -10.64% (worst regional bank). PPI core +0.8% vs +0.3% exp. AI disruption fears. Credit contagion (Market Financial Solutions UK collapse hitting Barclays/Jefferies/WFC). UBS downgraded US equities. Largest monthly S&P/Nasdaq decline since March 2025.
 
-**Data Pull (Feb 27 live):** VIX ~18.6-19+ (rising intraday) | MOVE trending up +2.4% from yesterday | HY OAS ~295 bps (Feb avg, TradingEconomics) | 10Y yield ~3.99% | Gold $5,226 (+$48) safe haven bid confirmed
+**EOD Closes Feb 27:** SPX 6,843.16 | Dow 48,721.66 | Nasdaq 22,620.85 | VIX ~+4% on day (est. ~19.8-20.2 close) | Gold safe-haven bid confirmed | 10Y yield ~3.99% (higher-for-longer repricing)
 
 ---
 
@@ -50,7 +50,7 @@ Market is derivatives-driven, dealer hedging dominates short-term dynamics.
 | Indicator | Last Known | Threshold | Status |
 |-----------|-----------|-----------|--------|
 | HY OAS | ~295 bps (Feb avg) | 300 = elevated | 🟠 |
-| VIX | ~18.6-19+ rising | >20 elevated | 🟠→🔴 |
+| VIX | ~19.8-20.2 (EOD est.) | >20 elevated | 🔴 BREACHED |
 | MOVE | Rising (+2.4% yesterday) | >100 = divergence warning | 🟡→🟠 |
 | 0DTE Share (SPX) | 65% (Friday expiry today) | Record | 🔴 |
 | Margin Debt | $1.23T | ATH | 🔴 |
@@ -129,10 +129,22 @@ Risk parity deleverages     → T+5 to T+30
 
 ---
 
+## EOD LOG — Feb 27, 2026
+
+**Confirmed close:** SPX 6,843.16 (-0.95%) | Dow 48,721.66 (-1.57%) | Nasdaq 22,620.85 (-1.13%) | IWM -1.83% | KRE -3.3% | WAL -10.64%
+**VIX:** ~+4% intraday — likely breached 20 at close (🔴 threshold crossed)
+**Drivers (three-way confluence):**
+1. PPI core +0.8% vs +0.3% exp — "higher for longer" back. Spring cut dead. Rate-sensitive names (regionals, PE) repriced.
+2. AI disruption fears — Banks and PE firms face disintermediation narrative. Block (+18%) surged on cutting 4,000 jobs via AI = confirmation AI displacing white-collar finance jobs.
+3. Credit contagion — Market Financial Solutions (UK mortgage) collapsed. Barclays, Jefferies, Wells Fargo facing losses. WAL suing borrower over fraud (First Brands/Tricolor bankruptcies). WAL -10.64%.
+**Macro context:** Largest monthly SPX/Nasdaq decline since March 2025. UBS downgraded US equities. Geopolitical: Iran strike risk elevated.
+**WAL specific trigger:** Fraud litigation + credit exposure to auto industry bankruptcies → stock -10.64%, worst regional bank day.
+
 ## INBOX (Processed Feb 27)
 
 - ✅ Corporate bond bubble signal (Feb 26) — INTEGRATED: HY OAS 295 bps compressed vs deteriorating fundamentals = snap risk
 - ✅ Signal batch (Feb 27) — INTEGRATED: KRE = curve/margin primary, credit secondary but accelerating; AI 45% S&P concentration logged
+- ✅ EOD Feb 27 — INTEGRATED: SPX 6,843, VIX ~20 breach, WAL -10.64% credit/fraud trigger, three-way confluence confirmed
 
 ---
 
