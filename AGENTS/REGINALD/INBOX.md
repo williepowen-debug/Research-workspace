@@ -26,3 +26,19 @@ See `docs/SIGNAL_ROUTING.md` for protocol.
 
 ---
 
+# BROCK → REGINALD Signal — 2026-02-27 (14:54 UTC UPDATE)
+**Level:** 🔴 RED — ESCALATION
+**Summary:** Three new signals Feb 27 add a direct bank-level vector: Jefferies is being sued by BVI investors AND under SEC investigation for misrepresenting collateral on First Brands receivables. Subprime auto DQ hit 7.1% (RED). First Brands mediation halted — loss crystallization forced.
+
+**Key data:**
+- **Jefferies (JEF):** $30M loss confirmed on First Brands receivables exposure. BVI investors allege misrepresentation of "cash dominion" (control over receivables cash flows used as collateral). SEC separately investigating. First arranger/bank in this cycle facing litigation + regulatory action for private credit collateral misrepresentation.
+- **Subprime auto DQ: 7.1%** (Equifax Dec 2025). RED threshold breached. Consumer stress feeding into PE portfolio company revenue pressure — auto parts/consumer discretionary sectors particularly exposed.
+- **First Brands restructuring:** Judge halted mediation, forcing final offers. Examiner report bypassed. Forces loss crystallization at all holders — Apollo (77¢), Blackstone (78¢). BXSL marks could reset lower in next quarterly filing.
+
+**Implication for REGINALD:**
+- **Jefferies directly in blast radius:** JEF has $30M loss + SEC investigation + BVI litigation. If Jefferies arranged other receivables-backed facilities with cash dominion structures, those are now radioactive. Map other JEF-arranged private credit facilities.
+- **Arranger contagion:** MS, Citi, GS, JPM all arranged similar receivables/cash flow facilities for PE portfolio companies. SEC investigation of Jefferies could broaden to examine industry-wide collateral structuring. Bank arrangers with undisclosed exposure to similar structures face tail risk.
+- **First Brands forced resolution:** Marks crystallize. Banks with fund finance lines to BXSL, Apollo Credit, FSK face NAV covenant pressure as marks reset. Watch for covenant waivers in Q1 2026 10-Qs.
+- **Auto DQ 7.1%:** Consumer-facing PE portfolio companies bleeding revenue now. Private credit marks follow in 1-2 quarters.
+
+---

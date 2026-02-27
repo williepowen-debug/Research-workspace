@@ -1,5 +1,5 @@
 # CARL STATUS
-**Last Updated:** 2026-02-25 13:15 UTC | **Status:** 🔴 RED — Fannie MF DQ IMMINENT BREACH (6bps from GFC peak), Subprime Auto RECORD (6.9%, 0.1pp from RED), Private Credit Freeze ACTIVE (Blue Owl), US Net Savings at ZERO | **DUAL TRANSMISSION PATHS: DOGE (0-2mo) + Private Credit Middle-Market (May-Jun layoffs → Q3 conversion)** | Maryland DOGE→DQ CONFIRMED
+**Last Updated:** 2026-02-27 13:15 UTC | **Status:** 🔴 RED — Fannie MF DQ IMMINENT BREACH (6bps from GFC peak), Subprime Auto RECORD (6.9%, 0.1pp from RED), Private Credit Freeze ACTIVE (Blue Owl), US Net Savings at ZERO | **DUAL TRANSMISSION PATHS: DOGE (0-2mo) + Private Credit Middle-Market (May-Jun layoffs → Q3 conversion)** | Maryland DOGE→DQ CONFIRMED | NEW VECTOR: 15% Global Tariff → Trade-Sector Hiring Freeze (Feb 27)
 
 ---
 
@@ -1080,6 +1080,8 @@ The 17x gap (6.9% vs 0.4%) = K-shape economy visualized. Subprime at record, pri
 | LABOR | **DOGE contract terminations accelerating** | **NEW: Q1-Q2 fast-path; contractors convert 0-2 months; MD/VA/DC = stress concentration** |
 | LABOR | **Federal RIF unblocked (CR expired)** | **NEW: ~4,000 immediate + pipeline; 1-3 month conversion; claims signal unreliable until Mar 5-12** |
 | LABOR | **Blue Owl private credit freeze (Feb 19)** | **NEW: Liquidity stress → middle-market credit freeze → employment cuts (May-Jun) → Q3 consumer conversion; DUAL transmission path with DOGE** |
+| LABOR | **Feb 27 Claims 212K — DHS suppression + holiday distortion ACTIVE** | Firewall intact. 1.833M continuing claims drop anomalous (may signal benefit exhaustion, not recovery). Real signal: NFP Mar 6. |
+| LABOR | **15% Global Tariff → Trade-Sector Hiring Freezes (Feb 27 NEW VECTOR)** | Manufacturing/retail/logistics = THIRD transmission path. MI/OH/IN auto-belt, TX/CA logistics. Consumer stress Q3+ if freezes → layoffs. |
 | BROCK | BDC stress (PSEC PIK >40%, dividend cuts) | Leading indicator for middle-market employment cuts → consumer stress acceleration |
 | HENRY | SPX -10%+ | Reverse Wealth Effect (fast path) |
 | REGINALD | Credit tightens | Refinance options disappear |
