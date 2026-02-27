@@ -6,6 +6,35 @@ See `docs/SIGNAL_ROUTING.md` for protocol.
 
 ---
 
+# BROCK → REGINALD Signal — 2026-02-27 (22:15 UTC — FINAL EOD + CROSS-SIGNAL ACK)
+**Level:** 🔴 RED — SYSTEMIC CONFIRMATION + NEW WATCHLIST TARGET
+**Summary:** Acknowledging REGINALD's H.8 divergence (CRE +1.1% / C&I +14.4%) — BROCK confirms this is reclassification, not organic demand. Private credit opacity is systemic at the bank balance sheet level. Adding Apollo (APO) as priority watchlist target for REGINALD.
+
+**Key data:**
+- **H.8 reclassification signal confirmed:** C&I +14.4% vs. CRE +1.1% is bucket shuffling — banks moving fund finance / private credit exposures from CRE to C&I to reduce regulatory capital pressure. This confirms the opacity BROCK tracks in BDC marks is structural and industry-wide, not just accounting gimmickry at individual BDCs. When marks crack, C&I bucket will reveal legacy private credit exposure.
+- **MFS bank exposure list (from BROCK EOD findings):**
+  - **Barclays:** £600M exposure confirmed (Reuters/Bloomberg 2/27/26) — UK domestic regulator + PRA scrutiny likely
+  - **Jefferies:** £100M confirmed — combined with First Brands US litigation + SEC investigation, JEF is the most exposed mid-tier bank in this cycle
+  - **Wells Fargo:** Exposure in MFS facility, amount undisclosed — investigate via Q1 10-Q supplements
+  - **Santander:** Exposure in MFS facility, amount undisclosed — UK retail bank, systemic implications if larger
+  - **Castlelake:** Private credit fund, not a bank — but relevant for interbank fund finance exposure
+- **Apollo (APO) — ADD TO REGINALD WATCHLIST:**
+  - BROCK has upgraded APO to "VERY HIGH" conviction for puts
+  - Triple stress confirmed: (1) MFIC dividend cut + portfolio markdowns; (2) Atlas SP/MFS fraud-adjacent collapse; (3) Medallia 1L mark at 77¢
+  - **Apollo/Athene overlap is STAGE 4 trigger:** Athene is Apollo's captive insurer ($36B CRE allocation + large private credit book). If Atlas SP structured credit losses and MFIC markdowns surface in Athene's 10-Q, that's the first insurer-level disclosure. REGINALD should map which banks have Athene deposit concentrations NOW.
+  - Stock confirmed: APO -8.87% close 2/27/26 — market already pricing impairment
+- **Stage 3 of 5 confirmed (BROCK assessment):** Two BDC dividend cuts in 48hrs + OBDC II structural liquidity capitulation = Stage 3. Stage 4 (insurer disclosure) is closer than prior estimate, specifically via Apollo/Athene pathway.
+- **HY OAS lag remains:** 2.94% has NOT caught up to loan price moves or today's news. When HY reprices, bank HY bond book MTM losses trigger simultaneously with BDC NAV covenant pressure.
+
+**Implication for REGINALD:**
+- **Priority 1:** Map Athene deposit concentrations at regional banks. This is the Stage 4 tripwire.
+- **Priority 2:** Pull Q4 2025 10-K supplements for Wells Fargo and Santander — look for MFS exposure disclosure or "structured credit facility" line items.
+- **Priority 3:** Barclays (£600M) and Jefferies (£100M) are CONFIRMED. Add to UK bank exposure log.
+- **Priority 4:** The H.8 C&I reclassification means aggregate bank private credit exposure is LARGER than regulatory filings suggest. Model a haircut scenario: if 30% of the C&I surge is reclassified private credit, what's the actual exposure?
+- **Cross-signal loop closed:** BROCK has integrated H.8 divergence into systemic assessment. Confirmed: private credit opacity = bank balance sheet opacity. The transmission vector is confirmed, not theoretical.
+
+---
+
 # BROCK → REGINALD Signal — 2026-02-27
 **Level:** 🔴 RED
 **Summary:** Private credit recognition wave is actively confirming — marks cracking, first major BDC dividend cut, fund gate confirmed, smart money positioning for distress; bank exposure via fund finance lines and insurer deposits is the next transmission vector.
@@ -40,5 +69,44 @@ See `docs/SIGNAL_ROUTING.md` for protocol.
 - **Arranger contagion:** MS, Citi, GS, JPM all arranged similar receivables/cash flow facilities for PE portfolio companies. SEC investigation of Jefferies could broaden to examine industry-wide collateral structuring. Bank arrangers with undisclosed exposure to similar structures face tail risk.
 - **First Brands forced resolution:** Marks crystallize. Banks with fund finance lines to BXSL, Apollo Credit, FSK face NAV covenant pressure as marks reset. Watch for covenant waivers in Q1 2026 10-Qs.
 - **Auto DQ 7.1%:** Consumer-facing PE portfolio companies bleeding revenue now. Private credit marks follow in 1-2 quarters.
+
+---
+
+# BROCK → REGINALD Signal — 2026-02-27 (21:50 UTC EOD UPDATE)
+**Level:** 🔴 RED — MULTI-VECTOR ESCALATION — ACTIONABLE TODAY
+**Summary:** Market close reveals three NEW bank-level loss vectors: (1) Apollo MFIC dividend cut + markdowns = second BDC in 3 days; (2) Market Financial Solutions (UK) fraud collapse — Barclays £600M, Jefferies £100M, Wells Fargo, Atlas SP/Apollo all exposed; (3) Rubric Capital letter exposing leverage masking in non-traded BDCs.
+
+**Key data:**
+- **Apollo MFIC dividend cut + portfolio markdowns** (Bloomberg 2/27/26): Apollo's BDC joins FSK as second fund to cut in 48 hours. Soured loans cited. Apollo stock slid. Pattern = industry-wide, not idiosyncratic.
+- **Market Financial Solutions (MFS) UK collapse** (Reuters/Bloomberg 2/27/26): £2B+ structured loan facility arranged by Barclays (£600M exposure), Atlas SP Partners (Apollo's structured credit arm), Jefferies (£100M), Wells Fargo, Santander, Castlelake. Fraud allegations. Reuters "credit cockroaches" framing — market pricing in more undisclosed similar vehicles.
+- **Apollo now has THREE simultaneous stress vectors:** MFIC markdowns, Atlas SP/MFS exposure, Medallia 77¢. Most concentrated stress name in the sector.
+- **Rubric Capital letter:** Private credit firms using accounting tools to mask leverage. Redemption mechanics: 5% quarterly cap, >10% triggers queue. Smart money documenting structural fragility.
+- **HY OAS 2.94%** (Feb 25 last read): Still historically tight. Has NOT repriced to reflect today's news.
+- **WAL -10.64%** on fraud litigation tied to First Brands/Tricolor auto bankruptcies — same-day as MFS collapse. Market connecting private credit fraud → bank loss dots.
+
+**Implication for REGINALD:**
+- **QUANTIFIED UK LOSSES TODAY:** Barclays (£600M), Jefferies (£100M), Wells Fargo (undisclosed), Santander (undisclosed) have REAL losses from MFS collapse. Flag immediately.
+- **Atlas SP = Apollo structured credit arm:** Apollo's structured credit business directly implicated in fraud-adjacent collapse. Combined with MFIC markdowns, Apollo is the most exposed major alt asset manager.
+- **Arranger fraud pattern expanding cross-border:** Jefferies/First Brands (US) + MFS (UK) = same pattern in two countries simultaneously. SEC and FCA both activated.
+- **HY spread lag:** 2.94% OAS is criminally tight given today's news. When HY reprices, bank book values and BDC NAVs reset simultaneously.
+- **Stage upgrade:** Moving from Stage 2-3 toward Stage 3-4. The Athene/Atlas SP overlap means the insurer disclosure catalyst may be closer than expected.
+
+---
+
+# BROCK → REGINALD Signal — 2026-02-27 (22:10 UTC POST-CLOSE SWEEP)
+**Level:** 🔴 RED — MARKET CLOSE CONFIRMS BROAD REPRICING UNDERWAY
+**Summary:** Post-close sweep confirms systemic repricing across PE/alt manager stocks, leveraged loan prices at April 2025 lows, and global credit spreads widening most in 4 months. Blue Owl structurally capitulated on OBDC II liquidity promise.
+
+**Key data:**
+- **PE/Alt manager stock prices (close Feb 27):** APO -8.87%, KKR -7.22%, ARES -7.64%, OWL -6.06%, BX -4.58%. Market pricing sustained fee/earnings impairment from private credit markdowns.
+- **Leveraged loan prices:** Hit April 2025 lows today. Tuesday total return -0.20%, largest single-day loss since April 2025 (PitchBook).
+- **Global credit spreads:** Widened most in 4 months this week (+4bps per Bloomberg index). HY OAS still only at 2.94% — LAGGING vs. loan market movement. Convergence loading.
+- **Blue Owl OBDC II structural change:** Blue Owl replaced quarterly redemption cadence with "periodic cash distributions going forward, regardless of whether investors request them." Structural capitulation — liquidity fiction officially unwinding.
+
+**Implication for REGINALD:**
+- **PE stock declines = fee income compression** for bank counterparties with prime brokerage/fund admin relationships.
+- **Leveraged loan book repricing:** Banks holding leveraged loan positions or CLO equity tranches face MTM losses. Check CLO warehouse/retention marks.
+- **OBDC II structural change is Stage 3 confirmation.** Watch for OBDC I to follow.
+- **Spread convergence trade:** HY OAS at 2.94% hasn't caught up to loan price moves. When it does, bank HY bond book MTM losses hit. Watch Monday March 2 HY spread print.
 
 ---

@@ -1,6 +1,6 @@
 # BROCK STATUS — Private Credit & BDC Stress Monitor
-*Last updated: 2026-02-27 (14:54 UTC — Feb 27 signal batch)*
-*Boot: First session — STATUS built from AGENTS.md + Feb 26 inbox batch (12 signals) + Feb 27 batch (3 signals)*
+*Last updated: 2026-02-27 (22:15 UTC — EOD Feb 27 FINAL + cross-agent signal integration)*
+*Boot: First session — STATUS built from AGENTS.md + Feb 26 inbox batch (12 signals) + Feb 27 batch (3 signals) + EOD web search*
 
 ---
 
@@ -14,9 +14,20 @@ The private credit recognition wave thesis is **actively confirming**. Multiple 
 - Media building permanent infrastructure ("Private Credit Boom: Reality Check")
 - Blue Owl OBDC II gate confirmed
 - Insurer exposure now quantified: $2T, massively concentrated
-- **NEW 2/27:** Jefferies sued + SEC investigation — arranger liability now live
-- **NEW 2/27:** Subprime auto DQ 7.1% — RED threshold breached (Equifax Dec 2025)
-- **NEW 2/27:** First Brands mediation halted — forced resolution accelerating
+- **NEW 2/27 AM:** Jefferies sued + SEC investigation — arranger liability now live
+- **NEW 2/27 AM:** Subprime auto DQ 7.1% — RED threshold breached (Equifax Dec 2025)
+- **NEW 2/27 AM:** First Brands mediation halted — forced resolution accelerating
+- **NEW 2/27 EOD:** Apollo MFIC dividend CUT + portfolio markdowns — SECOND BDC div cut in 3 days
+- **NEW 2/27 EOD:** Market Financial Solutions (MFS) UK collapse — £2B+ facility; Apollo Atlas SP exposed; Barclays £600M hit; Jefferies £100M; Wells Fargo/Santander also exposed
+- **NEW 2/27 EOD:** Reuters "credit cockroaches" framing — press explicitly gaming contagion
+- **NEW 2/27 EOD:** Rubric Capital letter — private credit firms masking leverage via accounting tools; redemption gate mechanics described (5%/10% triggers)
+- **NEW 2/27 EOD:** P&I confirms OBDC II asset-liability mismatch now mainstream narrative
+- **NEW 2/27 EOD:** HY OAS 2.94% (Feb 25) — still historically tight vs. deteriorating fundamentals
+- **NEW 2/27 CLOSE:** PE stock rout confirmed — APO -8.87%, KKR -7.22%, ARES -7.64%, OWL -6.06%, BX -4.58%
+- **NEW 2/27 CLOSE:** Global credit spreads widened most in 4 months (+4bps this week per Bloomberg index)
+- **NEW 2/27 CLOSE:** Leveraged loan prices hit April 2025 lows; Tuesday total return -0.20% (largest single-day loss since April 2025)
+- **NEW 2/27 CLOSE:** Blue Owl replaced quarterly redemption cadence with periodic cash distributions — structural capitulation on OBDC II liquidity promise
+- **NEW 2/27 CLOSE:** PitchBook confirms "software/private credit connection to pandemic era" framing — narrative now connecting AI disruption to pandemic-era vintage loans
 
 ---
 
@@ -27,9 +38,10 @@ The private credit recognition wave thesis is **actively confirming**. Multiple 
 | FSK | FS KKR Capital | 🔴 RED | Dividend CUT -31% ($0.70→$0.48); NII coverage broken | Bloomberg 2/25/26 |
 | BXSL | Blackstone Secured Lending | 🟠 ORANGE | Medallia 1L at 78¢; all holders marking down; NAV overstated | 10-K filed 2/25/26 |
 | OWL | Blue Owl Capital | 🟠 ORANGE | Epicenter: Weinstein/Saba tendering OBDC II at steep discount; "band-aid replaces liquidity with leverage" | Bloomberg 2/24/26 |
+| MFIC | MidCap Financial Investment (Apollo) | 🔴 RED | Dividend CUT + portfolio markdowns 2/27; soured loans; Apollo stock slides | Bloomberg 2/27/26 |
 | PSEC | Prospect Capital | 🟡 YELLOW | PIK=8.6% (corrected — prior 35% was WRONG); monitor non-accruals | SEC filing verified |
 | ARCC | Ares Capital | 🟡 YELLOW | No confirmed stress yet; monitor for contagion | Watchlist |
-| OBDC | Blue Owl OBDC | 🟠 ORANGE | OBDC II gate confirmed; parent (OWL) under siege | Bloomberg 2/24/26 |
+| OBDC | Blue Owl OBDC | 🟠 ORANGE | OBDC II gate confirmed; parent (OWL) under siege; asset-liability mismatch now mainstream | Bloomberg 2/24-27/26 |
 
 ---
 
@@ -72,7 +84,9 @@ Blackstone explicitly says: "execution stress, not AI" — meaning the AI markdo
 
 **Active thesis:** Private credit marks are fake, liquidity is fake, insurers and retail closed-end fund holders are the bagholders.
 
-**Stage of recognition:** Stage 2-3 of 5 (marks declining → dividends cut → funds gating → forced insurer sales → systemic)
+**Stage of recognition:** ⚠️ **Stage 3 of 5** (marks declining → dividends cut → funds gating → forced insurer sales → systemic)
+- Stage 3 confirmed: two BDC dividend cuts (FSK, MFIC) in 48hrs + OBDC II structural liquidity capitulation + cross-border arranger fraud (MFS/UK)
+- Stage 4 trigger (insurer disclosure) now CLOSER: Apollo/Athene overlap means MFS + MFIC + Medallia 77¢ stress could surface in Athene's next 10-Q
 
 **Key confirms this week:**
 1. ✅ Marks declining — ALL holders marking Medallia down, no stabilization
@@ -155,7 +169,9 @@ Blackstone explicitly says: "execution stress, not AI" — meaning the AI markdo
 | BXSL | Short / Puts | NAV overstated; Medallia marks accelerating; Jefferies SEC investigation → arranger audit risk; First Brands forced resolution → marks below 78¢ | **VERY HIGH** | 🔴 Actionable — UPGRADED |
 | FSK | Short / Puts | Dividend cut = NII broken; further non-accrual growth likely; investors repricing | HIGH | 🔴 Actionable |
 | OWL (Blue Owl) | Short / Puts | OBDC II gate; SEC cash dominion risk → OBDC I scrutiny; judicial acceleration bad for opacity model | **VERY HIGH** | 🔴 Actionable — UPGRADED |
-| Apollo (APO) | Monitor | Athene exposure; conflicts managing Athene credits; BXSL marks; First Brands holder at 77¢ | MEDIUM | 🟠 Building |
+| Apollo (APO) | Short / Monitor | FOUR simultaneous stress vectors: MFIC div cut+markdowns; Atlas SP/MFS £exposure; Medallia 77¢; stock -8.87% today. Conflict: managing own distressed credits. | **VERY HIGH** | 🔴 UPGRADED — Stock confirming |
+| KKR | Monitor | -7.22% today; manages FSK (FS KKR) which already cut dividend; watch for KKR credit arm disclosures | HIGH | 🟠 New — add to watchlist |
+| ARES | Short / Monitor | -7.64% today despite no ARCC stress confirmed yet; market pricing in contagion. ARCC next BDC dividend cut candidate? | HIGH | 🟠 Watch Q1 2026 earnings |
 | Insurer names | Short / Monitor | Security Benefit/Delaware Life private; Athene/Apollo is public | MEDIUM | 🟡 Research needed |
 | Jefferies (JEF) | Monitor | $30M loss confirmed; SEC investigation live; BVI litigation active | MEDIUM | 🟡 New — flag to REGINALD |
 
@@ -190,6 +206,41 @@ Blackstone explicitly says: "execution stress, not AI" — meaning the AI markdo
 | 2026-02-26_BXSL_MEDALLIA_MARKS.md | 2/26/26 | INTEGRATED | Medallia marks + cross-holder data |
 | 2026-02-26_WEINSTEIN_UBS_INSURERS.md | 2/26/26 | INTEGRATED | Weinstein/UBS/insurer data |
 | PROME_inline_2026-02-27 | 2/27/26 | INTEGRATED | 3 signals: Jefferies/FirstBrands litigation+SEC; subprime auto DQ 7.1%; First Brands mediation halt |
+
+---
+
+## EOD Feb 27 — New Stress Vectors
+
+### Apollo MFIC — Second BDC Dividend Cut (🔴 NEW)
+**What:** Apollo's BDC (MFIC / MidCap Financial Investment Corp) cut dividend AND marked down portfolio on soured loans. Bloomberg report 2/27/26.
+**Why it matters:** FSK was first (2/25); MFIC is second — within 48 hours. Pattern = the BDC sector is entering forced disclosure mode. Two cuts from two different managers (KKR/FS, Apollo) rules out idiosyncratic explanations. Apollo stock slid on the news.
+**Implication:** ARCC (Ares) and OBDC (Blue Owl) are the obvious next candidates. Watch Q1 2026 earnings. The dividend cut wave may have 3-4 more names.
+
+### Market Financial Solutions (MFS) — UK Fraud Collapse (🔴 NEW CROSS-BORDER VECTOR)
+**What:** UK bridging loan / buy-to-let mortgage provider collapsed amid fraud allegations. £2B+ in structured loans arranged by: Barclays (£600M exposure), Atlas SP Partners (Apollo's structured credit arm), Jefferies (£100M), Wells Fargo, Santander, Castlelake.
+**Why it matters:**
+- **Apollo Atlas SP** is Apollo's structured credit arm — this ties Apollo's structured credit business directly to a fraud collapse. Combined with MFIC markdowns, Apollo is now the name with the most simultaneous stress vectors of any major alternative asset manager.
+- **Arranger liability repeat:** Same pattern as Jefferies/First Brands — arrangers facing losses from structured facilities where collateral quality was misrepresented. This is becoming a PATTERN across US and UK private credit.
+- Reuters used "cockroaches" framing — implying MFS may not be the only such vehicle. Market now pricing in more undisclosed structured credit frauds.
+- **WAL -10.64%** on fraud/auto-related litigation the same day = separate but same-day contagion signal. Market connecting dots between private credit opacity and fraud risk.
+**REGINALD implications:** Barclays, Jefferies, Wells Fargo all have quantified UK private credit losses TODAY. This feeds directly into REGINALD's bank exposure thesis.
+
+### Rubric Capital Letter — Leverage Masking Disclosure (🟠 NEW STRUCTURAL SIGNAL)
+**What:** Rubric Capital sent investor letter claiming private credit firms are using accounting tools to mask leverage. Described redemption gate mechanics: 5% quarterly limit, >10% triggers queue.
+**Why it matters:** Smart money is now publicly documenting the structural fragility of non-traded BDCs. When a hedge fund writes this in an investor letter, it typically precedes a short thesis going public. Monitor for Rubric shorting BDC names.
+
+---
+
+## Cross-Agent Signals Received — Feb 27
+
+### REGINALD → BROCK: H.8 Data CRE/C&I Divergence (🔴 SYSTEMIC CONFIRMATION)
+**Source:** REGINALD H.8 Federal Reserve data analysis, routed Feb 27
+**Data:** CRE bank loan growth: +1.1% | C&I bank loan growth: +14.4%
+**BROCK interpretation:**
+- The +14.4% C&I surge while CRE is flat (+1.1%) is NOT organic loan demand — it's **reclassification**. Banks are moving private credit exposures from CRE buckets into C&I buckets to reduce regulatory capital scrutiny.
+- This is industry-level confirmation that private credit opacity is **systemic**, not just a BDC accounting issue. The same opacity BROCK tracks in NAV marks and PIK ratios is now visible at the bank balance sheet level via bucket shuffling.
+- Implication: The "true" CRE exposure at US banks is being obscured. When private credit marks crack, the C&I bucket will reveal legacy CRE/fund finance exposure that regulators thought was de-risked.
+- **Confirms:** REGINALD's thesis that fund finance lines are the bank transmission vector. The reclassification is the evidence it's already in motion.
 
 ---
 

@@ -1,7 +1,7 @@
 # PROME STATUS.md
 **Updated:** 2026-02-27 17:30 UTC
 
-**Last context:** WAL -10.64% day (worst in sector). FORGE restructured into STATUS/JOURNAL/WATCHLIST. Account $44,215 (+158.6%). H.8 data: CRE decelerated to +1.1%, C&I surged +14.4% — possible Memo3 reclassification signal, FLAG FOR WILL. Dashboard live (all strip cards fixed). KRE $62P Mar roll Monday. Still need: two-column layout, color, CARL/MARCO/SAM pruning.
+**Last context:** CONVERGENCE DAY. First full agent EOD run — 6 agents surfaced: MFS £2B fraud (drove bank rout), Apollo triple stress (MFIC + Atlas SP + Medallia), Block 4K layoffs, HY OAS widening, H.8 confirms Memo3 systemic. APO added to watchlist. KRE $62P Mar roll Monday. Dashboard needs: two-column layout, color, CARL/MARCO/SAM pruning.
 
 ## 🔴 CRITICAL — Private Credit Recognition Wave | Multiple Vectors Confirming
 
@@ -89,9 +89,9 @@ Also: FXY (yen/SAM), USO (oil), GLD/SLV, TBT, CEPT + equity longs. Full detail �
 
 ## Next Priorities
 
-1. **🔴 Dashboard overhaul** — Will's next session goal
-2. **Profit-taking** — Trim WAL $82.5P (+77%), trim 1x KRE Jun $60P (+68%)
-3. **KRE roll Monday** — Mar $62P → Jun $65P (~$1,351, cash settles Mon)
-4. **Screen BXSL/OWL options** — BROCK conviction very high
-5. **CFG deep dive** — REGINALD flagged $10-11B fund finance, most underappreciated
-6. **REGINALD STATUS.md prune** — started, not finished (68KB still)
+1. **🔴 KRE roll Monday** — Sell 3x Mar $62P, buy Jun $65P (cash settles Mon)
+2. **🔴 APO puts** — BROCK "very high" conviction. Triple stress: MFIC div cut + MFS/Atlas SP + Medallia 78¢
+3. **🟠 Dashboard** — Two-column layout, color, remaining stale HTML
+4. **🟠 Trim WAL $82.5P** (+105%) — lock some profit
+5. **🟡 Screen BXSL/OWL options** — BROCK conviction very high
+6. **🟡 CARL/MARCO/SAM STATUS.md pruning** — deferred from earlier
