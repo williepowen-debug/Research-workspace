@@ -33,8 +33,8 @@ VX-REG-11.04	EGBN Deposit Trend	4-Funding	-4% QoQ	-2%	-4%	-6%	ORANGE	85%	2026-02
 VX-REG-12.01	Endowment Forced Selling	5-Shadow	Yale $6B + Harvard $1B	>$10B agg	>$20B	Gates	ORANGE	70%	2026-02-02	RQ-REG-B01	ML-REG-048, FLOW-REG-5.01	Yale Model failing. Watch sale pricing.
 VX-REG-13.01	CRE/Equity Concentration	2-Credit	1,788 banks >300%	>2,000	>2,200	Sector event	ORANGE	85%	2026-02-02	FAU Screener	ML-REG-052	Count INCREASING. Maturity wall 2025-2027.
 VX-REG-13.02	Office CRE Loss Severity	2-Credit	70-97% actual	Gap >40pp	>50pp	Recognition	RED	90%	2026-02-02	RQ-REG-I01	ML-REG-053	vs 20-40% modeled. Catastrophic gap.
-VX-REG-14.01	Shunto 2026 Outcome	6-Cross-Border	TBD (Feb 19 electronics)	<3.0% Weak	2.5-3.5% Mod	≥3.5% Strong	PENDING	48%	2026-02-16	SAM	SAM VX-SAM-8.05, FL-REG-023	🔴 DUAL CATALYST. Strong → 85% April BOJ hike.
-VX-REG-14.02	20Y JGB Auction BTC	6-Cross-Border	3.14 (Jan 20)	<3.0x Weak	<2.5x Stress	<2.0x FAIL	PENDING	80%	2026-02-16	MOF	SAM VX-SAM-3.03, FL-REG-024	🔴 DUAL CATALYST. Jan 20 worst since 1987. Feb 19.
+VX-REG-14.01	Shunto 2026 Outcome	6-Cross-Border	¥18,000 = STRONG	<3.0% Weak	2.5-3.5% Mod	≥3.5% Strong	RESOLVED-STRONG	90%	2026-02-27	SAM/HEARTBEAT	SAM VX-SAM-8.05, FL-REG-023, ML-REG-080	✅ RESOLVED Feb 19. Strong = 85% April BOJ hike. Path D window closed.
+VX-REG-14.02	20Y JGB Auction BTC	6-Cross-Border	3.08 (Feb 19) = PASSED	<3.0x Weak	<2.5x Stress	<2.0x FAIL	RESOLVED-PASS	90%	2026-02-27	MOF	SAM VX-SAM-3.03, FL-REG-024, ML-REG-080	✅ RESOLVED Feb 19. BTC 3.08 = strong demand. Path D did NOT fire.
 VX-REG-14.03	Japan Repatriation Rate	6-Cross-Border	$10-15B/mo ACTIVE	¥500B/mo	¥1T/mo	¥2T/mo	ORANGE	90%	2026-02-16	SAM Intel	SAM VX-SAM-9.02, FLOW-REG-13.01	Life insurers SELLING UST for JGB 30Y 3.6%+. TIC Feb 18.
 VX-REG-14.04	Wright Current→Delinquent	2-Credit	609K (Oct 2025)	>400K/mo	>500K/mo	>700K/mo	ORANGE	85%	2026-02-16	Wright	CARL, FLOW-REG-14.01	Largest since May 2020. Waiting Nov/Dec data.
 VX-REG-FAIL-01	Metropolitan Capital Failure	2-Credit	Failed Jan 31	—	—	—	CONFIRMED	95%	2026-02-12	FDIC	ML-REG-055	First 2026 failure. $261M Chicago. Cockroach theory.
