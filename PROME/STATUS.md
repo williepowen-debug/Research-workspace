@@ -1,7 +1,7 @@
 # PROME STATUS.md
 **Updated:** 2026-02-27 17:30 UTC
 
-**Last context:** Dashboard overhaul + predictions scorecard resolved. Server updated (WAL/OZK/IWM added, CVNA/BTC removed). Frontend overhauled (Hidden CRE section, new catalyst calendar, dynamic prices). Predictions now 12.5/22 (57% overall, 79% thesis-only, calibration excellent). CONTINUING dashboard work next session. Still need: profit-taking decisions, KRE roll Monday, CARL/MARCO/SAM pruning.
+**Last context:** WAL -10.64% day (worst in sector). FORGE restructured into STATUS/JOURNAL/WATCHLIST. Account $44,215 (+158.6%). H.8 data: CRE decelerated to +1.1%, C&I surged +14.4% — possible Memo3 reclassification signal, FLAG FOR WILL. Dashboard live (all strip cards fixed). KRE $62P Mar roll Monday. Still need: two-column layout, color, CARL/MARCO/SAM pruning.
 
 ## 🔴 CRITICAL — Private Credit Recognition Wave | Multiple Vectors Confirming
 
