@@ -116,3 +116,8 @@ Follow `HEARTBEAT.md` strictly. Use heartbeats for periodic checks (predictions,
 | **Simple > Clever** | Obvious solutions beat elegant complexity |
 
 **Anti-pattern:** "I remember from earlier" — No you don't. Read the file.
+
+### File Editing — Mandatory Rules
+1. **Read before editing.** NEVER call Edit without reading the file (or relevant section) in the same turn. No exceptions.
+2. **Subagents own their files.** If you spawned an agent to update a file, DON'T edit that same file. Wait for the agent to finish, read what they wrote, THEN make additions if needed.
+3. **Silent overwrites are worse than errors.** An edit failure is safe — it tells you something changed. Writing stale data over fresh subagent work with no error is how you lose work. Always assume the file may have changed since you last read it.
