@@ -112,3 +112,25 @@ Read these first. These are claims you made that sounded good but lack evidence.
 ## Resolved
 
 *(None yet)*
+
+## 9. Private Credit BDC Risk Ranking Matrix
+**Added:** Feb 28, 2026 | **Owner:** BROCK
+**Task:** Build a systematic ranking/risk matrix for private credit BDC names
+- Score each on: dividend coverage, PIK %, NAV trend, leverage, sector concentration, sponsor quality
+- Names to include: MFIC, FSK, BXSL, OBDC, PSEC, ARCC, MAIN (and others)
+- Output: ranked table from most-to-least vulnerable
+- Cross-reference with Apollo interconnection map (which feed into Athene?)
+- [ ] Define scoring criteria
+- [ ] Pull latest quarterly data for each
+- [ ] Rank and identify top 3 short candidates
+
+## 10. Historical Crisis Timeline Mapping (2007-08 + SVB 2023)
+**Added:** Feb 28, 2026 | **Owner:** REGINALD / RED
+**Task:** Build detailed timelines of how each crisis unfolded, map against current signals
+- **2007-08:** When did CRE cracks first appear? When did banks acknowledge? When did credit widen? When did equities break? What was the lag between each stage?
+- **SVB 2023:** Same timeline — from first signs of HTM losses to failure. How fast did contagion spread? What was the WARN→claims→market sequence?
+- **Purpose:** Overlay our current signal state onto both timelines. Where are we analogously? Are we Aug 2007 (first crack) or Nov 2007 (lower high before the grind)?
+- [ ] Build 2007-08 month-by-month timeline
+- [ ] Build SVB week-by-week timeline
+- [ ] Map current signals to both timelines
+- [ ] Identify "you are here" marker
