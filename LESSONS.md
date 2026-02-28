@@ -81,8 +81,9 @@ Bare `getElementById('gone').textContent` kills the ENTIRE function. Cascade fai
 
 *Last reviewed: 2026-02-27*
 
-### Re-read files before editing during handoff
-- **Recurring bug (3+ sessions):** During handoff, STATUS.md edit fails because a subagent already modified it
-- Each time I told Will "don't worry about it" instead of fixing the pattern
-- **Rule:** During handoff sequence, ALWAYS re-read PROME/STATUS.md (and any shared file) immediately before editing. No exceptions.
+### ALWAYS read a file before editing it
+- **Recurring bug (4+ sessions):** Edit fails because text doesn't match. Happens throughout sessions, not just handoff.
+- Three causes: (1) subagent modified the file, (2) file was restructured in a prior session, (3) I'm guessing at content from memory instead of reading first.
+- **Rule:** NEVER call the Edit tool without reading the file (or the relevant section) in the same turn. No exceptions. Even if you "just read it" 5 minutes ago.
+- **If an edit fails:** Read the file, find the actual text, try again. Don't tell Will "don't worry about it."
 - **Meta-rule:** If the same error happens 2+ times across sessions, it's a pattern — fix it, don't dismiss it.
