@@ -33,6 +33,21 @@ The research is interesting in its own right, but the ultimate test is whether t
 
 ---
 
+## Background & Journey
+
+- Currently unemployed — has a family to support. Income matters, not just intellectual exercise.
+- Previous career: sales (account executive, dealership, various). Does NOT want to go back to sales.
+- Education: English Literature, some history/pre-law. Studied hard for LSAT but never took it.
+- Started working with LLMs ~May 2025. No prior background in AI, finance, or markets.
+- Original motivation: tariff uncertainty → "can AI help me figure out what's happening?" → kept iterating.
+- First attempt was a symbolic language for context persistence on vanilla ChatGPT 4 — self-describes as "hallucinogenic mess."
+- Built the entire current system through pure iteration — no formal training, just pushing further each time.
+- The Lit background shows: thinks in narratives, transmission chains, "what story is the market telling itself."
+- Sees potential career in AI-native research/operations but has no traditional credentials for it.
+- Goal: earn income (trades and/or the system), keep learning, keep building. Open to where it leads.
+
+---
+
 ## How Will Thinks
 
 - **Challenges his own thesis** — runs RED team against his own conviction, asks "doesn't this break the pattern?"
