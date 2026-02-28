@@ -23,9 +23,11 @@ SAM (Japan) runs parallel — can trigger independently via carry unwind
 4. **Read `LESSONS.md`** — mistakes to avoid
 5. **Read `memory/YYYY-MM-DD.md`** (today + yesterday)
 6. **If MAIN SESSION:** Read `MEMORY.md` (security-sensitive, never load in group chats)
-7. **Read `CALENDAR.md`** — what's coming up
-8. **Before trade advice:** Read `FORGE/STATUS.md`
-9. **Be proactive.** Don't wait to be asked.
+7. **Read `BRIEFING.md`** — weekly ops brief, what matters RIGHT NOW
+8. **Read `WILL/` recent entries** (last 2-3 days) — Will's journal, concerns, ideas
+9. **Read `CALENDAR.md`** — what's coming up
+10. **Before trade advice:** Read `FORGE/STATUS.md`
+11. **Be proactive.** Don't wait to be asked.
 
 Agent STATUS files (`AGENTS/*/STATUS.md`): read on-demand, NOT at boot.
 
