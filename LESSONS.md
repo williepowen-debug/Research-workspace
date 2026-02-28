@@ -81,9 +81,12 @@ Bare `getElementById('gone').textContent` kills the ENTIRE function. Cascade fai
 
 *Last reviewed: 2026-02-27*
 
-### ALWAYS read a file before editing it
+### ALWAYS read a file before editing it — and respect subagent work
 - **Recurring bug (4+ sessions):** Edit fails because text doesn't match. Happens throughout sessions, not just handoff.
 - Three causes: (1) subagent modified the file, (2) file was restructured in a prior session, (3) I'm guessing at content from memory instead of reading first.
-- **Rule:** NEVER call the Edit tool without reading the file (or the relevant section) in the same turn. No exceptions. Even if you "just read it" 5 minutes ago.
+- **Rule 1:** NEVER call the Edit tool without reading the file (or the relevant section) in the same turn. No exceptions.
+- **Rule 2:** After a subagent completes, READ what they changed before making your own edits to the same file. Their updates may be more current than yours.
+- **Rule 3:** If you spawned a subagent to update a file, DON'T also edit that file yourself. Let the subagent own it. If you need to add something, do it AFTER reading their completed version.
+- **Risk:** If you edit from stale memory and the text still happens to match, you could silently overwrite correct subagent updates with outdated info. The edit "succeeding" can be WORSE than it failing.
 - **If an edit fails:** Read the file, find the actual text, try again. Don't tell Will "don't worry about it."
 - **Meta-rule:** If the same error happens 2+ times across sessions, it's a pattern — fix it, don't dismiss it.
