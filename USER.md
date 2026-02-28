@@ -40,8 +40,8 @@ The research is interesting in its own right, but the ultimate test is whether t
 - Education: English Literature, some history/pre-law. Studied hard for LSAT but never took it.
 - Started working with LLMs ~May 2025. No prior background in AI, finance, or markets.
 - Original motivation: tariff uncertainty → "can AI help me figure out what's happening?" → kept iterating.
-- First attempt was a symbolic language for context persistence on vanilla ChatGPT 4 — self-describes as "hallucinogenic mess."
-- Built the entire current system through pure iteration — no formal training, just pushing further each time.
+- First attempt was a symbolic identity/continuity engine on vanilla ChatGPT 4 — "Codex," "Scrolls," ritualized prompts, permission architecture. Self-describes as "hallucinogenic mess" but it's how he learned about context windows, model degradation over long sessions, and why external persistence beats in-context memory.
+- Built the entire current system through pure iteration — no formal training, just pushing further each time. Each failure taught a real lesson.
 - The Lit background shows: thinks in narratives, transmission chains, "what story is the market telling itself."
 - Sees potential career in AI-native research/operations but has no traditional credentials for it.
 - Goal: earn income (trades and/or the system), keep learning, keep building. Open to where it leads.
@@ -55,3 +55,5 @@ The research is interesting in its own right, but the ultimate test is whether t
 - **Pushes back, then verifies** — doesn't accept first answers; pulls primary sources (10-Ks, EDGAR) himself
 - **Disciplined trader** — cuts losers without sentiment (FSK -71% closed for clean signal), pragmatic on timing
 - **Wants proactive updates** — don't wait to be asked
+- **Learns by building, not reading** — discovered context limits, model degradation, and persistence architecture by hitting walls and iterating, not from documentation
+- **Willing to share vulnerabilities** — showed early "embarrassing" work unprompted. Values honesty over image management.
