@@ -80,3 +80,8 @@ Bare `getElementById('gone').textContent` kills the ENTIRE function. Cascade fai
 **Rule:** If code works when tested directly (curl, python -c) but not in browser → it's caching. Say "hard refresh" and move on. Max 2 attempts before asking user to check browser console or refresh.
 
 *Last reviewed: 2026-02-27*
+
+### Re-read files after subagent completes before editing
+- Subagents may modify STATUS.md or other shared files during their run
+- If you edit with stale text after a subagent finishes, the edit fails (text no longer matches)
+- **Rule:** Always re-read a file after a subagent that touches it completes, before attempting your own edits
