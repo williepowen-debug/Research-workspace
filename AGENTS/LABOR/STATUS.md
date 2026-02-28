@@ -1,5 +1,290 @@
 # LABOR STATUS
-**Last Updated:** 2026-02-27 22:09 UTC | **Status:** 🔴 CRITICAL — Fed Trap Confirmed | PPI Core +0.8% (2.6x Expected) | Block -4,000 Jobs (50% Workforce, AI-Cited) | Largest Monthly S&P/Nasdaq Decline Since Mar 2025 | Q2-Q3 Danger Window ACCELERATING
+**Last Updated:** 2026-02-28 03:30 UTC | **Status:** 🔴 CRITICAL — Fed Trap Confirmed | Shadow Payroll Gap Critical Test Window Opens March | Staffing Canaries Bottoming (Counter-Signal) | DOGE Unpriced Shock | Q2-Q3 Danger Window ACCELERATING
+
+---
+
+## 🆕 RESEARCH INTEGRATION — Feb 28, 2026 (Batch 2)
+**Source:** 4 additional deep research briefs integrated from inbox.
+
+### 9. JOB POSTING WITHDRAWALS — THREE-LAYER EARLY WARNING SYSTEM
+**Source:** JOB_POSTING_WITHDRAWALS.md
+
+**4-12 week lead time** from posting withdrawal → layoff announcement. Fills the gap between insider selling (3-6 months) and WARN filings (4-8 weeks).
+
+**Full signal sequence:**
+```
+Insider selling cluster (3-6 months) 
+    → Job posting withdrawal (4-12 weeks)
+    → WARN filing (4-8 weeks)
+    → Public announcement
+    → Claims impact
+```
+
+**Case study validation:** Meta (-80% postings → 11K layoffs, 8-10 weeks), Amazon (Nov 2022 pause → Jan 2023 18K, 2-3 months), Microsoft (Q3 2022 slowdown → Jan 2023 10K).
+
+**Macro signal:** Tech postings peaked April 2022, crashed >60% before the Q1 2023 layoff wave. Indeed JPI shows postings fall well before unemployment rises. Quant funds already trading this.
+
+**Actionable:** TrueUp is FREE — monitor tech pipeline now. For WAL/OZK/KRE watchlist: if regional banks start pulling postings en masse, that's the hiring freeze signal 4-12 weeks ahead of announcements. LinkUp, Revelio Labs, Thinknum for institutional-grade feed.
+
+---
+
+### 10. BUYBACK-LAYOFF PAIRING — THE "DOWNSIZE-AND-DISTRIBUTE" MACHINE
+**Source:** BUYBACK_LAYOFF_PAIRING.md
+
+**20-30% of large-cap layoffs** (500+ jobs, >$10B) paired with buyback authorizations within 90 days. Higher within 6 months. 387 of S&P 500 companies are ALWAYS buying back — so many pairings are "incidental" while notable same-day announcements (Freshworks, Salesforce) are deliberate.
+
+**The absurdity scale — buyback-to-salary-savings ratio:**
+| Company | Layoffs | Salary Savings | Buyback Auth | Ratio |
+|---------|---------|---------------|-------------|-------|
+| Salesforce (2026) | ongoing | ~$600M | $50B | **83x** |
+| Alphabet | ~5,000 | ~$1.25B | $70B | **56x** |
+| Microsoft | 10,000 | ~$2.0B | $60B | **30x** |
+| Meta | 11,000 | ~$2.2B | $40B | **18x** |
+
+When buyback is 10x+ salary savings, the "efficiency" story is financial engineering: layoffs cut costs, buybacks shrink share count, both inflate EPS without growing the business.
+
+**SEC Commissioner Jackson (2019 finding — still valid):** Insiders 2x more likely to sell personal shares within 8 days of buyback announcement. 38% of firms had no insider trading in prior 30 days, then selling surged. **Buyback = price floor insiders sell into** — directly linking to VX-LAB-17.01 (14x sell/buy ratio framework).
+
+**For bank watchlist:** OZK executing $460K of $200M buyback authorization (0.2%) = absence of execution despite authorization = bearish signal. Track execution rates, not just authorizations.
+
+**Context:** 2025 = 1.2M job cuts (highest since pandemic) while US companies authorized $1.36T in buybacks. The labor-to-capital transfer is structural.
+
+---
+
+### 11. ANALYST REVISION CYCLE — THE 90-DAY CONSENSUS WINDOW
+**Source:** ANALYST_REVISION_CYCLE.md
+
+**Mechanical pattern with high predictability:**
+
+| Phase | Timing | What Happens |
+|-------|--------|-------------|
+| **Sugar High** | Days 1-30 | 75-85% of analysts RAISE NTM EPS — mechanical cost subtraction |
+| **Peak Confidence** | Day 90 | First post-layoff earnings: EPS beats, "efficiency" confirmed, Buy reiterated |
+| **Reality Check** | Days 120-150 | Revenue guidance softens, 55-65% of analysts who raised now CUT |
+
+**The Scissor Effect:** Months 1-12 EPS/margins ↑ (cost cuts immediate). Months 13-36 revenue/EPS ↓ (can't shrink to growth, innovation impaired). Outer-year CAGR gets slashed as near-term EPS gets raised.
+
+**AI vs Distress — completely different treatment (same math, opposite narrative):**
+- **"AI reallocation"** (Meta, MSFT, Salesforce, Block): permanent structural margin upgrade, outer-year revenue NOT cut, multiple expansion
+- **"Distress"** (Intel, UPS, Peloton): immediate outer-year revenue + EPS slashed, multiple compression, "shrinking to survive"
+
+The distinction is narrative, not math. Same 10% cut gets opposite treatment based on whether management says "AI" or "macro headwinds."
+
+**Key implication for our positions:** 90-120 day window is the tradeable window. Put expirations should target AFTER the second post-layoff earnings call. The layoff pop is borrowed from future downgrades — 55-65% of initial upgrades reversed within 2-3 quarters.
+
+**The AI narrative shield will break eventually.** When AI capex doesn't translate to revenue ("show me" moment), the "AI reallocation" cohort retroactively gets distress treatment.
+
+---
+
+### 12. REVENUE TRAJECTORY POST-LAYOFF — 70-75% DECELERATE/DECLINE
+**Source:** REVENUE_TRAJECTORY_POSTLAYOFF.md
+
+**Academic consensus (40 years, 114 studies, 905 effect sizes):** No long-term revenue gain from downsizing.
+- Short-term performance: non-significant (r = -0.02)
+- **2+ year performance: significantly negative (r = -0.12)**
+- 37-year study of 43,000 companies: downsizers underperform non-downsizers
+- Larger cuts = worse outcomes (statistically significant, p < .009)
+
+**Distribution (1000+ employee layoffs, 2023-2025):**
+| Outcome | % of Cases |
+|---------|-----------|
+| Revenue ACCELERATED | ~25-30% |
+| Revenue DECELERATED but positive | ~40-45% |
+| Revenue FLAT or NEGATIVE | ~25-30% |
+
+**The cut-depth threshold maps to the 10% stock reaction rule:**
+| Cut Depth | Revenue Outcome |
+|-----------|----------------|
+| Amazon ~5% | +9.4% → +13.9% ✅ |
+| Salesforce ~10% | 11% → 7.6% ⚠️ (margin yes, growth no) |
+| Intel ~15% | -6.2% → -7.4% ❌ |
+
+**Meta Trap:** Meta is always cited as the success case. But ad market recovery (external catalyst) drove ~$12B revenue increase. Headcount cuts saved ~$3-4B. Revenue did the heavy lifting. Meta is the EXCEPTION built on a confounding external catalyst.
+
+**Key rule:** Layoffs AMPLIFY pre-existing trajectory. Healthy company + layoffs = margin expansion on growing revenue. Declining company + layoffs = vicious cycle. >10% cuts = significantly worse outcomes regardless.
+
+**Oxford Economics (Jan 2026):** "Despite AI-justified layoffs, productivity growth should be accelerating. Generally, it isn't."
+
+**Application to watchlist:** When WAL/OZK/bank names announce cuts — if defensive/reactive with no external catalyst, expect Trajectory C (Intel/UPS pattern). Revenue will NOT recover. 70-75% base rate.
+
+---
+
+## 🆕 RESEARCH INTEGRATION — Feb 28, 2026 (Batch 1)
+**Source:** 5 deep research briefs (Gemini Deep Research) integrated from inbox.
+
+### ⚡ THE CORE TENSION — DO NOT FORCE COHERENCE
+Three signals are giving conflicting reads simultaneously. This is the honest state of play:
+
+| Signal | Reading | Direction |
+|--------|---------|-----------|
+| **Staffing canaries (RHI, KFRC)** | Sequential growth turning positive after 12 quarters down | ⬆️ BETTER |
+| **WARN filings + shadow payroll gap** | Surging filings while claims stay at 206K — resolves March-April | ⬇️ WORSE |
+| **DOGE (312K positions cut)** | Unpriced demand shock not captured in staffing data | ❓ UNKNOWN |
+
+**These don't all agree. That's the current state. The March-April window will resolve the contradiction.**
+
+---
+
+### 1. STAFFING CANARIES: BOTTOMING SIGNAL — CHALLENGES THESIS
+**Source:** STAFFING_PRESIGNAL_DEEP_DIVE.md
+
+- **RHI and KFRC both returned to positive sequential growth** after 12 consecutive quarters of YoY decline
+- MAN US revenue nearly flat (-1.5% YoY)
+- Historical pattern: when RHI flips to sequential growth, unemployment plateaus within 3-4 months
+- **Implication if real:** Unemployment peaks ~Q2 2026 and stabilizes. Weakens LABOR → CARL transmission chain.
+
+**Why this may be a FALSE BOTTOM — not a recovery:**
+1. Volume collapsing while price holds (KFRC bill rate flat, but volume down)
+2. "Suspended animation" — low quits + low hiring. Nothing moving. Vulnerable to shock.
+3. RHI leads professional/white-collar. KELYA (temp/industrial) still accelerating down.
+4. DOGE represents a parallel demand shock not captured in private sector staffing at all.
+5. K-shaped: top of labor market (cyber, cloud) stable. Middle/bottom still deteriorating.
+
+**What to watch:** Q1 2026 earnings for RHI/KFRC (April). If sequential growth REVERSES → false bottom confirmed. If it HOLDS → thesis transmission path shifts.
+
+**Prediction #5 (KFRC miss) — under review.** Confidence reducing from 70% to 55%.
+
+---
+
+### 2. SHADOW PAYROLL GAP — CRITICAL TEST WINDOW: MARCH-APRIL
+**Source:** STAFFING_PRESIGNAL_DEEP_DIVE.md + LAYOFF_EVENT_STUDY_2024-2026.md
+
+The contradiction: WARN filings surging while initial claims stay at 206K. This gap MUST close.
+
+**Three possible resolutions:**
+1. **WARN filings were noise** (unlikely given volume) → Claims stay low, thesis weakens
+2. **WARN → actual separations → claims with 60-day lag** → Claims spike March-April
+3. **DHS suppression + "working without pay" category** masking real claims → Structural artifact
+
+**March-April = the thesis proving ground.** Watch the March 5, 12, 19 claims prints.
+
+---
+
+### 3. DOGE — UNPRICED SHOCK (312K+ POSITIONS)
+**Source:** STAFFING_PRESIGNAL_DEEP_DIVE.md
+
+- 312K-327K federal positions eliminated in the past year
+- Financial activities sector down 49K from May 2025 peak
+- **Government contractor cascades NOT yet captured in staffing firm revenues** (staffing firms don't serve government directly)
+- DOGE is a separate transmission path from the private sector staffing signal
+- Burry: "This swamps anything going on with AI job replacement"
+- **Neither the staffing canary improvement NOR the WARN signal captures DOGE fully**
+
+**Updated vector:** VX-LAB-7.xx series — DOGE positions at 312K, threshold for escalation: 400K (previously logged as 307K, now updated to 312-327K range).
+
+---
+
+### 4. LAYOFF SIZE → MARKET SIGNAL FRAMEWORK (10% Rule)
+**Source:** LAYOFF_EVENT_STUDY_2024-2026.md
+
+New analytical framework for interpreting layoff announcements:
+
+| Layoff Size | Market Read | 90-Day Outcome |
+|-------------|-------------|----------------|
+| <5% | Non-event / optimization | Stable |
+| 5-8% | "Surgical efficiency" | Holds if AI narrative |
+| **8-10%** | **INFLECTION POINT** | Negative reversal probability spikes |
+| **>10%** | **Distress signal** | **-12% underperformance** |
+
+**Round Exhaustion Rule:**
+- Round 1 = "discipline" → rewarded
+- Round 2 = skepticism → muted
+- Round 3+ = "business shrinking" → drops on announcement
+- **Amazon pattern confirmed:** Round 1 (Oct '25, 14K) = +2.4%. Round 2 (Jan '26, 16K) = -0.4%.
+
+**Application:** Block (50% cut) is an automatic distress signal. Companies on Round 2+ list should be flagged. Track 8-K filings for exec departures (Item 5.02) + large severance charges (Item 2.02) = -4.2% additional underperformance at 90 days.
+
+**Macro overlay:** If Q2 2026 brings macro stress, layoff pops will NOT hold. Market reads "oh shit" not "efficiency."
+
+---
+
+### 5. EQUITY-CREDIT DIVERGENCE — CREDIT WINS ON 90-DAY HORIZON
+**Source:** EQUITY_CREDIT_DIVERGENCE.md
+
+**Key rule:** When equity pops on a layoff announcement but credit spreads widen → credit is right. The lag = the exploitable window.
+
+**Actionable signals:**
+- **"Credit Watch Negative" is the real signal** — not formal downgrades (which lag by months)
+- 44% of Jan 2026 defaults were "distressed exchanges" — masking true default rate
+- IG spreads historically tight (touched 78bps late 2025), BBB widening = fallen angel risk building
+- BBB widening while AAA stays tight = credit market discriminating (early stage of this)
+
+**The Intel template:** When layoffs >10% AND business model failing → no efficiency bonus. Both equity AND credit collapse together. Use as distress classifier.
+
+**For LABOR:** When tracking layoff announcements — check both stock AND CDS/bond OAS response. Divergence = shorting opportunity with 90-day horizon.
+
+---
+
+### 6. INSIDER SELLING — NEW LEADING INDICATOR (14x SELL-TO-BUY)
+**Source:** INSIDER_SELLING_PRELAYOFF.md
+
+**The signal:**
+- Tech sector sell-to-buy ratio during peak layoff window (Dec 2025 - Jan 2026): **14.08x**
+- Control group (Alphabet/Meta, growing headcount): **2.5-3.0x**
+- Broader market baseline: **1.17-1.21x**
+- **Layoff cohort selling at 5-6x the rate of peers in same industry**
+- Lead time: **3-6 months** before layoff announcements
+
+**Mechanism:** 10b5-1 plans adopted clustered in the same 30-day window = real signal. Watch Item 408 disclosures (plan adoptions), not just Form 4 sales.
+
+**Application to bank watchlist:**
+- Pull Form 4 data for **WAL, OZK, KRE constituent executives**
+- Clustered selling = behavioral confirmation of stress BEFORE earnings reveal it
+- UPS CLO Norman Brothers sold 24 hours before the 30K announcement — discretionary, not 10b5-1
+- These are the clean signals. Monitor.
+
+**New research task:** Add WAL/OZK insider selling scan to weekly workflow.
+
+---
+
+### 7. GEOGRAPHIC TRANSMISSION — MORETTI MULTIPLIER DEGRADED
+**Source:** GEO_LAYOFF_TRANSMISSION.md
+
+**Critical update:** The Moretti local multiplier (1 tech job = 4.3-5.0 service jobs) is degraded.
+**Current realized ratio: 2.5-3.0x** (was 5x).
+
+**Why shrank:**
+1. Remote work dispersion — "Seattle layoffs" include suburban spillover across states
+2. K-shaped resilience — high-income tech workers have severance + stock gains, no immediate spending cliff
+3. AI replacing service jobs that would have absorbed tech worker spending
+
+**Metro scorecard:**
+| Metro | Unemployment | vs National | Read |
+|-------|-------------|------------|------|
+| **Seattle** | **5.1%** | **+0.8%** | 🔴 CANARY — AMZN/MSFT too central |
+| San Francisco | ~4.5% | +0.2% | 🟡 AI sector partially offsetting |
+| Austin | 3.5% | -0.2% | 🟢 Manufacturing diversification works |
+
+**Implication for thesis:** Layoff transmission is SLOWER and WIDER — distributed across geographies at lower intensity. Don't expect concentrated local credit events from tech layoffs. Instead watch aggregate national metrics (claims, national delinquency rates). **Austin resilience = manufacturing diversification = protective.**
+
+**Data center ≠ tech worker:** AI capex pivot creates 50 technician jobs not 10,000 software engineering jobs. A LOCAL ECONOMIC DOWNGRADE even if a corporate efficiency upgrade.
+
+---
+
+### 8. WARN ACT — QUANTIFIED LEAD TIME & ALPHA WINDOW
+**Source:** WARN_ACT_LEADING_INDICATOR.md (also processed)
+
+**WARN → IJC correlation:** r=0.78 at τ=6 weeks (peak). WARN leads claims by 4-8 weeks.
+
+**"Alpha Window" (filing → public announcement):**
+- UPS (30K): 16 days
+- Amazon corporate: 6 days
+- Meta (1,500): 4 days
+- Logistics > Tech for window length
+
+**Current anomaly (Feb 2026):** IJC 206-212K (low) + WARN filings surging = "shadow payrolls." Workers on notice but still employed through notice period. **Gap closes in 4-8 weeks = March-April claims spike expected.**
+
+**Noise filters for WARN data:**
+1. Exclude healthcare strikes (ULP, not economic)
+2. Exclude seasonal retail (Spirit Halloween etc.)
+3. Exclude temporary furloughs (unless marked "Permanent")
+4. AI-cited cuts are "beta-neutralized" by markets — separate from demand-weakness signal
+
+**Data sources active:**
+- Texas: OData API via Socrata (LIVE — `scripts/warn_texas.py`)
+- New York: WARN Dashboard (AI-role disclosure required since 2025)
+- California: Email-based, 10-day lag (manual monitoring)
+- Oregon: HECC system (6-year retention limit)
 
 ---
 
@@ -186,14 +471,15 @@ The U.S. labor market has entered a structural break masked by surface-level sta
 
 | Indicator | Value | Status | Note |
 |-----------|-------|--------|------|
-| **Initial Claims** | **212K** | 🟢 | **Feb 26 (wk Feb 21): +4K WoW, Presidents' Day holiday effect. Beat 215K exp. DHS suppression still active.** |
-| **Continuing Claims** | **1.833M** | 🟢 | **-31K WoW. Unexpected DROP — watch closely. Could be DHS workers returning to pay, seasonal, or genuine improvement.** |
+| **Initial Claims** | **212K** | 🟢 | Feb 26 (wk Feb 21): +4K WoW. DHS suppression still active. Claims data unreliable until government workers normalized. |
+| **Continuing Claims** | **1.833M** | 🟢 | -31K WoW. Watch closely — Hotel California indicator. |
 | U-3 Unemployment | 4.3% | 🟡 | +0.3pp YoY |
 | U-6 Underemployment | 8.4% | 🟠 | +0.8pp YoY |
-| **Long-term Unemployed** | **1.8M** | 🔴 | **+386K YoY (+28%)** |
-| **College Grad Unemployment** | **36.6%** | 🟠 | **Record high (Jan 2026). 36.6% of unemployed 25+ have 4-year degree. White-collar deterioration.** |
+| **Long-term Unemployed** | **1.8M** | 🔴 | +386K YoY (+28%) |
+| **College Grad Unemployment** | **36.6%** | 🟠 | Record high (Jan 2026). White-collar deterioration confirmed. |
 | Part-time (Economic) | 4.9M | 🟠 | +410K YoY |
-| Temp Employment YoY | -12% | 🔴 | RE-ACCELERATING |
+| **Temp Employment YoY** | **-12%** | 🔴 | RE-ACCELERATING — but RHI/KFRC sequential turning point is the counter-signal. Watch Q1 earnings. |
+| **Staffing Canaries (RHI/KFRC)** | Sequential+ | 🟡 | COUNTER-SIGNAL: First positive sequential in 12 quarters. Historical pattern = unemployment plateau within 3-4 months. Monitor for reversal. |
 | **NFP Jan 2026** | **+130K** | 🟡 | Beat +55K exp, but revisions tell story |
 | **2025 Job Growth** | **+181K total** | 🔴 | Revised from +584K (-69%) |
 | **ADP Private Payrolls** | **+22K** | 🔴 | vs +45K exp |
@@ -202,14 +488,22 @@ The U.S. labor market has entered a structural break masked by surface-level sta
 | Challenger Annual | 1.2M | 🔴 | +58% YoY, 7th highest ever |
 | **Challenger Jan 2026** | **108K** | 🔴 | HIGHEST JAN SINCE 2009 |
 | **Challenger Hiring Plans** | **5,306** | 🔴 | LOWEST JAN EVER |
-| DOGE Cuts | 307K | 🔴 | 24% of all 2025 cuts |
+| **DOGE Cuts** | **312K-327K** | 🔴 | Updated from 307K. Unpriced shock — not in staffing data. Parallel transmission path. |
+| **Shadow Payroll Gap** | WARN ↑ / Claims 206K | 🔴 | RESOLVES MARCH-APRIL. Critical test window opening now. |
+| **Seattle Metro Unemployment** | 5.1% | 🔴 | +0.8% vs national. Canary metro. AMZN/MSFT too central. |
+| **Moretti Multiplier** | 2.5-3.0x | 🟡 | Degraded from 5x. Tech layoff transmission is slower + wider now. |
 | Google "Severance" | 100 | 🔴 | ALL-TIME HIGH |
 | ISM Mfg Employment | 48.1% | 🔴 | 28 months contraction |
 | ISM Services Employment | 50.3 | 🟠 | Barely expanding, -1.4pp MoM |
 | Cass Freight | -7.5% YoY | 🔴 | New cycle low |
 | Fed Beige Book | 4/12 deteriorating | 🟠 | "Low-hire, low-fire" |
+| **BBB Credit Spreads** | Widening vs AAA | 🟡 | Fallen angel canary. Credit discriminating. Distressed exchanges masking 44% of Jan defaults. |
+| **Tech Insider Sell/Buy Ratio** | 14.08x | 🔴 | vs 2.5x non-layoff peers. Dec 2025-Jan 2026 window. Leading indicator for layoffs 3-6 months out. |
+| **Texas WARN API** | Active (cron Wed 8AM ET) | 🟢 | Scripts/warn_texas.py wired up. Weekly data feed live. |
 
-**Hotel California Check:** Initial claims stable but continuing claims rising = workers stuck on UI longer. Duration proxy 8.0 weeks and climbing.
+**Hotel California Check:** Claims stable (surface) but shadow payroll gap and WARN pipeline says stress locked in. March-April claims prints are the verdict.
+
+**⚠️ CRITICAL TENSION:** Staffing bottom signal vs WARN surge don't reconcile yet. DOGE is a third data stream not captured by either. Don't force a unified narrative — watch March-April data.
 
 ---
 
@@ -465,19 +759,25 @@ If PSEC shows stress → **Middle-market employment transmission = CONFIRMED ACT
 
 ## PREDICTIONS
 
-| # | Prediction | Timeframe | Confidence |
-|---|------------|-----------|------------|
-| 1 | Temp employment YoY stays <-6% | Q1 2026 | 85% |
-| 2 | U-3 reaches 4.7%+ | Q2 2026 | 70% |
-| 3 | Claims breach 250K | Q2-Q3 2026 | 65% |
-| 4 | Florida foreclosures +75%+ YoY | Q2 2026 | 75% |
-| 5 | Kforce (KFRC) earnings miss | Q1 2026 | 70% |
-| 6 | ISM Mfg Employment stays <50 | Through 2026 | 80% |
-| 7 | NFIB hard-to-fill >30% persists | Through Q2 2026 | 85% |
-| 8 | DOGE separations exceed 400K | Q3 2026 | 60% |
-| 9 | Data center employment turns negative if AI capex slows | H2 2026 | 55% |
-| 10 | BLS benchmark revision >500K downward | Q1 2027 | 65% |
-| 11 | "Late-cycle" language in Fed communications | Q2-Q3 2026 | 50% |
+| # | Prediction | Timeframe | Confidence | Notes |
+|---|------------|-----------|------------|-------|
+| 1 | Temp employment YoY stays <-6% | Q1 2026 | 85% | RHI sequential improvement is counter-signal but KELYA/industrial still deteriorating |
+| 2 | U-3 reaches 4.7%+ | Q2 2026 | 65% | ⬇️ Reduced from 70% — staffing bottoming is real counter-signal |
+| 3 | Claims breach 250K | Q2-Q3 2026 | 65% | WARN pipeline vs staffing canary = March-April resolves |
+| 4 | Florida foreclosures +75%+ YoY | Q2 2026 | 75% | CRE → regional bank → local employment chain active NOW |
+| 5 | Kforce (KFRC) earnings miss | Q1 2026 | 55% | ⬇️ Reduced from 70% — sequential growth counter-signal material |
+| 6 | ISM Mfg Employment stays <50 | Through 2026 | 80% | |
+| 7 | NFIB hard-to-fill >30% persists | Through Q2 2026 | 85% | |
+| 8 | DOGE separations exceed 400K | Q3 2026 | 65% | ⬆️ Increased — 312-327K already, pace accelerating |
+| 9 | Data center employment turns negative if AI capex slows | H2 2026 | 55% | Multiplier degradation confirms fewer jobs per $ capex |
+| 10 | BLS benchmark revision >500K downward | Q1 2027 | 65% | |
+| 11 | "Late-cycle" language in Fed communications | Q2-Q3 2026 | 50% | |
+| 12 | WAL/OZK insider selling cluster appears in Form 4 data | Q1-Q2 2026 | 50% | NEW — based on 14x sell/buy ratio framework |
+| 13 | Seattle metro unemployment reaches 5.5%+ | Q2-Q3 2026 | 55% | NEW — canary metro, AMZN/MSFT concentration |
+| 14 | Shadow payroll gap closes (WARN → claims spike) | March-April 2026 | 60% | the critical thesis test |
+| 15 | 70%+ of current layoff cohort (2025-26) shows revenue deceleration by Q3 2026 | Q3 2026 | 75% | NEW — 40yr academic base rate; >10% cuts = worse outcomes; DOGE/distress cuts especially vulnerable |
+| 16 | AI narrative shield breaks: "AI reallocation" layoff cohort gets distress treatment | Q3-Q4 2026 | 55% | NEW — second post-layoff earnings call is when revenue guidance softens; analyst reversals follow |
+| 17 | WAL/OZK posting withdrawal detectable before any formal layoff announcement | Q2-Q3 2026 | 50% | NEW — if regional banks in stress, postings pulled 4-12 weeks ahead; watch TrueUp/LinkedIn |
 
 ---
 
@@ -717,4 +1017,50 @@ Both can be true: Companies aren't firing (claims low) but also aren't hiring (W
   - **ORANGE:** Courts allow RIFs to proceed; 500-2,000 additional notices filed (CURRENT)
   - **RED:** Full unlocking; >2,000 new RIF notices; DOGE total heading toward 400K+
 
-*Next update triggers: Feb 19 Initial Claims 8:30 AM ET (⚠️ DHS distortion—print will be suppressed) | Feb 19 FOMC Minutes 2:00 PM ET | Feb 19 Shunto electronics demands (overnight) | Feb 20 PSEC Q4 earnings | Mar 6 NFP | Claims breach 250K | Court ruling on RIF injunction (Judge Illston) | DHS shutdown resolution (earliest Feb 23)*
+### New Vectors (Feb 28, 2026) — Research Integration
+- **VX-LAB-13.04:** RHI/KFRC Sequential Growth Signal (🟡 YELLOW — positive sequential after 12 quarters down; historical precedent = unemployment plateau 3-4 months out; monitor Q1 2026 earnings for reversal)
+- **VX-LAB-17.01:** Tech Insider Sell/Buy Ratio (🔴 14.08x vs 2.5x non-layoff peers; leading indicator 3-6 months; apply to WAL/OZK Form 4 data)
+- **VX-LAB-17.02:** WAL Insider Form 4 Activity (⬜ GAP — not yet pulled; assign as research task)
+- **VX-LAB-17.03:** OZK Insider Form 4 Activity (⬜ GAP — not yet pulled; assign as research task)
+- **VX-LAB-18.01:** Seattle Metro Unemployment (🔴 5.1%, +0.8% vs national; canary metro; AMZN/MSFT concentration)
+- **VX-LAB-18.02:** Moretti Multiplier Realization (🟡 2.5-3.0x vs historical 5x; degraded by remote work, K-shaped spending, AI service replacement)
+- **VX-LAB-9.02:** Texas WARN API (🟢 ACTIVE — scripts/warn_texas.py, Wednesday 8AM ET cron)
+- **VX-LAB-19.01:** BBB vs AAA Credit Spread Divergence (🟡 widening — fallen angel canary; 44% of Jan 2026 defaults = distressed exchanges masking true rate)
+- **VX-LAB-7.01:** DOGE Positions Eliminated (🔴 312-327K — updated from 307K; separate transmission path from private sector staffing)
+- **VX-LAB-20.01:** Shadow Payroll Gap (🔴 WARN filings surging vs claims 206K — resolves March-April; critical test window)
+
+### New Vectors (Feb 28, 2026 Batch 2) — Research Integration
+- **VX-LAB-21.01:** Job Posting Withdrawal Signal (⬜ GAP — not yet actively monitored; TrueUp free tier available now; 4-12 week lead time on layoffs; add to weekly workflow)
+- **VX-LAB-21.02:** Tech Job Posting Velocity (⬜ GAP — Indeed JPI/Lightcast/LinkUp; peaked April 2022 then -60% before Q1 2023 wave; add to dashboard)
+- **VX-LAB-22.01:** Analyst Revision Reversal Rate (🔴 55-65% of upgrades reversed within 2-3 quarters; 90-120 day consensus window; EPS raises are BORROWED from future cuts)
+- **VX-LAB-22.02:** Layoff Pop Fade Timing (📐 FRAMEWORK — analyst consensus holds 1-1.5 earnings cycles (90-120 days); second post-layoff call = reversal trigger; calibrate put expirations accordingly)
+- **VX-LAB-23.01:** Post-Layoff Revenue Deceleration Base Rate (📐 FRAMEWORK — 70-75% of major layoff companies see revenue decelerate/decline; >10% cuts = significantly worse (p<.009); 2yr underperformance r=-0.12)
+- **VX-LAB-24.01:** Buyback-to-Salary-Savings Ratio (📐 FRAMEWORK — when ratio >10x, "efficiency" narrative = financial engineering; Salesforce 83x; track same-day layoff+buyback announcements; insider selling 2x more likely within 8 days of buyback)
+
+### New Sources (Feb 28, 2026 Batch 2) — Moved to domain/sources/
+- `JOB_POSTING_WITHDRAWALS.md` — 4-12 week posting → layoff lead time, three-layer signal sequence, data sources (LinkUp/Revelio/TrueUp/Thinknum)
+- `BUYBACK_LAYOFF_PAIRING.md` — 20-30% pairing rate, buyback-to-salary ratios (10-83x), insider selling +2x in 8 days of buyback, downsize-and-distribute framework
+- `ANALYST_REVISION_CYCLE.md` — 75-85% EPS raise (Day 1-30), 55-65% reversal (Day 120-150), AI vs distress narrative split, 90-120 day consensus window
+- `REVENUE_TRAJECTORY_POSTLAYOFF.md` — 70-75% deceleration/decline, 905-effect-size meta-analysis, >10% cut threshold = worse outcomes, Meta Trap debunked
+
+### New Sources (Feb 28, 2026 Batch 1) — Moved to domain/sources/
+- `LAYOFF_EVENT_STUDY_2024-2026.md` — 10% threshold, round exhaustion, equity-credit divergence
+- `STAFFING_PRESIGNAL_DEEP_DIVE.md` — bottoming signal, DOGE shock, Florida stress
+- `EQUITY_CREDIT_DIVERGENCE.md` — credit watch timing, distressed exchanges, BBB spread
+- `INSIDER_SELLING_PRELAYOFF.md` — 14x sell/buy ratio, 10b5-1 clusters, Mansi effect
+- `GEO_LAYOFF_TRANSMISSION.md` — Moretti multiplier, Seattle canary, metro scorecard
+- `WARN_ACT_LEADING_INDICATOR.md` — WARN→IJC lag (r=0.78 at τ=6wks), Alpha Window, shadow payroll gap mechanics, TX/NY/CA/OR data sources
+
+---
+
+## TOOLS & AUTOMATION
+
+| Tool | Status | Schedule | Notes |
+|------|--------|----------|-------|
+| **Texas WARN API** | 🟢 LIVE | Wed 8AM ET | `scripts/warn_texas.py` — weekly WARN filing pull |
+| WAL/OZK Form 4 Scanner | ⬜ PENDING | On-demand | Research task: pull insider selling data for bank watchlist |
+| Seattle Metro Unemployment | ⬜ PENDING | Monthly (BLS) | Add to regular dashboard pull |
+
+---
+
+*Next update triggers: Mar 5/12 claims prints (shadow payroll gap verdict) | Q1 2026 RHI/KFRC earnings (April — staffing bottom confirmation or false bottom) | WAL/OZK Form 4 data pull | BBB spread trajectory | Seattle metro unemployment next BLS release | Texas WARN API Wed 8AM ET*

@@ -1,7 +1,7 @@
 # PROME STATUS.md
-**Updated:** 2026-02-27 23:00 UTC
+**Updated:** 2026-02-28 02:30 UTC
 
-**Last context:** Convergence day + best session yet. EOD agent run → cross-agent corrections (all 4 agents moved: REGINALD 55→68%, CARL 45→65%, SAM 25→35-40%, HENRY muddle-through 15%) → synthesis → gap analysis. **Read `PROME/FOLLOW_UP.md` before asserting claims to Will — some are unverified.** EOD_PROTOCOL.md codified. Cron AM+EOD set M-F. Monday: KRE roll, APO research, first AM scan fires 8:30 ET.
+**Last context:** Massive LABOR deep research session (12 Gemini prompts). Thesis transmission model REVISED: REGINALD leads, LABOR confirms (was LABOR leads). Staffing bottoming is real counter-signal. LIQUID credit thresholds validated (320bps ETA March 12-14). Apollo interconnection confirmed (Athene economically fused). Texas WARN API wired + cron'd. All research distilled and routed to agents. Monday: KRE roll, APO puts screen, first AM cron 8:30 ET.
 
 ## 🔴 CRITICAL — Private Credit Recognition Wave | Multiple Vectors Confirming
 
@@ -11,13 +11,13 @@
 
 | Agent | Status | Focus | Updated |
 |-------|--------|-------|---------|
-| LABOR | 🔴 | Benchmark -1M jobs; WARN decade-high; Claims 227K | Feb 11 |
+| LABOR | 🟡 | Staffing bottoming (counter-signal); WARN surging; shadow payroll gap resolves Mar-Apr; 12 research briefs integrated | Feb 28 |
 | CARL | 🟠 | LIHEAP deferred to Winter 26-27 | Feb 18 |
 | HENRY | 🔴 | SPX -800pts, Put Wall tested; now owns macro data releases | Feb 27 |
 | SAM | 🟠 | Japan slow-burn tailwind | Feb 23 |
 | REGINALD | 🔴 | OZK thesis verified; Chicago downgrade + BROCK upstream in inbox | Feb 27 |
-| BROCK | 🔴 | Private credit cracking: Medallia 78¢, FSK div cut, Blue Owl gating | Feb 27 |
-| LIQUID | 🔴 | Baltic ice; 140M barrel flush Apr-May; BROCK upstream in inbox | Feb 27 |
+| BROCK | 🔴 | Apollo interconnection CONFIRMED (Athene fused, MassMutual co-exposed); private credit cracking | Feb 28 |
+| LIQUID | 🔴 | HY OAS 298→320 ETA Mar 12-14; dual-trigger framework built; CLO AAA = best canary; credit thresholds validated | Feb 28 |
 | MARCO | 🔴 | FL airport cascade confirmed; emigration signal in inbox | Feb 26 |
 | HAWK | 🔴 | Iran buildup; Russian revenue -50% YoY; CVX short | Feb 18 |
 | HANS | 🟠 | German PMI beat (50.7) — complicates ISM weakness | Feb 22 |
