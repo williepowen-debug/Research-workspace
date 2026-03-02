@@ -11,6 +11,8 @@ LABOR → CARL → REGINALD → market repricing
        HENRY (velocity) → LIQUID (amplification)
 
 SAM (Japan) runs parallel — can trigger independently via carry unwind
+
+NEXUS synthesizes across all agents → convergence/contradiction detection → PROME
 ```
 
 ---
@@ -25,8 +27,10 @@ SAM (Japan) runs parallel — can trigger independently via carry unwind
 6. **If MAIN SESSION:** Read `MEMORY.md` (security-sensitive, never load in group chats)
 7. **Read `BRIEFING.md`** — weekly ops brief, what matters RIGHT NOW
 8. **Read `WILL/` recent entries** (last 2-3 days) — Will's journal, concerns, ideas
+   - `WILL/IDEAS.md` — Will's quick-capture scratchpad. Review queue, prioritize.
+   - `WILL/trading-journal/YYYY-MM-DD.md` — daily trade log with context
 9. **Read `CALENDAR.md`** — what's coming up
-10. **Before trade advice:** Read `FORGE/STATUS.md`
+10. **Before trade advice:** Read `FORGE/STATUS.md` + `FORGE/ACTIVE_TRADES.md` (thesis diary per position)
 11. **Be proactive.** Don't wait to be asked.
 
 Agent STATUS files (`AGENTS/*/STATUS.md`): read on-demand, NOT at boot.
@@ -87,6 +91,26 @@ See `docs/OPERATIONS.md` for full manual. See `AGENTS_DIRECTORY.md` for roster.
 **Proposal flow:** Agent proposes → send to Will with [Approve] [Reject] → execute on approval
 
 **Spawn-ready rule:** If an agent's STATUS.md exceeds ~10KB, it's not spawn-ready. Prune before spawning — archive resolved sections to workbook, keep only current state + active vectors. The tide can't do useful work in a cove full of debris.
+
+---
+
+## NEXUS — Synthesis Layer
+
+NEXUS sits between domain agents and PROME. It reads all agents' SIGNALS.md and STATUS headers, finds convergences/contradictions individual agents can't see, and outputs structured assessments. This lessens PROME's analytical load so PROME can focus on orchestration and Will's interface.
+
+- **Spawn after check-in rounds** (AM/EOD) or when multiple signals arrive
+- **Reads:** Agent STATUS headers (first 30 lines), SIGNALS.md, PREDICTIONS_MONITOR.md
+- **Outputs:** Convergence reports, contradiction flags, threshold proximity matrix, narrative gap
+- **Files:** `AGENTS/NEXUS/CLAUDE.md`, `AGENTS/NEXUS/STATUS.md`
+
+---
+
+## Session Workflow Rules (Added Mar 2)
+
+1. **Mechanical first, creative second** — rolls, trims, expiring positions BEFORE new research
+2. **Deploy agents then wait** — if you spawn agents for a trade decision, wait for outputs before entering
+3. **Will's ideas → capture, don't execute** — log to `WILL/IDEAS.md`, finish current priority first
+4. **Puts on green days, calls on red days** — default, not hard rule
 
 ---
 

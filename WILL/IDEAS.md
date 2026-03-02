@@ -6,7 +6,8 @@
 
 ## Queue
 
-*(empty — ready for next session)*
+- **INTAKE agent** — receives raw inputs (articles, pics, links, tweets). Extracts data, tags relevant agents, drops clean structured summaries into SIGNALS.md or agent inboxes. Removes the triage burden from PROME. Think ETL pipeline for research signals.
+- **Options flow analysis** — when Jun puts pop independently, understand why. Build a framework for reading unusual options activity as a signal (OI changes, IV skew, roll activity, dealer hedging).
 
 ---
 

@@ -30,6 +30,8 @@ Positioned for repricing of systemic risk via regional bank puts. Credit leads e
 | HYG $75P | 10 | $0.31 | $0.28 | -8.7% | Jun 18 | Credit canary |
 | **APO $100P** | **1** | **$7.70** | **$7.70** | **0%** | **Jun 18** | **NEW 3/2. Private credit + MFS + oil. Crowd at Apr $100-105; we're Jun.** |
 | **AAL $10P** | **4** | **$0.56** | **$0.56** | **0%** | **Jul 17** | **NEW 3/2. Fuel + FL tourism + Canadian pullback + neg book value + insiders selling. 52wk low $8.50.** |
+| **OZK $45P** | **2** | **$3.31** | **$3.31** | **0%** | **Aug 21** | **NEW 3/2. Doubled down. Closer to money than $42.5. Earnings Apr 16.** |
+| **WAL $77.5P** | **1** | **$5.50** | **$5.50** | **0%** | **Jun 18** | **NEW 3/2. Deeper strike, more leverage. Dead cat bounce entry.** |
 | SSB $90P | 2 | $1.87 | $0.90 | -51.8% | Jun 18 | FL bank |
 | KELYA $7.5P | 1 | $0.76 | $0.75 | -0.9% | Aug 21 | Staffing lead |
 
