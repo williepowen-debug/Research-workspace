@@ -1,9 +1,48 @@
 # HANS STATUS.md
-**Updated:** 2026-02-22 19:40 UTC
+**Updated:** 2026-03-02 21:00 UTC
+**Status: 🔴 CRISIS — ALL SYSTEMS RED**
 
 ---
 
-## 📥 INBOX (New Data — Feb 22)
+---
+
+## 🚨 CRISIS BRIEF — MAR 2, 2026
+
+### SITUATION SUMMARY
+- **US-Iran war began Feb 28** (Operation Epic Fury). Khamenei killed Mar 1. Trump: "4-5 weeks" campaign.
+- **Hormuz effectively closed** — 70% traffic drop. 3 tankers hit, 1 seafarer killed.
+- **QatarEnergy halted ALL LNG** (Iranian drones struck Ras Laffan + Mesaieed today)
+- **TTF +45% to ~€46/MWh** (Goldman scenario: €74/MWh = +130%)
+- **War risk insurance pulled Mar 5** — 7/12 P&I clubs withdrawing. After Thursday, Hormuz = UNINSURABLE.
+- **EU storage: Germany 20.5%, France 21%** — refill season starting NOW with primary LNG offline
+- **MFS collapse (UK)**: £2B fraud, Barclays £600M, Jefferies £100M exposed
+- **All agents 🔴. SAM carry unwind 55%. ZHAO: UST NOT rallying. HY OAS: 320bps.**
+
+### Critical Thresholds (Mar 2 Status)
+| Signal | Level | Status | Threshold |
+|--------|-------|--------|-----------|
+| TTF Gas | €46/MWh | 🔴 | Orange >€40, RED >€60 |
+| EU Storage | ~22% avg | 🔴 | Orange <30%, RED <20% |
+| EUR/USD | ~1.12 est. | 🟠 | Orange <1.10, RED <1.05 |
+| EUR/USD Basis | ~-20bps est. | 🟡 | Orange <-50, RED <-100 |
+| France-Germany 10Y | ~80-90bps est. | 🟠 | Orange >100, RED >120 |
+| Italy-Germany 10Y | ~140bps est. | 🟠 | Orange >150, RED >200 |
+| iTraxx Senior Fin. | ~85bps est. | 🟠 | Orange >150, RED >200 |
+
+### PROME ALERTS 🚨
+1. **[MAR 5 HARD DEADLINE]** War risk insurance cliff — Hormuz permanently uninsurable. Qatar LNG = structurally offline.
+2. **[STAGFLATION TRAP]** ECB frozen — inflation spiking + recession = can't cut or hike. Most dangerous macro config.
+3. **[CEASEFIRE CATALYST]** Energy crisis puts ceasefire on 4-6 week timeline. Forced peace on Putin's terms now base case.
+4. **[TOTALENERGIES/SHELL]** Equity stakes in physically damaged Qatar facilities. Force majeure. Equity at risk.
+5. **[BELGIUM/EUROCLEAR]** European sovereign stress → China may use Euroclear lever. ZHAO crossover watch.
+6. **[UST PARADOX]** Short-term safe haven bid (positive for UST) vs. medium-term European demand destruction.
+
+### Full Analysis
+→ Full report: `domain/sources/RP-HANS-10_LNG_CRISIS_EUROPEAN_IMPACT_MAR2026.md`
+
+---
+
+## 📥 INBOX (Archived — Feb 22)
 
 ### 🟠 German Flash PMI (Feb 21) — BEAT, Complicates Thesis
 - **Manufacturing: 50.7** vs 49.5 expected (BEAT, back into expansion first time since June 2022)
@@ -91,13 +130,13 @@ European dynamics affect US markets through several transmission channels:
 
 *Note: Ireland/Luxembourg are fund domiciles — 60-70% beneficial ownership is non-European*
 
-### Currency
+### Currency [UPDATED MAR 2]
 | Pair | Current | Yellow | Orange | Red | Status |
 |------|---------|--------|--------|-----|--------|
-| EUR/USD | 1.17-1.18 | <1.15 | <1.10 | <1.05 | 🟢 |
-| GBP/USD | ~1.26 | <1.20 | <1.15 | <1.10 | 🟢 |
-| DXY | ~98.25 | >100 | >102 | >105 | 🟢 |
-| EUR/USD 3M Basis | -12 bps | <-25 | <-50 | <-100 | 🟢 |
+| EUR/USD | ~1.10-1.12 est. | <1.15 | <1.10 | <1.05 | 🔴 |
+| GBP/USD | ~1.20-1.22 est. | <1.20 | <1.15 | <1.10 | 🟠 |
+| DXY | ~103-105 est. | >100 | >102 | >105 | 🔴 |
+| EUR/USD 3M Basis | ~-20 bps est. | <-25 | <-50 | <-100 | 🟡 |
 
 ### ECB / BoE Policy
 | Metric | Current | Notes |
@@ -226,10 +265,14 @@ European dynamics affect US markets through several transmission channels:
    - 16 entries added to ML.tsv; FL.tsv updated with all PMI calendar events
    - **NEXT ACTION: Monitor France PMI 08:15 UTC Friday as warm-up; act on German print 08:30 UTC**
 
+✅ **RP-HANS-10:** LNG Crisis — European Impact (Mar 2) — COMPLETED
+   - Report: domain/sources/RP-HANS-10_LNG_CRISIS_EUROPEAN_IMPACT_MAR2026.md
+   - 6 questions answered: energy security, banks, defense, Russia leverage, EUR/USD, company exposure
+
 **Next Priority:**
-1. **RP-HANS-5:** Belgium/China Euroclear Correlation — Time series analysis, lead/lag
-2. **RP-HANS-10:** European UST Demand Model — Regression model for forecasting
-3. **RP-HANS-11:** Sovereign Spread Triggers — What causes Italy/France blowouts
+1. **RP-HANS-11:** Sovereign Spread Emergency Monitor — Italy/France blowout triggers (URGENT)
+2. **RP-HANS-12:** European USD Funding Stress — iTraxx/basis swap monitor
+3. **RP-HANS-13:** Belgium/China Euroclear — Crisis-mode lever watch (ZHAO crossover)
 
 ---
 

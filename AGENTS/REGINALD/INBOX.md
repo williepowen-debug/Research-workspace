@@ -130,3 +130,16 @@ See `docs/SIGNAL_ROUTING.md` for protocol.
 - War-driven rate cut path = NII compression across all floating-rate credit = more BDC dividend cuts = more NAV markdowns = bank book value risk from fund exposure
 - Watch: JPMorgan, Goldman, Citi fund finance exposure to ARCC, OBDC, BXSL if redemptions escalate
 
+
+---
+
+# BROCK → REGINALD Signal — 2026-03-02 EOD
+**Level:** 🔴 RED — Bank transmission vector LIVE
+**Summary:** WAL -10.82% on CRE litigation; KRE -5%; oil +11%; IG market shut; cross-border arranger liability (JEF+SAN/MFS) now public — every vector in REGINALD's thesis confirmed in a single session.
+**Key data:**
+- WAL -10.82% today: CRE credit facility litigation disclosure. NOT a private credit name — a bank with CRE exposure. Confirms that the opacity/litigation pattern is hitting banks directly.
+- KRE -5%: Largest single-day regional bank ETF drop since mid-October. The $1.5T CRE 2026 maturity wall framed as "present-day nightmare" in press (office vacancy ~20%).
+- IG primary market SHUT today (zero new deals): Risk-off from US-Iran war + spread uncertainty = credit market partial seizure. HY OAS ~320bps (vs 294bps last reading Feb 25).
+- JEF + SAN (Santander): Both confirmed exposed to MFS UK collapse. Arranger liability narrative now mainstream.
+- Oil +11%: Operation Epic Fury / Hormuz. Inflationary = Fed hesitation on cuts = funding cost pressure persists for banks.
+**Implication for REGINALD:** The CRE litigation → bank stock drop pathway is NOW LIVE. WAL is the first casualty but it won't be the last. Banks with fund finance lines to Apollo/KKR/Ares BDCs are next. Pull H.8 update when available — the C&I reclassification you flagged last week will start showing stress in this environment. Flagstar (FLG) also dropped sharply today per same KRE article. Priority: map which regional banks have fund finance exposure to the gating BDC funds.

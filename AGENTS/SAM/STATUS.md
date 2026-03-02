@@ -1,8 +1,8 @@
 # SAM STATUS
 
-**Signal Status:** 🔴 RED | **Last Updated:** 2026-03-02 18:35 UTC
+**Signal Status:** 🔴 RED | **Last Updated:** 2026-03-02 21:15 UTC (EOD)
 
-**Summary:** US-IRAN WAR DAY 2 — Markets now open and trading. Nikkei closed -1.35% at 58,057 (pared from -2.4% intraday low — better than expected -4-8%). USDJPY at 157.38, +0.85% on day — Phase 1 JPY weakness playing out exactly as modeled (oil + dollar bid). JGB 10Y at 2.07% (-4bps, flight to safety). JGB 2Y at 1.215% (-3bps, BOJ hike expectations fading near-term). Finance Min Katayama monitoring yen "with strong sense of urgency" — intervention warning signal at 157. BOJ Himino: policy decision "depends on data." Analyst (T&D): BOJ may need to accelerate hikes if oil drives inflation.
+**Summary:** US-IRAN WAR DAY 1 EOD — Nikkei CLOSED -1.35% at 58,057 (pared from -2.4% intraday low — resilient vs -4-8% pre-open estimate). USDJPY EOD CLOSE: 157.375, +0.84% — Phase 1 JPY weakness confirmed, dollar bid > safe haven yen bid today. JGB 10Y EOD: 2.07% (-5bps, flight to safety). JGB 2Y: 1.215% (-3bps, BOJ hike expectations fading). Finance Min Katayama: "strong urgency" on yen at 157. BOJ Himino: "depends on data." NEW: Pre-war Core PPI 0.8% MoM vs 0.3% consensus (3.6% YoY) — dollar FAILED to rally on hot print. Bond market pricing GROWTH COLLAPSE not inflation. This is the medium-term USD/JPY bearish signal. TradingNews 152.50 bearish target in play if NFP (Mar 6) soft.
 
 ---
 
@@ -163,7 +163,7 @@ Arguments for HIKE (oil inflation):
 
 | Vector | Value | Status | War Impact |
 |--------|-------|--------|-----------|
-| **USDJPY** | **157.38** | 🔴 | Phase 1 JPY weakness confirmed. +1.38 from Friday close. Finance Min "strong urgency" warning at this level. MOF intervention risk rising toward 158-160. |
+| **USDJPY** | **157.375 EOD** | 🔴 | Phase 1 JPY weakness confirmed. +0.84% on day; +1.375 from Friday 156.00 close. Finance Min "strong urgency" at 157. MOF intervention risk rising. KEY: Dollar failed to rally on hot Core PPI (0.8% vs 0.3% est) pre-war — growth collapse priced in medium term. Bearish 152.50 target flagged by analysts. |
 | **Brent Oil** | **~$79-80** | 🔴 NEW | Up from $72.48. $90+ if Hormuz sustained |
 | **HY OAS** | **~2.98%** pre-war | 🔴 RISING | Monday gap-wider likely. Watch 320bps |
 | **BOJ Rate** | **0.75%** | 🟡 | March hold 85%. War = pause cover |
@@ -191,8 +191,11 @@ Arguments for HIKE (oil inflation):
 
 | Date | Event | Priority |
 |------|-------|----------|
-| **Mon Mar 2** | **CONFIRMED: Nikkei -1.35% at 58,057 (pared from -2.4%). USDJPY 157.38 (+0.85%). JGB 10Y 2.07% (-4bps). Finance Min "strong urgency" on yen. Phase 1 playing out.** | 🔴 CONFIRMED |
-| Mar 13-14 | BOJ Meeting | 🔴 HOLD expected (85%) |
+| **Mon Mar 2** | **EOD CLOSE: Nikkei -1.35% at 58,057. USDJPY 157.375 (+0.84%, EOD confirmed). JGB 10Y 2.07% (-5bps EOD). Phase 1 confirmed. Dollar bid > safe haven yen. NFP Mar 6 = next major catalyst.** | 🔴 CONFIRMED |
+| **Mon Mar 2** | **ISM Manufacturing (today)** — employment + new orders key signal for growth collapse thesis | 🔴 |
+| Mar 4 (Tue) | PCE data | 🔴 |
+| **Mar 6 (Fri)** | **NFP — CRITICAL.** Soft payrolls = growth collapse confirmed = Phase 2 USD/JPY breakdown accelerates toward 152.50 | 🔴 |
+| Mar 13-14 | BOJ Meeting | 🔴 HOLD expected (90%) |
 | Mar 17 | JICPA accounting comment deadline | 🟠 |
 | Mid-March | Shunto settlement (yamaba day ~Mar 13) | 🟠 |
 | March 31 | FY2025 ends, ESR reporting | 🟠 |

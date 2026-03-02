@@ -8,6 +8,8 @@
 
 - **INTAKE agent** — receives raw inputs (articles, pics, links, tweets). Extracts data, tags relevant agents, drops clean structured summaries into SIGNALS.md or agent inboxes. Removes the triage burden from PROME. Think ETL pipeline for research signals.
 - **Options flow analysis** — when Jun puts pop independently, understand why. Build a framework for reading unusual options activity as a signal (OI changes, IV skew, roll activity, dealer hedging).
+- **Cheniere (LNG) calls** — US LNG exporter, direct beneficiary of Qatar offline + Hormuz closure. +6% today. Energy Dominance thesis extends to gas, not just oil. Screen options.
+- **Mar 5 insurance withdrawal** — 7/12 P&I clubs pulling war risk coverage from Hormuz. After Thursday, strait is UNINSURABLE. This is more important than NFP. Structural, not temporary. Monitor closely.
 - **Safety fear tourism vector** — post-9/11 air travel dropped 30%+. War uncertainty (Houthis, Hormuz, friendly fire, missile threats) could trigger psychological pullback from flying. Third tourism vector alongside Canadian boycott (political) and gas squeeze (economic). Affects ALL carriers, not just lower-K. Feed to MARCO + CARL. Strengthens AAL thesis.
 
 ---

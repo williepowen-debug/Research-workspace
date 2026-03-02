@@ -1,5 +1,5 @@
 # REGINALD STATUS
-**Last Updated:** 2026-03-02 18:30 UTC | **Status:** 🔴 CRITICAL — WAR ESCALATION + KRE -5% + OIL SHOCK + $1.5T CRE DEBT WALL NOW LIVE
+**Last Updated:** 2026-03-02 21:20 UTC | **Status:** 🔴 CRITICAL — WAR ESCALATION + KRE -5.14% EOD + WAL -10.82% ($82.5P DEEP ITM) + OIL +11% + $1.5T CRE DEBT WALL NOW LIVE
 
 **Known Data Issues:** DHS shutdown now Day 14+ (was Day 5 in prior version). OZK earnings were Jan 20, NOT Feb 27. BROCK outbound signal delivered (was "PENDING"). Subprime auto DQ now 7.1% (was 6.74%). PSEC PIK was 8.6% verified, NOT 35%.
 
@@ -107,21 +107,25 @@ All inbox signals processed. See ML-REG-081 through ML-REG-095, VX-REG-17.01 thr
 
 ---
 
-## KEY LEVELS & WATCHLIST (Mar 2 Intraday — 1:30PM ET)
+## KEY LEVELS & WATCHLIST (Mar 2 EOD — CONFIRMED CLOSES)
 
-| Ticker | Feb 27 Close | Mar 2 ~1:30PM | Change |
-|--------|-------------|----------------|--------|
-| KRE | $67.67 | ~$64.30 | **-5.0%** |
-| Oil (WTI) | ~$72.87 | ~$80-88 range | **+8-11%** |
-| WAL | $82.16 | TBD — watching $82.5P strike | APPROACHING |
-| OZK | ~$49.9 | TBD — war accelerates CRE mark pressure | WATCH |
+| Ticker | Feb 27 Close | Mar 2 EOD | Change | Notes |
+|--------|-------------|-----------|--------|-------|
+| KRE | $67.67 | **~$66.77** | **-5.14%** | Most severe 1-day drop since Oct |
+| WAL | $82.16 | **~$73.28** | **-10.82%** | $82.5P DEEP ITM; litigation disclosure confirmed |
+| ZION | ~$60.8 | **$57.28** | ~-5.8% | $57.5P at the money; MS upgrades to OW ($75PT) |
+| Oil (WTI) | ~$72.87 | **~$80.93** | **+11%** | Hormuz de facto closed |
+| OZK | ~$49.9 | TBD | ~-5%+ est | War accelerates CRE mark pressure |
+| FLG | prev close | hard down | ~-8%+ est | NYC MF + rent-reg concentration |
 
-**War Macro Transmission (NEW Mar 2):**
-- **Operation Epic Fury** (US-Israel) — Iran Supreme Leader reported dead; Hormuz de facto closed
-- **Oil +8-11%** from $72.87 → ~$80-88 range; BI projected $100 test
-- **Transmission chain ACTIVATED:** Oil spike → persistent inflation → Fed can't cut → NIM compression + higher FHLB funding costs = DOUBLE SQUEEZE for regionals
-- **CRE debt wall $1.5T** described by MarketMinute as "tipping point reached today, not theoretical" — refinancing math "impossible for many landlords" at current rates
-- Fed hold/hike scenario now back on table — DIRECT headwind to April-June bank earnings thesis
+**Mar 2 EOD Key Developments:**
+- **WAL litigation disclosure CONFIRMED** — article confirms "litigation related to credit facility backed by distressed CRE loans." Counterparty-surfacing risk (Jefferies audit) is LIVE.
+- **KRE -5.14% to $66.77** — most severe 1-day drop since Oct; sector-wide institutional unwind of CRE-concentrated positions
+- **Credit quality framing** — MSM now characterizes 2026 vs 2023: "not duration risk but credit quality." The narrative has flipped.
+- **BTFP expired = no backstop** — No Fed emergency facility for $1.5T CRE wall. Investors explicitly aware. This is structural, not panic.
+- **Morgan Stanley upgrades ZION EW→OW** ($75PT, $57.28 current) — fade signal; our $57.5P is at the money. Analyst upgrade on a -5% day = demand destruction being papered over.
+- **WAR Macro Transmission ACTIVATED:** Oil +11% → persistent inflation → Fed hold/hike → NIM compression + FHLB funding costs = DOUBLE SQUEEZE for regionals
+- **Timing compression confirmed:** WAL major stress event probability raised to **75%** (from 68%). Litigation now PUBLIC and surfaced; timing window NOW through April earnings, not May Investor Day.
 
 ## KEY LEVELS & WATCHLIST (Feb 27 EOD)
 
@@ -195,7 +199,7 @@ MFS is NOT merely a sentiment catalyst — it is a completed collapse case study
 
 | Date | Event |
 |------|-------|
-| **Mar 2** | **KRE roll day — -5% on open, Hormuz disruption + CRE debt wall collision** |
+| **Mar 2** | **KRE -5.14% EOD ($66.77). WAL -10.82% ($73.28) — $82.5P deep ITM. Litigation disclosure public. Credit quality crisis framing adopted by MSM.** |
 | Early Mar | Cantor appraisals |
 | Mar 1-2 | OPEC+ meeting — superseded by war/Hormuz dynamic |
 | Apr 16 | OZK Q1 earnings |
@@ -206,7 +210,7 @@ MFS is NOT merely a sentiment catalyst — it is a completed collapse case study
 
 ## BOTTOM LINE
 
-Convergence thesis STRENGTHENED. KRE -4.3% today, breaking $68 support. Eight channels pointing at regionals, three with confirmed hidden CRE. WAL is PRIMARY target — management confirmed relabeling. NEW: SSFA capital arbitrage = $1T in under-capitalized NDFI lending. Private credit cracking faster than expected. Employment trigger hasn't fired but multiple independent paths exist.
+Convergence thesis CONFIRMED LIVE. KRE -5.14% EOD ($66.77). WAL -10.82% ($73.28) — $82.5P and $85P BOTH deep ITM. Litigation re: distressed CRE credit facility NOW PUBLIC per market reporting. BTFP expired — no Fed backstop for $1.5T maturity wall. Credit quality crisis (not panic) is the consensus framing as of tonight. WAL major stress event probability: **75%** (up from 68%). Timing: NOW through April earnings. OZK, ZION, FLG all confirming. Eight channels live simultaneously. **Updated:** 2026-03-02 21:20 UTC.
 
 *Full pre-prune STATUS → archive/STATUS_pre_prune_2026-02-27.md*
 *WAL SSFA detail → inbox signals (Feb 25)*
