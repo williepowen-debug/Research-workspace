@@ -59,8 +59,19 @@ US running integrated supply consolidation: Venezuela (blockade/regime change) +
 ### NEXUS Agent Created — Mar 2
 Synthesis engine. Cross-agent convergence detection. 5 frameworks. Catches patterns individual agents miss (SAM×ZHAO synch stress, etc). First run seeded with 4 convergences, 2 contradictions, threshold proximity matrix.
 
-### APO + AAL Entered — Mar 2
-APO $100P Jun ($770) = private credit unwind, 5 vectors. AAL $10P Jul x4 ($224) = oil + lower-K demand + Canadian collapse + MIA hub + neg book value. Both avoid crowded strikes/expiries.
+### APO + AAL + OZK + WAL + STNG Entered — Mar 2
+6 new positions. APO $100P Jun ($770), AAL $10P Jul x4 ($227), OZK $45P Aug x2 ($663), WAL $77.5P Jun ($551), STNG 2 shares ($156), USO $90C Mar 13 ($287). Sold PLTR/INVH/SSB/1xKRE to fund.
+
+### Eisman/Gober Confirms BROCK Thesis — Mar 2
+Podcast Ep 48: PE/insurance = "slow boiling frog." Athene **$37.9B deposit-type contracts** (duration mismatch = run risk). Affiliated paper $10B→$40B. Captive financials: $7B liabilities vs $200M real assets. Sellside analysts covering APO are NOT insurance analysts — nobody reads statutory filings. Eisman sees the structure but not the trigger. We see both (war + credit cycle = catalyst).
+*Detail → `BROCK/domain/sources/EISMAN_GOBER_TRANSCRIPT_ANALYSIS_MAR2.md`*
+
+### LNG Crisis + Three-Anchor UST Stress — Mar 2
+QatarEnergy halted ALL production. TTF +45%. **Insurance cliff Mar 5** — Hormuz UNINSURABLE after Thursday. ZHAO upgrades to three-anchor stress (Japan + China + Korea): combined UST selling $50-70B/month. USD/CNY 7.30 now 2-4 weeks. HANS: Ukraine ceasefire Mar/Apr base case (85%), Russia max leverage.
+*Detail → `HAWK/domain/sources/LNG_DISRUPTION_MAR2.md`, `HANS/sources/RP-HANS-10`*
+
+### Mar 5 > NFP Friday — Mar 2
+Insurance withdrawal date is the most important catalyst this week. If Hormuz becomes uninsurable, disruption is structural regardless of military situation. Takes weeks to reinstate coverage even if fighting stops.
 
 ---
 
