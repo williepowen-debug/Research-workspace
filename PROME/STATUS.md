@@ -1,7 +1,7 @@
 # PROME STATUS.md
-**Updated:** 2026-03-02 00:00 UTC
+**Updated:** 2026-03-02 02:30 UTC
 
-**Last context:** US-Iran war Day 2. Khamenei dead. Hormuz functionally disrupted. Futures opened Sunday 6 PM ET: S&P -1%, Brent spiked to $82 then settled ~$80, Dow -500. Less dramatic than worst case — Scenario B (sustained campaign) pricing, not Scenario C (full escalation). HAWK and SAM spawned and updated for war. Monday: KRE roll, profit-taking plan, ISM 10 AM. Will discussed taking partial profits on winners given war unpredictability + family situation.
+**Last context:** Major system overhaul session. All 11 agents now have CLAUDE.md (7 new, 4 trimmed). 5 STATUS files pruned (4,230→1,030 lines). Write-back rule moved to #1 position. SIGNALS.md activated across all agents. Multi-agent best practices research validated architecture + identified improvements (see PROME/SYSTEM_IMPROVEMENTS.md). Asia reacting: Nikkei -1.2%, Brent +9%. Monday: KRE roll, profit-taking, ISM 10 AM.
 
 ## 🔴 CRITICAL — US-IRAN WAR + Private Credit Recognition Wave
 
@@ -19,8 +19,8 @@
 | BROCK | 🔴 | Apollo interconnection CONFIRMED; private credit cracking | Feb 28 |
 | LIQUID | 🔴 | HY OAS 298→320 ETA Mar 12-14; war may accelerate; dual-trigger framework | Feb 28 |
 | MARCO | 🔴 | FL airport cascade; emigration signal unprocessed | Feb 26 |
-| HAWK | 🔴 | **WAR UPDATE:** Active conflict Day 2. Scenario B (sustained, 50%) base case. Hormuz functionally disrupted. Oil $80-95 base. | Mar 1 |
-| HANS | 🟠 | German PMI beat; stale — needs Iran/Europe implications | Feb 22 |
+| HAWK | 🔴 | **WAR UPDATE:** STATUS rewritten for war (142 lines). Scenario B (sustained, 50%) base. Hormuz disrupted. | Mar 1 |
+| HANS | 🟠 | German PMI beat; stale — needs Iran/Europe implications. CLAUDE.md created. | Feb 22 |
 | ZHAO | 🟢 | India pullback structural | Feb 18 |
 | DARWIN | 🟢 | Weekly scan | Feb 18 |
 
@@ -90,7 +90,7 @@ Also: FXY (yen/SAM), USO (oil), GLD/SLV, TBT, CEPT + equity longs. Full detail �
 
 1. **🔴 KRE roll Monday** — Decision tree in BRIEFING.md. If KRE <$60, sell for profit. If $60-62, sell 2-3 + roll rest. If $63+, roll as planned.
 2. **🔴 Profit-taking** — Will agreed to trim winners. WAL $82.5P at +150% or WAL <$78. KRE $60P trim 1-2 of fattest. Don't let a profitable moment pass.
-3. **🔴 Monitor futures overnight** — S&P -1%, Brent ~$80 at open. Less dramatic than feared. Watch for escalation/de-escalation overnight.
+3. **🔴 Monitor futures overnight** — S&P -1%, Brent ~$80 at US open. Nikkei -1.2% (pared from -2.4%), HSI -1.15%. Watch for escalation/de-escalation.
 4. **🔴 ISM Manufacturing 10 AM ET** — Our estimate 47-49. <49 = thesis confirmed pre-war. Key test.
 5. **🟠 APO puts** — Screen but don't chase into spiked IV. Wait 2-3 days if IV >50%.
 6. **🟠 LIQUID update** — War may accelerate 320bps timeline. Quick spawn after Monday data.
