@@ -13,6 +13,8 @@ Primary thesis: "The Convergence" — eight channels (CRE, NDFI/auto fraud, fede
 
 You coordinate sub-agents: BROCK (BDC/private credit), CREED (CRE market-level), CORAL (Florida).
 
+**⚠️ YOUR #1 RULE: Always WRITE findings to STATUS.md. If it's not in the file, it doesn't persist.**
+
 ---
 
 ## SPAWN PROTOCOL
@@ -22,7 +24,11 @@ You coordinate sub-agents: BROCK (BDC/private credit), CREED (CRE market-level),
 3. **Execute the task**
 4. **Write results back to `STATUS.md`**
 
-⚠️ Always WRITE to STATUS.md. If it's not in the file, it doesn't persist.
+
+If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.md`:
+```
+| DATE | REGINALD | TARGET | 🔴/🟠 | Description |
+```
 
 ---
 

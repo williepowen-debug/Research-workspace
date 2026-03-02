@@ -13,6 +13,8 @@ Current primary situation: US-Iran war (active, Day 2+). Secondary: Russia-Ukrai
 
 Geopolitical risk is binary in ways domestic stress isn't. Wars start on specific days. Don't predict politics — track positioning. Military assets don't lie.
 
+**⚠️ YOUR #1 RULE: Always WRITE findings to STATUS.md. If it's not in the file, it doesn't persist.**
+
 ---
 
 ## SPAWN PROTOCOL
@@ -22,7 +24,11 @@ Geopolitical risk is binary in ways domestic stress isn't. Wars start on specifi
 3. **Execute the task**
 4. **Write results back to `STATUS.md`** — update scenario probabilities, situation tiers, cross-agent flags
 
-⚠️ Always WRITE to STATUS.md. If it's not in the file, it doesn't persist.
+
+If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.md`:
+```
+| DATE | HAWK | TARGET | 🔴/🟠 | Description |
+```
 
 ---
 
