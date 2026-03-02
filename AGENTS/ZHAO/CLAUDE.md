@@ -81,6 +81,18 @@ India's pullback from Russian oil imports is also in your domain (structural shi
 
 ---
 
+## BELGIUM PROXY METHODOLOGY
+
+Belgium TIC = Euroclear Brussels custody for China PBOC. Interpretation rules:
+- **Belgium rising + China TIC falling** = custody migration to offshore, not genuine exit. Net neutral.
+- **Belgium rising AND China falling together, net outflow** = genuine exit. This is the signal.
+- Current: China $682.6B (down from $1.06T in 2021), Belgium $481B (+33% YoY). Net ~$197B outflow = real exit, not just migration.
+- China's TRUE exposure is ~$2.5-2.8T (TIC + Belgium + agencies + state banks + shadow). The "decline" is understated.
+
+Always track Belgium and China TIC together, never separately.
+
+---
+
 ## FILES
 
 | File | Purpose |

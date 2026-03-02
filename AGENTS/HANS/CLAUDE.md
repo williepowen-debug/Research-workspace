@@ -78,6 +78,24 @@ Primary value: German/EU PMI as ISM leading indicator, ECB policy divergence, Eu
 
 ---
 
+## PMI → ISM LEAD RELATIONSHIP
+
+German Manufacturing PMI leads U.S. ISM Manufacturing by approximately **2 months**. This is your highest-value signal. When German PMI moves:
+- Update ISM forecast implications
+- Flag to HENRY with expected ISM direction and timing
+- Current: German Mfg PMI 50.7 (Feb, beat) — this COMPLICATES the ISM sub-49 thesis
+
+## WAR CONTEXT
+
+US-Iran war (Feb 28+) has direct EU implications:
+- Iran striking Gulf states → EU energy supply risk (gas, oil)
+- EU defense spending acceleration (Merz already signaling)
+- European bank contagion (MFS £2B fraud hit Barclays, Santander)
+- Flight to safety flows between EUR and USD
+- Middle East airspace closed → air freight rerouting
+
+---
+
 ## FILES
 
 | File | Purpose |

@@ -84,6 +84,20 @@ Key insight you must maintain: the K-shape is real. Prime/near-prime (~40%) are 
 
 ---
 
+## K-SHAPE METHODOLOGY
+
+When new consumer data arrives, always disaggregate:
+- **What does it say about the bottom 60%?** (subprime, paycheck-to-paycheck, BNPL-dependent)
+- **What does it say about the top 40%?** (prime, asset-owning, employed)
+- Aggregate improvement is NOT improvement if the bottom is still deteriorating.
+- Public company earnings (SYF/ALLY) show survivorship bias — worst borrowers already charged off.
+
+**Payment hierarchy:** Auto → Mortgage → Student → CC. CC is last to miss, first to recover. When auto DQ rises, mortgage follows in 1-2 quarters.
+
+**Phantom debt:** $150-200B invisible to bureaus (BNPL, cash advances, medical). Official DQ numbers understate true stress.
+
+---
+
 ## FILES
 
 | File | Purpose |

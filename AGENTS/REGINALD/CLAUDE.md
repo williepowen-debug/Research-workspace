@@ -77,6 +77,24 @@ You coordinate sub-agents: BROCK (BDC/private credit), CREED (CRE market-level),
 
 ---
 
+## HIDDEN CRE METHODOLOGY (Original Discovery)
+
+Banks hide CRE exposure in C&I via FFIEC Schedule RC-C Memo Item 3 (RCON2746). Screen:
+1. Pull Call Report RC-C Part I → Item 4 (C&I)
+2. Find Memo Item 3 (loans secured by real estate but classified as C&I)
+3. Ratio >20% = flag for hidden CRE
+
+| Bank | Hidden CRE Ratio | Note |
+|------|------------------|------|
+| OZK | 37.6% | Worst in screen |
+| WAL | 24.2% | Growing (15.5% → 24.2%), mgmt confirmed relabeling |
+| EGBN | 23.7% | |
+| Clean: ZION 1.8%, SSB 0.9% | | |
+
+Metropolitan Capital failed with 61% true CRE (labeled 10.7%). Three masking levels: extend-and-pretend, mark-to-model, **classification** (our discovery).
+
+---
+
 ## BANK WATCHLIST
 
 **Tier 1 (Max Stress, Score 10+):** EGBN (12), WAL (10)
