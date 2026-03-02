@@ -1,987 +1,248 @@
 # SAM STATUS
 
-**Signal Status:** 🟡 YELLOW | **Last Updated:** 2026-02-27 21:45 UTC
+**Signal Status:** 🔴 RED | **Last Updated:** 2026-03-01 23:00 UTC
 
-**Summary:** FEB 27 EOD — USDJPY 156.09, yen slightly weaker (+0.15%). JGB 10Y at 2.11% (-4bp). Nikkei +0.16% (near 59,000 all-time high). US risk-off (Nvidia slump, S&P -0.54%) NOT spilling into carry unwind — dovish BOJ board nominees (Asada/Sato) and hot US PPI keeping carry trade ALIVE. Ueda counter-signaling: flagged March AND April meetings as "live" for hikes. Two-sided tension building but no unwind today.
-
----
-
-## 📥 NEW SIGNAL: BOJ Hikes = Risk Asset Crusher (Feb 23)
-
-**Source:** BTC/USD weekly chart overlaid with BOJ rate hikes
-
-**Pattern Confirmation — Every BOJ Hike Triggers Risk-Off:**
-
-| Date | BOJ Action | BTC Drawdown | Notes |
-|------|------------|--------------|-------|
-| Mar 19, 2024 | First hike (exit NIRP) | **-23.06%** | End of negative rates |
-| Jul 31, 2024 | Second hike to 0.25% | **-26.61%** | Triggered Aug 5 VIX 65 |
-| Jan 24, 2025 | Third hike to 0.50% | **-31.89%** | |
-| Dec 19, 2025 | Fourth hike to 0.75% | **-39.11%** | Most recent |
-
-**Key Insight:** BOJ hikes are becoming MORE damaging to risk assets (-23% → -39%). Each successive hike hits harder as:
-1. Carry trade unwind compounds
-2. Yen strength accelerates
-3. Global liquidity tightens
-
-**Implication for Path D:**
-- Next BOJ hike (Apr 23-24, 1.0% possible) = another -25-40% risk asset drawdown expected
-- Pattern is CONSISTENT and TRADEABLE
-- BTC as proxy suggests broader risk assets (equities, HY credit) follow similar pattern
-- Our Jun puts should benefit from any April BOJ action
-
-**Cross-reference:** Aug 2024 (Jul 31 hike) → VIX 65 within days. Pattern holds.
+**Summary:** US-IRAN WAR STARTED FEB 28 — Operation Epic Fury. Tehran/Isfahan/Tabriz struck. Khamenei dead. Iran retaliating across 7 countries. Hormuz functionally disrupted — tankers suspended. Oil +10% (Brent ~$80, was $72.48). Full risk-off expected Monday: VIX 30+, equities down hard, gold surging, Treasuries bid. USDJPY still ~156 (markets closed). Japan faces acute energy vulnerability (90% oil imported) + BOJ policy dilemma + carry unwind risk. UPGRADING to RED.
 
 ---
 
-## ✅ RESEARCH COMPLETE: Life Insurer Stress Deep Dive (Feb 22-23)
+## 🔴 WAR UPDATE: US-IRAN (Feb 28 - Mar 1, 2026)
 
-**Report:** `domain/sources/RP-SAM-4_JAPAN_LIFE_INSURER_STRESS.md`
+### What Happened
+- US/Israel launched Operation Epic Fury — Tehran, Isfahan, Tabriz hit
+- Khamenei confirmed dead. 3-person leadership council, no clear negotiating partner
+- Iran retaliating: striking Israel, UAE, Qatar, Kuwait, Bahrain, Jordan, Saudi Arabia
+- 3 US service members KIA. Regional war posture
+- Hormuz: IRGC radioed "passage prohibited." Tanker owners, big oil companies, trading houses **suspended all Hormuz shipments**
+- Oil: +10%, Brent ~$79-80 (was $72.48 Friday). Analysts: $80-95+ base; $100+ if Hormuz fully blocked
+- OPEC+ modest output increase announced Sunday — insufficient to offset
 
-### Key Findings
-
-**1. Accounting Relief (JICPA) — Likely to Pass**
-- Eliminates 50% impairment trigger for policy reserve-matching bonds
-- Comment period ends **Mar 17, 2026**
-- HIGH likelihood of approval (FSA coordination, market rallied)
-- Defers crisis but does NOT solve underlying losses
-
-**2. Hedge Ratios — MUCH LOWER THAN EXPECTED**
-| Insurer | Hedge Ratio |
-|---------|-------------|
-| Nippon Life | **~20%** |
-| Dai-ichi Life | ~36% |
-| Sumitomo Life | ~57% |
-| Meiji Yasuda | ~60% |
-
-**Nippon Life at 20% = massive yen exposure**
-
-**3. Dual Regime Creates Confusion**
-- J-ICS/ESR (solvency): Full MTM — regulatory pressure remains
-- JICPA (accounting): Held-to-maturity — earnings look fine
-- Can hide from investors but NOT regulators
-
-**4. December Selling — Signal, Not Crisis**
-- ¥254.3B sold (highest since March)
-- BUT = only 0.25% of ~¥100T holdings
-- Full year 2025 was still +¥13.59T net BUYING
-
-**5. Trigger Thresholds**
-| Trigger | Level | Impact |
-|---------|-------|--------|
-| USD/JPY | <145 | 🔴 Unhedged positions underwater |
-| JICPA rejected | Any | 🔴 Forced selling resumes |
-| JGB 10Y | >2.5% | 🟠 Solvency pressure |
-| Monthly selling | >¥500B | 🟠 Pace accelerating |
-
-### Assessment
-
-**Japan = slow-burn tailwind, not near-term catalyst**
-- Structural shift is real (~$150B/year of $300B demand hole)
-- But pace is gradual (years, not months)
-- Accounting relief will defer crisis
-- **Key swing factor: USD/JPY** — sharp yen strength could accelerate
-
-### Catalyst Calendar
-| Date | Event |
-|------|-------|
-| Mar 17 | JICPA comment period ends |
-| Mid-Mar | Shunto wage settlement |
-| Mar 31 | FY2025 ends, ESR reporting begins |
-| Apr 23-24 | BOJ meeting (1.0% possible) |
+### Monday Market Setup
+| Asset | Direction | Estimate |
+|-------|-----------|---------|
+| VIX | ⬆️ Spike | 30-40+ |
+| S&P 500 | ⬇️ Risk-off | -3% to -6% open |
+| Brent Crude | ⬆️ | $79-95+ |
+| Gold | ⬆️ | Surging |
+| Treasuries | ⬆️ (flight) | Yields falling |
+| USDJPY | ❓ | Competing forces (see below) |
+| Nikkei | ⬇️ | -4% to -8% est |
 
 ---
 
-## 📥 INBOX (Processed)
+## 🇯🇵 JAPAN-SPECIFIC ANALYSIS
 
-### ✅ Japan Life Insurers $86B Losses — PROCESSED → RP-SAM-4
+### 1. Energy Vulnerability
+**Japan imports ~90% of oil, heavily Middle East. Hormuz is existential.**
 
-### ✅ Trump 15% Tariff (Japan hit hardest) — LOGGED
-- Japan faces ~2pp tariff increase
-- Adds to multi-directional squeeze
-- May accelerate "sell foreign assets" behavior
+Japan's strategic petroleum reserve: ~150-180 days supply (IEA mandate = 90 days; Japan holds well above)
+- **IEA collective action trigger:** Sustained disruption >30 days → coordinated SPR release
+- **Japan bilateral trigger:** If tanker suspension extends >2 weeks, METI will formally activate domestic reserves
+- **Timeline:** Day 0-14: price pain, no action. Day 14-30: METI emergency measures, IEA monitoring. Day 30+: Coordinated IEA SPR release likely
+- **Key risk:** Full Hormuz crisis "could outstrip offsets provided by SPR" (analyst note Saturday)
 
----
+**LNG exposure:** Japan also imports Middle East LNG through Hormuz. Dual energy shock potential.
 
-**🟢 FEB 20 UPDATE: Path D NOT Triggered — Crisis Deferred to April**
-- **Feb 19 20Y JGB auction PASSED:** BTC 3.08 (above 2.8x threshold) — structural buyer demand HELD
-- **JGB yields FALLING post-auction:** 10Y down 4bp to 2.10%, 5Y down 2.5bp to 1.605%
-- **PATH D COUNTER-SIGNAL:** Yields DOWN = Prices UP = Demand HOLDING
-  - Path D requires JGB WEAKNESS (yields rising, buyers fleeing, bond vigilante attack)
-  - Current reality: JGB STRENGTH (yields falling, buyers returning at current levels, auction passing)
-  - This is the OPPOSITE of the stress scenario — Feb 19 dual catalyst did NOT ignite doom loop
-- **Takaichi "responsible fiscal" pledge working (short-term)** — bond market accepting the compromise
-- **Fed/NY Fed coordination active** — Jan 23 yen coordination calls signal backstop framework (rate checks, potential intervention if USD/JPY breaks 145/160)
-- **Path D timeline RESET:** Crisis deferred to **April BOJ meeting** (Apr 23-24)
-  - Mar 13-14 BOJ: likely HOLD at 0.75% with hawkish guidance
-  - Late March Shunto settlement: If ≥3.5% base-up = "Strong" signal
-  - April BOJ: If Shunto strong + inflation >2% = 1.00% hike = **TAKAICHI COLLISION** (0.75% ceiling breached)
-- **Small caps struggling** — Takaichi trade + AI rotation = domestic equity weakness (consumption concern proxy, not JGB-critical)
+### 2. JPY Direction — The KEY Tension (UPDATED)
 
-## Outbound Signals (for Prome)
+Previous research showed: oil spike → JPY weakness (trade deficit dominates)
+New data: Reuters article (Feb 28): "If conflict was long-lasting, USD would lift against most currencies **EXCEPT Japanese yen and Swiss franc**"
 
-| To | Priority | Signal |
-|----|----------|--------|
-| HENRY | 🔴 | Feb 19 dual catalyst (Shunto + 20Y JGB) — if both fire, Path D trigger |
-| LIQUID | 🔴 | JGB stress could accelerate life insurer UST repatriation |
-| LIQUID | 🟠 | Feb 19 20Y auction — BTC <2.0x = crisis signal |
-| PROME | 🟠 | Floating mortgage constraint caps BOJ at 0.75% — market expects higher |
+**Resolution — Two phases:**
+| Phase | Duration | JPY Direction | Driver |
+|-------|----------|---------------|--------|
+| **Acute** (Days 1-7) | Short-term spike | **WEAKENS** | Trade deficit, oil import cost |
+| **Sustained** (Weeks 2+) | Prolonged conflict | **STRENGTHENS** | Safe haven wins + rate expectations shift |
 
----
+**Why safe haven eventually wins in prolonged conflict:**
+- US recession risk = Fed cuts = rate differential narrows → carry unwind
+- Geopolitical fear = classic yen safe haven bid
+- BOJ inflation cover = Japan can hike while others cut
 
-## 🆕 USDJPY/SPY CORRELATION — Divergence Starting (Feb 17, 2026)
+**Current USDJPY: ~156** (unchanged, markets closed weekend)
 
-### The Carry Trade Correlation
+### 3. USDJPY Key Levels
 
-| Timeframe | USDJPY | SPY | Correlation |
-|-----------|--------|-----|-------------|
-| 6-Month | +4.16% | +6.12% | Tracked together until Jan |
-| 1-Year | +0.63% | +12.00% | **Massive divergence** |
+| Level | Significance | Action |
+|-------|-------------|--------|
+| **160** | MOF intervention (upper bound) | Sell JPY stopped by intervention |
+| **156** | Current. If oil → JPY weakness, test 157-159 Monday |
+| **152** | Previous support (Takaichi election level) |
+| **150** | ⚠️ Voluntary carry derisking starts | Leveraged JPY shorts begin closing |
+| **147** | 🔴 Forced unwind zone | Margin calls trigger, Aug 2024 template |
+| **142** | Aug 2024 crisis bottom | Full cascade |
 
-### Key Pattern
+**Scenario A (oil spike = JPY weakness, acute phase):** USDJPY moves 156 → 158-160 Monday. Carry trade SURVIVES short-term. MOF intervention risk if 160 breached.
 
-**Yen has already strengthened 7% since October — SPY hasn't noticed.**
+**Scenario B (safe haven takes over, week 2+):** USDJPY reverses toward 152 → 150. Carry derisking begins. If sustained below 150, forced unwind triggers.
 
-- Oct 2025: USDJPY peaked at +8%
-- Feb 2026: USDJPY at +0.6%
-- **That's 7% yen strength** that equities are ignoring
+**Carry unwind probability:** Was 35-40% (April timeline). NOW: **55-65%** with war risk — but timing uncertain. The war scenario creates a NON-LINEAR path:
+- Short-term: oil → JPY weakens → carry survives
+- Medium-term (2-4 weeks): If US risk-off deepens (recession fears, credit widening) → yen strengthens → carry unwinds
 
-### Historical Template (Apr-May 2025)
+### 4. BOJ March 13-14 Meeting (12 DAYS AWAY)
 
-- USDJPY crashed to -15% (major yen strength)
-- SPY barely dipped (~-5%)
-- This was likely a carry unwind event
-- Equities recovered, but the correlation exists in stress
+**The key tension:** Does global chaos cause BOJ to pause, or does oil inflation give MORE reason to hike?
 
-### Feb 19 Catalyst Risk
+**My call: HOLD with ambiguous guidance (no clear forward signal)**
 
-If Shunto wages ≥3.5% + JGB auction weak:
-- BOJ hike expectations spike
-- Yen could move like Apr-May 2025
-- Current slow grind could **accelerate through 150**
+Arguments for PAUSE:
+- Global financial stability mandate: war = heightened uncertainty
+- US recession risk rising = global growth headwinds
+- Yen direction unclear (can't hike into potential yen weakness)
+- Dovish Asada/Sato nominees not yet confirmed — Ueda needs board cover
+- Risk: Hiking into war triggers carry cascade
 
-**Aug 2024 Precedent:**
-- Yen moved +3% in days
-- VIX spiked to 65
-- Equities gapped down hard
+Arguments for HIKE (oil inflation):
+- Oil at $80-95 = direct inflation import (Japan pays in USD)
+- If JPY weakens (phase 1 oil effect), import inflation compounds
+- Wage data (Shunto ¥18,000 demand) still strong
+- Ueda previously said March AND April meetings live
 
-### Implication
+**Resolution:** BOJ will NOT hike March 13-14. The uncertainty created by war + unclear yen direction + global financial stability risks gives Ueda cover to pause WITHOUT it being seen as political capitulation to Takaichi. BOJ statement will likely note "monitoring developments closely" — neither hawk nor dove.
 
-The yen is **coiling**. 7% move already happened quietly. If Feb 19 catalysts hit, the next leg could be violent. SPY is lagging the yen move — that gap closes in stress.
+**Probability distribution (March 13-14):**
+- Hold 0.75%: **85%** (up from 75% pre-war)
+- Hike to 1.00%: **5%** (down from 20%)
+- Emergency cut: **10%** (new scenario — if Monday open catastrophic)
 
----
+### 5. Life Insurer Exposure (War Scenario)
 
-## THESIS
+**Nippon Life at 20% hedge ratio — dual impact:**
+| Effect | Direction | Net |
+|--------|-----------|-----|
+| Oil spike → yen weakens (phase 1) | 📈 USD positions HELP | Positive |
+| US risk-off → USD assets fall | 📉 Portfolio losses | Negative |
+| Japan broadly hurt by oil | ❌ GDP pressure | Negative |
+| If yen eventually strengthens | 📉 Unhedged USD positions HURT | Negative |
 
-**"Bonds before currency" — JGB stress is the primary vector, yen is the escape valve.**
+**Net for life insurers:** Short-term relief (weak yen good for unhedged USD holdings), but medium-term dangerous. Nippon Life's 80% unhedged USD exposure works against them if yen strengthens in phase 2.
 
-Japan is in a **fiscal doom loop** (acknowledged as "credible tail risk" by Allianz):
-- **Debt/GDP 260%+** — highest in developed world
-- **Bond vigilantes returned** — Jan 20 saw worst 20Y auction since 1987
-- **Life insurers retreating** — structural buyer for JGBs is gone
-- **Takaichi supermajority** — ¥122T budget, fiscal restraint eliminated
-
-**NEW: Floating Mortgage Bomb (Feb 12)**
-- **75% of Japanese mortgages are floating rate** (vs 3% US)
-- BOJ hikes → prime rate rises → 75% reprice IMMEDIATELY → consumption collapses
-- Creates **hard political constraint** on normalization: terminal rate capped at **0.75%**
-- Explains Takaichi's explicit ceiling (Aida: "0.75%, then pause until 2027")
+**Sumitomo rule:** "Sell USD when yen >150" — this rule still applies. If war eventually causes yen strength through 150, Sumitomo becomes a forced seller. This accelerates repatriation.
 
 ---
 
-## 🆕 US CREDIT STRESS — EXTERNAL CARRY TRIGGER (Feb 27, 2026)
+## 🎭 WAR SCENARIO FRAMEWORK
 
-**Source:** LIQUID + BROCK findings, routed via Prome
+### Scenario 1: SURGICAL (1-4 weeks, then de-escalation)
+**Probability: 35%**
+- Strikes achieved military objectives. Leadership vacuum means no organized retaliation
+- Hormuz disrupted 1-2 weeks, then US Navy restores commercial traffic
+- Oil spikes to $85-90, then fades to $75-80
+- USDJPY: Weakens to 158-160 (phase 1), then stabilizes/recovers to 154-156
+- BOJ March: Hold. April: Back to live (Shunto + wages still relevant)
+- Carry unwind: 25-30% probability (no sustained risk-off)
+- **Japan impact:** Oil bill rises temporarily. Manageable. No structural change.
 
-**The insight:** Carry unwinds don't require BOJ action. They require RISK APPETITE collapse. US credit stress can be the second catalyst — or the primary one.
+### Scenario 2: SUSTAINED CONFLICT (2-3 months, no clean resolution)
+**Probability: 45%**
+- Leadership vacuum = no ceasefire partner. IRGC continues Hormuz harassment
+- Tanker insurance costs spike, effective disruption even if not full blockade
+- Oil stays $90-100+
+- US recession risk rises (oil shock + defense spending drag)
+- USDJPY: Phase 1 weakness (157-160), then phase 2 strength (148-152) as US growth sours
+- BOJ March: Hold. April: Likely hold (war uncertainty overrides inflation signal)
+- Carry unwind: **65-75% probability** over 60-90 days
+- **Japan impact:** Strategic reserves triggered (day 30-45). Energy subsidy expansion (Takaichi loves this). Yen eventually strengthens as US slows. Export demand weakens.
+- **Template:** 2022 Russia-Ukraine. JPY weakened sharply in weeks 1-4 (oil/gas), then stayed weak as commodity prices persisted. But Japan isn't a net energy exporter — different dynamic.
 
-| Signal | Value | Status | Threshold |
+### Scenario 3: FULL ESCALATION (Iran proxy war, Hormuz blocked)
+**Probability: 20%**
+- Iran proxies hit UAE/Saudi oil infrastructure. Hormuz military blockade
+- Oil: $100-130+. Global recession scenario
+- US military broadening engagement. Allies involved
+- USDJPY: Initial chaos 155-165, then MASSIVE yen strength as US enters recession and Fed cuts aggressively
+- Carry unwind: **90%+ probability**. Aug 2024 repeat but bigger — USDJPY 140 or below
+- BOJ: Emergency hold/cut. All normalization suspended
+- **Japan impact:** Energy crisis (SPR draw + IEA coordination). Takaichi emergency fiscal (¥10T+ package). JGB supply explodes. But JGB demand also collapses as insurers repatriate.
+- **This is the doom loop accelerant:** War → fiscal expansion → JGB supply → yield spike → insurer stress → repatriation → yen strengthens → carry unwind → global deleveraging
+
+---
+
+## SIGNAL DASHBOARD (War-Adjusted)
+
+| Vector | Value | Status | War Impact |
 |--------|-------|--------|-----------|
-| HY OAS | **2.98%** | 🟡 YELLOW | >320bps = 🔴 systemic |
-| Direction | **Widening** (12bps/week) | 🟠 | Reversal confirmed |
-| MFS (UK lender) | **Collapsed** (£2B fraud) | 🔴 | — |
-| Apollo stress | **Triple** (MFIC div cut + MFS + Medallia 78¢) | 🔴 | — |
-
-**Framework update:** HY OAS >320bps added as carry unwind trigger. Does NOT require BOJ action. If credit contagion hits during any Japan catalyst (weak auction, dovish surprise, Takaichi escalation), timing pulls forward from April.
-
-**Carry unwind probability:** Upgraded from ~25-30% to **35-40%** (>5% USDJPY move by April). Timing risk: could be BEFORE April BOJ if credit stress accelerates.
-
-**Key asymmetry:** USDJPY held 156 on -1% SPX (equity noise). -3% SPX driven by credit contagion is different — carry is funded leverage, and when credit desks pull lines, leveraged positions unwind across the capital structure simultaneously. Aug 2024 template: BOJ gave initial 3%, US payrolls gave the acceleration. US credit is that acceleration energy.
+| **USDJPY** | **~156** | 🟡 | Phase 1: 157-160. Phase 2: <150 |
+| **Brent Oil** | **~$79-80** | 🔴 NEW | Up from $72.48. $90+ if Hormuz sustained |
+| **HY OAS** | **~2.98%** pre-war | 🔴 RISING | Monday gap-wider likely. Watch 320bps |
+| **BOJ Rate** | **0.75%** | 🟡 | March hold 85%. War = pause cover |
+| **JGB 10Y** | **~2.11%** | 🟢→🟡 | Flight to safety bid, but war = BOJ pause |
+| **VIX** | **~17 pre-war** | 🔴 MONDAY | Expected 30-40+ at open |
+| **Carry Unwind Prob** | **55-65%** | 🔴 UP | From 35-40%. 90-day window |
+| **Carry Unwind Forced** | **147 trigger** | — | Voluntary: 150, Forced: 147 |
 
 ---
 
-## SIGNAL DASHBOARD
+## BOJ BOARD NOMINATIONS STATUS
 
-| Vector | Value | Status | Change | Threshold |
-|--------|-------|--------|--------|-----------|
-| **HY OAS** | **2.98%** | 🟡 | ⬆️ +12bps/wk | >320bps = 🔴 carry trigger |
-| **BOJ Rate** | **0.75%** | 🟡 | ⬆️ AT CEILING | Next hike = collision |
-| **JGB 10Y** | **2.11%** | 🟢 | **⬇️ -4bp (Feb 27)** | Watch >2.50% |
-| JGB 5Y | 1.605% | 🟢 | ⬇️ -2.5bp (Feb 20) | Watch >2.00% |
-| JGB 20Y | ~2.965% | 🟢 | **FEB 19: BTC 3.08 PASSED** | Path D NOT triggered |
-| JGB 30Y | ~3.05-3.10% | 🟢 | ⬇️ from 3.57% | Watch >4.00% |
-| JGB 40Y | ~3.65% | 🟢 | ⬇️ from 3.85% | ATH 4.24% (Jan) |
-| USD/JPY | ~156.09 | 🟡 | ⬆️ yen weaker vs Feb | 160 🔴 |
-| Real Wage Growth | **0.0%** | 🟠 | flat | BOJ trapped |
-| 30Y Auction BTC | 3.64 | 🟢 | — | Feb 5 passed |
-| 5Y Auction BTC | 3.10 | 🟢 | Feb 17 passed | Below 3.48 avg |
+- Dovish Asada + Sato picks — upper house vote PENDING
+- If confirmed: BOJ hike path constrained at 0.75% through 2027
+- War gives Takaichi additional cover to push: "Global instability demands accommodative policy"
+- This could fast-track confirmation of dovish picks — watch Diet action this week
 
 ---
 
-## POLITICAL REALITY (Feb 8 Election)
-
-**LDP 316 seats** (+118), Coalition 352 (2/3 supermajority)
-
-- Takaichi has **unconstrained legislative power** through 2028
-- ¥122T budget + energy subsidies + food tax suspension CONFIRMED
-- Ishiba faction PURGED — no internal opposition
-- Ishin = ACCELERATOR (vs Komeito was brake)
-- Only constraints: BOJ (Ueda) and markets
-
----
-
-## POLITICAL POWER STRUCTURE
-
-### TAKAICHI'S INNER CIRCLE — The 5 Special Advisors
-
-| Advisor | Role | Signal |
-|---------|------|--------|
-| **Takuji Aida** | Chief Economist (Credit Agricole) | 🔴 **KEY VOICE** — public statements = admin signals |
-| Sadamasa Oue | Defense hawk (ex-ASDF Lt General) | Driving "Active Defense" buildup |
-| Takashi Endo | Ishin liaison | Coalition manager |
-| Midori Matsushima | Immigration policy | Takaichi loyalist |
-| Takahiro Inoue | Media strategy | Attack dog, rural messaging |
-
-### THE 0.75% CEILING — Containment Strategy
-
-**Aida's explicit position:**
-> "Tolerate BOJ hike to 0.75%, then demand pause until 2027."
-
-- **BOJ NOW AT 0.75%** — CEILING REACHED (Dec 2025 hike)
-- Takaichi ceiling = **0.75% MAX**
-- Next hike to **1.00%** = political collision
-- Above 0.75% = political pressure escalates (Katayama sent to BOJ)
-
-**Implication:** BOJ normalization path CAPPED. Ueda wants 1.0%+. Collision is NOW — next hike triggers it.
-
-### LDP INTERNAL DYNAMICS
-
-**Ishiba faction PURGED:**
-- "Kishida-Ishiba line extinguished" — loyalists relegated to bottom of PR lists
-- No internal LDP opposition remains
-- Takaichi's control is TOTAL
-
----
-
-## TAKAICHI vs UEDA: The Collision
-
-| Dimension | Status |
-|-----------|--------|
-| Relationship | ANTAGONISTIC (not coordinated like Abe-Kuroda) |
-| Ueda term | Through 2028 — cannot be fired |
-| Takaichi ceiling | **0.75%** (explicit) |
-| BOJ current rate | **0.75%** ← **CEILING REACHED** |
-| Ueda target | **1.0%+** |
-| Next hike | 1.00% = DIRECT breach of Takaichi ceiling |
-| Market pricing | ~80% hike by April (Tamura + Takata hawkish) |
-| Escalation tools | Moral suasion → Diet questioning → BOJ Law revision threats |
-
-**April BOJ Meeting = ACTIVE DANGER ZONE.** The 0.75% ceiling has been reached. Next hike = collision.
-
----
-
-## REAL WAGE CONSTRAINT
-
-**STATUS:** 🟠 **ORANGE** — Real wages at **0.0%** — BOJ TRAPPED
-
-| Component | Latest | Status |
-|-----------|--------|--------|
-| Tokyo CPI (Core) | 2.0% | 🟢 |
-| National CPI (Core-core) | 2.4% | 🟡 |
-| Nominal Wage Growth | 2.40% | 🟡 |
-| **Real Wage Growth** | **0.0%** | 🟠 |
-
-**Formula:** 2.40% - 2.4% = **0.0%**
-
-**The trap:** Ueda cannot hike if real wages flat — households can't absorb higher rates. Creates Takaichi-Ueda collision.
-
----
-
-## SHUNTO 2026 (Wage Negotiations)
-
-### 🟢 FEB 19 UPDATE: ¥18,000 DEMAND CONFIRMED — "STRONG" THRESHOLD MET
-
-**Sharp (electronics):** ¥18,000 wage demand submitted Feb 18 — **HIGHEST SINCE 1998**
-- 2025 demand: ¥17,000 → 2026: ¥18,000 (+5.9% escalation)
-- Management response: March 18
-- This MEETS the "Strong" threshold (≥¥18,000 = ≥3.6% base-up)
-
-Other demands filed:
-- Toyota Group: Record bonus demand (5.29 months avg)
-- Daihatsu: ¥22,000 total
-- Mazda: ¥19,000 total
-
-**Implication:** BOJ hike path strengthening. April meeting now ~85% if Shunto settlement confirms these levels.
-
-**Late March results determine BOJ path.**
-
-| Outcome | Nominal Wage | Real Wage | BOJ Response | Probability |
-|---------|--------------|-----------|--------------|-------------|
-| **Strong (≥3.5%)** | +3.5%+ | +1.1%+ GREEN | Hike to **1.00%** | **48%** |
-| Moderate (2.5-3.5%) | +2.5-3.5% | 0-1.1% YELLOW | Cautious | 42% |
-| Weak (<2.5%) | <2.5% | Negative RED | TRAPPED | 10% |
-
-**"Stag Hunt" dynamics:** Cost of under-paying > cost of hike. Strong now MOST LIKELY.
-
-**If Strong Shunto → 85% April BOJ hike to 1.00%** — triggers floating mortgage backlash.
-
-**Key dates:** Feb 19 electronics deadline → Mid-March Yamaba → Late March first tally → Apr 23-24 BOJ
-
----
-
-## BOJ SHOWDOWN TIMELINE
-
-### March 13-14 BOJ Meeting (**NOTE: CALENDAR says Mar 13-14, not 18-19**)
-**Expected:** HOLD at 0.75%, with hawkish forward guidance toward April
-
-**Why:**
-- BOJ ALREADY at 0.75% — Takaichi's stated ceiling
-- Tamura Feb 13: "this spring" hike possible, Japan "very close" to 2% target
-- Takata voted for 1.00% at January meeting
-- Markets pricing ~80% hike by April
-- Next hike = Takaichi political collision (0.75% was the tolerance limit)
-
-**Market pricing:** ~80% hike probability by April (UP from 40%)
-
-### April BOJ Meeting (Apr 23-24) — "DANGER ZONE" 🔴
-
-**Collision scenario:**
-- BOJ already at 0.75% = Takaichi's HARD CEILING
-- Tamura + Takata pushing for 1.00%
-- Budget passes (April-May) + inflation still >2% + Shunto strong → Ueda has full cover
-- Ueda pushes for 1.00% hike
-
-**Takaichi response:** (Aida's explicit ceiling = 0.75%, then "pause until 2027")
-- Sends Katayama to BOJ for "coordination meeting"
-- Public pressure escalates: "Hike threatens mortgages and recovery"
-- Threats to amend BOJ law
-
-**The 0.75% ceiling is now BREACHED if Ueda hikes.** This isn't theoretical anymore — it's the next decision.
-
-**Watch for:**
-- Katayama statements in March (preemptive pressure)
-- Aida commentary — he WILL push back if March BOJ sounds hawkish
-- Diet questioning of Ueda (escalation tool)
-- Any floating mortgage political backlash coverage
-
----
-
-## FISCAL TIMELINE
-
-| Date | Event | Status |
-|------|-------|--------|
-| FY2026 Budget | ¥122 trillion drafted | 🔴 Not debated yet |
-| **March 31** | FY2026 deadline | 🔴 **WILL BE MISSED** |
-| April-May | Provisional budget | 🔴 Interim measure |
-| April-May | Full budget passage | 🔴 Delayed |
-
-**Implication:** JGB issuance compressed into Q2 = WALL of supply in short window.
-
----
-
-## LIFE INSURER REPATRIATION (🔴 ACTIVE)
-
-**Transmission is NOT theoretical. Confirmed active Jan 2026.**
-
-**Current flow:** $10-15B/month ("liquidating US/European debt")
-
-### Insurer Stress Ranking
-
-| Tier | Insurers | UST Holdings | 12mo Risk |
-|------|----------|--------------|-----------|
-| 🔴 RED | Meiji Yasuda, Fukoku, Daido, Taiyo | $110-170B | $60-100B |
-| 🟡 YELLOW | Nippon, Sumitomo, Dai-ichi | $200-290B | $80-120B |
-| 🟢 GREEN | Asahi, Japan Post | $100-160B | $20-40B |
-
-**Industry-wide stress:**
-- Total unrealized JGB losses: **¥9 trillion ($60B)**
-- ESR ratios deteriorating (new mark-to-market regulation)
-- Foreign bond holdings: **$1.5-1.8 trillion**
-- UST component: **$600-810 billion**
-
-**Key signals by insurer:**
-- **Meiji Yasuda:** ¥1.386T ($9.7B) unrealized losses — HIGHEST. Acquiring U.S. Banner Life (fleeing domestic)
-- **Fukoku:** FIRST MOVER — stopped buying 30/40Y JGBs in Jan 2026
-- **Nippon Life:** ¥220B realized losses = liquidity pressure REAL. Reducing JGBs first time since 2016
-- **Sumitomo:** FX strategy = sell USD when yen >150 (currently ~152-153 = still above 150, sell zone ACTIVE)
-- **Dai-ichi:** "Not yet time for full-fledged return to bond markets"
-
-**Critical findings:**
-- NOT rotation — it's STRESS (selling foreign AND JGBs simultaneously)
-- Hedge ratios at 14-year low (30%, down from 45%)
-- If USD/JPY falls to 145: ¥10.5T loss on unhedged positions → forced liquidation
-
-### Repatriation Scenarios
-
-| Scenario | Probability | Flow | Timeline |
-|----------|-------------|------|----------|
-| **Base** | 60% | $80-120B | 12-24mo |
-| **Stress** | 30% | $150-250B | 6-12mo |
-| **Crisis** | 10% | $300-500B | 3-6mo |
-
-**For LIQUID:** Japan holds $600-810B UST. Even base case = $80-120B supply shock into $2T deficit.
-
----
-
-## MOF FLOW TRACKING (Weekly)
-
-**Source:** MOF International Transactions in Securities (Thursdays)
-
-| January 2026 | Foreign Bond Flow | Status |
-|--------------|-------------------|--------|
-| Monthly Total | +¥366B | 🟢 Buying (normal) |
-
-**Current:** GREEN — No repatriation detected yet. Watch for sign flip.
-
-**Thresholds:**
-- 🟡 YELLOW: -¥500B to -¥1T/mo
-- 🟠 ORANGE: -¥1T to -¥2T/mo  
-- 🔴 RED: <-¥2T/mo
-
----
-
-## TRANSMISSION MECHANISMS
-
-1. **Floating Mortgage Bomb:** BOJ hikes → 75% mortgages reprice → consumption collapses → political backlash → YCC return
-2. **Fiscal Doom Loop:** Expansion → issuance → higher yields → worse fiscal → more issuance
-3. **Life Insurer Exit:** JGB losses → sell UST → repatriate → UST yields rise → global contagion
-4. **Yen Break:** USD/JPY >160 → import inflation → forced BOJ hike → accelerates doom loop
-
----
-
-## 🛢️ OIL-JPY TRANSMISSION (Added Feb 18, 2026)
-
-### CRITICAL FINDING: Oil Spike = JPY WEAKNESS (Not Strength)
-
-**Despite JPY's safe-haven status, trade deficit effect DOMINATES during oil shocks.**
-
-### Historical Precedent
-
-| Event | Date | Oil Move | JPY Move | Source |
-|-------|------|----------|----------|--------|
-| **Israel-Iran strikes** | June 13, 2025 | Spike | **-2.4% vs USD** | Reuters |
-| **Russia-Ukraine invasion** | Feb 24, 2022 | Spike | **-11.5% over Mar-Apr** | Reuters |
-
-**Reuters (June 2025):**
-> "The Japanese yen, normally one of the most sought after safe havens in times of geopolitical stress, has dropped 2.4% against the U.S. dollar...since Israel launched missile attacks against Iranian nuclear and military targets."
-
-**Citi Analysts:**
-> "A rise in crude oil prices causes a deterioration not only in Japan's trade balance but also its terms of trade, so it fundamentally acts to weaken the yen."
-
-### Why Trade Deficit > Safe Haven
-
-- Japan imports **90% of energy**
-- Oil spike → higher import bill → trade deficit widens
-- Trade deficit → more JPY selling to buy USD for oil imports
-- Safe haven bid exists but is **overwhelmed** by structural selling
-
-### Trade Implications (IRAN SCENARIO)
-
-| Trade | Direction | Verdict | Reason |
-|-------|-----------|---------|--------|
-| **FXY calls** | Long yen | ❌ WRONG | Yen weakens on oil spike |
-| **FXY puts** | Short yen | ✅ CORRECT | Trade deficit effect dominates |
-| **EWJ puts** | Short Japan equities | ⚠️ MIXED | Weak yen helps exporters, but margin compression hurts |
-| **Oil (USO/BNO)** | Long | ✅ CLEANEST | Direct Iran exposure, no JPY complication |
-
-### Key Insight
-
-**If HAWK's Iran thesis plays out (oil $67 → $87+):**
-- JPY weakens (opposite of intuition)
-- FXY calls = LOSING trade
-- Pure oil long = cleaner expression
-
-**If SAM's Japan thesis plays out (Shunto strong + BOJ hike):**
-- JPY strengthens (BOJ rate differential)
-- FXY calls = WINNING trade
-- But gets COMPLICATED if oil also spikes (opposing forces)
-
-### Combined Scenario Risk
-
-**Worst case for FXY longs:** Iran strikes + weak Shunto
-- Oil spikes → JPY weakens (trade deficit)
-- Weak wages → BOJ can't hike → no rate support
-- Result: JPY collapses, FXY calls destroyed
-
-**Best case for FXY longs:** No Iran escalation + strong Shunto
-- Oil stable → no trade deficit pressure
-- Strong wages → BOJ hikes → rate differential favors JPY
-- Result: JPY strengthens, FXY calls win
-
-### Monitoring
-
-**Watch USDJPY on any Iran news:**
-- If USDJPY rises (yen weakens) on oil spike = trade deficit narrative winning
-- If USDJPY falls (yen strengthens) = safe haven winning (rare, historical says unlikely)
-
-**Cross-Asset Signal (per HENRY synthesis):**
-- Long-JPY as oil hedge is CONSENSUS and WRONG
-- When crude spikes, if USD/JPY rises = squeeze on long-JPY positions begins
-- This confirms SAM thesis and creates alpha opportunity
-
-### 🎯 REVISED TRADE RECOMMENDATIONS (Feb 18)
-
-| Scenario | EWJ Puts | FXY Calls | USO Calls |
-|----------|----------|-----------|-----------|
-| BOJ hike (Shunto strong) | ✅ Win | ❌ Lose | — |
-| Oil spike (Iran) | ✅ Win (margin compression) | ❌ Lose (trade deficit) | ✅ Win |
-| Carry unwind | ✅ Win | ✅ Win | — |
-
-**Allocation:** 50% EWJ puts / 35% USO calls / 15% wait for Shunto
-
-**FXY calls DROPPED from Japan playbook** — only wins in narrow scenario (strong Shunto + no oil spike).
-
----
-
-## SCENARIO PROBABILITIES (Feb 12)
-
-| Scenario | Probability | Description |
-|----------|-------------|-------------|
-| A/A+ Soft landing | 8-12% ↓ | Mortgage constraint lowers odds |
-| **B Controlled chaos** | **42-48%** | Base case but fragile |
-| C Acute panic | 5-8% | Feb 19 20Y auction trigger |
-| D1 Austerity | 2-3% | Impossible under Takaichi |
-| **D2 Monetary dominance** | **32-40%** ↑ | YCC return path strengthens |
-
----
-
-## 🚨 FEB 19 PLAYBOOK — T-1 DAY (FINAL VERSION)
-
-### EVENT 1: 20Y JGB Auction — EXACT TIMING (FROM MOF SCHEDULE)
-
-**⏰ CONFIRMED TIMES (Japan Standard Time = UTC+9):**
-| Time | Event | UTC | ET (Feb 18) |
-|------|-------|-----|-------------|
-| 10:30 AM JST | Bidding opens (auction notice) | 01:30 AM | 8:30 PM |
-| 12:35 PM JST | **RESULTS PUBLISHED ← TRADE TRIGGER** | 03:35 AM | **10:35 PM** |
-| 15:15 PM JST | Full detail (special participants) | 06:15 AM | 1:15 AM |
-
-**Source:** MOF weekly schedule confirmed; MOF results at mof.go.jp/english/policy/jgbs/auction/calendar/eresul/
-
-**Context going in:**
-- **Jan 20 official data (MOF):** Competitive bids 1,939.9B / Total accepted 799.5B → BTC = **2.43x**, tail = **0.25 yen (21bp)** — the TAIL is what made it "worst since 1987", not BTC alone
-- **Jan 20 yield at auction:** 3.274% (lowest accepted), avg 3.253%
-- **Current 20Y yield (Feb 18):** ~2.965% — **31bp LOWER than Jan 20 auction levels**
-- **Feb 19 offering:** ~¥800 billion (reopening of Jan 2026 issue, same bond)
-- Feb 5 30Y: PASSED strongly (BTC 3.64x, tail 0.8bp)
-- Feb 17 5Y: Passed (BTC 3.10, below 3.48 avg — "steady")
-- JGB yields rallied: 10Y 2.29%→2.135%, 20Y 3.19%→2.965%
-- Takaichi "responsible fiscal" pledge triggered rally (short-term relief only)
-
-**🚨 THE CRITICAL TRAP:**
-Life insurers said they find JGBs "attractive" at **3.6%+** yields. Current 20Y at **2.965%** is **63bp BELOW** that threshold. The yield rally has removed the structural buyer return. We are conducting this auction at levels that may NOT attract life insurer bids. This is the hidden risk: the rally looks like demand, but may be short-covering.
-
-**Thresholds for Feb 19 (calibrated to current 2.965% yield level):**
-
-| Result | BTC | Tail | Implication | Action |
-|--------|-----|------|-------------|--------|
-| 🟢 PASS | >2.8x | <0.15 yen | Takaichi pledge holding, relief rally real | Monitor only |
-| 🟡 WEAK | 2.2-2.8x | 0.15-0.25 yen | Structural demand absent at these yields | Flag to PROME |
-| 🟠 STRESS | 1.8-2.2x | 0.25-0.40 yen | Life insurers NOT returning despite "pledge" | Alert LIQUID |
-| 🔴 FAIL | <2.0x + wide tail | >0.40 yen | Crisis signal = Jan 20 repeat or worse | PATH D TRIGGER |
-
-**Primary watch metric:** The TAIL (not BTC). Jan 20 tail was 0.25 yen. If Feb 19 tail is >0.25 yen at LOWER yield, structural buyer exodus is confirmed.
-
-### EVENT 2: Electronics Shunto — WHAT ACTUALLY HAPPENS ON FEB 19
-
-**⚠️ CRITICAL CLARIFICATION:** Feb 19 is NOT a single announcement event.
-
-**What happens:**
-- **Deadline:** Each individual electronics union submits its formal demand to its company
-- **¥18,000 demand ALREADY CONFIRMED:** JEIU central committee adopted this Jan 27-28
-- **Company responses:** Mid-March (~March 12-13, "yamaba" day)
-- **Settlement known:** Late March first tally; Apr 23-24 BOJ uses it
-
-**What to watch on Feb 19 (business hours, overnight ET):**
-- Jiji Press/Nikkei confirming submissions filed (routine, expected)
-- Any major company making **same-day positive response signal** (rare but possible)
-- Watch for any union with demand **>¥18,000** (upside surprise)
-- Watch for any union with demand **<¥18,000** (downside surprise — very unlikely)
-
-**¥18,000 in percentage terms:**
-
-| Base Wage | ¥18,000 / Month = | vs 2025 (¥17,000) |
-|-----------|-------------------|-------------------|
-| ¥480,000 | **3.75%** base-up | +5.9% YoY escalation |
-| ¥500,000 | **3.60%** base-up | +5.9% YoY escalation |
-| ¥430,000 | **4.19%** base-up | +5.9% YoY escalation |
-
-**Total wage increase** (base-up + regular ~2% increment) = approx **5.6-6.0%** if full demand met
-**BOJ threshold:** ≥3.5% base-up = STRONG signal for summer hike
-**2025 result for reference:** ¥17,000 demand → Hitachi/NEC granted full demand → Hitachi confirmed 6.2% total increase → Rengo average 5.25%
-
-**Signal interpretation:**
-| Signal | Implication |
-|--------|-------------|
-| ¥18,000+ demands filed + zero company objections | Direction CONFIRMED STRONG → BOJ hike path |
-| Any company pre-signals "will discuss positively" | Very early but bullish |
-| Any union below ¥18,000 (surprise revision) | 🔴 Weakness — BOJ pause risk |
-| Demands filed silently (most likely) | Wait for mid-March settlement |
-
-**Reality check:** Feb 19 is a DIRECTION indicator, not magnitude. The real print is mid-March. But the record demand (¥18,000) itself is already a bullish signal; it's already priced by informed participants.
-
-### PATH D TRIGGER: BOTH FIRE
-
-**Condition:** 20Y BTC <2.0x AND tail >0.40 yen **AND** Shunto ≥¥18,000 confirmed (demand signal only)
-**Probability on Feb 19:** ~8-12% (auction failure less likely given yield rally; Shunto signal is already baked in)
-**Full Path D probability:** More likely at late March settlement + April BOJ meeting
-
-### IF PATH D TRIGGERS — TRANSMISSION SPEED (AUG 2024 TEMPLATE)
-
-**Aug 2024 precedent (BOJ hike July 31 → carry unwind):**
-- Hours 0-48: USD/JPY 155 → 150 = **3-4% yen strength** (initial move)
-- Hours 48-96: USD/JPY 150 → 142 = **another 5% yen strength** (acceleration)
-- Day 5 (Aug 5): VIX hit **65.73 intraday**, Nikkei -12.4% (worst day since 1987)
-- Total move: ~12% yen strength over 4-5 days
-
-**Current context vs Aug 2024:**
-- USD/JPY now at 152-153 (not 161). Less carry extended.
-- But: carry rebuilding happened since Aug 2024 dip. Positioning is fresh.
-- The 7% yen move since Oct 2025 peak is QUIET carry unwind already in progress.
-- A Feb 19 trigger would be ADDITIVE to existing slow unwind, not starting from scratch.
-
-**Transmission timeline for Feb 19 trigger (if it fires):**
-- **T+0 (12:35 PM JST / 10:35 PM ET Feb 18):** Auction results hit screens
-- **T+15 min:** USD/JPY initial reaction — +/- 0.5% move
-- **T+2 hours:** Tokyo interbank confirms direction; Nikkei futures open pricing
-- **T+8 hours (Asia open):** Nikkei cash open; carry positions trigger margin calls
-- **T+16 hours (Europe open):** Real cascade begins if both fired
-- **T+24-48 hours:** S&P opens in stress; VIX spike begins
-
----
-
-## 🎯 SCENARIO PLAYBOOK — FEB 19 DECISION TREE
-
-### SCENARIO 1: BOTH FIRE 🔴🔴
-**Trigger:** 20Y BTC <2.0x + tail >0.40 yen AND ¥18,000 demand filed (≥¥18,000 signal strong)
-
-**Mechanics:**
-- Strong Shunto → BOJ hike expectation (April meeting priced in) → rate differential narrows → carry unwind
-- Auction failure → life insurer structural buyer confirmed absent → fiscal doom loop concern
-- BOTH = BOJ trapped: can't hike (bond market failing) but must (wages strong) → INCOHERENCE SIGNAL
-- Carry positions unwind regardless of which "wins" — uncertainty itself triggers exit
-
-**Immediate trade (within 15 min of 12:35 PM JST result):**
-- **EWJ puts** — Nikkei will gap down on Asia open (carry unwind + bond stress)
-- **Short USDJPY** (long yen) — initial move: carry unwind dominates Shunto signal
-- **Vol buying** (VIX calls) — VIX currently suppressed; this is the event to spike it
-
-**Speed of yen move:**
-- Initial (0-2 hours): 0.5-1.0% yen strength (USDJPY 152 → 150.5-151.5)
-- Asia open (T+8 hours): 1.5-2.5% total (USDJPY → 148-150)
-- Europe open (T+16 hours): 2.5-4.0% total if positions cascade
-- Aug 2024 template suggests 3% in days, then potential 8-12% in a week IF equities crack
-
-**Key risk to this trade:** JGB stress could paradoxically WEAKEN yen if markets price BOJ monetization (YCC return) → yen collapses like sterling in Truss. This is the "fiscal doom loop" outcome, not carry unwind. If USD/JPY RISES on auction failure = fiscal risk pricing, not rate differential. In that case: REVERSE yen trade, double EWJ puts.
-
-**Confidence:** HIGH (8-12% probability, but clear trade if it fires)
-
----
-
-### SCENARIO 2: SHUNTO STRONG, AUCTION PASSES 🟢🟢 → 🟠 Nuance
-**Trigger:** BTC >2.8x, tail <0.15 yen AND ¥18,000 demand confirmed
-
-**What this means:**
-- The "fiscal pledge" rally is HOLDING — Takaichi's responsible fiscal rhetoric is working
-- Bond market accepts the Takaichi compromise (spend but don't destabilize)
-- Strong Shunto → BOJ hike locked in for April/June
-- JGB market functioning → BOJ has room to hike without sparking bond crisis
-
-**Market reaction:**
-- JPY strengthens moderately (BOJ rate hike priced) — carry unwind begins SLOWLY
-- USDJPY 152 → 149-150 over 2-4 weeks
-- No crisis cascade; orderly adjustment
-- Nikkei mildly lower (yen strength hurts exporters)
-
-**Implication for thesis:**
-- Path D delayed to April BOJ meeting (1.0% hike = Takaichi collision)
-- Status: YELLOW → watchful. The slow grind continues.
-- The 7% quiet yen move expands further. SPY gap still doesn't close.
-
-**Trade:** No urgent action. Wait for April BOJ meeting setup. EWJ puts as vol is cheap now.
-
----
-
-### SCENARIO 3: SHUNTO WEAK (SURPRISE), AUCTION FAILS 🔴🔴 → Different Beast
-**Trigger:** BTC <2.0x AND ¥18,000 demand LOWER than expected (below ¥18,000) — very unlikely but possible
-
-**What this means:**
-- WORST scenario for the BOJ — cannot hike (wages weak) AND cannot stand pat (bonds failing)
-- Perfect fiscal doom loop: issuance must continue, buyers retreating, BOJ politically constrained
-- This is NOT the Aug 2024 template — it's the UK Gilt crisis template
-
-**Market reaction:**
-- JPY likely WEAKENS first (fiscal risk, no BOJ hike support, markets price YCC return)
-- USDJPY rises toward 155-160
-- Then reversal: if BoJ forced to buy bonds → yen collapses further
-- This is the D2 scenario (monetary dominance path)
-
-**Trade:** Paradoxically BULLISH for USO/oil (yen weakness = trade deficit pressure) and BEARISH for everything Japan. Short yen, long vol.
-
-**Probability:** Very low (<3%). ¥18,000 demand is confirmed. Auction failure at these yield levels would require extreme shock.
-
----
-
-### SCENARIO 4: BOTH MISS — THESIS DELAYED OR DEAD? 🟢🟢
-**Trigger:** BTC >3.0x (auction strong) AND demand submissions uneventful (¥18,000 filed, no surprise)
-
-**What this means:**
-- Takaichi "responsible fiscal" pledge is working better than expected
-- JGB structural reform buying actually absorbing supply
-- Feb 19 is a non-event; real test is March settlement + April BOJ
-
-**Is the thesis DELAYED or DEAD?**
-- **DELAYED** (not dead). The structural issues remain:
-  - Life insurers ESR ratios deteriorating (March 31 FY-end reveals)
-  - BOJ rate collision at 1.0%+ still coming in April
-  - Budget passage compressed into April-May = JGB supply wall
-  - ¥122T fiscal expansion still not priced fully
-- The thesis resets to March 13-14 BOJ meeting + March 15 Shunto tally
-
-**Trade:** Do nothing on Feb 19. Wait for late March. EWJ puts remain valid as insurance.
-
----
-
-## AUG 2024 TEMPLATE — EXACT NUMBERS
-
-| Date | Event | USDJPY | Change | VIX |
-|------|-------|--------|--------|-----|
-| Jul 3, 2024 | USD/JPY peak | 161.7 | — | ~12 |
-| Jul 31, 2024 | BOJ hike (0%→0.25%) | ~155 | — | ~17 |
-| Aug 2, 2024 | Weak US payrolls add fuel | ~150 | -3.2% in 2 days | ~25 |
-| **Aug 5, 2024** | **Carry unwind peak** | **141.7** | **-8.5% from Jul 31** | **65.73** |
-| Aug 15, 2024 | Partial recovery | ~148 | — | ~20 |
-
-**Lesson:** The initial trigger (BOJ hike) gave 3% in 48 hours. But the ACCELERATION was driven by US payrolls surprise. For Feb 19 to replicate Aug 2024, we need a second catalyst (possibly FOMC minutes Feb 19 at 2PM ET). VIX Expiration also on Feb 19 — forced gamma repositioning.
-
-**Feb 19 has THREE events simultaneously:**
-1. 20Y JGB auction results (10:35 PM ET Feb 18)
-2. Shunto demand submission deadline (overnight)
-3. **FOMC Minutes 2:00 PM ET Feb 19** — potential second catalyst if dovish
-4. **VIX Expiration Feb 19** — mechanical volatility
-
-This is a **multi-event day**. If JGB fails AND FOMC is dovish (US rates fall, narrowing differential), the carry unwind could be sharp.
-
----
-
-## WHAT TO WATCH
-
-### JGB/BOJ Thresholds
-| Metric | Current | Watch Level | Interpretation |
-|--------|---------|-------------|----------------|
-| 10Y JGB | ~2.16-2.20% | >2.50% | 🔴 RED ALERT |
-| 30Y JGB | ~3.05-3.10% | >4.00% | Accelerate repatriation |
-| 40Y JGB | ~3.65% | >5.00% | Crisis liquidation |
-| USD/JPY | ~152-153 | >160 | MOF intervention |
-| **BOJ Rate** | **0.75%** | **>0.75%** | 🔴 **POLITICAL COLLISION — CEILING ALREADY REACHED** |
-
-### UST Early Warning Signals
-
-**TIER 1 — IMMEDIATE (1-4 week lead):**
-1. **MOF Weekly Flow Data** (Thursdays)
-   - 🟡 YELLOW: >¥500B/mo selling
-   - 🟠 ORANGE: >¥1T/mo
-   - 🔴 RED: >¥2T/mo
-
-2. **Feb 19 20Y Auction** *(calibrated to global bond stress per ML-JPN-170)*
-   - 🟢 SAFE: BTC >3.0x, tail <0.15 yen (raised from 2.8x — US 10Y weakness = need higher bar)
-   - 🟡 WEAK: BTC 2.2-3.0x, tail 0.15-0.25 yen
-   - 🟠 STRESS: BTC 1.8-2.2x, tail 0.25-0.40 yen
-   - 🔴 FAIL: BTC <2.0x + tail >0.40 yen (PATH D TRIGGER)
-
-3. **USD/JPY Correlation**
-   - Normal: +0.6 to +0.8 with UST yields
-   - 🔴 RED: Goes NEGATIVE = heavy repatriation
-
-**TIER 2 — LEADING (4-12 week lead):**
-4. **ESR Disclosures** (March 31 FY-end)
-   - 🟠 ORANGE: <180%
-   - 🔴 RED: <150% (forced selling)
-
-5. **30Y-10Y JGB Spread**
-   - Current: ~131bp
-   - 🔴 RED: >145bp (insurers stopped buying long end)
-
-6. **Insurer Policy Language**
-   - 🟡 YELLOW: "Trimming foreign bonds"
-   - 🔴 RED: "Liquidating foreign holdings"
-
----
-
-## KEY VOICES TO TRACK
-
-| Name | Role | Signal Value |
-|------|------|--------------|
-| **Takuji Aida** | Special Advisor, Credit Agricole | 🔴 HIGHEST — "Intellectual father of Sanaenomics", public statements = admin trial balloons |
-| Katsunobu Katayama | Finance Minister | MOF/BOJ coordination |
-| Kazuo Ueda | BOJ Governor | Independence test |
-
-**Aida's key position:** "Tolerate BOJ hike to 0.75%, then demand pause until 2027" ← THE CEILING
-
-**Where to monitor:** Bloomberg interviews, Credit Agricole notes, Nikkei
-
----
-
-## KEY DATES
+## KEY DATES (Updated)
 
 | Date | Event | Priority |
 |------|-------|----------|
-| **Feb 19** | **20Y JGB Auction + Electronics Shunto** | 🔴 CRITICAL |
-| Mar 13-14 | BOJ Meeting | 🔴 |
-| March 31 | Budget Deadline (WILL MISS) | 🔴 |
-| **April** | **BOJ Meeting — DANGER ZONE** | 🔴 |
-| April-May | Full Budget Passage | 🔴 |
+| **Mon Mar 2** | **Markets open. Oil/equity/yen initial reaction** | 🔴 CRITICAL |
+| Mar 13-14 | BOJ Meeting | 🔴 HOLD expected (85%) |
+| Mar 17 | JICPA accounting comment deadline | 🟠 |
+| Mid-March | Shunto settlement (yamaba day ~Mar 13) | 🟠 |
+| March 31 | FY2025 ends, ESR reporting | 🟠 |
+| Apr 23-24 | BOJ Meeting — war situation determines | 🔴 |
 
 ---
 
-## CROSS-AGENT LINKS
+## OUTBOUND SIGNALS
 
-| Agent | Connection |
-|-------|------------|
-| **LIQUID** | Repatriation → UST demand ($600-810B exposure) |
-| **REGINALD** | If UST yields +50bp+ → credit spreads widen |
-| **HENRY** | S&P >10% drawdown = mechanical selling + repatriation |
-
----
-
-## PREDICTIONS
-
-### Resolved (3/6, 67% accuracy)
-| # | Prediction | Result |
-|---|------------|--------|
-| 1 | Feb 5 30Y BTC >2.10x | ✅ BTC 3.64x |
-| 2 | USD/JPY <160 through election | ✅ Stayed ~156-159 |
-| 3 | Takaichi <260 seats | ❌ 300+ (landslide) |
-
-### Pending
-| # | Prediction | Timeframe | Confidence |
-|---|------------|-----------|------------|
-| 4 | JGB 30Y stays <4.0% through Q1 | Q1 2026 | 60% |
-| 5 | BOJ signals faster hikes post-election | Feb-Mar | 70% |
-| 6 | Life insurers announce more JGB selling | Q1 earnings | 75% |
-| 7 | Strong Shunto (≥3.5%) delivers | Late March | 48% |
-| 8 | April BOJ hike to **1.00%** if Shunto strong | Apr 23-24 | 85% (conditional) |
+| To | Priority | Signal |
+|----|----------|--------|
+| HENRY | 🔴 | Japan Nikkei -4 to -8% Monday. Carry unwind risk if USDJPY breaks 150 |
+| LIQUID | 🔴 | Life insurer USD positions: short-term safe (weak yen), medium risk if yen recovers through 150. Watch Sumitomo 150 selling trigger |
+| HENRY | 🔴 | VIX 30-40+ expected Monday. War = sustained elevated vol |
+| PROME | 🔴 | BOJ March 13 likely HOLD (85%). War overrides inflation signal |
 
 ---
 
-## BOTTOM LINE
+## CARRY UNWIND PROBABILITY (Updated)
 
-**Feb 17 UPDATE: BOJ ALREADY AT 0.75% CEILING. Collision is IMMINENT not theoretical.**
+| Timeframe | Probability | Driver |
+|-----------|-------------|--------|
+| 7 days | 20% | Phase 1 oil → yen weakens (carry safe short-term) |
+| 30 days | 45% | US risk-off accumulates, HY OAS widens, global growth slows |
+| 60-90 days | **65%** | Sustained war → US recession risk → Fed cuts → rate differential collapse |
+| **Full escalation** | **90%+** | Hormuz blocked → $100+ oil → global recession → Aug 2024 repeat |
 
-- **BOJ rate = 0.75%** — Takaichi's stated tolerance limit. ALREADY THERE.
-- **JGB yields FELL sharply** — Takaichi "responsible fiscal" pledge triggered rally (10Y: 2.29% → 2.16%)
-- **USD/JPY strengthened** — 156 → 152-153. Yen 3% stronger than STATUS.md showed.
-- **Feb 19 Shunto clarification**: Electronics DEMAND submission (≥¥18,000). Company responses due mid-March.
-- **Next BOJ hike (to 1.00%)** = political collision. Tamura pushing, Takata voted for it. Markets 80% by April.
-- **Takaichi "responsible" pledge** — short-term bond market relief, but structural fiscal path unchanged.
-- **5Y JGB auction passed** (Feb 17, BTC 3.1) — positive momentum going into Feb 19 20Y.
-- **Jupiter Asset Mgmt** closed JGB shorts — contrarian bullish signal.
-
-**The collision:**
-- Ueda wants 1.0%+ terminal rate
-- Takaichi ceiling = 0.75% (NOW REACHED)
-- 75% floating mortgages constrain further
-- April = SHOWDOWN if Shunto strong + inflation hot
-
-*Next update: Feb 19 post-20Y auction + post-Shunto demand submission (results hit at 12:35 PM JST / 10:35 PM ET Feb 18)*
+**Forced unwind trigger:** USDJPY <147 (rapid move). At 156 current, need ~6% yen strength. With war-induced carry unwinding, this is achievable in 2-4 weeks if scenario 2/3 plays out.
 
 ---
 
-## 🔴 BOJ BOARD NOMINATIONS — TAKAICHI PICKS DOVES (Feb 26, 2026 — CONFIRMED)
+## KEY RESEARCH ARCHIVE
 
-**MAJOR SIGNAL: Honda's "reflationists not needed" signal from Feb 13 was WRONG or a head-fake. Takaichi picked full doves.**
-
-### Nominees (announced Feb 26):
-- **Toichiro Asada** — Academic, advocate for "massive stimulus." Replaces Asahi Noguchi (end of March). Ties to dovish ex-BOJ executives.
-- **Ayano Sato** — Academic, "preached benefits of expansionary fiscal AND monetary policy." Replaces Junko Nakagawa (June 29). Nakagawa was neutral-to-slightly-hawkish — direct hawk-for-dove swap.
-
-### Process Significance:
-- **MOF was kept OUT OF THE LOOP** — Takaichi held selections closely, excluded Finance Ministry
-- Needs lower house (majority) + upper house (minority) approval — upper house vote is uncertain
-- Market reaction: **Yen SOLD, JGB yield curve STEEPENED**
-
-### Path Implications — DOWNGRADE:
-| BOJ Path | Previous View | Updated View |
-|----------|---------------|--------------|
-| April 1.0% hike | 85% conditional | 🔴 NOW ~40% — Takaichi board signal delays |
-| Terminal rate >1.0% | Likely by 2027 | Constrained — Takaichi stacking board |
-| BOJ independence | Contested | 🔴 Actively threatened — Nomura: "bond AND currency selling risk" |
-
-### The 0.75% Ceiling — NOW ENFORCED BY PERSONNEL:
-Takaichi's ceiling of 0.75% was previously a political threat. Now it's being INSTITUTIONALIZED via board composition. If Asada/Sato confirmed, the board shifts decisively dovish. Ueda (through 2028) faces internal BOJ resistance to hikes, not just external political pressure.
-
-### Upper House Risk:
-Coalition has lower house majority but NOT upper house majority. Opposition votes needed. If blocked, Takaichi loses face but BOJ hike path reopens. Watch for upper house vote.
-
-### Long-Term Threat (Reuters):
-When Ueda + deputies' terms end in 2028, Takaichi picks all new leadership. Full reflation regime possible by 2028-2029.
+- Life insurer deep dive: `domain/sources/RP-SAM-4_JAPAN_LIFE_INSURER_STRESS.md`
+- Feb 19 playbook detail: `domain/sources/STATUS_archive_20260227.md`
+- Oil-JPY transmission study: embedded in archive above
 
 ---
 
-## 🆕 BOJ BOARD NOMINATIONS — TAKAICHI'S FIRST PICKS (Feb 18-19, 2026 — PRE-ANNOUNCEMENT ANALYSIS)
+## THESIS (Updated for War)
 
-**Source:** Bloomberg/Japan Times (Feb 18), Reuters (Feb 13)
+**"Bonds before currency" still holds — but war adds the oil vector.**
 
-### The Setup
+The war creates a TWO-PHASE Japan exposure:
+1. **Phase 1 (weeks 1-2):** Oil spike → JPY weakens → USDJPY 157-160. Carry trade survives, even extends. Energy bill surges, trade deficit widens.
+2. **Phase 2 (weeks 3-8):** US recession risk rises → risk-off deepens → safe haven yen bid wins → USDJPY reverses toward 148-152 → carry unwind begins. BOJ frozen by uncertainty.
 
-- **Two seats opening:** Asahi Noguchi (term ends March 31) + Junko Nakagawa (term ends June 29)
-- **Nominations expected:** As early as **Feb 25** (next Wednesday)
-- **Requires:** Approval from both chambers of parliament
+**The Aug 2024 template applied to war:**
+- 2024: BOJ hike = initial yen trigger (3%), US weak payrolls = acceleration (8-12% total)
+- 2026: War risk-off = initial yen trigger (?%), US recession fear = acceleration
+- Key question: Does war produce the BOJ-equivalent initial catalyst, or does oil push yen the WRONG way first?
 
-### The Surprise — Honda Interview (Feb 13)
+**Net assessment:** Japan is MORE exposed than pre-war, but the timing of carry unwind is now LESS CERTAIN. Could be delayed by phase 1 JPY weakness, then arrive harder in phase 2. Probability UP (55-65%), timeline uncertain (30-90 days).
 
-**Etsuro Honda** (Takaichi's chief economic advisor, longtime Abe associate) told Reuters:
+**BOJ March 13-14:** Hold 85%. War gives Ueda clean cover to pause without it looking political.
 
-> "Japan is out of deflation and faces the challenge of coming up with a growth strategy. It's in a different phase from Abe's era... **I don't necessarily think they need to be reflationists** who are proposing powerful monetary easing."
-
-> "I can see how rate hikes are needed for price stability."
-
-Honda also said:
-- BOJ may see scope to raise rates this year
-- March hike premature (need to assess December hike impact)
-- "If Japan's economic fundamentals improve, the yen will naturally rise"
-
-### Why This Matters
-
-**Expected:** Takaichi (Abe's ideological heir) stacks BOJ with doves, obstructs rate hikes
-**Signaled:** Takaichi may **NOT** fight gradual normalization — Honda says reflationists not needed
-
-### Path D Implications
-
-If Takaichi picks neutral/hawkish members on Feb 25:
-- BOJ hike path to 1.0%+ STRENGTHENS
-- Yen strengthens (rate differential narrows)
-- Carry unwind accelerates
-
-**Feb 19 Shunto + JGB auction results = foundation. Feb 25 board picks = direction signal.**
-
-| Board Pick Profile | BOJ Path | JPY Impact |
-|-------------------|----------|------------|
-| Dovish (reflationist) | Constrained at 0.75% | Weakens |
-| **Neutral** | **1.0% by summer likely** | **Strengthens** |
-| Hawkish | 1.0%+ by April possible | Strong rally |
-
-**Watch:** Feb 25 announcement + market reaction. If picks are neutral → April BOJ hike = 90%+ probability.
-
-**Full analysis:** `workbook/LIFE_INSURER_UST_DEEP_DIVE.md` (38KB)
-
----
-
-## 🔴 FEB 19 DATA CORRECTIONS (Feb 18 Research)
-
-1. **20Y auction times confirmed from MOF schedule:** Results at 12:35 PM JST (NOT 10:35 AM as previously noted)
-2. **Jan 20 BTC:** 2.43x (competitive bids 1,939.9B / total accepted 799.5B) — "worst since 1987" was the TAIL (0.25 yen), not BTC alone
-3. **Jan 20 yield:** 3.274% cleared — current 20Y at 2.965% is 31bp LOWER. Life insurers wanted 3.6%+.
-4. **Shunto event nature:** Feb 19 = DEADLINE for submissions (not announcement). ¥18,000 = confirmed Jan 27. Companies respond mid-March.
-5. **¥18,000 in %:** ~3.6-4.0% base-up (vs ¥480,000-¥500,000 base wage), ~5.6-6.0% total with regular increment
-6. **Aug 2024 template:** USDJPY went 155→141.7 (-8.5%) in 5 days; VIX hit 65.73. Initial move 3% in 48 hours.
+*Archive: Full Feb 19 playbook detail → `domain/sources/STATUS_archive_20260227.md`*

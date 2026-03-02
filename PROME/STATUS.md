@@ -1,9 +1,9 @@
 # PROME STATUS.md
-**Updated:** 2026-02-28 02:30 UTC
+**Updated:** 2026-03-02 00:00 UTC
 
-**Last context:** Massive LABOR deep research session (12 Gemini prompts). Thesis transmission model REVISED: REGINALD leads, LABOR confirms (was LABOR leads). Staffing bottoming is real counter-signal. LIQUID credit thresholds validated (320bps ETA March 12-14). Apollo interconnection confirmed (Athene economically fused). Texas WARN API wired + cron'd. All research distilled and routed to agents. Monday: KRE roll, APO puts screen, first AM cron 8:30 ET.
+**Last context:** US-Iran war Day 2. Khamenei dead. Hormuz functionally disrupted. Futures opened Sunday 6 PM ET: S&P -1%, Brent spiked to $82 then settled ~$80, Dow -500. Less dramatic than worst case — Scenario B (sustained campaign) pricing, not Scenario C (full escalation). HAWK and SAM spawned and updated for war. Monday: KRE roll, profit-taking plan, ISM 10 AM. Will discussed taking partial profits on winners given war unpredictability + family situation.
 
-## 🔴 CRITICAL — Private Credit Recognition Wave | Multiple Vectors Confirming
+## 🔴 CRITICAL — US-IRAN WAR + Private Credit Recognition Wave
 
 ---
 
@@ -11,16 +11,16 @@
 
 | Agent | Status | Focus | Updated |
 |-------|--------|-------|---------|
-| LABOR | 🟡 | Staffing bottoming (counter-signal); WARN surging; shadow payroll gap resolves Mar-Apr; 12 research briefs integrated | Feb 28 |
-| CARL | 🟠 | LIHEAP deferred to Winter 26-27 | Feb 18 |
-| HENRY | 🔴 | SPX -800pts, Put Wall tested; now owns macro data releases | Feb 27 |
-| SAM | 🟠 | Japan slow-burn tailwind | Feb 23 |
-| REGINALD | 🔴 | OZK thesis verified; Chicago downgrade + BROCK upstream in inbox | Feb 27 |
-| BROCK | 🔴 | Apollo interconnection CONFIRMED (Athene fused, MassMutual co-exposed); private credit cracking | Feb 28 |
-| LIQUID | 🔴 | HY OAS 298→320 ETA Mar 12-14; dual-trigger framework built; CLO AAA = best canary; credit thresholds validated | Feb 28 |
-| MARCO | 🔴 | FL airport cascade confirmed; emigration signal in inbox | Feb 26 |
-| HAWK | 🔴 | Iran buildup; Russian revenue -50% YoY; CVX short | Feb 18 |
-| HANS | 🟠 | German PMI beat (50.7) — complicates ISM weakness | Feb 22 |
+| LABOR | 🟡 | Staffing bottoming (counter-signal); WARN surging; shadow payroll gap resolves Mar-Apr | Feb 28 |
+| CARL | 🟠 | Gas price lag 2-3 weeks; update after oil settles | Feb 27 |
+| HENRY | 🔴 | SPX -800pts, Put Wall tested; ISM Mon 10 AM ET | Feb 27 |
+| SAM | 🔴 | **WAR UPDATE:** Carry unwind prob 55-65% (was 35-40%). Two-phase JPY (weak then strong). BOJ Mar 13 likely HOLD. STATUS pruned to 248 lines. | Mar 1 |
+| REGINALD | 🔴 | OZK thesis verified; Florida + circuit breaker inbox unprocessed | Feb 27 |
+| BROCK | 🔴 | Apollo interconnection CONFIRMED; private credit cracking | Feb 28 |
+| LIQUID | 🔴 | HY OAS 298→320 ETA Mar 12-14; war may accelerate; dual-trigger framework | Feb 28 |
+| MARCO | 🔴 | FL airport cascade; emigration signal unprocessed | Feb 26 |
+| HAWK | 🔴 | **WAR UPDATE:** Active conflict Day 2. Scenario B (sustained, 50%) base case. Hormuz functionally disrupted. Oil $80-95 base. | Mar 1 |
+| HANS | 🟠 | German PMI beat; stale — needs Iran/Europe implications | Feb 22 |
 | ZHAO | 🟢 | India pullback structural | Feb 18 |
 | DARWIN | 🟢 | Weekly scan | Feb 18 |
 
@@ -82,19 +82,22 @@ Also: FXY (yen/SAM), USO (oil), GLD/SLV, TBT, CEPT + equity longs. Full detail �
 |-------|--------|----------|
 | LIQUID | BROCK upstream (insurer transmission) | 🟠 |
 | MARCO | Americans emigrating (WSJ) | 🟡 |
-
-*REGINALD inbox processed (BROCK 12-signal batch). HENRY corporate bond bubble integrated.*
+| REGINALD | Florida CRE + circuit breakers (2 files in inbox) | 🟠 |
 
 ---
 
 ## Next Priorities
 
-1. **🔴 KRE roll Monday** — Sell 3x Mar $62P, buy Jun $65P (cash settles Mon)
-2. **🔴 APO puts** — BROCK "very high" conviction. Triple stress: MFIC div cut + MFS/Atlas SP + Medallia 78¢
-3. **🔴 AM Agent Run** — First morning run per `PROME/EOD_PROTOCOL.md`
-4. **🟠 Dashboard** — Two-column layout, color, remaining stale HTML
-5. **🟡 Screen BXSL/OWL options** — BROCK conviction very high
-6. **🟡 CARL/MARCO/SAM STATUS.md pruning** — deferred from earlier
+1. **🔴 KRE roll Monday** — Decision tree in BRIEFING.md. If KRE <$60, sell for profit. If $60-62, sell 2-3 + roll rest. If $63+, roll as planned.
+2. **🔴 Profit-taking** — Will agreed to trim winners. WAL $82.5P at +150% or WAL <$78. KRE $60P trim 1-2 of fattest. Don't let a profitable moment pass.
+3. **🔴 Monitor futures overnight** — S&P -1%, Brent ~$80 at open. Less dramatic than feared. Watch for escalation/de-escalation overnight.
+4. **🔴 ISM Manufacturing 10 AM ET** — Our estimate 47-49. <49 = thesis confirmed pre-war. Key test.
+5. **🟠 APO puts** — Screen but don't chase into spiked IV. Wait 2-3 days if IV >50%.
+6. **🟠 LIQUID update** — War may accelerate 320bps timeline. Quick spawn after Monday data.
+7. **🟠 HANS update** — Stale (Feb 22). Iran hitting Gulf states, EU reaction. Needs refresh.
+8. **🟡 REGINALD inbox** — Florida + circuit breakers files sitting since Feb 27.
+9. **🟡 Screen BXSL/OWL options** — BROCK conviction very high
+10. **🟡 Dashboard** — Two-column layout, color, stale HTML
 
 ## Daily Protocol
 
