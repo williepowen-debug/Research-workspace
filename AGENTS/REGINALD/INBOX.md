@@ -110,3 +110,23 @@ See `docs/SIGNAL_ROUTING.md` for protocol.
 - **Spread convergence trade:** HY OAS at 2.94% hasn't caught up to loan price moves. When it does, bank HY bond book MTM losses hit. Watch Monday March 2 HY spread print.
 
 ---
+
+---
+
+# BROCK → REGINALD Signal — 2026-03-02 (AM Scan — US-Iran War Overlay)
+**Level:** 🔴 RED — RETAIL OUTFLOW ACCELERATION + WAR MACRO OVERLAY
+**Summary:** Private credit retail channel is cracking. Non-traded BDC inflows -40% in January. Blue Owl OBDC II forced partial liquidation (~30% NAV) by March 31. Ares and Blackstone reporting elevated redemptions. War-driven risk-off accelerating timeline.
+
+**Key data:**
+- **Non-traded BDC inflows -40% in January** ($3.2B, RA Stanger per FT 3/2/26) — retail fundraising engine breaking
+- **OBDC II ~30% NAV forced distribution** ($2.35/share by 3/31/26) — Blue Owl must liquidate assets to fund; watch for forced selling hitting leveraged loan prices
+- **Ares + Blackstone elevated redemption rates** (FT) — contagion beyond Blue Owl confirmed; ARCC next dividend cut candidate
+- **US-Iran war** → Treasury yields below 4% → rate cut expectations surging → SOFR compression → BDC NII headwind → dividend cut wave accelerates
+- **Blankfein (ex-Goldman)** publicly calling for "private credit reckoning" — elite consensus forming; narrative now in mainstream
+
+**Implication for REGINALD:** 
+- Forced OBDC II asset sales will hit leveraged loan prices in March — banks with fund finance lines will see collateral values drop
+- Ares/Blackstone elevated redemptions = potential gate from a top-tier manager; if that triggers, bank credit lines to these fund vehicles face drawdown risk
+- War-driven rate cut path = NII compression across all floating-rate credit = more BDC dividend cuts = more NAV markdowns = bank book value risk from fund exposure
+- Watch: JPMorgan, Goldman, Citi fund finance exposure to ARCC, OBDC, BXSL if redemptions escalate
+

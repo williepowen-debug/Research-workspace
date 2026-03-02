@@ -1,10 +1,10 @@
 # BROCK STATUS — Private Credit & BDC Stress Monitor
-*Last updated: 2026-02-27 (22:15 UTC — EOD Feb 27 FINAL + cross-agent signal integration)*
-*Boot: First session — STATUS built from AGENTS.md + Feb 26 inbox batch (12 signals) + Feb 27 batch (3 signals) + EOD web search*
+*Last updated: 2026-03-02 (18:35 UTC — AM scan, US-Iran war context, retail outflow acceleration)*
+*Prior: 2026-02-27 (22:15 UTC — EOD Feb 27 FINAL + cross-agent signal integration)*
 
 ---
 
-## 🔴 OVERALL STRESS LEVEL: RED (CONFIRMED — MULTIPLE THRESHOLDS BREACHED)
+## 🔴 OVERALL STRESS LEVEL: RED+ESCALATING (US-IRAN WAR OVERLAY — RETAIL OUTFLOW ACCELERATION CONFIRMED)
 
 The private credit recognition wave thesis is **actively confirming**. Multiple independent signals converged Feb 24-27:
 - Marks declining across ALL holders on bellwether credit (Medallia)
@@ -28,6 +28,15 @@ The private credit recognition wave thesis is **actively confirming**. Multiple 
 - **NEW 2/27 CLOSE:** Leveraged loan prices hit April 2025 lows; Tuesday total return -0.20% (largest single-day loss since April 2025)
 - **NEW 2/27 CLOSE:** Blue Owl replaced quarterly redemption cadence with periodic cash distributions — structural capitulation on OBDC II liquidity promise
 - **NEW 2/27 CLOSE:** PitchBook confirms "software/private credit connection to pandemic era" framing — narrative now connecting AI disruption to pandemic-era vintage loans
+- **NEW 3/2 AM:** FT confirms non-traded BDC inflows DOWN 40% in January ($3.2B vs prior month, per RA Stanger) — retail channel breaking
+- **NEW 3/2 AM:** Executives across wealth mgmt industry telling FT "outflows may soon overwhelm inflows" at major funds — structural liquidity threat confirmed
+- **NEW 3/2 AM:** Blue Owl OBDC II escalation: not just gating — paying $2.35/share (~30% of NAV as of 12/31/25) as RETURN-OF-CAPITAL distribution by March 31, 2026. Forced liquidation to meet redemptions.
+- **NEW 3/2 AM:** Blackstone and Ares facing "elevated redemption rates" — contagion beyond Blue Owl confirmed
+- **NEW 3/2 AM:** KKR, Apollo, BlackRock BDC writedowns now cited by FT alongside Blue Owl gate — narrative broadening
+- **NEW 3/2 AM:** Ex-Goldman CEO Blankfein publicly warning of "private credit reckoning" — elite consensus forming
+- **NEW 3/2 AM:** Bloomberg opinion: "Private Credit is Sickly. Banks Aren't The Cure" — mom-and-pop pulling cash
+- **NEW 3/2 AM:** US-Iran war started over weekend → Treasury yields below 4% (per ABF Journal) → risk-off = flight to safety = pressure on risk assets including BDC stocks
+- **NEW 3/2 AM:** War overlay = potential rate cut acceleration → SOFR compression → BDC NII headwind → dividend cut wave accelerates
 
 ---
 
@@ -84,8 +93,9 @@ Blackstone explicitly says: "execution stress, not AI" — meaning the AI markdo
 
 **Active thesis:** Private credit marks are fake, liquidity is fake, insurers and retail closed-end fund holders are the bagholders.
 
-**Stage of recognition:** ⚠️ **Stage 3 of 5** (marks declining → dividends cut → funds gating → forced insurer sales → systemic)
+**Stage of recognition:** ⚠️ **Stage 3→4 TRANSITION** (marks declining → dividends cut → funds gating → retail flight accelerating → forced insurer sales → systemic)
 - Stage 3 confirmed: two BDC dividend cuts (FSK, MFIC) in 48hrs + OBDC II structural liquidity capitulation + cross-border arranger fraud (MFS/UK)
+- **NEW 3/2:** Stage 4 entry signals: non-traded BDC inflows -40%, OBDC II forced partial liquidation (~30% NAV), exec admissions outflows > inflows imminent, Ares/Blackstone "elevated redemptions"
 - Stage 4 trigger (insurer disclosure) now CLOSER: Apollo/Athene overlap means MFS + MFIC + Medallia 77¢ stress could surface in Athene's next 10-Q
 
 **Key confirms this week:**
@@ -246,9 +256,10 @@ Blackstone explicitly says: "execution stress, not AI" — meaning the AI markdo
 
 ## Next Actions
 
-1. **Pull BXSL/OWL/FSK options chain** — Size put opportunities
-2. **Map insurer-to-bank transmission** — Which banks lend to Athene? Security Benefit?
-3. **Track Medallia marks quarterly** — Next catalyst: Q1 2026 BDC earnings (~May)
-4. **Monitor OBDC II gate** — Any expansion to other Blue Owl funds?
-5. **Watch for Weinstein/Saba tender results** — Pricing confirms severity of discount
-6. **Verify UBS 15% default scenario sourcing** — Bloomberg 2/24/26
+1. **URGENT: Pull BXSL/OWL/FSK/APO options chain** — War-driven risk-off + retail outflow acceleration = near-term catalyst window. Size put opportunities.
+2. **Watch OBDC II ~30% NAV distribution** — If Blue Owl must sell assets to fund $2.35/share distribution by 3/31, watch for forced sales hitting leveraged loan prices.
+3. **Track Ares/Blackstone elevated redemption rates** — If either gates (like Blue Owl), that's Stage 4 confirmed systemic. ARCC upgrade to ORANGE watch.
+4. **War macro overlay** — Treasury <4% = rate cut expectations surging = SOFR compression = BDC NII compression = more dividend cuts incoming. Model sensitivity: every 25bps SOFR cut reduces BDC NII ~3-5%.
+5. **Map insurer-to-bank transmission** — Which banks lend to Athene? Security Benefit?
+6. **Monitor OBDC I** — Gate on II + forced liquidation raises probability of OBDC I gate. That would be Stage 4 full confirmation.
+7. **Verify UBS 15% default scenario sourcing** — Bloomberg 2/24/26

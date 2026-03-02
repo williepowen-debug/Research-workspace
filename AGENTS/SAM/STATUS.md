@@ -1,8 +1,8 @@
 # SAM STATUS
 
-**Signal Status:** 🔴 RED | **Last Updated:** 2026-03-01 23:00 UTC
+**Signal Status:** 🔴 RED | **Last Updated:** 2026-03-02 18:35 UTC
 
-**Summary:** US-IRAN WAR STARTED FEB 28 — Operation Epic Fury. Tehran/Isfahan/Tabriz struck. Khamenei dead. Iran retaliating across 7 countries. Hormuz functionally disrupted — tankers suspended. Oil +10% (Brent ~$80, was $72.48). Full risk-off expected Monday: VIX 30+, equities down hard, gold surging, Treasuries bid. USDJPY still ~156 (markets closed). Japan faces acute energy vulnerability (90% oil imported) + BOJ policy dilemma + carry unwind risk. UPGRADING to RED.
+**Summary:** US-IRAN WAR DAY 2 — Markets now open and trading. Nikkei closed -1.35% at 58,057 (pared from -2.4% intraday low — better than expected -4-8%). USDJPY at 157.38, +0.85% on day — Phase 1 JPY weakness playing out exactly as modeled (oil + dollar bid). JGB 10Y at 2.07% (-4bps, flight to safety). JGB 2Y at 1.215% (-3bps, BOJ hike expectations fading near-term). Finance Min Katayama monitoring yen "with strong sense of urgency" — intervention warning signal at 157. BOJ Himino: policy decision "depends on data." Analyst (T&D): BOJ may need to accelerate hikes if oil drives inflation.
 
 ---
 
@@ -163,23 +163,27 @@ Arguments for HIKE (oil inflation):
 
 | Vector | Value | Status | War Impact |
 |--------|-------|--------|-----------|
-| **USDJPY** | **~156** | 🟡 | Phase 1: 157-160. Phase 2: <150 |
+| **USDJPY** | **157.38** | 🔴 | Phase 1 JPY weakness confirmed. +1.38 from Friday close. Finance Min "strong urgency" warning at this level. MOF intervention risk rising toward 158-160. |
 | **Brent Oil** | **~$79-80** | 🔴 NEW | Up from $72.48. $90+ if Hormuz sustained |
 | **HY OAS** | **~2.98%** pre-war | 🔴 RISING | Monday gap-wider likely. Watch 320bps |
 | **BOJ Rate** | **0.75%** | 🟡 | March hold 85%. War = pause cover |
-| **JGB 10Y** | **~2.11%** | 🟢→🟡 | Flight to safety bid, but war = BOJ pause |
+| **JGB 10Y** | **2.07%** | 🟡 | Down 4bps today. Flight to safety bid winning over inflation fear on short end. 2Y JGB 1.215% (-3bps). |
+| **JGB 30Y** | **3.34%** | 🟠 | +0.97% YoY. Reflationist picks pushed long end higher. Curve steepening = stress. |
 | **VIX** | **~17 pre-war** | 🔴 MONDAY | Expected 30-40+ at open |
 | **Carry Unwind Prob** | **55-65%** | 🔴 UP | From 35-40%. 90-day window |
 | **Carry Unwind Forced** | **147 trigger** | — | Voluntary: 150, Forced: 147 |
 
 ---
 
-## BOJ BOARD NOMINATIONS STATUS
+## BOJ BOARD NOMINATIONS STATUS (UPDATED Mar 2)
 
-- Dovish Asada + Sato picks — upper house vote PENDING
-- If confirmed: BOJ hike path constrained at 0.75% through 2027
-- War gives Takaichi additional cover to push: "Global instability demands accommodative policy"
-- This could fast-track confirmation of dovish picks — watch Diet action this week
+- **CONFIRMED Feb 25:** Ayano Sato (Aoyama Gakuin Univ.) + unnamed Chuo Univ. professor nominated as REFLATIONISTS
+- Market reaction to nomination: Yen weakened, stocks boosted, **long-term JGB yields rose** (curve steepening)
+- 30Y JGB yield: **3.34%** as of Feb 27 (down slightly on day, but +0.97% YoY — structural rise)
+- Takaichi met BOJ Governor Ueda late Feb — expressed "apprehension about more rate hikes" directly
+- Diet upper house confirmation vote: PENDING (timeline unclear but likely within weeks)
+- **Key implication:** Dovish BOJ board = BOJ holds at 0.75% longer; but long end RISES on fiscal inflation fear = CURVE STEEPENING. JGB duration risk increasing.
+- War now adds another hold vector — Takaichi has triple cover: (1) her nominees aren't confirmed yet, (2) war uncertainty, (3) political pressure on Ueda directly
 
 ---
 
@@ -187,7 +191,7 @@ Arguments for HIKE (oil inflation):
 
 | Date | Event | Priority |
 |------|-------|----------|
-| **Mon Mar 2** | **Markets open. Oil/equity/yen initial reaction** | 🔴 CRITICAL |
+| **Mon Mar 2** | **CONFIRMED: Nikkei -1.35% at 58,057 (pared from -2.4%). USDJPY 157.38 (+0.85%). JGB 10Y 2.07% (-4bps). Finance Min "strong urgency" on yen. Phase 1 playing out.** | 🔴 CONFIRMED |
 | Mar 13-14 | BOJ Meeting | 🔴 HOLD expected (85%) |
 | Mar 17 | JICPA accounting comment deadline | 🟠 |
 | Mid-March | Shunto settlement (yamaba day ~Mar 13) | 🟠 |

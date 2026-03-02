@@ -1,7 +1,7 @@
 # LABOR STATUS
-**Last Updated:** 2026-03-01 23:50 UTC | **Status:** 🔴 CRITICAL
+**Last Updated:** 2026-03-02 13:15 UTC | **Status:** 🔴 CRITICAL
 
-**Summary:** Fed Trap confirmed (PPI core +0.8%, PCE 2.9%). Shadow payroll gap enters critical test window March-April. Staffing canaries (RHI/KFRC) showing first positive sequential in 12 quarters — genuine counter-signal. DOGE 312K+ positions unpriced. Block 4K layoffs (50% workforce) = AI displacement at scale. US-Iran war (Feb 28) adds uncertainty — hiring freezes deepen in "wait and see" mode. Q2-Q3 danger window ACCELERATING.
+**Summary:** Fed Trap confirmed (PPI core +0.8%, PCE 2.9%). Shadow payroll gap enters critical test window March-April. Staffing canaries (RHI/KFRC) showing first positive sequential in 12 quarters — genuine counter-signal. DOGE 312K+ positions unpriced. Block 4K layoffs (50% workforce) = AI displacement at scale. US-Iran war **MAJOR ESCALATION**: Khamenei killed (Mar 1), Trump says assault continues 4-5 weeks, 4 US KIA, Kuwait friendly fire incident. War now enters prolonged campaign phase — hiring freeze deepens from "wait and see" to active freeze through Q2 minimum. WARN pipeline materializing: 706 notices / 84,957 employees through March 2026. ISM Mfg Feb: headline broke into expansion (big beat vs exp), Employment sub-index 48.1 vs 44.8 — improving but still contracting. NFP Feb consensus: ~+70K (down sharply from Jan +130K). Q2-Q3 danger window ACCELERATING. **AIRLINE PUTS ANGLE:** Corporate travel budget softening confirmed (GBTA Jan 2026: 13% buyers expect spend decrease, optimism -8pt YoY) — but not yet in airline revenue. Layoff wave (Jan-Feb 2026) lags bookings by 6-8 weeks; watch Q2 airline guidance for demand falloff.
 
 ---
 
@@ -120,14 +120,17 @@ War adds another layer: oil spike → inflation stays hot → Fed even more trap
 
 ---
 
-## WAR IMPACT (Feb 28+)
+## WAR IMPACT (Updated Mar 2)
 
-- War deepens "wait and see" hiring freeze. Companies that were tentatively planning H1 hiring will delay further.
-- Oil spike → inflation stays hot → Fed Trap tightens.
-- DOGE cuts get political cover ("supporting the war effort" narrative).
-- If sustained campaign (HAWK base case), hiring freeze extends through Q2 minimum.
-- Claims data gets even noisier — war uncertainty + DHS shutdown + seasonal.
-- **ISM Manufacturing Monday 10 AM ET** — first hard data point. Our estimate 47-49. <49 = contraction confirmed pre-war.
+- **ESCALATION**: Khamenei killed Mar 1. Trump: campaign continues "4-5 weeks." 4 US KIA. Kuwait friendly fire.
+- War upgraded from "uncertainty" to **sustained campaign** — base case is now 4-6 week active operations.
+- Hiring freeze upgrades: "wait and see" → active freeze through Q2 minimum. H1 hiring plans shelved.
+- Oil spike → Brent +13% to ~$80 → inflation stays hot → Fed Trap tightens further.
+- DOGE cuts now have full political cover ("war effort" narrative). RIF acceleration likely.
+- Claims data: war + DHS shutdown + seasonal = extremely noisy. Mar 5 print unreliable. Mar 12 first clean read.
+- Congress war powers resolution vote this week — if it passes and Trump vetoes, political instability adds another freeze layer.
+- **ISM Mfg Feb (released Mar 2):** Headline broke into EXPANSION (big beat). Employment 48.1 vs 44.8 prior. Counter-signal — manufacturing activity improving even as employment lags. Doesn't change labor picture materially but reduces immediate recession probability slightly.
+- **WARN Pipeline Mar 2:** 706 notices / 84,957 employees through March. Pipeline materializing as expected. Claims should follow 4-8 weeks out (Apr-May window).
 
 ---
 
@@ -227,4 +230,4 @@ War adds another layer: oil spike → inflation stays hot → Fed even more trap
 
 ---
 
-*Next triggers: Mar 5/12 claims (shadow payroll verdict) | NFP Mar 6 | ISM Mon 10AM ET | Q1 RHI/KFRC earnings (April) — staffing bottom real or false? | WAL/OZK Form 4 pull (pending)*
+*Next triggers: **Thu Mar 5 claims** (shadow payroll first read — noisy, war interference) | **Fri Mar 6 NFP Feb** (consensus +70K — if miss, Shadow gap verdict arrives early) | Mar 12 claims (first clean read post-war) | Q1 RHI/KFRC earnings (April) — staffing bottom real or false? | WAL/OZK Form 4 pull (pending) | Congress war powers vote this week*
