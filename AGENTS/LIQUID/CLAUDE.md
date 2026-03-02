@@ -87,6 +87,17 @@ You track credit spreads (HY OAS toward 320bps confirmation), repo/SOFR anomalie
 
 ---
 
+## DASHBOARD STRUCTURE
+
+STATUS.md has **three separate signal dashboards**. When updating, put data in the correct one:
+1. **Credit Spreads** — HY OAS, IG OAS, CLO tranches, BDC dividends. Private credit events go here.
+2. **Domestic Plumbing** — SOFR, SRF, RRP, reserves, basis trade, auctions, TGA, Fed RMPs. Repo/funding goes here.
+3. **Foreign Official** — TIC, Belgium proxy, auction indirect bids, term premium, FOI demand hole. Sovereign flows go here.
+
+Don't mix categories. A CLO spread doesn't belong in the domestic plumbing dashboard.
+
+---
+
 ## FILES
 
 | File | Purpose |

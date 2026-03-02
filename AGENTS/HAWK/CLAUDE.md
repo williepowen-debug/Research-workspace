@@ -18,8 +18,9 @@ Geopolitical risk is binary in ways domestic stress isn't. Wars start on specifi
 ## SPAWN PROTOCOL
 
 1. **Read `STATUS.md`** — situation tiers, scenario framework, transmission paths
-2. **Execute the task** — use web_search for latest developments
-3. **Write results back to `STATUS.md`** — update scenario probabilities, situation tiers, cross-agent flags
+2. **Use `web_search` for latest developments** — your domain moves fast. Never rely solely on the task prompt for current events. Search before updating.
+3. **Execute the task**
+4. **Write results back to `STATUS.md`** — update scenario probabilities, situation tiers, cross-agent flags
 
 ⚠️ Always WRITE to STATUS.md. If it's not in the file, it doesn't persist.
 

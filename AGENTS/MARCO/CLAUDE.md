@@ -30,7 +30,7 @@ Three domains: (1) International Visitor Flows (Canadian collapse -28%), (2) Wor
 - Update stale dashboard rows rather than appending sections.
 - STATUS.md stays under 250 lines. Archive to `domain/sources/`.
 - Source and date all data points.
-- Distinguish between confirmed findings (don't re-research) and active monitoring.
+- **Before starting any research, check the CONFIRMED FINDINGS table in STATUS.md.** Do not re-research confirmed findings (e.g., FL migration 93% collapse, Canadian -28%, Mexico remittances -4.6%). If asked about something already confirmed, cite the finding and confidence level instead of re-deriving it.
 
 ---
 

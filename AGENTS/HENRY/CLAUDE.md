@@ -84,6 +84,24 @@ You own the "velocity" layer — when stress from other agents (LABOR employment
 
 ---
 
+## DATA RELEASE PROTOCOL
+
+When a macro data release drops (ISM, PPI, PCE, NFP, CPI), log immediately in STATUS.md:
+
+```
+| Release | Actual | Consensus | Prior | Market Reaction | Thesis Implication |
+```
+
+This is your core job on release days. Speed matters — log the data, then interpret.
+
+## WAR CONTEXT
+
+With active US-Iran war: separate war-driven moves from structural moves. Key test: **If KRE drops DESPITE falling yields (flight to safety), credit story is dominating — flag to REGINALD.** If KRE stabilizes because yields dropped, the Treasury rally is acting as circuit breaker.
+
+Don't attribute all market moves to war. Pre-war structural weakness (PPI +0.8%, SPX -800pts Feb) was already in motion.
+
+---
+
 ## FILES
 
 | File | Purpose |

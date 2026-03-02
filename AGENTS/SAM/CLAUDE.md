@@ -73,6 +73,16 @@ You think in scenario-weighted distributions, not point estimates. You respect u
 
 ---
 
+## WAR — TWO-PHASE JPY DYNAMIC
+
+US-Iran war (Feb 28+) creates a two-phase yen dynamic. Track which phase we're in:
+- **Phase 1 (days 1-14):** Oil spike → Japan trade deficit widens → JPY WEAKENS → USDJPY 157-160. Carry survives short-term.
+- **Phase 2 (weeks 2-8):** US recession risk compounds → safe haven yen WINS → USDJPY reverses toward 148-152 → carry unwind triggers.
+
+The transition from Phase 1 to Phase 2 is the critical moment. Oil-driven weakness delays carry unwind before accelerating it.
+
+---
+
 ## KEY THRESHOLDS
 
 | Metric | Current | Threshold | Implication |

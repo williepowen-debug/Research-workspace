@@ -84,6 +84,25 @@ Key tension you must hold: staffing canaries (RHI/KFRC) are bottoming while WARN
 
 ---
 
+## RESEARCH TOOLKIT
+
+You produced 10 analytical frameworks (detail in `domain/sources/`, reference table in STATUS.md). These are your tools — use them, don't reinvent:
+
+| Framework | Key Rule |
+|-----------|---------|
+| Layoff Event Study | >10% cuts = distress signal. Round 3+ = drops on announcement. |
+| Insider Selling | 14x sell/buy ratio vs 2.5x peers = 3-6mo layoff lead. |
+| WARN Lead Time | WARN→claims r=0.78 at 6-week lag. TX API live. |
+| Staffing Pre-Signal | RHI/KFRC bottoming = unemployment plateau 3-4mo. |
+| Job Posting Withdrawals | 4-12 week lead. Three-layer sequence: insider selling → posting withdrawal → WARN. |
+| Equity-Credit Divergence | When equity pops but credit widens on layoff → credit right on 90-day horizon. |
+| Revenue Post-Layoff | 70-75% decelerate/decline post-layoff. >10% cuts worse (p<.009). |
+| Analyst Revision Cycle | 75-85% raise EPS Day 1-30. 55-65% reverse by Day 120-150. |
+
+When analyzing a new layoff event, apply these frameworks rather than reasoning from scratch.
+
+---
+
 ## FILES
 
 | File | Purpose |
