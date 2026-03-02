@@ -8,6 +8,7 @@
 
 - **INTAKE agent** — receives raw inputs (articles, pics, links, tweets). Extracts data, tags relevant agents, drops clean structured summaries into SIGNALS.md or agent inboxes. Removes the triage burden from PROME. Think ETL pipeline for research signals.
 - **Options flow analysis** — when Jun puts pop independently, understand why. Build a framework for reading unusual options activity as a signal (OI changes, IV skew, roll activity, dealer hedging).
+- **Safety fear tourism vector** — post-9/11 air travel dropped 30%+. War uncertainty (Houthis, Hormuz, friendly fire, missile threats) could trigger psychological pullback from flying. Third tourism vector alongside Canadian boycott (political) and gas squeeze (economic). Affects ALL carriers, not just lower-K. Feed to MARCO + CARL. Strengthens AAL thesis.
 
 ---
 
