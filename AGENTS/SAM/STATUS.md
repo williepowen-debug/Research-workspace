@@ -1,8 +1,8 @@
 # SAM STATUS
 
-**Signal Status:** 🔴 RED | **Last Updated:** 2026-03-02 21:15 UTC (EOD)
+**Signal Status:** 🔴 RED | **Last Updated:** 2026-03-02 22:30 UTC (LNG UPDATE)
 
-**Summary:** US-IRAN WAR DAY 1 EOD — Nikkei CLOSED -1.35% at 58,057 (pared from -2.4% intraday low — resilient vs -4-8% pre-open estimate). USDJPY EOD CLOSE: 157.375, +0.84% — Phase 1 JPY weakness confirmed, dollar bid > safe haven yen bid today. JGB 10Y EOD: 2.07% (-5bps, flight to safety). JGB 2Y: 1.215% (-3bps, BOJ hike expectations fading). Finance Min Katayama: "strong urgency" on yen at 157. BOJ Himino: "depends on data." NEW: Pre-war Core PPI 0.8% MoM vs 0.3% consensus (3.6% YoY) — dollar FAILED to rally on hot print. Bond market pricing GROWTH COLLAPSE not inflation. This is the medium-term USD/JPY bearish signal. TradingNews 152.50 bearish target in play if NFP (Mar 6) soft.
+**Summary:** US-IRAN WAR DAY 1 EOD + **LNG CRISIS LAYER ADDED.** Nikkei CLOSED -1.35% at 58,057. USDJPY EOD CLOSE: 157.375, +0.84% — Phase 1 JPY weakness confirmed. JGB 10Y EOD: 2.07% (-5bps). JGB 2Y: 1.215% (-3bps). NEW LAYER: QatarEnergy halted ALL LNG production (Ras Laffan + Mesaieed drone strikes). War risk insurance withdraws **Thursday March 5** — after that, Hormuz UNINSURABLE. TTF +45%, Asian JKM heading toward $25/mmBtu (Goldman). Japan ~11% of LNG from Middle East (ALL disrupted). LNG strategic buffer ~10-14 days only. BOJ HOLD probability upgraded to **90%+**. Carry unwind upgraded to **65-75%** (30-60 days). Insurance cliff Thursday is the key inflection — forces market to price months, not days.
 
 ---
 
@@ -32,16 +32,30 @@
 
 ## 🇯🇵 JAPAN-SPECIFIC ANALYSIS
 
-### 1. Energy Vulnerability
-**Japan imports ~90% of oil, heavily Middle East. Hormuz is existential.**
+### 1. Energy Vulnerability — UPDATED WITH LNG CRISIS DATA
+**Japan imports ~95% of oil from Middle East (70% through Hormuz). Crude SPR: 254 days. LNG buffer: 10-14 days ONLY.**
 
-Japan's strategic petroleum reserve: ~150-180 days supply (IEA mandate = 90 days; Japan holds well above)
-- **IEA collective action trigger:** Sustained disruption >30 days → coordinated SPR release
-- **Japan bilateral trigger:** If tanker suspension extends >2 weeks, METI will formally activate domestic reserves
-- **Timeline:** Day 0-14: price pain, no action. Day 14-30: METI emergency measures, IEA monitoring. Day 30+: Coordinated IEA SPR release likely
-- **Key risk:** Full Hormuz crisis "could outstrip offsets provided by SPR" (analyst note Saturday)
+**CRUDE OIL:**
+- Strategic petroleum reserve: **254 days** (confirmed Reuters Mar 2, far above IEA 90-day mandate)
+- IEA collective action trigger: Sustained disruption >30 days → coordinated SPR release
+- Japan bilateral trigger: METI emergency measures at ~2 weeks sustained disruption
+- Oil import: 2.8M bpd Jan 2026; 1.6M bpd from Saudi Arabia + UAE/Kuwait/Qatar
 
-**LNG exposure:** Japan also imports Middle East LNG through Hormuz. Dual energy shock potential.
+**LNG — CRITICAL VULNERABILITY:**
+- Japan LNG mix: Australia ~40%, US ~15-20%, Malaysia/Brunei ~10%, Russia (Sakhalin) ~5-8%, **Middle East (Qatar+Oman+UAE): ~11%**
+- The "30% Qatar dependent" figure is OVERSTATED. Actual direct Qatar/ME LNG = ~11% (WorldEnergyNews, Mar 2, 2026)
+- BUT: JERA + Tokyo Gas have active long-term Qatari contracts (recently renewed per IEEFA). Those shipments now zero.
+- LNG strategic reserves: **~10-14 days** (NO IEA mandate for LNG; Japan holds minimal buffer vs 254-day crude SPR)
+- **This is the critical gap.** If LNG supply disruption extends beyond 2-3 weeks, Japan faces actual gas shortages, not just price pain.
+
+**LNG disruption timeline:**
+- Week 1-2: Existing tank inventory covers (10-14 days buffer)
+- Week 2-4: Emergency spot sourcing from US/Australia (at $20-30/mmBtu vs typical $10-15)
+- Week 3-4: METI energy emergency declared; industrial rationing begins
+- Week 4-8: Electricity wholesale prices spike (JEPX ¥30-50/kWh vs normal ¥12-20)
+- Month 2+: Takaichi emergency energy subsidies (¥2-5T fiscal cost → more JGB supply)
+
+**Insurance cliff March 5:** 7/12 P&I clubs withdraw war risk coverage for Persian Gulf/Hormuz. After Thursday, effectively uninsurable. This forces market to price months-long disruption. **Thursday is the inflection point.**
 
 ### 2. JPY Direction — The KEY Tension (UPDATED)
 
@@ -80,31 +94,27 @@ New data: Reuters article (Feb 28): "If conflict was long-lasting, USD would lif
 - Short-term: oil → JPY weakens → carry survives
 - Medium-term (2-4 weeks): If US risk-off deepens (recession fears, credit widening) → yen strengthens → carry unwinds
 
-### 4. BOJ March 13-14 Meeting (12 DAYS AWAY)
+### 4. BOJ March 13-14 Meeting (11 DAYS AWAY) — UPDATED
 
-**The key tension:** Does global chaos cause BOJ to pause, or does oil inflation give MORE reason to hike?
+**LNG shock adds STAGFLATION trap — makes BOJ MORE frozen, not less.**
 
-**My call: HOLD with ambiguous guidance (no clear forward signal)**
+| Factor | Direction | Weight |
+|--------|-----------|--------|
+| LNG/oil inflation → CPI +0.8-1.2pp | Hike argument | MEDIUM |
+| Growth shock from energy costs | Hold/Cut argument | LARGE |
+| Yen direction unclear (Phase 1 weak, Phase 2 strong?) | Hold argument | LARGE |
+| War uncertainty, global financial stability | Hold argument | LARGE |
+| Dovish nominees not confirmed | Hold argument | MEDIUM |
+| Stagflation = hiking makes recession worse | Can't hike argument | LARGE |
 
-Arguments for PAUSE:
-- Global financial stability mandate: war = heightened uncertainty
-- US recession risk rising = global growth headwinds
-- Yen direction unclear (can't hike into potential yen weakness)
-- Dovish Asada/Sato nominees not yet confirmed — Ueda needs board cover
-- Risk: Hiking into war triggers carry cascade
+**Resolution:** BOJ CANNOT hike into a stagflation scenario. Energy inflation is supply-side (not demand-driven) — hiking doesn't fix it, just deepens the growth hit. BOJ HOLDS, statement says "monitoring closely."
 
-Arguments for HIKE (oil inflation):
-- Oil at $80-95 = direct inflation import (Japan pays in USD)
-- If JPY weakens (phase 1 oil effect), import inflation compounds
-- Wage data (Shunto ¥18,000 demand) still strong
-- Ueda previously said March AND April meetings live
+**Probability distribution (March 13-14) — UPDATED:**
+- **Hold 0.75%: 90%** (up from 85% — LNG crisis makes HOLD more certain, not less)
+- Hike to 1.00%: **3%** (down from 5% — stagflation trap closes this door further)
+- Emergency cut: **7%** (if energy shock triggers acute financial stress before Mar 13)
 
-**Resolution:** BOJ will NOT hike March 13-14. The uncertainty created by war + unclear yen direction + global financial stability risks gives Ueda cover to pause WITHOUT it being seen as political capitulation to Takaichi. BOJ statement will likely note "monitoring developments closely" — neither hawk nor dove.
-
-**Probability distribution (March 13-14):**
-- Hold 0.75%: **85%** (up from 75% pre-war)
-- Hike to 1.00%: **5%** (down from 20%)
-- Emergency cut: **10%** (new scenario — if Monday open catastrophic)
+**April 23-24 also likely HOLD** unless Hormuz fully resolved by early April (unlikely given insurance cliff + no restart timeline from QatarEnergy).
 
 ### 5. Life Insurer Exposure (War Scenario)
 
@@ -159,19 +169,22 @@ Arguments for HIKE (oil inflation):
 
 ---
 
-## SIGNAL DASHBOARD (War-Adjusted)
+## SIGNAL DASHBOARD (War + LNG Crisis Adjusted)
 
-| Vector | Value | Status | War Impact |
+| Vector | Value | Status | War/LNG Impact |
 |--------|-------|--------|-----------|
-| **USDJPY** | **157.375 EOD** | 🔴 | Phase 1 JPY weakness confirmed. +0.84% on day; +1.375 from Friday 156.00 close. Finance Min "strong urgency" at 157. MOF intervention risk rising. KEY: Dollar failed to rally on hot Core PPI (0.8% vs 0.3% est) pre-war — growth collapse priced in medium term. Bearish 152.50 target flagged by analysts. |
-| **Brent Oil** | **~$79-80** | 🔴 NEW | Up from $72.48. $90+ if Hormuz sustained |
+| **USDJPY** | **~157-158 est** | 🔴 | Phase 1 JPY weakness confirmed. EOD 157.375. LNG news likely adds minor weakness leg. Insurance cliff Thursday could push toward 158-159. Then NFP Friday = BIFURCATION POINT. Soft NFP → Phase 2 begins, target 152-154. Finance Min "strong urgency" at 157. |
+| **Brent Oil** | **~$81-82** | 🔴 | Up from $72.48. LNG adds second energy shock. $90+ base if sustained |
+| **Asian JKM LNG** | **~$25/mmBtu est** | 🔴 NEW | Goldman 1-month Hormuz scenario. Up from ~$12-15 baseline. Japan + China bidding war could push $30+ |
+| **TTF (European gas)** | **~€46/MWh** | 🔴 NEW | +45% Monday. Goldman 1-month scenario: €74/MWh |
 | **HY OAS** | **~2.98%** pre-war | 🔴 RISING | Monday gap-wider likely. Watch 320bps |
-| **BOJ Rate** | **0.75%** | 🟡 | March hold 85%. War = pause cover |
-| **JGB 10Y** | **2.07%** | 🟡 | Down 4bps today. Flight to safety bid winning over inflation fear on short end. 2Y JGB 1.215% (-3bps). |
-| **JGB 30Y** | **3.34%** | 🟠 | +0.97% YoY. Reflationist picks pushed long end higher. Curve steepening = stress. |
-| **VIX** | **~17 pre-war** | 🔴 MONDAY | Expected 30-40+ at open |
-| **Carry Unwind Prob** | **55-65%** | 🔴 UP | From 35-40%. 90-day window |
-| **Carry Unwind Forced** | **147 trigger** | — | Voluntary: 150, Forced: 147 |
+| **BOJ Rate** | **0.75%** | 🟡 | **March hold 90%** (upgraded). LNG stagflation trap freezes BOJ. April also likely hold. |
+| **JGB 10Y** | **2.07%** | 🟡 | Down 5bps Monday. Flight to safety. But Takaichi fiscal response (energy subsidies) = more issuance = steepening pressure |
+| **JGB 30Y** | **3.34%** | 🟠 | LNG fiscal response adds JGB supply pressure. Risk of move toward 3.5-3.6% if ¥2-5T subsidy package announced |
+| **VIX** | **~17 pre-war** | 🔴 | Expected 30-40+; likely elevated through insurance cliff and NFP |
+| **Carry Unwind Prob** | **65-75%** | 🔴 UP | Upgraded from 55-65%. Insurance cliff compresses timeline to 30-60 days. |
+| **Carry Unwind Forced** | **147 trigger** | — | Voluntary: 150, Forced: 147. Currently USDJPY ~157, need ~6% yen strength. |
+| **Japan LNG Buffer** | **~10-14 days** | 🔴 CRITICAL | Versus 254-day crude SPR. LNG is the vulnerability crude isn't. |
 
 ---
 
@@ -191,11 +204,12 @@ Arguments for HIKE (oil inflation):
 
 | Date | Event | Priority |
 |------|-------|----------|
-| **Mon Mar 2** | **EOD CLOSE: Nikkei -1.35% at 58,057. USDJPY 157.375 (+0.84%, EOD confirmed). JGB 10Y 2.07% (-5bps EOD). Phase 1 confirmed. Dollar bid > safe haven yen. NFP Mar 6 = next major catalyst.** | 🔴 CONFIRMED |
-| **Mon Mar 2** | **ISM Manufacturing (today)** — employment + new orders key signal for growth collapse thesis | 🔴 |
+| **Mon Mar 2** | **EOD CLOSE: Nikkei -1.35% at 58,057. USDJPY 157.375 (+0.84%, EOD confirmed). JGB 10Y 2.07% (-5bps EOD). Phase 1 confirmed.** | 🔴 CONFIRMED |
+| **Mon Mar 2** | **LNG UPDATE:** QatarEnergy halted production. TTF +45%. Insurance cliff Mar 5 confirmed. Japan LNG buffer 10-14 days. BOJ hold upgraded to 90%. Carry unwind upgraded to 65-75%. | 🔴 NEW |
+| **Thu Mar 5** | **⚠️ INSURANCE CLIFF** — 7/12 P&I clubs withdraw war risk coverage. Hormuz becomes uninsurable. Market MUST price months not days. WATCH for USDJPY reaction. | 🔴 CRITICAL |
 | Mar 4 (Tue) | PCE data | 🔴 |
-| **Mar 6 (Fri)** | **NFP — CRITICAL.** Soft payrolls = growth collapse confirmed = Phase 2 USD/JPY breakdown accelerates toward 152.50 | 🔴 |
-| Mar 13-14 | BOJ Meeting | 🔴 HOLD expected (90%) |
+| **Mar 6 (Fri)** | **NFP — CARRY BIFURCATION.** Soft payrolls + insurance cliff = Phase 2 onset. USDJPY targets 152-154. Strong NFP = Phase 1 extends to 158-160. | 🔴 CRITICAL |
+| Mar 13-14 | BOJ Meeting | 🔴 HOLD 90% (upgraded). Stagflation trap closes hike door. |
 | Mar 17 | JICPA accounting comment deadline | 🟠 |
 | Mid-March | Shunto settlement (yamaba day ~Mar 13) | 🟠 |
 | March 31 | FY2025 ends, ESR reporting | 🟠 |
@@ -214,16 +228,47 @@ Arguments for HIKE (oil inflation):
 
 ---
 
-## CARRY UNWIND PROBABILITY (Updated)
+## CARRY UNWIND PROBABILITY (LNG-Updated)
 
 | Timeframe | Probability | Driver |
 |-----------|-------------|--------|
-| 7 days | 20% | Phase 1 oil → yen weakens (carry safe short-term) |
-| 30 days | 45% | US risk-off accumulates, HY OAS widens, global growth slows |
-| 60-90 days | **65%** | Sustained war → US recession risk → Fed cuts → rate differential collapse |
-| **Full escalation** | **90%+** | Hormuz blocked → $100+ oil → global recession → Aug 2024 repeat |
+| 7 days | **25%** | Insurance cliff Thursday + soft NFP could trigger Phase 2 onset early |
+| 30 days | **55%** | US growth deterioration + sustained Hormuz + LNG cost shock accumulates |
+| 60 days | **75%** | Full Phase 2 confirmed. Insurance cliff prices months not days. BOJ frozen. |
+| **Full escalation** | **90%+** | Unchanged |
 
-**Forced unwind trigger:** USDJPY <147 (rapid move). At 156 current, need ~6% yen strength. With war-induced carry unwinding, this is achievable in 2-4 weeks if scenario 2/3 plays out.
+**Key upgrade vs morning:** Insurance cliff Thursday forces repricing. Once vessels are UNINSURABLE, market can't assume 1-2 week blip. Forces pricing of multi-month disruption → US recession fears dominate → Phase 2 begins earlier.
+
+**NFP Friday (Mar 6) = Carry bifurcation point:**
+- Soft NFP + insurance cliff = Phase 2 onset, USDJPY reversal begins, carry unwind starts
+- Strong NFP + insurance cliff = Phase 1 extends, USDJPY 158-160, carry survives into April
+
+**Forced unwind trigger:** USDJPY <147 (rapid move). At ~157 current, need ~6% yen strength. Achievable in 2-4 weeks if Phase 2 confirmed.
+
+---
+
+## 🇯🇵 × 🇨🇳 SAM × ZHAO SYNCHRONIZED STRESS (NEW)
+
+**Both Japan and China simultaneously losing Qatari LNG. Competition for alternatives = price war.**
+
+| Factor | Japan | China | Combined Effect |
+|--------|-------|-------|----------------|
+| ME LNG share | ~11% | ~33% | China hit harder in absolute terms |
+| FX reserves | Modest | $3T+ | China can bid longer |
+| Fiscal capacity | Constrained (260% debt/GDP) | Larger | Japan may ration first |
+| Central bank flexibility | BOJ frozen | PBOC can ease | PBOC ease → CNY weakens → less LNG purchasing power |
+| Timeline to demand destruction | Week 3-4 | Week 6-8 | Japan hits crisis point earlier |
+
+**Bidding war arithmetic:** Japan + China need ~5-8 MMT/month to replace Gulf LNG. Available global spot: ~2-3 MMT. Math doesn't work. Either:
+1. Japan AND China both get partial supply at $25-30+/mmBtu (massive cost), OR
+2. China outbids Japan (larger reserves) → Japan faces actual shortages first
+
+**JKM $30+/mmBtu scenario:** If Japan and China both bid aggressively, Goldman's $25/mmBtu could be CONSERVATIVE. $30-35 possible. At that level, Japanese electricity prices double. Industrial production falls. Takaichi fiscal response guaranteed.
+
+**Takaichi fiscal math:** ¥2-5T energy subsidies → adds to JGB supply → 30Y JGB steepening pressure → life insurer hedging costs rise → repatriation logic strengthens.
+
+**This is the doom loop accelerant for Japan specifically:**
+LNG crisis → fiscal expansion → JGB supply → curve steepening → insurer stress → repatriation → yen strengthens → carry unwind → global deleveraging
 
 ---
 
@@ -232,10 +277,11 @@ Arguments for HIKE (oil inflation):
 - Life insurer deep dive: `domain/sources/RP-SAM-4_JAPAN_LIFE_INSURER_STRESS.md`
 - Feb 19 playbook detail: `domain/sources/STATUS_archive_20260227.md`
 - Oil-JPY transmission study: embedded in archive above
+- **LNG crisis Japan analysis: `domain/sources/LNG_CRISIS_JAPAN_MAR2.md`** ← NEW MAR 2
 
 ---
 
-## THESIS (Updated for War)
+## THESIS (Updated for War + LNG Crisis)
 
 **"Bonds before currency" still holds — but war adds the oil vector.**
 
@@ -248,8 +294,15 @@ The war creates a TWO-PHASE Japan exposure:
 - 2026: War risk-off = initial yen trigger (?%), US recession fear = acceleration
 - Key question: Does war produce the BOJ-equivalent initial catalyst, or does oil push yen the WRONG way first?
 
-**Net assessment:** Japan is MORE exposed than pre-war, but the timing of carry unwind is now LESS CERTAIN. Could be delayed by phase 1 JPY weakness, then arrive harder in phase 2. Probability UP (55-65%), timeline uncertain (30-90 days).
+**Net assessment (LNG-updated):** Japan is significantly more exposed than pre-war. The LNG shock adds a second energy vector and critically, a near-term buffer crisis (10-14 days only). But the insurance cliff Thursday COMPRESSES the timeline by forcing the market to price a structural disruption, not a temporary spike. Carry unwind probability UP to **65-75%**, timeline COMPRESSED to 30-60 days (from 30-90 days).
 
-**BOJ March 13-14:** Hold 85%. War gives Ueda clean cover to pause without it looking political.
+**The new doom loop chain:** LNG crisis → Takaichi fiscal subsidies → JGB supply → curve steepening → life insurer repatriation → yen strengthens → carry unwind → global deleveraging. This is the Aug 2024 template, but with an energy fuse attached.
 
-*Archive: Full Feb 19 playbook detail → `domain/sources/STATUS_archive_20260227.md`*
+**Key watchpoints this week:**
+1. **Thursday Mar 5 insurance cliff** — Does market price months or days?
+2. **Friday Mar 6 NFP** — Soft = Phase 2 begins; Strong = Phase 1 extends
+3. **Sumitomo 150 trigger** — USDJPY currently ~157, moving AWAY from trigger. But Phase 2 reversal would bring it closer rapidly.
+
+**BOJ March 13-14:** Hold 90%. Stagflation trap (energy inflation + growth shock) makes hiking IMPOSSIBLE without deepening the recession. Ueda freezes.
+
+*Archives: Feb 19 playbook → `domain/sources/STATUS_archive_20260227.md` | LNG Japan analysis → `domain/sources/LNG_CRISIS_JAPAN_MAR2.md`*
