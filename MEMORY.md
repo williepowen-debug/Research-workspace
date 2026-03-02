@@ -1,6 +1,6 @@
 # MEMORY — Key Insights & Lessons
 
-**Last Updated:** 2026-02-27 22:15 UTC
+**Last Updated:** 2026-03-02 19:00 UTC
 
 ---
 
@@ -51,6 +51,16 @@ Best single day of thesis confirmation. Multiple independent vectors fired simul
 
 **New watchlist:** APO puts (very high conviction).
 **Threshold:** HY OAS 320bps = credit transmission confirmed.
+
+### Energy Dominance Thesis — Mar 2 (WILL'S INSIGHT)
+US running integrated supply consolidation: Venezuela (blockade/regime change) + Iran (strikes/Hormuz) + Russia (Ukraine drone campaign, 58+ refinery strikes) + ghost fleet crackdown (623 vessels sanctioned 2025). MBS/Trump financial alignment (crypto, Kushner/PIF). Saudi is last man standing BY DESIGN. Not temporary war premium — structural repricing over 2-3 months. 16M+ bpd at risk across all theaters.
+*Detail → `HAWK/domain/sources/OIL_INFRASTRUCTURE_DISRUPTIONS.md` + `ENERGY_DOMINANCE_STRATEGY.md`*
+
+### NEXUS Agent Created — Mar 2
+Synthesis engine. Cross-agent convergence detection. 5 frameworks. Catches patterns individual agents miss (SAM×ZHAO synch stress, etc). First run seeded with 4 convergences, 2 contradictions, threshold proximity matrix.
+
+### APO + AAL Entered — Mar 2
+APO $100P Jun ($770) = private credit unwind, 5 vectors. AAL $10P Jul x4 ($224) = oil + lower-K demand + Canadian collapse + MIA hub + neg book value. Both avoid crowded strikes/expiries.
 
 ---
 

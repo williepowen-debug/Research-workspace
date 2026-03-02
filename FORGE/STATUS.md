@@ -29,6 +29,7 @@ Positioned for repricing of systemic risk via regional bank puts. Credit leads e
 | IWM $250P | 1 | $7.69 | $9.08 | +18.1% | Jun 30 | Small cap stress |
 | HYG $75P | 10 | $0.31 | $0.28 | -8.7% | Jun 18 | Credit canary |
 | **APO $100P** | **1** | **$7.70** | **$7.70** | **0%** | **Jun 18** | **NEW 3/2. Private credit + MFS + oil. Crowd at Apr $100-105; we're Jun.** |
+| **AAL $10P** | **4** | **$0.56** | **$0.56** | **0%** | **Jul 17** | **NEW 3/2. Fuel + FL tourism + Canadian pullback + neg book value + insiders selling. 52wk low $8.50.** |
 | SSB $90P | 2 | $1.87 | $0.90 | -51.8% | Jun 18 | FL bank |
 | KELYA $7.5P | 1 | $0.76 | $0.75 | -0.9% | Aug 21 | Staffing lead |
 
