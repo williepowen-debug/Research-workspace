@@ -79,7 +79,23 @@ Bare `getElementById('gone').textContent` kills the ENTIRE function. Cascade fai
 **Pattern:** When something doesn't work as expected (e.g., browser showing stale data), I re-read the same code 5+ times, add debug logging, check the same API endpoint repeatedly — burning context and Will's patience.
 **Rule:** If code works when tested directly (curl, python -c) but not in browser → it's caching. Say "hard refresh" and move on. Max 2 attempts before asking user to check browser console or refresh.
 
-*Last reviewed: 2026-02-27*
+*Last reviewed: 2026-03-02*
+
+### [Operations] — Mechanical Before Creative
+**Pattern (Mar 2):** KRE roll was #1 priority at open. Got pulled into oil thesis → tankers → airlines → new positions. Never came back to trim WAL at +133% or execute the roll. Exciting research ate disciplined portfolio management.
+**Rule:** Execute urgent mechanical tasks (rolls, trims, expiring positions) BEFORE opening new research threads. New ideas go to scratchpad, not immediate execution.
+
+### [Operations] — Deploy Agents Then Wait For Them
+**Pattern (Mar 2):** Deployed 4 agents (NEXUS, CARL, HENRY, LABOR) to inform AAL decision, then entered the trade before any came back. Instinct was right but the process was wrong — wasted compute and skipped the analysis we paid for.
+**Rule:** If you deploy agents for intel on a trade decision, WAIT for the outputs before acting. If the trade is urgent, don't deploy agents — just decide.
+
+### [Operations] — Will's Ideas = Capture, Don't Execute
+**Pattern (Mar 2):** Will drops ideas mid-session (oil calls, airline puts, NEXUS creation). Each one is good but compounds into scope creep. Session went from "KRE roll + profit taking" to 6 different workstreams.
+**Rule:** When Will shares a new idea mid-priority, say "logging it" and add to scratchpad. Finish current priority first. Come back if time permits, otherwise next tide.
+
+### [Trading] — Enter Puts on Green Days, Calls on Red Days
+**Pattern (Mar 2):** Entered AAL puts on a day airlines were already down 4-7%. Left money on the table vs waiting for a bounce.
+**Rule:** Not a hard rule — sometimes urgency wins. But default: puts on green days, calls on red days. Note when breaking the rule and why.
 
 ### ALWAYS read a file before editing it — and respect subagent work
 - **Recurring bug (4+ sessions):** Edit fails because text doesn't match. Happens throughout sessions, not just handoff.
