@@ -1,5 +1,5 @@
 # BROCK STATUS — Private Credit & BDC Stress Monitor
-*Last updated: 2026-03-02 (18:35 UTC — AM scan, US-Iran war context, retail outflow acceleration)*
+*Last updated: 2026-03-02 (21:25 UTC — EOD FINAL — war overlay, KRE -5%, WAL -10.82%, BXSL div cut warning, OBDC 20%+ discount to NAV)*
 *Prior: 2026-02-27 (22:15 UTC — EOD Feb 27 FINAL + cross-agent signal integration)*
 
 ---
@@ -37,6 +37,16 @@ The private credit recognition wave thesis is **actively confirming**. Multiple 
 - **NEW 3/2 AM:** Bloomberg opinion: "Private Credit is Sickly. Banks Aren't The Cure" — mom-and-pop pulling cash
 - **NEW 3/2 AM:** US-Iran war started over weekend → Treasury yields below 4% (per ABF Journal) → risk-off = flight to safety = pressure on risk assets including BDC stocks
 - **NEW 3/2 AM:** War overlay = potential rate cut acceleration → SOFR compression → BDC NII headwind → dividend cut wave accelerates
+- **NEW 3/2 EOD:** KRE (regional bank ETF) -5% — largest single-day drop since mid-October. Bank transmission vector live, not theoretical.
+- **NEW 3/2 EOD:** WAL (Western Alliance) -10.82% on CRE litigation disclosure (distressed CRE credit facility). Market connecting opacity/litigation across asset classes.
+- **NEW 3/2 EOD:** Oil +11% — Operation Epic Fury / Hormuz closure fears. Stagflation risk = PE portfolio company revenue pressure.
+- **NEW 3/2 EOD:** $1.5T CRE debt wall (2026 maturities) now framed as "present-day nightmare" in press. Office vacancy ~20%, refinancing math impossible.
+- **NEW 3/2 EOD:** BXSL — Seeking Alpha (3/2 AM): "potential dividend reduction amid macro uncertainty and rate cuts" — sell-side now calling the BXSL dividend cut explicitly.
+- **NEW 3/2 EOD:** OBDC trading at >20% discount to NAV (Seeking Alpha) — public market pricing significant NAV impairment beyond the gate.
+- **NEW 3/2 EOD:** APO $100P June entered at $7.70 — Will positioned.
+- **NEW 3/2 EOD:** IG primary market SHUT — zero new deals. Credit market seizure = Stage 4 early indicator.
+- **NEW 3/2 EOD:** HY OAS ~320bps (estimated) — breaching key threshold. ~26bps wider than Feb 25 reading of 294bps in one week.
+- **NEW 3/2 EOD:** MFS cockroach: JEF + SAN exposures confirmed. Cross-border arranger liability now public narrative.
 
 ---
 
@@ -45,12 +55,12 @@ The private credit recognition wave thesis is **actively confirming**. Multiple 
 | Ticker | Name | Status | Key Issue | Last Signal |
 |--------|------|--------|-----------|-------------|
 | FSK | FS KKR Capital | 🔴 RED | Dividend CUT -31% ($0.70→$0.48); NII coverage broken | Bloomberg 2/25/26 |
-| BXSL | Blackstone Secured Lending | 🟠 ORANGE | Medallia 1L at 78¢; all holders marking down; NAV overstated | 10-K filed 2/25/26 |
+| BXSL | Blackstone Secured Lending | 🔴 RED | Medallia 1L at 78¢; NAV overstated; sell-side now explicitly calling dividend cut (3/2/26) | Seeking Alpha 3/2/26 |
 | OWL | Blue Owl Capital | 🟠 ORANGE | Epicenter: Weinstein/Saba tendering OBDC II at steep discount; "band-aid replaces liquidity with leverage" | Bloomberg 2/24/26 |
 | MFIC | MidCap Financial Investment (Apollo) | 🔴 RED | Dividend CUT + portfolio markdowns 2/27; soured loans; Apollo stock slides | Bloomberg 2/27/26 |
 | PSEC | Prospect Capital | 🟡 YELLOW | PIK=8.6% (corrected — prior 35% was WRONG); monitor non-accruals | SEC filing verified |
 | ARCC | Ares Capital | 🟡 YELLOW | No confirmed stress yet; monitor for contagion | Watchlist |
-| OBDC | Blue Owl OBDC | 🟠 ORANGE | OBDC II gate confirmed; parent (OWL) under siege; asset-liability mismatch now mainstream | Bloomberg 2/24-27/26 |
+| OBDC | Blue Owl OBDC | 🔴 RED | OBDC II gate + >20% discount to NAV confirmed; forced partial liquidation by 3/31; market pricing impairment | Seeking Alpha 3/2/26 |
 
 ---
 
@@ -179,7 +189,7 @@ Blackstone explicitly says: "execution stress, not AI" — meaning the AI markdo
 | BXSL | Short / Puts | NAV overstated; Medallia marks accelerating; Jefferies SEC investigation → arranger audit risk; First Brands forced resolution → marks below 78¢ | **VERY HIGH** | 🔴 Actionable — UPGRADED |
 | FSK | Short / Puts | Dividend cut = NII broken; further non-accrual growth likely; investors repricing | HIGH | 🔴 Actionable |
 | OWL (Blue Owl) | Short / Puts | OBDC II gate; SEC cash dominion risk → OBDC I scrutiny; judicial acceleration bad for opacity model | **VERY HIGH** | 🔴 Actionable — UPGRADED |
-| Apollo (APO) | Short / Monitor | FOUR simultaneous stress vectors: MFIC div cut+markdowns; Atlas SP/MFS £exposure; Medallia 77¢; stock -8.87% today. Conflict: managing own distressed credits. | **VERY HIGH** | 🔴 UPGRADED — Stock confirming |
+| Apollo (APO) | Short / Puts | FIVE stress vectors: MFIC div cut, Atlas SP/MFS exposure, Medallia 77¢, stock double-digit decline, law firm securities investigation. **$100P Jun entered 3/2 at $7.70.** | **VERY HIGH** | 🔴 ACTIVE POSITION |
 | KKR | Monitor | -7.22% today; manages FSK (FS KKR) which already cut dividend; watch for KKR credit arm disclosures | HIGH | 🟠 New — add to watchlist |
 | ARES | Short / Monitor | -7.64% today despite no ARCC stress confirmed yet; market pricing in contagion. ARCC next BDC dividend cut candidate? | HIGH | 🟠 Watch Q1 2026 earnings |
 | Insurer names | Short / Monitor | Security Benefit/Delaware Life private; Athene/Apollo is public | MEDIUM | 🟡 Research needed |

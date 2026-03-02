@@ -90,7 +90,7 @@
 
 ---
 
-### USO $90C Mar 13 | 1 contract @ $2.92 | Cost: $292
+### USO $90C Mar 13 | 1 contract @ $2.86 | Cost: $287
 **Conviction at entry:** 55% — speculative
 **Breakeven:** $92.92
 
@@ -101,8 +101,10 @@
 ---
 
 ### Sold to Fund
-- **PLTR** — 2 shares @ $145.74 each ($291.48). No thesis conviction.
+- **PLTR** — 1 share @ $145.74 ($145.74). No thesis conviction.
 - **INVH** — 10 shares @ $26.44 ($264.35). Trimming non-thesis positions.
+- **SSB $90P Jun** — sold 1x @ $3.00 ($299.33). Taking profits.
+- **KRE $62P Mar 31** — sold 1x @ $1.06 ($105.33). Trimming expiring, keeping 2 through NFP.
 
 ---
 

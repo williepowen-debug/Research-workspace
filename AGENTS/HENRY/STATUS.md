@@ -1,5 +1,5 @@
 # HENRY STATUS
-**Last Updated:** 2026-03-02 18:30 UTC | **Status:** 🔴 RED+ — WAR OVERLAY. US-Iran war (Operation Epic Fury, Feb 28 weekend). SPX gapped -1.2% at open, RECOVERED to near flat/slightly positive by 1:30PM ET. Buy-the-dip reflex intact. Brent +8.07% to $78.74. ISM Mfg 52.4 (beat 51.8 consensus) but PRICES SUBINDEX JUMPED — stagflation signal. KRE roll in progress today.
+**Last Updated:** 2026-03-02 21:15 UTC | **Status:** 🔴 RED+ — WAR OVERLAY + STAGFLATION CONFIRMED. US-Iran war (Operation Epic Fury). SPX closed FLAT (recovered from -1.2% gap). Brent ~$77 (+~6% EOD). ISM Prices 70.5% (+11.5pts) = highest since June 2022. Fed pinned. Airlines -4-7%. Buy-the-dip reflex held but underlying macro WORSENING.
 
 **Prior EOD Closes Feb 27:** SPX 6,843.16 | Dow 48,721.66 | Nasdaq 22,620.85 | VIX ~20 (breach) | Gold bid | 10Y ~3.99%
 
@@ -146,6 +146,34 @@ Risk parity deleverages     → T+5 to T+30
 
 ---
 
+## SESSION LOG — Mar 2, 2026 (EOD, 21:15 UTC)
+
+**EOD CLOSE CONFIRMED:**
+- SPX: ~flat (closed from -1.2% gap open — buy-the-dip held)
+- Brent crude: ~$77.00 (pulled back from $78.74 intraday high, still +~6% on day)
+- VIX: ~20 (elevated, not panic — consistent with 30% fast-gamma path NOT triggered)
+- Airlines (UAL/DAL/AAL): -4% to -7% (direct fuel margin hit + war travel fear)
+
+**ISM MANUFACTURING FEB — FULL REPORT (Released Mar 2 AM):**
+
+| Subindex | Feb | Jan | Delta | Status |
+|----------|-----|-----|-------|--------|
+| **PMI** | **52.4%** | 52.6% | -0.2 | Expanding (2nd straight) |
+| New Orders | 55.8% | 57.1% | -1.3 | Expanding (slowing) |
+| Production | 53.5% | 55.9% | -2.4 | Expanding (slowing) |
+| **Prices** | **70.5%** | **59.0%** | **+11.5** | 🔴 **HIGHEST SINCE JUNE 2022** |
+| Employment | 48.8% | 48.1% | +0.7 | Contracting (improving slightly) |
+| Backlog | 56.6% | 51.6% | +5.0 | Highest since May 2022 |
+| Imports | 54.9% | 50.0% | +4.9 | Highest since Feb 2022 |
+| Supplier Deliveries | 55.1% | 54.4% | +0.7 | Slowing (3rd consecutive) |
+| Customers' Inventories | 38.8% | 38.7% | +0.1 | Too Low |
+
+**CRITICAL DELTA — ISM Prices 70.5%:** This is not a rounding error. An +11.5pt jump in one month is a shock. Pre-war tariff pressure + now oil spike = manufacturers pricing it in IMMEDIATELY. This seals the Fed-cannot-cut narrative through at minimum FOMC Mar 17-18. Stagflation signal is now QUANTIFIED, not just flagged.
+
+**IMPORT SURGE (54.9%, highest since Feb 2022):** Tariff front-running was already baked in PRE-war. Now Strait of Hormuz disruption layers ON TOP. Front-run inventory may not arrive → supply shock probable in Q2. Watch ISM April print for demand shock reversal.
+
+**EMPLOYMENT 48.8% (corrected — prior entry showed 48.1 which was January):** Still contracting but slightly improved. Manufacturing firms not hiring yet despite 2nd straight expansion month. Stagflation confirmed: demand up, costs up, employment still weak.
+
 ## SESSION LOG — Mar 2, 2026 (AM Scan, 1:30PM ET)
 
 **Geopolitical overlay added:** US-Iran war (Operation Epic Fury) began Feb 28 weekend. Strait of Hormuz disrupted. Oil +8%. Market gapped down, then recovered — buy-the-dip reflex active, NOT a panic cascade (consistent with 30% fast-gamma path NOT triggering).
@@ -192,7 +220,7 @@ Risk parity deleverages     → T+5 to T+30
 **On check-in days:** Lead with any data release from that morning or prior day. Translate surprise → rate path → bank NIM → regional repricing impact.
 
 **Next releases:**
-- ✅ Mar 2: ISM Mfg (Feb) — 52.4 ACTUAL vs 51.8 exp (BEAT, but prices jumped)
+- ✅ Mar 2: ISM Mfg (Feb) — 52.4 ACTUAL vs 51.8 exp (BEAT) | Prices 70.5% (+11.5pts, highest since Jun 2022) | Employment 48.8% (contracting) | STAGFLATION CONFIRMED
 - Mar 6: NFP (Feb)
 - Mar 11: CPI (Feb)
 - Mar 13: PCE (Jan) + GDP 2nd est

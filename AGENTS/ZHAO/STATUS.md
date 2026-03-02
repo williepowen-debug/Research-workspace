@@ -1,5 +1,18 @@
 # ZHAO STATUS.md
-**Updated:** 2026-02-27 13:46 UTC
+**Updated:** 2026-03-02 22:30 UTC
+
+---
+
+## 🚨 EMERGENCY UPDATE: LNG CRISIS / HORMUZ CLOSURE
+**Event:** QatarEnergy halted ALL LNG production (Mar 2). Iranian drones struck Ras Laffan + Mesaieed. Strait of Hormuz de facto closed (70% traffic drop). Mar 5: war risk insurance effectively withdrawn by 7/12 P&I clubs.
+
+**ZHAO assessment:** China is the LEAST exposed major importer to the Mar 5 insurance cliff (COSCO self-insures, PICC state coverage, Iran bilateral carve-out). But the MACRO transmission is severe:
+- USD/CNY 7.30 threshold is now IMMINENT (2-4 weeks), not distant
+- PBOC UST selling could accelerate by one quarter (Q2 vs Q3)
+- SAM × ZHAO synchronized stress now has a THIRD anchor: Korea (KOGAS exposure)
+- Belgium TIC Feb print unaffected (crisis started Feb 28); April/May prints will show impact
+
+**Detail:** `domain/sources/LNG_CRISIS_CHINA_ANALYSIS_MAR2.md`
 
 ---
 
@@ -49,7 +62,7 @@
 ### Currency / HK Peg
 | Metric | Current | Yellow | Orange | Red | Status |
 |--------|---------|--------|--------|-----|--------|
-| USD/CNY | 7.25 | >7.30 | >7.40 | >7.50 | 🟢 GREEN |
+| USD/CNY | 7.25 | >7.30 | >7.40 | >7.50 | 🟡 YELLOW⚠️ (7.30 imminent — LNG crisis + DXY) |
 | HK Aggregate Balance | **HK$53.9B** | <$45B | <$40B | <$30B | 🟢 GREEN |
 | HIBOR-SOFR Spread | ~-30bps | >-100bps | >-200bps | >-300bps | 🟢 GREEN |
 | HK Backing Ratio | ~110% | <108% | <105% | <102% | 🟢 GREEN |
@@ -284,12 +297,24 @@
 
 ---
 
+### LNG Crisis — New Vectors (Mar 2, 2026)
+| Metric | Current | Assessment | Status |
+|--------|---------|------------|--------|
+| China Qatari LNG exposure | ~15-18 MT/yr (18-22% of imports) | Partially replaceable (Australia/Russia/US) at 2-3x cost | 🟠 ORANGE |
+| China energy import bill shock | +$50-60B/year if sustained | Reduces trade surplus; manageable in isolation | 🟡 YELLOW |
+| COSCO/PICC insurance coverage | Self-insured state fleet | China bypasses Mar 5 P&I cliff | 🟢 MITIGATED |
+| China-Iran bilateral energy | Operative | De facto Hormuz safe passage for Chinese vessels likely | 🟢 MITIGATED |
+| Korea (3rd anchor) UST risk | $103B holdings | KOGAS exposure; won pressure; potential $5-10B/month selling | 🟠 NEW |
+| Synchronized stress (CN+JP+KR) | All three energy-shocked | Combined $50-70B/month UST selling potential | 🔴 ESCALATED |
+
+---
+
 ## Predictions (Updated)
 
 | ID | Prediction | Timeframe | Confidence | Status |
 |----|------------|-----------|------------|--------|
 | ZHAO-1 | Belgium TIC >$500B | Q1 2026 | **65%** ↑ | ⏳ IMMINENT |
-| ZHAO-2 | China official <$650B | Q3 2026 | 50% | ⏳ Tracking |
+| ZHAO-2 | China official <$650B | ~~Q3 2026~~ **Q2 2026** | **65%** ↑ (LNG crisis accelerates PBOC defense) | ⏳ Accelerated |
 | ZHAO-3 | Combined outflow >$150B/year | 2026 | 45% | ⏳ Tracking |
 | ZHAO-4 | Major LGFV restructuring | H1 2026 | 60% | ⏳ Pending |
 | ZHAO-5 | Trump-Xi summit fails/no deal | Q2 2026 | 55% | ⏳ Pending |
@@ -308,7 +333,8 @@
 | Date | Event | Relevance |
 |------|-------|-----------|
 | **Feb 18** | Dec TIC Data | ✅ RECEIVED — Belgium $477.3B, China $683.5B |
-| **Mar 15** | Feb TIC Data | Next monthly update |
+| **Mar 5** | P&I war risk insurance withdrawal | China self-insures via COSCO/PICC; others can't transit |
+| **Mar 15** | Feb TIC Data | Expect Belgium $480-490B (pre-crisis; no LNG impact yet) |
 | **Apr 2026** | Trump-Xi Summit? | Geopolitical catalyst |
 | **Dec 2026** | SEC Cash Clearing | Arbitrage begins |
 | **Jun 2027** | SEC Repo Clearing | Full mandate |
@@ -320,7 +346,7 @@
 | Agent | Vector | Current Flow |
 |-------|--------|--------------|
 | **LIQUID** | UST demand hole | Belgium $481B + Japan exit = structural gap |
-| **SAM** | Asia anchor pair | Both sovereigns stressed, yen/yuan correlation |
+| **SAM** | Asia anchor pair + LNG shock | Japan (JERA) + Korea (KOGAS) losing Qatari LNG — THREE-anchor synchronized stress |
 | **HENRY** | Risk-off trigger | China crisis → global selloff |
 | **REGINALD** | Bank exposure | US banks with China/HK books |
 
@@ -392,8 +418,30 @@ The risk isn't that China abandons USD. The risk is:
 2. **Fragility** — If they ever DO need to exit fast, the plumbing can't handle it
 3. **Structural demand gap** — Even stable holdings ≠ new buying
 
-**Watch Feb 18:** Does Belgium breach $500B?
+**Watch Feb 18:** Does Belgium breach $500B? ✅ Received: $477.3B (approaching but not breached)
+
+**Watch Mar 15:** Belgium Feb TIC — expect $480-490B. Breach of $500B = ZHAO-1 confirmed.
+
+**Watch Apr/May TIC prints:** First data showing LNG crisis impact on China's dollar position.
+
+**Watch USD/CNY:** 7.30 is the line. If PBOC defends it, UST selling accelerates. If they let it go, market reads it as controlled depreciation — different playbook.
 
 ---
 
-*Last updated: 2026-02-13 15:00 UTC*
+## LNG Crisis Summary (Mar 2, 2026)
+
+| Question | Answer |
+|----------|--------|
+| China Qatar/Hormuz LNG dependency | ~18-22% of imports (~15-18 MT/yr) |
+| Can China replace it? | 50-60% at 2-3x the cost |
+| Energy import bill shock | +$50-60B/year if sustained |
+| Mar 5 insurance cliff impact on China | **MINIMAL** — COSCO/PICC self-insures; Iran bilateral likely |
+| USD/CNY 7.30 timeline | **2-4 weeks** (was: distant yellow) |
+| China official UST <$650B | Pulled forward to **Q2 2026** (was Q3) |
+| Belgium TIC Mar 15 change | None — pre-crisis data; watch April/May |
+| SAM × ZHAO change | **Now THREE anchors: China + Japan + Korea** simultaneously energy-shocked |
+| Combined monthly UST selling risk | **$50-70B/month** (up from $35-50B) |
+
+---
+
+*Last updated: 2026-03-02 22:30 UTC*
