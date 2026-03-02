@@ -1,7 +1,9 @@
 # HENRY STATUS
-**Last Updated:** 2026-02-27 21:45 UTC | **Status:** 🔴 RED — SPX CLOSE 6,843.16 (-0.95%), Dow -777pts (-1.57%), Nasdaq -1.13%, IWM -1.83%, KRE -3.3%, WAL -10.64% (worst regional bank). PPI core +0.8% vs +0.3% exp. AI disruption fears. Credit contagion (Market Financial Solutions UK collapse hitting Barclays/Jefferies/WFC). UBS downgraded US equities. Largest monthly S&P/Nasdaq decline since March 2025.
+**Last Updated:** 2026-03-02 18:30 UTC | **Status:** 🔴 RED+ — WAR OVERLAY. US-Iran war (Operation Epic Fury, Feb 28 weekend). SPX gapped -1.2% at open, RECOVERED to near flat/slightly positive by 1:30PM ET. Buy-the-dip reflex intact. Brent +8.07% to $78.74. ISM Mfg 52.4 (beat 51.8 consensus) but PRICES SUBINDEX JUMPED — stagflation signal. KRE roll in progress today.
 
-**EOD Closes Feb 27:** SPX 6,843.16 | Dow 48,721.66 | Nasdaq 22,620.85 | VIX ~+4% on day (est. ~19.8-20.2 close) | Gold safe-haven bid confirmed | 10Y yield ~3.99% (higher-for-longer repricing)
+**Prior EOD Closes Feb 27:** SPX 6,843.16 | Dow 48,721.66 | Nasdaq 22,620.85 | VIX ~20 (breach) | Gold bid | 10Y ~3.99%
+
+**Mar 2 Intraday (1:30PM ET):** SPX ~flat (recovered from -1.2% gap) | Nasdaq +0.1% (recovered from -1.6%) | Dow recovered from -600pts | Brent $78.74 (+8.07%) | Energy/Defense +1%+ | Software (IGV) +1.5% (dip buy) | Berkshire -5% (insurance earnings) | AVAV -19% (Space Force contract loss)
 
 ---
 
@@ -144,6 +146,24 @@ Risk parity deleverages     → T+5 to T+30
 
 ---
 
+## SESSION LOG — Mar 2, 2026 (AM Scan, 1:30PM ET)
+
+**Geopolitical overlay added:** US-Iran war (Operation Epic Fury) began Feb 28 weekend. Strait of Hormuz disrupted. Oil +8%. Market gapped down, then recovered — buy-the-dip reflex active, NOT a panic cascade (consistent with 30% fast-gamma path NOT triggering).
+
+**ISM Manufacturing Feb:** 52.4 actual vs 51.8 consensus — BEAT. Expansionary (2nd straight month). BUT prices subindex jumped. **Stagflation signal:** manufacturing strong but input costs surging → Fed cannot cut → NIM compression thesis for regionals INTACT or WORSENED.
+
+**New risk layer:** Oil +8% → energy inflation persistence → Fed pinned higher → bad for rate-sensitive names. Also Strait of Hormuz risk = global supply chain disruption = persistent inflation = no Fed relief for regionals.
+
+**AVAV -19%** despite war: Space Force contract cancellation. DOGE/efficiency cuts hitting even defense names. Government spending cuts overriding war-driven defense premium.
+
+**Berkshire -5%:** Insurance underwriting weakness (54% drop in profits). Broad financial sector stress signal.
+
+**KRE roll today:** No specific KRE price data captured. Will monitor. Regional bank thesis unchanged — stagflation + higher-for-longer = NIM squeeze.
+
+**Path probability update:** Slow credit grind 55% path unchanged. TODAY confirmed buy-the-dip instinct alive → SPX recovery masks underlying stress. Credit-primary thesis unchanged.
+
+---
+
 ## EOD LOG — Feb 27, 2026
 
 **Confirmed close:** SPX 6,843.16 (-0.95%) | Dow 48,721.66 (-1.57%) | Nasdaq 22,620.85 (-1.13%) | IWM -1.83% | KRE -3.3% | WAL -10.64%
@@ -172,7 +192,7 @@ Risk parity deleverages     → T+5 to T+30
 **On check-in days:** Lead with any data release from that morning or prior day. Translate surprise → rate path → bank NIM → regional repricing impact.
 
 **Next releases:**
-- Mar 2: ISM Mfg (Feb) — sub-49 = contraction
+- ✅ Mar 2: ISM Mfg (Feb) — 52.4 ACTUAL vs 51.8 exp (BEAT, but prices jumped)
 - Mar 6: NFP (Feb)
 - Mar 11: CPI (Feb)
 - Mar 13: PCE (Jan) + GDP 2nd est

@@ -1,6 +1,6 @@
 # AGENTS DIRECTORY
 
-*Quick reference. Updated: 2026-02-27*
+*Quick reference. Updated: 2026-03-02*
 
 ## Signal Flow
 Sub-agents own detail → distill upward to parents → lateral only when transmission matters. Don't dump raw signals to parents.
@@ -23,6 +23,12 @@ Sub-agents own detail → distill upward to parents → lateral only when transm
 | **ZHAO** | China/capital flows | 🔴 | TIC data, LGFV, HK peg. True holdings ~$1.8-1.9T stable |
 | **HANS** | Europe (US lens) | 🟡 | UST demand, ECB, sovereign spreads. Needs research prompts |
 
+## Synthesis
+
+| Agent | Domain | Status | Key |
+|-------|--------|--------|-----|
+| **NEXUS** | Cross-agent synthesis | 🔴 | Convergence detection, contradiction flagging, threshold clustering, narrative gap |
+
 ## Specialized
 
 | Agent | Domain | Notes |
@@ -42,6 +48,7 @@ Sub-agents own detail → distill upward to parents → lateral only when transm
 LABOR → CARL → REGINALD → repricing
 LIQUID amplifies any stage | HENRY = speed gauge
 SAM + ZHAO + HANS = parallel global risk | HAWK = external shock
+NEXUS synthesizes across all → convergence/contradiction → PROME
 ```
 
 ## File Paths

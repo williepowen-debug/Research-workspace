@@ -1,7 +1,7 @@
 # LIQUID STATUS
-**Last Updated:** 2026-03-02 00:30 UTC | **Status:** 🔴 CRITICAL
+**Last Updated:** 2026-03-02 18:30 UTC | **Status:** 🔴 CRITICAL
 
-**Summary:** Triple failure point converging: (1) Fed losing control of repo rates — SOFR 75th above IORB ceiling mid-month, (2) Foreign demand collapsing — 20Y auction indirect bid 2nd lowest on record, (3) Basis trade at 50-100x leverage absorbing 40-50% of Treasury demand. MFS £2B fraud proved private credit → public market transmission (Barclays -4.2%, Jefferies -10.7% same session). HY OAS 298bps, 22bps from 320 confirmation threshold. CLO equity down 15-40% since Dec. US-Iran war (Feb 28) accelerates risk-off. RRP buffer = zero.
+**Summary:** War + stagflation shock. US-Iran war (Feb 28) triggered NOT flight-to-safety Treasury rally but BOND SELLOFF as inflation fears dominate. ISM Prices Index 70.5% (highest since June 2022, +11.5pp from Jan) released today — input cost spike fastest since 2022 days. Brent ~$80 (from $73 Friday, +9.5%). VIX +18% intraday, highest in 3 months. 10Y yields headed for largest single-day rise since October. HY OAS trajectory accelerating toward 320 (est. 305-315 range now). Stagflation trap confirmed: Fed can't ease into credit stress if oil drives inflation up. Dual-trigger framework under maximum pressure — credit confirmation and funding stress may arrive simultaneously.
 
 ---
 
@@ -37,8 +37,8 @@
 ### Credit Spreads
 | Indicator | Value | Status | Threshold |
 |-----------|-------|--------|-----------|
-| **HY OAS** | **298bps (+12bps/wk)** | 🟠 | **320 = CONFIRMATION** |
-| IG OAS | 82bps (+4bps/wk) | 🟡 | 90 YELLOW, 100 ORANGE |
+| **HY OAS** | **~305-315bps (est, war day 2)** | 🟠→🔴 | **320 = CONFIRMATION — days away** |
+| IG OAS | ~85-90bps (est) | 🟡→🟠 | 90 YELLOW, 100 ORANGE |
 | CLO Equity (Eagle Point) | -15% since Dec | 🔴 | First-loss absorbing |
 | CLO Equity (Oxford Lane) | -25% since Dec | 🔴 | |
 | CLO Equity (Carlyle/Sound Point) | -30% to -40% | 🔴 | Extreme |
@@ -114,11 +114,14 @@
 
 ---
 
-## WAR IMPACT (Feb 28+)
+## WAR IMPACT (Feb 28+) — UPDATED Mar 2
 
-- **Risk-off accelerates credit widening.** HY OAS was tracking toward 320 at +12bps/wk pre-war. War may compress timeline from 2 weeks to days.
-- **Flight to safety → Treasuries rally → yields drop.** This HELPS bank unrealized losses (circuit breaker) but masks plumbing stress underneath.
-- **Oil at ~$80 (Brent).** If sustained >$85, inflation stays hot, Fed trapped — can't ease even as credit stress builds.
+- **CRITICAL REVISION: No flight-to-safety Treasury rally.** Bonds SELLING today. 10Y yields headed for biggest single-day advance since October. Inflation fears from oil spike (→$80 Brent) and ISM Prices 70.5% (highest since June 2022) dominate over safe-haven flows. This traps the Fed.
+- **ISM Manufacturing Prices 70.5% (Feb, released Mar 2).** Input prices at highest since June 2022 — 11.5pp jump from January's 59%. With Hormuz disruptions adding oil/energy cost shock, this could push March ISM Prices even higher. Stagflation signal is not hypothetical — it's live data today.
+- **Oil at ~$80 (Brent), spiked and partially retreated.** Hormuz transit suspended by major oil majors and trading houses. If Hormuz stays disrupted: Brent $85-100 range = 0.6-0.7pp to global inflation per Capital Economics. Fed totally trapped.
+- **Stagflation trap is now the base case.** Credit spreads widening + inflation hot + Fed can't ease + bond yields rising = no circuit breaker from Fed accommodation.
+- **VIX +18% intraday, highest in 3 months.** Dealer hedging costs rising. Less intermediation capacity for Treasury market. Basis trade at risk.
+- **Markets expect short war (2-4 weeks per J.P. Morgan).** If wrong and conflict is prolonged, repricing will be severe — especially for credit. J.P. Morgan calling it a "buy the dip" opportunity in 1-2 weeks — this consensus view is the dangerous one.
 - **Gulf sovereign spread widening.** Bahrain, Kuwait, UAE all hit by Iranian strikes. Kuwait exchange suspended.
 - **War risk insurance repricing.** Black Sea already at 1.0%+ hull value, reviewed daily. Hormuz adds second corridor.
 - **Tanker/crude thesis disrupted.** 140M barrel flush (April-May) may be delayed or offset by Hormuz disruption. TEN ice premium still valid through late March. Crude short timing needs reassessment after war trajectory clarifies.
@@ -177,7 +180,7 @@
 
 | Window | Risk |
 |--------|------|
-| **Now → Mar 14** | War risk-off + HY OAS approaching 320. Credit confirmation possible within days. |
+| **Now → Mar 5** | **ELEVATED** — War day 2-5. Bond selloff + stagflation data (ISM prices 70.5%). HY OAS confirmation 320 possibly this week. Basis trade stress from rising 10Y yields. |
 | **Mar 31** | Quarter-end. SRF breach risk (repeat Dec 31). Basis trade stress. |
 | **April** | Tax season TGA drain. Trump-Xi summit (FOI pre-positioning). |
 | **May** | Powell term ends. Warsh transition = intervention willingness drop. |

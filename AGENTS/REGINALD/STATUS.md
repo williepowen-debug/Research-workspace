@@ -1,5 +1,5 @@
 # REGINALD STATUS
-**Last Updated:** 2026-02-27 22:10 UTC | **Status:** 🔴 CRITICAL — EOD Feb 27 SECTOR ROUT + MFS FRAUD CONTAGION
+**Last Updated:** 2026-03-02 18:30 UTC | **Status:** 🔴 CRITICAL — WAR ESCALATION + KRE -5% + OIL SHOCK + $1.5T CRE DEBT WALL NOW LIVE
 
 **Known Data Issues:** DHS shutdown now Day 14+ (was Day 5 in prior version). OZK earnings were Jan 20, NOT Feb 27. BROCK outbound signal delivered (was "PENDING"). Subprime auto DQ now 7.1% (was 6.74%). PSEC PIK was 8.6% verified, NOT 35%.
 
@@ -107,6 +107,22 @@ All inbox signals processed. See ML-REG-081 through ML-REG-095, VX-REG-17.01 thr
 
 ---
 
+## KEY LEVELS & WATCHLIST (Mar 2 Intraday — 1:30PM ET)
+
+| Ticker | Feb 27 Close | Mar 2 ~1:30PM | Change |
+|--------|-------------|----------------|--------|
+| KRE | $67.67 | ~$64.30 | **-5.0%** |
+| Oil (WTI) | ~$72.87 | ~$80-88 range | **+8-11%** |
+| WAL | $82.16 | TBD — watching $82.5P strike | APPROACHING |
+| OZK | ~$49.9 | TBD — war accelerates CRE mark pressure | WATCH |
+
+**War Macro Transmission (NEW Mar 2):**
+- **Operation Epic Fury** (US-Israel) — Iran Supreme Leader reported dead; Hormuz de facto closed
+- **Oil +8-11%** from $72.87 → ~$80-88 range; BI projected $100 test
+- **Transmission chain ACTIVATED:** Oil spike → persistent inflation → Fed can't cut → NIM compression + higher FHLB funding costs = DOUBLE SQUEEZE for regionals
+- **CRE debt wall $1.5T** described by MarketMinute as "tipping point reached today, not theoretical" — refinancing math "impossible for many landlords" at current rates
+- Fed hold/hike scenario now back on table — DIRECT headwind to April-June bank earnings thesis
+
 ## KEY LEVELS & WATCHLIST (Feb 27 EOD)
 
 | Ticker | Current | Feb High | 2025 Low | From Peak |
@@ -179,8 +195,9 @@ MFS is NOT merely a sentiment catalyst — it is a completed collapse case study
 
 | Date | Event |
 |------|-------|
+| **Mar 2** | **KRE roll day — -5% on open, Hormuz disruption + CRE debt wall collision** |
 | Early Mar | Cantor appraisals |
-| Mar 1 | OPEC+ meeting |
+| Mar 1-2 | OPEC+ meeting — superseded by war/Hormuz dynamic |
 | Apr 16 | OZK Q1 earnings |
 | Apr 20-29 | Q1 bank earnings (ZION → WAL → VLY → EGBN) |
 | May 12 | WAL Investor Day |

@@ -1,7 +1,7 @@
 # CARL STATUS
-**Last Updated:** 2026-03-01 23:45 UTC | **Status:** 🔴 RED
+**Last Updated:** 2026-03-02 13:15 UTC | **Status:** 🔴 RED
 
-**Summary:** Consumer fragility confirmed across multiple vectors. Fannie MF DQ 0.74% (6bps from GFC peak). Subprime auto 60+ DQ at ALL-TIME RECORD (6.9%). Student loan 30+ DQ WORST EVER (16.3%). K-shape validated by Walmart, Wendy's, BKNG. US net savings at ZERO = no shock absorber. War (Feb 28) adds oil/gas price pressure — 2-3 week lag to consumer. Triple transmission: DOGE (0-2mo) + private credit middle-market (May-Jun) + supply-side credit withdrawal (Block/Klarna/Blue Owl).
+**Summary:** Consumer fragility confirmed across multiple vectors. Fannie MF DQ 0.74% (6bps from GFC peak). Subprime auto 60+ DQ at ALL-TIME RECORD (6.9%). Student loan 30+ DQ WORST EVER (16.3%). K-shape validated by Walmart, Wendy's, BKNG. US net savings at ZERO = no shock absorber. War (Feb 28) adds oil/gas price pressure — 2-3 week lag to consumer. Triple transmission: DOGE (0-2mo) + private credit middle-market (May-Jun) + supply-side credit withdrawal (Block/Klarna/Blue Owl). **LABOR UPDATE (Mar 2):** Hiring freeze → "active freeze through Q2 minimum." DOGE >400K confidence 72%. Claims >250K Q2 confidence 70%. WARN 706 notices/85K employees → April-May claims spike base case. Transmission timeline ACCELERATED — Q2 stress pulled forward.
 
 ---
 
@@ -82,15 +82,18 @@ Path F: AI displacement → Prime mortgage stress → Banks (new, from Citrini)
 
 ## DANGER WINDOW: Q2-Q4 2026
 
-| Quarter | Cohort | Trigger | Lag |
-|---------|--------|---------|-----|
-| **Q1-Q2** | Federal contractors (DOGE) | ACTIVE — 273 contracts/$5.1B terminated | 0-2 months |
-| **Q2** | Hourly/gig | Severance exhausts | 0-1 month |
-| **Q2-Q3** | Private credit middle-market | Blue Owl freeze → funding loss → layoffs | May-Jun cuts → Q3 conversion |
-| **Q2-Q3** | Direct federal (RIF) | CR expired, 4K unblocked | 1-3 months |
-| **Q3** | Salaried private | 2-5mo conversion | Broad stress |
-| **Q3-Q4** | Public sector | LAUSD-type cuts | 3-6 months |
-| **Q4+** | All cohorts | → Foreclosures | 6-12 months |
+| Quarter | Cohort | Trigger | Lag | LABOR Update |
+|---------|--------|---------|-----|-------------|
+| **Q1-Q2** | Federal contractors (DOGE) | ACTIVE — 273 contracts/$5.1B terminated | 0-2 months | DOGE >400K conf 72% — ACCELERATED |
+| **Q2** | Hourly/gig | Severance exhausts | 0-1 month | Active hiring freeze Q2+ = no reabsorption |
+| **Q2** | Broad private sector | Hiring freeze → WARN pipeline | WARN→claims Apr-May | 706 notices/85K employees YTD |
+| **Q2-Q3** | Private credit middle-market | Blue Owl freeze → funding loss → layoffs | May-Jun cuts → Q3 conversion | On track |
+| **Q2-Q3** | Direct federal (RIF) | CR expired, 4K unblocked | 1-3 months | NFP Fri expected +45-65K = war + freeze suppressing |
+| **Q3** | Salaried private | 2-5mo conversion | Broad stress | ISM employment 48.1 = contraction active |
+| **Q3-Q4** | Public sector | LAUSD-type cuts | 3-6 months | Claims >250K Q2 at 70% conf |
+| **Q4+** | All cohorts | → Foreclosures | 6-12 months | |
+
+**REVISED ASSESSMENT (Mar 2):** LABOR's active freeze through Q2 closes the reabsorption escape valve. Previously, DOGE-displaced workers had some chance of private sector absorption. That's now effectively zero. WARN pipeline (706 notices → April-May spike) lands directly into the Q2 consumer conversion window. Timeline is not just maintained — it's compressed. Q2 is now HIGH CONFIDENCE for claims breach and consumer stress escalation.
 
 **Dual fast paths:** DOGE contractors (converting NOW) + private credit freeze (May-Jun). Combined = Q2-Q3 stress ACCELERATED beyond original forecasts.
 
@@ -190,4 +193,4 @@ Path F: AI displacement → Prime mortgage stress → Banks (new, from Citrini)
 
 ---
 
-*Next update: After oil price settles (war impact lag) + ICE First Look Jan 2026 + NFP Mar 6*
+*Next update: NFP Mar 6 (DOGE signal) + ICE First Look Jan 2026 (overdue) + ICE Mortgage Monitor Mar 5 webinar. Oil/gas lag check ~Mar 14-17.*

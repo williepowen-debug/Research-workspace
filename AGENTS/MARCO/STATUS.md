@@ -1,7 +1,7 @@
 # MARCO STATUS
-**Last Updated:** 2026-03-02 00:15 UTC | **Status:** 🔴 RED
+**Last Updated:** 2026-03-02 13:45 UTC | **Status:** 🔴 RED
 
-**Summary:** Population movement disruptions creating localized stress in Tier-1 states (FL/TX/CA/AZ). Florida thesis CONFIRMED at 95% confidence — migration collapsed 93% (311K→23K, #1→#8 destination). Canadian tourism structural rupture (-28% YoY, airlines physically redirected aircraft). DHS shutdown Day 13+, E-Verify suspended, TSA walkout risk Mar 14. US-Iran war adds tourism/DHS complexity. Ag labor fear-withdrawal confirmed but geographically uneven. Americans emigrating at rates not seen since 1930s (WSJ).
+**Summary:** Population movement disruptions creating localized stress in Tier-1 states (FL/TX/CA/AZ). Florida thesis CONFIRMED at 95% confidence — migration collapsed 93% (311K→23K, #1→#8 destination). Canadian tourism structural rupture (-28% YoY, airlines physically redirected aircraft). DHS shutdown Day 15+, E-Verify suspended, TSA walkout risk Mar 14. US-Iran war (Khamenei killed Mar 1) now being weaponized as political cover for DHS shutdown resolution — probability of resolution THIS WEEK significantly elevated. 2.2M self-deportations in 2025 (DHS data) = labor supply shock dramatically larger than -155K ag figure tracked. Ag labor fear-withdrawal confirmed but geographically uneven. Americans emigrating at rates not seen since 1930s (WSJ). FL March Break Canadian redirection confirmed active.
 
 ---
 
@@ -20,11 +20,13 @@
 
 ## ACTIVE SITUATIONS
 
-### US-Iran War (Feb 28+)
-- War adds uncertainty to DHS shutdown resolution timeline — political attention diverted
-- TSA/airport operations strained by both war security posture AND unpaid workforce
-- International tourism to US likely suppressed further (Middle East airspace closed, 700+ flights cancelled)
+### US-Iran War (Feb 28+) — UPDATED Mar 2
+- **DHS SHUTDOWN RESOLUTION NOW LIKELY THIS WEEK** — Republicans using Iran strikes as direct leverage. Scalise: "It is dangerous for Democrats to keep DHS shut down." FBI issued elevated threat warning for homeland. War security framing shifts political dynamics fundamentally.
+- Democrats counter-pushing: war powers vote on Iran (requires Congressional authorization). Political trade possible: Dems drop shutdown opposition in exchange for war powers vote? Uncertain.
+- TSA/airport operations strained by both war security posture AND unpaid workforce — but resolution accelerating
+- International tourism to US further suppressed (Middle East airspace, 700+ flights cancelled)
 - Oil spike → airline fuel costs → potential further capacity cuts to FL routes
+- **Scenario change:** If DHS funded this week → E-Verify resumes immediately → enforcement surges → ag/construction labor shock accelerates INTO planting season (worst timing). Mar 14 TSA walkout risk drops significantly if resolution happens before paycheck miss.
 
 ### DHS Shutdown (Day 13+, ongoing)
 - Senate 50-45 vote fell short of 60-vote threshold — continues
@@ -49,6 +51,13 @@
 - **This is structural capacity shift, not sentiment** — takes years to reverse
 - Canada Tourism Index (CTI): 0.72 vs 2019 baseline (crisis = <0.75)
 
+### Self-Deportation Scale — CRITICAL NEW DATA (Mar 2)
+- DHS data (via EADaily/WSJ aggregate): **2.2 million self-deportations in 2025** + 675K formal deportations = ~2.875M total exits
+- This dwarfs the -155K ag employment figure. Fear-withdrawal is not just farmers leaving fields — it's a civilizational-scale population exit.
+- Total 2025 immigration inflow ~2.7M (below peak of 6M in 2023). Net flow now essentially zero or negative.
+- **Implication:** Labor supply shock is already happening, not pending. The -35% Latino industry collapse (-93% construction) and -155K ag gap represent the *visible* tip. The full shock is 10-15x larger.
+- **New vector proposed:** VX-MARCO-SDL-01 — Self-Deportation Labor Displacement Index (tracking 2.2M baseline, monitor for acceleration in 2026)
+
 ### Ag Labor Fear-Withdrawal
 - H-2A certifications: 415K FY2025 (8.6x since 2005). Only 182 domestic applicants out of 415K (<0.04%).
 - Fear-withdrawal confirmed in MN (-12% H-2A), WA (cherry crop losses), NC (documented stress)
@@ -58,7 +67,7 @@
 - **Planting season NOW (Mar-May)** — fear-disruption risk peaks
 - **DATA GAP:** USDA canceled Ag Labor Survey + DOL canceled NAWS. Primary tracking tools eliminated.
 
-### Americans Emigrating (WSJ, Feb 26) — UNPROCESSED INBOX
+### Americans Emigrating (WSJ, Feb 26) — INTEGRATED Mar 2
 - Net US migration **negative 150K in 2025** — first since 1930s Great Depression
 - 180K+ citizens moved abroad (15-country sample, total higher)
 - Top destinations: Spain, Netherlands, Czech Republic, Ireland (doubled in decade)
@@ -208,8 +217,10 @@ Mexican shopper revenue collapse: Laredo 51%→13%, Brownsville 26%→3.3%, El P
 
 | Item | Status | Priority |
 |------|--------|----------|
-| Americans emigrating signal (WSJ) | In inbox, unprocessed | 🟡 |
+| Americans emigrating signal (WSJ) | INTEGRATED into STATUS | ✅ |
 | VX-MARCO-EMG-01 (emigration vector) | Awaiting PROME approval | 🟡 |
+| VX-MARCO-SDL-01 (self-deportation vector) | Proposed this session — awaiting PROME approval | 🔴 |
+| DHS shutdown resolution (war leverage) | Monitor daily — resolution possible this week | 🔴 |
 | Thompson standalone Ag Labor Bill | Not yet released (expected Q1-Q2 2026) | 🟠 |
 | ICE First Look Jan 2026 | Overdue — check for FL-specific data | 🟠 |
 | Statistics Canada Jan 2026 | Expected ~Mar 20 | 🟡 |
@@ -222,8 +233,9 @@ Mexican shopper revenue collapse: Laredo 51%→13%, Brownsville 26%→3.3%, El P
 
 | Date | Event | Significance |
 |------|-------|-------------|
+| **This week** | DHS shutdown resolution? | Iran war pressure — watch for Senate vote | 
 | **Mar 6** | NFP (Feb) | DOGE/RIF signal in federal employment |
-| **Mar 14** | TSA full paycheck miss | Walkout trigger — spring break peak |
+| **Mar 14** | TSA full paycheck miss | Walkout trigger — spring break peak — RISK DROPS if DHS funded this week |
 | ~Mar 20 | Statistics Canada Jan 2026 | First 2026 Canadian data |
 | Mar-May | Planting season | Ag fear-withdrawal peak risk window |
 | Q1-Q2 | Thompson Ag Labor Bill release | H-2A year-round reform (dairy, meatpacking) |
