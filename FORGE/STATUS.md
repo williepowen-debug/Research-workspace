@@ -1,6 +1,6 @@
 # FORGE — Trading Operations
 
-**Updated:** 2026-02-27 close | **Account:** $44,215 | **All-Time:** +158.6% | **Day:** -$1,053 (-2.33%)
+**Updated:** 2026-03-03 ~1:40 PM ET | **Account:** ~$46,807 | **All-Time:** +155.2% | **Day:** -$553 (-1.17%)
 
 ---
 

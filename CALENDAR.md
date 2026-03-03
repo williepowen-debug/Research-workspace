@@ -9,12 +9,16 @@
 | Date | Event | Owner | Priority |
 |------|-------|-------|----------|
 | Early Mar | CFPB Funding Lapse | OTTO | 🔴 |
-| Mar 6 | NFP (Feb) | HENRY | 🔴 |
+| **Mar 5** | **Insurance cliff — 7/12 P&I clubs pull Hormuz coverage (MOOT — Hormuz closed)** | HAWK | 🔴 |
+| **Mar 6** | **NFP (Feb) — consensus +65K, shadow gap says big miss possible** | HENRY | 🔴 |
 | Mar 11 | CPI (Feb) | HENRY | 🟠 |
 | Mar 13 | PCE (Jan) + GDP 2nd est | HENRY | 🟠 |
-| Mar 13-14 | BOJ Meeting | SAM | 🔴 |
 | Mar 15 | Carvana Discovery Production 1 | OTTO | 🟠 |
-| Mar 17-18 | **FOMC (SEP + dot plot)** | HENRY | 🔴 |
+| **Mar 13** | **KRE $66P expiry + PCE + GDP** | PROME/HENRY | 🔴 |
+| Mar 13-14 | BOJ Meeting | SAM | 🔴 |
+| Mar 14-21 | Gas pump peak stress window (CARL) | CARL | 🔴 |
+| **Mar 17-18** | **FOMC (SEP + dot plot)** | HENRY | 🔴 |
+| **Mar 20** | **WAL $77.5P expiry** | PROME | 🟠 |
 | Mar 31 | Q1 Quarter-End | LIQUID | 🟠 |
 | ~Mar 31 | Japan FY-End ESR Disclosures | SAM | 🔴 |
 | ~Mar 31 | JPM Collar Expiry | HENRY | 🟡 |
@@ -26,6 +30,7 @@
 | Date | Event | Owner | Priority |
 |------|-------|-------|----------|
 | Apr 3 | NFP (Mar) | HENRY | 🔴 |
+| **Apr 17** | **APO $100P expiry** | PROME | 🔴 |
 | Apr 10 | CPI (Mar) | HENRY | 🟠 |
 | Apr 15 | Tax Season / TGA rebuild | LIQUID | 🟠 |
 | **Apr 16** | **OZK Q1 Earnings** | REGINALD | 🔴 |

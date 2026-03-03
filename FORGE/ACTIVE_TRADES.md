@@ -3,7 +3,54 @@
 *Every trade gets logged here at entry with full thesis. Updated as trades evolve.*
 *P/L tracking lives in FORGE/STATUS.md. This file is the WHY, not the what.*
 
-**Last Updated:** 2026-03-02 (Session 2)
+**Last Updated:** 2026-03-03
+
+---
+
+## New Entries — March 3, 2026
+
+### KRE $66P Mar 13 | 1 contract @ $1.45 | Cost: $146
+**Conviction at entry:** 60%
+**Breakeven:** $64.55
+
+**Thesis:** Pure NFP lotto. KRE hit $65.30 intraday Mar 3 (Hormuz gap down). 10-day expiry. Binary on NFP Friday — if big miss (<+30K), this prints 2-3x. If NFP beats, worthless.
+
+**What confirms:** NFP miss, Hormuz stays closed, continued selloff through week.
+**What kills it:** NFP >+80K, dip-buyers hold $66+, short squeeze.
+
+---
+
+### WAL $77.5P Mar 20 | 1 contract @ $2.24 | Cost: $225
+**Conviction at entry:** 65%
+**Breakeven:** $75.26
+
+**Thesis:** Short-dated catalyst play. WAL death cross forming on 3M chart. Down 16% in 3 weeks ($96→$80). Feb 27 gap ($84-89) unfilled = overhead resistance. Lower highs ($89→$83→$81). 17-day expiry covers NFP + one more week of potential decline.
+
+**What confirms:** NFP miss, death cross completes, WAL breaks $78 support.
+**What kills it:** WAL reclaims $84 (gap fill), strong NFP, sector short squeeze.
+
+---
+
+### APO $100P Apr 17 | 1 contract @ $4.02 | Cost: $403
+**Conviction at entry:** 70%
+**Breakeven:** $95.98
+
+**Thesis:** Catalyst play layered on top of Jun $100P thesis position. APO at $107.55, making lower highs ($121→$108). Hit $99 on Feb 27 (convergence day). $100 is critical support — one cockroach away from breaking. Apr covers NFP, FOMC Mar 17-18, and April bank earnings. Half the cost of Jun with more gamma.
+
+**What confirms:** Cockroach #5, Athene surrender data, Q1 earnings revealing private credit losses, HY OAS >350.
+**What kills it:** Credit reverses, APO reclaims $115, emergency Fed facility.
+
+---
+
+### USO $90C Mar 13 — CLOSED ✅
+- **Entry:** $2.87 | **Exit:** $5.96 | **P/L: +$323 (+113%)**
+- Will's conviction trade on energy. Prome was initially skeptical. Hormuz closure validated.
+
+---
+
+## Trimmed — March 3, 2026
+- **SLV** — partial trim, -12.6%, low conviction
+- **CEPT** — partial trim, -3%, low conviction
 
 ---
 
