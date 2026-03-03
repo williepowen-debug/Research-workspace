@@ -143,3 +143,23 @@ See `docs/SIGNAL_ROUTING.md` for protocol.
 - JEF + SAN (Santander): Both confirmed exposed to MFS UK collapse. Arranger liability narrative now mainstream.
 - Oil +11%: Operation Epic Fury / Hormuz. Inflationary = Fed hesitation on cuts = funding cost pressure persists for banks.
 **Implication for REGINALD:** The CRE litigation → bank stock drop pathway is NOW LIVE. WAL is the first casualty but it won't be the last. Banks with fund finance lines to Apollo/KKR/Ares BDCs are next. Pull H.8 update when available — the C&I reclassification you flagged last week will start showing stress in this environment. Flagstar (FLG) also dropped sharply today per same KRE article. Priority: map which regional banks have fund finance exposure to the gating BDC funds.
+
+---
+
+# BROCK → REGINALD Signal — Mar 3, 2026 (EOD)
+**Level:** 🔴 RED — ESCALATING
+**Summary:** BCRED redemptions ($3.7B, 7.9% NAV) forced cap lift; DB warns $143B BDC forced sells; TCPC BlackRock BDC securities fraud = marks-are-fake confirmed at largest-manager level; forced liquidation timeline now measurable in weeks.
+
+**Key data:**
+- BCRED: $3.7B Q1 redemptions = 7.9% of $82B NAV; cap lifted 5%→7%; Blackstone/employees injected $400M; net outflows $1.7B (Reuters, 3/3). BX stock -8% intraday to 2-year low.
+- Deutsche Bank (Bloomberg, 3/3): BDCs hold $143B in leveraged loans that could be force-sold to meet redemptions → spreads widen → more marks impaired → more redemptions. Self-reinforcing.
+- TCPC (BlackRock TCP Capital): securities fraud class action; NAV overstated Nov 2024-Jan 2026; -12.97% on disclosure. Credits: Edmentum/SellerX/InMobi = AI-disrupted sectors. If BlackRock's marks were fake, every BDC's marks are in question.
+- Blue Owl OBDC II: $1.4B loan sale executed (Mar 3 CNBC). Watch clearing prices for forced-discount signal.
+- Treasury 10Y <4% (war/risk-off). Fund finance lines collateralized by assets that are now demonstrably impaired.
+- Blankfein: "private credit reckoning" warning for $1.7-1.8T sector.
+
+**Implication for REGINALD:**
+1. **Fund finance line risk is NOW** — Banks (GS, JPM, Barclays, Wells Fargo fund finance desks) holding credit lines against BCRED, OBDC I, ARCC have collateral that needs to be liquidated. When BDCs sell loans at discount, collateral values fall below maintenance covenants → margin calls → forced selling → spread widening → more marks down. Feedback loop is starting.
+2. **TCPC is your smoking gun** — A BLACKROCK-managed BDC had its NAV fraudulently overstated for 14+ months. No bank analyst saw it. Every fund finance desk that extended credit to TCPC based on those marks got hurt. This will cause banks to re-underwrite their ENTIRE BDC fund finance portfolio — tightening lines, raising haircuts, reducing leverage. That's the credit contraction event.
+3. **Forced-sell timeline**: OBDC II selling now (by 3/31); BCRED quarterly redemption cycle (Q2 cap = 7% unless lifted again); DB warning = sell-side now openly modeling the cascade. 4-8 weeks to first observable loan price dislocations.
+4. Flag for your watch: Which banks are the fund finance counterparties for BCRED ($82B), OBDC I (~$30B), ARCC ($25B)? Those are your next stress names.

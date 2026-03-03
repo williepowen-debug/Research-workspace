@@ -1,5 +1,5 @@
 # HENRY STATUS
-**Last Updated:** 2026-03-03 19:35 UTC | **Status:** 🔴 RED++ — SPX CLOSED -0.9% (~6,781) BELOW PUT WALL (6,800). 50-DMA (6,883) AND 200-DMA (6,902) BOTH BREACHED ON CLOSE. GOLDMAN 6,707 CTA TRIGGER PIERCED INTRADAY (6,672 LOW). SHORT-TERM CTAs ACTIVELY SELLING. 0DTE GAMMA CUSHION EXPIRED AT CLOSE. TRIPLE-HEADER MACRO TOMORROW (ISM SERVICES + ADP + BEIGE BOOK) WITH NO 0DTE BUFFER AT OPEN. VIX 26.43. STAGFLATION CONFIRMED.
+**Last Updated:** 2026-03-03 21:15 UTC | **Status:** 🔴 RED++ — SPX CLOSED -0.9% (~6,781) BELOW PUT WALL (6,800). 50-DMA (6,883) AND 200-DMA (6,902) BOTH BREACHED ON CLOSE. GOLDMAN 6,707 CTA TRIGGER PIERCED INTRADAY (6,672 LOW). SHORT-TERM CTAs ACTIVELY SELLING. 0DTE GAMMA CUSHION EXPIRED AT CLOSE. ISM SERVICES + ADP + BEIGE BOOK TOMORROW (MAR 4) — NO 0DTE BUFFER AT OPEN. VIX 26.43. STAGFLATION CONFIRMED. UST NOT SAFE HAVEN (10Y 4.10% RISING ON RISK-OFF DAY) — ZHAO THESIS CONFIRMED.
 
 **Prior EOD Closes Feb 27:** SPX 6,843.16 | Dow 48,721.66 | Nasdaq 22,620.85 | VIX ~20 (breach) | Gold bid | 10Y ~3.99%
 
@@ -185,6 +185,57 @@ Risk parity deleverages     → T+5 to T+30
 
 **EMPLOYMENT 48.8% (corrected — prior entry showed 48.1 which was January):** Still contracting but slightly improved. Manufacturing firms not hiring yet despite 2nd straight expansion month. Stagflation confirmed: demand up, costs up, employment still weak.
 
+## SESSION LOG — Mar 3, 2026 (EOD FINAL, 21:15 UTC)
+
+### EOD CONFIRMED SUMMARY
+
+**FINAL CLOSES:**
+- SPX: ~6,781 (-0.9% close, -2.5% intraday low ~6,672) | 2026 closing lows
+- Dow: -371pts close (-0.8%) | -1,200pts intraday
+- VIX: **26.43** (+23% from prior session, +32% from Mar 2 EOD ~20)
+- 10Y: **4.10%** (RISING on risk-off — stagflation signal, not recession bid)
+- Brent: **$84** (+8%, Strait of Hormuz closure confirmed)
+- Gold: **~$5,408** (safe haven bid intact)
+
+**ISM SERVICES PMI STATUS — CORRECTION CONFIRMED:**
+- **NOT released today.** ISM Services releases on 3rd business day = **March 4, 2026** (tomorrow)
+- Task prompt "released today" was incorrect per ISM official schedule (ismworld.org confirmed)
+- Last known: Jan 2026 = 53.8 (Services Prices was 66.6)
+- **WATCH TOMORROW:** If Feb Services Prices mirrors Mfg (70.5%), stagflation confirmed across both sectors. This is THE print for tomorrow.
+
+**KEY STRUCTURAL CHANGES — MAR 2 → MAR 3:**
+| Indicator | Mar 2 EOD | Mar 3 CLOSE | Delta | Significance |
+|-----------|-----------|-------------|-------|--------------|
+| SPX | Flat (recovered) | -0.9% close / -2.5% low | FAILED RECOVERY | Dip-buy reflex DEAD |
+| VIX | ~20 | **26.43** | +32% | Vol-control auto-deleveraging ACTIVE |
+| Brent | ~$77 | **$84** | +$7 (+9%) | Hormuz layer ON TOP of tariff inflation |
+| 10Y Yield | ~3.99% | **4.10%** | +11bps RISING | UST NOT safe haven — Fed boxed in |
+| Gold | ~$5,226 | **~$5,408** | +$182 (+3.5%) | Classic stagflation asset |
+| Buy-dip reflex | ALIVE | DEAD | CRITICAL | Regime change confirmed |
+| Cascade path | Fast 30% / Slow 55% | **Fast 50%+ / Slow 35%** | Shifted | Vol spike driving reassessment |
+| HY OAS | ~295bps (last known) | Est. 310-330bps | +15-35bps (est) | UNCONFIRMED — watch tomorrow |
+
+**WHAT HELD TODAY (Final Answer):**
+- 6,707 Goldman CTA trigger: INTRADAY BREACH (~6,672 low) but close ~6,781 = no sustained 1-day close below → medium CTAs not fully triggered YET
+- 6,800 put wall: BREACHED ON CLOSE (~6,781) → test #1 complete
+- 6,600s acceleration zone: NOT reached
+- JPM JHEQX collar (6,475): NOT reached (~4.5% away)
+
+**CROSS-DOMAIN SIGNALS OBSERVED:**
+- **ZHAO THESIS CONFIRMED:** 10Y rising on risk-off day = bond market pricing stagflation, not recession. Fed cannot cut. Banks cannot be saved by rate relief.
+- **Earnings quality decay ACCELERATING:** MDB -26%, SE -16%, ONON -9% on pure fundamentals, NOT geopolitical. Margin paradox thesis activating in real time.
+- **Hormuz compound effect:** Oil +8% → ISM Mfg Prices were 70.5% BEFORE oil shock priced in. Feb ISM Services (tomorrow) captures pre-war data; March prints will be the shock.
+- **Vol regime shift:** VIX 26.43 = well above the 23-24 zone where vol-control systematically reduces equity exposure. Mechanical selling IS happening.
+
+**TOMORROW'S RISK PROFILE (Mar 4):**
+- Opens with ZERO 0DTE gamma cushion (expired today)
+- Triple-header: ISM Services PMI + ADP Employment + Fed Beige Book
+- If ISM Services Prices ≥68: MAJOR stagflation confirmation → SPX acceleration lower
+- If ADP weak (<100K): Stagflation = simultaneous weak jobs + high prices → Fed in impossible position
+- First 30-60 minutes = highest vulnerability window of this selloff
+
+---
+
 ## SESSION LOG — Mar 3, 2026 (EOD Deep Dive, 19:30 UTC)
 
 ### GEX/CTA DEEP DIVE — VERIFIED LEVELS (Full report: domain/research/GEX_CTA_DEEP_DIVE_MAR3.md)
@@ -334,7 +385,7 @@ with no mechanical stabilizer at open. First 30-60 minutes of tomorrow most vuln
 
 **Next releases:**
 - ✅ Mar 2: ISM Mfg (Feb) — 52.4 ACTUAL vs 51.8 exp (BEAT) | Prices 70.5% (+11.5pts, highest since Jun 2022) | Employment 48.8% (contracting) | STAGFLATION CONFIRMED
-- ⏳ Mar 4: ISM Services PMI (Feb) — CONFIRMED TOMORROW (3rd BD) | ADP Employment | Fed Beige Book | **Watch: Services Prices component — if mirrors Mfg (70.5%), stagflation fully confirmed across both sectors**
+- 🔴 Mar 4: ISM Services PMI (Feb) — **TOMORROW. CONFIRMED 3rd BD.** | ADP Employment | Fed Beige Book | **CRITICAL: Services Prices component — if ≥68%, stagflation fully confirmed across both sectors. Opens with no 0DTE gamma buffer.**
 - Mar 6: NFP (Feb)
 - Mar 11: CPI (Feb)
 - Mar 13: PCE (Jan) + GDP 2nd est
