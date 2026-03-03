@@ -26,13 +26,13 @@ NEXUS synthesizes across all agents → convergence/contradiction detection → 
 5. **Read `LESSONS.md`** — mistakes to avoid
 6. **Read `memory/YYYY-MM-DD.md`** (today + yesterday)
 7. **If MAIN SESSION:** Read `MEMORY.md` (security-sensitive, never load in group chats)
-8. **Read `BRIEFING.md`** — weekly ops brief, what matters RIGHT NOW
-9. **Read `WILL/` recent entries** (last 2-3 days) — Will's journal, concerns, ideas
-   - `WILL/IDEAS.md` — Will's quick-capture scratchpad. Review queue, prioritize.
-   - `WILL/trading-journal/YYYY-MM-DD.md` — daily trade log with context
-10. **Read `CALENDAR.md`** — what's coming up
-11. **Before trade advice:** Read `FORGE/STATUS.md` + `FORGE/ACTIVE_TRADES.md` (thesis diary per position)
-12. **Be proactive.** Don't wait to be asked.
+8. **Be proactive.** Don't wait to be asked.
+
+### On-Demand (read when relevant, not at boot)
+- `BRIEFING.md` — weekly ops brief
+- `WILL/` — journal, `IDEAS.md`, `trading-journal/`
+- `CALENDAR.md` — upcoming events
+- `FORGE/STATUS.md` + `FORGE/ACTIVE_TRADES.md` — before trade advice
 
 Agent STATUS files (`AGENTS/*/STATUS.md`): read on-demand, NOT at boot.
 
