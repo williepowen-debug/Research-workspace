@@ -1,108 +1,40 @@
 # LESSONS.md — Mistake Patterns & Rules
 
-*Learn once, prevent forever. Review at session start.*
+*Review at session start. If you catch yourself breaking one, stop.*
 
 ---
 
-## Core Rules
+## 🔴 Costly Mistakes (These Lost Money)
 
-### [Verification] — Verify Before Citing
-**Pattern:** Multiple mistakes from trusting secondary sources, agent data, or own STATUS files without checking primary sources.
-**Rules:**
-1. Agent-sourced metrics → verify against SEC 10-K/10-Q before trading
-2. Earnings dates → verify from company IR page or SEC 8-K
-3. Real-time prices (VIX, oil, yields) → pull from actual sources, not STATUS files
-4. Bond ETF comparisons → check duration before inferring credit signal
-5. Data with caveats (calendar effects, seasonal adjustments) → read the source's methodology
-6. Regulatory buffers → verify regulations weren't rolled back (post-2018 regionals exempt from CCAR/DFAST)
-7. Indicator type → confirm leading/coincident/lagging before using as signal (FHLB is lagging)
+### Don't Override Conviction With Probabilistic Hedging
+Recommended closing CVNA put before earnings. Stock dropped 20% — would have been near-max profit. Implied moves are consensus, not ceilings. When someone has conviction + timing, don't talk them out unless the THESIS is broken.
 
-### [Analysis] — Don't Override Conviction With Probabilistic Hedging ⚠️ COSTLY
-**Mistake:** Recommended closing CVNA put spread before earnings. Said "even a big miss likely lands above your strike." Stock dropped 20% — would have been near-max profit.
-**Rules:**
-1. Implied moves are consensus, not ceilings. Actual moves regularly exceed implied.
-2. Never say "even a big miss won't reach X" — that's predicting magnitude.
-3. When someone has conviction + timing, don't talk them out of it unless the THESIS is broken.
-4. Don't inject false urgency ("20 min to close") that biases toward action when inaction is valid.
+### Mechanical Before Creative
+KRE roll was #1 priority. Got pulled into oil thesis → airlines → new positions. Never executed the roll or trimmed WAL at +133%. **Execute urgent trades (rolls, trims, expiries) BEFORE opening new research threads.**
 
-### [Analysis] — Test Thesis Against Data, Not Data Against Thesis
-**Mistake:** Assumed consumer finance stress (SYF, BFH, ALLY) based on thesis, but SEC filings showed improvement.
-**Rule:** For any "stress" claim, check actual filings. K-shape means different populations behave differently. Confirmation bias is the biggest risk.
+### Deploy Agents Then Wait
+Deployed 4 agents to inform AAL, entered the trade before any came back. If you deploy agents for a decision, WAIT for outputs. If urgent, don't deploy — just decide.
 
-### [Analysis] — Cross-System Timing Requires Cross-System Reads
-**Mistake:** Gave "Q2-Q3" timing estimate from a single-vector read.
-**Rule:** Timing estimates spanning the full thesis require reading all agent STATUS files, not just the one you're working on.
-
-### [Process] — Agent Standup Checklist
-**Learned from:** BROCK creation (Feb 26) — multiple issues caught.
-**Rules:**
-1. Audit inherited data — flag anything stale or verified-wrong
-2. Verify receiving agent's inbox format before defining signal paths
-3. Route signals to most granular specialist first
-4. Do a "first boot simulation" before spawning — read every file they'll see
-
-### [Process] — Structured Adversarial Debates
-**Learned from:** RED team sessions — probability tracking forces honest engagement.
-**Rules:**
-1. Run steelman + cross-examination + scenario matrix for major trades
-2. Track probability movements — side that moved more engaged more honestly
-3. Judge intervention with new information is most effective at forcing updates
-
-### [Verification] — Agent Claims Can Be Hallucinated
-**Mistake:** DARWIN reported "Sonnet 4.6 dropped" — implemented upgrade, broke all sub-agents (model doesn't exist).
-**Rule:** Before implementing any agent-recommended upgrade, verify it exists via official docs or API test.
+### Enter Puts on Green Days, Calls on Red Days
+Entered AAL puts on a -4-7% day. Default: puts on green, calls on red. Note when breaking and why.
 
 ---
 
-### [Process] — Never Skip Boot Sequence
-**Mistake:** Read 3 files instead of full boot, jumped to responding. Misread WAL -10% as +10%, gave sloppy analysis, Will noticed.
-**Rule:** AGENTS.md boot sequence is mandatory. Every session, no shortcuts. Read SOUL → USER → LESSONS → memory → PROME/STATUS → FORGE/STATUS before saying anything substantive. The 2 minutes it takes prevents the 10 minutes of bad output.
+## 🟡 Verification Rules
 
-### [Process] — Write Files For How You Actually Read Them
-**Learned from:** FOLLOW_UP.md rewrite (Feb 27). First version was a research to-do list. Second version was a self-correction tool.
-**Rules:**
-1. You skim headers and bold text first — put the important stuff there
-2. Guardrails before opportunities — "things you might be wrong about" goes ABOVE "things to investigate"
-3. Questions > statements — "Is Athene ring-fenced?" is actionable, "investigate Apollo's structure" is vague
-4. Include counters inline with claims — don't put them in a separate section you'll skip
-5. Specific spawn commands > "have agent look into it" — copy-pasteable saves a thinking step
-6. Add a meta instruction telling future-you to MAINTAIN the file, not just consume it
+1. **Agent data can be hallucinated.** Verify against SEC 10-K/10-Q before trading. (DARWIN "Sonnet 4.6" incident, PSEC PIK 35% → actual 8.6%)
+2. **Earnings dates** → company IR page or SEC 8-K. (OZK was wrong twice)
+3. **Real-time prices** → pull live, not from STATUS files.
+4. **Direction on screenshots** → state explicitly, verify against context. (Called WAL -10.64% as +10.64%)
+5. **Test thesis against data, not data against thesis.** Consumer finance showed improvement when thesis said stress. K-shape is real.
+6. **Timing estimates** require reading ALL agent STATUS files, not just one.
 
-### [Analysis] — Double-Check Direction When Reading Screenshots
-**Mistake:** Called WAL +10.64% (it was -10.64%), called a red watchlist "green." Twice in one session. Extracted correct numbers but inverted the sign/color.
-**Rule:** When reading price screenshots, state the direction explicitly and verify against context. If everything else is selling off, a stock isn't up 10%.
+---
 
-### [Dashboard] — Removing HTML? Grep JS for the IDs
-Bare `getElementById('gone').textContent` kills the ENTIRE function. Cascade failure: KRE populated but VIX/USDJPY/all strip cards showed "—". Always null-guard.
+## 🟡 Process Rules
 
-### [Process] — Don't Spiral on Debugging
-**Pattern:** When something doesn't work as expected (e.g., browser showing stale data), I re-read the same code 5+ times, add debug logging, check the same API endpoint repeatedly — burning context and Will's patience.
-**Rule:** If code works when tested directly (curl, python -c) but not in browser → it's caching. Say "hard refresh" and move on. Max 2 attempts before asking user to check browser console or refresh.
-
-*Last reviewed: 2026-03-02*
-
-### [Operations] — Mechanical Before Creative
-**Pattern (Mar 2):** KRE roll was #1 priority at open. Got pulled into oil thesis → tankers → airlines → new positions. Never came back to trim WAL at +133% or execute the roll. Exciting research ate disciplined portfolio management.
-**Rule:** Execute urgent mechanical tasks (rolls, trims, expiring positions) BEFORE opening new research threads. New ideas go to scratchpad, not immediate execution.
-
-### [Operations] — Deploy Agents Then Wait For Them
-**Pattern (Mar 2):** Deployed 4 agents (NEXUS, CARL, HENRY, LABOR) to inform AAL decision, then entered the trade before any came back. Instinct was right but the process was wrong — wasted compute and skipped the analysis we paid for.
-**Rule:** If you deploy agents for intel on a trade decision, WAIT for the outputs before acting. If the trade is urgent, don't deploy agents — just decide.
-
-### [Operations] — Will's Ideas = Capture, Don't Execute
-**Pattern (Mar 2):** Will drops ideas mid-session (oil calls, airline puts, NEXUS creation). Each one is good but compounds into scope creep. Session went from "KRE roll + profit taking" to 6 different workstreams.
-**Rule:** When Will shares a new idea mid-priority, say "logging it" and add to scratchpad. Finish current priority first. Come back if time permits, otherwise next tide.
-
-### [Trading] — Enter Puts on Green Days, Calls on Red Days
-**Pattern (Mar 2):** Entered AAL puts on a day airlines were already down 4-7%. Left money on the table vs waiting for a bounce.
-**Rule:** Not a hard rule — sometimes urgency wins. But default: puts on green days, calls on red days. Note when breaking the rule and why.
-
-### ALWAYS read a file before editing it — and respect subagent work
-- **Recurring bug (4+ sessions):** Edit fails because text doesn't match. Happens throughout sessions, not just handoff.
-- Three causes: (1) subagent modified the file, (2) file was restructured in a prior session, (3) I'm guessing at content from memory instead of reading first.
-- **Rule 1:** NEVER call the Edit tool without reading the file (or the relevant section) in the same turn. No exceptions.
-- **Rule 2:** After a subagent completes, READ what they changed before making your own edits to the same file. Their updates may be more current than yours.
-- **Rule 3:** If you spawned a subagent to update a file, DON'T also edit that file yourself. Let the subagent own it. If you need to add something, do it AFTER reading their completed version.
-- **Risk:** If you edit from stale memory and the text still happens to match, you could silently overwrite correct subagent updates with outdated info. The edit "succeeding" can be WORSE than it failing.
-- **If an edit fails:** Read the file, find the actual text, try again. Don't tell Will "don't worry about it."
-- **Meta-rule:** If the same error happens 2+ times across sessions, it's a pattern — fix it, don't dismiss it.
+1. **Read before editing. Always.** Never call Edit without reading the file same turn. After subagent completes, read their changes first. If you spawned an agent to update a file, don't also edit it yourself.
+2. **Boot sequence is mandatory.** No shortcuts. 2 minutes prevents 10 minutes of bad output.
+3. **Will's mid-session ideas → capture, don't execute.** Log to scratchpad, finish current priority first.
+4. **Don't spiral on debugging.** If code works via curl but not browser → caching. Hard refresh. Max 2 attempts.
+5. **Removing HTML elements → grep for their IDs in JS.** Bare getElementById on missing element kills entire function.
