@@ -1,8 +1,8 @@
 # SAM STATUS
 
-**Signal Status:** 🔴 RED | **Last Updated:** 2026-03-03 18:30 UTC (AM SCAN — DAY 2 MID-SESSION)
+**Signal Status:** 🔴 RED | **Last Updated:** 2026-03-03 21:15 UTC (EOD — DAY 2 CLOSE)
 
-**Summary:** US-IRAN WAR DAY 2, HORMUZ CLOSED. Mid-session 1:30 PM ET. USDJPY: **157.686** (+0.18%) — yen STILL weakening, NO safe haven flip despite Hormuz closure. JGB 10Y: **2.13%** (+6bps from yesterday's 2.07% — REVERSED the flight-to-safety, now tracking inflation fears). JGB 30Y: **~3.28%** (provided by PROME, down from 3.34% Feb 27 — long end flight-to-safety partially intact). 10Y auction BTC 3.3 (STRONG, vs 3.02 prior — JGB demand holding). BOJ Deputy Governor Himino confirmed hike path continues, Ueda speaking later. Nikkei closed Tuesday at levels TBD (Monday close was 58,057 -1.35%). **KEY SIGNAL: Dollar still dominant safe haven. Yen NOT getting safe-haven bid on Day 2 of Hormuz closure. Phase 1 JPY weakness EXTENDING, not reversing.**
+**Summary:** US-IRAN WAR DAY 2 CLOSE. S&P -2.2% (2026 lows), VIX 26.43. USDJPY: **~157.49 EOD** — CRITICAL: SESSION HIGH 157.75 REJECTED at Feb 9 high/trendline. Failed breakout. Sellers now in control technically. Phase 1 may be TOPPING. JGB 10Y: **2.12%** (flat vs AM 2.13%). JGB 30Y: **3.31%** (+3bps from 3.28% — long end steepening, NOT safety bid). 10Y auction BTC strong (3.3x confirmed). Brent: **$84** (Hormuz). 10Y UST: **4.10% UP** — inflation pricing dominating, NOT flight-to-safety. KOSPI -7.24% with circuit breakers (first since Aug 2024 carry crisis). BOJ Himino: volatility won't prevent rate hike, no timing. **KEY SIGNAL: USDJPY failed breakout at 157.75 is most important development — Phase 1 topping signal. Insurance cliff Thursday. Phase 2 onset risk building.**
 
 ---
 
@@ -173,14 +173,14 @@ New data: Reuters article (Feb 28): "If conflict was long-lasting, USD would lif
 
 | Vector | Value | Status | War/LNG Impact |
 |--------|-------|--------|-----------|
-| **USDJPY** | **157.686** | 🔴 | **Mar 3 mid-session: +0.18%, Phase 1 EXTENDING.** Yen NOT getting safe haven bid on Day 2 Hormuz closed. Dollar winning even vs CHF and JPY (Reuters Mar 1 confirmed). Finance Min "strong urgency" was at 157 — now breached. Insurance cliff Thursday → 158-159 possible. NFP Friday = bifurcation. |
+| **USDJPY** | **~157.49 EOD** | 🔴⚠️ | **Mar 3 EOD: SESSION HIGH 157.75 REJECTED.** Failed breakout at Feb 9 high (157.65) + major trendline. Sellers took control. Price collapsed back below both levels. Immediate support: 156.826. Secondary: 100-hr MA below. **This is the key technical signal of the day — Phase 1 may be TOPPING.** Insurance cliff Thursday still critical. |
 | **Brent Oil** | **~$81-82** | 🔴 | Up from $72.48. LNG adds second energy shock. $90+ base if sustained |
 | **Asian JKM LNG** | **~$25/mmBtu est** | 🔴 NEW | Goldman 1-month Hormuz scenario. Up from ~$12-15 baseline. Japan + China bidding war could push $30+ |
 | **TTF (European gas)** | **~€46/MWh** | 🔴 NEW | +45% Monday. Goldman 1-month scenario: €74/MWh |
 | **HY OAS** | **~2.98%** pre-war | 🔴 RISING | Monday gap-wider likely. Watch 320bps |
 | **BOJ Rate** | **0.75%** | 🟡 | **March hold 90%** (upgraded). LNG stagflation trap freezes BOJ. April also likely hold. |
-| **JGB 10Y** | **2.13%** | 🟠 | **Mar 3: +6bps from 2.07% — REVERSED Monday flight-to-safety.** 10Y auction BTC 3.3x (strong vs 3.02 prior). Yields following global bonds higher on inflation fears. Himino reaffirmed hike path. Ueda speaking today. |
-| **JGB 30Y** | **~3.28%** | 🟠 | Down from 3.34% (Feb 27). Long end partial flight-to-safety offset. Still elevated vs pre-war. Risk: fiscal subsidy announcement pushes back to 3.4-3.6%. |
+| **JGB 10Y** | **2.12%** | 🟠 | **Mar 3 EOD: essentially flat vs AM 2.13%.** 10Y auction BTC 3.3x (strong). Yields inflation-tracking, not safety-driven. Himino: volatility won't stop hike, no timing. Some market players now see BOJ hiking sooner to fight inflation. |
+| **JGB 30Y** | **3.31%** | 🟠⬆️ | **UP from 3.28% (PROME context / AM) → 3.31% EOD (+3bps).** Long end steepening continuing. NOT a safety bid — this is inflation + fiscal fear. Doom loop chain active: energy costs → fiscal subsidies → JGB supply → curve steepening. |
 | **VIX** | **~17 pre-war** | 🔴 | Expected 30-40+; likely elevated through insurance cliff and NFP |
 | **Carry Unwind Prob** | **65-75%** | 🔴 UP | Upgraded from 55-65%. Insurance cliff compresses timeline to 30-60 days. |
 | **Carry Unwind Forced** | **147 trigger** | — | Voluntary: 150, Forced: 147. Currently USDJPY ~157, need ~6% yen strength. |
@@ -206,7 +206,7 @@ New data: Reuters article (Feb 28): "If conflict was long-lasting, USD would lif
 |------|-------|----------|
 | **Mon Mar 2** | **EOD CLOSE: Nikkei -1.35% at 58,057. USDJPY 157.375 (+0.84%, EOD confirmed). JGB 10Y 2.07% (-5bps EOD). Phase 1 confirmed.** | 🔴 CONFIRMED |
 | **Mon Mar 2** | **LNG UPDATE:** QatarEnergy halted production. TTF +45%. Insurance cliff Mar 5 confirmed. Japan LNG buffer 10-14 days. BOJ hold upgraded to 90%. Carry unwind upgraded to 65-75%. | 🔴 CONFIRMED |
-| **Tue Mar 3 (today)** | **AM SCAN mid-session:** USDJPY 157.686 (+0.18%). JGB 10Y 2.13% (+6bps — inflation tracking). JGB 30Y ~3.28%. 10Y auction BTC 3.3x STRONG. Himino: hike path reaffirmed. Ueda speaking. Yen NO safe haven bid Day 2 Hormuz. Dollar dominant. Phase 1 EXTENDING. | 🔴 LIVE |
+| **Tue Mar 3 (EOD)** | **S&P -2.2% (2026 lows), VIX 26.43, Brent $84. USDJPY: 157.75 session HIGH REJECTED — failed breakout at Feb 9 high/trendline. EOD ~157.49. JGB 10Y 2.12% (flat). JGB 30Y 3.31% (+3bps, steepening). 10Y UST 4.10% UP (inflation > safety). KOSPI -7.24% circuit breakers (first since Aug 2024 carry). Himino: volatility won't block hike, no timing. Phase 1 TOPPING signal.** | 🔴 CONFIRMED |
 | **Thu Mar 5** | **⚠️ INSURANCE CLIFF** — 7/12 P&I clubs withdraw war risk coverage. Hormuz becomes uninsurable. Market MUST price months not days. WATCH for USDJPY reaction. | 🔴 CRITICAL |
 | Mar 4 (Tue) | PCE data | 🔴 |
 | **Mar 6 (Fri)** | **NFP — CARRY BIFURCATION.** Soft payrolls + insurance cliff = Phase 2 onset. USDJPY targets 152-154. Strong NFP = Phase 1 extends to 158-160. | 🔴 CRITICAL |

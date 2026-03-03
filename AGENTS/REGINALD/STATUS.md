@@ -1,5 +1,5 @@
 # REGINALD STATUS
-**Last Updated:** 2026-03-03 19:10 UTC | **Status:** 🔴 CRITICAL — STAGFLATION TRAP CONFIRMED + KRE $65.30 (-2.2% intraday Mar 3) + OZK -4.4% intraday + S&P -2.2% + VIX 27.30+ + FL MIGRATION -93% CENSUS CONFIRMED + HTM losses WIDENING + NO TREASURY RELIEF
+**Last Updated:** 2026-03-03 21:20 UTC | **Status:** 🔴 CRITICAL — STAGFLATION TRAP CONFIRMED + KRE EOD ~$64.90 (-2.8% Mar 3 close est) + S&P CLOSED -0.94% (recovered from -2.2% lows) + VIX 26.43 + BCRED GATING EVENT ($3.7B REDEMPTIONS, CAP LIFTED 5%→7%) + BX -8% intraday + DB: $143B BDC LEVERAGED LOAN DUMP RISK + FL MIGRATION -93% CONFIRMED + HTM losses WIDENING
 
 **Known Data Issues:** DHS shutdown now Day 14+ (was Day 5 in prior version). OZK earnings were Jan 20, NOT Feb 27. BROCK outbound signal delivered (was "PENDING"). Subprime auto DQ now 7.1% (was 6.74%). PSEC PIK was 8.6% verified, NOT 35%.
 
@@ -14,7 +14,7 @@ Eight independent channels terminate at regional banks. Banks with MULTIPLE chan
 | CRE (CREED) | 70% of CRE at regionals, 70-94% loss severity confirmed | 🔴 |
 | Hidden CRE | Memo Item 3 relabeling — WAL 24.2%, OZK 37.6%, EGBN 23.7% | 🔴 |
 | SSFA Arbitrage | $1T in capital-light NDFI lending, WAL $17.2B at 20% RW | 🔴 NEW |
-| Private Credit | FSK div -31% CONFIRMED, Medallia 78¢, Blue Owl gating, Saba distress fund, UBS 15% stress scenario, **MFS £2B fraud + MFIC div cut** | 🔴 🔴 CRITICAL |
+| Private Credit | FSK div -31% CONFIRMED, Medallia 78¢, Blue Owl gating, Saba distress fund, UBS 15% stress scenario, **MFS £2B fraud + MFIC div cut + BCRED $1.7B net outflow (cap lifted) + DB $143B BDC loan dump risk** | 🔴 🔴 CRITICAL ESCALATING |
 | MFS Fraud Contagion | Market Financial Solutions (UK) £2B fraud, double-pledging — Barclays £600M, Jefferies £100M, Apollo/Atlas SP, Wells Fargo, Santander | 🔴 NEW — Feb 27 |
 | CMBS Maturity | $57.7B defaults expected, $76.6B hard maturity, no extensions left | 🔴 |
 | Federal Layoffs | DOGE 307K+ cuts, DHS shutdown Day 14+, DC corridor stress | 🟠 |
@@ -22,6 +22,17 @@ Eight independent channels terminate at regional banks. Banks with MULTIPLE chan
 | Japan (SAM) | Repatriation $10-15B/mo — BUT Takaichi packing BOJ with doves, hike prob ↓ | 🟡 |
 
 ---
+
+## INBOX (Processed 2026-03-03 21:20 UTC)
+
+**Mar 3 EOD processing — CRITICAL NEW SIGNALS:**
+
+| Signal | Disposition | Key Finding |
+|--------|-------------|-------------|
+| BCRED REDEMPTION SURGE (Reuters/CNBC, Mar 3) | INTEGRATE + LOG | **$3.7B gross Q1 redemptions from $82B BCRED fund. Net outflow $1.7B. Blackstone LIFTED redemption cap 5%→7% and injected $400M own capital to meet demands. BX -8% intraday (two-year low). Near-gate event confirmed.** |
+| DB BDC WARNING (Bloomberg, Mar 3) | INTEGRATE + LOG | Deutsche Bank: BDCs sitting on **$143B leveraged loans** — if redemptions continue, forced selling → spread widening. Direct CFG/KeyBanc fund finance transmission risk. |
+| S&P FINAL CLOSE (CNBC, Mar 3) | LOG | S&P 500 final close **-0.94%** (6,816.63). Dow -403pts. Market recovered significantly from -2.2% intraday lows. Bounce ≠ all-clear — VIX 26.43, Iran conflict ongoing. |
+| BX -8% intraday (then recovered) | LOG | Blackstone two-year low on redemption news. Alt-manager contagion risk elevated. BROCK (APO triple stress) increasingly confirmed. |
 
 ## INBOX (Processed 2026-03-03 19:10 UTC)
 
@@ -267,7 +278,7 @@ Migration collapse is structural, not cyclical. The demand that supported FL CRE
 
 ## BOTTOM LINE
 
-**Mar 3 UPDATE (19:10 UTC):** Two compounding shocks today. (1) **Market:** KRE gapped to $65.30 (-2.2%), OZK -4.4% — sector technical breakdown accelerating; KRE now -11.6% from Feb peak. OZK outpacing sector selloff = market pricing worst hidden CRE (37.6% ratio). Next KRE support ~$62-63. (2) **FL Migration:** -93% Census confirmed (22,517 net domestic 2025 vs 310,892 peak 2022) — CORAL upgraded to 🔴 RED. Every FL CRE model from 2021-2024 modeled migration-driven demand. Those underwriting assumptions are structurally broken. VLY ($7.4B FL MF) and SSB most directly exposed. Stagflation trap confirmed: Hormuz closure = Brent $118 → persistent inflation → Fed hold → CRE wall cannot refinance → HTM losses widening → no NIM relief. Eight channels active. WAL major stress event probability: **80%**. April-June catalyst window intact and compressing. **Updated:** 2026-03-03 19:10 UTC.
+**Mar 3 FINAL UPDATE (21:20 UTC):** Three compounding shocks today. (SUPERSEDES 19:10 update.) (1) **Market:** KRE gapped to $65.30 (-2.2%), OZK -4.4% — sector technical breakdown accelerating; KRE now -11.6% from Feb peak. OZK outpacing sector selloff = market pricing worst hidden CRE (37.6% ratio). Next KRE support ~$62-63. (2) **FL Migration:** -93% Census confirmed (22,517 net domestic 2025 vs 310,892 peak 2022) — CORAL upgraded to 🔴 RED. Every FL CRE model from 2021-2024 modeled migration-driven demand. Those underwriting assumptions are structurally broken. VLY ($7.4B FL MF) and SSB most directly exposed. (3) **BCRED GATING EVENT:** Blackstone's $82B fund — $3.7B gross redemptions, 7.9% of NAV requested (vs 5% limit). Blackstone lifted cap to 7% and injected $400M of firm/employee capital to avoid hard gate. BX -8% intraday. Deutsche Bank flagged $143B in BDC leveraged loans as forced-sale risk if outflows continue. Blue Owl already gating. Two major alt-manager redemption events in <1 week = **private credit is now in a slow-motion bank run.** CFG fund-finance path ($10-11B) is now a live transmission channel, not a tail risk. Stagflation trap confirmed: Hormuz = Brent $118 → persistent inflation → Fed hold → CRE wall cannot refinance → HTM losses widening → no NIM relief. Eight channels active. **S&P recovered from -2.2% intraday to close -0.94%** — partial relief but VIX 26.43 and Dow still -403pts. WAL major stress event probability: **82%**. April-June catalyst window intact and compressing. **Updated:** 2026-03-03 21:20 UTC.
 
 *Full pre-prune STATUS → archive/STATUS_pre_prune_2026-02-27.md*
 *WAL SSFA detail → inbox signals (Feb 25)*

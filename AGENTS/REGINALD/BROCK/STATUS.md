@@ -1,6 +1,6 @@
 # BROCK STATUS — Private Credit & BDC Stress Monitor
-*Last updated: 2026-03-03 (18:40 UTC — AM SCAN: Hormuz closed, S&P -2.2%, Russell -4%, VIX 26.4, Brent $84+, APO near 52-week low)*
-*Prior: 2026-03-03 (14:15 UTC — REBUILT: cockroach chain + Apollo/Athene deep dive + transmission map)*
+*Last updated: 2026-03-03 (21:30 UTC — EOD: BCRED $3.7B redemptions confirmed; BX -8%; DB $143B forced-sell warning; TCPC securities fraud class action; Treasury <4%)*
+*Prior: 2026-03-03 (18:40 UTC — AM SCAN: Hormuz closed, S&P -2.2%, Russell -4%, VIX 26.4, Brent $84+, APO near 52-week low)*
 
 ---
 
@@ -8,17 +8,20 @@
 
 **Active thesis:** Private credit marks are fake, liquidity is fake, insurers and retail closed-end fund holders are the bagholders. The recognition wave is not starting — it is **mid-execution**.
 
-**Headline context (Mar 3 — updated 18:40 UTC):**
+**Headline context (Mar 3 — EOD FINAL 21:30 UTC):**
 - **NEW: Hormuz CLOSED** — US-Israel war on Iran; shipping halted; Brent $84+; CNBC warns $100 oil scenario
-- **APO approaching $100P strike** — APO closed March 2 at $106.45 (52-week low: $101.56); with S&P -2.2% today, APO likely trading ~$100-104 range; put approaching near-ATM
-- **Atlas SP confirmed warehouse defaults** — Official Apollo/Atlas statement: "proactively put two warehouses into default and is pursuing all legal avenues to maximize recoveries" (Global Banking & Finance, Feb 27)
-- **MFS total confirmed £2B+ ($2.7B)** — Bloomberg confirmed more than £2B in total loans; larger than prior estimate
-- Three confirmed private credit frauds (First Brands → MFS → Tricolor cockroach chain)
-- Two BDC dividend cuts in 48hrs (FSK, MFIC)
-- One fund gate (OBDC II) + forced partial liquidation by 3/31
-- Non-traded BDC inflows -40% (Jan 2026)
-- Eisman/Gober podcast (Mar 2): Athene deposit-type contracts $37.9B at duration mismatch; Egan Jones under criminal investigation
-- **Active position:** APO $100P Jun 18 entered at $7.70 — APPROACHING ITM
+- **APO approaching $100P strike** — APO closed March 2 at $106.45; with today's selloff (S&P -0.94% close, -2.2% intraday low), APO likely ~$100-103; put likely near/at-the-money EOD
+- **BCRED (Blackstone) $3.7B redemptions CONFIRMED** — 7.9% of $82B NAV; 5% cap lifted to 7%; Blackstone/employees injected $400M to meet all requests; net outflows $1.7B after $2B new commitments; BX stock -8% intraday to 2-year low (Reuters, Mar 3)
+- **BX shares at 2-year low** — confirming market is repricing alt-manager franchise value, not just one fund
+- **Deutsche Bank: $143B BDC leveraged loan forced-sell risk** — DB analysts warned today that BDC loan holdings could be force-sold to meet redemptions, pushing spreads wider (Bloomberg, Mar 3)
+- **Blankfein (Goldman, ex-CEO): "private credit reckoning"** — flagged $1.7-1.8T opaque leveraged loans, narrow spreads, insurer/saver risk (Prism News, Mar 2-3)
+- **TCPC (BlackRock TCP Capital) — NEW securities fraud class action** — NAV overstated Nov 2024-Jan 2026; stock -12.97% on Jan 26 disclosure; credits: Edmentum, Razor, SellerX, HomeRenew, Hylan, InMobi (67% of loss); lead plaintiff deadline Apr 6, 2026
+- **Treasury <4%** — war/risk-off flight-to-quality; 10Y below 4% = SOFR compression starting; mixed for BDCs (slight NII relief vs. stagflation trap)
+- **RA Stanger**: upgraded to -40% YoY decline in BDC capital formation for ALL of 2026 (was monthly; now full-year forecast)
+- Atlas SP confirmed warehouse defaults (Feb 27); MFS total confirmed £2B+ ($2.7B)
+- Three confirmed private credit frauds (First Brands → MFS → Tricolor); TCPC NAV fraud now candidate for new cockroach
+- Two BDC dividend cuts in 48hrs (FSK, MFIC); Blue Owl OBDC II gate + $1.4B loan sale (30% of fund met); forced partial liquidation by 3/31
+- **Active position:** APO $100P Jun 18 entered at $7.70 — LIKELY AT/NEAR THE MONEY EOD
 
 ---
 
@@ -76,10 +79,26 @@ Each entity: PE-backed specialty lender → warehouse/structured credit facility
 ### Cockroach #4 (Candidate): OBDC II / Blue Owl Gate Structure
 - Not fraud, but structural: gate mechanics, leverage masking (Rubric Capital letter), forced partial liquidation
 - >20% discount to NAV indicates market prices fraud risk in the underlying portfolio
+- **UPDATE Mar 3**: Blue Owl confirmed $1.4B loan sale to fund 30% of embattled credit fund redemptions (CNBC). This is the forced liquidation we predicted. Watch loan prices — if sold at discount to marks, cascades to BXSL/ARCC/FSK portfolios.
 
 ---
 
-### Cockroach #5 Watch List — What We're Looking For
+### Cockroach #5 (NEW CANDIDATE): TCPC — BlackRock TCP Capital Corp
+| Field | Detail |
+|-------|--------|
+| Type | BDC managed by BlackRock (world's largest asset manager) |
+| Fraud mechanism | Securities fraud class action: NAV materially overstated Nov 2024-Jan 2026 |
+| Credits cited | Edmentum (edtech), Razor, SellerX (e-com agg.), HomeRenew/Renovo, Hylan, InMobi (adtech) — 67% of NAV loss |
+| Stock move | -12.97% to $5.10 on Jan 26, 2026 disclosure |
+| Damages | ~$65M estimated shareholder damages |
+| Class period | Nov 2024 – Jan 26, 2026 |
+| Lead plaintiff deadline | April 6, 2026 |
+| **Why it matters** | This is NOT a specialty lender or UK mortgage shop — it is a BLACKROCK-managed BDC. If marks were fake at BlackRock, the marks-are-fake thesis has moved from fringe to center. This is a systemic credibility event for the entire BDC mark-to-model framework. |
+| **Pattern match** | Edmentum, SellerX, InMobi = AI-disrupted sectors. These are the exact portfolio companies BXSL sell-side called "execution stress not AI" on Medallia. The AI markdown wave is hitting NOW, not later. |
+
+---
+
+### Cockroach #6 Watch List — What We're Looking For
 | Indicator | Threshold | Current |
 |-----------|-----------|---------|
 | New arranger named in collateral misrepresentation suit | Any (MS/Citi/GS/JPM) | None confirmed yet |
@@ -240,6 +259,7 @@ FURTHER FORCED SELLING
 | OBDC | Blue Owl OBDC II | 🔴 RED | Gate + >20% discount to NAV + forced $2.35/share partial liquidation by 3/31 | Seeking Alpha 3/2/26 |
 | PSEC | Prospect Capital | 🟡 YELLOW | PIK=8.6% (corrected); monitor non-accruals | SEC verified |
 | ARCC | Ares Capital | 🟠 ORANGE | No confirmed stress yet; Ares "elevated redemptions" (FT 3/2); next dividend cut candidate | FT 3/2/26 |
+| TCPC | BlackRock TCP Capital | 🔴 RED | Securities fraud class action; NAV overstated Nov 2024-Jan 2026; -12.97% disclosure day; Edmentum/SellerX/InMobi/Hylan credits | Pomerantz 2/26/26 |
 
 ### Credit Metrics
 
@@ -252,8 +272,14 @@ FURTHER FORCED SELLING
 | Shadow default rate | ~40% (PIK+extension+deferred; Fitch methodology) | 🔴 RED | Fitch analysis | 2/23/26 |
 | HY OAS | ~320bps (est.) | 🔴 RED | Market est. | 3/2/26 |
 | Subprime auto DQ | **7.1%** | 🔴 RED | Equifax Dec 2025 | 2/27/26 |
-| Fund gates confirmed | 1 (OBDC II) | 🟡 YELLOW | Bloomberg | 2/24/26 |
-| Non-traded BDC inflows | -40% MoM (Jan: $3.2B) | 🔴 RED | RA Stanger/FT | 3/2/26 |
+| Fund gates confirmed | 2 (OBDC II + BCRED lifted cap) | 🔴 RED | Bloomberg/Reuters | 3/3/26 |
+| Non-traded BDC inflows | -40% YoY (full-year 2026 forecast) | 🔴 RED | RA Stanger | 3/3/26 |
+| BCRED redemptions Q1 | $3.7B gross / $1.7B net (7.9% of NAV) | 🔴 RED | Reuters/CNBC | 3/3/26 |
+| BX stock Mar 3 | -8% intraday; 2-year low | 🔴 RED | Reuters | 3/3/26 |
+| DB BDC forced-sell risk | $143B leveraged loans at risk | 🔴 RED | Bloomberg/DB | 3/3/26 |
+| Blankfein warning | "Private credit reckoning" — $1.7-1.8T opaque risk | 🔴 RED | Prism News | 3/2/26 |
+| TCPC NAV fraud | -12.97% on disclosure; class action filed | 🔴 RED | Pomerantz | 1/26/26 |
+| 10Y Treasury | <4% (war/risk-off) | 🟡 YELLOW | Market | 3/3/26 |
 | PSEC PIK ratio | 8.6% | 🟢 GREEN | SEC filing (VERIFIED) | Q4 2025 |
 | Insurer private credit allocation | ~$2T | 🔴 Concentration | Cliffwater/Moody's | 2025 |
 | Athene deposit-type contracts | **$37.9B** (was $12-15B) | 🔴 RED | Eisman/Gober podcast | 3/2/26 |
@@ -291,7 +317,7 @@ FURTHER FORCED SELLING
 | 1 | Marks declining silently | ✅ Confirmed (18-month Medallia chart) |
 | 2 | Smart money positioning | ✅ Confirmed (Weinstein/Saba, Eisman podcast) |
 | 3 | Dividend cuts + fund gates + fraud exposed | ✅ CONFIRMED (FSK, MFIC, OBDC II, First Brands, MFS) |
-| 4 | Retail outflows overwhelm inflows | 🔴 Entering (inflows -40%, exec admissions imminent) |
+| 4 | Retail outflows overwhelm inflows | 🔴 **IN PROGRESS** — BCRED $3.7B redemptions; OBDC II gated; RA Stanger -40% YoY BDC formation; BX/OWL/APO stocks at 2-yr lows |
 | 5 | Insurer forced disclosures | ⏳ Next: Apollo Q1 earnings, Athene statutory filings |
 | 6 | Bank losses (fund finance lines) | ⏳ H.8 reclassification suggests already in motion |
 | 7 | Systemic regulatory/rating action | ⏳ Egan Jones criminal case is a precursor |
@@ -418,11 +444,13 @@ Blackstone says: "execution stress, not AI" — meaning the AI markdown wave has
 ## NEXT ACTIONS
 
 **Immediate (Mar 3-7):**
-1. ⬆️ Push Apollo/Athene summary to REGINALD — Athene duration mismatch + Atlas SP/MFS losses = bank transmission relevance (JEF, Barclays exposure); add oil shock overlay
-2. Track Egan Jones criminal investigation — any indictment immediately upgrades insurance sector to 🔴 SYSTEMIC
-3. Monitor OBDC II forced liquidation execution — if Blue Owl sells loans, watch leveraged loan prices for forced-selling discount
-4. **APO put monitoring:** Entry $7.70 at $100P Jun 18; APO at ~$102-104 range today — delta rising rapidly; reassess if APO breaks $100 (new 52-week low)
-5. Watch for oil-exposed BDC non-accrual disclosures in any Q4 updates or 8-Ks this week
+1. ⬆️ Push BCRED transmission mechanics + TCPC fraud signal to REGINALD — DB $143B forced-sell warning = bank fund finance lines at risk; BX/OWL/APO -8%+ today; TCPC BlackRock BDC NAV fraud signals systemic marks problem
+2. Track Egan Jones criminal investigation — any indictment immediately upgrades insurance sector to 🔴 SYSTEMIC  
+3. **OBDC II forced liquidation NOW LIVE** — $1.4B loan sale confirmed. Watch what prices those loans clear at. If below BCRED/BXSL/ARCC marks → forced mark-downs cascade across BDC sector.
+4. **APO put monitoring:** Entry $7.70 at $100P Jun 18; APO likely ~$100-103 EOD → put likely ATM or ITM. Delta expanding rapidly. Do NOT sell. Consider whether to add size.
+5. **BCRED Q2 redemptions:** 5% cap is now normalized at 7%. If Q2 requests exceed 7% again → Blackstone FORCED to sell assets publicly. That is the liquidity crisis moment.
+6. Watch TCPC April 6 lead plaintiff deadline — new law firm disclosures often surface additional portfolio details. Look for cross-holdings with BXSL/ARCC/FSK.
+7. 10Y <4% watch: if it stays below 4%, SOFR compression begins → BDC NII headwind in 2H 2026. Stagflation trap = worst case (oil high + rates can't fall = PE borrowers squeezed on both ends).
 
 **Apollo Q1 Earnings Watch (May 2026):**
 - Atlas SP MFS quantified loss
@@ -445,6 +473,6 @@ Blackstone says: "execution stress, not AI" — meaning the AI markdown wave has
 
 ## SIGNAL SUMMARY FOR UPSTREAM AGENTS
 
-**→ REGINALD:** Barclays (£600M+ MFS + Tricolor), Jefferies ($30M + SEC + £100M MFS), Santander (MFS + Tricolor) all have quantified private credit fraud losses. H.8 C&I reclassification is bucketing shuffling of these exposures. WAL -10.64% on Feb 27 = proof the transmission is live. Watch fund finance lines: if BDC leverage constrained → BDC NAV marks forced → banks holding fund finance write down simultaneously.
+**→ REGINALD:** Barclays (£600M+ MFS + Tricolor), Jefferies ($30M + SEC + £100M MFS), Santander (MFS + Tricolor) all have quantified private credit fraud losses. H.8 C&I reclassification is bucketing shuffling. WAL -10.64% Feb 27 = proof transmission is live. NEW Mar 3: BCRED lifted 5% cap to 7%, injected $400M to meet redemptions — fund finance banks (GS, JPM, Barclays fund finance desks) have credit lines against BCRED that are now collateralized by assets that need to be sold. Deutsche Bank explicitly warned $143B in BDC leveraged loans could be force-sold. This is not theoretical — OBDC II already selling. TCPC is a BLACKROCK BDC with securities fraud suit = marks-are-fake thesis confirmed at largest-manager level. Banks with fund finance lines to BCRED, OBDC I, ARCC are next.
 
 **→ LIQUID:** Athene $37.9B institutional deposits in illiquid long-duration assets = duration bomb. If any institutional depositor (Vanguard, pension) pulls $3B+ → Athene forced liquidation → private credit assets hit market → liquidity discount cascades. This is the plumbing event. Eisman/Gober Mar 2 podcast is the most specific public articulation of the mechanism.

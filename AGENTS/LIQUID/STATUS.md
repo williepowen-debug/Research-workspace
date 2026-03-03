@@ -1,5 +1,5 @@
 # LIQUID STATUS
-**Last Updated:** 2026-03-03 19:05 UTC | **Status:** 🔴 CRITICAL — MAXIMUM ALERT
+**Last Updated:** 2026-03-03 21:20 UTC | **Status:** 🔴 CRITICAL — MAXIMUM ALERT
 
 **Summary:** War day 4 (afternoon session). HY OAS CONFIRMED 312bps Friday Feb 28 (ICE BofA) — EST. **335–355bps EOD today** based on VIX 26.43 (+23%), S&P -2.2% (2026 lows, intraday -2.5%), Hormuz fully CLOSED, Brent $84 (topped $85 intraday). **Prediction #17 ACHIEVED: HY OAS 320bps crossed.** REVISION TO STAGFLATION THESIS: 10Y yield at 4.10% — partial flight-to-quality Treasury bid emerging (revising from prior 4.5% war estimate). This is NOT a full safe-haven rally but some fear bid is present. SOFR Mar 2: 3.71% median, range 3.67–3.82% on $3.4T volume — high-end prints 17bps above IORB ceiling. Basis trade under pressure but no SRF activation confirmed yet. CRITICAL: market recovered sharply from intraday lows — Dow went from -1,200 pts to -300 pts. Either Fed signaling, dip-buying, or dealer covering. Watching for sustained breakdown vs. bear-market-rally pattern.
 
@@ -62,7 +62,9 @@
 | T-bill Rolling | $600B/5 days | 🟠 | Structural repo dependency |
 | TGA Balance | ~$900B | 🟠 | Drained $600B from system |
 | Treasury FTD | $42.4B | 🟡 | >$50B ORANGE |
-| 10Y Yield | **4.10% (Mar 3)** | 🟡 | REVISION: Partial flight-to-quality bid. Was est. 4.5% war day. Some safe-haven demand emerging. |
+| 10Y Yield | **4.063% CLOSE; 4.117% intraday high (Mar 3 CONFIRMED)** | 🟡 | CONFIRMED: Partial flight-to-quality. Closed BELOW intraday high — some safe-haven bid held. |
+| 30Y Yield | **4.707% (Mar 3 CONFIRMED)** | 🟡 | Long-end not rallying — stagflation premium embedded in long end. |
+| 2Y Yield | **3.506% (Mar 3 CONFIRMED, +2bps)** | 🟢 | Short-end pricing IN rate cuts (war = growth risk) — steepener. |
 | Brent Crude | **$84 (topped $85 intraday)** | 🔴 | Hormuz fully closed. $84–100 range likely. |
 | VIX | **26.43 (+23% today)** | 🟠 | Dealer hedging costs rising. Intermediation capacity falling. |
 | S&P 500 | **-2.2% (session low -2.5%); recovered to -0.9% by 1:50pm ET** | 🔴 | 2026 lows breached. Bear-market-rally pattern possible. |
@@ -228,7 +230,15 @@
 
 ## MAR 3 PM UPDATE — KEY REVISION
 
-**STAGING THESIS NUANCE:** 10Y at 4.10% on Mar 3 suggests partial flight-to-quality is happening — NOT the pure stagflation "bonds sell too" scenario. Revised read: equity/credit risk-off is generating SOME Treasury demand, capping yield spike. This is actually somewhat more benign for the basis trade (lower yields = Treasury price UP = less margin call pressure on basis trade longs). The primary concern shifts back to credit spreads and equity/CLO stress rather than Treasury yield cascade.
+**EOD CONFIRMED DATA (Mar 3 close):**
+- 10Y: **4.063%** (intraday high 4.117%; closed off highs — flight-to-quality bid held into close)
+- 30Y: **4.707%** (stagflation premium in long-end; NOT rallying)
+- 2Y: **3.506%** (+2bps; short-end pricing growth risk = rate cuts ahead)
+- Curve 2s10s: **+55.7bps** — BULL STEEPENER developing (2Y anchored by cut expectations; 10Y rising on inflation). This is a stagflation curve — not a recession curve, not a normal risk-off curve.
+- New escalation: **US Embassy Riyadh attacked Tuesday.** Israel simultaneously striking Iran AND Lebanon. War scope widening confirmed.
+- Trump confirmed war duration "far longer than four weeks" — consensus 2-4wk thesis DEAD.
+
+**STAGING THESIS NUANCE:** 10Y at 4.063% close confirms partial flight-to-quality — NOT the pure stagflation "bonds sell too" scenario. Revised read: equity/credit risk-off generating SOME Treasury demand at intermediate tenor, capping yield spike. This is actually somewhat more benign for the basis trade (lower yields = Treasury price UP = less margin call pressure on basis trade longs). The primary concern shifts back to credit spreads and equity/CLO stress rather than Treasury yield cascade.
 
 **MARKET RECOVERY WATCH:** Dow went from -1,200 pts (-2.6%) to -300 pts (-0.8%) in a few hours. Three interpretations:
 1. Dip buyers / short covering (bear-market rally — dangerous)
