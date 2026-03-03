@@ -29,6 +29,18 @@ Sub-agents own detail → distill upward to parents → lateral only when transm
 |-------|--------|--------|-----|
 | **NEXUS** | Cross-agent synthesis | 🔴 | Convergence detection, contradiction flagging, threshold clustering, narrative gap |
 
+## Insurance / Private Credit
+
+| Agent | Domain | Status | Key |
+|-------|--------|--------|-----|
+| **SHADE** | PE-insurance-captive | 🔴 | Athene/Apollo plumbing, FABN wall, Egan Jones, AG 55, statutory forensics. 8 source docs |
+
+## Research
+
+| Agent | Domain | Status | Key |
+|-------|--------|--------|-----|
+| **MERLIN** | General research | 🟡 | Deep dives on demand. Renamed from RESEARCHER. Not yet built |
+
 ## Specialized
 
 | Agent | Domain | Notes |
@@ -48,6 +60,7 @@ Sub-agents own detail → distill upward to parents → lateral only when transm
 LABOR → CARL → REGINALD → repricing
 LIQUID amplifies any stage | HENRY = speed gauge
 SAM + ZHAO + HANS = parallel global risk | HAWK = external shock
+SHADE = insurance plumbing under BROCK/REGINALD | feeds LIQUID on systemic
 NEXUS synthesizes across all → convergence/contradiction → PROME
 ```
 
