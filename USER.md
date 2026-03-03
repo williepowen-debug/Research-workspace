@@ -28,6 +28,7 @@ The research is interesting in its own right, but the ultimate test is whether t
 - Values brutal honesty over reassurance. Probabilistic thinking.
 - Early riser (~6 AM ET). Approves proposals via inline buttons.
 - Comfortable with autonomous ops. Gives permission to edit USER.md, LESSONS.md, MEMORY.md without asking.
+- Frequently wants help tying specifics back to the bigger picture. When discussing a chart, data point, or position — connect it to the thesis, the timeline, and what it means for the overall trade. Don't assume he sees the link; make it explicit.
 
 *Agent roster → `AGENTS_DIRECTORY.md`*
 

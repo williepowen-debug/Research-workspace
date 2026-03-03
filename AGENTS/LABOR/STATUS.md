@@ -1,7 +1,7 @@
 # LABOR STATUS
-**Last Updated:** 2026-03-02 21:20 UTC | **Status:** 🔴 CRITICAL
+**Last Updated:** 2026-03-03 18:35 UTC | **Status:** 🔴 CRITICAL
 
-**Summary:** Fed Trap confirmed (PPI core +0.8%, PCE 2.9%). Shadow payroll gap enters critical test window March-April. Staffing canaries (RHI/KFRC) showing first positive sequential in 12 quarters — genuine counter-signal. DOGE 312K+ positions unpriced. Block 4K layoffs (50% workforce) = AI displacement at scale. US-Iran war **MAJOR ESCALATION**: Khamenei killed (Mar 1), Trump says assault continues 4-5 weeks, 4 US KIA, Kuwait friendly fire incident. War now enters prolonged campaign phase — hiring freeze deepens from "wait and see" to active freeze through Q2 minimum. WARN pipeline materializing: 706 notices / 84,957 employees through March 2026. ISM Mfg Feb: headline broke into expansion (big beat vs exp), Employment sub-index 48.1 vs 44.8 — improving but still contracting. **NFP Feb consensus: ~+65K** (downward revision from +70K; "half-speed economy" framing now consensus). Time-to-hire at longest duration in 10+ years. Q2-Q3 danger window ACCELERATING. **AIRLINE DISRUPTION:** Dubai/Doha/Abu Dhabi hubs closed Day 3 — massive route cancellations. No formal layoff announcements yet; operational bleeding ongoing. **NEW: Kuwait civilian contractors "non-essential" scaled back** — direct labor displacement in theater (Guardian Mar 1). War labor reallocation is displacement, NOT offset (no defense hiring surge visible). **March WARN wave emerging:** Healthcare heavy — L.A. Care 225, Alameda Health 240+, plus Macy's/Nestlé/Catalent.
+**Summary:** Fed Trap confirmed (PPI core +0.8%, PCE 2.9%). Shadow payroll gap enters critical test window March-April. Staffing canaries (RHI/KFRC) showing first positive sequential in 12 quarters — genuine counter-signal. DOGE 327K positions (BLS confirmed, -10.9% from Oct 2024 peak). Block 4K layoffs (50% workforce) = AI displacement at scale. US-Iran war **STRAIT OF HORMUZ CLOSED (Mar 3)** — Iran strikes Gulf energy infrastructure, Revolutionary Guard announces closure. Khamenei killed Mar 1, Trump says assault continues 4-5 weeks. War now enters prolonged campaign phase — hiring freeze hardens to near-certainty through Q2-Q3. WARN pipeline updated: **716 notices / 85,552 employees** through March 2026 (+10 notices, +595 employees vs Mar 2). ISM Mfg Feb: headline broke into expansion (big beat vs exp), Employment sub-index 48.1 vs 44.8 — improving but still contracting. **NFP Feb consensus: ~+65K** (downward revision from +70K; "half-speed economy" framing now consensus). Time-to-hire at longest duration in 10+ years. Q2-Q3 danger window ACCELERATING. **JOLTS January 2026 (scheduled Mar 3):** Release appears delayed or not yet indexed — market still citing Dec 2025 figure (6.5M). BLS workforce cuts (DOGE) may be impairing release schedule. **AIRLINE DISRUPTION:** Dubai/Doha/Abu Dhabi hubs closed Day 4 — Gulf hub closures deepen. Hormuz closure now threatens tanker + LNG routes. **March WARN wave:** Tyson Foods 7,044 (TX), Amazon 4,684 (NJ/NY/VA/WA), Verizon 4,122 (NJ/WA), Blue Oval SK Battery 3,028 (KY). Healthcare + logistics + auto now multi-sector. **Markets Mar 3:** Dow -1,200 pts (-2.5%), Nasdaq -2.4%. Risk-off across the board.
 
 ---
 
@@ -35,12 +35,14 @@ Three signals giving conflicting reads simultaneously:
 | **NFP Jan 2026** | **+130K** | 🟡 | Beat +55K exp, but revisions tell story |
 | **2025 Job Growth (Revised)** | **+181K** | 🔴 | Was +584K. **1.03M phantom jobs exposed** by BLS benchmark. |
 | **ADP Private Payrolls** | **+22K** | 🔴 | vs +45K exp |
-| **JOLTS Openings** | **6.5M** | 🔴 | Lowest since 2017 |
+| **JOLTS Openings** | **6.5M** | 🔴 | Dec 2025. Jan 2026 release (Mar 3) delayed/not indexed. |
 | Openings/Unemployed | 0.87 | 🟠 | Below 1.0 first time since 2021 |
 | **Challenger Jan 2026** | **108K** | 🔴 | Highest Jan since 2009 |
 | **Challenger Hiring Plans** | **5,306** | 🔴 | LOWEST JAN EVER |
-| **DOGE Cuts** | **312-327K** | 🔴 | Unpriced. Parallel transmission path. |
-| **Shadow Payroll Gap** | WARN ↑ / Claims 206K | 🔴 | RESOLVES MARCH-APRIL |
+| **DOGE Cuts** | **327K** | 🔴 | BLS confirmed -10.9% from Oct 2024 peak. |
+| **WARN Pipeline** | **716 notices / 85,552** | 🔴 | +10 notices, +595 employees vs Mar 2. Tyson 7K, Amazon 4.7K, Verizon 4.1K. |
+| **Shadow Payroll Gap** | WARN ↑ / Claims 212K | 🔴 | RESOLVES MARCH-APRIL |
+| **Hormuz** | **CLOSED Mar 3** | 🔴 | Iran Revolutionary Guard. Oil/LNG routes disrupted. Hiring freeze hardens. |
 | Seattle Metro Unemp | 5.1% | 🔴 | +0.8% vs national. AMZN/MSFT canary. |
 | ISM Mfg Employment | 48.1% | 🔴 | 28 months contraction |
 | ISM Services Employment | 50.3 | 🟠 | Barely expanding |
@@ -131,9 +133,11 @@ War adds another layer: oil spike → inflation stays hot → Fed even more trap
 - Congress war powers resolution vote this week — if it passes and Trump vetoes, political instability adds another freeze layer.
 - **ISM Mfg Feb (released Mar 2):** Headline broke into EXPANSION (big beat). Employment 48.1 vs 44.8 prior. Counter-signal — manufacturing activity improving even as employment lags. Doesn't change labor picture materially but reduces immediate recession probability slightly.
 - **WARN Pipeline Mar 2:** 706 notices / 84,957 employees through March. Pipeline materializing as expected. Claims should follow 4-8 weeks out (Apr-May window).
-- **EOD Mar 2 — War Labor Dynamics:** Global airline hub closures (Dubai/Doha/Abu Dhabi) entering Day 3. Airlines -4-7% equity. No formal layoff announcements yet but operational revenue bleed accelerating — watch Q2 guidance. Kuwait civilian contractors scaled back (non-essential workers sent to shelter) = war is REMOVING civilian labor, not creating it. Defense hiring surge thesis: NOT confirmed. War economy reallocation likely negative net for civilian employment.
-- **NFP Feb consensus revised down to +65K** (from +70K). "Half-speed" economy framing now mainstream. "Time-to-hire longest in over a decade" — new data point confirming Hotel California thesis from the demand side.
-- **March WARN wave — healthcare cluster emerging:** L.A. Care Health Plan (225, LA), Alameda Health System (240+, Bay Area), Catalent MD (96), Abbott House NY (162 combined), Boston Metal (71). Healthcare sector stress — NOT just tech/government anymore. Cross-sector spread confirmed.
+- **EOD Mar 2 — War Labor Dynamics:** Global airline hub closures (Dubai/Doha/Abu Dhabi) entering Day 4. Airlines -4-7% equity. No formal layoff announcements yet but operational revenue bleed accelerating — watch Q2 guidance. Kuwait civilian contractors scaled back (non-essential workers sent to shelter) = war is REMOVING civilian labor, not creating it. Defense hiring surge thesis: NOT confirmed. War economy reallocation likely negative net for civilian employment.
+- **NFP Feb consensus: ~+65K** (downward revision from +70K). "Half-speed" economy framing now mainstream. "Time-to-hire longest in over a decade" — new data point confirming Hotel California thesis from the demand side.
+- **March WARN wave — UPDATED (Mar 3):** Healthcare cluster + new entries. Top 2026 WARN: Tyson Foods 7,044 (TX), Amazon 4,684 (multi-state), Verizon 4,122 (NJ/WA), Blue Oval SK Battery 3,028 (KY — EV sector stress), Kroger 935 (FL). Cross-sector spread: auto, logistics, food manufacturing, telecom joining tech/healthcare/govt.
+- **JOLTS January 2026 (Mar 3 scheduled):** Not confirmed released. Market commentary still citing Dec 2025 (6.5M). Possible delay — BLS itself shrinking under DOGE cuts. If delayed, note: data release apparatus under stress.
+- **HORMUZ CLOSED (Mar 3):** Iran Revolutionary Guard announces Strait closure after striking Gulf energy infrastructure. This is a 10-sigma labor event: oil tankers/LNG routes blocked → energy price shock → inflation spike → Fed frozen longer → hiring paralysis deepens from weeks to months. Shipping, logistics, manufacturing all hit simultaneously. Hiring freeze no longer "uncertainty" — it's structural through H1 minimum.
 
 ---
 
@@ -233,4 +237,4 @@ War adds another layer: oil spike → inflation stays hot → Fed even more trap
 
 ---
 
-*Next triggers: **Thu Mar 5 claims** (shadow payroll first read — noisy, war interference) | **Fri Mar 6 NFP Feb** (consensus +70K — if miss, Shadow gap verdict arrives early) | Mar 12 claims (first clean read post-war) | Q1 RHI/KFRC earnings (April) — staffing bottom real or false? | WAL/OZK Form 4 pull (pending) | Congress war powers vote this week*
+*Next triggers: **Thu Mar 5 claims** (shadow payroll first read — noisy, war + Hormuz interference) | **Fri Mar 6 NFP Feb** (consensus +65K — if miss, Shadow gap verdict arrives early) | JOLTS Jan 2026 (was scheduled Mar 3 — check if released or delayed) | Mar 12 claims (first clean read post-war) | Q1 RHI/KFRC earnings (April) — staffing bottom real or false? | WAL/OZK Form 4 pull (pending) | Hormuz closure duration — each week adds ~$10-15/bbl crude and extends hiring freeze*

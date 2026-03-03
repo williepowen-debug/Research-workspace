@@ -1,5 +1,5 @@
 # REGINALD STATUS
-**Last Updated:** 2026-03-02 21:20 UTC | **Status:** 🔴 CRITICAL — WAR ESCALATION + KRE -5.14% EOD + WAL -10.82% ($82.5P DEEP ITM) + OIL +11% + $1.5T CRE DEBT WALL NOW LIVE
+**Last Updated:** 2026-03-03 18:35 UTC | **Status:** 🔴 CRITICAL — STAGFLATION TRAP CONFIRMED + Dow -1052pts (-2.1%) + S&P -2.4% + VIX 27.30 (March 2023 high) + 10yr RISING to 4.10% (NO TREASURY RELIEF) + Brent $118 (+13%) + HTM losses WIDENING
 
 **Known Data Issues:** DHS shutdown now Day 14+ (was Day 5 in prior version). OZK earnings were Jan 20, NOT Feb 27. BROCK outbound signal delivered (was "PENDING"). Subprime auto DQ now 7.1% (was 6.74%). PSEC PIK was 8.6% verified, NOT 35%.
 
@@ -20,6 +20,17 @@ Eight independent channels terminate at regional banks. Banks with MULTIPLE chan
 | Federal Layoffs | DOGE 307K+ cuts, DHS shutdown Day 14+, DC corridor stress | 🟠 |
 | Consumer (CARL) | Subprime auto 7.1% RED, Fannie MF 6bps from GFC | 🟠 |
 | Japan (SAM) | Repatriation $10-15B/mo — BUT Takaichi packing BOJ with doves, hike prob ↓ | 🟡 |
+
+---
+
+## INBOX (Processed 2026-03-03 18:35 UTC)
+
+**Mar 3 inbox processing:**
+
+| Signal | Disposition | Key Finding |
+|--------|-------------|-------------|
+| CIRCUIT_BREAKERS_EXTEND_PRETEND.md (Feb 28) | INTEGRATE | CRE mods $27.7B (+66% YoY); Warsh = higher bar for Fed Put; unrealized losses $306.1B Q4 2025 but NOW RISING AGAIN with 4.10% yield |
+| FLORIDA_CRE_BANK_STRESS_FEB26.md (Feb 26) | INTEGRATE | BayFirst (St. Pete) 51 jobs cut (-17%), exited SBA platform; FL #2 foreclosure nationally; Big bank expansion vs regional retrenchment = consolidation precursor |
 
 ---
 
@@ -199,6 +210,7 @@ MFS is NOT merely a sentiment catalyst — it is a completed collapse case study
 
 | Date | Event |
 |------|-------|
+| **Mar 3** | **Dow -1052pts (-2.1%). S&P -2.4% fresh 2026 low. VIX 27.30 (March 2023 highs). Brent $118 (+13%). 10yr 4.10% RISING (brief flight-to-safety reversed). Stagflation trap confirmed. HTM losses widening. MS raises OZK PT $57→$61 (EW) — FADE. OZK Baltimore Peninsula: "in talks with potential buyer" (Jan filing, now surfacing).** |
 | **Mar 2** | **KRE -5.14% EOD ($66.77). WAL -10.82% ($73.28) — $82.5P deep ITM. Litigation disclosure public. Credit quality crisis framing adopted by MSM.** |
 | Early Mar | Cantor appraisals |
 | Mar 1-2 | OPEC+ meeting — superseded by war/Hormuz dynamic |
@@ -210,7 +222,7 @@ MFS is NOT merely a sentiment catalyst — it is a completed collapse case study
 
 ## BOTTOM LINE
 
-Convergence thesis CONFIRMED LIVE. KRE -5.14% EOD ($66.77). WAL -10.82% ($73.28) — $82.5P and $85P BOTH deep ITM. Litigation re: distressed CRE credit facility NOW PUBLIC per market reporting. BTFP expired — no Fed backstop for $1.5T maturity wall. Credit quality crisis (not panic) is the consensus framing as of tonight. WAL major stress event probability: **75%** (up from 68%). Timing: NOW through April earnings. OZK, ZION, FLG all confirming. Eight channels live simultaneously. **Updated:** 2026-03-02 21:20 UTC.
+**Mar 3 UPDATE:** Stagflation trap is the regime-change. Hormuz closure = Brent $118 → persistent inflation → Fed CANNOT cut → rates elevated indefinitely → CRE maturity wall cannot refinance. The initial flight-to-safety bid in Treasuries (10yr briefly below 4%) reversed intraday to 4.10% RISING. This is the worst case for banks: no NIM relief, no refinancing, AND energy inflation hammering consumer credit quality simultaneously. Unrealized losses (Q4 2025: $306.1B) are now WIDENING again. The Warsh-regime insurance policy (higher bar for Fed Put) is a known risk — our catalyst timeline (April-June) predates his installation but the market is now pricing it. OZK Baltimore Peninsula disposition talks confirmed (Jan filing) — exit of distressed CRE is an admission, not a positive. MS raise of OZK PT ($57→$61 EW) on same day = FADE SIGNAL, same pattern as ZION upgrade Feb 27. VIX at 27.30 = institutional hedging accelerating. Eight channels live. WAL major stress event probability: **80%** (up from 75%). **Updated:** 2026-03-03 18:35 UTC.
 
 *Full pre-prune STATUS → archive/STATUS_pre_prune_2026-02-27.md*
 *WAL SSFA detail → inbox signals (Feb 25)*

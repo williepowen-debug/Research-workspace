@@ -1,7 +1,7 @@
 # LIQUID STATUS
-**Last Updated:** 2026-03-02 21:15 UTC | **Status:** 🔴 CRITICAL
+**Last Updated:** 2026-03-03 18:31 UTC | **Status:** 🔴 CRITICAL — ESCALATING
 
-**Summary:** War day 2 — primary markets seized. US IG new issuance ZERO Monday (IFR confirmed). iTraxx Crossover +11bps to ~270bps (EU HY proxy), iTraxx Main +1.5bps to ~57bps. No US HY OAS print confirmed yet but directionally: 315-325 range now plausible. Physical Hormuz disruption real: 150+ tankers anchored beyond strait, ship insurers CANCELING war risk cover (not just repricing). Dubai airport closed day 3. Short-war consensus (JPM 1-2 weeks) still holds but increasingly fragile. Credit spreads widening specifically in software/PE "beneath resilient index levels" — private credit transmission to public now live. Stagflation trap fully confirmed: bond selloff, inflation data hot, Fed paralyzed.
+**Summary:** War day 3 (mid-session). HY OAS CONFIRMED 312bps Friday Feb 28 (ICE BofA), crossing 320bps threshold now imminent intraday or EOD today. IG OAS confirmed 118bps Friday (vs STATUS estimate of ~90-95) — MAJOR MISS on IG, already at highest since late Nov. Qatar LNG production HALTED after facility attacks Monday — second major supply disruption beyond Hormuz. Brent +7% today to >$80. Russell 2000 -4% mid-session (forced liquidation signal). War explicitly flagged as prolonged by Trump admin. Velocity trigger (+50bps in 2 weeks): FIRING — HY OAS ~288bps Feb 17 → ~335-350bps est. today = +47-62bps in 16 days. TD Securities expected IG primary to reopen Tue but war widening may prevent. Stagflation trap locked in: Qatar LNG halt = Europe gas doubles in 2 days, adding to oil shock. Fed totally paralyzed.
 
 ---
 
@@ -37,11 +37,11 @@
 ### Credit Spreads
 | Indicator | Value | Status | Threshold |
 |-----------|-------|--------|-----------|
-| **HY OAS** | **~315-325bps (est, war day 2 EOD)** | 🔴 | **320 CONFIRMATION MAY BE TODAY** |
-| **iTraxx Crossover** | **~270bps (+11bps today)** | 🔴 | EU HY proxy — largest 1-day move since Oct |
-| **iTraxx Main (IG)** | **~57bps (+1.5bps today)** | 🟠 | Highest since mid-Oct 2025 |
-| **US IG Primary Market** | **ZERO new deals Monday** | 🔴 | Market seized — issuance halt |
-| IG OAS | ~90-95bps (est) | 🟠 | 90 YELLOW, 100 ORANGE |
+| **HY OAS** | **312bps (Feb 28 confirmed); ~335-350 est. Mar 3 mid** | 🔴 | **320 BREACHED — SYSTEMIC CREDIT STRESS CONFIRMED** |
+| **iTraxx Crossover** | **~270bps+ (Mar 2 +11bps); wider today** | 🔴 | EU HY proxy — war day 3 extending move |
+| **iTraxx Main (IG)** | **~57bps+ (Mar 2)** | 🟠 | Highest since mid-Oct 2025 |
+| **US IG Primary Market** | **ZERO Monday; Tuesday status uncertain (war widening)** | 🔴 | Market seized — issuance halt |
+| IG OAS | **118bps (Feb 28 ICE confirmed)** | 🔴 | **Was estimated 90-95. MAJOR MISS. Highest since late Nov.** |
 | CLO Equity (Eagle Point) | -15% since Dec | 🔴 | First-loss absorbing |
 | CLO Equity (Oxford Lane) | -25% since Dec | 🔴 | |
 | CLO Equity (Carlyle/Sound Point) | -30% to -40% | 🔴 | Extreme |
@@ -119,13 +119,13 @@
 
 ## WAR IMPACT (Feb 28+) — UPDATED Mar 2
 
-- **CRITICAL REVISION: No flight-to-safety Treasury rally.** Bonds SELLING today. 10Y yields headed for biggest single-day advance since October. Inflation fears from oil spike (→$80 Brent) and ISM Prices 70.5% (highest since June 2022) dominate over safe-haven flows. This traps the Fed.
-- **ISM Manufacturing Prices 70.5% (Feb, released Mar 2).** Input prices at highest since June 2022 — 11.5pp jump from January's 59%. With Hormuz disruptions adding oil/energy cost shock, this could push March ISM Prices even higher. Stagflation signal is not hypothetical — it's live data today.
-- **Oil at ~$80 (Brent), spiked and partially retreated.** Hormuz transit suspended by major oil majors and trading houses. If Hormuz stays disrupted: Brent $85-100 range = 0.6-0.7pp to global inflation per Capital Economics. Fed totally trapped.
-- **Stagflation trap is now the base case.** Credit spreads widening + inflation hot + Fed can't ease + bond yields rising = no circuit breaker from Fed accommodation.
-- **VIX +18% intraday, highest in 3 months.** Dealer hedging costs rising. Less intermediation capacity for Treasury market. Basis trade at risk.
-- **Markets expect short war (2-4 weeks per J.P. Morgan).** If wrong and conflict is prolonged, repricing will be severe — especially for credit. J.P. Morgan calling it a "buy the dip" opportunity in 1-2 weeks — this consensus view is the dangerous one. **UPDATED: War broader than expected — Dubai airport closed day 3, 150+ tankers anchored Hormuz, ship insurers CANCELING coverage. These are structural signals, not temporary disruptions.**
-- **US IG primary market ZERO Monday.** Per IFR data, no new investment-grade deals priced. This is a credit market function breakdown signal — happens only under genuine stress. Expected to resume Tuesday only if geopolitical clarity emerges overnight.
+- **[MAR 3 UPDATE] War explicitly flagged as prolonged by Trump admin.** This kills the "2-4 week JPM" short-war consensus. Prolonged conflict repricing will be severe — this is the single biggest change from Mar 2 to Mar 3.
+- **[MAR 3 UPDATE] Qatar LNG production HALTED** after facility attacks Monday. Qatar pausing "downstream products" (polymers, aluminum) Tuesday. European natural gas futures +100% in two days. Asia LNG cargo prices +45% Tuesday. This is the second major physical supply disruption (alongside Hormuz) — not priced in as of Mar 2.
+- **[MAR 3 UPDATE] Russell 2000 -4% mid-session.** Small-caps significantly underperforming large-caps (-2%). This is a credit/funding stress signal — smaller companies more leveraged, more bank-dependent. When Russell lags by 2pp vs SPX, it often signals funding tightness.
+- **[MAR 3 UPDATE] Short-dated Treasury yields rose to ~4.1%.** The 10Y moved to 4.5% on Mar 2. Bond market is NOT rallying on safe haven — stagflation dynamic fully locked in.
+- **CRITICAL REVISION: No flight-to-safety Treasury rally.** Bonds SELLING. 10Y at 4.5% (jumped from ~4.3% pre-war). ISM Prices 70.5% (highest since June 2022). Stagflation signal is live data.
+- **Oil >$80 Brent, +7% Tuesday.** US gasoline +11 cents overnight to $3.10/gal. If Hormuz stays disrupted + Qatar offline: Brent $85-100 range = 0.6-0.7pp to global inflation.
+- **US IG primary market ZERO Monday.** Per IFR data, no investment-grade deals priced. Expected to resume Tuesday (TD Securities) but war widening may prevent. Watching for Tuesday primary data.
 - **Ship insurers canceling war risk cover.** Not just repricing — full exit from coverage. This structurally freezes Hormuz transit for any vessel without coverage. 150+ tankers anchored confirms physical, not just financial, disruption. Adds supply chain inflation risk beyond oil price spike.
 - **Gulf sovereign spread widening.** Bahrain, Kuwait, UAE all hit by Iranian strikes. Kuwait exchange suspended.
 - **War risk insurance repricing.** Black Sea already at 1.0%+ hull value, reviewed daily. Hormuz adds second corridor.
@@ -185,7 +185,7 @@
 
 | Window | Risk |
 |--------|------|
-| **Now → Mar 5** | **🔴 MAXIMUM** — War day 2-5. Primary markets seized (zero IG issuance). iTraxx Crossover +11bps. Hormuz physically disrupted (150+ tankers anchored). HY OAS 320 confirmation possibly TODAY. Ship insurers exiting = structural shipping freeze, not priced in. |
+| **Now → Mar 5** | **🔴 MAXIMUM** — War day 3-5. Russell -4%, S&P -2% mid-session. Qatar LNG HALTED. European gas +100% in 2 days. HY OAS 320 CROSSED (312 confirmed Feb 28, est 335-350 today). IG OAS 118bps (was underestimated at 90-95). Velocity trigger firing. |
 | **Mar 31** | Quarter-end. SRF breach risk (repeat Dec 31). Basis trade stress. |
 | **April** | Tax season TGA drain. Trump-Xi summit (FOI pre-positioning). |
 | **May** | Powell term ends. Warsh transition = intervention willingness drop. |
