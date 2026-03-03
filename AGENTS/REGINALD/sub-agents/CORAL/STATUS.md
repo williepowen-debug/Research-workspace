@@ -1,8 +1,8 @@
 # CORAL — Florida Real Estate Stress Monitor
 ## REGINALD Sub-Agent | Condo Crisis & Regional Bank Exposure
 
-**Last Updated:** 2026-02-17  
-**Signal Status:** 🟠 ORANGE — Stress Accumulating + MF Repricing Confirmed (-22%)
+**Last Updated:** 2026-03-03 19:10 UTC  
+**Signal Status:** 🔴 RED — MIGRATION COLLAPSE CONFIRMED (-93%) + MF Demand Thesis Broken
 
 ---
 
