@@ -64,4 +64,27 @@ MFS £100M + First Brands + more. Mid-tier firm absorbing losses from multiple f
 
 ---
 
+---
+
+## MICROSTRUCTURE WATCH (Added Mar 3 PM)
+
+S&P closed 6,781. Below gamma flip (6,902), below 50-day MA (6,883), below put wall (6,800).
+
+**Tomorrow (Mar 4) is critical:**
+- ISM Services PMI hits with zero 0DTE gamma cushion at open
+- If weak → retest 6,700s → potential closing break below 6,707
+- 6,707 close = $80B CTA selling triggers over next 1-4 weeks
+- 6,475 = JPM collar floor (next major support)
+- Today's 0DTE protection expired — tomorrow opens naked
+
+**Cascade status:**
+- Stage 1 (vol-control): ✅ ACTIVE (VIX 26.43)
+- Stage 2 (short-term CTAs): ✅ ACTIVE (50-day MA broken)
+- Stage 3 (medium-term CTAs): ⚠️ ARMED, not triggered (needs 6,707 close)
+- Stage 4 (risk parity): Not yet
+
+**HENRY's key rule:** Equity cannot bottom until HY OAS peaks. HY OAS still rising (335-355 est).
+
+---
+
 *Delete or archive this file once items are processed. Don't let it go stale.*
