@@ -1,8 +1,8 @@
 # SAM STATUS
 
-**Signal Status:** 🔴 RED | **Last Updated:** 2026-03-02 22:30 UTC (LNG UPDATE)
+**Signal Status:** 🔴 RED | **Last Updated:** 2026-03-03 18:30 UTC (AM SCAN — DAY 2 MID-SESSION)
 
-**Summary:** US-IRAN WAR DAY 1 EOD + **LNG CRISIS LAYER ADDED.** Nikkei CLOSED -1.35% at 58,057. USDJPY EOD CLOSE: 157.375, +0.84% — Phase 1 JPY weakness confirmed. JGB 10Y EOD: 2.07% (-5bps). JGB 2Y: 1.215% (-3bps). NEW LAYER: QatarEnergy halted ALL LNG production (Ras Laffan + Mesaieed drone strikes). War risk insurance withdraws **Thursday March 5** — after that, Hormuz UNINSURABLE. TTF +45%, Asian JKM heading toward $25/mmBtu (Goldman). Japan ~11% of LNG from Middle East (ALL disrupted). LNG strategic buffer ~10-14 days only. BOJ HOLD probability upgraded to **90%+**. Carry unwind upgraded to **65-75%** (30-60 days). Insurance cliff Thursday is the key inflection — forces market to price months, not days.
+**Summary:** US-IRAN WAR DAY 2, HORMUZ CLOSED. Mid-session 1:30 PM ET. USDJPY: **157.686** (+0.18%) — yen STILL weakening, NO safe haven flip despite Hormuz closure. JGB 10Y: **2.13%** (+6bps from yesterday's 2.07% — REVERSED the flight-to-safety, now tracking inflation fears). JGB 30Y: **~3.28%** (provided by PROME, down from 3.34% Feb 27 — long end flight-to-safety partially intact). 10Y auction BTC 3.3 (STRONG, vs 3.02 prior — JGB demand holding). BOJ Deputy Governor Himino confirmed hike path continues, Ueda speaking later. Nikkei closed Tuesday at levels TBD (Monday close was 58,057 -1.35%). **KEY SIGNAL: Dollar still dominant safe haven. Yen NOT getting safe-haven bid on Day 2 of Hormuz closure. Phase 1 JPY weakness EXTENDING, not reversing.**
 
 ---
 
@@ -173,14 +173,14 @@ New data: Reuters article (Feb 28): "If conflict was long-lasting, USD would lif
 
 | Vector | Value | Status | War/LNG Impact |
 |--------|-------|--------|-----------|
-| **USDJPY** | **~157-158 est** | 🔴 | Phase 1 JPY weakness confirmed. EOD 157.375. LNG news likely adds minor weakness leg. Insurance cliff Thursday could push toward 158-159. Then NFP Friday = BIFURCATION POINT. Soft NFP → Phase 2 begins, target 152-154. Finance Min "strong urgency" at 157. |
+| **USDJPY** | **157.686** | 🔴 | **Mar 3 mid-session: +0.18%, Phase 1 EXTENDING.** Yen NOT getting safe haven bid on Day 2 Hormuz closed. Dollar winning even vs CHF and JPY (Reuters Mar 1 confirmed). Finance Min "strong urgency" was at 157 — now breached. Insurance cliff Thursday → 158-159 possible. NFP Friday = bifurcation. |
 | **Brent Oil** | **~$81-82** | 🔴 | Up from $72.48. LNG adds second energy shock. $90+ base if sustained |
 | **Asian JKM LNG** | **~$25/mmBtu est** | 🔴 NEW | Goldman 1-month Hormuz scenario. Up from ~$12-15 baseline. Japan + China bidding war could push $30+ |
 | **TTF (European gas)** | **~€46/MWh** | 🔴 NEW | +45% Monday. Goldman 1-month scenario: €74/MWh |
 | **HY OAS** | **~2.98%** pre-war | 🔴 RISING | Monday gap-wider likely. Watch 320bps |
 | **BOJ Rate** | **0.75%** | 🟡 | **March hold 90%** (upgraded). LNG stagflation trap freezes BOJ. April also likely hold. |
-| **JGB 10Y** | **2.07%** | 🟡 | Down 5bps Monday. Flight to safety. But Takaichi fiscal response (energy subsidies) = more issuance = steepening pressure |
-| **JGB 30Y** | **3.34%** | 🟠 | LNG fiscal response adds JGB supply pressure. Risk of move toward 3.5-3.6% if ¥2-5T subsidy package announced |
+| **JGB 10Y** | **2.13%** | 🟠 | **Mar 3: +6bps from 2.07% — REVERSED Monday flight-to-safety.** 10Y auction BTC 3.3x (strong vs 3.02 prior). Yields following global bonds higher on inflation fears. Himino reaffirmed hike path. Ueda speaking today. |
+| **JGB 30Y** | **~3.28%** | 🟠 | Down from 3.34% (Feb 27). Long end partial flight-to-safety offset. Still elevated vs pre-war. Risk: fiscal subsidy announcement pushes back to 3.4-3.6%. |
 | **VIX** | **~17 pre-war** | 🔴 | Expected 30-40+; likely elevated through insurance cliff and NFP |
 | **Carry Unwind Prob** | **65-75%** | 🔴 UP | Upgraded from 55-65%. Insurance cliff compresses timeline to 30-60 days. |
 | **Carry Unwind Forced** | **147 trigger** | — | Voluntary: 150, Forced: 147. Currently USDJPY ~157, need ~6% yen strength. |
@@ -205,7 +205,8 @@ New data: Reuters article (Feb 28): "If conflict was long-lasting, USD would lif
 | Date | Event | Priority |
 |------|-------|----------|
 | **Mon Mar 2** | **EOD CLOSE: Nikkei -1.35% at 58,057. USDJPY 157.375 (+0.84%, EOD confirmed). JGB 10Y 2.07% (-5bps EOD). Phase 1 confirmed.** | 🔴 CONFIRMED |
-| **Mon Mar 2** | **LNG UPDATE:** QatarEnergy halted production. TTF +45%. Insurance cliff Mar 5 confirmed. Japan LNG buffer 10-14 days. BOJ hold upgraded to 90%. Carry unwind upgraded to 65-75%. | 🔴 NEW |
+| **Mon Mar 2** | **LNG UPDATE:** QatarEnergy halted production. TTF +45%. Insurance cliff Mar 5 confirmed. Japan LNG buffer 10-14 days. BOJ hold upgraded to 90%. Carry unwind upgraded to 65-75%. | 🔴 CONFIRMED |
+| **Tue Mar 3 (today)** | **AM SCAN mid-session:** USDJPY 157.686 (+0.18%). JGB 10Y 2.13% (+6bps — inflation tracking). JGB 30Y ~3.28%. 10Y auction BTC 3.3x STRONG. Himino: hike path reaffirmed. Ueda speaking. Yen NO safe haven bid Day 2 Hormuz. Dollar dominant. Phase 1 EXTENDING. | 🔴 LIVE |
 | **Thu Mar 5** | **⚠️ INSURANCE CLIFF** — 7/12 P&I clubs withdraw war risk coverage. Hormuz becomes uninsurable. Market MUST price months not days. WATCH for USDJPY reaction. | 🔴 CRITICAL |
 | Mar 4 (Tue) | PCE data | 🔴 |
 | **Mar 6 (Fri)** | **NFP — CARRY BIFURCATION.** Soft payrolls + insurance cliff = Phase 2 onset. USDJPY targets 152-154. Strong NFP = Phase 1 extends to 158-160. | 🔴 CRITICAL |

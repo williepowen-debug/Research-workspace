@@ -1,6 +1,6 @@
 # BROCK STATUS — Private Credit & BDC Stress Monitor
-*Last updated: 2026-03-03 (14:15 UTC — REBUILT: cockroach chain + Apollo/Athene deep dive + transmission map)*
-*Prior: 2026-03-02 (21:25 UTC — EOD FINAL — war overlay, KRE -5%, WAL -10.82%)*
+*Last updated: 2026-03-03 (18:40 UTC — AM SCAN: Hormuz closed, S&P -2.2%, Russell -4%, VIX 26.4, Brent $84+, APO near 52-week low)*
+*Prior: 2026-03-03 (14:15 UTC — REBUILT: cockroach chain + Apollo/Athene deep dive + transmission map)*
 
 ---
 
@@ -8,13 +8,17 @@
 
 **Active thesis:** Private credit marks are fake, liquidity is fake, insurers and retail closed-end fund holders are the bagholders. The recognition wave is not starting — it is **mid-execution**.
 
-**Headline context (Mar 3):**
+**Headline context (Mar 3 — updated 18:40 UTC):**
+- **NEW: Hormuz CLOSED** — US-Israel war on Iran; shipping halted; Brent $84+; CNBC warns $100 oil scenario
+- **APO approaching $100P strike** — APO closed March 2 at $106.45 (52-week low: $101.56); with S&P -2.2% today, APO likely trading ~$100-104 range; put approaching near-ATM
+- **Atlas SP confirmed warehouse defaults** — Official Apollo/Atlas statement: "proactively put two warehouses into default and is pursuing all legal avenues to maximize recoveries" (Global Banking & Finance, Feb 27)
+- **MFS total confirmed £2B+ ($2.7B)** — Bloomberg confirmed more than £2B in total loans; larger than prior estimate
 - Three confirmed private credit frauds (First Brands → MFS → Tricolor cockroach chain)
 - Two BDC dividend cuts in 48hrs (FSK, MFIC)
 - One fund gate (OBDC II) + forced partial liquidation by 3/31
 - Non-traded BDC inflows -40% (Jan 2026)
 - Eisman/Gober podcast (Mar 2): Athene deposit-type contracts $37.9B at duration mismatch; Egan Jones under criminal investigation
-- **Active position:** APO $100P Jun 18 entered at $7.70
+- **Active position:** APO $100P Jun 18 entered at $7.70 — APPROACHING ITM
 
 ---
 
@@ -388,13 +392,37 @@ Blackstone says: "execution stress, not AI" — meaning the AI markdown wave has
 
 ---
 
+## OIL SHOCK / STAGFLATION OVERLAY (NEW — Mar 3)
+
+**Hormuz closure adds second stress axis to private credit:**
+
+| Sector | BDC Exposure Risk | Mechanism |
+|--------|-------------------|-----------|
+| Transportation/Trucking | HIGH | Diesel input cost spike → EBITDA compression → coverage ratio decline |
+| Energy services | MIXED (some benefit, many leveraged upstream) | PE-owned oilfield service companies = some relief; refiners/chemicals = cost spike |
+| Consumer-facing PE cos | HIGH | Inflation resurgence → consumer pullback → revenue pressure |
+| Manufacturing (PE-owned) | HIGH | Energy + freight costs → margin compression → covenant stress |
+
+**Stagflation is the killer scenario for private credit:**
+- Higher oil = higher inflation = Fed can't cut = SOFR stays elevated = BDC borrowers continue at high rates
+- Simultaneously, PE portfolio company revenue under pressure from consumer pullback
+- Numerator (EBITDA) falls while denominator (interest expense) stays high
+- Coverage ratios crack → non-accruals spike → marks fall → dividend cuts cascade
+
+**Most exposed BDCs to this overlay:** FSK (manufacturing-heavy), BXSL (industrial + services), PSEC (diversified middle market).
+
+**Rate macro update:** 10Y at 4.10% today (war/risk-off). If stagflation takes hold, Fed trapped — can't cut (inflation) but can't hike (recession). BDC NII doesn't get the relief rate cut would provide. Worst of both worlds.
+
+---
+
 ## NEXT ACTIONS
 
 **Immediate (Mar 3-7):**
-1. ⬆️ Push Apollo/Athene summary to REGINALD — Athene duration mismatch + Atlas SP/MFS losses = bank transmission relevance (JEF, Barclays exposure)
+1. ⬆️ Push Apollo/Athene summary to REGINALD — Athene duration mismatch + Atlas SP/MFS losses = bank transmission relevance (JEF, Barclays exposure); add oil shock overlay
 2. Track Egan Jones criminal investigation — any indictment immediately upgrades insurance sector to 🔴 SYSTEMIC
 3. Monitor OBDC II forced liquidation execution — if Blue Owl sells loans, watch leveraged loan prices for forced-selling discount
-4. Pull APO options chain: check Jun 18 $100P premium vs. entry ($7.70); assess if strike needs adjustment
+4. **APO put monitoring:** Entry $7.70 at $100P Jun 18; APO at ~$102-104 range today — delta rising rapidly; reassess if APO breaks $100 (new 52-week low)
+5. Watch for oil-exposed BDC non-accrual disclosures in any Q4 updates or 8-Ks this week
 
 **Apollo Q1 Earnings Watch (May 2026):**
 - Atlas SP MFS quantified loss
