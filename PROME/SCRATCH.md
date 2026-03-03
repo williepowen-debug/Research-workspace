@@ -1,27 +1,29 @@
 # SCRATCH — Ephemeral Working Memory
 
-**Updated:** 2026-03-03 ~8:45 PM ET
+**Updated:** 2026-03-03 ~9:30 PM ET
 
 ---
 
 ## Right Now
 
-- Finished full PM session: stale agent audits (HENRY, LIQUID, REGINALD), NEXUS synthesis, microstructure deep dive
-- Taught Will market microstructure vs TA vs fundamentals — created learning doc
-- All files saved and pushed. Ready for clear.
+- Just finished memory condensation project. 10 daily notes trimmed ~80%, LESSONS.md trimmed ~72%. Boot sequence ~28KB total.
+- EOD agent scan ran — LABOR reported (JOLTS delay, GAO 134K separations, biotech/media layoffs entering pipeline). REGINALD + BROCK results not yet reviewed.
 
 ## Hot Context
 
-- **S&P closed 6,781.** Below gamma flip, 50-day MA, and put wall. One close below 6,707 = CTA cascade.
-- **ISM Services PMI tomorrow AM** — hits with zero gamma cushion. Dress rehearsal for NFP Friday.
-- **HY OAS ~335-355bps.** Prediction #17 (320bps) achieved. IG issuance frozen.
-- **APO puts** = highest conviction new position idea (private credit transmission live via MFS)
+- **S&P closed 6,781.** Below gamma flip, 50-day MA, and put wall. One close below 6,707 = CTA cascade ($80B selling).
+- **ISM Services PMI tomorrow AM** — hits with zero 0DTE gamma cushion. Dress rehearsal for NFP Friday.
+- **HY OAS ~335-355bps.** Prediction #17 (320bps) achieved. IG issuance ZERO (frozen).
+- **Mar 5 insurance cliff** — 7/12 P&I clubs pulling Hormuz coverage. UNINSURABLE after Thursday.
+- **Cash ~$2,100** saved for post-NFP redeployment.
 
 ## Threads to Pick Up
 
-- Will learning microstructure — reference doc at `WILL/learning/market-microstructure-101.md`
-- Need to verify GEX data freshness (HENRY's numbers are 2-3 days stale)
+- EOD scan results (REGINALD, BROCK) — need to review
+- HENRY GEX data needs freshening (2-3 days stale)
 - REGINALD FL CRE escalation — VLY ($7.4B) as new target
+- PROME/STATUS.md could use a trim pass (~6.5KB)
+- Older daily notes (Feb 1-19) still bloated but low priority (not read at boot)
 
 ---
 
