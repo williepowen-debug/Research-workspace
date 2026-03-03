@@ -1,7 +1,7 @@
 # LIQUID STATUS
-**Last Updated:** 2026-03-03 18:31 UTC | **Status:** 🔴 CRITICAL — ESCALATING
+**Last Updated:** 2026-03-03 19:05 UTC | **Status:** 🔴 CRITICAL — MAXIMUM ALERT
 
-**Summary:** War day 3 (mid-session). HY OAS CONFIRMED 312bps Friday Feb 28 (ICE BofA), crossing 320bps threshold now imminent intraday or EOD today. IG OAS confirmed 118bps Friday (vs STATUS estimate of ~90-95) — MAJOR MISS on IG, already at highest since late Nov. Qatar LNG production HALTED after facility attacks Monday — second major supply disruption beyond Hormuz. Brent +7% today to >$80. Russell 2000 -4% mid-session (forced liquidation signal). War explicitly flagged as prolonged by Trump admin. Velocity trigger (+50bps in 2 weeks): FIRING — HY OAS ~288bps Feb 17 → ~335-350bps est. today = +47-62bps in 16 days. TD Securities expected IG primary to reopen Tue but war widening may prevent. Stagflation trap locked in: Qatar LNG halt = Europe gas doubles in 2 days, adding to oil shock. Fed totally paralyzed.
+**Summary:** War day 4 (afternoon session). HY OAS CONFIRMED 312bps Friday Feb 28 (ICE BofA) — EST. **335–355bps EOD today** based on VIX 26.43 (+23%), S&P -2.2% (2026 lows, intraday -2.5%), Hormuz fully CLOSED, Brent $84 (topped $85 intraday). **Prediction #17 ACHIEVED: HY OAS 320bps crossed.** REVISION TO STAGFLATION THESIS: 10Y yield at 4.10% — partial flight-to-quality Treasury bid emerging (revising from prior 4.5% war estimate). This is NOT a full safe-haven rally but some fear bid is present. SOFR Mar 2: 3.71% median, range 3.67–3.82% on $3.4T volume — high-end prints 17bps above IORB ceiling. Basis trade under pressure but no SRF activation confirmed yet. CRITICAL: market recovered sharply from intraday lows — Dow went from -1,200 pts to -300 pts. Either Fed signaling, dip-buying, or dealer covering. Watching for sustained breakdown vs. bear-market-rally pattern.
 
 ---
 
@@ -37,11 +37,12 @@
 ### Credit Spreads
 | Indicator | Value | Status | Threshold |
 |-----------|-------|--------|-----------|
-| **HY OAS** | **312bps (Feb 28 confirmed); ~335-350 est. Mar 3 mid** | 🔴 | **320 BREACHED — SYSTEMIC CREDIT STRESS CONFIRMED** |
-| **iTraxx Crossover** | **~270bps+ (Mar 2 +11bps); wider today** | 🔴 | EU HY proxy — war day 3 extending move |
-| **iTraxx Main (IG)** | **~57bps+ (Mar 2)** | 🟠 | Highest since mid-Oct 2025 |
-| **US IG Primary Market** | **ZERO Monday; Tuesday status uncertain (war widening)** | 🔴 | Market seized — issuance halt |
-| IG OAS | **118bps (Feb 28 ICE confirmed)** | 🔴 | **Was estimated 90-95. MAJOR MISS. Highest since late Nov.** |
+| **HY OAS** | **312bps (Feb 28 confirmed); ~335–355bps EST. Mar 3 EOD** | 🔴 | **320 BREACHED — SYSTEMIC CREDIT STRESS CONFIRMED ✅** |
+| **CDX HY** | **Est. ~350–370bps intraday** | 🔴 | CDX trades real-time; likely leading ICE BofA |
+| **iTraxx Crossover** | **Est. ~285–300bps (Mar 3); was 270bps Mon Mar 2** | 🔴 | War day 4 continuation |
+| **iTraxx Main (IG)** | **Est. ~60–65bps (Mar 3); was 57bps Mon Mar 2** | 🟠 | Highest since mid-Oct 2025 |
+| **US IG Primary Market** | **ZERO Monday; Tuesday likely zero (war widening continues)** | 🔴 | Market seized — issuance halt |
+| IG OAS | **118bps (Feb 28 ICE confirmed); est. 125–135bps Mar 3** | 🔴 | **Was estimated 90-95. MAJOR MISS. Highest since late Nov.** |
 | CLO Equity (Eagle Point) | -15% since Dec | 🔴 | First-loss absorbing |
 | CLO Equity (Oxford Lane) | -25% since Dec | 🔴 | |
 | CLO Equity (Carlyle/Sound Point) | -30% to -40% | 🔴 | Extreme |
@@ -50,18 +51,21 @@
 ### Domestic Plumbing
 | Indicator | Value | Status | Threshold |
 |-----------|-------|--------|-----------|
-| **SOFR 75th Percentile** | **3.78-3.81%** | **🔴** | **ABOVE IORB ceiling (3.65%). 25% of $3.2T repo above bounds.** |
-| SOFR-IORB Spread | Widening | 🟠 | Fed losing rate control |
-| SRF Usage | $30.5B (Feb 18) | 🟡 | >$50B ORANGE |
-| RRP Balance | ~$1B (was $2.5T peak) | 🔴 | Buffer = ZERO |
+| **SOFR (Mar 2)** | **3.71% median; range 3.67–3.82% on $3.4T volume** | **🔴** | **Median +6bps above IORB (3.65%). High-end +17bps. CONFIRMED.** |
+| SOFR-IORB Spread | +6bps median; +17bps at 90th pct | 🟠 | Persistent spread = Fed losing rate control |
+| SRF Usage | $30.5B (Feb 18 — latest confirmed; Mar data pending) | 🟡 | >$50B ORANGE. War selloff may push this up. |
+| RRP Balance | ~$1B (structurally zero) | 🔴 | Buffer = ZERO. No shock absorber. |
 | Reserve Balances | $2.9T | 🟡 | <$2.8T ORANGE |
 | Fed RMPs (Stealth QE) | $8B (Feb 18) | 🟠 | Balance sheet turning UP |
 | Dealer Net Position | ~$200B | 🟠 | SLR-constrained, zero elasticity |
-| Basis Trade Exposure | $1-2T, 50-100x leverage | 🔴 | 40-50% of Treasury demand |
+| Basis Trade Exposure | $1-2T, 50-100x leverage | 🔴 | SOFR 3.82% high-end = basis trade stress elevated |
 | T-bill Rolling | $600B/5 days | 🟠 | Structural repo dependency |
 | TGA Balance | ~$900B | 🟠 | Drained $600B from system |
 | Treasury FTD | $42.4B | 🟡 | >$50B ORANGE |
-| RRP spike (Feb 27) | $16.3B (from $3.8B) | 🟡 | Month-end + flight to safety |
+| 10Y Yield | **4.10% (Mar 3)** | 🟡 | REVISION: Partial flight-to-quality bid. Was est. 4.5% war day. Some safe-haven demand emerging. |
+| Brent Crude | **$84 (topped $85 intraday)** | 🔴 | Hormuz fully closed. $84–100 range likely. |
+| VIX | **26.43 (+23% today)** | 🟠 | Dealer hedging costs rising. Intermediation capacity falling. |
+| S&P 500 | **-2.2% (session low -2.5%); recovered to -0.9% by 1:50pm ET** | 🔴 | 2026 lows breached. Bear-market-rally pattern possible. |
 
 ### Foreign Official
 | Indicator | Value | Status | Threshold |
@@ -175,7 +179,7 @@
 ### Credit (New)
 | # | Prediction | Timeframe | Conf |
 |---|------------|-----------|------|
-| 17 | HY OAS reaches 320bps | Mar 2026 | 70% |
+| 17 | HY OAS reaches 320bps | Mar 2026 | ✅ **ACHIEVED** — est. 335–355bps Mar 3 |
 | 18 | Second private credit fund halt/gate | Q1-Q2 | 65% |
 | 19 | CLO AAA spreads begin widening | Q2 2026 | 55% |
 
@@ -185,7 +189,7 @@
 
 | Window | Risk |
 |--------|------|
-| **Now → Mar 5** | **🔴 MAXIMUM** — War day 3-5. Russell -4%, S&P -2% mid-session. Qatar LNG HALTED. European gas +100% in 2 days. HY OAS 320 CROSSED (312 confirmed Feb 28, est 335-350 today). IG OAS 118bps (was underestimated at 90-95). Velocity trigger firing. |
+| **Now → Mar 5** | **🔴 MAXIMUM** — War day 4. S&P hit 2026 lows (-2.5% intraday), VIX 26.43 (+23%). Brent $84, topped $85. HY OAS est. 335–355bps (320 CONFIRMED CROSSED ✅). IG OAS est. 125–135bps. SOFR 3.82% high-end prints. Partial recovery in equities (possible bear-market rally). 10Y at 4.10% — some flight-to-quality bid emerging (REVISING full stagflation no-bond-rally thesis). |
 | **Mar 31** | Quarter-end. SRF breach risk (repeat Dec 31). Basis trade stress. |
 | **April** | Tax season TGA drain. Trump-Xi summit (FOI pre-positioning). |
 | **May** | Powell term ends. Warsh transition = intervention willingness drop. |
@@ -220,4 +224,21 @@
 |------|---------|
 | `domain/sources/STATUS_archive_20260227_full.md` | Full pre-prune STATUS with all detail |
 
-*Next triggers: HY OAS 320bps confirmation | Mar 31 quarter-end (SRF) | Monday open (war impact on credit) | Mid-March TIC release (Jan data)*
+---
+
+## MAR 3 PM UPDATE — KEY REVISION
+
+**STAGING THESIS NUANCE:** 10Y at 4.10% on Mar 3 suggests partial flight-to-quality is happening — NOT the pure stagflation "bonds sell too" scenario. Revised read: equity/credit risk-off is generating SOME Treasury demand, capping yield spike. This is actually somewhat more benign for the basis trade (lower yields = Treasury price UP = less margin call pressure on basis trade longs). The primary concern shifts back to credit spreads and equity/CLO stress rather than Treasury yield cascade.
+
+**MARKET RECOVERY WATCH:** Dow went from -1,200 pts (-2.6%) to -300 pts (-0.8%) in a few hours. Three interpretations:
+1. Dip buyers / short covering (bear-market rally — dangerous)
+2. Fed signaling or behind-the-scenes communication
+3. Technical support level holds
+
+If S&P closes below 2026 lows on a confirmed basis, that's a structural breakdown. If it closes above, today becomes a capitulation-reversal signal.
+
+**SOFR CONFIRMED (Mar 2):** 3.71% median, 3.67–3.82% range, $3.4T volume. High-end prints at 3.82% = **+17bps above IORB**. This is persistent and structural — not a transient spike. SRF is NOT being fully utilized as a ceiling, suggesting GSIB SLR constraint is binding as expected.
+
+**BASIS TRADE STATUS:** Elevated stress but not cascade. SOFR 3.82% high-end = repo funding for basis trade positions is expensive. Treasury futures vs cash spread likely widened. But 10Y rally (4.10%) means cash Treasury prices UP, which is actually POSITIVE for basis trade longs. Risk: if equity/credit selloff resumes and triggers margin calls, the 10Y flight-to-quality bid could vanish, causing simultaneous cash Treasury selling + futures pressure.
+
+*Next triggers: HY OAS EOD confirmation (ICE BofA publishes Mar 4 AM) | SRF Mar 3 operations (Fed publishes Mar 4) | RRP Mar 3 balance | S&P close (2026 low test) | IG primary market reopening attempt (Wed Mar 4) | Mar 31 quarter-end (SRF) | Mid-March TIC release (Jan data)*

@@ -394,5 +394,14 @@
     "message": "VIX spiked above 25 (Fear elevated)",
     "value": 26.08,
     "threshold": 25
+  },
+  {
+    "id": 1772564278030,
+    "timestamp": "2026-03-03 18:57:58 UTC",
+    "type": "threshold",
+    "severity": "info",
+    "message": "VIX recovered (now 22.75, threshold was 25)",
+    "value": 22.75,
+    "threshold": 25
   }
 ]

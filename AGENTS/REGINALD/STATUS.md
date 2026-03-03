@@ -1,5 +1,5 @@
 # REGINALD STATUS
-**Last Updated:** 2026-03-03 18:35 UTC | **Status:** 🔴 CRITICAL — STAGFLATION TRAP CONFIRMED + Dow -1052pts (-2.1%) + S&P -2.4% + VIX 27.30 (March 2023 high) + 10yr RISING to 4.10% (NO TREASURY RELIEF) + Brent $118 (+13%) + HTM losses WIDENING
+**Last Updated:** 2026-03-03 19:10 UTC | **Status:** 🔴 CRITICAL — STAGFLATION TRAP CONFIRMED + KRE $65.30 (-2.2% intraday Mar 3) + OZK -4.4% intraday + S&P -2.2% + VIX 27.30+ + FL MIGRATION -93% CENSUS CONFIRMED + HTM losses WIDENING + NO TREASURY RELIEF
 
 **Known Data Issues:** DHS shutdown now Day 14+ (was Day 5 in prior version). OZK earnings were Jan 20, NOT Feb 27. BROCK outbound signal delivered (was "PENDING"). Subprime auto DQ now 7.1% (was 6.74%). PSEC PIK was 8.6% verified, NOT 35%.
 
@@ -23,14 +23,16 @@ Eight independent channels terminate at regional banks. Banks with MULTIPLE chan
 
 ---
 
-## INBOX (Processed 2026-03-03 18:35 UTC)
+## INBOX (Processed 2026-03-03 19:10 UTC)
 
-**Mar 3 inbox processing:**
+**Mar 3 inbox processing — FULL INTEGRATION COMPLETE:**
 
 | Signal | Disposition | Key Finding |
 |--------|-------------|-------------|
 | CIRCUIT_BREAKERS_EXTEND_PRETEND.md (Feb 28) | INTEGRATE | CRE mods $27.7B (+66% YoY); Warsh = higher bar for Fed Put; unrealized losses $306.1B Q4 2025 but NOW RISING AGAIN with 4.10% yield |
 | FLORIDA_CRE_BANK_STRESS_FEB26.md (Feb 26) | INTEGRATE | BayFirst (St. Pete) 51 jobs cut (-17%), exited SBA platform; FL #2 foreclosure nationally; Big bank expansion vs regional retrenchment = consolidation precursor |
+| FL MIGRATION CENSUS (Mar 3) | INTEGRATE → CORAL RED | Net domestic migration 310,892 (2022) → 22,517 (2025) = **-93% in 3 years** (Census Bureau / Axios confirmed). FL multifamily demand thesis is structurally broken. International migration also expected to fall -75% further. FL population growth now entirely dependent on international migration = deportation policy = second-order risk. **CORAL upgraded to 🔴 RED.** |
+| MAR 3 MARKET DATA | LOG | KRE gapped to **$65.30** (down from $66.77 Mar 2 close = -2.2%). OZK -4.4% intraday. S&P -2.2%. 2nd day of significant regional bank pressure. KRE has now lost **-11.6%** from Feb 27 high of $67.67 vs. $74.08 Feb peak. |
 
 ---
 
@@ -113,8 +115,25 @@ All inbox signals processed. See ML-REG-081 through ML-REG-095, VX-REG-17.01 thr
 |-------|--------|------------|--------|
 | CREED | CRE | Office 12.34% ATH, Chicago 70-94% loss severity, $936B maturity wall | 🔴 |
 | BROCK | Private Credit | PCDR 5.8%, Medallia 78¢, FSK div cut, Blue Owl gating, **MFS £2B fraud + MFIC div cut + APO triple stress** | 🔴 STAGE 4 APPROACHING |
-| CORAL | Florida | Migration -93%, Jacksonville rents -11.3%, 900K condo units facing mandates | 🔴 |
+| CORAL | Florida | **UPGRADED 🔴:** Migration -93% CENSUS CONFIRMED (22,517 net domestic in 2025 vs 310,892 peak 2022), Jacksonville rents -11.3%, 900K condo units facing mandates, BayFirst -17% workforce, FL #2 foreclosure nationally | 🔴 RED |
 | BELT | Sun Belt | MS +109bps QoQ (#1), LA +89bps, MD +87bps mortgage DQ | 🔴 |
+
+---
+
+## KEY LEVELS & WATCHLIST (Mar 3 INTRADAY — ~2PM ET)
+
+| Ticker | Mar 2 Close | Mar 3 Intraday | Change | Notes |
+|--------|-------------|----------------|--------|-------|
+| KRE | $66.77 | **$65.30** | **-2.2%** | Gapped down; -11.6% from Feb peak $74.08; **new multi-week low** |
+| OZK | ~$47.5 est | **-4.4% intraday** | ~-$2.09 | Accelerating relative to sector; hidden CRE 37.6% most exposed |
+| S&P | ~prev | **-2.2%** | — | Broad selloff, not just banks |
+| VIX | ~27.30 | Elevated | — | Institutional hedging sustained |
+
+**Mar 3 Key Analysis:**
+- KRE gapping through $66 support = **new technical breakdown level.** Next support ~$62-63 (Oct 2024 range).
+- OZK -4.4% outpacing sector = market specifically targeting hidden CRE exposure. Baltimore Peninsula disposition talks circulating (Jan filing). Our $42.5P Aug increasingly in play.
+- Two consecutive days of -2%+ on KRE = institutional unwind, not retail panic. This is deliberate risk reduction.
+- **FL MIGRATION IMPACT on bank exposure:** SSB most direct exposure (FL MF heavy, 27% of VLY book). OZK has FL CRE exposure. BayFirst template (SBA exit) = credit contraction spreading.
 
 ---
 
@@ -220,9 +239,35 @@ MFS is NOT merely a sentiment catalyst — it is a completed collapse case study
 
 ---
 
+## FLORIDA MIGRATION — THESIS UPGRADE (Mar 3, 2026)
+
+**Census Bureau confirmed (via Axios Tampa Bay, Feb 12, 2026):**
+- FL net domestic migration: 310,892 (2022) → 183,646 (2023) → 58,411 (2024) → **22,517 (2025)**
+- **-93% collapse in 3 years**
+- International migration expected to fall -75% further (Census "historic" designation)
+- FL population growth was already shifting to international migration — now that pipe is closing too
+
+**What this breaks:**
+1. **Multifamily demand thesis.** FL MF rent growth predicated on migration inflows. With net domestic migration at 22K and international collapsing, MF vacancy rises and rent growth turns negative (Jacksonville already -11.3%).
+2. **Condo demand floor.** Buyers absorbing SIRS-distressed condo units? Who? The migration tailwind that made FL condos work at any valuation is gone.
+3. **Bank CRE underwriting assumptions.** Every FL CRE loan underwritten 2021-2024 modeled migration-driven demand. Those models are wrong by 93%.
+
+**Bank exposure to FL migration collapse:**
+| Bank | FL CRE Exposure | Migration Risk |
+|------|----------------|----------------|
+| VLY | 27% of book (~$7.4B FL MF) | 🔴 DIRECT — FL MF at -93% tailwind removal |
+| SSB | FL MF concentration | 🔴 DIRECT — $90P Jun thesis |
+| OZK | FL CRE presence | 🟠 ELEVATED |
+| WAL | FL developer loans (indirect) | 🟠 |
+
+**CORAL STATUS: UPGRADED FROM 🟠 ORANGE → 🔴 RED**
+Migration collapse is structural, not cyclical. The demand that supported FL CRE valuations from 2020-2023 is not returning.
+
+---
+
 ## BOTTOM LINE
 
-**Mar 3 UPDATE:** Stagflation trap is the regime-change. Hormuz closure = Brent $118 → persistent inflation → Fed CANNOT cut → rates elevated indefinitely → CRE maturity wall cannot refinance. The initial flight-to-safety bid in Treasuries (10yr briefly below 4%) reversed intraday to 4.10% RISING. This is the worst case for banks: no NIM relief, no refinancing, AND energy inflation hammering consumer credit quality simultaneously. Unrealized losses (Q4 2025: $306.1B) are now WIDENING again. The Warsh-regime insurance policy (higher bar for Fed Put) is a known risk — our catalyst timeline (April-June) predates his installation but the market is now pricing it. OZK Baltimore Peninsula disposition talks confirmed (Jan filing) — exit of distressed CRE is an admission, not a positive. MS raise of OZK PT ($57→$61 EW) on same day = FADE SIGNAL, same pattern as ZION upgrade Feb 27. VIX at 27.30 = institutional hedging accelerating. Eight channels live. WAL major stress event probability: **80%** (up from 75%). **Updated:** 2026-03-03 18:35 UTC.
+**Mar 3 UPDATE (19:10 UTC):** Two compounding shocks today. (1) **Market:** KRE gapped to $65.30 (-2.2%), OZK -4.4% — sector technical breakdown accelerating; KRE now -11.6% from Feb peak. OZK outpacing sector selloff = market pricing worst hidden CRE (37.6% ratio). Next KRE support ~$62-63. (2) **FL Migration:** -93% Census confirmed (22,517 net domestic 2025 vs 310,892 peak 2022) — CORAL upgraded to 🔴 RED. Every FL CRE model from 2021-2024 modeled migration-driven demand. Those underwriting assumptions are structurally broken. VLY ($7.4B FL MF) and SSB most directly exposed. Stagflation trap confirmed: Hormuz closure = Brent $118 → persistent inflation → Fed hold → CRE wall cannot refinance → HTM losses widening → no NIM relief. Eight channels active. WAL major stress event probability: **80%**. April-June catalyst window intact and compressing. **Updated:** 2026-03-03 19:10 UTC.
 
 *Full pre-prune STATUS → archive/STATUS_pre_prune_2026-02-27.md*
 *WAL SSFA detail → inbox signals (Feb 25)*

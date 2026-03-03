@@ -1,5 +1,5 @@
 # HENRY STATUS
-**Last Updated:** 2026-03-03 18:35 UTC | **Status:** 🔴 RED++ — BUY-THE-DIP REFLEX FAILED. VIX SURGED TO 26.43 (+23%). SPX -2.2% MID-SESSION (FRESH 2026 LOW). BRENT $84 (+8%). HORMUZ CONFIRMED CLOSED. FAST-GAMMA CASCADE PATH NOW ACTIVATING. STAGFLATION ENTRENCHED.
+**Last Updated:** 2026-03-03 19:35 UTC | **Status:** 🔴 RED++ — SPX CLOSED -0.9% (~6,781) BELOW PUT WALL (6,800). 50-DMA (6,883) AND 200-DMA (6,902) BOTH BREACHED ON CLOSE. GOLDMAN 6,707 CTA TRIGGER PIERCED INTRADAY (6,672 LOW). SHORT-TERM CTAs ACTIVELY SELLING. 0DTE GAMMA CUSHION EXPIRED AT CLOSE. TRIPLE-HEADER MACRO TOMORROW (ISM SERVICES + ADP + BEIGE BOOK) WITH NO 0DTE BUFFER AT OPEN. VIX 26.43. STAGFLATION CONFIRMED.
 
 **Prior EOD Closes Feb 27:** SPX 6,843.16 | Dow 48,721.66 | Nasdaq 22,620.85 | VIX ~20 (breach) | Gold bid | 10Y ~3.99%
 
@@ -66,26 +66,33 @@ Market is derivatives-driven, dealer hedging dominates short-term dynamics.
 
 ---
 
-## KEY LEVELS
+## KEY LEVELS ⚠️ UPDATED Mar 3 Deep Dive — See domain/research/GEX_CTA_DEEP_DIVE_MAR3.md
 
-| Level | SPX Price | Significance |
-|-------|-----------|--------------|
-| Volatility Trigger | 6,900 | Gamma flip zone — BELOW = negative gamma |
-| Put Wall | 6,800 | Structural support |
-| Acceleration Zone | 6,600s | Negative gamma feedback target |
-| CTA Flip | 6,494 | Medium-term CTAs flip short → $40-60B selling |
-| JPM Collar Put | 6,475 | Institutional hedge floor |
+| Level | SPX Price | Significance | Mar 3 Status |
+|-------|-----------|--------------|-------------|
+| 200-day MA / Gamma Flip | **6,902** | Dealer negative gamma territory below | 🔴 BREACHED (all session) |
+| 50-day MA / Short CTA | **6,883** | Short-term CTA sell trigger | 🔴 BREACHED (close ~6,781) |
+| Put Wall | **6,800** | Heaviest put OI concentration | 🔴 BREACHED AT CLOSE (~6,781) |
+| Goldman CTA Medium | **6,707** | $80B systematic selling trigger (Goldman Feb 2026) | ⚠️ PIERCED INTRADAY (6,672 low), close ~6,781 = not sustained |
+| Acceleration Zone | **6,600s** | Negative gamma feedback / no support | Not reached |
+| Longer-Duration CTA Flip | **~6,494** | Longer-lookback CTAs flip net short | Not reached |
+| JPM Collar Put | **6,475** | JHEQX institutional hedge — mechanical buy support | Not reached (~4.5% away) |
+
+**MA verification source:** Investing.com technical page, Mar 3, 2026
+**Goldman 6,707 source:** Bloomberg/Economic Times report ~Feb 13, 2026
+**JPM 6,475 source:** Q1 2026 collar confirmed (workmarketsfinance.com Jan 2026)
 
 ---
 
-## CASCADE ORDER
+## CASCADE ORDER ⚠️ UPDATED TRIGGER LEVELS
 
-| Order | Strategy | AUM | Trigger | Speed |
-|-------|----------|-----|---------|-------|
-| 1 | Fast Vol-Control | Multi-$T | 10-day realized vol | Immediate |
-| 2 | Short-Term CTAs | ~$100B | Short MA breach | Days |
-| 3 | Medium-Term CTAs | ~$200B | 50/200 DMA, 6494 | 1-4 weeks |
-| 4 | Risk Parity | ~$1T | Cross-asset correlation | Monthly |
+| Order | Strategy | AUM | Trigger | Speed | Current Status |
+|-------|----------|-----|---------|-------|---------------|
+| 1 | Fast Vol-Control | Multi-$T | 10-day realized vol | Immediate | 🔴 ACTIVE (VIX 26.43) |
+| 2 | Short-Term CTAs | ~$100B | 50-DMA breach (6,883) | Days | 🔴 ACTIVE (close 6,781 < 6,883) |
+| 3 | Medium-Term CTAs | ~$200B | 6,707 close below → $80B | 1-4 weeks | ⚠️ BORDERLINE (intraday breach, not sustained) |
+| 4 | Longer-Duration CTAs | ~$200B+ | ~6,494 sustained below | Weeks | Not triggered |
+| 5 | Risk Parity | ~$1T | Cross-asset correlation | Monthly | Building |
 
 ---
 
@@ -178,6 +185,71 @@ Risk parity deleverages     → T+5 to T+30
 
 **EMPLOYMENT 48.8% (corrected — prior entry showed 48.1 which was January):** Still contracting but slightly improved. Manufacturing firms not hiring yet despite 2nd straight expansion month. Stagflation confirmed: demand up, costs up, employment still weak.
 
+## SESSION LOG — Mar 3, 2026 (EOD Deep Dive, 19:30 UTC)
+
+### GEX/CTA DEEP DIVE — VERIFIED LEVELS (Full report: domain/research/GEX_CTA_DEEP_DIVE_MAR3.md)
+
+**MAR 3 FINAL CLOSE (CNBC confirmed):**
+- SPX: -0.9% close (~6,781) | Low: -2.5% (~6,672) | Recovery: 68% of losses
+- Dow: -0.8% close (-371 pts) | Low: -2.6% (-1,200 pts)
+
+**WHAT ACTUALLY HELD TODAY:**
+- 6,900 gamma flip? **NO** — breached all session
+- 6,800 put wall? **NO** — close at ~6,781 (below on close basis, test #1)
+- 6,707 Goldman CTA trigger? **INTRADAY PIERCE** (~6,672 low). Close ~6,781 = no sustained breach
+- The intraday recovery was approximately 60% 0DTE gamma mechanics / 40% real dip-buying
+
+**VERIFIED MOVING AVERAGES (Investing.com, Mar 3):**
+- 50-day MA: **6,883.49** → Short-term CTA sell trigger (BREACHED on close)
+- 200-day MA: **6,902.20** → Gamma flip level (BREACHED all session)
+- SPX below BOTH MAs on a closing basis for first time in this selloff
+
+**CTA TRIGGER LEVELS CORRECTED:**
+- Old STATUS.md: CTA flip at 6,494 (longer-duration, still valid but further out)
+- NEW: Goldman-sourced medium-term trigger is **6,707** ($80B selling over 1 month)
+- Short-term CTAs ALREADY selling (50-DMA 6,883 breached)
+- 6,707 intraday breach today may have activated SOME CTA selling programs
+- 6,494 is longer-duration CTA flip (6-12 month lookback momentum models)
+
+**JPM COLLAR CONFIRMED:** 6,475 for Q1 2026 (JHEQX). Distance: ~4.5% below current close.
+
+**POST-0DTE RESET RISK FOR MAR 4:**
+Tomorrow opens with ZERO 0DTE gamma cushion from today's expirations. All put protection
+evaporated at close. Triple-header macro (ISM Services + ADP + Beige Book) hits a market
+with no mechanical stabilizer at open. First 30-60 minutes of tomorrow most vulnerable.
+
+---
+
+## SESSION LOG — Mar 3, 2026 (2PM ET Update, 19:00 UTC)
+
+**ISM SERVICES PMI — TIMING CORRECTION:**
+- **NOT released today.** Task prompt stated it was released today — INCORRECT per ISM official schedule.
+- ISM Services releases on the **3rd business day**: March 4 is the 3rd BD (Mar 2=BD1, Mar 3=BD2, Mar 4=BD3).
+- Last known read: **January 2026 = 53.8** (vs 53.5 exp — steady expansion, above consensus).
+  - Prices subindex was 66.6 in Jan (elevated). Feb read critical — if Prices spike like Mfg (70.5%), stagflation confirmed sector-wide.
+- **Watch tomorrow:** Feb ISM Services + ADP + Fed Beige Book triple-header. Any Services Prices >68 = MAJOR stagflation confirmation.
+
+**CURRENT MARKET STRUCTURE STATUS (2PM ET Mar 3):**
+- VIX 26.43 → already in the vol-control automatic deleveraging zone (10-day realized vol spiking)
+- 10Y 4.10% RISING during equity selloff = **textbook stagflation trade, not recession**. Treasuries NOT safe haven = Fed completely boxed in.
+- Brent $84 (+8%): Hormuz closure layering ON TOP of pre-existing tariff inflation. ISM Mfg Prices were 70.5% BEFORE the oil shock is fully priced.
+- No ISM Services today = no additional macro catalyst. Selloff is pure positioning unwind + geopolitical fear + earnings deterioration.
+
+**WHAT CHANGED FROM MAR 2 EOD:**
+| Indicator | Mar 2 EOD | Mar 3 2PM | Delta |
+|-----------|-----------|-----------|-------|
+| SPX | ~flat recovery | -2.2% (2026 lows) | FAILED RECOVERY |
+| VIX | ~20 | 26.43 | +32% from Mar 2 EOD (+23% intraday) |
+| Brent | ~$77 | $84 | +$7 (+9%) |
+| 10Y | ~3.99% | 4.10% | +11bps (RISING on risk-off) |
+| Gold | ~$5,226 | ~$5,408 | +$182 (+3.5%) |
+| Buy-dip reflex | ALIVE (recovered from -1.2%) | DEAD (no recovery) | CRITICAL SHIFT |
+| Cascade probability | Fast 30% / Slow 55% | Fast 50%+ / Slow 35% | PATH SHIFTING |
+
+**CRITICAL: No major data releases today = selloff is purely structural/geopolitical/positioning. When the macro triple-header hits tomorrow (ISM Services + ADP + Beige Book), the vol regime is already at 26+. Any weak print accelerates.**
+
+---
+
 ## SESSION LOG — Mar 3, 2026 (AM Scan, 1:30PM ET)
 
 **THE DIP-BUY IS DEAD. BUY-THE-DIP REFLEX FAILED COMPLETELY:**
@@ -192,7 +264,7 @@ Risk parity deleverages     → T+5 to T+30
 - Market breadth: partial selloff yesterday → ~90% red today
 - SPX: fresh 2026 lows. Prior low was Feb 27 close at 6,843.16
 
-**ISM SERVICES PMI:** NOT released today. Scheduled TOMORROW (March 4) along with ADP and Fed Beige Book. Do NOT confuse with Mfg. Today had NO major scheduled data.
+**ISM SERVICES PMI:** ⚠️ CORRECTION — NOT released today. ISM Services releases on the **3rd business day** of the month. March calendar: Mar 1=Sunday, Mar 2=Monday (BD1), Mar 3=Tuesday (BD2), Mar 4=Wednesday (BD3). Therefore release is **TOMORROW March 4** alongside ADP Employment and Fed Beige Book. Last known read: **January 2026 = 53.8** (steady, services expansion intact). Feb 2026 data pending — watch for any Services Prices component surge mirroring Mfg Prices (70.5%). Today had NO major scheduled data releases.
 
 **JOLTS (Jan 2026):** Data not released/captured today.
 
@@ -262,7 +334,7 @@ Risk parity deleverages     → T+5 to T+30
 
 **Next releases:**
 - ✅ Mar 2: ISM Mfg (Feb) — 52.4 ACTUAL vs 51.8 exp (BEAT) | Prices 70.5% (+11.5pts, highest since Jun 2022) | Employment 48.8% (contracting) | STAGFLATION CONFIRMED
-- ⏳ Mar 4: ISM Services PMI (Feb) — NOT released today, TOMORROW | ADP Employment | Fed Beige Book
+- ⏳ Mar 4: ISM Services PMI (Feb) — CONFIRMED TOMORROW (3rd BD) | ADP Employment | Fed Beige Book | **Watch: Services Prices component — if mirrors Mfg (70.5%), stagflation fully confirmed across both sectors**
 - Mar 6: NFP (Feb)
 - Mar 11: CPI (Feb)
 - Mar 13: PCE (Jan) + GDP 2nd est
