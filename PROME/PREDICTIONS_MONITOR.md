@@ -1,5 +1,5 @@
 # PREDICTIONS MONITOR
-**Updated:** 2026-02-27
+**Updated:** 2026-03-03
 
 Quick-reference for predictions closest to resolution. Check daily.
 
@@ -12,7 +12,7 @@ Quick-reference for predictions closest to resolution. Check daily.
 | **CARL-16** | Fannie MF DQ >0.80% | 0.75% | 0.80% | **0.05pp** | Q1 2026 | CARL |
 | **CARL-11** | CC 90+ DQ >13.74% (GFC) | 12.70% | 13.74% | **1.04pp** | Q2 2026 | CARL |
 | **CARL-12** | Student 90+ DQ >10% | 9.5% | 10.0% | **0.5pp** | Q1 2026 | CARL |
-| **CARL-14** | Subprime Auto 60+ >7% | 6.65% | 7.00% | **0.35pp** | Q2 2026 | CARL |
+| **CARL-14** | Subprime Auto 60+ >7% | **6.9%** | 7.00% | **0.10pp** | **One print away** | CARL |
 | **SAM-7** | Shunto tally ≥3.5% | Electronics ¥18K ✅ | 3.5% | — | Mid-Mar tally | SAM |
 
 ---
