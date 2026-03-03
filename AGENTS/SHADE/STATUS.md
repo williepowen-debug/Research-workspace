@@ -82,7 +82,7 @@
 | BROCK | APO fee dependency, FABN as private credit funding mechanism | PENDING |
 | LIQUID | $1.1T offshore reserves, FHLB exposure, systemic transmission | PENDING |
 | REGINALD | 28 PE-insurers in FHLB ($26B), bank counterparty risk | PENDING |
-| NEXUS | Insurance as 5th transmission vector (alongside banks, consumer, energy, global) | PENDING |
+| NEXUS | Insurance as 5th transmission vector (alongside banks, consumer, energy, global) | ✅ DELIVERED 2026-03-03 |
 
 ## NEXT ACTIONS
 1. Pull actual Athene AAIA quarterly statutory statement (most recent)

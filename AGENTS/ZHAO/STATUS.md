@@ -62,9 +62,9 @@
 ### Currency / HK Peg
 | Metric | Current | Yellow | Orange | Red | Status |
 |--------|---------|--------|--------|-----|--------|
-| USD/CNY | 7.25 | >7.30 | >7.40 | >7.50 | 🟡 YELLOW⚠️ (7.30 imminent — LNG crisis + DXY) |
+| USD/CNY | **6.89** (offshore, Mar 3) | >7.30 | >7.40 | >7.50 | 🟢 GREEN — PBOC largest midpoint fix in 6mo; yuan strengthening, 7.30 call pushed back |
 | HK Aggregate Balance | **HK$53.9B** | <$45B | <$40B | <$30B | 🟢 GREEN |
-| HIBOR-SOFR Spread | ~-30bps | >-100bps | >-200bps | >-300bps | 🟢 GREEN |
+| HIBOR-SOFR Spread | **~-170bps** (HIBOR 2.60%, SOFR ~4.3%) | >-100bps | >-200bps | >-300bps | 🟡 YELLOW — approaching ORANGE threshold |
 | HK Backing Ratio | ~110% | <108% | <105% | <102% | 🟢 GREEN |
 
 ### HK Peg Early Warning (NEW - RP-ZHAO-4)
@@ -444,4 +444,11 @@ The risk isn't that China abandons USD. The risk is:
 
 ---
 
-*Last updated: 2026-03-02 22:30 UTC*
+*Last updated: 2026-03-03 14:05 UTC*
+
+### Mar 3 Check-in Notes
+- **USD/CNY corrected to 6.89** — PBOC largest midpoint fix in 6+ months; yuan strengthening. 7.30 imminence call walked back.
+- **HIBOR-SOFR corrected to ~-170bps** — YELLOW approaching ORANGE. STATUS.md had -30bps which was stale.
+- **10Y UST: 4.10%** — rising on war risk (up 7bps today, 9bps yesterday). UST not rallying thesis CONFIRMED.
+- **LGFV/property:** No acute overnight news. Beijing restricting institution-specific data (opacity increasing).
+- **TIC:** Next print Mar 15 (Feb data). No update today.

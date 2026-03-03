@@ -331,5 +331,68 @@
     "message": "RRP Balance breached threshold: 0.6% (threshold: 5.0%)",
     "value": 0.627,
     "threshold": 5
+  },
+  {
+    "id": 1772541381694,
+    "timestamp": "2026-03-03 12:36:21 UTC",
+    "type": "threshold",
+    "severity": "critical",
+    "message": "VIX spiked above 25 (Fear elevated)",
+    "value": 25.14,
+    "threshold": 25
+  },
+  {
+    "id": 1772542996670,
+    "timestamp": "2026-03-03 13:03:16 UTC",
+    "type": "threshold",
+    "severity": "info",
+    "message": "VIX recovered (now 24.9, threshold was 25)",
+    "value": 24.9,
+    "threshold": 25
+  },
+  {
+    "id": 1772543297355,
+    "timestamp": "2026-03-03 13:08:17 UTC",
+    "type": "threshold",
+    "severity": "critical",
+    "message": "VIX spiked above 25 (Fear elevated)",
+    "value": 25.17,
+    "threshold": 25
+  },
+  {
+    "id": 1772543657257,
+    "timestamp": "2026-03-03 13:14:17 UTC",
+    "type": "threshold",
+    "severity": "info",
+    "message": "VIX recovered (now 24.92, threshold was 25)",
+    "value": 24.92,
+    "threshold": 25
+  },
+  {
+    "id": 1772543956533,
+    "timestamp": "2026-03-03 13:19:16 UTC",
+    "type": "threshold",
+    "severity": "critical",
+    "message": "VIX spiked above 25 (Fear elevated)",
+    "value": 25.11,
+    "threshold": 25
+  },
+  {
+    "id": 1772549656702,
+    "timestamp": "2026-03-03 14:54:16 UTC",
+    "type": "threshold",
+    "severity": "info",
+    "message": "VIX recovered (now 24.63, threshold was 25)",
+    "value": 24.63,
+    "threshold": 25
+  },
+  {
+    "id": 1772550016638,
+    "timestamp": "2026-03-03 15:00:16 UTC",
+    "type": "threshold",
+    "severity": "critical",
+    "message": "VIX spiked above 25 (Fear elevated)",
+    "value": 26.08,
+    "threshold": 25
   }
 ]

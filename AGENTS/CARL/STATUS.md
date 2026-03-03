@@ -1,5 +1,5 @@
 # CARL STATUS
-**Last Updated:** 2026-03-02 13:15 UTC | **Status:** 🔴 RED
+**Last Updated:** 2026-03-03 14:05 UTC | **Status:** 🔴 RED
 
 **Summary:** Consumer fragility confirmed across multiple vectors. Fannie MF DQ 0.74% (6bps from GFC peak). Subprime auto 60+ DQ at ALL-TIME RECORD (6.9%). Student loan 30+ DQ WORST EVER (16.3%). K-shape validated by Walmart, Wendy's, BKNG. US net savings at ZERO = no shock absorber. War (Feb 28) adds oil/gas price pressure — 2-3 week lag to consumer. Triple transmission: DOGE (0-2mo) + private credit middle-market (May-Jun) + supply-side credit withdrawal (Block/Klarna/Blue Owl). **LABOR UPDATE (Mar 2):** Hiring freeze → "active freeze through Q2 minimum." DOGE >400K confidence 72%. Claims >250K Q2 confidence 70%. WARN 706 notices/85K employees → April-May claims spike base case. Transmission timeline ACCELERATED — Q2 stress pulled forward.
 
@@ -104,10 +104,12 @@ Path F: AI displacement → Prime mortgage stress → Banks (new, from Citrini)
 ## WAR IMPACT (Feb 28+)
 
 - Oil spike → gas prices → consumer squeeze. **2-3 week lag to pump prices.**
-- Brent $72 → ~$80 at futures open. If sustained >$85, bottom 60% hit hardest (commuters, hourly).
+- **Mar 1-2 update:** Brent peaked $82.37 (intraday), settled ~$77-78. Strait of Hormuz tanker traffic effectively halted. Brent +6-7% from pre-war.
+- **Escalation scenario (CNBC):** >$100/bbl if Iran attacks neighboring energy facilities. Hard-line = genuine Hormuz closure.
+- If Brent holds $77+: gas stress hits pump **Mar 7-14**. If spikes to $85+: Mar 14-21 stress is near-certain and severe.
 - LIHEAP infrastructure already broken (DOGE fired entire staff Apr 2025). Winter 2026-27 = real danger.
 - **Double-cover thesis:** War covers for economy, AI covers for layoffs. Structural weakness gets blamed on Iran.
-- **CARL update deferred** until oil price settles (1-2 weeks). Gas transmission is real but lagged.
+- **Mar 14-21 gas stress window: ON TRACK. Accelerating if Brent >$85.**
 
 ---
 
