@@ -1,5 +1,99 @@
 # HENRY STATUS
-**Last Updated:** 2026-03-03 21:15 UTC | **Status:** 🔴 RED++ — SPX CLOSED -0.9% (~6,781) BELOW PUT WALL (6,800). 50-DMA (6,883) AND 200-DMA (6,902) BOTH BREACHED ON CLOSE. GOLDMAN 6,707 CTA TRIGGER PIERCED INTRADAY (6,672 LOW). SHORT-TERM CTAs ACTIVELY SELLING. 0DTE GAMMA CUSHION EXPIRED AT CLOSE. ISM SERVICES + ADP + BEIGE BOOK TOMORROW (MAR 4) — NO 0DTE BUFFER AT OPEN. VIX 26.43. STAGFLATION CONFIRMED. UST NOT SAFE HAVEN (10Y 4.10% RISING ON RISK-OFF DAY) — ZHAO THESIS CONFIRMED.
+**Last Updated:** 2026-03-03 23:16 UTC | **Status:** 🔴 RED++ — SPX CLOSED 6,781. BELOW GAMMA FLIP (6,902), 50-DMA (6,883), PUT WALL (6,800). GOLDMAN 6,707 PIERCED INTRADAY (6,672 LOW) — NO SUSTAINED CLOSE YET. VIX 26.43. HY OAS EST 335-355bps (ELEVATED). ISM SERVICES + ADP + BEIGE BOOK AT OPEN MAR 4 WITH ZERO 0DTE GAMMA CUSHION. STAGFLATION CONFIRMED. 10Y RISING ON RISK-OFF = FED BOXED IN. SELF-AUDIT COMPLETE — SEE SECTION BELOW.
+
+---
+
+## ⚠️ SELF-AUDIT — Mar 3 2026 23:16 UTC
+
+### DOMAIN REPORT: CURRENT READ
+
+**Market Microstructure:**
+- SPX 6,781: Firmly in negative gamma territory. Dealers short gamma → amplify moves in both directions. Every down tick triggers hedging sells; every bounce needs to fight dealer resistance.
+- VIX 26.43: Vol-control mechanical deleveraging IS ACTIVE. Funds with ~$1-2T AUM systematically reducing equity exposure — mechanical, not discretionary. This is Step 1 of cascade.
+- HY OAS est. 335-355bps (per task brief): If confirmed, this is a major escalation from 295bps (last confirmed Feb). That's +40-60bps in days — the ORANGE threshold in my transmission table. Expect equity follow-through within 1-3 sessions if sustained.
+- 6,707 Goldman CTA trigger: Intraday breach (6,672 low) but closed ~6,781. Medium CTAs may have PARTIALLY triggered — programs have different lookback windows and activation thresholds. Some portion of $80B is flowing. Watch for consecutive closes below 6,707.
+- Tomorrow (Mar 4): Zero 0DTE cushion + triple macro header (ISM Services + ADP + Beige Book). ISM Services Prices the key number — if ≥68% mirrors manufacturing (70.5%), stagflation confirmed across both sectors. Fed officially in impossible position.
+
+**Key levels I'm watching:**
+- 6,707: Does the close sustain below? Triggers medium CTA full activation (~$80B selling over weeks)
+- 6,600s: Acceleration zone, thin GEX support
+- 6,494: Longer-duration CTA flip (~$200B additional)
+- 6,475: JPM JHEQX collar mechanical bid (~3.7% below current close ~6,781)
+- HY OAS 350bps: Confirmed stress; 400bps = crisis
+
+**Path probabilities (updated):**
+- Fast gamma cascade: 50% (up from 30% Mar 2; VIX 26+ vol-control already active)
+- Slow credit grind: 35% (down from 55%; credit may be accelerating faster than "slow grind")
+- Muddle-through: 15% → effectively 5% now
+
+---
+
+### ISSUES & GAPS
+
+**VX.tsv — SEVERELY STALE:**
+- Last updated: Feb 3-12 across most vectors
+- VX-HEN-4.01 (VIX): Shows 16.07. Actual: 26.43. **Off by 65%.**
+- VX-HEN-9.01 (Net GEX): Shows $62B/1% GREEN from Feb 3. Market has been in negative gamma since breach of 6,902. Likely negative or near zero now. Completely misleading.
+- VX-HEN-9.02 (Gamma Flip): Shows ~6,850. STATUS.md says 6,902. Inconsistency between files.
+- VX-HEN-9.04 (Put Wall): Shows 6,920. Actual put wall is 6,800 per STATUS. **Wrong by 120pts.**
+- VX-HEN-15.x (CTA vectors): Show SPX ~6,850 calculations. Now at 6,781. All distances stale.
+- VX-HEN-16.01 (HY OAS): Shows 281bps from Feb 11. Estimated actual: 335-355bps. **Off by 50-75bps.**
+- VX-HEN-16.02 (HY OAS 5d change): Shows +8bps GREEN. Actual rate of change is likely +40-60bps in recent days. **Completely wrong signal.**
+- VX-HEN-16.03 (Credit-Equity Transmission): Shows DORMANT. Actual: ACTIVE. **Wrong.**
+
+**ML.tsv — GAP SINCE FEB 17:**
+- Last entry: ML-HEN-062 dated 2026-02-17
+- Missing: Two weeks of critical events (Feb 27 triple confluence, Mar 2 ISM Mfg 70.5% prices shock, Mar 3 cascade trigger session, all confirmed structural breaks)
+- Mar 2-3 session logs are in STATUS.md but NOT logged as ML entries
+
+**FL.tsv — NO NEW ENTRIES SINCE JAN 26:**
+- FL-030 (passive doom loop watch at VIX >25) was written as forward alert. It's now triggered. Not marked.
+- FL-016 (S&P December Low 6,720): SPX 6,781 is ~60pts above. Needs active monitoring note.
+- Missing FL: Goldman 6,707 CTA trigger watch, JPM JHEQX Q1 collar expiry (Mar 31) countdown
+
+**FLOW.tsv — INCOMPLETE:**
+- Only 5 generic flow transitions. Missing the full cascade sequence from STATUS.md (vol-control → CTA short-term → CTA medium → risk parity → credit contagion)
+- Missing credit-equity transmission flow (HY OAS → equity lag table)
+- Missing 0DTE gamma feedback loop as a named flow
+
+**Missing Vectors I Should Be Tracking:**
+1. **MOVE Index absolute level** — in WHAT TO WATCH section but no VX entry
+2. **VIX term structure (spot vs 1M futures)** — inversion = backwardation = panic, critical signal
+3. **GEX daily estimate** — need daily update, not monthly. SpotGamma/Cboe data
+4. **Put/call skew (25-delta)** — skew explosion precedes cascades
+5. **CLO spreads** — mentioned as "added to watch list" Feb 27 but no VX entry
+6. **Baltic Dry Index** — now disrupted by Hormuz closure, war premium. Shows GREEN at 2,124 from Feb 3 but war has reordered global shipping
+7. **USD/JPY current** — shows 154.32 from Feb 3. Yen carry risk is live
+
+**Data sources I wish I had:**
+- Real-time SpotGamma GEX dashboard (currently estimating from price action)
+- ICE BofA HY OAS daily feed (currently estimating from commentary)
+- CFTC COT data more frequently (bi-weekly is too slow for fast moves)
+- Real-time CTA positioning (Goldman/BofA internal, not public)
+
+---
+
+### SYSTEM FEEDBACK
+
+**What's working:**
+- STATUS.md as memory: The long session log format is effective. When spawned, I can reconstruct context from it even without conversation history. The "WHAT ACTUALLY HELD TODAY" section is exactly what's useful for a downstream spawn.
+- The cascade order table is clean and ready to reference at any spawn.
+- Transmission paths section (LABOR → HENRY → CARL) is well-structured for coordination.
+- The priority ordering (Status banner first, then positions, then thesis) is correct.
+
+**What's not working:**
+- **VX.tsv is decorative, not functional.** A spawned subagent told to "check VX.tsv for current signal state" would get wrong readings on 20+ vectors. VX.tsv should be updated after every significant session, not weekly. As of Mar 3 EOD, it's a liability, not an asset. Fix: VX.tsv should have a STALE_SINCE column, and any value >3 days old during a high-vol regime should auto-flag.
+- **ML.tsv lags STATUS.md by ~2 weeks.** The session logs capture everything but ML evidence log has gone cold since Feb 17. This means downstream agents querying ML for evidence chains get incomplete history.
+- **No inbound signals since Feb 27.** Either other agents aren't firing, or their signals aren't being routed to my inbox. For a 3/3 session this significant, I would expect signals from CREED (credit contagion update), BROCK (HY spread confirmation), LIQUID (flow data), SAM (yen carry update). Inbox was empty.
+- **11 agents, but I only have STATUS files for some.** I can't directly query BROCK or CREED's current state when spawned. Cross-agent reads would help calibrate HY OAS and credit contagion status.
+- **STATUS.md is getting long.** The session logs section will eventually overwhelm the active signals section. Suggest: archive session logs >7 days old to `research/session_archive/` and keep STATUS.md focused on live signals + last 3 sessions.
+
+**Structural improvement ideas:**
+1. Add `LAST_VERIFIED` timestamps to STATUS.md key levels table — helps spawning agent know what's confirmed vs estimated
+2. Create `SIGNAL_REGISTRY.md` in repo/ — a live board where any agent can post a signal with timestamp. Would solve the inbox routing problem.
+3. VX.tsv: Add a "REGIME" column — GREEN/RED based on whether we're in normal or stressed regime. Many vectors mean different things in different regimes.
+4. When PROME spawns me for a check-in, consider also spawning BROCK simultaneously for credit confirmation — our domains are deeply interlinked (my H4 prediction depends on HY OAS, which is BROCK's domain).
+
 
 **Prior EOD Closes Feb 27:** SPX 6,843.16 | Dow 48,721.66 | Nasdaq 22,620.85 | VIX ~20 (breach) | Gold bid | 10Y ~3.99%
 
