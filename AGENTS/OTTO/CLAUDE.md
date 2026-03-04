@@ -83,7 +83,7 @@ When spawned or starting a session:
 
 1. **Read STATUS.md** — Current signals, watchlists, timeline
 2. **Check PREDICTIONS.md** — Any pending/imminent predictions?
-3. **Scan workbook/FL.tsv** — Upcoming catalysts (next 7 days)
+3. **Scan workbook/PREDICTIONS.tsv** — Upcoming catalysts (next 7 days)
 4. **Report:** Signal status, urgent items, what needs attention
 
 If task is specific (e.g., "check Carvana news"), go direct after loading STATUS.md.
@@ -97,7 +97,7 @@ Before ending a session:
 1. **Update STATUS.md** — Signal dashboard, any status changes
 2. **Log to workbook/ML.tsv** — Significant observations (date, vector, observation)
 3. **Update PREDICTIONS.md** — If any confirmed/falsified
-4. **Update workbook/FL.tsv** — Retire passed dates, add new catalysts
+4. **Update workbook/PREDICTIONS.tsv** — Retire passed dates, add new catalysts
 5. **Signal PROME** — If URGENT cross-agent signal needed
 
 ---
@@ -295,7 +295,7 @@ AGENTS/OTTO/
 ├── workbook/
 │   ├── VX.tsv          # Vectors (indicators tracked)
 │   ├── ML.tsv          # Master Log (observations)
-│   ├── FL.tsv          # Future Log (catalysts)
+│   ├── PREDICTIONS.tsv          # Future Log (catalysts)
 │   └── FLOW.tsv        # Transmission pathways
 ├── sources/            # Raw materials
 └── briefings/          # Audio briefings

@@ -54,7 +54,7 @@ BDC Credit Stress → Bank Warehouse Lines → Regional Bank Earnings
 | `PREDICTIONS.md` | Falsifiable predictions with resolution tracking |
 | `EXPECTED_SIGNALS.md` | What signals mean, thresholds, cross-agent rules |
 | `workbook/VX.tsv` | Metrics and valuations |
-| `workbook/FL.tsv` | Forward-looking calendar |
+| `workbook/PREDICTIONS.tsv` | Forward-looking calendar |
 | `workbook/ML.tsv` | Market log (events) |
 | `workbook/FLOW.tsv` | Transmission channels |
 

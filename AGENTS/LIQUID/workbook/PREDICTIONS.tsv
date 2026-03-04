@@ -1,0 +1,4 @@
+Pred_ID	Date_Made	Prediction	Confidence	Timeframe	Status	Date_Resolved	Outcome	Notes
+LIQ-01	2026-02-26	HY OAS reaches 320bps	70%	Mar 12-14 2026	OPEN		ETA from velocity calc
+LIQ-02	2026-02-26	HY OAS velocity +50bps in 2 weeks triggers forced selling	55%	Mar 2026	OPEN		Dual-trigger framework
+LIQ-03	2026-02-26	CLO AAA widens >160bps SOFR+	50%	H1 2026	OPEN		Best canary per LIQUID

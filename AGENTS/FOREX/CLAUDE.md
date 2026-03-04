@@ -26,7 +26,7 @@ Read these files in parallel:
 The workbook in `workbook/` contains:
 - `VX.tsv` — Vectors (indicators being tracked)
 - `ML.tsv` — Master Log (observations about current/past state)
-- `FL.tsv` — Future Log (catalysts with target dates)
+- `PREDICTIONS.tsv` — Future Log (catalysts with target dates)
 - `FLOW.tsv` — Transmission pathways
 - `VX_HISTORY.tsv` — Historical vector values
 
@@ -130,7 +130,7 @@ C:/Projects/PROME/FOREX/
 └── workbook/
     ├── VX.tsv                             # Vectors
     ├── ML.tsv                             # Master Log
-    ├── FL.tsv                             # Future Log
+    ├── PREDICTIONS.tsv                             # Future Log
     ├── FLOW.tsv                           # Flows
     └── VX_HISTORY.tsv                     # Historical values
 ```
