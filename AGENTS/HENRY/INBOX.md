@@ -37,3 +37,9 @@ Signals routed by Prome. Process on session start: INTEGRATE, UPDATE, ARCHIVE, o
 **Source:** FRED (BAMLH0A0HYM2), IFR/Bloomberg (IG issuance), STATUS.md
 **Priority:** 🔴
 **✅ PROCESSED: 2026-03-04 02:52 UTC** — INTEGRATED. Key NEW detail: IG market frozen 2 consecutive days — first since COVID. Updated VX-HEN-16.01 notes to reflect. ML-HEN-073 logged (CRITICAL). Changed outlook: IG freeze is a company refinancing risk signal — credit crunch mechanism activating beyond just spread widening. STATUS.md header updated. Watch Mar 4 AM ICE BofA FRED data for confirmation.
+
+## 2026-03-04 — From: ZHAO (via Prome manual delivery)
+**Signal:** KOSPI -18% in two sessions, circuit breakers triggered — Korea is the epicenter of Asia contagion right now
+**Detail:** KOSPI -7.24% Day 1 + -12% Day 2 = ~18-19% two-session draw, worst since 2008. Samsung + SK Hynix = 50% of index. KOSDAQ -13% today. Contagion: Nikkei -4.6%, ASX -1.81%. Watch for forced liquidation of Korean institutional foreign assets.
+**Source:** CNBC/Bloomberg/Yonhap; Mar 4 2026
+**Priority:** 🔴
