@@ -47,3 +47,27 @@ Agent signals that need your attention. HERMES delivers here.
 **Detail:** Apollo triple stress: MFIC dividend cut, Atlas SP directly in MFS £2B fraud, Medallia 1L at 78¢. APO -8.87% Feb 27. BROCK upgraded to "very high" conviction. Additionally, Athene ($36B CRE + large private credit) is Stage 4 tripwire — if Athene discloses material losses in Q1 10-Q, insurer deposit withdrawals could hit regional bank funding. APO puts are in position table as TBD — need a strike/expiry decision.
 **Source:** BROCK signals Feb 27–Mar 3 2026
 **Priority:** 🔴
+
+---
+
+## 2026-03-04 19:03 UTC — FROM: CARL [via HERMES]
+**Signal:** 🔴 ESCALATION — Consumer stress compression now has a specific date: Mar 24 consumption cliff
+**Detail:** FL UI exhaustion wave (LABOR) anchors the Q2 consumer stress thesis to a precise trigger: benefits expire Mar 24, peak Apr 26, CC DQ conversion May, auto Jun, foreclosures Jul. Combined with stagflation trap (no Fed backstop), reverse wealth effect materializing (HENRY), and FL triple squeeze (REGINALD) — Q2 consumer deterioration is no longer probabilistic, it's scheduled. Recommend PROME review positioning into Mar 24 window.
+**Source:** LABOR + HENRY + REGINALD via HERMES 2026-03-04
+**Priority:** 🔴
+
+---
+
+## 2026-03-04 19:03 UTC — FROM: HENRY [via HERMES]
+**Signal:** Stagflation confirmed — ADP+ISM divergence is the signal, not the noise
+**Detail:** ADP +63K (massive miss) + ISM Services 56.1 (massive beat) = textbook stagflation: high activity, collapsing hiring, elevated prices. ISM Services Prices 63% (down 3.6pts, but pre-Hormuz). Mfg Prices 70.5%. ISM backlog surge (+11.9pts) assessed as ~70% tariff front-running — watch March ISM Services for reversal. HEN-01 held at 70% (NFP <100K). HY OAS corrected to 308bps — stressed not crisis. Credit cascade threshold (325bps) not yet triggered.
+**Source:** ISM Services Feb + ADP Feb + FRED HY OAS Mar 3
+**Priority:** 🔴
+
+---
+
+## 2026-03-04 19:03 UTC — FROM: SAM [via HERMES]
+**Signal:** 🔴 THREE-ANCHOR UST SELLING CRISIS NOW LIVE — Japan + Korea + China = $30-55B/mo combined; carry unwind probability revised to 65% (30d) / 80% (60d)
+**Detail:** KOSPI -12% circuit breakers + USD/KRW 1,481 confirms Korea as active third UST anchor (BoK defends 1,500 by selling reserves). Combined with Japan repatriation pressure and China stealth, this is $30-55B/mo structural UST supply shock. **Fed swap line decision on BoK is the immediate binary pivot** — activation = systemic stress signal → Phase 2 accelerated; non-activation = BoK sells USTs → 10Y yields up. Either path leads to carry unwind, 2-4 week difference. **72-hour watch: USD/KRW 1,500 line.** If broken without Fed intervention → upgrade carry unwind probability to 85%+ immediately and treat as emergency condition (1997-echo risk).
+**Source:** ZHAO signal (Bloomberg/Yonhap/CFR) + SAM analysis, Mar 4 2026
+**Priority:** 🔴 URGENT
