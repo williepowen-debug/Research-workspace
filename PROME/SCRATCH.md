@@ -4,9 +4,15 @@
 
 ---
 
-## RIGHT NOW — Handoff in progress
+## RIGHT NOW — Handoff
 
-### Done this session (session 2):
+### Done session 3 (late night):
+- ✅ PREDICTIONS.tsv rolled out: 55 predictions seeded, 24 FL.tsv archived
+- ✅ HENRY EOD read: Dow close corrected, ISM Mfg Prices 70.5%, HEN-01 maintained 60%
+- ✅ LIQUID EOD read: HY OAS EST 315-335 (bias corrected), BX -3.82%, LIQ-01 LIKELY_EARLY
+- ✅ REGINALD inbox completed
+
+### Done session 2:
 1. ✅ Stale agent refreshes: HENRY, LIQUID, REGINALD, HANS (all returned)
 2. ✅ HERMES delivery run + diagnostic report (18 signals delivered, system working)
 3. ✅ Inbox processing: HENRY, HAWK, LIQUID all processed inbox signals
@@ -32,13 +38,13 @@ After any agent spawn batch, run: `scripts/check_urgent_signals.sh`
 If exit 0 (🔴 found) → spawn HERMES immediately, don't wait for scheduled run.
 
 ### Next session priorities:
-1. **Check REGINALD output** (should be done by now)
-2. **Re-run LIQUID inbox processing** (failed this session — timeout)
-3. **PREDICTIONS.tsv rollout** (plan ready at `PROME/PREDICTIONS_IMPLEMENTATION_PLAN.md`)
-4. **Audit batch 3:** HAWK, MARCO, BROCK
-5. **Audit batch 4:** HANS, ZHAO, DARWIN
-6. **Remaining infra:** AGENTS.md→CLAUDE.md rename, AGENTS_DIRECTORY.md update
-7. **Research threads** (from NEXT_SESSION.md): Athene run risk, Korea third anchor, DHS→food inflation
+1. **🔴 Check FRED for HY OAS Mar 3 confirmed** (resolves LIQ-01)
+2. **🔴 ADP 8:15 AM + ISM Services 10:00 AM → spawn HENRY after each**
+3. **🔴 Run HERMES** (fresh OUTBOX signals from HENRY + LIQUID)
+4. **🟠 Audit batch 3:** HAWK, MARCO, BROCK
+5. **🟠 Audit batch 4:** HANS, ZHAO, DARWIN
+6. **🟡 Remaining infra:** AGENTS.md→CLAUDE.md rename, AGENTS_DIRECTORY.md update
+7. **🟡 Research threads:** Athene run risk, Korea third anchor, DHS→food inflation
 
 ### HANS ceasefire revised: 85% → 12% (30-day)
 ### ISM Services PMI tomorrow AM — HENRY prepped with full decision matrix
