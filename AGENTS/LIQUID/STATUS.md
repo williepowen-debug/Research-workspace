@@ -255,3 +255,78 @@ If S&P closes below 2026 lows on a confirmed basis, that's a structural breakdow
 **BASIS TRADE STATUS:** Elevated stress but not cascade. SOFR 3.82% high-end = repo funding for basis trade positions is expensive. Treasury futures vs cash spread likely widened. But 10Y rally (4.10%) means cash Treasury prices UP, which is actually POSITIVE for basis trade longs. Risk: if equity/credit selloff resumes and triggers margin calls, the 10Y flight-to-quality bid could vanish, causing simultaneous cash Treasury selling + futures pressure.
 
 *Next triggers: HY OAS EOD confirmation (ICE BofA publishes Mar 4 AM) | SRF Mar 3 operations (Fed publishes Mar 4) | RRP Mar 3 balance | S&P close (2026 low test) | IG primary market reopening attempt (Wed Mar 4) | Mar 31 quarter-end (SRF) | Mid-March TIC release (Jan data)*
+
+---
+
+## SELF-AUDIT — Mar 3 2026
+
+### Part 1: Confirmed vs Estimated Data
+
+| Data Point | Prior Estimate | Confirmed (FRED) | Delta | Action |
+|-----------|---------------|-----------------|-------|--------|
+| HY OAS Feb 28 | "312bps confirmed" | 312bps ✅ | Correct | None |
+| HY OAS Mar 2 | "335-355bps EST Mar 3" | 303bps (Mar 2 close) | Spreads TIGHTENED on recovery | Estimate still unconfirmed for Mar 3 |
+| IG OAS Feb 28 | "118bps confirmed" | 86bps | **-32bps ERROR** | Major miscalibration — recalibrated to 85bps |
+| IG OAS Mar 3 est | "125-135bps" | ~90-100bps likely | Systematic overestimate | Revised |
+| VIX Mar 2 close | "26.43" | 21.44 (FRED VIXCLS) | +5pts overestimate | 26.43 is Mar 3 intraday/close (per Prome) |
+| S&P Mar 2 close | "-2.2%" | 6,881 (+0.04%) | Mar 2 was flat/up; sell-off was Mar 3 | Timeline confusion in STATUS |
+| RRP Mar 3 | "~$1B" | $1.203B ✅ | Approximately correct | None |
+| SOFR 99th pct | "3.82%" | 3.82% ✅ | Correct | None |
+| BCRED | "est. ~$3.7B" | Confirmed $3.7B gross ✅ | Correct | Logged ML-LIQ-059 |
+
+**Root cause of IG OAS error:** IG spreads were ballpark-estimated from VIX/equity correlation rather than reading FRED directly. ICE BofA IG OAS hasn't been near 118bps since ~2020 (COVID). The correct range for war-stress IG OAS is 85-110bps, not 118-135bps. Fixed.
+
+### Part 2: Workbook Gaps & Stale Data
+
+**ML.tsv:** Last entry was Feb 20 (entry 057). GAPS: Feb 27 (VIX spike), Feb 28 (war day 1), Mar 2 (recovery), Mar 3 (BCRED) — all needed. Added entries 058-060 now. Still missing: Mar 2 SRF data (publishes ~Mar 6), Mar 3 auction data if any.
+
+**VX.tsv:** Most vectors last updated Feb 11-20. Stale vectors:
+- VX-LIQUID-1.01 (SOFR): Updated now to Mar 2 confirmed data
+- VX-LIQUID-1.02 (RRP): Updated now to Mar 3 confirmed $1.2B
+- VX-LIQUID-1.04 (SRF): Still at Feb 18 $30.5B — awaiting Fed publish (~Mar 6)
+- VX-LIQUID-7.01 (China TIC): Nov 2025 TIC data — Jan 2026 TIC publishes ~Mar 18
+- VX-LIQUID-7.06 (Belgium): Same lag
+- VX-LIQUID-2.01-2.03 (Auctions): Mar auctions haven't happened yet (next: ~Mar 11 3Y, ~Mar 12 10Y, ~Mar 13 30Y)
+- MISSING: No vector for BCRED/private credit fund flows, BX equity price, IG primary issuance
+- MISSING: CDX HY real-time (no confirmed FRED series for this)
+- MISSING: CCC-rated OAS tracking (highest-stress canary for credit cascades)
+
+**FL.tsv:** Events through ~Mar 31. GAPS: No entries for Mar 11-13 auctions. No entry for SRF weekly data release schedule. No Warsh confirmation hearing date (reportedly May 2026).
+
+**FLOW.tsv:** Only 9 data rows — extremely sparse. Describes structural flows (TGA drain, China exit) but no entries for: BCRED redemption cascade flow, IG primary market shutdown transmission, basis trade stress flows under war conditions.
+
+**Data I wish I had:**
+- CDX HY real-time (need a direct feed; Bloomberg/IHS estimated only)
+- SOFR volume breakdown by counterparty type (who's paying 3.82%?)
+- SRF daily operations data (currently 2+ week lag)
+- Private credit fund flow data (BCRED, BREIT, MFIC — only quarterly)
+- CLO primary issuance volumes (weekly)
+- Dealer inventory by tenor (FR 2004 has 2-week lag)
+
+### Part 3: System Feedback
+
+**What's working:**
+- FRED data pull (exec + curl) is fast and reliable for confirmed data
+- The transmission chain framework (private credit → bank → CLO → public spreads) is proving out in real-time
+- Danger Windows calendar in STATUS.md is well-calibrated (Mar 31, April, May all still live)
+- Cross-agent signal flow (BROCK→LIQUID→HENRY path for credit cascade) conceptually correct
+
+**What's not working:**
+1. **INBOX.md is effectively dead.** Last processed Feb 20. I receive no signals from BROCK, HAWK, SAM between sessions. The BCRED situation should have been pre-flagged by BROCK. War impact from HAWK should have been in my inbox. Without inter-agent signaling, I'm working from cold starts every session.
+
+2. **STATUS.md is too long (~400 lines).** When spawned, reading this file consumes significant context before any work. The "War Impact" section (40+ lines) and "Transmission Mechanisms" detail section are useful for deep dives but wasteful for quick check-ins. Suggest: compress to a 100-line CURRENT STATE + link to archive files.
+
+3. **Spread estimates lack confidence intervals.** I was stating "HY OAS 335-355bps" as if confirmed when it was a model estimate. Should format as: `[EST] 335-355bps (unconfirmed; ICE BofA publishes next AM)` vs `[CONF] 303bps (FRED Mar 2)`.
+
+4. **No VIX vector.** VIX drives dealer hedging cost and intermediation capacity — it should be in VX.tsv with thresholds (>20 YELLOW, >25 ORANGE, >35 RED). Currently tracked only qualitatively in STATUS.
+
+5. **IG primary market issuance tracking.** A two-day issuance halt is a systemic signal. No formal vector for this in VX.tsv. Would be: `IG Issuance = ZERO for N consecutive days` as RED if ≥2 days.
+
+6. **Private credit fund gate/redemption vector missing.** After BCRED, this is clearly worth tracking formally — redemption cap utilization %, number of gates active, BREIT/BCRED/MFIC composite stress.
+
+**Structural suggestions for the network:**
+- BROCK→LIQUID signal on private credit fund stress should be automatic (not ad-hoc). If BROCK sees a BDC gate or dividend cut, that should land in INBOX.md SAME SESSION.
+- HAWK→LIQUID signal on war risk insurance and tanker/commodity disruption should be faster. War impact to SOFR (via energy price inflation expectations → Fed response uncertainty) takes 2-3 days via current process.
+- STATUS.md size cap: 150 lines for active state, archives for history. Current file is 400+ lines and growing.
+- Prediction table: Good structure, but confidence levels are drifting without calibration checks. Should review prediction accuracy monthly.
+

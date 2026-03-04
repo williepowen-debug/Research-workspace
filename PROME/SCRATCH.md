@@ -1,29 +1,41 @@
 # SCRATCH — Ephemeral Working Memory
 
-**Updated:** 2026-03-03 ~9:30 PM ET
+**Updated:** 2026-03-03 ~10:30 PM ET
 
 ---
 
-## Right Now
+## Right Now — AGENT INFRASTRUCTURE OVERHAUL
 
-- Just finished memory condensation project. 10 daily notes trimmed ~80%, LESSONS.md trimmed ~72%. Boot sequence ~28KB total.
-- EOD agent scan ran — LABOR reported (JOLTS delay, GAO 134K separations, biotech/media layoffs entering pipeline). REGINALD + BROCK results not yet reviewed.
+Discovered systemic decay: workbooks stale across all agents, cross-agent signals not flowing, agents dumping everything into STATUS.md. HENRY and LIQUID both confirmed independently.
 
-## Hot Context
+### The Plan (in chunks, clearing between each):
 
-- **S&P closed 6,781.** Below gamma flip, 50-day MA, and put wall. One close below 6,707 = CTA cascade ($80B selling).
-- **ISM Services PMI tomorrow AM** — hits with zero 0DTE gamma cushion. Dress rehearsal for NFP Friday.
-- **HY OAS ~335-355bps.** Prediction #17 (320bps) achieved. IG issuance ZERO (frozen).
-- **Mar 5 insurance cliff** — 7/12 P&I clubs pulling Hormuz coverage. UNINSURABLE after Thursday.
-- **Cash ~$2,100** saved for post-NFP redeployment.
+**Chunk 1 (NOW):** ✅ Update files to reflect plan. You're reading this.
 
-## Threads to Pick Up
+**Chunk 2:** Update CLAUDE_TEMPLATE.md with OUTBOX.md protocol. Push updated instructions to all 11 agent CLAUDE.md files. Create OUTBOX.md + INBOX.md for all agents.
 
-- EOD scan results (REGINALD, BROCK) — need to review
-- HENRY GEX data needs freshening (2-3 days stale)
-- REGINALD FL CRE escalation — VLY ($7.4B) as new target
-- PROME/STATUS.md could use a trim pass (~6.5KB)
-- Older daily notes (Feb 1-19) still bloated but low priority (not read at boot)
+**Chunk 3:** Build HERMES agent (CLAUDE.md, SOUL.md, register with openclaw, routing table, cron schedule).
+
+**Chunk 4:** Spawn agents in batches (3-4 at a time) for self-audit + workbook repair. Same task we gave HENRY/LIQUID: domain report, issues/gaps, fix your workbooks, write to OUTBOX if cross-agent relevant.
+
+**Chunk 5:** Test HERMES — run him once, verify signals flow from OUTBOX → INBOX correctly.
+
+### What's Already Done Tonight
+- Memory condensation: 10 daily notes trimmed ~80% (-74KB)
+- LESSONS.md trimmed ~72% (-6KB)
+- Boot sequence slimmed (28KB total, BRIEFING/WILL/CALENDAR/FORGE moved to on-demand)
+- SCRATCH.md created as ephemeral working memory layer
+- CLAUDE_TEMPLATE updated with workbook logging rules
+- HENRY: VX.tsv fixed (7 critical vectors), STATUS pruned 507→242 lines, workbook gaps filled (ML +1, FL +7, FLOW +8, VX +5 new vectors)
+- LIQUID: Self-audit complete, ML updated, IG OAS corrected, confidence labels added
+- All agent inboxes fixed (HENRY/REGINALD broken paths, HANS/ZHAO/DARWIN missing)
+- EOD scan results reviewed (BCRED $3.7B redemptions, TCPC fraud, DB $143B warning)
+
+## Hot Market Context
+- S&P closed 6,781. Below gamma flip, 50-day MA, put wall. CTA trigger 6,707 armed.
+- ISM Services PMI tomorrow AM — zero gamma cushion at open.
+- HY OAS ~335-355bps (est). IG issuance frozen. BCRED near-gate.
+- Cash ~$2,100 saved for post-NFP redeployment.
 
 ---
 
