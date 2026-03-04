@@ -2,7 +2,7 @@ ID	Date	Entity	Catalyst	Impact	Status	Next_Check	Notes
 FL-OTTO-001	2026-02-13 to 17	PrimaLend	PrimaLend Plan Confirmation	Confirmation hearing THIS WEEK; liquidating trust; Jan 23 au...	CRITICAL	-	Watch for BVY2 fraud findings; creditor recovery rates
 FL-OTTO-002	2026-02-18	Carvana	Carvana Q4/FY2025 Earnings	CRITICAL: 10-K filing, GT opinion, related-party disclosures...	CRITICAL	-	Decision point: 10-K delayed or GT resigns = RED. Clean filing + substantive rebuttal = bear thes...
 FL-OTTO-003	Early 2026	FirstBrands	First Brands Section 363 Sale	Sale process for Fram, Raybestos, Trico core brands	CRITICAL	-	Liquidity depends on Ford/GM bridge; examiner report Feb 25
-FL-OTTO-004	Early March 2026	Regulatory	CFPB Funding Lapse	If no congressional action, Bureau enters shutdown posture	CRITICAL	-	Would pause supervision, rulemaking, and litigation
+FL-OTTO-004	Early March 2026	Regulatory	CFPB Funding Lapse	CFPB now functionally dead; enforcement/supervision/rulemaking all paused	RESOLVED	-	Would pause supervision, rulemaking, and litigation
 FL-OTTO-005	Ongoing	Tricolor	Andy Mata Grand Jury	DOJ targeting operational layer of Tricolor	CRITICAL	Weekly	May lead to additional charges or cooperating witnesses
 FL-OTTO-006	Ongoing	FirstBrands	First Brands Ch. 7 Conversion	Some units considering Chapter 7 to cut advisory costs; woul...	CRITICAL	Weekly	Watch for court filing. If happens, examiner investigation likely ends.
 FL-OTTO-007	~2026-02-25	FirstBrands	First Brands Examiner Report	Martin De Luca (Boies Schiller) report on $2.3B factored rec...	CRITICAL	-	May be killed if Ch. 7 conversion happens first. Race against liquidation.
@@ -36,3 +36,7 @@ FL-OTTO-034	~2027-01	ILC	GM/Ford ILC First Deposits	~12 months from Jan 21, 2026
 FL-OTTO-035	2026-02-09	PrimaLend	PrimaLend Plan Voting Deadline	Creditor vote on reorganization plan	RESOLVED	-	Market test for subprime sector appetite
 FL-OTTO-036	2026-02-15	Regulatory	Fed 2026 Stress Test Scenarios	Finalization of severely adverse scenario (5.5pp unemploymen...	RESOLVED	-	First time with public comment on hypothetical conditions
 FL-OTTO-037	2026-06	FirstBrands	First Brands Trial	Fraud allegations tested in court; may reveal additional det...	PENDING	-	Judge Lopez scheduled 2-week trial
+FL-OTTO-038	2026-04-06	TCPC	TCPC Lead Plaintiff Deadline	Securities fraud class action lead plaintiff appointment deadline	CRITICAL	-	Outcome signals what disclosures were allegedly withheld (First Brands / credit losses)
+FL-OTTO-039	2026-02-26	MFS	MFS UK Insolvency	Market Financial Solutions collapsed; judge cited fraud + double-pledging; Barclays + Atlas SP exposed	RESOLVED/RED	-	Cockroach #4 confirmed. International expansion of double-pledging fraud pattern.
+FL-OTTO-040	2026-Q1	BCRED	BCRED Gate Decision	Blackstone deciding whether to hard-gate BCRED or liquidate assets to meet $3.7B redemption	CRITICAL	Weekly	7.9% > 5% cap. Watch for gate announcement or forced asset sales. Contagion to private credit broadly.
+FL-OTTO-041	Ongoing	CFPB	CFPB State AG Coordination	With CFPB dead, watch for state AG enforcement actions on subprime auto	ELEVATED	Monthly	NY CFPB state equivalent Sep 2026 key backstop. TX/CA/IL AGs most active.

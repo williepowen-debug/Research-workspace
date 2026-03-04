@@ -2,7 +2,7 @@ Vector_ID	Name	Category	Current_Value	Yellow	Orange	Red	Status	Confidence	Last_U
 VX-CARL-1.01	Credit Card 90+ DQ	CREDIT	12.70%	10%	12%	13.7%	RED	HIGH	2026-02-10	NY Fed Q4 2025	92% of GFC peak (13.74%)
 VX-CARL-1.02	Credit Card Payment Rate	CREDIT	PENDING	18-20%	15-18%	<15%	PENDING	MEDIUM	2026-02-11	ABS Framework	LEADING INDICATOR - Track via ABS
 VX-CARL-1.03	BNPL Late Rate	BNPL	42%	40%	45%	50%	YELLOW	MEDIUM	2026-01-22	Industry Reports	Approaching 45% threshold
-VX-CARL-1.04	Subprime Auto 60+ DQ	AUTO	6.9%	5%	6%	7%	RED	HIGH	2026-02-17	Fitch ABS Index (Jan 2026) / Wolf Richter	ALL-TIME RECORD (Jan 2026). Prime 0.4% = 17x gap. K-shape in credit visualized. Updated from 6.65% (Jan-22).
+VX-CARL-1.04	Subprime Auto 60+ DQ	AUTO	7.1%	5%	6%	7%	RED-BREACHED	HIGH	2026-03-04	Fitch ABS Index (Feb 2026) / PROME briefing	⚠️ THRESHOLD BREACH: 7.1% > RED threshold of 7.0%. Updated 6.9%→7.1% Mar 4. ALL-TIME RECORD extended. Prime 0.4% = 17x gap. K-shape confirmed extreme.
 VX-CARL-1.05	Deep Subprime Auto Acceleration	AUTO	+40% YoY	+30%	+40%	+50%	ORANGE	HIGH	2026-01-22	Industry Data	Accelerating delinquency
 VX-CARL-1.06	Student Loan Conditional DQ	STUDENT	31%	25%	30%	35%	ORANGE	MEDIUM	2026-01-22	Industry Data	Conditional on repayment
 VX-CARL-1.07	Gen Z Prime Contagion	DEMOGRAPHIC	23%	20%	25%	30%	YELLOW	MEDIUM	2026-01-22	Industry Data	Structural breaking point
@@ -52,7 +52,7 @@ VX-CARL-ABS-12	ABS Auto Payment Rate (Ally)	ABS-AUTO	PENDING	4-5%	3.5-4%	<3.5%	P
 VX-CARL-ABS-13	ABS Payment Rate Cross-Trust Divergence	ABS-COMPOSITE	PENDING	<1pp	1-2pp	>2pp	PENDING	LOW	2026-02-11	Multiple trusts	Signal dispersion/stress concentration
 VX-CARL-ABS-14	ABS vs NY Fed DQ Divergence	ABS-COMPOSITE	PENDING	<0.5pp	0.5-1pp	>1pp	PENDING	MEDIUM	2026-02-11	ABS vs NY Fed	Early warning confirmation
 VX-CARL-FC-01	National Foreclosures (Quarterly)	FORECLOSURES	58,140	50,000	60,000	70,000	ORANGE	HIGH	2026-02-12	NY Fed/Equifax Q4 2025	+41% YoY; validates Q2 2026 wave forecast
-VX-CARL-MF-01	Fannie Mae Multifamily Serious DQ	MULTIFAMILY	0.75%	0.60%	0.70%	0.80%	ORANGE	MEDIUM-HIGH	2026-02-12	Kobeissi/Fannie Mae	94% of GFC peak (0.80%); 5bps away from RED
+VX-CARL-MF-01	Fannie Mae Multifamily Serious DQ	MULTIFAMILY	0.74%	0.60%	0.70%	0.80%	ORANGE	HIGH	2026-03-04	PROME briefing Mar 4	6bps from GFC peak (0.80%). IMMINENT BREACH. Weekly monitoring. Q2 2026 maturity wall ($270B+) = primary catalyst.
 VX-CARL-MF-02	Freddie Mac Multifamily Serious DQ	MULTIFAMILY	0.48%	0.30%	0.40%	0.50%	ORANGE	MEDIUM-HIGH	2026-02-12	Kobeissi/Freddie Mac	Highest in 21 years; DOUBLED in 2 years
 VX-CARL-AUTO-CVNA	Carvana Stock (Auto Credit Canary)	AUTO-CANARY	-16% (2-day)	-10%	-15%	-20%	ORANGE	MEDIUM	2026-02-12	Market data	Fraud allegations; $1B+ hidden losses; auto credit stress signal
 VX-CARL-NAR-01	NAR Housing Crisis Declaration	CONSENSUS	DECLARED	CAUTIOUS	WARNING	CRISIS	RED	HIGH	2026-02-12	NAR Lawrence Yun	"New housing crisis" + "Americans are stuck" — consensus break
@@ -67,4 +67,4 @@ VX-CARL-SL-04	Credit Score Impact Population	Consumer Credit	9M+	>5M	>8M	>12M	OR
 VX-CARL-UTIL-01	CC Utilization Rate	Consumer Credit	23.6%	>25%	>30%	>35%	GREEN	HIGH	2026-02-12	NY Fed Q4 2025	$1.28T/$5.42T; 60% carry balance month-to-month
 VX-CARL-UTIL-02	Available Credit	Consumer Credit	$4.15T	<$4.0T	<$3.5T	<$3.0T	GREEN	HIGH	2026-02-12	NY Fed Q4 2025	Buffer shrinking as balances rise and limits tighten
 VX-CARL-MED-01	Medical Collections	Consumer Credit	$88B	>$100B	>$120B	>$150B	GREEN	MEDIUM	2026-02-12	CFPB 2022	58% of all collections; 43M credit reports affected
-VX-CARL-ABS-15	Subprime Auto 60+ DQ (ABS)	AUTO	6.9%	>5%	>6%	>7%	RED	HIGH	2026-02-17	Fitch ABS Index	ALL-TIME RECORD Jan 2026. Prime 60+ at 0.4% = 17x gap. K-shape confirmed.
+VX-CARL-ABS-15	Subprime Auto 60+ DQ (ABS)	AUTO	7.1%	>5%	>6%	>7%	RED-BREACHED	HIGH	2026-03-04	Fitch ABS Index / PROME briefing Mar 4	⚠️ BREACHED RED threshold. 7.1% > 7.0% threshold. Feb 2026 data. ALL-TIME RECORD extended. Prime 60+ at 0.4% = 17x gap.
