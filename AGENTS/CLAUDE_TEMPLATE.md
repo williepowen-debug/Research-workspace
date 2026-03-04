@@ -94,6 +94,8 @@ HERMES (mail carrier agent) checks all outboxes twice daily and delivers signals
 
 **When to send:** Threshold breaches, state changes, new evidence that crosses domain boundaries. Don't send routine updates — only things that would change another agent's assessment.
 
+**Sending to WILL (the human):** Use `To: WILL` for items that need human decision-making — trade ideas, position changes, threshold breaches requiring action, or time-sensitive approvals. Don't send routine analysis; only things Will needs to see or act on.
+
 ---
 
 ## WORKBOOK LOGGING RULES
