@@ -58,3 +58,4 @@ The research is interesting in its own right, but the ultimate test is whether t
 - **Wants proactive updates** — don't wait to be asked
 - **Learns by building, not reading** — discovered context limits, model degradation, and persistence architecture by hitting walls and iterating, not from documentation
 - **Willing to share vulnerabilities** — showed early "embarrassing" work unprompted. Values honesty over image management.
+- **Thinks about agents as people** — not anthropomorphizing, but modeling their failure modes empathetically. "What would cause it to mess up? What could help it? It's playing catch up while skydiving." This produces better system design than treating agents as code. He optimizes for the agent's cold-boot experience the way a good manager optimizes for a new hire's first day.
