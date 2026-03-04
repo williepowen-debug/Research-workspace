@@ -1,5 +1,5 @@
 # OTTO PREDICTIONS.md
-**Last Updated:** 2026-02-15
+**Last Updated:** 2026-03-04
 
 *Falsifiable predictions for the subprime auto fraud thesis. Track to calibrate confidence.*
 
@@ -10,9 +10,9 @@
 ### Fraud Discovery
 | # | Prediction | Timeframe | Confidence | Status | Invalidation |
 |---|------------|-----------|------------|--------|--------------|
-| 1 | 4th fraud case confirmed (Carvana or other) | Q1-Q2 2026 | **75%** | ⏳ Pending | Carvana Feb 18 clean + no new cases by Q2 |
-| 24 | **Carvana Feb 18: 10-K delayed OR GT resignation OR material disclosure expansion** | Feb 18, 2026 | 55% | ⏳ IMMINENT | Normal filing, no audit issues, no new disclosures |
-| 25 | **First Brands converts to Ch. 7 (kills examiner report)** | Feb-Mar 2026 | 45% | ⏳ Pending | Ch. 11 plan confirmed; De Luca report released |
+| 1 | 4th fraud case confirmed (Carvana or other) | Q1-Q2 2026 | **75%** | ✅ **CONFIRMED Feb 26, 2026** — MFS UK (double-pledging, £2B+, Barclays/Atlas SP) | — |
+| 24 | **Carvana Feb 18: 10-K delayed OR GT resignation OR material disclosure expansion** | Feb 18, 2026 | 55% | ❌ **PARTIAL MISS** — 10-K filed, no GT resignation; Gotham same-day report separate | Normal filing, no audit issues |
+| 25 | **First Brands converts to Ch. 7 (kills examiner report)** | Feb-Mar 2026 | 45% | ⏳ **STATUS UNCLEAR** — need verification | Ch. 11 plan confirmed; De Luca report released |
 
 ### ABS Performance
 | # | Prediction | Timeframe | Confidence | Status | Invalidation |

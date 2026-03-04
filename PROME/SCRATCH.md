@@ -1,39 +1,31 @@
 # SCRATCH — Ephemeral Working Memory
 
-**Updated:** 2026-03-04 ~2:10 AM UTC (~10:10 PM ET)
+**Updated:** 2026-03-04 ~2:11 AM UTC
 
 ---
 
-## RIGHT NOW — Chunk 4: Agent Self-Audits
+## RIGHT NOW — Chunk 4 continues
 
-**Completed audits:** HENRY ✅, LIQUID ✅, REGINALD ✅, SAM ✅
-**Next batch:** CARL, LABOR, OTTO
-**After that:** HAWK, MARCO, BROCK
-**Final:** HANS, ZHAO, DARWIN
-**New agents to audit:** CORAL, TEX, RENO (just registered tonight)
+**CARL and LABOR spawned, not yet returned.** Wait for results, spot-check, then clear for next batch.
 
-### Infrastructure done tonight:
-- ✅ Chunk 1: Memory condensation + boot trim + SCRATCH
-- ✅ Chunk 2: OUTBOX/INBOX push to all agents + template update
-- ✅ Chunk 3: HERMES built + tested (7/8 delivered, caught CORAL issue)
-- 🔄 Chunk 4: Agent audits (4/~15 done)
-- ⬜ Chunk 5: Final HERMES test with full signal flow
+**Completed audits:** HENRY ✅, LIQUID ✅, REGINALD ✅, SAM ✅, OTTO ✅
+**Running:** CARL, LABOR
+**Next batch:** HAWK, MARCO, BROCK
+**After:** HANS, ZHAO, DARWIN, CORAL, TEX, RENO
 
-### Tonight's new agents:
-- HERMES (mail carrier) — built, tested, working
-- CORAL (FL condos) — registered, has pending INBOX signal
-- TEX (Texas stress) — registered
-- RENO (Nevada stress) — registered
+### Pending decisions:
+- **Kill FL.tsv → replace with PREDICTIONS.tsv** (agreed but not implemented)
+- Update CLAUDE_TEMPLATE + BUILD_AGENT.md with new workbook structure
+- Standardize AGENTS.md → CLAUDE.md rename across existing agents
 
-### New docs:
-- `docs/BUILD_AGENT.md` — 11-step agent creation playbook
-
-### Key finding from SAM audit:
-- **Trump DFC insurance for Hormuz tankers** — partially defuses Mar 5 insurance cliff. Phase 1 yen weakness extends.
+### HERMES has signals to deliver:
+- OTTO posted 5 new OUTBOX signals (BROCK, REGINALD, LIQUID, CARL)
+- Run HERMES again after this batch completes
 
 ## Hot Market Context
-- S&P 6,781. CTA 6,707 armed. ISM Services tomorrow AM. Zero gamma cushion.
-- HY OAS ~335-355bps. BCRED near-gate. IG frozen.
+- S&P 6,781. CTA 6,707 armed. ISM Services PMI this morning.
+- Trump DFC insurance partially defuses Mar 5 Hormuz insurance cliff.
+- HY OAS ~303-355bps (FRED confirmed 303 Mar 2, Mar 3 unconfirmed).
 - Cash ~$2,100 for post-NFP.
 
 ---

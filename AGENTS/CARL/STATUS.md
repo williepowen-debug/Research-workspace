@@ -1,7 +1,7 @@
 # CARL STATUS
-**Last Updated:** 2026-03-03 14:05 UTC | **Status:** 🔴 RED
+**Last Updated:** 2026-03-04 02:30 UTC | **Status:** 🔴 RED
 
-**Summary:** Consumer fragility confirmed across multiple vectors. Fannie MF DQ 0.74% (6bps from GFC peak). Subprime auto 60+ DQ at ALL-TIME RECORD (6.9%). Student loan 30+ DQ WORST EVER (16.3%). K-shape validated by Walmart, Wendy's, BKNG. US net savings at ZERO = no shock absorber. War (Feb 28) adds oil/gas price pressure — 2-3 week lag to consumer. Triple transmission: DOGE (0-2mo) + private credit middle-market (May-Jun) + supply-side credit withdrawal (Block/Klarna/Blue Owl). **LABOR UPDATE (Mar 2):** Hiring freeze → "active freeze through Q2 minimum." DOGE >400K confidence 72%. Claims >250K Q2 confidence 70%. WARN 706 notices/85K employees → April-May claims spike base case. Transmission timeline ACCELERATED — Q2 stress pulled forward.
+**Summary:** Consumer fragility at extreme levels across multiple vectors. **NEW (Mar 4):** Subprime auto 60+ DQ **7.1% — THRESHOLD BREACHED** (>7.0% RED trigger). Fannie MF DQ 0.74% (6bps from GFC peak, IMMINENT). Gas squeeze Mar 14-21 **CONFIRMED** (Brent $84, Hormuz closed). BCRED near-gate event + Deutsche Bank $143B BDC forced-sale warning = systemic private credit withdrawal confirmed. Student loan 30+ DQ WORST EVER (16.3%). K-shape validated. US net savings ZERO. Triple transmission: DOGE (0-2mo, ACTIVE) + private credit middle-market (May-Jun) + supply-side credit withdrawal. **LABOR (Mar 2):** Active freeze Q2+ closes reabsorption. WARN 706 notices/85K employees → Apr-May claims spike. Q2 stress HIGH CONFIDENCE.
 
 ---
 
@@ -11,10 +11,10 @@
 |-----------|-------|--------|-----------|
 | **CC 90+ DQ** | **12.70%** | 🔴 | GFC peak 13.74% |
 | **Auto 90+ DQ** | **5.21%** | 🔴 | Historical max |
-| **Subprime Auto ABS 60+** | **6.9%** (Jan 2026) | 🔴 | ALL-TIME RECORD (Prime 0.4% = 17x gap) |
+| **Subprime Auto ABS 60+** | **7.1%** ⚠️ THRESHOLD BREACH | 🔴 | BREACHED 7% RED threshold. ALL-TIME RECORD. (Prime 0.4% = 17.75x gap) |
 | **Student Loan 30+ DQ** | **16.3%** | 🔴 | WORST EVER |
 | **Student Loan 90+ DQ** | **9.6%** | 🔴 | 0.4pp from 10% threshold |
-| **Fannie MF DQ** | **0.74%** | 🔴 | IMMINENT BREACH — GFC peak 0.80% |
+| **Fannie MF DQ** | **0.74%** (6bps from GFC peak) | 🔴 | IMMINENT BREACH — GFC peak 0.80% | 
 | Freddie MF DQ | 0.48% | 🟠 | Highest in 21 years |
 | Foreclosures Q4 | 58,140 (+41% YoY) | 🟠 | Target: 70K/qtr by Q2 |
 | Foreclosure Filings Jan | 40,534 (+32% YoY) | 🟠 | 11th consecutive annual increase |
@@ -72,7 +72,7 @@ Path F: AI displacement → Prime mortgage stress → Banks (new, from Citrini)
 
 ## FANNIE MF DQ — IMMINENT BREACH
 
-**Current:** 0.74% | **GFC peak:** 0.80% | **Gap:** 6bps | **Weekly monitoring active**
+**Current:** 0.74% | **GFC peak:** 0.80% | **Gap:** 6bps | **Weekly monitoring active** | **Confidence: 90%**
 
 **Why it matters:** MF debt refinancing cliff — $270B+ maturing 2025-2026. Breach signals landlord stress converting to missed debt service. Chain: renter stress → landlord cash flow → MF mortgage defaults → lender losses.
 
@@ -101,15 +101,15 @@ Path F: AI displacement → Prime mortgage stress → Banks (new, from Citrini)
 
 ---
 
-## WAR IMPACT (Feb 28+)
+## WAR IMPACT (Feb 28+) — UPDATED Mar 4
 
 - Oil spike → gas prices → consumer squeeze. **2-3 week lag to pump prices.**
-- **Mar 1-2 update:** Brent peaked $82.37 (intraday), settled ~$77-78. Strait of Hormuz tanker traffic effectively halted. Brent +6-7% from pre-war.
-- **Escalation scenario (CNBC):** >$100/bbl if Iran attacks neighboring energy facilities. Hard-line = genuine Hormuz closure.
-- If Brent holds $77+: gas stress hits pump **Mar 7-14**. If spikes to $85+: Mar 14-21 stress is near-certain and severe.
+- **Mar 4 update:** Brent $84. Strait of Hormuz CLOSED. Mar 14-21 gas squeeze = **BASE CASE** (not tail risk).
+- **Escalation scenario (CNBC):** >$100/bbl if Iran attacks neighboring energy facilities.
+- At $84 Brent with Hormuz closed: pump prices hit **Mar 14-21** confirmed.
 - LIHEAP infrastructure already broken (DOGE fired entire staff Apr 2025). Winter 2026-27 = real danger.
 - **Double-cover thesis:** War covers for economy, AI covers for layoffs. Structural weakness gets blamed on Iran.
-- **Mar 14-21 gas stress window: ON TRACK. Accelerating if Brent >$85.**
+- **Mar 14-21 gas stress window: CONFIRMED BASE CASE. Hormuz closure = sustained pressure, no near-term relief.**
 
 ---
 
@@ -149,7 +149,9 @@ Path F: AI displacement → Prime mortgage stress → Banks (new, from Citrini)
 | Student 90+ >10% | 9.6% | 0.4pp | Q1 2026 | 88% |
 | CC 90+ >13.74% (GFC) | 12.70% | 1.04pp | Q2 2026 | 75% |
 
-**Tracking:** Foreclosures >70K/qtr (58K, Q2 target) | Subprime Auto >7% (6.9%) | TX foreclosures +100% YoY (at +45%)
+**Confirmed ✅ (NEW Mar 4):** Subprime Auto >7% — BREACHED at 7.1%
+
+**Tracking:** Foreclosures >70K/qtr (58K, Q2 target) | TX foreclosures +100% YoY (at +45%)
 
 ---
 
@@ -169,13 +171,25 @@ Path F: AI displacement → Prime mortgage stress → Banks (new, from Citrini)
 
 ---
 
+## PRIVATE CREDIT CASCADE (Mar 3-4 Update)
+
+**Two gate events in one week:**
+- Blue Owl: PERMANENT halt Feb 23
+- BCRED (Blackstone): Near-gate event Mar 3
+
+**Deutsche Bank warning:** $143B in BDC leveraged loans at forced-sale risk if redemptions continue.
+
+**Consumer transmission:** Middle-market companies lose funding access → employment cuts only variable → May-Jun WARN → Q3 consumer DQ conversion. Confirms FLOW-CARL-PC-001 timeline.
+
+---
+
 ## PENDING DATA
 
 | Item | Expected | Key Question |
 |------|----------|-------------|
-| ICE First Look Jan 2026 | Overdue (~late Feb) | Did 90+ DQs keep rising? MD specifically? |
-| ICE Mortgage Monitor webinar | Mar 5 | Calendar reversal sustained? |
-| NFP (Feb) | Mar 6 | DOGE effects showing? |
+| ICE First Look Jan 2026 | **⚠️ OVERDUE** (expected late Feb) | Did 90+ DQs keep rising? MD specifically? |
+| ICE Mortgage Monitor webinar | **Mar 5 (IMMINENT)** | Calendar reversal sustained? |
+| NFP (Feb) | **Mar 6 (IMMINENT)** | DOGE effects showing? Private sector freeze? |
 | MBA Q1 2026 NDS | May 2026 | Q1 DQ trajectory |
 | Q1 consumer earnings | April | K-shape widening or closing? |
 
