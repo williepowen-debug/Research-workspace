@@ -1,7 +1,7 @@
 # CARL STATUS
-**Last Updated:** 2026-03-04 02:30 UTC | **Status:** 🔴 RED
+**Last Updated:** 2026-03-04 13:15 UTC | **Status:** 🔴 RED
 
-**Summary:** Consumer fragility at extreme levels across multiple vectors. **NEW (Mar 4):** Subprime auto 60+ DQ **7.1% — THRESHOLD BREACHED** (>7.0% RED trigger). Fannie MF DQ 0.74% (6bps from GFC peak, IMMINENT). Gas squeeze Mar 14-21 **CONFIRMED** (Brent $84, Hormuz closed). BCRED near-gate event + Deutsche Bank $143B BDC forced-sale warning = systemic private credit withdrawal confirmed. Student loan 30+ DQ WORST EVER (16.3%). K-shape validated. US net savings ZERO. Triple transmission: DOGE (0-2mo, ACTIVE) + private credit middle-market (May-Jun) + supply-side credit withdrawal. **LABOR (Mar 2):** Active freeze Q2+ closes reabsorption. WARN 706 notices/85K employees → Apr-May claims spike. Q2 stress HIGH CONFIDENCE.
+**Summary:** Consumer fragility at extreme levels across multiple vectors. Subprime auto 60+ DQ **7.1% — THRESHOLD BREACHED**. Fannie MF DQ 0.74% (6bps from GFC peak, IMMINENT). Gas squeeze Mar 14-21 **CONFIRMED BASE CASE** (Brent $84, Hormuz closed). **NEW (Mar 4 AM):** UI exhaustion wave begins Mar 24 (FL WARN cohorts) → consumption cliff Apr 26 → DQ conversion May-Jun. Stagflation trap confirmed: PCE 2.9% + oil spike + Fed frozen = no policy backstop. Reverse wealth effect materializing (VIX 26.43, IWM -1.91%). FL triple squeeze (energy + HOA + insurance) to outpace national DQ by Q2. CFPB functionally dead = subprime lenders operating without federal watchdog.
 
 ---
 
@@ -77,6 +77,63 @@ Path F: AI displacement → Prime mortgage stress → Banks (new, from Citrini)
 **Why it matters:** MF debt refinancing cliff — $270B+ maturing 2025-2026. Breach signals landlord stress converting to missed debt service. Chain: renter stress → landlord cash flow → MF mortgage defaults → lender losses.
 
 **Q2-Q3 2026 risk:** Employment stress accelerates renter failures during maturity wall.
+
+---
+
+## UI EXHAUSTION WAVE — CONSUMPTION CLIFF INCOMING
+
+**Source:** LABOR via HERMES (2026-03-04 AM)
+
+FL WARN cohorts (+76% YoY) filed Dec 2025 → 12-week UI benefits exhaust **~Mar 24, 2026**.
+Peak exhaustion: **Apr 26, 2026** — simultaneous income removal for tens of thousands of FL households.
+
+**Transmission timeline:**
+- Mar 24: First exhaustion wave hits → immediate spending compression
+- Apr 26: Peak exhaustion → consumption cliff
+- May 2026: Credit card DQ spike (60-day lag)
+- Jun 2026: Auto loan stress
+- Jul 2026: Foreclosure acceleration
+
+**Why this matters:** This isn't a slow bleed — it's a discrete cliff. Benefits end on a date, spending stops on a date, DQs convert on a date. CARL's Q2 DQ conversion window is now anchored to a specific mechanism with a specific date.
+
+---
+
+## STAGFLATION TRAP — CONFIRMED
+
+**Source:** LABOR via HERMES (2026-03-04 AM)
+
+- PCE 2.9% (already elevated) + Brent +13% + Hormuz closed = cost squeeze with no Fed escape valve
+- Fed cannot cut with PCE >2.5% and oil spike — consumer gets zero policy relief
+- Worst consumer setup: rising energy/food costs + job anxiety + no rate backstop
+- **CARL implication:** Payment hierarchy under strain across all vectors simultaneously
+
+---
+
+## REVERSE WEALTH EFFECT — MATERIALIZING
+
+**Source:** HENRY via HERMES (2026-03-04 AM)
+
+- VIX 26.43 (elevated fear)
+- IWM -1.91% Mar 4 AM (small caps leading lower)
+- HENRY estimates -$7-8T equity wealth destruction at current rate
+- Transmission from equity loss → top-40% consumer pullback = 6-8 week lag
+- Will's IWM $250P Jun 2026 +19% as of Mar 3 EOD; moving further ITM
+
+**CARL action item:** PCE/consumer spending model update needed for Hormuz oil shock pass-through (HENRY request).
+
+---
+
+## FLORIDA TRIPLE SQUEEZE — ACCELERATING
+
+**Source:** REGINALD via HERMES (2026-03-04 AM)
+
+- **Energy:** LNG import exposure + Brent $84 = utility bill spikes arriving
+- **HOA:** SIRS mandatory assessments ($10K-50K+ per unit)
+- **Insurance:** +50% YoY, some buildings uninsurable
+- **Migration:** -93% (no demand buffer to absorb distressed sellers)
+- **Conclusion:** FL consumer DQ to outpace national by Q2 2026
+
+Combined with UI exhaustion wave (Mar 24 cliff) and existing FL condo crisis: FL is the most advanced consumer stress state.
 
 ---
 
@@ -162,9 +219,12 @@ Path F: AI displacement → Prime mortgage stress → Banks (new, from Citrini)
 | LABOR | Claims >250K sustained | Conversion accelerates |
 | LABOR | DOGE contractors terminated | Fast-path 0-2mo (MD/VA/DC) |
 | LABOR | Blue Owl freeze | Middle-market cuts May-Jun → Q3 consumer |
+| LABOR ✅ Mar 4 | FL WARN exhaustion Mar 24 / Apr 26 | Consumption cliff → May DQ spike |
+| LABOR ✅ Mar 4 | Stagflation trap confirmed | No policy backstop; all vectors under strain simultaneously |
 | BROCK | BDC stress (PIK >40%, div cuts) | Leading indicator for employment cuts |
-| HENRY | SPX -10%+ | Reverse wealth effect (fast path) |
+| HENRY ✅ Mar 4 | Reverse wealth effect materializing (VIX 26.43, IWM -1.91%) | Top-40% pullback 6-8 week lag; action: update PCE model |
 | HAWK | Oil sustained >$85 | Gas prices hit bottom 60% in 2-3 weeks |
+| REGINALD ✅ Mar 4 | FL triple squeeze (energy+HOA+insurance) | FL DQ to outpace national by Q2 |
 | REGINALD | Credit tightens | Refinance options disappear |
 
 **Data quality flag:** Claims unreliable until Mar 5-12 (DHS shutdown + contractor silent losses).

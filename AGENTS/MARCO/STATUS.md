@@ -1,7 +1,7 @@
 # MARCO STATUS
-**Last Updated:** 2026-03-02 13:45 UTC | **Status:** 🔴 RED
+**Last Updated:** 2026-03-04 13:30 UTC | **Status:** 🔴 RED
 
-**Summary:** Population movement disruptions creating localized stress in Tier-1 states (FL/TX/CA/AZ). Florida thesis CONFIRMED at 95% confidence — migration collapsed 93% (311K→23K, #1→#8 destination). Canadian tourism structural rupture (-28% YoY, airlines physically redirected aircraft). DHS shutdown Day 15+, E-Verify suspended, TSA walkout risk Mar 14. US-Iran war (Khamenei killed Mar 1) now being weaponized as political cover for DHS shutdown resolution — probability of resolution THIS WEEK significantly elevated. 2.2M self-deportations in 2025 (DHS data) = labor supply shock dramatically larger than -155K ag figure tracked. Ag labor fear-withdrawal confirmed but geographically uneven. Americans emigrating at rates not seen since 1930s (WSJ). FL March Break Canadian redirection confirmed active.
+**Summary:** Population movement disruptions creating localized stress in Tier-1 states (FL/TX/CA/AZ). Florida thesis CONFIRMED at 95% confidence — migration collapsed 93% (311K→23K, #1→#8 destination). Canadian tourism structural rupture (-28% YoY, airlines physically redirected aircraft). DHS shutdown Day **18**, still unresolved — Senate vote attempted Mar 3, betting markets lean longer; TSA Mar 14 paycheck miss risk live. ADP Feb: +63K (vs 130K consensus); professional/biz services -30K — SUPPORTS WFD thesis, staffing sector contraction consistent with undocumented workforce exit. **Mexico remittances Jan 2026: -1.4% YoY ($4.594B) — first January decline since 2015, continues FY2025 -4.6% trend. H-2A 2026: AEWR spikes (MI/IL >$18.50/hr) triggering "catastrophic" processing shortfalls per DOL alert — planting season stress accelerating.** 2.2M self-deportations in 2025 = labor supply shock 10-15x larger than -155K ag figure. Americans emigrating at rates not seen since 1930s (WSJ).
 
 ---
 
@@ -28,13 +28,14 @@
 - Oil spike → airline fuel costs → potential further capacity cuts to FL routes
 - **Scenario change:** If DHS funded this week → E-Verify resumes immediately → enforcement surges → ag/construction labor shock accelerates INTO planting season (worst timing). Mar 14 TSA walkout risk drops significantly if resolution happens before paycheck miss.
 
-### DHS Shutdown (Day 13+, ongoing)
-- Senate 50-45 vote fell short of 60-vote threshold — continues
+### DHS Shutdown (Day 18, ongoing — UPDATED Mar 4)
+- Senate vote attempted Mar 3 — result unclear; betting markets (Polymarket/Kalshi) lean toward longer continuation
 - E-Verify SUSPENDED since Day 1 — BREACHED (>7 day threshold)
 - TSA partial paycheck: Feb 28 (already received reduced pay)
-- **TSA full paycheck miss: Mar 14** — walkout risk during spring break peak (2.5M/day screened)
+- **TSA full paycheck miss: Mar 14** — 10 days out; walkout risk during spring break peak (2.5M/day screened)
 - OBBBA backstop ($155B remaining) keeps ICE/CBP operational — enforcement continues
-- H-2A processing bottlenecked during planting season (Mar-May)
+- Noem grilled at Senate hearing over ICE raids in Minneapolis — political cost rising for both sides
+- H-2A processing bottlenecked during planting season (Mar-May); shutdown adds visa processing delays
 - Air Transat canceled ALL 11 Canada→US summer routes including Fort Lauderdale
 
 ### Florida Migration Collapse (Census, Feb 2026)
@@ -58,14 +59,38 @@
 - **Implication:** Labor supply shock is already happening, not pending. The -35% Latino industry collapse (-93% construction) and -155K ag gap represent the *visible* tip. The full shock is 10-15x larger.
 - **New vector proposed:** VX-MARCO-SDL-01 — Self-Deportation Labor Displacement Index (tracking 2.2M baseline, monitor for acceleration in 2026)
 
-### Ag Labor Fear-Withdrawal
+### Ag Labor Fear-Withdrawal — UPDATED Mar 4 (PLANTING SEASON ACTIVE)
 - H-2A certifications: 415K FY2025 (8.6x since 2005). Only 182 domestic applicants out of 415K (<0.04%).
+- **NEW: DOL "Harvest Alert" issued — 2026 H-2A visa shortages "catastrophic" per industry report (Mar 3)**
+  - AEWR spikes: Michigan and Illinois >$18.50/hr entry-level. True cost with housing/transport/WC insurance: "astronomical"
+  - Midwest farms deploying autonomous drone swarms (DJI Agras T40) as emergency labor substitution
+  - DOL bureaucratic delays + wage hikes = processing crisis entering peak demand season
 - Fear-withdrawal confirmed in MN (-12% H-2A), WA (cherry crop losses), NC (documented stress)
 - CA more complex — high AEWR ($19.75) is primary driver, not fear
 - FL outlier — H-2A expanding (+9K) despite enforcement
 - 680K undocumented farmworkers have NO legal path — most vulnerable population
-- **Planting season NOW (Mar-May)** — fear-disruption risk peaks
+- **Planting season ACTIVE NOW (Mar-May)** — fear-disruption risk AT PEAK
 - **DATA GAP:** USDA canceled Ag Labor Survey + DOL canceled NAWS. Primary tracking tools eliminated.
+- DHS shutdown adds H-2A processing delay on top of AEWR crisis — double bottleneck
+
+### Mexico Remittances — Jan 2026 (NEW DATA — Mar 4)
+- **Banxico reported Jan 2026: $4.594B (-1.4% YoY) — first January decline since 2015**
+- Continues FY2025 trend (-4.6%, worst since 2009 GFC)
+- 2026 downturn has begun — pipeline contraction from 2.2M self-deportations now flowing through
+- No bounce in January despite usual seasonal reset — structural not cyclical
+- **1% US remittance tax took effect Jan 1, 2026** — adds friction, may amplify decline going forward
+- Source: Banxico via Mexico Business News / Mexico News Daily (published Mar 2, 2026)
+
+### ADP February 2026 — Workforce Displacement Signal (NEW — Mar 4)
+- **ADP: +63K jobs (vs +130K consensus) — major miss**
+- **Professional/Business Services: -30K** — staffing agencies, temp workers, business support
+- WFD thesis assessment: **SUPPORTS / CONFIRMS**
+  - Professional/biz services = largest temp/staffing sector. Undocumented workers heavily represented in staffing pipelines (construction, ag, food service placement)
+  - -30K in this sector is consistent with immigrant workforce exit depressing temp-labor demand
+  - Fear-withdrawal → fewer workers available → staffing firms contract → shows in pro/biz services data
+- Broader implication: labor market deteriorating faster than consensus. Validates displacement is now macro-visible, not just sectoral
+- ADP miss this large → NFP Friday (Mar 6) is high-stakes. If NFP confirms, Fed rate cut expectations accelerate
+- **LABOR agent should flag this as cross-validation of Latino industry collapse thesis**
 
 ### Americans Emigrating (WSJ, Feb 26) — INTEGRATED Mar 2
 - Net US migration **negative 150K in 2025** — first since 1930s Great Depression
@@ -90,6 +115,7 @@
 | Net US Migration | -150K to -525K | 🔴 BREACHED |
 | Ag Employment (Mar-Jul) | -155K | 🔴 BREACHED |
 | Mexico Remittances FY2025 | -4.6% ($61.8B) — worst since 2009 | 🔴 BREACHED |
+| Mexico Remittances Jan 2026 | -1.4% YoY ($4.594B) — first Jan decline since 2015 | 🔴 BREACHED |
 | H-2A Certifications | 415K (8.6x since 2005) | 🔴 BREACHED |
 | Latino Industry Jobs | -35% (Construction -93%) | 🔴 BREACHED |
 | Sun Belt Migration Delta | -534K (Tier 1 states) | 🔴 BREACHED |
@@ -233,8 +259,8 @@ Mexican shopper revenue collapse: Laredo 51%→13%, Brownsville 26%→3.3%, El P
 
 | Date | Event | Significance |
 |------|-------|-------------|
-| **This week** | DHS shutdown resolution? | Iran war pressure — watch for Senate vote | 
-| **Mar 6** | NFP (Feb) | DOGE/RIF signal in federal employment |
+| **Mar 4** | DHS shutdown Day 18, unresolved | Betting markets lean longer; political deal still possible |
+| **Mar 6** | NFP (Feb) | 🔴 HIGH STAKES after ADP +63K miss — confirms or denies displacement thesis |
 | **Mar 14** | TSA full paycheck miss | Walkout trigger — spring break peak — RISK DROPS if DHS funded this week |
 | ~Mar 20 | Statistics Canada Jan 2026 | First 2026 Canadian data |
 | Mar-May | Planting season | Ag fear-withdrawal peak risk window |

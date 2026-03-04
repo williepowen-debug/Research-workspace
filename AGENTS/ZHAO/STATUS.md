@@ -514,7 +514,16 @@ The risk isn't that China abandons USD. The risk is:
 
 ---
 
-*Last updated: 2026-03-03 14:05 UTC*
+*Last updated: 2026-03-04 13:46 UTC*
+
+### Mar 4 Morning Check-in Notes (8:45 AM ET)
+- **USD/KRW breached 1,500 overnight** — 17-year low (last: Mar 2009 GFC). BoK governor canceled overseas trip for emergency response. Verbal intervention only — no hard FX defense confirmed yet. BoK selling USTs now LIVE.
+- **KOSPI -12.06%** closed (worst day in 46-year history). Circuit breakers twice. Two-day loss: $553B market cap. Korea UST anchor **fully activated**.
+- **Export-Import Bank of Korea:** ₩40T (~$30B) emergency program launched.
+- **BoK UST selling estimate: $5-15B/month is now active** (threshold breached). Update combined anchor: $35-55B/month (Japan + China + Korea).
+- **USD/CNY: PBOC fix 6.9124** (vs 6.9088 prior). Spot ~6.924. Mild drift allowed — NOT defending at current levels. 7.30 estimate: 4-8 weeks (extended from 2-4 weeks; Hormuz partially priced).
+- **Two Sessions:** CPPCC opened today (Mar 4). NPC/Li Qiang work report: **TOMORROW Mar 5**. Expected GDP 4.5-5%, deficit 4%, CPI 2%, 15th Five-Year Plan. No surprise stimulus yet — watch tomorrow morning.
+- **TIC:** No update. Next: Mar 15 (Feb data, pre-crisis). April/May = first Hormuz impact data.
 
 ### Mar 3 Check-in Notes
 - **USD/CNY corrected to 6.89** — PBOC largest midpoint fix in 6+ months; yuan strengthening. 7.30 imminence call walked back.

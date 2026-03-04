@@ -1,9 +1,9 @@
 # PROME STATUS.md
-**Updated:** 2026-03-04 04:00 UTC
+**Updated:** 2026-03-04 14:00 UTC
 
-**Last context:** PREDICTIONS.tsv fully rolled out (55 predictions across 11 agents, FL.tsv archived). HENRY + LIQUID EOD reads corrected key data: Dow close was -400 (not -1,200), BX -3.82% (not -8%), HY OAS Mar 3 EST 315-335bps (pending FRED confirm). ISM Mfg Prices 70.5% = stagflation. Tomorrow: ADP 8:15 AM, ISM Services 10 AM, Beige Book. NFP Friday. $2,100 cash reserved.
+**Last context:** 5 thresholds breaching simultaneously. ADP +63K (miss vs 130K consensus). Subprime auto 7.1% all-time record. USD/KRW breached 1,500 (GFC level). Three-anchor UST selling LIVE ($35-55B/mo). Carry unwind upgraded to 65%/80%. BCRED Bear Stearns playbook. All agent workspaces fixed to main git repo. ISM Services at 10 AM ET is next catalyst. NFP Friday. $2,100 cash reserved.
 
-## 🔴 CRITICAL — HORMUZ CLOSED + Private Credit + Energy Dominance
+## 🔴 CRITICAL — HORMUZ CLOSED + Private Credit + Energy Dominance + **ABS 7.1% THRESHOLD BREACH**
 
 ---
 
@@ -12,19 +12,19 @@
 | Agent | Status | Focus | Updated |
 |-------|--------|-------|---------|
 | LABOR | 🔴 | Hiring freeze Q2+. WARN 706/85K. NFP Fri ~+65K consensus. Shadow gap resolves Mar-Apr. | Mar 3 |
-| CARL | 🔴 | Subprime auto 6.9%. Gas squeeze ON TRACK Mar 14-21. Brent now $84. | Mar 3 |
+| CARL | 🔴 | **Subprime auto ABS 60+ DQ 7.1% — THRESHOLD BREACHED (ALL-TIME RECORD)**. Gas squeeze Mar 14-21. Fannie MF DQ 0.74% (6bps from GFC peak). | Mar 4 |
 | HENRY | 🔴 | EOD read done. ISM Mfg Prices 70.5% stagflation. Decision matrix prepped for tomorrow ISM Svc + ADP. HEN-01 (NFP <100K) maintained 60%. | Mar 4 |
-| SAM | 🔴 | Carry unwind 65-75%. Yen NOT safe haven. JGB 30Y 3.28%. Phase 1 confirmed. | Mar 3 |
+| SAM | 🔴 | Carry unwind UP: 65% (30d), 80% (60d). Fed swap line = 72hr binary pivot. NFP secondary to USD/KRW. | Mar 4 |
 | REGINALD | 🔴 | Inbox processed (7+ signals). STATUS refreshed. | Mar 4 |
 | BROCK | 🔴 | STATUS.md rebuilt. Cockroach chain, APO triple stress, Eisman/Gober, transmission map. | Mar 3 |
 | LIQUID | 🔴 | EOD read done. HY OAS EST 315-335 (pending FRED). BX corrected -3.82%. LIQ-01 LIKELY_EARLY. Spread bias corrected. | Mar 4 |
-| MARCO | 🔴 | DHS resolution likely THIS WEEK. E-Verify → enforcement surge into planting season. | Mar 3 |
+| MARCO | 🔴 | Remittances negative Jan (-1.4% YoY). ADP confirms workforce exit in aggregate data. DHS Day 18. TSA paycheck miss Mar 14. | Mar 4 |
 | HAWK | 🔴 | Two new theses: Russian infrastructure damage + Ukrainian energy warfare doctrine. | Mar 3 |
-| OTTO | 🔴 | MFS = cockroach #4. CFPB dead. CVNA Mar 15 unconfirmed. | Mar 3 |
-| ZHAO | 🔴 | USD/CNY 7.30 imminent. Three-anchor UST selling. 10Y yield UP on risk-off = confirmed. | Mar 3 |
+| OTTO | 🔴 | MFS fallout: Barclays £600M+, Jefferies £100M, WFC/Santander/Castlelake/Atlas exposed. No new cockroach overnight. CVNA: Pomerantz investigation filed Mar 3. Discovery Mar 15 approaching. BCRED: senior staff self-inject = distress signal. Net outflows $1.7B. | Mar 4 |
+| ZHAO | 🔴 | USD/KRW BREACHED 1,500 (UST selling LIVE). KOSPI -12% history worst. USD/CNY 6.924 (mild drift). Two Sessions: NPC work report Mar 5. | Mar 4 |
 | HANS | 🟠 | Ceasefire revised 85% → 12% (30-day). STATUS refreshed. | Mar 4 |
 | DARWIN | 🟢 | Weekly scan | Feb 18 |
-| NEXUS | 🔴 | Morning synthesis complete. 4 thresholds breaching simultaneously. | Mar 3 |
+| NEXUS | 🔴 | 5 thresholds breaching simultaneously. Needs fresh synthesis with Korea + ADP. | Mar 4 |
 
 ---
 
@@ -98,9 +98,9 @@
 
 ## Market Close Summary (Mar 3)
 
-- S&P 500: -2.2% (2026 lows)
-- Dow: -1,200pts (-2.5%)
-- Nasdaq: -2.4%
+- S&P 500: ~6,787-6,799 at close (-0.9%, recovered from -2.2% intraday)
+- Dow: -400pts at close (-1,200 was intraday low)
+- Nasdaq: -1.0%
 - VIX: 26.43 (+23%)
 - Brent: $84 (+8%)
 - WTI: $77+
@@ -139,11 +139,11 @@
 
 ## Next Priorities
 
-1. **🔴 TOMORROW AM: Check FRED for confirmed HY OAS Mar 3** (LIQ-01 resolution)
-2. **🔴 TOMORROW AM: ADP 8:15 + ISM Services 10:00 — spawn HENRY after each**
+1. **🔴 ISM Services 10:00 AM ET** — spawn HENRY after release. Employment <50 = NFP upgrade.
+2. **🔴 Check FRED for confirmed HY OAS Mar 3** (LIQ-01 resolution)
 3. **🔴 Save $2,100 dry powder for post-NFP Friday**
-4. **🟠 Run HERMES** (HENRY + LIQUID posted fresh OUTBOX signals)
+4. **🟠 Run HERMES** (SAM/MARCO/OTTO all posted fresh OUTBOX signals this AM)
 5. **🟠 Audit batch 3: HAWK, MARCO, BROCK**
-6. **🟠 Audit batch 4: HANS, ZHAO, DARWIN**
-7. **🟡 Remaining infra: AGENTS.md→CLAUDE.md rename, AGENTS_DIRECTORY.md update**
-8. **🟡 Research threads: Athene run risk, Korea third anchor, DHS→food inflation**
+6. **🟡 Remaining infra: AGENTS.md→CLAUDE.md rename, AGENTS_DIRECTORY.md update**
+7. **🟡 REGINALD broad Call Report screen** (30+ banks)
+8. **🟡 Research threads: Athene run risk, DHS→food inflation**
