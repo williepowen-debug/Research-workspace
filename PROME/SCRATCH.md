@@ -22,7 +22,8 @@
 - ✅ NY district deep dive added (services contracted, delinquencies rising, K-shape confirmed)
 - ✅ LESSONS.md updated: data release synthesis rule
 - ✅ PREDICTIONS.tsv fully live (from earlier session)
-- ⏳ Will has more Beige Book districts to add (ran out of context)
+- ✅ Beige Book districts added: NY, Boston, Philly, Cleveland, Richmond, Atlanta
+- ⏳ Remaining districts: Minneapolis + San Francisco (priority — both declining/contracting), Chicago, St. Louis, Kansas City, Dallas (lower priority — mostly flat/growing)
 
 ### Next session priorities:
 1. **🔴 Will has more Beige Book district data to paste** — continue synthesis
