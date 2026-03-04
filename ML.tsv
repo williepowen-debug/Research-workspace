@@ -4,3 +4,7 @@ date	agent	signal	value	prev_value	status	notes
 2026-03-04	ZHAO	USD/CNY_fix	6.9124	6.9088	🟡 YELLOW	Mild drift. Spot ~6.924. 7.30 threshold 4-8wks out.
 2026-03-04	ZHAO	BoK_UST_selling	ACTIVE	PENDING	🔴 RED	$5-15B/month now live. Combined 3-anchor: $35-55B/month.
 2026-03-04	ZHAO	Two_Sessions_GDP	4.5-5%_expected	5%	🟡 YELLOW	NPC work report tomorrow Mar 5. Deficit 4%. No surprise yet.
+2026-03-04	BROCK	Athene RBC Ratio (2023 consolidated)	412%	—	🟡 YELLOW	Well above min. But 392% for Iowa entity. Buffer: 2.6x action level. Q1 2026 inflow decel = key watch.
+2026-03-04	BROCK	Athene Net Reserve Liabilities	$225.9B (FY2024) / $266.5B (Q3 2025)	—	🔴 RED	+18% YoY. FIA = largest component. ~48% of assets illiquid/structured.
+2026-03-04	BROCK	Athene Related-Party (Apollo-managed) Investments	$45.9B = 12.9% GAAP assets	—	🔴 RED	Self-dealing concentration. True managed % likely 50%+. Marks are Apollo-controlled.
+2026-03-04	BROCK	Athene Organic Inflows Q4 2024	$14.2B	$20.1B Q1 2024	🔴 RED	-29% Q/Q deceleration. FY2024 total $71B. Watch Q1 2026 for reflexivity confirmation.

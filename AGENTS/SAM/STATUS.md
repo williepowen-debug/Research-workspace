@@ -1,8 +1,8 @@
 # SAM STATUS
 
-**Signal Status:** 🔴 RED | **Last Updated:** 2026-03-04 08:45 ET (DAY 3 OPEN — KOREA ESCALATION)
+**Signal Status:** 🔴 RED | **Last Updated:** 2026-03-04 13:30 ET (AM SCAN — KRW 1,500 BREACHED + HORMUZ CLOSED)
 
-**Summary:** THREE-ANCHOR UST SELLING CRISIS CRYSTALLIZING. Nikkei -4.6%, **KOSPI -12% (circuit breakers)**, USD/KRW 1,481 approaching BoK 1,500 defense line. ZHAO confirmed Korea as third UST anchor — Japan + Korea combined selling $30-55B/mo. Carry unwind probability **revised up: 30-day 65%, 60-day 80%**. Yen still NOT safe haven (USDJPY ~157-158). BOJ frozen. **Fed swap line decision on BoK = binary pivot for entire UST thesis.**
+**Summary:** EMERGENCY CONDITIONS TRIGGERED. **USD/KRW THROUGH 1,500** (per SAM framework: upgrade to 85%+ carry unwind immediately). **Hormuz confirmed closed** after US-Israel strikes — Brent $82-90 range, Japan/Korea take ~70% of Hormuz crude. Nikkei -2.9% additional today (56,372). JGB 10Y 2.13% (+1bp). USDJPY ~157.3, yen still NOT safe haven. ADP +63K miss adds US recession signal ahead of NFP. No Fed swap line announcement — BoK forced into UST selling. Carry unwind **REVISED: 7d 35%, 30d 80%, 60d 90%**. Phase 2 onset: 10-14 days if no Fed intervention.
 
 ---
 
@@ -13,12 +13,13 @@
 | **USDJPY** | **~157-158** | 🔴 | Phase 1 extending. Yen NOT safe haven. Dollar reclaiming in US-led conflict. Korea contagion adds EM selling pressure. Intervention zone: 160. |
 | **JGB 10Y** | **~2.12%** | 🟠 | Inflation fear dominating. Not a safety bid. Long-end steepening intact. |
 | **JGB 30Y** | **~3.28%** | 🟠 | Pullback from 3.31%. Steepening trend intact. Fiscal doom loop delayed, not canceled. |
-| **Brent Oil** | **~$82-84** | 🔴 | Trump DFC insurance partially contained. $80-90 range near-term. |
+| **Brent Oil** | **~$82-90** | 🔴 | **HORMUZ CLOSED** post US-Israel strikes. $85-90 expected, $100 tail risk. Japan/Korea = 70% of Hormuz crude. LNG 1/5 of global supply disrupted. |
 | **BOJ Rate** | **0.75%** | 🟡 | HOLD 92% for March 13-14 (up from 90%). Frozen: can't cut (Takaichi ceiling + inflation), can't hike (crash + war). Dovish nominees = lame-duck Ueda. |
-| **Carry Unwind Prob** | **🔴 REVISED UP** | 🔴 | 7d: 20%, **30d: 65%** (was 50%), **60d: 80%** (was 70%). Korea crash accelerates timeline. |
+| **Carry Unwind Prob** | **🔴 EMERGENCY UPGRADE** | 🔴 | **7d: 35%** (was 20%), **30d: 80%** (was 65%), **60d: 90%** (was 80%). KRW 1,500 breach = SAM emergency trigger. Hormuz closure = structural energy shock compressing timeline. |
 | **VIX** | **~30+** | 🔴 | Korea circuit breakers = contagion event. S&P likely -3%+ today. |
-| **KOSPI** | **-12% (CIRCUIT BREAKERS)** | 🔴 | NEW. Worst day in decades. KOSDAQ -13%. BoK 1,500 defense line next. |
-| **USD/KRW** | **1,481** | 🔴 | NEW. BoK 1,500 = active FX reserve selling begins. 19 handles from trigger. |
+| **KOSPI** | **-12% (CIRCUIT BREAKERS prior day)** | 🔴 | Cumulative damage severe. BoK now in full defense posture. |
+| **USD/KRW** | **🚨 THROUGH 1,500** | 🔴 | **EMERGENCY TRIGGER HIT.** BoK "around-the-clock monitoring" — selling USTs to defend KRW. SAM emergency condition: carry unwind 85%+. |
+| **Nikkei 225** | **56,372 (-2.9% today)** | 🔴 | Financial stocks led. Cumulative drawdown accelerating. GPIF mechanical trigger proximity rising. |
 | **UST Anchor Selling** | **$30-55B/mo combined** | 🔴 | NEW. Japan + Korea + China stealth. Three-anchor problem LIVE. |
 | **Insurance Cliff (Mar 5)** | **PARTIALLY DEFUSED** | 🟠 | Trump DFC backstop. P&I clubs may still withdraw but US government insurance available. |
 
@@ -84,14 +85,14 @@ This is structural UST supply shock, not episodic. If sustained 3+ months: 10Y y
 
 ## CARRY UNWIND PROBABILITY (REVISED)
 
-| Timeframe | Old | New | Driver |
+| Timeframe | Old (08:45 ET) | New (13:30 ET) | Driver |
 |-----------|-----|-----|--------|
-| 7 days | 15% | **20%** | Korea circuit breakers; 1,500 line proximity |
-| 30 days | 50% | **65%** | Korea UST selling + Japan Phase 1 extension convergence |
-| 60 days | 70% | **80%** | Three-anchor problem + US recession signal |
+| 7 days | 20% | **35%** | KRW 1,500 BREACHED; BoK UST selling active; Hormuz shock |
+| 30 days | 65% | **80%** | Three-anchor UST selling + Hormuz energy shock + ADP miss |
+| 60 days | 80% | **90%** | Structural stagflation trap + USD demand + energy cost surge |
 | Full escalation | 90%+ | **90%+** | Unchanged |
 
-**New forced trigger:** USD/KRW through 1,500 without Fed swap line = emergency condition. Upgrade to 85%+ immediately if triggered.
+**🚨 EMERGENCY TRIGGER HIT:** USD/KRW through 1,500 without confirmed Fed swap line. Per SAM framework, this is the forced upgrade condition. Phase 2 onset window: **10-14 days** if no Fed intervention within 48 hours.
 
 ---
 

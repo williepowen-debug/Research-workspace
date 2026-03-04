@@ -1,5 +1,5 @@
 # REGINALD STATUS
-**Last Updated:** 2026-03-04 02:45 UTC | **Status:** 🔴 CRITICAL — STAGFLATION TRAP ACTIVE + KRE ~$64.90 EOD (-2.2% Mar 4 est) + S&P 6,781 (-0.52% Mar 4) + VIX 26.43 + BCRED NEAR-GATE ($3.7B redemptions, cap lifted 5%→7%) + HY OAS ~335-355bps (CROSS-AGENT TRIGGER ACTIVE: >300bps) + CRE MODS $27.7B (+66% YoY) + FL MIGRATION -93%
+**Last Updated:** 2026-03-04 18:30 UTC | **Status:** 🔴 CRITICAL — STAGFLATION TRAP ACTIVE + ADP +63K (MISS, 130K consensus) + NFP FRIDAY + BCRED GATE CONFIRMED (7.9%, exec $150M confidence injection) + MFS CONTAGION WIDENING (Elliott £200M, SMBC, Macquarie now exposed) + Barclays £500M CONFIRMED (revised from £600M+ estimates) + CC DQ 15yr high (mainstream alert) + CRE MASKING CONFIRMED (0.26% bank vs 12.34% CMBS = 8.16pp gap, independent source) + HY OAS ~335-355bps (CROSS-AGENT TRIGGER ACTIVE)
 
 **Known Data Issues:** OZK earnings April 16 (not Feb). PSEC PIK verified 8.6% (not 35%). FSK position CLOSED (thesis confirmed). KRE price in VX is stale — use watchlist table below.
 
@@ -15,7 +15,7 @@ Eight independent channels terminate at regional banks.
 | Hidden CRE | Memo3 relabeling — WAL 24.2%, OZK 37.6%, EGBN 23.7% | 🔴 |
 | SSFA Arbitrage | $1T capital-light NDFI lending, WAL $17.2B at 20% RW | 🔴 |
 | Private Credit | BCRED $3.7B near-gate, Blue Owl gated, FSK div -31%, Medallia 78¢, DB $143B BDC dump risk, **TCPC fraud** (BlackRock marks fake 14mo) | 🔴 CRITICAL |
-| MFS Fraud Contagion | £2B fraud double-pledging — Barclays, Jefferies, Apollo/Atlas SP, WAL template | 🔴 |
+| MFS Fraud Contagion | £2B fraud double-pledging — Barclays £500M confirmed, Jefferies, Apollo/Atlas SP, **Elliott £200M, SMBC, Macquarie NEW** | 🔴 WIDENING |
 | CMBS Maturity | $57.7B defaults expected, $76.6B hard maturity, no extensions left | 🔴 |
 | Federal Layoffs | DOGE 307K+ cuts, DHS shutdown Day 15+, DC corridor stress | 🟠 |
 | Consumer | Subprime auto 7.1% RED, Fannie MF 6bps from GFC | 🟠 |

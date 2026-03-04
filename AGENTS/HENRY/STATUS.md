@@ -1,5 +1,5 @@
 # HENRY STATUS
-**Last Updated:** 2026-03-04 03:55 UTC | **Status:** 🔴 RED++ — SPX CLOSED 6,816.63 (-0.94%). IWM 254.87 (-3.38%). BELOW GAMMA FLIP (6,902), 50-DMA (6,883), PUT WALL (6,800). GOLDMAN 6,707 ARMED (one more close away). VIX 26.43. HY OAS CROSS-AGENT CONFIRMED 335-355bps — IG MARKET FROZEN 2 CONSECUTIVE DAYS (FIRST SINCE COVID). CARRY UNWIND PHASE 2 ARMED: NFP FRI MAR 6. ⚠️ JAN ADP = 22K (vs 46K expected) = LABOR CRACKING. ADP FEB (≈48K consensus) + ISM SERVICES PMI PENDING WED MAR 4 AM ET — CRITICAL RELEASES. STAGFLATION CONFIRMED. 10Y 4.10% RISING ON RISK-OFF = FED BOXED IN.
+**Last Updated:** 2026-03-04 19:00 UTC | **Status:** 🔴 RED++ — ADP+ISM SYNTHESIS COMPLETE. ISM 56.1 BEAT MASKING ADP +63K HORROR. STAGFLATION CONFIRMED (NOT ACCELERATING IN SERVICES — PRICES 63.0 ↓ FROM 66.6). HY OAS CONFIRMED 308BPS (NOT 320+) — CREDIT STRESSED NOT CRISIS. HEN-01 HELD AT 70% (NFP <100K). NFP FRI MAR 6 = NEXT CRITICAL. FRONT-RUNNING HYPOTHESIS ON BACKLOG SURGE = HIGH CONVICTION.
 
 ---
 
@@ -55,10 +55,10 @@ Market is derivatives-driven, dealer hedging dominates short-term dynamics.
 | 10Y Yield | **4.10%** (RISING on risk-off) | [CONF] Mar 3 | 🔴 Stagflation = Fed boxed in |
 | Brent Crude | **~$84** (+4.71% Mar 3 session) | [CONF] CNBC settle | 🔴🔴 Hormuz premium ON |
 | Gold | **~$5,408** | [CONF] Mar 3 | 🔴 Hard assets bid, not duration |
-| HY OAS | **335-355bps** (est) | [EST] REGINALD + LIQUID xagent | 🔴🔴 Active transmission zone |
+| HY OAS | **308bps** (Mar 3 CONF) | [CONF] FRED HY OAS Mar 3 — LIQUID est was 30bps too high | 🟠 Stressed not crisis — floor rising but no cascade yet |
 | MOVE | Rising | [EST] | 🟠→🔴 |
-| ADP Feb | **PENDING** (Wed Mar 4 8:15 AM ET) | Consensus: 48K; Jan ACTUAL: **22K** SHOCK | ⚠️ WATCH |
-| ISM Services Feb | **PENDING** (Wed Mar 4 10:00 AM ET) | Consensus: ~53.0; Prices prior: 66.6% | ⚠️ WATCH |
+| ADP Feb | **+63K** (vs 130K consensus) | MASSIVE MISS — Labor cracking while services hot | 🔴🔴 STAGFLATION |
+| ISM Services Feb | **56.1** (vs 53.5 consensus) | BEAT — highest since Jul 2022. Prices 63.0 (↓ from 66.6) | 🟠 ELEVATED/RELIEF |
 | 0DTE Share (SPX) | 65% (record) | [CONF] Feb 2026 data | 🔴 |
 | Margin Debt | $1.23T | [CONF] FINRA ATH | 🔴 |
 
@@ -153,7 +153,7 @@ Risk parity deleverages     → T+5 to T+30
 | H4 | Equity cannot bottom until HY OAS peaks | 85% |
 | H5 | PLTR breaks $100 → AI thematic repricing begins | 75% |
 | H7 | XLK breadth <40% precedes sector repricing | 80% |
-| **HEN-01** | **NFP Feb <100K (consensus +65K) — UPGRADED 60%→70%** | **70%** ← Jan ADP 22K SHOCK |
+| **HEN-01** | **NFP Feb <100K — HELD 70% (ADP +63K confirms; ISM Employment 51.8 does NOT trigger upgrade rule; ICE absenteeism adds downside)** | **70%** ← ADP +63K CONF MAR 4 |
 
 ---
 
@@ -226,11 +226,56 @@ Risk parity deleverages     → T+5 to T+30
 
 **Next releases:**
 - ✅ Mar 2: ISM Mfg (Feb) — 52.4 ACTUAL vs 51.8 exp (BEAT) | Prices 70.5% (+11.5pts, highest since Jun 2022) | Employment 48.8% (contracting) | STAGFLATION CONFIRMED
-- 🔴 Mar 4: ISM Services PMI (Feb) — **TOMORROW. CONFIRMED 3rd BD.** | ADP Employment | Fed Beige Book | **CRITICAL: Services Prices component — if ≥68%, stagflation fully confirmed across both sectors. Opens with no 0DTE gamma buffer.**
+- ✅ Mar 4: ISM Services PMI (Feb) — **56.1 ACTUAL vs 53.5 consensus (BEAT, highest since Jul 2022)** | Prices 63.0 (↓3.6pts from 66.6 — ELEVATED but declining) | Employment 51.8 (expanding) | ADP +63K vs 130K consensus (MASSIVE MISS)
 - Mar 6: NFP (Feb)
 - Mar 11: CPI (Feb)
 - Mar 13: PCE (Jan) + GDP 2nd est
 - Mar 17-18: FOMC (SEP meeting)
+
+---
+
+## ISM SERVICES + ADP SYNTHESIS — MAR 4 FINAL (19:00 UTC)
+
+### Five-Question Analysis
+
+**Q1: Does ISM 56.1 change HEN-01 (NFP <100K)?**
+- HEN-01 stays at **70%**. Employment 51.8 (above 50) prevents an UPGRADE per my trigger rule. But ISM doesn't override ADP hard data.
+- ADP +63K vs 130K consensus = actual payroll weakness. ISM Employment 51.8 = survey perception of expansion (barely). These can coexist: firms are busy but not adding headcount.
+- Composition matters: small biz (<20) = +58K, MEDIUM FIRMS NEGATIVE. Medium-firm contraction is structural, not noise.
+- NFP Friday range: 75-110K most likely. <100K = 70% confidence. ADP is the better NFP predictor.
+- **No change to HEN-01. Hold 70%.**
+
+**Q2: Backlog surge (+11.9pts) — front-running or real demand?**
+- **High conviction: ~70% front-running / 30% real demand.**
+- Survey covers February = BEFORE Hormuz closure. The +11.9pt backlog surge = largest single-month jump in years. This mirrors the 2018-2019 pre-tariff pattern exactly: companies rushed orders in Q1 2018 before July tariff implementation — backlogs surged 6-8pts. This is nearly DOUBLE that.
+- February 2026 context: tariff uncertainty was peak. Firms pulled forward orders before cost shock. This is NOT organic demand growth.
+- Implication: New Orders surge (58.6, +5.5pts) and Backlog surge will NOT sustain into March/April. When tariff front-running exhausts, expect both to roll over sharply. Watch March ISM Services New Orders as confirmation.
+
+**Q3: ADP weak vs ISM strong — who's right? What does it mean for Friday?**
+- **Both are right — they're measuring different things.** This is textbook stagflation bifurcation.
+- ISM = activity (how busy are you?). ADP = headcount (how many people did you hire?). High activity + low hiring = firms are working existing staff harder, not adding bodies. Productivity squeeze or fear-based staffing freeze.
+- For Friday: ADP wins for NFP prediction. Historical correlation is strong directionally. ADP +63K → expect NFP in 75-115K range. ISM Employment 51.8 adds upside risk but doesn't override.
+- Medium firm contraction in ADP is the most worrying line. Small biz hiring is episodic and easily reverses. Medium firm NEGATIVE = structural.
+
+**Q4: ISM Prices 63% + Mfg Prices 70.5% — stagflation confirmed or easing?**
+- **Stagflation confirmed. NOT easing.**
+- Services 63% is DOWN 3.6pts from 66.6 — this is the ONLY positive. But 63% is still well above 55% threshold where "easing" would be meaningful. The prior decision matrix said 60-65% = "ELEVATED" with mild weakness.
+- Mfg Prices 70.5% (highest since June 2022) has not eased. Combined picture: services inflation ticking lower from very hot, goods inflation accelerating.
+- **Critical:** Both readings precede the Hormuz oil shock. March ISM will capture $84+ Brent. Goods prices will likely push 72-75%+. Services prices may reverse the 3.6pt decline.
+- Verdict: Stagflation confirmed, services prices mildly better than feared. Mfg side is the danger. Fed remains boxed in regardless.
+
+**Q5: ICE/immigration respondent comment and employment readings**
+- The quote ("ICE activity has caused some staff to not come into work") is a supply-side shock, not a demand-side one.
+- Workers absent from fear ≠ fired. This DEPRESSES payroll counts while not reflecting economic weakness.
+- Effect on NFP Friday: could artificially suppress the print. If true, the "real" underlying demand for labor is higher than reported.
+- Effect on Fed interpretation: supply-side labor withdrawal complicates rate decisions. Cutting rates won't bring these workers back. The Fed cannot fix this with monetary policy.
+- For HEN-01: this is a downside risk to the NFP print that is non-economic. It supports <100K print but for the "wrong" reasons. Worth flagging separately from demand-driven weakness.
+
+### HY OAS Correction
+- **LIQUID estimates were 30bps too high.** FRED confirmed Mar 3 = 308bps (not 320+).
+- 308bps = stressed (floor 265 Jan → 284 Feb → 308 Mar 3) but NOT crisis. Trajectory is the concern.
+- 300bps threshold crossed = "elevated" per prior model. Next watch: 325bps = LIQUID active transmission confirmed.
+- LIQUID should recalibrate their model. Flag in OUTBOX.
 
 ---
 

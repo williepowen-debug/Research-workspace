@@ -3,6 +3,53 @@ _Posts queued for Will. Latest first._
 
 ---
 
+## 🏛️ ATHENE DEPOSIT MAP — APO $100P THESIS UPDATE
+_2026-03-04 | BROCK subagent | Priority 1 complete_
+
+**TL;DR**: Athene is NOT a bank run risk in the traditional sense — contractual lockups prevent mass surrender. The real risk is reflexivity through APO's AUM engine + private credit marks. That loop is NOW LIVE (Feb 2026 liquidity panic).
+
+**KEY NUMBERS:**
+- Total assets: **$363B (FY2024) → $442B (Q3 2025)** — still growing fast
+- Net reserve liabilities: **$225.9B** (FY2024), **$266.5B** (Q3 2025)
+- RBC ratio: **412% consolidated / 392% U.S.** — NOT near any regulatory threshold
+- Apollo-managed related-party investments: **$45.9B = 12.9% of GAAP assets** (Q3 2024)
+- Illiquid/structured assets: **~48% of portfolio** (ABS/CLO 20% + mortgages 18% + alts 6% + CMBS 4%)
+- Net spread: **1.38%** on $248.6B = ~$3.4B/year earnings engine
+
+**ON SURRENDER RISK:**
+- FIA surrender charges: 7→6→5→4→3→2→1% over 7 years (industry standard)
+- 10% annual free withdrawal allowed — pressure valve, not a gate
+- PGAs and funding agreements are **non-surrenderable** — contractual term
+- "Run risk" is LOW. It's more like a slow bleed than a sprint to exits
+- The real pressure: **funding agreement non-renewals** at maturity (institutional counterparties choosing not to roll)
+
+**THE REFLEXIVITY LOOP (ALREADY ACTIVE):**
+```
+Private credit stress → APO stock down → ADIP sidecar harder to raise
+→ Athene growth stalls → Apollo fee growth = 0 → APO down more
+→ Private credit marks worsen → Athene equity erosion → rating risk
+→ Institutional funding agreement non-renewals → COLLAPSE
+```
+Feb 2026 events (Blue Owl gate, MFS fraud write-down, MidCap dividend cut) = Steps 1-2 confirmed live.
+
+**HIGHEST PROBABILITY NEAR-TERM CATALYST:**
+Q1 2026 Athene inflow report (April/May 2026). FY2024 Q4 already decelerated to $14.2B vs. $20.1B in Q1 2024 (-29%). If Q1 2026 comes in at $10-12B, the fundamental signal is breaking.
+
+**WHAT WOULD BREAK THE THESIS:**
+- RBC ratio holds (it's at 392-412% — hard to blow through quickly)
+- Apollo successfully raises ADIP III (new equity capital → reflexivity dampened)
+- Private credit losses stay contained (marks hold)
+
+**DATA GAPS FOR MANUAL FOLLOW-UP:**
+1. Exact FIA/FA/PGA % breakdown of $225.9B reserves → pull ir.athene.com FY2024 Financial Supplement
+2. True Apollo-managed % of net invested assets (likely 50%+, not just 12.9%)
+3. Funding agreement maturity profile (non-renewal risk timeline)
+4. Q4 2025 / Q1 2026 RBC ratio update
+
+Full analysis: `AGENTS/CARL/domain/ATHENE_DEPOSIT_MAP.md`
+
+---
+
 ## 🌅 ZHAO Morning Brief — Wed Mar 4, 2026 (8:45 AM ET)
 
 **Filed:** 2026-03-04 13:46 UTC
