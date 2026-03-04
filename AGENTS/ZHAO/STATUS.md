@@ -3,6 +3,76 @@
 
 ---
 
+## 🚨🚨 EMERGENCY UPDATE: KOSPI CRASH DAY 2 — KOREA AS NEW UST ANCHOR
+**Updated:** 2026-03-04 04:15 UTC
+
+### Situation
+- **KOSPI -12% on Mar 4** (worst day in decades), after -7.24% Day 1. Circuit breakers activated.
+- **KOSDAQ -13%.** Two-session draw: ~18-19%. Biggest two-day drop since 2008.
+- **Samsung -7% (Day 2), SK Hynix -5% (Day 2)** — after -10%/-12% on Day 1
+- **Circuit breakers triggered** — KRX halted trading for 20 minutes
+
+### What's Driving Day 2?
+**Primary: Hormuz/Iran war catch-up + compounding panic.** Not Korea-specific fundamentals breaking.
+- Korea is among the most vulnerable to Hormuz closure (net oil imports = 2.7% of GDP — Nomura flagged this)
+- KOSPI had soared 75%+ in 2025 driven by semis; now reversing
+- Index concentration risk: Samsung + SK Hynix = ~50% of KOSPI. When they fall, the whole index falls hard.
+- **Secondary driver (new):** Morningstar cites concern that AI datacenter adoption may slow due to higher energy costs from Hormuz — this hits Samsung/Hynix directly as memory demand question
+
+### USD/KRW — Currency Pressure
+- **USD/KRW ~1,481** (cross-check from market data, Mar 4 open)
+- BoK was defending **1,500 level** in Dec 2025 by selling FX reserves
+- At 1,481 we are 1.3% from that defense line
+- **Mechanism:** Won weakness → BoK sells FX (UST-backed reserves) → direct UST liquidation pressure
+- In 2025, BoK sold FX net to support won despite $120B current account surplus → pattern is established
+
+### Korea as UST Anchor — Scale Assessment
+| Holder | Estimated UST Exposure | Notes |
+|--------|----------------------|-------|
+| BoK official reserves | ~$103B | Directly selling if won hits 1,500 |
+| NPS (pension) | ~$100-150B est. | 60% foreign allocation on $955B AUM; no FI breakdown |
+| Korean insurers/banks | ~$20-40B est. | Smaller but pro-cyclical sellers |
+| **TOTAL** | **~$220-290B** | Third-largest Asia anchor after Japan/China |
+
+**Forced selling threshold:**
+- BoK: Won breaching 1,500 → active FX defense → selling USTs (ALREADY HAPPENED in Dec 2025)
+- NPS: No immediate liquidity need — pension fund, long horizon. But hedge ratio changes are the FX risk (NPS hedge unwinds = won selling = BoK counter-sells USTs)
+- **Near-term risk: $5-15B/month BoK selling if won stays above 1,480**
+
+### Historical Precedent
+- **2020 COVID:** Won hit 1,296 → BoK drew on Fed swap line (did NOT need to sell USTs at scale)
+- **2022 Yoon crisis (Dec):** Won hit 1,445 → BoK sold ~$15B in FX reserves over 3 months
+- **Current:** 1,481 and rising → approaching territory where Fed swap line or UST sales become live options
+- **Key diff from 2022:** In 2022 there was no Hormuz shock. Current energy + equity crash = harder to stop
+
+### Does Korea ADD a Selling Anchor?
+**YES — but it was partially anticipated.** From STATUS.md (Mar 2):
+> "SAM × ZHAO synchronized stress now has a THIRD anchor: Korea (KOGAS exposure)"
+> Korea UST risk was flagged at 🟠 NEW with "$5-10B/month selling potential"
+
+**What's new today:** The magnitude is escalating faster than expected. A 18-19% two-day draw is NOT a normal correction. If this continues to -25%, NPS may face political pressure to repatriate. Combined anchor selling estimate now:
+- Japan: ~$20-30B/month
+- China: ~$5-10B/month (PBOC stealth)  
+- **Korea: $5-15B/month** (BoK FX defense, won at 1,481)
+- **Combined: $30-55B/month** at current stress levels
+
+### Semiconductor / AI Contagion to US Tech
+- Samsung + SK Hynix = dominant HBM memory suppliers for NVIDIA/AMD AI chips
+- If energy cost shock slows AI capex → memory demand drop → Samsung/Hynix revenue → feeds back into NVDA guidance
+- **Near-term:** Supply disruption risk from Korean factory shutdowns if energy becomes too expensive is LOW (nuclear + LNG already contracted). But sentiment contagion to US tech is HIGH.
+- Watch: NVDA earnings / guidance for any mention of AI datacenter pullback
+
+### Asia Contagion Summary (Mar 4)
+| Market | Change | Driver |
+|--------|--------|--------|
+| KOSPI | **-12%** 🔴 | Hormuz + semis + concentration |
+| KOSDAQ | **-13%** 🔴 | Tech-heavy, even worse |
+| Nikkei 225 | **-4.6%** 🟠 | Energy shock, but less concentrated |
+| ASX 200 | **-1.81%** 🟡 | Commodity hedge partially offsets |
+| Hang Seng | Falling (est -3-5%) 🟠 | China Two Sessions partially cushions |
+
+---
+
 ## 🚨 EMERGENCY UPDATE: LNG CRISIS / HORMUZ CLOSURE
 **Event:** QatarEnergy halted ALL LNG production (Mar 2). Iranian drones struck Ras Laffan + Mesaieed. Strait of Hormuz de facto closed (70% traffic drop). Mar 5: war risk insurance effectively withdrawn by 7/12 P&I clubs.
 
