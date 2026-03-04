@@ -7,3 +7,43 @@ Agent signals that need your attention. HERMES delivers here.
 ---
 
 <!-- No pending signals -->
+
+---
+
+## 2026-03-04 12:47 UTC — FROM: HENRY [via HERMES]
+**Signal:** HEN-01 NFP <100K prediction UPGRADED 60%→70%. Jan ADP was 22K (vs 46K exp) — biggest miss in >1 year. IWM closed $254.87 (Will's $250P now $4.87 OTM, ~+25-30% est).
+**Detail:** Jan ADP print of 22K (released Feb 4, massively missed 46K consensus) is the strongest leading indicator yet for a weak Feb NFP. Combined with DOGE federal workforce cuts, tariff-driven hiring freezes, and IWM -3.38% on Mar 3 (small caps pricing labor stress), NFP miss probability is rising. SPX confirmed 6,816.63 — Goldman 6,707 CTA trigger one close away. ADP Feb + ISM Services release tomorrow morning (Mar 4 ET) are the last check before NFP. If ADP Feb also misses badly, HEN-01 goes to 80%+.
+**Source:** ADP NER Feb 4 2026 (Investing.com confirmed); CNBC Mar 3 EOD closes; HENRY EOD Mar 3 read.
+**Priority:** 🔴
+
+---
+
+## 2026-03-04 12:47 UTC — FROM: LIQUID [via HERMES]
+**Signal:** CALIBRATION CORRECTION — BX -8% intraday was WRONG. Actual close -3.82%. HY OAS Mar 3 still unconfirmed — do not act on 335-355bps estimate.
+**Detail:** BX closed $110.92 (-3.82%). Prior -8% intraday figure was overstated and has not been confirmed. ICE BofA HY OAS for Mar 3 publishes ~8-9am ET Mar 4. Recalibrated Mar 3 estimate: 315-335bps (NOT 335-355bps) — still likely crosses 320bps threshold but be cautious. IG OAS estimate revised to 90-100bps (NOT 125-135bps — prior systematic +30bps bias confirmed and corrected). BCRED confirmed: 7.9% redemptions, 7% cap, $400M BX injection. All credit spread data for Mar 3 is UNCONFIRMED until FRED publishes tomorrow AM. No position sizing off estimates.
+**Source:** FRED (Mar 2 confirmed), Macrotrends/YF/Investing.com (BX close)
+**Priority:** 🔴
+
+---
+
+## 2026-03-04 12:47 UTC — FROM: LIQUID [via HERMES]
+**Signal:** OIL CORRECTION — WTI $73.80 close, NOT $84 Brent. Europe IG primary reopened (safest only). US IG status unknown.
+**Detail:** WTI settled $73.80 +3.6% (Brent ~$78-80, not $84). Trump Navy escort announcement drove the paring — key de-escalation signal on physical supply risk. Europe primary bond market tentatively reopened March 3 for safest issuers only (Bloomberg). US IG primary status unclear — likely frozen or minimal. S&P 500 confirmed -0.9% close (not -2.2% — that was intraday). Markets recovered on Navy escort news. If Navy escort holds and Hormuz partially reopens: oil inflation risk reduces, credit spread widening may moderate. LIQ-01 confirmation still pending FRED 8am ET.
+**Source:** Investopedia, Bloomberg 2026-03-03
+**Priority:** 🟠
+
+---
+
+## 2026-03-04 12:47 UTC — FROM: REGINALD [via HERMES]
+**Signal:** TCPC securities fraud = bank fund finance re-underwriting event incoming
+**Detail:** BlackRock TCP Capital (TCPC) securities fraud class action confirmed Mar 3. NAV was overstated for 14+ months; -12.97% on disclosure. Every bank that extended fund finance credit lines to TCPC used fraudulent NAVs as collateral. Banks will now systematically re-underwrite entire BDC fund finance portfolios — CFG ($10-11B), KeyBanc, Truist, Synovus. This is the credit contraction catalyst BROCK flagged as Stage 4 precursor. Consider if this accelerates CFG and KEY put timing.
+**Source:** BROCK signal Mar 3 2026; Reuters/Bloomberg 3/3
+**Priority:** 🔴
+
+---
+
+## 2026-03-04 12:47 UTC — FROM: REGINALD [via HERMES]
+**Signal:** APO puts — BROCK very high conviction, strike/expiry still TBD
+**Detail:** Apollo triple stress: MFIC dividend cut, Atlas SP directly in MFS £2B fraud, Medallia 1L at 78¢. APO -8.87% Feb 27. BROCK upgraded to "very high" conviction. Additionally, Athene ($36B CRE + large private credit) is Stage 4 tripwire — if Athene discloses material losses in Q1 10-Q, insurer deposit withdrawals could hit regional bank funding. APO puts are in position table as TBD — need a strike/expiry decision.
+**Source:** BROCK signals Feb 27–Mar 3 2026
+**Priority:** 🔴
