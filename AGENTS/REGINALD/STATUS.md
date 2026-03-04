@@ -14,7 +14,7 @@ Eight independent channels terminate at regional banks.
 | CRE | 70% of CRE at regionals, 70-94% loss severity confirmed | 🔴 |
 | Hidden CRE | Memo3 relabeling — WAL 24.2%, OZK 37.6%, EGBN 23.7% | 🔴 |
 | SSFA Arbitrage | $1T capital-light NDFI lending, WAL $17.2B at 20% RW | 🔴 |
-| Private Credit | BCRED $3.7B near-gate, Blue Owl gated, FSK div -31%, Medallia 78¢, DB $143B BDC dump risk | 🔴 CRITICAL |
+| Private Credit | BCRED $3.7B near-gate, Blue Owl gated, FSK div -31%, Medallia 78¢, DB $143B BDC dump risk, **TCPC fraud** (BlackRock marks fake 14mo) | 🔴 CRITICAL |
 | MFS Fraud Contagion | £2B fraud double-pledging — Barclays, Jefferies, Apollo/Atlas SP, WAL template | 🔴 |
 | CMBS Maturity | $57.7B defaults expected, $76.6B hard maturity, no extensions left | 🔴 |
 | Federal Layoffs | DOGE 307K+ cuts, DHS shutdown Day 15+, DC corridor stress | 🟠 |
@@ -69,6 +69,10 @@ Eight independent channels terminate at regional banks.
 
 **APOLLO TRIPLE STRESS (BROCK):** MFIC div cut + Atlas SP MFS fraud exposure + Medallia 1L 78¢. APO = most exposed alt manager. Puts warranted.
 
+**TCPC SMOKING GUN (Mar 3):** BlackRock TCP Capital securities fraud class action. NAV overstated Nov 2024–Jan 2026 (-12.97% on disclosure). If BlackRock's marks were fake for 14 months, every BDC fund finance desk's collateral was underwritten on fraudulent NAVs. Banks will now re-underwrite entire BDC portfolios → credit tightening = Stage 4 precursor.
+
+**ATHENE MAPPING — PENDING:** BROCK Priority 1 from Feb 27. Which regional banks hold concentrated Athene/Apollo insurer deposits? This is the Stage 4 tripwire and has NOT been researched. Flag for next active session.
+
 ---
 
 ## SUB-AGENT DASHBOARD
@@ -76,7 +80,7 @@ Eight independent channels terminate at regional banks.
 | Agent | Key Signal | Status |
 |-------|------------|--------|
 | CREED | Office 12.34% ATH, Chicago 70-94% loss severity, $936B maturity wall | 🔴 |
-| BROCK | PCDR 5.8%, Medallia 78¢, FSK div cut, Blue Owl gated, BCRED near-gate, DB $143B dump risk | 🔴 CRITICAL |
+| BROCK | PCDR 5.8%, Medallia 78¢, FSK div cut, Blue Owl gated, BCRED near-gate ($3.7B), DB $143B dump risk, TCPC securities fraud (-12.97%), OBDC II $1.4B loan sale executing, retail BDC inflows -40% | 🔴 CRITICAL |
 | CORAL | Migration -93% Census confirmed. FL #2 foreclosure. BayFirst -17% staff. Condo SIRS mandates | 🔴 RED |
 | BELT | MS +109bps QoQ, LA +89bps, MD +87bps mortgage DQ | 🔴 |
 

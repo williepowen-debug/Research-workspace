@@ -1,7 +1,7 @@
 # PROME STATUS.md
-**Updated:** 2026-03-03 18:30 UTC
+**Updated:** 2026-03-04 03:40 UTC
 
-**Last context:** Hormuz CLOSED. Full Escalation active. S&P -2.2% (2026 lows), Dow -1,200pts, VIX 26.43, Brent $84. Multiple trades executed: sold USO call (+113%), bought WAL $77.5P Mar 20, KRE $66P Mar 13, APO $100P Apr 17. Trimmed SLV and CEPT. Reviewed KRE/WAL/APO charts with Will. 10Y yield UP to 4.10% on risk-off day = ZHAO thesis confirmed (UST not safe haven). NFP Friday is the next binary catalyst.
+**Last context:** Infrastructure overhaul Day 2 complete. HERMES delivered 18 cross-agent signals, inbox processing done (HENRY/HAWK ✅, LIQUID ❌ timeout, REGINALD ⏳). All 13 agents got ML.tsv rules, OUTBOX→WILL protocol, symlinked dirs. PREDICTIONS.tsv plan written. Agent backups committed. CARL audit clean. Market unchanged from Mar 3 close — NFP Friday is the next binary catalyst. $2,100 cash reserved.
 
 ## 🔴 CRITICAL — HORMUZ CLOSED + Private Credit + Energy Dominance
 
@@ -13,16 +13,16 @@
 |-------|--------|-------|---------|
 | LABOR | 🔴 | Hiring freeze Q2+. WARN 706/85K. NFP Fri ~+65K consensus. Shadow gap resolves Mar-Apr. | Mar 3 |
 | CARL | 🔴 | Subprime auto 6.9%. Gas squeeze ON TRACK Mar 14-21. Brent now $84. | Mar 3 |
-| HENRY | 🔴 | **STALE.** ISM Services PMI released today — no read yet. Need position price checks. | Mar 2 |
+| HENRY | 🔴 | Inbox processed. ISM Services PMI decision matrix prepped. | Mar 4 |
 | SAM | 🔴 | Carry unwind 65-75%. Yen NOT safe haven. JGB 30Y 3.28%. Phase 1 confirmed. | Mar 3 |
-| REGINALD | 🔴 | **STALE.** Inbox unprocessed since Feb 27. Florida CRE + circuit breakers. | Feb 27 |
+| REGINALD | 🔴 | Inbox processing in progress (7+ signals). STATUS refreshed. | Mar 4 |
 | BROCK | 🔴 | STATUS.md rebuilt. Cockroach chain, APO triple stress, Eisman/Gober, transmission map. | Mar 3 |
-| LIQUID | 🔴 | **STALE.** HY OAS likely blowing past 320 with today's selloff. Need fresh read. | Feb 28 |
+| LIQUID | 🔴 | Inbox run FAILED (timeout). IG OAS corrected. Needs re-run. | Mar 4 |
 | MARCO | 🔴 | DHS resolution likely THIS WEEK. E-Verify → enforcement surge into planting season. | Mar 3 |
 | HAWK | 🔴 | Two new theses: Russian infrastructure damage + Ukrainian energy warfare doctrine. | Mar 3 |
 | OTTO | 🔴 | MFS = cockroach #4. CFPB dead. CVNA Mar 15 unconfirmed. | Mar 3 |
 | ZHAO | 🔴 | USD/CNY 7.30 imminent. Three-anchor UST selling. 10Y yield UP on risk-off = confirmed. | Mar 3 |
-| HANS | 🟠 | **STALE.** 85% ceasefire too high. Needs full refresh. | Feb 22 |
+| HANS | 🟠 | Ceasefire revised 85% → 12% (30-day). STATUS refreshed. | Mar 4 |
 | DARWIN | 🟢 | Weekly scan | Feb 18 |
 | NEXUS | 🔴 | Morning synthesis complete. 4 thresholds breaching simultaneously. | Mar 3 |
 
@@ -139,9 +139,11 @@
 
 ## Next Priorities
 
-1. **🔴 Save $2,100 dry powder for post-NFP Friday**
-2. **🔴 HANS fresh ceasefire assessment**
-3. **🟠 Update stale agents: HENRY, LIQUID, REGINALD**
-4. **🟠 Execute cross-agent signals from Mar 2**
-5. **🟡 EOD protocol after close**
-6. **🟡 Start research threads from NEXT_SESSION.md**
+1. **🔴 Check REGINALD inbox output** (was still running at handoff)
+2. **🔴 Re-run LIQUID inbox processing** (failed — 19min timeout)
+3. **🔴 Save $2,100 dry powder for post-NFP Friday**
+4. **🟠 PREDICTIONS.tsv rollout** (plan at `PROME/PREDICTIONS_IMPLEMENTATION_PLAN.md`)
+5. **🟠 Audit batch 3: HAWK, MARCO, BROCK**
+6. **🟠 Audit batch 4: HANS, ZHAO, DARWIN**
+7. **🟡 Remaining infra: AGENTS.md→CLAUDE.md rename, AGENTS_DIRECTORY.md update**
+8. **🟡 Research threads: Athene run risk, Korea third anchor, DHS→food inflation**
