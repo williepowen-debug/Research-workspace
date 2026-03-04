@@ -1,34 +1,33 @@
 # SCRATCH — Ephemeral Working Memory
 
-**Updated:** 2026-03-03 ~10:45 PM ET
+**Updated:** 2026-03-03 ~11:15 PM ET
 
 ---
 
-## RIGHT NOW — Chunk 2: Template + OUTBOX/INBOX Push
+## RIGHT NOW — Chunk 4: Agent Self-Audits (In Progress)
 
-**Task:** Update CLAUDE_TEMPLATE.md with OUTBOX.md protocol, then push updated instructions to all 11 agent CLAUDE.md files. Create OUTBOX.md for all agents.
+**Completed audits:** HENRY ✅, LIQUID ✅
+**Running now:** REGINALD, SAM (spawned, waiting for results)
+**Remaining:** CARL, LABOR, HAWK, MARCO, BROCK, HANS, ZHAO, DARWIN (7 agents)
 
-### What to add to CLAUDE_TEMPLATE:
-- OUTBOX.md in spawn protocol: "If findings are relevant to another agent's domain, write a signal to OUTBOX.md with target agent name."
-- OUTBOX.md signal format (FROM, TARGET, signal summary, timestamp)
-- OUTBOX.md in FILES table
-- Keep it minimal — HERMES handles delivery, agents just drop signals
+**Batch plan:** Do 2-3 per clear. Review results, fix issues, spawn next batch.
 
-### Agents to update (11):
-LABOR, CARL, SAM, HENRY, LIQUID, REGINALD, HAWK, MARCO, HANS, ZHAO, DARWIN
+### Infrastructure done tonight:
+- Chunk 1: Memory condensation + boot sequence trim + SCRATCH created ✅
+- Chunk 2: CLAUDE_TEMPLATE + OUTBOX/INBOX push to all 11 agents ✅
+- Chunk 3: HERMES built, registered, test run passed ✅
+- Chunk 4: Agent self-audits (in progress)
+- Chunk 5: Test HERMES with real signals (after agents have OUTBOX content)
 
-Each needs:
-1. OUTBOX.md created in agent workspace (`/home/moltbot/.openclaw/agents/*/workspace/`)
-2. CLAUDE.md updated with OUTBOX instruction + workbook logging rules (from template)
+### What each audit asks:
+1. Domain report + STATUS.md update
+2. Workbook audit (ML/VX/FL/FLOW) — fill gaps, mark stale
+3. System feedback — what's working, what's broken, OUTBOX signals
 
-### Already done:
-- CLAUDE_TEMPLATE.md has workbook logging rules (added tonight)
-- INBOX.md exists for all agents (fixed tonight)
-- HENRY and LIQUID workbooks repaired (audit + fill)
-
-### Agent workspace paths:
-- Agent CLAUDE.md: `/home/moltbot/.openclaw/agents/{name}/workspace/` (some have CLAUDE.md, some have AGENTS.md — check each)
-- Domain symlink: `domain` → `/home/moltbot/.openclaw/workspace/AGENTS/{NAME}/`
+## Hot Market Context
+- S&P closed 6,781. CTA trigger 6,707 armed. ISM Services PMI tomorrow AM.
+- HY OAS ~335-355bps. BCRED near-gate. IG frozen.
+- Cash ~$2,100 for post-NFP redeployment.
 
 ---
 
