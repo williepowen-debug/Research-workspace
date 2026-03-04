@@ -1,5 +1,5 @@
 # CARL STATUS
-**Last Updated:** 2026-03-04 13:15 UTC | **Status:** 🔴 RED
+**Last Updated:** 2026-03-04 19:15 UTC | **Status:** 🔴 RED
 
 **Summary:** Consumer fragility at extreme levels across multiple vectors. Subprime auto 60+ DQ **7.1% — THRESHOLD BREACHED**. Fannie MF DQ 0.74% (6bps from GFC peak, IMMINENT). Gas squeeze Mar 14-21 **CONFIRMED BASE CASE** (Brent $84, Hormuz closed). **NEW (Mar 4 AM):** UI exhaustion wave begins Mar 24 (FL WARN cohorts) → consumption cliff Apr 26 → DQ conversion May-Jun. Stagflation trap confirmed: PCE 2.9% + oil spike + Fed frozen = no policy backstop. Reverse wealth effect materializing (VIX 26.43, IWM -1.91%). FL triple squeeze (energy + HOA + insurance) to outpace national DQ by Q2. CFPB functionally dead = subprime lenders operating without federal watchdog.
 
@@ -28,6 +28,34 @@
 
 **Tariff burden:** $1,000/household (2025) → $1,300 (2026). Top 3: CA $38B, TX $21B, FL $12B.
 **Utility surge (since Jan 2020):** Gas +56%, Electricity +41%, Insurance +14%.
+
+---
+
+## ATHENE / APO $100P THESIS — COMPLETED MAP (2026-03-04)
+**Full analysis:** `AGENTS/CARL/domain/ATHENE_DEPOSIT_MAP.md`
+
+### Key Numbers
+- Athene GAAP assets: $363B (FY2024) → $442B (Q3 2025)
+- Net reserve liabilities: $225.9B → $266.5B (growing 18% YoY)
+- RBC ratio: 412% consolidated / 392% U.S. — NOT near collapse threshold
+- Apollo-managed (related-party): $45.9B = 12.9% of assets (true % likely 50%+)
+- Illiquid/structured: ~48% of portfolio
+- Net spread: 1.38% → ~$3.4B/year earnings engine
+
+### Surrender Risk: LOW (not a bank run)
+- FIA surrender charges + non-surrenderable PGA/FA bucket = structural stickiness
+- Real risk: **funding agreement non-renewals** + **new inflow deceleration**
+- Q4 2024 inflows: $14.2B vs. Q1 2024 $20.1B = -29% decel already started
+
+### Reflexivity Loop: ACTIVE (Feb 2026)
+- Blue Owl gate + MFS fraud write-down + MidCap dividend cut = Steps 1-2 triggered
+- Watch: Q1 2026 Athene inflow data (April/May) — break signal for bear case
+
+### Data Gaps for Manual Pull
+1. FIA/FA/PGA % breakdown of reserves (ir.athene.com FY2024 Financial Supplement)
+2. True Apollo-managed % of net invested assets
+3. Funding agreement maturity profile (non-renewal timeline)
+4. Q4 2025/Q1 2026 RBC updates
 
 ---
 

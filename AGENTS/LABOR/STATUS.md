@@ -1,5 +1,5 @@
 # LABOR STATUS
-**Last Updated:** 2026-03-04 02:15 UTC | **Status:** 🔴 CRITICAL
+**Last Updated:** 2026-03-04 18:30 UTC | **Status:** 🔴 CRITICAL
 
 **Summary:** Shadow payroll gap enters critical resolution window (Mar-Apr). NFP Feb consensus +65K ("half-speed economy"). GAO confirmed 134K federal separations H1 2025. BLS data apparatus degrading — JOLTS Jan 2026 delayed. New sectors entering pipeline: Theravance Biopharma -50%, Paramount-Warner thousands. Block 4K (AI-cited, 50% workforce). Hormuz closed Mar 3 — hiring paralysis structural through H1. Fed Trap tightens: PCE 2.9% + oil spike = Fed frozen while employment cracks. WARN pipeline: 716 notices / 85,552 employees.
 
@@ -32,7 +32,7 @@
 | **Staffing Canaries** | Sequential+ | 🟡 | First positive in 12Q. If holds → unemployment plateau 3-4mo. |
 | **NFP Jan 2026** | **+130K** | 🟡 | Beat +55K exp. Revisions tell real story. |
 | **2025 Job Growth (Revised)** | **+181K** | 🔴 | Was +584K. **1.03M phantom jobs** exposed by BLS benchmark. |
-| **ADP Private Payrolls** | **+22K** | 🔴 | vs +45K exp |
+| **ADP Private Payrolls (Feb)** | **+63K** | 🟡 | BEAT vs ~48-50K exp. Jan revised DOWN: +22K → +11K. |
 | **JOLTS Openings** | **6.5M (Dec 2025)** | 🔴 | Jan 2026 release DELAYED — BLS infrastructure degrading under DOGE. |
 | Openings/Unemployed | 0.87 | 🟠 | Below 1.0 first time since 2021 |
 | **Challenger Jan 2026** | **108K** | 🔴 | Highest Jan since 2009 |
@@ -42,12 +42,12 @@
 | **Shadow Payroll Gap** | WARN ↑ / Claims suppressed | 🔴 | RESOLVES MARCH-APRIL — verdict prints imminent |
 | **Hormuz** | **CLOSED Mar 3** | 🔴 | Hiring paralysis structural through H1 min. Oil +13%. |
 | **BLS Data Infrastructure** | **DEGRADED** | 🟠 | JOLTS delayed. First confirmed systematic release failure. NEW RISK. |
-| ISM Mfg Employment | 48.1% | 🔴 | 28 months contraction. Feb: 48.1 (improved but still <50). |
-| ISM Services Employment | TBD | ❓ | Mar 4 release — not yet confirmed. |
+| ISM Mfg Employment | 48.8% | 🔴 | 28+ months contraction. Feb: 48.8 (up from 48.1 Jan). Still <50. |
+| ISM Services Employment | **51.8** | 🟡 | Feb. Up from 50.3 Jan. Expansion — modest positive. |
 | Cass Freight | -7.5% YoY | 🔴 | New cycle low |
 | Google "Severance" | 100 | 🔴 | ALL-TIME HIGH |
 | Tech Insider Sell/Buy | 14.08x | 🔴 | vs 2.5x non-layoff peers. 3-6mo leading. |
-| **NFP Feb Consensus** | **+65K** | 🟠 | "Half-speed economy." Miss → shadow gap verdict early. |
+| **NFP Feb Consensus** | **+50K** | 🟠 | Revised down from +65K post-ADP. Still includes govt. Mar 6. |
 
 ---
 

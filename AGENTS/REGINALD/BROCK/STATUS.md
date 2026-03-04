@@ -1,5 +1,5 @@
 # BROCK STATUS — Private Credit & BDC Stress Monitor
-*Last updated: 2026-03-03 (21:30 UTC — EOD: BCRED $3.7B redemptions confirmed; BX -8%; DB $143B forced-sell warning; TCPC securities fraud class action; Treasury <4%)*
+*Last updated: 2026-03-04 (18:32 UTC — AM SCAN: ARES now named alongside BX/APO in Bloomberg; Blue Owl PERMANENT gate confirmed; Goldman "gating is feature" defensive PR; Truist TFC explicitly shorted on private credit exposure; NYT "bank run" framing enters mainstream)*
 *Prior: 2026-03-03 (18:40 UTC — AM SCAN: Hormuz closed, S&P -2.2%, Russell -4%, VIX 26.4, Brent $84+, APO near 52-week low)*
 
 ---
