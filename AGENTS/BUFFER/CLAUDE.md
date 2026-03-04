@@ -107,7 +107,7 @@ C:/Projects/PROME/AGENTS/BUFFER/
 └── workbook/
     ├── VX.tsv                   # Buffer vectors (levels + depletion rates)
     ├── ML.tsv                   # Master log (observations)
-    ├── FL.tsv                   # Future log (catalysts for buffer changes)
+    ├── PREDICTIONS.tsv                   # Future log (catalysts for buffer changes)
     ├── FLOW.tsv                 # Buffer-to-stress transmission maps
     └── VX_HISTORY.tsv           # Historical snapshots
 ```

@@ -119,6 +119,13 @@ Your workbook is the permanent structured record. STATUS.md gets rewritten; work
 - Every PREDICTION needs: confidence %, specific timeframe, and clear resolution criteria
 - If you're unsure whether to log: log it. Over-documenting beats under-documenting.
 
+**PREDICTIONS.tsv resolution protocol:**
+- At session boot, scan PREDICTIONS.tsv for entries whose Timeframe has passed or whose Status can be resolved
+- Update Status to CONFIRMED, FAILED, PARTIALLY, or EXPIRED
+- Fill Date_Resolved and Outcome columns
+- Log resolution to ML.tsv as evidence (e.g., "PRED REG-08 CONFIRMED: KRE broke $65 on Mar 7")
+- Post significant confirmations/failures to OUTBOX.md for cross-agent awareness
+
 ---
 
 ## FILES

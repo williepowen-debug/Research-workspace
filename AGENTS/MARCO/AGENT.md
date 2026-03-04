@@ -60,7 +60,7 @@ New data: [source] shows [metric] at [value]. Update VX.tsv, assess threshold st
 | `PREDICTIONS.md` | 17 predictions with tracking |
 | `workbook/VX.tsv` | 47 vectors with thresholds |
 | `workbook/ML.tsv` | 63 observations (master log) |
-| `workbook/FL.tsv` | 58 catalysts (future log) |
+| `workbook/PREDICTIONS.tsv` | 58 catalysts (future log) |
 | `workbook/FLOW.tsv` | 11 transmission pathways |
 | `TRADE.md` | Trade ideas (IBOC watchlist) |
 | `EXPECTED_SIGNALS.md` | Hypothesis testing |

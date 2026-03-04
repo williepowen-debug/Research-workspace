@@ -1,0 +1,12 @@
+Pred_ID	Date_Made	Prediction	Confidence	Timeframe	Status	Date_Resolved	Outcome	Notes
+REG-01	2026-02-23	Office CMBS DQ stays >10% through 2026	90%	2026	OPEN		
+REG-02	2026-02-23	Chicago repricing pattern (-71%) replicates in Phoenix	65%	H1 2026	OPEN		
+REG-03	2026-02-23	$936B maturity wall forces recognition wave	70%	H2 2026	OPEN		
+REG-04	2026-02-23	FHLB advances spike >$600B	60%	Q2-Q3 2026	OPEN		
+REG-05	2026-02-23	FHLB advances spike >$700B (crisis level)	40%	H2 2026	OPEN		
+REG-06	2026-02-23	At least one Tier 1 bank (EGBN, WAL) capital raise	50%	H2 2026	OPEN		
+REG-07	2026-02-23	SSB NPL migration >0.5% from substandard	55%	Q2-Q3 2026	OPEN		
+REG-08	2026-02-23	KRE breaks below $65	45%	H1 2026	OPEN		
+REG-09	2026-02-23	At least one Tier 2 bank misses Q1 earnings	50%	Apr 2026	OPEN		
+REG-10	2026-02-23	PSEC cuts dividend in 2026	65%	2026	FAILED	2026-02-10	Maintained Feb 9-10
+REG-11	2026-02-23	At least one major BDC cuts dividend	55%	H1 2026	OPEN		
