@@ -1,4 +1,4 @@
 Pred_ID	Date_Made	Prediction	Confidence	Timeframe	Status	Date_Resolved	Outcome	Notes
-LIQ-01	2026-02-26	HY OAS reaches 320bps	70%	Mar 12-14 2026	OPEN		ETA from velocity calc
+LIQ-01	2026-02-26	HY OAS reaches 320bps	70%	Mar 12-14 2026	PENDING_CONFIRMATION	2026-03-04 (AM)	[CONF] Mar 2 = 303bps (FRED BAMLH0A0HYM2). Mar 3 ICE BofA data publishes Mar 4 AM US hours — NOT yet available at 03:45 UTC. Estimate: +15-30bps on BCRED shock + war day 4 → ~315-335bps range. Threshold is 320bps. May be confirmed as ACHIEVED EARLY when FRED updates. DO NOT mark as ACHIEVED until FRED confirms Mar 3 print. Monitor FRED BAMLH0A0HYM2 update during Mar 4 business hours.
 LIQ-02	2026-02-26	HY OAS velocity +50bps in 2 weeks triggers forced selling	55%	Mar 2026	OPEN		Dual-trigger framework
 LIQ-03	2026-02-26	CLO AAA widens >160bps SOFR+	50%	H1 2026	OPEN		Best canary per LIQUID

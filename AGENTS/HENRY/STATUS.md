@@ -1,5 +1,5 @@
 # HENRY STATUS
-**Last Updated:** 2026-03-04 02:52 UTC | **Status:** 🔴 RED++ — SPX CLOSED 6,781. IWM -1.91% MAR 4 PRE-MARKET ($259.56). BELOW GAMMA FLIP (6,902), 50-DMA (6,883), PUT WALL (6,800). GOLDMAN 6,707 ARMED (ONE CLOSE AWAY). VIX 26.43. HY OAS CROSS-AGENT CONFIRMED 335-355bps (REGINALD + LIQUID) — IG MARKET FROZEN 2 CONSECUTIVE DAYS (FIRST SINCE COVID). USDJPY ~158 (YEN NOT SAFE HAVEN — SAM). CARRY UNWIND PHASE 2 PENDING NFP MAR 6. DFC INSURANCE REDUCES GEO TAIL SLIGHTLY (~15% SCENARIO 3). ISM SERVICES + ADP + BEIGE BOOK RELEASE TODAY MAR 4 (~10AM ET) WITH ZERO 0DTE GAMMA CUSHION. STAGFLATION CONFIRMED. 10Y 4.10% RISING ON RISK-OFF = FED BOXED IN.
+**Last Updated:** 2026-03-04 03:55 UTC | **Status:** 🔴 RED++ — SPX CLOSED 6,816.63 (-0.94%). IWM 254.87 (-3.38%). BELOW GAMMA FLIP (6,902), 50-DMA (6,883), PUT WALL (6,800). GOLDMAN 6,707 ARMED (one more close away). VIX 26.43. HY OAS CROSS-AGENT CONFIRMED 335-355bps — IG MARKET FROZEN 2 CONSECUTIVE DAYS (FIRST SINCE COVID). CARRY UNWIND PHASE 2 ARMED: NFP FRI MAR 6. ⚠️ JAN ADP = 22K (vs 46K expected) = LABOR CRACKING. ADP FEB (≈48K consensus) + ISM SERVICES PMI PENDING WED MAR 4 AM ET — CRITICAL RELEASES. STAGFLATION CONFIRMED. 10Y 4.10% RISING ON RISK-OFF = FED BOXED IN.
 
 ---
 
@@ -43,20 +43,24 @@ Market is derivatives-driven, dealer hedging dominates short-term dynamics.
 
 ---
 
-## SIGNAL DASHBOARD (⚠️ UPDATE VALUES)
+## SIGNAL DASHBOARD — CONFIRMED MAR 3 CLOSE + PENDING RELEASES
 
-| Indicator | Last Known | Threshold | Status |
-|-----------|-----------|-----------|--------|
-| HY OAS | ~295 bps (Feb avg) | 300 = elevated | 🟠 (likely 310+ today — unconfirmed) |
-| VIX | **26.43** (+23% Mar 3) | >20 elevated, >25 cascade zone | 🔴🔴 CRITICAL |
-| 10Y Yield | 4.10% (Mar 3) | Rising during risk-off = stagflation | 🔴 |
-| MOVE | Rising | >100 = divergence warning | 🟠→🔴 |
-| 0DTE Share (SPX) | 65% (Friday expiry today) | Record | 🔴 |
-| Margin Debt | $1.23T | ATH | 🔴 |
-| AI Concentration (S&P) | 45% (Goldman Feb 2026) | — | 🔴 |
-| Tech Breadth (XLK) | Declining (90% red today) | <40% danger | 🔴 |
-| Gold (safe haven) | **$5,408** (Mar 3) | Bid = risk-off confirmed | 🔴 |
-| Brent Crude | **$84** (+8% Mar 3) | Hormuz closed | 🔴🔴 |
+| Indicator | Value | Source | Status |
+|-----------|-------|---------|--------|
+| SPX | **6,816.63** (-0.94%) | [CONF] CNBC Mar 3 EOD | 🔴🔴 Below all gamma levels |
+| Dow | **48,501.27** (-0.83%) | [CONF] CNBC Mar 3 EOD | 🔴 |
+| Nasdaq | **22,516.69** (-1.02%) | [CONF] CNBC Mar 3 EOD | 🔴 |
+| IWM | **$254.87** (-3.38%) | [CONF] Investing.com Mar 3 | 🔴🔴 $4.87 from $250P strike |
+| VIX | **26.43** | [CONF] STATUS.md post-close | 🔴🔴 Vol-control deleveraging ACTIVE |
+| 10Y Yield | **4.10%** (RISING on risk-off) | [CONF] Mar 3 | 🔴 Stagflation = Fed boxed in |
+| Brent Crude | **~$84** (+4.71% Mar 3 session) | [CONF] CNBC settle | 🔴🔴 Hormuz premium ON |
+| Gold | **~$5,408** | [CONF] Mar 3 | 🔴 Hard assets bid, not duration |
+| HY OAS | **335-355bps** (est) | [EST] REGINALD + LIQUID xagent | 🔴🔴 Active transmission zone |
+| MOVE | Rising | [EST] | 🟠→🔴 |
+| ADP Feb | **PENDING** (Wed Mar 4 8:15 AM ET) | Consensus: 48K; Jan ACTUAL: **22K** SHOCK | ⚠️ WATCH |
+| ISM Services Feb | **PENDING** (Wed Mar 4 10:00 AM ET) | Consensus: ~53.0; Prices prior: 66.6% | ⚠️ WATCH |
+| 0DTE Share (SPX) | 65% (record) | [CONF] Feb 2026 data | 🔴 |
+| Margin Debt | $1.23T | [CONF] FINRA ATH | 🔴 |
 
 ---
 
@@ -149,6 +153,7 @@ Risk parity deleverages     → T+5 to T+30
 | H4 | Equity cannot bottom until HY OAS peaks | 85% |
 | H5 | PLTR breaks $100 → AI thematic repricing begins | 75% |
 | H7 | XLK breadth <40% precedes sector repricing | 80% |
+| **HEN-01** | **NFP Feb <100K (consensus +65K) — UPGRADED 60%→70%** | **70%** ← Jan ADP 22K SHOCK |
 
 ---
 
@@ -156,13 +161,19 @@ Risk parity deleverages     → T+5 to T+30
 
 ### EOD CONFIRMED SUMMARY
 
-**FINAL CLOSES:**
-- SPX: ~6,781 (-0.9% close, -2.5% intraday low ~6,672) | 2026 closing lows
-- Dow: -371pts close (-0.8%) | -1,200pts intraday
-- VIX: **26.43** (+23% from prior session, +32% from Mar 2 EOD ~20)
+**FINAL CLOSES — MAR 3 [CONF]:**
+- SPX: **6,816.63** (-0.94% close; -2.5% intraday low ~6,672) | 2026 closing lows. [Note: earlier STATUS had ~6,781 — corrected to CNBC confirmed 6,816.63]
+- Dow: **48,501.27** (-0.83%) | -1,200pts intraday at low
+- Nasdaq: **22,516.69** (-1.02%)
+- IWM: **$254.87** (-3.38% from $263.81 Mar 2 close) | $4.87 OTM on $250P strike
+- VIX: **26.43** (+32% from Mar 2 EOD ~20)
 - 10Y: **4.10%** (RISING on risk-off — stagflation signal, not recession bid)
-- Brent: **$84** (+8%, Strait of Hormuz closure confirmed)
+- Brent: **~$84** (+4.71% Mar 3 session; cumulative surge from ~$77 pre-war)
 - Gold: **~$5,408** (safe haven bid intact)
+
+**ADP + ISM SERVICES — PENDING WED MAR 4 ET:**
+- ADP Feb: Releases 8:15 AM ET Mar 4. Consensus 48K. Jan ACTUAL was 22K (vs 46K exp) — MASSIVE MISS already on record.
+- ISM Services PMI Feb: Releases 10:00 AM ET Mar 4. Consensus ~53.0. Prices subindex prior: 66.6%. WATCH Prices first per decision matrix.
 
 **ISM SERVICES PMI STATUS — CORRECTION CONFIRMED:**
 - **NOT released today.** ISM Services releases on 3rd business day = **March 4, 2026** (tomorrow)
@@ -223,7 +234,7 @@ Risk parity deleverages     → T+5 to T+30
 
 ---
 
-## ISM SERVICES PMI — MAR 4 DECISION MATRIX ⚠️ RELEASES TODAY
+## ISM SERVICES PMI — MAR 4 DECISION MATRIX ⚠️ RELEASES IN ~6.5 HRS (10AM ET / 15:00 UTC)
 
 **Consensus:** ~53.0 (Services has been resilient; Jan was 53.8, Dec 54.4)
 **Prior:** 53.8 (Jan 2026) | Services Prices Prior: 66.6 (Jan 2026)

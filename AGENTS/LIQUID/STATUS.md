@@ -1,9 +1,9 @@
 # LIQUID STATUS
-**Last Updated:** 2026-03-04 02:55 UTC | **Status:** 🔴 CRITICAL — MAXIMUM ALERT
+**Last Updated:** 2026-03-04 03:55 UTC | **Status:** 🔴 CRITICAL — MAXIMUM ALERT
 
-**MAR 4 02:40 UTC UPDATE:** VX.tsv updated with 5 new credit vectors (HY OAS, IG OAS, IG Primary Issuance, VIX, BCRED cap). OUTBOX.md signals posted to HENRY, REGINALD, BROCK, HAWK, SAM. HY OAS Mar 3 EOD still ESTIMATED (~335-355bps) — ICE BofA confirms this morning. If confirmed >320bps, Prediction #17 formally locked. IG issuance halt at 2 consecutive days = systemic red flag. BCRED partial gate = Prediction #18 candidate pending BROCK confirmation.
+**MAR 4 03:55 UTC UPDATE (EOD Credit Read):** BX close CONFIRMED $110.92 (-3.82% — prior -8% estimate CORRECTED). BCRED detail confirmed: $400M BX employee injection, software loans 25% of fund. ICE BofA HY OAS Mar 3 still UNCONFIRMED (publishes ~8-9am ET Mar 4). REVISED estimate: 315-335bps (previously 335-355bps — systematic bias corrected). IG OAS Mar 3 also unconfirmed; revised estimate 90-100bps (NOT 125-135bps). SOFR Mar 3 not yet published. CDX HY: no confirmed EOD data available publicly. IG primary market Mar 3: unconfirmed (likely frozen, consistent with war-day pattern). LIQ-01 prediction status: LIKELY_EARLY — pending FRED confirm. OUTBOX signals posted to WILL, HENRY, BROCK.
 
-**Summary:** War day 4 (EOD session check-in). **KEY CORRECTION: ICE BofA HY OAS Mar 2 CONFIRMED 303bps (FRED), NOT 312bps — spreads tightened on the Mar 2 recovery.** IG OAS confirmed 85bps (NOT 118bps — prior estimates were badly miscalibrated). Mar 3 ICE data publishes Mar 4 AM. **Mar 3 EOD estimates remain 335–355bps HY OAS** based on BCRED shock (record 7.9% redemptions, BX -8% intraday), VIX 26.43 (+23% vs Mar 2 close of 21.44), S&P 6,781 (vs 6,881 Mar 2 close). BCRED raising cap 5→7% = partial gate on $82B fund = confirmed private credit stress transmission. **Prediction #17 ACHIEVED: HY OAS 320bps — LIKELY crossed Mar 3 if estimates hold.** SOFR Mar 2 confirmed: 3.71% median, 3.67–3.82% range — 99th pct +17bps above IORB. RRP Mar 3: $1.2B (CONFIRMED zero buffer). IG primary market ZERO. Hormuz closed. BCRED is the single most important signal today — it confirms the private credit → public market transmission chain is ACTIVE.
+**Summary [UPDATED 03:55 UTC Mar 4]:** War day 4 EOD read. All spread data is through **Mar 2** [CONF]; Mar 3 ICE BofA data publishes ~8-9am ET today. HY OAS Mar 2 = **303bps [CONF FRED]**; revised Mar 3 estimate = **315-335bps [EST, bias-corrected]** (prior 335-355 was systematically high). IG OAS Mar 2 = **85bps [CONF FRED]**; Mar 3 estimate 90-100bps [EST]. SOFR Mar 2 = **3.71% [CONF]**; Mar 3 data publishes today. BX closed **$110.92 -3.82% [CONF]** (recovered from -8.5% intraday on Trump Hormuz escort announcement). S&P 500 closed **-0.9% [CONF]** (Dow -400pts; intraday low was -1,250pts). WTI crude closed **$73.80 +3.6% [CONF]** — CORRECTION: STATUS had "Brent $84" which was WRONG; Brent likely ~$78-80. BCRED: **$3.7B gross, 7.9%, cap 5→7% [CONF]**. US IG primary market Mar 3: UNKNOWN [EST: likely frozen]. LIQ-01 (HY OAS 320bps): PENDING_CONFIRMATION — check FRED at business open. RRP: **$1.2B [CONF]**.
 
 **⚠️ CALIBRATION ALERT — SPREAD ESTIMATES WERE WRONG:** IG OAS prior estimate 118bps was incorrect (actual 85-86bps Feb 28/Mar 2). HY OAS 335-355bps Mar 3 estimate is still unconfirmed (ICE BofA publishes Mar 4 AM). CDX HY 350-370bps estimate is model-based, not confirmed. Spread estimates may be systematically high by ~20-30bps. Do NOT act on unconfirmed spread numbers for position sizing.
 
@@ -41,23 +41,23 @@
 ### Credit Spreads
 | Indicator | Value | Status | Threshold |
 |-----------|-------|--------|-----------|
-| **HY OAS** | **303bps (Mar 2 FRED confirmed); ~335–355bps EST. Mar 3 EOD (unconfirmed)** | 🔴 | **Estimate: 320bps threshold likely crossed Mar 3. Confirmation Mar 4 AM.** |
-| **CDX HY** | **Est. ~350–370bps (Mar 3 Prome estimate — unconfirmed)** | 🔴 | CDX real-time, leading ICE BofA by ~1 day |
+| **HY OAS** | **[CONF] 303bps Mar 2 (FRED). [EST] 315–335bps Mar 3 EOD (UNCONFIRMED — ICE BofA publishes Mar 4 ~8am ET). LIQ-01 threshold 320bps likely crossed — pending confirm.** | 🔴 | **Revised est. from 335-355 → 315-335bps (systematic +20bps bias corrected). Do not act on estimate.** |
+| **CDX HY** | **[EST] ~330–355bps (Mar 3 — UNCONFIRMED. No public EOD data available.)** | 🔴 | No confirmed public source for CDX HY EOD. Bloomberg terminal only. |
 | **iTraxx Crossover** | **Est. ~285–300bps (Mar 3); was ~270bps Mon** | 🔴 | European credit stress |
 | **iTraxx Main (IG)** | **Est. ~60–65bps (Mar 3)** | 🟠 | Highest since mid-Oct 2025 |
 | **US IG Primary Market** | **ZERO — market frozen (both Mon + Tue)** | 🔴 | 2-day issuance halt = systemic signal |
-| IG OAS | **85bps (Mar 2 FRED CONFIRMED); est. 95–105bps Mar 3** | 🟠 | CORRECTION: Prior 118bps estimate was WRONG. Actual far lower. Recalibrated. |
+| IG OAS | **[CONF] 85bps Mar 2 (FRED BAMLC0A0CM). [EST] 90–100bps Mar 3 (UNCONFIRMED — publishes Mar 4 AM).** | 🟠 | Prior 118bps estimate was WRONG. Recalibrated. Do not use 125-135bps figure. |
 | **CLO AAA Spread** | **~125bps (REGINALD Mar 4) — was 115bps** | **🟡** | **25bps to YELLOW (130bps); 25bps to ORANGE (150bps) = BDC→FHLB fire** |
 | CLO Equity (Eagle Point) | -15% since Dec | 🔴 | First-loss absorbing |
 | CLO Equity (Oxford Lane) | -25% since Dec | 🔴 | |
 | CLO Equity (Carlyle/Sound Point) | -30% to -40% | 🔴 | Extreme |
 | Apollo MFIC Dividend | CUT | 🔴 | BDC leverage stress |
-| **BCRED Redemptions** | **$3.7B gross (7.9% of $82B fund); cap raised 5%→7%; BX -8% intraday Mar 3** | 🔴 | **CRITICAL: Record redemption, partial gate activated. CONFIRMED Mar 3. ML-LIQ-059.** |
+| **BCRED Redemptions** | **[CONF] $3.7B gross (7.9% of $82B fund); cap raised 5%→7%; BX +employees injected $400M; BX close $110.92 (-3.82%). Software loans = 25% of BCRED.** | 🔴 | **NOTE: BX -8% intraday was WRONG — actual close -3.82%. Still critical. ML-LIQ-059, 064, 065.** |
 
 ### Domestic Plumbing
 | Indicator | Value | Status | Threshold |
 |-----------|-------|--------|-----------|
-| **SOFR (Mar 2)** | **3.71% median; 1st 3.67%, 25th 3.69%, 75th 3.78%, 99th 3.82% — CONFIRMED FRED** | **🔴** | **Median +6bps above IORB. 75th pct +13bps. 99th pct +17bps. Distribution WIDENING.** |
+| **SOFR** | **[CONF] Mar 2: 3.71% median; 1st 3.67%, 25th 3.69%, 75th 3.78%, 99th 3.82%. [PEND] Mar 3: publishes ~8am ET Mar 4.** | **🔴** | **Median +6bps above IORB. 99th +17bps. Mar 3 may show further stress. ML-LIQ-067.** |
 | SOFR-IORB Spread | +6bps median; +13bps at 75th pct; +17bps at 99th pct | 🟠 | Persistent spread = Fed losing rate floor control in upper percentiles |
 | SRF Usage | $30.5B (Feb 18 — latest confirmed; Mar data pending, publishes ~Mar 6) | 🟡 | >$50B ORANGE. War/BCRED shock may push up. Check Mar 6. |
 | RRP Balance | **$1.203B (Mar 3 CONFIRMED FRED)** | 🔴 | Buffer = ZERO. $2.5T → $1.2B. Confirmed structurally depleted. |
@@ -71,7 +71,7 @@
 | 10Y Yield | **4.063% CLOSE; 4.117% intraday high (Mar 3 CONFIRMED)** | 🟡 | CONFIRMED: Partial flight-to-quality. Closed BELOW intraday high — some safe-haven bid held. |
 | 30Y Yield | **4.707% (Mar 3 CONFIRMED)** | 🟡 | Long-end not rallying — stagflation premium embedded in long end. |
 | 2Y Yield | **3.506% (Mar 3 CONFIRMED, +2bps)** | 🟢 | Short-end pricing IN rate cuts (war = growth risk) — steepener. |
-| Brent Crude | **$84 (topped $85 intraday)** | 🔴 | Hormuz fully closed. $84–100 range likely. |
+| WTI/Brent Crude | **WTI $73.80 close [CONF]; Brent est. ~$78-80 [EST]** | 🟠 | CORRECTION: Prior "Brent $84" was WRONG. Trump Hormuz escort announcement pared gains. WTI +3.6% vs prior +8% intraday peak. |
 | VIX | **26.43 (+23% today)** | 🟠 | Dealer hedging costs rising. Intermediation capacity falling. |
 | S&P 500 | **-2.2% (session low -2.5%); recovered to -0.9% by 1:50pm ET** | 🔴 | 2026 lows breached. Bear-market-rally pattern possible. |
 
@@ -187,7 +187,7 @@
 ### Credit (New)
 | # | Prediction | Timeframe | Conf |
 |---|------------|-----------|------|
-| 17 | HY OAS reaches 320bps | Mar 2026 | ✅ **ACHIEVED** — est. 335–355bps Mar 3 |
+| 17 | HY OAS reaches 320bps | Mar 2026 | ⏳ **LIKELY_EARLY** — [EST] 315–335bps Mar 3 (unconfirmed). FRED publishes Mar 4 ~8am ET. If confirmed >320bps: ACHIEVED early (Mar 3 vs Mar 12-14 forecast). |
 | 18 | Second private credit fund halt/gate | Q1-Q2 | 65% |
 | 19 | CLO AAA spreads begin widening | Q2 2026 | 55% |
 

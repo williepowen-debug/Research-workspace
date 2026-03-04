@@ -1,4 +1,4 @@
 Pred_ID	Date_Made	Prediction	Confidence	Timeframe	Status	Date_Resolved	Outcome	Notes
-HEN-01	2026-03-03	NFP Feb miss <100K (consensus +65K)	60%	Mar 6 2026	OPEN		Shadow gap + WARN + DOGE
+HEN-01	2026-03-03	NFP Feb miss <100K (consensus +65K)	70%	Mar 6 2026	OPEN		UPGRADED 60%→70%: Jan ADP 22K (vs 46K exp) SHOCK; DOGE + tariff uncertainty; IWM -3.38% Mar 3
 HEN-02	2026-03-03	Fed holds at March FOMC	97%	Mar 17-18 2026	OPEN		CME FedWatch 97.3%
-HEN-03	2026-02-27	ISM Services <50 = recession signal	40%	Mar 4 2026	OPEN		Decision matrix prepped
+HEN-03	2026-02-27	ISM Services <50 = recession signal	40%	Mar 4 2026	PENDING — releases 10AM ET	[PENDING — result in ~6.5hrs]	Prior 53.8, consensus 53.0; very unlikely to hit <50 in one month
