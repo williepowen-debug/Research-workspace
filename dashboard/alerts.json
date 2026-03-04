@@ -403,5 +403,14 @@
     "message": "VIX recovered (now 22.75, threshold was 25)",
     "value": 22.75,
     "threshold": 25
+  },
+  {
+    "id": 1772588187159,
+    "timestamp": "2026-03-04 01:36:27 UTC",
+    "type": "sec",
+    "severity": "warning",
+    "message": "BXSL filed 8-K: Blackstone Secured Lending Fund",
+    "value": "2026-03-03",
+    "threshold": null
   }
 ]
