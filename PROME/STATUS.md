@@ -1,7 +1,7 @@
 # PROME STATUS.md
-**Updated:** 2026-03-04 14:00 UTC
+**Updated:** 2026-03-04 20:00 UTC
 
-**Last context:** 5 thresholds breaching simultaneously. ADP +63K (miss vs 130K consensus). Subprime auto 7.1% all-time record. USD/KRW breached 1,500 (GFC level). Three-anchor UST selling LIVE ($35-55B/mo). Carry unwind upgraded to 65%/80%. BCRED Bear Stearns playbook. All agent workspaces fixed to main git repo. ISM Services at 10 AM ET is next catalyst. NFP Friday. $2,100 cash reserved.
+**Last context:** Full data day processed. ADP +63K miss, ISM Services 56.1 beat (counter-signal), Beige Book 5/12 districts not growing. HY OAS confirmed 308bps (LIQUID was 30bps high). HEN-01 upgraded to 70% (NFP <100K). HENRY synthesis: ISM strong + ADP weak = stagflation bifurcation (busy but not hiring). Beige Book: immigration enforcement in Fed data, consumer cracking bottom-up, delinquencies rising in NY. BROCK completed Athene mapping ($442B, 48% illiquid, reflexivity loop live, surrender risk low). All 22 agent workspaces fixed to main git repo. HERMES cron set (AM/PM). Market bounced on ISM — puts bled ~$2,200 but core positions intact. NFP Friday is the resolution. Cash $2,754.
 
 ## 🔴 CRITICAL — HORMUZ CLOSED + Private Credit + Energy Dominance + **ABS 7.1% THRESHOLD BREACH**
 
@@ -13,11 +13,11 @@
 |-------|--------|-------|---------|
 | LABOR | 🔴 | Hiring freeze Q2+. WARN 706/85K. NFP Fri ~+65K consensus. Shadow gap resolves Mar-Apr. | Mar 3 |
 | CARL | 🔴 | **Subprime auto ABS 60+ DQ 7.1% — THRESHOLD BREACHED (ALL-TIME RECORD)**. Gas squeeze Mar 14-21. Fannie MF DQ 0.74% (6bps from GFC peak). | Mar 4 |
-| HENRY | 🔴 | EOD read done. ISM Mfg Prices 70.5% stagflation. Decision matrix prepped for tomorrow ISM Svc + ADP. HEN-01 (NFP <100K) maintained 60%. | Mar 4 |
+| HENRY | 🔴 | ISM/ADP synthesis done. HEN-01 upgraded to 70%. Front-running 70% conviction. Beige Book synthesized. | Mar 4 |
 | SAM | 🔴 | Carry unwind UP: 65% (30d), 80% (60d). Fed swap line = 72hr binary pivot. NFP secondary to USD/KRW. | Mar 4 |
 | REGINALD | 🔴 | Inbox processed (7+ signals). STATUS refreshed. | Mar 4 |
-| BROCK | 🔴 | STATUS.md rebuilt. Cockroach chain, APO triple stress, Eisman/Gober, transmission map. | Mar 3 |
-| LIQUID | 🔴 | EOD read done. HY OAS EST 315-335 (pending FRED). BX corrected -3.82%. LIQ-01 LIKELY_EARLY. Spread bias corrected. | Mar 4 |
+| BROCK | 🔴 | Athene mapping DONE. $442B assets, 48% illiquid, RBC 412%, reflexivity loop live. Data gaps flagged. | Mar 4 |
+| LIQUID | 🔴 | HY OAS CONFIRMED 308bps (was 30bps too high). LIQ-01 still OPEN. Spread bias documented. | Mar 4 |
 | MARCO | 🔴 | Remittances negative Jan (-1.4% YoY). ADP confirms workforce exit in aggregate data. DHS Day 18. TSA paycheck miss Mar 14. | Mar 4 |
 | HAWK | 🔴 | Two new theses: Russian infrastructure damage + Ukrainian energy warfare doctrine. | Mar 3 |
 | OTTO | 🔴 | MFS fallout: Barclays £600M+, Jefferies £100M, WFC/Santander/Castlelake/Atlas exposed. No new cockroach overnight. CVNA: Pomerantz investigation filed Mar 3. Discovery Mar 15 approaching. BCRED: senior staff self-inject = distress signal. Net outflows $1.7B. | Mar 4 |
@@ -139,11 +139,11 @@
 
 ## Next Priorities
 
-1. **🔴 ISM Services 10:00 AM ET** — spawn HENRY after release. Employment <50 = NFP upgrade.
-2. **🔴 Check FRED for confirmed HY OAS Mar 3** (LIQ-01 resolution)
-3. **🔴 Save $2,100 dry powder for post-NFP Friday**
-4. **🟠 Run HERMES** (SAM/MARCO/OTTO all posted fresh OUTBOX signals this AM)
+1. **🔴 NFP Friday Mar 6 8:30 AM ET** — spawn HENRY immediately, write synthesis .md
+2. **🔴 Thursday claims 8:30 AM** — shadow payroll gap. 220K+ = gap closing.
+3. **🔴 Will has more Beige Book districts to paste** — continue synthesis
+4. **🟠 EOD market check** — how did positions close after ISM bounce?
 5. **🟠 Audit batch 3: HAWK, MARCO, BROCK**
-6. **🟡 Remaining infra: AGENTS.md→CLAUDE.md rename, AGENTS_DIRECTORY.md update**
-7. **🟡 REGINALD broad Call Report screen** (30+ banks)
-8. **🟡 Research threads: Athene run risk, DHS→food inflation**
+6. **🟡 REGINALD broad Call Report screen** (30+ banks)
+7. **🟡 Athene data gaps** (Will may pull: FIA/FA/PGA breakdown, funding agreement maturities)
+8. **🟡 Remaining infra: AGENTS.md→CLAUDE.md rename, AGENTS_DIRECTORY.md update**
