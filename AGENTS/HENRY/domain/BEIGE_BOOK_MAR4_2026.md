@@ -1,152 +1,134 @@
 # Beige Book — March 4, 2026 (Data through Feb 23)
 
-**⚠️ Pre-Hormuz, pre-Korea crash, pre-March 3 selloff. Next Beige Book will be worse.**
+**⚠️ Pre-Hormuz, pre-Korea crash, pre-March 3 selloff.**
 
----
+## 5/12 Districts Not Growing (Worst Breadth This Cycle)
 
-## Headline: 5/12 Districts Not Growing (Worst Breadth This Cycle)
-
-| District | Activity | Employment | Notable |
-|----------|----------|------------|---------|
-| Boston | Flat | Edged down | Low-income pressure "intense" |
-| **New York** | **Declined** | Flat | Consumers pausing major purchases |
-| Philadelphia | Modest ↑ | Modest ↑ | Low/middle/fixed income struggling with necessities |
-| Cleveland | Modest ↑ | — | Data centers driving demand |
-| Richmond | Modest ↑ | Slight ↑ | Manufacturing + residential RE declined |
-| Atlanta | Modest ↑ | **Flat to down** | CRE slowed, tourism up |
-| Chicago | Slight ↑ | Flat | Wages + prices moderate |
-| **St. Louis** | **Flat** | Flat | Cautiously optimistic outlook |
-| **Minneapolis** | **Declined** | **Softened** | Consumer spending fell, construction down, ag weak |
-| Kansas City | Slight ↑ | Steady | Firms using tech to ease constraints |
-| Dallas | Moderate ↑ | Slight ↑ | Manufacturing "vigorous" (energy district outlier) |
+| District | Activity | Employment | Signal |
+|----------|----------|------------|--------|
+| Boston | Flat | Down | Low-income "intense" pressure |
+| **New York** | **Declined** | Flat | Finance contracted; delinquencies up |
+| Philadelphia | Modest ↑ | Modest ↑ | Low/middle income can't cover necessities |
+| Cleveland | Modest ↑ | — | Data center demand only bright spot |
+| Richmond | Modest ↑ | Slight ↑ | Manufacturing + resi RE declined |
+| Atlanta | Modest ↑ | **Flat to down** | CRE slowed |
+| Chicago | Slight ↑ | Flat | — |
+| **St. Louis** | **Flat** | Flat | — |
+| **Minneapolis** | **Declined** | **Softened** | Consumer spending fell, construction down |
+| Kansas City | Slight ↑ | Steady | — |
+| Dallas | Moderate ↑ | Slight ↑ | Energy district outlier |
 | **San Francisco** | **Contracted** | Tech layoffs | **"Bifurcated economy"** |
 
-**Declining/Contracting:** New York, Minneapolis, San Francisco
-**Flat:** Boston, St. Louis
-**Growing:** 7 districts (mostly slight/modest)
+## Key Signals (Thesis-Relevant Only)
+
+**Consumer:** K-shape confirmed. Low-income in recession (Boston, Philly). NY: revenue beats driven by tariff price pass-through, not volume — real sales declining. Auto sales down on affordability (multiple districts).
+
+**Employment:** 7/12 flat. Not collapsing, but not hiring. Stagflation bifurcation — firms busy but not adding bodies. Supports ADP +63K, HEN-01 at 70%.
+
+**Inflation:** 9/12 tariffs driving costs. 8/12 moderate price growth. Insurance + utilities surging. Shrinkflation in food. All pre-Hormuz — March will be worse.
+
+**Immigration:** "Enforcement negatively affected customer demand in urban areas." Third independent confirmation (ADP, ISM, Beige Book).
+
+## NY District — Key Details
+
+- Retail + construction headcounts: **sharp decline**
+- Services **contracted moderately** (leisure, biz services worst)
+- **Delinquency rates up slightly; credit standards tightening** on biz loans + CRE
+- Deposit rates falling = NIM pressure
+- NYC rents all-time high; low-quality office rents slumping
+- Firm opened credit line just to cover operating costs (cash flow stress)
+- Shrinkflation: food companies cutting quantities, holding price
+
+## Implications
+
+**NFP Friday:** Stalling not collapsing. Range 60-100K. Soft miss, not blowout.
+**FOMC Mar 17-18:** Fed boxed. Can't cut (inflation), can't hike (weakness). Hold + stagflation acknowledgment likely.
+
+## Boston — Key Details
+
+- Employment down slightly. Manufacturer cut staff due to input costs + inability to pass through — **margin squeeze forcing layoffs**
+- Immigration enforcement: small businesses hit with staffing disruptions + weaker sales
+- Experienced workers applying for junior-level positions — labor market loosening from the top
+- Flower retailers reducing stems per bouquet (shrinkflation — same pattern as NY food)
+- Firms can't fully pass tariff costs through due to customer price sensitivity = margin compression
+- Staffing firms seeing increased demand — companies shifting to temp/flex labor (cheaper, no benefits)
+- Banks: loan pricing declining due to competitive pressure — NIM squeeze even before rate cuts
+- Lenders avoiding office properties; tighter spreads on non-office CRE = flight to quality within CRE
+- Lab equipment firm's key customers facing "federal policy headwinds" (DOGE/funding cuts)
+- Construction costs "blunted demand" for both commercial + residential
+- Condos: prices fell slightly. Properties spending substantially more days on market — **demand cooling**
+- MA condo/home inventory fell sharply vs northern NE rising — regional divergence
+- **SNAP funds temporarily suspended** → increased food pantry reliance since October
+- Maine ICE enforcement surge: businesses lost staff AND foot traffic (supply + demand hit simultaneously)
+- Nonprofits: growing demand, shrinking resources, unstable federal funding (DOGE)
+
+## Philadelphia — Key Details
+
+- Manufacturing employment: modest gain in Jan then **declined in Feb** — turning point?
+- Mfg workweek fell sharply in Feb (hours cut before headcount — leading indicator)
+- Firms' own-price inflation 2.8% (down from 3.0%) but **double the 1.4% one year ago**
+- Firms expect HIGHER price growth ahead: 3.1% next year (up from 2.6% a year ago) — inflation expectations unanchoring
+- 40% of firms report customers more price-sensitive — margin squeeze continuing
+- Nonprofits: clients on fixed incomes cutting discretionary to pay for essentials
+- Nonprofit leadership turnover high, can't backfill — social safety net degrading
+- Auto dealers: **moderate decline** in sales — affordability persistent
+- Restaurant vacancies increasing — consumer-facing services struggling
+- **Banks tightened lending standards in fall** → no consumer loan growth → no delinquency uptick yet (artificially suppressed)
+- Small businesses: continued challenges accessing capital
+- Nonmanufacturing new orders turned **negative in Feb** (was positive Jan)
+
+## Cleveland — Key Details
+
+- Freight spot rates "exploding" — **pandemic-era pricing without the demand surge** (supply squeeze, not growth)
+- Firms closing underperforming locations, cutting temp hours — soft demand driving reductions
+- Larger firms slowing hiring → qualified candidates becoming more available (labor loosening)
+- AI/automation reducing back-office headcount — banker expects further cuts
+- Nonlabor input costs "robust" for **6th consecutive period** — no relief
+- Insurance, utilities, metals all rising; steel tariff pass-through 4.25% (above planned 3%)
+- Data centers = majority of construction/manufacturing demand (narrow breadth)
+- Low-income consumers **priced out of new car purchases** — auto affordability breaking
+- Rising average vehicle age → parts/service demand up (can't afford to replace)
+- Credit growth from **slower paydowns + increased utilization** of existing lines — not new borrowing, people leaning on credit they already have
+- Freight growth from **reduced driver supply** (CDL changes), not demand — fake growth signal
+- **EMPLOYED individuals** now requesting food/rent/utility assistance — working poor expanding
+- Seniors seeking employment to make ends meet
+- Clients stopping bills, skipping meals, delaying medical care
+- M&A: large companies active, **middle-market slowed** — another K-shape indicator
+
+## Richmond — Key Details
+
+- Manufacturing **bifurcation within individual firms**: top 5 customers strong, rest declining — concentration risk
+- Dental implant manufacturer: patients not following through on treatment plans — **consumers deferring healthcare spending**
+- Fewer employed workers looking to change jobs (uncertainty) — labor market frozen, not healthy
+- Data centers + military = only growth pockets (same narrow base as Cleveland)
+- Ports: "tariffs are finally having an impact" — **empty containers piling up**, ag exports down, port cutting equipment/hours
+- Trucking volume down + increased wait times — contact: "often aligned with a weaker economy"
+- Hotel revenue gains driven by upper-tier only; mid/lower flat — K-shape in hospitality
+- DC hotels: declining demand, low govt travel spending (DOGE budget cuts flowing through)
+- Builders: "don't want to get caught speculatively building" — new starts slowing, confidence cracking
+- CRE: Class A office filling, lower quality gap growing — **office bifurcation widening**
+- Lease concessions (free rent) outweighing tenant improvements across all sectors — landlord desperation
+- Consumer creditworthiness showing "challenges" on new applications — banks seeing quality deterioration
+
+## Atlanta — Key Details
+
+- Employment flat to **slightly down** — passive headcount reduction via attrition
+- Workers expect next job would be a **trade-down in wages/benefits/schedule** — labor market confidence broken
+- Families **deprioritizing upward mobility** (education, training) to meet immediate needs — long-term damage
+- Consumer coping strategies: selling clothes online, scrapping metal, tapping savings, BNPL, eliminating dining out
+- New vehicle demand softening; used car sales healthy — **trade-down behavior** confirmed
+- Firms self-insuring to avoid rising insurance premiums — insurance costs forcing structural changes
+- Wholesalers can't push price increases to retailers — **pricing power collapsing** at distribution level
+- Social services: food + rental assistance requests increasing
+- Builders pulled back on starts, using incentives to clear spec inventory — buyers "low-balling," especially entry-level
+- **Multifamily: high vacancies continue to "beleaguer" sector** — REGINALD CRE thesis
+- Big-box retail demand declining; only small footprints wanted
+- Trucking volumes down YoY — last year was inflated by pre-tariff stockpiling (same ISM front-running pattern)
+- Ports: further softening in container traffic
+- Furniture: moderate-price demand **significant decline**, high-end strong — K-shape in goods
+- Lighting: volume DOWN but revenue up from price hikes — nominal growth masking real decline (same as NY retail)
+- Consumers + small biz drawing on existing credit lines — distress borrowing (same as Cleveland)
+- Delinquencies ticked up marginally
 
 ---
-
-## Five Signals That Matter
-
-### 1. CONSUMER CRACKING FROM BOTTOM UP
-- Boston: "financial pressures on low-income families remained intense"
-- Philadelphia: "low-, middle-, and fixed-income households struggling to pay for necessities"
-- New York: "uncertainty prompted consumers to pause major purchases"
-- Multiple districts: "increased price sensitivity"
-- **Implication:** K-shape confirmed. Lower-income already in recession. Middle-income starting to crack.
-
-### 2. EMPLOYMENT STALLING
-- 7/12 districts: NO CHANGE in hiring (flat)
-- Reasons cited: rising input costs, softer demand, economic uncertainty
-- Atlanta: flat to DOWN
-- Minneapolis: softened
-- San Francisco: tech layoffs specifically called out
-- AI/automation gaining traction — "productivity enhancement rather than worker replacement" (for now)
-- **Implication:** Confirms ADP +63K weakness. Firms busy but not adding bodies = stagflation bifurcation.
-
-### 3. INFLATION EMBEDDED + TARIFFS EVERYWHERE
-- 8/12 districts: moderate price growth
-- **9/12 districts: tariffs contributing to increased costs**
-- Inputs rising: insurance, utilities/energy, metals, raw materials
-- Companies trying to hold prices but customers too price-sensitive = margin squeeze
-- **Implication:** Fed cannot cut. Inflation sticky, tariff-driven, and this is BEFORE $84 Brent from Hormuz.
-
-### 4. IMMIGRATION ENFORCEMENT IN THE FED'S OWN DATA
-- National summary: "immigration enforcement activity negatively affected customer demand in urban areas"
-- Also in ISM Services respondent comments: "ICE activity has caused some staff to not come into work"
-- **Implication:** Now confirmed in 3 independent sources (ADP sector data, ISM comments, Beige Book). MARCO thesis is mainstream.
-
-### 5. AUTO + HOUSING AFFORDABILITY
-- Auto sales "mostly down" — affordability issues cited across districts
-- Residential real estate: sales decreased slightly, low inventory + affordability
-- CRE: mixed but Atlanta slowed
-- **Implication:** Subprime auto 7.1% record + gas squeeze incoming Mar 14-21 = CARL thesis accelerating.
-
----
-
-## What This Means for NFP Friday (Mar 6)
-
-The Beige Book paints a labor market that is **stalling, not collapsing.** 7/12 flat on employment. This is consistent with:
-- ADP +63K (weak but not zero)
-- ISM Employment 51.8 (barely expanding)
-- HENRY's NFP range: 75-110K, <100K at 70% probability
-
-The Beige Book does NOT suggest a blowout miss (<50K). It suggests a soft miss in the 60-100K range — enough to confirm weakness without triggering panic.
-
-## What This Means for the Fed (FOMC Mar 17-18)
-
-The Fed is boxed:
-- **Can't cut:** 8/12 districts moderate price growth, 9/12 tariff inflation, Hormuz not yet reflected
-- **Can't hike:** 5/12 districts not growing, consumers cracking, employment flat
-- **Result:** Hold + hawkish language. Dot plot may shift higher on inflation, lower on growth = stagflation acknowledgment
-
----
-
----
-
-## District Deep Dive: New York (Second District)
-
-**Activity:** Declined modestly. Finance sector **contracted slightly.**
-
-**Employment — Sector Breakdown (critical for NFP):**
-| Sector | Direction |
-|--------|-----------|
-| Retail | **Sharp decline** |
-| Construction | **Sharp decline** |
-| Transportation | Modest decline |
-| Business services | Modest decline |
-| Health care | Modest decline |
-| Leisure/hospitality | Modest decline |
-| Wholesale | Growth |
-| Information | Growth |
-| Education | Growth |
-| Manufacturing | Steady |
-
-**"Low-hire, low-fire" environment** — labor supply exceeds demand. Marketing and HR professionals softening (white-collar).
-
-**Price signals:**
-- Tariffs = major driver of input cost pressure
-- Food companies doing **shrinkflation** (reducing quantity, holding price) — stealth inflation
-- One firm opened a credit line just to manage elevated costs — cash flow stress
-- **Sharp increases in health insurance and utilities** — "challenging sustainability of businesses"
-- Steel costs and selling prices rising
-- Service firms expect easing for first time in a year, but manufacturers expect elevated pace to continue
-
-**Consumer — K-Shape Confirmed:**
-- Sales gains "concentrated among higher-income consumers" — smaller retailers saw sharp decline
-- Major retailer revenue beat was driven by **tariff price pass-through, not volume** — strip out price = volumes DOWN
-- Upstate NY auto sales: "exceptionally slow start to the year" — affordability + uncertainty
-- Higher-income consumers still price-conscious, shopping multiple outlets
-
-**Services — Worse Than ISM 56.1 Suggests:**
-- Services sector **contracted MODERATELY**
-- Leisure/hospitality: sharp decline
-- Business services: declined significantly
-- Small firms struggling; large firms navigating via AI
-- Government research funding instability hitting firms (DOGE effect)
-
-**Banking — Early Credit Stress:**
-- Finance sector contracted slightly
-- Consumer loan + residential mortgage demand declined
-- **Delinquency rates up slightly**
-- One contact: **tighter credit standards for business loans + commercial mortgages**
-- Deposit rates moving lower = NIM pressure
-- Commercial mortgage demand edged up (extend-and-pretend refinancing cycle?)
-
-**Real Estate — Frozen Market:**
-- Inventory declined further from already low levels
-- NYC rents at ALL-TIME HIGH
-- Lower-quality office rents slumping — bifurcation
-- Construction declining across district
-- Affordable housing blocked by: costs, insurance, interest rates, complexity
-
-**Community — Arrears Rising:**
-- Housing arrears increasing
-- Public housing severely constrained
-- Low/moderate-income households strained by prices + rents
-- **Rising insurance expenses** specifically cited as barrier
-
----
-
-*Source: Federal Reserve Beige Book, March 4, 2026. Data collected on or before February 23, 2026.*
+*Data collected on or before Feb 23, 2026.*
