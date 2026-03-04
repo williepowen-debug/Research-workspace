@@ -1,32 +1,39 @@
 # SCRATCH — Ephemeral Working Memory
 
-**Updated:** 2026-03-04 ~2:11 AM UTC
+**Updated:** 2026-03-04 ~2:20 AM UTC (~10:20 PM ET)
 
 ---
 
-## RIGHT NOW — Chunk 4 continues
+## RIGHT NOW — Infrastructure Overhaul Day, Wrapping Up
 
-**CARL and LABOR spawned, not yet returned.** Wait for results, spot-check, then clear for next batch.
+### Done tonight:
+1. ✅ Memory condensation (10 daily notes -80%, LESSONS -72%, boot ~28KB)
+2. ✅ OUTBOX/INBOX system pushed to all agents
+3. ✅ HERMES built + tested (mail carrier, working)
+4. ✅ CORAL/TEX/RENO registered as spawnable agents
+5. ✅ `docs/BUILD_AGENT.md` — 11-step agent creation playbook
+6. ✅ FL.tsv → PREDICTIONS.tsv (template + build doc updated)
+7. ✅ 8 agent self-audits complete (HENRY, LIQUID, REGINALD, SAM, OTTO, CARL, LABOR + CARL results pending review)
 
-**Completed audits:** HENRY ✅, LIQUID ✅, REGINALD ✅, SAM ✅, OTTO ✅
-**Running:** CARL, LABOR
-**Next batch:** HAWK, MARCO, BROCK
-**After:** HANS, ZHAO, DARWIN, CORAL, TEX, RENO
+### Next session priorities (in order):
+1. **Push PREDICTIONS.tsv** to existing agents (create files, update instruction files) — step 2 from the 10-step plan
+2. **Audit batch 3:** HAWK, MARCO, BROCK
+3. **Audit batch 4:** HANS, ZHAO, DARWIN  
+4. **Audit batch 5:** CORAL, TEX, RENO (light — just verify)
+5. **Rename AGENTS.md → CLAUDE.md** across all agents
+6. **Run HERMES** — full delivery with all accumulated OUTBOX signals
+7. **Update AGENTS_DIRECTORY.md** — refresh counts + new agents
 
-### Pending decisions:
-- **Kill FL.tsv → replace with PREDICTIONS.tsv** (agreed but not implemented)
-- Update CLAUDE_TEMPLATE + BUILD_AGENT.md with new workbook structure
-- Standardize AGENTS.md → CLAUDE.md rename across existing agents
+### CARL audit — needs review:
+- CARL returned but results not yet spot-checked. Check STATUS.md size, OUTBOX signals, workbook updates.
 
-### HERMES has signals to deliver:
-- OTTO posted 5 new OUTBOX signals (BROCK, REGINALD, LIQUID, CARL)
-- Run HERMES again after this batch completes
+### ISM Services PMI tomorrow AM:
+- HENRY prepped. Zero gamma cushion at open. S&P 6,781, CTA 6,707 armed.
+- Trump DFC insurance partially defuses Mar 5 Hormuz cliff (SAM found this).
 
 ## Hot Market Context
-- S&P 6,781. CTA 6,707 armed. ISM Services PMI this morning.
-- Trump DFC insurance partially defuses Mar 5 Hormuz insurance cliff.
-- HY OAS ~303-355bps (FRED confirmed 303 Mar 2, Mar 3 unconfirmed).
-- Cash ~$2,100 for post-NFP.
+- S&P 6,781. VIX 26.43. HY OAS ~303-355bps.
+- Cash ~$2,100 for post-NFP redeployment.
 
 ---
 
