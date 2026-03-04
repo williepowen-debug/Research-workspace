@@ -35,6 +35,12 @@ Sub-agents own detail → distill upward to parents → lateral only when transm
 |-------|--------|--------|-----|
 | **SHADE** | PE-insurance-captive | 🔴 | Athene/Apollo plumbing, FABN wall, Egan Jones, AG 55, statutory forensics. 8 source docs |
 
+## Infrastructure
+
+| Agent | Domain | Status | Key |
+|-------|--------|--------|-----|
+| **HERMES** | Mail carrier | 🟢 | Reads OUTBOX.md from all agents, delivers to target INBOX.md. Runs 2x daily. No analysis. |
+
 ## Research
 
 | Agent | Domain | Status | Key |
@@ -62,6 +68,7 @@ LIQUID amplifies any stage | HENRY = speed gauge
 SAM + ZHAO + HANS = parallel global risk | HAWK = external shock
 SHADE = insurance plumbing under BROCK/REGINALD | feeds LIQUID on systemic
 NEXUS synthesizes across all → convergence/contradiction → PROME
+HERMES carries signals between all agents (OUTBOX → INBOX, 2x daily)
 ```
 
 ## File Paths
