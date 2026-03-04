@@ -68,8 +68,8 @@ At minimum the domain folder needs:
 | `STATUS.md` | ✅ | Live state, dashboard, thesis. Under 250 lines. |
 | `workbook/ML.tsv` | ✅ | Memo log — timestamped evidence |
 | `workbook/VX.tsv` | ✅ | Vectors — tracked indicators with thresholds |
-| `workbook/FL.tsv` | Recommended | Forward-looking catalysts |
 | `workbook/FLOW.tsv` | Recommended | Transmission pathways |
+| `workbook/PREDICTIONS.tsv` | Recommended | Falsifiable forecasts with confidence + resolution |
 | `sources/` | Recommended | Archived research documents |
 
 If workbook files don't exist, create them with headers:
@@ -79,7 +79,12 @@ Entry_ID\tDate\tCategory\tTitle\tSummary\tSource\tDiagnostic_Value\tVector_Link\
 
 # VX.tsv
 Vector_ID\tName\tCategory\tCurrent_Value\tYellow\tOrange\tRed\tStatus\tConfidence\tLast_Updated\tSource\tNotes
+
+# PREDICTIONS.tsv
+Pred_ID\tDate_Made\tPrediction\tConfidence\tTimeframe\tStatus\tDate_Resolved\tOutcome\tNotes
 ```
+
+**Note:** FL.tsv is deprecated. Do not create it for new agents. Existing FL.tsv files will be migrated to PREDICTIONS.tsv over time.
 
 ## Step 6: Register with OpenClaw
 
