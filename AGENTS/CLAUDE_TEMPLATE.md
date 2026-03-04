@@ -107,14 +107,14 @@ Your workbook is the permanent structured record. STATUS.md gets rewritten; work
 | `ML.tsv` | Any new data point with a source — price, filing, report, news event. Timestamped facts. | "Is this a new piece of evidence?" |
 | `VX.tsv` | When a tracked vector changes state (GREEN→YELLOW, YELLOW→RED, new vector identified, or threshold crossed) | "Did a risk indicator move?" |
 | `FLOW.tsv` | When a transmission channel is confirmed, changes speed, or a new pathway is identified | "Did we learn something about HOW stress travels?" |
-| `FL.tsv` | Upcoming dated catalysts — earnings, data releases, expirations, deadlines. Archive passed events. | "Is there a date we need to watch?" |
+| `PREDICTIONS.tsv` | Falsifiable predictions with confidence, timeframe, and resolution tracking | "What do I think happens next in my domain?" |
 
 **When NOT to log:** Routine status updates, unchanged metrics, restatements of known facts. Those go in STATUS.md only.
 
 **Logging discipline:**
 - Every ML entry needs: date, source, and a vector link (VX-XXX) if applicable
 - Every VX state change needs: old value → new value, what triggered it
-- FL entries with passed dates → move to archive section or delete. Don't let stale dates accumulate.
+- Every PREDICTION needs: confidence %, specific timeframe, and clear resolution criteria
 - If you're unsure whether to log: log it. Over-documenting beats under-documenting.
 
 ---
@@ -128,7 +128,7 @@ Your workbook is the permanent structured record. STATUS.md gets rewritten; work
 | `workbook/ML.tsv` | Memory log — timestamped evidence with sources. **Permanent record.** |
 | `workbook/VX.tsv` | Vectors — tracked risk indicators with thresholds and state. |
 | `workbook/FLOW.tsv` | Transmission pathways — how stress travels between domains. |
-| `workbook/FL.tsv` | Forward log — upcoming dated catalysts. Archive passed events. |
+| `workbook/PREDICTIONS.tsv` | Falsifiable forecasts with confidence and resolution tracking. |
 | `INBOX.md` | Inbound signals from other agents (delivered by HERMES). Process at boot. |
 | `OUTBOX.md` | Outbound signals for other agents. Write here; HERMES delivers. |
 | `domain/sources/` | Archived research and raw data |
