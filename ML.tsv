@@ -1,0 +1,6 @@
+date	agent	signal	value	prev_value	status	notes
+2026-03-04	ZHAO	USD/KRW	1500+	1481	🔴 RED	Breached 1500 overnight (17yr low). BoK emergency response. UST selling LIVE.
+2026-03-04	ZHAO	KOSPI	5093.54	5791.91	🔴 RED	-12.06% worst day in 46yr history. Circuit breakers x2. $553B 2-day wipeout.
+2026-03-04	ZHAO	USD/CNY_fix	6.9124	6.9088	🟡 YELLOW	Mild drift. Spot ~6.924. 7.30 threshold 4-8wks out.
+2026-03-04	ZHAO	BoK_UST_selling	ACTIVE	PENDING	🔴 RED	$5-15B/month now live. Combined 3-anchor: $35-55B/month.
+2026-03-04	ZHAO	Two_Sessions_GDP	4.5-5%_expected	5%	🟡 YELLOW	NPC work report tomorrow Mar 5. Deficit 4%. No surprise yet.

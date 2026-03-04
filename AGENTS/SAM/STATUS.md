@@ -1,8 +1,8 @@
 # SAM STATUS
 
-**Signal Status:** 🔴 RED | **Last Updated:** 2026-03-04 01:30 UTC (DAY 3 OPEN)
+**Signal Status:** 🔴 RED | **Last Updated:** 2026-03-04 08:45 ET (DAY 3 OPEN — KOREA ESCALATION)
 
-**Summary:** US-IRAN WAR DAY 3. USDJPY ~157.5-158.0 — yen sliding toward 158, NOT safe haven. Dollar reclaiming. JGB 30Y: ~3.28% (pulling back from 3.31% EOD Mar 3). **MAJOR DEVELOPMENT: Trump ordered US DFC to provide political risk insurance + Navy escort for Hormuz tankers (Mar 3 evening) — insurance cliff March 5 PARTIALLY DEFUSED.** P&I clubs may still withdraw but US government backstop changes the calculus. Carry unwind probability held at **65-75%** (Scenario 2 base). Phase 1 yen weakness extending — dollar reclaiming is the dominant dynamic.
+**Summary:** THREE-ANCHOR UST SELLING CRISIS CRYSTALLIZING. Nikkei -4.6%, **KOSPI -12% (circuit breakers)**, USD/KRW 1,481 approaching BoK 1,500 defense line. ZHAO confirmed Korea as third UST anchor — Japan + Korea combined selling $30-55B/mo. Carry unwind probability **revised up: 30-day 65%, 60-day 80%**. Yen still NOT safe haven (USDJPY ~157-158). BOJ frozen. **Fed swap line decision on BoK = binary pivot for entire UST thesis.**
 
 ---
 
@@ -10,115 +10,139 @@
 
 | Vector | Value | Status | Signal |
 |--------|-------|--------|--------|
-| **USDJPY** | **~157.5-158.0** | 🔴 | Sliding toward 158. Yen NOT safe haven — dollar reclaiming. Dovish BOJ nominations + energy vulnerability. Failed breakout at 157.75 (Mar 3) but now retesting. Intervention zone: 160. |
-| **JGB 10Y** | **~2.12%** | 🟠 | Falling after strong 10Y auction (BTC 3.3x Mar 3). But bonds fell overall — inflation fears > safety bid. |
-| **JGB 30Y** | **~3.28%** | 🟠 | Pullback from 3.31% EOD Mar 3. Long-end steepening trend intact. NOT a safety bid — inflation + fiscal fear. |
-| **Brent Oil** | **~$82-84** | 🔴 | Up from $72.48 pre-war. Trump DFC insurance reduced spike risk. $80-90 range likely near-term. |
-| **BOJ Rate** | **0.75%** | 🟡 | Hold 90% for March 13-14. Stagflation trap + war uncertainty + dovish nominees incoming. |
-| **Carry Unwind Prob** | **65-75%** | 🔴 | Unchanged. 30-60 day window. Trump insurance partially delays Phase 2 — but doesn't change fundamental oil shock. |
-| **VIX** | **~26** | 🔴 | Elevated, trending with war news. S&P -2.2% Mar 3 (2026 lows). |
-| **Japan LNG Buffer** | **~10-14 days** | 🔴 | Critical. Trump insurance may partially restore some flows. QatarEnergy still halted. |
-| **Insurance Cliff (Mar 5)** | **PARTIALLY DEFUSED** | 🟠 | Trump DFC backstop announced Mar 3. P&I clubs may still withdraw, but US government insurance available. Does NOT reopen Hormuz — oil threat persists. |
+| **USDJPY** | **~157-158** | 🔴 | Phase 1 extending. Yen NOT safe haven. Dollar reclaiming in US-led conflict. Korea contagion adds EM selling pressure. Intervention zone: 160. |
+| **JGB 10Y** | **~2.12%** | 🟠 | Inflation fear dominating. Not a safety bid. Long-end steepening intact. |
+| **JGB 30Y** | **~3.28%** | 🟠 | Pullback from 3.31%. Steepening trend intact. Fiscal doom loop delayed, not canceled. |
+| **Brent Oil** | **~$82-84** | 🔴 | Trump DFC insurance partially contained. $80-90 range near-term. |
+| **BOJ Rate** | **0.75%** | 🟡 | HOLD 92% for March 13-14 (up from 90%). Frozen: can't cut (Takaichi ceiling + inflation), can't hike (crash + war). Dovish nominees = lame-duck Ueda. |
+| **Carry Unwind Prob** | **🔴 REVISED UP** | 🔴 | 7d: 20%, **30d: 65%** (was 50%), **60d: 80%** (was 70%). Korea crash accelerates timeline. |
+| **VIX** | **~30+** | 🔴 | Korea circuit breakers = contagion event. S&P likely -3%+ today. |
+| **KOSPI** | **-12% (CIRCUIT BREAKERS)** | 🔴 | NEW. Worst day in decades. KOSDAQ -13%. BoK 1,500 defense line next. |
+| **USD/KRW** | **1,481** | 🔴 | NEW. BoK 1,500 = active FX reserve selling begins. 19 handles from trigger. |
+| **UST Anchor Selling** | **$30-55B/mo combined** | 🔴 | NEW. Japan + Korea + China stealth. Three-anchor problem LIVE. |
+| **Insurance Cliff (Mar 5)** | **PARTIALLY DEFUSED** | 🟠 | Trump DFC backstop. P&I clubs may still withdraw but US government insurance available. |
 
 ---
 
-## KEY DEVELOPMENT: TRUMP HORMUZ INSURANCE (Mar 3, 2026)
+## NEW DEVELOPMENT: KOREA AS THIRD UST ANCHOR (Mar 4, 2026)
 
-**What happened:** Trump Truth Social post + confirmed by Politico, Reuters, Al Jazeera:
-> "I have ordered the United States Development Finance Corporation (DFC) to provide, at a very reasonable price, political risk insurance and guarantees for the Financial Security of ALL Maritime Trade, especially Energy, traveling through the Gulf."
-> "If necessary, the United States Navy will begin escorting tankers through the Strait of Hormuz, as soon as possible."
+**ZHAO Signal — Processed:**
 
-**Implications for SAM thesis:**
-- **Insurance cliff March 5:** Less severe. P&I clubs withdrawal still likely, but US DFC fills the gap. Market won't fully price months of disruption — instead prices "insurable with US backstop."
-- **Phase 1 extension:** Yen weakness continues longer. Dollar reclaiming = USD is the de facto safe haven, not yen. This delays Phase 2 reversal.
-- **Oil price:** Partially contained. Trump wants cheap energy. Navy escort signals intent to keep Hormuz flowing — limits upside to $95-100 vs $130+ in full escalation scenario.
-- **Japan LNG:** Emergency spot procurement still happening, but US backstop for tankers means SOME Qatar LNG may flow. Buffer situation marginally improved.
-- **Scenario probability shift:** Scenario 1 (Surgical) probability UP from 35% → 40-45%. Scenario 2 (Sustained) DOWN slightly from 45% → 40-45%. Scenario 3 (Full Escalation) unchanged at 15-20%.
+KOSPI -12%, KOSDAQ -13% with circuit breakers = systemic stress, not routine volatility. This is the worst Korean equity day in decades.
 
-**What it does NOT change:**
-- Hormuz still operationally threatened. IRGC still active.
-- Japan's LNG structural vulnerability (10-14 day buffer)
-- BOJ frozen by stagflation trap
-- Fundamental carry unwind probability (65-75% over 60 days)
+**The Three-Anchor Problem (now LIVE):**
+| Anchor | UST Holdings | Selling Mechanism | Monthly Volume |
+|--------|-------------|-------------------|----------------|
+| **Japan** | $1.203T | Life insurer repatriation + carry unwind | $15-25B/mo (estimated) |
+| **Korea** | ~$145-165B | BoK FX reserve defense (selling USTs to buy KRW) | $10-20B/mo (at 1,500 defense) |
+| **China** | ~$760B | Stealth decoupling via Belgium/UK custodians | $5-10B/mo (ongoing) |
+| **COMBINED** | | | **$30-55B/mo** |
+
+This is structural UST supply shock, not episodic. If sustained 3+ months: 10Y yield rises 30-50bp, crowding out US fiscal space, raising US borrowing costs.
 
 ---
 
-## USDJPY DYNAMICS — YEN NOT A SAFE HAVEN
+## FED SWAP LINE: THE BINARY PIVOT
 
-**Key observation:** Dollar reclaiming against yen. This is atypical vs historical war patterns.
+**Question:** If Fed doesn't activate BoK swap line, Korea sells USTs to defend KRW. What's SAM's read?
 
-**Why yen is NOT functioning as safe haven now:**
-1. Dovish BOJ board nominations (Sato + unnamed Chuo prof) = BOJ holds longer → rate differential persists
-2. Japan is energy-vulnerable (oil importer) → conflict = direct cost shock
-3. Dollar = geopolitical safe haven in US-led conflict. US is the aggressor/protagonist.
-4. USDJPY ~157-158 means carry positions still funded cheaply
+**Assessment:**
 
-**What would flip this to Phase 2 (yen strengthens):**
-- US recession data (soft NFP Friday, PMI <45)
-- Fed rate cut expectations building
-- US equity drawdown >15% (GPIF mechanical repatriation)
-- Hormuz disruption surviving Trump's insurance backstop
+**Path A — Fed ACTIVATES swap line:**
+- BoK gets USD liquidity without selling USTs
+- UST supply pressure removed from Korea
+- BUT: Activation = systemic stress signal → global risk-off → EM contagion → Japan equities hit → GPIF mechanical trigger → carry unwind Phase 2 accelerates
+- Market reads activation as "crisis confirmed" → yen could paradoxically strengthen as risk-off overwhelms carry
+- **Net for carry thesis:** Accelerates Phase 2 timeline. Bullish Phase 2 setup. 30-day carry unwind probability jumps to 75-80%.
 
-**Current USDJPY technical:**
-- Sliding toward 158. Previous rejection at 157.75 (Feb 9 high) may now be broken.
-- Next resistance: 158.50, then 160 (MOF intervention threshold)
-- Support: 156.82, 100-hr MA
-- NFP Friday = bifurcation point
+**Path B — Fed DOESN'T ACTIVATE:**
+- BoK must defend 1,500 by selling USTs (and other reserves)
+- Korean won potentially through 1,500 → forced devaluation → regional FX crisis (1997 echo)
+- UST selling = 10Y yields up → dollar stronger → yen weaker (Phase 1 extension)
+- BUT: If KRW crashes past 1,500, contagion to EM Asia is uncontrolled → eventually reaches Japan (Nikkei deeper) → GPIF trigger → Phase 2 arrives via EM crisis route, not US recession route
+- **Net for carry thesis:** Phase 1 extends 2-4 weeks, then Phase 2 arrives via EM crisis. Messier path, same destination.
 
----
-
-## BOJ STATUS
-
-**March 13-14: HOLD 90%**
-- Stagflation trap: supply-side inflation from energy ≠ demand-driven; hiking deepens growth hit
-- War uncertainty forces pause
-- Dovish nominees not yet confirmed (but signal direction)
-- Takaichi political cover triple-stacked: nominees, war, housing constraint
-
-**BOJ Tamura (Feb 12, hawkish):** "Could soon declare inflation target achieved." Contradicts cooling narrative. Hawks still pushing — but war overrides. Logged to ML.tsv (ML-JPN-180).
-
-**BOJ Himino (Mar 3):** Volatility won't prevent rate hikes, but no timing given.
-
-**April 23-24:** Depends on war resolution + Shunto outcome. If conflict sustained into April, also hold. If Shunto strong (≥3.5%) AND conflict fading = 60% hike.
+**SAM's Read:** Both paths lead to carry unwind — just different timelines and triggers. Fed swap line is a 2-4 week delay mechanism, not a solution. The fundamental: Japan + Korea energy shock → dollar demand → UST selling → yield pressure → US financial conditions tighten → growth hits → Phase 2. The **1,500 line is a 72-hour watch item**. If BoK breaks through 1,500 without Fed intervention, we're in 1997-echo territory — update carry probability to 85%+ immediately.
 
 ---
 
-## CARRY UNWIND PROBABILITY
+## USD/KRW 1,481 — FRAMEWORK CHANGE?
 
-| Timeframe | Probability | Driver |
-|-----------|-------------|--------|
-| 7 days | **15%** | Trump insurance reduced Mar 5 cliff risk; NFP Friday critical |
-| 30 days | **50%** | US growth deterioration + sustained oil cost accumulates |
-| 60 days | **70%** | Full Phase 2 if US recession signal arrives |
-| Full escalation | **90%+** | Unchanged |
+**Does 1,481 change the framework?**
 
-**Forced trigger:** USDJPY <147. Currently ~157-158, need ~7% yen strength. Phase 2 onset required first.
-**NFP Friday (Mar 6) = bifurcation:** Soft = Phase 2 starts; Strong = Phase 1 extends to 158-160.
+**Yes, partially.** It adds a *new transmission channel* that wasn't in the original SAM thesis:
+- Original thesis: Japan → carry unwind via US recession signal + JGB stress
+- Updated: **Korea FX crisis → UST selling → US yields up → US financial conditions tighten → recession signal arrives FASTER** via external pressure, not just domestic US deterioration
+- Korea adds a "backdoor recession trigger" — the supply shock in USTs that Japan was supposed to provide arrives sooner via BoK reserve defense
+
+**Framework update:**
+- Carry unwind Phase 2 onset probability elevated
+- US recession signal could arrive via UST yield spike (external) rather than NFP miss (domestic)
+- NFP Friday (Mar 6) remains critical but now SECONDARY to BoK 1,500 line as trigger
 
 ---
 
-## KEY DATES
+## CARRY UNWIND PROBABILITY (REVISED)
+
+| Timeframe | Old | New | Driver |
+|-----------|-----|-----|--------|
+| 7 days | 15% | **20%** | Korea circuit breakers; 1,500 line proximity |
+| 30 days | 50% | **65%** | Korea UST selling + Japan Phase 1 extension convergence |
+| 60 days | 70% | **80%** | Three-anchor problem + US recession signal |
+| Full escalation | 90%+ | **90%+** | Unchanged |
+
+**New forced trigger:** USD/KRW through 1,500 without Fed swap line = emergency condition. Upgrade to 85%+ immediately if triggered.
+
+---
+
+## BOJ STATUS (Updated)
+
+**March 13-14: HOLD 92%** (was 90%)
+- Stagflation trap DEEPER: energy shock + equity crash = can't hike
+- War uncertainty PERSISTS
+- Dovish nominees + lame-duck Ueda = zero appetite for action
+- Korea contagion adds instability argument for pause
+
+**BOJ can't save Japan here.** Frozen is the only option.
+
+---
+
+## INBOX PROCESSED (Mar 4 08:45 ET)
+
+| Signal | From | Status |
+|--------|------|--------|
+| ZHAO — Korea third UST anchor, KOSPI -12%, USD/KRW 1,481 | ZHAO | ✅ INTEGRATED → ML-JPN-184; carry unwind revised; outbox alerts sent |
+| LIQUID — Bull steepener, 10Y 4.063%, yen strengthening risk at 148 | LIQUID | ✅ INTEGRATED → consistent with Phase 2 trigger framework; 148 watch level noted |
+| HANS — European UST demand paradox (bid now, headwind medium) | HANS | ✅ NOTED → cross-domain; HANS domain; flagged to NEXUS for synthesis |
+
+---
+
+## KEY DATES (Updated)
 
 | Date | Event | Status |
 |------|-------|--------|
-| **Mar 5 (Thu)** | Insurance cliff — P&I clubs withdrawal | 🟠 PARTIALLY DEFUSED by Trump DFC |
-| **Mar 6 (Fri)** | NFP — carry bifurcation point | 🔴 CRITICAL |
-| Mar 12 | Shunto Yamaba (Toyota/Honda responses) | 🟠 |
-| **Mar 13-14** | BOJ Meeting — HOLD 90% | 🔴 |
-| Mar 17 | JICPA accounting comment deadline | 🟡 |
+| **NOW** | USD/KRW 1,481 → BoK 1,500 defense line | 🔴 72-HOUR WATCH |
+| **Mar 5 (Thu)** | Insurance cliff — P&I clubs withdrawal | 🟠 PARTIALLY DEFUSED |
+| **Mar 6 (Fri)** | NFP — carry bifurcation point | 🔴 CRITICAL (now secondary to 1,500 line) |
+| **Mar 6-7** | Fed swap line decision on BoK? | 🔴 BINARY PIVOT |
+| Mar 12 | Shunto Yamaba (Toyota/Honda) | 🟠 |
+| **Mar 13-14** | BOJ Meeting — HOLD 92% | 🔴 |
 | Mar 21 | Shunto First Tally (Rengo) | 🟠 |
-| Mar 31 | FY2025 ends, ESR reporting, budget deadline | 🟠 |
+| Mar 31 | FY2025 ends, ESR, budget | 🟠 |
 | **Apr 23-24** | BOJ Meeting — war-dependent | 🔴 |
 
 ---
 
-## THESIS
+## THESIS (Updated Mar 4)
 
-**Phase 1 extending:** Yen weakness, dollar reclaiming. Trump insurance partially defuses immediate cliff. Energy cost shock building but Navy escort narrative contains oil spike.
+**Core thesis unchanged. Timeline accelerated.**
 
-**Phase 2 trigger:** US recession signal required. Soft NFP + rising jobless claims + credit widening = risk-off deepens → Fed cut expectations → carry unwind begins. BOJ frozen, can't rescue.
+Phase 1 extending (yen weak, dollar reclaiming) — but Korea crash has injected a new UST supply vector that could compress the Phase 2 timeline by 2-4 weeks. The doom loop chain now has a SECONDARY ignition point: BoK 1,500 line → UST selling → US 10Y up 30-50bp → financial conditions tighten → recession signal arrives ahead of NFP → carry unwind Phase 2.
 
-**The doom loop chain remains active:** LNG crisis → Takaichi fiscal expansion → JGB supply → curve steepening → insurer repatriation pressure → yen strengthens → carry unwind → global deleveraging. Trump insurance DELAYS but doesn't cancel this chain.
+**Three scenarios for next 72 hours:**
+1. **BoK holds 1,500 + Fed activates swap line** → UST pressure relieved; Phase 2 timeline intact (30-60 day); buy time to NFP. 40% probability.
+2. **BoK holds 1,500 without swap line** → UST selling begins; 10Y rises; Phase 1 extends with yield pressure building underneath. 35% probability.
+3. **KRW through 1,500 (uncontrolled)** → 1997 echo; regional contagion; emergency conditions; carry unwind probability 85%+; Phase 2 arrives within 10-14 days. 25% probability.
 
 **Archives:**
 - Mar 3 EOD STATUS: `domain/session_archive/STATUS_archive_20260303_EOD.md`
