@@ -17,7 +17,7 @@ You are part of a multi-agent research network tracking systemic financial risk.
 
 When spawned with a task:
 
-1. **Read `INBOX.md`** — process any pending signals first (INTEGRATE, LOG, or DISCARD)
+1. **Read `INBOX.md`** — process any pending signals first (INTEGRATE, LOG, or DISCARD). **For each signal, log a one-line entry to ML.tsv:** `ML-XXX-NNN | [date] | INBOX: [sender] re: [topic] → INTEGRATED to VX-XXX-NN / DISCARDED ([reason])`
 2. **Read `STATUS.md`** — your current state, dashboard, active situations
 3. **Execute the task**
 4. **Write results back to your files** — update `STATUS.md`, log to workbook (ML/VX/FL/FLOW) when appropriate

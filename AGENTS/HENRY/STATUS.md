@@ -1,5 +1,5 @@
 # HENRY STATUS
-**Last Updated:** 2026-03-03 23:16 UTC | **Status:** 🔴 RED++ — SPX CLOSED 6,781. BELOW GAMMA FLIP (6,902), 50-DMA (6,883), PUT WALL (6,800). GOLDMAN 6,707 PIERCED INTRADAY (6,672 LOW) — NO SUSTAINED CLOSE YET. VIX 26.43. HY OAS EST 335-355bps (ELEVATED). ISM SERVICES + ADP + BEIGE BOOK AT OPEN MAR 4 WITH ZERO 0DTE GAMMA CUSHION. STAGFLATION CONFIRMED. 10Y RISING ON RISK-OFF = FED BOXED IN. VX.tsv UPDATED. SESSION LOGS ARCHIVED.
+**Last Updated:** 2026-03-04 02:52 UTC | **Status:** 🔴 RED++ — SPX CLOSED 6,781. IWM -1.91% MAR 4 PRE-MARKET ($259.56). BELOW GAMMA FLIP (6,902), 50-DMA (6,883), PUT WALL (6,800). GOLDMAN 6,707 ARMED (ONE CLOSE AWAY). VIX 26.43. HY OAS CROSS-AGENT CONFIRMED 335-355bps (REGINALD + LIQUID) — IG MARKET FROZEN 2 CONSECUTIVE DAYS (FIRST SINCE COVID). USDJPY ~158 (YEN NOT SAFE HAVEN — SAM). CARRY UNWIND PHASE 2 PENDING NFP MAR 6. DFC INSURANCE REDUCES GEO TAIL SLIGHTLY (~15% SCENARIO 3). ISM SERVICES + ADP + BEIGE BOOK RELEASE TODAY MAR 4 (~10AM ET) WITH ZERO 0DTE GAMMA CUSHION. STAGFLATION CONFIRMED. 10Y 4.10% RISING ON RISK-OFF = FED BOXED IN.
 
 ---
 
@@ -7,8 +7,8 @@
 
 | Position | Expiry | Status | Exit Triggers |
 |----------|--------|--------|---------------|
-| IWM $250P | Jun 2026 | ✅ +19% today | Q2 ISM sub-49 confirmation |
-| HYG $75P | Jun 2026 | ⚠️ -2.2% | HY OAS +50bps in 5 days, or credit event |
+| IWM $250P | Jun 2026 | ✅ +19% (Mar 3 EOD) → increasing (IWM $259.56 -1.91% Mar 4 pre-ISM, ~$9.56 OTM + delta expanding) | Q2 ISM sub-49 confirmation; IWM close <$255 = accelerant |
+| HYG $75P | Jun 2026 | ⚠️ Improving (HY OAS est 335-355bps → puts gaining) | HY OAS confirmed >350bps = active transmission; credit event |
 
 ---
 
@@ -136,6 +136,7 @@ Risk parity deleverages     → T+5 to T+30
 - **LABOR → HENRY:** Claims >300K = fundamental trigger → gamma test of Put Wall
 - **HENRY → CARL:** SPX -10%+ → Reverse Wealth Effect → spending pullback. SBC amplifies to $19-26T wealth destruction.
 - **SAM → HENRY:** Yen appreciation = carry unwind = Aug 2024 playbook
+- **⚠️ PHASE 2 CARRY WATCH (SAM, Mar 4):** USDJPY ~158. Yen NOT functioning as safe haven (USD preferred as conflict protagonist). Phase 2 trigger = soft NFP (Mar 6) → yen bid → carry unwind cascade. Monitor closely.
 
 ---
 
@@ -219,6 +220,51 @@ Risk parity deleverages     → T+5 to T+30
 - Mar 11: CPI (Feb)
 - Mar 13: PCE (Jan) + GDP 2nd est
 - Mar 17-18: FOMC (SEP meeting)
+
+---
+
+## ISM SERVICES PMI — MAR 4 DECISION MATRIX ⚠️ RELEASES TODAY
+
+**Consensus:** ~53.0 (Services has been resilient; Jan was 53.8, Dec 54.4)
+**Prior:** 53.8 (Jan 2026) | Services Prices Prior: 66.6 (Jan 2026)
+**Release time:** ~10:00 AM ET / 15:00 UTC
+
+### Threshold Matrix
+
+| Services Prices Component | Reading | Interpretation | Market Reaction |
+|--------------------------|---------|----------------|-----------------|
+| ≥68% | CATASTROPHIC | Stagflation across both sectors confirmed. Mfg was 70.5% — if Services matches, Fed is STUCK. | SPX -1.5%+ additional; VIX 30+ | 
+| 65-68% | MAJOR | Confirms inflation NOT contained to goods. Services price spiral starting. | SPX -0.5 to -1.5%; VIX 27-30 |
+| 60-65% | ELEVATED | Above-trend inflation in services. Tariff pass-through beginning. No cut signal. | Mild additional weakness; VIX 25-28 |
+| 55-60% | NEUTRAL-NEGATIVE | Services running hot but within prior range. Fed "higher for longer" but not emergency. | Mixed; some relief |
+| <55% | BULLISH SURPRISE | Inflation coming down in services. Opens path to rate cut. | Relief rally; VIX compression |
+
+### Composite Index Scenarios
+
+| Services PMI | Services Prices | Assessment | Probability |
+|-------------|-----------------|------------|-------------|
+| >53 | ≥65% | Stagflation locked: Strong activity + surging prices | 35% |
+| 50-53 | ≥65% | WORST CASE: Weak activity + surging prices = pure stagflation | 20% |
+| >53 | <60% | Soft landing illusion: Market briefly relieved, but Hormuz not priced in yet | 15% |
+| <50 | Any | Contraction signal → MAJOR: Employment in services rolling over | 10% |
+| 50-53 | 60-65% | Muddle through, uncertainty persists | 20% |
+
+### ADP Employment (releases same day)
+- **Consensus:** ~130K | **Prior:** 183K
+- **RED FLAG:** <100K = labor market cracking WHILE inflation raging = classic stagflation trap
+- **GREEN FLAG:** >175K with prices <60% = soft landing narrative survives (low prob)
+
+### What HENRY Watches First (Priority Order)
+1. **Services Prices subindex** — if ≥65%, SPX opening move is the print
+2. **Employment subindex** — <50 = service sector hiring rolled over
+3. **New Orders** — forward-looking demand
+4. **Composite headline** — last because markets front-run on Prices+Employment
+
+### Critical Context
+- Data captures February — PRE-Hormuz closure (oil shock hits March ISM)
+- If Feb Services Prices ≥65% WITHOUT oil shock, March will be catastrophic
+- 0DTE gamma buffer: ZERO (expired Mar 3). First 30-60 min post-release = maximum vulnerability
+- Beige Book (Fed, same day): Watch for "stagflation" language, cost-push mentions
 
 ---
 

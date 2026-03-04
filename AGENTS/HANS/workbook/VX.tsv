@@ -50,3 +50,8 @@ VX-HANS-10.03	US ISM vs German IP Signal Gap	TRANSMISSION	+5.5 pts	>3	>5	>8	ORAN
 VX-HANS-10.04	US ISM Manufacturing Employment	US_INDUSTRIAL	48.1	<50	<47	<44	ORANGE	HIGH	2026-02-18	ISM Jan 2026	28 consecutive months contracting; structural not cyclical weakness
 VX-HANS-10.05	German IP Annual Decline	GERMAN_INDUSTRIAL	-1.1%	<-1%	<-2%	<-3%	ORANGE	HIGH	2026-02-18	Destatis full year 2025	Third consecutive annual decline; energy-intensive down 17.8% vs 2021
 VX-HANS-10.06	German Input Cost Inflation (PMI)	GERMAN_INDUSTRIAL	37-month high	>24m high	>36m high	All-time high	ORANGE	MEDIUM	2026-02-18	HCOB Jan 2026	Metals/energy/wages surging; cannot pass to customers; margin destruction
+VX-HANS-11.01	Ceasefire_Probability_30d	WAR_RISK	12%	25%	40%	60%	RED	CRITICAL	2026-03-04	Analysis	% probability US-Iran ceasefire within 30 days; was 85% (stale pre-war); now 12%
+VX-HANS-11.02	TTF_Gas_War_Scenario	ENERGY	52	40	60	74	RED	CRITICAL	2026-03-04	ICE/Goldman est	EUR/MWh; Goldman crisis scenario €74; Qatar offline + Hormuz = RED
+VX-HANS-11.03	European_Defense_Issuance_5yr	DEFENSE	0	400	800	1200	GREEN	HIGH	2026-03-04	Analysis	EUR billions cumulative new issuance; duration supply UST headwind
+VX-HANS-11.04	Ukraine_Refinery_Capacity_Loss	WAR_RISK	20%	10%	20%	35%	RED	HIGH	2026-03-04	Subagent brief	% Russian refinery capacity offline (structural damage); >20% = diesel shock
+VX-HANS-11.05	iTraxx_Senior_Financial	BANKING	95	80	150	200	ORANGE	HIGH	2026-03-04	est	Bps; war risk + MFS fraud widening; >150 = stress
