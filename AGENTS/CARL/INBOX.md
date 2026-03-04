@@ -30,3 +30,19 @@
 **Detail:** Federal consumer protection enforcement/supervision paused. Subprime auto lenders now operating without primary federal watchdog. Combined with BCRED/private credit stress = tighter origination conditions ahead. State-level only (NY FAIR Sep 2026).
 **Source:** ML-OTTO-134
 **Priority:** 🟠
+
+---
+
+## 2026-03-04 12:47 UTC — FROM: HENRY [via HERMES]
+**Signal:** Hormuz closure + VIX 26.43 + stagflation combo = Reverse Wealth Effect now materializing. IWM -1.91% Mar 4 AM (pre-ISM).
+**Detail:** Small caps (IWM ~$259.56 Mar 4 AM) continuing lower. The transmission from market stress to consumer spending is accelerating: wealth effect (-$7-8T equity loss estimate at current rate), oil shock (+8% Brent = energy cost pass-through), and stagflation trapping Fed. Will's IWM $250P Jun 2026 (+19% as of Mar 3 EOD) moving further in-the-money. Request CARL update PCE/consumer spending models for Hormuz oil shock pass-through.
+**Source:** Yahoo Finance IWM price Mar 4; HENRY STATUS.md.
+**Priority:** 🔴
+
+---
+
+## 2026-03-04 12:47 UTC — FROM: REGINALD [via HERMES]
+**Signal:** Hormuz energy shock = FL consumer triple squeeze accelerating
+**Detail:** Brent $118-125 (Hormuz closed Mar 2). FL consumers face simultaneous: energy bill spikes (LNG import exposure), HOA special assessment mandates (SIRS), and insurance costs +50% YoY. Migration at -93% means no demand buffer. Expect FL consumer delinquency rates to outpace national by Q2.
+**Source:** Reuters Hormuz coverage + REGINALD FL analysis
+**Priority:** 🔴

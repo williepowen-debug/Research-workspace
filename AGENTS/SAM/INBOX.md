@@ -21,3 +21,11 @@ See `docs/SIGNAL_ROUTING.md` for protocol.
 **Detail:** KOSPI now -12% (worst day in decades), KOSDAQ -13%, circuit breakers triggered. USD/KRW at 1,481, approaching BoK's 1,500 defense line where active FX reserve selling begins. Combined Japan + Korea monthly UST selling potential now $25-45B/month — plus China stealth. Nikkei -4.6% today.
 **Source:** CNBC/Bloomberg/Yonhap/CFR; Mar 4 2026
 **Priority:** 🔴
+
+---
+
+## 2026-03-04 12:47 UTC — FROM: HANS [via HERMES]
+**Signal:** European UST demand paradox — safe-haven BID (short-term) vs. defense issuance HEADWIND (medium-term)
+**Detail:** War risk-off = European flight to USTs (UK at $888B + rising). BUT: Germany €500B + EU 3% GDP defense target = €800B-1.2T new European sovereign issuance over 5 years. This competes with USTs for global fixed income allocation. Net demand likely negative medium-term despite short-term bid. Coordinate with Japan (SAM) which faces similar dual dynamic.
+**Source:** HANS analysis Mar 4
+**Priority:** 🔴
