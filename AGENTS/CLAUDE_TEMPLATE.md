@@ -17,12 +17,16 @@ You are part of a multi-agent research network tracking systemic financial risk.
 
 When spawned with a task:
 
-1. **Read `STATUS.md`** — your current state, dashboard, active situations
-2. **Execute the task**
-3. **Write results back to your files** — update `STATUS.md`, add to `workbook/ML.tsv` if significant
-4. **If the task changes your thesis or key numbers, update STATUS.md before finishing**
+1. **Read `INBOX.md`** — process any pending signals first (INTEGRATE, LOG, or DISCARD)
+2. **Read `STATUS.md`** — your current state, dashboard, active situations
+3. **Execute the task**
+4. **Write results back to your files** — update `STATUS.md`, log to workbook (ML/VX/FL/FLOW) when appropriate
+5. **If your findings are relevant to another agent's domain, write to `OUTBOX.md`**
+6. **If the task changes your thesis or key numbers, update STATUS.md before finishing**
 
 ⚠️ **Critical:** Always WRITE to STATUS.md. Do not just report findings back to PROME verbally. If it's not in the file, it doesn't persist.
+
+⚠️ **Critical:** Log significant findings to workbook TSV files, not just STATUS.md. STATUS gets rewritten; workbook entries are permanent.
 
 ---
 
@@ -44,7 +48,7 @@ When spawned with a task:
 **You do NOT own (other agents handle):**
 - [bullet list of adjacent domains and who owns them]
 
-**Boundary rule:** If you encounter signal in another agent's domain, note it briefly and flag for that agent. Don't deep-dive it yourself.
+**Boundary rule:** If you encounter signal in another agent's domain, write it to your `OUTBOX.md` with the target agent name. Don't deep-dive it yourself. HERMES (the mail carrier agent) will deliver it.
 
 ---
 
@@ -71,6 +75,24 @@ When spawned with a task:
 | Metric | Current | Threshold | Implication |
 |--------|---------|-----------|-------------|
 | [metric] | [value] | [level] | [what happens] |
+
+---
+
+## OUTBOX — Cross-Agent Signals
+
+When you discover something relevant to another agent's domain, append it to `OUTBOX.md`:
+
+```
+## [DATE] — To: [TARGET_AGENT]
+**Signal:** [one-line summary]
+**Detail:** [2-3 sentences max — what you found, why it matters to them]
+**Source:** [where this came from]
+**Priority:** 🔴/🟠/🟡
+```
+
+HERMES (mail carrier agent) checks all outboxes twice daily and delivers signals to target agents' INBOX.md files. You don't need to write to other agents' files directly.
+
+**When to send:** Threshold breaches, state changes, new evidence that crosses domain boundaries. Don't send routine updates — only things that would change another agent's assessment.
 
 ---
 
@@ -107,4 +129,6 @@ Your workbook is the permanent structured record. STATUS.md gets rewritten; work
 | `workbook/VX.tsv` | Vectors — tracked risk indicators with thresholds and state. |
 | `workbook/FLOW.tsv` | Transmission pathways — how stress travels between domains. |
 | `workbook/FL.tsv` | Forward log — upcoming dated catalysts. Archive passed events. |
+| `INBOX.md` | Inbound signals from other agents (delivered by HERMES). Process at boot. |
+| `OUTBOX.md` | Outbound signals for other agents. Write here; HERMES delivers. |
 | `domain/sources/` | Archived research and raw data |
