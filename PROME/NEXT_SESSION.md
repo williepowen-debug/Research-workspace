@@ -1,9 +1,23 @@
 # NEXT SESSION PRIORITIES
-**Created:** 2026-03-03 | **Context:** Hormuz closed, full escalation, markets -1.7%
+**Created:** 2026-03-03 | **Updated:** 2026-03-03 10:30 PM ET | **Context:** Agent infrastructure overhaul in progress
 
 ---
 
-## RESEARCH THREADS (Priority Order)
+## 🔧 INFRASTRUCTURE OVERHAUL (Active — Tonight/Tomorrow)
+
+See `PROME/SCRATCH.md` for current chunk status.
+
+**Remaining chunks:**
+- Chunk 2: Update CLAUDE_TEMPLATE + push to all 11 agents + create OUTBOX/INBOX
+- Chunk 3: Build HERMES agent
+- Chunk 4: Spawn agents in batches for self-audit + workbook repair
+- Chunk 5: Test HERMES mail delivery loop
+
+**Why:** HENRY and LIQUID audits revealed systemic decay — workbooks stale, cross-agent signals dead, STATUS.md bloated. Every agent needs updated instructions + workbook maintenance before research spawns are reliable.
+
+---
+
+## RESEARCH THREADS (Priority Order — After Infrastructure)
 
 ### 1. Athene Run Risk (BROCK)
 Surrender rates during stress events. $37.9B deposit-type contracts, duration mismatch, illiquid private credit. Statutory filing data on liquidity reserves. If surrenders spike → forced liquidation → APO kill chain completes. This is the gap between "APO is stressed" and "APO is systemic." Also addresses FOLLOW_UP.md item #2 (Apollo 10-K deep dive, Athene ring-fencing question).

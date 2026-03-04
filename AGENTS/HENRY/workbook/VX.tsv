@@ -1,72 +1,72 @@
 ID	Name	Domain	Current_Value	Status	Historical_Percentile	Closest_Analogue	Last_Updated	Notes
-VX-HEN-1.01	Top 10 S&P 500 Weight	CON	38.22%	RED	>99	NONE (ATH)	2026-01-26	Exceeds 1929 (25%) and 2000 (27%) peaks
-VX-HEN-1.02	Market Breadth (% >200 DMA)	CON	58.25%	GREEN	P55	Normal	2026-01-26	Range 57-64% recently; 52wk low 15.10
-VX-HEN-1.03	Equal-Weight vs Cap-Weight Spread	CON	4.03%	YELLOW	P70	P00	2026-01-26	SPY +13.54% vs RSP +9.51% YTD
-VX-HEN-2.01	CAPE/Shiller P/E	VAL	40.65	RED	P97	P00	2026-01-26	Approaching 2000 peak of 44.19; mean 17.33
-VX-HEN-2.02	Buffett Indicator	VAL	230%	RED	>99	NONE (ATH)	2026-01-26	2.4 std dev above trend; 2000 was 140%
-VX-HEN-2.03	Equity Risk Premium	VAL	-1.80%	RED	P99	PJ89	2026-01-26	NEGATIVE ERP; stocks yield less than Treasuries
-VX-HEN-3.01	Margin Debt % of GDP	LEV	3.95%	RED	P75	P00	2026-02-12	$1.23T margin debt ATH (Dec 2025 FINRA); historically peaks before crashes (2000, 2007, 2021); up 36% YoY
-VX-HEN-3.02	Household Equity Allocation	LEV	47.08%	RED	>99	NONE (ATH)	2026-01-26	Exceeds 2000 peak of ~42%; Q3 2025 data
+VX-HEN-1.01	Top 10 S&P 500 Weight	CON	38.22%	RED	>99	NONE (ATH)	2026-01-26	Exceeds 1929 (25%) and 2000 (27%) peaks [STALE — slow-moving metric; quarterly/monthly update cycle]
+VX-HEN-1.02	Market Breadth (% >200 DMA)	CON	58.25%	GREEN	P55	Normal	2026-01-26	Range 57-64% recently; 52wk low 15.10 [STALE — slow-moving metric; quarterly/monthly update cycle]
+VX-HEN-1.03	Equal-Weight vs Cap-Weight Spread	CON	4.03%	YELLOW	P70	P00	2026-01-26	SPY +13.54% vs RSP +9.51% YTD [STALE — slow-moving metric; quarterly/monthly update cycle]
+VX-HEN-2.01	CAPE/Shiller P/E	VAL	40.65	RED	P97	P00	2026-01-26	Approaching 2000 peak of 44.19; mean 17.33 [STALE — slow-moving metric; quarterly/monthly update cycle]
+VX-HEN-2.02	Buffett Indicator	VAL	230%	RED	>99	NONE (ATH)	2026-01-26	2.4 std dev above trend; 2000 was 140% [STALE — slow-moving metric; quarterly/monthly update cycle]
+VX-HEN-2.03	Equity Risk Premium	VAL	-1.80%	RED	P99	PJ89	2026-01-26	NEGATIVE ERP; stocks yield less than Treasuries [STALE — slow-moving metric; quarterly/monthly update cycle]
+VX-HEN-3.01	Margin Debt % of GDP	LEV	3.95%	RED	P75	P00	2026-02-12	$1.23T margin debt ATH (Dec 2025 FINRA); historically peaks before crashes (2000, 2007, 2021); up 36% YoY [STALE — slow-moving metric; quarterly/monthly update cycle]
+VX-HEN-3.02	Household Equity Allocation	LEV	47.08%	RED	>99	NONE (ATH)	2026-01-26	Exceeds 2000 peak of ~42%; Q3 2025 data [STALE — slow-moving metric; quarterly/monthly update cycle]
 VX-HEN-4.01	VIX Level	SEN	26.43	RED	P75	CASCADE	2026-03-03	Cascade zone (>25). Vol-control deleveraging ACTIVE. +23% on day.
-VX-HEN-4.02	Equity Put/Call Ratio	SEN	0.58	ORANGE	P25	P00	2026-01-26	Bullish positioning; threshold <0.6
-VX-HEN-5.01	DXY Dollar Index	CUR	120.45	YELLOW	P80	Context	2026-01-26	Strong dollar; Jan 2006=100 baseline
-VX-HEN-6.01	0DTE Volume Ratio	NOV	61%	ORANGE	>99	NONE (ATH)	2026-02-12	SPX 65% (was 50% Jan'24), NDX 78%, QQQ/SPY ~60%, IWM ~40%; overall 55% (was 38% in 2024); amplification risk extreme
-VX-HEN-6.02	Passive Market Share	NOV	55%	ORANGE	>99	NONE (ATH)	2026-01-26	Passive % of US equity AUM; crossed 50% in 2023; effective share ~75-80%
-VX-HEN-6.03	PIK Income %	NOV	12.8%	YELLOW	P85	P08	2026-01-26	PIK as % of BDC gross income; shadow default proxy; alert >15%
-VX-HEN-6.04	Private Credit AUM	NOV	$3.0T	YELLOW	>99	NONE	2026-01-26	Broad definition; $5T projected by 2029; shadow leverage vehicle
-VX-HEN-6.05	Index Inclusion Alpha	NOV	7.4%	ORANGE	P90	P00	2026-01-26	Avg announcement-day return for S&P additions; broken arbitrage signal
-VX-HEN-7.01	Insider Sell/Buy Ratio	SEN	13.56	RED	>99	NONE	2026-01-26	Normal 2-3; current 13.56 is 3+ std dev; massive distribution by corporate insiders
-VX-HEN-7.02	NAAIM Exposure Index	SEN	88.46%	ORANGE	P90	P07	2026-01-26	Active managers nearly fully invested; matches Oct 2007 (95%); no dry powder
-VX-HEN-7.03	Retail Options % Volume	SEN	48%	RED	>99	NONE (ATH)	2026-01-26	Record high; exceeds 2021 meme mania (~45%); structural fragility via gamma
-VX-HEN-7.04	Sentiment Composite Score	SEN	8.5/10	RED	P95	P00/P07	2026-01-26	HENRY weighted composite; >8 = high reversal risk; driven by leverage + distribution
-VX-HEN-7.05	Bitcoin vs S&P Divergence	SEN	-25%	ORANGE	P85	P21	2026-01-26	BTC down 25% while SPX at ATH; mirrors Nov 2021-Jan 2022 divergence exactly
-VX-HEN-7.06	Investors Intelligence Bull/Bear	SEN	2.87	ORANGE	P90	P07	2026-01-26	Matches Oct 2007 exactly (2.80); >3.0 = danger zone; bears only 20%
-VX-HEN-7.07	Zweig Breadth Thrust	CON	ACTIVE	GREEN	RARE	P95/P13	2026-01-26	ZBT triggered Nov 28 2025; 100% historical success rate; avg +23.3% 12mo forward
-VX-HEN-7.08	Sector Breadth - Tech	CON	52.85%	ORANGE	P40	P00	2026-01-26	Tech % above 200DMA; lagging vs Energy (95%); internal AI rally rot
-VX-HEN-7.09	Margin Debt YoY Growth	LEV	12.3%	YELLOW	P80	P07	2026-01-26	Accelerating growth; $1.226T nominal ATH; 2000 was 62%, 2007 was 35%
-VX-HEN-8.01	Net Equity Issuance	BID	-$800B	GREEN	P10	POST-08	2026-01-26	BULLISH: Buybacks ($1.02T) vastly exceed IPOs ($47B); supply shrinking; structural support
-VX-HEN-8.02	Corporate Buyback Rate	BID	$1.02T/yr	GREEN	>99	NONE (ATH)	2026-01-26	BULLISH: Record buybacks; $4B/day persistent bid; top 20 = 50% of activity
-VX-HEN-8.03	Passive Flow Momentum	BID	+$380B/yr	GREEN	P85	POST-08	2026-01-26	BULLISH: Passive inflows strong; 2025 +$380B vs Active -$386B (internal rotation)
-VX-HEN-8.04	401(k) Flow Stability	BID	STABLE	GREEN	P50	NORMAL	2026-01-26	BULLISH: Automatic payroll flows uninterrupted; 68% in TDFs; inertia-based demand
-VX-HEN-8.05	Foreign Equity Demand	BID	+$150B/yr	GREEN	P75	POST-08	2026-01-26	BULLISH: 18% foreign ownership (up from 12%); TINA dynamic; dollar strength amplifies
-VX-HEN-8.06	Inelastic Market Multiplier	BID	5-17x	YELLOW	>99	NONE	2026-01-26	MIXED: $1 flow = $5-17 market cap; amplifies upside AND downside; structural fragility
-VX-HEN-9.01	Net GEX (SPX)	GAM	$62B/1%	GREEN	P80	HIGH_POS	2026-02-03	High positive = dealer stabilizing; "Dealer Bid" active; suppresses volatility
+VX-HEN-4.02	Equity Put/Call Ratio	SEN	0.58	ORANGE	P25	P00	2026-01-26	Bullish positioning; threshold <0.6 [STALE pre-Feb27 — needs live data refresh]
+VX-HEN-5.01	DXY Dollar Index	CUR	120.45	YELLOW	P80	Context	2026-01-26	Strong dollar; Jan 2006=100 baseline [STALE pre-Feb27 — needs live data refresh]
+VX-HEN-6.01	0DTE Volume Ratio	NOV	61%	ORANGE	>99	NONE (ATH)	2026-02-12	SPX 65% (was 50% Jan'24), NDX 78%, QQQ/SPY ~60%, IWM ~40%; overall 55% (was 38% in 2024); amplification risk extreme [STALE pre-Feb27 — needs live data refresh]
+VX-HEN-6.02	Passive Market Share	NOV	55%	ORANGE	>99	NONE (ATH)	2026-01-26	Passive % of US equity AUM; crossed 50% in 2023; effective share ~75-80% [STALE — slow-moving metric; quarterly/monthly update cycle]
+VX-HEN-6.03	PIK Income %	NOV	12.8%	YELLOW	P85	P08	2026-01-26	PIK as % of BDC gross income; shadow default proxy; alert >15% [STALE — slow-moving metric; quarterly/monthly update cycle]
+VX-HEN-6.04	Private Credit AUM	NOV	$3.0T	YELLOW	>99	NONE	2026-01-26	Broad definition; $5T projected by 2029; shadow leverage vehicle [STALE — slow-moving metric; quarterly/monthly update cycle]
+VX-HEN-6.05	Index Inclusion Alpha	NOV	7.4%	ORANGE	P90	P00	2026-01-26	Avg announcement-day return for S&P additions; broken arbitrage signal [STALE pre-Feb27 — needs live data refresh]
+VX-HEN-7.01	Insider Sell/Buy Ratio	SEN	13.56	RED	>99	NONE	2026-01-26	Normal 2-3; current 13.56 is 3+ std dev; massive distribution by corporate insiders [STALE pre-Feb27 — needs live data refresh]
+VX-HEN-7.02	NAAIM Exposure Index	SEN	88.46%	ORANGE	P90	P07	2026-01-26	Active managers nearly fully invested; matches Oct 2007 (95%); no dry powder [STALE pre-Feb27 — needs live data refresh]
+VX-HEN-7.03	Retail Options % Volume	SEN	48%	RED	>99	NONE (ATH)	2026-01-26	Record high; exceeds 2021 meme mania (~45%); structural fragility via gamma [STALE pre-Feb27 — needs live data refresh]
+VX-HEN-7.04	Sentiment Composite Score	SEN	8.5/10	RED	P95	P00/P07	2026-01-26	HENRY weighted composite; >8 = high reversal risk; driven by leverage + distribution [STALE pre-Feb27 — needs live data refresh]
+VX-HEN-7.05	Bitcoin vs S&P Divergence	SEN	-25%	ORANGE	P85	P21	2026-01-26	BTC down 25% while SPX at ATH; mirrors Nov 2021-Jan 2022 divergence exactly [STALE pre-Feb27 — needs live data refresh]
+VX-HEN-7.06	Investors Intelligence Bull/Bear	SEN	2.87	ORANGE	P90	P07	2026-01-26	Matches Oct 2007 exactly (2.80); >3.0 = danger zone; bears only 20% [STALE pre-Feb27 — needs live data refresh]
+VX-HEN-7.07	Zweig Breadth Thrust	CON	ACTIVE	GREEN	RARE	P95/P13	2026-01-26	ZBT triggered Nov 28 2025; 100% historical success rate; avg +23.3% 12mo forward [STALE pre-Feb27 — needs live data refresh]
+VX-HEN-7.08	Sector Breadth - Tech	CON	52.85%	ORANGE	P40	P00	2026-01-26	Tech % above 200DMA; lagging vs Energy (95%); internal AI rally rot [STALE pre-Feb27 — needs live data refresh]
+VX-HEN-7.09	Margin Debt YoY Growth	LEV	12.3%	YELLOW	P80	P07	2026-01-26	Accelerating growth; $1.226T nominal ATH; 2000 was 62%, 2007 was 35% [STALE pre-Feb27 — needs live data refresh]
+VX-HEN-8.01	Net Equity Issuance	BID	-$800B	GREEN	P10	POST-08	2026-01-26	BULLISH: Buybacks ($1.02T) vastly exceed IPOs ($47B); supply shrinking; structural support [STALE — slow-moving metric; quarterly/monthly update cycle]
+VX-HEN-8.02	Corporate Buyback Rate	BID	$1.02T/yr	GREEN	>99	NONE (ATH)	2026-01-26	BULLISH: Record buybacks; $4B/day persistent bid; top 20 = 50% of activity [STALE — slow-moving metric; quarterly/monthly update cycle]
+VX-HEN-8.03	Passive Flow Momentum	BID	+$380B/yr	GREEN	P85	POST-08	2026-01-26	BULLISH: Passive inflows strong; 2025 +$380B vs Active -$386B (internal rotation) [STALE — slow-moving metric; quarterly/monthly update cycle]
+VX-HEN-8.04	401(k) Flow Stability	BID	STABLE	GREEN	P50	NORMAL	2026-01-26	BULLISH: Automatic payroll flows uninterrupted; 68% in TDFs; inertia-based demand [STALE — slow-moving metric; quarterly/monthly update cycle]
+VX-HEN-8.05	Foreign Equity Demand	BID	+$150B/yr	GREEN	P75	POST-08	2026-01-26	BULLISH: 18% foreign ownership (up from 12%); TINA dynamic; dollar strength amplifies [STALE — slow-moving metric; quarterly/monthly update cycle]
+VX-HEN-8.06	Inelastic Market Multiplier	BID	5-17x	YELLOW	>99	NONE	2026-01-26	MIXED: $1 flow = $5-17 market cap; amplifies upside AND downside; structural fragility [STALE — slow-moving metric; quarterly/monthly update cycle]
+VX-HEN-9.01	Net GEX (SPX)	GAM	$62B/1%	GREEN	P80	HIGH_POS	2026-02-03	High positive = dealer stabilizing; "Dealer Bid" active; suppresses volatility [STALE pre-Feb27 — needs live data refresh]
 VX-HEN-9.02	Gamma Flip Level	GAM	6,902	RED	-	BELOW	2026-03-03	SPX 6,781 BELOW gamma flip = negative gamma. Dealers AMPLIFYING moves.
-VX-HEN-9.03	Call Wall (Max GEX)	GAM	7,000	YELLOW	-	-	2026-02-03	Primary resistance; "Gamma Magnet"; JPM collar sold call at 7,155
+VX-HEN-9.03	Call Wall (Max GEX)	GAM	7,000	YELLOW	-	-	2026-02-03	Primary resistance; "Gamma Magnet"; JPM collar sold call at 7,155 [STALE pre-Feb27 — needs live data refresh]
 VX-HEN-9.04	Put Wall	GAM	6,800	RED	-	BROKE	2026-03-03	Put wall BROKE on Mar 3 close (6,781). Test #1 complete. 2-3 tests exhausts support.
 VX-HEN-9.05	IV Rank (SPX)	GAM	~75%	YELLOW	P75	ELEVATED	2026-03-03	IV expanded significantly with VIX at 26.43. Complacency regime OVER.
-VX-HEN-9.06	IV Percentile (SPX)	GAM	37%	GREEN	P40	STABLE	2026-02-03	Mid-to-low range; stable regime currently
-VX-HEN-9.07	Put-Call OI Ratio	GAM	1.61	YELLOW	P65	HEDGED	2026-02-03	Heavy put hedging presence (institutional); provides gamma floor
-VX-HEN-9.08	Volatility Trigger Level	GAM	~6,880	GREEN	-	-	2026-02-03	SpotGamma prop indicator; below = vol expands; currently ABOVE = stable
-VX-HEN-10.01	Earnings Revision Ratio	CORP	1.05	YELLOW	P50	Late_Cycle	2026-02-03	Up/Down ratio; <1.50=concern; <0.70=recession; currently at late-cycle neutral
-VX-HEN-10.02	Guidance Beat/Miss Ratio	CORP	2.43	GREEN	P70	BULLISH	2026-02-03	17 pos / 7 neg; 70.8% positive vs 37.8% 10yr avg; excessive optimism risk
-VX-HEN-10.03	Revenue-EPS Gap	CORP	7.8pts	ORANGE	P85	Late_Cycle	2026-02-03	15% EPS growth on 7.2% revenue; financial engineering reliance widening
-VX-HEN-10.04	Layoff Acceleration YoY	CORP	+58%	RED	P95	2008-Q4	2026-02-03	1.2M cuts in 2025; highest Q4 since 2008; Gov +703%, Tech +15%, Warehouse +316%
-VX-HEN-10.05	S&P Net Profit Margin	CORP	13.2%	YELLOW	>99 (ATH)	NONE	2026-02-03	Record margin; mean reversion risk; 14.2% 2026 target is peak assumption
-VX-HEN-10.06	Corp Stress Composite	CORP	AMBER	YELLOW	-	-	2026-02-03	ELEVATED RISK; layoffs/debt high despite record profitability
-VX-HEN-11.01	ES Non-Commercial Net	COT	-99,800	GREEN	P15	OVERSOLD	2026-02-03	Large spec SHORT; contrarian bullish; speculative exhaustion potential
-VX-HEN-11.02	RTY Commercial Percentile	COT	4%	GREEN	P4	EXTREME_BULL	2026-02-03	Extreme hedger long; small-cap outperformance setup
-VX-HEN-11.03	VIX Non-Commercial	COT	SHORT_BIAS	YELLOW	-	RISK_ON	2026-02-03	Speculators short vol; persistent risk-on positioning
-VX-HEN-12.01	NYSE A-D Line	BRD	NEW_HIGH	GREEN	P95	BULLISH	2026-02-03	Cumulative A-D at ATH; no bearish divergence; structural bull intact
-VX-HEN-12.02	High-Low Index	BRD	88.0%	GREEN	>80	STRENGTH	2026-02-03	57 new highs vs 2 new lows; broad participation; +15.8% 7d
-VX-HEN-12.03	McClellan Summation	BRD	2589	GREEN	>+500	BULL	2026-02-03	Structural bull above +500; bear below -500; massive buffer
-VX-HEN-12.04	% Above 50-DMA	BRD	55.66%	YELLOW	P55	NORMAL	2026-02-03	Short-term momentum neutral; pullback-in-bull configuration
-VX-HEN-12.05	Tech Sector Breadth	BRD	45.71%	ORANGE	P35	INTERNAL_ROT	2026-02-03	XLK participation collapsing; only sector <50%; mega-cap mask
-VX-HEN-12.06	Energy Sector Breadth	BRD	95.45%	GREEN	>95	LEADING	2026-02-03	Cyclical leadership; rotation beneficiary
-VX-HEN-12.07	TRIN	BRD	1.28	YELLOW	>1.2	STRESS	2026-02-03	Volume skewing to decliners; institutional selling under surface
-VX-HEN-13.01	MMF Total Assets	FLOW	$7.71T	YELLOW	>99 (ATH)	NONE	2026-02-03	$4.65T institutional + $3.07T retail; structural cash preference
-VX-HEN-13.02	Yield Gap (MMF-SPX EY)	FLOW	+1.1%	YELLOW	P75	CASH_PREF	2026-02-03	Money market yields competitive vs equity earnings yield
-VX-HEN-13.03	QQQ/QQQE Z-Score	FLOW	1.14	ORANGE	P80	MEGA_CONC	2026-02-03	Mega-cap tech concentration widening; broader Nasdaq lagging
-VX-HEN-14.01	Copper/Gold Ratio	MACRO	0.000072	YELLOW	P50	NEUTRAL	2026-02-03	"Gundlach Ratio" - growth vs defensive; rising = bullish; 10Y yield correlated
-VX-HEN-14.02	10Y Real Yield (TIPS)	MACRO	1.90%	ORANGE	P90	RESTRICTIVE	2026-02-03	Approaching 2.0% "restrictive" threshold; P/E compression risk; growth stock headwind
-VX-HEN-14.03	10Y Breakeven Inflation	MACRO	2.35%	YELLOW	P70	STICKY	2026-02-03	Above Fed 2% target by 35bps; "higher for longer" priced; OBBBA refunds may add 0.2-0.3%
-VX-HEN-14.04	Global M2 3mo Growth	MACRO	+1.73%	GREEN	P60	SUPPORTIVE	2026-02-03	$98.57T global M2; broader measure $185T; 80-95% correlated with SPX
-VX-HEN-14.05	10Y-2Y Yield Spread	MACRO	0.72%	GREEN	P55	BEAR_STEEP	2026-02-03	Curve un-inverted after 700+ days; bear steepening = term premium returning
-VX-HEN-14.06	BTC Liquidity Proxy	MACRO	$76,000	RED	P30	WARNING	2026-02-03	Down 40% from $120K; $2.2B liquidation event; leading liquidity indicator; "marginal dollar" withdrawn
-VX-HEN-14.07	Baltic Dry Index	MACRO	2,124	GREEN	P95	EXPANSION	2026-02-03	+192% YoY; global trade accelerating; bullish industrials; physical demand strong
-VX-HEN-14.08	MOVE/VIX Ratio	MACRO	3.62	YELLOW	P65	WATCH	2026-02-03	MOVE 59.20 / VIX 16.34; divergence (MOVE rises/VIX flat) = complacency signal
-VX-HEN-14.09	USD/JPY	MACRO	154.32	ORANGE	P85	CARRY_RISK	2026-02-03	Yen carry trade epicenter; >160 = intervention risk; BOJ hike April = structural yen bid
-VX-HEN-14.10	DXY	MACRO	96.86	YELLOW	P40	WEAKENING	2026-02-03	Down from highs; "policy risk premium" from Warsh; weak DXY = EM relief
+VX-HEN-9.06	IV Percentile (SPX)	GAM	37%	GREEN	P40	STABLE	2026-02-03	Mid-to-low range; stable regime currently [STALE pre-Feb27 — needs live data refresh]
+VX-HEN-9.07	Put-Call OI Ratio	GAM	1.61	YELLOW	P65	HEDGED	2026-02-03	Heavy put hedging presence (institutional); provides gamma floor [STALE pre-Feb27 — needs live data refresh]
+VX-HEN-9.08	Volatility Trigger Level	GAM	~6,880	GREEN	-	-	2026-02-03	SpotGamma prop indicator; below = vol expands; currently ABOVE = stable [STALE pre-Feb27 — needs live data refresh]
+VX-HEN-10.01	Earnings Revision Ratio	CORP	1.05	YELLOW	P50	Late_Cycle	2026-02-03	Up/Down ratio; <1.50=concern; <0.70=recession; currently at late-cycle neutral [STALE — slow-moving metric; quarterly/monthly update cycle]
+VX-HEN-10.02	Guidance Beat/Miss Ratio	CORP	2.43	GREEN	P70	BULLISH	2026-02-03	17 pos / 7 neg; 70.8% positive vs 37.8% 10yr avg; excessive optimism risk [STALE — slow-moving metric; quarterly/monthly update cycle]
+VX-HEN-10.03	Revenue-EPS Gap	CORP	7.8pts	ORANGE	P85	Late_Cycle	2026-02-03	15% EPS growth on 7.2% revenue; financial engineering reliance widening [STALE — slow-moving metric; quarterly/monthly update cycle]
+VX-HEN-10.04	Layoff Acceleration YoY	CORP	+58%	RED	P95	2008-Q4	2026-02-03	1.2M cuts in 2025; highest Q4 since 2008; Gov +703%, Tech +15%, Warehouse +316% [STALE — slow-moving metric; quarterly/monthly update cycle]
+VX-HEN-10.05	S&P Net Profit Margin	CORP	13.2%	YELLOW	>99 (ATH)	NONE	2026-02-03	Record margin; mean reversion risk; 14.2% 2026 target is peak assumption [STALE — slow-moving metric; quarterly/monthly update cycle]
+VX-HEN-10.06	Corp Stress Composite	CORP	AMBER	YELLOW	-	-	2026-02-03	ELEVATED RISK; layoffs/debt high despite record profitability [STALE — slow-moving metric; quarterly/monthly update cycle]
+VX-HEN-11.01	ES Non-Commercial Net	COT	-99,800	GREEN	P15	OVERSOLD	2026-02-03	Large spec SHORT; contrarian bullish; speculative exhaustion potential [STALE pre-Feb27 — needs live data refresh]
+VX-HEN-11.02	RTY Commercial Percentile	COT	4%	GREEN	P4	EXTREME_BULL	2026-02-03	Extreme hedger long; small-cap outperformance setup [STALE pre-Feb27 — needs live data refresh]
+VX-HEN-11.03	VIX Non-Commercial	COT	SHORT_BIAS	YELLOW	-	RISK_ON	2026-02-03	Speculators short vol; persistent risk-on positioning [STALE pre-Feb27 — needs live data refresh]
+VX-HEN-12.01	NYSE A-D Line	BRD	NEW_HIGH	GREEN	P95	BULLISH	2026-02-03	Cumulative A-D at ATH; no bearish divergence; structural bull intact [STALE pre-Feb27 — needs live data refresh]
+VX-HEN-12.02	High-Low Index	BRD	88.0%	GREEN	>80	STRENGTH	2026-02-03	57 new highs vs 2 new lows; broad participation; +15.8% 7d [STALE pre-Feb27 — needs live data refresh]
+VX-HEN-12.03	McClellan Summation	BRD	2589	GREEN	>+500	BULL	2026-02-03	Structural bull above +500; bear below -500; massive buffer [STALE pre-Feb27 — needs live data refresh]
+VX-HEN-12.04	% Above 50-DMA	BRD	55.66%	YELLOW	P55	NORMAL	2026-02-03	Short-term momentum neutral; pullback-in-bull configuration [STALE pre-Feb27 — needs live data refresh]
+VX-HEN-12.05	Tech Sector Breadth	BRD	45.71%	ORANGE	P35	INTERNAL_ROT	2026-02-03	XLK participation collapsing; only sector <50%; mega-cap mask [STALE pre-Feb27 — needs live data refresh]
+VX-HEN-12.06	Energy Sector Breadth	BRD	95.45%	GREEN	>95	LEADING	2026-02-03	Cyclical leadership; rotation beneficiary [STALE pre-Feb27 — needs live data refresh]
+VX-HEN-12.07	TRIN	BRD	1.28	YELLOW	>1.2	STRESS	2026-02-03	Volume skewing to decliners; institutional selling under surface [STALE pre-Feb27 — needs live data refresh]
+VX-HEN-13.01	MMF Total Assets	FLOW	$7.71T	YELLOW	>99 (ATH)	NONE	2026-02-03	$4.65T institutional + $3.07T retail; structural cash preference [STALE pre-Feb27 — needs live data refresh]
+VX-HEN-13.02	Yield Gap (MMF-SPX EY)	FLOW	+1.1%	YELLOW	P75	CASH_PREF	2026-02-03	Money market yields competitive vs equity earnings yield [STALE pre-Feb27 — needs live data refresh]
+VX-HEN-13.03	QQQ/QQQE Z-Score	FLOW	1.14	ORANGE	P80	MEGA_CONC	2026-02-03	Mega-cap tech concentration widening; broader Nasdaq lagging [STALE pre-Feb27 — needs live data refresh]
+VX-HEN-14.01	Copper/Gold Ratio	MACRO	0.000072	YELLOW	P50	NEUTRAL	2026-02-03	"Gundlach Ratio" - growth vs defensive; rising = bullish; 10Y yield correlated [STALE pre-Feb27 — needs live data refresh]
+VX-HEN-14.02	10Y Real Yield (TIPS)	MACRO	1.90%	ORANGE	P90	RESTRICTIVE	2026-02-03	Approaching 2.0% "restrictive" threshold; P/E compression risk; growth stock headwind [STALE pre-Feb27 — needs live data refresh]
+VX-HEN-14.03	10Y Breakeven Inflation	MACRO	2.35%	YELLOW	P70	STICKY	2026-02-03	Above Fed 2% target by 35bps; "higher for longer" priced; OBBBA refunds may add 0.2-0.3% [STALE pre-Feb27 — needs live data refresh]
+VX-HEN-14.04	Global M2 3mo Growth	MACRO	+1.73%	GREEN	P60	SUPPORTIVE	2026-02-03	$98.57T global M2; broader measure $185T; 80-95% correlated with SPX [STALE pre-Feb27 — needs live data refresh]
+VX-HEN-14.05	10Y-2Y Yield Spread	MACRO	0.72%	GREEN	P55	BEAR_STEEP	2026-02-03	Curve un-inverted after 700+ days; bear steepening = term premium returning [STALE pre-Feb27 — needs live data refresh]
+VX-HEN-14.06	BTC Liquidity Proxy	MACRO	$76,000	RED	P30	WARNING	2026-02-03	Down 40% from $120K; $2.2B liquidation event; leading liquidity indicator; "marginal dollar" withdrawn [STALE pre-Feb27 — needs live data refresh]
+VX-HEN-14.07	Baltic Dry Index	MACRO	2,124	GREEN	P95	EXPANSION	2026-02-03	+192% YoY; global trade accelerating; bullish industrials; physical demand strong [STALE pre-Feb27 — needs live data refresh]
+VX-HEN-14.08	MOVE/VIX Ratio	MACRO	3.62	YELLOW	P65	WATCH	2026-02-03	MOVE 59.20 / VIX 16.34; divergence (MOVE rises/VIX flat) = complacency signal [STALE pre-Feb27 — needs live data refresh]
+VX-HEN-14.09	USD/JPY	MACRO	154.32	ORANGE	P85	CARRY_RISK	2026-02-03	Yen carry trade epicenter; >160 = intervention risk; BOJ hike April = structural yen bid [STALE pre-Feb27 — needs live data refresh]
+VX-HEN-14.10	DXY	MACRO	96.86	YELLOW	P40	WEAKENING	2026-02-03	Down from highs; "policy risk premium" from Warsh; weak DXY = EM relief [STALE pre-Feb27 — needs live data refresh]
 VX-HEN-15.01	SPX vs 10-DMA Distance	CTA	~-2.5%	RED	P15	BREAKDOWN	2026-03-03	SPX 6,781 well below 10-DMA. Short-term CTAs fully in SELL mode.
 VX-HEN-15.02	SPX vs 50-DMA Distance	CTA	~-3.5%	RED	P10	BREAKDOWN	2026-03-03	SPX 6,781 below 50-DMA (6,883). Broken. Stage 2 cascade ACTIVE.
 VX-HEN-15.03	SPX vs 200-DMA Distance	CTA	~-1.7%	ORANGE	P30	VULNERABLE	2026-03-03	SPX 6,781 vs 200-DMA ~6,902. Below it. Gamma flip level = 200-DMA.
@@ -74,8 +74,13 @@ VX-HEN-15.04	10/50 DMA Crossover Gap	CTA	~-150pts	RED	P10	BEARISH	2026-03-03	Sho
 VX-HEN-15.05	50/200 DMA Crossover Gap	CTA	~-20pts	YELLOW	P40	CONVERGING	2026-03-03	50-DMA approaching 200-DMA from above. Death cross forming.
 VX-HEN-15.06	Distance to CTA Flip (6707)	CTA	+74pts	RED	-	ARMED	2026-03-03	SPX 6,781 to Goldman CTA trigger at 6,707. Hit 6,672 intraday but no closing break. One bad close = $80B selling over 1-4 weeks.
 VX-HEN-16.01	HY OAS Absolute Level	CREDIT	335-355bps (est)	RED	P85	STRESS	2026-03-03	Crossed 320 prediction threshold. IG issuance ZERO (frozen). >350 = transmission active.
-VX-HEN-16.02	HY OAS 5d Rate of Change	CREDIT	+8bps	GREEN	P50	STABLE	2026-02-11	5-day momentum; +25bps = YELLOW (1-3d lag), +50bps = ORANGE (0-1d lag), +75bps = RED
+VX-HEN-16.02	HY OAS 5d Rate of Change	CREDIT	+8bps	GREEN	P50	STABLE	2026-02-11	5-day momentum; +25bps = YELLOW (1-3d lag), +50bps = ORANGE (0-1d lag), +75bps = RED [STALE pre-Feb27 — needs live data refresh]
 VX-HEN-16.03	Credit-Equity Transmission Status	CREDIT	ACTIVE	RED	-	TRANSMITTING	2026-03-03	HY OAS widening → equity selling with 1-3 session lag. H4 rule: equity cannot bottom until HY OAS peaks. OAS still rising.
-VX-HEN-17.01	Aggregate Tech SBC Dilution Rate	CORP	4.8%	ORANGE	P90	LATE_CYCLE	2026-02-12	Weighted avg annual dilution: NVDA ~3.2%, TSLA 3.6%, PLTR 6.5%; Mag 7 avg ~4-5%; structural headwind
-VX-HEN-17.02	SBC/Adj Earnings Ratio (Tech)	CORP	38%	RED	>99	NONE	2026-02-12	SBC as % of "adjusted" earnings; Burry: 30-50% overstatement; PLTR extreme case; reality check on multiples
-VX-HEN-17.03	Buyback Efficiency (Share Count)	CORP	NEGATIVE	RED	P99	NONE	2026-02-12	NVDA: $91B buybacks = ZERO net reduction; "buyback to nowhere"; AI capex > buybacks = dilution continues
+VX-HEN-17.01	Aggregate Tech SBC Dilution Rate	CORP	4.8%	ORANGE	P90	LATE_CYCLE	2026-02-12	Weighted avg annual dilution: NVDA ~3.2%, TSLA 3.6%, PLTR 6.5%; Mag 7 avg ~4-5%; structural headwind [STALE — slow-moving metric; quarterly/monthly update cycle]
+VX-HEN-17.02	SBC/Adj Earnings Ratio (Tech)	CORP	38%	RED	>99	NONE	2026-02-12	SBC as % of "adjusted" earnings; Burry: 30-50% overstatement; PLTR extreme case; reality check on multiples [STALE — slow-moving metric; quarterly/monthly update cycle]
+VX-HEN-17.03	Buyback Efficiency (Share Count)	CORP	NEGATIVE	RED	P99	NONE	2026-02-12	NVDA: $91B buybacks = ZERO net reduction; "buyback to nowhere"; AI capex > buybacks = dilution continues [STALE — slow-moving metric; quarterly/monthly update cycle]
+VX-HEN-18.01	MOVE Index (Absolute Level)	CREDIT	~110-120 (est)	ORANGE	P75	CASCADE_RISK	2026-03-03	NEEDS LIVE DATA. Last STATUS.md note: "Rising" toward >100 divergence warning. Est 110-120 based on VIX 26.43 context. Source: ICE BofA MOVE Index. >100=divergence warning; >130=credit stress zone. [EST — based on VIX/credit regime; confirm via Bloomberg/ICE]
+VX-HEN-18.02	VIX Term Structure (Spot vs 1M Futures)	VOL	UNKNOWN	ORANGE	-	WATCH	2026-03-03	NEEDS LIVE DATA. With VIX spot at 26.43, check VX front-month futures vs spot. Backwardation (spot > futures) = panic/term-premium signal. Contango (futures > spot) = normalized vol. Current VIX 26.43 suggests elevated but need futures spread to confirm panic vs elevated-but-orderly. Source: CBOE VX futures. Backwardation threshold: spot premium >2pts = ORANGE; >5pts = RED
+VX-HEN-18.03	CLO AAA Spreads	CREDIT	UNKNOWN	ORANGE	P70	WATCH	2026-03-03	NEEDS LIVE DATA. Added per STATUS.md "CLO spreads added to watch list" (Feb 27 credit-primary reframe). CLO AAA normally 100-130bps in stable markets; >160bps = stress; >200bps = crisis. With HY OAS est 335-355bps and credit contagion active, CLO AAAs likely widening. Source: Palmer Square CLO index / JP Morgan CLO data. [STALE — no confirmed current reading]
+VX-HEN-18.04	Put/Call Skew (25-Delta)	VOL	UNKNOWN	RED	-	ELEVATED	2026-03-03	NEEDS LIVE DATA. 25-delta skew measures cost of OTM puts vs OTM calls. With VIX 26.43 and put wall breached, skew almost certainly elevated (puts expensive relative to calls). Normal skew: 2-5 vol pts. Stress skew: >8 vol pts. Cascade zone skew: >12 vol pts. This is a direct measure of tail-risk demand and dealer hedging cost. Source: CBOE SKEW Index (alt: OptionMetrics). Current regime likely >10 vol pts. [STALE — needs live options chain data]
+VX-HEN-18.05	GEX Daily Estimate (SPX)	GAM	~-$2B to -$5B (est)	RED	-	NEGATIVE_GAMMA	2026-03-03	NEEDS LIVE DATA. Net GEX was ~$62B/1% positive (Feb 3). With SPX below gamma flip (6,902), GEX has flipped NEGATIVE. Negative GEX = dealers SHORT gamma = they SELL when market falls, BUY when it rises = amplification, not dampening. Est negative GEX based on: (1) SPX 6,781 below gamma flip 6,902, (2) VIX 26.43, (3) put wall breached. Source: SqueezeMetrics (free EOD) or SpotGamma. [EST based on structural position — confirm daily]
