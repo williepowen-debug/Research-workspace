@@ -1,10 +1,16 @@
-# MARCO INBOX
+# INBOX — Pending Signals
 
-Signals routed by Prome. Process on session start: INTEGRATE, UPDATE, ARCHIVE, or DISCARD.
-
-See `docs/SIGNAL_ROUTING.md` for protocol.
+*No pending signals. Last processed: 2026-02-20 04:40 UTC (Florida Migration Collapse)*
 
 ---
 
-<!-- New signals below this line -->
+**Instructions:**
+This is MARCO's signal inbox. PROME routes signals here for processing.
 
+For each signal, decide:
+- **INTEGRATE** → Update STATUS.md
+- **LOG** → Add entry to ML.tsv
+- **VECTOR** → Update VX.tsv
+- **DISCARD** → Delete if not relevant
+
+Clear processed signals after handling, keeping only this header.

@@ -377,3 +377,13 @@ ML-HANS-372	2026-02-18	Flash_PMI_Playbook	S&P Global Flash US PMI at 14:45 UTC (
 ML-HANS-373	2026-02-18	Flash_PMI_Playbook	Key sub-indices to watch: New Orders (leading), Output (was 51.4 in Jan), Employment (structural decline), Business Expectations	RP-HANS-9 analysis	RP-HANS-9
 ML-HANS-374	2026-02-18	Flash_PMI_Playbook	Risk to thesis (upside): German election fiscal boost (CDU likely Feb 23); China demand surge; EU tariff exemptions	RP-HANS-9 risk analysis	RP-HANS-9
 ML-HANS-375	2026-02-18	Flash_PMI_Playbook	Optimal put expiry: April 2026 — captures March ISM sub-50 if thesis plays out; March expiry too tight	Trade sizing recommendation	RP-HANS-9
+ML-HANS-376	2026-03-04	War_Energy	Hormuz fire-upon warning issued — effective closure. 70% tanker traffic down. 3 tankers hit, 1 seafarer killed. War risk insurance cliff Mar 5.	Subagent brief	RP-HANS-10 update
+ML-HANS-377	2026-03-04	War_Energy	Israel struck Tehran + Beirut (Mar 3) — war expanding beyond US-Iran bilateral. More parties = harder ceasefire math.	Subagent brief	Crisis update
+ML-HANS-378	2026-03-04	War_Energy	Qatar LNG structurally offline — Ras Laffan + Mesaieed hit; QatarEnergy halted ALL LNG exports. 77 mtpa global impact (21% world LNG).	Subagent brief	RP-HANS-10 update
+ML-HANS-379	2026-03-04	War_Energy	Ukraine refinery strikes now STRUCTURAL (not just operational) — Russian oil processing capacity degraded for months, not weeks.	Subagent brief	Crisis update
+ML-HANS-380	2026-03-04	Ceasefire_Prob	Ceasefire probability REVISED: 30-day 12% (from 85% stale), 60-day 30%, 90-day 45%. War active, Israel expansion, no off-ramp visible.	Analysis	STATUS.md update
+ML-HANS-381	2026-03-04	Defense_Spending	Germany €500B defense/infrastructure package announced — constitutional debt brake suspended. EU targeting 3% GDP defense.	Subagent brief	New signal
+ML-HANS-382	2026-03-04	Defense_Spending	European defense issuance surge: €800B-1.2T additional sovereign bonds over 5 years. Duration supply = UST headwind for global fixed income.	Analysis	New signal
+ML-HANS-383	2026-03-04	Energy_Storage	EU gas storage ~22% avg starting refill season with Qatar LNG offline. Storage target <60% by Oct if shortfall persists (vs 90%+ target).	Analysis	Crisis update
+ML-HANS-384	2026-03-04	Diesel_Double	ARA diesel crack re-accelerating: Ukraine structural refinery damage + EU 18th sanctions on India/Turkey loophole = ~$25/bbl (from $21).	Analysis	New signal
+ML-HANS-385	2026-03-04	German_PMI	German Flash PMI Feb 2026: Manufacturing 50.7 (vs 49.5 exp, BEAT), Services 53.4, Composite 53.1. First mfg expansion since Jun 2022.	S&P Global Feb 21	Complicates deindustr. thesis

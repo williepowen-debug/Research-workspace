@@ -1,5 +1,7 @@
 # LIQUID STATUS
-**Last Updated:** 2026-03-03 23:45 UTC | **Status:** 🔴 CRITICAL — MAXIMUM ALERT
+**Last Updated:** 2026-03-04 02:55 UTC | **Status:** 🔴 CRITICAL — MAXIMUM ALERT
+
+**MAR 4 02:40 UTC UPDATE:** VX.tsv updated with 5 new credit vectors (HY OAS, IG OAS, IG Primary Issuance, VIX, BCRED cap). OUTBOX.md signals posted to HENRY, REGINALD, BROCK, HAWK, SAM. HY OAS Mar 3 EOD still ESTIMATED (~335-355bps) — ICE BofA confirms this morning. If confirmed >320bps, Prediction #17 formally locked. IG issuance halt at 2 consecutive days = systemic red flag. BCRED partial gate = Prediction #18 candidate pending BROCK confirmation.
 
 **Summary:** War day 4 (EOD session check-in). **KEY CORRECTION: ICE BofA HY OAS Mar 2 CONFIRMED 303bps (FRED), NOT 312bps — spreads tightened on the Mar 2 recovery.** IG OAS confirmed 85bps (NOT 118bps — prior estimates were badly miscalibrated). Mar 3 ICE data publishes Mar 4 AM. **Mar 3 EOD estimates remain 335–355bps HY OAS** based on BCRED shock (record 7.9% redemptions, BX -8% intraday), VIX 26.43 (+23% vs Mar 2 close of 21.44), S&P 6,781 (vs 6,881 Mar 2 close). BCRED raising cap 5→7% = partial gate on $82B fund = confirmed private credit stress transmission. **Prediction #17 ACHIEVED: HY OAS 320bps — LIKELY crossed Mar 3 if estimates hold.** SOFR Mar 2 confirmed: 3.71% median, 3.67–3.82% range — 99th pct +17bps above IORB. RRP Mar 3: $1.2B (CONFIRMED zero buffer). IG primary market ZERO. Hormuz closed. BCRED is the single most important signal today — it confirms the private credit → public market transmission chain is ACTIVE.
 
@@ -45,6 +47,7 @@
 | **iTraxx Main (IG)** | **Est. ~60–65bps (Mar 3)** | 🟠 | Highest since mid-Oct 2025 |
 | **US IG Primary Market** | **ZERO — market frozen (both Mon + Tue)** | 🔴 | 2-day issuance halt = systemic signal |
 | IG OAS | **85bps (Mar 2 FRED CONFIRMED); est. 95–105bps Mar 3** | 🟠 | CORRECTION: Prior 118bps estimate was WRONG. Actual far lower. Recalibrated. |
+| **CLO AAA Spread** | **~125bps (REGINALD Mar 4) — was 115bps** | **🟡** | **25bps to YELLOW (130bps); 25bps to ORANGE (150bps) = BDC→FHLB fire** |
 | CLO Equity (Eagle Point) | -15% since Dec | 🔴 | First-loss absorbing |
 | CLO Equity (Oxford Lane) | -25% since Dec | 🔴 | |
 | CLO Equity (Carlyle/Sound Point) | -30% to -40% | 🔴 | Extreme |
@@ -108,7 +111,7 @@
 |---|-----------|--------|---------|
 | 1 | **Basis trade unwind** | 🔴 STRESSED | Repo breaks → 40-50% of Treasury demand vanishes → yield spike → cascade. Fed intervening via SRF + stealth QE but losing control. |
 | 2 | **SRF ceiling breach** | ✅ CONFIRMED | GSIB SLR constraints prevent arbitrage → SOFR above SRF rate. Confirmed Dec 31 (+12bps). |
-| 3 | **Japan repatriation** | 🟡 LATENT | BOJ hike or USDJPY >160 → $60-100B selling → yield spike. SAM monitors. War may trigger via yen strengthening. |
+| 3 | **Japan repatriation** | 🟠 ELEVATED | SAM Mar 4: USDJPY 157-158 = Phase 1 (weak yen, safe). **Phase 2 (yen <150) = 50-70% prob within 30-60 days.** Phase 2 → Sumitomo forced selling + repatriation → $60-100B UST selling. Window: April-May, overlapping TGA drain + Warsh transition. ML-LIQ-062. |
 | 4 | **TGA drain** | 🟡 LATENT | April tax season → Treasury rebuilds TGA → reserves drain 1:1 → approach floor. |
 | 5 | **FOI exit cascade** | 🟠 ACTIVE | $300B/yr hole. No 2016 QE offset. Replacement = levered basis trade HFs at 18:1. System fragility increasing. |
 

@@ -1,5 +1,5 @@
 # REGINALD STATUS
-**Last Updated:** 2026-03-04 02:00 UTC | **Status:** 🔴 CRITICAL — STAGFLATION TRAP ACTIVE + KRE ~$64.90 EOD (-2.2% Mar 4 est) + S&P 6,781 (-0.52% Mar 4) + VIX 26.43 + BCRED NEAR-GATE ($3.7B redemptions, cap lifted 5%→7%) + HY OAS ~335-355bps (CROSS-AGENT TRIGGER ACTIVE: >300bps) + CRE MODS $27.7B (+66% YoY) + FL MIGRATION -93%
+**Last Updated:** 2026-03-04 02:45 UTC | **Status:** 🔴 CRITICAL — STAGFLATION TRAP ACTIVE + KRE ~$64.90 EOD (-2.2% Mar 4 est) + S&P 6,781 (-0.52% Mar 4) + VIX 26.43 + BCRED NEAR-GATE ($3.7B redemptions, cap lifted 5%→7%) + HY OAS ~335-355bps (CROSS-AGENT TRIGGER ACTIVE: >300bps) + CRE MODS $27.7B (+66% YoY) + FL MIGRATION -93%
 
 **Known Data Issues:** OZK earnings April 16 (not Feb). PSEC PIK verified 8.6% (not 35%). FSK position CLOSED (thesis confirmed). KRE price in VX is stale — use watchlist table below.
 
@@ -132,6 +132,25 @@ Eight independent channels terminate at regional banks.
 | **Apr 16** | OZK Q1 earnings |
 | Apr 20-29 | Q1 bank earnings wave (ZION → WAL → VLY → EGBN) |
 | May 12 | WAL Investor Day |
+
+---
+
+## HORMUZ → FLORIDA ENERGY SHOCK CASCADE
+
+**Hormuz Closed Mar 2, 2026 (IRGC confirmed).** 70%+ tanker traffic halt. Brent ~$118-125, +10% this week. DB scenario: $200 full closure.
+
+**FL-specific transmission (COMPOUND SQUEEZE):**
+| Layer | Mechanism | Bank Impact |
+|-------|-----------|------------|
+| Energy costs | FL LNG import terminal exposure; utility bills spike | HOA cash flow stress |
+| HOA + SIRS mandates | Already $5K-$15K/door; energy adds to assessments | Forced selling → collateral impairment |
+| Insurance (+50% YoY) | No relief; energy shock raises rebuild costs | Underwriting deterioration |
+| Migration -93% | No buyer pool; demand destruction | SSB, VLY: no exit |
+
+**Net effect on positions:**
+- **SSB $90P Jun**: FL MF thesis ACCELERATED — energy shock = incremental demand destruction in already broken market
+- **VLY**: 27% FL ($7.4B) — energy compound squeeze hits multifamily NOI and valuations
+- 10Y at 4.10% RISING = stagflation confirmed = Fed cannot cut = no NIM relief = CRE refi wall stays locked
 
 ---
 
