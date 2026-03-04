@@ -83,4 +83,70 @@ The Fed is boxed:
 
 ---
 
+---
+
+## District Deep Dive: New York (Second District)
+
+**Activity:** Declined modestly. Finance sector **contracted slightly.**
+
+**Employment — Sector Breakdown (critical for NFP):**
+| Sector | Direction |
+|--------|-----------|
+| Retail | **Sharp decline** |
+| Construction | **Sharp decline** |
+| Transportation | Modest decline |
+| Business services | Modest decline |
+| Health care | Modest decline |
+| Leisure/hospitality | Modest decline |
+| Wholesale | Growth |
+| Information | Growth |
+| Education | Growth |
+| Manufacturing | Steady |
+
+**"Low-hire, low-fire" environment** — labor supply exceeds demand. Marketing and HR professionals softening (white-collar).
+
+**Price signals:**
+- Tariffs = major driver of input cost pressure
+- Food companies doing **shrinkflation** (reducing quantity, holding price) — stealth inflation
+- One firm opened a credit line just to manage elevated costs — cash flow stress
+- **Sharp increases in health insurance and utilities** — "challenging sustainability of businesses"
+- Steel costs and selling prices rising
+- Service firms expect easing for first time in a year, but manufacturers expect elevated pace to continue
+
+**Consumer — K-Shape Confirmed:**
+- Sales gains "concentrated among higher-income consumers" — smaller retailers saw sharp decline
+- Major retailer revenue beat was driven by **tariff price pass-through, not volume** — strip out price = volumes DOWN
+- Upstate NY auto sales: "exceptionally slow start to the year" — affordability + uncertainty
+- Higher-income consumers still price-conscious, shopping multiple outlets
+
+**Services — Worse Than ISM 56.1 Suggests:**
+- Services sector **contracted MODERATELY**
+- Leisure/hospitality: sharp decline
+- Business services: declined significantly
+- Small firms struggling; large firms navigating via AI
+- Government research funding instability hitting firms (DOGE effect)
+
+**Banking — Early Credit Stress:**
+- Finance sector contracted slightly
+- Consumer loan + residential mortgage demand declined
+- **Delinquency rates up slightly**
+- One contact: **tighter credit standards for business loans + commercial mortgages**
+- Deposit rates moving lower = NIM pressure
+- Commercial mortgage demand edged up (extend-and-pretend refinancing cycle?)
+
+**Real Estate — Frozen Market:**
+- Inventory declined further from already low levels
+- NYC rents at ALL-TIME HIGH
+- Lower-quality office rents slumping — bifurcation
+- Construction declining across district
+- Affordable housing blocked by: costs, insurance, interest rates, complexity
+
+**Community — Arrears Rising:**
+- Housing arrears increasing
+- Public housing severely constrained
+- Low/moderate-income households strained by prices + rents
+- **Rising insurance expenses** specifically cited as barrier
+
+---
+
 *Source: Federal Reserve Beige Book, March 4, 2026. Data collected on or before February 23, 2026.*
