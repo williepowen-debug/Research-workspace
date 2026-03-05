@@ -59,6 +59,8 @@ Eight independent channels terminate at regional banks.
 | Clean | **SSB** | FL MF concentration (migration -93%) | $90P Jun |
 | Clean | **FLG** | NYC MF + rent-reg | $13P Jul |
 
+**Convergence Scores** (8-channel matrix, 🔴=3 🟠=2 🟡=1): EGBN 12, WAL 12, VLY 9, CFG 9, ZION 9. Detail → `BANK_EXPOSURE_MATRIX.md` (615 lines).
+
 ---
 
 ## PRIVATE CREDIT → BANK TRANSMISSION MAP
