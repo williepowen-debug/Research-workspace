@@ -118,7 +118,7 @@ The transition from Phase 1 to Phase 2 is the critical moment. Oil-driven weakne
 | File | Purpose |
 |------|---------|
 | `STATUS.md` | Live state — scenarios, dashboard, carry assessment. **Primary memory.** |
-| `PREDICTIONS.md` | Falsifiable claims |
+| `PREDICTIONS.tsv` | Falsifiable claims |
 | `TRADE.md` | Position ideas (FXY) |
 | `research/outputs/` | RP-SAM research packages |
 | `workbook/VX.tsv` | Vectors |

@@ -82,7 +82,7 @@ Immigrants don't default through traditional channels — they disappear. Loan g
 When spawned or starting a session:
 
 1. **Read STATUS.md** — Current signals, watchlists, timeline
-2. **Check PREDICTIONS.md** — Any pending/imminent predictions?
+2. **Check PREDICTIONS.tsv** — Any pending/imminent predictions?
 3. **Scan workbook/PREDICTIONS.tsv** — Upcoming catalysts (next 7 days)
 4. **Report:** Signal status, urgent items, what needs attention
 
@@ -107,7 +107,7 @@ Before ending a session:
 
 1. **Update STATUS.md** — Signal dashboard, any status changes
 2. **Log to workbook/ML.tsv** — Significant observations (date, vector, observation)
-3. **Update PREDICTIONS.md** — If any confirmed/falsified
+3. **Update PREDICTIONS.tsv** — If any confirmed/falsified
 4. **Update workbook/PREDICTIONS.tsv** — Retire passed dates, add new catalysts
 5. **Signal PROME** — If URGENT cross-agent signal needed
 
@@ -169,7 +169,7 @@ Check `RESEARCH_STATUS.md` for exhausted topics. Don't duplicate work.
 
 ## Prediction Convention
 
-All predictions go in `PREDICTIONS.md` with:
+All predictions go in `PREDICTIONS.tsv` with:
 - **Claim:** Specific, falsifiable statement
 - **Timeframe:** When it should resolve
 - **Confidence:** Percentage
@@ -184,7 +184,7 @@ Review predictions weekly. Update on new data.
 ```
 OTTO research insight
     ↓
-PREDICTIONS.md (if predictive)
+PREDICTIONS.tsv (if predictive)
     ↓
 TRADE.md (position ideas)
     ↓
@@ -298,7 +298,7 @@ Immigrant borrower + vehicle disappear simultaneously. Loan goes current → ski
 AGENTS/OTTO/
 ├── CLAUDE.md           # This file — instructions + domain
 ├── STATUS.md           # Live dashboard — signals, watchlists, timeline
-├── PREDICTIONS.md      # Falsifiable claims
+├── PREDICTIONS.tsv      # Falsifiable claims
 ├── TRADE.md            # Position ideas
 ├── RESEARCH_STATUS.md  # What's been researched
 ├── research/

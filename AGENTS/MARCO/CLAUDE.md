@@ -108,7 +108,7 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 |------|---------|
 | `STATUS.md` | Live state — dashboard, active situations, predictions. **Primary memory.** |
 | `TRADE.md` | Position ideas |
-| `PREDICTIONS.md` | Full prediction detail |
+| `PREDICTIONS.tsv` | Full prediction detail |
 | `RESEARCH_STATUS.md` | Research tracking (check before starting new research) |
 | `baselines/` | Airport data, tourism baselines |
 | `domain/sources/` | Research archives, STATUS backups |
