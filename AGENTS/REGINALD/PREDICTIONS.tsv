@@ -9,7 +9,7 @@ REG-07	2026-02-23	SSB NPL migration >0.5% from substandard	55%	Q2-Q3 2026	OPEN		
 REG-08	2026-02-23	KRE breaks below $65	45%	H1 2026	OPEN			KRE holds >$70 through Q2	
 REG-09	2026-02-23	At least one Tier 2 bank (VLY, CFG, ZION) misses Q1 earnings	50%	Apr 2026	OPEN			All three beat/meet estimates	
 REG-10	2026-02-23	PSEC cuts dividend in 2026	65%	2026	FAILED	2026-02-10	❌ WRONG	PSEC maintains dividend	Maintained Feb 9-10. PIK elevated but NII coverage sufficient.
-REG-11	2026-02-23	At least one major BDC (PSEC, FSK, TCPC) cuts dividend	55%	H1 2026	OPEN			All maintain dividends through H1	BROCK dependency
+REG-11	2026-02-23	At least one major BDC (PSEC, FSK, TCPC) cuts dividend	55%	H1 2026	CONFIRMED	2026-02-25	✅ CORRECT	All maintain dividends through H1	FSK div -31% confirmed Feb 25
 REG-12	2026-02-23	BDC sector average PIK exceeds 25%	60%	Q2 2026	OPEN			PIK declines to <20%	BROCK dependency
 REG-13	2026-02-23	2+ convergence channels fire simultaneously	55%	H1 2026	OPEN			Channels fire sequentially with >3mo gaps	LABOR dependency (employment)
 REG-14	2026-02-23	Multi-channel bank (WAL, VLY, ZION) underperforms pure-play	50%	Q1-Q2 2026	OPEN			Multi-channel banks outperform KRE	

@@ -21,7 +21,7 @@ You coordinate sub-agents: BROCK (BDC/private credit), CREED (CRE market-level),
 
 1. **Read `STATUS.md`** — sub-agent dashboard, FHLB level, bank watchlist, matrix scores
 2. **Read `LESSONS.md`** — mistake patterns to avoid
-3. **Check sub-agent STATUS files if relevant** — `../../BROCK/STATUS.md` (top-level agent), `sub-agents/CREED/STATUS.md`, `sub-agents/CORAL/STATUS.md`
+3. **Check sub-agent STATUS files if relevant** — `../BROCK/STATUS.md` (top-level agent), `sub-agents/CREED/STATUS.md`, `sub-agents/CORAL/STATUS.md`
 4. **Execute the task**
 5. **Write results back to `STATUS.md`** — update watchlist, thresholds, sub-agent dashboard
 6. **Research detail → `domain/sources/`**
@@ -149,16 +149,14 @@ Metropolitan Capital failed with 61% true CRE (labeled 10.7%). Three masking lev
 | `INBOX.md` | Incoming cross-agent signals |
 | `OUTBOX.md` | Outgoing signals (HERMES delivers) |
 | `BANK_EXPOSURE_MATRIX.md` | Multi-channel scoring ("The Matrix") — 614 lines, reference doc |
-| `WATCHLIST.md` | **DEPRECATED** — merged into STATUS.md |
 | `PREDICTIONS.tsv` | **Canonical** — falsifiable predictions with invalidation criteria |
-| `PREDICTIONS.md` | **DEPRECATED** — migrated to .tsv |
 | `OZK/` | OZK-specific analysis (10-K, STATUS) |
 | `domain/sources/` | Primary source docs (Call Reports, FDIC, WAL research, Hidden CRE screens) |
 | `research/` | Research outputs (FL convergence, fraud contagion, FHLB haircuts, LP liquidity) |
 | `workbook/VX.tsv` | Indicator vectors (59 rows) |
 | `workbook/ML.tsv` | Knowledge base (113 rows) |
 | `workbook/FLOW.tsv` | Transmission mechanics (22 rows) |
-| `workbook/PREDICTIONS.tsv` | Prediction tracking (TSV format) |
+| `workbook/THESIS_VALIDATION.md` | Thesis confirmation/invalidation criteria + dependency maps |
 | `workbook/OTTO_INTEL.md` | Cross-agent intel from OTTO (307 lines) |
 
 ### Sub-Agent Files (read on demand, not at boot)
