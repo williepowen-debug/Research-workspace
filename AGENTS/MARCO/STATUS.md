@@ -1,7 +1,7 @@
 # MARCO STATUS
-**Last Updated:** 2026-03-04 13:30 UTC | **Status:** 🔴 RED
+**Last Updated:** 2026-03-05 13:30 UTC | **Status:** 🔴 RED
 
-**Summary:** Population movement disruptions creating localized stress in Tier-1 states (FL/TX/CA/AZ). Florida thesis CONFIRMED at 95% confidence — migration collapsed 93% (311K→23K, #1→#8 destination). Canadian tourism structural rupture (-28% YoY, airlines physically redirected aircraft). DHS shutdown Day **18**, still unresolved — Senate vote attempted Mar 3, betting markets lean longer; TSA Mar 14 paycheck miss risk live. ADP Feb: +63K (vs 130K consensus); professional/biz services -30K — SUPPORTS WFD thesis, staffing sector contraction consistent with undocumented workforce exit. **Mexico remittances Jan 2026: -1.4% YoY ($4.594B) — first January decline since 2015, continues FY2025 -4.6% trend. H-2A 2026: AEWR spikes (MI/IL >$18.50/hr) triggering "catastrophic" processing shortfalls per DOL alert — planting season stress accelerating.** 2.2M self-deportations in 2025 = labor supply shock 10-15x larger than -155K ag figure. Americans emigrating at rates not seen since 1930s (WSJ).
+**Summary:** Population movement disruptions creating localized stress in Tier-1 states (FL/TX/CA/AZ). Florida thesis CONFIRMED at 95% confidence — migration collapsed 93% (311K→23K, #1→#8 destination). Canadian tourism structural rupture (-28% YoY, airlines physically redirected aircraft). DHS shutdown Day **19**, STILL unresolved — Iran leverage FAILED to move Democrats (The Hill Mar 4); House teed new bill but Senate dead-on-arrival; **TSA Mar 14 paycheck miss now near-certain path unless surprise deal**. ADP Feb: +63K (vs 130K consensus); NFP Feb (Mar 6) forecast 35-60K — well below prior 130K, could be macro-confirmation of WFD thesis. **Mexico remittances Jan 2026: -1.4% YoY ($4.594B), avg transfer -7.5% to $412 — first January decline since 2015. H-2A 2026: DOL switched to two-tier AEWR methodology (Skill I / Skill II) entering planting season — adds processing complexity on top of existing bottleneck. Illinois state bill introduced to ban law enforcement from hiring ICE officers — state-level enforcement divergence accelerating.** 2.2M self-deportations in 2025 = labor supply shock 10-15x larger than -155K ag figure. Americans emigrating at rates not seen since 1930s (WSJ).
 
 ---
 
@@ -28,15 +28,18 @@
 - Oil spike → airline fuel costs → potential further capacity cuts to FL routes
 - **Scenario change:** If DHS funded this week → E-Verify resumes immediately → enforcement surges → ag/construction labor shock accelerates INTO planting season (worst timing). Mar 14 TSA walkout risk drops significantly if resolution happens before paycheck miss.
 
-### DHS Shutdown (Day 18, ongoing — UPDATED Mar 4)
-- Senate vote attempted Mar 3 — result unclear; betting markets (Polymarket/Kalshi) lean toward longer continuation
+### DHS Shutdown (Day 19, ongoing — UPDATED Mar 5)
+- **Iran leverage strategy FAILED** — "Iran conflict fails to move Democrats in DHS shutdown fight" (The Hill, Mar 4). War framing did not shift Dem calculus.
+- House teed up YET ANOTHER DHS funding bill (Mar 4-5) — but Senate dead on arrival; Dems still blocking filibuster threshold
+- Senate vote attempted Mar 3 — failed. No new Senate vote scheduled as of Mar 5.
 - E-Verify SUSPENDED since Day 1 — BREACHED (>7 day threshold)
 - TSA partial paycheck: Feb 28 (already received reduced pay)
-- **TSA full paycheck miss: Mar 14** — 10 days out; walkout risk during spring break peak (2.5M/day screened)
+- **TSA full paycheck miss: Mar 14** — 9 days out; walkout risk during spring break peak (2.5M/day screened); **path to resolution now unclear — treat Mar 14 risk as elevated**
 - OBBBA backstop ($155B remaining) keeps ICE/CBP operational — enforcement continues
 - Noem grilled at Senate hearing over ICE raids in Minneapolis — political cost rising for both sides
 - H-2A processing bottlenecked during planting season (Mar-May); shutdown adds visa processing delays
 - Air Transat canceled ALL 11 Canada→US summer routes including Fort Lauderdale
+- **State-level divergence accelerating:** Illinois Senate bill introduced to prohibit law enforcement from hiring individuals serving as federal immigration officers — if passed, formal legal firewall against ICE cooperation
 
 ### Florida Migration Collapse (Census, Feb 2026)
 - Net domestic migration: 311K (2022) → 185K → 63K → **22.5K (2025)** = **93% collapse**
@@ -65,6 +68,10 @@
   - AEWR spikes: Michigan and Illinois >$18.50/hr entry-level. True cost with housing/transport/WC insurance: "astronomical"
   - Midwest farms deploying autonomous drone swarms (DJI Agras T40) as emergency labor substitution
   - DOL bureaucratic delays + wage hikes = processing crisis entering peak demand season
+- **NEW: DOL 2026 AEWR methodology switch to two-tier system (Mar 5)**
+  - DOL now uses Skill Level I (entry-level, lower) and Skill Level II (higher) instead of single AEWR per state
+  - Change was triggered by DOL citing sudden drop in undocumented workers — formally acknowledging fear-withdrawal as policy driver
+  - Adds complexity to H-2A applications entering peak planting demand; farms adapting software/payroll systems mid-season
 - Fear-withdrawal confirmed in MN (-12% H-2A), WA (cherry crop losses), NC (documented stress)
 - CA more complex — high AEWR ($19.75) is primary driver, not fear
 - FL outlier — H-2A expanding (+9K) despite enforcement
@@ -260,8 +267,8 @@ Mexican shopper revenue collapse: Laredo 51%→13%, Brownsville 26%→3.3%, El P
 | Date | Event | Significance |
 |------|-------|-------------|
 | **Mar 4** | DHS shutdown Day 18, unresolved | Betting markets lean longer; political deal still possible |
-| **Mar 6** | NFP (Feb) | 🔴 HIGH STAKES after ADP +63K miss — confirms or denies displacement thesis |
-| **Mar 14** | TSA full paycheck miss | Walkout trigger — spring break peak — RISK DROPS if DHS funded this week |
+| **Mar 6** | NFP (Feb) — TOMORROW | 🔴 CRITICAL — forecasts 35-60K (prior 130K); Kiplinger 35K; confirms/denies WFD macro thesis; shutdown may delay BLS report |
+| **Mar 14** | TSA full paycheck miss | Walkout trigger — spring break peak — **resolution path now unclear; treat as high risk** |
 | ~Mar 20 | Statistics Canada Jan 2026 | First 2026 Canadian data |
 | Mar-May | Planting season | Ag fear-withdrawal peak risk window |
 | Q1-Q2 | Thompson Ag Labor Bill release | H-2A year-round reform (dairy, meatpacking) |

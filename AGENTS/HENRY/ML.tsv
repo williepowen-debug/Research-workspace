@@ -5,4 +5,5 @@ Date	Event	My_Est	Actual	Consensus	Error	Direction_Correct	Notes
 2026-03-04	ISM Services Feb (New Orders)	~54	58.6	N/A	-4.6	N/A	Surge likely front-running. Watch March for reversal.
 2026-03-04	ISM Services Feb (Backlog)	~44	55.9	N/A	-11.9	N/A	+11.9pt single-month jump = front-running signal. First expansion in 12 months.
 2026-03-04	ADP Feb Employment	~100K (watch)	63K	130K	N/A	YES (weak)	Massive miss. Small biz only source of growth. Medium firms NEGATIVE.
+2026-03-05	Initial Claims (wk)	210-225K	222K	216K	-6K	YES (elevated)	Above est but 🟢 (<230K). Noisy week (war + DHS shutdown). 4wk avg ~220K. First clean read Mar 12. No threshold breach.
 2026-03-03	HY OAS (FRED)	335-355bps (LIQUID est)	308bps	N/A	~30bps too high	YES (stressed)	LIQUID model overestimated by 30bps. Stressed not crisis. Recalibration needed.
