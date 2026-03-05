@@ -40,14 +40,32 @@ Agent STATUS files (`AGENTS/*/STATUS.md`): read on-demand, NOT at boot.
 
 ## Every Session End (Handoff)
 
-### Required
+### Before `/clear` — Checkpoint Handoff
+Quick and dirty. Preserves what compaction would lose.
+1. **Append to `memory/YYYY-MM-DD.md`:**
+```
+## Checkpoint [HH:MM UTC]
+**Context:** [one sentence — what we were doing]
+**Changed:** [files touched this segment]
+**Next:** [what's queued up]
+```
+2. **`git add -A && git commit -m "checkpoint"`**
+
+### Before `/new` — Full Handoff
+Required. Compacted context won't survive.
 1. **`memory/YYYY-MM-DD.md`** — Start with "Last context:" sentence
 2. **`PROME/STATUS.md`** — Update dashboard
 3. **`MEMORY.md`** — Add learnings worth keeping
 4. **Commit and push**
 
-### If Applicable
+### If Applicable (either type)
 5. USER.md, PREDICTIONS.md, LESSONS.md, CALENDAR.md, FORGE/STATUS.md
+
+### Session Reset Strategy
+- **`/clear`** — Wipes conversation but OpenClaw creates a compaction summary injected into the session. Multiple clears stack summaries-of-summaries (lossy, heavy). 4 clears in one day = 53% context at boot (21% compaction weight on top of 32% system overhead).
+- **`/new`** — Creates a fresh session. No compaction baggage. Boots at ~32% (system overhead only).
+- **Pattern:** `/clear` for mid-session pivots where continuity helps. `/new` when compaction weight accumulates (multiple clears deep, or long/dense day).
+- **Full file handoff required before `/new`** — compacted context won't survive. Optional before `/clear` — summary carries key points forward (but lossily).
 
 ### Handoff Format
 Shape the coastline for the NEXT tide, not the current one.
