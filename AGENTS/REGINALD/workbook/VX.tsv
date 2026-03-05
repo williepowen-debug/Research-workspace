@@ -1,49 +1,49 @@
 ID	Name	Category	Current_Value	Yellow	Orange	Red	Status	Confidence	Last_Updated	Source	Cross_Links	Notes
 VX-REG-1.01	KRE ETF Price	1-Bellwether	~$64.90 (Mar 4 est)	-10%	-15%	-20%	RED	85%	2026-03-04	Market data	ML-REG-001	-12.4% from $74.08 Feb peak. Feb peak was higher than prior tracked high. Next support $62-63. UPDATED.
 VX-REG-2.01	Regional CLO Holdings	2-Credit	Concentrated: RF $4.17B (13.5%)	Sector-wide	RF-specific	RF + others	GREEN	85%	2026-01-26	10-Q/10-K	ML-REG-005	Idiosyncratic not systemic. RF=HIGH, BANC=ELEVATED, others LOW.
-VX-REG-2.02	CLO AAA Spreads	3-Systemic	125bps (SAM)	150bps	165bps	180bps	GREEN	85%	2026-02-16	SAM/PSQA	ML-REG-004, FLOW-REG-1.01	Japan repatriation ACTIVE $10-15B/mo. >165bps = BDC transmission.
-VX-REG-2.03	BDC NAV Discount	5-Shadow	-16% avg (-21% median)	>10%	>15%	>20%	ORANGE	80%	2026-01-26	CEF Connect	ML-REG-003, FLOW-REG-9.01	PSEC -57%, FSK -34%. Crisis territory.
-VX-REG-3.01	CRE Loan 90+ DQ	2-Credit	1.56% (banks)	>3%	>5%	>7%	GREEN	85%	2026-02-15	FRED	ML-REG-002, CREED	Q3 2025. Office CMBS 12.34% ATH (Jan 2026).
+VX-REG-2.02	CLO AAA Spreads	3-Systemic	125bps (SAM)	150bps	165bps	180bps	STALE	85%	2026-02-16	SAM/PSQA	ML-REG-004, FLOW-REG-1.01	Japan repatriation ACTIVE $10-15B/mo. >165bps = BDC transmission.
+VX-REG-2.03	BDC NAV Discount	5-Shadow	-16% avg (-21% median)	>10%	>15%	>20%	STALE	80%	2026-01-26	CEF Connect	ML-REG-003, FLOW-REG-9.01	PSEC -57%, FSK -34%. Crisis territory.
+VX-REG-3.01	CRE Loan 90+ DQ	2-Credit	1.56% (banks)	>3%	>5%	>7%	STALE	85%	2026-02-15	FRED	ML-REG-002, CREED	Q3 2025. Office CMBS 12.34% ATH (Jan 2026).
 VX-REG-4.01	Deposit Flight Rate	4-Funding	TBD	-2% QoQ	-4%	-6%	GAP	70%	2026-02-16	Call Reports	FL-REG-002, FL-REG-019	Q4 data Feb 15 = TODAY. Update when available.
 VX-REG-5.01	Japan Regional Bank Exposure	6-Cross-Border	¥9.7T CLO (Norinchukin)	Qualitative	Qualitative	Qualitative	ORANGE	75%	2026-02-16	BOJ FSR	ML-REG-006, SAM	43% via opaque trusts. Credit cycle trigger.
-VX-REG-6.01	RF (Regions Financial)	1-Bellwether	$28.60	-10%	-15%	-20%	GREEN	80%	2026-02-16	Yahoo	ML-REG-007	CLO concentration bellwether. $4.17B CLO. UPDATE PRICE.
-VX-REG-6.02	VLY (Valley National)	1-Bellwether	$11.77	-10%	-15%	-20%	GREEN	80%	2026-02-05	Yahoo	ML-REG-026	Q4 BEAT. Rating 9.5→7.5. CRE 58%+. UPDATE PRICE.
-VX-REG-6.03	FLG (Flagstar/NYCB)	1-Bellwether	$13.93	-10%	-15%	-20%	GREEN	80%	2026-01-30	Yahoo	ML-REG-027	Rating 8.9→7.0. Extend-and-pretend working. UPDATE PRICE.
+VX-REG-6.01	RF (Regions Financial)	1-Bellwether	$28.60	-10%	-15%	-20%	STALE	80%	2026-02-16	Yahoo	ML-REG-007	CLO concentration bellwether. $4.17B CLO. UPDATE PRICE.
+VX-REG-6.02	VLY (Valley National)	1-Bellwether	$11.77	-10%	-15%	-20%	STALE	80%	2026-02-05	Yahoo	ML-REG-026	Q4 BEAT. Rating 9.5→7.5. CRE 58%+. UPDATE PRICE.
+VX-REG-6.03	FLG (Flagstar/NYCB)	1-Bellwether	$13.93	-10%	-15%	-20%	STALE	80%	2026-01-30	Yahoo	ML-REG-027	Rating 8.9→7.0. Extend-and-pretend working. UPDATE PRICE.
 VX-REG-6.04	WAL (Western Alliance)	1-Bellwether	~$71-73 (Mar 4 est)	-10%	-15%	-20%	RED	85%	2026-03-04	Market data	ML-REG-040, ML-REG-071, ML-REG-072, ML-REG-073	🚨 CRITICAL: $3.0B hidden CRE, 474% CRE/Tier1, litigation live. $82.5P deep ITM. -25%+ from $97.23 peak. Cantor appraisals imminent. 82% major stress event conviction.
-VX-REG-6.05	CFG (Citizens Financial)	1-Bellwether	$64.00	-10%	-15%	-20%	GREEN	75%	2026-02-02	Yahoo	ML-REG-049, FLOW-REG-5.01	Fund finance expansion. Leverage-on-leverage risk.
-VX-REG-6.06	CMA (Comerica)	1-Bellwether	$95.00 (merger)	-10%	-15%	-20%	GREEN	79%	2026-01-26	Yahoo	ML-REG-010	Fifth Third merger closed Feb 1.
-VX-REG-6.07	KEY (KeyCorp)	1-Bellwether	$21.20	-10%	-15%	-20%	GREEN	78%	2026-01-26	Yahoo	ML-REG-010	Office NPL + equipment fraud exposure. UPDATE PRICE.
-VX-REG-6.08	ZION (Zions)	1-Bellwether	$60.50	-10%	-15%	-20%	GREEN	73%	2026-01-26	Yahoo	ML-REG-042	FHLB haircut stress. $50M Cantor charge-off. UPDATE PRICE.
-VX-REG-6.09	AUB (Atlantic Union)	1-Bellwether	$37.00	-10%	-15%	-20%	YELLOW	75%	2026-02-01	Yahoo	ML-REG-033	Federal metro. Sold $2B CRE (proactive). UPDATE PRICE.
-VX-REG-6.10	EGBN (Eagle Bancorp)	1-Bellwether	$26.76	-10%	-15%	-20%	ORANGE	80%	2026-02-01	Yahoo	ML-REG-034	ALREADY IN CRISIS. Q3 loss, CEO out, div $0.01. UPDATE PRICE.
-VX-REG-7.01	FHLB System Advances	3-Systemic	$480B (est)	$700B	$750B	$800B	GREEN	85%	2026-02-11	Fed H.8	ML-REG-009, FLOW-REG-3.01	Peak $675B (SVB 2023). Currently stable.
+VX-REG-6.05	CFG (Citizens Financial)	1-Bellwether	$64.00	-10%	-15%	-20%	STALE	75%	2026-02-02	Yahoo	ML-REG-049, FLOW-REG-5.01	Fund finance expansion. Leverage-on-leverage risk.
+VX-REG-6.06	CMA (Comerica)	1-Bellwether	$95.00 (merger)	-10%	-15%	-20%	STALE	79%	2026-01-26	Yahoo	ML-REG-010	Fifth Third merger closed Feb 1.
+VX-REG-6.07	KEY (KeyCorp)	1-Bellwether	$21.20	-10%	-15%	-20%	STALE	78%	2026-01-26	Yahoo	ML-REG-010	Office NPL + equipment fraud exposure. UPDATE PRICE.
+VX-REG-6.08	ZION (Zions)	1-Bellwether	$60.50	-10%	-15%	-20%	STALE	73%	2026-01-26	Yahoo	ML-REG-042	FHLB haircut stress. $50M Cantor charge-off. UPDATE PRICE.
+VX-REG-6.09	AUB (Atlantic Union)	1-Bellwether	$37.00	-10%	-15%	-20%	STALE	75%	2026-02-01	Yahoo	ML-REG-033	Federal metro. Sold $2B CRE (proactive). UPDATE PRICE.
+VX-REG-6.10	EGBN (Eagle Bancorp)	1-Bellwether	$26.76	-10%	-15%	-20%	STALE	80%	2026-02-01	Yahoo	ML-REG-034	ALREADY IN CRISIS. Q3 loss, CEO out, div $0.01. UPDATE PRICE.
+VX-REG-7.01	FHLB System Advances	3-Systemic	$480B (est)	$700B	$750B	$800B	STALE	85%	2026-02-11	Fed H.8	ML-REG-009, FLOW-REG-3.01	Peak $675B (SVB 2023). Currently stable.
 VX-REG-7.02	FHLB Collateral Haircuts	3-Systemic	2025 tightening active	+5%	+10%	+15%	YELLOW	85%	2026-02-02	RQ-REG-C01	ML-REG-042	Participations 58%, 2nd liens 49%. DSCR required.
 VX-REG-7.03	FHLB Pledging Status	4-Funding	Blanket Lien (best)	Listing	Delivery	Suspension	GREEN	80%	2026-02-02	RQ-REG-C01	ML-REG-042	Fraud → Delivery Status. Forensic audit freezes liquidity.
 VX-REG-8.01	HOA Special Assessments	7-Regional	Active FL/NV	>$5K/door	>$10K/door	>$15K/door	ORANGE	85%	2026-01-26	County Records	ML-REG-012, FLOW-REG-6.01	Super-lien priority. Insurance +50% YoY.
 VX-REG-9.01	CRE Modification Wave	8-Accounting	$27.7B (+66% YoY) — UPDATED	>$25B	>$35B	>$50B	RED	99%	2026-03-04	FDIC/CIRCUIT_BREAKERS inbox Mar 3	ML-REG-016, FLOW-REG-7.01	UPDATED: Was $7.7B (stale Jan 26). Actual $27.7B +66% YoY. Thresholds revised accordingly. WFC 10% charge-off on current mods. Warsh = higher bar for Fed Put.
 VX-REG-9.02	CRE Modification Exhaustion	8-Accounting	>50% re-default	2nd mod >30%	>40%	>50%	ORANGE	90%	2026-01-26	Trepp/Moody's	ML-REG-017	FLG -142bps allowance cut = reverse indicator.
-VX-REG-9.03	Open-End Fund NAV Drift	5-Shadow	$130-217B hidden	Queue >10%	>15%	>20%	ORANGE	95%	2026-01-26	ODCE/BREIT	ML-REG-018, FLOW-REG-8.01	Bravern -56% validates shadow NAV.
-VX-REG-9.04	BDC PIK Interest Inflation	5-Shadow	Golub 173% spike	PIK >15%	>20%	>25%	ORANGE	85%	2026-01-26	BDC 10-Q	ML-REG-019, FLOW-REG-9.01	Cash NII declining. Dividend cuts follow.
+VX-REG-9.03	Open-End Fund NAV Drift	5-Shadow	$130-217B hidden	Queue >10%	>15%	>20%	STALE	95%	2026-01-26	ODCE/BREIT	ML-REG-018, FLOW-REG-8.01	Bravern -56% validates shadow NAV.
+VX-REG-9.04	BDC PIK Interest Inflation	5-Shadow	Golub 173% spike	PIK >15%	>20%	>25%	STALE	85%	2026-01-26	BDC 10-Q	ML-REG-019, FLOW-REG-9.01	Cash NII declining. Dividend cuts follow.
 VX-REG-10.01	Deposit Composition Shift	4-Funding	Monitoring	Uninsured >40%	>50%	>60%	YELLOW	80%	2026-01-26	Call Reports	ML-REG-020	SVB pattern: uninsured flight.
 VX-REG-10.02	NIM Compression	4-Funding	Monitoring	-5bps QoQ	-10bps	-15bps	YELLOW	82%	2026-01-26	10-Q	ML-REG-021	SOFR + funding costs > loan yields.
 VX-REG-11.01	AUB Federal Metro Exposure	6-Cross-Border	HIGH	UCFE +200%	+400%	Credit loss	YELLOW	70%	2026-02-01	LABOR	ML-REG-032	DOGE → federal job loss → DC bank credit.
-VX-REG-11.02	DC Metro Unemployment	6-Cross-Border	3.5%	>4.5%	>5.5%	>6.5%	GREEN	85%	2026-02-01	BLS	ML-REG-037	Lagging. Claims lead by months.
-VX-REG-11.03	DC UCFE Claims YoY	6-Cross-Border	+543%	+200%	+400%	+600%	ORANGE	80%	2026-02-01	DOL/LABOR	ML-REG-037	Leading indicator BREACHED.
-VX-REG-11.04	EGBN Deposit Trend	4-Funding	-4% QoQ	-2%	-4%	-6%	ORANGE	85%	2026-02-01	EGBN 10-Q	ML-REG-034	Flight signal. Already at ORANGE.
-VX-REG-12.01	Endowment Forced Selling	5-Shadow	Yale $6B + Harvard $1B	>$10B agg	>$20B	Gates	ORANGE	70%	2026-02-02	RQ-REG-B01	ML-REG-048, FLOW-REG-5.01	Yale Model failing. Watch sale pricing.
+VX-REG-11.02	DC Metro Unemployment	6-Cross-Border	3.5%	>4.5%	>5.5%	>6.5%	STALE	85%	2026-02-01	BLS	ML-REG-037	Lagging. Claims lead by months.
+VX-REG-11.03	DC UCFE Claims YoY	6-Cross-Border	+543%	+200%	+400%	+600%	STALE	80%	2026-02-01	DOL/LABOR	ML-REG-037	Leading indicator BREACHED.
+VX-REG-11.04	EGBN Deposit Trend	4-Funding	-4% QoQ	-2%	-4%	-6%	STALE	85%	2026-02-01	EGBN 10-Q	ML-REG-034	Flight signal. Already at ORANGE.
+VX-REG-12.01	Endowment Forced Selling	5-Shadow	Yale $6B + Harvard $1B	>$10B agg	>$20B	Gates	STALE	70%	2026-02-02	RQ-REG-B01	ML-REG-048, FLOW-REG-5.01	Yale Model failing. Watch sale pricing.
 VX-REG-13.01	CRE/Equity Concentration	2-Credit	1,788 banks >300%	>2,000	>2,200	Sector event	ORANGE	85%	2026-02-02	FAU Screener	ML-REG-052	Count INCREASING. Maturity wall 2025-2027.
 VX-REG-13.02	Office CRE Loss Severity	2-Credit	70-97% actual	Gap >40pp	>50pp	Recognition	RED	90%	2026-02-02	RQ-REG-I01	ML-REG-053	vs 20-40% modeled. Catastrophic gap.
 VX-REG-14.01	Shunto 2026 Outcome	6-Cross-Border	¥18,000 = STRONG	<3.0% Weak	2.5-3.5% Mod	≥3.5% Strong	RESOLVED-STRONG	90%	2026-02-27	SAM/HEARTBEAT	SAM VX-SAM-8.05, FL-REG-023, ML-REG-080	✅ RESOLVED Feb 19. Strong = 85% April BOJ hike. Path D window closed.
 VX-REG-14.02	20Y JGB Auction BTC	6-Cross-Border	3.08 (Feb 19) = PASSED	<3.0x Weak	<2.5x Stress	<2.0x FAIL	RESOLVED-PASS	90%	2026-02-27	MOF	SAM VX-SAM-3.03, FL-REG-024, ML-REG-080	✅ RESOLVED Feb 19. BTC 3.08 = strong demand. Path D did NOT fire.
-VX-REG-14.03	Japan Repatriation Rate	6-Cross-Border	$10-15B/mo ACTIVE	¥500B/mo	¥1T/mo	¥2T/mo	ORANGE	90%	2026-02-16	SAM Intel	SAM VX-SAM-9.02, FLOW-REG-13.01	Life insurers SELLING UST for JGB 30Y 3.6%+. TIC Feb 18.
-VX-REG-14.04	Wright Current→Delinquent	2-Credit	609K (Oct 2025)	>400K/mo	>500K/mo	>700K/mo	ORANGE	85%	2026-02-16	Wright	CARL, FLOW-REG-14.01	Largest since May 2020. Waiting Nov/Dec data.
+VX-REG-14.03	Japan Repatriation Rate	6-Cross-Border	$10-15B/mo ACTIVE	¥500B/mo	¥1T/mo	¥2T/mo	STALE	90%	2026-02-16	SAM Intel	SAM VX-SAM-9.02, FLOW-REG-13.01	Life insurers SELLING UST for JGB 30Y 3.6%+. TIC Feb 18.
+VX-REG-14.04	Wright Current→Delinquent	2-Credit	609K (Oct 2025)	>400K/mo	>500K/mo	>700K/mo	STALE	85%	2026-02-16	Wright	CARL, FLOW-REG-14.01	Largest since May 2020. Waiting Nov/Dec data.
 VX-REG-FAIL-01	Metropolitan Capital Failure	2-Credit	Failed Jan 31	—	—	—	CONFIRMED	95%	2026-02-12	FDIC	ML-REG-055	First 2026 failure. $261M Chicago. Cockroach theory.
-VX-REG-15.01	SOFR-IORB Spread	4-Funding	-1bp (GREEN)	+5bps	+10bps	+15bps	GREEN	90%	2026-02-16	LIQUID	FLOW-REG-3.01	LIQUID trigger: >+15bps = funding stress → FHLB spike. Monitor daily.
+VX-REG-15.01	SOFR-IORB Spread	4-Funding	-1bp (GREEN)	+5bps	+10bps	+15bps	STALE	90%	2026-02-16	LIQUID	FLOW-REG-3.01	LIQUID trigger: >+15bps = funding stress → FHLB spike. Monitor daily.
 VX-OTTO-1.01	Auto 60+ Day DQ	2-Credit	7.1% (Equifax Dec 2025)	>5.5%	>6.0%	>7.0%	RED	90%	2026-02-27	OTTO	OTTO_INTEL.md	OTTO: 32-year high. Leads bank auto NCOs by 1-2 quarters.
-VX-OTTO-1.02	2022 Vintage CNL	2-Credit	22.42% at 31 months	>18%	>20%	>25%	RED	85%	2026-02-16	OTTO	OTTO_INTEL.md	OTTO: Crisis-level cumulative net loss. 2022 vintage "broken."
-VX-OTTO-1.03	Auto Recovery Ratio	2-Credit	30.58%	<40%	<35%	<30%	ORANGE	85%	2026-02-16	OTTO	OTTO_INTEL.md	OTTO: vs 41% benchmark. Severe loss given default.
-VX-OTTO-2.01	Carvana Stock	1-Bellwether	$313 (pre-earnings)	-20%	-40%	-60%	PENDING	75%	2026-02-16	OTTO	OTTO_INTEL.md	Feb 18 earnings. Base -15-20%, Escalation -30-45%, Extreme -60-80%.
-VX-OTTO-2.02	Ally Financial Stock	1-Bellwether	TBD	-10%	-15%	-20%	PENDING	80%	2026-02-16	OTTO	OTTO_INTEL.md	$19B Carvana exposure (42% originations), NO RECOURSE. Feb 18 reaction.
+VX-OTTO-1.02	2022 Vintage CNL	2-Credit	22.42% at 31 months	>18%	>20%	>25%	STALE	85%	2026-02-16	OTTO	OTTO_INTEL.md	OTTO: Crisis-level cumulative net loss. 2022 vintage "broken."
+VX-OTTO-1.03	Auto Recovery Ratio	2-Credit	30.58%	<40%	<35%	<30%	STALE	85%	2026-02-16	OTTO	OTTO_INTEL.md	OTTO: vs 41% benchmark. Severe loss given default.
+VX-OTTO-2.01	Carvana Stock	1-Bellwether	$313 (pre-earnings)	-20%	-40%	-60%	STALE	75%	2026-02-16	OTTO	OTTO_INTEL.md	Feb 18 earnings. Base -15-20%, Escalation -30-45%, Extreme -60-80%.
+VX-OTTO-2.02	Ally Financial Stock	1-Bellwether	TBD	-10%	-15%	-20%	STALE	80%	2026-02-16	OTTO	OTTO_INTEL.md	$19B Carvana exposure (42% originations), NO RECOURSE. Feb 18 reaction.
 VX-OTTO-3.01	First Brands BDC Exposure	5-Shadow	$237M across 15 BDCs	BDC stress	Dividend cuts	NAV collapse	ORANGE	95%	2026-02-16	OTTO	OTTO_INTEL.md	$9.3B debt, $12M cash at bankruptcy. Which banks back the 15 BDCs?
 VX-REG-16.01	Blue Owl Private Credit Gate	5-Shadow	GATED (Feb 23)	First gate	Multiple gates	Sector contagion	RED	95%	2026-02-23	Bloomberg	ML-REG-070, FLOW-REG-17.01	🔴 FIRST PRIVATE CREDIT GATE THIS CYCLE. $1.8T market. Monitor OWL, ARES, APO, FSK.
 VX-REG-16.02	WAL Hidden CRE Total	2-Credit	$3.0B (Memo3+RCON6550)	>$2.5B	>$3.0B	>$3.5B	ORANGE	98%	2026-02-23	FFIEC CDR	ML-REG-071, ML-REG-072	+62% in 18 months. Structural classification policy confirmed. Off-BS mirrors on-BS.
