@@ -1,7 +1,7 @@
 # LABOR STATUS
-**Last Updated:** 2026-03-05 18:35 UTC | **Status:** 🔴 CRITICAL — NFP EVE
+**Last Updated:** 2026-03-05 21:20 UTC | **Status:** 🔴 CRITICAL — NFP EVE (FINAL READ)
 
-**Summary:** All pre-NFP data in. Claims printed 213K (beat 215K exp, benign surface) — DHS suppression thesis intact. Challenger Feb: 48,307 (down 55% MoM from Jan's 108K) — monthly reprieve, BUT hiring plans -56% YTD and YTD total 156,742 is 5th-highest Jan-Feb since 2009. Transportation cuts +872% YoY. Shadow payroll gap unresolved going into tomorrow. WARN: 716/85,552 still loaded. **NFP Mar 6 8:30 AM ET = verdict.**
+**Summary:** All pre-NFP data in. Claims CONFIRMED 213K (unchanged WoW, beat 215K exp, benign surface) — 4-week MA fell to 215,750. DHS suppression thesis intact. Street consensus settled 58-65K; Apollo flagging upside risk to 100-130K (outlier view). Schedule Policy/Career rule LIVE TODAY (Mar 6 effective = 30 days after Feb 5 pub). WARN: 716/85,552 loaded going into NFP. **Our call: 75-110K with 70% probability <100K. Consensus below our floor. Two-tailed risk: miss = validation, beat = Apollo outlier confirmed.** NFP 8:30 AM ET tomorrow = verdict.
 
 ---
 
@@ -21,7 +21,7 @@
 
 | Indicator | Value | Status | Note |
 |-----------|-------|--------|------|
-| **Initial Claims** | **213K** | 🟢 | Feb 28 (Mar 5 release). Beat 215K exp. DHS suppression thesis intact — surface benign. |
+| **Initial Claims** | **213K** | 🟢 | Feb 28 (Mar 5 release). CONFIRMED unchanged WoW. Beat 215K exp. 4-wk MA: 215,750 ↓4,750. DHS suppression intact — surface benign, data not clean until Mar 12. |
 | **Continuing Claims** | **1.833M** | 🟢 | DATA ARTIFACT — DHS distortion. Do not trust. |
 | U-3 Unemployment | 4.3% | 🟡 | +0.3pp YoY |
 | U-6 Underemployment | 8.4% | 🟠 | +0.8pp YoY |
@@ -48,7 +48,7 @@
 | Cass Freight | -7.5% YoY | 🔴 | New cycle low |
 | Google "Severance" | 100 | 🔴 | ALL-TIME HIGH |
 | Tech Insider Sell/Buy | 14.08x | 🔴 | vs 2.5x non-layoff peers. 3-6mo leading. |
-| **NFP Feb Consensus** | **+50K (Kiplinger: +35K)** | 🔴 | ⬇️ DELTA: Revised down from +65K post-ADP. Street converging to our model. Mar 6. |
+| **NFP Feb Consensus** | **+58-65K (Kiplinger: +35K; Apollo: 100-130K)** | 🔴 | ⬇️ DELTA: Street at 58-65K. Our model (75-110K) is ABOVE consensus. Two-tailed risk: miss validates thesis, Apollo beat = upside outlier. Mar 6 8:30 ET. |
 
 ---
 
@@ -163,6 +163,15 @@ PPI core +0.8% (2.6x expected) + PCE 2.9% + Hormuz → Oil spike
 - As BLS shrinks, data blind spots compound. This is a NEW systemic risk.
 
 ---
+
+## EOD NOTE — Mar 5, 2026 (NFP EVE — FINAL READ)
+- **Claims CONFIRMED 213K** — unchanged WoW, beat 215K exp. 4-week MA: 215,750 (↓4,750). Surface benign. DHS suppression thesis holds; this is NOT a clean read. Mar 12 = first reliable.
+- **Schedule Policy/Career EFFECTIVE TODAY** — 30 days after Feb 5 publication. First RIF designations now legally possible. Watch for agency-level announcements next 2-4 weeks.
+- **NFP consensus: 58-65K** (MarketPulse/OANDA: 58-65K; FinancialContent: 60K; Kiplinger: 35K). Our model (75-110K) is ABOVE consensus. Apollo outlier: 100-130K. Street is below our floor.
+- **Apollo upside warning:** Apollo Academy flagged leading indicators pointing to "significantly stronger" print vs 58K consensus. This creates two-tailed risk going in — we're the middle case.
+- **DOGE Reuters/OPM:** Reuters/OPM confirmed US gov workforce -12% since Sep 2024 (386K+ workers). Majority through voluntary resignations/early retirement per OPM Director Kupor — this is the official spin. Aligns with claims suppression (no UI filing = doesn't appear in claims data).
+- **WARN: NO CHANGE** — 716/85,552 going into NFP. Pipeline intact.
+- **SPX -1.22% today** — market pricing labor weakness ahead of print. Cross-signal: equity under stress pre-data.
 
 ## EOD NOTE — Mar 4, 2026
 - WARN pipeline: **FLAT** (716/85,552 — no change from this morning)

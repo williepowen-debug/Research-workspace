@@ -1,5 +1,7 @@
 # LIQUID STATUS
-**Last Updated:** 2026-03-05 18:32 UTC | **Status:** 🟠 ELEVATED — War Day 6, NFP Eve
+**Last Updated:** 2026-03-05 21:30 UTC | **Status:** 🔴 HIGH — War Day 6 EOD. Bonds + equities both selling. LIQ-01 approaching. NFP tomorrow.
+
+**MAR 5 EOD UPDATE:** SPX -1.22% (tech-led, chipmakers). Bonds slid AGAIN — 10Y **4.13%** [CONF US Treasury] — +4bps from Mar 4. 30Y **4.74%** [CONF] +2bps. 2Y **3.57%** [CONF] +3bps. Curve 2s10s: **+56bps** (essentially flat). NO flight-to-quality bid. War escalating: oil jumped again, Bloomberg confirms "war escalating in Iran and Middle East." HY OAS Mar 4 = **297bps** [CONF FRED] — but today's -1.22% equity selloff + bond selling = likely widened to **305-315bps [EST]** (Mar 5 ICE BofA publishes tomorrow AM). **LIQ-01 gap now est. 5-15bps — approaching threshold.** RRP Mar 5 = **$2.793B** [CONF FRED] — trivial uptick from $0.877B, structural zero persists. SOFR Mar 4 = **3.67%** [CONF] — Mar 5 publishes tomorrow. Cross-signal: both stocks AND bonds selling simultaneously = stagflation/foreign selling dynamic persisting into NFP eve. NFP tomorrow 8:30 ET — bad print (+below 100K or weak breadth) = potential LIQ-01 trigger.
 
 **MAR 5 AM UPDATE (FRED CONFIRMED):** Mar 4 data now in. HY OAS **297bps** [CONF] — tightened 11bps on equity relief rally. LIQ-01 threshold gap now **23bps** (was 12bps). IG OAS **82bps** [CONF] — tightened 2bps. SOFR **3.67%** [CONF] — eased 3bps. RRP **$0.877B** [CONF] — near zero, structural. VIX confirmed **21.15** at Mar 4 close. WTI stabilized ~$75/bbl — Hormuz closed but not spiking. KEY WAR ESCALATION: NATO air defense shot down Iranian ballistic missile over Turkey; US sank Iranian navy vessel in international waters; European nations deploying military assets. War scope expanding even as oil stays contained. NFP tomorrow (8:30 ET) — ADP +63K beat sets the table but breadth was poor (pro/business services -30K, mfg -5K). Watch IG primary: may attempt reopen today. Treasury 3Y auction today — pre-NFP indirect bid demand test.
 
@@ -45,7 +47,7 @@
 ### Credit Spreads
 | Indicator | Value | Status | Threshold |
 |-----------|-------|--------|-----------|
-| **HY OAS** | **[CONF] 303bps Mar 2 / 308bps Mar 3 / 297bps Mar 4 (FRED CONFIRMED Mar 5 AM). LIQ-01 threshold 320bps NOT YET CROSSED — 23bps away.** | 🟠 | **-11bps Mar 3→4 (equity relief rally tightened spreads). Watch NFP tomorrow — miss could push back toward 310-320bps.** |
+| **HY OAS** | **[CONF] 297bps Mar 4 / [EST] ~305-315bps Mar 5 (ICE BofA publishes Mar 6 AM). LIQ-01 threshold 320bps NOT YET CROSSED — est. 5-15bps away.** | 🔴 | **Today: SPX -1.22% + bonds selling → likely +8-18bps widening. Gap to LIQ-01 collapsed from 23bps → est. 5-15bps. NFP tomorrow is trigger risk. Miss = likely breach.** |
 | **CDX HY** | **[EST] ~330–355bps (Mar 3 — UNCONFIRMED. No public EOD data available.)** | 🔴 | No confirmed public source for CDX HY EOD. Bloomberg terminal only. |
 | **iTraxx Crossover** | **Est. ~285–300bps (Mar 3); was ~270bps Mon** | 🔴 | European credit stress |
 | **iTraxx Main (IG)** | **Est. ~60–65bps (Mar 3)** | 🟠 | Highest since mid-Oct 2025 |
@@ -64,7 +66,7 @@
 | **SOFR** | **[CONF] Mar 2: 3.71%. Mar 3: 3.70%. Mar 4: 3.67% [CONF FRED Mar 5 AM]. EASING — 3bps compression overnight, risk-on.** | **🟠** | **Median +3bps above IORB (was +6bps). Funding conditions modestly easing with VIX compression. Watch Mar 5 (publishes Mar 6).** |
 | SOFR-IORB Spread | +6bps median; +13bps at 75th pct; +17bps at 99th pct | 🟠 | Persistent spread = Fed losing rate floor control in upper percentiles |
 | SRF Usage | $30.5B (Feb 18 — latest confirmed; Mar data pending, publishes ~Mar 6) | 🟡 | >$50B ORANGE. War/BCRED shock may push up. Check Mar 6. |
-| RRP Balance | **$0.877B (Mar 4 CONFIRMED FRED)** | 🔴 | Buffer = ZERO. $2.5T → $0.9B. Structurally depleted — no shock absorber. |
+| RRP Balance | **$2.793B (Mar 5 CONFIRMED FRED)** | 🔴 | Buffer = ZERO. $2.5T → $2.8B. Trivial uptick vs prior $0.877B — still structurally depleted. No shock absorber. |
 | Reserve Balances | $2.9T | 🟡 | <$2.8T ORANGE |
 | Fed RMPs (Stealth QE) | $8B (Feb 18) | 🟠 | Balance sheet turning UP |
 | Dealer Net Position | ~$200B | 🟠 | SLR-constrained, zero elasticity |
@@ -72,9 +74,9 @@
 | T-bill Rolling | $600B/5 days | 🟠 | Structural repo dependency |
 | TGA Balance | ~$900B | 🟠 | Drained $600B from system |
 | Treasury FTD | $42.4B | 🟡 | >$50B ORANGE |
-| 10Y Yield | **4.063% CLOSE; 4.117% intraday high (Mar 3 CONFIRMED)** | 🟡 | CONFIRMED: Partial flight-to-quality. Closed BELOW intraday high — some safe-haven bid held. |
-| 30Y Yield | **4.707% (Mar 3 CONFIRMED)** | 🟡 | Long-end not rallying — stagflation premium embedded in long end. |
-| 2Y Yield | **3.506% (Mar 3 CONFIRMED, +2bps)** | 🟢 | Short-end pricing IN rate cuts (war = growth risk) — steepener. |
+| 10Y Yield | **4.13% [CONF US Treasury Mar 5 EOD]** | 🔴 | +4bps from Mar 4 (4.09%); +7bps from Mar 3 (4.06%). SPX -1.22% + bond selling = NO flight-to-quality. Stagflation/foreign selling signal confirmed. |
+| 30Y Yield | **4.74% [CONF US Treasury Mar 5 EOD]** | 🟠 | +2bps from Mar 4. Long-end not rallying — stagflation premium persisting. |
+| 2Y Yield | **3.57% [CONF US Treasury Mar 5 EOD]** | 🟡 | +3bps from Mar 4. Bull steepener fading slightly — short-end also selling. |
 | WTI/Brent Crude | **WTI $73.80 close [CONF]; Brent est. ~$78-80 [EST]** | 🟠 | CORRECTION: Prior "Brent $84" was WRONG. Trump Hormuz escort announcement pared gains. WTI +3.6% vs prior +8% intraday peak. |
 | VIX | **26.43 (+23% today)** | 🟠 | Dealer hedging costs rising. Intermediation capacity falling. |
 | S&P 500 | **-2.2% (session low -2.5%); recovered to -0.9% by 1:50pm ET** | 🔴 | 2026 lows breached. Bear-market-rally pattern possible. |
@@ -99,7 +101,7 @@
 
 | Threshold | Level | Current | Gap | Implication |
 |-----------|-------|---------|-----|-------------|
-| **HY OAS confirmation** | **320bps** | 308 (Mar 3 CONF) | 12bps | Systemic credit stress confirmed |
+| **HY OAS confirmation** | **320bps** | ~305-315 (Mar 5 EST) | **5-15bps** | **APPROACHING — NFP tomorrow is trigger** |
 | Reserve floor | $2.8T | $2.9T | $100B | Funding stress structural |
 | SRF stress | >$50B | $30.5B | $19.5B | Plumbing actively breaking |
 | China TIC | <$650B | $682.6B | $32.6B | Accelerated exit confirmed |

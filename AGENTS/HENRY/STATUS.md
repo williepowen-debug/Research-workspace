@@ -1,5 +1,5 @@
 # HENRY STATUS
-**Last Updated:** 2026-03-05 18:35 UTC | **Status:** 🔴 RED — RELIEF RALLY ERASED. SPX -0.7% TO ~6,845. DOW -764PTS (-1.6%). BRENT SURGING TO $84.32-84.52 (+3.5-3.8%) — HORMUZ DISRUPTION DEEPENING (WAR-RISK INSURANCE CANCELLATIONS EFFECTIVE TODAY). YESTERDAY'S PEACE-TALK LEAK NOT CONFIRMED. NFP TOMORROW 8:30 AM ET IS THE RESOLUTION EVENT. HEN-01 AT 70% <100K — CONSENSUS 58-65K. MARKET IN PRE-NFP PARALYSIS.
+**Last Updated:** 2026-03-05 21:16 UTC | **Status:** 🔴 RED — PRE-NFP SELL-OFF. SPX -1.22% TO 6,785. DOW -1,014PTS (-2.1%). BRENT $84.75 (+4%). 8/11 SECTORS RED. CLAIMS 213K (STEADY — FROZEN MARKET). GAMMA STRUCTURE DETERIORATING BELOW 6,800. NFP TOMORROW 8:30 AM ET — HEN-01 RESOLVES IN ~12 HOURS. VIX LIKELY 23-25 RANGE AT CLOSE (FROM 21.15 WED).
 
 ---
 
@@ -43,6 +43,12 @@ Market is derivatives-driven, dealer hedging dominates short-term dynamics.
 
 ---
 
+**Mar 5 EOD additions:**
+- Initial jobless claims 213K (wk ending Feb 28) — STEADY. Headline: "stabilizing labor market." Tension with ADP +63K = hiring freeze but no mass firings YET. Pre-NFP enigma unresolved.
+- Unit labor costs Q4 rose MORE than expected → stagflation input confirmed (CPI/PCE upside risk)
+- Citadel Securities officially stated gamma asymmetry: upside gamma near $7K forces dealers to FADE rallies; below = acceleration. We're below. Mechanical headwind to any NFP bounce.
+- Citadel Traders "switched bearish to bullish" (tactical) — squeeze risk if NFP beats consensus.
+
 *Mar 4 session log archived → `workbook/SESSION_LOG_MAR4.md`*
 
 ---
@@ -51,13 +57,13 @@ Market is derivatives-driven, dealer hedging dominates short-term dynamics.
 
 | Indicator | Value | Source | Status |
 |-----------|-------|---------|--------|
-| SPX | **~6,845** (−0.7% Mar 5) | [CONF] SMW Mar 5 intraday | 🔴 Relief rally fully erased, back below all key levels |
-| Dow | **~48,000** (−764pts, −1.6% Mar 5) | [CONF] SMW Mar 5 intraday | 🔴 |
-| Nasdaq | **Relative resilience** (Broadcom/TTD holding) | [CONF] SMW Mar 5 | 🟠 Tech buffer but not leadership |
+| SPX | **6,785.41** (−1.22% Mar 5 CLOSE) | [CONF] SMW Mar 5 close | 🔴 Wed recovery +0.78% fully reversed. Now below 6,800 put wall. |
+| Dow | **48,472.01** (−1,014pts, −2.1% Mar 5) | [CONF] SMW Mar 5 close | 🔴 Industrials + consumer disc crushed — fuel cost pass-through fears |
+| Nasdaq | **22,863.66** (−1.1% Mar 5) | [CONF] SMW Mar 5 close | 🔴 AVGO +6% (AI guidance) + MSFT +0.93% only bright spots; rest of Mag7 -1 to -2% |
 | IWM | **$260.67** | Mar 4 | Below all MAs. RSI ~50. Dead cat bounce from $248 low. |
-| VIX | **~24-25 est** | [EST] compressed on peace hope | 🟠 Still above 23 vol-control threshold |
-| 10Y Yield | **4.10%** (RISING on risk-off) | [CONF] Mar 3 | 🔴 Stagflation = Fed boxed in |
-| Brent Crude | **$84.32–84.52** (+3.5–3.8% Mar 5 session) | [CONF] Reuters/SMW Mar 5 intraday | 🔴🔴 Hormuz premium ESCALATING — war-risk insurance cancellations effective today |
+| VIX | **~23-25 est** (was 21.15 Wed close) | [CONF Wed] CSFX; [EST Thu] selloff-implied | 🔴 Vol re-elevated. If above 23 = vol-control selling active again |
+| 10Y Yield | **4.08%** (stable-ish) | [CONF] Mar 4 | 🟠 Not spiking — stagflation = rate confusion |
+| Brent Crude | **$84.75** (+4% Mar 5) | [CONF] SMW Mar 5 close | 🔴🔴 Hormuz premium grinding higher. $100 = "Fed forced to hold" narrative emerges |
 | Gold | **~$5,408** | [CONF] Mar 3 | 🔴 Hard assets bid, not duration |
 | HY OAS | **308bps** (Mar 3 CONF) | [CONF] FRED HY OAS Mar 3 — LIQUID est was 30bps too high | 🟠 Stressed not crisis — floor rising but no cascade yet |
 | MOVE | Rising | [EST] | 🟠→🔴 |

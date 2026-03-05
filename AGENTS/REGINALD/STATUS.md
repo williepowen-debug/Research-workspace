@@ -1,5 +1,5 @@
 # REGINALD STATUS
-**Last Updated:** 2026-03-05 | **Status:** 🔴 CRITICAL — 8 channels active, NFP tomorrow
+**Last Updated:** 2026-03-05 EOD | **Status:** 🔴 CRITICAL — 8 channels active, NFP morning
 
 **Known Data Issues:** OZK earnings April 16. PSEC PIK 8.6% (not 35%). FSK CLOSED. Brent ~$81.40 (not $118).
 
@@ -29,14 +29,17 @@ Eight independent channels terminate at regional banks.
 |-----------|-------|--------|
 | S&P 500 | **Bounced Mar 4** (tech-led) | 🟡 Partial recovery; VIX still elevated |
 | VIX | **27+ intraday Mar 4** | 🔴 Spiked above 27 before easing |
-| HY OAS | 308bps (CONF Mar 3) | 🟠 Approaching threshold (>320bps = credit transmission confirmed) |
+| HY OAS | ~335-355bps (Mar 4) | 🔴 **TRIGGER FIRED** (>320bps = credit transmission confirmed) |
 | KRE | $67.48 (Mar 4) | 🟠 -8.9% from $74.08 Feb peak |
 | Office CMBS DQ | 12.34% (+103bps MoM) | 🔴 ATH, exceeds GFC |
 | CMBS Special Servicing | 17.11% | 🔴 |
 | CRE Modification Wave | **$27.7B** (+66% YoY) | 🔴 UPDATED (was $7.7B stale) |
 | Private Credit Default | 5.8% (Fitch, Jan 2026) | 🔴 Record |
 | Subprime Auto 60+ DQ | 7.1% (Equifax Dec 2025) | 🔴 |
-| BCRED Redemptions | $3.7B gross Q1 (7.9% of NAV vs 5% cap) | 🔴 Near-gate |
+| BCRED Redemptions | **$3.8B confirmed** Q1 (7.9% NAV); BX upsized tender to meet in full — averted gate by rule-bend | 🔴 Gate-adjacent |
+| Blue Owl Corp II | **CONFIRMED gated** quarterly liquidity → switching to periodic asset-sale payouts | 🔴 NEW |
+| OWL Short Interest | **All-time high** short interest (Bloomberg/Reuters Mar 5) | 🔴 NEW |
+| CMBS DQ Volume | **$42.76B** (-5.18% MoM Feb) — biggest drop since 2022 | 🟡 COUNTER-SIGNAL |
 | Bank CRE DQ vs CMBS | 4.18% vs 12.34% = **8.16pp masking gap** | 🔴 |
 | FHLB Advances | ~$480B | 🟢 (stress = >$700B) |
 | SOFR-IORB | -1bp | 🟢 |
@@ -81,15 +84,17 @@ Eight independent channels terminate at regional banks.
 | BROCK | PCDR 5.8%, BCRED near-gate ($3.7B), TCPC fraud, UBS 15% default warning. *See BROCK STATUS.* | 🔴 CRITICAL |
 | CORAL | Migration -93% Census confirmed. FL #2 foreclosure. BayFirst -17% staff. Condo SIRS mandates | 🔴 RED |
 | BELT | MS +109bps QoQ, LA +89bps, MD +87bps mortgage DQ | 🔴 |
+| RENO | Nevada geographic focus — gaming/tourism, housing, WAL NV exposure | 🟡 Dormant |
+| TEX | TX/FL geographic — border banks, HOA, housing velocity | 🟡 Dormant |
 
 ---
 
 ## KEY LEVELS & WATCHLIST
 
-| Ticker | Mar 3 Close | Mar 4 Est | Notes |
-|--------|-------------|-----------|-------|
-| KRE | $67.48 (Mar 4) | — | -8.9% from $74.08 Feb peak; next support $62-63 |
-| WAL | **$80.32** (Mar 1 confirmed) | 🔴 DOWN from $90.06 prior close; $82.5P DEEP ITM |
+| Ticker | Mar 4/5 Close | Notes |
+|--------|--------------|-------|
+| KRE | ~$67-68 (flat Mar 5) | -8.9% from $74.08 Feb peak; held after -5% Mar 2 plunge |
+| WAL | **$79.54 open Mar 4** | Below 50-day ($89.05) AND 200-day ($85.36); South Dakota lowered stake; $82.5P DEEP ITM |
 | OZK | ~$45.5 est | declining | -4.4% Mar 3; hidden CRE 37.6%; Apr 16 Q1 earnings |
 | ZION | ~$57.28 (Mar 2) | at/below $57.5P | MS OW upgrade = fade |
 | S&P | 6,817 (Mar 3) | **6,781** | Two consecutive down days post-recovery |
@@ -118,7 +123,7 @@ Eight independent channels terminate at regional banks.
 | Condition | Current | Threshold | Fired? |
 |-----------|---------|-----------|--------|
 | Claims >300K | — | LABOR → all ORANGE→RED | Monitor |
-| HY OAS >320bps | 308bps (CONF Mar 3) | HENRY → credit transmission confirmed | Not yet (approaching) |
+| HY OAS >320bps | ~335-355bps (Mar 4) | HENRY → credit transmission confirmed | **FIRED** |
 | CLO AAA >165bps | ~125bps | LIQUID → BDC transmission | Not yet |
 | iTraxx Senior Fin >100bps | ~95bps | EU→US credit contagion (HANS) | 🟠 Approaching |
 | SOFR-IORB >+15bps | -1bp | LIQUID → FHLB spike | Not yet |
@@ -144,23 +149,14 @@ Eight independent channels terminate at regional banks.
 
 ## FL + HORMUZ
 
-Hormuz closed Mar 2. Brent ~$81.40 (Trump tanker insurance eased panic). FL migration -93% (2022→2025). Energy shock less acute than initially modeled but compound squeeze (HOA + insurance + migration) intact.
+Hormuz: Iran IRGC struck American tanker Mar 5 (Tasnim). WTI spiked to $79.18 intraday. Escalation re-activated — not resolved. FL migration -93% (2022→2025). Compound squeeze (HOA + insurance + migration) intact + energy shock back in play.
 
 *Full FL migration data + cascade table → `domain/FL_MIGRATION_REFERENCE.md`*
 
 ---
 
-## ATHENE MAPPING — RESOLVED
-
-ARI → Athene $9B CRE transfer (closed ~Mar 2026). APO triple stress confirmed: MFIC div cut + MFS/Atlas SP fraud + Athene $9B CRE. *Detail → `AGENTS/BROCK/STATUS.md`*
-
----
-
-## FLORIDA MIGRATION
-
-FL net domestic migration -93% (310K→22K, 2022→2025). Every FL CRE loan 2021-2024 modeled wrong. VLY 27% ($7.4B), SSB concentrated, OZK present.
-
-*Full data → `domain/FL_MIGRATION_REFERENCE.md`*
+*Athene: ARI $9B CRE transfer closed. Detail → `AGENTS/BROCK/STATUS.md`*
+*FL Migration: -93% (310K→22K). Detail → `domain/FL_MIGRATION_REFERENCE.md`*
 
 ---
 
@@ -172,7 +168,7 @@ FL net domestic migration -93% (310K→22K, 2022→2025). Every FL CRE loan 2021
 | 2 | FHLB advances spike >$600B | Q2-Q3 2026 | 60% |
 | 3 | At least one Tier 1 bank capital raise | H2 2026 | 50% |
 | 4 | Chicago pattern replicates in Phoenix | H1 2026 | 65% |
-| 5 | WAL major stress event | Apr-Jun 2026 | **82%** |
+| 5 | WAL major stress event (REG-20) | Apr-Jun 2026 | **82%** |
 
 ---
 
@@ -185,7 +181,7 @@ FL net domestic migration -93% (310K→22K, 2022→2025). Every FL CRE loan 2021
 
 ## BOTTOM LINE
 
-Eight channels active. NFP Friday is next inflection. Private credit going mainstream (UBS 15% default warning, Bloomberg Invest). WAL broke below both MAs, $82.5P deep ITM. Regulatory deregulation accelerating (eSLR Apr 1, LCR relaxation, OCC licensing).
+Eight channels active. NFP tomorrow is next inflection. Private credit stress went MAINSTREAM today: CNBC, Reuters, Morningstar all covered the Blue Owl/BCRED redemption wave simultaneously. OWL shorts at ATH. BCRED avoided gate only by bending tender limits. WAL broke below both MAs. CMBS volume dropped 5.18% Feb — watch carefully as potential counter-signal but likely reflects resolutions/extensions, not fundamental recovery. Iran re-attacked tanker: Hormuz risk reactivating. Regulatory deregulation accelerating (SCB comment period closed today, eSLR Apr 1).
 
 *Mar 4-5 session logs → `workbook/SESSION_LOG_MAR4_MAR5.md`*
 *Hidden CRE methodology → MEMORY.md | OZK thesis → `domain/sources/RP-REG-7_OZK_THESIS.md`*
