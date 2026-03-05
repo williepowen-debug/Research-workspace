@@ -82,6 +82,18 @@ Insurance withdrawal date is the most important catalyst this week. If Hormuz be
 
 ---
 
+## SYSTEM ARCHITECTURE (Mar 4-5)
+
+- **INBOX siloed from spawn protocol.** Agents don't check inbox on normal tasks — separate spawn for inbox processing. Different cognitive mode = silo it.
+- **Reply rule:** Only reply to signals if (a) new info sender doesn't have, (b) error correction, or (c) threshold trigger. Silence = received and integrated.
+- **Inbox = folder, not file.** Individual signal files in `inbox/`, move to `inbox/processed/` when done. Standardized across all 13 agents.
+- **Root TSVs are canonical.** workbook/ is archive/reference. When in doubt, root files are source of truth.
+- **Agent STATUS.md ≤250 lines.** Archive resolved analysis to workbook, keep STATUS as a dashboard.
+- **HERMES delivers signals.** Agents write to OUTBOX, HERMES runs 2x daily (9AM + 5PM ET) to deliver.
+- **Stale data rules in CLAUDE.md.** Skip VX.tsv rows >5 trading days old. Pull live before citing STATUS values >24h old.
+
+---
+
 ## KEY CORRECTIONS (Persistent)
 
 - OZK next earnings: **April 16, 2026**
