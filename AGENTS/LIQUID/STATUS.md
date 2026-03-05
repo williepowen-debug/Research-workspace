@@ -1,5 +1,7 @@
 # LIQUID STATUS
-**Last Updated:** 2026-03-04 21:30 UTC | **Status:** 🟠 ELEVATED — War Day 5, Rally Session
+**Last Updated:** 2026-03-05 18:32 UTC | **Status:** 🟠 ELEVATED — War Day 6, NFP Eve
+
+**MAR 5 AM UPDATE (FRED CONFIRMED):** Mar 4 data now in. HY OAS **297bps** [CONF] — tightened 11bps on equity relief rally. LIQ-01 threshold gap now **23bps** (was 12bps). IG OAS **82bps** [CONF] — tightened 2bps. SOFR **3.67%** [CONF] — eased 3bps. RRP **$0.877B** [CONF] — near zero, structural. VIX confirmed **21.15** at Mar 4 close. WTI stabilized ~$75/bbl — Hormuz closed but not spiking. KEY WAR ESCALATION: NATO air defense shot down Iranian ballistic missile over Turkey; US sank Iranian navy vessel in international waters; European nations deploying military assets. War scope expanding even as oil stays contained. NFP tomorrow (8:30 ET) — ADP +63K beat sets the table but breadth was poor (pro/business services -30K, mfg -5K). Watch IG primary: may attempt reopen today. Treasury 3Y auction today — pre-NFP indirect bid demand test.
 
 **MAR 4 EOD UPDATE:** Markets staged relief rally. S&P 500 +0.83% (6,873). Nasdaq +1.36%. Russell 2000 +1.07%. VIX COLLAPSED 10%+ to **21.12** (from 26.43 yesterday). 10Y yield settled at **4.082%** (slight uptick from 4.063% Mar 3 close — war inflation premium persisting). Brent crude: **$81.40** (flat to Tue, highest since Jan 2025). Oil "whipsawed" — Hormuz crisis ongoing but market pricing some stabilization. Beige Book released: "slight to moderate" economic growth, prices "moderately" higher with tariff contribution from 3/4 of districts. ADP: +63K Feb private payrolls (beat 50K est) but Jan revised DOWN from 22K to 11K — pre-NFP softness signal. JOLTS: 7.23M (in-line). ISM Services PMI: 53 (stable). **Credit spreads (Mar 4 data publishes Mar 5):** Mar 3 confirmed HY 308bps / IG 84bps / CCC 957bps — with today's equity rally, expect Mar 4 HY OAS ~295-305bps (EST). IG primary market WATCH: monitoring for reopening after 2-day halt. Supreme Court IEEPA tariff ruling fallout: $130-175B in refunds contested, federal courts fast-tracking — fiscal uncertainty, potential TGA complexity.
 
@@ -43,12 +45,12 @@
 ### Credit Spreads
 | Indicator | Value | Status | Threshold |
 |-----------|-------|--------|-----------|
-| **HY OAS** | **[CONF] 303bps Mar 2 / 308bps Mar 3 (FRED CONFIRMED Mar 4 AM). LIQ-01 threshold 320bps NOT YET CROSSED — 12bps away.** | 🟠 | **+5bps Mar 2→3. Widening but slower than estimated. Monitor daily.** |
+| **HY OAS** | **[CONF] 303bps Mar 2 / 308bps Mar 3 / 297bps Mar 4 (FRED CONFIRMED Mar 5 AM). LIQ-01 threshold 320bps NOT YET CROSSED — 23bps away.** | 🟠 | **-11bps Mar 3→4 (equity relief rally tightened spreads). Watch NFP tomorrow — miss could push back toward 310-320bps.** |
 | **CDX HY** | **[EST] ~330–355bps (Mar 3 — UNCONFIRMED. No public EOD data available.)** | 🔴 | No confirmed public source for CDX HY EOD. Bloomberg terminal only. |
 | **iTraxx Crossover** | **Est. ~285–300bps (Mar 3); was ~270bps Mon** | 🔴 | European credit stress |
 | **iTraxx Main (IG)** | **Est. ~60–65bps (Mar 3)** | 🟠 | Highest since mid-Oct 2025 |
 | **US IG Primary Market** | **ZERO — market frozen (both Mon + Tue)** | 🔴 | 2-day issuance halt = systemic signal |
-| IG OAS | **[CONF] 85bps Mar 2 / 84bps Mar 3 (FRED CONFIRMED). IG TIGHTENED — market holding.** | 🟡 | IG resilient vs HY. Spread divergence = lower-quality stress, not systemic IG event yet. |
+| IG OAS | **[CONF] 85bps Mar 2 / 84bps Mar 3 / 82bps Mar 4 (FRED CONFIRMED). IG TIGHTENED — market holding.** | 🟡 | IG resilient vs HY. Spread divergence = lower-quality stress, not systemic IG event yet. Watch IG primary for reopen today. |
 | **CLO AAA Spread** | **~125bps (REGINALD Mar 4) — was 115bps** | **🟡** | **25bps to YELLOW (130bps); 25bps to ORANGE (150bps) = BDC→FHLB fire** |
 | CLO Equity (Eagle Point) | -15% since Dec | 🔴 | First-loss absorbing |
 | CLO Equity (Oxford Lane) | -25% since Dec | 🔴 | |
@@ -59,10 +61,10 @@
 ### Domestic Plumbing
 | Indicator | Value | Status | Threshold |
 |-----------|-------|--------|-----------|
-| **SOFR** | **[CONF] Mar 2: 3.71%. Mar 3: 3.70% [CONF FRED Mar 4 AM]. FLAT — no funding escalation overnight.** | **🟠** | **Median still +5-6bps above IORB. No worsening Mar 3. Watch Mar 4 (publishes Mar 5).** |
+| **SOFR** | **[CONF] Mar 2: 3.71%. Mar 3: 3.70%. Mar 4: 3.67% [CONF FRED Mar 5 AM]. EASING — 3bps compression overnight, risk-on.** | **🟠** | **Median +3bps above IORB (was +6bps). Funding conditions modestly easing with VIX compression. Watch Mar 5 (publishes Mar 6).** |
 | SOFR-IORB Spread | +6bps median; +13bps at 75th pct; +17bps at 99th pct | 🟠 | Persistent spread = Fed losing rate floor control in upper percentiles |
 | SRF Usage | $30.5B (Feb 18 — latest confirmed; Mar data pending, publishes ~Mar 6) | 🟡 | >$50B ORANGE. War/BCRED shock may push up. Check Mar 6. |
-| RRP Balance | **$1.203B (Mar 3 CONFIRMED FRED)** | 🔴 | Buffer = ZERO. $2.5T → $1.2B. Confirmed structurally depleted. |
+| RRP Balance | **$0.877B (Mar 4 CONFIRMED FRED)** | 🔴 | Buffer = ZERO. $2.5T → $0.9B. Structurally depleted — no shock absorber. |
 | Reserve Balances | $2.9T | 🟡 | <$2.8T ORANGE |
 | Fed RMPs (Stealth QE) | $8B (Feb 18) | 🟠 | Balance sheet turning UP |
 | Dealer Net Position | ~$200B | 🟠 | SLR-constrained, zero elasticity |

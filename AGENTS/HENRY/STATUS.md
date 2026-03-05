@@ -1,5 +1,5 @@
 # HENRY STATUS
-**Last Updated:** 2026-03-04 21:15 UTC | **Status:** 🟠 ORANGE — RELIEF RALLY ON IRAN PEACE TALK LEAK (NYT). SPX +0.78% TO 6,869. NOT FUNDAMENTALLY RESOLVED. ADP +63K STILL POINTS TO NFP <100K. BEIGE BOOK: 9/12 DISTRICTS CITING TARIFFS ON PRICES. HORMUZ STILL CLOSED (IRGC CLAIMS FULL CONTROL). HEN-01 HELD 70%. NFP FRI MAR 6 = RESOLUTION.
+**Last Updated:** 2026-03-05 18:35 UTC | **Status:** 🔴 RED — RELIEF RALLY ERASED. SPX -0.7% TO ~6,845. DOW -764PTS (-1.6%). BRENT SURGING TO $84.32-84.52 (+3.5-3.8%) — HORMUZ DISRUPTION DEEPENING (WAR-RISK INSURANCE CANCELLATIONS EFFECTIVE TODAY). YESTERDAY'S PEACE-TALK LEAK NOT CONFIRMED. NFP TOMORROW 8:30 AM ET IS THE RESOLUTION EVENT. HEN-01 AT 70% <100K — CONSENSUS 58-65K. MARKET IN PRE-NFP PARALYSIS.
 
 ---
 
@@ -51,13 +51,13 @@ Market is derivatives-driven, dealer hedging dominates short-term dynamics.
 
 | Indicator | Value | Source | Status |
 |-----------|-------|---------|--------|
-| SPX | **6,869.50** (+0.78%) | [CONF] CNBC Mar 4 EOD | 🟠 Still below gamma flip (6,902); Iran hope relief |
-| Dow | **48,739.41** (+0.49%) | [CONF] CNBC Mar 4 EOD | 🟠 |
-| Nasdaq | **+1.29%** (~22,807 est) | [CONF] CNBC Mar 4 EOD | 🟠 Tech-led relief, not fundamental |
+| SPX | **~6,845** (−0.7% Mar 5) | [CONF] SMW Mar 5 intraday | 🔴 Relief rally fully erased, back below all key levels |
+| Dow | **~48,000** (−764pts, −1.6% Mar 5) | [CONF] SMW Mar 5 intraday | 🔴 |
+| Nasdaq | **Relative resilience** (Broadcom/TTD holding) | [CONF] SMW Mar 5 | 🟠 Tech buffer but not leadership |
 | IWM | **$260.67** | Mar 4 | Below all MAs. RSI ~50. Dead cat bounce from $248 low. |
 | VIX | **~24-25 est** | [EST] compressed on peace hope | 🟠 Still above 23 vol-control threshold |
 | 10Y Yield | **4.10%** (RISING on risk-off) | [CONF] Mar 3 | 🔴 Stagflation = Fed boxed in |
-| Brent Crude | **~$84** (+4.71% Mar 3 session) | [CONF] CNBC settle | 🔴🔴 Hormuz premium ON |
+| Brent Crude | **$84.32–84.52** (+3.5–3.8% Mar 5 session) | [CONF] Reuters/SMW Mar 5 intraday | 🔴🔴 Hormuz premium ESCALATING — war-risk insurance cancellations effective today |
 | Gold | **~$5,408** | [CONF] Mar 3 | 🔴 Hard assets bid, not duration |
 | HY OAS | **308bps** (Mar 3 CONF) | [CONF] FRED HY OAS Mar 3 — LIQUID est was 30bps too high | 🟠 Stressed not crisis — floor rising but no cascade yet |
 | MOVE | Rising | [EST] | 🟠→🔴 |

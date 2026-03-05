@@ -1,7 +1,7 @@
 # LABOR STATUS
-**Last Updated:** 2026-03-04 21:20 UTC | **Status:** 🔴 CRITICAL
+**Last Updated:** 2026-03-05 18:35 UTC | **Status:** 🔴 CRITICAL — NFP EVE
 
-**Summary:** Shadow payroll gap enters critical resolution window (Mar-Apr). **NFP Feb consensus COLLAPSED: +65K → +50K post-ADP; Kiplinger forecasting +35K.** Wall Street converging toward our model. WARN pipeline: 716/85,552 — flat today (no new major notices). Fed Trap now OFFICIALLY ACKNOWLEDGED: St. Louis Fed + KC Fed published dual mandate conflict pieces Mar 3-4. AI displacement narrative gaining political attention (Palantir CEO: government takeover risk if AI jobs cut + military ties severed). Counter-narrative emerging ("internal churn not sacks") — watch for consensus adoption. Hormuz Day 2 — hiring paralysis structural through H1. Claims Thu 8:30 AM (noisy). NFP Fri Mar 6 = shadow gap verdict.
+**Summary:** All pre-NFP data in. Claims printed 213K (beat 215K exp, benign surface) — DHS suppression thesis intact. Challenger Feb: 48,307 (down 55% MoM from Jan's 108K) — monthly reprieve, BUT hiring plans -56% YTD and YTD total 156,742 is 5th-highest Jan-Feb since 2009. Transportation cuts +872% YoY. Shadow payroll gap unresolved going into tomorrow. WARN: 716/85,552 still loaded. **NFP Mar 6 8:30 AM ET = verdict.**
 
 ---
 
@@ -21,7 +21,7 @@
 
 | Indicator | Value | Status | Note |
 |-----------|-------|--------|------|
-| **Initial Claims** | **212K** | 🟢 | Feb 26. DHS suppression active. UNRELIABLE until Mar 12. |
+| **Initial Claims** | **213K** | 🟢 | Feb 28 (Mar 5 release). Beat 215K exp. DHS suppression thesis intact — surface benign. |
 | **Continuing Claims** | **1.833M** | 🟢 | DATA ARTIFACT — DHS distortion. Do not trust. |
 | U-3 Unemployment | 4.3% | 🟡 | +0.3pp YoY |
 | U-6 Underemployment | 8.4% | 🟠 | +0.8pp YoY |
@@ -36,7 +36,8 @@
 | **JOLTS Openings** | **6.5M (Dec 2025)** | 🔴 | Jan 2026 release DELAYED — BLS infrastructure degrading under DOGE. |
 | Openings/Unemployed | 0.87 | 🟠 | Below 1.0 first time since 2021 |
 | **Challenger Jan 2026** | **108K** | 🔴 | Highest Jan since 2009 |
-| **Challenger Hiring Plans** | **5,306** | 🔴 | LOWEST JAN EVER |
+| **Challenger Feb 2026** | **48,307** | 🟠 | Down 55% MoM — monthly reprieve. YTD 156,742 = 5th-highest Jan-Feb since 2009. |
+| **Challenger Hiring Plans YTD** | **-56%** | 🔴 | Cratering. Transport cuts +872% YoY. Tech YTD +51% YoY. |
 | **DOGE Cuts (BLS)** | **327K / -10.9%** | 🔴 | From Oct 2024 peak. GAO: 134K separations vs 66K hires H1 2025. |
 | **WARN Pipeline** | **716 notices / 85,552** | 🔴 | +10 notices +595 vs Mar 2. Tyson 7K, Amazon 4.7K, Verizon 4.1K. |
 | **Shadow Payroll Gap** | WARN ↑ / Claims suppressed | 🔴 | RESOLVES MARCH-APRIL — verdict prints imminent |
