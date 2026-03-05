@@ -29,6 +29,14 @@ All three can coexist at the same bank. WAL uses all three.
 ### [Process] — STATUS.md Is Not a Research Report
 **Rule:** STATUS.md is a dashboard — current state, thresholds, positions. Research detail belongs in archive/, workbook/, or source files. If STATUS.md exceeds 10KB, it needs pruning.
 
+### [Data] — Verify Real-Time Prices Before Building Narratives
+**Mistake:** STATUS.md stated Brent $118-125 and built an entire FL energy shock cascade on that figure. Actual was $81.40. The error propagated through multiple sections before being caught.
+**Rule:** Always confirm price levels from a live source before modeling downstream effects. A 45% error on an input produces garbage on all outputs.
+
+### [Data] — Cross-Agent Signal Values May Conflict
+**Mistake:** MFS/Barclays exposure listed as £500M in STATUS.md but HANS signal said £600M and MEMORY.md confirmed £600M. Stale value persisted until audit.
+**Rule:** When integrating cross-agent signals, check if the new value supersedes an existing one. Update the older reference, don't just add the new one alongside.
+
 ---
 
-*Last reviewed: 2026-02-27*
+*Last reviewed: 2026-03-05*
