@@ -17,11 +17,11 @@ Just finished HENRY domain cleanup (all 4 chunks). Now applying same treatment t
 - TRADE.md tombstoned (18+ days stale)
 - WATCHLIST.md: falsification rules merged into STATUS.md EXIT RULES, rest tombstoned
 
-**Chunk 2b — Remaining root files (DO THIS NEXT — needs Will's decisions)**
-- POSITION_ADJUSTMENT_FEB16.md (195 lines) — archive?
-- PREDICTIONS.md (178 lines) — keep as .md or migrate to .tsv?
-- RESEARCH_STATUS.md (132 lines) — still active?
-- APOLLO_INTERCONNECTION.md (54 lines) — move to domain/sources?
+**Chunk 2b — Remaining root files ✅ DONE**
+- POSITION_ADJUSTMENT_FEB16.md → archived
+- PREDICTIONS.md → migrated to .tsv, thesis validation → workbook
+- RESEARCH_STATUS.md → leaving at root (Will wants to revisit)
+- APOLLO_INTERCONNECTION.md → moved to domain/sources
 
 **Chunk 3 — Sub-agent deduplication**
 - BROCK exists in TWO places: `AGENTS/BROCK/` AND `AGENTS/REGINALD/sub-agents/BROCK/`
