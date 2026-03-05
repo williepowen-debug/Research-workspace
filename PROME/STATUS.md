@@ -1,7 +1,7 @@
 # PROME STATUS.md
 **Updated:** 2026-03-05 05:30 UTC
 
-**Last context:** HENRY fully cleaned, QA'd, condensed (247→167 lines). Self-audit done. Next: stale workbook cleanup, then NFP spawn.
+**Last context:** HENRY self-audit 100% complete (all 🔴/🟠 resolved). Domain battle-ready for NFP spawn. Infrastructure ~80%.
 
 ## 🔴 CRITICAL — HORMUZ CLOSED + NFP RESOLUTION EVENT TOMORROW
 
@@ -11,7 +11,7 @@
 
 | Agent | Status | Key State | Updated |
 |-------|--------|-----------|---------|
-| HENRY | 🔴 | **CLEANED + QA'd + CONDENSED.** STATUS 167 lines. Self-audit done. Stale workbook (VX.tsv 76%) next. HEN-01: NFP <100K at 70%. Ready for NFP spawn. | Mar 5 |
+| HENRY | 🟢 | **BATTLE-READY.** STATUS 167 lines. VX.tsv 37 rows (35% stale). LESSONS +3. OUTBOX clean. All audit 🔴/🟠 resolved. HEN-01: NFP <100K at 70%. | Mar 5 |
 | REGINALD | 🔴 | **CLEANED.** BROCK consolidated (3→1 location). TRADE/WATCHLIST killed. PREDICTIONS migrated to .tsv. Inbox as folder. HY OAS threshold unified to >320bps. | Mar 5 |
 | LABOR | 🔴 | Hiring freeze Q2+. WARN 706/85K. Shadow gap resolves Mar-Apr. | Mar 3 |
 | CARL | 🔴 | Subprime auto ABS 7.1% ALL-TIME RECORD. FL UI cliff Mar 24. Gas squeeze Mar 14-21. | Mar 4 |
