@@ -1,8 +1,28 @@
 # SAM STATUS
 
-**Signal Status:** 🟠 ELEVATED | **Last Updated:** 2026-03-05 18:30 UTC (AM SCAN UPDATE)
+**Signal Status:** 🟠 ELEVATED | **Last Updated:** 2026-03-05 21:20 UTC (EOD UPDATE)
+
+**EOD Summary (Mar 5):** Asia staged a technical relief bounce — NOT a fundamental reversal. Nikkei +1.9% to **55,278**, KOSPI +9.6% (best day since 2008), Kosdaq +14.1%. USD/KRW pulled back sharply to ~**1,467** (from 1,500 breach). USD/JPY held ~156.85-157.00 range — yen safe-haven bid persisting but not accelerating. Carry unwind **STABILIZING short-term** (margin call clearing, Bessent oil statement) but structural thesis UNCHANGED. BOJ frozen. SPX -1.22% on US close — divergence between Asia bounce and continued US weakness. NFP tomorrow is the bifurcation event.
+
+---
+
+## EOD UPDATE — MAR 5 (21:20 UTC)
 
 **Summary:** EMERGENCY CONDITIONS PERSIST — NEW NUANCE OVERNIGHT. USDJPY pulled back to **~156.85** in Asian session (from 157.2 prev close) — **genuine safe-haven yen bid** emerging as Iran conflict escalates (US/Israel "striking progressively deeper"). This is the first real safe-haven signal; watch for acceleration. BOJ in **"strategic paralysis"** — March hike dead, April/July uncertain. JGB short-end yields FELL overnight as hike expectations pushed out. Finance Minister Katayama deployed **intervention language** ("watching closely, prepared to take various measures") — ambiguous re direction, but verbal warning live. Nikkei holding ~53.8-54.6k (near prior close, 55k support broken). Three-anchor UST selling thesis intact. Carry unwind probability unchanged: **7d 35%, 30d 80%, 60d 90%**.
+
+### SIGNAL DASHBOARD DELTAS (vs AM Scan)
+
+| Metric | AM Scan | EOD Mar 5 | Delta |
+|--------|---------|-----------|-------|
+| **Nikkei** | ~53.8-54.6k range | **55,278 (+1.9%)** | ✅ Bear bounce confirmed |
+| **KOSPI** | +~10% intraday (circuit breaker halt) | **+9.6% final (5,583.9)** | ✅ Held gains, best day since 2008 |
+| **Kosdaq** | +14.1% intraday | **+14.1% final (1,116.41)** | Confirmed |
+| **USD/KRW** | ~1,479 AM open | **~1,467 EOD** | 🟢 Won strengthened ~33 pts off 1,500 |
+| **USD/JPY** | ~156.85 Asian session | **~156.85-157.00** | Flat — range-bound |
+| **BOJ signal** | Frozen, paralysis | Ueda reiterating hike path but monitoring Iran | No change |
+| **Carry unwind prob 7d** | 20% | **20%** (no change) | Stabilizing |
+| **Carry unwind prob 30d** | 75% | **75%** (no change) | Structural intact |
+| **SPX** | -1.22% (EOD US) | **-1.22%** | US/Asia divergence live |
 
 ---
 

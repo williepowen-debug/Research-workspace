@@ -15,6 +15,7 @@ REGINALD is the convergence point for regional bank stress. Five sub-agents main
 | **CORAL** | Florida CRE / Condo Crisis | Migration, HOA/SIRS, Citizens insurance, SSB/VLY FL exposure | `sub-agents/CORAL/` |
 | **RENO** | Nevada Geographic Stress | Gaming/tourism, housing, water crisis, WAL NV exposure | `sub-agents/RENO/` |
 | **TEX** | Texas/Florida Regional | Geographic concentration, HOA, housing | `sub-agents/TEX/` |
+| **BELT** | Mortgage DQ Belt (MS/LA/MD) | State-level mortgage delinquency hotspots | `sub-agents/BELT/` |
 
 ---
 
@@ -45,31 +46,33 @@ REGINALD is the convergence point for regional bank stress. Five sub-agents main
 
 **Sync to REGINALD:** VX-REG-2.03, VX-REG-9.04, VX-REG-12.01
 
-### CORAL (CLO Expert)
+### CORAL (Florida CRE — Condo Crisis, HOA, Citizens Insurance)
 **Maintains:**
-- CLO spread tracking
-- Japan institutional exposure mapping
-- RF/BANC concentration analysis
+- FL condo receivership / SIRS mandate tracking
+- HOA special assessment monitoring
+- Citizens Property Insurance stress mapping
+- SSB/VLY FL exposure analysis
 
 **Key vectors for REGINALD:**
-- CLO AAA spreads (115bps, 35bps cushion)
-- Japan bid status (Norinchukin ¥9.7T)
+- FL migration collapse (-93%)
+- HOA super-lien cascade (SB 4-D)
+- Citizens $678B assessment capacity
 
-**Sync to REGINALD:** VX-REG-2.01, VX-REG-2.02, VX-REG-5.01, VX-REG-6.01
+**Sync to REGINALD:** VX-REG-8.01, VX-REG-15.03, VX-REG-19.02, FLOW-REG-6.01, FLOW-REG-20.01
 
-### RENO (Bank Fundamentals Expert)
+### RENO (Nevada Geographic Focus)
 **Maintains:**
-- Bank-by-bank NIM tracking
-- Deposit composition analysis
-- FHLB advance monitoring
-- Fraud exposure mapping
+- Nevada gaming/tourism stress tracking
+- NV housing market analysis
+- Water crisis monitoring
+- WAL Nevada exposure mapping
 
 **Key vectors for REGINALD:**
-- FHLB advances ($480B)
-- Collateral haircut policy
-- Bellwether stock prices
+- Gaming/tourism revenue trends
+- NV housing velocity
+- WAL NV CRE concentration
 
-**Sync to REGINALD:** VX-REG-6.01-6.10, VX-REG-7.01-7.03, VX-REG-10.01-10.02
+**Sync to REGINALD:** VX-REG-6.04 (WAL NV), VX-REG-8.01 (NV HOA)
 
 ### TEX (Geographic Expert)
 **Maintains:**
