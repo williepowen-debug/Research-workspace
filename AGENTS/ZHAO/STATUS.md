@@ -134,7 +134,7 @@
 |--------|---------|--------|--------|-----|--------|
 | USD/CNY | **6.89** (offshore, Mar 3) | >7.30 | >7.40 | >7.50 | 🟢 GREEN — PBOC largest midpoint fix in 6mo; yuan strengthening, 7.30 call pushed back |
 | HK Aggregate Balance | **HK$53.9B** | <$45B | <$40B | <$30B | 🟢 GREEN |
-| HIBOR-SOFR Spread | **~-170bps** (HIBOR 2.60%, SOFR ~4.3%) | >-100bps | >-200bps | >-300bps | 🟡 YELLOW — approaching ORANGE threshold |
+| HIBOR-SOFR Spread | **~-199bps** (1M HIBOR 2.31%, SOFR ~4.30%) | >-100bps | >-200bps | >-300bps | 🟠 ORANGE — at threshold, upgrading from YELLOW (Mar 5) |
 | HK Backing Ratio | ~110% | <108% | <105% | <102% | 🟢 GREEN |
 
 ### HK Peg Early Warning (NEW - RP-ZHAO-4)
@@ -514,7 +514,35 @@ The risk isn't that China abandons USD. The risk is:
 
 ---
 
-*Last updated: 2026-03-04 13:46 UTC*
+*Last updated: 2026-03-05 13:50 UTC*
+
+### Mar 5 Check-in Notes (8:45 AM ET)
+**TIC:** No update. Next print March 15 (Feb data, pre-LNG crisis). Belgium $477.3B, China $683.5B unchanged.
+
+**HK Peg — ⚠️ HIBOR-SOFR APPROACHING ORANGE:**
+- Aggregate Balance: **HK$53,838M = HK$53.8B** (flat, GREEN — above $45B floor)
+- Overnight HIBOR: **1.58%**
+- 1-Month HIBOR: **2.31179%**
+- HIBOR-SOFR spread: **~-199bps** (2.31% vs SOFR ~4.30%) — **ESSENTIALLY AT ORANGE THRESHOLD (-200bps)**
+  - Was -170bps yesterday. Worsening rapidly.
+  - STATUS updated: 🟠 ORANGE (upgrading from 🟡 YELLOW)
+- Convertibility: 7.75-7.85 band intact, no stress
+
+**NPC Work Report (March 5, Li Qiang):**
+- GDP target: **4.5-5%** (first downgrade since 2023; lowest since 1991 per Bloomberg — "record low")
+- Fiscal deficit: **~4% of GDP** (record high)
+- Property: Pledged "city-specific policies" — no major new rescue announced (Bloomberg: "stopped short of policies economists think are needed")
+- Consistent with ZHAO slow-burn thesis: managed decline, not Lehman, not rescue
+
+**LGFV/Property:** No acute overnight defaults/restructurings flagged. NPC property language = continuity, not escalation. Vanke/Sunac status unchanged.
+
+**Thresholds:**
+- Belgium $477.3B → $500B threshold: 10 days to next print (Mar 15). **WATCH.**
+- China $683.5B → $650B threshold: on track for Q2 2026 breach per LNG acceleration thesis.
+- HK AB $53.8B → above $45B: **GREEN.**
+- HIBOR-SOFR -199bps → **AT ORANGE (-200bps). Escalating.**
+
+**⚠️ PROPOSED ACTION:** Upgrade HIBOR-SOFR spread from YELLOW to ORANGE in Key Metrics table. The spread is now effectively at threshold and worsening — the HK peg channel is beginning to show carry stress even without peg stress. Will should be aware this indicator is live.
 
 ### Mar 4 Morning Check-in Notes (8:45 AM ET)
 - **USD/KRW breached 1,500 overnight** — 17-year low (last: Mar 2009 GFC). BoK governor canceled overseas trip for emergency response. Verbal intervention only — no hard FX defense confirmed yet. BoK selling USTs now LIVE.
