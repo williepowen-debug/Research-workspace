@@ -1,5 +1,5 @@
 # HENRY STATUS
-**Last Updated:** 2026-03-04 21:15 UTC | **Status:** 🟠 ORANGE — RELIEF RALLY ON IRAN PEACE TALK LEAK (NYT). SPX +0.78% TO 6,869. NOT FUNDAMENTALLY RESOLVED. ADP +63K STILL POINTS TO NFP <100K. BEIGE BOOK: ¾ DISTRICTS CITING TARIFFS ON PRICES. HORMUZ STILL CLOSED (IRGC CLAIMS FULL CONTROL). HEN-01 HELD 70%. NFP FRI MAR 6 = RESOLUTION.
+**Last Updated:** 2026-03-04 21:15 UTC | **Status:** 🟠 ORANGE — RELIEF RALLY ON IRAN PEACE TALK LEAK (NYT). SPX +0.78% TO 6,869. NOT FUNDAMENTALLY RESOLVED. ADP +63K STILL POINTS TO NFP <100K. BEIGE BOOK: 9/12 DISTRICTS CITING TARIFFS ON PRICES. HORMUZ STILL CLOSED (IRGC CLAIMS FULL CONTROL). HEN-01 HELD 70%. NFP FRI MAR 6 = RESOLUTION.
 
 ---
 
@@ -43,24 +43,7 @@ Market is derivatives-driven, dealer hedging dominates short-term dynamics.
 
 ---
 
-## SESSION LOG — Mar 4, 2026 (EOD, 21:15 UTC)
-
-### FINAL CLOSES — MAR 4 [CONF]
-- SPX: **6,869.50** (+0.78%) | CNBC confirmed — partial recovery of Mar 3 losses
-- Dow: **48,739.41** (+0.49%) | Snapped 3-day loss streak
-- Nasdaq: **+1.29%** | Tech megacaps led
-- Nasdaq 100: **+1.6%** | Bloomberg confirmed
-- VIX: **~24-25 est** (compressed on relief; not confirmed)
-- IWM: $260.67 (below all MAs, dead cat bounce from $248)
-
-### KEY DRIVERS TODAY
-1. **Iran/US Indirect Talks (NYT):** Iran reportedly approached US indirectly to discuss terms for ending conflict → Hormuz fear-premium compressed → market rallied. NOT a ceasefire. NOT a resolution. IRGC simultaneously declared they're "in complete control" of Hormuz. Classic headline relief, not fundamental change.
-2. **ADP +63K narrative flip:** Market framed as "beat vs 50K revised consensus" — NOT the "miss vs 130K" framing. Consensus was quietly revised down. Market spun this as a positive. This is MISLEADING — the underlying data is unchanged and still supports HEN-01 <100K thesis.
-3. **Beige Book (released today):** "Slight to moderate" growth. Prices up "moderately" with **3 of 4 districts citing tariffs** for price pressures. Employment "relatively stable" — >half districts reporting no change in hiring. Consistent with stagnation thesis, not resolution.
-4. **Consumer discretionary led:** Ross +7%, Amazon/Tesla/Airbnb/Booking +3% — pure risk-on reflex on geopolitical hope trade, not fundamentals.
-5. **Nvidia/Jensen Huang:** Stated NVDA investments in OpenAI not reaching $100B — AI capex moderation signal. Muted for now.
-
-*Full deltas + cross-domain analysis: Signal Dashboard above reflects Mar 4 confirmed data.*
+*Mar 4 session log archived → `workbook/SESSION_LOG_MAR4.md`*
 
 ---
 
@@ -103,65 +86,25 @@ Market is derivatives-driven, dealer hedging dominates short-term dynamics.
 
 ---
 
-## CASCADE ORDER ⚠️ UPDATED TRIGGER LEVELS
+## CASCADE STATUS (Mar 3) — *Full reference → `domain/REFERENCE_TABLES.md`*
 
-| Order | Strategy | AUM | Trigger | Speed | Current Status |
-|-------|----------|-----|---------|-------|---------------|
-| 1 | Fast Vol-Control | Multi-$T | 10-day realized vol | Immediate | 🔴 ACTIVE (VIX 26.43) |
-| 2 | Short-Term CTAs | ~$100B | 50-DMA breach (6,883) | Days | 🔴 ACTIVE (close 6,781 < 6,883) |
-| 3 | Medium-Term CTAs | ~$200B | 6,707 close below → $80B | 1-4 weeks | ⚠️ BORDERLINE (intraday breach, not sustained) |
-| 4 | Longer-Duration CTAs | ~$200B+ | ~6,494 sustained below | Weeks | Not triggered |
-| 5 | Risk Parity | ~$1T | Cross-asset correlation | Monthly | Building |
-
----
-
-## LEADING INDICATOR SEQUENCE
-
-```
-MOVE rises (VIX flat)       → 2-5 days before
-VIX inverts (spot > futures) → 1-3 days before
-GEX thins (<$2B)            → 1 day before
-DIX drops (<40%)            → 1-2 days before
-PUT WALL BREAKS             → T-0: Cascade begins
-CTAs flip at 6,494          → T+1 to T+5
-Risk parity deleverages     → T+5 to T+30
-```
+| Step | Status |
+|------|--------|
+| Vol-Control | 🔴 ACTIVE (VIX 26.43) |
+| Short-Term CTAs (6,883) | 🔴 ACTIVE (close 6,781) |
+| Medium CTAs (6,707) | ⚠️ BORDERLINE (intraday breach, not sustained) |
+| Long CTAs (6,494) | Not triggered |
+| Risk Parity | Building |
 
 ---
 
-## CREDIT-EQUITY TRANSMISSION
+## CREDIT-EQUITY VIEW
 
-| HY OAS 5-Day Change | Equity Impact | Lead Time |
-|---------------------|---------------|-----------|
-| +25-50 bps | -2% to -5% | 2-3 sessions |
-| +50-100 bps | -5% to -10% | 0-1 session |
-| +100+ bps | -10%+ | Same day |
+**Credit is PRIMARY driver** (Feb 27 upgrade). HY OAS +12bps/wk to 308bps. MFS → Jefferies/Barclays → sector contagion confirmed pattern. **Equity CANNOT bottom until HY OAS peaks** (H4).
 
-**Key Rule:** Equity CANNOT bottom until HY OAS peaks.
+**Path probabilities:** Slow credit grind 55% | Fast gamma cascade 30% | Muddle-through 15%
 
----
-
-## CREDIT-PRIMARY REFRAME (Added Feb 27 — Cross-Agent Signal from BROCK/LIQUID)
-
-**Upgraded:** Credit is PRIMARY driver, not secondary amplifier. MFS (UK lender, £2B fraud) → Barclays -4.2%, Jefferies -11%, Apollo hit. MFIC dividend cut = 2nd BDC cut in 48hrs. HY OAS +12bps/week to 4-month wides. This is credit contagion dressed as a tech selloff.
-
-**Implication for cascade model:** Vol-control/CTA triggers (fast, sharp) are 30% probability path. Credit-driven slow grind is 55% probability path. No V-recovery until HY OAS peaks (H4 confirmed as primary rule). 2-4 week grinding chop-down, episodic headline risk, each rally sold.
-
-**HY OAS promoted to PRIMARY signal.** Rate of change (+12bps/wk) now as important as level (300bps threshold). CLO spreads added to watch list.
-
-**Path probabilities:**
-- Fast gamma cascade (sharp break, V-bounce) → 30%
-- Slow credit grind (-1 to -1.5%/day, no recovery) → 55%
-- Muddle-through → 15%
-
----
-
-## TRANSMISSION PATHS
-
-- **LABOR → HENRY:** Claims >300K = fundamental trigger → gamma test of Put Wall
-- **HENRY → CARL:** SPX -10%+ → Reverse Wealth Effect → spending pullback. SBC amplifies to $19-26T wealth destruction.
-- **SAM → HENRY:** Yen appreciation = carry unwind = Aug 2024 playbook
-- **⚠️ PHASE 2 CARRY WATCH (SAM, Mar 4):** USDJPY ~158. Yen NOT functioning as safe haven (USD preferred as conflict protagonist). Phase 2 trigger = soft NFP (Mar 6) → yen bid → carry unwind cascade. Monitor closely.
+**Phase 2 carry watch:** USDJPY ~158. Soft NFP → yen bid → carry unwind cascade.
 
 ---
 
@@ -191,14 +134,7 @@ Next: **NFP Mar 6** (HEN-01: 70% <100K) | CPI Mar 11 | PCE Mar 13 | FOMC Mar 17-
 
 ---
 
-## CROSS-AGENT SIGNALS PROCESSED (Mar 4-5)
-
-| Signal | From | Key Data | Impact |
-|--------|------|----------|--------|
-| KOSPI -18% (2-day) | ZHAO | Circuit breakers, Samsung/Hynix -50% index; Nikkei -4.6%, ASX -1.81% | 🔴 CONTAGION: Forced institutional liquidation of foreign assets → potential SPX headwind Mar 5-6 |
-| EU defense/energy bifurcation | HANS | Rheinmetall/BAE surging; XLE analog to 2022; short EU industrials | 🟠 US secondary: LMT/RTX/NOC NATO order bid. XLE energy bid reinforces oil-inflation thesis |
-| LIQ-01 (HY OAS 320bps) | LIQUID 12:47 | Estimated achieved early — FRED actual 308bps Mar 3, not 320+ | ⚠️ NOT YET confirmed. Threshold still pending. LIQUID est 30bps too high again (recalibration needed) |
-| FL triple squeeze amplifier | CARL | Energy+HOA+insurance squeeze + UI cliff Mar 24 → FL DQ accelerant | 🔴 Adds geographic concentration to reverse wealth effect. FL is accelerant, not laggard |
+*Cross-agent signals (Mar 4-5) archived → `workbook/SESSION_LOG_MAR4.md`*
 
 ## WHAT TO WATCH
 
@@ -214,34 +150,18 @@ Next: **NFP Mar 6** (HEN-01: 70% <100K) | CPI Mar 11 | PCE Mar 13 | FOMC Mar 17-
 
 ---
 
-## BEIGE BOOK MAR 4, 2026 — THESIS SCORECARD (Processed Mar 5)
+## BEIGE BOOK (Mar 4) — Summary
 
-**⚠️ Data through Feb 23 — pre-Hormuz, pre-Korea crash, pre-March 3 selloff. April will be materially worse.**
+**⚠️ Data through Feb 23 — pre-Hormuz, pre-Korea, pre-Mar 3 selloff. April will be materially worse.**
 
-| Signal | BB Status | Level | Implication |
-|--------|-----------|-------|-------------|
-| Employment stalling | ✅ 7/12 flat (attrition-without-replacement) | CONFIRMED | Pre-recessionary, not yet crisis. NFP 75-110K range |
-| Consumer K-shape | ✅ 10-12/12 explicit | CONFIRMED | Bottom 60% in functional recession. Employed requesting food aid. |
-| Credit tightening | ✅ All 12 districts tightening | CONFIRMED | Small biz + consumer access shrinking. Dallas: 100% CRE loan growth |
-| CRE stress | ✅ All 4 segments stressed | BROADENING | Multifamily distressed sales (DAL), office bifurcating, industrial soft |
-| Margin squeeze | ✅ 9/12 districts | CONFIRMED | Full pass-through coming in 2026 (CHI) = consumer inflation acceleration |
-| Bank→Shadow transmission | ✅ SF explicit | ACTIVE | APO puts thesis confirmation. Private credit filling bank gaps |
-| Rural hospital closure risk | ✅ 2 districts (KC+DAL) | EMERGING | Healthcare stress channel + KRE thesis amplifier |
-| Ag distress | ✅ Record auctions (STL) | ACTIVE | Farm sector in liquidation. Ground may go unplanted (AR) |
-| Immigration enforcement shock | ✅ 5+ districts | NEW CHANNEL | Dual supply+demand hit. No monetary policy offset |
-| Safety net degrading | ✅ Every district | STRUCTURAL | Food banks cutting own benefits. Nonprofits failing |
+All 10 thesis pillars confirmed: employment stalling (7/12 flat), K-shape (10-12/12), credit tightening (12/12), CRE broadening, margin squeeze (9/12), bank→shadow transmission (SF), rural hospital risk (KC+DAL), ag liquidation (STL), immigration shock (5+), safety net degrading (all). Trade confirmations: WAL/KRE ↑ HIGH, APO ↑ NEW, IWM steady.
 
-**New vectors added:** VX-HEN-19.01 through VX-HEN-19.06
-**New FLOW mechanics:** FLOW-HEN-014 through FLOW-HEN-018
-**New predictions:** HEN-04 (FOMC hold), HEN-05 (April BB worse)
-**Trade confirmations:** WAL/KRE puts ↑ HIGH | APO puts ↑ NEW CONFIRMATION | IWM puts steady
+*Full scorecard → `domain/BEIGE_BOOK_MAR4_2026.md` | Vectors → workbook/ML.tsv (ML-HEN-077–086)*
 
 ---
 
 ## BOTTOM LINE
 
-Loaded for destabilization, wound tighter than Aug 2024. 0DTE 65%, margin ATH, credit diverging. Quality rotation Steps 1-4 now confirmed. Phase transition won't be gradual. Beige Book confirms all thesis pillars simultaneously — bottom-up real economy matches top-down signals.
+Loaded for destabilization, wound tighter than Aug 2024. 0DTE 65%, margin ATH, credit diverging. Quality rotation Steps 1-4 confirmed. Phase transition won't be gradual. Beige Book confirms all thesis pillars — bottom-up matches top-down.
 
-*Cross-vector synthesis → archive/CROSS_VECTOR_SYNTHESIS_FEB18.md*
-*Burry GPU thesis → archive/BURRY_GPU_THESIS_FEB23.md*
-*Beige Book synthesis → workbook/ML.tsv (ML-HEN-077 through ML-HEN-086)*
+*References → `archive/CROSS_VECTOR_SYNTHESIS_FEB18.md`, `archive/BURRY_GPU_THESIS_FEB23.md`*
