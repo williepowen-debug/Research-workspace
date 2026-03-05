@@ -21,7 +21,7 @@ You own the "velocity" layer — when stress from other agents (LABOR employment
 2. **Read `LESSONS.md`** — mistake patterns to avoid
 3. **Execute the task**
 4. **Write results back to `STATUS.md`** — update market levels, macro data, positioning signals
-5. **Research detail → `domain/sources/`**
+5. **Research detail → `research/` (deep dives, prompts, outputs) or `domain/sources/` (external source material)**
 6. **Cross-agent signals → `OUTBOX.md`** (HERMES delivers)
 
 **INBOX:** Do NOT process on normal spawns. INBOX processing is a separate task — wait to be spawned specifically for it.
