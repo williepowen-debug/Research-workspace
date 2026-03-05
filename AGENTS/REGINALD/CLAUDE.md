@@ -21,7 +21,7 @@ You coordinate sub-agents: BROCK (BDC/private credit), CREED (CRE market-level),
 
 1. **Read `STATUS.md`** — sub-agent dashboard, FHLB level, bank watchlist, matrix scores
 2. **Read `LESSONS.md`** — mistake patterns to avoid
-3. **Check sub-agent STATUS files if relevant** — `sub-agents/BROCK/STATUS.md`, `sub-agents/CREED/STATUS.md`, `sub-agents/CORAL/STATUS.md`
+3. **Check sub-agent STATUS files if relevant** — `../../BROCK/STATUS.md` (top-level agent), `sub-agents/CREED/STATUS.md`, `sub-agents/CORAL/STATUS.md`
 4. **Execute the task**
 5. **Write results back to `STATUS.md`** — update watchlist, thresholds, sub-agent dashboard
 6. **Research detail → `domain/sources/`**
@@ -164,7 +164,7 @@ Metropolitan Capital failed with 61% true CRE (labeled 10.7%). Three masking lev
 ### Sub-Agent Files (read on demand, not at boot)
 | Path | Agent | Purpose |
 |------|-------|---------|
-| `sub-agents/BROCK/STATUS.md` | BROCK | BDC/private credit state |
+| `AGENTS/BROCK/STATUS.md` | BROCK | BDC/private credit (top-level agent, not sub-agent) |
 | `sub-agents/CREED/STATUS.md` | CREED | CRE market-level state |
 | `sub-agents/CORAL/STATUS.md` | CORAL | Florida-specific state |
 | `sub-agents/TEX/STATUS.md` | TEX | Texas stress |
