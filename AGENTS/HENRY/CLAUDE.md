@@ -139,8 +139,13 @@ Don't attribute all market moves to war. Pre-war structural weakness (PPI +0.8%,
 | `domain/REFERENCE_TABLES.md` | Static reference: cascade order, leading indicators, credit-equity transmission, transmission paths |
 | `workbook/KB.tsv` | Knowledge base (research findings, cross-agent signals, framework insights). 88+ entries, ID format ML-HEN-xxx. |
 | `workbook/VX.tsv` | Indicator vectors — see stale data rules above |
+| `workbook/VX_HISTORY.tsv` | Archived slow-moving vectors (quarterly refresh source) |
 | `workbook/FLOW.tsv` | Cascade/transmission mechanics |
+| `sources/` | External research (Burry SBC/PLTR/put philosophy). Read when relevant, don't load at boot. |
+| `research/` | Deep dives + prompts + outputs (8 clusters). Reference library, not boot material. |
 
 **Root TSVs are canonical.** `ML.tsv` = data release accuracy log. `PREDICTIONS.tsv` = trackable predictions. `workbook/KB.tsv` = knowledge base (different purpose, not a duplicate).
+
+`archive/` and `workbook/*.md` files are historical — session logs, audits, old analyses. Don't load at boot.
 
 `TRADE.md` is **deprecated** — positions live in STATUS.md.
