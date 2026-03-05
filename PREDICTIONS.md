@@ -4,7 +4,22 @@
 
 **Last updated:** 2026-03-05
 **Thesis Confidence:** 80% (RED team validated Feb 14 — `AGENTS/RED/RED_TEAM_REPORT_2026-02-14.md`)
-**Resolved record:** 12.5/22 (57%) — well-calibrated across all confidence bands. Archive → `PROME/PREDICTIONS_ARCHIVE.md`
+
+### Track Record
+| Category | Record | Rate |
+|----------|--------|------|
+| **Thesis (structural)** | 5.5/7 | **79%** |
+| **Events (timing)** | 7/15 | 47% |
+| **Combined** | 12.5/22 | 57% |
+
+| Confidence Band | Record | Calibration |
+|-----------------|--------|-------------|
+| High (>70%) | 7/8 | 88% ✅ |
+| Medium (50-70%) | 4.5/9 | 50% ✅ |
+| Low (<50%) | 1/5 | 20% ✅ |
+
+*Takeaway: Strong on direction, coin-flip on timing. Calibration is good across all bands.*
+*Full resolution details → `PROME/PREDICTIONS_ARCHIVE.md`*
 
 ---
 
