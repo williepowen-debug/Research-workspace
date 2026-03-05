@@ -5,13 +5,13 @@ REG-03	2026-02-23	$936B maturity wall forces recognition wave	70%	H2 2026	OPEN		
 REG-04	2026-02-23	FHLB advances spike >$600B	60%	Q2-Q3 2026	OPEN			Advances stay <$550B through Q3	LIQUID dependency
 REG-05	2026-02-23	FHLB advances spike >$700B (crisis level)	40%	H2 2026	OPEN			Advances stay <$600B through 2026	LIQUID dependency
 REG-06	2026-02-23	At least one Tier 1 bank (EGBN, WAL) capital raise	50%	H2 2026	OPEN			Both avoid capital raise through 2026	
-REG-07	2026-02-23	SSB NPL migration >0.5% from substandard	55%	Q2-Q3 2026	OPEN			SSB NPLs stay <0.3%	CORAL dependency
+REG-07	2026-02-23	SSB NPL migration >0.5% from substandard	68%	Q2-Q3 2026	OPEN			SSB NPLs stay <0.3%	CORAL dependency; FL UI cliff Mar 24 accelerates — UPGRADED 55→68% (2026-03-05, ML-REG-110)
 REG-08	2026-02-23	KRE breaks below $65	45%	H1 2026	OPEN			KRE holds >$70 through Q2	
 REG-09	2026-02-23	At least one Tier 2 bank (VLY, CFG, ZION) misses Q1 earnings	50%	Apr 2026	OPEN			All three beat/meet estimates	
 REG-10	2026-02-23	PSEC cuts dividend in 2026	65%	2026	FAILED	2026-02-10	❌ WRONG	PSEC maintains dividend	Maintained Feb 9-10. PIK elevated but NII coverage sufficient.
 REG-11	2026-02-23	At least one major BDC (PSEC, FSK, TCPC) cuts dividend	55%	H1 2026	CONFIRMED	2026-02-25	✅ CORRECT	All maintain dividends through H1	FSK div -31% confirmed Feb 25
 REG-12	2026-02-23	BDC sector average PIK exceeds 25%	60%	Q2 2026	OPEN			PIK declines to <20%	BROCK dependency
-REG-13	2026-02-23	2+ convergence channels fire simultaneously	55%	H1 2026	OPEN			Channels fire sequentially with >3mo gaps	LABOR dependency (employment)
+REG-13	2026-02-23	2+ convergence channels fire simultaneously	72%	H1 2026	OPEN			Channels fire sequentially with >3mo gaps	LABOR dependency (employment); iTraxx ~95bps + FL UI cliff + BCRED near-gate = 3 channels live simultaneously — UPGRADED 55→72% (2026-03-05, ML-REG-111, VX-REG-18.01)
 REG-14	2026-02-23	Multi-channel bank (WAL, VLY, ZION) underperforms pure-play	50%	Q1-Q2 2026	OPEN			Multi-channel banks outperform KRE	
 REG-15	2026-02-23	WAL hidden CRE ratio (Memo3/C&I) exceeds 30%	60%	Q2 2026	OPEN			Ratio declines below 20%	
 REG-16	2026-02-23	OZK reports CRE charge-offs >5% annualized	55%	H1 2026	OPEN			NCO <2% through H1	Apr 16 earnings
