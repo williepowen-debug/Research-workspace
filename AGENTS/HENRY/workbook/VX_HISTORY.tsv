@@ -30,3 +30,14 @@ VXH-028	2026-01-26	VX-HEN-8.03	+$380B	P85	Passive flow momentum - strong inflows
 VXH-029	2026-01-26	VX-HEN-8.04	STABLE	P50	401(k) flow stability - automatic bid intact
 VXH-030	2026-01-26	VX-HEN-8.05	+$150B	P75	Foreign equity demand - TINA dynamic
 VXH-031	2026-01-26	VX-HEN-8.06	5-17x	>99	Inelastic market multiplier - structural
+VXH-032	2026-02-12	VX-HEN-3.01	3.95%	P75	Margin debt $1.23T ATH (Dec 2025 FINRA); up 36% YoY
+VXH-033	2026-02-12	VX-HEN-6.01	61%	>99	0DTE: SPX 65%, NDX 78%, overall 55%
+VXH-034	2026-02-12	VX-HEN-17.01	4.8%	P90	Aggregate tech SBC dilution rate
+VXH-035	2026-02-12	VX-HEN-17.02	38%	>99	SBC/Adj earnings ratio (tech) — Burry 30-50% overstatement
+VXH-036	2026-02-12	VX-HEN-17.03	NEGATIVE	P99	Buyback efficiency — NVDA $91B buybacks = zero net share reduction
+VXH-037	2026-02-03	VX-HEN-10.01	1.05	P50	Earnings revision ratio — late-cycle neutral
+VXH-038	2026-02-03	VX-HEN-10.02	2.43	P70	Guidance beat/miss ratio — 70.8% positive
+VXH-039	2026-02-03	VX-HEN-10.03	7.8pts	P85	Revenue-EPS gap — financial engineering reliance
+VXH-040	2026-02-03	VX-HEN-10.04	+58%	P95	Layoff acceleration YoY — 1.2M cuts, highest Q4 since 2008
+VXH-041	2026-02-03	VX-HEN-10.05	13.2%	>99	S&P net profit margin ATH — mean reversion risk
+VXH-042	2026-02-03	VX-HEN-10.06	AMBER	-	Corp stress composite — elevated risk

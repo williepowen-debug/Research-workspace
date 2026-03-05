@@ -1,7 +1,7 @@
 ID	Prediction	Confidence	Made_Date	Resolve_Date	Status	Result	Notes
 HEN-01	NFP Feb 2026 <100K	70%	2026-02-01	2026-03-06	ACTIVE	TBD	Jan ADP 22K shock → upgraded 60→70%. ADP Feb +63K (vs 130K cons) confirms weakness. ISM Employment 51.8 (above 50) does not trigger upgrade. ICE absenteeism adds downside risk. Hold 70%.
 H1	SPX breaks 6494 → CTAs flip → $40-60B selling	80%	2026-02-18	2026-03-31	ACTIVE	TBD	6707 intraday breach Mar 3 not sustained close. 6494 = next threshold.
-H2	MOVE >115 while VIX <20 = credit stress incoming	70%	2026-02-18	2026-03-05	STALE	N/A	RETIRED. VIX 21-26 range broke the <20 precondition. Condition structurally invalid — vol regime shifted. Replaced by H4 (HY OAS sequencing) as primary credit stress signal.
+H2	MOVE >115 while VIX <20 = credit stress incoming	70%	2026-02-18	2026-03-05	STALE	INVALID	RETIRED. VIX 21-26 range broke the <20 precondition. Condition structurally invalid — vol regime shifted. Replaced by H4 (HY OAS sequencing) as primary credit stress signal.
 H4	Equity cannot bottom until HY OAS peaks	85%	2026-02-27	2026-06-30	ACTIVE	TBD	Primary rule. HY OAS 308bps (CONF Mar 3). Floor rising (265→284→308).
 H5	PLTR breaks $100 → AI thematic repricing begins	75%	2026-02-18	2026-03-31	ACTIVE	TBD	Currently $136. Still 26% away.
 H7	XLK breadth <40% precedes sector repricing	80%	2026-02-18	2026-03-31	ACTIVE	TBD	Currently <50%. Approaching trigger.
