@@ -156,7 +156,7 @@ Next: **NFP Mar 6** (HEN-01: 70% <100K) | CPI Mar 11 | PCE Mar 13 | FOMC Mar 17-
 
 All 10 thesis pillars confirmed: employment stalling (7/12 flat), K-shape (10-12/12), credit tightening (12/12), CRE broadening, margin squeeze (9/12), bank→shadow transmission (SF), rural hospital risk (KC+DAL), ag liquidation (STL), immigration shock (5+), safety net degrading (all). Trade confirmations: WAL/KRE ↑ HIGH, APO ↑ NEW, IWM steady.
 
-*Full scorecard → `domain/BEIGE_BOOK_MAR4_2026.md` | Vectors → workbook/ML.tsv (ML-HEN-077–086)*
+*Full scorecard → `domain/BEIGE_BOOK_MAR4_2026.md` | Vectors → workbook/KB.tsv (ML-HEN-077–086)*
 
 ---
 
