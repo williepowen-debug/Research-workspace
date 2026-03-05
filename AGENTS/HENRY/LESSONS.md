@@ -20,6 +20,15 @@
 ### [Verification] — Don't Cite Own STATUS.md for Live Prices
 **Rule:** STATUS.md is for thresholds, frameworks, and thesis. It is NOT a live data feed. When asked about current VIX, SPX, or spreads, pull from web sources. Citing your own stale dashboard as "current" is circular.
 
+### [Verification] — Cross-Agent Estimates Need Discount
+**Lesson from LIQUID (Mar 3-4):** LIQUID's HY OAS model overestimated by ~30bps two sessions in a row (estimated 335-355bps; FRED confirmed 308bps). Pattern, not one-off. **Rule:** When using LIQUID's spread estimates, apply -30bps discount until the model is recalibrated. Always verify against FRED/ICE actuals before citing.
+
+### [Analysis] — Consensus Revision Is a Framing Weapon
+**Lesson from ADP (Mar 4):** ADP consensus was quietly revised from 130K → 50K before release, so +63K got framed as a "beat." The underlying data is unchanged — it's still a massive miss vs original expectations. **Rule:** When a data release drops, check what consensus was *before* any last-minute revision. The original consensus is the true sentiment anchor.
+
+### [Analysis] — Geopolitical Headlines ≠ Fundamental Resolution
+**Lesson from Iran peace talk leak (Mar 4):** NYT report of "indirect approach" → SPX +0.78%, VIX compressed. Same day IRGC declared "complete control" of Hormuz. Market rallied on hope, not change. **Rule:** Don't adjust thesis on geopolitical headlines alone. Require: (1) confirmed ceasefire/deal, (2) shipping lane reopened, or (3) oil price sustained below pre-event level. Until then, it's noise.
+
 ---
 
-*Last reviewed: 2026-02-27*
+*Last reviewed: 2026-03-05*
