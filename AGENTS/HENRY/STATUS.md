@@ -210,9 +210,34 @@ Next: **NFP Mar 6** (HEN-01: 70% <100K) | CPI Mar 11 | PCE Mar 13 | FOMC Mar 17-
 
 ---
 
+## BEIGE BOOK MAR 4, 2026 — THESIS SCORECARD (Processed Mar 5)
+
+**⚠️ Data through Feb 23 — pre-Hormuz, pre-Korea crash, pre-March 3 selloff. April will be materially worse.**
+
+| Signal | BB Status | Level | Implication |
+|--------|-----------|-------|-------------|
+| Employment stalling | ✅ 7/12 flat (attrition-without-replacement) | CONFIRMED | Pre-recessionary, not yet crisis. NFP 75-110K range |
+| Consumer K-shape | ✅ 10-12/12 explicit | CONFIRMED | Bottom 60% in functional recession. Employed requesting food aid. |
+| Credit tightening | ✅ All 12 districts tightening | CONFIRMED | Small biz + consumer access shrinking. Dallas: 100% CRE loan growth |
+| CRE stress | ✅ All 4 segments stressed | BROADENING | Multifamily distressed sales (DAL), office bifurcating, industrial soft |
+| Margin squeeze | ✅ 9/12 districts | CONFIRMED | Full pass-through coming in 2026 (CHI) = consumer inflation acceleration |
+| Bank→Shadow transmission | ✅ SF explicit | ACTIVE | APO puts thesis confirmation. Private credit filling bank gaps |
+| Rural hospital closure risk | ✅ 2 districts (KC+DAL) | EMERGING | Healthcare stress channel + KRE thesis amplifier |
+| Ag distress | ✅ Record auctions (STL) | ACTIVE | Farm sector in liquidation. Ground may go unplanted (AR) |
+| Immigration enforcement shock | ✅ 5+ districts | NEW CHANNEL | Dual supply+demand hit. No monetary policy offset |
+| Safety net degrading | ✅ Every district | STRUCTURAL | Food banks cutting own benefits. Nonprofits failing |
+
+**New vectors added:** VX-HEN-19.01 through VX-HEN-19.06
+**New FLOW mechanics:** FLOW-HEN-014 through FLOW-HEN-018
+**New predictions:** HEN-04 (FOMC hold), HEN-05 (April BB worse)
+**Trade confirmations:** WAL/KRE puts ↑ HIGH | APO puts ↑ NEW CONFIRMATION | IWM puts steady
+
+---
+
 ## BOTTOM LINE
 
-Loaded for destabilization, wound tighter than Aug 2024. 0DTE 65%, margin ATH, credit diverging. Quality rotation Steps 1-4 now confirmed. Phase transition won't be gradual.
+Loaded for destabilization, wound tighter than Aug 2024. 0DTE 65%, margin ATH, credit diverging. Quality rotation Steps 1-4 now confirmed. Phase transition won't be gradual. Beige Book confirms all thesis pillars simultaneously — bottom-up real economy matches top-down signals.
 
 *Cross-vector synthesis → archive/CROSS_VECTOR_SYNTHESIS_FEB18.md*
 *Burry GPU thesis → archive/BURRY_GPU_THESIS_FEB23.md*
+*Beige Book synthesis → workbook/ML.tsv (ML-HEN-077 through ML-HEN-086)*
