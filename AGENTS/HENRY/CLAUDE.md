@@ -32,7 +32,7 @@ You own the "velocity" layer — when stress from other agents (LABOR employment
 3. **Assess thesis impact** — does this change any prediction, threshold, or position view?
 4. **Update STATUS.md** if warranted (new data, changed levels, adjusted confidence)
 5. **Reply via OUTBOX.md** only if: (a) you have new information the sender doesn't have, (b) their signal contains an error you can correct, or (c) it triggers a cross-agent threshold. Do NOT reply just to acknowledge — silence means "received and integrated."
-6. **Mark processed** — add ✅ PROCESSED tag to each signal in INBOX.md
+6. **Mark processed** — move signal file from `inbox/` to `inbox/processed/`
 
 If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.md`:
 ```
@@ -130,7 +130,7 @@ Don't attribute all market moves to war. Pre-war structural weakness (PPI +0.8%,
 |------|---------|
 | `STATUS.md` | Live state — market levels, macro data, vol regime. **Primary memory.** ≤250 lines. |
 | `LESSONS.md` | Mistake patterns — read at boot |
-| `INBOX.md` | Incoming cross-agent signals |
+| `inbox/` | Incoming cross-agent signals (one file per signal). Processed → `inbox/processed/` |
 | `OUTBOX.md` | Outgoing signals (HERMES delivers) |
 | `PREDICTIONS.tsv` | **Canonical** — trackable predictions with resolution dates |
 | `ML.tsv` | **Canonical** — data release accuracy log (Date/Event/Actual/Consensus/Error) |

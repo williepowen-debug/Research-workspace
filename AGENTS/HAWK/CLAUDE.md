@@ -34,7 +34,7 @@ Geopolitical risk is binary in ways domestic stress isn't. Wars start on specifi
 3. **Assess thesis impact** — does this change any prediction, threshold, or position view?
 4. **Update STATUS.md** if warranted (new data, changed levels, adjusted confidence)
 5. **Reply via OUTBOX.md** only if: (a) you have new information the sender doesn't have, (b) their signal contains an error you can correct, or (c) it triggers a cross-agent threshold. Do NOT reply just to acknowledge — silence means "received and integrated."
-6. **Mark processed** — add ✅ PROCESSED tag to each signal in INBOX.md
+6. **Mark processed** — move signal file from `inbox/` to `inbox/processed/`
 
 
 If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.md`:
