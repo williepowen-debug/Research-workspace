@@ -9,25 +9,15 @@
 | Boston | Flat | Down | Low-income "intense" pressure |
 | **New York** | **Declined** | Flat | Finance contracted; delinquencies up |
 | Philadelphia | Modest ↑ | Modest ↑ | Low/middle income can't cover necessities |
-| Cleveland | Modest ↑ | — | Data center demand only bright spot |
+| Cleveland | Modest ↑ | Flat-to-soft | Data center demand only bright spot |
 | Richmond | Modest ↑ | Slight ↑ | Manufacturing + resi RE declined |
 | Atlanta | Modest ↑ | **Flat to down** | CRE slowed |
-| Chicago | Slight ↑ | Flat | — |
-| **St. Louis** | **Flat** | Flat | — |
+| Chicago | Slight ↑ | Flat | No hire/no fire; loan quality declining |
+| **St. Louis** | **Flat** | Flat | Credit tightening; ag distress |
 | **Minneapolis** | **Declined** | **Softened** | Consumer spending fell, construction down |
-| Kansas City | Slight ↑ | Steady | — |
-| Dallas | Moderate ↑ | Slight ↑ | Energy district outlier |
+| Kansas City | Slight ↑ | Steady | Rural hospitals at loss; ag loan tightening |
+| Dallas | Moderate ↑ (headline) | Slight ↑ | Internals weak: 55% not hiring, CRE-only loan growth, ag/energy declining |
 | **San Francisco** | **Contracted** | Tech layoffs | **"Bifurcated economy"** |
-
-## Key Signals (Thesis-Relevant Only)
-
-**Consumer:** K-shape confirmed. Low-income in recession (Boston, Philly). NY: revenue beats driven by tariff price pass-through, not volume — real sales declining. Auto sales down on affordability (multiple districts).
-
-**Employment:** 7/12 flat. Not collapsing, but not hiring. Stagflation bifurcation — firms busy but not adding bodies. Supports ADP +63K, HEN-01 at 70%.
-
-**Inflation:** 9/12 tariffs driving costs. 8/12 moderate price growth. Insurance + utilities surging. Shrinkflation in food. All pre-Hormuz — March will be worse.
-
-**Immigration:** "Enforcement negatively affected customer demand in urban areas." Third independent confirmation (ADP, ISM, Beige Book).
 
 ## NY District — Key Details
 
@@ -38,11 +28,6 @@
 - NYC rents all-time high; low-quality office rents slumping
 - Firm opened credit line just to cover operating costs (cash flow stress)
 - Shrinkflation: food companies cutting quantities, holding price
-
-## Implications
-
-**NFP Friday:** Stalling not collapsing. Range 60-100K. Soft miss, not blowout.
-**FOMC Mar 17-18:** Fed boxed. Can't cut (inflation), can't hike (weakness). Hold + stagflation acknowledgment likely.
 
 ## Boston — Key Details
 
@@ -129,6 +114,228 @@
 - Lighting: volume DOWN but revenue up from price hikes — nominal growth masking real decline (same as NY retail)
 - Consumers + small biz drawing on existing credit lines — distress borrowing (same as Cleveland)
 - Delinquencies ticked up marginally
+
+## Chicago — Key Details
+
+- "No hire, no fire" environment — confirms national stalling pattern
+- Discretionary goods lagging: computers, electronics, furniture, appliances all soft
+- Hotels, airlines, tourist attractions **declined** — leisure spending bifurcating (restaurants up, travel down)
+- Manufacturers shifting from splitting tariff costs with customers to **full pass-through in 2026** — more inflation incoming
+- Health insurance quote increases forcing benefits cuts — cost pressure hitting workers directly
+- Long lead times for transformers + chips — supply bottleneck persists
+- Aluminum shortage flagged
+- Construction labor shortages from **retirements + immigration enforcement** → project delays + higher costs
+- Michigan: EV suppliers vacating space as regulatory changes cut demand — policy whiplash creating CRE vacancies
+- **Business loan quality declined** — trucking + manufacturing sectors deteriorating
+- Consumer loan quality decreased, terms tightened — banks pulling back
+- Farmers selling stored crops to cover bills/debts — ag sector cash-strapped
+- Farm machinery: **slow sales, dealer lots full** — rural economy weakening
+
+## Minneapolis — Key Details (DECLINED — Worst District)
+
+- Manufacturing **contracted**: orders, employment, investment, profits ALL down in 2025
+- Minneapolis nonresidential permits: **"lowest recorded January in entire decade"**
+- Mall traffic **down 7%** YTD. North Dakota retailer: Canadian business went from 20% to **"zero percent"**
+- ICE enforcement devastating: landscape firm losing staff, "no people to hire" as replacements
+- English classes for immigrants: **43% enrollment decline** — community withdrawal
+- MWBEs: **sharp decline in foot traffic**, rising loan modification requests — businesses failing
+- Federal agents' presence: employees, vendors, customers "afraid to travel" — economic activity frozen by enforcement
+- Professional services: client budgets "a fraction of what they were 3 years ago," firms downsizing
+- Farm incomes: **two-thirds of ag lenders** report decreases in Q4 2025
+- Ag/industrial equipment segments "particularly negative"
+- Insurance rates "biggest concern across industries" with significant annual increases
+- Worker satisfaction with wages/benefits **dropped**; job search times increasing
+
+## St. Louis — Key Details
+
+- Wholesaler sales **down 5% YTD** — inflation eroding purchasing power, buyers deferring non-essential replacement
+- Used car sales hurt by **tightened underwriting/financing constraints** — credit tightening hitting auto directly
+- Construction firm can't hold material prices >30 days — **price volatility causing project delays/renegotiations**
+- Capital expenditures paused despite rising orders — uncertainty freezing investment
+- Patients delaying elective treatment due to cost sensitivity (same as Richmond dental)
+- Auto lending tightened, reducing application volumes — credit contraction in consumer
+- Arkansas: harder to secure crop loans → **ground may go unplanted** — food supply risk
+- Farm equipment auctions at **record levels** — ag distress liquidation
+- Banker: consumer stress + overdraft issues despite "steady" headline metrics
+- Delinquencies ticked up slightly; credit standards tightening
+
+## Kansas City — Key Details
+
+- Softer demand for lower-cost goods — "possible sign of strain among lower-income consumers"
+- Firms reluctant to raise prices further despite cost pressure — demand too soft to absorb
+- Labor demand expectations **softening** as AI/automation substitution increases
+- Reduced migration into region constraining labor supply
+- **Half of rural hospitals operating at a loss**, 5 in northern MO at risk of closure (~1,000 jobs)
+- Firm took out a loan to preserve liquidity despite normally paying cash — **uncertainty driving precautionary borrowing**
+- Ag loan credit standards tightening
+- **Farm finances weakening faster in crop-dependent areas** — loan repayment deterioration easing slightly but still negative
+- Cropland values flat (vs ranchland rising) — crop sector weak, cattle strong
+- Oil activity picked up modestly as prices rose above breakeven on Iran geopolitical risk
+- LNG exports expected to support nat gas prices slightly
+
+## Dallas — Key Details (11th District)
+- **55% of service firms NOT trying to hire** — highest in 3 years. Manufacturing similar at 57% but stable
+- "Unease about overall economy led to better worker retention" — fear-based retention, not satisfaction
+- **Manufacturing wages spiked in Feb** while service wage growth modest
+- Raw material prices robust: metals (aluminum, copper, steel, tungsten, silver) driven by demand + supply + tariffs
+- Input prices "increasing without notice and occasionally doubling"
+- **Lower-income households cutting discretionary, trading down, abandoning brand loyalty**
+- Food & beverage retailers squeezed: weak spending + high operating costs = margin pressure
+- Auto sales flat YoY
+- Energy activity declined slightly, ag conditions worsened
+- Healthcare spending/investment **on hold** pending ACA subsidy clarity
+- **Homebuilders: elevated speculative inventory**, downward pressure on prices/margins, incentives widespread
+- Housing starts expected LOWER in 2026 vs 2025
+- Apartment absorption slower than normal; office bifurcated (top-tier OK, lower-tier weak); **distressed multifamily sales emerging**
+- **Loan growth ENTIRELY from CRE** — resi, consumer, C&I all declining since end-2025
+- Credit standards tightening, loan performance deteriorating
+- Producers expect WTI ~$60, worry downside risk > upside
+- **Drought worsening**, government assistance insufficient to cover crop losses
+- Mexican cattle import ban forcing meatpackers to reduce operations
+- Dairy challenged by low wholesale milk prices
+- **Food assistance demand elevated even AFTER SNAP resumed** — food bank had to cut employee healthcare benefits
+- Rising uninsured population expected as ACA subsidies expire + Medicaid changes in 2026
+- **Rural/smaller metro hospitals struggling to recruit AND facing financial pressure from uninsured — closure risk**
+- Nonprofits seeing increased medical clinic usage
+
+## San Francisco — Key Details (12th District)
+- Economic activity **slowed slightly**
+- Tech layoffs (Pacific NW); other sectors: **attrition without replacement**
+- **Overqualified applicants taking entry-level roles** — "decades of experience for an entry-level role" in financial services
+- Recent college grad salaries LOWER than prior years
+- Non-union workers have limited ability to negotiate pay
+- **Input costs rising faster than selling prices** — large clients demanding price concessions
+- Manufacturers/ag absorbing costs, decreasing prices in some cases — **margin squeeze**
+- Consumer-facing businesses **cannot pass tariff costs** to price-sensitive households
+- Retail sales declined; contacts explicitly describe **K-shaped economy**
+- Grocery prices "stable at elevated levels"
+- **State/local govts cutting community services & education funding** due to budget deficits
+- Nonprofits competing harder for private grants as federal funding declines
+- Small businesses: elevated costs + **limited access to credit**
+- K-shape explicit: high-income discretionary robust, low/middle trading down to store-label
+- Leisure travel falling except high-end; quick-service restaurants propped up by value-seekers
+- Out-of-pocket healthcare spending declined; janitorial/security demand fell further
+- Manufacturers exploring **robotics/automation** in response to labor costs + minimum wage hikes
+- Ag: weak international demand, oversupply, prices falling despite weaker dollar
+- Single-family demand weak, homes on market longer, **stricter refinancing standards**
+- Multifamily lagging supply in some markets, rents declining
+- Industrial/warehouse leasing soft, rents declining
+- **Lending standards tightened, preventing small business credit access**
+- Consumer lending demand muted; commercial/resi mortgage restrained by rates
+- **Expanded activity in private credit markets** — shadow banking filling gaps
+
+---
+
+## CROSS-DISTRICT PATTERNS
+
+### 1. Consumer K-Shape (10/12 explicit, 12/12 implied)
+- High-income: luxury travel, high-end retail, Class A office robust
+- Low/middle: trading down, skipping meals, deferring healthcare, selling belongings
+- Evidence: employed requesting food assistance (CLE), abandoning upward mobility (ATL), overqualified taking entry-level (BOS, SF)
+
+### 2. Labor: Frozen (7/12 flat employment)
+- Mechanism: attrition without replacement, hours cuts, shift to temp labor
+- 55% Dallas service firms not trying to hire (3yr high)
+- Fear-based retention (DAL), workers expect trade-down at next job (ATL)
+- Headline stability masking demand deterioration
+
+### 3. Stagflation Squeeze (9/12 tariff pressure + weak demand)
+- Input costs rising (metals, insurance, utilities) — firms cannot pass through
+- Result: margin-squeeze layoffs (BOS), benefits cuts (CHI, DAL), cost absorption (SF)
+- Manufacturers shifting to full tariff pass-through in 2026 (CHI) — more consumer inflation incoming
+- Input prices "doubling without notice" (DAL)
+
+### 4. Credit Tightening → Small Biz Strangulation
+- Lending standards tightening: every district
+- Small biz denied credit: SF, PHI, CLE
+- Dallas: loan growth 100% CRE — resi, consumer, C&I all declining
+- Credit "growth" elsewhere = slower paydowns + increased utilization (distress borrowing, not expansion) (CLE, ATL)
+- Private credit expanding to fill gaps (SF) — bank→shadow transmission channel
+
+### 5. CRE Stress Broadening
+- Multifamily: high vacancies (ATL), distressed sales (DAL), rents declining (SF)
+- Office: Class A filling, everything else deteriorating (RIC, SF, NY)
+- Industrial/warehouse: leasing soft, rents declining (SF)
+- Homebuilders: elevated spec inventory, incentives widespread, starts expected lower (DAL, ATL)
+- EV supplier vacancies (CHI/MI) — policy whiplash creating new CRE holes
+
+### 6. Rural Crisis
+- Half of rural hospitals at a loss (KC), closure risk (KC + DAL)
+- Farm equipment auctions at record levels (STL) — distress liquidation
+- Two-thirds of ag lenders report income decreases (MIN)
+- Ground may go unplanted — crop loan access failing (AR/STL)
+- Drought worsening (DAL), govt assistance insufficient
+- Canadian cross-border business → zero (ND/MIN)
+- Immigration enforcement devastating rural labor supply (MIN)
+
+### 7. Safety Net Degrading
+- Elevated demand + shrinking resources: every district with community reporting
+- Federal funding cuts (DOGE) + state/local budget deficits cutting services (SF)
+- Food banks cutting own employee healthcare (DAL)
+- SNAP suspension → food pantry reliance (BOS)
+- Uninsured population expected to rise: ACA expiry + Medicaid changes 2026
+- Nonprofit leadership can't be replaced (PHI)
+
+### 8. Immigration Enforcement as Economic Shock (5+ districts)
+- Supply hit: construction, agriculture, landscaping labor loss
+- Demand hit: foot traffic down, community withdrawal
+- English class enrollment -43% (MIN)
+- "Employees, vendors, customers afraid to travel" (MIN)
+- Dual-channel: supply AND demand destruction simultaneously
+
+---
+
+## THESIS SCORECARD
+
+| Signal | Status | Implication |
+|--------|--------|-------------|
+| Employment stalling | ✅ 7/12 flat | Pre-recessionary, not yet crisis |
+| Consumer K-shape | ✅ 10-12/12 | Bottom 60% in functional recession |
+| Credit tightening | ✅ Broad-based | Small biz + consumer access shrinking |
+| CRE stress | ✅ Broadening | Multifamily + office + industrial |
+| Margin squeeze | ✅ 9/12 | Stagflation dynamic confirmed |
+| Private credit filling gaps | ✅ SF explicit | Bank→shadow transmission live |
+| Rural hospital closure risk | ✅ 2 districts | Healthcare as stress channel |
+| Ag distress | ✅ Record auctions | Farm sector in liquidation |
+
+**All data pre-Hormuz, pre-Korea, pre-March 3 selloff. April Beige Book will be materially worse.**
+
+---
+
+## IMPLICATIONS
+
+- **NFP (Mar 6):** Range 75-110K. Weakness is in hiring, not firing — attrition-without-replacement won't show as layoffs.
+- **FOMC (Mar 17-18):** Fed boxed. 9/12 tariff cost pressure (can't cut) + 5/12 not growing (can't hike). Hold. Beige Book gives cover to sound concerned without acting.
+
+---
+
+## POSITIONING MAP
+
+| Trade | Supporting Evidence | Confidence |
+|-------|-------------------|------------|
+| **WAL puts** | DAL: 100% CRE loan growth, tightening standards, distressed MF sales. ATL: MF vacancies. | ↑ High |
+| **KRE puts** | 5/12 not growing. Loan quality declining (CHI, CLE). Banks concentrating in CRE while other lending contracts. | ↑ High |
+| **APO puts** | SF: private credit expanding as banks tighten = bank→shadow transmission channel. MFS convergence confirmed Feb 27. | ↑ New confirmation |
+| **IWM puts** | Small biz: elevated costs + denied credit (SF, PHI). Middle-market M&A slowed (CLE). Margin squeeze universal. | Steady |
+| **Oil Phase 2** (short crude Apr-May) | DAL: producers expect WTI ~$60, downside > upside. Energy declining. KC: pickup only on geopolitical risk. Phase 1 = supply squeeze/tankers, Phase 2 = 140M barrel OPEC+ flush → short crude. | Steady |
+
+---
+
+## NEXT BEIGE BOOK (April) — WATCH FOR
+
+**Acceleration signals (thesis strengthening):**
+- Actual layoffs replacing attrition/hours cuts
+- Delinquency language: "ticked up slightly" → "increased notably"
+- Distressed CRE sales spreading beyond Dallas multifamily
+- Small business closures (currently "challenges")
+- Rural hospital closures (currently "at risk")
+- Private credit stress (currently "expanded activity")
+
+**Stabilization signals (thesis weakening):**
+- Hiring resuming in 3+ districts
+- Credit standards loosening
+- Consumer spending stabilizing at lower income levels
+- Input cost pressure easing
 
 ---
 *Data collected on or before Feb 23, 2026.*

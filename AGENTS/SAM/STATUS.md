@@ -1,8 +1,8 @@
 # SAM STATUS
 
-**Signal Status:** 🔴 RED | **Last Updated:** 2026-03-04 13:30 ET (AM SCAN — KRW 1,500 BREACHED + HORMUZ CLOSED)
+**Signal Status:** 🔴 RED | **Last Updated:** 2026-03-04 21:15 UTC (EOD SCAN)
 
-**Summary:** EMERGENCY CONDITIONS TRIGGERED. **USD/KRW THROUGH 1,500** (per SAM framework: upgrade to 85%+ carry unwind immediately). **Hormuz confirmed closed** after US-Israel strikes — Brent $82-90 range, Japan/Korea take ~70% of Hormuz crude. Nikkei -2.9% additional today (56,372). JGB 10Y 2.13% (+1bp). USDJPY ~157.3, yen still NOT safe haven. ADP +63K miss adds US recession signal ahead of NFP. No Fed swap line announcement — BoK forced into UST selling. Carry unwind **REVISED: 7d 35%, 30d 80%, 60d 90%**. Phase 2 onset: 10-14 days if no Fed intervention.
+**Summary:** EMERGENCY CONDITIONS PERSIST. Nikkei closed **-3.61% to 54,245** (further leg down from Tuesday's 56,279 — cumulative ~6.5% two-day decline). USDJPY pulled back from 157.97 intraday high to ~157.2 (minor yen strengthening on profit-taking + Ueda comments — NOT safe-haven bid). **KEY NEW SIGNAL: BOJ Ueda warned Middle East could have "significant impact" on Japan's economy — April hike expectations rising.** KRW bounced to 1,479 open Mar 4 after overnight 1,500 breach — BoK Governor postponed overseas trip, called emergency meeting. Brent oil up 3% more but pausing below Tuesday highs. Three-anchor UST selling thesis intact. Carry unwind probability: **7d 35%, 30d 80%, 60d 90%**.
 
 ---
 
@@ -10,16 +10,16 @@
 
 | Vector | Value | Status | Signal |
 |--------|-------|--------|--------|
-| **USDJPY** | **~157-158** | 🔴 | Phase 1 extending. Yen NOT safe haven. Dollar reclaiming in US-led conflict. Korea contagion adds EM selling pressure. Intervention zone: 160. |
+| **USDJPY** | **~157.2 (off 157.97 intraday high)** | 🔴 | Phase 1 extending but slight yen bounce. Rabobank: USD/JPY backed off highs on profit-taking + hawkish Ueda comments. Yen still NOT a safe haven vs dollar. Energy importer = yen structurally weak in oil shocks. Intervention zone: 160. |
 | **JGB 10Y** | **~2.12%** | 🟠 | Inflation fear dominating. Not a safety bid. Long-end steepening intact. |
 | **JGB 30Y** | **~3.28%** | 🟠 | Pullback from 3.31%. Steepening trend intact. Fiscal doom loop delayed, not canceled. |
-| **Brent Oil** | **~$82-90** | 🔴 | **HORMUZ CLOSED** post US-Israel strikes. $85-90 expected, $100 tail risk. Japan/Korea = 70% of Hormuz crude. LNG 1/5 of global supply disrupted. |
-| **BOJ Rate** | **0.75%** | 🟡 | HOLD 92% for March 13-14 (up from 90%). Frozen: can't cut (Takaichi ceiling + inflation), can't hike (crash + war). Dovish nominees = lame-duck Ueda. |
+| **Brent Oil** | **Up 3% more but pausing (off Tue highs)** | 🔴 | Hormuz closure sustained. Brent up ~3% Wednesday but below Tuesday's 8-month high — market taking a breath, not reversing. Europe stocks +0.5%, gold regaining poise. Slight decompression in panic — NOT resolution of supply shock. |
+| **BOJ Rate** | **0.75%** | 🟡 | HOLD 95%+ for March 13-14. BUT: **NEW — Ueda warned Hormuz conflict could have "significant impact" on Japan economy via energy prices.** April hike expectations RISING. Rabobank forecasts USD/JPY back to 145 (1yr) on continued BOJ hikes. Ueda is NOT fully lame-duck — he's framing energy as risk factor. Frozen at Mar 13, possible in Apr. |
 | **Carry Unwind Prob** | **🔴 EMERGENCY UPGRADE** | 🔴 | **7d: 35%** (was 20%), **30d: 80%** (was 65%), **60d: 90%** (was 80%). KRW 1,500 breach = SAM emergency trigger. Hormuz closure = structural energy shock compressing timeline. |
 | **VIX** | **~30+** | 🔴 | Korea circuit breakers = contagion event. S&P likely -3%+ today. |
 | **KOSPI** | **-12% (CIRCUIT BREAKERS prior day)** | 🔴 | Cumulative damage severe. BoK now in full defense posture. |
-| **USD/KRW** | **🚨 THROUGH 1,500** | 🔴 | **EMERGENCY TRIGGER HIT.** BoK "around-the-clock monitoring" — selling USTs to defend KRW. SAM emergency condition: carry unwind 85%+. |
-| **Nikkei 225** | **56,372 (-2.9% today)** | 🔴 | Financial stocks led. Cumulative drawdown accelerating. GPIF mechanical trigger proximity rising. |
+| **USD/KRW** | **1,479 open Mar 4 (off 1,500 breach)** | 🔴 | **Emergency trigger hit, then partial pullback.** BoK Governor postponed overseas trip + emergency meeting. KRW opened 1,479 on Mar 4 after brief overnight 1,500 breach. Bounce from 1,500 = BoK intervention working SHORT-TERM. Sustained defense TBD. 3rd consecutive session of won depreciation. |
+| **Nikkei 225** | **54,245 (-3.61% Mar 4 JST close)** | 🔴 | Two-day cumulative -6.5% (56,279 → 54,245). All sectors down: tech + oil/coal led. GPIF mechanical trigger proximity escalating. Intraday low ~53,873 (-4.27%). Trying to find support after ~10% decline from pre-crisis levels. |
 | **UST Anchor Selling** | **$30-55B/mo combined** | 🔴 | NEW. Japan + Korea + China stealth. Three-anchor problem LIVE. |
 | **Insurance Cliff (Mar 5)** | **PARTIALLY DEFUSED** | 🟠 | Trump DFC backstop. P&I clubs may still withdraw but US government insurance available. |
 

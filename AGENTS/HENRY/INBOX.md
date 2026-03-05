@@ -43,6 +43,7 @@ Signals routed by Prome. Process on session start: INTEGRATE, UPDATE, ARCHIVE, o
 **Detail:** KOSPI -7.24% Day 1 + -12% Day 2 = ~18-19% two-session draw, worst since 2008. Samsung + SK Hynix = 50% of index. KOSDAQ -13% today. Contagion: Nikkei -4.6%, ASX -1.81%. Watch for forced liquidation of Korean institutional foreign assets.
 **Source:** CNBC/Bloomberg/Yonhap; Mar 4 2026
 **Priority:** 🔴
+**✅ PROCESSED: 2026-03-05 00:40 UTC** — INTEGRATED. Added to STATUS.md cross-agent signals table. Flagged as contagion risk for SPX Mar 5-6 open via forced Korean institutional liquidation of foreign assets. No new vector needed — feeds existing cascade/contagion watch. Monitoring item #8 added to WHAT TO WATCH.
 
 ---
 
@@ -51,6 +52,7 @@ Signals routed by Prome. Process on session start: INTEGRATE, UPDATE, ARCHIVE, o
 **Detail:** Rheinmetall, Leonardo, BAE, Thales = direct beneficiaries of €500B Germany + EU 3% GDP target. European defense ETFs (EXH5.DE) outperforming. US defense names (LMT, RTX, NOC) secondary beneficiary via NATO orders. Energy sector: Qatar offline + Hormuz = energy equity bid; XLE analog to 2022. Short European industrials (war disruption + energy cost) vs long defense + energy.
 **Source:** HANS analysis Mar 4
 **Priority:** 🟠
+**✅ PROCESSED: 2026-03-05 00:40 UTC** — INTEGRATED. Logged in STATUS.md cross-agent table. US equity implication: LMT/RTX/NOC secondary NATO order bid; XLE energy bid reinforces oil/inflation thesis. Does not change primary HYG/IWM positions. Noted as sector rotation signal — defense/energy long vs tech/discretionary short (already in thesis).
 
 ---
 
@@ -59,6 +61,7 @@ Signals routed by Prome. Process on session start: INTEGRATE, UPDATE, ARCHIVE, o
 **Detail:** HY OAS Mar 2 confirmed 303bps. Mar 3 estimate 315-335bps based on BCRED shock, VIX 26.43, S&P -2.2%, Hormuz escalation. If Mar 3 closes above 320bps (likely), the credit stress confirmation threshold is crossed 10 days early. This may trigger your VaR cascade models. Watch for FRED publish Mar 4 ~8-9am ET. BX at -3.82% close, 5.3% above 52-week low $105.09 — not yet capitulation territory but directionally deteriorating.
 **Source:** FRED BAMLH0A0HYM2 (Mar 2), market data
 **Priority:** 🟠
+**✅ PROCESSED: 2026-03-05 00:40 UTC** — RESOLVED/NOT ACHIEVED. FRED actual for Mar 3: 308bps (confirmed in STATUS.md). LIQ-01 threshold of 320bps NOT crossed. LIQUID estimate was ~30bps too high (pattern from prior signal). VaR cascade NOT triggered by this data point. LIQ-01 still pending. Noted in STATUS.md. ML entry logged in prior session (ML-HEN-073). No new action required — watch Mar 4 FRED publish for next reading.
 
 ---
 
@@ -67,3 +70,4 @@ Signals routed by Prome. Process on session start: INTEGRATE, UPDATE, ARCHIVE, o
 **Detail:** REGINALD confirms FL faces energy+HOA+insurance triple squeeze with migration -93%. LABOR adds UI exhaustion cliff Mar 24. Combined, FL consumer DQ expected to outpace national by Q2. This adds a geographic concentration risk to the reverse wealth effect — FL is not a laggard, it's the accelerant.
 **Source:** REGINALD + LABOR via HERMES 2026-03-04; ML-CARL-FL-003 + ML-CARL-LABOR-003
 **Priority:** 🔴
+**✅ PROCESSED: 2026-03-05 00:40 UTC** — INTEGRATED. Added to STATUS.md cross-agent table and WHAT TO WATCH #9. FL geographic concentration accelerates the HENRY→CARL reverse wealth transmission path. UI exhaustion cliff Mar 24 = hard date to watch. Does not change current positions (IWM/HYG puts already in place) but raises confidence in Q2 consumer DQ thesis. No new vector required — feeds existing transmission chain.

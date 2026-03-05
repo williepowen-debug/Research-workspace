@@ -1,7 +1,7 @@
 # LABOR STATUS
-**Last Updated:** 2026-03-04 18:30 UTC | **Status:** 🔴 CRITICAL
+**Last Updated:** 2026-03-04 21:20 UTC | **Status:** 🔴 CRITICAL
 
-**Summary:** Shadow payroll gap enters critical resolution window (Mar-Apr). NFP Feb consensus +65K ("half-speed economy"). GAO confirmed 134K federal separations H1 2025. BLS data apparatus degrading — JOLTS Jan 2026 delayed. New sectors entering pipeline: Theravance Biopharma -50%, Paramount-Warner thousands. Block 4K (AI-cited, 50% workforce). Hormuz closed Mar 3 — hiring paralysis structural through H1. Fed Trap tightens: PCE 2.9% + oil spike = Fed frozen while employment cracks. WARN pipeline: 716 notices / 85,552 employees.
+**Summary:** Shadow payroll gap enters critical resolution window (Mar-Apr). **NFP Feb consensus COLLAPSED: +65K → +50K post-ADP; Kiplinger forecasting +35K.** Wall Street converging toward our model. WARN pipeline: 716/85,552 — flat today (no new major notices). Fed Trap now OFFICIALLY ACKNOWLEDGED: St. Louis Fed + KC Fed published dual mandate conflict pieces Mar 3-4. AI displacement narrative gaining political attention (Palantir CEO: government takeover risk if AI jobs cut + military ties severed). Counter-narrative emerging ("internal churn not sacks") — watch for consensus adoption. Hormuz Day 2 — hiring paralysis structural through H1. Claims Thu 8:30 AM (noisy). NFP Fri Mar 6 = shadow gap verdict.
 
 ---
 
@@ -47,7 +47,7 @@
 | Cass Freight | -7.5% YoY | 🔴 | New cycle low |
 | Google "Severance" | 100 | 🔴 | ALL-TIME HIGH |
 | Tech Insider Sell/Buy | 14.08x | 🔴 | vs 2.5x non-layoff peers. 3-6mo leading. |
-| **NFP Feb Consensus** | **+50K** | 🟠 | Revised down from +65K post-ADP. Still includes govt. Mar 6. |
+| **NFP Feb Consensus** | **+50K (Kiplinger: +35K)** | 🔴 | ⬇️ DELTA: Revised down from +65K post-ADP. Street converging to our model. Mar 6. |
 
 ---
 
@@ -160,6 +160,17 @@ PPI core +0.8% (2.6x expected) + PCE 2.9% + Hormuz → Oil spike
 - Mar 5 print: still noisy (post-shutdown catch-up + war + seasonal)
 - **Mar 12 = first reliable read**
 - As BLS shrinks, data blind spots compound. This is a NEW systemic risk.
+
+---
+
+## EOD NOTE — Mar 4, 2026
+- WARN pipeline: **FLAT** (716/85,552 — no change from this morning)
+- NFP consensus collapsed: +65K → +50K. Kiplinger forecasting +35K. Our model (<100K) now the street view.
+- St. Louis Fed + KC Fed publicly acknowledge dual mandate in conflict (published today). Fed trap thesis has official academic cover now.
+- Palantir CEO (Alex Karp) flagged AI job cuts as government intervention risk at a16z summit — political overlay intensifying
+- Counter-narrative: "internal churn not sacks" framing circulating (FinancialContent) — watch for mainstream adoption as NFP excuse if miss
+- Biotech: another pharma WARN (110 employees, Lawrence Township NJ) — sector bleed continues
+- No Schedule Policy/Career RIF news today — watch Mar 6 effective date fallout
 
 ---
 
