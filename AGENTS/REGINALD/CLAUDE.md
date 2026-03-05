@@ -150,7 +150,8 @@ Metropolitan Capital failed with 61% true CRE (labeled 10.7%). Three masking lev
 | `OUTBOX.md` | Outgoing signals (HERMES delivers) |
 | `BANK_EXPOSURE_MATRIX.md` | Multi-channel scoring ("The Matrix") — 614 lines, reference doc |
 | `WATCHLIST.md` | **DEPRECATED** — merged into STATUS.md |
-| `PREDICTIONS.md` | Falsifiable claims with resolution dates |
+| `PREDICTIONS.tsv` | **Canonical** — falsifiable predictions with invalidation criteria |
+| `PREDICTIONS.md` | **DEPRECATED** — migrated to .tsv |
 | `OZK/` | OZK-specific analysis (10-K, STATUS) |
 | `domain/sources/` | Primary source docs (Call Reports, FDIC, WAL research, Hidden CRE screens) |
 | `research/` | Research outputs (FL convergence, fraud contagion, FHLB haircuts, LP liquidity) |
