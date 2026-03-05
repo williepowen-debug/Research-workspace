@@ -20,11 +20,12 @@ You coordinate sub-agents: BROCK (BDC/private credit), CREED (CRE market-level),
 ## SPAWN PROTOCOL
 
 1. **Read `STATUS.md`** — sub-agent dashboard, FHLB level, bank watchlist, matrix scores
-2. **Check sub-agent STATUS files if relevant** — `BROCK/STATUS.md`, `CREED/STATUS.md`
-3. **Execute the task**
-4. **Write results back to `STATUS.md`**
-
-
+2. **Read `LESSONS.md`** — mistake patterns to avoid
+3. **Check sub-agent STATUS files if relevant** — `sub-agents/BROCK/STATUS.md`, `sub-agents/CREED/STATUS.md`, `sub-agents/CORAL/STATUS.md`
+4. **Execute the task**
+5. **Write results back to `STATUS.md`** — update watchlist, thresholds, sub-agent dashboard
+6. **Research detail → `domain/sources/`**
+7. **Cross-agent signals → `OUTBOX.md`** (HERMES delivers)
 
 **INBOX:** Do NOT process on normal spawns. INBOX processing is a separate task — wait to be spawned specifically for it.
 
@@ -36,6 +37,11 @@ You coordinate sub-agents: BROCK (BDC/private credit), CREED (CRE market-level),
 5. **Reply via OUTBOX.md** only if: (a) you have new information the sender doesn't have, (b) their signal contains an error you can correct, or (c) it triggers a cross-agent threshold. Do NOT reply just to acknowledge — silence means "received and integrated."
 6. **Mark processed** — add ✅ PROCESSED tag to each signal in INBOX.md
 
+
+### Stale Data Rules
+- **VX.tsv:** Skip rows marked [STALE]. Only read rows from last 5 trading days. If >50% stale, note it and move on.
+- **STATUS.md values >24h old:** Pull live data via web_search before citing. Bank prices, KRE levels, FHLB data go stale fast.
+- **Call Report data:** Always note the quarter (e.g., "Q4 2025 Call Report"). Never present last quarter's ratios as current without stating the lag.
 
 If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.md`:
 ```
@@ -123,13 +129,14 @@ Metropolitan Capital failed with 61% true CRE (labeled 10.7%). Three masking lev
 
 ## KEY THRESHOLDS
 
-| Metric | Current | Threshold | Implication |
-|--------|---------|-----------|-------------|
+| Metric | Current (Mar 4) | Threshold | Implication |
+|--------|-----------------|-----------|-------------|
 | FHLB Advances | ~$480B | >$700B | Early crisis |
-| KRE | ~$63 (est) | <$60 | Acute stress |
+| KRE | ~$67.90 (+0.21%) | <$60 | Acute stress |
+| WAL | ~$80.32 | <$78 | Hidden CRE thesis accelerating |
 | Claims (from LABOR) | 212K | >300K | All ORANGE → RED |
 | Office CMBS DQ | check | >15% | CRE transmission accelerating |
-| PSEC PIK % (from BROCK) | ~35% | >40% | BDC channel firing |
+| HY OAS (from LIQUID) | 308bps (CONF Mar 3) | >320bps | Credit transmission confirmed |
 
 ---
 
@@ -137,8 +144,27 @@ Metropolitan Capital failed with 61% true CRE (labeled 10.7%). Three masking lev
 
 | File | Purpose |
 |------|---------|
-| `STATUS.md` | Live state — sub-agent dashboard, FHLB, watchlist. **Primary memory.** |
-| `BANK_EXPOSURE_MATRIX.md` | Multi-channel scoring analysis |
-| `PREDICTIONS.md` | Falsifiable claims |
-| `TRADE.md` | Position ideas |
-| `workbook/VX.tsv` | 41 vectors |
+| `STATUS.md` | Live state — sub-agent dashboard, FHLB, watchlist. **Primary memory.** ≤250 lines. |
+| `LESSONS.md` | Mistake patterns — read at boot |
+| `INBOX.md` | Incoming cross-agent signals |
+| `OUTBOX.md` | Outgoing signals (HERMES delivers) |
+| `BANK_EXPOSURE_MATRIX.md` | Multi-channel scoring ("The Matrix") — 614 lines, reference doc |
+| `WATCHLIST.md` | **DEPRECATED** — merged into STATUS.md |
+| `PREDICTIONS.md` | Falsifiable claims with resolution dates |
+| `OZK/` | OZK-specific analysis (10-K, STATUS) |
+| `domain/sources/` | Primary source docs (Call Reports, FDIC, WAL research, Hidden CRE screens) |
+| `research/` | Research outputs (FL convergence, fraud contagion, FHLB haircuts, LP liquidity) |
+| `workbook/VX.tsv` | Indicator vectors (59 rows) |
+| `workbook/ML.tsv` | Knowledge base (113 rows) |
+| `workbook/FLOW.tsv` | Transmission mechanics (22 rows) |
+| `workbook/PREDICTIONS.tsv` | Prediction tracking (TSV format) |
+| `workbook/OTTO_INTEL.md` | Cross-agent intel from OTTO (307 lines) |
+
+### Sub-Agent Files (read on demand, not at boot)
+| Path | Agent | Purpose |
+|------|-------|---------|
+| `sub-agents/BROCK/STATUS.md` | BROCK | BDC/private credit state |
+| `sub-agents/CREED/STATUS.md` | CREED | CRE market-level state |
+| `sub-agents/CORAL/STATUS.md` | CORAL | Florida-specific state |
+| `sub-agents/TEX/STATUS.md` | TEX | Texas stress |
+| `sub-agents/RENO/STATUS.md` | RENO | Nevada stress |
