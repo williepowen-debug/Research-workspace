@@ -1,61 +1,38 @@
 # SCRATCH — Ephemeral Working Memory
 
-**Updated:** 2026-03-05 ~01:30 UTC (8:30 PM ET Mar 4)
+**Updated:** 2026-03-05 ~05:00 UTC (12:00 AM ET Mar 5)
 
 ---
 
-## RIGHT NOW — REGINALD DOMAIN CLEANUP
+## COMPLETED TONIGHT
 
-### Context
-Just finished HENRY domain cleanup (all 4 chunks). Now applying same treatment to REGINALD. Bigger job due to sub-agent tree (BROCK, CORAL, TEX, RENO) and more root-level file sprawl.
+### HENRY domain cleanup — ALL 4 CHUNKS ✅
+### REGINALD domain cleanup — ALL 4 CHUNKS ✅
+### Network-wide standardization:
+- INBOX processing protocol (12 agents)
+- Inbox as folder (13 agents)
+- BROCK consolidated to AGENTS/BROCK/
+- 22 deprecated FL.tsv deleted
 
-### REGINALD Cleanup Plan
+---
 
-**Chunk 1 — CLAUDE.md upgrade ✅ DONE**
+## NEXT SESSION PRIORITIES
 
-**Chunk 2a — TRADE.md + WATCHLIST.md ✅ DONE**
-- TRADE.md tombstoned (18+ days stale)
-- WATCHLIST.md: falsification rules merged into STATUS.md EXIT RULES, rest tombstoned
+1. **🔴 NFP Friday Mar 6 8:30 AM ET** — Spawn HENRY immediately after release
+2. **🟠 PROME STATUS.md needs update** — tonight's infrastructure work not reflected
+3. **🟠 HERMES has signals to deliver** — HENRY posted fresh OUTBOX from Beige Book analysis
+4. **🟡 Continue cleanup to other agents?** — LIQUID is next most-spawned. Or pivot to research/trading.
+5. **🟡 REGINALD has 2 unprocessed inbox signals** (HANS European bank stress, CARL FL UI cliff)
 
-**Chunk 2b — Remaining root files ✅ DONE**
-- POSITION_ADJUSTMENT_FEB16.md → archived
-- PREDICTIONS.md → migrated to .tsv, thesis validation → workbook
-- RESEARCH_STATUS.md → leaving at root (Will wants to revisit)
-- APOLLO_INTERCONNECTION.md → moved to domain/sources
+---
 
-**Chunk 3 — Sub-agent deduplication ✅ DONE**
-- BROCK consolidated to AGENTS/BROCK/ (from 3 locations)
-- 22 deprecated FL.tsv deleted across entire agent tree
-- CORAL format standardization skipped (cosmetic)
+## DESIGN DECISIONS MADE TONIGHT
 
-**Chunk 4 — STATUS.md + QA fixes (DO THIS NEXT)**
-
-Batch 1 (no decisions needed):
-1. Brent $118→$81.40 in thesis table + move correction to Known Data Issues
-2. CLAUDE.md: fix workbook/PREDICTIONS.tsv → PREDICTIONS.tsv (root)
-3. CLAUDE.md: fix BROCK path ../../BROCK/ → ../BROCK/
-4. PREDICTIONS.tsv: mark REG-11 CONFIRMED (FSK div cut verified)
-5. Stray CREED/inbox at REGINALD root — move or delete
-6. Delete PREDICTIONS.md and WATCHLIST.md tombstone files entirely
-
-Batch 2 (needs Will's decisions):
-7. HY OAS threshold: STATUS says >300bps (FIRED), CLAUDE says >320bps — which is real?
-8. KRE price: 3 conflicting values in STATUS — unify how?
-9. Dual inbox: INBOX.md vs inbox/processed/ — kill dir or document relationship?
-
-### HENRY cleanup completed tonight:
-- ✅ STATUS.md 382→207 lines
-- ✅ CLAUDE.md: spawn protocol, stale rules, FILES table, VOL REGIME
-- ✅ Deleted stale workbook/PREDICTIONS.tsv, deprecated/FL.tsv, tombstoned TRADE.md
-- ✅ Research folders renamed (cluster naming consistency)
-- ✅ Standardized INBOX protocol pushed to ALL 12 agents
-- ✅ HENRY Beige Book analysis (Opus) — signals persisted to workbook/STATUS
-- ✅ Will journal entry: systems-thinking.md (silo complexity between steps)
-
-### Other pending:
-- 🔴 NFP Friday Mar 6 8:30 AM ET — spawn HENRY immediately
-- 🟠 HERMES has signals to deliver (HENRY posted fresh OUTBOX)
-- 🟠 PROME STATUS.md needs update (tonight's work not reflected)
+- **INBOX siloed from spawn protocol** — agents don't check inbox on normal tasks
+- **Reply rule:** only if new info, error correction, or threshold trigger. Silence = received.
+- **Inbox = folder, not file** — individual signal files, move to processed/
+- **OUTBOX reports don't replace STATUS updates** — but we're NOT enforcing this as a rule. Will can spawn agent to update STATUS from OUTBOX when he wants.
+- **Opus for deep analysis, Sonnet for routine** — Beige Book Opus run was worth it
 
 ---
 
