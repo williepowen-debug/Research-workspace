@@ -136,6 +136,7 @@ Don't attribute all market moves to war. Pre-war structural weakness (PPI +0.8%,
 | `ML.tsv` | **Canonical** — data release accuracy log (Date/Event/Actual/Consensus/Error) |
 | `domain/ECON_CALENDAR.md` | Release schedule Mar-Jun with thresholds |
 | `domain/BEIGE_BOOK_MAR4_2026.md` | Beige Book synthesis (template for future releases) |
+| `domain/REFERENCE_TABLES.md` | Static reference: cascade order, leading indicators, credit-equity transmission, transmission paths |
 | `workbook/ML.tsv` | Knowledge base (research findings, cross-agent signals, framework insights) — different format from root ML.tsv |
 | `workbook/VX.tsv` | Indicator vectors — see stale data rules above |
 | `workbook/FLOW.tsv` | Cascade/transmission mechanics |
