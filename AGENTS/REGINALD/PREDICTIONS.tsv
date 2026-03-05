@@ -18,3 +18,4 @@ REG-16	2026-02-23	OZK reports CRE charge-offs >5% annualized	55%	H1 2026	OPEN			
 REG-17	2026-02-23	At least one bank with >20% Memo3/C&I ratio has capital event	50%	2026	OPEN			All 3 (WAL, OZK, EGBN) avoid capital events	
 REG-18	2026-02-23	Metropolitan Capital pattern (hidden CRE failure) replicates	45%	H1 2026	OPEN			No bank failures with >20% Memo3/C&I	
 REG-19	2026-02-23	Chicago office losses exceed 80% average discount	70%	Q2 2026	OPEN			Discounts stabilize at <60%	CREED dependency
+REG-20	2026-03-05	WAL major stress event (earnings miss, capital raise, or regulatory action)	82%	Apr-Jun 2026	OPEN			WAL posts clean Q1 with no CRE reclassification issues	Hidden CRE 24.2% growing, 474% CRE/Tier1, Cantor appraisals, litigation, SSFA $17.2B

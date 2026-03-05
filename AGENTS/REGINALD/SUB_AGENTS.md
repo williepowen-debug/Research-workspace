@@ -12,8 +12,8 @@ REGINALD is the convergence point for regional bank stress. Five sub-agents main
 |-------|--------|----------|----------|
 | **CREED** | CRE / CMBS | Delinquency, maturity wall, loss severity | `sub-agents/CREED/` |
 | **BROCK** | BDC / Private Credit | PIK rates, cash coverage, dividend health | `AGENTS/BROCK/` (**top-level agent**, not sub-agent) |
-| **CORAL** | CLO / Structured Credit | AAA spreads, Japan exposure, RF concentration | `sub-agents/CORAL/` |
-| **RENO** | Regional Bank Fundamentals | NIM, deposits, FHLB, fraud exposure | `sub-agents/RENO/` |
+| **CORAL** | Florida CRE / Condo Crisis | Migration, HOA/SIRS, Citizens insurance, SSB/VLY FL exposure | `sub-agents/CORAL/` |
+| **RENO** | Nevada Geographic Stress | Gaming/tourism, housing, water crisis, WAL NV exposure | `sub-agents/RENO/` |
 | **TEX** | Texas/Florida Regional | Geographic concentration, HOA, housing | `sub-agents/TEX/` |
 
 ---
