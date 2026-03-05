@@ -169,15 +169,15 @@ Metropolitan Capital failed with 61% true CRE (labeled 10.7%). Three masking lev
 | `inbox/` | Incoming cross-agent signals (one file per signal). Processed signals → `inbox/processed/` |
 | `OUTBOX.md` | Outgoing signals (HERMES delivers) |
 | `BANK_EXPOSURE_MATRIX.md` | Multi-channel scoring ("The Matrix") — 614 lines, reference doc |
-| `PREDICTIONS.tsv` | **Canonical** — falsifiable predictions with invalidation criteria |
+| `PREDICTIONS.tsv` | **Canonical** — 10-column schema (Pred_ID/Date_Made/Prediction/Confidence/Timeframe/Status/Date_Resolved/Outcome/Invalidation/Notes). Falsifiable predictions with invalidation criteria. |
 | `OZK/` | OZK-specific analysis (10-K, STATUS) |
 | `domain/sources/` | Primary source docs (Call Reports, FDIC, WAL research, Hidden CRE screens) |
 | `research/README.md` | **Master research index** — all series, key findings, data gaps, next priorities. Read before spawning research. |
 | `research/outputs/` | Completed research by series (RP-REG-3.x, RP-REG-4.x, RP-FL-x.x, RQ-ad-hoc) |
 | `research/prompts/` | Research prompts for external LLM execution |
-| `workbook/VX.tsv` | Indicator vectors (59 rows) |
-| `workbook/KB.tsv` | Knowledge base (116+ entries, ID format ML-REG-xxx) |
-| `workbook/FLOW.tsv` | Transmission mechanics (22 rows) |
+| `workbook/VX.tsv` | Indicator vectors — 12-column schema (ID/Name/Category/Current_Value/Yellow/Orange/Red/Status/Confidence/Last_Updated/Source/Cross_Links/Notes). 59 rows. |
+| `workbook/KB.tsv` | Knowledge base — 14-column schema (ID/Date/Session/Entity/Category/Description/Analysis/Data_Quote/Source/Status/Confidence/Thesis_Impact/Vector_Links/Cross_Links/Notes). 116+ entries, ID format ML-REG-xxx. |
+| `workbook/FLOW.tsv` | Transmission mechanics — 10-column schema (ID/Name/Speed/Layer/Status/Trigger/Current_Position/Pathway/Key_Insight/Cross_Links/Last_Updated). 22 rows. |
 | `workbook/THESIS_VALIDATION.md` | Thesis confirmation/invalidation criteria + dependency maps |
 | `workbook/OTTO_INTEL.md` | Cross-agent intel from OTTO (307 lines) |
 | `workbook/VX_HISTORY.tsv` | Archived slow-moving vectors (quarterly refresh) |

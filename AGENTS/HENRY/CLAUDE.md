@@ -161,6 +161,7 @@ Don't attribute all market moves to war. Pre-war structural weakness (PPI +0.8%,
 | `workbook/VX.tsv` | Indicator vectors — 12-column REGINALD schema (ID/Name/Category/Current_Value/Yellow/Orange/Red/Status/Confidence/Last_Updated/Source/Cross_Links/Notes). See stale data rules above. |
 | `workbook/VX_HISTORY.tsv` | Archived slow-moving vectors (quarterly refresh source) |
 | `workbook/FLOW.tsv` | Cascade/transmission mechanics — 10-column REGINALD schema (ID/Name/Speed/Layer/Status/Trigger/Current_Position/Pathway/Key_Insight/Cross_Links/Last_Updated). |
+| `workbook/THESIS_VALIDATION.md` | Thesis confirmation/invalidation criteria + cascade dependencies + cross-agent dependencies |
 | `sources/` | External research (Burry SBC/PLTR/put philosophy). Read when relevant, don't load at boot. |
 | `research/` | Deep dives + prompts + outputs (8 clusters). Reference library, not boot material. |
 
