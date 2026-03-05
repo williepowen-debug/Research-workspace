@@ -1,44 +1,44 @@
-ID	Name	Domain	Current_Value	Status	Historical_Percentile	Last_Updated	Notes
-# === CURRENT (Mar 3-4) ===
-VX-HEN-4.01	VIX Level	SEN	26.43	RED	P75	2026-03-03	Cascade zone (>25). Vol-control deleveraging ACTIVE.
-VX-HEN-9.02	Gamma Flip Level	GAM	6,902	RED	-	2026-03-03	SPX 6,781 BELOW gamma flip = negative gamma. Dealers AMPLIFYING moves.
-VX-HEN-9.04	Put Wall	GAM	6,800	RED	-	2026-03-03	Put wall BROKE on Mar 3 close (6,781). 2-3 tests exhausts support.
-VX-HEN-9.05	IV Rank (SPX)	GAM	~75%	YELLOW	P75	2026-03-03	IV expanded with VIX at 26.43. Complacency regime OVER.
-VX-HEN-14.09	USD/JPY	MACRO	~158	RED	P90	2026-03-04	Yen NOT safe haven (USD preferred). Phase 2 carry trigger = soft NFP → yen bid → unwind.
-VX-HEN-15.01	SPX vs 10-DMA	CTA	~-2.5%	RED	P15	2026-03-03	Short-term CTAs fully in SELL mode.
-VX-HEN-15.02	SPX vs 50-DMA	CTA	~-3.5%	RED	P10	2026-03-03	Below 50-DMA (6,883). Stage 2 cascade ACTIVE.
-VX-HEN-15.03	SPX vs 200-DMA	CTA	~-1.7%	ORANGE	P30	2026-03-03	Below 200-DMA ~6,902. Gamma flip level.
-VX-HEN-15.04	10/50 DMA Crossover Gap	CTA	~-150pts	RED	P10	2026-03-03	Bearish MA cross confirmed.
-VX-HEN-15.05	50/200 DMA Crossover Gap	CTA	~-20pts	YELLOW	P40	2026-03-03	Death cross forming.
-VX-HEN-15.06	Distance to CTA Flip (6707)	CTA	+74pts	RED	-	2026-03-03	One bad close = $80B selling over 1-4 weeks.
-VX-HEN-16.01	HY OAS Absolute Level	CREDIT	308bps (CONF)	RED	P90	2026-03-03	FRED confirmed. Floor rising (265→284→308). IG issuance frozen Mar 2-3. HYG $75P thesis ACTIVE.
-VX-HEN-16.03	Credit-Equity Transmission	CREDIT	ACTIVE	RED	-	2026-03-03	HY OAS widening → equity selling 1-3 session lag. H4: equity cannot bottom until HY OAS peaks.
-VX-HEN-19.01	BB District Growth Breadth	MACRO	5/12 not growing	RED	>99	2026-03-04	Worst breadth this cycle. Pre-Hormuz/Korea data.
-VX-HEN-19.02	Temp Labor Shift	LABOR	Staffing demand UP	ORANGE	P80	2026-03-04	Firms shifting perm→temp. Headline NFP masks quality deterioration.
-VX-HEN-19.03	Rural Hospital Stress	CREDIT	Half at loss (KC)	RED	NONE	2026-03-04	Closure risk KC+DAL. Hospital→employment→regional bank transmission.
-VX-HEN-19.04	Farm Equipment Auctions	CREDIT	Record levels (STL)	RED	P95	2026-03-04	Ag distress liquidation. Cropland may go unplanted (AR).
-VX-HEN-19.05	Attrition-Without-Replacement	LABOR	7/12 flat	ORANGE	P75	2026-03-04	Freeze-not-firing phase. Cliff-drop when buffer exhausted.
-VX-HEN-19.06	Bank→Shadow Credit Shift	CREDIT	Active (SF)	ORANGE	P85	2026-03-04	Private credit filling bank gaps. APO puts confirmation.
-# === NEEDS REFRESH (pre-selloff values, likely changed materially) ===
-VX-HEN-4.02	Equity Put/Call Ratio	SEN	0.58	STALE	P25	2026-01-26	NEEDS_REFRESH. Pre-selloff value. Likely higher now.
-VX-HEN-7.01	Insider Sell/Buy Ratio	SEN	13.56	STALE	>99	2026-01-26	NEEDS_REFRESH. Was extreme distribution — check if accelerated.
-VX-HEN-7.02	NAAIM Exposure Index	SEN	88.46%	STALE	P90	2026-01-26	NEEDS_REFRESH. Managers may have reduced post-selloff.
-VX-HEN-7.05	Bitcoin vs S&P Divergence	SEN	-25%	STALE	P85	2026-01-26	NEEDS_REFRESH. BTC may have moved further.
-VX-HEN-7.08	Tech Sector Breadth	CON	52.85%	STALE	P40	2026-01-26	NEEDS_REFRESH. Likely worse post-selloff. STATUS says <50%.
-VX-HEN-9.01	Net GEX (SPX)	GAM	$62B/1%	STALE	P80	2026-02-03	NEEDS_REFRESH. Was positive pre-selloff; now negative (below gamma flip).
-VX-HEN-9.06	IV Percentile (SPX)	GAM	37%	STALE	P40	2026-02-03	NEEDS_REFRESH. Likely much higher with VIX at 26.
-VX-HEN-11.01	ES Non-Commercial Net	COT	-99,800	STALE	P15	2026-02-03	NEEDS_REFRESH. Large spec positioning likely shifted.
-VX-HEN-12.01	NYSE A-D Line	BRD	NEW_HIGH	STALE	P95	2026-02-03	NEEDS_REFRESH. Likely no longer at highs post-selloff.
-VX-HEN-12.05	Tech Sector Breadth (BRD)	BRD	45.71%	STALE	P35	2026-02-03	NEEDS_REFRESH. XLK participation likely worse.
-VX-HEN-14.06	BTC Liquidity Proxy	MACRO	$76,000	STALE	P30	2026-02-03	NEEDS_REFRESH. BTC volatile — check current.
-VX-HEN-14.08	MOVE/VIX Ratio	MACRO	3.62	STALE	P65	2026-02-03	NEEDS_REFRESH. Both MOVE and VIX moved significantly.
-VX-HEN-16.02	HY OAS 5d Rate of Change	CREDIT	+8bps	STALE	P50	2026-02-11	NEEDS_REFRESH. Rate of change likely much higher now (floor rising fast).
+ID	Name	Category	Current_Value	Yellow	Orange	Red	Status	Confidence	Last_Updated	Source	Cross_Links	Notes
+# === CURRENT (Mar 3-5) ===
+VX-HEN-4.01	VIX Level	SEN	26.43	18	23	30	RED	90%	2026-03-03	CBOE/CSFX	FLOW-HEN-006, ML-HEN-077	Cascade zone (>25). Vol-control deleveraging ACTIVE. Thu est 23-25.
+VX-HEN-9.02	Gamma Flip Level	GAM	6,902 (SPX below at 6,785)	SPX <1% below	SPX 1-3% below	SPX >3% below	RED	85%	2026-03-05	Investing.com/SpotGamma	FLOW-HEN-013, VX-HEN-9.04	SPX 6,785 = 1.7% below gamma flip. Dealers AMPLIFYING moves.
+VX-HEN-9.04	Put Wall	GAM	6,800 (broken)	SPX at wall	SPX 1% below	SPX >2% below	RED	85%	2026-03-03	SpotGamma/GEX	FLOW-HEN-013	Put wall BROKE on Mar 3 close (6,781). 2-3 tests exhausts support.
+VX-HEN-9.05	IV Rank (SPX)	GAM	~75%	50%	65%	80%	ORANGE	75%	2026-03-03	CBOE	VX-HEN-4.01	IV expanded with VIX at 26.43. Complacency regime OVER.
+VX-HEN-14.09	USD/JPY	MACRO	~158	152	148	145	RED	80%	2026-03-04	Market data	FLOW-HEN-009, SAM	Yen NOT safe haven (USD preferred). Phase 2 carry trigger = soft NFP → yen bid → unwind.
+VX-HEN-15.01	SPX vs 10-DMA	CTA	~-2.5%	-0.5%	-1.5%	-2.5%	RED	90%	2026-03-03	Investing.com	FLOW-HEN-007	Short-term CTAs fully in SELL mode.
+VX-HEN-15.02	SPX vs 50-DMA	CTA	~-3.5%	-1%	-2%	-4%	RED	90%	2026-03-03	Investing.com	FLOW-HEN-007	Below 50-DMA (6,883). Stage 2 cascade ACTIVE.
+VX-HEN-15.03	SPX vs 200-DMA	CTA	~-1.7%	-0.5%	-2%	-5%	ORANGE	85%	2026-03-03	Investing.com	FLOW-HEN-008	Below 200-DMA ~6,902. Gamma flip level.
+VX-HEN-15.04	10/50 DMA Crossover Gap	CTA	~-150pts	-50pts	-100pts	-200pts	RED	85%	2026-03-03	Investing.com	FLOW-HEN-011	Bearish MA cross confirmed.
+VX-HEN-15.05	50/200 DMA Crossover Gap	CTA	~-20pts	0pts (cross)	-50pts	-100pts	YELLOW	80%	2026-03-03	Investing.com	FLOW-HEN-011	Death cross forming.
+VX-HEN-15.06	Distance to CTA Flip (6707)	CTA	+74pts	<200pts	<100pts	<50pts	RED	85%	2026-03-03	Goldman/Bloomberg	FLOW-HEN-008	One bad close = $80B selling over 1-4 weeks.
+VX-HEN-16.01	HY OAS Absolute Level	CREDIT	308bps (CONF)	280bps	320bps	400bps	ORANGE	95%	2026-03-03	FRED	FLOW-HEN-010, FLOW-HEN-012, ML-HEN-077	FRED confirmed. Floor rising (265→284→308). 12bps from Orange threshold.
+VX-HEN-16.02	HY OAS 5d Rate of Change	CREDIT	+13bps (295→308)	+10bps	+25bps	+50bps	YELLOW	70%	2026-03-03	FRED	FLOW-HEN-012	Floor rising. Rate of change more important than absolute at this stage.
+VX-HEN-16.03	Credit-Equity Transmission	CREDIT	ACTIVE (2-3 session lag elapsed)	HY leads equity 3+ sessions	Synchronized selling	HY cascade → equity forced selling	RED	85%	2026-03-03	Observed	FLOW-HEN-010, FLOW-HEN-012	H4: equity cannot bottom until HY OAS peaks.
+VX-HEN-19.01	BB District Growth Breadth	MACRO	5/12 not growing	3/12	5/12	7/12	RED	90%	2026-03-04	Fed Beige Book Mar 4	ML-HEN-077	Worst breadth this cycle. Pre-Hormuz/Korea data.
+VX-HEN-19.02	Temp Labor Shift	LABOR	Staffing demand UP	Qualitative reports	Multiple districts	Majority districts	ORANGE	75%	2026-03-04	Fed Beige Book Mar 4	FLOW-HEN-017, ML-HEN-078	Firms shifting perm→temp. Headline NFP masks quality deterioration.
+VX-HEN-19.03	Rural Hospital Stress	CREDIT	Half at loss (KC)	Individual closures	Multi-state stress	Systemic rural collapse	RED	80%	2026-03-04	Fed Beige Book Mar 4	FLOW-HEN-018, ML-HEN-082	Closure risk KC+DAL. Hospital→employment→regional bank transmission.
+VX-HEN-19.04	Farm Equipment Auctions	CREDIT	Record levels (STL)	Elevated	Record	Record + bank failures	RED	80%	2026-03-04	Fed Beige Book Mar 4	FLOW-HEN-018, ML-HEN-083	Ag distress liquidation. Cropland may go unplanted (AR).
+VX-HEN-19.05	Attrition-Without-Replacement	LABOR	7/12 flat	4/12 flat	6/12 flat	8/12 flat + layoffs	ORANGE	80%	2026-03-04	Fed Beige Book Mar 4	FLOW-HEN-017, ML-HEN-079	Freeze-not-firing phase. Cliff-drop when buffer exhausted.
+VX-HEN-19.06	Bank→Shadow Credit Shift	CREDIT	Active (SF)	Anecdotal	Multiple districts	Systemic	ORANGE	75%	2026-03-04	Fed Beige Book Mar 4	FLOW-HEN-014, ML-HEN-086	Private credit filling bank gaps. APO puts confirmation.
+# === STALE (pre-selloff values — refresh needed) ===
+VX-HEN-4.02	Equity Put/Call Ratio	SEN	0.58	0.7	0.8	1.0	STALE	50%	2026-01-26	CBOE	VX-HEN-4.01	NEEDS_REFRESH. Pre-selloff value. Likely higher now.
+VX-HEN-7.01	Insider Sell/Buy Ratio	SEN	13.56	5.0	8.0	12.0	STALE	60%	2026-01-26	SEC/Finviz	ML-HEN-003	NEEDS_REFRESH. Was extreme distribution — check if accelerated.
+VX-HEN-7.02	NAAIM Exposure Index	SEN	88.46%	75%	85%	95%	STALE	50%	2026-01-26	NAAIM	ML-HEN-003	NEEDS_REFRESH. Managers may have reduced post-selloff.
+VX-HEN-7.05	Bitcoin vs S&P Divergence	SEN	-25%	-10%	-20%	-30%	STALE	50%	2026-01-26	CoinGecko/SPX	VX-HEN-14.06	NEEDS_REFRESH. BTC may have moved further.
+VX-HEN-7.08	Tech Sector Breadth	CON	52.85%	60%	50%	40%	STALE	60%	2026-01-26	Barchart	ML-HEN-003	NEEDS_REFRESH. Likely worse post-selloff. STATUS says <50%.
+VX-HEN-9.01	Net GEX (SPX)	GAM	$62B/1%	$30B	$10B	Negative	STALE	50%	2026-02-03	SqueezeMetrics	FLOW-HEN-013	NEEDS_REFRESH. Was positive pre-selloff; now negative (below gamma flip).
+VX-HEN-9.06	IV Percentile (SPX)	GAM	37%	50%	70%	85%	STALE	50%	2026-02-03	CBOE	VX-HEN-4.01	NEEDS_REFRESH. Likely much higher with VIX at 26.
+VX-HEN-11.01	ES Non-Commercial Net	COT	-99,800	-50K	-100K	-150K	STALE	50%	2026-02-03	CFTC COT	ML-HEN-003	NEEDS_REFRESH. Large spec positioning likely shifted.
+VX-HEN-12.01	NYSE A-D Line	BRD	NEW_HIGH	Divergence forming	Divergence confirmed	Breakdown	STALE	50%	2026-02-03	NYSE	ML-HEN-003	NEEDS_REFRESH. Likely no longer at highs post-selloff.
+VX-HEN-12.05	Tech Sector Breadth (BRD)	BRD	45.71%	55%	45%	35%	STALE	60%	2026-02-03	Barchart	VX-HEN-7.08	NEEDS_REFRESH. XLK participation likely worse.
+VX-HEN-14.06	BTC Liquidity Proxy	MACRO	$76,000	$80K	$70K	$60K	STALE	50%	2026-02-03	CoinGecko	VX-HEN-7.05	NEEDS_REFRESH. BTC volatile — check current.
+VX-HEN-14.08	MOVE/VIX Ratio	MACRO	3.62	4.0	5.0	6.0	STALE	50%	2026-02-03	Bloomberg/CBOE	VX-HEN-18.01	NEEDS_REFRESH. Both MOVE and VIX moved significantly.
 # === WATCHLIST (no confirmed values yet) ===
-VX-HEN-18.01	MOVE Index	CREDIT	~110-120 (est)	WATCH	P75	2026-03-03	EST only. Needs Bloomberg/ICE confirmation. >130 = credit stress zone.
-VX-HEN-18.02	VIX Term Structure	VOL	UNKNOWN	WATCH	-	2026-03-03	Check backwardation (spot>futures) = panic signal.
-VX-HEN-18.03	CLO AAA Spreads	CREDIT	UNKNOWN	WATCH	P70	2026-03-03	Added per credit-primary reframe. >160bps = stress, >200bps = crisis.
-VX-HEN-18.04	Put/Call Skew (25-Delta)	VOL	UNKNOWN	WATCH	-	2026-03-03	Tail-risk demand measure. >8 vol pts = stress, >12 = cascade.
-VX-HEN-18.05	GEX Daily Estimate	GAM	~-$2B to -$5B (est)	WATCH	-	2026-03-03	Negative GEX = dealers amplifying. Needs SqueezeMetrics/SpotGamma.
+VX-HEN-18.01	MOVE Index	CREDIT	~110-120 (est)	115	130	150	WATCH	60%	2026-03-03	Bloomberg/ICE (EST)	VX-HEN-14.08	EST only. Needs Bloomberg/ICE confirmation. >130 = credit stress zone.
+VX-HEN-18.02	VIX Term Structure	VOL	UNKNOWN	Flat	Mild backwardation	Deep backwardation	WATCH	50%	2026-03-03	CBOE	VX-HEN-4.01	Check backwardation (spot>futures) = panic signal.
+VX-HEN-18.03	CLO AAA Spreads	CREDIT	UNKNOWN	150bps	165bps	200bps	WATCH	60%	2026-03-03	PitchBook/SAM	FLOW-HEN-010, REGINALD VX-REG-2.02	Added per credit-primary reframe. >165bps = BDC transmission.
+VX-HEN-18.04	Put/Call Skew (25-Delta)	VOL	UNKNOWN	6 vol pts	8 vol pts	12 vol pts	WATCH	50%	2026-03-03	CBOE	VX-HEN-9.05	Tail-risk demand measure. >8 vol pts = stress, >12 = cascade.
+VX-HEN-18.05	GEX Daily Estimate	GAM	~-$2B to -$5B (est)	+$5B	$0	-$5B	WATCH	50%	2026-03-03	SqueezeMetrics/SpotGamma (EST)	FLOW-HEN-013, VX-HEN-9.01	Negative GEX = dealers amplifying. Needs SqueezeMetrics/SpotGamma.
 # === SLOW-MOVING (archived to VX_HISTORY.tsv — quarterly refresh) ===
 # CON: 1.01-1.03 | VAL: 2.01-2.03 | LEV: 3.01-3.02 | NOV: 6.02-6.05 | BID: 8.01-8.06 | CORP: 10.01-10.06, 17.01-17.03
 # Last snapshot: Jan 26 / Feb 3-12, 2026. Next refresh: Q2 2026 or on major regime change.
