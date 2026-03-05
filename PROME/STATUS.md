@@ -1,112 +1,68 @@
 # PROME STATUS.md
-**Updated:** 2026-03-04 20:00 UTC
+**Updated:** 2026-03-05 05:30 UTC
 
-**Last context:** Full data day processed. ADP +63K miss, ISM Services 56.1 beat (counter-signal), Beige Book 5/12 districts not growing. HY OAS confirmed 308bps (LIQUID was 30bps high). HEN-01 upgraded to 70% (NFP <100K). HENRY synthesis: ISM strong + ADP weak = stagflation bifurcation (busy but not hiring). Beige Book: immigration enforcement in Fed data, consumer cracking bottom-up, delinquencies rising in NY. BROCK completed Athene mapping ($442B, 48% illiquid, reflexivity loop live, surrender risk low). All 22 agent workspaces fixed to main git repo. HERMES cron set (AM/PM). Market bounced on ISM — puts bled ~$2,200 but core positions intact. NFP Friday is the resolution. Cash $2,754.
+**Last context:** Two full agent domain cleanups tonight (HENRY + REGINALD). Standardized INBOX processing protocol and inbox-as-folder across all 13 agents. HENRY spawned on Opus for Beige Book deep analysis — signals persisted to workbook. All committed. NFP Friday is tomorrow.
 
-## 🔴 CRITICAL — HORMUZ CLOSED + Private Credit + Energy Dominance + **ABS 7.1% THRESHOLD BREACH**
+## 🔴 CRITICAL — HORMUZ CLOSED + NFP RESOLUTION EVENT TOMORROW
 
 ---
 
 ## Agent Dashboard
 
-| Agent | Status | Focus | Updated |
-|-------|--------|-------|---------|
-| LABOR | 🔴 | Hiring freeze Q2+. WARN 706/85K. NFP Fri ~+65K consensus. Shadow gap resolves Mar-Apr. | Mar 3 |
-| CARL | 🔴 | **Subprime auto ABS 60+ DQ 7.1% — THRESHOLD BREACHED (ALL-TIME RECORD)**. Gas squeeze Mar 14-21. Fannie MF DQ 0.74% (6bps from GFC peak). | Mar 4 |
-| HENRY | 🔴 | ISM/ADP synthesis done. HEN-01 upgraded to 70%. Front-running 70% conviction. Beige Book synthesized. | Mar 4 |
-| SAM | 🔴 | Carry unwind UP: 65% (30d), 80% (60d). Fed swap line = 72hr binary pivot. NFP secondary to USD/KRW. | Mar 4 |
-| REGINALD | 🔴 | Inbox processed (7+ signals). STATUS refreshed. | Mar 4 |
-| BROCK | 🔴 | Athene mapping DONE. $442B assets, 48% illiquid, RBC 412%, reflexivity loop live. Data gaps flagged. | Mar 4 |
-| LIQUID | 🔴 | HY OAS CONFIRMED 308bps (was 30bps too high). LIQ-01 still OPEN. Spread bias documented. | Mar 4 |
-| MARCO | 🔴 | Remittances negative Jan (-1.4% YoY). ADP confirms workforce exit in aggregate data. DHS Day 18. TSA paycheck miss Mar 14. | Mar 4 |
-| HAWK | 🔴 | Two new theses: Russian infrastructure damage + Ukrainian energy warfare doctrine. | Mar 3 |
-| OTTO | 🔴 | MFS fallout: Barclays £600M+, Jefferies £100M, WFC/Santander/Castlelake/Atlas exposed. No new cockroach overnight. CVNA: Pomerantz investigation filed Mar 3. Discovery Mar 15 approaching. BCRED: senior staff self-inject = distress signal. Net outflows $1.7B. | Mar 4 |
-| ZHAO | 🔴 | USD/KRW BREACHED 1,500 (UST selling LIVE). KOSPI -12% history worst. USD/CNY 6.924 (mild drift). Two Sessions: NPC work report Mar 5. | Mar 4 |
-| HANS | 🟠 | Ceasefire revised 85% → 12% (30-day). STATUS refreshed. | Mar 4 |
-| DARWIN | 🟢 | Weekly scan | Feb 18 |
-| NEXUS | 🔴 | 5 thresholds breaching simultaneously. Needs fresh synthesis with Korea + ADP. | Mar 4 |
+| Agent | Status | Key State | Updated |
+|-------|--------|-----------|---------|
+| HENRY | 🔴 | **CLEANED.** STATUS 207 lines. CLAUDE.md overhauled. Beige Book signals persisted (6 VX, 5 FLOW, 10 ML, 2 predictions). HEN-01: NFP <100K at 70%. Ready for NFP spawn. | Mar 5 |
+| REGINALD | 🔴 | **CLEANED.** BROCK consolidated (3→1 location). TRADE/WATCHLIST killed. PREDICTIONS migrated to .tsv. Inbox as folder. HY OAS threshold unified to >320bps. | Mar 5 |
+| LABOR | 🔴 | Hiring freeze Q2+. WARN 706/85K. Shadow gap resolves Mar-Apr. | Mar 3 |
+| CARL | 🔴 | Subprime auto ABS 7.1% ALL-TIME RECORD. FL UI cliff Mar 24. Gas squeeze Mar 14-21. | Mar 4 |
+| SAM | 🔴 | Carry unwind 65%/80%. USD/KRW breached 1,500. BoK emergency meeting, defended for now. Nikkei -6.5% in 2 sessions. | Mar 4 |
+| BROCK | 🔴 | **CONSOLIDATED** to AGENTS/BROCK/. Athene mapping done ($442B, $9B CRE transfer). 36 files in one place. | Mar 5 |
+| LIQUID | 🔴 | HY OAS 308bps CONFIRMED. LIQ-01 still OPEN (320bps threshold). VIX compressed 26→21. IG primary may reopen. | Mar 4 |
+| MARCO | 🔴 | Remittances -1.4% YoY. DHS Day 18. TSA paycheck miss Mar 14. | Mar 4 |
+| OTTO | 🔴 | MFS widening (Elliott £200M, SMBC, Macquarie). TCPC fraud. BCRED near-gate. | Mar 4 |
+| ZHAO | 🔴 | USD/KRW breached 1,500. KOSPI -12%. NPC work report Mar 5. | Mar 4 |
+| HAWK | 🔴 | Russian infra damage + Ukrainian energy warfare theses. | Mar 3 |
+| HANS | 🟠 | Ceasefire 12%. iTraxx Senior Financial ~95bps. | Mar 4 |
+| NEXUS | 🔴 | 5 thresholds breaching simultaneously. | Mar 4 |
+| DARWIN | 🟢 | Weekly scan. | Feb 18 |
 
 ---
 
-## Active Positions (Updated Mar 3 from screenshots)
+## Active Positions (Mar 3 screenshots)
 
-**Account:** ~$46,807 | +155.2% all-time | Cash: ~$2,100
+**Account:** ~$46,807 | +155.2% all-time | Cash: ~$2,754
 
-### Core Thesis Puts
-| Position | Expiry | Qty | Total P/L | Value | Notes |
-|----------|--------|-----|-----------|-------|-------|
-| KRE $65P | Jun 30 | 4 | +31.6% | $1,480 | |
-| KRE $67P | Jun 30 | 1 | +42.8% | $465 | |
-| KRE $63P | Jun 30 | 1 | +11.2% | $310 | |
-| KRE $60P | Jun 18 | 2(M) | +74.1% | $448 | |
-| KRE $60P | Sep 30 | 2 | +61.0% | $730 | |
-| KRE $60P | Dec 18 | 3(M) | +38.4% | $1,215 | |
-| KRE $62P | Mar 31 | 2(M) | +8.8% | $252 | Hold through NFP |
-| KRE $66P | **Mar 13** | **1** | **NEW 3/3** | $145 | **NFP lotto** |
-| WAL $82.5P | Jun 18 | 1 | +104.8% | $800 | |
-| WAL $85P | Jun 18 | 1 | +80.8% | $950 | |
-| WAL $77.5P | Jun 18 | 1 | +7.1% | $590 | |
-| WAL $77.5P | **Mar 20** | **1** | **NEW 3/3** | $225 | **NFP lotto** |
-| APO $100P | Jun 18 | 1 | +6.4% | $820 | Thesis position |
-| APO $100P | **Apr 17** | **1** | **NEW 3/3** | $403 | **Catalyst play** |
-| AAL $10P | Jul 17 | 4 | +4.1% | $238 | |
-| HYG $75P | Jun 18 | 10 | +36.9% | $420 | Credit stress |
-| IWM $250P | Jun 30 | 1 | +30.5% | $1,003 | Broad small cap |
-| OZK $42.5P | Aug 21 | 1 | +18.1% | $250 | |
-| OZK $45P | Aug 21 | 2 | -0.5% | $660 | |
-| ZION $57.5P | Jul 17 | 1 | +22.3% | $490 | |
-| FLG $13P | Jul 17 | 1 | +21.3% | $110 | |
-| SSB $90P | Jun 18 | 1 | +1.8% | $190 | |
-| EGBN $25P | Jun 18 | 1(M) | -26.6% | $115 | Dead — cut? |
-| VLY $10P | Mar 20 | 10(M) | -40.7% | $50 | Dead — cut? |
-| KELYA $7.5P | Aug 21 | 1 | -0.9% | $75 | Dead — cut? |
+### Core Puts
+| Position | Expiry | P/L | Notes |
+|----------|--------|-----|-------|
+| KRE multi-strike | Jun/Sep/Dec | +31-74% | 13 contracts across strikes |
+| KRE $66P | Mar 13 | NEW | NFP lotto |
+| KRE $62P | Mar 31 | +8.8% | Hold through NFP |
+| WAL $82.5P + $85P | Jun | +80-105% | Deep ITM at $80.32 |
+| WAL $77.5P | Mar 20 | NEW | NFP lotto |
+| APO $100P | Jun + Apr | +6.4% / NEW | Thesis + catalyst |
+| OZK $42.5P + $45P | Aug | +18% / flat | Apr 16 earnings |
+| IWM $250P | Jun | +30.5% | |
+| HYG $75P | Jun | +36.9% | 10 contracts |
+| ZION $57.5P | Jul | +22.3% | |
+| FLG $13P | Jul | +21.3% | |
+| SSB $90P | Jun | +1.8% | |
 
-### Equity / ETF Positions
-| Position | Qty | Total P/L | Value |
-|----------|-----|-----------|-------|
-| AAPL | 100 | +1,005% | $26,129 |
-| USO | 2 | +31.7% | $184 |
-| STNG | 2 | +2.8% | $160 |
-| TBT | 14 | -4.5% | $463 |
-| FXY | 4 | -2.6% | $233 |
-| GLD | 2 | +10.1% | $934 |
-| XAR | 1 | +14.1% | $286 |
-| ITA | 1 | +11.8% | $246 |
-| GOOG | 1 | -9.9% | $301 |
-| OKLO | 3 | -30.1% | $190 |
-| AMH | 12 | -3.7% | $356 |
-| INVH | 7 | -2.9% | $182 |
-| CPER | 6 | +2.7% | $214 |
-| PALL | 1 | -6.9% | $149 |
-| SLV/SLVP | reduced | trimmed 3/3 | |
-| CEPT | reduced | trimmed 3/3 | |
+### Equity/ETF (top holdings)
+AAPL 100sh (+1,005%, $26K), GLD 2sh, TBT 14sh, AMH 12sh, INVH 7sh, CPER 6sh
+
+### Dead/Cut candidates
+EGBN $25P Jun (-26.6%), VLY $10P Mar (-40.7%), KELYA $7.5P Aug (-0.9%)
 
 ---
 
-## Trades Executed March 3
+## Infrastructure Done Tonight
 
-| Action | Position | Price | Amount |
-|--------|----------|-------|--------|
-| **SOLD** | USO $90C Mar 13 | $5.96 | +$595 ✅ (+113%) |
-| **BOUGHT** | WAL $77.5P Mar 20 | $2.24 | -$225 (NFP lotto) |
-| **BOUGHT** | KRE $66P Mar 13 | $1.45 | -$146 (NFP lotto) |
-| **BOUGHT** | APO $100P Apr 17 | $4.02 | -$403 (catalyst play) |
-| **TRIMMED** | SLV | — | +cash |
-| **TRIMMED** | CEPT | — | +cash |
-
----
-
-## Market Close Summary (Mar 3)
-
-- S&P 500: ~6,787-6,799 at close (-0.9%, recovered from -2.2% intraday)
-- Dow: -400pts at close (-1,200 was intraday low)
-- Nasdaq: -1.0%
-- VIX: 26.43 (+23%)
-- Brent: $84 (+8%)
-- WTI: $77+
-- 10Y: 4.10% (UP on risk-off — ZHAO thesis confirmed)
-- Gold: $5,270 but fell intraday (dollar strength)
-- 90% of S&P 500 red
+- HENRY domain: STATUS 382→207, CLAUDE.md overhauled, workbook cleaned
+- REGINALD domain: 4 chunks complete, BROCK consolidated, 22 deprecated files deleted
+- Network-wide: INBOX protocol standardized (12 agents), inbox as folder (13 agents)
+- Design principle: silo complexity between steps (Will journal)
+- Beige Book synthesis edited + HENRY Opus analysis persisted
 
 ---
 
@@ -114,36 +70,19 @@
 
 | Date | Event | Priority |
 |------|-------|----------|
-| **Mar 5 (Thu)** | Insurance cliff — moot, Hormuz already closed | 🔴 |
-| **Mar 6 (Fri)** | NFP — consensus +65K, shadow gap says potential big miss | 🔴 |
-| Mar 13 | KRE $66P + BOJ meeting | 🔴 |
-| Mar 14-21 | Gas pump peak stress (CARL) | 🔴 |
-| Mar 15 | TIC data (ZHAO) + CVNA discovery (OTTO) | 🔴 |
-| Mar 17-18 | FOMC (SEP + dot plot). Fed 97.3% hold. | 🔴 |
+| **Mar 6 (Fri)** | **NFP** — HEN-01: 70% <100K. Resolution event. | 🔴 |
+| Mar 13 | KRE $66P expiry + BOJ meeting | 🔴 |
+| Mar 17-18 | FOMC (hold expected, stagflation language) | 🔴 |
 | Mar 20 | WAL $77.5P expiry | 🟠 |
-| Mar 31 | KRE $62P expiry + Q1 quarter-end | 🟠 |
-| Apr 16-29 | Bank earnings (OZK/ZION/WAL) | 🔴 |
-| Apr 17 | APO $100P expiry + OZK earnings | 🔴 |
-
----
-
-## Chart Analysis (Mar 3)
-
-**KRE 3M daily:** Double top $72-74. Bearish MA cross forming (50-day below 10-day). 200-day at $62.07. Distribution volume on down days. RSI 64.9, room to fall. Levels: $65 → $63 (50MA) → $62 (200MA) → $58-60 (Jan lows).
-
-**WAL 3M daily:** Peaked $96 mid-Feb, now $80.55 (-16% in 3 weeks). Death cross forming. Feb 27 gap ($84-89) unfilled = overhead resistance. MACD most negative in 3 months.
-
-**APO 1M:** Peaked $120-121, dropped to $99 on Feb 27, bounced to $108, now $107.81 making lower highs. $100 = critical support. Break below = air to $90-95.
+| Mar 24 | FL UI exhaustion cliff begins | 🔴 |
+| Apr 16-29 | Bank earnings wave (OZK → ZION → WAL) | 🔴 |
 
 ---
 
 ## Next Priorities
 
-1. **🔴 NFP Friday Mar 6 8:30 AM ET** — spawn HENRY immediately, write synthesis .md
-2. **🔴 Thursday claims 8:30 AM** — shadow payroll gap. 220K+ = gap closing.
-3. **🔴 Will has more Beige Book districts to paste** — continue synthesis
-4. **🟠 EOD market check** — how did positions close after ISM bounce?
-5. **🟠 Audit batch 3: HAWK, MARCO, BROCK**
-6. **🟡 REGINALD broad Call Report screen** (30+ banks)
-7. **🟡 Athene data gaps** (Will may pull: FIA/FA/PGA breakdown, funding agreement maturities)
-8. **🟡 Remaining infra: AGENTS.md→CLAUDE.md rename, AGENTS_DIRECTORY.md update**
+1. **🔴 NFP Friday 8:30 AM ET** — spawn HENRY immediately
+2. **🟠 HERMES delivery** — HENRY has fresh OUTBOX from Beige Book
+3. **🟠 PROME STATUS chart analysis** — stale (Mar 3 data)
+4. **🟡 Continue agent cleanup?** LIQUID is next most-spawned
+5. **🟡 Full BRIEFING.md rewrite** after NFP
