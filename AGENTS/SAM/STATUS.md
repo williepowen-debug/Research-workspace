@@ -1,8 +1,32 @@
 # SAM STATUS
 
-**Signal Status:** 🔴 RED | **Last Updated:** 2026-03-04 21:15 UTC (EOD SCAN)
+**Signal Status:** 🔴 RED | **Last Updated:** 2026-03-05 13:45 UTC (MORNING SCAN)
 
-**Summary:** EMERGENCY CONDITIONS PERSIST. Nikkei closed **-3.61% to 54,245** (further leg down from Tuesday's 56,279 — cumulative ~6.5% two-day decline). USDJPY pulled back from 157.97 intraday high to ~157.2 (minor yen strengthening on profit-taking + Ueda comments — NOT safe-haven bid). **KEY NEW SIGNAL: BOJ Ueda warned Middle East could have "significant impact" on Japan's economy — April hike expectations rising.** KRW bounced to 1,479 open Mar 4 after overnight 1,500 breach — BoK Governor postponed overseas trip, called emergency meeting. Brent oil up 3% more but pausing below Tuesday highs. Three-anchor UST selling thesis intact. Carry unwind probability: **7d 35%, 30d 80%, 60d 90%**.
+**Summary:** EMERGENCY CONDITIONS PERSIST — NEW NUANCE OVERNIGHT. USDJPY pulled back to **~156.85** in Asian session (from 157.2 prev close) — **genuine safe-haven yen bid** emerging as Iran conflict escalates (US/Israel "striking progressively deeper"). This is the first real safe-haven signal; watch for acceleration. BOJ in **"strategic paralysis"** — March hike dead, April/July uncertain. JGB short-end yields FELL overnight as hike expectations pushed out. Finance Minister Katayama deployed **intervention language** ("watching closely, prepared to take various measures") — ambiguous re direction, but verbal warning live. Nikkei holding ~53.8-54.6k (near prior close, 55k support broken). Three-anchor UST selling thesis intact. Carry unwind probability unchanged: **7d 35%, 30d 80%, 60d 90%**.
+
+---
+
+## OVERNIGHT SCAN — MAR 5 MORNING (13:45 UTC)
+
+### (1) Japan / BOJ / Yen Developments
+- **USDJPY: ~156.85** (Asian session) — yen strengthening, first credible safe-haven bid vs. prior profit-taking. If Iran escalation continues, 155 handle possible. Watch: if USDJPY breaks below 156 on sustained safe-haven flow, carry unwind Phase 2 could compress further.
+- **BOJ "Strategic Paralysis"**: March hike essentially dead. Market now pricing April or July as next live meeting. Short-end JGB yields fell overnight on hike delay expectations. This is a HOLD-forever trap — can't hike into energy shock + equity crash + geopolitical uncertainty.
+- **Finance Minister Katayama**: "Watching market developments closely, prepared to take various measures if needed." Standard jawboning but signals MoF on alert. Yen currently strengthening so intervention direction unclear — if yen weakens back above 158+, expect verbal escalation toward actual FX intervention.
+- **Iran escalation**: US Joint Chiefs: US will "strike progressively deeper" into Iran. Israel launched new "wave of strikes" on Tehran military infrastructure. NO near-term resolution. Hormuz closure structural, not episodic. Energy shock sustains.
+- **Nikkei**: ~53.8-54.6k range overnight — no new crash, but 55,000 support definitively broken. Goldman Sachs/SMBC see 58,500-61,500 by end-2026 as recovery case — irrelevant near-term. GPIF mechanical trigger zone still approaching.
+
+### (2) Carry Trade Stress Signals
+- **Yen safe-haven bid** is new. Prior moves (157.97 high) were carry-funded dollar demand. Now seeing reversal bid on Iran escalation. This is the Phase 1→2 transition signal to watch.
+- **KRW**: No major new overnight data; prior BoK defense of 1,500 appears to be holding (based on lack of new circuit-breaker headlines). Fed swap line binary still unresolved — 48-72hr watch continues.
+- **Short JGB yields falling** = market pricing BOJ frozen = carry trade more attractive in theory... BUT safe-haven yen bid contradicts. Tension: BOJ paralysis should support carry, but risk-off overrides. This is Phase 2 early signal.
+
+### (3) JGB / Intervention Indicators
+- **Short-end JGB yields fell** — 2Y most sensitive to BOJ; falling = hike expectations pushed to April/July minimum. Long end (10Y ~2.12%, 30Y ~3.28%) unchanged — steepening intact.
+- **MoF intervention language active** (Katayama statement). Not yet operational, but on alert.
+- **No new UST anchor-selling data overnight**, but structural dynamic unchanged.
+
+### KEY POLICY IMPLICATION
+BOJ is caught in a new trap: if yen strengthens (safe-haven), import costs ease but carry unwind accelerates → Phase 2. If yen weakens (risk-on), import inflation deepens → stagflation. Either path is bad. BOJ paralysis is now the base case through April, possibly July. This extends the thesis runway but doesn't change the destination.
 
 ---
 
@@ -10,7 +34,7 @@
 
 | Vector | Value | Status | Signal |
 |--------|-------|--------|--------|
-| **USDJPY** | **~157.2 (off 157.97 intraday high)** | 🔴 | Phase 1 extending but slight yen bounce. Rabobank: USD/JPY backed off highs on profit-taking + hawkish Ueda comments. Yen still NOT a safe haven vs dollar. Energy importer = yen structurally weak in oil shocks. Intervention zone: 160. |
+| **USDJPY** | **~156.85 (Mar 5 Asian session)** | 🔴 | **NEW: Genuine safe-haven bid emerging** — Iran escalation (US/Israel striking deeper into Tehran) triggering yen strength. Prior moves were carry/dollar demand; this is different. Intervention language active (MoF Katayama). Watch 156 as next support; break below = Phase 2 accelerating. Intervention zone still 160 on upside. |
 | **JGB 10Y** | **~2.12%** | 🟠 | Inflation fear dominating. Not a safety bid. Long-end steepening intact. |
 | **JGB 30Y** | **~3.28%** | 🟠 | Pullback from 3.31%. Steepening trend intact. Fiscal doom loop delayed, not canceled. |
 | **Brent Oil** | **Up 3% more but pausing (off Tue highs)** | 🔴 | Hormuz closure sustained. Brent up ~3% Wednesday but below Tuesday's 8-month high — market taking a breath, not reversing. Europe stocks +0.5%, gold regaining poise. Slight decompression in panic — NOT resolution of supply shock. |

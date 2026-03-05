@@ -1,5 +1,7 @@
 # CARL STATUS
-**Last Updated:** 2026-03-04 19:15 UTC | **Status:** 🔴 RED
+**Last Updated:** 2026-03-05 13:50 UTC | **Status:** 🔴 RED
+
+**Daily Check-in Mar 5 AM:** (1) ABS/Subprime: No new DQ print; subprime lending tightening further in SE/Midwest per autofreak.com; predatory lending spotlight (Bankrate Mar 4). LendingTree: ~5% Americans delinquent. Watch for ICE Mortgage Monitor today. (2) CVNA: Q4 EBITDA miss + accounting fraud investigation escalating — Pomerantz Law investigating $1B+ earnings overstatement, CFO accused of related-party loan misrepresentation, SEC active since Jul 2025. (3) Tricolor fraud contagion: JPMorgan/Barclays/Fifth Third SUED by ABS investors for "enabling massive fraud" — this is the Tricolor cockroach spreading to bank balance sheets.
 
 **Summary:** Consumer fragility at extreme levels across multiple vectors. Subprime auto 60+ DQ **7.1% — THRESHOLD BREACHED**. Fannie MF DQ 0.74% (6bps from GFC peak, IMMINENT). Gas squeeze Mar 14-21 **CONFIRMED BASE CASE** (Brent $84, Hormuz closed). **NEW (Mar 4 AM):** UI exhaustion wave begins Mar 24 (FL WARN cohorts) → consumption cliff Apr 26 → DQ conversion May-Jun. Stagflation trap confirmed: PCE 2.9% + oil spike + Fed frozen = no policy backstop. Reverse wealth effect materializing (VIX 26.43, IWM -1.91%). FL triple squeeze (energy + HOA + insurance) to outpace national DQ by Q2. CFPB functionally dead = subprime lenders operating without federal watchdog.
 
@@ -217,9 +219,18 @@ Combined with UI exhaustion wave (Mar 24 cliff) and existing FL condo crisis: FL
 | Flagship Credit | 🔴 Mass layoffs, fire sale to InterVest |
 | Exeter Finance | 🟠 S&P hiked ECNL on 8 ABS deals |
 | CPSS | 🟠 Class-action, $900M forward flow dependency |
-| Tricolor | 💀 $800M fraud, Fifth Third $170M loss |
+| Tricolor | 💀 $800M fraud, Fifth Third $170M loss. **NEW Mar 5:** JPMorgan, Barclays, Fifth Third SUED by ABS investors for ignoring "giant red flags" and "enabling massive fraud." (Reuters Feb 27, Banking Dive Mar 2) |
 
 3M repos in 2025 (+76% above GFC). Cockroach theory applies.
+
+**CVNA — ACTIVE FRAUD/ACCOUNTING WATCH (Updated Mar 5):**
+- Q4 2026 earnings: Beat revenue + unit sales, MISSED adjusted EBITDA. Stock selling off on profitability concerns.
+- **Pomerantz Law Firm investigating** securities fraud claims (filed ~Feb 25). Allegation: "2023-2024 earnings overstated by $1B+" and "far more dependent on related parties than disclosed."
+- **CFO accused of lying** about selling loans to related parties (Reddit/class action, confirmed via multiple sources).
+- **SEC investigation active since July 2025.** Class actions began Jan 2026. Multiple law firm investigations active.
+- Additional $4B in loan purchasing capacity secured — but raises questions about ABS exposure and related-party dynamics.
+- Motley Fool (Mar 3): "accounting practices and related-party transactions" cited as key risk.
+- **CARL assessment:** CVNA is not yet a bankruptcy candidate, but accounting fraud thesis is gaining legal traction. The related-party loan sales echo the Tricolor structure. Watch for SEC subpoenas or restatement. K-shape consumer stress = CVNA's credit book deteriorating even as headline volumes hold.
 
 ---
 
