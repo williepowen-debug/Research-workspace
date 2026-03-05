@@ -1,5 +1,5 @@
 # REGINALD STATUS
-**Last Updated:** 2026-03-04 18:30 UTC | **Status:** 🔴 CRITICAL — STAGFLATION TRAP ACTIVE + ADP +63K (MISS, 130K consensus) + NFP FRIDAY + BCRED GATE CONFIRMED (7.9%, exec $150M confidence injection) + MFS CONTAGION WIDENING (Elliott £200M, SMBC, Macquarie now exposed) + Barclays £500M CONFIRMED (revised from £600M+ estimates) + CC DQ 15yr high (mainstream alert) + CRE MASKING CONFIRMED (0.26% bank vs 12.34% CMBS = 8.16pp gap, independent source) + HY OAS ~335-355bps (CROSS-AGENT TRIGGER ACTIVE)
+**Last Updated:** 2026-03-04 21:30 UTC | **Status:** 🔴 CRITICAL — MFS/BARCLAYS £500M BLOOMBERG-CONFIRMED + BRENT CORRECTION ($81.40 NOT $118) + MARKET BOUNCE DAY (S&P higher, VIX 27+ intraday) + APOLLO/ARI → ATHENE $9B CRE TRANSFER (ATHENE MAPPING LIVE) + eSlR RELAXATION APRIL 1 + WAL $80.32 (Mar1) = $82.5P DEEP ITM + REGULATORY DEREGULATION ACCELERATING
 
 **Known Data Issues:** OZK earnings April 16 (not Feb). PSEC PIK verified 8.6% (not 35%). FSK position CLOSED (thesis confirmed). KRE price in VX is stale — use watchlist table below.
 
@@ -27,10 +27,10 @@ Eight independent channels terminate at regional banks.
 
 | Indicator | Value | Status |
 |-----------|-------|--------|
-| S&P 500 | 6,781 (Mar 4 close) | 🟠 Down from 6,817 (Mar 3) |
-| VIX | 26.43 | 🟠 Elevated |
+| S&P 500 | **Bounced Mar 4** (tech-led) | 🟡 Partial recovery; VIX still elevated |
+| VIX | **27+ intraday Mar 4** | 🔴 Spiked above 27 before easing |
 | HY OAS | ~335-355bps | 🔴 **CROSS-AGENT TRIGGER FIRED** (>300bps threshold) |
-| KRE | ~$64.90 (Mar 4 est) | 🔴 -12.4% from $74.08 Feb peak |
+| KRE | ~$65.04 (+0.21% Mar 4) | 🔴 Marginal bounce; still -12% from Feb peak |
 | Office CMBS DQ | 12.34% (+103bps MoM) | 🔴 ATH, exceeds GFC |
 | CMBS Special Servicing | 17.11% | 🔴 |
 | CRE Modification Wave | **$27.7B** (+66% YoY) | 🔴 UPDATED (was $7.7B stale) |
@@ -91,7 +91,7 @@ Eight independent channels terminate at regional banks.
 | Ticker | Mar 3 Close | Mar 4 Est | Notes |
 |--------|-------------|-----------|-------|
 | KRE | ~$65.30 intraday | **~$64.90** | -12.4% from $74.08 Feb peak; next support $62-63 |
-| WAL | ~$73.28 (Mar 2) | ~$71-73 est | $82.5P deep ITM; litigation live |
+| WAL | **$80.32** (Mar 1 confirmed) | 🔴 DOWN from $90.06 prior close; $82.5P DEEP ITM |
 | OZK | ~$45.5 est | declining | -4.4% Mar 3; hidden CRE 37.6%; Apr 16 Q1 earnings |
 | ZION | ~$57.28 (Mar 2) | at/below $57.5P | MS OW upgrade = fade |
 | S&P | 6,817 (Mar 3) | **6,781** | Two consecutive down days post-recovery |
@@ -132,6 +132,9 @@ Eight independent channels terminate at regional banks.
 | Date | Event |
 |------|-------|
 | **Mar (NOW)** | Cantor Fitzgerald appraisals — WAL $98M receiver; <50¢ = Q1 writedown |
+| **Mar 5** | Fed Stress Capital Buffer comment deadline |
+| **Apr 1** | eSLR relaxation effective — G-SIB capital rules ease |
+| **Apr 3** | OCC Community Bank Licensing effective |
 | Mar-Apr | WAL Q1 earnings stress; Jefferies internal audit (MFS) may surface WAL exposure |
 | **Apr 16** | OZK Q1 earnings |
 | Apr 20-29 | Q1 bank earnings wave (ZION → WAL → VLY → EGBN) |
@@ -151,10 +154,23 @@ Eight independent channels terminate at regional banks.
 | Insurance (+50% YoY) | No relief; energy shock raises rebuild costs | Underwriting deterioration |
 | Migration -93% | No buyer pool; demand destruction | SSB, VLY: no exit |
 
+**⚠️ BRENT PRICE CORRECTION (Mar 4):** STATUS.md previously stated Brent $118-125. **WRONG.** Actual: Brent $81.40 (Mar 3 close). +10-13% from pre-crisis, NOT +40%. Analyst consensus: $76-90 Q2. Trump "insure tankers" statement eased prices. DB $200 scenario remains tail risk. Stagflation thesis intact but Brent impact is SMALLER than stated. Correct all prior Brent references.
+
 **Net effect on positions:**
-- **SSB $90P Jun**: FL MF thesis ACCELERATED — energy shock = incremental demand destruction in already broken market
-- **VLY**: 27% FL ($7.4B) — energy compound squeeze hits multifamily NOI and valuations
-- 10Y at 4.10% RISING = stagflation confirmed = Fed cannot cut = no NIM relief = CRE refi wall stays locked
+- **SSB $90P Jun**: FL MF thesis intact but energy shock less acute than modeled
+- **VLY**: 27% FL ($7.4B) — energy compound squeeze still directionally valid
+- 10Y trajectory: watch — if Brent stays sub-$90, Fed may have more flexibility than thesis assumes
+
+---
+
+## ATHENE MAPPING — NOW LIVE
+
+**Apollo CRE Finance (ARI) → Athene $9B CRE portfolio transfer** (announced Jan 28, closed ~Mar 2026):
+- ARI selling ENTIRE ~$9B CRE loan portfolio to Athene at 99.7% of commitments
+- Athene = Apollo's insurance arm. Now absorbs $9B of CRE credit risk.
+- If CRE loans default at scale → Athene capital impacted → APO balance sheet stress
+- This was BROCK Priority 1 (Athene mapping). **STATUS: RESOLVED — the exposure is $9B CRE, now concentrated in Athene.**
+- **Implication for APO puts:** APO triple stress confirmed: MFIC + MFS/Atlas SP + Athene $9B CRE absorption = three simultaneous channels
 
 ---
 
@@ -187,7 +203,7 @@ Census Bureau confirmed (Axios Tampa Bay, Feb 12, 2026):
 
 ## BOTTOM LINE
 
-**Mar 4 UPDATE:** S&P fell further to 6,781 (third consecutive loss). HY OAS 335-355bps = CROSS-AGENT TRIGGER FIRED (threshold was >300bps). CRE modification wave $27.7B (+66% YoY) — prior VX entry of $7.7B was 75% stale. Two private credit gates within one week (Blue Owl Feb 23, BCRED near-gate Mar 3) = institutional slow-motion bank run in progress. Stagflation trap confirmed: Brent $118 + Fed hold + 4.10% 10yr = no NIM relief, HTM losses widening, CRE wall cannot refi. Cantor appraisals NOW overdue/imminent — WAL catalyst live. April-June earnings window is the primary recognition event. Eight channels active simultaneously. WAL 82% conviction for major stress event.
+**Mar 4 EOD UPDATE:** Market bounced today (tech-led, S&P +modestly), VIX spiked 27+ intraday. KRE +0.21% marginal recovery — bounce, not reversal. Bloomberg CONFIRMED Barclays £500M MFS exposure at 12:59 PM UTC — primary source now on record. WAL at $80.32 (down from $90.06) = $82.5P deep ITM. **BRENT CORRECTION: $81.40, NOT $118.** Thesis intact but stagflation severity revised. Apollo/ARI $9B CRE → Athene transfer = Athene mapping SOLVED. eSlR relaxation April 1 = G-SIBs getting capital relief right as stress builds = regulatory cover for opacity. CC DQ at 15-year high now going mainstream (Motley Fool coverage). Eight channels active. NFP Friday is next inflection.
 
 *Session logs archived → domain/session_archive/SESSION_LOG_2026-03-03.md*
 *Hidden CRE methodology → MEMORY.md | OZK thesis → domain/sources/RP-REG-7_OZK_THESIS.md*

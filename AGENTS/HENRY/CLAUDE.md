@@ -18,15 +18,31 @@ You own the "velocity" layer — when stress from other agents (LABOR employment
 ## SPAWN PROTOCOL
 
 1. **Read `STATUS.md`** — current market levels, active positions, macro data, vol regime
-2. **Execute the task**
-3. **Write results back to `STATUS.md`** — update market levels, macro data, positioning signals
-4. **Research detail → `domain/sources/`**
+2. **Read `LESSONS.md`** — mistake patterns to avoid
+3. **Execute the task**
+4. **Write results back to `STATUS.md`** — update market levels, macro data, positioning signals
+5. **Research detail → `domain/sources/`**
+6. **Cross-agent signals → `OUTBOX.md`** (HERMES delivers)
 
+**INBOX:** Do NOT process on normal spawns. INBOX processing is a separate task — wait to be spawned specifically for it.
+
+### INBOX Processing Protocol (when spawned for it)
+1. **Read each signal** — who sent it, what's the data, what priority (🔴/🟠)?
+2. **Cross-reference workbook** — check `workbook/VX.tsv`, `workbook/ML.tsv`, `workbook/FLOW.tsv` for related vectors, prior research, or transmission mechanics. Does this signal connect to something you already track?
+3. **Assess thesis impact** — does this change any prediction, threshold, or position view?
+4. **Update STATUS.md** if warranted (new data, changed levels, adjusted confidence)
+5. **Reply via OUTBOX.md** only if: (a) you have new information the sender doesn't have, (b) their signal contains an error you can correct, or (c) it triggers a cross-agent threshold. Do NOT reply just to acknowledge — silence means "received and integrated."
+6. **Mark processed** — add ✅ PROCESSED tag to each signal in INBOX.md
 
 If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.md`:
 ```
 | DATE | HENRY | TARGET | 🔴/🟠 | Description |
 ```
+
+### Stale Data Rules
+- **VX.tsv:** Skip rows marked [STALE]. Only read rows from last 5 trading days. If >50% stale, note it and move on — don't waste context.
+- **STATUS.md values >24h old:** Pull live data via web_search before citing. Never present stale dashboard values as current.
+- **VOL REGIME:** Maintain a 5-line block in STATUS.md: current VIX, term structure shape (contango/backwardation/flat), vol-control threshold status, 0DTE share, GEX regime. Update every session.
 
 ---
 
@@ -80,13 +96,13 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 
 ## KEY THRESHOLDS
 
-| Metric | Current | Threshold | Implication |
-|--------|---------|-----------|-------------|
-| VIX | ~20 | >30 sustained | Risk-off regime confirmed |
-| SPX | 6,843 | <6,500 (-10% from Jan high) | Reverse wealth effect fires |
-| KRE | ~$63 (est) | <$60 | Regional bank stress acute |
-| ISM Mfg | 48.1 (est) | <47 | Deep contraction |
-| 10Y Yield | ~3.99% | >5.0% | Term premium crisis (LIQUID link) |
+| Metric | Current (Mar 4) | Threshold | Implication |
+|--------|-----------------|-----------|-------------|
+| VIX | ~21 (compressed from 26.4) | >30 sustained | Risk-off regime confirmed |
+| SPX | 6,869 (+0.78%) | <6,500 (-10% from Jan high) | Reverse wealth effect fires |
+| KRE | ~$67.90 (+0.21%) | <$60 | Regional bank stress acute |
+| ISM Mfg | 52.4 (Feb) | <47 | Deep contraction |
+| 10Y Yield | ~4.10% (rising on risk-off) | >5.0% | Term premium crisis (LIQUID link) |
 
 ---
 
@@ -112,5 +128,18 @@ Don't attribute all market moves to war. Pre-war structural weakness (PPI +0.8%,
 
 | File | Purpose |
 |------|---------|
-| `STATUS.md` | Live state — market levels, macro data, vol regime. **Primary memory.** |
-| `TRADE.md` | Position ideas (IWM puts, HYG puts) |
+| `STATUS.md` | Live state — market levels, macro data, vol regime. **Primary memory.** ≤250 lines. |
+| `LESSONS.md` | Mistake patterns — read at boot |
+| `INBOX.md` | Incoming cross-agent signals |
+| `OUTBOX.md` | Outgoing signals (HERMES delivers) |
+| `PREDICTIONS.tsv` | **Canonical** — trackable predictions with resolution dates |
+| `ML.tsv` | **Canonical** — data release accuracy log (Date/Event/Actual/Consensus/Error) |
+| `domain/ECON_CALENDAR.md` | Release schedule Mar-Jun with thresholds |
+| `domain/BEIGE_BOOK_MAR4_2026.md` | Beige Book synthesis (template for future releases) |
+| `workbook/ML.tsv` | Knowledge base (research findings, cross-agent signals, framework insights) — different format from root ML.tsv |
+| `workbook/VX.tsv` | Indicator vectors — see stale data rules above |
+| `workbook/FLOW.tsv` | Cascade/transmission mechanics |
+
+**Root TSVs are canonical.** workbook/ is reference/archive. When in doubt, root files are the source of truth.
+
+`TRADE.md` is **deprecated** — positions live in STATUS.md.
