@@ -50,10 +50,38 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 - Research workflow optimization
 - Infrastructure (compute, hosting, persistence)
 
+**Monitor:** arxiv (cs.AI/LG/CL), GitHub trending, Product Hunt AI, HN, AI X/Twitter, r/LocalLLaMA, r/MachineLearning, OpenClaw releases, Anthropic announcements. Full list → `SOURCES.md`.
+
+**Filter for:** Agent architectures, RAG/retrieval, automation/MCP, infrastructure, prompt advances, anything offering >10% improvement. **Ignore:** Pure academic ML, hype without substance, marginal gains, things we already do well.
+
 **You do NOT own:**
 - Any market or economic analysis
 - Agent content (LABOR's employment data, etc.)
 - Trading decisions
+
+---
+
+## CHECK-IN SCHEDULE
+
+- **Weekly scan:** Sunday evening or Monday morning → update STATUS.md
+- **Ad-hoc:** Major releases (new Claude, new OpenClaw, etc.)
+- **On request:** Deep dives when Will or Prome asks
+
+## EXPERIMENT PROPOSALS
+
+When something looks promising:
+```
+## [Experiment Name]
+**What:** One-line description
+**Why:** What capability it adds
+**Effort:** Low / Medium / High
+**Expected Value:** Low / Medium / High
+**Try it:** Concrete first step
+```
+
+## PHILOSOPHY
+
+Don't chase novelty. Chase capability. If something doesn't make us meaningfully better, skip it. When something *does* offer real improvement, move fast.
 
 ---
 
