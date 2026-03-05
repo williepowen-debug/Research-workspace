@@ -1,7 +1,7 @@
 # PROME STATUS.md
 **Updated:** 2026-03-05 05:30 UTC
 
-**Last context:** HENRY domain 100% clean (all audit items resolved, two passes). Gold standard for agent cleanup. NFP spawn ready.
+**Last context:** Claims 222K (🟢, noisy). HENRY 100% clean. Agent check-ins processed. NFP tomorrow 8:30 AM ET — spawn HENRY immediately.
 
 ## 🔴 CRITICAL — HORMUZ CLOSED + NFP RESOLUTION EVENT TOMORROW
 
