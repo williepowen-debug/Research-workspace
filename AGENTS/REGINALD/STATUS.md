@@ -41,25 +41,29 @@ Eight independent channels terminate at regional banks.
 | OWL Short Interest | **All-time high** short interest (Bloomberg/Reuters Mar 5) | 🔴 NEW |
 | CMBS DQ Volume | **$42.76B** (-5.18% MoM Feb) — biggest drop since 2022 | 🟡 COUNTER-SIGNAL |
 | Bank CRE DQ vs CMBS | 4.18% vs 12.34% = **8.16pp masking gap** | 🔴 |
-| FHLB Advances | ~$480B | 🟢 (stress = >$700B) |
-| SOFR-IORB | -1bp | 🟢 |
+
+*Green: FHLB $480B 🟢 (stress >$700B), SOFR-IORB -1bp 🟢*
 
 ---
 
-## CONVERGENCE MATRIX — Target Rankings
+## CONVERGENCE MATRIX — Targets & Positions
 
-| Rank | Bank | Primary Risk | Position |
-|------|------|-------------|----------|
-| 1 | **EGBN** | DC 100%, CRE 547%, crisis state | $25P Jun |
-| 2 | **WAL** | Hidden CRE 24.2% + SSFA $17.2B + 474% CRE/Tier1 + litigation | $82.5P + $85P Jun ✅ |
-| 3 | **OZK** | Hidden CRE 37.6% (WORST) + life science 35% vacancy | $42.5P Aug ✅ |
-| 4 | **VLY** | NYC/NJ MF + FL 27% ($7.4B) + migration exposure | Expired |
-| 5 | **CFG** | Fund finance $10-11B + Consumer 18.7% | Monitoring |
-| 6 | **ZION** | $5.78B muni hidden + NDFI | $57.5P Jul ✅ |
-| Clean | **SSB** | FL MF concentration (migration -93%) | $90P Jun |
-| Clean | **FLG** | NYC MF + rent-reg | $13P Jul |
+| Rank | Bank | Primary Risk | Position | Expiry |
+|------|------|-------------|----------|--------|
+| 1 | **EGBN** | DC 100%, CRE 547%, crisis state | $25P | Jun |
+| 2 | **WAL** | Hidden CRE 24.2% + SSFA $17.2B + 474% CRE/Tier1 + litigation | $82.5P + $85P | Jun |
+| 3 | **OZK** | Hidden CRE 37.6% (WORST) + life science 35% vacancy | $42.5P | Aug |
+| 4 | **VLY** | NYC/NJ MF + FL 27% ($7.4B) + migration exposure | Expired | — |
+| 5 | **CFG** | Fund finance $10-11B + Consumer 18.7% | Monitoring | — |
+| 6 | **ZION** | $5.78B muni hidden + NDFI | $57.5P | Jul |
+| 7 | **SSB** | FL MF concentration (migration -93%) | $90P | Jun |
+| 8 | **FLG** | NYC MF + rent-reg | $13P | Jul |
+| — | **KRE** | Broad regional stress | Multi-strike | Jun/Sep/Dec |
+| — | **IWM** | Small cap stress | $250P | Jun |
+| — | **HYG** | Credit canary; HY OAS approaching 320 | $75P | Jun |
+| — | **APO** | MFS + MFIC + Atlas SP + Athene triple stress | TBD | TBD |
 
-**Convergence Scores** (8-channel matrix, 🔴=3 🟠=2 🟡=1): EGBN 12, WAL 12, VLY 9, CFG 9, ZION 9. Detail → `BANK_EXPOSURE_MATRIX.md` (615 lines).
+**Convergence Scores** (🔴=3 🟠=2 🟡=1): EGBN 12, WAL 12, VLY 9, CFG 9, ZION 9. Detail → `BANK_EXPOSURE_MATRIX.md`.
 
 ---
 
@@ -86,8 +90,7 @@ Eight independent channels terminate at regional banks.
 | BROCK | PCDR 5.8%, BCRED near-gate ($3.7B), TCPC fraud, UBS 15% default warning. *See BROCK STATUS.* | 🔴 CRITICAL |
 | CORAL | Migration -93% Census confirmed. FL #2 foreclosure. BayFirst -17% staff. Condo SIRS mandates | 🔴 RED |
 | BELT | MS +109bps QoQ, LA +89bps, MD +87bps mortgage DQ | 🔴 |
-| RENO | Nevada geographic focus — gaming/tourism, housing, WAL NV exposure | 🟡 Dormant |
-| TEX | TX/FL geographic — border banks, HOA, housing velocity | 🟡 Dormant |
+| RENO/TEX | Dormant — NV gaming/tourism, TX border banks | 🟡 |
 
 ---
 
@@ -97,26 +100,9 @@ Eight independent channels terminate at regional banks.
 |--------|--------------|-------|
 | KRE | ~$67-68 (flat Mar 5) | -8.9% from $74.08 Feb peak; held after -5% Mar 2 plunge |
 | WAL | **$79.54 open Mar 4** | Below 50-day ($89.05) AND 200-day ($85.36); South Dakota lowered stake; $82.5P DEEP ITM |
-| OZK | ~$45.5 est | declining | -4.4% Mar 3; hidden CRE 37.6%; Apr 16 Q1 earnings |
+| OZK | ~$45.5 (declining) | -4.4% Mar 3; hidden CRE 37.6%; Apr 16 Q1 earnings |
 | ZION | ~$57.28 (Mar 2) | at/below $57.5P | MS OW upgrade = fade |
 | S&P | 6,817 (Mar 3) | **6,781** | Two consecutive down days post-recovery |
-
----
-
-## POSITIONS
-
-| Position | Expiry | Status |
-|----------|--------|--------|
-| APO puts | TBD | BROCK very high conviction — MFS, MFIC, Atlas SP, Athene |
-| KRE multi-strike | Jun/Sep/Dec | Broad stress — tracking |
-| WAL $82.5P + $85P | Jun | Deep ITM; litigation accelerating timing |
-| OZK $42.5P | Aug | Approaching; Apr 16 catalyst |
-| ZION $57.5P | Jul | At the money |
-| FLG $13P | Jul | Near strike |
-| EGBN $25P | Jun | DC pure play; already in crisis |
-| SSB $90P | Jun | FL MF + migration thesis |
-| IWM $250P | Jun | Small cap stress |
-| HYG $75P | Jun | Credit canary; HY OAS approaching 320 threshold |
 
 ---
 
@@ -151,14 +137,7 @@ Eight independent channels terminate at regional banks.
 
 ## FL + HORMUZ
 
-Hormuz: Iran IRGC struck American tanker Mar 5 (Tasnim). WTI spiked to $79.18 intraday. Escalation re-activated — not resolved. FL migration -93% (2022→2025). Compound squeeze (HOA + insurance + migration) intact + energy shock back in play.
-
-*Full FL migration data + cascade table → `domain/FL_MIGRATION_REFERENCE.md`*
-
----
-
-*Athene: ARI $9B CRE transfer closed. Detail → `AGENTS/BROCK/STATUS.md`*
-*FL Migration: -93% (310K→22K). Detail → `domain/FL_MIGRATION_REFERENCE.md`*
+Hormuz re-escalated Mar 5 (IRGC struck tanker). FL migration -93%. Compound squeeze intact. *Detail → `domain/FL_MIGRATION_REFERENCE.md`*
 
 ---
 
