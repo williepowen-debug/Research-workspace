@@ -154,10 +154,16 @@ Metropolitan Capital failed with 61% true CRE (labeled 10.7%). Three masking lev
 | `domain/sources/` | Primary source docs (Call Reports, FDIC, WAL research, Hidden CRE screens) |
 | `research/` | Research outputs (FL convergence, fraud contagion, FHLB haircuts, LP liquidity) |
 | `workbook/VX.tsv` | Indicator vectors (59 rows) |
-| `workbook/ML.tsv` | Knowledge base (113 rows) |
+| `workbook/KB.tsv` | Knowledge base (116+ entries, ID format ML-REG-xxx) |
 | `workbook/FLOW.tsv` | Transmission mechanics (22 rows) |
 | `workbook/THESIS_VALIDATION.md` | Thesis confirmation/invalidation criteria + dependency maps |
 | `workbook/OTTO_INTEL.md` | Cross-agent intel from OTTO (307 lines) |
+| `workbook/VX_HISTORY.tsv` | Archived slow-moving vectors (quarterly refresh) |
+| `RESEARCH_STATUS.md` | Research package tracker (17+ packages). Stale — refresh when spawning research. |
+| `SUB_AGENTS.md` | Sub-agent coordination (CREED, CORAL, TEX, RENO, BELT). Note: BROCK is a top-level agent, not a sub-agent. |
+| `domain/FL_MIGRATION_REFERENCE.md` | FL migration -93% data + Hormuz cascade table (static reference) |
+| `earnings_briefs/` | Earnings analysis files (VLY Q1 etc.) |
+| `sources/` | External source docs (Trepp CMBS, Metropolitan Capital, Wright) |
 
 ### Sub-Agent Files (read on demand, not at boot)
 | Path | Agent | Purpose |
