@@ -68,7 +68,7 @@ Market is derivatives-driven, dealer hedging dominates short-term dynamics.
 
 ---
 
-## KEY LEVELS ⚠️ UPDATED Mar 3 Deep Dive — See domain/research/GEX_CTA_DEEP_DIVE_MAR3.md
+## KEY LEVELS ⚠️ UPDATED Mar 3 Deep Dive — See research/GEX_CTA_DEEP_DIVE_MAR3.md
 
 | Level | SPX Price | Significance | Mar 3 Status |
 |-------|-----------|--------------|-------------|
