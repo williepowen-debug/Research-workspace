@@ -1,6 +1,8 @@
 # HENRY STATUS
 **Last Updated:** 2026-03-05 21:16 UTC | **Status:** 🔴 RED — PRE-NFP SELL-OFF. SPX -1.22% TO 6,785. DOW -1,014PTS (-2.1%). BRENT $84.75 (+4%). 8/11 SECTORS RED. CLAIMS 213K (STEADY — FROZEN MARKET). GAMMA STRUCTURE DETERIORATING BELOW 6,800. NFP TOMORROW 8:30 AM ET — HEN-01 RESOLVES IN ~12 HOURS. VIX LIKELY 23-25 RANGE AT CLOSE (FROM 21.15 WED).
 
+**Known Data Issues:** SPX Mar 3 close ~6,817 (not 6,781 — that was intraday). Dow -1,014pts at close (not -1,200 which was intraday). HY OAS 308bps FRED confirmed (LIQUID est 335-355 was 30bps too high). Brent ~$84.75 (not $118). ISM Mfg released Mar 2 (1st BD), not Mar 3.
+
 ---
 
 ## ACTIVE POSITIONS
