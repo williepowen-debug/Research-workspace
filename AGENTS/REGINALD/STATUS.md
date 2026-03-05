@@ -201,6 +201,13 @@ Census Bureau confirmed (Axios Tampa Bay, Feb 12, 2026):
 
 ---
 
+## EXIT RULES (Falsification)
+
+- **Exit 50%:** Claims <240K sustained + CBRE >-5%
+- **Exit 100%:** BTFP 2.0 announced OR HY OAS <260bps
+
+---
+
 ## BOTTOM LINE
 
 **Mar 4 EOD UPDATE:** Market bounced today (tech-led, S&P +modestly), VIX spiked 27+ intraday. KRE +0.21% marginal recovery — bounce, not reversal. Bloomberg CONFIRMED Barclays £500M MFS exposure at 12:59 PM UTC — primary source now on record. WAL at $80.32 (down from $90.06) = $82.5P deep ITM. **BRENT CORRECTION: $81.40, NOT $118.** Thesis intact but stagflation severity revised. Apollo/ARI $9B CRE → Athene transfer = Athene mapping SOLVED. eSlR relaxation April 1 = G-SIBs getting capital relief right as stress builds = regulatory cover for opacity. CC DQ at 15-year high now going mainstream (Motley Fool coverage). Eight channels active. NFP Friday is next inflection.
