@@ -66,7 +66,7 @@ Banks scored by exposure to 8 convergence channels. WAL (10), VLY (9), CFG (9), 
 Citizens Property Insurance emergency assessment can levy 10% on ALL FL policies indefinitely. Banks hit both sides: loan losses + AFS/OCI losses on muni holdings.
 
 ### 4. BDC Transmission Path
-PIK masks 6% shadow default rate (vs 2.1% reported). PSEC 35%, FSK 27%. Dividend cuts → NAV crashes → bank fund finance losses.
+PIK masks 6% shadow default rate (vs 2.1% reported). PSEC 8.6% (verified — prior 35% was hallucinated), FSK 27%. Dividend cuts → NAV crashes → bank fund finance losses.
 
 ---
 
@@ -119,12 +119,14 @@ PIK masks 6% shadow default rate (vs 2.1% reported). PSEC 35%, FSK 27%. Dividend
 
 ```
 research/
+├── README.md              # This file — master research index
+├── prompts/               # Research prompts for external LLM execution
 ├── outputs/
 │   ├── RP-REG-3.x/       # Geographic/Municipal
 │   ├── RP-REG-4.x/       # Systemic Channels
-│   └── RP-FL-x.x/        # Florida (CORAL)
-├── RQ-REG-xxx.md         # Ad hoc research questions
-└── FL_CONVERGENCE.md     # Florida convergence analysis
+│   ├── RP-FL-x.x/        # Florida (CORAL)
+│   └── RQ-ad-hoc/        # Ad hoc research questions (A01-C01)
+└── FL_CONVERGENCE.md     # Florida convergence synthesis
 ```
 
 ---
