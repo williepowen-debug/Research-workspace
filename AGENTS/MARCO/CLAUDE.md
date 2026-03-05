@@ -91,6 +91,26 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 
 ---
 
+## OUTBOX PROTOCOL
+
+When a cross-agent signal threshold is met or you have a finding that needs delivery:
+
+1. Write to `OUTBOX.md` under `## PENDING`
+2. Format:
+   ```
+   ## YYYY-MM-DD — To: [recipient]
+   **Signal:** [one-line headline — what fired]
+   **Detail:** [context, what changed, why it matters, which predictions/vectors affected]
+   **Source:** [data release / inbox signal / own analysis]
+   **Priority:** 🔴/🟠/🟡
+   ```
+3. Do NOT deliver signals yourself — HERMES sweeps outboxes and delivers
+4. After HERMES confirms delivery, move entry to `## DELIVERED` table
+5. **Write an outbox signal when:** a threshold fires, a prediction resolves, or analysis produces an actionable insight for PROME/WILL
+6. **Do NOT write an outbox signal for:** routine STATUS updates, data that only affects your own vectors
+
+---
+
 ## KEY THRESHOLDS
 
 | Metric | Current | Threshold | Implication |
