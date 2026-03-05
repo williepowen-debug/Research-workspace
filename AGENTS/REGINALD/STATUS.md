@@ -1,7 +1,7 @@
 # REGINALD STATUS
 **Last Updated:** 2026-03-04 21:30 UTC | **Status:** 🔴 CRITICAL — MFS/BARCLAYS £500M BLOOMBERG-CONFIRMED + BRENT CORRECTION ($81.40 NOT $118) + MARKET BOUNCE DAY (S&P higher, VIX 27+ intraday) + APOLLO/ARI → ATHENE $9B CRE TRANSFER (ATHENE MAPPING LIVE) + eSlR RELAXATION APRIL 1 + WAL $80.32 (Mar1) = $82.5P DEEP ITM + REGULATORY DEREGULATION ACCELERATING
 
-**Known Data Issues:** OZK earnings April 16 (not Feb). PSEC PIK verified 8.6% (not 35%). FSK position CLOSED (thesis confirmed). KRE price in VX is stale — use watchlist table below.
+**Known Data Issues:** OZK earnings April 16 (not Feb). PSEC PIK verified 8.6% (not 35%). FSK position CLOSED (thesis confirmed). KRE price in VX is stale — use watchlist table below. **Brent is ~$81.40 (NOT $118)** — prior STATUS references to $118-125 were wrong. Stagflation thesis intact but magnitude smaller.
 
 ---
 
@@ -19,7 +19,7 @@ Eight independent channels terminate at regional banks.
 | CMBS Maturity | $57.7B defaults expected, $76.6B hard maturity, no extensions left | 🔴 |
 | Federal Layoffs | DOGE 307K+ cuts, DHS shutdown Day 15+, DC corridor stress | 🟠 |
 | Consumer | Subprime auto 7.1% RED, Fannie MF 6bps from GFC | 🟠 |
-| Stagflation Trap | Hormuz → Brent $118 → Fed hold → no NIM relief → HTM losses widening → CRE wall can't refi | 🔴 NEW |
+| Stagflation Trap | Hormuz → Brent ~$81 → Fed hold → no NIM relief → HTM losses widening → CRE wall can't refi | 🔴 |
 
 ---
 
