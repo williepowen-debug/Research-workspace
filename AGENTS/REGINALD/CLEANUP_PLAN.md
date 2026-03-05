@@ -63,7 +63,7 @@ Pattern from HENRY:
 
 ---
 
-## Key Questions for Will Before Starting
-1. Sub-agents (CORAL, CREED, RENO, TEX) — keep active or archive?
-2. OZK subdirectory — should this stay under REGINALD or move to FORGE?
-3. BANK_EXPOSURE_MATRIX.md — still referenced? Still current?
+## Will's Answers (Mar 5)
+1. Sub-agents (CORAL, CREED, RENO, TEX) — **KEEP ACTIVE**, need further work
+2. OZK subdirectory — **KEEP under REGINALD**, but share relevant aspects with FORGE
+3. BANK_EXPOSURE_MATRIX.md — **YES, current and useful** (hidden CRE discovery, last updated Feb 23, 615 lines — may need condensing)

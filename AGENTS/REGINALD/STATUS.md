@@ -1,7 +1,7 @@
 # REGINALD STATUS
-**Last Updated:** 2026-03-04 21:30 UTC | **Status:** 🔴 CRITICAL — MFS/BARCLAYS £500M BLOOMBERG-CONFIRMED + BRENT CORRECTION ($81.40 NOT $118) + MARKET BOUNCE DAY (S&P higher, VIX 27+ intraday) + APOLLO/ARI → ATHENE $9B CRE TRANSFER (ATHENE MAPPING LIVE) + eSlR RELAXATION APRIL 1 + WAL $80.32 (Mar1) = $82.5P DEEP ITM + REGULATORY DEREGULATION ACCELERATING
+**Last Updated:** 2026-03-05 | **Status:** 🔴 CRITICAL — 8 channels active, NFP tomorrow
 
-**Known Data Issues:** OZK earnings April 16 (not Feb). PSEC PIK verified 8.6% (not 35%). FSK position CLOSED (thesis confirmed). KRE price in VX is stale — use watchlist table below. **Brent is ~$81.40 (NOT $118)** — prior STATUS references to $118-125 were wrong. Stagflation thesis intact but magnitude smaller.
+**Known Data Issues:** OZK earnings April 16. PSEC PIK 8.6% (not 35%). FSK CLOSED. Brent ~$81.40 (not $118).
 
 ---
 
@@ -15,7 +15,7 @@ Eight independent channels terminate at regional banks.
 | Hidden CRE | Memo3 relabeling — WAL 24.2%, OZK 37.6%, EGBN 23.7% | 🔴 |
 | SSFA Arbitrage | $1T capital-light NDFI lending, WAL $17.2B at 20% RW | 🔴 |
 | Private Credit | BCRED $3.7B near-gate, Blue Owl gated, FSK div -31%, Medallia 78¢, DB $143B BDC dump risk, **TCPC fraud** (BlackRock marks fake 14mo) | 🔴 CRITICAL |
-| MFS Fraud Contagion | £2B fraud double-pledging — Barclays £500M confirmed, Jefferies, Apollo/Atlas SP, **Elliott £200M, SMBC, Macquarie NEW** | 🔴 WIDENING |
+| MFS Fraud Contagion | £2B fraud double-pledging — Barclays £600M confirmed, Jefferies, Apollo/Atlas SP, **Elliott £200M, SMBC, Macquarie NEW** | 🔴 WIDENING |
 | CMBS Maturity | $57.7B defaults expected, $76.6B hard maturity, no extensions left | 🔴 |
 | Federal Layoffs | DOGE 307K+ cuts, DHS shutdown Day 15+, DC corridor stress | 🟠 |
 | Consumer | Subprime auto 7.1% RED, Fannie MF 6bps from GFC | 🟠 |
@@ -67,11 +67,9 @@ Eight independent channels terminate at regional banks.
 | Insurer Deposits | $2T concentration; Apollo/Athene linked | 🟠 WATCH |
 | CLO Warehouse | RF ($4.17B), regional warehouses | 🟠 |
 
-**APOLLO TRIPLE STRESS (BROCK):** MFIC div cut + Atlas SP MFS fraud exposure + Medallia 1L 78¢. APO = most exposed alt manager. Puts warranted.
-
-**TCPC SMOKING GUN (Mar 3):** BlackRock TCP Capital securities fraud class action. NAV overstated Nov 2024–Jan 2026 (-12.97% on disclosure). If BlackRock's marks were fake for 14 months, every BDC fund finance desk's collateral was underwritten on fraudulent NAVs. Banks will now re-underwrite entire BDC portfolios → credit tightening = Stage 4 precursor.
-
-**ATHENE MAPPING — PENDING:** BROCK Priority 1 from Feb 27. Which regional banks hold concentrated Athene/Apollo insurer deposits? This is the Stage 4 tripwire and has NOT been researched. Flag for next active session.
+**APO triple stress:** MFIC div cut + Atlas SP/MFS + Medallia 78¢. Puts warranted.
+**TCPC:** BlackRock NAV fraud 14mo → banks re-underwriting BDC portfolios → Stage 4 precursor.
+**Athene:** RESOLVED — ARI $9B CRE transfer closed. *Detail → `AGENTS/BROCK/STATUS.md`*
 
 ---
 
@@ -80,7 +78,7 @@ Eight independent channels terminate at regional banks.
 | Agent | Key Signal | Status |
 |-------|------------|--------|
 | CREED | Office 12.34% ATH, Chicago 70-94% loss severity, $936B maturity wall | 🔴 |
-| BROCK | PCDR 5.8%, Medallia 78¢, FSK div cut, Blue Owl gated, BCRED near-gate ($3.7B), DB $143B dump risk, TCPC securities fraud (-12.97%), OBDC II $1.4B loan sale executing, retail BDC inflows -40% | 🔴 CRITICAL |
+| BROCK | PCDR 5.8%, BCRED near-gate ($3.7B), TCPC fraud, UBS 15% default warning. *See BROCK STATUS.* | 🔴 CRITICAL |
 | CORAL | Migration -93% Census confirmed. FL #2 foreclosure. BayFirst -17% staff. Condo SIRS mandates | 🔴 RED |
 | BELT | MS +109bps QoQ, LA +89bps, MD +87bps mortgage DQ | 🔴 |
 
@@ -142,50 +140,25 @@ Eight independent channels terminate at regional banks.
 
 ---
 
-## HORMUZ → FLORIDA ENERGY SHOCK CASCADE
+## FL + HORMUZ
 
-**Hormuz Closed Mar 2, 2026 (IRGC confirmed).** 70%+ tanker traffic halt. Brent ~$118-125, +10% this week. DB scenario: $200 full closure.
+Hormuz closed Mar 2. Brent ~$81.40 (Trump tanker insurance eased panic). FL migration -93% (2022→2025). Energy shock less acute than initially modeled but compound squeeze (HOA + insurance + migration) intact.
 
-**FL-specific transmission (COMPOUND SQUEEZE):**
-| Layer | Mechanism | Bank Impact |
-|-------|-----------|------------|
-| Energy costs | FL LNG import terminal exposure; utility bills spike | HOA cash flow stress |
-| HOA + SIRS mandates | Already $5K-$15K/door; energy adds to assessments | Forced selling → collateral impairment |
-| Insurance (+50% YoY) | No relief; energy shock raises rebuild costs | Underwriting deterioration |
-| Migration -93% | No buyer pool; demand destruction | SSB, VLY: no exit |
-
-**⚠️ BRENT PRICE CORRECTION (Mar 4):** STATUS.md previously stated Brent $118-125. **WRONG.** Actual: Brent $81.40 (Mar 3 close). +10-13% from pre-crisis, NOT +40%. Analyst consensus: $76-90 Q2. Trump "insure tankers" statement eased prices. DB $200 scenario remains tail risk. Stagflation thesis intact but Brent impact is SMALLER than stated. Correct all prior Brent references.
-
-**Net effect on positions:**
-- **SSB $90P Jun**: FL MF thesis intact but energy shock less acute than modeled
-- **VLY**: 27% FL ($7.4B) — energy compound squeeze still directionally valid
-- 10Y trajectory: watch — if Brent stays sub-$90, Fed may have more flexibility than thesis assumes
+*Full FL migration data + cascade table → `domain/FL_MIGRATION_REFERENCE.md`*
 
 ---
 
-## ATHENE MAPPING — NOW LIVE
+## ATHENE MAPPING — RESOLVED
 
-**Apollo CRE Finance (ARI) → Athene $9B CRE portfolio transfer** (announced Jan 28, closed ~Mar 2026):
-- ARI selling ENTIRE ~$9B CRE loan portfolio to Athene at 99.7% of commitments
-- Athene = Apollo's insurance arm. Now absorbs $9B of CRE credit risk.
-- If CRE loans default at scale → Athene capital impacted → APO balance sheet stress
-- This was BROCK Priority 1 (Athene mapping). **STATUS: RESOLVED — the exposure is $9B CRE, now concentrated in Athene.**
-- **Implication for APO puts:** APO triple stress confirmed: MFIC + MFS/Atlas SP + Athene $9B CRE absorption = three simultaneous channels
+ARI → Athene $9B CRE transfer (closed ~Mar 2026). APO triple stress confirmed: MFIC div cut + MFS/Atlas SP fraud + Athene $9B CRE. *Detail → `AGENTS/BROCK/STATUS.md`*
 
 ---
 
-## FLORIDA MIGRATION — STRUCTURAL BREAK
+## FLORIDA MIGRATION
 
-Census Bureau confirmed (Axios Tampa Bay, Feb 12, 2026):
-- FL net domestic migration: 310,892 (2022) → 22,517 (2025) = **-93% in 3 years**
-- International migration expected -75% further
-- Every FL CRE loan underwritten 2021-2024 modeled migration-driven demand → models WRONG
+FL net domestic migration -93% (310K→22K, 2022→2025). Every FL CRE loan 2021-2024 modeled wrong. VLY 27% ($7.4B), SSB concentrated, OZK present.
 
-| Bank | FL Exposure | Risk |
-|------|------------|------|
-| VLY | 27% of book (~$7.4B FL MF) | 🔴 DIRECT |
-| SSB | FL MF concentration | 🔴 DIRECT |
-| OZK | FL CRE presence | 🟠 |
+*Full data → `domain/FL_MIGRATION_REFERENCE.md`*
 
 ---
 
@@ -210,7 +183,7 @@ Census Bureau confirmed (Axios Tampa Bay, Feb 12, 2026):
 
 ## BOTTOM LINE
 
-**Mar 4 EOD UPDATE:** Market bounced today (tech-led, S&P +modestly), VIX spiked 27+ intraday. KRE +0.21% marginal recovery — bounce, not reversal. Bloomberg CONFIRMED Barclays £500M MFS exposure at 12:59 PM UTC — primary source now on record. WAL at $80.32 (down from $90.06) = $82.5P deep ITM. **BRENT CORRECTION: $81.40, NOT $118.** Thesis intact but stagflation severity revised. Apollo/ARI $9B CRE → Athene transfer = Athene mapping SOLVED. eSlR relaxation April 1 = G-SIBs getting capital relief right as stress builds = regulatory cover for opacity. CC DQ at 15-year high now going mainstream (Motley Fool coverage). Eight channels active. NFP Friday is next inflection.
+Eight channels active. NFP Friday is next inflection. Private credit going mainstream (UBS 15% default warning, Bloomberg Invest). WAL broke below both MAs, $82.5P deep ITM. Regulatory deregulation accelerating (eSLR Apr 1, LCR relaxation, OCC licensing).
 
-*Session logs archived → domain/session_archive/SESSION_LOG_2026-03-03.md*
-*Hidden CRE methodology → MEMORY.md | OZK thesis → domain/sources/RP-REG-7_OZK_THESIS.md*
+*Mar 4-5 session logs → `workbook/SESSION_LOG_MAR4_MAR5.md`*
+*Hidden CRE methodology → MEMORY.md | OZK thesis → `domain/sources/RP-REG-7_OZK_THESIS.md`*

@@ -1,8 +1,19 @@
 # SAM STATUS
 
-**Signal Status:** 🔴 RED | **Last Updated:** 2026-03-05 13:45 UTC (MORNING SCAN)
+**Signal Status:** 🟠 ELEVATED | **Last Updated:** 2026-03-05 18:30 UTC (AM SCAN UPDATE)
 
 **Summary:** EMERGENCY CONDITIONS PERSIST — NEW NUANCE OVERNIGHT. USDJPY pulled back to **~156.85** in Asian session (from 157.2 prev close) — **genuine safe-haven yen bid** emerging as Iran conflict escalates (US/Israel "striking progressively deeper"). This is the first real safe-haven signal; watch for acceleration. BOJ in **"strategic paralysis"** — March hike dead, April/July uncertain. JGB short-end yields FELL overnight as hike expectations pushed out. Finance Minister Katayama deployed **intervention language** ("watching closely, prepared to take various measures") — ambiguous re direction, but verbal warning live. Nikkei holding ~53.8-54.6k (near prior close, 55k support broken). Three-anchor UST selling thesis intact. Carry unwind probability unchanged: **7d 35%, 30d 80%, 60d 90%**.
+
+---
+
+## AM SCAN UPDATE — MAR 5 (18:30 UTC)
+
+### KEY DEVELOPMENT: BEAR MARKET BOUNCE IN PROGRESS
+KOSPI surged ~10% (best day since 2008), Kosdaq +14.1%, Nikkei +1.9% (~+1,400 pts). **This is NOT a fundamental reversal.** Yuanta strategist Daniel Yoo: "It has nothing to do with fundamentals." Bounce driven by: (1) margin call exhaustion — retail leveraged selling cleared, (2) Bessent statement on stabilizing Persian Gulf oil shipments reducing near-term Hormuz panic. Korea Exchange halted trading on upside circuit breaker during the surge.
+
+**China NPC Work Report (Mar 5):** Li Qiang set 2026 GDP target at **4.5-5%** — lowest in decades, first cut since 2023. Cited "dramatically changing international trade environment" and "deep-rooted structural problems." Fiscal spending target ~30T RMB ($4.3T). This is a deflationary anchor, NOT a stimulus bazooka. China is managing expectations DOWN, not firing rocket fuel.
+
+**Carry Unwind Probability Update:** Bear bounce does NOT change structural thesis. Adjusted to reflect short-term pressure relief: **7d: 20%** (down from 35% — margin calls cleared), **30d: 75%** (down from 80% — Bessent oil statement buys 1-2 weeks), **60d: 90%** (unchanged). Thesis intact; timeline compressed but not broken.
 
 ---
 

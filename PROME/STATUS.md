@@ -19,7 +19,7 @@
 | BROCK | 🔴 | **CONSOLIDATED** to AGENTS/BROCK/. Athene mapping done ($442B, $9B CRE transfer). 36 files in one place. | Mar 5 |
 | LIQUID | 🔴 | HY OAS 308bps CONFIRMED. LIQ-01 still OPEN (320bps threshold). VIX compressed 26→21. IG primary may reopen. | Mar 4 |
 | MARCO | 🔴 | Remittances -1.4% YoY. DHS Day 18. TSA paycheck miss Mar 14. | Mar 4 |
-| OTTO | 🔴 | MFS widening (Elliott £200M, SMBC, Macquarie). TCPC fraud. BCRED near-gate. | Mar 4 |
+| OTTO | 🔴 | **GATE BREACHED.** BCRED $3.8B redemptions (7.9% of assets) — Blackstone buying own shares to cover. Blue Owl ending quarterly liquidity. Median listed BDC at 73% of NAV. PIK loans doubled to 6.4%. APO class action filed (Epstein ties, class period May 2021–Feb 2026). | Mar 5 |
 | ZHAO | 🔴 | USD/KRW breached 1,500. KOSPI -12%. NPC work report Mar 5. | Mar 4 |
 | HAWK | 🔴 | Russian infra damage + Ukrainian energy warfare theses. | Mar 3 |
 | HANS | 🟠 | Ceasefire 12%. iTraxx Senior Financial ~95bps. | Mar 4 |
