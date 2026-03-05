@@ -1,7 +1,7 @@
 # PROME STATUS.md
 **Updated:** 2026-03-05 05:30 UTC
 
-**Last context:** Two full agent domain cleanups tonight (HENRY + REGINALD). Standardized INBOX processing protocol and inbox-as-folder across all 13 agents. HENRY spawned on Opus for Beige Book deep analysis — signals persisted to workbook. All committed. NFP Friday is tomorrow.
+**Last context:** HENRY QA follow-up complete (TRADE.md verified, predictions synced, IWM actual). Infrastructure cleanup ~75%. NFP Friday is tomorrow.
 
 ## 🔴 CRITICAL — HORMUZ CLOSED + NFP RESOLUTION EVENT TOMORROW
 
@@ -11,7 +11,7 @@
 
 | Agent | Status | Key State | Updated |
 |-------|--------|-----------|---------|
-| HENRY | 🔴 | **CLEANED.** STATUS 207 lines. CLAUDE.md overhauled. Beige Book signals persisted (6 VX, 5 FLOW, 10 ML, 2 predictions). HEN-01: NFP <100K at 70%. Ready for NFP spawn. | Mar 5 |
+| HENRY | 🔴 | **CLEANED + QA'd.** Predictions synced, TRADE.md verified, IWM actual. HEN-01: NFP <100K at 70%. Ready for NFP spawn. | Mar 5 |
 | REGINALD | 🔴 | **CLEANED.** BROCK consolidated (3→1 location). TRADE/WATCHLIST killed. PREDICTIONS migrated to .tsv. Inbox as folder. HY OAS threshold unified to >320bps. | Mar 5 |
 | LABOR | 🔴 | Hiring freeze Q2+. WARN 706/85K. Shadow gap resolves Mar-Apr. | Mar 3 |
 | CARL | 🔴 | Subprime auto ABS 7.1% ALL-TIME RECORD. FL UI cliff Mar 24. Gas squeeze Mar 14-21. | Mar 4 |

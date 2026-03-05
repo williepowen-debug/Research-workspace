@@ -51,7 +51,7 @@ Market is derivatives-driven, dealer hedging dominates short-term dynamics.
 - Nasdaq: **+1.29%** | Tech megacaps led
 - Nasdaq 100: **+1.6%** | Bloomberg confirmed
 - VIX: **~24-25 est** (compressed on relief; not confirmed)
-- IWM: est. bounced modestly (unconfirmed — need data)
+- IWM: $260.67 (below all MAs, dead cat bounce from $248)
 
 ### KEY DRIVERS TODAY
 1. **Iran/US Indirect Talks (NYT):** Iran reportedly approached US indirectly to discuss terms for ending conflict → Hormuz fear-premium compressed → market rallied. NOT a ceasefire. NOT a resolution. IRGC simultaneously declared they're "in complete control" of Hormuz. Classic headline relief, not fundamental change.
@@ -71,7 +71,7 @@ Market is derivatives-driven, dealer hedging dominates short-term dynamics.
 | SPX | **6,869.50** (+0.78%) | [CONF] CNBC Mar 4 EOD | 🟠 Still below gamma flip (6,902); Iran hope relief |
 | Dow | **48,739.41** (+0.49%) | [CONF] CNBC Mar 4 EOD | 🟠 |
 | Nasdaq | **+1.29%** (~22,807 est) | [CONF] CNBC Mar 4 EOD | 🟠 Tech-led relief, not fundamental |
-| IWM | **est. ~$256-258** | [EST] | 🟠 Need confirmation; likely modest bounce |
+| IWM | **$260.67** | Mar 4 | Below all MAs. RSI ~50. Dead cat bounce from $248 low. |
 | VIX | **~24-25 est** | [EST] compressed on peace hope | 🟠 Still above 23 vol-control threshold |
 | 10Y Yield | **4.10%** (RISING on risk-off) | [CONF] Mar 3 | 🔴 Stagflation = Fed boxed in |
 | Brent Crude | **~$84** (+4.71% Mar 3 session) | [CONF] CNBC settle | 🔴🔴 Hormuz premium ON |
@@ -167,14 +167,18 @@ Risk parity deleverages     → T+5 to T+30
 
 ## PREDICTIONS
 
-| # | Prediction | Confidence |
-|---|------------|------------|
-| H1 | SPX breaks 6,494 → CTAs flip → $40-60B selling | 80% |
-| H2 | MOVE >115 while VIX <20 = credit stress incoming | 70% |
-| H4 | Equity cannot bottom until HY OAS peaks | 85% |
-| H5 | PLTR breaks $100 → AI thematic repricing begins | 75% |
-| H7 | XLK breadth <40% precedes sector repricing | 80% |
-| **HEN-01** | **NFP Feb <100K — HELD 70% (ADP +63K confirms; ISM Employment 51.8 does NOT trigger upgrade rule; ICE absenteeism adds downside)** | **70%** ← ADP +63K CONF MAR 4 |
+| # | Prediction | Confidence | Status |
+|---|------------|------------|--------|
+| H1 | SPX breaks 6,494 → CTAs flip → $40-60B selling | 80% | ACTIVE |
+| ~~H2~~ | ~~MOVE >115 while VIX <20 = credit stress~~ | ~~70%~~ | RETIRED — VIX 21-26 broke precondition |
+| H4 | Equity cannot bottom until HY OAS peaks | 85% | ACTIVE — HY OAS 308bps, floor rising |
+| H5 | PLTR breaks $100 → AI thematic repricing begins | 75% | ACTIVE — currently $136 |
+| H7 | XLK breadth <40% precedes sector repricing | 80% | ACTIVE — approaching (<50%) |
+| **HEN-01** | **NFP Feb <100K** | **70%** | ACTIVE — ADP +63K confirms; resolves Mar 6 |
+| HEN-02 | ISM Services New Orders rolls over sharply in March (front-running exhaustion) | 65% | ACTIVE — resolves ~Apr 6 |
+| HEN-03 | March ISM Prices (Mfg+Services) exceeds February — Hormuz oil shock feeds through | 70% | ACTIVE — resolves ~Apr 6 |
+| HEN-04 | FOMC Mar 17-18 holds rates, sounds concerned on both mandates without acting | 70% | ACTIVE — resolves Mar 18 |
+| HEN-05 | April Beige Book (early May) materially worse than March — layoffs, delinquency, rural hospital closures | 85% | ACTIVE — resolves ~May 10 |
 
 ---
 
