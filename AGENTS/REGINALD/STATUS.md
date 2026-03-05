@@ -29,7 +29,7 @@ Eight independent channels terminate at regional banks.
 |-----------|-------|--------|
 | S&P 500 | **Bounced Mar 4** (tech-led) | 🟡 Partial recovery; VIX still elevated |
 | VIX | **27+ intraday Mar 4** | 🔴 Spiked above 27 before easing |
-| HY OAS | ~335-355bps (Mar 4) | 🔴 **TRIGGER FIRED** (>320bps = credit transmission confirmed) |
+| HY OAS | **297bps** [CONF FRED Mar 4] (Mar 5 publishes tomorrow) | 🟠 23bps from 320 threshold. Floor rising (265→284→312→297). NOT fired. |
 | KRE | $67.48 (Mar 4) | 🟠 -8.9% from $74.08 Feb peak |
 | Office CMBS DQ | 12.34% (+103bps MoM) | 🔴 ATH, exceeds GFC |
 | CMBS Special Servicing | 17.11% | 🔴 |
@@ -114,7 +114,7 @@ Eight independent channels terminate at regional banks.
 | EGBN $25P | Jun | DC pure play; already in crisis |
 | SSB $90P | Jun | FL MF + migration thesis |
 | IWM $250P | Jun | Small cap stress |
-| HYG $75P | Jun | Credit canary; HY OAS trigger FIRED |
+| HYG $75P | Jun | Credit canary; HY OAS approaching 320 threshold |
 
 ---
 
@@ -123,7 +123,7 @@ Eight independent channels terminate at regional banks.
 | Condition | Current | Threshold | Fired? |
 |-----------|---------|-----------|--------|
 | Claims >300K | — | LABOR → all ORANGE→RED | Monitor |
-| HY OAS >320bps | ~335-355bps (Mar 4) | HENRY → credit transmission confirmed | **FIRED** |
+| HY OAS >320bps | 297bps [CONF FRED Mar 4] | HENRY → credit transmission confirmed | Not yet (23bps away) |
 | CLO AAA >165bps | ~125bps | LIQUID → BDC transmission | Not yet |
 | iTraxx Senior Fin >100bps | ~95bps | EU→US credit contagion (HANS) | 🟠 Approaching |
 | SOFR-IORB >+15bps | -1bp | LIQUID → FHLB spike | Not yet |
