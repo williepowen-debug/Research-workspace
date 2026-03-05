@@ -29,8 +29,8 @@ Eight independent channels terminate at regional banks.
 |-----------|-------|--------|
 | S&P 500 | **Bounced Mar 4** (tech-led) | 🟡 Partial recovery; VIX still elevated |
 | VIX | **27+ intraday Mar 4** | 🔴 Spiked above 27 before easing |
-| HY OAS | ~335-355bps | 🔴 **CROSS-AGENT TRIGGER FIRED** (>300bps threshold) |
-| KRE | ~$65.04 (+0.21% Mar 4) | 🔴 Marginal bounce; still -12% from Feb peak |
+| HY OAS | 308bps (CONF Mar 3) | 🟠 Approaching threshold (>320bps = credit transmission confirmed) |
+| KRE | $67.48 (Mar 4) | 🟠 -8.9% from $74.08 Feb peak |
 | Office CMBS DQ | 12.34% (+103bps MoM) | 🔴 ATH, exceeds GFC |
 | CMBS Special Servicing | 17.11% | 🔴 |
 | CRE Modification Wave | **$27.7B** (+66% YoY) | 🔴 UPDATED (was $7.7B stale) |
@@ -90,7 +90,7 @@ Eight independent channels terminate at regional banks.
 
 | Ticker | Mar 3 Close | Mar 4 Est | Notes |
 |--------|-------------|-----------|-------|
-| KRE | ~$65.30 intraday | **~$64.90** | -12.4% from $74.08 Feb peak; next support $62-63 |
+| KRE | $67.48 (Mar 4) | — | -8.9% from $74.08 Feb peak; next support $62-63 |
 | WAL | **$80.32** (Mar 1 confirmed) | 🔴 DOWN from $90.06 prior close; $82.5P DEEP ITM |
 | OZK | ~$45.5 est | declining | -4.4% Mar 3; hidden CRE 37.6%; Apr 16 Q1 earnings |
 | ZION | ~$57.28 (Mar 2) | at/below $57.5P | MS OW upgrade = fade |
@@ -120,7 +120,7 @@ Eight independent channels terminate at regional banks.
 | Condition | Current | Threshold | Fired? |
 |-----------|---------|-----------|--------|
 | Claims >300K | — | LABOR → all ORANGE→RED | Monitor |
-| HY OAS >300bps | **335-355bps** | HENRY → credit selloff | ✅ **FIRED** |
+| HY OAS >320bps | 308bps (CONF Mar 3) | HENRY → credit transmission confirmed | Not yet (approaching) |
 | CLO AAA >165bps | ~125bps | LIQUID → BDC transmission | Not yet |
 | SOFR-IORB >+15bps | -1bp | LIQUID → FHLB spike | Not yet |
 | DHS shutdown >4 weeks | Day 15+ | LABOR → DC UCFE spike → EGBN | 🟠 Approaching |

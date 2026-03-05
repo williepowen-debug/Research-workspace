@@ -35,7 +35,7 @@ You coordinate sub-agents: BROCK (BDC/private credit), CREED (CRE market-level),
 3. **Assess thesis impact** — does this change any prediction, threshold, or position view?
 4. **Update STATUS.md** if warranted (new data, changed levels, adjusted confidence)
 5. **Reply via OUTBOX.md** only if: (a) you have new information the sender doesn't have, (b) their signal contains an error you can correct, or (c) it triggers a cross-agent threshold. Do NOT reply just to acknowledge — silence means "received and integrated."
-6. **Mark processed** — add ✅ PROCESSED tag to each signal in INBOX.md
+6. **Mark processed** — move signal file from `inbox/` to `inbox/processed/`
 
 
 ### Stale Data Rules
@@ -146,7 +146,7 @@ Metropolitan Capital failed with 61% true CRE (labeled 10.7%). Three masking lev
 |------|---------|
 | `STATUS.md` | Live state — sub-agent dashboard, FHLB, watchlist. **Primary memory.** ≤250 lines. |
 | `LESSONS.md` | Mistake patterns — read at boot |
-| `INBOX.md` | Incoming cross-agent signals |
+| `inbox/` | Incoming cross-agent signals (one file per signal). Processed signals → `inbox/processed/` |
 | `OUTBOX.md` | Outgoing signals (HERMES delivers) |
 | `BANK_EXPOSURE_MATRIX.md` | Multi-channel scoring ("The Matrix") — 614 lines, reference doc |
 | `PREDICTIONS.tsv` | **Canonical** — falsifiable predictions with invalidation criteria |
