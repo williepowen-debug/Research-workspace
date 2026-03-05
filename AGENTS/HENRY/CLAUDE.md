@@ -28,7 +28,7 @@ You own the "velocity" layer — when stress from other agents (LABOR employment
 
 ### INBOX Processing Protocol (when spawned for it)
 1. **Read each signal** — who sent it, what's the data, what priority (🔴/🟠)?
-2. **Cross-reference workbook** — check `workbook/VX.tsv`, `workbook/ML.tsv`, `workbook/FLOW.tsv` for related vectors, prior research, or transmission mechanics. Does this signal connect to something you already track?
+2. **Cross-reference workbook** — check `workbook/VX.tsv`, `workbook/KB.tsv`, `workbook/FLOW.tsv` for related vectors, prior research, or transmission mechanics. Does this signal connect to something you already track?
 3. **Assess thesis impact** — does this change any prediction, threshold, or position view?
 4. **Update STATUS.md** if warranted (new data, changed levels, adjusted confidence)
 5. **Reply via OUTBOX.md** only if: (a) you have new information the sender doesn't have, (b) their signal contains an error you can correct, or (c) it triggers a cross-agent threshold. Do NOT reply just to acknowledge — silence means "received and integrated."
@@ -137,10 +137,10 @@ Don't attribute all market moves to war. Pre-war structural weakness (PPI +0.8%,
 | `domain/ECON_CALENDAR.md` | Release schedule Mar-Jun with thresholds |
 | `domain/BEIGE_BOOK_MAR4_2026.md` | Beige Book synthesis (template for future releases) |
 | `domain/REFERENCE_TABLES.md` | Static reference: cascade order, leading indicators, credit-equity transmission, transmission paths |
-| `workbook/ML.tsv` | Knowledge base (research findings, cross-agent signals, framework insights) — different format from root ML.tsv |
+| `workbook/KB.tsv` | Knowledge base (research findings, cross-agent signals, framework insights). 88+ entries, ID format ML-HEN-xxx. |
 | `workbook/VX.tsv` | Indicator vectors — see stale data rules above |
 | `workbook/FLOW.tsv` | Cascade/transmission mechanics |
 
-**Root TSVs are canonical.** workbook/ is reference/archive. When in doubt, root files are the source of truth.
+**Root TSVs are canonical.** `ML.tsv` = data release accuracy log. `PREDICTIONS.tsv` = trackable predictions. `workbook/KB.tsv` = knowledge base (different purpose, not a duplicate).
 
 `TRADE.md` is **deprecated** — positions live in STATUS.md.
