@@ -11,19 +11,15 @@ Just finished HENRY domain cleanup (all 4 chunks). Now applying same treatment t
 
 ### REGINALD Cleanup Plan
 
-**Chunk 1 — CLAUDE.md upgrade (DO THIS NEXT)**
-- Expand spawn protocol: add LESSONS.md step (step 2)
-- Add stale data rules (same as HENRY's)
-- Rewrite FILES table: currently lists 5 files, actually has ~15+. Add all with purposes.
-- Update KEY THRESHOLDS to current values (KRE ~$67.90, FHLB ~$480B, etc.)
-- Clarify sub-agent file locations
-- INBOX protocol already pushed ✅
+**Chunk 1 — CLAUDE.md upgrade ✅ DONE**
 
-**Chunk 2 — Root file cleanup (needs Will's decisions)**
-- TRADE.md (167 lines) — kill/tombstone? (same pattern as HENRY)
-- POSITION_ADJUSTMENT_FEB16.md (195 lines) — archive
-- WATCHLIST.md (151 lines) vs STATUS.md watchlist — merge or kill one?
-- PREDICTIONS.md (178 lines) — migrate to .tsv format?
+**Chunk 2a — TRADE.md + WATCHLIST.md ✅ DONE**
+- TRADE.md tombstoned (18+ days stale)
+- WATCHLIST.md: falsification rules merged into STATUS.md EXIT RULES, rest tombstoned
+
+**Chunk 2b — Remaining root files (DO THIS NEXT — needs Will's decisions)**
+- POSITION_ADJUSTMENT_FEB16.md (195 lines) — archive?
+- PREDICTIONS.md (178 lines) — keep as .md or migrate to .tsv?
 - RESEARCH_STATUS.md (132 lines) — still active?
 - APOLLO_INTERCONNECTION.md (54 lines) — move to domain/sources?
 
