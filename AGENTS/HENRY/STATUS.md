@@ -8,7 +8,7 @@
 | Position | Expiry | Status | Exit Triggers |
 |----------|--------|--------|---------------|
 | IWM $250P | Jun 2026 | ✅ +19% (Mar 3 EOD) → increasing (IWM $259.56 -1.91% Mar 4 pre-ISM, ~$9.56 OTM + delta expanding) | Q2 ISM sub-49 confirmation; IWM close <$255 = accelerant |
-| HYG $75P | Jun 2026 | ⚠️ Improving (HY OAS est 335-355bps → puts gaining) | HY OAS confirmed >350bps = active transmission; credit event |
+| HYG $75P | Jun 2026 | ⚠️ Improving (HY OAS 308bps CONF, floor rising) | HY OAS confirmed >350bps = active transmission; credit event |
 
 ---
 
