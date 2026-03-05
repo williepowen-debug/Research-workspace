@@ -120,6 +120,7 @@ Eight independent channels terminate at regional banks.
 | Claims >300K | — | LABOR → all ORANGE→RED | Monitor |
 | HY OAS >320bps | 308bps (CONF Mar 3) | HENRY → credit transmission confirmed | Not yet (approaching) |
 | CLO AAA >165bps | ~125bps | LIQUID → BDC transmission | Not yet |
+| iTraxx Senior Fin >100bps | ~95bps | EU→US credit contagion (HANS) | 🟠 Approaching |
 | SOFR-IORB >+15bps | -1bp | LIQUID → FHLB spike | Not yet |
 | DHS shutdown >4 weeks | Day 15+ | LABOR → DC UCFE spike → EGBN | 🟠 Approaching |
 
@@ -129,6 +130,7 @@ Eight independent channels terminate at regional banks.
 
 | Date | Event |
 |------|-------|
+| **Mar 24** | FL UI exhaustion cliff — Dec 2025 WARN cohort loses benefits; peak Apr 26. Step-function DQ risk (SSB/VLY). May-Jun visible. |
 | **Mar (NOW)** | Cantor Fitzgerald appraisals — WAL $98M receiver; <50¢ = Q1 writedown |
 | **Mar 5** | Fed Stress Capital Buffer comment deadline |
 | **Apr 1** | eSLR relaxation effective — G-SIB capital rules ease |
