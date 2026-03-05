@@ -1,7 +1,7 @@
 # PROME STATUS.md
-**Updated:** 2026-03-05 05:30 UTC
+**Updated:** 2026-03-05 22:30 UTC
 
-**Last context:** REGINALD ~90% clean. Verify audit unread — start next session there. NFP tomorrow 8:30 AM ET — spawn HENRY immediately.
+**Last context:** Architecture sprint done — OUTBOX protocol + CLAUDE.md naming standardized across all 12 agents. REGINALD verify audit addressed, STATUS 168 lines. Return to HENRY/REGINALD alignment next session. NFP tomorrow 8:30 AM ET.
 
 ## 🔴 CRITICAL — HORMUZ CLOSED + NFP RESOLUTION EVENT TOMORROW
 
@@ -12,7 +12,7 @@
 | Agent | Status | Key State | Updated |
 |-------|--------|-----------|---------|
 | HENRY | 🟢 | **100% CLEAN.** All audit items resolved (two passes). KB.tsv renamed, FILES indexed, no orphans, no stale refs. HEN-01: NFP <100K at 70%. | Mar 5 |
-| REGINALD | 🟠 | **CLEANING (90%).** STATUS 189. KB.tsv renamed. FILES complete. OUTBOX+LESSONS done. Research index adopted. Verify audit unread. VX 58% stale. | Mar 5 |
+| REGINALD | 🟢 | **CLEAN.** STATUS 168 lines. Verify audit addressed. All fixes committed. VX_HISTORY empty (populate next). | Mar 5 |
 | LABOR | 🔴 | Hiring freeze Q2+. WARN 706/85K. Shadow gap resolves Mar-Apr. | Mar 3 |
 | CARL | 🔴 | Subprime auto ABS 7.1% ALL-TIME RECORD. FL UI cliff Mar 24. Gas squeeze Mar 14-21. | Mar 4 |
 | SAM | 🔴 | Carry unwind 65%/80%. USD/KRW breached 1,500. BoK emergency meeting, defended for now. Nikkei -6.5% in 2 sessions. | Mar 4 |
