@@ -1,7 +1,7 @@
 # BROCK STATUS — Private Credit / Alt Assets / PE / ILS
 
-**Last context:** Private credit stress going mainstream (CNN, Eisman "slow brewing scandal") as NFP prints -92K, WAL -13%, KRE -3.6%, and BCRED holds the gate with employee capital injections — thesis validation accelerating.
-**Last updated:** 2026-03-06
+**Last context:** BlackRock HLEND ($26B fund) formally gated — paid $620M of $1.2B in redemption requests (~52%). First hard gate at a major retail private credit fund. BLK -6.7%. Gate thesis has triggered. Convergence upgraded.
+**Last updated:** 2026-03-06 EOD
 
 ---
 
@@ -15,6 +15,8 @@
 | BDC Median Listed Price | **73% of NAV** | 🔴 | [CONF] Market data Mar 4 |
 | PIK Loans (Private Credit) | **6.4%** — doubled YoY | 🔴 ↑ | [CONF] Industry data Mar 4 |
 | APO Stock | **~$107** | 🔴 ↓ | [CONF] Market Mar 5 |
+| BlackRock HLEND Gate | $620M paid / $1.2B requested (~52%) | 🔴 GATE | [CONF] Reuters/Bloomberg Mar 6 |
+| BLK Stock | -6.7% today (gate + NFP) | 🔴 ↓↓ | [CONF] Market Mar 6 |
 | Blue Owl (OWL) OCSL II | Ending quarterly liquidity | 🔴 ↓↓ | [CONF] Bloomberg Mar 3 |
 | Athene Assets | **$442B**, 48% illiquid, RBC 412% | 🔴 | [CONF] 10-K Feb 2026 |
 | P&I War Risk Insurance | Cancelled effective Mar 2 | 🔴 | [CONF] Windward.ai Mar 2 |
@@ -31,17 +33,18 @@
 | Vector | Score | Current State | Threshold → Next Level | Updated |
 |--------|-------|---------------|----------------------|---------|
 | BCRED Redemptions | 🔴 (4) | $3.8B (7.9%), record, employees injecting capital to avoid gate | >10% Q2 → formal gate | Mar 3 |
+| BlackRock HLEND Gate | 🔴 (5) | **GATED Mar 6** — $620M paid / $1.2B requested; first hard gate at major retail fund; BLK -6.7% | Contagion to BCRED → gate cascade | Mar 6 |
 | Blue Owl Liquidity | 🔴 (4) | OCSL II ending quarterly liquidity, asset-sale payouts only | Asset fire sale pricing disclosed | Mar 3 |
 | PIK Rates | 🔴 (4) | 6.4%, doubled YoY; 40% of borrowers neg FCF | >8% at any major fund → distress | Mar 4 |
 | BDC NAV Discounts | 🔴 (4) | Median 73% of NAV; market pricing 27% impairment | Median <70% → full capitulation | Mar 4 |
 | Default Rates | 🟠 (3) | Fitch 5.8% reported; UBS 15% worst-case; shadow ~7% | Q1 earnings confirming >8% | Mar 4 |
 | Athene/Insurance | 🔴 (4) | $442B, 48% illiquid, $9B CRE absorbed, RBC 412% | RBC filing revision or SEC inquiry | Feb 2026 |
 | Software Marks | 🟠 (3) | 40% of sponsor-backed loans; AI disruption eroding SaaS moats | Q1 markdowns in PE reports | Mar 4 |
-| Bank Warehouse Lines | 🟠 (3) | WAL -13%, KRE -3.6% today; transmission live | BDC revolver draws spike | Mar 6 |
+| Bank Warehouse Lines | 🔴 (4) | WAL sued Jefferies fraud ($126.4M First Brands); WAL -12%, KRE -3.6%; transmission via litigation now | BDC revolver draws spike; more bank suits | Mar 6 |
 | Regulatory Action | 🟡 (2) | SEC 2026 exam expected; no enforcement yet | Any enforcement action filed | Mar 5 |
 | Mainstream Narrative | 🔴 (4) | CNN "echoes of 2008", Eisman "slow brewing scandal", Reuters Breakingviews, CNBC | Hedge fund consensus = window closing | Mar 6 |
 
-**Convergence: 35/50 🔴 — High Stress, Pre-Event Zone**
+**Convergence: 42/50 🔴 — GATE EVENT TRIGGERED. BlackRock HLEND gated Mar 6. No longer pre-event — we are in the event.**
 
 ---
 
@@ -61,6 +64,14 @@
 - Rowan warned "shakeout coming" Mar 3 — insider admission, positioned for it
 - APO break below $100 = psychological support gone
 
+### 3a. BlackRock HLEND — FORMAL GATE (NEW Mar 6 EOD — THESIS TRIGGER)
+- **BlackRock's $26B HPS Corporate Lending Fund (HLEND) formally limited withdrawals today** [CONF Reuters/Bloomberg Mar 6]
+- Investors sought $1.2B → fund paid **$620M (~52%)** — hard gate, not soft management
+- BLK shares fell **-6.7%** on this + NFP; Morningstar: "warning sign for rulemakers about illiquid funds for retail investors"
+- This is the **first hard gate at a major retail-accessible private credit fund** — BCRED avoided via employee capital injection; BlackRock just did the thing BCRED won't
+- Transmission: First Brands bankruptcy, UK mortgage lender collapse (MFS) cited as proximate catalysts for investor flight
+- **Delta vs AM status:** AM said "pre-gate zone." We are now IN the gate. The scenario we tracked has occurred. Reassess urgency of all related positions.
+
 ### 3. Private Credit Industry — Systemic Fracture
 - $162B maturity wall due 2026 at higher rates [CONF UBS Mar 4]
 - PIK doubled to 6.4%; 40% of borrowers have negative FCF [CONF Moody's/industry Mar 6]
@@ -79,6 +90,7 @@
 
 | Date | Catalyst | Impact |
 |------|----------|--------|
+| Mar 6 EOD | **BlackRock HLEND gates — $620M / $1.2B paid (~52%)** | 🔴🔴 GATE EVENT — thesis trigger |
 | Mar 6 (today) | NFP -92K print; WAL -13%, KRE -3.6% | 🔴 Bank stress accelerating |
 | Mar 6 (today) | Eisman "slow brewing scandal" + CNN "echoes of 2008" | 🔴 Thesis going consensus |
 | Apr–May 2026 | Q1 2026 earnings — private credit mark-to-market | 🔴 Key resolution event |
@@ -131,4 +143,4 @@
 
 ## BOTTOM LINE
 
-Private credit stress has crossed from specialist concern to mainstream narrative — CNN "echoes of 2008" and Eisman's "slow brewing scandal" signal consensus is forming. Today's NFP -92K with WAL -13% and KRE -3.6% shows the labor→bank transmission chain activating. The window to position ahead of consensus is closing fast: Q1 2026 earnings (April/May) is the next major mark-to-market catalyst. Watch BCRED Q2 redemptions — if they exceed 10%, the gate thesis triggers.
+**THE GATE HAS TRIGGERED.** BlackRock HLEND became the first major retail private credit fund to formally gate on March 6, 2026 — paying only $620M of $1.2B in redemption requests. This is no longer a thesis about what might happen; it's a live event. BCRED avoided gating via employee capital injection; BlackRock could not. The question now: does BCRED gate next, and does this cascade to the broader semi-liquid retail private credit complex? With NFP -92K, WAL -13%, BLK -6.7%, and KRE -3.6%, the labor→credit→bank transmission chain is firing simultaneously. Q1 2026 earnings (April/May) will be the first full mark-to-market under this stress. APO puts in portfolio — hold or consider adding. Convergence: 42/50.

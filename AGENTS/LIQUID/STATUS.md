@@ -1,5 +1,5 @@
 # LIQUID STATUS
-**Last Updated:** 2026-03-06 13:35 UTC | **Status:** 🔴🔴 CRITICAL — NFP -92K. FIRST NEGATIVE PRINT. LIQ-01 THRESHOLD LIKELY BREACHED AT OPEN.
+**Last Updated:** 2026-03-06 21:30 UTC | **Status:** 🔴🔴 CRITICAL — NFP -92K confirmed. VIX 29.91 (approaching 30). Oil $91 (+12% today). 10Y 4.13% — near-flat on -92K = stagflation/FOI thesis CONFIRMED. LIQ-01 borderline; awaiting Mar 6 ICE BofA OAS (publishes Mar 9 AM). HYG -0.49% EOD (credit muted vs expected). WTI $91 is the new dominating risk factor.
 
 ---
 
@@ -44,6 +44,25 @@ PPI core +0.8% (hot, recent) + NFP -92K (growth collapsing) = Fed is trapped.
 - **→ CARL:** Labor market inflection confirmed. This is not noise — first negative print in 6 years.
 
 ---
+
+**MAR 6 EOD UPDATE (4:00 PM ET — 21:30 UTC):**
+NFP -92K confirmed 8:30 ET. Full session resolved with some recovery off lows. KEY EOD DATA:
+- **HYG close:** $79.69 vs $80.08 (Mar 5) → **-0.49% EOD** [CONF Yahoo]. Mid-session was $79.99 (-0.90%); final close held better. Well below -1.5% to -3% pre-NFP estimate. Credit muted.
+- **VIX close: 29.91** [CONF Yahoo] (up from 23.75 Mar 5 → **+26% surge**). Approached 30-threshold but closed just below. Mid-session was only 25.93 — late-day vol spike after hours / closing auction.
+- **10Y (TNX) close: 4.13%** [CONF Yahoo] (vs 4.15% Mar 5 → **-2bps** marginal rally). A -92K NFP that gets only 2bps of Treasury rally = **stagflation/FOI thesis definitively confirmed.** Normal recession dynamics = -15 to -25bps rally. We got 2bps.
+- **WTI Crude: $91.02** [CONF Yahoo] (vs $81.01 Mar 5 → **+12.4% in one session — MASSIVE**). Crossed $90. Qatar energy minister: "$150 oil possible." Oil now the dominant macro driver, amplifying the stagflation trap.
+- **SPX close: 6,740.02** [CONF Yahoo] (vs 6,830.71 Mar 5 → **-1.32%**). Off session lows (-1.57% mid-session). Dow -642 pts (-1.32%). Nasdaq -1.52%.
+- **LQD (IG bond ETF): $110.16** [CONF Yahoo] (vs $110.53 Mar 5 → **-0.34%**). IG credit also sold.
+- **HY OAS Mar 5: 300bps** [CONF FRED — published this morning]. Gap to LIQ-01 (320bps) = **20bps**. Mar 6 ICE BofA data publishes Mar 9 AM. With HYG -0.49% today, est. +5-10bps widening → **~305-310bps [EST]**. **LIQ-01 NOT confirmed but closing gap.**
+- **IG OAS Mar 5: 82bps** [CONF FRED]. BB OAS Mar 5: 180bps.
+- **SOFR Mar 5: 3.66%** [CONF FRED]. No funding stress spike — plumbing holding.
+- **RRP Mar 6: $1.512B** [CONF FRED, published today]. Dropped from $2.793B yesterday — still trivially low. No buffer.
+
+**LIQ-01 STATUS (Updated EOD):** HY OAS Mar 5 = 300bps (CONF FRED). Today's HYG -0.49% implies est. +5-10bps widening → ~305-310bps [EST]. Gap to 320bps threshold = **~10-15bps. NOT YET TRIGGERED.** ICE BofA publishes Mar 9 AM — that is the confirmation point. The pre-open alarm of "LIKELY CROSSED" was wrong — credit spread widening has been consistently below model estimates.
+
+**KEY TELL (CONFIRMED):** 10Y only -2bps on -92K NFP. Stagflation/FOI thesis definitively confirmed. Treasury market cannot perform its safe-haven function because persistent selling pressure from FOI/oil inflation premium negates the growth-shock flight bid.
+
+**OIL ESCALATION:** WTI $91 (+12.4% today) is a new major risk factor not fully priced in STATUS.md. Qatar $150 warning. Energy sector (XOM, CVX, OXY) only green sector. If oil reaches $100, stagflation trap becomes recession trap — and SOFR/basis trade stress could accelerate as funding markets reprice inflationary path.
 
 **MAR 5 EOD UPDATE:** SPX -1.22% (tech-led, chipmakers). Bonds slid AGAIN — 10Y **4.13%** [CONF US Treasury] — +4bps from Mar 4. 30Y **4.74%** [CONF] +2bps. 2Y **3.57%** [CONF] +3bps. Curve 2s10s: **+56bps** (essentially flat). NO flight-to-quality bid. War escalating: oil jumped again, Bloomberg confirms "war escalating in Iran and Middle East." HY OAS Mar 4 = **297bps** [CONF FRED] — but today's -1.22% equity selloff + bond selling = likely widened to **305-315bps [EST]** (Mar 5 ICE BofA publishes tomorrow AM). **LIQ-01 gap now est. 5-15bps — approaching threshold.** RRP Mar 5 = **$2.793B** [CONF FRED] — trivial uptick from $0.877B, structural zero persists. SOFR Mar 4 = **3.67%** [CONF] — Mar 5 publishes tomorrow. Cross-signal: both stocks AND bonds selling simultaneously = stagflation/foreign selling dynamic persisting into NFP eve. NFP tomorrow 8:30 ET — bad print (+below 100K or weak breadth) = potential LIQ-01 trigger.
 
@@ -91,7 +110,7 @@ PPI core +0.8% (hot, recent) + NFP -92K (growth collapsing) = Fed is trapped.
 ### Credit Spreads
 | Indicator | Value | Status | Threshold |
 |-----------|-------|--------|-----------|
-| **HY OAS** | **[CONF] 297bps Mar 4 / [EST] ~305-315bps Mar 5 (ICE BofA publishes Mar 6 AM). LIQ-01 threshold 320bps NOT YET CROSSED — est. 5-15bps away.** | 🔴 | **Today: SPX -1.22% + bonds selling → likely +8-18bps widening. Gap to LIQ-01 collapsed from 23bps → est. 5-15bps. NFP tomorrow is trigger risk. Miss = likely breach.** |
+| **HY OAS** | **[CONF] 300bps Mar 5 (FRED). [EST] ~305-310bps Mar 6 (ICE BofA publishes Mar 9 AM). LIQ-01 threshold 320bps NOT YET CROSSED — est. 10-15bps away.** | 🔴 | **NFP -92K. HYG -0.49% EOD. Credit muted vs estimates. Gap to LIQ-01 est. 10-15bps. Watch Mar 9 AM for confirmation.** |
 | **CDX HY** | **[EST] ~330–355bps (Mar 3 — UNCONFIRMED. No public EOD data available.)** | 🔴 | No confirmed public source for CDX HY EOD. Bloomberg terminal only. |
 | **iTraxx Crossover** | **Est. ~285–300bps (Mar 3); was ~270bps Mon** | 🔴 | European credit stress |
 | **iTraxx Main (IG)** | **Est. ~60–65bps (Mar 3)** | 🟠 | Highest since mid-Oct 2025 |
@@ -118,12 +137,13 @@ PPI core +0.8% (hot, recent) + NFP -92K (growth collapsing) = Fed is trapped.
 | T-bill Rolling | $600B/5 days | 🟠 | Structural repo dependency |
 | TGA Balance | ~$900B | 🟠 | Drained $600B from system |
 | Treasury FTD | $42.4B | 🟡 | >$50B ORANGE |
-| 10Y Yield | **4.13% [CONF US Treasury Mar 5 EOD]** | 🔴 | +4bps from Mar 4 (4.09%); +7bps from Mar 3 (4.06%). SPX -1.22% + bond selling = NO flight-to-quality. Stagflation/foreign selling signal confirmed. |
-| 30Y Yield | **4.74% [CONF US Treasury Mar 5 EOD]** | 🟠 | +2bps from Mar 4. Long-end not rallying — stagflation premium persisting. |
-| 2Y Yield | **3.57% [CONF US Treasury Mar 5 EOD]** | 🟡 | +3bps from Mar 4. Bull steepener fading slightly — short-end also selling. |
-| WTI/Brent Crude | **WTI $73.80 close [CONF]; Brent est. ~$78-80 [EST]** | 🟠 | CORRECTION: Prior "Brent $84" was WRONG. Trump Hormuz escort announcement pared gains. WTI +3.6% vs prior +8% intraday peak. |
-| VIX | **26.43 (+23% today)** | 🟠 | Dealer hedging costs rising. Intermediation capacity falling. |
-| S&P 500 | **-2.2% (session low -2.5%); recovered to -0.9% by 1:50pm ET** | 🔴 | 2026 lows breached. Bear-market-rally pattern possible. |
+| 10Y Yield | **4.13% [CONF Yahoo Mar 6 EOD]** | 🔴 | -2bps from 4.15% (Mar 5 Yahoo). Only 2bps rally on -92K NFP = stagflation/FOI thesis confirmed. Normal recession dynamics = -15-25bps. We got 2bps. |
+| 30Y Yield | **~4.74% [EST]** | 🟠 | Long-end stagflation premium persisting. No safe-haven bid. |
+| 2Y Yield | **~3.55% [EST]** | 🟡 | Modest cut pricing. Not aggressive. |
+| WTI Crude | **$91.02 [CONF Yahoo Mar 6 EOD]** | 🔴🔴 | +$10/bbl (+12.4%) in ONE SESSION. $90 crossed. Qatar: $150 possible. Dominant macro driver. Stagflation trap now energy-amplified. |
+| VIX | **29.91 [CONF Yahoo Mar 6 EOD]** | 🔴 | +26% from 23.75 (Mar 5). Approached 30-threshold, closed just below. Dealer hedging costs spiking. Late-session vol surge. |
+| S&P 500 | **6,740 / -1.32% [CONF Yahoo Mar 6 EOD]** | 🔴 | Off session lows (-1.57% mid). Dow -1.32%, Nasdaq -1.52%. Week cumulative loss now -1.32% Friday alone. |
+| LQD (IG bonds) | **$110.16 / -0.34% [CONF Yahoo Mar 6 EOD]** | 🟠 | IG also sold off. Correlated selling — not pure equity stress, credit spreads widening across the board. |
 
 ### Foreign Official
 | Indicator | Value | Status | Threshold |

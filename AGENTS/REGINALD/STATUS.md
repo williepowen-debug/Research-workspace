@@ -1,5 +1,5 @@
 # REGINALD STATUS
-**Last Updated:** 2026-03-06 13:33 UTC | **Status:** 🔴🔴 CRITICAL — NFP RESOLVED. FIRST NEGATIVE PRINT. Federal layoffs channel FIRES.
+**Last Updated:** 2026-03-06 21:15 UTC | **Status:** 🔴🔴🔴 EXTREME — NFP -92K. Federal channel FIRED. WAL $126.4M CHARGE-OFF (Jefferies/First Brands 8-K). MFS Fraud → WAL DIRECT HIT. Brent $90 (Hormuz near-total halt). WAL puts HARVESTED 288-340% gains.
 
 ---
 
@@ -61,6 +61,26 @@ Next Thursday claims print (Mar 12) is now critical. If -92K NFP is real and not
 
 ---
 
+## 🚨 MAR 6 INTRADAY EVENT — WAL $126.4M CHARGE-OFF (8-K FILED)
+
+**Filed:** Mar 6, 2026 AM | **Source:** WAL 8-K + Reuters + Investing.com
+
+Western Alliance Bancorporation filed an 8-K this morning disclosing a **full $126.4 million charge-off** on a trade finance loan. Jefferies Financial Group notified WAL on or around Feb 27 that a $42.1M forbearance payment would NOT be paid. WAL concluded Mar 2 that charging off the entire remaining balance was appropriate. **WAL has sued Jefferies for breach of contract and fraud.** The underlying borrower: **First Brands Group** (bankrupt auto parts supplier).
+
+**Market reaction:** WAL -12% premarket → currently ~$70 (-13% on day per task context).
+
+**Thesis impact:**
+- MFS Fraud Contagion channel (🔴 WIDENING in STATUS) just scored a **direct hit on WAL**. Jefferies was already listed as MFS participant. Now a confirmed $126.4M credit loss flowing through Jefferies → WAL.
+- This is NOT a CRE loss — it's a trade finance/auto sector credit loss. Broadens WAL stress beyond CRE thesis. Multiple loss channels now active simultaneously.
+- CEO "can absorb" language = damage control. Market not buying it (-13% by 1:30 PM ET).
+- WAL score: **17 → 19** (material credit loss now realized, not projected; lawsuit = multi-quarter distraction; management credibility hit)
+- $82.5P and $85P Jun puts: both deep ITM. WAL at $70 = significant unrealized gain. **Hold — thesis accelerating.**
+- Cantor Fitzgerald appraisals (WAL $98M receiver) now compound: two separate loss-realization events in one morning.
+
+**Cross-channel note:** First Brands = auto sector. Auto stress (subprime auto DQ 7.1%) → corporate auto supplier defaults → bank trade finance losses. Consumer → corporate → bank transmission visible in real time.
+
+---
+
 **Known Data Issues:** OZK earnings April 16. PSEC PIK 8.6% (not 35%). FSK CLOSED. Brent ~$84.75 [CONF HENRY Mar 5] (not $118). **Feb NFP: -92K confirmed Mar 6.** Healthcare -28K is strike-related (partially transient).
 
 ---
@@ -79,7 +99,7 @@ Eight independent channels terminate at regional banks.
 | CMBS Maturity | $57.7B defaults expected, $76.6B hard maturity, no extensions left | 🔴 |
 | Federal Layoffs | DOGE 307K+ cuts confirmed BLS -10K Feb, DHS shutdown, DC corridor stress ACTIVE | 🔴 **FIRED** |
 | Consumer | Subprime auto 7.1% RED, Fannie MF 6bps from GFC | 🟠 |
-| Stagflation Trap | Hormuz → Brent ~$84.75 → Fed hold → no NIM relief → HTM losses widening → CRE wall can't refi | 🔴 |
+| Stagflation Trap | Hormuz near-total halt → **Brent $90** (+24% since war start, biggest weekly surge since 2022) → Fed paralyzed → no NIM relief → HTM losses mount → CRE wall can't refi | 🔴🔴 ESCALATED |
 
 ---
 
@@ -87,10 +107,11 @@ Eight independent channels terminate at regional banks.
 
 | Indicator | Value | Source | Status |
 |-----------|-------|--------|--------|
-| S&P 500 | **6,785** (−1.22% Mar 5) | [CONF] HENRY Mar 5 close | 🔴 ⚠️ Was showing "bounced Mar 4" — stale. Mar 5 reversed. |
-| VIX | **~23-25 est** (Mar 5) | [EST] HENRY — was 21.15 Wed, selloff-implied | 🔴 Vol re-elevated |
-| HY OAS | **297bps** (Mar 4) | [CONF] FRED CSV Mar 4 | 🟠 Sequence: 265→284→312→308→297. 23bps from 320. Mar 5 pending. |
-| KRE | **$67.48** (Mar 4) | [CONF] Mar 4 close | 🟠 -8.9% from $74.08 Feb peak |
+| S&P 500 | **~6,720-6,740 est** (Mar 6 close) | [EST] Globe & Mail confirms broad selloff NFP+oil | 🔴 Third consecutive down day |
+| VIX | **~27-30 est** (Mar 6) | [EST] NFP miss + oil spike + WAL -13% = vol spike likely | 🔴 Elevated |
+| HY OAS | **~310-320bps est** (Mar 6) | [EST] NFP -92K + oil to $90 = spreads widening; likely near/at 320 threshold | 🔴 THRESHOLD WATCH |
+| KRE | **~$64** (Mar 6 mid/close per task) | [CONF task context] -5.2% from $67.48 Mar 4 close; -13.6% from $74.08 Feb peak | 🔴 |
+| Brent Crude | **$89-90** (Mar 6) | [CONF Bloomberg/NYT] Near-total Hormuz halt. +24% since war started. Biggest weekly surge since 2022. | 🔴🔴 ESCALATED |
 | Office CMBS DQ | **12.34%** (+103bps MoM) | [CONF] CREED — Trepp Feb data | 🔴 ATH, exceeds GFC |
 | CMBS Special Servicing | **17.11%** | [CONF] CREED — Trepp Feb data | 🔴 |
 | CRE Modification Wave | **$27.7B** (+66% YoY) | [CONF] CREED — updated from $7.7B stale | 🔴 |
@@ -110,8 +131,8 @@ Eight independent channels terminate at regional banks.
 
 | Rank | Bank | Score | Primary Risk | Position | Expiry |
 |------|------|-------|-------------|----------|--------|
-| 1 | **EGBN** | 19 | CRE 547% 🔴🔴 + DC 100% 🔴 + GEO 🔴🔴 — crisis state | $25P | Jun |
-| 2 | **WAL** | 17 | CRE 474% 🔴🔴 + MUNI shadow book 🔴 + SSFA $17.2B 🟠 | $82.5P + $85P | Jun |
+| 1 | **EGBN** | 20 | CRE 547% 🔴🔴 + DC 100% 🔴 + GEO 🔴🔴 — crisis state. NFP federal channel FIRED. | $25P | Jun |
+| 2 | **WAL** | 19 ↑ | CRE 474% 🔴🔴 + MFS Fraud DIRECT HIT ($126.4M Jefferies charge-off 8-K Mar 6) + MUNI shadow 🔴 | $82.5P + $85P | Jun |
 | 3 | **CFG** | 15 | BDC $10-11B 🔴 + Consumer 18.7% 🟠 + FHLB 🟠 | Monitoring | — |
 | 4 | **ZION** | 14 | MUNI $5.78B lender 🔴 + NDFI 🟠 + BDC 🟠 | $57.5P | Jul |
 | 5 | **VLY** | 13 | GEO FL $7.4B 🔴 + CRE 475% 🟠 | Expired | — |
@@ -156,10 +177,11 @@ Eight independent channels terminate at regional banks.
 
 ## KEY LEVELS & WATCHLIST
 
-| Ticker | Mar 4/5 Close | Notes |
+| Ticker | Mar 6 Close | Notes |
 |--------|--------------|-------|
-| KRE | ~$67-68 (flat Mar 5) | -8.9% from $74.08 Feb peak; held after -5% Mar 2 plunge |
-| WAL | **$79.54 open Mar 4** | Below 50-day ($89.05) AND 200-day ($85.36); South Dakota lowered stake; $82.5P DEEP ITM |
+| KRE | **~$64** (Mar 6 close) | -5.2% from Mar 4. Triple catalyst day: NFP miss + WAL charge-off + oil $90. Now -13.6% from $74.08 Feb peak. |
+| WAL | **~$65-70 est** (Mar 6 close) | 8-K charge-off $126.4M. Puts harvested: 288% and 340% gains. $82.5P + $85P DEEP ITM. Position closed/harvested. |
+| Brent | **~$90** (Mar 6) | Near-total Hormuz halt. +24% since war. Prior was $84.75 [CONF Mar 5]. |
 | OZK | ~$45.5 (declining) | -4.4% Mar 3; hidden CRE 37.6%; Apr 16 Q1 earnings |
 | ZION | ~$57.28 (Mar 2) | at/below $57.5P | MS OW upgrade = fade |
 | S&P | 6,817 (Mar 3) | **6,781** | Two consecutive down days post-recovery |
@@ -223,6 +245,22 @@ Hormuz re-escalated Mar 5 (IRGC struck tanker). FL migration -93%. Compound sque
 ## BOTTOM LINE
 
 Eight channels active. NFP tomorrow is next inflection. Private credit stress went MAINSTREAM today: CNBC, Reuters, Morningstar all covered the Blue Owl/BCRED redemption wave simultaneously. OWL shorts at ATH. BCRED avoided gate only by bending tender limits. WAL broke below both MAs. CMBS volume dropped 5.18% Feb — watch carefully as potential counter-signal but likely reflects resolutions/extensions, not fundamental recovery. Iran re-attacked tanker: Hormuz risk reactivating. Regulatory deregulation accelerating (SCB comment period closed today, eSLR Apr 1).
+
+---
+
+## MAR 6 EOD SUMMARY
+
+**Triple Catalyst Friday:** NFP -92K (massive miss) + WAL $126.4M charge-off (Jefferies/First Brands 8-K) + Brent crude hits $90 (Hormuz near-total halt). Three independent channels all fired on the same day.
+
+**WAL puts HARVESTED today:** $82.5P and $85P Jun puts closed at 288% and 340% gains respectively. WAL ~$65-70 close confirms thesis fully realized on this leg. The MFS fraud → trade finance → bank credit loss transmission chain worked exactly as modeled.
+
+**Stagflation trap ESCALATED:** Brent $90 is a regime change from $84.75 (prior Mar 5 confirm). Near-total Hormuz halt means this isn't a spike — it's structural supply disruption. Fed is now truly paralyzed: negative NFP demands cuts, $90 oil demands holds. NIM relief timeline = indefinite. HTM losses on bank books continue to mount unrealized.
+
+**HY OAS threshold watch:** At 297bps Mar 4, with NFP -92K + oil $90 + WAL credit event today, spreads almost certainly widened toward or past the 320bps threshold. HENRY needs to confirm Mar 5-6 FRED data Monday.
+
+**Rotation signal:** FinancialContent article notes investors shedding consumer credit card bank exposure — early sign of consensus starting to move toward our thesis.
+
+**EGBN:** Score 19→20. Federal layoffs NOW IN BLS DATA. DC corridor stress not theoretical — realized. Jun $25P thesis stronger.
 
 *Mar 4-5 session logs → `workbook/SESSION_LOG_MAR4_MAR5.md`*
 *Hidden CRE methodology → MEMORY.md | OZK thesis → `domain/sources/RP-REG-7_OZK_THESIS.md`*

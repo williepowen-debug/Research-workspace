@@ -1,5 +1,5 @@
 # HENRY STATUS
-**Last Updated:** 2026-03-06 13:30 UTC | **Status:** 🔴🔴 MAXIMUM RED — NFP -92K. FIRST NEGATIVE PRINT IN HISTORY. HEN-01 CONFIRMED. DECEMBER REVISED TO -17K (ALSO NEGATIVE). STAGFLATION LOCKED. CARRY/JPY VECTOR ACTIVATED. CASCADE INITIATION ZONE. CONVERGENCE 44/60. WATCH: HY OAS >320bps (LIQ-01), SPX <6,707 CLOSE (CTA MEDIUM), VIX INVERSION.
+**Last Updated:** 2026-03-06 21:15 UTC (EOD) | **Status:** 🔴🔴 STAGFLATION LOCKED — HEN-01 CONFIRMED (-92K). SPX ABSORBED SHOCK ABOVE 6,800 PUT WALL (6,830 CLOSE). VIX 23.61 — SUBDUED VS 30-38 EXPECTATION. 10Y YIELD SPIKED TO 4.17% ON JOBS MISS = BOND MARKET PRICING STAGFLATION (NO FLIGHT TO SAFETY). BRENT $92 INTRADAY. CASCADE NOT YET TRIGGERED BUT FED TRAP HARDENING.
 
 **Known Data Issues:** SPX Mar 3 close ~6,817 (not 6,781 — that was intraday). Dow -1,014pts at close (not -1,200 which was intraday). HY OAS 297bps (FRED CSV Mar 4 confirmed); LIQUID est 335-355 was ~40bps too high. Brent ~$84.75 (not $118). ISM Mfg released Mar 2 (1st BD), not Mar 3.
 
@@ -14,15 +14,15 @@
 | 3 | Credit-Equity Divergence | 4 | 🔴 | Quality rotation 4/5 steps, BKLN 52wk lows, HY OAS floor rising | HY OAS >350bps |
 | 4 | Stagflation / Labor-Inflation | **5** | 🔴🔴 | **NFP -92K CONFIRMED. Dec revised -17K. Wages +3.8% YoY. Stagflation locked.** | Already maxed |
 | 5 | 0DTE / Microstructure | 4 | 🔴 | 65% of SPX volume (record), GEX thinning, Citadel confirmed asymmetry | Structural — amplifier, not trigger |
-| 6 | Vol Structure | **4** | 🔴 | **NFP shock — VIX should blow through 25+ at open. Watch inversion.** | VIX spot > futures (inversion) |
+| 6 | Vol Structure | **4** | 🔴 | **VIX 23.61 close — elevated but BELOW 25. NFP absorbed without cascade. Watch for inversion if next shock hits.** | VIX spot > futures (inversion) |
 | 7 | Earnings Quality / SBC | 3 | 🟠 | XLK <50% breadth, SBC 30-50% overstatement, SoftBank exited NVDA | PLTR breaks $100 (H5) |
 | 8 | Market Breadth | 3 | 🟠 | 8/11 sectors red, IWM below all MAs, Energy/Materials >95% | XLK breadth <40% (H7) |
-| 9 | Geopolitical / Commodity | 3 | 🟠 | Hormuz closed, Brent $84.75 (+4%), gold $5,408 | Brent $100 = Fed trap hardens |
+| 9 | Geopolitical / Commodity | **4** | 🔴 | **Brent $90 (Mar 6 intraday) — Hormuz STORAGE CRISIS escalating. +$5.25 since Mar 5 close.** | Brent $100 = Fed trap hardens |
 | 10 | Risk Parity / Leverage | 3 | 🟠 | Margin debt $1.23T ATH, risk parity building, vol rising | Correlated stock-bond selloff |
 | 11 | Carry / JPY Unwind | **4** | 🔴 | **ACTIVATED. Softest possible NFP. Yen bid expected. Watch USDJPY move toward 150-152.** | Confirmed USDJPY <153 = cascade active |
 | 12 | Consumer / Delinquency | 2 | 🟡 | Beige Book K-shape 10-12/12, FL UI cliff Mar 24 | Claims >300K or FL cliff fires |
 
-**Convergence: ~44/60** — 🔴🔴 POST-NFP UPGRADE. Vectors 4, 6, 11 upgraded simultaneously on -92K print. Pre-cascade → **Active cascade initiation zone.**
+**Convergence: ~46/60** — 🔴🔴 POST-NFP UPGRADE + WAL/BRENT ESCALATION. Vectors 4, 6, 11 upgraded on -92K print. Vector 9 upgraded Mar 6 (Brent $90). Quality Rotation Step 4 → Step 5 transmission confirmed (Jefferies→WAL charge-off). **Active cascade initiation zone.**
 
 **NFP RESOLVED:** -92K confirmed. Dec revised to -17K. Three-month avg ~+6K/month = effectively zero growth. All scenario conditions met.
 
@@ -61,12 +61,23 @@ Market is derivatives-driven, dealer hedging dominates short-term dynamics.
 | IG > HY | LQD +1.79% vs HYG +0.44% (6M) | ✅ |
 | Better HY > Worse HY | HYG -0.35% vs JNK -0.44% (1M) | ✅ |
 | Leveraged loans crack | BKLN -1.99% (1Y), 52-week lows | ✅ |
-| Specific names blow out | FSK div cut -31%, Blue Owl gating, Medallia 78¢ | ✅ NEW |
-| Contagion spreads | Jefferies sued + SEC probe, corporate bonds "bubble-like" | ⏳ STARTING |
+| Specific names blow out | FSK div cut -31%, Blue Owl gating, Medallia 78¢ | ✅ |
+| Contagion spreads | **WAL -13% ($70): $126M charge-off on Jefferies refusal to pay First Brands Group loan. Jefferies lawsuit → WAL balance sheet. DIRECT TRANSMISSION CONFIRMED.** KRE -3.6% ($64) — systemic. | ✅ **CONFIRMED Mar 6** |
 
 **BKLN at 52-week lows while equities near highs = credit leading equities. This is the pattern that precedes repricing.**
 
 ---
+
+**Mar 6 EOD — NFP DAY CLOSE:**
+- SPX 6,829.69 (−0.58%). ABOVE put wall at close. Market absorbed -92K shock — partially pre-priced via ADP miss.
+- VIX 23.61 — subdued. Will expected 30-38; actual is ~10pts lower. This means vol-control selling likely NOT triggered at full force. Put positions may have underperformed expectations intraday.
+- 10Y yield 4.13-4.17% — CRITICAL: bonds sold off on a jobs miss. This is the stagflation signature. Fed cannot cut without re-igniting inflation expectations. Fed cannot hold without crushing a weakening labor market. Trap is fully set.
+- Brent $92 intraday — $8 from $100 threshold where "Fed forced to hold" becomes consensus narrative.
+- Dow -642pts (−1.32%) — industrials/consumer disc hit hardest, fuel cost pass-through fears dominant.
+- Nasdaq −0.33% — Marvell Technology surge in semis cushioned tech; Mag7 mixed.
+- Bond market NOT offering safety = cross-asset correlation breakdown. Equity AND bond selling simultaneously = stagflation pricing, not recession pricing. This removes the "60/40 rebalance into bonds" mechanical buyer from equities.
+- GEX update: SPX above 6,800 at close means dealers less negative gamma into weekend. HOWEVER, with 0DTE expiring today (Friday), gamma slate wiped clean. Monday positioning could be more directional.
+- USDJPY: Soft NFP should have bid yen hard. If USDJPY held above 153 today, carry unwind stalled — watch as key signal next week.
 
 **Mar 5 EOD additions:**
 - Initial jobless claims 213K (wk ending Feb 28) — STEADY. Headline: "stabilizing labor market." Tension with ADP +63K = hiring freeze but no mass firings YET. Pre-NFP enigma unresolved.
@@ -82,13 +93,13 @@ Market is derivatives-driven, dealer hedging dominates short-term dynamics.
 
 | Indicator | Value | Source | Status |
 |-----------|-------|---------|--------|
-| SPX | **6,785.41** (−1.22% Mar 5 CLOSE) | [CONF] SMW Mar 5 close | 🔴 Wed recovery +0.78% fully reversed. Now below 6,800 put wall. |
-| Dow | **48,472.01** (−1,014pts, −2.1% Mar 5) | [CONF] SMW Mar 5 close | 🔴 Industrials + consumer disc crushed — fuel cost pass-through fears |
-| Nasdaq | **22,863.66** (−1.1% Mar 5) | [CONF] SMW Mar 5 close | 🔴 AVGO +6% (AI guidance) + MSFT +0.93% only bright spots; rest of Mag7 -1 to -2% |
-| IWM | **$260.67** | Mar 4 | Below all MAs. RSI ~50. Dead cat bounce from $248 low. |
-| VIX | **~23-25 est** (was 21.15 Wed close) | [CONF Wed] CSFX; [EST Thu] selloff-implied | 🔴 Vol re-elevated. If above 23 = vol-control selling active again |
-| 10Y Yield | **4.08%** (stable-ish) | [CONF] Mar 4 | 🟠 Not spiking — stagflation = rate confusion |
-| Brent Crude | **$84.75** (+4% Mar 5) | [CONF] SMW Mar 5 close | 🔴🔴 Hormuz premium grinding higher. $100 = "Fed forced to hold" narrative emerges |
+| SPX | **6,829.69** (−0.58%, −39.81pts Mar 6 CLOSE) | [CONF] StockMarketWatch Mar 6 | ⚠️ ABOVE 6,800 PUT WALL AT CLOSE. Delta vs Mar 5: +44pts. Market absorbed NFP shock. |
+| Dow | **48,097.16** (−1.32%, −642pts Mar 6) | [CONF] StockMarketWatch Mar 6 | 🔴 Industrials hardest hit. Delta vs Mar 5: −374pts. Dow underperformed SPX sharply. |
+| Nasdaq | **22,732.23** (−0.33% Mar 6) | [CONF] StockMarketWatch Mar 6 | 🟠 Semis rally (Marvell?) cushioned tech. Relatively resilient. |
+| IWM | **$260.67** | Mar 4 (stale — update pending) | Below all MAs. RSI ~50. Dead cat bounce from $248 low. |
+| VIX | **23.61** (Mar 6 CLOSE) | [CONF] Rio Times Mar 6 | ⚠️ SUBDUED vs 30-38 expectation. Elevated but not cascading. Vol-control selling threshold: ~23+. |
+| 10Y Yield | **4.13-4.17%** (Mar 6) | [CONF] Multiple sources Mar 6 | 🔴🔴 STAGFLATION SIGNAL: bonds SELLING on jobs miss. +9bps from 4.08%. No flight to safety. |
+| Brent Crude | **$92** (Mar 6 intraday high) | [CONF] FC Mar 6 article | 🔴🔴 +$2 from $90. $100 = "Fed forced to hold" narrative. Now 92% of the way there. |
 | Gold | **~$5,408** | [CONF] Mar 3 | 🔴 Hard assets bid, not duration |
 | HY OAS | **297bps** (Mar 4 CONF) | [CONF] FRED CSV Mar 4. Sequence: 265→284→312→308→**297** (relief rally dip). Mar 5 data pending — selloff likely reverses. | 🟠 Floor rising but Mar 4 dipped 11bps |
 | MOVE | Rising | [EST] | 🟠→🔴 |
@@ -103,13 +114,13 @@ Market is derivatives-driven, dealer hedging dominates short-term dynamics.
 
 ---
 
-## KEY LEVELS ⚠️ UPDATED Mar 3 Deep Dive — See research/GEX_CTA_DEEP_DIVE_MAR3.md
+## KEY LEVELS ⚠️ UPDATED Mar 6 EOD — See research/GEX_CTA_DEEP_DIVE_MAR3.md
 
 | Level | SPX Price | Significance | Mar 3 Status |
 |-------|-----------|--------------|-------------|
 | 200-day MA / Gamma Flip | **6,902** | Dealer negative gamma territory below | 🔴 BREACHED (all session) |
 | 50-day MA / Short CTA | **6,883** | Short-term CTA sell trigger | 🔴 BREACHED (close ~6,781) |
-| Put Wall | **6,800** | Heaviest put OI concentration | 🔴 BREACHED AT CLOSE (~6,781) |
+| Put Wall | **6,800** | Heaviest put OI concentration | ⚠️ RECLAIMED AT CLOSE (6,830) — dealers partially re-hedged. Next breach = accelerant. |
 | Goldman CTA Medium | **6,707** | $80B systematic selling trigger (Goldman Feb 2026) | ⚠️ PIERCED INTRADAY (6,672 low), close ~6,781 = not sustained |
 | Acceleration Zone | **6,600s** | Negative gamma feedback / no support | Not reached |
 | Longer-Duration CTA Flip | **~6,494** | Longer-lookback CTAs flip net short | Not reached |
