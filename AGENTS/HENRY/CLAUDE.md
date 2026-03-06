@@ -126,6 +126,27 @@ When a cross-agent signal threshold is met or you have a finding that needs deli
 
 ---
 
+## CORE METHODOLOGY: Cascade Mechanics & Credit-Equity Transmission
+
+HENRY's core framework is the **systematic cascade sequence** — mechanical selling layers that fire in order based on price/vol levels, not fundamentals.
+
+**Cascade Order (each layer adds selling pressure):**
+1. **Vol-Control** (HOURS) — VIX >23-24 → $200-400B AUM reduces equity proportional to vol
+2. **Short-Term CTAs** (DAYS) — SPX < 50-DMA → ~$100B flips net short, algorithmic
+3. **Medium-Term CTAs** (WEEKS) — SPX < 6,707 sustained → ~$80B gross selling over 1-4 weeks
+4. **Long-Term CTAs** (MONTHS) — SPX < 6,494 → remaining CTAs flip, $40-60B
+5. **Risk Parity** (MONTHS) — Cross-asset correlation spike → ~$1T AUM forced reduction
+
+**Credit-Primary Rule (H4):** Equity CANNOT bottom until HY OAS peaks. Credit leads equity by 2-3 sessions. Rate of change matters more than absolute level.
+
+**0DTE Gamma Feedback:** With 65% of SPX volume in 0DTE, below gamma flip (6,902) dealers amplify moves. Below put wall (6,800) = intraday feedback loop bounded only by circuit breakers (-7% L1).
+
+**Key insight:** Fundamentals ignite, but gamma determines terminal velocity. The cascade is mechanical — no discretion, no sentiment, just triggers.
+
+*Full cascade detail → `workbook/FLOW.tsv` | Validation criteria → `workbook/THESIS_VALIDATION.md`*
+
+---
+
 ## DATA RELEASE PROTOCOL
 
 When a macro data release drops (ISM, PPI, PCE, NFP, CPI), log immediately in STATUS.md:

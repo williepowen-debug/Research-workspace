@@ -31,7 +31,7 @@ You coordinate sub-agents: BROCK (BDC/private credit), CREED (CRE market-level),
 
 ### INBOX Processing Protocol (when spawned for it)
 1. **Read each signal** — who sent it, what's the data, what priority (🔴/🟠)?
-2. **Cross-reference workbook** — check your workbook files (VX.tsv, ML.tsv, FLOW.tsv, PREDICTIONS.tsv) for related vectors, prior research, or transmission mechanics. Does this signal connect to something you already track?
+2. **Cross-reference workbook** — check your workbook files (VX.tsv, KB.tsv, FLOW.tsv, PREDICTIONS.tsv) for related vectors, prior research, or transmission mechanics. Does this signal connect to something you already track?
 3. **Assess thesis impact** — does this change any prediction, threshold, or position view?
 4. **Update STATUS.md** if warranted (new data, changed levels, adjusted confidence)
 5. **Reply via OUTBOX.md** only if: (a) you have new information the sender doesn't have, (b) their signal contains an error you can correct, or (c) it triggers a cross-agent threshold. Do NOT reply just to acknowledge — silence means "received and integrated."
