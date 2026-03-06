@@ -1,0 +1,11 @@
+ID	FROM	TO	MECHANISM	SPEED	CURRENT_STATE	EVIDENCE	UPDATED
+FLOW-BRT-01	Hormuz Closure	Brent Price	Supply disruption → spot price	Immediate	🔴 ACTIVE — Brent $90	+14% since war began	2026-03-06
+FLOW-BRT-02	Brent Price	Gas Pumps (→CARL)	Crude → wholesale → retail lag	2-3 weeks	🔴 Transmitting	Pump prices will print new highs ~Mar 20	2026-03-06
+FLOW-BRT-03	Brent Price	Japan Energy (→SAM)	90% ME dependency → import costs → JPY	1-2 weeks	🔴 Activated	Nikkei -6.5%, carry unwind	2026-03-06
+FLOW-BRT-04	Brent Price	Inflation (→HENRY)	Energy CPI/PPI component	1 month lag	🟠 Building	Mar 11 CPI will show early signal	2026-03-06
+FLOW-BRT-05	Gulf Storage Full	Production Curtailment	Storage capacity → forced shut-ins	Weeks	🔴 ACTIVE — Kuwait/Qatar curtailing	UAE/Iraq imminent	2026-03-06
+FLOW-BRT-06	Production Curtailment	Global Supply Deficit	Shut wells slow to restart	Months	🟠 Emerging	Full shutdown not yet	2026-03-06
+FLOW-BRT-07	Sustained $90+ Oil	Demand Destruction	High price → reduced consumption	Weeks-months	🟠 Implied, not in data	Need EIA gasoline demand	2026-03-06
+FLOW-BRT-08	Sustained $90+ Oil	E&P Credit (→LIQUID)	Revenue boost short-term; reverses if demand craters	Mixed	🟡 Monitoring	Energy HY OAS stable for now	2026-03-06
+FLOW-BRT-09	Shadow Fleet Disruption	Russian Revenue	Enforcement → export decline	Months	🟠 20% fleet halted	Russia revenue -50% YoY	2026-03-06
+FLOW-BRT-10	War Risk Premium	Tanker Rates	Insurance + rerouting → ton-miles + cost	Immediate	🔴 Active	STNG position	2026-03-06

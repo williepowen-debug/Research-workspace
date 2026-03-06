@@ -1,0 +1,10 @@
+ID	VECTOR	TIER	DESCRIPTION	TRIGGERS_UP	TRIGGERS_DOWN	MARKET_IMPACT	UPDATED
+VX-BRT-01	Hormuz Supply Disruption	RED	Shipping -92%, de facto closed. 20% of global oil transit removed.	Physical mines confirmed, escort ops fail	Hormuz reopens >50% traffic	Brent +$30-50 realized; next leg +$10-40	2026-03-06
+VX-BRT-02	Gulf Storage Crisis	RED	Kuwait/Qatar curtailing. UAE ~22d, Iraq weeks. Full shutdown = Scenario C.	All 4 producers shut	Storage offloaded via pipeline/overland	Brent +$15-40 above current	2026-03-06
+VX-BRT-03	Two-Phase Thesis	RED	Phase 1 (squeeze) ACTIVE. Phase 2 (destruction/unwind) timing unknown.	Phase 2: gasoline -5% YoY + Hormuz reopens	Squeeze fails (Brent <$75)	Sequencing = alpha. Long Phase 1, short Phase 2.	2026-03-06
+VX-BRT-04	Tanker Super-Cycle	ORANGE	War risk spiking. Commercial traffic halted Hormuz. Rerouting adds ton-miles.	VLCC >WS200, sustained	Hormuz reopens, insurance normalizes	STNG/TNP +30-50% from current	2026-03-06
+VX-BRT-05	US Shale Response	YELLOW	No response yet — too early. DUC inventory depleted from prior cycle.	Rig count +50, DUC drawdown accelerates	Permian bottlenecks, capital discipline holds	Bearish medium-term oil if shale ramps	2026-03-06
+VX-BRT-06	OPEC+ Unwind Risk	ORANGE	140M barrel flush was Apr-May plan. War delays indefinitely.	Emergency meeting, unwind signaled	War continues, spare capacity retained	Bearish Phase 2 trigger — Brent -$15-25	2026-03-06
+VX-BRT-07	Energy Credit	YELLOW	High oil = good for E&P credit currently. Risk flips if demand destruction.	HY energy OAS >400, E&P downgrades	Oil sustained >$80	Not yet a concern — monitor	2026-03-06
+VX-BRT-08	Russia Supply Squeeze	ORANGE	Shadow fleet 20% halted. Revenue -50% YoY. Product exports banned.	Further enforcement, more seizures	Enforcement eases, shadow fleet adapts	Supply tightening from 2 directions simultaneously	2026-03-06
+VX-BRT-09	Demand Destruction	ORANGE	Implied at $90+ but not in hard data yet. NFP -92K = recessionary demand risk.	Gasoline demand -5% YoY, airline cuts	Strong economic data, employment recovery	Phase 2 accelerator — short crude trigger	2026-03-06

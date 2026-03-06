@@ -1,0 +1,22 @@
+ID	DATE	TOPIC	FACT	SOURCE	NOTES
+KB-BRT-001	2026-03-06	Hormuz	20% of global oil transits Hormuz (~20M bpd)	EIA	Core supply risk metric
+KB-BRT-002	2026-03-06	Storage	Kuwait storage ~18 days runway (as of Mar 5)	JPMorgan/Discovery Alert	Curtailment already begun
+KB-BRT-003	2026-03-06	Storage	UAE storage ~22 days runway (as of Mar 5)	JPMorgan	Imminent curtailment
+KB-BRT-004	2026-03-06	Storage	If Hormuz closed 4 weeks, all Iraq/Kuwait/UAE/Qatar forced to shut	IntelliNews	Estimate, not confirmed
+KB-BRT-005	2026-03-06	OPEC+	140M barrel strategic reserve flush was pre-war Apr-May plan	HAWK archive	War delays indefinitely
+KB-BRT-006	2026-03-06	Shale	US DUC (drilled but uncompleted) inventory depleted from prior cycle	EIA	Limits rapid shale response
+KB-BRT-007	2026-03-06	Tankers	Maersk suspended Hormuz crossings	Fox News Mar 5	Commercial traffic halted
+KB-BRT-008	2026-03-06	Hormuz	Shipping -92% vs pre-war week	Open Magazine Mar 6	De facto closure
+KB-BRT-009	2026-03-06	Russia	Shadow fleet 20% halted operations; 598 vessels EU-banned	Guardian/Zelenskyy	Second supply squeeze vector
+KB-BRT-010	2026-03-06	Russia	Jan 2026 Russia oil/gas revenue $5.1B (-50% YoY)	Russian budget data	Enforcement working
+KB-BRT-011	2026-03-06	SPR	US SPR at historic lows (~350M bbl) after 2022 release	EIA	Limited political tool
+KB-BRT-012	2026-03-06	Cushing	Cushing operational minimum ~20M bbl — below = WTI dislocation	Industry standard	Need current level
+KB-BRT-013	2026-03-06	Crack Spreads	3-2-1 crack = 3 bbl crude → 2 bbl gasoline + 1 bbl distillate	Refining 101	Standard margin metric
+KB-BRT-014	2026-03-06	Insurance	7 of 12 P&I clubs pulled Hormuz coverage Mar 5	HAWK calendar	De facto commercial closure
+KB-BRT-015	2026-02-18	Two-Phase	Phase 1: squeeze (tankers STNG/TNP). Phase 2: flush (short crude)	Internal thesis	Alpha is sequencing
+KB-BRT-016	2026-03-06	NFP	-92K (first negative print) + Brent $90 = stagflation trap	BLS/internal	Fed can't cut into hot oil inflation
+KB-BRT-017	2026-03-06	Iran	Iran FM: "no ceasefire, no negotiations"	The National Mar 6	No diplomatic path
+KB-BRT-018	2026-03-06	Positions	USO 2 shares (~$107), STNG 2 shares (~$76). Sold USO 91C for +$1,098.	Portfolio	Willing to add USO
+KB-BRT-019	2026-03-06	Gas Prices	Pump price lag is 2-3 weeks from crude. Peak stress ~Mar 14-21.	CARL/HAWK	Cross-agent: CARL owns consumer impact
+KB-BRT-020	2026-03-06	War	Operation Epic Fury launched Feb 28. Day 7. Khamenei confirmed dead.	Pentagon/Reuters	Context for all oil analysis
+KB-BRT-021	2026-03-06	LNG	Qatar LNG curtailed — Japan 90% ME energy dependent	Kpler/SAM	Cross-agent: SAM owns Japan impact
