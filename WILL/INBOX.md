@@ -6,6 +6,78 @@ Agent signals that need your attention. HERMES delivers here.
 
 ---
 
+## 2026-03-06 22:00 UTC — FROM: HENRY [via HERMES PM]
+**Signal:** 🔴🔴 NFP -92K — HEN-01 CONFIRMED. Thesis intact, threshold alerts fired across all agents.
+**Detail:** Feb NFP -92,000 (consensus +55-65K). Dec revised to -17K (was +48K — already negative). Unemployment 4.4% ↑. Wages +3.8% (stagflation). Transmission chain: LABOR → CARL → LIQUID → SAM all activated in one print. Alerts sent to SAM (carry), LIQUID (HY OAS), CARL (labor-consumer), NEXUS (convergence synthesis). No exit triggers on current positions — thesis strengthened. Today's key levels: SPX close vs 6,707 (Goldman CTA $80B trigger), HY OAS vs 320bps (LIQ-01), USDJPY vs 154 (carry loading), IWM vs $255.
+**Source:** HENRY NFP synthesis 2026-03-06 13:30 UTC
+**Priority:** 🔴
+
+---
+
+## 2026-03-06 22:00 UTC — FROM: SAM [via HERMES PM]
+**Signal:** 🔴🔴 CARRY UNWIND THRESHOLD APPROACHING — AUG 2024 PLAYBOOK WARMING
+**Detail:** Post-NFP: USDJPY ~157.5 pre-print → est. 153-155 immediate → 150-152 target within 1-14 days. 7d carry unwind: **50%** (+30pp on single print). 30d: **85%**. 60d: **92%**. MoF has NO intervention incentive below 155 — yen strength is welcome to them. If USDJPY closes below 154 today: Aug 2024 playbook LOADING. Full loading = Nikkei -5%+ Monday open, GPIF trigger elevated. Korea relief: dollar weakness → KRW strengthens → BoK UST selling likely paused (partial three-anchor alleviation). Full check-in: `AGENTS/SAM/CHECKIN_MAR6.md`
+**Source:** SAM subagent 2026-03-06 13:48 UTC
+**Priority:** 🔴
+
+---
+
+## 2026-03-06 22:00 UTC — FROM: PROME [via HERMES PM]
+**Signal:** 🚨 SUBPRIME AUTO ABS 7.0% THRESHOLD BREACHED — now 7.1%, ALL-TIME RECORD
+**Detail:** CARL confirmed (Mar 4 AM, Jan 2026 ABS trustee reports). 60+ DQ crossed 7.0% target. Prime 60+ DQ is 0.4% — the 17.75x gap between subprime and prime is the widest ever measured. CFPB dead = no brake pedal. Fannie MF DQ 0.74% (6bps from GFC peak). This is the consumer credit signal tracked for months — now in breach territory.
+**Source:** CARL STATUS.md (updated Mar 4)
+**Priority:** 🔴
+
+---
+
+## 2026-03-06 22:00 UTC — FROM: PROME [via HERMES PM]
+**Signal:** BCRED distress escalating — senior Blackstone staff personally injecting capital
+**Detail:** Bloomberg: Blackstone senior employees opened personal wallets to inject funds into BCRED as redemptions hit record 7.9%. Classic "management buys to show confidence" (Bear Stearns 2007 playbook). Net outflows $1.7B after $2B new commitments failed to offset $3.7B redemptions. Gray calling it "market noise." Watch: (a) BX gating in Q2, (b) asset fire sales at stressed marks, (c) warehouse/credit facility pulls. APO $100P thesis reinforced.
+**Source:** Bloomberg Mar 4 2026 / Reuters
+**Priority:** 🔴
+
+---
+
+## 2026-03-06 22:00 UTC — FROM: PROME [via HERMES PM]
+**Signal:** CVNA — Pomerantz LLP opened formal investigation Mar 3 (fifth law firm)
+**Detail:** Discovery deadline Mar 15 live. Insider RSU withholding Mar 1 at $334/share — insiders not fleeing yet. Multiple simultaneous legal probes (Pomerantz, existing class action, SEC investigation since Jul 2025). No Hindenburg Part 2 announced yet.
+**Source:** PRNewswire Mar 3 2026 / StockTitan Mar 1 filing
+**Priority:** 🟠
+
+---
+
+## 2026-03-06 22:00 UTC — FROM: PROME [via HERMES PM]
+**Signal:** MFS (Cockroach #4) fallout — exposure list firmed, no new #5 overnight
+**Detail:** Full exposure: Barclays £600M+, Jefferies £100M, Wells Fargo, Santander, Castlelake, Apollo/Atlas SP Partners. No new double-pledging fraud overnight. Cockroach thesis still active. REGINALD: Hormuz compound squeeze = FL stress materially worse (SSB, VLY most exposed).
+**Source:** GBNews/Reuters/Bloomberg / REGINALD signal via HERMES
+**Priority:** 🟠
+
+---
+
+## 2026-03-06 22:00 UTC — FROM: PROME [via HERMES PM]
+**Signal:** REGINALD: TCPC securities fraud class action + Athene mapping still pending
+**Detail:** TCPC class action (Nov 2024 – Jan 2026 period) signals CFG/KeyBanc re-underwriting event. APO puts — TBD strike/expiry — flagged. Athene deposit concentration mapping (BROCK Priority 1) unexecuted. Note: APO $100P Apr 17 already in book. Consider whether TCPC confirmation changes strike/expiry calculus.
+**Source:** REGINALD inbox processing Mar 4 / PROME INBOX
+**Priority:** 🟠
+
+---
+
+## 2026-03-06 22:00 UTC — FROM: BROCK [via HERMES PM]
+**Signal:** ATHENE DEPOSIT MAP COMPLETE — APO $100P THESIS UPDATE
+**Detail:** Athene is NOT a traditional bank run risk (contractual lockups). Real risk = reflexivity loop: private credit stress → APO down → ADIP harder to raise → Athene growth stalls → marks worsen → rating risk → institutional funding non-renewals. Feb 2026 events (Blue Owl gate, MFS fraud, MidCap dividend cut) = Steps 1-2 confirmed live. Key numbers: $363-442B assets, 392-412% RBC (hard to blow through quickly — protects near-term), ~48% illiquid. Highest probability catalyst: Q1 2026 Athene inflow report (April/May). FY2024 Q4 already -29% vs Q1 2024. Data gaps: FIA/FA/PGA % breakdown, true APO-managed %, funding agreement maturity profile. Full analysis: `AGENTS/CARL/domain/ATHENE_DEPOSIT_MAP.md`
+**Source:** BROCK subagent 2026-03-04
+**Priority:** 🟠
+
+---
+
+## 2026-03-06 22:00 UTC — FROM: ZHAO [via HERMES PM]
+**Signal:** KOREA USD/KRW BREACHED 1,500 (first since GFC Mar 2009) — UST selling thesis ACTIVATED
+**Detail:** KOSPI -12.06% (worst single-day in 46-year history). Circuit breakers fired twice. Two-day wipeout: ₩817.6T ($553B). BoK governor canceled overseas trip — verbal guidance only, no hard intervention. Export-Import Bank launched ₩40T (~$30B) emergency program. **$5-15B/month UST selling estimate is now live, not pending.** Also: USD/CNY ~6.924 (mild drift, PBOC comfortable, 7.30 threshold 4-8 weeks out). Two Sessions: NPC opens Mar 5, watch Li Qiang work report for 4% deficit target (expansionary). TIC data next Mar 15 — still pre-Hormuz. **Combined Japan + China + Korea UST selling estimate: $35-55B/month and accelerating.** KRE puts in the money.
+**Source:** ZHAO morning brief 2026-03-04 13:46 UTC
+**Priority:** 🔴
+
+---
+
 ## 2026-03-05 22:00 UTC — FROM: REGINALD [via HERMES]
 **Signal:** Two signals processed — FL UI cliff Mar 24 + iTraxx ~95bps European stress
 **Detail:** (1) FL UI exhaustion cliff is a locked calendar event, not a probability. Mar 24 onset, Apr 26 peak. DQ spike visible May-Jun. SSB $90P Jun may be early — CORAL should assess timing. Boosted REG-07 55→68%, REG-13 55→72%. (2) iTraxx Senior Financial ~95bps — new VX-REG-19.01 trigger with 100bps RED threshold. Three convergence channels now live simultaneously (iTraxx + BCRED near-gate + FL UI cliff).
