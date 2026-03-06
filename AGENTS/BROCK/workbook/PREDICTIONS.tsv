@@ -1,0 +1,21 @@
+Pred_ID	Date_Made	Prediction	Confidence	Timeframe	Status	Date_Resolved	Outcome	Notes
+BRK-01	2026-02-23	PSEC dividend cut again or rating downgrade	70%	Q2 2026	OPEN			Feb 9-10 dividend maintained — does not falsify
+BRK-02	2026-02-23	Industry non-accruals rise to >2.5%	65%	Q2-Q3 2026	OPEN			Currently 1.2% (FV)
+BRK-03	2026-02-23	At least one major BDC triggers redemption gate	55%	2026	CONFIRMED	2026-02-18	✅ CORRECT	Blue Owl halted OBDC II redemptions ($1.7B gated)
+BRK-04	2026-02-23	Software sector BDC exposure declines <18%	60%	Q4 2026	OPEN			Currently ~20%
+BRK-05	2026-02-23	Shadow default rate acknowledged by rating agency	50%	2026	OPEN			PIK masking ~6% vs reported 2.1%
+BRK-06	2026-02-23	Neocloud credit event (CoreWeave/Lambda/Crusoe)	45%	H2 2026	PARTIAL			Blue Owl walked from CoreWeave + Oracle deals
+BRK-07	2026-02-23	AI infrastructure markdown forces BDC sector write-down >$500M	40%	2026-2027	OPEN			
+BRK-08	2026-02-23	Blue Owl reduces hyperscale DC exposure or exits	35%	Q3-Q4 2026	PARTIAL			Selling 35% of OBDC II loans (forced, not strategic)
+BRK-09	2026-02-23	HRZN merger terms worse than announced (NAV floor broken)	60%	Q1-Q2 2026	OPEN			NAV collapsed 21%
+BRK-10	2026-02-23	HTGC tech-driven NAV decline >10%	50%	H2 2026	OPEN			>50% tech concentration
+BRK-11	2026-02-23	First BDC breaches 150% asset coverage	55%	2026	OPEN			PSEC closest
+BRK-12	2026-02-23	PLTR falls below $80 (40%+ decline)	60%	H2 2026	OPEN			Burry short thesis
+BRK-13	2026-02-23	AI darling SBC criticism from analysts	55%	Q1-Q2 2026	OPEN			Burry SBC framework
+BRK-14	2026-02-23	Big Tech Q1 2026: at least one cuts FY capex guidance	40%	Q1 2026 earnings	OPEN			Late April
+BRK-15	2026-02-23	Burry PLTR short >20% profit (below $108)	50%	Q4 2026	OPEN			
+BRK-16	2026-02-23	AI infra markdown triggers HTGC revaluation >15% NAV	45%	H2 2026	OPEN			
+BRK-17	2026-02-23	Hyperscaler accelerates GPU depreciation (5-6yr to 3-4yr)	50%	2026	OPEN			Burry GPU failure thesis
+BRK-18	2026-02-23	GPU failure rate disclosure forces BDC collateral revaluation	40%	H2 2026	OPEN			
+BRK-19	2026-02-23	Power grid constraint cited as capex limitation in Big Tech call	55%	Q2-Q3 2026	OPEN			
+BRK-20	2026-02-23	Blackwell overheating/failure issues become public	45%	H1 2026	OPEN			

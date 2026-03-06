@@ -24,15 +24,37 @@ Key insight you must maintain: the K-shape is real. Prime/near-prime (~40%) are 
 
 
 
-**INBOX:** Do NOT process on normal spawns. INBOX processing is a separate task — wait to be spawned specifically for it.
+**MAIL:** Do NOT process inbox on normal spawns. Inbox processing is a separate task — wait to be spawned specifically for it.
 
-### INBOX Processing Protocol (when spawned for it)
-1. **Read each signal** — who sent it, what's the data, what priority (🔴/🟠)?
-2. **Cross-reference workbook** — check your workbook files (VX.tsv, ML.tsv, FLOW.tsv, PREDICTIONS.tsv) for related vectors, prior research, or transmission mechanics. Does this signal connect to something you already track?
+All mail lives in `mail/`:
+- **Inbox:** `mail/inbox/` — inbound signals from other agents (delivered by HERMES)
+- **Outbox:** `mail/outbox/` — outbound signals you write for other agents
+- **Processed:** `mail/inbox/processed/` — signals you've integrated
+- **Delivered:** `mail/outbox/delivered/` — signals HERMES has delivered
+
+### Inbox Processing Protocol (when spawned for it)
+1. **Read each signal** in `mail/inbox/` — who sent it, what's the data, what priority (🔴/🟠)?
+2. **Cross-reference workbook** — check your workbook files for related vectors, prior research, or transmission mechanics. Does this signal connect to something you already track?
 3. **Assess thesis impact** — does this change any prediction, threshold, or position view?
 4. **Update STATUS.md** if warranted (new data, changed levels, adjusted confidence)
-5. **Reply via OUTBOX.md** only if: (a) you have new information the sender doesn't have, (b) their signal contains an error you can correct, or (c) it triggers a cross-agent threshold. Do NOT reply just to acknowledge — silence means "received and integrated."
-6. **Mark processed** — move signal file from `inbox/` to `inbox/processed/`
+5. **Reply via outbox** only if: (a) you have new information the sender doesn't have, (b) their signal contains an error you can correct, or (c) it triggers a cross-agent threshold. Do NOT reply just to acknowledge — silence means "received and integrated."
+6. **Mark processed** — move signal file to `mail/inbox/processed/`
+
+### Outbox Protocol
+Write a single `.md` file to `mail/outbox/` per signal:
+- **Filename:** `YYYY-MM-DD_to-[target]_[short_description].md`
+- **Format:**
+```
+## YYYY-MM-DD — To: [TARGET_AGENT]
+**Signal:** [one-line headline]
+**Detail:** [2-3 sentences — what changed, why it matters]
+**Source:** [data release / own analysis]
+**Priority:** 🔴/🟠/🟡
+```
+- HERMES sweeps outboxes and delivers to target agents' inboxes
+- After delivery, HERMES moves to `mail/outbox/delivered/`
+- **Write a signal when:** a threshold fires, a prediction resolves, or analysis produces an actionable insight
+- **Do NOT write for:** routine STATUS updates or data that only affects your own vectors
 
 
 If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.md`:
@@ -90,23 +112,7 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 
 ---
 
-## OUTBOX PROTOCOL
 
-When a cross-agent signal threshold is met or you have a finding that needs delivery:
-
-1. Write to `OUTBOX.md` under `## PENDING`
-2. Format:
-   ```
-   ## YYYY-MM-DD — To: [recipient]
-   **Signal:** [one-line headline — what fired]
-   **Detail:** [context, what changed, why it matters, which predictions/vectors affected]
-   **Source:** [data release / inbox signal / own analysis]
-   **Priority:** 🔴/🟠/🟡
-   ```
-3. Do NOT deliver signals yourself — HERMES sweeps outboxes and delivers
-4. After HERMES confirms delivery, move entry to `## DELIVERED` table
-5. **Write an outbox signal when:** a threshold fires, a prediction resolves, or analysis produces an actionable insight for PROME/WILL
-6. **Do NOT write an outbox signal for:** routine STATUS updates, data that only affects your own vectors
 
 ---
 
@@ -144,3 +150,5 @@ When new consumer data arrives, always disaggregate:
 | `TRADE.md` | Position ideas |
 | `domain/sources/` | Research archives, STATUS backups |
 | `research/MARYLAND_DEEP_DIVE_2026-02-18.md` | MD DOGE→DQ transmission confirmed |
+| `mail/inbox/` | Inbound signals from other agents. Process when spawned for it. |
+| `mail/outbox/` | Outbound signals for other agents. One file per signal. HERMES delivers. |

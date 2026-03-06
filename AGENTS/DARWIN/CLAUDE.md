@@ -28,6 +28,10 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 | DATE | DARWIN | TARGET | 🔴/🟠 | Description |
 ```
 
+**MAIL:** All inter-agent communication lives in `mail/`:
+- **Inbox:** `mail/inbox/` — inbound signals (delivered by HERMES). Process when spawned for it. Move to `mail/inbox/processed/` after integration.
+- **Outbox:** `mail/outbox/` — write one `.md` file per signal. Filename: `YYYY-MM-DD_to-[target]_[short_description].md`. HERMES delivers and moves to `mail/outbox/delivered/`.
+
 ---
 
 ## OUTPUT RULES
@@ -85,23 +89,7 @@ Don't chase novelty. Chase capability. If something doesn't make us meaningfully
 
 ---
 
-## OUTBOX PROTOCOL
 
-When you have a finding that needs delivery:
-
-1. Write to `OUTBOX.md` under `## PENDING`
-2. Format:
-   ```
-   ## YYYY-MM-DD — To: [recipient]
-   **Signal:** [one-line headline — what fired]
-   **Detail:** [context, what changed, why it matters, which predictions/vectors affected]
-   **Source:** [data release / inbox signal / own analysis]
-   **Priority:** 🔴/🟠/🟡
-   ```
-3. Do NOT deliver signals yourself — HERMES sweeps outboxes and delivers
-4. After HERMES confirms delivery, move entry to `## DELIVERED` table
-5. **Write an outbox signal when:** a threshold fires, a prediction resolves, or analysis produces an actionable insight for PROME/WILL
-6. **Do NOT write an outbox signal for:** routine STATUS updates, data that only affects your own vectors
 
 ---
 
@@ -112,3 +100,5 @@ When you have a finding that needs delivery:
 | `STATUS.md` | Weekly scan — HOT / WATCH / TRIED / BACKLOG. **Primary memory.** |
 | `BACKLOG.md` | Running improvement list |
 | `SOURCES.md` | Monitored sources with URLs and check frequency |
+| `mail/inbox/` | Inbound signals from other agents. Process when spawned for it. |
+| `mail/outbox/` | Outbound signals for other agents. One file per signal. HERMES delivers. |

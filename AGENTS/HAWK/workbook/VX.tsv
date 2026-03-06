@@ -1,6 +1,6 @@
 ID	SITUATION	TIER	DESCRIPTION	TRIGGERS_UP	TRIGGERS_DOWN	MARKET_IMPACT	UPDATED
-VX-HAWK-IRAN-01	Iran Nuclear/Military Crisis	RED	US military buildup active, strike possible within weeks	Talks collapse, strike ordered, carrier in theater	Deal reached, military drawdown	Oil +$20-40, VIX +20-40, UST down, Gold +5%	2026-02-18
-VX-HAWK-IRAN-02	Strait of Hormuz	YELLOW	20% global oil transits; closure risk if Iran conflict	Iran mines strait, attacks tanker, US strike triggers retaliation	De-escalation, naval escort agreement	Oil +$30-50, shipping rates spike, inflation shock	2026-02-18
+VX-HAWK-IRAN-01	Iran War (Active)	RED	War Day 7. No ceasefire, no talks. Iran FM: "no negotiations." Brent $90. NFP -92K. Scenario C 35%.	Ground troops deployed, nuclear signal, Hezbollah mass activation	Ceasefire + Hormuz reopens + oil <$80	Oil +14% realized; Scenario C = +$40-60 more	2026-03-06
+VX-HAWK-IRAN-02	Strait of Hormuz	RED	CONFIRMED CLOSED — shipping -92% vs pre-war. Kuwait/Qatar curtailed. UAE/Iraq imminent. Storage crisis active.	Iranian mines confirmed, all Gulf producers shut	Hormuz traffic >50% recovery, escort ops	Oil +$30-50 REALIZED; next leg $100-130 if producers shut	2026-03-06
 VX-HAWK-VEN-01	Venezuela Annexation	ORANGE	Trump admin rhetoric on "taking" Venezuela	Military intervention announced, sanctions tightened	Rhetoric cools, status quo	Oil +$5-10, LatAm risk-off	2026-02-18
 VX-HAWK-TWN-01	Taiwan Strait	YELLOW	Baseline PRC-Taiwan tension	PLA exercises exceed norms, US transit, blockade	Calm period, diplomatic engagement	Oil +$10-20, VIX +30-50, massive risk-off	2026-02-18
 VX-HAWK-UKR-01	Russia-Ukraine	YELLOW	Frozen conflict, Trump peace push	Major offensive, NATO escalation	Ceasefire, peace deal	Energy spike (Europe), VIX +10-20	2026-02-18
