@@ -32,12 +32,16 @@
 - If Hormuz closed 4 weeks → all Gulf producers forced to shut [EST] IntelliNews
 - **Brent trajectory:** $90 → $100-105 (Scenario B), $105-130 (Scenario C)
 
-### Phase 2: Demand Destruction / OPEC+ Unwind (NOT YET)
+### Phase 2: Demand Destruction / OPEC+ Unwind (NOT YET — but mechanics now mapped)
 - Original timing: Apr-May (pre-war, based on 140M barrel OPEC+ flush)
 - **War has changed the calculus.** OPEC+ unwind delayed indefinitely while Hormuz closed.
-- Phase 2 triggers: Hormuz reopens + demand destruction visible in data + OPEC+ signals unwind
-- Watch: gasoline demand data, refinery utilization, SPR release announcements
-- **Key question:** Does sustained $90+ Brent destroy demand before Hormuz reopens?
+- **OPEC+ deferred capacity: ~3.24 mbpd** (2.2M + 1.65M voluntary cuts). Total OPEC output ~31 mbpd vs 34+ mbpd pre-cuts. [CONF] OPEC Feb 2026 JMMC / OPEC_UNWIND_HISTORY.md
+- **Phase 2 mechanics (post-Hormuz-reopening):** Day 0 reopening → Day 3 emergency meeting → Day 8 ports max loading → Day 17 upstream stable → Week 6-8 physical delivery to demand centers
+- **CRITICAL:** Price crash happens at ANNOUNCEMENT (Day 3-8), not at physical delivery (Week 6-8). Satellite verification of VLCCs loading at Ras Tanura = price collapse. Must be short crude BEFORE reopening confirmed.
+- **Demand destruction timeline:** Historical minimum 20-24 weeks to -5% YoY gasoline. 2026 demand MORE inelastic (EVs removed marginal drivers) → may stretch longer. Earliest visible EIA data: May-June 2026.
+- **EIA data warning:** Early "product supplied" data will be DISTORTED by secondary stockpiling in weeks 1-4. Don't call demand destruction early.
+- **Leading indicators (watch now):** Airline capacity cuts / route groundings (leads gasoline by 4-8 weeks); ATA Truck Tonnage Index deceleration; diesel PPI spike
+- **Phase 2 triggers:** Hormuz reopens + OPEC+ Day 3 meeting confirmed + satellite VLCC loading visible → SHORT CRUDE IMMEDIATELY
 
 ### Phase Transition Indicators
 | Signal | Status | What It Means |
@@ -88,11 +92,11 @@
 | Gulf production | 🔴 4 | Kuwait/Qatar curtailing; UAE/Iraq imminent | All 4 shut = 5 | Mar 6 |
 | Brent price | 🔴🔴 5 | $90 (+14% since war) | >$100 = Scenario C territory | Mar 6 |
 | US production response | 🟡 2 | No response yet (too early) | Rig count +50 = shale responding | Mar 6 |
-| Demand destruction | 🟠 3 | Implied but not in data yet | Gasoline demand -5% YoY = confirmed | Mar 6 |
+| Demand destruction | 🟠 3 | Implied at $90+. 20-24 wk min historical. 2026 more inelastic. Watch airlines + ATA Tonnage as leading indicators. EIA early data misleads. | Gasoline -5% YoY confirmed (earliest May-June) | Mar 6 |
 | Storage (global) | 🔴 4 | Gulf filling; Cushing +1.564M bbl wk Feb 27 (~24-26M est) [CONF EIA] | Cushing <20M = WTI dislocation | Mar 6 |
 | Tanker/shipping | 🔴🔴 5 | VLCC WS400+, $423-445K/day ALL-TIME HIGH [CONF maritime-hub] | THRESHOLD BREACHED — super-cycle confirmed | Mar 6 |
 | Energy credit | 🟡 2 | Not yet stressed (high oil = good for E&P) | HY energy OAS >400 = stress | Mar 6 |
-| OPEC+ policy | 🟠 3 | Unwind paused by war | Emergency meeting called = 4 | Mar 6 |
+| OPEC+ policy | 🔴 4 | 3.24 mbpd deferred. Unwind paused by war. When Hormuz reopens: Day 3 meeting, Day 8 VLCC loading, price crash. Paper quotas ≠ physical (2022 gap was 2.7-2.89 mbpd). | Hormuz reopens → immediately = 5 | Mar 6 |
 
 **Convergence: 34/45 🔴🔴** *(Tanker/shipping upgraded 4→5 on VLCC rate confirmation)*
 
