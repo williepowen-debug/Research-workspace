@@ -1,6 +1,6 @@
 # MEMORY — Key Insights & Lessons
 
-**Last Updated:** 2026-03-02 19:00 UTC
+**Last Updated:** 2026-03-06 00:10 UTC
 
 ---
 
@@ -35,6 +35,15 @@ Phase 1 (Feb-Mar): Supply squeeze → tankers (STNG/TNP). Phase 2 (Apr-May): 140
 ### RED Team (Feb 14) — 80% Confidence
 Betting on ACKNOWLEDGMENT of existing stress, not predicting new stress. 5 transmission paths. Falsification: exit 50% if claims <240K + CBRE >-5%; exit 100% if BTFP 2.0 / HY OAS <260bps.
 *Full report → `AGENTS/RED/RED_TEAM_REPORT_2026-02-14.md`*
+
+### Session Management Protocol — Mar 5-6
+`/clear` stacks compaction summaries (lossy). Observed: 17% → 54% → 56% → 65% across 4 clears. Practical limit: 2-3 clears before `/new`. Two-tier handoff: checkpoint (quick block + git commit) before `/clear`, full handoff (daily notes + STATUS + MEMORY + push) before `/new`.
+
+### Agent Schema Standardization — Mar 5-6
+REGINALD's TSV schemas are the gold standard. HENRY migrated to match: VX (7→12 cols with Y/O/R thresholds), KB (7→14 cols with Entity/Data_Quote/Thesis_Impact), FLOW (5→10 cols with Speed/Layer/Status/Current_Position), PREDICTIONS (+Invalidation). Key win: agents now have mechanically triggerable vectors instead of vibes-based status calls.
+
+### TRADE.md Concept — Mar 6
+Per-agent trade targets from siloed research. Each domain maintains specific targets based on their analysis. Synthesize at PROME level. Not yet codified.
 
 ### Convergence Day — Feb 27 (MAJOR)
 Best single day of thesis confirmation. Multiple independent vectors fired simultaneously:
