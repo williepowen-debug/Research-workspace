@@ -1,6 +1,26 @@
 # SAM STATUS
 
-**Signal Status:** 🟠 ELEVATED | **Last Updated:** 2026-03-05 21:20 UTC (EOD UPDATE)
+**Signal Status:** 🔴🔴 EMERGENCY — CARRY THRESHOLD APPROACHING | **Last Updated:** 2026-03-06 13:48 UTC (POST-NFP)
+
+---
+
+## 🚨 NFP EVENT — MAR 6 CHECK-IN (13:48 UTC)
+
+**NFP February 2026: -92,000** (vs +59K expected — 151K miss) | **Unemployment: 4.4%** | Third payroll decline in 5 months
+**Pre-NFP USDJPY: ~157.5** | **Estimated post-NFP: 153-155 immediate; 150-152 in 1-14 days**
+**HENRY Carry/JPY vector: UPGRADED 2→4** — Aug 2024 playbook threshold approaching
+
+**Probability update:** 7d carry unwind: **50%** (was 20%) | 30d: **85%** (was 75%) | 60d: **92%** (was 90%)
+
+**Key watch:** USDJPY close today. Below 155 = Phase 2 loading. Below 152 = Aug 2024 replay.
+**Korea:** Dollar weakness → KRW strengthens → BoK UST selling PAUSED (partial three-anchor relief)
+**Nikkei Monday open:** -2% to -4% expected if USDJPY holds below 155 into weekend
+
+Full check-in: `AGENTS/SAM/CHECKIN_MAR6.md`
+
+---
+
+## EOD UPDATE — MAR 5 (21:20 UTC)
 
 **EOD Summary (Mar 5):** Asia staged a technical relief bounce — NOT a fundamental reversal. Nikkei +1.9% to **55,278**, KOSPI +9.6% (best day since 2008), Kosdaq +14.1%. USD/KRW pulled back sharply to ~**1,467** (from 1,500 breach). USD/JPY held ~156.85-157.00 range — yen safe-haven bid persisting but not accelerating. Carry unwind **STABILIZING short-term** (margin call clearing, Bessent oil statement) but structural thesis UNCHANGED. BOJ frozen. SPX -1.22% on US close — divergence between Asia bounce and continued US weakness. NFP tomorrow is the bifurcation event.
 

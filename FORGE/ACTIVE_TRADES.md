@@ -3,7 +3,42 @@
 *Every trade gets logged here at entry with full thesis. Updated as trades evolve.*
 *P/L tracking lives in FORGE/STATUS.md. This file is the WHY, not the what.*
 
-**Last Updated:** 2026-03-03
+**Last Updated:** 2026-03-06
+
+---
+
+## Closed — March 6, 2026 (NFP Day)
+
+**Context:** NFP printed -92K (first negative). WAL -13% ($70), KRE -3.6% ($64), Brent $90. Thesis confirmation day.
+**Rule applied:** Harvest short-dated on red days, keep long-dated for the grind. Re-enter on green days.
+
+### USO $91C Mar 18 | SOLD @ $17.00 | +$1,098 (+183%)
+Entered Mar 3 as oil momentum play. Brent went $79→$90 on Hormuz storage crisis (Kuwait/Qatar curtailing production). Sold because: 12 days to expiry, headline risk on diplomacy, still have USO LP units for oil exposure. Will got $17.00 fill after adjusting from $17.50.
+
+### WAL $82.5P Jun 18 | SOLD @ $15.18 | +$1,126 (+288%)
+Best single realized gain. Sold to reduce WAL concentration (had 4 Jun puts, now 2). WAL at $70 — the $85P and $77.5P Jun remain for continued downside. Trimming the middle strike preserves the waterfall while banking profit.
+
+### WAL $77.5P Mar 20 | SOLD @ $8.38 | +$647 (+340%)
+NFP lotto. Entered at $2.25 (Mar 3), worth $8.38 three days later. 14 days to expiry = pure theta risk on any bounce. Highest percentage return of the day. Limit set at $8.20, filled at $8.38.
+
+### KRE $66P Mar 13 | SOLD @ $2.78 | +$131 (+90%)
+NFP lotto. 7 days to expiry. No reason to hold into expiry week. Fills came quick once decision was made.
+
+### KRE $62P Mar 31 | SOLD @ $2.00 | +$54 (+41%)
+Shorter-dated KRE position. Freed up capital for green-day re-entry. Originally flagged for roll to Jun $65P (Mar 3 action item) — instead just harvested on the spike.
+
+---
+
+## Updated Thesis Notes — March 6
+
+### WAL Puts (remaining: $85P + $77.5P Jun)
+WAL at $70. Down 13% in a single session on NFP -92K. No specific WAL catalyst — pure vulnerability premium on sector-wide stress. The slow grind thesis is playing out faster than expected. Next test: earnings season (late April). Could see $60 if Q1 reveals more hidden CRE.
+
+### APO Puts ($100P Jun + Apr)
+**Private credit thesis went mainstream today.** Blue Owl -60%, record short interest. Blackstone BCRED hemorrhaging ($3.7B redemptions, record 7.9% of fund). Steve Eisman calling it a "slow brewing scandal." CNN running "echoes of 2008." APO puts barely moved today (-7/-8%) — these are coiled. BIZD (private credit ETF) being evaluated as additional play.
+
+### HYG $75P Jun x10
+LIQUID projected LIQ-01 (320bps) to trigger at open. HY OAS was 297 as of Mar 4, trending up. If credit widens on NFP + oil, these 10 contracts could be the sleeper. Currently +70%.
 
 ---
 

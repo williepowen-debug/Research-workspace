@@ -1,116 +1,92 @@
 # BROCK STATUS — Private Credit / Alt Assets / PE / ILS
 
-**Last updated:** March 5, 2026 (EOD)
-**Agent:** BROCK — Private Credit & Alternative Assets
+**Last context:** Private credit stress going mainstream (CNN, Eisman "slow brewing scandal") as NFP prints -92K, WAL -13%, KRE -3.6%, and BCRED holds the gate with employee capital injections — thesis validation accelerating.
+**Last updated:** 2026-03-06
 
 ---
 
 ## DASHBOARD
 
-| Metric | Value | Direction | Notes |
-|--------|-------|-----------|-------|
-| Private Credit Default Rate (Fitch) | **5.8%** → UBS warns **15%** worst-case | 🔴 ↑↑ | Shadow rate 7x reported |
-| BCRED Gross Redemptions | **$3.8B** (7.9% of fund) — 100% being honored | 🔴 Record | Blackstone upped tender to 7% + employee offset |
-| BDC Median NAV | **73% of NAV** (listed BDCs) | 🔴 NEW | Market pricing in credit deterioration |
-| PIK Loans (Private Credit) | **6.4%** of portfolios — doubled YoY | 🔴 NEW | Cash avoidance = hidden stress signal |
-| APO Stock | **~$107** (class action filing today) | 🔴 ↓ | Epstein ties — class period May 2021–Feb 2026 |
-| Blue Owl (OWL) | Ending quarterly liquidity in OCSL II | 🔴 ↓↓ | Switching to periodic payouts from asset sales |
-| Athene Assets | **$442B**, 48% illiquid | 🔴 Growing | RBC 412%, reflexivity loop live |
-| ARI→Athene CRE Transfer | **$9B at 99.7%** | 🔴 Prior | Athene absorbed $9B CRE risk |
-| P&I Insurance (Hormuz) | **Cancelled effective Mar 2** | 🔴 Active | Reinsurance withdrawn |
-| Hormuz Traffic | **~Zero** | 🔴 Crisis | 150 ships stranded |
+| Metric | Value | Dir | Source |
+|--------|-------|-----|--------|
+| Private Credit Default Rate (Fitch) | **5.8%** (shadow ~7%) | 🔴 ↑↑ | [CONF] Fitch PCDR Feb 2026 |
+| UBS worst-case default estimate | **15%** | 🔴 | [CONF] UBS Mar 4 |
+| BCRED Gross Redemptions | **$3.8B** (7.9% of fund) | 🔴 Record | [CONF] Reuters Mar 3 |
+| BDC Median Listed Price | **73% of NAV** | 🔴 | [CONF] Market data Mar 4 |
+| PIK Loans (Private Credit) | **6.4%** — doubled YoY | 🔴 ↑ | [CONF] Industry data Mar 4 |
+| APO Stock | **~$107** | 🔴 ↓ | [CONF] Market Mar 5 |
+| Blue Owl (OWL) OCSL II | Ending quarterly liquidity | 🔴 ↓↓ | [CONF] Bloomberg Mar 3 |
+| Athene Assets | **$442B**, 48% illiquid, RBC 412% | 🔴 | [CONF] 10-K Feb 2026 |
+| P&I War Risk Insurance | Cancelled effective Mar 2 | 🔴 | [CONF] Windward.ai Mar 2 |
+| Hormuz Tanker Traffic | ~Zero (150 ships stranded) | 🔴 | [CONF] Reuters Mar 5 |
+| Brent Crude | **$90** | 🔴 ↑ | [CONF] Market Mar 6 |
+| WAL (bank proxy) | **$70** (-13% today) | 🔴 | [CONF] Market Mar 6 |
+| KRE (regional bank ETF) | **$64** (-3.6% today) | 🔴 | [CONF] Market Mar 6 |
+| NFP (Feb print) | **-92K** | 🔴 | [CONF] BLS Mar 6 |
+
+---
+
+## CONVERGENCE MATRIX
+
+| Vector | Score | Current State | Threshold → Next Level | Updated |
+|--------|-------|---------------|----------------------|---------|
+| BCRED Redemptions | 🔴 (4) | $3.8B (7.9%), record, employees injecting capital to avoid gate | >10% Q2 → formal gate | Mar 3 |
+| Blue Owl Liquidity | 🔴 (4) | OCSL II ending quarterly liquidity, asset-sale payouts only | Asset fire sale pricing disclosed | Mar 3 |
+| PIK Rates | 🔴 (4) | 6.4%, doubled YoY; 40% of borrowers neg FCF | >8% at any major fund → distress | Mar 4 |
+| BDC NAV Discounts | 🔴 (4) | Median 73% of NAV; market pricing 27% impairment | Median <70% → full capitulation | Mar 4 |
+| Default Rates | 🟠 (3) | Fitch 5.8% reported; UBS 15% worst-case; shadow ~7% | Q1 earnings confirming >8% | Mar 4 |
+| Athene/Insurance | 🔴 (4) | $442B, 48% illiquid, $9B CRE absorbed, RBC 412% | RBC filing revision or SEC inquiry | Feb 2026 |
+| Software Marks | 🟠 (3) | 40% of sponsor-backed loans; AI disruption eroding SaaS moats | Q1 markdowns in PE reports | Mar 4 |
+| Bank Warehouse Lines | 🟠 (3) | WAL -13%, KRE -3.6% today; transmission live | BDC revolver draws spike | Mar 6 |
+| Regulatory Action | 🟡 (2) | SEC 2026 exam expected; no enforcement yet | Any enforcement action filed | Mar 5 |
+| Mainstream Narrative | 🔴 (4) | CNN "echoes of 2008", Eisman "slow brewing scandal", Reuters Breakingviews, CNBC | Hedge fund consensus = window closing | Mar 6 |
+
+**Convergence: 35/50 🔴 — High Stress, Pre-Event Zone**
 
 ---
 
 ## KEY THESIS VECTORS
 
-### 1. BCRED — Active Distress Signal (UPDATED Mar 5)
-- Gross redemptions: **$3.8B** (7.9% of $82B fund) — RECORD (revised up from $3.7B)
-- **Blackstone honoring 100% of redemptions** — upped tender offer to 7%, employees covering remaining 0.9%
-- Jon Gray on CNBC: "Semi-liquid caps are a feature, not a bug" — full narrative management mode
-- Reuters Breakingviews (today): BCRED has $8B firepower → can absorb ~3 quarters of redemptions at current rate
-- Gate breach thesis: NOT triggered yet, but only because they're injecting capital to avoid it
-- Key tell: honoring 100% is MORE alarming than partial honor — implies they fear the signal of a gate more than the cash cost
-- CNBC article (today): KKR, Ares, Carlyle all dragged down — contagion confirmed across sector
+### 1. BCRED — Active Distress Signal
+- Gross redemptions: **$3.8B** (7.9% of $82B fund) — RECORD [CONF Reuters Mar 3]
+- Blackstone honoring 100% via employee capital injection ($400M, BX + employees) — gate avoidance confirmed [CONF LIQUID/Reuters Mar 3]
+- Jon Gray on CNBC: "Semi-liquid caps are a feature, not a bug" — narrative management
+- $8B firepower → ~3 more quarters at current rate [CONF Reuters Breakingviews Mar 5]
+- **Key tell:** 100% honor via self-injection is MORE alarming than gating — they fear the signal more than the cash cost
 
-### 2. Apollo/Athene — Reflexivity Loop + Legal Overhang (UPDATED Mar 5)
-- APO at ~$107 (was $120; pre-stress ~$170+)
-- **CLASS ACTION FILED (today/yesterday):** Multiple law firms filing
-  - Class period: **May 10, 2021 – February 21, 2026**
-  - Allegation: Rowan and Leon Black misled investors by falsely denying Epstein business ties in 2021–2022 SEC filings
-  - Trigger event: DOJ documents showed Epstein "heavily involved" with Apollo business
-  - Stock fell $7.89 (5.7%) over two days to $126.85 when news broke Feb 3
-  - Lead plaintiff deadline: May 1, 2026
-  - This is GOVERNANCE risk layered on top of credit stress — dual threat
-- Barclays cut PT from $158 → $131 (Mar 4)
-- Marc Rowan explicitly warned "shakeout coming for private markets" (Mar 3) — now has class action filed against him
-- **ARI → Athene $9B CRE transfer at 99.7%**: Athene holds $442B assets, 48% illiquid + this CRE; RBC 412% = reflexivity fiction protecting everything
+### 2. Apollo/Athene — Dual Threat
+- APO ~$107 (was $170+ pre-stress); Barclays PT $131 [CONF Barclays Mar 4]
+- Class action filed: Epstein/Rowan/Black misrepresentation, class period May 2021–Feb 2026; lead plaintiff deadline May 1 [CONF court filings Mar 5]
+- Athene: $442B assets, 48% illiquid; absorbed $9B ARI CRE at 99.7% par [CONF ARI filings]
+- Rowan warned "shakeout coming" Mar 3 — insider admission, positioned for it
+- APO break below $100 = psychological support gone
 
-### 3. Private Credit Industry — Systemic Fracture (UPDATED Mar 5)
-- UBS worst-case default estimate: **15%** (up from 5.8% Fitch PCDR as of Feb)
-- $162B maturity wall due in 2026 at higher rates
-- Software sector (40% of sponsor-backed loans) under AI disruption → valuation collapse
-- **PIK loans DOUBLED to 6.4%** of private credit portfolios — critical signal:
-  - PIK = borrowers avoiding cash interest payments → cash flow stress masked in book value
-  - Doubled rate means stress accumulating invisibly in NAV figures
-  - Hunterbrook report on Hercules Capital (HTGC) flagging PIK methodology concerns
-- **BDC median listed price: 73% of NAV** — market already pricing 27% impairment on avg
-  - Chicago Atlantic (LIEN) trading 20-25% below NAV even with covered yield
-  - NAV discount this wide = investors don't trust stated book values
-- Blue Owl Capital Corporation II: **ending quarterly liquidity**, switching to periodic asset-sale payouts
-- Blue Owl + BCRED = two largest retail-facing funds both restricting/stressing simultaneously
-- CNBC (today): KKR, Ares, Carlyle all under pressure — "rush for exits prompting fresh scrutiny"
-- SEC expected 2026 examination of illiquid retail products — regulatory catalyst pending
-- Reuters Breakingviews today: "Show-me-the-money moment" framing = mainstream narrative catching up to thesis
-- Mark-to-market recognition expected Q2 2026 earnings = next catalyst window (unchanged)
+### 3. Private Credit Industry — Systemic Fracture
+- $162B maturity wall due 2026 at higher rates [CONF UBS Mar 4]
+- PIK doubled to 6.4%; 40% of borrowers have negative FCF [CONF Moody's/industry Mar 6]
+- Software sector (40% of sponsor-backed loans) under AI disruption
+- MFS UK collapse: £2B fraud, double-pledging — Barclays £600M, Jefferies £100M, Apollo/Atlas exposed [CONF Reuters]
+- **Narrative acceleration (Mar 6):** Steve Eisman "slow brewing scandal" (Benzinga); CNN "echoes of 2008"
 
 ### 4. Insurance / Reinsurance — Hormuz Shock
-- P&I (Protection & Indemnity) war risk cover **cancelled effective March 2, 2026**
-  - 72-hour notice triggered by withdrawal of reinsurance backing
-  - Effective March 5, coverage gone
-- 150+ ships stranded, tanker traffic near zero
-- 20% of global oil supply, significant LNG disrupted
-- Brent crude +13% to $82/bbl; $100 feared
-- **Reinsurance capital now exposed to**: stranded cargo, vessel damage claims, marine war risk
-- ILS (insurance-linked securities / cat bond) space: not yet pricing this as "catastrophe" event but marine war risk is different from traditional cat triggers
-- Watch: Lloyd's syndicates, Everest Re, RenaissanceRe exposure disclosures
+- P&I war risk cover cancelled effective Mar 2 [CONF Windward.ai]
+- 150+ ships stranded, Brent $90, $100 feared [CONF Market Mar 6]
+- Transmission: war risk withdrawal → ILS stress → reinsurer capacity crunch → PE portfolio cost pressure
 
 ---
 
-## PRIOR STATE (Mar 4) → MARCH 5 DELTAS
+## ACTIVE CATALYSTS
 
-| Item | Mar 4 State | Mar 5 State | Delta |
-|------|-------------|------------|-------|
-| BCRED redemptions | $3.7B gross, honoring more than usual | $3.8B, 100% honored via employee injection | 🔴 Escalating — gate avoidance confirmed |
-| APO class action | Flagged by OTTO | Filed — Epstein/Rowan/Black, class period 2021-2026 | 🔴 NEW legal risk layer |
-| Blue Owl liquidity | Restrictions active | OCSL II ending quarterly liquidity entirely | 🔴 Worse — full restructure of liquidity terms |
-| BDC NAV | Not tracked | Median 73% of NAV | 🔴 NEW — market pricing 27% discount |
-| PIK loans | Not tracked | 6.4%, doubled YoY | 🔴 NEW — hidden stress accumulation |
-| Mainstream narrative | NYT "bank run" language | CNBC, Reuters Breakingviews both covering today | 🟡 Thesis going consensus — close the window |
-| APO stock | ~$107 | ~$107 (class action adding pressure) | 🔴 New overhang |
-
----
-
-## PRIOR STATE (Feb 24 Inbox) → MARCH 4 DELTAS
-
-| Item | Feb 24 State | Mar 4 State | Delta |
-|------|-------------|------------|-------|
-| Default rate | Fitch 5.8%, rising | UBS warns 15% worst-case | 🔴 MAJOR — consensus shifting |
-| BCRED | Redemption pressure known | 7.9% / $3.7B gross record draw | 🔴 Worse than modeled |
-| Blue Owl | Complaints, liquidity concerns | -60% from peak, restrictions active | 🔴 Confirmed distress |
-| Athene | $442B assets, reflexivity mapped | +$9B CRE from ARI at 99.7% | 🔴 NEW — loop expanding |
-| APO stock | ~$120 | ~$107, Barclays cut | 🔴 Continued deterioration |
-| Insurance/ILS | Background risk | P&I cancelled, Hormuz shut | 🔴 NEW — acute crisis |
-| Rowan (APO CEO) | No public warning | Explicitly warns of "shakeout" | 🔴 Inflection — insider admission |
-
----
-
-## CROSS-DOMAIN SIGNALS
-
-- **Hormuz → Insurance → Private Credit → PE**: War risk reinsurance withdrawal creates ILS stress → reinsurers reducing capacity → insurance capacity crunch → higher premiums for industrial/energy assets → PE portfolio company cost pressure
-- **ARI → Athene**: Apollo moving CRE risk off listed REIT onto insurance balance sheet at par. Implies either: (a) they believe the marks, or (b) they need ARI's balance sheet clean for a reason (potential restructuring, capital raise, or they know CRE marks are stale and want it off public reporting)
-- **Rowan "shakeout" warning**: CEO of the dominant survivor calling the shakeout = they've war-gamed this and positioned. Athene's ABF/insurance model IS the surviving structure. But the ARI CRE transfer complicates that narrative.
-- **BKLN divergence from equities**: Credit leading indicator still flashing. Senior loans not participating in any equity recovery attempts.
+| Date | Catalyst | Impact |
+|------|----------|--------|
+| Mar 6 (today) | NFP -92K print; WAL -13%, KRE -3.6% | 🔴 Bank stress accelerating |
+| Mar 6 (today) | Eisman "slow brewing scandal" + CNN "echoes of 2008" | 🔴 Thesis going consensus |
+| Apr–May 2026 | Q1 2026 earnings — private credit mark-to-market | 🔴 Key resolution event |
+| Apr 6, 2026 | TCPC (BlackRock TCP Capital) class action lead plaintiff deadline | 🟠 Legal catalyst — Nov 2024–Jan 2026 class period, First Brands/NAV impairment |
+| May 1, 2026 | APO class action lead plaintiff deadline | 🟠 Legal catalyst |
+| Q2 2026 | BCRED Q2 redemption data — gate threshold test | 🔴 Gate or no gate |
+| 2026 ongoing | SEC exam of illiquid retail products | 🟠 Regulatory wildcard |
+| TBD | Hormuz reopening or prolonged closure | 🟠 Reinsurance exposure clarity |
 
 ---
 
@@ -118,25 +94,41 @@
 
 | Item | Watch For |
 |------|-----------|
-| Athene RBC | Any regulatory filing revision; embedded leverage review |
-| BCRED gate | If Q2 redemptions exceed 10% → formal gating likely; $8B firepower gives ~3 more quarters |
-| Blue Owl OCSL II | Asset fire sale pricing — what do they sell and at what marks? |
-| APO class action | Lead plaintiff filing by May 1; any Rowan/Black depositions or document requests |
-| APO | Break below $100 = psychological support gone; class action adds ceiling |
-| ARI marks | Q1 2026 10-Q — how is the $9B CRE transfer represented? |
-| PIK escalation | Watch for any fund disclosing >8% PIK — that's distress territory |
-| BDC NAV | If median falls below 70% → full capitulation pricing |
-| SEC | 2026 exam of illiquid retail products — any enforcement action = catalyst |
-| Hormuz | Duration — each week closed = more reinsurance loss estimates |
-| UBS 15% | If any major lender confirms above 10% in Q1 reporting |
+| BCRED gate | Q2 redemptions >10% → formal gating; $8B firepower = ~3 quarters |
+| APO | Break below $100; class action lead plaintiff filing |
+| ARI marks | Q1 2026 10-Q — how is $9B CRE transfer represented? |
+| Athene RBC | Any regulatory filing revision; SEC inquiry |
+| PIK escalation | Any fund disclosing >8% PIK = distress territory |
+| BDC NAV | Median falls below 70% → full capitulation |
+| Blue Owl OCSL II | Asset fire sale pricing — what sells and at what marks? |
+| Mainstream narrative | Hedge fund consensus forming = window to reposition closing |
 
 ---
 
-## SOURCES ACTIVE
-- Reuters: BCRED outflow data
-- Bloomberg: Senior staff self-injection, Rowan warning, Barclays PT cut
-- UBS: 15% worst-case default warning
-- Fitch: 5.8% PCDR (Feb baseline)
-- Wikipedia / Guardian / Reuters: Hormuz crisis timeline
-- Windward.ai: P&I cancellation mechanics
-- FinancialContent/MarketMinute: $162B maturity wall, Blue Owl -60%
+## EXIT RULES (Falsification)
+
+*(Full detail in CLAUDE.md — 4 categories)*
+
+**1. Thesis Kill (exit 100% private credit overlay)**
+- Fed announces emergency lending facility for private credit vehicles
+- HY OAS reverses below 260bps for 10+ sessions [ref LIQUID]
+- Major private credit fund reports default rate declining 2 consecutive quarters
+
+**2. Position-Specific**
+- APO reclaims $130 sustained (3+ sessions) → reassess puts
+- BCRED redemptions fall below 2% for 2 consecutive quarters → gate thesis dead
+- BDC median NAV discount narrows to <10%
+
+**3. Convergence Downgrade**
+- 3+ vectors drop from 🔴 to 🟠 in same period → reassess timeline
+- PIK rates stabilize and begin declining → leading indicator of recovery
+
+**4. Time-Based**
+- Q2 2026 earnings (~late April/May) = next major resolution event
+- If no new stress signal by Jun 2026, reassess thesis freshness
+
+---
+
+## BOTTOM LINE
+
+Private credit stress has crossed from specialist concern to mainstream narrative — CNN "echoes of 2008" and Eisman's "slow brewing scandal" signal consensus is forming. Today's NFP -92K with WAL -13% and KRE -3.6% shows the labor→bank transmission chain activating. The window to position ahead of consensus is closing fast: Q1 2026 earnings (April/May) is the next major mark-to-market catalyst. Watch BCRED Q2 redemptions — if they exceed 10%, the gate thesis triggers.

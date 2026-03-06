@@ -1,6 +1,6 @@
 # MEMORY — Key Insights & Lessons
 
-**Last Updated:** 2026-03-06 00:10 UTC
+**Last Updated:** 2026-03-06 16:45 UTC
 
 ---
 
@@ -81,6 +81,15 @@ QatarEnergy halted ALL production. TTF +45%. **Insurance cliff Mar 5** — Hormu
 
 ### Mar 5 > NFP Friday — Mar 2
 Insurance withdrawal date is the most important catalyst this week. If Hormuz becomes uninsurable, disruption is structural regardless of military situation. Takes weeks to reinstate coverage even if fighting stops.
+
+### NFP -92K — Thesis Confirmed — Mar 6
+First negative NFP this cycle. Dec revised to -17K (two negative months). Stagflation locked: earnings +3.8% YoY, Fed can't cut. WAL -13% ($70), KRE -3.6% ($64). Harvested 5 short-dated positions for $3,056 realized profit (+183% to +340%). Account $51.2K, +173% all-time. **Rule validated: harvest short-dated on red days, re-enter on green days.**
+
+### Poisoned Reference Files — Mar 6
+Agent self-audit (BROCK) discovered EXPECTED_SIGNALS.md still contained PSEC PIK at 35% (corrected to 8.6% months ago) and FSK dividend at $0.70 (cut to $0.48). BDC_CASH_COVERAGE.tsv had same problem. **Lesson: separate methodology from live data.** Methodology docs should contain thresholds/interpretation only, never current values. Live data lives in STATUS.md + VX.tsv. Agent self-audits catch things Prome misses — high value practice.
+
+### Hormuz Storage Crisis — Mar 6
+Kuwait/Qatar curtailing production — can't export, storage filling. If Hormuz stays closed 4 weeks, ALL Gulf producers (Iraq, Kuwait, UAE, Qatar) forced to shut wells. Brent $90. Iran FM: "no ceasefire, no negotiations." HAWK scenario C raised 20→35%.
 
 ---
 

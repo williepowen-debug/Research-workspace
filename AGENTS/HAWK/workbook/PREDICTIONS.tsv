@@ -1,0 +1,6 @@
+Pred_ID	Date_Made	Prediction	Confidence	Timeframe	Status	Date_Resolved	Outcome	Invalidation	Notes
+HAW-01	2026-02-18	US strikes Iranian nuclear facilities before end Q1 2026	25%	Q1 2026	CONFIRMED	2026-02-28	Operation Epic Fury launched		Originally HAWK-01
+HAW-02	2026-02-18	Iran retaliates by disrupting Hormuz within 72h of US strike	60%	Conditional	CONFIRMED	2026-03-03	Hormuz closed, fire-upon warning		Originally HAWK-02
+HAW-03	2026-02-18	No US military intervention in Venezuela in 2026	95%	2026	OPEN			Rhetoric only so far
+HAW-04	2026-03-01	Scenario B (sustained campaign) is base case through Q2	55%	Q2 2026	OPEN		Scenario C confirmed → downgrade. Watch Kuwait curtailment.	REASSESSED Mar 6: B still base (55%) but C elevated to 35%. Storage crisis = active C trigger. Kuwait forced curtailment = C confirmation event.
+HAW-05	2026-03-01	Hezbollah stays dormant (no mass activation)	65%	Conditional	OPEN		Mass rocket/ground offensive from Lebanon	UPDATED Mar 6: Lebanon govt banning HZB ops + LAF disarmament = reduced near-term risk. Confidence DOWN slightly (was 70%) — disarmament fragile, HZB may resist.
