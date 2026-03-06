@@ -12,7 +12,7 @@
 
 | To | Priority | Signal | Status |
 |----|----------|--------|--------|
-| REGINALD | 🔴 | Bank losses ~$1.8B+; MFS UK: Barclays + Atlas SP (Apollo) exposed £2B+ | ⏳ PENDING |
+| REGINALD | 🔴 | Bank losses ~$1.8B+; MFS UK: Barclays + Atlas SP exposed £2B+; JPM/Barclays/Fifth Third sued $230M+ Tricolor | ⏳ PENDING |
 | BROCK | 🔴 | BCRED $3.7B redemptions (7.9% > 5% cap, near-gate); TCPC securities fraud class action | ⏳ PENDING |
 | CARL | 🔴 | Auto extensions RISING (3.81% subprime); K-shape confirmed; CFPB dead = no enforcement | UPDATED 2026-02-16 |
 | LIQUID | 🟠 | BCRED gate breach = private credit liquidity stress signal | ⏳ PENDING |
@@ -44,11 +44,13 @@ Recovery ratio 30.58% (vs 41% benchmark). Construction employment -92.7% YoY. S&
 | Indicator | Value | Status |
 |-----------|-------|--------|
 | Confirmed Fraud Cases | **4** (MFS confirmed) | 🔴 |
-| Bank Losses Disclosed | ~$1.8B+ (+ MFS UK exposure TBD) | 🔴 |
-| BCRED Redemptions | $3.7B = 7.9% (cap is 5%) | 🔴 |
+| Bank Losses Disclosed | ~$1.8B+ (+ MFS UK TBD); JPM/Barclays/Fifth Third sued $230M+ Tricolor ABS | 🔴 |
+| BCRED Redemptions | $3.8B = 7.9% (met 100% via mgmt capital; no hard gate) | 🔴 |
+| Blue Owl | BOCC II ended quarterly liquidity — soft gate, switching to asset-sale payouts | 🔴 |
 | Large Bankruptcies | 9/week Feb 2026 = COVID levels | 🔴 |
-| 60+ DQ Rate | 6.74% (Dec 2025) — 32-year high | 🔴 |
+| 60+ DQ Rate | **6.9% (Jan 2026) — NEW RECORD** (was 6.74% Dec 2025) | 🔴 |
 | Subprime Extension Rate | 3.81% (5x prime, RISING) | 🔴 |
+| NFP | **-92,000 (Mar 6, 2026) — FIRST NEGATIVE PRINT** | 🔴 |
 | Carvana Extension Rate | 5.41% (+45% spike) | 🔴 |
 | 2022 Vintage CNL | 22.42% at 31 months | 🔴 |
 | Recovery Ratio | 30.58% (vs 41% benchmark) | 🔴 |
@@ -66,12 +68,14 @@ Recovery ratio 30.58% (vs 41% benchmark). Construction employment -92.7% YoY. S&
 - International expansion of cockroach thesis confirmed
 - **Signal needed:** REGINALD (Barclays exposure); LIQUID (Apollo private credit)
 
-### BCRED Near-Gate — CRITICAL
-- Q1 2026: $3.7B redemption requests = 7.9% of $82B fund (standard cap = 5%)
-- Blackstone meeting redemptions but EXCEEDING the quarterly cap
-- Blue Owl also suspended redemptions separately
-- **Gate threshold: Prediction #8 partially confirmed.** BCRED > Oaktree (was at 4.89%)
-- Watch: Whether Blackstone gates vs. asset sales to meet
+### BCRED Near-Gate — CRITICAL (Updated Mar 6)
+- Q1 2026: $3.8B redemption requests = 7.9% of $82B fund (standard cap = 5%)
+- Blackstone meeting **100% of requests** — upping tender to 7%, mgmt/employees covering remaining 0.9%
+- Claims $8B+ available liquidity at year-end 2025; Gray: "feature not a bug"
+- **Blue Owl Capital Corporation II: SOFT GATE** — ended quarterly liquidity payments (~Feb 19); switching to periodic payouts via asset sales/earnings
+- Broader alt managers (BX, OWL, KKR, ARES, CG) all declining — CNBC: "rush for the exits"
+- **Prediction #8 = PARTIAL.** No hard gate yet. Q2 redemptions (June announcement) is the test.
+- With NFP -92K: Q2 redemption pressure likely to intensify
 
 ### TCPC Securities Fraud Class Action
 - BlackRock TCP Capital Corp (NASDAQ: TCPC)
@@ -122,7 +126,10 @@ Recovery ratio 30.58% (vs 41% benchmark). Construction employment -92.7% YoY. S&
 |------|-------|--------|
 | Feb 26 | **MFS UK collapse confirmed** | 🔴 CONFIRMED |
 | Feb 18 | Carvana Q4 earnings | ✅ Miss; -24% AH |
-| Mar 4 | BCRED $3.7B redemption disclosed | 🔴 NEW |
+| Mar 2 | JPM/Barclays/Fifth Third sued over Tricolor ABS ($230M+) | 🔴 NEW |
+| Mar 4 | BCRED $3.8B redemption — met 100% via mgmt capital | 🔴 RESOLVED (no gate) |
+| Mar 5 | Blue Owl BOCC II soft gate — ending quarterly liquidity | 🔴 NEW |
+| Mar 6 | **NFP -92,000 — first negative print** | 🔴 NEW |
 | Mar 15 | Carvana discovery production 1 | 🟠 UPCOMING |
 | Apr 6 | TCPC class action lead deadline | 🟠 |
 | Apr 30 | Tricolor vehicle liquidation | 🟠 |
@@ -141,7 +148,9 @@ Recovery ratio 30.58% (vs 41% benchmark). Construction employment -92.7% YoY. S&
 | 1 | 4th fraud case confirmed | ✅ **CONFIRMED** — MFS UK, Feb 26, 2026 |
 | 8 | BDC redemptions trigger gate | 🟠 **PARTIAL** — BCRED 7.9% > 5% cap; not hard-gated yet |
 | 24 | Carvana 10-K delayed or GT resign | ❌ Filed; no GT resignation (partial miss) |
-| 25 | First Brands converts to Ch. 7 | ⏳ Status unclear — need check |
+| 25 | First Brands converts to Ch. 7 | ⏳ Status unclear — need PACER check |
+| NEW | APO class action filed (May 10 2021–Feb 21 2026); lead deadline May 1, 2026 | 🟠 ACTIVE |
+| NEW | Bank liability suit: JPM/Barclays/Fifth Third sued for Tricolor ABS fraud | 🔴 NEW |
 
 ---
 
