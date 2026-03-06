@@ -91,14 +91,14 @@
 | Hormuz/chokepoint | 🔴🔴 5 | -92% shipping, de facto closed | Physical mines = confirmed blockade | Mar 6 |
 | Gulf production | 🔴 4 | Kuwait/Qatar curtailing; UAE/Iraq imminent | All 4 shut = 5 | Mar 6 |
 | Brent price | 🔴🔴 5 | $90 (+14% since war) | >$100 = Scenario C territory | Mar 6 |
-| US production response | 🟡 2 | No response yet (too early) | Rig count +50 = shale responding | Mar 6 |
+| US production response | 🟡 2 | NON-RESPONSE CONFIRMED: 411 oil rigs (flat/declining), DUC 5,015 (-41% from peak), no capex increases announced. Max surge 200-240K bpd/90 days — well below crisis need. | Rig count >461 (+50 from 411 trough) = shale finally responding | Mar 6 |
 | Demand destruction | 🟠 3 | Implied at $90+. 20-24 wk min historical. 2026 more inelastic. Watch airlines + ATA Tonnage as leading indicators. EIA early data misleads. | Gasoline -5% YoY confirmed (earliest May-June) | Mar 6 |
 | Storage (global) | 🔴 4 | Gulf filling; Cushing +1.564M bbl wk Feb 27 (~24-26M est) [CONF EIA] | Cushing <20M = WTI dislocation | Mar 6 |
 | Tanker/shipping | 🔴🔴 5 | VLCC WS400+, $423-445K/day ALL-TIME HIGH [CONF maritime-hub] | THRESHOLD BREACHED — super-cycle confirmed | Mar 6 |
-| Energy credit | 🟡 2 | Not yet stressed (high oil = good for E&P) | HY energy OAS >400 = stress | Mar 6 |
+| Energy credit | 🟡 2 | CONFIRMED: HY Energy OAS 300 bps (Mar 5) — 8 bps TIGHTER than broad HY (308 bps). E&P is geopolitical safe haven. Phase 2 leading indicators NOT yet triggered: refiner crack compression, EM sovereign CDS, CCC-rated decoupling. E&P defaults lag price crash 6-12 months. | HY energy OAS >400 AND crack spreads compressing = Phase 2 credit warning | Mar 6 |
 | OPEC+ policy | 🔴 4 | 3.24 mbpd deferred. Unwind paused by war. When Hormuz reopens: Day 3 meeting, Day 8 VLCC loading, price crash. Paper quotas ≠ physical (2022 gap was 2.7-2.89 mbpd). | Hormuz reopens → immediately = 5 | Mar 6 |
 
-**Convergence: 34/45 🔴🔴** *(Tanker/shipping upgraded 4→5 on VLCC rate confirmation)*
+**Convergence: 34/45 🔴🔴** *(Tanker/shipping upgraded 4→5 on VLCC rate confirmation. US Production Response and Energy Credit confirmed with research data — scores unchanged but descriptions significantly upgraded with confirmed data. LNG vector not in matrix but now tracked separately.)*
 
 ---
 
@@ -106,13 +106,36 @@
 
 | Metric | Value | Source | Updated |
 |--------|-------|--------|---------|
-| US crude production (Dec 2025) | 13.7M bpd (6-month low) | [CONF] Bloomberg/EIA Feb 27 | Mar 6 |
-| EIA 2026 full-year forecast | 13.5M bpd avg (pre-war baseline) | [CONF] EIA STEO | Mar 6 |
-| Weekly (wk ending Feb 27) | ~13.6-13.7M bpd [EST] | EIA weekly est. | Mar 6 |
-| Capital discipline | Active — no ramp signaled by majors | [EST] | Mar 6 |
-| Shale response lag | 3-6 months minimum from price signal | [CONF KB-BRT-006] | Mar 6 |
+| US crude production (Dec 2025, official) | 13.65M bpd (423.3M total bbl) | [CONF] EIA PSM Dec 2025 | Mar 6 |
+| US crude production (wk ending Feb 27) | 13.696 mbpd | [CONF] EIA Weekly Mar 6 | Mar 6 |
+| EIA 2026 full-year forecast | 13.6 mbpd avg; Q2 decline to 13.51 mbpd | [CONF] EIA STEO Feb 2026 | Mar 6 |
+| US oil rig count (Mar 6) | 411 oil-directed / 551 total | [CONF] Baker Hughes Mar 6 | Mar 6 |
+| Rig trend | -7% YoY; oil rigs -1 vs 4 weeks ago; flat through war | [CONF] Baker Hughes Mar 6 | Mar 6 |
+| DUC inventory (Jan 2026) | 5,015 wells (-41% from 8,504 peak Feb 2019) | [CONF] EIA Drilling Productivity Report | Mar 6 |
+| Permian rig count | 240 (43.6% of US total); -65 YoY (-21.3%) | [CONF] Baker Hughes Mar 6 | Mar 6 |
+| Capital discipline | CONFIRMED — zero operators announced capex increase post-war | [CONF] Operator IRs Mar 2026 | Mar 6 |
+| Max 90-day DUC surge | ~200-240K bpd (IEA theoretical maximum) | [CONF] IEA/Industry analysis | Mar 6 |
+| Shale response lag (realistic) | 3-6 months for rig pathway; DUC pathway 3-4 months but capped | [CONF KB-BRT-049] | Mar 6 |
 
-**Assessment:** No shale response in Q1. BRT-04 (US production does NOT ramp >200K bpd in Q1) tracking at 85% confidence.
+**Assessment:** No shale response in Q1 — CONFIRMED by Baker Hughes Mar 6 data. BRT-04 upgraded to 93% confidence. Shale is a profitable observer, not a rescuer.
+
+---
+
+## LNG DASHBOARD (Batch 2 Addition)
+
+| Metric | Value | Source | Updated |
+|--------|-------|--------|---------|
+| JKM (Asian LNG benchmark) | $15.105/MMBtu (Mar 4); peak $15.770 (Mar 3) | [CONF] CME/ICE/Platts Mar 6 | Mar 6 |
+| JKM pre-war | $10.725/MMBtu | [CONF] CME | Mar 6 |
+| JKM change | +40.8% sustained; +47% peak | [CONF] | Mar 6 |
+| TTF (European benchmark) | 53.385 EUR/MWh (~$16.80/MMBtu) | [CONF] ICE Mar 6 | Mar 6 |
+| Henry Hub (US domestic) | $2.83/MMBtu April delivery | [CONF] CME/AGA Mar 6 | Mar 6 |
+| Qatar LNG status | Force majeure — zero LNG carriers transiting Hormuz March | [CONF] Kpler Mar 6 | Mar 6 |
+| ME LNG exports (March) | 2.3 Mt (vs 8.1 Mt anticipated) — 70% reduction | [CONF] GTReview/Kpler | Mar 6 |
+| Cheniere (LNG) | ~45 MTPA; 5-10% spot; consensus Q1 EPS $3.15 (likely underestimate) | [CONF] Cheniere 4Q2025 | Mar 6 |
+| Venture Global (VG) | 41% 2026 output at spot; Q4 profit tripled to $2.0B; $5.2-5.8B EBITDA guidance | [CONF] VG Q4 2025 earnings | Mar 6 |
+
+**LNG Assessment:** US has become global marginal LNG supplier. Qatar force majeure = permanent shift of LNG center of gravity to US Gulf Coast. VG = maximum spot leverage. Cheniere = undervalued by consensus model. SAM output required for Japan-specific impact assessment.
 
 ---
 
