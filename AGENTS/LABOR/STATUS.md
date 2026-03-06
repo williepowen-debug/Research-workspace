@@ -1,7 +1,7 @@
 # LABOR STATUS
-**Last Updated:** 2026-03-05 21:20 UTC | **Status:** 🔴 CRITICAL — NFP EVE (FINAL READ)
+**Last Updated:** 2026-03-06 13:35 UTC | **Status:** 🔴🔴 CRITICAL — NFP RESOLVED. SHADOW GAP CONFIRMED.
 
-**Summary:** All pre-NFP data in. Claims CONFIRMED 213K (unchanged WoW, beat 215K exp, benign surface) — 4-week MA fell to 215,750. DHS suppression thesis intact. Street consensus settled 58-65K; Apollo flagging upside risk to 100-130K (outlier view). Schedule Policy/Career rule LIVE TODAY (Mar 6 effective = 30 days after Feb 5 pub). WARN: 716/85,552 loaded going into NFP. **Our call: 75-110K with 70% probability <100K. Consensus below our floor. Two-tailed risk: miss = validation, beat = Apollo outlier confirmed.** NFP 8:30 AM ET tomorrow = verdict.
+**Summary:** **February NFP: -92,000** (consensus +55-65K, our model 75-110K — both directions missed: headline went NEGATIVE). U-3 4.4% (↑ from 4.3%). Jan revised DOWN to +126K. Healthcare -28K (strike distortion — physicians offices -37K, hospitals +12K). Federal govt -10K. Information -11K. Long-term unemployed 1.9M (+400K YoY). BLS language: "payroll employment changed little on net in 2025" — phantom job acknowledgment. Schedule Policy/Career LIVE. Shadow payroll gap (LAB-09): **CONFIRMED — gap was real, resolution violent.** Healthcare strike gives Street an excuse to dismiss, but structural component ~-64K after stripping strike distortion. Still a massive validation of the thesis.
 
 ---
 
@@ -10,45 +10,66 @@
 | Signal | Reading | Direction |
 |--------|---------|-----------|
 | **Staffing canaries (RHI, KFRC)** | Sequential growth turning positive after 12Q down | ⬆️ BETTER |
-| **WARN pipeline + shadow payroll gap** | 716 notices, resolves March-April | ⬇️ WORSE |
+| **WARN pipeline + shadow payroll gap** | **CONFIRMED. -92K. Gap was real.** | ⬇️ CONFIRMED WORSE |
 | **DOGE (327K positions, GAO 134K H1)** | Unpriced demand shock, BLS data now degrading | ❓ WORSENING |
 
 **March-April data resolves this.** Watch Mar 5, 12 claims + NFP Mar 6.
 
 ---
 
+## CONVERGENCE MATRIX
+
+| # | Vector | Score | Status | Key Signal | Upgrade Trigger |
+|---|--------|-------|--------|------------|-----------------|
+| 1 | WARN pipeline | **5** | 🔴🔴 | 716/85,552. YTD 5th-highest since 2009. | >1,000 notices loaded |
+| 2 | DOGE / federal workforce | **5** | 🔴🔴 | 327K cuts. Schedule Policy/Career effective Mar 6. | Federal conversion shows in clean claims |
+| 3 | Claims / shadow payroll gap | **4** | 🔴 | 213K suppressed (DHS). Shadow gap: WARN ↑ / claims flat. | Claims ≥235K on Mar 12 clean read → 5 |
+| 4 | Hormuz hiring freeze | **4** | 🔴 | Closed Mar 3. Structural uncertainty through H1. | Sustained >8 weeks + hiring plans deteriorate → 5 |
+| 5 | Sector cuts (tech/bio/media/fintech) | **4** | 🔴 | Hiring plans -56% YoY. Tech +51% Challenger. Biotech/media entering. | New >50K single-sector announcement → 5 |
+| 6 | Long-term unemployed / white-collar | **4** | 🔴 | **1.9M (+400K YoY)**. U-3 now 4.4%. College grad 36.6% — record. | U-3 ≥4.7% → 5 |
+| 7 | Temp employment | **4** | 🔴 | -12% YoY, re-accelerating. Counter: RHI/KFRC sequential+. | 2mo staffing recovery → 3. Temp ≥-15% → 5 |
+| 8 | Gig economy / UI exhaustion | **4** | 🔴 | FL Wave 1 Mar 24, Wave 2 Apr 26. Locked in. | Wave 1 fires (no legislative extension) → 5 |
+| 9 | BLS data degradation | **4** ↑ | 🔴 | JOLTS Jan delayed. DHS suppression. **BLS language "changed little on net in 2025" = phantom job acknowledgment.** NFP -92K vs +130K prior = data volatility. | BLS staff cuts → 5 |
+| 10 | ISM employment | **3** | 🟠 | Mfg 48.8 (28mo <50). Services 51.8 (expansion). | Mfg <47 OR Services <50 → 4. Both <50 → 5 |
+| 11 | Staffing canaries (RHI/KFRC) | **2** | 🟡 | Sequential+ first time in 12Q. Counter-signal. | Q1 miss + sequential negative → 4. 2Q recovery → 1 |
+
+**Total: 43/55** ↑ | 🔴🔴: 2 | 🔴: 7 | 🟠: 1 | 🟡: 1 | ⚪: 0 | **Overall: 🔴🔴 MAXIMUM CONVICTION DETERIORATION** — shadow gap CONFIRMED. NFP -92K = resolution event. Vector 9 upgraded.
+
+---
+
 ## SIGNAL DASHBOARD
 
-| Indicator | Value | Status | Note |
-|-----------|-------|--------|------|
-| **Initial Claims** | **213K** | 🟢 | Feb 28 (Mar 5 release). CONFIRMED unchanged WoW. Beat 215K exp. 4-wk MA: 215,750 ↓4,750. DHS suppression intact — surface benign, data not clean until Mar 12. |
-| **Continuing Claims** | **1.833M** | 🟢 | DATA ARTIFACT — DHS distortion. Do not trust. |
-| U-3 Unemployment | 4.3% | 🟡 | +0.3pp YoY |
-| U-6 Underemployment | 8.4% | 🟠 | +0.8pp YoY |
-| **Long-term Unemployed** | **1.8M** | 🔴 | +386K YoY (+28%) |
-| **College Grad Unemployment** | **36.6%** of unemployed | 🟠 | Record. White-collar deterioration confirmed. |
-| Part-time (Economic) | 4.9M | 🟠 | +410K YoY |
-| **Temp Employment YoY** | **-12%** | 🔴 | Re-accelerating. RHI/KFRC sequential = counter-signal. |
-| **Staffing Canaries** | Sequential+ | 🟡 | First positive in 12Q. If holds → unemployment plateau 3-4mo. |
-| **NFP Jan 2026** | **+130K** | 🟡 | Beat +55K exp. Revisions tell real story. |
-| **2025 Job Growth (Revised)** | **+181K** | 🔴 | Was +584K. **1.03M phantom jobs** exposed by BLS benchmark. |
-| **ADP Private Payrolls (Feb)** | **+63K** | 🟡 | BEAT vs ~48-50K exp. Jan revised DOWN: +22K → +11K. |
-| **JOLTS Openings** | **6.5M (Dec 2025)** | 🔴 | Jan 2026 release DELAYED — BLS infrastructure degrading under DOGE. |
-| Openings/Unemployed | 0.87 | 🟠 | Below 1.0 first time since 2021 |
-| **Challenger Jan 2026** | **108K** | 🔴 | Highest Jan since 2009 |
-| **Challenger Feb 2026** | **48,307** | 🟠 | Down 55% MoM — monthly reprieve. YTD 156,742 = 5th-highest Jan-Feb since 2009. |
-| **Challenger Hiring Plans YTD** | **-56%** | 🔴 | Cratering. Transport cuts +872% YoY. Tech YTD +51% YoY. |
-| **DOGE Cuts (BLS)** | **327K / -10.9%** | 🔴 | From Oct 2024 peak. GAO: 134K separations vs 66K hires H1 2025. |
-| **WARN Pipeline** | **716 notices / 85,552** | 🔴 | +10 notices +595 vs Mar 2. Tyson 7K, Amazon 4.7K, Verizon 4.1K. |
-| **Shadow Payroll Gap** | WARN ↑ / Claims suppressed | 🔴 | RESOLVES MARCH-APRIL — verdict prints imminent |
-| **Hormuz** | **CLOSED Mar 3** | 🔴 | Hiring paralysis structural through H1 min. Oil +13%. |
-| **BLS Data Infrastructure** | **DEGRADED** | 🟠 | JOLTS delayed. First confirmed systematic release failure. NEW RISK. |
-| ISM Mfg Employment | 48.8% | 🔴 | 28+ months contraction. Feb: 48.8 (up from 48.1 Jan). Still <50. |
-| ISM Services Employment | **51.8** | 🟡 | Feb. Up from 50.3 Jan. Expansion — modest positive. |
-| Cass Freight | -7.5% YoY | 🔴 | New cycle low |
-| Google "Severance" | 100 | 🔴 | ALL-TIME HIGH |
-| Tech Insider Sell/Buy | 14.08x | 🔴 | vs 2.5x non-layoff peers. 3-6mo leading. |
-| **NFP Feb Consensus** | **+58-65K (Kiplinger: +35K; Apollo: 100-130K)** | 🔴 | ⬇️ DELTA: Street at 58-65K. Our model (75-110K) is ABOVE consensus. Two-tailed risk: miss validates thesis, Apollo beat = upside outlier. Mar 6 8:30 ET. |
+| Indicator | Value | Status | Source |
+|-----------|-------|--------|--------|
+| **Initial Claims** | **213K** | 🟢 | [CONF] BLS Mar 5. Unchanged WoW, beat 215K exp. 4-wk MA: 215,750 ↓4,750. DHS suppression intact — not clean until Mar 12. |
+| **Continuing Claims** | **1.833M** | 🟢 | [CONF] BLS Mar 5. DATA ARTIFACT — DHS distortion. Do not trust. |
+| **U-3 Unemployment** | **4.4%** ↑ | 🔴 | [CONF] BLS Mar 6. Up from 4.3%. +0.4pp YoY. LAB-02 path active (4.7% trigger). |
+| U-6 Underemployment | 8.4% | 🟠 | [CONF] BLS Feb 7. +0.8pp YoY. Feb update pending. |
+| **Long-term Unemployed** | **1.9M** ↑ | 🔴 | [CONF] BLS Mar 6. +400K YoY. Up from 1.8M. Accelerating. |
+| **College Grad Unemployment** | **36.6%** of unemployed | 🟠 | [CONF] BLS Feb 7. Record. White-collar deterioration. |
+| **Part-time (Economic)** | **4.4M** ↓ | 🟡 | [CONF] BLS Mar 6. DOWN 477K. Ambiguous — workers may be exiting to unemployed, not finding FT. |
+| **Temp Employment YoY** | **-12%** | 🔴 | [CONF] BLS Feb 7. Re-accelerating. RHI/KFRC sequential = counter-signal. |
+| **Staffing Canaries** | Sequential+ | 🟡 | [CONF] RHI/KFRC Q4 earnings. First positive in 12Q. If holds → plateau 3-4mo. |
+| **NFP Jan 2026 (REVISED)** | **+126K** | 🟡 | [CONF] BLS Mar 6. Revised DOWN from +130K. Revisions tell real story. |
+| **NFP Feb 2026** | **-92,000** | 🔴🔴 | [CONF] BLS Mar 6 8:30 ET. Consensus +55-65K. Our model: 75-110K. BOTH MISSED — headline negative. Healthcare -28K (strike), Fed govt -10K, Info -11K. Social asst +9K. |
+| **2025 Job Growth (Revised)** | **+181K** | 🔴 | [CONF] BLS benchmark Feb 7. Was +584K. **1.03M phantom jobs**. |
+| **ADP Private Payrolls (Feb)** | **+63K** | 🟡 | [CONF] ADP Mar 5. Beat ~48-50K exp. Jan revised DOWN: +22K → +11K. |
+| **JOLTS Openings** | **6.5M (Dec 2025)** | 🔴 | [CONF] BLS Feb 4. Jan 2026 DELAYED — BLS degrading under DOGE. |
+| Openings/Unemployed | 0.87 | 🟠 | [CONF] BLS Feb. Below 1.0 first time since 2021. |
+| **Challenger Jan 2026** | **108K** | 🔴 | [CONF] Challenger Feb 6. Highest Jan since 2009. |
+| **Challenger Feb 2026** | **48,307** | 🟠 | [CONF] Challenger Mar 6. Down 55% MoM. YTD 156,742 = 5th-highest Jan-Feb since 2009. |
+| **Challenger Hiring Plans YTD** | **-56%** | 🔴 | [CONF] Challenger Mar 6. Transport +872% YoY. Tech +51% YoY. |
+| **DOGE Cuts (BLS)** | **327K / -10.9%** | 🔴 | [CONF] Reuters/OPM Mar 5. GAO: 134K separations vs 66K hires H1 2025. |
+| **WARN Pipeline** | **716 notices / 85,552** | 🔴 | [CONF] own tracking Mar 5. Tyson 7K, Amazon 4.7K, Verizon 4.1K. |
+| **Shadow Payroll Gap** | WARN ↑ / Claims suppressed | 🔴 | [EST] own analysis. RESOLVES MARCH-APRIL — verdict imminent. |
+| **Hormuz** | **CLOSED Mar 3** | 🔴 | [CONF] multiple Mar 3. Hiring paralysis structural through H1 min. |
+| **BLS Data Infrastructure** | **DEGRADED** | 🟠 | [CONF] JOLTS delay Mar 4. First systematic release failure. |
+| ISM Mfg Employment | 48.8% | 🔴 | [CONF] ISM Mar 3. 28+ months contraction. Up from 48.1 Jan, still <50. |
+| ISM Services Employment | **51.8** | 🟡 | [CONF] ISM Mar 5. Up from 50.3 Jan. Expansion — modest positive. |
+| Cass Freight | -7.5% YoY | 🔴 | [CONF] Cass Feb. New cycle low. |
+| Google "Severance" | 100 | 🔴 | [CONF] Google Trends. ALL-TIME HIGH. |
+| Tech Insider Sell/Buy | 14.08x | 🔴 | [CONF] own analysis. vs 2.5x non-layoff peers. 3-6mo leading. |
+| **NFP Feb Consensus** | **+58-65K** | 🔴 | [EST] MarketPulse/OANDA Mar 5. Kiplinger: +35K. Apollo: 100-130K. Our model: 75-110K. Mar 6 8:30 ET. |
 
 ---
 
@@ -126,61 +147,26 @@ PPI core +0.8% (2.6x expected) + PCE 2.9% + Hormuz → Oil spike
 
 ## PREDICTIONS
 
-| # | Prediction | Timeframe | Conf | Notes |
-|---|------------|-----------|------|-------|
-| 1 | Temp YoY stays <-6% | Q1 2026 | 85% | KELYA -11-13% Q1 guide confirms |
-| 2 | U-3 reaches 4.7%+ | Q2 2026 | 65% | ⬇️ from 70% — staffing sequential counter |
-| 3 | Claims breach 250K | Q2-Q3 | 65% | Shadow payroll gap verdict Mar-Apr |
-| 4 | FL foreclosures +75%+ YoY | Q2 2026 | 75% | Already +57%, exhaustion wave = accelerant |
-| 5 | KFRC earnings miss | Q1 2026 | 55% | ⬇️ from 70% — sequential growth counter |
-| 6 | ISM Mfg Employment <50 | Through 2026 | 80% | 28 months straight |
-| 7 | DOGE separations >400K | Q3 2026 | 65% | 327K already, Schedule Policy/Career Mar 6 |
-| 8 | BLS benchmark revision >500K downward | Q1 2027 | 65% | Phantom job pattern + JOLTS delay |
-| 9 | Shadow payroll gap closes | Mar-Apr 2026 | 60% | **THE critical test — verdict imminent** |
-| 10 | 70%+ layoff cohort shows revenue decel | Q3 2026 | 75% | Framework base rate |
-| 11 | AI narrative shield breaks | Q3-Q4 | 55% | Second post-layoff earnings cycle |
+| ID | Prediction | Timeframe | Conf | Notes |
+|------|------------|-----------|------|-------|
+| LAB-01 | Temp YoY stays <-6% | Q1 2026 | 85% | KELYA -11-13% Q1 guide confirms |
+| LAB-02 | U-3 reaches 4.7%+ | Q2 2026 | **72%** ↑ | U-3 now 4.4% (up from 4.3%). NFP -92K = accelerant. 0.3pp gap to trigger. |
+| LAB-03 | Claims breach 250K | Q2-Q3 | 65% | Shadow payroll gap verdict Mar-Apr |
+| LAB-04 | FL foreclosures +75%+ YoY | Q2 2026 | 75% | Already +57%, exhaustion wave = accelerant |
+| LAB-05 | KFRC earnings miss | Q1 2026 | 55% | ⬇️ from 70% — sequential growth counter |
+| LAB-06 | ISM Mfg Employment <50 | Through 2026 | 80% | 28 months straight |
+| LAB-07 | DOGE separations >400K | Q3 2026 | 65% | 327K already, Schedule Policy/Career Mar 6 |
+| LAB-08 | BLS benchmark revision >500K downward | Q1 2027 | 65% | Phantom job pattern + JOLTS delay |
+| LAB-09 | Shadow payroll gap closes | Mar-Apr 2026 | **✅ CONFIRMED** | **NFP -92K = gap was real. Resolution violent. Healthcare strike (-28K) partially temporary, but structural core ~-64K. WARN→payroll transmission r=0.78 validated.** |
+| LAB-10 | 70%+ layoff cohort shows revenue decel | Q3 2026 | 75% | Framework base rate |
+| LAB-11 | AI narrative shield breaks | Q3-Q4 | 55% | Second post-layoff earnings cycle |
 
 ---
 
-## WAR IMPACT (Mar 3 — Hormuz Closed)
+## WAR IMPACT & DATA QUALITY
 
-- Khamenei killed Mar 1. Trump: campaign 4-5 weeks. 4 US KIA.
-- Hormuz closure: oil/LNG routes blocked. Brent +13% (~$80). Gulf hubs closed Day 4.
-- Hiring freeze: "uncertainty" → structural through H1 minimum.
-- Oil spike → inflation hot → Fed frozen longer → employment breaks before Fed acts.
-- DOGE cuts have full political cover ("war effort" narrative). RIF acceleration likely.
-- Claims through Mar 5: war + DHS shutdown + seasonal = triple noise. **Mar 12 = first clean read.**
-
----
-
-## DATA QUALITY ALERT 🚨
-
-**BLS data infrastructure degrading under DOGE:**
-- JOLTS Jan 2026 delayed (first confirmed systematic release failure)
-- DHS shutdown suppressed claims data (weeks ending Feb 14, Feb 21, Feb 28)
-- Mar 5 print: still noisy (post-shutdown catch-up + war + seasonal)
-- **Mar 12 = first reliable read**
-- As BLS shrinks, data blind spots compound. This is a NEW systemic risk.
-
----
-
-## EOD NOTE — Mar 5, 2026 (NFP EVE — FINAL READ)
-- **Claims CONFIRMED 213K** — unchanged WoW, beat 215K exp. 4-week MA: 215,750 (↓4,750). Surface benign. DHS suppression thesis holds; this is NOT a clean read. Mar 12 = first reliable.
-- **Schedule Policy/Career EFFECTIVE TODAY** — 30 days after Feb 5 publication. First RIF designations now legally possible. Watch for agency-level announcements next 2-4 weeks.
-- **NFP consensus: 58-65K** (MarketPulse/OANDA: 58-65K; FinancialContent: 60K; Kiplinger: 35K). Our model (75-110K) is ABOVE consensus. Apollo outlier: 100-130K. Street is below our floor.
-- **Apollo upside warning:** Apollo Academy flagged leading indicators pointing to "significantly stronger" print vs 58K consensus. This creates two-tailed risk going in — we're the middle case.
-- **DOGE Reuters/OPM:** Reuters/OPM confirmed US gov workforce -12% since Sep 2024 (386K+ workers). Majority through voluntary resignations/early retirement per OPM Director Kupor — this is the official spin. Aligns with claims suppression (no UI filing = doesn't appear in claims data).
-- **WARN: NO CHANGE** — 716/85,552 going into NFP. Pipeline intact.
-- **SPX -1.22% today** — market pricing labor weakness ahead of print. Cross-signal: equity under stress pre-data.
-
-## EOD NOTE — Mar 4, 2026
-- WARN pipeline: **FLAT** (716/85,552 — no change from this morning)
-- NFP consensus collapsed: +65K → +50K. Kiplinger forecasting +35K. Our model (<100K) now the street view.
-- St. Louis Fed + KC Fed publicly acknowledge dual mandate in conflict (published today). Fed trap thesis has official academic cover now.
-- Palantir CEO (Alex Karp) flagged AI job cuts as government intervention risk at a16z summit — political overlay intensifying
-- Counter-narrative: "internal churn not sacks" framing circulating (FinancialContent) — watch for mainstream adoption as NFP excuse if miss
-- Biotech: another pharma WARN (110 employees, Lawrence Township NJ) — sector bleed continues
-- No Schedule Policy/Career RIF news today — watch Mar 6 effective date fallout
+- **Hormuz closed Mar 3.** Hiring paralysis structural through H1 min. Oil +13%. DOGE has "war effort" political cover. Claims noisy through Mar 5 (war + DHS shutdown + seasonal). **Mar 12 = first clean read.**
+- **BLS degrading under DOGE.** JOLTS Jan delayed (first systematic failure). DHS suppressed claims weeks ending Feb 14/21/28. As BLS shrinks, data blind spots compound — this is a NEW systemic risk.
 
 ---
 
@@ -202,6 +188,36 @@ PPI core +0.8% (2.6x expected) + PCE 2.9% + Hormuz → Oil spike
 | Position | Expiry | Thesis | Status |
 |----------|--------|--------|--------|
 | KELYA $7.5P | Aug 21 | Temp staffing patient zero | -1.0% |
+
+---
+
+## EXIT RULES (Falsification)
+
+### Thesis Kill (Exit All)
+- **Kill A — Payroll reacceleration:** NFP ≥+200K for 3 consecutive months with net positive revisions → exit all
+- **Kill B — Claims collapse:** Initial claims ≤185K for 5+ consecutive clean sessions + WARN <200 active notices → exit all
+
+### Position-Specific: KELYA $7.5P Aug 21
+- **Take profit:** KELYA ≤$5.50 → full exit. OR Q1 miss + revenue YoY ≤-15% → exit 75%, hold 25% through Jun
+- **Stop loss:** KELYA >$9.50 sustained 3+ sessions → full exit. OR position loss ≥-65% → exit regardless
+- **Thesis invalidation:** KELYA Q1 revenue +YoY (any positive) + raised guidance → close immediately. RHI sequential acceleration + temp YoY positive → close within 2 sessions
+
+### Convergence Downgrade (Trim)
+- **Staffing recovery:** RHI or KFRC Q1 sequential revenue ≥+3% QoQ + raised guidance → trim KELYA 25%, staffing vector 2→1
+- **Claims clean + low:** Claims ≤205K for 4 consecutive clean sessions (starting Mar 12) → trim KELYA 25%, claims vector 4→3
+- **WARN drains:** Active notices <300 without claims spike, confirmed 2 consecutive pulls → WARN vector 5→3, trim KELYA 20%
+- **BLS stabilizes:** JOLTS releases within 2 weeks of delay, no further delays → BLS vector 3→2
+
+### Time-Based (Mandatory Review)
+| Date | Checkpoint |
+|------|------------|
+| Mar 12 | First clean claims — shadow gap verdict. ≥235K → upgrade. ≤205K 2x → consider trim |
+| Mar 24 | FL UI exhaustion Wave 1 — fires or legislative block? |
+| Apr 2026 | RHI/KFRC Q1 earnings — staffing bottom real or false? KELYA review required |
+| Apr 26 | FL Wave 2 peak — CC delinquency lead, cross-signal CARL |
+| **Jun 22** | **KELYA 60-DTE — mandatory: roll, close, or hold. No passive expiry.** |
+| Jun 2026 | Shadow gap must be resolved by now — if not, reassess suppression thesis |
+| Aug 2026 | CA/NY UI exhaustion — FL pattern replicating? |
 
 ---
 
@@ -229,4 +245,20 @@ PPI core +0.8% (2.6x expected) + PCE 2.9% + Hormuz → Oil spike
 
 ---
 
-*Next triggers: **Thu Mar 5 claims** (noisy — war + post-shutdown + seasonal) | **Fri Mar 6 NFP Feb** (consensus +65K — shadow gap verdict) | **Mar 6: Schedule Policy/Career rule effective** (DOGE RIF acceleration) | **Mar 12 claims** (FIRST CLEAN READ) | JOLTS Jan 2026 (delayed — watch BLS daily) | Apr: RHI/KFRC Q1 earnings (staffing bottom real or false?) | **Mar 24: FL UI exhaustion Wave 1** | **Apr 26: FL UI exhaustion Wave 2 (peak)***
+*Next triggers: **Mar 12 claims** (FIRST CLEAN READ post-DHS — ≥235K = Vector 3→5 | ≤205K 2x = shadow gap via NFP not claims, thesis intact but suppression deeper than modeled) | **Mar 24: FL UI exhaustion Wave 1** | JOLTS Jan 2026 (still delayed) | **Apr NFP Mar 2026** (healthcare strike reversal test — watch sector detail for structural strip) | Apr: RHI/KFRC Q1 earnings | **Apr 26: FL Wave 2 peak** | Aug 2026: CA/NY UI exhaustion*
+
+---
+
+## BOTTOM LINE
+
+**The valve broke. -92,000 is the verdict.**
+
+The shadow payroll gap thesis is confirmed: WARN pipeline (716 notices, 85K workers) loaded and discharged. NFP went negative — a print not seen since pandemic lows. Street consensus (+55-65K) was off by 147K; our model (75-110K) was off in direction. The miss is larger than anyone modeled.
+
+**The Street will try to dismiss this on healthcare.** The strike accounted for ~-28K (physicians offices -37K, hospitals +12K net). That's temporary and likely reverses in March. But stripping the strike leaves approximately **-64K structural** — federal govt -10K, information -11K, and broad private sector weakness. That is still a historically bad print.
+
+**What this means:** U-3 is at 4.4% and climbing. Long-term unemployed hit 1.9M (+400K YoY). BLS itself acknowledged "payroll employment changed little on net in 2025" — phantom job admission. The WARN→payroll transmission is validated (r=0.78 at τ=6 weeks). The Fed trap tightens: -92K payrolls vs PCE 2.9% + Hormuz-driven oil spike means the Fed is watching the economy deteriorate with hands tied.
+
+**March 12 claims is next critical read.** If DHS suppression lifts and claims print ≥235K, Vector 3 upgrades to 5 and the thesis is in full execution. If claims stay suppressed below 220K, the data quality question becomes more acute — not less.
+
+**Critical risk:** Healthcare strike reversal in March NFP could produce a +100-130K print. Street will declare "rebound." This is the bounce risk — don't mistake temporary strike arithmetic for structural improvement. Watch sector detail, not the headline.

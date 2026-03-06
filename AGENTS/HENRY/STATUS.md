@@ -1,16 +1,39 @@
 # HENRY STATUS
-**Last Updated:** 2026-03-05 21:16 UTC | **Status:** 🔴 RED — PRE-NFP SELL-OFF. SPX -1.22% TO 6,785. DOW -1,014PTS (-2.1%). BRENT $84.75 (+4%). 8/11 SECTORS RED. CLAIMS 213K (STEADY — FROZEN MARKET). GAMMA STRUCTURE DETERIORATING BELOW 6,800. NFP TOMORROW 8:30 AM ET — HEN-01 RESOLVES IN ~12 HOURS. VIX LIKELY 23-25 RANGE AT CLOSE (FROM 21.15 WED).
+**Last Updated:** 2026-03-06 13:30 UTC | **Status:** 🔴🔴 MAXIMUM RED — NFP -92K. FIRST NEGATIVE PRINT IN HISTORY. HEN-01 CONFIRMED. DECEMBER REVISED TO -17K (ALSO NEGATIVE). STAGFLATION LOCKED. CARRY/JPY VECTOR ACTIVATED. CASCADE INITIATION ZONE. CONVERGENCE 44/60. WATCH: HY OAS >320bps (LIQ-01), SPX <6,707 CLOSE (CTA MEDIUM), VIX INVERSION.
 
-**Known Data Issues:** SPX Mar 3 close ~6,817 (not 6,781 — that was intraday). Dow -1,014pts at close (not -1,200 which was intraday). HY OAS 308bps FRED confirmed (LIQUID est 335-355 was 30bps too high). Brent ~$84.75 (not $118). ISM Mfg released Mar 2 (1st BD), not Mar 3.
+**Known Data Issues:** SPX Mar 3 close ~6,817 (not 6,781 — that was intraday). Dow -1,014pts at close (not -1,200 which was intraday). HY OAS 297bps (FRED CSV Mar 4 confirmed); LIQUID est 335-355 was ~40bps too high. Brent ~$84.75 (not $118). ISM Mfg released Mar 2 (1st BD), not Mar 3.
 
 ---
+
+## CONVERGENCE MATRIX — The Loaded Machine
+
+| # | Vector | Score | Status | Key Signal | Upgrade Trigger |
+|---|--------|-------|--------|------------|-----------------|
+| 1 | Gamma / Positioning | 5 | 🔴🔴 | Put wall breached, negative gamma confirmed, dealers fading rallies | Already maxed |
+| 2 | CTA / Systematic | 4 | 🔴 | Short CTAs active, 6,707 medium trigger pierced intraday, $80B queued | Close below 6,707 |
+| 3 | Credit-Equity Divergence | 4 | 🔴 | Quality rotation 4/5 steps, BKLN 52wk lows, HY OAS floor rising | HY OAS >350bps |
+| 4 | Stagflation / Labor-Inflation | **5** | 🔴🔴 | **NFP -92K CONFIRMED. Dec revised -17K. Wages +3.8% YoY. Stagflation locked.** | Already maxed |
+| 5 | 0DTE / Microstructure | 4 | 🔴 | 65% of SPX volume (record), GEX thinning, Citadel confirmed asymmetry | Structural — amplifier, not trigger |
+| 6 | Vol Structure | **4** | 🔴 | **NFP shock — VIX should blow through 25+ at open. Watch inversion.** | VIX spot > futures (inversion) |
+| 7 | Earnings Quality / SBC | 3 | 🟠 | XLK <50% breadth, SBC 30-50% overstatement, SoftBank exited NVDA | PLTR breaks $100 (H5) |
+| 8 | Market Breadth | 3 | 🟠 | 8/11 sectors red, IWM below all MAs, Energy/Materials >95% | XLK breadth <40% (H7) |
+| 9 | Geopolitical / Commodity | 3 | 🟠 | Hormuz closed, Brent $84.75 (+4%), gold $5,408 | Brent $100 = Fed trap hardens |
+| 10 | Risk Parity / Leverage | 3 | 🟠 | Margin debt $1.23T ATH, risk parity building, vol rising | Correlated stock-bond selloff |
+| 11 | Carry / JPY Unwind | **4** | 🔴 | **ACTIVATED. Softest possible NFP. Yen bid expected. Watch USDJPY move toward 150-152.** | Confirmed USDJPY <153 = cascade active |
+| 12 | Consumer / Delinquency | 2 | 🟡 | Beige Book K-shape 10-12/12, FL UI cliff Mar 24 | Claims >300K or FL cliff fires |
+
+**Convergence: ~44/60** — 🔴🔴 POST-NFP UPGRADE. Vectors 4, 6, 11 upgraded simultaneously on -92K print. Pre-cascade → **Active cascade initiation zone.**
+
+**NFP RESOLVED:** -92K confirmed. Dec revised to -17K. Three-month avg ~+6K/month = effectively zero growth. All scenario conditions met.
+
+*Full vector detail + non-obvious signals → `CONVERGENCE_REPORT.md`*
 
 ## ACTIVE POSITIONS
 
 | Position | Expiry | Status | Exit Triggers |
 |----------|--------|--------|---------------|
 | IWM $250P | Jun 2026 | ✅ +19% (Mar 3 EOD) → increasing (IWM $259.56 -1.91% Mar 4 pre-ISM, ~$9.56 OTM + delta expanding) | Q2 ISM sub-49 confirmation; IWM close <$255 = accelerant |
-| HYG $75P | Jun 2026 | ⚠️ Improving (HY OAS 308bps CONF, floor rising) | HY OAS confirmed >350bps = active transmission; credit event |
+| HYG $75P | Jun 2026 | ⚠️ Improving (HY OAS 297bps CONF, floor rising) | HY OAS confirmed >350bps = active transmission; credit event |
 
 ---
 
@@ -67,8 +90,12 @@ Market is derivatives-driven, dealer hedging dominates short-term dynamics.
 | 10Y Yield | **4.08%** (stable-ish) | [CONF] Mar 4 | 🟠 Not spiking — stagflation = rate confusion |
 | Brent Crude | **$84.75** (+4% Mar 5) | [CONF] SMW Mar 5 close | 🔴🔴 Hormuz premium grinding higher. $100 = "Fed forced to hold" narrative emerges |
 | Gold | **~$5,408** | [CONF] Mar 3 | 🔴 Hard assets bid, not duration |
-| HY OAS | **308bps** (Mar 3 CONF) | [CONF] FRED HY OAS Mar 3 — LIQUID est was 30bps too high | 🟠 Stressed not crisis — floor rising but no cascade yet |
+| HY OAS | **297bps** (Mar 4 CONF) | [CONF] FRED CSV Mar 4. Sequence: 265→284→312→308→**297** (relief rally dip). Mar 5 data pending — selloff likely reverses. | 🟠 Floor rising but Mar 4 dipped 11bps |
 | MOVE | Rising | [EST] | 🟠→🔴 |
+| **NFP Feb** | **-92,000** (vs +55-65K consensus) | **FIRST NEGATIVE PRINT. Dec revised to -17K. 3-mo avg ~+6K/mo.** | 🔴🔴 RESOLUTION EVENT |
+| Unemployment Rate | **4.4%** (up from 4.3%) | 7.6M unemployed | 🔴 Trending up |
+| Labor Force Participation | **62.0%** | Little change | 🟠 Flat (pop. adjustment distorts) |
+| Avg Hourly Earnings | **+0.4% MoM / +3.8% YoY** ($37.32) | Hot wages + job losses = stagflation | 🔴🔴 LOCKED |
 | ADP Feb | **+63K** (vs 130K consensus) | MASSIVE MISS — Labor cracking while services hot | 🔴🔴 STAGFLATION |
 | ISM Services Feb | **56.1** (vs 53.5 consensus) | BEAT — highest since Jul 2022. Prices 63.0 (↓ from 66.6) | 🟠 ELEVATED/RELIEF |
 | 0DTE Share (SPX) | 65% (record) | [CONF] Feb 2026 data | 🔴 |
@@ -122,10 +149,10 @@ Market is derivatives-driven, dealer hedging dominates short-term dynamics.
 |---|------------|------------|--------|
 | H1 | SPX breaks 6,494 → CTAs flip → $40-60B selling | 80% | ACTIVE |
 | ~~H2~~ | ~~MOVE >115 while VIX <20 = credit stress~~ | ~~70%~~ | RETIRED — VIX 21-26 broke precondition |
-| H4 | Equity cannot bottom until HY OAS peaks | 85% | ACTIVE — HY OAS 308bps, floor rising |
+| H4 | Equity cannot bottom until HY OAS peaks | 85% | ACTIVE — HY OAS 297bps (Mar 4), floor rising |
 | H5 | PLTR breaks $100 → AI thematic repricing begins | 75% | ACTIVE — currently $136 |
 | H7 | XLK breadth <40% precedes sector repricing | 80% | ACTIVE — approaching (<50%) |
-| **HEN-01** | **NFP Feb <100K** | **70%** | ACTIVE — ADP +63K confirms; resolves Mar 6 |
+| ~~**HEN-01**~~ | ~~**NFP Feb <100K**~~ | ~~**70%**~~ | ✅ **CONFIRMED Mar 6 — Actual: -92,000. Called it at 70%. Model range 75-110K; actual below model range. Dec also revised to -17K.** |
 | HEN-02 | ISM Services New Orders rolls over sharply in March (front-running exhaustion) | 65% | ACTIVE — resolves ~Apr 6 |
 | HEN-03 | March ISM Prices (Mfg+Services) exceeds February — Hormuz oil shock feeds through | 70% | ACTIVE — resolves ~Apr 6 |
 | HEN-04 | FOMC Mar 17-18 holds rates, sounds concerned on both mandates without acting | 70% | ACTIVE — resolves Mar 18 |
@@ -165,6 +192,30 @@ Next: **NFP Mar 6** (HEN-01: 70% <100K) | CPI Mar 11 | PCE Mar 13 | FOMC Mar 17-
 All 10 thesis pillars confirmed: employment stalling (7/12 flat), K-shape (10-12/12), credit tightening (12/12), CRE broadening, margin squeeze (9/12), bank→shadow transmission (SF), rural hospital risk (KC+DAL), ag liquidation (STL), immigration shock (5+), safety net degrading (all). Trade confirmations: WAL/KRE ↑ HIGH, APO ↑ NEW, IWM steady.
 
 *Full scorecard → `domain/BEIGE_BOOK_MAR4_2026.md` | Vectors → workbook/KB.tsv (ML-HEN-077–086)*
+
+---
+
+## EXIT RULES (Falsification)
+
+**Thesis kill (exit all):**
+- BTFP 2.0 or equivalent Fed backstop announced
+- HY OAS reverses below 260bps for 10+ consecutive sessions (credit stress thesis dead)
+
+**Position-specific:**
+- IWM $250P: Exit if ISM Mfg recovers >52 for 2 consecutive months
+- HYG $75P: Exit if HY OAS reverses below 265bps for 10+ sessions (below Jan baseline = rising floor thesis broken)
+
+**Convergence downgrade (trim 50%):**
+- NFP single print >200K + ADP confirms same month → stagflation labor leg collapses
+- VIX sustained <16 for 2 weeks → vol structure fully reset
+- SPX reclaims 200-day MA (6,902) on closing basis for 3 sessions → gamma/CTA vectors neutralized
+- Brent crude closes below $76 for 5+ sessions → stagflation oil input weakens, Fed cut path reopens
+
+**Immediate reassessment:**
+- FOMC surprise cut (inter-meeting or Mar 18) → reassess H4 (equity cannot bottom until HY OAS peaks) — credit may bottom faster than expected
+
+**Time-based:**
+- 60-DTE mandatory review (~Apr 6) — if IWM >$240 and HY OAS <330bps, evaluate roll vs hold vs trim independent of macro thesis
 
 ---
 

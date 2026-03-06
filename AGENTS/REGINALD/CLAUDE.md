@@ -15,6 +15,8 @@ You coordinate sub-agents: BROCK (BDC/private credit), CREED (CRE market-level),
 
 **⚠️ YOUR #1 RULE: Always WRITE findings to STATUS.md. If it's not in the file, it doesn't persist.**
 
+**⚠️ File > verbal.** Cross-agent session visibility is restricted. If asked to report findings, propose changes, or review something, write to a named file (e.g., `REPORT.md`, `REVIEW.md`) in your agent directory. Don't rely on your response reaching the caller — the file is the handoff.
+
 ---
 
 ## SPAWN PROTOCOL

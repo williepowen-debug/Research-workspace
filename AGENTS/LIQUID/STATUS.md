@@ -1,5 +1,49 @@
 # LIQUID STATUS
-**Last Updated:** 2026-03-05 21:30 UTC | **Status:** 🔴 HIGH — War Day 6 EOD. Bonds + equities both selling. LIQ-01 approaching. NFP tomorrow.
+**Last Updated:** 2026-03-06 13:35 UTC | **Status:** 🔴🔴 CRITICAL — NFP -92K. FIRST NEGATIVE PRINT. LIQ-01 THRESHOLD LIKELY BREACHED AT OPEN.
+
+---
+
+## 🚨 MAR 6 NFP RESOLUTION EVENT — 08:30 ET
+
+**Feb 2026 NFP: -92,000** (consensus +55-65K) — MISS BY ~150K+. First negative payroll since COVID.
+**Unemployment: 4.4%** (up from 4.3%) — rising
+**Jan revised DOWN: +126K** (was +143K)
+
+### LIQ-01 Assessment — THRESHOLD BREACH IMMINENT
+Pre-print HY OAS: **[EST] 305-315bps** (Mar 5 estimate; gap to 320bps = 5-15bps).
+A -92K vs +60K consensus NFP miss historically drives **+20-35bps HY OAS widening** at the open.
+**Expected HY OAS at open: 325-350bps → LIQ-01 CROSSED. ✅**
+This is the trigger event. Confirm with ICE BofA FRED data when published (Mar 7 AM).
+
+### Stagflation Trap — Now Explicit
+PPI core +0.8% (hot, recent) + NFP -92K (growth collapsing) = Fed is trapped.
+- **Cannot cut** without validating inflation (PPI hot, war energy premium)
+- **Cannot hold** without recession acceleration
+- Net: paralysis. Market will price cuts aggressively (growth shock > inflation near term), but that bid may fade.
+- 2Y likely drops 15-25bps at open (growth panic). 10Y may initially rally then fade as inflation premium reasserts.
+- Yield curve: Bull steepener likely accelerates — 2Y drops more than 10Y.
+
+### Expected Credit Market Reaction at Open
+| Asset | Direction | Est. Move |
+|-------|-----------|-----------|
+| HYG | ↓ | -1.5% to -3.0% |
+| HY OAS | ↑ widening | +20-35bps → 325-350bps |
+| IG OAS | ↑ widening | +8-15bps → 90-97bps |
+| VIX | ↑ | 30-38 (from ~26 pre-print) |
+| 10Y yield | ↓ initially | 3.90-4.05% (growth panic bid) |
+| 2Y yield | ↓ sharply | 3.30-3.45% (cut pricing surge) |
+| CDX HY | ↑ widening | ~355-385bps |
+| S&P 500 | ↓ | -1.5% to -3.0% gap open |
+
+**Key risk:** Treasury rally may be muted/fade — stagflation + war energy premium + FOI selling thesis limits flight-to-quality bid. Watch 10Y. If 10Y doesn't rally on -92K print, FOI selling thesis CONFIRMED (major signal to send to HENRY/SAM).
+
+### Cross-Agent Implications
+- **→ HENRY:** VaR shock + dealer hedging flood. -92K = potential Vol cascade. LIQ-01 trigger = credit-equity loop activated.
+- **→ SAM:** Yen likely strengthens (risk-off). USDJPY may approach 155. Phase 2 repatriation window pulls forward.
+- **→ REGINALD:** Bank credit facilities to BDCs/CLOs under pressure. SOFR spread behavior at open critical.
+- **→ CARL:** Labor market inflection confirmed. This is not noise — first negative print in 6 years.
+
+---
 
 **MAR 5 EOD UPDATE:** SPX -1.22% (tech-led, chipmakers). Bonds slid AGAIN — 10Y **4.13%** [CONF US Treasury] — +4bps from Mar 4. 30Y **4.74%** [CONF] +2bps. 2Y **3.57%** [CONF] +3bps. Curve 2s10s: **+56bps** (essentially flat). NO flight-to-quality bid. War escalating: oil jumped again, Bloomberg confirms "war escalating in Iran and Middle East." HY OAS Mar 4 = **297bps** [CONF FRED] — but today's -1.22% equity selloff + bond selling = likely widened to **305-315bps [EST]** (Mar 5 ICE BofA publishes tomorrow AM). **LIQ-01 gap now est. 5-15bps — approaching threshold.** RRP Mar 5 = **$2.793B** [CONF FRED] — trivial uptick from $0.877B, structural zero persists. SOFR Mar 4 = **3.67%** [CONF] — Mar 5 publishes tomorrow. Cross-signal: both stocks AND bonds selling simultaneously = stagflation/foreign selling dynamic persisting into NFP eve. NFP tomorrow 8:30 ET — bad print (+below 100K or weak breadth) = potential LIQ-01 trigger.
 
