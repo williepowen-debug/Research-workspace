@@ -1,7 +1,7 @@
 # MARCO STATUS
-**Last Updated:** 2026-03-05 13:30 UTC | **Status:** 🔴 RED
+**Last Updated:** 2026-03-06 13:30 UTC | **Status:** 🔴 RED
 
-**Summary:** Population movement disruptions creating localized stress in Tier-1 states (FL/TX/CA/AZ). Florida thesis CONFIRMED at 95% confidence — migration collapsed 93% (311K→23K, #1→#8 destination). Canadian tourism structural rupture (-28% YoY, airlines physically redirected aircraft). DHS shutdown Day **19**, STILL unresolved — Iran leverage FAILED to move Democrats (The Hill Mar 4); House teed new bill but Senate dead-on-arrival; **TSA Mar 14 paycheck miss now near-certain path unless surprise deal**. ADP Feb: +63K (vs 130K consensus); NFP Feb (Mar 6) forecast 35-60K — well below prior 130K, could be macro-confirmation of WFD thesis. **Mexico remittances Jan 2026: -1.4% YoY ($4.594B), avg transfer -7.5% to $412 — first January decline since 2015. H-2A 2026: DOL switched to two-tier AEWR methodology (Skill I / Skill II) entering planting season — adds processing complexity on top of existing bottleneck. Illinois state bill introduced to ban law enforcement from hiring ICE officers — state-level enforcement divergence accelerating.** 2.2M self-deportations in 2025 = labor supply shock 10-15x larger than -155K ag figure. Americans emigrating at rates not seen since 1930s (WSJ).
+**Summary:** Population movement disruptions creating localized stress in Tier-1 states (FL/TX/CA/AZ). Florida thesis CONFIRMED at 95% confidence — migration collapsed 93% (311K→23K, #1→#8 destination). Canadian tourism structural rupture (-28% YoY, airlines physically redirected aircraft). DHS shutdown Day **20**, STILL unresolved — **Noem FIRED Mar 5, Mullin nominated as DHS Secretary**; House passed DHS funding 221-209 but Senate failed 3rd time 51-45; **TSA Mar 14 paycheck miss near-certain, travel industry now lobbying Congress**. **NFP Feb 2026: -92K (NEGATIVE, unemployment 4.4%)** — macro confirmation of WFD thesis; first negative print of cycle. Mexico remittances Jan 2026: -1.4% YoY ($4.594B), first January decline since 2015. H-2A 2026: DOL two-tier AEWR methodology entering planting season. 2.2M self-deportations in 2025 = labor supply shock 10-15x larger than -155K ag figure.
 
 ---
 
@@ -28,18 +28,21 @@
 - Oil spike → airline fuel costs → potential further capacity cuts to FL routes
 - **Scenario change:** If DHS funded this week → E-Verify resumes immediately → enforcement surges → ag/construction labor shock accelerates INTO planting season (worst timing). Mar 14 TSA walkout risk drops significantly if resolution happens before paycheck miss.
 
-### DHS Shutdown (Day 19, ongoing — UPDATED Mar 5)
+### DHS Shutdown (Day 20, ongoing — UPDATED Mar 6)
 - **Iran leverage strategy FAILED** — "Iran conflict fails to move Democrats in DHS shutdown fight" (The Hill, Mar 4). War framing did not shift Dem calculus.
-- House teed up YET ANOTHER DHS funding bill (Mar 4-5) — but Senate dead on arrival; Dems still blocking filibuster threshold
-- Senate vote attempted Mar 3 — failed. No new Senate vote scheduled as of Mar 5.
+- **House passed DHS funding through September: 221-209 (Mar 5)**
+- **Senate failed THIRD time: 51-45** — still needs 60. No new vote scheduled.
+- **🔴 NOEM FIRED (Mar 5):** Trump replaced Kristi Noem with Sen. Markwayne Mullin (R-OK). Noem out due to Minneapolis shootings controversy + $220M ad contract. Mullin described as harder-line MAGA enforcement posture.
+  - Blumenthal (D-CT): "Might be easier to negotiate" with Noem gone
+  - Schumer: Will NOT support Mullin
+  - Political read: Mullin confirmation could become the negotiating vehicle for a deal (Dems shape hearings in exchange for shutdown end)
 - E-Verify SUSPENDED since Day 1 — BREACHED (>7 day threshold)
 - TSA partial paycheck: Feb 28 (already received reduced pay)
-- **TSA full paycheck miss: Mar 14** — 9 days out; walkout risk during spring break peak (2.5M/day screened); **path to resolution now unclear — treat Mar 14 risk as elevated**
-- OBBBA backstop ($155B remaining) keeps ICE/CBP operational — enforcement continues
-- Noem grilled at Senate hearing over ICE raids in Minneapolis — political cost rising for both sides
+- **TSA full paycheck miss: Mar 14** — 8 days out; travel industry (airlines, airports) now formally lobbying Congress (NPR Mar 5); walkout risk during spring break peak (2.5M/day screened); **treat as HIGH RISK**
+- OBBBA backstop ($155B remaining) keeps ICE/CBP operational — enforcement continues under Mullin transition
 - H-2A processing bottlenecked during planting season (Mar-May); shutdown adds visa processing delays
 - Air Transat canceled ALL 11 Canada→US summer routes including Fort Lauderdale
-- **State-level divergence accelerating:** Illinois Senate bill introduced to prohibit law enforcement from hiring individuals serving as federal immigration officers — if passed, formal legal firewall against ICE cooperation
+- **State-level divergence:** Illinois Senate bill to prohibit law enforcement from hiring ICE officers — formal legal firewall if passed
 
 ### Florida Migration Collapse (Census, Feb 2026)
 - Net domestic migration: 311K (2022) → 185K → 63K → **22.5K (2025)** = **93% collapse**
@@ -88,16 +91,23 @@
 - **1% US remittance tax took effect Jan 1, 2026** — adds friction, may amplify decline going forward
 - Source: Banxico via Mexico Business News / Mexico News Daily (published Mar 2, 2026)
 
-### ADP February 2026 — Workforce Displacement Signal (NEW — Mar 4)
+### ADP February 2026 — Workforce Displacement Signal (CONFIRMED Mar 4)
 - **ADP: +63K jobs (vs +130K consensus) — major miss**
 - **Professional/Business Services: -30K** — staffing agencies, temp workers, business support
-- WFD thesis assessment: **SUPPORTS / CONFIRMS**
-  - Professional/biz services = largest temp/staffing sector. Undocumented workers heavily represented in staffing pipelines (construction, ag, food service placement)
-  - -30K in this sector is consistent with immigrant workforce exit depressing temp-labor demand
-  - Fear-withdrawal → fewer workers available → staffing firms contract → shows in pro/biz services data
-- Broader implication: labor market deteriorating faster than consensus. Validates displacement is now macro-visible, not just sectoral
-- ADP miss this large → NFP Friday (Mar 6) is high-stakes. If NFP confirms, Fed rate cut expectations accelerate
-- **LABOR agent should flag this as cross-validation of Latino industry collapse thesis**
+- WFD thesis: SUPPORTED
+
+### NFP February 2026 — MACRO CONFIRMATION EVENT (NEW — Mar 6)
+- **NFP: -92,000 (NEGATIVE)** vs 60K forecast, vs +130K prior
+- **Unemployment: 4.4%** (up from 4.3%)
+- Sector breakdown: Health care declined (strike activity), Information declining, Federal government "continued to trend down"
+- WFD thesis assessment: **STRONGLY CONFIRMS**
+  - First negative NFP print of the cycle — labor market reversal, not just deceleration
+  - Federal gov declining = DOGE + shutdown furloughs showing in data
+  - Combined with ADP pro/biz -30K: staffing pipeline contraction now in both surveys
+  - Fear-withdrawal → workforce exits → labor demand collapse → now macro-visible
+- **Implication for Fed:** -92K NFP prints will sharply accelerate rate cut expectations
+- **→ PROME: Potential policy-inflection signal — assess positioning impact**
+- **→ LABOR: Immediate full-sector breakdown needed**
 
 ### Americans Emigrating (WSJ, Feb 26) — INTEGRATED Mar 2
 - Net US migration **negative 150K in 2025** — first since 1930s Great Depression
@@ -135,8 +145,9 @@
 | Imperial County Unemployment | 20-31%, BBB credit | 🟠 CRITICAL |
 | E-Verify Suspension | Active (DHS shutdown) | 🔴 BREACHED |
 | TX Net Domestic Migration | +67K (was +219K, -69%) | 🟠 CRITICAL |
+| NFP Feb 2026 | -92K (NEGATIVE), unemployment 4.4% | 🔴 BREACHED |
 
-**Composite:** 13 BREACHED, 8 CRITICAL
+**Composite:** 14 BREACHED, 8 CRITICAL
 
 ---
 

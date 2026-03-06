@@ -1,9 +1,9 @@
 # PROME STATUS.md
-**Updated:** 2026-03-06 00:10 UTC
+**Updated:** 2026-03-06 13:45 UTC
 
-**Last context:** HENRY↔REGINALD full alignment sprint complete (TSV schemas, CLAUDE.md audit, THESIS_VALIDATION.md). Next: codify TRADE.md concept, then NFP at 8:30 AM ET. Session mgmt protocol established (checkpoint→clear→new).
+**Last context:** NFP printed -92K (first negative). All agents deployed with data. LABOR fully upgraded to HENRY/REGINALD standard. Mail system migrated to directory pattern (LABOR + template done, 11 agents pending).
 
-## 🔴 CRITICAL — HORMUZ CLOSED + NFP RESOLUTION EVENT TOMORROW
+## 🔴🔴 NFP -92K — THESIS CONFIRMED — MARKET OPENS 9:30 AM ET
 
 ---
 
@@ -11,16 +11,16 @@
 
 | Agent | Status | Key State | Updated |
 |-------|--------|-----------|---------|
-| HENRY | 🟢 | **100% CLEAN.** All audit items resolved (two passes). KB.tsv renamed, FILES indexed, no orphans, no stale refs. HEN-01: NFP <100K at 70%. | Mar 5 |
-| REGINALD | 🟢 | **CLEAN.** STATUS 168 lines. Verify audit addressed. All fixes committed. VX_HISTORY empty (populate next). | Mar 5 |
-| LABOR | 🔴 | Hiring freeze Q2+. WARN 706/85K. Shadow gap resolves Mar-Apr. | Mar 3 |
-| CARL | 🔴 | Subprime auto ABS 7.1% ALL-TIME RECORD. FL UI cliff Mar 24. Gas squeeze Mar 14-21. | Mar 4 |
-| SAM | 🔴 | Carry unwind 65%/80%. USD/KRW breached 1,500. BoK emergency meeting, defended for now. Nikkei -6.5% in 2 sessions. | Mar 4 |
+| HENRY | 🟢 | **NFP processed.** HEN-01 CONFIRMED (-92K). Convergence ~44/60. Stagflation vector maxed. Carry/JPY 2→4. Synthesis written. | Mar 6 |
+| REGINALD | 🟢 | **NFP processed.** EGBN Federal Layoffs channel fired (🟠→🔴), score 19→20. Structural -64K after strike strip. | Mar 6 |
+| LABOR | 🟢 | **UPGRADED + NFP processed.** Full architecture alignment done. LAB-09 CONFIRMED (shadow gap). Convergence 43/55 🔴🔴 MAX. Mail system migrated. | Mar 6 |
+| CARL | 🔴 | Subprime auto ABS 7.1% (breached). FL UI cliff Mar 24. Gas squeeze Mar 14-21. Check-in done, no new data. | Mar 6 |
+| SAM | 🔴 | **Carry/JPY vector activated** by NFP. Check-in spawned. USD/KRW breached 1,500. Nikkei -6.5%. | Mar 6 |
 | BROCK | 🔴 | **CONSOLIDATED** to AGENTS/BROCK/. Athene mapping done ($442B, $9B CRE transfer). 36 files in one place. | Mar 5 |
-| LIQUID | 🔴 | HY OAS 308bps CONFIRMED. LIQ-01 still OPEN (320bps threshold). VIX compressed 26→21. IG primary may reopen. | Mar 4 |
-| MARCO | 🔴 | Remittances -1.4% YoY. DHS Day 18. TSA paycheck miss Mar 14. | Mar 4 |
-| OTTO | 🔴 | **GATE BREACHED.** BCRED $3.8B redemptions (7.9% of assets) — Blackstone buying own shares to cover. Blue Owl ending quarterly liquidity. Median listed BDC at 73% of NAV. PIK loans doubled to 6.4%. APO class action filed (Epstein ties, class period May 2021–Feb 2026). | Mar 5 |
-| ZHAO | 🔴 | USD/KRW breached 1,500. KOSPI -12%. NPC work report Mar 5. | Mar 4 |
+| LIQUID | 🔴 | **NFP processed.** LIQ-01 (320bps) expected to trigger at open. HYG -1.5 to -3%. VIX 30-38. 10Y behavior = key tell. | Mar 6 |
+| MARCO | 🔴 | Check-in spawned. Remittances -1.4% YoY. DHS Day 18. TSA paycheck miss Mar 14. | Mar 6 |
+| OTTO | 🔴 | Check-in spawned with NFP context. BCRED $3.8B redemptions. APO class action. BDC 73% NAV. | Mar 6 |
+| ZHAO | 🔴 | Check-in spawned. USD/KRW breached 1,500. KOSPI -12%. | Mar 6 |
 | HAWK | 🔴 | Russian infra damage + Ukrainian energy warfare theses. | Mar 3 |
 | HANS | 🟠 | Ceasefire 12%. iTraxx Senior Financial ~95bps. | Mar 4 |
 | NEXUS | 🔴 | 5 thresholds breaching simultaneously. | Mar 4 |

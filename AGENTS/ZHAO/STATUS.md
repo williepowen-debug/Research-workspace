@@ -132,9 +132,9 @@
 ### Currency / HK Peg
 | Metric | Current | Yellow | Orange | Red | Status |
 |--------|---------|--------|--------|-----|--------|
-| USD/CNY | **6.89** (offshore, Mar 3) | >7.30 | >7.40 | >7.50 | 🟢 GREEN — PBOC largest midpoint fix in 6mo; yuan strengthening, 7.30 call pushed back |
+| USD/CNY | **~6.85 est.** (Mar 6, DXY 99.08 post-NFP) | >7.30 | >7.40 | >7.50 | 🟢 GREEN — USD weakness on NFP -92K driving yuan strength; PBOC not selling to defend; 7.30 call pushed back further |
 | HK Aggregate Balance | **HK$53.9B** | <$45B | <$40B | <$30B | 🟢 GREEN |
-| HIBOR-SOFR Spread | **~-199bps** (1M HIBOR 2.31%, SOFR ~4.30%) | >-100bps | >-200bps | >-300bps | 🟠 ORANGE — at threshold, upgrading from YELLOW (Mar 5) |
+| HIBOR-SOFR Spread | **~-211bps** (1M HIBOR 2.196%, SOFR ~4.30%) | >-100bps | >-200bps | >-300bps | 🟠 ORANGE — nominally worsened; but NFP-driven SOFR repricing may narrow spread (watch Fed cut pricing) |
 | HK Backing Ratio | ~110% | <108% | <105% | <102% | 🟢 GREEN |
 
 ### HK Peg Early Warning (NEW - RP-ZHAO-4)
@@ -514,7 +514,34 @@ The risk isn't that China abandons USD. The risk is:
 
 ---
 
-*Last updated: 2026-03-05 13:50 UTC*
+*Last updated: 2026-03-06 13:50 UTC*
+
+### Mar 6 Check-in Notes (8:45 AM ET) — NFP DAY
+**Context:** NFP February = **-92,000** (first negative print; vs +59K expected). DXY **99.08**. USD weakness live.
+
+**TIC:** No update. Next print March 15 (Feb data). Belgium $477.3B, China $683.5B unchanged. **9 days to next print — Belgium $500B watch.**
+
+**HK Peg — Live HKMA Data (Mar 6 18:30 HKT):**
+- Aggregate Balance: **HK$53,838M = HK$53.8B** (flat — GREEN, above $45B floor)
+- Overnight HIBOR: **1.32%** (DOWN from 1.58% — easing)
+- 1-Month HIBOR: **2.19613%** (DOWN from 2.31179%)
+- HIBOR-SOFR: **~-211bps** nominally (ORANGE), but NFP-driven SOFR repricing may narrow spread → watch Fed cut pricing
+- Peg: Convertibility band 7.75–7.85 intact, no stress
+
+**USD/CNY:** USD weakness on NFP → USD/CNY estimated **~6.83-6.87** (was 6.89). PBOC gets yuan strength WITHOUT selling USTs. Near-term UST selling pressure REDUCED.
+
+**LGFV/Property:** No acute overnight events. Vanke rescue ($11.58B Shenzhen package) ongoing. Sunac equitization on track (Jun 30). Slow-burn thesis intact.
+
+**NFP -92K Impact Assessment:**
+- **Near-term: THESIS SUPPRESSANT, not invalidator.** USD weakness reduces PBOC selling pressure, gives BoK/KRW breathing room, may narrow HIBOR-SOFR spread via SOFR repricing. Timing of visible stress events pushed out.
+- **Structural thesis: UNCHANGED.** Custodial arbitrage, LGFV stress, property zombification all continue. USD direction doesn't reverse the mechanism.
+- **Watch paradox:** If US enters recession → risk-off → EM carry unwinds → eventually HIT China/HK harder. The suppression can flip.
+- **ZHAO-2 timing risk:** PBOC less pressure to sell USTs if not defending CNY → China <$650B call may slip from Q2 to Q3 2026.
+- **ZHAO-1 (Belgium $500B):** UNCHANGED — custodial flows independent of USD direction.
+
+**Korea anchor:** USD/KRW likely strengthened (won up) on USD weakness → BoK UST selling pressure TEMPORARILY RELIEVED.
+
+**Full analysis:** `AGENTS/ZHAO/CHECKIN_MAR6.md`
 
 ### Mar 5 Check-in Notes (8:45 AM ET)
 **TIC:** No update. Next print March 15 (Feb data, pre-LNG crisis). Belgium $477.3B, China $683.5B unchanged.
