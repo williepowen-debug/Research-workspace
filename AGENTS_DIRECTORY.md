@@ -51,7 +51,8 @@ Sub-agents own detail → distill upward to parents → lateral only when transm
 
 | Agent | Domain | Notes |
 |-------|--------|-------|
-| **HAWK** | Geopolitical/military | 🔴 Iran active. Parallel trigger vector |
+| **HAWK** | Geopolitical/military | 🔴 Iran active. Parallel trigger vector. Military ops only — oil fundamentals → BRENT |
+| **BRENT** | Oil & energy markets | 🔴 Brent $90, Hormuz closed. Owns oil fundamentals, storage, tankers, two-phase thesis, energy credit. Receives military catalysts from HAWK. |
 | **BARON** | Trump network/policy | Active |
 | **MARCO** | Migration/labor flows | Background |
 | **RED** | Adversarial analysis | Challenges all theses |
@@ -66,6 +67,7 @@ Sub-agents own detail → distill upward to parents → lateral only when transm
 LABOR → CARL → REGINALD → repricing
 LIQUID amplifies any stage | HENRY = speed gauge
 SAM + ZHAO + HANS = parallel global risk | HAWK = external shock
+HAWK (military) → BRENT (oil fundamentals) → CARL (gas pumps) + LIQUID (energy credit) + HENRY (inflation) + SAM (Japan energy)
 SHADE = insurance plumbing under BROCK/REGINALD | feeds LIQUID on systemic
 NEXUS synthesizes across all → convergence/contradiction → PROME
 HERMES carries signals between all agents (OUTBOX → INBOX, 2x daily)

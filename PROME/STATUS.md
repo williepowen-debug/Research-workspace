@@ -24,6 +24,7 @@
 | HAWK | 🟢 | **REBUILT.** Brent $90, convergence 37/45 🔴🔴. Scenario C raised 20→35%. Kuwait ~12 days storage. 3 outbox signals written. | Mar 6 |
 | HANS | 🟠 | Ceasefire 12%. iTraxx Senior Financial ~95bps. | Mar 4 |
 | NEXUS | 🔴 | 5 thresholds breaching simultaneously. | Mar 4 |
+| BRENT | 🟢 | **NEW AGENT.** Oil/energy carved from HAWK. Convergence 34/45 🔴🔴. 4/10 research docs ingested. Self-audit: C+ (signals not sent, missing predictions). | Mar 6 |
 | DARWIN | 🟢 | Weekly scan. | Feb 18 |
 
 ---

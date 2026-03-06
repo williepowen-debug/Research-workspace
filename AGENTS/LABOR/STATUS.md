@@ -1,5 +1,5 @@
 # LABOR STATUS
-**Last Updated:** 2026-03-06 13:35 UTC | **Status:** 🔴🔴 CRITICAL — NFP RESOLVED. SHADOW GAP CONFIRMED.
+**Last Updated:** 2026-03-06 21:18 UTC | **Status:** 🔴🔴 CRITICAL — NFP RESOLVED. SHADOW GAP CONFIRMED. STAGFLATION SIGNAL ACTIVE. Q4 2025 NOW CONTRACTIONARY.
 
 **Summary:** **February NFP: -92,000** (consensus +55-65K, our model 75-110K — both directions missed: headline went NEGATIVE). U-3 4.4% (↑ from 4.3%). Jan revised DOWN to +126K. Healthcare -28K (strike distortion — physicians offices -37K, hospitals +12K). Federal govt -10K. Information -11K. Long-term unemployed 1.9M (+400K YoY). BLS language: "payroll employment changed little on net in 2025" — phantom job acknowledgment. Schedule Policy/Career LIVE. Shadow payroll gap (LAB-09): **CONFIRMED — gap was real, resolution violent.** Healthcare strike gives Street an excuse to dismiss, but structural component ~-64K after stripping strike distortion. Still a massive validation of the thesis.
 
@@ -41,6 +41,14 @@
 
 | Indicator | Value | Status | Source |
 |-----------|-------|--------|--------|
+| **Hourly Wages MoM** | **+0.4%** | 🔴 | [CONF] BLS Mar 6. Beat +0.3% exp. HOT. Deepens Fed trap — stagflation signal with -92K payrolls. |
+| **Hourly Wages YoY** | **+3.8%** | 🔴 | [CONF] BLS Mar 6. Beat +3.7% exp. Wages sticky while employment breaks. |
+| **Consumer Credit Jan** | **$11.0B vs $24.0B exp** | 🔴 | [CONF] Fed Mar 6. Massive miss. Households not borrowing to fill income gap — demand destruction signal. Cross: CARL. |
+| **Retail Sales Jan** | **-0.2%** | 🟠 | [CONF] BLS Mar 6 (delayed). Slight beat vs -0.4% exp. Still negative. |
+| **ISM Services Feb** | **56.1%** | 🟡 | [CONF] ISM Mar 4. 3.5-year high, massive beat vs 53.5% exp. Counter-signal to labor deterioration. |
+| **ISM Mfg Feb (overall)** | **52.4%** | 🟡 | [CONF] ISM Mar 3. Expansion. Employment sub-index 48.8% still contraction. Headline misleads. |
+| **Fed Beige Book Feb** | Mild growth, uncertain | 🟠 | [CONF] Fed Mar 4. "Choppy start, higher prices, uncertainty." AI used but NOT replacing workers per Fed. |
+| **Schedule Policy/Career** | **LIVE Mar 6** | 🔴 | [CONF] OPM Mar 6. Federal workforce conversion executing today. DOGE cascade begins. |
 | **Initial Claims** | **213K** | 🟢 | [CONF] BLS Mar 5. Unchanged WoW, beat 215K exp. 4-wk MA: 215,750 ↓4,750. DHS suppression intact — not clean until Mar 12. |
 | **Continuing Claims** | **1.833M** | 🟢 | [CONF] BLS Mar 5. DATA ARTIFACT — DHS distortion. Do not trust. |
 | **U-3 Unemployment** | **4.4%** ↑ | 🔴 | [CONF] BLS Mar 6. Up from 4.3%. +0.4pp YoY. LAB-02 path active (4.7% trigger). |
@@ -48,8 +56,10 @@
 | **Long-term Unemployed** | **1.9M** ↑ | 🔴 | [CONF] BLS Mar 6. +400K YoY. Up from 1.8M. Accelerating. |
 | **College Grad Unemployment** | **36.6%** of unemployed | 🟠 | [CONF] BLS Feb 7. Record. White-collar deterioration. |
 | **Part-time (Economic)** | **4.4M** ↓ | 🟡 | [CONF] BLS Mar 6. DOWN 477K. Ambiguous — workers may be exiting to unemployed, not finding FT. |
+| **Prime-Age Participation** | **83.9%** ↓ | 🔴 | [CONF] BLS Mar 6. Fell in Feb. Labor supply contracting. NEW — not in prior read. |
 | **Temp Employment YoY** | **-12%** | 🔴 | [CONF] BLS Feb 7. Re-accelerating. RHI/KFRC sequential = counter-signal. |
 | **Staffing Canaries** | Sequential+ | 🟡 | [CONF] RHI/KFRC Q4 earnings. First positive in 12Q. If holds → plateau 3-4mo. |
+| **NFP Dec 2025 (REVISED)** | **-17K** | 🔴 | [CONF] BLS Mar 6. Revised DOWN from +50K. **Net contraction.** Q4 2025 now effectively zero/negative. NEW — not in prior read. |
 | **NFP Jan 2026 (REVISED)** | **+126K** | 🟡 | [CONF] BLS Mar 6. Revised DOWN from +130K. Revisions tell real story. |
 | **NFP Feb 2026** | **-92,000** | 🔴🔴 | [CONF] BLS Mar 6 8:30 ET. Consensus +55-65K. Our model: 75-110K. BOTH MISSED — headline negative. Healthcare -28K (strike), Fed govt -10K, Info -11K. Social asst +9K. |
 | **2025 Job Growth (Revised)** | **+181K** | 🔴 | [CONF] BLS benchmark Feb 7. Was +584K. **1.03M phantom jobs**. |
@@ -254,6 +264,8 @@ PPI core +0.8% (2.6x expected) + PCE 2.9% + Hormuz → Oil spike
 **The valve broke. -92,000 is the verdict.**
 
 The shadow payroll gap thesis is confirmed: WARN pipeline (716 notices, 85K workers) loaded and discharged. NFP went negative — a print not seen since pandemic lows. Street consensus (+55-65K) was off by 147K; our model (75-110K) was off in direction. The miss is larger than anyone modeled.
+
+**EOD Mar 6 update:** December revised -17K (was +50K) — Q4 2025 now contractionary. Prime-age participation fell to 83.9%. Fed first cut now consensus July (FedWatch). Evercore ISI projecting 500K federal cuts by year-end (vs our 327K current). Strike reversal expected in March NFP (+~31K mechanical) — bounce risk confirmed and quantified.
 
 **The Street will try to dismiss this on healthcare.** The strike accounted for ~-28K (physicians offices -37K, hospitals +12K net). That's temporary and likely reverses in March. But stripping the strike leaves approximately **-64K structural** — federal govt -10K, information -11K, and broad private sector weakness. That is still a historically bad print.
 

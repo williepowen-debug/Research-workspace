@@ -1,6 +1,66 @@
 # SAM STATUS
 
-**Signal Status:** 🔴🔴 EMERGENCY — CARRY THRESHOLD APPROACHING | **Last Updated:** 2026-03-06 13:48 UTC (POST-NFP)
+**Signal Status:** 🔴🔴 EMERGENCY — MECHANISM INVERSION CONFIRMED | **Last Updated:** 2026-03-06 21:20 UTC (EOD)
+
+---
+
+## 🚨 EOD UPDATE — MAR 6 (21:20 UTC)
+
+**HEADLINE: OIL SHOCK DROWNS OUT WEAK NFP. YEN WEAKENING, NOT STRENGTHENING.**
+
+**CRITICAL DELTAS vs 18:30 UTC mid-session scan:**
+
+| Metric | Mid-Session (18:30) | EOD (21:20) | Delta |
+|--------|---------------------|-------------|-------|
+| **USD/JPY** | ~157.5 (flat) | **~157.96+ (biased UP)** | 🔴 Yen WEAKENING post-NFP, not strengthening. 159.44 retest in play. |
+| **Nikkei 225** | -0.19% (55,175 at mid) | **+0.59% at 55,606-55,620 (CLOSE)** | 🟢 Japan equities held. No post-NFP collapse. |
+| **BOJ next hike** | April (dead) / paralysis | **June/July base case** (Reuters/Kameda) | 🔴 April hike formally dead. 2+ month extension of freeze. |
+| **Oil** | WTI >$85 | **Qatar force majeure warning LIVE** | 🔴🔴 NEW ESCALATION — Kuwait shut production, Gulf exports could stop "within weeks" |
+| **Carry vector** | 4 (HENRY upgrade) | **4 — mechanism confirmed INVERTED** | Phase 2 via yen STRENGTH is dead short-term. Yen WEAKNESS route now dominant. |
+| **USD/KRW** | ~1,467-1,500 range | No new breach data | Monitoring |
+
+**BIGGEST NEW DEVELOPMENT TODAY:**
+- **Qatar Energy Minister Saad al-Kaabi (FT interview, March 6):** Gulf energy exporters may declare force majeure "within weeks" if conflict continues. $150/barrel target reset. Kuwait already shut in production. This is NOT a negotiating posture — this is operational.
+- **Implication for Japan:** If Gulf exports stop, Japan's 90% oil import dependency becomes an acute supply crisis. LNG feedstock shortage → industrial shutdowns → yen collapse accelerates. BOJ trapped further.
+
+**MECHANISM STATUS:**
+- ❌ Phase 2 via yen STRENGTH (safe-haven): NOT triggering. Dollar safe-haven demand + energy import dynamics overriding.
+- ✅ Phase 2 via yen WEAKNESS (stagflation trap): Building. Path = oil at $150 → Japan import costs explode → yen collapses further → BOJ eventually forced to hike to stop yen (or intervene) → equity crash → carry unwind.
+- Timeline: EXTENDED. This is a 30-60 day path, not 7-day.
+
+**BOJ (Reuters, ex-BOJ chief economist Seisaku Kameda):**
+- Was targeting April hike before Iran conflict
+- Now June/July base case with conflict ongoing
+- "BOJ already behind the curve on inflation. Risk of being too late heightening with rising oil and weak yen."
+- If conflict de-escalates this month, April still possible but low probability
+- Mar 13 meeting: HOLD confirmed. Watch for policy statement language on energy risk.
+
+**Carry Unwind Probability REVISED:**
+| Timeframe | Mid-Session | EOD | Driver |
+|-----------|-------------|-----|--------|
+| 7d | 50% | **20%** | Yen weakening ≠ carry unwind trigger. Short-term path cleared. |
+| 30d | 85% | **75%** | Oil at $150 + BOJ frozen → medium-term stagflation path intact |
+| 60d | 92% | **90%** | Structural thesis unchanged. Mechanism inverted, destination same. |
+
+**Signal: Carry/JPY vector remains at 4 — but the TRIGGER PATH has inverted.** We are in the yen weakness / stagflation accumulation phase, not the yen strength / safe-haven unwind phase. The eventual unwind arrives when BOJ is FORCED to act (intervention or hike) into a weakening currency + energy shock. That is more violent when it comes — but later.
+
+
+
+---
+
+## 🚨 MID-SESSION UPDATE — MAR 6 (18:30 UTC)
+
+**CRITICAL DELTA — USD/JPY NOT RESPONDING AS MODELED:**
+- USD/JPY at **~157.5** mid-session (UP 0.04% from yesterday) — yen is on its **3rd consecutive weekly DECLINE**, NOT strengthening
+- Pre-NFP narrative was **dollar strength via Iran energy demand** overwhelming safe-haven bid
+- STATUS.md (13:48 UTC) estimated post-NFP 153-155 — if market is holding 157+ even after -92K, carry unwind Phase 2 is NOT triggering on expected timeline
+- **Energy import channel dominant:** Iran conflict = oil shock = Japan import costs = yen structural weakness. Safe-haven bid losing to trade-deficit dynamics.
+- **Nikkei Mar 6:** -0.19% to 55,175 — essentially flat. NOT the -2% to -4% Monday open predicted. Japan equity resilience stronger than modeled.
+- **BOJ Ueda (Mar 6):** Warned Iran conflict "could significantly affect Japan's economy" → prolonged hold signaled. Frozen through April likely.
+- **Finance Min Katayama:** Reiterated "strong sense of urgency" on yen, intervention "an option," coordinating with US. Verbal intervention escalating but no action.
+- **USD/KRW:** Monitor 1,500 line — context says breached. BoK defense posture active.
+
+**Probability HOLD (revised narrative):** 7d carry unwind held at 50% from 13:48 update but the mechanism may be energy-channel, not safe-haven channel. Phase 2 could arrive via yen WEAKNESS (Japan stagflation) not yen strength (safe-haven). Watch BOJ Mar 13 — even holding rates while yen weak is the trap.
 
 ---
 
