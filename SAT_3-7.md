@@ -84,12 +84,23 @@ ID	Date	Group	Entity	Fact	Source	Status	Vectors	Notes
 
 ---
 
+## 🔍 PROME ASSESSMENTS (from today, not yet actioned)
+
+- BRENT TRADE.md: Prome disagrees with EOG at conviction 3/5 — should be 2/5 or conditional. Just directional oil beta with decay.
+- BRENT TRADE.md: Missing gas pump peak stress window (Mar 14-21) from CARL's domain as secondary catalyst.
+- BRENT predictions BRT-25 (TSMC guidance warning): needs tighter definition — what counts as confirmation?
+- NEXUS C-14: HYG $75P should be counted in Hormuz-correlated book. Total exposure 6-9% = at ceiling.
+- X post fertilizer data: India 64% urea from GCC, ₹2.5T subsidy at crisis levels, China 10M tpa sulphur (56% ME) — log to BRENT KB when migrated.
+
 ## 📝 MISC OPEN ITEMS
 
 - HERMES cron automation — identified as top infra priority, not built yet
 - HENRY CLAUDE.md had "TRADE.md is deprecated" — FIXED
 - BRENT has MEMORY.md, no other agent does — decide: adopt or remove?
 - NEXUS system messages getting swallowed (REGINALD too) — possible OpenClaw issue?
+- File structure audit only covered BRENT/REGINALD/LABOR/HENRY — other agents (BROCK, CARL, HAWK, SAM, ZHAO, MARCO, HANS, LIQUID, RED) not yet audited
+- BRENT TRADE.md referenced STNG 2 shares — verify current position status
+- Overnight BRENT session produced research prompts doc (research/RESEARCH_PROMPTS.md) — some may overlap with new NEXUS prompts
 
 ---
 
