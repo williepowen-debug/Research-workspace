@@ -1,7 +1,7 @@
 # PROME STATUS.md
-**Updated:** 2026-03-06 16:45 UTC
+**Updated:** 2026-03-07 05:45 UTC
 
-**Last context:** NFP day complete. $3,056 realized profit (5 positions). HAWK rebuilt (37/45), BROCK fully upgraded (35/50), HERMES on directory mail. All 14 agents now on directory mail pattern. Next: HERMES delivery run, BIZD/OWL options research, Tier 2 trims, BRIEFING.md rewrite.
+**Last context:** Overnight BRENT deep dive. Will ran 3 research prompts (storage, Hormuz live, Cheniere earnings model). PROME wrote Phase 2 transition matrix. 4 BRENT spawns processed everything. BRENT is now most mature agent — 21 predictions, full Phase 2 operational protocol, mechanical exit triggers. Next: HERMES delivery run (backlogged), Monday live M1-M3 spread, BRIEFING.md rewrite, LNG/EOG position sizing decision, Tier 2 trims.
 
 ## 🔴🔴 NFP -92K — THESIS CONFIRMED — HARVESTING + INFRASTRUCTURE
 
@@ -24,7 +24,7 @@
 | HAWK | 🟢 | **REBUILT.** Brent $90, convergence 37/45 🔴🔴. Scenario C raised 20→35%. Kuwait ~12 days storage. 3 outbox signals written. | Mar 6 |
 | HANS | 🟠 | Ceasefire 12%. iTraxx Senior Financial ~95bps. | Mar 4 |
 | NEXUS | 🔴 | 5 thresholds breaching simultaneously. | Mar 4 |
-| BRENT | 🟢 | **NEW AGENT.** Oil/energy carved from HAWK. Convergence 34/45 🔴🔴. 4/10 research docs ingested. Self-audit: C+ (signals not sent, missing predictions). | Mar 6 |
+| BRENT | 🟢🟢 | **MOST MATURE AGENT.** 21 predictions (4 confirmed), 10 vectors, 25 flow chains, full Phase 2 operational protocol. Tonight: 3 research docs ingested + Phase 2 matrix + Cheniere earnings model. STATUS trimmed to 244 lines. All TSVs reconciled. | Mar 7 |
 | DARWIN | 🟢 | Weekly scan. | Feb 18 |
 
 ---
@@ -98,9 +98,11 @@ AAPL 100sh (+978%, ~$25.5K), GLD 2sh, TBT 14sh, AMH 12sh, INVH 7sh, CPER 6sh, US
 
 ## Next Priorities
 
-1. **🔴 HERMES delivery** — HAWK wrote 3 outbox signals (CARL, SAM, LIQUID) + HENRY has Beige Book outbox
-2. **🟠 BIZD options** — check for private credit ETF put plays
-3. **🟠 BROCK upgrade** — execute upgrade plan (CLAUDE.md + STATUS alignment)
-4. **🟠 BRIEFING.md rewrite** — current one is stale (pre-NFP)
-5. **🟡 Tier 2 trims** — SSB $90P (+125%), AAL $10P (+81%) still on the table
-6. **🟡 Blue Owl bankrupt firm** — Will investigating, unresolved
+1. **🔴 HERMES delivery** — HAWK 3 outbox signals (CARL, SAM, LIQUID) + HENRY Beige Book outbox + BRENT→SAM JKM signal (all backlogged)
+2. **🔴 Monday: Live M1-M3 Brent spread** — Phase 2 matrix needs current reading at open
+3. **🔴 Monday: Friday COT report** — check if CFTC released (managed money positioning = Phase 2 Signal #6)
+4. **🟠 LNG/EOG position sizing** — Will to decide. Cheniere call debit spread ($270C/$300C) = highest priority per BRENT. EOG calls secondary.
+5. **🟠 BRIEFING.md rewrite** — stale (pre-NFP, pre-war research blitz)
+6. **🟡 Tier 2 trims** — SSB $90P (+125%), AAL $10P (+81%) still on table
+7. **🟡 BIZD options** — private credit ETF put plays
+8. **🟡 Blue Owl bankrupt firm** — Will investigating, unresolved
