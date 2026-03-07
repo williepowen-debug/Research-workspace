@@ -36,7 +36,7 @@ All mail lives in `mail/`:
 
 ### Inbox Processing Protocol (when spawned for it)
 1. **Read each signal** in `mail/inbox/` — who sent it, what's the data, what priority (🔴/🟠)?
-2. **Cross-reference workbook** — check VX.tsv, ML.tsv, FLOW.tsv, PREDICTIONS.tsv for related vectors. Does this connect to something you already track?
+2. **Cross-reference workbook** — check VX.tsv, KB.tsv, FLOW.tsv, PREDICTIONS.tsv for related vectors. Does this connect to something you already track?
 3. **Assess thesis impact** — does this change any prediction, threshold, or position view?
 4. **Update STATUS.md** if warranted (new data, changed levels, adjusted confidence)
 5. **Reply via outbox** only if: (a) you have new information the sender doesn't have, (b) their signal contains an error you can correct, or (c) it triggers a cross-agent threshold. Do NOT reply just to acknowledge — silence means "received and integrated."
@@ -206,6 +206,6 @@ When analyzing a new layoff event, apply these frameworks rather than reasoning 
 | `domain/sources/` | Research archives, deep dives |
 | `scripts/warn_texas.py` | Texas WARN API (cron Wed 8AM ET) |
 | `workbook/VX.tsv` | Vectors — tracked risk indicators with thresholds and state |
-| `workbook/ML.tsv` | Memory log — timestamped evidence with sources |
+| `workbook/KB.tsv` | Knowledge base — timestamped evidence with sources, cross-links, confidence levels |
 | `workbook/FLOW.tsv` | Transmission pathways — how stress travels between domains |
 | `workbook/PREDICTIONS.tsv` | Falsifiable forecasts with confidence and resolution tracking |

@@ -251,7 +251,7 @@ PPI core +0.8% (2.6x expected) + PCE 2.9% + Hormuz → Oil spike
 | `domain/sources/STAFFING_PRESIGNAL_DEEP_DIVE.md` | RHI/KFRC bottoming analysis |
 | `domain/sources/WARN_ACT_LEADING_INDICATOR.md` | WARN→claims correlation |
 | `scripts/warn_texas.py` | Texas WARN API (Wed 8AM ET cron) |
-| `workbook/ML.tsv` | 79 entries | `workbook/VX.tsv` | 70 vectors |
+| `workbook/KB.tsv` | 82 entries | `workbook/VX.tsv` | 70 vectors |
 
 ---
 
