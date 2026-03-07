@@ -19,10 +19,11 @@ When spawned with a task:
 
 1. **Check `mail/inbox/`** — process any pending signals (INTEGRATE, LOG, or DISCARD). **For each signal, log a one-line entry to KB.tsv** using the 13-column schema. Move processed signals to `mail/inbox/processed/`.
 2. **Read `STATUS.md`** — your current state, dashboard, active situations
-3. **Execute the task**
-4. **Write results back to your files** — update `STATUS.md`, log to workbook (ML/VX/FL/FLOW) when appropriate
-5. **If your findings are relevant to another agent's domain, write to `mail/outbox/`**
-6. **If the task changes your thesis or key numbers, update STATUS.md before finishing**
+3. **Before writing to KB.tsv, read `workbook/SCHEMA.tsv`** — validate all enum fields (Conf, Epistemic, Status) against `allowed_values`. Use `default` values when unsure.
+4. **Execute the task**
+5. **Write results back to your files** — update `STATUS.md`, log to workbook (KB/VX/FLOW) when appropriate
+6. **If your findings are relevant to another agent's domain, write to `mail/outbox/`**
+7. **If the task changes your thesis or key numbers, update STATUS.md before finishing**
 
 ⚠️ **Critical:** Always WRITE to STATUS.md. Do not just report findings back to PROME verbally. If it's not in the file, it doesn't persist.
 
@@ -278,6 +279,7 @@ Update it every session. If your bottom line hasn't changed, your session didn't
 | `STATUS.md` | Live state — dashboard, active situations, predictions. **Primary memory. Gets rewritten.** |
 | `TRADE.md` | Position ideas and active trades |
 | `workbook/KB.tsv` | Knowledge base — 13-column factual claims with reliability, epistemic type, staleness, provenance, and thesis links. **Permanent record.** |
+| `workbook/SCHEMA.tsv` | Data dictionary — defines every KB column: name, type, allowed values, defaults. Read before writing to KB.tsv to validate entries. |
 | `workbook/VX.tsv` | Vectors — tracked risk indicators with thresholds and state. |
 | `workbook/FLOW.tsv` | Transmission pathways — how stress travels between domains. |
 | `workbook/PREDICTIONS.tsv` | Falsifiable forecasts with confidence and resolution tracking. |
