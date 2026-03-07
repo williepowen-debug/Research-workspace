@@ -24,8 +24,9 @@ ID | Date | Group | Entity | Fact | Source | Conf | Epistemic | Status | Stale_B
 - Sprint 3a ✅: LABOR ML.tsv → KB.tsv rename
 
 ### BRENT KB Migration — IN PROGRESS
-- 102 rows, chunked into 4 pieces (~25 rows each)
-- **Next: Chunk 1 (KB-BRT-001–018)** — Hormuz, Storage, OPEC+, Shale, Russia, SPR
+- 102 rows, chunked into 4 pieces
+- **Chunk 1 ✅ (KB-BRT-001–018)** — 18 rows written to KB_13col.tsv. Audited: all facts/sources preserved, no signal loss.
+- **Next: Chunk 2 (KB-BRT-019–043)** — Demand Destruction, OPEC+ Unwind, LNG
 - Chunk 2: KB-BRT-019–043 — Demand Destruction, OPEC+ Unwind, LNG
 - Chunk 3: KB-BRT-044–073 — Energy Credit, OPEC Spare, Bypass, STNG
 - Chunk 4: KB-BRT-074–102 — Macro Transmission, Sulphur, Taiwan
