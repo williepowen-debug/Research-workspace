@@ -1,7 +1,7 @@
 ID	DATE	TOPIC	FACT	SOURCE	NOTES
 KB-BRT-001	2026-03-06	Hormuz	20% of global oil transits Hormuz (~20M bpd)	EIA	Core supply risk metric
-KB-BRT-002	2026-03-06	Storage	Kuwait storage ~18 days runway (as of Mar 5)	JPMorgan/Discovery Alert	Curtailment already begun
-KB-BRT-003	2026-03-06	Storage	UAE storage ~22 days runway (as of Mar 5)	JPMorgan	Imminent curtailment
+KB-BRT-002	2026-03-07	Storage	Kuwait storage ~13 days runway (as of Mar 6). 33.54 mbbls effective capacity, 2.58 mbpd fill rate. Tank tops Mar 19-20. Day-by-day model confirmed by GULF_STORAGE_CRISIS_MAR8.	GULF_STORAGE_CRISIS_MAR8 / JPMorgan	BRT-02 confirmed at 85% confidence. UPDATED from ~18 days (stale JPMorgan estimate pre-model)
+KB-BRT-003	2026-03-07	Storage	UAE storage ~24 days runway (as of Mar 6). 45.84 mbbls remaining, 1.91 mbpd net build (3.41 prod - 1.50 ADCOP). Tank tops Mar 30-31. ADCOP confirmed at 1.5 mbpd (NOT 0.3 mbpd — prior drone damage overestimate corrected).	GULF_STORAGE_CRISIS_MAR8	BRT-03 confirmed at 80% confidence. UPDATED from ~22 days (stale; ADCOP correction extends runway by 2 days)
 KB-BRT-004	2026-03-06	Storage	If Hormuz closed 4 weeks, all Iraq/Kuwait/UAE/Qatar forced to shut	IntelliNews	Estimate, not confirmed
 KB-BRT-005	2026-03-06	OPEC+	140M barrel strategic reserve flush was pre-war Apr-May plan	HAWK archive	War delays indefinitely
 KB-BRT-006	2026-03-06	Shale	US DUC (drilled but uncompleted) inventory depleted from prior cycle	EIA	Limits rapid shale response
