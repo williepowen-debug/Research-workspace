@@ -412,5 +412,23 @@
     "message": "BXSL filed 8-K: Blackstone Secured Lending Fund",
     "value": "2026-03-03",
     "threshold": null
+  },
+  {
+    "id": 1772848868332,
+    "timestamp": "2026-03-07 02:01:08 UTC",
+    "type": "threshold",
+    "severity": "critical",
+    "message": "VIX spiked above 25 (Fear elevated)",
+    "value": 29.49,
+    "threshold": 25
+  },
+  {
+    "id": 1772848869972,
+    "timestamp": "2026-03-07 02:01:09 UTC",
+    "type": "sec",
+    "severity": "warning",
+    "message": "WAL filed 8-K: WESTERN ALLIANCE BANCORPORATION",
+    "value": "2026-03-06",
+    "threshold": null
   }
 ]
