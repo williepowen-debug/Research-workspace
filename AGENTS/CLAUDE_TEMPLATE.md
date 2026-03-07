@@ -246,6 +246,16 @@ Default: **F6** (cannot judge either dimension). Every new, unverified claim sta
 
 ---
 
+### Controlled Vocabulary Enforcement
+
+All enum fields (Conf, Epistemic, Status) use **strict UPPER_CASE values** from `SCHEMA.tsv`. No exceptions.
+
+- **Before writing:** Check your value against `allowed_values` in SCHEMA.tsv
+- **If no exact match:** Use the closest valid value from the list — never invent a new one
+- **If unsure:** Use the `default` value from SCHEMA.tsv (Conf=F6, Epistemic=EMPIRICAL, Status=ACTIVE)
+- **Case matters:** `CONFIRMED` not `Confirmed` or `confirmed`. `EMPIRICAL` not `Empirical`. Always UPPER_CASE.
+- **Group tags:** Always UPPER_SNAKE_CASE (e.g., `HIDDEN_CRE`, not `Hidden CRE` or `hidden-cre`)
+
 ### Other Logging Rules
 
 - Every KB entry needs: date, source, and Conf rating
