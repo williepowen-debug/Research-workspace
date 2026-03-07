@@ -1,46 +1,37 @@
 # SCRATCH — Ephemeral Working Memory
 
-**Updated:** 2026-03-07 22:30 UTC
+**Updated:** 2026-03-08 22:30 UTC
 
 ---
 
-## Last Session: Agent Infrastructure Standardization (Sat Mar 7 evening)
+## Last Session: KB Schema Redesign (Sun Mar 8)
 
-Compared file structures across BRENT, REGINALD, LABOR, HENRY. Found inconsistencies and started fixing them sprint-by-sprint.
+Researched KB schema best practices across intelligence analysis (ICD 203/206, Admiralty Code), scientific evidence synthesis (GRADE, Cochrane/PRISMA), investigative journalism (ICIJ), and quant finance (QuantMind, bi-temporal). Will ran prompt on 3 LLMs, cross-analyzed all outputs.
 
-### Completed Sprints:
-- **Sprint 1 ✅:** Mail system — REGINALD + HENRY migrated from INBOX.md → mail/inbox/ folders
-- **Sprint 2 ✅:** TSV locations — REGINALD PREDICTIONS.tsv + HENRY PREDICTIONS.tsv/ML.tsv moved to workbook/
-- **Sprint 3a ✅:** LABOR ML.tsv renamed to KB.tsv (was already functioning as knowledge base)
-- **HENRY CLAUDE.md:** Fixed stale "TRADE.md is deprecated" note
-
-### Next Sprint (start fresh session):
-- **Sprint 3b:** BRENT KB.tsv migration to new 9-column schema (easiest — 6→9, 103 rows)
-- **Sprint 3c:** LABOR KB.tsv migration (11→9, 82 rows)
-- **Sprint 3d:** HENRY KB.tsv migration (15→9, 89 rows)
-- **Sprint 3e:** REGINALD KB.tsv migration (15→9, 116 rows — hardest)
-- **Sprint 3f:** Update all 4 CLAUDE.md with new schema definition
-
-### New 9-Column KB Schema (AGREED):
+### Result: 13-Column KB Schema (FINALIZED)
 ```
-ID | Date | Group | Entity | Fact | Source | Status | Vectors | Notes
+ID | Date | Group | Entity | Fact | Source | Conf | Epistemic | Status | Stale_By | DerivedFrom | Vectors | Notes
 ```
-- Group = topic/thread tag (SULPHUR, TAIWAN, HIDDEN_CRE, HORMUZ, etc.) — add blank, backfill later
-- Fact = merge of old Description+Analysis+Data_Quote into one good sentence
-- Vectors = old Vector_Links renamed
-- Notes = catch-all absorbing old Confidence, Thesis_Impact, Cross_Links
-- Session column dropped (useless to LLMs)
-- Category absorbed into Group
+- **Conf** = Admiralty digraph A1–F6 (source reliability × info credibility). Default F6.
+- **Epistemic** = EMPIRICAL / ESTIMATE / ASSUMPTION
+- **Stale_By** = expiration date, null if static
+- **DerivedFrom** = parent KB IDs for provenance chains
+- Schema codified in `AGENTS/CLAUDE_TEMPLATE.md` with full Admiralty Code tables and 3-pass cold-boot protocol
 
-### Migration approach per agent:
-1. Read current KB.tsv fully
-2. Python script maps old columns → new columns
-3. Run, output to new file
-4. Spot-check (first 5, last 5, random middle)
-5. Replace old file, commit
+### Completed Infrastructure Sprints (prior sessions):
+- Sprint 1 ✅: Mail system migration
+- Sprint 2 ✅: TSV location standardization
+- Sprint 3a ✅: LABOR ML.tsv → KB.tsv rename
 
-### NEXUS spawned (may have completed):
-Spawned NEXUS for full synthesis across BRENT/REGINALD/HENRY/LABOR TRADE.md files. Check for completed output.
+### BRENT KB Migration — IN PROGRESS
+- 102 rows, chunked into 4 pieces (~25 rows each)
+- **Next: Chunk 1 (KB-BRT-001–018)** — Hormuz, Storage, OPEC+, Shale, Russia, SPR
+- Chunk 2: KB-BRT-019–043 — Demand Destruction, OPEC+ Unwind, LNG
+- Chunk 3: KB-BRT-044–073 — Energy Credit, OPEC Spare, Bypass, STNG
+- Chunk 4: KB-BRT-074–102 — Macro Transmission, Sulphur, Taiwan
+- Old 9-col KB_new.tsv exists but will be replaced with 13-col version
+
+### NEXUS synthesis completed (check output)
 
 ---
 

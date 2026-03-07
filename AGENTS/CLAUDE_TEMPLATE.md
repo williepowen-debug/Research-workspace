@@ -17,7 +17,7 @@ You are part of a multi-agent research network tracking systemic financial risk.
 
 When spawned with a task:
 
-1. **Check `mail/inbox/`** — process any pending signals (INTEGRATE, LOG, or DISCARD). **For each signal, log a one-line entry to ML.tsv:** `ML-XXX-NNN | [date] | INBOX: [sender] re: [topic] → INTEGRATED to VX-XXX-NN / DISCARDED ([reason])`. Move processed signals to `mail/inbox/processed/`.
+1. **Check `mail/inbox/`** — process any pending signals (INTEGRATE, LOG, or DISCARD). **For each signal, log a one-line entry to KB.tsv** using the 13-column schema. Move processed signals to `mail/inbox/processed/`.
 2. **Read `STATUS.md`** — your current state, dashboard, active situations
 3. **Execute the task**
 4. **Write results back to your files** — update `STATUS.md`, log to workbook (ML/VX/FL/FLOW) when appropriate
@@ -173,15 +173,81 @@ Your workbook is the permanent structured record. STATUS.md gets rewritten; work
 
 | File | What goes in | Test |
 |------|-------------|------|
-| `ML.tsv` | Any new data point with a source — price, filing, report, news event. Timestamped facts. | "Is this a new piece of evidence?" |
+| `KB.tsv` | Any new data point with a source — price, filing, report, news event. Timestamped factual claims with metadata. | "Is this a new piece of evidence?" |
 | `VX.tsv` | When a tracked vector changes state (GREEN→YELLOW, YELLOW→RED, new vector identified, or threshold crossed) | "Did a risk indicator move?" |
 | `FLOW.tsv` | When a transmission channel is confirmed, changes speed, or a new pathway is identified | "Did we learn something about HOW stress travels?" |
 | `PREDICTIONS.tsv` | Falsifiable predictions with confidence, timeframe, and resolution tracking | "What do I think happens next in my domain?" |
 
 **When NOT to log:** Routine status updates, unchanged metrics, restatements of known facts. Those go in STATUS.md only.
 
-**Logging discipline:**
-- Every ML entry needs: date, source, and a vector link (VX-XXX) if applicable
+---
+
+### KB.tsv — Knowledge Base Schema (13 columns)
+
+The KB is the agent's primary factual memory. Each row is one atomic claim with structured metadata enabling cold-boot orientation.
+
+**Schema:**
+```
+ID	Date	Group	Entity	Fact	Source	Conf	Epistemic	Status	Stale_By	DerivedFrom	Vectors	Notes
+```
+
+**Field specifications:**
+
+| Field | Format | Allowed Values | Default | Purpose |
+|-------|--------|---------------|---------|---------|
+| **ID** | KB-[AGT]-NNN | Sequential per agent (KB-BRT-001, KB-HEN-042) | — | Unique identifier |
+| **Date** | YYYY-MM-DD | Date the claim was logged | Today | When recorded |
+| **Group** | UPPER_SNAKE | Topic tag (HORMUZ, HIDDEN_CRE, SHALE, etc.) | — | Cluster for filtering |
+| **Entity** | Free text (short) | Most specific noun — company, country, instrument | — | What the fact is about |
+| **Fact** | Free text | One atomic claim per row. Precise, sourced, quantified where possible. | — | The claim itself |
+| **Source** | Free text | Retrievable reference with date (e.g., "BLS CPI Report Feb 2026") | — | Where this came from |
+| **Conf** | Admiralty digraph | A1–F6 (letter = source reliability, number = info credibility) | F6 | Reliability + credibility score |
+| **Epistemic** | Enum | EMPIRICAL / ESTIMATE / ASSUMPTION | EMPIRICAL | Nature of the claim |
+| **Status** | Enum | ACTIVE / CONFIRMED / STALE / SUPERSEDED / CORRECTED | ACTIVE | Lifecycle state |
+| **Stale_By** | YYYY-MM-DD or null | Expected review/expiration date; null if static/atemporal | null | When to re-verify |
+| **DerivedFrom** | CSV of KB IDs or null | KB-XXX-NNN format, comma-separated | null | Parent facts this was built on |
+| **Vectors** | CSV of refs | VX-XXX-NN, BRT-NN, →AGENT_NAME | — | Thesis connections + cross-agent links |
+| **Notes** | Free text | Catch-all: caveats, assumptions, gaps, implications, context | — | Everything else |
+
+**Admiralty Code (Conf field):**
+
+Source reliability (letter):
+| Grade | Meaning |
+|-------|---------|
+| A | Completely reliable (government statistical agency, SEC filing, verified primary) |
+| B | Usually reliable (major wire service, established research firm, verified industry data) |
+| C | Fairly reliable (specialist publication, single-source reporting, unverified but credible) |
+| D | Not usually reliable (social media, anonymous source, unverified claim) |
+| E | Unreliable (known to produce errors, retracted sources) |
+| F | Cannot be judged (new source, no track record) |
+
+Information credibility (number):
+| Grade | Meaning |
+|-------|---------|
+| 1 | Confirmed by independent sources |
+| 2 | Probably true (consistent with known pattern, logical) |
+| 3 | Possibly true (not confirmed, not contradicted) |
+| 4 | Doubtful (inconsistent with known data, questionable) |
+| 5 | Improbable (contradicted by established facts) |
+| 6 | Cannot be judged (insufficient basis) |
+
+Default: **F6** (cannot judge either dimension). Every new, unverified claim starts at F6 and gets upgraded as corroboration arrives. This is conservative by design.
+
+**Epistemic field:**
+- **EMPIRICAL** — directly observed or measured (data releases, prices, confirmed events)
+- **ESTIMATE** — derived from analysis, models, or projection (storage runway calculations, EPS models, timeline forecasts)
+- **ASSUMPTION** — believed to be true but not verified; a linchpin that if wrong invalidates downstream claims
+
+**Cold-boot orientation protocol (3 passes):**
+1. **Currency pass:** Filter where Stale_By < today OR Status = STALE/SUPERSEDED. Set aside expired claims.
+2. **Reliability pass:** Sort remaining by Conf. Focus on A1–C3 first. Flag F6 for verification.
+3. **Synthesis pass:** Use Vectors and DerivedFrom to reconstruct thesis chains. Identify convergences and contradictions.
+
+---
+
+### Other Logging Rules
+
+- Every KB entry needs: date, source, and Conf rating
 - Every VX state change needs: old value → new value, what triggered it
 - Every PREDICTION needs: confidence %, specific timeframe, and clear resolution criteria
 - If you're unsure whether to log: log it. Over-documenting beats under-documenting.
@@ -192,7 +258,7 @@ Your workbook is the permanent structured record. STATUS.md gets rewritten; work
 - At session boot, scan PREDICTIONS.tsv for entries whose Timeframe has passed or whose Status can be resolved
 - Update Status to CONFIRMED, FAILED, PARTIALLY, or EXPIRED
 - Fill Date_Resolved and Outcome columns
-- Log resolution to ML.tsv as evidence (e.g., "PRED REG-08 CONFIRMED: KRE broke $65 on Mar 7")
+- Log resolution to KB.tsv as evidence (e.g., "PRED REG-08 CONFIRMED: KRE broke $65 on Mar 7")
 - Post significant confirmations/failures to `mail/outbox/` for cross-agent awareness
 
 ---
@@ -211,7 +277,7 @@ Update it every session. If your bottom line hasn't changed, your session didn't
 |------|---------|
 | `STATUS.md` | Live state — dashboard, active situations, predictions. **Primary memory. Gets rewritten.** |
 | `TRADE.md` | Position ideas and active trades |
-| `workbook/ML.tsv` | Memory log — timestamped evidence with sources. **Permanent record.** |
+| `workbook/KB.tsv` | Knowledge base — 13-column factual claims with reliability, epistemic type, staleness, provenance, and thesis links. **Permanent record.** |
 | `workbook/VX.tsv` | Vectors — tracked risk indicators with thresholds and state. |
 | `workbook/FLOW.tsv` | Transmission pathways — how stress travels between domains. |
 | `workbook/PREDICTIONS.tsv` | Falsifiable forecasts with confidence and resolution tracking. |
