@@ -1,52 +1,44 @@
 # SCRATCH — Ephemeral Working Memory
 
-**Updated:** 2026-03-08 22:30 UTC
+**Updated:** 2026-03-09 00:15 UTC
 
 ---
 
-## Last Session: KB Schema Redesign (Sun Mar 8)
+## Last Session: BRENT KB Migration Complete (Sun Mar 8 evening)
 
-Researched KB schema best practices across intelligence analysis (ICD 203/206, Admiralty Code), scientific evidence synthesis (GRADE, Cochrane/PRISMA), investigative journalism (ICIJ), and quant finance (QuantMind, bi-temporal). Will ran prompt on 3 LLMs, cross-analyzed all outputs.
+Migrated BRENT's KB.tsv from 6-column to 13-column schema. 102 rows, 4 chunks, each audited for signal preservation. Zero data loss.
 
-### Result: 13-Column KB Schema (FINALIZED)
+### 13-Column KB Schema (FINALIZED & CODIFIED)
 ```
 ID | Date | Group | Entity | Fact | Source | Conf | Epistemic | Status | Stale_By | DerivedFrom | Vectors | Notes
 ```
-- **Conf** = Admiralty digraph A1–F6 (source reliability × info credibility). Default F6.
-- **Epistemic** = EMPIRICAL / ESTIMATE / ASSUMPTION
-- **Stale_By** = expiration date, null if static
-- **DerivedFrom** = parent KB IDs for provenance chains
-- Schema codified in `AGENTS/CLAUDE_TEMPLATE.md` with full Admiralty Code tables and 3-pass cold-boot protocol
+- Schema codified in `AGENTS/CLAUDE_TEMPLATE.md` with full Admiralty Code tables, field specs, and 3-pass cold-boot protocol
+- BRENT is the first agent fully migrated — serves as reference implementation
 
-### Completed Infrastructure Sprints (prior sessions):
-- Sprint 1 ✅: Mail system migration
-- Sprint 2 ✅: TSV location standardization
-- Sprint 3a ✅: LABOR ML.tsv → KB.tsv rename
+### BRENT Migration Stats
+- 102 rows: 75 EMPIRICAL, 25 ESTIMATE, 2 ASSUMPTION
+- 56 A-tier, 34 B-tier, 4 C-tier, 6 D-tier (unverified X posts), 2 F-tier
+- 17 DerivedFrom chains, 57 Stale_By dates, 95/102 have Vectors
+- Old file backed up as `KB_old_6col.tsv`
 
-### BRENT KB Migration — IN PROGRESS
-- 102 rows, chunked into 4 pieces
-- **Chunk 1 ✅ (KB-BRT-001–018)** — 18 rows. Audited clean.
-- **Chunk 2 ✅ (KB-BRT-019–043)** — 25 rows. Audited clean.
-- **Chunk 3 ✅ (KB-BRT-044–073)** — 30 rows. Audited clean. Good DerivedFrom chains (bypass total ← 4 routes, STNG EPS ← rates, pump price ← transmission + crack).
-- **Chunk 4 ✅ (KB-BRT-074–102)** — 29 rows. Audited clean (5 minor Fact trims caught and 3 fixed, 2 intentional compressions). BRENT KB MIGRATION COMPLETE.
-- **KB.tsv swapped** — old 6-col backed up as KB_old_6col.tsv. KB.tsv is now 13-column.
-- Chunk 2: KB-BRT-019–043 — Demand Destruction, OPEC+ Unwind, LNG
-- Chunk 3: KB-BRT-044–073 — Energy Credit, OPEC Spare, Bypass, STNG
-- Chunk 4: KB-BRT-074–102 — Macro Transmission, Sulphur, Taiwan
-- Old 9-col KB_new.tsv exists but will be replaced with 13-col version
+### Next KB Migrations (Sprint 3 remainder):
+- **Sprint 3c:** LABOR KB.tsv (11→13 columns, 82 rows)
+- **Sprint 3d:** HENRY KB.tsv (15→13 columns, 89 rows — merging needed)
+- **Sprint 3e:** REGINALD KB.tsv (15→13 columns, 116 rows — hardest)
+- **Sprint 3f:** Update all agent CLAUDE.md files with new schema definition
 
-### NEXUS synthesis completed (check output)
+### NEXUS synthesis completed (check output — not yet reviewed)
 
 ---
 
-## Still Queued (from earlier today):
-1. **SSB trim 50%** — first trading day (Monday)
+## Queued for Monday:
+1. **SSB trim 50%** — first trading day
 2. **HERMES delivery run** — critically backlogged
-3. **Monday live data pulls** — see BRIEFING.md for full list (12 items)
+3. **Monday live data pulls** — see BRIEFING.md
 4. **WAL position confirm** — $85P Jun open or closed?
 5. **Prompts C & D** — fertilizer chain + SPR/transformers not yet run
 6. **TRADE.md rollout** — BROCK, CARL, HAWK
 7. **HERMES cron automation**
-8. **LABOR still needs:** LESSONS.md + domain/ folder migration (Sprint 3 remainder)
-9. **Sprint 4:** REGINALD sub-agent audit (BELT/CORAL/CREED/RENO/TEX — still active?)
+8. **LABOR:** LESSONS.md + domain/ folder migration
+9. **Sprint 4:** REGINALD sub-agent audit
 10. **Sprint 5:** Cross-agent verification pass
