@@ -16,11 +16,35 @@
 
 *Saudi has East-West pipeline (5M bpd capacity) to Red Sea — partial bypass of Hormuz.*
 
-## OPEC+ Key Numbers
-- Spare capacity: ~5-6M bpd (mostly Saudi + UAE)
-- 140M barrel strategic flush was planned Apr-May (pre-war — delayed indefinitely by war)
+## OPEC+ Spare Capacity — CONFIRMED (Batch 3, Mar 6 2026)
+**The 5-6M bpd narrative is a myth. True effective spare = 4.35M bpd. 90% trapped behind Hormuz.**
+
+| Country | Nameplate MSC | Actual Production (Jan 2026) | Effective Spare | Deployable <90 Days | Status |
+|---------|-------------|--------------------------|----------------|---------------------|--------|
+| Saudi Arabia | 12.11M bpd | 10.28M bpd | **1.84M bpd** | 1.0-1.2M bpd | 🟡 Spare exists but trapped behind Hormuz |
+| UAE | 4.28M bpd | 3.60M bpd | **0.67M bpd** | 0.4-0.5M bpd | 🟡 Spare exists; Fujairah drone-struck |
+| Kuwait | ~2.8M bpd | 2.50M bpd | **0.30M bpd** | 0.2M bpd | 🔴 Already curtailing |
+| Iraq | 5.1M bpd | 4.34M bpd | **0M bpd** | 0 | 🔴 At max; Rumaila shut down |
+| Russia | 9.57M quota | ~9.3M bpd | **Negative** (stranded) | 0 | 🔴 Shadow fleet halted, forced shut-ins |
+| Kazakhstan | 1.29M quota | 1.31M bpd | Negligible | 0 | 🟠 CPC pipeline constraints |
+| **TOTAL OPEC+** | — | — | **~4.35M bpd** | **2.0-2.5M bpd max** | 🔴 90% trapped behind Hormuz |
+
+*Sources: IEA OMR Feb 2026, OPEC secondary sources. Updated Batch 3 Mar 6 2026.*
+
+**Other OPEC+ numbers:**
+- Emergency quota increase (Mar 1): 206K bpd for April → <1.4% of 14.5-15M bpd stranded behind Hormuz (symbolic)
 - Deferred capacity: ~3.24 mbpd (2.2M + 1.65M voluntary cuts) [CONF] OPEC Feb 2026 JMMC
 - Total OPEC production: ~31 mbpd (vs 34+ mbpd pre-cuts) [CONF]
+
+## Hormuz Bypass Infrastructure — CONFIRMED (Batch 3)
+| Route | Operator | Design Capacity | Real Operational Ceiling | Current Status (Mar 2026) |
+|-------|---------|----------------|------------------------|--------------------------|
+| Petroline (East-West) | Saudi Aramco | 5.0M bpd (7.0M bpd NGL burst) | **3.3-3.5M bpd** (Yanbu terminal loading limit + 1.0M bpd domestic refinery consumption) | 🟡 ACTIVE — 2.5M bpd loading rate (tripled from pre-war); ramping |
+| ADCOP (Habshan-Fujairah) | ADNOC | 1.5-1.8M bpd | **Intermittent** (~0.3-0.5M bpd) | 🔴 DAMAGED — Fujairah drone-struck Mar 3; tank farm fires; unreliable |
+| Kirkuk-Ceyhan (Iraq-Turkey) | SOMO/Turkey | 1.6M bpd (design); 300-400K bpd actual | **0 bpd** | 🔴 SUSPENDED — Kurdistan production fully halted Mar 3; Ceyhan tanks full |
+| **Combined Realistic Max** | — | 8.8M bpd nameplate | **~4.0-4.5M bpd** | Net shortfall vs 20M bpd Hormuz normal: **~13-14M bpd** |
+
+*Sources: Saudi Aramco, ADNOC, Argus Media, Kpler, Rudaw Mar 2026.*
 
 ## US Production
 - Weekly (wk ending Feb 27): **13.696 mbpd** [CONF] EIA Weekly Mar 6
@@ -45,6 +69,26 @@
 | DJ/Niobrara | $50-60 |
 
 *At $88 WTI, all major basins profitable. Capital discipline, not economics, limits response.*
+
+## Crack Spread Data — CONFIRMED (Batch 3, Early March 2026)
+| Spread | Current Level | 10-yr Avg | Historical Percentile | Trend |
+|--------|-------------|----------|----------------------|-------|
+| 3-2-1 Gulf Coast LLS | **$28.91/bbl** | $10.50/bbl | **>95th percentile** | 🔴 Near-record |
+| Gulf Coast ULSD (GY) | **$25.83/bbl** | ~$12/bbl | >90th percentile | 🔴 Extreme distillate tightness |
+| Gulf Coast Gasoline (GCC) | **$22.36/bbl** | ~$9/bbl | >85th percentile | 🔴 Summer-blend transition tightening |
+| Jet Fuel (US Gulf Coast) | **~$92/bbl implied** ($4.13/gal spot) | ~$15/bbl | ALL-TIME territory | 🔴🔴 Crisis level |
+| Singapore Jet vs Dubai | **$145.07/bbl** | ~$12/bbl | **ALL-TIME RECORD** | 🔴🔴 Airlines facing existential margin |
+
+*Sources: EIA, CME, Argus Media, S&P Global Mar 2026. Jet crack: implied from $4.13/gal × 42 minus ~$81 WTI.*
+
+## Pump Price Transmission Model (Batch 3)
+| Scenario | Brent | Crack | Projected Retail | Timeline | Consumer Impact |
+|----------|-------|-------|-----------------|----------|----------------|
+| Current baseline | $90 | $28.91 | $3.70/gal | ~20 days (by ~Mar 25) | Tight but below demand destruction |
+| Escalation | $95 | $32.00 | **$3.89/gal** | By late March | Approaching demand destruction |
+| Full breach | $95+ | $32+ | **$4.00+/gal** | April 2026 | **DEMAND DESTRUCTION THRESHOLD** |
+
+*$4.00/gal = hard psychological barrier. Consumer trip consolidation, discretionary travel cuts, retail spending diverted.*
 
 ## Key Spreads to Monitor
 | Spread | What It Shows |

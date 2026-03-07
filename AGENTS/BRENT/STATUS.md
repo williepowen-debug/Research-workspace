@@ -1,9 +1,9 @@
 # BRENT STATUS
 
-**Last Updated:** 2026-03-06 20:00 UTC
-**Overall Status:** 🔴🔴 RED-RED — HORMUZ CLOSED DAY 7 / STORAGE CRISIS / BRENT $90 / VLCC SUPER-CYCLE CONFIRMED
+**Last Updated:** 2026-03-06 23:30 UTC (Batch 3 ingestion complete)
+**Overall Status:** 🔴🔴 RED-RED — HORMUZ CLOSED DAY 7 / STORAGE CRISIS / BRENT $90 / VLCC SUPER-CYCLE CONFIRMED / OPEC SPARE CAPACITY MYTH DEBUNKED / PHASE 2 PLAYBOOK LOCKED
 
-**Summary:** Hormuz functionally closed (shipping -92%). Kuwait/Qatar curtailing. UAE ~22 days, Iraq next. Brent $90 (+14% since war began). Two-phase thesis active — Phase 1 (squeeze) in full effect. Phase 2 (demand destruction / OPEC+ unwind) timing uncertain, depends on duration. NFP -92K compounds via stagflation channel (can't cut rates into hot oil + weak jobs).
+**Summary:** Hormuz functionally closed (shipping -92%). Kuwait/Qatar curtailing. UAE ~22 days, Iraq next. Brent $90 (+14% since war began). Two-phase thesis active — Phase 1 (squeeze) in full effect. Phase 2 (demand destruction / OPEC+ unwind) timing uncertain, depends on duration. NFP -92K compounds via stagflation channel (can't cut rates into hot oil + weak jobs). **BATCH 3 UPDATES:** OPEC true spare confirmed at 4.35M bpd (not 5-6M); 90% trapped behind Hormuz. Bypass infrastructure ceiling confirmed 3.3-3.5M bpd (Saudi only viable route). BRT-06 CONFIRMED. STNG Phase 2 exit mechanics locked. Pump price $3.89/gallon projected late March, $4.00 = demand destruction. Phase 2 short playbook: USO bear put spreads + OXY short at WTI <$75.
 
 ---
 
@@ -94,11 +94,11 @@
 | US production response | 🟡 2 | NON-RESPONSE CONFIRMED: 411 oil rigs (flat/declining), DUC 5,015 (-41% from peak), no capex increases announced. Max surge 200-240K bpd/90 days — well below crisis need. | Rig count >461 (+50 from 411 trough) = shale finally responding | Mar 6 |
 | Demand destruction | 🟠 3 | Implied at $90+. 20-24 wk min historical. 2026 more inelastic. Watch airlines + ATA Tonnage as leading indicators. EIA early data misleads. | Gasoline -5% YoY confirmed (earliest May-June) | Mar 6 |
 | Storage (global) | 🔴 4 | Gulf filling; Cushing +1.564M bbl wk Feb 27 (~24-26M est) [CONF EIA] | Cushing <20M = WTI dislocation | Mar 6 |
-| Tanker/shipping | 🔴🔴 5 | VLCC WS400+, $423-445K/day ALL-TIME HIGH [CONF maritime-hub] | THRESHOLD BREACHED — super-cycle confirmed | Mar 6 |
+| Tanker/shipping | 🔴🔴 5 | VLCC WS400+, $423-445K/day ALL-TIME HIGH [CONF maritime-hub]. STNG annualized EPS ~$30. P/E 2.6x. VX-BRT-04 upgraded to RED. | EXIT TRIGGER: escort/ceasefire announcement (not reopening). Stop $71.50. | Mar 6 |
 | Energy credit | 🟡 2 | CONFIRMED: HY Energy OAS 300 bps (Mar 5) — 8 bps TIGHTER than broad HY (308 bps). E&P is geopolitical safe haven. Phase 2 leading indicators NOT yet triggered: refiner crack compression, EM sovereign CDS, CCC-rated decoupling. E&P defaults lag price crash 6-12 months. | HY energy OAS >400 AND crack spreads compressing = Phase 2 credit warning | Mar 6 |
 | OPEC+ policy | 🔴 4 | 3.24 mbpd deferred. Unwind paused by war. When Hormuz reopens: Day 3 meeting, Day 8 VLCC loading, price crash. Paper quotas ≠ physical (2022 gap was 2.7-2.89 mbpd). | Hormuz reopens → immediately = 5 | Mar 6 |
 
-**Convergence: 34/45 🔴🔴** *(Tanker/shipping upgraded 4→5 on VLCC rate confirmation. US Production Response and Energy Credit confirmed with research data — scores unchanged but descriptions significantly upgraded with confirmed data. LNG vector not in matrix but now tracked separately.)*
+**Convergence: 34/45 🔴🔴** *(Batch 3 updates: VX-BRT-04 Tanker upgraded ORANGE→RED. OPEC spare capacity myth debunked — true spare 4.35M (not 5-6M), 90% trapped. Bypass ceiling confirmed 3.3-3.5M bpd max. Phase 2 playbook locked. Refinery/crack spread data integrated. Macro transmission chain mapped. LNG vector not in matrix but tracked separately.)*
 
 ---
 
@@ -151,6 +151,83 @@
 | OPEC+ TBD | Emergency meeting if crisis deepens | OPEC | 🔴 |
 
 ---
+
+## OPEC+ SPARE CAPACITY — CONFIRMED (BATCH 3)
+**The "5-6M bpd spare" is a myth. True effective spare = 4.35M bpd. 90% trapped behind Hormuz.**
+
+| Country | True Spare | Rapid Deploy (<90 days) | Accessible Now? |
+|---------|-----------|------------------------|-----------------|
+| Saudi Arabia | 1.84M bpd | ~1.0M bpd | 🟡 Via Petroline — but Yanbu ceiling 3.3-3.5M bpd total |
+| UAE | 0.67M bpd | ~0.4M bpd | 🔴 Fujairah drone-struck — ADCOP intermittent |
+| Kuwait | 0.30M bpd | 0.2M bpd | 🔴 Already curtailing |
+| Iraq | 0M bpd | 0 | 🔴 At max; Rumaila halted; Kirkuk-Ceyhan at 0 |
+| Russia | Negative | 0 | 🔴 Shadow fleet halted; 300K bpd shut-ins imminent |
+| **TOTAL** | **~4.35M bpd** | **2.0-2.5M bpd max** | 90% inaccessible while Hormuz closed |
+
+**OPEC+ Mar 1 emergency announcement: 206K bpd increase = 1.4% of 14-15M bpd stranded. Symbolic.**
+
+## BYPASS INFRASTRUCTURE — CONFIRMED (BATCH 3)
+| Route | Real Ceiling | Status |
+|-------|-------------|--------|
+| Petroline → Yanbu | **3.3-3.5M bpd** (terminal loading limit, not pipeline capacity) | 🟡 2.5M bpd currently; ramping |
+| ADCOP → Fujairah | **~0.3M bpd intermittent** | 🔴 Drone-struck Mar 3 |
+| Kirkuk-Ceyhan | **0 bpd** | 🔴 Full suspension since Mar 3 |
+| **Net bypass max** | **~3.5-4.0M bpd realistic** | **~16M bpd gap vs normal Hormuz flow** |
+
+## PHASE 2 SHORT PLAYBOOK — LOCKED (BATCH 3)
+**48-hour rotation when ALL THREE triggers confirmed:**
+- ✅ **X**: M1-M3 Brent calendar spread collapses from $10+ to **<$2/bbl**
+- ✅ **Y**: VLCC spot rates fall from WS400+ to **<WS300** (escort/reopening signal)
+- ✅ **Z**: Ceasefire dialogue, naval escort announcement, OR >50% Hormuz traffic restored
+
+**Phase A (Hour 0-12):** Exit USO longs, exit STNG, exit OXY
+**Phase B (Hour 12-24):** Buy June 18 $85/$75 bear put spread on USO (~$2.50-3.00 debit, 3:1 R/R). **NOT outright puts — vol crush will destroy premium at 100th IV percentile.**
+**Phase C (Hour 24-48):** Short OXY below $75 WTI trigger. Target: $65 WTI multiple compression.
+
+**Why NOT outright puts:** USO IV at 100th percentile (75% IV vs 37% HV). Simultaneous price drop + vol crush = net-zero or loss on naked puts. Bear put spread neutralizes Vega.
+**OXY mechanics:** -$240M annualized cash flow per $1/bbl WTI drop. From $85 → $65 WTI = -$4.8B FCF. FCF breakeven: $51 WTI. Short thesis: MULTIPLE COMPRESSION, not bankruptcy.
+
+## REFINERY / CRACK SPREAD / PUMP PRICES (BATCH 3)
+| Metric | Value | Status |
+|--------|-------|--------|
+| US refinery utilization | 89.2% (week Feb 27) | +5 ppts above seasonal norm |
+| 3-2-1 Gulf Coast LLS crack | **$28.91/bbl** | **>95th historical percentile** |
+| Gulf Coast ULSD crack | $25.83/bbl | >90th percentile |
+| Jet fuel crack (US Gulf) | **~$92/bbl implied** | Near-crisis territory |
+| Singapore jet crack | **$145.07/bbl ALL-TIME RECORD** | Airlines unhedged — route cuts imminent |
+| Current retail gasoline | $3.32/gallon (Mar 5) | Rising |
+| Projected retail (late March, $90 Brent) | ~$3.70/gallon | 20-day lag to pump |
+| Projected retail ($95 Brent escalation) | **$3.89/gallon** | Approaches demand destruction |
+| Demand destruction threshold | **$4.00/gallon** | Hard psychological barrier |
+
+## STNG POSITION ANALYSIS — UPDATED (BATCH 3)
+| Metric | Value |
+|--------|-------|
+| VLCC rates | WS400+ / $423-445K/day ALL-TIME HIGH |
+| LR2 (STNG primary) | $91,603/day (+169.9% weekly) |
+| MR (STNG) | $52,982/day (+63.6%) |
+| Blended fleet TCE (est.) | ~$65,500/day |
+| Daily breakeven | ~$14,000-15,000/day |
+| Excess cash per day | ~$50,000/vessel/day |
+| Annualized EPS (at WS400+) | **~$30/share** |
+| Current P/E (at $80 stock) | **2.6x** |
+| Net cash | $309M |
+| STOP LOSS | $71.50 |
+| EXIT TRIGGER | **Naval escort OR ceasefire announcement — NOT physical reopening** |
+
+**Historical analog:** 1988 Operation Praying Mantis: US Navy escorted tankers → risk premium evaporated immediately. Exit before announcement is confirmed — not after physical barrels move.
+
+## MACRO TRANSMISSION RISK (BATCH 3)
+**Sequential damage pathway (if Brent $90+ sustains through Q2):**
+1. Consumer spending squeeze (now building — $3.25 pump → $3.89 → $4.00)
+2. Manufacturing/goods job losses (asymmetric — 90% of goods-sector job loss in prior shocks)
+3. GDP contraction (earliest visible Q2 2026 data)
+4. Fed trapped: can't cut into hot oil inflation → stagflation trap deepens
+5. Demand destruction → crude price eventually normalizes → Phase 2
+6. E&P credit stress (6-12 month lag from price peak)
+7. Regional bank stress (energy-concentrated institutions — monitor TX/OK/Permian exposure)
+
+**1986 analog:** Crude -61% → 425 TX bank failures → FDIC $15.3B resolution (50% of total FDIC costs for the decade). Key variable: geographic concentration in regional banks.
 
 ## RESEARCH QUEUE
 
