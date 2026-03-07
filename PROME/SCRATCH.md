@@ -25,8 +25,10 @@ ID | Date | Group | Entity | Fact | Source | Conf | Epistemic | Status | Stale_B
 
 ### BRENT KB Migration — IN PROGRESS
 - 102 rows, chunked into 4 pieces
-- **Chunk 1 ✅ (KB-BRT-001–018)** — 18 rows written to KB_13col.tsv. Audited: all facts/sources preserved, no signal loss.
-- **Next: Chunk 2 (KB-BRT-019–043)** — Demand Destruction, OPEC+ Unwind, LNG
+- **Chunk 1 ✅ (KB-BRT-001–018)** — 18 rows. Audited clean.
+- **Chunk 2 ✅ (KB-BRT-019–043)** — 25 rows. Audited clean.
+- **Chunk 3 ✅ (KB-BRT-044–073)** — 30 rows. Audited clean. Good DerivedFrom chains (bypass total ← 4 routes, STNG EPS ← rates, pump price ← transmission + crack).
+- **Next: Chunk 4 (KB-BRT-074–102)** — 29 rows. Macro Transmission, Sulphur Chain, Taiwan. FINAL CHUNK.
 - Chunk 2: KB-BRT-019–043 — Demand Destruction, OPEC+ Unwind, LNG
 - Chunk 3: KB-BRT-044–073 — Energy Credit, OPEC Spare, Bypass, STNG
 - Chunk 4: KB-BRT-074–102 — Macro Transmission, Sulphur, Taiwan
