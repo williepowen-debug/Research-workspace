@@ -177,7 +177,7 @@ Metropolitan Capital failed with 61% true CRE (labeled 10.7%). Three masking lev
 | `mail/inbox/` | Inbound signals from other agents. Process when spawned for it. |
 | `mail/outbox/` | Outbound signals for other agents. One file per signal. HERMES delivers. |
 | `BANK_EXPOSURE_MATRIX.md` | Multi-channel scoring ("The Matrix") — 614 lines, reference doc |
-| `PREDICTIONS.tsv` | **Canonical** — 10-column schema (Pred_ID/Date_Made/Prediction/Confidence/Timeframe/Status/Date_Resolved/Outcome/Invalidation/Notes). Falsifiable predictions with invalidation criteria. |
+| `workbook/PREDICTIONS.tsv` | **Canonical** — 10-column schema (Pred_ID/Date_Made/Prediction/Confidence/Timeframe/Status/Date_Resolved/Outcome/Invalidation/Notes). Falsifiable predictions with invalidation criteria. |
 | `OZK/` | OZK-specific analysis (10-K, STATUS) |
 | `domain/sources/` | Primary source docs (Call Reports, FDIC, WAL research, Hidden CRE screens) |
 | `research/README.md` | **Master research index** — all series, key findings, data gaps, next priorities. Read before spawning research. |
