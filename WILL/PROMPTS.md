@@ -51,4 +51,7 @@ Note if any terms show breakout or unusual patterns. These are used as real-time
 4 LLMs: Gemini, DeepSeek, Perplexity, ChatGPT → KB-LAB-043 updated
 
 ### Continuing Claims + JOLTS (Mar 9)
-3 LLMs: Gemini, Perplexity, ChatGPT (DeepSeek skipped) → updating KB
+3 LLMs: Gemini, Perplexity, ChatGPT (DeepSeek skipped) → KB updated
+
+### PSEC PIK Verification (Mar 9)
+4 LLMs: Gemini, Perplexity, ChatGPT, Kimi 2.5 → **35% CONFIRMED POISONED.** Actual 8.6%. KB-LAB-060, KB-LAB-071, VX-LAB-8.04, TRADE.md, RP-LAB-014 all corrected.
