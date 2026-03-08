@@ -22,10 +22,12 @@ ID | Date | Group | Entity | Fact | Source | Conf | Epistemic | Status | Stale_B
 - Old file backed up as `KB_old_6col.tsv`
 
 ### Next KB Migrations (Sprint 3 remainder):
-- **Sprint 3c:** LABOR KB.tsv (11→13 columns, 82 rows)
+- **📋 READ `AGENTS/KB_MIGRATION_PLAYBOOK.md` BEFORE STARTING ANY MIGRATION.** Column mappings, audit steps, pitfalls, chunk plans — all there.
+- **Sprint 3c:** LABOR KB.tsv (11→13 columns, 81 rows, 4 chunks). Chunk plan in playbook.
 - **Sprint 3d:** HENRY KB.tsv (15→13 columns, 89 rows — merging needed)
 - **Sprint 3e:** REGINALD KB.tsv (15→13 columns, 116 rows — hardest)
 - **Sprint 3f:** Update all agent CLAUDE.md files with new schema definition
+- **Also created:** `AGENTS/VOCABULARIES.tsv` (controlled vocabulary for Group/Entity/Source). NOT enforced yet — let groupings emerge through migrations before consolidating.
 
 ### NEXUS synthesis completed (check output — not yet reviewed)
 
