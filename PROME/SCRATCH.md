@@ -4,7 +4,26 @@
 
 ---
 
-## Last Session: LABOR KB Staleness Sprint COMPLETE (Sun Mar 9)
+## Last Session: LABOR KB Sprint Complete + Signal Protocol + HAWK Migration Plan (Sun Mar 9)
+
+### HAWK Migration — QUEUED (4 segments)
+**Segment A:** Create KB.tsv from ML.tsv (27 rows) + STATUS.md facts → 13-column schema
+**Segment B:** Migrate VX.tsv (9 rows, 8→12 col) + FLOW.tsv (8 rows, 8→10 col)
+**Segment C:** Align PREDICTIONS.tsv + update CLAUDE.md with KB schema/cold-boot protocol
+**Segment D:** Create SCHEMA.tsv + spawn HAWK to process 3 inbox signals (SIG-001/002/003)
+
+### 3 Signals Waiting in HAWK Inbox
+- SIG-2026-03-09-001: Iraq 3M bpd shut-in (🔴 URGENT)
+- SIG-2026-03-09-002: Infrastructure escalation — water/oil strikes both sides (🔴 URGENT)
+- SIG-2026-03-09-003: Gulf fertilizer supply chain vulnerability — Coface data (🟡 STANDARD)
+DO NOT spawn HAWK until migration complete (Segment D).
+
+### Signal Protocol Codified
+`PROME/SIGNAL_PROTOCOL.md` — full template with KB staging, source types, Admiralty scale. Referenced from AGENTS.md.
+
+---
+
+## Previous: LABOR KB Staleness Sprint COMPLETE (Sun Mar 9)
 
 ### Completed Today (5 prompts + 1 verification)
 - **Indeed (KB-LAB-018):** FRED-confirmed index 104.7, -5.9% YoY. Upgraded B1→A1.
