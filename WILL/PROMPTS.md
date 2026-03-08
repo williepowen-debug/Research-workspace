@@ -22,7 +22,8 @@ Source all claims to specific news articles or government releases with dates.
 
 ### Google Trends — Labor Search Terms
 **Priority:** 🟡 LABOR KB staleness
-**Prompt:**
+**⚠️ WILL MUST DO MANUALLY** — LLMs cannot access real-time Google Trends data. Go to trends.google.com directly.
+**Prompt (for your own reference):**
 ```
 Using Google Trends data for the United States, provide the current relative search interest (past 90 days trend) for each of the following terms:
 
