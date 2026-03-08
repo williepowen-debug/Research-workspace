@@ -1,6 +1,6 @@
 # SCRATCH — Ephemeral Working Memory
 
-**Updated:** 2026-03-09 18:00 UTC
+**Updated:** 2026-03-09 21:00 UTC
 
 ---
 
@@ -33,11 +33,11 @@ DO NOT spawn HAWK until migration complete (Segment D).
 - **DHS Shutdown (KB-LAB-065):** CONFIRMED ongoing Day 23+. Senate blocked 51-45. All claims suppressed.
 - **5 new rows:** VX-LAB-1.04B, VX-LAB-8.05, VX-LAB-1.06, FLOW-LAB-14.01, KB-LAB-091.
 
-### Remaining (1 manual + 1 verification)
+### Remaining (1 manual only)
 - **Google Trends** — Will does manually at trends.google.com (LLMs can't pull this)
-- **DHS shutdown status** — verification prompt in WILL/PROMPTS.md (HIGH PRIORITY — determines if claims data is clean)
 - JOLTS Jan 2026 releases Mar 13 — no action until then
-- **PSEC PIK: ✅ DONE.** 35% confirmed poisoned → actual 8.6%. All files corrected.
+- ✅ DHS shutdown: CONFIRMED ongoing Day 23+ (4 LLMs verified)
+- ✅ PSEC PIK: 8.6% confirmed, all poisoned data cleaned
 
 ### Continuing Claims Alert
 - 1,868K — **32K from YELLOW threshold (1.9M)**
@@ -48,11 +48,6 @@ DO NOT spawn HAWK until migration complete (Segment D).
 ### Model Rankings (4 prompts, Mar 9)
 ChatGPT (1.5 avg) > Perplexity (2.0) > Kimi 2.5 (1.0 but 1 sample) > Gemini (3.3) > DeepSeek (4.0)
 Kimi 2.5 worth adding to rotation. DeepSeek droppable.
-
-### Model Rankings (2 prompts complete)
-1. Perplexity + ChatGPT tied (1.5 avg) — Perplexity = best sourcing, ChatGPT = most analytical value-add
-2. Gemini (3.0) — good narrative, makes errors (inferred rate wrong, consecutive months off by 1)
-3. DeepSeek (4.0) — consistently weakest, fabricates specifics
 
 ---
 
@@ -75,7 +70,7 @@ ID | Date | Group | Entity | Fact | Source | Conf | Epistemic | Status | Stale_B
 
 ### Next KB Migrations (Sprint 3 remainder):
 - **📋 READ `AGENTS/KB_MIGRATION_PLAYBOOK.md` BEFORE STARTING ANY MIGRATION.** Column mappings, audit steps, pitfalls, chunk plans — all there.
-- **Sprint 3c: ✅ LABOR KB.tsv COMPLETE.** 90 rows (81 migrated + 9 new BLS entries). Freshness pass done: 7 SUPERSEDED, 7 STALE remaining (need Prompts 2-4: NFIB, Indeed, Cass Freight, Google Trends, continuing claims). PSEC PIK verification still needed (LAB-060/071 may contain poisoned data — MEMORY.md says 8.6% not 35%). Two reusable prompt templates created: `AGENTS/LABOR/research/PROMPT_BLS_EMPLOYMENT.md`, `PROMPT_PRODUCTIVITY.md`.
+- **Sprint 3c: ✅ LABOR KB.tsv COMPLETE.** 91 rows. Staleness sprint done: Indeed, Cass, Claims, PSEC PIK all refreshed via 4-LLM cross-verification. DHS shutdown confirmed. 5 new rows created. Only Google Trends remains (Will manual).
 - **Sprint 3d:** HENRY KB.tsv (15→13 columns, 89 rows — merging needed)
 - **Sprint 3e:** REGINALD KB.tsv (15→13 columns, 116 rows — hardest)
 - **Sprint 3f:** Update all agent CLAUDE.md files with new schema definition
@@ -85,14 +80,18 @@ ID | Date | Group | Entity | Fact | Source | Conf | Epistemic | Status | Stale_B
 
 ---
 
-## Queued for Monday:
+## Queued for Next Session:
+1. **🔴 HAWK Migration Segment A** — Create KB.tsv from ML.tsv + STATUS.md (see plan above)
+2. Then Segments B/C/D across subsequent clears
+3. After HAWK migration: spawn HAWK to process 3 urgent signals
+
+## Queued for Monday (Market):
 1. **SSB trim 50%** — first trading day
 2. **HERMES delivery run** — critically backlogged
 3. **Monday live data pulls** — see BRIEFING.md
 4. **WAL position confirm** — $85P Jun open or closed?
-5. **Prompts C & D** — fertilizer chain + SPR/transformers not yet run
-6. **TRADE.md rollout** — BROCK, CARL, HAWK
-7. **HERMES cron automation**
-8. **LABOR:** LESSONS.md + domain/ folder migration
-9. **Sprint 4:** REGINALD sub-agent audit
-10. **Sprint 5:** Cross-agent verification pass
+5. **TRADE.md rollout** — BROCK, CARL, HAWK
+6. **HERMES cron automation**
+7. **Sprint 3d:** HENRY KB.tsv migration
+8. **Sprint 3e:** REGINALD KB.tsv migration
+9. **Google Trends** — Will does manually
