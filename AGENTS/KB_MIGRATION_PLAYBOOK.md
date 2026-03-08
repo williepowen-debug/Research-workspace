@@ -31,7 +31,14 @@
 | New Column | How to fill |
 |---|---|
 | Conf | Derive from old Confidence + Source quality. See Admiralty mapping above. Default F6 if unclear. |
-| Epistemic | Classify each row: EMPIRICAL (data points, confirmed events), ESTIMATE (projections, models), ASSUMPTION (believed but unverified). Most BLS/JOLTS rows = EMPIRICAL. Framework rows = ASSUMPTION. |
+| Epistemic | Classify each row per the sharpened definitions below. Most BLS/JOLTS rows = EMPIRICAL. Framework/thesis rows = ASSUMPTION. Derived numbers/pattern observations = ESTIMATE. |
+
+**Epistemic classification guide (sharpened after chunk 2):**
+- **EMPIRICAL** — directly observed or measured. Data releases, confirmed events, verified company announcements, prices.
+- **ESTIMATE** — derived numbers or pattern observations from empirical data. "~580K total layoffs" (aggregation), "surface green / hidden orange-red" (pattern from data points). The claim is built from data but adds a quantitative or observational layer.
+- **ASSUMPTION** — interpretive frameworks, thesis claims, analytical models that could be wrong. "Barbell labor market", "bifurcation hypothesis", transmission chain logic. These are *conclusions about how the world works*, not observations of what it's doing. If the framework is wrong, downstream analysis breaks.
+- **Test:** Ask "could this be directly falsified by a single data point?" EMPIRICAL = yes. ESTIMATE = partially (the components are empirical but the aggregation adds judgment). ASSUMPTION = no (it's a framing that would require multiple contrary data points to overturn).
+- **If HENRY/REGINALD migrations surface cases that don't fit these three, consider adding SYNTHESIS as a fourth type in a single pass across all agents.**
 | Stale_By | Set for time-sensitive data ONLY if you know the exact next release/review date. If unsure, leave null — guessed dates are worse than no dates. Stale_By can be backfilled in a dedicated freshness pass. Frameworks/static facts → always null. |
 | DerivedFrom | Only if this row was explicitly built from other KB rows. Most will be null. **Direction: child points to parent.** "This fact was built from those facts." Never the reverse. |
 
