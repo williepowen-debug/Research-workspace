@@ -4,22 +4,22 @@
 
 ---
 
-## Last Session: HAWK Migration Segments A+B COMPLETE (Sun Mar 8)
+## Last Session: HAWK Migration A-D + 22-Signal Blitz (Sun Mar 9)
 
-### HAWK Migration — IN PROGRESS (2 of 4 segments done)
-**Segment A: ✅ DONE** — KB.tsv created (34 rows). 27 from ML + 7 from STATUS.md.
-**Segment B: ✅ DONE** — VX.tsv (9 rows, 8→11 col) + FLOW.tsv (8 rows, 8→9 col) migrated.
-**Segment C: NEXT** — Align PREDICTIONS.tsv + update CLAUDE.md with KB schema/cold-boot protocol
-**Segment D:** Create SCHEMA.tsv + spawn HAWK to process 3 inbox signals (SIG-001/002/003)
+### HAWK Migration — COMPLETE (4/4 segments done)
+**Segment A: ✅** KB.tsv (34 rows) | **B: ✅** VX.tsv + FLOW.tsv | **C: ✅** PREDICTIONS + CLAUDE.md | **D: ✅** SCHEMA.tsv + spawn
+**Remaining:** HAWK TRADE.md, check spawn result (was running 16+ min)
 
-### 3 Signals Waiting in HAWK Inbox
-- SIG-2026-03-09-001: Iraq 3M bpd shut-in (🔴 URGENT)
-- SIG-2026-03-09-002: Infrastructure escalation — water/oil strikes both sides (🔴 URGENT)
-- SIG-2026-03-09-003: Gulf fertilizer supply chain vulnerability — Coface data (🟡 STANDARD)
-DO NOT spawn HAWK until migration complete (Segment D).
+### 22-Signal Blitz Delivered (all 13 domain agents)
+Will sent ~30 screenshots. Triaged and routed to HAWK(4), BRENT(3), BROCK(2), LABOR(1), NEXUS(1), HENRY(1), CARL(1), REGINALD(2), SAM(1), LIQUID(1), ZHAO(1), MARCO(1), HANS(1), OTTO(1).
+Key data: Hormuz -92%, Iraq 3M bpd confirmed, finance openings -117K, BX $400M own-money, MFS £930M forensics, Platts all commodities exploding, SPY below 20-week MA.
+**NEW VECTOR:** Gulf surplus recycling (Campbell) — third anchor for UST selling. Needs FLOW.tsv mapping.
 
-### Signal Protocol Codified
-`PROME/SIGNAL_PROTOCOL.md` — full template with KB staging, source types, Admiralty scale. Referenced from AGENTS.md.
+### HERMES Delivery Run Complete
+12 signals from NFP day backlog cleared. All outboxes clean.
+
+### HAWK Spawn — CHECK RESULT
+Inbox processing (6 signals) was running 16+ min at checkpoint. PLUS 4 new signals delivered tonight need second processing run.
 
 ---
 
@@ -81,9 +81,9 @@ ID | Date | Group | Entity | Fact | Source | Conf | Epistemic | Status | Stale_B
 ---
 
 ## Queued for Next Session:
-1. **🔴 HAWK Migration Segment A** — Create KB.tsv from ML.tsv + STATUS.md (see plan above)
-2. Then Segments B/C/D across subsequent clears
-3. After HAWK migration: spawn HAWK to process 3 urgent signals
+1. **Check HAWK spawn result** — was it successful? Review KB/VX/FLOW changes.
+2. **HAWK second inbox run** — 4 new signals (SIG-004 through 007) delivered tonight
+3. **HAWK TRADE.md** — last piece of full migration
 
 ## Queued for Monday (Market):
 1. **SSB trim 50%** — first trading day

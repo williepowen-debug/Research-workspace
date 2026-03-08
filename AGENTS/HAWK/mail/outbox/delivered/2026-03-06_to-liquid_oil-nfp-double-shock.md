@@ -1,0 +1,5 @@
+## 2026-03-06 — To: LIQUID
+**Signal:** Oil + NFP double shock — Brent $90 and first negative payrolls print simultaneously
+**Detail:** Two independent risk-off catalysts hit today: (1) Brent cleared $90 [CONF CNBC Mar 6], Hormuz shipping -92% vs pre-war [CONF Open Magazine Mar 6], Kuwait/Qatar curtailments begun, UAE/Iraq storage runways of ~18-22 days [CONF JPMorgan/Reuters Mar 5]. (2) NFP printed -92K — first negative print. This is the dual-shock scenario: oil inflation compresses margins while jobs recession destroys demand. Gulf sovereign spreads should widen sharply (Bahrain, Kuwait, UAE all under fire). No diplomatic path: Iran FM explicitly refuses ceasefire or negotiations [CONF The National Mar 6]. Scenario C (full Gulf production shutdown) at 35% probability — HY OAS trajectory toward 350+ if confirmed. Flight-to-safety bid in Treasuries fighting inflation expectations from oil = rates market torn. Your call on net positioning.
+**Source:** CNBC Mar 6 (Brent), BLS Mar 6 (NFP), JPMorgan/Reuters Mar 5 (storage), The National Mar 6 (Iran FM), Kpler Mar 5 (curtailments)
+**Priority:** 🔴
