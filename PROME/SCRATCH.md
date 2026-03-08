@@ -10,17 +10,21 @@
 - **Indeed (KB-LAB-018):** Refreshed with 4-LLM cross-verification. FRED-confirmed index 104.7. Upgraded B1→A1. VX-LAB-1.04 updated -5.2%→-5.9%.
 - **Cass Freight (KB-LAB-043):** Enriched with inferred rates +8.4%, 36-month decline streak, Jan 2020 baseline. Also updated KB-LAB-038, VX-LAB-11.01, FLOW-LAB-6.01.
 
-### Remaining Stale Prompts (2 of 5 left + 2 verifications)
-- Google Trends (labor search terms) — prompt in WILL/PROMPTS.md
-- PSEC PIK verification (LAB-060/071 — 35% or 8.6%?)
-- **NEW:** DHS shutdown status verification — HIGH PRIORITY, prompt in WILL/PROMPTS.md
+### Remaining (1 manual + 1 verification)
+- **Google Trends** — Will does manually at trends.google.com (LLMs can't pull this)
+- **DHS shutdown status** — verification prompt in WILL/PROMPTS.md (HIGH PRIORITY — determines if claims data is clean)
 - JOLTS Jan 2026 releases Mar 13 — no action until then
+- **PSEC PIK: ✅ DONE.** 35% confirmed poisoned → actual 8.6%. All files corrected.
 
 ### Continuing Claims Alert
 - 1,868K — **32K from YELLOW threshold (1.9M)**
 - Duration proxy 8.0→8.8 weeks
 - Hotel California intensifying
 - Next print Mar 12 could trigger status change
+
+### Model Rankings (4 prompts, Mar 9)
+ChatGPT (1.5 avg) > Perplexity (2.0) > Kimi 2.5 (1.0 but 1 sample) > Gemini (3.3) > DeepSeek (4.0)
+Kimi 2.5 worth adding to rotation. DeepSeek droppable.
 
 ### Model Rankings (2 prompts complete)
 1. Perplexity + ChatGPT tied (1.5 avg) — Perplexity = best sourcing, ChatGPT = most analytical value-add
