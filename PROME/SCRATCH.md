@@ -4,9 +4,9 @@
 
 ---
 
-## Last Session: LABOR KB Migration COMPLETE (Sun Mar 9 afternoon)
+## Last Session: LABOR KB Migration + BLS Data Integration (Sun Mar 9)
 
-81 rows migrated from 11-col to 13-col across 4 chunks. Zero data loss. 10 column-shifted rows fixed. Playbook updated 6 times during migration.
+LABOR KB fully migrated (81 rows, 4 chunks) then expanded to 90 rows with Mar 6 BLS data. Freshness pass completed. Cross-verification protocol established (2-3 LLMs minimum).
 
 ### 13-Column KB Schema (FINALIZED & CODIFIED)
 ```
@@ -23,7 +23,7 @@ ID | Date | Group | Entity | Fact | Source | Conf | Epistemic | Status | Stale_B
 
 ### Next KB Migrations (Sprint 3 remainder):
 - **📋 READ `AGENTS/KB_MIGRATION_PLAYBOOK.md` BEFORE STARTING ANY MIGRATION.** Column mappings, audit steps, pitfalls, chunk plans — all there.
-- **Sprint 3c: ✅ LABOR KB.tsv COMPLETE.** 81 rows, 13-col. Stats: 63 EMPIRICAL, 7 ESTIMATE, 11 ASSUMPTION. Post-migration TODO: freshness pass (mark STALE/SUPERSEDED rows).
+- **Sprint 3c: ✅ LABOR KB.tsv COMPLETE.** 90 rows (81 migrated + 9 new BLS entries). Freshness pass done: 7 SUPERSEDED, 7 STALE remaining (need Prompts 2-4: NFIB, Indeed, Cass Freight, Google Trends, continuing claims). PSEC PIK verification still needed (LAB-060/071 may contain poisoned data — MEMORY.md says 8.6% not 35%). Two reusable prompt templates created: `AGENTS/LABOR/research/PROMPT_BLS_EMPLOYMENT.md`, `PROMPT_PRODUCTIVITY.md`.
 - **Sprint 3d:** HENRY KB.tsv (15→13 columns, 89 rows — merging needed)
 - **Sprint 3e:** REGINALD KB.tsv (15→13 columns, 116 rows — hardest)
 - **Sprint 3f:** Update all agent CLAUDE.md files with new schema definition
