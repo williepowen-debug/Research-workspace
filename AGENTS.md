@@ -160,6 +160,13 @@ Follow `HEARTBEAT.md` strictly. Use heartbeats for periodic checks (predictions,
 
 **Anti-pattern:** "I remember from earlier" — No you don't. Read the file.
 
+### Key Reference Files
+| File | When to read |
+|------|-------------|
+| `AGENTS/KB_MIGRATION_PLAYBOOK.md` | Before ANY KB/TSV migration work. Column mappings, audit steps, chunk plans, known pitfalls. |
+| `AGENTS/VOCABULARIES.tsv` | Before writing to any agent's KB.tsv. Controlled vocabulary for Group/Entity/Source fields. |
+| `AGENTS/CLAUDE_TEMPLATE.md` | Before spawning agents or reviewing agent file structure. Gold standard schema + spawn protocol. |
+
 ### File Editing — Mandatory Rules
 1. **Read before editing.** NEVER call Edit without reading the file (or relevant section) in the same turn. No exceptions.
 2. **Subagents own their files.** If you spawned an agent to update a file, DON'T edit that same file. Wait for the agent to finish, read what they wrote, THEN make additions if needed.
