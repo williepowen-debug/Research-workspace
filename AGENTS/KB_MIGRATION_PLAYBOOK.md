@@ -32,8 +32,8 @@
 |---|---|
 | Conf | Derive from old Confidence + Source quality. See Admiralty mapping above. Default F6 if unclear. |
 | Epistemic | Classify each row: EMPIRICAL (data points, confirmed events), ESTIMATE (projections, models), ASSUMPTION (believed but unverified). Most BLS/JOLTS rows = EMPIRICAL. Framework rows = ASSUMPTION. |
-| Stale_By | Set for time-sensitive data. BLS releases → next release date. Projections → review date. Frameworks/static facts → null. |
-| DerivedFrom | Only if this row was explicitly built from other KB rows. Most will be null. |
+| Stale_By | Set for time-sensitive data ONLY if you know the exact next release/review date. If unsure, leave null — guessed dates are worse than no dates. Stale_By can be backfilled in a dedicated freshness pass. Frameworks/static facts → always null. |
+| DerivedFrom | Only if this row was explicitly built from other KB rows. Most will be null. **Direction: child points to parent.** "This fact was built from those facts." Never the reverse. |
 
 ### Status mapping (legacy → new)
 | Legacy Value | New Value | Rationale |
@@ -58,7 +58,7 @@ Read the specific rows for this chunk from the OLD file. Do NOT read from a part
 ### Step 2: Migrate row by row
 For each row, apply the column mapping above. Rules:
 - **Fact field is sacred.** Never summarize, compress, or editorialize. Copy verbatim from Description.
-- **Entity extraction requires judgment.** Pull the most specific noun. "CRITICAL: December 2025 NFP Only +50K" → Entity = `NFP` or `BLS_Dec_2025`. Lean toward the data subject, not the editorial framing.
+- **Entity extraction requires judgment.** Pull the most specific noun. For position agents (BRENT, REGINALD), Entity is typically a company, country, or instrument. For input/velocity agents (LABOR, HENRY), Entity can be a metric or data series name (NFP, Quits_Rate, U6). Use underscore-joined short names. Lean toward the data subject, not the editorial framing.
 - **One atomic claim per row.** If a Description contains multiple distinct claims, flag it but do NOT split it during migration. Splitting is a separate pass.
 - **Preserve all cross-references.** VX-LAB links, agent names, KB-ID references — nothing gets dropped.
 - **When in doubt, preserve.** Put overflow in Notes rather than dropping content.
