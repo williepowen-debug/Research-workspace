@@ -7,18 +7,9 @@ Prome adds prompts here; Will picks them up and runs them.
 
 ## Queued
 
-### DHS Shutdown Status Verification
-**Priority:** 🔴 HIGH — affects whether current claims data is clean
-**Context:** ChatGPT (Mar 9) says DHS shutdown was still ongoing as of Mar 8, 2026. Gemini says fully resolved. If shutdown is ongoing, initial claims 213K is still suppressed.
-**Prompt:**
-```
-Is the US DHS partial government shutdown that began in late January / early February 2026 still ongoing as of March 9, 2026? Specifically:
-1. Has a funding bill been signed into law that fully funds DHS?
-2. If resolved, what date was it resolved?
-3. If still ongoing, how many DHS workers remain affected (essential working without pay vs furloughed)?
-4. Are there any reports of backlogged unemployment insurance claims from DHS-related workers?
-Source all claims to specific news articles or government releases with dates.
-```
+### ✅ DHS Shutdown Status Verification — COMPLETED
+**Result:** CONFIRMED ONGOING as of Mar 9. Day 23+. Senate blocked House bill 51-45. 234K essential without pay, 26K furloughed. All claims prints since Feb 14 suppressed.
+**Verified by:** Perplexity + Gemini (Mar 9)
 
 ### Google Trends — Labor Search Terms
 **Priority:** 🟡 LABOR KB staleness
