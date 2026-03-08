@@ -23,7 +23,7 @@ ID | Date | Group | Entity | Fact | Source | Conf | Epistemic | Status | Stale_B
 
 ### Next KB Migrations (Sprint 3 remainder):
 - **📋 READ `AGENTS/KB_MIGRATION_PLAYBOOK.md` BEFORE STARTING ANY MIGRATION.** Column mappings, audit steps, pitfalls, chunk plans — all there.
-- **Sprint 3c:** LABOR KB.tsv — **Chunk 1 DONE (20/81 rows)**. Next: Chunk 2 (rows 21-41, IDs LAB-021→041). Fix LAB-067 duplicate ID during chunk 2 (row 30).
+- **Sprint 3c:** LABOR KB.tsv — **Chunks 1+2 DONE (41/81 rows)**. Next: Chunk 3 (rows 42-61 from old file, IDs KB-LAB-042→061). Then Chunk 4 (rows 62-81, but old row 68 = ML-LAB-067 already migrated as KB-LAB-030 — SKIP it in chunk 4, only 19 rows).
 - **Sprint 3d:** HENRY KB.tsv (15→13 columns, 89 rows — merging needed)
 - **Sprint 3e:** REGINALD KB.tsv (15→13 columns, 116 rows — hardest)
 - **Sprint 3f:** Update all agent CLAUDE.md files with new schema definition
