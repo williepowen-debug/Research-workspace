@@ -19,7 +19,7 @@
 | **VLY $10P Mar 20** | 1 | Dead. Expiry Mar 20. Labor data irrelevant at this point | N/A — let expire | Already dead |
 | **IWM $250P Jun** | 3 | Small cap labor cost squeeze + demand destruction | Claims ≥300K (THRESHOLD BREACH) — small caps have no margin buffer | ISM Services stays above 55 + NFP rebounds >150K for 2mo |
 | **HYG $75P Jun** | 3 | Labor cost → credit spread → HY defaults | Long-term unemployed >2.0M sustained = spending destruction → HY borrowers squeezed | ISM Services stays >55. Consumer credit demand rebounds (reverses Jan $11B miss) |
-| **APO $120P Jun** | 3 | Labor → private credit middle market → APO portfolio stress | WARN pipeline >1,000 notices OR private credit PIK income % >40% (VX-LAB-8.04 currently 35%) | Private credit middle market shows no delinquency acceleration |
+| **APO $120P Jun** | 3 | Labor → private credit middle market → APO portfolio stress | WARN pipeline >1,000 notices OR private credit PIK income % >20% (VX-LAB-8.04 currently 8.6%, GREEN — corrected from hallucinated 35%) | Private credit middle market shows no delinquency acceleration |
 | **AAL $10P Jul** | 4 | Consumer labor income → travel demand → AAL load factors | Consumer credit ($11B vs $24B exp = demand destruction signal) + LT unemployed acceleration | NFP rebounds, wage growth sustains, consumer sentiment recovers |
 | **KELYA $7.5P Aug** | 5 | Temp employment directly | See Section 2 | See Section 2 |
 | **USO LP (2 units)** | 1 | Marginal — labor only matters via Hormuz/geopolitical (not pure labor) | Hormuz extends to H2 2026 (indirect labor paralysis signal) | Hormuz reopens; hiring freeze lifts |

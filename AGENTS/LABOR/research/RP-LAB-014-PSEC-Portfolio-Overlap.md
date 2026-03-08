@@ -11,7 +11,7 @@
 
 Analyzed Prospect Capital Corp (PSEC) portfolio composition to identify overlap with LABOR watch sectors. PSEC's middle-market focus (PE-backed, founder-owned companies <$750M revenue) provides **1-2Q leading indicator** for small business employment stress not captured in headline data.
 
-**Key Finding:** PSEC portfolio heavily weighted toward **labor-intensive service sectors** (business services, transportation, healthcare staffing) that correlate with LABOR's stress vectors. Current PIK rate of 35% indicates portfolio companies already refinancing under stress.
+**Key Finding:** PSEC portfolio heavily weighted toward **labor-intensive service sectors** (business services, transportation, healthcare staffing) that correlate with LABOR's stress vectors. ⚠️ CORRECTED Mar 9: PIK rate is 8.6% (Dec 2025), NOT 35% (was hallucinated). PIK declining (11.4%→8.6% over 4Q). NAV erosion (-20.8% YoY to $6.21) is the real stress indicator.
 
 **Forward Signal:** PSEC dividend cut or NAV collapse = advance warning of middle-market layoffs 1-2 quarters ahead of aggregate data.
 
@@ -38,7 +38,7 @@ Analyzed Prospect Capital Corp (PSEC) portfolio composition to identify overlap 
 
 | **Metric** | **Value** | **Status** | **Interpretation** |
 |------------|-----------|------------|--------------------|
-| **PIK Income %** | 35% | 🔴 | High - companies can't pay cash interest |
+| **PIK Income %** | 8.6% (Dec 2025) | 🟢 | ⚠️ CORRECTED from 35% (hallucinated). Declining trend. NAV erosion is real stress signal. |
 | **Dividend Coverage** | <1.00x (est) | 🔴 | Undistributed income insufficient |
 | **NAV Change (TTM)** | -8% (est) | 🟠 | Mark-to-market deterioration |
 | **Non-Accruals** | ~8-10% (typical BDC) | 🟡 | Within range but watch |
