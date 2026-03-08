@@ -61,3 +61,5 @@ Weekly: Archive acknowledged signals older than 7 days to `archive/SIGNALS_YYYY-
 ---
 
 *Last updated: 2026-02-15*
+| 2026-03-09 | HAWK | BRENT | 🔴 | Haifa refinery confirmed hit by Khaibar Shekan missiles — energy infrastructure bilateral; routes into BRENT infra-targeting stream |
+| 2026-03-09 | HAWK | SAM | 🔴 | LNG carriers +529% (Platts), Qatar under active bombardment, zero large tankers westbound since Mar 3 — Japan energy crisis timeline compressing |
