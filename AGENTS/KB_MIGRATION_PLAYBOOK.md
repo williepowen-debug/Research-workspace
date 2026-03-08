@@ -82,6 +82,7 @@ ID	Date	Group	Entity	Fact	Source	Conf	Epistemic	Status	Stale_By	DerivedFrom	Vect
 ### Step 4: Audit the chunk
 After writing, re-read the chunk from the NEW file and verify:
 - [ ] Row count matches expected
+- [ ] **Final chunk only:** Verify last new ID maps to last old ID (accounting for skips/renumbers). Don't trust row counts alone — confirm the actual last entry wasn't dropped.
 - [ ] No data from Fact field was lost or truncated
 - [ ] All IDs sequential and renamed (KB-LAB-NNN)
 - [ ] All Status values are valid enum
@@ -108,7 +109,9 @@ After each chunk, write a checkpoint to `memory/YYYY-MM-DD.md`:
 3. **Update SCHEMA.tsv:** Copy from BRENT's workbook/SCHEMA.tsv and adjust agent-specific notes if needed.
 4. **Update agent CLAUDE.md:** Ensure KB.tsv references point to 13-column schema, remove any old schema references.
 5. **Delete GROUP_MAP.tsv** if one was created (temporary migration artifact).
-6. **Git commit:** `git add -A && git commit -m "KB migration: [AGENT] 13-column complete"`
+6. **Conf consistency pass:** Scan for rows with identical claim types but different Conf ratings (e.g., two DHS suppression analyses rated B2 and C3). Harmonize.
+7. **Freshness pass (separate session):** Scan for rows that should be STALE or SUPERSEDED based on newer data. Migration preserves original Status — staleness assessment is a post-migration task, not a migration task. But schedule it soon after completing each agent.
+8. **Git commit:** `git add -A && git commit -m "KB migration: [AGENT] 13-column complete"`
 
 ---
 
