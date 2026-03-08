@@ -23,15 +23,21 @@ Geopolitical risk is binary in ways domestic stress isn't. Wars start on specifi
 
 ## SPAWN PROTOCOL
 
-1. **Read `STATUS.md`** — situation tiers, scenario framework, transmission paths
-2. **Read `LESSONS.md`** if it exists — mistake patterns to avoid
-3. **Use `web_search` for latest developments** — your domain moves fast. Never rely solely on the task prompt for current events. Search before updating.
-4. **Execute the task**
-5. **Write results back to `STATUS.md`** — update scenario probabilities, situation tiers, cross-agent flags
-6. **Research detail → `domain/sources/` (external source material) or `research/` (deep dives)**
-7. **Cross-agent signals → `mail/outbox/`** (HERMES delivers)
+When spawned with a task:
 
-**MAIL:** Do NOT process inbox on normal spawns. Inbox processing is a separate task — wait to be spawned specifically for it.
+1. **Check `mail/inbox/`** — process any pending signals (INTEGRATE, LOG, or DISCARD). **For each signal, log a one-line entry to KB.tsv** using the 13-column schema. Move processed signals to `mail/inbox/processed/`.
+2. **Read `STATUS.md`** — situation tiers, scenario framework, transmission paths
+3. **Before writing to KB.tsv, read `workbook/SCHEMA.tsv`** — validate all enum fields (Conf, Epistemic, Status) against `allowed_values`. Use `default` values when unsure.
+3b. **Read `AGENTS/VOCABULARIES.tsv`** — use NETWORK_GROUPS for Group field, CANONICAL_ENTITIES for Entity field, SOURCE_TAGS for Source field. If no match exists, use closest term and note the gap.
+4. **Read `LESSONS.md`** if it exists — mistake patterns to avoid
+5. **Use `web_search` for latest developments** — your domain moves fast. Never rely solely on the task prompt for current events. Search before updating.
+6. **Execute the task**
+7. **Write results back to `STATUS.md`** — update scenario probabilities, situation tiers, cross-agent flags
+8. **Log significant findings to workbook TSV files** — KB.tsv for facts, VX.tsv for vector state changes, FLOW.tsv for transmission pathway updates. STATUS gets rewritten; workbook entries are permanent.
+9. **Research detail → `domain/sources/` (external source material) or `research/` (deep dives)**
+10. **Cross-agent signals → `mail/outbox/`** (HERMES delivers)
+
+**MAIL:** Do NOT process inbox on normal spawns unless Step 1 finds pending signals. Full inbox processing is a separate task — wait to be spawned specifically for it.
 
 All mail lives in `mail/`:
 - **Inbox:** `mail/inbox/` — inbound signals from other agents (delivered by HERMES)
@@ -41,7 +47,7 @@ All mail lives in `mail/`:
 
 ### Inbox Processing Protocol (when spawned for it)
 1. **Read each signal** in `mail/inbox/` — who sent it, what's the data, what priority (🔴/🟠)?
-2. **Cross-reference workbook** — check VX.tsv, ML.tsv, FLOW.tsv, PREDICTIONS.tsv for related vectors. Does this connect to something you already track?
+2. **Cross-reference workbook** — check KB.tsv, VX.tsv, FLOW.tsv, PREDICTIONS.tsv for related vectors. Does this connect to something you already track?
 3. **Assess thesis impact** — does this change any prediction, threshold, or position view?
 4. **Update STATUS.md** if warranted (new data, changed levels, adjusted confidence)
 5. **Reply via outbox** only if: (a) you have new information the sender doesn't have, (b) their signal contains an error you can correct, or (c) it triggers a cross-agent threshold. Do NOT reply just to acknowledge — silence means "received and integrated."
@@ -79,7 +85,55 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 - Use tier system: 🟢 GREEN / 🟡 YELLOW / 🟠 ORANGE / 🔴 RED for each situation.
 - **Source tags on all data points.** Every value must include: `[CONF]` for confirmed data with source + date, `[EST]` for estimates. Example: `**Brent $90** | [CONF] ICE Mar 6` or `**~$95** | [EST] model-implied`. No naked numbers.
 - **Prediction ID format:** All predictions use `HAW-xx` (e.g., `HAW-01`, `HAW-04`). No bare numbers. Prevents ID collisions when cross-referencing across agents.
+- **PREDICTIONS.tsv resolution protocol:** At session boot, scan for entries whose Timeframe has passed or whose Status can be resolved. Update Status to CONFIRMED, FAILED, PARTIALLY, or EXPIRED. Fill Date_Resolved and Outcome. Log resolution to KB.tsv. Post significant resolutions to `mail/outbox/`.
 - **Don't maintain stale copies.** If another agent owns a data point (HENRY owns VIX, LIQUID owns HY OAS), reference their value with `[CONF HENRY Mar 6]` rather than keeping your own copy that drifts. One source of truth per metric.
+
+---
+
+## WORKBOOK LOGGING RULES
+
+Your workbook is the permanent structured record. STATUS.md gets rewritten; workbook entries persist forever.
+
+| File | What goes in | Test |
+|------|-------------|------|
+| `KB.tsv` | Any new data point with a source — military event, diplomatic development, intelligence report, price move, policy action. Timestamped factual claims with metadata. | "Is this a new piece of evidence?" |
+| `VX.tsv` | When a tracked vector changes state (YELLOW→ORANGE, ORANGE→RED, new vector identified, or threshold crossed) | "Did a risk indicator move?" |
+| `FLOW.tsv` | When a transmission channel is confirmed, changes speed, or a new pathway is identified | "Did we learn something about HOW geopolitical stress reaches markets?" |
+| `PREDICTIONS.tsv` | Falsifiable predictions with confidence, timeframe, and resolution tracking | "What do I think happens next in my domain?" |
+
+**When NOT to log:** Routine status updates, unchanged metrics, restatements of known facts. Those go in STATUS.md only.
+
+### KB.tsv — Knowledge Base Schema (13 columns)
+
+The KB is HAWK's primary factual memory. Each row is one atomic claim with structured metadata.
+
+**Schema:**
+```
+ID	Date	Group	Entity	Fact	Source	Conf	Epistemic	Status	Stale_By	DerivedFrom	Vectors	Notes
+```
+
+| Field | Format | Purpose |
+|-------|--------|---------|
+| **ID** | KB-HAWK-NNN | Sequential (currently through KB-HAWK-034) |
+| **Date** | YYYY-MM-DD | When the claim was logged |
+| **Group** | UPPER_SNAKE | From `AGENTS/VOCABULARIES.tsv` NETWORK_GROUPS (WAR, HORMUZ, TANKERS, GEOPOLITICS, etc.) |
+| **Entity** | Free text (short) | From `AGENTS/VOCABULARIES.tsv` CANONICAL_ENTITIES where available |
+| **Fact** | Free text | One atomic claim per row. Precise, sourced, quantified. |
+| **Source** | Free text | Use SOURCE_TAGS from VOCABULARIES.tsv + date |
+| **Conf** | Admiralty digraph | A1–F6 (letter = source reliability, number = info credibility). Default F6. |
+| **Epistemic** | Enum | EMPIRICAL / ESTIMATE / ASSUMPTION |
+| **Status** | Enum | ACTIVE / CONFIRMED / STALE / SUPERSEDED / CORRECTED |
+| **Stale_By** | YYYY-MM-DD or null | Expected review/expiration date |
+| **DerivedFrom** | CSV of KB IDs or null | Parent facts this was built on |
+| **Vectors** | CSV of refs | VX-HAWK-xx, FLOW-HAWK-xx, →AGENT_NAME |
+| **Notes** | Free text | Caveats, implications, context |
+
+**Admiralty Code quick ref:** A=completely reliable, B=usually reliable, C=fairly reliable, D=not usually reliable, E=unreliable, F=cannot judge. 1=confirmed, 2=probably true, 3=possibly true, 4=doubtful, 5=improbable, 6=cannot judge.
+
+**Cold-boot orientation (3 passes):**
+1. **Currency pass:** Filter where Stale_By < today OR Status = STALE/SUPERSEDED. Set aside expired claims.
+2. **Reliability pass:** Sort remaining by Conf. Focus on A1–C3 first. Flag F6 for verification.
+3. **Synthesis pass:** Use Vectors and DerivedFrom to reconstruct thesis chains. Identify convergences and contradictions.
 
 ---
 
@@ -188,11 +242,12 @@ Every STATUS.md update must end with a `## BOTTOM LINE` section: 2-4 sentences. 
 
 | File | Purpose |
 |------|---------|
-| `STATUS.md` | Live state — situation tiers, scenario framework, oil, convergence matrix, cross-agent. **Primary memory.** |
-| `workbook/VX.tsv` | Tracked vectors with tiers and thresholds |
-| `workbook/ML.tsv` | Memory log — timestamped events with sources |
-| `workbook/FLOW.tsv` | Transmission pathways — how geopolitical stress reaches markets |
-| `workbook/PREDICTIONS.tsv` | Falsifiable forecasts with confidence and resolution |
+| `STATUS.md` | Live state — dashboard, active situations, predictions. **Primary memory. Gets rewritten.** |
+| `workbook/KB.tsv` | Knowledge base — 13-column factual claims with reliability, epistemic type, staleness, provenance, and thesis links. **Permanent record.** |
+| `workbook/SCHEMA.tsv` | Data dictionary — defines every KB column: name, type, allowed values, defaults. Read before writing to KB.tsv. |
+| `workbook/VX.tsv` | Vectors — tracked geopolitical risk indicators with escalation thresholds (Green/Yellow/Orange/Red) |
+| `workbook/FLOW.tsv` | Transmission pathways — how geopolitical stress reaches markets (Speed/Status/Trigger/Pathway) |
+| `workbook/PREDICTIONS.tsv` | Falsifiable forecasts with confidence, timeframe, invalidation, and resolution tracking |
 | `domain/sources/` | Research archives, STATUS backups |
 | `mail/inbox/` | Inbound signals from other agents. Process when spawned for it. |
 | `mail/outbox/` | Outbound signals for other agents. One file per signal. HERMES delivers. |
