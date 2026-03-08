@@ -135,6 +135,8 @@ NEXUS sits between domain agents and PROME. It reads all agents' SIGNALS.md and 
 
 ## Signal Processing
 
+**Full protocol:** `PROME/SIGNAL_PROTOCOL.md`
+
 When Will sends market signals:
 1. **Triage** — which agent owns this?
 2. **Extract** — pull key data points
