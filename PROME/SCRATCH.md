@@ -10,11 +10,17 @@
 - **Indeed (KB-LAB-018):** Refreshed with 4-LLM cross-verification. FRED-confirmed index 104.7. Upgraded B1→A1. VX-LAB-1.04 updated -5.2%→-5.9%.
 - **Cass Freight (KB-LAB-043):** Enriched with inferred rates +8.4%, 36-month decline streak, Jan 2020 baseline. Also updated KB-LAB-038, VX-LAB-11.01, FLOW-LAB-6.01.
 
-### Remaining Stale Prompts (3 of 5 left + 1 verification)
-- Google Trends (labor search terms) — prompt ready in Telegram
-- JOLTS / Quits Rate — prompt ready, next release ~Mar 11
-- Continuing Claims — prompt ready
+### Remaining Stale Prompts (2 of 5 left + 2 verifications)
+- Google Trends (labor search terms) — prompt in WILL/PROMPTS.md
 - PSEC PIK verification (LAB-060/071 — 35% or 8.6%?)
+- **NEW:** DHS shutdown status verification — HIGH PRIORITY, prompt in WILL/PROMPTS.md
+- JOLTS Jan 2026 releases Mar 13 — no action until then
+
+### Continuing Claims Alert
+- 1,868K — **32K from YELLOW threshold (1.9M)**
+- Duration proxy 8.0→8.8 weeks
+- Hotel California intensifying
+- Next print Mar 12 could trigger status change
 
 ### Model Rankings (2 prompts complete)
 1. Perplexity + ChatGPT tied (1.5 avg) — Perplexity = best sourcing, ChatGPT = most analytical value-add
