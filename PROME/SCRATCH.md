@@ -4,9 +4,9 @@
 
 ---
 
-## Last Session: LABOR KB Chunk 1 Complete (Sun Mar 9 morning)
+## Last Session: LABOR KB Migration COMPLETE (Sun Mar 9 afternoon)
 
-Migrated BRENT's KB.tsv from 6-column to 13-column schema. 102 rows, 4 chunks, each audited for signal preservation. Zero data loss.
+81 rows migrated from 11-col to 13-col across 4 chunks. Zero data loss. 10 column-shifted rows fixed. Playbook updated 6 times during migration.
 
 ### 13-Column KB Schema (FINALIZED & CODIFIED)
 ```
@@ -23,7 +23,7 @@ ID | Date | Group | Entity | Fact | Source | Conf | Epistemic | Status | Stale_B
 
 ### Next KB Migrations (Sprint 3 remainder):
 - **📋 READ `AGENTS/KB_MIGRATION_PLAYBOOK.md` BEFORE STARTING ANY MIGRATION.** Column mappings, audit steps, pitfalls, chunk plans — all there.
-- **Sprint 3c:** LABOR KB.tsv — **Chunks 1+2 DONE (41/81 rows)**. Next: Chunk 3 (rows 42-61 from old file, IDs KB-LAB-042→061). Then Chunk 4 (rows 62-81, but old row 68 = ML-LAB-067 already migrated as KB-LAB-030 — SKIP it in chunk 4, only 19 rows).
+- **Sprint 3c: ✅ LABOR KB.tsv COMPLETE.** 81 rows, 13-col. Stats: 63 EMPIRICAL, 7 ESTIMATE, 11 ASSUMPTION. Post-migration TODO: freshness pass (mark STALE/SUPERSEDED rows).
 - **Sprint 3d:** HENRY KB.tsv (15→13 columns, 89 rows — merging needed)
 - **Sprint 3e:** REGINALD KB.tsv (15→13 columns, 116 rows — hardest)
 - **Sprint 3f:** Update all agent CLAUDE.md files with new schema definition
