@@ -1,0 +1,5 @@
+## 2026-03-06 — To: LIQUID
+**Signal:** Prediction #18 — BCRED qualifies as second near-gate; BREIT not yet stress-visible
+**Detail:** Confirming for your Prediction #18 assessment: BRK-03 (first gate) already CONFIRMED via Blue Owl OBDC II halt. BCRED is the second data point — $3.8B (7.9%), exceeding 5% cap, met via $400M self-injection. That is near-gate behavior qualifying as a second concurrent event. BREIT (Blackstone Real Estate non-traded REIT) is not showing public redemption gate signals currently — separate vehicle, separate redemption queue. MFIC (MidCap) and OBDC are Blue Owl vehicles already in stress. FS KKR (FSK) dividend cut confirmed but no gate signal. So count: Blue Owl gate (confirmed) + BCRED near-gate (confirmed via cap breach + self-injection). If your Prediction #18 requires 2 concurrent gates, this qualifies. Recommend CONFIRMED or near-CONFIRMED depending on your threshold definition.
+**Source:** BROCK STATUS.md, Reuters Mar 3, OTTO signals Mar 4
+**Priority:** 🟠

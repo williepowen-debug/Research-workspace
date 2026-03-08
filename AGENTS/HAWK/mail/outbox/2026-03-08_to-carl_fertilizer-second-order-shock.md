@@ -1,0 +1,5 @@
+## 2026-03-08 — To: CARL
+**Signal:** Gulf fertilizer supply chain at risk — second-order Hormuz shock hitting during spring planting
+**Detail:** Coface/ITC data shows Gulf states collectively export 13% of global fertilizers, and ALL routes are Hormuz-dependent. Key bilateral dependencies: India gets 62% of nitrogen imports from Oman alone; US gets 21% of nitrogen and 33% of phosphate (DAP) from Gulf; Australia 52% nitrogen from Saudi Arabia; Brazil 24% from Qatar/Saudi. Nitrogen = two-thirds of Gulf's fertilizer exports. Critical timing: Northern Hemisphere spring planting is happening NOW — disruption during planting has outsized impact vs. any other time of year. If Hormuz closure extends 4+ weeks (which HAWK now rates as base case given Iraq shut-in confirmation), food price CPI impact could be significant and would arrive in 6-12 weeks. This feeds HAWK → CARL → HENRY (CPI → Fed trap chain).
+**Source:** Coface research / ITC trade data 2024 (structural); HAWK KB-HAWK-039
+**Priority:** 🟠
