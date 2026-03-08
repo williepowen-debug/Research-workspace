@@ -4,12 +4,12 @@
 
 ---
 
-## Last Session: LABOR KB Sprint Complete + Signal Protocol + HAWK Migration Plan (Sun Mar 9)
+## Last Session: HAWK Migration Segments A+B COMPLETE (Sun Mar 8)
 
-### HAWK Migration — QUEUED (4 segments)
-**Segment A:** Create KB.tsv from ML.tsv (27 rows) + STATUS.md facts → 13-column schema
-**Segment B:** Migrate VX.tsv (9 rows, 8→12 col) + FLOW.tsv (8 rows, 8→10 col)
-**Segment C:** Align PREDICTIONS.tsv + update CLAUDE.md with KB schema/cold-boot protocol
+### HAWK Migration — IN PROGRESS (2 of 4 segments done)
+**Segment A: ✅ DONE** — KB.tsv created (34 rows). 27 from ML + 7 from STATUS.md.
+**Segment B: ✅ DONE** — VX.tsv (9 rows, 8→11 col) + FLOW.tsv (8 rows, 8→9 col) migrated.
+**Segment C: NEXT** — Align PREDICTIONS.tsv + update CLAUDE.md with KB schema/cold-boot protocol
 **Segment D:** Create SCHEMA.tsv + spawn HAWK to process 3 inbox signals (SIG-001/002/003)
 
 ### 3 Signals Waiting in HAWK Inbox

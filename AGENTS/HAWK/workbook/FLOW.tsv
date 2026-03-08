@@ -1,9 +1,9 @@
-ID	FROM	TO	MECHANISM	SPEED	CURRENT_STATE	EVIDENCE	UPDATED
-FLOW-HAWK-01	Hormuz Closure	Oil Price	Supply disruption → spot price	Immediate	🔴 ACTIVE — Brent $90	Kuwait/Qatar curtailing, storage filling	2026-03-06
-FLOW-HAWK-02	Oil Price	Consumer (CARL)	Pump prices lag 2-3 weeks	2-3 weeks	🔴 Brent >$85 threshold breached	Gas prices will follow with lag	2026-03-06
-FLOW-HAWK-03	Oil Price	Japan (SAM)	90% ME oil dependency → JPY/trade balance	1-2 weeks	🔴 Activated	Nikkei -6.5%, carry unwind	2026-03-06
-FLOW-HAWK-04	War Escalation	VIX (HENRY)	Risk-off → vol regime shift	Immediate	🔴 ACTIVE	Sustained elevated vol	2026-03-01
-FLOW-HAWK-05	War Escalation	Credit (LIQUID)	Flight to safety + HY widening	Days	🟠 In progress	HY OAS moving toward 320	2026-03-01
-FLOW-HAWK-06	Gulf Production Shutdown	Global Supply	Storage full → wells shut → slow restart	Weeks-months	🔴 NEW — Kuwait/Qatar curtailing	Storage crisis emerging	2026-03-06
-FLOW-HAWK-07	Shadow Fleet Disruption	Russian Revenue	Seizures + enforcement → export decline	Months	🟠 20% fleet halted	$5.1B Jan revenue (-50% YoY)	2026-02-19
-FLOW-HAWK-08	Ukraine Refinery Campaign	Russian Products	Refinery hits → product shortage, crude export up	Weeks	🟠 38% capacity hit	Russia banned gasoline exports	2026-03-01
+ID	Name	Speed	Status	Trigger	Current_Position	Pathway	Cross-Agent	Notes
+FLOW-HAWK-01	Hormuz Closure → Oil Price	Immediate	FIRING	Hormuz transit disrupted	Brent $90, shipping -92%	Hormuz closed → supply disruption → spot price spike → contango/backwardation shift	BRENT	Kuwait/Qatar curtailing, storage filling. +14% since war start.
+FLOW-HAWK-02	Oil Price → Consumer Stress	2-3 weeks	FIRING	Brent >$85 sustained	Brent $90, pump lag in progress	Oil spike → refinery margin → wholesale gas → retail pump → consumer squeeze → spending cut	CARL	Gas pump peak stress window Mar 14-21 per CARL. Dual shock with NFP -92K.
+FLOW-HAWK-03	Oil Price → Japan Energy Crisis	1-2 weeks	FIRING	Brent >$80 + LNG disruption	Nikkei -6.5%, carry unwind begun	Oil spike → Japan 90% ME dependent → trade balance blow → JPY pressure → carry unwind → Nikkei	SAM	QatarEnergy LNG halted. Two-phase JPY now phase-1 (weak).
+FLOW-HAWK-04	War Escalation → Vol Regime	Immediate	FIRING	Military strikes or escalation event	Sustained elevated vol, VIX >25	War event → risk-off → VIX spike → vol-control deleveraging → gamma cascade	HENRY	Active since Feb 28. Scenario C = VIX 40-55.
+FLOW-HAWK-05	War Escalation → Credit Widening	Days	WARMING	Flight to safety + risk-off	HY OAS moving toward 320	War → risk-off → HY selling → OAS widens → funding stress → redemptions	LIQUID	320bps = credit transmission confirmed per MEMORY.md threshold.
+FLOW-HAWK-06	Gulf Production Shutdown → Global Supply	Weeks-months	FIRING	Storage full in Gulf states	Kuwait/Qatar curtailing, UAE/Iraq imminent	Storage fills → wells shut (slow restart) → global supply deficit → price overshoot → demand destruction	BRENT	If Hormuz closed 4 weeks: all Iraq/Kuwait/UAE/Qatar shut. Scenario C trigger.
+FLOW-HAWK-07	Shadow Fleet Disruption → Russian Revenue	Months	WARMING	Seizures + enforcement escalation	20% fleet halted, revenue -50% YoY	Seizures → fleet attrition → export decline → revenue squeeze → budget pressure → war sustainability	HANS	$5.1B Jan revenue. Compounds with product export ban.
+FLOW-HAWK-08	Ukraine Refinery Campaign → Russian Products	Weeks	WARMING	Continued drone strikes on refineries	38% capacity hit, gasoline exports banned	Refinery hits → product shortage domestically → crude export shift → global product tightness	BRENT	16 refineries targeted. Throughput ~335K bpd below YoY.
