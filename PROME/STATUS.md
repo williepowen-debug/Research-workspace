@@ -1,9 +1,9 @@
 # PROME STATUS.md
-**Updated:** 2026-03-07 05:45 UTC
+**Updated:** 2026-03-09 22:30 UTC
 
-**Last context:** Overnight BRENT deep dive. Will ran 3 research prompts (storage, Hormuz live, Cheniere earnings model). PROME wrote Phase 2 transition matrix. 4 BRENT spawns processed everything. BRENT is now most mature agent — 21 predictions, full Phase 2 operational protocol, mechanical exit triggers. Next: HERMES delivery run (backlogged), Monday live M1-M3 spread, BRIEFING.md rewrite, LNG/EOG position sizing decision, Tier 2 trims.
+**Last context:** HAWK fully migrated (51 KB rows, Scenario C 55% base case). NEXUS synthesis reviewed — 4 new convergences, 3-anchor UST framework, TLT puts #1 conviction. 22 signals routed to all 13 agents from Will's screenshot blitz. mail/PROTOCOL.md deployed network-wide. ZHAO update next (Campbell Gulf recycling vector = critical gap).
 
-## 🔴🔴 NFP -92K — THESIS CONFIRMED — HARVESTING + INFRASTRUCTURE
+## 🔴🔴 SCENARIO C BASE CASE — WAR DAY 10 — PRIVATE CREDIT CASCADE CONFIRMED
 
 ---
 
@@ -11,75 +11,38 @@
 
 | Agent | Status | Key State | Updated |
 |-------|--------|-----------|---------|
-| HENRY | 🟢 | **NFP processed.** HEN-01 CONFIRMED (-92K). Convergence ~44/60. Stagflation vector maxed. Carry/JPY 2→4. Synthesis written. | Mar 6 |
-| REGINALD | 🟢 | **NFP processed.** EGBN Federal Layoffs channel fired (🟠→🔴), score 19→20. Structural -64K after strike strip. | Mar 6 |
-| LABOR | 🟢 | **UPGRADED + NFP processed.** Full architecture alignment done. LAB-09 CONFIRMED (shadow gap). Convergence 43/55 🔴🔴 MAX. Mail system migrated. | Mar 6 |
-| CARL | 🔴 | Subprime auto ABS 7.1% (breached). FL UI cliff Mar 24. Gas squeeze Mar 14-21. Check-in done, no new data. | Mar 6 |
-| SAM | 🔴 | **Carry/JPY vector activated** by NFP. Check-in spawned. USD/KRW breached 1,500. Nikkei -6.5%. | Mar 6 |
-| BROCK | 🟢 | **FULLY UPGRADED.** CLAUDE.md gold standard, STATUS.md rebuilt (convergence 35/50 🔴), KB.tsv (21), LESSONS.md, poisoned data cleaned, inbox processed, self-audit done. 2 outbox signals pending. | Mar 6 |
-| LIQUID | 🔴 | **NFP processed.** LIQ-01 (320bps) expected to trigger at open. HYG -1.5 to -3%. VIX 30-38. 10Y behavior = key tell. | Mar 6 |
-| MARCO | 🔴 | Check-in spawned. Remittances -1.4% YoY. DHS Day 18. TSA paycheck miss Mar 14. | Mar 6 |
-| OTTO | 🔴 | Check-in spawned with NFP context. BCRED $3.8B redemptions. APO class action. BDC 73% NAV. | Mar 6 |
-| ZHAO | 🔴 | Check-in spawned. USD/KRW breached 1,500. KOSPI -12%. | Mar 6 |
-| HAWK | 🟢 | **REBUILT.** Brent $90, convergence 37/45 🔴🔴. Scenario C raised 20→35%. Kuwait ~12 days storage. 3 outbox signals written. | Mar 6 |
-| HANS | 🟠 | Ceasefire 12%. iTraxx Senior Financial ~95bps. | Mar 4 |
-| NEXUS | 🔴 | 5 thresholds breaching simultaneously. | Mar 4 |
-| BRENT | 🟢🟢 | **MOST MATURE AGENT.** 21 predictions (4 confirmed), 10 vectors, 25 flow chains, full Phase 2 operational protocol. Tonight: 3 research docs ingested + Phase 2 matrix + Cheniere earnings model. STATUS trimmed to 244 lines. All TSVs reconciled. | Mar 7 |
-| DARWIN | 🟢 | Weekly scan. | Feb 18 |
+| **HAWK** | 🟢🟢 | **FULLY MIGRATED.** KB 51 rows, VX 12, FLOW 10. Scenario C 55% base case. Iraq 3M bpd confirmed. Hormuz -92%. Haifa bilateral. 7 new inbox signals tonight. | Mar 9 |
+| **BRENT** | 🟢🟢 | **MOST MATURE.** 21 predictions, Phase 2 operational. Tonight: 4 new signals (Platts, Coface fertilizer, Iraq/Yergin, Haifa). Kuwait curtailment 7 days. | Mar 9 (signals) |
+| **NEXUS** | 🟢🟢 | **FULL SYNTHESIS DONE.** C-15 through C-18 new. 3-anchor UST framework. Threshold cluster Mar 10-24 densest yet. Taiwan 1-4 days critical. | Mar 9 |
+| **BROCK** | 🟢 | Upgraded + 2 major signals tonight: BX $400M own-money + MFS forensics. PE cascade confirmed. | Mar 9 (signals) |
+| **LABOR** | 🟢 | KB migrated + staleness sprint done. Tonight: finance openings -117K (2012 lows). White-collar ALL negative. | Mar 9 (signals) |
+| **REGINALD** | 🟢 | NFP processed. Tonight: KW bondholder revolt + Vegas housing canary. C-17 CRE can-kick failure. | Mar 9 (signals) |
+| **HENRY** | 🟠 | NFP processed. Tonight: SPY 20-week break + oil-deflation + Gulf recycling + HAWK Scenario C/VIX signal. KB migration next. | Mar 9 (signals) |
+| **CARL** | 🟠 | Tonight: diesel transmission + Vegas cancellations + HAWK fertilizer signal. Gas pump peak Mar 14-21. | Mar 9 (signals) |
+| **SAM** | 🟠 | Tonight: Qatar bombardment + LNG +529% + HAWK Japan energy signal. BOJ Mar 13-14. | Mar 9 (signals) |
+| **LIQUID** | 🟠 | Tonight: tanker rates + credit crisis + SPY break. VLCC +201% confirms Phase 1. | Mar 9 (signals) |
+| **ZHAO** | 🔴 **GAP** | Last updated Mar 2-4. **DOES NOT HAVE Campbell Gulf recycling vector.** Critical gap — 3rd UST anchor unmodeled. UPDATE FIRST NEXT SESSION. | Mar 4 |
+| **MARCO** | 🟠 | Tonight: oil politics + DOGE compound + white-collar data. | Mar 9 (signals) |
+| **HANS** | 🟠 | Tonight: war escalation summary + ceasefire assessment request. Iran FM "no negotiations." | Mar 9 (signals) |
+| **OTTO** | 🟠 | Tonight: MFS→Jefferies→WAL forensics. | Mar 9 (signals) |
+| **DARWIN** | 🟡 | No updates. Weekly scan overdue. | Feb 18 |
 
 ---
 
-## Active Positions (Mar 6, ~10:00 AM ET)
+## Top 10 Trade Convictions (Mar 9)
 
-**Account:** ~$51,200 | +173% all-time | Cash: ~$7,300 (after sells)
-**Realized today:** ~$3,056 (5 positions closed)
-
-### Sold Today
-| Position | Sold | Realized P/L |
-|----------|------|-------------|
-| USO $91C Mar 18 | $17.00 | +$1,098 (+183%) |
-| WAL $82.5P Jun | $15.18 | +$1,126 (+288%) |
-| WAL $77.5P Mar 20 | $8.38 | +$647 (+340%) |
-| KRE $66P Mar 13 | $2.78 | +$131 (+90%) |
-| KRE $62P Mar 31 | $2.00 | +$54 (+41%) |
-
-### Core Puts (holding)
-| Position | Expiry | Approx P/L | Notes |
-|----------|--------|-----------|-------|
-| WAL $85P | Jun | +156% | Deep ITM, WAL at $70 |
-| WAL $77.5P | Jun | +73% | ITM |
-| KRE $60P | Jun | +133% | KRE at $64 |
-| KRE $60P | Dec | +67% | Long-dated core |
-| KRE $65P | Jun | +71% | 4 contracts, ITM |
-| KRE $67P | Jun | +77% | ITM |
-| KRE $63P | Jun | +42% | Near ATM |
-| KRE $60P | Sep | +85% | |
-| IWM $250P | Jun | +77% | |
-| HYG $75P | Jun | +70% | 10 contracts |
-| APO $100P | Jun | -8% | Private credit thesis live |
-| APO $100P | Apr | -7% | |
-| SSB $90P | Jun | +125% | Trim candidate |
-| ZION $57.5P | Jul | +40% | |
-| OZK $42.5P | Aug | +32% | Apr 16 earnings catalyst |
-| OZK $45P | Aug | +9% | 2 contracts |
-| FLG $13P | Jul | +27% | |
-| AAL $10P | Jul | +81% | Trim candidate |
-
-### Equity/ETF (top holdings)
-AAPL 100sh (+978%, ~$25.5K), GLD 2sh, TBT 14sh, AMH 12sh, INVH 7sh, CPER 6sh, USO LP 2 units, SLV 10sh
-
-### Underwater / Small
-| Position | P/L | Note |
-|----------|-----|------|
-| EGBN $25P Jun | -43% | Hold — EGBN scored 19/20 REGINALD |
-| VLY $10P Mar 20 | -41% | Basically dead ($0.05) |
-| KELYA $7.5P Aug | flat | Staffing canary |
-
-### Watchlist for Green Day Re-Entry
-- KRE short-dated lottos before FOMC (Mar 17-18)
-- WAL reload if bounces to $73-75
-- BIZD puts (private credit ETF) — need to check options
-- APO add on any bounce
+| # | Trade | Conv | Why |
+|---|-------|------|-----|
+| 1 | **TLT puts (May $80P/$82P)** | 5/5 | 3-anchor UST demand collapse. Works in EVERY scenario. |
+| 2 | **EGBN $25P Jun** | 5/5 | DC federal cuts live in BLS. Non-energy. Survives resolution. |
+| 3 | **OZK $42.5P/$45P Aug** | 5/5 | Memo3 worst. Apr 16 detonator. C-17 may pull left. |
+| 4 | **APO puts** | 5/5 | MFS £400M, Athene, PIMCO cycle. Not yet fully sized. |
+| 5 | **LNG spread ($270C/$300C May)** | 4/5 | Cheniere consensus error. LNG carriers +529%. |
+| 6 | **KRE puts** | 4/5 | Systemic regional. Active manage. |
+| 7 | **VIX 25/35 call spread** | 4/5 | SPY below 20-wk MA. Coiled spring. |
+| 8 | **USO calls** | 4/5 | Scenario C. Kuwait 7 days. |
+| 9 | **IWM $250P Jun** | 4/5 | Small cap credit/labor. |
+| 10 | **AAL $10P Jul** | 4/5 | Jet fuel +87%. |
 
 ---
 
@@ -87,22 +50,40 @@ AAPL 100sh (+978%, ~$25.5K), GLD 2sh, TBT 14sh, AMH 12sh, INVH 7sh, CPER 6sh, US
 
 | Date | Event | Priority |
 |------|-------|----------|
-| Mar 11 (Tue) | CPI — potential relief rally (green day re-entry?) | 🟠 |
-| Mar 13 (Thu) | PCE + GDP + BOJ meeting | 🔴 |
-| Mar 14-21 | Gas pump peak stress window (CARL) | 🔴 |
-| Mar 17-18 | FOMC (hold expected, stagflation language) | 🔴 |
-| Mar 24 | FL UI exhaustion cliff begins | 🔴 |
-| Apr 16-29 | Bank earnings wave (OZK → ZION → WAL) | 🔴 |
+| **Mar 10 (Mon)** | Taiwan LNG buffer potential exhaustion | 🔴🔴 |
+| **Mar 11 (Tue)** | CPI — TLT puts entry | 🔴 |
+| **Mar 12 (Thu)** | Initial claims — FIRST CLEAN READ | 🔴 TRIPWIRE |
+| **Mar 13-14** | BOJ meeting + PCE + GDP | 🔴 |
+| **Mar 17-18** | FOMC — stagflation language | 🔴 |
+| **Mar 20** | Kuwait curtailment PHYSICAL (85%) | 🔴🔴 |
+| **Mar 24** | FL UI exhaustion Wave 1 | 🔴 |
+| **Mar 31** | UAE curtailment PHYSICAL (80%) | 🔴 |
+| **Apr 3** | March NFP | 🔴 |
+| **Apr 16** | OZK Q1 earnings — DETONATOR | 🔴 |
+| **Apr 20-29** | WAL/EGBN/ZION/SSB Q1 earnings | 🔴 |
 
 ---
 
-## Next Priorities
+## Monday Actions
 
-1. **🔴 HERMES delivery** — HAWK 3 outbox signals (CARL, SAM, LIQUID) + HENRY Beige Book outbox + BRENT→SAM JKM signal (all backlogged)
-2. **🔴 Monday: Live M1-M3 Brent spread** — Phase 2 matrix needs current reading at open
-3. **🔴 Monday: Friday COT report** — check if CFTC released (managed money positioning = Phase 2 Signal #6)
-4. **🟠 LNG/EOG position sizing** — Will to decide. Cheniere call debit spread ($270C/$300C) = highest priority per BRENT. EOG calls secondary.
-5. **🟠 BRIEFING.md rewrite** — stale (pre-NFP, pre-war research blitz)
-6. **🟡 Tier 2 trims** — SSB $90P (+125%), AAL $10P (+81%) still on table
-7. **🟡 BIZD options** — private credit ETF put plays
-8. **🟡 Blue Owl bankrupt firm** — Will investigating, unresolved
+1. SSB trim 50% — first at open
+2. TLT puts ADD — top conviction
+3. VIX call spread ADD — SPY below 20-wk
+4. LNG spread evaluate
+5. WAL position confirm
+6. Taiwan Taipower check
+7. Live data pulls (BRIEFING.md)
+
+---
+
+## Infrastructure Queue
+
+| Task | Priority | Notes |
+|------|----------|-------|
+| ZHAO update + Campbell vector | 🔴 NEXT | Critical gap in 3-anchor framework |
+| HAWK TRADE.md | 🟠 | Last HAWK migration piece |
+| HENRY KB migration (89 rows) | 🟠 | Sprint 3d |
+| REGINALD KB migration (116 rows) | 🟠 | Sprint 3e, hardest |
+| CLAUDE.md updates (mail/PROTOCOL.md pointer) | 🟡 | Do during each agent's next migration |
+| TRADE.md: BROCK, CARL | 🟡 | |
+| HERMES cron automation | 🟡 | |
