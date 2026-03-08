@@ -1,0 +1,127 @@
+## CONTROLLED VOCABULARIES — Network-Wide Reference
+## Read by all agents at spawn when writing to KB.tsv
+## Last updated: 2026-03-08
+## Rules:
+##   1. Use NETWORK_GROUP for the Group field in KB.tsv. Pick the closest match.
+##   2. If no match exists, propose a new term in mail/outbox → PROME. Use it provisionally.
+##   3. Agent-specific sub-groups go in Notes (e.g., "sub:LNG_CHENIERE").
+##   4. Entity field: use CANONICAL_ENTITY where one exists. Free text otherwise but keep it short.
+##   5. Source field: use SOURCE_TAG abbreviations where possible, followed by date.
+
+---NETWORK_GROUPS---
+Tag	Domain_Owner	Definition
+HORMUZ	BRENT	Strait of Hormuz closure, transit, insurance, naval, Iranian military
+GULF_STORAGE	BRENT	Gulf state oil/gas storage capacity, tank tops, production curtailment
+LNG	BRENT	LNG markets, JKM, TTF, Henry Hub, cargo flows, contracts
+OPEC	BRENT	OPEC+ policy, quotas, spare capacity, compliance, meetings
+SHALE	BRENT	US shale production, DUC inventory, rig counts, Permian
+TANKERS	BRENT	Shipping rates, VLCC, dirty/clean tanker markets, sanctions fleet
+BYPASS	BRENT	Alternative oil export routes (pipelines, terminals) bypassing Hormuz
+REFINERY	BRENT	Refinery capacity, crack spreads, utilization, turnarounds
+SPR	BRENT	Strategic Petroleum Reserve, government stockpiles, release/refill
+SULPHUR	BRENT	Sulphur supply chain, sulphuric acid, fertilizer, copper SX-EW
+TAIWAN	BRENT	Taiwan energy security, grid, semiconductor supply chain
+DEMAND_DESTRUCTION	BRENT	Oil/energy demand decline signals, PMI, transport, EV substitution
+ENERGY_CREDIT	BRENT	E&P credit stress, HY energy spreads, OXY/shale debt
+CRE	REGINALD	Commercial real estate — office, multifamily, industrial, CMBS, mods
+HIDDEN_CRE	REGINALD	Memo Item 3, C&I reclassification, true CRE exposure
+BANK_EARNINGS	REGINALD	Quarterly bank results, guidance, reserve builds, charge-offs
+BANK_CAPITAL	REGINALD	Tier 1/CET1 ratios, AOCI, HTM losses, stress tests
+PRIVATE_CREDIT	REGINALD	BDCs, CLOs, direct lending, warehouse lines, NAV markdowns
+INSURANCE_RISK	BROCK	Insurance-linked PE (Athene, Global Atlantic), statutory filings
+PE_CONTAGION	BROCK	Apollo, Blackstone, KKR — fund gates, redemptions, class actions
+FRAUD	BROCK	MFS, double-pledging, collateral fraud, audit failures
+LABOR_MARKET	LABOR	NFP, JOLTS, claims, quits, ADP, BLS releases, participation
+DOGE	LABOR	Federal workforce cuts, DOGE-driven layoffs, contractor impacts
+TEMP_STAFFING	LABOR	Temp employment, staffing firms (KELYA, RHI, KFRC), penetration rate
+UI_EXHAUSTION	LABOR	Unemployment insurance expiration, state-level cliffs, exhaustion rates
+WHITE_COLLAR	LABOR	Tech/finance/professional layoffs, hiring freezes, AI displacement
+CONSUMER	CARL	Consumer credit, delinquencies, auto ABS, gas prices, sentiment
+SUBPRIME_AUTO	CARL	Auto loan ABS, deep subprime, extension rates, recovery rates
+VOL	HENRY	VIX, VVIX, term structure, gamma exposure, 0DTE, dealer positioning
+CREDIT_SPREADS	HENRY	HY OAS, IG spreads, CDX, iTraxx, credit-equity divergence
+FLOWS	HENRY	Fund flows, ETF creation/redemption, passive/active, CTA positioning
+RATES	HENRY	UST yields, curve shape, Fed policy, dot plot, TLT, real rates
+STAGFLATION	HENRY	CPI/PPI vs employment, Fed policy trap, simultaneous stress
+CARRY_TRADE	SAM	JPY carry, USD/JPY, BOJ policy, Nikkei, margin calls
+ASIA_CONTAGION	ZHAO	Korea, KOSPI, USD/KRW, China property, Asian credit
+UST_FOREIGN	ZHAO	Foreign UST holdings, Japan/China/Korea selling, reserve management
+GEOPOLITICS	HANS	Ukraine, ceasefire, NATO, sanctions, European defense, iTraxx
+WAR	BRENT	Active military conflict affecting energy (Iran/Hormuz, Russia/Ukraine)
+CONVERGENCE	NEXUS	Cross-agent synthesis, threshold clustering, narrative alignment
+MACRO	MULTIPLE	Broad macro indicators not owned by a single agent (GDP, PMI)
+POSITIONS	PROME	Portfolio holdings, entries, exits, P&L tracking
+META	MULTIPLE	System architecture, agent methodology, process notes
+
+---CANONICAL_ENTITIES---
+Canonical	Aliases	Type	Notes
+Kuwait	KWT	Country	
+Saudi_Arabia	KSA, Saudi	Country	
+UAE	United Arab Emirates	Country	
+Iran	IRN	Country	
+Iraq	IRQ	Country	
+Qatar	QAT	Country	
+Russia	RUS	Country	
+China	CHN, PRC	Country	
+Japan	JPN	Country	
+South_Korea	KOR, Korea	Country	
+Taiwan	TWN	Country	
+OPEC+	OPEC	Organization	Use OPEC+ for the expanded group
+Fed	Federal Reserve, FOMC	Organization	
+BOJ	Bank of Japan	Organization	
+BLS	Bureau of Labor Statistics	Organization	
+DOGE	Dept of Govt Efficiency	Organization	
+Apollo	APO	Company/Ticker	
+Athene	ATH	Company	Apollo subsidiary
+Blackstone	BX	Company/Ticker	
+KKR		Company/Ticker	
+Cheniere	LNG	Company/Ticker	Ticker is LNG
+Venture_Global	VG	Company	Pre-IPO
+QatarEnergy		Company	State oil company
+ADNOC	ADCOP	Company	Abu Dhabi NOC — note: ADCOP in some BRENT entries is a typo for ADNOC
+WAL	Western Alliance	Company/Ticker	
+OZK	Bank OZK	Company/Ticker	
+EGBN	Eagle Bancorp	Company/Ticker	
+ZION	Zions Bancorp	Company/Ticker	
+SSB	South State	Company/Ticker	
+FLG	Flagstar Financial	Company/Ticker	Was NYCB
+KRE		ETF	Regional bank ETF
+HYG		ETF	HY corporate bond ETF
+IWM		ETF	Russell 2000 ETF
+USO		ETF	Oil ETF
+STNG	Scorpio Tankers	Company/Ticker	
+Maersk		Company	
+TSMC	TSM	Company/Ticker	
+OXY	Occidental	Company/Ticker	
+KELYA	Kelly Services	Company/Ticker	
+RHI	Robert Half	Company/Ticker	
+KFRC	Kforce	Company/Ticker	
+AAL	American Airlines	Company/Ticker	
+Cheniere	LNG	Company/Ticker	
+EOG		Company/Ticker	
+CPER		ETF	Copper ETF
+
+---SOURCE_TAGS---
+Tag	Full_Name	Notes
+BLS	Bureau of Labor Statistics	NFP, CPI, JOLTS, QCEW
+FRED	Federal Reserve Economic Data	St. Louis Fed database
+EDGAR	SEC EDGAR	10-K, 10-Q, 8-K filings
+FFIEC	Federal Financial Institutions Examination Council	Call reports, RC-C
+H8	Federal Reserve H.8	Weekly bank balance sheet data
+TREPP	Trepp	CMBS analytics
+FINVIZ	Finviz	Screen/quote data
+BBG	Bloomberg	Terminal data
+RTRS	Reuters	News wire
+FT	Financial Times	News
+WSJ	Wall Street Journal	News
+CNBC	CNBC	News/TV
+EIA	Energy Information Administration	Weekly petroleum, storage
+IEA	International Energy Agency	Monthly oil market report
+OPEC_MR	OPEC Monthly Report	Supply/demand/compliance
+CFTC	CFTC Commitments of Traders	COT weekly positioning
+PLATTS	S&P Global Platts	Commodity pricing
+ARGUS	Argus Media	Commodity pricing
+CME	CME Group	Futures/options data
+ICE	Intercontinental Exchange	Brent futures
+LLOYD	Lloyd's of London	Insurance/marine market
+X	X (Twitter)	Social media — default Conf D3+

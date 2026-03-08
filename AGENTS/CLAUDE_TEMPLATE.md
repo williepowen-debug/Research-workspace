@@ -20,6 +20,7 @@ When spawned with a task:
 1. **Check `mail/inbox/`** — process any pending signals (INTEGRATE, LOG, or DISCARD). **For each signal, log a one-line entry to KB.tsv** using the 13-column schema. Move processed signals to `mail/inbox/processed/`.
 2. **Read `STATUS.md`** — your current state, dashboard, active situations
 3. **Before writing to KB.tsv, read `workbook/SCHEMA.tsv`** — validate all enum fields (Conf, Epistemic, Status) against `allowed_values`. Use `default` values when unsure.
+3b. **Read `AGENTS/VOCABULARIES.tsv`** — use NETWORK_GROUPS for Group field, CANONICAL_ENTITIES for Entity field, SOURCE_TAGS for Source field. If no match exists, use closest term and note the gap.
 4. **Execute the task**
 5. **Write results back to your files** — update `STATUS.md`, log to workbook (KB/VX/FLOW) when appropriate
 6. **If your findings are relevant to another agent's domain, write to `mail/outbox/`**
@@ -198,10 +199,10 @@ ID	Date	Group	Entity	Fact	Source	Conf	Epistemic	Status	Stale_By	DerivedFrom	Vect
 |-------|--------|---------------|---------|---------|
 | **ID** | KB-[AGT]-NNN | Sequential per agent (KB-BRT-001, KB-HEN-042) | — | Unique identifier |
 | **Date** | YYYY-MM-DD | Date the claim was logged | Today | When recorded |
-| **Group** | UPPER_SNAKE | Topic tag (HORMUZ, HIDDEN_CRE, SHALE, etc.) | — | Cluster for filtering |
-| **Entity** | Free text (short) | Most specific noun — company, country, instrument | — | What the fact is about |
+| **Group** | UPPER_SNAKE | **Must use NETWORK_GROUPS from `AGENTS/VOCABULARIES.tsv`**. Propose new terms via outbox if needed. | — | Cluster for filtering (cross-agent queryable) |
+| **Entity** | Free text (short) | **Use CANONICAL_ENTITIES from `AGENTS/VOCABULARIES.tsv`** where one exists. Free text for unlisted entities. | — | What the fact is about |
 | **Fact** | Free text | One atomic claim per row. Precise, sourced, quantified where possible. | — | The claim itself |
-| **Source** | Free text | Retrievable reference with date (e.g., "BLS CPI Report Feb 2026") | — | Where this came from |
+| **Source** | Free text | **Use SOURCE_TAGS from `AGENTS/VOCABULARIES.tsv`** where applicable + date (e.g., "BLS Feb 2026", "EDGAR WAL 10-K 2025"). Free text for unlisted sources. | — | Where this came from |
 | **Conf** | Admiralty digraph | A1–F6 (letter = source reliability, number = info credibility) | F6 | Reliability + credibility score |
 | **Epistemic** | Enum | EMPIRICAL / ESTIMATE / ASSUMPTION | EMPIRICAL | Nature of the claim |
 | **Status** | Enum | ACTIVE / CONFIRMED / STALE / SUPERSEDED / CORRECTED | ACTIVE | Lifecycle state |

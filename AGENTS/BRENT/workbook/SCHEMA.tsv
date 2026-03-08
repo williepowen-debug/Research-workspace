@@ -1,10 +1,10 @@
 variable_name	data_type	allowed_values	missing_code	required	default	description
 ID	String	KB-{AGT}-NNN (sequential per agent)		Yes		Unique identifier for each knowledge base entry
 Date	Date	YYYY-MM-DD		Yes		Date the claim was logged
-Group	String	UPPER_SNAKE_CASE (topic tag)		Yes		Topic cluster for filtering (e.g., HORMUZ, HIDDEN_CRE, SHALE)
-Entity	String	Free text (short noun)		Yes		Most specific entity the fact is about (company, country, instrument)
+Group	String	NETWORK_GROUPS from AGENTS/VOCABULARIES.tsv		Yes		Topic cluster for cross-agent filtering. Must use controlled vocabulary.
+Entity	String	CANONICAL_ENTITIES from AGENTS/VOCABULARIES.tsv preferred; free text if unlisted		Yes		Most specific entity the fact is about. Use canonical name where available.
 Fact	String	Free text (one atomic claim per row)		Yes		The claim itself — precise, sourced, quantified where possible
-Source	String	Free text (retrievable reference with date)		Yes		Where the claim came from (e.g., "BLS CPI Report Feb 2026")
+Source	String	SOURCE_TAGS from AGENTS/VOCABULARIES.tsv + date preferred; free text if unlisted		Yes		Where the claim came from (e.g., "BLS Feb 2026", "EDGAR WAL 10-K 2025")
 Conf	String	A1;A2;A3;A4;A5;A6;B1;B2;B3;B4;B5;B6;C1;C2;C3;C4;C5;C6;D1;D2;D3;D4;D5;D6;E1;E2;E3;E4;E5;E6;F1;F2;F3;F4;F5;F6		Yes	F6	Admiralty digraph — letter (A-F) = source reliability, number (1-6) = information credibility
 Epistemic	Categorical	EMPIRICAL;ESTIMATE;ASSUMPTION		Yes	EMPIRICAL	Nature of the claim: EMPIRICAL (observed/measured), ESTIMATE (derived/projected), ASSUMPTION (believed but unverified)
 Status	Categorical	ACTIVE;CONFIRMED;STALE;SUPERSEDED;CORRECTED		Yes	ACTIVE	Lifecycle state of the claim
