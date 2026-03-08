@@ -45,42 +45,8 @@ All mail lives in `mail/`:
 - **Processed:** `mail/inbox/processed/` — signals you've integrated
 - **Delivered:** `mail/outbox/delivered/` — signals HERMES has delivered
 
-### Inbox Processing Protocol (when spawned for it)
-1. **Read each signal** in `mail/inbox/` — who sent it, what's the data, what priority (🔴/🟠)?
-2. **Cross-reference workbook** — check KB.tsv, VX.tsv, FLOW.tsv, PREDICTIONS.tsv for related vectors. Does this connect to something you already track?
-3. **Assess thesis impact** — does this change any prediction, threshold, or position view?
-4. **Update STATUS.md** if warranted (new data, changed levels, adjusted confidence)
-5. **Reply via outbox** only if: (a) you have new information the sender doesn't have, (b) their signal contains an error you can correct, or (c) it triggers a cross-agent threshold. Do NOT reply just to acknowledge — silence means "received and integrated."
-6. **Mark processed** — move signal file to `mail/inbox/processed/`
-7. **Write `mail/RECEIPT.md`** — LAST action. See format below.
-
-### Processing Receipt (mail/RECEIPT.md)
-After EVERY inbox processing run, overwrite `mail/RECEIPT.md` with a structured summary of what you did. This is how PROME audits your work.
-
-```markdown
-# Inbox Processing Receipt — YYYY-MM-DD HH:MM UTC
-## Agent: HAWK
-
-### Signals Processed
-| # | Signal File | Action | KB Entries Created | VX/FLOW Changes |
-|---|-------------|--------|-------------------|-----------------|
-| 1 | SIG-xxx.md | INTEGRATE | KB-HAWK-035, 036 | VX-HAWK-01 → RED |
-| 2 | old-signal.md | DISCARD (stale) | — | — |
-
-### STATUS.md Changes
-- Scenario C: 35% → 55%
-
-### Outbox Signals Written
-- to-BRENT: [one-line summary]
-
-### Files Modified
-KB.tsv (034→042), VX.tsv (9→10), STATUS.md
-
-### Skipped / Issues
-- [anything that couldn't be processed or needs follow-up]
-```
-
-**Rules:** Overwrite each run (not append). Include ALL signals even discarded ones. Be specific: old value → new value.
+### Inbox Processing Protocol
+When spawned for inbox processing: **read `mail/PROTOCOL.md` first and follow it exactly.** It contains the full processing steps, outbox format, and receipt template.
 
 ### Outbox Protocol
 Write a single `.md` file to `mail/outbox/` per signal:

@@ -161,43 +161,9 @@ HERMES sweeps all outboxes twice daily and delivers signals to target agents' `m
 **Sending to WILL (the human):** Use `To: WILL` for items that need human decision-making — trade ideas, position changes, threshold breaches requiring action, or time-sensitive approvals. Don't send routine analysis; only things Will needs to see or act on.
 
 ### Receiving Signals (Inbox)
-Inbound signals arrive as individual `.md` files in `mail/inbox/`. Process when spawned for inbox duty:
-1. Read each signal file
-2. Integrate, log to KB.tsv, or discard
-3. Move processed files to `mail/inbox/processed/`
-4. **Write `mail/RECEIPT.md`** as your LAST action (see below)
+When spawned for inbox processing: **read `mail/PROTOCOL.md` first and follow it exactly.** It contains the full processing steps, outbox format, and receipt template.
 
-### Processing Receipt (RECEIPT.md)
-After EVERY inbox processing run, write `mail/RECEIPT.md`. This is how PROME knows what you did. **Overwrite each run** (not append).
-
-```markdown
-# Inbox Processing Receipt — YYYY-MM-DD HH:MM UTC
-## Agent: [NAME]
-
-### Signals Processed
-| # | Signal File | Action | KB Entries Created | VX/FLOW Changes |
-|---|-------------|--------|-------------------|-----------------|
-| 1 | SIG-xxx.md | INTEGRATE | KB-XXX-035, 036 | VX-XXX-01 → RED |
-| 2 | old-signal.md | DISCARD (stale) | — | — |
-
-### STATUS.md Changes
-- [Key metric]: [old] → [new]
-- [Scenario/probability]: [old] → [new]
-
-### Outbox Signals Written
-- to-[AGENT]: [one-line summary]
-
-### Files Modified
-[list every file touched with row counts where applicable]
-
-### Skipped / Issues
-- [anything that couldn't be processed, errors, gaps needing follow-up]
-```
-
-**Rules:**
-- Write RECEIPT.md as the LAST thing you do, after all files are updated and signals moved
-- Include ALL signals — even ones you discarded (with reason)
-- Be specific about what changed: old value → new value, not just "updated STATUS"
+All mail processing instructions live in `mail/PROTOCOL.md`, not in CLAUDE.md. This keeps CLAUDE.md light and puts instructions where the work happens.
 
 ---
 
