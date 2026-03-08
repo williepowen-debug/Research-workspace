@@ -17,10 +17,11 @@
 - Sprint 3e: REGINALD KB migration — 116 rows, 15→9 columns (hardest)
 - Sprint 3f: Update all 4 CLAUDE.md with new schema definition
 
-### New 9-Column KB Schema (AGREED):
+### New 13-Column KB Schema (AGREED, supersedes 9-col):
 ```
-ID	Date	Group	Entity	Fact	Source	Status	Vectors	Notes
+ID	Date	Group	Entity	Fact	Source	Conf	Epistemic	Status	Stale_By	DerivedFrom	Vectors	Notes
 ```
+*(REGINALD's richer schema adopted network-wide. Admiralty Conf codes, Epistemic type, Stale_By, DerivedFrom added.)*
 
 ### Still Queued (after KB migration)
 - Sprint 3 remainder: LABOR needs LESSONS.md + domain/ folder migration
