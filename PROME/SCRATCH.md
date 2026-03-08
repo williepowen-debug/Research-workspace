@@ -1,10 +1,29 @@
 # SCRATCH — Ephemeral Working Memory
 
-**Updated:** 2026-03-09 00:15 UTC
+**Updated:** 2026-03-09 18:00 UTC
 
 ---
 
-## Last Session: LABOR KB Migration + BLS Data Integration (Sun Mar 9)
+## Last Session: LABOR KB Staleness Updates — Indeed + Cass Complete (Sun Mar 9)
+
+### Completed This Session
+- **Indeed (KB-LAB-018):** Refreshed with 4-LLM cross-verification. FRED-confirmed index 104.7. Upgraded B1→A1. VX-LAB-1.04 updated -5.2%→-5.9%.
+- **Cass Freight (KB-LAB-043):** Enriched with inferred rates +8.4%, 36-month decline streak, Jan 2020 baseline. Also updated KB-LAB-038, VX-LAB-11.01, FLOW-LAB-6.01.
+
+### Remaining Stale Prompts (3 of 5 left + 1 verification)
+- Google Trends (labor search terms) — prompt ready in Telegram
+- JOLTS / Quits Rate — prompt ready, next release ~Mar 11
+- Continuing Claims — prompt ready
+- PSEC PIK verification (LAB-060/071 — 35% or 8.6%?)
+
+### Model Rankings (2 prompts complete)
+1. Perplexity + ChatGPT tied (1.5 avg) — Perplexity = best sourcing, ChatGPT = most analytical value-add
+2. Gemini (3.0) — good narrative, makes errors (inferred rate wrong, consecutive months off by 1)
+3. DeepSeek (4.0) — consistently weakest, fabricates specifics
+
+---
+
+## Previous Session: LABOR KB Migration + BLS Data Integration (Sun Mar 9)
 
 LABOR KB fully migrated (81 rows, 4 chunks) then expanded to 90 rows with Mar 6 BLS data. Freshness pass completed. Cross-verification protocol established (2-3 LLMs minimum).
 
