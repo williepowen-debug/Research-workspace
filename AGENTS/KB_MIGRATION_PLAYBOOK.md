@@ -10,7 +10,8 @@
 
 1. **Back up the original:** `cp KB.tsv KB_old_[N]col.tsv` (where N = current column count)
 2. **Count rows:** `wc -l KB.tsv` — confirm expected row count
-3. **Map the old schema to new schema.** Every legacy column must have a destination:
+3. **Check for non-uniform column counts:** `awk -F'\t' '{print NF}' KB_old_[N]col.tsv | sort -u` — if multiple values appear, the file has variant schemas (rows written in different sessions with different formats). Document each variant's column mapping separately before migrating. LABOR had 11-col rows (001-050) and 9-col rows (051-060) with shifted field positions.
+4. **Map the old schema to new schema.** Every legacy column must have a destination:
 
 ### LABOR (11→13 column mapping)
 | Old Column | New Column | Transformation |
@@ -64,7 +65,7 @@ Read the specific rows for this chunk from the OLD file. Do NOT read from a part
 
 ### Step 2: Migrate row by row
 For each row, apply the column mapping above. Rules:
-- **Fact field is sacred.** Never summarize, compress, or editorialize. Copy verbatim from Description.
+- **Fact field is sacred.** Never summarize, compress, or editorialize. Copy verbatim from Description. **Exception:** If the old Title contains quantitative data that would be lost during Entity extraction (e.g., "Ed & Health +12.41% vs Total +4.77%"), prepend that data to the Fact field. Entity should be the short noun; the numbers belong in Fact.
 - **Entity extraction requires judgment.** Pull the most specific noun. For position agents (BRENT, REGINALD), Entity is typically a company, country, or instrument. For input/velocity agents (LABOR, HENRY), Entity can be a metric or data series name (NFP, Quits_Rate, U6). Use underscore-joined short names. Lean toward the data subject, not the editorial framing.
 - **One atomic claim per row.** If a Description contains multiple distinct claims, flag it but do NOT split it during migration. Splitting is a separate pass.
 - **Preserve all cross-references.** VX-LAB links, agent names, KB-ID references — nothing gets dropped.
