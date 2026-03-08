@@ -2,101 +2,167 @@
 
 **Owner:** PROME
 **Purpose:** Process raw inbound signals from Will into structured packages for sub-agents.
+**Last Updated:** 2026-03-09
 
 ---
 
 ## Role Division
 
-**PROME = sifter + packager.** Extract the fact, identify the domain, state the thesis connection, package for delivery. Stay light — don't load agent context.
+**PROME = sifter + packager.** Extract the fact, identify the domain, state the thesis connection, pre-stage KB fields, package for delivery. Stay light — don't load agent context.
 
-**AGENT = domain expert + integrator.** Receives the package, knows their own KB/VX/thresholds, decides how to integrate (new row, update existing, change status, discard).
+**AGENT = domain expert + integrator.** Receives the package, knows their own KB/VX/thresholds, decides how to integrate (new row, update existing, change status, discard). Agent assigns final ID, DerivedFrom, and Vectors.
 
 **PROME does NOT:** Read the agent's KB before routing. Decide which row to update. Make integration decisions for the agent.
 
 ---
 
-## When Will Sends a Signal
-
-Will sends raw material via Telegram: screenshots, articles, tweets, data points, charts, observations. Can be messy, partial, or ambiguous. Prome's job:
-
-### Step 1: Extract
-- What is the **actual fact or data point**? Strip narrative, opinion, framing.
-- If it's a screenshot/image: describe what it shows factually.
-- If ambiguous: state what it MIGHT mean, flag the ambiguity.
-
-### Step 2: Assess
-- **Source quality:** Who said this? How reliable? (Use Admiralty scale A-F for source, 1-6 for information)
-- **Novelty:** Is this new information, or confirmation of something we already track?
-- **Urgency:** Does this approach or breach a threshold? Could it change a position?
-
-### Step 3: Route
-- **Primary agent:** Who owns this domain? (1-2 agents max)
-- **Cross-agent FYI:** Does this connect domains? Flag for NEXUS if so.
-- **Thesis connection:** State in 1-2 sentences why this matters to OUR thesis. The agent shouldn't have to guess why they're getting this.
-
-### Step 4: Package
-Write to `AGENTS/{AGENT}/mail/inbox/SIG-{YYYY-MM-DD}-{NNN}.md`:
+## Signal Package Template
 
 ```markdown
 # Signal: [one-line description]
 
-**Date:** YYYY-MM-DD
-**Source:** [who/where — handle, publication, filing, etc.]
-**Source Quality:** [Admiralty digraph, e.g., B2]
-**Received via:** [Will/Telegram, HERMES, agent outbox, etc.]
+**ID:** SIG-YYYY-MM-DD-NNN
+**Date Observed:** YYYY-MM-DD
+**Date Processed:** YYYY-MM-DD
+**Urgency:** 🔴 URGENT / 🟡 STANDARD / 🟢 BACKGROUND
+
+## Source
+- **Who:** [handle, outlet, filing body]
+- **Type:** [WIRE / INSTITUTIONAL / FILING / MSM / SOCIAL / OSINT / WILL / AGENT]
+- **Quality:** [Admiralty digraph — e.g., B2 = Usually Reliable + Probably True]
 
 ## Raw Fact
 [The actual data point or claim. Verbatim quote if possible. No interpretation.]
 
-## Thesis Connection
-[Why Prome thinks this matters — 1-2 sentences. Connect to the agent's domain explicitly.]
+## Prome Analysis
+- **Thesis Connection:** [1-2 sentences — why this matters to the agent's domain]
+- **Confidence:** [HIGH / MEDIUM / LOW / SPECULATIVE]
+- **Contradicts:** [none / existing prediction or KB reference if known]
+
+## KB Staging
+- **Suggested Group:** [from VOCABULARIES.tsv NETWORK_GROUPS]
+- **Suggested Entity:** [canonical entity name]
+- **Epistemic:** [EMPIRICAL / ESTIMATE / ASSUMPTION]
+- **Stale_By:** [date or condition]
 
 ## Suggested Action
-[What the agent might do: update KB row X, check against VX-Y threshold, compare to prediction Z, write analysis, etc. These are SUGGESTIONS — agent decides.]
+[Concrete: update KB row X, check VX-Y threshold, compare to prediction Z, create new KB row]
 
 ## Cross-Agent
-[If this signal touches other agents' domains, name them and why. Agent can forward via outbox if they agree.]
-```
+- **Primary:** [agent name + why]
+- **Secondary:** [agent names + why]
+- **Suggested Vectors:** [VX IDs if known, otherwise blank for agent to assign]
 
-### Step 5: Deliver
-- **Urgent (threshold-approaching, position-affecting, thesis-changing):** Spawn agent immediately with signal reference in task.
-- **Non-urgent (confirmatory, background, file-for-later):** Leave in inbox for HERMES delivery or next scheduled check-in.
-- **Multi-agent:** Write to primary agent's inbox. If NEXUS-relevant, note in signal for NEXUS pickup.
+## Attachments
+[none / path to saved media if relevant]
+```
 
 ---
 
-## Batch Processing
+## Source Type Categories
 
-When Will sends multiple signals at once:
-1. Process all signals first (extract + assess for each)
-2. Present summary to Will: "Here's what I found — [N] signals across [agents]. [urgent ones] need immediate routing."
+| Type | Definition | Examples |
+|------|-----------|----------|
+| **WIRE** | Real-time news wires | Bloomberg, Reuters, AP, AFP |
+| **INSTITUTIONAL** | Research firms, multilaterals, rating agencies | Coface, IMF, BIS, Moody's, S&P |
+| **FILING** | Official government/regulatory releases | SEC, BLS, DOL, Fed, Treasury |
+| **MSM** | Mainstream media with editorial layer | NYT, WSJ, FT, CNN, BBC |
+| **SOCIAL** | Twitter/X verified analysts, commentators | @DeItaone, @Rory_Johnston |
+| **OSINT** | Open source intelligence (defense/geo) | @BabakTaghvaee1, @cirnosad |
+| **WILL** | Will's own observation or analysis | Direct input via Telegram |
+| **AGENT** | Another agent's outbox signal | HERMES delivery, agent outbox |
+
+---
+
+## Admiralty Scale Reference
+
+**Source Reliability:**
+- A = Completely Reliable
+- B = Usually Reliable
+- C = Fairly Reliable
+- D = Not Usually Reliable
+- E = Unreliable
+- F = Cannot Be Judged
+
+**Information Credibility:**
+- 1 = Confirmed by Other Sources
+- 2 = Probably True
+- 3 = Possibly True
+- 4 = Doubtful
+- 5 = Improbable
+- 6 = Cannot Be Judged
+
+Combined: e.g., B2 = Usually Reliable source + Probably True information.
+
+---
+
+## Urgency Categories
+
+| Level | Criteria | Action |
+|-------|---------|--------|
+| 🔴 **URGENT** | Threshold breach, position-affecting, thesis-changing | Spawn agent immediately |
+| 🟡 **STANDARD** | Important, new information, but not time-critical | Inbox for HERMES delivery or next check-in |
+| 🟢 **BACKGROUND** | Confirmatory, context-building, structural | Inbox, low priority |
+
+---
+
+## Processing Workflow
+
+### When Will Sends Signal(s)
+
+**Step 1: Extract** — What is the actual fact? Strip narrative/opinion. If image: describe factually.
+
+**Step 2: Assess** — Source quality (Admiralty), novelty (new vs confirmation), urgency (threshold impact?).
+
+**Step 3: Route** — Primary agent (1-2 max). Cross-agent FYI. NEXUS if multi-domain convergence.
+
+**Step 4: Stage KB Fields** — Suggest Group, Entity, Epistemic, Stale_By, Conf. Pre-chew so agent can integrate fast.
+
+**Step 5: Package** — Write to `AGENTS/{AGENT}/mail/inbox/SIG-{YYYY-MM-DD}-{NNN}.md`
+
+**Step 6: Deliver** — Urgent = spawn immediately. Standard/Background = inbox for HERMES.
+
+### Batch Processing
+1. Process all signals first (extract + assess each)
+2. Present summary to Will: "[N] signals, [agents], [urgent ones]"
 3. Will confirms or redirects
 4. Package and deliver
 
 ---
 
-## What Makes a Good Signal Package
+## Delivery
 
-✅ **Agent can act on it cold** — no need to ask Prome for clarification
-✅ **Fact is separated from interpretation** — agent adds their own analysis
-✅ **Thesis connection is explicit** — agent knows WHY they got this
-✅ **Source is traceable** — agent can verify if needed
-✅ **Suggested action is concrete** — not "look into this" but "check against VX-LAB-1.04"
+- **File location:** `AGENTS/{AGENT}/mail/inbox/SIG-{YYYY-MM-DD}-{NNN}.md`
+- **Processed signals:** Agent moves to `mail/inbox/processed/` after integration
+- **Numbering:** SIG-{YYYY-MM-DD}-{NNN}, sequential within the day starting at 001
+- **Tracking:** Log signal IDs in daily notes (memory/YYYY-MM-DD.md)
 
 ---
 
-## Signal Numbering
+## Media / Attachments
 
-Format: `SIG-{YYYY-MM-DD}-{NNN}`
-- NNN = sequential within the day, starting at 001
-- Track in daily notes (memory/YYYY-MM-DD.md)
+- **Don't save raw screenshots** unless they contain data (charts, tables, trade flows). Agents spawn as text-only.
+- **Do save** data-rich visuals (charts with numbers, flow diagrams, maps) to `media/signals/` with signal ID prefix.
+- **Always describe** visual content in the Raw Fact field — the text IS the signal for the agent.
+
+---
+
+## What Makes a Good Signal Package
+
+✅ Agent can act on it cold — no clarification needed from Prome
+✅ Fact separated from interpretation — agent adds their own analysis
+✅ Thesis connection explicit — agent knows WHY they got this
+✅ KB fields pre-staged — agent can create a row almost immediately
+✅ Source traceable — agent can verify if needed
+✅ Suggested action concrete — not "look into this" but "check against VX-X threshold"
 
 ---
 
 ## Anti-Patterns
 
-❌ Forwarding raw screenshots/articles to agents (that's dumping, not processing)
-❌ Reading the agent's full KB to decide routing (that's the agent's job)
+❌ Forwarding raw screenshots/articles without extraction (dumping)
+❌ Reading agent's full KB before routing (agent's job)
 ❌ Routing to every agent "just in case" (pick 1-2 primary)
-❌ Interpreting ambiguous data as definitive (flag ambiguity, let agent + Will decide)
-❌ Holding signals for batch when they're urgent (route immediately)
+❌ Interpreting ambiguous data as definitive (flag ambiguity)
+❌ Holding urgent signals for batch (route immediately)
+❌ Leaving Source Quality as "unknown" (always assess, even if F6)
