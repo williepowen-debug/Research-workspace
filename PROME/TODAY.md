@@ -1,72 +1,74 @@
-# TODAY.md — Disposable Daily Working Doc
-**Date:** Sunday March 9, 2026 (will rename/delete at end of day)
+# TODAY.md — Sunday March 9, 2026
 
 ---
 
-## ACTIVE WORK: LABOR KB Refresh
+## ✅ Completed Today
 
-### ✅ Completed
-- [x] Migration: 81 rows, 4 chunks, 11→13 col
-- [x] Freshness pass: 7 SUPERSEDED, 12 STALE identified
-- [x] BLS Employment Situation (Prompt 1): 5 STALE refreshed + LAB-082→087 added
-- [x] Denominator analysis: LAB-083 (U-6/PTER mirage confirmed)
-- [x] Productivity & Costs: LAB-088→089 (productivity barbell, mfg -1.9%/ULC +8.3%)
-- [x] Prompt 2 (NFIB/Indeed/Cass): LAB-031, LAB-018, LAB-043 refreshed
-- [x] Cross-verification: Feb 2025 NFP (+151K not +42K), NFIB YoY baselines, mfg productivity
-- [x] Prompt templates: PROMPT_BLS_EMPLOYMENT.md, PROMPT_PRODUCTIVITY.md
-- [x] Playbook updated 8x
+### HAWK Migration (Full — Segments A-D)
+- [x] KB.tsv created: 51 rows (34 original + 8 run 1 + 9 run 2)
+- [x] VX.tsv migrated: 12 rows, 11 col with thresholds
+- [x] FLOW.tsv migrated: 10 rows, 9 col
+- [x] PREDICTIONS.tsv: invalidation criteria filled
+- [x] CLAUDE.md: 13-col KB schema, 3-pass cold-boot, workbook logging rules, mail pointer
+- [x] SCHEMA.tsv: created from BRENT template
+- [x] Spawned HAWK 2x for inbox processing (13 signals, all processed)
+- [x] 5 outbox signals generated and delivered (BRENT x2, CARL, HENRY, SAM)
+- [x] Scenario C upgraded to 55% base case
 
-### 🔲 In Progress
-- [ ] **Prompt 3: Google Trends** → updates LAB-040, LAB-041
-  - "severance package", "layoffs", "job search"
-  - Compare to Jan 2026 benchmarks (100, 92, 88)
-  - State-level breakdown
-- [ ] **Prompt 4: Claims + JOLTS** → updates LAB-007, LAB-050
-  - Latest initial + continuing claims
-  - DHS distortion status (clean or still suppressed?)
-  - Has Jan 2026 JOLTS been released? (was delayed per LAB-078)
-
-### 🔲 Not Started Today
-- [ ] **PSEC PIK verification** — LAB-060 says 35%, MEMORY.md says 8.6%. One is poisoned.
-- [ ] **Prompt template for NFIB/Indeed/Cass** — should save like we did for BLS/Productivity
-- [ ] **Save Prompts 3 & 4 as templates** — Google Trends + Claims/JOLTS
-
----
-
-## PARKING LOT (do later, not today)
-
-### LABOR KB Housekeeping
-- Hybrid row splitting (LAB-073 PCE, LAB-050, LAB-051)
-- DerivedFrom backfill for synthesis rows
-- Group consolidation (37 groups → fewer, after all agents migrated)
-
-### KB Migrations
-- HENRY: 89 rows, 15→13 col. Column mapping table needed in playbook first.
-- REGINALD: 116 rows, 15→13 col. Data corruption in Category field. Hardest.
-- All agent CLAUDE.md updates with 13-col schema
-
-### Monday Trading Queue
-- SSB trim 50%
-- HERMES delivery run (critically backlogged)
-- WAL position confirm ($85P Jun — open or closed?)
-- Monday live data pulls
-- Prompts C & D (fertilizer chain + SPR/transformers)
+### Signal Blitz (22 signals → 13 agents)
+- [x] Will's ~30 screenshots triaged and routed
+- [x] Economist war data (munitions, fires, bilateral strikes)
+- [x] Lloyd's List Hormuz -92%
+- [x] Iraq 3M bpd confirmed
+- [x] BX $400M own-money, Blue Owl permanent freeze, PE drawdowns
+- [x] MFS "Architecture of Deception" (Unicus Research)
+- [x] PIMCO "full-blown default cycle"
+- [x] Finance openings -117K (2012 lows)
+- [x] Campbell "Strip vs Strait" — Gulf recycling NEW vector
+- [x] Platts commodity dashboard, ULSD parabolic, Vegas cancellations
+- [x] SPY below 20-week MA
+- [x] Haifa refinery hit
 
 ### Infrastructure
-- TRADE.md rollout (BROCK, CARL, HAWK)
-- HERMES cron automation
-- NEXUS synthesis output — unreviewed
-- Sprint 4: REGINALD sub-agent audit
-- Sprint 5: Cross-agent verification pass
+- [x] mail/PROTOCOL.md created and deployed to all 14 agents
+- [x] RECEIPT.md pattern established (agents write receipt after inbox runs)
+- [x] HERMES 3 delivery runs (17 signals total, all outboxes clean)
+- [x] SAT_3-7.md: 9-col → 13-col schema confirmed network-wide
 
-### Process Improvements
-- Codify cross-verification protocol (2-3 LLMs) in LESSONS.md
-- Extend prompt template pattern to other agents' key data sources
+### NEXUS Synthesis (Reviewed ✅)
+- [x] 4 new convergences: C-15 Petrodollar (85%), C-16 PE Cascade (88%), C-17 CRE Can-Kick (83%), C-18 Fertilizer/Food (72%)
+- [x] Three-Anchor UST framework: Japan + China + Gulf
+- [x] Top 10 trade convictions established with Will
+- [x] TLT puts confirmed #1 conviction (5/5, works in every scenario)
 
 ---
 
-## NOTES / SCRATCH
-- NFIB Plans to Hire collapsed 17%→12% — counter-narrative weakening
-- Cass Freight new cycle low 0.886 — getting worse
-- Productivity barbell: AI sectors surging, durables mfg -3.0%
-- LABOR KB at 90 rows, 4 STALE remaining
+## 🔲 Still Open (carry to next session)
+
+### Immediate
+- [ ] **ZHAO update** — add Campbell Gulf recycling vector, KB/logging standardization, spawn for inbox
+- [ ] HAWK TRADE.md — last piece of full migration
+- [ ] PROME/STATUS.md — update agent dashboard (stale since Mar 7)
+- [ ] BRIEFING.md — update with tonight's context + NEXUS findings
+
+### Monday Market Actions
+- [ ] SSB trim 50% — first at open
+- [ ] TLT puts ADD — top conviction, 3-anchor
+- [ ] VIX call spread ADD — SPY below 20-week MA
+- [ ] LNG spread evaluate — carriers +529%
+- [ ] WAL position confirm — $85P Jun open?
+- [ ] Taiwan Taipower check — LNG buffer near-critical (1-4 days)
+- [ ] Live data pulls (12 items per BRIEFING.md)
+
+### Infrastructure Sprint
+- [ ] HENRY KB migration (Sprint 3d, 89 rows)
+- [ ] REGINALD KB migration (Sprint 3e, 116 rows, hardest)
+- [ ] Update remaining CLAUDE.md files with mail/PROTOCOL.md pointer
+- [ ] TRADE.md: BROCK, CARL still need
+- [ ] HERMES cron automation
+
+### Research
+- [ ] Apollo 10-K deep dive (Athene exposure)
+- [ ] REGINALD sub-agent audit (BELT/CORAL/CREED/RENO/TEX)
+- [ ] DHS claims suppression analysis (Prompt 2)
+- [ ] RED team update — thesis much more confirmed, worth re-running
