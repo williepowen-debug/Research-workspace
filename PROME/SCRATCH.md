@@ -4,11 +4,15 @@
 
 ---
 
-## Last Session: LABOR KB Staleness Updates — Indeed + Cass Complete (Sun Mar 9)
+## Last Session: LABOR KB Staleness Sprint COMPLETE (Sun Mar 9)
 
-### Completed This Session
-- **Indeed (KB-LAB-018):** Refreshed with 4-LLM cross-verification. FRED-confirmed index 104.7. Upgraded B1→A1. VX-LAB-1.04 updated -5.2%→-5.9%.
-- **Cass Freight (KB-LAB-043):** Enriched with inferred rates +8.4%, 36-month decline streak, Jan 2020 baseline. Also updated KB-LAB-038, VX-LAB-11.01, FLOW-LAB-6.01.
+### Completed Today (5 prompts + 1 verification)
+- **Indeed (KB-LAB-018):** FRED-confirmed index 104.7, -5.9% YoY. Upgraded B1→A1.
+- **Cass Freight (KB-LAB-043):** Inferred rates +8.4%, 36-month decline streak, Jan 2020 baseline.
+- **Claims (KB-LAB-050):** 1,868K continuing (+46K WoW), 32K from YELLOW. Duration proxy 8.8 weeks.
+- **PSEC PIK (KB-LAB-060/071):** 35% POISONED → actual 8.6%. All files corrected. NAV $6.21 (-20.8% YoY).
+- **DHS Shutdown (KB-LAB-065):** CONFIRMED ongoing Day 23+. Senate blocked 51-45. All claims suppressed.
+- **5 new rows:** VX-LAB-1.04B, VX-LAB-8.05, VX-LAB-1.06, FLOW-LAB-14.01, KB-LAB-091.
 
 ### Remaining (1 manual + 1 verification)
 - **Google Trends** — Will does manually at trends.google.com (LLMs can't pull this)
