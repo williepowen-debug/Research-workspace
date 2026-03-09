@@ -32,7 +32,7 @@
 ### mail/PROTOCOL.md Deployed Network-Wide
 - Created canonical PROTOCOL.md (inbox processing steps + RECEIPT.md format)
 - Deployed to all 14 domain agents
-- CLAUDE_TEMPLATE.md updated to point to mail/PROTOCOL.md instead of inline instructions
+- CLAUDE_TEMPLATE.md updated to point to mail/PROTOCOL.md instead of inline instructions (now in `AGENTS/templates/`)
 - HAWK CLAUDE.md updated with pointer
 - Other agents' CLAUDE.md files still have old inline instructions (update during their migrations)
 
