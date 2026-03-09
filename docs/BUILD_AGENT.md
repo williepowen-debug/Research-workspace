@@ -34,7 +34,7 @@ ln -sf ~/.openclaw/workspace ~/.openclaw/agents/<name>/workspace/repo
 
 ## Step 3: Create CLAUDE.md
 
-Use `AGENTS/CLAUDE_TEMPLATE.md` as the base. Every agent MUST have:
+Use `AGENTS/templates/CLAUDE_TEMPLATE.md` as the base. Every agent MUST have:
 
 | Section | Required | Notes |
 |---------|----------|-------|
