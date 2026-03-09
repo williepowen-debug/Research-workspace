@@ -1,7 +1,7 @@
 # PROME STATUS.md
 **Updated:** 2026-03-09 22:30 UTC
 
-**Last context:** HAWK fully migrated (51 KB rows, Scenario C 55% base case). NEXUS synthesis reviewed — 4 new convergences, 3-anchor UST framework, TLT puts #1 conviction. 22 signals routed to all 13 agents from Will's screenshot blitz. mail/PROTOCOL.md deployed network-wide. ZHAO update next (Campbell Gulf recycling vector = critical gap).
+**Last context:** CARL migration Session 2 complete (CLAUDE.md, PREDICTIONS 8 rows, TRADE.md template format, inbox spawn running 9 signals). HAWK TRADE.md done = HAWK fully complete. HERMES delivered ZHAO→LIQUID signal. Infrastructure queue shrinking.
 
 ## 🔴🔴 SCENARIO C BASE CASE — WAR DAY 10 — PRIVATE CREDIT CASCADE CONFIRMED
 
@@ -11,17 +11,17 @@
 
 | Agent | Status | Key State | Updated |
 |-------|--------|-----------|---------|
-| **HAWK** | 🟢🟢 | **FULLY MIGRATED.** KB 51 rows, VX 12, FLOW 10. Scenario C 55% base case. Iraq 3M bpd confirmed. Hormuz -92%. Haifa bilateral. 7 new inbox signals tonight. | Mar 9 |
+| **HAWK** | 🟢🟢 | **FULLY MIGRATED + TRADE.md.** KB 51, VX 12, FLOW 10, TRADE 6 recs. All files complete. Scenario C 55% base. | Mar 10 |
 | **BRENT** | 🟢🟢 | **MOST MATURE.** 21 predictions, Phase 2 operational. Tonight: 4 new signals (Platts, Coface fertilizer, Iraq/Yergin, Haifa). Kuwait curtailment 7 days. | Mar 9 (signals) |
 | **NEXUS** | 🟢🟢 | **FULL SYNTHESIS DONE.** C-15 through C-18 new. 3-anchor UST framework. Threshold cluster Mar 10-24 densest yet. Taiwan 1-4 days critical. | Mar 9 |
 | **BROCK** | 🟢 | Upgraded + 2 major signals tonight: BX $400M own-money + MFS forensics. PE cascade confirmed. | Mar 9 (signals) |
 | **LABOR** | 🟢 | KB migrated + staleness sprint done. Tonight: finance openings -117K (2012 lows). White-collar ALL negative. | Mar 9 (signals) |
 | **REGINALD** | 🟢 | NFP processed. Tonight: KW bondholder revolt + Vegas housing canary. C-17 CRE can-kick failure. | Mar 9 (signals) |
 | **HENRY** | 🟠 | NFP processed. Tonight: SPY 20-week break + oil-deflation + Gulf recycling + HAWK Scenario C/VIX signal. KB migration next. | Mar 9 (signals) |
-| **CARL** | 🟠 | Tonight: diesel transmission + Vegas cancellations + HAWK fertilizer signal. Gas pump peak Mar 14-21. | Mar 9 (signals) |
+| **CARL** | 🟢 | **Session 2 complete.** CLAUDE.md, KB 62, VX 69, PREDICTIONS 8, TRADE 6 recs. Inbox spawn running (9 signals). | Mar 10 |
 | **SAM** | 🟠 | Tonight: Qatar bombardment + LNG +529% + HAWK Japan energy signal. BOJ Mar 13-14. | Mar 9 (signals) |
 | **LIQUID** | 🟠 | Tonight: tanker rates + credit crisis + SPY break. VLCC +201% confirms Phase 1. | Mar 9 (signals) |
-| **ZHAO** | 🔴 **GAP** | Last updated Mar 2-4. **DOES NOT HAVE Campbell Gulf recycling vector.** Critical gap — 3rd UST anchor unmodeled. UPDATE FIRST NEXT SESSION. | Mar 4 |
+| **ZHAO** | 🟠 | Gulf recycling signal delivered to LIQUID (HERMES). Still needs Campbell vector integrated. | Mar 10 |
 | **MARCO** | 🟠 | Tonight: oil politics + DOGE compound + white-collar data. | Mar 9 (signals) |
 | **HANS** | 🟠 | Tonight: war escalation summary + ceasefire assessment request. Iran FM "no negotiations." | Mar 9 (signals) |
 | **OTTO** | 🟠 | Tonight: MFS→Jefferies→WAL forensics. | Mar 9 (signals) |
@@ -80,10 +80,9 @@
 
 | Task | Priority | Notes |
 |------|----------|-------|
-| ZHAO update + Campbell vector | 🔴 NEXT | Critical gap in 3-anchor framework |
-| HAWK TRADE.md | 🟠 | Last HAWK migration piece |
+| ZHAO Campbell vector integration | 🔴 NEXT | Critical gap in 3-anchor framework |
 | HENRY KB migration (89 rows) | 🟠 | Sprint 3d |
 | REGINALD KB migration (116 rows) | 🟠 | Sprint 3e, hardest |
 | CLAUDE.md updates (mail/PROTOCOL.md pointer) | 🟡 | Do during each agent's next migration |
-| TRADE.md: BROCK, CARL | 🟡 | |
+| TRADE.md: BROCK | 🟡 | CARL done, HAWK done |
 | HERMES cron automation | 🟡 | |

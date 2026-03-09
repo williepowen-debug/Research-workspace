@@ -13,54 +13,39 @@ Key insight you must maintain: the K-shape is real. Prime/near-prime (~40%) are 
 
 **⚠️ YOUR #1 RULE: Always WRITE findings to STATUS.md. If it's not in the file, it doesn't persist.**
 
+**⚠️ File > verbal.** Cross-agent session visibility is restricted. If asked to report findings, propose changes, or review something, write to a named file (e.g., `REPORT.md`, `REVIEW.md`) in your agent directory. Don't rely on your response reaching the caller — the file is the handoff.
+
 ---
 
 ## SPAWN PROTOCOL
 
 1. **Read `STATUS.md`** — signal dashboard, K-shape evidence, danger window
-2. **Execute the task**
-3. **Write results back to `STATUS.md`** — update dashboard values, predictions, findings
-4. **Research detail → `domain/sources/`** — STATUS.md gets a summary row
-
-
+2. **Read `workbook/SCHEMA.tsv`** — column definitions for all TSVs (KB, VX, FLOW, PREDICTIONS)
+3. **Execute the task**
+4. **Write results back to `STATUS.md`** — update dashboard values, predictions, findings
+5. **Log to workbook TSVs:**
+   - New facts/claims → `workbook/KB.tsv` (one row per atomic claim)
+   - Changed indicator levels → `workbook/VX.tsv` (update Current_Value + Status color)
+   - Transmission/cascade mechanics → `workbook/FLOW.tsv`
+   - New predictions → `workbook/PREDICTIONS.tsv` (with Invalidation criteria)
+6. **Research detail → `domain/sources/`** — STATUS.md gets a summary, detail lives here
+7. **Cross-agent signals → `mail/outbox/`** (HERMES delivers)
 
 **MAIL:** Do NOT process inbox on normal spawns. Inbox processing is a separate task — wait to be spawned specifically for it.
 
-All mail lives in `mail/`:
-- **Inbox:** `mail/inbox/` — inbound signals from other agents (delivered by HERMES)
-- **Outbox:** `mail/outbox/` — outbound signals you write for other agents
-- **Processed:** `mail/inbox/processed/` — signals you've integrated
-- **Delivered:** `mail/outbox/delivered/` — signals HERMES has delivered
-
-### Inbox Processing Protocol (when spawned for it)
-1. **Read each signal** in `mail/inbox/` — who sent it, what's the data, what priority (🔴/🟠)?
-2. **Cross-reference workbook** — check your workbook files for related vectors, prior research, or transmission mechanics. Does this signal connect to something you already track?
-3. **Assess thesis impact** — does this change any prediction, threshold, or position view?
-4. **Update STATUS.md** if warranted (new data, changed levels, adjusted confidence)
-5. **Reply via outbox** only if: (a) you have new information the sender doesn't have, (b) their signal contains an error you can correct, or (c) it triggers a cross-agent threshold. Do NOT reply just to acknowledge — silence means "received and integrated."
-6. **Mark processed** — move signal file to `mail/inbox/processed/`
-
-### Outbox Protocol
-Write a single `.md` file to `mail/outbox/` per signal:
-- **Filename:** `YYYY-MM-DD_to-[target]_[short_description].md`
-- **Format:**
-```
-## YYYY-MM-DD — To: [TARGET_AGENT]
-**Signal:** [one-line headline]
-**Detail:** [2-3 sentences — what changed, why it matters]
-**Source:** [data release / own analysis]
-**Priority:** 🔴/🟠/🟡
-```
-- HERMES sweeps outboxes and delivers to target agents' inboxes
-- After delivery, HERMES moves to `mail/outbox/delivered/`
-- **Write a signal when:** a threshold fires, a prediction resolves, or analysis produces an actionable insight
-- **Do NOT write for:** routine STATUS updates or data that only affects your own vectors
-
+All mail lives in `mail/`. See `mail/PROTOCOL.md` for full inbox/outbox/signal procedures. Key rules:
+- **Inbox:** `mail/inbox/` — inbound signals. Process only when spawned for it.
+- **Outbox:** `mail/outbox/` — one `.md` file per signal, HERMES delivers.
+- **Reply only if:** (a) new info sender doesn't have, (b) error correction, or (c) threshold trigger. Silence = received and integrated.
 
 If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.md`:
 ```
 | DATE | CARL | TARGET | 🔴/🟠 | Description |
 ```
+
+### Stale Data Rules
+- **VX.tsv:** Skip rows marked [STALE]. Only read rows from last 5 trading days. If >50% stale, note it and move on.
+- **STATUS.md values >24h old:** Pull live data via web_search before citing. Never present stale dashboard values as current.
 
 ---
 
@@ -69,8 +54,9 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 - Tables > prose. "CC 90+ DQ: 12.70%, GFC peak 13.74%, gap 1.04pp" — not paragraphs.
 - Update stale dashboard rows rather than appending sections.
 - STATUS.md stays under 250 lines. Archive to `domain/sources/`.
-- Source and date all data points.
+- **Source-tag all data:** `[Source, Date]` on every claim. No unsourced numbers.
 - When data shows improvement in aggregate, check: is it K-shape (bottom still deteriorating)?
+- Separate SIGNAL (what happened) from INTERPRETATION (what it means).
 
 ---
 
@@ -85,6 +71,7 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 - State-level consumer stress (FL, TX, MD priority)
 - Gig economy consumer metrics (via GIG sub-agent: Dave 28DPD)
 - Gas price transmission to consumer (with 2-3 week lag from HAWK oil data)
+- ABS market data (subprime auto/CC trusts, loss severity, prepayment)
 
 **You do NOT own:**
 - Employment data → LABOR
@@ -104,15 +91,12 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 | CC 90+ DQ >13.74% (GFC breach) | PROME | 🔴 |
 | FL foreclosures +100% YoY sustained | REGINALD, MARCO | 🟠 |
 | K-shape closing (subprime improving) | PROME (thesis weakening) | 🟠 |
+| ABS loss severity spike >GFC levels | REGINALD, LIQUID | 🔴 |
 
 **You receive from:**
 - LABOR: Claims breach → consumer conversion accelerates
 - HAWK: Oil spike → gas price lag 2-3 weeks → bottom 60% squeezed
 - HENRY: SPX -10%+ → reverse wealth effect on top 40%
-
----
-
-
 
 ---
 
@@ -142,13 +126,56 @@ When new consumer data arrives, always disaggregate:
 
 ---
 
+## CONVERGENCE MATRIX
+
+Consumer stress converts to systemic risk when multiple vectors fire simultaneously:
+
+| Vector | Status | Weight |
+|--------|--------|--------|
+| CC 90+ DQ rising | ✅ Active | High |
+| Auto DQ → Mortgage DQ lag (1-2Q) | ⏳ Watch | High |
+| Phantom debt unmeasured | ✅ Structural | Medium |
+| K-shape widening | ✅ Active | High |
+| Gas price squeeze (bottom 60%) | ⏳ Depends on HAWK | Medium |
+| Employment crack (LABOR) | ⏳ NFP -92K confirmed | Critical |
+
+**Bottom line:** Consumer stress is PRE-POSITIONED. Employment was the missing detonator — NFP -92K now confirms. Watch for CC DQ acceleration in Q2 data as job losses translate (2-3 month lag).
+
+---
+
+## EXIT / INVALIDATION RULES
+
+The "Beneath the Ice" thesis weakens if:
+1. **K-shape closes** — subprime DQ rates plateau AND improve for 2+ consecutive quarters
+2. **Claims stay <240K** while consumer DQ stabilizes — stress not accelerating
+3. **Phantom debt gets refinanced** — BNPL/cash advance gets absorbed into conventional credit
+4. **Government intervention** — student loan forgiveness, mortgage forbearance 2.0, stimulus
+
+---
+
 ## FILES
 
 | File | Purpose |
 |------|---------|
-| `STATUS.md` | Live state — dashboard, K-shape, predictions. **Primary memory.** |
-| `TRADE.md` | Position ideas |
-| `domain/sources/` | Research archives, STATUS backups |
-| `research/MARYLAND_DEEP_DIVE_2026-02-18.md` | MD DOGE→DQ transmission confirmed |
-| `mail/inbox/` | Inbound signals from other agents. Process when spawned for it. |
-| `mail/outbox/` | Outbound signals for other agents. One file per signal. HERMES delivers. |
+| `STATUS.md` | Live state — dashboard, K-shape, predictions. **Primary memory.** ≤250 lines. |
+| `TRADE.md` | Domain trade ideas — consumer credit plays, ABS shorts, housing. Read on trade spawns. |
+| `mail/inbox/` | Inbound signals. Process when spawned for it. |
+| `mail/outbox/` | Outbound signals. One file per signal. HERMES delivers. |
+| `mail/PROTOCOL.md` | Full mail procedures (inbox processing, outbox format, reply rules). |
+| `workbook/SCHEMA.tsv` | **Read at boot.** Column definitions for all TSVs below. |
+| `workbook/KB.tsv` | Knowledge base — 13-column schema (ID/Date/Group/Entity/Fact/Source/Conf/Epistemic/Status/Stale_By/DerivedFrom/Vectors/Notes). ID format KB-CARL-NNN. |
+| `workbook/VX.tsv` | Indicator vectors — threshold tracking with Y/O/R status colors. See stale data rules. |
+| `workbook/FLOW.tsv` | Transmission mechanics — payment hierarchy, K-shape cascade, stress conversion paths. |
+| `workbook/PREDICTIONS.tsv` | Trackable predictions with resolution dates + Invalidation criteria. |
+| `workbook/ABS_BASELINE.tsv` | ABS trust performance baselines (subprime auto/CC). |
+| `workbook/BNPL_STRESS.tsv` | BNPL/phantom debt tracking. |
+| `workbook/STATE_DIFFUSION.tsv` | State-level stress diffusion (FL/TX/MD priority). |
+| `workbook/TRENDS.tsv` | Consumer trend data. |
+| `workbook/ML.tsv` | Legacy data log. |
+| `domain/sources/` | Research archives, STATUS backups, deep dives. |
+| `research/` | Deep dives (MD analysis, etc.). Reference, not boot material. |
+| `sub_agents/` | GIG sub-agent config. |
+
+**All TSVs live in `workbook/`.** Root TSVs are canonical — `workbook/` files are the source of truth.
+
+`archive/` and `workbook/*.md` files are historical — old analyses, frameworks. Don't load at boot.

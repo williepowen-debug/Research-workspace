@@ -4,14 +4,22 @@
 
 ---
 
-## Last Session: HAWK complete + NEXUS synthesis + mail/PROTOCOL.md rollout (Sun Mar 9)
+## Last Session: CARL Session 2 + HAWK TRADE.md + HERMES (Mon Mar 10 ~02:30 UTC)
 
-### IMMEDIATE NEXT SESSION:
-1. **CARL migration** — Full plan at `PROME/CARL_MIGRATION_PLAN.md`. READ FIRST. Two sessions: Session 1 = STATUS rewrite + VX migration + housekeeping. Session 2 = KB + PREDICTIONS + CLAUDE.md + TRADE.md + spawn (9 inbox signals).
-2. **HERMES run** — ZHAO outbox has 1 signal for LIQUID (Gulf recycling / combined anchor upgrade)
-3. **HAWK TRADE.md** — last piece of full HAWK migration. Use `AGENTS/templates/CLAUDE_TEMPLATE.md` TRADE.md section as template.
-4. **Monday market actions** — SSB trim 50%, TLT puts ADD, VIX call spread ADD, LNG spread evaluate, WAL confirm, Taiwan check, live data pulls
-5. **HENRY KB migration** (Sprint 3d, 89 rows)
+### COMPLETED THIS SESSION:
+- ✅ CARL CLAUDE.md rewritten to template standard
+- ✅ CARL PREDICTIONS.tsv: 2→8 rows, Invalidation column, CRL-02 CONFIRMED
+- ✅ CARL TRADE.md: 6 recs, template format, cross-agent deps
+- ✅ HAWK TRADE.md: 6 recs — HAWK migration FULLY COMPLETE
+- ✅ HERMES: ZHAO→LIQUID signal delivered
+- ⏳ CARL inbox spawn running (9 signals)
+
+### IMMEDIATE NEXT:
+1. **CARL inbox results** — waiting on spawn, then review RECEIPT.md
+2. **Monday market actions** — SSB trim 50%, TLT puts ADD, VIX call spread ADD, LNG spread evaluate, WAL confirm, Taiwan check, live data pulls
+3. **ZHAO Campbell vector integration** — critical gap in 3-anchor framework
+4. **HENRY KB migration** (Sprint 3d, 89 rows)
+5. **BROCK TRADE.md** — last agent without one
 
 ### ZHAO Migration — FULLY COMPLETE ✅
 All phases done. ZHAO is now the gold standard alongside HAWK:

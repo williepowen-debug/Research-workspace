@@ -1,5 +1,5 @@
 # CARL STATUS
-**Updated:** 2026-03-10 03:00 UTC
+**Updated:** 2026-03-09 23:00 UTC (inbox processing)
 **Overall Status:** 🔴 RED — Subprime Auto BREACHED, Gas Squeeze BASE CASE, UI Exhaustion Cliff Mar 24
 
 **Summary:** Consumer fragility at extreme levels. Subprime auto 60+ DQ **7.1% — ALL-TIME RECORD, RED threshold BREACHED**. Fannie MF DQ 0.74% (6bps from GFC peak). Gas squeeze Mar 14-21 CONFIRMED (Brent $90, Hormuz closed Day 10). UI exhaustion cliff Mar 24 (FL WARN cohorts). Stagflation trap: PCE 2.9% + oil spike + Fed frozen = no policy backstop. K-shape extreme: subprime 7.1% vs prime 0.4% (17.75x gap). NFP -92K confirms employment detonator ACTIVE.
@@ -27,6 +27,7 @@
 | Freddie MF DQ | **0.48%** | 🟠 | Highest in 21 years | Freddie Mac |
 | Foreclosures Q4 | **58,140** | 🟠 | +41% YoY, target 70K/qtr | NY Fed/ATTOM |
 | FL Foreclosures YoY | **+190%** | 🔴 | Cure rate collapsed | ATTOM |
+| Las Vegas Home Cancellations | **19%** | 🟠 | Highest in US; canary metro | Redfin Dec 2025 |
 | FHA DQ | **11.52%** | 🔴 | K-shape: 11.52% vs Conv 2.89% | MBA Q4 2025 |
 
 ### Macro / Stress
@@ -84,7 +85,7 @@
 | Window | Cohort | Trigger | Status |
 |--------|--------|---------|--------|
 | **NOW** | Federal contractors (DOGE) | 273 contracts/$5.1B terminated | 🔴 ACTIVE |
-| **Mar 14-21** | Bottom 60% consumers | Gas pump price squeeze | 🔴 BASE CASE |
+| **Mar 14-21** | Bottom 60% consumers | Gas pump price squeeze (ULSD parabolic → pump LIVE; revised peak Mar 18-22) | 🔴 BASE CASE CONFIRMED |
 | **Mar 24** | FL WARN cohort | UI exhaustion Wave 1 | 🟠 IMMINENT |
 | **Apr 26** | FL WARN peak | Consumption cliff | 🟠 APPROACHING |
 | **Q2** | Hourly/gig + broad private | Hiring freeze → WARN pipeline | 🟠 ON TRACK |
@@ -115,7 +116,8 @@
 | LABOR | NFP -92K, claims 213K | Employment detonator approaching | 🔴 ACTIVE |
 | LABOR | FL WARN exhaustion Mar 24 | Consumption cliff → May DQ spike | 🟠 IMMINENT |
 | HAWK | Brent $90, Hormuz Day 10 | Gas squeeze Mar 14-21 | 🔴 BASE CASE |
-| HAWK | Fertilizer shock (13% global from Gulf) | Food CPI 6-12 weeks | 🟠 NEW |
+| HAWK | Fertilizer shock (13% global from Gulf) | Food CPI 6-12 weeks; FLOW-CARL-9.01 modeled | 🟠 ACTIVE |
+| HAWK | ULSD rack price parabolic Mar 2026 | Pricing mechanism active → gas pump Mar 14-21 confirmed | 🔴 CONFIRMED |
 | HENRY | VIX elevated, SPY <20-wk | Reverse wealth effect 6-8wk lag | 🟠 ACTIVE |
 | REGINALD | FL triple squeeze | FL DQ to outpace national Q2 | 🟠 ON TRACK |
 | BROCK | Blue Owl + BCRED gates | Middle-market cuts May-Jun | 🟠 ON TRACK |
