@@ -100,7 +100,19 @@
 
 | Date | Signal | Source | Action |
 |------|--------|--------|--------|
-| | | | |
+| Mar 8 | WTI $107, +60% monthly (record), +34.5% weekly (record since '82) | Kobeissi, 247wallst | Routed HAWK/BRENT/SAM |
+| Mar 8 | Global bond selloff: AU +13, KR +13, UK +10, FR +7, JP +5, US 10Y 4.187% | @infraa_, Walter Bloomberg | Routed HENRY/SAM. Three-anchor LIVE. |
+| Mar 8 | GDPNow 3.0%→2.1% in 4 days | @LemonSturgis | Routed HENRY/CARL |
+| Mar 8 | Khamenei replaced by hardliner son Mojtaba | @LemonSturgis | Routed HAWK/HANS |
+| Mar 8 | US missile struck school, 175 dead (NYT video) | @FirstSquawk/NYT | Routed HAWK/HANS |
+| Mar 8 | WSJ: desalination plants in war | WSJ | Routed HAWK |
+| Mar 8 | EndGame Macro: demand destruction framing entering mainstream | @onechancefr | Routed HENRY/BRENT |
+| Mar 8 | 1970s CPI overlay tracking current cycle | Chart on X | Routed HENRY/NEXUS |
+| Mar 8 | Gas $2.95→$3.40/wk, diesel $4.30-4.50 | AAA, @LemonSturgis | Routed CARL |
+| Mar 8 | OFAC 30-day waiver: India can buy Russian oil | @LemonSturgis | Routed BRENT |
+| Mar 8 | India urea: 35-36M tonnes vs 28-29M capacity, policy-engineered N dependency | @AvadhanyGirish (4-post thread) | Routed BRENT/MARCO (C-18) |
+| Mar 8 | S&P futures -1.9%, Dow -1,100, VIX 29.5 | Yahoo/CNBC | Routed HENRY |
+| Mar 8 | Trump: "oil prices will drop rapidly when Iran threat over" | @realDonaldTrump | Watch for SPR signal |
 
 ---
 
