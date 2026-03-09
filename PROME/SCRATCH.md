@@ -1,27 +1,29 @@
 # SCRATCH — Ephemeral Working Memory
 
-**Updated:** 2026-03-09 ~6:00 PM ET
+**Updated:** 2026-03-09 ~6:00 PM ET (evening session ~10 PM UTC)
 
 ---
 
 ## Handoff
-**Last context:** Full Monday — AM ops (4 Gemini docs, 18 signals, 6 check-ins, 3 sells) + PM trading/research (fertilizer/CF thesis, stagflation lag research, chart analysis, 5 new positions). CPI tomorrow is the catalyst.
+**Last context:** Evening research session. Deep-dived Russia sanctions easing (Perplexity + Kimi), triaged 9 market screenshots (oil 5-sigma crash, airlines, fertilizer map, Hormuz takeover), analyzed Eisman Ep 49 transcript. Key finding: oil crash is technical unwind, not fundamental repricing. SoFi CNL trigger is new leading indicator.
 
 **Next tide:**
-1. **CPI Tuesday 8:30 AM ET** — hot CPI likely (65%). TLT puts test immediately. CF $115C May entry ($8.00-8.50).
-2. **NEXUS synthesis** — all agents loaded with fresh signals, still queued
-3. **CARL ABS sprint** — 14 PENDING VX rows, Experian Q4 published
-4. **Taiwan LNG + Oil $100 prompts** — Will to run through Gemini (🔴 urgent)
-5. **VIX call spread + LNG spread** — green day entries
-6. **Thursday Mar 12: Initial claims** — UCFE framework ready, 3 scenarios in LABOR
-7. **Friday Mar 13-14: BOJ + JOLTS + TIC Mar 15** — dense catalyst cluster
+1. **CPI Tuesday 8:30 AM ET** — 🔴🔴 hot CPI likely (65%). TLT puts test immediately.
+2. **Prompt #2 results** — oil shock historical timelines (1973/1979). Will is running through LLMs. Analyze when returned.
+3. **Prompts #3-5** — fertilizer mechanics/CF, tanker rates vs crude, Hormuz seizure precedents. All saved in PROMPTS.md, ready to run.
+4. **Taiwan LNG prompt** — STILL UNRUN. 🔴🔴 Most time-sensitive item.
+5. **NEXUS synthesis** — all agents loaded with fresh signals, still queued
+6. **CARL ABS sprint** — 14 PENDING VX rows + SoFi CNL signal just routed
+7. **Thursday Mar 12: Initial claims** — UCFE framework ready
+8. **Friday Mar 13-14: BOJ + JOLTS + TIC Mar 15**
 
 **Open questions:**
 - KRE EOD put details (strike/expiry) — Will to confirm
-- LABOR/CARL check-in reports never received (spawned but no output seen)
 - Senate DHS vote outcome unknown
+- Oil crash impact on USO re-entry timing — research says buying opportunity IF Hormuz stays closed
+- CF $115C May entry — fertilizer prompt (#3) needed before entry
 
-**Rhythm note:** Will developing strong instincts — fertilizer second-order play, multi-LLM research pipeline, trim discipline. System running hot with fresh signals across all 13 agents.
+**Rhythm note:** Will invented the "What Should I Be Asking You?" meta-prompt — powerful inversion of research flow. Saved as reusable. Multi-LLM pipeline (Perplexity + Kimi + ChatGPT) producing excellent cross-verified research. Eisman is complacent on private credit — bullish for our shorts.
 
 ---
 
