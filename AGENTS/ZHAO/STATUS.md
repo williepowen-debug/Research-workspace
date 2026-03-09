@@ -67,7 +67,7 @@
 **Near-term:** NFP -92K = USD weakness → CNY/KRW strengthening → TEMPORARILY reduces anchor selling pressure. Watch for reversal.
 **Structural:** All four mechanisms are independent. Even if one eases, others persist. TLT puts thesis (NEXUS #1 conviction) = demand collapse, not rate trade.
 
-*Detail: `archive/STATUS_pre_migration_20260309.md` (Korea section), `domain/sources/LNG_CRISIS_CHINA_ANALYSIS_MAR2.md`*
+*Detail: `archive/STATUS_pre_migration_20260309.md` (Korea section), `sources/LNG_CRISIS_CHINA_ANALYSIS_MAR2.md`*
 
 ## 🟠 SITUATION 2: LGFV/Banking Slow Burn
 
