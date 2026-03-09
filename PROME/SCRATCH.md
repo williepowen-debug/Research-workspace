@@ -7,10 +7,11 @@
 ## Last Session: HAWK complete + NEXUS synthesis + mail/PROTOCOL.md rollout (Sun Mar 9)
 
 ### IMMEDIATE NEXT SESSION:
-1. **HERMES run** — ZHAO outbox has 1 signal for LIQUID (Gulf recycling / combined anchor upgrade)
-2. **HAWK TRADE.md** — last piece of full HAWK migration. Use `AGENTS/templates/CLAUDE_TEMPLATE.md` TRADE.md section as template.
-3. **Monday market actions** — SSB trim 50%, TLT puts ADD, VIX call spread ADD, LNG spread evaluate, WAL confirm, Taiwan check, live data pulls
-4. **HENRY KB migration** (Sprint 3d, 89 rows)
+1. **CARL migration** — Full plan at `PROME/CARL_MIGRATION_PLAN.md`. READ FIRST. Two sessions: Session 1 = STATUS rewrite + VX migration + housekeeping. Session 2 = KB + PREDICTIONS + CLAUDE.md + TRADE.md + spawn (9 inbox signals).
+2. **HERMES run** — ZHAO outbox has 1 signal for LIQUID (Gulf recycling / combined anchor upgrade)
+3. **HAWK TRADE.md** — last piece of full HAWK migration. Use `AGENTS/templates/CLAUDE_TEMPLATE.md` TRADE.md section as template.
+4. **Monday market actions** — SSB trim 50%, TLT puts ADD, VIX call spread ADD, LNG spread evaluate, WAL confirm, Taiwan check, live data pulls
+5. **HENRY KB migration** (Sprint 3d, 89 rows)
 
 ### ZHAO Migration — FULLY COMPLETE ✅
 All phases done. ZHAO is now the gold standard alongside HAWK:
