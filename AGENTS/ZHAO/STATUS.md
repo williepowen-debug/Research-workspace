@@ -1,8 +1,8 @@
 # ZHAO STATUS
-**Updated:** 2026-03-09 23:00 UTC
-**Overall Status:** 🔴 CRITICAL — Three-Anchor UST Selling / LNG Crisis / Korea Crash / Gulf Recycling Gap
+**Updated:** 2026-03-09 23:45 UTC
+**Overall Status:** 🔴 CRITICAL — Four-Anchor UST Selling / LNG Crisis / Korea Crash / Gulf Recycling NOW MODELED
 
-**Summary:** Three independent UST selling anchors now active: Japan (~$20-30B/mo), China/PBOC (~$5-10B/mo stealth), Korea/BoK (~$5-15B/mo, USD/KRW breached 1,500). Combined $30-55B/month. NEXUS identified a FOURTH anchor: Gulf petrodollar recycling collapse (~$25-50B/quarter reduction) — not yet modeled here. KOSPI worst 2-day crash in history (-18-19%). Hormuz -92% transits. NFP -92K temporarily suppressed USD/CNY pressure (estimated ~6.85), pushing 7.30 timeline out. Belgium $477.3B approaching $500B threshold — next TIC print Mar 15.
+**Summary:** FOUR independent UST selling/demand anchors now active: Japan (~$20-30B/mo), China/PBOC (~$5-10B/mo stealth), Korea/BoK (~$5-15B/mo, USD/KRW breached 1,500), Gulf petrodollar recycling collapse (~$10-17B/mo = $25-45B/qtr). Combined **$40-72B/month** (was $30-55B). Gulf anchor is INVOLUNTARY — not policy — driven by Hormuz -92% + Iraq 70% shut-in. KOSPI worst 2-day crash in history (-18-19%). NFP -92K temporarily suppressed USD/CNY pressure (estimated ~6.85), pushing 7.30 timeline out. Belgium $477.3B approaching $500B threshold — next TIC print Mar 15.
 
 ---
 
@@ -15,8 +15,8 @@
 | Belgium TIC (proxy) | **$477.3B** | >$500B = RED | 🟠 ORANGE | [CONF] TIC Dec 2025 |
 | Belgium YoY Growth | **~26%** | >35% = RED | 🟠 ORANGE | [CONF] TIC Dec 2025 |
 | True China Holdings (adj) | **~$1.85T** | <$1.6T = RED | 🟢 STABLE | [CONF] Setser/CFR |
-| Combined Anchor Selling | **$30-55B/mo** | — | 🔴 ACTIVE | [EST] JP+CN+KR |
-| Gulf Recycling Reduction | **⚠️ NOT MODELED** | — | 🔴 GAP | Campbell/NEXUS C-15 |
+| Combined Anchor Selling | **$40-72B/mo** | — | 🔴 ACTIVE | [EST] JP+CN+KR+Gulf |
+| Gulf Recycling Reduction | **$25-45B/qtr (~$12B/mo)** | >$50B/qtr = ZHA-08 fires | 🔴 ACTIVE | [EST] KB-ZHAO-064 |
 
 ### Currency / HK Peg
 | Metric | Value | Threshold | Status | Source |
@@ -51,9 +51,9 @@
 | 7 | HK Peg Channel | 🟡 2 | AB $53.8B stable. HIBOR-SOFR at ORANGE. Mechanism understood. | AB <$45B or HIBOR-SOFR >-300bps = 3 |
 | 8 | LNG/Energy Shock | 🔴 4 | Qatar LNG halted. China least exposed (COSCO/PICC) but macro transmission severe. | Taiwan LNG exhaustion = 5 |
 | 9 | USD/CNY Defense | 🟡 2 | ~6.85. NFP -92K gave PBOC breathing room. 7.30 pushed out. | USD reversal + DXY >103 = 3 |
-| 10 | Gulf Recycling Collapse | 🔴 4 | Campbell identified. $200-300B/yr recycling threatened. NOT YET IN ZHAO MODEL. | Modeled + quantified = confirmed |
+| 10 | Gulf Recycling Collapse | 🔴 5 | MODELED: $25-45B/qtr reduction. Saudi likely net seller. INVOLUNTARY 4th anchor. FLOW-ZHAO-12 ACTIVE. | Duration >2 quarters = escalate thesis urgency |
 
-**Total: 34/50 — 🔴 CRITICAL. Three vectors at max (5), four at RED (4), three at ORANGE (3). Gulf recycling is the critical gap — 4th anchor unmodeled.**
+**Total: 35/50 — 🔴 CRITICAL. Three vectors at max (5), five at RED (4→one now 5), three at ORANGE (3). Gulf recycling gap CLOSED — now modeled and confirmed as 4th anchor.**
 
 ---
 
@@ -62,7 +62,7 @@
 **Japan:** ~$20-30B/month. JERA LNG exposure. BOJ Mar 13-14. Energy costs exploding.
 **China:** ~$5-10B/month stealth via state banks. PBOC not forced to defend CNY at 6.85 (NFP relief). Q2 2026 <$650B call may slip to Q3.
 **Korea:** ~$5-15B/month. USD/KRW >1,500 (17-year low). BoK selling CONFIRMED. KOSPI -18-19% two-day. Samsung/Hynix = HBM contagion to US tech.
-**Gulf (UNMODELED):** ~$200-300B/yr recycled into USTs/equities. Hormuz -92% → export revenue collapsing → involuntary reduction in Treasury demand. $25-50B/quarter at risk. Campbell "Strip vs Strait" framing.
+**Gulf (MODELED — NEW):** ~$25-45B/quarter reduction ($12B/mo central). $250B/yr normally recycled; Hormuz -92% + Iraq 70% shut-in = 60-80% export revenue collapse → recycling evaporates. Saudi at/below $80/bbl fiscal breakeven → net SWF drawdown possible. INVOLUNTARY. Campbell "Strip vs Strait." ZHA-08 at 60% confidence (>$50B/qtr threshold).
 
 **Near-term:** NFP -92K = USD weakness → CNY/KRW strengthening → TEMPORARILY reduces anchor selling pressure. Watch for reversal.
 **Structural:** All four mechanisms are independent. Even if one eases, others persist. TLT puts thesis (NEXUS #1 conviction) = demand collapse, not rate trade.
@@ -149,4 +149,4 @@ RP-ZHAO-1 (Belgium proxy) | RP-ZHAO-2 (LGFV/banking) | RP-ZHAO-3 (PBOC playbook)
 
 ## BOTTOM LINE
 
-Three independent UST selling anchors are now active (Japan, China, Korea) at $30-55B/month combined — and a fourth (Gulf petrodollar recycling collapse) has been identified but NOT yet modeled in ZHAO. This is the critical gap: Campbell's "Strip vs Strait" shows Gulf states recycling $200-300B/yr into US assets, and that flow is evaporating as Hormuz shuts down oil exports. NFP -92K temporarily relieved pressure by weakening USD (PBOC doesn't need to defend CNY at 6.85), but this is a reprieve, not a resolution — all structural mechanisms remain intact. Next catalyst: Mar 15 TIC print (Belgium $500B watch) and BOJ Mar 13-14 (Japan anchor).
+**Four independent UST selling/demand anchors now active** at combined **$40-72B/month**: Japan ($20-30B), China ($5-10B stealth), Korea ($5-15B BoK defense), Gulf petrodollar recycling collapse ($10-17B/mo = $25-45B/qtr). The Gulf anchor is now MODELED — Campbell's "Strip vs Strait" thesis quantified: Hormuz -92% + Iraq 70% shut-in collapses export revenue 60-80%, recycling evaporates involuntarily. Saudi likely net SWF drawdown at these revenue levels. NFP -92K temporarily relieved pressure (PBOC not defending CNY at 6.85), but all four structural mechanisms remain intact. Combined selling estimate upgraded from $30-55B to $40-72B/mo. Next catalyst: Mar 15 TIC print (Belgium $500B watch) and BOJ Mar 13-14.

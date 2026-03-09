@@ -265,6 +265,50 @@ Default: **F6** (cannot judge either dimension). Every new, unverified claim sta
 
 ---
 
+## TRADE.md (Required)
+
+Every agent maintains a `TRADE.md` in their root directory. This is the agent's answer to: **"What trades does my domain support, and why?"**
+
+Agents don't know the full portfolio. They surface trade ideas from their domain with domain-specific evidence. PROME synthesizes across agents.
+
+**Required sections:**
+
+### Active Recommendations
+
+Table format:
+
+| # | Trade | Direction | Conviction (1-5) | Domain Rationale | Entry Signal | Exit Signal | Last Updated |
+|---|-------|-----------|-------------------|-----------------|-------------|-------------|-------------|
+
+**Rules:**
+- Conviction is domain-only (agent doesn't know cross-agent convergence — that's PROME's job)
+- Domain Rationale = 1-2 sentences with specific data from YOUR vectors/KB
+- Entry Signal = what THIS agent would want to see before entering (not price levels — domain catalysts)
+- Exit Signal = what would make THIS agent say "my domain no longer supports this trade"
+- Max 8 active recommendations. If you have more, rank and cut.
+
+### Domain Catalysts
+
+Upcoming events from YOUR calendar that affect active recommendations. Table:
+
+| Date | Event | Trades Affected | Expected Impact |
+|------|-------|-----------------|-----------------|
+
+### Cross-Agent Dependencies
+
+Which other agents' signals strengthen or weaken your recommendations:
+
+| Trade | Strengthened By | Weakened By |
+|-------|----------------|-------------|
+
+### Rejected / Exited
+
+Trades considered but passed on, or previously active but removed. Keep the last 5 max. One-line each with reason.
+
+**Update cadence:** Review on every spawn. If a VX threshold crosses or a prediction resolves, check whether TRADE.md needs updating. Stale TRADE.md = worse than no TRADE.md.
+
+---
+
 ## BOTTOM LINE (Required)
 
 Every STATUS.md must end with a `## BOTTOM LINE` section — 2-4 sentences, plain language. This is the "if you read nothing else" summary. What's the state of your domain right now, what's the single most important thing happening, and what's next.

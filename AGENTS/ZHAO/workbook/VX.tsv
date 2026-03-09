@@ -29,6 +29,6 @@ VX-ZHAO-6.07	Feb 2026 Liquidity Gap ($B)	456	ORANGE	<100	>200	>350	>500	2026-02-
 VX-ZHAO-6.08	Debt Swap Coverage (%)	30	RED	>60	<50	<40	<30	2026-02-13	RP-ZHAO-2	10T swap covers only 30% of 34T debt gap.
 VX-ZHAO-6.09	S&P NPA Forecast (%)	5.1	YELLOW	<4.5	>5.0	>5.5	>6.0	2026-02-13	S&P	Current 5.1%, forecast 5.4-5.8% (2025-27).
 VX-ZHAO-6.10	CIPS Volume YoY (%)	43	ORANGE	<10	>20	>35	>50	2026-02-13	RP-ZHAO-2	$24T in 2024. Alternative rails growing fast.
-VX-ZHAO-7.01	Combined Anchor Selling ($B/mo)	30-55	RED	<10	>15	>30	>50	2026-03-06	Est JP+CN+KR	Three anchors active. Gulf 4th anchor NOT YET included.
-VX-ZHAO-7.02	Gulf Recycling Reduction	UNMODELED	GAP	—	—	—	—	2026-03-09	Campbell/NEXUS	$200-300B/yr recycled into USTs. Hormuz shutdown evaporating flow. CRITICAL GAP.
+VX-ZHAO-7.01	Combined Anchor Selling ($B/mo)	40-72	RED	<10	>15	>30	>50	2026-03-09	Est JP+CN+KR+Gulf	Four anchors active. Updated to include Gulf recycling reduction. Was $30-55B/mo (3-anchor).
+VX-ZHAO-7.02	Gulf Recycling Reduction ($B/qtr)	25-45	RED	<5	>10	>25	>40	2026-03-09	Campbell/KB-ZHAO-064	$250B/yr normally recycled. Hormuz -92% + Iraq 70% shut-in = $25-45B/qtr reduction (central $35B/qtr ≈ $12B/mo). INVOLUNTARY.
 VX-ZHAO-8.01	NPC GDP Target (%)	4.5-5	NOTED	>5.5	<5	<4.5	<4	2026-03-05	Li Qiang Mar 5	First downgrade since 2023. Record fiscal deficit ~4% GDP.
