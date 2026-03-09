@@ -420,6 +420,232 @@ direction. Cite the Experian report directly where possible.
 
 ---
 
+### ✅ Russia Sanctions Easing — Global Supply Impact — COMPLETED
+**Completed:** Mar 9 via Perplexity + Kimi. Net new supply 300-500K bpd over months. 70-80% relabeling. Russia at zero spare capacity. Crash is technical, not fundamental. Signal routed to HAWK.
+**Routes to:** HAWK, HENRY
+
+---
+
+### Oil Shock Historical Timelines — 1973-74 & 1979-80
+**Priority:** 🔴 | **Routes to:** HENRY, HAWK, FORGE
+**Status:** PROMPT GIVEN TO WILL — awaiting results
+**Best LLMs:** ChatGPT first (historical sector data), Perplexity second (source verification)
+```
+Walk me through the granular timeline of the 1973-74 Arab Oil Embargo 
+and 1979-80 Iranian Revolution oil shocks. I need the INTRA-CRISIS 
+price action, not just start-to-finish returns.
+
+For each episode:
+
+1. What was the initial price spike — date, magnitude, and trigger?
+
+2. Were there violent intraday or intra-week pullbacks DURING the 
+   crisis? If so, what caused them (diplomatic signals, SPR releases, 
+   demand destruction headlines, short squeezes unwinding)? What was 
+   the magnitude and how long before prices resumed climbing?
+
+3. What was the full timeline from initial spike to ultimate peak? 
+   How many months? Was it a straight line or a staircase pattern 
+   (spike → pullback → grind higher → spike again)?
+
+4. What happened to US equities (S&P 500/Dow) at each stage? 
+   Specifically:
+   a) During the initial oil spike
+   b) During mid-crisis oil pullbacks (did stocks rally?)
+   c) During the second leg higher in oil
+   d) The lag between oil peak and equity bottom
+
+5. What happened to US Treasury yields / bond prices at each stage?
+   Did bonds act as a safe haven or sell off (stagflation)?
+
+6. What happened to credit spreads (corporate bonds vs Treasuries)?
+   When did credit stress emerge relative to the oil shock — 
+   concurrent, lagging by weeks, or lagging by months?
+
+7. What happened to airline stocks specifically during each episode?
+   Any data on major carrier stock performance during the 1973-74 
+   and 1979-80 oil shocks?
+
+8. What happened to fertilizer/agricultural commodity prices during 
+   each episode? Was there a transmission lag from oil to food?
+
+9. How did each crisis END — what was the resolution catalyst, and 
+   how fast did oil prices retrace? Was the retracement gradual or 
+   a cliff?
+
+10. For the current March 2026 Iran/Hormuz crisis: based on these 
+    historical patterns, where are we in the typical oil shock 
+    timeline? If the pattern holds, what comes next — and over 
+    what timeframe?
+
+Focus on the SHAPE of the price action, not just the endpoints. 
+I'm trying to determine whether the March 9, 2026 intraday crash 
+(from ~$119 to $84, -30%) fits the mid-crisis pullback pattern 
+that occurred in previous oil shocks before the second leg higher.
+
+Cite sources with dates. Use specific price levels and dates 
+wherever possible.
+```
+
+---
+
+### Nitrogen Fertilizer Supply Mechanics — Gulf Dependency & CF Industries
+**Priority:** 🔴 | **Routes to:** HAWK, CARL
+**Status:** NOT YET STARTED
+**Best LLMs:** ChatGPT (sector depth), Perplexity (sourcing)
+**Why we need this:** CF $115C May entry pending. Don't understand production mechanics — can CF ramp (capacity-constrained = bigger price spike) or not (earnings story better but call thesis weaker)?
+```
+How does nitrogen fertilizer supply work when the Strait of Hormuz 
+is closed? I need the mechanical details, not just headlines.
+
+1. What percentage of global nitrogen fertilizer (urea, ammonia) 
+   production uses natural gas as feedstock? What is the cost 
+   relationship between natural gas prices and fertilizer prices?
+
+2. Gulf states (Qatar, Saudi, UAE, Oman, Iran) — what is their 
+   combined share of global urea and ammonia EXPORTS? Break down 
+   by country.
+
+3. With Hormuz closed since ~March 1 2026, how much nitrogen 
+   fertilizer capacity is physically stranded behind the strait?
+   Can any Gulf producers export via alternative routes (pipelines, 
+   Red Sea)?
+
+4. CF Industries specifically:
+   a) What is their total nitrogen production capacity (tons/year)?
+   b) What feedstock do they use and where does it come from?
+   c) Are they currently running at full capacity or do they have 
+      room to ramp?
+   d) What is their cost advantage vs Gulf producers in a high 
+      natural gas price environment?
+   e) How much does CF's earnings/share improve for every $50/ton 
+      increase in urea price?
+
+5. Can non-Gulf producers (CF, Nutrien, Yara, OCI) actually fill 
+   the gap if Gulf exports are offline for weeks/months? Or is the 
+   global system capacity-constrained?
+
+6. What is the timeline pressure? Northern Hemisphere spring 
+   planting requires fertilizer application by when? If fertilizer 
+   isn't available by [date], what happens to crop yields?
+
+7. What happened to CF Industries stock and earnings during the 
+   2022 Russia-Ukraine fertilizer disruption? What were urea prices 
+   then vs now? What was CF's stock price trajectory from Feb-Jun 
+   2022?
+
+8. Current urea spot prices (US Gulf, Middle East, Yuzhny) — 
+   current level vs pre-Hormuz (late Feb 2026). Percentage change.
+
+Cite sources with dates. I'm evaluating a CF Industries $115 call 
+option and need to understand the supply chain mechanics, not just 
+the headline narrative.
+```
+
+---
+
+### Tanker Rates vs Crude Oil Price — Historical Relationship
+**Priority:** 🟠 | **Routes to:** LIQUID, HAWK
+**Status:** NOT YET STARTED
+**Best LLMs:** Perplexity (sourced data), ChatGPT (sector)
+**Why we need this:** Own STNG (2 shares). WTI just crashed 30% but Hormuz is still closed. Need to know if tanker equities follow crude price (sentiment) or freight rates (fundamentals).
+```
+What happens to tanker rates and shipping stocks when crude oil 
+price crashes but physical supply disruption continues?
+
+1. Historical precedents: Find episodes where oil prices dropped 
+   sharply (>15%) while a physical chokepoint disruption was still 
+   active. What happened to:
+   a) VLCC spot rates
+   b) Suezmax and Aframax rates
+   c) Tanker stock prices (STNG, FRO, EURN, TNK, DHT)
+   d) The BDTI (Baltic Dirty Tanker Index)
+
+2. Are tanker rates driven primarily by:
+   a) Crude oil price level?
+   b) Ton-miles (distance × volume shipped)?
+   c) Fleet utilization / vessel availability?
+   d) Route disruptions (longer voyages = fewer available ships)?
+   Which factor has the highest correlation historically?
+
+3. Current situation: Hormuz transits are down 92%, routes are 
+   being diverted around the Cape of Good Hope, VLCC rates were 
+   +201% before today's oil crash. If crude drops another 10-20% 
+   but Hormuz stays closed:
+   a) Do tanker rates hold because ton-miles are still elevated?
+   b) Or do rates drop because lower crude price = less incentive 
+      to ship?
+
+4. Shadow fleet dynamics: 68% of Russian crude is carried by 
+   sanctioned shadow fleet vessels. If Russia sanctions ease and 
+   shadow fleet becomes legitimate, does this FREE UP vessel 
+   capacity (bearish tankers) or does it just relabel existing 
+   capacity (neutral)?
+
+5. What is the current orderbook for new tanker builds? How 
+   tight is the supply of available vessels? What is fleet age?
+
+6. Scorpio Tankers (STNG) specifically: what percentage of their 
+   revenue is spot vs time charter? How quickly does a rate change 
+   flow through to earnings?
+
+Cite sources with dates.
+```
+
+---
+
+### US Military Seizure of International Strait — Historical Precedents
+**Priority:** 🟡 | **Routes to:** HANS, HAWK
+**Status:** NOT YET STARTED
+**Best LLMs:** All four — novel question, want diverse perspectives
+**Why we need this:** Trump/CBS headline about "considering taking over the Strait of Hormuz" is being ignored due to oil crash. Could be the most consequential signal in the batch if real.
+```
+What are the historical precedents for a US president publicly 
+considering or executing military seizure/control of an 
+international maritime chokepoint?
+
+1. Has the US ever physically occupied or controlled a major 
+   international strait or canal? Include:
+   - Panama Canal (construction through handover)
+   - Suez Crisis (1956 — US role)
+   - Persian Gulf "tanker war" escort operations (1987-88)
+   - Any other relevant precedents
+
+2. For each precedent: what happened to oil prices, defense 
+   stocks, and regional currencies within 30/60/90 days of the 
+   announcement or action?
+
+3. What would "taking over the Strait of Hormuz" mean 
+   operationally? What military assets would be required? How 
+   long would it take? What are the risks (Iranian anti-ship 
+   missiles, mines, submarine threats)?
+
+4. Legal framework: what authority does a US president have to 
+   seize an international waterway? Does this require 
+   Congressional approval? UN Security Council? Or can it be 
+   done under existing war powers?
+
+5. If the US physically secures Hormuz:
+   a) Does Gulf oil flow resume immediately?
+   b) How long to clear mines and secure shipping lanes?
+   c) Does Iran retain ability to disrupt even with US control?
+   d) What is the impact on insurance markets (currently Hormuz 
+      is uninsurable)?
+
+6. Is this likely posturing to force Iran to negotiate, or 
+   genuine operational planning? What signals would distinguish 
+   the two?
+
+7. How would China, Russia, and regional powers (Saudi, UAE, 
+   Turkey) react to US physical control of Hormuz?
+
+Cite sources with dates. This headline is getting buried by 
+today's oil crash but may be the most consequential signal of 
+the week.
+```
+
+---
+
 ## Completed
 
 ### Hormuz Resolution Oil Reversal Analogs (Mar 9)
