@@ -1,5 +1,14 @@
 # MARCO STATUS
-**Last Updated:** 2026-03-06 13:30 UTC | **Status:** 🔴 RED
+**Last Updated:** 2026-03-09 13:40 UTC | **Status:** 🔴 RED
+
+## NEW VECTORS (Mar 9)
+
+### VX-MARCO-DOGE-01 — DOGE/E-Verify Compound Shock | 🟠 ELEVATED
+**Tracking:** DOGE disruption creates self-reinforcing loop: visible chaos → political leverage for shutdown extension → E-Verify suspension extends → on resumption, catch-up enforcement surge lands in peak planting season.
+**Metrics:** (1) E-Verify suspension days: **23** (2) DOL/USDA survey cancellations: monitoring (3) H-2A processing delay: DOL "one-stop shop" failing per Investigate Midwest (4) Enforcement audit rate on resumption: TBD
+**Compounds:** Existing WFD-01 and WFD-02. DOGE simultaneously eliminating data infrastructure (USDA Ag Labor Survey, DOL NAWS) that would measure the shock.
+**Trigger:** Senate DHS vote today (4th attempt). Pass → E-Verify resumes this week. Fail → TSA meltdown escalates, forces resolution ~Mar 14-18.
+**Routes to:** LABOR, CARL
 
 **Summary:** Population movement disruptions creating localized stress in Tier-1 states (FL/TX/CA/AZ). Florida thesis CONFIRMED at 95% confidence — migration collapsed 93% (311K→23K, #1→#8 destination). Canadian tourism structural rupture (-28% YoY, airlines physically redirected aircraft). DHS shutdown Day **20**, STILL unresolved — **Noem FIRED Mar 5, Mullin nominated as DHS Secretary**; House passed DHS funding 221-209 but Senate failed 3rd time 51-45; **TSA Mar 14 paycheck miss near-certain, travel industry now lobbying Congress**. **NFP Feb 2026: -92K (NEGATIVE, unemployment 4.4%)** — macro confirmation of WFD thesis; first negative print of cycle. Mexico remittances Jan 2026: -1.4% YoY ($4.594B), first January decline since 2015. H-2A 2026: DOL two-tier AEWR methodology entering planting season. 2.2M self-deportations in 2025 = labor supply shock 10-15x larger than -155K ag figure.
 
@@ -28,10 +37,14 @@
 - Oil spike → airline fuel costs → potential further capacity cuts to FL routes
 - **Scenario change:** If DHS funded this week → E-Verify resumes immediately → enforcement surges → ag/construction labor shock accelerates INTO planting season (worst timing). Mar 14 TSA walkout risk drops significantly if resolution happens before paycheck miss.
 
-### DHS Shutdown (Day 20, ongoing — UPDATED Mar 6)
+### DHS Shutdown (Day 23, CRITICAL — UPDATED Mar 9)
 - **Iran leverage strategy FAILED** — "Iran conflict fails to move Democrats in DHS shutdown fight" (The Hill, Mar 4). War framing did not shift Dem calculus.
 - **House passed DHS funding through September: 221-209 (Mar 5)**
-- **Senate failed THIRD time: 51-45** — still needs 60. No new vote scheduled.
+- **Senate failed THIRD time: 51-45** — still needs 60.
+- **🔴 SENATE VOTE 4TH ATTEMPT: TODAY (Mar 9)** — vote expected today per multiple sources. Same bill, same 60-vote threshold. Still needs 9 Dem crossovers.
+- **🔴 TSA ALREADY FAILING (Mar 8-9):** CNN reports "hourslong delays" at airports NOW (Mar 8). Business Insider (33 min ago): "TSA agents are not showing up to work" ahead of Mar 14 paycheck miss. Prediction #25 is LIVE — not Mar 14, it's happening TODAY.
+- **Mar 14 paycheck miss in 5 days** — but the softcoded walkout is already starting. 61,000 TSA officers.
+- **DOGE Political Feedback Loop (NEW SIGNAL — see below):** DOGE-caused public pain is hardening Dem resistance, potentially extending shutdown beyond what political models predicted.
 - **🔴 NOEM FIRED (Mar 5):** Trump replaced Kristi Noem with Sen. Markwayne Mullin (R-OK). Noem out due to Minneapolis shootings controversy + $220M ad contract. Mullin described as harder-line MAGA enforcement posture.
   - Blumenthal (D-CT): "Might be easier to negotiate" with Noem gone
   - Schumer: Will NOT support Mullin
@@ -65,12 +78,21 @@
 - **Implication:** Labor supply shock is already happening, not pending. The -35% Latino industry collapse (-93% construction) and -155K ag gap represent the *visible* tip. The full shock is 10-15x larger.
 - **New vector proposed:** VX-MARCO-SDL-01 — Self-Deportation Labor Displacement Index (tracking 2.2M baseline, monitor for acceleration in 2026)
 
-### Ag Labor Fear-Withdrawal — UPDATED Mar 4 (PLANTING SEASON ACTIVE)
+### DOGE + E-Verify Compound Shock (NEW SIGNAL — Mar 9)
+- **Signal source:** PROME batch (SIG-MARCO-20260309)
+- **Mechanism:** DOGE cuts → visible public pain (layoffs, program eliminations, ATC/TSA stress) → Democrats feel political reward for holding the DHS shutdown line longer → E-Verify suspension extends further → when DHS funds DO pass, E-Verify resumes with maximum catch-up enforcement surge precisely during peak planting season (Mar-May)
+- **Compound element:** DOGE also eliminating USDA/DOL data surveys → the labor shock will be WORSE and HARDER TO MEASURE simultaneously. We lose the instruments while the patient deteriorates.
+- **Feedback loop:** DOGE cuts → political gridlock → longer shutdown → deeper E-Verify gap → surge on resumption → ag labor crisis → food prices → consumer inflation → political narrative reinforces DOGE "chaos" → harder to pass future budgets. Self-amplifying.
+- **Assessment:** This signal upgrades E-Verify resumption risk. Previous assessment: 60-70% probability of resumption. New assessment: **Senate vote TODAY (Mar 9, 4th attempt) is the hinge.** If it passes → E-Verify resumes within days, compound shock hits planting season immediately. If it fails → shutdown extends past Mar 14 → TSA walkout + E-Verify compound stack simultaneously. Both outcomes are bad for FL/ag thesis, just different timing.
+- **Key question for PROME:** Does Senate pass today? If yes, E-Verify compound shock timing = Mar 10-15 resumption. If no, TSA/spring break chaos is the dominant near-term signal.
+
+### Ag Labor Fear-Withdrawal — UPDATED Mar 9 (PLANTING SEASON ACTIVE)
 - H-2A certifications: 415K FY2025 (8.6x since 2005). Only 182 domestic applicants out of 415K (<0.04%).
 - **NEW: DOL "Harvest Alert" issued — 2026 H-2A visa shortages "catastrophic" per industry report (Mar 3)**
   - AEWR spikes: Michigan and Illinois >$18.50/hr entry-level. True cost with housing/transport/WC insurance: "astronomical"
   - Midwest farms deploying autonomous drone swarms (DJI Agras T40) as emergency labor substitution
   - DOL bureaucratic delays + wage hikes = processing crisis entering peak demand season
+- **NEW: DOL "one-stop shop" for H-2A FAILING (Investigate Midwest, Mar 3):** Sec. Chavez-DeRemer promised streamlined H-2A processing; internal emails show implementation struggling. Red tape NOT cut. Adds to processing bottleneck.
 - **NEW: DOL 2026 AEWR methodology switch to two-tier system (Mar 5)**
   - DOL now uses Skill Level I (entry-level, lower) and Skill Level II (higher) instead of single AEWR per state
   - Change was triggered by DOL citing sudden drop in undocumented workers — formally acknowledging fear-withdrawal as policy driver
