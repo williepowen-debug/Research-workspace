@@ -1,8 +1,8 @@
 # OTTO STATUS
 
-**Signal Status:** 🔴 CRITICAL | **Last Updated:** 2026-03-06 13:45 UTC
+**Signal Status:** 🔴 CRITICAL | **Last Updated:** 2026-03-09 13:50 UTC
 
-**Summary:** NFP -92K (First Negative Print) | Bank Lawsuit Filed vs. JPM/Barclays/Fifth Third (Tricolor) | BCRED $3.8B Met via Mgmt Capital | APO Class Action Active (May 1 Deadline) | DQ Rate Record 6.9%
+**Summary:** NFP -92K (First Negative Print) | WAL sues Jefferies $126M (First Brands) | MFS: Barclays £500M + Elliott/SMBC/Macquarie exposed + Jefferies scrutiny | First Brands CFO GUILTY — turning on James brothers | Pomerantz CVNA class action active | EDGAR 8-K monitoring protocol LIVE | DQ Rate Record 6.9%
 
 **Vectors:** 83+ | **ML Entries:** 130+ | **Research Packages:** 15 complete
 
@@ -120,16 +120,40 @@ Recovery ratio 30.58% (vs 41% benchmark). Construction employment -92.7% YoY. S&
 
 ---
 
+## MAR 9 NEW SIGNALS
+
+| Signal | Detail | Impact |
+|--------|--------|--------|
+| **WAL sues Jefferies** | $126.4M unpaid on First Brands loans; filed Mar 6 | 🔴 WAL equity stress confirmed; Jefferies exposure live |
+| **Jefferies scrutiny** | Reuters: Jefferies under review for MFS + First Brands lending standards | 🔴 Jefferies → WAL chain now public |
+| **MFS: Barclays £500M** | Bloomberg Mar 4: Barclays owed ~£500M by MFS entities | 🔴 UPGRADE from "hundreds of millions" |
+| **MFS: Elliott/SMBC/Macquarie** | Bloomberg Mar 2: Elliott £200M, SMBC + Macquarie also exposed | 🟠 Broadens institutional damage |
+| **MFS: £930M collateral shortfall** | Unicus Research: £1.16B loans vs £230M "true value" collateral | 🔴 CONFIRMS double-pledging at scale |
+| **First Brands CFO guilty** | Stephen Graham pleads guilty Mar 5; will testify vs Patrick + Edward James | 🔴 Case against James brothers now very strong |
+| **First Brands Ch.7 partial** | Feb 17: mulling placing some units into Ch.7 (still in Ch.11) | 🟠 Prediction #25 PARTIAL |
+| **CVNA Pomerantz** | Class action investigation active; Gotham: $1B+ earnings overstatement | 🟠 Class period TBD |
+| **Subprime ABS weak** | Experian Q4 2025: subprime 15.31% of finance (highest since 2021); 30-day DQ 2.54% | 🟠 Confirms expansion + stress |
+| **Moody's ABS outlook** | "Weakness to continue through 2026" | 🟠 Confirms no improvement expected |
+| **EDGAR monitoring LIVE** | Protocol written; OZK watch starts Mar 25 | ✅ |
+
+---
+
 ## CRITICAL TIMELINE
 
 | Date | Event | Status |
 |------|-------|--------|
 | Feb 26 | **MFS UK collapse confirmed** | 🔴 CONFIRMED |
 | Feb 18 | Carvana Q4 earnings | ✅ Miss; -24% AH |
-| Mar 2 | JPM/Barclays/Fifth Third sued over Tricolor ABS ($230M+) | 🔴 NEW |
+| Mar 2 | JPM/Barclays/Fifth Third sued over Tricolor ABS ($230M+) | 🔴 |
+| Mar 2 | **WAL 8-K filed — LAM charge-off ($42.1M)** | 🔴 |
 | Mar 4 | BCRED $3.8B redemption — met 100% via mgmt capital | 🔴 RESOLVED (no gate) |
-| Mar 5 | Blue Owl BOCC II soft gate — ending quarterly liquidity | 🔴 NEW |
-| Mar 6 | **NFP -92,000 — first negative print** | 🔴 NEW |
+| Mar 4 | **Barclays £500M MFS exposure confirmed** | 🔴 |
+| Mar 5 | Blue Owl BOCC II soft gate — ending quarterly liquidity | 🔴 |
+| Mar 5 | **First Brands CFO Stephen Graham pleads guilty** | 🔴 |
+| Mar 6 | **NFP -92,000 — first negative print** | 🔴 |
+| Mar 6 | **WAL sues Jefferies $126.4M (First Brands loans)** | 🔴 |
+| Mar 9 | Elliott/SMBC/Macquarie MFS exposure published | 🟠 |
+| Mar 25 | OZK EDGAR 8-K watch begins | 🔴🔴 |
 | Mar 15 | Carvana discovery production 1 | 🟠 UPCOMING |
 | Apr 6 | TCPC class action lead deadline | 🟠 |
 | Apr 30 | Tricolor vehicle liquidation | 🟠 |
