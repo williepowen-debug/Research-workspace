@@ -7,6 +7,42 @@
 
 ---
 
+## New Entry — March 9, 2026
+
+### TLT $85P Sep 30 x2 | Entry $1.54 | Cost: $309
+**Conviction at entry:** 5/5 — highest conviction trade in the portfolio
+**Breakeven:** $83.46
+
+**Thesis:** Stagflation regime = bonds sell off for 12-16 months (1973-74, 1979-80, 2022 analogs). No flight to safety — 10Y rose on NFP miss (X-03 confirmed). Three inflation vectors converging: (1) energy ($100 oil), (2) tech goods (TSMC disruption risk), (3) food (fertilizer shortage). Fed trapped: can't cut (PPI +0.8%, Core PCE 2.8%) and can't hike (NFP -92K). Sept expiry covers credit break window (Jul-Sep per Kimi stagflation analysis). Three-anchor UST demand collapse (JP/CN/KR/Gulf selling $50-70B/month) = structural, not cyclical.
+
+**What confirms:** Hot CPI tomorrow, HY OAS >320 (early warning) → >400 (credit break confirmed), continued NFP weakness, no Fed pivot.
+**What kills it:** Hormuz ceasefire + cool CPI + strong employment rebound + Fed emergency cuts. All four would need to happen simultaneously.
+**Expiry rationale:** Sept/Oct per Kimi historical analysis. May too short — bonds sold off 12-16 months in every stagflation episode. Sept captures the credit break acceleration.
+
+---
+
+### TLT $88P May 15 x2 | Entry $1.27 | Cost: $255
+**Conviction at entry:** 4/5
+**Breakeven:** $86.73
+
+**Thesis:** Short-dated satellite to the Sept core position. Higher strike ($88 vs $85), shorter fuse. Designed to capture immediate CPI catalyst (Mar 11) and any near-term bond selloff. If hot CPI prints, this moves first. Two-tranche TLT structure: May for the catalyst, Sept for the trend.
+
+**What confirms:** Hot CPI tomorrow, 10Y yields above 4.5%.
+**What kills it:** Cool CPI + flight to safety bid. May expiry = limited time to recover.
+
+---
+
+### KRE $60P Jun 18 x1 | Entry $2.65 | Cost: $266
+**Conviction at entry:** 4/5
+**Breakeven:** $57.35
+
+**Thesis:** Deepens the KRE put ladder to $60 strike. KRE touched $62.44 intraday today — only $2.44 from this strike. The 200-day MA ($63.22) was breached intraday. GFC slow-grind template says next support is $60 then $57. Jun expiry covers March 12 claims, Q1 bank earnings pre-announcements (8-K watch Mar 25+), and early credit break window.
+
+**What confirms:** KRE closes below $63 this week. March 12 claims ugly. 8-K pre-announcements from watchlist banks.
+**What kills it:** Broad market rally, CRE bailout, Fed cuts.
+
+---
+
 ## Closed — March 9, 2026
 
 ### SSB $90P Jun 18 | SOLD @ $5.45 | +$358 (+191%)
@@ -17,6 +53,15 @@ Entered ~$1.87. Trimmed per Monday playbook — first action at open. +109% at F
 
 ### OKLO | SOLD @ $56.70 | -$102 (-37.4%)
 3 shares @ ~$90.78 entry. Nuclear spec, no thesis connection, bleeding. Freed ~$170.
+
+### AMH | SOLD @ $29.42 | ~-$5 (flat)
+6 shares. Housing play that never developed. Clearing dead weight.
+
+### SLV | SOLD 5 of 10 shares @ $76.71 | ~-$80 (-17%)
+Trimmed half. Silver hasn't moved, no thesis connection. Kept 5 shares as precious metals hedge.
+
+### PALL | SOLD @ $149.57 | ~-$11 (-7%)
+1 share palladium ETF. No thesis connection. Cleared.
 
 ---
 

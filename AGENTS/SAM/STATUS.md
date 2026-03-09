@@ -4,6 +4,22 @@
 
 ---
 
+## 🌅 AM CHECK-IN — MAR 9 (17:30 UTC / 12:30 PM ET) — MARKET OPEN UPDATE
+
+**HEADLINE: NIKKEI -6.2% (on top of -5.5% last week). USD/JPY 159.00. OIL $107-114/BBL. BOJ HOLD PROBABILITY 98%+. INTERVENTION ZONE IMMINENT.**
+
+### MARKET OPEN UPDATE — MAR 9
+
+- **Nikkei 225:** -6.2% today. -11.7% cumulative over two sessions. Japan bearing disproportionate energy shock impact (90%+ crude import dependence, Qatar LNG primary buyer).
+- **USD/JPY:** ~159.00 in NY morning session — back at the verbal intervention line (Jan 2026 MoF checks zone). One figure from 160 psychological trigger.
+- **Brent crude:** $108.77 (+17% today, +28% last week). WTI $107.56. JPMorgan sees path to $120+ absent resolution.
+- **Iran:** Mojtaba Khamenei confirmed new Supreme Leader (hardliner) — no off-ramp visible. Hormuz shipping still stalled.
+- **BOJ meeting (Mar 13-14):** Multiple Reuters sources say HOLD is near-certain. "It's become difficult for the BOJ to raise rates." Himino gave no hints of imminent action. Only trigger for hike would be sharp yen drop past 160 — now just 1 figure away.
+- **Carry trade:** No Phase 2 unwind yet. 159.00 = still carry-positive numerically. BUT if USD/JPY spikes through 160 and MoF is forced to intervene, positioning unwind risk spikes fast.
+- **Watch today:** 160 USD/JPY line, MoF Katayama statements, any BOJ pre-meeting communication, Wall St open (S&P futures -1.8%, Nasdaq -2.1%).
+
+---
+
 ## 🌅 AM CHECK-IN — MAR 9 (13:45 UTC / 8:45 AM ET)
 
 **HEADLINE: TAKAICHI IS PM. YEN AT 158.60. JGB 10Y AT 2.22%. BOJ MEETING IN 4 DAYS. LNG RATES +650%. DOUBLE ENERGY+CHIP HIT CONFIRMED.**
