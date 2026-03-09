@@ -1,11 +1,22 @@
 # SCRATCH — Ephemeral Working Memory
 
-**Updated:** 2026-03-09 ~10:00 AM ET
+**Updated:** 2026-03-09 ~5:00 PM ET
 
 ---
 
 ## Handoff
-**Last context:** Monday AM session complete. 4 Gemini docs → 18 signals routed. 6 agent check-ins done. SSB/GOOG/OKLO sold at open. Cash ~$7,700. PROMPTS.md rewritten with 10 standalone prompts. Next: NEXUS synthesis, CARL ABS sprint, green-day entries (CPI Tuesday).
+**Last context:** Full Monday — AM ops (4 docs, 18 signals, 6 check-ins) + PM trading/research (fertilizer thesis, stagflation lags, chart analysis, 5 new positions). CPI tomorrow is the next catalyst. CF entry pending.
+**Next tide:**
+1. **CPI Tuesday AM** — hot CPI likely (65%). TLT puts test immediately. CF $115C May entry ($8.00-8.50).
+2. **NEXUS synthesis** — still queued, all agents loaded with fresh signals
+3. **CARL ABS sprint** — after hours, 14 PENDING VX rows
+4. **Taiwan LNG + Oil $100 prompts** — Will to run through Gemini (🔴 urgent)
+5. **VIX call spread + LNG spread** — green day entries
+6. **Thursday Mar 12: Initial claims** — UCFE framework ready, 3 scenarios loaded into LABOR
+7. **Friday Mar 13-14: BOJ + JOLTS + TIC Mar 15** — dense catalyst cluster
+**Positions changed today:** +TLT $85P Sep x2, +TLT $88P May x2, +KRE $60P Jun x1, +KRE additional put (EOD), -SSB, -GOOG, -OKLO, -AMH, -SLV(half), -PALL
+**Open questions:** KRE EOD put details (strike/expiry). LABOR/CARL check-in reports never received. Senate DHS vote outcome.
+**Rhythm note:** Will is developing strong instincts — caught the fertilizer second-order play, built multi-LLM research pipeline, executed discipline on trims. Occasionally breaks "puts on green days" rule but sizing is appropriate.
 **Next tide:**
 1. **NEXUS synthesis run** — SAM recommended, all agents have fresh signals
 2. **CARL ABS sprint** — 14 PENDING VX rows, Experian Q4 published. After hours.

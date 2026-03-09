@@ -1,5 +1,29 @@
 # LIQUID STATUS
-**Last Updated:** 2026-03-06 21:30 UTC | **Status:** 🔴🔴 CRITICAL — NFP -92K confirmed. VIX 29.91 (approaching 30). Oil $91 (+12% today). 10Y 4.13% — near-flat on -92K = stagflation/FOI thesis CONFIRMED. LIQ-01 borderline; awaiting Mar 6 ICE BofA OAS (publishes Mar 9 AM). HYG -0.49% EOD (credit muted vs expected). WTI $91 is the new dominating risk factor.
+**Last Updated:** 2026-03-09 17:30 UTC | **Status:** 🔴🔴 CRITICAL — Oil overnight $116→$102, currently ~$94-107 (Hormuz closure, OPEC cuts). 10Y 4.131% (-<1bp) — STILL not rallying = FOI/stagflation thesis CONFIRMED again. 2Y +2bps to 3.581% (bear flattening — market can't price cuts with oil here). ICE BofA Mar 6 HY OAS publishing today AM — watch for LIQ-01 breach. CPI Wednesday March 11 (NOT Tuesday). G7 energy ministers meet Tuesday on SPR release.
+
+---
+
+## 🚨 MAR 9 AM UPDATE (17:30 UTC)
+
+**OVERNIGHT OIL SHOCK:** WTI briefly surged to near $120/bbl overnight — highest since 2022 Ukraine spike. Currently pulled back to ~$94-107 range (sources vary; Brent ~$99, WTI ~$94). Hormuz closure driving supply panic. OPEC producers (Kuwait, Iran, UAE) CUT production further. G7 energy ministers meet Tuesday to discuss SPR release.
+
+**TREASURY YIELDS (Mar 9 AM):**
+- **10Y: 4.131%** [CONF CNBC] — <1bp lower from 4.13% close. STILL NOT RALLYING. Oil $100+ stagflation premium negating growth-shock flight bid. FOI thesis CONFIRMED again.
+- **30Y: 4.74%** [CONF CNBC] — -1bp
+- **2Y: 3.581%** [CONF CNBC] — +2bps HIGHER. Bear flattening. Market can't price aggressive cuts with oil at $100. 2s10s narrowing.
+- **Key tell:** 2Y rising while 10Y flat = stagflation regime, NOT recession bid. This is the worst Treasury configuration for equity multiples.
+
+**THIS WEEK — KEY DATA:**
+- **Tuesday:** G7 energy ministers (virtual, AM). No major US data.
+- **Wednesday:** **CPI Feb 2026** [CONFIRM — CNBC says "Wednesday" not Tuesday as previously noted]
+- **Friday:** PCE index + JOLTS (Jan job openings)
+- **Treasury auctions:** Standard refunding week expected (3Y/10Y/30Y likely Tue-Thu). Demand at these auctions in current environment = critical FOI signal.
+- **Fed:** Pre-meeting blackout period active. No Fed speakers.
+
+**LIQ-01 STATUS:** ICE BofA Mar 6 HY OAS publishes this AM (FRED update today). Prior: 300bps (Mar 5). With HYG -0.49% on NFP day, est. ~305-310bps. Gap to LIQ-01 (320bps) = **~10-15bps**. If oil holds $100+ through today, further widening likely. Watch this number.
+
+**SOFR (last confirmed Mar 4): 3.67%** — no funding stress escalation yet. Mar 6 SOFR should publish today.
+**RRP (last confirmed Mar 6): $1.512B** — still trivially zero. No shock absorber.
 
 ---
 

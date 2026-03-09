@@ -1,5 +1,7 @@
 # LABOR STATUS
-**Last Updated:** 2026-03-06 21:18 UTC | **Status:** 🔴🔴 CRITICAL — NFP RESOLVED. SHADOW GAP CONFIRMED. STAGFLATION SIGNAL ACTIVE. Q4 2025 NOW CONTRACTIONARY.
+**Last Updated:** 2026-03-09 17:32 UTC | **Status:** 🔴🔴 CRITICAL — NFP RESOLVED. SHADOW GAP CONFIRMED. STAGFLATION SIGNAL ACTIVE. Q4 2025 NOW CONTRACTIONARY.
+
+**AM Note Mar 9:** DOGE total separations now 387K (OPM), net employment -264K after 123K rehires. Federal workforce -12% from 2024 peak. Tech layoffs YTD 45,363 (Mar), ~20% AI-driven. THIS WEEK: CPI Wed Mar 11, **CLAIMS THU MAR 12 = FIRST CLEAN READ**, JOLTS Fri Mar 13 (Jan, delayed). No new labor data today (Mon). Watch claims print vs 215K baseline — any spike >235K = vector 3 → score 5, confirms transmission.
 
 **Summary:** **February NFP: -92,000** (consensus +55-65K, our model 75-110K — both directions missed: headline went NEGATIVE). U-3 4.4% (↑ from 4.3%). Jan revised DOWN to +126K. Healthcare -28K (strike distortion — physicians offices -37K, hospitals +12K). Federal govt -10K. Information -11K. Long-term unemployed 1.9M (+400K YoY). BLS language: "payroll employment changed little on net in 2025" — phantom job acknowledgment. Schedule Policy/Career LIVE. Shadow payroll gap (LAB-09): **CONFIRMED — gap was real, resolution violent.** Healthcare strike gives Street an excuse to dismiss, but structural component ~-64K after stripping strike distortion. Still a massive validation of the thesis.
 

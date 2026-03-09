@@ -1,5 +1,54 @@
 # REGINALD STATUS
-**Last Updated:** 2026-03-06 21:15 UTC | **Status:** 🔴🔴🔴 EXTREME — NFP -92K. Federal channel FIRED. WAL $126.4M CHARGE-OFF (Jefferies/First Brands 8-K). MFS Fraud → WAL DIRECT HIT. Brent $90 (Hormuz near-total halt). WAL puts HARVESTED 288-340% gains.
+**Last Updated:** 2026-03-09 17:35 UTC | **Status:** 🔴🔴🔴 EXTREME — WAL -8.46% (Jefferies suit/charge-off confirmed). Ready Capital $232M loss, 25% non-accruals. WTI $116 (+28% overnight, Hormuz blockage). Yield curve steepening. CRE multi-front stress escalating. OZK Apr 16 detonator in 38 days.
+
+## 🚨 MAR 9 AM UPDATE — MULTI-FRONT ESCALATION
+
+**Filed:** 2026-03-09 | **Sources:** WSJ, The Real Deal, WolfStreet
+
+### Key Developments This Morning
+
+**1. Western Alliance (WAL) -8.46% at open**
+Jefferies lawsuit + $126.4M charge-off confirmed in market pricing. WAL trading ~$70 handle. This was a Mar 6 event but market is continuing to price it. No new 8-K overnight — the move today is follow-through + broader risk-off from Hormuz.
+
+**2. Ready Capital (RC) — MAJOR CRE SIGNAL 🔴**
+- Q4 loss: **$232 million** (improved from $314M Q4 2024, but cumulative damage severe)
+- **25% of loan book ($1.3B) non-accruing** — up from 6.3% ($526M) one year ago. This is a 4x deterioration in non-accruals in 12 months.
+- Selling $1.5B of loans to raise $250M liquidity
+- Stock -60%+ from $5 → <$2; dividend slashed to $0.01
+- Portland Ritz-Carlton ($460M loan): only ~25% of condo units sold/under contract
+- Analyst floating GSE license sale (Freddie Mac) — valuation ~$200M; CEO deflected ("non-core assets")
+- Walker & Dunlop also flagged $134M borrower fraud (Mar 3)
+- **This is the Tides Equities / GVA syndicator contagion chain fully visible in public financials**
+
+**3. Hormuz / Energy — WAR DAY 10 🔴 ESCALATING**
+- WTI spiked to $116/bbl overnight (+28%) — Strait of Hormuz traffic "essentially stopped"
+- Gasoline futures +17%; US 10yr yield +6bps to 4.21% (inflation trade, not haven)
+- For US: price shock + inflation, not supply shock (US gets ~2% of liquids from Hormuz)
+- For CRE borrowers: energy costs for building operations, construction, logistics ALL repricing higher
+- Nikkei -6.9%, S&P futures -2.0% at open — risk-off backdrop for regional banks
+- **Stagflation trap tightens:** Fed cannot cut into 28% oil spike. NIM relief window stays shut.
+
+**4. Yield Curve / Rates Context**
+- 10yr & 30yr yields jumped last week (Mar 7 per WolfStreet) — curve steepening
+- Mortgage rates also jumped — another turn of the screw on CRE refi
+- Bond market: flipped from haven to inflation trade. This is the wrong backdrop for HTM portfolios.
+
+**5. Morgan Stanley — 2,500 layoffs (3% of workforce)**
+- Not directly a regional bank signal, but: financial sector employment contracting
+- Adds to DC-corridor / professional services demand destruction
+
+### This Week's Calendar (CRE/Bank Relevant)
+- **Mar 12 (Thu): Initial Jobless Claims** — CRITICAL. Threshold 300K. NFP was -92K; if real, claims should show drift upward.
+- **Mar 12 (Thu): CPI (Feb)** — With Hormuz spike, any upside = Fed frozen longer. Watch core.
+- No major bank earnings this week. Next detonator: **OZK Apr 16**.
+
+### Watch List — Today Specifically
+1. **WAL price action** — follow-through below $70? Any analyst downgrades?
+2. **Ready Capital (RC)** — does the market price this as idiosyncratic or sector?
+3. **KRE ETF** — regional bank index as barometer. Are we seeing contagion pricing?
+4. **10yr yield intraday** — if it keeps rising on Hormuz inflation fears, CRE refi math gets worse in real time
+5. **EGBN / ZION / OZK** — any unusual vol or price moves on the sector risk-off
+6. **HYG** — HY OAS: we're 23bps from 320 threshold. Risk-off day could push through.
 
 ---
 

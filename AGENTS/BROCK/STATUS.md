@@ -1,7 +1,7 @@
 # BROCK STATUS — Private Credit / Alt Assets / PE / ILS
 
-**Last context:** BlackRock HLEND ($26B fund) formally gated — paid $620M of $1.2B in redemption requests (~52%). First hard gate at a major retail private credit fund. BLK -6.7%. Gate thesis has triggered. Convergence upgraded.
-**Last updated:** 2026-03-06 EOD
+**Last context:** Redemption cascade widening — HLEND hard-gated (Mar 6), now BX BCRED + HLEND both in distress management mode. Oil surged ~$120 overnight on Hormuz tanker threat, G7 intervening; oil cooling toward $100 intraday. War Day 10 adding direct default risk to portfolio companies. Bloomberg/Reuters full-system alert on private credit. Mainstream narrative = fully broken.
+**Last updated:** 2026-03-09 AM
 
 ---
 
@@ -21,7 +21,7 @@
 | Athene Assets | **$442B**, 48% illiquid, RBC 412% | 🔴 | [CONF] 10-K Feb 2026 |
 | P&I War Risk Insurance | Cancelled effective Mar 2 | 🔴 | [CONF] Windward.ai Mar 2 |
 | Hormuz Tanker Traffic | ~Zero (150 ships stranded) | 🔴 | [CONF] Reuters Mar 5 |
-| Brent Crude | **$90** | 🔴 ↑ | [CONF] Market Mar 6 |
+| Brent Crude | **~$100 (spike $120 overnight)** | 🔴 ↑↑↑ | [CONF] 247WallSt/Bloomberg Mar 9 |
 | WAL (bank proxy) | **$70** (-13% today) | 🔴 | [CONF] Market Mar 6 |
 | KRE (regional bank ETF) | **$64** (-3.6% today) | 🔴 | [CONF] Market Mar 6 |
 | NFP (Feb print) | **-92K** | 🔴 | [CONF] BLS Mar 6 |
@@ -44,7 +44,7 @@
 | Regulatory Action | 🟡 (2) | SEC 2026 exam expected; no enforcement yet | Any enforcement action filed | Mar 5 |
 | Mainstream Narrative | 🔴 (4) | CNN "echoes of 2008", Eisman "slow brewing scandal", Reuters Breakingviews, CNBC | Hedge fund consensus = window closing | Mar 6 |
 
-**Convergence: 42/50 🔴 — GATE EVENT TRIGGERED. BlackRock HLEND gated Mar 6. No longer pre-event — we are in the event.**
+**Convergence: 46/50 🔴🔴 — CASCADE PHASE. HLEND gated Mar 6. BX avoided via own-money injection. Bloomberg front-page systemic warning Mar 8. Oil $120 Hormuz shock now adding real-economy default transmission. We are in the event — escalating.**
 
 ---
 

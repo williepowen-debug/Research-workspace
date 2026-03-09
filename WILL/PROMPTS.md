@@ -107,8 +107,9 @@ Cite sources with dates.
 
 ---
 
-### Hormuz Closure Impact on Global Fertilizer Supply
-**Priority:** 🟠 | **Routes to:** HAWK, CARL
+### ✅ Hormuz Closure Impact on Global Fertilizer Supply — COMPLETED
+**Completed:** Mar 9 via Gemini. IFPRI: "rival or exceed 2022." 280 vessels confirmed trapped. 91% transit reduction. India 75% urea from GCC. Arkansas stopped quoting prices.
+**Routes to:** HAWK, CARL — signals already routed.
 ```
 Assess the impact of the Strait of Hormuz closure (since approximately 
 March 1, 2026) on the global fertilizer market:
@@ -161,6 +162,88 @@ redemption requests. Provide a comprehensive update:
    others) for Q1 2026?
 
 Cite sources with dates. Focus on events since March 1, 2026.
+```
+
+---
+
+### Fertilizer Trade — CF Industries / Mosaic / Nutrien Analysis
+**Priority:** 🔴 | **Routes to:** HAWK, HENRY
+```
+The Strait of Hormuz has been closed since approximately March 1, 2026, 
+disrupting oil AND dry bulk shipping from the Persian Gulf. Several Gulf 
+nations (Saudi Arabia, Qatar, UAE, Oman, Iran) are major fertilizer 
+exporters, particularly nitrogen-based fertilizers (urea, ammonia) and 
+phosphate (DAP). Analyze the fertilizer investment thesis:
+
+1. What percentage of global urea production and exports comes from 
+   Gulf states that ship through Hormuz? Break down by country.
+2. What percentage of global DAP/MAP (phosphate) production ships 
+   through Hormuz?
+3. Current spot prices for urea (Yuzhny, Middle East, US Gulf), 
+   DAP, and ammonia — current levels vs February 2026 (pre-closure). 
+   What is the percentage change?
+4. CF Industries (CF): What percentage of their revenue comes from 
+   nitrogen products? What is their production capacity vs Gulf 
+   competitors now offline? How much do they benefit from higher 
+   global nitrogen prices? Recent earnings, guidance, analyst targets.
+5. Mosaic (MOS): Exposure to phosphate price increases. Production 
+   breakdown. Recent earnings and guidance. How much Gulf phosphate 
+   disruption benefits them?
+6. Nutrien (NTR): Production mix (potash/nitrogen/phosphate). How 
+   exposed to Gulf disruption vs potash-driven? Recent earnings.
+7. Historical precedent: What happened to US fertilizer stocks 
+   during the 2022 Russia-Ukraine conflict when Russian/Belarusian 
+   fertilizer exports were sanctioned? What were the returns for 
+   CF, MOS, and NTR from Feb-Jun 2022?
+8. Current options market: What is implied volatility on CF, MOS, 
+   and NTR options? Are call premiums elevated or still cheap?
+9. Timing risk: When does the Northern Hemisphere spring planting 
+   window close? If fertilizer isn't applied by [date], what is 
+   the crop yield impact?
+10. What is the bear case — could US domestic production or 
+    non-Gulf imports (Russia via Pacific, Morocco phosphate) fill 
+    the gap quickly?
+
+Cite sources with dates.
+```
+
+---
+
+### Fertilizer Supply Chain — Deep Dive on Gulf Dependency
+**Priority:** 🟠 | **Routes to:** HAWK, CARL
+```
+Provide a detailed analysis of global fertilizer supply chain 
+dependency on the Persian Gulf and Strait of Hormuz:
+
+1. Map the top 10 global urea exporters by volume (million metric 
+   tons/year). For each, state whether exports transit Hormuz.
+2. Map the top 10 global DAP/phosphate exporters similarly.
+3. What is the current global urea inventory level vs historical 
+   average? Are inventories lean or well-stocked heading into 
+   spring 2026?
+4. India imports roughly what percentage of its fertilizer needs? 
+   What percentage comes from Gulf sources? Has India announced 
+   any emergency tenders or strategic reserve releases since 
+   March 1, 2026?
+5. Brazil's upcoming planting season (safrinha) — what is their 
+   Gulf fertilizer dependency and timeline pressure?
+6. How long can global fertilizer markets sustain a Hormuz closure 
+   before physical shortages materialize at the farm level? 
+   Estimate in weeks.
+7. Are there any reports of fertilizer cargo ships being rerouted 
+   around Africa (Cape of Good Hope)? What does the additional 
+   transit time do to delivery schedules and spot prices?
+8. US domestic fertilizer production capacity — what percentage 
+   of US farmer needs can be met domestically without any imports?
+9. Have any US farm cooperatives, ag retailers, or state 
+   agriculture departments issued warnings or guidance about 
+   fertilizer availability for spring 2026?
+10. What happened to global food prices (wheat, corn, rice, 
+    soybeans) when fertilizer prices spiked in 2022? What is the 
+    transmission lag from fertilizer price to food price?
+
+Cite sources with dates. Focus on actionable data for evaluating 
+an investment in US-based fertilizer producers.
 ```
 
 ---
