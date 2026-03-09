@@ -6,6 +6,27 @@ Prome adds prompts here; Will picks them up and runs them; results come back for
 
 ---
 
+## Meta-Prompts (Reusable)
+
+### 🔑 "What Should I Be Asking You?"
+*Use when you have a lot of signals but need to prioritize research direction. Works with any LLM or agent system.*
+```
+Based on everything in our current data — positions, thesis, signals, 
+and what just happened in the market — give me your top 5 prompts 
+that I should be giving you right now. 
+
+For each prompt:
+1. The exact question I should ask
+2. WHY you need this answered (what gap does it fill?)
+3. What decision it unlocks (position sizing, entry/exit, thesis 
+   confirmation or kill)
+
+Prioritize by: what's most likely to change what we do tomorrow.
+```
+*Origin: Mar 9, 2026 — Will realized this inverts the research process. Instead of human guessing what to ask, the system identifies its own blind spots. Works best after a batch of new signals when direction is unclear.*
+
+---
+
 ## Queued
 
 ### Google Trends — Labor Search Terms
