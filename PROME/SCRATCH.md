@@ -7,10 +7,18 @@
 ## Last Session: HAWK complete + NEXUS synthesis + mail/PROTOCOL.md rollout (Sun Mar 9)
 
 ### IMMEDIATE NEXT SESSION:
-1. **Update ZHAO** — KB migration/logging standardization, add Campbell Gulf recycling vector
-2. **Spawn ZHAO** — process inbox signals (has Campbell/petrodollar + REGINALD broadcast + HERMES deliveries)
-3. **HERMES run** — HAWK has 2 new outbox signals (to-BRENT Haifa, to-SAM LNG) ← DONE
+1. **ZHAO KB migration** — ML.tsv (56 rows, 9-col) → KB.tsv (13-col). Spawn subagent for mechanical column addition (add Conf, Epistemic, Status, Stale_By, DerivedFrom). ML.tsv has duplicate IDs (032-034 appear twice — insurance entries reuse counter-thesis IDs). Fix during migration.
+2. **ZHAO PREDICTIONS.tsv** — Add Invalidation column + new predictions from STATUS (ZHA-03 through ZHA-08). Combine with inbox spawn.
+3. **Spawn ZHAO inbox processing** — 5 signals waiting (Feb 24 FX intervention, Mar 4 HANS/HENRY, Mar 6 NFP, Mar 9 Gulf recycling). Model Gulf recycling vector (VX-ZHAO-7.02 + FLOW-ZHAO-12 currently UNMODELED/GAP).
 4. **HAWK TRADE.md** — last piece of full HAWK migration
+
+### ZHAO Migration Status:
+- ✅ Phase 1: STATUS.md rewritten (588→152 lines, HAWK standard)
+- ✅ Phase 2a: FLOW.tsv migrated (10→12 rows, 9-col)
+- ✅ Phase 2b: VX.tsv migrated (25→35 rows, 11-col HAWK standard, values updated)
+- ⬜ Phase 2c: KB.tsv creation from ML.tsv (56 rows need 4 new columns)
+- ⬜ Phase 2d: PREDICTIONS.tsv (add Invalidation + new rows)
+- ⬜ Phase 3: Inbox processing + Gulf recycling modeling
 
 ### HAWK Migration — FULLY COMPLETE (all spawns done)
 - KB.tsv: 51 rows (34 original + 8 run 1 + 9 run 2)
