@@ -1,70 +1,70 @@
-Vector_ID	Name	Category	Current_Value	Yellow	Orange	Red	Status	Confidence	Last_Updated	Source	Notes
-VX-CARL-1.01	Credit Card 90+ DQ	CREDIT	12.70%	10%	12%	13.7%	RED	HIGH	2026-02-10	NY Fed Q4 2025	92% of GFC peak (13.74%)
-VX-CARL-1.02	Credit Card Payment Rate	CREDIT	PENDING	18-20%	15-18%	<15%	PENDING	MEDIUM	2026-02-11	ABS Framework	LEADING INDICATOR - Track via ABS
-VX-CARL-1.03	BNPL Late Rate	BNPL	42%	40%	45%	50%	YELLOW	MEDIUM	2026-01-22	Industry Reports	Approaching 45% threshold
-VX-CARL-1.04	Subprime Auto 60+ DQ	AUTO	7.1%	5%	6%	7%	RED-BREACHED	HIGH	2026-03-04	Fitch ABS Index (Feb 2026) / PROME briefing	⚠️ THRESHOLD BREACH: 7.1% > RED threshold of 7.0%. Updated 6.9%→7.1% Mar 4. ALL-TIME RECORD extended. Prime 0.4% = 17x gap. K-shape confirmed extreme.
-VX-CARL-1.05	Deep Subprime Auto Acceleration	AUTO	+40% YoY	+30%	+40%	+50%	ORANGE	HIGH	2026-01-22	Industry Data	Accelerating delinquency
-VX-CARL-1.06	Student Loan Conditional DQ	STUDENT	31%	25%	30%	35%	ORANGE	MEDIUM	2026-01-22	Industry Data	Conditional on repayment
-VX-CARL-1.07	Gen Z Prime Contagion	DEMOGRAPHIC	23%	20%	25%	30%	YELLOW	MEDIUM	2026-01-22	Industry Data	Structural breaking point
-VX-CARL-1.08	Medical Debt (Collections)	MEDICAL	$88-140B	$100B	$150B	$200B	YELLOW	LOW	2026-01-22	CFPB	Returning to credit reports
-VX-CARL-1.09	Auto Denial Rate	AUTO	15.2%	15%	20%	25%	YELLOW	MEDIUM	2026-01-22	Industry Data	Doubled from baseline
-VX-CARL-2.01	Rent Late Rate	HOUSING	11.7%	12%	15%	18%	GREEN	MEDIUM	2026-01-22	Industry Reports	Below threshold
-VX-CARL-2.02	HOA Assessments (Surfside)	HOUSING	$134K-$400K	$150K	$200K	$250K	YELLOW	HIGH	2026-01-22	News Reports	FL condo crisis
-VX-CARL-2.03	Homeowners Insurance (High-risk)	INSURANCE	50% YoY	40%	60%	80%	YELLOW	HIGH	2026-01-22	Industry Data	CA/FL stress zones
-VX-CARL-2.04	Auto Insurance CPI	INSURANCE	20-30% YoY	25%	35%	50%	YELLOW	HIGH	2026-01-22	CPI Data	Regressive tax effect
-VX-CARL-2.05	Utility Arrears	UTILITIES	$23B	$20B	$25B	$30B	ORANGE	MEDIUM	2026-01-22	Utility Reports	1-in-6 households behind
-VX-CARL-2.06	Uninsured Rate (Medical)	INSURANCE	~10%	12%	15%	20%	YELLOW	MEDIUM	2026-01-22	Census/KFF	ACA cliff activated
-VX-CARL-3.01	Jobs Spread	LABOR	8 pts	5	0	<0	YELLOW	HIGH	2026-01-22	JOLTS	Approaching inversion
-VX-CARL-3.02	Long-term Unemployed	LABOR	1.8M	2M	2.5M	3M	YELLOW	HIGH	2026-02-12	BLS Jan 2026	+386K YoY (+28%); "Hotel California" - 25% of unemployed stuck 27+ weeks
-VX-CARL-3.03	Govt Workforce Drop	LABOR	162K	100K	150K	200K	ORANGE	MEDIUM	2026-01-22	BLS	LIHEAP staff eliminated
-VX-CARL-3.04	Savings Rate	MACRO	~4.5%	4%	3%	<3%	YELLOW	HIGH	2026-01-22	BEA	Master switch - buffer exhaustion
-VX-CARL-4.01	Hardship 401k Withdrawals	BUFFER	4.8%	4.5%	5%	5.5%	ORANGE	HIGH	2026-01-22	Vanguard	ATH - buffer exhaustion
-VX-CARL-4.02	Gambling Losses	STRESS	$264B	$275B	$300B	$350B	GREEN	LOW	2026-01-22	Industry Data	Elevated but stable
-VX-CARL-4.03	Trade-down Migration	CONSUMPTION	2.6M >$100K	2M	2.5M	3M	ORANGE	MEDIUM	2026-01-22	Dollar Tree	High-income downshifting
-VX-CARL-5.01	Liquidity Fragility (Can't cover $400)	LATENT	37%	40%	45%	50%	YELLOW	HIGH	2026-01-24	Fed SHED 2023	One-incident-away population
-VX-CARL-5.02	Care Deferral Rate	LATENT	28-38%	35%	40%	50%	YELLOW	MEDIUM	2026-01-24	NHIS/Gallup	Deferred care due to cost
-VX-CARL-5.03	Underinsurance Rate (Medical)	LATENT	23%	25%	30%	35%	YELLOW	MEDIUM	2026-01-24	Commonwealth Fund 2024	23% threshold
-VX-CARL-5.04	Paycheck-to-Paycheck	LATENT	62%	65%	70%	75%	ORANGE	HIGH	2026-01-24	LendingClub	Structural fragility
-VX-CARL-5.05	Hardship Withdrawal Trend	BUFFER	+33% YoY	+25%	+35%	+50%	YELLOW	HIGH	2026-01-24	Industry Data	Doubled since 2018
-VX-CARL-5.06	CA Insurance Retreat	INSURANCE	450K+	400K	500K	600K	ORANGE	HIGH	2026-01-24	CA FAIR Plan	FAIR Plan policies accelerating
-VX-CARL-6.01	CC 90+ DQ	CREDIT	12.70%	10%	12%	13.74%	RED	HIGH	2026-02-10	NY Fed Q4 2025	92% of GFC peak
-VX-CARL-6.02	Auto 90+ DQ	AUTO	5.21%	4%	5%	5.27%	RED	HIGH	2026-02-10	NY Fed Q4 2025	At historical max
-VX-CARL-6.03	Total Household Debt	DEBT	$18.78T	$18T	$19T	$20T	ORANGE	HIGH	2026-02-10	NY Fed Q4 2025	Record high (+$4.6T since 2019)
-VX-CARL-6.04	Q1 Income Mortgage DQ	HOUSING	3.0%	2.5%	3%	3.5%	ORANGE	HIGH	2026-02-10	NY Fed Q4 2025	5x pandemic lows
-VX-CARL-6.05	FL 90+ DQ	GEOGRAPHIC	4.10%	3.5%	4%	5%	ORANGE	HIGH	2026-02-10	NY Fed Q4 2025	+49% YoY (was 2.76%)
-VX-CARL-6.06	FL Foreclosures YoY	GEOGRAPHIC	+190%	+75%	+150%	+200%	RED	HIGH	2026-02-10	ATTOM	Accelerating from +57%
-VX-CARL-6.07	Unemployment→Mortgage Correlation	TRANSMISSION	+0.6pp DQ per +1.6pp U3	+0.4pp	+0.6pp	+0.8pp	ORANGE	HIGH	2026-02-10	NY Fed LSE	Transmission multiplier
-VX-CARL-6.08	Home Price Decline Zone	GEOGRAPHIC	Gulf Coast FL	Isolated	Regional	National	ORANGE	MEDIUM	2026-02-10	NY Fed LSE	Correlates with rising DQ
-VX-CARL-6.09	Retail Sales MoM	CONSUMPTION	0% MoM	-0.5%	-1%	-2%	YELLOW	HIGH	2026-02-10	Bloomberg Dec 2025	Unexpectedly stalled
-VX-CARL-6.10	Retail Control Group	CONSUMPTION	-0.1% MoM	-0.5%	-1%	-1.5%	YELLOW	HIGH	2026-02-10	Bloomberg Dec 2025	Feeds directly into GDP
-VX-CARL-ABS-01	ABS CC Payment Rate (Discover)	ABS-CC	PENDING	18-20%	15-18%	<15%	PENDING	MEDIUM	2026-02-11	EDGAR 10-D	LEADING INDICATOR - baseline needed
-VX-CARL-ABS-02	ABS CC 30+ DQ (Discover)	ABS-CC	PENDING	4-5%	5-7%	>7%	PENDING	MEDIUM	2026-02-11	EDGAR 10-D	Monthly tracking
-VX-CARL-ABS-03	ABS CC Charge-off Rate (Discover)	ABS-CC	PENDING	5-7%	7-10%	>10%	PENDING	MEDIUM	2026-02-11	EDGAR 10-D	Annualized
-VX-CARL-ABS-04	ABS CC Vintage 2024/2025 vs 2019 (Discover)	ABS-CC	PENDING	1.2-1.5x	1.5-2x	>2x	PENDING	LOW	2026-02-11	EDGAR 10-D	Underwriting quality
-VX-CARL-ABS-05	ABS CC Payment Rate (Capital One)	ABS-CC	PENDING	18-20%	15-18%	<15%	PENDING	MEDIUM	2026-02-11	EDGAR 10-D	Prime/subprime mix
-VX-CARL-ABS-06	ABS CC 30+ DQ (Capital One)	ABS-CC	PENDING	4-5%	5-7%	>7%	PENDING	MEDIUM	2026-02-11	EDGAR 10-D	Monthly tracking
-VX-CARL-ABS-07	ABS CC Charge-off Rate (Capital One)	ABS-CC	PENDING	5-7%	7-10%	>10%	PENDING	MEDIUM	2026-02-11	EDGAR 10-D	Annualized
-VX-CARL-ABS-08	ABS Auto Payment Rate (Santander)	ABS-AUTO	PENDING	3.5-4%	3-3.5%	<3%	PENDING	MEDIUM	2026-02-11	EDGAR 10-D	Subprime auto bellwether
-VX-CARL-ABS-09	ABS Auto 30+ DQ (Santander)	ABS-AUTO	PENDING	10-12%	12-15%	>15%	PENDING	HIGH	2026-02-11	EDGAR 10-D	Subprime threshold
-VX-CARL-ABS-10	ABS Auto Charge-off Rate (Santander)	ABS-AUTO	PENDING	8-10%	10-12%	>12%	PENDING	HIGH	2026-02-11	EDGAR 10-D	Subprime auto stress
-VX-CARL-ABS-11	ABS Auto 30+ DQ (Exeter)	ABS-AUTO	PENDING	12-15%	15-18%	>18%	PENDING	HIGH	2026-02-11	EDGAR 10-D	Deep subprime - S&P elevated loss
-VX-CARL-ABS-12	ABS Auto Payment Rate (Ally)	ABS-AUTO	PENDING	4-5%	3.5-4%	<3.5%	PENDING	MEDIUM	2026-02-11	EDGAR 10-D	Prime/near-prime comparison
-VX-CARL-ABS-13	ABS Payment Rate Cross-Trust Divergence	ABS-COMPOSITE	PENDING	<1pp	1-2pp	>2pp	PENDING	LOW	2026-02-11	Multiple trusts	Signal dispersion/stress concentration
-VX-CARL-ABS-14	ABS vs NY Fed DQ Divergence	ABS-COMPOSITE	PENDING	<0.5pp	0.5-1pp	>1pp	PENDING	MEDIUM	2026-02-11	ABS vs NY Fed	Early warning confirmation
-VX-CARL-FC-01	National Foreclosures (Quarterly)	FORECLOSURES	58,140	50,000	60,000	70,000	ORANGE	HIGH	2026-02-12	NY Fed/Equifax Q4 2025	+41% YoY; validates Q2 2026 wave forecast
-VX-CARL-MF-01	Fannie Mae Multifamily Serious DQ	MULTIFAMILY	0.74%	0.60%	0.70%	0.80%	ORANGE	HIGH	2026-03-04	PROME briefing Mar 4	6bps from GFC peak (0.80%). IMMINENT BREACH. Weekly monitoring. Q2 2026 maturity wall ($270B+) = primary catalyst.
-VX-CARL-MF-02	Freddie Mac Multifamily Serious DQ	MULTIFAMILY	0.48%	0.30%	0.40%	0.50%	ORANGE	MEDIUM-HIGH	2026-02-12	Kobeissi/Freddie Mac	Highest in 21 years; DOUBLED in 2 years
-VX-CARL-AUTO-CVNA	Carvana Stock (Auto Credit Canary)	AUTO-CANARY	-16% (2-day)	-10%	-15%	-20%	ORANGE	MEDIUM	2026-02-12	Market data	Fraud allegations; $1B+ hidden losses; auto credit stress signal
-VX-CARL-NAR-01	NAR Housing Crisis Declaration	CONSENSUS	DECLARED	CAUTIOUS	WARNING	CRISIS	RED	HIGH	2026-02-12	NAR Lawrence Yun	"New housing crisis" + "Americans are stuck" — consensus break
-VX-CARL-BNPL-01	BNPL Late Payment Rate	Consumer Credit	41%	>45%	>50%	>55%	YELLOW	HIGH	2026-02-12	LendingTree/Richmond Fed	% of users making late payment (annual). Up from 34% in 2024; +7pp YoY
-VX-CARL-BNPL-02	BNPL Charge-Off Rate	Consumer Credit	1.83%	>2.5%	>3.5%	>4.5%	GREEN	MEDIUM	2026-02-12	CFPB/Richmond Fed	Down from 2.63% in 2022; late payments rising despite lower NCOs
-VX-CARL-BNPL-03	BNPL Subprime Concentration	Consumer Credit	61%	>55%	>65%	>70%	ORANGE	HIGH	2026-02-12	CFPB 2022/Richmond Fed	45% deep subprime + 16% subprime = hidden risk concentration
-VX-CARL-BNPL-04	BNPL Repayment Confidence	Consumer Credit	59%	<55%	<50%	<45%	GREEN	MEDIUM	2026-02-12	LendingTree/Richmond Fed	% very confident in repayment; 41% lower confidence = stress signal
-VX-CARL-SL-01	Student Loan 30+ DQ Rate	Consumer Credit	16.3%	>12%	>15%	>18%	ORANGE	HIGH	2026-02-12	NY Fed Q4 2025	WORST EVER - up from ~1% during forbearance; $271B delinquent
-VX-CARL-SL-02	Student Loan 90+ DQ Rate	Consumer Credit	9.5%	>6%	>8%	>10%	ORANGE	HIGH	2026-02-12	NY Fed Q4 2025	$159B delinquent - up $150B YoY; forbearance unwinding
-VX-CARL-SL-03	SAVE Plan Status	Policy	ENJOINED	LITIGATION	ENJOINED	KILLED	ORANGE	HIGH	2026-02-12	StudentAid.gov	7M+ in forbearance; IDR apps suspended; no resolution path
-VX-CARL-SL-04	Credit Score Impact Population	Consumer Credit	9M+	>5M	>8M	>12M	ORANGE	HIGH	2026-02-12	NY Fed Liberty Street	Superprime -171 pts, subprime -87 pts when payments resume
-VX-CARL-UTIL-01	CC Utilization Rate	Consumer Credit	23.6%	>25%	>30%	>35%	GREEN	HIGH	2026-02-12	NY Fed Q4 2025	$1.28T/$5.42T; 60% carry balance month-to-month
-VX-CARL-UTIL-02	Available Credit	Consumer Credit	$4.15T	<$4.0T	<$3.5T	<$3.0T	GREEN	HIGH	2026-02-12	NY Fed Q4 2025	Buffer shrinking as balances rise and limits tighten
-VX-CARL-MED-01	Medical Collections	Consumer Credit	$88B	>$100B	>$120B	>$150B	GREEN	MEDIUM	2026-02-12	CFPB 2022	58% of all collections; 43M credit reports affected
-VX-CARL-ABS-15	Subprime Auto 60+ DQ (ABS)	AUTO	7.1%	>5%	>6%	>7%	RED-BREACHED	HIGH	2026-03-04	Fitch ABS Index / PROME briefing Mar 4	⚠️ BREACHED RED threshold. 7.1% > 7.0% threshold. Feb 2026 data. ALL-TIME RECORD extended. Prime 60+ at 0.4% = 17x gap.
+ID	Name	Current_Value	Status	Green	Yellow	Orange	Red	Last_Updated	Source	Notes
+VX-CARL-1.01	Credit Card 90+ DQ	12.70%	RED	<8%	10%	12%	13.74%	2026-02-10	NY Fed Q4 2025	92% of GFC peak (13.74%)
+VX-CARL-1.02	Credit Card Payment Rate	PENDING	PENDING	>22%	18-20%	15-18%	<15%	2026-02-11	ABS Framework	LEADING INDICATOR — track via ABS trustee reports
+VX-CARL-1.03	BNPL Late Rate	42%	YELLOW	<30%	40%	45%	50%	2026-01-22	Industry Reports	+7pp YoY; 61% subprime concentration
+VX-CARL-1.04	Subprime Auto 60+ DQ	7.1%	RED-BREACHED	<3%	5%	6%	7%	2026-03-04	Fitch ABS Feb 2026	⚠️ BREACHED. ALL-TIME RECORD. Prime 0.4% = 17.75x gap.
+VX-CARL-1.05	Deep Subprime Auto Acceleration	+40% YoY	ORANGE	<+15%	+30%	+40%	+50%	2026-01-22	Industry Data	Accelerating delinquency
+VX-CARL-1.06	Student Loan Conditional DQ	31%	ORANGE	<15%	25%	30%	35%	2026-01-22	Industry Data	Conditional on repayment
+VX-CARL-1.07	Gen Z Prime Contagion	23%	YELLOW	<15%	20%	25%	30%	2026-01-22	Industry Data	Structural breaking point
+VX-CARL-1.08	Medical Debt (Collections)	$88-140B	YELLOW	<$60B	$100B	$150B	$200B	2026-01-22	CFPB	Returning to credit reports
+VX-CARL-1.09	Auto Denial Rate	15.2%	YELLOW	<10%	15%	20%	25%	2026-01-22	Industry Data	Doubled from baseline
+VX-CARL-2.01	Rent Late Rate	11.7%	GREEN	<10%	12%	15%	18%	2026-01-22	Industry Reports	Below threshold
+VX-CARL-2.02	HOA Assessments (FL Condo)	$134K-$400K	YELLOW	<$100K	$150K	$200K	$250K	2026-01-22	News Reports	FL condo crisis; SIRS mandatory
+VX-CARL-2.03	Homeowners Insurance (High-risk)	50% YoY	YELLOW	<20%	40%	60%	80%	2026-01-22	Industry Data	CA/FL stress zones
+VX-CARL-2.04	Auto Insurance CPI	20-30% YoY	YELLOW	<10%	25%	35%	50%	2026-01-22	CPI Data	Regressive tax effect
+VX-CARL-2.05	Utility Arrears	$23B	ORANGE	<$15B	$20B	$25B	$30B	2026-01-22	Utility Reports	1-in-6 households behind; LIHEAP broken
+VX-CARL-2.06	Uninsured Rate (Medical)	~10%	YELLOW	<8%	12%	15%	20%	2026-01-22	Census/KFF	ACA cliff activated
+VX-CARL-3.01	Jobs Spread	8 pts	YELLOW	>15	5	0	<0	2026-01-22	JOLTS	Approaching inversion; JOLTS Jan due Mar 13
+VX-CARL-3.02	Long-term Unemployed	1.8M	YELLOW	<1.2M	2M	2.5M	3M	2026-02-12	BLS Jan 2026	+386K YoY (+28%); "Hotel California"
+VX-CARL-3.03	Govt Workforce Drop	162K	ORANGE	<50K	100K	150K	200K	2026-01-22	BLS	DOGE + LIHEAP staff eliminated
+VX-CARL-3.04	Savings Rate	~4.5%	YELLOW	>6%	4%	3%	<3%	2026-01-22	BEA	Buffer thinning
+VX-CARL-4.01	Hardship 401k Withdrawals	4.8%	ORANGE	<3%	4.5%	5%	5.5%	2026-01-22	Vanguard	ATH — buffer exhaustion
+VX-CARL-4.02	Gambling Losses	$264B	GREEN	<$200B	$275B	$300B	$350B	2026-01-22	Industry Data	Elevated but stable
+VX-CARL-4.03	Trade-down Migration	2.6M >$100K	ORANGE	<1M	2M	2.5M	3M	2026-01-22	Dollar Tree	High-income downshifting
+VX-CARL-5.01	Liquidity Fragility ($400 test)	37%	YELLOW	<25%	40%	45%	50%	2026-01-24	Fed SHED 2023	One-incident-away population
+VX-CARL-5.02	Care Deferral Rate	28-38%	YELLOW	<20%	35%	40%	50%	2026-01-24	NHIS/Gallup	Deferred care due to cost
+VX-CARL-5.03	Underinsurance Rate (Medical)	23%	YELLOW	<15%	25%	30%	35%	2026-01-24	Commonwealth Fund 2024	23% threshold
+VX-CARL-5.04	Paycheck-to-Paycheck	62%	ORANGE	<45%	65%	70%	75%	2026-01-24	LendingClub	Structural fragility
+VX-CARL-5.05	Hardship Withdrawal Trend	+33% YoY	YELLOW	<+10%	+25%	+35%	+50%	2026-01-24	Industry Data	Doubled since 2018
+VX-CARL-5.06	CA Insurance Retreat	450K+	ORANGE	<200K	400K	500K	600K	2026-01-24	CA FAIR Plan	FAIR Plan policies accelerating
+VX-CARL-6.01	CC 90+ DQ (NY Fed)	12.70%	RED	<8%	10%	12%	13.74%	2026-02-10	NY Fed Q4 2025	Duplicate of 1.01 — consolidate on next refresh
+VX-CARL-6.02	Auto 90+ DQ	5.21%	RED	<3.5%	4%	5%	5.27%	2026-02-10	NY Fed Q4 2025	At historical max
+VX-CARL-6.03	Total Household Debt	$18.78T	ORANGE	<$16T	$18T	$19T	$20T	2026-02-10	NY Fed Q4 2025	Record high (+$4.6T since 2019)
+VX-CARL-6.04	Q1 Income Mortgage DQ	3.0%	ORANGE	<1.5%	2.5%	3%	3.5%	2026-02-10	NY Fed Q4 2025	5x pandemic lows
+VX-CARL-6.05	FL 90+ DQ	4.10%	ORANGE	<2.5%	3.5%	4%	5%	2026-02-10	NY Fed Q4 2025	+49% YoY
+VX-CARL-6.06	FL Foreclosures YoY	+190%	RED	<+25%	+75%	+150%	+200%	2026-02-10	ATTOM	Cure rate collapsed
+VX-CARL-6.07	Unemployment→Mortgage Multiplier	+0.6pp per +1.6pp U3	ORANGE	<+0.2pp	+0.4pp	+0.6pp	+0.8pp	2026-02-10	NY Fed LSE	Transmission coefficient
+VX-CARL-6.08	Home Price Decline Zone	Gulf Coast FL	ORANGE	Isolated	Isolated	Regional	National	2026-02-10	NY Fed LSE	41/85 cities negative YoY
+VX-CARL-6.09	Retail Sales MoM	0% MoM	YELLOW	>+0.5%	-0.5%	-1%	-2%	2026-02-10	Bloomberg Dec 2025	Stalled
+VX-CARL-6.10	Retail Control Group	-0.1% MoM	YELLOW	>+0.3%	-0.5%	-1%	-1.5%	2026-02-10	Bloomberg Dec 2025	Feeds into GDP
+VX-CARL-ABS-01	ABS CC Payment Rate (Discover)	PENDING	PENDING	>24%	18-20%	15-18%	<15%	2026-02-11	EDGAR 10-D	LEADING INDICATOR — baseline needed
+VX-CARL-ABS-02	ABS CC 30+ DQ (Discover)	PENDING	PENDING	<3%	4-5%	5-7%	>7%	2026-02-11	EDGAR 10-D	Monthly tracking
+VX-CARL-ABS-03	ABS CC Charge-off (Discover)	PENDING	PENDING	<4%	5-7%	7-10%	>10%	2026-02-11	EDGAR 10-D	Annualized
+VX-CARL-ABS-04	ABS CC Vintage Quality (Discover)	PENDING	PENDING	<1.0x	1.2-1.5x	1.5-2x	>2x	2026-02-11	EDGAR 10-D	2024/2025 vs 2019
+VX-CARL-ABS-05	ABS CC Payment Rate (Cap One)	PENDING	PENDING	>24%	18-20%	15-18%	<15%	2026-02-11	EDGAR 10-D	Prime/subprime mix
+VX-CARL-ABS-06	ABS CC 30+ DQ (Cap One)	PENDING	PENDING	<3%	4-5%	5-7%	>7%	2026-02-11	EDGAR 10-D	Monthly tracking
+VX-CARL-ABS-07	ABS CC Charge-off (Cap One)	PENDING	PENDING	<4%	5-7%	7-10%	>10%	2026-02-11	EDGAR 10-D	Annualized
+VX-CARL-ABS-08	ABS Auto Payment Rate (Santander)	PENDING	PENDING	>5%	3.5-4%	3-3.5%	<3%	2026-02-11	EDGAR 10-D	Subprime auto bellwether
+VX-CARL-ABS-09	ABS Auto 30+ DQ (Santander)	PENDING	PENDING	<8%	10-12%	12-15%	>15%	2026-02-11	EDGAR 10-D	Subprime threshold
+VX-CARL-ABS-10	ABS Auto Charge-off (Santander)	PENDING	PENDING	<6%	8-10%	10-12%	>12%	2026-02-11	EDGAR 10-D	Subprime auto stress
+VX-CARL-ABS-11	ABS Auto 30+ DQ (Exeter)	PENDING	PENDING	<10%	12-15%	15-18%	>18%	2026-02-11	EDGAR 10-D	Deep subprime — S&P elevated loss
+VX-CARL-ABS-12	ABS Auto Payment Rate (Ally)	PENDING	PENDING	>5.5%	4-5%	3.5-4%	<3.5%	2026-02-11	EDGAR 10-D	Prime/near-prime comparison
+VX-CARL-ABS-13	ABS Cross-Trust Divergence	PENDING	PENDING	<0.5pp	<1pp	1-2pp	>2pp	2026-02-11	Multiple trusts	Signal dispersion
+VX-CARL-ABS-14	ABS vs NY Fed DQ Divergence	PENDING	PENDING	<0.3pp	<0.5pp	0.5-1pp	>1pp	2026-02-11	ABS vs NY Fed	Early warning confirmation
+VX-CARL-ABS-15	Subprime Auto 60+ DQ (ABS)	7.1%	RED-BREACHED	<3%	>5%	>6%	>7%	2026-03-04	Fitch ABS Feb 2026	⚠️ BREACHED. Duplicate of 1.04 — consolidate on next refresh.
+VX-CARL-FC-01	National Foreclosures (Qtr)	58,140	ORANGE	<35,000	50,000	60,000	70,000	2026-02-12	NY Fed/ATTOM Q4 2025	+41% YoY; target 70K/qtr Q2
+VX-CARL-MF-01	Fannie MF Serious DQ	0.74%	ORANGE	<0.40%	0.60%	0.70%	0.80%	2026-03-04	Fannie Mae	6bps from GFC peak. IMMINENT. $270B+ maturity wall.
+VX-CARL-MF-02	Freddie MF Serious DQ	0.48%	ORANGE	<0.20%	0.30%	0.40%	0.50%	2026-02-12	Freddie Mac	Highest in 21 years; doubled in 2 years
+VX-CARL-CVNA	Carvana Stock (Auto Canary)	-16% (2-day)	ORANGE	>0%	-10%	-15%	-20%	2026-02-12	Market	Fraud allegations; SEC investigation
+VX-CARL-NAR-01	NAR Housing Crisis Declaration	DECLARED	RED	CAUTIOUS	WARNING	CRISIS	DECLARED	2026-02-12	NAR Lawrence Yun	"New housing crisis" — consensus break
+VX-CARL-BNPL-01	BNPL Late Payment Rate	41%	YELLOW	<30%	>45%	>50%	>55%	2026-02-12	LendingTree/Richmond Fed	Annual; +7pp YoY
+VX-CARL-BNPL-02	BNPL Charge-Off Rate	1.83%	GREEN	<1.5%	>2.5%	>3.5%	>4.5%	2026-02-12	CFPB/Richmond Fed	Down from 2.63% in 2022
+VX-CARL-BNPL-03	BNPL Subprime Concentration	61%	ORANGE	<40%	>55%	>65%	>70%	2026-02-12	CFPB/Richmond Fed	45% deep subprime + 16% subprime
+VX-CARL-BNPL-04	BNPL Repayment Confidence	59%	GREEN	>70%	<55%	<50%	<45%	2026-02-12	LendingTree	% very confident
+VX-CARL-SL-01	Student Loan 30+ DQ	16.3%	ORANGE	<8%	>12%	>15%	>18%	2026-02-12	NY Fed Q4 2025	WORST EVER — $271B delinquent
+VX-CARL-SL-02	Student Loan 90+ DQ	9.6%	ORANGE	<5%	>6%	>8%	>10%	2026-02-12	NY Fed Q4 2025	$159B delinquent; 0.4pp from 10%
+VX-CARL-SL-03	SAVE Plan Status	ENJOINED	ORANGE	ACTIVE	LITIGATION	ENJOINED	KILLED	2026-02-12	StudentAid.gov	7M+ in forbearance
+VX-CARL-SL-04	Credit Score Impact Population	9M+	ORANGE	<3M	>5M	>8M	>12M	2026-02-12	NY Fed	Superprime -171 pts when payments resume
+VX-CARL-UTIL-01	CC Utilization Rate	23.6%	GREEN	<20%	>25%	>30%	>35%	2026-02-12	NY Fed Q4 2025	60% carry balance monthly
+VX-CARL-UTIL-02	Available Credit	$4.15T	GREEN	>$4.5T	<$4.0T	<$3.5T	<$3.0T	2026-02-12	NY Fed Q4 2025	Buffer shrinking
+VX-CARL-MED-01	Medical Collections	$88B	GREEN	<$60B	>$100B	>$120B	>$150B	2026-02-12	CFPB	58% of all collections; 43M reports
