@@ -1,7 +1,7 @@
 # PROME STATUS.md
-**Updated:** 2026-03-09 22:30 UTC
+**Updated:** 2026-03-09 23:00 UTC
 
-**Last context:** CARL migration fully complete (CLAUDE, KB 77, VX 69, PREDICTIONS 8, TRADE 6, inbox 9/9 processed). HAWK fully complete. Three gold-standard agents: ZHAO, HAWK, CARL. Monday market actions queued.
+**Last context:** Full Monday complete. AM: 4 docs→18 signals→6 check-ins→3 sells. PM: fertilizer/CF thesis, stagflation lags, 5 new positions (TLT x4, KRE x2). CPI Tuesday is next catalyst. CF entry pending.
 
 ## 🔴🔴 SCENARIO C BASE CASE — WAR DAY 10 — PRIVATE CREDIT CASCADE CONFIRMED
 
@@ -64,15 +64,13 @@
 
 ---
 
-## Monday Actions
+## Monday Results (Mar 9)
 
-1. SSB trim 50% — first at open
-2. TLT puts ADD — top conviction
-3. VIX call spread ADD — SPY below 20-wk
-4. LNG spread evaluate
-5. WAL position confirm
-6. Taiwan Taipower check
-7. Live data pulls (BRIEFING.md)
+✅ SSB sold +191% | ✅ GOOG/OKLO/AMH/SLV/PALL trimmed
+✅ TLT $85P Sep x2 + $88P May x2 entered | ✅ KRE $60P Jun + EOD add
+⬜ VIX call spread — deferred (red day) | ⬜ LNG spread — deferred
+⬜ Taiwan check — Will to run prompt | ✅ 4 docs processed, 18 signals routed
+🆕 CF $115C May pending ($8.00-8.50) — fertilizer thesis developed
 
 ---
 
