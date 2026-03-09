@@ -5,25 +5,36 @@
 ---
 
 ## Handoff
-**Last context:** Evening research session. Deep-dived Russia sanctions easing (Perplexity + Kimi), triaged 9 market screenshots (oil 5-sigma crash, airlines, fertilizer map, Hormuz takeover), analyzed Eisman Ep 49 transcript. Key finding: oil crash is technical unwind, not fundamental repricing. SoFi CNL trigger is new leading indicator.
+**Last context:** Massive research session. Completed prompt #1 (Russia sanctions, 3-source) and prompt #2 (oil shock timelines, 3-source). Both UNANIMOUS: oil crash is mid-crisis pullback, second leg higher probable, equity/credit damage hasn't started. TLT puts confirmed #1 conviction — bonds sold off in EVERY 1970s oil shock, no safe haven in stagflation. Even ceasefire doesn't kill thesis (3 legs: energy is only 1, foreign selling + deficit are independent).
 
-**Next tide:**
-1. **CPI Tuesday 8:30 AM ET** — 🔴🔴 hot CPI likely (65%). TLT puts test immediately.
-2. **Prompt #2 results** — oil shock historical timelines (1973/1979). Will is running through LLMs. Analyze when returned.
-3. **Prompts #3-5** — fertilizer mechanics/CF, tanker rates vs crude, Hormuz seizure precedents. All saved in PROMPTS.md, ready to run.
-4. **Taiwan LNG prompt** — STILL UNRUN. 🔴🔴 Most time-sensitive item.
-5. **NEXUS synthesis** — all agents loaded with fresh signals, still queued
-6. **CARL ABS sprint** — 14 PENDING VX rows + SoFi CNL signal just routed
-7. **Thursday Mar 12: Initial claims** — UCFE framework ready
-8. **Friday Mar 13-14: BOJ + JOLTS + TIC Mar 15**
+**Next tide (IMMEDIATE — do these next session):**
+1. **Write oil shock signal files** → HENRY, HAWK, FORGE. Research is done but not yet persisted to agent inboxes.
+2. **Prompt #3 (fertilizer/CF)** — Will to run. CF entry blocked until we understand supply mechanics. Gemini found fertilizer inputs spiked within 2 WEEKS of 1973 decontrol. Urgency: high.
+3. **Taiwan LNG prompt** — 🔴🔴 THIRD SESSION flagging this. Will must run.
+4. **CPI Tuesday 8:30 AM ET** — hot print expected (65%). TLT puts test.
+5. **Prompts #4-5** — tanker rates, Hormuz seizure. Lower priority than #3.
+6. **HYG Jun puts — consider rolling to Sep/Dec.** Three sources say credit spreads lag 5-14 months after recession starts. Jun might be early.
+7. **NEXUS synthesis** — all agents loaded, still queued
+8. **CARL ABS sprint** — 14 PENDING VX rows + SoFi CNL routed
+
+**Key research findings tonight (MUST PERSIST to agent files):**
+- Russia sanctions easing = 300-500K bpd over months (7-15% of Gulf gap). Shadow fleet relabeling = zero new barrels. Technical unwind, not fundamental.
+- Oil shock template: 1979-80 staircase. Mid-crisis pullbacks of 15-20% followed by second leg higher. Mar 9 crash matches April 1980 pullback exactly.
+- Equity bottom lags oil peak by 10-27 months. Credit spreads lag 5-14 months after recession starts. We're in early innings.
+- Airlines: post-deregulation 1979-80 was catastrophic. $877M profit → -$848M loss. AAL is the direct analog.
+- Fertilizer: raw inputs spike immediately (weeks), food prices lag 1-2 quarters. CF entry should be ASAP.
+- SPR covers 15-20 days of a 20M bpd shortfall. Band-aid, not fix.
+- SoFi 2025-1 CNL trigger breached (first ever). ABS cracking before HY spreads.
+- 20% of private credit = software buyout lending. Blue Owl/Kuvari insurance stuffing = bad bank pattern.
+- Eisman complacent on private credit — looking at HY spreads (lagging), missing leading indicators.
 
 **Open questions:**
-- KRE EOD put details (strike/expiry) — Will to confirm
+- KRE EOD put details — Will to confirm
 - Senate DHS vote outcome unknown
-- Oil crash impact on USO re-entry timing — research says buying opportunity IF Hormuz stays closed
-- CF $115C May entry — fertilizer prompt (#3) needed before entry
+- Trump hinting at peace — doesn't kill thesis (3 legs) but could slow timeline. Watch for headlines.
+- USO re-entry timing — second leg to $120-130 probable if Hormuz stays closed
 
-**Rhythm note:** Will invented the "What Should I Be Asking You?" meta-prompt — powerful inversion of research flow. Saved as reusable. Multi-LLM pipeline (Perplexity + Kimi + ChatGPT) producing excellent cross-verified research. Eisman is complacent on private credit — bullish for our shorts.
+**Rhythm note:** Best research session yet. Multi-LLM pipeline (Perplexity + Kimi + ChatGPT + Gemini) producing institutional-quality cross-verified research. "What Should I Be Asking You?" meta-prompt is a breakthrough tool. Will's instinct to stress-test the TLT thesis against peace scenario was sharp — forced us to articulate why it works even without the war.
 
 ---
 
