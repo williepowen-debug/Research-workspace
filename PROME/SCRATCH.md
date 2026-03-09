@@ -1,28 +1,29 @@
 # SCRATCH — Ephemeral Working Memory
 
-**Updated:** 2026-03-09 ~11 PM ET
+**Updated:** 2026-03-09 ~10:00 AM ET
 
 ---
 
 ## Handoff
-**Last context:** Sunday night review session. State of Play report + weekly playbook + 6 research prompts created. FUTURES CRATERING: oil $100, S&P -1.9%, Dow -1,100, VIX 29.5. Monday is a RED open — SSB trim only, no new puts. Will now posting signals for triage/routing.
+**Last context:** Monday AM session complete. 4 Gemini docs → 18 signals routed. 6 agent check-ins done. SSB/GOOG/OKLO sold at open. Cash ~$7,700. PROMPTS.md rewritten with 10 standalone prompts. Next: NEXUS synthesis, CARL ABS sprint, green-day entries (CPI Tuesday).
 **Next tide:**
-1. **Monday market actions** — SSB trim 50%, TLT puts ADD, VIX call spread ADD, LNG spread evaluate, WAL confirm, Taiwan check, live data pulls (see BRIEFING.md)
-2. **ZHAO Campbell vector integration** — ✅ COMPLETE (Mar 9 check-in). Vector #1 upgraded to 5, Gulf fully integrated, TSMC pathway added. Total score 36/50.
-3. **HENRY KB migration** (Sprint 3d, 89 rows)
-4. **BROCK TRADE.md** — last agent without one
-5. **REGINALD KB migration** (Sprint 3e, 116 rows, hardest)
-**Open questions:** ABS baseline monitoring overdue since Feb 15 (14 CARL VX rows PENDING). PROME inbox has CARL danger-window signal to read.
-**Positions:** No changes tonight (infrastructure session).
-**Rhythm note:** Good pace. Three full agent migrations done (ZHAO, HAWK, CARL). Template pattern is smooth now.
-**Today's work:**
-- CARL CLAUDE.md rewritten to template standard
-- CARL PREDICTIONS.tsv 2→8 rows (+Invalidation, CRL-02 CONFIRMED)
-- CARL TRADE.md created (6 recs, template format)
-- HAWK TRADE.md created (6 recs) — HAWK fully complete
-- CARL inbox spawn: 9 signals processed, 11 KB entries, 1 FLOW, 2 outbox signals
-- HERMES: ZHAO→LIQUID + CARL→REGINALD + CARL→PROME delivered
-- All transitory docs updated
+1. **NEXUS synthesis run** — SAM recommended, all agents have fresh signals
+2. **CARL ABS sprint** — 14 PENDING VX rows, Experian Q4 published. After hours.
+3. **Green-day entries (CPI Tuesday?)** — TLT puts (#1), VIX call spread, LNG spread, WAL add on bounce
+4. **PROMPTS.md** — Will to run Taiwan LNG + Oil $100 (🔴 urgent) through Gemini
+5. **HENRY KB migration** (Sprint 3d, 89 rows)
+6. **BROCK TRADE.md** — last agent without one
+7. **REGINALD KB migration** (Sprint 3e, 116 rows, hardest)
+**Open questions:** LABOR/CARL check-in reports still pending. Senate DHS vote today. ZHAO Campbell ✅ DONE.
+**Positions:** SSB sold (+191%), GOOG sold, OKLO sold. Cash ~$7,700. WAL add on green bounce (approved).
+**Rhythm note:** Massive AM. 4 docs→18 signals→6 check-ins→3 trades. System running hot. Four-Anchor framework live.
+**Today's work (AM):**
+- 4 Gemini docs processed → 18 signal files across 11 agent inboxes
+- 6 agent check-ins (LABOR, CARL, MARCO, SAM, ZHAO, OTTO)
+- SSB $90P sold +191%, GOOG sold, OKLO sold
+- 3 positions logged from Fri (WAL $65P, OZK May $42.5P, OWL $9.5P)
+- MARCO: Pred #25 80%, VX-DOGE-01 created. ZHAO: Campbell done, 4-anchor. OTTO: EDGAR monitor, First Brands CFO guilty.
+- PROMPTS.md rewritten (10 standalone prompts for external LLMs)
 
 ## Migration Scorecard
 | Agent | Status | Remaining |

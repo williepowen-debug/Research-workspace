@@ -3,7 +3,20 @@
 *Every trade gets logged here at entry with full thesis. Updated as trades evolve.*
 *P/L tracking lives in FORGE/STATUS.md. This file is the WHY, not the what.*
 
-**Last Updated:** 2026-03-06
+**Last Updated:** 2026-03-09
+
+---
+
+## Closed — March 9, 2026
+
+### SSB $90P Jun 18 | SOLD @ $5.45 | +$358 (+191%)
+Entered ~$1.87. Trimmed per Monday playbook — first action at open. +109% at Friday close, got even better fill at $5.45 on red open. Limit set at $4.85, filled at $5.45. Dead weight thesis (Q1 earnings may look clean, FL UI cliff hits AFTER Q1 close, theta accelerating). Second SSB contract was previously sold Mar 2 at $3.00.
+
+### GOOG | SOLD @ $295.68 | -$38 (-11.5%)
+1 share. No thesis connection. Clearing dead weight for dry powder.
+
+### OKLO | SOLD @ $56.70 | -$102 (-37.4%)
+3 shares @ ~$90.78 entry. Nuclear spec, no thesis connection, bleeding. Freed ~$170.
 
 ---
 

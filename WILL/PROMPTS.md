@@ -1,22 +1,19 @@
 # PROMPTS.md — Research Prompts for Will
 
-Prompts for Will to run through external LLMs (multi-model cross-verification protocol).
-Prome adds prompts here; Will picks them up and runs them.
+Prompts for Will to run through external LLMs (Gemini, Perplexity, ChatGPT, etc.).
+These are standalone prompts — no internal system knowledge required by the LLM.
+Prome adds prompts here; Will picks them up and runs them; results come back for integration.
 
 ---
 
 ## Queued
 
-### ✅ DHS Shutdown Status Verification — COMPLETED
-**Result:** CONFIRMED ONGOING as of Mar 9. Day 23+. Senate blocked House bill 51-45. 234K essential without pay, 26K furloughed. All claims prints since Feb 14 suppressed.
-**Verified by:** Perplexity + Gemini (Mar 9)
-
 ### Google Trends — Labor Search Terms
-**Priority:** 🟡 LABOR KB staleness
+**Priority:** 🟡 | **Routes to:** LABOR
 **⚠️ WILL MUST DO MANUALLY** — LLMs cannot access real-time Google Trends data. Go to trends.google.com directly.
-**Prompt (for your own reference):**
 ```
-Using Google Trends data for the United States, provide the current relative search interest (past 90 days trend) for each of the following terms:
+Go to Google Trends (trends.google.com) and look up US search interest 
+(past 90 days) for these terms:
 
 1. "unemployment benefits"
 2. "file for unemployment"
@@ -26,115 +23,324 @@ Using Google Trends data for the United States, provide the current relative sea
 6. "food stamps" / "SNAP benefits"
 7. "job openings near me"
 
-For each term, state: current week's index value (0-100), 4-week average, whether the 90-day trend is rising/flat/declining, and any notable spikes in the past 30 days. Compare current levels to the same period in 2025 and 2024 if possible.
-
-Note if any terms show breakout or unusual patterns. These are used as real-time sentiment proxies for labor market stress.
+For each: current week's index (0-100), 4-week average, 90-day trend 
+(rising/flat/declining), any spikes in the past 30 days. Compare to the 
+same period in 2025 and 2024 if possible. Flag any breakout patterns.
 ```
 
 ---
 
-### Taiwan Taipower LNG Buffer Status
-**Priority:** 🔴 CRITICAL — Mar 10 potential exhaustion
-**Run Monday morning before open**
+### Taiwan LNG Reserves and Power Supply Status
+**Priority:** 🔴 CRITICAL | **Routes to:** HAWK, HENRY
 ```
-What is the current status of Taiwan's LNG reserves and Taipower's natural gas supply as of March 9-10, 2026? Specifically:
+What is the current status of Taiwan's natural gas reserves and power 
+supply as of March 9-10, 2026?
 
-1. How many days of LNG reserves does Taiwan currently hold?
-2. Has Taipower issued any rationing notices, emergency procurement, or public statements about supply concerns related to the Hormuz Strait closure?
-3. What percentage of Taiwan's LNG imports transit the Strait of Hormuz or originate from Qatar/UAE?
-4. Are there reports of any industrial power curtailment or semiconductor fab impact (TSMC, UMC)?
-5. Has Taiwan activated any emergency energy protocols or sought alternative supply (US, Australia)?
+1. How many days of LNG reserves does Taiwan currently hold? What is 
+   the normal buffer level?
+2. Has Taiwan's state power company (Taipower) issued any rationing 
+   notices, emergency procurement orders, or public statements about 
+   supply concerns since the Strait of Hormuz closure began in early 
+   March 2026?
+3. What percentage of Taiwan's LNG imports transit the Strait of 
+   Hormuz or originate from Qatar and the UAE?
+4. Are there any reports of industrial power curtailment affecting 
+   semiconductor manufacturing (TSMC, UMC, or other fabs)?
+5. Has Taiwan activated emergency energy protocols or sought 
+   alternative LNG supply from the US, Australia, or other sources?
+6. What are analysts or government officials saying about the timeline 
+   before reserves become critically low?
 
-Cite sources with dates. This is time-sensitive — Taiwan's buffer was estimated at 7-11 days as of Mar 1.
-```
-
-### Oil $100 Breach — Downstream Impact Scan
-**Priority:** 🔴 — Brent just broke $100 tonight (Mar 9)
-```
-WTI crude oil has surged past $100/barrel as of March 9, 2026 (Hormuz closure, Iraq 70% shut-in). Provide a current assessment of:
-
-1. US national average gasoline price (AAA or GasBuddy, most recent)
-2. Diesel/ULSD rack price trend over the past 7 days
-3. Jet fuel spot price (Gulf Coast or NY Harbor) — current vs 30 days ago
-4. Any airline announcements about fuel surcharges, route cuts, or capacity reductions since Mar 1
-5. Any trucking/freight company announcements about surcharges or service changes
-6. Fertilizer price changes (urea, DAP, potash) since Hormuz closure
-7. US SPR status — any announced or rumored releases?
-
-Focus on data from the past 7 days. Cite sources with dates.
+Cite all sources with dates. Focus on information from the past 7 days.
 ```
 
-### Kennedy-Wilson Bondholder Revolt
-**Priority:** 🟠 — CRE can-kick failure signal (NEXUS C-17)
+---
+
+### Oil at $100 — Downstream Economic Impact
+**Priority:** 🔴 | **Routes to:** HAWK, CARL, LABOR
 ```
-What is the current status of Kennedy-Wilson Holdings' (KW) debt exchange offer as of early March 2026? Specifically:
+With WTI crude oil above $100/barrel as of March 9, 2026, driven by 
+the Hormuz Strait closure and Iraqi production disruption, provide a 
+current snapshot of downstream economic impacts:
 
-1. What are bondholders demanding vs what KW offered?
-2. Has any bondholder group publicly rejected the exchange?
-3. What are the key deadlines or court dates?
-4. What is KW's current credit rating and any recent rating actions?
-5. Are there comparable CRE companies facing similar bondholder resistance to debt exchanges?
+1. US national average gasoline price — most recent data from AAA 
+   or GasBuddy. How does this compare to one month ago?
+2. Diesel and ultra-low sulfur diesel (ULSD) rack prices — trend 
+   over the past 7 days
+3. Jet fuel spot price (Gulf Coast or NY Harbor) — current level 
+   vs 30 days ago, and percentage change
+4. Have any major US airlines announced fuel surcharges, route 
+   cuts, or capacity reductions since March 1, 2026?
+5. Have any major trucking or freight companies announced fuel 
+   surcharges or service changes?
+6. Fertilizer prices (urea, DAP, potash) — current vs pre-Hormuz 
+   closure levels
+7. US Strategic Petroleum Reserve — any announced or rumored 
+   releases? What is the current SPR inventory level?
 
-This relates to the broader thesis that "extend and pretend" in CRE is breaking down. Cite sources.
-```
-
-### Gulf Fertilizer Supply Chain (NEXUS C-18)
-**Priority:** 🟠 — Spring planting window NOW, not on consensus radar
-```
-Assess the impact of the Hormuz Strait closure (since March 1, 2026) on global fertilizer supply:
-
-1. What percentage of global urea, DAP, and potash exports transit Hormuz?
-2. India's dependency on Gulf-origin nitrogen fertilizers — what percentage and from which countries?
-3. Current urea and DAP spot prices vs pre-closure levels
-4. Have any major fertilizer importers (India, Brazil, SE Asia) announced emergency procurement or rationing?
-5. What is the timeline pressure — when must fertilizer be procured for Northern Hemisphere spring planting to avoid yield impact?
-6. 280 dry bulk carriers reportedly trapped — any confirmation of this number and impact on ag commodity shipping?
-
-Cite sources with dates. This is a second-order effect of the Hormuz closure that is largely absent from mainstream financial coverage.
+Cite sources with dates. Focus on data from the past 7 days only.
 ```
 
-### BlackRock HLEND Gate — Contagion Tracking
-**Priority:** 🟠 — First hard gate triggered Mar 6
+---
+
+### Kennedy-Wilson Holdings Debt Exchange Status
+**Priority:** 🟠 | **Routes to:** REGINALD
 ```
-BlackRock's HLEND ($26B private credit fund) formally gated redemptions on March 6, 2026, paying $620M of $1.2B requested. Provide an update:
+What is the current status of Kennedy-Wilson Holdings' (ticker: KW) 
+debt exchange offer as of early March 2026?
 
-1. Has BlackRock issued any public statement since the gate announcement?
-2. Have any OTHER private credit funds (beyond BCRED and HLEND) announced redemption limits, gates, or liquidity restrictions since Mar 6?
-3. What is the current status of Blackstone BCRED — are they still honoring 100% via employee capital injection?
-4. Blue Owl OCSL II — status of the permanent liquidity freeze?
-5. Any new BDC dividend cuts or NAV markdowns announced in the past week?
-6. Regulatory response — has SEC or any regulator commented on the HLEND gate?
+1. What were the terms of the exchange offer — what did KW propose 
+   to bondholders?
+2. Have any bondholder groups publicly rejected or pushed back on 
+   the exchange?
+3. What are the key deadlines, court dates, or expiration dates 
+   for the offer?
+4. What is KW's current credit rating, and have any rating agencies 
+   taken action recently?
+5. What is the total debt outstanding and maturity schedule?
+6. Are there other commercial real estate (CRE) companies currently 
+   facing similar bondholder resistance to debt restructuring or 
+   exchange offers? If so, list them with details.
 
-Cite sources with dates. Focus on events since March 5, 2026.
+Cite sources with dates.
 ```
 
-### ABS Baseline — Subprime Auto (14 CARL VX rows PENDING)
-**Priority:** 🟡 — Overdue since Feb 15
+---
+
+### Hormuz Closure Impact on Global Fertilizer Supply
+**Priority:** 🟠 | **Routes to:** HAWK, CARL
 ```
-Provide current auto loan ABS performance data as of the most recent available reporting (likely January or February 2026 remittance reports):
+Assess the impact of the Strait of Hormuz closure (since approximately 
+March 1, 2026) on the global fertilizer market:
 
-1. Subprime auto 60+ day delinquency rate (Fitch composite or S&P index)
-2. Prime auto 60+ day delinquency rate
-3. Net loss rate (annualized) for subprime auto ABS
-4. Recovery rates on repossessed vehicles — current vs 12 months ago
-5. Any new subprime auto ABS deals priced in Feb-Mar 2026? What were the subordination levels vs 2024 vintage?
-6. Carvana (CVNA) / DriveTime ABS performance specifically — any trustee reports or rating actions?
+1. What percentage of global urea, DAP (diammonium phosphate), and 
+   potash exports normally transit the Strait of Hormuz?
+2. Which countries are the largest Gulf-origin fertilizer exporters, 
+   and who are their primary customers?
+3. How dependent is India on Gulf-origin nitrogen fertilizers? What 
+   percentage of India's fertilizer imports come through Hormuz?
+4. What are current urea and DAP spot prices compared to pre-closure 
+   levels (late February 2026)?
+5. Have any major importing countries (India, Brazil, Southeast Asia) 
+   announced emergency procurement, rationing, or subsidy changes?
+6. What is the timeline pressure for Northern Hemisphere spring 
+   planting — by when must fertilizer be procured and applied to 
+   avoid crop yield impacts?
+7. Reports suggest approximately 280 dry bulk carriers may be 
+   trapped or rerouted — is there confirmation of shipping 
+   disruption affecting agricultural commodity transport?
 
-This is for tracking the subprime auto ALL-TIME RECORD (7.1% 60+ DQ per Fitch Feb 2026). We need the trend, not just the level.
+Cite sources with dates. This is a second-order economic effect of 
+the Hormuz closure that may not be receiving mainstream attention.
+```
+
+---
+
+### BlackRock HLEND Redemption Gate — Private Credit Contagion
+**Priority:** 🟠 | **Routes to:** BROCK
+```
+BlackRock's HLEND private credit fund (~$26B AUM) reportedly gated 
+redemptions around March 6, 2026, paying only a portion of total 
+redemption requests. Provide a comprehensive update:
+
+1. Has BlackRock issued any public statement about HLEND's 
+   redemption situation since the gate was imposed?
+2. Have any OTHER private credit funds announced redemption limits, 
+   gates, or liquidity restrictions since early March 2026? List 
+   each with fund name, manager, AUM, and details.
+3. What is the current status of Blackstone's BCRED fund — are 
+   they still honoring full redemption requests?
+4. What is the status of Blue Owl Capital's OCSL II fund — has 
+   the liquidity restriction changed?
+5. Have any Business Development Companies (BDCs) announced 
+   dividend cuts or NAV markdowns in the past two weeks?
+6. Has the SEC or any financial regulator commented publicly on 
+   private credit fund liquidity or gating?
+7. What are the total reported redemption requests across the 
+   major non-traded private credit funds (BCRED, HLEND, OCSL, 
+   others) for Q1 2026?
+
+Cite sources with dates. Focus on events since March 1, 2026.
+```
+
+---
+
+### Subprime Auto ABS Performance Data
+**Priority:** 🟡 | **Routes to:** CARL, OTTO
+```
+Provide the most recent auto loan asset-backed securities (ABS) 
+performance data, likely from January or February 2026 remittance 
+reports:
+
+1. Subprime auto 60+ day delinquency rate — Fitch composite index 
+   or S&P tracking. What is the current level and YoY change?
+2. Prime auto 60+ day delinquency rate for comparison
+3. Subprime auto ABS annualized net loss rate — current vs 6 and 
+   12 months ago
+4. Recovery rates on repossessed vehicles — current level vs 12 
+   months ago. Are recoveries improving or declining?
+5. Have any new subprime auto ABS deals been priced in February 
+   or March 2026? If so, what were the subordination levels 
+   compared to 2024 and 2025 vintage deals?
+6. Are there any specific ABS trusts (particularly those backed 
+   by Carvana/DriveTime originations) with recent trustee reports 
+   or rating actions?
+7. What is the current average auto loan term for new subprime 
+   originations, and what percentage of new loans have negative 
+   equity at origination?
+
+The context is that Fitch reported subprime auto 60+ day delinquencies 
+hit an all-time record of approximately 7.1% in early 2026. We need 
+to understand the trend trajectory, not just the headline level.
+```
+
+---
+
+### Japan FY2026 Budget and JGB Issuance Schedule
+**Priority:** 🟠 | **Routes to:** SAM, ZHAO
+```
+Japan's new Prime Minister Sanae Takaichi passed a ¥122 trillion 
+FY2026 budget, the largest in Japanese history, with an LDP 
+supermajority in the Diet. Provide details on:
+
+1. What is the total planned Japanese Government Bond (JGB) 
+   issuance for FY2026 (April 2026 - March 2027)? How does this 
+   compare to FY2025?
+2. What is the breakdown of planned issuance by maturity bucket 
+   (2Y, 5Y, 10Y, 20Y, 30Y, 40Y)?
+3. What is the Ministry of Finance (MoF) JGB auction calendar 
+   for April through June 2026?
+4. Has the Bank of Japan (BOJ) signaled any changes to its JGB 
+   purchase tapering plan in response to the larger budget?
+5. What percentage of JGB issuance is the BOJ currently absorbing 
+   through its purchasing program?
+6. What are analysts saying about the impact of increased JGB 
+   supply on long-end yields (20Y, 30Y)? Any specific yield 
+   forecasts for Q2-Q3 2026?
+7. How is the market pricing the combination of Takaichi's fiscal 
+   expansion and BOJ monetary policy — any notable moves in JGB 
+   futures or USD/JPY forward rates?
+
+USD/JPY is currently around 158.60 and JGB 10Y yield is approximately 
+2.22%. Cite sources with dates.
+```
+
+---
+
+### MFS (Motor Finance Specialist UK) Fraud — Full Exposure Map
+**Priority:** 🟠 | **Routes to:** OTTO, BROCK
+```
+Provide a comprehensive map of financial institution exposure to the 
+MFS (Motor Finance Specialist) fraud in the United Kingdom, which 
+involves alleged double-pledging of vehicle collateral across multiple 
+lenders and securitization vehicles. As of March 2026:
+
+1. List every financial institution with confirmed or reported 
+   exposure to MFS, including: institution name, confirmed exposure 
+   amount (£), type of exposure (direct lending, SPV participation, 
+   warehouse facility), and source/date of confirmation.
+2. Known exposures to verify/update: Barclays (~£500M), Jefferies 
+   (~£100M+), Elliott Investment Management (~£200M), SMBC, 
+   Macquarie, Wells Fargo, Castlelake, TPG, Santander.
+3. What is the status of regulatory investigations — is the Serious 
+   Fraud Office (SFO) or Financial Conduct Authority (FCA) involved?
+4. Has an administrator been appointed for MFS? If so, who, and 
+   what have they reported?
+5. How many Special Purpose Vehicles (SPVs) were involved, and who 
+   was the auditor?
+6. Is there any connection between MFS and Atlas SP (the structured 
+   products platform associated with Apollo Global Management)?
+7. What is the estimated total shortfall between claimed collateral 
+   value and actual asset value?
+8. Are there any related lawsuits filed by exposed institutions 
+   against each other or against MFS principals?
+
+Cite all sources with dates. This is a developing story with 
+significant cross-border financial institution exposure.
+```
+
+---
+
+### Senate DHS Funding Vote — March 9 Outcome
+**Priority:** 🟠 | **Routes to:** MARCO, LABOR
+```
+What was the outcome of the US Senate vote on Department of Homeland 
+Security (DHS) funding on March 9, 2026? This was reportedly the 
+4th attempt to pass the House bill (which passed 221-209).
+
+1. Did the Senate pass the DHS funding bill? What was the final 
+   vote count?
+2. If it passed: when does DHS officially reopen? When will 
+   employees receive back pay? When does E-Verify resume 
+   operations?
+3. If it failed: what is the next procedural step? Is there a 
+   5th vote scheduled? What are Senate leaders saying about 
+   the timeline?
+4. Have there been any statements from the White House, Senate 
+   Majority Leader, or Senate Minority Leader about next steps?
+5. What is the current status of TSA staffing — are there 
+   reports of agents calling out or airports experiencing 
+   extended delays?
+6. How many federal employees remain furloughed or working 
+   without pay?
+
+Cite sources with dates. The DHS shutdown has been ongoing since 
+approximately February 14, 2026.
+```
+
+---
+
+### Experian Q4 2025 Auto Lending — Full Breakdown
+**Priority:** 🟡 | **Routes to:** CARL, OTTO
+```
+Experian published its Q4 2025 State of the Automotive Finance Market 
+report around March 5, 2026. Provide the complete data breakdown:
+
+1. Subprime share of total vehicle financing for Q4 2025, broken 
+   out by new vehicles and used vehicles separately
+2. Delinquency rates by credit tier: 30-day, 60-day, and 90-day 
+   for subprime, near-prime, prime, and super-prime
+3. Average loan amount and average loan term by credit tier 
+   (new and used)
+4. Percentage of loans with negative equity at origination
+5. Year-over-year change for each of the above metrics compared 
+   to Q4 2024
+6. Quarter-over-quarter change compared to Q3 2025
+7. Any Experian commentary on outlook for 2026
+8. Average monthly payment by credit tier
+9. Repossession trends — any data on volume or rate changes
+
+Compare key metrics to Q3 2025 and Q4 2024 to show the trend 
+direction. Cite the Experian report directly where possible.
 ```
 
 ---
 
 ## Completed
 
+### Hormuz Resolution Oil Reversal Analogs (Mar 9)
+Gemini deep research doc. 5 historical analogs (1991 Gulf War, 2003 Iraq, 2011 Libya, 2019 Abqaiq, 2022 Russia). 18 signal files routed to 11 agents.
+
+### UCFE Mechanics / March 12 Claims Framework (Mar 9)
+Gemini deep research doc. Federal unemployment claims plumbing, SF-50 bottleneck, 126-160K suppressed backlog estimate, 3 scenarios for March 12.
+
+### Bank Forced Disclosure / 8-K Pre-Announcement Framework (Mar 9)
+Gemini deep research doc. 2008 + 2023 patterns, FDIC Call Report indicator hierarchy, OZK watch window Mar 25-Apr 10.
+
+### Tech Goods Deflation / TSMC Dependency (Mar 9)
+Gemini deep research doc. Core PCE relief valve math, hedonic reversal mechanism, 3 TSMC disruption scenarios.
+
+### DHS Shutdown Status Verification (Mar 9)
+Perplexity + Gemini. CONFIRMED ONGOING Day 23+. Senate blocked 51-45.
+
 ### Indeed Job Postings (Mar 9)
-4 LLMs: Gemini, DeepSeek, Perplexity, ChatGPT → KB-LAB-018 updated
+4 LLMs cross-verified. Index 104.7 (FRED-confirmed), -5.9% YoY.
 
 ### Cass Freight Index (Mar 9)
-4 LLMs: Gemini, DeepSeek, Perplexity, ChatGPT → KB-LAB-043 updated
+4 LLMs cross-verified. Shipments 0.886 = new cycle low, -7.1% YoY, 36th consecutive decline.
 
 ### Continuing Claims + JOLTS (Mar 9)
-3 LLMs: Gemini, Perplexity, ChatGPT (DeepSeek skipped) → KB updated
+3 LLMs cross-verified. 213K initial, 1,868K continuing (+46K WoW), JOLTS Jan not yet released (Mar 13).
 
 ### PSEC PIK Verification (Mar 9)
-4 LLMs: Gemini, Perplexity, ChatGPT, Kimi 2.5 → **35% CONFIRMED POISONED.** Actual 8.6%. KB-LAB-060, KB-LAB-071, VX-LAB-8.04, TRADE.md, RP-LAB-014 all corrected.
+4 LLMs. 35% figure CONFIRMED POISONED. Actual 8.6%.
