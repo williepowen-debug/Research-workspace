@@ -215,13 +215,48 @@ LIQUID projected LIQ-01 (320bps) to trigger at open. HY OAS was 297 as of Mar 4,
 
 ---
 
+## New Entries — March 6, 2026 (NFP Day)
+
+### WAL $65P Jul 18 | 1 contract @ $4.50 | Cost: $450
+**Conviction at entry:** TBD (Will to confirm)
+**Breakeven:** $60.50
+
+**Thesis:** Deepening the WAL waterfall. Fourth strike in the cascade: $85P → $77.5P → $65P. WAL at ~$70 post-NFP crash. This is the "full CRE recognition" strike — prints if WAL breaks through $65 support into bear case territory ($55-65). Jul expiry covers Q1 earnings (~Apr 22-24) plus follow-through.
+
+**What confirms:** Q1 earnings miss, hidden CRE surfaces, KRE breaks $60.
+**What kills it:** WAL stabilizes above $72, Fed cuts, CRE bailout.
+
+---
+
+### OZK $42.5P May 15 | 1 contract @ $2.08 | Cost: $208
+**Conviction at entry:** TBD (Will to confirm)
+**Breakeven:** $40.42
+
+**Thesis:** Shorter-dated OZK play alongside Aug $42.5P and $45P. Covers Apr 16 earnings with tighter expiry = more gamma. If Q1 earnings detonate (construction reserves, Illinois NPLs), this prints faster than the Aug positions.
+
+**What confirms:** Apr 16 earnings miss. NPL acceleration. Construction losses.
+**What kills it:** OZK guides conservatively but beats. CRE stabilizes.
+
+---
+
+### OWL $9.5P Apr 22 | 1 contract @ $0.66 | Cost: $66
+**Conviction at entry:** TBD (Will to confirm)
+**Breakeven:** $8.84
+
+**Thesis:** Blue Owl Capital — private credit epicenter. Was on watchlist (OBDC II gated, BROCK thesis). OWL is the pure-play private credit manager most exposed to the cascade: BDC dividend cuts spreading, NAV marks under pressure, redemption queues building. Cheap defined-risk bet on the BROCK thesis playing out by April.
+
+**What confirms:** Another BDC dividend cut, OBDC II gate worsens, HY OAS >320, APO contagion spreads to OWL.
+**What kills it:** Credit reverses, private credit stabilizes, quick ceasefire.
+
+---
+
 ## Watchlist — Not Yet Entered
 
 | Ticker | Trade | Conviction | Thesis | Wait For |
 |--------|-------|-----------|--------|----------|
 | **STNG options** | Jul $85C or Oct $85C | 70% | Already own shares. Options when IV settles. | IV normalization, tighter spreads |
 | **BXSL** | Puts (strike TBD) | 65% | Medallia 78¢, NAV overstated. BROCK thesis. | Screen options |
-| **OWL** | Puts (strike TBD) | 65% | Blue Owl epicenter, OBDC II gated. | Screen options |
+| **OWL** | ✅ ENTERED $9.5P Apr | 65% | Blue Owl epicenter, OBDC II gated. | — |
 | **FXY add** | Shares | 60% | SAM carry unwind 55%. Sold 12 last week, kept 4. May re-enter. | Dip or catalyst |
 | **HYG add** | More puts | 60% | Cheap. HY OAS approaching 320. | Next credit widening leg |
 | **CVX** | Puts (strike TBD) | 55% | 29% CPC exposure | April earnings |

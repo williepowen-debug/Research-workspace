@@ -8,7 +8,7 @@
 **Last context:** Sunday night review session. State of Play report + weekly playbook + 6 research prompts created. FUTURES CRATERING: oil $100, S&P -1.9%, Dow -1,100, VIX 29.5. Monday is a RED open — SSB trim only, no new puts. Will now posting signals for triage/routing.
 **Next tide:**
 1. **Monday market actions** — SSB trim 50%, TLT puts ADD, VIX call spread ADD, LNG spread evaluate, WAL confirm, Taiwan check, live data pulls (see BRIEFING.md)
-2. **ZHAO Campbell vector integration** — critical gap in 3-anchor UST framework
+2. **ZHAO Campbell vector integration** — ✅ COMPLETE (Mar 9 check-in). Vector #1 upgraded to 5, Gulf fully integrated, TSMC pathway added. Total score 36/50.
 3. **HENRY KB migration** (Sprint 3d, 89 rows)
 4. **BROCK TRADE.md** — last agent without one
 5. **REGINALD KB migration** (Sprint 3e, 116 rows, hardest)
