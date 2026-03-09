@@ -1,8 +1,8 @@
 # CARL STATUS
-**Updated:** 2026-03-09 23:00 UTC (inbox processing)
-**Overall Status:** 🔴 RED — Subprime Auto BREACHED, Gas Squeeze BASE CASE, UI Exhaustion Cliff Mar 24
+**Updated:** 2026-03-09 13:15 UTC (Mon AM check-in)
+**Overall Status:** 🔴🔴 CRITICAL — Subprime Auto BREACHED, Gas Squeeze ACCELERATING (WTI $107), DOGE RIF Demand Shock ACTIVE, UI Exhaustion Cliff Mar 24
 
-**Summary:** Consumer fragility at extreme levels. Subprime auto 60+ DQ **7.1% — ALL-TIME RECORD, RED threshold BREACHED**. Fannie MF DQ 0.74% (6bps from GFC peak). Gas squeeze Mar 14-21 CONFIRMED (Brent $90, Hormuz closed Day 10). UI exhaustion cliff Mar 24 (FL WARN cohorts). Stagflation trap: PCE 2.9% + oil spike + Fed frozen = no policy backstop. K-shape extreme: subprime 7.1% vs prime 0.4% (17.75x gap). NFP -92K confirms employment detonator ACTIVE.
+**Summary:** Consumer fragility at extreme levels. Subprime auto 60+ DQ **7.1% — ALL-TIME RECORD, RED threshold BREACHED**. Fannie MF DQ 0.74% (6bps from GFC peak). Gas squeeze ACCELERATING: WTI $107 (from $90 Friday), pump $3.40/gal (+$0.45 in one week), diesel $4.30-4.50 — window moved LEFT, pump pressure LIVE NOW not Mar 14. DOGE RIF: 327K permanent separations confirmed = localized demand destruction, not modeled in current thesis. NFP -92K + continuing claims 1,868K (approaching YELLOW 1.9M). UI exhaustion cliff Mar 24 locked. Stagflation trap deepens: GDPNow 2.1% (down 0.9pp in 4 days), wages sticky (+3.8% YoY) while payrolls break. No policy backstop.
 
 ---
 
@@ -37,7 +37,9 @@
 | Repossessions (2025) | **3M** | 🔴 | +76% above GFC peak | Industry |
 | Savings Rate | **~4.5%** | 🟠 | Buffer thinning | BEA |
 | Hardship 401k | **4.8%** | 🟠 | ATH — buffer exhaustion | Vanguard |
-| Gas Squeeze ETA | **Mar 14-21** | 🔴 | Brent $90 + Hormuz closed | HAWK |
+| Gas Squeeze ETA | **NOW — Mar 14-21 window MOVED LEFT** | 🔴🔴 | WTI $107, pump $3.40 (+$0.45/wk), diesel $4.30-4.50 | HAWK/AAA Mar 8 |
+| DOGE RIF Consumer Impact | **327K permanent separations** | 🔴 | Localized demand destruction; federal hub metros (DC, MD, VA) | LABOR cross |
+| Continuing Claims | **1,868K** | 🟠 | Approaching YELLOW 1.9M threshold | BLS |
 
 ---
 
@@ -49,14 +51,14 @@
 | 2 | Subprime Auto ABS 60+ | 🔴🔴 5 | **BREACHED** 7.1%. ALL-TIME RECORD. | Already at max |
 | 3 | Fannie MF DQ → GFC | 🔴 4 | 0.74% = 6bps from 0.80% peak | Any print >0.78% = 5 |
 | 4 | Student Loan 90+ | 🔴 4 | 9.6% = 0.4pp from 10% threshold | Q1 2026 data = 5 |
-| 5 | Gas Price Squeeze | 🔴 4 | Brent $90, pump lag Mar 14-21. Hormuz Day 10. | Brent >$100 or Hormuz >30 days = 5 |
+| 5 | Gas Price Squeeze | 🔴🔴 5 | **WTI $107, pump $3.40/gal (+$0.45/wk), diesel $4.30-4.50. Window MOVED LEFT — LIVE NOW.** GDPNow -0.9pp in 4 days. | Brent already >$100 — AT MAX |
 | 6 | UI Exhaustion Wave | 🟠 3 | Mar 24 first wave, Apr 26 peak. Not yet hitting. | Mar 24 pass + claims spike = 4 |
 | 7 | FL Triple Squeeze | 🔴 4 | Energy + HOA + Insurance simultaneous. Migration -93%. | Q1 FL data confirms outpacing = 5 |
 | 8 | Reverse Wealth Effect | 🟠 3 | SPY below 20-wk MA. ~$7-8T destruction. 6-8wk lag. | IWM <$240 or VIX >35 = 4 |
 | 9 | K-Shape Widening | 🔴 4 | Wendy's -11.3% vs McDonald's +6.8%. 17x auto gap. | Prime DQ starts rising = 5 |
 | 10 | Foreclosure Acceleration | 🟠 3 | 58,140 (+41% YoY). Target 70K/qtr. | Q1 >65K = 4 |
 
-**Total: 38/50 — 🔴 RED. One vector at max (5), six at RED (4), three at ORANGE (3).**
+**Total: 39/50 → upgraded to 40/50 with gas vector — 🔴🔴 CRITICAL. Two vectors at max (5), five at RED (4), three at ORANGE (3).**
 
 ---
 
@@ -85,7 +87,8 @@
 | Window | Cohort | Trigger | Status |
 |--------|--------|---------|--------|
 | **NOW** | Federal contractors (DOGE) | 273 contracts/$5.1B terminated | 🔴 ACTIVE |
-| **Mar 14-21** | Bottom 60% consumers | Gas pump price squeeze (ULSD parabolic → pump LIVE; revised peak Mar 18-22) | 🔴 BASE CASE CONFIRMED |
+| **NOW — ongoing** | Federal workers (DOGE RIF) | **327K permanent separations — demand destruction LIVE in DC/MD/VA/federal hub metros** | 🔴🔴 NEW |
+| **NOW (window moved left)** | Bottom 60% consumers | Gas pump $3.40/gal (+$0.45 in 1 week), diesel $4.30-4.50. WTI $107. Mar 14-21 peak PULLED FORWARD | 🔴🔴 ACCELERATING |
 | **Mar 24** | FL WARN cohort | UI exhaustion Wave 1 | 🟠 IMMINENT |
 | **Apr 26** | FL WARN peak | Consumption cliff | 🟠 APPROACHING |
 | **Q2** | Hourly/gig + broad private | Hiring freeze → WARN pipeline | 🟠 ON TRACK |
@@ -115,9 +118,11 @@
 |------|--------|-------------|--------|
 | LABOR | NFP -92K, claims 213K | Employment detonator approaching | 🔴 ACTIVE |
 | LABOR | FL WARN exhaustion Mar 24 | Consumption cliff → May DQ spike | 🟠 IMMINENT |
-| HAWK | Brent $90, Hormuz Day 10 | Gas squeeze Mar 14-21 | 🔴 BASE CASE |
+| HAWK | **WTI $107 (was $90 Fri), pump $3.40/gal (+$0.45/wk), diesel $4.30-4.50** | **Gas squeeze LIVE NOW — window moved left** | 🔴🔴 ACCELERATING |
 | HAWK | Fertilizer shock (13% global from Gulf) | Food CPI 6-12 weeks; FLOW-CARL-9.01 modeled | 🟠 ACTIVE |
-| HAWK | ULSD rack price parabolic Mar 2026 | Pricing mechanism active → gas pump Mar 14-21 confirmed | 🔴 CONFIRMED |
+| HAWK | Diesel $4.30-4.50 | Trucking surcharges → food price transmission accelerant (6-8wk lag) | 🔴 NEW |
+| LABOR | **DOGE RIF 327K permanent separations** | **Localized demand destruction; federal hub metros. Not yet in thesis.** | 🔴🔴 NEW — processing |
+| LABOR | Continuing claims 1,868K | Approaching YELLOW 1.9M threshold | 🟠 WATCH |
 | HENRY | VIX elevated, SPY <20-wk | Reverse wealth effect 6-8wk lag | 🟠 ACTIVE |
 | REGINALD | FL triple squeeze | FL DQ to outpace national Q2 | 🟠 ON TRACK |
 | BROCK | Blue Owl + BCRED gates | Middle-market cuts May-Jun | 🟠 ON TRACK |
@@ -167,4 +172,13 @@ Consumer stress is the most advanced it's been since we started tracking. One ve
 
 **Sub-agents:** GIG (Dave 28DPD canary, ~2.0%, stress >2.10%)
 
-*Next catalysts: Gas pump squeeze Mar 14-21 | FL UI exhaustion Mar 24 | JOLTS + Cass Feb Mar 13 | Q1 consumer earnings April*
+*Next catalysts: **Gas pump squeeze LIVE NOW (window moved left, WTI $107)** | Continuing claims YELLOW threshold 1.9M (currently 1,868K) | FL UI exhaustion Mar 24 | JOLTS + Cass Feb Mar 13 | Q1 consumer earnings April*
+
+---
+
+## INBOX LOG
+| Date | Signal | Processed | Action |
+|------|--------|-----------|--------|
+| 2026-03-09 | Gas acceleration (WTI $107, pump $3.40, diesel $4.30-4.50; GDPNow -0.9pp) | ✅ | Gas vector upgraded to 5/5, danger window moved left |
+| 2026-03-09 | DOGE RIF 327K permanent separations — localized demand destruction | ✅ | Added to cross-agent links + danger window. PROPOSAL pending Will approval. |
+| 2026-03-09 | NFP -92K, continuing claims 1,868K (LABOR cross) | ✅ | Cross-agent links updated, claims YELLOW watch added |
