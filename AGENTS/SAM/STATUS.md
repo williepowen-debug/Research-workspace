@@ -1,36 +1,127 @@
 # SAM STATUS
 
-**Signal Status:** 🔴🔴 EMERGENCY — MECHANISM INVERSION CONFIRMED | **Last Updated:** 2026-03-10 17:09 UTC
+**Signal Status:** 🟠🔴 ELEVATED — OIL SHOCK DECOMPRESSING | MECHANISM REVERTING | BOJ HIKE BACK ON TABLE | **Last Updated:** 2026-03-10 20:30 UTC
 
 ---
 
-## 🚨 MONITORING ALERTS — MAR 10 UPDATE
+## 🌅 EOD BRIEF — MAR 10, 2026 (20:30 UTC)
 
-**Current levels:** USD/JPY 158.70 | Nikkei 52,728
+### TODAY'S HEADLINE: OIL -11%, TRUMP "WAR PRETTY MUCH COMPLETE" — REGIME CHANGE IN PROGRESS
 
-### USD/JPY Alert Levels
+**The day's dominant event: Oil crashed.** Brent settled at **$87.80/bbl (-11%, -$11.16)**, WTI at **$83.45 (-11.9%, -$11.32)**. Biggest single-day oil drop since March 2022. Trigger: Trump CBS News interview — "the war is very complete, pretty much." Markets interpreted as ceasefire/de-escalation signal.
+
+**Intraday sequence (March 9-10):**
+- Mar 9 open: Brent spiked to **$119.50** (highest since 2022), Nikkei -7%+
+- Mar 9 afternoon: Trump CBS comments → oil reversed sharply
+- Mar 10 US close: Brent settled **$87.80**, WTI **$83.45** — below pre-crisis levels on a % basis
+
+### DELTAS vs PRIOR STATUS (Mar 10 17:09 UTC)
+
+| Metric | Prior STATUS | Now (Mar 10 EOD) | Delta |
+|--------|-------------|-----------------|-------|
+| **Oil (Brent)** | $108.77 | **$87.80 (-11% today)** | 🟢🟢 Major decompression |
+| **Oil (WTI)** | $107.56 | **$83.45** | 🟢🟢 Back below $90 |
+| **USD/JPY** | 158.70 | **~157.7-158.0** | 🟢 Slight yen strength |
+| **Nikkei 225** | 52,728 | **TBD (Asia open)** | Watch — likely bounce given oil drop |
+| **BOJ hike probability (Mar 18-19)** | **2% (98% hold)** | **~20-30% hike** | 🚨 MAJOR DELTA — see below |
+| **Energy crisis timeline** | 4-6 wks to rationing | **PAUSED pending ceasefire** | Thesis extended/weakened short-term |
+| **Carry unwind 7d** | 15% | **25-30%** | BOJ hike risk revived |
+| **Carry unwind 30d** | 78% | **75%** | Mechanism reverting |
+| **Mechanism status** | Inverted (yen weakness) | **Reverting to original path** | Hike → yen strength → unwind |
+
+### 🚨 KEY DELTA #1: BOJ HIKE PROBABILITY UPGRADED
+
+**Prior STATUS: 98% HOLD. Revised: ~70-80% hold / 20-30% hike.**
+
+Sources:
+- **Il Sole 24 Ore (Mar 9):** "at the BoJ session on 18-19 March there might be a new rate hike from 0.75% to 1%." Ueda "confirmed that new rate hikes are on the table."
+- **Ueda (Feb 26 Yomiuri interview):** Left open March OR April as live meetings. "Any decision would be dependent on data available at the time."
+- **Real wage data (Jan 2026):** Real wages rose for first time in over a year. Base salaries: strongest growth in 30+ years. Classic BOJ tightening justification.
+- **Japan Post Insurance CEO (Mar 10):** Still expects BOJ hike "as soon as April" — insurer community pricing eventual hike.
+- **Oriental Economist note:** Takaichi's two new BOJ nominees replaced two doves but are NOT additional doves — "no increase in those opposed to early rate hikes."
+
+**Why the upgrade:** With oil now at $87.80 (vs $119.50 intraday high yesterday), the stagflation trap argument collapses partially. BOJ's primary objection to hiking was energy shock → imported inflation → can't add domestic rate pressure. With oil at $87, that argument weakens materially. Wage data is strong. Mar 18-19 hike is now legitimately on the table.
+
+**Counterargument:** Core inflation (ex-food & energy) only 1.3% — still well below 2% target. BOJ may still hold and wait for data clarity. Takaichi government political pressure. 30-day resolution of Iran situation unknown.
+
+### 🚨 KEY DELTA #2: MECHANISM REVERSION
+
+Prior STATUS established **inverted mechanism**: yen weakens (not strengthens) → stagflation builds → eventual forced BOJ action. That was predicated on sustained energy shock.
+
+With oil below $90:
+- Energy import cost pressure on yen REDUCED
+- Dollar safe-haven demand REDUCED (war de-escalating)
+- BOJ hike probability RISES → markets may front-run yen strength
+- **Original Phase 2 mechanism reactivated**: BOJ hike → yen strengthens sharply → carry unwind forced
+
+The Aug 2024 playbook (BOJ hike → yen squeeze → global carry unwind) is now the more probable path again. The 30-day probability stays near 75% but the MECHANISM has reverted to the original, faster-onset path.
+
+### KEY DELTA #3: TRUMP DE-ESCALATION — WATCH FOR CONFIRMATION
+
+Trump CBS: "war is very complete, pretty much." **This is NOT a ceasefire.** Markets moved hard on it but:
+- No official ceasefire announced
+- Hormuz shipping status unclear — no confirmed reopening
+- LNG Qatar force majeure status unclear
+- Iran Supreme Leader Khamenei Jr. (hardliner) still in place
+
+**SAM call:** Oil bounce back toward $90-95 is possible if ceasefire is NOT confirmed in 24-48 hours. Asia open tonight is the first test. If Nikkei stages a recovery rally and USD/JPY drifts toward 157, that confirms markets pricing de-escalation. If oil bounces back and Nikkei stays under 53,000, de-escalation is not confirmed.
+
+### UPDATED ALERT LEVELS
+
 | Level | Action |
 |-------|--------|
-| **158.70** | Current — 1.3 figures from intervention zone |
-| **159.50** | ⚠️ EARLY WARNING — notify Will immediately |
-| **160.00** | 🚨 INTERVENTION LIKELY + Phase 2 carry unwind trigger (48-72hr onset window) |
+| **USD/JPY 157.00** | 🟡 New watch — yen strengthening on BOJ hike expectations |
+| **USD/JPY 155.00** | ⚠️ ALERT — Phase 2 carry unwind onset, notify Will immediately |
+| **USD/JPY 159.50** | ⚠️ OLD UPSIDE ALERT — lower priority given oil drop |
+| **USD/JPY 160.00** | 🚨 Intervention likely (still valid if oil bounces back) |
+| **Nikkei 55,000** | 🟡 Watch — recovery above here = markets pricing ceasefire |
+| **Nikkei 50,000** | 🚨 GPIF trigger zone — still valid |
+| **Oil (Brent) $95+** | ⚠️ Ceasefire failed, energy crisis back — stagflation mechanism resumes |
+| **Oil (Brent) <$85** | 🟢 BOJ hike probability rises further |
+
+### CROSS-DOMAIN SIGNALS
+
+1. **HAWK (energy):** LNG rates ($300K/day) should decompress IF Hormuz reopens. Watch for Fearnleys/Riviera Maritime data update. If rates fall back below $100K/day within 48 hours, energy crisis thesis needs partial revision.
+2. **LIQUID (UST):** Oil de-escalation → US 10Y yields may rise (risk-on → out of safety bid) OR fall (slower Fed path priced in). Watch 10Y. If 10Y rises toward 4.5%+, carry differential narrows further for JPY.
+3. **HENRY/CARL:** US stocks bouncing on Trump comments (S&P from -1.5% to +0.8% on day). Positive risk sentiment = carry still attractive short-term. Delays Phase 2 onset.
+4. **NEXUS flag:** Recommend NEXUS spawn to assess whether oil de-escalation changes convergence picture. The energy × Japan × UST triple-chain may be unwinding faster than thesis expected — in the BULLISH direction for Japan short-term.
+
+
+
+---
+
+## 🚨 MONITORING ALERTS — MAR 10 EOD UPDATE
+
+**Current levels:** USD/JPY ~157.8 | Nikkei 52,728 (Mar 9 close — Mar 10 Asia open TBD) | Brent $87.80
+
+### USD/JPY Alert Levels (REVISED)
+| Level | Action |
+|-------|--------|
+| **~157.8** | Current — yen slightly stronger on oil drop / de-escalation |
+| **157.00** | 🟡 Watch — if reached, BOJ hike expectations building |
+| **155.00** | ⚠️ ALERT — Phase 2 onset (BOJ hike + safe-haven combo), notify Will |
+| **159.50** | ⚠️ Upside warning if ceasefire fails and oil bounces |
+| **160.00** | 🚨 Intervention zone (lower priority today, reactivates if oil $95+) |
 
 ### Nikkei Alert Level
 | Level | Action |
 |-------|--------|
-| **50,000** | 🚨 SECONDARY Phase 2 alert — GPIF mechanical trigger zone. Multiple sell programs expected. |
+| **55,000** | 🟡 Watch — recovery here = ceasefire priced in |
+| **50,000** | 🚨 GPIF trigger zone — still valid |
 
 ### Japan Post Insurance — ESR Rebalancing Watch
 - **Mar 10:** Japan Post Insurance CEO publicly stated shifting OUT of low-yield JGBs → higher-yield bonds. Expects BOJ hike "as soon as April." This is early FY-end ESR rebalancing made public.
 - **Watch next 2-3 weeks:** Similar statements from Nippon Life, Dai-ichi Life, Meiji Yasuda. Multiple insurers signaling = ESR setup confirmation → life insurer repatriation wave loading.
 - **Significance:** If 2+ major insurers confirm publicly, carry unwind 30d probability upgrades to 85%+.
 
-### BOJ Super-Week — Mar 16-19
+### BOJ Super-Week — Mar 16-19 ⚠️ NOW LIVE HIKE RISK
 - **Super-Week:** BOJ (Mar 18-19) + Fed + ECB + BoE all meeting same week
-- **BOJ meeting: Mar 18-19** *(NOT Mar 13-14 — corrected)*
-- **Ueda presser: Mar 19** — key event. Any April hike signal = carry unwind 7d probability jumps to **35%+**
-- **Pre-position monitoring window: Mar 16 onward**
-- Current April hike signal from Japan Post Insurance CEO = watch carefully for corroborating BOJ language
+- **BOJ meeting: Mar 18-19**
+- **Ueda presser: Mar 19** — KEY EVENT. Oil at $87.80 = stagflation trap weakens = hike back on table
+- **March hike probability: ~20-30%** (was 2% per prior STATUS)
+- **April hike probability: ~50%** — now base case if March hold
+- **Pre-position monitoring window: NOW (Mar 11+)** — moved up from Mar 16
+- **Action required:** Monitor BOJ pre-meeting communications this week for any leak/signal
 
 ---
 

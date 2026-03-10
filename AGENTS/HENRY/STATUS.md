@@ -1,5 +1,5 @@
 # HENRY STATUS
-**Last Updated:** 2026-03-10 17:31 UTC (AM SCAN) | **Status:** 🔴🔴 OIL PULLING BACK SHARPLY — WTI -5% TO ~$90. TRUMP SAYS WAR "PRETTY MUCH COMPLETE," HINTS HORMUZ REOPENING. G7 SPR RELEASE MEETING TODAY. SPX FUTURES -0.3% — MARKET STILL RED DESPITE OIL RELIEF (STRUCTURAL OVERHANG INTACT). 10Y YIELD 4.13% (SLIGHT EASE). GOLD $5,180 (+1.5%). CPI TOMORROW (CONSENSUS 2.5% YoY / CORE 1.4%). ORACLE EARNINGS TONIGHT (TECH PULSE). WAR DAY 10 — DEESCALATION RISK TO VECTOR 9, BUT SPY STILL BELOW 20-WEEK MA AND STAGFLATION LOCKED.
+**Last Updated:** 2026-03-10 20:15 UTC (EOD) | **Status:** 🟠 MARKET CLOSED GREEN — SPX +0.44% TO 6,825.52. OIL -10% (BRENT ~$88) ON WH DE-ESCALATION SIGNALS. GOLD UP TO $5,220+. BREADTH NARROW — SEMIS/TECH CARRYING. CPI TOMORROW 8:30 AM ET (CONSENSUS 2.4%/2.5% CORE). ORACLE BEAT AFTER CLOSE (+OCI +84% YoY). RED TEAM GAINS FOOTING: HORMUZ DURATION THESIS UNDER PRESSURE AS OIL RETREATS. NEW TRADES: TLT JUN $85P x3, CF JUN $115C, WAL SEP $70P.
 
 **Known Data Issues:** SPX Mar 3 close ~6,817 (not 6,781 — that was intraday). Dow -1,014pts at close (not -1,200 which was intraday). HY OAS 297bps (FRED CSV Mar 4 confirmed); LIQUID est 335-355 was ~40bps too high. Brent ~$84.75 (not $118). ISM Mfg released Mar 2 (1st BD), not Mar 3.
 
@@ -67,6 +67,19 @@ Market is derivatives-driven, dealer hedging dominates short-term dynamics.
 **BKLN at 52-week lows while equities near highs = credit leading equities. This is the pattern that precedes repricing.**
 
 ---
+
+**Mar 10 EOD — WAR DAY 10 / CPI EVE:**
+- SPX 6,825.52 (+0.44%, +29.78pts). Market closed GREEN vs -0.3% futures this AM. Catalyst: WH de-escalation signals on Iran, oil -10%.
+- Dow 47,997.18 (+0.54%, +256.60pts). Nasdaq 22,840.95 (+0.64%).
+- Brent ~$88/bbl (down from $92 intraday high Mar 6, down ~10% today). $88 = moving AWAY from $100 threshold. Red team gains ammunition.
+- Gold >$5,220 (up from $5,180 AM, +$40). Silver +5% to $89.25. Hard assets bid despite equities up — simultaneous green = stagflation signal intact.
+- Breadth: NARROW. Semis/tech led (MU +6.28%, AMAT +4.56%, NVDA +1.61%, ARM +3.96%). Most S&P 500 constituents still under pressure per analyst commentary. "Wait-and-see" ahead of CPI.
+- Oracle ORCL beat after close: $1.79 EPS vs $1.70 est; rev $17.2B vs $16.92B; OCI +84% YoY; RPO $553B. AI infrastructure demand remains intact — complicates tech rot thesis short-term.
+- CPI tomorrow 8:30 AM ET: Street consensus 2.4% headline / 2.5% core (vs our 65% hot-print expectation — our model above consensus).
+- TLT last confirmed $88.46 (last week) — TLT Jun $85P x3 filled today are OTM. Oil relief = potential TLT bounce headwind near-term.
+- IWM/VIX/10Y/DXY: Exact EOD levels not yet confirmed. Given oil relief and green close, 10Y likely flat-to-down from 4.13% (flight-to-quality bid removed, but oil relief partially offsets). VIX likely pulled back from 23.61.
+- WAL Sep $70P filled: WAL was $70 on Mar 6 (-13%). Entry at or near ATM — charge-off thesis intact, next signal = KRE follow-through or additional loan deterioration news.
+- New positions summary: TLT Jun $85P x3 (duration/stagflation — risk: oil retreat opens Fed cut path), CF Jun $115C (fertilizer/ag supply disruption from Hormuz), WAL Sep $70P (bank credit transmission confirmed).
 
 **Mar 6 EOD — NFP DAY CLOSE:**
 - SPX 6,829.69 (−0.58%). ABOVE put wall at close. Market absorbed -92K shock — partially pre-priced via ADP miss.
