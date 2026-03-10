@@ -1,7 +1,7 @@
 # BROCK STATUS — Private Credit / Alt Assets / PE / ILS
 
-**Last context:** Oil crashed 11% (Brent $87.80, from $119.50 peak) on Trump "war ending very soon" signal. Redemption cascade entering debt-for-equity phase — Bloomberg: "Private Creditors Taking Keys to More Failing Companies." Reuters runs 2007 subprime parallel piece. APO Atletico Madrid deal closing Mar 12 (distraction/optics signal). Debt-for-equity swaps increasing in private markets = marks starting to force.
-**Last updated:** 2026-03-10 EOD
+**Last context:** Cliffwater $33B fund facing 7%+ redemptions (~$2.3B) — third major gate/restriction event in 5 days (after HLEND Mar 6, Blue Owl prior). Whalen article: $4.2T bank→NDFI exposure ($1.4T outstanding + $2.8T undrawn); Atlas SP double default (MFS chain). Eisman Ep 49: Blue Owl / Kuvari stuffing confirmed (OBDC2, same playbook as APO/Athene); software 20-40% of private credit; HYG/PC divergence unsustainable; Eisman complacency = contrarian bull signal for shorts. Cascade tracker created: domain/PRIVATE_CREDIT_CONTAGION_TRACKER.md
+**Last updated:** 2026-03-10 EOD (subagent signal processing)
 
 ---
 
@@ -16,6 +16,10 @@
 | PIK Loans (Private Credit) | **6.4%** — doubled YoY | 🔴 ↑ | [CONF] Industry data Mar 4 |
 | APO Stock | **~$107** | 🔴 ↓ | [CONF] Market Mar 5 |
 | BlackRock HLEND Gate | $620M paid / $1.2B requested (~52%) | 🔴 GATE | [CONF] Reuters/Bloomberg Mar 6 |
+| Cliffwater Fund | **$33B — 7%+ redemption requests (~$2.3B)** | 🔴 ACTIVE | [CONF] Bloomberg Mar 10 |
+| Bank→NDFI Exposure | **$4.2T total ($1.4T outstanding + $2.8T undrawn)** | 🔴 | [CONF] Whalen/FDIC Mar 10 |
+| Atlas SP Defaults | **2 warehouse facilities in default** (MFS/Apollo chain) | 🔴 | [CONF] Whalen Mar 10 |
+| Blue Owl / Kuvari | OBDC2 $595M stuffed into captive insurance (Kuvari) at par | 🔴 | [CONF] Eisman Ep49 Mar 9 |
 | BLK Stock | -6.7% today (gate + NFP) | 🔴 ↓↓ | [CONF] Market Mar 6 |
 | Blue Owl (OWL) OCSL II | Ending quarterly liquidity | 🔴 ↓↓ | [CONF] Bloomberg Mar 3 |
 | Athene Assets | **$442B**, 48% illiquid, RBC 412% | 🔴 | [CONF] 10-K Feb 2026 |
@@ -38,9 +42,9 @@
 | PIK Rates | 🔴 (4) | 6.4%, doubled YoY; 40% of borrowers neg FCF | >8% at any major fund → distress | Mar 4 |
 | BDC NAV Discounts | 🔴 (4) | Median 73% of NAV; market pricing 27% impairment | Median <70% → full capitulation | Mar 4 |
 | Default Rates | 🟠 (3) | Fitch 5.8% reported; UBS 15% worst-case; shadow ~7% | Q1 earnings confirming >8% | Mar 4 |
-| Athene/Insurance | 🔴 (4) | $442B, 48% illiquid, $9B CRE absorbed, RBC 412% | RBC filing revision or SEC inquiry | Feb 2026 |
+| Athene/Insurance | 🔴 (5) | $442B, 48% illiquid, $9B CRE absorbed, RBC 412%. **Blue Owl now confirmed same playbook** (OBDC2 → Kuvari Insurance, $595M at par). Two-firm confirmation of captive insurance as bad bank. | RBC filing revision; Kuvari regulatory scrutiny; SEC inquiry | Mar 10 |
 | Software Marks | 🟠 (3) | 40% of sponsor-backed loans; AI disruption eroding SaaS moats | Q1 markdowns in PE reports | Mar 4 |
-| Bank Warehouse Lines | 🔴 (4) | WAL sued Jefferies fraud ($126.4M First Brands); WAL -12%, KRE -3.6%; transmission via litigation now | BDC revolver draws spike; more bank suits | Mar 6 |
+| Bank Warehouse Lines | 🔴 (5) | **$4.2T total NDFI exposure (Whalen/FDIC)**: $1.4T outstanding (+35% YOY) + $2.8T undrawn. Atlas SP double default. WAL sued Jefferies $126.4M. Transmission via litigation + warehouse defaults now. | BDC revolver draws spike; NDFI undrawn $2.8T = loaded gun | Mar 10 |
 | Regulatory Action | 🟡 (2) | SEC 2026 exam expected; no enforcement yet | Any enforcement action filed | Mar 5 |
 | Mainstream Narrative | 🔴 (5) | Reuters "alarm bells echo 2007 subprime" (Mar 10); Bloomberg "Private Creditors Taking Keys"; Motley Fool retail-protective; full consensus forming | Window closing FAST — hedge funds pricing it in | Mar 10 |
 
