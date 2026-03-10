@@ -50,6 +50,9 @@
 - USO re-entry timing — second leg to $120-130 probable if Hormuz stays closed
 - CF IV levels — check before entering, don't overpay for bloated pre-CPI premium
 
+**Pending orders:**
+- TLT Jun $85P x2 @ $0.82 limit — placed ~9:55 AM ET. Check fill.
+
 **Key conceptual upgrades from tonight:**
 - TLT puts have 3 independent legs (energy, foreign selling, deficit). Even ceasefire only weakens 1.
 - 1974: embargo lifted March 18, yields KEPT RISING. Can't un-ring the inflation bell.
