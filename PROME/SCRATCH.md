@@ -8,7 +8,11 @@
 **Last context:** Full Tuesday — most productive day of the operation. Three trades filled, three research prompts multi-source verified, all agents checked in, RED team spawned to challenge thesis. CPI tomorrow.
 
 **Next tide:**
-1. **Process RED team report** — should be in completed subagents. Challenge to Hormuz duration thesis. Read before any new trades.
+1. **🔴🔴 PROCESS RED TEAM REPORT — CRITICAL** — Filed at `AGENTS/RED/challenges/HORMUZ_RED_TEAM_2026-03-10.md`. THREE IMMEDIATE VERIFICATIONS NEEDED:
+   a) **Has Iran actually mined Hormuz?** If no mines laid, the 500-day clearance argument is hypothetical. Closure may be missile/fast boat threat only — which reprices in days not months.
+   b) **STNG is product tankers (clean), not crude.** If Gulf refineries reduce runs, STNG's market SHRINKS. May be wrong instrument entirely.
+   c) **China side-deal is confirmed** — Hormuz isn't "closed," it's selectively restricted. Qatar LNG exemption could follow. Caps oil upside + threatens CF fertilizer thesis.
+   RED rates Trump deal in <6 weeks at 25-35%. Our duration confidence is overstated. Book is net NEGATIVE in demand destruction scenario (energy longs collapse before bank puts pay). DO NOT ADD POSITIONS UNTIL RED FINDINGS PROCESSED WITH WILL.
 2. **Process ChatGPT Hormuz seizure** — Will may have results to paste in. 4th source on the prompt.
 3. **CPI 8:30 AM ET Wed** — hot print expected (65%). TLT Jun $85P x3 are the test. CF should move too. Decision tree: hot→hold/add, cool→buy 2nd CF on dip.
 4. **OTTO proposals** — failed 3x on API overload. 5 approved proposals unexecuted. Try again.
