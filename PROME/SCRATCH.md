@@ -1,40 +1,47 @@
 # SCRATCH — Ephemeral Working Memory
 
-**Updated:** 2026-03-09 ~6:00 PM ET (evening session ~10 PM UTC)
+**Updated:** 2026-03-10 ~01:15 UTC (Mon night session)
 
 ---
 
 ## Handoff
-**Last context:** Massive research session. Completed prompt #1 (Russia sanctions, 3-source) and prompt #2 (oil shock timelines, 3-source). Both UNANIMOUS: oil crash is mid-crisis pullback, second leg higher probable, equity/credit damage hasn't started. TLT puts confirmed #1 conviction — bonds sold off in EVERY 1970s oil shock, no safe haven in stagflation. Even ceasefire doesn't kill thesis (3 legs: energy is only 1, foreign selling + deficit are independent).
+**Last context:** Deepest research session to date. 3 of 5 "What Should I Be Asking You?" prompts completed + Taiwan LNG + Eisman Ep 49. All findings persisted to agent inboxes. CF trade thesis fully documented in FORGE. Will educated on leading/lagging framework, timeline synthesis, and TLT thesis decomposition. Built full timeline from all agent STATUS files.
 
-**Next tide (IMMEDIATE — do these next session):**
-1. **Write oil shock signal files** → HENRY, HAWK, FORGE. Research is done but not yet persisted to agent inboxes.
-2. **Prompt #3 (fertilizer/CF)** — Will to run. CF entry blocked until we understand supply mechanics. Gemini found fertilizer inputs spiked within 2 WEEKS of 1973 decontrol. Urgency: high.
-3. **Taiwan LNG prompt** — 🔴🔴 THIRD SESSION flagging this. Will must run.
-4. **CPI Tuesday 8:30 AM ET** — hot print expected (65%). TLT puts test.
-5. **Prompts #4-5** — tanker rates, Hormuz seizure. Lower priority than #3.
-6. **HYG Jun puts — consider rolling to Sep/Dec.** Three sources say credit spreads lag 5-14 months after recession starts. Jun might be early.
-7. **NEXUS synthesis** — all agents loaded, still queued
-8. **CARL ABS sprint** — 14 PENDING VX rows + SoFi CNL routed
+**COMPLETED tonight (all persisted to files):**
+- ✅ Prompt #1 Russia sanctions (3-source: Perplexity+Kimi+ChatGPT) → HAWK inbox
+- ✅ Prompt #2 Oil shock timelines (3-source: ChatGPT+Perplexity+Gemini) → HENRY, HAWK, FORGE
+- ✅ Prompt #3 Fertilizer/CF (3-source: Kimi+DeepResearch+Gemini) → HAWK, CARL, FORGE/CF-trade-thesis.md
+- ✅ Taiwan LNG (researcher agent) → HAWK inbox
+- ✅ Eisman Ep 49 (SoFi CNL, software 20%, Blue Owl/Kuvari, HY divergence) → CARL, OTTO, BROCK, LIQUID
+- ✅ Oil shock signal files → HENRY, HAWK, FORGE
+- ✅ 9 market screenshots triaged
+- ✅ Meta-prompt "What Should I Be Asking You?" saved to PROMPTS.md
+- ✅ Full thesis timeline created from all agents (shared with Will)
 
-**Key research findings tonight (MUST PERSIST to agent files):**
-- Russia sanctions easing = 300-500K bpd over months (7-15% of Gulf gap). Shadow fleet relabeling = zero new barrels. Technical unwind, not fundamental.
-- Oil shock template: 1979-80 staircase. Mid-crisis pullbacks of 15-20% followed by second leg higher. Mar 9 crash matches April 1980 pullback exactly.
-- Equity bottom lags oil peak by 10-27 months. Credit spreads lag 5-14 months after recession starts. We're in early innings.
-- Airlines: post-deregulation 1979-80 was catastrophic. $877M profit → -$848M loss. AAL is the direct analog.
-- Fertilizer: raw inputs spike immediately (weeks), food prices lag 1-2 quarters. CF entry should be ASAP.
-- SPR covers 15-20 days of a 20M bpd shortfall. Band-aid, not fix.
-- SoFi 2025-1 CNL trigger breached (first ever). ABS cracking before HY spreads.
-- 20% of private credit = software buyout lending. Blue Owl/Kuvari insurance stuffing = bad bank pattern.
-- Eisman complacent on private credit — looking at HY spreads (lagging), missing leading indicators.
+**Next tide:**
+1. **CPI Tuesday 8:30 AM ET** — 🔴🔴 hot print expected (65%). TLT puts #1 conviction test.
+2. **CF $115C May entry** — thesis fully documented, 3-source verified. Enter on red day. CPI could be the setup.
+3. **Thu Mar 12: Initial claims** — FIRST CLEAN READ. >235K = LABOR vector 3 max score.
+4. **Prompts #4-5 still open** — tanker rates (STNG sizing), Hormuz seizure (HANS). Prompts in PROMPTS.md ready to copy.
+5. **HYG Jun puts — consider rolling to Sep/Dec.** Credit spreads lag 5-14 months. Jun may be early.
+6. **NEXUS synthesis** — all agents loaded with fresh signals, still queued.
+7. **CARL ABS sprint** — 14 PENDING VX rows + SoFi CNL routed.
+8. **Mar 15: Taiwan LNG inflection** — pre-closure cargoes arrive, Qatar gap goes live after. Also TIC data.
 
 **Open questions:**
 - KRE EOD put details — Will to confirm
 - Senate DHS vote outcome unknown
-- Trump hinting at peace — doesn't kill thesis (3 legs) but could slow timeline. Watch for headlines.
+- Trump peace talk — doesn't kill thesis (3 legs) but could slow timeline
 - USO re-entry timing — second leg to $120-130 probable if Hormuz stays closed
 
-**Rhythm note:** Best research session yet. Multi-LLM pipeline (Perplexity + Kimi + ChatGPT + Gemini) producing institutional-quality cross-verified research. "What Should I Be Asking You?" meta-prompt is a breakthrough tool. Will's instinct to stress-test the TLT thesis against peace scenario was sharp — forced us to articulate why it works even without the war.
+**Key conceptual upgrades from tonight:**
+- TLT puts have 3 independent legs (energy, foreign selling, deficit). Even ceasefire only weakens 1.
+- 1974: embargo lifted March 18, yields KEPT RISING. Can't un-ring the inflation bell.
+- Leading/lagging framework: ABS triggers → private credit equity → HY spreads → IG spreads → defaults. We're between stages 1 and 2.
+- Hormuz is an accelerator, not the engine. Each week closed adds damage that takes MONTHS to unwind.
+- "What Should I Be Asking You?" meta-prompt = breakthrough research inversion tool.
+
+**Rhythm note:** Will is developing rapidly. Pushed back on TLT thesis with peace scenario (smart). Wanted education on delta from research (growth mindset). Asked for timeline synthesis across all agents (strategic thinking). Multi-LLM pipeline producing institutional-quality work.
 
 ---
 
