@@ -1,6 +1,6 @@
 # SCRATCH — Ephemeral Working Memory
 
-**Updated:** 2026-03-10 ~01:15 UTC (Mon night session)
+**Updated:** 2026-03-10 ~03:30 UTC (Mon night final handoff)
 
 ---
 
@@ -19,20 +19,35 @@
 - ✅ Full thesis timeline created from all agents (shared with Will)
 
 **Next tide:**
-1. **CPI Tuesday 8:30 AM ET** — 🔴🔴 hot print expected (65%). TLT puts #1 conviction test.
-2. **CF $115C May entry** — thesis fully documented, 3-source verified. Enter on red day. CPI could be the setup.
-3. **Thu Mar 12: Initial claims** — FIRST CLEAN READ. >235K = LABOR vector 3 max score.
+1. **Tue Mar 11:** Regular trading day. No major catalysts. Watch overnight Gulf developments. Update TODAY.md date correction.
+2. **Wed Mar 12: CPI 8:30 AM ET** — 🔴🔴 hot print expected (65%). TLT puts #1 conviction test. CF entry decision (but watch IV — if premiums bloated pre-CPI, may want to enter AFTER for IV crush).
+3. **Thu Mar 13: Initial claims** — FIRST CLEAN READ post-DHS suppression. >235K = LABOR vector 3 max score. Two catalysts in two days = the gauntlet.
 4. **Prompts #4-5 still open** — tanker rates (STNG sizing), Hormuz seizure (HANS). Prompts in PROMPTS.md ready to copy.
 5. **HYG Jun puts — consider rolling to Sep/Dec.** Credit spreads lag 5-14 months. Jun may be early.
 6. **NEXUS synthesis** — all agents loaded with fresh signals, still queued.
 7. **CARL ABS sprint** — 14 PENDING VX rows + SoFi CNL routed.
 8. **Mar 15: Taiwan LNG inflection** — pre-closure cargoes arrive, Qatar gap goes live after. Also TIC data.
 
+**CPI Decision Tree (Wed Mar 12):**
+- HOT → TLT holds, enter CF on selloff, hold everything. Thesis accelerates.
+- IN-LINE → hold, wait for Thu claims. No new trades.
+- COOL → hold, thesis intact but slower. May $88P TLT pressured, Sep $85P fine. Consider HYG roll.
+- NOTE: Watch CF call IV ahead of CPI. If bloated, enter AFTER print for IV crush.
+
+**Late-session geopolitical signals (added after main handoff):**
+- Policy Tensor: US facing strategic defeat. Drone math = Iran sustains fire 4mo MINIMUM. All 5 THAAD hit. Sortie rate -35-50%. "Reverse Ukraine" tail.
+- KC-135 tankers evacuated Prince Sultan → Europe (flight tracking confirmed)
+- Full-spectrum US withdrawal: air bases, naval, ground, THAAD — ALL pulling back
+- Krepinevich 2014 CSBA paper in PROME/mail/inbox/ — theoretical foundation for chokepoint denial
+- Gap between rhetoric ("take over Hormuz") and posture (retreating) is widening
+- Hormuz duration: 4-6 months MINIMUM base case. All our expirations fall within this window.
+
 **Open questions:**
 - KRE EOD put details — Will to confirm
 - Senate DHS vote outcome unknown
 - Trump peace talk — doesn't kill thesis (3 legs) but could slow timeline
 - USO re-entry timing — second leg to $120-130 probable if Hormuz stays closed
+- CF IV levels — check before entering, don't overpay for bloated pre-CPI premium
 
 **Key conceptual upgrades from tonight:**
 - TLT puts have 3 independent legs (energy, foreign selling, deficit). Even ceasefire only weakens 1.
