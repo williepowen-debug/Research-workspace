@@ -1,5 +1,61 @@
 # REGINALD STATUS
-**Last Updated:** 2026-03-09 17:35 UTC | **Status:** 🔴🔴🔴 EXTREME — WAL -8.46% (Jefferies suit/charge-off confirmed). Ready Capital $232M loss, 25% non-accruals. WTI $116 (+28% overnight, Hormuz blockage). Yield curve steepening. CRE multi-front stress escalating. OZK Apr 16 detonator in 38 days.
+**Last Updated:** 2026-03-10 20:20 UTC | **Status:** 🔴🔴 HIGH — Trump "war very complete" verbal de-escalation caused Brent $119.50 → $91.70 intraday crash; markets rallied. HOWEVER: strikes heaviest day yet per Pentagon/Reuters. Iran IRGC still threatening Hormuz blockade. Oil de-escalation is verbal, not structural. KRE bear put spread unwind ($6.7M, Mar 9) = institutional hedge removal = counter-signal on KRE Mar 13 $66P timing. WAL Sep $70P entered today at $768. Manhattan CRE confirmed below COVID lows. CPI tomorrow (Mar 11). OZK Apr 16 detonator in 37 days.
+
+## 🚨 MAR 10 EOD UPDATE — HORMUZ VERBAL DE-ESCALATION / MARKET WHIPSAW
+
+**Filed:** 2026-03-10 | **Sources:** Guardian, Reuters, CNBC, NYT, ainvest
+
+### Key Developments Today
+
+**1. Trump "War Very Complete" → Oil Crash (CRITICAL DELTA)**
+- Brent spiked to **$119.50/bbl intraday** (War Day 10 continuation from $90 Mar 6 close)
+- Trump CBS News interview: war "very complete, pretty much" + social media threat: "hit Iran TWENTY TIMES HARDER if Hormuz blocked"
+- Brent crashed to **~$91.70** on Trump remarks. Global stocks rallied: FTSE +1.4%, Stoxx +1.5%, Nikkei +2.5%, Kospi +6%
+- **BUT: Reuters/Pentagon confirm HEAVIEST DAY OF STRIKES YET on Mar 10.** Iran IRGC explicitly threatening to halt ALL Middle East oil exports
+- **Assessment:** This is verbal de-escalation, not structural cessation. The market is pricing Trump's words; the military/IRGC is not. Hormuz threat remains live. Oil volatility at regime-change level.
+- **Impact on thesis:** Short-term relief rally on banks (stagflation narrative paused momentarily). Does NOT change CRE refi math, NIM relief timeline, or credit fundamentals. Trump rhetoric ≠ ceasefire.
+
+**2. KRE Bear Put Spread UNWIND — $6.7M (Mar 9 — COUNTER-SIGNAL)**
+- Institutional trader closed a $6.7M bear put spread on KRE: bought to close $63P, sold to close [higher strike]
+- This is downside hedge REMOVAL — someone taking off regional bank protection at/near lows
+- Could be: (a) profit-taking after -7% 3-day slide (worst since Apr 7 last year), (b) belief in war-end rally, or (c) thesis recalibration
+- **KRE $66P Mar 13:** The unwind + today's rally = CRITICAL pressure on our near-expiry put. Need PROME to assess roll/close.
+- KRE 3-day slide: **-7%** (Yahoo Finance) = worst 3-day move since April 7 last year
+
+**3. Oil Trajectory: $90 → $119.50 → $91.70 in 4 days**
+- This volatility is itself a systemic risk signal — energy hedging costs, CRE operating cost uncertainty, insurance markets
+- "Breathing room" per Hargreaves Lansdown analyst — but Iran has not stood down
+- For banks: short-term NIM story may shift slightly if 10yr yield drops on ceasefire narrative; but any re-escalation snaps it back
+
+**4. Manhattan CRE Below COVID Lows [NEW CONFIRMATION]**
+- Confirmed in task context: Manhattan CRE prices now below COVID lows
+- This is a structural low that matters: COVID lows were "emergency" — this is now WORSE than that baseline
+- Implication: No-bid zone below the prior floor. Banks marking Manhattan CRE to COVID-era values are NOW OVER-MARKED. Q1 appraisals will force further writedowns.
+- Cross-signal: Cantor Fitzgerald appraisals (WAL $98M receiver) happening INTO this environment
+
+**5. WAL Sep $70P Entered Today at $768**
+- New position entered by Will today
+- At-the-money (ATM) given WAL ~$70 handle (post Mar 6 charge-off sell-off)
+- Sep expiry = 6 months of runway through Q1 earnings (Apr 27 est), Q2 stress, May 12 Investor Day
+- Thesis: Multiple upcoming negative catalysts (Jefferies lawsuit, Cantor appraisals, Q1 CRE marks, Manhattan below COVID lows)
+- $768 cost = premium at ATM with 6mo runway — reasonable given volatility
+
+**6. Debt-to-GDP 100% — Fiscal Space Gone (Cross-Domain)**
+- FinancialContent article today: US Debt-to-GDP hits 100%
+- KRE $1T CRE maturity wall noted in same piece
+- "Zombie" companies in Russell 2000 facing refinancing shock
+- Fiscal bailout option for CRE/bank crisis is now politically and arithmetically constrained — this is a NEW structural limit on government response capacity
+
+### Today's Position Assessment
+
+| Position | Status | Action Needed |
+|----------|--------|---------------|
+| KRE $66P Mar 13 | 🔴 URGENT — Trump rally may have pushed KRE above $66 | PROME: Assess roll vs close. 3 days left. |
+| WAL Sep $70P | ✅ New position — good runway | Hold. Monitor Cantor appraisals + CPI tomorrow |
+| EGBN Jun $25P | Hold | NFP thesis intact |
+| ZION Jul $57.5P | Hold | |
+| OZK Aug $42.5P | Hold | Apr 16 detonator 37 days |
+| HYG Jun $75P | Watch | War-end rally may temporarily compress spreads |
 
 ## 🚨 MAR 9 AM UPDATE — MULTI-FRONT ESCALATION
 
@@ -156,11 +212,12 @@ Eight independent channels terminate at regional banks.
 
 | Indicator | Value | Source | Status |
 |-----------|-------|--------|--------|
-| S&P 500 | **~6,720-6,740 est** (Mar 6 close) | [EST] Globe & Mail confirms broad selloff NFP+oil | 🔴 Third consecutive down day |
-| VIX | **~27-30 est** (Mar 6) | [EST] NFP miss + oil spike + WAL -13% = vol spike likely | 🔴 Elevated |
-| HY OAS | **~310-320bps est** (Mar 6) | [EST] NFP -92K + oil to $90 = spreads widening; likely near/at 320 threshold | 🔴 THRESHOLD WATCH |
-| KRE | **~$64** (Mar 6 mid/close per task) | [CONF task context] -5.2% from $67.48 Mar 4 close; -13.6% from $74.08 Feb peak | 🔴 |
-| Brent Crude | **$89-90** (Mar 6) | [CONF Bloomberg/NYT] Near-total Hormuz halt. +24% since war started. Biggest weekly surge since 2022. | 🔴🔴 ESCALATED |
+| S&P 500 | **~6,720-6,740 est** (Mar 6 close) → **rally Mar 10** | Trump war-end remarks → broad risk-on. Exact close TBD. | 🟡 Relief rally |
+| VIX | **~27-30 est** (Mar 6) → declining Mar 10 | War-end narrative compresses vol temporarily | 🟡 Relief |
+| HY OAS | **~310-320bps est** (Mar 6) → potentially compressing | War-end + risk-on = spread tightening possible; watch HENRY | 🟡 THRESHOLD WATCH |
+| KRE | **~$64** (Mar 6) → **unknown Mar 10 close** | -7% 3-day slide per Yahoo (worst since Apr 7). Trump rally may have bounced. $66P Mar 13 CRITICAL | 🔴 |
+| Brent Crude | **$119.50 intraday Mar 10** → **~$91.70** (Mar 10 close est) | Trump remarks crashed oil. Iran still blocking. Heaviest strikes yet per Reuters. | 🟡 Verbal de-escalation only |
+| Manhattan CRE | **Below COVID lows** | [CONF task context Mar 10] New structural floor breach | 🔴🔴 NEW |
 | Office CMBS DQ | **12.34%** (+103bps MoM) | [CONF] CREED — Trepp Feb data | 🔴 ATH, exceeds GFC |
 | CMBS Special Servicing | **17.11%** | [CONF] CREED — Trepp Feb data | 🔴 |
 | CRE Modification Wave | **$27.7B** (+66% YoY) | [CONF] CREED — updated from $7.7B stale | 🔴 |

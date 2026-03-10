@@ -1,5 +1,29 @@
 # LIQUID STATUS
-**Last Updated:** 2026-03-10 17:31 UTC | **Status:** 🔴🔴 CRITICAL — HY OAS Mar 9 = **319bps [CONF FRED]** — 1bp from LIQ-01 (320bps). Trump "war is pretty much over" comment Mon evening pulled oil from $119 high → ~$87 WTI. 10Y 4.109% (modest rally on war-end hope). SOFR 3.65% (easing). RRP $0.332B (near zero). CPI tomorrow (Wed Mar 11). G7 energy ministers today (SPR decision). 3Y Treasury auction today.
+**Last Updated:** 2026-03-10 20:30 UTC | **Status:** 🔴🔴 CRITICAL — HY OAS Mar 9 = **319bps [CONF FRED]** — 1bp from LIQ-01 (320bps). Mar 10 close: 10Y ~4.15% (FLAT despite oil -10%), 30Y 4.784% (+4bps — LONG-END SELLING), 2Y 3.588%. Oil <$90 (Trump "20X harder" Hormuz threat). S&P -0.21%. SOFR 3.65%. RRP Mar 10 = **$0.278B** [CONF FRED]. CPI TOMORROW 8:30 ET (est. +0.3% MoM, +2.5% core YoY). G7 energy: NO SPR DECISION. Hegseth: "most intense strikes day" today — peace narrative from Mon contradicted. **LIQ-01 trigger imminent — 1bp away, CPI is the detonator.**
+
+---
+
+## 🚨 MAR 10 EOD UPDATE (20:30 UTC)
+
+**CONFIRMED DATA:**
+- **HY OAS Mar 9: 319bps [CONF FRED]** — 1bp from LIQ-01 trigger. ICE BofA Mar 10 data publishes tomorrow AM (Mar 11). With S&P -0.21% today, est. ~319-321bps Mar 10. LIQ-01 **may be breached right now** — confirmation tomorrow AM.
+- **IG OAS Mar 9: 85bps [CONF FRED]** — holding flat. IG resilient vs HY divergence persisting.
+- **SOFR Mar 9: 3.65% [CONF FRED]** — stable, mild easing trend. No funding stress spike.
+- **RRP Mar 10: $0.278B [CONF FRED]** — lowest print in this entire crisis. Buffer = GONE.
+- **10Y Mar 10: ~4.15% [CONF CNBC]** — flat despite oil -10%. 30Y: 4.784% (+4bps). 2Y: 3.588%.
+- **Oil: <$90/bbl** — fell from $91 close (Mar 6) and ~$87-$100 intraday range (Mar 9) after Trump "war pretty much over" then "20X harder" Hormuz threat. G7 energy ministers met, **NO SPR decision**.
+- **S&P 500: -0.21% [CONF TheStreet]** — Dow -0.07%, Nasdaq +0.01%, Russell -0.24%.
+
+**KEY SIGNALS TODAY:**
+1. **Bond market refusing to rally on oil drop**: Oil -10% intraday. 10Y = flat. 30Y = UP 4bps. This is the clearest FOI/foreign selling confirmation yet — Treasury market cannot perform safe-haven function even when the dominant inflation driver deflates.
+2. **Peace narrative dead**: Trump Mon said war "pretty much over." Hegseth Tue: "most intense day of strikes." Oil failed to hold below $87 on rally; closed <$90 but war escalation confirmed. G7 SPR discussions ongoing but no action — oil downside capped.
+3. **LIQ-01 imminent**: 319bps → 1bp from trigger. Tomorrow AM = CPI + ICE BofA Mar 10 spread data. Hot CPI (>2.5%) likely catalyzes spread gapping through 320.
+
+**CPI TOMORROW (Mar 11, 8:30 ET):**
+- Consensus: Headline +0.3% MoM / +2.4% YoY; Core +2.5% YoY [CONF Kiplinger/FactSet/Continuum]
+- Wells Fargo: "progress on lowering inflation is stalling out again"
+- NOTE: Feb CPI captures pre-war energy (war started Feb 28). Oil spike = Mar CPI problem. So tomorrow's print is a **lagging snapshot** — the stagflation acceleration is in March data (prints April 10).
+- Still matters: hot Feb print validates Fed paralysis narrative + HY spread momentum.
 
 ---
 

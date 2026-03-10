@@ -1,7 +1,7 @@
 # BROCK STATUS — Private Credit / Alt Assets / PE / ILS
 
-**Last context:** Redemption cascade widening — HLEND hard-gated (Mar 6), now BX BCRED + HLEND both in distress management mode. Oil surged ~$120 overnight on Hormuz tanker threat, G7 intervening; oil cooling toward $100 intraday. War Day 10 adding direct default risk to portfolio companies. Bloomberg/Reuters full-system alert on private credit. Mainstream narrative = fully broken.
-**Last updated:** 2026-03-09 AM
+**Last context:** Oil crashed 11% (Brent $87.80, from $119.50 peak) on Trump "war ending very soon" signal. Redemption cascade entering debt-for-equity phase — Bloomberg: "Private Creditors Taking Keys to More Failing Companies." Reuters runs 2007 subprime parallel piece. APO Atletico Madrid deal closing Mar 12 (distraction/optics signal). Debt-for-equity swaps increasing in private markets = marks starting to force.
+**Last updated:** 2026-03-10 EOD
 
 ---
 
@@ -21,7 +21,7 @@
 | Athene Assets | **$442B**, 48% illiquid, RBC 412% | 🔴 | [CONF] 10-K Feb 2026 |
 | P&I War Risk Insurance | Cancelled effective Mar 2 | 🔴 | [CONF] Windward.ai Mar 2 |
 | Hormuz Tanker Traffic | ~Zero (150 ships stranded) | 🔴 | [CONF] Reuters Mar 5 |
-| Brent Crude | **~$100 (spike $120 overnight)** | 🔴 ↑↑↑ | [CONF] 247WallSt/Bloomberg Mar 9 |
+| Brent Crude | **$87.80 (was $119.50 intraday high)** | 🟠 ↓↓↓ | [CONF] Reuters Mar 10 |
 | WAL (bank proxy) | **$70** (-13% today) | 🔴 | [CONF] Market Mar 6 |
 | KRE (regional bank ETF) | **$64** (-3.6% today) | 🔴 | [CONF] Market Mar 6 |
 | NFP (Feb print) | **-92K** | 🔴 | [CONF] BLS Mar 6 |
@@ -42,9 +42,9 @@
 | Software Marks | 🟠 (3) | 40% of sponsor-backed loans; AI disruption eroding SaaS moats | Q1 markdowns in PE reports | Mar 4 |
 | Bank Warehouse Lines | 🔴 (4) | WAL sued Jefferies fraud ($126.4M First Brands); WAL -12%, KRE -3.6%; transmission via litigation now | BDC revolver draws spike; more bank suits | Mar 6 |
 | Regulatory Action | 🟡 (2) | SEC 2026 exam expected; no enforcement yet | Any enforcement action filed | Mar 5 |
-| Mainstream Narrative | 🔴 (4) | CNN "echoes of 2008", Eisman "slow brewing scandal", Reuters Breakingviews, CNBC | Hedge fund consensus = window closing | Mar 6 |
+| Mainstream Narrative | 🔴 (5) | Reuters "alarm bells echo 2007 subprime" (Mar 10); Bloomberg "Private Creditors Taking Keys"; Motley Fool retail-protective; full consensus forming | Window closing FAST — hedge funds pricing it in | Mar 10 |
 
-**Convergence: 46/50 🔴🔴 — CASCADE PHASE. HLEND gated Mar 6. BX avoided via own-money injection. Bloomberg front-page systemic warning Mar 8. Oil $120 Hormuz shock now adding real-economy default transmission. We are in the event — escalating.**
+**Convergence: 48/50 🔴🔴 — DEBT-FOR-EQUITY PHASE. HLEND gated Mar 6. Oil crashed 11% Mar 10 on Trump de-escalation signal (Brent $87.80 from $119.50 peak). Bloomberg explicitly naming debt-for-equity swaps proliferating — marks must now move. Reuters 2007 subprime parallel = thesis at full mainstream consensus. APO class action, Atletico deal. Window closing.**
 
 ---
 
@@ -93,6 +93,10 @@
 | Mar 6 EOD | **BlackRock HLEND gates — $620M / $1.2B paid (~52%)** | 🔴🔴 GATE EVENT — thesis trigger |
 | Mar 6 (today) | NFP -92K print; WAL -13%, KRE -3.6% | 🔴 Bank stress accelerating |
 | Mar 6 (today) | Eisman "slow brewing scandal" + CNN "echoes of 2008" | 🔴 Thesis going consensus |
+| Mar 10 EOD | **Oil -11% (Brent $87.80) on Trump "war ending very soon"** | 🟠 Relief for energy-exposed portfolio cos; BUT removes PE/BDC energy tailwind. Transmission risk lower; redemption pressure continues regardless |
+| Mar 10 EOD | **Bloomberg: "Private Creditors Taking Keys to More Failing Companies"** — debt-for-equity swaps increasing | 🔴🔴 MARKS FORCING. This is the next leg: funds becoming equity holders in zombie cos = NAV writedowns incoming |
+| Mar 10 EOD | **Reuters: "Private Credit Alarm Bells Echo 2007 Subprime Warnings"** — explicit GFC parallel in mainstream financial press | 🔴 Thesis is now mainstream consensus. Window compressing. |
+| Mar 12 | APO closing Atletico Madrid stake acquisition | 🟠 Optics: buying soccer clubs while portfolio burns = narrative ammunition |
 | Apr–May 2026 | Q1 2026 earnings — private credit mark-to-market | 🔴 Key resolution event |
 | Apr 6, 2026 | TCPC (BlackRock TCP Capital) class action lead plaintiff deadline | 🟠 Legal catalyst — Nov 2024–Jan 2026 class period, First Brands/NAV impairment |
 | May 1, 2026 | APO class action lead plaintiff deadline | 🟠 Legal catalyst |
@@ -143,4 +147,4 @@
 
 ## BOTTOM LINE
 
-**THE GATE HAS TRIGGERED.** BlackRock HLEND became the first major retail private credit fund to formally gate on March 6, 2026 — paying only $620M of $1.2B in redemption requests. This is no longer a thesis about what might happen; it's a live event. BCRED avoided gating via employee capital injection; BlackRock could not. The question now: does BCRED gate next, and does this cascade to the broader semi-liquid retail private credit complex? With NFP -92K, WAL -13%, BLK -6.7%, and KRE -3.6%, the labor→credit→bank transmission chain is firing simultaneously. Q1 2026 earnings (April/May) will be the first full mark-to-market under this stress. APO puts in portfolio — hold or consider adding. Convergence: 42/50.
+**ENTERING DEBT-FOR-EQUITY PHASE.** The gate triggered Mar 6 (HLEND). Now Bloomberg is reporting debt-for-equity swaps proliferating as private creditors take control of failing portfolio companies. This is the mark-forcing mechanism: once a fund holds equity in a zombie, they can't pretend NAV is par. Q1 2026 earnings will be the first mandatory disclosure under this stress. Oil's -11% crash on Trump de-escalation is a double-edged event: it lowers real-economy default pressure for energy-exposed portfolio companies, but removes the "everything is fine, it was just oil" narrative that managers were building. The stress is now clearly endogenous to private credit, not just a macro shock. Reuters is running explicit 2007 GFC parallels — thesis is consensus. APO puts: conviction remains 5/5, window compressing as hedge funds price in. Act before Q1 earnings trigger the public capitulation. Convergence: 48/50.
