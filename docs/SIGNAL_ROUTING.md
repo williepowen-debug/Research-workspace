@@ -14,12 +14,12 @@ Will sends signal (screenshot, article, data)
       - Filters noise vs signal
       - Routes to correct agent(s)
               ↓
-    Agent INBOX.md
+    Agent inbox/ folder (individual signal files)
               ↓
     Agent processes on next run
       - Integrates into STATUS.md
       - Updates workbooks if needed
-      - Archives or discards
+      - Moves to inbox/processed/
 ```
 
 ---
@@ -52,10 +52,12 @@ Will sends signal (screenshot, article, data)
 
 Keep it simple. Prome delivers the package — agent decides what it means.
 
-Each signal entry in `AGENTS/[AGENT]/INBOX.md`:
+**Each signal = one file** in `AGENTS/[AGENT]/inbox/`:
 
+**Filename:** `SIG-[AGENT]-YYYYMMDD-brief-description.md`
+
+**Template:**
 ```markdown
----
 ### Signal Title — Brief Context
 
 **When:** YYYY-MM-DD (processed HH:MM UTC)
@@ -68,8 +70,6 @@ Each signal entry in `AGENTS/[AGENT]/INBOX.md`:
 - "Direct quote if important"
 
 **For [AGENT]:** One line on why it landed here
-
----
 ```
 
 ### Field Reference
@@ -106,13 +106,12 @@ Default to option 1. Use option 2 sparingly for high-impact signals.
 
 **On every session start, agents must:**
 
-1. Check `INBOX.md` for new entries
-2. For each entry, decide:
+1. Check `inbox/` folder for new signal files
+2. For each file, decide:
    - **INTEGRATE:** Add to STATUS.md in appropriate section
    - **UPDATE:** Modify existing data/section
-   - **ARCHIVE:** Move to `inbox_archive/YYYY-MM.md` (useful but not STATUS-worthy)
+   - **ARCHIVE:** Move file to `inbox/processed/`
    - **DISCARD:** Delete (noise that slipped through)
-3. Clear processed entries from INBOX.md
 
 **Integration guidelines:**
 - Update Signal Dashboard if it's a tracked metric
@@ -126,16 +125,18 @@ Default to option 1. Use option 2 sparingly for high-impact signals.
 
 | Agent | Inbox Path |
 |-------|------------|
-| LABOR | `AGENTS/LABOR/INBOX.md` |
-| CARL | `AGENTS/CARL/INBOX.md` |
-| SAM | `AGENTS/SAM/INBOX.md` |
-| HENRY | `AGENTS/HENRY/INBOX.md` |
-| LIQUID | `AGENTS/LIQUID/INBOX.md` |
-| REGINALD | `AGENTS/REGINALD/INBOX.md` |
-| HAWK | `AGENTS/HAWK/INBOX.md` |
-| MARCO | `AGENTS/MARCO/INBOX.md` |
-
-Sub-agents (BROCK, CREED, GIG) receive signals via their parent agent.
+| LABOR | `AGENTS/LABOR/inbox/` |
+| CARL | `AGENTS/CARL/inbox/` |
+| SAM | `AGENTS/SAM/inbox/` |
+| HENRY | `AGENTS/HENRY/inbox/` |
+| LIQUID | `AGENTS/LIQUID/inbox/` |
+| REGINALD | `AGENTS/REGINALD/inbox/` |
+| HAWK | `AGENTS/HAWK/inbox/` |
+| MARCO | `AGENTS/MARCO/inbox/` |
+| BROCK | `AGENTS/BROCK/inbox/` |
+| HANS | `AGENTS/HANS/inbox/` |
+| OTTO | `AGENTS/OTTO/inbox/` |
+| BRENT | `AGENTS/BRENT/inbox/` |
 
 ---
 
@@ -159,15 +160,15 @@ Primary agent can forward to secondaries or note in their STATUS.md cross-agent 
 
 ## Archive Structure
 
-Processed signals that have lasting reference value:
+Processed signals move to the processed subfolder:
 
 ```
-AGENTS/[AGENT]/inbox_archive/
-  2026-02.md   # February 2026 archived signals
-  2026-03.md   # March 2026 archived signals
+AGENTS/[AGENT]/inbox/processed/
+  SIG-AGENT-20260310-signal-name.md
+  SIG-AGENT-20260309-other-signal.md
 ```
 
-Keeps inbox clean while preserving audit trail.
+Keeps inbox clean while preserving audit trail. Agents move files here after integrating into STATUS.md.
 
 ---
 
