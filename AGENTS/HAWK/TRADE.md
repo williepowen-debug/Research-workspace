@@ -1,5 +1,5 @@
 # HAWK TRADE.md
-**Updated:** 2026-03-10 02:30 UTC
+**Updated:** 2026-03-10 22:30 UTC
 
 ---
 
@@ -8,7 +8,7 @@
 | # | Trade | Direction | Conv | Domain Rationale | Entry Signal | Exit Signal | Updated |
 |---|-------|-----------|------|-----------------|-------------|-------------|---------|
 | 1 | **USO calls (Mar/Apr)** | Long oil | 5/5 | Scenario C confirmed: Iraq 70% shut-in (3M bpd), Hormuz -92% (Lloyd's List A-tier), Kuwait/UAE curtailment imminent. Yergin: "biggest disruption in history." Exceeds 2022 Russia shock that sent oil >$120. Brent $90 with structural supply destruction ongoing. | Already entered. Scenario C IS the entry. | Hormuz traffic recovers >50% within 10 days OR ceasefire + Brent <$75 within 48h. | Mar 10 |
-| 2 | **STNG/TNP (tanker equity)** | Long tankers | 5/5 | VLCC TD3C at WS 400+ / $423-445K/day (all-time high per BRENT). LNG carriers +529%. Hormuz rerouting = longer voyages = structural rate support even if war de-escalates. Tankers print cash at these rates. | Already entered (STNG). Rates at all-time highs. | Hormuz reopens + tanker rates normalize below WS 200 for 5 sessions. | Mar 10 |
+| 2 | **STNG/TNP (tanker equity)** | Long tankers | ⚠️3/5 REASSESS | VLCC TD3C at WS 400+ / $423-445K/day. BCTI (clean tankers) +72% per UNCTAD. BUT: **STNG PRODUCT TANKER FLAG** — if Gulf refineries cut runs due to inability to export crude, clean tanker cargo volumes shrink. BCTI rate spike may be inventory-driven (rerouting existing cargoes) not structural. If Gulf refinery runs cut, STNG's market shrinks even as headline rates stay elevated. Q: Are STNG's routes Gulf-dependent or Atlantic/Pacific basin? Awaiting BRENT coordination before adding. Do NOT add to STNG until route exposure confirmed. | Already entered (STNG). | Hormuz reopens + tanker rates normalize below WS 200 for 5 sessions. OR Gulf refinery runs cut >50% (thesis invalidation for clean). | Mar 10 22:30 |
 | 3 | **TLT puts** | Short UST | 4/5 | HAWK supports via energy channel: oil shock → inflation persistence → Fed can't cut → long-end reprices. Stagflation trap: NFP -92K + Brent $90 = Fed paralyzed. Gulf sulphur → copper → grid chain extends structural oil demand 12-18mo. | Structural — works in every war scenario. Hot CPI (Mar 11) = catalyst. | Ceasefire + oil <$75 + inflation expectations collapse. | Mar 10 |
 | 4 | **Fertilizer/Ag plays** | Long ag/food | 4/5 | Gulf = 13% global fertilizer exports, all Hormuz-dependent. India 62% nitrogen from Oman. Spring planting window NOW. 4+ weeks disruption = food CPI spike. Second-order chain still underpriced by markets. | Disruption extends past 4 weeks (currently Day 10). Ag futures start moving. | Hormuz reopens before spring planting deadline (~Apr 15 Northern Hemisphere). | Mar 10 |
 | 5 | **VIX call spreads** | Long vol | 4/5 | Scenario C = VIX 40-55 range. Currently compressed ~21 despite Hormuz closure + NFP -92K. Vol is mispriced for Scenario C reality. Any of: Kuwait full shutdown, Hezbollah activation, D-scenario nuclear signal → vol explodes. | Vol compression into confirmed supply crisis = entry. Add on any VIX dip <22. | Ceasefire + VIX sustained <20 for 2 weeks. | Mar 10 |
@@ -42,6 +42,8 @@
 | Copper (long) | BRENT: sulphur chain confirmed; physical shortage data | Gulf sulphur flows resume; DRC miners find alternative acid supply |
 
 ---
+
+| 7 | **LNG/Cheniere (LNG $270C/$300C May)** | Long LNG exporters | 4/5 — **GAP IN BOOK** | Qatar halted ALL production. TTF +74% to €55.8/MWh. 3-6 month disruption = massive for US LNG exporters (Cheniere). Qatar supplies 30% of Taiwan's LNG, 20% of global LNG exports. With 4-6+ month Hormuz closure base case, US LNG demand spike is structural. Conviction list has LNG $270C/$300C May at 4/5. Duration analysis strongly supports. This is the single biggest position gap in the book. | Qatar/Hormuz LNG disruption confirmed (already). 4-6 month duration base case established. | Qatar production resumes + TTF normalizes below pre-war levels. | Mar 10 22:30 |
 
 ## Rejected / Exited
 

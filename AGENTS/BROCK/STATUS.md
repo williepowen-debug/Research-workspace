@@ -48,7 +48,7 @@
 | Regulatory Action | 🟡 (2) | SEC 2026 exam expected; no enforcement yet | Any enforcement action filed | Mar 5 |
 | Mainstream Narrative | 🔴 (5) | Reuters "alarm bells echo 2007 subprime" (Mar 10); Bloomberg "Private Creditors Taking Keys"; Motley Fool retail-protective; full consensus forming | Window closing FAST — hedge funds pricing it in | Mar 10 |
 
-**Convergence: 48/50 🔴🔴 — DEBT-FOR-EQUITY PHASE. HLEND gated Mar 6. Oil crashed 11% Mar 10 on Trump de-escalation signal (Brent $87.80 from $119.50 peak). Bloomberg explicitly naming debt-for-equity swaps proliferating — marks must now move. Reuters 2007 subprime parallel = thesis at full mainstream consensus. APO class action, Atletico deal. Window closing.**
+**Convergence: 50/50 🔴🔴 — CASCADE CONFIRMED. Three funds in 5 days: HLEND gated Mar 6, Cliffwater 7%+ redemptions Mar 10, Blue Owl OCSL prior. $7.3B+ visible redemption stress. Whalen: $4.2T bank→NDFI exposure ($2.8T undrawn = loaded gun). Atlas SP double default = warehouse channel cracking. Blue Owl/Kuvari confirms captive insurance-as-bad-bank is industry-wide, not APO-specific. Eisman complacency = shorts still have runway. Window compressing but still open.*
 
 ---
 
@@ -61,12 +61,14 @@
 - $8B firepower → ~3 more quarters at current rate [CONF Reuters Breakingviews Mar 5]
 - **Key tell:** 100% honor via self-injection is MORE alarming than gating — they fear the signal more than the cash cost
 
-### 2. Apollo/Athene — Dual Threat
+### 2. Apollo/Athene — Dual Threat + Industry Template
 - APO ~$107 (was $170+ pre-stress); Barclays PT $131 [CONF Barclays Mar 4]
 - Class action filed: Epstein/Rowan/Black misrepresentation, class period May 2021–Feb 2026; lead plaintiff deadline May 1 [CONF court filings Mar 5]
 - Athene: $442B assets, 48% illiquid; absorbed $9B ARI CRE at 99.7% par [CONF ARI filings]
 - Rowan warned "shakeout coming" Mar 3 — insider admission, positioned for it
 - APO break below $100 = psychological support gone
+- **NEW (Mar 9/10):** Blue Owl/Kuvari confirms APO/Athene is not anomalous — it's an INDUSTRY PLAYBOOK. OBDC2 stuffed $595M into Kuvari (captive insurance Blue Owl controls) at par. Glenn Shore named the APO parallel explicitly on Eisman Ep 49. Two confirmed firms = systemic pattern. Regulatory/SEC scrutiny now has 2x the surface area.
+- **Atlas SP double default (Mar 10):** Apollo's Atlas SP warehouse facilities in default (MFS chain). Formerly Credit Suisse. Barclays, TPG, Jefferies exposed. APO's warehouse arm is now a direct default event, not just a stress watch.
 
 ### 3a. BlackRock HLEND — FORMAL GATE (NEW Mar 6 EOD — THESIS TRIGGER)
 - **BlackRock's $26B HPS Corporate Lending Fund (HLEND) formally limited withdrawals today** [CONF Reuters/Bloomberg Mar 6]
@@ -100,6 +102,9 @@
 | Mar 10 EOD | **Oil -11% (Brent $87.80) on Trump "war ending very soon"** | 🟠 Relief for energy-exposed portfolio cos; BUT removes PE/BDC energy tailwind. Transmission risk lower; redemption pressure continues regardless |
 | Mar 10 EOD | **Bloomberg: "Private Creditors Taking Keys to More Failing Companies"** — debt-for-equity swaps increasing | 🔴🔴 MARKS FORCING. This is the next leg: funds becoming equity holders in zombie cos = NAV writedowns incoming |
 | Mar 10 EOD | **Reuters: "Private Credit Alarm Bells Echo 2007 Subprime Warnings"** — explicit GFC parallel in mainstream financial press | 🔴 Thesis is now mainstream consensus. Window compressing. |
+| Mar 10 EOD | **Cliffwater $33B — 7%+ redemption requests (~$2.3B)** — Bloomberg. Third major fund in 5 days. | 🔴🔴 Cascade is live. Not theoretical. |
+| Mar 10 EOD | **Whalen: $4.2T bank→NDFI exposure** ($1.4T outstanding, $2.8T undrawn). Atlas SP double default. FDIC chart saved. | 🔴 Bank transmission channel now quantified. Warehouse defaults beginning. |
+| Mar 9 | **Eisman Ep 49: Blue Owl/Kuvari stuffing** ($595M OBDC2 assets into captive insurance at par). Glenn Shore names APO parallel. | 🔴 Captive insurance playbook now confirmed at 2 firms (APO + OWL). |
 | Mar 12 | APO closing Atletico Madrid stake acquisition | 🟠 Optics: buying soccer clubs while portfolio burns = narrative ammunition |
 | Apr–May 2026 | Q1 2026 earnings — private credit mark-to-market | 🔴 Key resolution event |
 | Apr 6, 2026 | TCPC (BlackRock TCP Capital) class action lead plaintiff deadline | 🟠 Legal catalyst — Nov 2024–Jan 2026 class period, First Brands/NAV impairment |
@@ -151,4 +156,4 @@
 
 ## BOTTOM LINE
 
-**ENTERING DEBT-FOR-EQUITY PHASE.** The gate triggered Mar 6 (HLEND). Now Bloomberg is reporting debt-for-equity swaps proliferating as private creditors take control of failing portfolio companies. This is the mark-forcing mechanism: once a fund holds equity in a zombie, they can't pretend NAV is par. Q1 2026 earnings will be the first mandatory disclosure under this stress. Oil's -11% crash on Trump de-escalation is a double-edged event: it lowers real-economy default pressure for energy-exposed portfolio companies, but removes the "everything is fine, it was just oil" narrative that managers were building. The stress is now clearly endogenous to private credit, not just a macro shock. Reuters is running explicit 2007 GFC parallels — thesis is consensus. APO puts: conviction remains 5/5, window compressing as hedge funds price in. Act before Q1 earnings trigger the public capitulation. Convergence: 48/50.
+**CASCADE CONFIRMED. Three events in five days.** HLEND gated Mar 6. Cliffwater 7%+ redemptions Mar 10. Blue Owl restrictions prior. $7.3B+ in visible active redemption stress across major funds. Whalen's FDIC data quantifies the transmission channel: $4.2T bank→NDFI exposure with $2.8T undrawn — a loaded gun. Atlas SP double default confirms warehouse channel is cracking, not just stressed. Blue Owl/Kuvari insurance stuffing (OBDC2, $595M) is the critical new data point: what we thought was APO-specific (Athene as bad bank) is an INDUSTRY PLAYBOOK. Two confirmed firms. Regulatory surface area doubled. Glenn Shore named it on Eisman's podcast. This broadens the thesis from "short APO" to "short the entire model." Eisman's own complacency on Ep 49 — dismissing fears while his guests describe first-ever SoFi CNL trigger, retail outflows, and "too hard bucket" allocation — is a contrarian signal that the short still has runway before consensus fully reprices. Q1 2026 earnings = mandatory disclosure. Convergence: 50/50.

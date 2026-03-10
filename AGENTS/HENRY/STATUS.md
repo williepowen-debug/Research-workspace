@@ -1,5 +1,45 @@
 # HENRY STATUS
-**Last Updated:** 2026-03-10 20:15 UTC (EOD) | **Status:** 🟠 MARKET CLOSED GREEN — SPX +0.44% TO 6,825.52. OIL -10% (BRENT ~$88) ON WH DE-ESCALATION SIGNALS. GOLD UP TO $5,220+. BREADTH NARROW — SEMIS/TECH CARRYING. CPI TOMORROW 8:30 AM ET (CONSENSUS 2.4%/2.5% CORE). ORACLE BEAT AFTER CLOSE (+OCI +84% YoY). RED TEAM GAINS FOOTING: HORMUZ DURATION THESIS UNDER PRESSURE AS OIL RETREATS. NEW TRADES: TLT JUN $85P x3, CF JUN $115C, WAL SEP $70P.
+**Last Updated:** 2026-03-10 22:10 UTC | **Status:** 🟠 MARKET CLOSED GREEN MON — SPX +0.44% TO 6,825.52. BRENT ~$88 (-10% ON WH DE-ESCALATION). CPI WEDNESDAY 8:30 AM ET (CONSENSUS 2.4%/2.5% CORE — OUR MODEL: 65% HOT PRINT ABOVE). CLAIMS THURSDAY. SPY BROKE 20-WEEK MA MAR 9. VIX HIT 29.5 ON MAR 9 FUTURES OPEN (PARTIALLY SPRUNG). GDPNOW Q1: 3.0%→2.1% IN 4 DAYS. GLOBAL BOND SELLOFF CONFIRMED X-03. OIL SHOCK ANALOG: 1979-80 STAIRCASE TEMPLATE — MID-CRISIS PULLBACK, NOT RESOLUTION. HYG JUN PUTS MAY BE TOO EARLY (CREDIT LAG 3-14MO HISTORICAL). NEW TRADES: TLT JUN $85P x3, CF JUN $115C, WAL SEP $70P.
+
+---
+
+## OIL SHOCK ANALOG — 1979-80 TEMPLATE (Added Mar 9, 3-source cross-verified)
+
+**Core finding:** WTI $119→$84 (-30%) = mid-crisis pullback, NOT resolution. Three independent AI sources unanimous. Second leg higher = base case.
+
+| Cycle | Mid-Crisis Pullback | Equity Bottom Lag | Total Drawdown | Notes |
+|-------|--------------------|--------------------|----------------|-------|
+| 1973-74 | Multiple -15% retracements | **11 months** after oil peak | **-48% S&P** | 18% bull trap countertrend rally right at embargo start |
+| 1979-80 | Apr 1980 $39→$32 (-18%), Feb 1979 $23→sub-$20 (-15%) | **26 months** after oil peak | **-25% S&P** | Volcker intervention added second leg |
+| 2026 current | $119→$84 (-30%) Mar 9 | **Month ~0-1** — EARLY INNINGS | TBD | SPY already broke 20-week MA |
+
+**Bond dynamics (1970s = NO safe haven):**
+- 1973-74: 10Y 6.79%→8.04% (equities AND bonds down simultaneously)
+- 1979-80: 10Y 9.10%→12.40% (Volcker → 15.32%)
+- Real bond returns: **-3% annual for entire 1973-82 decade**
+- 1974: Embargo lifted Mar 18. Yields **kept rising** through rest of year. → TLT puts thesis intact.
+
+**Credit spread lag (critical for HYG timing):**
+- Post-embargo: Baa spreads barely moved for **3 months** (153→174bp)
+- Then DOUBLED to 313bp over following **9 months**
+- IG spreads: peak 5-7mo after recession START (1980 cycle); 14mo (1973 cycle)
+- **⚠️ IMPLICATION: HYG Jun puts may be too early. Consider rolling to Sep/Dec. Do NOT exit — extend.**
+
+**Bull trap risk:** 1973 had **18% countertrend rally** (Dow 845→997) right as embargo started. Current green days on de-escalation signals fit exact template.
+
+*Full data: KB ML-HEN-089 through ML-HEN-096 | VX VX-HEN-19.01 through VX-HEN-19.07 | FLOW FLOW-HEN-019 through FLOW-HEN-021*
+
+---
+
+## MAR 9 SIGNAL BATCH — KEY UPDATES
+
+**Mar 9 Batch Data:**
+- VIX: 23.61 (Mar 6 close) → **29.5** (Mar 9 futures open) — coiled spring partially sprung
+- S&P futures: -1.9% | Dow futures: -1,100pts | Nasdaq: -2.3%
+- GDPNow Q1: **3.0% → 2.1%** in 4 days (Mar 2→Mar 6)
+- Global bonds selling: AUS +13bps, Korea +13bps, UK +10bps, France +7bps, Japan +5bps, US 10Y +5.5bps to **4.1867%**
+- USO: +32.7% weekly | Gas: $3.45/gal (+16% weekly)
+- CPI overlay chart (X): current CPI tracking 1970s almost exactly — at 1979 re-acceleration inflection
 
 **Known Data Issues:** SPX Mar 3 close ~6,817 (not 6,781 — that was intraday). Dow -1,014pts at close (not -1,200 which was intraday). HY OAS 297bps (FRED CSV Mar 4 confirmed); LIQUID est 335-355 was ~40bps too high. Brent ~$84.75 (not $118). ISM Mfg released Mar 2 (1st BD), not Mar 3.
 
@@ -14,11 +54,11 @@
 | 3 | Credit-Equity Divergence | 4 | 🔴 | Quality rotation 4/5 steps, BKLN 52wk lows, HY OAS floor rising | HY OAS >350bps |
 | 4 | Stagflation / Labor-Inflation | **5** | 🔴🔴 | **NFP -92K CONFIRMED. Dec revised -17K. Wages +3.8% YoY. Stagflation locked.** | Already maxed |
 | 5 | 0DTE / Microstructure | 4 | 🔴 | 65% of SPX volume (record), GEX thinning, Citadel confirmed asymmetry | Structural — amplifier, not trigger |
-| 6 | Vol Structure | **4** | 🔴 | **VIX 23.61 close — elevated but BELOW 25. NFP absorbed without cascade. Watch for inversion if next shock hits.** | VIX spot > futures (inversion) |
+| 6 | Vol Structure | **4** | 🔴 | **VIX 23.61→29.5 on Mar 9 open. Coiled spring partially sprung. Watch for term structure inversion.** | VIX spot > futures (inversion) |
 | 7 | Earnings Quality / SBC | 3 | 🟠 | XLK <50% breadth, SBC 30-50% overstatement, SoftBank exited NVDA | PLTR breaks $100 (H5) |
 | 8 | Market Breadth | 3 | 🟠 | 8/11 sectors red, IWM below all MAs, Energy/Materials >95% | XLK breadth <40% (H7) |
 | 9 | Geopolitical / Commodity | **4** | 🔴 | **Brent $90 (Mar 6 intraday) — Hormuz STORAGE CRISIS escalating. +$5.25 since Mar 5 close.** | Brent $100 = Fed trap hardens |
-| 10 | Risk Parity / Leverage | 3 | 🟠 | Margin debt $1.23T ATH, risk parity building, vol rising | Correlated stock-bond selloff |
+| 10 | Risk Parity / Leverage | **4** | 🔴 | **Global bond selloff confirmed Mar 8 — stocks AND bonds down simultaneously. Risk parity has NO safe leg. Three-anchor framework LIVE.** | Full cross-asset deleveraging |
 | 11 | Carry / JPY Unwind | **4** | 🔴 | **ACTIVATED. Softest possible NFP. Yen bid expected. Watch USDJPY move toward 150-152.** | Confirmed USDJPY <153 = cascade active |
 | 12 | Consumer / Delinquency | 2 | 🟡 | Beige Book K-shape 10-12/12, FL UI cliff Mar 24 | Claims >300K or FL cliff fires |
 
@@ -197,15 +237,20 @@ Next: **NFP Mar 6** (HEN-01: 70% <100K) | CPI Mar 11 | PCE Mar 13 | FOMC Mar 17-
 
 ## WHAT TO WATCH
 
-1. **HY OAS** — Floor rising (265 Jan → 284 Feb → 308 Mar 3). Break 320 = LIQ-01 achieved.
-2. **MOVE vs VIX** — Divergence = 2-5 day warning
-3. **0DTE volume** — Drop >15% = liquidity withdrawal
-4. **PLTR** — Break $100 = AI repricing catalyst (currently $136)
-5. **XLK breadth** — Approaching 40% danger
-6. **BKLN** — Continue monitoring vs HYG divergence
-7. **Inflation surprises** — CPI/PPI/PCE vs consensus → rate path shifts
-8. **KOSPI/Asia spillover** — Forced liquidation from Korea → US EM exposure; watch SPX open Mar 5
-9. **FL consumer DQ** — UI exhaustion cliff Mar 24; FL outpaces national by Q2 (CARL)
+### ⚡ IMMEDIATE (This Week)
+1. **CPI Wednesday 8:30 AM ET** — Consensus 2.4% headline / 2.5% core. Our model: 65% hot print above consensus. If hot: stagflation lock tightens, Fed boxed, TLT puts confirmed, VIX likely re-spikes above 29.5. If cool: relief rally, de-escalation narrative dominates, oil retreat + soft CPI = Fed cut path opens → trim TLT puts risk. 1970s analog: CPI at 1979 re-acceleration inflection (CPI overlay chart circulating X).
+2. **Claims Thursday** — Watch absolute level vs 213K (Feb 28 wk). Any spike toward 230K+ = labor deterioration accelerating post-NFP -92K. Context: NFP -92K means we're in attrition cliff territory (FLOW-HEN-017). Rising claims here would confirm cliff-drop activation.
+3. **VIX 25/35 call spread** — Repricing post-29.5 spike. Recalculate cost before market open Wednesday.
+4. **HYG timing review** — Oil shock credit lag (3-14mo historical) suggests Jun puts may be too early. Assess roll to Sep/Dec after CPI.
+
+### Ongoing
+5. **HY OAS** — Floor rising (265 Jan → 284 Feb → 308 Mar 3). Break 320 = LIQ-01 achieved.
+6. **MOVE vs VIX** — Divergence = 2-5 day warning
+7. **SPY 20-week MA** — Confirmed break Mar 9. Per 1979-80 template: early innings. Watch for bull trap bounces.
+8. **PLTR** — Break $100 = AI repricing catalyst (currently $136)
+9. **XLK breadth** — Approaching 40% danger
+10. **BKLN** — Continue monitoring vs HYG divergence
+11. **FL consumer DQ** — UI exhaustion cliff Mar 24; FL outpaces national by Q2 (CARL)
 
 ---
 

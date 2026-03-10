@@ -1,5 +1,5 @@
 # LABOR STATUS
-**Last Updated:** 2026-03-09 17:32 UTC | **Status:** 🔴🔴 CRITICAL — NFP RESOLVED. SHADOW GAP CONFIRMED. STAGFLATION SIGNAL ACTIVE. Q4 2025 NOW CONTRACTIONARY.
+**Last Updated:** 2026-03-10 22:15 UTC | **Status:** 🔴🔴 CRITICAL — NFP RESOLVED. SHADOW GAP CONFIRMED. STAGFLATION SIGNAL ACTIVE. Q4 2025 NOW CONTRACTIONARY. CONSUMER STRESS PIPELINE LOADED (401k hardship record 6%). ADP/BLS DIVERGENCE ACTIVE.
 
 **EOD Note Mar 10:** No new data releases today. Key development: **Trump admin pivoting to federal rehire** — OPM head Kupor (WaPo) admitted "sometimes you over-restructure" and confirmed hiring push for healthcare, tech, program management under new political loyalty rules. BUT net federal workforce still far smaller than pre-DOGE; this is targeted rightsizing, not reversal. Implication: **DOGE narrative is morphing from "cut everything" to "cut and rebuild loyally"** — political cover shifting, but net employment impact remains deeply negative and won't reverse claims trajectory. GDPNow Q1 now at 2.1% (Atlanta Fed). LA Times: "all economic indicators flashing red." Tech layoffs YTD 45,724 (81 events) — unchanged from yesterday's count; AI-linked = 9,200 (20% of YTD). CPI tomorrow Mar 11 is next live cross-signal. Claims Thu Mar 13 = FIRST CLEAN READ post-DHS suppression. >235K = Vector 3 → score 5.
 
@@ -48,6 +48,8 @@
 | **Hourly Wages MoM** | **+0.4%** | 🔴 | [CONF] BLS Mar 6. Beat +0.3% exp. HOT. Deepens Fed trap — stagflation signal with -92K payrolls. |
 | **Hourly Wages YoY** | **+3.8%** | 🔴 | [CONF] BLS Mar 6. Beat +3.7% exp. Wages sticky while employment breaks. |
 | **Consumer Credit Jan** | **$11.0B vs $24.0B exp** | 🔴 | [CONF] Fed Mar 6. Massive miss. Households not borrowing to fill income gap — demand destruction signal. Cross: CARL. |
+| **401(k) Hardship Withdrawals** | **6% of participants (2025)** | 🔴 | [CONF] Vanguard / Business Insider Mar 10. Up from 4.8% in 2024. **+25% YoY.** Fastest pace on record. LAST-RESORT indicator — withdrawal means penalties + taxes + no better option. Pre-Hormuz data; 2026 trajectory is worse. Cross-ref: subprime delinquencies, NFP -92K, employment deterioration. → Cross: CARL. |
+| **ADP NER Weekly Pulse (Feb 21)** | **15,500 jobs/wk** | 🟠 | [CONF] ADP Mar 10. 5-week recovery from Jan low (4,250/wk). Now flat — stalling, not accelerating. **KEY DIVERGENCE: ADP weekly shows Feb gains vs BLS NFP -92K.** Consistent with "Private Canaries" paper (Mar 6) on declining BLS survey response rates. Data cutoff Feb 21 — pre-Hormuz, pre-DHS shutdown escalation. Watch Mar 17 next pulse. Alert if <10,000/week. |
 | **Retail Sales Jan** | **-0.2%** | 🟠 | [CONF] BLS Mar 6 (delayed). Slight beat vs -0.4% exp. Still negative. |
 | **ISM Services Feb** | **56.1%** | 🟡 | [CONF] ISM Mar 4. 3.5-year high, massive beat vs 53.5% exp. Counter-signal to labor deterioration. |
 | **ISM Mfg Feb (overall)** | **52.4%** | 🟡 | [CONF] ISM Mar 3. Expansion. Employment sub-index 48.8% still contraction. Headline misleads. |
@@ -191,6 +193,7 @@ PPI core +0.8% (2.6x expected) + PCE 2.9% + Hormuz → Oil spike
 | Claims >300K | REGINALD | All ORANGE banks → RED |
 | U-3 >5.0% | HENRY | Structural bid break |
 | Claims >250K sustained | CARL | Consumer conversion accelerates |
+| 401(k) hardship at 6% (Vanguard, 2025) | CARL | Pre-Hormuz stress floor confirmed. Consumer distress pipeline loaded. |
 | WARN-Foreclosure spread confirmed | CARL | Transmission confirmed |
 | Fed layoffs + DC vacancies | REGINALD | EGBN deterioration |
 | JOLTS suspension >30 days | ALL | Data blind spot alert |
@@ -274,6 +277,8 @@ The shadow payroll gap thesis is confirmed: WARN pipeline (716 notices, 85K work
 **The Street will try to dismiss this on healthcare.** The strike accounted for ~-28K (physicians offices -37K, hospitals +12K net). That's temporary and likely reverses in March. But stripping the strike leaves approximately **-64K structural** — federal govt -10K, information -11K, and broad private sector weakness. That is still a historically bad print.
 
 **What this means:** U-3 is at 4.4% and climbing. Long-term unemployed hit 1.9M (+400K YoY). BLS itself acknowledged "payroll employment changed little on net in 2025" — phantom job admission. The WARN→payroll transmission is validated (r=0.78 at τ=6 weeks). The Fed trap tightens: -92K payrolls vs PCE 2.9% + Hormuz-driven oil spike means the Fed is watching the economy deteriorate with hands tied.
+
+**New signals (Mar 10):** Vanguard 401(k) hardship withdrawals hit 6% of participants in 2025 (+25% YoY, record pace). This is a last-resort indicator — penalty taxes paid, no other options. Combined with NFP -92K, subprime delinquency trajectory, and UI exhaustion pipeline, the consumer stress chain is fully loaded. ADP NER weekly pulse shows 5-week recovery through Feb 21 (4,250→15,500/wk) — direct divergence with BLS NFP print. Consistent with BLS survey degradation thesis (Vector 9). March data (Mar 17 pulse, Mar 13 claims, Apr NFP) will show whether Hormuz/DHS escalation broke the recovery or ADP confirms BLS was the outlier.
 
 **March 12 claims is next critical read.** If DHS suppression lifts and claims print ≥235K, Vector 3 upgrades to 5 and the thesis is in full execution. If claims stay suppressed below 220K, the data quality question becomes more acute — not less.
 

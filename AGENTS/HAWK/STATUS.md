@@ -68,12 +68,15 @@
 - ✅ Haifa refinery struck Mar 7 — energy infra bidirectional
 - ✅ 22 fires at Iran missile/drone facilities — regime degradation underway
 - ✅ Nuclear facility fire Mar 5-6 — escalation ladder still climbing
-- ⚠️ Kuwait forced curtailment (T-minus ~days at current rate)
-- ⚠️ UAE curtailment (imminent)
+- ✅ **PHYSICAL MINING CONFIRMED Mar 10** — small vessels placing mines in transitway (CBS/CNBC/Metro UK). 3,200 ships idle (4% global tonnage). Mine clearance = weeks-months additional lag.
+- ✅ **Maersk full Gulf suspension confirmed** — world's largest carrier, all bookings to/from UAE/Oman/Iraq/Kuwait/Jordan/Qatar/Bahrain/Saudi
+- ✅ **Khamenei → Mojtaba (hardliner) succession** — resolution timeline extends dramatically
+- ⚠️ Kuwait forced curtailment (T-minus ~days at current rate; storage filling)
+- ⚠️ UAE curtailment (80% physical by Mar 31 per sources)
 - ⚠️ Iran expands civilian infrastructure attacks (president vowed escalation)
 - ⚠️ Saudi Arabia / Qatar curtailments (next in line after Iraq)
+- ⚠️ Taiwan LNG crisis (March 15 critical date — shipments cleared before closure consumed)
 - Hezbollah full activation (Lebanese govt disarmament fails)
-- Iranian mines confirmed in strait (physical blockade vs. de facto)
 - US ground deployment beyond current bases
 
 ### Second-Order Watches
