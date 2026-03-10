@@ -1,8 +1,18 @@
 # ZHAO STATUS
-**Updated:** 2026-03-09 13:45 UTC (check-in)
+**Updated:** 2026-03-10 17:09 UTC (check-in — China stealth CONF, Mar 15 TIC flagged, HIBOR-SOFR -228bps)
 **Overall Status:** 🔴 CRITICAL — Four-Anchor UST Selling / LNG Crisis / Korea Crash / Gulf Recycling INTEGRATED + TSMC Transmission Pathway ADDED
 
 **Summary:** FOUR independent UST selling/demand anchors now active: Japan (~$20-30B/mo), China/PBOC (~$5-10B/mo stealth), Korea/BoK (~$5-15B/mo, USD/KRW breached 1,500), Gulf petrodollar recycling collapse (~$10-17B/mo = $25-45B/qtr). Combined **$40-72B/month** (was $30-55B). Gulf anchor is INVOLUNTARY — not policy — driven by Hormuz -92% + Iraq 70% shut-in. KOSPI worst 2-day crash in history (-18-19%). NFP -92K temporarily suppressed USD/CNY pressure (estimated ~6.85), pushing 7.30 timeline out. Belgium $477.3B approaching $500B threshold — next TIC print Mar 15.
+
+---
+
+## ⚠️ PRIORITY WATCH: MAR 15 TIC PRINT
+**Belgium $500B Threshold** — Belgium currently $477.3B, gap = **$22.7B**. If crossed:
+- **ZHA-03 → CONFIRMED**
+- **Convergence Vector #3 (Custodial Arbitrage) upgrades 4→5**
+- Confirms custodial confirmation for Four-Anchor thesis
+
+Mar 15 TIC is **pre-crisis data** (Dec 2025 flows). First post-LNG-crisis prints arrive Apr/May.
 
 ---
 
@@ -23,7 +33,7 @@
 |--------|-------|-----------|--------|--------|
 | USD/CNY | **~6.85** | >7.30 = 🟠, >7.40 = 🔴 | 🟢 GREEN | [EST] post-NFP DXY 99.08 |
 | HK Aggregate Balance | **HK$53.8B** | <$45B = 🟡, <$40B = 🟠 | 🟢 GREEN | [CONF] HKMA Mar 6 |
-| HIBOR-SOFR Spread | **~-211bps** | >-200bps = 🟠, >-300bps = 🔴 | 🟠 ORANGE | [CONF] HKAB/SOFR Mar 6 |
+| HIBOR-SOFR Spread | **~-228bps** | >-200bps = 🟠, >-300bps = 🔴 | 🟠 ORANGE | [CONF] HKAB/SOFR Mar 10 (widened from -211bps Mar 6) |
 | USD/KRW | **>1,500** | >1,500 = BoK UST selling | 🔴 BREACHED | [CONF] Mar 4 |
 
 ### Domestic Stress
@@ -48,7 +58,7 @@
 | 4 | LGFV/Banking Transmission | 🟠 3 | Guizhou 11.6% NPL near RED. Feb $456B crunch proved pattern. | Another liquidity crunch or NPL >12% = 4 |
 | 5 | Property Zombification | 🟠 3 | Decade deleveraging. Vanke SOE rescue. Land revenue halved. | Vanke default or Tier 1 contagion = 4 |
 | 6 | PBOC Defensive Wall | 🟠 3 | Gold 15mo streak. Crypto ban. CIPS +43%. Building redundancy. | Capital controls tightened = 4 |
-| 7 | HK Peg Channel | 🟡 2 | AB $53.8B stable. HIBOR-SOFR at ORANGE. Mechanism understood. | AB <$45B or HIBOR-SOFR >-300bps = 3 |
+| 7 | HK Peg Channel | 🟡 2 | AB $53.8B stable. HIBOR-SOFR ~-228bps (widening, was -211bps Mar 6). Still ORANGE. Weekly monitoring. | AB <$45B or HIBOR-SOFR >-300bps = 3 |
 | 8 | LNG/Energy Shock | 🔴 4 | Qatar LNG halted. China least exposed (COSCO/PICC) but macro transmission severe. | Taiwan LNG exhaustion = 5 |
 | 9 | USD/CNY Defense | 🟡 2 | ~6.85. NFP -92K gave PBOC breathing room. 7.30 pushed out. | USD reversal + DXY >103 = 3 |
 | 10 | Gulf Recycling Collapse | 🔴 5 | MODELED: $25-45B/qtr reduction. Saudi likely net seller. INVOLUNTARY 4th anchor. FLOW-ZHAO-12 ACTIVE. | Duration >2 quarters = escalate thesis urgency |
@@ -60,7 +70,7 @@
 ## 🔴 SITUATION 1: Three-Anchor UST Selling + Gulf Gap
 
 **Japan:** ~$20-30B/month. JERA LNG exposure. BOJ Mar 13-14. Energy costs exploding.
-**China:** ~$5-10B/month stealth via state banks. PBOC not forced to defend CNY at 6.85 (NFP relief). Q2 2026 <$650B call may slip to Q3. **NEW TSMC TRANSMISSION PATHWAY (Mar 9):** China ~25% of TSMC revenue. Disruption → smartphone/data center/electronics export decline → trade surplus narrows → less USD inflow → less UST demand. Independent of de-dollarization. Compounds existing selling. All 3 original anchors (JP/CN/KR) now traceable to Hormuz root cause + TSMC secondary pathway.
+**China:** ~$5-10B/month stealth via state banks [CONF — Feb 9 PBOC/NFRA "window guidance" to Big Four banks to "orderly liquidate" UST positions now publicly documented. Policy directive, not just flow inference]. PBOC not forced to defend CNY at 6.85 (NFP relief). Q2 2026 <$650B call may slip to Q3. **NEW TSMC TRANSMISSION PATHWAY (Mar 9):** China ~25% of TSMC revenue. Disruption → smartphone/data center/electronics export decline → trade surplus narrows → less USD inflow → less UST demand. Independent of de-dollarization. Compounds existing selling. All 3 original anchors (JP/CN/KR) now traceable to Hormuz root cause + TSMC secondary pathway.
 **Korea:** ~$5-15B/month. USD/KRW >1,500 (17-year low). BoK selling CONFIRMED. KOSPI -18-19% two-day. Samsung/Hynix = HBM contagion to US tech.
 **Gulf (MODELED — NEW):** ~$25-45B/quarter reduction ($12B/mo central). $250B/yr normally recycled; Hormuz -92% + Iraq 70% shut-in = 60-80% export revenue collapse → recycling evaporates. Saudi at/below $80/bbl fiscal breakeven → net SWF drawdown possible. INVOLUNTARY. Campbell "Strip vs Strait." ZHA-08 at 60% confidence (>$50B/qtr threshold).
 
