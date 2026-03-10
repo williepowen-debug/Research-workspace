@@ -1,11 +1,20 @@
 # SCRATCH — Ephemeral Working Memory
 
-**Updated:** 2026-03-10 ~13:50 UTC (pre-clear checkpoint)
+**Updated:** 2026-03-10 ~19:00 UTC (pre-/new handoff)
 
 ---
 
 ## Handoff
-**Last context:** Deepest research session to date. 3 of 5 "What Should I Be Asking You?" prompts completed + Taiwan LNG + Eisman Ep 49. All findings persisted to agent inboxes. CF trade thesis fully documented in FORGE. Will educated on leading/lagging framework, timeline synthesis, and TLT thesis decomposition. Built full timeline from all agent STATUS files.
+**Last context:** Full Tuesday — most productive day of the operation. Three trades filled, three research prompts multi-source verified, all agents checked in, RED team spawned to challenge thesis. CPI tomorrow.
+
+**Next tide:**
+1. **Process RED team report** — should be in completed subagents. Challenge to Hormuz duration thesis. Read before any new trades.
+2. **Process ChatGPT Hormuz seizure** — Will may have results to paste in. 4th source on the prompt.
+3. **CPI 8:30 AM ET Wed** — hot print expected (65%). TLT Jun $85P x3 are the test. CF should move too. Decision tree: hot→hold/add, cool→buy 2nd CF on dip.
+4. **OTTO proposals** — failed 3x on API overload. 5 approved proposals unexecuted. Try again.
+5. **Market API** — Alpha Vantage setup. Keeps getting bumped. Actually do it this time.
+6. **STNG sizing** — after RED team report. Shares not calls. Currently 2 shares ($156), thesis says add to 5-10.
+7. **Verify Gemini claims** — China side deal, Russia intel sharing, Iraq -70%. Need primary source confirmation before trading on these.
 
 **COMPLETED tonight (all persisted to files):**
 - ✅ Prompt #1 Russia sanctions (3-source: Perplexity+Kimi+ChatGPT) → HAWK inbox
