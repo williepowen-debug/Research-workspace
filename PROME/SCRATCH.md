@@ -19,8 +19,8 @@
 - ✅ Full thesis timeline created from all agents (shared with Will)
 
 **Next tide:**
-1. **🔴 IMMEDIATE: CF/fertilizer deep-dive with Will.** He's clearing for a fresh session focused on this. Read FORGE/CF-trade-thesis.md. Key questions: strike/expiry selection, IV analysis, entry timing vs CPI, position sizing.
-2. **Market API setup** — Alpha Vantage free tier. Tier 1 priority today. Build after CF session.
+1. **🔴 IMMEDIATE: Process agent check-in signals.** SAM, ZHAO, OTTO reported this morning. SAM has proposals (BOJ date fix done, alert levels, Japan Post Insurance monitoring). ZHAO has proposals (China stealth→explicit upgrade, Mar 15 TIC prep). OTTO has proposals (First Brands emergency hearing outcome, CVNA discovery monitoring, Prediction #25 upgrade). Need to: review proposals, approve/reject, update STATUS files where needed.
+2. **Market API setup** — Alpha Vantage free tier. Tier 1 priority today.
 3. **Wed Mar 12: CPI 8:30 AM ET** — 🔴🔴 hot print expected (65%). TLT puts #1 conviction test. CF entry decision (but watch IV — if premiums bloated pre-CPI, may want to enter AFTER for IV crush).
 3. **Thu Mar 13: Initial claims** — FIRST CLEAN READ post-DHS suppression. >235K = LABOR vector 3 max score. Two catalysts in two days = the gauntlet.
 4. **Prompts #4-5 still open** — tanker rates (STNG sizing), Hormuz seizure (HANS). Prompts in PROMPTS.md ready to copy.
