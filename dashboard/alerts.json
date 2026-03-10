@@ -430,5 +430,23 @@
     "message": "WAL filed 8-K: WESTERN ALLIANCE BANCORPORATION",
     "value": "2026-03-06",
     "threshold": null
+  },
+  {
+    "id": 1773149237842,
+    "timestamp": "2026-03-10 13:27:17 UTC",
+    "type": "threshold",
+    "severity": "info",
+    "message": "VIX recovered (now 24.84, threshold was 25)",
+    "value": 24.84,
+    "threshold": 25
+  },
+  {
+    "id": 1773149240027,
+    "timestamp": "2026-03-10 13:27:20 UTC",
+    "type": "sec",
+    "severity": "info",
+    "message": "EGBN filed 10-K: EAGLE BANCORP INC",
+    "value": "2026-03-09",
+    "threshold": null
   }
 ]
