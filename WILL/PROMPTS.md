@@ -489,9 +489,9 @@ wherever possible.
 
 ---
 
-### Nitrogen Fertilizer Supply Mechanics — Gulf Dependency & CF Industries
+### ✅ Nitrogen Fertilizer Supply Mechanics — Gulf Dependency & CF Industries — COMPLETED
+**Completed:** Mar 10 via Kimi + Deep Research doc. 2-source verified. CF at 95-99% utilization, $800M EBITDA per $50/ton urea. Urea +27-34% in 10 days. System capacity-constrained. Entry ready.
 **Priority:** 🔴 | **Routes to:** HAWK, CARL
-**Status:** NOT YET STARTED
 **Best LLMs:** ChatGPT (sector depth), Perplexity (sourcing)
 **Why we need this:** CF $115C May entry pending. Don't understand production mechanics — can CF ramp (capacity-constrained = bigger price spike) or not (earnings story better but call thesis weaker)?
 ```
