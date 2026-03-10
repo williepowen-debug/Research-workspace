@@ -51,7 +51,10 @@
 - CF IV levels — check before entering, don't overpay for bloated pre-CPI premium
 
 **Filled today:**
-- TLT Jun $85P x3 @ $0.81 — filled ~10:00 AM ET. $243 total.
+- TLT Jun $85P x3 @ $0.81 — $245.02
+- CF Jun $115C x1 @ $8.90 — $890.67 (half position, add 2nd on red day/post-CPI dip)
+- VLY Mar $10P x5 sell @ $0.07 — cancelled, no fill. Let expire.
+**Total deployed:** $1,135.69
 
 **Key conceptual upgrades from tonight:**
 - TLT puts have 3 independent legs (energy, foreign selling, deficit). Even ceasefire only weakens 1.
