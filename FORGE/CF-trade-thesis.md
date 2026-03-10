@@ -3,7 +3,7 @@
 **Created:** 2026-03-10
 **Status:** READY TO ENTER — waiting for red day
 **Conviction:** 4/5
-**Research:** 2-source verified (Kimi + Deep Research doc)
+**Research:** 3-source verified (Kimi + Deep Research doc + Gemini)
 
 ---
 
@@ -42,13 +42,25 @@ CF can't ramp (95-99% utilization). Nobody else can fill the gap. Demand is biol
 - At urea $500/gas $3: EBITDA $4.4B
 - At urea $700/gas $3: EBITDA ~$5.6-6.0B (approaching 2022 levels)
 
-### Current Prices (as of Mar 9)
+### Current Prices (as of Mar 9 — 3-source verified)
 | Benchmark | Pre-Hormuz (Feb 27) | Current | Change |
 |-----------|---------------------|---------|--------|
 | US Gulf urea (futures) | $462 | $584 | +26.5% |
-| ME urea (futures) | $484 | $647 | +33.8% |
-| NOLA physical | $516 | $683 | +32% |
+| ME urea (futures) | $484 | $647-790 | +33.8% to +61% |
+| NOLA physical | $470-516 | $520-683 | +11% to +32% |
+| SE Asia FOB | $491 | $700+ | +42% |
 | FOB Oman (offers) | — | $700 | — |
+| ME April paper | — | $675-790 bid/ask | — |
+
+### Key Numbers (Gemini additions)
+- **Yazoo City offline until Q4 2026** — 2026 ammonia forecast DOWN to 9.5M tons
+- **Consensus EPS $8.91 / target $90 — STALE** (based on $450/ton urea, actual $680+)
+- **$200/ton price increase = ~$3B EBITDA expansion** (doubles 2025's $2.89B)
+- **16.6M shares repurchased in 2025** (10% of float) — EPS leverage amplified
+- **US imports 18% of nitrogen; 28% from Middle East** — NOLA cargoes delayed
+- **Corn yield: -1 bushel/acre/day after May 10** — hard biological deadline
+- **Morocco (OCP) depends on Gulf for 74% of sulfur** — phosphate production also at risk
+- **Sulfur supply -44%, urea -30%** if Hormuz stays closed (annual basis)
 
 ### 2022 Analog (LESS severe disruption)
 - Trigger: European gas spike (cost shock, not physical removal)
