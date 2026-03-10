@@ -1,7 +1,15 @@
 # MARCO STATUS
-**Last Updated:** 2026-03-09 13:40 UTC | **Status:** 🔴 RED
+**Last Updated:** 2026-03-10 13:30 UTC | **Status:** 🔴 RED
 
 ## NEW VECTORS (Mar 9)
+
+### CHECKIN-MAR10 — Daily Check-In Notes (Mar 10 13:30 UTC)
+- **Senate 4th vote (Mar 9):** Vote was SCHEDULED for 3pm ET Mar 9. As of Mar 10 morning, NO confirmed pass. SAVE Act talking filibuster threat from Dems was active. White House clarified SAVE Act veto threat does NOT apply to DHS — but Dems blocking anyway.
+- **CRITICAL NEW:** House is OUT ALL WEEK (GOP annual policy retreat, Florida). Even if Senate passes today, House can't take up a reconciled bill until next week at earliest. **Mar 14 paycheck miss is now CERTAIN barring extraordinary maneuver.**
+- **TSA de-facto walkout CONFIRMED:** CNN (Mar 8-9): hours-long delays at Houston Hobby (5hr warning), New Orleans, Atlanta, Charlotte. Not waiting for Mar 14 — happening NOW.
+- **NFP -92K:** Confirmed. Does not change vectors, upgrades confidence on WFD thesis.
+- **Remittance data:** No Feb 2026 Banxico data yet. Jan 2026 (-1.4%) remains most recent.
+- **H-2A / Planting season:** DOL one-stop shop still failing (Investigate Midwest Mar 3). No new data since Mar 9.
 
 ### VX-MARCO-DOGE-01 — DOGE/E-Verify Compound Shock | 🟠 ELEVATED
 **Tracking:** DOGE disruption creates self-reinforcing loop: visible chaos → political leverage for shutdown extension → E-Verify suspension extends → on resumption, catch-up enforcement surge lands in peak planting season.

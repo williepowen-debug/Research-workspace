@@ -11,11 +11,12 @@
 | Early Mar | CFPB Funding Lapse | OTTO | 🔴 |
 | **Mar 5** | **Insurance cliff — 7/12 P&I clubs pull Hormuz coverage (MOOT — Hormuz closed)** | HAWK | 🔴 |
 | **Mar 6** | **NFP (Feb) — consensus +65K, shadow gap says big miss possible** | HENRY | 🔴 |
-| Mar 11 | CPI (Feb) | HENRY | 🟠 |
-| Mar 13 | PCE (Jan) + GDP 2nd est | HENRY | 🟠 |
+| **Mar 12** | **CPI (Feb)** | HENRY | 🟠 |
+| **Mar 13** | **Initial Claims + Housing Starts/Permits + JOLTS (Jan)** | HENRY/CARL | 🔴 |
+| **Mar 13** | **KRE $66P expiry** | PROME | 🔴 |
+| **Mar 14** | **PCE (Jan) + GDP Q4 2nd est + UMich Sentiment** | HENRY | 🔴 |
 | Mar 15 | Carvana Discovery Production 1 | OTTO | 🟠 |
-| **Mar 13** | **KRE $66P expiry + PCE + GDP** | PROME/HENRY | 🔴 |
-| Mar 13-14 | BOJ Meeting | SAM | 🔴 |
+| **Mar 18-19** | **BOJ Meeting (Super-Week: BOJ/Fed/ECB/BoE)** | SAM | 🔴 |
 | Mar 14-21 | Gas pump peak stress window (CARL) | CARL | 🔴 |
 | **Mar 17-18** | **FOMC (SEP + dot plot)** | HENRY | 🔴 |
 | **Mar 20** | **WAL $77.5P expiry** | PROME | 🟠 |

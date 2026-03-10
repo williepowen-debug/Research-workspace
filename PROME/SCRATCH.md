@@ -1,6 +1,6 @@
 # SCRATCH — Ephemeral Working Memory
 
-**Updated:** 2026-03-10 ~03:30 UTC (Mon night final handoff)
+**Updated:** 2026-03-10 ~13:50 UTC (pre-clear checkpoint)
 
 ---
 
@@ -19,8 +19,9 @@
 - ✅ Full thesis timeline created from all agents (shared with Will)
 
 **Next tide:**
-1. **Tue Mar 11:** Regular trading day. No major catalysts. Watch overnight Gulf developments. Update TODAY.md date correction.
-2. **Wed Mar 12: CPI 8:30 AM ET** — 🔴🔴 hot print expected (65%). TLT puts #1 conviction test. CF entry decision (but watch IV — if premiums bloated pre-CPI, may want to enter AFTER for IV crush).
+1. **🔴 IMMEDIATE: CF/fertilizer deep-dive with Will.** He's clearing for a fresh session focused on this. Read FORGE/CF-trade-thesis.md. Key questions: strike/expiry selection, IV analysis, entry timing vs CPI, position sizing.
+2. **Market API setup** — Alpha Vantage free tier. Tier 1 priority today. Build after CF session.
+3. **Wed Mar 12: CPI 8:30 AM ET** — 🔴🔴 hot print expected (65%). TLT puts #1 conviction test. CF entry decision (but watch IV — if premiums bloated pre-CPI, may want to enter AFTER for IV crush).
 3. **Thu Mar 13: Initial claims** — FIRST CLEAN READ post-DHS suppression. >235K = LABOR vector 3 max score. Two catalysts in two days = the gauntlet.
 4. **Prompts #4-5 still open** — tanker rates (STNG sizing), Hormuz seizure (HANS). Prompts in PROMPTS.md ready to copy.
 5. **HYG Jun puts — consider rolling to Sep/Dec.** Credit spreads lag 5-14 months. Jun may be early.
