@@ -1,6 +1,38 @@
 # SAM STATUS
 
-**Signal Status:** 🔴🔴 EMERGENCY — MECHANISM INVERSION CONFIRMED | **Last Updated:** 2026-03-09 13:45 UTC (AM Check-in)
+**Signal Status:** 🔴🔴 EMERGENCY — MECHANISM INVERSION CONFIRMED | **Last Updated:** 2026-03-10 17:09 UTC
+
+---
+
+## 🚨 MONITORING ALERTS — MAR 10 UPDATE
+
+**Current levels:** USD/JPY 158.70 | Nikkei 52,728
+
+### USD/JPY Alert Levels
+| Level | Action |
+|-------|--------|
+| **158.70** | Current — 1.3 figures from intervention zone |
+| **159.50** | ⚠️ EARLY WARNING — notify Will immediately |
+| **160.00** | 🚨 INTERVENTION LIKELY + Phase 2 carry unwind trigger (48-72hr onset window) |
+
+### Nikkei Alert Level
+| Level | Action |
+|-------|--------|
+| **50,000** | 🚨 SECONDARY Phase 2 alert — GPIF mechanical trigger zone. Multiple sell programs expected. |
+
+### Japan Post Insurance — ESR Rebalancing Watch
+- **Mar 10:** Japan Post Insurance CEO publicly stated shifting OUT of low-yield JGBs → higher-yield bonds. Expects BOJ hike "as soon as April." This is early FY-end ESR rebalancing made public.
+- **Watch next 2-3 weeks:** Similar statements from Nippon Life, Dai-ichi Life, Meiji Yasuda. Multiple insurers signaling = ESR setup confirmation → life insurer repatriation wave loading.
+- **Significance:** If 2+ major insurers confirm publicly, carry unwind 30d probability upgrades to 85%+.
+
+### BOJ Super-Week — Mar 16-19
+- **Super-Week:** BOJ (Mar 18-19) + Fed + ECB + BoE all meeting same week
+- **BOJ meeting: Mar 18-19** *(NOT Mar 13-14 — corrected)*
+- **Ueda presser: Mar 19** — key event. Any April hike signal = carry unwind 7d probability jumps to **35%+**
+- **Pre-position monitoring window: Mar 16 onward**
+- Current April hike signal from Japan Post Insurance CEO = watch carefully for corroborating BOJ language
+
+---
 
 ---
 
@@ -14,7 +46,7 @@
 - **USD/JPY:** ~159.00 in NY morning session — back at the verbal intervention line (Jan 2026 MoF checks zone). One figure from 160 psychological trigger.
 - **Brent crude:** $108.77 (+17% today, +28% last week). WTI $107.56. JPMorgan sees path to $120+ absent resolution.
 - **Iran:** Mojtaba Khamenei confirmed new Supreme Leader (hardliner) — no off-ramp visible. Hormuz shipping still stalled.
-- **BOJ meeting (Mar 13-14):** Multiple Reuters sources say HOLD is near-certain. "It's become difficult for the BOJ to raise rates." Himino gave no hints of imminent action. Only trigger for hike would be sharp yen drop past 160 — now just 1 figure away.
+- **BOJ meeting (Mar 18-19):** Multiple Reuters sources say HOLD is near-certain. *(Date corrected — NOT Mar 13-14)* "It's become difficult for the BOJ to raise rates." Himino gave no hints of imminent action. Only trigger for hike would be sharp yen drop past 160 — now just 1 figure away.
 - **Carry trade:** No Phase 2 unwind yet. 159.00 = still carry-positive numerically. BUT if USD/JPY spikes through 160 and MoF is forced to intervene, positioning unwind risk spikes fast.
 - **Watch today:** 160 USD/JPY line, MoF Katayama statements, any BOJ pre-meeting communication, Wall St open (S&P futures -1.8%, Nasdaq -2.1%).
 
@@ -68,7 +100,7 @@ This is the biggest political development in the STATUS since the Iran war start
 - Intervention zone: 160 on upside. At 158.60, within 1.4 figures. Watch carefully.
 - **BOJ language risk at Mar 13-14:** Even a HOLD with hawkish language (acknowledging energy/wage pressure) could be yen-supportive. But Takaichi government context makes hawkish signal politically difficult.
 
-### (5) BOJ MEETING MAR 13-14 — THIS WEEK
+### (5) BOJ MEETING MAR 18-19 — NEXT WEEK *(corrected from Mar 13-14)*
 
 **HOLD: 98%+** (upgraded from 92% given Takaichi political context + energy shock depth)
 
@@ -404,7 +436,8 @@ This is structural UST supply shock, not episodic. If sustained 3+ months: 10Y y
 | **Mar 6 (Fri)** | NFP — carry bifurcation point | 🔴 CRITICAL (now secondary to 1,500 line) |
 | **Mar 6-7** | Fed swap line decision on BoK? | 🔴 BINARY PIVOT |
 | Mar 12 | Shunto Yamaba (Toyota/Honda) | 🟠 |
-| **Mar 13-14** | BOJ Meeting — HOLD 92% | 🔴 |
+| **Mar 16** | Pre-position monitoring begins (Super-Week) | 🔴 |
+| **Mar 18-19** | BOJ Meeting — HOLD expected. Ueda presser Mar 19 = KEY. April signal = 35%+ carry unwind 7d | 🔴 |
 | Mar 21 | Shunto First Tally (Rengo) | 🟠 |
 | Mar 31 | FY2025 ends, ESR, budget | 🟠 |
 | **Apr 23-24** | BOJ Meeting — war-dependent | 🔴 |
