@@ -36,8 +36,18 @@ The US cannot militarily force Hormuz open. The drone production/destruction mat
 - **BASE: 6+ months** (realistic reconstitution + degraded US sortie rate)
 - **TAIL: indefinite** (if Russia/China resupply — "reverse Ukraine")
 
+## ADDITIONAL SIGNAL: KC-135 Tanker Evacuation (Mar 9)
+- US Air Force KC-135 aerial refueling tankers evacuating Prince Sultan Air Base (Saudi Arabia) to Europe
+- Sources: @IranObserver0, @MintPressNews, @Azadar04 (flight tracking data confirms)
+- Trigger: "intense attacks on the base last night"
+- Implication: Without tankers in theater, US cannot sustain long-range air operations over Iran from Gulf bases
+- Every sortie now requires tanker support from EUROPEAN bases — massive logistics penalty
+- This further degrades the already -35-50% sortie rate
+- Confirms full-spectrum US withdrawal from Gulf theater: bases unusable → THAAD destroyed → tankers evacuated
+- This is retreat, not repositioning. Directly contradicts "taking over Hormuz" rhetoric.
+
 ## Action Items
-- Reassess ceasefire probabilities given THAAD destruction and sortie rate degradation
+- Reassess ceasefire probabilities given THAAD destruction, sortie rate degradation, AND tanker evacuation
 - Model "reverse Ukraine" scenario — what does Russian/Chinese resupply mean for conflict duration?
 - Track: carrier group deployments, sortie rate reporting, interceptor inventory levels
 - The Oman diplomatic channel is the ONLY credible resolution path. Monitor Oman FM statements.
