@@ -19,9 +19,10 @@
 - ✅ Full thesis timeline created from all agents (shared with Will)
 
 **Next tide:**
-1. **🔴 IMMEDIATE: Process agent check-in signals.** SAM, ZHAO, OTTO reported this morning. SAM has proposals (BOJ date fix done, alert levels, Japan Post Insurance monitoring). ZHAO has proposals (China stealth→explicit upgrade, Mar 15 TIC prep). OTTO has proposals (First Brands emergency hearing outcome, CVNA discovery monitoring, Prediction #25 upgrade). Need to: review proposals, approve/reject, update STATUS files where needed.
-2. **Market API setup** — Alpha Vantage free tier. Tier 1 priority today.
-3. **Wed Mar 12: CPI 8:30 AM ET** — 🔴🔴 hot print expected (65%). TLT puts #1 conviction test. CF entry decision (but watch IV — if premiums bloated pre-CPI, may want to enter AFTER for IV crush).
+1. **🔴 IMMEDIATE: Process Hormuz seizure prompt results** — Will sending results from 4 LLMs. Routes to HANS + HAWK.
+2. **Respawn OTTO** — failed 2x on API overload. 5 approved proposals still unexecuted.
+3. **Market API setup** — Alpha Vantage free tier. Tier 1 priority today (keep getting bumped).
+4. **Wed Mar 12: CPI 8:30 AM ET** — 🔴🔴 hot print expected (65%). TLT puts #1 conviction test. CF entry decision (but watch IV — if premiums bloated pre-CPI, may want to enter AFTER for IV crush).
 3. **Thu Mar 13: Initial claims** — FIRST CLEAN READ post-DHS suppression. >235K = LABOR vector 3 max score. Two catalysts in two days = the gauntlet.
 4. **Prompts #4-5 still open** — tanker rates (STNG sizing), Hormuz seizure (HANS). Prompts in PROMPTS.md ready to copy.
 5. **HYG Jun puts — consider rolling to Sep/Dec.** Credit spreads lag 5-14 months. Jun may be early.
