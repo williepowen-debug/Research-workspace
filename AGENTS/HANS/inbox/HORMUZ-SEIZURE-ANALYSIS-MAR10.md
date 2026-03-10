@@ -38,3 +38,23 @@
 - Russia potentially sharing intelligence with Iran
 
 Full analysis: WILL/research/2026-03-10/hormuz-seizure-synthesis.md
+
+## ADDENDUM — Gemini Source (Mar 10 PM)
+
+### Critical New Intelligence
+1. **China private deal with Iran** — Chinese tankers getting safe passage while Western shipping blocked. China as "alternative security provider" and "free rider."
+2. **Russia sharing real-time intel** on US 5th Fleet positions with Iran. Operational intelligence support, not just diplomatic.
+3. **Iraq southern fields -70%** (4.3M→1.3M bpd). Combined with Saudi -2.5M = 5.5M bpd offline.
+4. **Turkey intercepting Iranian SRBMs over airspace** — NATO Article 4 invocation risk.
+5. **GPS/AIS interference** across Gulf — commercial vessels can't navigate safely regardless of military escort.
+
+### Escalation Assessment
+Gemini rates 3/4 genuine planning indicators present (vs Perplexity 2/4). Multiple CSGs + THAAD/Patriot + personnel evacuation = this is more than posturing. Only missing: formal coalition building for MCM.
+
+### Great Power Dynamics
+- China: parallel security architecture, bypassing US-controlled lanes
+- Russia: operational military support to Iran + benefiting from US sanctions waivers
+- Turkey: potential NATO drag-in via Article 4
+- This is becoming a proxy competition, not just a bilateral US-Iran conflict
+
+Update HANS threat models accordingly. Duration assumption should factor in great power involvement extending the crisis.
