@@ -1,15 +1,48 @@
 # HAWK STATUS
 
-**Last Updated:** 2026-03-09 00:00 UTC
-**Overall Status:** 🔴🔴 RED-RED — US-IRAN WAR DAY 10 / SCENARIO C CONFIRMED / ENERGY INFRASTRUCTURE WAR BILATERAL
+**Last Updated:** 2026-03-10 22:30 UTC
+**Overall Status:** 🔴🔴 RED-RED — US-IRAN WAR DAY 10-11 / SCENARIO C BASE CASE / HORMUZ PHYSICALLY MINED / DURATION 4-6+ MONTHS
 
-**Summary:** Iraq 70% shut-in (3M bpd) confirmed by Economist + Yergin (FT). Lloyd's List: Hormuz 46 transits vs 561 Feb (-92%); zero large tankers westbound since Mar 3. Iran struck Haifa refinery (IRGC confirmed, Khaibar Shekan missiles) — energy infrastructure now bidirectional target. Economist quantifies: 22 fires at Iranian missile/drone facilities; nuclear facility fire Mar 5-6 — regime degradation campaign underway. Nuttall "3x 1973 embargo", Yergin "biggest disruption in history" — consensus forming. Secondary chain: Gulf sulphur collapse → copper supply destruction → grid stall → structural oil demand persistence (12-18 month thesis). Scenario probabilities UNCHANGED: C=55% (base), B=35%, D=10%.
+**Summary [Mar 10 update]:** PHYSICAL MINING CONFIRMED — small vessels placing mines in transitway (CBS/CNBC/Metro UK ~18:30 UTC Mar 10). 3,200 ships idle in Gulf (4% global tonnage). This changes the closure mechanism from de facto (insurance/threat) to physical — mine clearance takes weeks-months even after ceasefire. Duration model upgraded: Policy Tensor (Substack Mar 6) analysis says US CANNOT force strait open militarily — 4 months MINIMUM, 6+ months base case. THAAD batteries hit/disabled, US air bases at -35-50% sortie rate. Interdiction curve going UP (Iranian reconstitution > US degradation). UNCTAD official data (Mar 10 PDF): daily transits 141→4 (97% drop, Clarksons); BDTI +54%, BCTI (clean tankers) +72%. Maersk (world's largest carrier) suspended ALL Gulf bookings — UAE, Oman, Iraq, Kuwait, Jordan, Qatar, Bahrain, Saudi Arabia. WTI confirmed $94.65 at Mar 9 close (NOT $100+; Louisiana Light $104). Khamenei succeeded by hardliner son Mojtaba → resolution timeline extends dramatically. Scenario adjustments: C=55% (duration extended to 4-6+ months), D=12% ↑ (mining = escalation). Downstream pricing: diesel national retail $4.859/gal (+$0.96/wk), jet fuel Gulf Coast $4.12/gal (+87% in 30 days), urea NOLA $516→$683/mt in one week. STNG ⚠️ FLAG: clean tanker thesis needs reassessment — if Gulf refineries cut runs, product tanker market shrinks even as rates stay elevated. Scenario probabilities REVISED: C=55% (base, duration extended), D=12% ↑, B=33% ↓.
 
 ---
 
-## 🔴🔴 SITUATION 1: US-IRAN WAR (Day 9)
+## 🔴🔴 SITUATION 1: US-IRAN WAR (Day 10-11)
 
-### Current State (Mar 1 → Mar 8)
+### Current State (Mar 1 → Mar 10) [Updated Mar 10 22:30 UTC]
+
+**[NEW Mar 10] PHYSICAL MINING CONFIRMED:** Small vessels observed placing mines in Hormuz transitway (CBS/CNBC/Metro UK, ~18:30 UTC). Iran has 5,000-6,000 mine inventory. Mine clearance requires weeks-months even after ceasefire. Insurance reinstatement now requires mine clearance PLUS threat reduction. This extends all timeline estimates.
+
+**[NEW Mar 10] DURATION MODEL UPGRADED — Policy Tensor (Substack Mar 6):** US cannot militarily force Hormuz open. All 5 THAAD batteries hit/disabled. US Gulf air bases at -35-50% sortie rate. Interdiction curve going UP (Iranian reconstitution > US degradation). Two carrier groups ≠ replacement for land-based aviation. No ground invasion option (600K-1M troops required). Duration: **4 months MINIMUM, 6+ months base case, "reverse Ukraine" tail = indefinite.** Previous estimate ("months+") was too optimistic.
+
+**[NEW Mar 10] UNCTAD OFFICIAL DATA (Mar 10 PDF):** Daily transits 141 avg → 4 (97% drop, Clarksons). Hormuz share: crude 38%, LPG 29%, LNG 19%, chemicals 19%, refined products 13% of global seaborne. 20M bpd oil (14M crude + 6M products), 84% Asia-bound. 1/3 global seaborne fertilizer via Hormuz. BDTI +54%. BCTI (clean tankers) +72%. Bunker fuel Singapore +100%. War-risk $250K→$500K-$1M per voyage. Gulf bond yields up 24-64bps.
+
+**[NEW Mar 10] MAERSK FULL SUSPENSION (Operational Update 7):** ALL bookings suspended to/from UAE, Oman, Iraq, Kuwait, Jordan, Qatar, Bahrain, Saudi Arabia. Applies to Reefer, DG, OOG. World's largest carrier = primary source confirmation of full trade suspension.
+
+**[NEW Mar 10] KHAMENEI SUCCESSION:** Replaced by hardliner son Mojtaba. Trump's push to remove him will take time. Resolution timeline extends dramatically.
+
+**[NEW Mar 10] WTI CORRECTION:** $94.65 at Mar 9 close (NOT $100+; Louisiana Light $104.15, Brent $94.35). -30% intraday crash driven by SPR rumor + Russia sanctions easing news, NOT fundamental repricing. 2027 Brent strip unchanged below $70 — market sees it as transient. Technical/algorithmic unwind confirmed by dual-source cross-check.
+
+**[NEW Mar 10] DOWNSTREAM PRICING (Verified Sources):**
+- Diesel national retail: $4.859/gal (+$0.96 in ONE WEEK). NYMEX ULSD $3.5755.
+- Jet fuel Gulf Coast Platts: $4.12/gal (+87% in 30 days, +72.9% in 6 trading days). 44-month high.
+- Gas national: $3.47-3.54/gal (+19.7% in 30 days). California $5.20.
+- Urea NOLA: $516/mt → $683/mt in one week (Reuters Mar 5). Interior $640-700/mt.
+- Shipping surcharges: Maersk $1,800/TEU emergency, Hapag-Lloyd $1,500/TEU war risk. CPI impact in 45-60 days (April/May).
+- Airlines: TD Cowen cut UAL EPS $1.50→$0.05. FAA ordered O'Hare -9% (50,400 flights cut). AA killing MIA-CDG Mar 27.
+- SPR: 415.44M bbl. G7 discussing 300-400M release. IEA extraordinary meeting Mar 10. NO release executed. Coverage math: 15-20 days maximum. Once market does this arithmetic, relief fades.
+
+**[NEW Mar 10] FERTILIZER MECHANICS (Verified):** 45% of globally traded urea transits Hormuz. 12.6M tons/year stranded (Qatar+Saudi+Bahrain+UAE). ~1M tons/month missing from global market. No strategic reserve. CF at 95-99% utilization. Urea was $462 → $584 US Gulf in 10 days (+26.5%), physical offers $700/ton FOB Oman. Spring planting deadline creates hard demand floor. India gets 49% of fertilizer from Gulf.
+
+**[NEW Mar 10] TAIWAN LNG STATUS (AMBER → approaching RED):** 10-11 day reserve baseline. 30% from Qatar (fully offline). 20/22 March-April cargoes secured (2 still negotiating). Critical date: March 15 (shipments that cleared Hormuz before closure arrive by ~March 15). TSMC ~9% of Taiwan electricity. No rationing yet. Post-March 15 is the pressure zone.
+
+**[NEW Mar 10] SPR MATH:** 300-400M barrel proposed release covers only 15-20 days of Hormuz shortfall. With 4-6+ month duration now base case, SPR is a bridge not a substitute. Kuwait storage filling → forced well shut-ins become near-certain.
+
+**[NEW Mar 10] TANKER RATES (Mar 10 4-source):** 3,200 ships idle (4% global tonnage). VLCC TD3C WS 473 ($486K/day theoretical, mostly theoretical per Baltic — limited real fixtures). BDTI all-time high, tracking 2020 trajectory. Day 8-10 of crisis; 2020 went parabolic after day 25. Insurance withdrawal by P&I clubs makes Hormuz commercially unnavigable regardless of military situation.
+
+**[NEW Mar 10] STNG ⚠️ REASSESSMENT FLAG:** Kimi + 4-source analysis flags product tanker thesis needs review. BCTI +72% per UNCTAD confirms rates elevated. BUT: if Gulf refineries cut runs due to inability to export crude, clean tanker market (STNG's market) shrinks. Product tanker rates may decouple from crude tanker rates. Question: are STNG's routes Gulf-dependent or Atlantic/Pacific basin? Need BRENT coordination to resolve before adding to STNG position.
+
+### Current State (Mar 1 → Mar 8) [pre-Mar 10 summary]
 - **Hormuz:** CONFIRMED CLOSED by Lloyd's List (A-tier): 46 transits Mar 1-5 vs 561 same period Feb = -92%. ZERO tankers >10,000 dwt westbound since Mar 3 [CONF] Lloyd's List Intelligence/Seasearcher Mar 7. Maersk suspended [CONF] Fox News Mar 5. Platts (Feb 28→Mar 5): Oil +21%, Jet +87%, LNG +106%, VLCC +201%, LNG carriers +529% [CONF] S&P Global Platts Mar 5.
 - **Iraq SHUT-IN:** Production collapsed 4.3M → 1.3M bpd (~70%, ~3M bpd shut) [CONF] BBG Mar 8 / RTRS Mar 3. Rumaila field (largest) shutting. Mechanism: tanker unavailability not infra damage. Volume > feared 2022 Russia loss (that never materialized but spiked oil to $120+). THIS IS SCENARIO C. [CONF] @Rory_Johnston Mar 8.
 - **Storage crisis:** Kuwait/Qatar curtailing. UAE days away. Iraq already shut. [CONF] Kpler, JPMorgan Mar 5-6.
@@ -23,12 +56,12 @@
 
 | Scenario | Prob | Duration | Oil (Brent) | VIX | Market |
 |----------|------|----------|-------------|-----|--------|
-| **A — Surgical** | 0% | Window closed | N/A | NA | War Day 9 with civilian infra targeting |
-| **B — Sustained** | 35% ↓ | Weeks-months | $85-105 | 30-38 | Grinding risk-off. De-escalation still possible. |
-| **C — Full Escalation** | 55% ↑ BASE | Months+ | $105-130+ | 40-55 | Iraq 70% shut-in IS Scenario C. Gulf shutdown cascading. |
-| **D — Collapse/Nuclear** | 10% ↑ | Unknown | $130+ | 60+ | Civilian infra targeting raises tail; Iran vowed to expand attacks |
+| **A — Surgical** | 0% | Window closed | N/A | NA | War Day 10+ with physical mining confirmed |
+| **B — Sustained** | 33% ↓ | Weeks-months | $85-105 | 30-38 | Grinding risk-off. De-escalation still possible. |
+| **C — Full Escalation** | 55% BASE | **4-6+ months** ↑↑ | $105-150 | 40-55 | Iraq 70% shut-in CONFIRMED. Mining confirmed. Duration 4-6+ months per Policy Tensor. |
+| **D — Collapse/Nuclear** | 12% ↑ | Unknown | $130+ | 60+ | Mining = escalation ladder climbing. Mojtaba succession (hardliner). THAAD disabled. |
 
-*Scenario C IS NOW BASE CASE. Iraq 70% shut-in confirmed — exceeds the feared 2022 Russia shock. Civilian infrastructure targeting entrenches conflict. Revised Mar 6→Mar 8: C 35%→55%, D 5%→10%, B 55%→35%, A 10%→0%.*
+*Revised Mar 10: C stays 55% but DURATION extended to 4-6+ months (Policy Tensor military math + physical mining confirmed). D raised to 12% (mining = escalation above de facto blockade). B 35%→33%. "Reverse Ukraine" tail: indefinite closure is now a credible scenario.*
 
 ### Escalation Indicators — Watch NOW
 - ✅ Iraq 70% shut-in CONFIRMED Mar 8 — Scenario C trigger HIT [Yergin, Rory Johnston, Walter Bloomberg]

@@ -68,3 +68,9 @@ VX-CARL-SL-04	Credit Score Impact Population	9M+	ORANGE	<3M	>5M	>8M	>12M	2026-02
 VX-CARL-UTIL-01	CC Utilization Rate	23.6%	GREEN	<20%	>25%	>30%	>35%	2026-02-12	NY Fed Q4 2025	60% carry balance monthly
 VX-CARL-UTIL-02	Available Credit	$4.15T	GREEN	>$4.5T	<$4.0T	<$3.5T	<$3.0T	2026-02-12	NY Fed Q4 2025	Buffer shrinking
 VX-CARL-MED-01	Medical Collections	$88B	GREEN	<$60B	>$100B	>$120B	>$150B	2026-02-12	CFPB	58% of all collections; 43M reports
+VX-CARL-ABS-16	SoFi 2025-1 CNL Trigger	2.6% — TRIGGERED	RED	<1.0%	1.5%	2.0%	2.5%	2026-03-09	Eisman Ep 49 (Dwight Collins)	First ever CNL trigger for SoFi. Junior tranches cut off. Personal loans not auto — stress broadening UP quality stack. HY spreads haven't moved yet.
+VX-CARL-ABS-17	ABS vs HY Spread Divergence	Structured cracking first	RED	<0.5pp	<1pp	1-2pp	>2pp	2026-03-09	Market	CNL triggers firing while HY tight. Structured credit early warning > public markets.
+VX-CARL-CAN-01	Goeasy GSY.TO Price Drop	-50.67% (1 day)	RED	>-10%	-20%	-35%	-50%	2026-03-10	@altruafinancial / Market	Canadian subprime lender. $115.55→$57. -61% past year. Default surge + writedowns. Canadian market leads US by 1-2 quarters.
+VX-CARL-CAN-02	Goeasy YTD Decline	-61%	RED	>-20%	-30%	-45%	-55%	2026-03-10	Market	Full-year context for 1-day crash. Structural deterioration not one-off.
+VX-CARL-FOOD-01	Urea Fertilizer Price Change	+27-34% (10 days)	ORANGE	<+10%	+20%	+30%	+50%	2026-03-10	2-source research	Gulf fertilizer stranded behind Hormuz. Physical offers $700/ton. Spring planting inelastic demand = farmers pay any price.
+VX-CARL-FOOD-02	Food Inflation Transmission Lag	Q3-Q4 2026 (est)	ORANGE	>6mo lag	4-6mo	2-4mo	<2mo	2026-03-10	Historical (1973 analog)	Fertilizer spike → food price spike = 1-2 quarters. 1973: +45-90% fertilizer → food follows 6-12 months.

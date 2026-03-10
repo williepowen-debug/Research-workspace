@@ -1,34 +1,53 @@
 # HANS STATUS.md
-**Updated:** 2026-03-04 02:50 UTC
-**Status: 🔴 WAR CRISIS — ALL SYSTEMS RED**
+**Updated:** 2026-03-10 22:30 UTC
+**Status: 🔴🔴 WAR CRISIS — ESCALATING / NO EXIT VISIBLE**
 
 ---
 
-## 🚨 SITUATION BRIEF — MAR 4, 2026
+## 🚨 SITUATION BRIEF — MAR 10, 2026 (UPDATED)
 
 ### MACRO STATE
 - **US-Iran war active** (Operation Epic Fury, began Feb 28). Khamenei killed Mar 1. Trump: "4-5 weeks."
+- **Mojtaba Khamenei confirmed as successor** — more hardline than father; family killed in Feb 28 school strike (175 dead, mostly children); IRGC pledged allegiance; pragmatists (Pezeshkian, Araghchi) sidelined
 - **Israel struck Tehran + Beirut** (confirmed Mar 3) — war expanding beyond US-Iran bilateral
-- **Hormuz fire-upon warning issued** — effective closure. 70% traffic down. 3 tankers hit.
+- **Hormuz: ACTIVE MINING CONFIRMED** (CBS/CNBC Mar 10) — IRGC using small vessels, up to 3 mines each; IRGC claims "full control"; 3,200 ships (4% global tonnage) idle
+- **US MCM GAP CRITICAL:** US Navy retired all Avenger-class minesweepers from Bahrain Sep 2025; LCS replacements "combat ineffective"; clearance timeline revised upward significantly
 - **Qatar LNG structurally offline** — Ras Laffan + Mesaieed hit; QatarEnergy halted ALL LNG
-- **Ukraine energy attacks ESCALATING** — structural refinery damage (not just operational); Russian oil processing capacity degraded
-- **War risk insurance cliff Mar 5** — 7/12 P&I clubs withdrawing; Hormuz = uninsurable after Thursday
-- **MFS collapse (UK)**: £2B fraud; Barclays £600M, Jefferies £100M exposure
+- **US STRATEGIC DEFEAT (Policy Tensor, Mar 6):** All 5 THAAD batteries in region hit/likely disabled; sortie rate -35-50%; KC-135 tankers evacuated Prince Sultan to Europe; USS Lincoln 400+ miles from Iran coast; 5th Fleet HQ damaged. Third carrier group rushing to compensate — confirms land-based aviation insufficient.
+- **Full-spectrum US pullback pattern:** Al Udeid evacuated; 51,400 troops dispersed to civilian hotels; Navy repositioned; tankers to Europe. Rhetoric ("take Hormuz") diverges sharply from posture (retreat).
+- **Great power proxy dimension:** Russia sharing real-time intel on 5th Fleet positions with Iran. China private deal for safe passage of Chinese tankers while Western shipping blocked. Turkey intercepting Iranian SRBMs (NATO Article 4 risk). GPS/AIS interference across Gulf.
+- **Iraq southern fields -70%** (4.3M→1.3M bpd) + Saudi -2.5M = **5.5M bpd offline**
 
-### CEASEFIRE PROBABILITY — REASSESSED MAR 4
-**Previous:** 85% (STALE — pre-war assessment)
-**Current: 12% within 30 days**
+### CEASEFIRE / DURATION MODEL — REASSESSED MAR 10
+**Previous (Mar 4):** 30-day: 12% | 60-day: 30% | 90-day: 45%
+**Current (Mar 10): REVISED DOWNWARD**
 
-Rationale for sharp downward revision:
-- War has BEGUN — ceasefire probability ≠ war-avoidance probability anymore
-- Israel escalation (Tehran/Beirut strikes) enlarges the conflict; more parties = harder peace
-- Trump "4-5 weeks" framing locks in domestic political commitment
-- Hormuz closure now baked in — surrender costs high for Iran
-- Ukraine energy campaign → structural damage → no quick Russian capitulation incentive
-- European energy crisis = economic pressure on peace advocates, but military momentum dominant
-- **30-day ceasefire: 12% | 60-day ceasefire: 30% | 90-day: 45%**
+**30-day ceasefire: 5-7%** (down from 12%)
+**60-day ceasefire: 18-22%** (down from 30%)
+**90-day ceasefire: 32-38%** (down from 45%)
 
-### Critical Thresholds (Mar 4 Est.)
+### Rationale for Downward Revision:
+1. **Mojtaba succession** — hereditary supreme leader with personal bereavement (family killed) MUST prove toughness before any concession. Structural hardening, not temporary posture.
+2. **Active mining** — one-way door. Mines persist after any ceasefire. Even 1988 Gulf crisis nearly sank USS Roberts with a single WWI-era mine. Physical contamination survives political deal.
+3. **US MCM capability gap** — cleared Avengers Sep 2025; LCS replacements unproven. Iran timed mining to exploit this. Clearance timeline now months, not weeks.
+4. **Policy Tensor military math** — US cannot force Hormuz open. Interdiction curve going UP. Floor for conflict is 4 months even under best-case assumptions (90% monthly degradation, zero reconstitution). Realistic = 6+ months.
+5. **Tanker evacuation** — KC-135s to Europe = every Gulf sortie requires European tanker support = massive logistics penalty ON TOP of -35-50% sortie degradation.
+6. **"Reverse Ukraine"** — Russia/China resupply of Iran = effectively unlimited capability on relevant timescale. No military solution.
+7. **Iran FM statement** — "little place to talk about anything other than defense and crushing response." No backchannel leaks.
+8. **School strike blowback** — 175 killed (mostly children) Feb 28 hardens Iranian public opinion, creates international backlash, reduces domestic pressure for negotiation.
+
+### DURATION MODEL (Updated Mar 10)
+**Commercial normalization timeline:**
+- Political deal: **Base 4-8 weeks** from now (economic reserves depletion, face-saving narrative development)
+- Mine clearance AFTER deal: **6-12 weeks** (was 2-6 weeks — revised up due to MCM gap)
+- Insurance normalization: **+4-8 weeks after clearance** (war-risk premiums 0.25%→3% of vessel value; structural bottleneck)
+- **Total disruption to commercial normalization: 3-6 months (45%) | 6-12+ months (35%) | <3 months (10%) | >12 months (10%)**
+
+**4-source consensus (ChatGPT/Gemini/Perplexity/Kimi):** Supports 3-6 month base case — consistent with Policy Tensor military floor of 4 months minimum.
+
+**Only credible resolution path:** Oman diplomatic channel. Monitor Oman FM statements and any Araghchi/Pezeshkian conciliatory statements closely.
+
+### Critical Thresholds (Mar 10 Est.)
 | Signal | Level | Status | Threshold |
 |--------|-------|--------|-----------|
 | TTF Gas | ~€52/MWh | 🔴 | RED >€40; Goldman scenario €74 |
@@ -43,13 +62,16 @@ Rationale for sharp downward revision:
 
 ## PROME ALERTS 🚨 (ACTIVE)
 
-1. **[MAR 5 HARD DEADLINE]** War risk insurance cliff — Hormuz uninsurable. Qatar LNG = structurally offline for 4-8 weeks minimum.
-2. **[CEASEFIRE REVISED TO 12%]** Previous 85% figure INVALID. War is active, expanding (Israel), no off-ramp visible.
-3. **[STAGFLATION TRAP]** ECB frozen — TTF spiking + recession = can't cut or hike. Most dangerous macro config.
-4. **[UKRAINE ENERGY STRUCTURAL]** Refinery damage (not just operational) = months-long Russian fuel supply degradation. Diesel/fuel oil shock layered on LNG shock.
-5. **[DEFENSE SPENDING SURGE REAL]** European rearmament now fiscal policy (Germany €500B, EU 3% GDP target). Duration supply = UST headwind.
-6. **[BELGIUM/EUROCLEAR]** European sovereign stress → China may use Euroclear lever. ZHAO crossover watch.
-7. **[UST PARADOX]** Short-term safe haven bid vs. medium-term European demand destruction + defense issuance surge.
+1. **[MAR 10 CRITICAL] MINING CONFIRMED** — Hormuz physically contaminated. Duration floor raised. Commercial normalization: 3-6 month base, 6-12+ tail.
+2. **[MAR 10 CRITICAL] US STRATEGIC DEFEAT** — Policy Tensor: THAAD gone, tankers evacuated, sortie rate -35-50%. Military solution impossible. Rhetoric vs. posture gap is enormous.
+3. **[MAR 10] CEASEFIRE REVISED DOWN AGAIN** — 30-day: 5-7% (was 12%). Mojtaba + mining + MCM gap + no diplomatic signals = structural escalation.
+4. **[MAR 10] GREAT POWER PROXY CONFIRMED** — Russia (real-time intel sharing) + China (safe passage deal) = "reverse Ukraine." Conflict duration extends indefinitely on military timescale.
+5. **[ACTIVE] WAR RISK INSURANCE STRUCTURAL** — Hormuz uninsurable. 0.25%→3% of vessel value. Insurance is the structural lock, not military control.
+6. **[ACTIVE] STAGFLATION TRAP** — ECB frozen. TTF spiking + recession = can't cut or hike. 5.5M bpd offline.
+7. **[ACTIVE] UKRAINE ENERGY STRUCTURAL** — Refinery damage (not just operational) = months-long Russian fuel supply degradation.
+8. **[ACTIVE] DEFENSE SPENDING SURGE** — Germany €500B, EU 3% GDP. Duration supply = UST headwind.
+9. **[WATCH] NATO ARTICLE 4 RISK** — Turkey intercepting Iranian SRBMs over airspace. Escalation path to Article 4 invocation.
+10. **[WATCH] BELGIUM/EUROCLEAR** — China as "alternative security provider" narrative growing. ZHAO crossover.
 
 ---
 
