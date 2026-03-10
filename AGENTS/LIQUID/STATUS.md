@@ -1,5 +1,5 @@
 # LIQUID STATUS
-**Last Updated:** 2026-03-09 17:30 UTC | **Status:** 🔴🔴 CRITICAL — Oil overnight $116→$102, currently ~$94-107 (Hormuz closure, OPEC cuts). 10Y 4.131% (-<1bp) — STILL not rallying = FOI/stagflation thesis CONFIRMED again. 2Y +2bps to 3.581% (bear flattening — market can't price cuts with oil here). ICE BofA Mar 6 HY OAS publishing today AM — watch for LIQ-01 breach. CPI Wednesday March 11 (NOT Tuesday). G7 energy ministers meet Tuesday on SPR release.
+**Last Updated:** 2026-03-10 17:31 UTC | **Status:** 🔴🔴 CRITICAL — HY OAS Mar 9 = **319bps [CONF FRED]** — 1bp from LIQ-01 (320bps). Trump "war is pretty much over" comment Mon evening pulled oil from $119 high → ~$87 WTI. 10Y 4.109% (modest rally on war-end hope). SOFR 3.65% (easing). RRP $0.332B (near zero). CPI tomorrow (Wed Mar 11). G7 energy ministers today (SPR decision). 3Y Treasury auction today.
 
 ---
 
