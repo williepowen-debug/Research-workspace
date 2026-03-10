@@ -51,8 +51,9 @@ same period in 2025 and 2024 if possible. Flag any breakout patterns.
 
 ---
 
-### Taiwan LNG Reserves and Power Supply Status
-**Priority:** 🔴 CRITICAL | **Routes to:** HAWK, HENRY
+### ✅ Taiwan LNG Reserves and Power Supply Status — COMPLETED
+**Completed:** Mar 9 via researcher agent. Not critical yet, Mar 15 inflection. 30% Qatar dependency, 10-11 day reserves.
+**Routes to:** HAWK, HENRY
 ```
 What is the current status of Taiwan's natural gas reserves and power 
 supply as of March 9-10, 2026?
@@ -426,10 +427,9 @@ direction. Cite the Experian report directly where possible.
 
 ---
 
-### Oil Shock Historical Timelines — 1973-74 & 1979-80
+### ✅ Oil Shock Historical Timelines — 1973-74 & 1979-80 — COMPLETED
+**Completed:** Mar 9 via ChatGPT + Perplexity + Gemini. 1979-80 is the template. Staircase with 15-20% pullbacks. Second leg to $120-130 base case. Credit spreads lag 5-14mo. Routed to HENRY, HAWK, FORGE.
 **Priority:** 🔴 | **Routes to:** HENRY, HAWK, FORGE
-**Status:** PROMPT GIVEN TO WILL — awaiting results
-**Best LLMs:** ChatGPT first (historical sector data), Perplexity second (source verification)
 ```
 Walk me through the granular timeline of the 1973-74 Arab Oil Embargo 
 and 1979-80 Iranian Revolution oil shocks. I need the INTRA-CRISIS 
@@ -643,6 +643,56 @@ Cite sources with dates. This headline is getting buried by
 today's oil crash but may be the most consequential signal of 
 the week.
 ```
+
+---
+
+### Cheniere Energy (LNG) — Margin Sensitivity & Hedging Structure
+**Priority:** 🔴 | **Routes to:** HAWK, FORGE
+**Status:** NOT YET STARTED
+**Best LLMs:** ChatGPT (sector depth), Perplexity (sourcing)
+**Why we need this:** LNG $270C/$300C May spread is #5 conviction at 4/5. We did the CF-level deep dive on fertilizer but have NOT done the equivalent for Cheniere. Don't know their hedging book, margin sensitivity per $1 TTF move, or how much is already priced in.
+```
+Cheniere Energy (ticker: LNG) is the largest US LNG exporter. With 
+the Strait of Hormuz closed since March 1, 2026, Qatar LNG offline, 
+and TTF gas prices up 74%, analyze Cheniere's investment case:
+
+1. What is Cheniere's current LNG export capacity (mtpa and 
+   bcf/d)? How does this compare to total US LNG export capacity?
+2. What percentage of Cheniere's contracts are long-term 
+   fixed-price vs spot/short-term? This is critical — how much 
+   of a TTF spike actually flows to their bottom line?
+3. For the SPOT-EXPOSED portion: what is the approximate earnings 
+   sensitivity per $1/MMBtu increase in the TTF-Henry Hub spread?
+4. Current TTF price vs Henry Hub — what is the current spread? 
+   How does this compare to the 2022 peak spread during 
+   Russia-Ukraine?
+5. What happened to Cheniere's stock price and earnings during 
+   the 2022 Russia-Ukraine LNG crisis? Stock went from ~$100 to 
+   ~$180 — what was the earnings trajectory that drove that move?
+6. Current analyst consensus: EPS estimates, price targets, and 
+   how stale are they (pre- or post-Hormuz closure)?
+7. Cheniere's Sabine Pass and Corpus Christi terminals — are they 
+   running at full capacity? Any expansion projects coming online 
+   in 2026?
+8. Who are Cheniere's main competitors for spot LNG cargoes? 
+   (Shell, TotalEnergies, BP trading desks?)
+9. What is the bear case? If China secures a side-deal with Iran 
+   for Qatar LNG safe passage, or if Hormuz reopens in 4-6 weeks, 
+   how quickly does the LNG premium deflate?
+10. Current LNG stock price is ~$245. Options IV levels — are 
+    call premiums bloated or still reasonable?
+
+Cite sources with dates. I'm evaluating a May $270C/$300C call 
+spread and need to understand how much of the thesis is already 
+priced into the stock at $245.
+```
+
+---
+
+### Iran Off-Ramp / Hormuz Seizure Analysis
+**Priority:** 🔴 | **Routes to:** HANS, HAWK
+**Status:** ✅ COMPLETED Mar 10
+**Completed:** 4-source synthesis (ChatGPT + Gemini + Perplexity + Kimi). Consensus: 15% under 30d, 45% gradual 2-3mo, 35% extended 6+mo. Active mining confirmed. Mojtaba family killed = revenge variable. Routed to HANS + HAWK inboxes.
 
 ---
 
