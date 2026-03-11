@@ -18,6 +18,9 @@ Deployed 4 agents to inform AAL, entered the trade before any came back. If you 
 ### Enter Puts on Green Days, Calls on Red Days
 Entered AAL puts on a -4-7% day. Default: puts on green, calls on red. Note when breaking and why.
 
+### Timing Wrong ≠ Thesis Wrong — Roll Duration, Don't Trim Size
+Sold 2 HYG $75P Jun at $0.51 (+65%) because agents flagged Jun might be early for credit blowout (3-14 month lag). But HY OAS was 319bps — literally 1bp from trigger. The fix for "expiry might be too short" is to ROLL to a later expiry (Sep/Dec), not to reduce exposure. Trimming size is for when the thesis is broken. Adjusting duration is for when the thesis is right but the timeline is uncertain. $0.51/contract = market thinks they're worthless, but you have a thesis saying the market is wrong. That's the whole point of holding. (Mar 11, 2026)
+
 ---
 
 ## 🟡 Verification Rules

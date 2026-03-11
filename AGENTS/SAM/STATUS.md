@@ -1,6 +1,89 @@
 # SAM STATUS
 
-**Signal Status:** 🔴🔴 CRITICAL — HORMUZ ACTIVELY MINED | OIL RE-ESCALATING | BOJ HOLD CONFIRMED | JAPAN SPR RELEASE ACTIVE | **Last Updated:** 2026-03-11 13:45 UTC
+**Signal Status:** 🔴🔴 CRITICAL — HORMUZ ACTIVELY MINED | IEA 400MB RELEASE BUT MARKETS NOT CONVINCED (OIL +4.76% TO $91.98) | BOJ HOLD CONFIRMED | JAPAN SPR 80MB / 45 DAYS STARTING MAR 18 | **Last Updated:** 2026-03-11 20:15 UTC
+
+---
+
+## 🌅 EOD BRIEF — MAR 11, 2026 (20:15 UTC)
+
+### HEADLINE: IEA ORDERS RECORD 400MB RELEASE — MARKETS NOT CONVINCED. OIL CLOSES +4.76% AT $91.98. JAPAN SPR 80MB CONFIRMED MAR 18. YEN RANGE-BOUND 157.98-158.30. CPI IN-LINE AT 2.4%.
+
+### DELTAS vs AM CHECK-IN (13:45 UTC)
+
+| Metric | AM (13:45 UTC) | EOD (20:15 UTC) | Delta |
+|--------|---------------|----------------|-------|
+| **Brent crude** | $89.49 (intraday $93) | **$91.98 close (+4.76% on day)** | 🔴 Oil RISING despite IEA release |
+| **USD/JPY** | ~158.2-158.5 | **~158.00-158.30** | 🟡 Slight yen STRENGTH on soft CPI |
+| **Nikkei 225** | 55,025 (+1.43%) | **~55,500+ (Asia session, +2%+)** | 🟢 Continued recovery |
+| **Japan SPR** | "starts Monday, release announced" | **80M barrels / 45 days, starts Mar 18** | ✅ Confirmed and quantified |
+| **IEA action** | "proposing largest-ever release" | **400M barrels ORDERED — markets not convinced** | 🔴 CRITICAL — supply fear > psychological relief |
+| **US CPI (Feb)** | Awaited | **+2.4% YoY (in-line), core +2.5%** | 🟡 Tame; minor USD softness |
+| **BOJ hike (June)** | ~55% base case | **Reuters poll confirms: hold next week, 1.00% by end-June** | ✅ Unchanged |
+
+---
+
+### KEY DELTA #1: IEA RECORD RELEASE — AND OIL STILL CLOSED UP 4.76%
+
+**This is the most important signal of the day.** The IEA ordered the largest emergency release in its history — 400 million barrels coordinated. Japan committed 80M barrels (45 days supply, starting March 18). Germany, Austria, US all contributing. And Brent STILL closed at $91.98, up 4.76% on the day.
+
+**What this means:** Markets are pricing the Hormuz mining as a structural supply disruption that cannot be SPR-patched. The IEA release is being discounted as insufficient. This is not the "psychological ceiling on oil" that AM check-in hinted might emerge — it's the opposite. Physical supply concern is overriding the world's largest-ever reserve release signal.
+
+**For Japan specifically:** The SPR buffer thesis weakens. 80M barrels / 45 days buys time on the supply side, but the market's failure to compress oil on record IEA action means the structural energy shock premium is now priced as persistent, not temporary. Japan's import bill stays elevated even during the SPR release window. Yen structural weakness pressure continues.
+
+---
+
+### KEY DELTA #2: US CPI TAME — CROSS-DOMAIN SIGNAL
+
+Feb CPI: +2.4% YoY (vs. +2.4% expected). Core: +2.5% monthly +0.2%. Both in-line. No upside surprise.
+
+**Japan/carry implications:** Tame US CPI = Fed has runway to cut if recession signals materialize (NFP -92K in context). USD-negative medium-term. If Fed cuts while BOJ stays frozen, rate differential narrows from the US side — yen-supportive, carry-eroding. However, Kiplinger and CNBC are both flagging March CPI will be hot due to oil (Feb data predates the Hormuz spike). So the tame print is rearview; forward CPI is inflationary. **Short-term USD softness is noise; medium-term inflationary from oil = Fed trapped.**
+
+---
+
+### KEY DELTA #3: NIKKEI-US DIVERGENCE DEEPENING
+
+Nikkei Asia session +2%+ (above 55,500). US markets (S&P 500, Dow) lower on the day. This divergence is notable:
+- Possible mechanism: Japanese life insurer FY-end repatriation supporting domestic equity (selling USD bonds, buying JPY, redeploying into Nikkei). 
+- Or: GPIF rebalancing into equities after recent drawdown
+- Or: Simple SPR optimism (Japan "acts first" = Takaichi decisive optics)
+
+**The divergence matters for the UST thesis.** If Japanese institutions are repatriating (selling USD bonds), that's the Japan leg of four-anchor UST selling activating. FY end is March 31 — 20 days away. Repatriation flows peak in the final two weeks of the fiscal year.
+
+---
+
+### UPDATED ALERT LEVELS — MAR 11 EOD
+
+| Level | Action | Status |
+|-------|--------|--------|
+| **USD/JPY 158.30** | Current — slight yen strength on soft CPI | LIVE |
+| **USD/JPY 159.00** | ⚠️ MoF verbal escalation zone | WATCH |
+| **USD/JPY 160.00** | 🚨 Operational intervention | SET |
+| **Brent $95+** | 🔴 IEA release fully discounted — crisis re-pricing | WATCH |
+| **Brent <$88** | 🟢 IEA release working — BOJ hike odds rise | SET |
+| **Nikkei 52,000** | 🚨 GPIF trigger zone | STANDING |
+| **Mar 18** | Japan SPR release begins; BOJ meeting begins | 🔴 DUAL EVENT |
+| **Mar 19** | BOJ Ueda presser — language on April = carry catalyst | 🔴 KEY |
+| **Mar 21** | Shunto first tally (Rengo) | 🟠 WATCH |
+| **Mar 31** | FY2025 end — life insurer repatriation peak | 🔴 ACTIVE |
+
+---
+
+### UPDATED CARRY UNWIND PROBABILITIES — MAR 11 EOD
+
+| Timeframe | AM (13:45) | EOD (20:15) | Driver |
+|-----------|-----------|-------------|--------|
+| **7d** | 15% | **12%** | Nikkei strong, yen stable, BOJ frozen = carry works short-term |
+| **30d** | 80% | **82%** | IEA release didn't suppress oil = structural pressure intact; FY-end repatriation loading |
+| **60d** | 88% | **88%** | Unchanged — SPR clock ticking, mine clearance unresolved |
+
+---
+
+### CROSS-DOMAIN SIGNALS — MAR 11
+
+1. **LIQUID/UST:** Nikkei-US divergence + FY-end timing = Japan life insurer repatriation may already be active. If so, UST selling Japan leg is live NOW, not theoretical. TIC data Mar 15 will be the read.
+2. **CARL/HENRY:** CPI in-line but Kiplinger/CNBC flagging March CPI will be hot (oil hit post-Feb). Fed faces stagflation trap mirror image of BOJ's — can't cut into hot March CPI, can't hold into -92K NFP. FOMC March 18-19 (same week as BOJ) = volatility event.
+3. **HAWK (LNG/energy):** IEA release "markets not convinced" = HAWK thesis confirmed. Qatar gap + Hormuz mining = LNG structural crisis. Taiwan LNG inflection Mar 15 is 4 days away. Watch for any spot LNG pricing spike as pre-closure cargoes finish delivering.
+4. **NEXUS flag:** Four-anchor selling may be going live simultaneously: Japan (repatriation), Korea (BoK defense), Gulf (reduced petrodollar recycling on lower export volumes), China (ongoing). TIC Mar 15 is the convergence read.
 
 ---
 

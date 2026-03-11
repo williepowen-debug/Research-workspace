@@ -1,7 +1,7 @@
 # LIQUID STATUS
-**Last Updated:** 2026-03-11 17:32 UTC | **Agent:** LIQUID | **Status:** 🔴🔴 CRITICAL
+**Last Updated:** 2026-03-11 20:30 UTC | **Agent:** LIQUID | **Status:** 🔴🔴 CRITICAL
 
-**One-liner:** CPI Feb in-line (2.4%/2.5%) = "calm before the storm." HY OAS 319bps Mar 9, Mar 10 data pending confirmation. Oil $108 WTI (was $119 Mar 9). HYG Jun puts 95% dominance at $80 strike. Private credit BDCs -11.5% YTD. Bear steepening continues. LIQ-01 near-certain breach imminent.
+**One-liner:** S&P 500 breached 6,764 support (100-day MA) March 11 — institutional distribution confirmed, target 6,500. VIX 25.07. FRED Mar 10 HY OAS data now releasing (Single-B confirmed updated) — LIQ-01 confirmation imminent. Credit default rates at 2000/2008 levels (external confirmation). CLO AAA spreads spiked 117→125bps in one week. Transmission chain activating.
 
 ---
 
@@ -10,22 +10,23 @@
 | Indicator | Value | Source | Status |
 |-----------|-------|--------|--------|
 | HY OAS | **319bps** [CONF Mar 9] | FRED BAMLH0A0HYM2 | 🔴 1bp from trigger |
-| HY OAS Mar 10 | **[PENDING — FRED not yet reflected]** | Est. 320-325bps given oil+risk-off | ⏳ ~70% prob of cross |
+| HY OAS Mar 10 | **[FRED NOW RELEASING — Single-B series confirmed updated to Mar 10]** | Est. ≥320bps | ⏳ Confirmation imminent — check FRED |
 | CCC OAS | **969bps** [CONF Mar 9] | FRED BAMLH0A3HYM2 | 🔴 Leading indicator; +12bps WoW |
 | LIQ-01 threshold | 320bps | — | — |
+| Credit default rates | **2000/2008 comparable levels** | chartingthemarkets substack Mar 11 | 🔴🔴 EXTERNAL CONFIRMATION |
 
-**Confirmation protocol:** When FRED releases Mar 10 HY OAS — if ≥320bps → signal HENRY (VaR cascade) + SAM (repatriation acceleration) immediately.
+**Confirmation protocol:** FRED Single-B series updated to Mar 10 — main BAMLH0A0HYM2 likely updated also. Check now. If ≥320bps → LIQ-01 TRIGGERED → signal HENRY + SAM immediately.
 
 ---
 
-## CONFIRMED DATA SNAPSHOT (Mar 11 AM)
+## CONFIRMED DATA SNAPSHOT (Mar 11 EOD)
 
 | Indicator | Value | Date | Source |
 |-----------|-------|------|--------|
 | HY OAS | 319bps | Mar 9 | CONF FRED |
 | IG OAS | 85bps | Mar 9 | CONF FRED |
 | CCC OAS | 969bps | Mar 9 | CONF FRED |
-| VIX | 24.93 | Mar 10 | CONF FRED |
+| VIX | **25.07** | Mar 11 CONF | FinancialContent/chroniclejournal — up from 24.93 |
 | SOFR | 3.64% | Mar 10 | CONF FRED |
 | RRP | **$0.278B** | Mar 10 | CONF FRED — BUFFER GONE |
 | CPI Feb | 2.4% headline / 2.5% core | Mar 11 CONF BLS | In-line. "Calm before storm" — March print will embed oil shock |
@@ -36,7 +37,9 @@
 | MBS spread | 165bps over Tsys | Mar 11 | CONF — no flight-to-quality. Spread widening in progress |
 | HYG Jun $80P | $1.465 mid | Mar 10 close | CONF — 95% put dominance, 65K contracts. Market aligned |
 | BDC index (Cliffwater) | -11.5% YTD / -20% off high | Mar 2026 | CONF Nomura — Stage 1 leading indicator lit |
-| S&P 500 | -0.21% | Mar 10 | CONF |
+| S&P 500 | **Breached 6,764** (100-day MA ~6,830 now resistance) | Mar 11 CONF | FinancialContent — "institutional distribution" — target 6,500 |
+| CLO AAA spreads | **116-125bps** (volatile — one mgr saw 117→125bps in one week) | JPM LevFin Conf Mar 2-4 / CreditSights | 🔴 Funding stress spreading up capital stack |
+| Credit default rates | **2000/2008 comparable levels** | chartingthemarkets.substack Mar 11 | 🔴🔴 External confirmation of thesis |
 
 ---
 
@@ -123,7 +126,9 @@ HYG $75P Jun x10 positioned for LIQ-01 convergence. CPI in-line = no panic catal
 
 ## WATCH
 
-**Today:** FRED BAMLH0A0HYM2 (Mar 10 HY OAS — confirm LIQ-01 breach). HYG price action vs $80 put strike. Oil stability above/below $105. Any 30Y auction results. Watch if HYG Jun puts need rolling → Sep/Dec given Jun expiry risk.  
+**URGENT:** Check FRED BAMLH0A0HYM2 NOW — Single-B series confirmed updated to Mar 10. Main HY OAS likely releasing tonight/tomorrow morning. If ≥320bps → LIQ-01 TRIGGERED → signal HENRY + SAM.
+**Tomorrow:** HYG roll decision — Jun puts to Sep/Dec. Credit default rates at 2000/2008 levels = thesis accelerating. CLO funding stress (117→125bps AAA) = watch CLO issuance pause as next trigger.
+**Daily:** SOFR spread, RRP, HY OAS, CCC OAS, VIX  
 **Daily:** SOFR spread, RRP, HY OAS, CCC OAS, VIX  
 **Weekly:** Auction results (BTC, indirect bid %, tail), CLO AAA spreads  
 **Monthly:** TIC data (Belgium + China), SOFR volume breakdown  
