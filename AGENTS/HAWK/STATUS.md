@@ -9,7 +9,54 @@
 
 ---
 
-## 🔴🔴 SITUATION 1: US-IRAN WAR (Day 10-11)
+## 🔴🔴 SITUATION 1: US-IRAN WAR (Day 11-12)
+
+### Current State (Mar 11) [Updated Mar 11 13:57 UTC] — CRITICAL OVERNIGHT DEVELOPMENTS
+
+**[NEW Mar 11] ACTIVE MINE WARFARE PHASE — US KINETIC RESPONSE:**
+- US military destroyed 16 Iranian minelaying vessels overnight Mar 10-11 (AP News). This is the first direct US naval engagement against Iranian surface vessels.
+- Mine warfare now active/kinetic — not just passive threat. Iran still has 5,000-6,000 mine inventory; 16 vessels destroyed does not end campaign.
+- Duration implication: US mine-clearing operations now required, adding months of uncertainty even after any ceasefire.
+
+**[NEW Mar 11] DUBAI INTERNATIONAL AIRPORT ATTACKED:**
+- Iranian drones hit near Dubai International (world's busiest intl airport). 4 wounded (2 Ghanaian, 1 Bangladeshi, 1 Indian). Flights continuing.
+- First attack on GCC civilian aviation hub. Aviation insurance now at acute risk for UAE routes.
+- Watch for airline route suspensions (Dubai handles ~90M passengers/year).
+
+**[NEW Mar 11] FINANCIAL INFRASTRUCTURE DECLARED MILITARY TARGETS:**
+- Iran declared banks and financial institutions as military targets — DIFC (Dubai), Saudi banking, Bahrain banking all named.
+- If executed: regional financial market closure, capital flight, Gulf sovereign spread explosion.
+- LIQUID alert — financial contagion pathway newly opened. Lloyd's/reinsurance exposure to Dubai financial district = global insurance market stress.
+
+**[NEW Mar 11] IRAN MAXIMALIST DECLARATION + US CASUALTIES:**
+- Iran vows "not a single liter" of oil to enemies — full blockade rhetoric, domestic hardening.
+- Any back-channel now politically impossible given this framing.
+- US KIA: 7 killed, 140 wounded, 8 severe. Creates domestic political pressure (escalate OR exit).
+
+**[NEW Mar 11] STRUCTURAL 13M BPD GAP (Hudson Institute, Kasapoğlu):**
+- Saudi east-west pipeline max: 5M bpd. UAE Fujairah pipeline: 1.5-2M bpd.
+- Total bypass capacity: ~7M bpd max vs 20M bpd Hormuz normal = **13M bpd structural gap** even with all alternatives maxed.
+- This is not a rerouting problem — it is a structural supply destruction. Oil price trajectory: $120-150+ with duration.
+
+**[NEW Mar 11] CRU FERTILIZER DATA (Authoritative):**
+- 47% global sulphur traded supply at risk. 43% urea. 27% ammonia. 24% phosphate.
+- Sulphur price index ~1,400 vs ~250 baseline (Jan 2020 = 100). Urea index ~275 from ~175 base.
+- "Industry is in paralysis, full implications not yet known."
+- Spring planting deadline is hard demand floor. Food CPI implications for H2 2026 = locked in if disruption extends.
+
+**[NEW Mar 11] SCENARIO PROBABILITY REVISION:**
+
+| Scenario | Prob (Mar 10) | Prob (Mar 11) | Change | Rationale |
+|----------|--------------|--------------|--------|-----------|
+| **B — Sustained** | 33% | **22%** | ↓11% | Mine warfare + financial infra targeting = escalation ceiling rising |
+| **C — Full Escalation** | 55% | **60%** | ↑5% | Structural: US in active kinetic mine warfare, "not a single liter" declaration, 13M bpd gap permanent |
+| **D — Collapse/Nuclear** | 12% | **18%** | ↑6% | Financial infra targeting + mine warfare + maximalist declaration = highest escalation plateau yet |
+
+**Oil Price Trajectory (Revised Mar 11):**
+- Near-term (1-4 wks): $100-120 as 13M bpd gap mechanics price in
+- Mid-term (1-3 months): $120-150 — structural gap, mine clearance timeline, US casualty politics
+- Extended (3-6+ months): $130-160+ if Kuwait+UAE+Saudi all curtail
+- Resolution premium: even ceasefire → months of mine clearance → insurance reinstatement lag
 
 ### Current State (Mar 1 → Mar 10) [Updated Mar 10 22:30 UTC]
 
@@ -58,12 +105,12 @@
 
 | Scenario | Prob | Duration | Oil (Brent) | VIX | Market |
 |----------|------|----------|-------------|-----|--------|
-| **A — Surgical** | 0% | Window closed | N/A | NA | War Day 10+ with physical mining confirmed |
-| **B — Sustained** | 33% ↓ | Weeks-months | $85-105 | 30-38 | Grinding risk-off. De-escalation still possible. |
-| **C — Full Escalation** | 55% BASE | **4-6+ months** ↑↑ | $105-150 | 40-55 | Iraq 70% shut-in CONFIRMED. Mining confirmed. Duration 4-6+ months per Policy Tensor. |
-| **D — Collapse/Nuclear** | 12% ↑ | Unknown | $130+ | 60+ | Mining = escalation ladder climbing. Mojtaba succession (hardliner). THAAD disabled. |
+| **A — Surgical** | 0% | Window closed | N/A | NA | War Day 11+ with active kinetic mine warfare underway |
+| **B — Sustained** | 22% ↓↓ | Weeks-months | $85-105 | 30-38 | Requires Iran to stand down; contradicted by "not a single liter" + mine warfare |
+| **C — Full Escalation** | 60% BASE ↑ | **4-6+ months** ↑↑ | $105-160 ↑ | 40-55 | 13M bpd structural gap (Hudson). Active mine warfare. Financial infra targeted. Duration floor rising. |
+| **D — Collapse/Nuclear** | 18% ↑↑ | Unknown | $150+ | 60+ | Financial infra attacks + mine warfare + US KIA + "not a single liter" = highest escalation plateau yet |
 
-*Revised Mar 10: C stays 55% but DURATION extended to 4-6+ months (Policy Tensor military math + physical mining confirmed). D raised to 12% (mining = escalation above de facto blockade). B 35%→33%. "Reverse Ukraine" tail: indefinite closure is now a credible scenario.*
+*Revised Mar 11: C raised to 60%, D raised to 18% (financial infrastructure declared target + active kinetic mine warfare + US KIA). B collapsed to 22% — escalation plateau makes de-escalation politically very hard. Oil price ceiling raised to $160 in C scenario (13M bpd structural gap + duration extension). "Reverse Ukraine" indefinite closure now primary tail.*
 
 ### Escalation Indicators — Watch NOW
 - ✅ Iraq 70% shut-in CONFIRMED Mar 8 — Scenario C trigger HIT [Yergin, Rory Johnston, Walter Bloomberg]

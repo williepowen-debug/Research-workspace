@@ -1,5 +1,15 @@
 # HAWK TRADE.md
-**Updated:** 2026-03-10 22:30 UTC
+**Updated:** 2026-03-11 13:57 UTC
+
+## ⚠️ Mar 11 CRITICAL UPDATE — Signal Integration
+
+**New data changes the conviction calculus:**
+- **13M bpd structural gap confirmed** (Hudson/Kasapoğlu): pipeline bypass only 7M bpd vs 20M bpd Hormuz. NOT a rerouting problem. Structural supply destruction. → USO calls, VIX calls, LNG: **CONVICTION ↑**
+- **Active mine warfare** (US destroyed 16 Iranian minelaying vessels): duration floor extends further. Any ceasefire → months of mine clearance before commercial traffic. → All energy longs: duration extended.
+- **Financial infrastructure declared target** (DIFC, Saudi banks, Bahrain): new contagion vector. Gulf financial market closure risk is real. → VIX calls: CONVICTION ↑↑. Add financial sector shorts (DIFC-exposed banks, Gulf ETFs)?
+- **Dubai airport attacked**: aviation insurance crisis broadening. AA/UAL already hit; now Dubai routes at risk. → Airline puts: still valid, potentially add.
+- **CRU confirms 47% sulphur / 43% urea**: spring planting deadline + "industry in paralysis" = food CPI locked. → Fertilizer/Ag plays: CONVICTION ↑, execution urgency ↑
+- **Scenario D raised to 18%**: financial infra targeting = tail risk materially higher. → VIX call spread sizing: consider upsize.
 
 ---
 
