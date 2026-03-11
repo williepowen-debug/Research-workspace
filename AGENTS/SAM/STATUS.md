@@ -1,6 +1,174 @@
 # SAM STATUS
 
-**Signal Status:** 🟠🔴 ELEVATED — OIL SHOCK DECOMPRESSING | MECHANISM REVERTING | BOJ HIKE BACK ON TABLE | **Last Updated:** 2026-03-10 20:30 UTC
+**Signal Status:** 🔴🔴 CRITICAL — HORMUZ ACTIVELY MINED | OIL RE-ESCALATING | BOJ HOLD CONFIRMED | JAPAN SPR RELEASE ACTIVE | **Last Updated:** 2026-03-11 13:45 UTC
+
+---
+
+## 🌅 AM CHECK-IN — MAR 11, 2026 (13:45 UTC)
+
+### HEADLINE: HORMUZ ACTIVELY MINED — TRUMP DE-ESCALATION NARRATIVE DEAD. OIL BACK TO $89-93. JAPAN RELEASING SPR. BOJ MARCH HIKE WINDOW CLOSED.
+
+**The Mar 10 EOD call is confirmed:** "Oil bounce back toward $90-95 is possible if ceasefire is NOT confirmed in 24-48 hours." That's exactly what happened. Active mining + three ships attacked + Dubai drones = Trump's "war pretty much complete" was a one-session narrative. Brent bounced from $87.80 back to $89.49 (intraday $93). The brief hike window has closed.
+
+---
+
+### (1) OVERNIGHT JAPAN DEVELOPMENTS
+
+**Market levels as of 13:45 UTC:**
+| Metric | Mar 10 EOD | Mar 11 AM | Delta |
+|--------|-----------|-----------|-------|
+| **Brent crude** | $87.80 | **$89.49 (+2%), intraday $93** | 🔴 Oil re-escalating |
+| **USD/JPY** | ~157.7-158.0 | **~158.2-158.5** | 🔴 Yen weakening again |
+| **Nikkei 225** | ~54,248 (Mar 10 close) | **55,025 (+1.43% Mar 11 Asia)** | 🟡 Recovery on SPR optimism |
+
+**Political/policy:**
+- **PM Takaichi announces Japan SPR release** — starts Monday. Confirmed via NHK. Japan joining Germany and Austria in reserve releases ahead of G7 emergency meeting. IEA proposing largest-ever emergency reserve release.
+- **Ueda signaled "prolonged hold"** (FXStreet, Mar 11): BOJ governor explicitly telegraphing extended pause due to Middle East conflict economic impact.
+- **Reuters poll of 64 economists (Mar 11):** Unanimous HOLD at March 19. Base case: 1.00% hike by end of June 2026.
+- **FXStreet:** "Japanese Yen weakens below 158.50 on BOJ policy uncertainty" — yen softening on hold-confirmed narrative.
+
+---
+
+### (2) THE CRITICAL SIGNAL: ACTIVE MINING CHANGES EVERYTHING
+
+**This is not the same as "shipping avoiding the strait due to threat."**
+
+Active physical mines in Hormuz create a fundamentally different scenario:
+
+| Scenario | Resolution Timeline | Japan Impact |
+|----------|-------------------|--------------|
+| **Pre-mining (threat-based closure)** | Days-weeks on political deal | Resolvable by ceasefire tweet |
+| **Active mining (NOW)** | **Weeks-months even post-ceasefire** | Physical mine clearance required |
+
+**Why this matters for Japan specifically:**
+1. **90%+ crude import dependence.** Japan cannot switch away from Gulf crude quickly. Australian LNG + US Gulf LNG + West African crude = more expensive, lower volume alternatives.
+2. **SPR burn rate.** Japan's strategic petroleum reserve covers ~90-100 days at normal rates. With Hormuz mined and alternative supply at premium, burn accelerates. **Effective SPR buffer: ~60-75 days.** Clock starts Monday when Takaichi begins release.
+3. **Mine clearance precedent.** The 1987-88 Operation Earnest Will (Iran-Iraq tanker war) required months of active minesweeping. Iran mined more extensively then. This is not a 72-hour resolution scenario.
+4. **Alternative energy costs.** Spot LNG from Australia/US Gulf is significantly more expensive than contracted Gulf supply. Japan's energy import bill stays elevated even with SPR buffer. Yen weakness pressure persists.
+
+**Net: The energy crisis is now STRUCTURAL, not episodic. Timeline extends from "4-6 weeks" (pre-mining estimate) to "60-90+ days minimum."**
+
+---
+
+### (3) BOJ HIKE PROBABILITY — REVISED BACK DOWN
+
+The 20-30% March hike probability from Mar 10 EOD (premised on oil at $87.80) is **closed.**
+
+| Meeting | Prior (Mar 10 EOD) | Current (Mar 11) | Driver |
+|---------|------------------|-----------------|--------|
+| **March 18-19** | 20-30% hike | **5-8% hike** | Active mining revives stagflation trap. Ueda "prolonged hold." Reuters poll consensus hold. |
+| **April 23-24** | ~50% | **~20-25%** | Oil trajectory uncertain. SPR buy time. |
+| **June** | Base case if April miss | **~55% — new base case** | Reuters poll. If Hormuz cleared by April/May, June viable. |
+
+**Why the rapid reversal:**
+- Mar 10 EOD upgrade was based on a single day of oil at $87.80 after Trump's CBS comments
+- Active mining = stagflation trap re-engaged immediately
+- Ueda explicitly signaling prolonged hold confirms BOJ reads the same data
+- Oil at $89-93 = import cost pressure back — the core argument for hiking (wage-led, non-energy inflation) gets buried again under energy shock
+
+**BOJ is frozen through at least Q2 2026.** The trap deepens: can't hike into mining-extended energy shock, can't cut into elevated inflation from import costs. Paralysis is the policy.
+
+---
+
+### (4) CARRY TRADE STRESS SIGNALS — MECHANISM RE-INVERTED
+
+The brief mechanism reversion (BOJ hike → yen strength → unwind) from Mar 10 is **cancelled.**
+
+Active mining flips it back to the inverted mechanism:
+- Oil at $89-93 → Japan import costs elevated → current account pressure → yen structural weakness
+- BOJ frozen (confirmed by Ueda) → carry still nominally attractive
+- USD/JPY drifting back toward 158.5 = carry forces reasserting
+- Phase 2 via BOJ voluntary hike: **LOW probability near-term**
+- Phase 2 via forced intervention/MoF action: **BUILDING — watch 159.00-160.00**
+
+**Updated carry unwind probabilities:**
+| Timeframe | Mar 10 EOD | Mar 11 AM | Driver |
+|-----------|-----------|-----------|--------|
+| 7d | 25-30% | **15%** | Oil buffered by SPR/IEA news; short-term relief |
+| 30d | 75% | **80%** | Active mining EXTENDS crisis → structural pressure builds |
+| 60d | 75% | **88%** | SPR depletion clock ticking; mine clearance timeline |
+
+---
+
+### (5) THREE-ANCHOR UST SELLING — ACCELERATION LIKELY
+
+**Does active Hormuz mining accelerate the Japan leg of UST selling?**
+
+**YES — two channels:**
+
+**Channel 1: MoF FX Intervention**
+- With yen weakening back to 158.2-158.5 and oil at $89-93, trajectory is toward 159-160
+- At 160, MoF operational intervention risk becomes acute
+- Operational intervention = selling USTs/FX reserves to buy yen
+- This IS the Japan leg of UST selling activating
+- Mine extension = yen weakness extended = intervention trigger approached sooner
+
+**Channel 2: Life insurer ESR rebalancing**
+- Mar 10 noted Japan Post Insurance CEO signaling shift out of JGBs
+- With energy crisis extended, Japanese life insurers face larger FY-end mark-to-market hits
+- Repatriation flows (selling USD assets, buying JPY) accelerate as FY end approaches (Mar 31)
+- Life insurer repatriation = UST selling Japan leg, separately from MoF
+
+**Korea:** BoK pressure resumes with oil at $89+. BoK FX defense restarts. KRW/UST selling re-engages.
+
+**Net: Three-anchor UST selling is re-accelerating, not pausing.**
+
+---
+
+### (6) NEW RISK CHANNEL: IRAN FINANCIAL INSTITUTION TARGETING
+
+Iran declared financial institutions as legitimate military targets. Two drones near Dubai airport (downed). KLM cancelled Dubai flights through March 28.
+
+**Implications for Japan:**
+- MUFG, Mizuho, SMBC all have significant UAE/Gulf operations and custody arrangements
+- Japanese life insurers (Nippon Life, Dai-ichi) hold Gulf sovereign bonds and regional credit exposure
+- Physical threat to Dubai financial infrastructure = **credit/counterparty risk channel** on top of energy channel
+- BOJ financial stability argument for extended hold INTENSIFIES: not just energy shock but potential credit hits to major Japanese banks
+- This is a new signal that doesn't appear in prior STATUS — needs monitoring
+
+---
+
+### (7) UPDATED ALERT LEVELS — MAR 11 REVISION
+
+| Level | Action | Status |
+|-------|--------|--------|
+| **USD/JPY 158.50** | 🟡 Current — yen testing this level, weakening trend | WATCH |
+| **USD/JPY 159.00** | ⚠️ NEW ALERT — MoF verbal intervention escalation zone | SET |
+| **USD/JPY 160.00** | 🚨 Operational intervention zone — potential Phase 2 via FX channel | ELEVATED |
+| **Brent crude $93+** | ⚠️ Ceasefire narrative dead, full crisis re-engaged | WATCH |
+| **Brent crude $85-** | 🟢 SPR/IEA relief working; BOJ hike probability rises | SET |
+| **Nikkei 52,000** | 🚨 GPIF trigger zone | STANDING |
+| **Japan SPR depletion pace** | 🟡 Monitor burn rate — 60-75 day effective buffer from Monday | NEW |
+| **Mine clearance news** | 🟡 Any confirmed minesweeping operation = Hormuz reopening timeline materializes | NEW |
+
+---
+
+### (8) PROPOSALS FOR WILL'S APPROVAL — MAR 11
+
+**Proposal A: Revise BOJ hike probability.**
+March hike back to 5-8% (was temporarily 20-30% on Mar 10 at oil $87.80). June is now the base case (per Reuters poll consensus). No trade action on rate direction until Ueda presser Mar 19 — watch language on energy vs. wages.
+
+**Proposal B: Re-engage energy crisis as STRUCTURAL (not paused).**
+Active mining makes this a physical-not-political constraint. Even full ceasefire = weeks of minesweeping before transit resumes. Recommend revising crisis designation from "PAUSED" back to "ACUTE — EXTENDED TIMELINE." SPR buffer countdown: ~60-75 effective days from Monday.
+
+**Proposal C: Three-anchor UST selling — flag to NEXUS for synthesis.**
+Both Japan channels (MoF intervention + life insurer repatriation) and Korea channel (BoK defense) are re-engaging. Recommend NEXUS spawn to assess whether this changes LIQUID's UST supply thesis. The three-anchor problem may be entering its active phase.
+
+**Proposal D: New monitoring item — Japanese bank MENA credit exposure.**
+Iran's targeting of financial institutions creates a new risk vector for MUFG/Mizuho/SMBC. Not yet a trading signal but needs one news cycle to determine if this is rhetorical or operational. If Dubai financial operations hit, add to crisis severity.
+
+**Proposal E: Set SPR depletion clock.**
+Japan SPR effective buffer ~60-75 days from Monday Mar 16. If Hormuz remains mined at 45-day mark (around May 1), recommend escalating Japan energy crisis to "acute shortage" status regardless of other signals.
+
+**No new carry trade entries until after BOJ Mar 19 presser.** Ueda language on wage vs. energy could be the Phase 2 catalyst even if hold is unanimous. Watch for any shift in April framing.
+
+---
+
+**Signal Status:** 🔴🔴 CRITICAL — Active Hormuz mining = structural energy crisis for Japan | BOJ frozen through Q2 | Carry unwind 30d: 80% | Three-anchor UST selling re-engaging | Japan SPR clock starts Monday
+
+---
+
+
 
 ---
 
