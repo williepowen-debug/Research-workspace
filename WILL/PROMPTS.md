@@ -1,8 +1,7 @@
 # PROMPTS.md — Research Prompts for Will
 
 Prompts for Will to run through external LLMs (Gemini, Perplexity, ChatGPT, etc.).
-These are standalone prompts — no internal system knowledge required by the LLM.
-Prome adds prompts here; Will picks them up and runs them; results come back for integration.
+Completed prompts archived in `COMPLETED_PROMPTS.md`.
 
 ---
 
@@ -23,63 +22,14 @@ For each prompt:
 
 Prioritize by: what's most likely to change what we do tomorrow.
 ```
-*Origin: Mar 9, 2026 — Will realized this inverts the research process. Instead of human guessing what to ask, the system identifies its own blind spots. Works best after a batch of new signals when direction is unclear.*
+*Origin: Mar 9, 2026 — Will realized this inverts the research process.*
 
 ---
 
-## Queued
-
-### Google Trends — Labor Search Terms
-**Priority:** 🟡 | **Routes to:** LABOR
-**⚠️ WILL MUST DO MANUALLY** — LLMs cannot access real-time Google Trends data. Go to trends.google.com directly.
-```
-Go to Google Trends (trends.google.com) and look up US search interest 
-(past 90 days) for these terms:
-
-1. "unemployment benefits"
-2. "file for unemployment"
-3. "laid off"
-4. "severance package"
-5. "hiring freeze"
-6. "food stamps" / "SNAP benefits"
-7. "job openings near me"
-
-For each: current week's index (0-100), 4-week average, 90-day trend 
-(rising/flat/declining), any spikes in the past 30 days. Compare to the 
-same period in 2025 and 2024 if possible. Flag any breakout patterns.
-```
-
----
-
-### ✅ Taiwan LNG Reserves and Power Supply Status — COMPLETED
-**Completed:** Mar 9 via researcher agent. Not critical yet, Mar 15 inflection. 30% Qatar dependency, 10-11 day reserves.
-**Routes to:** HAWK, HENRY
-```
-What is the current status of Taiwan's natural gas reserves and power 
-supply as of March 9-10, 2026?
-
-1. How many days of LNG reserves does Taiwan currently hold? What is 
-   the normal buffer level?
-2. Has Taiwan's state power company (Taipower) issued any rationing 
-   notices, emergency procurement orders, or public statements about 
-   supply concerns since the Strait of Hormuz closure began in early 
-   March 2026?
-3. What percentage of Taiwan's LNG imports transit the Strait of 
-   Hormuz or originate from Qatar and the UAE?
-4. Are there any reports of industrial power curtailment affecting 
-   semiconductor manufacturing (TSMC, UMC, or other fabs)?
-5. Has Taiwan activated emergency energy protocols or sought 
-   alternative LNG supply from the US, Australia, or other sources?
-6. What are analysts or government officials saying about the timeline 
-   before reserves become critically low?
-
-Cite all sources with dates. Focus on information from the past 7 days.
-```
-
----
+## 🔴 High Priority
 
 ### Oil at $100 — Downstream Economic Impact
-**Priority:** 🔴 | **Routes to:** HAWK, CARL, LABOR
+**Routes to:** HAWK, CARL, LABOR
 ```
 With WTI crude oil above $100/barrel as of March 9, 2026, driven by 
 the Hormuz Strait closure and Iraqi production disruption, provide a 
@@ -105,91 +55,49 @@ Cite sources with dates. Focus on data from the past 7 days only.
 
 ---
 
-### Kennedy-Wilson Holdings Debt Exchange Status
-**Priority:** 🟠 | **Routes to:** REGINALD
+### Cheniere Energy (LNG) — Margin Sensitivity & Hedging Structure
+**Routes to:** HAWK, FORGE
+**Why:** LNG $270C/$300C May spread is #5 conviction at 4/5. Haven't done CF-level deep dive on Cheniere yet.
 ```
-What is the current status of Kennedy-Wilson Holdings' (ticker: KW) 
-debt exchange offer as of early March 2026?
+Cheniere Energy (ticker: LNG) is the largest US LNG exporter. With 
+the Strait of Hormuz closed since March 1, 2026, Qatar LNG offline, 
+and TTF gas prices up 74%, analyze Cheniere's investment case:
 
-1. What were the terms of the exchange offer — what did KW propose 
-   to bondholders?
-2. Have any bondholder groups publicly rejected or pushed back on 
-   the exchange?
-3. What are the key deadlines, court dates, or expiration dates 
-   for the offer?
-4. What is KW's current credit rating, and have any rating agencies 
-   taken action recently?
-5. What is the total debt outstanding and maturity schedule?
-6. Are there other commercial real estate (CRE) companies currently 
-   facing similar bondholder resistance to debt restructuring or 
-   exchange offers? If so, list them with details.
+1. What is Cheniere's current LNG export capacity (mtpa and 
+   bcf/d)? How does this compare to total US LNG export capacity?
+2. What percentage of Cheniere's contracts are long-term 
+   fixed-price vs spot/short-term? This is critical — how much 
+   of a TTF spike actually flows to their bottom line?
+3. For the SPOT-EXPOSED portion: what is the approximate earnings 
+   sensitivity per $1/MMBtu increase in the TTF-Henry Hub spread?
+4. Current TTF price vs Henry Hub — what is the current spread? 
+   How does this compare to the 2022 peak spread during 
+   Russia-Ukraine?
+5. What happened to Cheniere's stock price and earnings during 
+   the 2022 Russia-Ukraine LNG crisis? Stock went from ~$100 to 
+   ~$180 — what was the earnings trajectory that drove that move?
+6. Current analyst consensus: EPS estimates, price targets, and 
+   how stale are they (pre- or post-Hormuz closure)?
+7. Cheniere's Sabine Pass and Corpus Christi terminals — are they 
+   running at full capacity? Any expansion projects coming online 
+   in 2026?
+8. Who are Cheniere's main competitors for spot LNG cargoes? 
+   (Shell, TotalEnergies, BP trading desks?)
+9. What is the bear case? If China secures a side-deal with Iran 
+   for Qatar LNG safe passage, or if Hormuz reopens in 4-6 weeks, 
+   how quickly does the LNG premium deflate?
+10. Current LNG stock price is ~$245. Options IV levels — are 
+    call premiums bloated or still reasonable?
 
-Cite sources with dates.
-```
-
----
-
-### ✅ Hormuz Closure Impact on Global Fertilizer Supply — COMPLETED
-**Completed:** Mar 9 via Gemini. IFPRI: "rival or exceed 2022." 280 vessels confirmed trapped. 91% transit reduction. India 75% urea from GCC. Arkansas stopped quoting prices.
-**Routes to:** HAWK, CARL — signals already routed.
-```
-Assess the impact of the Strait of Hormuz closure (since approximately 
-March 1, 2026) on the global fertilizer market:
-
-1. What percentage of global urea, DAP (diammonium phosphate), and 
-   potash exports normally transit the Strait of Hormuz?
-2. Which countries are the largest Gulf-origin fertilizer exporters, 
-   and who are their primary customers?
-3. How dependent is India on Gulf-origin nitrogen fertilizers? What 
-   percentage of India's fertilizer imports come through Hormuz?
-4. What are current urea and DAP spot prices compared to pre-closure 
-   levels (late February 2026)?
-5. Have any major importing countries (India, Brazil, Southeast Asia) 
-   announced emergency procurement, rationing, or subsidy changes?
-6. What is the timeline pressure for Northern Hemisphere spring 
-   planting — by when must fertilizer be procured and applied to 
-   avoid crop yield impacts?
-7. Reports suggest approximately 280 dry bulk carriers may be 
-   trapped or rerouted — is there confirmation of shipping 
-   disruption affecting agricultural commodity transport?
-
-Cite sources with dates. This is a second-order economic effect of 
-the Hormuz closure that may not be receiving mainstream attention.
-```
-
----
-
-### BlackRock HLEND Redemption Gate — Private Credit Contagion
-**Priority:** 🟠 | **Routes to:** BROCK
-```
-BlackRock's HLEND private credit fund (~$26B AUM) reportedly gated 
-redemptions around March 6, 2026, paying only a portion of total 
-redemption requests. Provide a comprehensive update:
-
-1. Has BlackRock issued any public statement about HLEND's 
-   redemption situation since the gate was imposed?
-2. Have any OTHER private credit funds announced redemption limits, 
-   gates, or liquidity restrictions since early March 2026? List 
-   each with fund name, manager, AUM, and details.
-3. What is the current status of Blackstone's BCRED fund — are 
-   they still honoring full redemption requests?
-4. What is the status of Blue Owl Capital's OCSL II fund — has 
-   the liquidity restriction changed?
-5. Have any Business Development Companies (BDCs) announced 
-   dividend cuts or NAV markdowns in the past two weeks?
-6. Has the SEC or any financial regulator commented publicly on 
-   private credit fund liquidity or gating?
-7. What are the total reported redemption requests across the 
-   major non-traded private credit funds (BCRED, HLEND, OCSL, 
-   others) for Q1 2026?
-
-Cite sources with dates. Focus on events since March 1, 2026.
+Cite sources with dates. I'm evaluating a May $270C/$300C call 
+spread and need to understand how much of the thesis is already 
+priced into the stock at $245.
 ```
 
 ---
 
 ### Fertilizer Trade — CF Industries / Mosaic / Nutrien Analysis
-**Priority:** 🔴 | **Routes to:** HAWK, HENRY
+**Routes to:** HAWK, HENRY
 ```
 The Strait of Hormuz has been closed since approximately March 1, 2026, 
 disrupting oil AND dry bulk shipping from the Persian Gulf. Several Gulf 
@@ -231,8 +139,63 @@ Cite sources with dates.
 
 ---
 
+## 🟠 Medium Priority
+
+### Kennedy-Wilson Holdings Debt Exchange Status
+**Routes to:** REGINALD
+```
+What is the current status of Kennedy-Wilson Holdings' (ticker: KW) 
+debt exchange offer as of early March 2026?
+
+1. What were the terms of the exchange offer — what did KW propose 
+   to bondholders?
+2. Have any bondholder groups publicly rejected or pushed back on 
+   the exchange?
+3. What are the key deadlines, court dates, or expiration dates 
+   for the offer?
+4. What is KW's current credit rating, and have any rating agencies 
+   taken action recently?
+5. What is the total debt outstanding and maturity schedule?
+6. Are there other commercial real estate (CRE) companies currently 
+   facing similar bondholder resistance to debt restructuring or 
+   exchange offers? If so, list them with details.
+
+Cite sources with dates.
+```
+
+---
+
+### BlackRock HLEND Redemption Gate — Private Credit Contagion
+**Routes to:** BROCK
+```
+BlackRock's HLEND private credit fund (~$26B AUM) reportedly gated 
+redemptions around March 6, 2026, paying only a portion of total 
+redemption requests. Provide a comprehensive update:
+
+1. Has BlackRock issued any public statement about HLEND's 
+   redemption situation since the gate was imposed?
+2. Have any OTHER private credit funds announced redemption limits, 
+   gates, or liquidity restrictions since early March 2026? List 
+   each with fund name, manager, AUM, and details.
+3. What is the current status of Blackstone's BCRED fund — are 
+   they still honoring full redemption requests?
+4. What is the status of Blue Owl Capital's OCSL II fund — has 
+   the liquidity restriction changed?
+5. Have any Business Development Companies (BDCs) announced 
+   dividend cuts or NAV markdowns in the past two weeks?
+6. Has the SEC or any financial regulator commented publicly on 
+   private credit fund liquidity or gating?
+7. What are the total reported redemption requests across the 
+   major non-traded private credit funds (BCRED, HLEND, OCSL, 
+   others) for Q1 2026?
+
+Cite sources with dates. Focus on events since March 1, 2026.
+```
+
+---
+
 ### Fertilizer Supply Chain — Deep Dive on Gulf Dependency
-**Priority:** 🟠 | **Routes to:** HAWK, CARL
+**Routes to:** HAWK, CARL
 ```
 Provide a detailed analysis of global fertilizer supply chain 
 dependency on the Persian Gulf and Strait of Hormuz:
@@ -270,70 +233,8 @@ an investment in US-based fertilizer producers.
 
 ---
 
-### Subprime Auto ABS Performance Data
-**Priority:** 🟡 | **Routes to:** CARL, OTTO
-```
-Provide the most recent auto loan asset-backed securities (ABS) 
-performance data, likely from January or February 2026 remittance 
-reports:
-
-1. Subprime auto 60+ day delinquency rate — Fitch composite index 
-   or S&P tracking. What is the current level and YoY change?
-2. Prime auto 60+ day delinquency rate for comparison
-3. Subprime auto ABS annualized net loss rate — current vs 6 and 
-   12 months ago
-4. Recovery rates on repossessed vehicles — current level vs 12 
-   months ago. Are recoveries improving or declining?
-5. Have any new subprime auto ABS deals been priced in February 
-   or March 2026? If so, what were the subordination levels 
-   compared to 2024 and 2025 vintage deals?
-6. Are there any specific ABS trusts (particularly those backed 
-   by Carvana/DriveTime originations) with recent trustee reports 
-   or rating actions?
-7. What is the current average auto loan term for new subprime 
-   originations, and what percentage of new loans have negative 
-   equity at origination?
-
-The context is that Fitch reported subprime auto 60+ day delinquencies 
-hit an all-time record of approximately 7.1% in early 2026. We need 
-to understand the trend trajectory, not just the headline level.
-```
-
----
-
-### Japan FY2026 Budget and JGB Issuance Schedule
-**Priority:** 🟠 | **Routes to:** SAM, ZHAO
-```
-Japan's new Prime Minister Sanae Takaichi passed a ¥122 trillion 
-FY2026 budget, the largest in Japanese history, with an LDP 
-supermajority in the Diet. Provide details on:
-
-1. What is the total planned Japanese Government Bond (JGB) 
-   issuance for FY2026 (April 2026 - March 2027)? How does this 
-   compare to FY2025?
-2. What is the breakdown of planned issuance by maturity bucket 
-   (2Y, 5Y, 10Y, 20Y, 30Y, 40Y)?
-3. What is the Ministry of Finance (MoF) JGB auction calendar 
-   for April through June 2026?
-4. Has the Bank of Japan (BOJ) signaled any changes to its JGB 
-   purchase tapering plan in response to the larger budget?
-5. What percentage of JGB issuance is the BOJ currently absorbing 
-   through its purchasing program?
-6. What are analysts saying about the impact of increased JGB 
-   supply on long-end yields (20Y, 30Y)? Any specific yield 
-   forecasts for Q2-Q3 2026?
-7. How is the market pricing the combination of Takaichi's fiscal 
-   expansion and BOJ monetary policy — any notable moves in JGB 
-   futures or USD/JPY forward rates?
-
-USD/JPY is currently around 158.60 and JGB 10Y yield is approximately 
-2.22%. Cite sources with dates.
-```
-
----
-
 ### MFS (Motor Finance Specialist UK) Fraud — Full Exposure Map
-**Priority:** 🟠 | **Routes to:** OTTO, BROCK
+**Routes to:** OTTO, BROCK
 ```
 Provide a comprehensive map of financial institution exposure to the 
 MFS (Motor Finance Specialist) fraud in the United Kingdom, which 
@@ -366,8 +267,39 @@ significant cross-border financial institution exposure.
 
 ---
 
+### Japan FY2026 Budget and JGB Issuance Schedule
+**Routes to:** SAM, ZHAO
+```
+Japan's new Prime Minister Sanae Takaichi passed a ¥122 trillion 
+FY2026 budget, the largest in Japanese history, with an LDP 
+supermajority in the Diet. Provide details on:
+
+1. What is the total planned Japanese Government Bond (JGB) 
+   issuance for FY2026 (April 2026 - March 2027)? How does this 
+   compare to FY2025?
+2. What is the breakdown of planned issuance by maturity bucket 
+   (2Y, 5Y, 10Y, 20Y, 30Y, 40Y)?
+3. What is the Ministry of Finance (MoF) JGB auction calendar 
+   for April through June 2026?
+4. Has the Bank of Japan (BOJ) signaled any changes to its JGB 
+   purchase tapering plan in response to the larger budget?
+5. What percentage of JGB issuance is the BOJ currently absorbing 
+   through its purchasing program?
+6. What are analysts saying about the impact of increased JGB 
+   supply on long-end yields (20Y, 30Y)? Any specific yield 
+   forecasts for Q2-Q3 2026?
+7. How is the market pricing the combination of Takaichi's fiscal 
+   expansion and BOJ monetary policy — any notable moves in JGB 
+   futures or USD/JPY forward rates?
+
+USD/JPY is currently around 158.60 and JGB 10Y yield is approximately 
+2.22%. Cite sources with dates.
+```
+
+---
+
 ### Senate DHS Funding Vote — March 9 Outcome
-**Priority:** 🟠 | **Routes to:** MARCO, LABOR
+**Routes to:** MARCO, LABOR
 ```
 What was the outcome of the US Senate vote on Department of Homeland 
 Security (DHS) funding on March 9, 2026? This was reportedly the 
@@ -390,165 +322,67 @@ Security (DHS) funding on March 9, 2026? This was reportedly the
    without pay?
 
 Cite sources with dates. The DHS shutdown has been ongoing since 
-approximately February 14, 2026.
+approximately February 2026.
 ```
 
 ---
 
-### Experian Q4 2025 Auto Lending — Full Breakdown
-**Priority:** 🟡 | **Routes to:** CARL, OTTO
+## 🟡 Lower Priority
+
+### Google Trends — Labor Search Terms
+**⚠️ WILL MUST DO MANUALLY** — LLMs cannot access real-time Google Trends data.
+**Routes to:** LABOR
 ```
-Experian published its Q4 2025 State of the Automotive Finance Market 
-report around March 5, 2026. Provide the complete data breakdown:
+Go to Google Trends (trends.google.com) and look up US search interest 
+(past 90 days) for these terms:
 
-1. Subprime share of total vehicle financing for Q4 2025, broken 
-   out by new vehicles and used vehicles separately
-2. Delinquency rates by credit tier: 30-day, 60-day, and 90-day 
-   for subprime, near-prime, prime, and super-prime
-3. Average loan amount and average loan term by credit tier 
-   (new and used)
-4. Percentage of loans with negative equity at origination
-5. Year-over-year change for each of the above metrics compared 
-   to Q4 2024
-6. Quarter-over-quarter change compared to Q3 2025
-7. Any Experian commentary on outlook for 2026
-8. Average monthly payment by credit tier
-9. Repossession trends — any data on volume or rate changes
+1. "unemployment benefits"
+2. "file for unemployment"
+3. "laid off"
+4. "severance package"
+5. "hiring freeze"
+6. "food stamps" / "SNAP benefits"
+7. "job openings near me"
 
-Compare key metrics to Q3 2025 and Q4 2024 to show the trend 
-direction. Cite the Experian report directly where possible.
+For each: current week's index (0-100), 4-week average, 90-day trend 
+(rising/flat/declining), any spikes in the past 30 days. Compare to the 
+same period in 2025 and 2024 if possible. Flag any breakout patterns.
 ```
 
 ---
 
-### ✅ Russia Sanctions Easing — Global Supply Impact — COMPLETED
-**Completed:** Mar 9 via Perplexity + Kimi. Net new supply 300-500K bpd over months. 70-80% relabeling. Russia at zero spare capacity. Crash is technical, not fundamental. Signal routed to HAWK.
-**Routes to:** HAWK, HENRY
-
----
-
-### ✅ Oil Shock Historical Timelines — 1973-74 & 1979-80 — COMPLETED
-**Completed:** Mar 9 via ChatGPT + Perplexity + Gemini. 1979-80 is the template. Staircase with 15-20% pullbacks. Second leg to $120-130 base case. Credit spreads lag 5-14mo. Routed to HENRY, HAWK, FORGE.
-**Priority:** 🔴 | **Routes to:** HENRY, HAWK, FORGE
+### Subprime Auto ABS Performance Data
+**Routes to:** CARL, OTTO
 ```
-Walk me through the granular timeline of the 1973-74 Arab Oil Embargo 
-and 1979-80 Iranian Revolution oil shocks. I need the INTRA-CRISIS 
-price action, not just start-to-finish returns.
+Provide the most recent auto loan asset-backed securities (ABS) 
+performance data, likely from January or February 2026 remittance 
+reports:
 
-For each episode:
+1. Subprime auto 60+ day delinquency rate — Fitch composite index 
+   or S&P tracking. What is the current level and YoY change?
+2. Prime auto 60+ day delinquency rate for comparison
+3. Subprime auto ABS annualized net loss rate — current vs 6 and 
+   12 months ago
+4. Recovery rates on repossessed vehicles — current level vs 12 
+   months ago. Are recoveries improving or declining?
+5. Have any new subprime auto ABS deals been priced in February 
+   or March 2026? If so, what were the subordination levels 
+   compared to 2024 and 2025 vintage deals?
+6. Are there any specific ABS trusts (particularly those backed 
+   by Carvana/DriveTime originations) with recent trustee reports 
+   or rating actions?
+7. What is the current average auto loan term for new subprime 
+   originations, and what percentage of new loans have negative 
+   equity at origination?
 
-1. What was the initial price spike — date, magnitude, and trigger?
-
-2. Were there violent intraday or intra-week pullbacks DURING the 
-   crisis? If so, what caused them (diplomatic signals, SPR releases, 
-   demand destruction headlines, short squeezes unwinding)? What was 
-   the magnitude and how long before prices resumed climbing?
-
-3. What was the full timeline from initial spike to ultimate peak? 
-   How many months? Was it a straight line or a staircase pattern 
-   (spike → pullback → grind higher → spike again)?
-
-4. What happened to US equities (S&P 500/Dow) at each stage? 
-   Specifically:
-   a) During the initial oil spike
-   b) During mid-crisis oil pullbacks (did stocks rally?)
-   c) During the second leg higher in oil
-   d) The lag between oil peak and equity bottom
-
-5. What happened to US Treasury yields / bond prices at each stage?
-   Did bonds act as a safe haven or sell off (stagflation)?
-
-6. What happened to credit spreads (corporate bonds vs Treasuries)?
-   When did credit stress emerge relative to the oil shock — 
-   concurrent, lagging by weeks, or lagging by months?
-
-7. What happened to airline stocks specifically during each episode?
-   Any data on major carrier stock performance during the 1973-74 
-   and 1979-80 oil shocks?
-
-8. What happened to fertilizer/agricultural commodity prices during 
-   each episode? Was there a transmission lag from oil to food?
-
-9. How did each crisis END — what was the resolution catalyst, and 
-   how fast did oil prices retrace? Was the retracement gradual or 
-   a cliff?
-
-10. For the current March 2026 Iran/Hormuz crisis: based on these 
-    historical patterns, where are we in the typical oil shock 
-    timeline? If the pattern holds, what comes next — and over 
-    what timeframe?
-
-Focus on the SHAPE of the price action, not just the endpoints. 
-I'm trying to determine whether the March 9, 2026 intraday crash 
-(from ~$119 to $84, -30%) fits the mid-crisis pullback pattern 
-that occurred in previous oil shocks before the second leg higher.
-
-Cite sources with dates. Use specific price levels and dates 
-wherever possible.
-```
-
----
-
-### ✅ Nitrogen Fertilizer Supply Mechanics — Gulf Dependency & CF Industries — COMPLETED
-**Completed:** Mar 10 via Kimi + Deep Research doc. 2-source verified. CF at 95-99% utilization, $800M EBITDA per $50/ton urea. Urea +27-34% in 10 days. System capacity-constrained. Entry ready.
-**Priority:** 🔴 | **Routes to:** HAWK, CARL
-**Best LLMs:** ChatGPT (sector depth), Perplexity (sourcing)
-**Why we need this:** CF $115C May entry pending. Don't understand production mechanics — can CF ramp (capacity-constrained = bigger price spike) or not (earnings story better but call thesis weaker)?
-```
-How does nitrogen fertilizer supply work when the Strait of Hormuz 
-is closed? I need the mechanical details, not just headlines.
-
-1. What percentage of global nitrogen fertilizer (urea, ammonia) 
-   production uses natural gas as feedstock? What is the cost 
-   relationship between natural gas prices and fertilizer prices?
-
-2. Gulf states (Qatar, Saudi, UAE, Oman, Iran) — what is their 
-   combined share of global urea and ammonia EXPORTS? Break down 
-   by country.
-
-3. With Hormuz closed since ~March 1 2026, how much nitrogen 
-   fertilizer capacity is physically stranded behind the strait?
-   Can any Gulf producers export via alternative routes (pipelines, 
-   Red Sea)?
-
-4. CF Industries specifically:
-   a) What is their total nitrogen production capacity (tons/year)?
-   b) What feedstock do they use and where does it come from?
-   c) Are they currently running at full capacity or do they have 
-      room to ramp?
-   d) What is their cost advantage vs Gulf producers in a high 
-      natural gas price environment?
-   e) How much does CF's earnings/share improve for every $50/ton 
-      increase in urea price?
-
-5. Can non-Gulf producers (CF, Nutrien, Yara, OCI) actually fill 
-   the gap if Gulf exports are offline for weeks/months? Or is the 
-   global system capacity-constrained?
-
-6. What is the timeline pressure? Northern Hemisphere spring 
-   planting requires fertilizer application by when? If fertilizer 
-   isn't available by [date], what happens to crop yields?
-
-7. What happened to CF Industries stock and earnings during the 
-   2022 Russia-Ukraine fertilizer disruption? What were urea prices 
-   then vs now? What was CF's stock price trajectory from Feb-Jun 
-   2022?
-
-8. Current urea spot prices (US Gulf, Middle East, Yuzhny) — 
-   current level vs pre-Hormuz (late Feb 2026). Percentage change.
-
-Cite sources with dates. I'm evaluating a CF Industries $115 call 
-option and need to understand the supply chain mechanics, not just 
-the headline narrative.
+Fitch reported subprime auto 60+ day delinquencies hit all-time 
+record ~7.1% in early 2026. Need trend trajectory.
 ```
 
 ---
 
 ### Tanker Rates vs Crude Oil Price — Historical Relationship
-**Priority:** 🟠 | **Routes to:** LIQUID, HAWK
-**Status:** NOT YET STARTED
-**Best LLMs:** Perplexity (sourced data), ChatGPT (sector)
-**Why we need this:** Own STNG (2 shares). WTI just crashed 30% but Hormuz is still closed. Need to know if tanker equities follow crude price (sentiment) or freight rates (fundamentals).
+**Routes to:** LIQUID, HAWK
 ```
 What happens to tanker rates and shipping stocks when crude oil 
 price crashes but physical supply disruption continues?
@@ -595,10 +429,7 @@ Cite sources with dates.
 ---
 
 ### US Military Seizure of International Strait — Historical Precedents
-**Priority:** 🟡 | **Routes to:** HANS, HAWK
-**Status:** NOT YET STARTED
-**Best LLMs:** All four — novel question, want diverse perspectives
-**Why we need this:** Trump/CBS headline about "considering taking over the Strait of Hormuz" is being ignored due to oil crash. Could be the most consequential signal in the batch if real.
+**Routes to:** HANS, HAWK
 ```
 What are the historical precedents for a US president publicly 
 considering or executing military seizure/control of an 
@@ -639,88 +470,31 @@ international maritime chokepoint?
 7. How would China, Russia, and regional powers (Saudi, UAE, 
    Turkey) react to US physical control of Hormuz?
 
-Cite sources with dates. This headline is getting buried by 
-today's oil crash but may be the most consequential signal of 
-the week.
+Cite sources with dates.
 ```
 
 ---
 
-### Cheniere Energy (LNG) — Margin Sensitivity & Hedging Structure
-**Priority:** 🔴 | **Routes to:** HAWK, FORGE
-**Status:** NOT YET STARTED
-**Best LLMs:** ChatGPT (sector depth), Perplexity (sourcing)
-**Why we need this:** LNG $270C/$300C May spread is #5 conviction at 4/5. We did the CF-level deep dive on fertilizer but have NOT done the equivalent for Cheniere. Don't know their hedging book, margin sensitivity per $1 TTF move, or how much is already priced in.
+### Experian Q4 2025 Auto Lending — Full Breakdown
+**Routes to:** CARL, OTTO
 ```
-Cheniere Energy (ticker: LNG) is the largest US LNG exporter. With 
-the Strait of Hormuz closed since March 1, 2026, Qatar LNG offline, 
-and TTF gas prices up 74%, analyze Cheniere's investment case:
+Experian published its Q4 2025 State of the Automotive Finance Market 
+report around March 5, 2026. Provide the complete data breakdown:
 
-1. What is Cheniere's current LNG export capacity (mtpa and 
-   bcf/d)? How does this compare to total US LNG export capacity?
-2. What percentage of Cheniere's contracts are long-term 
-   fixed-price vs spot/short-term? This is critical — how much 
-   of a TTF spike actually flows to their bottom line?
-3. For the SPOT-EXPOSED portion: what is the approximate earnings 
-   sensitivity per $1/MMBtu increase in the TTF-Henry Hub spread?
-4. Current TTF price vs Henry Hub — what is the current spread? 
-   How does this compare to the 2022 peak spread during 
-   Russia-Ukraine?
-5. What happened to Cheniere's stock price and earnings during 
-   the 2022 Russia-Ukraine LNG crisis? Stock went from ~$100 to 
-   ~$180 — what was the earnings trajectory that drove that move?
-6. Current analyst consensus: EPS estimates, price targets, and 
-   how stale are they (pre- or post-Hormuz closure)?
-7. Cheniere's Sabine Pass and Corpus Christi terminals — are they 
-   running at full capacity? Any expansion projects coming online 
-   in 2026?
-8. Who are Cheniere's main competitors for spot LNG cargoes? 
-   (Shell, TotalEnergies, BP trading desks?)
-9. What is the bear case? If China secures a side-deal with Iran 
-   for Qatar LNG safe passage, or if Hormuz reopens in 4-6 weeks, 
-   how quickly does the LNG premium deflate?
-10. Current LNG stock price is ~$245. Options IV levels — are 
-    call premiums bloated or still reasonable?
+1. Subprime share of total vehicle financing for Q4 2025, broken 
+   out by new vehicles and used vehicles separately
+2. Delinquency rates by credit tier: 30-day, 60-day, and 90-day 
+   for subprime, near-prime, prime, and super-prime
+3. Average loan amount and average loan term by credit tier 
+   (new and used)
+4. Percentage of loans with negative equity at origination
+5. Year-over-year change for each of the above metrics compared 
+   to Q4 2024
+6. Quarter-over-quarter change compared to Q3 2025
+7. Any Experian commentary on outlook for 2026
+8. Average monthly payment by credit tier
+9. Repossession trends — any data on volume or rate changes
 
-Cite sources with dates. I'm evaluating a May $270C/$300C call 
-spread and need to understand how much of the thesis is already 
-priced into the stock at $245.
+Compare key metrics to Q3 2025 and Q4 2024 to show the trend 
+direction. Cite the Experian report directly where possible.
 ```
-
----
-
-### Iran Off-Ramp / Hormuz Seizure Analysis
-**Priority:** 🔴 | **Routes to:** HANS, HAWK
-**Status:** ✅ COMPLETED Mar 10
-**Completed:** 4-source synthesis (ChatGPT + Gemini + Perplexity + Kimi). Consensus: 15% under 30d, 45% gradual 2-3mo, 35% extended 6+mo. Active mining confirmed. Mojtaba family killed = revenge variable. Routed to HANS + HAWK inboxes.
-
----
-
-## Completed
-
-### Hormuz Resolution Oil Reversal Analogs (Mar 9)
-Gemini deep research doc. 5 historical analogs (1991 Gulf War, 2003 Iraq, 2011 Libya, 2019 Abqaiq, 2022 Russia). 18 signal files routed to 11 agents.
-
-### UCFE Mechanics / March 12 Claims Framework (Mar 9)
-Gemini deep research doc. Federal unemployment claims plumbing, SF-50 bottleneck, 126-160K suppressed backlog estimate, 3 scenarios for March 12.
-
-### Bank Forced Disclosure / 8-K Pre-Announcement Framework (Mar 9)
-Gemini deep research doc. 2008 + 2023 patterns, FDIC Call Report indicator hierarchy, OZK watch window Mar 25-Apr 10.
-
-### Tech Goods Deflation / TSMC Dependency (Mar 9)
-Gemini deep research doc. Core PCE relief valve math, hedonic reversal mechanism, 3 TSMC disruption scenarios.
-
-### DHS Shutdown Status Verification (Mar 9)
-Perplexity + Gemini. CONFIRMED ONGOING Day 23+. Senate blocked 51-45.
-
-### Indeed Job Postings (Mar 9)
-4 LLMs cross-verified. Index 104.7 (FRED-confirmed), -5.9% YoY.
-
-### Cass Freight Index (Mar 9)
-4 LLMs cross-verified. Shipments 0.886 = new cycle low, -7.1% YoY, 36th consecutive decline.
-
-### Continuing Claims + JOLTS (Mar 9)
-3 LLMs cross-verified. 213K initial, 1,868K continuing (+46K WoW), JOLTS Jan not yet released (Mar 13).
-
-### PSEC PIK Verification (Mar 9)
-4 LLMs. 35% figure CONFIRMED POISONED. Actual 8.6%.
