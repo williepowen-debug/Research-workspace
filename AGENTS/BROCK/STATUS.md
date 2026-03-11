@@ -1,7 +1,7 @@
 # BROCK STATUS — Private Credit / Alt Assets / PE / ILS
 
-**Last context:** Mar 11 AM open. **CPI Feb print released this morning: +0.3% MoM (+2.4% YoY), core +0.2%** — slightly warm, no panic relief. Apollo announced daily NAV valuations for private credit funds (defensive PR, signals pressure). BlackRock HLEND gate aftermath still reverberating. Cliffwater $33B fund at 7%+ redemptions. KKR/APO shares down ~30% YTD. Mainstream narrative fully formed. Window closing.
-**Last updated:** 2026-03-11 AM (BROCK subagent)
+**Last context:** Mar 11 EOD. **JPMorgan marked down software loan collateral for private credit back-leverage facilities and restricted new lending** — STAGE 2 BANK TRANSMISSION ACTIVATED. PIMCO published "sloppy underwriting reckoning" note (Bloomberg). Sector-wide selloff: ARES -6.2%, OWL -5.2%, APO -4.1%, KKR -3.5%, BX -3.2%. $12.7B BDC unsecured debt matures 2026 (+73% YoY). Blue Owl July 2026 debt obligations flagged as bellwether.
+**Last updated:** 2026-03-11 EOD (BROCK subagent)
 
 ---
 
@@ -44,7 +44,7 @@
 | Default Rates | 🟠 (3) | Fitch 5.8% reported; UBS 15% worst-case; shadow ~7% | Q1 earnings confirming >8% | Mar 4 |
 | Athene/Insurance | 🔴 (5) | $442B, 48% illiquid, $9B CRE absorbed, RBC 412%. **Blue Owl now confirmed same playbook** (OBDC2 → Kuvari Insurance, $595M at par). Two-firm confirmation of captive insurance as bad bank. | RBC filing revision; Kuvari regulatory scrutiny; SEC inquiry | Mar 10 |
 | Software Marks | 🟠 (3) | 40% of sponsor-backed loans; AI disruption eroding SaaS moats | Q1 markdowns in PE reports | Mar 4 |
-| Bank Warehouse Lines | 🔴 (5) | **$4.2T total NDFI exposure (Whalen/FDIC)**: $1.4T outstanding (+35% YOY) + $2.8T undrawn. Atlas SP double default. WAL sued Jefferies $126.4M. Transmission via litigation + warehouse defaults now. | BDC revolver draws spike; NDFI undrawn $2.8T = loaded gun | Mar 10 |
+| Bank Warehouse Lines | 🔴 (5) | **$4.2T total NDFI exposure (Whalen/FDIC)**: $1.4T outstanding (+35% YOY) + $2.8T undrawn. Atlas SP double default. WAL sued Jefferies $126.4M. **JPMorgan Mar 11: marked down software loan collateral for private credit back-leverage, restricting borrowing capacity — first major bank action on the transmission channel.** | BDC revolver draws spike; NDFI undrawn $2.8T = loaded gun; JPM now firing | Mar 11 EOD |
 | Regulatory Action | 🟡 (2) | SEC 2026 exam expected; no enforcement yet | Any enforcement action filed | Mar 5 |
 | Mainstream Narrative | 🔴 (5) | Reuters "alarm bells echo 2007 subprime" (Mar 10); Bloomberg "Private Creditors Taking Keys"; Motley Fool retail-protective; full consensus forming | Window closing FAST — hedge funds pricing it in | Mar 10 |
 
@@ -113,6 +113,11 @@
 | 2026 ongoing | SEC exam of illiquid retail products | 🟠 Regulatory wildcard |
 | TBD | Hormuz reopening or prolonged closure | 🟠 Reinsurance exposure clarity |
 | Mar 11 | **Iran declares banks/financial institutions as military targets** (DIFC, SAMA, CBB) | 🔴 NEW — See analysis below |
+| Mar 11 EOD | **JPMorgan marks down software loan collateral / restricts back-leverage lending to private credit funds** — first major bank to take this step. FT/Bloomberg/CNBC/Reuters all confirmed. "Remarking doesn't often occur" per Reuters source. | 🔴🔴 STAGE 2 ACTIVATION — bank transmission channel now live |
+| Mar 11 EOD | **PIMCO publishes "sloppy underwriting" reckoning note** (Bloomberg) — analysts Karoui + Cazaubieilh. Day-of confirmation of PIMCO president's verbal "reckoning" statement. | 🔴 Credibility cascade — world's largest bond manager officially on record |
+| Mar 11 EOD | **Sector selloff**: ARES -6.2%, OWL -5.2%, APO -4.1%, KKR -3.5%, BX -3.2% | 🔴 Alt asset manager equity pricing in stress |
+| Mar 11 EOD | **WSJ: "Blackstone, BlackRock Can Ride Out Storm"** — defensive narrative piece, not a counter-thesis | 🟠 Institutional narrative management — bullish pieces appear near bottoms OR near capitulation |
+| Mar 11 EOD | **$12.7B unsecured BDC debt matures 2026** (+73% vs 2025); Blue Owl July 2026 obligations flagged as sector bellwether | 🔴 Refinancing wall quantified |
 
 ---
 
@@ -201,4 +206,4 @@
 
 ## BOTTOM LINE
 
-**CASCADE CONFIRMED. Three events in five days.** HLEND gated Mar 6. Cliffwater 7%+ redemptions Mar 10. Blue Owl restrictions prior. $7.3B+ in visible active redemption stress across major funds. Whalen's FDIC data quantifies the transmission channel: $4.2T bank→NDFI exposure with $2.8T undrawn — a loaded gun. Atlas SP double default confirms warehouse channel is cracking, not just stressed. Blue Owl/Kuvari insurance stuffing (OBDC2, $595M) is the critical new data point: what we thought was APO-specific (Athene as bad bank) is an INDUSTRY PLAYBOOK. Two confirmed firms. Regulatory surface area doubled. Glenn Shore named it on Eisman's podcast. This broadens the thesis from "short APO" to "short the entire model." Eisman's own complacency on Ep 49 — dismissing fears while his guests describe first-ever SoFi CNL trigger, retail outflows, and "too hard bucket" allocation — is a contrarian signal that the short still has runway before consensus fully reprices. Q1 2026 earnings = mandatory disclosure. Convergence: 50/50.
+**⚠️ STAGE 2 BANK TRANSMISSION ACTIVATED — Mar 11, 2026. JPMorgan marked down private credit back-leverage collateral (software loans). The $4.2T loaded gun has fired its first shot. CASCADE CONFIRMED. Three events in five days.** HLEND gated Mar 6. Cliffwater 7%+ redemptions Mar 10. Blue Owl restrictions prior. $7.3B+ in visible active redemption stress across major funds. Whalen's FDIC data quantifies the transmission channel: $4.2T bank→NDFI exposure with $2.8T undrawn — a loaded gun. Atlas SP double default confirms warehouse channel is cracking, not just stressed. Blue Owl/Kuvari insurance stuffing (OBDC2, $595M) is the critical new data point: what we thought was APO-specific (Athene as bad bank) is an INDUSTRY PLAYBOOK. Two confirmed firms. Regulatory surface area doubled. Glenn Shore named it on Eisman's podcast. This broadens the thesis from "short APO" to "short the entire model." Eisman's own complacency on Ep 49 — dismissing fears while his guests describe first-ever SoFi CNL trigger, retail outflows, and "too hard bucket" allocation — is a contrarian signal that the short still has runway before consensus fully reprices. Q1 2026 earnings = mandatory disclosure. Convergence: 50/50.

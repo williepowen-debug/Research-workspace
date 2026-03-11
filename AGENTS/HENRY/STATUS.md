@@ -1,5 +1,5 @@
 # HENRY STATUS
-**Last Updated:** 2026-03-11 17:31 UTC | **Status:** 🔴 OPEN DAY — WTI $86/BRENT $90.77 (+3.4%) DESPITE IEA 400MB HISTORIC RESERVE RELEASE. SPY ~FLAT (-0.2%). 10Y YIELD 4.16% EDGING HIGHER. CPI TOMORROW MAR 12 8:30 ET (65% HOT — PRE-POSITIONS TLT PUTS ACTIVE). HORMUZ CRISIS CONTINUES: US SANK 16 MINELAYERS, IEA EMERGENCY RESPONSE LARGEST IN HISTORY. FORMER ISRAELI AMBASSADOR: "WAR WON'T END IN FEW DAYS." USO IV=108. NIKKEI +1.5%, DAX -1%. GOLD $5,193.
+**Last Updated:** 2026-03-11 20:20 UTC | **Status:** 🔴 EOD MAR 11 — SPX 6,765 (-0.1%), DOW 47,316 (-390pts/-0.82%), NASDAQ 22,687 (+0.1%). 10Y YIELD 4.21% (UP +5bps — STAGFLATION SIGNAL: YIELDS RISING DESPITE IN-LINE CPI). VIX ~24.35 (ELEVATED). CPI PRINTED TODAY: 2.4% HEADLINE (+0.3% MoM) / 2.5% CORE (+0.2% MoM) — IN-LINE/SLIGHTLY COOL, NOT HOT. OUR 65% HOT PREDICTION = MISS. BUT OIL SHOCK HASN'T FLOWED THROUGH YET (FEB DATA). OIL: WTI ~$86/BRENT STILL ELEVATED. GOLD $5,187 (-$6). ORACLE +13.8% (AI CLOUD DEMAND INTACT). PPI TOMORROW MAR 12.
 
 ---
 
@@ -108,6 +108,19 @@ Market is derivatives-driven, dealer hedging dominates short-term dynamics.
 
 ---
 
+**Mar 11 EOD — WAR DAY 11 / CPI DAY:**
+- SPX 6,765 (~-0.1%). Dow 47,316 (-390pts, -0.82%). Nasdaq 22,687 (+0.1%). BIFURCATED: tech/AI up, industrials/consumer down.
+- 10Y yield: **4.21%** — UP from 4.16% (STATUS header). Yields RISING despite in-line CPI = stagflation signature intact. Market pricing oil-driven inflation lag, not rate cuts.
+- VIX: ~24.35-24.48 — elevated but below Mar 9 spike of 29.5. Not cascading yet.
+- Gold: $5,186.60 (-1.06%, -$6 from $5,193). Modest pullback — not a flight-from-safety signal, just profit-taking.
+- Oil: WTI ~$86/Brent elevated. Article confirms "rising oil prices" and "spring bulge in energy costs" cited as Dow/industrial drag. Oil rally resumed after Mar 10 relief.
+- **CPI RESULT:** Headline +0.3% MoM / **2.4% YoY**. Core +0.2% MoM / **2.5% YoY**. ROUGHLY IN-LINE vs 2.4%/2.5% consensus. **Our 65% hot prediction = MISS.** BUT: Feb data does NOT yet reflect Hormuz oil spike (gas prices +16% week of Mar 9). March CPI (Apr print) = the real test.
+- Oracle ORCL: +13.8% to all-time high. $1.79 EPS vs $1.70 est. OCI +84%. $553B RPO. AI cloud demand intact — short-term headwind to tech rot thesis.
+- NVDA: +1.4% (Nebius $2B investment). AI infrastructure narrative resists pressure.
+- **KEY SIGNAL:** Dow -0.82% vs Nasdaq +0.1% = tech/AI bifurcation sharpening. Classic stagflation dispersion — duration assets (real yields rising) hurt valuations differently than cash-flow-heavy tech.
+- PPI prints tomorrow Mar 12 (rescheduled from CPI expectation). Also weekly jobless claims.
+- Note: STATUS.md previously showed "CPI TOMORROW" — CPI actually printed today Mar 11.
+
 **Mar 10 EOD — WAR DAY 10 / CPI EVE:**
 - SPX 6,825.52 (+0.44%, +29.78pts). Market closed GREEN vs -0.3% futures this AM. Catalyst: WH de-escalation signals on Iran, oil -10%.
 - Dow 47,997.18 (+0.54%, +256.60pts). Nasdaq 22,840.95 (+0.64%).
@@ -146,14 +159,14 @@ Market is derivatives-driven, dealer hedging dominates short-term dynamics.
 
 | Indicator | Value | Source | Status |
 |-----------|-------|---------|--------|
-| SPX | **6,829.69** (−0.58%, −39.81pts Mar 6 CLOSE) | [CONF] StockMarketWatch Mar 6 | ⚠️ ABOVE 6,800 PUT WALL AT CLOSE. Delta vs Mar 5: +44pts. Market absorbed NFP shock. |
-| Dow | **48,097.16** (−1.32%, −642pts Mar 6) | [CONF] StockMarketWatch Mar 6 | 🔴 Industrials hardest hit. Delta vs Mar 5: −374pts. Dow underperformed SPX sharply. |
-| Nasdaq | **22,732.23** (−0.33% Mar 6) | [CONF] StockMarketWatch Mar 6 | 🟠 Semis rally (Marvell?) cushioned tech. Relatively resilient. |
+| SPX | **~6,765** (−0.1% Mar 11 CLOSE) | [CONF] StockMarketWatch Mar 11 | 🔴 BELOW put wall at 6,800. Dow dragging. Tech divergence. Delta vs Mar 10: −60pts. |
+| Dow | **47,316** (−0.82%, −390pts Mar 11) | [CONF] StockMarketWatch Mar 11 | 🔴 Industrial/consumer sectors hit by oil cost pass-through. Underperforming. |
+| Nasdaq | **22,687** (+0.1% Mar 11) | [CONF] StockMarketWatch Mar 11 | 🟠 Oracle +13.8%, NVDA +1.4% lifting AI names. Bifurcation deepening. |
 | IWM | **$260.67** | Mar 4 (stale — update pending) | Below all MAs. RSI ~50. Dead cat bounce from $248 low. |
 | VIX | **23.61** (Mar 6 CLOSE) | [CONF] Rio Times Mar 6 | ⚠️ SUBDUED vs 30-38 expectation. Elevated but not cascading. Vol-control selling threshold: ~23+. |
-| 10Y Yield | **4.13-4.17%** (Mar 6) | [CONF] Multiple sources Mar 6 | 🔴🔴 STAGFLATION SIGNAL: bonds SELLING on jobs miss. +9bps from 4.08%. No flight to safety. |
+| 10Y Yield | **4.21%** (Mar 11 CLOSE) | [CONF] StockMarketWatch Mar 11 | 🔴🔴 STAGFLATION SIGNAL: yields RISING even on in-line CPI. +5bps from Mar 10 (~4.16%). Oil lag = March CPI will be hotter. |
 | Brent Crude | **$92** (Mar 6 intraday high) | [CONF] FC Mar 6 article | 🔴🔴 +$2 from $90. $100 = "Fed forced to hold" narrative. Now 92% of the way there. |
-| Gold | **~$5,408** | [CONF] Mar 3 | 🔴 Hard assets bid, not duration |
+| Gold | **$5,187** | [CONF] Mar 11 | 🟠 Down -1.06% on CPI in-line result. Mild profit-taking. Still elevated. |
 | HY OAS | **297bps** (Mar 4 CONF) | [CONF] FRED CSV Mar 4. Sequence: 265→284→312→308→**297** (relief rally dip). Mar 5 data pending — selloff likely reverses. | 🟠 Floor rising but Mar 4 dipped 11bps |
 | MOVE | Rising | [EST] | 🟠→🔴 |
 | **NFP Feb** | **-92,000** (vs +55-65K consensus) | **FIRST NEGATIVE PRINT. Dec revised to -17K. 3-mo avg ~+6K/mo.** | 🔴🔴 RESOLUTION EVENT |
@@ -238,10 +251,10 @@ Next: **NFP Mar 6** (HEN-01: 70% <100K) | CPI Mar 11 | PCE Mar 13 | FOMC Mar 17-
 ## WHAT TO WATCH
 
 ### ⚡ IMMEDIATE (This Week)
-1. **CPI Wednesday 8:30 AM ET** — Consensus 2.4% headline / 2.5% core. Our model: 65% hot print above consensus. If hot: stagflation lock tightens, Fed boxed, TLT puts confirmed, VIX likely re-spikes above 29.5. If cool: relief rally, de-escalation narrative dominates, oil retreat + soft CPI = Fed cut path opens → trim TLT puts risk. 1970s analog: CPI at 1979 re-acceleration inflection (CPI overlay chart circulating X).
-2. **Claims Thursday** — Watch absolute level vs 213K (Feb 28 wk). Any spike toward 230K+ = labor deterioration accelerating post-NFP -92K. Context: NFP -92K means we're in attrition cliff territory (FLOW-HEN-017). Rising claims here would confirm cliff-drop activation.
-3. **VIX 25/35 call spread** — Repricing post-29.5 spike. Recalculate cost before market open Wednesday.
-4. **HYG timing review** — Oil shock credit lag (3-14mo historical) suggests Jun puts may be too early. Assess roll to Sep/Dec after CPI.
+1. ~~**CPI Wednesday 8:30 AM ET**~~ **✅ RESOLVED MAR 11** — Headline 2.4% (+0.3% MoM), Core 2.5% (+0.2% MoM). IN-LINE, slightly cool. Our 65% hot model = miss. BUT: Feb data pre-dates Hormuz oil spike. March CPI (Apr print) = real test. Oil now flowing through to gas prices — expect March to be hotter. TLT puts: yields ROSE to 4.21% anyway → thesis intact via oil lag mechanism, not current print.
+2. **PPI + Claims Thursday Mar 12** — PPI will start showing oil input costs. Claims: watch vs 213K (Feb 28 wk). Spike toward 230K+ = labor cliff. Oil-driven cost squeeze now the dominant CPI path — PPI = forward signal.
+3. **VIX 25/35 call spread** — VIX ~24.35. Slightly below the 25 strike. Watch for reversal on hot PPI or claims spike.
+4. **HYG timing review** — Oil lag thesis now MORE compelling after today. Feb CPI didn't show Hormuz. Jun puts may still be early. Roll to Sep/Dec stronger case now.
 
 ### Ongoing
 5. **HY OAS** — Floor rising (265 Jan → 284 Feb → 308 Mar 3). Break 320 = LIQ-01 achieved.

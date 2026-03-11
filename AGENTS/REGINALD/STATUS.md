@@ -1,5 +1,72 @@
 # REGINALD STATUS
-**Last Updated:** 2026-03-11 17:35 UTC | **Status:** 🔴🔴🔴 CRITICAL — JPMorgan marking down private credit collateral (software loans) + restricting back-leverage TODAY. Private credit redemption cascade accelerating (BCRED 7.9% redemptions, Blue Owl gate-adjacent). Hormuz shipping halt confirmed (cargo ships hit). OZK short thesis published by Temple 8 Capital. Five converging stress vectors active simultaneously. See MAR 10 LATE SIGNAL section + MAR 11 AM UPDATE below.
+**Last Updated:** 2026-03-11 20:30 UTC | **Status:** 🔴🔴🔴 CRITICAL — CPI PRINTED TODAY (in-line 2.4%/2.5% core — not hawkish, but Hormuz oil +4% despite IEA reserve release overwhelms Fed cut hope). PIMCO publicly calls private credit "reckoning." MFS shortfall escalated to $1.8B. Iran IRGC threatens $200 oil. All stress vectors active. See MAR 11 EOD UPDATE below.
+
+## 🚨 MAR 11 EOD UPDATE — CPI IN-LINE + PIMCO RECKONING + MFS ESCALATION + OIL STRUCTURAL
+
+**Filed:** 2026-03-11 20:30 UTC
+
+### DELTA vs Prior STATUS
+
+| Item | Prior Status | Today | Change |
+|------|-------------|-------|--------|
+| CPI | "Tomorrow Mar 12" | **PRINTED TODAY — 2.4% headline, 2.5% core YoY — in-line** | BIG DELTA: no hawkish surprise, but oil negates any cut narrative |
+| MFS shortfall | £400M write-off (BROCK flag) | **$1.8B total creditor shortfall — UK court filings confirm** | ESCALATED 4x+ |
+| Private credit narrative | Institutional stress known | **PIMCO president: "reckoning going on RIGHT NOW — bad underwriting"** | THRESHOLD CROSSED: narrative shift going mainstream |
+| Oil | $91.70 verbal de-escalation | **+4% today to ~$95+ despite 32-country IEA reserve release** | STRUCTURAL: market ignoring coordinated intervention |
+| Iran IRGC | Hormuz threat | **Explicit "$200 oil" threat; "not a litre will pass"** | ESCALATION |
+| OZK | ~$45.5 declining | **+4.8% premarket on CPI hope — likely short covering** | Watch: thesis unchanged, Apr 16 detonator |
+| DA Davidson / WAL | Coverage monitoring | **PT cut $105 → $93 (Mar 10); UBS maintained Buy** | Analyst community repricing |
+| CRE distress rate | ~12% | **CRED iQ Feb: 11.63% (down from 11.98% Jan cycle high)** | Minor counter-signal — they project 11-12.5% through mid-year |
+| Market close | — | **Dow -390 (-0.82%), S&P -0.1% ~6,765, Nasdaq +0.1%** | Banks/industrials down; tech resilient |
+
+### Signal 1: CPI Feb 2026 — In-Line, But Hormuz Negates Relief
+- Headline CPI: +2.4% YoY, +0.3% MoM — matching expectations
+- Core CPI: +2.5% YoY, +0.2% MoM — in-line
+- **Feb data does NOT yet capture Hormuz oil spike** — CNBC analysts: if war continues, CPI hits 3.5%+ by end of year
+- Market reaction: muted relief → oil +4% same day demolished any "Fed can cut" narrative
+- **Thesis impact:** Fed STILL paralyzed. CPI in-line removes hawkish surprise risk but Hormuz makes cuts impossible. NIM relief window remains shut. Next CPI (Apr 10) will capture oil shock — that's the dangerous print.
+
+### Signal 2: PIMCO — "Reckoning Going On RIGHT NOW" (Narrative Threshold Crossed)
+- Christian Stracke, PIMCO president: **"There is a reckoning going on right now — bad underwriting in general, and very sloppy attention to detail in particular"**
+- Published Mar 11 via Bloomberg, Yahoo Finance, Seeking Alpha — this is MAINSTREAM coverage
+- BLK -2.64% on the news
+- **Why this matters:** PIMCO calling it publicly means: (a) institutional money is now positioned against private credit, (b) the narrative is mainstream — consensus catching up to our thesis, (c) this will trigger more redemptions as LPs read the Bloomberg headline. We were here months ago.
+- Cross-reference: TCPC fraud, BCRED redemptions, Blue Owl gated, JPM markdowns — PIMCO is validating the full chain
+
+### Signal 3: MFS Shortfall = $1.8B (UK Court Filings — Escalation)
+- Reuters Mar 10: UK court filings show MFS creditors face £1.3B+ ($1.75-1.8B) shortfall
+- Cause: double-pledging of collateral + loans to connected borrowers
+- **BROCK previously flagged £400M private credit write-off — actual court-confirmed shortfall is 4x larger**
+- Implication for our thesis: the MFS fraud chain (Barclays £600M, Jefferies, Elliott £200M, Apollo/Atlas, SMBC, Macquarie) is now a CONFIRMED £1.3B+ hole, not a rumored write-off
+
+### Signal 4: Oil — Structural Confirmation (+4% Despite IEA Emergency Release)
+- 32 countries coordinated IEA strategic reserve release → oil rose anyway (+4%)
+- Iran IRGC explicit threat: "not a litre of oil will pass Hormuz — expect $200"
+- US gas prices up 11th consecutive day
+- **Structural read:** When coordinated geopolitical intervention fails to move the price, you're in a supply regime change, not a war premium. $200 threat = tail risk that would break every credit model.
+- For bank thesis: energy costs → CRE operating expenses → NOI compression → collateral value reduction — all accelerating
+
+### Signal 5: CRE Distress Rate — Minor Counter-Signal
+- CRED iQ Feb: 11.63% overall distress (delinquent + specially serviced)
+- Down from 11.98% Jan cycle high; delinquency 9.31% (down from 9.4%)
+- CRED iQ projects: **11-12.5% through mid-year** — no trend reversal called
+- Delinquency is still 3x July 2022 levels
+- **Assessment:** One month's slight retreat does NOT invalidate thesis. CRED iQ themselves say it's not a trend. The specially serviced rate maturation (old loans resolving or failing) is actually the loan loss crystallization event.
+
+### Signal 6: Philly Centre Square — Moody's Downgrade
+- $368M loan on 1.76M sq ft office property in Philadelphia
+- Moody's increased expected loss estimates → downgrade
+- Pattern: Chicago precedent → now Philadelphia. Regional contagion visible in CMBS ratings.
+
+### Today's Position Assessment
+| Position | Signal | Assessment |
+|----------|--------|-----------|
+| WAL Sep $70P | DA Davidson cut to $93; UBS Buy = fade | Hold — thesis intact, Cantor appraisals + Q1 marks upcoming |
+| KRE puts | Market down -0.82% today; banks hit | Active — monitor expiry |
+| OZK Aug $42.5P | +4.8% premarket = short covering on CPI hope | Hold — Apr 16 detonator 36 days. Thesis unchanged. |
+| HYG Jun $75P | Oil +4%, banks -0.82% | HENRY to confirm HY OAS level — approaching threshold |
+
+---
 
 ## 🚨 MAR 11 AM UPDATE — PRIVATE CREDIT CASCADE + HORMUZ ESCALATION
 
