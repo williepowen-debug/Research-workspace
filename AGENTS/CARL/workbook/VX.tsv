@@ -44,12 +44,12 @@ VX-CARL-ABS-04	ABS CC Vintage Quality (Discover)	PENDING	PENDING	<1.0x	1.2-1.5x	
 VX-CARL-ABS-05	ABS CC Payment Rate (Cap One)	PENDING	PENDING	>24%	18-20%	15-18%	<15%	2026-02-11	EDGAR 10-D	Prime/subprime mix
 VX-CARL-ABS-06	ABS CC 30+ DQ (Cap One)	PENDING	PENDING	<3%	4-5%	5-7%	>7%	2026-02-11	EDGAR 10-D	Monthly tracking
 VX-CARL-ABS-07	ABS CC Charge-off (Cap One)	PENDING	PENDING	<4%	5-7%	7-10%	>10%	2026-02-11	EDGAR 10-D	Annualized
-VX-CARL-ABS-08	ABS Auto Payment Rate (Santander)	PENDING	PENDING	>5%	3.5-4%	3-3.5%	<3%	2026-02-11	EDGAR 10-D	Subprime auto bellwether
-VX-CARL-ABS-09	ABS Auto 30+ DQ (Santander)	PENDING	PENDING	<8%	10-12%	12-15%	>15%	2026-02-11	EDGAR 10-D	Subprime threshold
-VX-CARL-ABS-10	ABS Auto Charge-off (Santander)	PENDING	PENDING	<6%	8-10%	10-12%	>12%	2026-02-11	EDGAR 10-D	Subprime auto stress
+VX-CARL-ABS-08	ABS Auto Payment Rate (Santander)	PENDING	PENDING	>5%	3.5-4%	3-3.5%	<3%	2026-02-11	EDGAR 10-D	Subprime auto bellwether. ⚠️ FRAUD CONTEXT: Santander settled $550M (2020) for knowingly funding "fraud dealers" — falsified income, high-risk dealers continued for volume. Loans packaged into ABS. Same pattern sources say re-emerging. Baseline needed URGENT.
+VX-CARL-ABS-09	ABS Auto 30+ DQ (Santander)	PENDING	PENDING	<8%	10-12%	12-15%	>15%	2026-02-11	EDGAR 10-D	Subprime threshold. ⚠️ FRAUD CONTEXT: Santander known history of fraud dealer origination packaged into ABS. If originate-to-distribute fraud re-emerging (sources Mar 10), pool quality worse than reported. DQ will surface AFTER charge-off accelerates.
+VX-CARL-ABS-10	ABS Auto Charge-off (Santander)	PENDING	PENDING	<6%	8-10%	10-12%	>12%	2026-02-11	EDGAR 10-D	Subprime auto stress. ⚠️ FRAUD CONTEXT: Unicus Research (Mar 10): same fraud architecture (double-pledging, income falsification) as pre-GFC. Originate-to-distribute = originator has no long-term exposure to pool quality. Charge-offs may lead DQ as fraud loans skip delinquency stages.
 VX-CARL-ABS-11	ABS Auto 30+ DQ (Exeter)	PENDING	PENDING	<10%	12-15%	15-18%	>18%	2026-02-11	EDGAR 10-D	Deep subprime — S&P elevated loss
 VX-CARL-ABS-12	ABS Auto Payment Rate (Ally)	PENDING	PENDING	>5.5%	4-5%	3.5-4%	<3.5%	2026-02-11	EDGAR 10-D	Prime/near-prime comparison
-VX-CARL-ABS-13	ABS Cross-Trust Divergence	PENDING	PENDING	<0.5pp	<1pp	1-2pp	>2pp	2026-02-11	Multiple trusts	Signal dispersion
+VX-CARL-ABS-13	ABS Cross-Trust Divergence	PENDING	PENDING	<0.5pp	<1pp	1-2pp	>2pp	2026-02-11	Multiple trusts	Signal dispersion. ⚠️ STRUCTURAL: Originate-to-distribute fraud creates divergence BETWEEN trusts by originator quality — trusts from fraud-prone dealers will diverge from clean-origination pools. This metric becomes fraud detection, not just stress tracking.
 VX-CARL-ABS-14	ABS vs NY Fed DQ Divergence	PENDING	PENDING	<0.3pp	<0.5pp	0.5-1pp	>1pp	2026-02-11	ABS vs NY Fed	Early warning confirmation
 VX-CARL-ABS-15	Subprime Auto 60+ DQ (ABS)	7.1%	RED-BREACHED	<3%	>5%	>6%	>7%	2026-03-04	Fitch ABS Feb 2026	⚠️ BREACHED. Duplicate of 1.04 — consolidate on next refresh.
 VX-CARL-FC-01	National Foreclosures (Qtr)	58,140	ORANGE	<35,000	50,000	60,000	70,000	2026-02-12	NY Fed/ATTOM Q4 2025	+41% YoY; target 70K/qtr Q2

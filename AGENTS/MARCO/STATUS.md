@@ -1,5 +1,40 @@
 # MARCO STATUS
-**Last Updated:** 2026-03-10 13:30 UTC | **Status:** 🔴 RED
+**Last Updated:** 2026-03-11 14:30 UTC | **Status:** 🔴 RED
+
+## CHECKIN-MAR11 — Daily Check-In (Mar 11 14:30 UTC)
+
+**Inbox processed:** DHS-SHUTDOWN-STATUS-MAR10.md, SIG-MARCO-20260309-prome-batch.md
+
+### ⚠️ CRITICAL CORRECTION: E-Verify IS Operational
+Per EB5 Insights Feb 25 advisory (confirmed via DHS-SHUTDOWN-STATUS-MAR10): **E-Verify has NOT been suspended during this shutdown.** This differs from prior shutdowns. Prior STATUS.md entries treating E-Verify as suspended (Day 23, "BREACHED") are **INCORRECT**.
+
+**Thesis revision required:**
+- VX-MARCO-DOGE-01 compound shock thesis must be partially rebuilt — the "E-Verify resumption surge" scenario does NOT apply if E-Verify never went down
+- E-Verify row in signal dashboard: revise from BREACHED to ACTIVE (operational)
+- Remove "E-Verify suspension days: 23" metric from VX-MARCO-DOGE-01 tracking
+- The enforcement surge risk remains live through ICE/CBP (OBBBA-funded), but E-Verify catch-up is off the table for now
+
+### DHS Shutdown — Day 25+ (Mar 11)
+- 4th Senate vote: **FAILED 51-45 on Mar 5** — NO 5th vote scheduled as of Mar 10
+- (Note: STATUS.md previously tracked "4th attempt Mar 9" — per Mar 10 sourced update, no vote occurred Mar 9)
+- House out ALL WEEK (GOP retreat) — no legislative path before Mar 16+
+- **Mar 14 paycheck miss: LOCKED IN — CERTAIN**
+- TSA walkout: **STILL LIVE** — 3-4 hour delays confirmed at HOU, MSY, ATL, DFW (Mar 10)
+- Prediction #25 remains active: TSA disruption measurably occurring NOW
+- 100-120K DHS employees working without pay; 2/3 CISA furloughed
+
+### India Fertilizer — Cross-Domain Signal (SIG-MARCO-20260309 PROME batch)
+- India: 35-36M tonnes urea/yr, domestic capacity 28-29M tonnes, dependency creeping back to 13-15%
+- Structural, not cyclical — price-controlled since 1977, farming system built around cheap nitrogen
+- **MARCO action item:** Track H-2A availability + US fertilizer pricing as domestic parallel signal
+- Primary relevance to NEXUS C-18 / ag supply chain thesis. Routes to LABOR.
+
+### Remittance / Migration Data — No New Data
+- Mexico Banxico: Jan 2026 (-1.4%) remains most recent. No Feb 2026 data yet.
+- Next expected: ~Apr 2026 (Feb Banxico release)
+- No new H-2A or state-level labor supply data since Mar 9
+
+---
 
 ## NEW VECTORS (Mar 9)
 
@@ -13,7 +48,8 @@
 
 ### VX-MARCO-DOGE-01 — DOGE/E-Verify Compound Shock | 🟠 ELEVATED
 **Tracking:** DOGE disruption creates self-reinforcing loop: visible chaos → political leverage for shutdown extension → E-Verify suspension extends → on resumption, catch-up enforcement surge lands in peak planting season.
-**Metrics:** (1) E-Verify suspension days: **23** (2) DOL/USDA survey cancellations: monitoring (3) H-2A processing delay: DOL "one-stop shop" failing per Investigate Midwest (4) Enforcement audit rate on resumption: TBD
+**⚠️ THESIS REVISION (Mar 11):** E-Verify confirmed OPERATIONAL during this shutdown — "suspension days" metric was incorrect. E-Verify resumption surge scenario is OFF. Compound shock thesis now relies on: ICE/CBP enforcement (OBBBA-funded), H-2A bottlenecks, and DOGE data infrastructure destruction. The political feedback loop (DOGE pain → Dem resistance → longer shutdown → deeper ag disruption) remains valid independently.
+**Metrics:** (1) ~~E-Verify suspension days~~ N/A — E-Verify operational (2) DOL/USDA survey cancellations: monitoring (3) H-2A processing delay: DOL "one-stop shop" failing per Investigate Midwest (4) ICE enforcement audit rate: tracking via OBBBA funding
 **Compounds:** Existing WFD-01 and WFD-02. DOGE simultaneously eliminating data infrastructure (USDA Ag Labor Survey, DOL NAWS) that would measure the shock.
 **Trigger:** Senate DHS vote today (4th attempt). Pass → E-Verify resumes this week. Fail → TSA meltdown escalates, forces resolution ~Mar 14-18.
 **Routes to:** LABOR, CARL
@@ -45,12 +81,13 @@
 - Oil spike → airline fuel costs → potential further capacity cuts to FL routes
 - **Scenario change:** If DHS funded this week → E-Verify resumes immediately → enforcement surges → ag/construction labor shock accelerates INTO planting season (worst timing). Mar 14 TSA walkout risk drops significantly if resolution happens before paycheck miss.
 
-### DHS Shutdown (Day 23, CRITICAL — UPDATED Mar 9)
+### DHS Shutdown (Day 25+, CRITICAL — UPDATED Mar 11)
 - **Iran leverage strategy FAILED** — "Iran conflict fails to move Democrats in DHS shutdown fight" (The Hill, Mar 4). War framing did not shift Dem calculus.
 - **House passed DHS funding through September: 221-209 (Mar 5)**
-- **Senate failed THIRD time: 51-45** — still needs 60.
-- **🔴 SENATE VOTE 4TH ATTEMPT: TODAY (Mar 9)** — vote expected today per multiple sources. Same bill, same 60-vote threshold. Still needs 9 Dem crossovers.
-- **🔴 TSA ALREADY FAILING (Mar 8-9):** CNN reports "hourslong delays" at airports NOW (Mar 8). Business Insider (33 min ago): "TSA agents are not showing up to work" ahead of Mar 14 paycheck miss. Prediction #25 is LIVE — not Mar 14, it's happening TODAY.
+- **Senate failed 4th time: 51-45 (Mar 5)** — still needs 60. NO 5th vote scheduled as of Mar 10.
+- **House OUT ALL WEEK (GOP retreat)** — no legislative path before Mar 16+
+- **Mar 14 paycheck miss: CERTAIN / LOCKED IN**
+- **🔴 TSA WALKOUT STILL LIVE (Mar 10):** 3-4 hour delays at HOU, MSY, ATL, DFW confirmed. Prediction #25 ACTIVE and ongoing.
 - **Mar 14 paycheck miss in 5 days** — but the softcoded walkout is already starting. 61,000 TSA officers.
 - **DOGE Political Feedback Loop (NEW SIGNAL — see below):** DOGE-caused public pain is hardening Dem resistance, potentially extending shutdown beyond what political models predicted.
 - **🔴 NOEM FIRED (Mar 5):** Trump replaced Kristi Noem with Sen. Markwayne Mullin (R-OK). Noem out due to Minneapolis shootings controversy + $220M ad contract. Mullin described as harder-line MAGA enforcement posture.
@@ -173,7 +210,7 @@
 | FL Condo Inventory | 8.8mo (breach >9mo) | 🟠 CRITICAL |
 | El Paso Deficit | $55-62M, pension 60% funded | 🟠 CRITICAL |
 | Imperial County Unemployment | 20-31%, BBB credit | 🟠 CRITICAL |
-| E-Verify Suspension | Active (DHS shutdown) | 🔴 BREACHED |
+| E-Verify Status | ✅ OPERATIONAL (not suspended this shutdown) | 🟢 CORRECTED |
 | TX Net Domestic Migration | +67K (was +219K, -69%) | 🟠 CRITICAL |
 | NFP Feb 2026 | -92K (NEGATIVE), unemployment 4.4% | 🔴 BREACHED |
 
