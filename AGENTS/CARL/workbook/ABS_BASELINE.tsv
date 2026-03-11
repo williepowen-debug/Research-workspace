@@ -15,8 +15,14 @@ CapOne_COMET	Mix CC	Capital One	4.53%	—	3.99%	5.01%	—	🟠 HIGH	Dec-2025	Mon
 CapOne_COMET_Q4	Mix CC	Capital One	4.53%	—	—	6.0%*	—	🟠 HIGH	Q4-2025	Earnings	*Includes Walmart exit; adjusted ~5.6%
 CapOne_COMET_Q3	Mix CC	Capital One	4.53%	—	—	4.63%	—	🟡 MODERATE	Q3-2025	Earnings	Improved from 5.25% Q2
 
-# SUBPRIME AUTO (Highest Signal)
-Santander_Drive_2024	Subprime Auto	Santander	—	>6.0%	—	—	—	🔴 CRITICAL	Oct-2025	Fitch/KBRA	Record high 60+ DQ; bellwether
+# SUBPRIME AUTO — SDART EDGAR BASELINE (Updated 2026-03-11)
+# Source: SEC EDGAR 10-D Servicer Certificates (EX-99.1), Jan 2026 collection period
+SDART_2023-2	Subprime Auto	Santander	25.19%	10.81%	2.36%	9.33% CNL	—	🔴 CRITICAL	Jan-2026	EDGAR 10-D	33mo seasoned. $1.54B orig → $450M remaining. Monthly NL 0.69%. Terminal ~11-12%.
+SDART_2024-1	Subprime Auto	Santander	22.07%	9.31%	2.26%	8.48% CNL	—	🔴 CRITICAL	Jan-2026	EDGAR 10-D	25mo seasoned. $1.61B orig → $636M. Monthly NL 0.80%. Recovery ~43% (vs Honda 63%).
+SDART_2024-3	Subprime Auto	Santander	20.45%	8.68%	1.93%	6.22% CNL	—	🔴 CRITICAL	Jan-2026	EDGAR 10-D	20mo seasoned. $1.96B orig → $991M. Monthly NL 0.65%.
+SDART_2024-5	Subprime Auto	Santander	19.22%	7.80%	1.89%	5.14% CNL	—	🔴 CRITICAL	Jan-2026	EDGAR 10-D	16mo seasoned. $1.88B orig → $1.02B. Monthly NL 0.66%.
+SDART_2025-1	Subprime Auto	Santander	17.15%	6.95%	1.62%	4.22% CNL	—	🔴 CRITICAL	Jan-2026	EDGAR 10-D	13mo seasoned. $2.25B orig → $1.43B. LARGEST POOL. Class E tranche added.
+HAROT_2024-1	Prime Auto	Honda	1.21%	0.28%	0.05%	0.25% CNL	—	🟢 NORMAL	Jan-2026	EDGAR 10-D	24mo seasoned. CONTROL. $2.16B orig → $724M. Monthly NL 0.03%. 34x CNL gap vs SDART.
 Exeter_2024	Deep Subprime	Exeter	—	—	—	20.75% ECL	—	🔴 CRITICAL	2025	S&P	S&P hiked expected cumulative net loss
 Aggregate_Subprime_Auto	Subprime Auto	Multiple	—	>6.0%	—	—	—	🔴 CRITICAL	Oct-2025	CBT News	Record; 30x vs prime (0.2%)
 
