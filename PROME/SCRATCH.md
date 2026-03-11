@@ -1,11 +1,32 @@
 # SCRATCH — Ephemeral Working Memory
 
-**Updated:** 2026-03-10 ~19:00 UTC (pre-/new handoff)
+**Updated:** 2026-03-11 ~13:25 UTC
 
 ---
 
 ## Handoff
-**Last context:** Full Tuesday — most productive day of the operation. Three trades filled, three research prompts multi-source verified, all agents checked in, RED team spawned to challenge thesis. CPI tomorrow.
+**Last context:** Overnight Gulf war escalation — biggest night of the conflict. Iran actively mining Hormuz (US destroyed 16 minelayers), drones hit Dubai airport, Iran declared financial institutions as targets. LABOR + CARL check-ins processed. Will awake at 9 AM ET, going to `/new` for fresh session.
+
+**Next tide:**
+1. **🔴 USO $90C Mar 13 — EXPIRES FRIDAY.** Decision at open: harvest or ride. Oil gapping on escalation.
+2. **🔴 CPI tomorrow Mar 12 8:30 AM ET.** CARL warns: tame = trap (Feb data pre-oil spike). Hot = thesis accelerant. Decision tree in yesterday's SCRATCH (preserved below).
+3. **🔴 Initial Claims Mar 13 8:30 AM ET.** First clean read post-DHS. ≥235K = LABOR Vector 3 max. WARN pipeline should start discharging.
+4. **Process RED team report** — `AGENTS/RED/challenges/HORMUZ_RED_TEAM_2026-03-10.md`. Three verifications still open.
+5. **OTTO proposals** — 5 approved, unexecuted. Failed 3x on API overload.
+6. **Market API (Alpha Vantage)** — keeps getting bumped.
+7. **Verify Gemini claims** — China side deal, Russia intel sharing, Iraq -70%.
+
+**Agent proposals pending approval:**
+- LABOR: CRL-P04 (gas threshold), CRL-P05 (servicer risk research), CRL-P06 (CPI trap briefing), CRL-P07 (pull danger window forward)
+- CARL: 3 proposals (Vector 4 update, war signal dashboard entry, pre-claims framework)
+
+**CPI Decision Tree (Mar 12):**
+- HOT → TLT holds, enter CF on selloff, hold everything. Thesis accelerates.
+- IN-LINE → hold, wait for Thu claims. No new trades.
+- COOL → hold, thesis intact but slower. May $88P TLT pressured, Sep $85P fine.
+- NOTE: CARL says tame CPI = Feb data (pre-oil spike). Real shock = April CPI. Don't invalidate on cool print.
+
+**Rhythm note:** Will managing context weight well — calling `/new` proactively. System is working.
 
 **Next tide:**
 1. **🔴🔴 PROCESS RED TEAM REPORT — CRITICAL** — Filed at `AGENTS/RED/challenges/HORMUZ_RED_TEAM_2026-03-10.md`. THREE IMMEDIATE VERIFICATIONS NEEDED:
