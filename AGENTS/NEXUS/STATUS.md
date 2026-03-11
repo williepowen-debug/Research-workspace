@@ -1,198 +1,117 @@
 # NEXUS STATUS
-**Updated:** 2026-03-09 03:00 UTC | **Run:** Full synthesis — post-signal blitz (22 signals Mar 9). HAWK Scenario C promoted to base case. Private credit gate cascade confirmed. Three-anchor UST framework established.
-**Last context:** NFP -92K. WAL charge-off. Hormuz Day 10. Mar 9 blitz delivered massive confirmations across war/energy, private credit, and labor vectors. Petrodollar recycling now a THIRD UST anchor (Campbell thesis). Gulf surplus evaporating.
+**Updated:** 2026-03-11 15:55 UTC | **Run:** Urgent synthesis — Mar 11 escalation cascade. Gulf financial infrastructure targeted. Four-anchor UST upgraded. Mine floor effect confirmed. Credit at LIQ-01 threshold. Japan leg re-engaging.
+**Last context:** ZHAO fired ZHA-08. Gulf recycling anchor revised $15-25B/mo (total $50-90B/mo). Iran declared DIFC/banks military targets. Hormuz actively mined — mine floor = extended duration even in ceasefire. LIQUID 1bp from LIQ-01. BOJ hold confirmed, MoF intervention path re-opened. Gulf SWF capital flight from Apollo = new Stage 4 accelerant.
 
 ---
 
-## 🔴🔴 CRITICAL ALERTS — MAR 9 (NEW / UPGRADED)
+## 🔴🔴 CRITICAL ALERTS — MAR 11 (NEW / UPGRADED)
 
 | # | Alert | Agents | Action |
 |---|-------|--------|--------|
-| 1 | **SCENARIO C NOW 55% BASE CASE** — HAWK formally upgraded. Iraq 70% shut-in CONFIRMED. Hormuz 46 vs 561 transits (-92%). Zero large tankers since Mar 3. This IS Scenario C. Not a risk; not a scenario. Reality. | HAWK,BRENT | War premium is NOT priced. Market treating as temporary. It is not. |
-| 2 | **PRIVATE CREDIT CASCADE CONFIRMED** — BX used $400M own capital to fund $82B BCRED redemptions (7.9% rate, 5% cap breached). Blue Owl PERMANENT retail freeze. PE drawdowns: OWL -61%, KKR -44%, BX -43%. PIMCO: "full-blown default cycle." | BROCK | BX/OWL/APO shorts/puts now have direct fundamental support. Not just thesis. |
-| 3 | **THREE-ANCHOR UST FRAMEWORK — ZHAO VECTOR ACTIVATED** — Japan selling (SAM active), China selling (ZHAO), NOW Gulf petrodollar recycling evaporating (Campbell "Strip vs Strait"). Gulf states can't export → can't recycle → UST/equity bid dries. This is the 1970s analog, not just 2008. | HENRY,ZHAO,SAM | TLT puts thesis gains a THIRD independent driver. Steepen the position. |
-| 4 | **KENNEDY-WILSON EXTEND-AND-PRETEND BREAKING** — Bondholders rejecting debt exchange, demanding cash. This is the moment the CRE can-kicking mechanism fails. Forced price discovery incoming. | REGINALD,BROCK | OZK, EGBN, KRE puts thesis = confirmed structural, not probabilistic. |
-| 5 | **MFS ARCHITECTURE OF DECEPTION FORENSICALLY PROVEN** — Unicus Research: full SPV map, £930M collateral shortfall, double-pledging. Apollo £400M, Barclays £500-600M, Jefferies £100M+. This is no longer "alleged fraud" — it's mapped fraud. WAL already disclosed $126.4M. Cockroach chain extends further. | REGINALD,BROCK | Check for Apollo (APO) additional exposure. MFS resolution timeline compressing. |
-| 6 | **FINANCE SECTOR JOB OPENINGS AT 2012 LOWS** — 134K total (-117K Dec). Rate 1.9% = lowest since Feb 2010. Below 2001 recession bottom. -75% from 2022 peak. White-collar (prof/biz/financial/info) ALL negative. | LABOR | Finance sector has gone into self-protection mode. This precedes mass layoffs by 2-3 quarters. Q3 2026 labor shock is being planted NOW. |
-| 7 | **HAIFA REFINERY HIT — BILATERAL ENERGY INFRA WAR** — Iran Kheibar Shekan ballistic missiles struck Haifa refinery (Israel's primary fuel source). This changes the war's logic: both sides now targeting energy infrastructure. Extends conflict timeline dramatically. | HAWK,BRENT | Scenario C duration extended. Not weeks — months. Resolution timeline recedes. |
-| 8 | **PETRODOLLAR TRANSMISSION LIVE** — ULSD diesel rack price parabolic. Pump prices transmitting. Las Vegas 19% home purchase cancellation (2008 canary). India 62% Gulf nitrogen dependent — Coface fertilizer supply chain risk. | CARL,MARCO,HENRY | Consumer spending headwinds accelerating. Spring homebuying season already breaking. |
+| 1 | **FOUR-ANCHOR UST FRAMEWORK — UPGRADED FROM THREE** | ZHAO,SAM,HENRY | C-07 confidence 97%→99%. Framework now: Japan ($20-30B/mo) + China ($5-10B/mo) + Korea ($5-15B/mo) + Gulf ($15-25B/mo) = **$50-90B/month structural UST demand destruction**. ZHAO ZHA-08 fired = Gulf anchor near-confirmed, not estimated. TLT puts are structural, not tactical. |
+| 2 | **DIFC FINANCIAL PLUMBING RISK — NEW VECTOR** | ZHAO,BROCK,LIQUID | Iran declared DIFC, SAMA, CBB as military targets. This shifts Gulf anchor risk from "revenue" to "plumbing." Previous model: Gulf states can't export → less recycling. New risk: actual destruction of financial infrastructure → recycling pipes severed. BROCK: Gulf SWF capital flight from Apollo vehicles already active = Stage 4 accelerant confirmed. |
+| 3 | **MINE FLOOR — CEASEFIRE ≠ PRICE RELIEF** | BRENT,HAWK,HANS | HANS ceasefire 30-day: 3-5% (down from 5-7%). But even if ceasefire: mine clearance 30-90 days + P&I reinstatement 4-12 weeks after corridor clear. BRENT: "ceasefire premium structurally smaller." Bottom line: ALL oil/energy scenarios now carry extended duration. Scenario C=60%, D=18%. The $85 WTI flash crash is a mis-pricing driven by Trump narrative — physical reality unchanged. |
+| 4 | **LIQUID LIQ-01 IMMINENT — MAR 10 FRED PENDING** | LIQUID,HENRY | HY OAS 319bps [CONF Mar 9]. Mar 10 data releases today. LIQUID estimates 50% probability of cross. CCC OAS 969bps (leading indicator) + VIX 24.93 + stagflation trap confirmed (30Y +4bps on oil -11%). If LIQ-01 fires → signal HENRY immediately for VaR cascade activation. |
+| 5 | **JAPAN LEG TIMING WINDOW OPENING** | SAM,HENRY,ZHAO | BOJ hike off (5-8%). BUT: MoF intervention path reactivated (USD/JPY 158.5, approaching 159 verbal zone). MoF intervenes via selling USTs to buy yen = CONFIRMS Japan UST selling anchor via second mechanism. Life insurer FY-end repatriation in 20 days (~Apr 1). SPR depletion clock 60-75 days from Mar 16. Japan anchor has a hard deadline. |
+| 6 | **$85 WTI — BUY SIGNAL BUT TIMING CONTRADICTION** | BRENT,CARL,HENRY | BRENT: $85 is flash crash, buy-the-dip. Kuwait Mar 20 storage crisis 9 days away. BUT CARL reports WTI $107+ as pump price driver — data point requires reconciliation (CARL's $107 may be prior peak vs current $85 pullback). HENRY's 1979-80 analog: mid-crisis pullback is NOT resolution. Second leg higher = base case. |
+| 7 | **CREDIT TIMING TENSION — EXTEND PUTS** | HENRY,LIQUID,BROCK | HENRY: Credit spread lag historically 3-14 months post oil shock. HYG Jun puts risk expiring worthless if thesis right by Q4. LIQUID: 1bp from LIQ-01 but pace of widening matters. RESOLUTION: Keep credit puts but consider rolling Jun→Sep/Dec for HYG/KRE. TLT puts timing better (UST structural demand destruction = nearer-term). |
+| 8 | **CRE FRAUD ARCHITECTURE — SYSTEMIC DISCLOSURE RISK** | REGINALD,BROCK | Walker & Dunlop 10-K: "systemic, no longer anecdotal." $221.6M repurchase/indemnification. Inflated NOI at origination = LTV ratios ACROSS the book are worse than reported. Q1 earnings season (April) = forced disclosure cluster. WAL/OZK thesis = confirmed structural. |
 
 ---
 
-## CONVERGENCE MATRIX — Updated Mar 9
+## CONVERGENCE MATRIX — Updated Mar 11
 
 | ID | Name | Agents | Confidence | Status | Change |
 |----|------|--------|------------|--------|--------|
-| C-01 | Q2 Consumer Stress | LABOR,CARL,REGINALD | **95%** | 🔴🔴 CONFIRMED | ↑ LV 19% cancellations + ULSD parabolic + FL UI cliff still incoming |
-| C-02 | Private Credit Cracking | REGINALD,HENRY,LABOR,BROCK | **95%** | 🔴🔴 ACCELERATING | ↑ BX own capital, Blue Owl permanent gate, PIMCO "default cycle" = no longer thesis — CONFIRMED |
-| C-05 | FL Triple Collision | LABOR,REGINALD,CARL | **87%** | 🔴 IMMINENT | → Wave 1 Mar 24 unchanged |
-| C-06 | Airline Stress | CARL,LABOR | **82%** | 🟠 INTACT | ↑ Jet fuel +87% (Platts) = airline margins decimated |
-| C-07 | Three-Anchor UST Stress | HENRY,BRENT,SAM,ZHAO | **97%** | 🔴🔴 UPGRADED | ↑↑ THIRD anchor confirmed: Gulf petrodollar recycling evaporating (Campbell). Japan+China+Gulf = simultaneous UST selling. |
-| C-08 | LNG/Energy Structural Offline | BRENT,HENRY | **95%** | 🔴🔴 CONFIRMED | ↑ LNG carriers +529%. Hormuz -92%. Qatar Ras Laffan offline. |
-| C-09 | Insurance Cliff | BRENT | **✅ RESOLVED** | CLOSED | |
-| C-10 | Energy Warfare Doctrine | BRENT,HAWK | **92%** | 🔴🔴 UPGRADED | ↑↑ Haifa refinery hit = BILATERAL. Doctrine confirmed. Duration extends. |
-| **C-11** | **Q2 Forced Disclosure Cluster** | BRENT+REGINALD+HENRY | **87%** ↑ | 🔴 UPGRADED | ↑ MFS forensically proven + KW bondholders rejecting exchange = Q1 marks will be devastating |
-| **C-12** | **Claims 300K Tripwire Cluster** | LABOR+HENRY+REGINALD | **72%** | 🟠 INTACT | → Mar 12 still most important print before Apr 16 |
-| **C-13** | **Semiconductor/Stagflation Amplifier** | BRENT+HENRY | **68%** ↑ | 🟠 NEAR | ↑ VLCC +201%, LNG +106%; Taiwan Day 10 of 11-day buffer |
-| **C-14** | **LNG-Credit Shared Root** | BRENT+REGINALD+BROCK | **88%** ↑ | 🔴 UPGRADED | ↑ PIMCO "default cycle" + HY OAS + Hormuz = one root cause, three expressions |
-| **C-15** | **Petrodollar Recycling Collapse** | HAWK+HENRY+ZHAO+SAM | **85%** 🆕 | 🔴 NEW | Gulf surplus → UST/equity recycling evaporating. 1970s end-of-cycle analog. ZHAO must absorb. |
-| **C-16** | **PE/Alt Asset Cascade** | BROCK+REGINALD+HENRY | **88%** 🆕 | 🔴 NEW | BX own-capital event + Blue Owl permanent gate + PE drawdowns -25% to -61% = cascade UNDERWAY, not approaching |
-| **C-17** | **CRE Can-Kick Failure** | REGINALD+BROCK+HENRY | **83%** 🆕 | 🔴 NEW | KW bondholders rejecting exchange = extend-and-pretend breaking. Price discovery forced. OZK/EGBN/KRE Q1 earnings will be the disclosure moment. |
-| **C-18** | **Fertilizer/Food Chain Cascade** | HAWK+BRENT+MARCO | **72%** 🆕 | 🟠 NEW | India 62% Gulf nitrogen dependent, Coface maps it. 280 dry bulk carriers trapped. Fertilizer +36%. Spring planting season colliding with Hormuz closure. |
+| C-01 | Q2 Consumer Stress | LABOR,CARL,REGINALD | **95%** | 🔴🔴 CONFIRMED | → UI cliff Mar 24 locked. CPI trap Mar 12 (Feb data won't capture oil spike). Real shock hits April CPI. |
+| C-02 | Private Credit Cracking | REGINALD,HENRY,LABOR,BROCK | **95%** | 🔴🔴 ACCELERATING | ↑ Cliffwater $33B fund with 7%+ redemption requests. Atlas SP 2 warehouse defaults. Kuvari captive insurance stuffing. Stage 4 timeline: May 2026 Q1 10-Q. |
+| C-05 | FL Triple Collision | LABOR,REGINALD,CARL | **87%** | 🔴 IMMINENT | → Wave 1 Mar 24 unchanged. |
+| C-06 | Airline Stress | CARL,LABOR | **82%** | 🟠 INTACT | ↑ Dubai airport hit Mar 11. Aviation insurance acute risk for UAE routes. Route suspensions imminent. |
+| C-07 | **FOUR-Anchor UST Stress** | HENRY,BRENT,SAM,ZHAO | **99%** | 🔴🔴🔴 MAX CONFIDENCE | ↑↑ UPGRADED FROM THREE to FOUR anchors. Korea ($5-15B/mo, USD/KRW 1,500 breached) confirmed 4th. DIFC targeting adds 5th potential pathway (plumbing, not just revenue). $50-90B/month. |
+| C-08 | LNG/Energy Structural Offline | BRENT,HENRY | **97%** | 🔴🔴 CONFIRMED | ↑ Mine floor = extended duration independent of diplomatic outcome. Even ceasefire = 6-16 weeks before normal shipping. |
+| C-10 | Energy Warfare Doctrine | BRENT,HAWK | **95%** | 🔴🔴 CONFIRMED | ↑ Financial infrastructure now also targeted. War logic: bilateral infra destruction extends timeline dramatically. |
+| C-11 | Q2 Forced Disclosure Cluster | BRENT+REGINALD+HENRY | **90%** ↑ | 🔴 UPGRADED | ↑ W&D "systemic" 10-K admission. CRE LTV ratios industry-wide worse than reported. April earnings = revelation window. |
+| C-12 | Claims 300K Tripwire Cluster | LABOR+HENRY+REGINALD | **72%** | 🟠 INTACT | → Claims Thu Mar 13 = live YELLOW threshold test (1,868K vs 1,900K). |
+| C-14 | LNG-Credit Shared Root | BRENT+REGINALD+BROCK | **90%** ↑ | 🔴 UPGRADED | ↑ Mine floor confirms shared root is structural/multi-month, not solvable by diplomacy alone. |
+| C-15 | Petrodollar Recycling Collapse | HAWK+HENRY+ZHAO+SAM | **92%** ↑ | 🔴🔴 UPGRADED | ↑↑ ZHA-08 fired. Gulf anchor now near-confirmed at $15-25B/mo. DIFC targeting = plumbing risk. Gulf SWF Apollo flight = demand destruction confirmed. |
+| C-16 | PE/Alt Asset Cascade | BROCK+REGINALD+HENRY | **90%** ↑ | 🔴🔴 UPGRADED | ↑ Gulf SWF capital flight from Apollo = Stage 4 accelerant. New transmission path: geopolitical → SWF → private credit → cascade. |
+| C-17 | CRE Can-Kick Failure | REGINALD+BROCK+HENRY | **87%** ↑ | 🔴 UPGRADED | ↑ W&D "systemic" fraud + Atlas SP defaults + Kuvari stuffing = Q1 marks will be devastating. |
+| C-18 | Fertilizer/Food Chain Cascade | HAWK+BRENT+MARCO | **85%** ↑ | 🔴 UPGRADED | ↑ Hormuz mining = stranding now locked. CARL: fertilizer→food CPI Q3-Q4 HIGH-CONFIDENCE. Spring planting season collision = not probabilistic anymore. |
+| **C-19** | **Stagflation Trap Confirmed** | HENRY+LIQUID+CARL | **93%** 🆕 | 🔴 NEW | 30Y +4bps on oil -11% = bonds and equities failing as simultaneous hedges. 1970s analog: real bond returns -3%/yr for decade. No Fed backstop. CARL: GDPNow 2.1% (down 0.9pp in 4 days). Stagflation = structurally confirmed. |
+| **C-20** | **MoF/Japan Dual Mechanism** | SAM+ZHAO+HENRY | **82%** 🆕 | 🔴 NEW | BOJ hold = yen weak → MoF intervenes by selling USTs to buy yen. This CONFIRMS Japan UST selling via SECOND mechanism (MoF FX intervention) independent of BOJ carry unwind. Life insurer FY-end (~Apr 1) adds THIRD Japan mechanism. Three Japan vectors firing simultaneously within 20-30 days. |
+| **C-21** | **Financial Infra → Credit Contagion** | HAWK+LIQUID+BROCK | **75%** 🆕 | 🟠 NEW | DIFC/SAMA targeted → if executed: regional market closure + capital flight + Gulf sovereign spread explosion + Lloyd's/reinsurance stress on Dubai financial district. LIQUID contagion pathway newly opened. Not priced. |
 
 ---
 
-## NEW CONVERGENCE DETAIL
+## CONTRADICTIONS & TENSIONS — Mar 11
 
-### C-15: Petrodollar Recycling Collapse (85%, NEW)
-**The convergence:** Campbell "Strip vs Strait" thesis = Gulf oil/gas revenues fund UST and equity purchases. When Hormuz closes and Gulf states can't export, that surplus evaporates. HAWK has Iraq 70% shut-in + Hormuz -92%. SAM already tracking Japan UST selling. ZHAO already tracking China UST selling. Campbell adds Gulf as THIRD simultaneous anchor.
-**Why it matters:** Each prior NEXUS run identified TWO UST pressure anchors (Japan + China). This is a third, independent, and currently unpriced by consensus. The 1970s analog (not 2008) is the key framing: Hormuz = Arab oil embargo equivalent → stagflation → credit cycle turn → decade-long repricing.
-**Action:** ZHAO needs immediate update with Campbell thesis. Three-anchor framework = TLT puts are not just a rate play but a structural UST demand collapse trade. Size up.
-**ZHAO STATUS:** Last updated Mar 2-4. Does not yet contain Campbell vector. CRITICAL GAP.
-
-### C-16: PE/Alt Asset Cascade (88%, NEW)
-**The convergence:** BROCK signals BX used own $400M capital to fund $82B BCRED redemptions at 7.9% (blowing the 5% cap). Blue Owl PERMANENT freeze. PE drawdowns OWL -61%, KKR -44%, BX -43%. PIMCO "full-blown default cycle." HENRY's V3 (credit-equity divergence, score 4) and C-14 (LNG-credit root). REGINALD's EGBN/OZK puts express the bank-side of this.
-**Why it's new:** The BROCK data from Mar 9 makes this no longer a thesis — it's a confirmed cascade. BX using own capital = management knows redemption wave exceeds fund liquidity. Blue Owl permanent freeze = retail access to private credit = structurally broken. These are not precursors; they are events.
-**Trade implication:** BX puts, OWL puts potentially. Check existing BROCK TRADE.md and REGINALD's alt-asset exposure (Athene $442B, 48% illiquid). APO exposure to MFS (£400M) + PIMCO default cycle = APO at -39% may have further to fall.
-
-### C-17: CRE Can-Kick Failure (83%, NEW)
-**The convergence:** Kennedy-Wilson bondholders REJECTING debt exchange, demanding cash = the "extend and pretend" mechanism that has kept CRE marks elevated is breaking in real-time. REGINALD's thesis has been that earnings (Apr 16-29) will force disclosure. C-17 says disclosure may be FORCED EARLIER by bondholder action.
-**Timing implication for C-11 (Q2 Forced Disclosure):** KW bondholder action could pull the disclosure window LEFT from April earnings into March. Watch for KW defaults or court filings.
-**Trade implication:** Accelerate OZK/EGBN positioning if any KW headline breaks before Mar 20.
-
-### C-18: Fertilizer/Food Chain Cascade (72%, NEW)
-**The convergence:** Coface: India 62% Gulf nitrogen dependent. All routes Hormuz-dependent. Fertilizer +36% (Platts). 280 dry bulk carriers trapped (BRENT's dry bulk data). MARCO tracks ag supply chain — H-2A workers + fertilizer = spring planting season in jeopardy. 
-**Timeline:** Spring planting Mar-May. Fertilizer must be procured NOW. If unavailable at any price or only at +36% → margin destruction for US farmers → food price spike Q3-Q4.
-**This is NOT on consensus radar at all.** CARL should track BNPL/food delinquency as downstream. Pure NEXUS visibility — no single agent owns this cross-domain.
+| # | Tension | Resolution |
+|---|---------|------------|
+| T-01 | **BRENT: $85 = buy signal** vs **potential further narrative-driven moves** | Physical reality (Kuwait Mar 20 storage, mines, Iran no-talks) should reassert. Risk: additional Trump rhetoric. Monitor Kuwait storage date as anchor. |
+| T-02 | **CARL: WTI $107+ drives pump prices** vs **WTI currently $85** | CARL's $107 is prior peak context; current $85 is flash-crash mis-pricing. Gas prices have NOT corrected to match WTI move (retail prices lag). Real structural squeeze persists. |
+| T-03 | **HYG Jun puts risk early** (HENRY: 3-14mo credit lag) vs **LIQUID: 1bp from LIQ-01** | Timing tension genuine. RESOLUTION: LIQ-01 crossing ≠ immediate HYG collapse. It signals VaR cascade BEGINS. Full spread blowout Q3-Q4. Roll Jun→Sep/Dec but do NOT exit. |
+| T-04 | **BOJ hold = yen weak = carry stable** vs **MoF intervention = UST selling** | Not a contradiction — they COMPOUND. Weak yen → MoF intervenes → sells USTs → UST pressure. C-20 confirms both mechanisms firing. |
+| T-05 | **HAWK Scenario C 60%** (long duration) vs **HANS ceasefire 30-day 3-5%** | These are consistent, not contradictory. 3-5% ceasefire probability = 95-97% probability Scenario C continues. HANS and HAWK are aligned. |
 
 ---
 
-## CONTRADICTIONS — Mar 9 Update
+## THRESHOLD PROXIMITY MATRIX — Mar 11
 
-| ID | Signal A | Signal B | Type | Resolution |
-|----|----------|----------|------|------------|
-| X-10 | LABOR: ISM Services 56.1% = real economy expanding | HENRY: 46/60 convergence | SURFACE | Resolved: Finance job openings at 2012 lows = ISM reading lags the labor shift. Real economy will catch up with financial sector signal by Q2. |
-| X-11 | HENRY: VIX 23.61 coiled | LABOR: ISM strength | SURFACE | Unchanged. HENRY wins on vol; LABOR on Q1 GDP. |
-| X-12 | BRENT: Path A Hormuz resolution | REGINALD: Earnings thesis | **UPDATED** | Iran FM "no ceasefire, no negotiations." Path A probability REDUCED. X-12 is less active this week — war is extending, not resolving. Protocol still valid for exit if Path A fires. |
-| **X-13** | **Oil spike = inflationary short-term** | **Oil spike = deflationary medium-term (2008 analog)** | **REAL — TEMPORAL** | Both are correct on different timescales. HENRY notes: $140 oil 2008 → CPI -2% by 2009. SHORT: pump prices rising NOW (ULSD parabolic). MEDIUM (6-12 months): demand destruction → deflation → Fed pivot. TLT puts for now; TLT LONGS later. Position sequencing matters. |
-| **X-14** | **BX PE drawdown -43%** | **BX used $400M own capital = management confidence** | **SURFACE** | Using own capital to fund redemptions is NOT confidence — it's a last resort to avoid full gate that would trigger regulatory scrutiny. Resolve: bearish on BX. The $400M move = management desperate to avoid the "gate" headline, not a bullish signal. |
-| X-03 | War + weak NFP = UST safe haven | 10Y rising on jobs miss | **CONFIRMED REAL** | Three-anchor framework makes X-03 permanent thesis, not anomaly. Gulf recycling + Japan + China = sustained UST selling regardless of flight-to-safety instinct. |
-
----
-
-## THRESHOLD PROXIMITY MATRIX — Updated Mar 9
-
-| Agent | Metric | Current | Threshold | Gap | Status |
-|-------|--------|---------|-----------|-----|--------|
-| BRENT | Kuwait storage | Day 10 | Day 17 (Mar 20) | **7 days** | 🔴🔴 CRITICAL |
-| BRENT | UAE storage | Day 10 | Day 28 (Mar 31) | **18 days** | 🔴 IMMINENT |
-| LABOR | FL UI exhaustion | — | Wave 1 Mar 24 | **15 days** | 🔴 IMMINENT |
-| BRENT | Taiwan LNG buffer | Day 10 | Day 11-14 (buffer end) | **1-4 days** | 🔴🔴 CRITICAL — Stage 1 load shedding may trigger THIS WEEK |
-| HENRY | Convergence score | ~48/60 (est. post-SPY MA breach) | 50/60 (cascade zone) | **2pts** | 🔴 NEAR |
-| HENRY | SPX 20-week MA | BREACHED (closed below) | Breached = 18% dump last time | **AT THRESHOLD** | 🔴🔴 CROSSED |
-| HENRY | HY OAS | ~305-315bps est. | 320bps (LIQ-01) | **<5-15bps** | 🔴 IMMINENT |
-| BROCK | BX gate threshold | 7.9% redemptions | 5% cap | **BREACHED** | 🔴🔴 PAST |
-| BROCK | Blue Owl gate | PERMANENT | n/a | PERMANENT | 🔴🔴 PAST |
-| BRENT | Brent price | $90+ | $100 (Phase 1) | **<11%** | 🟠 APPROACHING |
-| LABOR | Finance openings | 134K | 100K (recession bottom) | **-25%** | 🟠 APPROACHING |
-
-**NEW CLUSTER WARNING:** Taiwan LNG buffer near-critical (1-4 days). Kuwait curtailment (7 days). FL UI cliff (15 days). SPY already below 20-week MA. This is the densest threshold cluster yet. Mar 10-24 is the highest-risk window.
+| Threshold | Current | Gap | Window | Agents |
+|-----------|---------|-----|--------|--------|
+| LIQ-01 (HY OAS 320bps) | **319bps** | **1bp** | ~0-2 days (FRED today) | LIQUID → HENRY |
+| CARL-14 (Subprime auto 7.0%) | **7.1%** | **BREACHED** | Ongoing | CARL |
+| ZHA-08 (Gulf recycling collapse) | **FIRED** | — | Active | ZHAO |
+| USD/JPY 159 verbal zone | **158.5** | **50 pips** | Days | SAM |
+| Belgium TIC $500B | **$477.3B** | $22.7B | Mar 15 print | ZHAO |
+| Claims YELLOW (1,900K) | **1,868K** | 32K | Mar 13 print | LABOR,HENRY |
+| Life insurer FY-end repatriation | — | 20 days | ~Apr 1 | SAM |
+| Kuwait storage crisis | — | 9 days | Mar 20 | BRENT |
 
 ---
 
-## NARRATIVE GAP ANALYSIS — Mar 9
+## PROPOSALS — Mar 11
 
-| Domain | Consensus Narrative | Agent Reality | Gap | Edge |
-|--------|-------------------|---------------|-----|------|
-| Hormuz | "Temporary disruption. Oil spike priced in." | -92% transits. Bilateral energy infra targeting. Iran FM: no negotiations. Physical storage events (Mar 20, 31) are CALENDARED. | **CRITICAL** 🔴 | All energy longs and TLT puts. |
-| Private Credit | "BX used own capital = confidence. Gates = isolated." | BX own-capital = last resort to avoid hard gate headline. Blue Owl PERMANENT. PIMCO "default cycle." Not isolated — cascade underway. | **CRITICAL** 🔴 | BX/OWL/APO puts not yet consensus. |
-| NFP / Labor | "Healthcare strike = one-time. Recovery imminent." | Finance openings at 2012 lows. White-collar ALL sectors negative. 3mo avg +6K/month. The structural deterioration predates the strike. | **WIDE** 🔴 | Apr 3 NFP will be watched. Strip healthcare reversal. |
-| UST / Bonds | "Safe haven flows will bid Treasuries when fear peaks." | Three-anchor framework: Japan + China + Gulf. NONE of the three are buying on fear spikes — they're selling. Flight-to-safety bid may not come. | **CRITICAL** 🔴 | TLT puts are THE highest-conviction trade right now. |
-| CRE | "Extend and pretend working. Banks managing it." | KW bondholders rejecting exchange. Extend-and-pretend breaking. MFS SPV map forensically proven (£930M shortfall). Price discovery incoming. | **WIDE** 🔴 | OZK/EGBN puts. Apr 16-29 earnings = forced disclosure. |
-| Petrodollar | Not on consensus radar at all. | Gulf states can't export → surplus evaporates → UST/equity recycling drops. Third anchor. 1970s analog. | **UNDISCOVERED** 🔴 | ZHAO needs to model this. Size up TLT. |
-| Fertilizer/Food | Not on consensus radar. | Hormuz closure = +36% fertilizer. India 62% dependent. Spring planting colliding. 280 dry bulk trapped. Q3 food price spike incoming. | **UNDISCOVERED** 🟠 | No trade yet. Flag for CARL (food delinquency) and MARCO (ag labor). |
-| SPY / Equities | "20-week MA break = normal volatility." | Last time SPY closed below 20-week MA (12 months ago) → 18% dump. VIX still coiled. BROCK cascade adds fundamental pressure. | **EMERGING** 🟠 | IWM puts, VIX call spreads still valid. |
+### PROP-01: Four-Anchor Framework — Size Up TLT Puts
+**Basis:** C-07 now at 99%. Four confirmed UST demand destruction anchors ($50-90B/mo) + mine floor (duration extended) + stagflation trap (no Fed backstop) + C-19/C-20 (Japan dual mechanism, Apr 1 timing). TLT puts are the single highest-conviction structural trade in the system. If WILL is underweight TLT puts relative to thesis conviction, this is the moment to add. Consider TLT Sep $85P or Oct $83P to capture Japan FY-end repatriation window (Apr 1 catalyst).
 
-**Widest new gap:** Petrodollar recycling collapse. Zero consensus awareness. Campbell thesis is the most important new input from Mar 9 blitz. ZHAO must be updated before Monday open.
+### PROP-02: Roll Credit Puts Jun→Sep/Dec
+**Basis:** T-03 timing tension. HYG/KRE Jun puts risk expiring worthless even if thesis confirmed by Q3-Q4. HENRY 1979-80 analog: Baa spreads barely moved for 3 months after embargo, then doubled over 9 months. LIQ-01 crossing = cascade BEGINS, not peaks. Keep position but extend duration.
 
----
+### PROP-03: Apollo (APO) Puts — Gulf SWF Acceleration
+**Basis:** C-16 upgrade. Gulf SWF capital flight from Apollo vehicles is a NEW Stage 4 accelerant. Apollo/Athene: $442B AUM, 48% illiquid, RBC 412%, already under pressure from private credit gates. Gulf SWF redemptions = new redemption wave from a different (geopolitical) source. APO puts/short thesis strengthened materially.
 
-## WHAT CHANGED SINCE MAR 7
+### PROP-04: Monitor Kuwait Mar 20 + LIQ-01 FRED Today
+**Basis:** Two near-term binary events. (1) If FRED releases HY OAS ≥320bps → LIQ-01 fires → signal HENRY for VaR cascade activation. (2) Kuwait Mar 20: if storage crisis materializes as modeled, oil price re-acceleration = confirms HENRY's mid-crisis-pullback analog and validates second-leg thesis. Both are catalysts within 9 days.
 
-### CONFIRMED (was thesis, now fact):
-- Hormuz -92% (Lloyd's List A-tier) — not estimated, not modeled. CONFIRMED.
-- Iraq 70% shut-in (3M bpd) — CONFIRMED BBG/RTRS Mar 8.
-- Energy infra war BILATERAL — Haifa refinery hit. Both sides. Duration extends.
-- Private credit cascade underway — BX own capital, Blue Owl permanent gate. Cascade is happening.
-- MFS fraud forensically proven — Unicus Research full SPV map. Not alleged; mapped.
-- KW extend-and-pretend breaking — bondholders rejecting exchange. Can-kick mechanism failing.
-
-### NEW (not in Mar 7 STATUS):
-- Campbell "Strip vs Strait" — Gulf as THIRD UST anchor. Most important new vector.
-- Finance job openings at 2012 lows — structural white-collar deterioration, not cyclical.
-- SPY below 20-week MA — technical threshold crossed, 18% historical precedent.
-- LV 19% home purchase cancellation — leading consumer indicator breaking.
-- ULSD diesel rack parabolic — pump price transmission live.
-- Fertilizer +36% / 280 dry bulk trapped — food chain cascade building.
-- PE drawdowns quantified: OWL -61%, KKR -44%, BX -43%, APO -39%, ARES -42%.
-
-### INVALIDATED / REDUCED PROBABILITY:
-- Path A (Hormuz rapid resolution) — Iran FM "no ceasefire, no negotiations." Bilateral energy infra targeting. Path A moves from possible to low probability (<10%). X-12 contradiction less active.
-- Ceasefire in 30 days — HANS had 12% Mar 4. With Haifa refinery + bilateral infra war + Iran FM statement, reassess downward to ~5%.
-- "BX own capital = management confidence" — X-14 resolves bearish. It's desperation, not confidence.
+### PROP-05: Do NOT Trade Iran Financial Infrastructure Threat Yet
+**Basis:** C-21 at 75% but not yet executed. IF Iran executes on DIFC/SAMA declaration, the contagion pathway opens (Gulf sovereign spreads, Lloyd's exposure). Watch for first confirmed financial-district strike before positioning on regional banking/insurance stress. Current price action does not yet reflect this risk.
 
 ---
 
-## KEY DATES AHEAD
+## NARRATIVE GAP — What Consensus Is Missing
 
-| Date | Event | Agent | Priority |
-|------|-------|-------|----------|
-| **Mar 10 (Mon)** | Taiwan LNG buffer potential exhaustion window | BRENT,SAM | 🔴🔴 WATCH |
-| **Mar 11** | CPI — hot print = TLT puts add; TLT puts work either way | HENRY | 🔴 |
-| **Mar 12** | Initial claims — FIRST CLEAN READ post-DHS | LABOR,HENRY,REGINALD | 🔴 TRIPWIRE |
-| **Mar 17-18** | FOMC — trapped. Stagflation language watch | HENRY | 🔴 |
-| **Mar 20** | Kuwait curtailment PHYSICAL — 85% conf | BRENT | 🔴🔴 NEAR-CERTAIN |
-| **Mar 24** | FL UI exhaustion Wave 1 | LABOR,REGINALD | 🔴 IMMINENT |
-| **Mar 31** | UAE curtailment PHYSICAL — 80% conf | BRENT | 🔴 NEAR-CERTAIN |
-| **Apr 3** | March NFP — strip healthcare reversal | LABOR | 🔴 |
-| **Apr 16** | OZK Q1 earnings — DETONATOR | REGINALD | 🔴 |
-| **Apr 20-29** | WAL/EGBN/ZION/SSB Q1 earnings | REGINALD | 🔴 |
+The market is treating this as: **oil shock → temporary disruption → ceasefire resolves → normalizes.**
+
+What the system now confirms: **mine floor has severed that logic.** Even in the bull case (ceasefire in 30 days, 3-5% probability), shipping does not normalize for 6-16 weeks due to physical mine clearance + P&I insurance reinstatement lag. The "ceasefire premium" is structurally capped downward — you cannot get a $15-20 overnight oil collapse from good news anymore.
+
+Simultaneously, four independent UST demand anchors ($50-90B/mo) are firing, the credit system is at LIQ-01, private credit gates are active, and the Japan FY-end clock is counting down to ~Apr 1. The system is coiled. VIX 24.93 = spring loaded, not released.
+
+The 1970s analog (HENRY) says: we are in month 0-1 of a potential 26-month equity bottom lag. The market's green days on de-escalation signals are the 18% bull trap Dow equivalent from 1973.
+
+**Consensus is long equities and short volatility into structural demand destruction. That is the trade to be on the other side of.**
 
 ---
 
-## POSITION ALIGNMENT — Mar 9
+## PRIOR CRITICAL ALERTS — MAR 9 (archived for reference, still active)
 
-| Position | Thesis | Multi-Agent Support | Conviction | Action |
-|----------|--------|---------------------|------------|--------|
-| TLT puts (May $80P/$82P) | Stagflation + 3-anchor UST | HENRY+SAM+ZHAO+HAWK (C-07+C-15) | **5/5** ↑ | **TOP PRIORITY ADD Monday** — three anchors now, not two |
-| EGBN $25P Jun | DC federal cuts → CRE vacancy | REGINALD+LABOR | 5/5 | HOLD/ADD. C-17 pulls disclosure left |
-| OZK $42.5P+$45P Aug | Memo3 37.6% + Chicago CRE + C-17 | REGINALD+BROCK | 5/5 ↑ | HOLD. KW bondholder rejection accelerates thesis |
-| KRE $62P/$65P Jun, $55P Aug | Systemic regional credit | HENRY+LABOR+REGINALD | 4/5 | HOLD. Path A now low-prob = less headwind |
-| IWM $250P Jun | Small cap credit/labor | HENRY | 4/5 | HOLD. SPY below 20-wk MA = confirmation |
-| HYG $75P Jun | HY OAS rising floor | HENRY+REGINALD+BROCK | 4/5 ↑ | HOLD. PIMCO "default cycle" = HY OAS has legs |
-| VIX 25/35 call spread | Coiled spring | HENRY | 4/5 | ADD — SPY below 20-wk MA = vol underpriced |
-| USO (2 shares) | Phase 1 physical curtailment | BRENT | 4/5 | HOLD. Kuwait 7 days away. Hard exit on Path A (now low-prob) |
-| LNG $270C/$300C spread | Cheniere consensus error + Ras Laffan | BRENT | 4/5 | ADD — LNG carriers +529% confirms structural |
-| CPER (6 shares) | Sulphur → copper chain | BRENT | 4/5 | HOLD |
-| SSB $90P Jun (+125%) | FL geography + UI cliff | REGINALD+LABOR | — | TRIM 50% Monday if green |
-| BX puts (NEW) | C-16 PE cascade confirmed | BROCK+REGINALD | 3/5 | EVALUATE. Own-capital event = entry signal. |
-| APO puts (NEW) | MFS £400M + PIMCO cycle | BROCK+REGINALD | 3/5 | EVALUATE. APO -39% may have further. |
-
-**Correlation ceiling note (from Mar 7):** Hormuz-correlated book at ceiling. Before adding BX or APO, assess whether these are Hormuz-correlated (they are partially — LNG-credit root). Only add if offsetting energy position trimmed or as hedge replacement.
-
----
-
-## NEXUS SYNTHESIS — What No Agent Saw Alone (Mar 9)
-
-1. **The Three-Anchor UST framework is the most important new synthesis.** Japan (SAM), China (ZHAO), Gulf (Campbell/HAWK) are all simultaneously REDUCING UST purchases or selling. This is unprecedented since at least the 1970s. The consensus "safe haven bid on fear" assumption is wrong — all three anchors are directionally selling, not buying, during this crisis. TLT puts are not a rate trade anymore. They are a structural demand collapse trade. This is a 12-18 month thesis, not a trade.
-
-2. **The private credit cascade is no longer a prediction — it's a real-time event.** BX own-capital deployment + Blue Owl permanent gate + PIMCO "full-blown default cycle" = the tipping point was crossed between Mar 7 and Mar 9. The question is no longer "will private credit crack?" It cracked. The question is "how fast does it spread to public markets?" HY OAS is the transmission mechanism. REGINALD's Apr 16-29 earnings thesis is the disclosure event.
-
-3. **CRE can-kick failure (C-17) may PULL THE DISCLOSURE WINDOW LEFT.** KW bondholder rejection of debt exchange is an independent forcing mechanism — it doesn't wait for Q1 earnings. If KW defaults or goes to court in March, the CRE mark-to-fantasy narrative collapses before April. Watch KW headlines this week.
-
-4. **The fertilizer/food chain cascade (C-18) is the most undiscovered convergence.** No agent individually tracks this — it requires HAWK (Hormuz timing), BRENT (dry bulk trapped), and MARCO (ag supply chain). Spring planting season + Hormuz closure + 280 dry bulk trapped = potential Q3-Q4 food price spike that CARL and MARCO should track for downstream consumer stress.
-
-5. **Taiwan LNG buffer crisis may be within DAYS.** Day 10 of Hormuz closure. 11-day buffer was the BRENT estimate. Stage 1 load shedding announcement (BRENT Conditional D: TSM puts) may trigger this week. This is not a Mar 24 event — it may be a Mar 10-14 event. Check Taipower announcements Monday morning.
-
-*Archive: Mar 7 convergences (C-01 through C-14) → `domain/sources/NEXUS_MAR7_ARCHIVE.md`*
-*Next update trigger: Mar 10 Taiwan grid announcement OR Mar 11 CPI OR Mar 12 claims print*
+| # | Alert | Status |
+|---|-------|--------|
+| 1 | SCENARIO C now base case | ↑ UPGRADED to 60% (was 55%) |
+| 2 | PRIVATE CREDIT CASCADE CONFIRMED | ↑ Stage 4 accelerant added (Gulf SWF) |
+| 3 | THREE-ANCHOR UST FRAMEWORK | ↑ UPGRADED to FOUR-ANCHOR |
+| 4 | KENNEDY-WILSON EXTEND-AND-PRETEND BREAKING | → INTACT |
+| 5 | MFS ARCHITECTURE FORENSICALLY PROVEN | → INTACT |
+| 6 | FINANCE SECTOR JOB OPENINGS AT 2012 LOWS | → INTACT |
+| 7 | HAIFA REFINERY HIT | ↑ Financial infra now also targeted |
+| 8 | PETRODOLLAR TRANSMISSION LIVE | ↑ CONFIRMED via ZHA-08 |
