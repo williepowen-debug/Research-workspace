@@ -1,8 +1,8 @@
 # OTTO STATUS
 
-**Signal Status:** 🔴 CRITICAL | **Last Updated:** 2026-03-09 13:50 UTC
+**Signal Status:** 🔴 CRITICAL | **Last Updated:** 2026-03-11 13:50 UTC
 
-**Summary:** NFP -92K (First Negative Print) | WAL sues Jefferies $126M (First Brands) | MFS: Barclays £500M + Elliott/SMBC/Macquarie exposed + Jefferies scrutiny | First Brands CFO GUILTY — turning on James brothers | Pomerantz CVNA class action active | EDGAR 8-K monitoring protocol LIVE | DQ Rate Record 6.9%
+**Summary:** NFP -92K (First Negative Print) | WAL sues Jefferies $126M (First Brands) | MFS: Barclays £500M + Elliott/SMBC/Macquarie exposed + Jefferies scrutiny | First Brands CFO GUILTY — turning on James brothers | Pomerantz CVNA class action active | EDGAR 8-K monitoring protocol LIVE | DQ Rate Record 6.9% | **NEW: SoFi 2025-1 CNL 2.6% TRIGGERED (first ever)** | **NEW: Goeasy (GSY.TO) -56.97% — Canadian canary**
 
 **Vectors:** 83+ | **ML Entries:** 130+ | **Research Packages:** 15 complete
 
@@ -12,10 +12,10 @@
 
 | To | Priority | Signal | Status |
 |----|----------|--------|--------|
-| REGINALD | 🔴 | Bank losses ~$1.8B+; MFS UK: Barclays + Atlas SP exposed £2B+; JPM/Barclays/Fifth Third sued $230M+ Tricolor | ⏳ PENDING |
-| BROCK | 🔴 | BCRED $3.7B redemptions (7.9% > 5% cap, near-gate); TCPC securities fraud class action | ⏳ PENDING |
+| REGINALD | 🔴 | Bank losses ~$1.8B+; MFS UK: Barclays + Atlas SP exposed £2B+; JPM/Barclays/Fifth Third sued $230M+ Tricolor | ✅ DELIVERED 2026-03-11 |
+| BROCK | 🔴 | BCRED $3.7B redemptions (7.9% > 5% cap, near-gate); TCPC securities fraud class action | ✅ DELIVERED 2026-03-11 |
 | CARL | 🔴 | Auto extensions RISING (3.81% subprime); K-shape confirmed; CFPB dead = no enforcement | UPDATED 2026-02-16 |
-| LIQUID | 🟠 | BCRED gate breach = private credit liquidity stress signal | ⏳ PENDING |
+| LIQUID | 🟠 | BCRED gate breach = private credit liquidity stress signal | ✅ DELIVERED 2026-03-11 |
 
 ---
 
@@ -119,6 +119,13 @@ Recovery ratio 30.58% (vs 41% benchmark). Construction employment -92.7% YoY. S&
 | Westlake | 🟠 | ILC squeeze; >9.5% extensions |
 
 ---
+
+## MAR 10-11 INBOX SIGNALS (processed 2026-03-11)
+
+| Signal | Detail | Impact |
+|--------|--------|--------|
+| **SoFi 2025-1 CNL 2.6% — TRIGGERED** | First-ever CNL trigger for SoFi. Junior tranches subordinated, senior paydown accelerated. Personal loan ABS, not subprime auto — stress broadening UP quality stack. | 🔴 Cross-ref Upstart, LendingClub, Prosper ABS for approaching CNL triggers |
+| **Goeasy (GSY.TO) -56.97% (1 day)** | $115.55→$49.72. Dividend suspended. Outlook withdrawn. NCO near 13% in 2025, rising to mid-teens 2026. Problems in autos + powersports. Canadian subprime lender leads US by 1-2 quarters. | 🔴 Short watchlist: CACC, SYF, OMF, WRLD — similar guidance deterioration imminent? NCO mid-teens = 2x worst US bank 2008. |
 
 ## MAR 9 NEW SIGNALS
 
