@@ -1,9 +1,39 @@
 # BRENT STATUS
 
-**Last Updated:** 2026-03-07 05:30 UTC (Cheniere earnings model ingested — LNG catalyst quantified)
-**Overall Status:** 🔴🔴 RED-RED — HORMUZ CLOSED DAY 7 / STORAGE CRISIS / BRENT $90 / VLCC SUPER-CYCLE CONFIRMED / OPEC SPARE CAPACITY MYTH DEBUNKED / PHASE 2 PLAYBOOK LOCKED
+**Last Updated:** 2026-03-11 14:00 UTC — CRITICAL UPDATE: Active mining confirmed / US sinks 16 minelayers / WTI $85 flash crash / IEA 400M bbl SPR release announced
+**Overall Status:** 🔴🔴 RED-RED — HORMUZ CLOSED DAY 11 + ACTIVELY MINED / STORAGE CRISIS IMMINENT (MAR 20) / WTI $85 FLASH CRASH = BUY SIGNAL / PHASE 1 INTACT / MINE FLOOR EFFECT LOCKS IN EXTENDED DURATION
 
-**Summary:** Hormuz functionally closed (shipping -92%; mainstream effectively zero since Mar 4). Kuwait ~13 days to tank tops (BRT-02 confirmed: Mar 20). UAE ~24 days (BRT-03 confirmed: Mar 31). Iraq already curtailing 1.5 mbpd. Brent $90 (+14% since war began). Two-phase thesis active — Phase 1 (squeeze) in full effect. Phase 2 (demand destruction / OPEC+ unwind) timing uncertain, depends on duration. **BATCH 4 UPDATES (MAR8 reports):** Day-by-day storage models confirm BRT-02/03 dates exactly. ADCOP running 1.5 mbpd (NOT 0.3 mbpd — prior STATUS overestimated drone damage). Larijani/Araghchi explicitly rejected all talks Mar 6. Naval escorts: ZERO missions launched. Iranian ballistic capability -96% degraded but asymmetric (drones/small boats) intact — and US munitions constraints emerging. DFC $20B vs JPMorgan's $352B needed (massive gap). Qatar Ras Laffan OFFLINE. 280 dry bulk carriers trapped (food/fertilizer cascade). GNSS spoofing adds independent deterrent layer. 20% Hormuz reopening buys Kuwait only 3 extra days — need 50%+ for meaningful relief.
+**Summary (Mar 11):** Active mining of Hormuz now confirmed — US destroyed 16 Iranian minelayers on Mar 11. Iran declared "not a single liter" passes to enemies. Dubai airport hit by 2 drones. 3 ships attacked in single day. Iranian financial institutions declared military targets by Tehran (asymmetric escalation). WTI crashed 11% yesterday (Mar 10) on Trump Truth Social rhetoric ("oil will drop rapidly"), then rebounded overnight as US military actions confirmed escalation not de-escalation. WTI $85 this morning — **flash crash, not repricing**. IEA announced 400M barrel release (largest in history). Kuwait storage crisis Mar 20 still on track (9 days away). Phase 1 thesis fully intact with stronger duration floor due to physical mines.
+
+---
+
+## ⚡ CRITICAL NEW DEVELOPMENT — MAR 11: PHYSICAL MINES IN HORMUZ
+
+**The game has changed in one structural way:** Pre-mines, ceasefire = shipping restarts in days. Post-mines = shipping restarts in weeks/months minimum, regardless of diplomatic outcome.
+
+### Mine Clearance Timeline Assessment
+- **"500+ days" (Perplexity estimate):** Likely refers to *comprehensive full-area clearance* of entire Hormuz/Gulf operational zone. This is plausible but NOT the commercially relevant number.
+- **Navigable corridor (MCM sweep):** 30-90 days with dedicated US/allied MCM (mine countermeasures) force. This is what matters for shipping restart.
+- **P&I insurance return:** P&I clubs (Gard, Britannia, North) will NOT reinstate coverage until lanes are verified cleared + track record established. Realistically 4-12 weeks post-corridor clearance. **This is the binding constraint, not physical clearance.**
+- **Historical precedent:** 1991 Gulf War — Iraq laid ~1,300 mines. Safe corridors declared in ~90 days; full clearance took 6+ months. Iran 1988 — ~150 mines; MCM response within weeks but risk premium lasted months.
+- **Bottom line:** Even ceasefire TODAY → Brent remains elevated 30-90 days minimum due to mine clearance + insurance reinstatement lag. Pre-mines, a ceasefire would have collapsed prices by $15-20 overnight. Now, "ceasefire premium" is structurally smaller. **Mines extend Phase 1 duration even in bull-case resolution scenarios.**
+
+### $85 WTI Flash Crash — Assessment
+- **Cause:** Trump Truth Social post claiming "no mines confirmed, want them removed immediately" → market priced ceasefire hope → -11%
+- **Reality check (hours later):** US military released footage of destroying 16 minelayers → active mining confirmed → contradiction
+- **Assessment:** $85 is a mis-pricing. Fundamental supply reality (Kuwait 9 days to tank tops, physical mines in water, Iran no-talks stance) has not changed.
+- **Asymmetry:** Downside from $85 requires genuine ceasefire + corridor clearance + P&I reinstatement (weeks). Upside from $85 requires only… Kuwait hitting tank tops on Mar 20 as modeled. 9 days away.
+- **Proposal:** This is a buy-the-dip moment on USO if Will wants to add. Risk: Trump rhetoric creates additional volatility. But physical reality favors higher, not lower.
+
+### SPR / IEA 400M Barrel Release — Impact Assessment
+- **Scale:** 400M barrels = ~4 days of global consumption (~100M bpd). If released over 90 days = ~4.4 mbpd injection rate.
+- **Comparison:** Hormuz gap = ~15M bpd (20M normal transit - 5M bypass max). SPR covers ~29% of the gap at peak release rate.
+- **Market effect:** Meaningful price dampener but **cannot replace Hormuz.** Prevents $150+ spike scenarios. Does NOT prevent $100-120 range if Hormuz stays closed.
+- **Logistical constraint:** SPR release takes 13-15 days from authorization to tanker loading. Does not hit market for 2+ weeks.
+- **Phase 2 implication:** SPR release is a political marker, not a fundamental fix. Watch for it as a "signal that political ceiling is ~$100-110" — above that level, political pressure forces more intervention.
+- **Important:** IEA release reduces backwardation modestly but does NOT change Phase 2 OPEC+ unwind dynamics. Phase 2 playbook unchanged.
+
+---
 
 ---
 
@@ -11,14 +41,16 @@
 
 | Metric | Value | Source | Updated |
 |--------|-------|--------|---------|
-| Brent spot | $88.59 (Mar 5 close) → $90+ intraday Mar 6 | [CONF] EIA/Bloomberg Mar 6 | Mar 6 |
-| WTI spot | $80.88 | [CONF] EIA Mar 5 close | Mar 6 |
-| Brent-WTI spread | $7.71 | [CONF] EIA derived Mar 5 | Mar 6 |
-| Brent structure | Strong backwardation ~$10-15/bbl M1-M12 | [CONF] Rigzone/WoodMac Mar 2 | Mar 6 |
-| Gasoline crack (3-2-1 LLS Gulf) | $28.91/bbl | [CONF] EIA Mar 5 close | Mar 6 |
-| VLCC rate (TD3C MEG-China) | WS 400+, $423-445K/day — all-time high | [CONF] maritime-hub.com Mar 4 | Mar 6 |
-| Retail gasoline US avg | $3.32/gallon (+2.1% day) | [CONF] AAA/EIA Mar 5 | Mar 6 |
-| War risk premium (Hormuz) | Spiking — insurers pulled coverage Mar 5 | [CONF] HAWK | Mar 6 |
+| WTI spot | **$85** (Mar 11 AM) — flash crash from $107 peak (Mar 9) | [CONF] Will/Reuters Mar 11 | Mar 11 |
+| WTI peak (Mar 9) | $107.09 — largest monthly gain in history (+59.17%) | [CONF] Kobeissi Letter Mar 9 | Mar 9 |
+| Brent spot | ~$90 (Mar 6) → estimated ~$88-92 range Mar 11 (tracking WTI) | [EST] | Mar 11 |
+| Brent-WTI spread | ~$7-8/bbl | [EST] | Mar 11 |
+| Brent structure | Strong backwardation — war premium, exact spread TBD | [EST from structure Mar 6] | Mar 11 |
+| Gasoline crack (3-2-1 LLS Gulf) | $28.91/bbl (Mar 5). Current: elevated, exact TBD | [CONF] EIA Mar 5 | Mar 11 |
+| Retail gasoline US avg | **$3.45/gal** (+16% in one week as of Mar 8-9) | [CONF] AAA Mar 9 | Mar 9 |
+| Diesel US avg | $4.30-4.50/gal (+$0.50-0.75 surge) | [CONF] Mar 9 | Mar 9 |
+| VLCC rate (TD3C MEG-China) | WS 400+, $423-445K/day — all-time high (Mar 4/6) | [CONF] maritime-hub.com Mar 6 | Mar 6 |
+| War risk premium (Hormuz) | Elevated. P&I clubs offline since Mar 5. Physical mines = structural extension | [CONF] + Mar 11 mine confirmation | Mar 11 |
 
 ---
 
@@ -46,11 +78,12 @@
 ### Phase Transition Indicators
 | Signal | Status | What It Means |
 |--------|--------|---------------|
-| Brent >$100 sustained | Not yet | Demand destruction accelerates |
-| US gasoline demand decline >5% YoY | Not yet in data. Stocks -1.704M bbl wk of Feb 27 [CONF EIA] | Consumer pulling back |
-| SPR release announced | Not yet | Political intervention |
-| Hormuz reopens | Not yet | Phase 1 ends, flush risk returns |
+| Brent >$100 sustained | **BREACHED** — WTI $107 / Brent ~$113 on Mar 9 | Phase 1 at target. Demand destruction building. |
+| US gasoline demand decline >5% YoY | Not yet confirmed in EIA data. Stocks -1.704M bbl wk Feb 27 [CONF EIA]. $3.45 avg = demand pain threshold approaching. | Consumer pulling back — data will show May-June |
+| SPR release announced | **YES** — IEA 400M barrels, G7-coordinated, Mar 11. Largest IEA release in history. | Price ceiling ~$100-110 politically. Does NOT replace Hormuz (4.4 mbpd vs 15M gap). |
+| Hormuz reopens | Not yet. Now complicated by physical mines — corridor clearance 30-90 days minimum post-ceasefire. | Phase 1 ends, but mine floor delays full flush. |
 | OPEC+ emergency meeting | Not yet | Coordination on supply response |
+| **Physical mines confirmed** | **YES — Mar 11** | Duration floor elevated. Even ceasefire ≠ immediate shipping restart. |
 
 ---
 

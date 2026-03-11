@@ -1,5 +1,5 @@
 # LIQUID STATUS
-**Last Updated:** 2026-03-10 20:30 UTC | **Status:** 🔴🔴 CRITICAL — HY OAS Mar 9 = **319bps [CONF FRED]** — 1bp from LIQ-01 (320bps). Mar 10 close: 10Y ~4.15% (FLAT despite oil -10%), 30Y 4.784% (+4bps — LONG-END SELLING), 2Y 3.588%. Oil <$90 (Trump "20X harder" Hormuz threat). S&P -0.21%. SOFR 3.65%. RRP Mar 10 = **$0.278B** [CONF FRED]. CPI TOMORROW 8:30 ET (est. +0.3% MoM, +2.5% core YoY). G7 energy: NO SPR DECISION. Hegseth: "most intense strikes day" today — peace narrative from Mon contradicted. **LIQ-01 trigger imminent — 1bp away, CPI is the detonator.**
+**Last Updated:** 2026-03-11 14:00 UTC | **Status:** 🔴🔴 CRITICAL — HY OAS Mar 9 = **319bps [CONF FRED]** — LIQ-01 threshold = 320bps. Mar 10 data releases TODAY (FRED next release Mar 11). CPI Feb in-line (2.4% headline / 2.5% core YoY) — NOT hot. Pre-war data. Relief possible but NOT a structural all-clear. Iran targeting DIFC financial institutions = NEW transmission vector to credit spreads. VIX 24.93 [CONF Mar 10] — COILED SPRING (suspicious compression from 29.91 despite worsening structural risks). 30Y UP 4bps even as oil crashed 11% Mar 10 = stagflation trap CONFIRMED, safe-haven function broken. SOFR 3.64% [CONF Mar 10]. RRP $0.278B [CONF Mar 10] = buffer GONE.
 
 ---
 
