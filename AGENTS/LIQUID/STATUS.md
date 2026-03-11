@@ -3,6 +3,126 @@
 
 ---
 
+## 🚨 MAR 11 UPDATE — INBOX PROCESSED (14:00 UTC)
+
+### LIQ-01 STATUS: THRESHOLD NOT YET CONFIRMED CROSSED
+- **HY OAS Mar 9: 319bps [CONF FRED]** — 1bp from 320 threshold
+- **HY OAS Mar 10: [EST PENDING]** — FRED publishes today. HYG options Mar 10 showed 95% put dominance ("credit spreads widen on economic uncertainty") — consistent with continued widening. With S&P -0.21% and oil -11% (partially offsetting), best estimate: **318-322bps**. Probability of threshold crossing: ~50%.
+- **CCC OAS Mar 9: 969bps [CONF FRED]** — up 12bps from Mar 5 (957bps). CCC is the leading indicator; HY follows.
+- **Verdict:** LIQ-01 trigger status UNRESOLVED until FRED releases Mar 10 data today. Check FRED BAMLH0A0HYM2 again at market close.
+
+### Q1 — IRAN TARGETING FINANCIAL INSTITUTIONS → CREDIT SPREADS
+**This is a NEW transmission vector not previously modeled.**
+
+Iran has designated DIFC (Dubai International Financial Centre) as a military target. DIFC houses Middle East operations of JPMorgan, HSBC, Citi, Deutsche Bank, Standard Chartered.
+
+**Transmission path:**
+1. **DIFC operational impairment** → disrupts dollar-clearing for Gulf sovereign flows → Saudi/UAE/Kuwait SWFs may NOT roll UST positions → **accelerates FOI exit thesis**. This is the highest-stakes transmission: Gulf sovereign forced to hold cash rather than recycle into USTs.
+2. **Bank CDS widening** — financial sector CDS (US/European banks with MENA exposure) widens. Not immediately in HY OAS (which excludes financials) but feeds through: wider bank CDS → credit committees tighten HY facility terms → **new issuance pulled → spread widening +5-15bps over 2-3 days**.
+3. **War risk insurance cascade** — Lloyds, Swiss Re, Munich Re writing war risk for commercial financial infrastructure. DIFC hit = largest war-risk commercial insurance loss since 9/11. Reinsurers crater. **Insurance stocks → collateral for margin calls → forced selling in other assets.**
+4. **CLO arrangers pause** — any material escalation near financial centers causes arranger risk committees to pause new CLO pricing. This removes a bid from leveraged loans → widens HY spreads indirectly.
+
+**Assessment:** Iran-financial-institutions-as-targets is a different TYPE of risk than oil disruption. It attacks the transmission infrastructure itself. HY spread impact: **+5-15bps over 48-72h if DIFC struck**. If DIFC is struck AND HY OAS is at 320 → **LIQ-01 blows through to 330-340 in days**.
+
+**→ Signal to HENRY:** Credit-equity feedback loop activation risk elevated. DIFC operational impairment = potential clearing disruption = tail risk not in VaR models.
+**→ Signal to SAM:** Gulf sovereign dollar recycling at risk. Yen flight-to-safety bid could accelerate if DIFC hit.
+
+### Q2 — VIX AT 24.56 — COILED SPRING ASSESSMENT
+**VIX trajectory:** 23.75 (Mar 5) → 29.91 (Mar 6, NFP -92K) → 25.50 (Mar 9) → 24.93 (Mar 10) [CONF FRED]
+
+**The compression is suspicious.** VIX fell 5 points in 4 days even as:
+- Gulf escalation INTENSIFIED (financial institutions targeted, 3 ship attacks/day)
+- Iran "most intense strikes" on Mar 10 (Hegseth quote)
+- 30Y selling DESPITE oil crash — structural breakdown in safe-haven function
+- HY OAS still 1bp from trigger
+- CCC spreads still widening
+
+**Why VIX compressed anyway:** Oil -11% on Mar 10 was the market's interpretive anchor. Vol sellers read oil drop → inflation risk declining → pressure off Fed → credit relief. This misreads the structural picture. The market is pricing the oil PRICE variable, not the oil DISRUPTION variable (physical Hormuz closure, insurance exit, tanker anchoring).
+
+**Coiled spring dynamics:**
+- At VIX 25, vol sellers are still active (short gamma books adding supply)
+- Tail hedging is incomplete — institutional protection was put on at VIX 30+ peak; at 25, some has been rolled off
+- Positioning hasn't flipped to maximum defensive
+- The gap between priced vol (~25) and structural risk (LIQ-01 at threshold + DIFC targeting + FOI exit accelerating) is widening
+
+**Spring release triggers (any one sufficient for VIX → 35+):**
+1. DIFC struck operationally
+2. Mar 10 HY OAS confirmed ≥320bps (credit-equity feedback loop)
+3. 30Y auction (next refunding week) shows BTC <2.2x with 2bps+ tail
+4. SOFR spike above 3.80% (basis trade stress)
+
+**Assessment:** This is NOT a stable VIX regime. At 24-25, the market is in a "false calm" — complacent on the tail, not actually hedged for the realistic bad outcome. Short-dated SPX puts are cheap relative to the actual risk distribution.
+
+### Q3 — FLIGHT-TO-SAFETY WHEN BONDS ALSO SELLING (STAGFLATION TRAP)
+**The Mar 10 signature: Oil -11%, 30Y +4bps. This is the clearest possible confirmation of stagflation trap.**
+
+In a normal recession: Oil falls → inflation fear drops → bond yields fall (price UP) → flight-to-safety works. BROKEN.
+
+In our regime: Oil falls → Treasuries DON'T rally → because the bond-selling driver is NOT oil/inflation alone, it's **structural term premium repricing** (FOI exit + fiscal deficit + Warsh uncertainty). Oil falling by 11% removes ~2bps of inflation premium, but ongoing FOI selling adds 6bps of term premium → net: bonds SELL.
+
+**Implications:**
+1. **60/40 is BROKEN** — both legs are now positively correlated (both falling). Risk parity funds (Bridgewater, AQW) are being forced to de-lever BOTH sides simultaneously. This is an amplifier, not a stabilizer.
+2. **Where flight-to-safety IS going:**
+   - Gold (non-sovereign, no counterparty risk) ✅
+   - JPY / CHF (safe-haven FX) ✅ — SAM's repatriation thesis accelerating
+   - 2Y T-bills (front-end ONLY — cut pricing + shorter duration = less FOI selling pressure) ✅
+   - Cash / Money market ✅
+   - NOT: 30Y Treasuries, NOT: broad investment-grade bonds
+3. **Stagflation trap is now energy-INDEPENDENT** — even when oil crashed 11%, the trap held. This means the trap is structural, not cyclical. It's the FOI/fiscal/term-premium story, not the oil story.
+4. **For the basis trade:** Basis trade is long cash Treasury, short futures. When cash Treasury prices DON'T rise even as oil falls, the "fundamental value floor" under Treasury prices has moved lower. Repo funding costs (SOFR 3.64%) remain elevated relative to Treasury yields → margin on basis trade is still squeezed.
+
+**Investment implication:** The system is now in a regime where the traditional hedging relationships are reversed. Adding Treasury duration to hedge equity risk is COUNTERPRODUCTIVE. This is the highest-conviction structural signal in LIQUID's analysis.
+
+### STNG / TANKER RESEARCH INTEGRATION (STNG-TANKER-RESEARCH-MAR10)
+- **4/4 sources confirm:** Tanker rates decouple from oil PRICE when physical disruption persists. Driver hierarchy: utilization > ton-miles > oil price.
+- **STNG balance sheet strength:** Net cash $309M, $1.7B liquidity, debt prepaid through 2027. Survives a sustained disruption without stress.
+- **Historical analog (Apr 2025):** Brent -15%, STNG +24.8% — CLEANEST precedent. This is exactly our setup: oil price falling while physical disruption continues (Hormuz).
+- **Key risk:** Jul-Sep 2024 counterpoint (BDTI -21% despite Red Sea risk) — but that was demand volume collapse, not physical closure. Hormuz is a volume-constraint scenario, not demand-collapse scenario.
+- **LIQUID domain implications:** Product tanker credit exposure is IMPROVING despite oil price volatility. STNG's prepaid debt status means no refinancing risk. If STNG is a watchlist trade, the fundamental credit story is clean. Monitor MR spot rate bookings — Q1 2026 $27.5K/day (+12% QoQ) is strong.
+
+### HY DIVERGENCE SIGNAL INTEGRATION (SIG-LIQUID-20260309)
+- **Glenn Shore (Evercore) thesis confirmed:** HY spreads are a LAGGING indicator; ABS triggers and private credit equity are LEADING.
+- **SoFi 2025-1 CNL trigger at 2.6%** — first-ever trigger. This is credit deterioration in consumer ABS NOW flowing to documentation events.
+- **Subprime auto 60+ day delinquencies 7.1% (Fitch) — all-time record.** This is the pre-public-credit-stress signature.
+- **PE drawdowns (CG -25%, APO -39%, BX -43%, KKR -44%, OWL -61%)** — private credit equity knows the book better than the public spread market does. They're pricing in 40-60% stress scenarios.
+- **Convergence thesis:** Either HY OAS catches up to private credit equity pain (320bps → 400bps+) or private credit equity recovers. Given the structural drivers (stagflation trap, FOI exit, war), the recovery scenario requires a dramatic policy reversal. The widening scenario is base case.
+- **Our HYG $75P Jun x10 is correctly positioned for this convergence.**
+
+### CONFIRMED DATA SNAPSHOT — MAR 11 AM
+| Indicator | Value | Source | Date |
+|-----------|-------|--------|------|
+| HY OAS | **319bps** | CONF FRED | Mar 9 |
+| HY OAS Mar 10 | **[PENDING — releases today]** | FRED next release Mar 11 | Mar 10 |
+| IG OAS | 85bps | CONF FRED | Mar 9 |
+| CCC OAS | 969bps | CONF FRED | Mar 9 (+12bps WoW) |
+| VIX | 24.93 | CONF FRED | Mar 10 |
+| SOFR | 3.64% | CONF FRED | Mar 10 |
+| RRP | $0.278B | CONF FRED | Mar 10 |
+| CPI Feb | 2.4% headline / 2.5% core | CONF CNBC/NYT | Mar 11 release |
+| 10Y | ~4.15% (flat despite oil -10%) | Mar 10 | EST |
+| 30Y | 4.784% (+4bps) | Mar 10 | EST |
+| Oil | <$90 | Mar 10 | EST |
+
+### PROPOSALS
+
+**PROPOSAL 1 — MONITOR FRED TODAY FOR LIQ-01 CONFIRMATION**
+FRED releases Mar 10 HY OAS today. When released, if ≥320bps → LIQ-01 officially triggered. Send confirmation signal to HENRY and SAM immediately. LIQ-01 trigger = credit-equity feedback loop activation (HENRY's VaR cascade modeling), SAM repatriation timing acceleration.
+*Action: Check FRED BAMLH0A0HYM2 this afternoon. No trade action needed until confirmed.*
+
+**PROPOSAL 2 — ADD DIFC SCENARIO TO DANGER WINDOWS**
+Iran-financial-institutions-as-targets is a new scenario not in current Danger Windows. Recommend adding: **"DIFC operational impairment event"** → immediate escalation to 🔴🔴🔴 MAX. Signal chain: DIFC hit → Gulf sovereign dollar recycling disrupts → FOI exit accelerates → 30Y yield spike + HY OAS +15-25bps in single session → LIQ-01 blows through.
+*Action: Update Danger Windows table. Route DIFC monitoring to HAWK.*
+
+**PROPOSAL 3 — REASSESS CRUDE SHORT TIMING**
+Original thesis: 140M barrel flush April-May → short crude $55-57. Oil crashed 11% on Mar 10 even amid Gulf escalation — the downside can overwhelm the war premium. If DIFC threat causes Gulf sovereigns to pause oil operations (defensive posture), supply may tighten near-term before the April flush. Recommend waiting for Gulf ceasefire signals OR Hormuz physical reopening before entering crude short. The war premium is not fully priced out yet.
+*Action: Keep crude short ON HOLD. Re-evaluate in 2 weeks or on clear de-escalation.*
+
+**PROPOSAL 4 — HYG PUT POSITION SIZE REVIEW**
+HYG $75P Jun x10 positioned for LIQ-01 convergence. With LIQ-01 1bp away and Mar 10 data pending, this position may be AT or NEAR max risk/reward entry. CPI in-line (not hot) means NO immediate relief for HY spreads, but also no panic catalyst today. The spread convergence is a slow-motion grind unless a shock event occurs (DIFC, auction failure, SOFR spike). 
+*Question for Will: Is x10 the right size if the convergence is slow (weeks) vs fast (days)? IV may decay if VIX stays 24-26.*
+
+---
+
 ## 🚨 MAR 10 EOD UPDATE (20:30 UTC)
 
 **CONFIRMED DATA:**
