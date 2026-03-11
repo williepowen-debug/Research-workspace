@@ -1,8 +1,8 @@
 # CARL STATUS
-**Updated:** 2026-03-10 22:15 UTC (Subagent signal batch)
-**Overall Status:** 🔴🔴 CRITICAL — Subprime Auto BREACHED, Gas Squeeze LIVE (WTI $107), Goeasy -51% CANADIAN CANARY, SoFi 2025-1 CNL FIRST EVER, Fertilizer→Food Q3-Q4 2026, DOGE RIF Demand Shock ACTIVE, UI Exhaustion Cliff Mar 24
+**Updated:** 2026-03-11 13:15 UTC (Daily check-in — war escalation processed)
+**Overall Status:** 🔴🔴 CRITICAL — Subprime Auto BREACHED, Gas Squeeze LOCKED STRUCTURAL (Hormuz mined, WTI $107+), Goeasy -51% CANADIAN CANARY, SoFi 2025-1 CNL FIRST EVER, Fertilizer→Food Q3-Q4 HIGH-CONFIDENCE, DOGE RIF Demand Shock ACTIVE, UI Exhaustion Cliff Mar 24, Iran Targeting Financial Institutions (NEW)
 
-**Summary:** Consumer fragility at extreme levels. Subprime auto 60+ DQ **7.1% — ALL-TIME RECORD, RED threshold BREACHED**. Fannie MF DQ 0.74% (6bps from GFC peak). Gas squeeze ACCELERATING: WTI $107 (from $90 Friday), pump $3.40/gal (+$0.45 in one week), diesel $4.30-4.50 — window moved LEFT, pump pressure LIVE NOW not Mar 14. DOGE RIF: 327K permanent separations confirmed = localized demand destruction. NFP -92K + continuing claims 1,868K (approaching YELLOW 1.9M). UI exhaustion cliff Mar 24 locked. Stagflation trap deepens: GDPNow 2.1% (down 0.9pp in 4 days), wages sticky (+3.8% YoY) while payrolls break. No policy backstop. **NEW (Mar 10):** Goeasy (GSY.TO) -50.67% in one day on subprime default surge — CANADIAN CANARY; employment detonator (NFP -92K) meets credit stress. SoFi 2025-1 CNL trigger BREACHED at 2.6% — first ever — broadening stress UP quality stack into personal loans. Fertilizer spike (urea +27-34%) → food inflation Q3-Q4 2026 = second inflation vector independent of energy. Electronics tariff pass-through LIVE: TVs +25%, laptops +15-25%, appliances +20-30%.
+**Summary:** Consumer fragility at extreme levels. Subprime auto 60+ DQ **7.1% — ALL-TIME RECORD, RED threshold BREACHED**. Fannie MF DQ 0.74% (6bps from GFC peak). Gas squeeze NOW STRUCTURAL: Hormuz actively mined, WTI $107+, pump $3.40/gal → $4.00+ base case, diesel $4.30-4.50 — no relief valve until military resolution. DOGE RIF: 327K permanent separations confirmed = localized demand destruction. NFP -92K + continuing claims 1,868K (approaching YELLOW 1.9M). UI exhaustion cliff Mar 24 locked. Stagflation trap deepens: GDPNow 2.1% (down 0.9pp in 4 days), wages sticky (+3.8% YoY) while payrolls break. No policy backstop. **NEW (Mar 11):** Hormuz actively mined + Dubai airport drone strike + Iran declares financial institutions as military targets — oil shock becomes structural, not a spike. Fertilizer stranding now locked (not probabilistic) → food CPI Q3-Q4 HIGH-CONFIDENCE. Iran financial institution threat = NEW ABS servicer operational risk. Danger window pulled forward: Q2 leading edge DQ conversion (was Q3 primary). **CPI TRAP Mar 12:** Feb data won't capture oil spike — tame print ≠ cooling; real shock hits April CPI. Claims Thursday Mar 13 = live YELLOW threshold test (1,868K vs 1,900K). **Prior (Mar 10):** Goeasy (GSY.TO) -50.67% in one day — CANADIAN CANARY; SoFi 2025-1 CNL trigger BREACHED at 2.6% — first ever — broadening stress UP quality stack. Electronics tariff pass-through LIVE: TVs +25%, laptops +15-25%, appliances +20-30%.
 
 ---
 
@@ -129,7 +129,8 @@
 |------|--------|-------------|--------|
 | LABOR | NFP -92K, claims 213K | Employment detonator approaching | 🔴 ACTIVE |
 | LABOR | FL WARN exhaustion Mar 24 | Consumption cliff → May DQ spike | 🟠 IMMINENT |
-| HAWK | **WTI $107 (was $90 Fri), pump $3.40/gal (+$0.45/wk), diesel $4.30-4.50** | **Gas squeeze LIVE NOW — window moved left** | 🔴🔴 ACCELERATING |
+| HAWK | **WTI $107+, pump $3.40→$4.00+ base case, diesel $4.30-4.50+** | **Gas squeeze NOW STRUCTURAL — Hormuz mined, no relief valve until military resolution** | 🔴🔴 LOCKED |
+| WAR | **Hormuz actively mined, Dubai airport drone strike, Iran declares financial institutions as military targets** | **Oil shock structural; ABS servicer operational risk NEW; food inflation locked for Q3-Q4** | 🔴🔴 NEW (Mar 11) |
 | HAWK | Fertilizer shock (13% global from Gulf) | Food CPI Q3-Q4 2026; urea +27-34% in 10 days; spring planting inelastic demand | 🔴 UPGRADED |
 | HAWK | Diesel $4.30-4.50 | Trucking surcharges → food price transmission accelerant (6-8wk lag) | 🔴 NEW |
 | LABOR | **DOGE RIF 327K permanent separations** | **Localized demand destruction; federal hub metros. Not yet in thesis.** | 🔴🔴 NEW — processing |
@@ -197,3 +198,4 @@ Consumer stress is the most advanced it's been since we started tracking. One ve
 | 2026-03-09 | SoFi 2025-1 CNL trigger 2.6% — FIRST EVER | ✅ | ABS section added; broadens stress UP quality stack. KB-CARL-078. |
 | 2026-03-10 | Goeasy (GSY.TO) -50.67% — Canadian subprime canary | ✅ | Canadian canary signal; cross-ref CACC/SYF/OMF/WRLD. KB-CARL-079. |
 | 2026-03-10 | Fertilizer→Food inflation: urea +27-34%, food CPI Q3-Q4 2026 | ✅ | Second inflation vector. K-shape amplifier. KB-CARL-080. |
+| 2026-03-11 | War escalation: Hormuz mined, Dubai airport struck, Iran targets financial institutions | ✅ | Gas squeeze locked structural (no peak). Food inflation high-confidence. ABS servicer risk NEW. Danger window pulled forward to Q2. CPI trap flagged for Mar 12. |
