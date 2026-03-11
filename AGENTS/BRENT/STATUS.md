@@ -56,13 +56,18 @@
 
 ## TWO-PHASE OIL THESIS
 
-### Phase 1: Supply Squeeze (ACTIVE)
-- Hormuz closed → 20% of global oil transit removed
-- Kuwait/Qatar already curtailing production (storage full)
-- UAE ~22 days of storage runway [CONF] JPMorgan Mar 5
-- Iraq next in line [CONF] Reuters Mar 5
-- If Hormuz closed 4 weeks → all Gulf producers forced to shut [EST] IntelliNews
-- **Brent trajectory:** $90 → $100-105 (Scenario B), $105-130 (Scenario C)
+### Phase 1: Supply Squeeze (ACTIVE — extended by physical mines)
+- Hormuz closed → 20% of global oil transit removed + **physically mined as of Mar 11**
+- Kuwait/Qatar already curtailing production (storage full). **Kuwait 9 days to tank tops (Mar 20)**
+- UAE ~20 days of storage runway
+- Iraq curtailing 1.5 mbpd
+- Physical mines → even ceasefire → 30-90 day delay before shipping restarts
+- **Brent trajectory (UPDATED Mar 11):**
+  - **$85 → flash crash, not fundamental (WTI $85 = buy the dip)**
+  - **$90 base case:** Kuwait hits tank tops Mar 20 as modeled → forced curtailment headline → oil rebounds. Base scenario with SPR partially offsetting.
+  - **$100 next leg:** All 4 Gulf producers curtailing + SPR insufficient to close gap. ~2-3 week timeline from Mar 11.
+  - **$120 scenario:** Extended closure 6-8+ weeks, mine clearance delays, Iran executes full commercial shipping blockade. SPR ceiling ~$110; above that, political options exhausted.
+  - **Mine floor effect:** WTI floor is ~$85-90 even WITH SPR release, because physical mines prevent full supply restoration on any short timeline.
 
 ### Phase 2: Demand Destruction / OPEC+ Unwind (NOT YET — but mechanics now mapped)
 - Original timing: Apr-May (pre-war, based on 140M barrel OPEC+ flush)
@@ -118,9 +123,10 @@
 
 | Position | Entry | Current | P/L | Notes |
 |----------|-------|---------|-----|-------|
-| USO (2 shares) | ~$96 [EST] | ~$110+ [EST Mar 6] | +~15% [EST] | WTI $80.88 → USO tracks. Add on dips. |
-| STNG (2 shares) | ~$76.27 [CONF] | $80.19 [CONF] MacroTrends Mar 4 | +5.2% [CONF] | VLCC rates at all-time high. Thesis working. |
+| USO (2 shares) | ~$96 [EST] | **~$103 [EST, WTI $85]** | **+~7% [EST]** | WTI peaked $107 (USO ~$119 EST), pulled back to $85. Flash crash = potential add opportunity. |
+| STNG (2 shares) | ~$76.27 [CONF] | [CONF needed] | TBD | VLCC rates at all-time high. Physical mines extend thesis. |
 | USO 91C Mar 18 | SOLD Mar 6 | $17.00 | +$1,098 (+183%) | Harvested |
+| **PROPOSED ADD:** USO at ~$100-103 | — | — | — | See proposal below |
 
 **Watchlist:**
 - USO adds on dips (Phase 1 continuation)
@@ -134,9 +140,9 @@
 
 | Vector | Score | Current State | Threshold → Next | Updated |
 |--------|-------|---------------|------------------|---------|
-| Hormuz/chokepoint | 🔴🔴 5 | -92% shipping, de facto closed | Physical mines = confirmed blockade | Mar 6 |
+| Hormuz/chokepoint | 🔴🔴 5 | -92% shipping + **PHYSICAL MINES CONFIRMED** (Mar 11). US sank 16 minelayers. Iran: full blockade. Dubai airport hit. 3 ships attacked in single day. | Physical mines = duration floor. Even ceasefire → 30-90 day corridor clearance before shipping. | Mar 11 |
 | Gulf production | 🔴 4 | Kuwait/Qatar curtailing; UAE/Iraq imminent | All 4 shut = 5 | Mar 6 |
-| Brent price | 🔴🔴 5 | $90 (+14% since war) | >$100 = Scenario C territory | Mar 6 |
+| Brent price | 🔴🔴 5 | **WTI $107 peak (Mar 9), $85 flash crash (Mar 11)**. $100 threshold breached and retreated on Trump rhetoric + SPR announcement. Physical reality supports $90+ base. | $85 = buy-the-dip. $107 = peak was Scenario C entry. Mine floor: $85-90 base even with SPR. | Mar 11 |
 | US production response | 🟡 2 | NON-RESPONSE CONFIRMED: 411 oil rigs (flat/declining), DUC 5,015 (-41% from peak), no capex increases announced. Max surge 200-240K bpd/90 days — well below crisis need. | Rig count >461 (+50 from 411 trough) = shale finally responding | Mar 6 |
 | Demand destruction | 🟠 3 | Implied at $90+. 20-24 wk min historical. 2026 more inelastic. Watch airlines + ATA Tonnage as leading indicators. EIA early data misleads. | Gasoline -5% YoY confirmed (earliest May-June) | Mar 6 |
 | Storage (global) | 🔴 4 | Gulf filling; Cushing +1.564M bbl wk Feb 27 (~24-26M est) [CONF EIA] | Cushing <20M = WTI dislocation | Mar 6 |
@@ -144,7 +150,7 @@
 | Energy credit | 🟡 2 | CONFIRMED: HY Energy OAS 300 bps (Mar 5) — 8 bps TIGHTER than broad HY (308 bps). E&P is geopolitical safe haven. Phase 2 leading indicators NOT yet triggered: refiner crack compression, EM sovereign CDS, CCC-rated decoupling. E&P defaults lag price crash 6-12 months. | HY energy OAS >400 AND crack spreads compressing = Phase 2 credit warning | Mar 6 |
 | OPEC+ policy | 🔴 4 | 3.24 mbpd deferred. Unwind paused by war. When Hormuz reopens: Day 3 meeting, Day 8 VLCC loading, price crash. Paper quotas ≠ physical (2022 gap was 2.7-2.89 mbpd). | Hormuz reopens → immediately = 5 | Mar 6 |
 
-**Convergence: 34/45 🔴🔴** *(Batch 3 updates: VX-BRT-04 Tanker upgraded ORANGE→RED. OPEC spare capacity myth debunked — true spare 4.35M (not 5-6M), 90% trapped. Bypass ceiling confirmed 3.3-3.5M bpd max. Phase 2 playbook locked. Refinery/crack spread data integrated. Macro transmission chain mapped. LNG vector not in matrix but tracked separately.)*
+**Convergence: 38/45 🔴🔴** *(Mar 11 update: Physical mines confirmed → Hormuz vector upgraded. SPR 400M bbl announced → political intervention marker. WTI flash crash to $85 = mis-pricing, not thesis break. Kuwait 9 days to curtailment. Mine floor extends Phase 1 duration even in bull-case resolution.)*
 
 ---
 
