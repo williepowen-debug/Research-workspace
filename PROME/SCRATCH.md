@@ -5,31 +5,41 @@
 ---
 
 ## Handoff
-**Last context:** Massive agent processing round — 15 agents spawned, all completed. Proposal review ~60% done with Will. Market open: CF +8%, WAL below $70, USO recovering, STNG near stop.
+**Last context:** Full day — biggest agent processing round of the operation (15 agents). ALL proposals reviewed and approved. CARL Opus EDGAR pull completed. JPM private credit restriction signal caught EOD. Will sold USO call (+88%), GLD, HYG (lesson learned). Cash ~$6,500.
 
 **Next tide:**
-1. **🔴 USO calls expire Friday.** $106C now ATM on recovery. Plan: sell $106C on bounce, ride $100C with stop at USO $103. Don't hold overnight into Thursday.
-2. **🔴 CPI tomorrow Mar 12 8:30 AM ET.** CARL: tame = trap (Feb data, pre-oil). Hot = thesis accelerates. Decision tree below.
-3. **🔴 Claims Thursday Mar 13 8:30 AM ET.** First clean read. ≥235K = LABOR Vector 3 max.
-4. **🟡 STNG $72.57 — near $71.50 stop.** Watch.
-5. **Finish proposal approvals** — CARL (3), MARCO (3), NEXUS (5) still pending.
-6. **Check FRED for Mar 10 HY OAS** — LIQ-01 trigger at 320. LIQUID says ~50% chance it crossed.
-7. **OTTO proposals** — still unexecuted from prior sessions.
+1. **🔴 CPI tomorrow Mar 12 8:30 AM ET.** CARL: tame = trap (Feb data, pre-oil). Hot = thesis accelerates.
+2. **🔴 USO $106C Mar 13 — SELL AT OPEN.** Expires Friday. USO closed $108, this is ~$2 ITM. Don't let theta eat another day.
+3. **🔴 Check FRED for Mar 10 HY OAS** — LIQ-01 trigger at 320. LIQUID says ~50% it crossed.
+4. **🔴 Claims Thursday Mar 13 8:30 AM ET.** First clean read post-DHS. ≥235K = LABOR Vector 3 max.
+5. **TLT puts** — add post-CPI on first green TLT day. Cash ready (~$6,500).
+6. **HYG puts** — add Sep/Dec on green day. Roll duration, don't trim (lesson learned today).
+7. **Process JPM signal** — BROCK + LIQUID inboxes loaded. Spawn in AM.
+8. **HAWK/HANS file audit** — same treatment as LIQUID (STATUS→VX/FLOW/workbook).
+9. **OTTO** — 5 proposals still unexecuted.
+10. **CARL** — SDART historical vintage comparison at same seasoning, Exeter pull.
+11. **STNG $73.26** — stop at $71.50. Watch.
+12. **LNG $250C Mar 20** — assess roll/cut this week.
 
 **CPI Decision Tree (Mar 12):**
 - HOT → TLT holds, CF holds, hold everything. Thesis accelerates.
 - IN-LINE → hold, wait for Thu claims. No new trades.
 - COOL → hold, thesis intact but slower. CARL: tame = Feb data (pre-oil spike). Real shock = April CPI. Don't invalidate.
 
-**Approved today:** SAM all 5, ZHAO all 5, HAWK probabilities + watchlist items, BRENT to TRADE.md, BROCK watch items, REGINALD Layer 3 finding (no size increase).
+**All proposals approved.** Full list in memory/2026-03-11.md checkpoint [16:45 ET].
 
-**Key framework upgrades from today's round:**
-- Four-anchor UST: $50-90B/month (Japan + China + Korea + Gulf)
+**Key framework upgrades from today:**
+- Four-anchor UST: $50-90B/month (Japan + China + Korea + Gulf). NEXUS confirmed.
 - Mine floor: even ceasefire = 6-16 weeks before normal shipping
 - Stagflation trap: confirmed energy-independent (30Y +4bps on oil -11%)
 - VIX coiled spring: false calm at 25 vs structural risk
 - Layer 3 CRE fraud: NOI inflated at origination, writedowns > consensus
-- DIFC targeting: 4 transmission paths to credit spreads (LIQUID + ZHAO + BROCK convergence)
+- DIFC targeting: 4 transmission paths (LIQUID + ZHAO + BROCK convergence)
+- JPM restricting private credit lending — "echoes 2007 subprime" (Reuters)
+- SDART 34x delinquency gap vs Honda, 1.8pp from trigger (CARL Opus)
+- Lesson: roll duration, don't trim size (HYG)
+
+**Rhythm note:** Most productive day for the agent network. All 15 agents processed signals, all proposals resolved in one session. Will learning actively — asked for trade analysis, internalized the HYG lesson. System is humming.
 
 **Next tide:**
 1. **🔴🔴 PROCESS RED TEAM REPORT — CRITICAL** — Filed at `AGENTS/RED/challenges/HORMUZ_RED_TEAM_2026-03-10.md`. THREE IMMEDIATE VERIFICATIONS NEEDED:
