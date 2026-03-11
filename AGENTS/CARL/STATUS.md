@@ -1,8 +1,8 @@
 # CARL STATUS
-**Updated:** 2026-03-11 13:15 UTC (Daily check-in — war escalation processed)
-**Overall Status:** 🔴🔴 CRITICAL — Subprime Auto BREACHED, Gas Squeeze LOCKED STRUCTURAL (Hormuz mined, WTI $107+), Goeasy -51% CANADIAN CANARY, SoFi 2025-1 CNL FIRST EVER, Fertilizer→Food Q3-Q4 HIGH-CONFIDENCE, DOGE RIF Demand Shock ACTIVE, UI Exhaustion Cliff Mar 24, Iran Targeting Financial Institutions (NEW)
+**Updated:** 2026-03-11 14:30 UTC (Inbox processed — auto fraud, Goeasy detail, ABS originate-to-distribute)
+**Overall Status:** 🔴🔴 CRITICAL — Subprime Auto BREACHED, Gas Squeeze LOCKED STRUCTURAL (Hormuz mined, WTI $107+), Goeasy -57% CANADIAN CANARY (NCO→mid-teens, dividend suspended), SoFi 2025-1 CNL FIRST EVER, Auto ABS Fraud Re-Emerging (UNICUS + sources, not public), Fertilizer→Food Q3-Q4 HIGH-CONFIDENCE, DOGE RIF Demand Shock ACTIVE, UI Exhaustion Cliff Mar 24, Iran Targeting Financial Institutions
 
-**Summary:** Consumer fragility at extreme levels. Subprime auto 60+ DQ **7.1% — ALL-TIME RECORD, RED threshold BREACHED**. Fannie MF DQ 0.74% (6bps from GFC peak). Gas squeeze NOW STRUCTURAL: Hormuz actively mined, WTI $107+, pump $3.40/gal → $4.00+ base case, diesel $4.30-4.50 — no relief valve until military resolution. DOGE RIF: 327K permanent separations confirmed = localized demand destruction. NFP -92K + continuing claims 1,868K (approaching YELLOW 1.9M). UI exhaustion cliff Mar 24 locked. Stagflation trap deepens: GDPNow 2.1% (down 0.9pp in 4 days), wages sticky (+3.8% YoY) while payrolls break. No policy backstop. **NEW (Mar 11):** Hormuz actively mined + Dubai airport drone strike + Iran declares financial institutions as military targets — oil shock becomes structural, not a spike. Fertilizer stranding now locked (not probabilistic) → food CPI Q3-Q4 HIGH-CONFIDENCE. Iran financial institution threat = NEW ABS servicer operational risk. Danger window pulled forward: Q2 leading edge DQ conversion (was Q3 primary). **CPI TRAP Mar 12:** Feb data won't capture oil spike — tame print ≠ cooling; real shock hits April CPI. Claims Thursday Mar 13 = live YELLOW threshold test (1,868K vs 1,900K). **Prior (Mar 10):** Goeasy (GSY.TO) -50.67% in one day — CANADIAN CANARY; SoFi 2025-1 CNL trigger BREACHED at 2.6% — first ever — broadening stress UP quality stack. Electronics tariff pass-through LIVE: TVs +25%, laptops +15-25%, appliances +20-30%.
+**Summary:** Consumer fragility at extreme levels. Subprime auto 60+ DQ **7.1% — ALL-TIME RECORD, RED threshold BREACHED**. Fannie MF DQ 0.74% (6bps from GFC peak). Gas squeeze NOW STRUCTURAL: Hormuz actively mined, WTI $107+, pump $3.40/gal → $4.00+ base case, diesel $4.30-4.50 — no relief valve until military resolution. DOGE RIF: 327K permanent separations confirmed = localized demand destruction. NFP -92K + continuing claims 1,868K (approaching YELLOW 1.9M). UI exhaustion cliff Mar 24 locked. Stagflation trap deepens: GDPNow 2.1% (down 0.9pp in 4 days), wages sticky (+3.8% YoY) while payrolls break. No policy backstop. **NEW (Mar 11):** Hormuz actively mined + Dubai airport drone strike + Iran declares financial institutions as military targets — oil shock becomes structural, not a spike. Fertilizer stranding now locked (not probabilistic) → food CPI Q3-Q4 HIGH-CONFIDENCE. Iran financial institution threat = NEW ABS servicer operational risk. Danger window pulled forward: Q2 leading edge DQ conversion (was Q3 primary). **CPI TRAP Mar 12:** Feb data won't capture oil spike — tame print ≠ cooling; real shock hits April CPI. Claims Thursday Mar 13 = live YELLOW threshold test (1,868K vs 1,900K). **Prior (Mar 10):** Goeasy (GSY.TO) **REVISED -56.97%** (not -50.67%) — dividend SUSPENDED, outlook WITHDRAWN, $233M writeoff, NCO 13% (2025) → MID-TEENS (2026), specifically autos + powersports; SoFi 2025-1 CNL trigger BREACHED at 2.6% — first ever — broadening stress UP quality stack. Electronics tariff pass-through LIVE: TVs +25%, laptops +15-25%, appliances +20-30%. **⚠️ FRAUD SIGNAL (not yet public):** Unicus Research + sources indicating auto ABS originate-to-distribute fraud patterns re-emerging — same architecture as Santander $550M (2020) settlement. Originating dealers "long gone, fee in pocket" while ABS investors hold deteriorating pools. Monitor Santander/Exeter ABS trusts for DQ acceleration.
 
 ---
 
@@ -14,7 +14,7 @@
 | CC 90+ DQ | **12.70%** | 🔴 | GFC peak 13.74% (92%) | NY Fed Q4 2025 |
 | Subprime Auto 60+ DQ | **7.1%** ⚠️ | 🔴 BREACHED | RED 7.0% — ALL-TIME RECORD | Fitch ABS Feb 2026 |
 | SoFi 2025-1 CNL | **2.6% — TRIGGERED** | 🔴 NEW | First ever CNL trigger | Eisman Ep 49 (Dwight Collins) |
-| Goeasy (GSY.TO) Stock | **-50.67% (1 day)** | 🔴 NEW | Canadian subprime canary | @altruafinancial Mar 10 |
+| Goeasy (GSY.TO) Stock | **-56.97% (1 day) — REVISED** | 🔴 | Canadian subprime canary. Dividend suspended. Outlook withdrawn. | Financial Post Mar 10 |
 | Auto 90+ DQ | **5.21%** | 🔴 | Historical max 5.27% | NY Fed Q4 2025 |
 | Student Loan 30+ DQ | **16.3%** | 🔴 | WORST EVER | NY Fed Q4 2025 |
 | Student Loan 90+ DQ | **9.6%** | 🔴 | 0.4pp from 10% | NY Fed Q4 2025 |
@@ -26,10 +26,12 @@
 | Metric | Value | Status | Notes |
 |--------|-------|--------|-------|
 | SoFi 2025-1 CNL Trigger | **2.6% — BREACHED** | 🔴 | First ever CNL. Junior tranches cut off. Personal loans, not subprime auto — stress broadening UP quality stack. |
-| Goeasy GSY.TO 1-day | **-50.67%** ($115.55→$57) | 🔴 | Canadian subprime lender. -61% past year. Default surge + writedowns. Canadian canary leads US by 1-2 quarters. |
+| Goeasy GSY.TO 1-day | **-56.97% REVISED** ($115.55→$49.72, low $46.26) | 🔴 | Dividend SUSPENDED. Outlook WITHDRAWN. $233M writeoff. NCO 13% (2025) → MID-TEENS (2026). Autos + powersports cracking. -61% past year. Leads US 1-2 quarters. |
 | Goeasy vs US Peers | CACC, SYF, OMF, WRLD | 🟠 WATCH | Cross-reference guidance — Feb improvement may have been brief. Fitch 7.1% + SoFi CNL + Goeasy = sequence. |
 | Fertilizer Urea Price | **+27-34% in 10 days** ($700/ton) | 🟠 | Gulf fertilizer stranded behind Hormuz (~1M tons/month). Spring planting inelastic. Food CPI Q3-Q4 2026. |
 | ABS vs HY Divergence | Structured cracking first | 🔴 | CNL triggers firing while HY spreads haven't moved — structured products early warning system active. |
+| Auto ABS Fraud Signal | Re-emerging (not public) | 🔴 NEW | Sources: originate-to-distribute patterns resuming. Santander precedent ($550M, 2020): fraud dealers funded for volume, packaged into ABS. Unicus Research: same architecture across auto/CRE/floor plan. Pool quality worse than reported until charge-offs surface. |
+| Goeasy NCO Path | 13% → mid-teens 2026 | 🔴 NEW | Double worst US bank NCO in 2008 (Whalen). Autos + powersports specifically. Dividend suspended = no management confidence. |
 
 ### Housing / Multifamily
 | Metric | Value | Status | Threshold | Source |
@@ -199,3 +201,6 @@ Consumer stress is the most advanced it's been since we started tracking. One ve
 | 2026-03-10 | Goeasy (GSY.TO) -50.67% — Canadian subprime canary | ✅ | Canadian canary signal; cross-ref CACC/SYF/OMF/WRLD. KB-CARL-079. |
 | 2026-03-10 | Fertilizer→Food inflation: urea +27-34%, food CPI Q3-Q4 2026 | ✅ | Second inflation vector. K-shape amplifier. KB-CARL-080. |
 | 2026-03-11 | War escalation: Hormuz mined, Dubai airport struck, Iran targets financial institutions | ✅ | Gas squeeze locked structural (no peak). Food inflation high-confidence. ABS servicer risk NEW. Danger window pulled forward to Q2. CPI trap flagged for Mar 12. |
+| 2026-03-10 | Goeasy REVISED: -56.97%, dividend suspended, outlook withdrawn, $233M writeoff, NCO 13%→mid-teens | ✅ | Dashboard updated. KB-CARL-084. VX-CARL-CAN-01 revised. |
+| 2026-03-10 | Unicus Research: auto ABS fraud re-emerging — originate-to-distribute, Santander $550M precedent | ✅ | Fraud context added to ABS-08/09/10/13 VX notes. KB-CARL-083. PROPOSAL: expedite ABS baseline sprint. |
+| 2026-03-10 | Auto ABS originate-to-distribute patterns re-emerging (sources, not public) | ✅ | KB-CARL-082. Monitoring flag set for Santander/Exeter trust DQ acceleration. |
