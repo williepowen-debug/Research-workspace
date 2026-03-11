@@ -129,10 +129,34 @@
 | **PROPOSED ADD:** USO at ~$100-103 | — | — | — | See proposal below |
 
 **Watchlist:**
-- USO adds on dips (Phase 1 continuation)
+- USO adds on dips (Phase 1 continuation) — **$85 WTI is the dip. 9 days to Kuwait catalyst.**
 - US-listed beneficiaries of sustained high oil (RESEARCH NEEDED: E&P, services, infrastructure)
 - Refiner shorts if crack spreads compress
 - Tanker adds if VLCC rates confirm super-cycle
+
+---
+
+## 🎯 PROPOSALS (Mar 11)
+
+### PROPOSAL 1: USO Add on Flash Crash
+**Action:** Add USO shares at ~$100-103 (WTI $85 equivalent)
+**Thesis:** Flash crash driven by Trump rhetoric contradicted by US military action within 2 hours. Physical reality (mines, Kuwait 9 days to tank tops, Iran no-talks) unchanged. $107 was Phase 1 target — we're now $22 below that on narrative noise.
+**Catalyst:** Kuwait storage crisis Mar 20 (9 days). All-4-curtailment scenario within 2-3 weeks.
+**Risk:** Trump escalates SPR release further, announces ceasefire talks, or Iran folds rapidly. Stop conceptual around $95 USO (WTI ~$78).
+**Size:** Will's call on sizing. Even 1-2 shares captures the next move to $100.
+**[Approve] [Reject]**
+
+### PROPOSAL 2: Hold STNG — Mine Floor Extends Tanker Thesis
+**Action:** No change to STNG. Stop remains $71.50.
+**Rationale:** Physical mines extend the duration of Hormuz disruption even post-ceasefire. Tanker rates cannot collapse until P&I insurance reinstates + lanes cleared. That's 30-90 day minimum buffer post-resolution. STNG thesis now has structural floor.
+**Watch:** STNG price update needed. Exit trigger is STILL ceasefire/escort announcement (prices the EXPECTATION, not the event).
+**[Approve] [Reject]**
+
+### PROPOSAL 3: Monitor for Exit Trigger Inversion
+**Note — NOT a proposal yet, but flag for Will:**
+The mine confirmation creates a nuanced wrinkle in Path A exit protocol: a ceasefire announcement NOW is worth less in fundamental terms (still 30-90 days to shipping restart) but the MARKET will still price it as a relief rally and sell oil. **The exit trigger (ceasefire = exit Phase 1 longs) remains correct — the market will react on the announcement, not the reality.** But post-ceasefire, oil may not crash as hard as pre-mine scenarios would have suggested. There may be a trade to RE-ENTER after the ceasefire sell-off.
+
+---
 
 ---
 
@@ -197,6 +221,8 @@
 |------|---------|--------|----------|
 | Every Wed | EIA Weekly Petroleum Status | EIA | 🔴 |
 | Every Fri | Baker Hughes Rig Count | Baker Hughes | 🟠 |
+| **Mar 11** | **IEA 400M bbl SPR release announced** | Reuters/Guardian | 🔴 DONE |
+| **Mar 11** | **US sinks 16 Iranian minelayers — active mining confirmed** | CNBC/BBC/Guardian | 🔴 DONE |
 | Mar 11 | CPI (energy component) | BLS | 🟠 |
 | Mar 13 | PCE (energy component) | BEA | 🟠 |
 | Mar 17-18 | FOMC (stagflation language re: oil) | Fed | 🔴 |
