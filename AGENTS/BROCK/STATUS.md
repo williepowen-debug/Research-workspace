@@ -1,7 +1,7 @@
 # BROCK STATUS — Private Credit / Alt Assets / PE / ILS
 
-**Last context:** Iran declared banks and financial institutions in the Middle East as military targets (DIFC, SAMA, CBB) — Mar 11. New vector: Gulf SWF capital flight from Apollo/Athene vehicles + insurance repricing on ME financial infrastructure. Stage 4 timeline intact (May 2026 Q1 10-Q) but new transmission path added. Cascade tracker: domain/PRIVATE_CREDIT_CONTAGION_TRACKER.md
-**Last updated:** 2026-03-11 (subagent signal processing)
+**Last context:** Mar 11 AM open. **CPI Feb print released this morning: +0.3% MoM (+2.4% YoY), core +0.2%** — slightly warm, no panic relief. Apollo announced daily NAV valuations for private credit funds (defensive PR, signals pressure). BlackRock HLEND gate aftermath still reverberating. Cliffwater $33B fund at 7%+ redemptions. KKR/APO shares down ~30% YTD. Mainstream narrative fully formed. Window closing.
+**Last updated:** 2026-03-11 AM (BROCK subagent)
 
 ---
 

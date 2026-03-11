@@ -1,5 +1,34 @@
 # REGINALD STATUS
-**Last Updated:** 2026-03-11 14:25 UTC | **Status:** 🔴🔴 HIGH — W&D "systemic" CRE fraud (10-K) + Unicus structural analysis now integrated. Three-layer hidden CRE exposure architecture complete (Memo Item 3 + NDFI + Collateral Fraud). WAL/OZK thesis materially strengthened — LTVs worse than reported even before reclassification. See MAR 10 LATE SIGNAL section below.
+**Last Updated:** 2026-03-11 17:35 UTC | **Status:** 🔴🔴🔴 CRITICAL — JPMorgan marking down private credit collateral (software loans) + restricting back-leverage TODAY. Private credit redemption cascade accelerating (BCRED 7.9% redemptions, Blue Owl gate-adjacent). Hormuz shipping halt confirmed (cargo ships hit). OZK short thesis published by Temple 8 Capital. Five converging stress vectors active simultaneously. See MAR 10 LATE SIGNAL section + MAR 11 AM UPDATE below.
+
+## 🚨 MAR 11 AM UPDATE — PRIVATE CREDIT CASCADE + HORMUZ ESCALATION
+
+**Filed:** 2026-03-11 17:35 UTC
+
+### Signal: JPMorgan Marking Down Private Credit Collateral (Breaking)
+- JPM's Wall Street trading division **reduced valuations on back-leverage loans** to private credit firms — most collateral is software company loans
+- Marks down = private credit firms must post MORE collateral OR reduce borrowing capacity → forced selling pressure
+- JPM described re-marking as proactive ("important to do when markets warrant it") — suggests more to come
+- JPM shares -0.8%; Blue Owl, Blackstone, BX all lower
+- **Why it matters for our thesis:** Back-leverage on private credit = leverage-on-leverage. When JPM marks, other banks follow. This is a deleveraging event, not a one-off.
+
+### Signal: Private Credit Redemption Cascade Ongoing
+- BCRED (Blackstone, $82B): 7.9% redemption requests (~$3.8B) — Blackstone honoring 100% but this is a record
+- Blue Owl: restricted quarterly redemptions, switching to periodic asset-sale payments — market drawing 2008 fund-gate comparisons; Blue Owl disputes framing
+- BlackRock private credit also seeing surge
+- Temple 8 Capital published institutional short thesis on OZK: "The Next SVB?" — 2022 vintage CRE loans hitting hard maturity deadlines Q1-Q3 2026, ~$49 price target Strong Sell
+
+### Signal: Hormuz Shipping Halt Confirmed (Day 11)
+- WashPost: cargo ships hit in Persian Gulf today (10:55 AM EDT)
+- CNBC: Hormuz closure could be "tipping point for global economy" — metals, farming sectors vulnerable beyond oil
+- NYT: shipping has "come to a standstill in the Gulf" — oil prices spiked
+- **Credit channel:** Energy-sector stress = oil company EBITDA compression = covenant pressure on E&P loans in regional bank books
+
+### Data Releases Today (Mar 11)
+- No major tier-1 releases today (CPI tomorrow Mar 12 is the key event)
+- Watch: 10-yr yield, bank credit spreads, HY spreads as real-time credit gauges
+
+---
 
 ## 🚨 MAR 10 LATE SIGNALS — CRE FRAUD ARCHITECTURE (Unicus Research)
 

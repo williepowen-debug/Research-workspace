@@ -1,7 +1,7 @@
 # LIQUID STATUS
-**Last Updated:** 2026-03-11 14:00 UTC | **Agent:** LIQUID | **Status:** 🔴🔴 CRITICAL
+**Last Updated:** 2026-03-11 17:32 UTC | **Agent:** LIQUID | **Status:** 🔴🔴 CRITICAL
 
-**One-liner:** HY OAS 319bps [CONF Mar 9] — 1bp from LIQ-01 trigger. Mar 10 FRED release today. DIFC targeted by Iran (new vector). VIX 24.93 = coiled spring. Stagflation trap confirmed energy-independent (30Y +4bps on oil -11%).
+**One-liner:** CPI Feb in-line (2.4%/2.5%) = "calm before the storm." HY OAS 319bps Mar 9, Mar 10 data pending confirmation. Oil $108 WTI (was $119 Mar 9). HYG Jun puts 95% dominance at $80 strike. Private credit BDCs -11.5% YTD. Bear steepening continues. LIQ-01 near-certain breach imminent.
 
 ---
 
@@ -10,7 +10,7 @@
 | Indicator | Value | Source | Status |
 |-----------|-------|--------|--------|
 | HY OAS | **319bps** [CONF Mar 9] | FRED BAMLH0A0HYM2 | 🔴 1bp from trigger |
-| HY OAS Mar 10 | **[PENDING — FRED releases today]** | Est. 318-322bps | ⏳ ~50% prob of cross |
+| HY OAS Mar 10 | **[PENDING — FRED not yet reflected]** | Est. 320-325bps given oil+risk-off | ⏳ ~70% prob of cross |
 | CCC OAS | **969bps** [CONF Mar 9] | FRED BAMLH0A3HYM2 | 🔴 Leading indicator; +12bps WoW |
 | LIQ-01 threshold | 320bps | — | — |
 
@@ -28,11 +28,14 @@
 | VIX | 24.93 | Mar 10 | CONF FRED |
 | SOFR | 3.64% | Mar 10 | CONF FRED |
 | RRP | **$0.278B** | Mar 10 | CONF FRED — BUFFER GONE |
-| CPI Feb | 2.4% headline / 2.5% core | Mar 11 release | CONF — pre-war data, NOT structural all-clear |
-| 10Y | ~4.15% | Mar 10 | EST — flat on oil -11% |
-| 30Y | 4.784% (+4bps) | Mar 10 | EST — stagflation trap confirmed |
+| CPI Feb | 2.4% headline / 2.5% core | Mar 11 CONF BLS | In-line. "Calm before storm" — March print will embed oil shock |
+| 10Y | ~4.16% | Mar 11 | CONF — bear steepening; toward 4.16% threshold |
+| 30Y | 4.72% | Mar 9 FRED | CONF — stagflation trap. Sovereign yields all +40bps since war |
 | 2Y | 3.588% | Mar 10 | CONF CNBC |
-| Oil (WTI) | <$90 | Mar 10 | EST |
+| Oil (WTI) | $108 (high $119 on Mar 9) | Mar 11 | WAR PREMIUM. +40% since outbreak |
+| MBS spread | 165bps over Tsys | Mar 11 | CONF — no flight-to-quality. Spread widening in progress |
+| HYG Jun $80P | $1.465 mid | Mar 10 close | CONF — 95% put dominance, 65K contracts. Market aligned |
+| BDC index (Cliffwater) | -11.5% YTD / -20% off high | Mar 2026 | CONF Nomura — Stage 1 leading indicator lit |
 | S&P 500 | -0.21% | Mar 10 | CONF |
 
 ---
@@ -120,7 +123,7 @@ HYG $75P Jun x10 positioned for LIQ-01 convergence. CPI in-line = no panic catal
 
 ## WATCH
 
-**Today:** FRED BAMLH0A0HYM2 release (Mar 10 HY OAS). DIFC news. Any 30Y auction results.  
+**Today:** FRED BAMLH0A0HYM2 (Mar 10 HY OAS — confirm LIQ-01 breach). HYG price action vs $80 put strike. Oil stability above/below $105. Any 30Y auction results. Watch if HYG Jun puts need rolling → Sep/Dec given Jun expiry risk.  
 **Daily:** SOFR spread, RRP, HY OAS, CCC OAS, VIX  
 **Weekly:** Auction results (BTC, indirect bid %, tail), CLO AAA spreads  
 **Monthly:** TIC data (Belgium + China), SOFR volume breakdown  
