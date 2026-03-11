@@ -1,5 +1,77 @@
 # REGINALD STATUS
-**Last Updated:** 2026-03-10 20:20 UTC | **Status:** 🔴🔴 HIGH — Trump "war very complete" verbal de-escalation caused Brent $119.50 → $91.70 intraday crash; markets rallied. HOWEVER: strikes heaviest day yet per Pentagon/Reuters. Iran IRGC still threatening Hormuz blockade. Oil de-escalation is verbal, not structural. KRE bear put spread unwind ($6.7M, Mar 9) = institutional hedge removal = counter-signal on KRE Mar 13 $66P timing. WAL Sep $70P entered today at $768. Manhattan CRE confirmed below COVID lows. CPI tomorrow (Mar 11). OZK Apr 16 detonator in 37 days.
+**Last Updated:** 2026-03-11 14:25 UTC | **Status:** 🔴🔴 HIGH — W&D "systemic" CRE fraud (10-K) + Unicus structural analysis now integrated. Three-layer hidden CRE exposure architecture complete (Memo Item 3 + NDFI + Collateral Fraud). WAL/OZK thesis materially strengthened — LTVs worse than reported even before reclassification. See MAR 10 LATE SIGNAL section below.
+
+## 🚨 MAR 10 LATE SIGNALS — CRE FRAUD ARCHITECTURE (Unicus Research)
+
+**Filed:** 2026-03-11 14:25 UTC | **Sources:** Walker & Dunlop 10-K (SEC filing), Unicus Research "Curiouser and Curiouser" (institutional short)
+
+---
+
+### Signal 1: Walker & Dunlop — "Systemic" Fraud Admission in SEC Filing
+
+**Data:**
+- W&D required to repurchase/indemnify GSEs for **$221.6M in loans** since 2024
+- Cause: borrower fraud — collateral misrepresentation, asset title issues, **inflated NOI**
+- W&D used the word **"systemic, and no longer anecdotal"** in their 10-K filing (SEC)
+- Ready Capital parallel: $134M borrower fraud disclosed same period
+
+**Why This Matters:**
+- W&D is a *major GSE-approved originator* — not a fringe lender. "Systemic" in their 10-K is a legal/SEC admission, not casual commentary.
+- Inflated NOI at origination = LTV ratios across the GSE-backed CRE book are WORSE than currently reported — this is industry-wide, not bank-specific
+- For WAL/OZK: their CRE books include GSE-originated loans and loans underwritten to market comps that used inflated NOI benchmarks. Cantor appraisals into a Manhattan-below-COVID-lows environment are now also adjusting for fraudulent baselines.
+
+---
+
+### Signal 2: Unicus Research — CRE Fraud Has Auto ABS Architecture
+
+**Structural Parallel (Unicus):**
+| Feature | Auto ABS Fraud | CRE Origination Fraud |
+|---------|---------------|----------------------|
+| Verification frequency | Infrequent physical inspection | Infrequent appraisal verification |
+| Record type | Paper documents, easily manipulated | NOI statements, rent rolls |
+| Skin-in-game | Originate-to-distribute (Santander model) | W&D earns fees, GSEs take loss |
+| Known precedent | Santander: knew, kept originating | W&D: "systemic" language implies knew |
+| Double pledging | First Brands, Tricolor, MFS | Likely — title fraud cited |
+
+**Unicus core thesis:** Fraud accumulates silently in credit cycle upswings, surfaces simultaneously when the cycle turns. W&D disclosure is not the end — it's the first crack visible above the waterline.
+
+---
+
+### THREE-LAYER CRE EXPOSURE ARCHITECTURE (Updated)
+
+| Layer | Mechanism | Status |
+|-------|-----------|--------|
+| **Layer 1** | Memo Item 3 (RCON2746): CRE relabeled as C&I | ✅ Confirmed (MetCap, WAL, OZK) |
+| **Layer 2** | NDFI wrapper: bank → fund → CRE | 🔴🔴 Hypothesis confirmed by $4.2T FDIC data |
+| **Layer 3** | Collateral fraud: inflated NOI = LTVs worse | 🔴🔴 **NEW — W&D SEC admission** |
+
+**Compound effect on WAL/OZK:**
+- Banks' reported CRE exposure understates reality (Layer 1)
+- Banks' CRE-adjacent NDFI loans add hidden exposure (Layer 2)
+- The underlying collateral was marked to fraudulent NOI benchmarks at origination (Layer 3)
+- Collateral floor is now below COVID lows with no bid
+- Cantor appraisals on WAL assets happening INTO this triple compression
+
+**This materially strengthens the WAL Sep $70P and OZK Aug $42.5P theses.** The thesis is no longer just about rate pressure and extend-and-pretend — the underlying collateral is fraudulently valued on top of being structurally impaired.
+
+---
+
+### Can-Kick Failure Connection
+
+The W&D/Unicus signals close the loop on WHY the CRE can-kick is structurally different this cycle:
+1. **Prior cycles:** Extend-and-pretend works if underlying asset value eventually recovers. Can-kick is rational.
+2. **This cycle:** You cannot recover to an appraisal that was fraudulently inflated to begin with. The NOI that justified the original loan never existed. Recovery requires NOI to exceed a fictional baseline.
+3. **WAL specific:** Jefferies lawsuit surfaces → Cantor appraisals → marks to reality → marks to *below fraudulent baseline* = larger writedown than even a clean cycle would require.
+4. **OZK specific:** Construction loans originated to inflated pro forma NOI → project can't produce the NOI → can't refi → bank holds bag on fraudulent underwriting
+
+**Assessment:** The can-kick failure thesis just got a new engine. It was always "collateral is impaired." It's now "collateral was fraudulently represented AND is impaired." That's not a correction — that's a restatement.
+
+---
+
+*KB entries: ML-REG-113, ML-REG-114, ML-REG-115*
+*Signals moved to: inbox/processed/*
+
+---
 
 ## 🚨 MAR 10 EOD UPDATE — HORMUZ VERBAL DE-ESCALATION / MARKET WHIPSAW
 
