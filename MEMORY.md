@@ -91,6 +91,19 @@ Agent self-audit (BROCK) discovered EXPECTED_SIGNALS.md still contained PSEC PIK
 ### Hormuz Storage Crisis — Mar 6
 Kuwait/Qatar curtailing production — can't export, storage filling. If Hormuz stays closed 4 weeks, ALL Gulf producers (Iraq, Kuwait, UAE, Qatar) forced to shut wells. Brent $90. Iran FM: "no ceasefire, no negotiations." HAWK scenario C raised 20→35%.
 
+### Hamilton Demand Destruction Framework — Mar 11-12 (FOUNDATIONAL)
+4-source triangulated research (Kimi/Perplexity/ChatGPT/Gemini) on Hamilton's nonlinear oil-GDP model applied to 2026 Hormuz shock. **This calibrates every expiration decision.**
+
+**DD-1:** NOPI = 47 log pts ($75 behavioral ref). GDP drag -3.0 to -4.9pp. Peak damage at lag 4 = Q1 2027. 2026 shock magnitude matches 1973 (52.8) and 1979 (50.7) — we're in the 1970s category, not 1990.
+
+**DD-2:** Oil peak → equity trough: median 7-11 months. Credit peaks BEFORE equity trough (~3 months). Recession starts BEFORE oil peaks (2-6 months). "Falling oil = demand destruction signal, not relief." 1990 sole exception (quick military resolution).
+
+**DD-3:** Stressed consumers destroy demand faster (2-3 months vs 4+). 2026 savings rate (3.6%) matches 2008. Baker 2018: leverage amplifies elasticity 25%. $4/gal = behavioral breakpoint. Kaplan-Violante HtM: buffers gone → demand destruction front-loads by ~1 quarter.
+
+**Key implication:** Jun puts capture only lag 1-2 (~1/3 of damage). Dec captures lag 3-4 (peak). Roll Jun → Dec on green days. Energy longs work Q2. Credit shorts work Q4-Q1 2027. Sequencing is the edge.
+
+*Full framework → `FORGE/research/DEMAND_DESTRUCTION_FRAMEWORK.md`*
+
 ---
 
 ## CHART ANALYSIS (Feb 24)
