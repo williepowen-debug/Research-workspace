@@ -131,3 +131,40 @@ ChatGPT's unique contribution: Hamilton's model is keyed to QUARTER-END prices, 
 | Watch Mar 31 WTI close | Determines NOPI magnitude in Hamilton's model | 🔴 |
 | Monitor leading indicators for front-loading | Claims, sentiment, auto sales — if "no buffer" is real, these move Q2 | 🟠 |
 | TLT puts = structural | Works in ALL channels (inflation, foreign selling, Fed trap) | 🟢 |
+
+---
+
+## DD-2 Results: Oil Peak → Financial Trough Timeline (Perplexity)
+
+**Source:** Perplexity, 4-source cross-referenced (FRED WTI, Wells Fargo, NBER)
+
+### Master Timeline Table
+
+| Metric | 1973-74 | 1979-80 | 1990 | 2008 | 2022 |
+|--------|---------|---------|------|------|------|
+| Oil Trough | $2.90, Sep 73 | $14.85, Jan 79 | $16.87, Jun 90 | $54.57, Jan 07 | $66.19, Dec 21 |
+| Oil Peak | $11.65, Jan 74 | $39.50, Apr 80 | $35.92, Oct 90 | $133.93, Jun 08 | $114.84, Jun 22 |
+| Oil -20% from Peak | Mar 74 | Aug 80 | Nov 90 | Aug 08 | Aug 22 |
+| S&P 500 Peak | 121.74, Jan 73 | 140.52, Nov 80 | 368.95, Jul 90 | 1,565.15, Oct 07 | 4,796.56, Jan 22 |
+| S&P 500 Trough | 60.96, Oct 74 | 101.44, Aug 82 | 295.46, Oct 90 | 676.53, Mar 09 | 3,577.03, Oct 22 |
+| Oil Peak → Equity Trough | 9 months | 28 months | 0 months | 9 months | 4 months |
+| Credit Spread Peak | Baa 10.81%, Jan 75 | Baa 17.18%, Feb 82 | Baa-10Y ~2.45%, Dec 90 | HY OAS 21.82%, Dec 08 | HY OAS 5.96%, Jun 22 |
+| Oil Peak → Credit Peak | 12 months | 22 months | 2 months | 6 months | 0 months |
+| NBER Recession | Nov 73–Mar 75 | Jan 80–Jul 80; Jul 81–Nov 82 | Jul 90–Mar 91 | Dec 07–Jun 09 | None |
+| Oil Peak → Recession Start | -2 mo (before) | -3 mo (before) | -3 mo (before) | -6 mo (before) | N/A |
+
+### Critical Findings
+
+**1. Recession started BEFORE oil peaked — every episode.**
+Oil doesn't create recessions from scratch. It accelerates pre-existing weakness. 2026 parallel: negative NFP, subprime auto 7.1%, private credit stress, hidden CRE = pre-existing weakness already present. Hormuz is the accelerant.
+
+**2. Equity trough comes AFTER oil starts falling — 4 of 5 episodes.**
+Median: equity trough 7 months after oil begins declining. Even if oil falls, bank puts have extended runway. Oil decline is a LEADING indicator for credit shorts paying, not a signal to exit.
+
+**3. Credit spread peak lags oil peak by median 6 months.**
+1973: 12mo lag. 1979: 22mo lag. 2008: 6mo lag. Jun credit puts miss this entirely. Dec minimum, Mar 2027 ideal.
+
+**4. Overlap window (simultaneous elevated oil + financial stress): median 4 months.**
+Brief window where energy longs and credit shorts both work. Based on our timing: Q3 2026.
+
+**5. 1990 is the sole exception** — equity trough same month as oil peak. Requires quick military resolution. Mine floor + bereaved hardliner successor makes 1990 analog unlikely.
