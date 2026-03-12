@@ -1,11 +1,11 @@
 # SCRATCH — Ephemeral Working Memory
 
-**Updated:** 2026-03-11 ~13:25 UTC
+**Updated:** 2026-03-11 ~22:35 UTC
 
 ---
 
 ## Handoff
-**Last context:** Full day — biggest agent processing round of the operation (15 agents). ALL proposals reviewed and approved. CARL Opus EDGAR pull completed. JPM private credit restriction signal caught EOD. Will sold USO call (+88%), GLD, HYG (lesson learned). Cash ~$6,500.
+**Last context:** Evening session — ran BROCK/LIQUID/SAM inbox processing, NEXUS pre-CPI synthesis, reviewed RED team Hormuz challenge with Will, researched historical demand destruction across oil shocks, wrote 5 research prompts (DD-1 through DD-5).
 
 **Next tide:**
 1. **🔴 CPI tomorrow Mar 12 8:30 AM ET.** CARL: tame = trap (Feb data, pre-oil). Hot = thesis accelerates.
