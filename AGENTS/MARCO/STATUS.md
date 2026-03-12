@@ -1,5 +1,42 @@
 # MARCO STATUS
-**Last Updated:** 2026-03-11 14:30 UTC | **Status:** 🔴 RED
+**Last Updated:** 2026-03-12 13:30 UTC | **Status:** 🔴 RED
+
+## CHECKIN-MAR12 — Daily Check-In (Mar 12 13:30 UTC)
+
+**Inbox processed:** 2026-02-26_americans_leaving.md, 2026-03-06_nfp_federal_layoffs.md, 2026-03-09_prome_doge_political_feedback.md, 2026-03-09_prome_oil_politics_labor_signals.md (all moved to processed/)
+
+### (1) New Migration/Remittance Data
+- **None since last update.** Mexico Banxico Jan 2026 (-1.4% YoY, $4.594B) remains most recent.
+- Next expected: ~Apr 2026 (Feb Banxico release)
+- No new internal migration data. Census next release TBD.
+
+### (2) Enforcement Policy — DHS Shutdown Now Day 26 (Mar 12)
+- **Status unchanged from Mar 11.** No 5th Senate vote scheduled. House out until Mar 16+.
+- **Mar 14 paycheck miss: 2 DAYS OUT — IMMINENT.** TSA walkout risk escalating.
+- Prediction #25 (TSA disruption) remains actively firing — 3-4hr delays confirmed at HOU, MSY, ATL, DFW.
+- **E-Verify: OPERATIONAL.** No change. Confirmed active throughout shutdown.
+- **Mar 12 Initial Claims printing today** (LABOR domain primary). MARCO watch: if ugly (Scenario B/C), political pressure on DOGE intensifies. Does NOT change E-Verify status but may affect shutdown negotiation timing.
+
+### (3) H-2A / State-Level Labor Supply
+- **No new data.** DOL one-stop shop still failing per last confirmed report (Investigate Midwest Mar 3).
+- Planting season window ACTIVE (Mar-May) — bottleneck risk at peak.
+- AEWR two-tier methodology confusion continues — farms adapting payroll mid-season.
+- **Oil shock transmission:** Jet fuel +87% (Platts to Mar 5) → airline fuel costs → FL route risk. Diesel going vertical → farm equipment + produce transport cost spike. Amplifies Prediction #14 (CA produce +15% H2 2026).
+
+### (4) CPI Feb 2026 Integration — Pre-Oil-Shock Baseline
+- **Headline: +0.3% MoM / +2.4% YoY — in-line, no surprise.**
+- **Food: +0.4% MoM / +3.1% YoY** — Elevated. This is the BASELINE before oil shock, ag labor shortage, and tariff pass-through hit simultaneously.
+  - MARCO read: Feb food inflation is the *floor*, not the ceiling. Ag labor supply shock (planting season) + Hormuz diesel surge + tariff passthrough = Mar/Apr CPI food print likely higher. Prediction #14 confirmation pathway strengthened.
+- **Apparel: +1.3% MoM** — Tariff signal. CARL domain primary, but confirms tariff pass-through is live in consumer goods. Cross-check with CARL.
+- **Pre-oil-shock note:** Feb CPI has zero Hormuz contamination (cuts off ~Feb 28). Mar CPI (released mid-Apr) = first real read on energy/food pass-through from +21% Brent / +87% jet fuel. Gap between this print and March will be the signal.
+- **Integrated into vector:** VX-MARCO-DOGE-01 food price arm; Prediction #14 confidence raised 55% → 60%.
+
+### Inbox Signal Notes (now processed)
+- **NFP Mar 6 memo** (REGINALD): Already integrated in STATUS. Claims Mar 12 flagged as binary — LABOR domain. MARCO: monitor for FL-federal-employment cross-signal.
+- **Oil/politics Mar 9** (PROME): Jet fuel/diesel transmission confirmed live. Gas pump stress window Mar 14-21 = coincides with TSA paycheck miss. Compound timing: spring break travel + TSA disruption + $4-5 gas = FL tourism triple-hit in one week window.
+- **DOGE political feedback Mar 9**: K-shape labor market thesis noted (manual shortage + white-collar glut). FL federal facility concentration (Kennedy/VA/military) is additional input to FL triple-collision thesis. Added to UNRESOLVED/PENDING.
+
+---
 
 ## CHECKIN-MAR11 — Daily Check-In (Mar 11 14:30 UTC)
 
@@ -305,7 +342,7 @@ Mexican shopper revenue collapse: Laredo 51%→13%, Brownsville 26%→3.3%, El P
 | 25 | TSA walkout → measurable FL airport delays | By Mar 21 | 60% |
 | 12 | Central America remittances -10% (reversal) | H2 2026 | 60% |
 | 2 | El Paso credit downgrade or negative | Q4 2026 | 55% |
-| 14 | CA produce prices +15% | H2 2026 | 55% |
+| 14 | CA produce prices +15% | H2 2026 | 60% | ↑ Feb food CPI 3.1% YoY pre-shock baseline |
 | 21 | Planting-season raid surge → earlier produce spike | Mar-May 2026 | 50% |
 | 20 | Thompson Ag Labor Bill — year-round H-2A enacted | Q3 2026 | 45% |
 
@@ -330,8 +367,9 @@ Mexican shopper revenue collapse: Laredo 51%→13%, Brownsville 26%→3.3%, El P
 |------|--------|----------|
 | Americans emigrating signal (WSJ) | INTEGRATED into STATUS | ✅ |
 | VX-MARCO-EMG-01 (emigration vector) | Awaiting PROME approval | 🟡 |
-| VX-MARCO-SDL-01 (self-deportation vector) | Proposed this session — awaiting PROME approval | 🔴 |
-| DHS shutdown resolution (war leverage) | Monitor daily — resolution possible this week | 🔴 |
+| VX-MARCO-SDL-01 (self-deportation vector) | Proposed — awaiting PROME approval | 🔴 |
+| DHS shutdown resolution | Day 26, Mar 14 paycheck miss IMMINENT (2 days) | 🔴 |
+| FL federal facility concentration | Input to triple-collision thesis — noted Mar 12 | 🟡 |
 | Thompson standalone Ag Labor Bill | Not yet released (expected Q1-Q2 2026) | 🟠 |
 | ICE First Look Jan 2026 | Overdue — check for FL-specific data | 🟠 |
 | Statistics Canada Jan 2026 | Expected ~Mar 20 | 🟡 |
