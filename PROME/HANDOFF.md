@@ -15,10 +15,11 @@ Read this before `/clear` or `/new`.
 2. **`git add -A && git commit -m "checkpoint"`**
 
 ## Before `/new` — Full Handoff
-1. **`memory/YYYY-MM-DD.md`** — Start with "Last context:" sentence
-2. **`PROME/STATUS.md`** — Update dashboard
-3. **`MEMORY.md`** — Add learnings worth keeping
-4. **Commit and push**
+1. **`PROME/SCRATCH.md`** — Update QUICKSTART + handoff block for next-me
+2. **`memory/YYYY-MM-DD.md`** — Log session work + handoff block
+3. **`PROME/STATUS.md`** — Update dashboard
+4. **`MEMORY.md`** — Add learnings worth keeping
+5. **Commit and push**
 5. If applicable: USER.md, PREDICTIONS.md, LESSONS.md, CALENDAR.md, FORGE/STATUS.md
 
 ## Session Reset Strategy
