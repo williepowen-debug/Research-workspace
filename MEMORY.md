@@ -1,136 +1,81 @@
 # MEMORY — Key Insights & Lessons
 
-**Last Updated:** 2026-03-06 16:45 UTC
+**Last Updated:** 2026-03-12 18:15 UTC
 
 ---
 
 ## CORE DISCOVERIES
 
 ### Hidden CRE (Memo Item 3) — Feb 22-23
-Banks hide CRE in C&I via FFIEC Schedule RC-C Memo Item 3 (RCON2746). Metropolitan Capital failed with 61% true CRE (labeled 10.7%). Three masking levels: extend-and-pretend, mark-to-model, **classification** (our discovery).
+Banks hide CRE in C&I via FFIEC Schedule RC-C Memo Item 3 (RCON2746). Three masking levels: extend-and-pretend, mark-to-model, **classification** (our discovery). Screen: RC-C Part I → Item 4 (C&I) → Memo Item 3 → ratio >20% = flag.
+Results: OZK 37.6% (worst), WAL 24.2% (growing), EGBN 23.7%. Clean: ZION 1.8%, SSB 0.9%.
 
-**Screen results:** OZK 37.6% (worst), WAL 24.2% (growing), EGBN 23.7%. Clean: ZION 1.8%, SSB 0.9%.
+### WAL Thesis (A+)
+$2.73B hidden CRE, ratio GROWING (15.5%→24.2%), mgmt confirmed relabeling. 474% CRE/Tier1. Three vectors: hidden CRE, Jefferies double-pledging, SSFA arbitrage ($17.2B). Detail → `FORGE/WAL/STATUS.md`
 
-**How to screen:** Pull Call Report RC-C Part I → Item 4 (C&I) → Memo Item 3 → ratio >20% = flag.
-
-### WAL Thesis (Grade: A+)
-$2.73B hidden CRE, ratio GROWING (15.5% → 24.2%), management confirmed relabeling on call. 474% CRE/Tier 1. NDFI removed as risk (68% mortgage warehouse). Three vectors: hidden CRE, Jefferies double-pledging, SSFA arbitrage ($17.2B).
-*Detail → `FORGE/WAL/STATUS.md`*
-
-### OZK 10-K Verified — Feb 25
-Construction reserves CUT 41% while losses accelerated. Illinois = 67% NPLs. $19B unfunded > $14B liquidity. All C-suite selling, zero insider buys. SI 14-15% (crowded — WAL less crowded at 4.4%).
-*Detail → `AGENTS/REGINALD/OZK/`*
+### OZK 10-K — Feb 25
+Reserves CUT 41% while losses accelerated. IL=67% NPLs. $19B unfunded > $14B liquidity. All C-suite selling. SI 14-15% (crowded vs WAL 4.4%). Detail → `AGENTS/REGINALD/OZK/`
 
 ---
 
 ## THESIS FRAMEWORK
 
-### Consumer Finance Broken (Feb 16)
-All 5 consumer names (SYF/BFH/ALLY/CACC/AFRM) showed improvement. **K-Shape:** underwater homeowners ≠ employed cardholders. Housing → banks directly, bypasses consumer credit. Consumer credit only cracks if employment cracks (>250K claims).
-
-### Two-Phase Oil (Feb 18)
-Phase 1 (Feb-Mar): Supply squeeze → tankers (STNG/TNP). Phase 2 (Apr-May): 140M barrel flush → short crude. Alpha is the sequencing.
-*Detail → LIQUID/HAWK STATUS.md*
+### Consumer K-Shape (Feb 16)
+Housing → banks directly, bypasses consumer credit. Consumer credit only cracks if employment cracks (>250K claims).
 
 ### RED Team (Feb 14) — 80% Confidence
-Betting on ACKNOWLEDGMENT of existing stress, not predicting new stress. 5 transmission paths. Falsification: exit 50% if claims <240K + CBRE >-5%; exit 100% if BTFP 2.0 / HY OAS <260bps.
-*Full report → `AGENTS/RED/RED_TEAM_REPORT_2026-02-14.md`*
+Betting on ACKNOWLEDGMENT of existing stress. Falsification: exit 50% if claims <240K + CBRE >-5%; exit 100% if BTFP 2.0 / HY OAS <260bps. Full → `AGENTS/RED/RED_TEAM_REPORT_2026-02-14.md`
 
-### Session Management Protocol — Mar 5-6
-`/clear` stacks compaction summaries (lossy). Observed: 17% → 54% → 56% → 65% across 4 clears. Practical limit: 2-3 clears before `/new`. Two-tier handoff: checkpoint (quick block + git commit) before `/clear`, full handoff (daily notes + STATUS + MEMORY + push) before `/new`.
+### Convergence Day — Feb 27
+Private credit → bank equity transmission confirmed LIVE. MFS fraud (£2B) → Jefferies/Barclays → sector derisking → WAL -10.64% on NO specific catalyst (pure vulnerability premium). H.8 confirmed industry-level Memo Item 3 reclassification: C&I +14.4% while CRE +1.1% (from +5.9%) — the masking is systemic, not bank-specific. HY OAS 320bps = credit transmission threshold.
 
-### Agent Schema Standardization — Mar 5-6
-REGINALD's TSV schemas are the gold standard. HENRY migrated to match: VX (7→12 cols with Y/O/R thresholds), KB (7→14 cols with Entity/Data_Quote/Thesis_Impact), FLOW (5→10 cols with Speed/Layer/Status/Current_Position), PREDICTIONS (+Invalidation). Key win: agents now have mechanically triggerable vectors instead of vibes-based status calls.
+### Energy Dominance — Mar 2 (WILL'S INSIGHT)
+US running integrated supply consolidation across Venezuela/Iran/Russia + ghost fleet crackdown. Saudi last man standing BY DESIGN. Structural repricing, not war premium. 16M+ bpd at risk. Detail → `HAWK/domain/sources/ENERGY_DOMINANCE_STRATEGY.md`
 
-### TRADE.md Concept — Mar 6
-Per-agent trade targets from siloed research. Each domain maintains specific targets based on their analysis. Synthesize at PROME level. Not yet codified.
+### Eisman/Gober on APO — Mar 2
+Athene $37.9B deposit-type contracts (duration mismatch = run risk). Affiliated paper $10B→$40B. Captive financials: $7B liabilities vs $200M real assets. Sellside covering APO are NOT insurance analysts — nobody reads statutory filings. We see structure AND trigger. Detail → `BROCK/domain/sources/EISMAN_GOBER_TRANSCRIPT_ANALYSIS_MAR2.md`
 
-### Convergence Day — Feb 27 (MAJOR)
-Best single day of thesis confirmation. Multiple independent vectors fired simultaneously:
+### NFP -92K — Mar 6
+First negative NFP this cycle. Dec revised to -17K. Stagflation locked: earnings +3.8% YoY, Fed can't cut. Harvested 5 short-dated for $3,056 (+183% to +340%). **Rule: harvest short-dated on red days, re-enter on green days.**
 
-**New signals discovered via EOD agent run:**
-- **MFS Collapse (UK):** £2B fraud, double-pledging. Barclays £600M, Jefferies £100M, Apollo/Atlas SP exposed. Reuters "cockroach" framing. Drove bank rout.
-- **Apollo Triple Stress:** MFIC dividend cut (2nd BDC in 48hrs) + Atlas SP/MFS + Medallia 78¢. Most exposed alt manager. Athene insurance = Stage 4 risk.
-- **Block 4K Layoffs:** 50% of workforce, AI-cited. Leading indicator for white-collar labor.
-- **H.8 Systemic:** CRE +1.1% (from +5.9%), C&I +14.4%. Industry-level Memo Item 3 reclassification CONFIRMED.
-- **Credit Widening:** HY OAS 2.98% (+12bps/week). First sustained widening off Jan tights.
-- **PPI Core +0.8%** (2.6x expected). Fed trap closed — can't cut into hot inflation while employment cracks.
-
-**Key conclusion:** Private credit → bank equity transmission is LIVE. MFS → Jefferies/Barclays → sector derisking → WAL -10.64%. WAL had NO specific catalyst — pure vulnerability premium.
-
-**New watchlist:** APO puts (very high conviction).
-**Threshold:** HY OAS 320bps = credit transmission confirmed.
-
-### Energy Dominance Thesis — Mar 2 (WILL'S INSIGHT)
-US running integrated supply consolidation: Venezuela (blockade/regime change) + Iran (strikes/Hormuz) + Russia (Ukraine drone campaign, 58+ refinery strikes) + ghost fleet crackdown (623 vessels sanctioned 2025). MBS/Trump financial alignment (crypto, Kushner/PIF). Saudi is last man standing BY DESIGN. Not temporary war premium — structural repricing over 2-3 months. 16M+ bpd at risk across all theaters.
-*Detail → `HAWK/domain/sources/OIL_INFRASTRUCTURE_DISRUPTIONS.md` + `ENERGY_DOMINANCE_STRATEGY.md`*
-
-### NEXUS Agent Created — Mar 2
-Synthesis engine. Cross-agent convergence detection. 5 frameworks. Catches patterns individual agents miss (SAM×ZHAO synch stress, etc). First run seeded with 4 convergences, 2 contradictions, threshold proximity matrix.
-
-### APO + AAL + OZK + WAL + STNG Entered — Mar 2
-6 new positions. APO $100P Jun ($770), AAL $10P Jul x4 ($227), OZK $45P Aug x2 ($663), WAL $77.5P Jun ($551), STNG 2 shares ($156), USO $90C Mar 13 ($287). Sold PLTR/INVH/SSB/1xKRE to fund.
-
-### Eisman/Gober Confirms BROCK Thesis — Mar 2
-Podcast Ep 48: PE/insurance = "slow boiling frog." Athene **$37.9B deposit-type contracts** (duration mismatch = run risk). Affiliated paper $10B→$40B. Captive financials: $7B liabilities vs $200M real assets. Sellside analysts covering APO are NOT insurance analysts — nobody reads statutory filings. Eisman sees the structure but not the trigger. We see both (war + credit cycle = catalyst).
-*Detail → `BROCK/domain/sources/EISMAN_GOBER_TRANSCRIPT_ANALYSIS_MAR2.md`*
-
-### LNG Crisis + Three-Anchor UST Stress — Mar 2
-QatarEnergy halted ALL production. TTF +45%. **Insurance cliff Mar 5** — Hormuz UNINSURABLE after Thursday. ZHAO upgrades to three-anchor stress (Japan + China + Korea): combined UST selling $50-70B/month. USD/CNY 7.30 now 2-4 weeks. HANS: Ukraine ceasefire Mar/Apr base case (85%), Russia max leverage.
-*Detail → `HAWK/domain/sources/LNG_DISRUPTION_MAR2.md`, `HANS/sources/RP-HANS-10`*
-
-### Mar 5 > NFP Friday — Mar 2
-Insurance withdrawal date is the most important catalyst this week. If Hormuz becomes uninsurable, disruption is structural regardless of military situation. Takes weeks to reinstate coverage even if fighting stops.
-
-### NFP -92K — Thesis Confirmed — Mar 6
-First negative NFP this cycle. Dec revised to -17K (two negative months). Stagflation locked: earnings +3.8% YoY, Fed can't cut. WAL -13% ($70), KRE -3.6% ($64). Harvested 5 short-dated positions for $3,056 realized profit (+183% to +340%). Account $51.2K, +173% all-time. **Rule validated: harvest short-dated on red days, re-enter on green days.**
-
-### Poisoned Reference Files — Mar 6
-Agent self-audit (BROCK) discovered EXPECTED_SIGNALS.md still contained PSEC PIK at 35% (corrected to 8.6% months ago) and FSK dividend at $0.70 (cut to $0.48). BDC_CASH_COVERAGE.tsv had same problem. **Lesson: separate methodology from live data.** Methodology docs should contain thresholds/interpretation only, never current values. Live data lives in STATUS.md + VX.tsv. Agent self-audits catch things Prome misses — high value practice.
-
-### Hormuz Storage Crisis — Mar 6
-Kuwait/Qatar curtailing production — can't export, storage filling. If Hormuz stays closed 4 weeks, ALL Gulf producers (Iraq, Kuwait, UAE, Qatar) forced to shut wells. Brent $90. Iran FM: "no ceasefire, no negotiations." HAWK scenario C raised 20→35%.
+### UST Demand Hole — Mar 2-12
+ZHAO upgraded from three-anchor (Japan+China+Korea) to four-anchor stress. Combined UST selling $40-72B/mo (involuntary — Gulf recycling broken). USD/CNY 7.30 was 2-4 weeks out as of Mar 2.
 
 ### Hamilton Demand Destruction Framework — Mar 11-12 (FOUNDATIONAL)
-4-source triangulated research (Kimi/Perplexity/ChatGPT/Gemini) on Hamilton's nonlinear oil-GDP model applied to 2026 Hormuz shock. **This calibrates every expiration decision.**
-
-**DD-1:** NOPI = 47 log pts ($75 behavioral ref). GDP drag -3.0 to -4.9pp. Peak damage at lag 4 = Q1 2027. 2026 shock magnitude matches 1973 (52.8) and 1979 (50.7) — we're in the 1970s category, not 1990.
-
-**DD-2:** Oil peak → equity trough: median 7-11 months. Credit peaks BEFORE equity trough (~3 months). Recession starts BEFORE oil peaks (2-6 months). "Falling oil = demand destruction signal, not relief." 1990 sole exception (quick military resolution).
-
-**DD-3:** Stressed consumers destroy demand faster (2-3 months vs 4+). 2026 savings rate (3.6%) matches 2008. Baker 2018: leverage amplifies elasticity 25%. $4/gal = behavioral breakpoint. Kaplan-Violante HtM: buffers gone → demand destruction front-loads by ~1 quarter.
-
-**Key implication:** Jun puts capture only lag 1-2 (~1/3 of damage). Dec captures lag 3-4 (peak). Roll Jun → Dec on green days. Energy longs work Q2. Credit shorts work Q4-Q1 2027. Sequencing is the edge.
-
-*Full framework → `FORGE/research/DEMAND_DESTRUCTION_FRAMEWORK.md`*
+NOPI=47 log pts ($75 behavioral ref). GDP drag -3.0 to -4.9pp. Peak=lag4 Q1'27. Equity trough 7-11mo post oil peak. Credit peaks BEFORE equity (~3mo lead). Front-loading ~1Q compression (2026 savings 3.6%≈2008). $4/gal=behavioral breakpoint. **Jun=1/3 damage. Dec=peak. Roll Jun→Dec.** Hormuz uninsurable since Mar 5 — structural regardless of military outcome. Kuwait/Qatar curtailing, 4 weeks→forced well shutdowns.
+Full → `FORGE/research/DEMAND_DESTRUCTION_FRAMEWORK.md`
 
 ---
 
 ## CHART ANALYSIS (Feb 24)
-
-**6-bank watchlist:** KRE, WAL, OZK, ZION, FLG, EGBN — all topped Feb 2026 and reversed. GFC 2007 is the template (slow grind), not SVB (shock). KRE P/C ratio 2.27 (institutional confirmation). Confidence 75-80% this is THE TOP, but Feb new high complicates pattern.
-*Detail → `FORGE/STATUS.md`*
+6-bank watchlist topped Feb 2026 and reversed. GFC 2007 template (slow grind), not SVB. KRE P/C 2.27. 75-80% this is THE TOP. Detail → `FORGE/STATUS.md`
 
 ---
 
-## SYSTEM ARCHITECTURE (Mar 4-5)
+## SYSTEM ARCHITECTURE
 
-- **INBOX siloed from spawn protocol.** Agents don't check inbox on normal tasks — separate spawn for inbox processing. Different cognitive mode = silo it.
-- **Reply rule:** Only reply to signals if (a) new info sender doesn't have, (b) error correction, or (c) threshold trigger. Silence = received and integrated.
-- **Inbox = folder, not file.** Individual signal files in `inbox/`, move to `inbox/processed/` when done. Standardized across all 13 agents.
-- **Root TSVs are canonical.** workbook/ is archive/reference. When in doubt, root files are source of truth.
-- **Agent STATUS.md ≤250 lines.** Archive resolved analysis to workbook, keep STATUS as a dashboard.
-- **HERMES delivers signals.** Agents write to OUTBOX, HERMES runs 2x daily (9AM + 5PM ET) to deliver.
-- **Stale data rules in CLAUDE.md.** Skip VX.tsv rows >5 trading days old. Pull live before citing STATUS values >24h old.
+- **Inbox siloed from spawn.** Separate spawn for inbox processing vs normal tasks.
+- **Reply rule:** Only reply to signals if (a) new info, (b) error correction, (c) threshold trigger.
+- **Inbox = folder.** Files in `inbox/`, move to `inbox/processed/`.
+- **Root TSVs canonical.** workbook/ is archive.
+- **Agent STATUS ≤250 lines.** Archive resolved to workbook.
+- **HERMES 2x daily** (9AM + 5PM ET). Agents write OUTBOX.
+- **Stale data:** Skip VX rows >5 trading days. Pull live before citing STATUS >24h.
+- **Schema standard:** REGINALD TSV format. Mechanically triggerable vectors > vibes.
+- **Poisoned refs:** Separate methodology from live data. Methodology = thresholds only, never current values. Agent self-audits catch drift.
+
+---
+
+## CONTEXT OPTIMIZATION — Mar 12
+
+Injection per message: ~31KB → ~13KB (-58%). Boot reads: ~27KB → ~10KB (-63%). Key insight: injected files = instinct (every message), boot files = lookup (once per session). Safety/signal processing/file editing = instinct. Spawn syntax/handoff/references = lookup. OpenClaw forces IDENTITY.md + TOOLS.md injection from workspace root — can't remove, only minimize. Subagents get fewer injections than main session (no HEARTBEAT.md or MEMORY.md).
 
 ---
 
-## KEY CORRECTIONS (Persistent)
+## KEY CORRECTIONS
 
-- OZK next earnings: **April 16, 2026**
-- NYCB rebranded to **FLG (Flagstar Financial)** Oct 2024
-- CMA bought by **FITB (Fifth Third)**, Feb 2, 2026
-- PSEC PIK was **8.6%**, not 35% (agent hallucinated)
-- Always verify agent data against primary SEC filings before trading
-
----
+- OZK earnings: **April 16, 2026**
+- NYCB → **FLG (Flagstar Financial)** Oct 2024
+- CMA → **FITB (Fifth Third)** Feb 2, 2026
+- PSEC PIK was **8.6%**, not 35%
+- Always verify agent data against SEC filings before trading

@@ -1,7 +1,61 @@
 # LIQUID STATUS
-**Last Updated:** 2026-03-11 21:35 UTC | **Agent:** LIQUID | **Status:** 🔴🔴 CRITICAL
+**Last Updated:** 2026-03-12 20:18 UTC | **Agent:** LIQUID | **Status:** 🔴🔴 CRITICAL
 
-**One-liner:** LIQ-01 at 319bps (1bp from trigger). Combined UST anchor selling upgraded to $40-72B/month (4 anchors including Gulf). Blue Owl permanently frozen. BCRED Q2 hard gate risk (May/June). ABS crack live. 44% of defaults = distressed exchanges. Transmission chain activating across all vectors.
+---
+
+## EOD UPDATE — March 12, 2026
+
+### (1) 10Y AUCTION — WEAK. DEMAND MISS.
+| Metric | Today (Mar 12) | Last Month (Feb) | 10-Auction Avg |
+|--------|---------------|-----------------|----------------|
+| Size | $39B | $42B | — |
+| High Yield | **4.217%** | 4.177% | — |
+| BTC | **2.45** | 2.39 | **2.51 avg** |
+| Tail | ~+4bps vs WI | — | — |
+
+**Assessment:** BTC 2.45 < 10-auction avg 2.51 = **below average demand**. RTTNews confirmed: "attracted below average demand." 3Y auction on Tuesday also below average. 30Y auction tomorrow (Thu) is the next stress test — BTC <2.2x + tail >2bps = watch trigger. Notably: auction cleared at 4.217% against a 4.23% market yield — modest concession but not disorderly. Indirect bid % not yet confirmed. With 10Y at 4.23% (+7bps) and oil at $100, foreigners absorbing less = thesis directionally confirmed. **This is NOT a panic auction, but the trend is deteriorating.** Watch 30Y tomorrow for acceleration signal.
+
+### (2) REPO / SOFR — No Confirmed Anomaly (T+1 lag)
+- SOFR last confirmed: **3.64%** (Mar 10). Mar 11-12 not yet released (FRED T+1 lag).
+- RRP: **$0.278B** (Mar 10 confirmed). At this level, there is essentially no overnight buffer. Any quarter-end stress (Mar 31) will have no RRP cushion to absorb repo market volatility.
+- **Watch signal:** If SOFR spikes >3.75% OR repo rate diverges from SOFR by >10bps = plumbing stress signal. SRF activation risk elevated given zero RRP buffer + 10Y selloff simultaneously.
+- No confirmed repo spike today — but structural vulnerability is maximum.
+
+### (3) CREDIT SPREADS — LIQ-01 LIKELY TRIGGERED (Awaiting FRED Confirmation)
+- HY OAS (BAMLH0A0HYM2): **319bps confirmed Mar 9**. Mar 10-12 FRED data not yet released (T+1 lag).
+- **Assessment:** SPX -1.22% today + 10Y +7bps = credit conditions tightening. With BTC miss on the 10Y auction and oil at $100, HY spreads almost certainly moved wider today. Working estimate: **HY OAS ≥320bps** as of Mar 11-12. LIQ-01 trigger likely live — confirm when FRED releases.
+- CCC OAS: **969bps** (Mar 9). Expected to be approaching 980-990bps range given today's risk-off.
+- IG OAS: **85bps** (Mar 9). Likely 87-90bps range given BBB widening pressure.
+- **ACTION:** Check FRED BAMLH0A0HYM2 tomorrow morning (Mar 13). If ≥320bps confirmed → **LIQ-01 TRIGGERED → signal HENRY + SAM immediately.**
+
+### (4) RRP / SRF STATUS — BUFFER GONE, QUARTER-END APPROACHING
+| Facility | Level | Status |
+|----------|-------|--------|
+| RRP | **$0.278B** | 🔴🔴 ZERO buffer |
+| Reserve balance (est.) | ~$2.9T | 🟡 $100B above floor |
+| SRF standing facility | Available | Unused — but activation = stigma signal |
+
+**Critical context:** RRP at $0.278B is the lowest in the post-2021 normalization cycle. Quarter-end (Mar 31) repo stress typically causes spikes of $50-200B in overnight borrowing demand. With no RRP buffer AND a 10Y auction that cleared weak AND oil at $100 (reducing foreign recycling), the system is running with no shock absorbers. If reserve balances dip toward $2.8T floor while repo demand surges → SRF activation scenario. This would be a visible plumbing signal.
+
+**Upgrade note:** This is now the primary near-term stress vector — not credit spreads alone, but the combination of (a) no RRP buffer, (b) weak auction demand, (c) deteriorating foreign recycling, and (d) quarter-end approaching.
+
+### (5) TIC DATA — March 15 RELEASE — WHAT TO WATCH
+TIC (Treasury International Capital) reports January 2026 foreign holdings of US Treasuries. Release date: **March 15, 2026.**
+
+**Key focal points:**
+1. **Japan** — Did BOJ/MoF accelerate selling in Jan? Base case: modest net reduction. If >$20B net sell in a single month = MARCO/SAM signal.
+2. **China** — Continued reduction trend? Jan data will be pre-war (Hormuz closure late Jan/Feb). China holdings have been ~$750-780B range. Any drop below $750B = meaningful.
+3. **Belgium (Euroclear proxy)** — Our "$40-72B/month anchor selling" thesis. Belgium is the tell for European custodial selling. Watch for acceleration.
+4. **Gulf States (Saudi, UAE)** — Below fiscal breakeven (~$80/bbl). With oil now at $100 Brent, Jan data predates the war premium. **But:** if Gulf states were selling in Jan even before oil surged, it confirms structural fiscal position driving selling, not just war disruption.
+5. **Total foreign holdings** — If aggregate foreign UST holdings decline >$50B MoM in Jan = demand hole thesis gaining hard data. Prior months were $30-55B range; if Jan shows acceleration → upgrade to $40-72B confirmed.
+
+**Interpretation frame:** TIC Jan data = pre-war baseline. The *contrast* between Jan (TIC) and Feb/Mar (auction demand) will be the signal. Weak TIC + weak auction BTC = foreign demand secular deterioration confirmed. Strong TIC + weak auction = war-specific demand disruption (more recoverable).
+
+---
+
+**One-liner:** 10Y auction WEAK (BTC 2.45 vs 2.51 avg). LIQ-01 likely triggered — HY OAS ~320bps+ (confirm FRED Mar 13). RRP buffer gone ($0.278B). Quarter-end Mar 31 = no shock absorbers. 30Y auction tomorrow — BTC <2.2x = escalation. TIC data Mar 15 = critical demand hole confirmation.
+
+**[AM UPDATE Mar 12]:** Overnight/morning developments — 10Y yield climbed to 4.23% as Iran confirmed Hormuz closure continues. Oil +8-9% today. CPI 2.4% (Mar 11) described as "calm before storm" — March CPI will embed energy shock. PCE due Friday. 2Y +7bps to 3.709%. 30Y at 4.878%. Bear flattener reversing into steepener. 10Y auction results not yet confirmed — check BTC and tail for demand signal on $40-72B UST hole thesis.
 
 ---
 

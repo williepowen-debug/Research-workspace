@@ -1,5 +1,9 @@
 # LABOR STATUS
-**Last Updated:** 2026-03-12 13:00 UTC | **Status:** 🔴🔴 CRITICAL — CLAIMS TOMORROW (FIRST CLEAN READ). CPI STALE/IN-LINE. MARKET PRICING OIL SHOCK. CONTINUING CLAIMS 32K FROM YELLOW. FRONT-LOADING ACCELERANT LOGGED.
+**Last Updated:** 2026-03-12 20:15 UTC | **Status:** 🔴🔴 CRITICAL — CLAIMS FIRST CLEAN READ BENIGN (213K/1.850M). WARN PIPELINE ACCELERATING (766 NOTICES/91K WORKERS). JOLTS JAN 2026 TOMORROW 10AM ET. DOGE NET -277K CONFIRMED (OPM JAN DATA).
+
+**EOD Note Mar 12 (20:15 UTC):** Claims first clean read confirmed benign — no vector changes. **WARN pipeline updated: 766 notices / 91,190 workers** (was 716/85,552 as of Mar 5 — +50 notices, +5,638 workers in 7 days; pace holding ~7 notices/day). **DOGE OPM confirmed net figure:** Federal civilian workforce 2,313,216 → 2,035,344 (Sep 2024 to Jan 2026) = **-277,872 net headcount** (-12%). Prior STATUS had 327K gross / 264K net; OPM January 2026 data now confirms net at 277K. Schedule Policy/Career live Mar 6 — March and April data will capture first RIF wave under expanded authority. CISA: 130 workers terminated today (DOGE). **Staffing canaries (RHI/KFRC):** No new data — Q4 sequential+ counter-signal holds. RHI survey (released ~Mar 5): 83% of employers confident in 2026 outlook, 60% plan permanent hires H1 2026. KFRC Q1 2026 revenue est. ~$415M (flat/slightly down YoY). Neither company reports Q1 until mid-April — vector 11 stays at 🟡 score 2 until Q1 print. **JOLTS preview (Mar 13 10AM ET):** Dec 2025 was 6.5M openings, openings/unemployed at 0.87 (below 1.0 for first time since 2021). Finance/professional services already at cycle lows in Dec. No Street consensus found (BLS delay may have disrupted normal estimate formation). Quit rate at decade low = "Hotel California" trap deepening regardless of headline number. Signal Dashboard: WARN pipeline updated to 766/91,190. No vector changes today.
+
+**MIDDAY Note Mar 12 (17:31 UTC):** **CLAIMS FIRST CLEAN READ PRINTED:** Initial claims 213K (week ended Mar 7) — DOWN 1K from prior, vs 215K consensus. **WELL BELOW 235K tripwire.** Continuing claims 1.850M — DOWN from 1.868M prior. Buffer to YELLOW (1,900K) widened to 50K from 32K. No vector upgrade triggered. Claims vector 3 holds at 🔴. Suppression narrative: claims range has been 199-232K all year — DHS suppression may have held, OR labor market genuinely stable. JOLTS Jan 2026 now the next key test, TOMORROW 10AM ET. War context (Reuters/WIKY): analysts citing Iran war / Hormuz as downside risk — "evidence consistent with labor market stabilizing BEFORE Iran war hits the economy." Strike reversal +~31K in March NFP still expected. No DOGE/federal workforce fresh developments today — mostly retrospective pieces on year-one aftermath. Signal Dashboard updated: Initial Claims → 213K 🟢, Continuing Claims → 1.850M 🟢.
 
 **AM Note Mar 12:** **CPI Feb 2026 confirmed:** +0.3% MoM, +2.4% YoY (in-line), core +0.2%, 2.5% YoY. **Apparel +1.3%** — tariff signal bleeding in. This is PRE-Hormuz/pre-oil-shock data. Market sold off on the print despite tame headline — traders correctly pricing forward: Hormuz oil spike hasn't hit CPI yet. March/April prints are where inflation re-accelerates and the stagflation trap closes. Nothing in this CPI changes our thesis; it confirms the stale-data problem. The Fed can't cut into a still-elevated but about-to-worsen inflation reading. **THRESHOLD PROXIMITY: Continuing claims at 1,868K last print — 32K from YELLOW (1,900K). Tomorrow's first clean read post-DHS is the critical test.** DHS suppression has held continuing claims artificially low; if suppression lifts, we could gap through YELLOW on a single print. Watch BOTH initial (≥235K → Vector 3 → 5) AND continuing (≥1,900K → YELLOW alert). **Inbox signal processed (see below):** Consumer front-loading from DD-3 research — 🟠 demand destruction accelerant, 2-3 month timeline. Logged to Signal Dashboard.
 
@@ -31,7 +35,7 @@
 
 | # | Vector | Score | Status | Key Signal | Upgrade Trigger |
 |---|--------|-------|--------|------------|-----------------|
-| 1 | WARN pipeline | **5** | 🔴🔴 | 716/85,552. YTD 5th-highest since 2009. | >1,000 notices loaded |
+| 1 | WARN pipeline | **5** | 🔴🔴 | 766/91,190. YTD 5th-highest since 2009. Pace ~7/day. | >1,000 notices loaded |
 | 2 | DOGE / federal workforce | **5** | 🔴🔴 | 327K cuts. Schedule Policy/Career effective Mar 6. | Federal conversion shows in clean claims |
 | 3 | Claims / shadow payroll gap | **4** | 🔴 | 213K suppressed (DHS). Shadow gap: WARN ↑ / claims flat. | Claims ≥235K on Mar 12 clean read → 5 |
 | 4 | Hormuz hiring freeze | **4** | 🔴 | Closed Mar 3. Structural uncertainty through H1. | Sustained >8 weeks + hiring plans deteriorate → 5 |
@@ -61,8 +65,8 @@
 | **ISM Mfg Feb (overall)** | **52.4%** | 🟡 | [CONF] ISM Mar 3. Expansion. Employment sub-index 48.8% still contraction. Headline misleads. |
 | **Fed Beige Book Feb** | Mild growth, uncertain | 🟠 | [CONF] Fed Mar 4. "Choppy start, higher prices, uncertainty." AI used but NOT replacing workers per Fed. |
 | **Schedule Policy/Career** | **LIVE Mar 6** | 🔴 | [CONF] OPM Mar 6. Federal workforce conversion executing today. DOGE cascade begins. |
-| **Initial Claims** | **213K** | 🟢 | [CONF] BLS Mar 5. Unchanged WoW, beat 215K exp. 4-wk MA: 215,750 ↓4,750. DHS suppression intact — not clean until Mar 12. |
-| **Continuing Claims** | **1.833M** | 🟢 | [CONF] BLS Mar 5. DATA ARTIFACT — DHS distortion. Do not trust. |
+| **Initial Claims** | **213K** | 🟢 | [CONF] BLS Mar 12 (FIRST CLEAN READ). Down 1K WoW, beat 215K exp. Range: 199-232K YTD. Well below 235K tripwire. No vector upgrade. |
+| **Continuing Claims** | **1.850M** | 🟢 | [CONF] BLS Mar 12 (FIRST CLEAN READ). DOWN from 1.868M. Buffer to YELLOW (1,900K) = 50K. No threshold breach. |
 | **U-3 Unemployment** | **4.4%** ↑ | 🔴 | [CONF] BLS Mar 6. Up from 4.3%. +0.4pp YoY. LAB-02 path active (4.7% trigger). |
 | U-6 Underemployment | 8.4% | 🟠 | [CONF] BLS Feb 7. +0.8pp YoY. Feb update pending. |
 | **Long-term Unemployed** | **1.9M** ↑ | 🔴 | [CONF] BLS Mar 6. +400K YoY. Up from 1.8M. Accelerating. |
@@ -82,7 +86,7 @@
 | **Challenger Feb 2026** | **48,307** | 🟠 | [CONF] Challenger Mar 6. Down 55% MoM. YTD 156,742 = 5th-highest Jan-Feb since 2009. |
 | **Challenger Hiring Plans YTD** | **-56%** | 🔴 | [CONF] Challenger Mar 6. Transport +872% YoY. Tech +51% YoY. |
 | **DOGE Cuts (BLS)** | **327K / -10.9%** | 🔴 | [CONF] Reuters/OPM Mar 5. GAO: 134K separations vs 66K hires H1 2025. |
-| **WARN Pipeline** | **716 notices / 85,552** | 🔴 | [CONF] own tracking Mar 5. Tyson 7K, Amazon 4.7K, Verizon 4.1K. |
+| **WARN Pipeline** | **766 notices / 91,190** | 🔴 | [CONF] LayoffAlert.org Mar 12. +50 notices, +5,638 workers vs Mar 5. Tyson 7K, Amazon 4.7K, Verizon 4.1K. Pace: ~7 notices/day. |
 | **Shadow Payroll Gap** | WARN ↑ / Claims suppressed | 🔴 | [EST] own analysis. RESOLVES MARCH-APRIL — verdict imminent. |
 | **Hormuz** | **CLOSED Mar 3** | 🔴 | [CONF] multiple Mar 3. Hiring paralysis structural through H1 min. |
 | **BLS Data Infrastructure** | **DEGRADED** | 🟠 | [CONF] JOLTS delay Mar 4. First systematic release failure. |
