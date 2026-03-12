@@ -1,5 +1,5 @@
 # CARL STATUS
-**Updated:** 2026-03-12 13:30 UTC (CPI Feb integrated, PROME DD-3 front-loading signal processed — demand destruction timeline pulled to Q2, savings rate corrected to 3.6%)
+**Updated:** 2026-03-12 21:45 UTC (4 inbox signals processed: electronics inflation third vector, federal worker UI cliff mechanics, continuing claims YELLOW threshold proximity [Mar 13 clean read], HAWK downstream pricing update [diesel $4.859, jet +87%, urea $683/mt])
 **Overall Status:** 🔴🔴 CRITICAL — Subprime Auto BREACHED, Gas Squeeze LOCKED STRUCTURAL (Hormuz mined, WTI $107+), Goeasy -57% CANADIAN CANARY (NCO→mid-teens, dividend suspended), SoFi 2025-1 CNL FIRST EVER, Auto ABS Fraud Re-Emerging (UNICUS + sources, not public), Fertilizer→Food Q3-Q4 HIGH-CONFIDENCE, DOGE RIF Demand Shock ACTIVE, UI Exhaustion Cliff Mar 24, Iran Targeting Financial Institutions, **DEMAND DESTRUCTION 2-3 MONTHS (NOT 4+), SAVINGS RATE 3.6% = 2008 MATCH**
 
 **Summary:** Consumer fragility at extreme levels. Subprime auto 60+ DQ **7.1% — ALL-TIME RECORD, RED threshold BREACHED**. Fannie MF DQ 0.74% (6bps from GFC peak). Gas squeeze NOW STRUCTURAL: Hormuz actively mined, WTI $107+, pump $3.40/gal → $4.00+ base case, diesel $4.30-4.50 — no relief valve until military resolution. DOGE RIF: 327K permanent separations confirmed = localized demand destruction. NFP -92K + continuing claims 1,868K (approaching YELLOW 1.9M). UI exhaustion cliff Mar 24 locked. Stagflation trap deepens: GDPNow 2.1% (down 0.9pp in 4 days), wages sticky (+3.8% YoY) while payrolls break. No policy backstop. **NEW (Mar 12):** CPI Feb +0.3% MoM / 2.4% YoY, core +0.2%/2.5% — in-line, PRE-OIL-SHOCK data. Apparel +1.3% = tariff pass-through live. Market SOLD OFF anyway — stagflation fear overrides good CPI print. April CPI = real shock (oil + tariffs). PROME DD-3 research: savings rate **3.6%** (CORRECTED from 4.5%) = 2008 stress profile match. Baker (2018 JPE): leverage amplifies consumption elasticity 25% — applies directly to bottom 60%. Demand destruction arrives **2-3 months not 4+** — pulls Q3 projections to Q2. $4/gallon behavioral breakpoint: currently $3.40 → ~4-8 weeks at current rate (+$0.45/wk). **Prior (Mar 11):** Hormuz actively mined + Dubai airport drone strike + Iran declares financial institutions as military targets — oil shock becomes structural, not a spike. Fertilizer stranding now locked (not probabilistic) → food CPI Q3-Q4 HIGH-CONFIDENCE. Iran financial institution threat = NEW ABS servicer operational risk. Danger window pulled forward: Q2 leading edge DQ conversion (was Q3 primary). **Prior (Mar 10):** Goeasy (GSY.TO) **REVISED -56.97%** — dividend SUSPENDED, outlook WITHDRAWN, $233M writeoff, NCO 13% (2025) → MID-TEENS (2026). SoFi 2025-1 CNL trigger BREACHED at 2.6% — first ever. Electronics tariff pass-through LIVE: TVs +25%, laptops +15-25%, appliances +20-30%. ⚠️ Auto ABS originate-to-distribute fraud patterns re-emerging (Unicus Research, not public).
@@ -52,7 +52,12 @@
 | Hardship 401k | **4.8%** | 🟠 | ATH — buffer exhaustion | Vanguard |
 | Gas Squeeze ETA | **NOW — $3.40/gal, $4 BREAKPOINT 4-8wks** | 🔴🔴 | WTI $107, pump $3.40 (+$0.45/wk), diesel $4.30-4.50. $4/gal behavioral breakpoint (2008: transit +4%, SUV collapse, largest VMT decline since 1942). Kilian & Zhou 2024: low-income states 2x elasticity. | HAWK/AAA Mar 8 / PROME DD-3 |
 | DOGE RIF Consumer Impact | **327K permanent separations** | 🔴 | Localized demand destruction; federal hub metros (DC, MD, VA) | LABOR cross |
-| Continuing Claims | **1,868K** | 🟠 | Approaching YELLOW 1.9M threshold | BLS |
+| Continuing Claims | **1,868K** ⚠️ | 🔴 WATCH | **32K from YELLOW 1.9M. Mar 13 = FIRST CLEAN READ post-DHS suppression — could gap through threshold in single print.** | BLS Mar 5 / PROME |
+| Electronics Inflation | **Live: TVs +25%, laptops +15-25%, appliances +20-30%** | 🟠 | Third consumer stress vector. Tech goods swinging from deflation to inflation. 2021 chip shortage analog. | PROME / Tariff data |
+| Federal Worker UI Replacement | **~$21K annualized vs $80-120K salary (75-80% drop)** | 🔴 | 327K RIFs hitting UI cliff March 2026. Mid-tier MSAs: federal-heavy economies losing permanent demand. | PROME / UCFE data |
+| Diesel National Retail | **$4.859/gal (+$0.96 in 1 week)** | 🔴🔴 | HAWK Mar 10 verified. Trucking surcharges → retail in 6-8 weeks. | HAWK |
+| Jet Fuel Gulf Coast | **$4.12/gal (+87% in 30 days)** | 🔴🔴 | +72.9% in 6 trading days alone. | HAWK |
+| Urea NOLA Price | **$683/mt (+$167 in 1 week, from $516)** | 🔴 | Approaching 2022 analogs ($800-1,000/ton if disruption persists). Food CPI Q3-Q4 HIGH-CONFIDENCE. | HAWK |
 
 ---
 
@@ -138,7 +143,10 @@
 | HAWK | Fertilizer shock (13% global from Gulf) | Food CPI Q3-Q4 2026; urea +27-34% in 10 days; spring planting inelastic demand | 🔴 UPGRADED |
 | HAWK | Diesel $4.30-4.50 | Trucking surcharges → food price transmission accelerant (6-8wk lag) | 🔴 NEW |
 | LABOR | **DOGE RIF 327K permanent separations** | **Localized demand destruction; federal hub metros. Not yet in thesis.** | 🔴🔴 NEW — processing |
-| LABOR | Continuing claims 1,868K | Approaching YELLOW 1.9M threshold | 🟠 WATCH |
+| LABOR | **Continuing claims 1,868K — 32K from YELLOW. Mar 13 = FIRST CLEAN READ post-DHS.** | Could gap through 1,900K in single print. ≥1,900K = Q2 consumer deterioration onset confirmed | 🔴 THRESHOLD WATCH |
+| PROME | **Electronics inflation: third simultaneous consumer vector. TVs+25%, laptops+15-25%, appliances+20-30%** | Compounds gas + federal income cliff. Three vectors hit simultaneously = compounding, not additive. 2021 chip shortage analog. | 🟠 NEW (Mar 12) |
+| PROME | **Federal worker UI cliff: 327K × 75-80% income drop. Mid-tier MSA demand destruction PERMANENT.** | Federal-heavy MSAs (military bases, VA hubs) may show DQ acceleration AHEAD of national averages. KB-CARL-086. | 🔴 NEW (Mar 12) |
+| HAWK | **Downstream pricing verified: diesel $4.859 (+$0.96/wk), jet +87%/30d, urea $683 (+$167/wk)**. Duration upgraded to 4-6+ months. | Shipping surcharges (Maersk $1,800/TEU) hit retail Apr/May CPI. Food transmission HIGH-CONFIDENCE Q3-Q4. KB-CARL-088. | 🔴🔴 NEW (Mar 12) |
 | HENRY | VIX elevated, SPY <20-wk | Reverse wealth effect 6-8wk lag | 🟠 ACTIVE |
 | REGINALD | FL triple squeeze | FL DQ to outpace national Q2 | 🟠 ON TRACK |
 | BROCK | Blue Owl + BCRED gates | Middle-market cuts May-Jun | 🟠 ON TRACK |
@@ -188,7 +196,7 @@ Consumer stress is the most advanced it's been since we started tracking. One ve
 
 **Sub-agents:** GIG (Dave 28DPD canary, ~2.0%, stress >2.10%)
 
-*Next catalysts: **$4/gal behavioral breakpoint ~4-8 weeks** | Claims YELLOW threshold 1.9M (currently 1,868K, Thursday Mar 13) | JOLTS + Cass Feb Mar 13 | FL UI exhaustion Mar 24 | April CPI = real oil+tariff shock | Q1 consumer earnings April*
+*Next catalysts: **⚠️ THURSDAY MAR 13: Continuing claims — first clean read post-DHS suppression. 32K from YELLOW 1.9M. Gap-through in single print possible.** | $4/gal behavioral breakpoint ~4-8 weeks | JOLTS + Cass Feb Mar 13 | FL UI exhaustion Mar 24 | April CPI = real oil+tariff shock (shipping surcharges + urea/$683 → May CPI) | Q1 consumer earnings April | Federal-heavy MSA DQ data: watch for geographic acceleration ahead of national averages*
 
 ---
 
@@ -208,3 +216,7 @@ Consumer stress is the most advanced it's been since we started tracking. One ve
 | 2026-03-10 | Auto ABS originate-to-distribute patterns re-emerging (sources, not public) | ✅ | KB-CARL-082. Monitoring flag set for Santander/Exeter trust DQ acceleration. |
 | 2026-03-12 | CPI Feb +0.3%/2.4% in-line; Apparel +1.3% tariff; market sold off | ✅ | CPI trap confirmed. Apparel pass-through = first tariff signal in data. April CPI = real shock. Cross-agent links updated. |
 | 2026-03-12 | PROME DD-3: savings 3.6% (2008 match), demand destruction 2-3 months, $4/gal breakpoint, Baker 2018 leverage +25% | ✅ | Savings rate corrected 4.5%→3.6%. Demand destruction timeline pulled Q3→Q2. $4/gal breakpoint flagged (~4-8 weeks). Danger window updated. |
+| 2026-03-09 | PROME: Electronics inflation as third consumer stress vector (TVs+25%, laptops+15-25%; TSMC disruption risk) | ✅ | KB-CARL-085. VX-CARL-ELEC-01. FLOW-CARL-10.01. Added to dashboard. Three simultaneous vectors compound, not add. |
+| 2026-03-09 | PROME: Federal worker income cliff — 327K RIFs, UI replacement 75-80% income drop, mid-tier MSA localized demand destruction | ✅ | KB-CARL-086. VX-CARL-FED-01. FLOW-CARL-10.02. Dashboard updated. Federal-heavy MSAs = geographic DQ accelerant. |
+| 2026-03-12 | PROME: Continuing claims 1,868K — 32K from YELLOW 1.9M. Mar 13 = first clean read post-DHS suppression. | ✅ | KB-CARL-087. VX-CARL-CLAIMS-01. Cross-agent link upgraded to 🔴 THRESHOLD WATCH. If ≥1,900K → Q2 consumer deterioration onset confirmed. |
+| 2026-03-10 | HAWK: Downstream pricing verified — diesel $4.859 (+$0.96/wk), jet +87%/30d, urea $683/mt (+$167/wk). Duration 4-6+ months. | ✅ | KB-CARL-088. Updates KB-CARL-080. Shipping surcharges (Maersk $1,800/TEU) → Apr/May CPI. Food CPI Q3-Q4 HIGH-CONFIDENCE. |

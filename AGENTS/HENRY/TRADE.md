@@ -29,6 +29,7 @@ Already positioned. See Section 4.
 **Conviction:** 4/5
 **Sizing:** Medium (2-5% of account, ~$1,000-2,500 max risk)
 **Vector Links:** V6 (Vol Structure), V1 (Gamma/Positioning), V5 (0DTE/Microstructure)
+**⚠️ HAWK SCENARIO C NOTE (Mar 12):** VIX 40-55 is now 55% BASE CASE per HAWK synthesis — not tail risk. The 35C cap on this spread may be SUBOPTIMAL. If Scenario C is base case, consider: (a) widening spread to 25/45C or 25/50C, or (b) adding a second spread above (35/50C) to capture VIX 40+ territory. Do NOT let the 35C ceiling cap gains in the base case scenario. Re-evaluate strike selection with live options data.
 
 ---
 
@@ -47,7 +48,7 @@ Already positioned. See Section 4.
 ---
 
 ### TRADE 1D — TLT Puts (Stagflation Divergence)
-**Instrument:** TLT May $80P or $82P
+**Instrument:** TLT May $80P or $82P (SATELLITE) | TLT Sept/Oct $80P (CORE)
 **Direction:** Long
 **Thesis:** Vector 4 (Stagflation/Labor-Inflation) at score 5 — 10Y yields ROSE to 4.17% on a jobs miss (NFP -92K). This is the definitive stagflation signature: no flight to safety in bonds. The bond market is pricing "Fed trapped." TLT puts profit if this continues — bonds sell alongside stocks. Does NOT require equity cascade to work.
 **Catalyst:** Hot CPI Mar 11 = immediate. FOMC hold with dual-mandate language Mar 18 = secondary.
@@ -58,6 +59,11 @@ Already positioned. See Section 4.
 **Sizing:** Medium (2-4%, ~$1,000-2,000)
 **Vector Links:** V4 (Stagflation/Labor-Inflation), V9 (Risk Parity — correlated stock-bond selloff is the Risk Parity trigger)
 **Note:** This trade works WITHOUT cascade. Stagflation = bonds down, stocks flat-to-down. Unique payoff profile.
+**⚠️ EXPIRY STRUCTURE UPDATE (Mar 12 — 1973-74 Lag Template):**
+- **May expiry = SATELLITE ONLY.** Captures immediate oil shock pass-through (March/April CPI). Acceptable as a near-term tactical position but limited duration.
+- **Core position = Sept/Oct expiry.** 1973-74 template: embargo lifted March 18, 1974 → yields KEPT RISING through rest of year. The full move takes 6-9 months from shock peak. Sept/Oct captures the lag leg.
+- **Oil resolution RED TEAM:** If Hormuz conflict resolves quickly → energy prices drop → TLT puts briefly underwater on rate-cut hopes. **This is an ADD window, NOT an exit.** 1974 confirms: resolution ≠ yield compression when inflation is already embedded. Hold core Sept/Oct through any oil relief bounce.
+**⚠️ CF $115C NOTE:** CF Industries (fertilizer) — Hormuz disruption = ammonia/urea shipping disruption = North American fertilizer supply tightening. CF Jun $115C = long food inflation pass-through via ag input costs. Thesis connected to food inflation vector (14% Core PCE weight). Small sizing (<2%).
 
 ---
 
@@ -244,7 +250,7 @@ Total possible rapid decline: 7 pts in 1-2 weeks if all three flip = score ~39
 
 **Current View:** Early but directionally correct. HY OAS 297bps (confirmed, floor rising: 265→284→308→297). The Mar 4 dip to 297 from 308 is a relief rally pattern common before the next leg — "two steps forward, one step back" in HY spread widening.
 
-**Recommendation: HOLD. The $75P is still well OTM (HYG ~$78-79 range). This is a longer-duration thesis.**
+**Recommendation: HOLD — AND EXTEND EXPIRY PER HAMILTON LAG.** The $75P is still well OTM (HYG ~$78-79 range). This is a longer-duration thesis. **Hamilton NOPI framework: peak GDP drag Q1 2027 (4-quarter lag from Q1 2026 shock initiation). Credit spreads historically lag oil shock by 3-14 months. Jun puts likely too early — consider rolling to Sep/Dec to align with Hamilton lag structure.**
 
 **Hold rationale:**
 - V3 (Credit-Equity, score 4): Quality rotation ALL FIVE steps now confirmed (WAL/KRE transmission = Step 5).
@@ -460,7 +466,9 @@ Cool PCE + GDP beat + BOJ dovish = risk-on Friday, VIX compression, put position
 | IWM $250P Jun | Active | 4/5 | V1, V3, V4 | HOLD |
 | HYG $75P Jun | Active | 3/5 | V3, V4 | HOLD |
 | VIX 25/35 Call Spread | Proposed | 4/5 | V6, V1, V5 | ADD (live data first) |
-| TLT May Puts | Proposed | 4/5 | V4, V9 | ADD (live data first) |
+| TLT May Puts | Proposed — **SATELLITE ONLY** | 4/5 | V4, V9 | ADD small (live data first); core = Sept/Oct |
+| TLT Sept/Oct Puts | **CORE POSITION** | 4/5 | V4, V9 | ADD — per 1973-74 lag template |
+| CF $115C Jun | Proposed | 3/5 | Food inflation / Hormuz fertilizer | Small add (<2%) |
 | SPX <6,707 trigger | Conditional | — | V2 | WAIT FOR TRIGGER |
 | USDJPY <153 trigger | Conditional | — | V11 | COORDINATE WITH SAM |
 | PLTR <$100 trigger | Conditional | — | V6 | WAIT FOR H5 |

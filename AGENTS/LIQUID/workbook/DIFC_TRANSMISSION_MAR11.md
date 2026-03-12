@@ -1,7 +1,8 @@
 # DIFC Transmission Analysis — Mar 11, 2026
 
-**Status:** NEW VECTOR — Iranian targeting of financial institutions confirmed  
-**Filed:** 2026-03-11 | **From:** LIQUID Q1 signal processing
+**Status:** 🔴🔴 **ACTIVE — OPERATIONAL DISRUPTION CONFIRMED** | Vector #11 → **5/5**
+**Filed:** 2026-03-11 | **Updated:** 2026-03-12 21:00 UTC | **From:** LIQUID Q1 signal processing
+**Trigger Event:** Citi DIFC evacuation confirmed Mar 12, 2026. Operational disruption live — no longer hypothetical.
 
 ---
 
@@ -62,8 +63,10 @@ Effect: 1-2 week delay in CLO supply/demand imbalance. Slow-moving but cumulativ
 | Trigger Level | Current State |
 |--------------|---------------|
 | Targeting rhetoric | ✅ CONFIRMED |
-| Military positioning near DIFC | 🔍 Monitor |
-| Active strike / impairment | ❌ Not occurred |
+| Military positioning near DIFC | ✅ CONFIRMED |
+| Active strike / impairment | ✅ **CONFIRMED — Citi evacuation Mar 12** — operational disruption live |
+
+**Vector #11 Status:** 5/5 — All sub-triggers confirmed. Proposal 2 FIRED. SWIFT/settlement disruption risk now near-term. Watch Path 1 (Gulf sovereign dollar-clearing) for secondary transmission in 24-72h.
 
 ---
 
