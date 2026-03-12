@@ -6,8 +6,8 @@
 
 ## QUICKSTART
 Scenario C, War Day 12. Brent $100. Account $57K (+190%). BROCK inbox loaded (4 signals). Other agent inboxes clear. All outboxes clear.
-**IMMEDIATE NEXT:** BROCK migration Task 1 (TSV schema migration). Read `AGENTS/BROCK/MIGRATION_PLAN.md` first.
-**THEN:** Tasks 2-5 in subsequent sessions.
+**IMMEDIATE NEXT:** BROCK migration Task 1 continued — VX.tsv (11→12 cols). KB.tsv DONE ✅. See VX stale data notes below.
+**THEN:** PREDICTIONS.tsv, FLOW.tsv, then Tasks 2-5 in subsequent sessions.
 **MARKET NEXT:** JOLTS 10AM ET (Mar 13). Taiwan LNG critical date Mar 15 (2 days). DHS paycheck miss Mar 14. FOMC+TIC+BOJ Mar 17-19.
 **NEXT GREEN DAY:** Jun→Dec rolls (WAL/KRE/APO/HYG/IWM). Hamilton says Jun = 1/3 of damage. TLT size up. VIX spread widen.
 
@@ -31,6 +31,13 @@ Scenario C, War Day 12. Brent $100. Account $57K (+190%). BROCK inbox loaded (4 
 - Roll priority order on green day?
 - EGBN $25P Jun (-36%) — cut or extend?
 - VIX call spread 25/35 → 25/45?
+
+**VX.tsv stale data notes (for next session):**
+- VX004: 1 gate → 4 gates (OBDC II, HLEND, Cliffwater 14%, MS North Haven). YELLOW→RED.
+- VX008: Add Fitch 9.2% (2025 cohort) alongside 5.8% PCDR. Feb defaults 2x avg.
+- VX009: LIQUID owns HY OAS — stop maintaining independent value, add cross-ref note.
+- VX010: Update to Reuters Mar 12 avg 78¢. Reconcile % vs ¢ framing.
+- VX001-007: All Feb 26 dated. Leave for BROCK to refresh on Task 5 spawn.
 
 **This session (Mar 12 evening):**
 - Will sent private credit research dump (Perplexity + his own synthesis)
