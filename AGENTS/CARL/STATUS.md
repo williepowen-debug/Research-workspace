@@ -1,8 +1,8 @@
 # CARL STATUS
-**Updated:** 2026-03-11 14:30 UTC (Inbox processed — auto fraud, Goeasy detail, ABS originate-to-distribute)
-**Overall Status:** 🔴🔴 CRITICAL — Subprime Auto BREACHED, Gas Squeeze LOCKED STRUCTURAL (Hormuz mined, WTI $107+), Goeasy -57% CANADIAN CANARY (NCO→mid-teens, dividend suspended), SoFi 2025-1 CNL FIRST EVER, Auto ABS Fraud Re-Emerging (UNICUS + sources, not public), Fertilizer→Food Q3-Q4 HIGH-CONFIDENCE, DOGE RIF Demand Shock ACTIVE, UI Exhaustion Cliff Mar 24, Iran Targeting Financial Institutions
+**Updated:** 2026-03-12 13:30 UTC (CPI Feb integrated, PROME DD-3 front-loading signal processed — demand destruction timeline pulled to Q2, savings rate corrected to 3.6%)
+**Overall Status:** 🔴🔴 CRITICAL — Subprime Auto BREACHED, Gas Squeeze LOCKED STRUCTURAL (Hormuz mined, WTI $107+), Goeasy -57% CANADIAN CANARY (NCO→mid-teens, dividend suspended), SoFi 2025-1 CNL FIRST EVER, Auto ABS Fraud Re-Emerging (UNICUS + sources, not public), Fertilizer→Food Q3-Q4 HIGH-CONFIDENCE, DOGE RIF Demand Shock ACTIVE, UI Exhaustion Cliff Mar 24, Iran Targeting Financial Institutions, **DEMAND DESTRUCTION 2-3 MONTHS (NOT 4+), SAVINGS RATE 3.6% = 2008 MATCH**
 
-**Summary:** Consumer fragility at extreme levels. Subprime auto 60+ DQ **7.1% — ALL-TIME RECORD, RED threshold BREACHED**. Fannie MF DQ 0.74% (6bps from GFC peak). Gas squeeze NOW STRUCTURAL: Hormuz actively mined, WTI $107+, pump $3.40/gal → $4.00+ base case, diesel $4.30-4.50 — no relief valve until military resolution. DOGE RIF: 327K permanent separations confirmed = localized demand destruction. NFP -92K + continuing claims 1,868K (approaching YELLOW 1.9M). UI exhaustion cliff Mar 24 locked. Stagflation trap deepens: GDPNow 2.1% (down 0.9pp in 4 days), wages sticky (+3.8% YoY) while payrolls break. No policy backstop. **NEW (Mar 11):** Hormuz actively mined + Dubai airport drone strike + Iran declares financial institutions as military targets — oil shock becomes structural, not a spike. Fertilizer stranding now locked (not probabilistic) → food CPI Q3-Q4 HIGH-CONFIDENCE. Iran financial institution threat = NEW ABS servicer operational risk. Danger window pulled forward: Q2 leading edge DQ conversion (was Q3 primary). **CPI TRAP Mar 12:** Feb data won't capture oil spike — tame print ≠ cooling; real shock hits April CPI. Claims Thursday Mar 13 = live YELLOW threshold test (1,868K vs 1,900K). **Prior (Mar 10):** Goeasy (GSY.TO) **REVISED -56.97%** (not -50.67%) — dividend SUSPENDED, outlook WITHDRAWN, $233M writeoff, NCO 13% (2025) → MID-TEENS (2026), specifically autos + powersports; SoFi 2025-1 CNL trigger BREACHED at 2.6% — first ever — broadening stress UP quality stack. Electronics tariff pass-through LIVE: TVs +25%, laptops +15-25%, appliances +20-30%. **⚠️ FRAUD SIGNAL (not yet public):** Unicus Research + sources indicating auto ABS originate-to-distribute fraud patterns re-emerging — same architecture as Santander $550M (2020) settlement. Originating dealers "long gone, fee in pocket" while ABS investors hold deteriorating pools. Monitor Santander/Exeter ABS trusts for DQ acceleration.
+**Summary:** Consumer fragility at extreme levels. Subprime auto 60+ DQ **7.1% — ALL-TIME RECORD, RED threshold BREACHED**. Fannie MF DQ 0.74% (6bps from GFC peak). Gas squeeze NOW STRUCTURAL: Hormuz actively mined, WTI $107+, pump $3.40/gal → $4.00+ base case, diesel $4.30-4.50 — no relief valve until military resolution. DOGE RIF: 327K permanent separations confirmed = localized demand destruction. NFP -92K + continuing claims 1,868K (approaching YELLOW 1.9M). UI exhaustion cliff Mar 24 locked. Stagflation trap deepens: GDPNow 2.1% (down 0.9pp in 4 days), wages sticky (+3.8% YoY) while payrolls break. No policy backstop. **NEW (Mar 12):** CPI Feb +0.3% MoM / 2.4% YoY, core +0.2%/2.5% — in-line, PRE-OIL-SHOCK data. Apparel +1.3% = tariff pass-through live. Market SOLD OFF anyway — stagflation fear overrides good CPI print. April CPI = real shock (oil + tariffs). PROME DD-3 research: savings rate **3.6%** (CORRECTED from 4.5%) = 2008 stress profile match. Baker (2018 JPE): leverage amplifies consumption elasticity 25% — applies directly to bottom 60%. Demand destruction arrives **2-3 months not 4+** — pulls Q3 projections to Q2. $4/gallon behavioral breakpoint: currently $3.40 → ~4-8 weeks at current rate (+$0.45/wk). **Prior (Mar 11):** Hormuz actively mined + Dubai airport drone strike + Iran declares financial institutions as military targets — oil shock becomes structural, not a spike. Fertilizer stranding now locked (not probabilistic) → food CPI Q3-Q4 HIGH-CONFIDENCE. Iran financial institution threat = NEW ABS servicer operational risk. Danger window pulled forward: Q2 leading edge DQ conversion (was Q3 primary). **Prior (Mar 10):** Goeasy (GSY.TO) **REVISED -56.97%** — dividend SUSPENDED, outlook WITHDRAWN, $233M writeoff, NCO 13% (2025) → MID-TEENS (2026). SoFi 2025-1 CNL trigger BREACHED at 2.6% — first ever. Electronics tariff pass-through LIVE: TVs +25%, laptops +15-25%, appliances +20-30%. ⚠️ Auto ABS originate-to-distribute fraud patterns re-emerging (Unicus Research, not public).
 
 ---
 
@@ -48,9 +48,9 @@
 |--------|-------|--------|-----------|--------|
 | DHS Shutdown Workers | **234K unpaid** | 🔴 | Day 13+ | DHS |
 | Repossessions (2025) | **3M** | 🔴 | +76% above GFC peak | Industry |
-| Savings Rate | **~4.5%** | 🟠 | Buffer thinning | BEA |
+| Savings Rate | **3.6%** ⚠️ CORRECTED | 🔴 | **Matches 2008 stress profile** (was 3-4% in 2008). Baker 2018: leverage amplifies elasticity 25%. Buffer nearly exhausted. | PROME DD-3 / BEA |
 | Hardship 401k | **4.8%** | 🟠 | ATH — buffer exhaustion | Vanguard |
-| Gas Squeeze ETA | **NOW — Mar 14-21 window MOVED LEFT** | 🔴🔴 | WTI $107, pump $3.40 (+$0.45/wk), diesel $4.30-4.50 | HAWK/AAA Mar 8 |
+| Gas Squeeze ETA | **NOW — $3.40/gal, $4 BREAKPOINT 4-8wks** | 🔴🔴 | WTI $107, pump $3.40 (+$0.45/wk), diesel $4.30-4.50. $4/gal behavioral breakpoint (2008: transit +4%, SUV collapse, largest VMT decline since 1942). Kilian & Zhou 2024: low-income states 2x elasticity. | HAWK/AAA Mar 8 / PROME DD-3 |
 | DOGE RIF Consumer Impact | **327K permanent separations** | 🔴 | Localized demand destruction; federal hub metros (DC, MD, VA) | LABOR cross |
 | Continuing Claims | **1,868K** | 🟠 | Approaching YELLOW 1.9M threshold | BLS |
 
@@ -101,12 +101,12 @@
 |--------|--------|---------|--------|
 | **NOW** | Federal contractors (DOGE) | 273 contracts/$5.1B terminated | 🔴 ACTIVE |
 | **NOW — ongoing** | Federal workers (DOGE RIF) | **327K permanent separations — demand destruction LIVE in DC/MD/VA/federal hub metros** | 🔴🔴 NEW |
-| **NOW (window moved left)** | Bottom 60% consumers | Gas pump $3.40/gal (+$0.45 in 1 week), diesel $4.30-4.50. WTI $107. Mar 14-21 peak PULLED FORWARD | 🔴🔴 ACCELERATING |
+| **NOW (window moved left)** | Bottom 60% consumers | Gas pump $3.40/gal (+$0.45 in 1 week), diesel $4.30-4.50. WTI $107. $4/gal breakpoint = behavioral shift (fuel-vs-food tradeoff). **DD-3: demand destruction 2-3 months NOT 4+ — savings 3.6% = 2008 match. Baker 2018: leverage amplifies 25%.** | 🔴🔴 ACCELERATING — TIMELINE PULLED TO Q2 |
 | **Mar 24** | FL WARN cohort | UI exhaustion Wave 1 | 🟠 IMMINENT |
 | **Apr 26** | FL WARN peak | Consumption cliff | 🟠 APPROACHING |
 | **Q2** | Hourly/gig + broad private | Hiring freeze → WARN pipeline | 🟠 ON TRACK |
 | **May-Jun** | Middle-market (private credit) | Blue Owl/BCRED → funding loss → layoffs | 🟠 ON TRACK |
-| **Q3** | All cohorts | DQ conversion from Q2 layoffs | PROJECTED |
+| **Q2 (pulled forward)** | All cohorts | DQ conversion from Q2 layoffs + gas squeeze. **DD-3: 2-3 month window means Mar/Apr stress → May/Jun DQ spike. Was Q3 primary.** | UPGRADED — Q3 secondary wave |
 | **Q4+** | All cohorts | Foreclosure acceleration | PROJECTED |
 
 ---
@@ -133,6 +133,8 @@
 | LABOR | FL WARN exhaustion Mar 24 | Consumption cliff → May DQ spike | 🟠 IMMINENT |
 | HAWK | **WTI $107+, pump $3.40→$4.00+ base case, diesel $4.30-4.50+** | **Gas squeeze NOW STRUCTURAL — Hormuz mined, no relief valve until military resolution** | 🔴🔴 LOCKED |
 | WAR | **Hormuz actively mined, Dubai airport drone strike, Iran declares financial institutions as military targets** | **Oil shock structural; ABS servicer operational risk NEW; food inflation locked for Q3-Q4** | 🔴🔴 NEW (Mar 11) |
+| BLS/BEA | **CPI Feb +0.3% MoM / 2.4% YoY, core +0.2%/2.5% — IN-LINE, PRE-OIL-SHOCK** | Apparel +1.3% = tariff pass-through live (first hard signal). Market sold off anyway = stagflation fear > tame print. April CPI = real shock (oil + tariffs not yet in). CPI trap confirmed. | 🔴 Mar 12 |
+| PROME | **DD-3: Savings rate 3.6% (2008 match). Demand destruction 2-3 months. $4/gal breakpoint. Baker 25% leverage amplifier.** | Timeline pulled forward. Q3 projections upgraded to Q2. Bottom 60% fuel-vs-food tradeoff imminent at $4. | 🔴 Mar 12 PROCESSED |
 | HAWK | Fertilizer shock (13% global from Gulf) | Food CPI Q3-Q4 2026; urea +27-34% in 10 days; spring planting inelastic demand | 🔴 UPGRADED |
 | HAWK | Diesel $4.30-4.50 | Trucking surcharges → food price transmission accelerant (6-8wk lag) | 🔴 NEW |
 | LABOR | **DOGE RIF 327K permanent separations** | **Localized demand destruction; federal hub metros. Not yet in thesis.** | 🔴🔴 NEW — processing |
@@ -169,7 +171,7 @@
 
 ## BOTTOM LINE
 
-Consumer stress is the most advanced it's been since we started tracking. One vector already breached (subprime auto), two more within striking distance (Fannie MF, student 90+). The gas squeeze hitting Mar 14-21 and FL UI exhaustion Mar 24 create back-to-back stress events for the most vulnerable cohort. NFP -92K means the employment detonator is no longer theoretical — it's firing. Q2 2026 is the conversion window where delinquencies become defaults and defaults become bank losses. The K-shape is extreme but the question is whether it holds — if prime starts deteriorating (wealth effect, private credit layoffs), the floor drops out entirely.
+Consumer stress is the most advanced it's been since we started tracking. One vector already breached (subprime auto), two more within striking distance (Fannie MF, student 90+). The gas squeeze is live with the $4/gal behavioral breakpoint 4-8 weeks away. FL UI exhaustion Mar 24 = next stress event. **Critical update (Mar 12):** Savings rate is 3.6% — not 4.5% — matching the 2008 consumer profile. Baker (2018) shows leverage amplifies consumption elasticity 25%, meaning the already-leveraged bottom 60% will cut spending faster and harder than historical averages. Demand destruction arrives in 2-3 months, not 4+, which pulls Q3 DQ conversion projections solidly into Q2. CPI Feb was in-line but pre-oil-shock; apparel +1.3% confirms tariff pass-through is live. April CPI will be the real shock. Market sold off on in-line CPI — stagflation fear is now priced in, not the data. The K-shape is extreme and the timeline has compressed: NFP -92K + 3.6% savings rate + $107 WTI + UI exhaustion cliff = Q2 2026 is now the primary conversion window, not Q3.
 
 ---
 
@@ -186,7 +188,7 @@ Consumer stress is the most advanced it's been since we started tracking. One ve
 
 **Sub-agents:** GIG (Dave 28DPD canary, ~2.0%, stress >2.10%)
 
-*Next catalysts: **Gas pump squeeze LIVE NOW (window moved left, WTI $107)** | Continuing claims YELLOW threshold 1.9M (currently 1,868K) | FL UI exhaustion Mar 24 | JOLTS + Cass Feb Mar 13 | Q1 consumer earnings April*
+*Next catalysts: **$4/gal behavioral breakpoint ~4-8 weeks** | Claims YELLOW threshold 1.9M (currently 1,868K, Thursday Mar 13) | JOLTS + Cass Feb Mar 13 | FL UI exhaustion Mar 24 | April CPI = real oil+tariff shock | Q1 consumer earnings April*
 
 ---
 
@@ -204,3 +206,5 @@ Consumer stress is the most advanced it's been since we started tracking. One ve
 | 2026-03-10 | Goeasy REVISED: -56.97%, dividend suspended, outlook withdrawn, $233M writeoff, NCO 13%→mid-teens | ✅ | Dashboard updated. KB-CARL-084. VX-CARL-CAN-01 revised. |
 | 2026-03-10 | Unicus Research: auto ABS fraud re-emerging — originate-to-distribute, Santander $550M precedent | ✅ | Fraud context added to ABS-08/09/10/13 VX notes. KB-CARL-083. PROPOSAL: expedite ABS baseline sprint. |
 | 2026-03-10 | Auto ABS originate-to-distribute patterns re-emerging (sources, not public) | ✅ | KB-CARL-082. Monitoring flag set for Santander/Exeter trust DQ acceleration. |
+| 2026-03-12 | CPI Feb +0.3%/2.4% in-line; Apparel +1.3% tariff; market sold off | ✅ | CPI trap confirmed. Apparel pass-through = first tariff signal in data. April CPI = real shock. Cross-agent links updated. |
+| 2026-03-12 | PROME DD-3: savings 3.6% (2008 match), demand destruction 2-3 months, $4/gal breakpoint, Baker 2018 leverage +25% | ✅ | Savings rate corrected 4.5%→3.6%. Demand destruction timeline pulled Q3→Q2. $4/gal breakpoint flagged (~4-8 weeks). Danger window updated. |
