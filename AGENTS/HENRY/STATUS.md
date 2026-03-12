@@ -31,6 +31,24 @@
 
 ---
 
+---
+
+## STAGFLATION TRAP — THREE INFLATION VECTORS (Added Mar 12)
+
+Three independent channels feeding into Core PCE — Fed cannot cut into any of them:
+
+| Vector | Mechanism | Quantified Impact | Status |
+|--------|-----------|-------------------|--------|
+| **Oil >$100** | Direct energy input cost; gas prices +16% wk of Mar 9; feeding into March CPI (Apr print) | Structural — each $10/bbl Brent ≈ +20-25bps Core PCE over 6-9mo | 🔴🔴 ACTIVE — threshold breached Mar 12 |
+| **Tech Deflation Reversal** | AI/semiconductor prices had been pulling Core PCE down (-12bps baseline contribution). TSMC disruption (Hormuz = Taiwan supply chain risk) reverses this. | Baseline: -12bps to Core PCE. If TSMC disrupted: **+24bps** swing (+36bps net shift) | 🟠 ARMED — tail risk if Strait closure extends |
+| **Food Inflation** | Food at home = 14% of Core PCE weight. Hormuz disrupts fertilizer (ammonia) shipping. Ag liquidation (STL Beige Book). | 10-15% food price rise = **+140-210bps** to Core PCE. | 🟠 BUILDING — farm auctions record, AR planting at risk |
+
+**Combined scenario (all three active):** Core PCE could reach 3.5-4.5% by Q3 2026 — Fed CANNOT cut. Stagflation trap becomes structural, not cyclical.
+
+*Flows: FLOW-HEN-022 (food→PCE), FLOW-HEN-023 (tech deflation reversal→PCE)*
+
+---
+
 ## MAR 9 SIGNAL BATCH — KEY UPDATES
 
 **Mar 9 Batch Data:**
@@ -51,14 +69,14 @@
 |---|--------|-------|--------|------------|-----------------|
 | 1 | Gamma / Positioning | 5 | 🔴🔴 | Put wall breached, negative gamma confirmed, dealers fading rallies | Already maxed |
 | 2 | CTA / Systematic | 4 | 🔴 | Short CTAs active, 6,707 medium trigger pierced intraday, $80B queued | Close below 6,707 |
-| 3 | Credit-Equity Divergence | 4 | 🔴 | Quality rotation 4/5 steps, BKLN 52wk lows, HY OAS floor rising | HY OAS >350bps |
+| 3 | Credit-Equity Divergence | 4 | 🔴 | Quality rotation 4/5 steps, BKLN 52wk lows, HY OAS floor rising | HY OAS >350bps (400bps = **credit break confirmed** — systemic) |
 | 4 | Stagflation / Labor-Inflation | **5** | 🔴🔴 | **NFP -92K CONFIRMED. Dec revised -17K. Wages +3.8% YoY. Stagflation locked.** | Already maxed |
 | 5 | 0DTE / Microstructure | 4 | 🔴 | 65% of SPX volume (record), GEX thinning, Citadel confirmed asymmetry | Structural — amplifier, not trigger |
 | 6 | Vol Structure | **4** | 🔴 | **VIX 23.61→29.5 on Mar 9 open. Coiled spring partially sprung. Watch for term structure inversion.** | VIX spot > futures (inversion) |
 | 7 | Earnings Quality / SBC | 3 | 🟠 | XLK <50% breadth, SBC 30-50% overstatement, SoftBank exited NVDA | PLTR breaks $100 (H5) |
 | 8 | Market Breadth | 3 | 🟠 | 8/11 sectors red, IWM below all MAs, Energy/Materials >95% | XLK breadth <40% (H7) |
-| 9 | Geopolitical / Commodity | **5** | 🔴🔴 | **BRENT BREACHED $100 MAR 12 MIDDAY — FED TRAP HARDENS. 3 ships hit Hormuz overnight. Navy EOM at earliest for escort. $200 oil cited worst case by Iran.** | ✅ THRESHOLD MET |
-| 10 | Risk Parity / Leverage | **4** | 🔴 | **Global bond selloff confirmed Mar 8 — stocks AND bonds down simultaneously. Risk parity has NO safe leg. Three-anchor framework LIVE.** | Full cross-asset deleveraging |
+| 9 | Geopolitical / Commodity | **5** | 🔴🔴 | **BRENT BREACHED $100 MAR 12 MIDDAY — FED TRAP HARDENS. 3 ships hit Hormuz overnight. Navy EOM at earliest for escort. $200 oil cited worst case by Iran. Strait now declared permanent closure zone (Mar 12). Citi DIFC staff evacuation underway.** ⚠️ **HAWK Scenario C (VIX 40-55): Now 55% base case — NO LONGER TAIL RISK.** | ✅ THRESHOLD MET |
+| 10 | Risk Parity / Leverage | **4** | 🔴 | **Global bond selloff confirmed Mar 8 — stocks AND bonds down simultaneously. Risk parity has NO safe leg. Three-anchor framework LIVE.** **New pressure source: Gulf surplus recycling ~$50-75B/yr reduction — petrodollar UST demand shrinking as GCC nations redirect capital inward amid war premium.** | Full cross-asset deleveraging |
 | 11 | Carry / JPY Unwind | **4** | 🔴 | **ACTIVATED. Softest possible NFP. Yen bid expected. Watch USDJPY move toward 150-152.** | Confirmed USDJPY <153 = cascade active |
 | 12 | Consumer / Delinquency | 2 | 🟡 | Beige Book K-shape 10-12/12, FL UI cliff Mar 24 | Claims >300K or FL cliff fires |
 
@@ -74,6 +92,9 @@
 |----------|--------|--------|---------------|
 | IWM $250P | Jun 2026 | ✅ +19% (Mar 3 EOD) → increasing (IWM $259.56 -1.91% Mar 4 pre-ISM, ~$9.56 OTM + delta expanding) | Q2 ISM sub-49 confirmation; IWM close <$255 = accelerant |
 | HYG $75P | Jun 2026 | ⚠️ Improving (HY OAS 297bps CONF, floor rising) | HY OAS confirmed >350bps = active transmission; credit event |
+| TLT Puts | **May 2026 (existing) = SATELLITE ONLY** | ⚠️ Oil lag thesis → May expiry may not capture full move. **Core position should be Sept/Oct per 1973-74 lag template** (embargo lifted Mar 18 1974 → yields KEPT RISING through year-end). May = tactical/satellite. Roll core to Sept/Oct. | 10Y yields drop below 3.80% sustained |
+
+**⚠️ OIL RESOLUTION RED TEAM:** If Hormuz conflict resolves quickly → fear premium unwinds → oil drops sharply → TLT puts briefly underwater (bond rally on rate-cut hopes). **THIS IS AN ADD WINDOW, NOT AN EXIT.** 1974 template: embargo lifted Mar 18 → yields kept rising. Resolution = temporary deflation scare, not structural. Hold core Sept/Oct position through any oil relief bounce.
 
 ---
 
@@ -243,6 +264,7 @@ Market is derivatives-driven, dealer hedging dominates short-term dynamics.
 | HEN-03 | March ISM Prices (Mfg+Services) exceeds February — Hormuz oil shock feeds through | 70% | ACTIVE — resolves ~Apr 6 |
 | HEN-04 | FOMC Mar 17-18 holds rates, sounds concerned on both mandates without acting | 70% | ACTIVE — resolves Mar 18 |
 | HEN-05 | April Beige Book (early May) materially worse than March — layoffs, delinquency, rural hospital closures | 85% | ACTIVE — resolves ~May 10 |
+| HEN-06 | Hamilton NOPI framework: GDP drag **-3.0 to -4.9pp** from sustained oil shock; peak impact Q1 2027 (lag 4 quarters from shock initiation). Jun credit puts likely too early — extend to Sep/Dec per Hamilton lag coefficients. | 75% | ACTIVE — resolves Q1 2027 |
 
 ---
 

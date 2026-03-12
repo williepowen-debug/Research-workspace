@@ -5,6 +5,9 @@
 
 ## EOD UPDATE — March 12, 2026
 
+### ⚡ LATE BREAK — PROPOSAL 2 FIRED (2026-03-12 ~21:00 UTC)
+**Citi DIFC evacuation confirmed.** Citi has evacuated staff from DIFC operations — operational disruption live, not hypothetical. Vector #11 → **5/5 confirmed**. `DIFC_TRANSMISSION_MAR11.md` upgraded to **ACTIVE**. Proposal 2 TRIGGERED. Route all DIFC monitoring to HAWK. SWIFT/settlement disruption risk now near-term. See ACTIVE PROPOSALS below.
+
 ### (1) 10Y AUCTION — WEAK. DEMAND MISS.
 | Metric | Today (Mar 12) | Last Month (Feb) | 10-Auction Avg |
 |--------|---------------|-----------------|----------------|
@@ -107,12 +110,12 @@ TIC (Treasury International Capital) reports January 2026 foreign holdings of US
 **PROPOSAL 1 — MONITOR FRED TODAY FOR LIQ-01**
 Check FRED BAMLH0A0HYM2 this afternoon (Mar 10 release). If ≥320bps → LIQ-01 triggered → signal HENRY + SAM. No trade action needed until confirmed.
 
-**PROPOSAL 2 — ADD DIFC SCENARIO TO DANGER WINDOWS**
-Iran targeting of DIFC financial institutions = new vector not in current Danger Windows. Add: "DIFC operational impairment event" → immediate 🔴🔴🔴 MAX escalation. HY OAS impact: +5-15bps in 48-72h. Route ongoing DIFC monitoring to HAWK.
-*See workbook/DIFC_TRANSMISSION_MAR11.md for full transmission analysis.*
+**PROPOSAL 2 — DIFC SCENARIO — ✅ TRIGGERED / LIVE (Mar 12)**
+~~Add DIFC scenario to Danger Windows~~ — **FIRED.** Citi confirmed DIFC evacuation Mar 12. Operational disruption live. SWIFT/settlement disruption = near-term risk. HY OAS impact: +5-15bps in 48-72h. Vector #11 confirmed 5/5. DIFC_TRANSMISSION_MAR11.md = ACTIVE. Route all DIFC monitoring to HAWK. Danger Windows updated.
+*See workbook/DIFC_TRANSMISSION_MAR11.md (now ACTIVE).*
 
 **PROPOSAL 3 — CRUDE SHORT ON HOLD**
-Original thesis: 140M barrel flush April-May → short crude $55-57. War premium not priced out yet. DIFC threat may cause Gulf sovereigns to pause oil operations (supply tightening near-term before April flush). Reassess in 2 weeks or on clear de-escalation.
+Original thesis: 140M barrel flush April-May → short crude $55-57. War premium not priced out yet. **UPDATE (Mar 12):** Permanent Hormuz closure declaration further delays April-May flush — thesis intact but timeline extended. Reassess post-de-escalation signal or clear production resumption. Do not enter short while Hormuz posture = permanent.
 
 **PROPOSAL 4 — HYG PUT SIZE REVIEW**
 HYG $75P Jun x10 positioned for LIQ-01 convergence. CPI in-line = no panic catalyst today. Convergence may be slow (weeks) unless shock event. If Mar 10 HY OAS <320bps AND no DIFC event → review position size given IV decay risk at VIX 24-26.
@@ -126,7 +129,7 @@ BCRED $3.8B redemptions (7.9%) met via self-injection in Q1. Q2 = structural tes
 
 | Position | Expiry | Thesis | Monitor |
 |----------|--------|--------|---------|
-| TEN calls (Jun $30) | Jun 2026 | Ice-class fleet + Black Sea war risk + Hormuz triple premium | Ice breaks late March → exit |
+| TEN calls (Jun $30) | Jun 2026 | Ice-class fleet + Black Sea war risk + Hormuz triple premium | **Permanent Hormuz posture declaration (Mar 12) extends thesis duration — do NOT exit at ice break; reassess on de-escalation.** |
 | HYG $75P Jun x10 | Jun 2026 | LIQ-01 convergence, HY spread widening | LIQ-01 trigger + VIX coiled spring release |
 
 **Crude short (planned, NOT entered):** ON HOLD — see Proposal 3.
@@ -152,9 +155,10 @@ BCRED $3.8B redemptions (7.9%) met via self-injection in Q1. Q2 = structural tes
 | Window | Risk |
 |--------|------|
 | **TODAY** | Mar 10 HY OAS FRED release — LIQ-01 confirmation or miss |
-| **Now → Mar 31** | 🔴 DIFC targeting active. VIX coiled at 24-25. LIQ-01 at threshold. Quarter-end SRF stress. |
+| **Now → Mar 31** | 🔴🔴 DIFC OPERATIONAL DISRUPTION LIVE (Citi evac confirmed Mar 12). SWIFT/settlement disruption near-term risk. VIX coiled at 24-25. LIQ-01 at threshold. Quarter-end SRF stress — no RRP buffer. |
 | **Next refunding week** | 30Y auction demand test — BTC <2.2x + tail >2bps = VIX spring release trigger |
 | **April** | Tax season TGA drain. Trump-Xi summit (FOI pre-positioning). |
+| **~Apr 20-25** | Japan March trade balance release. JKM $15.495/MMBtu = crisis pricing embedded in Q1 import costs. Confirmation of Japan trade deficit → life insurer repatriation → UST selling → auction tails. Watch for acceleration of Japan anchor selling. |
 | **May** | Powell term ends. Warsh transition = intervention willingness degradation. |
 
 ---
@@ -189,7 +193,7 @@ BCRED $3.8B redemptions (7.9%) met via self-injection in Q1. Q2 = structural tes
 ## WATCH
 
 **URGENT:** Check FRED BAMLH0A0HYM2 NOW — Single-B series confirmed updated to Mar 10. Main HY OAS likely releasing tonight/tomorrow morning. If ≥320bps → LIQ-01 TRIGGERED → signal HENRY + SAM.
-**FOREIGN DEMAND:** Gulf recycling UPGRADED to $40-72B/month combined anchor selling (4 anchors: Japan + China + Korea + Gulf). FLOW-ZHAO-12 status → ACTIVE. Gulf states below fiscal breakeven = involuntary, additive supply. Prior model was $30-55B/month (3 anchors). Demand hole now larger than modeled.
+**FOREIGN DEMAND:** Combined anchor selling UPGRADED to **$50-90B/month** (ZHAO upgrade, Mar 12). 4 anchors: Japan + China + Korea + Gulf. FLOW-ZHAO-12 status → ACTIVE (revised up from $40-72B/month prior). Gulf states below fiscal breakeven = involuntary, additive supply. Prior model was $30-55B/month (3 anchors). Demand hole significantly larger than modeled — reassess FOI demand hole estimates accordingly.
 **PRIVATE CREDIT:** Blue Owl permanent freeze live (NOT soft gate — structural change). BCRED Q2 structural test May/June. ABS crack confirmed (SoFi 2025-1 CNL 2.6% first trigger). 44% of Jan defaults = distressed exchanges (headline rate understates actual stress). BBB-AAA spread widening = fallen angel risk rising. Track bank bond supply: 40% projected drop masks fundamentals.
 **EU VECTOR (HANS):** iTraxx Senior Fin 95bps — orange at 150bps. ECB frozen at 2.00%. EUR/USD basis swaps may widen. USD funding stress pathway if European banks face forced USD borrowing.
 **Tomorrow:** HYG roll decision — Jun puts to Sep/Dec. Credit default rates at 2000/2008 levels = thesis accelerating. CLO funding stress (117→125bps AAA) = watch CLO issuance pause as next trigger.

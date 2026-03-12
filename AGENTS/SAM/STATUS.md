@@ -1,6 +1,6 @@
 # SAM STATUS
 
-**Signal Status:** 🔴🔴 CRITICAL — USD/JPY ~159 HOLDING VERBAL INTERVENTION ZONE | MoF KATAYAMA ESCALATION EXPECTED | BOJ HOLD NEXT WEEK 92-95% | UEDA PRESSER MAR 19 = CARRY CATALYST | LIFE INSURER FY-END REPATRIATION LOADING | **Last Updated:** 2026-03-12 20:15 UTC
+**Signal Status:** 🔴🔴 CRITICAL — USD/JPY ~159 HOLDING VERBAL INTERVENTION ZONE | MoF KATAYAMA ESCALATION EXPECTED | BOJ HOLD NEXT WEEK 92-95% | UEDA PRESSER MAR 19 = CARRY CATALYST | LIFE INSURER FY-END REPATRIATION LOADING | TAIWAN LNG MAR 15 INFLECTION WATCH | **Last Updated:** 2026-03-12 21:45 UTC
 
 ---
 
@@ -121,6 +121,36 @@ Ueda emphasizes prolonged energy uncertainty, defers to April/June timeline, exp
 - 35% chance nothing changes (neutral → status quo)
 - 15% chance he lights the fuse (hawkish hold → acute carry stress onset)
 - **The 15% scenario is the one to position around.** It has asymmetric impact and is the only path to rapid Phase 2 onset before month-end.
+
+---
+
+### (6) TAIWAN LNG CROSS-DOMAIN — MAR 10 HAWK SIGNAL (INTEGRATED MAR 12)
+
+**HAWK → SAM: Taiwan LNG approaching RED. Critical date: March 15.**
+
+| Metric | Status |
+|--------|--------|
+| **Taiwan LNG reserves** | ~10-11 days baseline (thin vs Japan/Korea 2-4 weeks) |
+| **Qatar supply offline** | ~30% of Taiwan LNG — Ras Laffan halt + Hormuz double hit |
+| **Cargoes secured** | 20 of 22 needed for March-April. **2 still unconfirmed.** |
+| **Minister on record (Mar 10)** | "No imminent shortage" — but math is tight |
+| **Taipower Chair Tseng (Mar 3)** | Named 6 specific shipments after March 15 at risk |
+| **TSMC power exposure** | TSMC ~9% of Taiwan electricity. No curtailments yet. |
+
+**Why March 15 is the inflection:** Pre-Hormuz-closure cargoes deliver by ~March 15. After that, only Australia/US Gulf spot can cover the ~30% Qatar gap. With 2 cargoes unconfirmed, reserve exhaustion risk emerges **late March to early April**.
+
+**SAM relevance (two channels):**
+1. **JKM amplification:** Taiwan spot bids directly compete with Japan for Australia/US Gulf cargoes → drives JKM higher → Japan import costs elevated → yen structural weakness deepened → BOJ trap deepens further.
+2. **TSMC curtailment → inflation:** If Taipower reserve margin falls <10%, TSMC curtailment is real. TSMC advanced chip shortage → global semiconductor prices rise → inflationary input cost surge cross-domain. Also compounds Kumamoto delay (2029 gap).
+
+**Watch triggers (active):**
+- Taipower coal backup activation announcement
+- 2 unconfirmed cargoes confirmed OR fall through
+- Taiwan power reserve margin <10% (Taipower data)
+- TSMC IR statement on energy contingency
+- JKM spike above $18/MMBtu (Taiwan spot bids crowding out Japan)
+
+**ML entry:** ML-JPN-186 | **FLOW entry:** FLOW-TWN-7.01
 
 ---
 
