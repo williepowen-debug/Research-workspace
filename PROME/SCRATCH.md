@@ -1,152 +1,39 @@
 # SCRATCH — Ephemeral Working Memory
 
-**Updated:** 2026-03-11 ~22:35 UTC
+**Updated:** 2026-03-12 ~14:30 UTC
 
 ---
 
 ## Handoff
-**Last context:** Evening session — ran BROCK/LIQUID/SAM inbox processing, NEXUS pre-CPI synthesis, reviewed RED team Hormuz challenge with Will, researched historical demand destruction across oil shocks, wrote 5 research prompts (DD-1 through DD-5).
+**Last context:** Major research + trading day. Built comprehensive Hamilton Oil-GDP Demand Destruction Framework (DD-1 through DD-3 complete, DD-4/DD-5 pending). Executed 9 trades: harvested USO (+$1,051) and LNG (+$1,049), bought TLT puts (Sep $85P ×2, Oct $82P ×2), sold STNG (RED team wrong submarket), cleaned house (XAR, ITA, CEPT, CPER). CPI printed in-line (2.4% YoY, pre-oil-shock). USD/JPY breached 159 — 100 pips from Bessent bilateral 160 trigger.
 
 **Next tide:**
-1. **🔴 CPI tomorrow Mar 12 8:30 AM ET.** CARL: tame = trap (Feb data, pre-oil). Hot = thesis accelerates.
-2. **🔴 USO $106C Mar 13 — SELL AT OPEN.** Expires Friday. USO closed $108, this is ~$2 ITM. Don't let theta eat another day.
-3. **🔴 Check FRED for Mar 10 HY OAS** — LIQ-01 trigger at 320. LIQUID says ~50% it crossed.
-4. **🔴 Claims Thursday Mar 13 8:30 AM ET.** First clean read post-DHS. ≥235K = LABOR Vector 3 max.
-5. **TLT puts** — add post-CPI on first green TLT day. Cash ready (~$6,500).
-6. **HYG puts** — add Sep/Dec on green day. Roll duration, don't trim (lesson learned today).
-7. **Process JPM signal** — BROCK + LIQUID inboxes loaded. Spawn in AM.
-8. **HAWK/HANS file audit** — same treatment as LIQUID (STATUS→VX/FLOW/workbook).
-9. **OTTO** — 5 proposals still unexecuted.
-10. **CARL** — SDART historical vintage comparison at same seasoning, Exeter pull.
-11. **STNG $73.26** — stop at $71.50. Watch.
-12. **LNG $250C Mar 20** — assess roll/cut this week.
-
-**CPI Decision Tree (Mar 12):**
-- HOT → TLT holds, CF holds, hold everything. Thesis accelerates.
-- IN-LINE → hold, wait for Thu claims. No new trades.
-- COOL → hold, thesis intact but slower. CARL: tame = Feb data (pre-oil spike). Real shock = April CPI. Don't invalidate.
-
-**All proposals approved.** Full list in memory/2026-03-11.md checkpoint [16:45 ET].
-
-**Key framework upgrades from today:**
-- Four-anchor UST: $50-90B/month (Japan + China + Korea + Gulf). NEXUS confirmed.
-- Mine floor: even ceasefire = 6-16 weeks before normal shipping
-- Stagflation trap: confirmed energy-independent (30Y +4bps on oil -11%)
-- VIX coiled spring: false calm at 25 vs structural risk
-- Layer 3 CRE fraud: NOI inflated at origination, writedowns > consensus
-- DIFC targeting: 4 transmission paths (LIQUID + ZHAO + BROCK convergence)
-- JPM restricting private credit lending — "echoes 2007 subprime" (Reuters)
-- SDART 34x delinquency gap vs Honda, 1.8pp from trigger (CARL Opus)
-- Lesson: roll duration, don't trim size (HYG)
-
-**Rhythm note:** Most productive day for the agent network. All 15 agents processed signals, all proposals resolved in one session. Will learning actively — asked for trade analysis, internalized the HYG lesson. System is humming.
-
-**Next tide:**
-1. **🔴🔴 PROCESS RED TEAM REPORT — CRITICAL** — Filed at `AGENTS/RED/challenges/HORMUZ_RED_TEAM_2026-03-10.md`. THREE IMMEDIATE VERIFICATIONS NEEDED:
-   a) **Has Iran actually mined Hormuz?** If no mines laid, the 500-day clearance argument is hypothetical. Closure may be missile/fast boat threat only — which reprices in days not months.
-   b) **STNG is product tankers (clean), not crude.** If Gulf refineries reduce runs, STNG's market SHRINKS. May be wrong instrument entirely.
-   c) **China side-deal is confirmed** — Hormuz isn't "closed," it's selectively restricted. Qatar LNG exemption could follow. Caps oil upside + threatens CF fertilizer thesis.
-   RED rates Trump deal in <6 weeks at 25-35%. Our duration confidence is overstated. Book is net NEGATIVE in demand destruction scenario (energy longs collapse before bank puts pay). DO NOT ADD POSITIONS UNTIL RED FINDINGS PROCESSED WITH WILL.
-2. **Process ChatGPT Hormuz seizure** — Will may have results to paste in. 4th source on the prompt.
-3. **CPI 8:30 AM ET Wed** — hot print expected (65%). TLT Jun $85P x3 are the test. CF should move too. Decision tree: hot→hold/add, cool→buy 2nd CF on dip.
-4. **OTTO proposals** — failed 3x on API overload. 5 approved proposals unexecuted. Try again.
-5. **Market API** — Alpha Vantage setup. Keeps getting bumped. Actually do it this time.
-6. **STNG sizing** — after RED team report. Shares not calls. Currently 2 shares ($156), thesis says add to 5-10.
-7. **Verify Gemini claims** — China side deal, Russia intel sharing, Iraq -70%. Need primary source confirmation before trading on these.
-
-**COMPLETED tonight (all persisted to files):**
-- ✅ Prompt #1 Russia sanctions (3-source: Perplexity+Kimi+ChatGPT) → HAWK inbox
-- ✅ Prompt #2 Oil shock timelines (3-source: ChatGPT+Perplexity+Gemini) → HENRY, HAWK, FORGE
-- ✅ Prompt #3 Fertilizer/CF (3-source: Kimi+DeepResearch+Gemini) → HAWK, CARL, FORGE/CF-trade-thesis.md
-- ✅ Taiwan LNG (researcher agent) → HAWK inbox
-- ✅ Eisman Ep 49 (SoFi CNL, software 20%, Blue Owl/Kuvari, HY divergence) → CARL, OTTO, BROCK, LIQUID
-- ✅ Oil shock signal files → HENRY, HAWK, FORGE
-- ✅ 9 market screenshots triaged
-- ✅ Meta-prompt "What Should I Be Asking You?" saved to PROMPTS.md
-- ✅ Full thesis timeline created from all agents (shared with Will)
-
-**Next tide:**
-1. **🔴 IMMEDIATE: Process Hormuz seizure prompt results** — Will sending results from 4 LLMs. Routes to HANS + HAWK.
-2. **Respawn OTTO** — failed 2x on API overload. 5 approved proposals still unexecuted.
-3. **Market API setup** — Alpha Vantage free tier. Tier 1 priority today (keep getting bumped).
-4. **Wed Mar 12: CPI 8:30 AM ET** — 🔴🔴 hot print expected (65%). TLT puts #1 conviction test. CF entry decision (but watch IV — if premiums bloated pre-CPI, may want to enter AFTER for IV crush).
-3. **Thu Mar 13: Initial claims** — FIRST CLEAN READ post-DHS suppression. >235K = LABOR vector 3 max score. Two catalysts in two days = the gauntlet.
-4. **Prompts #4-5 still open** — tanker rates (STNG sizing), Hormuz seizure (HANS). Prompts in PROMPTS.md ready to copy.
-5. **HYG Jun puts — consider rolling to Sep/Dec.** Credit spreads lag 5-14 months. Jun may be early.
-6. **NEXUS synthesis** — all agents loaded with fresh signals, still queued.
-7. **CARL ABS sprint** — 14 PENDING VX rows + SoFi CNL routed.
-8. **Mar 15: Taiwan LNG inflection** — pre-closure cargoes arrive, Qatar gap goes live after. Also TIC data.
-
-**CPI Decision Tree (Wed Mar 12):**
-- HOT → TLT holds, enter CF on selloff, hold everything. Thesis accelerates.
-- IN-LINE → hold, wait for Thu claims. No new trades.
-- COOL → hold, thesis intact but slower. May $88P TLT pressured, Sep $85P fine. Consider HYG roll.
-- NOTE: Watch CF call IV ahead of CPI. If bloated, enter AFTER print for IV crush.
-
-**Late-session geopolitical signals (added after main handoff):**
-- Policy Tensor: US facing strategic defeat. Drone math = Iran sustains fire 4mo MINIMUM. All 5 THAAD hit. Sortie rate -35-50%. "Reverse Ukraine" tail.
-- KC-135 tankers evacuated Prince Sultan → Europe (flight tracking confirmed)
-- Full-spectrum US withdrawal: air bases, naval, ground, THAAD — ALL pulling back
-- Krepinevich 2014 CSBA paper in PROME/mail/inbox/ — theoretical foundation for chokepoint denial
-- Gap between rhetoric ("take over Hormuz") and posture (retreating) is widening
-- Hormuz duration: 4-6 months MINIMUM base case. All our expirations fall within this window.
+1. **Claims tomorrow 8:30 AM ET (Mar 13)** — First clean post-DHS read. 1,868K continuing claims, 32K from YELLOW. ≥235K initial = consensus shift trigger. JOLTS at 10:00 AM.
+2. **Agent inbox backlog** — BROCK (1), LIQUID (1), CARL (1), SAM (2), OTTO (1) all have unprocessed signals. Run inbox processing batch.
+3. **HERMES outbox backlog** — HAWK (4), BROCK (1), LIQUID (1), LABOR (1), SAM (1), ZHAO (1) have outbox signals. Next HERMES run should deliver these.
+4. **Jun roll plan** — On next green day, roll: APO Jun→Dec, KRE Jun→Dec, HYG Jun→Dec, EGBN Jun→Sep/Dec, IWM Jun→Sep. Hamilton research says Jun captures only lag 1-2 (~1/3 of damage). Dec catches lag 3-4 (peak).
+5. **DD-4 (China Hormuz flows) + DD-5 (rate of change vs level)** — Still pending from LLM pipeline. Route to HAWK/HANS when received.
+6. **ZHAO check-in results** — Completed but message lost in session. Read ZHAO STATUS.md next session.
+7. **OWL $9.5P Apr 2** — Expires in 3 weeks, down 29%. Assess cut vs hold.
+8. **VLY $10P Mar 20** — Down 40.65%, nearly dead. Likely let expire.
+9. **PROME STATUS.md needs major update** — Dashboard stale (Mar 10). Trade convictions need refresh per Hamilton framework.
 
 **Open questions:**
-- KRE EOD put details — Will to confirm
-- Senate DHS vote outcome unknown
-- Trump peace talk — doesn't kill thesis (3 legs) but could slow timeline
-- USO re-entry timing — second leg to $120-130 probable if Hormuz stays closed
-- CF IV levels — check before entering, don't overpay for bloated pre-CPI premium
+- How much more TLT put exposure? Currently 9 contracts + 14 TBT shares (~$2,274 total = 4% of portfolio). Conservative for 99% confidence.
+- Green day roll plan: which positions first? WAL $85P Jun (up 179%) is biggest winner — lock in gains by rolling half to Sep/Dec?
+- EGBN $25P Jun down 36% — cut or extend? Small position ($100).
 
-**Filled today:**
-- TLT Jun $85P x3 @ $0.81 — $245.02
-- CF Jun $115C x1 @ $8.90 — $890.67 (half position, add 2nd on red day/post-CPI dip)
-- WAL Sep $70P x1 @ $7.68 — $768.67
-- VLY Mar $10P x5 sell @ $0.07 — cancelled, no fill. Let expire.
-**Total deployed:** $1,904.36
+**Positions entered today:**
+- TLT Sep 30 $85P ×2 @ $2.51 ($503.35)
+- TLT Oct 16 $82P ×2 @ $1.67 ($335.35)
 
-**Key conceptual upgrades from tonight:**
-- TLT puts have 3 independent legs (energy, foreign selling, deficit). Even ceasefire only weakens 1.
-- 1974: embargo lifted March 18, yields KEPT RISING. Can't un-ring the inflation bell.
-- Leading/lagging framework: ABS triggers → private credit equity → HY spreads → IG spreads → defaults. We're between stages 1 and 2.
-- Hormuz is an accelerator, not the engine. Each week closed adds damage that takes MONTHS to unwind.
-- "What Should I Be Asking You?" meta-prompt = breakthrough research inversion tool.
+**Positions exited today:**
+- USO Mar 13 $106C @ $10.52 (+$1,051.33)
+- LNG Mar 20 $250C @ $10.50 (+$1,049.33)
+- STNG ×2 @ $70.01 (+$140.02)
+- XAR ×1 @ $270.09
+- ITA ×1 @ $232.71
+- CEPT ×10 @ $11.21 (+$112.10)
+- CPER ×6 @ $35.80 (+$214.80)
 
-**Rhythm note:** Will is developing rapidly. Pushed back on TLT thesis with peace scenario (smart). Wanted education on delta from research (growth mindset). Asked for timeline synthesis across all agents (strategic thinking). Multi-LLM pipeline producing institutional-quality work.
-
----
-
-## Migration Scorecard
-| Agent | Status | Remaining |
-|-------|--------|-----------|
-| ZHAO | ✅ COMPLETE | — |
-| HAWK | ✅ COMPLETE | TRADE.md done |
-| CARL | ✅ COMPLETE | ABS baseline data pull (future) |
-| HENRY | 🟠 | KB migration (89 rows) |
-| REGINALD | 🟠 | KB migration (116 rows) |
-| Others | 🟡 | CLAUDE.md mail pointer updates during next migration |
-
-## Infrastructure Queue
-- Sprint 3d: HENRY KB migration (89 rows)
-- Sprint 3e: REGINALD KB migration (116 rows, hardest)
-- Sprint 3f: Update remaining CLAUDE.md files with mail/PROTOCOL.md pointer
-- TRADE.md: BROCK (last one without)
-- HERMES cron automation (not built)
-- CARL ABS baseline data pull (14 PENDING VX rows)
-
-## Top 10 Trade Convictions (Mar 9)
-1. TLT puts (5/5) — 3-anchor UST, works in every scenario
-2. EGBN $25P (5/5) — DC federal, non-energy, survives resolution
-3. OZK $42.5P/$45P (5/5) — Memo3 worst, Apr 16 detonator
-4. APO puts (5/5) — MFS £400M, Athene, PIMCO cycle
-5. LNG spread (4/5) — Cheniere consensus error, +529% carriers
-6. KRE puts (4/5) — systemic regional, active manage
-7. VIX call spread (4/5) — coiled spring, 20-week breach
-8. USO calls (4/5) — Scenario C, Kuwait 7 days
-9. IWM $250P (4/5) — small cap credit/labor
-10. AAL $10P (4/5) — jet fuel +87%
-
-## Monday Trades Summary
-**Sells:** SSB +191%, GOOG -11.5%, OKLO -37.4%, AMH, SLV (half), PALL
-**Buys:** TLT $85P Sep x2, TLT $88P May x2, KRE $60P Jun x1, KRE additional put (EOD TBD)
-**Net:** +$625 cash
+**Account:** ~$57,064 (+190% all-time)
