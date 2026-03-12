@@ -1,8 +1,8 @@
 # OTTO STATUS
 
-**Signal Status:** 🔴 CRITICAL | **Last Updated:** 2026-03-11 13:50 UTC
+**Signal Status:** 🔴 CRITICAL | **Last Updated:** 2026-03-12 13:45 UTC
 
-**Summary:** NFP -92K (First Negative Print) | WAL sues Jefferies $126M (First Brands) | MFS: Barclays £500M + Elliott/SMBC/Macquarie exposed + Jefferies scrutiny | First Brands CFO GUILTY — turning on James brothers | Pomerantz CVNA class action active | EDGAR 8-K monitoring protocol LIVE | DQ Rate Record 6.9% | **NEW: SoFi 2025-1 CNL 2.6% TRIGGERED (first ever)** | **NEW: Goeasy (GSY.TO) -56.97% — Canadian canary**
+**Summary:** NFP -92K (First Negative Print) | WAL sues Jefferies $126M (First Brands) | MFS: Barclays £500M + Elliott/SMBC/Macquarie exposed + Jefferies scrutiny | First Brands CFO GUILTY — turning on James brothers | Pomerantz CVNA class action active | EDGAR 8-K monitoring protocol LIVE | **🔴 DQ Rate 7.1% — ABOVE THRESHOLD (RED)** | **SoFi 2025-1 CNL 2.6% TRIGGERED (first ever)** | Goeasy (GSY.TO) -56.97% — Canadian canary | **🔴 CVNA Mar 15 discovery production = 3 DAYS OUT** | **First Brands auction end-March + Mar 11 motion to compel hearing**
 
 **Vectors:** 83+ | **ML Entries:** 130+ | **Research Packages:** 15 complete
 
@@ -14,7 +14,7 @@
 |----|----------|--------|--------|
 | REGINALD | 🔴 | Bank losses ~$1.8B+; MFS UK: Barclays + Atlas SP exposed £2B+; JPM/Barclays/Fifth Third sued $230M+ Tricolor | ✅ DELIVERED 2026-03-11 |
 | BROCK | 🔴 | BCRED $3.7B redemptions (7.9% > 5% cap, near-gate); TCPC securities fraud class action | ✅ DELIVERED 2026-03-11 |
-| CARL | 🔴 | Auto extensions RISING (3.81% subprime); K-shape confirmed; CFPB dead = no enforcement | UPDATED 2026-02-16 |
+| CARL | 🔴 | DQ 7.1% (crosses RED threshold); SoFi 2025-1 CNL triggered; Upstart/LC/Prosper sprint needed; NFP -92K direct hit to subprime pool | 📤 QUEUED 2026-03-12 |
 | LIQUID | 🟠 | BCRED gate breach = private credit liquidity stress signal | ✅ DELIVERED 2026-03-11 |
 
 ---
@@ -48,7 +48,7 @@ Recovery ratio 30.58% (vs 41% benchmark). Construction employment -92.7% YoY. S&
 | BCRED Redemptions | $3.8B = 7.9% (met 100% via mgmt capital; no hard gate) | 🔴 |
 | Blue Owl | BOCC II ended quarterly liquidity — soft gate, switching to asset-sale payouts | 🔴 |
 | Large Bankruptcies | 9/week Feb 2026 = COVID levels | 🔴 |
-| 60+ DQ Rate | **6.9% (Jan 2026) — NEW RECORD** (was 6.74% Dec 2025) | 🔴 |
+| 60+ DQ Rate | **7.1% (Feb 2026) — NEW RECORD** (was 6.9% Jan 2026) — ABOVE 🔴 THRESHOLD | 🔴🔴 |
 | Subprime Extension Rate | 3.81% (5x prime, RISING) | 🔴 |
 | NFP | **-92,000 (Mar 6, 2026) — FIRST NEGATIVE PRINT** | 🔴 |
 | Carvana Extension Rate | 5.41% (+45% spike) | 🔴 |
@@ -120,6 +120,42 @@ Recovery ratio 30.58% (vs 41% benchmark). Construction employment -92.7% YoY. S&
 
 ---
 
+## MAR 12 CHECK-IN UPDATE (2026-03-12 13:45 UTC)
+
+### 1. ABS/Subprime Auto Data — THRESHOLD CROSSED
+- **60+ DQ rate: 7.1% (Feb 2026)** — NEW RECORD, crosses 🔴 RED threshold (was 7.0%)
+  - Jan 2026 was 6.9%. Another +20bps in one month.
+  - Transmission: NFP -92K → subprime borrower job losses → faster DQ acceleration
+  - This is not mean-reverting. Moody's/S&P both say "weakness continues through 2026"
+- **SoFi 2025-1 CNL 2.6% TRIGGER CONFIRMED** — previously logged, still the most important recent ABS event
+  - Stress is now confirmed to be moving UP the credit quality stack (SoFi = near-prime)
+  - Watch: Upstart, LendingClub, Prosper ABS for next CNL trigger proximity
+  - **Action needed:** CARL ABS sprint (approved proposal — still unexecuted)
+
+### 2. Carvana (CVNA) — Mar 15 IMMINENT
+- Discovery Production 1 = **3 DAYS OUT (Mar 15)**
+- DriveTime internal documents compelled by Judge Boyle
+- Pomerantz class action investigation active; Gotham estimates $1B+ earnings overstatement
+- Court ruling confirmed: Carvana's motion for reconsideration denied, key claims survive
+- **What to watch on Mar 15:** DriveTime internal docs — VIN/title fraud scale, servicing fee reality
+- No new news beyond what was logged Mar 9-11.
+
+### 3. Fraud/Bankruptcy Developments
+- **First Brands:** Mar 11 hearing on Motion to Compel (Kroll site confirms). Auction process expected to conclude **end of March 2026**. CFO Graham cooperating witness; Patrick James trial June.
+- **Tricolor:** Vehicle liquidation deadline **Mar 31** — imminent. Bank lawsuit (JPM/Barclays/Fifth Third, $230M+) proceeding in Manhattan.
+- **MFS UK:** No new news since Mar 9 (£930M shortfall, Barclays £500M, Elliott £200M). Case developing.
+- No new cockroach cases found in today's search.
+
+### 5 Unexecuted Proposals — Review
+Based on context reconstruction (proposals failed 3x on API overload):
+1. **Signal CARL: DQ data + NFP transmission** — Still critical. DQ now 7.1%. Route signal. ✅ **ROUTING NOW** (see OUTBOUND below)
+2. **CARL ABS sprint: Upstart/LendingClub/Prosper CNL proximity** — Still critical post-SoFi trigger. ✅ **STILL RELEVANT**
+3. **Short watchlist expansion: CACC/SYF/OMF/WRLD** — Still relevant; Goeasy -57% is the analog. ✅ **STILL RELEVANT**
+4. **WAL sizing on next green day** — WAL at $69.60 (Mar 11 close). Green bounce = add. ✅ **STILL RELEVANT**
+5. **First Brands Ch.7 status check** — Kroll confirms auction end-March, some Ch.7 units possible. Confirmed partial. ✅ **EXECUTED ABOVE**
+
+---
+
 ## MAR 10-11 INBOX SIGNALS (processed 2026-03-11)
 
 | Signal | Detail | Impact |
@@ -160,8 +196,12 @@ Recovery ratio 30.58% (vs 41% benchmark). Construction employment -92.7% YoY. S&
 | Mar 6 | **NFP -92,000 — first negative print** | 🔴 |
 | Mar 6 | **WAL sues Jefferies $126.4M (First Brands loans)** | 🔴 |
 | Mar 9 | Elliott/SMBC/Macquarie MFS exposure published | 🟠 |
+| Mar 12 | **DQ Rate 7.1% (Feb 2026) — crosses RED threshold** | 🔴🔴 NEW |
+| Mar 11 | First Brands — Motion to Compel hearing | 🔴 |
+| Mar 15 | **Carvana discovery production 1** | 🔴🔴 3 DAYS OUT |
+| Mar 31 | Tricolor vehicle liquidation deadline | 🔴 IMMINENT |
+| Mar 31 | First Brands auction conclusion | 🔴 IMMINENT |
 | Mar 25 | OZK EDGAR 8-K watch begins | 🔴🔴 |
-| Mar 15 | Carvana discovery production 1 | 🟠 UPCOMING |
 | Apr 6 | TCPC class action lead deadline | 🟠 |
 | Apr 30 | Tricolor vehicle liquidation | 🟠 |
 | Jun 12 | Carvana discovery production 2 | 🟠 |

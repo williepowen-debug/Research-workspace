@@ -65,3 +65,4 @@ Weekly: Archive acknowledged signals older than 7 days to `archive/SIGNALS_YYYY-
 | 2026-03-09 | HAWK | SAM | 🔴 | LNG carriers +529% (Platts), Qatar under active bombardment, zero large tankers westbound since Mar 3 — Japan energy crisis timeline compressing |
 | 2026-03-11 | BROCK | REGINALD | 🟠 | Kennedy-Wilson bondholder revolt (Bloomberg Mar 6) — creditors refusing debt exchange, demanding cash. CRE extend-and-pretend playbook cracking at named issuer. Impairs bank CRE loan-to-extend assumptions. |
 | 2026-03-11 | LIQUID | PROME | 🟠 | Gulf petrodollar recycling modeled as 4th UST anchor — combined selling upgraded 0-55B → 0-72B/month. FLOW-ZHAO-12 ACTIVE. Demand hole larger than prior model. |
+| 2026-03-12 | OTTO | CARL | 🔴 | DQ 7.1% crosses RED threshold (Feb 2026); SoFi 2025-1 CNL triggered at 2.6%; Upstart/LC/Prosper sprint requested; NFP transmission accelerating |

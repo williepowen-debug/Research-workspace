@@ -1,6 +1,116 @@
 # SAM STATUS
 
-**Signal Status:** 🔴🔴 CRITICAL — HORMUZ ACTIVELY MINED | IEA 400MB RELEASE BUT MARKETS NOT CONVINCED (OIL +4.76% TO $91.98) | BOJ HOLD CONFIRMED | JAPAN SPR 80MB / 45 DAYS STARTING MAR 18 | **Last Updated:** 2026-03-11 21:35 UTC
+**Signal Status:** 🔴🔴 CRITICAL — USD/JPY 159.06 BREACHED VERBAL INTERVENTION ZONE | HORMUZ MINED | BOJ HOLD NEXT WEEK | UEDA PRESSER MAR 19 = KEY | CPI 2.4% IN-LINE (NO CHANGE TO THESIS) | **Last Updated:** 2026-03-12 13:45 UTC
+
+---
+
+## 🌅 AM CHECK-IN — MAR 12, 2026 (13:45 UTC)
+
+### HEADLINE: USD/JPY BREACHES 159.00 MoF VERBAL ZONE. BOJ MEETING 6 DAYS AWAY. CPI IN-LINE — DOESN'T MOVE THE NEEDLE.
+
+### (1) OVERNIGHT JAPAN DEVELOPMENTS
+
+| Metric | Mar 11 EOD | Mar 12 AM | Delta |
+|--------|-----------|-----------|-------|
+| **USD/JPY** | ~158.00-158.30 | **159.06 (range 158.57-159.24)** | 🔴 **ALERT LEVEL BREACHED** |
+| **Signal Status** | MoF verbal zone: WATCH | **MoF verbal zone: ACTIVE** | Escalation |
+| **BOJ rate** | 0.75% | 0.75% — hold next week confirmed | No change |
+| **US CPI (Feb)** | Printed yesterday | **2.4% YoY in-line, core 2.5%** | 🟡 No surprise — USD slightly soft |
+
+**Political/macro:**
+- No overnight BOJ communication surprises. Hold for Mar 18-19 remains consensus — sources: mitrade.com confirms "expected to maintain policy rate next week."
+- USD/JPY drift from 158.30 → 159.06 overnight: driven by combination of USD recovery (CPI digestion, risk-on) and yen structural weakness persistence from oil/import dynamics.
+- No new MoF intervention language overnight (would have been flagged by newswires if Katayama spoke).
+
+**⚠️ ALERT TRIGGERED: USD/JPY 159.00 line breached.** Per Mar 11 EOD alert table: "MoF verbal escalation zone." Expect Katayama or Deputy Finance Min to jawbone within 24-48 hours if 159+ holds. Operational intervention clock starts if we print 159.50+.
+
+---
+
+### (2) CPI 2.4% IN-LINE — DOES IT CHANGE USD/JPY TRAJECTORY?
+
+**Short answer: No. Here's why:**
+
+| Factor | Impact on USD/JPY |
+|--------|-------------------|
+| US CPI 2.4% in-line (no upside) | Minor USD softness → mild yen-supportive |
+| BUT: Feb data predates Hormuz oil spike | March CPI will be HOT (oil embedded) — forward-looking USD is re-inflationary |
+| BOJ still frozen (energy trap) | Rate differential unchanged — carry still works |
+| Oil still ~$90+ | Japan import costs elevated → structural yen weakness dominant |
+
+**Net trajectory:** CPI in-line is a one-session headwind for USD/JPY, not a trend reversal. The overnight move from 158.30 → 159.06 CONFIRMS that even soft US CPI can't hold the yen up. The structural force is energy imports + BOJ paralysis, not Fed path.
+
+**Medium-term (Mar 18-Apr):** USD/JPY is grinding toward 160. The question is whether BOJ Ueda on Mar 19 gives any language that could cause a reversal (April hike signal = yen-supportive = brief correction toward 157). Without that, 160 is the path.
+
+---
+
+### (3) CARRY TRADE STRESS SIGNALS
+
+**No acute carry unwind signal.** Carry is still functioning — USD/JPY at 159 means carry is STILL nominally positive (rate differential intact, yen not strengthening). But proximity to 160 intervention zone is increasing near-term risk.
+
+| Signal | Status |
+|--------|--------|
+| VIX | No spike data available — no acute equity stress |
+| USD/JPY drift | 🔴 Moving TOWARD intervention zone, not away |
+| BOJ frozen | Confirmed — carry mathematically intact |
+| 7d carry unwind prob | **12%** (unchanged — proximity rising but no trigger) |
+| 30d carry unwind prob | **83%** (slight upgrade — 159+ accelerates path to 160 intervention) |
+
+---
+
+### (4) JGB / INTERVENTION INDICATORS
+
+| Metric | Status |
+|--------|--------|
+| JGB 10Y | ~2.22% (no new data — assume flat overnight) |
+| MoF verbal status | 🔴 **Now in active verbal escalation zone** — Katayama statement expected within 24-48h if 159 holds |
+| Operational intervention | 🚨 Watch 159.50+. At 160.00: HIGH probability |
+| Japan SPR release | Begins Mar 18 (Monday) |
+
+---
+
+### (5) BOJ MEETING MAR 18-19 — CURRENT READ
+
+**Hold: 92-95% (unchanged).**
+
+CPI 2.4% in-line does NOT shift this. The BOJ needs to see:
+1. Energy shock resolution (Hormuz) — NOT happening before Mar 19
+2. March CPI data — won't print until April
+3. Shunto final tally — Mar 21, AFTER the meeting
+
+**Ueda presser Mar 19 is the ONLY catalyst in the window.** Three scenarios:
+
+| Scenario | Probability | USD/JPY impact |
+|----------|-------------|----------------|
+| **Dovish hold** — Ueda emphasizes energy risk, delays any April signal | 50% | 159.50-160.50 (yen weakens → intervention risk) |
+| **Neutral hold** — no new language either way | 35% | 158.50-159.50 (status quo drift) |
+| **Hawkish hold** — Ueda flags wages, hints April live | 15% | 156.00-158.00 (yen strengthens sharply → carry stress |
+
+**Pre-positioning note:** No new entries. Watch Ueda language live. Any "April is live" framing = carry unwind 7d probability jumps to 25-30%.
+
+---
+
+### UPDATED ALERT LEVELS — MAR 12
+
+| Level | Action | Status |
+|-------|--------|--------|
+| **USD/JPY 159.06** | Current — MoF verbal escalation zone ACTIVE | 🔴 LIVE |
+| **USD/JPY 159.50** | ⚠️ Operational intervention clock starts | WATCH |
+| **USD/JPY 160.00** | 🚨 Operational intervention — Phase 2 candidate via FX channel | SET |
+| **USD/JPY 157.00** | 🟡 Hawkish Ueda signal → yen bounce target | SET |
+| **Mar 18** | Japan SPR release begins + BOJ meeting opens | 🔴 DUAL EVENT |
+| **Mar 19** | Ueda presser — KEY CATALYST | 🔴 |
+| **Mar 21** | Shunto first tally (Rengo) | 🟠 |
+| **Mar 31** | FY2025 end — life insurer repatriation peak | 🔴 ACTIVE |
+
+### UPDATED CARRY UNWIND PROBABILITIES — MAR 12 AM
+
+| Timeframe | Mar 11 EOD | Mar 12 AM | Driver |
+|-----------|-----------|-----------|--------|
+| **7d** | 12% | **12%** | No acute trigger; carry intact |
+| **30d** | 82% | **83%** | 159+ confirms structural path toward 160 intervention |
+| **60d** | 88% | **88%** | Unchanged |
+
+---
 
 ---
 
