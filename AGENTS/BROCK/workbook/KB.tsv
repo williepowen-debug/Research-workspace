@@ -1,21 +1,16 @@
-ID	Date_Added	Category	Fact	Source	Confidence	Notes
-KB-BRK-001	2026-02-22	Athene	Athene holds $442B assets, 48% illiquid. RBC 412%.	10-K, internal analysis	CONF	Reflexivity loop — RBC depends on marks that depend on liquidity
-KB-BRK-002	2026-02-25	Athene	ARI transferred $9B CRE to Athene at 99.7% of par	ARI filings	CONF	Moving CRE off public REIT onto insurance balance sheet
-KB-BRK-003	2026-02-27	BDC	MFIC dividend cut — 2nd BDC dividend cut in 48 hours	SEC filing	CONF	Convergence day signal
-KB-BRK-004	2026-03-03	BCRED	Blackstone BCRED gross redemptions $3.8B (7.9% of fund), record	Reuters Mar 3	CONF	Employees injected $150M to cover gap
-KB-BRK-005	2026-03-03	Blue Owl	Blue Owl OCSL II ending quarterly liquidity, switching to asset-sale payouts	Bloomberg	CONF	Worse than initial restriction
-KB-BRK-006	2026-03-04	Industry	UBS worst-case private credit default estimate: 15%	UBS strategists report	CONF	Up from Fitch 5.8% PCDR baseline
-KB-BRK-007	2026-03-04	Industry	$162B maturity wall due 2026 at higher rates	UBS/industry analysis	CONF	Refinancing at 2-3x original rates
-KB-BRK-008	2026-03-04	Industry	Software = ~40% of sponsor-backed private credit loans	Citrini Research	CONF	AI disruption eroding SaaS moats
-KB-BRK-009	2026-03-04	Industry	PIK loans doubled to 6.4% of private credit portfolios YoY	Industry data	CONF	Cash avoidance = hidden stress
-KB-BRK-010	2026-03-04	BDC	BDC median listed price: 73% of NAV	Market data	CONF	27% average discount = market doesn't trust marks
-KB-BRK-011	2026-03-05	APO	Class action filed — Epstein/Rowan/Black. Class period May 2021-Feb 2026	Court filing	CONF	Lead plaintiff deadline May 1 2026
-KB-BRK-012	2026-03-05	APO	Barclays cut APO price target $158→$131	Barclays research	CONF	
-KB-BRK-013	2026-03-05	APO	Marc Rowan warned "shakeout coming for private markets"	CNBC Mar 3	CONF	Insider admission — positioned for it
-KB-BRK-014	2026-02-27	MFS	MFS collapse (UK) — £2B fraud, double-pledging. Barclays £600M, Jefferies £100M, Apollo/Atlas exposed	Reuters	CONF	Cockroach #4 for APO thesis
-KB-BRK-015	2026-03-06	Industry	40% of private credit borrowers reporting negative free cash flow	Moody's/industry	CONF	Can't service floating rate debt at current rates
-KB-BRK-016	2026-03-06	Blue Owl	Steve Eisman called Blue Owl a "slow brewing scandal"	Benzinga	CONF	Big Short credibility — mainstream catalyst
-KB-BRK-017	2026-03-06	Macro	NFP Feb print: -92K (negative payrolls)	BLS Mar 6	CONF	Confirms labor deterioration → CARL transmission
-KB-BRK-018	2026-03-06	Banks	WAL -13% ($70), KRE -3.6% ($64) — bank stress accelerating	Market Mar 6	CONF	Bank transmission chain activating from private credit stress
-KB-BRK-019	2026-03-06	Narrative	CNN published "echoes of 2008" piece on private credit	CNN Mar 6	CONF	Thesis going mainstream — consensus forming, window closing
-KB-BRK-020	2026-03-06	Insurance	Brent crude $90 on Hormuz storage crisis; $100 feared	Market Mar 6	CONF	Hormuz closure driving oil spike + reinsurance strain
+ID	Date	Group	Entity	Fact	Source	Conf	Epistemic	Status	Stale_By	DerivedFrom	Vectors	Notes
+KB-BRK-001	2026-02-22	ATHENE	Athene	Athene holds $442B assets, 48% illiquid. RBC 412%.	10-K, internal analysis	B2	EMPIRICAL	CONFIRMED		 	VX-BRK-005	Reflexivity loop — RBC depends on marks that depend on liquidity
+KB-BRK-002	2026-02-25	ATHENE	ARI	ARI transferred $9B CRE to Athene at 99.7% of par	ARI filings	B2	EMPIRICAL	CONFIRMED			 	Moving CRE off public REIT onto insurance balance sheet
+KB-BRK-003	2026-02-27	BDC	MFIC	MFIC dividend cut — 2nd BDC dividend cut in 48 hours	SEC filing	A2	EMPIRICAL	CONFIRMED			 	Convergence day signal
+KB-BRK-004	2026-03-03	BCRED	BCRED	Blackstone BCRED gross redemptions $3.8B (7.9% of fund), record. Employees injected $150M to cover gap.	Reuters Mar 3	B2	EMPIRICAL	CONFIRMED		 	VX-BRK-004	SUPERSEDED by Cliffwater 14% / HLEND gate / MS gate — but this was the opening salvo. Historical marker.
+KB-BRK-005	2026-03-03	BDC	Blue_Owl	Blue Owl OCSL II ending quarterly liquidity, switching to asset-sale payouts	Bloomberg Mar 3	B2	EMPIRICAL	CONFIRMED		 	VX-BRK-007	Worse than initial restriction
+KB-BRK-006	2026-03-04	DEFAULTS	UBS	UBS worst-case private credit default estimate: 15%	UBS strategists report Mar 4	B3	ESTIMATE	ACTIVE		 	VX-BRK-008	Up from Fitch 5.8% PCDR baseline
+KB-BRK-007	2026-03-04	MATURITY	Industry	$162B maturity wall due 2026 at higher rates	UBS/industry analysis Mar 4	B2	EMPIRICAL	ACTIVE	2026-06-30	 	 	Refinancing at 2-3x original rates
+KB-BRK-008	2026-03-04	SOFTWARE	Industry	Software = ~40% of sponsor-backed private credit loans	Citrini Research Mar 4	B3	ESTIMATE	ACTIVE		 	 	AI disruption eroding SaaS moats
+KB-BRK-009	2026-03-04	PIK	Industry	PIK loans doubled to 6.4% of private credit portfolios YoY	Industry data Mar 4	B2	EMPIRICAL	ACTIVE	2026-06-30	 	VX-BRK-009	Cash avoidance = hidden stress. 40% of borrowers negative FCF (Moody's Mar 6).
+KB-BRK-010	2026-03-04	BDC	BDC_Sector	BDC median listed price: 73% of NAV (27% discount). Market doesn't trust marks.	Market data Mar 4	B2	EMPIRICAL	ACTIVE	2026-03-31	 	VX-BRK-010	Reuters Mar 12: avg 78¢ — BROCK to reconcile on next spawn
+KB-BRK-011	2026-03-05	APO	APO	Class action filed — Epstein/Rowan/Black misrepresentation. Class period May 2021-Feb 2026. Lead plaintiff deadline May 1 2026.	Court filing Mar 5	A2	EMPIRICAL	CONFIRMED		 	 	 
+KB-BRK-013	2026-03-05	APO	Rowan	Marc Rowan warned "shakeout coming for private markets"	CNBC Mar 3	A2	EMPIRICAL	CONFIRMED		 	 	Insider admission — positioned for it
+KB-BRK-014	2026-02-27	MFS	MFS	MFS collapse (UK) — £2B fraud, double-pledging. Barclays £600M, Jefferies £100M, Apollo/Atlas exposed.	Reuters Feb 27	B2	EMPIRICAL	CONFIRMED		 	FLOW-BRK-008	Cockroach #4 for APO thesis
+KB-BRK-015	2026-03-06	PIK	Industry	40% of private credit borrowers reporting negative free cash flow	Moody's/industry Mar 6	B2	EMPIRICAL	ACTIVE		 	VX-BRK-009	Can't service floating rate debt at current rates
+KB-BRK-016	2026-03-06	NARRATIVE	Industry	Thesis going mainstream: Steve Eisman "slow brewing scandal" (Benzinga), CNN "echoes of 2008", Reuters "alarm bells echo 2007 subprime" (Mar 10). Consensus forming — window closing.	Benzinga/CNN/Reuters Mar 6-10	B2	EMPIRICAL	ACTIVE		 	 	Condensed from multiple narrative markers same week
