@@ -112,12 +112,89 @@ ChatGPT's unique contribution: Hamilton's model is keyed to QUARTER-END prices, 
 
 ---
 
-## Open Research Questions (Pending DD-2 through DD-5)
+## DD-3 Results: Consumer Front-Loading — State-Dependent Elasticity
 
-1. **DD-2:** Precise oil peak → equity trough → credit spread peak timeline table (still waiting)
-2. **DD-3:** Does consumer pre-stress accelerate demand destruction? (If yes, Gemini's "no buffer" insight gets quantified)
-3. **DD-4:** China selective embargo — what % of Hormuz flow continues? Caps oil upside.
-4. **DD-5:** Rate of change vs level — does stabilization at $100-110 reduce damage vs continued climb?
+**Sources:** Perplexity, Gemini, ChatGPT (3-source convergence)
+
+### Core Finding: Stressed consumers destroy demand faster. The evidence is unambiguous.
+
+| Episode | Consumer Condition | Savings Rate | Months to Decline | Peak Gas Decline |
+|---------|-------------------|-------------|-------------------|-----------------|
+| 1973 | Strong | 14.4% | ~2 (forced by rationing) | -3.3% |
+| 1979 | Stressed | 11.1% | **2-3** | **-5% yr1, -8.5% yr2** |
+| 2008 | Severely stressed | 3-4% | **Nearly immediate** | **-5.8% total petroleum** |
+| 2022 | Very strong ($2T buffer) | 6-7% + excess | 4+ months | Modest 3-5% |
+
+### 2008 = Smoking Gun
+Gas consumption already declining YoY in January 2008 — *6 months before oil peaked.* Every month of 2008 showed YoY declines. Largest monthly VMT decline since 1942 (March 2008). $4/gallon = behavioral breakpoint.
+
+### 2022 = Control Group
+Same oil prices, opposite outcome. $2T excess savings = consumers just paid it. 4+ months to significant decline. Full-year gas consumption actually *increased*.
+
+### 2026 Consumer Profile vs 2008
+
+| Metric | 2008 | 2026 | Match? |
+|--------|------|------|--------|
+| Savings rate | 3-4% | 3.6% | ✅ Identical |
+| Debt service ratio | 15.8% | 11.3% | Better but rising |
+| Credit card delinquency | Crisis levels | 12.7% | ✅ Near-match |
+| Subprime auto | High | 6.9-7.1% (exceeds GFC) | ✅ Worse |
+| Excess savings | None | None (depleted Mar 2024) | ✅ Identical |
+| Housing equity | Negative/collapsing | 74-75% (strong) | Much better |
+| K-shape | Broad-based | Bottom 80% stressed, top 20% fine | Different distribution |
+
+### Theoretical Framework: Why Buffers Determine Speed
+
+**Buffer-Stock Theory:** Consumers maintain cash cushions to absorb shocks. When buffer exists, shock hits balance sheet (savings drain) not behavior (miles driven). When buffer is depleted, shock bypasses finance and immediately impacts physical demand.
+
+**Hand-to-Mouth (HtM) Consumers (Kaplan & Violante 2014):**
+- "Poor" HtM: no assets, paycheck-to-paycheck. Adjust instantly.
+- "Wealthy" HtM: own house/401K but zero liquid cash. Can't tap home equity at the pump. React identically to poor HtM.
+- ~30-40% of US households are HtM in normal conditions. In 2026 with depleted savings + maxed credit, this percentage is significantly higher.
+- 55% of cardholders carrying balances for necessities. 73% of credit card debt for emergency/day-to-day.
+
+**State-Dependent Elasticity:** The elasticity itself is a function of household liquidity. As liquid wealth falls and credit spreads widen, both the level and speed of demand destruction rise — even for "non-discretionary" products like gasoline. (Kilian & Zhou 2024, Baker 2018)
+
+### Key Academic Evidence
+
+| Finding | Source | Implication |
+|---------|--------|-------------|
+| Low-income states: gasoline elasticity -0.43 (2x high-income) | Kilian & Zhou 2024, J Public Econ | Bottom quintiles adjust fastest |
+| Leverage amplifies consumption elasticity by ~25% | Baker 2018, J Political Economy | 2026 debt levels = faster response |
+| 2007-09 consumption decline was ~20% larger than 1980s balance sheets would have produced | Baker 2018 | Balance sheet condition is first-order |
+| Credit constraints make energy shock sufficient to contract aggregate demand alone | Chan, Diz & Kanngiesser 2024, J Monetary Econ | Fed tightening becomes redundant |
+| MPC ≈ 1.0 for gas price changes | Gelman et al 2016/2023, AEJ Macro | Every dollar of gas increase = dollar cut elsewhere |
+| Quarterly speed of adjustment ~20-25% in normal conditions | Standard VECM estimates | Rises sharply when buffers depleted |
+
+### Revised Phase Timeline (Front-Loaded)
+
+| Phase | Standard Hamilton | Front-Loaded 2026 | Confirmation Signal |
+|-------|------------------|-------------------|-------------------|
+| Consumer behavior shifts | Q3 2026 | **Q2 2026** | Gas consumption YoY, VMT, retail sales |
+| Auto sales collapse | Q3-Q4 2026 | **Q2-Q3 2026** | Light truck sales, SUV inventory |
+| Corporate earnings impact | Q4 2026 | Q3-Q4 2026 | Forward guidance cuts, margin compression |
+| Credit spreads peak | Q4 2026-Q1 2027 | **Q4 2026** | HY OAS, bank provisions |
+| GDP trough | Q1-Q2 2027 | **Q4 2026-Q1 2027** | Lag 3-4, possibly compressed to lag 3 |
+
+**Net effect: front-loading compresses Hamilton's timeline by ~1 quarter.** Sep/Dec credit puts are less early than standard model suggested. Leading indicator confirmation should arrive Q2.
+
+### Demand Destruction Forecast for 2026
+
+- **Immediate (0-2 months):** 1-3% gasoline decline. Retail spending already dropped 0.7% post-spike. Sentiment at 56.6 (32% below average).
+- **Acceleration (2-6 months):** If oil >$100 and gas approaches $4.50-5.00, the 2008 $4/gallon breakpoint tested on a consumer with no buffer. Baker's 25% amplification = ~1 quarter faster than standard.
+- **Compounding (6-12 months):** Feedback loop — fuel costs → delinquency → credit tightening → buffer disappears → forced adjustment → more delinquency. 2008 spiral risk.
+
+### Three Moderating Factors
+1. **Energy intensity down 62% since 1979** — same oil price = smaller budget hit
+2. **Remote work (25-30%)** — can cut VMT without cutting economic activity
+3. **K-shape** — aggregate looks moderate, but distributional stress concentrated in exactly the population driving subprime defaults and regional bank losses (CARL/LABOR domain)
+
+---
+
+## Open Research Questions (Pending DD-4 and DD-5)
+
+1. **DD-4:** China selective embargo — what % of Hormuz flow continues? Caps oil upside.
+2. **DD-5:** Rate of change vs level — does stabilization at $100-110 reduce damage vs continued climb?
 
 ---
 
