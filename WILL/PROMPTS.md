@@ -498,3 +498,63 @@ report around March 5, 2026. Provide the complete data breakdown:
 Compare key metrics to Q3 2025 and Q4 2024 to show the trend 
 direction. Cite the Experian report directly where possible.
 ```
+
+---
+
+## Demand Destruction Research Series (Mar 11)
+
+**Context:** RED team challenged our Hormuz duration thesis. Need to understand historical demand destruction patterns to calibrate position duration and portfolio construction. Run through multi-LLM pipeline (Perplexity + Kimi + ChatGPT/Gemini).
+
+**Routing:** P1 → HENRY + FORGE | P2 → HENRY + FORGE | P3 → CARL + LABOR | P4 → HAWK + HANS | P5 → HENRY + HAWK
+
+### Prompt DD-1: Hamilton's Oil-GDP Model Applied to 2026
+
+```
+I'm researching the relationship between oil price shocks and GDP decline, specifically James Hamilton's nonlinear model from his 2003 paper and his 2009 Brookings paper "Causes and Consequences of the Oil Price Shock of 2007-2008." Hamilton found that the rate of oil price increase relative to recent history is the key predictor of recession — not the absolute level.
+
+Current situation: WTI crude went from ~$68 in January 2026 to $120+ by early March 2026 (roughly +75% in 8 weeks) due to the Strait of Hormuz closure. Prior to this, oil had been range-bound at $65-75 for most of 2025.
+
+Questions: (1) Using Hamilton's "net oil price increase" measure, how does the current shock compare in magnitude to 1973, 1979, 1990, and 2008? (2) What GDP decline would Hamilton's model predict from a shock of this magnitude? (3) What is the typical lag in quarters between the oil price spike and the GDP trough in his model? (4) Does the model distinguish between supply-driven shocks (embargo/war) and demand-driven shocks in terms of GDP impact timing?
+```
+
+### Prompt DD-2: Oil Peak to Financial Trough — Precise Timeline Table
+
+```
+I need a precise historical timeline of oil shock transmission to financial markets. For each of the following episodes, provide the specific month/year for each milestone:
+
+Episodes: 1973-74 Arab Embargo, 1979-80 Iranian Revolution, 1990 Gulf War, 2008 oil spike, 2022 Ukraine
+
+For each, provide: (1) Oil price trough before the shock (price + date), (2) Oil price peak during the shock (price + date), (3) Date oil prices first declined 20% from peak, (4) S&P 500 peak before/during the shock (level + date), (5) S&P 500 trough (level + date), (6) Lag in months from oil peak to equity trough, (7) HY/Baa credit spread peak (level + date, if available), (8) Lag in months from oil peak to credit spread peak, (9) NBER recession start and end dates, (10) Lag from oil peak to recession start.
+
+Please present as a table. Note where data is approximate. I'm specifically trying to determine: does the equity/credit trough come BEFORE or AFTER oil prices start falling? How many months of overlap exist between elevated oil and financial stress?
+```
+
+### Prompt DD-3: Consumer Elasticity When Already Stretched
+
+```
+I'm researching whether oil-driven demand destruction happens faster when consumers are already financially stressed versus when consumer balance sheets are healthy at the time of the shock.
+
+Context: In March 2026, US consumers face: subprime auto delinquencies at 7.1% (highest since 2010), credit card balances at record highs, pandemic savings fully depleted, and real wage growth near zero. Oil has spiked 75% in 8 weeks.
+
+Compare the consumer starting conditions at the onset of each oil shock: (1) 1973 — what was the consumer debt/income ratio, savings rate, and unemployment when oil spiked? (2) 1979 — same metrics, (3) 2008 — same metrics (note: consumers were already overleveraged via housing), (4) 2022 — same metrics (note: consumers had excess pandemic savings).
+
+Key question: In episodes where consumers were already stretched (1979, 2008), did demand destruction in oil/gasoline consumption happen faster (measured in months from price spike to measurable consumption decline) compared to episodes where consumers had more cushion? Is there academic research on the elasticity of gasoline demand varying by consumer financial health?
+```
+
+### Prompt DD-4: China Selective Embargo — Quantifying the Hormuz Flow
+
+```
+The Strait of Hormuz is currently under selective restriction (March 2026). Iran has closed it to US, Israeli, and Western-allied shipping but is allowing Chinese-flagged vessels to transit. I need to understand the quantitative implications.
+
+Questions: (1) What percentage of total Hormuz oil flow (by volume, barrels per day) was destined for China before the crisis? Break down by crude oil vs LNG vs refined products. (2) What percentage was destined for other Asian buyers (Japan, South Korea, India)? (3) Of the non-China Asian buyers, which have bilateral relationships with Iran that might allow continued transit? India specifically — India has historically maintained oil trade with Iran despite Western sanctions. (4) If Chinese + Indian flows continue (even at reduced volumes), what is the effective supply disruption in million barrels per day versus total closure? (5) Is there historical precedent for a selective maritime embargo where some nations' shipping was allowed through a chokepoint while others were blocked? The closest parallel might be the Iran-Iraq tanker war (1984-88) where some flags were targeted and others weren't. (6) How does a partial flow (say 40% of normal) change the global oil supply/demand balance compared to full closure? What oil price level does partial flow support vs full closure?
+```
+
+### Prompt DD-5: Rate of Change vs Level — When Does Oil Stabilize?
+
+```
+James Hamilton's research emphasizes that the rate of oil price INCREASE relative to recent history matters more than the absolute price level for economic damage. A rapid spike causes more damage than a gradual rise to the same level.
+
+Current situation: WTI went from $68 to $120+ in 8 weeks (Feb-Mar 2026). The question is what happens AFTER the initial spike.
+
+Historical research questions: (1) In each prior oil shock (1973, 1979, 1990, 2008), how long did oil remain within 10% of its peak price before declining? In other words, how long was the "plateau" at elevated levels? (2) During the plateau period, did the economic damage continue to accelerate, or did the economy begin adapting? Specifically: did consumer gasoline consumption begin adjusting during the plateau, or only after prices started falling? (3) If oil stabilizes at $100-110 for 3-6 months (due to partial Hormuz flows via China), does Hamilton's model treat that differently than a continued rise to $140-150? The distinction matters because stabilization means the "net oil price increase" measure stops growing even though the level is high. (4) Is there research on the difference between a V-shaped oil spike (up fast, down fast — like 1990) versus an elevated plateau (up fast, stays high — like 1979-80) in terms of GDP impact? Which pattern causes more total economic damage? (5) What price level historically triggered measurable US gasoline demand destruction? Is there an estimated price elasticity of US gasoline demand in the short run (3 months) versus medium run (12 months)?
+```
