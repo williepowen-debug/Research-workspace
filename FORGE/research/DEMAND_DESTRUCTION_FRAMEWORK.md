@@ -168,3 +168,29 @@ Median: equity trough 7 months after oil begins declining. Even if oil falls, ba
 Brief window where energy longs and credit shorts both work. Based on our timing: Q3 2026.
 
 **5. 1990 is the sole exception** — equity trough same month as oil peak. Requires quick military resolution. Mine floor + bereaved hardliner successor makes 1990 analog unlikely.
+
+### Gemini Key Insights (unique contributions)
+
+**6. "Falling oil is a lagging indicator of damage, not a leading indicator of recovery."**
+When oil drops, the market reads it as "crisis over." Historical data says it means "consumer just broke." Buying equities on first 20% oil decline was premature by 5-16 months in 1980, 2008, and 2022. **Implication: if oil drops on a Trump deal/China exemption and market rallies, that's the ENTRY for credit puts, not the exit.**
+
+**7. Credit spreads peak BEFORE equities trough.**
+2008: HY OAS peaked Dec, equities bottomed Mar (credit led by 3 months). Credit markets are hyper-sensitive to worst-case bankruptcy/liquidity scenarios. Once central banks provide liquidity facilities, credit tightens, but equities need actual earnings growth.
+**Implication: HYG puts should be SHORTER-dated than bank equity puts.** Optimal structure:
+- HYG puts: Dec 2026 (credit peaks first)
+- WAL/OZK/KRE puts: Mar 2027 (equities trough later)
+- APO puts: Mar 2027
+
+**8. Overlap "danger zone": 6-16 months** (Gemini's wider range vs Perplexity's 4mo). Measures full window from oil peak through equity capitulation. Plan for 16 months, be pleasantly surprised if faster.
+
+### Cross-Source Consensus (DD-2, 4 sources: Perplexity, Kimi, ChatGPT, Gemini)
+
+| Finding | Sources | Confidence |
+|---------|---------|------------|
+| Equity trough AFTER oil peak | 4/4 | Near-certain |
+| Median oil peak → equity trough lag | 7-11 months | High |
+| Credit peaks before equity trough | 3/4 explicit | High |
+| Recession starts BEFORE oil peaks | 3/4 | High |
+| 1990 sole exception (quick resolution) | 4/4 | Near-certain |
+| Falling oil = demand destruction, not relief | 2/4 explicit | High |
+| Overlap window range | 4-16 months | High |
