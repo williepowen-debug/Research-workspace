@@ -1,7 +1,7 @@
 # LIQUID STATUS
-**Last Updated:** 2026-03-11 20:30 UTC | **Agent:** LIQUID | **Status:** 🔴🔴 CRITICAL
+**Last Updated:** 2026-03-11 21:35 UTC | **Agent:** LIQUID | **Status:** 🔴🔴 CRITICAL
 
-**One-liner:** S&P 500 breached 6,764 support (100-day MA) March 11 — institutional distribution confirmed, target 6,500. VIX 25.07. FRED Mar 10 HY OAS data now releasing (Single-B confirmed updated) — LIQ-01 confirmation imminent. Credit default rates at 2000/2008 levels (external confirmation). CLO AAA spreads spiked 117→125bps in one week. Transmission chain activating.
+**One-liner:** LIQ-01 at 319bps (1bp from trigger). Combined UST anchor selling upgraded to $40-72B/month (4 anchors including Gulf). Blue Owl permanently frozen. BCRED Q2 hard gate risk (May/June). ABS crack live. 44% of defaults = distressed exchanges. Transmission chain activating across all vectors.
 
 ---
 
@@ -14,6 +14,11 @@
 | CCC OAS | **969bps** [CONF Mar 9] | FRED BAMLH0A3HYM2 | 🔴 Leading indicator; +12bps WoW |
 | LIQ-01 threshold | 320bps | — | — |
 | Credit default rates | **2000/2008 comparable levels** | chartingthemarkets substack Mar 11 | 🔴🔴 EXTERNAL CONFIRMATION |
+| Distressed exchanges | **44% of Jan defaults** = hidden stress not in headline rates | Gemini research (Credit Divergence) | 🟠 Understates actual stress |
+| BBB-AAA spread | Widening (BBB widening, AAA stable) | Credit Divergence signals | 🟠 Fallen angel risk rising |
+| iTraxx Senior Fin | **95bps** (HANS Mar 4) | EU bank funding stress | 🟠 Orange threshold: 150bps |
+| SoFi 2025-1 CNL | **2.6% trigger hit** (first ever) | ABS/structured crack | 🔴 ABS→PC→HY sequence live |
+| BCRED Q2 outlook | **Structural test** May/June — Q2 redemptions > Q1 (NFP impact) | OTTO Mar 11 | 🔴 Hard gate risk |
 
 **Confirmation protocol:** FRED Single-B series updated to Mar 10 — main BAMLH0A0HYM2 likely updated also. Check now. If ≥320bps → LIQ-01 TRIGGERED → signal HENRY + SAM immediately.
 
@@ -57,6 +62,9 @@ Original thesis: 140M barrel flush April-May → short crude $55-57. War premium
 
 **PROPOSAL 4 — HYG PUT SIZE REVIEW**
 HYG $75P Jun x10 positioned for LIQ-01 convergence. CPI in-line = no panic catalyst today. Convergence may be slow (weeks) unless shock event. If Mar 10 HY OAS <320bps AND no DIFC event → review position size given IV decay risk at VIX 24-26.
+
+**PROPOSAL 5 — MODEL Q2 BCRED HARD GATE (OTTO Mar 11)**
+BCRED $3.8B redemptions (7.9%) met via self-injection in Q1. Q2 = structural test — NFP -92K means Q2 redemptions likely EXCEED Q1. May/June announcement window. Model: what assets sell first? Blue Owl "permanent freeze" already live. Stage 3→4 transition accelerating.
 
 ---
 
@@ -127,6 +135,9 @@ HYG $75P Jun x10 positioned for LIQ-01 convergence. CPI in-line = no panic catal
 ## WATCH
 
 **URGENT:** Check FRED BAMLH0A0HYM2 NOW — Single-B series confirmed updated to Mar 10. Main HY OAS likely releasing tonight/tomorrow morning. If ≥320bps → LIQ-01 TRIGGERED → signal HENRY + SAM.
+**FOREIGN DEMAND:** Gulf recycling UPGRADED to $40-72B/month combined anchor selling (4 anchors: Japan + China + Korea + Gulf). FLOW-ZHAO-12 status → ACTIVE. Gulf states below fiscal breakeven = involuntary, additive supply. Prior model was $30-55B/month (3 anchors). Demand hole now larger than modeled.
+**PRIVATE CREDIT:** Blue Owl permanent freeze live (NOT soft gate — structural change). BCRED Q2 structural test May/June. ABS crack confirmed (SoFi 2025-1 CNL 2.6% first trigger). 44% of Jan defaults = distressed exchanges (headline rate understates actual stress). BBB-AAA spread widening = fallen angel risk rising. Track bank bond supply: 40% projected drop masks fundamentals.
+**EU VECTOR (HANS):** iTraxx Senior Fin 95bps — orange at 150bps. ECB frozen at 2.00%. EUR/USD basis swaps may widen. USD funding stress pathway if European banks face forced USD borrowing.
 **Tomorrow:** HYG roll decision — Jun puts to Sep/Dec. Credit default rates at 2000/2008 levels = thesis accelerating. CLO funding stress (117→125bps AAA) = watch CLO issuance pause as next trigger.
 **Daily:** SOFR spread, RRP, HY OAS, CCC OAS, VIX  
 **Daily:** SOFR spread, RRP, HY OAS, CCC OAS, VIX  

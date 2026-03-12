@@ -1,7 +1,7 @@
 # BROCK STATUS — Private Credit / Alt Assets / PE / ILS
 
 **Last context:** Mar 11 EOD. **JPMorgan marked down software loan collateral for private credit back-leverage facilities and restricted new lending** — STAGE 2 BANK TRANSMISSION ACTIVATED. PIMCO published "sloppy underwriting reckoning" note (Bloomberg). Sector-wide selloff: ARES -6.2%, OWL -5.2%, APO -4.1%, KKR -3.5%, BX -3.2%. $12.7B BDC unsecured debt matures 2026 (+73% YoY). Blue Owl July 2026 debt obligations flagged as bellwether.
-**Last updated:** 2026-03-11 EOD (BROCK subagent)
+**Last updated:** 2026-03-11 inbox processing (BROCK subagent)
 
 ---
 
@@ -105,6 +105,7 @@
 | Mar 10 EOD | **Cliffwater $33B — 7%+ redemption requests (~$2.3B)** — Bloomberg. Third major fund in 5 days. | 🔴🔴 Cascade is live. Not theoretical. |
 | Mar 10 EOD | **Whalen: $4.2T bank→NDFI exposure** ($1.4T outstanding, $2.8T undrawn). Atlas SP double default. FDIC chart saved. | 🔴 Bank transmission channel now quantified. Warehouse defaults beginning. |
 | Mar 9 | **Eisman Ep 49: Blue Owl/Kuvari stuffing** ($595M OBDC2 assets into captive insurance at par). Glenn Shore names APO parallel. | 🔴 Captive insurance playbook now confirmed at 2 firms (APO + OWL). |
+| Mar 9 | **Kennedy-Wilson bondholders reject debt exchange** — majority demanding cash, not extend-and-pretend | 🔴 CRE creditor revolt — refusing the template. Signals → REGINALD. [CONF Bloomberg Mar 6] |
 | Mar 12 | APO closing Atletico Madrid stake acquisition | 🟠 Optics: buying soccer clubs while portfolio burns = narrative ammunition |
 | Apr–May 2026 | Q1 2026 earnings — private credit mark-to-market | 🔴 Key resolution event |
 | Apr 6, 2026 | TCPC (BlackRock TCP Capital) class action lead plaintiff deadline | 🟠 Legal catalyst — Nov 2024–Jan 2026 class period, First Brands/NAV impairment |
@@ -161,22 +162,41 @@
 
 ---
 
+## PE DRAWDOWNS FROM HIGHS (Mar 2026)
+
+| Firm | Drawdown | Notes |
+|------|----------|-------|
+| Blue Owl (OWL) | **-61%** | Most damaged — permanent freeze + OCSL II; captive insurance exposed |
+| KKR | -44% | |
+| Blackstone (BX) | -43% | BCRED redemptions, gate avoidance via own capital |
+| Ares (ARES) | -42% | |
+| Apollo (APO) | -39% | Athene tail risk = further downside; LEAST damaged despite most tail risk |
+| Carlyle | -25% | |
+
+**Note:** APO being least damaged despite having the most systemic tail risk (Athene $442B) = market still underpricing the Athene scenario. [CONF] X post ~Mar 7 / market data
+
+---
+
 ## WATCHLIST / TRIGGERS
 
 | Item | Watch For |
 |------|-----------|
 | BCRED gate | Q2 redemptions >10% → formal gating; $8B firepower = ~3 quarters |
-| APO | Break below $100; class action lead plaintiff filing |
+| APO | Break below $100; class action lead plaintiff filing May 1 |
 | ARI marks | Q1 2026 10-Q — how is $9B CRE transfer represented? |
+| **Athene statutory filing** | ~April (45 days post Q1 close) — state insurance regulator, before SEC. Watch for reserve changes, geographic risk factor updates. [From signal Mar 9] |
 | Athene RBC | Any regulatory filing revision; SEC inquiry |
 | PIK escalation | Any fund disclosing >8% PIK = distress territory |
 | BDC NAV | Median falls below 70% → full capitulation |
 | Blue Owl OCSL II | Asset fire sale pricing — what sells and at what marks? |
+| **BDC dividend watch** | Next cut after MFIC + FSK: OBDC, BXSL, OWL vehicles — coverage ratios as leading indicator |
+| **Kennedy-Wilson CRE** | Bondholder revolt (refusing exchange offer, demanding cash) — creditor extend-and-pretend breaking in CRE. [CONF] Bloomberg Mar 6 → signaled REGINALD |
 | Mainstream narrative | Hedge fund consensus forming = window to reposition closing |
 | **Gulf SWF / Apollo** | ADIA, QIA, Saudi PIF withdrawals from Apollo vehicles — new Stage 4 acceleration path |
 | **Athene GCC underwriting** | Research EDGAR/10-K for geographic insurance exposure breakdown |
 | **DIFC political violence coverage** | Watch for Lloyd's/Swiss Re coverage withdrawal from GCC financial institutions → mechanical counterparty risk cascade |
 | **Oil reversal** | Iran escalation vs. Trump "ending soon" — Brent direction is a real-time Iran-escalation barometer |
+| **MFS auditor/trustee pattern** | Berkeley Finch (single auditor across multiple SPVs) + Intertrust (dual role: security agent + acct bank) = structural opacity template used across private credit sector. Regulatory action here would set precedent for sector-wide SPV audit reviews. |
 
 ---
 
@@ -206,4 +226,4 @@
 
 ## BOTTOM LINE
 
-**⚠️ STAGE 2 BANK TRANSMISSION ACTIVATED — Mar 11, 2026. JPMorgan marked down private credit back-leverage collateral (software loans). The $4.2T loaded gun has fired its first shot. CASCADE CONFIRMED. Three events in five days.** HLEND gated Mar 6. Cliffwater 7%+ redemptions Mar 10. Blue Owl restrictions prior. $7.3B+ in visible active redemption stress across major funds. Whalen's FDIC data quantifies the transmission channel: $4.2T bank→NDFI exposure with $2.8T undrawn — a loaded gun. Atlas SP double default confirms warehouse channel is cracking, not just stressed. Blue Owl/Kuvari insurance stuffing (OBDC2, $595M) is the critical new data point: what we thought was APO-specific (Athene as bad bank) is an INDUSTRY PLAYBOOK. Two confirmed firms. Regulatory surface area doubled. Glenn Shore named it on Eisman's podcast. This broadens the thesis from "short APO" to "short the entire model." Eisman's own complacency on Ep 49 — dismissing fears while his guests describe first-ever SoFi CNL trigger, retail outflows, and "too hard bucket" allocation — is a contrarian signal that the short still has runway before consensus fully reprices. Q1 2026 earnings = mandatory disclosure. Convergence: 50/50.
+**⚠️ STAGE 2 BANK TRANSMISSION ACTIVATED — Mar 11, 2026. JPMorgan marked down private credit back-leverage collateral (software loans). The $4.2T loaded gun has fired its first shot. CASCADE CONFIRMED. Three events in five days.** HLEND gated Mar 6. Cliffwater 7%+ redemptions Mar 10. Blue Owl restrictions prior. $7.3B+ in visible active redemption stress across major funds. Whalen's FDIC data quantifies the transmission channel: $4.2T bank→NDFI exposure with $2.8T undrawn — a loaded gun. Atlas SP double default confirms warehouse channel is cracking. Blue Owl/Kuvari confirms captive insurance-as-bad-bank is an INDUSTRY PLAYBOOK (APO + OWL = two confirmed firms). MFS forensic mapping (£930M shortfall, single auditor across SPVs, trustee dual-role) documents the structural opacity template enabling this at scale. Kennedy-Wilson bondholder revolt signals CRE extend-and-pretend is cracking independently of private credit. New monitoring: Athene statutory Q1 filing ~April, BDC dividend cuts (post MFIC/FSK — who's next?). APO most anomalous: -39% drawdown despite carrying the most tail risk (Athene $442B) = market still underpricing. Convergence: 50/50.

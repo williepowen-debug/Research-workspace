@@ -1,6 +1,55 @@
 # SAM STATUS
 
-**Signal Status:** 🔴🔴 CRITICAL — HORMUZ ACTIVELY MINED | IEA 400MB RELEASE BUT MARKETS NOT CONVINCED (OIL +4.76% TO $91.98) | BOJ HOLD CONFIRMED | JAPAN SPR 80MB / 45 DAYS STARTING MAR 18 | **Last Updated:** 2026-03-11 20:15 UTC
+**Signal Status:** 🔴🔴 CRITICAL — HORMUZ ACTIVELY MINED | IEA 400MB RELEASE BUT MARKETS NOT CONVINCED (OIL +4.76% TO $91.98) | BOJ HOLD CONFIRMED | JAPAN SPR 80MB / 45 DAYS STARTING MAR 18 | **Last Updated:** 2026-03-11 21:35 UTC
+
+---
+
+## 📬 INBOX PROCESSED — MAR 11, 2026 (21:35 UTC)
+
+### NEW DATA INTEGRATED FROM INBOX BATCH
+
+**1. JKM PRICE LEVELS — BRENT SIGNAL (MAR 7)**
+Specific JKM data now on record:
+| Date | JKM $/MMBtu | Delta vs Pre-Crisis |
+|------|-------------|---------------------|
+| Feb 27 (baseline) | $10.725 | — |
+| Mar 2 | $13.365 | +24.6% |
+| Mar 3 | $15.770 | +47.0% (peak) |
+| Mar 4 | $15.105 | |
+| Mar 5 | $15.495 | Structural dislocation confirmed |
+
+**Mechanism confirmed by BRENT (Cheniere earnings model):** Japan short *molecules*, not just facing high prices. Atlantic Basin spot LNG at $15+ is the only substitute — and volume is constrained. Japan was paying ~$10.73/MMBtu pre-crisis. JKM +40-47% sustained while Hormuz mined = Q1 Japan energy import costs severely elevated.
+
+**New watch date added:** Japan March trade balance data releases ~**April 20-25**. Will be the first hard confirmation of energy import cost deterioration on yen and BOJ posture. This is a leading indicator for life insurer repatriation acceleration. Track at release.
+
+**2. QATAR BOMBARDMENT SPECIFICITY — ECONOMIST / ACLED (MAR 9)**
+- Qatar struck ~60 munitions on Feb 28 Day 1, declining to ~5/day by Mar 5 but NOT zero
+- UAE absorbing 100-380 munitions/day — Gulf-wide bombardment confirmed
+- Iran missile/drone production degraded (22 production facility fires Mar 3) but attacks sustained from deep stockpiles
+- **Implication:** Even if Iran production capacity degraded, existing stockpiles ensure weeks of continued disruption. Duration floor: multi-week minimum even with ceasefire. Confirms structural (not episodic) framing.
+
+**3. BESSENT-JAPAN FX COORDINATION — CONFIRMED (FEB 24)**
+- US Treasury Secretary Bessent confirmed to have initiated January FX rate check on yen-dollar
+- Coordinated bilateral FX policy: US aware of yen stress / carry unwind risk
+- **Implication:** Both sides motivated to PREVENT disorderly yen moves. Explains why 160 hasn't been breached without operational intervention — coordinated verbal defense is working. Does NOT reduce carry unwind risk; it *delays* the threshold. Watch for any breakdown in this coordination if oil resumes spike and MoF is forced to act.
+
+### BOJ NEXT WEEK — MAR 18-19 SYNTHESIS
+All inbox signals reinforce current assessment:
+- JKM +47% = stagflation trap DEEPENED since last BOJ (Jan). Ueda "prolonged hold" telegraphed.
+- Qatar bombardment ongoing = energy disruption floor multi-week minimum — no hike argument
+- **Hold: 92-95% | Hike: 5-8%** (unchanged from EOD Mar 11 brief)
+- KEY WATCH: Ueda presser Mar 19 — any language on April live meeting = carry unwind probability jumps 7d to 25-30%
+
+### SIGNALS MOVED TO PROCESSED:
+- 2026-02-24_signals.md ✅
+- 2026-03-06_to-all_nfp_federal_layoffs_channel_fired.md ✅
+- 2026-03-06_to-sam_japan-energy-crisis.md ✅
+- 2026-03-09_prome_economist_qatar_under_fire.md ✅
+- 2026-03-09_prome_japan_tsmc_double_hit.md ✅
+- 2026-03-09_to-SAM_lng-carriers-529pct-qatar-under-fire.md ✅
+- BRENT_JKM_JAPAN_SIGNAL_MAR7.md ✅ (duplicate SAM_JKM_JAPAN_SIGNAL_MAR7.md also moved)
+
+---
 
 ---
 

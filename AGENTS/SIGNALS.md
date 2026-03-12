@@ -63,3 +63,5 @@ Weekly: Archive acknowledged signals older than 7 days to `archive/SIGNALS_YYYY-
 *Last updated: 2026-02-15*
 | 2026-03-09 | HAWK | BRENT | 🔴 | Haifa refinery confirmed hit by Khaibar Shekan missiles — energy infrastructure bilateral; routes into BRENT infra-targeting stream |
 | 2026-03-09 | HAWK | SAM | 🔴 | LNG carriers +529% (Platts), Qatar under active bombardment, zero large tankers westbound since Mar 3 — Japan energy crisis timeline compressing |
+| 2026-03-11 | BROCK | REGINALD | 🟠 | Kennedy-Wilson bondholder revolt (Bloomberg Mar 6) — creditors refusing debt exchange, demanding cash. CRE extend-and-pretend playbook cracking at named issuer. Impairs bank CRE loan-to-extend assumptions. |
+| 2026-03-11 | LIQUID | PROME | 🟠 | Gulf petrodollar recycling modeled as 4th UST anchor — combined selling upgraded 0-55B → 0-72B/month. FLOW-ZHAO-12 ACTIVE. Demand hole larger than prior model. |
