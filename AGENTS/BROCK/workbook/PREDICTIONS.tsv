@@ -1,21 +1,20 @@
-Pred_ID	Date_Made	Prediction	Confidence	Timeframe	Status	Date_Resolved	Outcome	Notes
-BRK-01	2026-02-23	PSEC dividend cut again or rating downgrade	70%	Q2 2026	OPEN			Feb 9-10 dividend maintained — does not falsify
-BRK-02	2026-02-23	Industry non-accruals rise to >2.5%	65%	Q2-Q3 2026	OPEN			Currently 1.2% (FV)
-BRK-03	2026-02-23	At least one major BDC triggers redemption gate	55%	2026	CONFIRMED	2026-02-18	✅ CORRECT	Blue Owl halted OBDC II redemptions ($1.7B gated)
-BRK-04	2026-02-23	Software sector BDC exposure declines <18%	60%	Q4 2026	OPEN			Currently ~20%
-BRK-05	2026-02-23	Shadow default rate acknowledged by rating agency	50%	2026	OPEN			PIK masking ~6% vs reported 2.1%
-BRK-06	2026-02-23	Neocloud credit event (CoreWeave/Lambda/Crusoe)	45%	H2 2026	PARTIAL			Blue Owl walked from CoreWeave + Oracle deals
-BRK-07	2026-02-23	AI infrastructure markdown forces BDC sector write-down >$500M	40%	2026-2027	OPEN			
-BRK-08	2026-02-23	Blue Owl reduces hyperscale DC exposure or exits	35%	Q3-Q4 2026	PARTIAL			Selling 35% of OBDC II loans (forced, not strategic)
-BRK-09	2026-02-23	HRZN merger terms worse than announced (NAV floor broken)	60%	Q1-Q2 2026	OPEN			NAV collapsed 21%
-BRK-10	2026-02-23	HTGC tech-driven NAV decline >10%	50%	H2 2026	OPEN			>50% tech concentration
-BRK-11	2026-02-23	First BDC breaches 150% asset coverage	55%	2026	OPEN			PSEC closest
-BRK-12	2026-02-23	PLTR falls below $80 (40%+ decline)	60%	H2 2026	OPEN			Burry short thesis
-BRK-13	2026-02-23	AI darling SBC criticism from analysts	55%	Q1-Q2 2026	OPEN			Burry SBC framework
-BRK-14	2026-02-23	Big Tech Q1 2026: at least one cuts FY capex guidance	40%	Q1 2026 earnings	OPEN			Late April
-BRK-15	2026-02-23	Burry PLTR short >20% profit (below $108)	50%	Q4 2026	OPEN			
-BRK-16	2026-02-23	AI infra markdown triggers HTGC revaluation >15% NAV	45%	H2 2026	OPEN			
-BRK-17	2026-02-23	Hyperscaler accelerates GPU depreciation (5-6yr to 3-4yr)	50%	2026	OPEN			Burry GPU failure thesis
-BRK-18	2026-02-23	GPU failure rate disclosure forces BDC collateral revaluation	40%	H2 2026	OPEN			
-BRK-19	2026-02-23	Power grid constraint cited as capex limitation in Big Tech call	55%	Q2-Q3 2026	OPEN			
-BRK-20	2026-02-23	Blackwell overheating/failure issues become public	45%	H1 2026	OPEN			
+ID	Prediction	Confidence	Made_Date	Resolve_Date	Status	Result	Invalidation	Notes
+BRK-01	PSEC dividend cut again or rating downgrade	70%	2026-02-23	2026-06-30	OPEN		PSEC raises dividend or receives upgrade	Feb 9-10 dividend maintained — does not falsify
+BRK-02	Industry non-accruals rise to >2.5%	65%	2026-02-23	2026-09-30	OPEN		Non-accruals decline 2 consecutive quarters	Currently 1.2% (FV)
+BRK-03	At least one major BDC triggers redemption gate	55%	2026-02-23	2026-02-18	CONFIRMED	✅ CORRECT	N/A — resolved	Blue Owl halted OBDC II redemptions ($1.7B gated)
+BRK-04	Software sector BDC exposure declines <18%	60%	2026-02-23	2026-12-31	OPEN		Software exposure stabilizes or increases	Currently ~20%
+BRK-05	Shadow default rate acknowledged by rating agency	50%	2026-02-23	2026-12-31	OPEN		Rating agencies explicitly defend reported rates as accurate	PIK masking ~6% vs reported 2.1%. Fitch 9.2% cohort may partially satisfy this.
+BRK-06	Neocloud credit event (CoreWeave/Lambda/Crusoe)	45%	2026-02-23	2026-12-31	PARTIAL		All three maintain current debt service through 2026	Blue Owl walked from CoreWeave + Oracle deals
+BRK-07	AI infrastructure markdown forces BDC sector write-down >$500M	40%	2026-02-23	2027-06-30	OPEN		AI/GPU collateral values stabilize or appreciate	 
+BRK-08	Blue Owl reduces hyperscale DC exposure or exits	35%	2026-02-23	2026-12-31	PARTIAL		Blue Owl increases DC lending	Selling 35% of OBDC II loans (forced, not strategic)
+BRK-09	HRZN merger terms worse than announced (NAV floor broken)	60%	2026-02-23	2026-06-30	OPEN		Merger closes at or above announced terms	NAV collapsed 21%
+BRK-10	HTGC tech-driven NAV decline >10%	50%	2026-02-23	2026-12-31	OPEN		HTGC NAV stable or rising 2 consecutive quarters	>50% tech concentration
+BRK-11	First BDC breaches 150% asset coverage	55%	2026-02-23	2026-12-31	OPEN		All BDCs maintain >160% coverage	PSEC closest
+BRK-12	PLTR falls below $80 (40%+ decline from highs); Burry short profitable >20%	60%	2026-02-23	2026-12-31	OPEN		PLTR sustains above $120 for 3+ months	Burry short thesis. Original $108 profit threshold subsumed — $80 is the real test.
+BRK-13	AI darling SBC criticism reaches mainstream analyst coverage	55%	2026-02-23	2026-06-30	OPEN		SBC framing remains bullish ("investing in talent") through Q2 earnings	Burry SBC framework
+BRK-14	Big Tech Q1 2026: at least one cuts FY capex guidance	40%	2026-02-23	2026-05-31	OPEN		All big 5 maintain or raise capex guidance	Late April earnings
+BRK-16	AI infra markdown triggers HTGC revaluation >15% NAV	45%	2026-02-23	2026-12-31	OPEN		HTGC GPU/AI portfolio marks stable	 
+BRK-17	Hyperscaler accelerates GPU depreciation (5-6yr to 3-4yr)	50%	2026-02-23	2026-12-31	OPEN		Hyperscalers maintain current depreciation schedules	Burry GPU failure thesis
+BRK-18	GPU failure rate disclosure forces BDC collateral revaluation	40%	2026-02-23	2026-12-31	OPEN		No GPU failure rate data published	 
+BRK-19	Power grid constraint cited as capex limitation in Big Tech call	55%	2026-02-23	2026-09-30	OPEN		No power/grid mentions in Q1-Q2 earnings calls	 
+BRK-20	Blackwell overheating/failure issues become public	45%	2026-02-23	2026-06-30	OPEN		Blackwell ships on schedule with no reported issues	 
