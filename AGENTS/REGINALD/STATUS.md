@@ -1,5 +1,125 @@
 # REGINALD STATUS
-**Last Updated:** 2026-03-11 20:30 UTC | **Status:** 🔴🔴🔴 CRITICAL — CPI PRINTED TODAY (in-line 2.4%/2.5% core — not hawkish, but Hormuz oil +4% despite IEA reserve release overwhelms Fed cut hope). PIMCO publicly calls private credit "reckoning." MFS shortfall escalated to $1.8B. Iran IRGC threatens $200 oil. All stress vectors active. See MAR 11 EOD UPDATE below.
+**Last Updated:** 2026-03-12 20:15 UTC | **Status:** 🔴🔴🔴 CRITICAL — KW BONDHOLDER DEADLINE TOMORROW (Mar 13 5pm). KRE -1.14% today ($63.98), SPX -1.22%, 10Y +7bps to 4.23% (STAGFLATION TRADE — rates up WITH sell-off). KRE puts +50-140%, WAL Jun puts +179%. OZK Apr 16 T-35 days. See MAR 12 EOD UPDATE below.
+
+---
+
+## 🚨 MAR 12 EOD UPDATE — STAGFLATION CONFIRMATION / KW DEADLINE T-1 / POSITIONS WORKING
+
+**Filed:** 2026-03-12 20:15 UTC
+
+### Market Snapshot
+| Indicator | Value | Signal |
+|-----------|-------|--------|
+| SPX | **-1.22%** | Broad risk-off |
+| 10Y Yield | **4.23% (+7bps)** | 🔴 STAGFLATION TRADE — rates rising WITH sell-off = no haven bid for bonds |
+| Brent | **$100/bbl** | 🔴 Re-escalation from $91.70 verbal de-esc low; Hormuz structural |
+| KRE | **$63.98** (-1.14%, prev close $64.72) | Tracking SPX; puts working |
+| KRE Puts | **+50-140%** | ✅ All strikes working |
+| WAL Jun Puts | **+179%** | ✅ Lead signal working |
+
+### 1. Regional Bank Price Action Today
+- **KRE: $63.98** — down -1.14% on the day (-13.6% from Feb $74 peak). Banks tracking broad market decline but underperforming on a cumulative basis. No bounce on SPX weakness = sector fragility confirmed.
+- **10Y yield +7bps to 4.23%** with equity sell-off is the key read: bonds are NOT bidding as a haven. Markets are pricing stagflation (Brent $100 = inflation), not recession flight-to-safety. This is the worst possible rate environment for regionals — NIM relief remains impossible, HTM unrealized losses remain elevated.
+- Brent at $100 confirms the Hormuz re-escalation from the $91.70 verbal de-escalation low on Mar 10. The Trump "war very complete" remarks have not held. $100 oil = construction/operating cost pressure on CRE NOI, energy-sector covenant stress on bank loan books.
+- WAL Jun puts +179%: WAL continuing structural decline. Multiple catalysts in sequence (charge-off Mar 6, DA Davidson PT cut $105→$93, Cantor appraisals in progress). Next catalyst: KW CRE event (tomorrow deadline) + Q1 earnings Apr 27 est.
+
+### 2. FHLB / Funding Signals
+- **No new FHLB data today.** Most recent: Whalen FDIC Q4 2025 — FHLB advances -14% QoQ (deposits replacing advances). Current FHLB ~$480B — BELOW the $700B stress threshold. 🟢 **Not alarmed yet.**
+- **SOFR-IORB: -1bp** (last confirmed) — no interbank funding stress signal at this time.
+- Watch: If KW exchange offer fails tomorrow (Mar 13) and triggers a CRE credit event, watch for banks drawing FHLB advances in Mar-Apr call report data (Q1 2026, due May). That would be the leading signal of a funding shift.
+- 10Y at 4.23% (+7bps) is NOT a funding stress signal — it's an inflation signal. Funding stress would show in SOFR-IORB spread and FHLB advance spike.
+
+### 3. Bank Watchlist Updates
+| Bank | Status | Notes |
+|------|--------|-------|
+| **WAL** | 🔴🔴 Score 19 | Jun puts +179%. Cantor appraisals active. KW tomorrow could widen CRE spread = more WAL collateral pressure. Q1 earnings Apr 27 est. |
+| **OZK** | 🔴 Score 12 | **T-35 days to Apr 16 earnings.** 2022 vintage construction loans reaching hard maturity Q1-Q3 2026. Life science funding frozen (NIH cuts). Temple 8 short thesis "$49 target" now in market. |
+| **EGBN** | 🔴🔴 Score 20 | Highest risk score. DC corridor federal job losses confirmed in BLS data. $25P Jun. No new data today but structural deterioration ongoing. |
+| **ZION** | 🔴 Score 14 | MUNI $5.78B exposure stressed by weaker tax base (labor data). $57.5P Jul. |
+| **KW** | 🔴🔴 TRIPWIRE | Exchange offer withdrawal deadline **TOMORROW Mar 13 5pm NYC**. Milbank-organized majority holders seeking CASH, not exchange. If exchange fails: KW must fund cash paydown at D/E 5.75 / current ratio <1 = CREDIT EVENT. Watch tomorrow for announcement. |
+
+### 4. Convergence Channel Status
+All 8 channels remain open. No new closures. Escalations today:
+- **Stagflation Trap:** 🔴🔴 — 10Y +7bps WITH equity sell-off = confirmed. Fed cannot cut. NIM relief window shut indefinitely.
+- **CRE Direct:** 🔴 — Brent $100 pressures CRE operating costs, construction costs. No floor visible.
+- **CMBS Maturity Wall:** 🔴 — Rates rising = refi math worsening in real time.
+- **Federal Layoffs:** 🔴 FIRED — no new data today; structural channel remains active.
+- **Private Credit → Bank:** 🔴 CRITICAL — no new data today; PIMCO "reckoning" narrative now mainstream.
+- **HY OAS:** Was ~310-320bps est (Mar 6). With SPX -1.22% and Brent $100 today, likely widened further. HENRY to confirm. Threshold: 320bps → if crossed/confirmed, 🔴→🔴🔴 channel escalation.
+
+### 5. Earnings Season Watch — OZK Apr 16 (T-35 Days)
+**Primary watch items for OZK Q1 2026 earnings:**
+
+| Item | Why It Matters | Current Setup |
+|------|---------------|---------------|
+| **Construction loan maturity/extension** | 2022 vintage reaching hard maturity. OZK cannot extend indefinitely. Must either fund takeout, sell at loss, or charge off. | Life science funding frozen (NIH). No takeout market visible. Temple 8: "Next SVB?" thesis live. |
+| **NOI disclosure on CRE collateral** | W&D admitted "systemic" inflated NOI at origination. OZK's CRE LTVs may be fraudulently based. Q1 = first quarter where Manhattan below COVID lows forces mark. | Collateral at no-bid level. Any Q1 appraisal = writedown. |
+| **Provision for credit losses** | Last quarter held low. 2022 vintage failures in Q1-Q3 2026 timeline means Q1 could be first provision surge. | 0 runway left for can-kicking 2022 vintage. |
+| **Loan-to-deposit ratio trend** | Funding cost pressure. Regionals paying up for deposits. NIM compression. | 10Y at 4.23% doesn't help. |
+| **Life science portfolio commentary** | OZK flagged life science exposure. NIH grant freezes (DOGE) = biotech funding disrupted = OZK life science borrowers under stress. | DOGE 330K cuts include research grant administrators. |
+| **Management tone on CRE pipeline** | If they soften guidance or pull outlook → massive signal. | Temple 8 short thesis in market; management under scrutiny. |
+
+**OZK positioning:** Aug $42.5P — 5 months runway through earnings AND Q2 2026. Thesis intact. If Q1 earnings show material provision build or NOI commentary, this could be the catalyst for -20%+ move.
+
+---
+
+## 🚨 MAR 12 AM UPDATE — KW TRIPWIRE / CLAIMS COUNTER-SIGNAL / KRE+WAL PUTS LIVE
+
+**Filed:** 2026-03-12 17:30 UTC | **Source:** Reuters, WIKY, RTT News, Bloomberg, CRE Direct, MarketBeat
+
+### KEY DELTAS vs Prior STATUS
+
+| Item | Prior | Today | Change |
+|------|-------|-------|--------|
+| Initial Jobless Claims (week ended Mar 7) | "Monitor — threshold 300K" | **213,000** (-1K vs prior week 214K) | 🟡 COUNTER-SIGNAL — NFP -92K not yet in claims data |
+| Continuing Claims | — | **1.850M** (down) | 🟢 No deterioration visible yet |
+| KW Bondholder Revolt | "Majority holders want cash" (BROCK flag) | **Exchange offer deadline TOMORROW Mar 13** — Milbank-organized majority holding 4.75% 2029/2030, 5.00% 2031 notes seek cash payment, NOT exchange | 🔴 TRIPWIRE LIVE |
+| KRE Price | ~$64 | **$63.98 open today** | KRE puts +96-141% per Will context |
+| WAL Puts | Live — Sep $70P | **+179%** | 🔴🔴 Lead position working |
+| APO | Was ~$107 | **-39% from recent peak — ANOMALY vs peers -55 to -61%** | 🟡 APO outperforming vs alternatives peers — warrants watch |
+| CMBS Special Servicing (Feb) | 17.11% | **50 loans / $2.66B transferred** (most active since June 2025); workouts $3.25B > transfers | 🟡 Workouts outpacing new — but transfer velocity highest in 9 months |
+| CRE Capital | "Highly selective" | **Industrial/MF getting capital; office/retail/construction not** | 🔴 Bifurcation = office bank collateral increasingly no-bid |
+| HBAN | — | **$15.58** midday (-0.4%) — reaffirmed 2026 guidance | 🟡 Regionals mixed, not uniform collapse |
+
+### Signal 1: Claims 213K — COUNTER-SIGNAL (Important)
+- Initial claims printed **213K** this morning (week ended Mar 7) — down 1K vs prior week
+- This is BELOW the 300K threshold and showing NO deterioration despite -92K NFP
+- Analyst quote (WIKY): "consistent with labor market conditions stabilizing before the fallout of the Iran war hits the economy"
+- **Assessment:** Two interpretations: (a) The -92K NFP is strike-distorted (healthcare -28K) and underlying private sector is OK; OR (b) claims data lags mass layoffs — federal DOGE cuts (330K total) may not flow through claims if workers are in severance/notice periods
+- **CRITICAL:** 213K claims does NOT invalidate thesis — it delays it. The DOGE 330K fired workers are the future claims wave. This week's 213K is measuring the period BEFORE the Hormuz shock hits consumption. **Do NOT exit thesis on this print alone.**
+- Cross-agent flag: LABOR must assess whether DOGE + Iran war + -92K NFP will show in claims by Apr 3 or Apr 10.
+
+### Signal 2: Kennedy Wilson (KW) — BONDHOLDER TRIPWIRE TOMORROW
+- Bloomberg Mar 6: majority KW bondholders (Milbank-organized) holding 4.75% Sr Notes 2029/2030 and 5.00% Sr Notes 2031 are REJECTING the exchange offer and demanding CASH
+- Milbank hosted bondholder call Mar 5 — organized resistance confirmed
+- Exchange offer dated Mar 2 — deadline TOMORROW March 13
+- KW debt/equity ratio: 5.75 | current ratio: 0.79 (below 1 = liquidity stress)
+- Separately: Brodsky & Smith filed shareholder investigation into KW Board fiduciary duties re: deal consideration
+- **If exchange fails:** KW must find cash for a majority of its bond stack — at D/E 5.75 and current ratio <1, this is a CREDIT EVENT catalyst, not just a negotiation
+- **Why it matters for thesis:** KW is a major CRE operator (UK single-family, US/global CRE). A KW credit event would: (a) trigger CMBS cross-defaults on KW-collateralized deals, (b) expose which banks hold KW senior notes (Barclays, JPM per CPPIB partnership), (c) validate the "CRE operator debt stack under siege" leg of thesis
+- **Watch tomorrow Mar 13 for exchange offer result announcement**
+
+### Signal 3: APO -39% Anomaly
+- APO down -39% from recent peak while peers (ARES, OWL, BX, KKR) down -55 to -61%
+- Possible explanations: (a) Athene insurance buffer absorbing mark-to-market vs listed peers, (b) market believes APO's diversified structure is more resilient, (c) class action filed Mar 5 already priced/known
+- **Watch:** If APO underperformance "catches up" to peers, that's another -15 to -22% leg down from here — still material
+- Contrarian read: APO's relative strength could signal market believes Athene-structure firms survive while "pure" BDC/credit peers don't
+
+### Signal 4: CMBS Special Servicing — Velocity Alarm
+- $2.66B transferred to special servicing in February = most active month since June 2025
+- BUT: workouts/resolutions of $3.25B > transfers — net negative flow from special servicing
+- **CRE Direct assessment:** Headline looks like improvement; underlying: the resolution of old loans (loan-loss crystallization) is masking continued high new transfer rate
+- February CMBS new transfer velocity is the HIGHEST IN 9 MONTHS — that's what matters
+
+### Watch List — Rest of Day Mar 12
+1. **KW (KW)** — Any pre-announcement of exchange offer result ahead of Mar 13 deadline
+2. **WAL** — Any follow-on analyst actions or pre-announcement ahead of Q1 earnings; Cantor appraisals news
+3. **KRE level** — $63.98 open; close below $63 would be new multi-month low
+4. **Claims interpretation** — Street will call this "stable labor" and use to fade the bank short narrative. Counter: DOGE/Hormuz lag is 4-8 weeks from claim filing. Next real claims read: Mar 26.
+5. **APO** — Watch for any catch-up selling to peers
+6. **HY OAS** — Still tracking toward 320bps threshold; war-related risk-off should continue widening
+
+
 
 ## 🚨 MAR 11 EOD UPDATE — CPI IN-LINE + PIMCO RECKONING + MFS ESCALATION + OIL STRUCTURAL
 

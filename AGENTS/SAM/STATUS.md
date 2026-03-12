@@ -1,6 +1,153 @@
 # SAM STATUS
 
-**Signal Status:** 🔴🔴 CRITICAL — USD/JPY 159.06 BREACHED VERBAL INTERVENTION ZONE | HORMUZ MINED | BOJ HOLD NEXT WEEK | UEDA PRESSER MAR 19 = KEY | CPI 2.4% IN-LINE (NO CHANGE TO THESIS) | **Last Updated:** 2026-03-12 13:45 UTC
+**Signal Status:** 🔴🔴 CRITICAL — USD/JPY ~159 HOLDING VERBAL INTERVENTION ZONE | MoF KATAYAMA ESCALATION EXPECTED | BOJ HOLD NEXT WEEK 92-95% | UEDA PRESSER MAR 19 = CARRY CATALYST | LIFE INSURER FY-END REPATRIATION LOADING | **Last Updated:** 2026-03-12 20:15 UTC
+
+---
+
+## 🌅 EOD BRIEF — MAR 12, 2026 (20:15 UTC)
+
+### HEADLINE: USD/JPY HOLDS 159 DESPITE CPI IN-LINE SOFTNESS. VERBAL INTERVENTION ZONE ACTIVE. BOJ HOLD LOCKED. UEDA MAR 19 = THE ONLY CATALYST LEFT. LIFE INSURER REPATRIATION NOW 19 DAYS FROM FY END.
+
+### (1) USD/JPY MOVE TODAY + CARRY TRADE STRESS
+
+**Day's range: 158.30 (early Asia) → 159.06-159.24 (intraday high) → ~159.00 EOD.**
+
+The defining data point of the day: US CPI printed 2.4% in-line (core 2.5%). USD softened briefly in the morning session, touching 158.30. But USD/JPY reversed and closed the day at/near 159 — the intervention zone. Even a soft CPI print **cannot hold the yen bid.** The structural force (energy import costs + BOJ paralysis) is dominant over any single US data point.
+
+**Key context from investinglive.com (Mar 11):** USD/JPY is now testing the January high (159.45) — the same level that triggered a MoF "rate check" that previously sent the pair plunging. That protective mechanism was activated at ~159.45 in January; we are now one session away from retesting it. The 2024 high was 162.00. Anything above 160 = 40-year highs.
+
+| Metric | MAR 12 AM | MAR 12 EOD | Delta |
+|--------|-----------|------------|-------|
+| **USD/JPY** | 159.06 (range 158.57-159.24) | **~159.00-159.10** | 🔴 Held — no yen relief |
+| **Carry status** | Nominally intact | **Nominally intact — but 159.45 rate check level ONE SESSION AWAY** | ⚠️ Escalating |
+| **MoF verbal status** | Active zone | **Active — Katayama statement imminent if 159.50 prints** | 🔴 |
+| **Carry unwind 7d prob** | 12% | **12%** | No acute trigger — carry mechanically intact |
+| **Carry unwind 30d prob** | 83% | **84%** | FY-end + 159 hold = slow-motion accumulation |
+
+**Carry trade stress reading:** No acute unwind. Carry is mathematically positive at 159. But proximity to the January rate-check level (159.45) and the psychological 160.00 intervention zone is compressing the "safe zone" for carry positioning. Any sharp USD/JPY move through 159.50 would likely trigger: (a) MoF verbal escalation, (b) hedge fund position covering, (c) probability spike in 7d unwind risk to 20-25%.
+
+---
+
+### (2) BOJ MEETING EXPECTATIONS UPDATE — MAR 18-19
+
+**Hold probability: 92-95% (unchanged).**
+
+CPI 2.4% in-line does NOT move this. BOJ needs THREE things to hike that are all absent:
+1. Energy shock resolution (Hormuz still mined) — **NOT resolved**
+2. March CPI data — **won't print until April**
+3. Shunto final wage tally — **Mar 21, AFTER the meeting**
+
+**Bloomberg (Mar 12):** Japan's largest life insurers confirmed plans to increase private credit investment in FY beginning April — consistent with ongoing search for yield as BOJ policy stays on hold. Not an immediate repatriation signal but confirms structural portfolio repositioning is active.
+
+**Markets (from investingcube.com, Mar 12 AM):** Swap markets pricing 60-65% probability of 25bp April hike (to 1.00%). This is the market's forward-looking view; it does NOT change March outcome.
+
+**Updated BOJ scenario table — unchanged from AM check-in:**
+
+| Scenario | Probability | USD/JPY impact |
+|----------|-------------|----------------|
+| **Dovish hold** — Ueda emphasizes energy risk, defers any April signal | 50% | 159.50-160.50 → intervention risk |
+| **Neutral hold** — no new directional language | 35% | 158.50-159.50 → status quo drift |
+| **Hawkish hold** — wages flagged, April hinted | 15% | 156.00-158.00 → yen strength → carry stress |
+
+---
+
+### (3) LIFE INSURER REPATRIATION SIGNALS
+
+**FY2025 ends March 31 — 19 days away. Repatriation window peak: NOW through Mar 31.**
+
+**Active signals:**
+- **Bloomberg Mar 12:** Japan's largest life insurers (Nippon Life, Dai-ichi, Meiji Yasuda etc.) confirmed they are increasing private credit investment for FY beginning April — implies active portfolio rebalancing NOW at FY-end. Selling of existing positions (including foreign bonds) to fund redeployment is the mechanism.
+- **Reuters (Oct 2025):** Major life insurers planned to trim yen bond holdings Oct-March and swap into higher-return issues. The H2 FY2025 rebalancing is now in its final weeks.
+- **Japan midsize insurers (Jan 2026):** Fukoku Mutual and peers cutting 30-40Y JGB exposure. Not directly UST-selling, but portfolio rotation is active.
+
+**Assessment:** Life insurer repatriation is a slow-motion process, not a one-day event. But with 19 days to FY-end and USD/JPY at 159 (making USD-denominated assets expensive to hold on a JPY hedging basis), the incentive to repatriate — selling USD bonds, buying JPY — is building. This is the Japan leg of the "three-anchor UST selling" thesis activating.
+
+**Watch:** Any public statement from Nippon Life, Dai-ichi, or Meiji Yasuda CEO on FX hedging posture or overseas bond allocation would be a direct confirmation. TIC data Mar 15 is the next hard read.
+
+---
+
+### (4) CARRY UNWIND RISK ASSESSMENT — MAR 12 EOD
+
+**Current regime: Yen weakness / structural accumulation phase — NOT acute unwind.**
+
+The thesis has not changed: carry is still mechanically positive, but the pressure-cooker is loading. Three factors elevating risk:
+
+**Factor 1: USD/JPY proximity to rate-check zone (159.45)**
+The January rate check at 159.45 caused a sharp reversal. We're one session away. If USD/JPY prints 159.50+ tomorrow, MoF verbal escalation is near-certain. Verbal escalation alone doesn't trigger carry unwind — but it compresses positioning room.
+
+**Factor 2: FY-end repatriation (Mar 31 = T-19 days)**
+Life insurer repatriation adds structural yen demand that wasn't present 2 months ago. This is a slow-building force that becomes acute in the final week of March.
+
+**Factor 3: Ueda presser Mar 19 binary**
+The single most important catalyst in the window. A hawkish hold (15% probability) would be an acute carry trigger — yen strengthens 100-150 pips fast, carry positions cover, 7d probability jumps to 30-35%.
+
+**Updated carry unwind probabilities:**
+
+| Timeframe | MAR 12 AM | MAR 12 EOD | Driver |
+|-----------|-----------|------------|--------|
+| **7d** | 12% | **13%** | Proximity to rate-check zone slightly elevated |
+| **30d** | 83% | **84%** | FY-end loading + 159 hold confirms structural path |
+| **60d** | 88% | **88%** | Unchanged — mine clearance unresolved, SPR clock |
+
+---
+
+### (5) WHAT UEDA MAR 19 COULD TRIGGER
+
+**Ueda presser Mar 19 is the ONLY active catalyst in the 7-day window.** The meeting decision (hold) is a certainty. The LANGUAGE is everything.
+
+**Three trigger scenarios:**
+
+**Trigger A — Hawkish hold (15% probability):**
+Ueda explicitly flags April as a "live" meeting; references Shunto wage data progress; downplays energy risk relative to domestic wage-led inflation.
+- **USD/JPY reaction:** -150 to -300 pips. Sharp yen strength.
+- **Carry unwind:** 7d probability jumps from 13% → 30-35%. Immediate hedge fund covering.
+- **Ripple effects:** Nikkei -2-3% (JPY squeeze hits exporters), JGB 2Y yields spike, regional EM calm temporarily (yen safe-haven eases some Korea/EM pressure).
+- **For the thesis:** Phase 2 carry unwind onset — this is the original mechanism. Would be the cleanest and fastest path to the carry unwind scenario.
+
+**Trigger B — Neutral hold (35% probability):**
+Ueda says "we continue to monitor data" with no new forward guidance language. No energy or wage emphasis shift.
+- **USD/JPY reaction:** ±30-50 pips (noise). Drifts back to 159.
+- **Carry unwind:** No change. 7d stays ~12-13%.
+- **Implication:** Market focus shifts to April 23-24 BOJ as the next live meeting.
+
+**Trigger C — Dovish hold (50% probability):**
+Ueda emphasizes prolonged energy uncertainty, defers to April/June timeline, explicitly rules out near-term hikes until global situation clarifies.
+- **USD/JPY reaction:** +100-200 pips. Path to 160 opens.
+- **Carry unwind:** 7d drops to ~8-10% (carry more attractive short-term). 30d RISES as 160 intervention risk builds.
+- **Implication:** MoF forced to escalate verbal intervention immediately. If USD/JPY approaches 160, operational intervention becomes the Phase 2 trigger instead of BOJ action. Different mechanism, same destination.
+
+**Bottom line on Ueda Mar 19:**
+- 50% chance he hands carry traders another week of runway (dovish hold → drift toward 160)
+- 35% chance nothing changes (neutral → status quo)
+- 15% chance he lights the fuse (hawkish hold → acute carry stress onset)
+- **The 15% scenario is the one to position around.** It has asymmetric impact and is the only path to rapid Phase 2 onset before month-end.
+
+---
+
+### UPDATED ALERT LEVELS — MAR 12 EOD
+
+| Level | Action | Status |
+|-------|--------|--------|
+| **USD/JPY ~159.00** | Current — intervention zone ACTIVE | 🔴 LIVE |
+| **USD/JPY 159.45** | Jan rate-check level — prior MoF action precedent | ⚠️ WATCH (1 session away) |
+| **USD/JPY 159.50** | MoF operational intervention clock | 🔴 SET |
+| **USD/JPY 160.00** | 🚨 Operational intervention — Phase 2 candidate via FX channel | 🔴 SET |
+| **USD/JPY 157.00** | Hawkish Ueda signal → yen bounce target | SET |
+| **Mar 15 (Sun)** | TIC data — Japan UST selling confirmation | 🟠 |
+| **Mar 18** | BOJ meeting opens + Japan SPR continues | 🔴 DUAL EVENT |
+| **Mar 19** | Ueda presser — carry catalyst | 🔴 CRITICAL |
+| **Mar 21** | Shunto first tally (Rengo) | 🟠 |
+| **Mar 31** | FY2025 end — life insurer repatriation PEAK (T-19 days) | 🔴 LOADING |
+
+### UPDATED CARRY UNWIND PROBABILITIES — MAR 12 EOD
+
+| Timeframe | MAR 12 AM | MAR 12 EOD | Driver |
+|-----------|-----------|------------|--------|
+| **7d** | 12% | **13%** | Rate-check proximity |
+| **30d** | 83% | **84%** | FY-end repatriation loading; 159 hold |
+| **60d** | 88% | **88%** | Structural — unchanged |
+
+---
 
 ---
 

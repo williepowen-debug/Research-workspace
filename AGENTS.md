@@ -17,75 +17,10 @@ NEXUS synthesizes across all agents → convergence/contradiction detection → 
 
 ---
 
-## Every Session (Boot Sequence)
+## Boot
 
-1. **Read `PROME/SCRATCH.md`** — ephemeral scratchpad. What we were just doing. Read FIRST, before anything else.
-2. **Read `PROME/STATUS.md`** — "Last context" line orients you instantly. Dashboard, positions, priorities.
-3. **Read `SOUL.md`** — who you are
-4. **Read `USER.md`** — who you're helping
-5. **Read `LESSONS.md`** — mistakes to avoid
-6. **Read `memory/YYYY-MM-DD.md`** (today + yesterday)
-7. **If MAIN SESSION:** Read `MEMORY.md` (security-sensitive, never load in group chats)
-8. **Be proactive.** Don't wait to be asked.
-
-### On-Demand (read when relevant, not at boot)
-- `BRIEFING.md` — weekly ops brief
-- `WILL/` — journal, `IDEAS.md`, `trading-journal/`
-- `CALENDAR.md` — upcoming events
-- `FORGE/STATUS.md` + `FORGE/ACTIVE_TRADES.md` — before trade advice
-
-Agent STATUS files (`AGENTS/*/STATUS.md`): read on-demand, NOT at boot.
-
----
-
-## Every Session End (Handoff)
-
-### Before `/clear` — Checkpoint Handoff
-Quick and dirty. Preserves what compaction would lose.
-1. **Append to `memory/YYYY-MM-DD.md`:**
-```
-## Checkpoint [HH:MM UTC]
-**Context:** [one sentence — what we were doing]
-**Changed:** [files touched this segment]
-**Next:** [what's queued up]
-```
-2. **`git add -A && git commit -m "checkpoint"`**
-
-### Before `/new` — Full Handoff
-Required. Compacted context won't survive.
-1. **`memory/YYYY-MM-DD.md`** — Start with "Last context:" sentence
-2. **`PROME/STATUS.md`** — Update dashboard
-3. **`MEMORY.md`** — Add learnings worth keeping
-4. **Commit and push**
-
-### If Applicable (either type)
-5. USER.md, PREDICTIONS.md, LESSONS.md, CALENDAR.md, FORGE/STATUS.md
-
-### Session Reset Strategy
-- **`/clear`** — Wipes conversation but OpenClaw creates a compaction summary injected into the session. Multiple clears stack summaries-of-summaries (lossy, heavy). 4 clears in one day = 53% context at boot (21% compaction weight on top of 32% system overhead).
-- **`/new`** — Creates a fresh session. No compaction baggage. Boots at ~32% (system overhead only).
-- **Pattern:** `/clear` for mid-session pivots where continuity helps. `/new` when compaction weight accumulates (multiple clears deep, or long/dense day).
-- **Full file handoff required before `/new`** — compacted context won't survive. Optional before `/clear` — summary carries key points forward (but lossily).
-
-### Handoff Format
-Shape the coastline for the NEXT tide, not the current one.
-```
-## Handoff
-**Last context:** [single sentence — the first thing next-me needs to know]
-**Next tide:** [prioritized actions for next session — this is the coastline]
-**Open questions:** [unresolved decisions, active tensions]
-**Positions:** [any changes]
-**Rhythm note:** [where we are mentally, what shorthand we've developed]
-**Today's work:** [brief bullets — detail lives in daily notes]
-```
-
----
-
-## Memory
-
-- **Daily notes:** `memory/YYYY-MM-DD.md` — raw session logs
-- **Long-term:** `MEMORY.md` — curated insights (main session only, never group chats)
-- **Files > Brain** — write it down or lose it. "Mental notes" don't survive restarts.
+At session start, read `PROME/BOOT.md` then follow its sequence.
+Before `/clear` or `/new`, read `PROME/HANDOFF.md`.
 
 ---
 
@@ -95,41 +30,7 @@ Shape the coastline for the NEXT tide, not the current one.
 - `trash` > `rm`
 - **Internal actions** (read, organize, search): do freely
 - **External actions** (emails, tweets, public posts): ask first
-
----
-
-## Sub-Agent Operations
-
-See `docs/OPERATIONS.md` for full manual. See `AGENTS_DIRECTORY.md` for roster.
-
-**Spawn:** `sessions_spawn(agentId="labor", task="...", cleanup="keep")`
-**Follow-up:** `sessions_send(sessionKey="agent:labor:subagent:...", message="...")`
-
-**Daily check-ins (weekdays):** LABOR 8:00, CARL 8:15, MARCO 8:30 AM ET
-
-**Proposal flow:** Agent proposes → send to Will with [Approve] [Reject] → execute on approval
-
-**Spawn-ready rule:** If an agent's STATUS.md exceeds ~10KB, it's not spawn-ready. Prune before spawning — archive resolved sections to workbook, keep only current state + active vectors. The tide can't do useful work in a cove full of debris.
-
----
-
-## NEXUS — Synthesis Layer
-
-NEXUS sits between domain agents and PROME. It reads all agents' SIGNALS.md and STATUS headers, finds convergences/contradictions individual agents can't see, and outputs structured assessments. This lessens PROME's analytical load so PROME can focus on orchestration and Will's interface.
-
-- **Spawn after check-in rounds** (AM/EOD) or when multiple signals arrive
-- **Reads:** Agent STATUS headers (first 30 lines), SIGNALS.md, PREDICTIONS_MONITOR.md
-- **Outputs:** Convergence reports, contradiction flags, threshold proximity matrix, narrative gap
-- **Files:** `AGENTS/NEXUS/CLAUDE.md`, `AGENTS/NEXUS/STATUS.md`
-
----
-
-## Session Workflow Rules (Added Mar 2)
-
-1. **Mechanical first, creative second** — rolls, trims, expiring positions BEFORE new research
-2. **Deploy agents then wait** — if you spawn agents for a trade decision, wait for outputs before entering
-3. **Will's ideas → capture, don't execute** — log to `WILL/IDEAS.md`, finish current priority first
-4. **Puts on green days, calls on red days** — default, not hard rule
+- **Agent trade proposals** → send to Will with [Approve] [Reject] → never execute without approval
 
 ---
 
@@ -145,9 +46,17 @@ When Will sends market signals:
 
 ---
 
-## Heartbeats
+## File Editing — Mandatory
 
-Follow `HEARTBEAT.md` strictly. Use heartbeats for periodic checks (predictions, agent status, calendar, positions, credit monitoring). Stay quiet late night / weekends unless urgent.
+1. **Read before editing.** NEVER call Edit without reading the file (or relevant section) in the same turn.
+2. **Subagents own their files.** If you spawned an agent to update a file, DON'T edit that same file. Wait for the agent to finish, read what they wrote, THEN make additions if needed.
+3. **Silent overwrites are worse than errors.** Always assume the file may have changed since you last read it.
+
+---
+
+## Sub-Agent Spawn
+
+Before spawning, check agent STATUS <10KB (prune if needed). See `docs/OPERATIONS.md` for full protocol, `AGENTS_DIRECTORY.md` for roster.
 
 ---
 
@@ -161,15 +70,3 @@ Follow `HEARTBEAT.md` strictly. Use heartbeats for periodic checks (predictions,
 | **Simple > Clever** | Obvious solutions beat elegant complexity |
 
 **Anti-pattern:** "I remember from earlier" — No you don't. Read the file.
-
-### Key Reference Files
-| File | When to read |
-|------|-------------|
-| `AGENTS/templates/KB_MIGRATION_PLAYBOOK.md` | Before ANY KB/TSV migration work. Column mappings, audit steps, chunk plans, known pitfalls. |
-| `AGENTS/VOCABULARIES.tsv` | Before writing to any agent's KB.tsv. Controlled vocabulary for Group/Entity/Source fields. |
-| `AGENTS/templates/CLAUDE_TEMPLATE.md` | Before spawning agents or reviewing agent file structure. Gold standard schema + spawn protocol. |
-
-### File Editing — Mandatory Rules
-1. **Read before editing.** NEVER call Edit without reading the file (or relevant section) in the same turn. No exceptions.
-2. **Subagents own their files.** If you spawned an agent to update a file, DON'T edit that same file. Wait for the agent to finish, read what they wrote, THEN make additions if needed.
-3. **Silent overwrites are worse than errors.** An edit failure is safe — it tells you something changed. Writing stale data over fresh subagent work with no error is how you lose work. Always assume the file may have changed since you last read it.

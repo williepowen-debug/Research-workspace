@@ -1,7 +1,7 @@
 # BROCK STATUS — Private Credit / Alt Assets / PE / ILS
 
-**Last context:** Mar 11 EOD. **JPMorgan marked down software loan collateral for private credit back-leverage facilities and restricted new lending** — STAGE 2 BANK TRANSMISSION ACTIVATED. PIMCO published "sloppy underwriting reckoning" note (Bloomberg). Sector-wide selloff: ARES -6.2%, OWL -5.2%, APO -4.1%, KKR -3.5%, BX -3.2%. $12.7B BDC unsecured debt matures 2026 (+73% YoY). Blue Owl July 2026 debt obligations flagged as bellwether.
-**Last updated:** 2026-03-11 inbox processing (BROCK subagent)
+**Last context:** Mar 12 EOD. **APO touches $100.15 intraday — psychological support breached.** Closes $100.30 (-5.47%). Morgan Stanley gates private credit fund (11% redemption request). Reuters headline "Private credit funds slide as investors sell out." BDC index down 13% YoY. ARES BDC now 94¢ on dollar. FS KKR at 51¢. SPX -1.22%. Brent $100.
+**Last updated:** 2026-03-12 EOD (BROCK subagent)
 
 ---
 
@@ -12,9 +12,9 @@
 | Private Credit Default Rate (Fitch) | **5.8%** (shadow ~7%) | 🔴 ↑↑ | [CONF] Fitch PCDR Feb 2026 |
 | UBS worst-case default estimate | **15%** | 🔴 | [CONF] UBS Mar 4 |
 | BCRED Gross Redemptions | **$3.8B** (7.9% of fund) | 🔴 Record | [CONF] Reuters Mar 3 |
-| BDC Median Listed Price | **73% of NAV** | 🔴 | [CONF] Market data Mar 4 |
+| BDC Median Listed Price | **78¢ avg** (down from 85¢ Jan 1, ~$1.00 early 2025); CGBD 68¢, OTF 68¢, BXSL 88¢, FSK 51¢, PSEC 44¢, ARCC 94¢ | 🔴 ↓ | [CONF] Reuters/Raymond James Mar 12 |
 | PIK Loans (Private Credit) | **6.4%** — doubled YoY | 🔴 ↑ | [CONF] Industry data Mar 4 |
-| APO Stock | **~$107** | 🔴 ↓ | [CONF] Market Mar 5 |
+| APO Stock | **$100.30** (-5.47% today; -39% from highs; intraday low $100.15) | 🔴 ↓↓ | [CONF] Market Mar 12 |
 | BlackRock HLEND Gate | $620M paid / $1.2B requested (~52%) | 🔴 GATE | [CONF] Reuters/Bloomberg Mar 6 |
 | Cliffwater Fund | **$33B — 7%+ redemption requests (~$2.3B)** | 🔴 ACTIVE | [CONF] Bloomberg Mar 10 |
 | Bank→NDFI Exposure | **$4.2T total ($1.4T outstanding + $2.8T undrawn)** | 🔴 | [CONF] Whalen/FDIC Mar 10 |
@@ -107,6 +107,12 @@
 | Mar 9 | **Eisman Ep 49: Blue Owl/Kuvari stuffing** ($595M OBDC2 assets into captive insurance at par). Glenn Shore names APO parallel. | 🔴 Captive insurance playbook now confirmed at 2 firms (APO + OWL). |
 | Mar 9 | **Kennedy-Wilson bondholders reject debt exchange** — majority demanding cash, not extend-and-pretend | 🔴 CRE creditor revolt — refusing the template. Signals → REGINALD. [CONF Bloomberg Mar 6] |
 | Mar 12 | APO closing Atletico Madrid stake acquisition | 🟠 Optics: buying soccer clubs while portfolio burns = narrative ammunition |
+| Mar 12 EOD | **APO closes $100.30 (-5.47%)** — intraday low $100.15, 52-week low $99.56. Psychological $100 support tested. SPX -1.22%, Brent $100. APO put Apr +34%, Jun +17%. | 🔴🔴 APO $100 breach imminent |
+| Mar 12 EOD | **Reuters: "Private credit funds slide as investors sell out"** — mainstream Reuters feature, BDC index -13% YoY, average BDC 78¢ on dollar (vs 85¢ Jan, $1.00 early 2025). Raymond James NAV table published (FSK 51¢, OTF 68¢, PSEC 44¢). | 🔴 Full public narrative now complete |
+| Mar 12 EOD | **Morgan Stanley gates private credit fund** — 11% redemption request, restrictions imposed. 4th major fund gating event: BLK HLEND (Mar 6), Cliffwater (Mar 10), MS (Mar 11/12). Cascade accelerating. | 🔴🔴 GATE CASCADE LIVE |
+| Mar 12 EOD | **APO anomaly confirmed: -39% drawdown vs peers OWL -61%, BX -43%, ARES -42%, KKR -44%** — APO least damaged despite greatest systemic tail risk (Athene $442B + Atlas SP default). Market still not pricing Athene scenario. | 🔴 APO mispriced relative to tail risk |
+| Mar 12 EOD | **PIK market signal:** Market analysts explicitly reframing PIK income as "precursor to default, not high-quality earnings." Evercore ISI Schorr: BDC discounts now pricing recession + higher loan losses. Zombie company PIK survival mechanism exposed. | 🔴 PIK → default narrative going mainstream |
+| Mar 12 EOD | **Brent $100** — reversal from $87.80 low (Mar 10). Oil rebound adds complexity: Iran escalation signal overriding Trump "war ending" thesis. Reinsurance/ILS war risk repricing accelerating as oil spikes back. | 🟠 Watch for ILS premium surge |
 | Apr–May 2026 | Q1 2026 earnings — private credit mark-to-market | 🔴 Key resolution event |
 | Apr 6, 2026 | TCPC (BlackRock TCP Capital) class action lead plaintiff deadline | 🟠 Legal catalyst — Nov 2024–Jan 2026 class period, First Brands/NAV impairment |
 | May 1, 2026 | APO class action lead plaintiff deadline | 🟠 Legal catalyst |
@@ -226,4 +232,14 @@
 
 ## BOTTOM LINE
 
-**⚠️ STAGE 2 BANK TRANSMISSION ACTIVATED — Mar 11, 2026. JPMorgan marked down private credit back-leverage collateral (software loans). The $4.2T loaded gun has fired its first shot. CASCADE CONFIRMED. Three events in five days.** HLEND gated Mar 6. Cliffwater 7%+ redemptions Mar 10. Blue Owl restrictions prior. $7.3B+ in visible active redemption stress across major funds. Whalen's FDIC data quantifies the transmission channel: $4.2T bank→NDFI exposure with $2.8T undrawn — a loaded gun. Atlas SP double default confirms warehouse channel is cracking. Blue Owl/Kuvari confirms captive insurance-as-bad-bank is an INDUSTRY PLAYBOOK (APO + OWL = two confirmed firms). MFS forensic mapping (£930M shortfall, single auditor across SPVs, trustee dual-role) documents the structural opacity template enabling this at scale. Kennedy-Wilson bondholder revolt signals CRE extend-and-pretend is cracking independently of private credit. New monitoring: Athene statutory Q1 filing ~April, BDC dividend cuts (post MFIC/FSK — who's next?). APO most anomalous: -39% drawdown despite carrying the most tail risk (Athene $442B) = market still underpricing. Convergence: 50/50.
+**🔴🔴 STAGE 2 CONFIRMED + APO $100 BREACH IMMINENT — Mar 12, 2026.**
+
+**Today's key developments:** APO closes $100.30 (-5.47%), intraday low $100.15 — 52-week low $99.56. Apr put +34%, Jun put +17%. The $100 psychological floor is effectively breached. Morgan Stanley gates private credit fund (11% redemption request) — 4th major fund restriction in one week. Reuters publishes industry-wide NAV table confirming cascade: BDC avg 78¢ (FSK 51¢, PSEC 44¢, OTF 68¢, CGBD 68¢). BDC index -13% YoY per Reuters/Morningstar.
+
+**APO Anomaly:** -39% vs peers (OWL -61%, KKR -44%, BX -43%, ARES -42%). APO least damaged despite carrying the greatest systemic tail risk (Athene $442B, 48% illiquid + Atlas SP double default). Market has not priced the Athene scenario. The spread between APO's drawdown and peers (~20-22pp) IS the unpriced Athene option value — and it's compressing as $100 tests.
+
+**Brent $100:** Oil reversed fully from $87.80 low (Mar 10). Iran escalation is real, contradicting Trump's "war ending" thesis. Reinsurance/ILS war risk repricing is back in motion. Athene ILS exposure and GCC operations now under dual pressure (war risk repricing + political violence on declared financial targets).
+
+**PIK/Default:** Market has now explicitly reframed PIK income as a "default precursor" rather than high-quality earnings (per Evercore ISI, financial press). Zombie borrower exposure fully in the public narrative. UBS 15% worst-case default rate being cited routinely. Stage is set for Q1 earnings confirmation.
+
+**CASCADE STATUS:** HLEND gated Mar 6 → Cliffwater 7%+ Mar 10 → Morgan Stanley 11% gated Mar 11 → Reuters industry-wide NAV expose Mar 12. Four events in 6 days. Window compressing fast. Convergence: 50/50 → approaching 55/50.
