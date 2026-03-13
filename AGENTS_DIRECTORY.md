@@ -11,7 +11,8 @@ Sub-agents own detail → distill upward to parents → lateral only when transm
 |-------|--------|--------|-----|
 | **LABOR** | Employment | 🟡 | Claims, NFP, JOLTS, DOGE cuts. Danger: Q2-Q3 2026 |
 | **CARL** | Consumer credit | 🟡 | DQ, subprime auto, phantom debt. Lags LABOR 3-6mo. Subs: POLLY, POP, GIG, DOC, NICK |
-| **REGINALD** | Regional banks | 🟡 | CRE, bank watchlist, FHLB. Subs: CREED (CRE), BROCK (BDC) 🟠, CORAL (FL condos) 🟠 |
+| **REGINALD** | Regional banks | 🟡 | CRE, bank watchlist, FHLB. Subs: CREED (CRE), CORAL (FL condos) 🟠 |
+| **BROCK** | BDC / private credit | 🟠 | PIK, gates, NAV, Athene/Apollo, software marks. Lateral peer to REGINALD — signals bank-PC transmission |
 
 ## Market Structure
 
