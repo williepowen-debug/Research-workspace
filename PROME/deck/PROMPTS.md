@@ -125,3 +125,131 @@ Also include one **quote-ready slide sentence** per finding — a single line we
 Rank by persuasive power to a smart outsider. Your domain is the hardest to make accessible — bonds, funding markets, repo plumbing. The audience needs to walk away understanding one thing: **the normal rescue mechanisms (rate cuts, cheap money, government borrowing) are all broken at the same time.** Make that visceral.
 
 Write output to `AGENTS/LIQUID/DECK_EVIDENCE.md`.
+
+---
+
+## HENRY (Spawned 2026-03-13)
+
+**Project: Thesis Deck — Evidence Assembly**
+
+We're building a shareable slide deck to explain and defend our portfolio thesis. Audience: finance-literate but not deep in macro (knows what a put is, doesn't track GDP revisions or vol regimes daily).
+
+Your job: read through your **entire domain** — STATUS.md, TRADE.md, CONVERGENCE_REPORT.md, EXIT_RULES_REVIEW.md, domain/BEIGE_BOOK_MAR4_2026.md, domain/ECON_CALENDAR.md, domain/REFERENCE_TABLES.md, domain/sources/ (NFP synthesis, Lighthouse Macro framework), and any other files in your directory — and assemble a ranked list of your **10 most significant findings or pieces of evidence**.
+
+Focus areas that matter most for this deck:
+- **The Hamilton demand destruction framework** — NOPI at 47 log points, GDP drag of -3.0 to -4.9pp, peak impact Q1 2027. This is the intellectual backbone of our timing. Explain it so someone who's never heard of Hamilton or NOPI understands why oil shocks destroy economies on a predictable schedule.
+- **GDP 0.7% + the earnings repricing math** — street expects 12-14% EPS growth built on ~2.5% GDP. Actual GDP is 0.7% pre-shock. Walk through the arithmetic: what happens to S&P earnings when GDP is negative? The 1973-74 template.
+- **NFP -92K** — first negative payroll this cycle. Dec revised to -17K. What this means for the "jobs are fine" narrative.
+- **The VIX regime shift** — why vol is suppressed now but coiled. The FOMC 0-cut dots as the mechanical trigger for VIX 35→55. Make this accessible.
+- **The stagflation confirmation** — GDP 0.7% + Core PCE 3.1% as the definitive data point. Both mandates failing simultaneously.
+- **The Beige Book** — what the Fed's own regional contacts are saying about real economic conditions.
+- **Consumer spending revised down** — 2.4% → 2.0%. The last pillar cracking.
+
+For each item, provide:
+1. **The finding** (one sentence, plain English)
+2. **Why it matters** (2-3 sentences — always connect back to "this is why the market is mispriced / this is what happens next")
+3. **The source** (specific data release, academic paper, filing)
+4. **Strength rating** (🔴 smoking gun / 🟠 strong signal / 🟡 supporting evidence)
+
+Also include one **quote-ready slide sentence** per finding — a single line we could put directly on a slide without editing.
+
+Include a **glossary** section (2-3 sentences each) defining: NOPI, stagflation, bear market, VIX, EPS. The audience is smart but may not know these terms cold.
+
+Rank by persuasive power to a smart outsider. Your domain is the macro picture — the "so what does all this add up to?" Your evidence should make someone understand that the economy is already weaker than the market is pricing, and an oil shock is about to make it dramatically worse on a knowable timeline.
+
+Write output to `AGENTS/HENRY/DECK_EVIDENCE.md`.
+
+---
+
+## SAM (Spawned 2026-03-13)
+
+**Project: Thesis Deck — Evidence Assembly**
+
+We're building a shareable slide deck to explain and defend our portfolio thesis. Audience: finance-literate but not deep in macro (knows what a put is, has probably heard "carry trade" but couldn't explain it).
+
+Your job: read through your **entire domain** — STATUS.md, TRADE.md, INBOX.md, RESEARCH_STATUS.md, CHECKIN_MAR6.md, domain/sources/RP-SAM-4_JAPAN_LIFE_INSURER_STRESS.md, and any other files in your directory — and assemble a ranked list of your **10 most significant findings or pieces of evidence**.
+
+Focus areas that matter most for this deck:
+- **The carry trade unwind in plain English** — Japan kept rates at zero for decades, so global investors borrowed yen cheap and invested elsewhere. Now Japan is raising rates. Explain why unwinding this is like pulling a thread that unravels global markets. Make it visceral, not academic.
+- **USD/JPY at 159.50 — intervention zone** — MoF rate checks triggered at this exact level in January. What intervention means and why it would accelerate the unwind.
+- **The repatriation data** — ¥3.07T net selling in February ($19.4B), banks selling ¥3.14T (5x more than life insurers). FY-end March 31 = T-18 days. The acceleration question.
+- **BOJ hawkish pivot** — Reuters 4-source report that Iran war may SPEED UP hikes, not delay them. The regime shift from "cushioning growth" to "fighting inflation." Hawkish hold probability doubled to 30%.
+- **Life insurer stress** — J-ICS regulatory change forcing repatriation. The structural (not cyclical) reason Japan keeps selling foreign bonds.
+- **The TIC data watch** — March 15 Japan UST holdings. Why this is the hard confirmation of the demand hole.
+- **How Japan connects to everything else** — Japan is the largest foreign holder of US Treasuries. When they sell, US rates rise. When US rates rise, bank balance sheets deteriorate, mortgages stay expensive, and the Fed trap tightens. Make this connection explicit.
+
+For each item, provide:
+1. **The finding** (one sentence, plain English — Japan macro is intimidating to most people, so really simplify)
+2. **Why it matters** (2-3 sentences — always connect back to "and this is why it affects YOUR interest rates / YOUR stock portfolio")
+3. **The source** (MoF data, Reuters, BOJ statements, TIC)
+4. **Strength rating** (🔴 smoking gun / 🟠 strong signal / 🟡 supporting evidence)
+
+Also include one **quote-ready slide sentence** per finding — a single line we could put directly on a slide without editing.
+
+Include a **glossary** section (2-3 sentences each) defining: carry trade, intervention, repatriation, BOJ, fiscal year-end. The audience is smart but Japan macro is a foreign language to most Americans.
+
+Rank by persuasive power to a smart outsider. Japan is the "nobody's watching but it matters enormously" story. Your evidence should make someone understand that the world's largest creditor nation is pulling its money home — and that's a problem for everyone who has a mortgage, a 401k, or a savings account.
+
+Write output to `AGENTS/SAM/DECK_EVIDENCE.md`.
+
+---
+
+## MARCO (Spawned 2026-03-13) — V3 (less directive)
+
+**Project: Thesis Deck — Evidence Assembly**
+
+We're building a shareable slide deck to explain and defend our portfolio thesis. Audience: finance-literate but not deep in macro (knows what a put is, follows news but doesn't track immigration policy or labor supply data).
+
+Your job: read through your **entire domain** — STATUS.md, TRADE.md, EXPECTED_SIGNALS.md, RESEARCH_STATUS.md, CHECKIN_MAR6.md, MARCO_SKELETON.md, RP-MARCO-MBS_BASELINE.md, domain/sources/, and any other files in your directory — and assemble a ranked list of your **10 most significant findings or pieces of evidence**.
+
+You decide what's most important. Read everything, then rank by what would be most persuasive to a smart outsider. Your domain is the most *human* part of the thesis — real people, real jobs, real grocery bills. The audience should walk away thinking "this isn't abstract — this is happening to people right now."
+
+For each item, provide:
+1. **The finding** (one sentence, plain English — these are kitchen-table issues, make them land that way)
+2. **Why it matters** (2-3 sentences — connect to the broader thesis: consumer stress, inflation, economic slowdown)
+3. **The source** (specific data, government reports, news outlets)
+4. **Strength rating** (🔴 smoking gun / 🟠 strong signal / 🟡 supporting evidence)
+
+Also include one **quote-ready slide sentence** per finding — a single line we could put directly on a slide without editing.
+
+Write output to `AGENTS/MARCO/DECK_EVIDENCE.md`.
+
+---
+
+## BRENT (Spawned 2026-03-13) — V3 (less directive)
+
+**Project: Thesis Deck — Evidence Assembly**
+
+We're building a shareable slide deck to explain and defend our portfolio thesis. Audience: finance-literate but not deep in macro (knows oil prices matter, doesn't follow tanker rates or OPEC+ dynamics).
+
+Your job: read through your **entire domain** — STATUS.md, TRADE.md, MEMORY.md, domain/ECON_CALENDAR.md, domain/REFERENCE_TABLES.md, and any other files in your directory — and assemble a ranked list of your **10 most significant findings or pieces of evidence**.
+
+You decide what's most important. Read everything, then rank by what would be most persuasive to a smart outsider. Energy is the most intuitive part of the thesis — everyone pays for gas. Your job is to make them understand the scale and duration of what's happening, and why the cascading consequences reach far beyond the gas pump.
+
+For each item, provide:
+1. **The finding** (one sentence, plain English — everyone understands gas prices, build from there)
+2. **Why it matters** (2-3 sentences — always connect to the portfolio: why this means rates stay high, banks stay stressed, consumer breaks)
+3. **The source** (EIA, AAA, Reuters, specific military confirmations)
+4. **Strength rating** (🔴 smoking gun / 🟠 strong signal / 🟡 supporting evidence)
+
+Also include one **quote-ready slide sentence** per finding — a single line we could put directly on a slide without editing.
+
+Also include a brief **"Why can't they just fix it?"** section — address the obvious objections a skeptic would raise. Keep answers to 1-2 sentences each.
+
+Write output to `AGENTS/BRENT/DECK_EVIDENCE.md`.
+
+---
+
+## HAWK (Spawned 2026-03-13) — V3
+
+**Project: Thesis Deck — Evidence Assembly**
+
+[Geopolitics/military → economic consequences. 10 findings ranked. Connect military/diplomatic actions to economic outcomes people can feel. Sources: DoD, Lloyd's, shipping data. Write to AGENTS/HAWK/DECK_EVIDENCE.md]
+
+---
+
+## ZHAO (Spawned 2026-03-13) — V3
+
+**Project: Thesis Deck — Evidence Assembly**
+
+[Capital flows / UST demand hole. 10 findings ranked. Make invisible flows concrete: who's selling, how much, why rates stay high. Includes "The Demand Hole" summary section. Sources: TIC, MOF Japan, PBOC. Write to AGENTS/ZHAO/DECK_EVIDENCE.md]
