@@ -38,7 +38,7 @@ All mail lives in `mail/`:
 
 ### Inbox Processing Protocol (when spawned for it)
 1. **Read each signal** in `mail/inbox/` — who sent it, what's the data, what priority (🔴/🟠)?
-2. **Cross-reference workbook** — check VX.tsv, ML.tsv, FLOW.tsv, PREDICTIONS.tsv for related vectors. Does this connect to something you already track?
+2. **Cross-reference workbook** — check VX.tsv, FLOW.tsv, PREDICTIONS.tsv for related vectors. Does this connect to something you already track?
 3. **Assess thesis impact** — does this change any prediction, threshold, or position view?
 4. **Update STATUS.md** if warranted (new data, changed levels, adjusted confidence)
 5. **Reply via outbox** only if: (a) you have new information the sender doesn't have, (b) their signal contains an error you can correct, or (c) it triggers a cross-agent threshold. Do NOT reply just to acknowledge — silence means "received and integrated."
@@ -187,7 +187,7 @@ Every STATUS.md update must end with a `## BOTTOM LINE` section: 2-4 sentences. 
 | `EXPECTED_SIGNALS.md` | Signal interpretation guide — methodology and thresholds ONLY, no live data |
 | `workbook/VX.tsv` | Tracked vectors with thresholds and state (13 cols, HENRY standard) |
 | `workbook/KB.tsv` | Knowledge base — 13-col schema (see `workbook/SCHEMA.tsv` for definitions) |
-| `workbook/ML.tsv` | Memory log — timestamped events with sources |
+| `workbook/ML.tsv` | **DEPRECATED.** Historical event log (ML001-ML011). KB.tsv now serves this purpose. |
 | `workbook/FLOW.tsv` | Transmission pathways — how private credit stress reaches banks/markets (11 cols, HENRY standard) |
 | `workbook/PREDICTIONS.tsv` | Falsifiable forecasts with confidence, invalidation criteria, and resolution |
 | `workbook/SCHEMA.tsv` | Column definitions for KB.tsv (13-col canonical schema) |
