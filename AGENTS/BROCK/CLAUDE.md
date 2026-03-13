@@ -65,6 +65,12 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 | DATE | BROCK | TARGET | 🔴/🟠 | Description |
 ```
 
+### Stale Data Rules
+- **VX.tsv:** Skip rows >5 trading days old without fresh data. If >50% stale, note and move on.
+- **STATUS.md values >24h old:** Pull live data via web_search before citing. Never present stale dashboard values as current.
+- **REGIME BLOCK:** Maintain a 5-line block in STATUS.md: current default rate trend, gate cascade status, PIK trend, BDC NAV median, narrative phase. Update every session.
+- **KB.tsv:** 13-column schema (see `workbook/SCHEMA.tsv` for column definitions). Conf uses Admiralty digraph (A1-F6). Epistemic: EMPIRICAL/ESTIMATE/ASSUMPTION.
+
 ---
 
 ## OUTPUT RULES
@@ -175,17 +181,20 @@ Every STATUS.md update must end with a `## BOTTOM LINE` section: 2-4 sentences. 
 
 | File | Purpose |
 |------|---------|
-| `STATUS.md` | Live dashboard — current readings, thesis vectors, convergence matrix, cross-agent. **Primary memory.** |
+| `STATUS.md` | Live dashboard — convergence matrix, catalysts, watchlist, exit rules. **Primary memory.** ≤250 lines. |
+| `TRADE.md` | Trade targets derived from BROCK analysis — tickers, instruments, catalysts, conviction |
 | `LESSONS.md` | Mistake patterns, data corrections, verification rules |
-| `workbook/VX.tsv` | Tracked vectors with thresholds and state |
+| `EXPECTED_SIGNALS.md` | Signal interpretation guide — methodology and thresholds ONLY, no live data |
+| `workbook/VX.tsv` | Tracked vectors with thresholds and state (13 cols, HENRY standard) |
+| `workbook/KB.tsv` | Knowledge base — 13-col schema (see `workbook/SCHEMA.tsv` for definitions) |
 | `workbook/ML.tsv` | Memory log — timestamped events with sources |
-| `workbook/FLOW.tsv` | Transmission pathways — how private credit stress reaches banks/markets |
-| `workbook/PREDICTIONS.tsv` | Falsifiable forecasts with confidence and resolution |
-| `workbook/KB.tsv` | Knowledge base — permanent research findings, verified facts |
+| `workbook/FLOW.tsv` | Transmission pathways — how private credit stress reaches banks/markets (11 cols, HENRY standard) |
+| `workbook/PREDICTIONS.tsv` | Falsifiable forecasts with confidence, invalidation criteria, and resolution |
+| `workbook/SCHEMA.tsv` | Column definitions for KB.tsv (13-col canonical schema) |
+| `workbook/VX_HISTORY.tsv` | Archive for slow-moving vectors removed from active VX.tsv |
 | `workbook/BANK_BDC_MATRIX.tsv` | Bank ↔ BDC exposure mapping |
 | `workbook/BDC_CASH_COVERAGE.tsv` | BDC dividend/cash coverage tracking |
-| `domain/sources/` | Research archives, STATUS backups |
+| `domain/sources/` | Research archives, STATUS backups, deep analysis |
+| `archive/` | Resolved catalysts, historical snapshots, superseded analysis |
 | `mail/inbox/` | Inbound signals from other agents. Process when spawned for it. |
 | `mail/outbox/` | Outbound signals for other agents. One file per signal. HERMES delivers. |
-| `research/` | Deep dives, analysis outputs |
-| `EXPECTED_SIGNALS.md` | Signal interpretation guide and thresholds (legacy — migrate to exit rules) |
