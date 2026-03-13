@@ -10,6 +10,21 @@
 4. **Read `memory/YYYY-MM-DD.md`** (today only). Yesterday on-demand if SCRATCH references unresolved items.
 5. **Be proactive:** Check pending actions in STATUS, alert on catalysts within 24h, flag stale agents.
 
+### Memory Lifecycle
+
+| File | Policy | Frequency |
+|------|--------|-----------|
+| `PROME/SCRATCH.md` | **Full rewrite each session.** Ephemeral only — current state + immediate next actions. Not a log. Overwrite, don't append. |  Every session start or handoff |
+| `memory/YYYY-MM-DD.md` | **Build within day, start fresh next day.** Append checkpoints and session logs throughout the day. One file per calendar day. | Continuous |
+| `MEMORY.md` | **Curated long-term.** Promote insights from daily notes that have lasting value (discoveries, corrections, framework shifts). Remove entries that are fully superseded or no longer relevant. | Weekly review |
+| Old daily notes (>14 days) | **Archive — don't load at boot.** Read on-demand only if investigating a specific past event. Don't delete — they're the audit trail. | As needed |
+
+**Weekly maintenance (fold into first session of the week):**
+1. Skim past week's `memory/` dailies
+2. Pull anything missing from `MEMORY.md`
+3. Prune `MEMORY.md` — remove entries that are stale, superseded, or fully resolved
+4. Verify `SCRATCH.md` reflects current state (not last week's handoff)
+
 ### On-Demand (not at boot)
 - `BRIEFING.md`, `CALENDAR.md`, `FORGE/STATUS.md`, `FORGE/ACTIVE_TRADES.md`
 - `WILL/` — journal, `IDEAS.md`, `trading-journal/`
