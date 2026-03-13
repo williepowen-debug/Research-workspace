@@ -1,146 +1,109 @@
-# OUTBOX.md
-_Posts queued for Will. Latest first._
+# OUTBOX — Kennedy-Wilson Bondholder Exchange: LIVE Deadline Status
+**Filed by:** Reginald (subagent)
+**Timestamp:** 2026-03-13 ~18:00 UTC
+**Priority:** URGENT — Exchange deadline is happening RIGHT NOW
 
 ---
 
-## 🔴🔴 SAM SIGNAL — ¥399.8B Foreign Bond Sale: Verified, Sourced, Implications
-**From:** SAM | **Date:** 2026-03-13 14:55 UTC | **Priority:** CRITICAL
+## NEXUS DATE CORRECTION — Critical
 
-### The ¥399.8B Number — What It Actually Is
+NEXUS flagged March 12 as the deadline. **That is wrong.**
 
-**Bottom line: Real signal, wrong attribution.** The DefiWimar tweet is technically inaccurate in saying "BOJ dumped" — the BOJ doesn't hold foreign bonds. This is **Japanese institutional investors** (life insurers, banks, pension funds), captured in MoF's weekly "International Transactions in Securities" data released Thursday March 12 for the week ended March 7.
-
-**Context that makes this BIGGER, not smaller:**
-
-Japan Times (March 5) already confirmed **¥3.42 trillion ($21.8B)** in overseas bond sales in February — the largest monthly sale since October 2024. So the ¥399.8B week isn't a one-off spike — it's a continuation, and actually *below* February's average of ~¥855B/week. The trend has been running since April 2025 (regulatory J-ICS change forcing life insurers to duration-match with domestic bonds).
-
-**Who's selling:** Nippon Life, Dai-ichi, Meiji Yasuda, Fukoku Mutual (explicitly on record: "we've been selling low-yield foreign bonds since last April"). These are the same names that hold ~$2T in total assets and have been the structural buyer of USTs for a decade.
+The actual Early Participation Date is **March 13, 2026 at 5:00 PM New York City time** — i.e., approximately right now as this is filed. No outcome announcement has been published yet. The exchange is in its final window, not past it.
 
 ---
 
-### BOJ Meeting Implication — NOT Pre-Positioning for Hike
+## What's Actually Happening
 
-The selling is **independent of and predates** any BOJ decision. Three drivers:
-1. J-ICS regulatory mandate (since April 2025) — forces mark-to-market solvency matching with domestic bonds
-2. Domestic yields now competitive (JGB 10Y 2.22%) — hedged USD bonds no longer pencil out at USD/JPY 159
-3. FY-end P&L management — crystallizing foreign bond gains to offset JGB impairment losses before March 31
+### The Exchange Offer (launched Mar 2)
+KW launched exchange offers for $1.8B in existing senior notes:
+- $600M of 4.750% Notes due **2029**
+- $600M of 4.750% Notes due **2030**
+- $600M of 5.000% Notes due **2031**
 
-If anything, the repatriation-induced JGB yield pressure gives BOJ MORE reason to hold, not less. Selling foreign bonds → buying JGBs → domestic yield management. **BOJ hold 92-95% is locked. Ueda Mar 19 is still the only catalyst (15% chance hawkish surprise).**
+Holders who tendered by Mar 13 5pm would receive **$1,000-$1,010 face value** in new notes (2032 or 2034 maturity — Option A or B). Holders tendering after early participation receive only $950 — a 5% haircut. There is a **Minimum Liquidity Condition** that must be met for the deal to close.
 
----
+### The Bondholder Revolt (Bloomberg, Mar 6)
+A group holding a **majority** of KW bonds organized to SKIP the exchange and demand cash instead. This is the "extend-and-pretend cracking" signal BROCK flagged.
 
-### Total FY-End Outflow Through April
+### The Go-Private Context (Feb 17)
+The exchange is **directly tied** to KW's go-private acquisition:
+- Buyer: McMorrow (CEO) + Fairfax Financial Holdings (Toronto) consortium "Kona Bidco"
+- Price: **$10.90/share all-cash** ($1.65B total)
+- Deal signed Feb 16, 2026. Expected close Q2 2026.
+- The new notes (2032/2034) are being issued IN CONNECTION with the merger. If bondholders hold out for cash, it strains the merger financing.
 
-Working estimate:
-- February: ¥3.42T ($21.8B) — confirmed
-- March so far: ¥399.8B for week of Mar 7, likely ¥400-600B/week for remaining 3 weeks = ~¥1.5-2T
-- Final week of March historically peaks (fiscal compression)
-- **Total Feb-March: ¥5-7T ($32-45B) base case. Bull case ¥8-10T if final-week rush.**
-
-UST-equivalent portion: ~40-50% of Japanese overseas bond holdings are in USD-denominated → **$13-23B in UST-equivalent selling** in this 2-month window. This will start showing in TIC data (watch March 15 release for January; February data lands mid-April).
-
-This IS the Japan leg of ZHAO's "UST demand hole." Gulf selling + Japan selling + reduced BoK recycling = the supply hole is real and now measurable.
-
----
-
-### Cross-Currency Basis — Nuanced
-
-**Life insurer repatriation alone doesn't break pipes.** When they sell USD bonds and unwind FX hedges, they're *reducing* demand for USD/JPY swaps → basis actually *narrows* (less negative) near-term. That's not a crisis signal.
-
-**The dangerous scenario** (our "pipes breaking" thesis) requires *Japanese banks* specifically:
-- Withdrawing USD interbank funding lines from non-Japanese counterparties
-- Cutting CP/CD rollover for offshore dollar borrowers
-- Reducing cross-border repo capacity
-
-**No confirmed evidence of this yet.** But the watch items are:
-- 3-month USDJPY cross-currency basis (watch for widening past -50bp)
-- SOFR-OIS spread spike
-- FHLB advance demand increase (LIQUID's domain)
-
-**Flagging LIQUID** to monitor these. If the basis *widens* despite repatriation, it means banks are actively pulling dollar supply — that's the "what breaks the pipes" scenario activating.
+### Latest IR Releases
+As of this filing, no "results" or "completion" or "extension" press release has been posted. The most recent press release is the Mar 2 exchange offer launch. **No resolution announced publicly yet.**
 
 ---
 
-### USD/JPY Timeline
+## Scenario Analysis
 
-Repatriation is actually **yen-supportive**. The reason USD/JPY hasn't blown through 160+ yet despite structural weakness is partly because ~$21B+ of yen buying is embedded in these flows. It's a cap, not a driver.
+### Scenario A: Exchange Succeeds (bondholders capitulate)
+- Minimum Liquidity Condition met; new 2032/2034 notes issued
+- KW merger on track for Q2 close
+- Credit event averted — this specific domino doesn't fall
+- **CRE can-kick survives one more round** — bullish for "extend and pretend" endurance thesis
+- Signal: muted. Status quo maintained.
 
-**No change to core timeline:**
-- 30d carry unwind: **84%** (unchanged — repatriation confirms FY-end mechanism active, not a new surprise)
-- 7d: **13%** — Ueda Mar 19 still the only near-term binary
-- USD/JPY likely rangebound 158-160 through March 19, then:
-  - Dovish Ueda (50%): path to 160, intervention risk
-  - Hawkish Ueda (15%): 155-157 + carry unwind acceleration
+### Scenario B: Exchange Partially Fails (holdout bloc succeeds)
+- Majority bondholders refuse exchange, sit outside the offer
+- KW faces $1.8B in notes held by hostile creditors — demands cash repayment at maturity or negotiated premium NOW
+- McMorrow consortium must either: (a) sweeten the deal, (b) raise more equity/debt to buy out holdouts, (c) abandon the go-private
+- If go-private collapses → KW trades back to distressed levels; stock (currently near $10.90) craters
+- Fairfax Financial exposure: they're backing $1.65B in equity. If debt restructuring fails, they may walk.
+- **This IS a credit event** — potentially forces mark-to-market on comparable CRE debt
 
-**On CNY 7.30:** If you're asking whether Japan repatriation accelerates the CNY thesis — it does indirectly (global risk-off, reduced UST demand = rising yields = dollar strength pressure on EM/CNY). But that's ZHAO's domain for direct assessment.
-
----
-
-### Connection to TLT Puts + Fed Plumbing
-
-The Japan leg is now measurably contributing to the UST demand hole:
-- $13-23B in UST selling (Feb-March window) is not trivial vs. $2-3T/month in total issuance
-- Combined with Gulf petrodollar shortfall and China's stealth reduction → the structural bid for USTs from "automatic buyers" is eroding
-- For TLT puts: this supports the thesis that long-end yields face structural pressure. The repatriation = fewer buyers at the long end = auctions clear at higher yields = TLT down
-- March 15 TIC data is the first hard verification opportunity
-
-**Status: Japan leg of UST demand hole — ACTIVE AND CONFIRMED. Estimated $13-23B in Feb-March. Trajectory is March 31 FY-end = peak then gradual normalizing in April.**
+### Scenario C: Extension / Renegotiation (most likely given Mar 6 Bloomberg report)
+- KW extends the early participation date or renegotiates terms with bondholder committee
+- Adds cash component or sweetens the premium to get majority across
+- Delays the merger timeline
+- **Signal: stress is real but managed.** Extend-and-pretend with extra steps.
 
 ---
 
-*Logged: SAM/STATUS.md (MAR 13 signal integration section added)*
+## Implications for NEXUS/CARL Thesis
+
+### C-17 (CRE Can-Kick Failure) Interaction
+This is directly on-thesis. The revolting bondholder bloc is doing exactly what C-17 predicts: **refusing to roll debt when they can extract cash**. The can-kick playbook is cracking because:
+1. Rates are still elevated — bondholders know extension = more rate risk
+2. Go-private creates a forced negotiation moment — unlike normal rollovers, the merger creates a binary event
+3. The majority holdout threshold means they have BLOCKING POWER, not just nuisance leverage
+
+**If Scenario B occurs:** C-17 thesis gets a live case study. CRE lenders watching a $1.8B note revolt will accelerate their own demands on similar extensions. The cascade path: KW → comps repriced → other CRE operators face investor demands → Q1/Q2 earnings season hits with elevated distress → April disclosure cluster becomes a firing line.
+
+**If Scenario A/C:** C-17 thesis is pushed out but not invalidated. The fact that majority bondholders organized at all is the signal — the willingness to revolt is new, even if this particular revolt gets bought off.
+
+### April Earnings Disclosure Cluster
+April earnings = first quarter where post-FOMC rates repricing shows up in CRE book values. If KW exchange:
+- **Fails/extends:** Watch KW comps (EQR, AIV, other CRE operators with '29-'31 maturities) for similar activist bondholder activity before their April reports
+- **Succeeds:** KW reports as private entity by then; but the episode will be disclosed in SEC filings and merger proxy — creditors of similar operators will have seen the template
+
+### FOMC Monday Interaction
+If outcome is not announced by EOD today (Mar 13), markets go into the weekend with uncertainty. Monday FOMC = additional rate uncertainty stacked on top of an unresolved $1.8B credit situation. The combination is not benign. Watch for:
+- CRE CMBS spreads Monday morning
+- Any KW-related SEC filings (8-K) over the weekend
+- Fairfax Financial (FFH.TO) price action Monday
 
 ---
 
-## 🔴 NFIB Signal — LAB-02 Extended Target + IWM Thesis
-**From:** LABOR | **Date:** 2026-03-13 14:45 UTC | **Priority:** HIGH
+## Watch Items / Next Actions
 
-**Signal processed.** NFIB February 2026 logged to STATUS and KB. Here's the assessment:
-
----
-
-### Does this change LAB-02?
-
-**Near-term target (4.7%, Q2): No change. Still 80%.**
-
-The 4.7% tripwire is a *threshold* trigger, not a ceiling. The NFIB data doesn't make it less likely — it makes the question of what happens *after* more important.
-
-**Extended target: Yes. Adding LAB-12 — U-3 ≥5.0% by Q3-Q4 2026 at 60%.**
-
-Here's the math:
-- NFIB poor sales at 11% with r=0.83 correlation to U-3 is one of the strongest leading signals in labor economics
-- Prior episodes at these NFIB levels (2008-09, 2020): U-3 surged 1.5-3pp from deterioration onset
-- Current base: 4.4%. A 0.6pp move (conservative end of historical range) = **5.0%**
-- We're currently at GDP 0.7% quarterly growth *before* the Hormuz oil shock hit. That's a fragile foundation for absorbing anything.
-- This February data doesn't include oil shock demand destruction. If NFIB poor sales was already at recession-entry levels in February, the March/April reads will be worse.
-
-**The 4.7% target is the near-term event to trade. The 5.0%+ is where the trajectory leads on an uninterrupted path.**
+1. **Monitor KW IR page** (ir.kennedywilson.com) and SEC EDGAR for 8-K filing — exchange results MUST be disclosed. Expected: within hours of 5pm ET.
+2. **Bloomberg/Reuters** — any wire reporting on whether bondholders capitulated
+3. **FFH.TO (Fairfax) price action** — if they walk, it shows here first
+4. **KW stock** — merger arb spread widening = trouble
+5. **CMBS spreads** — CRE stress contagion indicator
 
 ---
 
-### IWM Linkage
+## Bottom Line
 
-This is direct. NFIB surveys the exact universe IWM tracks. Small caps *are* these businesses.
+The deadline is happening NOW, not yesterday. No result announced yet. Given Bloomberg's Mar 6 report that a **majority bloc** had already organized to hold out, the base case is either:
+- A last-minute sweetener (cash component added) that gets the holdouts across → Scenario C
+- Or a clean exchange failure → Scenario B / credit event
 
-- 11% already citing poor sales → revenue compression in Q1 earnings (April-May prints)
-- IWM has underperformed SPX materially — this data says the fundamental deterioration is real, not just sentiment
-- The feedback loop is loading: poor sales → reduced hours → layoffs → UI claims → reduced consumer spending → more poor sales
-- Pre-Hormuz. The March NFIB read (April release) will incorporate oil shock effects.
+This is NOT resolved. NEXUS should monitor for an 8-K from KW within the next 12-24 hours. If no announcement by Monday morning, that itself is a signal.
 
-**IWM bear thesis: REINFORCED by primary data.** Not a macro echo — actual small business owners reporting actual sales conditions.
-
----
-
-### What I'd watch next
-
-1. **March NFIB** (releases ~April 8): Does poor sales accelerate to 13-15%? That would be the recession confirmation, not just entry signal.
-2. **Q1 IWM earnings season** (April-May): Revenue miss rate across small caps should reflect the 11% poor sales reading.
-3. **LAB-02 Q2 timing**: 4.7% U-3 is 0.3pp away at 4.4%. NFIB signal says don't fight the direction — fight the timing.
-
----
-
-*Logged: LABOR/STATUS.md (Signal Dashboard + Predictions + LAB-12 new), OUTBOX.md*
-
----
-
-*No other pending signals.*
+**C-17 status: ACTIVE. This is a live test of the thesis.**

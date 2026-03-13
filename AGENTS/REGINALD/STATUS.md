@@ -1,5 +1,62 @@
 # REGINALD STATUS
-**Last Updated:** 2026-03-13 05:20 UTC | **Status:** 🔴🔴🔴 CRITICAL — KW BONDHOLDER DEADLINE TODAY (Mar 13 5pm). Insider behavior scan complete: OZK 🔴 + WAL 🔴 signals integrated. See INSIDER BEHAVIOR SCAN section below.
+**Last Updated:** 2026-03-13 17:30 UTC | **Status:** 🔴🔴🔴 CRITICAL — KW BONDHOLDER DEADLINE PASSED (5pm yesterday Mar 12). No resolution announcement yet = UNCERTAINTY MAXIMUM. FOMC Monday. GDP revised DOWN to 0.7%. Core PCE 3.1%. UMich sentiment 55.5 (↓ from 56.6). Stagflation confirmation deepening.
+
+---
+
+## 🚨 MAR 13 AM UPDATE — DATA DUMP FRIDAY / KW SILENCE / FOMC MONDAY
+
+**Filed:** 2026-03-13 17:30 UTC
+
+### Today's Data Releases (All Printed This Morning)
+
+| Indicator | Value | Prior/Estimate | Signal |
+|-----------|-------|---------------|--------|
+| **PCE (Jan)** | +0.3% MoM, +2.8% YoY headline | In-line (0.3% est) | 🟡 Pre-war data; benign but irrelevant forward |
+| **Core PCE (Jan)** | +0.4% MoM, **+3.1% YoY** | In-line (3.1% est) | 🔴 STUCK above 3% — Fed cannot cut |
+| **GDP Q4 (2nd est)** | **+0.7%** | Prior 1.4% est, 1st est higher | 🔴🔴 HALVED — stagflation confirmed: 0.7% growth + 3.1% core inflation |
+| **UMich Sentiment (Mar prelim)** | **55.5** | 56.6 prior, 55.0 est | 🔴 Falling — war/gas weighing on consumers |
+| **UMich 1yr Inflation Exp** | **3.4%** | Ended 6mo of declines | 🔴 Inflation expectations re-anchoring HIGHER |
+| **10Y Yield** | **4.24%** (-3bps) | 4.27% prior | 🟡 Slight relief on GDP miss |
+
+### Key Overnight/Morning Developments
+
+**1. KW Exchange Offer — SILENCE POST-DEADLINE 🔴🔴**
+- Deadline was 5pm NYC yesterday (Mar 12). NO announcement of result yet as of this morning.
+- Silence is NOT bullish. Possible scenarios: (a) exchange failed, KW negotiating privately with Milbank group; (b) extension announced quietly; (c) result to be released today/Monday
+- **This remains the #1 tripwire.** If exchange failed, KW must fund cash at D/E 5.75 = CREDIT EVENT. Watch for 8-K today or Monday pre-FOMC.
+
+**2. Deutsche Bank Flags $30B Private Credit Exposure (Mar 12 — Bloomberg/Reuters) 🔴 NEW**
+- DB disclosed €26B ($30B) exposure to private credit in annual report
+- Reuters: DB acknowledges "potential indirect credit risks through interconnected portfolios and counterparties"
+- **This is the NDFI channel materializing in G-SIB disclosures.** DB's $143B BDC dump risk (already in STATUS) now has a confirmed $30B direct private credit number attached.
+- Cross-reference: Our $4.2T industry-wide NDFI exposure estimate (Whalen) — DB just publicly quantified their slice.
+
+**3. GDP Revised to 0.7% — STAGFLATION TRAP SLAMS SHUT 🔴🔴**
+- Q4 GDP 2nd estimate: +0.7% vs 1.4% expected. Economy was ALREADY decelerating before Iran war.
+- Combined with core PCE at 3.1% = textbook stagflation: sub-1% growth + above-3% inflation
+- Fed FOMC Monday will hold. No cut possible. No hike warranted. Paralysis confirmed.
+- For banks: NIM relief window = CLOSED INDEFINITELY. HTM unrealized losses continue mounting.
+
+**4. Consumer Sentiment Falling — War Weight Confirmed**
+- UMich 55.5, down from 56.6. War + gas prices dragging confidence.
+- 1-year inflation expectations at 3.4% = consumers re-anchoring inflation higher after 6 months of decline
+- For banks: consumer credit stress (cards, auto) will worsen as sentiment deteriorates → DQ pressure on consumer loan books
+
+**5. Markets Rallying on "In-Line" PCE — FADE**
+- S&P +0.8%, Dow +0.6%, Nasdaq +0.9% early on PCE in-line
+- 10Y -3bps to 4.24%
+- **Assessment:** Market is celebrating the absence of bad news on a BACKWARD-LOOKING January print. Feb/Mar data (capturing war, oil $100, gas spike) will be ugly. This rally is a gift for positioning, not a trend change.
+
+**6. Seeking Alpha FOMC Preview — Hold Expected, Bank Stocks Flagged**
+- "Fed expected to hold rates in March 2026 as CPI hits 2.4% and credit risks, oil, or tariffs impact bank stocks"
+- Consensus: hold. No dissents expected. Statement language = key watch for any acknowledgment of stagflation risk.
+
+### Watch List — Today Specifically
+1. **KW** — 8-K or press release on exchange offer result. THIS IS THE DAY.
+2. **FOMC prep** — Any Fed speaker comments today (blackout may already be in effect for Monday meeting)
+3. **KRE reaction** — does the sector rally hold or fade into close? Friday close sets up Monday FOMC positioning.
+4. **Oil** — Brent still ~$100; any Hormuz developments over the weekend could gap Monday
+5. **JOLTs** — also releasing today per Investing.com; watch for any deterioration in job openings confirming NFP -92K
 
 ---
 

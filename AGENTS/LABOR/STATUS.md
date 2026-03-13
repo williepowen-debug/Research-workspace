@@ -1,5 +1,14 @@
 # LABOR STATUS
-**Last Updated:** 2026-03-13 14:45 UTC | **Status:** 🔴🔴 CRITICAL — CLAIMS FIRST CLEAN READ BENIGN (213K/1.850M). WARN PIPELINE ACCELERATING (766 NOTICES/91K WORKERS). JOLTS JAN 2026 TOMORROW 10AM ET. DOGE NET -277K CONFIRMED (OPM JAN DATA).
+**Last Updated:** 2026-03-13 17:30 UTC | **Status:** 🔴🔴 CRITICAL — JOLTS JAN BEAT HEADLINE (6.95M vs 6.70M exp) BUT HIRES FLAT 3.3% (CYCLE LOW), 2025 ANNUAL REVISIONS ALL DOWN. CLAIMS BENIGN (213K/1.850M). WARN 766/91K. DOGE -277K NET. FED GOVT SHRUNK 12%.
+
+**Signal Mar 13 — JOLTS January 2026 (released 10AM ET / 14:00 UTC):**
+JOLTS Jan 2026: **6.946M openings** (vs 6.70M exp, up from revised 6.55M Dec). BEAT headline. BUT:
+- **Hires: 5.294M, rate 3.3% — UNCHANGED.** This is the cycle low range. Openings up but nobody getting hired = "Hotel California" deepens.
+- **Layoffs/discharges: 1.631M** (down 35K from Dec). Rate 1.0%. Low layoffs + low hires = frozen market.
+- **2025 ANNUAL REVISIONS: DOWNWARD for nearly every month.** Annual avg openings 7.1M (down 571K from 2024). Annual hires fell 1.5M to 63.0M. Annual layoffs INCREASED 1.2M to 21.2M.
+- **Openings/unemployed ratio: ~0.93** (up from 0.87 Dec, still below 1.0 — sub-1.0 since late 2025).
+- **KEY READ:** The headline beat is a head-fake. The labor market added openings but didn't convert them to hires. Hires rate at 3.3% is the structural tell — demand exists on paper but firms aren't pulling the trigger. This is consistent with Hormuz uncertainty freezing hiring decisions. The annual revisions confirm 2025 was worse than reported in real-time. "Hotel California" thesis reinforced: easy to keep your job, impossible to find a new one.
+- **No vector changes.** JOLTS vector stays at prior level. Hires rate unchanged validates frozen market thesis.
 
 **Signal Mar 13 — NFIB Feb 2026 "Poor Sales" (14:45 UTC):**
 NFIB Small Business Survey February 2026: **11% of small businesses cite "poor sales" as their single most important problem.** This is the 4th most-cited problem (behind taxes, labor quality, inflation). Key context:
@@ -106,8 +115,8 @@ GDP Q4 2025 **REVISED TO 0.7%** (from 1.4% advance estimate). Economists expecte
 | **NFP Feb 2026** | **-92,000** | 🔴🔴 | [CONF] BLS Mar 6 8:30 ET. Consensus +55-65K. Our model: 75-110K. BOTH MISSED — headline negative. Healthcare -28K (strike), Fed govt -10K, Info -11K. Social asst +9K. |
 | **2025 Job Growth (Revised)** | **+181K** | 🔴 | [CONF] BLS benchmark Feb 7. Was +584K. **1.03M phantom jobs**. |
 | **ADP Private Payrolls (Feb)** | **+63K** | 🟡 | [CONF] ADP Mar 5. Beat ~48-50K exp. Jan revised DOWN: +22K → +11K. |
-| **JOLTS Openings** | **6.5M (Dec 2025)** | 🔴 | [CONF] BLS Feb 4. Jan 2026 DELAYED — BLS degrading under DOGE. |
-| Openings/Unemployed | 0.87 | 🟠 | [CONF] BLS Feb. Below 1.0 first time since 2021. |
+| **JOLTS Openings** | **6.95M (Jan 2026)** | 🟠 | [CONF] BLS Mar 13. Beat 6.70M exp. Up from revised 6.55M Dec. BUT hires 3.3% flat (cycle low). 2025 annual revisions ALL down (-571K avg openings). Hotel California deepens. |
+| Openings/Unemployed | ~0.93 | 🟠 | [CONF] BLS Mar 13. Up from 0.87 Dec, still below 1.0. Sub-1.0 since late 2025. |
 | **Challenger Jan 2026** | **108K** | 🔴 | [CONF] Challenger Feb 6. Highest Jan since 2009. |
 | **Challenger Feb 2026** | **48,307** | 🟠 | [CONF] Challenger Mar 6. Down 55% MoM. YTD 156,742 = 5th-highest Jan-Feb since 2009. |
 | **Challenger Hiring Plans YTD** | **-56%** | 🔴 | [CONF] Challenger Mar 6. Transport +872% YoY. Tech +51% YoY. |
@@ -115,7 +124,7 @@ GDP Q4 2025 **REVISED TO 0.7%** (from 1.4% advance estimate). Economists expecte
 | **WARN Pipeline** | **766 notices / 91,190** | 🔴 | [CONF] LayoffAlert.org Mar 12. +50 notices, +5,638 workers vs Mar 5. Tyson 7K, Amazon 4.7K, Verizon 4.1K. Pace: ~7 notices/day. |
 | **Shadow Payroll Gap** | WARN ↑ / Claims suppressed | 🔴 | [EST] own analysis. RESOLVES MARCH-APRIL — verdict imminent. |
 | **Hormuz** | **CLOSED Mar 3** | 🔴 | [CONF] multiple Mar 3. Hiring paralysis structural through H1 min. |
-| **BLS Data Infrastructure** | **DEGRADED** | 🟠 | [CONF] JOLTS delay Mar 4. First systematic release failure. |
+| **BLS Data Infrastructure** | **DEGRADED (improving)** | 🟠 | [CONF] JOLTS delayed but released Mar 13. BLS still under DOGE pressure but delivered Jan data. |
 | ISM Mfg Employment | 48.8% | 🔴 | [CONF] ISM Mar 3. 28+ months contraction. Up from 48.1 Jan, still <50. |
 | ISM Services Employment | **51.8** | 🟡 | [CONF] ISM Mar 5. Up from 50.3 Jan. Expansion — modest positive. |
 | **GDP Q4 2025 (2nd Est.)** | **+0.7%** (from +1.4% advance) | 🔴 | [CONF] BEA Mar 14. Federal spending -16.7% (-1.16pp). Consumer spending 2.4%→2.0%. Exports -3.3%. Full year 2025: 2.1%. Economy entered Hormuz oil shock at near-stall speed. Confirms DOGE/shutdown in macro data. |
@@ -304,7 +313,7 @@ PPI core +0.8% (2.6x expected) + PCE 2.9% + Hormuz → Oil spike
 
 ---
 
-*Next triggers: **Mar 13 DOUBLE DATA EVENT** — (1) initial claims (FIRST CLEAN READ post-DHS — ≥235K = Vector 3→5 | ≤205K 2x = consider trim) + (2) **JOLTS Jan 2026 at 10:00 AM ET** (was "delayed," now CONFIRMED — first opening data since Dec 6.5M; finance/prof services already at cycle lows — Jan print likely deteriorates further) | **Mar 24: FL UI exhaustion Wave 1** | **Apr NFP Mar 2026** (healthcare strike reversal test — watch sector detail for structural strip) | Apr: RHI/KFRC Q1 earnings | **Apr 26: FL Wave 2 peak** | Aug 2026: CA/NY UI exhaustion*
+*Next triggers: **Mar 24: FL UI exhaustion Wave 1** | **Apr 4 NFP Mar 2026** — (1) initial claims (FIRST CLEAN READ post-DHS — ≥235K = Vector 3→5 | ≤205K 2x = consider trim) + (2) **JOLTS Jan 2026 at 10:00 AM ET** (was "delayed," now CONFIRMED — first opening data since Dec 6.5M; finance/prof services already at cycle lows — Jan print likely deteriorates further) | **Mar 24: FL UI exhaustion Wave 1** | **Apr NFP Mar 2026** (healthcare strike reversal test — watch sector detail for structural strip) | Apr: RHI/KFRC Q1 earnings | **Apr 26: FL Wave 2 peak** | Aug 2026: CA/NY UI exhaustion*
 
 ---
 
