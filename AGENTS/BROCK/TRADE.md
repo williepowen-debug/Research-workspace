@@ -1,6 +1,6 @@
 # BROCK — TRADE.md
 **Generated:** 2026-03-12 (Prome draft — BROCK to refine on next spawn)
-**Convergence:** 51/55 🔴🔴 — CASCADE CONFIRMED + ACCELERATING
+**Convergence:** 47/55 🔴🔴 — CASCADE CONFIRMED + ACCELERATING
 **Status:** Stage 2 confirmed. 4 gates in 6 days. JPM + MS restricting. APO $100 breach imminent.
 **Account:** ~$57K | BROCK-relevant positions: ~$2,100 deployed
 
