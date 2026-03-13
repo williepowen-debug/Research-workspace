@@ -1,46 +1,41 @@
 # SCRATCH — Ephemeral Working Memory
 
-**Updated:** 2026-03-12 ~22:45 UTC
+**Updated:** 2026-03-13 ~01:30 UTC
 
 ---
 
 ## QUICKSTART
-Scenario C, War Day 12. Brent $100. Account $57K (+190%). BROCK inbox loaded (4 signals). Other agent inboxes clear. All outboxes clear.
-**IMMEDIATE NEXT:** BROCK migration Task 5 RUNNING (spawned, auto-announces). Tasks 1-4 COMPLETE ✅.
-**WHEN BROCK FINISHES:** Review his output, verify file quality, delete MIGRATION_PLAN.md + UPGRADE_PLAN.md.
+Scenario C, War Day 12. Brent $100. Account $57K (+190%). BROCK migration COMPLETE (Tasks 1-5 ✅). Architecture audit spawned (pending).
+**IMMEDIATE NEXT:** Review BROCK's `ARCHITECTURE_AUDIT.md` when it lands. Then delete `MIGRATION_PLAN.md` + `UPGRADE_PLAN.md`.
 **MARKET NEXT:** JOLTS 10AM ET (Mar 13). Taiwan LNG critical date Mar 15 (2 days). DHS paycheck miss Mar 14. FOMC+TIC+BOJ Mar 17-19.
 **NEXT GREEN DAY:** Jun→Dec rolls (WAL/KRE/APO/HYG/IWM). Hamilton says Jun = 1/3 of damage. TLT size up. VIX spread widen.
 
 ---
 
 ## Handoff
-**Last context:** Will delivered major private credit news dump (18 data points across 3 categories). Wrote 4 inbox signals to BROCK. Then audited BROCK's architecture vs HENRY/REGINALD/LABOR gold standard — found significant gaps in TSV schemas, missing TRADE.md, STATUS bloat risk. Built comprehensive `MIGRATION_PLAN.md` with 5 tasks.
+**Last context:** Completed full BROCK migration — 5 tasks across multiple session chunks. Architecture audit spawned (read-only, writes ARCHITECTURE_AUDIT.md). Waiting for results.
+
+**BROCK migration summary:**
+- Task 1: TSV schemas migrated (KB 7→13, VX 11→13, FLOW 6→11, PREDICTIONS +Invalidation)
+- Task 2: STATUS.md pruned 245→103 lines. 4 sections archived.
+- Task 3: CLAUDE.md — stale data rules + FILES table updated
+- Task 4: TRADE.md drafted, EXPECTED_SIGNALS.md verified clean
+- Task 5: BROCK spawned — processed 4 inbox signals (18 data points), populated Cross_Links, absorbed FLOW_RECLASSIFIED, refined TRADE.md. Key finding: Thoma Bravo owns Medallia (VX-BRK-003 bellwether = live TB pricing). EUFN > DB for European bank-PC proxy. OWL Apr → CUT.
 
 **Next tide:**
-1. **BROCK migration Task 1** — TSV schema migration (VX→12col, KB→14col, FLOW→10col, PREDICTIONS→+Invalidation). Read `AGENTS/BROCK/MIGRATION_PLAN.md`.
-2. **Tasks 2-4** — STATUS prune, CLAUDE.md overhaul, TRADE.md creation. One per session chunk.
-3. **Task 5** — Spawn BROCK for inbox processing + new structure population. Only after 1-4 complete.
-4. **JOLTS 10AM ET Mar 13** — next labor data point
-5. **DHS paycheck miss Mar 14** — MARCO four-vector collision
-6. **Taiwan LNG Mar 15** — Taipower rationing watch
-7. **Jun roll plan** — next green day. WAL $85P Jun (+179%) first. TLT size up.
-8. **PROME inbox** — 2 signals still pending (HAWK batch summary, LIQUID UST anchor upgrade)
+1. Review ARCHITECTURE_AUDIT.md → fix any issues found
+2. Delete MIGRATION_PLAN.md + UPGRADE_PLAN.md (obsolete)
+3. JOLTS 10AM ET Mar 13
+4. DHS paycheck miss Mar 14
+5. Taiwan LNG Mar 15
+6. Jun roll plan — next green day
+7. PROME inbox — 2 signals still pending (HAWK batch summary, LIQUID UST anchor upgrade)
 
 **Open questions (carried forward):**
 - TLT put sizing: 4% of portfolio at 99% conviction — size up on green day?
 - Roll priority order on green day?
 - EGBN $25P Jun (-36%) — cut or extend?
 - VIX call spread 25/35 → 25/45?
-
-**VX.tsv stale data notes (for next session):**
-- VX004: 1 gate → 4 gates (OBDC II, HLEND, Cliffwater 14%, MS North Haven). YELLOW→RED.
-- VX008: Add Fitch 9.2% (2025 cohort) alongside 5.8% PCDR. Feb defaults 2x avg.
-- VX009: LIQUID owns HY OAS — stop maintaining independent value, add cross-ref note.
-- VX010: Update to Reuters Mar 12 avg 78¢. Reconcile % vs ¢ framing.
-- VX001-007: All Feb 26 dated. Leave for BROCK to refresh on Task 5 spawn.
-
-**This session (Mar 12 evening):**
-- Will sent private credit research dump (Perplexity + his own synthesis)
-- New signals: Fitch 9.2% record, Cliffwater 14% redemptions (doubled), DB $30B disclosure, PIMCO Stracke "crisis" + structural repricing, Vista/Thoma Bravo named as epicenter, BOE joint stress-testing, Vanguard re-intermediation framework, Morningstar DBRS negative outlook, MS North Haven specific fund name
-- Wrote 4 BROCK inbox signals: weekly-delta, today-escalation-systemic, perplexity-synthesis-delta, supplement-missed-signals
-- Built MIGRATION_PLAN.md (5 tasks, exact schemas, verification checklist)
+- OWL Apr → BROCK says CUT. Execute?
+- EUFN puts as DB proxy — research execution?
+- Dec may be too early per PIMCO structural call — watch for year-end roll decision
