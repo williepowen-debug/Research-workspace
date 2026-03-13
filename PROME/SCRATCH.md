@@ -1,6 +1,6 @@
 # SCRATCH — Ephemeral Working Memory
 
-**Updated:** 2026-03-14 ~10:00 AM ET (pre-clear #2)
+**Updated:** 2026-03-14 ~11:00 AM ET (pre-/new for NEXUS cleanup)
 
 ---
 
