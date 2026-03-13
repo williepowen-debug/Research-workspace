@@ -21,6 +21,10 @@
 | Blue Owl / Kuvari | OBDC2 $595M stuffed into captive insurance at par | 🔴 | [CONF] Eisman Ep49 Mar 9 |
 | Athene Assets | **$442B**, 48% illiquid, RBC 412% | 🔴 | [CONF] 10-K Feb 2026 |
 | DB Private Credit Exposure | **€26B (~$30B)**, +6% YoY. Stock -5% today, -22% YTD | 🔴 NEW | [CONF] Bloomberg Mar 12 |
+| PIMCO Stracke Structural Call | Returns 10%→6%, mid-single-digit defaults for SEVERAL YEARS | 🔴 NEW | [CONF] Yahoo Finance Mar 12 |
+| Consumer Products Default Rate | **>12%**, doubled YoY. Defaults now span ~10 sectors | 🔴 NEW | [CONF] FundsSociety/Fitch Mar 6 |
+| Distressed Dry Powder | **$100B+** raised to exploit forced sellers/restructurings | 🟠 | [CONF] WithIntelligence Mar 2026 |
+| Rating Agency Consensus | Fitch, UBS, DBRS all bearish — 3-agency consensus formed | 🔴 | [CONF] Multiple Mar 2026 |
 | JPM Software Collateral | Marked down; restricting back-leverage to PC funds | 🔴🔴 | [CONF] FT/Bloomberg Mar 11 |
 | BDC Unsecured Debt Maturing 2026 | **$12.7B** (+73% vs 2025) | 🔴 | [CONF] Bloomberg Mar 11 |
 
@@ -39,10 +43,10 @@
 | Athene/Insurance | 🔴 (5) | $442B, 48% illiquid, $9B CRE absorbed, RBC 412%. Kuvari = industry template. Iran declared financial targets Mar 11. | RBC filing revision; Gulf SWF withdrawal; SEC inquiry | Mar 11 |
 | Software Marks | 🔴 (4) | JPM marked down software collateral Mar 11. Vista/Thoma Bravo named as epicenter. 40% of sponsor-backed loans. | Q1 PE reports confirm sector-wide markdowns | Mar 12 |
 | Bank Warehouse Lines | 🔴 (5) | $4.2T NDFI exposure. Atlas SP double default. JPM + MS both restricting. DB disclosed $30B. | BDC revolver draws spike; 2nd major bank marks down | Mar 12 |
-| Regulatory Action | 🟡 (2) | SEC 2026 exam expected; BOE moving to joint PC+PE stress testing | Any enforcement action filed | Mar 12 |
+| Regulatory Action | 🟠 (3) | SEC 2026 exam expected; BOE moving to joint PC+PE stress testing (KB-BRK-025); DB disclosure = transparency cascade forcing other banks to quantify | Any enforcement action filed | Mar 12 |
 | Mainstream Narrative | 🔴 (5) | PIMCO "crisis of bad underwriting." Reuters/Bloomberg/WSJ/NYT all running systemic framing. Stracke: returns 10%→6%, multi-year defaults. | Window nearly closed — hedge funds fully positioned | Mar 12 |
 
-**Convergence: 51/55 🔴🔴 — CASCADE CONFIRMED + ACCELERATING.** Four gates in 6 days. JPM + MS both restricting. DB forced disclosure. PIMCO calls it a "crisis." Software epicenter named (Vista/Thoma Bravo). Default rates at record. Narrative fully mainstream. Window compressing fast.
+**Convergence: 52/55 🔴🔴 — CASCADE CONFIRMED + ACCELERATING.** Four gates in 6 days. JPM + MS both restricting. DB forced disclosure. PIMCO calls it a "crisis of bad underwriting" (structural, multi-year). Software epicenter named (Vista/Thoma Bravo — Thoma Bravo owns Medallia bellwether). Default rates at record (9.2% cohort, consumer products >12%). Regulatory vector upgraded to 🟠: BoE stress-testing, DB cascade underway. Narrative fully mainstream. Window compressing fast.
 
 ---
 
@@ -76,7 +80,10 @@
 | BDC NAV | <70¢ median → full capitulation |
 | BDC dividend watch | Next cut after MFIC + FSK: OBDC, BXSL, OWL vehicles |
 | Kennedy-Wilson CRE | Creditor revolt — extend-and-pretend breaking. Signaled REGINALD. |
-| DB transparency cascade | Other banks forced to disclose PC exposure after DB |
+| DB transparency cascade | Other banks forced to disclose PC exposure after DB — watch JPM, BofA, Citi |
+| PIMCO structural call | Returns 10%→6%, multi-year defaults. If institutional allocators act on Stracke, AUM outflows = slow-burn accelerant |
+| Consumer products default rate | >12%, doubled YoY — broadening beyond software/tech |
+| Vista/TB specific names | Pluralsight (Vista, Ch.11 Dec 2023 precedent), Medallia (TB, 78¢ bellwether). Research other portfolio co BDC holdings |
 | Software marks | Vista/Thoma Bravo portfolio companies — Q1 earnings |
 | MFS auditor pattern | Berkeley Finch / Intertrust — regulatory action = sector-wide SPV audit precedent |
 
