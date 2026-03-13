@@ -1,9 +1,9 @@
 ID	Prediction	Confidence	Made_Date	Resolve_Date	Status	Result	Invalidation	Notes
 BRK-01	PSEC dividend cut again or rating downgrade	70%	2026-02-23	2026-06-30	OPEN		PSEC raises dividend or receives upgrade	Feb 9-10 dividend maintained — does not falsify
 BRK-02	Industry non-accruals rise to >2.5%	65%	2026-02-23	2026-09-30	OPEN		Non-accruals decline 2 consecutive quarters	Currently 1.2% (FV)
-BRK-03	At least one major BDC triggers redemption gate	55%	2026-02-23	2026-02-18	CONFIRMED	✅ CORRECT	N/A — resolved	Blue Owl halted OBDC II redemptions ($1.7B gated)
+BRK-03	At least one major BDC triggers redemption gate	55%	2026-02-18	2026-02-18	CONFIRMED	✅ CORRECT	N/A — resolved	Blue Owl halted OBDC II redemptions ($1.7B gated). Made_Date corrected — prediction preceded/coincided with confirmation.
 BRK-04	Software sector BDC exposure declines <18%	60%	2026-02-23	2026-12-31	OPEN		Software exposure stabilizes or increases	Currently ~20%
-BRK-05	Shadow default rate acknowledged by rating agency	50%	2026-02-23	2026-12-31	OPEN		Rating agencies explicitly defend reported rates as accurate	PIK masking ~6% vs reported 2.1%. Fitch 9.2% cohort may partially satisfy this.
+BRK-05	Shadow default rate acknowledged by rating agency	50%	2026-02-23	2026-12-31	PARTIAL		Rating agencies explicitly defend reported rates as accurate	PIK masking ~6% vs reported 2.1%. Fitch 9.2% cohort + DBRS bearish + UBS 15% worst-case = multiple agencies publicly acknowledging abnormal defaults. PIMCO Stracke "crisis of bad underwriting." Upgraded OPEN→PARTIAL.
 BRK-06	Neocloud credit event (CoreWeave/Lambda/Crusoe)	45%	2026-02-23	2026-12-31	PARTIAL		All three maintain current debt service through 2026	Blue Owl walked from CoreWeave + Oracle deals
 BRK-07	AI infrastructure markdown forces BDC sector write-down >$500M	40%	2026-02-23	2027-06-30	OPEN		AI/GPU collateral values stabilize or appreciate	 
 BRK-08	Blue Owl reduces hyperscale DC exposure or exits	35%	2026-02-23	2026-12-31	PARTIAL		Blue Owl increases DC lending	Selling 35% of OBDC II loans (forced, not strategic)

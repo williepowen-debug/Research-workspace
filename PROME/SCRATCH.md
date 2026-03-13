@@ -6,7 +6,7 @@
 
 ## QUICKSTART
 Scenario C, War Day 12. Brent $100. Account $57K (+190%). BROCK migration COMPLETE (Tasks 1-5 ✅). Architecture audit spawned (pending).
-**IMMEDIATE NEXT:** Review BROCK's `ARCHITECTURE_AUDIT.md` when it lands. Then delete `MIGRATION_PLAN.md` + `UPGRADE_PLAN.md`.
+**IMMEDIATE NEXT:** P2-7 (ML.tsv — deprecate or backfill?). P3 design decisions (Athene FLOW, Burry predictions, BRK-01). Delete `MIGRATION_PLAN.md` + `UPGRADE_PLAN.md`.
 **MARKET NEXT:** JOLTS 10AM ET (Mar 13). Taiwan LNG critical date Mar 15 (2 days). DHS paycheck miss Mar 14. FOMC+TIC+BOJ Mar 17-19.
 **NEXT GREEN DAY:** Jun→Dec rolls (WAL/KRE/APO/HYG/IWM). Hamilton says Jun = 1/3 of damage. TLT size up. VIX spread widen.
 

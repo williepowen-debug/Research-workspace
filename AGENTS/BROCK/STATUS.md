@@ -46,7 +46,7 @@
 | Regulatory Action | 🟠 (3) | SEC 2026 exam expected; BOE moving to joint PC+PE stress testing (KB-BRK-025); DB disclosure = transparency cascade forcing other banks to quantify | Any enforcement action filed | Mar 12 |
 | Mainstream Narrative | 🔴 (5) | PIMCO "crisis of bad underwriting." Reuters/Bloomberg/WSJ/NYT all running systemic framing. Stracke: returns 10%→6%, multi-year defaults. | Window nearly closed — hedge funds fully positioned | Mar 12 |
 
-**Convergence: 52/55 🔴🔴 — CASCADE CONFIRMED + ACCELERATING.** Four gates in 6 days. JPM + MS both restricting. DB forced disclosure. PIMCO calls it a "crisis of bad underwriting" (structural, multi-year). Software epicenter named (Vista/Thoma Bravo — Thoma Bravo owns Medallia bellwether). Default rates at record (9.2% cohort, consumer products >12%). Regulatory vector upgraded to 🟠: BoE stress-testing, DB cascade underway. Narrative fully mainstream. Window compressing fast.
+**Convergence: 47/55 🔴🔴 — CASCADE CONFIRMED + ACCELERATING.** Four gates in 6 days. JPM + MS both restricting. DB forced disclosure. PIMCO calls it a "crisis of bad underwriting" (structural, multi-year). Software epicenter named (Vista/Thoma Bravo — Thoma Bravo owns Medallia bellwether). Default rates at record (9.2% cohort, consumer products >12%). Regulatory vector upgraded to 🟠: BoE stress-testing, DB cascade underway. Narrative fully mainstream. Window compressing fast.
 
 ---
 
@@ -105,6 +105,6 @@
 
 **🔴🔴 STAGE 2 CONFIRMED + APO $100 BREACH IMMINENT — Mar 12, 2026.**
 
-APO closes $100.30 (intraday low $100.15). 4 fund gates in 6 days. JPM + MS both restricting PC lending. DB discloses $30B exposure. PIMCO's Stracke calls it a "crisis of bad underwriting" — returns repricing from 10% to 6%, multi-year defaults. Fitch 2025 cohort default rate 9.2% (record). Software epicenter named (Vista/Thoma Bravo). Convergence 51/55. Window compressing fast.
+APO closes $100.30 (intraday low $100.15). 4 fund gates in 6 days. JPM + MS both restricting PC lending. DB discloses $30B exposure. PIMCO's Stracke calls it a "crisis of bad underwriting" — returns repricing from 10% to 6%, multi-year defaults. Fitch 2025 cohort default rate 9.2% (record). Software epicenter named (Vista/Thoma Bravo). Convergence 47/55. Window compressing fast.
 
 **APO Anomaly:** -39% vs peers (OWL -61%, KKR -44%, BX -43%). Least damaged despite greatest tail risk (Athene $442B + Atlas SP default). Snapshot: `archive/PE_DRAWDOWNS_MAR12.md`.
