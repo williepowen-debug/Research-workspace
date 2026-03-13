@@ -42,7 +42,7 @@
 | Default Rates | 🔴 (4) | Fitch PCDR 5.8%; 2025 cohort 9.2% (record); Feb 2x monthly avg | Q1 earnings confirming >8% PCDR | Mar 12 |
 | Athene/Insurance | 🔴 (5) | $442B, 48% illiquid, $9B CRE absorbed, RBC 412%. Kuvari = industry template. Iran declared financial targets Mar 11. | RBC filing revision; Gulf SWF withdrawal; SEC inquiry | Mar 11 |
 | Software Marks | 🔴 (4) | JPM marked down software collateral Mar 11. Vista/Thoma Bravo named as epicenter. 40% of sponsor-backed loans. | Q1 PE reports confirm sector-wide markdowns | Mar 12 |
-| Bank Warehouse Lines | 🔴 (5) | $4.2T NDFI exposure. Atlas SP double default. JPM + MS both restricting. DB disclosed $30B. | BDC revolver draws spike; 2nd major bank marks down | Mar 12 |
+| Bank Warehouse Lines | 🔴 (5) | $4.2T NDFI exposure. Atlas SP double default. JPM + MS both restricting. DB disclosed $30B. **Bloomberg/Fed/Moody's (Jun 2025 data): ~$300B total bank lending to funds/BDCs/CLOs. WFC $59.7B (DOUBLE next largest). BofA $33.2B, PNC $29.5B, Citi $25.8B, JPM $22.2B, GS $21.7B, Truist $19.5B, SS $19.3B, MS $16.2B, USB $10.5B.** First Brands recovery 1.7% ($200M/$12B) + MFS £1.3B shortfall = loss magnitude confirmed. | BDC revolver draws spike; WFC warehouse loss disclosure; 2nd major bank marks down | Mar 13 |
 | Regulatory Action | 🟠 (3) | SEC 2026 exam expected; BOE moving to joint PC+PE stress testing (KB-BRK-025); DB disclosure = transparency cascade forcing other banks to quantify | Any enforcement action filed | Mar 12 |
 | Mainstream Narrative | 🔴 (5) | PIMCO "crisis of bad underwriting." Reuters/Bloomberg/WSJ/NYT all running systemic framing. Stracke: returns 10%→6%, multi-year defaults. | Window nearly closed — hedge funds fully positioned | Mar 12 |
 
@@ -70,6 +70,7 @@
 
 | Item | Watch For |
 |------|-----------|
+| WFC Warehouse Exposure | $59.7B to funds/BDCs/CLOs = largest single bank. Watch Q1 earnings for warehouse impairment; any revolver restriction disclosure |
 | BCRED gate | Q2 redemptions >10% → formal gating; $8B firepower = ~3 quarters |
 | APO $100 | Sustained break below → puts accelerate; class action May 1 |
 | ARI marks | Q1 10-Q — how is $9B CRE transfer represented? |

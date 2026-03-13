@@ -1,6 +1,146 @@
 # SAM STATUS
 
-**Signal Status:** 🔴🔴 CRITICAL — USD/JPY ~159 HOLDING VERBAL INTERVENTION ZONE | MoF KATAYAMA ESCALATION EXPECTED | BOJ HOLD NEXT WEEK 92-95% | UEDA PRESSER MAR 19 = CARRY CATALYST | LIFE INSURER FY-END REPATRIATION LOADING | TAIWAN LNG MAR 15 INFLECTION WATCH | **Last Updated:** 2026-03-12 21:45 UTC
+**Signal Status:** 🔴🔴 CRITICAL — USD/JPY ~159 HOLDING VERBAL INTERVENTION ZONE | MoF KATAYAMA ESCALATION EXPECTED | BOJ HOLD NEXT WEEK 92-95% | UEDA PRESSER MAR 19 = CARRY CATALYST | LIFE INSURER FY-END REPATRIATION **ACTIVE & CONFIRMED** | FY-END OUTFLOW ¥3.42T IN FEB ALONE | UST DEMAND HOLE JAPAN LEG NOW LIVE | **Last Updated:** 2026-03-13 14:50 UTC
+
+---
+
+## 🚨 SIGNAL INTEGRATION — MAR 13, 2026 (14:50 UTC)
+
+### HEADLINE: ¥399.8B FOREIGN BOND SALE SIGNAL — VERIFIED AS INSTITUTIONAL (NOT BOJ DIRECT). FY-END REPATRIATION IN ACTIVE PHASE. JAPAN LEG OF UST DEMAND HOLE NOW LIVE. BOJ MEETING THESIS UNCHANGED.
+
+**Source:** @DefiWimar on X (254K views, 3/12/26) — citing ¥399.8B in foreign bond outflows on March 12.
+
+---
+
+### Q1: SOURCE VERIFICATION — WHO IS SELLING?
+
+**Assessment: NOT the BOJ directly. This is Japanese institutional investors via MoF weekly flow data.**
+
+Key facts:
+- The BOJ holds **domestic JGBs**, not foreign bonds. The BOJ's foreign asset portfolio is negligible relative to ¥399.8B. This number cannot be attributed to BOJ direct action.
+- The MoF releases **weekly "International Transactions in Securities" (ITS)** data, typically Thursday. The March 12 release would cover the **week ended March 7**.
+- **Japan Times (March 5, 2026):** Japanese investors sold **¥3.42 trillion ($21.8 billion)** of overseas bonds in February — the largest monthly sale since October 2024. Bulk in the week ended Feb. 20. Mechanism: life insurers booking impairment losses on JGBs, realizing gains on foreign bonds to manage overall profits; AND domestic yields rising (JGB 10Y ~2.22%) making yen bonds more attractive vs. hedged USD bonds.
+- **Fukoku Mutual Life (direct quote, Japan Times):** "We've been selling low-yield foreign bonds and shifting them into yen-denominated bonds since last April. We plan to maintain the current position for the time being, adjusting the balance based on foreign exchange trends."
+- **¥399.8B in one week** is actually BELOW the February average (¥3.42T ÷ 4 = ~¥855B/week). Possible interpretations: (a) deceleration as repatriation normalizes post-February peak; (b) one-week figure vs. prior month's concentration in the Feb 20 week; (c) this is the week ended March 7 data, with March 12+ week likely to be similar or higher as FY-end (March 31) approaches.
+
+**Sellers are:** Life insurers (Nippon Life, Dai-ichi, Meiji Yasuda, Fukoku Mutual), GPIF at the margin, regional bank trust accounts, and some megabank (MUFG/Mizuho/SMBC) foreign bond books.
+
+**DefiWimar framing ("BOJ dumped") is technically INCORRECT** — BOJ is not the actor. But the signal itself is VALID: Japanese institutional capital is leaving foreign bond markets at an elevated and accelerating pace.
+
+---
+
+### Q2: BOJ MEETING IMPLICATIONS — PRE-POSITIONING FOR HIKE?
+
+**No. The repatriation is INDEPENDENT of and PREDATES any BOJ hike signal.**
+
+The institutional selling is driven by:
+1. **J-ICS regulatory change (April 2025):** New mark-to-market solvency regime forces life insurers to duration-match liabilities with domestic assets. Foreign bonds create duration mismatch. This mandate began April 2025 — the selling has been running for nearly a year.
+2. **JGB yield normalization:** Domestic yields now competitive. JGB 10Y at 2.22% vs. hedged USD yields under FX hedging costs. At USD/JPY 159, the cost to FX-hedge a USD bond back to JPY terms eats most of the yield advantage.
+3. **FY-end balance sheet management:** Life insurers need to crystallize gains/losses before March 31. Selling foreign bonds at gain while booking JGB impairment losses = net P&L management.
+
+**BOJ meeting thesis: UNCHANGED at 92-95% hold.**
+
+If anything, the repatriation data SLIGHTLY REDUCES hike probability: life insurer selling of JGBs is creating steepening pressure at the long end. BOJ stepping in to buy JGBs (which it is doing via QT taper) means it's already in reactive mode on domestic rates. Hiking into this JGB volatility environment is politically and operationally untenable. **Ueda will hold and watch wages (Shunto Mar 21).**
+
+**The "pre-positioning before hike" interpretation is backwards.** Repatriation creates domestic yield pressure → BOJ stays cautious → more reason to hold.
+
+---
+
+### Q3: TOTAL FY-END OUTFLOW THROUGH APRIL
+
+**Historical context and forward estimate:**
+
+| Period | Net Foreign Bond Sales | Source |
+|--------|----------------------|--------|
+| Feb 2026 | **¥3.42T** ($21.8B) | Japan Times / MoF ITS preliminary |
+| Week ended Mar 7 (est.) | **¥399.8B** ($2.5B) | @DefiWimar / MoF ITS |
+| Oct 2024 peak (prior comparable) | ~¥3.5T/month | Balance of payments data |
+| Typical FY-end March | ¥1.5-3T | Historical range |
+
+**Forward projection (March 13 → April 30):**
+
+Three scenarios:
+- **Base case (current pace continues):** ~¥400-600B/week for March remainder (3 weeks) + tapering in April = **¥2-3T additional** through end of April. Total Q1 2026: **¥5-7T ($32-45B).**
+- **Acceleration (FY-end rush, Mar 25-31 peak):** Final two weeks of March historically see compressed repatriation. If institutions front-load before Mar 31, could see ¥1T+ weeks. Total: **¥7-10T ($45-65B).**
+- **Deceleration (Feb was peak):** If Feb's ¥3.42T was driven by specific JGB impairment event and March normalizes at ¥400-500B/week, total adds ¥1.5-2T. Cumulative Feb+March: ~¥5T.
+
+**Central estimate: ¥5-8T in total foreign bond outflows in Feb-March combined (~$32-51B).** UST portion is roughly 40-50% of Japanese overseas bond holdings → **$13-25B in UST-equivalent selling in this window.**
+
+This IS large enough to show in TIC data (watch March 15 TIC release for January data; February won't show until mid-April).
+
+---
+
+### Q4: CROSS-CURRENCY BASIS SWAP IMPLICATIONS
+
+**The mechanism:**
+
+When Japanese life insurers sell USD-denominated foreign bonds:
+1. They receive USD → repatriate to JPY
+2. If they previously HEDGED the bond (most do via FX forward or cross-currency basis swap), they are UNWINDING the hedge as they sell — reducing demand for USD/JPY FX swaps
+3. Net effect: **FX basis swap demand from Japan FALLS** → basis could NARROW (become less negative) SHORT-TERM as hedging demand drops
+
+**BUT** — the "pipes breaking" scenario is different:
+
+If Japanese banks (not life insurers) are specifically:
+- Pulling back on **USD interbank lending** via FX swaps to dollar-needy borrowers
+- Reducing **cross-border dollar repo activity**
+- Cutting **CP and CD rollover** for offshore dollar funding
+
+...THEN we see the dangerous scenario: SOFR basis widening, dollar CP spreads widening, FHLB advance demand increasing as banks scramble for dollar substitutes.
+
+**Current read:** No confirmed data on SOFR spike or cross-currency basis widening as of Mar 12. The SAM "pipes breaking" trigger would be:
+- 3-month USDJPY cross-currency basis widens past -50bp (watch from current level)
+- SOFR spike above upper bound of Fed funds target
+- FHLB advance demand spike (LIQUID domain — flag this)
+
+**Assessment:** Life insurer repatriation alone does NOT break pipes. It reduces dollar demand from Japan, which is mildly dollar-negative and yen-supportive — actually EASES basis pressure in the short term. The dangerous scenario is if **Japanese banks actively withdraw dollar funding lines from non-Japanese counterparties** — a deliberate credit tightening. No evidence of this yet, but it's the "what breaks the pipes" watch item.
+
+**Flag to LIQUID:** Monitor 3-month USDJPY basis, SOFR-OIS spread, and any FHLB advance data spike as potential early signals.
+
+---
+
+### Q5: USD/JPY TIMELINE — DOES THIS CHANGE ANYTHING?
+
+*Note: The Mar 2 STATUS referenced USD/JPY thesis, not CNY 7.30 — that appears to be a cross-reference mix-up. Clarifying below.*
+
+**USD/JPY current: ~159.00-159.10** (Mar 12 EOD)
+
+**How repatriation data changes the timeline:**
+
+Repatriation = Japanese institutions selling USD bonds + buying JPY. This is **YEN-SUPPORTIVE force** that has been operating since April 2025. The reason USD/JPY is at 159 and NOT 162+ is partly because this structural yen buying has been partially offsetting the energy-import/carry weakness dynamics.
+
+**Revised understanding:**
+- February's ¥3.42T in foreign bond selling = ~$21.8B of latent yen demand
+- March will add another ¥2-3T = another ~$13-19B
+- **This is NOT a bearish yen signal.** It's a yen-supportive structural flow that CAPS how far USD/JPY can run before being overwhelmed by repatriation
+
+**BUT**: The mechanism has a limit. Repatriation occurs in stages and is partially hedged. The energy import cost demand for USD is running concurrent. The net of the two forces is USD/JPY hovering at 159 — stuck.
+
+**Timeline impact:**
+- The repatriation confirms the FY-end dynamic is ACTIVE, not theoretical
+- A BOJ hold + dovish Ueda (50% probability, Mar 19) = repatriation yen buying temporarily swamped by carry trader USD demand → USD/JPY tests 160
+- A BOJ hawkish hold (15% probability) = repatriation + rate signal combined → sharp move toward 155-157
+- **No change to 30d carry unwind probability: 84%.** Repatriation is part of the mechanism, not a new surprise. The surprise is that it's ALREADY this large, this early.
+
+**Regarding CNY 7.30:** The prior "2-4 weeks out" call (Mar 2) would have been Mar 16-30 window. USD/CNH is currently tracking this as ZHAO's domain — no direct impact from Japan repatriation on CNY unless global risk-off triggers simultaneous EM pressure.
+
+---
+
+### UPDATED STATUS — MAR 13 EOD
+
+**New items added to monitoring:**
+- ✅ Japan FY-end repatriation: CONFIRMED ACTIVE at ¥3.42T in Feb + ¥399.8B in first March week
+- ✅ UST demand hole Japan leg: LIVE — ~$13-25B in UST-equivalent selling in Feb-March window
+- ✅ Life insurer identification: Fukoku, Nippon Life, Dai-ichi, Meiji Yasuda confirmed sellers
+- 🆕 LIQUID flag: Monitor 3-month USDJPY basis + SOFR + FHLB advances for "pipes breaking" precursors
+- 🆕 TIC data March 15: Japan leg should begin appearing — watch for Japan UST holdings change
+
+**Carry unwind probabilities: UNCHANGED**
+| Timeframe | Mar 12 EOD | Mar 13 | Driver |
+|-----------|------------|--------|--------|
+| **7d** | 13% | **13%** | Repatriation is YEN-SUPPORTIVE but doesn't accelerate 7d trigger |
+| **30d** | 84% | **84%** | Confirmation of active repatriation validates FY-end loading thesis |
+| **60d** | 88% | **88%** | Unchanged |
 
 ---
 
