@@ -81,14 +81,19 @@
 
 ---
 
-## SECTION 7: "The Trade" *(placeholder — needs Will's input)*
+## SECTION 7: "The Trade"
+**Purpose:** Here's how we're positioned. Defined risk, multiple vectors, specific exits.
 
-| Slide | Content |
-|-------|---------|
-| 7.1 | Portfolio positioning: names, structures, expiries |
-| 7.2 | Entry logic: what we see that the market doesn't |
-| 7.3 | Exit triggers: ceasefire, claims <240K, BTFP 2.0, HY OAS <260bps |
-| 7.4 | Risk management: what makes us wrong, position sizing |
+| Slide | Content | Source |
+|-------|---------|--------|
+| 7.1 | **Portfolio structure:** Four vectors, all options (defined risk), all puts except energy/tanker longs. ~$51K account, +173% all-time. AAPL legacy (~50% of account) funds the thesis trades. | FORGE |
+| 7.2 | **Vector 1 — Regional Banks:** KRE puts (13 contracts across Jun/Sep/Dec, $60-67 strikes) + single-name WAL ($85P, $77.5P, $65P Jun/Jul — waterfall), OZK ($42.5-45P Aug, earnings Apr 16), SSB, ZION, FLG. The hidden CRE thesis expressed through the banks most exposed. WAL is primary target — $2.73B hidden CRE, ratio growing, CFO swapped for crisis specialist. | FORGE/ACTIVE_TRADES |
+| 7.3 | **Vector 2 — Private Credit:** APO $100P (Jun + Apr) — Athene duration mismatch, captive insurance stuffing, $37.9B deposit-type contracts. OWL $9.5P Apr — Blue Owl epicenter, OBDC II gated. HYG $75P x10 Jun — credit canary, triggers at HY OAS >320bps (currently at threshold). | FORGE/ACTIVE_TRADES |
+| 7.4 | **Vector 3 — Energy/Tankers (long):** USO shares (oil long), STNG shares (tanker rates at ATH), TEN $30C Jun. Hormuz structural — mines + insurance withdrawal = months of elevated prices regardless of diplomacy. These are the *funding* trades — they print while we wait for the credit thesis to play out. | FORGE/ACTIVE_TRADES |
+| 7.5 | **Vector 4 — Macro:** IWM $250P Jun (small cap stress), TLT $85P Sep + $88P May (stagflation = bonds sell off), TBT shares (short 20Y), FXY shares (yen strengthening / carry unwind hedge), AAL $10P Jul x4 (airline as consumer + oil squeeze proxy). Gold/silver/defense as tail hedges. | FORGE/ACTIVE_TRADES |
+| 7.6 | **The thesis logic in one slide:** Consumer already breaking (Sec 1) → banks hiding it (Sec 2) → oil shock trigger (Sec 3) → no rescue coming (Sec 4) → predictable timeline, peak Q1 2027 (Sec 5) → private credit connecting it all back to banks (Sec 6). We're short the banks and credit that sit at the center of this loop, long the energy that's the catalyst, and short the bonds that can't rally in stagflation. Every position maps to a specific section of this deck. | Synthesis |
+| 7.7 | **Exit triggers — what makes us close:** (1) Hormuz ceasefire + verified mine clearance begins → exit energy longs, tighten bank put stops. (2) Initial claims <240K for 4 consecutive weeks + CBRE >-5% → exit 50% of bank puts. (3) Emergency Fed facility (BTFP 2.0) announced → exit 100% immediately. (4) HY OAS reverses below 260bps → credit thesis invalidated, exit HYG/APO. All four would need to fire to fully invalidate — any single one is a trim signal, not a full exit. | RED team report Feb 14 |
+| 7.8 | **Risk management:** All options = defined risk. Maximum loss on any single position is the premium paid. No naked shorts, no margin. Largest single position risk: KRE puts (~$3,500 total premium across 13 contracts). Harvest rule: take profits on short-dated puts on red days, re-enter on green days. Already harvested $3,056 on NFP day (+183% to +340% returns). Roll Jun → Dec on green days per Hamilton framework (Jun = 1/3 damage, Dec = peak). | FORGE/ACTIVE_TRADES |
 
 ---
 
