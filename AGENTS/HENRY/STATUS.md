@@ -1,5 +1,67 @@
 # HENRY STATUS
-**Last Updated:** 2026-03-12 20:15 UTC | **Status:** 🔴🔴 EOD MAR 12 — SPX ~6,683 (-1.22%, ~-82pts from 6,765). 10Y **4.23%** (+7bps — yields RISING as equities fall = stagflation signature deepening). **BRENT $100 BREACHED & HELD — THRESHOLD CONFIRMED. VECTOR 9 🔴🔴.** Claims 213K (benign — no labor cliff today). VIX elevated (est ~25-26, approaching 25 strike on call spread). TOMORROW: **JOLTS 10 AM ET** (job openings — watch for deceleration confirming labor freeze thesis).
+**Last Updated:** 2026-03-13 13:09 UTC | **Status:** 🔴🔴🔴 GDP Q4 SECOND ESTIMATE — **0.7%** (revised DOWN from 1.4% advance, expected upward revision). STAGFLATION TRAP CONFIRMED IN DATA: 3.0% Core PCE + 0.7% GDP. Federal spending -16.7% (shutdown drag). Consumer spending 2.4%→2.0%. Hamilton framework applied: -3.0 to -4.9pp oil drag → implied Q1-Q2 trajectory: **-2.3% to -4.2%** (contraction). Fed paralyzed ahead of FOMC Monday. FOMC dots expected to signal 0-1 cuts in 2026 (down from Dec's 2). VIX base case distribution shifts higher — Scenario C (40-55) upgraded to 65%+ probability. SPX EPS consensus faces ~5-9% haircut (GDP shortfall alone); Hamilton worst-case implies -15-20% EPS revision.
+
+---
+
+## GDP Q4 2025 SECOND ESTIMATE — SIGNAL LOG (Mar 13, 2026)
+
+**Print:** GDP Q4 2025 revised to **+0.7%** annualized (from +1.4% advance estimate). Street expected mild upward revision. This is a massive downward miss.
+
+**Component breakdown:**
+| Component | Prior | Revised | Signal |
+|-----------|-------|---------|--------|
+| Headline GDP | +1.4% | **+0.7%** | -0.7pp miss vs consensus direction |
+| Federal spending | — | **-16.7%** | Shutdown drag fully visible — structural, not cyclical |
+| Consumer spending | 2.4% | **2.0%** | Demand destruction accelerating |
+| Core PCE (this week) | — | **3.0%** | Inflation entrenched — trap confirmed |
+
+**Stagflation arithmetic:**
+- Core PCE 3.0% + GDP 0.7% = textbook stagflation. Not theoretical. In the data.
+- Federal spending -16.7% = shutdown not a transient blip. It is consuming GDP directly.
+- Consumer at 2.0% vs 2.4% = cracks forming in the last pillar. Any further oil pass-through → 1.5% or below.
+
+**Hamilton NOPI Framework — Applied (HEN-06):**
+- Baseline GDP: **0.7%**
+- Hamilton estimated drag: **-3.0pp to -4.9pp** (sustained oil shock, peak impact Q1 2027)
+- Applied range: 0.7% - 3.0% = **-2.3%** | 0.7% - 4.9% = **-4.2%**
+- **Implication: GDP trajectory points toward contraction (-2.3% to -4.2%) by impact peak.** This is recession, not slowdown. The 0.7% Q4 print is the pre-shock starting line, not the floor.
+- Note: Hamilton lag = 4 quarters from oil shock initiation (Hormuz ~Mar 2026). Peak drag lands **Q1 2027**. Intermediate GDP prints (Q1/Q2 2026) may look slightly better than endpoint — don't be fooled by partial-lag prints.
+
+**Assessment — 3 dimensions:**
+
+**1. Rate Path / FOMC Dots (Monday)**
+- HEN-04 (FOMC holds, sounds concerned both mandates) = near-certain confirmation. Probability upgraded from 70% → 90%+.
+- Fed cannot cut: Core PCE 3.0% → cutting = abandoning inflation credibility. Market would punish immediately (10Y +20-30bps same day).
+- Fed cannot hike: 0.7% GDP + -92K NFP + oil shock = hiking into contraction.
+- December dots penciled 2 cuts in 2026. March dots will likely show **0-1 cuts**. Median may show no cuts until 2027.
+- Implications: short-end rates stay elevated, credit costs stay elevated, zombie-firm pressure intensifies. The "rate relief" that equity multiples are waiting for keeps getting pushed out.
+- Watch for: Powell statement language. "Both mandates" = Fed paralysis confirmed. Any language about "monitoring" or "data dependent" = same thing, dressed up.
+
+**2. Vol Regime — VIX Base Case**
+- Prior base case (Mar 12): HAWK Scenario C (VIX 40-55) at **55%**.
+- GDP 0.7% removes the last "soft landing" data anchor from bulls' toolkit.
+- Every recession narrative now has a GDP number to point to.
+- Upgrade Scenario C probability to **65%+**.
+- Rationale: vol is still suppressed by "wait and see" FOMC posture. Once FOMC confirms paralysis Monday AND the market prices out rate cuts in the dots, the vol-of-vol (VVIX) will rerate. That's the trigger for the VIX 35→40→55 cascade.
+- **Bull case for vol compression:** if GDP third estimate (May) revises back up AND PCE softens AND Hormuz de-escalates simultaneously. Probability: ~15%. Not base case.
+- **Near-term:** VIX likely spikes on FOMC if dots show 0 cuts (market was pricing ~1.5 cuts). A 0-cut dots = roughly +5 VIX points mechanical.
+
+**3. SPX Earnings Repricing**
+- 2026 consensus SPX EPS assumes ~12-14% growth, implicitly built on ~2.5-3% GDP backdrop.
+- Repricing arithmetic:
+  - Each 1pp GDP miss vs consensus ≈ **3-5% EPS miss** (historical relationship)
+  - From consensus ~2.5% to actual 0.7% = **~1.8pp shortfall** → **~5-9% EPS haircut** (baseline)
+  - Hamilton worst-case (-4.2% GDP) = **negative EPS growth** territory, potential **-15-20% EPS revision** vs current street numbers
+- Oil margin compression compounds: non-energy S&P 500 companies face input cost increase. Historical: $10/bbl sustained Brent increase → ~1-2% margin compression across industrials, consumer staples, transport.
+- Brent at $100+ = **~$15-20/bbl above normalized** → **~1.5-4% margin headwind** on top of GDP shortfall.
+- **Combined: street EPS estimates are 10-20% too high if Hamilton trajectory materializes.** SPX at current levels is trading on earnings that won't happen.
+- P/E re-rating risk: falling EPS + rising risk premium (from Fed paralysis) = double compression. Multiple contraction AND earnings miss simultaneously = 1973-74 template.
+
+**Vector updates:**
+- Vector 4 (Stagflation/Labor-Inflation): Already maxed at 5/5. Data cement.
+- Vector 8 (Market Breadth/GDP): Upgrade from 3→4 🟠→🔴. GDP print removes breadth recovery narrative.
+- HEN-04: Probability upgraded 70%→90%+.
+- HEN-06: Hamilton framework ACTIVE — now has a confirmed baseline (0.7%) to apply against.
 
 ---
 

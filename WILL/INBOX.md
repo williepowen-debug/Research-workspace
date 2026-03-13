@@ -6,6 +6,54 @@ Agent signals that need your attention. HERMES delivers here.
 
 ---
 
+## 2026-03-13 14:00 UTC — FROM: HAWK [via HERMES AM]
+**Signal:** 🔴🔴 TAIWAN LNG + HORMUZ WAR UPDATE — Day 13-14 | Scenario probabilities revised
+**Detail:** Taiwan: 20 of 22 March–April LNG cargoes secured. 2 cargoes still unsecured heading into Mar 15 critical date. Qatar ~33.7% of Taiwan imports; TSMC at 27.4B kWh/yr electricity exposure. No Taipower rationing escalation yet. Hormuz: Hegseth contradicted Mar 10 mine intel ("no clear evidence"), ~150+ ships anchored outside strait, 8 mb/d+ crude curtailed, Brent peaked $126. Iran new Supreme Leader vowing to keep Hormuz blocked. No diplomatic off-ramp visible. Kuwait curtailment already in progress since Mar 7, accelerating ahead of Mar 20 date. GDP 0.7% = oil shock hitting stall-speed economy. **Scenario probabilities revised: C=57% (prolonged blockade), D=23% (full kinetic escalation, ↑ from 18%), B=20% (ceasefire, ↓ from 22%).** Watch: Taiwan cargo confirmation before Mar 15, any Taipower reserve disclosure, Hegseth "plan" on mines.
+**Source:** HAWK check-in, 2026-03-13 ~13:20 UTC
+**Priority:** 🔴
+
+---
+
+## 2026-03-13 14:00 UTC — FROM: OTTO [via HERMES AM]
+**Signal:** 🔴🔴 ABS + CVNA + FRAUD UPDATES — Subprime DQ trajectory revised upward
+**Detail:** Fitch 2H25 confirms 6.74% subprime 60-day DQ at end-2025; our tracking shows 7.1% Feb 2026. GDP miss removes servicer extension willingness → **revised DQ trajectory 7.5–8.0% by Q2 2026**. CVNA DriveTime document production deadline Mar 15 — watch for 8-K/amended 10-K Mon Mar 16. MFS fraud upgraded: UK court confirms £1.3B creditor shortfall (up from £930M est.), CEO accused of front company siphoning funds from Barclays ($700M) AND Castlelake (Brookfield-owned — new counterparty). First Brands: FT reports total asset sale recovery only ~$200M vs $12B+ debt (implied 1.7% recovery). WAL equity thesis remains RED. STATUS.md update needed this cycle.
+**Source:** OTTO daily check-in, 2026-03-14
+**Priority:** 🔴
+
+---
+
+## 2026-03-13 14:00 UTC — FROM: SAM [via HERMES AM]
+**Signal:** 🔴🔴 CRITICAL — BOJ T-5 Days | USD/JPY 158.73 | Nikkei -1.16% | TIC Data TOMORROW
+**Detail:** USD/JPY 158.73 (below 159 verbal intervention zone — coiling). Nikkei 53,819 (-1.16%), only ~1,800 pts above GPIF mechanical trigger (~52,000). Brent $99.04 (+1.41%), re-approaching $100. 7d carry unwind ↑ to 14–15%; 30d ↑ to ~85%. **BOJ hold essentially locked (~93-95%) for Mar 18-19.** Full question is Ueda's language: dovish hold (50%) → USD/JPY 159.5-161+; neutral hold (35%) → status quo; hawkish hold (15%) → USD/JPY 155-157, carry stress 30-35%. **CRITICAL: TIC data releases TOMORROW (Mar 15) — Japan UST holdings. If Japan holdings dropped >$15B MoM, three-anchor thesis activates concretely.** Key watch dates: TIC Mar 15, BOJ Mar 18-19, Shunto Mar 21, FY-end Mar 31.
+**Source:** SAM Friday check-in, 2026-03-13 13:45 UTC
+**Priority:** 🔴
+
+---
+
+## 2026-03-13 14:00 UTC — FROM: CARL [via HERMES AM]
+**Signal:** 🔴🔴 K-SHAPE CONVERGENCE CONFIRMED — Convergence score 43/50 ALL-TIME HIGH
+**Detail:** Core PCE Jan: +0.4% MoM, 3.1% YoY (reaccelerating — wrong direction). GDP Q4 revised to 0.7% (economists expected upward revision). K-shape convergence: upper income households NOW also cutting spending (Reuters). Both cohorts deteriorating simultaneously — offset mechanism GONE. Q2 2026 DQ window pulled forward: now PRIMARY conversion window (was "leading edge"). Gas $4 breakpoint now 2-4 weeks away (was 4-8 weeks). Stagflation trap closed: Fed cannot cut into 3.1% core, cannot hold into -92K NFP + 0.7% GDP. This is pre-oil-shock data — April/May prints will be worse. K-shape vector upgraded to 5/5 MAX.
+**Source:** CARL K-shape convergence assessment, 2026-03-13 13:15 UTC
+**Priority:** 🔴
+
+---
+
+## 2026-03-13 14:00 UTC — FROM: HENRY [via HERMES AM]
+**Signal:** 🔴🔴🔴 STAGFLATION CONFIRMED IN DATA — Hamilton framework ACTIVE | VIX Scenario C 65%+
+**Detail:** GDP Q4 revised 1.4%→0.7% (wrong direction on revision). Federal spending -16.7% (DOGE+shutdown in hard data). Consumer spending 2.4%→2.0%. Core PCE 3.0%. Hamilton NOPI drag -3.0 to -4.9pp applied to 0.7% baseline = implied GDP at peak: **-2.3% to -4.2%** (Q1 2027). FOMC Monday: expect 0-cut dots → mechanical VIX +4-6 pts. **VIX Scenario C (40-55) now 65%+ base case.** SPX earnings consensus 10-20% too high (GDP shortfall + oil margin + multiple compression = 1973-74 template risk). IWM $250P Jun, HYG $75P Jun thesis accelerated. Consider rolling HYG to Sep/Dec per Hamilton lag. Pre-cascade → cascade transition assessment needed.
+**Source:** HENRY velocity assessment, 2026-03-13 13:09 UTC
+**Priority:** 🔴
+
+---
+
+## 2026-03-13 14:00 UTC — FROM: LABOR [via HERMES AM]
+**Signal:** 🔴🔴 LAB-02 UPGRADED 72%→80% | Q2 DQ window accelerating | DHS 50K workers missing 2nd paycheck
+**Detail:** GDP 0.7% changes confidence in breach timing, not thresholds. 0.3pp gap to LAB-02 trigger (U-3 4.4%→4.7%) was manageable at 2.5% growth; at stall-speed, a single bad April 3 NFP closes it. WARN pipeline (766 notices/91K workers) loaded pre-oil-shock. DHS shutdown Day 27: ~50K TSA/FEMA/Coast Guard workers missing 2nd full paycheck; callout rates doubled, some quitting — will hit claims as cold separations (no WARN, no severance). FL UI exhaustion Wave 1 (Mar 24) hits weaker labor market than modeled. Claims buffer (50K) still holds March but April-May breach probability meaningfully higher. Full-year 2025: <10K jobs/month — weakest outside recession since 2002. JOLTS Jan print today: quits rate key — below 3.0% = Hotel California confirmed.
+**Source:** LABOR AM check-in, 2026-03-13 ~08:00 ET + GDP synthesis
+**Priority:** 🔴
+
+---
+
 ## 2026-03-06 22:00 UTC — FROM: HENRY [via HERMES PM]
 **Signal:** 🔴🔴 NFP -92K — HEN-01 CONFIRMED. Thesis intact, threshold alerts fired across all agents.
 **Detail:** Feb NFP -92,000 (consensus +55-65K). Dec revised to -17K (was +48K — already negative). Unemployment 4.4% ↑. Wages +3.8% (stagflation). Transmission chain: LABOR → CARL → LIQUID → SAM all activated in one print. Alerts sent to SAM (carry), LIQUID (HY OAS), CARL (labor-consumer), NEXUS (convergence synthesis). No exit triggers on current positions — thesis strengthened. Today's key levels: SPX close vs 6,707 (Goldman CTA $80B trigger), HY OAS vs 320bps (LIQ-01), USDJPY vs 154 (carry loading), IWM vs $255.
