@@ -296,4 +296,116 @@ These are causally linked (Hormuz drives Japan's energy costs, which accelerates
 **The deck should make this explicit:** the audience should understand that there are two loaded guns, not one, and they're both pointed the same direction.
 
 ## BATCH 4: Private Credit — BROCK
-*[Pending]*
+
+### Quality Assessment
+
+**BROCK** — A+. The most self-contained and persuasive of all 10 reports. BROCK's thesis paragraph at the bottom is the single best one-paragraph summary of any domain across the project. Seven of 10 findings are smoking guns — the highest density. The fund gate cascade (#1) is undeniable and dated. The PIMCO quote (#2) is establishment credentialing that removes the "conspiracy theory" objection. The Athene/Apollo structure (#3) is the deepest original work — "SVB duration mismatch at 200x scale" is a devastating framing. The $4.2T bank interconnection (#4) is the bridge that connects private credit back to the banking thesis. The Blue Owl/Kuvari captive stuffing (#7) proves the accounting playbook is repeatable, not a one-off.
+
+**Unique contribution:** BROCK is the only agent covering the *hidden leverage* layer. Banks (REGINALD) sit on one side, consumers (CARL) on the other, and in between is $1.7T in private credit that connects them through warehouse lines, insurance affiliates, and BDC structures that most investors have never examined. BROCK makes that invisible layer visible.
+
+---
+
+### Cross-Agent Overlaps
+
+**DB $30B disclosure** appears in both BROCK #10 and REGINALD #5. REGINALD frames it as bank interconnection risk; BROCK frames it as the transparency cascade trigger. Both perspectives are valid — use BROCK's framing for the private credit section, REGINALD's for the banking section.
+
+**$4.2T NDFI exposure** appears in BROCK #4 and REGINALD #5 (FDIC data). Same source, same number. One slide, attributed to FDIC.
+
+**PIK / extend-and-pretend** echoes REGINALD's CRE extend-and-pretend (#8). Same behavioral pattern in different asset classes — banks masking CRE, private credit managers masking leveraged loans. The parallel is the point.
+
+---
+
+### Top 10 Across Batch 4 (Deck Priority)
+
+| Rank | Agent | Finding | Why It's Top 10 |
+|------|-------|---------|-----------------|
+| 1 | BROCK | Fund gate cascade — 4 gates in 6 days, 6 in 5 weeks | Undeniable. Dated. "Bank run in slow motion." |
+| 2 | BROCK | Athene $442B / 48% illiquid / $37.9B deposit mismatch | SVB at 200x scale. The structural kill shot. |
+| 3 | BROCK | $4.2T bank-to-private-credit exposure ($2.8T undrawn) | The bridge between "private" and "systemic." |
+| 4 | BROCK | PIMCO: "crisis of bad underwriting" lasting years | Establishment credentialing. Removes the fringe objection. |
+| 5 | BROCK | BDC pricing at 78¢ average — market already says books lie | Public market verdict on private credit's stated values. |
+| 6 | BROCK | JPM software collateral markdowns — Vista/Thoma Bravo named | Transmission mechanism firing in real time. Named names. |
+| 7 | BROCK | Blue Owl/Kuvari captive stuffing — playbook confirmed at 2nd firm | Pattern, not anecdote. Apollo did it too. |
+| 8 | BROCK | PIK doubled to 6.4%, 40% borrowers cash-flow negative | The hidden extend-and-pretend, quantified. |
+| 9 | BROCK | True default rate 4-5% vs reported 2.6% (Fitch 2025 cohort: 9.2%) | The accounting gap IS the thesis. |
+| 10 | BROCK | Partners Group says defaults "doubling" + DB transparency cascade | The insiders are saying it out loud. Opacity ending. |
+
+---
+
+### Narrative Arc (Batch 4 contribution to deck)
+
+**Act 10 — "The hidden leverage layer"** (BROCK leads)
+- $1.7T was lent at peak multiples, mostly software, at floating rates. Rates went up. Values went down.
+- The industry reports 2.6% defaults. Apply real accounting: 4-5%. Fitch 2025 cohort: 9.2%.
+- PIK doubled — borrowers who can't pay interest are being carried on paper. 40% cash-flow negative.
+- PIMCO calls it "a crisis of bad underwriting" lasting years. Partners Group says defaults doubling.
+
+**Act 11 — "The exits are blocked"** (BROCK continues)
+- Four funds gated in six days. Six in five weeks. Investors can't get their money out.
+- Blue Owl sold troubled loans "at par" — to an insurance vehicle it controls. Apollo did the same with $9B.
+- BDC public prices: 78¢ average. FSK 51¢. PSEC 44¢. The market already says the books lie.
+
+**Act 12 — "It connects back to the banks"** (BROCK → REGINALD bridge)
+- Banks have $4.2T exposure to these funds. $2.8T undrawn and callable.
+- JPM marking down software collateral and demanding more margin. Warehouse lines restricting.
+- Athene: $442B in assets, 48% illiquid, $37.9B in short-term deposits. SVB mismatch at 200x.
+- This isn't shadow banking staying in the shadows. It's leaking into the regulated system.
+
+---
+
+### Slide Sentences — Best of Batch 4
+
+1. > "Four private credit funds gated investors in six days — the industry's first cascade since 2008, and the sixth gate followed within five weeks."
+
+2. > "Apollo's insurance arm Athene holds $442 billion in assets — nearly half illiquid — while $37.9 billion in short-term institutional deposits sit on the other side: the same duration mismatch that killed SVB, at 200x the scale."
+
+3. > "Banks have $4.2 trillion in exposure to private credit funds — $2.8 trillion of it undrawn commitments that stressed funds can pull at any time."
+
+4. > "PIMCO — the world's largest bond manager — called private credit 'a crisis of bad underwriting' and projected elevated defaults lasting several years."
+
+5. > "The stock market is already pricing private credit as damaged: BDC funds trade at 78¢ on the dollar versus stated values — a quarter-trillion dollars of contested book value."
+
+---
+
+## MASTER SYNTHESIS — All 10 Agents
+
+### The Complete Narrative Arc
+
+| Act | Title | Lead Agent | Core Message |
+|-----|-------|-----------|--------------|
+| 1 | Something is already wrong | CARL | Consumer already broken: 3M repos, savings at 2008, credit cards 92% to GFC |
+| 2 | It's being hidden | REGINALD | Banks reclassifying CRE, CFO swaps, fraud admissions, Manhattan below COVID |
+| 3 | Nobody's coming to help | LIQUID | Every rescue mechanism broken simultaneously (THE table) |
+| 4 | Here's what actually happened | HAWK | Hormuz closed. 97% traffic drop. Iraq lost 70% production without being bombed |
+| 5 | Nobody can fix it fast enough | BRENT | 13M bpd gap, shale won't respond, SPR = 4 days, Kuwait tank tops in 7 days |
+| 6 | The money is disappearing | ZHAO | Four-anchor demand hole: $50-90B/mo in missing Treasury buyers |
+| 7 | The people are disappearing | MARCO | 2.2M self-deportations, Harvest Alert, Florida collapsed, data deleted |
+| 8 | We know the timeline | HENRY | Hamilton: peak damage Q1 2027. Earnings 10-20% too high. Month 1 of 11-26. |
+| 9 | Japan is the second detonator | SAM | Carry trade unwinding, banks selling $20B/mo, BOJ may hike into the shock |
+| 10-12 | The hidden leverage layer | BROCK | $1.7T private credit cracking, gates firing, $4.2T bank exposure, Athene = SVB at 200x |
+
+### Two Detonators, One Outcome
+
+The deck should make clear that this thesis has **two independent trigger mechanisms**:
+
+1. **The Hormuz Chain:** Physical supply disruption → energy prices → consumer stress → bank CRE/credit losses → private credit gates → systemic transmission. Timeline: Hamilton lag puts peak at Q1 2027.
+
+2. **The Japan Chain:** BOJ hiking → carry trade unwind → VIX spike → forced selling → Treasury demand hole widens → rates stay high → everything above gets worse. Can fire independently on March 19 (Ueda presser) or any BOJ meeting.
+
+Both chains feed the same outcome: rates stay high, banks stay stressed, consumer breaks, private credit unwinds. The question isn't whether — it's speed and sequence.
+
+### The 7 Best Slide Sentences (Final Cut)
+
+1. > "America repossessed 3 million cars last year — 76% more than at the peak of the 2008 financial crisis. And unemployment hasn't even spiked yet."
+
+2. > "A bank in Chicago told regulators it had 11% real estate exposure. The actual number was 61%. It failed. The same pattern is live at nationally chartered banks right now."
+
+3. > "Iraq didn't need to be bombed — when tanker availability collapsed, its 4.3 million barrel-per-day production fell 70% in days."
+
+4. > "The IEA just authorized the largest emergency oil release in history — and it covers 4 days of the supply gap."
+
+5. > "Hamilton's model says the worst GDP damage hasn't happened yet — it arrives in Q1 2027, and the math puts us on track for -2.3% to -4.2% GDP."
+
+6. > "Four independent groups — Japan, China, Korea, and Gulf states — are pulling $50-90 billion per month from the US Treasury market. None coordinating. All stuck."
+
+7. > "Four private credit funds gated investors in six days — the industry's first cascade since 2008 — while banks hold $4.2 trillion in exposure to the same funds."
