@@ -1,0 +1,23 @@
+CHANNEL	FROM	TO	MECHANISM	MAGNITUDE	NOTES
+1_Warehouse_Lines	BDC Credit Losses	Regional Banks	Direct credit exposure on warehouse facilities	$299.3B outstanding	Banks hold senior secured; Tricolor = precedent for losses
+2_Revolving_Facilities	BDC Drawdowns	Bank Syndicates	Stress → facility draws → bank liquidity strain	ARCC $5.1B (39 lenders)	FSK $4.7B, OBDC $4B, GSBD $2B, PSEC $1.5B
+3_Redemption_Gates	BDC Liquidity Stress	Fund Finance Desks	LP redemptions → forced asset sales → collateral decline	OTIC 17% requests	Gates delay but don't prevent; uncertainty premium
+4_Software_Markdowns	Tech Portfolio Cos	Banks w/ Tech Exposure	Synchronized write-downs compound bank tech loan losses	43% of software PIK	WAL, TOWN see double hit (CRE + lending)
+5_Fund_Finance_Stress	LP Capital Call Failures	Regional Banks	Sub-line collateral impaired when LP can't meet call	$285.2B PE fund finance	CFG, Huntington, First Citizens most exposed
+6_NAV_Facility_Stress	Portfolio Deterioration	NAV Lenders	NAV declines → LTV breaches → margin calls	$100B → $600B by 2030	Customers Bank, Piermont = niche players
+7_CLO_Forced_Selling	BDC Portfolio Stress	Bank CLO Holdings	Senior tranche marks decline; forced selling = MTM pain	Golub $43.5B, BXSL $41.8B	Indirect but correlated to credit cycle
+8_Syndicate_Contagion	Single BDC Failure	Multi-Bank Impact	ARCC failure → 39 banks impaired simultaneously	Systemic	JPM, BofA, RBC, Truist, SMBC, Wells all in ARCC syndicate
+LEVERAGE_STACK	Portfolio Co	System	4 layers: Co (5x) → Fund (1.5x) → Bank (fund finance) → LP	Multiplicative	Single asset supports 4 debt layers
+CONCENTRATION	Pluralsight/Edmentum	Multi-fund	Same names across OWL/ARCC/TCPC/NMFC/PSEC	9.2% overlap (>$5B funds)	Diversification across managers is illusory
+PARTNERSHIP_RISK	Bank-PC JVs	Originating Banks	Citi/Apollo, Wells/Centerbridge retain residual exposure	$25B + $5B + $50B	"Originate-to-share" still leaves tail risk
+TIMING_LAG	BDC Stress	Bank Earnings	2-3 quarter lag from BDC portfolio stress to bank P&L	Predictable	Watch BDC Q4 → Bank Q2-Q3 2026
+TRIGGER	Employment Decline	Portfolio Cos	Revenue -10-15% breaks debt service even with PIK	LABOR dependent	Middle market cos highly employment-sensitive
+RATE_PARADOX	Fed Rate Cuts	BDC Liquidity	Lower yields → redemption pressure → gates → forced sales	Denominator effect	PIK ratio rises mathematically as cash income falls
+9_AI_CAPEX	Big Tech Capex	Neocloud Debt	Capex pullback → revenue miss → debt service fails	$600B projected 2026	Mirrors 2001 telecom bust (60% decline)
+10_GPU_COLLATERAL	GPU Value Decline	BDC NAV	40-60% value loss in 18mo vs 6yr depreciation	$26.6B neocloud debt	CoreWeave, Lambda, Crusoe exposed
+11_VENDOR_FINANCE	Nvidia Financing	Customer Default	$110B to customers (vs Lucent $15B in 2000)	Circular	NVDA exposed if customers fail
+12_NEOCLOUD_BANK	Neocloud Stress	Bank Fund Finance	BDC NAV decline → coverage breach → forced repayment	$1.2T bank-NDFI	Path 2 to regional bank stress
+13_BLUE_OWL_GATE	OBDC II Gate	Private Credit Sector	Gate → fear → contagion to other BDCs → bank exposure questioned	$1.7B gated	Feb 18, 2026 - PREDICTION #3 CONFIRMED
+14_DENIAL_PHASE	BofA Defense	Market Psychology	"Misinformation" defense → contrary indicator → smart money exits	$8.3B outflows	Feb 23 - BofA clients dump while BofA defends
+15_REGIONAL_TRANSMISSION	Private Credit Fear	Regional Banks	Blue Owl gate → WAL/EGBN worst performers (-5.5%)	Direct linkage	Feb 23 - Transmission path firing in real-time
+16_BIG_BANK_EXPOSURE	Blue Owl Stress	GSIB Balance Sheets	JPM $50B + BofA $25B + Citi $25B = $100B+ direct exposure	Systemic	Big banks competing for PC = correlation risk
