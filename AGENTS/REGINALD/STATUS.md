@@ -1,5 +1,79 @@
 # REGINALD STATUS
-**Last Updated:** 2026-03-12 20:15 UTC | **Status:** 🔴🔴🔴 CRITICAL — KW BONDHOLDER DEADLINE TOMORROW (Mar 13 5pm). KRE -1.14% today ($63.98), SPX -1.22%, 10Y +7bps to 4.23% (STAGFLATION TRADE — rates up WITH sell-off). KRE puts +50-140%, WAL Jun puts +179%. OZK Apr 16 T-35 days. See MAR 12 EOD UPDATE below.
+**Last Updated:** 2026-03-13 05:20 UTC | **Status:** 🔴🔴🔴 CRITICAL — KW BONDHOLDER DEADLINE TODAY (Mar 13 5pm). Insider behavior scan complete: OZK 🔴 + WAL 🔴 signals integrated. See INSIDER BEHAVIOR SCAN section below.
+
+---
+
+## 🚨 INSIDER BEHAVIOR SCAN — OZK + WAL (Integrated 2026-03-13)
+
+**Source:** SEC EDGAR cross-reference | **Research:** Will + Claude/Gemini parallel queries | **Memo Item 3 convergence confirmed**
+
+### OZK — 🔴 FULL CONVERGENCE
+
+| Actor | Action | Signal |
+|-------|--------|--------|
+| CRO Majumdar | Sold 10.78% of holdings (419 shares) Feb 24 — NO 10b5-1 plan | 🔴 Discretionary. The risk officer reducing exposure without cover. |
+| CFO Hicks | ~$944K sold across Oct 2024 + Jan 2025 tranches (~22% of holdings) | 🔴 Material, staged, no automatic plan disclosed |
+| Director Whipple | $5.2M sold at $51.50 (stock now ~$42-44, near 52-week low) | 🔴 Sold near high — timing was correct |
+| CEO Gleason (~10% owner) | **Zero selling** | 🟡 Position so large that selling is itself a public signal. Captive, not confident. |
+| All insiders | **Zero buying** across 12 months | 🔴 No one stepped in during the drawdown |
+
+**Conviction change:** OZK score **12 → 13**. The CRO selling discretionarily while WAL and OZK are cutting reserves — and while this same officer would have direct visibility into construction loan stress — is the strongest single insider signal in the screen. Combined with CFO staging sales across two tranches, this is not noise. **OZK Aug $42.5P thesis strengthened.**
+
+---
+
+### WAL — 🟠→🔴 SOPHISTICATED REPOSITIONING
+
+| Actor | Action | Signal |
+|-------|--------|--------|
+| CFO Gibbons (22-year tenure) | Moved sideways to "VP Deposit Initiatives and Innovation" | 🔴 Made-up title. 22 years = 5x industry average tenure. Does NOT just step down quietly. |
+| New CFO Idnani | Hired from JPMorgan FIG (bank advisory/restructuring practice) | 🔴 You hire a JPM FIG banker when you need someone who knows crisis playbooks |
+| CAO Ardrey | Retired; made two discretionary open-market sales ($64 and $76) before retirement announcement | 🔴 Only genuine discretionary seller in window |
+| CAO Replacement Mucha | 641 shares sold Feb 2026 (only open-market sale in recent window) | 🟠 New exec selling into a drawdown — unusual |
+| Board (Dec 2025) | Two risk-specialist directors added, incl. Clarke Starnes III (former Truist CRO) | 🔴 Boards add risk specialists when they're thinking about risk |
+| CEO Vecchione | Medical leave Dec 2024; Gibbons dual-hatted as CEO+CFO during CRE reclassification acceleration | 🔴 Governance gap during the exact quarter hidden CRE grew |
+| Comp restructuring | Cash-settled RSUs + new Executive Stock and Bonus Deferral Plan (Dec 2025) | 🟠 Ambiguous — could be estate/tax planning or escape-hatch design |
+| All insiders | **Zero buying** | 🔴 |
+
+**Conviction change:** WAL score **19 → 20**. Now tied with EGBN as highest conviction. The CFO succession is the definitive signal — see CFO Analysis section below.
+
+---
+
+### CFO SWAP ANALYSIS — GIBBONS → IDNANI (The Biggest Flag)
+
+**The Gibbons removal:**
+- 22-year tenure = institutional memory of every WAL credit cycle since 2004
+- "VP Deposit Initiatives and Innovation" is not a real executive role at a $80B bank. It's a parking title.
+- Gibbons was already dual-hatted CEO+CFO during Vecchione's Dec 2024 medical leave — the period when CRE reclassification was accelerating. He had full visibility into what was being reclassified and how.
+- He is moved sideways, not out entirely — likely bound by transition obligations and legal exposure concerns. Cannot be fully cut until knowledge transfer is complete.
+
+**Idnani's background (JPM FIG):**
+- FIG = Financial Institutions Group. At JPM this is the team that advises banks on M&A, capital raises, restructurings, and crisis management.
+- This is the exact profile you hire when: (a) you expect a capital raise, (b) you're exploring a sale, or (c) you need someone who can run a crisis communication/regulatory engagement process
+- This is NOT the profile you hire to optimize deposit products or run BAU finance
+
+**Connection to WAL thesis:**
+- $2.73B hidden CRE (Memo Item 3 RCON2746): Gibbons would have signed off on every reclassification. His departure removes the institutional owner of that decision.
+- Jefferies double-pledging / First Brands $126.4M charge-off: Gibbons was CFO when the trade finance relationship with Jefferies deepened. The charge-off crystallized under the transition.
+- SSFA arbitrage ($17.2B at 20% RW): A JPM FIG banker would know exactly how regulators view SSFA structures under stress — and what a capital raise looks like when those weights normalize.
+- Cantor appraisals ($98M receiver, broader Note Finance review): If WAL is about to mark down Note Finance collateral in Q1, you want a crisis-experienced CFO managing the disclosure, not a 22-year lifer who built the book.
+
+**Assessment:** Gibbons didn't leave — he was repositioned while WAL loads up for a difficult Q1 disclosure. The timing (Dec 2025 board additions, Dec 2025 comp restructuring, Jan 2026 CFO transition, Q1 2026 appraisals in progress) is a coordinated preparation sequence, not coincidence.
+
+---
+
+### Cross-Bank Convergence Table
+
+| Signal | OZK (37.6% hidden CRE) | WAL (24.2% hidden CRE) |
+|--------|----------------------|----------------------|
+| CRO | 🔴 Discretionary selling | 🟡 Mechanical only |
+| CFO | 🔴 22% of holdings sold | 🔴 22-yr CFO replaced by JPM crisis banker |
+| CAO | — | 🔴 Retired + discretionary sales; replacement selling |
+| Board | None added | 🔴 Two risk specialists added Dec 2025 |
+| Buying | ❌ Zero | ❌ Zero |
+| Comp | Unknown | 🟠 Cash-settled RSUs + deferral plan |
+| **Tactic** | Crude (open-market sales) | Sophisticated (structural repositioning) |
+
+OZK insiders sell crudely because OZK is a simpler institution (one-man CRE shop). WAL insiders restructure sophisticatedly because WAL has regulatory/institutional complexity requiring optics management. **Different tactics, same message.**
 
 ---
 
@@ -613,11 +687,11 @@ Eight independent channels terminate at regional banks.
 | Rank | Bank | Score | Primary Risk | Position | Expiry |
 |------|------|-------|-------------|----------|--------|
 | 1 | **EGBN** | 20 | CRE 547% 🔴🔴 + DC 100% 🔴 + GEO 🔴🔴 — crisis state. NFP federal channel FIRED. | $25P | Jun |
-| 2 | **WAL** | 19 ↑ | CRE 474% 🔴🔴 + MFS Fraud DIRECT HIT ($126.4M Jefferies charge-off 8-K Mar 6) + MUNI shadow 🔴 | $82.5P + $85P | Jun |
+| 2 | **WAL** | **20 ↑↑** | CRE 474% 🔴🔴 + MFS Fraud DIRECT HIT ($126.4M Jefferies charge-off 8-K Mar 6) + MUNI shadow 🔴 + CFO swap (JPM FIG crisis banker) + risk board additions 🔴 | $82.5P + $85P + Sep $70P | Jun/Sep |
 | 3 | **CFG** | 15 | BDC $10-11B 🔴 + Consumer 18.7% 🟠 + FHLB 🟠 | Monitoring | — |
 | 4 | **ZION** | 14 | MUNI $5.78B lender 🔴 + NDFI 🟠 + BDC 🟠 | $57.5P | Jul |
 | 5 | **VLY** | 13 | GEO FL $7.4B 🔴 + CRE 475% 🟠 | Expired | — |
-| 6 | **OZK** | 12 | CRE 37.6% Memo3 🔴🔴 (WORST) + life science 🟠 | $42.5P | Aug |
+| 6 | **OZK** | **13 ↑** | CRE 37.6% Memo3 🔴🔴 (WORST) + life science 🟠 + CRO discretionary selling (no 10b5-1) + CFO staged ~$944K exit 🔴 | $42.5P | Aug |
 | 7 | **SSB** | 11 | GEO FL+TX 42% 🔴 + CRE MF 9.36% substandard 🟠 | $90P | Jun |
 | 8 | **FLG** | 8 | NYC MF rent-reg 🟠 + GEO 🟠 | $13P | Jul |
 | — | **KRE** | — | Broad regional stress | Multi-strike | Jun/Sep/Dec |
