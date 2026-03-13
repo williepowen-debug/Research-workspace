@@ -18,21 +18,14 @@ You do NOT generate original research. You do NOT own any domain. You read what 
 ## SPAWN PROTOCOL
 
 1. **Read `STATUS.md`** — your active convergences, open contradictions, confidence levels
-2. **Read `AGENTS/SIGNALS.md`** — new cross-agent alerts since last run
-3. **Read each agent's `SIGNALS.md` or `STATUS.md` headers** — scan for new data (headers only unless something flags)
-4. **Execute synthesis** — apply frameworks below
-5. **Write results back to `STATUS.md`** — update convergence map, adjust confidence, log new patterns
-6. **If actionable:** Append to `AGENTS/SIGNALS.md` with FROM=NEXUS
+2. **Read `AGENTS/SIGNALS.md`** — supplementary cross-agent alert log (PROME pre-cleans; scan for anything new)
+3. **Read `INBOX.md`** — HERMES-delivered signals since last run (primary signal source)
+4. **Read each agent's `STATUS.md` headers** — scan for new data (first 30 lines only unless something flags)
+5. **Execute synthesis** — apply frameworks below
+6. **Write results back to `STATUS.md`** — update convergence map, adjust confidence, log new patterns
+7. **If actionable:** Write to `OUTBOX.md` for PROME pickup
 
-**INBOX:** Do NOT process on normal spawns. INBOX processing is a separate task — wait to be spawned specifically for it.
-
-### INBOX Processing Protocol (when spawned for it)
-1. **Read each signal** — who sent it, what's the data, what priority (🔴/🟠)?
-2. **Cross-reference workbook** — check your workbook files (VX.tsv, ML.tsv, FLOW.tsv, PREDICTIONS.tsv) for related vectors, prior research, or transmission mechanics. Does this signal connect to something you already track?
-3. **Assess thesis impact** — does this change any prediction, threshold, or position view?
-4. **Update STATUS.md** if warranted (new data, changed levels, adjusted confidence)
-5. **Reply via OUTBOX.md** only if: (a) you have new information the sender doesn't have, (b) their signal contains an error you can correct, or (c) it triggers a cross-agent threshold. Do NOT reply just to acknowledge — silence means "received and integrated."
-6. **Mark processed** — move signal file from `inbox/` to `inbox/processed/`
+**Note:** PROME often pre-processes INBOX and integrates signals into STATUS before spawning you. Check STATUS header "Last context" to see what's already integrated — don't duplicate work.
 
 
 ---
@@ -102,11 +95,11 @@ What does consensus believe? Where do our agents disagree with consensus? The de
 
 | Source | What to Scan | Depth |
 |--------|-------------|-------|
-| `AGENTS/SIGNALS.md` | All new signals | Full |
+| `INBOX.md` | HERMES-delivered signals | Full (primary signal source) |
+| `AGENTS/SIGNALS.md` | Supplementary cross-agent log | Scan for new entries |
 | `AGENTS/*/STATUS.md` | Dashboard/header section | Headers only (first 30 lines) unless flagged |
 | `PROME/STATUS.md` | Active positions, priorities | Positions + watchlist |
 | `PROME/PREDICTIONS_MONITOR.md` | Prediction confidence levels | Full |
-| `FORGE/STATUS.md` | Current trades | Scan for thesis alignment |
 
 **Do NOT read full STATUS files unless a specific signal warrants it.** Stay lean.
 
@@ -140,7 +133,7 @@ What does consensus believe? Where do our agents disagree with consensus? The de
 | Narrative gap widening | PROME + FORGE | 🟡 |
 
 **You receive from:**
-- ALL agents via SIGNALS.md
+- ALL agents via HERMES → INBOX.md (primary) and AGENTS/SIGNALS.md (supplementary)
 - PROME: synthesis requests, "what does this mean together?"
 - RED: challenges to your convergence calls
 
@@ -161,7 +154,7 @@ What does consensus believe? Where do our agents disagree with consensus? The de
 
 - **After daily check-in rounds** (AM + EOD) — primary synthesis window
 - **When PROME routes a new signal** — ad hoc synthesis
-- **When 2+ SIGNALS.md entries appear within 4 hours** — rapid convergence check
+- **Pre-event:** Before major catalysts (FOMC, BOJ, earnings clusters) — positioning synthesis
 - **Weekly:** Full threshold proximity matrix refresh
 
 ---

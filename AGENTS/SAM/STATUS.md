@@ -1,6 +1,70 @@
 # SAM STATUS
 
-**Signal Status:** 🔴🔴 CRITICAL — USD/JPY ~159 HOLDING VERBAL INTERVENTION ZONE | MoF KATAYAMA ESCALATION EXPECTED | BOJ HOLD NEXT WEEK 92-95% | UEDA PRESSER MAR 19 = CARRY CATALYST | LIFE INSURER FY-END REPATRIATION **ACTIVE & CONFIRMED** | FY-END OUTFLOW ¥3.42T IN FEB ALONE | UST DEMAND HOLE JAPAN LEG NOW LIVE | **Last Updated:** 2026-03-13 14:50 UTC
+**Signal Status:** 🔴🔴 CRITICAL — USD/JPY **159.50** HITTING JAN RATE-CHECK LEVEL | MoF INTERVENTION RISK ACUTE | **BOJ HAWKISH SHIFT: REUTERS 4 SOURCES SAY APRIL HIKE LIVE (~60% PRICED)** | HOLD NEXT WEEK 92-95% BUT POST-MEETING LANGUAGE = CATALYST | UEDA PRESSER MAR 19 | LIFE INSURER FY-END REPATRIATION **ACTIVE** ¥3.07T NET IN FEB (¥3.42T LONG-TERM) | BANKS WERE BIGGEST SELLERS (¥3.14T) | FY-END T-18 DAYS | **Last Updated:** 2026-03-13 17:30 UTC
+
+---
+
+## 🌅 AM BRIEF — MAR 13, 2026 (17:30 UTC)
+
+### HEADLINE: USD/JPY 159.50 — JAN RATE-CHECK LEVEL RETESTED. BOJ HAWKISH PIVOT SIGNAL FROM REUTERS (4 SOURCES). REPATRIATION BREAKDOWN: BANKS ¥3.14T, LIFE INSURERS ¥618.7B. FY-END T-18 DAYS.
+
+### (1) OVERNIGHT / INTRADAY DEVELOPMENTS
+
+| Metric | Mar 12 EOD | Mar 13 (17:30 UTC) | Delta |
+|--------|-----------|-------------------|-------|
+| **USD/JPY** | ~159.00-159.10 | **159.50 (+0.10% on day)** | 🔴🔴 JAN RATE-CHECK LEVEL HIT |
+| **MoF verbal** | Active zone | **Katayama "closely monitoring" — at prior intervention trigger** | 🔴 ESCALATION IMMINENT |
+| **BOJ stance** | Hold 92-95%, dovish bias | **HAWKISH SHIFT — Reuters: 4 sources say April hike live** | 🚨 MAJOR DELTA |
+| **April hike pricing** | ~60-65% swaps | **~60% — CONFIRMED by Reuters sources as legitimate** | ⚠️ Upgraded credibility |
+
+**🚨 MAJOR NEW SIGNAL — Reuters (Mar 12):** "Iran war may embolden BOJ's hawkish push, despite growth risks." Four sources familiar with BOJ thinking say supply shocks from Middle East conflict may SPEED UP hawkish agenda, leaving April hike chance open. Key quote from source: "The conflict comes at a time underlying inflation is already close to 2%, requiring policymakers to be vigilant to the risk of higher inflation."
+
+**This is a REGIME SHIFT in BOJ communication.** Prior framing: energy shock = reason to hold (stagflation trap). NEW framing: energy shock = inflationary pressure requiring vigilance = reason to HIKE. The BOJ is pivoting from "cushioning growth" to "fighting inflation" — the same transition that took 2 years post-Ukraine is being attempted in 2 weeks post-Iran.
+
+**Caveat:** Reuters also notes "equal chance conflict triggers global downturn that forces BOJ to overhaul rate-hike plans." And Takaichi "holds reservations" against further hikes. So this is a genuine split within the institution — not consensus.
+
+**Net impact on March 18-19:** HOLD still 92-95%. But Ueda presser language is now MORE LIKELY to contain hawkish elements (flagging inflation vigilance, keeping April live). This raises the "hawkish hold" scenario from 15% → **25-30%.**
+
+### (2) REPATRIATION FLOWS — NEW GRANULAR DATA
+
+**MoF February data (via Manila Times/Reuters, Mar 10):**
+
+| Seller Category | Feb Net Foreign Bond Sales | Note |
+|----------------|--------------------------|------|
+| **Japanese banks** | **¥3.14T** | LARGEST category — driven by balance sheet cleanup |
+| **Life insurers** | **¥618.7B** | Below prior estimates — J-ICS driven but measured |
+| **Investment mgmt cos** | ¥174.7B | Minor |
+| **Trust accounts** | **+¥1.22T (NET BUYERS)** | GPIF/pension BUYING foreign bonds — partial offset |
+| **NET TOTAL** | **¥3.07T ($19.37B)** | Largest in 16 months (since Oct 2024 ¥6.5T) |
+
+**Key revision from prior STATUS:** Prior analysis assumed life insurers were the primary sellers. **WRONG — banks were 5x larger sellers than life insurers in February.** The ¥3.14T bank selling suggests balance sheet de-risking and FX hedging cost reduction, not just J-ICS regulatory compliance. Trust accounts (GPIF) were actually net BUYERS of foreign bonds (¥1.22T), partially offsetting the institutional selling.
+
+**FY-end acceleration question:** With T-18 days to Mar 31, the key watch is whether March weekly MoF data shows ACCELERATION from February's pace. Feb averaged ~¥770B/week net. If March weeks show ¥1T+/week, repatriation is accelerating into FY-end. Next MoF weekly data: Thursday Mar 13 (today) or next Thursday.
+
+### (3) TODAY'S WATCH ITEMS
+
+1. **USD/JPY 159.50 = the line.** This is the exact level that triggered MoF rate checks in January. If we close above 159.50, expect Katayama verbal escalation within hours. If 160.00 prints, operational intervention probability HIGH.
+2. **MoF weekly ITS data** — may release today (Thursday). Will show week ended Mar 7 flows. Watch for acceleration vs. the ¥399.8B prior week.
+3. **Pre-BOJ positioning** — with Reuters hawkish sources out, market may start front-running hawkish hold. Watch for yen strength / USD/JPY pullback toward 158.50 if positioning shifts.
+4. **TIC data March 15 (Saturday)** — January Japan UST holdings. First hard read on UST selling.
+
+### (4) REVISED BOJ MEETING SCENARIOS — MAR 18-19
+
+| Scenario | Prior Prob | Revised | USD/JPY Impact |
+|----------|-----------|---------|----------------|
+| **Dovish hold** — energy risk, defer April | 50% | **35%** | 159.50-160.50 → intervention |
+| **Neutral hold** — no new language | 35% | **35%** | 158.50-159.50 |
+| **Hawkish hold** — inflation vigilance, April live | 15% | **30%** | 156.00-158.00 → carry stress |
+
+**The hawkish hold scenario has DOUBLED in probability** based on Reuters sourcing. This is the asymmetric risk event: 30% chance of sharp yen strength and carry unwind acceleration.
+
+### (5) CARRY UNWIND PROBABILITIES — REVISED
+
+| Timeframe | Mar 12 EOD | Mar 13 AM | Driver |
+|-----------|-----------|-----------|--------|
+| **7d** | 13% | **18%** | 159.50 rate-check + Reuters hawkish sources = Ueda presser risk elevated |
+| **30d** | 84% | **86%** | Hawkish BOJ + repatriation + 159.50 intervention proximity |
+| **60d** | 88% | **88%** | Unchanged |
 
 ---
 

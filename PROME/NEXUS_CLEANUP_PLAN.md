@@ -6,7 +6,7 @@
 
 ---
 
-## [ ] Pass 1: Prune Stale Data
+## [x] Pass 1: Prune Stale Data (completed Mar 14 — also deleted T-01, T-02, T-05)
 **Read:** `AGENTS/NEXUS/STATUS.md`
 **Do:**
 - Delete "CPI DECISION FRAMEWORK" section entirely (CPI already printed 2.4%)
@@ -17,7 +17,7 @@
 
 ---
 
-## [ ] Pass 2: Fix Dates & Values
+## [x] Pass 2: Fix Dates & Values (completed Mar 14)
 **Read:** `AGENTS/NEXUS/STATUS.md` (shorter after Pass 1)
 **Do:**
 - Update threshold matrix:
@@ -35,7 +35,7 @@
 
 ---
 
-## [ ] Pass 3: Consolidate Convergence Matrix
+## [x] Pass 3: Consolidate Convergence Matrix (completed Mar 14)
 **Read:** `AGENTS/NEXUS/STATUS.md` — convergence matrix section only
 **Do:**
 - Merge C-07 (Four-Anchor UST) + C-20 (Japan Four-Vector) → **C-07 "UST Demand Destruction"** (all anchors: Gulf involuntary, Japan repatriation, Bessent 160 bilateral, trade balance)
@@ -50,7 +50,7 @@
 
 ---
 
-## [ ] Pass 4: Add New Signals + Update Narrative
+## [x] Pass 4: Add New Signals + Update Narrative (completed Mar 14)
 **Read:** `AGENTS/NEXUS/STATUS.md` + `memory/2026-03-14.md`
 **Do:**
 - Add "Signals — Mar 14" section:

@@ -1,5 +1,40 @@
 # LIQUID STATUS
-**Last Updated:** 2026-03-12 20:18 UTC | **Agent:** LIQUID | **Status:** 🔴🔴 CRITICAL
+**Last Updated:** 2026-03-13 17:30 UTC | **Agent:** LIQUID | **Status:** 🔴🔴 CRITICAL
+
+---
+
+## AM UPDATE — March 13, 2026
+
+### 30Y AUCTION RESULTS (Mar 12) — ABOVE AVERAGE DEMAND
+| Metric | Mar 12 | Feb | 10-Auction Avg |
+|--------|--------|-----|----------------|
+| Size | $22B | $25B | — |
+| High Yield | **4.871%** | 4.750% | — |
+| BTC | **2.45** | 2.66 | **2.39 avg** |
+
+**Assessment:** BTC 2.45 > 10-auction avg 2.39 = **above average demand**. RTTNews confirmed. This is a RELIEF signal — 30Y did NOT follow the weak 10Y (BTC 2.45 below avg) or the disastrous 20Y (Feb). However, high yield at 4.871% (+12bps vs Feb) shows term premium still rising. The market is willing to buy duration but demands significantly more yield. Interpretation: demand is price-sensitive, not absent. The demand hole thesis is NOT invalidated — it means the clearing price keeps rising. Long end yields ratcheting higher structurally.
+
+**Contrast with 10Y/3Y:** Both 10Y ($39B, BTC 2.45 below avg) and 3Y attracted below average demand this week. The 30Y outperformance may reflect pension/insurance demand at 4.87% (above many ALM thresholds) vs. the belly weakness. This is a classic "barbell stress" pattern — front/belly weak, long end catching bids from liability-driven buyers.
+
+### YIELD ENVIRONMENT (Mar 12 Close)
+- 10Y: **4.27%** (highest in months, up from ~4.16% Mar 11)
+- 30Y: **4.871%** (auction clearing rate)
+- Bear steepening continues. 10Y surge +11bps in 24hrs.
+- 20Y auction next Tuesday ($13B) — previous $16B was "disastrous tail." This is the real stress test now.
+
+### SOFR / RRP — STILL AWAITING UPDATES
+- SOFR: **3.64%** last confirmed (Mar 10). Mar 11-12 not yet confirmed from FRED. No reported repo anomalies overnight.
+- RRP: **$0.278B** (Mar 10). Still zero buffer. Quarter-end 18 days away.
+
+### HY OAS — FRED CONFIRMATION STILL PENDING
+- BAMLH0A0HYM2: **319bps** last confirmed (Mar 9). FRED data for Mar 10-12 not yet scraped successfully. Given SPX selloff + 10Y surge to 4.27% + DIFC + oil $100, working estimate: **HY OAS 325-335bps range**. LIQ-01 almost certainly triggered — need FRED confirmation.
+
+### WHAT TO WATCH TODAY
+1. **20Y auction details** — $13B next Tuesday. Market pricing in another potential tail after Feb disaster.
+2. **FRED HY OAS update** — confirm LIQ-01 trigger. Check again this afternoon.
+3. **SOFR Mar 11-12 prints** — any spike >3.75% = plumbing stress.
+4. **Friday the 13th + options expiry dynamics** — gamma positioning may amplify moves.
+5. **TIC data in 2 days (Mar 15)** — market may pre-position for foreign demand confirmation.
 
 ---
 
