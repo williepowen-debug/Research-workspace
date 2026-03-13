@@ -161,6 +161,7 @@ Maintain in STATUS.md. Four categories required:
 | Portfolio company layoff spike | LABOR | 🟠 |
 | Insurance/reinsurance capacity crunch | HAWK | 🟠 |
 | APO breaks $100 / Athene RBC breach | ALL | 🔴 |
+| BDC earnings data, DQ signals relevant to BDC portfolio companies | OTTO | 🟠 |
 
 **You receive from:**
 - HAWK: Oil/insurance disruption, Hormuz impact on reinsurance
@@ -186,8 +187,7 @@ Every STATUS.md update must end with a `## BOTTOM LINE` section: 2-4 sentences. 
 | `LESSONS.md` | Mistake patterns, data corrections, verification rules |
 | `EXPECTED_SIGNALS.md` | Signal interpretation guide — methodology and thresholds ONLY, no live data |
 | `workbook/VX.tsv` | Tracked vectors with thresholds and state (13 cols, HENRY standard) |
-| `workbook/KB.tsv` | Knowledge base — 13-col schema (see `workbook/SCHEMA.tsv` for definitions) |
-| `workbook/ML.tsv` | **DEPRECATED.** Historical event log (ML001-ML011). KB.tsv now serves this purpose. |
+| `workbook/KB.tsv` | Knowledge base + event log — 13-col schema (see `workbook/SCHEMA.tsv`). Primary timestamped record. Replaces deprecated ML.tsv. |
 | `workbook/FLOW.tsv` | Transmission pathways — how private credit stress reaches banks/markets (11 cols, HENRY standard) |
 | `workbook/PREDICTIONS.tsv` | Falsifiable forecasts with confidence, invalidation criteria, and resolution |
 | `workbook/SCHEMA.tsv` | Column definitions for KB.tsv (13-col canonical schema) |
