@@ -41,6 +41,10 @@ LABOR: LAB-02 80%. HENRY: SPX EPS 10-20% too high, 1973-74. CARL: K-shape 5/5 MA
 - **VLY Memo Item 3:** 7.03% — below threshold. Leadership exodus not driven by hidden CRE.
 - Full details: `memory/2026-03-14.md`, `AGENTS/REGINALD/domain/INSIDER_BEHAVIOR_SCAN.md`
 
+## ACTIVE TASK: NEXUS CLEANUP
+**Plan:** `PROME/NEXUS_CLEANUP_PLAN.md` — 5 passes with clears between each.
+**Status:** All passes unchecked. Start with Pass 1 after next clear.
+
 ## OPEN QUESTIONS
 - Roll timing: today (before FOMC) or wait for more bounce?
 - HYG sizing: how many Dec contracts?

@@ -1,5 +1,24 @@
 # LABOR STATUS
-**Last Updated:** 2026-03-12 20:15 UTC | **Status:** 🔴🔴 CRITICAL — CLAIMS FIRST CLEAN READ BENIGN (213K/1.850M). WARN PIPELINE ACCELERATING (766 NOTICES/91K WORKERS). JOLTS JAN 2026 TOMORROW 10AM ET. DOGE NET -277K CONFIRMED (OPM JAN DATA).
+**Last Updated:** 2026-03-13 14:45 UTC | **Status:** 🔴🔴 CRITICAL — CLAIMS FIRST CLEAN READ BENIGN (213K/1.850M). WARN PIPELINE ACCELERATING (766 NOTICES/91K WORKERS). JOLTS JAN 2026 TOMORROW 10AM ET. DOGE NET -277K CONFIRMED (OPM JAN DATA).
+
+**Signal Mar 13 — NFIB Feb 2026 "Poor Sales" (14:45 UTC):**
+NFIB Small Business Survey February 2026: **11% of small businesses cite "poor sales" as their single most important problem.** This is the 4th most-cited problem (behind taxes, labor quality, inflation). Key context:
+- **Tripled over the last 3 years** (from ~3-4% baseline)
+- Near highest since 2020 pandemic peak
+- **At recession-entry levels historically**
+- NFIB poor sales indicator r=**0.83** correlation with civilian unemployment rate
+- **LEADING indicator** — small firms are the largest employer category in the US. Poor sales → reduced hours → layoffs → UI claims
+- This is **PRE oil shock** (February data, pre-Hormuz)
+
+**LAB-02 ASSESSMENT UPDATE:** LAB-02 currently 80% for U-3 ≥4.7% in Q2. This signal does NOT lower confidence — it raises the question of whether **4.7% is too conservative a target**. Analysis:
+1. NFIB poor sales at r=0.83 with U-3 is one of the strongest leading correlations in labor economics. At 11% and tripling, the signal is pointing toward U-3 materially above 4.7% on a 2-4 quarter lag.
+2. The post's projection of ">5%" has historical support: prior episodes where NFIB poor sales hit these levels (2008-09, 2020) saw U-3 surge 1.5-3pp from the initial deterioration.
+3. From 4.4% current: 4.7% is only a 0.3pp move. NFIB signal at this level historically implies 0.6-1.2pp deterioration from baseline — suggesting **5.0-5.6% is where the data points on an uninterrupted trajectory.**
+4. KEY CAVEAT: This is February data — before Hormuz, before March NFP bounce (healthcare strike reversal ~+31K). The NFIB reading was formed under current conditions, not yet incorporating oil shock demand destruction.
+
+**LAB-02 REVISION:** Maintaining 80% for U-3 ≥4.7% Q2 (near-term, unchanged). **Adding LAB-12: U-3 ≥5.0% by Q3-Q4 2026 at 60% confidence** — NFIB poor sales signal + Hormuz oil shock + GDP 0.7% base + WARN pipeline = layoff wave arriving Q2, hitting U-3 in Q3. This is the extended target Will is asking about.
+
+**IWM LINKAGE:** Direct. NFIB surveys the exact universe that IWM tracks. Small caps ARE these businesses. If 11% cite poor sales now (pre-oil shock), the Q1 earnings season for small caps (April-May) will show revenue compression. IWM has already underperformed SPX significantly; this data suggests the fundamental deterioration is real, not just sentiment. Poor sales → layoffs → unemployment → reduced consumer spending → more poor sales. The feedback loop is loading. IWM bear thesis reinforced.
 
 **Signal Mar 13 — GDP Q4 2025 Second Estimate (13:09 UTC):**
 GDP Q4 2025 **REVISED TO 0.7%** (from 1.4% advance estimate). Economists expected upward revision — got cut in half. Components: Federal spending **-16.7%** (subtracted 1.16pp — DOGE/shutdown impact now in the GDP data); Consumer spending revised **2.4% → 2.0%**; Exports **-3.3%** (worse than initial). Full year 2025: **2.1%**. Labor context in the reporting: companies/nonprofits/govts cut 92K last month; 2025 added <10K jobs/month = weakest hiring outside recession years since 2002.
@@ -101,6 +120,7 @@ GDP Q4 2025 **REVISED TO 0.7%** (from 1.4% advance estimate). Economists expecte
 | ISM Services Employment | **51.8** | 🟡 | [CONF] ISM Mar 5. Up from 50.3 Jan. Expansion — modest positive. |
 | **GDP Q4 2025 (2nd Est.)** | **+0.7%** (from +1.4% advance) | 🔴 | [CONF] BEA Mar 14. Federal spending -16.7% (-1.16pp). Consumer spending 2.4%→2.0%. Exports -3.3%. Full year 2025: 2.1%. Economy entered Hormuz oil shock at near-stall speed. Confirms DOGE/shutdown in macro data. |
 | **CPI Feb 2026** | **+2.4% YoY / +0.3% MoM** | 🟠 | [CONF] BLS Mar 12. In-line. Core +0.2%, 2.5%. Apparel +1.3% = tariff bleed-in. PRE-Hormuz stale data. Market sold off pricing forward oil shock. Fed trap tightens: can't cut into worsening inflation. |
+| **NFIB Poor Sales Feb 2026** | **11%** (r=0.83 U-3) | 🔴 | [CONF] NFIB Feb 2026. 4th most-cited problem. Tripled in 3 yrs. Near 2020 highs. At recession-entry levels. **Leading indicator — small biz largest employer cohort. Layoffs follow poor sales with 1-2Q lag.** PRE-Hormuz/oil shock. Implies U-3 trajectory toward 5%+. Directly correlated with IWM fundamental deterioration. Cross: IWM bear, LAB-12 new prediction. |
 | **Consumer Front-Loading (DD-3)** | 2008 stress match | 🟠 | [CONF] DD-3 / Kilian & Zhou 2024 / Baker 2018. Savings rate 3.6%, 55% cardholders carrying balances. $4/gas = behavioral breakpoint. Low-income 2x elasticity. Demand destruction 2-3mo. Accelerates commuter-state claims thesis. Cross: CARL. |
 | **Continuing Claims (threshold)** | **1,868K** | 🟠 | [CONF] BLS Mar 5 (DHS suppression). 32K from YELLOW (1,900K). First clean read tomorrow — risk of gap-through. |
 | Cass Freight | -7.5% YoY | 🔴 | [CONF] Cass Feb. New cycle low. |
@@ -197,6 +217,7 @@ PPI core +0.8% (2.6x expected) + PCE 2.9% + Hormuz → Oil spike
 | LAB-09 | Shadow payroll gap closes | Mar-Apr 2026 | **✅ CONFIRMED** | **NFP -92K = gap was real. Resolution violent. Healthcare strike (-28K) partially temporary, but structural core ~-64K. WARN→payroll transmission r=0.78 validated.** |
 | LAB-10 | 70%+ layoff cohort shows revenue decel | Q3 2026 | 75% | Framework base rate |
 | LAB-11 | AI narrative shield breaks | Q3-Q4 | 55% | Second post-layoff earnings cycle |
+| LAB-12 | U-3 reaches 5.0%+ | Q3-Q4 2026 | **60%** 🆕 | NFIB poor sales 11% (r=0.83 with U-3) + Hormuz oil shock + GDP 0.7% base + WARN pipeline. Feb NFIB historically implies 0.6-1.2pp deterioration from baseline. Extended target. PRE-oil-shock data point. |
 
 ---
 
