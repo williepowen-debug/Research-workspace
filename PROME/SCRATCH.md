@@ -6,8 +6,8 @@
 
 ## QUICKSTART
 Scenario C, War Day 12. Brent $100. Account $57K (+190%). BROCK inbox loaded (4 signals). Other agent inboxes clear. All outboxes clear.
-**IMMEDIATE NEXT:** BROCK migration Task 2 (STATUS.md prune + archive). Task 1 COMPLETE ✅ (all 4 TSVs + SCHEMA + VX_HISTORY).
-**THEN:** Tasks 3-5. Read `AGENTS/BROCK/MIGRATION_PLAN.md` for details.
+**IMMEDIATE NEXT:** BROCK migration Task 3 (CLAUDE.md overhaul). Tasks 1-2 COMPLETE ✅.
+**THEN:** Task 4 (TRADE.md + EXPECTED_SIGNALS), Task 5 (spawn BROCK for inbox). Read `AGENTS/BROCK/MIGRATION_PLAN.md` offset 165 for Task 3 details.
 **MARKET NEXT:** JOLTS 10AM ET (Mar 13). Taiwan LNG critical date Mar 15 (2 days). DHS paycheck miss Mar 14. FOMC+TIC+BOJ Mar 17-19.
 **NEXT GREEN DAY:** Jun→Dec rolls (WAL/KRE/APO/HYG/IWM). Hamilton says Jun = 1/3 of damage. TLT size up. VIX spread widen.
 
