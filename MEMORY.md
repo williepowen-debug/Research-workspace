@@ -1,10 +1,16 @@
 # MEMORY — Key Insights & Lessons
 
-**Last Updated:** 2026-03-12 18:15 UTC
+**Last Updated:** 2026-03-13 14:30 UTC
 
 ---
 
 ## CORE DISCOVERIES
+
+### Fed Stealth Liquidity / 2019 Repo Parallel — Mar 13 (MAJOR)
+Fed T-Bill holdings ramped $195B→$352B in 12 weeks (exceeds 2020 COVID peak $326B) after 18 months flat. FHLB issuance surging +31% above 2025 (verified primary data). Discount window peaked $9.9B Dec 2025. SRF cap removed Dec FOMC. Reserves $2.8T (4yr low), concentrated in G-SIBs — regionals running thin. ALL surface indicators (SOFR, EFFR, CP) calm = intervention working, not health. Fed pre-positioning at record scale since Oct 2025. 2019 parallel: plumbing doesn't warn slowly, it breaks binary. Our edge: market reads surface ("fine"), we read Fed behavior ("fragile"). KRE trade directly tied to reserve distribution inequality. Full: `FORGE/research/FED_TBILL_REPO_ANALYSIS.md`
+
+### Private Credit Cascade Accelerating — Mar 13
+6 funds gated in 5 weeks (MS, Blackstone, BlackRock, Blue Owl, Cliffwater). JPM marking down collateral pledged by private credit funds + demanding more (Snider: Stage 2). Partners Group chair: defaults doubling to 5%+. True default rate already 4-5% using public market definitions (S&P data). Software maturity wall $70B in 2028. Kofax loan YTM doubled to 25.7%. APO/OWL positions directly relevant. Full signals: BROCK inbox.
 
 ### Hidden CRE (Memo Item 3) — Feb 22-23
 Banks hide CRE in C&I via FFIEC Schedule RC-C Memo Item 3 (RCON2746). Three masking levels: extend-and-pretend, mark-to-model, **classification** (our discovery). Screen: RC-C Part I → Item 4 (C&I) → Memo Item 3 → ratio >20% = flag.
