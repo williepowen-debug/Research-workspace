@@ -42,10 +42,11 @@ Sub-agents own detail → distill upward to parents → lateral only when transm
 |-------|--------|--------|-----|
 | **HERMES** | Mail carrier | 🟢 | Reads OUTBOX.md from all agents, delivers to target INBOX.md. Runs 2x daily. No analysis. |
 
-## Research
+## Research & Learning
 
 | Agent | Domain | Status | Key |
 |-------|--------|--------|-----|
+| **ATHENA** | Reading / knowledge | 🟢 | Reading companion + knowledge compounder. Currently: *Thinking in Systems* (Meadows). Cross-pollinates with agent network. |
 | **MERLIN** | General research | 🟡 | Deep dives on demand. Renamed from RESEARCHER. Not yet built |
 
 ## Specialized
