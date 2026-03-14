@@ -40,15 +40,26 @@
         }
         .tab-btn:hover { color: var(--text2); }
         .tab-btn.active { background: var(--bg); color: var(--text); box-shadow: 0 1px 3px rgba(0,0,0,.4); }
+        @media (max-width: 768px) {
+            .tab-nav { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+            .tab-btn { padding: 7px 10px; font-size: 11px; white-space: nowrap; }
+        }
         .header-prices { display: flex; gap: 20px; }
         .header-price { text-align: right; }
         .header-price-label { font-size: 10px; color: var(--text3); text-transform: uppercase; letter-spacing: .5px; }
         .header-price-value { font: 600 14px 'JetBrains Mono', monospace; }
+        @media (max-width: 768px) {
+            .header { padding: 0 12px; height: 48px; }
+            .header-prices { display: none; }
+            .header-left { gap: 10px; width: 100%; }
+            .logo { font-size: 14px; }
+        }
         .price-up { color: var(--green); }
         .price-down { color: var(--red); }
 
         /* ===== MAIN LAYOUT ===== */
         .main { max-width: 1400px; margin: 0 auto; padding: 20px 24px; }
+        @media (max-width: 768px) { .main { padding: 12px; } }
         .tab-page { display: none; }
         .tab-page.active { display: block; }
 
@@ -74,7 +85,7 @@
         .hero-meta-item strong { color: var(--text); }
 
         /* ===== SCENARIO BAR ===== */
-        .scenario-bar { display: flex; gap: 8px; margin-bottom: 20px; }
+        .scenario-bar { display: flex; gap: 8px; margin-bottom: 20px; flex-wrap: wrap; }
         .scenario-pill {
             flex: 1; padding: 12px 14px; border-radius: 8px; text-align: center;
             border: 1px solid var(--border); background: var(--bg2);
@@ -83,9 +94,14 @@
         .scenario-pill-label { font-size: 11px; color: var(--text3); margin-bottom: 4px; }
         .scenario-pill-prob { font: 700 22px 'JetBrains Mono', monospace; }
         .scenario-pill-name { font-size: 10px; color: var(--text3); margin-top: 2px; }
+        @media (max-width: 768px) {
+            .scenario-pill { min-width: calc(50% - 4px); flex: unset; }
+            .scenario-pill-prob { font-size: 18px; }
+        }
 
         /* ===== METRICS STRIP ===== */
         .metrics-strip { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 10px; margin-bottom: 20px; }
+        @media (max-width: 768px) { .metrics-strip { grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); gap: 6px; } }
         .metric {
             background: var(--bg2); border: 1px solid var(--border); border-radius: 8px;
             padding: 12px; text-align: center;
@@ -100,7 +116,8 @@
 
         /* ===== TWO-COL GRID ===== */
         .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 20px; }
-        @media (max-width: 900px) { .grid-2 { grid-template-columns: 1fr; } }
+        .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin-bottom: 20px; }
+        @media (max-width: 900px) { .grid-2, .grid-3 { grid-template-columns: 1fr; } }
 
         /* ===== POSITIONS TABLE ===== */
         .pos-group { margin-bottom: 14px; }
@@ -121,6 +138,7 @@
 
         /* ===== AGENTS GRID ===== */
         .agents-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 8px; }
+        @media (max-width: 768px) { .agents-grid { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); } }
         .agent-card {
             background: var(--bg3); border: 1px solid var(--border); border-radius: 8px;
             padding: 12px; cursor: pointer; transition: all .15s;
@@ -185,10 +203,24 @@
             padding: 16px 20px; border-bottom: 1px solid var(--border); position: sticky; top: 0; background: var(--bg2); z-index: 1;
         }
         .modal-title { font-size: 16px; font-weight: 600; }
+        .modal-subtitle { font-size: 12px; color: var(--text3); margin-top: 2px; }
         .modal-close { background: none; border: none; color: var(--text3); font-size: 20px; cursor: pointer; padding: 4px 8px; border-radius: 4px; }
         .modal-close:hover { background: var(--bg3); color: var(--text); }
-        .modal-body { padding: 20px; font-size: 13px; line-height: 1.7; color: var(--text2); white-space: pre-wrap; word-break: break-word; overflow-x: auto; }
+        .modal-body { padding: 20px; font-size: 13px; line-height: 1.7; color: var(--text2); overflow-x: auto; }
         .modal-body strong { color: var(--text); }
+        .modal-body .md-content { white-space: pre-wrap; word-break: break-word; }
+        .modal-body .md-content h1, .modal-body .md-content h2, .modal-body .md-content h3 { color: var(--text); margin: 16px 0 8px; }
+        .modal-status-bar { display: flex; gap: 16px; padding: 12px 16px; background: var(--bg3); border-radius: 8px; margin-bottom: 16px; flex-wrap: wrap; }
+        .modal-status-item { font-size: 12px; }
+        .modal-status-item label { color: var(--text3); margin-right: 4px; }
+        .modal-tables { margin-top: 16px; }
+        .modal-tables table { width: 100%; border-collapse: collapse; font-size: 12px; margin-bottom: 12px; }
+        .modal-tables th { text-align: left; padding: 6px 8px; font-size: 10px; color: var(--text3); text-transform: uppercase; border-bottom: 1px solid var(--border); }
+        .modal-tables td { padding: 6px 8px; border-bottom: 1px solid rgba(39,39,42,.5); }
+        @media (max-width: 768px) {
+            .modal-overlay { padding: 10px; }
+            .modal-box { max-height: 90vh; border-radius: 10px; }
+        }
 
         /* ===== FOOTER ===== */
         .footer { padding: 14px 24px; border-top: 1px solid var(--border); font-size: 11px; color: var(--text3); display: flex; justify-content: space-between; }
@@ -246,6 +278,38 @@
         .cal-table th { text-align: left; padding: 8px; font-size: 10px; color: var(--text3); text-transform: uppercase; border-bottom: 1px solid var(--border); }
         .cal-table td { padding: 8px; border-bottom: 1px solid rgba(39,39,42,.5); vertical-align: top; }
         .cal-table tr:hover { background: var(--bg3); }
+
+        /* ===== ENERGY/WAR TAB ===== */
+        .energy-hero { border-left: 4px solid var(--red); padding-left: 16px; margin-bottom: 16px; }
+        .energy-hero-title { font-size: 16px; font-weight: 700; color: var(--red); margin-bottom: 4px; }
+        .energy-hero-sub { font-size: 12px; color: var(--text2); }
+        .energy-prices { display: flex; gap: 16px; margin-bottom: 20px; flex-wrap: wrap; }
+        .energy-price-card {
+            background: var(--bg3); border: 1px solid var(--border); border-radius: 8px;
+            padding: 16px 24px; text-align: center; min-width: 120px;
+        }
+        .energy-price-card.hot { border-color: var(--red); background: var(--red-bg); }
+        .energy-price-label { font-size: 10px; color: var(--text3); text-transform: uppercase; }
+        .energy-price-value { font: 700 28px 'JetBrains Mono', monospace; margin: 4px 0; }
+        .chain-box {
+            background: var(--bg3); border: 1px solid var(--border); border-radius: 8px;
+            padding: 14px; font: 12px/1.8 'JetBrains Mono', monospace; color: var(--text2);
+            white-space: pre-wrap; border-left: 3px solid var(--orange);
+        }
+        .escalation-list { list-style: none; padding: 0; }
+        .escalation-list li { padding: 6px 10px; margin-bottom: 4px; border-radius: 6px; background: var(--bg3); font-size: 12px; display: flex; align-items: center; gap: 8px; }
+        .escalation-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+        .protocol-list { list-style: none; padding: 0; }
+        .protocol-list li { padding: 6px 10px; margin-bottom: 4px; border-radius: 6px; background: var(--bg3); font-size: 12px; border-left: 3px solid var(--red); }
+        .protocol-list.protracted li { border-left-color: var(--blue); }
+        .template-badge { display: inline-block; padding: 3px 10px; border-radius: 4px; font-size: 11px; font-weight: 600; text-transform: uppercase; }
+        .template-badge.protracted { background: var(--blue-bg); color: var(--blue); }
+        .template-badge.binary { background: var(--red-bg); color: var(--red); }
+        .agent-summary-card { background: var(--bg3); border: 1px solid var(--border); border-radius: 8px; padding: 14px; cursor: pointer; transition: all .15s; }
+        .agent-summary-card:hover { border-color: var(--border2); }
+        .agent-summary-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
+        .agent-summary-name { font-size: 14px; font-weight: 600; }
+        .agent-summary-lines { font-size: 11px; color: var(--text3); line-height: 1.5; max-height: 80px; overflow: hidden; }
     </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.6/vis-network.min.js"></script>
 </head>
@@ -260,6 +324,7 @@
             <button class="tab-btn" data-tab="data">Data</button>
             <button class="tab-btn" data-tab="predictions">Predictions</button>
             <button class="tab-btn" data-tab="network">Network</button>
+            <button class="tab-btn" data-tab="energy">Energy/War</button>
             <button class="tab-btn" data-tab="calendar">Calendar</button>
         </nav>
     </div>
@@ -396,6 +461,77 @@
             <div id="network-graph" style="width:100%; height:calc(100vh - 200px);"></div>
         </div>
         <div id="network-legend" style="display:flex; justify-content:center; gap:20px; padding:12px; flex-wrap:wrap;"></div>
+    </div>
+
+    <!-- ====== ENERGY/WAR TAB ====== -->
+    <div class="tab-page" id="tab-energy">
+        <!-- War Status Hero -->
+        <div class="card card-glow-red">
+            <div class="energy-hero" id="energy-hero"></div>
+            <div class="energy-prices" id="energy-prices"></div>
+        </div>
+
+        <!-- Scenario Probabilities (reused) -->
+        <div class="scenario-bar" id="energy-scenarios"></div>
+
+        <!-- Hamilton Framework -->
+        <div class="card card-glow-blue">
+            <div class="card-title">🛢️ Hamilton Demand Destruction Framework</div>
+            <div class="hamilton" id="energy-hamilton"></div>
+        </div>
+
+        <!-- Three-col: Taiwan LNG / TSMC Chain / Fertilizer -->
+        <div class="grid-2">
+            <div class="card">
+                <div class="card-title">🇹🇼 Taiwan LNG Critical Path</div>
+                <div id="energy-taiwan"></div>
+                <div style="margin-top:12px;">
+                    <div style="font-size:11px;font-weight:600;color:var(--text3);margin-bottom:6px;">TSMC INFLATION CHAIN</div>
+                    <div class="chain-box" id="energy-tsmc-chain"></div>
+                </div>
+                <div style="margin-top:12px;">
+                    <div style="font-size:11px;font-weight:600;color:var(--text3);margin-bottom:6px;">ESCALATION INDICATORS</div>
+                    <ul class="escalation-list" id="energy-escalation"></ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-title">🌾 Fertilizer Shortage Calendar</div>
+                <div id="energy-fert-header" style="font-size:12px;color:var(--orange);font-weight:600;margin-bottom:10px;"></div>
+                <div id="energy-fertilizer"></div>
+                <div style="margin-top:12px;">
+                    <div style="font-size:11px;font-weight:600;color:var(--text3);margin-bottom:6px;">FEEDBACK LOOP</div>
+                    <div class="chain-box" id="energy-fert-loop"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Exit Rules -->
+        <div class="card">
+            <div class="card-title">🚪 Exit Rules — <span class="template-badge" id="energy-template"></span></div>
+            <div id="energy-exit-table"></div>
+            <div class="grid-2" style="margin-top:16px;">
+                <div>
+                    <div style="font-size:11px;font-weight:600;color:var(--red);margin-bottom:6px;">⚡ SCENARIO A (BINARY) EXIT</div>
+                    <ul class="protocol-list" id="energy-exit-a"></ul>
+                </div>
+                <div>
+                    <div style="font-size:11px;font-weight:600;color:var(--blue);margin-bottom:6px;">📐 SCENARIO C (PROTRACTED) EXIT</div>
+                    <ul class="protocol-list protracted" id="energy-exit-c"></ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cross-Agent Transmission + Key Agent Summaries -->
+        <div class="grid-2">
+            <div class="card">
+                <div class="card-title">🔗 Cross-Agent Transmission Matrix</div>
+                <div id="energy-cross-agent"></div>
+            </div>
+            <div class="card">
+                <div class="card-title">🤖 Key Agent Status</div>
+                <div style="display:grid;gap:8px;" id="energy-agents"></div>
+            </div>
+        </div>
     </div>
 
     <!-- ====== CALENDAR TAB ====== -->
@@ -1004,6 +1140,151 @@ function renderCalendar() {
 }
 
 // ============================================================
+// ENERGY/WAR TAB RENDERERS
+// ============================================================
+
+let energyData = null;
+
+function renderEnergyTab() {
+    if (!energyData) return;
+
+    // Hero
+    const hero = document.getElementById('energy-hero');
+    hero.innerHTML = `
+        <div class="energy-hero-title">${energyData.headline || 'Scenario C Active'}</div>
+        <div class="energy-hero-sub">${energyData.scenario_c_duration || ''}</div>
+    `;
+
+    // Prices
+    const pricesEl = document.getElementById('energy-prices');
+    const brent = energyData.brent;
+    const wti = energyData.wti;
+    const ung = energyData.ung;
+    pricesEl.innerHTML = `
+        <div class="energy-price-card ${brent && brent >= 100 ? 'hot' : ''}">
+            <div class="energy-price-label">Brent Crude</div>
+            <div class="energy-price-value">${brent ? '$' + brent : '—'}</div>
+        </div>
+        <div class="energy-price-card ${wti && wti >= 95 ? 'hot' : ''}">
+            <div class="energy-price-label">WTI Crude</div>
+            <div class="energy-price-value">${wti ? '$' + wti : '—'}</div>
+        </div>
+        <div class="energy-price-card">
+            <div class="energy-price-label">Nat Gas (UNG)</div>
+            <div class="energy-price-value">${ung ? '$' + ung : '—'}</div>
+        </div>
+    `;
+
+    // Scenarios (same as overview)
+    const scenEl = document.getElementById('energy-scenarios');
+    if (energyData.scenarios?.length) {
+        scenEl.innerHTML = energyData.scenarios.map(s => {
+            const prob = stripMdBold(s.Prob || '');
+            const isBase = (s.Scenario || '').includes('BASE CASE');
+            return `<div class="scenario-pill ${isBase ? 'active' : ''}">
+                <div class="scenario-pill-label">${(s.Scenario || '').split('—')[0].trim()}</div>
+                <div class="scenario-pill-prob">${prob}</div>
+                <div class="scenario-pill-name">${stripMdBold((s.Description || '').substring(0, 50))}</div>
+            </div>`;
+        }).join('');
+    }
+
+    // Hamilton
+    document.getElementById('energy-hamilton').textContent = energyData.hamilton || 'No data';
+
+    // Taiwan LNG table
+    const taiwanEl = document.getElementById('energy-taiwan');
+    if (energyData.taiwan_lng?.length) {
+        const headers = Object.keys(energyData.taiwan_lng[0]);
+        taiwanEl.innerHTML = `<table class="cal-table">
+            <thead><tr>${headers.map(h => `<th>${h}</th>`).join('')}</tr></thead>
+            <tbody>${energyData.taiwan_lng.map(row =>
+                `<tr>${headers.map(h => `<td>${row[h] || ''}</td>`).join('')}</tr>`
+            ).join('')}</tbody>
+        </table>`;
+    }
+
+    // TSMC chain
+    document.getElementById('energy-tsmc-chain').textContent = energyData.tsmc_chain || 'No data';
+
+    // Escalation indicators
+    const escEl = document.getElementById('energy-escalation');
+    if (energyData.taiwan_escalation?.length) {
+        escEl.innerHTML = energyData.taiwan_escalation.map(item => {
+            const color = item.includes('🔴🔴') ? 'var(--red)' : item.includes('RED') ? 'var(--red)' : item.includes('ORANGE') ? 'var(--orange)' : 'var(--yellow)';
+            return `<li><span class="escalation-dot" style="background:${color};box-shadow:0 0 6px ${color};"></span>${item}</li>`;
+        }).join('');
+    }
+
+    // Fertilizer
+    document.getElementById('energy-fert-header').textContent = energyData.fertilizer_header || '';
+    const fertEl = document.getElementById('energy-fertilizer');
+    if (energyData.fertilizer?.length) {
+        const headers = Object.keys(energyData.fertilizer[0]);
+        fertEl.innerHTML = `<table class="cal-table">
+            <thead><tr>${headers.map(h => `<th>${h}</th>`).join('')}</tr></thead>
+            <tbody>${energyData.fertilizer.map(row =>
+                `<tr>${headers.map(h => `<td>${row[h] || ''}</td>`).join('')}</tr>`
+            ).join('')}</tbody>
+        </table>`;
+    }
+    document.getElementById('energy-fert-loop').textContent = energyData.fertilizer_loop || 'No data';
+
+    // Exit rules
+    const tmplEl = document.getElementById('energy-template');
+    const tmpl = (energyData.exit_template || 'PROTRACTED').toUpperCase();
+    tmplEl.textContent = tmpl;
+    tmplEl.className = `template-badge ${tmpl === 'PROTRACTED' ? 'protracted' : 'binary'}`;
+
+    const exitTableEl = document.getElementById('energy-exit-table');
+    if (energyData.exit_rules?.length) {
+        const headers = Object.keys(energyData.exit_rules[0]);
+        exitTableEl.innerHTML = `<table class="cal-table">
+            <thead><tr>${headers.map(h => `<th>${h}</th>`).join('')}</tr></thead>
+            <tbody>${energyData.exit_rules.map(row =>
+                `<tr>${headers.map(h => `<td>${row[h] || ''}</td>`).join('')}</tr>`
+            ).join('')}</tbody>
+        </table>`;
+    }
+
+    const exitA = document.getElementById('energy-exit-a');
+    exitA.innerHTML = (energyData.exit_protocol_a || []).map(item => `<li>${item}</li>`).join('') || '<li>No protocol loaded</li>';
+    const exitC = document.getElementById('energy-exit-c');
+    exitC.innerHTML = (energyData.exit_protocol_c || []).map(item => `<li>${item}</li>`).join('') || '<li>No protocol loaded</li>';
+
+    // Cross-agent matrix
+    const caEl = document.getElementById('energy-cross-agent');
+    if (energyData.cross_agent?.length) {
+        const headers = Object.keys(energyData.cross_agent[0]);
+        caEl.innerHTML = `<table class="matrix-table">
+            <thead><tr>${headers.map(h => `<th>${h}</th>`).join('')}</tr></thead>
+            <tbody>${energyData.cross_agent.map(row =>
+                `<tr>${headers.map(h => `<td>${row[h] || ''}</td>`).join('')}</tr>`
+            ).join('')}</tbody>
+        </table>`;
+    }
+
+    // Key agent summaries
+    const agentsEl = document.getElementById('energy-agents');
+    let agentsHtml = '';
+    for (const key of ['agent_hawk', 'agent_brent', 'agent_sam', 'agent_liquid']) {
+        const a = energyData[key];
+        if (!a) continue;
+        const name = key.replace('agent_', '').toUpperCase();
+        const statusColor = { red3: 'var(--red)', red: 'var(--red)', orange: 'var(--orange)', yellow: 'var(--yellow)', green: 'var(--green)' }[a.status] || 'var(--text3)';
+        agentsHtml += `<div class="agent-summary-card" onclick="openAgent('${name}')">
+            <div class="agent-summary-header">
+                <span class="agent-summary-name">${name}</span>
+                <span class="agent-dot ${a.status || 'unknown'}"></span>
+            </div>
+            <div class="agent-summary-lines">${(a.header_lines || []).slice(0, 5).join('\n')}</div>
+            <div style="font-size:10px;color:var(--text3);margin-top:6px;">Updated: ${a.updated || '—'}</div>
+        </div>`;
+    }
+    agentsEl.innerHTML = agentsHtml;
+}
+
+// ============================================================
 // AGENT MODAL
 // ============================================================
 
@@ -1011,7 +1292,7 @@ async function openAgent(name) {
     const modal = document.getElementById('modal');
     const title = document.getElementById('modal-title');
     const body = document.getElementById('modal-body');
-    title.textContent = name;
+    title.innerHTML = `${name} <div class="modal-subtitle">${AGENT_LABELS_JS[name] || ''}</div>`;
     body.textContent = 'Loading...';
     modal.classList.add('active');
 
@@ -1021,11 +1302,54 @@ async function openAgent(name) {
         return;
     }
 
-    // Show status + header + truncated text
-    const statusLine = data.status_line || '';
-    const updated = data.updated || '';
-    const text = data.full_text || '';
-    body.innerHTML = `<div style="margin-bottom:12px;"><strong>Status:</strong> ${data.status} · <strong>Updated:</strong> ${updated}</div><hr style="border-color:var(--border);margin:12px 0;">` + escapeHtml(text);
+    const statusColor = { red3: 'var(--red)', red: 'var(--red)', orange: 'var(--orange)', yellow: 'var(--yellow)', green: 'var(--green)', unknown: 'var(--text3)' }[data.status] || 'var(--text3)';
+
+    let html = `<div class="modal-status-bar">
+        <div class="modal-status-item"><label>Status:</label><span style="color:${statusColor};font-weight:600;">${data.status?.toUpperCase()}</span></div>
+        <div class="modal-status-item"><label>Updated:</label><span>${data.updated || '—'}</span></div>
+        <div class="modal-status-item"><label>Name:</label><span style="font-weight:600;">${name}</span></div>
+    </div>`;
+
+    // Render tables if any
+    if (data.tables?.length) {
+        html += '<div class="modal-tables">';
+        for (const table of data.tables) {
+            const headers = Object.keys(table[0]);
+            html += `<table><thead><tr>${headers.map(h => `<th>${h}</th>`).join('')}</tr></thead><tbody>${table.map(row =>
+                `<tr>${headers.map(h => `<td>${escapeHtml(row[h] || '')}</td>`).join('')}</tr>`
+            ).join('')}</tbody></table>`;
+        }
+        html += '</div>';
+    }
+
+    // Render full text with basic markdown formatting
+    html += `<div class="md-content">${renderMarkdown(data.full_text || '')}</div>`;
+    body.innerHTML = html;
+}
+
+const AGENT_LABELS_JS = {
+    LABOR: 'Employment/Claims', CARL: 'Consumer Credit', HENRY: 'Market Structure',
+    SAM: 'Japan/BOJ/JGB', REGINALD: 'Regional Banks', LIQUID: 'Funding/Treasury',
+    MARCO: 'Migration/Labor', OTTO: 'Auto/Consumer DQ', BROCK: 'BDC/Private Credit',
+    HAWK: 'Geopolitical/Military', BRENT: 'Oil/Energy', ZHAO: 'China/Capital Flows',
+    HANS: 'Europe (US Lens)', SHADE: 'PE-Insurance-Captive', NEXUS: 'Cross-Agent Synthesis',
+    RED: 'Adversarial Analysis', DARWIN: 'System Evolution', PROME: 'Orchestrator',
+};
+
+function renderMarkdown(text) {
+    // Basic markdown rendering: headers, bold, code blocks, lists
+    let html = escapeHtml(text);
+    // Code blocks
+    html = html.replace(/```\n([\s\S]*?)```/g, '<pre style="background:var(--bg3);padding:10px;border-radius:6px;font-size:11px;overflow-x:auto;border:1px solid var(--border);">$1</pre>');
+    // Headers
+    html = html.replace(/^### (.+)$/gm, '<h3 style="font-size:14px;font-weight:600;color:var(--text);margin:14px 0 6px;">$1</h3>');
+    html = html.replace(/^## (.+)$/gm, '<h2 style="font-size:15px;font-weight:700;color:var(--text);margin:18px 0 8px;">$1</h2>');
+    html = html.replace(/^# (.+)$/gm, '<h1 style="font-size:17px;font-weight:700;color:var(--text);margin:20px 0 10px;">$1</h1>');
+    // Bold
+    html = html.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+    // Horizontal rules
+    html = html.replace(/^---$/gm, '<hr style="border:none;border-top:1px solid var(--border);margin:12px 0;">');
+    return html;
 }
 
 function escapeHtml(s) {
@@ -1055,7 +1379,7 @@ document.querySelectorAll('.tab-btn[data-tab]').forEach(btn => {
 // ============================================================
 
 async function loadAll() {
-    const [status, prices, fred, bls, preds, treasury, sec, alerts] = await Promise.all([
+    const [status, prices, fred, bls, preds, treasury, sec, alerts, energy] = await Promise.all([
         fetchJSON('/api/status'),
         fetchJSON('/api/prices'),
         fetchJSON('/api/fred'),
@@ -1064,6 +1388,7 @@ async function loadAll() {
         fetchJSON('/api/treasury'),
         fetchJSON('/api/sec'),
         fetchJSON('/api/alerts'),
+        fetchJSON('/api/energy'),
     ]);
 
     statusData = status;
@@ -1074,6 +1399,7 @@ async function loadAll() {
     treasuryData = treasury;
     secData = sec;
     alertsData = alerts;
+    energyData = energy;
 
     // Overview tab
     renderHeaderPrices();
@@ -1101,6 +1427,9 @@ async function loadAll() {
 
     // Calendar tab
     renderCalendar();
+
+    // Energy/War tab
+    renderEnergyTab();
 
     document.getElementById('last-updated').textContent = new Date().toLocaleTimeString();
     document.getElementById('refresh-dot').className = 'refresh-dot';
