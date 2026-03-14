@@ -1,1 +1,21 @@
-{"fred_JTSJOL": true, "KRE": false, "VIX": false, "BTC": false, "USDJPY": false, "TNX": false, "HYG": false, "fred_ICSA": false, "fred_CCSA": false, "fred_TEMPHELPS": false, "fred_UNRATE": false, "fred_PAYEMS": false, "CVNA": false, "WAL": true, "OZK": false, "fred_U6RATE": false, "fred_BAMLH0A0HYM2": false, "fred_SOFR": false, "fred_RRPONTSYD": true}
+{
+  "fred_JTSJOL": true,
+  "KRE": false,
+  "VIX": true,
+  "BTC": false,
+  "USDJPY": false,
+  "TNX": false,
+  "HYG": false,
+  "fred_ICSA": false,
+  "fred_CCSA": false,
+  "fred_TEMPHELPS": false,
+  "fred_UNRATE": false,
+  "fred_PAYEMS": false,
+  "CVNA": false,
+  "WAL": true,
+  "OZK": false,
+  "fred_U6RATE": false,
+  "fred_BAMLH0A0HYM2": false,
+  "fred_SOFR": false,
+  "fred_RRPONTSYD": true
+}

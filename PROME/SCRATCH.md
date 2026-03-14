@@ -36,11 +36,10 @@ Scenario C, War Day 13. Brent $100+. Account ~$57K (+187%).
 ### Parked
 - Thesis deck — evidence + outline complete, slides TBD
 - 5 research prompts in WILL/PROMPTS.md ready for multi-LLM runs
-- Online dashboard — Will wants to update next session
 
 ## Handoff
-**Last context:** Three major spawns tonight (NEXUS×2, RED). System infrastructure significantly improved — RED modernized after 30 days stale, NEXUS gap analysis surfaced blind spots. RED couldn't break the thesis (A- direction) but flagged Russia relief + AAPL concentration + near-term roll urgency.
-**Next tide:** Will wants to work on online dashboard next session. Market execution Monday (rolls, cuts). Ceasefire playbook should be drafted before FOMC.
-**Open questions:** Dashboard scope/status. Russia NOPI revision. Ceasefire playbook format.
-**Positions:** No changes this session — pure system/adversarial work.
-**Rhythm note:** Will breaking for new session. Good productive evening — three spawns, all delivered, RED architecture rebuilt. Weekend ahead, light monitoring only.
+**Last context:** Dashboard Segments 1-3 COMPLETE. All 5 tabs working: Overview, Data (FRED/BLS/prices/treasury/SEC/alerts), Predictions (calibration/imminent/approaching/by-agent), Network (vis.js 18-agent graph), Calendar (catalysts/Taiwan LNG/fertilizer/exit rules). Server running port 8080. Plan: `dashboard/REBUILD_PLAN.md`.
+**Next tide:** SEGMENT 4 — polish (mobile responsive, Energy/War tab, agent detail modals, Telegram alerts). Then market execution Monday.
+**Open questions:** Russia NOPI revision. Ceasefire playbook format.
+**Positions:** No changes — system work only.
+**Rhythm note:** Saturday morning. Weekend, light monitoring.
