@@ -302,16 +302,48 @@ def parse_status():
     taiwan_section = extract_section(text, "Taiwan LNG Critical Path", 2)
     if taiwan_section:
         result["taiwan_lng"] = parse_md_table(taiwan_section)
+        # Extract TSMC chain
+        tsmc_match = re.search(r'```\n(Hormuz closure.*?)```', taiwan_section, re.DOTALL)
+        if tsmc_match:
+            result["tsmc_chain"] = tsmc_match.group(1).strip()
+        # Escalation indicators
+        esc_match = re.search(r'Escalation indicators.*?:\*\*\n(.*?)(?:\n\n|\n---|\Z)', taiwan_section, re.DOTALL)
+        if esc_match:
+            result["taiwan_escalation"] = [l.strip().lstrip('- ') for l in esc_match.group(1).strip().split('\n') if l.strip().startswith('-')]
     
     # Fertilizer
     fert_section = extract_section(text, "Fertilizer Shortage Calendar", 2)
     if fert_section:
         result["fertilizer"] = parse_md_table(fert_section)
+        # Extract the feedback loop
+        loop_match = re.search(r'```\n(Fertilizer shortage.*?)```', fert_section, re.DOTALL)
+        if loop_match:
+            result["fertilizer_loop"] = loop_match.group(1).strip()
+        # Extract header stat
+        header_match = re.search(r'\*\*(.+?urea.+?)\*\*', fert_section)
+        if header_match:
+            result["fertilizer_header"] = header_match.group(1)
     
     # Exit rules
     exit_section = extract_section(text, "Exit Rules", 2)
     if exit_section:
         result["exit_rules"] = parse_md_table(exit_section)
+        # Current template
+        tmpl = re.search(r'Current template:\s*(\w+)', exit_section)
+        if tmpl:
+            result["exit_template"] = tmpl.group(1)
+        # Extract scenario A protocol
+        proto_a = re.search(r'Scenario A exit protocol.*?:\*\*\n(.*?)(?=\n\*\*Scenario C|\n\n---|\Z)', exit_section, re.DOTALL)
+        if proto_a:
+            result["exit_protocol_a"] = [l.strip().lstrip('- ') for l in proto_a.group(1).strip().split('\n') if l.strip().startswith('-')]
+        proto_c = re.search(r'Scenario C exit.*?:\*\*\n(.*?)(?:\n\n---|\n\n##|\Z)', exit_section, re.DOTALL)
+        if proto_c:
+            result["exit_protocol_c"] = [l.strip().lstrip('- ') for l in proto_c.group(1).strip().split('\n') if l.strip().startswith('-')]
+    
+    # Scenario C duration
+    dur_match = re.search(r'Scenario C duration revision.*?\*\*(.+?)\*\*', text)
+    if dur_match:
+        result["scenario_c_duration"] = dur_match.group(1)
     
     return cache_set(status_cache, result)
 
@@ -432,7 +464,7 @@ def parse_agent_status(name):
         "updated": "",
         "header_lines": [],
         "tables": [],
-        "full_text": text[:10000],  # Cap at 10KB for API response
+        "full_text": text[:15000],  # Cap at 15KB for API response
     }
     
     # Parse first line for status
@@ -445,7 +477,7 @@ def parse_agent_status(name):
         result["updated"] = m.group(1).strip()
     
     # Extract status level
-    m = re.search(r'\*\*Status:\*\*\s*(.+?)(?:\n|$)', text)
+    m = re.search(r'\*\*(?:Overall\s+|Signal\s+)?Status:\*\*\s*(.+?)(?:\n|$)', text)
     if m:
         status_text = m.group(1)
         if '🔴🔴🔴' in status_text or 'TRIPLE' in status_text.upper():
@@ -908,6 +940,43 @@ class DashboardHandler(http.server.SimpleHTTPRequestHandler):
             self.send_json(data.get("pending", []))
             return
         
+        # Energy/War aggregate endpoint
+        if path == '/api/energy':
+            data = parse_status()
+            energy = {
+                "scenarios": data.get("scenarios", []),
+                "hamilton": data.get("hamilton"),
+                "taiwan_lng": data.get("taiwan_lng", []),
+                "tsmc_chain": data.get("tsmc_chain"),
+                "taiwan_escalation": data.get("taiwan_escalation", []),
+                "fertilizer": data.get("fertilizer", []),
+                "fertilizer_header": data.get("fertilizer_header"),
+                "fertilizer_loop": data.get("fertilizer_loop"),
+                "exit_rules": data.get("exit_rules", []),
+                "exit_template": data.get("exit_template"),
+                "exit_protocol_a": data.get("exit_protocol_a", []),
+                "exit_protocol_c": data.get("exit_protocol_c", []),
+                "scenario_c_duration": data.get("scenario_c_duration"),
+                "cross_agent": data.get("cross_agent", []),
+                "headline": data.get("headline"),
+            }
+            # Add HAWK and BRENT agent summaries
+            for agent_name in ["HAWK", "BRENT", "SAM", "LIQUID"]:
+                agent_data = parse_agent_status(agent_name)
+                if agent_data and not agent_data.get("error"):
+                    energy[f"agent_{agent_name.lower()}"] = {
+                        "status": agent_data.get("status"),
+                        "updated": agent_data.get("updated"),
+                        "header_lines": agent_data.get("header_lines", [])[:10],
+                    }
+            # Add oil prices
+            prices = fetch_prices()
+            energy["brent"] = prices.get("BZ", {}).get("value")
+            energy["wti"] = prices.get("CL", {}).get("value")
+            energy["ung"] = prices.get("UNG", {}).get("value")
+            self.send_json(energy)
+            return
+        
         # All agents summary
         if path == '/api/agents':
             self.send_json(list_all_agents())
@@ -1007,7 +1076,7 @@ class DashboardHandler(http.server.SimpleHTTPRequestHandler):
                 "endpoints": [
                     "/api/status", "/api/positions", "/api/scenarios",
                     "/api/catalysts", "/api/convictions", "/api/pending",
-                    "/api/agents", "/api/agent/{name}",
+                    "/api/agents", "/api/agent/{name}", "/api/energy",
                     "/api/prices", "/api/fred", "/api/bls",
                     "/api/treasury", "/api/sec", "/api/predictions",
                     "/api/alerts", "/api/subagents", "/api/file?path=...",

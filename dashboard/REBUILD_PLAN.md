@@ -36,11 +36,13 @@
 - Calendar tab
 - **Exit state:** All tabs functional
 
-### SEGMENT 4: Polish + new features ← START HERE
-- Energy/War tab (Scenario C, Hormuz, Hamilton timeline, fertilizer, Taiwan LNG)
-- Mobile responsive
-- Agent detail modals (click → rendered STATUS.md)
-- Telegram alert improvements
+### SEGMENT 4: Polish + new features ✅ COMPLETE (Mar 14)
+- ✅ Energy/War tab: scenario hero + oil prices, scenario probabilities, Hamilton framework, Taiwan LNG + TSMC chain + escalation indicators, fertilizer calendar + feedback loop, exit rules (binary vs protracted) with protocols, cross-agent transmission matrix, key agent summaries (HAWK/BRENT/SAM/LIQUID)
+- ✅ Mobile responsive: all layouts flex/wrap on ≤768px (header, tabs, scenarios, metrics, grids, modals)
+- ✅ Agent detail modals: status bar (color-coded), table rendering, markdown formatting (headers/bold/code/hr)
+- ✅ `/api/energy` endpoint: aggregates scenarios + hamilton + taiwan + fertilizer + exit rules + cross-agent + agent summaries + oil prices
+- ✅ Agent status parser: handles `**Overall Status:**`, `**Signal Status:**` variants
+- ✅ New parsers: tsmc_chain, taiwan_escalation, fertilizer_loop, fertilizer_header, exit_protocol_a/c, exit_template, scenario_c_duration
 - **Exit state:** Production-ready
 
 ## Key Files
