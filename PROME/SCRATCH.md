@@ -1,41 +1,46 @@
 # SCRATCH — Ephemeral Working Memory
 
-**Updated:** 2026-03-13 ~22:15 UTC
+**Updated:** 2026-03-14 ~00:00 UTC (Friday night)
 
 ---
 
 ## QUICKSTART
 Scenario C, War Day 13. Brent $100+. Account ~$57K (+187%).
-**FOMC MONDAY.** 0-cut dots into stagflation. All agents 🔴.
+**FOMC MON-TUE, presser WED 2:30 PM ET.** 0-cut dots into stagflation. All agents 🔴.
 **GDP 0.7% + Core PCE 3.1% = Fed paralyzed.** Hamilton: -2.3 to -4.2% GDP at peak.
 
-## 🔵 ACTIVE PROJECT: THESIS DECK — EVIDENCE COMPLETE, OUTLINE DONE
-All files in `PROME/deck/`.
+## SESSION WORK (Mar 13 evening)
+- Spawned NEXUS for pre-FOMC synthesis → ✅ complete, OUTBOX.md delivered
+- Spawned NEXUS gap analysis → ✅ complete, 10 blind spots identified (RED stale, ceasefire playbook, Q-end repo, IG spreads, Korea)
+- Rebuilt RED CLAUDE.md from archived version (modernized paths, added TSV persistence instructions)
+- Rebuilt RED STATUS.md with current context (was frozen Feb 13)
+- Spawned RED emergency sweep → ✅ complete. Thesis grade: A- direction / C+ timing. Key findings: Russia sanctions relief unmodeled, employment still holding (213K), BTFP 2.0 probability down to 25-30%, AAPL 45% concentration unmonitored, HYG Jun + APO Apr need immediate rolls.
+- RED relatively conciliatory — genuine sign thesis is strong, not confirmation bias (we checked)
 
-| File | Status |
-|------|--------|
-| `PROME/deck/SYNTHESIS.md` | ✅ All 4 batches complete. Quality assessments, top 10 per batch, narrative arc, 7 final slide sentences, two-detonator framework. |
-| `PROME/deck/DECK_OUTLINE.md` | ✅ Compressed 12 acts → 7 sections, ~27-30 slides. All sections built including Section 7 (The Trade) from live portfolio. |
-| `PROME/deck/PROMPTS.md` | ✅ All agent prompts saved. |
-| 10× `AGENTS/*/DECK_EVIDENCE.md` | ✅ All 10 agents delivered. All pushed to GitHub. |
+## 🔴 OPEN ITEMS (PRIORITY ORDER)
 
-**Next steps for deck:**
-1. Build actual slides from the outline (format TBD — markdown? Google Slides? Reveal.js?)
-2. LABOR evidence was never explicitly synthesized (likely overlaps MARCO) — check if unique material exists
-3. Will may want to add/edit Section 7 (trade details, what to show vs. keep private)
-4. Visual: the full-loop diagram (Sec 6.3) needs a graphic, not just words
+### Market Open Monday
+1. **Jun→Dec rolls** — KRE, WAL, HYG, APO, IWM. Green day needed. WAL $85P Jun (+179%) first.
+2. **APO Apr (+34%)** — roll or exit, near-term expiry risk
+3. **Dead money cuts** — VLY Mar20 (expires THIS WEEK), OWL Apr, EGBN Jun
+
+### Research/System
+4. **Ceasefire unwind playbook** — doesn't exist. Pre-set limit orders, position-by-position exit framework.
+5. **Russia sanctions relief modeling** — RED flagged. BRENT needs revised NOPI with Russian supply partially filling Hormuz gap.
+6. **Quarter-end repo stress (Mar 31)** — RRP buffer gone ($0.278B), nobody modeling it
+7. **NEXUS cleanup Pass 5** — final sanity check after Passes 1-4
+8. **WBS Memo Item 3 screen** — #1 KRE holding, never screened
+9. **IG spreads** — $9T market, no threshold, no owner, no framework
+10. **Korea** — USD/KRW >1,500, orphaned in ZHAO footnotes
+
+### Parked
+- Thesis deck — evidence + outline complete, slides TBD
+- 5 research prompts in WILL/PROMPTS.md ready for multi-LLM runs
+- Online dashboard — Will wants to update next session
 
 ## Handoff
-**Last context:** Deck evidence assembly complete. 10 agents spawned, all returned, all synthesized in 4 batches, compressed to 7-section outline with trade section built from live portfolio. Both key standalone slides (BRENT skeptic objections + LIQUID rescue table) delivered to Will via Telegram.
-**Next tide:** (1) Deck build when Will's ready. (2) FOMC Monday — prepare for dot plot reaction. (3) Normal signal monitoring resumes.
-**Open questions:** Deck format (what tool to actually build slides in). What trade details to show vs. keep private in shareable version.
-**Positions:** No changes this session — pure research/synthesis work.
-**Rhythm note:** Will is switching to a new session for different work. Deck is parked but ready. Good energy tonight — the 10-agent parallel spawn worked well.
-**Today's work:**
-- Spawned all 10 agents for deck evidence assembly (LABOR, CARL, REGINALD, LIQUID, BRENT, HAWK, ZHAO, MARCO, HENRY, SAM)
-- All 10 returned DECK_EVIDENCE.md files
-- Read all 10 in 4 batches, wrote SYNTHESIS.md with quality assessments + cross-agent overlap mapping + top 10 per batch + narrative arc
-- Compressed 12 acts → 7 sections in DECK_OUTLINE.md
-- Built Section 7 (The Trade) from live FORGE portfolio
-- Delivered BRENT skeptic objections + LIQUID rescue table to Telegram
-- All pushed to GitHub
+**Last context:** Three major spawns tonight (NEXUS×2, RED). System infrastructure significantly improved — RED modernized after 30 days stale, NEXUS gap analysis surfaced blind spots. RED couldn't break the thesis (A- direction) but flagged Russia relief + AAPL concentration + near-term roll urgency.
+**Next tide:** Will wants to work on online dashboard next session. Market execution Monday (rolls, cuts). Ceasefire playbook should be drafted before FOMC.
+**Open questions:** Dashboard scope/status. Russia NOPI revision. Ceasefire playbook format.
+**Positions:** No changes this session — pure system/adversarial work.
+**Rhythm note:** Will breaking for new session. Good productive evening — three spawns, all delivered, RED architecture rebuilt. Weekend ahead, light monitoring only.

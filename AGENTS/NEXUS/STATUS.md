@@ -1,6 +1,23 @@
 # NEXUS STATUS
-**Updated:** 2026-03-14 ~13:00 ET | **Run:** Pass 4 — signals + narrative update. War Day 13-14. Brent $100+. FOMC Monday.
-**Last context:** GDP 0.7% + PCE 3.1% = stagflation confirmed pre-oil shock. All agents 🔴 — unanimous transmission phase (first time). Claims 213K (benign). BOJ ¥399.8B dump. Insider scan: OZK 🔴🔴 / WAL 🔴. Account $55,363 (+176%). Rolling Jun→Dec. 12 convergences tracked, 3 baselines confirmed.
+**Updated:** 2026-03-14 ~23:30 UTC | **Run:** Pass 5 + Gap Analysis Run. OUTBOX.md written with 12 structural gaps + counter-signal audit. War Day 13-14. FOMC Monday Mar 17-18.
+**Last context:** GDP 0.7% + PCE 3.1% = stagflation confirmed pre-oil shock. All agents 🔴 — unanimous transmission phase (first time). Claims 213K (benign). BOJ ¥399.8B dump. Insider scan: OZK 🔴🔴 / WAL 🔴. HY OAS 317bps confirmed / 325-335bps working estimate (LIQ-01 possibly already triggered). KW deadline passed Mar 12 5pm ET — no resolution as of Mar 13 17:30 UTC. Taiwan LNG critical date Mar 15 (tomorrow). Belgium TIC Mar 18. Full pre-FOMC synthesis in OUTBOX.md.
+
+**Gap Analysis additions (Pass 5+):**
+- RED is 30 days stale — no adversarial challenge since pre-Hormuz. CRITICAL before FOMC.
+- Ceasefire unwind playbook: zero documentation for 3-5% probability scenario. Positions are heavily sized.
+- Quarter-end repo stress (Mar 31, 17 days): RRP at $0.278B (zero buffer). LIQUID needs explicit model.
+- IG credit spreads (CDX IG) completely untracked. HY at 317bps but IG is the larger cascade.
+- Korea (USD/KRW >1,500 breached) is orphaned in ZHAO footnote — needs elevation + Samsung chip chain mapping.
+- Primary bond market issuance freeze — not tracked. Leads default cycle by months.
+- Healthcare employment / Medicaid sub-vector missing from LABOR (potential largest single layoff risk).
+- Confirmation bias at maximum — all 14 agents 🔴 is exactly when adversarial challenge most needed.
+- Full 12-gap + counter-signal audit in PROME/OUTBOX.md.
+
+**Pass 5 key additions:**
+- LIQ-01 status: FRED-confirmed 317bps but LIQUID working estimate 325-335bps — may already be triggered
+- KW: Deadline passed, no 8-K yet — active tripwire going into FOMC weekend
+- BOJ: Hawkish hold probability upgraded to 25-30% for Ueda Mar 19 presser
+- Three sentences for Will: "Trapped Fed, not patient Fed. Mine floor extends every scenario. System convergence is the blind spot — not any single risk."
 
 ---
 
