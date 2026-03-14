@@ -20,7 +20,7 @@
 | HENRY | 🔴🔴 | **Brent $100. V9→5/🔴🔴. SPX -1.22%. 10Y 4.23%.** | 3/12 |
 | LIQUID | 🔴🔴 | 10Y 4.23% (+7bps). RRP $0.278B (buffer gone). 10Y auction today | 3/12 |
 | ZHAO | 🔴🔴 | Four-anchor $50-90B/mo. Gulf infra 42/55 convergence. ZHA-08 fired. Reviewed. | 3/12 |
-| HAWK | 🔴🔴 | Scenario C 62%, D 23%, B 15%. Inbox processed, files updated. Taiwan Mar 15 critical. | 3/12 |
+| HAWK | 🔴🔴 | Scenario C 62%, D 23%, B 15%. Taiwan LNG Mar 15 PASSED — 22/22 secured, May gap next. Cost channel live (JKM 2x). | 3/14 |
 | BROCK | 🟠 | APO -39% anomaly (peers -55 to -61%). Inbox clean. | 3/12 |
 | REGINALD | 🟠 | KW bondholder revolt delivered (HERMES). KB pending | 3/12 |
 | HANS | 🟠 | Needs DD-4 (China Hormuz) | 3/9 |
@@ -81,7 +81,7 @@ Small: USO 1sh, SLV 5, FXY 4, SLVP 3, INVH 7, AMH 6 (~$1,170)
 | **3/12** | ✅ Claims benign. Brent $100+ CONFIRMED. SPR failed. Citi DIFC evacuation. Kuwait airport struck. Permanent closure + war of attrition declared. |
 | **3/13** | JOLTS 10AM ET 🔴 |
 | **3/14** | DHS paycheck miss 🔴 |
-| **3/15** | CVNA discovery / TIC data 🔴 + **TAIWAN LNG CRITICAL DATE** — Qatar-cleared cargoes consumed, spot gap opens 🔴🔴 |
+| **3/15** | CVNA discovery / TIC data 🔴 + ~~TAIWAN LNG CRITICAL DATE~~ ✅ PASSED — 22/22 cargoes secured, May gap = next window |
 | **3/17-18** | FOMC — SEP + dots 🔴🔴 |
 | **3/18-19** | BOJ — Ueda 3/19 🔴🔴 |
 | **3/20** | Kuwait curtailment physical 🔴 (ACCELERATED — airport damage Mar 12) |
@@ -135,32 +135,37 @@ NOPI 47→GDP -3.0 to -4.9pp. Peak=lag4 Q1'27. Equity trough 7-11mo post oil pea
 
 ---
 
-## Scenario C — Taiwan LNG Critical Path (3 days to critical date)
+## Scenario C — Taiwan LNG Critical Path (Mar 15 passed — fuse extended to May)
 
-**Critical date: March 15 = 3 days away.**
+**Mar 14 UPDATE: Taiwan secured all March-April cargoes. No rationing. TSMC disruption DELAYED, not eliminated.**
 
 | Item | Status |
 |------|--------|
-| Taiwan LNG reserves | 10-11 day baseline |
-| Qatar supply (30% of Taiwan total) | Fully offline since Mar 1 |
-| March-April cargoes secured | 20 of 22 (2 unconfirmed) |
-| March 15 trigger | Qatar-cleared shipments consumed; spot procurement must cover gap |
-| Taipower rationing | Not yet imposed — ESCALATION INDICATOR if triggered |
+| Taiwan LNG reserves | 8-11 day baseline (daily tanker dependent) |
+| Qatar supply (30% of Taiwan total) | Fully offline — QatarEnergy Force Majeure declared (Ras Laffan strikes) |
+| March-April cargoes secured | **22 of 22 CONFIRMED** ✅ |
+| May procurement | ⚠️ **NEXT CRITICAL WINDOW — still being sourced** |
+| Asian spot LNG (JKM) | **>2x pre-crisis** — cost channel LIVE |
+| Taipower rationing | Not imposed — govt says "absolutely not necessary" |
+| Coal backup | 13GW available (swing capacity) |
 | TSMC electricity share | ~9% of Taiwan total demand |
 
-**TSMC Inflation Transmission Chain:**
+**TSMC Inflation Transmission Chain (DELAYED — cost channel active, supply chain intact):**
 ```
-Hormuz closure → Qatar LNG offline → Taiwan power supply stress
-→ Taipower rationing → TSMC fab curtailment
+Hormuz closure → Qatar LNG offline → Taiwan PAYING 2X FOR REPLACEMENT CARGOES
+→ Taipower cost spike → Taiwan electricity prices rise → TSMC opex increase
+→ [IF May procurement fails] → Taipower rationing → TSMC fab curtailment
 → Chip supply gap → Tech goods deflation reverses
 → Core PCE +24-36bps → Fed cut elimination
-→ LIQUID alert: rate path now higher-for-longer confirmed
 ```
 
-**Escalation indicators (Taiwan):**
+**Key change:** Taiwan bought time with money. The COST channel is firing (JKM 2x, Taipower absorbing losses). The SUPPLY chain hasn't broken yet. May is the next test.
+
+**Escalation indicators (Taiwan) — UNCHANGED:**
 - Taipower rationing announcement → ORANGE
 - TSMC voluntary output cut → RED
 - Rolling blackouts → 🔴🔴
+- **NEW: May procurement failure → ORANGE (leading indicator)**
 
 ---
 
