@@ -1,5 +1,25 @@
 # LABOR STATUS
-**Last Updated:** 2026-03-13 17:30 UTC | **Status:** 🔴🔴 CRITICAL — JOLTS JAN BEAT HEADLINE (6.95M vs 6.70M exp) BUT HIRES FLAT 3.3% (CYCLE LOW), 2025 ANNUAL REVISIONS ALL DOWN. CLAIMS BENIGN (213K/1.850M). WARN 766/91K. DOGE -277K NET. FED GOVT SHRUNK 12%.
+**Last Updated:** 2026-03-15 18:05 UTC | **Status:** 🔴🔴 CRITICAL — TSA PAYCHECK MISS CONFIRMED (SECOND CONSECUTIVE, ~$300-400M CUMULATIVE SHOCK). SHUTDOWN DAY 29+, NO END IN SIGHT. FL UI WAVE 1 (MAR 24) UNBLOCKED. SCHEDULE POLICY/CAREER NO INJUNCTION. SHUNTO DEMAND 5.94% (AT THRESHOLD). QUITS RATE 2.0% FOR 7 CONSECUTIVE MONTHS.
+
+**Signal Mar 15 — Stage 2 Live Search Update:**
+
+**DHS PAYCHECK MISS — CONFIRMED SECOND CONSECUTIVE (Mar 14):** TSA workers missed their FIRST FULL paycheck around the weekend of Mar 13-14 (CNN Mar 14: "This weekend, these workers will miss their first full paycheck"). Daily Mail (Mar 13) describes this as their "second paycheck" amid the ongoing shutdown — the earlier partial-miss cycle has now compounded into a FULL miss. Business Insider (2 hours ago, Mar 15): "Hundreds of agents are quitting." Airport chaos confirmed: up to 3-hour security lines at major airports during spring break. Austin, Houston airports specifically flagging 5-hour early arrival recommendations. **KEY IMPLICATION:** Consumer spending shock now cumulative ~$300-400M (first miss ~$150-200M + second full miss). This doubles the CARL consumer chain trigger. Shutdown is now FULLY in the consumer economic signal, not just the government accounting category. Cross: CARL urgent.
+
+**SHUTDOWN STATUS — NO END IN SIGHT (Day 29+):** As of March 13 (Day 28), Senate was on recess. Senate returns Monday March 16. No resolution vote passed. House passed H.R. 7744 (221-209) but Senate blocked multiple times (prior vote 51-45). Polymarket/Kalshi betting markets showing median ~48-day shutdown length — implies resolution approximately early April. 16% probability of 90+ day shutdown (through May 15). **IMPLICATION FOR CLAIMS:** Mar 19 claims print (FOMC presser day) may STILL be partially suppressed. DHS workers cannot file UI in most states while technically employed but unpaid. If shutdown resolves in next 2 weeks, expect claims surge as workers file retroactively AND some who quit (hundreds confirmed) do file immediately. This creates a claims spike event that may lag shutdown resolution by 1-3 weeks.
+
+**JOLTS JAN 2026 — QUITS RATE DETAIL (Mar 13 BLS release):** Quits = **3.1 million, rate 2.0% for SEVEN CONSECUTIVE MONTHS** (confirmed Indeed Hiring Lab Mar 13). Rate below 1.5% in government, financial activities, and manufacturing sectors. "The quits rate is a critical barometer of worker confidence, and that confidence..." [Indeed: "Waiting to Exhale"]. **Hotel California thesis STRUCTURALLY CONFIRMED.** KB-LAB-007 update: quits rate 2.0% confirmed Jan 2026, unchanged and entrenched — 7-month streak at or below 2.0%.
+
+**FLORIDA UI — NO EXTENSION, CONDITIONS TIGHTENING (L-10):** HB 191 ("Promoting Work, Deterring Fraud Act of 2026") passed Florida House and moving in Senate — but it ADDS restrictions, not extensions. If signed by DeSantis, takes effect July 1, 2026. No legislative action to extend the 12-week maximum UI duration. **FL UI Wave 1 exhaustion (Mar 24) is fully confirmed with ZERO legislative block risk.** The FL legislature is actively making UI harder to access, not easier. SSB/CARL cascade is locked in.
+
+**SCHEDULE POLICY/CAREER — NO INJUNCTION (L-13):** As of March 15, no court has issued a preliminary injunction blocking Schedule Policy/Career. Lawsuits filed (AFGE/AFSCME/AFL-CIO in D.C. Circuit Maryland; Second Amended Complaint filed Mar 4). Oral argument on preliminary injunction SCHEDULED FOR MARCH 18, 2026. **Thesis invalidation condition (courts block) has NOT been triggered.** Watch March 18 hearing — temporary restraining order possible but no injunction yet. RIF cascade under expanded authority is proceeding unblocked.
+
+**SHUNTO 2026 — DEMAND 5.94%, AT THRESHOLD (L-04/L-05):** Rengo average wage increase demand as of March 6: ¥19,506/month = **5.94% raise** (2,508 unions). This is JUST BELOW the 6.0% threshold that would trigger BOJ emergency hike risk. Nomura forecast for actual settlement: ~5.0%. Historical pattern: 2024 = 5.10%, 2025 = 5.25%. Trajectory is upward. BOJ held at 0.75% in January (split 8-1). March MPM decision pending this week. **LABOR's BOJ hike threshold (≥6.0%) is NOT currently triggered, but demand at 5.94% means actual settlements will determine BOJ posture at very close margin.** SAM domain primary; LABOR flag: carry unwind 2-4 week lag if BOJ acts.
+
+**CASS FREIGHT FEB 2026 — NOT PUBLISHED (L-11):** Cass archives confirmed through Jan 2026 only. Feb 2026 report not yet available as of March 15. Expected "around March 13" per RECON but not found. Check again week of March 16.
+
+**ADP PULSE MAR 17 — NOT YET RELEASED (L-07):** Still at 15,500/week (Feb 21 data, last release Mar 10). Next release Monday/Tuesday March 17. This is the FIRST POST-HORMUZ read. If <10,000/week → ALERT.
+
+**FOMC MAR 18-19 — CONFIRMED HOLD (L-06):** CME FedWatch 92%+ probability of hold. Current median dot = 1 cut for 2026. Dot plot may shift to 0 cuts given stagflation trajectory (PCE +3.1%, oil $101, NFP -92K). Fed trap thesis confirmed by market pricing.
 
 **Signal Mar 13 — JOLTS January 2026 (released 10AM ET / 14:00 UTC):**
 JOLTS Jan 2026: **6.946M openings** (vs 6.70M exp, up from revised 6.55M Dec). BEAT headline. BUT:
@@ -132,7 +152,13 @@ GDP Q4 2025 **REVISED TO 0.7%** (from 1.4% advance estimate). Economists expecte
 | **NFIB Poor Sales Feb 2026** | **11%** (r=0.83 U-3) | 🔴 | [CONF] NFIB Feb 2026. 4th most-cited problem. Tripled in 3 yrs. Near 2020 highs. At recession-entry levels. **Leading indicator — small biz largest employer cohort. Layoffs follow poor sales with 1-2Q lag.** PRE-Hormuz/oil shock. Implies U-3 trajectory toward 5%+. Directly correlated with IWM fundamental deterioration. Cross: IWM bear, LAB-12 new prediction. |
 | **Consumer Front-Loading (DD-3)** | 2008 stress match | 🟠 | [CONF] DD-3 / Kilian & Zhou 2024 / Baker 2018. Savings rate 3.6%, 55% cardholders carrying balances. $4/gas = behavioral breakpoint. Low-income 2x elasticity. Demand destruction 2-3mo. Accelerates commuter-state claims thesis. Cross: CARL. |
 | **Continuing Claims (threshold)** | **1,868K** | 🟠 | [CONF] BLS Mar 5 (DHS suppression). 32K from YELLOW (1,900K). First clean read tomorrow — risk of gap-through. |
-| Cass Freight | -7.5% YoY | 🔴 | [CONF] Cass Feb. New cycle low. |
+| Cass Freight Jan 2026 | Cycle low (Feb report pending) | 🟠 | [CONF] Cass Jan 2026 published. Feb 2026 report NOT YET PUBLISHED (checked Mar 15). |
+| **DHS Paycheck Miss** | **SECOND CONSECUTIVE** | 🔴 | [CONF] NPR/CNN/Daily Mail Mar 13-14. First FULL paycheck missed weekend Mar 13-14. "Hundreds quitting." Airport chaos confirmed. Cumulative spending shock ~$300-400M. Cross: CARL urgent. |
+| **Shutdown Duration** | **Day 29+ (Mar 15)** | 🔴 | [CONF] Senate back Mon Mar 16. No resolution. Kalshi median: 48-day total → end ~early April. 16% chance 90+ days. Mar 19 claims still potentially suppressed. |
+| **JOLTS Quits Rate** | **2.0% (7 consecutive months)** | 🔴 | [CONF] BLS/Indeed Hiring Lab Mar 13. Quits 3.1M flat. Govt/financial/mfg below 1.5%. Hotel California structurally confirmed. |
+| **FL UI Wave 1 Block** | **NO BLOCK** | 🔴 | [CONF] Mar 15 research. HB 191 TIGHTENS UI (not extends). Wave 1 exhaustion Mar 24 = LOCKED IN. |
+| **Schedule Policy/Career Injunction** | **NO INJUNCTION** | 🔴 | [CONF] Mar 15 research. Oral arg on PI scheduled Mar 18. RIF cascade proceeding unblocked. |
+| **Shunto 2026 Demand** | **5.94% (¥19,506/mo)** | 🟠 | [CONF] Japan Times Mar 6. Just below 6.0% BOJ threshold. Settlements pending. Nomura forecast actual ~5.0%. |
 | Google "Severance" | 100 | 🔴 | [CONF] Google Trends. ALL-TIME HIGH. |
 | Tech Insider Sell/Buy | 14.08x | 🔴 | [CONF] own analysis. vs 2.5x non-layoff peers. 3-6mo leading. |
 | **NFP Feb Consensus** | **+58-65K** | 🔴 | [EST] MarketPulse/OANDA Mar 5. Kiplinger: +35K. Apollo: 100-130K. Our model: 75-110K. Mar 6 8:30 ET. |
