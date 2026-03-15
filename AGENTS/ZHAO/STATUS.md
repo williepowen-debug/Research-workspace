@@ -1,5 +1,5 @@
 # ZHAO STATUS
-**Updated:** 2026-03-12 13:47 UTC (daily check-in — oil >$100, Iran new SL says Hormuz stays closed, Citi evacuating DIFC, 6 tankers attacked, CPI 2.4% in-line)
+**Updated:** 2026-03-15 17:15 UTC (Stage 2 live search — 11 targets executed: CNY 6.91, DXY 100.50, KRW 1501, PBOC gold 16mo streak, Iraq 1.4M bpd confirmed, PIF equity pullback, Japan-Korea joint FX statement, Hormuz selectively open to non-West)
 **Overall Status:** 🔴🔴 CRITICAL ESCALATION — Four-Anchor UST Selling / Gulf War Intensifying / DIFC Evacuation Active
 
 **Summary:** FOUR independent UST selling/demand anchors now active: Japan (~$20-30B/mo), China/PBOC (~$5-10B/mo stealth), Korea/BoK (~$5-15B/mo, USD/KRW breached 1,500), Gulf petrodollar recycling collapse (**REVISED: ~$15-25B/mo** = $45-75B/qtr). Combined **$50-90B/month**. Gulf WAR ESCALATING overnight: Oil past **$100/bbl**, Iran's new supreme leader explicitly states Hormuz should **remain permanently closed**, 6 tankers attacked Mar 12, **Citi evacuating DIFC offices** (financial infrastructure threat now REAL, not hypothetical), explosions downtown Dubai, Kuwait airport material damage, Iran "war of attrition" declared. 32 countries releasing strategic reserves — did NOT stabilize prices. Trump "finish the job." HK peg stable (AB $53,854M, flat). TIC Mar 18 (not 15) = January 2026 data, still pre-crisis. CPI 2.4% YoY in-line Mar 12.
@@ -32,10 +32,10 @@ Mar 18 TIC = **January 2026 data** (pre-crisis — Gulf war began ~Feb 28). Firs
 ### Currency / HK Peg
 | Metric | Value | Threshold | Status | Source |
 |--------|-------|-----------|--------|--------|
-| USD/CNY | **~6.85** | >7.30 = 🟠, >7.40 = 🔴 | 🟢 GREEN | [EST] post-NFP DXY 99.08 |
-| HK Aggregate Balance | **HK$53.9B** | <$45B = 🟡, <$40B = 🟠 | 🟢 GREEN | [CONF] HKMA Mar 11 (closing $53,874M) |
-| HIBOR-SOFR Spread | **~-227bps** | >-200bps = 🟠, >-300bps = 🔴 | 🟠 ORANGE | [CONF] HKAB 1-mo HIBOR 2.03% Mar 11 — stable from Mar 10 |
-| USD/KRW | **>1,500** | >1,500 = BoK UST selling | 🔴 BREACHED | [CONF] Mar 4 |
+| USD/CNY | **6.91** | >7.30 = 🟠, >7.40 = 🔴 | 🟡 WATCHING | [CONF] TradingEconomics Mar 13 — DXY at 100.50 rebuilding CNY pressure. Up from ~6.85 Mar 6. |
+| HK Aggregate Balance | **HK$53.9B** | <$45B = 🟡, <$40B = 🟠 | 🟢 GREEN | [CONF] HKMA Mar 15 (53,854M unchanged) |
+| HIBOR-SOFR Spread | **~-223bps** | >-200bps = 🟠, >-300bps = 🔴 | 🟠 ORANGE | [CONF] HKAB 1-mo HIBOR 2.076% Mar 15 — slight uptick; SOFR ~4.30%. Approaching -200bps upgrade trigger. |
+| USD/KRW | **1,501** | >1,500 = BoK UST selling | 🔴 ACTIVE | [CONF] TradingEconomics Mar 13 — stable at threshold. Japan+Korea joint FX statement Mar 14 confirms dual pressure. |
 
 ### Domestic Stress
 | Metric | Value | Threshold | Status | Source |
@@ -58,11 +58,11 @@ Mar 18 TIC = **January 2026 data** (pre-crisis — Gulf war began ~Feb 28). Firs
 | 3 | Custodial Arbitrage | 🔴 4 | Belgium $477.3B, approaching $500B. SEC mandate Dec 2026 adds fuel. | Belgium >$500B = 5 |
 | 4 | LGFV/Banking Transmission | 🟠 3 | Guizhou 11.6% NPL near RED. Feb $456B crunch proved pattern. | Another liquidity crunch or NPL >12% = 4 |
 | 5 | Property Zombification | 🟠 3 | Decade deleveraging. Vanke SOE rescue. Land revenue halved. | Vanke default or Tier 1 contagion = 4 |
-| 6 | PBOC Defensive Wall | 🟠 3 | Gold 15mo streak. Crypto ban. CIPS +43%. Building redundancy. | Capital controls tightened = 4 |
+| 6 | PBOC Defensive Wall | 🟠 3 | **Gold 16mo streak** (updated Mar 15 — Bloomberg Mar 7: +30K troy oz to 74.22M troy oz = 2,308 tonnes). Crypto ban. CIPS +43%. Building redundancy. | Capital controls tightened = 4 |
 | 7 | HK Peg Channel | 🟡 2 | AB $53,854M stable Mar 12 (flat from $53,874 Mar 11). HIBOR-SOFR ~-227bps (1-mo HIBOR 2.029%). No change. Weekly monitoring. Gulf escalation (Citi DIFC evac, downtown Dubai explosions) raises capital flight tail risk through HK — still low prob but watch. | AB <$45B or HIBOR-SOFR >-300bps = 3 |
 | 8 | LNG/Energy Shock | 🔴 4 | Qatar LNG halted. China least exposed (COSCO/PICC) but macro transmission severe. | Taiwan LNG exhaustion = 5 |
 | 9 | USD/CNY Defense | 🟡 2 | ~6.85. NFP -92K gave PBOC breathing room. 7.30 pushed out. | USD reversal + DXY >103 = 3 |
-| 10 | Gulf Recycling Collapse | 🔴 5 | **ZHA-08 FIRED Mar 11.** $45-75B/qtr reduction. Ras Tanura offline, Hormuz closed. **Mar 12 ESCALATION:** Oil >$100, 6 tankers attacked, Iran new SL says Hormuz stays closed permanently, 32-country SPR release failed to stabilize markets. Revenue destruction ACCELERATING. INVOLUNTARY. FLOW-ZHAO-12 ACTIVE. | Saudi/UAE confirmed NET SELLERS of UST holdings → escalate to max |
+| 10 | Gulf Recycling Collapse | 🔴 5 | **ZHA-08 FIRED Mar 11.** $45-75B/qtr reduction. **Mar 15 UPDATE:** Iran selectively reopening Hormuz to non-Western vessels (Turkey passage approved Mar 13). This moderates revenue disruption SLIGHTLY — Gulf oil can reach Asia buyers. BUT: (1) Iran FM denies any ceasefire Mar 15; Trump denies endgame deal; (2) **Saudi PIF confirmed scaling back US equity holdings** (ainvest Mar 13 — force majeure reviews on investment contracts, "quiet but significant pullback"); (3) Iraq production confirmed at 1.4M bpd (minister Mar 12 — no recovery from 4.3M pre-war); (4) Gulf revenue destruction STRUCTURAL not temporary. | Saudi/UAE confirmed NET SELLERS of UST holdings → escalate to max |
 | 11 | Gulf Financial Infrastructure Destruction | 🔴 5 | **UPGRADED Mar 12.** Citi evacuating DIFC offices (staff told WFH "until further notice"). Explosions downtown Dubai. Kuwait airport "material damage." Iran "war of attrition" declared. Threat is NOW ACTIVE DISRUPTION — not just declared target. Correspondent banking disruption, SWIFT risk, emergency Gulf USD selling = live tail risk. | Any major financial hub operationally struck → max/emergency signal |
 
 **Total: 42/55 — 🔴🔴 CRITICAL ESCALATION. SIX vectors at max (5), three at RED (4), three at ORANGE (3). ZHA-08 FIRED. Gulf financial infra upgraded to 5/5 (Citi DIFC evac, Kuwait airport damage). Oil >$100. Combined four-anchor: $50-90B/mo.**
@@ -76,7 +76,7 @@ Mar 18 TIC = **January 2026 data** (pre-crisis — Gulf war began ~Feb 28). Firs
 **Korea:** ~$5-15B/month. USD/KRW >1,500 (17-year low). BoK selling CONFIRMED. KOSPI -18-19% two-day. Samsung/Hynix = HBM contagion to US tech.
 **Gulf (ZHA-08 FIRED — Mar 11 / ESCALATED Mar 12):** ~$45-75B/qtr reduction ($20B/mo central). Revenue destruction ACCELERATING. **Mar 12 NEW:** Oil >$100/bbl. Iran's **new supreme leader explicitly states Hormuz should remain permanently closed** — not negotiating. 6 tankers attacked today. 32-country strategic reserve release FAILED to halt oil price rise. **Citi evacuating DIFC offices** (WFH until further notice) — financial infrastructure disruption now ACTIVE, not threatened. Downtown Dubai explosions. Kuwait airport material damage. Iran "war of attrition" declaration. Trump "finish the job." Saudi at/below fiscal breakeven at <$80 → net SWF drawdown confirmed (assets stable per Reuters Mar 6, but revenue is gone). Campbell "Strip vs Strait." INVOLUNTARY. Any short-term UST rally from Gulf flight-to-safety = SELL INTO IT. Oil >$100 = stagflation shock input — CPI 2.4% today is PRE-oil-shock baseline; Apr/May prints will show pass-through.
 
-**Near-term:** NFP -92K = USD weakness → CNY/KRW strengthening → TEMPORARILY reduces anchor selling pressure. Watch for reversal.
+**Near-term:** NFP -92K USD weakness has REVERSED. DXY 100.50 (Mar 13) vs 99.08 (Mar 6) = +1.4% in 1 week. CNY now 6.91. KRW holding ~1,500-1,501. Japan+Korea joint FX statement Mar 14 ("serious concern, ready to act") = intervention warning but also CONFIRMS ongoing dual-anchor selling pressure.
 **Structural:** All four mechanisms are independent. Even if one eases, others persist. TLT puts thesis (NEXUS #1 conviction) = demand collapse, not rate trade.
 
 *Detail: `archive/STATUS_pre_migration_20260309.md` (Korea section), `sources/LNG_CRISIS_CHINA_ANALYSIS_MAR2.md`*
@@ -141,7 +141,7 @@ Guizhou NPL 11.6% (1 point from RED). Feb $456B liquidity crunch → PBOC inject
 
 | ID | Prediction | Conf | Timeframe | Status | Invalidation |
 |----|------------|------|-----------|--------|-------------|
-| ZHA-01 | USD/CNY breaks 7.30 | 70% → **55%** ↓ | ~~2-4 weeks~~ 6-10 weeks | OPEN | DXY <100 sustained 10 sessions + PBOC stops gold buys |
+| ZHA-01 | USD/CNY breaks 7.30 | **60%** ↑ | ~~2-4 weeks~~ 4-8 weeks | OPEN | DXY reversal: 99.08 → 100.50 (+1.4% in 1 week). CNY now 6.91. Pressure rebuilding. DXY <100 sustained 10 sessions + PBOC stops gold buys |
 | ZHA-02 | 10Y rises on risk-off (UST ≠ safe haven) | 65% | Mar 2026 | ✅ CONFIRMED | — |
 | ZHA-03 | Belgium TIC >$500B | 65% | Q1-Q2 2026 | OPEN | Growth decelerates <15% YoY for 2 prints |
 | ZHA-04 | China official <$650B | 65% | Q2-Q3 2026 | OPEN | NFP relief → may slip to Q3. Watch DXY. |

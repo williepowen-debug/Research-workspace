@@ -1,5 +1,40 @@
 # LIQUID STATUS
-**Last Updated:** 2026-03-13 17:30 UTC | **Agent:** LIQUID | **Status:** 🔴🔴 CRITICAL
+**Last Updated:** 2026-03-15 16:30 UTC | **Agent:** LIQUID | **Status:** 🔴🔴 CRITICAL
+
+---
+
+## STAGE 2 UPDATE — March 15, 2026 (Sunday / War Day 14)
+
+### HY OAS — LIQ-01 NOT TRIGGERED (CONFIRMED)
+FRED BAMLH0A0HYM2 confirmed: **317bps on March 12** (released Mar 13). DOWN 2bps from 319bps (Mar 9). LIQ-01 threshold = 320bps. **NOT triggered by 3bps.** War reaction in credit markets "muted" per Nomura monthly. Mar 13 data releases Mar 16 (Monday, FOMC day 1) — next LIQ-01 confirmation window. HYG Mar 14 close = **$79.20** (Jun $75P OTM by $4.20).
+
+### DIFC — ESCALATED: 3 MAJOR BANKS NOW CONFIRMED
+STATUS previously had only Citi confirmed (Mar 12). Reuters Mar 11 article reveals SIMULTANEOUS evacuations:
+- **Citigroup**: evacuated DIFC + Oud Metha. WFH until further notice.
+- **Standard Chartered**: evacuated Dubai offices (same day Mar 11).
+- **HSBC**: closed **all Qatar branches** until further notice.
+Iran's Khatam al-Anbiya military command explicitly threatened "US and Israeli economic and banking interests" in the region. Reuters headline: "Dubai's status as a financial hub under threat." DIFC houses 290+ banks, 102 hedge funds, 500 wealth management firms. No SWIFT clearing disruption confirmed — operational capacity degraded but clearing not severed (as of Mar 15).
+
+### FOMC MARCH 17-18
+- Policy statement: **March 18, 2:00 PM ET**. Presser 2:30 PM ET (NOT Wednesday — this is Tuesday).
+- CME FedWatch: **92%+ probability HOLD at 3.50%-3.75%**.
+- First meeting incorporating Iran war + $100 oil + 15% tariffs.
+- Key risk: **dot plot revision** — likely 0-1 cuts projected for 2026 vs prior 2. Stagflation trap forces higher-for-longer.
+
+### BOJ — HOLD MARCH CONFIRMED
+BOJ rate stays at **0.75%** for March 18-19 meeting. Reuters Mar 3 (sources familiar with BOJ thinking): "Iran conflict raises odds BOJ will forgo rate hike." Nomura: "BOJ probably doesn't have a March rate hike in mind." January meeting already held 8-1 (Takata wanted 1.0%). **April hike still possible** — thesis deferred, not canceled. JGB yield rise → UST selling thesis intact.
+
+### SOFR — STABLE
+SOFR Mar 12 = **3.65%** (FRED confirmed, +1bp from 3.64% Mar 10). 30-day avg Mar 13 = 3.672%. No repo stress. Mar 13-14 data releases Mar 16. Discount window (primary credit) at $4,853M — up $97M WoW, up $2B YoY. Gradual uptick in bank stress usage.
+
+### 20Y AUCTION — MARCH 19 (NOT YET OCCURRED)
+Status previously flagged 20Y as "next Tuesday" — actually **March 19 (Thursday)**, same day as BOJ decision. Settlement March 31 (quarter-end). This is the maximum-density risk window: FOMC decision (Mar 18) → 20Y auction + BOJ hold (Mar 19) → quarter-end (Mar 31).
+
+### TIC JAN 2026 DATA — NOT TODAY
+RECON_REPORT stated TIC Jan 2026 releases "today (Mar 15)" — **this was incorrect.** Based on confirmed schedule (Nov 2025 = Jan 15; Dec 2025 = Feb 18), Jan 2026 TIC expected **~March 18**. Potentially same day as FOMC decision. ZHAO to monitor.
+
+### VIX CONFIRMED
+VIX Mar 13 close = **27.19** (Yahoo Finance confirmed). Up from 25.07 (Mar 11). Coiled spring thesis intact. Not yet at 35+ trigger.
 
 ---
 
@@ -101,8 +136,8 @@ TIC (Treasury International Capital) reports January 2026 foreign holdings of US
 
 | Indicator | Value | Source | Status |
 |-----------|-------|--------|--------|
-| HY OAS | **319bps** [CONF Mar 9] | FRED BAMLH0A0HYM2 | 🔴 1bp from trigger |
-| HY OAS Mar 10 | **[FRED NOW RELEASING — Single-B series confirmed updated to Mar 10]** | Est. ≥320bps | ⏳ Confirmation imminent — check FRED |
+| HY OAS | **317bps** [CONF Mar 12 FRED] | FRED BAMLH0A0HYM2 | 🟠 3bps BELOW trigger — NOT triggered |
+| HY OAS Mar 13 | Releases Mar 16 (FOMC day 1) | FRED next release | ⏳ Next confirmation — check FRED Mar 16 |
 | CCC OAS | **969bps** [CONF Mar 9] | FRED BAMLH0A3HYM2 | 🔴 Leading indicator; +12bps WoW |
 | LIQ-01 threshold | 320bps | — | — |
 | Credit default rates | **2000/2008 comparable levels** | chartingthemarkets substack Mar 11 | 🔴🔴 EXTERNAL CONFIRMATION |
@@ -120,11 +155,11 @@ TIC (Treasury International Capital) reports January 2026 foreign holdings of US
 
 | Indicator | Value | Date | Source |
 |-----------|-------|------|--------|
-| HY OAS | 319bps | Mar 9 | CONF FRED |
+| HY OAS | **317bps** | Mar 12 | CONF FRED (released Mar 13) |
 | IG OAS | 85bps | Mar 9 | CONF FRED |
 | CCC OAS | 969bps | Mar 9 | CONF FRED |
-| VIX | **25.07** | Mar 11 CONF | FinancialContent/chroniclejournal — up from 24.93 |
-| SOFR | 3.64% | Mar 10 | CONF FRED |
+| VIX | **27.19** | Mar 13 CONF | Yahoo Finance confirmed close |
+| SOFR | **3.65%** | Mar 12 | CONF FRED (released Mar 13) |
 | RRP | **$0.278B** | Mar 10 | CONF FRED — BUFFER GONE |
 | CPI Feb | 2.4% headline / 2.5% core | Mar 11 CONF BLS | In-line. "Calm before storm" — March print will embed oil shock |
 | 10Y | ~4.16% | Mar 11 | CONF — bear steepening; toward 4.16% threshold |
@@ -132,7 +167,7 @@ TIC (Treasury International Capital) reports January 2026 foreign holdings of US
 | 2Y | 3.588% | Mar 10 | CONF CNBC |
 | Oil (WTI) | $108 (high $119 on Mar 9) | Mar 11 | WAR PREMIUM. +40% since outbreak |
 | MBS spread | 165bps over Tsys | Mar 11 | CONF — no flight-to-quality. Spread widening in progress |
-| HYG Jun $80P | $1.465 mid | Mar 10 close | CONF — 95% put dominance, 65K contracts. Market aligned |
+| HYG price | **$79.20** | Mar 14 close | CONF investing.com. Jun $75P OTM by $4.20. |
 | BDC index (Cliffwater) | -11.5% YTD / -20% off high | Mar 2026 | CONF Nomura — Stage 1 leading indicator lit |
 | S&P 500 | **Breached 6,764** (100-day MA ~6,830 now resistance) | Mar 11 CONF | FinancialContent — "institutional distribution" — target 6,500 |
 | CLO AAA spreads | **116-125bps** (volatile — one mgr saw 117→125bps in one week) | JPM LevFin Conf Mar 2-4 / CreditSights | 🔴 Funding stress spreading up capital stack |
@@ -175,10 +210,10 @@ BCRED $3.8B redemptions (7.9%) met via self-injection in Q1. Q2 = structural tes
 
 | Threshold | Level | Current | Status |
 |-----------|-------|---------|--------|
-| LIQ-01 (HY OAS) | 320bps | 319bps [Mar 9] | 🔴 1bp away |
-| CCC OAS alert | 1000bps | 969bps | 🟠 31bps cushion |
-| VIX spring release | 35+ | 24.93 | 🟠 Coiled |
-| RRP buffer | >$5B | $0.278B | 🔴 GONE |
+| LIQ-01 (HY OAS) | 320bps | **317bps [Mar 12 CONF FRED]** | 🟠 3bps below trigger |
+| CCC OAS alert | 1000bps | 969bps [Mar 9] | 🟠 31bps cushion |
+| VIX spring release | 35+ | **27.19 [Mar 13 CONF]** | 🟠 Coiled, building |
+| RRP buffer | >$5B | $0.278B [Mar 10] | 🔴 GONE |
 | Reserve floor | $2.8T | $2.9T | 🟡 $100B cushion |
 | 10Y yield danger | >5.0% | ~4.15% | 🟡 ~85bps away |
 | Auction BTC | >2.0x | 2.36x (20Y Feb 19) | 🟡 |
@@ -189,9 +224,11 @@ BCRED $3.8B redemptions (7.9%) met via self-injection in Q1. Q2 = structural tes
 
 | Window | Risk |
 |--------|------|
-| **TODAY** | Mar 10 HY OAS FRED release — LIQ-01 confirmation or miss |
-| **Now → Mar 31** | 🔴🔴 DIFC OPERATIONAL DISRUPTION LIVE (Citi evac confirmed Mar 12). SWIFT/settlement disruption near-term risk. VIX coiled at 24-25. LIQ-01 at threshold. Quarter-end SRF stress — no RRP buffer. |
-| **Next refunding week** | 30Y auction demand test — BTC <2.2x + tail >2bps = VIX spring release trigger |
+| **March 16 (Mon)** | FRED HY OAS Mar 13 data releases. If ≥320bps → LIQ-01 TRIGGERED → signal HENRY + SAM. Also: SOFR Mar 13-14 data. FOMC begins. |
+| **March 18 (Wed)** | FOMC decision 2:00 PM ET + presser 2:30 PM. TIC Jan 2026 expected to release (~same day). |
+| **March 19 (Thu)** | 🔴🔴 **MAXIMUM DENSITY RISK WINDOW**: 20Y bond auction ($13B) + BOJ decision (hold expected). 20Y settles Mar 31 = quarter-end. |
+| **Now → Mar 31** | 🔴🔴 DIFC OPERATIONAL DISRUPTION — Citi + StanChart evacuated Dubai. HSBC closed Qatar. No RRP buffer. Discount window usage rising. Quarter-end approaching. |
+| **March 31** | Quarter-end. 20Y settlement. Zero RRP buffer = no shock absorbers. |
 | **April** | Tax season TGA drain. Trump-Xi summit (FOI pre-positioning). |
 | **~Apr 20-25** | Japan March trade balance release. JKM $15.495/MMBtu = crisis pricing embedded in Q1 import costs. Confirmation of Japan trade deficit → life insurer repatriation → UST selling → auction tails. Watch for acceleration of Japan anchor selling. |
 | **May** | Powell term ends. Warsh transition = intervention willingness degradation. |
@@ -227,7 +264,9 @@ BCRED $3.8B redemptions (7.9%) met via self-injection in Q1. Q2 = structural tes
 
 ## WATCH
 
-**URGENT:** Check FRED BAMLH0A0HYM2 NOW — Single-B series confirmed updated to Mar 10. Main HY OAS likely releasing tonight/tomorrow morning. If ≥320bps → LIQ-01 TRIGGERED → signal HENRY + SAM.
+**URGENT (Mar 16 Mon morning):** FRED BAMLH0A0HYM2 releases Mar 13 data on Mar 16. 317bps confirmed Mar 12 — NOT triggered. If Mar 13 shows ≥320bps → LIQ-01 TRIGGERED → signal HENRY + SAM immediately. Also: SOFR Mar 13-14 releases same morning.
+**URGENT (Mar 18 Wed):** TIC Jan 2026 data expected ~Mar 18 (same day as FOMC). ZHAO to pull Japan/China/Belgium numbers and integrate into demand hole model.
+**URGENT (Mar 19 Thu):** 20Y auction results. BTC <2.0x or tail >4bps = major demand hole confirmation. BOJ decision (hold expected).
 **FOREIGN DEMAND:** Combined anchor selling UPGRADED to **$50-90B/month** (ZHAO upgrade, Mar 12). 4 anchors: Japan + China + Korea + Gulf. FLOW-ZHAO-12 status → ACTIVE (revised up from $40-72B/month prior). Gulf states below fiscal breakeven = involuntary, additive supply. Prior model was $30-55B/month (3 anchors). Demand hole significantly larger than modeled — reassess FOI demand hole estimates accordingly.
 **PRIVATE CREDIT:** Blue Owl permanent freeze live (NOT soft gate — structural change). BCRED Q2 structural test May/June. ABS crack confirmed (SoFi 2025-1 CNL 2.6% first trigger). 44% of Jan defaults = distressed exchanges (headline rate understates actual stress). BBB-AAA spread widening = fallen angel risk rising. Track bank bond supply: 40% projected drop masks fundamentals.
 **EU VECTOR (HANS):** iTraxx Senior Fin 95bps — orange at 150bps. ECB frozen at 2.00%. EUR/USD basis swaps may widen. USD funding stress pathway if European banks face forced USD borrowing.

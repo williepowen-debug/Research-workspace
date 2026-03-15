@@ -1,6 +1,67 @@
 # SAM STATUS
 
-**Signal Status:** 🔴🔴 CRITICAL — USD/JPY **159.50** HITTING JAN RATE-CHECK LEVEL | MoF INTERVENTION RISK ACUTE | **BOJ HAWKISH SHIFT: REUTERS 4 SOURCES SAY APRIL HIKE LIVE (~60% PRICED)** | HOLD NEXT WEEK 92-95% BUT POST-MEETING LANGUAGE = CATALYST | UEDA PRESSER MAR 19 | LIFE INSURER FY-END REPATRIATION **ACTIVE** ¥3.07T NET IN FEB (¥3.42T LONG-TERM) | BANKS WERE BIGGEST SELLERS (¥3.14T) | FY-END T-18 DAYS | **Last Updated:** 2026-03-13 17:30 UTC
+**Signal Status:** 🔴🔴 CRITICAL — USD/JPY **159.717** (Mar 13 close) | MoF VERBAL ACTIVE | **BOJ HAWKISH HOLD: APRIL ~60% PRICED (4 REUTERS SOURCES)** | NIKKEI **53,819** (3.4% FROM GPIF TRIGGER) | JGB 10Y **2.25%** (AT YELLOW) | JGB 30Y **3.48%** | REAL WAGES JAN **+1.4%** (FIRST POSITIVE IN 13 MOS) | SHUNTO: JEIU **¥12,000 MIN** — AUTO YAMABA DUE **WEDNESDAY MAR 18** | TAIWAN LNG **22/22 SECURED** (ML-JPN-186 RESOLVED) | FY-END T-16 DAYS | **Last Updated:** 2026-03-15 (Stage 2 Search)
+
+---
+
+## 🔍 STAGE 2 SEARCH BRIEF — MAR 15, 2026
+
+### HEADLINE: REAL WAGES POSITIVE FOR FIRST TIME IN 13 MONTHS. JEIU ELECTRONICS ¥12,000 MIN. AUTO YAMABA (TOYOTA/HONDA) DUE WEDNESDAY. NIKKEI AT 53,819 — 3.4% FROM GPIF. JGB 10Y AT YELLOW THRESHOLD. TAIWAN LNG RESOLVED.
+
+### NEW DATA SINCE MAR 13 STATUS
+
+| Metric | Prior Value | New Value (Mar 15) | Delta | Source |
+|--------|------------|---------------------|-------|--------|
+| **Real wages Jan 2026** | -0.1% (Dec) | **+1.4% YoY** | 🔴🔴 First positive in 13 months | Reuters Mar 8 |
+| **Nominal wages Jan 2026** | +2.4% (Dec) | **+3.0% YoY** | ⬆️ Fastest since July | MHLW Mar 8 |
+| **Base salary Jan 2026** | — | **Fastest since 1992** | 🚨 33-year high | MHLW Mar 8 |
+| **Shunto JEIU electronics** | Demand ¥18,000/mo | **Min threshold ¥12,000/mo** | 🟡 Moderate (NEC full ¥18,000) | Japan Times Mar 15 |
+| **Auto Yamaba (Toyota/Honda)** | Not yet | **Due WEDNESDAY MAR 18** | 🔴 Same day as BOJ opens | Japan Times |
+| **JGB 10Y** | 2.22% (Mar 9) | **2.25%** (Mar 13) | ⬆️ +3bp, AT YELLOW | TradingEconomics |
+| **JGB 30Y** | 3.28% (Mar 4) | **3.48%** (Mar 12) | ⬆️ +20bp in 8 days | TradingEconomics |
+| **Nikkei 225** | ~55,500 (Mar 11 Asia) | **53,819** (Mar 13 close) | ⬇️ -3.1%, 3.4% from GPIF 52k | FRED/Nikkei |
+| **Tokyo CPI core (Feb)** | 2.0% (Jan) | **1.8%** (Feb) | ⬇️ Below BOJ 2% target | Stats Bureau Feb 26 |
+| **Taiwan LNG cargoes** | 20/22 secured | **22/22 SECURED** | ✅ ML-JPN-186 RESOLVED | Taiwan News Mar 13 |
+| **BOJ April hike prob** | 60-65% | **~60%** (confirmed) | Stable | Reuters/BOJ sources Mar 12 |
+
+### KEY FINDING: WAGE DATA COMPLETES BOJ HAWKISH CASE
+
+The January 2026 wage data (released March 8) is the most important fundamental shift since the last STATUS update:
+- **Real wages +1.4%**: The BOJ's stated precondition for continued hikes — "sustained wage-led inflation" — is now confirmed for January.
+- **Nominal wages +3.0%**: Above the BOJ's informal 3% bar.
+- **Shunto JEIU ¥12,000 minimum**: Even at minimum, electronics sector is running above 2025's ¥10,000.
+- **Auto Yamaba March 18**: Toyota and Honda responses arrive the morning of the BOJ's first session day. If autos accept ¥18,000 in full, Ueda's March 19 presser will be HAWKISH.
+
+**Combined: The wage evidence is the strongest in this cycle.** The 4 Reuters BOJ sources (Mar 12) calling April hike "live" at 60% have this data behind them.
+
+### REVISED BOJ SCENARIOS — MAR 18-19
+
+| Scenario | Prior Prob | Revised | Key Driver |
+|----------|-----------|---------|------------|
+| **Hawkish hold** — April live, wages flagged | 30% | **35-40%** | Real wages positive + JEIU ¥12,000 + BOJ sources confirmed |
+| **Neutral hold** — data-watching, no commitment | 35% | **35%** | Unchanged |
+| **Dovish hold** — energy risk deferred | 35% | **25-30%** | Iran war = inflationary (not deflationary) per BOJ sources |
+
+**Note:** The Reuters March 12 article EXPLICITLY REFRAMES energy shock from "reason to hold dovish" to "reason for inflation vigilance." This is why hawkish hold has increased probability.
+
+### TAIWAN LNG — RESOLVED (ML-JPN-186 CLOSED)
+
+Taiwan News (Mar 13): All 22 cargoes secured. ML-JPN-186 critical watch is RESOLVED for March-April window. JKM spot pressure from Taiwan emergency bids should ease for this window. **Caveat:** Reserves remain thin (11 days gas). Late-April remains a watch point if Qatar supply doesn't recover.
+
+### NIKKEI WATCH — 3.4% FROM GPIF TRIGGER
+
+Nikkei at 53,819 on March 13. GPIF mechanical trigger at 52,000. Honda Motor was leading decliner (-5.70%) on March 13 — tariff/yen/Shunto cost pressure on exporters showing through. If Nikkei continues lower into BOJ week: (1) Takaichi political pressure against hawkish BOJ increases, (2) GPIF trigger proximity elevates cross-domain risk.
+
+### CARRY UNWIND PROBABILITIES — MAR 15 REVISED
+
+| Timeframe | Mar 13 | Mar 15 | Driver |
+|-----------|--------|--------|--------|
+| **7d** | 18% | **20%** | BOJ hawkish presser risk elevated + Nikkei declining |
+| **30d** | 86% | **86%** | Unchanged — FY-end + wages + JGB steepening |
+| **60d** | 88% | **88%** | Unchanged |
+
+---
+
 
 ---
 
