@@ -1,7 +1,7 @@
 # BRENT STATUS
 
-**Last Updated:** 2026-03-11 14:00 UTC — CRITICAL UPDATE: Active mining confirmed / US sinks 16 minelayers / WTI $85 flash crash / IEA 400M bbl SPR release announced
-**Overall Status:** 🔴🔴 RED-RED — HORMUZ CLOSED DAY 11 + ACTIVELY MINED / STORAGE CRISIS IMMINENT (MAR 20) / WTI $85 FLASH CRASH = BUY SIGNAL / PHASE 1 INTACT / MINE FLOOR EFFECT LOCKS IN EXTENDED DURATION
+**Last Updated:** 2026-03-15 19:15 UTC — STAGE 2 LIVE SEARCH: Brent $101.07 (Mar 13) recovery confirmed / STNG $66.39 STOP LOSS BREACHED / Chubb/DFC $20B Hormuz insurance announced Mar 11 / Japan SPR starts Mar 16 / Airlines fare hike phase active / JKM $16.18 / Kuwait BRT-02 model on track (Mar 20)
+**Overall Status:** 🔴🔴 RED-RED — HORMUZ CLOSED DAY 15 + ACTIVELY MINED / BRENT $101.07 RECOVERY (FROM $85 FLASH CRASH) / STNG STOP LOSS BREACHED AT $66.39 — SEE POSITIONS / PHASE 1 INTACT / CHUBB/DFC INSURANCE = PATH A ANALOG (MARKET ALREADY PRICED)
 
 **Summary (Mar 11):** Active mining of Hormuz now confirmed — US destroyed 16 Iranian minelayers on Mar 11. Iran declared "not a single liter" passes to enemies. Dubai airport hit by 2 drones. 3 ships attacked in single day. Iranian financial institutions declared military targets by Tehran (asymmetric escalation). WTI crashed 11% yesterday (Mar 10) on Trump Truth Social rhetoric ("oil will drop rapidly"), then rebounded overnight as US military actions confirmed escalation not de-escalation. WTI $85 this morning — **flash crash, not repricing**. IEA announced 400M barrel release (largest in history). Kuwait storage crisis Mar 20 still on track (9 days away). Phase 1 thesis fully intact with stronger duration floor due to physical mines.
 
@@ -41,16 +41,20 @@
 
 | Metric | Value | Source | Updated |
 |--------|-------|--------|---------|
-| WTI spot | **$85** (Mar 11 AM) — flash crash from $107 peak (Mar 9) | [CONF] Will/Reuters Mar 11 | Mar 11 |
+| WTI spot | **$85** (Mar 11 AM flash crash) → **~$93-95 est** (Mar 13, tracking Brent $101.07) | [CONF] Will/Reuters Mar 11; Brent CONF Mar 13 | Mar 13 |
 | WTI peak (Mar 9) | $107.09 — largest monthly gain in history (+59.17%) | [CONF] Kobeissi Letter Mar 9 | Mar 9 |
-| Brent spot | ~$90 (Mar 6) → estimated ~$88-92 range Mar 11 (tracking WTI) | [EST] | Mar 11 |
-| Brent-WTI spread | ~$7-8/bbl | [EST] | Mar 11 |
-| Brent structure | Strong backwardation — war premium, exact spread TBD | [EST from structure Mar 6] | Mar 11 |
+| Brent spot | **$101.07** (Mar 13 close) [CONF] — recovered from $85-91 flash crash | [CONF] Mar 13 | Mar 13 |
+| Brent M01-M12 spread | **-$25.49** (Mar 9: M01=$98.96, M12=$73.47). M1-M3 est ~$8-12/bbl. Path B trigger ($3) is DISTANT. | [CONF] ICE via OpenDataDSL Mar 9 | Mar 13 |
 | Gasoline crack (3-2-1 LLS Gulf) | $28.91/bbl (Mar 5). Current: elevated, exact TBD | [CONF] EIA Mar 5 | Mar 11 |
-| Retail gasoline US avg | **$3.45/gal** (+16% in one week as of Mar 8-9) | [CONF] AAA Mar 9 | Mar 9 |
+| Retail gasoline US avg | **$3.699/gal** (AAA Mar 15) | [CONF] AAA Mar 15 | Mar 15 |
 | Diesel US avg | $4.30-4.50/gal (+$0.50-0.75 surge) | [CONF] Mar 9 | Mar 9 |
-| VLCC rate (TD3C MEG-China) | WS 400+, $423-445K/day — all-time high (Mar 4/6) | [CONF] maritime-hub.com Mar 6 | Mar 6 |
-| War risk premium (Hormuz) | Elevated. P&I clubs offline since Mar 5. Physical mines = structural extension | [CONF] + Mar 11 mine confirmation | Mar 11 |
+| VLCC rate (TD3C MEG-China) | $423,736/day peak (Mar 3). W Africa-China $264,523/day. Current: TBD — declining with STNG price. | [CONF] maritime-hub.com Mar 6 | Mar 6 |
+| War risk premium (Hormuz) | P&I clubs offline since Mar 5. Chubb/DFC $20B program announced Mar 11 — partial substitute. Ships still attacked. | [CONF] CNBC Mar 11 | Mar 11 |
+| JKM (Asian LNG) | **$16.18/MMBtu** (Mar 14) — up from $15.105 (Mar 4); down from $25+ peak (Mar 3) | [CONF] OilPriceAPI Mar 14 | Mar 14 |
+| Henry Hub | **$3.13/MMBtu** (Mar 14) — up from $2.83 (Mar 6) | [CONF] OilPriceAPI Mar 14 | Mar 14 |
+| TTF (European gas) | $18.1/MMBtu (Mar 6 week) — up from $11.1 pre-war | [CONF] Canada LNG Group Mar 9 | Mar 9 |
+| US crude stocks | **443.1M bbl** (week Mar 12) — 2% below 5-yr avg; +3.8M bbl WoW | [CONF] EIA Mar 12 | Mar 12 |
+| Baker Hughes rigs (total) | **553** (week Mar 13) — +2 WoW; still 7% below YoY; E&P capex -1% 2026 | [CONF] Baker Hughes / Reuters Mar 13 | Mar 13 |
 
 ---
 
@@ -123,8 +127,8 @@
 
 | Position | Entry | Current | P/L | Notes |
 |----------|-------|---------|-----|-------|
-| USO (2 shares) | ~$96 [EST] | **~$103 [EST, WTI $85]** | **+~7% [EST]** | WTI peaked $107 (USO ~$119 EST), pulled back to $85. Flash crash = potential add opportunity. |
-| STNG (2 shares) | ~$76.27 [CONF] | [CONF needed] | TBD | VLCC rates at all-time high. Physical mines extend thesis. |
+| USO (2 shares) | ~$96 [EST] | **~$110 [EST, WTI ~$94]** | **+~14% [EST]** | Brent $101.07 Mar 13. Recovery from flash crash confirmed. |
+| STNG (2 shares) | ~$76.27 [CONF] | **$66.39** (Mar 13) | **-13.0% [CONF]** | ⚠️ **STOP LOSS BREACHED** — Stop was $71.50. Chubb/DFC $20B Hormuz insurance (Mar 11) = PATH A ANALOG. See PROPOSALS below. |
 | USO 91C Mar 18 | SOLD Mar 6 | $17.00 | +$1,098 (+183%) | Harvested |
 | **PROPOSED ADD:** USO at ~$100-103 | — | — | — | See proposal below |
 
@@ -136,7 +140,29 @@
 
 ---
 
-## 🎯 PROPOSALS (Mar 11)
+## 🚨 URGENT: STNG STOP LOSS BREACH (Mar 13-15)
+
+**STNG = $66.39 (Mar 13). Stop loss was $71.50. Breached by $5.11 (-7.1%).**
+
+**Why it happened:** Chubb + US DFC announced $20B war risk insurance program for Hormuz transits on Mar 11. Market interpreted this as a PATH A analog (P&I insurance returning to Hormuz = exit trigger). DNB Markets downgraded STNG to Hold on Mar 12. Stock declined from $80+ (Mar 4) to $66.39 (Mar 13).
+
+**The nuance:** Chubb/DFC is NOT a standard P&I club (Gard/Britannia/North). It's a US government-backed commercial program. Ships were still attacked on the day of the announcement (3 vessels struck Mar 11). Physical mines remain in water. Crew reluctance is ongoing. Traffic has NOT meaningfully resumed.
+
+**Two reads:**
+1. **Hard stop = exit:** Market is correct to price in reinsurance as equivalent to P&I reinstatement. The exit trigger intent was "market will price the announcement, not the reality." Market has done exactly that. The trade has been front-run. Exit now, accept the loss.
+2. **Thesis intact = hold temporarily:** The $20B program doesn't mean ships are sailing. As long as mines are in water + ships are being attacked, VLCC rates cannot normalize. STNG should recover when the Chubb/DFC gap between "announced" and "operational" becomes clear.
+
+**Assessment:** The stop loss protocol was set specifically because "rate decay is INSTANT on policy announcement" (KB-BRT-073). That is what happened. Per protocol, the stop should be honored. The $4.55/share loss on 2 shares = -$9.10. Manageable.
+
+**PROPOSAL: STNG EXIT — Sell 2 shares STNG at market**
+- Stop loss protocol says EXIT when announced
+- Market has front-run the exit — fair price still available (~$66)
+- Lock in loss, move on
+**[Approve] [Reject]**
+
+---
+
+## 🎯 PROPOSALS (Mar 11 — still open)
 
 ### PROPOSAL 1: USO Add on Flash Crash
 **Action:** Add USO shares at ~$100-103 (WTI $85 equivalent)
@@ -168,9 +194,9 @@ The mine confirmation creates a nuanced wrinkle in Path A exit protocol: a cease
 | Gulf production | 🔴 4 | Kuwait/Qatar curtailing; UAE/Iraq imminent | All 4 shut = 5 | Mar 6 |
 | Brent price | 🔴🔴 5 | **WTI $107 peak (Mar 9), $85 flash crash (Mar 11)**. $100 threshold breached and retreated on Trump rhetoric + SPR announcement. Physical reality supports $90+ base. | $85 = buy-the-dip. $107 = peak was Scenario C entry. Mine floor: $85-90 base even with SPR. | Mar 11 |
 | US production response | 🟡 2 | NON-RESPONSE CONFIRMED: 411 oil rigs (flat/declining), DUC 5,015 (-41% from peak), no capex increases announced. Max surge 200-240K bpd/90 days — well below crisis need. | Rig count >461 (+50 from 411 trough) = shale finally responding | Mar 6 |
-| Demand destruction | 🟠 3 | Implied at $90+. 20-24 wk min historical. 2026 more inelastic. Watch airlines + ATA Tonnage as leading indicators. EIA early data misleads. | Gasoline -5% YoY confirmed (earliest May-June) | Mar 6 |
+| Demand destruction | 🟠 3→4 | **Airlines in fare-hike phase as of Mar 9-12** (Qantas, Air India, multiple Asia/Europe carriers). Route cuts are NEXT phase in 4-8 weeks (late April). Pump price: $3.699/gal (AAA Mar 15). Clock started for airline capacity cuts. | Gasoline -5% YoY confirmed (earliest May-June). Airline route cuts = leading signal (watch IATA Apr-May) | Mar 15 |
 | Storage (global) | 🔴 4 | Gulf filling; Cushing +1.564M bbl wk Feb 27 (~24-26M est) [CONF EIA] | Cushing <20M = WTI dislocation | Mar 6 |
-| Tanker/shipping | 🔴🔴 5 | VLCC WS400+, $423-445K/day ALL-TIME HIGH [CONF maritime-hub]. STNG annualized EPS ~$30. P/E 2.6x. VX-BRT-04 upgraded to RED. | EXIT TRIGGER: escort/ceasefire announcement (not reopening). Stop $71.50. | Mar 6 |
+| Tanker/shipping | 🔴 4 | VLCC $423K/day peak (Mar 3). **STNG = $66.39 (Mar 13) — STOP LOSS BREACHED.** Market priced Chubb/DFC insurance announcement as PATH A analog. Physical mines + ongoing attacks mean actual traffic still blocked but equity market has front-run exit. | **STNG STOP LOSS BREACHED.** Review position. Monitor for partial Hormuz traffic data to confirm or deny. | Mar 15 |
 | Energy credit | 🟡 2 | CONFIRMED: HY Energy OAS 300 bps (Mar 5) — 8 bps TIGHTER than broad HY (308 bps). E&P is geopolitical safe haven. Phase 2 leading indicators NOT yet triggered: refiner crack compression, EM sovereign CDS, CCC-rated decoupling. E&P defaults lag price crash 6-12 months. | HY energy OAS >400 AND crack spreads compressing = Phase 2 credit warning | Mar 6 |
 | OPEC+ policy | 🔴 4 | 3.24 mbpd deferred. Unwind paused by war. When Hormuz reopens: Day 3 meeting, Day 8 VLCC loading, price crash. Paper quotas ≠ physical (2022 gap was 2.7-2.89 mbpd). | Hormuz reopens → immediately = 5 | Mar 6 |
 
@@ -186,7 +212,8 @@ The mine confirmation creates a nuanced wrinkle in Path A exit protocol: a cease
 | US crude production (wk ending Feb 27) | 13.696 mbpd | [CONF] EIA Weekly Mar 6 | Mar 6 |
 | EIA 2026 full-year forecast | 13.6 mbpd avg; Q2 decline to 13.51 mbpd | [CONF] EIA STEO Feb 2026 | Mar 6 |
 | US oil rig count (Mar 6) | 411 oil-directed / 551 total | [CONF] Baker Hughes Mar 6 | Mar 6 |
-| Rig trend | -7% YoY; oil rigs -1 vs 4 weeks ago; flat through war | [CONF] Baker Hughes Mar 6 | Mar 6 |
+| US rig count (Mar 13) | **553 total** (+2 WoW); **~412-413 oil** (est). Second week of adds. 7% below YoY. | [CONF] Baker Hughes / Reuters Mar 13 | Mar 13 |
+| Rig trend | -7% YoY; two-week add streak (first since early Feb). E&P capex -1% 2026. Capital discipline intact. | [CONF] Baker Hughes Mar 13 | Mar 13 |
 | DUC inventory (Jan 2026) | 5,015 wells (-41% from 8,504 peak Feb 2019) | [CONF] EIA Drilling Productivity Report | Mar 6 |
 | Permian rig count | 240 (43.6% of US total); -65 YoY (-21.3%) | [CONF] Baker Hughes Mar 6 | Mar 6 |
 | Capital discipline | CONFIRMED — zero operators announced capex increase post-war | [CONF] Operator IRs Mar 2026 | Mar 6 |
@@ -201,11 +228,11 @@ The mine confirmation creates a nuanced wrinkle in Path A exit protocol: a cease
 
 | Metric | Value | Source | Updated |
 |--------|-------|--------|---------|
-| JKM (Asian LNG benchmark) | $15.105/MMBtu (Mar 4); peak $15.770 (Mar 3) | [CONF] CME/ICE/Platts Mar 6 | Mar 6 |
+| JKM (Asian LNG benchmark) | **$16.18/MMBtu** (Mar 14) — down from $25+ peak (Mar 3); up from $15.105 (Mar 4) | [CONF] OilPriceAPI Mar 14 | Mar 14 |
 | JKM pre-war | $10.725/MMBtu | [CONF] CME | Mar 6 |
-| JKM change | +40.8% sustained; +47% peak | [CONF] | Mar 6 |
-| TTF (European benchmark) | 53.385 EUR/MWh (~$16.80/MMBtu) | [CONF] ICE Mar 6 | Mar 6 |
-| Henry Hub (US domestic) | $2.83/MMBtu April delivery | [CONF] CME/AGA Mar 6 | Mar 6 |
+| JKM change (vs pre-war) | +50.8% from pre-war baseline. Trajectory: pre-war $10.7 → Mar 3 peak $25+ → Mar 14 $16.18 | [CONF] | Mar 14 |
+| TTF (European benchmark) | **$18.1/MMBtu** (Mar 6 week); peak $18.5 (Mar 3). Pre-war: $11.1 | [CONF] Canada LNG Group Mar 9 | Mar 9 |
+| Henry Hub (US domestic) | **$3.13/MMBtu** (Mar 14) | [CONF] OilPriceAPI Mar 14 | Mar 14 |
 | Qatar LNG status | Force majeure — zero LNG carriers transiting Hormuz March | [CONF] Kpler Mar 6 | Mar 6 |
 | ME LNG exports (March) | 2.3 Mt (vs 8.1 Mt anticipated) — 70% reduction | [CONF] GTReview/Kpler | Mar 6 |
 | Cheniere (LNG) | ~45 MTPA; 17 spot-exposed Q1 cargoes (1.2Mt); Model EPS $4.87-5.60 vs $3.15 consensus (55-78% beat); $255 prices zero geopolitical premium; intrinsic $310-518 | [CONF] Earnings model + 4Q2025 call | Mar 7 |
@@ -223,6 +250,7 @@ The mine confirmation creates a nuanced wrinkle in Path A exit protocol: a cease
 | Every Fri | Baker Hughes Rig Count | Baker Hughes | 🟠 |
 | **Mar 11** | **IEA 400M bbl SPR release announced** | Reuters/Guardian | 🔴 DONE |
 | **Mar 11** | **US sinks 16 Iranian minelayers — active mining confirmed** | CNBC/BBC/Guardian | 🔴 DONE |
+| **Mar 16** | **Japan SPR release begins** (80M bbl committed) | METI / Reuters | 🔴 |
 | Mar 11 | CPI (energy component) | BLS | 🟠 |
 | Mar 13 | PCE (energy component) | BEA | 🟠 |
 | Mar 17-18 | FOMC (stagflation language re: oil) | Fed | 🔴 |
