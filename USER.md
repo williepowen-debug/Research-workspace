@@ -47,6 +47,7 @@ The research is interesting in its own right, but the ultimate test is whether t
 - The Lit background shows: thinks in narratives, transmission chains, "what story is the market telling itself."
 - Sees potential career in AI-native research/operations but has no traditional credentials for it.
 - Goal: earn income (trades and/or the system), keep learning, keep building. Open to where it leads.
+- **Publishing intent (Mar 15):** Wants to turn research into publishable content. First piece: Memo Item 3 methodology (Substack or similar). Sees potential for research newsletter as income stream alongside trades.
 
 ---
 
