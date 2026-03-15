@@ -38,8 +38,8 @@ Scenario C, War Day 13. Brent $100+. Account ~$57K (+187%).
 - 5 research prompts in WILL/PROMPTS.md ready for multi-LLM runs
 
 ## Handoff
-**Last context:** Dashboard Segments 1-3 COMPLETE. All 5 tabs working: Overview, Data (FRED/BLS/prices/treasury/SEC/alerts), Predictions (calibration/imminent/approaching/by-agent), Network (vis.js 18-agent graph), Calendar (catalysts/Taiwan LNG/fertilizer/exit rules). Server running port 8080. Plan: `dashboard/REBUILD_PLAN.md`.
-**Next tide:** SEGMENT 4 — polish (mobile responsive, Energy/War tab, agent detail modals, Telegram alerts). Then market execution Monday.
-**Open questions:** Russia NOPI revision. Ceasefire playbook format.
-**Positions:** No changes — system work only.
-**Rhythm note:** Saturday morning. Weekend, light monitoring.
+**Last context:** Sunday 1:30 AM ET. Will has NEW SIGNALS to process for Monday morning. FOMC Mon-Tue, presser Wed 2:30 PM ET. Will also wants to start publishing research (Memo Item 3 first piece) — parked for Monday.
+**Next tide:** 1) Process Will's new signals (he'll send them next session). 2) Monday market prep — FOMC week. 3) Jun→Dec rolls on green days. 4) Publishing work when ready.
+**Open questions:** Russia NOPI revision. Ceasefire playbook format. What Will's new signals contain.
+**Positions:** No changes since Mar 12.
+**Rhythm note:** Sunday early AM. Will energized — thinking about income/publishing alongside trading. Good headspace.
