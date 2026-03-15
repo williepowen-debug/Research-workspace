@@ -1,7 +1,9 @@
 # HAWK STATUS
 
-**Last Updated:** 2026-03-11 13:57 UTC
-**Overall Status:** 🔴🔴 RED-RED — US-IRAN WAR DAY 11-12 / SCENARIO C BASE CASE / ACTIVE MINE WARFARE / FINANCIAL INFRASTRUCTURE DECLARED TARGET / DUBAI AIRPORT ATTACKED
+**Last Updated:** 2026-03-15 19:10 UTC (STAGE 2 LIVE SEARCH)
+**Overall Status:** 🔴🔴 RED-RED — US-IRAN WAR DAY 15 / SCENARIO C BASE CASE EXTENDED / ALL FOUR GULF PRODUCERS CURTAILING / DIFC KINETICALLY HIT / KHARG ISLAND STRUCK / HEZBOLLAH ACTIVATED / NUCLEAR PROGRAM DEGRADED
+
+**Summary [Mar 15 STAGE 2 UPDATE]:** ALL FOUR MAJOR GULF PRODUCERS NOW CURTAILING (Iraq 3M bpd, Kuwait force majeure Mar 7, UAE, Saudi 2M bpd Mar 13 = 6.7M+ bpd combined). DIFC KINETICALLY HIT Mar 13 (Iranian drone, building facade damaged) — LIQUID trigger has fired. HEZBOLLAH ACTIVATED against Israel (NYT Mar 12) despite LAF disarmament efforts — Scenario D probability elevated. US STRUCK KHARG ISLAND (Mar 13-14) "obliterating military targets" and threatening oil infrastructure next — coercive escalation approaching final threshold. IRAN'S NUCLEAR PROGRAM SET BACK YEARS (ISIS assessment: Natanz majority centrifuges destroyed, Fordow damaged, Esfahan complex facilities destroyed). Iran attack tempo CONTINUING: Sohar Oman hit Mar 13 (2 killed), Saudi 51 drones intercepted Mar 13, Fujairah energy installation hit Mar 14, Camp Arifjan (Kuwait) hit with 2 missiles. PARTIAL HORMUZ DIPLOMATIC SIGNAL: Iran "open to talk about safe passage" — first non-zero signal but both sides still refusing formal talks. Qatar LNG CEO: NO restart until conflict ends completely — May Taiwan/Japan procurement gap CONFIRMED. India asking China for urea (Week 2-4 drawdown phase active). Scenario probabilities REVISED: **C=58%, D=25%, B=17%**. Scenario D elevated significantly on Hezbollah activation + Kharg escalation ladder.
 
 **Summary [Mar 11 CRITICAL update]:** ACTIVE MINE WARFARE PHASE ENTERED. US destroyed 16 Iranian minelaying vessels overnight. Dubai International Airport hit by Iranian drones (4 wounded, flights continuing). Iran declares banks and financial institutions as military targets — DIFC, Saudi banks, Bahrain all named (new threat vector). Iran vows "not a single liter" of oil to enemies (maximalist leadership posture). 7 US KIA, 140 wounded. Bulk carrier struck Mar 11 (3rd attack of day, off UAE). Hudson confirms 13M bpd STRUCTURAL GAP — pipeline bypass capacity 7M bpd max vs 20M bpd Hormuz normal. CRU (authoritative): 47% of global sulphur, 43% of urea at risk — "industry in paralysis." Scenario probabilities: **C=60%, D=18%, B=22%**. Oil trajectory: $120-150+ confirmed range with 4-6+ month duration base case. Financial infrastructure targeting opens new LIQUID contagion pathway.
 
@@ -12,6 +14,63 @@
 ## 🔴🔴 SITUATION 1: US-IRAN WAR (Day 11-12)
 
 ### Current State (Mar 11) [Updated Mar 11 13:57 UTC] — CRITICAL OVERNIGHT DEVELOPMENTS
+
+**[NEW Mar 15 STAGE 2] KEY DEVELOPMENTS Mar 12-15:**
+
+**ALL FOUR GULF PRODUCERS CURTAILING:**
+- Kuwait KPC: Force majeure CONFIRMED Mar 7. ~2.6M bpd (Feb level). Earlier than March 20 estimate.
+- UAE: Began cuts Mar 7 (Bloomberg) simultaneously with Kuwait. Major UAE refinery shut "precaution" after drone attack nearby.
+- Saudi Arabia: 2M bpd cut to ~8M bpd (Reuters Mar 13, 2 sources). Berri offshore field targeted by Iranian drone.
+- Iraq: 3M bpd already confirmed (Mar 8). Combined total: ~6.7M bpd cut.
+
+**DIFC KINETICALLY HIT Mar 13:**
+- Iranian drone struck DIFC. Intercepted by UAE air defenses but debris damaged DIFC Innovation Hub building facade.
+- Large plume of smoke over central Dubai. Financial infrastructure physically attacked — LIQUID trigger has fired.
+- Citi + StanChart + HSBC evacuated (pre-hit); multiple other DIFC tenants also evacuated.
+
+**HEZBOLLAH ACTIVATED (Scenario D indicator):**
+- Hezbollah fired on Israel in support of Iran (NYT Mar 12) despite Lebanese government ban.
+- LAF disarmament has FAILED to prevent engagement. Multi-front war now confirmed.
+- ISW Mar 10: Hezbollah 29 attacks in 24h — highest since conflict start.
+- IDF discussing ground operation to Litani River (multiple options being evaluated).
+
+**US STRUCK KHARG ISLAND Mar 13-14:**
+- Trump: "totally obliterated every MILITARY target in Iran's crown jewel, Kharg Island"
+- ~90 military targets struck (CENTCOM). Oil infrastructure NOT yet struck.
+- Trump threatened to "wipe out" oil infrastructure if Iran continues Hormuz blockade.
+- Trump said US may do more strikes "just for fun" — Kharg oil infra strike approaching.
+- If oil infrastructure hit: Iran loses ~90% of export revenue. Scenario D/nuclear retaliation risk surges.
+
+**IRAN NUCLEAR PROGRAM DEGRADED:**
+- ISIS post-attack assessment: Majority of Natanz centrifuges eliminated or severely damaged.
+- Significant damage to Fordow underground site. Multiple Esfahan facilities destroyed.
+- Iran's nuclear program set back years. Reduces nuclear threat but may increase conventional escalation (less to lose).
+
+**DIPLOMATIC STATUS:**
+- ISW Mar 14: "Neither Iran nor US prepared for discussions despite Oman/Egypt mediation."
+- Iran FM: "never asked for negotiation." Trump: "terms aren't good enough."
+- PARTIAL SIGNAL: Iran "open to talk about safe passage" through Hormuz (FM statement Mar 15).
+- Oman + Egypt back-channel EXISTS but both sides refusing.
+
+**IRAN ATTACK TEMPO (Mar 12-14):**
+- Sohar, Oman industrial zone struck Mar 13 (2 killed). Saudi Arabia intercepted 51 drones Mar 13.
+- Kuwait: 1 ballistic missile detected Mar 13; Camp Arifjan (US Army Central HQ) hit with 2 IRGC missiles.
+- Fujairah energy installation struck Mar 14 (smoke visible).
+- US Embassy Baghdad helipad struck (2nd time since war). French soldier killed in Iraq.
+- ISW Mar 13: NO attacks on civilian vessels since accidentally hitting Chinese-flagged vessel Mar 11.
+
+**IRAN MILITARY STATUS:**
+- ISW Mar 12: IRGC vs Artesh fractures amid supply shortages.
+- Hegseth Mar 13: Ballistic missile production "functionally defeated."
+- Iran shifting to drone-heavy, proxy, minelaying tactics as missiles deplete.
+
+**SCENARIO PROBABILITY REVISION (Mar 15):**
+
+| Scenario | Prob (Mar 11) | Prob (Mar 15) | Change | Rationale |
+|----------|--------------|--------------|--------|-----------|
+| **B — Sustained** | 22% | **17%** | ↓5% | Hezbollah activation + Kharg strike = de-escalation even harder |
+| **C — Full Escalation** | 60% | **58%** | ↓2% | All producers curtailed (scenario confirmed), but duration model holding |
+| **D — Collapse/Nuclear** | 18% | **25%** | ↑7% | Hezbollah activation + Kharg escalation ladder + nuclear program destruction (less to lose) |
 
 **[NEW Mar 11] ACTIVE MINE WARFARE PHASE — US KINETIC RESPONSE:**
 - US military destroyed 16 Iranian minelaying vessels overnight Mar 10-11 (AP News). This is the first direct US naval engagement against Iranian surface vessels.
@@ -113,20 +172,25 @@
 *Revised Mar 11: C raised to 60%, D raised to 18% (financial infrastructure declared target + active kinetic mine warfare + US KIA). B collapsed to 22% — escalation plateau makes de-escalation politically very hard. Oil price ceiling raised to $160 in C scenario (13M bpd structural gap + duration extension). "Reverse Ukraine" indefinite closure now primary tail.*
 
 ### Escalation Indicators — Watch NOW
-- ✅ Iraq 70% shut-in CONFIRMED Mar 8 — Scenario C trigger HIT [Yergin, Rory Johnston, Walter Bloomberg]
+- ✅ Iraq 70% shut-in CONFIRMED Mar 8 — Scenario C trigger HIT
 - ✅ Haifa refinery struck Mar 7 — energy infra bidirectional
 - ✅ 22 fires at Iran missile/drone facilities — regime degradation underway
-- ✅ Nuclear facility fire Mar 5-6 — escalation ladder still climbing
-- ✅ **PHYSICAL MINING CONFIRMED Mar 10** — small vessels placing mines in transitway (CBS/CNBC/Metro UK). 3,200 ships idle (4% global tonnage). Mine clearance = weeks-months additional lag.
-- ✅ **Maersk full Gulf suspension confirmed** — world's largest carrier, all bookings to/from UAE/Oman/Iraq/Kuwait/Jordan/Qatar/Bahrain/Saudi
-- ✅ **Khamenei → Mojtaba (hardliner) succession** — resolution timeline extends dramatically
-- ⚠️ Kuwait forced curtailment (T-minus ~days at current rate; storage filling)
-- ⚠️ UAE curtailment (80% physical by Mar 31 per sources)
-- ⚠️ Iran expands civilian infrastructure attacks (president vowed escalation)
-- ⚠️ Saudi Arabia / Qatar curtailments (next in line after Iraq)
-- ⚠️ Taiwan LNG crisis (March 15 critical date — shipments cleared before closure consumed)
-- Hezbollah full activation (Lebanese govt disarmament fails)
-- US ground deployment beyond current bases
+- ✅ Nuclear facility fire Mar 5-6; ISIS confirms: Natanz majority centrifuges destroyed, Fordow damaged, Esfahan complex destroyed — Iran nuclear program set back years
+- ✅ **PHYSICAL MINING CONFIRMED Mar 10** — 5,000-6,000 mine inventory; 16 minelaying vessels destroyed by US
+- ✅ **Maersk full Gulf suspension confirmed** — world's largest carrier
+- ✅ **Khamenei → Mojtaba (hardliner) succession** — resolution timeline extends
+- ✅ **KUWAIT FORCE MAJEURE Mar 7** — storage-forced curtailment confirmed (KB-HAWK-080)
+- ✅ **UAE simultaneous cuts Mar 7** — Bloomberg confirmed (KB-HAWK-080)
+- ✅ **SAUDI ARABIA 2M BPD CUT Mar 13** — Reuters 2-source (KB-HAWK-081) — ALL FOUR producers now curtailing
+- ✅ **HEZBOLLAH ACTIVATED Mar 12** — fired on Israel despite LAF disarmament — Scenario D indicator (KB-HAWK-082)
+- ✅ **DIFC KINETICALLY HIT Mar 13** — drone, building facade damaged — LIQUID trigger fired (KB-HAWK-083)
+- ✅ **US STRUCK KHARG ISLAND Mar 13-14** — military targets obliterated, oil infra threatened (KB-HAWK-085)
+- ✅ **CAMP ARIFJAN (Kuwait) hit by 2 IRGC missiles** — US Army Central HQ directly targeted (KB-HAWK-088)
+- ⚠️ Trump threatens Kharg oil infrastructure strike — if executed, Scenario D probability surges further
+- ⚠️ IDF ground operation to Litani River being planned — activation = major new phase
+- ⚠️ Qatar LNG: no restart until conflict ends — May procurement gap confirmed live
+- ⚠️ India-China urea negotiation — MOFCOM export quota = binary food security catalyst
+- ⚠️ Iran "open to talk about safe passage" — first limited diplomatic signal (watch for Oman mediation progress)
 
 ### Second-Order Watches
 - ⚠️ **Fertilizer supply chain**: Gulf = 13% global exports, all Hormuz-dependent. India 62% nitrogen from Oman. Spring planting window NOW. Food CPI spike risk if disruption extends 4+ weeks.
@@ -149,14 +213,14 @@
 | Hormuz status | 🔴🔴 5 | Lloyd's List: 46 vs 561 transits (-92%); zero large tankers westbound since Mar 3 | Physical mines = confirmed RED+ | Mar 9 |
 | Iran military ops | 🔴🔴 5 | 22 fires at missile/drone facilities; nuclear facility fire; Haifa refinery hit; regime degradation campaign | Already at max | Mar 9 |
 | Oil price | 🔴🔴 5 | Brent $90+, Platts +21% since war start; Yergin "biggest disruption in history" | >$100 = confirmed C | Mar 9 |
-| Gulf production | 🔴 4 | Iraq 3M bpd shut-in CONFIRMED; Kuwait/Qatar curtailed; UAE imminent | All 4 shut = 5 | Mar 9 |
-| Hezbollah/proxies | 🟠 3 | Limited strikes; Lebanon banning HZB ops | Mass activation = 5 | Mar 8 |
-| Diplomatic channels | 🔴 4 | Iran: no talks, no ceasefire; energy infra targeting hardens positions | Back-channel opens = 2 | Mar 9 |
+| Gulf production | 🔴🔴 5 | Iraq+Kuwait+UAE+Saudi ALL curtailing = 6.7M+ bpd combined | MAXIMUM — all 4 shut | Mar 15 |
+| Hezbollah/proxies | 🔴🔴 5 | Hezbollah ACTIVATED Mar 12 — fired on Israel. IDF Litani ground op planned. 29 attacks/24h. | MAXIMUM | Mar 15 |
+| Diplomatic channels | 🔴 4 | Iran/US both refusing talks despite Oman/Egypt mediation. Iran "open to safe passage" = first limited signal. | Back-channel produces agreement = 2 | Mar 15 |
 | Shadow fleet / shipping | 🔴🔴 5 | Global routing disrupted; VLCC +201%, LNG carriers +529%; war risk insurance uninsurable | N/A | Mar 9 |
 | Russia-Ukraine energy | 🟠 3 | Druzhba Kaleykino struck Feb 23; Hungary/Slovakia disrupted; revenue -50% YoY | Major new infrastructure strike = 4 | Mar 8 |
 | Global economy | 🔴🔴 5 | NFP -92K (first negative print, BLS confirmed); Yergin calls it "nightmare scenario"; stagflation trap | N/A | Mar 9 |
 
-**Convergence: 43/45 🔴🔴 — Scenario C CONFIRMED ACTIVE. Iran military ops upgraded to 5 (22 missile facility fires + nuclear site + Haifa refinery). Global economy upgraded to 5 (NFP negative + Yergin nightmare scenario framing). Near-maximum convergence.**
+**Convergence: 45/45 🔴🔴 — MAXIMUM. [Updated Mar 15] ALL FOUR Gulf producers curtailing. Hezbollah activated. DIFC kinetically hit. US struck Kharg. Scenario D at 25%. Near-total convergence across all vectors.**
 
 ---
 
