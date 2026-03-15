@@ -1,7 +1,7 @@
 # BRENT STATUS
 
-**Last Updated:** 2026-03-15 19:15 UTC — STAGE 2 LIVE SEARCH: Brent $101.07 (Mar 13) recovery confirmed / STNG $66.39 STOP LOSS BREACHED / Chubb/DFC $20B Hormuz insurance announced Mar 11 / Japan SPR starts Mar 16 / Airlines fare hike phase active / JKM $16.18 / Kuwait BRT-02 model on track (Mar 20)
-**Overall Status:** 🔴🔴 RED-RED — HORMUZ CLOSED DAY 15 + ACTIVELY MINED / BRENT $101.07 RECOVERY (FROM $85 FLASH CRASH) / STNG STOP LOSS BREACHED AT $66.39 — SEE POSITIONS / PHASE 1 INTACT / CHUBB/DFC INSURANCE = PATH A ANALOG (MARKET ALREADY PRICED)
+**Last Updated:** 2026-03-15 19:30 UTC — STAGE 2 LIVE SEARCH: Brent $101.07 (Mar 13) recovery confirmed / STNG SOLD (stop breached, exited by Will) / Chubb/DFC $20B Hormuz insurance announced Mar 11 / Japan SPR starts Mar 16 / Airlines fare hike phase active / JKM $16.18 / Kuwait BRT-02 model on track (Mar 20)
+**Overall Status:** 🔴🔴 RED-RED — HORMUZ CLOSED DAY 15 + ACTIVELY MINED / BRENT $101.07 RECOVERY (FROM $85 FLASH CRASH) / STNG SOLD / PHASE 1 INTACT / CHUBB/DFC INSURANCE = PATH A ANALOG (MARKET ALREADY PRICED)
 
 **Summary (Mar 11):** Active mining of Hormuz now confirmed — US destroyed 16 Iranian minelayers on Mar 11. Iran declared "not a single liter" passes to enemies. Dubai airport hit by 2 drones. 3 ships attacked in single day. Iranian financial institutions declared military targets by Tehran (asymmetric escalation). WTI crashed 11% yesterday (Mar 10) on Trump Truth Social rhetoric ("oil will drop rapidly"), then rebounded overnight as US military actions confirmed escalation not de-escalation. WTI $85 this morning — **flash crash, not repricing**. IEA announced 400M barrel release (largest in history). Kuwait storage crisis Mar 20 still on track (9 days away). Phase 1 thesis fully intact with stronger duration floor due to physical mines.
 
@@ -128,7 +128,7 @@
 | Position | Entry | Current | P/L | Notes |
 |----------|-------|---------|-----|-------|
 | USO (2 shares) | ~$96 [EST] | **~$110 [EST, WTI ~$94]** | **+~14% [EST]** | Brent $101.07 Mar 13. Recovery from flash crash confirmed. |
-| STNG (2 shares) | ~$76.27 [CONF] | **$66.39** (Mar 13) | **-13.0% [CONF]** | ⚠️ **STOP LOSS BREACHED** — Stop was $71.50. Chubb/DFC $20B Hormuz insurance (Mar 11) = PATH A ANALOG. See PROPOSALS below. |
+| STNG (SOLD) | ~$76.27 entry | **SOLD** (stop breached, exited by Will pre-Mar 15) | **CLOSED** | Stop $71.50 breached at $66.39. Chubb/DFC $20B insurance = PATH A analog. Position closed. |
 | USO 91C Mar 18 | SOLD Mar 6 | $17.00 | +$1,098 (+183%) | Harvested |
 | **PROPOSED ADD:** USO at ~$100-103 | — | — | — | See proposal below |
 
@@ -140,11 +140,11 @@
 
 ---
 
-## 🚨 URGENT: STNG STOP LOSS BREACH (Mar 13-15)
+## STNG — POSITION CLOSED (Pre-Mar 15)
 
-**STNG = $66.39 (Mar 13). Stop loss was $71.50. Breached by $5.11 (-7.1%).**
+**STNG was sold by Will after stop loss breach. Position closed.**
 
-**Why it happened:** Chubb + US DFC announced $20B war risk insurance program for Hormuz transits on Mar 11. Market interpreted this as a PATH A analog (P&I insurance returning to Hormuz = exit trigger). DNB Markets downgraded STNG to Hold on Mar 12. Stock declined from $80+ (Mar 4) to $66.39 (Mar 13).
+**What happened:** Chubb + US DFC announced $20B war risk insurance program for Hormuz transits on Mar 11. Market interpreted this as a PATH A analog. DNB Markets downgraded STNG to Hold on Mar 12. Stock declined from $80+ (Mar 4) to $66.39 (Mar 13). Will exited the position.
 
 **The nuance:** Chubb/DFC is NOT a standard P&I club (Gard/Britannia/North). It's a US government-backed commercial program. Ships were still attacked on the day of the announcement (3 vessels struck Mar 11). Physical mines remain in water. Crew reluctance is ongoing. Traffic has NOT meaningfully resumed.
 
