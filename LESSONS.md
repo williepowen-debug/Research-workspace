@@ -31,3 +31,5 @@
 4. **Flag research opportunities during KB updates.** Don't just log data — say when deeper digging could yield edge.
 5. **Flag LLM-inaccessible data for Will.** Google Trends, real-time dashboards, paywalled portals — don't let him waste time on prompts that return garbage.
 6. **Major data releases → write synthesis .md in agent's domain folder.** Extract the 5 things that matter for positions. Agents wake with no memory; curated context > raw dumps.
+7. **Dry-run prompts before batch deployment.** Agents catch file path errors (KB.tsv missing), date errors (TIC Mar 18 not Mar 15), and context gaps you won't see from the outside.
+8. **Inject confirmed data, don't re-search it.** Each batch of agents should receive findings from prior batches as confirmed context. Saves tokens, prevents conflicting data.
