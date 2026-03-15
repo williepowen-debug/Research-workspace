@@ -33,3 +33,4 @@
 6. **Major data releases → write synthesis .md in agent's domain folder.** Extract the 5 things that matter for positions. Agents wake with no memory; curated context > raw dumps.
 7. **Dry-run prompts before batch deployment.** Agents catch file path errors (KB.tsv missing), date errors (TIC Mar 18 not Mar 15), and context gaps you won't see from the outside.
 8. **Inject confirmed data, don't re-search it.** Each batch of agents should receive findings from prior batches as confirmed context. Saves tokens, prevents conflicting data.
+9. **Update agent position files when trades execute.** If Will sells a position, update the relevant agent's STATUS.md immediately. Otherwise the agent will flag stale positions as action items on next run (STNG incident Mar 15 — agent flagged stop breach on an already-sold position).
