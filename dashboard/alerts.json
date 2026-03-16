@@ -457,5 +457,41 @@
     "message": "VIX breached 25 (now 27.19)",
     "value": 27.19,
     "threshold": 25
+  },
+  {
+    "id": 1773664075774,
+    "timestamp": "2026-03-16 12:27:55 UTC",
+    "type": "threshold",
+    "severity": "info",
+    "message": "VIX recovered (now 24.93, threshold 25)",
+    "value": 24.93,
+    "threshold": 25
+  },
+  {
+    "id": 1773664795871,
+    "timestamp": "2026-03-16 12:39:55 UTC",
+    "type": "threshold",
+    "severity": "warning",
+    "message": "VIX breached 25 (now 25.09)",
+    "value": 25.09,
+    "threshold": 25
+  },
+  {
+    "id": 1773665875819,
+    "timestamp": "2026-03-16 12:57:55 UTC",
+    "type": "threshold",
+    "severity": "info",
+    "message": "VIX recovered (now 25.0, threshold 25)",
+    "value": 25.0,
+    "threshold": 25
+  },
+  {
+    "id": 1773666595873,
+    "timestamp": "2026-03-16 13:09:55 UTC",
+    "type": "threshold",
+    "severity": "warning",
+    "message": "VIX breached 25 (now 25.06)",
+    "value": 25.06,
+    "threshold": 25
   }
 ]
