@@ -1,5 +1,19 @@
 # LABOR STATUS
-**Last Updated:** 2026-03-15 18:05 UTC | **Status:** 🔴🔴 CRITICAL — TSA PAYCHECK MISS CONFIRMED (SECOND CONSECUTIVE, ~$300-400M CUMULATIVE SHOCK). SHUTDOWN DAY 29+, NO END IN SIGHT. FL UI WAVE 1 (MAR 24) UNBLOCKED. SCHEDULE POLICY/CAREER NO INJUNCTION. SHUNTO DEMAND 5.94% (AT THRESHOLD). QUITS RATE 2.0% FOR 7 CONSECUTIVE MONTHS.
+**Last Updated:** 2026-03-16 20:15 UTC | **Status:** 🔴🔴 CRITICAL — SHUTDOWN DAY 31, SENATE VOTE FAILED AGAIN (4 ATTEMPTS BLOCKED). RECESS MAR 30 = 60+ DAYS IF NO DEAL THIS MONTH. TSA PAYCHECK MISS SECOND CONSECUTIVE. FL UI WAVE 1 (MAR 24) T-8 DAYS. SCHEDULE POLICY/CAREER ORAL ARG WED MAR 18. ADP PULSE TOMORROW (FIRST POST-HORMUZ). FOMC STARTS TOMORROW.
+
+**Signal Mar 16 — EOD Update:**
+
+**SHUTDOWN DAY 31 — SENATE RETURNED, FAILED AGAIN:** Senate reconvened at 3 PM ET. Democrats blocked DHS funding (HR 7147) for the 4th time — 60-vote threshold not met. Fetterman sole Dem voting yes. Slotkin (D-MI) signaling openness to funding CBP separately from ICE — first crack in Dem unity, but not enough. **KEY CALENDAR RISK: Senate recess Mar 30 - Apr 10.** If no deal by end of March, shutdown extends to 60+ days automatically. Kalshi/Polymarket median now through April 13. This is now approaching 2nd-longest shutdown in history (longest: 43 days in 2025). **LABOR IMPLICATION:** Claims suppression extends. DHS workers cannot file UI while technically employed but unpaid. Mar 19 claims print (FOMC day) STILL distorted. The real claims picture won't emerge until shutdown resolves + 1-3 week filing lag. If April resolution → claims spike late April/early May, COINCIDING with FL UI Wave 2 exhaustion (Apr 26).
+
+**TSA CHAOS COMPOUNDING — SPRING BREAK + MEGASTORM:** Spring break travel colliding with winter megastorm (Northeast). TSA staffing at crisis levels — 300+ officers quit (TSA confirmed), partial paychecks for those remaining. PHL, ATL ground stops. Airline CEOs (Reuters Mar 15) urged Congress to pay TSA. Austin/Houston recommending 5-hour early arrival. **This is now a consumer demand destruction channel** — travelers canceling/rescheduling = airline revenue hit = services sector weakness. Cross: CARL.
+
+**ADP PULSE — TOMORROW (Mar 17):** Confirmed release date. Last read: 15,500/wk (Feb 21 data). This is the FIRST post-Hormuz read. If hiring dropped after Mar 3 Hormuz closure, this pulse will capture it. Alert threshold: <10,000/wk. This is the most important near-term data point for LABOR.
+
+**FOMC — STARTS TOMORROW (Mar 18-19):** Decision + dot plot Wednesday. Claims also Wednesday. Triple data event: FOMC + claims + potential ADP pulse aftermath. Powell presser will address labor market — watch language shift from "resilient" to anything softer.
+
+**SCHEDULE POLICY/CAREER — ORAL ARGUMENT WEDNESDAY MAR 18:** Preliminary injunction hearing in D.C. Circuit. If court grants PI → RIF cascade paused → bearish thesis delayed. If denied → RIF pipeline continues unblocked. This is the key legal watch this week.
+
+**MULLIN NOMINATED FOR DHS:** Trump tapped Sen. Markwayne Mullin (R-OK) to replace fired Kristi Noem as DHS Secretary. Senate confirmation hearing adds another item competing for floor time vs. shutdown resolution.
 
 **Signal Mar 15 — Stage 2 Live Search Update:**
 
@@ -114,7 +128,7 @@ GDP Q4 2025 **REVISED TO 0.7%** (from 1.4% advance estimate). Economists expecte
 | **Hourly Wages YoY** | **+3.8%** | 🔴 | [CONF] BLS Mar 6. Beat +3.7% exp. Wages sticky while employment breaks. |
 | **Consumer Credit Jan** | **$11.0B vs $24.0B exp** | 🔴 | [CONF] Fed Mar 6. Massive miss. Households not borrowing to fill income gap — demand destruction signal. Cross: CARL. |
 | **401(k) Hardship Withdrawals** | **6% of participants (2025)** | 🔴 | [CONF] Vanguard / Business Insider Mar 10. Up from 4.8% in 2024. **+25% YoY.** Fastest pace on record. LAST-RESORT indicator — withdrawal means penalties + taxes + no better option. Pre-Hormuz data; 2026 trajectory is worse. Cross-ref: subprime delinquencies, NFP -92K, employment deterioration. → Cross: CARL. |
-| **ADP NER Weekly Pulse (Feb 21)** | **15,500 jobs/wk** | 🟠 | [CONF] ADP Mar 10. 5-week recovery from Jan low (4,250/wk). Now flat — stalling, not accelerating. **KEY DIVERGENCE: ADP weekly shows Feb gains vs BLS NFP -92K.** Consistent with "Private Canaries" paper (Mar 6) on declining BLS survey response rates. Data cutoff Feb 21 — pre-Hormuz, pre-DHS shutdown escalation. Watch Mar 17 next pulse. Alert if <10,000/week. |
+| **ADP NER Weekly Pulse (Feb 21)** | **15,500 jobs/wk** | 🟠 | [CONF] ADP Mar 10. Pre-Hormuz. Next release TOMORROW Mar 17 — FIRST POST-HORMUZ READ. If <10K/wk → ALERT. Critical inflection point. |
 | **Retail Sales Jan** | **-0.2%** | 🟠 | [CONF] BLS Mar 6 (delayed). Slight beat vs -0.4% exp. Still negative. |
 | **ISM Services Feb** | **56.1%** | 🟡 | [CONF] ISM Mar 4. 3.5-year high, massive beat vs 53.5% exp. Counter-signal to labor deterioration. |
 | **ISM Mfg Feb (overall)** | **52.4%** | 🟡 | [CONF] ISM Mar 3. Expansion. Employment sub-index 48.8% still contraction. Headline misleads. |
@@ -154,7 +168,7 @@ GDP Q4 2025 **REVISED TO 0.7%** (from 1.4% advance estimate). Economists expecte
 | **Continuing Claims (threshold)** | **1,868K** | 🟠 | [CONF] BLS Mar 5 (DHS suppression). 32K from YELLOW (1,900K). First clean read tomorrow — risk of gap-through. |
 | Cass Freight Jan 2026 | Cycle low (Feb report pending) | 🟠 | [CONF] Cass Jan 2026 published. Feb 2026 report NOT YET PUBLISHED (checked Mar 15). |
 | **DHS Paycheck Miss** | **SECOND CONSECUTIVE** | 🔴 | [CONF] NPR/CNN/Daily Mail Mar 13-14. First FULL paycheck missed weekend Mar 13-14. "Hundreds quitting." Airport chaos confirmed. Cumulative spending shock ~$300-400M. Cross: CARL urgent. |
-| **Shutdown Duration** | **Day 29+ (Mar 15)** | 🔴 | [CONF] Senate back Mon Mar 16. No resolution. Kalshi median: 48-day total → end ~early April. 16% chance 90+ days. Mar 19 claims still potentially suppressed. |
+| **Shutdown Duration** | **Day 31 (Mar 16)** | 🔴🔴 | [CONF] Senate returned, FAILED again (4th block). Recess Mar 30-Apr 10 = 60+ days if no deal this month. Kalshi median: through Apr 13. 2nd-longest shutdown in history approaching. Mar 19 claims STILL suppressed. |
 | **JOLTS Quits Rate** | **2.0% (7 consecutive months)** | 🔴 | [CONF] BLS/Indeed Hiring Lab Mar 13. Quits 3.1M flat. Govt/financial/mfg below 1.5%. Hotel California structurally confirmed. |
 | **FL UI Wave 1 Block** | **NO BLOCK** | 🔴 | [CONF] Mar 15 research. HB 191 TIGHTENS UI (not extends). Wave 1 exhaustion Mar 24 = LOCKED IN. |
 | **Schedule Policy/Career Injunction** | **NO INJUNCTION** | 🔴 | [CONF] Mar 15 research. Oral arg on PI scheduled Mar 18. RIF cascade proceeding unblocked. |
@@ -339,7 +353,7 @@ PPI core +0.8% (2.6x expected) + PCE 2.9% + Hormuz → Oil spike
 
 ---
 
-*Next triggers: **Mar 24: FL UI exhaustion Wave 1** | **Apr 4 NFP Mar 2026** — (1) initial claims (FIRST CLEAN READ post-DHS — ≥235K = Vector 3→5 | ≤205K 2x = consider trim) + (2) **JOLTS Jan 2026 at 10:00 AM ET** (was "delayed," now CONFIRMED — first opening data since Dec 6.5M; finance/prof services already at cycle lows — Jan print likely deteriorates further) | **Mar 24: FL UI exhaustion Wave 1** | **Apr NFP Mar 2026** (healthcare strike reversal test — watch sector detail for structural strip) | Apr: RHI/KFRC Q1 earnings | **Apr 26: FL Wave 2 peak** | Aug 2026: CA/NY UI exhaustion*
+*Next triggers: **Mar 17: ADP Pulse (FIRST POST-HORMUZ)** | **Mar 18: Schedule Policy/Career oral argument (PI hearing)** | **Mar 18-19: FOMC + claims Wed** | **Mar 24: FL UI exhaustion Wave 1 (T-8)** | **Mar 30: Senate recess begins (shutdown extends to 60+ if no deal)** | Apr 4: NFP Mar 2026 (healthcare strike reversal test) | Apr: RHI/KFRC Q1 earnings | **Apr 26: FL Wave 2 peak** | Aug 2026: CA/NY UI exhaustion*
 
 ---
 

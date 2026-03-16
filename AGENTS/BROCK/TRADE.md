@@ -1,137 +1,188 @@
 # BROCK — TRADE.md
-**Generated:** 2026-03-12 (Prome draft — BROCK to refine on next spawn)
-**Convergence:** 47/55 🔴🔴 — CASCADE CONFIRMED + ACCELERATING
-**Status:** Stage 2 confirmed. 4 gates in 6 days. JPM + MS restricting. APO $100 breach imminent.
-**Account:** ~$57K | BROCK-relevant positions: ~$2,100 deployed
+**Rewritten:** 2026-03-16 EOD (Prome + Will)
+**Convergence:** 45/50 (90%) 🔴🔴 — 9 of 10 vectors RED, 13 of 15 VX RED
+**Status:** Stage 2 confirmed + insider admission. 5+ gates in 10 days. Zito: "All the marks are wrong." $10B+ Q1 retail outflows. FOMC tomorrow.
+**Account:** $55,820 (+179.57%) | BROCK-relevant positions: ~$2,600 deployed
 
-> **Core doctrine:** Every trade must link to a convergence vector or FLOW transmission channel. Private credit cascade is the thesis — positions express specific pathways within it.
+> **Core doctrine:** Every trade must link to a convergence vector or FLOW transmission channel. Private credit cascade is the thesis — positions express specific pathways within it. Hamilton lag structure governs expiry selection: credit peaks BEFORE equity (~3mo lead), peak damage Q1 2027. **Dec 2026 minimum for all positions.**
 
 ---
 
-## SECTION 1: HIGHEST CONVICTION (Actionable Now or Next Opportunity)
+## TARGETING FRAMEWORK (Mar 16)
 
-### TRADE 1A — APO Put Roll Jun→Dec (EXISTING)
-**Instrument:** APO $100P Jun×1 → roll to Dec expiry (strike TBD, likely $100P or $90P)
+Priority ranking based on mispricing gap (drawdown vs actual exposure):
+
+| Rank | Target | Drawdown | Edge | Catalyst |
+|------|--------|----------|------|----------|
+| **#1** | **APO** | -41% (least damaged) | Athene $442B + dual lawsuits + Zito admission. Statutory filings unread (Eisman). | Statutory ~Apr, dual class actions May 1, Q1 earnings |
+| **#2** | **ARCC** | Moderate | 23.8% software ($7B) vs "12%" spin. PIK phantom, div undercovered. 10-K edge. | Q1 earnings Apr-May |
+| **#3** | **ARES** | -48% | Q1 tenders UNREPORTED. Emergency town hall. | Imminent disclosure |
+| **#4** | **WFC** | ~-15% YTD | $59.7B warehouse = 2x next bank. Nobody discussing as PC play. | Q1 earnings mid-Apr |
+
+Key insight: Market defends MANAGERS (ARES, APO equity) while real risk lives in VEHICLES (ARCC, Athene, OBDC II). Weinstein buying managers confirms this split. Our edge is in targeting the vehicles.
+
+Detail → `domain/sources/TARGETING_FRAMEWORK_MAR16.md`
+
+---
+
+## SECTION 1: HIGHEST CONVICTION
+
+### TRADE 1A — APO Put Roll to Dec (EXISTING — PRIORITY)
+**Instrument:** APO $100P Jun×1 → roll to Dec (strike $100P or $95P)
+**Current:** +7.6% ($830 value). APO ~$106 (bounced from $100.30).
 **Direction:** Long put
-**Thesis:** APO -39% vs peers (OWL -61%, KKR -44%). Least damaged despite greatest tail risk (Athene $442B + Atlas SP default). Market has NOT priced the Athene scenario. Convergence matrix: Athene/Insurance at 🔴(5).
-**Catalyst:** Q1 earnings (~Apr-May) force mark-to-market. Athene statutory filing ~April. APO class action deadline May 1.
-**Entry Zone:** Roll on next green day. Jun currently +17%.
-**Target Exit:** APO <$80 (Athene scenario begins pricing) or spread to peers closes
-**Stop/Invalidation:** APO reclaims $130 sustained (3+ sessions). Athene RBC holds above 400%.
+**Thesis:** APO -41% = least damaged of PE managers despite greatest systemic risk:
+- Athene $442B (48% illiquid, RBC 412%, captive reinsurance $7B liabilities vs $200M real assets)
+- Zito (Apollo's own head of credit): "All the marks are wrong." Recoveries "20-40 cents."
+- Dual class actions: PC crisis + Epstein (both May 1 deadline). $12B mkt cap already erased.
+- Sellside blind spot: nobody reads statutory filings (Eisman/Gober). Schedule S Part 3 Section 1.
+- Affiliated paper $10B→$40B in 5 years.
+**Catalyst:** Statutory filing ~April. Dual class action deadlines May 1. Q1 earnings Apr-May. FOMC tomorrow (0 cuts = no refinancing relief for distressed borrowers).
+**Entry Zone:** Roll on green days. Today was green — APO at $106.
+**Target Exit:** APO <$80 (Athene scenario begins pricing) or Athene statutory filing reveals RBC deterioration.
+**Stop/Invalidation:** APO reclaims $130 sustained (3+ sessions). Athene RBC holds >400%. Fed emergency PC lending facility.
 **Conviction:** 5/5
-**Sizing:** Current 1 contract. Consider adding on roll.
-**Vector Links:** Convergence: Athene/Insurance (5), Bank Warehouse Lines (5). FLOW-BRK-014 (Big Bank Direct Exposure).
-**Hamilton:** Lag 4 — peak damage Q1 2027. Dec expiry captures this.
+**Sizing:** Current 1 contract. Consider adding 1 on the roll (2x Dec).
+**Vector Links:** Athene/Insurance (5/5), Software Marks (5/5), FLOW-BRK-016 (Insider→Forced Marks), FLOW-BRK-017 (Dual Legal Liability).
+**Hamilton:** Dec captures credit peak. If PIMCO's "multi-year" is right, may need to roll again to Jun/Dec 2027 at year-end.
 
-### TRADE 1B — APO Put Apr (EXISTING — Decision: Roll or Harvest?)
-**Instrument:** APO $100P Apr×1 (+34%)
-**Direction:** Long put
-**Decision:** 3 weeks to expiry. +34% gain. Two paths:
-- **Harvest:** Take the 34%, redeploy into Dec
-- **Hold:** If APO breaks $100 sustained, Apr could double+ before expiry
-**Recommendation (Prome):** Harvest on green day, redeploy into Dec. Jun→Dec roll is higher priority than squeezing Apr.
-**Vector Links:** Same as 1A.
+### TRADE 1B — APO Put Apr — HARVEST
+**Instrument:** APO $100P Apr×1
+**Current:** +11.75% ($450 value). ~4 weeks to expiry.
+**Decision:** HARVEST on next green day. Redeploy proceeds into Dec position (Trade 1A).
+**Rationale:** Apr is too short for the big catalysts (statutory filing, class actions, Q1 earnings). Theta accelerating. +11.75% is a win — take it and extend duration. Don't wait for $100 breach that may not come before expiry.
+**RED flagged this position** as most vulnerable (30% probability it goes against us).
 
 ---
 
-## SECTION 2: CONDITIONAL / CATALYST-DEPENDENT
+## SECTION 2: NEW POSITION CANDIDATES
 
-### TRADE 2A — HYG Put Roll Jun→Dec
-**Instrument:** HYG $75P Jun×8 → roll to Dec
+### TRADE 2A — ARCC Put (NEW — #2 Target)
+**Instrument:** ARCC put options (strike/expiry TBD — need to check chain liquidity)
 **Direction:** Long put
-**Thesis:** HY OAS convergence with private credit reality. Public spreads still tight relative to private credit stress. Hamilton: credit peaks 3-14mo post oil shock, BEFORE equity trough. Jun is too early per lag structure.
-**Catalyst:** HY OAS breaks 350bps (currently ~297bps stale, ref LIQUID). Q1 earnings season.
-**Entry Zone:** Roll on green day. Currently +1%.
-**Target Exit:** HY OAS >500bps / HYG <$72
-**Stop/Invalidation:** HY OAS reverses below 260bps for 10+ sessions. Fed emergency PC lending facility.
+**Thesis:** World's largest BDC. 10-K reveals:
+- Software 23.8% of total portfolio ($7B) — management claims "12%." 2x what market thinks.
+- PIK $487M accrued, only $280M collected. $207M phantom income inflating coverage ratios.
+- Dividend GAAP-undercovered: EPS $1.86 vs dividend $1.92. NII coverage 1.05x.
+- Unrealized flipped: +$188M (2024) → -$96M (2025). Direction reversed.
+- Asset coverage 189% — only 39pp above 150% regulatory minimum.
+- Cash $638M vs $16B debt = 4% cash-to-debt.
+- IHAM: hidden $14.6B CLO manager with $82M unrealized losses.
+- A 20% haircut on $7B software = $1.4B loss = ~10% of NAV.
+**Edge:** Manager-vs-vehicle blind spot. X/sellside is defending ARES (manager). Nobody scrutinizing ARCC (vehicle) at the 10-K level. Same dynamic as APO/Athene. Detail → `domain/sources/ARCC_10K_ANALYSIS_MAR16.md`
+**Catalyst:** Q1 earnings (Apr-May) force mark-to-market. Zito's admission means auditors can't ignore. FOMC hawkish = no refinancing relief.
+**Entry Zone:** Check options chain first. Likely Jun or Sep $18-19P range (near current NAV ~$19.94).
+**Target Exit:** ARCC NAV <$18 / dividend cut announcement.
+**Stop/Invalidation:** ARCC raises dividend. Software marks stabilize in Q1. NII coverage improves >1.2x.
 **Conviction:** 4/5
-**Sizing:** 8 contracts — largest BROCK-adjacent position. Size justified by thesis breadth.
-**Vector Links:** VX-BRK-009 (HY OAS divergence). FLOW-BRK-003 (Redemption Gate Cascade). Hamilton lag framework.
+**Sizing:** Small initial — 1-2% of portfolio until Q1 marks confirm.
+**Vector Links:** VX-BRK-013, KB-BRK-039/040/041, FLOW-BRK-002 (revolver draw risk), FLOW-BRK-004 (software markdown, FIRED).
+**⚠️ ACTION NEEDED: Pull ARCC options chain — check liquidity, strikes, bid/ask.**
 
-### TRADE 2B — DB Short (NEW — Conditional)
-**Instrument:** DB put options (NYSE: DB). DB also trades ADR on NYSE — US options market accessible.
+### TRADE 2B — ARES Event-Driven (NEW — #3 Target, Conditional)
+**Instrument:** ARES put options (strike/expiry TBD)
 **Direction:** Long put
-**Thesis:** DB disclosed €26B (~$30B) PC exposure Mar 12, stock -5% (-22% YTD from ~$28). Clean liquid proxy for bank-PC linkage. Disclosure forces transparency cascade at other European/US banks. DB already structurally weak (legacy litigation, thin capital cushion vs US GSIBs) — PC stress is an amplifier.
-**Execution notes:** DB options exist on NYSE (low liquidity, wide spreads — verify before entering). EUFN (iShares European Financials ETF) is a more liquid alternative: DB is ~7% weight, provides European bank basket exposure. EUFN puts have tighter spreads. Another option: DB Jan 2027 LEAP puts if available.
-**Catalyst:** Q1 DB earnings (late April). Other banks forced to disclose comparable NBFI/PC books. PC default acceleration in software/consumer.
-**Entry Zone:** Evaluate on green day / bounce from -5% move. Don't chase the initial disclosure gap-down.
-**Target Exit:** DB -40% from current (~$13-14) or EUFN -25% from entry
-**Stop/Invalidation:** DB reduces PC exposure in Q1 filing or PC default rates decline.
-**Conviction:** 3/5 → can upgrade to 4/5 if second bank disclosure within 2 weeks
-**Sizing:** Small initial — exploratory. Max 2% of portfolio until catalyst confirms.
-**⚠️ BROCK: Verify DB current price, options chain liquidity, EUFN bid/ask before entering. Use limit orders only.**
-**Vector Links:** FLOW-BRK-014 (Big Bank Direct Exposure). KB-BRK-029. FLOW-BRK-001 (Warehouse Line Losses).
+**Thesis:** Q1 tender data UNREPORTED. Every firm that has reported was ugly (BCRED 7.9%, HLEND 9.3%, Cliffwater 14%). Emergency town hall Mar 11. When ARES reports, stock moves.
+**Edge:** Event-driven catalyst with known timing (imminent). Market hasn't seen the number yet.
+**Catalyst:** Q1 tender disclosure (could be any day). Q1 earnings.
+**Entry Zone:** Before disclosure. Green days.
+**Conviction:** 3/5 — event-dependent. Upgrade to 4/5 if tender >10%.
+**Sizing:** Small — 1% of portfolio. Exploratory.
+**Vector Links:** KB-BRK-035, VX-BRK-014.
+**Note:** Weinstein buying ARES equity = smart money disagrees on the manager. Our edge is timing around tender disclosure, not long-term bear on ARES franchise.
 
 ---
 
-## SECTION 3: WATCHLIST (Not Yet Positioned)
+## SECTION 3: ROLLS (URGENT — Green Day Execution)
 
-### WATCH 3A — Listed BDC Shorts
+Today (Mar 16) was a green day. Rolls are time-sensitive — FOMC tomorrow could close the window.
+
+| Priority | Position | Current | Action | Rationale |
+|----------|----------|---------|--------|-----------|
+| **1** | APO $100P Apr | +11.75% ($450) | **Harvest → redeploy into Dec** | Theta accelerating, 4 weeks left, catalysts are Apr-May+ |
+| **2** | APO $100P Jun | +7.6% ($830) | **Roll → Dec $100P or $95P** | Hamilton says Dec minimum. Jun too short. |
+| **3** | HYG $75P Jun ×8 | +46.7% ($360) | **Roll → Dec** | Credit peaks lag oil by 3-14mo. Jun too early. Largest contract count. |
+| **4** | OWL $9.5P Apr | -7% ($95) | **Cut or let expire** | OWL -67% from peak. Most damage done. $95 remaining = not worth the theta. |
+
+**Total roll capital freed:** ~$1,735 (APO Apr $450 + APO Jun $830 + HYG $360 + OWL $95)
+
+---
+
+## SECTION 4: EXISTING POSITIONS (Current as of Mar 16 EOD)
+
+| Position | Entry | Current | P&L | Conv | Assessment |
+|----------|-------|---------|-----|------|-----------|
+| APO $100P Apr ×1 | — | $450 | +11.75% | 5 | HARVEST → Dec |
+| APO $100P Jun ×1 | — | $830 | +7.6% | 5 | ROLL → Dec |
+| OWL $9.5P Apr ×1 | — | $95 | -7% | 2 | CUT — most damage priced |
+| HYG $75P Jun ×8 | — | $360 | +46.7% | 4 | ROLL → Dec |
+
+---
+
+## SECTION 5: WATCHLIST
+
+### WATCH 5A — WFC Warehouse Sleeper (#4 Target)
+**Thesis:** $59.7B warehouse/fund-finance exposure = 2x next bank (BofA $33.2B). Nobody discussing WFC as private credit play. If warehouse losses surface in Q1 earnings (mid-April), this is bank transmission going live.
+**Expression:** WFC puts (very liquid options). Or KRE basket (already hold KRE puts).
+**Trigger:** Q1 bank earnings disclose PC/warehouse losses. Second major bank (after JPM) marks down software collateral.
+**Conviction:** 3/5 — sleeper. WFC is massive diversified bank; PC is one exposure among many.
+**Vector Links:** KB-BRK-046, FLOW-BRK-001, VX-BRK-015.
+
+### WATCH 5B — DB European Proxy
+**Thesis:** €26B (~$30B) PC exposure disclosed Mar 12. -22% YTD. Forces transparency at other banks.
+**Expression:** DB puts (NYSE ADR, low liquidity) or EUFN (European financials ETF, more liquid).
+**Trigger:** Q1 DB earnings late April. Second European bank disclosure.
+**Conviction:** 3/5 — noisy stock, legacy issues. EUFN better if conviction stays <4/5.
+**Vector Links:** KB-BRK-029, FLOW-BRK-014.
+
+### WATCH 5C — Listed BDC Shorts
 **Names:** PSEC (44¢ NAV), OTF (68¢), CGBD (68¢), FSK (51¢)
-**Thesis:** BDC NAV discounts widening. Median 78¢ and falling. PIK masking defaults. Dividend cuts next after MFIC + FSK.
-**Trigger:** Next dividend cut announcement at any major BDC. Or BDC median NAV <70¢.
-**Why not positioned:** Illiquid options, wide spreads. Need BROCK to assess execution.
-**Vector Links:** VX-BRK-002, VX-BRK-010, FLOW-BRK-003.
+**Trigger:** Next dividend cut at any major BDC. BDC median NAV <70¢.
+**Issue:** Illiquid options. Express via HYG or manager puts instead.
+**Vector Links:** VX-BRK-002, VX-BRK-010.
 
-### WATCH 3B — Vista/Thoma Bravo Portfolio Exposure
-**Named companies (confirmed or high-confidence in BDC portfolios):**
-- **Thoma Bravo:** Medallia (taken private Oct 2021, $6.4B — THIS IS VX-BRK-003's bellwether, marked at 78¢ across BXSL/APO/cross-holders. TB-owned = TB debt stress is already live in our data), Proofpoint ($12.3B LBO 2021 — one of largest US LBOs, floating-rate debt at current rates = severe coverage pressure), Sailpoint ($6.9B take-private 2022 — identity mgmt, SaaS, high multiple), Sophos, Ping Identity/ForgeRock
-- **Vista Equity:** Pluralsight (Ch.11 Dec 2023 — confirmed default precedent, Vista-backed), Solera Holdings (massive auto/insurance SaaS LBO), KnowBe4 ($4.6B LBO 2023), Cvent (meetings/events SaaS, went private), EAB (education advisory)
-- **Key insight:** Medallia at 78¢ = Thoma Bravo's debt is ALREADY the bellwether. We have live pricing on TB portfolio stress. Pluralsight = confirmed Vista default — precedent is in the record.
-**Trigger:** JPM or MS marks down specific Vista/TB portfolio company loans; or Q1 PE reports reveal sector-wide markdowns.
-**Why not positioned:** No liquid individual expression — TB/Vista are private. Express via BDC shorts (which hold this debt) or APO/OWL puts.
-**Vector Links:** VX-BRK-003 (Medallia=TB bellwether), KB-BRK-024, FLOW-BRK-004.
+### WATCH 5D — National Dentex Labs Crystallization
+**What:** 100% PIK, $162M→$78M (-51%), maturing **April 2026** — weeks away.
+**Why it matters:** If this defaults at maturity, it's the first headline PIK→default conversion. Validates the entire extend-and-pretend thesis. No direct trade expression (private), but the ripple hits all BDCs holding it and strengthens the ARCC/APO thesis.
+**Vector Links:** KB-BRK-045, VX-BRK-008, FLOW-BRK-016.
 
-### WATCH 3C — Bank CDS Basket (Warehouse Exposure)
-**Names:** JPM, BAC, C, Wells — all in ARCC syndicate. CFG, Huntington, First Citizens (fund finance).
-**Thesis:** $4.2T bank→NDFI exposure ($2.8T undrawn = loaded gun). JPM + MS already restricting. Next: bank CDS reprices.
-**Trigger:** Second major bank marks down PC collateral. BDC revolver draws spike.
-**Why not positioned:** CDS not accessible in current account. Liquid expression = bank equity puts.
-**Vector Links:** FLOW-BRK-001, FLOW-BRK-002, FLOW-BRK-014.
+### WATCH 5E — Vista/Thoma Bravo Portfolio
+**Key names:** Medallia (TB, 78¢ bellwether), Pluralsight (Vista, Ch.11 precedent), Proofpoint ($12.3B LBO), Sailpoint, Solera
+**Trigger:** JPM/MS marks down specific names. Q1 PE reports.
+**Expression:** Indirect — via BDC/manager puts that hold this debt.
+**Vector Links:** VX-BRK-003, KB-BRK-024, FLOW-BRK-004.
 
 ---
 
-## SECTION 4: EXISTING POSITION ASSESSMENT
+## SECTION 6: RISK MANAGEMENT
 
-| Position | P&L | Conv | Assessment | Action |
-|----------|-----|------|------------|--------|
-| APO $100P Apr×1 | +34% | 5 | 3 weeks to expiry. Harvest or hold through $100 breach? | Roll to Dec on green day |
-| APO $100P Jun×1 | +17% | 5 | Good position but Jun too short per Hamilton | Roll to Dec on green day |
-| OWL $9.5P Apr×1 | -29% | 3 | OWL already -61% from highs. Most damage done? Or Kuvari/OCSL II = more downside? | **CUT.** Rationale: OWL -61% from highs already prices most visible stress. $9.5 strike with 3 weeks left needs ~another -X% move to recover. Theta accelerating. If thesis still valid, express via Dec expiry re-entry after OCSL II/Kuvari catalyst materializes (Q1 earnings). Don't sit in a dying Apr position. |
-| HYG $75P Jun×8 | +1% | 4 | Largest position by contract count. Jun too early per Hamilton lag. | Roll to Dec on green day |
+### Falsification (Exit 100%)
+- Fed emergency PC lending facility
+- HY OAS <260bps sustained 10+ sessions
+- Default rate declining 2 consecutive quarters
+- APO reclaims $130 sustained (3+ sessions)
+
+### Position-Specific Stops
+- APO Dec: exit if APO >$130 (3 sessions)
+- ARCC (if entered): exit if dividend raised or coverage >1.2x
+- HYG Dec: exit if HY OAS <260bps sustained
+
+### Duration Risk (PIMCO Flag)
+Stracke says "structural, multi-year." Hamilton says peak damage Q1 2027. Dec 2026 captures credit peak but may not capture full equity repricing (7-11mo post oil peak). **Flag for year-end review:** consider rolling Dec 2026 → Jun/Dec 2027 LEAPs if thesis still intact.
+
+### Concentration Check
+BROCK-relevant positions after rolls: APO Dec (1-2 contracts) + ARCC (1-2 contracts, if entered) + HYG Dec (8 contracts) = majority put-heavy. Offset: AAPL long (100 shares, $25.3K, 45% of account). AAPL is unmonitored by any agent (RED flagged this).
+
+### Vulture Floor (BROCK Note)
+$100B+ distressed dry powder (KB-BRK-022) puts a floor under forced-seller pricing. Collapse happens in steps, not a cliff. Supports gradual scenario — position with enough duration to capture the grind, don't expect overnight crashes.
 
 ---
 
-## ROLL PRIORITY (Next Green Day)
+## SECTION 7: NEXT ACTIONS
 
-1. **APO Apr → Dec** — harvest +34%, redeploy
-2. **APO Jun → Dec** — Hamilton lag says Dec minimum
-3. **HYG Jun → Dec** — 8 contracts, credit peaks lag oil by 3-14mo
-4. **OWL Apr** — cut or let expire? BROCK to decide.
-
----
-
----
-
-## SECTION 5: BROCK REVIEW NOTES (2026-03-13)
-
-**Agreements with Prome:**
-- APO Dec put roll is right. Hamilton lag supports Dec minimum. Jun is too short for the Athene scenario.
-- HYG roll same logic — 8 contracts, don't let them expire in Jun before credit peaks.
-- OWL Apr: cut is correct. No reason to hold theta decay on a position whose thesis needs Q1 earnings catalyst.
-
-**Disagreements / Flags:**
-1. **PIMCO call changes the trade duration.** Stracke says "structural, multi-year, returns 10%→6%." If correct, Dec 2026 expiry may ALSO be too early for full thesis realization. Peak damage is Q1-Q2 2027 per Hamilton. Consider whether any Dec 2026 puts should be rolled again at end of year into Jun/Dec 2027 LEAPs. This doesn't change the current roll plan — it flags the need to revisit at year-end.
-
-2. **DB trade conviction is lower than listed.** DB is a noisy stock — legacy litigation, capital uncertainty, political (German state bank). The 3/5 conviction is appropriate. Don't upgrade based solely on PC disclosure. Wait for second bank catalyst or DB-specific Q1 stress signal. EUFN is the better expression if conviction remains <4/5.
-
-3. **Vulture capital ($100B+ dry powder) is a double-edged signal.** Distressed buyers entering = validation that stress is real. BUT their presence also puts a floor under forced-seller pricing. The "forced seller dynamic" Prome flags may be moderated by distressed buyers absorbing paper. This doesn't change the short thesis — it means the collapse happens in steps, not a cliff. Supports the "gradual" scenario.
-
-4. **Consumer products >12% default rate deserves its own watch.** Software epicenter is named, but consumer = employment-sensitive = LABOR linkage. If LABOR's channel fires (NFP -92K was the opening), consumer private credit is the amplification. Add consumer as second epicenter alongside software.
-
-**Live data needed (Will to provide or BROCK to source):**
-- DB current price and options chain liquidity
-- OWL current price (vs $9.5 strike)
-- APO Apr $100P current value (was +34% — verify before rolling)
-- HYG Jun $75P current value (was +1% — verify before rolling)
-- HY OAS current (ref LIQUID STATUS)
+1. **FOMC watch (Mar 17-18)** — 0 cuts = accelerant. Presser Wed 2:30 PM ET.
+2. **Execute rolls on next green day** — APO Apr harvest, APO Jun→Dec, HYG Jun→Dec, OWL cut.
+3. **Pull ARCC options chain** — verify liquidity, identify strike/expiry for new position.
+4. **Check ARES options** — event-driven around Q1 tender disclosure.
+5. **Monitor National Dentex** — April maturity = weeks away.
+6. **Monitor unreported Q1 tenders** — Ares, Apollo, Oaktree, Goldman. Any day now.

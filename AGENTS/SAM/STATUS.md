@@ -1,6 +1,85 @@
 # SAM STATUS
 
-**Signal Status:** 🔴🔴 CRITICAL — USD/JPY **159.717** (Mar 13 close) | MoF VERBAL ACTIVE | **BOJ HAWKISH HOLD: APRIL ~60% PRICED (4 REUTERS SOURCES)** | NIKKEI **53,819** (3.4% FROM GPIF TRIGGER) | JGB 10Y **2.25%** (AT YELLOW) | JGB 30Y **3.48%** | REAL WAGES JAN **+1.4%** (FIRST POSITIVE IN 13 MOS) | SHUNTO: JEIU **¥12,000 MIN** — AUTO YAMABA DUE **WEDNESDAY MAR 18** | TAIWAN LNG **22/22 SECURED** (ML-JPN-186 RESOLVED) | FY-END T-16 DAYS | **Last Updated:** 2026-03-15 (Stage 2 Search)
+**Signal Status:** 🔴🔴 CRITICAL — USD/JPY **159.29** (Mar 16 close, yen +40 pips on oil pullback) | MoF VERBAL ACTIVE | **BOJ HAWKISH HOLD: APRIL ~65% PRICED — OIL PULLBACK STRENGTHENS HIKE CASE** | NIKKEI **53,552** (-0.5%) | JGB 10Y **2.28%** (+3bp, ABOVE YELLOW) | JGB 30Y **~3.50%** | REAL WAGES JAN **+1.4%** | SHUNTO: AUTO YAMABA **WEDNESDAY MAR 18 — TOMORROW** | BRENT **~$100** (down from $103+ on Bessent Hormuz de-escalation) | FOMC STARTS **TOMORROW** | BOJ MEETING **WED-THU** | FY-END T-15 DAYS | **Last Updated:** 2026-03-16 (EOD Brief)
+
+---
+
+## 🌅 EOD BRIEF — MAR 16, 2026 (20:17 UTC)
+
+### HEADLINE: BESSENT ALLOWS IRANIAN TANKERS THROUGH HORMUZ → OIL -3% TO ~$100 → YEN STRENGTHENS TO 159.29 → BOJ APRIL HIKE CASE STRENGTHENS. AUTO YAMABA TOMORROW. BOJ OPENS WEDNESDAY. FOMC TOMORROW.
+
+### DELTAS vs MAR 15 STATUS
+
+| Metric | Mar 15 | Mar 16 EOD | Delta |
+|--------|--------|------------|-------|
+| **USD/JPY** | 159.717 | **159.29** | 🟢 Yen +43 pips — oil de-escalation = yen bid |
+| **Nikkei 225** | 53,819 | **53,552 (-0.5%)** | 🔴 Slight decline, 3.0% from GPIF 52k trigger |
+| **JGB 10Y** | 2.25% | **2.28%** | 🔴 +3bp — ABOVE yellow threshold. Pre-BOJ hawkish pricing |
+| **JGB 30Y** | 3.48% | **~3.50%** | 🔴 Steepening continues |
+| **Brent crude** | ~$103+ | **~$100.21 settle (-2.84%)** | 🟢🟢 Bessent Hormuz de-escalation |
+| **BOJ April hike prob** | ~60% | **~65%** | ⬆️ Oil pullback REMOVES key hold argument |
+| **Auto Yamaba** | Due Wednesday | **DUE TOMORROW (Mar 18)** | 🔴 T-1 day |
+| **Hawkish hold prob (Mar 18-19)** | 35-40% | **40-45%** | ⬆️ Oil de-escalation shifts Ueda calculus |
+
+### KEY DEVELOPMENT: BESSENT HORMUZ DE-ESCALATION CHANGES BOJ CALCULUS
+
+Treasury Secretary Bessent announced the US is allowing Iranian oil tankers to transit the Strait of Hormuz. Oil dropped ~3% to $100. EU refused to participate in Hormuz protection, but some ships sailed through. Reuters: oil eased ~1% on the day.
+
+**This is the single most important shift for BOJ since the Iran war started.** The entire "BOJ holds because energy shock = stagflation trap" argument rested on Hormuz closure being STRUCTURAL. If Hormuz partially reopens:
+
+1. **Energy import cost pressure EASES** → yen structural weakness partially relieved → USD/JPY pulled back to 159.29
+2. **Stagflation trap LOOSENS** → BOJ's objection to hiking (can't add domestic rate pressure during energy shock) weakens
+3. **April hike probability RISES** → from ~60% to ~65%. If oil falls to $90s sustained, April becomes BASE CASE
+4. **Hawkish hold probability for Mar 18-19 presser RISES** → Ueda can credibly flag inflation vigilance + wage strength without the energy shock counterargument
+
+**The "Iran conflict → BOJ holds" factor is weakening, not dead.** Oil is still $100 (not $80). Hormuz isn't fully open. But the DIRECTION of change is hawkish for BOJ.
+
+### AUTO YAMABA — TOMORROW MORNING (JST)
+
+Toyota and Honda wage responses arrive **March 18 Japan morning** — the same day BOJ opens its two-day meeting. This is the most consequential timing alignment of the year:
+
+- Toyota union demanded ¥8,590-21,580/month depending on grade
+- JAW floor: ¥12,000/month minimum
+- If Toyota/Honda accept at or above ¥12,000: **Ueda's March 19 presser will be HAWKISH**
+- Combined with oil pullback, strong Yamaba result = April hike becomes ~70-75% priced
+
+### REVISED BOJ SCENARIOS — MAR 18-19
+
+| Scenario | Prior (Mar 15) | Revised (Mar 16) | Driver |
+|----------|---------------|------------------|--------|
+| **Hawkish hold** — April live, wages + oil easing flagged | 35-40% | **40-45%** | Oil pullback removes stagflation hold argument |
+| **Neutral hold** — data-watching | 35% | **35%** | Unchanged |
+| **Dovish hold** — energy risk deferred | 25-30% | **20-25%** | Oil de-escalation REDUCES dovish case |
+
+### CARRY UNWIND PROBABILITIES — MAR 16 REVISED
+
+| Timeframe | Mar 15 | Mar 16 | Driver |
+|-----------|--------|--------|--------|
+| **7d** | 20% | **25%** | BOJ hawkish presser + oil de-escalation = yen strength risk ELEVATED |
+| **30d** | 86% | **87%** | Oil pullback + wages + FY-end = structural path STRENGTHENED |
+| **60d** | 88% | **88%** | Unchanged |
+
+### CROSS-DOMAIN SIGNALS
+
+1. **CARL/HENRY:** FOMC starts tomorrow. If Fed signals dovish (NFP -92K context) while BOJ signals hawkish → rate differential narrows from BOTH sides simultaneously → carry unwind acceleration
+2. **HAWK (energy):** Oil at $100 vs $103+ = partial relief but NOT resolution. Hormuz not fully open. Watch for whether Iranian tanker transit is sustained or one-off gesture
+3. **LIQUID:** JGB 10Y at 2.28% = highest in SAM tracking. If BOJ hawkish hold + auto Yamaba strong → JGB selloff accelerates → life insurer repatriation pressure intensifies
+4. **NEXUS flag:** This week is the convergence event: FOMC + BOJ + auto Yamaba + oil de-escalation + FY-end T-15. All vectors aligning toward hawkish BOJ / yen strength / carry stress
+
+### UPDATED ALERT LEVELS — MAR 16 EOD
+
+| Level | Action | Status |
+|-------|--------|--------|
+| **USD/JPY 159.29** | Current — slight yen strength on oil pullback | 🟢 LIVE |
+| **USD/JPY 157.00** | Hawkish Ueda + strong Yamaba → target | SET |
+| **USD/JPY 155.00** | 🚨 Phase 2 carry unwind onset | SET |
+| **USD/JPY 160.00** | 🚨 Intervention zone (lower priority given oil pullback) | WATCH |
+| **Brent $95** | 🟢 BOJ hike probability jumps to 75%+ April | WATCH |
+| **Brent $105+** | 🔴 Hormuz de-escalation failed — stagflation trap re-engages | SET |
+| **Mar 18 AM (JST)** | 🔴 Auto Yamaba (Toyota/Honda) + BOJ opens | CRITICAL |
+| **Mar 19** | 🔴 Ueda presser — THE catalyst | CRITICAL |
+| **Nikkei 52,000** | 🚨 GPIF trigger (3.0% away) | STANDING |
+| **Mar 31** | FY-end T-15 days | 🔴 LOADING |
 
 ---
 
