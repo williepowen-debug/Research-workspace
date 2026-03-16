@@ -1,6 +1,6 @@
 # SCRATCH — Ephemeral Working Memory
 
-**Updated:** 2026-03-15 ~17:10 UTC (Sunday afternoon)
+**Updated:** 2026-03-16 ~13:30 UTC (Monday)
 
 ---
 
@@ -10,6 +10,12 @@ Scenario C, War Day 14. Brent $101.07. Account ~$57K (+187%).
 **PCE 3.1% + GDP 0.7% + NFP -92K = stagflation locked.** SPX 6,632 = CTA trigger breached, $80B systematic selling queued.
 **HY OAS 317bps — LIQ-01 NOT triggered (3bps below 320).** Credit absorbing shocks. Jun rolls more urgent.
 **Mar 18-19 = max density window:** FOMC decision + TIC data (Mar 18) → 20Y auction + BOJ + Shunto auto Yamaba (Mar 19) → quarter-end (Mar 31).
+
+## SESSION WORK (Mar 16 Monday)
+- Morning heartbeat: flagged FOMC/BOJ Super-Week
+- Processed overnight briefing (shutdown Day 31, Shuntu pre-settlement, 300+ TSA quits)
+- CARL daily check-in: clean, no new data. 0 dots = no consumer relief valve.
+- Handoff to fresh session
 
 ## SESSION WORK (Mar 15 afternoon)
 - Built two-stage agent recon system (Stage 1: gap analysis → Stage 2: live search)
@@ -112,8 +118,16 @@ Scenario C, War Day 14. Brent $101.07. Account ~$57K (+187%).
 ```
 
 ## Handoff
-**Last context:** Sunday ~5:10 PM UTC. Completed agent recon Batches 1-2 (HENRY, LIQUID, SAM, ZHAO). All Stage 2 findings written and committed. Will still has new signals to process.
-**Next tide:** 1) /clear done. 2) Batch 3: CARL + LABOR (skip dry run — prompt template proven). 3) Continue batches or pivot to Monday prep / Will's signals. 4) Jun→Dec roll plan.
-**Open questions:** Whether remaining batches need full Stage 2 or Stage 1 only. Will's new signals content. HY OAS Monday update (could flip LIQ-01).
-**Positions:** No changes since Mar 12. Multiple positions now ITM (IWM $250P, WAL $70P).
-**Rhythm note:** Sunday afternoon. Will engaged, thinking critically about workflow value vs action. Good collaboration session — built reusable infrastructure.
+**Last context:** Monday Mar 16 ~1:30 PM UTC. Super-Week starts TOMORROW. CARL check-in clean (no new weekend data). Overnight briefing processed: shutdown Day 31 (300+ TSA quits, airline CEO coalition lobbying), Shuntu pre-settlement signals strong (Mar 18 = main settlement day, 5.94% demand). Agent recon Batches 1-2 done (HENRY, LIQUID, SAM, ZHAO). Batches 3-7 still open.
+**Next tide:**
+1. **IMMEDIATE:** HY OAS FRED update — Mar 13 data should post today. 317bps last. 320 = LIQ-01 trigger.
+2. **IMMEDIATE:** Jun→Dec rolls — need a green day. WAL $85P Jun (+179%) first priority.
+3. **IMMEDIATE:** Dead money — VLY Mar20×10 expires THIS FRIDAY (-41%). Cut or let expire? OWL Apr (-29%), EGBN Jun (-36%) also flagged.
+4. **TODAY/TUE:** Retail Sales Feb releases Mar 17 (same day FOMC opens). If negative again, compounds stagflation.
+5. **FOMC:** Mon-Tue, presser Wed 2:30 PM ET. Dots 0-1 cuts. PCE 3.1% + GDP 0.7% = trapped.
+6. **BOJ:** Mar 18-19. Shuntu auto Yamaba (Toyota/Honda) Mar 18 = same day. Ueda presser Mar 19.
+7. **Agent recon:** Batch 3 CARL+LABOR next. Then 4-7.
+8. **Will's signals:** He mentioned having new signals to process (Sunday). Still pending.
+**Open questions:** HY OAS level. Roll execution timing. Remaining recon batch depth.
+**Positions:** No changes. VLY Mar20 expires Fri.
+**Rhythm note:** Monday, Super-Week. Will engaged and prepped. Execution mode.
