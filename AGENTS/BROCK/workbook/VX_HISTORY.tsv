@@ -1,1 +1,11 @@
-ID	Name	Category	Current_Value	Yellow	Orange	Red	Status	Confidence	Last_Updated	Source	Cross_Links	Notes
+Date	VX_ID	Field	Old_Value	New_Value	Reason
+2026-03-16	VX-BRK-004	Current_Value	4 confirmed	5+ confirmed (OBDC II permanent, HLEND, Cliffwater, MS North Haven, BCRED $6.5B, Canada)	Gate cascade expanded. MS met only 45.8%. BCRED actual 71% higher.
+2026-03-16	VX-BRK-005	Status	ORANGE	RED	Three escalations: Iran financial targets, Kuvari stuffing confirmed, gate cascade impacting insurer portfolios.
+2026-03-16	VX-BRK-006	Status	ORANGE	RED	Zito insider admission confirms marks wrong. HLEND gated year 1. Write-down no longer implied — confirmed.
+2026-03-16	VX-BRK-006	Confidence	MEDIUM	HIGH	Insider confirmation upgraded confidence.
+2026-03-16	VX-BRK-007	Current_Value	OBDC II gated; OCSL II ended liquidity	OBDC II permanently frozen. Saba 33% tender. -67%. $1.4B forced sales. Fiduciary investigations.	Significant escalation from initial gate to full crisis.
+2026-03-16	VX-BRK-011	Current_Value	PIMCO/Reuters/Bloomberg/WSJ/NYT	Added Fortune/FT/Economist/CNBC + Zito insider admission	Narrative fully mainstream. Insider admission = qualitative escalation.
+2026-03-16	VX-BRK-012	—	NEW	Insider Admission (Marks) — Zito "all marks wrong"	New vector created. Category shift: external criticism → internal confirmation.
+2026-03-16	VX-BRK-013	—	NEW	ARCC Fundamental Deterioration — 23.8% software, PIK, div undercovered	New vector created. 10-K analysis revealed true exposure.
+2026-03-16	VX-BRK-014	—	NEW	Aggregate Retail Outflows — FT $10B+, $500B→$200B mismatch	New vector created. First confirmed aggregate number.
+2026-03-16	VX-BRK-015	—	NEW	Bank→PC/PE Systemic Exposure — Moody's $925B	New vector created. Moody's quantified total bank exposure.

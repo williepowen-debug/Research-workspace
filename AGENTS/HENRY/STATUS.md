@@ -1,460 +1,114 @@
 # HENRY STATUS
-**Last Updated:** 2026-03-15 16:15 UTC | **Stage 2 Search Complete** | **War Day 14**
-**Status:** 🔴🔴🔴 FOMC MONDAY — PCE HOT + UMich de-anchoring + SPX BELOW CTA TRIGGER + IWM $250P ITM. All stagflation vectors locked. FOMC hold near-certain. Dot plot will likely show 0-1 cuts vs market pricing 1-2 = SHOCK CATALYST on Wednesday.
+**Last Updated:** 2026-03-16 20:15 UTC | **War Day 17**
+**Status:** 🟠🔴🔴 RELIEF RALLY — Oil pullback on Bessent Hormuz comments. SPX +1% but LOW VOLUME. FOMC tomorrow (Mar 17-18). CTA trigger reclaimed on intraday basis but NOT on closing basis — 6,699 still below 6,707. Systematic selling queue likely DEFERRED, not cancelled.
 
-## MAR 13 EOD — CONFIRMED CLOSES (Stage 2 Update, 2026-03-15)
-| Asset | Mar 13 Close | vs Prior | Signal |
-|-------|-------------|---------|--------|
-| **SPX** | **6,632.19** | -0.61% (-40.4pts) | 🔴🔴 NEW 2026 LOW. **BELOW Goldman CTA 6,707** — $80B systematic selling QUEUED. Below put wall 6,800. |
-| **IWM** | **$246.59** | -0.33% | 🔴🔴 **$250P IS ITM by $3.41.** Delta expanding. Position gaining. |
-| **VIX** | **27.19** | intraday high 28.4 | 🔴 Elevated. Approaching cascade zone. Vol-control threshold breached. |
-| **10Y Yield** | **~4.25%** (little changed per CNBC) | Flat | 🔴 Stagflation: yields NOT falling on equity selloff |
-| **Brent Crude** | **$101.07** | 2nd consecutive close >$100 | 🔴🔴 V9 fully locked. Goldman forecasts $100+ avg for March. |
-| **WTI** | **$95.91** | — | 🔴 Confirmed EOD (vs $93.50 mid-session Thursday) |
-| **TLT** | **$86.56** | RSI 26.8 | 🔴 Below Jun $85P breakeven zone. Deeply oversold but thesis intact. |
-| **PLTR** | **$150.95** | — | 🟡 Still far from $100 H5 trigger |
-| **WAL** | **$67.97** | — | 🔴 **Sep $70P is ITM by $2.03.** DA Davidson PT cut to $93→ still above |
-| **USDJPY** | **159.717** | +0.23% (YEN WEAKENED) | ⚠️ CARRY UNWIND NOT TRIGGERED. Expected yen strength post-NFP did NOT materialize. |
+## MAR 16 EOD — CONFIRMED CLOSES
+| Asset | Mar 16 Close | vs Mar 13 | Signal |
+|-------|-------------|-----------|--------|
+| **SPX** | **6,699.38** | +1.01% (+67pts) | 🟠 Relief rally. Reclaimed toward CTA trigger 6,707 but CLOSED BELOW (6,699 < 6,707). $80B systematic queue still technically active. Low volume = no conviction. |
+| **Dow** | **46,946.41** | +0.83% (+388pts) | 🟠 Recovery. Was +600pts at highs before Trump comments cooled rally. |
+| **Nasdaq** | **22,374.18** | +1.22% | 🟠 Meta +2% (layoff report), NVDA +1% (GTC). Tech-led. |
+| **IWM** | **~$250.3** (est +1.5%) | +1.5% est | 🟠 Outperformed majors. $250P now ~ATM (was $3.41 ITM). Position delta compressed. |
+| **VIX** | **~26.28** | -0.91 (-3.35%) | 🟠 Down from 27.19 but still elevated. 93.8th percentile of past year. NOT back to complacent levels. |
+| **10Y Yield** | **4.285%** | +3.5bps (from ~4.25%) | 🔴🔴 YIELDS ROSE ON A RISK-ON DAY. Stagflation signature persists. "Steepest two-week climb" per analyst commentary. Bonds NOT a safe haven. |
+| **Brent Crude** | **$100.21** | -0.86 (-0.85%) | 🟠 Still above $100. Fell from overnight >$100 highs but Brent HELD triple digits. Not a clean break lower. |
+| **WTI** | **$93.50** | -2.41 (-2.51%) | 🟠 Fell 5.28% on session. Traded >$100 overnight Sunday then crashed on Bessent. Back to two-digit handles. |
+| **DXY** | **~99.8** (est, pulling back from >100 Friday) | ~flat to slightly lower | 🟠 Briefly broke 100 Friday (first time since Nov). Pulling back on risk-on. |
+| **USDJPY** | **~159.5** (est, slightly lower) | ~flat | 🟡 No carry unwind. Yen still weak. BOJ Wednesday. |
+| **Gold** | **$4,986** | -$201 (-3.9%) | 🟡 Risk-on rotation out of haven. Was $5,187. |
+| **TLT** | **~$86.5** (est, flat — yields rose) | ~flat | 🔴 Yields rising = TLT pressure continues. Puts intact. |
 
-## PCE JANUARY 2026 — CONFIRMED HOT (Mar 13)
-- **Core PCE: +0.4% MoM / +3.1% YoY** (vs 2.9% consensus — **ABOVE EXPECTED**)
-- Largest YoY gain since March 2024
-- Headline PCE: +2.8% YoY (vs 2.9% expected — slight miss on headline)
-- **Assessment:** Stagflation trap TIGHTENS. Fed's preferred inflation gauge running above target. Combined with GDP 0.7% = textbook locked. FOMC CANNOT cut. 3.1% + war oil shock = Core PCE headed toward 3.5-4.5% by Q3 2026 per three-vector model. This IS the data that forces 0-cut dot plot. **HEN-04 probability: 90%+ → 95%.**
+## WHAT CHANGED VS MAR 13 (DELTAS)
+| Metric | Mar 13 | Mar 16 | Delta | Assessment |
+|--------|--------|--------|-------|------------|
+| SPX | 6,632.19 | 6,699.38 | **+67pts (+1.01%)** | Relief bounce. Still below CTA trigger 6,707. Still below put wall 6,800. Still 2026 low range. |
+| VIX | 27.19 | ~26.28 | **-0.91 (-3.35%)** | Modest compression. Still well above 20. Not a regime change. |
+| Brent | $101.07 | $100.21 | **-$0.86 (-0.85%)** | Marginal. STILL ABOVE $100. V9 not unlocked. |
+| WTI | $95.91 | $93.50 | **-$2.41 (-2.51%)** | More meaningful drop. But overnight touched $100+. Volatility enormous. |
+| 10Y | ~4.25% | 4.285% | **+3.5bps** | ROSE on risk-on day. Stagflation signal STRENGTHENED. |
+| IWM | $246.59 | ~$250.3 | **+$3.7 (+1.5%)** | $250P back to ~ATM from ITM. Position delta hurt but not killed. |
+| Gold | ~$5,187 | ~$4,986 | **-$201 (-3.9%)** | Haven unwind on Hormuz hopes. |
 
-## UMICH MARCH 2026 PRELIM — CONFIRMED (Mar 13)
-- **Overall: 55.5** (vs 55.0 estimate, vs 56.6 prior month) — lowest reading of 2026
-- **1-yr inflation expectations: 3.4%** — ended 6 months of consecutive declines, stalled
-- **5-10yr long-run inflation expectations: 3.2%** — near top of 2024 range (2.8-3.2%)
-- Half of interviews completed AFTER Iran war start → war shock embedded in readings
-- Director note: "A broad swath of consumers across incomes, age, and political affiliation all reported declines in expectations for their personal finances, down 7.5% nationally"
-- **Assessment:** 5-10yr expectations at 3.2% is ABOVE the pre-pandemic 2.3-3.0% range. De-anchoring risk is REAL and embedded in data. Fed will note this. Constrains any dovish pivot language at Wednesday presser. Interviews after Feb 28 showed HIGHER inflation expectations — war shock feeding into consumers' forward pricing expectations.
+## CTA / SYSTEMATIC STATUS — CRITICAL
+- SPX closed at 6,699.38 — **STILL BELOW Goldman CTA medium trigger of 6,707 by 7.6pts**
+- $80B systematic selling queue: **DEFERRED but NOT CANCELLED**
+- CTAs typically execute over 1-4 weeks once triggered. One green day does not reset the trigger.
+- SPX needs to RECLAIM 6,707 on closing basis for multiple sessions to fully de-queue
+- Low volume rally = systematic flows likely sat out today, will re-engage on any weakness
+- **Put wall 6,800 still overhead resistance. 200-DMA 6,902 still far above.**
 
-## JOLTS JANUARY 2026 — CONFIRMED (Mar 13)
-- **Job openings: 6.9 million** (vs 7.5M threshold for "labor demand freeze")
-- **6.9M = BELOW 7.5M threshold** — demand-side hiring freeze confirmed
-- Up from 6.6M in December but down from 7.4M a year ago
-- "Low-hire/low-fire" job market per Indeed Hiring Lab
-- **Assessment:** Consistent with NFP -92K and ADP miss. Demand side of labor market is FROZEN. Bearish for IWM (small cap job creation bellwether). CARL trigger: if openings keep falling → 6.5M range → reinforces continuing claims watch.
+## BESSENT / HORMUZ DEVELOPMENT
+- Bessent told CNBC: US allowing Iranian oil tankers through Hormuz
+- WSJ: US planning coalition to escort ships through Strait
+- Trump midday: encouraged other countries to get involved (coalition NOT finalized)
+- Oil rallied off lows after Trump comments — market read: execution uncertain
+- **Assessment: ANNOUNCEMENT ≠ EXECUTION. Coalition "plans" without confirmed allies = aspirational. Oil pulled back on headline but Brent HELD $100. Until ships actually transit safely and consistently, V9 stays locked.**
 
-## FED FUNDS / FOMC SETUP
-- **Market pricing as of Mar 13:** ~1-2 cuts in 2026 (Jan minutes: "market-based 1-2 cuts"). Per Schwab: "little likelihood of rate cut until June."
-- **Dec dot plot:** 1 cut median (down from 2 in September)
-- **Likely March dots:** 0-1 cuts (our model). Any shift to 0 cuts = SHOCK vs market's 1-2 cut pricing
-- **Key asymmetry:** Market still pricing ~1.5 cuts per pre-FOMC survey. Dots showing 0 = ~5 VIX pts mechanical catalyst. Powell presser language Wednesday critical.
-- **HEN-04 updated:** 95% probability (was 70%, upgraded Mar 13 to 90%+, now +5% on PCE hot print)
+## FOMC SETUP — TOMORROW (Mar 17-18, Decision Wed 2pm ET)
+- HEN-04 (hold + both mandates concern): **95% confidence unchanged**
+- Today's action DOES NOT change FOMC calculus. Fed looks at data, not one day's oil move.
+- PCE 3.1% still hot. GDP 0.7% still recessionary. Labor still frozen.
+- Dot plot risk: 0-1 cuts vs market pricing 1-2 = shock catalyst Wednesday
+- Oil volatility (touching $100 overnight then crashing to $93.50) likely REINFORCES Fed caution
+- **Watch for: Powell language on oil/supply shocks. If he says "temporary" = dovish lean. If "monitoring both mandates" = paralysis confirmed.**
 
-## CARRY UNWIND / BOJ UPDATE
-- **USDJPY 159.717** — MOVED OPPOSITE TO EXPECTATION. Yen weakened vs dollar after NFP -92K. This is abnormal — suggests USD demand from oil hedging + safe haven paradox overwhelming yen bid.
-- **BOJ March 19 (Thursday):** Reuters sources (Mar 3): Iran conflict raises odds BOJ will FORGO rate hike in March. "Fresh uncertainty caused by Iran conflict makes next rate-hike timing difficult." BOJ currently at 0.75%.
-- **COND-2 status:** NOT triggered. USDJPY needs to fall to <153 for cascade. Currently at 159.7 — 6.7 pts away. BOJ HOLD this week likely = no catalyst for carry unwind imminently.
-- **Reassessment:** Carry unwind (Vector 11) may be LATER event than FOMC week. If BOJ signals May hike as next opportunity, USDJPY could drift toward 155-157 over next 4-6 weeks.
+## CONVERGENCE MATRIX UPDATE
+| # | Vector | Score | Change |
+|---|--------|-------|--------|
+| 2 | CTA/Systematic | **5** | ⚠️ Still triggered. 6,699 < 6,707. One day relief doesn't reset. |
+| 9 | Geopolitical/Commodity | **5→4.5** | 🟠 Brent held $100 but Hormuz rhetoric shifted. Downgrade IF coalition materializes. For now: headlines ≠ execution. |
+| All others | Unchanged | — | No vector changed on one low-volume relief day. |
+| **Total** | **~50.5/60** | -0.5 | Marginal. Still in cascade zone. |
 
-## OIL / HORMUZ UPDATE (Mar 15)
-- **Brent $101.07 / WTI $95.91** confirmed Mar 13 close — 2nd consecutive day above $100
-- **Goldman forecast:** Brent avg $100+ for March, then $85 in April (demand destruction pricing in)
-- **Hormuz as of Mar 15:** Still effectively closed. IRGC: closed only to US/Israel/Western allies (some traffic partial). Trump called for other nations to send ships to help reopen — "cautious responses" so far. Israeli strikes ongoing (Mar 15 update).
-- **Vector 9: 5/5 LOCKED.** No de-escalation pathway visible through FOMC week.
-
-## PREVIOUS STATUS HEADER (ARCHIVED — Pre-Mar 13 results)
-**Was:** 2026-03-13 17:30 UTC TRIPLE DATA DAY — PCE (Jan, delayed) + GDP Q4 second revision + UMich (Mar prelim) all due 8:30-10:00 AM ET. Futures +0.4% on overnight oil relief: US lifted Russian sanctions temporarily (until Apr 11, Bessent: "hundreds of millions of barrels"). WTI -2.4% to $93.50. 10Y at 4.25%. Gold $5,120. BTC $72,300. PCE consensus: 2.9% YoY (unchanged from Dec). FOMC Monday — hold is locked.
-
----
-
-## GDP Q4 2025 SECOND ESTIMATE — SIGNAL LOG (Mar 13, 2026)
-
-**Print:** GDP Q4 2025 revised to **+0.7%** annualized (from +1.4% advance estimate). Street expected mild upward revision. This is a massive downward miss.
-
-**Component breakdown:**
-| Component | Prior | Revised | Signal |
-|-----------|-------|---------|--------|
-| Headline GDP | +1.4% | **+0.7%** | -0.7pp miss vs consensus direction |
-| Federal spending | — | **-16.7%** | Shutdown drag fully visible — structural, not cyclical |
-| Consumer spending | 2.4% | **2.0%** | Demand destruction accelerating |
-| Core PCE (this week) | — | **3.0%** | Inflation entrenched — trap confirmed |
-
-**Stagflation arithmetic:**
-- Core PCE 3.0% + GDP 0.7% = textbook stagflation. Not theoretical. In the data.
-- Federal spending -16.7% = shutdown not a transient blip. It is consuming GDP directly.
-- Consumer at 2.0% vs 2.4% = cracks forming in the last pillar. Any further oil pass-through → 1.5% or below.
-
-**Hamilton NOPI Framework — Applied (HEN-06):**
-- Baseline GDP: **0.7%**
-- Hamilton estimated drag: **-3.0pp to -4.9pp** (sustained oil shock, peak impact Q1 2027)
-- Applied range: 0.7% - 3.0% = **-2.3%** | 0.7% - 4.9% = **-4.2%**
-- **Implication: GDP trajectory points toward contraction (-2.3% to -4.2%) by impact peak.** This is recession, not slowdown. The 0.7% Q4 print is the pre-shock starting line, not the floor.
-- Note: Hamilton lag = 4 quarters from oil shock initiation (Hormuz ~Mar 2026). Peak drag lands **Q1 2027**. Intermediate GDP prints (Q1/Q2 2026) may look slightly better than endpoint — don't be fooled by partial-lag prints.
-
-**Assessment — 3 dimensions:**
-
-**1. Rate Path / FOMC Dots (Monday)**
-- HEN-04 (FOMC holds, sounds concerned both mandates) = near-certain confirmation. Probability upgraded from 70% → 90%+.
-- Fed cannot cut: Core PCE 3.0% → cutting = abandoning inflation credibility. Market would punish immediately (10Y +20-30bps same day).
-- Fed cannot hike: 0.7% GDP + -92K NFP + oil shock = hiking into contraction.
-- December dots penciled 2 cuts in 2026. March dots will likely show **0-1 cuts**. Median may show no cuts until 2027.
-- Implications: short-end rates stay elevated, credit costs stay elevated, zombie-firm pressure intensifies. The "rate relief" that equity multiples are waiting for keeps getting pushed out.
-- Watch for: Powell statement language. "Both mandates" = Fed paralysis confirmed. Any language about "monitoring" or "data dependent" = same thing, dressed up.
-
-**2. Vol Regime — VIX Base Case**
-- Prior base case (Mar 12): HAWK Scenario C (VIX 40-55) at **55%**.
-- GDP 0.7% removes the last "soft landing" data anchor from bulls' toolkit.
-- Every recession narrative now has a GDP number to point to.
-- Upgrade Scenario C probability to **65%+**.
-- Rationale: vol is still suppressed by "wait and see" FOMC posture. Once FOMC confirms paralysis Monday AND the market prices out rate cuts in the dots, the vol-of-vol (VVIX) will rerate. That's the trigger for the VIX 35→40→55 cascade.
-- **Bull case for vol compression:** if GDP third estimate (May) revises back up AND PCE softens AND Hormuz de-escalates simultaneously. Probability: ~15%. Not base case.
-- **Near-term:** VIX likely spikes on FOMC if dots show 0 cuts (market was pricing ~1.5 cuts). A 0-cut dots = roughly +5 VIX points mechanical.
-
-**3. SPX Earnings Repricing**
-- 2026 consensus SPX EPS assumes ~12-14% growth, implicitly built on ~2.5-3% GDP backdrop.
-- Repricing arithmetic:
-  - Each 1pp GDP miss vs consensus ≈ **3-5% EPS miss** (historical relationship)
-  - From consensus ~2.5% to actual 0.7% = **~1.8pp shortfall** → **~5-9% EPS haircut** (baseline)
-  - Hamilton worst-case (-4.2% GDP) = **negative EPS growth** territory, potential **-15-20% EPS revision** vs current street numbers
-- Oil margin compression compounds: non-energy S&P 500 companies face input cost increase. Historical: $10/bbl sustained Brent increase → ~1-2% margin compression across industrials, consumer staples, transport.
-- Brent at $100+ = **~$15-20/bbl above normalized** → **~1.5-4% margin headwind** on top of GDP shortfall.
-- **Combined: street EPS estimates are 10-20% too high if Hamilton trajectory materializes.** SPX at current levels is trading on earnings that won't happen.
-- P/E re-rating risk: falling EPS + rising risk premium (from Fed paralysis) = double compression. Multiple contraction AND earnings miss simultaneously = 1973-74 template.
-
-**Vector updates:**
-- Vector 4 (Stagflation/Labor-Inflation): Already maxed at 5/5. Data cement.
-- Vector 8 (Market Breadth/GDP): Upgrade from 3→4 🟠→🔴. GDP print removes breadth recovery narrative.
-- HEN-04: Probability upgraded 70%→90%+.
-- HEN-06: Hamilton framework ACTIVE — now has a confirmed baseline (0.7%) to apply against.
+## POSITION IMPACT
+| Position | Mar 13 | Mar 16 | Impact |
+|----------|--------|--------|--------|
+| IWM $250P Jun | ITM by $3.41 | ~ATM | ⚠️ Delta compressed. Need IWM to reverse. FOMC is catalyst. |
+| HYG $75P Jun | Improving | Likely flat — no credit data today | 🟡 Hold. Credit hasn't moved. |
+| TLT Puts | Thesis intact | Yields ROSE — thesis strengthened | ✅ 10Y 4.285% supports position. |
 
 ---
 
-## OIL SHOCK ANALOG — 1979-80 TEMPLATE (Added Mar 9, 3-source cross-verified)
+## PRIOR STATUS (Mar 13 data archived below this line)
 
-**Core finding:** WTI $119→$84 (-30%) = mid-crisis pullback, NOT resolution. Three independent AI sources unanimous. Second leg higher = base case.
+### PCE JANUARY 2026 — CONFIRMED HOT (Mar 13)
+- Core PCE: +0.4% MoM / +3.1% YoY (vs 2.9% consensus — ABOVE EXPECTED)
+- Headline PCE: +2.8% YoY
 
-| Cycle | Mid-Crisis Pullback | Equity Bottom Lag | Total Drawdown | Notes |
-|-------|--------------------|--------------------|----------------|-------|
-| 1973-74 | Multiple -15% retracements | **11 months** after oil peak | **-48% S&P** | 18% bull trap countertrend rally right at embargo start |
-| 1979-80 | Apr 1980 $39→$32 (-18%), Feb 1979 $23→sub-$20 (-15%) | **26 months** after oil peak | **-25% S&P** | Volcker intervention added second leg |
-| 2026 current | $119→$84 (-30%) Mar 9 | **Month ~0-1** — EARLY INNINGS | TBD | SPY already broke 20-week MA |
+### UMICH MARCH 2026 PRELIM
+- Overall: 55.5 | 1-yr inflation exp: 3.4% | 5-10yr: 3.2% — de-anchoring risk REAL
 
-**Bond dynamics (1970s = NO safe haven):**
-- 1973-74: 10Y 6.79%→8.04% (equities AND bonds down simultaneously)
-- 1979-80: 10Y 9.10%→12.40% (Volcker → 15.32%)
-- Real bond returns: **-3% annual for entire 1973-82 decade**
-- 1974: Embargo lifted Mar 18. Yields **kept rising** through rest of year. → TLT puts thesis intact.
+### GDP Q4 2025 — +0.7% (revised down from +1.4%)
+- Stagflation arithmetic: Core PCE 3.0% + GDP 0.7% = textbook locked
+- Hamilton NOPI: GDP drag -3.0 to -4.9pp, peak Q1 2027
 
-**Credit spread lag (critical for HYG timing):**
-- Post-embargo: Baa spreads barely moved for **3 months** (153→174bp)
-- Then DOUBLED to 313bp over following **9 months**
-- IG spreads: peak 5-7mo after recession START (1980 cycle); 14mo (1973 cycle)
-- **⚠️ IMPLICATION: HYG Jun puts may be too early. Consider rolling to Sep/Dec. Do NOT exit — extend.**
+### OIL SHOCK ANALOG — 1979-80
+- Mid-crisis pullbacks are NORMAL, not resolution. 1973-74 had 18% bull trap rally.
+- **Today's +1% bounce fits the template EXACTLY.**
 
-**Bull trap risk:** 1973 had **18% countertrend rally** (Dow 845→997) right as embargo started. Current green days on de-escalation signals fit exact template.
+### THREE INFLATION VECTORS
+- Oil >$100 (STILL ACTIVE — Brent $100.21)
+- Tech deflation reversal (ARMED)
+- Food inflation (BUILDING)
 
-*Full data: KB ML-HEN-089 through ML-HEN-096 | VX VX-HEN-19.01 through VX-HEN-19.07 | FLOW FLOW-HEN-019 through FLOW-HEN-021*
-
----
-
----
-
-## STAGFLATION TRAP — THREE INFLATION VECTORS (Added Mar 12)
-
-Three independent channels feeding into Core PCE — Fed cannot cut into any of them:
-
-| Vector | Mechanism | Quantified Impact | Status |
-|--------|-----------|-------------------|--------|
-| **Oil >$100** | Direct energy input cost; gas prices +16% wk of Mar 9; feeding into March CPI (Apr print) | Structural — each $10/bbl Brent ≈ +20-25bps Core PCE over 6-9mo | 🔴🔴 ACTIVE — threshold breached Mar 12 |
-| **Tech Deflation Reversal** | AI/semiconductor prices had been pulling Core PCE down (-12bps baseline contribution). TSMC disruption (Hormuz = Taiwan supply chain risk) reverses this. | Baseline: -12bps to Core PCE. If TSMC disrupted: **+24bps** swing (+36bps net shift) | 🟠 ARMED — tail risk if Strait closure extends |
-| **Food Inflation** | Food at home = 14% of Core PCE weight. Hormuz disrupts fertilizer (ammonia) shipping. Ag liquidation (STL Beige Book). | 10-15% food price rise = **+140-210bps** to Core PCE. | 🟠 BUILDING — farm auctions record, AR planting at risk |
-
-**Combined scenario (all three active):** Core PCE could reach 3.5-4.5% by Q3 2026 — Fed CANNOT cut. Stagflation trap becomes structural, not cyclical.
-
-*Flows: FLOW-HEN-022 (food→PCE), FLOW-HEN-023 (tech deflation reversal→PCE)*
-
----
-
-## MAR 9 SIGNAL BATCH — KEY UPDATES
-
-**Mar 9 Batch Data:**
-- VIX: 23.61 (Mar 6 close) → **29.5** (Mar 9 futures open) — coiled spring partially sprung
-- S&P futures: -1.9% | Dow futures: -1,100pts | Nasdaq: -2.3%
-- GDPNow Q1: **3.0% → 2.1%** in 4 days (Mar 2→Mar 6)
-- Global bonds selling: AUS +13bps, Korea +13bps, UK +10bps, France +7bps, Japan +5bps, US 10Y +5.5bps to **4.1867%**
-- USO: +32.7% weekly | Gas: $3.45/gal (+16% weekly)
-- CPI overlay chart (X): current CPI tracking 1970s almost exactly — at 1979 re-acceleration inflection
-
-**Known Data Issues:** SPX Mar 3 close ~6,817 (not 6,781 — that was intraday). Dow -1,014pts at close (not -1,200 which was intraday). HY OAS 297bps (FRED CSV Mar 4 confirmed); LIQUID est 335-355 was ~40bps too high. Brent ~$84.75 (not $118). ISM Mfg released Mar 2 (1st BD), not Mar 3.
-
----
-
-## CONVERGENCE MATRIX — The Loaded Machine
-
-| # | Vector | Score | Status | Key Signal | Upgrade Trigger |
-|---|--------|-------|--------|------------|-----------------|
-| 1 | Gamma / Positioning | 5 | 🔴🔴 | Put wall breached, negative gamma confirmed, dealers fading rallies | Already maxed |
-| 2 | CTA / Systematic | **5** | 🔴🔴 | **SPX 6,632 CLOSE MAR 13 — MEDIUM CTA TRIGGER 6,707 BREACHED ON CLOSING BASIS. $80B systematic selling NOW QUEUED.** | ✅ THRESHOLD MET — upgrade trigger achieved |
-| 3 | Credit-Equity Divergence | 4 | 🔴 | Quality rotation 4/5 steps, BKLN 52wk lows, HY OAS floor rising | HY OAS >350bps (400bps = **credit break confirmed** — systemic) |
-| 4 | Stagflation / Labor-Inflation | **5** | 🔴🔴 | **NFP -92K CONFIRMED. Dec revised -17K. Wages +3.8% YoY. Stagflation locked.** | Already maxed |
-| 5 | 0DTE / Microstructure | 4 | 🔴 | 65% of SPX volume (record), GEX thinning, Citadel confirmed asymmetry | Structural — amplifier, not trigger |
-| 6 | Vol Structure | **4** | 🔴 | **VIX 23.61→29.5 on Mar 9 open. Coiled spring partially sprung. Watch for term structure inversion.** | VIX spot > futures (inversion) |
-| 7 | Earnings Quality / SBC | 3 | 🟠 | XLK <50% breadth, SBC 30-50% overstatement, SoftBank exited NVDA | PLTR breaks $100 (H5) |
-| 8 | Market Breadth | 3 | 🟠 | 8/11 sectors red, IWM below all MAs, Energy/Materials >95% | XLK breadth <40% (H7) |
-| 9 | Geopolitical / Commodity | **5** | 🔴🔴 | **BRENT BREACHED $100 MAR 12 MIDDAY — FED TRAP HARDENS. 3 ships hit Hormuz overnight. Navy EOM at earliest for escort. $200 oil cited worst case by Iran. Strait now declared permanent closure zone (Mar 12). Citi DIFC staff evacuation underway.** ⚠️ **HAWK Scenario C (VIX 40-55): Now 55% base case — NO LONGER TAIL RISK.** | ✅ THRESHOLD MET |
-| 10 | Risk Parity / Leverage | **4** | 🔴 | **Global bond selloff confirmed Mar 8 — stocks AND bonds down simultaneously. Risk parity has NO safe leg. Three-anchor framework LIVE.** **New pressure source: Gulf surplus recycling ~$50-75B/yr reduction — petrodollar UST demand shrinking as GCC nations redirect capital inward amid war premium.** | Full cross-asset deleveraging |
-| 11 | Carry / JPY Unwind | **4** | 🔴 | **ACTIVATED. Softest possible NFP. Yen bid expected. Watch USDJPY move toward 150-152.** | Confirmed USDJPY <153 = cascade active |
-| 12 | Consumer / Delinquency | 2 | 🟡 | Beige Book K-shape 10-12/12, FL UI cliff Mar 24 | Claims >300K or FL cliff fires |
-
-**Convergence: ~51/60** — 🔴🔴 POST-MAR-13 UPGRADE. Vector 2 (CTA) upgraded 4→5 on SPX 6,632 close breaching 6,707 on closing basis. PCE 3.1% hot + UMich de-anchoring + Hormuz persisting. **ACTIVE CASCADE ZONE. FOMC confirmation catalyst arrives Wednesday.**
-
-**NFP RESOLVED:** -92K confirmed. Dec revised to -17K. Three-month avg ~+6K/month = effectively zero growth. All scenario conditions met.
-
-*Full vector detail + non-obvious signals → `CONVERGENCE_REPORT.md`*
-
-## ACTIVE POSITIONS
-
-| Position | Expiry | Status | Exit Triggers |
-|----------|--------|--------|---------------|
-| IWM $250P | Jun 2026 | ✅ +19% (Mar 3 EOD) → increasing (IWM $259.56 -1.91% Mar 4 pre-ISM, ~$9.56 OTM + delta expanding) | Q2 ISM sub-49 confirmation; IWM close <$255 = accelerant |
-| HYG $75P | Jun 2026 | ⚠️ Improving (HY OAS 297bps CONF, floor rising) | HY OAS confirmed >350bps = active transmission; credit event |
-| TLT Puts | **May 2026 (existing) = SATELLITE ONLY** | ⚠️ Oil lag thesis → May expiry may not capture full move. **Core position should be Sept/Oct per 1973-74 lag template** (embargo lifted Mar 18 1974 → yields KEPT RISING through year-end). May = tactical/satellite. Roll core to Sept/Oct. | 10Y yields drop below 3.80% sustained |
-
-**⚠️ OIL RESOLUTION RED TEAM:** If Hormuz conflict resolves quickly → fear premium unwinds → oil drops sharply → TLT puts briefly underwater (bond rally on rate-cut hopes). **THIS IS AN ADD WINDOW, NOT AN EXIT.** 1974 template: embargo lifted Mar 18 → yields kept rising. Resolution = temporary deflation scare, not structural. Hold core Sept/Oct position through any oil relief bounce.
-
----
-
-## THESIS: The Loaded Machine
-
-Market is derivatives-driven, dealer hedging dominates short-term dynamics.
-
-**Three fractures:**
-1. **Tech Rot:** <50% XLK above 50-DMA while Energy/Materials >95%
-2. **Margin Paradox:** Record 13.2% margins sustained by 1.2M layoffs (+58% YoY)
-3. **Earnings Quality Decay:** 15% EPS growth on 7.2% revenue = financial engineering
-
-**Peak risk metrics (Feb 12):** 0DTE 65% of SPX volume (record), margin debt $1.23T ATH, credit diverging
-
-**SBC Valuation Gap (Burry):** Tech earnings overstated 30-50% due to SBC add-backs. If repriced → Reverse Wealth Effect 2-3x larger. *Full thesis → archive/BURRY_GPU_THESIS_FEB23.md*
-
-**SoftBank exited NVDA** (Feb 17) — smart money leaving AI poster child.
-
----
-
-## QUALITY ROTATION — All Steps Confirmed (Feb 17)
-
-| Step | Signal | Status |
-|------|--------|--------|
-| IG > HY | LQD +1.79% vs HYG +0.44% (6M) | ✅ |
-| Better HY > Worse HY | HYG -0.35% vs JNK -0.44% (1M) | ✅ |
-| Leveraged loans crack | BKLN -1.99% (1Y), 52-week lows | ✅ |
-| Specific names blow out | FSK div cut -31%, Blue Owl gating, Medallia 78¢ | ✅ |
-| Contagion spreads | **WAL -13% ($70): $126M charge-off on Jefferies refusal to pay First Brands Group loan. Jefferies lawsuit → WAL balance sheet. DIRECT TRANSMISSION CONFIRMED.** KRE -3.6% ($64) — systemic. | ✅ **CONFIRMED Mar 6** |
-
-**BKLN at 52-week lows while equities near highs = credit leading equities. This is the pattern that precedes repricing.**
-
----
-
-**Mar 12 EOD — WAR DAY 12 / PPI + CLAIMS / BRENT $100 CONFIRMED:**
-- SPX ~6,683 (-1.22%, ~-82pts). 10Y **4.23%** (+7bps from 4.16% Mar 11). Claims 213K (benign — flat vs Feb 28 week, no cliff). Brent **$100 BREACHED AND HELD** — Vector 9 threshold fully triggered.
-- **Vol structure:** VIX est ~25-26 (up from 24.35 Mar 11). Approaching 25 strike on VIX call spread. Not yet in cascade zone (VIX 29.5 was Mar 9 spike high). Term structure: watch for inversion (spot > futures = Vector 6 upgrade trigger).
-- **What changed vs Mar 11:** Oil moved from "approaching threshold" to "threshold breached." 10Y yield +7bps on a day equities fell 1.2% — this is NOT a fear bid into bonds, it is stagflation pricing. Yields should fall on equity selloff in a normal recession; they're rising. The divergence is the signal.
-- **Claims (213K) interpretation:** Benign on surface. Consistent with Feb 28 print. Labor freeze narrative (hiring stopped, firings not yet spiking) remains intact. Continuing claims is the real tripwire — watch for 1,868K+ threshold. No escalation today from labor channel.
-- **Positioning signals:** SPX now ~6,683 — below put wall (6,800) and approaching Goldman CTA medium trigger (6,707). Close AT or below 6,707 = $80B systematic selling queued. Today's close likely just below or at that level. If Brent holds $100 overnight and JOLTS disappoints tomorrow, medium CTA trigger becomes live.
-- **Vector 9 🔴🔴 hardening implications:** Fed trap is no longer theoretical — it is mechanically locked. Brent $100 → oil feeding into March CPI (Apr print). Fed cannot cut into an oil shock without abandoning inflation credibility. Cannot hike into -92K NFP. Stagflation trap narrative now has a price tag: $100/bbl Brent = the line.
-- **JOLTS tomorrow 10 AM ET:** Key. If job openings fall sharply (below ~7.5M), it confirms labor market is freezing at the demand (hiring) side, not just supply. Would be convergent with -92K NFP and ADP miss. Bearish signal for IWM (small caps = job creation bellwether).
-
-**Mar 11 EOD — WAR DAY 11 / CPI DAY:**
-- SPX 6,765 (~-0.1%). Dow 47,316 (-390pts, -0.82%). Nasdaq 22,687 (+0.1%). BIFURCATED: tech/AI up, industrials/consumer down.
-- 10Y yield: **4.21%** — UP from 4.16% (STATUS header). Yields RISING despite in-line CPI = stagflation signature intact. Market pricing oil-driven inflation lag, not rate cuts.
-- VIX: ~24.35-24.48 — elevated but below Mar 9 spike of 29.5. Not cascading yet.
-- Gold: $5,186.60 (-1.06%, -$6 from $5,193). Modest pullback — not a flight-from-safety signal, just profit-taking.
-- Oil: WTI ~$86/Brent elevated. Article confirms "rising oil prices" and "spring bulge in energy costs" cited as Dow/industrial drag. Oil rally resumed after Mar 10 relief.
-- **CPI RESULT:** Headline +0.3% MoM / **2.4% YoY**. Core +0.2% MoM / **2.5% YoY**. ROUGHLY IN-LINE vs 2.4%/2.5% consensus. **Our 65% hot prediction = MISS.** BUT: Feb data does NOT yet reflect Hormuz oil spike (gas prices +16% week of Mar 9). March CPI (Apr print) = the real test.
-- Oracle ORCL: +13.8% to all-time high. $1.79 EPS vs $1.70 est. OCI +84%. $553B RPO. AI cloud demand intact — short-term headwind to tech rot thesis.
-- NVDA: +1.4% (Nebius $2B investment). AI infrastructure narrative resists pressure.
-- **KEY SIGNAL:** Dow -0.82% vs Nasdaq +0.1% = tech/AI bifurcation sharpening. Classic stagflation dispersion — duration assets (real yields rising) hurt valuations differently than cash-flow-heavy tech.
-- PPI prints tomorrow Mar 12 (rescheduled from CPI expectation). Also weekly jobless claims.
-- Note: STATUS.md previously showed "CPI TOMORROW" — CPI actually printed today Mar 11.
-
-**Mar 10 EOD — WAR DAY 10 / CPI EVE:**
-- SPX 6,825.52 (+0.44%, +29.78pts). Market closed GREEN vs -0.3% futures this AM. Catalyst: WH de-escalation signals on Iran, oil -10%.
-- Dow 47,997.18 (+0.54%, +256.60pts). Nasdaq 22,840.95 (+0.64%).
-- Brent ~$88/bbl (down from $92 intraday high Mar 6, down ~10% today). $88 = moving AWAY from $100 threshold. Red team gains ammunition.
-- Gold >$5,220 (up from $5,180 AM, +$40). Silver +5% to $89.25. Hard assets bid despite equities up — simultaneous green = stagflation signal intact.
-- Breadth: NARROW. Semis/tech led (MU +6.28%, AMAT +4.56%, NVDA +1.61%, ARM +3.96%). Most S&P 500 constituents still under pressure per analyst commentary. "Wait-and-see" ahead of CPI.
-- Oracle ORCL beat after close: $1.79 EPS vs $1.70 est; rev $17.2B vs $16.92B; OCI +84% YoY; RPO $553B. AI infrastructure demand remains intact — complicates tech rot thesis short-term.
-- CPI tomorrow 8:30 AM ET: Street consensus 2.4% headline / 2.5% core (vs our 65% hot-print expectation — our model above consensus).
-- TLT last confirmed $88.46 (last week) — TLT Jun $85P x3 filled today are OTM. Oil relief = potential TLT bounce headwind near-term.
-- IWM/VIX/10Y/DXY: Exact EOD levels not yet confirmed. Given oil relief and green close, 10Y likely flat-to-down from 4.13% (flight-to-quality bid removed, but oil relief partially offsets). VIX likely pulled back from 23.61.
-- WAL Sep $70P filled: WAL was $70 on Mar 6 (-13%). Entry at or near ATM — charge-off thesis intact, next signal = KRE follow-through or additional loan deterioration news.
-- New positions summary: TLT Jun $85P x3 (duration/stagflation — risk: oil retreat opens Fed cut path), CF Jun $115C (fertilizer/ag supply disruption from Hormuz), WAL Sep $70P (bank credit transmission confirmed).
-
-**Mar 6 EOD — NFP DAY CLOSE:**
-- SPX 6,829.69 (−0.58%). ABOVE put wall at close. Market absorbed -92K shock — partially pre-priced via ADP miss.
-- VIX 23.61 — subdued. Will expected 30-38; actual is ~10pts lower. This means vol-control selling likely NOT triggered at full force. Put positions may have underperformed expectations intraday.
-- 10Y yield 4.13-4.17% — CRITICAL: bonds sold off on a jobs miss. This is the stagflation signature. Fed cannot cut without re-igniting inflation expectations. Fed cannot hold without crushing a weakening labor market. Trap is fully set.
-- Brent $92 intraday — $8 from $100 threshold where "Fed forced to hold" becomes consensus narrative.
-- Dow -642pts (−1.32%) — industrials/consumer disc hit hardest, fuel cost pass-through fears dominant.
-- Nasdaq −0.33% — Marvell Technology surge in semis cushioned tech; Mag7 mixed.
-- Bond market NOT offering safety = cross-asset correlation breakdown. Equity AND bond selling simultaneously = stagflation pricing, not recession pricing. This removes the "60/40 rebalance into bonds" mechanical buyer from equities.
-- GEX update: SPX above 6,800 at close means dealers less negative gamma into weekend. HOWEVER, with 0DTE expiring today (Friday), gamma slate wiped clean. Monday positioning could be more directional.
-- USDJPY: Soft NFP should have bid yen hard. If USDJPY held above 153 today, carry unwind stalled — watch as key signal next week.
-
-**Mar 5 EOD additions:**
-- Initial jobless claims 213K (wk ending Feb 28) — STEADY. Headline: "stabilizing labor market." Tension with ADP +63K = hiring freeze but no mass firings YET. Pre-NFP enigma unresolved.
-- Unit labor costs Q4 rose MORE than expected → stagflation input confirmed (CPI/PCE upside risk)
-- Citadel Securities officially stated gamma asymmetry: upside gamma near $7K forces dealers to FADE rallies; below = acceleration. We're below. Mechanical headwind to any NFP bounce.
-- Citadel Traders "switched bearish to bullish" (tactical) — squeeze risk if NFP beats consensus.
-
-*Mar 4 session log archived → `workbook/SESSION_LOG_MAR4.md`*
-
----
-
-## SIGNAL DASHBOARD — CONFIRMED MAR 3 CLOSE + PENDING RELEASES
-
-| Indicator | Value | Source | Status |
-|-----------|-------|---------|--------|
-| SPX | **6,632.19** (−0.61%, −40.4pts Mar 13 CLOSE) | [CONF] Yahoo Finance Mar 13 | 🔴🔴 **2026 LOW. BELOW Goldman CTA 6,707 ON CLOSING BASIS — $80B systematic selling queued.** Below put wall 6,800. Three consecutive weekly losses. |
-| Dow | **46,558.47** (−0.26% Mar 13 est) | [CONF] Yahoo Finance Mar 13 | 🔴 Industrial/consumer sectors hit. |
-| Nasdaq | **22,105.36** (−0.93% Mar 13) | [CONF] Yahoo Finance Mar 13 | 🔴 Tech breaking down. Three-week losing streak. |
-| IWM | **$246.59** (Mar 13) | [CONF] Yahoo Finance Mar 13 | 🔴🔴 **$250P IS ITM by $3.41.** Delta expanding rapidly. 11-day staleness resolved — down from $260.67 (Mar 4). |
-| VIX | **27.19** (Mar 13 CLOSE); intraday high 28.4 | [CONF] Yahoo Finance Mar 13 | 🔴 Elevated. Above 25 "institutional panic" threshold. VIX call spread 25/35 — approaching 25 strike. |
-| 10Y Yield | **~4.25%** (little changed Mar 13) | [CONF] CNBC Mar 13 note | 🔴🔴 STAGFLATION DEEPENING: yields flat-to-up on equity selloff day. Bonds NOT a safe haven. |
-| Brent Crude | **$101.07** (Mar 13 close, 2nd consecutive >$100) | [CONF] Pintu/CNBC Mar 13 | 🔴🔴 THRESHOLD FULLY LOCKED. Goldman forecasts $100+ avg March. V9 🔴🔴 irreversible unless Hormuz opens. |
-| WTI | **$95.91** (Mar 13 close) | [CONF] Pintu Mar 13 | 🔴 EOD confirmed (vs $93.50 mid-session Thursday). |
-| Gold | **$5,187** | [CONF] Mar 11 (stale) | 🟠 No Mar 13 confirmed close. |
-| HY OAS | **~309bps** (Mar 2026, tradingeconomics) | [EST] TradingEconomics.com | 🟠 Up from 297bps (Mar 4). Sequence: 265→284→312→308→297→**~309**. Floor still rising. LIQUID needed for precise Mar 13 confirm. |
-| MOVE | Rising | [EST] | 🟠→🔴 |
-| **NFP Feb** | **-92,000** (vs +55-65K consensus) | **FIRST NEGATIVE PRINT. Dec revised to -17K. 3-mo avg ~+6K/mo.** | 🔴🔴 RESOLUTION EVENT |
-| Unemployment Rate | **4.4%** (up from 4.3%) | 7.6M unemployed | 🔴 Trending up |
-| Labor Force Participation | **62.0%** | Little change | 🟠 Flat (pop. adjustment distorts) |
-| Avg Hourly Earnings | **+0.4% MoM / +3.8% YoY** ($37.32) | Hot wages + job losses = stagflation | 🔴🔴 LOCKED |
-| ADP Feb | **+63K** (vs 130K consensus) | MASSIVE MISS — Labor cracking while services hot | 🔴🔴 STAGFLATION |
-| ISM Services Feb | **56.1** (vs 53.5 consensus) | BEAT — highest since Jul 2022. Prices 63.0 (↓ from 66.6) | 🟠 ELEVATED/RELIEF |
-| 0DTE Share (SPX) | 65% (record) | [CONF] Feb 2026 data | 🔴 |
-| Margin Debt | $1.23T | [CONF] FINRA ATH | 🔴 |
-
----
-
-## KEY LEVELS ⚠️ UPDATED Mar 6 EOD — See research/GEX_CTA_DEEP_DIVE_MAR3.md
-
-| Level | SPX Price | Significance | Mar 3 Status |
-|-------|-----------|--------------|-------------|
-| 200-day MA / Gamma Flip | **6,902** | Dealer negative gamma territory below | 🔴 BREACHED (all session) |
-| 50-day MA / Short CTA | **6,883** | Short-term CTA sell trigger | 🔴 BREACHED (close ~6,781) |
-| Put Wall | **6,800** | Heaviest put OI concentration | ⚠️ RECLAIMED AT CLOSE (6,830) — dealers partially re-hedged. Next breach = accelerant. |
-| Goldman CTA Medium | **6,707** | $80B systematic selling trigger (Goldman Feb 2026) | 🔴 **BREACHED ON CLOSE Mar 13 (6,632.19)** — $80B systematic selling NOW QUEUED. |
-| Acceleration Zone | **6,600s** | Negative gamma feedback / no support | Not reached |
-| Longer-Duration CTA Flip | **~6,494** | Longer-lookback CTAs flip net short | Not reached |
-| JPM Collar Put | **6,475** | JHEQX institutional hedge — mechanical buy support | Not reached (~4.5% away) |
-
-**MA verification source:** Investing.com technical page, Mar 3, 2026
-**Goldman 6,707 source:** Bloomberg/Economic Times report ~Feb 13, 2026
-**JPM 6,475 source:** Q1 2026 collar confirmed (workmarketsfinance.com Jan 2026)
-
----
-
-## CASCADE STATUS (Mar 3) — *Full reference → `domain/REFERENCE_TABLES.md`*
-
-| Step | Status |
-|------|--------|
-| Vol-Control | 🔴 ACTIVE (VIX 26.43) |
-| Short-Term CTAs (6,883) | 🔴 ACTIVE (close 6,781) |
-| Medium CTAs (6,707) | ⚠️ BORDERLINE (intraday breach, not sustained) |
-| Long CTAs (6,494) | Not triggered |
-| Risk Parity | Building |
-
----
-
-## CREDIT-EQUITY VIEW
-
-**Credit is PRIMARY driver** (Feb 27 upgrade). HY OAS +12bps/wk to 308bps. MFS → Jefferies/Barclays → sector contagion confirmed pattern. **Equity CANNOT bottom until HY OAS peaks** (H4).
-
-**Path probabilities:** Slow credit grind 55% | Fast gamma cascade 30% | Muddle-through 15%
-
-**Phase 2 carry watch:** USDJPY ~158. Soft NFP → yen bid → carry unwind cascade.
-
----
+## KEY LEVELS
+| Level | SPX Price | Mar 16 Status |
+|-------|-----------|---------------|
+| 200-day MA | ~6,902 | 🔴 Still 203pts above. Far from reclaim. |
+| Put Wall | 6,800 | 🔴 Still 101pts above. Overhead resistance. |
+| Goldman CTA Medium | 6,707 | ⚠️ CLOSED BELOW by 7.6pts. Queue deferred, not cancelled. |
+| Acceleration Zone | 6,600s | Not tested today. |
 
 ## PREDICTIONS
-
 | # | Prediction | Confidence | Status |
 |---|------------|------------|--------|
-| H1 | SPX breaks 6,494 → CTAs flip → $40-60B selling | 80% | ACTIVE |
-| ~~H2~~ | ~~MOVE >115 while VIX <20 = credit stress~~ | ~~70%~~ | RETIRED — VIX 21-26 broke precondition |
-| H4 | Equity cannot bottom until HY OAS peaks | 85% | ACTIVE — HY OAS 297bps (Mar 4), floor rising |
-| H5 | PLTR breaks $100 → AI thematic repricing begins | 75% | ACTIVE — currently $136 |
-| H7 | XLK breadth <40% precedes sector repricing | 80% | ACTIVE — approaching (<50%) |
-| ~~**HEN-01**~~ | ~~**NFP Feb <100K**~~ | ~~**70%**~~ | ✅ **CONFIRMED Mar 6 — Actual: -92,000. Called it at 70%. Model range 75-110K; actual below model range. Dec also revised to -17K.** |
-| HEN-02 | ISM Services New Orders rolls over sharply in March (front-running exhaustion) | 65% | ACTIVE — resolves ~Apr 6 |
-| HEN-03 | March ISM Prices (Mfg+Services) exceeds February — Hormuz oil shock feeds through | 70% | ACTIVE — resolves ~Apr 6 |
-| HEN-04 | FOMC Mar 17-18 holds rates, sounds concerned on both mandates without acting | **95%** (upgraded: PCE 3.1% hot print confirmed + UMich inflation expectations de-anchoring) | ACTIVE — resolves Mar 18 |
-| HEN-05 | April Beige Book (early May) materially worse than March — layoffs, delinquency, rural hospital closures | 85% | ACTIVE — resolves ~May 10 |
-| HEN-06 | Hamilton NOPI framework: GDP drag **-3.0 to -4.9pp** from sustained oil shock; peak impact Q1 2027 (lag 4 quarters from shock initiation). Jun credit puts likely too early — extend to Sep/Dec per Hamilton lag coefficients. | 75% | ACTIVE — resolves Q1 2027 |
+| HEN-04 | FOMC holds, both mandates concern, 0-1 cuts in dots | **95%** | RESOLVES WEDNESDAY |
+| HEN-06 | Hamilton NOPI: GDP drag -3.0 to -4.9pp by Q1 2027 | 75% | ACTIVE |
+| **HEN-07** | **Mar 16 relief rally = bull trap per 1973-74 template. SPX retests 6,632 or lower within 5 trading days.** | **70%** | **NEW — resolves by Mar 23** |
 
----
-
-## MACRO DATA → `domain/ECON_CALENDAR.md`
-Next: **NFP Mar 6** (HEN-01: 70% <100K) | CPI Mar 11 | PCE Mar 13 | FOMC Mar 17-18
-
----
-
-*ISM/ADP synthesis archived → `workbook/ISM_SYNTHESIS_MAR4.md`*
-
----
-
-*Cross-agent signals (Mar 4-5) archived → `workbook/SESSION_LOG_MAR4.md`*
-
-## WHAT TO WATCH
-
-### ⚡ IMMEDIATE (This Week)
-1. ~~**CPI Wednesday 8:30 AM ET**~~ **✅ RESOLVED MAR 11** — Headline 2.4% (+0.3% MoM), Core 2.5% (+0.2% MoM). IN-LINE, slightly cool. Our 65% hot model = miss. BUT: Feb data pre-dates Hormuz oil spike. March CPI (Apr print) = real test. Oil now flowing through to gas prices — expect March to be hotter. TLT puts: yields ROSE to 4.21% anyway → thesis intact via oil lag mechanism, not current print.
-2. **PPI + Claims Thursday Mar 12** — PPI will start showing oil input costs. Claims: watch vs 213K (Feb 28 wk). Spike toward 230K+ = labor cliff. Oil-driven cost squeeze now the dominant CPI path — PPI = forward signal.
-3. **VIX 25/35 call spread** — VIX ~24.35. Slightly below the 25 strike. Watch for reversal on hot PPI or claims spike.
-4. **HYG timing review** — Oil lag thesis now MORE compelling after today. Feb CPI didn't show Hormuz. Jun puts may still be early. Roll to Sep/Dec stronger case now.
-
-### Ongoing
-5. **HY OAS** — Floor rising (265 Jan → 284 Feb → 308 Mar 3). Break 320 = LIQ-01 achieved.
-6. **MOVE vs VIX** — Divergence = 2-5 day warning
-7. **SPY 20-week MA** — Confirmed break Mar 9. Per 1979-80 template: early innings. Watch for bull trap bounces.
-8. **PLTR** — Break $100 = AI repricing catalyst (currently $136)
-9. **XLK breadth** — Approaching 40% danger
-10. **BKLN** — Continue monitoring vs HYG divergence
-11. **FL consumer DQ** — UI exhaustion cliff Mar 24; FL outpaces national by Q2 (CARL)
-
----
-
-## BEIGE BOOK (Mar 4) — Summary
-
-**⚠️ Data through Feb 23 — pre-Hormuz, pre-Korea, pre-Mar 3 selloff. April will be materially worse.**
-
-All 10 thesis pillars confirmed: employment stalling (7/12 flat), K-shape (10-12/12), credit tightening (12/12), CRE broadening, margin squeeze (9/12), bank→shadow transmission (SF), rural hospital risk (KC+DAL), ag liquidation (STL), immigration shock (5+), safety net degrading (all). Trade confirmations: WAL/KRE ↑ HIGH, APO ↑ NEW, IWM steady.
-
-*Full scorecard → `domain/BEIGE_BOOK_MAR4_2026.md` | Vectors → workbook/KB.tsv (ML-HEN-077–086)*
-
----
-
-## EXIT RULES (Falsification)
-
-**Thesis kill (exit all):**
-- BTFP 2.0 or equivalent Fed backstop announced
-- HY OAS reverses below 260bps for 10+ consecutive sessions (credit stress thesis dead)
-
-**Position-specific:**
-- IWM $250P: Exit if ISM Mfg recovers >52 for 2 consecutive months
-- HYG $75P: Exit if HY OAS reverses below 265bps for 10+ sessions (below Jan baseline = rising floor thesis broken)
-
-**Convergence downgrade (trim 50%):**
-- NFP single print >200K + ADP confirms same month → stagflation labor leg collapses
-- VIX sustained <16 for 2 weeks → vol structure fully reset
-- SPX reclaims 200-day MA (6,902) on closing basis for 3 sessions → gamma/CTA vectors neutralized
-- Brent crude closes below $76 for 5+ sessions → stagflation oil input weakens, Fed cut path reopens
-
-**Immediate reassessment:**
-- FOMC surprise cut (inter-meeting or Mar 18) → reassess H4 (equity cannot bottom until HY OAS peaks) — credit may bottom faster than expected
-
-**Time-based:**
-- 60-DTE mandatory review (~Apr 6) — if IWM >$240 and HY OAS <330bps, evaluate roll vs hold vs trim independent of macro thesis
-
----
+## EXIT RULES (unchanged)
+- Thesis kill: BTFP 2.0 or HY OAS <260 for 10+ sessions
+- Convergence downgrade: NFP >200K, VIX <16 for 2wks, SPX reclaims 200-DMA (6,902) for 3 sessions, Brent <$76 for 5+ sessions
 
 ## BOTTOM LINE
-
-Loaded for destabilization, wound tighter than Aug 2024. 0DTE 65%, margin ATH, credit diverging. Quality rotation Steps 1-4 confirmed. Phase transition won't be gradual. Beige Book confirms all thesis pillars — bottom-up matches top-down.
-
-*References → `archive/CROSS_VECTOR_SYNTHESIS_FEB18.md`, `archive/BURRY_GPU_THESIS_FEB23.md`*
+One low-volume relief day on aspirational Hormuz headlines. Brent still $100. Yields still rising. CTA trigger still breached. FOMC tomorrow with hot PCE data. The 1973-74 template says this is the 18% bull trap — temporary relief before the next leg. Position integrity intact. Wednesday is the real test.

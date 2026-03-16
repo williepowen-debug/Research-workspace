@@ -1,8 +1,8 @@
 # OTTO STATUS
 
-**Signal Status:** 🔴 CRITICAL | **Last Updated:** 2026-03-12 13:45 UTC
+**Signal Status:** 🔴🔴 CRITICAL — ESCALATING | **Last Updated:** 2026-03-16 17:19 UTC
 
-**Summary:** NFP -92K (First Negative Print) | WAL sues Jefferies $126M (First Brands) | MFS: Barclays £500M + Elliott/SMBC/Macquarie exposed + Jefferies scrutiny | First Brands CFO GUILTY — turning on James brothers | Pomerantz CVNA class action active | EDGAR 8-K monitoring protocol LIVE | **🔴 DQ Rate 7.1% — ABOVE THRESHOLD (RED)** | **SoFi 2025-1 CNL 2.6% TRIGGERED (first ever)** | Goeasy (GSY.TO) -56.97% — Canadian canary | **🔴 CVNA Mar 15 discovery production = 3 DAYS OUT** | **First Brands auction end-March + Mar 11 motion to compel hearing**
+**Summary:** **PRIVATE CREDIT MELTDOWN** — Fortune: "$265B wipeout"; MS GATED North Haven fund; BlackRock restricted HPS; Blue Owl $1.4B forced sale | **Prediction #8 CONFIRMED (BDC gate)** | Economist/Dimon using "cockroach" metaphor | First Brands debt UPGRADED to $12B (<2% recovery) | MFS shortfall UPGRADED to £1.3B | Goeasy -65% + "aggressive accounting" | CVNA 5:1 stock split + buying Stellantis stores | FOMC Mar 17-18 IMMINENT | DQ 7.1% (RED) | NFP -92K
 
 **Vectors:** 83+ | **ML Entries:** 130+ | **Research Packages:** 15 complete
 
@@ -45,8 +45,12 @@ Recovery ratio 30.58% (vs 41% benchmark). Construction employment -92.7% YoY. S&
 |-----------|-------|--------|
 | Confirmed Fraud Cases | **4** (MFS confirmed) | 🔴 |
 | Bank Losses Disclosed | ~$1.8B+ (+ MFS UK TBD); JPM/Barclays/Fifth Third sued $230M+ Tricolor ABS | 🔴 |
-| BCRED Redemptions | $3.8B = 7.9% (met 100% via mgmt capital; no hard gate) | 🔴 |
-| Blue Owl | BOCC II ended quarterly liquidity — soft gate, switching to asset-sale payouts | 🔴 |
+| BCRED Redemptions | **$6.5B** = 7.9% (met 100% via $400M firm capital injection + upsized 7% cap) | 🔴 |
+| MS North Haven Fund | **GATED** — 10.9% requests, 5% cap enforced, only 45.8% fulfilled | 🔴🔴 NEW |
+| BlackRock HPS Fund | **Restricted withdrawals** on $26B fund | 🔴 NEW |
+| Cliffwater Flagship | 7% withdrawal requests on $33B fund | 🔴 NEW |
+| Blue Owl | **$1.4B forced asset sale** + DB downgrade to Hold + fiduciary probe; -66% from peak | 🔴🔴 |
+| Private Credit Sector | **$265B market cap wipeout** — Fortune: "resembles bank run" | 🔴🔴 NEW |
 | Large Bankruptcies | 9/week Feb 2026 = COVID levels | 🔴 |
 | 60+ DQ Rate | **7.1% (Feb 2026) — NEW RECORD** (was 6.9% Jan 2026) — ABOVE 🔴 THRESHOLD | 🔴🔴 |
 | Subprime Extension Rate | 3.81% (5x prime, RISING) | 🔴 |
@@ -61,21 +65,27 @@ Recovery ratio 30.58% (vs 41% benchmark). Construction employment -92.7% YoY. S&
 
 ## ACTIVE VECTORS
 
-### MFS (Cockroach #4) — CONFIRMED Feb 26, 2026
+### MFS (Cockroach #4) — CONFIRMED Feb 26, 2026 (Updated Mar 16)
 - **UK mortgage-finance** company collapsed with fraud/double-pledging allegations
 - Barclays and Atlas SP Partners (Apollo) = £2B+ arranged; each lent hundreds of millions
 - **Same mechanism as Tricolor** — double-pledging collateral across warehouse lenders
-- International expansion of cockroach thesis confirmed
+- **Shortfall UPGRADED: £1.3B ($1.7-1.8B)** — up from initial £930M (Reuters Mar 10, Caproasia Mar 13)
+- **Mar 13: Judge blocked CEO's bid to appoint preferred administrators** for Pearl Bridging unit — CEO trying to control insolvency process = red flag
+- **Mar 12: Bloomberg — "Failed lender MFS exposes regulatory black hole in UK mortgages"** — regulatory gap narrative mainstream
+- High Court case involving MFS founder raised questions weeks before collapse
+- AlixPartners (Browne, Beveridge, Appell) appointed as Joint Administrators Feb 25
 - **Signal needed:** REGINALD (Barclays exposure); LIQUID (Apollo private credit)
 
-### BCRED Near-Gate — CRITICAL (Updated Mar 6)
-- Q1 2026: $3.8B redemption requests = 7.9% of $82B fund (standard cap = 5%)
-- Blackstone meeting **100% of requests** — upping tender to 7%, mgmt/employees covering remaining 0.9%
-- Claims $8B+ available liquidity at year-end 2025; Gray: "feature not a bug"
-- **Blue Owl Capital Corporation II: SOFT GATE** — ended quarterly liquidity payments (~Feb 19); switching to periodic payouts via asset sales/earnings
-- Broader alt managers (BX, OWL, KKR, ARES, CG) all declining — CNBC: "rush for the exits"
-- **Prediction #8 = PARTIAL.** No hard gate yet. Q2 redemptions (June announcement) is the test.
-- With NFP -92K: Q2 redemption pressure likely to intensify
+### Private Credit Crisis — 🔴🔴 SYSTEMIC (Updated Mar 16)
+- **BCRED:** $6.5B redemption requests = 7.9% of $82B. Met 100% via upsized 7% tender + $400M firm/employee capital. Unsustainable if Q2 repeats.
+- **Morgan Stanley North Haven PIF: FIRST HARD GATE** (Mar 11-12) — 10.9% redemption requests (~$369M), enforced 5% cap, returned only $169M (45.8%). **Prediction #8 = CONFIRMED.**
+- **BlackRock HPS Lending Fund ($26B): Restricted withdrawals** (early March)
+- **Cliffwater flagship ($33B):** 7% withdrawal requests
+- **Blue Owl: $1.4B forced asset sale** from 3 funds. Bloomberg: "no backstops or hidden incentives." Deutsche Bank downgraded OWL Buy→Hold. Law firm investigating fiduciary breaches. Stock -66% from peak.
+- **Fortune (Mar 14): "$265B private credit meltdown"** — BX -46%, APO -41%, ARES/KKR -48%, OWL -66% from peaks. Houlihan Lokey: **"It resembles a run on a bank."**
+- **The Economist (Mar 15):** Dimon quoted using "cockroach" metaphor for Tricolor/First Brands. Corporate borrower stress piece = our thesis in mainstream.
+- Alt managers garnered ~40% of AUM from retail — now those retail investors want out and can't get it
+- **Assessment:** This is no longer "near-gate." Multiple funds are gating. The question is whether it stays orderly or cascades. FOMC Mar 17-18 is next catalyst — hawkish hold could accelerate.
 
 ### TCPC Securities Fraud Class Action
 - BlackRock TCP Capital Corp (NASDAQ: TCPC)
@@ -99,10 +109,17 @@ Recovery ratio 30.58% (vs 41% benchmark). Construction employment -92.7% YoY. S&
 - **Impact:** Subprime lenders lose primary federal watchdog; state AG becomes last line
 - NY FAIR Business Practices Act (FL-OTTO-024) becomes critical backstop
 
-### First Brands
+### First Brands (Updated Mar 16)
 - DOJ indictments (Jan 29): Patrick James, 9 counts, life sentence risk
-- Examiner report (De Luca) — status unclear; may have been killed by Ch. 7 conversion
-- $48M OEM bridge (Ford/GM/Harley/VW/BMW/Nissan/Audi)
+- **Debt UPGRADED to $12B** (was $9.3B) — FT reporting Mar 10
+- **Asset sales = <$200M recovery = <2% recovery rate** — catastrophic for creditors
+- **$1.1B DIP loan has lost most of its value** — investors would sell for pennies
+- **Jan 26: Wind-down of Autolite, Brake Parts Inc., Cardone** subsidiaries
+- **First asset sale completed:** Ford fuel pump manufacturer (Mar 11) — first of four planned
+- OEM customers switching suppliers — shrinking remaining inventory value
+- Mexico plants hard to recover due to tariffs
+- **Competing claims over same collateral** — double-pledging pattern echoes Tricolor
+- "Shadow lenders" chain under scrutiny (TheStreet/Yahoo Mar 12)
 - Trial scheduled June 2026
 
 ---
@@ -161,7 +178,7 @@ Based on context reconstruction (proposals failed 3x on API overload):
 | Signal | Detail | Impact |
 |--------|--------|--------|
 | **SoFi 2025-1 CNL 2.6% — TRIGGERED** | First-ever CNL trigger for SoFi. Junior tranches subordinated, senior paydown accelerated. Personal loan ABS, not subprime auto — stress broadening UP quality stack. | 🔴 Cross-ref Upstart, LendingClub, Prosper ABS for approaching CNL triggers |
-| **Goeasy (GSY.TO) -56.97% (1 day)** | $115.55→$49.72. Dividend suspended. Outlook withdrawn. NCO near 13% in 2025, rising to mid-teens 2026. Problems in autos + powersports. Canadian subprime lender leads US by 1-2 quarters. | 🔴 Short watchlist: CACC, SYF, OMF, WRLD — similar guidance deterioration imminent? NCO mid-teens = 2x worst US bank 2008. |
+| **Goeasy (GSY.TO) -65% (updated)** | Decline deepened. **"Aggressive historical accounting" in LendCare** = potential fraud. National Bank downgraded Strong-Buy→Hold. Analyst target cut $210→$50 (76%). Valuation switched P/E→P/B (crisis method). Seeking Alpha: "investment thesis fundamentally broken." | 🔴🔴 Canary CONFIRMED. Accounting manipulation + NCO mid-teens. CACC/SYF/OMF/WRLD next. |
 
 ## MAR 9 NEW SIGNALS
 
@@ -198,10 +215,17 @@ Based on context reconstruction (proposals failed 3x on API overload):
 | Mar 9 | Elliott/SMBC/Macquarie MFS exposure published | 🟠 |
 | Mar 12 | **DQ Rate 7.1% (Feb 2026) — crosses RED threshold** | 🔴🔴 NEW |
 | Mar 11 | First Brands — Motion to Compel hearing | 🔴 |
-| Mar 15 | **Carvana discovery production 1** | 🔴🔴 3 DAYS OUT |
+| Mar 13 | **CVNA 5-for-1 stock split announced** (vote May 5, record May 6) | 🟠 NEW |
+| Mar 13 | **CVNA buying Stellantis dealerships** — 6 stores, $160M+ | 🟠 NEW |
+| Mar 11-12 | **Morgan Stanley GATES North Haven fund** — first hard gate | 🔴🔴 NEW |
+| Mar 12 | **Blue Owl $1.4B forced asset sale** + DB downgrade | 🔴 NEW |
+| Mar 14 | **Fortune: "$265B private credit meltdown"** | 🔴🔴 NEW |
+| Mar 15 | **Economist: Dimon "cockroach" metaphor** for Tricolor/First Brands | 🔴🔴 NEW |
+| Mar 15 | Carvana discovery production 1 — **PASSED** (no public output yet) | ⏳ |
 | Mar 31 | Tricolor vehicle liquidation deadline | 🔴 IMMINENT |
 | Mar 31 | First Brands auction conclusion | 🔴 IMMINENT |
-| Mar 25 | OZK EDGAR 8-K watch begins | 🔴🔴 |
+| Mar 17-18 | **FOMC meeting** — presser Mar 19 2:30 PM ET | 🔴🔴 IMMINENT |
+| Mar 25 | OZK EDGAR 8-K watch begins — Temple8: "Next SVB?" + institutional selling | 🔴🔴 |
 | Apr 6 | TCPC class action lead deadline | 🟠 |
 | Apr 30 | Tricolor vehicle liquidation | 🟠 |
 | Jun 12 | Carvana discovery production 2 | 🟠 |
@@ -217,7 +241,7 @@ Based on context reconstruction (proposals failed 3x on API overload):
 | # | Prediction | Status |
 |---|------------|--------|
 | 1 | 4th fraud case confirmed | ✅ **CONFIRMED** — MFS UK, Feb 26, 2026 |
-| 8 | BDC redemptions trigger gate | 🟠 **PARTIAL** — BCRED 7.9% > 5% cap; not hard-gated yet |
+| 8 | BDC redemptions trigger gate | ✅ **CONFIRMED** — MS North Haven = first hard gate (Mar 11); Blue Owl forced $1.4B sale |
 | 24 | Carvana 10-K delayed or GT resign | ❌ Filed; no GT resignation (partial miss) |
 | 25 | First Brands converts to Ch. 7 | ⏳ Status unclear — need PACER check |
 | NEW | APO class action filed (May 10 2021–Feb 21 2026); lead deadline May 1, 2026 | 🟠 ACTIVE |
