@@ -70,11 +70,14 @@ Scenario C, War Day 14. Brent $101.07. Account ~$57K (+187%).
 4. **HY OAS Monday FRED update** — Mar 13 data releases Mar 16. Could flip LIQ-01.
 
 ### Agent Recon (remaining batches)
-5. **Batch 3: CARL + LABOR** — next up. Both have Thu claims catalyst.
-6. **Batch 4: BRENT + HAWK** — oil + geopolitical. War Day 14, Kuwait curtailment Fri.
-7. **Batch 5: REGINALD + BROCK** — banks + private credit. Earnings approaching.
-8. **Batch 6: MARCO + OTTO** — migration + auto DQ.
-9. **Batch 7: HANS** — Europe. Stage 1 only may be sufficient.
+✅ **Batch 1: HENRY + LIQUID** — DONE (Stage 1 + Stage 2)
+✅ **Batch 2: SAM + ZHAO** — DONE (Stage 1 + Stage 2)
+✅ **Batch 3: CARL + LABOR** — DONE (Stage 1 + Stage 2)
+✅ **Batch 4: BRENT + HAWK** — DONE (Stage 1 + Stage 2)
+✅ **NEXUS synthesis** — DONE
+5. **Batch 5: REGINALD + BROCK** — NEXT. Banks + private credit. Earnings approaching.
+6. **Batch 6: MARCO + OTTO** — migration + auto DQ.
+7. **Batch 7: HANS** — Europe. Stage 1 only may be sufficient.
 
 ### Research/System (from prior session, still open)
 10. **Ceasefire unwind playbook** — low urgency given escalation, but needed eventually
