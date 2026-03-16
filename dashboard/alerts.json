@@ -493,5 +493,14 @@
     "message": "VIX breached 25 (now 25.06)",
     "value": 25.06,
     "threshold": 25
+  },
+  {
+    "id": 1773669055673,
+    "timestamp": "2026-03-16 13:50:55 UTC",
+    "type": "threshold",
+    "severity": "info",
+    "message": "VIX recovered (now 24.69, threshold 25)",
+    "value": 24.69,
+    "threshold": 25
   }
 ]
