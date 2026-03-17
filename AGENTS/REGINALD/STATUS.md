@@ -1,5 +1,136 @@
 # REGINALD STATUS
-**Last Updated:** 2026-03-16 20:15 UTC | **Status:** 🔴🔴🔴 CRITICAL — Relief rally day (SPX +1%, oil crashed on Bessent Hormuz de-escalation). KW SILENCE DAY 4 post-deadline. FOMC starts TOMORROW. Private credit narrative EXPLODING: Apollo Zito "all the marks are wrong," Fortune "$265B meltdown," FT confirms $10.1B Q1 retail withdrawals. BlackRock restricted HPS Lending Fund withdrawals. Epstein class action filed vs APO.
+**Last Updated:** 2026-03-17 16:00 UTC | **Status:** 🔴🔴🔴 CRITICAL — Florida foreclosures +35% YoY (12th consecutive month). Housing at GFC-trough levels WITHOUT recession. Two distinct bank failure channels now mapped: CRE transmission (OZK/WAL — our targets) vs PC/NDFI transmission (Stifel/First-Citizens/Axos). UWMC/TWO merger failed. BX rotating out of CRE. Relistings record high.
+
+---
+
+## 🚨 MAR 17 UPDATE — HOUSING AT GFC LEVELS / DUAL FAILURE CHANNELS / FL FORECLOSURE ACCELERATION
+
+**Filed:** 2026-03-17 16:00 UTC
+
+### Signal Intake Summary (SIG-2026-03-17-001 through 005)
+
+| Signal | Key Fact | Thesis Impact |
+|--------|----------|---------------|
+| SIG-001 | FL foreclosures: completed +35% YoY, 12th consecutive increase; Lakeland 1/1,075 (worsening) | 🔴🔴 ACCELERATING — banks processing losses NOW |
+| SIG-002 | UWMC/TWO merger failed ($25M breakup, MSR $2.4B no buyer); BX rotating CRE→logistics/data; relistings 44,698 record high (+167% since 2022) | 🔴 M&A can't clear distressed mortgage assets; smart money fleeing |
+| SIG-003 | Pending home sales +1.8% MoM beat (exp. -0.6%) | 🟡 COUNTER-SIGNAL — pre-oil-shock Feb data; backward-looking |
+| SIG-004 | Google Trends "can't sell house" ALL-TIME HIGH (surpassing 2008); existing sales at 2008 GFC trough levels WITHOUT recession; FL SARE Ch.11 Brandon/Tampa 15-unit MF | 🔴🔴 STRUCTURAL — we're AT GFC distress as a baseline, not destination |
+| SIG-005 | NDFI/PE map: Stifel 22%, First-Citizens 15%, Axos 12% highest; OZK ~0.5%, WAL ~0.2% LOWEST | 🔴🔴 NEW FRAMEWORK — two distinct failure channels now confirmed |
+
+---
+
+### 🔴🔴 KEY INSIGHT: DUAL BANK FAILURE CHANNEL MAP
+
+**This is the most analytically significant development from today's signals.** The WGA NDFI/PE chart confirms our targets fail from CRE, NOT from private credit. This enables precise targeting:
+
+**Channel A — CRE Transmission (Our Targets):**
+| Bank | NDFI/PE % | Primary Stress Vector |
+|------|-----------|----------------------|
+| OZK | ~0.5% | CRE construction 37.6% hidden; 2022 vintage hard maturity Q1-Q3 2026 |
+| WAL | ~0.2% | CRE 24.2% hidden + Jefferies charge-off + CFO crisis hire + Cantor appraisals |
+| EGBN | N/A (not on chart) | CRE 547% capital, DC corridor federal job losses |
+| ZION | N/A | MUNI + CRE stress |
+
+**Channel B — PC/NDFI Transmission (Different Failure Mode):**
+| Bank | NDFI/PE % | Watch For |
+|------|-----------|-----------|
+| Stifel Bank | ~22% | First-order PE fund defaults → loan impairment |
+| First-Citizens (FCNCA) | ~15% | ⚠️ Also holds SVB legacy assets — DUAL exposure: PC + SVB CRE |
+| Axos Bank | ~12% | PC/NDFI stress |
+| CIBC Bank USA | ~10% | PC transmission |
+
+**Strategic implication:** We are correctly positioned on CRE channel banks. The PC/NDFI channel banks (Stifel, First-Citizens, Axos) are a SEPARATE trade we haven't initiated. First-Citizens warrants monitoring — it has BOTH SVB legacy CRE AND high NDFI/PE exposure (~15%), which could make it a dual-channel failure candidate.
+
+---
+
+### 🔴🔴 FLORIDA FORECLOSURE ACCELERATION (SIG-001)
+
+**ATTOM February 2026 data:**
+- Completed foreclosures: **4,077** (+35% YoY) — **this is the bank-relevant metric**. Extend-and-pretend is failing. Actual charge-offs hitting.
+- 12th consecutive month of YoY increases — GFC slow-grind template confirmed
+- Lakeland FL: **1 in 1,075 homes** (worsening from 1/1,262 in Jan) — distress DEEPENING, not stabilizing
+- FL has 16 of 50 most vulnerable counties (most of any state)
+- National: 38,840 in foreclosure process (+20% YoY despite -4% MoM)
+
+**Bank thesis update:** +35% completed foreclosures = the pipeline is converting into real loss events. This is the timing signal for when charge-offs hit bank books. Map Polk County (Lakeland) and Charlotte County (Punta Gorda) against OZK/WAL/EGBN call report loan concentrations.
+
+**Action item:** Cross OZK/WAL Florida CRE concentrations against ATTOM hotspot map. VLY and SSB (FL GEO exposure) also flagged.
+
+---
+
+### 🔴🔴 HOUSING AT GFC-TROUGH BASELINE (SIG-004)
+
+**Three converging signals:**
+
+1. **Google Trends "can't sell house" — ALL-TIME HIGH**, surpassing 2008-09 peak. This is real-time seller distress, not lagged survey data. It LED in 2007-08. It's leading again.
+
+2. **Existing home sales ~230K (NSA) = 2008 GFC trough** — happening WITHOUT: (a) recession, (b) unemployment spike, (c) credit crisis, (d) forced selling. Jon Brooks/QI Research framing: *"That's the baseline. Now imagine what happens when the real economic stress begins."*
+
+3. **FL SARE Ch.11 (Madisyn on Park LLC):** Brandon/Tampa, 15-unit MF, $1-10M assets. GFC-era entity (2007), reinstated Aug 2025 after corporate lapse. Reorganization plan due July 7. Small, but pattern: GFC-era operators can't survive 2026 conditions.
+
+**Synthesis:** 2008 GFC levels are the STARTING POINT, not the destination. When unemployment cracks (watch >250K claims), we get the next leg down from an already-distressed baseline. This is why OZK/WAL Q1 earnings are critical — we're already AT conditions that historically required recession to produce.
+
+---
+
+### 🟡 COUNTER-SIGNAL LOGGED — PENDING HOME SALES (SIG-003)
+
+- Feb pending home sales +1.8% MoM vs -0.6% exp — significant beat
+- **Assessment:** February data reflects January rate environment (~6.4%, briefly lower). Does NOT capture: (a) oil shock, (b) 6.86% current mortgage rates, (c) surging relistings, (d) consumer sentiment collapse
+- **March pending sales (April release) = the real test.** That captures oil shock + rate spike + the supply surge from 44,698 relistings
+- Log but do NOT overweight. Backward-looking.
+
+---
+
+### 🔴 CRE STRESS TRIFECTA (SIG-002)
+
+**Three simultaneous CRE/housing signals today:**
+
+1. **UWMC/TWO Merger Failed:** Exchange offer rejected, $25M breakup fee. TWO's MSR portfolio at $2.4B fair value — "one wonders if another bid will materialize" (Whalen). **M&A markets cannot clear distressed mortgage assets at current valuations = market dysfunction.**
+
+2. **BX Rotating Out of CRE:** Blackstone selling older CRE assets, rotating to logistics/multifamily/data centers. Smart money flight from traditional CRE confirmed. Validates that current CRE marks are STILL too high.
+
+3. **Home Relistings Record:** 44,698 homes relisted in Jan 2026 (highest since 2016). +167% since 2022. 3.6% of active listings (up from 1.9%). 112,788 delistings in Dec 2025 (sellers who pulled homes now returning into spring). Supply surge into weak demand at 6.86% rates = grinding imbalance.
+
+**Monitoring thresholds:**
+- Relistings as % of active listings >4% = capitulation signal
+- TWO trading below MSR book value = MSR market breakdown indicator
+
+---
+
+### Updated Convergence Channel Status (Post-Mar-17)
+
+| Channel | Status | Delta |
+|---------|--------|-------|
+| CRE (direct) | 🔴🔴 | FL foreclosure completions +35% = losses NOW crystallizing |
+| Hidden CRE (Memo3) | 🔴 | Unchanged |
+| Housing structural | 🔴🔴 NEW | Google Trends ATH + existing sales = 2008 trough WITHOUT recession |
+| NDFI/PC Transmission | 🔴🔴 | Dual channel now mapped; OZK/WAL confirmed CRE-not-PC driven |
+| Private Credit → Bank | 🔴🔴 CRITICAL | Apollo Zito "all marks wrong"; $10.1B Q1 withdrawals; HPS gated |
+| Florida Regional | 🔴🔴 ESCALATED | 16/50 vulnerable counties; Lakeland worsening MoM |
+| MSR/Mortgage Market | 🔴 NEW | UWMC/TWO failure = no buyer for $2.4B MSR = market dysfunction |
+| Stagflation Trap | 🔴🔴 | Unchanged from Mar 16 |
+
+---
+
+### Updated Watch List (Post-Mar 17)
+1. **KW 8-K** — still outstanding; Day 4 silence → likely Day 5+ now critical
+2. **FOMC outcome** — hold expected; Powell presser language on credit conditions
+3. **TWO price** vs MSR book value — MSR market health indicator
+4. **FL SARE Ch.11 filings** — pipeline indicator for Brandon/Tampa metro
+5. **Relistings % of active listings** — watch for >4% capitulation signal
+6. **First-Citizens (FCNCA)** — dual-channel candidate: PC/NDFI 15% + SVB CRE legacy
+7. **OZK Florida loan concentration** — cross against Polk/Charlotte County hotspots
+8. **March pending home sales** (April release) — real test of oil-shock impact
+
+---
+
+### Prediction Updates
+
+| # | Prediction | Update |
+|---|------------|--------|
+| REG-04 | Chicago CRE pattern replicates in Phoenix | Raise confidence to 70% — FL foreclosure pattern suggests broad regional spread |
+| REG-NEW-01 | First-Citizens (FCNCA) emerges as dual-channel stress candidate | New — 60% confidence H2 2026 |
+| REG-NEW-02 | FL SARE Ch.11 filings >10/month by Q3 2026 | New — 65% confidence |
 
 ---
 

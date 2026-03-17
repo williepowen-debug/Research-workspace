@@ -1,13 +1,26 @@
 # BROCK STATUS — Private Credit / Alt Assets / PE / ILS
 
-**Last context:** Mar 17 04:15 UTC. ARES deep dive COMPLETE. Key findings: $66B semi-liquid wealth AUM (69% YoY growth = hot money), Q1 tenders UNREPORTED + emergency town hall Mar 11, Aspida insurance $27.4B (+44% YoY = mini-Athene), FRPR $540M vulnerable to HWM wipeout, software 12% of direct lending (likely understated per ARCC analog). Thesis grade B+. Five deep dives now complete: APO, ARCC, OWL, KKR, ARES.
-**Last updated:** 2026-03-17 04:15 UTC
+**Last context:** Mar 17 16:30 UTC. Seven new signals processed. KEY REFRAME: total bank NDFI exposure is $1.54 TRILLION (FFIEC Q4 2025) — 5x the $300B PE-only estimate. Loss modeling rebuilt. MS 8% base / UBS 15% stress applied to full NDFI universe. OWL UK mortgage insolvency + "irregularities" language = new OWL stress event. MFIC (Apollo BDC) actively choosing buybacks over lending = real-time lending freeze. HY yield 6.95% approaching 7% threshold. PC data center reflexive loop named with OWL ($30B Meta), APO, BX as exposed lenders. Prior context: ARES deep dive COMPLETE. Five deep dives done: APO, ARCC, OWL, KKR, ARES.
+**Last updated:** 2026-03-17 16:30 UTC
 
 ---
 
 ## DASHBOARD
 
 | Metric | Value | Dir | Source |
+|--------|-------|-----|--------|
+| **🔴🔴 REFRAME: Total Bank NDFI Exposure** | **$1.54 TRILLION** (Q4 2025 FFIEC). PE $369B was ONE of FIVE categories. Business Credit $378B, Mortgage $353B, Consumer $148B, Other $292B. Prior model used $300B — actual is 5x larger. | 🔴🔴 | [CONF] FFIEC via BankviewUSA Mar 17 |
+| **MS Base Default Call** | **8%** — direct lending default rate as AI disrupts software. Current ~5.8% PCDR; MS calling for 37% increase from here. | 🔴 | [CONF] Bloomberg/MS Mar 16 |
+| **UBS Stress Default Call** | **15%** — 3x the 2008 bank loan peak (5%). Gayed: "Nobody's talking about this." 339K views. | 🔴 | [CONF] UBS/Gayed Mar 15 |
+| **MFIC (Apollo BDC)** | -27.2% NAV discount. Choosing buybacks over new loans: "allocating capital toward stock repurchases is more accretive than deploying into new investments." Lending freeze in real time. | 🔴🔴 | [CONF] Klymochko Mar 17 |
+| **Zito Recovery Estimate** | 20-40 cents on software loans. Called out "arrogance" in PC. Claims own firm fine (self-serving). | 🔴🔴 | [CONF] WSJ audio Mar 16-17 |
+| **OWL UK Mortgage Insolvency** | Blue Owl tipped UK mortgage lender into insolvency after "irregularities" (= fraud/misrepresentation in borrower books). FT Mar 17. "Irregularities" language = marks more wrong than disclosed. | 🔴🔴 | [CONF] FT Mar 17 |
+| **BDC NAV Discount (Listed)** | **-17%** (Invesco/Bloomberg/Cliffwater, Mar 2). Perpetual BDC repurchases: ~5% Avg Net Assets Q4 2025 — RECORD, worse than 2022 non-recession and approaching COVID. COVID peak: -26%. | 🔴 | [CONF] Invesco Mar 17 |
+| **Whalen WGA NDFI Report** | "Banks quietly loaded up on PC risk. The cycle is now turning." 1920s "permanently high plateau" comparison. Institutional peer validation of thesis. | 🔴 | [CONF] WGA IRA Bank Book Q1 2026 Mar 12 |
+| **PC Data Center Reflexive Loop** | OWL $30B Meta deal (Hyperion campus). APO/BX/BLK/TPG named as DC lenders. AI disrupts SaaS → PC bleeds → PC can't finance AI infrastructure. Unvirtuous cycle. | 🔴 | [CONF] Axios/Primack Mar 17 |
+| **HY Yield** | **6.95%** approaching 7.00% barrier. +55bp in ~2 weeks. Psychological threshold = institutional selling/downgrade cycle trigger. | 🔴 | [CONF] Bloomberg Mar 17 |
+
+**[NEW — Mar 17 signal batch above. Prior table continues below:]**
 |--------|-------|-----|--------|
 | Private Credit Default Rate (Fitch) | **5.8%** PCDR; **9.2%** 2025 cohort (record) | 🔴 ↑↑ | [CONF] Fitch/Reuters Mar 6 |
 | UBS worst-case default estimate | **15%** | 🔴 | [CONF] UBS Mar 4 |
@@ -133,11 +146,31 @@
 
 ## BOTTOM LINE
 
-**🔴🔴 STAGE 2 CONFIRMED + INSIDER ADMISSION — LIQUIDITY EVENT UNDERWAY — Mar 16 EOD.**
+**🔴🔴 STAGE 2 CONFIRMED + INSIDER ADMISSION + EXPOSURE REFRAME — Mar 17 EOD.**
+
+**CRITICAL REFRAME — Mar 17:** Total bank NDFI exposure = $1.54 TRILLION. We were modeling $300B (PE funds only). Actual shadow banking exposure is **5.1x larger**. This rewrites the loss scenarios entirely:
+
+| Scenario | Default Rate | LGD | Estimated Losses | % US Bank Tier 1 |
+|----------|-------------|-----|-----------------|-----------------|
+| MS Base / Standard | 8% | 30% | **$36.9B** | 2.1% |
+| MS Base / Zito | 8% | 65% | **$80.0B** | 4.4% |
+| MS Base / Zito Worst | 8% | 80% | **$98.5B** | 5.5% |
+| UBS Stress / Standard | 15% | 30% | **$69.3B** | 3.9% |
+| UBS Stress / Zito | 15% | 65% | **$150.1B** | 8.3% |
+| UBS Stress / Zito Worst | 15% | 80% | **$184.7B** | 10.3% |
+
+*Prior model (PE only): MS 8% = $14.4B, UBS 15% = $27B — both wildly understated.*
+*2008 US bank loan losses peaked ~$50B for comparison. Zito + UBS stress = 3-4x 2008.*
+
+**High-risk subcategories for AI/software disruption:** PE ($368.6B) + Business Credit ($377.5B) = $746B. Even isolating these: MS 8%/Zito = $38.8B; UBS 15%/Zito = $72.7B.
+
+**HY at 6.95% → 7.00% watch level.** Break of 7% = institutional selling trigger. 55bp blowout in 2 weeks.
 
 **Convergence 45/50 (90%). 9 of 10 vectors RED. 13 of 15 VX indicators RED.** Only Regulatory (🟠) not yet at RED. VX stale cleanup upgraded Insurer Concentration and BXSL NAV from ORANGE→RED.
 
 Apollo's own head of credit (Zito): **"I literally think all the marks are wrong."** Software recoveries "20-40 cents." First insider from major PE firm to admit publicly. This validates the entire mark-to-model thesis. $10B+ Q1 retail outflows confirmed (FT). 5+ fund gates. Ares/Apollo/Oaktree/Goldman Q1 tenders STILL UNREPORTED — more gates imminent. Hagens Berman files Epstein class action = APO now has DUAL legal liability (PC + Epstein, both May 1 deadline). HLEND 19% software. Some funds invested cash reserves in software bonds instead of treasuries (Fortune) — even the "safe" buffer is impaired. FOMC tomorrow.
+
+**Key shift Mar 17 (signal batch):** (13) FFIEC data reframes total exposure: $1.54T vs $300B modeled — 5x underestimate. All prior loss scenarios multiply accordingly. (14) OWL UK mortgage insolvency + "irregularities" = fraud discovery at portfolio level. Confirms "all marks wrong" thesis with real-world forced insolvency. Directly relevant to OWL $9.5P Apr position. (15) MFIC (Apollo BDC) choosing buybacks over loans at -27.2% NAV = active lending freeze signal. (16) PC data center reflexive loop named (OWL $30B Meta + APO/BX as lenders) — AI disrupts the very portfolios that must finance AI infrastructure. Self-reinforcing. (17) Invesco confirms perpetual BDC redemptions at record 5% Q4 2025 — worse than 2022. Approaching COVID trajectory. (18) HY yield 6.95%, 55bp blowout in 2 weeks, approaching 7% psychological barrier. (19) Whalen WGA = institutional peer validation of thesis, 1920s plateau comparison. (20) MS 8% institutional default call = consensus shift; UBS 15% stress now has two banks confirming tail scenario.
 
 **Key shift since Mar 12:** (1) Insider admission — Zito breaks omertà. (2) Gate cascade 4→5+ with HLEND. (3) $10B aggregate retail exodus quantified. (4) Four major firms haven't reported yet. (5) Dual APO legal liability. (6) Moody's quantified $925B bank→PC/PE exposure. (7) Reserves-in-software-bonds revelation = structural liquidity problem, not just sentiment. (8) ARCC 10-K: 23.8% software ($7B) vs "12%" spin — largest BDC more exposed than market knows.
 

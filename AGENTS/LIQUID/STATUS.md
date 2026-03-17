@@ -1,5 +1,39 @@
 # LIQUID STATUS
-**Last Updated:** 2026-03-15 16:30 UTC | **Agent:** LIQUID | **Status:** 🔴🔴 CRITICAL
+**Last Updated:** 2026-03-17 17:31 UTC | **Agent:** LIQUID | **Status:** 🔴🔴 CRITICAL — BUYER OF LAST RESORT CONFIRMED
+
+---
+
+## 🚨 MARCH 17 UPDATE — SIG-2026-03-17-001 PROCESSED
+
+### TREASURY BUYBACK — $15B — LARGEST IN HISTORY (WAR DAY 17)
+
+**Signal:** US Treasury announced $15B debt buyback operation for March 17, 2026.
+- **Surpasses:** Last week's $14.7B (previous record)
+- **Streak:** TWO consecutive record-breaking buybacks
+- **Maturity range:** 04/30/2026 - 03/15/2028 (FRONT-END FOCUSED)
+
+**Interpretation:** Treasury is operating as buyer of last resort for its own debt. This is not a normal liquidity management operation. Two consecutive record buybacks at the front-end — exactly where RRP buffer is gone and foreign selling is concentrated — signals acute demand failure that the primary dealer system cannot absorb.
+
+**Why front-end matters here:**
+1. RRP at $0.278B = zero overnight buffer. Front-end stress is uncontained.
+2. Foreign selling thesis (FLOW-ZHAO-12: $50-90B/mo) hits 2Y-3Y maturities hardest — exactly this maturity bucket.
+3. FOMC Day 1 today — Fed held. Treasury stepped in instead. Policy coordination signal or desperation signal — both are bearish for front-end demand sustainability.
+4. TIC data releases TOMORROW (Mar 18) — will show January Japanese/Chinese flows. Treasury may be front-running a bad TIC print.
+
+**Stress environment context (multi-agent):**
+- Gulf production 6.8-7.0 mbpd offline → fiscal pressure on Gulf anchor sellers (BRENT signal)
+- USD risk reversals +92bps → foreign FX hedging costs rising = more USD selling pressure (SAM signal)
+- Retail investor fatigue: UST purchases -30% → domestic demand also degrading (HENRY signal)
+- HY yield at 6.95% → credit spreads elevated; LIQ-01 proximity (confirm OAS via FRED)
+
+**LIQ-01 UPDATE:**
+- Prior confirmed: HY OAS 317bps (Mar 12 FRED) — 3bps BELOW 320bps trigger
+- HY yield 6.95% signal received today. With 10Y at 4.23%, rough implied spread ~270bps (yield-based, not OAS). This appears below OAS threshold — but OAS uses different duration methodology. FRED BAMLH0A0HYM2 Mar 13-17 data required for official LIQ-01 determination.
+- Working assessment: LIQ-01 trigger probability ELEVATED given multi-channel stress, but not confirmed without FRED pull. Pull at next LIQUID session.
+
+**Thesis status:** UPGRADED. Treasury buying back its own debt at record scale IS the demand hole thesis made visible. This is not a leading indicator — this is the event itself. The demand hole ($50-90B/mo foreign selling) is now large enough that Treasury must intervene in its own auction aftermarket.
+
+---
 
 ---
 
@@ -162,9 +196,9 @@ TIC (Treasury International Capital) reports January 2026 foreign holdings of US
 | SOFR | **3.65%** | Mar 12 | CONF FRED (released Mar 13) |
 | RRP | **$0.278B** | Mar 10 | CONF FRED — BUFFER GONE |
 | CPI Feb | 2.4% headline / 2.5% core | Mar 11 CONF BLS | In-line. "Calm before storm" — March print will embed oil shock |
-| 10Y | ~4.16% | Mar 11 | CONF — bear steepening; toward 4.16% threshold |
-| 30Y | 4.72% | Mar 9 FRED | CONF — stagflation trap. Sovereign yields all +40bps since war |
-| 2Y | 3.588% | Mar 10 | CONF CNBC |
+| 10Y | **4.28%** | Mar 15 | CONF — Mariemont Capital; 77th %ile; +14bp WoW |
+| 30Y | **4.91%** | Mar 15 | CONF — Mariemont Capital; 95th %ile (EXTREME); +15bp WoW |
+| 2Y | **3.72%** | Mar 15 | CONF — Mariemont Capital; +16bp WoW |
 | Oil (WTI) | $108 (high $119 on Mar 9) | Mar 11 | WAR PREMIUM. +40% since outbreak |
 | MBS spread | 165bps over Tsys | Mar 11 | CONF — no flight-to-quality. Spread widening in progress |
 | HYG price | **$79.20** | Mar 14 close | CONF investing.com. Jun $75P OTM by $4.20. |
@@ -224,11 +258,11 @@ BCRED $3.8B redemptions (7.9%) met via self-injection in Q1. Q2 = structural tes
 
 | Window | Risk |
 |--------|------|
-| **March 16 (Mon)** | FRED HY OAS Mar 13 data releases. If ≥320bps → LIQ-01 TRIGGERED → signal HENRY + SAM. Also: SOFR Mar 13-14 data. FOMC begins. |
-| **March 18 (Wed)** | FOMC decision 2:00 PM ET + presser 2:30 PM. TIC Jan 2026 expected to release (~same day). |
-| **March 19 (Thu)** | 🔴🔴 **MAXIMUM DENSITY RISK WINDOW**: 20Y bond auction ($13B) + BOJ decision (hold expected). 20Y settles Mar 31 = quarter-end. |
+| **March 17 (TODAY)** | 🔴🔴 $15B BUYBACK FIRED — LARGEST EVER. Treasury = buyer of last resort. FOMC Day 1. Retail demand -30%. USD risk reversals +92bps. Gulf production 6.8-7.0 mbpd offline. Full multi-channel stress event live. |
+| **March 18 (Tue)** | 🔴🔴 **CRITICAL**: FOMC decision 2:00 PM ET + presser 2:30 PM ET. **TIC Jan 2026 data releases** — will show Japan/China January flows. If TIC weak + buyback record = demand hole thesis confirmed in hard data. Same-day policy + data = maximum volatility. |
+| **March 19 (Thu)** | 🔴🔴 **MAXIMUM DENSITY RISK WINDOW**: 20Y bond auction ($13B) + BOJ decision (hold expected). 20Y settles Mar 31 = quarter-end. After back-to-back record buybacks, weak 20Y BTC would be devastating signal. |
 | **Now → Mar 31** | 🔴🔴 DIFC OPERATIONAL DISRUPTION — Citi + StanChart evacuated Dubai. HSBC closed Qatar. No RRP buffer. Discount window usage rising. Quarter-end approaching. |
-| **March 31** | Quarter-end. 20Y settlement. Zero RRP buffer = no shock absorbers. |
+| **March 31** | Quarter-end. 20Y settlement. Zero RRP buffer = no shock absorbers. Treasury intervention required again? |
 | **April** | Tax season TGA drain. Trump-Xi summit (FOI pre-positioning). |
 | **~Apr 20-25** | Japan March trade balance release. JKM $15.495/MMBtu = crisis pricing embedded in Q1 import costs. Confirmation of Japan trade deficit → life insurer repatriation → UST selling → auction tails. Watch for acceleration of Japan anchor selling. |
 | **May** | Powell term ends. Warsh transition = intervention willingness degradation. |
