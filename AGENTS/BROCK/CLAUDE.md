@@ -183,7 +183,8 @@ Every STATUS.md update must end with a `## BOTTOM LINE` section: 2-4 sentences. 
 | File | Purpose |
 |------|---------|
 | `STATUS.md` | Live dashboard — convergence matrix, catalysts, watchlist, exit rules. **Primary memory.** ≤250 lines. |
-| `TRADE.md` | Trade targets derived from BROCK analysis — tickers, instruments, catalysts, conviction |
+| `trade/TRADE.md` | Trade targets derived from BROCK analysis — tickers, instruments, catalysts, conviction |
+| `trade/NAMES.md` | Tiered key names list — who matters for trading, why, and how they connect. Change log tracks promotions/demotions. |
 | `LESSONS.md` | Mistake patterns, data corrections, verification rules |
 | `EXPECTED_SIGNALS.md` | Signal interpretation guide — methodology and thresholds ONLY, no live data |
 | `workbook/VX.tsv` | Tracked vectors with thresholds and state (13 cols, HENRY standard) |
