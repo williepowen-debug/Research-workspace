@@ -1,9 +1,9 @@
 # HAWK STATUS
 
-**Last Updated:** 2026-03-15 19:10 UTC (STAGE 2 LIVE SEARCH)
-**Overall Status:** 🔴🔴 RED-RED — US-IRAN WAR DAY 15 / SCENARIO C BASE CASE EXTENDED / ALL FOUR GULF PRODUCERS CURTAILING / DIFC KINETICALLY HIT / KHARG ISLAND STRUCK / HEZBOLLAH ACTIVATED / NUCLEAR PROGRAM DEGRADED
+**Last Updated:** 2026-03-17 15:30 UTC (SIG-2026-03-17-001 + SIG-2026-03-17-002 PROCESSED)
+**Overall Status:** 🔴🔴 RED-RED — US-IRAN WAR DAY 17 / SCENARIO C/D THRESHOLD CROSSED / UAE CIVILIAN + EXPORT INFRASTRUCTURE DESTROYED / ADNOC 50%+ SHUT-IN / FUJAIRAH BYPASS ELIMINATED / KENT RESIGNATION = POLITICAL FRACTURE BEGINS
 
-**Summary [Mar 15 STAGE 2 UPDATE]:** ALL FOUR MAJOR GULF PRODUCERS NOW CURTAILING (Iraq 3M bpd, Kuwait force majeure Mar 7, UAE, Saudi 2M bpd Mar 13 = 6.7M+ bpd combined). DIFC KINETICALLY HIT Mar 13 (Iranian drone, building facade damaged) — LIQUID trigger has fired. HEZBOLLAH ACTIVATED against Israel (NYT Mar 12) despite LAF disarmament efforts — Scenario D probability elevated. US STRUCK KHARG ISLAND (Mar 13-14) "obliterating military targets" and threatening oil infrastructure next — coercive escalation approaching final threshold. IRAN'S NUCLEAR PROGRAM SET BACK YEARS (ISIS assessment: Natanz majority centrifuges destroyed, Fordow damaged, Esfahan complex facilities destroyed). Iran attack tempo CONTINUING: Sohar Oman hit Mar 13 (2 killed), Saudi 51 drones intercepted Mar 13, Fujairah energy installation hit Mar 14, Camp Arifjan (Kuwait) hit with 2 missiles. PARTIAL HORMUZ DIPLOMATIC SIGNAL: Iran "open to talk about safe passage" — first non-zero signal but both sides still refusing formal talks. Qatar LNG CEO: NO restart until conflict ends completely — May Taiwan/Japan procurement gap CONFIRMED. India asking China for urea (Week 2-4 drawdown phase active). Scenario probabilities REVISED: **C=58%, D=25%, B=17%**. Scenario D elevated significantly on Hezbollah activation + Kharg escalation ladder.
+**Summary [Mar 17 CRITICAL UPDATE — SIG-001 + SIG-002]:** ESCALATION HAS CROSSED A STRUCTURAL THRESHOLD. New events since Mar 15: (1) ADNOC Shah Gas Plant (world's largest ultra-sour gas facility, 1.28-1.45 Bscf/d) struck by drone; (2) Dubai International Airport fuel tank hit, flights suspended — SECOND aviation hub attack; (3) ADNOC has SHUT IN >50% of crude output — not transit disruption, production curtailment; (4) Fujairah oil terminal (3rd largest globally) hit, operations suspended — BYPASS ROUTE ELIMINATED; (5) Fertiglobe (6.6M tonnes/yr nitrogen fertilizer) now fully export-locked behind mined, uninsured Hormuz; (6) C-RAM engaging Iranian drones at US Embassy — US personnel under active drone attack; (7) **NCTC Director Joseph Kent resigned** — letter: "Iran posed no imminent threat; we started this war due to pressure from Israel lobby." Gold Star husband, 11 combat deployments. First senior IC official to publicly break. **KEY STRUCTURAL INSIGHT (Perera):** "ADNOC shut-ins are NOT from direct oil facility hits — they're because production without export capacity is a liability. When you cannot ship it, you stop pumping it." This means **reopening Hormuz does NOT immediately restart supply. Production restart timeline extends months.** Scenario A exit protocol now requires ADNOC restart + Fujairah repair + mine clearance + insurance reinstatement = minimum 3-6 months after ceasefire even in best case. Scenario probabilities REVISED: **C=48%, D=42%, B=10%**. D approaching parity with C — this is the highest D probability since war began.
 
 **Summary [Mar 11 CRITICAL update]:** ACTIVE MINE WARFARE PHASE ENTERED. US destroyed 16 Iranian minelaying vessels overnight. Dubai International Airport hit by Iranian drones (4 wounded, flights continuing). Iran declares banks and financial institutions as military targets — DIFC, Saudi banks, Bahrain all named (new threat vector). Iran vows "not a single liter" of oil to enemies (maximalist leadership posture). 7 US KIA, 140 wounded. Bulk carrier struck Mar 11 (3rd attack of day, off UAE). Hudson confirms 13M bpd STRUCTURAL GAP — pipeline bypass capacity 7M bpd max vs 20M bpd Hormuz normal. CRU (authoritative): 47% of global sulphur, 43% of urea at risk — "industry in paralysis." Scenario probabilities: **C=60%, D=18%, B=22%**. Oil trajectory: $120-150+ confirmed range with 4-6+ month duration base case. Financial infrastructure targeting opens new LIQUID contagion pathway.
 
@@ -14,6 +14,26 @@
 ## 🔴🔴 SITUATION 1: US-IRAN WAR (Day 11-12)
 
 ### Current State (Mar 11) [Updated Mar 11 13:57 UTC] — CRITICAL OVERNIGHT DEVELOPMENTS
+
+**[NEW Mar 17 CRITICAL] KEY DEVELOPMENTS Mar 16-17 (SIG-001 + SIG-002):**
+
+**UAE CIVILIAN + ENERGY INFRASTRUCTURE SYSTEMATICALLY DESTROYED:**
+- **ADNOC Shah Gas Plant STRUCK** — world's largest ultra-sour gas facility (1.28-1.45 Bscf/d, 4.2M tpa sulphur). Fire "brought under control" per Abu Dhabi Media Office but structural damage unassessed. Shah is not replaceable — no spare ultra-sour processing capacity globally at this scale.
+- **Dubai International Airport** — drone struck fuel tank. Flights SUSPENDED. World's busiest international hub (~90M passengers/year). Second aviation attack (first was Mar 11, wounds only, flights continued; this attack suspended operations entirely). Aviation insurance for UAE routes now in acute crisis.
+- **ADNOC SHUT IN >50% OF CRUDE OUTPUT** — Perera key insight: this is NOT damage from direct facility strikes. This is economic logic: production without export capacity is a liability. When you cannot ship, you stop pumping. This changes the entire recovery math — Hormuz reopening doesn't restart supply. Production restart requires: well reactivation (weeks), pipeline pressurization, quality certification, loading infrastructure repair. **Timeline: months, not days.**
+- **Fujairah oil terminal SUSPENDED** — 3rd largest oil storage and carrier loading facility globally. Fujairah was the PRIMARY BYPASS ROUTE for UAE crude that bypassed Hormuz (UAE ADCO Fujairah pipeline, ~1.5-2M bpd capacity). Iran has now systematically targeted both the Hormuz transit route AND the bypass. There is no remaining export pathway for UAE crude at scale.
+- **Fertiglobe (UAE) FULLY TRAPPED** — 6.6M tonnes/yr nitrogen fertilizer, entire export volume locked behind mined, uninsured, unescorted Hormuz. No insurance, no escort, no alternative port now that Fujairah is suspended. Spring planting window is NOW. This is a direct food security trigger on top of existing urea shortage.
+
+**US PERSONNEL UNDER DIRECT ATTACK:**
+- **C-RAM systems engaging Iranian one-way drones at US Embassy** — this is active point defense against inbound threats at a major diplomatic post. US service members firing C-RAM = kinetic engagement defending US soil equivalent. This is NOT a near-miss; this is a battle for a US installation.
+- Historical precedent: When US Embassies fall under sustained drone assault requiring active C-RAM deployment, escalation ladders typically accelerate (Kabul, Baghdad patterns).
+
+**POLITICAL FRACTURE — KENT RESIGNATION:**
+- Joseph Kent, Director of National Counterterrorism Center (NCTC), resigned Mar 17.
+- Letter to President Trump: "Iran posed no imminent threat to our nation, and it is clear that we started this war due to pressure from Israel and its powerful American lobby." Draws explicit parallel to Iraq.
+- Kent credentials: Gold Star husband, 11 combat deployments, served under both parties. Not a partisan figure — harder to dismiss than a political appointee.
+- This is the FIRST SENIOR INTELLIGENCE OFFICIAL to publicly break. The NCTC Director has access to the full intelligence picture — his statement that Iran posed "no imminent threat" directly undermines the public rationale for war.
+- See **POLITICAL SUSTAINABILITY** section below for full modeling.
 
 **[NEW Mar 15 STAGE 2] KEY DEVELOPMENTS Mar 12-15:**
 
@@ -63,6 +83,14 @@
 - ISW Mar 12: IRGC vs Artesh fractures amid supply shortages.
 - Hegseth Mar 13: Ballistic missile production "functionally defeated."
 - Iran shifting to drone-heavy, proxy, minelaying tactics as missiles deplete.
+
+**SCENARIO PROBABILITY REVISION (Mar 17) — MAJOR REASSESSMENT:**
+
+| Scenario | Prob (Mar 15) | Prob (Mar 17) | Change | Rationale |
+|----------|--------------|--------------|--------|-----------|
+| **B — Sustained** | 17% | **10%** | ↓7% | Fujairah bypass eliminated, Dubai Airport suspended, Kent resignation — de-escalation path now requires rebuilding destroyed infrastructure. No "quick out" scenario left. |
+| **C — Full Escalation** | 58% | **48%** | ↓10% | C probability drops not because scenario improved but because D absorbs probability mass. C still base case but C/D boundary is blurring. |
+| **D — Collapse/Nuclear** | 25% | **42%** | ↑17% | Highest D reading since war began. Drivers: (1) Fujairah bypass eliminated = Iran systematically closing all exit ramps; (2) US Embassy C-RAM = direct battle at US installation; (3) Kent resignation = first IC break = war legitimacy narrative cracking; (4) ADNOC 50%+ shut-in = GCC economic crippling; (5) Dubai Airport suspended = civilian aviation fully targeted; (6) No diplomatic off-ramp visible. C/D now in near-parity. |
 
 **SCENARIO PROBABILITY REVISION (Mar 15):**
 
@@ -164,14 +192,58 @@
 
 | Scenario | Prob | Duration | Oil (Brent) | VIX | Market |
 |----------|------|----------|-------------|-----|--------|
-| **A — Surgical** | 0% | Window closed | N/A | NA | War Day 11+ with active kinetic mine warfare underway |
-| **B — Sustained** | 22% ↓↓ | Weeks-months | $85-105 | 30-38 | Requires Iran to stand down; contradicted by "not a single liter" + mine warfare |
-| **C — Full Escalation** | 60% BASE ↑ | **4-6+ months** ↑↑ | $105-160 ↑ | 40-55 | 13M bpd structural gap (Hudson). Active mine warfare. Financial infra targeted. Duration floor rising. |
-| **D — Collapse/Nuclear** | 18% ↑↑ | Unknown | $150+ | 60+ | Financial infra attacks + mine warfare + US KIA + "not a single liter" = highest escalation plateau yet |
+| **A — Surgical** | 0% | Window closed | N/A | NA | War Day 17+; Fujairah + ADNOC destroyed = no fast binary exit |
+| **B — Sustained** | 10% ↓↓↓ | Months (min) | $90-115 | 35-45 | Requires Iran to stand down AND infrastructure rebuild. Previously: "weeks-months." Now: months minimum regardless of ceasefire. |
+| **C — Full Escalation** | 48% BASE ↓ | **6-12 months** ↑↑ | $120-170 ↑ | 45-65 | 13M bpd gap + ADNOC 50%+ shut-in + Fujairah bypass eliminated + production restart months away. Duration floor extended significantly vs Mar 15. |
+| **D — Collapse/Nuclear** | 42% ↑↑↑ | Unknown | $150-200+ | 65+ | Fujairah bypass gone + US Embassy C-RAM + Kent resignation + Dubai Airport suspended = near-parity with C. Key risk: chaotic US withdrawal could itself produce D outcomes. |
 
-*Revised Mar 11: C raised to 60%, D raised to 18% (financial infrastructure declared target + active kinetic mine warfare + US KIA). B collapsed to 22% — escalation plateau makes de-escalation politically very hard. Oil price ceiling raised to $160 in C scenario (13M bpd structural gap + duration extension). "Reverse Ukraine" indefinite closure now primary tail.*
+*Revised Mar 17: D raised to 42% (HIGHEST SINCE WAR START) — Fujairah bypass elimination, US Embassy C-RAM, Kent resignation are D-category breaks. C narrows to 48% — C/D now in near-parity. B collapses to 10% — no rapid exit path remaining. Oil ceiling raised to $170 in C scenario (ADNOC production restart extends duration; structural gap grows).*
+
+---
+
+## 🔴 POLITICAL SUSTAINABILITY MODEL (NEW — SIG-2026-03-17-002)
+
+### Kent Resignation — War Legitimacy Fracture
+
+**Event:** NCTC Director Joseph Kent resigned Mar 17. Letter publicly released.
+**Key Claim:** "Iran posed no imminent threat to our nation." Draws Iraq parallel. Blames Israel lobby.
+**Kent's credibility vector:** Gold Star husband + 11 combat deployments + NCTC director = maximum insider credibility. This is not a political figure. This is a wartime operator who held the intelligence picture.
+
+**Why this matters structurally:**
+- **Narrative attack:** The administration's core justification for war (imminent threat) has been publicly contradicted by the person who ran counterterrorism intelligence. This is the Pentagon Papers pattern.
+- **Cascade risk:** Senior officials in IC/DOD often move in clusters. One credible resignation lowers the social cost of the next. Pattern from Iraq: first break (Powell regret), then cascade (multiple resignations over 2-3 years). This conflict is moving faster.
+- **Gold Star credential:** Administration cannot dismiss Kent as partisan or cowardly. His letter is calibrated for maximum political damage.
+- **Israel lobby framing:** Explicitly names AIPAC-adjacent dynamics. This opens a specific domestic political debate — already live in some congressional factions.
+
+**Political Sustainability Timeline Model:**
+
+| Phase | Timeframe | Condition | Probability |
+|-------|-----------|-----------|-------------|
+| 1 — Admin holds | Now–April | Dismisses Kent, rallies support, "supporting our troops" messaging | 85% |
+| 2 — Additional breaks | April–May | 1-2 more senior officials resign or leak; congressional hearings threatened | 60% |
+| 3 — Approval collapse | May–July | War polling below 40%; congressional dissent coalition forms; midterm calculus flips | 35% |
+| 4 — Withdrawal signal | June–August | Administration shifts to "mission accomplished" framing, seeks exit ramp | 20% |
+| 5 — Chaotic withdrawal | Aug–Nov | Forced by political reality, not strategic choice; itself destabilizing | 10% |
+
+**Key Dependencies:**
+- US casualty rate (currently 7 KIA, 140 wounded — low for war of this scale; higher casualties accelerate timeline)
+- Economic pain at consumer level (gas $4.86/gal → $5.50+ accelerates)
+- Additional IC/DOD resignations (watch for: CENTCOM staff, DIA leadership, CIA senior analysts)
+- Congressional Republicans breaking (currently unified; watch Rand Paul, fiscal hawks)
+- Midterm polling begins mattering seriously after Labor Day 2026
+
+**CRITICAL ASYMMETRY:** Withdrawal itself is destabilizing. If war ends chaotically, Iran claims victory, proxies surge, Israel escalates unilaterally. The "exit = resolution" assumption embedded in Scenario B is now broken. Political collapse could produce Scenario D outcomes even while attempting de-escalation.
+
+---
 
 ### Escalation Indicators — Watch NOW
+- ✅ **ADNOC SHAH GAS PLANT HIT Mar 16** — world's largest ultra-sour facility; structural gas supply loss (SIG-001)
+- ✅ **DUBAI AIRPORT FUEL TANK HIT Mar 17** — second strike, flights suspended; civilian aviation fully targeted (SIG-002)
+- ✅ **ADNOC 50%+ SHUT-IN Mar 17** — production curtailment (not transit); restart timeline MONTHS not days (SIG-002)
+- ✅ **FUJAIRAH BYPASS ELIMINATED Mar 17** — 3rd largest terminal suspended; UAE has NO viable export pathway (SIG-002)
+- ✅ **FERTIGLOBE TRAPPED Mar 17** — 6.6M tpa nitrogen export-locked; spring planting window NOW (SIG-002)
+- ✅ **C-RAM AT US EMBASSY Mar 17** — active drone intercept at US diplomatic installation; US personnel in battle (SIG-002)
+- ✅ **KENT RESIGNATION Mar 17** — NCTC Director breaks publicly; "Iran no imminent threat"; first IC fracture (SIG-002)
 - ✅ Iraq 70% shut-in CONFIRMED Mar 8 — Scenario C trigger HIT
 - ✅ Haifa refinery struck Mar 7 — energy infra bidirectional
 - ✅ 22 fires at Iran missile/drone facilities — regime degradation underway
@@ -257,19 +329,41 @@
 
 ---
 
-## EXIT RULES (FALSIFICATION)
+## EXIT RULES (FALSIFICATION) — UPDATED MAR 17
 
 ### Thesis Kill (exit 100% geopolitical overlay)
-- Ceasefire signed + Hormuz reopens + Brent returns to $75 within 48h
+- **[UPDATED]** Ceasefire signed + Hormuz mine clearance complete (weeks minimum) + Fujairah terminal repaired + ADNOC production restart (months) + insurance reinstatement + Brent normalization below $80
+- Previous: "Ceasefire + Hormuz reopens + $75 within 48h" — THIS IS NOW INVALID. The Perera insight breaks the binary: reopening Hormuz is necessary but insufficient. Production restart adds 3-6 months minimum to normalization timeline.
+- The "23-minute algo unwind" on ceasefire news still fires on headlines, but the FUNDAMENTAL commodity recovery is months away. Two distinct exit windows now exist: (1) headline trade on ceasefire (days), (2) fundamental normalization (3-6 months post-ceasefire).
 - Emergency Fed facility (BTFP 2.0) announced
+
+### Scenario A Exit Protocol — FULL REVISED STEPS
+For complete thesis exit (not just headline bounce), ALL required:
+1. Ceasefire signed + credible hold (72h+)
+2. Mine clearance operations begin (USN MCM vessels; 3-6 weeks minimum)
+3. Insurance reinstatement by Lloyd's/P&I clubs (requires mine clearance completion)
+4. Fujairah terminal structural assessment + repair (estimate: 2-4 months)
+5. ADNOC production restart from cold shut: well reactivation, pressurization, certification (estimate: 2-4 months)
+6. Shipping capacity reactivation (vessels that cold-stacked; crews, inspections)
+7. Price normalization lagged by 30-90 days behind physical restart
+**Total minimum normalization timeline: 4-7 months post-ceasefire in best case**
 
 ### Scenario C → B Downgrade
 - Hormuz traffic recovers >50% within 10 days
-- Kuwait/UAE announce no curtailments despite storage pressure
+- Kuwait/UAE announce production restart timelines
+- Fujairah terminal repair begins with security guarantees
 
 ### Scenario B → A Downgrade
 - Back-channel confirmed + ops pause within 72h of opening
 - Trump "mission accomplished" + oil below $80
+- Fujairah repair complete + ADNOC restart confirmed
+
+### Scenario D Indicators (NEW — watch for CONFIRMATION)
+- Additional senior IC/DOD/military resignations following Kent
+- US Embassy evacuated or overrun (C-RAM failure)
+- Trump orders Kharg oil infrastructure strike (was threatened; not yet executed)
+- GCC state (UAE/Saudi) formally requests US ground forces
+- Israel unilateral strike on Iran nuclear remnants
 
 ### Cross-Agent Thresholds
 - Oil below pre-war level 5+ sessions → de-escalation confirmed
@@ -286,6 +380,18 @@ BRENT operational as of Mar 6. Division of labor:
 
 ---
 
-## BOTTOM LINE
+## BOTTOM LINE — REVISED MAR 17
 
-Convergence 43/45 — near-maximum. War Day 10: the Economist (data through Mar 6) confirms regime degradation campaign with 22 missile/drone facility fires and a nuclear site fire Mar 5-6. Iran retaliated against Haifa refinery (Israel's primary fuel source) with Khaibar Shekan ballistic missiles — energy infrastructure is now a bilateral target, which lengthens the conflict timeline. Lloyd's List (A-tier) gives us precise Hormuz data: 46 transits Mar 1-5 vs 561 in Feb, zero large tankers westbound since Mar 3. Nuttall calls it "3x 1973 embargo," Yergin calls it "biggest disruption in history" — consensus is forming around what we've held as thesis. New second-order risk: Gulf sulphur collapse threatens 15% of global copper supply via SX-EW acid chain; if copper supply is destroyed for 12-18 months, grid buildout stalls and the energy transition is delayed — structural oil demand persists longer than consensus models assume. NFP -92K compounds: stagflation trap means Fed can't cut to relieve oil-driven stress. Single most important watch: Saudi Arabia curtailment announcement (next domino after Iraq).
+**Convergence 45/45 🔴🔴 — ABSOLUTE MAXIMUM. War Day 17.** 
+
+Three structural breaks since Mar 15 that change the entire recovery math:
+
+**1. The Perera Production Break.** Markets have priced Hormuz as a transit problem. Reopen the strait, restart the flow. This is WRONG. ADNOC's 50%+ shut-in is not from direct facility damage — it's economic logic. Production without export = liability. The production shut-in adds months to normalization even after ceasefire. The "23-minute algo unwind" still fires on headlines, but full commodity normalization is now 4-7 months minimum post-ceasefire. This is the most important single insight in the current signal set.
+
+**2. The Fujairah Bypass Elimination.** Iran has now kinetically targeted BOTH Hormuz transit (mines) AND the UAE bypass route (Fujairah). There is no remaining export pathway for UAE crude at scale. The structural supply gap grows. The duration model extends. This was the last geographic alternative — it's now gone.
+
+**3. The Kent Fracture.** The first senior intelligence official has broken publicly, with maximum credibility (Gold Star + 11 deployments), directly attacking the war's stated casus belli. Political sustainability is now in active question. Timeline: Phase 2 (additional breaks) has ~60% probability by May. If this cascades, it creates a new D-category risk: chaotic withdrawal producing worse outcomes than sustained conflict.
+
+**Scenario D at 42% is the highest reading since war began.** C/D near-parity is the correct probability read given current state. The exit protocol thesis must be bifurcated: (1) headline trade on ceasefire news, (2) fundamental commodity normalization — these are now separated by months, not hours.
+
+**Previous bottom line (Mar 15)** is preserved in archive for comparison.
