@@ -42,6 +42,40 @@ Scenario C, War Day 15. Account $56,887 (+163%). FOMC Day 1. Two thresholds brea
 - **ARES entry:** Waiting for rally to settle. Recommended late today or pre-FOMC tomorrow for better pricing.
 - **Will has more signals to submit after clear.**
 
+- **Signal processing batch (post-clear #2):** 22 MORE signals packaged (27 total today):
+  - HAWK SIG-001: ADNOC Shah drone strike (🔴)
+  - HAWK SIG-002: 🔴🔴 MAJOR — Dubai Airport struck, ADNOC 50% offline, Fujairah suspended, C-RAM at embassy, NCTC Kent resigned
+  - HAWK SIG-003: 🔴🔴 SCENARIO D — Iran attacks Prince Sultan Air Base (Saudi), declares UAE ports "legitimate targets," civilian evacuation warning
+  - BRENT SIG-002: ADNOC/Fujairah 1.8M bpd supply (🔴)
+  - BRENT SIG-003: ADNOC 50% + SK refiners 3 weeks feedstock (🔴)
+  - BROCK SIG-002: Blue Owl UK mortgage insolvency "irregularities" — we hold OWL puts
+  - BROCK SIG-003: MS 8% PC defaults + MFIC -27% NAV buybacks>lending + Zito 20-40¢ recovery
+  - BROCK SIG-004: Banks ~$300B PC exposure map (WFC $59.7B)
+  - BROCK SIG-005: UBS PC defaults could hit 15% (3x 2008 bank peak)
+  - BROCK SIG-006: Invesco BDCs -17% NAV, perpetual repurchases 5% record + Whalen WGA report
+  - BROCK SIG-007: 🔴 FFIEC — TOTAL bank NDFI exposure $1.54 TRILLION (5x our $300B model) + HY yield 6.95%
+  - CARL SIG-003: 30Y mortgage 6.86% (Nov high)
+  - CARL SIG-004: 🔴 China halts fertilizer exports (PREDICTED TRIGGER) + Chicago Fed no real retail growth since Sep
+  - REGINALD SIG-002: UWMC/TWO merger fail + BX CRE rotation + home relistings record
+  - REGINALD SIG-003: Pending home sales +1.8% beat (🟢 counter-signal, backward-looking)
+  - REGINALD SIG-004: Google Trends "can't sell house" ATH + existing sales at 2008 levels + FL Ch.11
+  - REGINALD SIG-005: NDFI PE Funds/Assets bank-by-bank chart (Stifel 22% highest, OZK/WAL low)
+  - SAM SIG-001: USD risk reversals +92bps (3yr high, sharpest reversal on record)
+  - SAM SIG-002: BOJ $680B claim — ⚠️ DEBUNKED (no credible source corroborates)
+  - HENRY SIG-001: JPM retail investor fatigue — purchases -30%, ETFs -22%
+  - OTTO SIG-001: FT auto costs breaking point + RV market 50% crash
+  - LIQUID SIG-001: Treasury $15B buyback (largest ever)
+  - SKIPPED: WTI h² paradox, Karpathy AI jobs treemap, chemicals primer, AJE Fujairah duplicate
+
+- **HAWK + BRENT spawned.** HAWK steered with Saudi PSAB intel (SIG-003 arrived post-spawn).
+- **Both running ~25 min.** Will return findings when complete.
+- **KEY DISCOVERIES THIS BATCH:**
+  - NDFI total exposure $1.54T (was modeling $300B — PE only)
+  - China fertilizer halt = PREDICTED TRIGGER (fertilizer calendar Week 4-6)
+  - UAE = Scenario D territory (Saudi/UAE/Kuwait all under kinetic attack)
+  - HY yield 6.95% approaching 7% psychological barrier
+  - UBS 15% default call = stress scenario, MS 8% = base case
+
 ## OPEN ITEMS (PRIORITY ORDER)
 
 ### Immediate (this session / today)
@@ -86,5 +120,6 @@ APO class actions: May 1
 ```
 
 ## Handoff
-**Last context:** Tuesday Mar 17 ~14:15 UTC (10:15 AM ET). Pre-market session complete. All agents checked in. Two thresholds breached. ARES entry decision pending market open. Everything committed and pushed.
+**Last context:** Tuesday Mar 17 ~15:15 UTC (11:15 AM ET). Massive signal batch processed — 30 signals, 27 packaged across 9 agents. HAWK + BRENT spawned and running. HAWK steered with Saudi PSAB data. All committed.
+**Next session:** Check HAWK/BRENT results. Spawn remaining agents to process their inboxes (BROCK 7 signals, CARL 4, REGINALD 5, SAM 2, HENRY 1, OTTO 1, LIQUID 1). ARES entry still pending.
 **Rhythm:** Will engaged, market open, execution mode. FOMC Day 1.
