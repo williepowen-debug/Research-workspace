@@ -15,6 +15,33 @@
 
 ### Current State (Mar 11) [Updated Mar 11 13:57 UTC] — CRITICAL OVERNIGHT DEVELOPMENTS
 
+**[NEW Mar 17 SCENARIO D UPDATE — SIG-003] KEY DEVELOPMENTS Mar 14 (late-processed):**
+
+**PRINCE SULTAN AIR BASE ATTACKED (Saudi Arabia):**
+- Iran launched attack on Prince Sultan Air Base, near Riyadh, Saudi Arabia.
+- PSAB is described by analysts as "the single most important US base" — the vital connecting node for logistics and refueling across the entire theater. Al-Salti and Israeli bases are the staging grounds; PSAB is the backbone that connects them.
+- Attacking PSAB near Riyadh means Iran has escalated to DIRECT STRIKES ON SAUDI TERRITORY — not just Bahrain, Kuwait, or UAE. Saudi Arabia has been treating itself as a non-belligerent host of US forces. That distinction is gone.
+- **Saudi Entry Risk:** If Saudi Arabia responds militarily after PSAB strike, the war expands to an entirely new coalition. Saudi military has 250K+ active forces, advanced air force. Saudi entry = regional war, not bilateral US-Iran conflict.
+
+**IRAN DECLARES UAE CIVILIAN PORTS LEGITIMATE TARGETS — WITH CIVILIAN EVACUATION WARNING:**
+- Iran's Mizan news agency + Khatam al-Anbiya (air defense HQ) spokesperson: US forces operate from Jebel Ali (Dubai), Khalifa Port (Abu Dhabi), Fujairah port — all declared "potential targets."
+- Iran's legal justification: US launching missiles at Kharg Island "from the cover of ports, docks, and hideouts in UAE cities" — Iran claims right to strike "launch points."
+- **CIVILIAN EVACUATION WARNING ISSUED:** "We ask the Muslim people of the UAE... to evacuate the ports, docks, and American hideouts in UAE cities so that they will not be harmed."
+- **This is the international humanitarian law formality that precedes major strikes.** Pre-strike warnings under IHL are issued when belligerents intend to strike — this is not rhetoric, it is operational signaling. Iran is publishing legal cover for hitting Jebel Ali (world's 9th largest port, 14M TEUs/yr), Khalifa Port, and Fujairah.
+- **What this means:** Dubai's entire port infrastructure — the commercial backbone of the UAE economy — is now on Iran's declared target list. Jebel Ali closure = regional supply chain collapse, not just oil.
+
+**RETALIATION CYCLE CONFIRMED — MUTUAL INFRASTRUCTURE DESTRUCTION:**
+- US struck Kharg Island (~90% of Iran's crude export capacity).
+- Iran retaliated by striking Fujairah (1.8M bpd UAE bypass route, LAST major Hormuz alternative).
+- Reuters + Al Jazeera video confirmed: large smoke plumes from Fujairah oil facility.
+- The mechanism is now locked: every US kinetic escalation generates a GCC infrastructure response. There is no US action that does not produce a Gulf state civilian/energy infrastructure hit. This cycle cannot de-escalate without both sides standing down simultaneously — the least likely diplomatic outcome given current postures.
+
+**FUJAIRAH BYPASS FULLY ELIMINATED — LAST EXIT CLOSED:**
+- Fujairah pipeline carried 1.8M bpd of UAE Murban crude — the primary, highest-capacity Hormuz bypass.
+- Saudi East-West pipeline: 5M bpd max (but Abqaiq-Yanbu capacity constraints).
+- Iraqi Kirkuk-Ceyhan: pre-war 500K bpd, already degraded.
+- Combined bypass capacity was already insufficient vs 20M bpd Hormuz norm. With Fujairah now targeted and suspended, the bypass route math collapses entirely. There is no meaningful alternative export pathway remaining for Gulf crude at scale.
+
 **[NEW Mar 17 CRITICAL] KEY DEVELOPMENTS Mar 16-17 (SIG-001 + SIG-002):**
 
 **UAE CIVILIAN + ENERGY INFRASTRUCTURE SYSTEMATICALLY DESTROYED:**
@@ -84,13 +111,15 @@
 - Hegseth Mar 13: Ballistic missile production "functionally defeated."
 - Iran shifting to drone-heavy, proxy, minelaying tactics as missiles deplete.
 
-**SCENARIO PROBABILITY REVISION (Mar 17) — MAJOR REASSESSMENT:**
+**SCENARIO PROBABILITY REVISION (Mar 17 FINAL — SIG-001 + SIG-002 + SIG-003):**
 
 | Scenario | Prob (Mar 15) | Prob (Mar 17) | Change | Rationale |
 |----------|--------------|--------------|--------|-----------|
-| **B — Sustained** | 17% | **10%** | ↓7% | Fujairah bypass eliminated, Dubai Airport suspended, Kent resignation — de-escalation path now requires rebuilding destroyed infrastructure. No "quick out" scenario left. |
-| **C — Full Escalation** | 58% | **48%** | ↓10% | C probability drops not because scenario improved but because D absorbs probability mass. C still base case but C/D boundary is blurring. |
-| **D — Collapse/Nuclear** | 25% | **42%** | ↑17% | Highest D reading since war began. Drivers: (1) Fujairah bypass eliminated = Iran systematically closing all exit ramps; (2) US Embassy C-RAM = direct battle at US installation; (3) Kent resignation = first IC break = war legitimacy narrative cracking; (4) ADNOC 50%+ shut-in = GCC economic crippling; (5) Dubai Airport suspended = civilian aviation fully targeted; (6) No diplomatic off-ramp visible. C/D now in near-parity. |
+| **B — Sustained** | 17% | **8%** | ↓9% | No viable de-escalation path. Every off-ramp physically destroyed (Fujairah) or politically closed (Kent resignation). Rebuilding from B now requires infrastructure repair measured in months, not agreements measured in days. |
+| **C — Full Escalation** | 58% | **38%** | ↓20% | C probability falls hard as D absorbs mass. The scenario C assumption — "escalation with bounds, Hormuz the primary choke, GCC states preserved as non-belligerents" — is broken. Prince Sultan attack puts Saudi in the war zone. UAE civilian evacuation warnings mean Jebel Ali (world's 9th largest port) is now on the strike list. These are D indicators, not C. |
+| **D — Collapse/Nuclear** | 25% | **54%** | ↑29% | **D IS NOW THE PLURALITY SCENARIO.** Cumulative triggers: (1) Prince Sultan (Saudi) attacked = GCC expansion confirmed; (2) UAE civilian port evacuation warnings = Jebel Ali and Khalifa targeted; (3) Fujairah bypass (1.8M bpd, last exit) eliminated by retaliatory strike; (4) Retaliation cycle locked: US→Kharg, Iran→Fujairah — mutual infrastructure destruction self-perpetuating; (5) ADNOC 50%+ shut-in = production curtailment (months to restart); (6) C-RAM at US Embassy = US personnel under sustained drone assault; (7) Kent resignation = war legitimacy cracking. There is no longer a ceiling visible from the outside. |
+
+**Note on D definition calibration:** D includes (a) full GCC war with Saudi/UAE military entry, (b) Jebel Ali port closure (global shipping collapse), (c) Iranian unconventional/proxy escalation beyond current tempo, (d) US domestic political collapse accelerating chaotic withdrawal, (e) nuclear options re-emerging if Iran perceives existential threat. Not all D outcomes are equally catastrophic — the distribution within D is wide. But the floor of D is now the base case.
 
 **SCENARIO PROBABILITY REVISION (Mar 15):**
 
@@ -237,10 +266,13 @@
 ---
 
 ### Escalation Indicators — Watch NOW
+- ✅ **PRINCE SULTAN AIR BASE (RIYADH) STRUCK Mar 14** — Iran attacks Saudi territory directly; GCC expansion confirmed (SIG-003)
+- ✅ **UAE CIVILIAN PORT EVACUATION WARNING Mar 14** — Jebel Ali, Khalifa, Fujairah declared targets; IHL pre-strike formality (SIG-003)
+- ✅ **RETALIATION CYCLE CONFIRMED Mar 14** — US→Kharg (90% Iran exports) → Iran→Fujairah; loop self-perpetuating (SIG-003)
 - ✅ **ADNOC SHAH GAS PLANT HIT Mar 16** — world's largest ultra-sour facility; structural gas supply loss (SIG-001)
-- ✅ **DUBAI AIRPORT FUEL TANK HIT Mar 17** — second strike, flights suspended; civilian aviation fully targeted (SIG-002)
-- ✅ **ADNOC 50%+ SHUT-IN Mar 17** — production curtailment (not transit); restart timeline MONTHS not days (SIG-002)
-- ✅ **FUJAIRAH BYPASS ELIMINATED Mar 17** — 3rd largest terminal suspended; UAE has NO viable export pathway (SIG-002)
+- ✅ **DUBAI AIRPORT FUEL TANK HIT Mar 16** — second strike, flights SUSPENDED; civilian aviation fully targeted (SIG-002)
+- ✅ **ADNOC 50%+ SHUT-IN Mar 16-17** — production curtailment (not transit); restart timeline MONTHS not days (SIG-002)
+- ✅ **FUJAIRAH (1.8M bpd) BYPASS ELIMINATED Mar 16-17** — last Hormuz alternative; UAE has NO viable export pathway (SIG-002/003)
 - ✅ **FERTIGLOBE TRAPPED Mar 17** — 6.6M tpa nitrogen export-locked; spring planting window NOW (SIG-002)
 - ✅ **C-RAM AT US EMBASSY Mar 17** — active drone intercept at US diplomatic installation; US personnel in battle (SIG-002)
 - ✅ **KENT RESIGNATION Mar 17** — NCTC Director breaks publicly; "Iran no imminent threat"; first IC fracture (SIG-002)
@@ -287,12 +319,12 @@
 | Oil price | 🔴🔴 5 | Brent $90+, Platts +21% since war start; Yergin "biggest disruption in history" | >$100 = confirmed C | Mar 9 |
 | Gulf production | 🔴🔴 5 | Iraq+Kuwait+UAE+Saudi ALL curtailing = 6.7M+ bpd combined | MAXIMUM — all 4 shut | Mar 15 |
 | Hezbollah/proxies | 🔴🔴 5 | Hezbollah ACTIVATED Mar 12 — fired on Israel. IDF Litani ground op planned. 29 attacks/24h. | MAXIMUM | Mar 15 |
-| Diplomatic channels | 🔴 4 | Iran/US both refusing talks despite Oman/Egypt mediation. Iran "open to safe passage" = first limited signal. | Back-channel produces agreement = 2 | Mar 15 |
+| Diplomatic channels | 🔴🔴 5 | Iran/US both refusing talks. Iran issued civilian evacuation warnings (IHL pre-strike formality). No back-channel progress. MAXIMUM. | N/A — ceiling hit | Mar 17 |
 | Shadow fleet / shipping | 🔴🔴 5 | Global routing disrupted; VLCC +201%, LNG carriers +529%; war risk insurance uninsurable | N/A | Mar 9 |
 | Russia-Ukraine energy | 🟠 3 | Druzhba Kaleykino struck Feb 23; Hungary/Slovakia disrupted; revenue -50% YoY | Major new infrastructure strike = 4 | Mar 8 |
 | Global economy | 🔴🔴 5 | NFP -92K (first negative print, BLS confirmed); Yergin calls it "nightmare scenario"; stagflation trap | N/A | Mar 9 |
 
-**Convergence: 45/45 🔴🔴 — MAXIMUM. [Updated Mar 15] ALL FOUR Gulf producers curtailing. Hezbollah activated. DIFC kinetically hit. US struck Kharg. Scenario D at 25%. Near-total convergence across all vectors.**
+**Convergence: 45/45 🔴🔴 — MAXIMUM. [Updated Mar 17] ALL NINE VECTORS AT MAXIMUM. Iran attacking Saudi territory (PSAB). UAE civilian ports declared targets with evacuation warnings. Retaliation cycle locked (US→Kharg, Iran→Fujairah). ADNOC 50%+ shut-in. Fujairah bypass eliminated. Kent resignation. Diplomatic ceiling hit — Iran issuing IHL pre-strike warnings is not diplomacy. Scenario D now plurality at 54%. The convergence matrix has no further headroom.**
 
 ---
 
@@ -358,12 +390,14 @@ For complete thesis exit (not just headline bounce), ALL required:
 - Trump "mission accomplished" + oil below $80
 - Fujairah repair complete + ADNOC restart confirmed
 
-### Scenario D Indicators (NEW — watch for CONFIRMATION)
-- Additional senior IC/DOD/military resignations following Kent
-- US Embassy evacuated or overrun (C-RAM failure)
-- Trump orders Kharg oil infrastructure strike (was threatened; not yet executed)
-- GCC state (UAE/Saudi) formally requests US ground forces
-- Israel unilateral strike on Iran nuclear remnants
+### Scenario D Indicators (ACTIVE — watch for CONFIRMATION)
+- ⚠️ **Jebel Ali port struck** — Iranian evacuation warning already issued; Dubai's commercial backbone; would trigger global shipping collapse
+- ⚠️ **Saudi Arabia military response to PSAB** — Saudi formal entry into war = new coalition, new theater
+- ⚠️ **Additional senior IC/DOD/military resignations following Kent** — 2nd break = cascade threshold crossed
+- ⚠️ **US Embassy evacuated or overrun** — C-RAM already active; failure = major domestic political crisis
+- ⚠️ **Trump orders Kharg oil infrastructure strike** — was threatened; Fujairah retaliation shows Iran can and will respond in kind to Gulf state targets
+- ⚠️ **Israel unilateral strike on Iran nuclear remnants** — removes last restraining factor
+- ⚠️ **Congressional hearing on war casus belli** — Kent letter gives committee chairs the hook
 
 ### Cross-Agent Thresholds
 - Oil below pre-war level 5+ sessions → de-escalation confirmed
@@ -380,18 +414,20 @@ BRENT operational as of Mar 6. Division of labor:
 
 ---
 
-## BOTTOM LINE — REVISED MAR 17
+## BOTTOM LINE — REVISED MAR 17 (SIG-001 + SIG-002 + SIG-003)
 
-**Convergence 45/45 🔴🔴 — ABSOLUTE MAXIMUM. War Day 17.** 
+**Convergence 45/45 🔴🔴 — ABSOLUTE MAXIMUM. War Day 17. Scenario D = 54% — now the PLURALITY SCENARIO.**
 
-Three structural breaks since Mar 15 that change the entire recovery math:
+Four structural breaks since Mar 15 that change everything:
 
-**1. The Perera Production Break.** Markets have priced Hormuz as a transit problem. Reopen the strait, restart the flow. This is WRONG. ADNOC's 50%+ shut-in is not from direct facility damage — it's economic logic. Production without export = liability. The production shut-in adds months to normalization even after ceasefire. The "23-minute algo unwind" still fires on headlines, but full commodity normalization is now 4-7 months minimum post-ceasefire. This is the most important single insight in the current signal set.
+**1. The Perera Production Break (SIG-002).** Markets have priced this as a transit problem. Reopen the strait, restart the flow. This is wrong. ADNOC's 50%+ shut-in is pure economic logic: production without export capacity is a liability. When you cannot ship it, you stop pumping. Normalization now requires ADNOC restart (2-4 months), Fujairah repair (2-4 months), mine clearance (3-6 weeks), insurance reinstatement, and Hormuz reopening — in sequence. The "23-minute algo unwind" fires on ceasefire headlines but full commodity normalization is 4-7 months minimum post-ceasefire. This bifurcates the exit trade into two entirely different instruments on entirely different timelines.
 
-**2. The Fujairah Bypass Elimination.** Iran has now kinetically targeted BOTH Hormuz transit (mines) AND the UAE bypass route (Fujairah). There is no remaining export pathway for UAE crude at scale. The structural supply gap grows. The duration model extends. This was the last geographic alternative — it's now gone.
+**2. The Bypass Closure (SIG-002 + SIG-003).** Iran has now eliminated BOTH the Hormuz transit route (mines) AND the Fujairah bypass (1.8M bpd). Fujairah was targeted explicitly in retaliation for the Kharg Island strike — meaning the retaliation cycle is now locked: US escalates → Gulf infrastructure targeted. Saudi East-West pipeline (5M bpd max) and Iraqi Kirkuk-Ceyhan (degraded) cannot bridge the gap. There is no geographic alternative remaining. The structural supply deficit is now larger and longer than any previous model assumed.
 
-**3. The Kent Fracture.** The first senior intelligence official has broken publicly, with maximum credibility (Gold Star + 11 deployments), directly attacking the war's stated casus belli. Political sustainability is now in active question. Timeline: Phase 2 (additional breaks) has ~60% probability by May. If this cascades, it creates a new D-category risk: chaotic withdrawal producing worse outcomes than sustained conflict.
+**3. The GCC Expansion (SIG-003).** Prince Sultan Air Base (near Riyadh) struck. Iran has explicitly declared UAE civilian ports — Jebel Ali, Khalifa, Fujairah — as legitimate military targets with pre-strike civilian evacuation warnings issued. Civilian evacuation warnings under IHL are not threats; they are operational preparation formalities. Jebel Ali (14M TEUs/yr, world's 9th largest port, backbone of UAE non-oil economy) is now on the active strike list. If Jebel Ali is hit, this stops being an oil crisis and becomes a global shipping collapse. 
 
-**Scenario D at 42% is the highest reading since war began.** C/D near-parity is the correct probability read given current state. The exit protocol thesis must be bifurcated: (1) headline trade on ceasefire news, (2) fundamental commodity normalization — these are now separated by months, not hours.
+**4. The Kent Fracture (SIG-002).** First senior IC official to publicly break. Gold Star + 11 deployments + NCTC Director = maximum credibility, minimum political dismissability. Letter attacks the stated casus belli directly. Historical pattern (Iraq, Vietnam): first break lowers the social cost of subsequent breaks. Phase 2 (additional resignations) has ~60% probability by May. The political sustainability clock is now running. Paradox: chaotic political collapse triggering disorderly withdrawal itself generates D outcomes — there is no clean exit path that doesn't have Scenario D tail risk.
+
+**The thesis is intact but the exit protocol has fundamentally changed.** We are not waiting for a ceasefire to resolve this. We are waiting for a ceasefire PLUS months of infrastructure repair and production restart. Position sizing and duration assumptions need to reflect the 4-7 month normalization tail. The headline trade and the fundamental trade are now two different trades on two different clocks.
 
 **Previous bottom line (Mar 15)** is preserved in archive for comparison.
