@@ -1,7 +1,7 @@
 # BROCK STATUS — Private Credit / Alt Assets / PE / ILS
 
-**Last context:** Mar 17 02:45 UTC. Research sprint complete — deep dives on APO, ARCC, OWL, KKR. Athene FY2025 statutory filing FOUND AND ANALYZED (primary source edge, zero external coverage). Cross-analysis synthesized across all 4 names. FOMC opens tomorrow.
-**Last updated:** 2026-03-17 02:45 UTC
+**Last context:** Mar 17 04:15 UTC. ARES deep dive COMPLETE. Key findings: $66B semi-liquid wealth AUM (69% YoY growth = hot money), Q1 tenders UNREPORTED + emergency town hall Mar 11, Aspida insurance $27.4B (+44% YoY = mini-Athene), FRPR $540M vulnerable to HWM wipeout, software 12% of direct lending (likely understated per ARCC analog). Thesis grade B+. Five deep dives now complete: APO, ARCC, OWL, KKR, ARES.
+**Last updated:** 2026-03-17 04:15 UTC
 
 ---
 
@@ -22,6 +22,9 @@
 | HLEND Software Exposure | **19% of portfolio** in software per company documents | 🔴 NEW | [CONF] Reuters factbox Mar 16 |
 | Moody's Bank→PC/PE Exposure | **$300B outstanding to PC + $285B to PE + $340B unused commitments** (Jun 2025) | 🔴 NEW | [CONF] Moody's/Reuters Mar 16 |
 | Semi-Liquid AUM Growth | $200B (early 2022) → **$500B (Q3 2025)** per Morningstar. Now reversing. | 🟠 NEW | [CONF] Fortune/Morningstar Mar 14 |
+| ARES Semi-Liquid AUM | **$66B** (69% YoY growth), Q1 tenders UNREPORTED, town hall Mar 11 | 🔴 NEW | [CONF] Q4 earnings/Bloomberg Mar 17 |
+| ARES Aspida Insurance | **$27.4B** (+44% YoY), mini-Athene playbook, statutory leverage UNKNOWN | 🟠 NEW | [CONF] Aspida Sales/BizWire Mar 17 |
+| ARES SI | **10.6M shares** (+31% MoM), 3.3% of float, 1.9 days to cover | 🔴 NEW | [CONF] FINRA Feb 13 |
 | Fund Gates (confirmed) | **5+** (OBDC II permanent freeze, HLEND 9.3%/$1.2B, Cliffwater 14%, MS North Haven 10.9%, Canada 40% RE gated) | 🔴🔴 | [CONF] Reuters/Fortune/BI Mar 6-14 |
 | Bank→NDFI Exposure | **$4.2T** ($1.4T outstanding + $2.8T undrawn) | 🔴 | [CONF] Whalen/FDIC Mar 10 |
 | Atlas SP Defaults | **2 warehouse facilities in default** (MFS/Apollo chain) | 🔴 | [CONF] Whalen Mar 10 |
@@ -32,7 +35,7 @@
 | PIMCO Stracke Structural Call | Returns 10%→6%, mid-single-digit defaults for SEVERAL YEARS | 🔴 | [CONF] Yahoo Finance Mar 12 |
 | Fortune "$265B Meltdown" | PE sector lost $265B market cap. Houlihan Lokey: "resembles a run on a bank." El-Erian: "canary in the coalmine." | 🔴🔴 NEW | [CONF] Fortune Mar 14 |
 | JPM Private Bank Warning | "Elevated redemption activity to continue through H1 2026 at least" | 🔴 NEW | [CONF] JPM Private Bank Mar 11 |
-| National Dentex Labs PIK | $162M cost → $78M FV (-51%), 100% PIK, maturing **April 2026** | 🔴 NEW | [CONF] Machete Research/Substack Mar 12 |
+| National Dentex Labs PIK | $162M cost → $78M FV (-51%), 100% PIK, maturing **April 2026**. **Held by OBDC + OBDC II + OBDE + Silver Point. NOT held by ARCC (CONFIRMED via EDGAR).** | 🔴 NEW | [CONF] OBDC 10-K FY2025 + EDGAR full-text Mar 17 |
 | Consumer Products Default Rate | **>12%**, doubled YoY. Defaults now span ~10 sectors | 🔴 NEW | [CONF] FundsSociety/Fitch Mar 6 |
 | Distressed Dry Powder | **$100B+** raised to exploit forced sellers/restructurings | 🟠 | [CONF] WithIntelligence Mar 2026 |
 | Rating Agency Consensus | Fitch, UBS, DBRS all bearish — 3-agency consensus formed | 🔴 | [CONF] Multiple Mar 2026 |

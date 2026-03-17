@@ -1,90 +1,36 @@
 # LABOR STATUS
-**Last Updated:** 2026-03-16 20:15 UTC | **Status:** 🔴🔴 CRITICAL — SHUTDOWN DAY 31, SENATE VOTE FAILED AGAIN (4 ATTEMPTS BLOCKED). RECESS MAR 30 = 60+ DAYS IF NO DEAL THIS MONTH. TSA PAYCHECK MISS SECOND CONSECUTIVE. FL UI WAVE 1 (MAR 24) T-8 DAYS. SCHEDULE POLICY/CAREER ORAL ARG WED MAR 18. ADP PULSE TOMORROW (FIRST POST-HORMUZ). FOMC STARTS TOMORROW.
+**Last Updated:** 2026-03-17 12:50 UTC | **Status:** 🔴🔴 CRITICAL — ADP PULSE 9K/WK (BREACHED <10K THRESHOLD, -42% FROM 15.5K). SHUTDOWN DAY 32. FOMC STARTS TODAY. SCHEDULE POLICY/CAREER ORAL ARG TOMORROW (MAR 18). FL UI WAVE 1 (MAR 24) T-7 DAYS. SHUNTO MAIN RESPONSE WED; BOJ HOLD EXPECTED THU.
 
-**Signal Mar 16 — EOD Update:**
+**Signal Mar 17 — AM Check-in (8:00 AM ET):**
 
-**SHUTDOWN DAY 31 — SENATE RETURNED, FAILED AGAIN:** Senate reconvened at 3 PM ET. Democrats blocked DHS funding (HR 7147) for the 4th time — 60-vote threshold not met. Fetterman sole Dem voting yes. Slotkin (D-MI) signaling openness to funding CBP separately from ICE — first crack in Dem unity, but not enough. **KEY CALENDAR RISK: Senate recess Mar 30 - Apr 10.** If no deal by end of March, shutdown extends to 60+ days automatically. Kalshi/Polymarket median now through April 13. This is now approaching 2nd-longest shutdown in history (longest: 43 days in 2025). **LABOR IMPLICATION:** Claims suppression extends. DHS workers cannot file UI while technically employed but unpaid. Mar 19 claims print (FOMC day) STILL distorted. The real claims picture won't emerge until shutdown resolves + 1-3 week filing lag. If April resolution → claims spike late April/early May, COINCIDING with FL UI Wave 2 exhaustion (Apr 26).
+**SHUTDOWN DAY 32 — SENATE RETURNED BUT NO VOTE:** Senate reconvened Mar 16 at 3 PM ET but **did NOT attempt a 5th vote** on HR 7147. Even worse than a failed vote — indicates no path to 60 votes visible. TSA chaos compounding: spring break + March megastorm (Northeast) + partial paychecks. Oil at $100/bbl. Gas prices climbing. **No new shutdown developments overnight.** Calendar risk unchanged: recess Mar 30 = auto-extension to 60+ days. Kalshi/Polymarket median: through Apr 13.
 
-**TSA CHAOS COMPOUNDING — SPRING BREAK + MEGASTORM:** Spring break travel colliding with winter megastorm (Northeast). TSA staffing at crisis levels — 300+ officers quit (TSA confirmed), partial paychecks for those remaining. PHL, ATL ground stops. Airline CEOs (Reuters Mar 15) urged Congress to pay TSA. Austin/Houston recommending 5-hour early arrival. **This is now a consumer demand destruction channel** — travelers canceling/rescheduling = airline revenue hit = services sector weakness. Cross: CARL.
+**🔴 ADP PULSE — 9,000/WK (BELOW 10K ALERT THRESHOLD):** Released Mar 17 ~12:10 UTC (PRNewswire). Four weeks ending Feb 28, 2026. Private employers added avg **9,000 jobs/week**, down from 15,500/wk prior read (Feb 21 data). **-42% decline, FIRST POST-HORMUZ READ.** This breaches LABOR's <10K/wk alert threshold. Hiring nearly halved. Note: 4-week window ending Feb 28 captures pre-Hormuz uncertainty buildup (closure was Mar 3) but not the full shock. Next pulse will be worse if pattern holds. **Feeds directly into Wed claims setup — if official data confirms, Powell's presser gets more uncomfortable. Stagflation trap tightening: hiring cracking while PCE 3.1%.** [CONF] PRNewswire/ADP Mar 17.
 
-**ADP PULSE — TOMORROW (Mar 17):** Confirmed release date. Last read: 15,500/wk (Feb 21 data). This is the FIRST post-Hormuz read. If hiring dropped after Mar 3 Hormuz closure, this pulse will capture it. Alert threshold: <10,000/wk. This is the most important near-term data point for LABOR.
+**SCHEDULE POLICY/CAREER — ORAL ARGUMENT TOMORROW (MAR 18):** No new pre-hearing filings or updates found. PI hearing in D.C. Circuit proceeds as scheduled. No injunction issued. RIF cascade unblocked. **Binary outcome: PI granted → RIF pause (thesis delay). PI denied → RIF pipeline continues.**
 
-**FOMC — STARTS TOMORROW (Mar 18-19):** Decision + dot plot Wednesday. Claims also Wednesday. Triple data event: FOMC + claims + potential ADP pulse aftermath. Powell presser will address labor market — watch language shift from "resilient" to anything softer.
+**SHUNTO 2026 — KEY CALENDAR UPDATE:** Shunto "main response day" (major companies respond to union demands) is **Wednesday Mar 19**. BUT Rengo's official first-round wage tally releases **March 23**, second round **March 27**. This means BOJ decides Thu Mar 19 **WITHOUT official settlement data**. Nissan accepted union demand in full (Japan Times Mar 11) but union REDUCED its demand from ¥18,000 last year due to "severe management situation" — a BEARISH signal within ostensibly bullish headline. Demand avg still 5.94%. Actual settlements tracking toward ~5.0% (Nomura). **6.0% BOJ emergency threshold NOT triggered.**
 
-**SCHEDULE POLICY/CAREER — ORAL ARGUMENT WEDNESDAY MAR 18:** Preliminary injunction hearing in D.C. Circuit. If court grants PI → RIF cascade paused → bearish thesis delayed. If denied → RIF pipeline continues unblocked. This is the key legal watch this week.
+**BOJ — DECISION THU MAR 19 (0330-0430 GMT):** Expected HOLD at 0.75%. Reuters poll (Mar 16): hike to 1.00% by end-June. Bloomberg (Mar 11): >1/3 economists expect April hike. Iran war creates stagflation dilemma — "classic stagflation-style policy trade-off" (Amova). Real rates deeply negative. April meeting = real test (tankan Apr 1, branch managers Apr 6). **SAM domain primary; LABOR flag: carry unwind 2-4wk lag if BOJ acts in April.**
 
-**MULLIN NOMINATED FOR DHS:** Trump tapped Sen. Markwayne Mullin (R-OK) to replace fired Kristi Noem as DHS Secretary. Senate confirmation hearing adds another item competing for floor time vs. shutdown resolution.
+**CLAIMS SETUP — WED MAR 19 (FOMC DAY):** Shutdown Day 34 by print date. Still distorted — DHS workers cannot file UI. Continuing claims buffer at 50K to YELLOW (1,900K). **Triple event day: FOMC decision + claims + Powell presser.** Watch Powell language on labor market — any shift from "resilient." Claims likely suppressed again; real picture won't emerge until shutdown resolves + 1-3 week lag.
 
-**Signal Mar 15 — Stage 2 Live Search Update:**
+**FL UI WAVE 1 — T-7 DAYS (MAR 24):** No legislative changes. HB 191 ("Promoting Work, Deterring Fraud") passed FL House, moving through Senate — TIGHTENS UI, does not extend. Effective July 1 if signed. **Existing FL law note:** payments extend to 23 weeks only if state unemployment rate exceeds 5%. Currently below threshold. **Wave 1 exhaustion LOCKED IN with ZERO legislative block risk.**
 
-**DHS PAYCHECK MISS — CONFIRMED SECOND CONSECUTIVE (Mar 14):** TSA workers missed their FIRST FULL paycheck around the weekend of Mar 13-14 (CNN Mar 14: "This weekend, these workers will miss their first full paycheck"). Daily Mail (Mar 13) describes this as their "second paycheck" amid the ongoing shutdown — the earlier partial-miss cycle has now compounded into a FULL miss. Business Insider (2 hours ago, Mar 15): "Hundreds of agents are quitting." Airport chaos confirmed: up to 3-hour security lines at major airports during spring break. Austin, Houston airports specifically flagging 5-hour early arrival recommendations. **KEY IMPLICATION:** Consumer spending shock now cumulative ~$300-400M (first miss ~$150-200M + second full miss). This doubles the CARL consumer chain trigger. Shutdown is now FULLY in the consumer economic signal, not just the government accounting category. Cross: CARL urgent.
+**FOMC — STARTS TODAY (Mar 18-19):** Decision + dot plot + Powell presser Wednesday. CME FedWatch 92%+ hold. Median dot may shift to 0 cuts given stagflation trajectory (PCE +3.1%, oil $100+, NFP -92K). Fed trap fully set.
 
-**SHUTDOWN STATUS — NO END IN SIGHT (Day 29+):** As of March 13 (Day 28), Senate was on recess. Senate returns Monday March 16. No resolution vote passed. House passed H.R. 7744 (221-209) but Senate blocked multiple times (prior vote 51-45). Polymarket/Kalshi betting markets showing median ~48-day shutdown length — implies resolution approximately early April. 16% probability of 90+ day shutdown (through May 15). **IMPLICATION FOR CLAIMS:** Mar 19 claims print (FOMC presser day) may STILL be partially suppressed. DHS workers cannot file UI in most states while technically employed but unpaid. If shutdown resolves in next 2 weeks, expect claims surge as workers file retroactively AND some who quit (hundreds confirmed) do file immediately. This creates a claims spike event that may lag shutdown resolution by 1-3 weeks.
+**Prior Mar 16 summary:** Senate failed vote #4 (Fetterman sole Dem yes, Slotkin signaling crack). TSA 300+ quit. Megastorm + spring break. Mullin nominated for DHS.
 
-**JOLTS JAN 2026 — QUITS RATE DETAIL (Mar 13 BLS release):** Quits = **3.1 million, rate 2.0% for SEVEN CONSECUTIVE MONTHS** (confirmed Indeed Hiring Lab Mar 13). Rate below 1.5% in government, financial activities, and manufacturing sectors. "The quits rate is a critical barometer of worker confidence, and that confidence..." [Indeed: "Waiting to Exhale"]. **Hotel California thesis STRUCTURALLY CONFIRMED.** KB-LAB-007 update: quits rate 2.0% confirmed Jan 2026, unchanged and entrenched — 7-month streak at or below 2.0%.
+**[ARCHIVED Mar 13-15 detailed notes → see domain/sources/STATUS_archive_20260315.md]**
+**Key outcomes from Mar 13-15:** DHS 2nd consecutive paycheck miss (cumulative ~$300-400M spending shock). Quits rate 2.0% for 7 consecutive months (Hotel California confirmed). FL HB 191 tightens UI — no extension. Schedule Policy/Career: no injunction, oral arg Mar 18. Shunto demand 5.94% (below 6.0% BOJ threshold). Cass Freight Feb not published. Kalshi median shutdown through Apr 13. 16% probability 90+ days.
 
-**FLORIDA UI — NO EXTENSION, CONDITIONS TIGHTENING (L-10):** HB 191 ("Promoting Work, Deterring Fraud Act of 2026") passed Florida House and moving in Senate — but it ADDS restrictions, not extensions. If signed by DeSantis, takes effect July 1, 2026. No legislative action to extend the 12-week maximum UI duration. **FL UI Wave 1 exhaustion (Mar 24) is fully confirmed with ZERO legislative block risk.** The FL legislature is actively making UI harder to access, not easier. SSB/CARL cascade is locked in.
+**[ARCHIVED Mar 13 JOLTS/NFIB/GDP detailed analysis → see domain/sources/STATUS_archive_20260315.md]**
+**Key reads from Mar 13 data dump:** JOLTS 6.95M beat but hires 3.3% flat = Hotel California head-fake. 2025 annual revisions all down. NFIB "poor sales" 11% (r=0.83 with U-3, recession-entry level, PRE-Hormuz). GDP Q4 revised to 0.7% (fed spending -16.7% = DOGE in macro data). LAB-02 upgraded to 80%. LAB-12 added: U-3 ≥5.0% Q3-Q4 at 60%. IWM bear thesis reinforced via NFIB→small cap linkage.
 
-**SCHEDULE POLICY/CAREER — NO INJUNCTION (L-13):** As of March 15, no court has issued a preliminary injunction blocking Schedule Policy/Career. Lawsuits filed (AFGE/AFSCME/AFL-CIO in D.C. Circuit Maryland; Second Amended Complaint filed Mar 4). Oral argument on preliminary injunction SCHEDULED FOR MARCH 18, 2026. **Thesis invalidation condition (courts block) has NOT been triggered.** Watch March 18 hearing — temporary restraining order possible but no injunction yet. RIF cascade under expanded authority is proceeding unblocked.
+**[ARCHIVED Mar 9-12 daily notes → see domain/sources/STATUS_archive_20260312.md]**
+**Key outcomes from Mar 9-12:** Claims first clean read 213K/1.850M (benign, no vector change). CPI Feb +2.4% YoY (stale, pre-Hormuz). JOLTS Jan 6.95M beat but hires 3.3% flat (Hotel California). WARN 766/91,190. OPM net -277,872 federal headcount. Goldman: "easing pace hinges on labor resilience." Trump admin pivoting to selective federal rehire (net impact still deeply negative).
 
-**SHUNTO 2026 — DEMAND 5.94%, AT THRESHOLD (L-04/L-05):** Rengo average wage increase demand as of March 6: ¥19,506/month = **5.94% raise** (2,508 unions). This is JUST BELOW the 6.0% threshold that would trigger BOJ emergency hike risk. Nomura forecast for actual settlement: ~5.0%. Historical pattern: 2024 = 5.10%, 2025 = 5.25%. Trajectory is upward. BOJ held at 0.75% in January (split 8-1). March MPM decision pending this week. **LABOR's BOJ hike threshold (≥6.0%) is NOT currently triggered, but demand at 5.94% means actual settlements will determine BOJ posture at very close margin.** SAM domain primary; LABOR flag: carry unwind 2-4 week lag if BOJ acts.
-
-**CASS FREIGHT FEB 2026 — NOT PUBLISHED (L-11):** Cass archives confirmed through Jan 2026 only. Feb 2026 report not yet available as of March 15. Expected "around March 13" per RECON but not found. Check again week of March 16.
-
-**ADP PULSE MAR 17 — NOT YET RELEASED (L-07):** Still at 15,500/week (Feb 21 data, last release Mar 10). Next release Monday/Tuesday March 17. This is the FIRST POST-HORMUZ read. If <10,000/week → ALERT.
-
-**FOMC MAR 18-19 — CONFIRMED HOLD (L-06):** CME FedWatch 92%+ probability of hold. Current median dot = 1 cut for 2026. Dot plot may shift to 0 cuts given stagflation trajectory (PCE +3.1%, oil $101, NFP -92K). Fed trap thesis confirmed by market pricing.
-
-**Signal Mar 13 — JOLTS January 2026 (released 10AM ET / 14:00 UTC):**
-JOLTS Jan 2026: **6.946M openings** (vs 6.70M exp, up from revised 6.55M Dec). BEAT headline. BUT:
-- **Hires: 5.294M, rate 3.3% — UNCHANGED.** This is the cycle low range. Openings up but nobody getting hired = "Hotel California" deepens.
-- **Layoffs/discharges: 1.631M** (down 35K from Dec). Rate 1.0%. Low layoffs + low hires = frozen market.
-- **2025 ANNUAL REVISIONS: DOWNWARD for nearly every month.** Annual avg openings 7.1M (down 571K from 2024). Annual hires fell 1.5M to 63.0M. Annual layoffs INCREASED 1.2M to 21.2M.
-- **Openings/unemployed ratio: ~0.93** (up from 0.87 Dec, still below 1.0 — sub-1.0 since late 2025).
-- **KEY READ:** The headline beat is a head-fake. The labor market added openings but didn't convert them to hires. Hires rate at 3.3% is the structural tell — demand exists on paper but firms aren't pulling the trigger. This is consistent with Hormuz uncertainty freezing hiring decisions. The annual revisions confirm 2025 was worse than reported in real-time. "Hotel California" thesis reinforced: easy to keep your job, impossible to find a new one.
-- **No vector changes.** JOLTS vector stays at prior level. Hires rate unchanged validates frozen market thesis.
-
-**Signal Mar 13 — NFIB Feb 2026 "Poor Sales" (14:45 UTC):**
-NFIB Small Business Survey February 2026: **11% of small businesses cite "poor sales" as their single most important problem.** This is the 4th most-cited problem (behind taxes, labor quality, inflation). Key context:
-- **Tripled over the last 3 years** (from ~3-4% baseline)
-- Near highest since 2020 pandemic peak
-- **At recession-entry levels historically**
-- NFIB poor sales indicator r=**0.83** correlation with civilian unemployment rate
-- **LEADING indicator** — small firms are the largest employer category in the US. Poor sales → reduced hours → layoffs → UI claims
-- This is **PRE oil shock** (February data, pre-Hormuz)
-
-**LAB-02 ASSESSMENT UPDATE:** LAB-02 currently 80% for U-3 ≥4.7% in Q2. This signal does NOT lower confidence — it raises the question of whether **4.7% is too conservative a target**. Analysis:
-1. NFIB poor sales at r=0.83 with U-3 is one of the strongest leading correlations in labor economics. At 11% and tripling, the signal is pointing toward U-3 materially above 4.7% on a 2-4 quarter lag.
-2. The post's projection of ">5%" has historical support: prior episodes where NFIB poor sales hit these levels (2008-09, 2020) saw U-3 surge 1.5-3pp from the initial deterioration.
-3. From 4.4% current: 4.7% is only a 0.3pp move. NFIB signal at this level historically implies 0.6-1.2pp deterioration from baseline — suggesting **5.0-5.6% is where the data points on an uninterrupted trajectory.**
-4. KEY CAVEAT: This is February data — before Hormuz, before March NFP bounce (healthcare strike reversal ~+31K). The NFIB reading was formed under current conditions, not yet incorporating oil shock demand destruction.
-
-**LAB-02 REVISION:** Maintaining 80% for U-3 ≥4.7% Q2 (near-term, unchanged). **Adding LAB-12: U-3 ≥5.0% by Q3-Q4 2026 at 60% confidence** — NFIB poor sales signal + Hormuz oil shock + GDP 0.7% base + WARN pipeline = layoff wave arriving Q2, hitting U-3 in Q3. This is the extended target Will is asking about.
-
-**IWM LINKAGE:** Direct. NFIB surveys the exact universe that IWM tracks. Small caps ARE these businesses. If 11% cite poor sales now (pre-oil shock), the Q1 earnings season for small caps (April-May) will show revenue compression. IWM has already underperformed SPX significantly; this data suggests the fundamental deterioration is real, not just sentiment. Poor sales → layoffs → unemployment → reduced consumer spending → more poor sales. The feedback loop is loading. IWM bear thesis reinforced.
-
-**Signal Mar 13 — GDP Q4 2025 Second Estimate (13:09 UTC):**
-GDP Q4 2025 **REVISED TO 0.7%** (from 1.4% advance estimate). Economists expected upward revision — got cut in half. Components: Federal spending **-16.7%** (subtracted 1.16pp — DOGE/shutdown impact now in the GDP data); Consumer spending revised **2.4% → 2.0%**; Exports **-3.3%** (worse than initial). Full year 2025: **2.1%**. Labor context in the reporting: companies/nonprofits/govts cut 92K last month; 2025 added <10K jobs/month = weakest hiring outside recession years since 2002.
-
-**THRESHOLD ASSESSMENT:** No threshold changes. Current tripwires (claims ≥235K, continuing ≥1,900K, U-3 ≥4.7%) stand. BUT confidence in breach timeline accelerates: economy entered the Hormuz oil shock at **0.7% quarterly GDP growth** — one standard-deviation demand shock from flat/negative. At this growth rate, any external shock (oil, trade, credit) maps directly to labor deterioration. The 0.3pp gap between U-3 4.4% and 4.7% trigger (LAB-02) now looks very thin. LAB-02 confidence upgraded: **72% → 80%**. GDP component breakdown validates the transmission chain: federal spending -16.7% = DOGE/shutdown already in macro data. Consumer spending 2.0% (downward revision) = demand softening *before* oil shock hits. This is not a healthy economy absorbing a shock — it's a fragile one.
-
-**CLAIMS BUFFER INTERACTION:** The 50K buffer on continuing claims (1.850M vs 1.900M yellow) was sized against a growing economy. At 0.7% GDP, the buffer provides less cushion than the absolute number implies — downside acceleration is faster from a slower base. No vector changes today, but note: the GDP revision is a *lagging* confirming signal, not a leading one. The employment picture for Q1 2026 (GDPNow 2.1% as of last update) is running *ahead* of this Q4 stall — meaning Q1 GDP likely comes in lower, not higher.
-
-**EOD Note Mar 12 (20:15 UTC):** Claims first clean read confirmed benign — no vector changes. **WARN pipeline updated: 766 notices / 91,190 workers** (was 716/85,552 as of Mar 5 — +50 notices, +5,638 workers in 7 days; pace holding ~7 notices/day). **DOGE OPM confirmed net figure:** Federal civilian workforce 2,313,216 → 2,035,344 (Sep 2024 to Jan 2026) = **-277,872 net headcount** (-12%). Prior STATUS had 327K gross / 264K net; OPM January 2026 data now confirms net at 277K. Schedule Policy/Career live Mar 6 — March and April data will capture first RIF wave under expanded authority. CISA: 130 workers terminated today (DOGE). **Staffing canaries (RHI/KFRC):** No new data — Q4 sequential+ counter-signal holds. RHI survey (released ~Mar 5): 83% of employers confident in 2026 outlook, 60% plan permanent hires H1 2026. KFRC Q1 2026 revenue est. ~$415M (flat/slightly down YoY). Neither company reports Q1 until mid-April — vector 11 stays at 🟡 score 2 until Q1 print. **JOLTS preview (Mar 13 10AM ET):** Dec 2025 was 6.5M openings, openings/unemployed at 0.87 (below 1.0 for first time since 2021). Finance/professional services already at cycle lows in Dec. No Street consensus found (BLS delay may have disrupted normal estimate formation). Quit rate at decade low = "Hotel California" trap deepening regardless of headline number. Signal Dashboard: WARN pipeline updated to 766/91,190. No vector changes today.
-
-**MIDDAY Note Mar 12 (17:31 UTC):** **CLAIMS FIRST CLEAN READ PRINTED:** Initial claims 213K (week ended Mar 7) — DOWN 1K from prior, vs 215K consensus. **WELL BELOW 235K tripwire.** Continuing claims 1.850M — DOWN from 1.868M prior. Buffer to YELLOW (1,900K) widened to 50K from 32K. No vector upgrade triggered. Claims vector 3 holds at 🔴. Suppression narrative: claims range has been 199-232K all year — DHS suppression may have held, OR labor market genuinely stable. JOLTS Jan 2026 now the next key test, TOMORROW 10AM ET. War context (Reuters/WIKY): analysts citing Iran war / Hormuz as downside risk — "evidence consistent with labor market stabilizing BEFORE Iran war hits the economy." Strike reversal +~31K in March NFP still expected. No DOGE/federal workforce fresh developments today — mostly retrospective pieces on year-one aftermath. Signal Dashboard updated: Initial Claims → 213K 🟢, Continuing Claims → 1.850M 🟢.
-
-**AM Note Mar 12:** **CPI Feb 2026 confirmed:** +0.3% MoM, +2.4% YoY (in-line), core +0.2%, 2.5% YoY. **Apparel +1.3%** — tariff signal bleeding in. This is PRE-Hormuz/pre-oil-shock data. Market sold off on the print despite tame headline — traders correctly pricing forward: Hormuz oil spike hasn't hit CPI yet. March/April prints are where inflation re-accelerates and the stagflation trap closes. Nothing in this CPI changes our thesis; it confirms the stale-data problem. The Fed can't cut into a still-elevated but about-to-worsen inflation reading. **THRESHOLD PROXIMITY: Continuing claims at 1,868K last print — 32K from YELLOW (1,900K). Tomorrow's first clean read post-DHS is the critical test.** DHS suppression has held continuing claims artificially low; if suppression lifts, we could gap through YELLOW on a single print. Watch BOTH initial (≥235K → Vector 3 → 5) AND continuing (≥1,900K → YELLOW alert). **Inbox signal processed (see below):** Consumer front-loading from DD-3 research — 🟠 demand destruction accelerant, 2-3 month timeline. Logged to Signal Dashboard.
-
-**EOD Note Mar 11:** No new labor data releases today — CPI was the only scheduled print. **Key delta: JOLTS January 2026 now confirmed for March 13, 2026 at 10:00 AM ET** — BLS page updated. STATUS.md previously listed this as "DELAYED/no date." This changes tomorrow from a single-indicator claims day to a **double data event**: (1) initial claims (FIRST CLEAN READ post-DHS suppression) + (2) JOLTS Jan (first opening data since Dec 2025 at 6.5M). Finance/professional services openings already at cycle lows per Dec data; Jan print could show accelerating deterioration. If both print bearish simultaneously, thesis amplification. **Goldman Sachs today (post-CPI):** maintaining June 2026 first cut base case, BUT with explicit labor caveat — "pace of easing will hinge almost entirely on labor market resilience" + "FOMC on high alert for any cracks in employment." Translation: a >235K claims print tomorrow breaks Goldman's hold case. **White-collar political signal:** NBC News article today ("Politicians paying more attention to white-collar workers") — DeSantis leading. College grad unemployment "startlingly high." Political acknowledgment of our thesis = narrative is building consensus, not yet priced. **Hormuz:** Trump said war "largely complete" Mon afternoon, oil stabilized (AUD +1% today vs USD), markets pricing partial Hormuz reopening. Structural hiring freeze may shorten if ceasefire holds — watch. **No vector changes today.** All eyes on Mar 13 double data event.
-
-**AM Note Mar 11:** CPI Feb 2026 released this morning: **+2.4% YoY** (exp. 2.5%), core "tame." Market reaction muted — analysts calling it "stale" given Iran war oil shock coming. Confirms pre-Hormuz disinflation was real but will reverse. **Stagflation setup intact: wages +3.8% YoY sticky, employment -92K, oil shock arriving.** Market now fully looking through backward data and focusing on war/tariff trajectory. WARN act tracker now at **5,156 notices / 507,426 workers** (up from prior week). Quit rate falling to decade low — defensive labor market posture, workers scared to leave. Goldman warning: "sustained layoff increase particularly concerning because hiring rate is low." DOGE social impact hardening: Black women unemployment hit 7.5% peak, college-grad public sector hit hardest. No vector changes today. CPI is a confirming signal, not a new one. **WATCH: Claims Thu Mar 13 = FIRST CLEAN READ post-DHS suppression. DHS paycheck miss locking in Mar 14.**
-
-**EOD Note Mar 10:** No new data releases today. Key development: **Trump admin pivoting to federal rehire** — OPM head Kupor (WaPo) admitted "sometimes you over-restructure" and confirmed hiring push for healthcare, tech, program management under new political loyalty rules. BUT net federal workforce still far smaller than pre-DOGE; this is targeted rightsizing, not reversal. Implication: **DOGE narrative is morphing from "cut everything" to "cut and rebuild loyally"** — political cover shifting, but net employment impact remains deeply negative and won't reverse claims trajectory. GDPNow Q1 now at 2.1% (Atlanta Fed). LA Times: "all economic indicators flashing red." Tech layoffs YTD 45,724 (81 events) — unchanged from yesterday's count; AI-linked = 9,200 (20% of YTD). CPI tomorrow Mar 11 is next live cross-signal. Claims Thu Mar 13 = FIRST CLEAN READ post-DHS suppression. >235K = Vector 3 → score 5.
-
-**AM Note Mar 9:** DOGE total separations now 387K (OPM), net employment -264K after 123K rehires. Federal workforce -12% from 2024 peak. Tech layoffs YTD 45,363 (Mar), ~20% AI-driven. THIS WEEK: CPI Wed Mar 11, **CLAIMS THU MAR 12 = FIRST CLEAN READ**, JOLTS Fri Mar 13 (Jan, delayed). No new labor data today (Mon). Watch claims print vs 215K baseline — any spike >235K = vector 3 → score 5, confirms transmission.
-
-**Summary:** **February NFP: -92,000** (consensus +55-65K, our model 75-110K — both directions missed: headline went NEGATIVE). U-3 4.4% (↑ from 4.3%). Jan revised DOWN to +126K. Healthcare -28K (strike distortion — physicians offices -37K, hospitals +12K). Federal govt -10K. Information -11K. Long-term unemployed 1.9M (+400K YoY). BLS language: "payroll employment changed little on net in 2025" — phantom job acknowledgment. Schedule Policy/Career LIVE. Shadow payroll gap (LAB-09): **CONFIRMED — gap was real, resolution violent.** Healthcare strike gives Street an excuse to dismiss, but structural component ~-64K after stripping strike distortion. Still a massive validation of the thesis.
+**Summary:** NFP -92K (structural -64K ex-strike). U-3 4.4%. Shadow gap confirmed (LAB-09 ✅). Schedule Policy/Career LIVE. BLS: "changed little on net in 2025" = phantom job admission.
 
 ---
 
@@ -124,16 +70,12 @@ GDP Q4 2025 **REVISED TO 0.7%** (from 1.4% advance estimate). Economists expecte
 
 | Indicator | Value | Status | Source |
 |-----------|-------|--------|--------|
-| **Hourly Wages MoM** | **+0.4%** | 🔴 | [CONF] BLS Mar 6. Beat +0.3% exp. HOT. Deepens Fed trap — stagflation signal with -92K payrolls. |
-| **Hourly Wages YoY** | **+3.8%** | 🔴 | [CONF] BLS Mar 6. Beat +3.7% exp. Wages sticky while employment breaks. |
-| **Consumer Credit Jan** | **$11.0B vs $24.0B exp** | 🔴 | [CONF] Fed Mar 6. Massive miss. Households not borrowing to fill income gap — demand destruction signal. Cross: CARL. |
-| **401(k) Hardship Withdrawals** | **6% of participants (2025)** | 🔴 | [CONF] Vanguard / Business Insider Mar 10. Up from 4.8% in 2024. **+25% YoY.** Fastest pace on record. LAST-RESORT indicator — withdrawal means penalties + taxes + no better option. Pre-Hormuz data; 2026 trajectory is worse. Cross-ref: subprime delinquencies, NFP -92K, employment deterioration. → Cross: CARL. |
-| **ADP NER Weekly Pulse (Feb 21)** | **15,500 jobs/wk** | 🟠 | [CONF] ADP Mar 10. Pre-Hormuz. Next release TOMORROW Mar 17 — FIRST POST-HORMUZ READ. If <10K/wk → ALERT. Critical inflection point. |
-| **Retail Sales Jan** | **-0.2%** | 🟠 | [CONF] BLS Mar 6 (delayed). Slight beat vs -0.4% exp. Still negative. |
-| **ISM Services Feb** | **56.1%** | 🟡 | [CONF] ISM Mar 4. 3.5-year high, massive beat vs 53.5% exp. Counter-signal to labor deterioration. |
-| **ISM Mfg Feb (overall)** | **52.4%** | 🟡 | [CONF] ISM Mar 3. Expansion. Employment sub-index 48.8% still contraction. Headline misleads. |
-| **Fed Beige Book Feb** | Mild growth, uncertain | 🟠 | [CONF] Fed Mar 4. "Choppy start, higher prices, uncertainty." AI used but NOT replacing workers per Fed. |
-| **Schedule Policy/Career** | **LIVE Mar 6** | 🔴 | [CONF] OPM Mar 6. Federal workforce conversion executing today. DOGE cascade begins. |
+| **Hourly Wages** | **+0.4% MoM / +3.8% YoY** | 🔴 | [CONF] BLS Mar 6. Sticky wages + -92K payrolls = stagflation. |
+| **Consumer Credit Jan** | **$11.0B vs $24.0B exp** | 🔴 | [CONF] Fed Mar 6. Households not borrowing. Cross: CARL. |
+| **401(k) Hardship** | **6% (+25% YoY, record)** | 🔴 | [CONF] Vanguard Mar 10. Last-resort indicator. Cross: CARL. |
+| **ADP NER Weekly Pulse** | **9,000/wk (Feb 28) 🔴 BREACHED** | 🔴 | [CONF] ADP/PRNewswire Mar 17. Down from 15,500/wk (-42%). First post-Hormuz read. <10K threshold breached. |
+| **ISM Mfg/Svc Feb** | **52.4 / 56.1** | 🟡 | [CONF] Mfg employment 48.8 (contraction). Services strong counter-signal. |
+| **Schedule Policy/Career** | **LIVE Mar 6, oral arg Mar 18** | 🔴 | [CONF] No injunction. PI hearing tomorrow. |
 | **Initial Claims** | **213K** | 🟢 | [CONF] BLS Mar 12 (FIRST CLEAN READ). Down 1K WoW, beat 215K exp. Range: 199-232K YTD. Well below 235K tripwire. No vector upgrade. |
 | **Continuing Claims** | **1.850M** | 🟢 | [CONF] BLS Mar 12 (FIRST CLEAN READ). DOWN from 1.868M. Buffer to YELLOW (1,900K) = 50K. No threshold breach. |
 | **U-3 Unemployment** | **4.4%** ↑ | 🔴 | [CONF] BLS Mar 6. Up from 4.3%. +0.4pp YoY. LAB-02 path active (4.7% trigger). |
@@ -144,23 +86,12 @@ GDP Q4 2025 **REVISED TO 0.7%** (from 1.4% advance estimate). Economists expecte
 | **Prime-Age Participation** | **83.9%** ↓ | 🔴 | [CONF] BLS Mar 6. Fell in Feb. Labor supply contracting. NEW — not in prior read. |
 | **Temp Employment YoY** | **-12%** | 🔴 | [CONF] BLS Feb 7. Re-accelerating. RHI/KFRC sequential = counter-signal. |
 | **Staffing Canaries** | Sequential+ | 🟡 | [CONF] RHI/KFRC Q4 earnings. First positive in 12Q. If holds → plateau 3-4mo. |
-| **NFP Dec 2025 (REVISED)** | **-17K** | 🔴 | [CONF] BLS Mar 6. Revised DOWN from +50K. **Net contraction.** Q4 2025 now effectively zero/negative. NEW — not in prior read. |
-| **NFP Jan 2026 (REVISED)** | **+126K** | 🟡 | [CONF] BLS Mar 6. Revised DOWN from +130K. Revisions tell real story. |
-| **NFP Feb 2026** | **-92,000** | 🔴🔴 | [CONF] BLS Mar 6 8:30 ET. Consensus +55-65K. Our model: 75-110K. BOTH MISSED — headline negative. Healthcare -28K (strike), Fed govt -10K, Info -11K. Social asst +9K. |
-| **2025 Job Growth (Revised)** | **+181K** | 🔴 | [CONF] BLS benchmark Feb 7. Was +584K. **1.03M phantom jobs**. |
-| **ADP Private Payrolls (Feb)** | **+63K** | 🟡 | [CONF] ADP Mar 5. Beat ~48-50K exp. Jan revised DOWN: +22K → +11K. |
-| **JOLTS Openings** | **6.95M (Jan 2026)** | 🟠 | [CONF] BLS Mar 13. Beat 6.70M exp. Up from revised 6.55M Dec. BUT hires 3.3% flat (cycle low). 2025 annual revisions ALL down (-571K avg openings). Hotel California deepens. |
-| Openings/Unemployed | ~0.93 | 🟠 | [CONF] BLS Mar 13. Up from 0.87 Dec, still below 1.0. Sub-1.0 since late 2025. |
-| **Challenger Jan 2026** | **108K** | 🔴 | [CONF] Challenger Feb 6. Highest Jan since 2009. |
-| **Challenger Feb 2026** | **48,307** | 🟠 | [CONF] Challenger Mar 6. Down 55% MoM. YTD 156,742 = 5th-highest Jan-Feb since 2009. |
-| **Challenger Hiring Plans YTD** | **-56%** | 🔴 | [CONF] Challenger Mar 6. Transport +872% YoY. Tech +51% YoY. |
-| **DOGE Cuts (BLS)** | **327K / -10.9%** | 🔴 | [CONF] Reuters/OPM Mar 5. GAO: 134K separations vs 66K hires H1 2025. |
-| **WARN Pipeline** | **766 notices / 91,190** | 🔴 | [CONF] LayoffAlert.org Mar 12. +50 notices, +5,638 workers vs Mar 5. Tyson 7K, Amazon 4.7K, Verizon 4.1K. Pace: ~7 notices/day. |
-| **Shadow Payroll Gap** | WARN ↑ / Claims suppressed | 🔴 | [EST] own analysis. RESOLVES MARCH-APRIL — verdict imminent. |
-| **Hormuz** | **CLOSED Mar 3** | 🔴 | [CONF] multiple Mar 3. Hiring paralysis structural through H1 min. |
-| **BLS Data Infrastructure** | **DEGRADED (improving)** | 🟠 | [CONF] JOLTS delayed but released Mar 13. BLS still under DOGE pressure but delivered Jan data. |
-| ISM Mfg Employment | 48.8% | 🔴 | [CONF] ISM Mar 3. 28+ months contraction. Up from 48.1 Jan, still <50. |
-| ISM Services Employment | **51.8** | 🟡 | [CONF] ISM Mar 5. Up from 50.3 Jan. Expansion — modest positive. |
+| **NFP Feb 2026** | **-92,000** | 🔴🔴 | [CONF] BLS Mar 6. Dec revised -17K. Jan revised +126K. Structural -64K ex-strike. |
+| **2025 Job Growth** | **+181K (was +584K)** | 🔴 | [CONF] BLS benchmark. 1.03M phantom jobs. |
+| **JOLTS Jan 2026** | **6.95M / hires 3.3%** | 🟠 | [CONF] BLS Mar 13. Openings beat, hires flat (cycle low). O/U ratio 0.93. |
+| **Challenger YTD** | **156,742 (5th since 2009)** | 🔴 | [CONF] Hiring plans -56% YoY. |
+| **DOGE / WARN** | **327K fed + 766/91,190 WARN** | 🔴 | [CONF] Pace ~7 notices/day. Shadow gap confirmed (LAB-09 ✅). |
+| **Hormuz** | **CLOSED Mar 3** | 🔴 | [CONF] Oil $100+. Hiring paralysis structural through H1. |
 | **GDP Q4 2025 (2nd Est.)** | **+0.7%** (from +1.4% advance) | 🔴 | [CONF] BEA Mar 14. Federal spending -16.7% (-1.16pp). Consumer spending 2.4%→2.0%. Exports -3.3%. Full year 2025: 2.1%. Economy entered Hormuz oil shock at near-stall speed. Confirms DOGE/shutdown in macro data. |
 | **CPI Feb 2026** | **+2.4% YoY / +0.3% MoM** | 🟠 | [CONF] BLS Mar 12. In-line. Core +0.2%, 2.5%. Apparel +1.3% = tariff bleed-in. PRE-Hormuz stale data. Market sold off pricing forward oil shock. Fed trap tightens: can't cut into worsening inflation. |
 | **NFIB Poor Sales Feb 2026** | **11%** (r=0.83 U-3) | 🔴 | [CONF] NFIB Feb 2026. 4th most-cited problem. Tripled in 3 yrs. Near 2020 highs. At recession-entry levels. **Leading indicator — small biz largest employer cohort. Layoffs follow poor sales with 1-2Q lag.** PRE-Hormuz/oil shock. Implies U-3 trajectory toward 5%+. Directly correlated with IWM fundamental deterioration. Cross: IWM bear, LAB-12 new prediction. |
@@ -179,29 +110,11 @@ GDP Q4 2025 **REVISED TO 0.7%** (from 1.4% advance estimate). Economists expecte
 
 ---
 
-## THE FED TRAP
+## FED TRAP & THESIS
 
-```
-PPI core +0.8% (2.6x expected) + PCE 2.9% + Hormuz → Oil spike
-    → Fed CANNOT cut (inflation stays hot)
-    → Credit conditions stay tight
-    → Employment breaking (Block/DOGE/WARN pipeline)
-    → Fed BOXED — can't respond even as jobs crack
-    → Recession arrives BEFORE policy responds
-```
+**Fed trapped:** PCE 2.9% + oil $100+ + NFP -92K → can't cut, can't hold. Recession arrives before policy responds.
 
----
-
-## THESIS
-
-**"Hotel California"** — Easy to keep, impossible to find. Hires rate lowest since 2012. Workers trapped.
-- ~582K announced layoffs (327K federal DOGE + 255K private)
-- 2025 job growth: +181K actual (revised from +584K) — 1M phantom jobs
-- Challenger: highest since 2008, lowest hiring ever recorded
-- 28 months manufacturing employment contraction
-- New sectors: Biotech (Theravance -50%), Media (Paramount-Warner), Fintech (Block -50%)
-
-**"Barbell" economy:** Large corps cutting (AI-cited narrative = IR cover per Wright). Small biz frozen by supply constraint. Middle hollowing.
+**"Hotel California"** — Hires rate 3.3% (cycle low). ~582K announced layoffs (327K DOGE + 255K private). 1M phantom jobs. Quits 2.0% x7 months. Barbell economy hollowing the middle.
 
 ---
 
@@ -270,10 +183,9 @@ PPI core +0.8% (2.6x expected) + PCE 2.9% + Hormuz → Oil spike
 
 ---
 
-## WAR IMPACT & DATA QUALITY
+## WAR & DATA QUALITY
 
-- **Hormuz closed Mar 3.** Hiring paralysis structural through H1 min. Oil +13%. DOGE has "war effort" political cover. Claims noisy through Mar 5 (war + DHS shutdown + seasonal). **Mar 12 = first clean read.**
-- **BLS degrading under DOGE.** JOLTS Jan delayed (first systematic failure). DHS suppressed claims weeks ending Feb 14/21/28. As BLS shrinks, data blind spots compound — this is a NEW systemic risk.
+**Hormuz closed Mar 3.** Oil $100+. BLS degrading under DOGE (JOLTS delayed, DHS suppressed claims). Data blind spots compounding.
 
 ---
 
@@ -329,52 +241,17 @@ PPI core +0.8% (2.6x expected) + PCE 2.9% + Hormuz → Oil spike
 
 ---
 
-## RESEARCH FRAMEWORKS
+## FRAMEWORKS & DOCS
 
-| # | Framework | Key Finding |
-|---|-----------|-------------|
-| 1 | Layoff Event Study | 58% pop Day 1, only 31% hold Day 90. Round exhaustion confirmed (Block). |
-| 2 | WARN Act Lead Time | WARN→claims r=0.78 at τ=6 weeks. 4-8 week lead. TX API live. |
-| 3 | Staffing Pre-Signal | RHI/KFRC bottoming after 12Q. Volume collapsing while price holds. |
-| 4 | Insider Selling | 14x sell/buy at layoff companies vs 2.5x peers. 3-6mo lead. |
-| 5 | AI Narrative Cover | Wright: "AI" = IR cover for demand weakness + offshoring. Block confirms. |
+WARN→claims r=0.78 (τ=6wk) | Insider sell/buy 14x | Staffing bottoming (RHI/KFRC) | AI = IR cover (Wright)
+Archives: `domain/sources/STATUS_archive_*` | `STAFFING_PRESIGNAL_DEEP_DIVE.md` | `WARN_ACT_LEADING_INDICATOR.md` | `scripts/warn_texas.py` | `workbook/KB.tsv` (82) | `workbook/VX.tsv` (70)
 
 ---
 
-## KEY DOCS
-
-| File | Content |
-|------|---------|
-| `domain/sources/STATUS_archive_20260228_full.md` | Full pre-prune STATUS |
-| `domain/sources/STAFFING_PRESIGNAL_DEEP_DIVE.md` | RHI/KFRC bottoming analysis |
-| `domain/sources/WARN_ACT_LEADING_INDICATOR.md` | WARN→claims correlation |
-| `scripts/warn_texas.py` | Texas WARN API (Wed 8AM ET cron) |
-| `workbook/KB.tsv` | 82 entries | `workbook/VX.tsv` | 70 vectors |
-
----
-
-*Next triggers: **Mar 17: ADP Pulse (FIRST POST-HORMUZ)** | **Mar 18: Schedule Policy/Career oral argument (PI hearing)** | **Mar 18-19: FOMC + claims Wed** | **Mar 24: FL UI exhaustion Wave 1 (T-8)** | **Mar 30: Senate recess begins (shutdown extends to 60+ if no deal)** | Apr 4: NFP Mar 2026 (healthcare strike reversal test) | Apr: RHI/KFRC Q1 earnings | **Apr 26: FL Wave 2 peak** | Aug 2026: CA/NY UI exhaustion*
+*Next triggers: **Mar 17: ADP Pulse (PENDING — first post-Hormuz)** | **Mar 18: Schedule Policy/Career oral argument (PI hearing)** | **Mar 19: FOMC + claims + BOJ decision + Shunto main response day** | **Mar 23: Rengo first-round wage tally** | **Mar 24: FL UI exhaustion Wave 1 (T-7)** | Mar 27: Rengo second-round tally | **Mar 30: Senate recess (shutdown auto-extends to 60+)** | Apr 1: Tankan | Apr 4: NFP Mar 2026 (healthcare strike reversal test) | Apr: RHI/KFRC Q1 earnings | **Apr 26: FL Wave 2 peak** | Aug 2026: CA/NY UI exhaustion*
 
 ---
 
 ## BOTTOM LINE
 
-**The valve broke. -92,000 is the verdict.**
-
-The shadow payroll gap thesis is confirmed: WARN pipeline (716 notices, 85K workers) loaded and discharged. NFP went negative — a print not seen since pandemic lows. Street consensus (+55-65K) was off by 147K; our model (75-110K) was off in direction. The miss is larger than anyone modeled.
-
-**EOD Mar 6 update:** December revised -17K (was +50K) — Q4 2025 now contractionary. Prime-age participation fell to 83.9%. Fed first cut now consensus July (FedWatch). Evercore ISI projecting 500K federal cuts by year-end (vs our 327K current). Strike reversal expected in March NFP (+~31K mechanical) — bounce risk confirmed and quantified.
-
-**The Street will try to dismiss this on healthcare.** The strike accounted for ~-28K (physicians offices -37K, hospitals +12K net). That's temporary and likely reverses in March. But stripping the strike leaves approximately **-64K structural** — federal govt -10K, information -11K, and broad private sector weakness. That is still a historically bad print.
-
-**What this means:** U-3 is at 4.4% and climbing. Long-term unemployed hit 1.9M (+400K YoY). BLS itself acknowledged "payroll employment changed little on net in 2025" — phantom job admission. The WARN→payroll transmission is validated (r=0.78 at τ=6 weeks). The Fed trap tightens: -92K payrolls vs PCE 2.9% + Hormuz-driven oil spike means the Fed is watching the economy deteriorate with hands tied.
-
-**New signals (Mar 10):** Vanguard 401(k) hardship withdrawals hit 6% of participants in 2025 (+25% YoY, record pace). This is a last-resort indicator — penalty taxes paid, no other options. Combined with NFP -92K, subprime delinquency trajectory, and UI exhaustion pipeline, the consumer stress chain is fully loaded. ADP NER weekly pulse shows 5-week recovery through Feb 21 (4,250→15,500/wk) — direct divergence with BLS NFP print. Consistent with BLS survey degradation thesis (Vector 9). March data (Mar 17 pulse, Mar 13 claims, Apr NFP) will show whether Hormuz/DHS escalation broke the recovery or ADP confirms BLS was the outlier.
-
-**Tomorrow (Mar 13) is the verdict session.** Double data event: initial claims (first clean read post-DHS, ≥235K → Vector 3→5) + JOLTS Jan 10AM ET. Continuing claims at 1,868K — 32K from YELLOW threshold (1,900K). DHS suppression has artificially held this down; one clean print could gap through. Watch BOTH numbers.
-
-**Mar 12 addition — front-loading accelerant:** DD-3 consumer research confirms demand destruction arrives 2-3 months, not 4+. $4/gallon gas = behavioral breakpoint. Low-income workers (longest commutes, no WFH) face fuel-vs-food choices — precisely the cohort most likely to file UI claims first. Auto defaults already 2.3M/yr. This shortens the runway to claims spike in commuter-heavy states. Adds conviction to LAB-03 (claims >250K, Q2-Q3).
-
-**Feb CPI tame but irrelevant.** +2.4% YoY in-line, core 2.5%. Apparel +1.3% showing tariff bleed-in. This is PRE-Hormuz, PRE-oil-shock data. Market sold off on the print — traders pricing March/April inflation re-acceleration. The stagflation trap is set; CPI is just the lag indicator confirming baseline before it gets worse.
-
-**Critical risk:** Healthcare strike reversal in March NFP could produce a +100-130K print. Street will declare "rebound." This is the bounce risk — don't mistake temporary strike arithmetic for structural improvement. Watch sector detail, not the headline.
+**NFP -92K confirmed shadow payroll gap. Valve broke.** Structural -64K after stripping healthcare strike (-28K). U-3 4.4% climbing. 1.9M long-term unemployed (+400K YoY). WARN→payroll r=0.78 validated. Fed trapped: -92K payrolls vs PCE 2.9% + Hormuz oil spike. 401(k) hardship withdrawals at record 6% (last-resort indicator). Consumer stress chain fully loaded. DD-3: demand destruction arrives 2-3mo, not 4+. **Critical risk:** Healthcare strike reversal in March NFP could produce +100-130K — bounce risk, not structural improvement. Watch sector detail. **This week:** FOMC/claims/BOJ triple event Wed. Schedule Policy/Career oral arg Tue. ADP Pulse pending. FL Wave 1 T-7.

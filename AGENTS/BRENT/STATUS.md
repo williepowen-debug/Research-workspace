@@ -3,6 +3,8 @@
 **Last Updated:** 2026-03-15 19:30 UTC — STAGE 2 LIVE SEARCH: Brent $101.07 (Mar 13) recovery confirmed / STNG SOLD (stop breached, exited by Will) / Chubb/DFC $20B Hormuz insurance announced Mar 11 / Japan SPR starts Mar 16 / Airlines fare hike phase active / JKM $16.18 / Kuwait BRT-02 model on track (Mar 20)
 **Overall Status:** 🔴🔴 RED-RED — HORMUZ CLOSED DAY 15 + ACTIVELY MINED / BRENT $101.07 RECOVERY (FROM $85 FLASH CRASH) / STNG SOLD / PHASE 1 INTACT / CHUBB/DFC INSURANCE = PATH A ANALOG (MARKET ALREADY PRICED)
 
+**Hamilton Demand Destruction Framework:** `domain/sources/HAMILTON_DEMAND_DESTRUCTION_FRAMEWORK.md` — NOPI=47, GDP drag -3.0 to -4.9pp, peak=lag4 Q1'27, equity trough 7-11mo post oil peak, credit peaks BEFORE equity (~3mo lead). **BRENT owns this framework.** Governs expiry selection for macro/index trades (HYG, KRE, IWM). Does NOT govern private credit single-name expiries (BROCK's domain).
+
 **Summary (Mar 11):** Active mining of Hormuz now confirmed — US destroyed 16 Iranian minelayers on Mar 11. Iran declared "not a single liter" passes to enemies. Dubai airport hit by 2 drones. 3 ships attacked in single day. Iranian financial institutions declared military targets by Tehran (asymmetric escalation). WTI crashed 11% yesterday (Mar 10) on Trump Truth Social rhetoric ("oil will drop rapidly"), then rebounded overnight as US military actions confirmed escalation not de-escalation. WTI $85 this morning — **flash crash, not repricing**. IEA announced 400M barrel release (largest in history). Kuwait storage crisis Mar 20 still on track (9 days away). Phase 1 thesis fully intact with stronger duration floor due to physical mines.
 
 ---

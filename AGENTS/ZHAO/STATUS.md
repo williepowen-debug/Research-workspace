@@ -1,8 +1,8 @@
 # ZHAO STATUS
-**Updated:** 2026-03-15 17:15 UTC (Stage 2 live search — 11 targets executed: CNY 6.91, DXY 100.50, KRW 1501, PBOC gold 16mo streak, Iraq 1.4M bpd confirmed, PIF equity pullback, Japan-Korea joint FX statement, Hormuz selectively open to non-West)
+**Updated:** 2026-03-17 13:45 UTC (Daily check-in: FOMC Day 1. PBOC fix 6.8961, HK AB stable, property -3.2% YoY, TIC tomorrow)
 **Overall Status:** 🔴🔴 CRITICAL ESCALATION — Four-Anchor UST Selling / Gulf War Intensifying / DIFC Evacuation Active
 
-**Summary:** FOUR independent UST selling/demand anchors now active: Japan (~$20-30B/mo), China/PBOC (~$5-10B/mo stealth), Korea/BoK (~$5-15B/mo, USD/KRW breached 1,500), Gulf petrodollar recycling collapse (**REVISED: ~$15-25B/mo** = $45-75B/qtr). Combined **$50-90B/month**. Gulf WAR ESCALATING overnight: Oil past **$100/bbl**, Iran's new supreme leader explicitly states Hormuz should **remain permanently closed**, 6 tankers attacked Mar 12, **Citi evacuating DIFC offices** (financial infrastructure threat now REAL, not hypothetical), explosions downtown Dubai, Kuwait airport material damage, Iran "war of attrition" declared. 32 countries releasing strategic reserves — did NOT stabilize prices. Trump "finish the job." HK peg stable (AB $53,854M, flat). TIC Mar 18 (not 15) = January 2026 data, still pre-crisis. CPI 2.4% YoY in-line Mar 12.
+**Summary:** FOUR independent UST selling/demand anchors active at combined **$50-90B/month**. **FOMC starts today (Mar 17-18)** — hold expected, but statement language on inflation critical given oil >$100. **TIC Jan 2026 data releases TOMORROW (Mar 18)** — Belgium $500B watch ($477.3B last). **USD/CNY:** PBOC set fix at **6.8961** today (down from 6.9057) — deliberate 96-pip appreciation signal; market rate ~6.94. 7.30 call pushed further out (8-12 weeks?). **HK peg:** AB **$53,854M** opening today (forecast $53,770M post-reversal Mar 18) — STABLE, well above $45B. 1-mo HIBOR **2.082%** (slight uptick). **Property:** Feb new home prices **-3.2% YoY** (worst in 8 months), -0.3% MoM; 53/70 cities declining. 15th Five-Year Plan acknowledges need to "improve property development" = no near-term fix. No major LGFV default overnight.
 
 ---
 
@@ -32,9 +32,9 @@ Mar 18 TIC = **January 2026 data** (pre-crisis — Gulf war began ~Feb 28). Firs
 ### Currency / HK Peg
 | Metric | Value | Threshold | Status | Source |
 |--------|-------|-----------|--------|--------|
-| USD/CNY | **6.91** | >7.30 = 🟠, >7.40 = 🔴 | 🟡 WATCHING | [CONF] TradingEconomics Mar 13 — DXY at 100.50 rebuilding CNY pressure. Up from ~6.85 Mar 6. |
-| HK Aggregate Balance | **HK$53.9B** | <$45B = 🟡, <$40B = 🟠 | 🟢 GREEN | [CONF] HKMA Mar 15 (53,854M unchanged) |
-| HIBOR-SOFR Spread | **~-223bps** | >-200bps = 🟠, >-300bps = 🔴 | 🟠 ORANGE | [CONF] HKAB 1-mo HIBOR 2.076% Mar 15 — slight uptick; SOFR ~4.30%. Approaching -200bps upgrade trigger. |
+| USD/CNY | **6.90** | >7.30 = 🟠, >7.40 = 🔴 | 🟡 WATCHING | [CONF] PBOC fix 6.8961 Mar 17 (down from 6.9057) — deliberate appreciation signal. Market ~6.94. 7.30 pushed out 8-12 weeks. |
+| HK Aggregate Balance | **HK$53.9B** | <$45B = 🟡, <$40B = 🟠 | 🟢 GREEN | [CONF] HKMA Mar 17 (53,854M open; forecast 53,770M Mar 18 after DW reversal) |
+| HIBOR-SOFR Spread | **~-222bps** | >-200bps = 🟠, >-300bps = 🔴 | 🟠 ORANGE | [CONF] HKAB 1-mo HIBOR 2.082% Mar 17; SOFR ~4.30%. Approaching -200bps upgrade trigger. |
 | USD/KRW | **1,501** | >1,500 = BoK UST selling | 🔴 ACTIVE | [CONF] TradingEconomics Mar 13 — stable at threshold. Japan+Korea joint FX statement Mar 14 confirms dual pressure. |
 
 ### Domestic Stress
@@ -61,7 +61,7 @@ Mar 18 TIC = **January 2026 data** (pre-crisis — Gulf war began ~Feb 28). Firs
 | 6 | PBOC Defensive Wall | 🟠 3 | **Gold 16mo streak** (updated Mar 15 — Bloomberg Mar 7: +30K troy oz to 74.22M troy oz = 2,308 tonnes). Crypto ban. CIPS +43%. Building redundancy. | Capital controls tightened = 4 |
 | 7 | HK Peg Channel | 🟡 2 | AB $53,854M stable Mar 12 (flat from $53,874 Mar 11). HIBOR-SOFR ~-227bps (1-mo HIBOR 2.029%). No change. Weekly monitoring. Gulf escalation (Citi DIFC evac, downtown Dubai explosions) raises capital flight tail risk through HK — still low prob but watch. | AB <$45B or HIBOR-SOFR >-300bps = 3 |
 | 8 | LNG/Energy Shock | 🔴 4 | Qatar LNG halted. China least exposed (COSCO/PICC) but macro transmission severe. | Taiwan LNG exhaustion = 5 |
-| 9 | USD/CNY Defense | 🟡 2 | ~6.85. NFP -92K gave PBOC breathing room. 7.30 pushed out. | USD reversal + DXY >103 = 3 |
+| 9 | USD/CNY Defense | 🟡 2 | ~6.90. PBOC fix 6.8961 Mar 17 = active appreciation signal. 7.30 pushed to 8-12 weeks. | USD reversal + DXY >103 = 3 |
 | 10 | Gulf Recycling Collapse | 🔴 5 | **ZHA-08 FIRED Mar 11.** $45-75B/qtr reduction. **Mar 15 UPDATE:** Iran selectively reopening Hormuz to non-Western vessels (Turkey passage approved Mar 13). This moderates revenue disruption SLIGHTLY — Gulf oil can reach Asia buyers. BUT: (1) Iran FM denies any ceasefire Mar 15; Trump denies endgame deal; (2) **Saudi PIF confirmed scaling back US equity holdings** (ainvest Mar 13 — force majeure reviews on investment contracts, "quiet but significant pullback"); (3) Iraq production confirmed at 1.4M bpd (minister Mar 12 — no recovery from 4.3M pre-war); (4) Gulf revenue destruction STRUCTURAL not temporary. | Saudi/UAE confirmed NET SELLERS of UST holdings → escalate to max |
 | 11 | Gulf Financial Infrastructure Destruction | 🔴 5 | **UPGRADED Mar 12.** Citi evacuating DIFC offices (staff told WFH "until further notice"). Explosions downtown Dubai. Kuwait airport "material damage." Iran "war of attrition" declared. Threat is NOW ACTIVE DISRUPTION — not just declared target. Correspondent banking disruption, SWIFT risk, emergency Gulf USD selling = live tail risk. | Any major financial hub operationally struck → max/emergency signal |
 
@@ -129,7 +129,7 @@ Guizhou NPL 11.6% (1 point from RED). Feb $456B liquidity crunch → PBOC inject
 |------|-------|-----------|----------|
 | **Mar 12 (Thu)** | Initial Claims | TRIPWIRE — if NFP -92K real, claims trend toward 300K. USD reversal risk if panic → flight to USD → PBOC forced to defend CNY. | 🔴 |
 | **Mar 13-14** | BOJ meeting | Japan anchor — rate decision into energy shock | 🔴 |
-| **Mar 18** | Jan 2026 TIC data *(corrected from Mar 15)* | Belgium $500B watch — Jan data (pre-crisis). Dec data already released Feb 18. | 🔴 |
+| **Mar 18** | Jan 2026 TIC data **TOMORROW** | Belgium $500B watch — Jan data (pre-crisis). Dec data already released Feb 18. FOMC decision also Mar 18. | 🔴🔴 |
 | **Apr 2026** | Trump-Xi Summit? | Geopolitical catalyst | 🟠 |
 | **Apr/May** | Mar/Apr TIC prints | First LNG crisis impact on China flows | 🔴 |
 | **Dec 2026** | SEC Cash Clearing mandate | Euroclear arbitrage begins — Belgium TIC growth fuel | 🟡 |
@@ -141,7 +141,7 @@ Guizhou NPL 11.6% (1 point from RED). Feb $456B liquidity crunch → PBOC inject
 
 | ID | Prediction | Conf | Timeframe | Status | Invalidation |
 |----|------------|------|-----------|--------|-------------|
-| ZHA-01 | USD/CNY breaks 7.30 | **60%** ↑ | ~~2-4 weeks~~ 4-8 weeks | OPEN | DXY reversal: 99.08 → 100.50 (+1.4% in 1 week). CNY now 6.91. Pressure rebuilding. DXY <100 sustained 10 sessions + PBOC stops gold buys |
+| ZHA-01 | USD/CNY breaks 7.30 | **55%** ↓ | 8-12 weeks | OPEN | PBOC fix 6.8961 Mar 17 = deliberate appreciation signal. Market ~6.94. PBOC actively managing CNY stronger, not weaker. 7.30 timeline extended. DXY <100 sustained 10 sessions + PBOC stops gold buys |
 | ZHA-02 | 10Y rises on risk-off (UST ≠ safe haven) | 65% | Mar 2026 | ✅ CONFIRMED | — |
 | ZHA-03 | Belgium TIC >$500B | 65% | Q1-Q2 2026 | OPEN | Growth decelerates <15% YoY for 2 prints |
 | ZHA-04 | China official <$650B | 65% | Q2-Q3 2026 | OPEN | NFP relief → may slip to Q3. Watch DXY. |
@@ -161,4 +161,4 @@ RP-ZHAO-1 (Belgium proxy) | RP-ZHAO-2 (LGFV/banking) | RP-ZHAO-3 (PBOC playbook)
 
 ## BOTTOM LINE
 
-**Four independent UST selling/demand anchors now active** at combined **$50-90B/month**: Japan ($20-30B), China ($5-10B stealth), Korea ($5-15B BoK defense), Gulf petrodollar collapse (**$15-25B/mo**, = $45-75B/qtr). **ZHA-08 FIRED.** Gulf war ESCALATING Mar 12: oil >$100, Iran new SL says Hormuz permanently closed, 6 tankers attacked, **Citi evacuating DIFC** (financial infra now actively disrupted), Kuwait airport material damage. 32-country SPR release failed. Gulf financial infra vector upgraded to 5/5. Any short-term UST rally = sell into it. CPI 2.4% (in-line, Mar 12) = PRE-oil-shock baseline; stagflation print arrives Apr/May. Next catalysts: BOJ Mar 13-14, TIC Mar 18 (Jan 2026 data, Belgium $500B watch).
+**Four independent UST selling/demand anchors now active** at combined **$50-90B/month**. **FOMC Day 1 today.** TIC Jan 2026 data **TOMORROW Mar 18** — Belgium $500B watch ($477.3B last, need +$22.7B). USD/CNY: PBOC fix **6.8961** (deliberate appreciation) — 7.30 call pushed to 8-12 weeks, confidence lowered to 55%. HK peg: AB $53.9B = GREEN, no stress. Property: Feb prices **-3.2% YoY** (accelerating decline, worst in 8 months) confirms zombification thesis but no acute crisis. No LGFV defaults overnight. HIBOR-SOFR spread narrowing toward -200bps trigger — monitor. **Key tomorrow:** TIC print + FOMC decision (hold expected but inflation language critical given oil >$100 = stagflation narrative fuel).

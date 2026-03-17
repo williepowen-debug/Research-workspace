@@ -190,7 +190,7 @@ The deep dives reveal we actually have **two fundamentally different trade types
 - **Downside scenario:** 20% software haircut ($1.4B) + rate cut (-$200M NII) → dividend cut → stock $18→$14
 
 ### Why This Distinction Matters for Positioning:
-- **APO puts should be LONGER-DATED** (Jun→Dec roll per Hamilton) because the structural risk plays out over quarters, not days
+- **APO puts should match the catalyst window** — April-May cluster (tenders, class actions May 1, earnings) is dateable. Jun captures it. Hamilton's Dec logic applies to macro/index trades, not single-name PC plays with imminent catalysts.
 - **ARCC puts could be SHORTER-DATED** because the credit quality deterioration shows up in specific, dateable events (National Dentex April, Q1 earnings May)
 - **They're partially uncorrelated** — APO can break even if ARCC holds (Athene run), or ARCC can break even if APO holds (software defaults without insurance crisis)
 - **But they reinforce each other** — if both break simultaneously, the sector repricing is much larger than either alone

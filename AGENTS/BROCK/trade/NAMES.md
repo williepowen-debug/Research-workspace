@@ -11,7 +11,7 @@
 | Name | Ticker | Why | Edge | Position |
 |------|--------|-----|------|----------|
 | **Apollo Global** | APO | Athene $386B investments, $85B funding agreements (+56% YoY), $35B affiliated paper, spread compressing 1.93%→1.61%. Dual class actions (PC + Epstein, May 1). Zito "all marks wrong." ARI $9B CML at 99.7¢ (related-party mark support). | **Statutory filing edge (CONFIRMED):** $225.7B reinsurance receivables, 55:1 ratio, deposit-type $64.3B (+76.6%), ALRe surplus -22%. ZERO external coverage. We are first to connect Gober framework to FY2025 data. | Apr put (harvest) + Jun put (roll→Dec) |
-| **Ares Capital** | ARCC | World's largest BDC ($29.5B). Software 23.8% ($7B) vs "12%" spin. **PIK $487M (34% of NII = phantom)**. NII declining despite 10% portfolio growth. Net income/share $2.75→$2.44→$1.86. Grade 1 distressed +73% ($448M). Net unrealized turned negative (-$96M). 72% floating rate = Fed cut trap. Asset coverage 189% declining. | 10-K edge — market doesn't know true software exposure OR PIK severity. OBDC shares Pluralsight + National Dentex + CivicPlus = correlated marks. OBDC is ARCC 6-12mo ahead on stress curve. | Candidate — need options chain |
+| **Ares Capital** | ARCC | World's largest BDC ($29.5B). Software 23.8% ($7B) vs "12%" spin. **PIK $487M (34% of NII = phantom)**. NII declining despite 10% portfolio growth. Net income/share $2.75→$2.44→$1.86. Grade 1 distressed +73% ($448M). Net unrealized turned negative (-$96M). 72% floating rate = Fed cut trap. Asset coverage 189% declining. | 10-K edge — market doesn't know true software exposure OR PIK severity. **CORRECTION:** OBDC shares Pluralsight but NOT National Dentex with ARCC (ARCC has zero NDX exposure per EDGAR). OBDC is ARCC 6-12mo ahead on stress curve, but some OBDC stress is idiosyncratic (NDX, etc.). | Candidate — need options chain |
 
 ---
 
@@ -41,7 +41,7 @@
 
 | Name | Sponsor | Why | Urgency |
 |------|---------|-----|---------|
-| **⚠️ National Dentex Labs** | — | 100% PIK, $162M→$78M (-51%), maturing **April 2026**. Held by BOTH OBDC and ARCC = simultaneous correlated catalyst. | **WEEKS AWAY** |
+| **⚠️ National Dentex Labs** | Cerberus | 100% PIK, $162M→$78M (-51%), maturing **April 2026**. Held by **OBDC + OBDC II + OBDE + Silver Point**. ❌ **NOT held by ARCC** (CONFIRMED via EDGAR search, zero hits). Blue Owl-specific contagion, NOT ARCC catalyst. Deep dive: `trade/NATIONAL_DENTEX/NATIONAL_DENTEX_DEEP_DIVE.md` | **WEEKS AWAY** |
 | **Medallia** | Thoma Bravo | 78¢ mark (BXSL Q4). Bellwether for software collateral. Q1 = worse? | Q1 earnings |
 | **Pluralsight** | Vista | Ch.11 Dec 2023. Held by both OBDC (affiliated) and ARCC. Restructured but still in portfolios. | Ongoing — marks correlated |
 | **CivicPlus** | — | OBDC holds 1st lien + PIK debt issuer + LP interest. Dedicated PIK vehicle = red flag. Likely in ARCC. | Ongoing |
@@ -101,4 +101,5 @@ Partially uncorrelated. Mutually reinforcing if 2+ fire together.
 | 2026-03-17 | **WFC promoted Tier 3→Tier 2** as potential third trade leg. | Cross-analysis: bank transmission = how this goes systemic |
 | 2026-03-17 | **KKR updated** — deep dive complete. Stays Tier 2. Same DNA, less advanced. Specific upgrade triggers added. | KKR/GA deep dive |
 | 2026-03-17 | **National Dentex flagged IMMINENT** — April maturity, shared by ARCC + OBDC. Added CivicPlus to Tier 4. | Portfolio overlap analysis |
+| 2026-03-17 | **⚠️ CORRECTION: National Dentex NOT held by ARCC.** EDGAR full-text search confirms zero ARCC filings contain "National Dentex." Holders: OBDC + OBDC II + OBDE + Silver Point only. Sponsor: Cerberus. Deep dive complete. | EDGAR primary source verification |
 | 2026-03-17 | **Three-leg trade architecture added** to mental model. APO (structural) + ARCC (credit) + WFC (transmission). | Cross-analysis synthesis |
