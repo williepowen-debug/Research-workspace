@@ -1,6 +1,6 @@
 # SCRATCH — Ephemeral Working Memory
 
-**Updated:** 2026-03-17 ~14:15 UTC (Tuesday)
+**Updated:** 2026-03-17 ~14:35 UTC (Tuesday)
 
 ---
 
@@ -31,6 +31,16 @@ Scenario C, War Day 15. Account $56,887 (+163%). FOMC Day 1. Two thresholds brea
 - **ZHAO:** All below thresholds. TIC drops tomorrow. PBOC managing CNY stronger (7.30 call pushed to 8-12 weeks).
 - **Educated Will on HY OAS** — what it means, historical widening speeds. 2007-08 template = slow grind (320→500 in months, then acceleration). Compression factor may pull to 2-4 months.
 - **All files committed and pushed to GitHub.**
+- **Signal processing batch (post-clear #1):** 5 signals packaged:
+  - BRENT SIG-001: Jones Act waiver (🟢 BACKGROUND)
+  - CARL SIG-001: Farm Bureau fertilizer warning (🟡 STANDARD)
+  - CARL SIG-002: Mortgage credit K-shape, FHA 11% DQ (🟡 STANDARD)
+  - BROCK SIG-001: PC data center reflexive loop — OWL $30B Meta, APO/BX named (🟡 STANDARD)
+  - REGINALD SIG-001: Florida foreclosures +35% completed, Lakeland worst metro (🟡 STANDARD)
+  - SKIPPED: WTI vol h² paradox (Abdelmessih) — educational, not actionable
+- **Market at ~10:25 AM ET:** APO $107.55 (+$4.10), ARES $103.02 (+$3.86) relief rally. KRE flat $63.39. WAL weakest (-0.93%).
+- **ARES entry:** Waiting for rally to settle. Recommended late today or pre-FOMC tomorrow for better pricing.
+- **Will has more signals to submit after clear.**
 
 ## OPEN ITEMS (PRIORITY ORDER)
 
