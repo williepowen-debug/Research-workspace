@@ -1,7 +1,121 @@
 # BRENT STATUS
 
-**Last Updated:** 2026-03-15 19:30 UTC — STAGE 2 LIVE SEARCH: Brent $101.07 (Mar 13) recovery confirmed / STNG SOLD (stop breached, exited by Will) / Chubb/DFC $20B Hormuz insurance announced Mar 11 / Japan SPR starts Mar 16 / Airlines fare hike phase active / JKM $16.18 / Kuwait BRT-02 model on track (Mar 20)
-**Overall Status:** 🔴🔴 RED-RED — HORMUZ CLOSED DAY 15 + ACTIVELY MINED / BRENT $101.07 RECOVERY (FROM $85 FLASH CRASH) / STNG SOLD / PHASE 1 INTACT / CHUBB/DFC INSURANCE = PATH A ANALOG (MARKET ALREADY PRICED)
+**Last Updated:** 2026-03-17 16:30 UTC — SUPPLY QUANTIFICATION UPDATE: ADNOC 50% shut-in (~2.0M bpd) + Fujairah terminal SUSPENDED (1.8M bpd throughput) + Shah Gas Plant struck (1.28-1.45 Bscf/d) + Kuwait curtailment Mar 20 (2.58M bpd) + Iraq 1.5M bpd offline + Qatar force majeure. **TOTAL GULF OIL OFFLINE: ~6.8-7.0 mbpd. TOTAL GAS OFFLINE: ~6.5-7.0 Bscf/d. SPR 400M bbl covers only 65% of offline oil at peak release rate — and only once.** SK refiners at 3-week feedstock deadline (early April). Jones Act waiver logged as policy tool exhaustion signal.
+**Overall Status:** 🔴🔴 RED-RED — HORMUZ CLOSED + PHYSICALLY MINED / ADNOC 50% SHUT-IN / FUJAIRAH BYPASS SUSPENDED / LAST BYPASS ROUTE (ADCOP→FUJAIRAH) NOW OFFLINE / GULF OIL OFFLINE ~7 MBPD / SK REFINER FEEDSTOCK CRISIS 3 WEEKS / PHASE 1 EXTENDED + DEEPENED
+
+---
+
+## ⚡ MAR 17 CRITICAL UPDATE — GULF SUPPLY QUANTIFICATION
+
+### Total Gulf Oil Production Offline (as of Mar 20-21)
+
+| Producer | Production (full) | Offline | Mechanism | Confidence |
+|----------|------------------|---------|-----------|------------|
+| UAE (ADNOC) | ~4.1 mbpd | **~2.0 mbpd** | 50% shut-in confirmed + Fujairah export terminal suspended | HIGH [B2] |
+| Kuwait | 2.58 mbpd | **~2.58 mbpd** | Tank tops Mar 20 — full curtailment | HIGH [CONF] |
+| Iraq | ~4.2 mbpd | **~1.5 mbpd** | Rumaila/WQ2 already curtailed | HIGH [CONF] |
+| Qatar | ~0.7 mbpd crude/cond | **~0.7 mbpd** | Force majeure, Ras Laffan offline | HIGH [CONF] |
+| **TOTAL** | — | **~6.8–7.0 mbpd** | — | — |
+
+**Context:** Hormuz normal transit = 20M bpd. Bypass max (now Petroline only) = ~3.3-3.5M bpd. Net offshore gap = 16.5-16.7M bpd. Gulf producers now offline at the *source* — 6.8-7.0M bpd is curtailed before it even reaches Hormuz.
+
+**SPR Comparison:**
+- IEA/DOE 400M barrel release over ~90-120 days = **~3.3-4.4 mbpd injection rate** (one-time)
+- Gulf offline: **6.8-7.0 mbpd ongoing** — SPR covers ~50-65% of offline production, and only for 90-120 days
+- SPR is a temporary bridge, not a structural fix. After depletion, no backstop remains.
+- **US strategic reserves at ~443M bbl (EIA Mar 12)** — releasing 172M bbl (DOE component) = 38.8% of remaining SPR. Not repeatable.
+
+### Total Gulf Gas Offline
+
+| Source | Volume Offline | Notes |
+|--------|---------------|-------|
+| Qatar LNG (Ras Laffan) | **~4.4 Bscf/d** | 70% of Qatar's 6.3 Bscf/d capacity offline (force majeure) |
+| UAE Shah Gas Plant (struck Mar 16) | **~1.28-1.45 Bscf/d** | World's largest ultra-sour processing facility. No substitute. Fire "under control" per Abu Dhabi Media Office — offline time unknown. |
+| Kuwait associated gas | **~0.4-0.5 Bscf/d** | Proportional to oil shut-in (Mar 20+) |
+| Iraq associated gas | **~0.3-0.4 Bscf/d** | Proportional to Rumaila/WQ2 curtailment |
+| **TOTAL GAS OFFLINE** | **~6.4-6.8 Bscf/d** | Equivalent to ~40-43 MMBtu/d (billion) |
+
+**Gas market implications:** Pre-war JKM was $10.7/MMBtu. Now $16.18 (Mar 14). Shah strike adds a non-recoverable volume hit — ultra-sour gas requires specialized processing that can't route to other UAE facilities. Qatar force majeure was already the dominant factor; Shah adds structural supply destruction, not just transit disruption.
+
+### Fujairah — Last Bypass Now Offline
+
+**This is the critical structural change as of Mar 16-17:**
+
+| Route | Pre-Mar 17 Status | Post-Mar 17 Status |
+|-------|------------------|-------------------|
+| Petroline → Yanbu (Saudi) | 🟡 1.9M bpd running | 🟡 Still running (~3.3M bpd cap) |
+| ADCOP → Fujairah | 🟠 1.5M bpd running | 🔴 **SUSPENDED** — terminal hit, loading halted |
+| Kirkuk-Ceyhan | 🔴 0 bpd since Mar 3 | 🔴 0 bpd |
+| **Net bypass** | ~3.4M bpd | **~3.3M bpd (Petroline only)** |
+
+**Strategic implication:** Fujairah was the only route for UAE crude to reach market WITHOUT Saudi Arabia's infrastructure. With Fujairah suspended, UAE crude production has no export path. This is why ADNOC is shutting in — "production without export capacity becomes a liability." ADNOC restart after Fujairah repair could take weeks (physical terminal damage assessment needed).
+
+**Iran retaliation cycle model (updated):**
+- US strikes Kharg Island (90% of Iran exports) → Iran targets GCC export infrastructure → each iteration removes more bypass capacity → supply offline compounds non-linearly
+- Kharg Island offline = Iran has little left to lose from infrastructure targeting
+- This cycle is NOT self-limiting; it ends at either US ceasefire or total Gulf export collapse
+
+### South Korean Refiner Feedstock Crisis
+
+**Source:** @CRUDEOIL231 (C3 — claims direct meetings with SK refiner heads). Treat as MEDIUM confidence, high impact if true.
+
+| SK Refiner | Capacity | Gulf exposure |
+|-----------|----------|---------------|
+| SK Innovation (Ulsan) | ~840K bpd | ~65% Gulf crude |
+| GS Caltex | ~650K bpd | ~70% Gulf crude |
+| S-Oil (Samsung + Saudi Aramco JV) | ~580K bpd | ~85% Gulf crude |
+| HD Hyundai (formerly Hyundai Oilbank) | ~390K bpd | ~65% Gulf crude |
+| **SK Total capacity** | **~2.46 mbpd** | **~65-72% Gulf-dependent** |
+
+**Timeline:** 3 weeks of feedstock remaining → early April 2026 deadline for run cuts
+**S-Oil is structurally exposed:** Saudi Aramco JV = almost entirely Arab crude. If Saudi bypasses (Petroline) compress further, S-Oil faces earliest curtailment.
+
+**Product export impact of SK run cuts:**
+- SK exports ~700-800K bpd of refined products (gasoline, diesel, jet fuel, naphtha) to Asia-Pacific
+- Primary markets: US West Coast, Southeast Asia, Australia, Japan, Taiwan
+- At 50% run cuts: **~350-400K bpd Asia-Pacific product supply loss**
+- At full curtailment: **~600-700K bpd loss** — equivalent to removing a mid-size refinery nation from global supply
+
+**Transmission chain:**
+Gulf crude offline → SK run cuts (early Apr) → Asia-Pacific product shortage → crack spread spike (all products) → global product shortage acceleration → Hamilton demand destruction framework accelerates via price, not just supply removal
+
+**Interaction with Japan:** Japan SPR release started Mar 16 (80M bbl committed). Japan imports ~3.1 mbpd, ~80% from Gulf. Japan and Korea together = ~5.7 mbpd of Gulf-dependent refining. If both cut runs simultaneously in April, Asia-Pacific product market seizes.
+
+### Fertilizer Supply Chain (Priority 4)
+
+**Gulf urea context:** Gulf produces **~49% of world urea** (primarily Qatar, UAE, Saudi Arabia).
+
+| Disruption | Volume | Impact |
+|-----------|--------|--------|
+| Fertiglobe (UAE, ADNOC partnership) | **6.6M tonnes/yr trapped** | Fertiglobe = Fertilizers & Chemicals division of ADNOC; major global urea/melamine exporter. UAE port suspension = no exports. |
+| Qatar nitrogen fertilizer | Ras Laffan offline | Qatar is major urea exporter via ammonia → urea chain from associated gas |
+| China nitrogen-potassium halt | Bloomberg reported | China provides ~30% of global potash; halting N+K exports removes both primary production AND swing supply simultaneously |
+| Shah Gas Plant (sulphur) | **4.2M tonnes/yr sulphur** offline | Sulphur → sulphuric acid → phosphate fertilizer chain. Shah produces 4.2M tonnes/yr. Phosphate prices spike. |
+
+**Total fertilizer offline model:**
+- Urea: ~6.6M tonnes/yr Fertiglobe + Qatar force majeure (est. 2-3M tonnes/yr) = **~8-10M tonnes/yr offline** = ~25-30% of world urea
+- Combined with China N+K halt: **world may face >40-50% of urea/nitrogen supply disruption**
+- Timeline for food price impact: 2-3 months for growing-season miss (spring planting window is NOW)
+
+**CF Industries (CF) — Jun $115C assessment:**
+- CF is the dominant North American urea/nitrogen producer (HQ: Northbrook IL)
+- CF produced ~20M+ tonnes of nitrogen products in 2024; ~50% exported
+- Direct beneficiary of Gulf urea offline: Gulf supply removal = pricing power restoration to N. American producers
+- CF spot: tracking urea Tampa benchmark (~$380/tonne recent) — each $50/tonne urea price increase = ~$200-300M CF revenue upside
+- **Gulf urea offline + China N+K halt = structural CF bull case: 8-10M tonnes offline from Gulf alone**
+- Risk to $115C: ceasefire resolution before June would restore Gulf supply; China policy reversal
+- **Assessment: HIGH CONVICTION on directional; Jun $115C is aggressive (OTM). Consider also checking CF current stock price and whether spread or different strike warrants re-evaluation.**
+- **Signal to CARL:** Fertilizer supply chain breakdown feeds food CPI chain. Spring planting window impact = summer/fall food price surge.
+
+### Jones Act Waiver (Priority 5 — Policy Tool Exhaustion)
+
+- 30-day waiver for foreign-flagged domestic petroleum movement
+- **Marginal impact:** Cato estimates single-digit cents/gallon on retail fuel price
+- **What it signals:** Administration is burning policy levers. Jones Act waiver + SPR release + IEA coordination = three policy tools deployed; all insufficient
+- **Tool exhaustion inventory:** SPR release (deployed), IEA coordination (deployed), Jones Act waiver (under consideration) → next tool requires Congressional action or price controls
+- **Logged as:** POLICY_RESPONSE, confirmatory of thesis
+
+---
 
 **Hamilton Demand Destruction Framework:** `domain/sources/HAMILTON_DEMAND_DESTRUCTION_FRAMEWORK.md` — NOPI=47, GDP drag -3.0 to -4.9pp, peak=lag4 Q1'27, equity trough 7-11mo post oil peak, credit peaks BEFORE equity (~3mo lead). **BRENT owns this framework.** Governs expiry selection for macro/index trades (HYG, KRE, IWM). Does NOT govern private credit single-name expiries (BROCK's domain).
 
@@ -104,7 +218,7 @@
 |----------|--------------------------|--------|-----------------|-------|
 | Kuwait | 33.54 mbbls (~13 days) | 🔴 Curtailing | **Mar 20 (BRT-02)** | 2.58 mbpd full shutdown. Refineries already cutting Mar 5. No bypass. |
 | Qatar | Filling | 🔴 Curtailing | Already begun | Ras Laffan LNG terminal OFFLINE (attacked). |
-| UAE | 45.84 mbbls (~24 days) | 🟠 Filling | **Mar 31 (BRT-03)** | 1.91 mbpd shutdown. ADCOP 1.5 mbpd intact w/ intermittent disruption. |
+| UAE | 45.84 mbbls (~24 days) | 🔴 ACCELERATING | **EARLIER — Fujairah suspended** | ADNOC 50% shut-in (~2.0 mbpd). ADCOP→Fujairah terminal suspended. Export path gone. Shutdown accelerated beyond BRT-03 Mar 31 estimate. |
 | Iraq | ~Days | 🔴 Already curtailing | Already begun | 1.5 mbpd shut in at Rumaila/WQ2 (days 1-3). National power blackouts. |
 | Saudi Arabia | Months | 🟡 Buffer | N/A | East-West pipeline to Yanbu: 1.9 mbpd Mar 1-5 (60% above Feb avg). |
 
@@ -193,7 +307,7 @@ The mine confirmation creates a nuanced wrinkle in Path A exit protocol: a cease
 | Vector | Score | Current State | Threshold → Next | Updated |
 |--------|-------|---------------|------------------|---------|
 | Hormuz/chokepoint | 🔴🔴 5 | -92% shipping + **PHYSICAL MINES CONFIRMED** (Mar 11). US sank 16 minelayers. Iran: full blockade. Dubai airport hit. 3 ships attacked in single day. | Physical mines = duration floor. Even ceasefire → 30-90 day corridor clearance before shipping. | Mar 11 |
-| Gulf production | 🔴 4 | Kuwait/Qatar curtailing; UAE/Iraq imminent | All 4 shut = 5 | Mar 6 |
+| Gulf production | 🔴🔴 5 | **ALL 4 CURTAILING + ADNOC 50% SHUT-IN + FUJAIRAH SUSPENDED.** Kuwait Mar 20. Iraq 1.5M bpd offline. Qatar force majeure. UAE: ADNOC 50% shut-in (~2M bpd), export terminal suspended. Total offline: ~6.8-7.0 mbpd. Shah Gas Plant hit (1.28-1.45 Bscf/d). | MAX — all 4 curtailed + export infrastructure destroyed | Mar 17 |
 | Brent price | 🔴🔴 5 | **WTI $107 peak (Mar 9), $85 flash crash (Mar 11)**. $100 threshold breached and retreated on Trump rhetoric + SPR announcement. Physical reality supports $90+ base. | $85 = buy-the-dip. $107 = peak was Scenario C entry. Mine floor: $85-90 base even with SPR. | Mar 11 |
 | US production response | 🟡 2 | NON-RESPONSE CONFIRMED: 411 oil rigs (flat/declining), DUC 5,015 (-41% from peak), no capex increases announced. Max surge 200-240K bpd/90 days — well below crisis need. | Rig count >461 (+50 from 411 trough) = shale finally responding | Mar 6 |
 | Demand destruction | 🟠 3→4 | **Airlines in fare-hike phase as of Mar 9-12** (Qantas, Air India, multiple Asia/Europe carriers). Route cuts are NEXT phase in 4-8 weeks (late April). Pump price: $3.699/gal (AAA Mar 15). Clock started for airline capacity cuts. | Gasoline -5% YoY confirmed (earliest May-June). Airline route cuts = leading signal (watch IATA Apr-May) | Mar 15 |
@@ -278,9 +392,9 @@ The mine confirmation creates a nuanced wrinkle in Path A exit protocol: a cease
 | Route | Real Ceiling | Status |
 |-------|-------------|--------|
 | Petroline → Yanbu | **3.3-3.5M bpd** (terminal loading limit, not pipeline capacity) | 🟡 1.9M bpd Mar 1-5 (surge from 1.1M Feb avg). Grade limit: Arab Light only. Red Sea Houthi threat. |
-| ADCOP → Fujairah | **1.5 mbpd normal / 1.8 mbpd surge** | 🟠 Running at ~1.5 mbpd. Intermittent attacks at Fujairah since Mar 3. NOT down to 0.3M bpd as previously estimated. |
+| ADCOP → Fujairah | **1.5 mbpd normal / 1.8 mbpd surge** | 🔴 **SUSPENDED (Mar 16-17)** — Terminal hit, loading operations halted entirely. ADCOP pipeline may still run but with nowhere to load, UAE crude is landlocked. |
 | Kirkuk-Ceyhan | **0 bpd** | 🔴 Full suspension since Mar 3 |
-| **Net bypass max** | **~4.5-5.0M bpd realistic** | **~15M bpd gap vs 20M normal Hormuz flow** |
+| **Net bypass max** | **~3.3M bpd (Petroline only)** | **~16.7M bpd gap vs 20M normal Hormuz flow. Fujairah suspension = last UAE bypass offline.** |
 
 **⚠️ ADCOP CORRECTION (Batch 4):** Prior STATUS entry (0.3M bpd) was OVERSTATED on drone damage. Actual: ADCOP running ~1.5 mbpd per GULF_STORAGE_CRISIS_MAR8 model. UAE storage runway (Mar 31 curtailment) is based on this corrected figure — longer buffer than previously stated. However, Fujairah drone vulnerability remains real risk; if terminal fully disabled, UAE net build rate surges back to 3.41 mbpd (halving runway to mid-March).
 

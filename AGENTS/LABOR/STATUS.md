@@ -19,6 +19,8 @@
 
 **FOMC — STARTS TODAY (Mar 18-19):** Decision + dot plot + Powell presser Wednesday. CME FedWatch 92%+ hold. Median dot may shift to 0 cuts given stagflation trajectory (PCE +3.1%, oil $100+, NFP -92K). Fed trap fully set.
 
+**TSA WEEKEND ESCALATION (Mar 16-17):** CNN reports "hourslong lines" at airports as TSA agents quit en masse after first full weekend without pay. 50K TSA agents working without pay or partial pay. Spring break + northeast megastorm compounding. Senate returned Mar 16 but NO vote attempted — no visible path to 60. DOGE depositions released (Fortune Mar 16): staffers admitted cuts didn't reduce deficit. ~300K federal layoffs confirmed (Wikipedia/Fortune). Shutdown Day 32+.
+
 **Prior Mar 16 summary:** Senate failed vote #4 (Fetterman sole Dem yes, Slotkin signaling crack). TSA 300+ quit. Megastorm + spring break. Mullin nominated for DHS.
 
 **[ARCHIVED Mar 13-15 detailed notes → see domain/sources/STATUS_archive_20260315.md]**

@@ -1,6 +1,156 @@
 # SAM STATUS
 
-**Signal Status:** 🔴🔴 CRITICAL — USD/JPY **~159.3** (Mar 17) | MoF VERBAL ACTIVE (Katayama: ready to act if 160) | **UEDA HAWKISH PRE-MEETING: "INFLATION ACCELERATING TOWARD 2%"** | NIKKEI **53,700** (flat, 4th down day) | JGB 10Y **~2.28-2.30%** (ABOVE YELLOW) | BRENT **~$102-105** (UP from $100 — Bessent de-escalation FADING) | NISSAN ACCEPTED FULL ¥10,000 WAGE DEMAND | SHUNTO YAMABA **TOMORROW MAR 18** | BOJ OPENS **TOMORROW** | FOMC STARTS **TODAY** | FY-END T-14 DAYS | **Last Updated:** 2026-03-17 (13:45 UTC Check-in)
+**Signal Status:** 🔴🔴 CRITICAL — USD/JPY **~159.3** (Mar 17) | MoF VERBAL ACTIVE (Katayama: ready to act if 160) | **UEDA HAWKISH PRE-MEETING: "INFLATION ACCELERATING TOWARD 2%"** | USD RISK REVERSALS AT +92BPS (HIGHEST SINCE NOV 2022) | SK REFINERS: 3 WEEKS FEEDSTOCK — ASIA-PAC SUPPLY CHAIN BREAKING | NIKKEI **53,700** | JGB 10Y **~2.28-2.30%** (ABOVE YELLOW) | BRENT **~$102-105** | BOJ DECISION **THURSDAY** | TIC DATA **TOMORROW MAR 18** | FY-END T-14 DAYS | **Last Updated:** 2026-03-17 (16:24 UTC Signal Batch)
+
+---
+
+## 📡 SIGNAL BATCH — MAR 17, 2026 (16:24 UTC)
+
+### HEADLINE: USD RISK REVERSALS HIGHEST SINCE NOV 2022 — DOLLAR STRENGTH PINS USD/JPY AT 159.3, INCHES FROM KATAYAMA'S 160 LINE. $680B BOJ DUMP STORY DEBUNKED. SK REFINER FEEDSTOCK CRISIS POINTS TO ASIA-PAC SUPPLY CHAIN FRACTURE. BOJ THURSDAY. TIC TOMORROW.
+
+---
+
+### 🚨 SIGNAL 1 — USD BULLISH BETS SKYROCKETING (SIG-2026-03-17-001)
+
+**Data:** 1-month risk reversals on Bloomberg Dollar Spot Index: **+92bps** (highest since Nov 2022). Was -90bps in January. Net swing: **180bps — one of the sharpest turnarounds on record.**
+
+**Driver:** USD strength fueled by oil→inflation expectations (Brent $102-105 = reflation trade → USD bid).
+
+**USD/JPY implication:** This is the key tension point. Dollar strength is the gravitational force keeping USD/JPY pinned near 159.3 — **the market is pulling AGAINST yen recovery**. Every 25bps of USD risk reversal widening is a headwind for the carry unwind thesis via FX channel.
+
+**Assessment:**
+- Short-term: USD strength DELAYS yen recovery. The 159.3 → 157 path requires BOJ hawkishness to OVERCOME dollar bid, not just yen fundamentals improving.
+- Carry unwind risk remains elevated *precisely because* we're so close to 160 with dollar strength building — any overshoot triggers MoF intervention, which is a violent reversal.
+- **The two-way risk has never been sharper:** BOJ hawkish surprise → yen rips against the dollar trend → violent short squeeze. BOJ dovish → 160 breaks → Katayama intervention → also violent reversal.
+
+**Thesis impact:** NEUTRAL-TO-SLIGHTLY NEGATIVE for near-term thesis path. The carry unwind isn't wrong — the dollar strength makes the trigger point more binary (BOJ or MoF, not gradual drift). **7d carry unwind prob revised: 30% → 28%** (harder path but same destination). 30d unchanged at 88%.
+
+---
+
+### ⚠️ SIGNAL 2 — "$680B BOJ UST DUMP" — DEBUNKED (SIG-2026-03-17-002)
+
+**Claim:** @DeFiTracer (crypto influencer) claimed BOJ plans to sell $680B in US assets.
+
+**Verdict: MISINFORMATION.** $680B would be >50% of total BOJ UST holdings. No credible corroboration from any financial press, BOJ statements, or MoF sources. Almost certainly: extreme misinterpretation of FY-end rebalancing flows (which ARE real, just orders of magnitude smaller).
+
+**What IS true:**
+- Japan IS a net UST seller — this is our four-anchor thesis anchor #2
+- FY-end repatriation IS happening — life insurers, trust banks rebalancing
+- The direction (net selling) is plausible; the $680B magnitude is fantasy
+- TIC data tomorrow (Mar 18) will show actual UST flow — that's the real number
+
+**Action:** Do NOT incorporate $680B figure. Watch TIC data tomorrow for actual flow. If TIC shows >$20B in Japanese selling in any recent month, that's signal. $680B is noise.
+
+---
+
+### 🚨 SIGNAL 3 — SOUTH KOREA REFINERS: 3 WEEKS FEEDSTOCK (EMBEDDED IN BATCH)
+
+**Data:** South Korean refiners report approximately **3 weeks of feedstock remaining**. Run cuts imminent. SK is a major Asia-Pacific product exporter (jet fuel, diesel, naphtha).
+
+**Why this matters for Japan:**
+1. SK refiner run cuts → Asia-Pacific product supply tightens → import costs rise for Japan
+2. Japan refiners likely face similar feedstock constraints (same supply chains, same Hormuz/Iran dependency)
+3. Japan refiner stress → margin compression → potential capacity reduction → inflationary input cost pass-through
+4. BOJ's "look through" on oil shock gets harder if supply chain fractures, not just spot price
+
+**Thesis impact:** NEGATIVE for BOJ's ability to hike cleanly. If SK run cuts hit in 2-3 weeks (post-BOJ Thursday), the Apr 23-24 BOJ meeting faces a more complex energy picture than Mar 18-19. However, **for the Thursday decision**, this is a forward risk, not a current constraint. Ueda may acknowledge it or ignore it — watch presser language carefully.
+
+**Cross-link:** Flag to HAWK (oil supply chain), LIQUID (refiner credit stress), NEXUS (thesis impact).
+
+---
+
+### UPDATED METRICS — MAR 17 (16:24 UTC)
+
+| Metric | Prior (13:45) | Now (16:24) | Delta |
+|--------|--------------|-------------|-------|
+| **USD/JPY** | ~159.3 | **~159.3** | Flat — dollar strength holding |
+| **USD Risk Reversals (1M)** | Not tracked | **+92bps** | 🔴 Highest since Nov 2022 — NEW INPUT |
+| **Carry Unwind 7d** | 30% | **28%** | ⬇️ USD strength makes path harder (not thesis wrong) |
+| **Carry Unwind 30d** | 88% | **88%** | Unchanged |
+| **BOJ April hike prob** | 68-70% | **68-70%** | Unchanged |
+| **SK feedstock** | Not tracked | **~3 weeks** | 🔴 Asia-Pac supply chain risk — NEW INPUT |
+| **$680B BOJ dump** | N/A | **DEBUNKED** | ✅ Filed as misinformation |
+
+---
+
+### ACTIONABLE VERIFICATION POINTS (NEXT 48H)
+
+| Time | Event | What to watch |
+|------|-------|---------------|
+| **Mar 18 AM JST** | Auto Yamaba (Toyota/Honda) | ≥¥12,000 = hawkish presser confirmed |
+| **Mar 18 (TIC data)** | US Treasury International Capital | Japan net UST flow — real number vs $680B myth |
+| **Mar 19 (Thu)** | BOJ decision + Ueda presser | Hawkish hold language, April hike guidance |
+| **Mar 19 (Thu)** | FOMC decision | Fed dovish = rate differential narrows from both sides |
+| **Mar 20-21** | SK refiner run cuts | If confirmed: Asia-Pac product supply tightening begins |
+
+---
+
+## 📡 SIGNAL BATCH — MAR 17, 2026 (16:30 UTC) — SIG-2026-03-17-001 & 002
+
+### HEADLINE: USD RISK REVERSALS FLIP 180bps IN 7 WEEKS — DOLLAR BULLS DOMINANT. SK REFINERS 3 WEEKS FROM CUTS. BOJ $680B DUMP CLAIM = NOISE, BUT DIRECTION PLAUSIBLE. VERIFY TIC TOMORROW.
+
+### NEW SIGNALS PROCESSED
+
+**SIG-2026-03-17-001 — USD Strength + SK Refiner Crisis (Source: TKL/Bloomberg/CRUDEOIL231 — B2 quality)**
+
+| Metric | Value | Significance |
+|--------|-------|-------------|
+| **USD risk reversals (1M, Bloomberg Dollar)** | **+92bps** | Highest since Nov 2022 |
+| **Jan level** | -90bps | 180bp swing = one of sharpest on record |
+| **Bloomberg Dollar Spot Index** | 3-month high | Dollar bulls firmly in control |
+| **USD/JPY** | ~159.3 | 0.7 from ¥160 intervention line |
+| **SK refiner feedstock** | **3 weeks remaining** | Run cuts inevitable — source: procurement meetings |
+
+**What this means for carry thesis:**
+USD strength is a **pressure multiplier** operating in parallel with the BOJ thesis. Two forces now converging on ¥160:
+1. BOJ hawkish → yen should strengthen → but dollar strength is partially offsetting
+2. If USD bullishness continues AND BOJ surprises dovish → ¥160 breach likely → MOF intervention triggered
+3. The 180bp risk reversal swing = institutional money is pricing durable dollar strength, not a short squeeze
+
+**SK refiner → Japan implication:** South Korea is export-heavy on refined products (gasoline, naphtha, jet fuel) to Asia-Pacific. 3 weeks of feedstock = run cuts in ~2-3 weeks. Japan likely facing similar constraints (Hormuz/Middle East supply disruption ongoing). Effect: **energy import costs stay elevated** → stagflation pressure on BOJ remains, even if Ueda is looking through it → yen weakness via trade balance → adds to USD/JPY upward pressure.
+
+**Carry unwind 7d probability UPDATED: 30% → 35%** — USD bullishness adds a new compression vector. If FOMC dovish + BOJ hawkish Thursday → rate differential narrows from both sides AND dollar strength reverses → explosive yen bid scenario.
+
+---
+
+**SIG-2026-03-17-002 — "BOJ $680B UST Dump" Claim (Source: @DeFiTracer — D4 quality) ⚠️ LOW CONFIDENCE**
+
+**Status: UNVERIFIED — do NOT incorporate $680B figure into analysis.**
+
+| Assessment | Detail |
+|-----------|--------|
+| **Source quality** | D4 — crypto influencer, no Japan expertise, no sourcing cited |
+| **Corroboration** | ZERO credible sources found in web search |
+| **$680B figure plausibility** | Near impossible — BOJ holds ~$1.1T UST; dumping 62% in a week = financial warfare |
+| **Direction plausibility** | ✅ Japan IS a UST seller. GPIF/lifers doing FY-end rebalancing. MOF non-rolls ongoing. |
+| **Most likely explanation** | FY-end rebalancing by GPIF/life insurers misattributed to "BOJ" | Japan portfolio rebalancing aggregated into single dramatic number |
+
+**What to watch instead of the $680B claim:**
+- **TIC data tomorrow Mar 18** — will show actual Japanese UST flow direction
+- **BOJ balance sheet (Thursday Mar 19)** — post-decision statement on QT pace
+- **Ueda presser Mar 19** — will Ueda signal UST portfolio reduction / accelerated QT?
+
+The ACTIONABLE version of this signal: **does BOJ signal QT acceleration Thursday?** That's the real carry trade implication, not the DeFi influencer number.
+
+---
+
+### UPDATED CARRY UNWIND PROBABILITIES — MAR 17 PM
+
+| Timeframe | Mar 17 AM | Mar 17 PM | Driver |
+|-----------|-----------|-----------|--------|
+| **7d** | 30% | **35%** | USD risk reversal flip = dual compression (dollar strength + BOJ hawkish) |
+| **30d** | 88% | **88%** | Unchanged — structural path intact |
+| **60d** | 88% | **88%** | Unchanged |
+
+### ALERT ADDITIONS
+
+| Alert | Level | Status |
+|-------|-------|--------|
+| **TIC data release Mar 18** | Watch for Japan UST flow direction | 🔴 SET — due tomorrow |
+| **USD risk reversals +100bps** | Dollar momentum breakout | 🟡 WATCH (currently +92bps) |
+| **USD/JPY 160.00** | Katayama intervention line | 🔴 STANDING |
+| **BOJ QT signal Mar 19** | Ueda presser — any UST/QT language | 🔴 SET |
+| **SK run cuts confirmed** | Asia-Pacific product shortage onset | 🟠 WATCH |
 
 ---
 

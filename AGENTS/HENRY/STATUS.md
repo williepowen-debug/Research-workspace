@@ -1,6 +1,42 @@
 # HENRY STATUS
-**Last Updated:** 2026-03-16 20:15 UTC | **War Day 17**
-**Status:** 🟠🔴🔴 RELIEF RALLY — Oil pullback on Bessent Hormuz comments. SPX +1% but LOW VOLUME. FOMC tomorrow (Mar 17-18). CTA trigger reclaimed on intraday basis but NOT on closing basis — 6,699 still below 6,707. Systematic selling queue likely DEFERRED, not cancelled.
+**Last Updated:** 2026-03-17 16:24 UTC | **War Day 18**
+**Status:** 🔴🔴🔴 MARGINAL BUYER DISAPPEARING — Pre-FOMC Day 1. Retail flow fatigue confirmed (JPM). HY yield 6.95% (near 7% threshold). USD risk reversals +92bps (3yr high). 30Y mortgage 6.86%. The buyer of last resort is stepping back across equities, credit, AND housing simultaneously.
+
+---
+
+## NEW SIGNAL — SIG-2026-03-17-001 (Retail Flow Fatigue)
+**Source:** JPM | **Data as of:** Mar 11, 2026 | **Logged:** 2026-03-17 16:24 UTC
+
+**Key Data Points:**
+- Retail weekly equity purchases: **-30% WoW**
+- Retail ETF inflows: **-22% WoW**
+- JPM quote: *"For the first time this year, retail investors are showing persistent signs of weakness"*
+- Daily single-stock purchases approaching **net negative territory**
+
+**Simultaneous Stress Signals:**
+| Asset Class | Level | Signal |
+|-------------|-------|--------|
+| HY yield | **6.95%** | 🔴 Approaching 7% threshold — historical stress trigger |
+| USD risk reversals | **+92bps** | 🔴 3-YEAR HIGH — dollar calls bid, risk aversion acute |
+| 30Y mortgage | **6.86%** | 🔴 Housing buyer disappearing |
+
+**HENRY Assessment:**
+Retail was the last marginal buyer holding equities off the lows. The 2025-2026 tape was structurally dependent on persistent retail inflows — this was the "buy every dip" cohort that backstopped every CTA sell wave. JPM's data shows that backstop is **gone as of Mar 11** — before today's FOMC Day 1, before Wednesday's decision.
+
+This is not noise. "Persistent fatigue" + "first time this year" = a regime change in retail participation, not a blip.
+
+**Convergence Impact:**
+- HY yield 6.95% → V5 (Credit Spread) pressure building. One week ago V5 was a 4. Now 4.5→5 pending close above 7%.
+- Retail flow collapse → V2 (CTA/Systematic) reinforced. If retail is no longer absorbing systematic sells, downside has less cushion.
+- USD risk reversals at 3yr high → V7 (Dollar/Safe Haven) pressure. Not yet logged as a dedicated vector — flag for NEXUS.
+- Housing buyer disappearance → connects to labor/consumer slowdown (V4 territory, CARL's domain)
+
+**Cross-Agent Routing:**
+- → NEXUS: USD risk reversals at 3yr high = new convergence vector candidate
+- → CARL: 30Y mortgage 6.86% feeds labor/consumer slowdown signal
+- → LIQUID: HY yield 6.95% near 7% = amplification risk if threshold breaks
+
+---
 
 ## MAR 16 EOD — CONFIRMED CLOSES
 | Asset | Mar 16 Close | vs Mar 13 | Signal |
@@ -55,10 +91,12 @@
 ## CONVERGENCE MATRIX UPDATE
 | # | Vector | Score | Change |
 |---|--------|-------|--------|
-| 2 | CTA/Systematic | **5** | ⚠️ Still triggered. 6,699 < 6,707. One day relief doesn't reset. |
-| 9 | Geopolitical/Commodity | **5→4.5** | 🟠 Brent held $100 but Hormuz rhetoric shifted. Downgrade IF coalition materializes. For now: headlines ≠ execution. |
-| All others | Unchanged | — | No vector changed on one low-volume relief day. |
-| **Total** | **~50.5/60** | -0.5 | Marginal. Still in cascade zone. |
+| 2 | CTA/Systematic | **5** | ⚠️ Still triggered. 6,699 < 6,707. Retail backstop now gone = less cushion for systematic sells. |
+| 5 | Credit Spreads | **4.5→5** | 🔴 HY yield 6.95%, approaching 7% threshold. Retail flow collapse removes credit demand support. |
+| 7 | USD/Safe Haven | **4→4.5** | 🔴 USD risk reversals +92bps = 3yr high. Dollar calls bid = risk aversion acute. Escalating. |
+| 9 | Geopolitical/Commodity | **4.5** | 🟠 Brent held $100. Hormuz headlines ≠ execution. |
+| All others | Unchanged | — | — |
+| **Total** | **~52/60** | **+1.5** | 🔴 Escalating. Retail flow collapse is the new accelerant. |
 
 ## POSITION IMPACT
 | Position | Mar 13 | Mar 16 | Impact |

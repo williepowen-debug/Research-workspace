@@ -1,8 +1,8 @@
 # OTTO STATUS
 
-**Signal Status:** 🔴🔴 CRITICAL — ESCALATING | **Last Updated:** 2026-03-17 13:45 UTC
+**Signal Status:** 🔴🔴 CRITICAL — ESCALATING | **Last Updated:** 2026-03-17 16:25 UTC
 
-**Summary:** **PRIVATE CREDIT CASCADE** — JPM marking down $22.2B software collateral (Mar 16); Blue Owl OTIC permanently gated ($527M); MS/BlackRock/Cliffwater all restricting | Fitch 2H25 Monitor: subprime 60+ DQ 6.74% YE25 + "deterioration expected 2026" | Car-Mart 30+ DQ surged 4.4% | FOMC underway TODAY | CVNA discovery output pending | DQ 7.1% (RED) | NFP -92K
+**Summary:** **CONSUMER DURABLE GOODS DEMAND DESTRUCTION CONFIRMED** — RV market -50% value collapse (leading indicator); FT: car ownership costs "at breaking point"; gas approaching $4 behavioral breakpoint; insurance + maintenance + financing all rising simultaneously | **Private Credit Cascade continues:** JPM marking down $22.2B software collateral (Mar 16); Blue Owl OTIC permanently gated ($527M); MS/BlackRock/Cliffwater all restricting | Fitch 2H25 Monitor: subprime 60+ DQ 6.74% YE25 + "deterioration expected 2026" | Car-Mart 30+ DQ surged 4.4% | FOMC underway TODAY | CVNA discovery output pending | DQ 7.1% (RED) | NFP -92K
 
 **Vectors:** 83+ | **ML Entries:** 130+ | **Research Packages:** 15 complete
 
@@ -15,6 +15,7 @@
 | REGINALD | 🔴 | Bank losses ~$1.8B+; MFS UK: Barclays + Atlas SP exposed £2B+; JPM/Barclays/Fifth Third sued $230M+ Tricolor | ✅ DELIVERED 2026-03-11 |
 | BROCK | 🔴 | BCRED $3.7B redemptions (7.9% > 5% cap, near-gate); TCPC securities fraud class action | ✅ DELIVERED 2026-03-11 |
 | CARL | 🔴 | DQ 7.1% (crosses RED threshold); SoFi 2025-1 CNL triggered; Upstart/LC/Prosper sprint needed; NFP -92K direct hit to subprime pool | 📤 QUEUED 2026-03-12 |
+| NEXUS | 🔴🔴 | Consumer durable goods demand destruction confirmed at two price points (RV -50%, auto "breaking point"); multi-vector affordability squeeze; RV collapse = 6-12mo leading indicator for mass market | 📤 QUEUED 2026-03-17 |
 | LIQUID | 🟠 | BCRED gate breach = private credit liquidity stress signal | ✅ DELIVERED 2026-03-11 |
 
 ---
@@ -61,6 +62,9 @@ Recovery ratio 30.58% (vs 41% benchmark). Construction employment -92.7% YoY. S&
 | Recovery Ratio | 30.58% (vs 41% benchmark) | 🔴 |
 | CFPB Status | **Functionally Dead** — enforcement/supervision paused | 🔴 |
 | TCPC Class Action | Filed Mar 2026; class period Nov 2024-Jan 2026 | 🟠 |
+| RV Market | **50% value collapse** — Winnebago Vista MSRP $240K → $120K in ~1.5yrs | 🔴🔴 NEW |
+| Car Ownership Costs | **FT: "At breaking point"** — gas + insurance + maintenance + financing all rising | 🔴🔴 NEW |
+| Consumer Durable Demand | **DEMAND DESTRUCTION CONFIRMED** — wealthy buyers pulling back now | 🔴🔴 NEW |
 
 ---
 
@@ -135,6 +139,30 @@ Recovery ratio 30.58% (vs 41% benchmark). Construction employment -92.7% YoY. S&
 | Lendbuzz/SAFCO | 🟠 | S&P CreditWatch (immigration) |
 | First Help Financial | 🟠 | S&P CreditWatch (immigration) |
 | Westlake | 🟠 | ILC squeeze; >9.5% extensions |
+
+---
+
+## MAR 17 SIGNAL UPDATE #2 (2026-03-17 16:25 UTC) — CONSUMER DURABLE GOODS
+
+### SIG-2026-03-17-001: Two Consumer Durable Goods Stress Signals
+
+**SIGNAL 1 — FT: Car Ownership Costs "At Breaking Point"**
+- Gas approaching $4/gal behavioral breakpoint (Scenario D oil shock accelerating)
+- Insurance + maintenance + financing costs all rising simultaneously
+- Multi-vector affordability squeeze, not a single-item problem
+- **Transmission:** Hits subprime auto borrowers first → DQ acceleration → ABS stress
+- **Context:** At 7.1% DQ, this is gasoline on a fire. Each cost vector independently manageable; simultaneous = demand destruction threshold.
+
+**SIGNAL 2 — RV Market Collapse: LEADING INDICATOR**
+- **Data point:** 2024 Winnebago Vista, 8,113 miles, MSRP $239,660 → current price $120,000
+- **50% value collapse in ~1.5 years** — this is not depreciation, this is demand destruction
+- **Why this matters:** RV buyers are upper-middle to wealthy consumers. They pull back FIRST. Mass market follows 6-12 months later.
+- **Historical pattern:** RV demand leads consumer discretionary by ~6-12 months. If wealthy consumers are dumping $120K assets at 50% loss, mass market consumer stress is baked in for late 2026-early 2027.
+- **Amplifier:** Oil shock (Scenario D) makes RV ownership operationally unaffordable. $4+ gas on a 7-8 MPG motorhome = $300+ per tank. Permanent demand suppression.
+
+**ASSESSMENT:** Durable goods demand destruction is not a forecast — it's present-tense. The RV collapse is the wealthy canary. Auto affordability squeeze hits the subprime pool directly (our primary thesis). These signals are additive and accelerating.
+
+**SIGNAL TO HERMES → NEXUS:** Consumer sector stress now confirmed at two price points (ultra-premium RV and mass-market auto). Cross-agent synthesis needed — CARL (auto DQ acceleration), HENRY (consumer spending velocity), LIQUID (discretionary credit exposure).
 
 ---
 

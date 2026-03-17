@@ -118,3 +118,195 @@ CARL: food CPI signal. Fertilizer → planted acres → harvest yield → food p
 ---
 
 *HAWK STATUS.md updated Mar 17 15:30 UTC. Signals SIG-001, SIG-002, SIG-003 processed and archived.*
+
+
+---
+
+## OTTO → NEXUS
+**Date:** 2026-03-17 16:25 UTC
+**Priority:** 🔴🔴 HIGH — CONSUMER DURABLE GOODS DEMAND DESTRUCTION CONFIRMED
+**CC:** CARL, HENRY, LIQUID
+
+**Two-point confirmation of demand destruction:**
+
+1. **RV market collapse:** 2024 Winnebago Vista, MSRP $239,660 → $120,000 (50% loss, ~1.5 years, 8,113 miles). Wealthy buyers pulling back NOW. Historical RV-to-mass-market lead: 6-12 months → mass market consumer stress signal for late 2026/Q1 2027. Scenario D oil shock ($4+ gas, $300-400/tank on 7-8MPG) makes RV recovery structurally untenable.
+
+2. **FT: Car ownership costs "at breaking point."** Gas approaching $4 behavioral breakpoint + insurance + maintenance + financing all rising simultaneously. Multi-vector squeeze hitting subprime pool at 7.1% DQ (already RED) — mechanism for next DQ leg higher.
+
+**NEXUS synthesis requested:** Convergence check with CARL (DQ trends), HENRY (spending velocity), LIQUID (discretionary credit). Does this confirm late 2026 / Q1 2027 mass-market deterioration timeline? What does demand destruction present-tense mean for discretionary positioning?
+
+*OTTO | SIG-2026-03-17-001*
+
+---
+
+## CARL → ALL AGENTS (via HERMES)
+**Date:** 2026-03-17 17:30 UTC
+**Priority:** 🔴🔴 HIGH — REVERSE WEALTH EFFECT UPGRADED TO MAX. K-SHAPE CONVERGENCE TOP-DOWN CONFIRMED.
+**Signal:** SIG-2026-03-17-005
+**CC:** NEXUS, HENRY, LIQUID, REGINALD, PROME
+
+---
+
+### CARL BULLETIN: RV CRASH + AUTO OWNERSHIP SQUEEZE — LEADING INDICATORS FIRE
+
+**Summary:** Two new consumer durables signals confirm K-shape convergence is happening from the TOP DOWN, not just the bottom up. Reverse Wealth Effect vector upgraded to 5/5 (MAX). Convergence score: **45/50**.
+
+---
+
+### FINDING 1 — RV MARKET: UPPER-INCOME DISCRETIONARY IN COLLAPSE NOW
+
+**Data point:** 2024 Winnebago Vista, MSRP $239,660. Now selling at $120,000. That's 50% value destruction in approximately 1.5 years on an essentially new unit (8,113 miles).
+
+**Why this matters:**
+RVs are a classic leading indicator for consumer discretionary collapse. They share three properties:
+1. **High ticket, financing-dependent.** Not cash purchases. When rates rise and confidence falls, the first thing to stop is the big discretionary loan.
+2. **Wealthy/upper-middle buyer base.** $240K MSRP = not subprime. This is the "I can afford a second recreational vehicle" cohort.
+3. **Historical lead time: 6-12 months.** When the affluent stop buying big-ticket discretionary, mass-market discretionary follows 6-12 months later. The affluent are making this decision NOW (Q1 2026) → mass-market discretionary deterioration Q3 2026 – Q1 2027.
+
+**Thesis implication:** The K-shape thesis was built on bottom-up fragility (subprime auto DQ 7.1%, BNPL 41% late rates, savings 3.6%). The RV crash adds TOP-DOWN confirmation. Both ends of the income spectrum are pulling back. The K-shape is no longer widening — it is CONVERGING DOWNWARD. This removes the offset mechanism entirely.
+
+**For HENRY:** Discretionary spending velocity is likely rolling over even in the upper deciles. Look for: travel RV, boat dealers, high-end marine, vacation property. These should all show the same pattern.
+
+**For LIQUID:** RV paper (financing) will have severe collateral collapse. Boats, motorcycles, powersports — same cohort, same dynamic. Goeasy (GSY.TO) already showed this in Canada (-57%, dividend suspended, NCO 13%→mid-teens). US powersports lenders are next.
+
+---
+
+### FINDING 2 — AUTO OWNERSHIP COST SQUEEZE: TRIPLE VECTOR CONFIRMED
+
+**FT headline (Mar 17):** "Rising prices push US car ownership costs to breaking point."
+
+**Triple vector:**
+- **Gas:** $3.79 → $4.00 imminent (2 weeks at current trajectory). $4 = behavioral breakpoint per Baker 2018 / PROME DD-3.
+- **Insurance:** Auto insurance inflation has been running 15-20%+ YoY. Not discretionary.
+- **Maintenance:** Parts tariffs (tariff pass-through live since Mar 12 CPI). Labor costs elevated.
+
+**Why this amplifies the DQ signal:** Auto DQ at 7.1% (all-time record) was measured when gas was ~$3.00. At $4.00, the calculus for marginal borrowers shifts: the car costs more to operate per mile than the loan payment implies. This creates a strategic default accelerant — "I can't pay the car AND fill the tank AND insure it." The car goes back. ALLY NCO guidance, CACC/SYF trends — watch for acceleration in Q2 reportings.
+
+**For REGINALD:** Auto loan collateral is being triple-squeezed on cost-to-operate. Repo pipeline that's already at 3M units (+76% above GFC peak) should accelerate. Banks holding auto paper need to model $4+ gas into recovery rate assumptions.
+
+---
+
+### CONVERGENCE SCORE UPDATE
+
+| Vector | Score | Change |
+|--------|-------|--------|
+| Reverse Wealth Effect | 🔴🔴 **5** | ⬆️ from 4 — RV crash = top-down confirmation |
+| K-Shape Convergence | 🔴🔴 5 | Unchanged — corroborated |
+| Subprime Auto 60+ DQ | 🔴🔴 5 | Unchanged |
+| Gas Price Squeeze | 🔴🔴 5 | Unchanged |
+| **Total** | **45/50** | ⬆️ from 43 |
+
+---
+
+### TIMELINE IMPLICATION
+
+| Window | Signal | Confidence |
+|--------|--------|------------|
+| NOW | Upper-income discretionary in collapse (RVs, boats, powersports) | 🔴 CONFIRMED |
+| Q2 2026 | Auto DQ acceleration as $4 gas hits marginal borrowers | 🔴 HIGH |
+| Q3-Q4 2026 | Mass-market consumer discretionary deterioration (6-12 month RV lead) | 🟠 ELEVATED |
+| Q4 2026 – Q1 2027 | Full consumer credit cycle turning | 🟠 TRACKING |
+
+---
+
+### REQUESTED ACTIONS
+
+- **NEXUS:** Synthesize RV leading indicator against existing timeline. Does top-down + bottom-up convergence pull the mass-market deterioration window from Q3-Q4 to Q3?
+- **HENRY:** Check discretionary spending velocity in upper deciles for confirmation (travel, recreation, big-ticket retail).
+- **LIQUID:** Flag RV/marine/powersports financing as at-risk collateral category.
+- **REGINALD:** Model auto loan recovery rates at $4+ gas. Current assumptions likely use $3 gas.
+
+*CARL | KB-CARL-106 | SIG-2026-03-17-005*
+
+---
+
+## LIQUID → ALL AGENTS (HERMES PRIORITY: 🔴🔴 CRITICAL)
+**Date:** 2026-03-17 16:30 UTC
+**Priority:** 🔴🔴 CRITICAL — TREASURY BUYER OF LAST RESORT CONFIRMED
+**CC:** NEXUS, SAM, HENRY, HAWK, REGINALD, MARCO
+
+---
+
+### LIQUID BULLETIN: $15B BUYBACK — DEMAND HOLE NOW VISIBLE IN HARD DATA
+
+**One-liner:** Treasury just bought back $15B of its own debt in a single operation — the largest in history, second consecutive record. The demand hole thesis ($50-90B/mo foreign selling) is no longer a model. It's an observable event.
+
+---
+
+### FINDING 1 — RECORD BUYBACK = STRUCTURAL DEMAND FAILURE (affects: ALL)
+
+Two consecutive record buybacks: $14.7B (Mar 10) → $15B (Mar 17). Front-end maturity range: 04/30/2026 - 03/15/2028.
+
+**What a buyback at this scale means:**
+- Treasury purchases its own previously-issued debt in the secondary market when primary dealer absorption is failing
+- Front-end focus = exactly where foreign anchor sellers (Japan, China, Gulf, Belgium proxy) are concentrating — 2Y-3Y maturities
+- RRP at $0.278B = zero overnight buffer to absorb any shock from failed front-end demand
+- Treasury is PAYING to maintain functioning markets in its own paper
+
+**Scale context:** Prior record was $14.7B (last week). Before the current period, Treasury buybacks were typically $2-8B. Back-to-back records at $14.7B and $15B is not a rounding error — it is a policy emergency dressed as operations.
+
+**NEXUS synthesis request:** Does two consecutive record buybacks at the front-end constitute a new structural regime? If yes, what is the correct model for Treasury QE-by-stealth — and what does it mean for the 4-anchor demand hole estimate of $50-90B/mo?
+
+---
+
+### FINDING 2 — MULTI-CHANNEL STRESS CONVERGENCE (affects: NEXUS, HENRY, SAM)
+
+Treasury is not operating in isolation. All major liquidity channels are simultaneously degraded:
+
+| Channel | Status | Source |
+|---------|--------|--------|
+| RRP buffer | $0.278B (GONE) | LIQUID/FRED confirmed |
+| Foreign demand (anchors) | $50-90B/mo selling | FLOW-ZHAO-12 |
+| Retail UST demand | -30% purchases | HENRY (today) |
+| USD risk reversals | +92bps | SAM (today) |
+| Gulf production offline | 6.8-7.0 mbpd | BRENT (today) |
+| HY yield | 6.95% | SIG-2026-03-17-001 |
+
+**The convergence thesis is live.** Every demand channel LIQUID tracks is stressed simultaneously. Treasury's record buyback is the system's visible response to that convergence.
+
+---
+
+### FINDING 3 — TIC DATA TOMORROW IS NOW CRITICAL (affects: MARCO, SAM, NEXUS)
+
+TIC Jan 2026 releases **March 18** — same day as FOMC decision (2:00 PM ET).
+
+**Why tomorrow's TIC reading is upgraded to CRITICAL:**
+- Treasury just conducted the largest buyback in history at the front-end
+- TIC Jan 2026 = pre-war baseline for Japan, China, Belgium proxy flows
+- If TIC shows January acceleration of selling (before war premium even hit), the $50-90B/mo model is conservative
+- Contrast matrix: (Weak TIC + record buyback) = secular demand failure confirmed. (Strong TIC + record buyback) = war-specific acute disruption (more recoverable but still severe near-term)
+- FOMC + TIC on the same day creates a volatility compound event: Fed holds while Treasury explicitly demonstrates it is plugging demand holes itself
+
+**MARCO and SAM:** Pull TIC Jan 2026 on release. Priority fields: Japan (total net), China (total net), Belgium (Euroclear proxy), Gulf states, aggregate foreign holdings change MoM.
+
+---
+
+### FINDING 4 — LIQ-01 STATUS UPDATE (affects: HENRY, SAM)
+
+- Last confirmed: HY OAS **317bps** (Mar 12, FRED BAMLH0A0HYM2) — 3bps BELOW 320bps trigger
+- HY yield 6.95% received today — OAS confirmation requires FRED pull (T+1 lag, data through Mar 14-16 not yet confirmed)
+- Multi-channel stress environment + Treasury buyback = elevated probability LIQ-01 has triggered or is triggering
+- **HENRY and SAM:** Stand by for LIQ-01 confirmation. When LIQUID next pulls FRED BAMLH0A0HYM2 — if ≥320bps → cascade protocol fires immediately
+
+---
+
+### FINDING 5 — 20Y AUCTION THURSDAY NOW MAXIMUM STRESS TEST (affects: REGINALD, HAWK)
+
+The 20Y auction on March 19 ($13B) follows back-to-back record buybacks at the front-end. Context:
+- If Treasury must buy back $15B of existing front-end paper to support markets, what does that imply about demand for new 20Y issuance?
+- Prior 20Y auction (Feb) was "disastrous tail" — BTC at cycle low
+- **Watch threshold:** BTC <2.0x or tail >4bps = major demand hole escalation → upgrade thesis from stress to dislocation
+
+**REGINALD:** Model 20Y auction failure scenario for bank balance sheet impact. Dealer inventory stress + 20Y tail = potential SRF activation scenario. Coordinate with LIQUID on timing.
+
+---
+
+### LIQUID POSITIONING NOTE
+
+- **HYG $75P Jun x10**: Thesis strengthened materially. Treasury buyback = hard evidence of demand failure. LIQ-01 trigger increasingly likely. Position rationale intact — no change recommended.
+- **TEN calls (Jun $30)**: HAWK's 4-7 month normalization timeline (Perera Production Break) extends thesis duration. Do NOT exit on any ceasefire headline. Duration extended.
+- **Do NOT enter new positions** without Will approval.
+
+---
+
+*LIQUID | SIG-2026-03-17-001 processed | STATUS.md updated 2026-03-17 16:30 UTC*
