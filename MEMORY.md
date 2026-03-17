@@ -1,10 +1,19 @@
 # MEMORY — Key Insights & Lessons
 
-**Last Updated:** 2026-03-13 14:30 UTC
+**Last Updated:** 2026-03-17 14:15 UTC
 
 ---
 
 ## CORE DISCOVERIES
+
+### HY OAS 328 — Transmission Confirmed — Mar 17
+HY OAS crossed 320 RED threshold (was 303 on Mar 3, +25bps in 5 trading days). ABS → HY transmission live. Historical templates: 2020 COVID (350→1,087 in 5 weeks, Fed killed it), 2007-08 GFC (320→2,147 over 16 months, slow grind then acceleration after Lehman), 2015 energy (false alarm, reversed). Current setup resembles 2007: systemic not sector-only, but compression factor pulls timeline ~1Q earlier. Expect 320→500 in 2-4 months (May-July). 500+ = acceleration phase with forced selling. CFA Institute analysis: even "improved" BB-heavy index composition still projects 1,093bps in next recession. No Fed put available (PCE 3.1%).
+
+### Two Expiry Frameworks — Mar 17 (CORRECTION)
+Hamilton demand destruction (Dec expiry) was being applied to ALL positions. Wrong. PC single-name puts (APO, ARES, ARCC) have dateable April-May catalysts — use May/Jun/Jul expiry. Macro/index trades (HYG, KRE, IWM) use Dec per Hamilton. BRENT owns Hamilton. BROCK owns PC catalyst clock. Corrected in TRADE.md, CROSS_ANALYSIS.md.
+
+### National Dentex NOT in ARCC — Mar 17 (CORRECTION)
+EDGAR full-text search: zero hits across all ARCC 10-K/10-Q filings. NDX holders: OBDC, OBDC II (frozen), OBDE, Silver Point. This is a Blue Owl-specific contagion event, NOT an ARCC catalyst. Weakens "OBDC leads ARCC by 6-12mo" theory slightly — some OBDC stress is idiosyncratic (bad healthcare LBO bets).
 
 ### Fed Stealth Liquidity / 2019 Repo Parallel — Mar 13 (MAJOR)
 Fed T-Bill holdings ramped $195B→$352B in 12 weeks (exceeds 2020 COVID peak $326B) after 18 months flat. FHLB issuance surging +31% above 2025 (verified primary data). Discount window peaked $9.9B Dec 2025. SRF cap removed Dec FOMC. Reserves $2.8T (4yr low), concentrated in G-SIBs — regionals running thin. ALL surface indicators (SOFR, EFFR, CP) calm = intervention working, not health. Fed pre-positioning at record scale since Oct 2025. 2019 parallel: plumbing doesn't warn slowly, it breaks binary. Our edge: market reads surface ("fine"), we read Fed behavior ("fragile"). KRE trade directly tied to reserve distribution inequality. Full: `FORGE/research/FED_TBILL_REPO_ANALYSIS.md`
