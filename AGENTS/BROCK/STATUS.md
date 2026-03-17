@@ -1,7 +1,7 @@
 # BROCK STATUS — Private Credit / Alt Assets / PE / ILS
 
-**Last context:** Mar 16 EOD. APO's own John Zito: "All the marks are wrong" (CNBC today). Hagens Berman files Epstein class action = dual legal liability. FT confirms $10B+ Q1 retail withdrawals. Ares/APO/Oaktree/Goldman HAVEN'T reported Q1 tenders yet. HLEND 19% software. Reserves invested in software bonds instead of treasuries. FOMC tomorrow.
-**Last updated:** 2026-03-16 19:15 UTC
+**Last context:** Mar 17 02:45 UTC. Research sprint complete — deep dives on APO, ARCC, OWL, KKR. Athene FY2025 statutory filing FOUND AND ANALYZED (primary source edge, zero external coverage). Cross-analysis synthesized across all 4 names. FOMC opens tomorrow.
+**Last updated:** 2026-03-17 02:45 UTC
 
 ---
 
@@ -26,7 +26,8 @@
 | Bank→NDFI Exposure | **$4.2T** ($1.4T outstanding + $2.8T undrawn) | 🔴 | [CONF] Whalen/FDIC Mar 10 |
 | Atlas SP Defaults | **2 warehouse facilities in default** (MFS/Apollo chain) | 🔴 | [CONF] Whalen Mar 10 |
 | Blue Owl / Kuvari | OBDC II permanently frozen (Feb 18); Saba hostile tender at 33% NAV discount (rejected); failed CoreWeave $4B syndication; -67% from peak; 40% AUM retail | 🔴🔴 | [CONF] FT/Yahoo/BI Feb-Mar 2026 |
-| Athene Assets | **$442B**, 48% illiquid, RBC 412% | 🔴 | [CONF] 10-K Feb 2026 |
+| Athene Assets (GAAP 10-K) | **$386B investments** (+23% YoY), **$85B funding agreements** (+56%), **$35B affiliated paper** (+21%), spread 1.61% (compressing) | 🔴🔴 | [CONF] 10-K Feb 2026 + our analysis Mar 17 |
+| **Athene Statutory (FY2025)** | **$225.7B reinsurance receivables** (Gober '23: $155B, +46%). **55:1 ratio** (worse than 54:1). Deposit-type **$64.3B (+76.6% YoY)**. ALRe surplus **-22%**. Iowa unassigned surplus **negative** ($1.647B). AVR +42%. **ZERO external analysis found.** | 🔴🔴🔴 NEW | [CONF] Athene IR statutory filings Mar 17 |
 | DB Private Credit Exposure | **€26B (~$30B)**, +6% YoY. Stock -5% today, -22% YTD | 🔴 NEW | [CONF] Bloomberg Mar 12 |
 | PIMCO Stracke Structural Call | Returns 10%→6%, mid-single-digit defaults for SEVERAL YEARS | 🔴 | [CONF] Yahoo Finance Mar 12 |
 | Fortune "$265B Meltdown" | PE sector lost $265B market cap. Houlihan Lokey: "resembles a run on a bank." El-Erian: "canary in the coalmine." | 🔴🔴 NEW | [CONF] Fortune Mar 14 |
@@ -50,7 +51,7 @@
 | PIK Rates | 🔴 (4) | 6.4%, doubled YoY; 40% of borrowers neg FCF | >8% at any major fund → distress | Mar 4 |
 | BDC NAV Discounts | 🔴 (4) | Avg 78¢ (22% discount); market pricing impairment | <70¢ → full capitulation | Mar 12 |
 | Default Rates | 🔴 (4) | Fitch PCDR 5.8%; 2025 cohort 9.2% (record); Feb 2x monthly avg | Q1 earnings confirming >8% PCDR | Mar 12 |
-| Athene/Insurance | 🔴 (5) | $442B, 48% illiquid, $9B CRE absorbed, RBC 412%. Kuvari = industry template. Iran declared financial targets Mar 11. **KKR/Global Atlantic: $219B AUM, $12.2B funding agreements (+71% YoY), 7.9% surplus ratio — same DNA as Athene but less advanced. Tier 2.** See `trade/KKR/KKR_DEEP_DIVE.md`. | RBC filing revision; Gulf SWF withdrawal; SEC inquiry | Mar 17 |
+| Athene/Insurance | 🔴🔴 (5) | **FY2025 statutory filing analyzed.** $225.7B reinsurance receivables (+46% from Gober's $155B). 55:1 ratio. Deposit-type $64.3B (+76.6%). ALRe surplus -22%. ARI $9B CML at 99.7¢. **KKR/GA: same DNA, less advanced.** Funding agreements $12.2B (+71% YoY), surplus 7.9%. Tier 2. See `trade/APO/` and `trade/KKR/`. | Gulf SWF withdrawal; SEC inquiry; NAIC action on affiliated reinsurance | Mar 17 |
 | Software Marks | 🔴🔴 (5) | JPM marked down software collateral Mar 11. Vista/Thoma Bravo named as epicenter. 40% of sponsor-backed loans. **APO's Zito: "All the marks are wrong," recoveries "20-40 cents."** First insider admission. HLEND 19% software. Reserves invested in software bonds instead of treasuries (Fortune). | Confirmed — insider admission = no longer speculative | Mar 16 |
 | Bank Warehouse Lines | 🔴 (5) | $4.2T NDFI exposure. Atlas SP double default. JPM + MS both restricting. DB disclosed $30B. **Bloomberg/Fed/Moody's (Jun 2025 data): ~$300B total bank lending to funds/BDCs/CLOs. WFC $59.7B (DOUBLE next largest). BofA $33.2B, PNC $29.5B, Citi $25.8B, JPM $22.2B, GS $21.7B, Truist $19.5B, SS $19.3B, MS $16.2B, USB $10.5B.** First Brands recovery 1.7% ($200M/$12B) + MFS £1.3B shortfall = loss magnitude confirmed. | BDC revolver draws spike; WFC warehouse loss disclosure; 2nd major bank marks down | Mar 13 |
 | Regulatory Action | 🟠 (3) | SEC 2026 exam expected; BOE moving to joint PC+PE stress testing (KB-BRK-025); DB disclosure = transparency cascade forcing other banks to quantify | Any enforcement action filed | Mar 12 |
@@ -72,7 +73,7 @@
 | Mar 17-18 | **FOMC meeting** — presser Mar 19 2:30 PM ET | 🔴🔴 |
 | Apr 6 | TCPC class action lead plaintiff deadline | 🟠 |
 | Apr–May | Q1 2026 earnings — private credit mark-to-market | 🔴 Key resolution |
-| ~April | Athene statutory filing (state regulator, 45 days post Q1) | 🔴 |
+| ~~April~~ **NOW** | ✅ **Athene FY2025 statutory filing — FOUND AND ANALYZED.** 221MB Iowa annual + Bermuda + ALIRT. See `trade/APO/ATHENE_STATUTORY_FY2025.md` | 🔴🔴🔴 |
 | May 1 | APO class action lead plaintiff deadline | 🟠 |
 | Q2 2026 | BCRED Q2 redemption data — gate threshold test | 🔴 |
 | Jul 2026 | Blue Owl unsecured debt maturity — sector bellwether | 🔴 |
@@ -106,7 +107,7 @@
 | FOMC Mar 17-18 | Rate decision + presser Mar 19. Private credit stress + DOGE layoffs context |
 | Vista/TB specific names | Pluralsight (Vista, Ch.11 Dec 2023 precedent), Medallia (TB, 78¢ bellwether). Research other portfolio co BDC holdings |
 | Software marks | Vista/Thoma Bravo portfolio companies — Q1 earnings |
-| **ARCC 10-K** | **23.8% software ($7B) vs "12%" spin. PIK $487M accrued/$280M collected. Div GAAP-undercovered ($1.86 vs $1.92). Unrealized flipped -$96M. 189% coverage (39pp above 150% min). IHAM $82M unrealized losses.** Detail → `domain/sources/ARCC_10K_ANALYSIS_MAR16.md` |
+| **ARCC 10-K (Full Deep Dive)** | **23.8% software ($7B) vs "12%" spin. PIK $487M (34% of NII = phantom). NII DECLINED despite 10% portfolio growth. Net income/share $2.75→$2.44→$1.86. Grade 1 distressed +73% YoY ($448M). Net unrealized flipped to -$96M. 189% coverage declining. 72% floating rate = Fed cut trap. OBDC shares Pluralsight + National Dentex + CivicPlus = correlated marks.** Detail → `trade/ARCC/ARCC_DEEP_DIVE.md` |
 | ARCC options | Need to check chain liquidity for Jun/Sep/Dec puts |
 | ARES Q1 tenders | UNREPORTED. Emergency town hall Mar 11. Imminent catalyst. |
 | X sentiment | Bull counter-narrative forming (FRE resilient, dry powder, "peak pain"). Weinstein buying managers. Detail → `domain/sources/X_SENTIMENT_ARES_MAR16.md` |
@@ -137,4 +138,6 @@ Apollo's own head of credit (Zito): **"I literally think all the marks are wrong
 
 **Key shift since Mar 12:** (1) Insider admission — Zito breaks omertà. (2) Gate cascade 4→5+ with HLEND. (3) $10B aggregate retail exodus quantified. (4) Four major firms haven't reported yet. (5) Dual APO legal liability. (6) Moody's quantified $925B bank→PC/PE exposure. (7) Reserves-in-software-bonds revelation = structural liquidity problem, not just sentiment. (8) ARCC 10-K: 23.8% software ($7B) vs "12%" spin — largest BDC more exposed than market knows.
 
-**APO Anomaly:** -41% from peak vs OWL -67%, KKR -48%, BX -46%. Still least damaged despite Athene $442B tail risk + dual class actions. Snapshot: `archive/PE_DRAWDOWNS_MAR12.md`.
+**Key shift Mar 17 (research sprint):** (9) Athene FY2025 statutory filing analyzed — $225.7B reinsurance receivables, 55:1 ratio, deposit-type +76.6%, ALRe surplus -22%. ZERO external coverage. Primary source edge. (10) Cross-analysis reveals: 99.7¢ is the ceiling (not the floor) for best-quality paper; spread compression is universal; OWL disproves "software" narrative (11.1% software = worst outcomes); two distinct trade architectures (APO structural vs ARCC credit quality). (11) April-May convergence window: statutory filing + National Dentex + Q1 tenders + bank earnings + class actions cluster within 6 weeks. (12) Full deep dive folder built: APO (3 files + statutory), ARCC, OWL (indicator), KKR.
+
+**APO Anomaly:** -41% from peak vs OWL -67%, KKR -48%, BX -46%. Still least damaged despite Athene $442B tail risk + dual class actions + statutory data showing 55:1 leverage. Snapshot: `archive/PE_DRAWDOWNS_MAR12.md`.
