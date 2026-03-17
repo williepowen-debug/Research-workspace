@@ -1,6 +1,115 @@
 # SAM STATUS
 
-**Signal Status:** 🔴🔴 CRITICAL — USD/JPY **159.29** (Mar 16 close, yen +40 pips on oil pullback) | MoF VERBAL ACTIVE | **BOJ HAWKISH HOLD: APRIL ~65% PRICED — OIL PULLBACK STRENGTHENS HIKE CASE** | NIKKEI **53,552** (-0.5%) | JGB 10Y **2.28%** (+3bp, ABOVE YELLOW) | JGB 30Y **~3.50%** | REAL WAGES JAN **+1.4%** | SHUNTO: AUTO YAMABA **WEDNESDAY MAR 18 — TOMORROW** | BRENT **~$100** (down from $103+ on Bessent Hormuz de-escalation) | FOMC STARTS **TOMORROW** | BOJ MEETING **WED-THU** | FY-END T-15 DAYS | **Last Updated:** 2026-03-16 (EOD Brief)
+**Signal Status:** 🔴🔴 CRITICAL — USD/JPY **~159.3** (Mar 17) | MoF VERBAL ACTIVE (Katayama: ready to act if 160) | **UEDA HAWKISH PRE-MEETING: "INFLATION ACCELERATING TOWARD 2%"** | NIKKEI **53,700** (flat, 4th down day) | JGB 10Y **~2.28-2.30%** (ABOVE YELLOW) | BRENT **~$102-105** (UP from $100 — Bessent de-escalation FADING) | NISSAN ACCEPTED FULL ¥10,000 WAGE DEMAND | SHUNTO YAMABA **TOMORROW MAR 18** | BOJ OPENS **TOMORROW** | FOMC STARTS **TODAY** | FY-END T-14 DAYS | **Last Updated:** 2026-03-17 (13:45 UTC Check-in)
+
+---
+
+## 🌅 AM CHECK-IN — MAR 17, 2026 (13:45 UTC / 9:45 AM ET)
+
+### HEADLINE: UEDA DROPS HAWKISH BOMB HOURS BEFORE BOJ OPENS — "INFLATION ACCELERATING TOWARD 2%." OIL BACK ABOVE $102. KATAYAMA DRAWS LINE AT 160. NISSAN FULL WAGE ACCEPTANCE = SHUNTO MOMENTUM. AUTO YAMABA TOMORROW MORNING.
+
+### DELTAS vs MAR 16 EOD STATUS
+
+| Metric | Mar 16 EOD | Mar 17 AM | Delta |
+|--------|-----------|-----------|-------|
+| **USD/JPY** | 159.29 | **~159.3-159.5** | 🟡 Flat — stuck in MoF verbal zone |
+| **Nikkei 225** | 53,552 | **53,700 (flat)** | 🟡 4th consecutive declining session for tech |
+| **JGB 10Y** | 2.28% | **~2.28-2.30%** | 🔴 Elevated — ABOVE yellow threshold |
+| **Brent crude** | ~$100.21 | **~$102-105** | 🔴 UP — Bessent Hormuz de-escalation FADING; tanker struck |
+| **BOJ April hike prob** | ~65% | **~68-70%** | ⬆️ Ueda hawkish pre-meeting language |
+| **Hawkish hold prob (Mar 18-19)** | 40-45% | **50-55%** | ⬆️⬆️ Ueda's statement is the strongest pre-meeting signal yet |
+
+### 🚨 KEY DEVELOPMENT #1: UEDA PARLIAMENTARY SPEECH (TODAY, MAR 17)
+
+**Reuters (Mar 17):** BOJ Governor Ueda told parliament: **"Underlying inflation is gradually accelerating towards our 2% target"** — convergence expected between H2 FY2026 and FY2027.
+
+Additional Ueda quotes:
+- Wages and prices are rising "moderately in tandem" as firms pass on higher input and labour costs
+- BOJ will "guide monetary policy appropriately" to achieve 2% inflation with wage gains
+- BOJ would respond only if yields make "abrupt spike" (signaling comfort with current JGB levels)
+
+**Why this matters:** This is the most explicitly hawkish pre-meeting statement Ueda has made in this cycle. He is:
+1. Confirming the inflation trend is on track (not derailed by energy shock)
+2. Emphasizing WAGE-LED inflation (the BOJ's stated precondition for hikes)
+3. NOT flagging energy uncertainty as a reason to delay
+
+**This upgrades the hawkish hold scenario from 40-45% → 50-55%.** Ueda is laying the groundwork for either a very hawkish presser on Mar 19 or for an April hike announcement. The language is pre-positioning, not improvising.
+
+**Takaichi wrinkle:** Reuters notes PM Takaichi has urged BOJ to ensure inflation target is met "not by rising raw materials" but by wage gains. This aligns with Ueda's framing — both saying "wages are the key." This is NOT Takaichi pushing back against hikes; it's convergence on the wage-led framing that SUPPORTS an April hike if Shunto delivers.
+
+### 🚨 KEY DEVELOPMENT #2: OIL BACK ABOVE $102-105
+
+Al Jazeera (Mar 16): Brent at **$104.85** as of Sunday, up 40%+ since war started. The Bessent Hormuz de-escalation from Mar 16 is **already fading**. A tanker was reportedly struck. The oil pullback to $100 was a ONE-DAY event, not a trend.
+
+**Implication:** The brief window where oil pullback strengthened BOJ's hike case is NARROWING. If Brent re-establishes above $105, the stagflation trap argument re-engages partially. However, Ueda's statement today did NOT reference oil as a constraint — he focused on wages and underlying inflation. This suggests BOJ is preparing to LOOK THROUGH the oil shock.
+
+### KEY DEVELOPMENT #3: KATAYAMA DRAWS ¥160 LINE
+
+Finance Minister Katayama signaled **readiness to intervene in currency markets if yen weakens past ¥160.** This is the most explicit intervention threshold we've had — confirms 160 as the hard line.
+
+At 159.3-159.5, we are **0.5-0.7 from the line.** Two-way risk:
+- If BOJ hawkish hold + strong Yamaba → yen strengthens toward 157 → intervention unnecessary
+- If oil surges past $108 + dovish surprise → yen breaks 160 → operational intervention
+
+### KEY DEVELOPMENT #4: NISSAN FULL WAGE ACCEPTANCE (SHUNTO SIGNAL)
+
+**Japan Times (Mar 11):** Nissan — despite being in financial distress — accepted union wage demand **IN FULL**: ¥10,000/month raise + 5 months bonus.
+
+**This is a leading indicator for tomorrow's Yamaba.** If Nissan (struggling) gives full acceptance, Toyota and Honda (profitable) have ZERO excuse to lowball. The ¥12,000 JAW floor is now a near-certainty; the question is whether Toyota/Honda exceed it.
+
+**Honda complication:** Honda announced a **$15.7B EV writedown** (Mar 12-13) and executive pay cuts. This COULD give Honda cover to negotiate harder on wages. Watch for Honda being the laggard vs Toyota.
+
+### KEY DEVELOPMENT #5: JAPAN SPR RELEASE STARTED (MAR 16)
+
+PM Takaichi began the strategic petroleum reserve release on March 16, one day ahead of the previously announced Mar 18 date. 80M barrels / 45 days. SPR depletion clock is NOW running.
+
+### REVISED BOJ SCENARIOS — MAR 18-19
+
+| Scenario | Mar 16 | Mar 17 | Driver |
+|----------|--------|--------|--------|
+| **Hawkish hold** — April live, wages + inflation flagged | 40-45% | **50-55%** | Ueda "inflation accelerating toward 2%" is the strongest pre-meeting signal |
+| **Neutral hold** — data-watching | 35% | **30%** | Squeezed by Ueda's explicit statement |
+| **Dovish hold** — energy risk deferred | 20-25% | **15-20%** | Ueda NOT flagging oil as constraint = dovish case weakening |
+
+### CARRY UNWIND PROBABILITIES — MAR 17 REVISED
+
+| Timeframe | Mar 16 | Mar 17 | Driver |
+|-----------|--------|--------|--------|
+| **7d** | 25% | **30%** | Ueda hawkish + Yamaba tomorrow = presser catalyst risk ELEVATED |
+| **30d** | 87% | **88%** | Structural path reinforced |
+| **60d** | 88% | **88%** | Unchanged |
+
+### TOMORROW'S CONVERGENCE EVENT — MAR 18 (JST)
+
+**Three things happen simultaneously:**
+1. **Auto Yamaba (Toyota/Honda responses)** — morning JST
+2. **BOJ two-day meeting OPENS** — Ueda and board see Yamaba results in real-time
+3. **FOMC starts** (US side) — Fed decision Wed, same day as BOJ decision Thu
+
+If Toyota/Honda ≥ ¥12,000: Ueda's Mar 19 presser will be HAWKISH CONFIRMED. April hike prob → 75%+.
+If Toyota/Honda < ¥10,000 (unlikely given Nissan precedent): Neutral hold, April deferred.
+
+### CROSS-DOMAIN SIGNALS
+
+1. **CARL/HENRY:** FOMC starts today. NFP -92K context + tariff uncertainty. If Fed signals dovish while BOJ signals hawkish → rate differential narrows from BOTH sides → carry unwind acceleration
+2. **HAWK:** Oil back above $102 — Bessent Hormuz de-escalation was premature. Tanker struck. Energy crisis NOT resolved.
+3. **LIQUID:** JGB 10Y at 2.28-2.30% = elevated. Ueda says BOJ would only respond to "abrupt" JGB spike — signals comfort with gradual rise. Life insurer repatriation into FY-end continues.
+4. **NEXUS:** This is THE convergence week. FOMC + BOJ + Yamaba + oil volatility + FY-end T-14. All vectors point toward hawkish BOJ / yen strength / carry stress.
+
+### UPDATED ALERT LEVELS — MAR 17
+
+| Level | Action | Status |
+|-------|--------|--------|
+| **USD/JPY ~159.3** | Current — MoF verbal zone | 🔴 LIVE |
+| **USD/JPY 160.00** | 🚨 Katayama intervention line (CONFIRMED) | 🔴 SET |
+| **USD/JPY 157.00** | Hawkish Ueda + strong Yamaba → target | SET |
+| **USD/JPY 155.00** | 🚨 Phase 2 carry unwind onset | SET |
+| **Brent $105+** | 🔴 Hormuz de-escalation failed | WATCH |
+| **Brent $95** | 🟢 BOJ April hike prob jumps to 75%+ | WATCH |
+| **Mar 18 AM (JST)** | 🔴🔴 Auto Yamaba + BOJ opens + FOMC starts | CRITICAL |
+| **Mar 19** | 🔴🔴 Ueda presser + FOMC decision — DUAL CATALYST | CRITICAL |
+| **Nikkei 52,000** | 🚨 GPIF trigger (3.2% away) | STANDING |
+| **Mar 31** | FY-end T-14 days — repatriation ACTIVE | 🔴 LOADING |
 
 ---
 
@@ -27,29 +136,20 @@ Treasury Secretary Bessent announced the US is allowing Iranian oil tankers to t
 
 **This is the single most important shift for BOJ since the Iran war started.** The entire "BOJ holds because energy shock = stagflation trap" argument rested on Hormuz closure being STRUCTURAL. If Hormuz partially reopens:
 
-1. **Energy import cost pressure EASES** → yen structural weakness partially relieved → USD/JPY pulled back to 159.29
-2. **Stagflation trap LOOSENS** → BOJ's objection to hiking (can't add domestic rate pressure during energy shock) weakens
-3. **April hike probability RISES** → from ~60% to ~65%. If oil falls to $90s sustained, April becomes BASE CASE
-4. **Hawkish hold probability for Mar 18-19 presser RISES** → Ueda can credibly flag inflation vigilance + wage strength without the energy shock counterargument
+1. **Energy import cost pressure EASES** → yen structural weakness partially relieved
+2. **Stagflation trap LOOSENS** → BOJ's objection to hiking weakens
+3. **April hike probability RISES** → from ~60% to ~65%
+4. **Hawkish hold probability for Mar 18-19 presser RISES**
 
 **The "Iran conflict → BOJ holds" factor is weakening, not dead.** Oil is still $100 (not $80). Hormuz isn't fully open. But the DIRECTION of change is hawkish for BOJ.
 
 ### AUTO YAMABA — TOMORROW MORNING (JST)
 
-Toyota and Honda wage responses arrive **March 18 Japan morning** — the same day BOJ opens its two-day meeting. This is the most consequential timing alignment of the year:
+Toyota and Honda wage responses arrive **March 18 Japan morning** — the same day BOJ opens its two-day meeting.
 
 - Toyota union demanded ¥8,590-21,580/month depending on grade
 - JAW floor: ¥12,000/month minimum
 - If Toyota/Honda accept at or above ¥12,000: **Ueda's March 19 presser will be HAWKISH**
-- Combined with oil pullback, strong Yamaba result = April hike becomes ~70-75% priced
-
-### REVISED BOJ SCENARIOS — MAR 18-19
-
-| Scenario | Prior (Mar 15) | Revised (Mar 16) | Driver |
-|----------|---------------|------------------|--------|
-| **Hawkish hold** — April live, wages + oil easing flagged | 35-40% | **40-45%** | Oil pullback removes stagflation hold argument |
-| **Neutral hold** — data-watching | 35% | **35%** | Unchanged |
-| **Dovish hold** — energy risk deferred | 25-30% | **20-25%** | Oil de-escalation REDUCES dovish case |
 
 ### CARRY UNWIND PROBABILITIES — MAR 16 REVISED
 
@@ -58,28 +158,6 @@ Toyota and Honda wage responses arrive **March 18 Japan morning** — the same d
 | **7d** | 20% | **25%** | BOJ hawkish presser + oil de-escalation = yen strength risk ELEVATED |
 | **30d** | 86% | **87%** | Oil pullback + wages + FY-end = structural path STRENGTHENED |
 | **60d** | 88% | **88%** | Unchanged |
-
-### CROSS-DOMAIN SIGNALS
-
-1. **CARL/HENRY:** FOMC starts tomorrow. If Fed signals dovish (NFP -92K context) while BOJ signals hawkish → rate differential narrows from BOTH sides simultaneously → carry unwind acceleration
-2. **HAWK (energy):** Oil at $100 vs $103+ = partial relief but NOT resolution. Hormuz not fully open. Watch for whether Iranian tanker transit is sustained or one-off gesture
-3. **LIQUID:** JGB 10Y at 2.28% = highest in SAM tracking. If BOJ hawkish hold + auto Yamaba strong → JGB selloff accelerates → life insurer repatriation pressure intensifies
-4. **NEXUS flag:** This week is the convergence event: FOMC + BOJ + auto Yamaba + oil de-escalation + FY-end T-15. All vectors aligning toward hawkish BOJ / yen strength / carry stress
-
-### UPDATED ALERT LEVELS — MAR 16 EOD
-
-| Level | Action | Status |
-|-------|--------|--------|
-| **USD/JPY 159.29** | Current — slight yen strength on oil pullback | 🟢 LIVE |
-| **USD/JPY 157.00** | Hawkish Ueda + strong Yamaba → target | SET |
-| **USD/JPY 155.00** | 🚨 Phase 2 carry unwind onset | SET |
-| **USD/JPY 160.00** | 🚨 Intervention zone (lower priority given oil pullback) | WATCH |
-| **Brent $95** | 🟢 BOJ hike probability jumps to 75%+ April | WATCH |
-| **Brent $105+** | 🔴 Hormuz de-escalation failed — stagflation trap re-engages | SET |
-| **Mar 18 AM (JST)** | 🔴 Auto Yamaba (Toyota/Honda) + BOJ opens | CRITICAL |
-| **Mar 19** | 🔴 Ueda presser — THE catalyst | CRITICAL |
-| **Nikkei 52,000** | 🚨 GPIF trigger (3.0% away) | STANDING |
-| **Mar 31** | FY-end T-15 days | 🔴 LOADING |
 
 ---
 
@@ -99,1386 +177,33 @@ Toyota and Honda wage responses arrive **March 18 Japan morning** — the same d
 | **JGB 10Y** | 2.22% (Mar 9) | **2.25%** (Mar 13) | ⬆️ +3bp, AT YELLOW | TradingEconomics |
 | **JGB 30Y** | 3.28% (Mar 4) | **3.48%** (Mar 12) | ⬆️ +20bp in 8 days | TradingEconomics |
 | **Nikkei 225** | ~55,500 (Mar 11 Asia) | **53,819** (Mar 13 close) | ⬇️ -3.1%, 3.4% from GPIF 52k | FRED/Nikkei |
-| **Tokyo CPI core (Feb)** | 2.0% (Jan) | **1.8%** (Feb) | ⬇️ Below BOJ 2% target | Stats Bureau Feb 26 |
 | **Taiwan LNG cargoes** | 20/22 secured | **22/22 SECURED** | ✅ ML-JPN-186 RESOLVED | Taiwan News Mar 13 |
-| **BOJ April hike prob** | 60-65% | **~60%** (confirmed) | Stable | Reuters/BOJ sources Mar 12 |
-
-### KEY FINDING: WAGE DATA COMPLETES BOJ HAWKISH CASE
-
-The January 2026 wage data (released March 8) is the most important fundamental shift since the last STATUS update:
-- **Real wages +1.4%**: The BOJ's stated precondition for continued hikes — "sustained wage-led inflation" — is now confirmed for January.
-- **Nominal wages +3.0%**: Above the BOJ's informal 3% bar.
-- **Shunto JEIU ¥12,000 minimum**: Even at minimum, electronics sector is running above 2025's ¥10,000.
-- **Auto Yamaba March 18**: Toyota and Honda responses arrive the morning of the BOJ's first session day. If autos accept ¥18,000 in full, Ueda's March 19 presser will be HAWKISH.
-
-**Combined: The wage evidence is the strongest in this cycle.** The 4 Reuters BOJ sources (Mar 12) calling April hike "live" at 60% have this data behind them.
-
-### REVISED BOJ SCENARIOS — MAR 18-19
-
-| Scenario | Prior Prob | Revised | Key Driver |
-|----------|-----------|---------|------------|
-| **Hawkish hold** — April live, wages flagged | 30% | **35-40%** | Real wages positive + JEIU ¥12,000 + BOJ sources confirmed |
-| **Neutral hold** — data-watching, no commitment | 35% | **35%** | Unchanged |
-| **Dovish hold** — energy risk deferred | 35% | **25-30%** | Iran war = inflationary (not deflationary) per BOJ sources |
-
-**Note:** The Reuters March 12 article EXPLICITLY REFRAMES energy shock from "reason to hold dovish" to "reason for inflation vigilance." This is why hawkish hold has increased probability.
-
-### TAIWAN LNG — RESOLVED (ML-JPN-186 CLOSED)
-
-Taiwan News (Mar 13): All 22 cargoes secured. ML-JPN-186 critical watch is RESOLVED for March-April window. JKM spot pressure from Taiwan emergency bids should ease for this window. **Caveat:** Reserves remain thin (11 days gas). Late-April remains a watch point if Qatar supply doesn't recover.
-
-### NIKKEI WATCH — 3.4% FROM GPIF TRIGGER
-
-Nikkei at 53,819 on March 13. GPIF mechanical trigger at 52,000. Honda Motor was leading decliner (-5.70%) on March 13 — tariff/yen/Shunto cost pressure on exporters showing through. If Nikkei continues lower into BOJ week: (1) Takaichi political pressure against hawkish BOJ increases, (2) GPIF trigger proximity elevates cross-domain risk.
-
-### CARRY UNWIND PROBABILITIES — MAR 15 REVISED
-
-| Timeframe | Mar 13 | Mar 15 | Driver |
-|-----------|--------|--------|--------|
-| **7d** | 18% | **20%** | BOJ hawkish presser risk elevated + Nikkei declining |
-| **30d** | 86% | **86%** | Unchanged — FY-end + wages + JGB steepening |
-| **60d** | 88% | **88%** | Unchanged |
-
----
-
 
 ---
 
 ## 🌅 AM BRIEF — MAR 13, 2026 (17:30 UTC)
 
-### HEADLINE: USD/JPY 159.50 — JAN RATE-CHECK LEVEL RETESTED. BOJ HAWKISH PIVOT SIGNAL FROM REUTERS (4 SOURCES). REPATRIATION BREAKDOWN: BANKS ¥3.14T, LIFE INSURERS ¥618.7B. FY-END T-18 DAYS.
-
-### (1) OVERNIGHT / INTRADAY DEVELOPMENTS
-
-| Metric | Mar 12 EOD | Mar 13 (17:30 UTC) | Delta |
-|--------|-----------|-------------------|-------|
-| **USD/JPY** | ~159.00-159.10 | **159.50 (+0.10% on day)** | 🔴🔴 JAN RATE-CHECK LEVEL HIT |
-| **MoF verbal** | Active zone | **Katayama "closely monitoring" — at prior intervention trigger** | 🔴 ESCALATION IMMINENT |
-| **BOJ stance** | Hold 92-95%, dovish bias | **HAWKISH SHIFT — Reuters: 4 sources say April hike live** | 🚨 MAJOR DELTA |
-| **April hike pricing** | ~60-65% swaps | **~60% — CONFIRMED by Reuters sources as legitimate** | ⚠️ Upgraded credibility |
-
-**🚨 MAJOR NEW SIGNAL — Reuters (Mar 12):** "Iran war may embolden BOJ's hawkish push, despite growth risks." Four sources familiar with BOJ thinking say supply shocks from Middle East conflict may SPEED UP hawkish agenda, leaving April hike chance open. Key quote from source: "The conflict comes at a time underlying inflation is already close to 2%, requiring policymakers to be vigilant to the risk of higher inflation."
-
-**This is a REGIME SHIFT in BOJ communication.** Prior framing: energy shock = reason to hold (stagflation trap). NEW framing: energy shock = inflationary pressure requiring vigilance = reason to HIKE. The BOJ is pivoting from "cushioning growth" to "fighting inflation" — the same transition that took 2 years post-Ukraine is being attempted in 2 weeks post-Iran.
-
-**Caveat:** Reuters also notes "equal chance conflict triggers global downturn that forces BOJ to overhaul rate-hike plans." And Takaichi "holds reservations" against further hikes. So this is a genuine split within the institution — not consensus.
-
-**Net impact on March 18-19:** HOLD still 92-95%. But Ueda presser language is now MORE LIKELY to contain hawkish elements (flagging inflation vigilance, keeping April live). This raises the "hawkish hold" scenario from 15% → **25-30%.**
-
-### (2) REPATRIATION FLOWS — NEW GRANULAR DATA
-
-**MoF February data (via Manila Times/Reuters, Mar 10):**
-
-| Seller Category | Feb Net Foreign Bond Sales | Note |
-|----------------|--------------------------|------|
-| **Japanese banks** | **¥3.14T** | LARGEST category — driven by balance sheet cleanup |
-| **Life insurers** | **¥618.7B** | Below prior estimates — J-ICS driven but measured |
-| **Investment mgmt cos** | ¥174.7B | Minor |
-| **Trust accounts** | **+¥1.22T (NET BUYERS)** | GPIF/pension BUYING foreign bonds — partial offset |
-| **NET TOTAL** | **¥3.07T ($19.37B)** | Largest in 16 months (since Oct 2024 ¥6.5T) |
-
-**Key revision from prior STATUS:** Prior analysis assumed life insurers were the primary sellers. **WRONG — banks were 5x larger sellers than life insurers in February.** The ¥3.14T bank selling suggests balance sheet de-risking and FX hedging cost reduction, not just J-ICS regulatory compliance. Trust accounts (GPIF) were actually net BUYERS of foreign bonds (¥1.22T), partially offsetting the institutional selling.
-
-**FY-end acceleration question:** With T-18 days to Mar 31, the key watch is whether March weekly MoF data shows ACCELERATION from February's pace. Feb averaged ~¥770B/week net. If March weeks show ¥1T+/week, repatriation is accelerating into FY-end. Next MoF weekly data: Thursday Mar 13 (today) or next Thursday.
-
-### (3) TODAY'S WATCH ITEMS
-
-1. **USD/JPY 159.50 = the line.** This is the exact level that triggered MoF rate checks in January. If we close above 159.50, expect Katayama verbal escalation within hours. If 160.00 prints, operational intervention probability HIGH.
-2. **MoF weekly ITS data** — may release today (Thursday). Will show week ended Mar 7 flows. Watch for acceleration vs. the ¥399.8B prior week.
-3. **Pre-BOJ positioning** — with Reuters hawkish sources out, market may start front-running hawkish hold. Watch for yen strength / USD/JPY pullback toward 158.50 if positioning shifts.
-4. **TIC data March 15 (Saturday)** — January Japan UST holdings. First hard read on UST selling.
-
-### (4) REVISED BOJ MEETING SCENARIOS — MAR 18-19
-
-| Scenario | Prior Prob | Revised | USD/JPY Impact |
-|----------|-----------|---------|----------------|
-| **Dovish hold** — energy risk, defer April | 50% | **35%** | 159.50-160.50 → intervention |
-| **Neutral hold** — no new language | 35% | **35%** | 158.50-159.50 |
-| **Hawkish hold** — inflation vigilance, April live | 15% | **30%** | 156.00-158.00 → carry stress |
-
-**The hawkish hold scenario has DOUBLED in probability** based on Reuters sourcing. This is the asymmetric risk event: 30% chance of sharp yen strength and carry unwind acceleration.
-
-### (5) CARRY UNWIND PROBABILITIES — REVISED
-
-| Timeframe | Mar 12 EOD | Mar 13 AM | Driver |
-|-----------|-----------|-----------|--------|
-| **7d** | 13% | **18%** | 159.50 rate-check + Reuters hawkish sources = Ueda presser risk elevated |
-| **30d** | 84% | **86%** | Hawkish BOJ + repatriation + 159.50 intervention proximity |
-| **60d** | 88% | **88%** | Unchanged |
+*(Archived — see previous entries for full detail)*
 
 ---
 
-## 🚨 SIGNAL INTEGRATION — MAR 13, 2026 (14:50 UTC)
-
-### HEADLINE: ¥399.8B FOREIGN BOND SALE SIGNAL — VERIFIED AS INSTITUTIONAL (NOT BOJ DIRECT). FY-END REPATRIATION IN ACTIVE PHASE. JAPAN LEG OF UST DEMAND HOLE NOW LIVE. BOJ MEETING THESIS UNCHANGED.
-
-**Source:** @DefiWimar on X (254K views, 3/12/26) — citing ¥399.8B in foreign bond outflows on March 12.
-
----
-
-### Q1: SOURCE VERIFICATION — WHO IS SELLING?
-
-**Assessment: NOT the BOJ directly. This is Japanese institutional investors via MoF weekly flow data.**
-
-Key facts:
-- The BOJ holds **domestic JGBs**, not foreign bonds. The BOJ's foreign asset portfolio is negligible relative to ¥399.8B. This number cannot be attributed to BOJ direct action.
-- The MoF releases **weekly "International Transactions in Securities" (ITS)** data, typically Thursday. The March 12 release would cover the **week ended March 7**.
-- **Japan Times (March 5, 2026):** Japanese investors sold **¥3.42 trillion ($21.8 billion)** of overseas bonds in February — the largest monthly sale since October 2024. Bulk in the week ended Feb. 20. Mechanism: life insurers booking impairment losses on JGBs, realizing gains on foreign bonds to manage overall profits; AND domestic yields rising (JGB 10Y ~2.22%) making yen bonds more attractive vs. hedged USD bonds.
-- **Fukoku Mutual Life (direct quote, Japan Times):** "We've been selling low-yield foreign bonds and shifting them into yen-denominated bonds since last April. We plan to maintain the current position for the time being, adjusting the balance based on foreign exchange trends."
-- **¥399.8B in one week** is actually BELOW the February average (¥3.42T ÷ 4 = ~¥855B/week). Possible interpretations: (a) deceleration as repatriation normalizes post-February peak; (b) one-week figure vs. prior month's concentration in the Feb 20 week; (c) this is the week ended March 7 data, with March 12+ week likely to be similar or higher as FY-end (March 31) approaches.
-
-**Sellers are:** Life insurers (Nippon Life, Dai-ichi, Meiji Yasuda, Fukoku Mutual), GPIF at the margin, regional bank trust accounts, and some megabank (MUFG/Mizuho/SMBC) foreign bond books.
-
-**DefiWimar framing ("BOJ dumped") is technically INCORRECT** — BOJ is not the actor. But the signal itself is VALID: Japanese institutional capital is leaving foreign bond markets at an elevated and accelerating pace.
-
----
-
-### Q2: BOJ MEETING IMPLICATIONS — PRE-POSITIONING FOR HIKE?
-
-**No. The repatriation is INDEPENDENT of and PREDATES any BOJ hike signal.**
-
-The institutional selling is driven by:
-1. **J-ICS regulatory change (April 2025):** New mark-to-market solvency regime forces life insurers to duration-match liabilities with domestic assets. Foreign bonds create duration mismatch. This mandate began April 2025 — the selling has been running for nearly a year.
-2. **JGB yield normalization:** Domestic yields now competitive. JGB 10Y at 2.22% vs. hedged USD yields under FX hedging costs. At USD/JPY 159, the cost to FX-hedge a USD bond back to JPY terms eats most of the yield advantage.
-3. **FY-end balance sheet management:** Life insurers need to crystallize gains/losses before March 31. Selling foreign bonds at gain while booking JGB impairment losses = net P&L management.
-
-**BOJ meeting thesis: UNCHANGED at 92-95% hold.**
-
-If anything, the repatriation data SLIGHTLY REDUCES hike probability: life insurer selling of JGBs is creating steepening pressure at the long end. BOJ stepping in to buy JGBs (which it is doing via QT taper) means it's already in reactive mode on domestic rates. Hiking into this JGB volatility environment is politically and operationally untenable. **Ueda will hold and watch wages (Shunto Mar 21).**
-
-**The "pre-positioning before hike" interpretation is backwards.** Repatriation creates domestic yield pressure → BOJ stays cautious → more reason to hold.
-
----
-
-### Q3: TOTAL FY-END OUTFLOW THROUGH APRIL
-
-**Historical context and forward estimate:**
-
-| Period | Net Foreign Bond Sales | Source |
-|--------|----------------------|--------|
-| Feb 2026 | **¥3.42T** ($21.8B) | Japan Times / MoF ITS preliminary |
-| Week ended Mar 7 (est.) | **¥399.8B** ($2.5B) | @DefiWimar / MoF ITS |
-| Oct 2024 peak (prior comparable) | ~¥3.5T/month | Balance of payments data |
-| Typical FY-end March | ¥1.5-3T | Historical range |
-
-**Forward projection (March 13 → April 30):**
-
-Three scenarios:
-- **Base case (current pace continues):** ~¥400-600B/week for March remainder (3 weeks) + tapering in April = **¥2-3T additional** through end of April. Total Q1 2026: **¥5-7T ($32-45B).**
-- **Acceleration (FY-end rush, Mar 25-31 peak):** Final two weeks of March historically see compressed repatriation. If institutions front-load before Mar 31, could see ¥1T+ weeks. Total: **¥7-10T ($45-65B).**
-- **Deceleration (Feb was peak):** If Feb's ¥3.42T was driven by specific JGB impairment event and March normalizes at ¥400-500B/week, total adds ¥1.5-2T. Cumulative Feb+March: ~¥5T.
-
-**Central estimate: ¥5-8T in total foreign bond outflows in Feb-March combined (~$32-51B).** UST portion is roughly 40-50% of Japanese overseas bond holdings → **$13-25B in UST-equivalent selling in this window.**
-
-This IS large enough to show in TIC data (watch March 15 TIC release for January data; February won't show until mid-April).
-
----
-
-### Q4: CROSS-CURRENCY BASIS SWAP IMPLICATIONS
-
-**The mechanism:**
-
-When Japanese life insurers sell USD-denominated foreign bonds:
-1. They receive USD → repatriate to JPY
-2. If they previously HEDGED the bond (most do via FX forward or cross-currency basis swap), they are UNWINDING the hedge as they sell — reducing demand for USD/JPY FX swaps
-3. Net effect: **FX basis swap demand from Japan FALLS** → basis could NARROW (become less negative) SHORT-TERM as hedging demand drops
-
-**BUT** — the "pipes breaking" scenario is different:
-
-If Japanese banks (not life insurers) are specifically:
-- Pulling back on **USD interbank lending** via FX swaps to dollar-needy borrowers
-- Reducing **cross-border dollar repo activity**
-- Cutting **CP and CD rollover** for offshore dollar funding
-
-...THEN we see the dangerous scenario: SOFR basis widening, dollar CP spreads widening, FHLB advance demand increasing as banks scramble for dollar substitutes.
-
-**Current read:** No confirmed data on SOFR spike or cross-currency basis widening as of Mar 12. The SAM "pipes breaking" trigger would be:
-- 3-month USDJPY cross-currency basis widens past -50bp (watch from current level)
-- SOFR spike above upper bound of Fed funds target
-- FHLB advance demand spike (LIQUID domain — flag this)
-
-**Assessment:** Life insurer repatriation alone does NOT break pipes. It reduces dollar demand from Japan, which is mildly dollar-negative and yen-supportive — actually EASES basis pressure in the short term. The dangerous scenario is if **Japanese banks actively withdraw dollar funding lines from non-Japanese counterparties** — a deliberate credit tightening. No evidence of this yet, but it's the "what breaks the pipes" watch item.
-
-**Flag to LIQUID:** Monitor 3-month USDJPY basis, SOFR-OIS spread, and any FHLB advance data spike as potential early signals.
-
----
-
-### Q5: USD/JPY TIMELINE — DOES THIS CHANGE ANYTHING?
-
-*Note: The Mar 2 STATUS referenced USD/JPY thesis, not CNY 7.30 — that appears to be a cross-reference mix-up. Clarifying below.*
-
-**USD/JPY current: ~159.00-159.10** (Mar 12 EOD)
-
-**How repatriation data changes the timeline:**
-
-Repatriation = Japanese institutions selling USD bonds + buying JPY. This is **YEN-SUPPORTIVE force** that has been operating since April 2025. The reason USD/JPY is at 159 and NOT 162+ is partly because this structural yen buying has been partially offsetting the energy-import/carry weakness dynamics.
-
-**Revised understanding:**
-- February's ¥3.42T in foreign bond selling = ~$21.8B of latent yen demand
-- March will add another ¥2-3T = another ~$13-19B
-- **This is NOT a bearish yen signal.** It's a yen-supportive structural flow that CAPS how far USD/JPY can run before being overwhelmed by repatriation
-
-**BUT**: The mechanism has a limit. Repatriation occurs in stages and is partially hedged. The energy import cost demand for USD is running concurrent. The net of the two forces is USD/JPY hovering at 159 — stuck.
-
-**Timeline impact:**
-- The repatriation confirms the FY-end dynamic is ACTIVE, not theoretical
-- A BOJ hold + dovish Ueda (50% probability, Mar 19) = repatriation yen buying temporarily swamped by carry trader USD demand → USD/JPY tests 160
-- A BOJ hawkish hold (15% probability) = repatriation + rate signal combined → sharp move toward 155-157
-- **No change to 30d carry unwind probability: 84%.** Repatriation is part of the mechanism, not a new surprise. The surprise is that it's ALREADY this large, this early.
-
-**Regarding CNY 7.30:** The prior "2-4 weeks out" call (Mar 2) would have been Mar 16-30 window. USD/CNH is currently tracking this as ZHAO's domain — no direct impact from Japan repatriation on CNY unless global risk-off triggers simultaneous EM pressure.
-
----
-
-### UPDATED STATUS — MAR 13 EOD
-
-**New items added to monitoring:**
-- ✅ Japan FY-end repatriation: CONFIRMED ACTIVE at ¥3.42T in Feb + ¥399.8B in first March week
-- ✅ UST demand hole Japan leg: LIVE — ~$13-25B in UST-equivalent selling in Feb-March window
-- ✅ Life insurer identification: Fukoku, Nippon Life, Dai-ichi, Meiji Yasuda confirmed sellers
-- 🆕 LIQUID flag: Monitor 3-month USDJPY basis + SOFR + FHLB advances for "pipes breaking" precursors
-- 🆕 TIC data March 15: Japan leg should begin appearing — watch for Japan UST holdings change
-
-**Carry unwind probabilities: UNCHANGED**
-| Timeframe | Mar 12 EOD | Mar 13 | Driver |
-|-----------|------------|--------|--------|
-| **7d** | 13% | **13%** | Repatriation is YEN-SUPPORTIVE but doesn't accelerate 7d trigger |
-| **30d** | 84% | **84%** | Confirmation of active repatriation validates FY-end loading thesis |
-| **60d** | 88% | **88%** | Unchanged |
-
----
-
-## 🌅 EOD BRIEF — MAR 12, 2026 (20:15 UTC)
-
-### HEADLINE: USD/JPY HOLDS 159 DESPITE CPI IN-LINE SOFTNESS. VERBAL INTERVENTION ZONE ACTIVE. BOJ HOLD LOCKED. UEDA MAR 19 = THE ONLY CATALYST LEFT. LIFE INSURER REPATRIATION NOW 19 DAYS FROM FY END.
-
-### (1) USD/JPY MOVE TODAY + CARRY TRADE STRESS
-
-**Day's range: 158.30 (early Asia) → 159.06-159.24 (intraday high) → ~159.00 EOD.**
-
-The defining data point of the day: US CPI printed 2.4% in-line (core 2.5%). USD softened briefly in the morning session, touching 158.30. But USD/JPY reversed and closed the day at/near 159 — the intervention zone. Even a soft CPI print **cannot hold the yen bid.** The structural force (energy import costs + BOJ paralysis) is dominant over any single US data point.
-
-**Key context from investinglive.com (Mar 11):** USD/JPY is now testing the January high (159.45) — the same level that triggered a MoF "rate check" that previously sent the pair plunging. That protective mechanism was activated at ~159.45 in January; we are now one session away from retesting it. The 2024 high was 162.00. Anything above 160 = 40-year highs.
-
-| Metric | MAR 12 AM | MAR 12 EOD | Delta |
-|--------|-----------|------------|-------|
-| **USD/JPY** | 159.06 (range 158.57-159.24) | **~159.00-159.10** | 🔴 Held — no yen relief |
-| **Carry status** | Nominally intact | **Nominally intact — but 159.45 rate check level ONE SESSION AWAY** | ⚠️ Escalating |
-| **MoF verbal status** | Active zone | **Active — Katayama statement imminent if 159.50 prints** | 🔴 |
-| **Carry unwind 7d prob** | 12% | **12%** | No acute trigger — carry mechanically intact |
-| **Carry unwind 30d prob** | 83% | **84%** | FY-end + 159 hold = slow-motion accumulation |
-
-**Carry trade stress reading:** No acute unwind. Carry is mathematically positive at 159. But proximity to the January rate-check level (159.45) and the psychological 160.00 intervention zone is compressing the "safe zone" for carry positioning. Any sharp USD/JPY move through 159.50 would likely trigger: (a) MoF verbal escalation, (b) hedge fund position covering, (c) probability spike in 7d unwind risk to 20-25%.
-
----
-
-### (2) BOJ MEETING EXPECTATIONS UPDATE — MAR 18-19
-
-**Hold probability: 92-95% (unchanged).**
-
-CPI 2.4% in-line does NOT move this. BOJ needs THREE things to hike that are all absent:
-1. Energy shock resolution (Hormuz still mined) — **NOT resolved**
-2. March CPI data — **won't print until April**
-3. Shunto final wage tally — **Mar 21, AFTER the meeting**
-
-**Bloomberg (Mar 12):** Japan's largest life insurers confirmed plans to increase private credit investment in FY beginning April — consistent with ongoing search for yield as BOJ policy stays on hold. Not an immediate repatriation signal but confirms structural portfolio repositioning is active.
-
-**Markets (from investingcube.com, Mar 12 AM):** Swap markets pricing 60-65% probability of 25bp April hike (to 1.00%). This is the market's forward-looking view; it does NOT change March outcome.
-
-**Updated BOJ scenario table — unchanged from AM check-in:**
-
-| Scenario | Probability | USD/JPY impact |
-|----------|-------------|----------------|
-| **Dovish hold** — Ueda emphasizes energy risk, defers any April signal | 50% | 159.50-160.50 → intervention risk |
-| **Neutral hold** — no new directional language | 35% | 158.50-159.50 → status quo drift |
-| **Hawkish hold** — wages flagged, April hinted | 15% | 156.00-158.00 → yen strength → carry stress |
-
----
-
-### (3) LIFE INSURER REPATRIATION SIGNALS
-
-**FY2025 ends March 31 — 19 days away. Repatriation window peak: NOW through Mar 31.**
-
-**Active signals:**
-- **Bloomberg Mar 12:** Japan's largest life insurers (Nippon Life, Dai-ichi, Meiji Yasuda etc.) confirmed they are increasing private credit investment for FY beginning April — implies active portfolio rebalancing NOW at FY-end. Selling of existing positions (including foreign bonds) to fund redeployment is the mechanism.
-- **Reuters (Oct 2025):** Major life insurers planned to trim yen bond holdings Oct-March and swap into higher-return issues. The H2 FY2025 rebalancing is now in its final weeks.
-- **Japan midsize insurers (Jan 2026):** Fukoku Mutual and peers cutting 30-40Y JGB exposure. Not directly UST-selling, but portfolio rotation is active.
-
-**Assessment:** Life insurer repatriation is a slow-motion process, not a one-day event. But with 19 days to FY-end and USD/JPY at 159 (making USD-denominated assets expensive to hold on a JPY hedging basis), the incentive to repatriate — selling USD bonds, buying JPY — is building. This is the Japan leg of the "three-anchor UST selling" thesis activating.
-
-**Watch:** Any public statement from Nippon Life, Dai-ichi, or Meiji Yasuda CEO on FX hedging posture or overseas bond allocation would be a direct confirmation. TIC data Mar 15 is the next hard read.
-
----
-
-### (4) CARRY UNWIND RISK ASSESSMENT — MAR 12 EOD
-
-**Current regime: Yen weakness / structural accumulation phase — NOT acute unwind.**
-
-The thesis has not changed: carry is still mechanically positive, but the pressure-cooker is loading. Three factors elevating risk:
-
-**Factor 1: USD/JPY proximity to rate-check zone (159.45)**
-The January rate check at 159.45 caused a sharp reversal. We're one session away. If USD/JPY prints 159.50+ tomorrow, MoF verbal escalation is near-certain. Verbal escalation alone doesn't trigger carry unwind — but it compresses positioning room.
-
-**Factor 2: FY-end repatriation (Mar 31 = T-19 days)**
-Life insurer repatriation adds structural yen demand that wasn't present 2 months ago. This is a slow-building force that becomes acute in the final week of March.
-
-**Factor 3: Ueda presser Mar 19 binary**
-The single most important catalyst in the window. A hawkish hold (15% probability) would be an acute carry trigger — yen strengthens 100-150 pips fast, carry positions cover, 7d probability jumps to 30-35%.
-
-**Updated carry unwind probabilities:**
-
-| Timeframe | MAR 12 AM | MAR 12 EOD | Driver |
-|-----------|-----------|------------|--------|
-| **7d** | 12% | **13%** | Proximity to rate-check zone slightly elevated |
-| **30d** | 83% | **84%** | FY-end loading + 159 hold confirms structural path |
-| **60d** | 88% | **88%** | Unchanged — mine clearance unresolved, SPR clock |
-
----
-
-### (5) WHAT UEDA MAR 19 COULD TRIGGER
-
-**Ueda presser Mar 19 is the ONLY active catalyst in the 7-day window.** The meeting decision (hold) is a certainty. The LANGUAGE is everything.
-
-**Three trigger scenarios:**
-
-**Trigger A — Hawkish hold (15% probability):**
-Ueda explicitly flags April as a "live" meeting; references Shunto wage data progress; downplays energy risk relative to domestic wage-led inflation.
-- **USD/JPY reaction:** -150 to -300 pips. Sharp yen strength.
-- **Carry unwind:** 7d probability jumps from 13% → 30-35%. Immediate hedge fund covering.
-- **Ripple effects:** Nikkei -2-3% (JPY squeeze hits exporters), JGB 2Y yields spike, regional EM calm temporarily (yen safe-haven eases some Korea/EM pressure).
-- **For the thesis:** Phase 2 carry unwind onset — this is the original mechanism. Would be the cleanest and fastest path to the carry unwind scenario.
-
-**Trigger B — Neutral hold (35% probability):**
-Ueda says "we continue to monitor data" with no new forward guidance language. No energy or wage emphasis shift.
-- **USD/JPY reaction:** ±30-50 pips (noise). Drifts back to 159.
-- **Carry unwind:** No change. 7d stays ~12-13%.
-- **Implication:** Market focus shifts to April 23-24 BOJ as the next live meeting.
-
-**Trigger C — Dovish hold (50% probability):**
-Ueda emphasizes prolonged energy uncertainty, defers to April/June timeline, explicitly rules out near-term hikes until global situation clarifies.
-- **USD/JPY reaction:** +100-200 pips. Path to 160 opens.
-- **Carry unwind:** 7d drops to ~8-10% (carry more attractive short-term). 30d RISES as 160 intervention risk builds.
-- **Implication:** MoF forced to escalate verbal intervention immediately. If USD/JPY approaches 160, operational intervention becomes the Phase 2 trigger instead of BOJ action. Different mechanism, same destination.
-
-**Bottom line on Ueda Mar 19:**
-- 50% chance he hands carry traders another week of runway (dovish hold → drift toward 160)
-- 35% chance nothing changes (neutral → status quo)
-- 15% chance he lights the fuse (hawkish hold → acute carry stress onset)
-- **The 15% scenario is the one to position around.** It has asymmetric impact and is the only path to rapid Phase 2 onset before month-end.
-
----
-
-### (6) TAIWAN LNG CROSS-DOMAIN — MAR 10 HAWK SIGNAL (INTEGRATED MAR 12)
-
-**HAWK → SAM: Taiwan LNG approaching RED. Critical date: March 15.**
-
-| Metric | Status |
-|--------|--------|
-| **Taiwan LNG reserves** | ~10-11 days baseline (thin vs Japan/Korea 2-4 weeks) |
-| **Qatar supply offline** | ~30% of Taiwan LNG — Ras Laffan halt + Hormuz double hit |
-| **Cargoes secured** | 20 of 22 needed for March-April. **2 still unconfirmed.** |
-| **Minister on record (Mar 10)** | "No imminent shortage" — but math is tight |
-| **Taipower Chair Tseng (Mar 3)** | Named 6 specific shipments after March 15 at risk |
-| **TSMC power exposure** | TSMC ~9% of Taiwan electricity. No curtailments yet. |
-
-**Why March 15 is the inflection:** Pre-Hormuz-closure cargoes deliver by ~March 15. After that, only Australia/US Gulf spot can cover the ~30% Qatar gap. With 2 cargoes unconfirmed, reserve exhaustion risk emerges **late March to early April**.
-
-**SAM relevance (two channels):**
-1. **JKM amplification:** Taiwan spot bids directly compete with Japan for Australia/US Gulf cargoes → drives JKM higher → Japan import costs elevated → yen structural weakness deepened → BOJ trap deepens further.
-2. **TSMC curtailment → inflation:** If Taipower reserve margin falls <10%, TSMC curtailment is real. TSMC advanced chip shortage → global semiconductor prices rise → inflationary input cost surge cross-domain. Also compounds Kumamoto delay (2029 gap).
-
-**Watch triggers (active):**
-- Taipower coal backup activation announcement
-- 2 unconfirmed cargoes confirmed OR fall through
-- Taiwan power reserve margin <10% (Taipower data)
-- TSMC IR statement on energy contingency
-- JKM spike above $18/MMBtu (Taiwan spot bids crowding out Japan)
-
-**ML entry:** ML-JPN-186 | **FLOW entry:** FLOW-TWN-7.01
-
----
-
-### UPDATED ALERT LEVELS — MAR 12 EOD
-
-| Level | Action | Status |
-|-------|--------|--------|
-| **USD/JPY ~159.00** | Current — intervention zone ACTIVE | 🔴 LIVE |
-| **USD/JPY 159.45** | Jan rate-check level — prior MoF action precedent | ⚠️ WATCH (1 session away) |
-| **USD/JPY 159.50** | MoF operational intervention clock | 🔴 SET |
-| **USD/JPY 160.00** | 🚨 Operational intervention — Phase 2 candidate via FX channel | 🔴 SET |
-| **USD/JPY 157.00** | Hawkish Ueda signal → yen bounce target | SET |
-| **Mar 15 (Sun)** | TIC data — Japan UST selling confirmation | 🟠 |
-| **Mar 18** | BOJ meeting opens + Japan SPR continues | 🔴 DUAL EVENT |
-| **Mar 19** | Ueda presser — carry catalyst | 🔴 CRITICAL |
-| **Mar 21** | Shunto first tally (Rengo) | 🟠 |
-| **Mar 31** | FY2025 end — life insurer repatriation PEAK (T-19 days) | 🔴 LOADING |
-
-### UPDATED CARRY UNWIND PROBABILITIES — MAR 12 EOD
-
-| Timeframe | MAR 12 AM | MAR 12 EOD | Driver |
-|-----------|-----------|------------|--------|
-| **7d** | 12% | **13%** | Rate-check proximity |
-| **30d** | 83% | **84%** | FY-end repatriation loading; 159 hold |
-| **60d** | 88% | **88%** | Structural — unchanged |
-
----
-
----
-
-## 🌅 AM CHECK-IN — MAR 12, 2026 (13:45 UTC)
-
-### HEADLINE: USD/JPY BREACHES 159.00 MoF VERBAL ZONE. BOJ MEETING 6 DAYS AWAY. CPI IN-LINE — DOESN'T MOVE THE NEEDLE.
-
-### (1) OVERNIGHT JAPAN DEVELOPMENTS
-
-| Metric | Mar 11 EOD | Mar 12 AM | Delta |
-|--------|-----------|-----------|-------|
-| **USD/JPY** | ~158.00-158.30 | **159.06 (range 158.57-159.24)** | 🔴 **ALERT LEVEL BREACHED** |
-| **Signal Status** | MoF verbal zone: WATCH | **MoF verbal zone: ACTIVE** | Escalation |
-| **BOJ rate** | 0.75% | 0.75% — hold next week confirmed | No change |
-| **US CPI (Feb)** | Printed yesterday | **2.4% YoY in-line, core 2.5%** | 🟡 No surprise — USD slightly soft |
-
-**Political/macro:**
-- No overnight BOJ communication surprises. Hold for Mar 18-19 remains consensus — sources: mitrade.com confirms "expected to maintain policy rate next week."
-- USD/JPY drift from 158.30 → 159.06 overnight: driven by combination of USD recovery (CPI digestion, risk-on) and yen structural weakness persistence from oil/import dynamics.
-- No new MoF intervention language overnight (would have been flagged by newswires if Katayama spoke).
-
-**⚠️ ALERT TRIGGERED: USD/JPY 159.00 line breached.** Per Mar 11 EOD alert table: "MoF verbal escalation zone." Expect Katayama or Deputy Finance Min to jawbone within 24-48 hours if 159+ holds. Operational intervention clock starts if we print 159.50+.
-
----
-
-### (2) CPI 2.4% IN-LINE — DOES IT CHANGE USD/JPY TRAJECTORY?
-
-**Short answer: No. Here's why:**
-
-| Factor | Impact on USD/JPY |
-|--------|-------------------|
-| US CPI 2.4% in-line (no upside) | Minor USD softness → mild yen-supportive |
-| BUT: Feb data predates Hormuz oil spike | March CPI will be HOT (oil embedded) — forward-looking USD is re-inflationary |
-| BOJ still frozen (energy trap) | Rate differential unchanged — carry still works |
-| Oil still ~$90+ | Japan import costs elevated → structural yen weakness dominant |
-
-**Net trajectory:** CPI in-line is a one-session headwind for USD/JPY, not a trend reversal. The overnight move from 158.30 → 159.06 CONFIRMS that even soft US CPI can't hold the yen up. The structural force is energy imports + BOJ paralysis, not Fed path.
-
-**Medium-term (Mar 18-Apr):** USD/JPY is grinding toward 160. The question is whether BOJ Ueda on Mar 19 gives any language that could cause a reversal (April hike signal = yen-supportive = brief correction toward 157). Without that, 160 is the path.
-
----
-
-### (3) CARRY TRADE STRESS SIGNALS
-
-**No acute carry unwind signal.** Carry is still functioning — USD/JPY at 159 means carry is STILL nominally positive (rate differential intact, yen not strengthening). But proximity to 160 intervention zone is increasing near-term risk.
-
-| Signal | Status |
-|--------|--------|
-| VIX | No spike data available — no acute equity stress |
-| USD/JPY drift | 🔴 Moving TOWARD intervention zone, not away |
-| BOJ frozen | Confirmed — carry mathematically intact |
-| 7d carry unwind prob | **12%** (unchanged — proximity rising but no trigger) |
-| 30d carry unwind prob | **83%** (slight upgrade — 159+ accelerates path to 160 intervention) |
-
----
-
-### (4) JGB / INTERVENTION INDICATORS
-
-| Metric | Status |
-|--------|--------|
-| JGB 10Y | ~2.22% (no new data — assume flat overnight) |
-| MoF verbal status | 🔴 **Now in active verbal escalation zone** — Katayama statement expected within 24-48h if 159 holds |
-| Operational intervention | 🚨 Watch 159.50+. At 160.00: HIGH probability |
-| Japan SPR release | Begins Mar 18 (Monday) |
-
----
-
-### (5) BOJ MEETING MAR 18-19 — CURRENT READ
-
-**Hold: 92-95% (unchanged).**
-
-CPI 2.4% in-line does NOT shift this. The BOJ needs to see:
-1. Energy shock resolution (Hormuz) — NOT happening before Mar 19
-2. March CPI data — won't print until April
-3. Shunto final tally — Mar 21, AFTER the meeting
-
-**Ueda presser Mar 19 is the ONLY catalyst in the window.** Three scenarios:
-
-| Scenario | Probability | USD/JPY impact |
-|----------|-------------|----------------|
-| **Dovish hold** — Ueda emphasizes energy risk, delays any April signal | 50% | 159.50-160.50 (yen weakens → intervention risk) |
-| **Neutral hold** — no new language either way | 35% | 158.50-159.50 (status quo drift) |
-| **Hawkish hold** — Ueda flags wages, hints April live | 15% | 156.00-158.00 (yen strengthens sharply → carry stress |
-
-**Pre-positioning note:** No new entries. Watch Ueda language live. Any "April is live" framing = carry unwind 7d probability jumps to 25-30%.
-
----
-
-### UPDATED ALERT LEVELS — MAR 12
-
-| Level | Action | Status |
-|-------|--------|--------|
-| **USD/JPY 159.06** | Current — MoF verbal escalation zone ACTIVE | 🔴 LIVE |
-| **USD/JPY 159.50** | ⚠️ Operational intervention clock starts | WATCH |
-| **USD/JPY 160.00** | 🚨 Operational intervention — Phase 2 candidate via FX channel | SET |
-| **USD/JPY 157.00** | 🟡 Hawkish Ueda signal → yen bounce target | SET |
-| **Mar 18** | Japan SPR release begins + BOJ meeting opens | 🔴 DUAL EVENT |
-| **Mar 19** | Ueda presser — KEY CATALYST | 🔴 |
-| **Mar 21** | Shunto first tally (Rengo) | 🟠 |
-| **Mar 31** | FY2025 end — life insurer repatriation peak | 🔴 ACTIVE |
-
-### UPDATED CARRY UNWIND PROBABILITIES — MAR 12 AM
-
-| Timeframe | Mar 11 EOD | Mar 12 AM | Driver |
-|-----------|-----------|-----------|--------|
-| **7d** | 12% | **12%** | No acute trigger; carry intact |
-| **30d** | 82% | **83%** | 159+ confirms structural path toward 160 intervention |
-| **60d** | 88% | **88%** | Unchanged |
-
----
-
----
-
-## 📬 INBOX PROCESSED — MAR 11, 2026 (21:35 UTC)
-
-### NEW DATA INTEGRATED FROM INBOX BATCH
-
-**1. JKM PRICE LEVELS — BRENT SIGNAL (MAR 7)**
-Specific JKM data now on record:
-| Date | JKM $/MMBtu | Delta vs Pre-Crisis |
-|------|-------------|---------------------|
-| Feb 27 (baseline) | $10.725 | — |
-| Mar 2 | $13.365 | +24.6% |
-| Mar 3 | $15.770 | +47.0% (peak) |
-| Mar 4 | $15.105 | |
-| Mar 5 | $15.495 | Structural dislocation confirmed |
-
-**Mechanism confirmed by BRENT (Cheniere earnings model):** Japan short *molecules*, not just facing high prices. Atlantic Basin spot LNG at $15+ is the only substitute — and volume is constrained. Japan was paying ~$10.73/MMBtu pre-crisis. JKM +40-47% sustained while Hormuz mined = Q1 Japan energy import costs severely elevated.
-
-**New watch date added:** Japan March trade balance data releases ~**April 20-25**. Will be the first hard confirmation of energy import cost deterioration on yen and BOJ posture. This is a leading indicator for life insurer repatriation acceleration. Track at release.
-
-**2. QATAR BOMBARDMENT SPECIFICITY — ECONOMIST / ACLED (MAR 9)**
-- Qatar struck ~60 munitions on Feb 28 Day 1, declining to ~5/day by Mar 5 but NOT zero
-- UAE absorbing 100-380 munitions/day — Gulf-wide bombardment confirmed
-- Iran missile/drone production degraded (22 production facility fires Mar 3) but attacks sustained from deep stockpiles
-- **Implication:** Even if Iran production capacity degraded, existing stockpiles ensure weeks of continued disruption. Duration floor: multi-week minimum even with ceasefire. Confirms structural (not episodic) framing.
-
-**3. BESSENT-JAPAN FX COORDINATION — CONFIRMED (FEB 24)**
-- US Treasury Secretary Bessent confirmed to have initiated January FX rate check on yen-dollar
-- Coordinated bilateral FX policy: US aware of yen stress / carry unwind risk
-- **Implication:** Both sides motivated to PREVENT disorderly yen moves. Explains why 160 hasn't been breached without operational intervention — coordinated verbal defense is working. Does NOT reduce carry unwind risk; it *delays* the threshold. Watch for any breakdown in this coordination if oil resumes spike and MoF is forced to act.
-
-### BOJ NEXT WEEK — MAR 18-19 SYNTHESIS
-All inbox signals reinforce current assessment:
-- JKM +47% = stagflation trap DEEPENED since last BOJ (Jan). Ueda "prolonged hold" telegraphed.
-- Qatar bombardment ongoing = energy disruption floor multi-week minimum — no hike argument
-- **Hold: 92-95% | Hike: 5-8%** (unchanged from EOD Mar 11 brief)
-- KEY WATCH: Ueda presser Mar 19 — any language on April live meeting = carry unwind probability jumps 7d to 25-30%
-
-### SIGNALS MOVED TO PROCESSED:
-- 2026-02-24_signals.md ✅
-- 2026-03-06_to-all_nfp_federal_layoffs_channel_fired.md ✅
-- 2026-03-06_to-sam_japan-energy-crisis.md ✅
-- 2026-03-09_prome_economist_qatar_under_fire.md ✅
-- 2026-03-09_prome_japan_tsmc_double_hit.md ✅
-- 2026-03-09_to-SAM_lng-carriers-529pct-qatar-under-fire.md ✅
-- BRENT_JKM_JAPAN_SIGNAL_MAR7.md ✅ (duplicate SAM_JKM_JAPAN_SIGNAL_MAR7.md also moved)
-
----
-
----
-
-## 🌅 EOD BRIEF — MAR 11, 2026 (20:15 UTC)
-
-### HEADLINE: IEA ORDERS RECORD 400MB RELEASE — MARKETS NOT CONVINCED. OIL CLOSES +4.76% AT $91.98. JAPAN SPR 80MB CONFIRMED MAR 18. YEN RANGE-BOUND 157.98-158.30. CPI IN-LINE AT 2.4%.
-
-### DELTAS vs AM CHECK-IN (13:45 UTC)
-
-| Metric | AM (13:45 UTC) | EOD (20:15 UTC) | Delta |
-|--------|---------------|----------------|-------|
-| **Brent crude** | $89.49 (intraday $93) | **$91.98 close (+4.76% on day)** | 🔴 Oil RISING despite IEA release |
-| **USD/JPY** | ~158.2-158.5 | **~158.00-158.30** | 🟡 Slight yen STRENGTH on soft CPI |
-| **Nikkei 225** | 55,025 (+1.43%) | **~55,500+ (Asia session, +2%+)** | 🟢 Continued recovery |
-| **Japan SPR** | "starts Monday, release announced" | **80M barrels / 45 days, starts Mar 18** | ✅ Confirmed and quantified |
-| **IEA action** | "proposing largest-ever release" | **400M barrels ORDERED — markets not convinced** | 🔴 CRITICAL — supply fear > psychological relief |
-| **US CPI (Feb)** | Awaited | **+2.4% YoY (in-line), core +2.5%** | 🟡 Tame; minor USD softness |
-| **BOJ hike (June)** | ~55% base case | **Reuters poll confirms: hold next week, 1.00% by end-June** | ✅ Unchanged |
-
----
-
-### KEY DELTA #1: IEA RECORD RELEASE — AND OIL STILL CLOSED UP 4.76%
-
-**This is the most important signal of the day.** The IEA ordered the largest emergency release in its history — 400 million barrels coordinated. Japan committed 80M barrels (45 days supply, starting March 18). Germany, Austria, US all contributing. And Brent STILL closed at $91.98, up 4.76% on the day.
-
-**What this means:** Markets are pricing the Hormuz mining as a structural supply disruption that cannot be SPR-patched. The IEA release is being discounted as insufficient. This is not the "psychological ceiling on oil" that AM check-in hinted might emerge — it's the opposite. Physical supply concern is overriding the world's largest-ever reserve release signal.
-
-**For Japan specifically:** The SPR buffer thesis weakens. 80M barrels / 45 days buys time on the supply side, but the market's failure to compress oil on record IEA action means the structural energy shock premium is now priced as persistent, not temporary. Japan's import bill stays elevated even during the SPR release window. Yen structural weakness pressure continues.
-
----
-
-### KEY DELTA #2: US CPI TAME — CROSS-DOMAIN SIGNAL
-
-Feb CPI: +2.4% YoY (vs. +2.4% expected). Core: +2.5% monthly +0.2%. Both in-line. No upside surprise.
-
-**Japan/carry implications:** Tame US CPI = Fed has runway to cut if recession signals materialize (NFP -92K in context). USD-negative medium-term. If Fed cuts while BOJ stays frozen, rate differential narrows from the US side — yen-supportive, carry-eroding. However, Kiplinger and CNBC are both flagging March CPI will be hot due to oil (Feb data predates the Hormuz spike). So the tame print is rearview; forward CPI is inflationary. **Short-term USD softness is noise; medium-term inflationary from oil = Fed trapped.**
-
----
-
-### KEY DELTA #3: NIKKEI-US DIVERGENCE DEEPENING
-
-Nikkei Asia session +2%+ (above 55,500). US markets (S&P 500, Dow) lower on the day. This divergence is notable:
-- Possible mechanism: Japanese life insurer FY-end repatriation supporting domestic equity (selling USD bonds, buying JPY, redeploying into Nikkei). 
-- Or: GPIF rebalancing into equities after recent drawdown
-- Or: Simple SPR optimism (Japan "acts first" = Takaichi decisive optics)
-
-**The divergence matters for the UST thesis.** If Japanese institutions are repatriating (selling USD bonds), that's the Japan leg of four-anchor UST selling activating. FY end is March 31 — 20 days away. Repatriation flows peak in the final two weeks of the fiscal year.
-
----
-
-### UPDATED ALERT LEVELS — MAR 11 EOD
-
-| Level | Action | Status |
-|-------|--------|--------|
-| **USD/JPY 158.30** | Current — slight yen strength on soft CPI | LIVE |
-| **USD/JPY 159.00** | ⚠️ MoF verbal escalation zone | WATCH |
-| **USD/JPY 160.00** | 🚨 Operational intervention | SET |
-| **Brent $95+** | 🔴 IEA release fully discounted — crisis re-pricing | WATCH |
-| **Brent <$88** | 🟢 IEA release working — BOJ hike odds rise | SET |
-| **Nikkei 52,000** | 🚨 GPIF trigger zone | STANDING |
-| **Mar 18** | Japan SPR release begins; BOJ meeting begins | 🔴 DUAL EVENT |
-| **Mar 19** | BOJ Ueda presser — language on April = carry catalyst | 🔴 KEY |
-| **Mar 21** | Shunto first tally (Rengo) | 🟠 WATCH |
-| **Mar 31** | FY2025 end — life insurer repatriation peak | 🔴 ACTIVE |
-
----
-
-### UPDATED CARRY UNWIND PROBABILITIES — MAR 11 EOD
-
-| Timeframe | AM (13:45) | EOD (20:15) | Driver |
-|-----------|-----------|-------------|--------|
-| **7d** | 15% | **12%** | Nikkei strong, yen stable, BOJ frozen = carry works short-term |
-| **30d** | 80% | **82%** | IEA release didn't suppress oil = structural pressure intact; FY-end repatriation loading |
-| **60d** | 88% | **88%** | Unchanged — SPR clock ticking, mine clearance unresolved |
-
----
-
-### CROSS-DOMAIN SIGNALS — MAR 11
-
-1. **LIQUID/UST:** Nikkei-US divergence + FY-end timing = Japan life insurer repatriation may already be active. If so, UST selling Japan leg is live NOW, not theoretical. TIC data Mar 15 will be the read.
-2. **CARL/HENRY:** CPI in-line but Kiplinger/CNBC flagging March CPI will be hot (oil hit post-Feb). Fed faces stagflation trap mirror image of BOJ's — can't cut into hot March CPI, can't hold into -92K NFP. FOMC March 18-19 (same week as BOJ) = volatility event.
-3. **HAWK (LNG/energy):** IEA release "markets not convinced" = HAWK thesis confirmed. Qatar gap + Hormuz mining = LNG structural crisis. Taiwan LNG inflection Mar 15 is 4 days away. Watch for any spot LNG pricing spike as pre-closure cargoes finish delivering.
-4. **NEXUS flag:** Four-anchor selling may be going live simultaneously: Japan (repatriation), Korea (BoK defense), Gulf (reduced petrodollar recycling on lower export volumes), China (ongoing). TIC Mar 15 is the convergence read.
-
----
-
-## 🌅 AM CHECK-IN — MAR 11, 2026 (13:45 UTC)
-
-### HEADLINE: HORMUZ ACTIVELY MINED — TRUMP DE-ESCALATION NARRATIVE DEAD. OIL BACK TO $89-93. JAPAN RELEASING SPR. BOJ MARCH HIKE WINDOW CLOSED.
-
-**The Mar 10 EOD call is confirmed:** "Oil bounce back toward $90-95 is possible if ceasefire is NOT confirmed in 24-48 hours." That's exactly what happened. Active mining + three ships attacked + Dubai drones = Trump's "war pretty much complete" was a one-session narrative. Brent bounced from $87.80 back to $89.49 (intraday $93). The brief hike window has closed.
-
----
-
-### (1) OVERNIGHT JAPAN DEVELOPMENTS
-
-**Market levels as of 13:45 UTC:**
-| Metric | Mar 10 EOD | Mar 11 AM | Delta |
-|--------|-----------|-----------|-------|
-| **Brent crude** | $87.80 | **$89.49 (+2%), intraday $93** | 🔴 Oil re-escalating |
-| **USD/JPY** | ~157.7-158.0 | **~158.2-158.5** | 🔴 Yen weakening again |
-| **Nikkei 225** | ~54,248 (Mar 10 close) | **55,025 (+1.43% Mar 11 Asia)** | 🟡 Recovery on SPR optimism |
-
-**Political/policy:**
-- **PM Takaichi announces Japan SPR release** — starts Monday. Confirmed via NHK. Japan joining Germany and Austria in reserve releases ahead of G7 emergency meeting. IEA proposing largest-ever emergency reserve release.
-- **Ueda signaled "prolonged hold"** (FXStreet, Mar 11): BOJ governor explicitly telegraphing extended pause due to Middle East conflict economic impact.
-- **Reuters poll of 64 economists (Mar 11):** Unanimous HOLD at March 19. Base case: 1.00% hike by end of June 2026.
-- **FXStreet:** "Japanese Yen weakens below 158.50 on BOJ policy uncertainty" — yen softening on hold-confirmed narrative.
-
----
-
-### (2) THE CRITICAL SIGNAL: ACTIVE MINING CHANGES EVERYTHING
-
-**This is not the same as "shipping avoiding the strait due to threat."**
-
-Active physical mines in Hormuz create a fundamentally different scenario:
-
-| Scenario | Resolution Timeline | Japan Impact |
-|----------|-------------------|--------------|
-| **Pre-mining (threat-based closure)** | Days-weeks on political deal | Resolvable by ceasefire tweet |
-| **Active mining (NOW)** | **Weeks-months even post-ceasefire** | Physical mine clearance required |
-
-**Why this matters for Japan specifically:**
-1. **90%+ crude import dependence.** Japan cannot switch away from Gulf crude quickly. Australian LNG + US Gulf LNG + West African crude = more expensive, lower volume alternatives.
-2. **SPR burn rate.** Japan's strategic petroleum reserve covers ~90-100 days at normal rates. With Hormuz mined and alternative supply at premium, burn accelerates. **Effective SPR buffer: ~60-75 days.** Clock starts Monday when Takaichi begins release.
-3. **Mine clearance precedent.** The 1987-88 Operation Earnest Will (Iran-Iraq tanker war) required months of active minesweeping. Iran mined more extensively then. This is not a 72-hour resolution scenario.
-4. **Alternative energy costs.** Spot LNG from Australia/US Gulf is significantly more expensive than contracted Gulf supply. Japan's energy import bill stays elevated even with SPR buffer. Yen weakness pressure persists.
-
-**Net: The energy crisis is now STRUCTURAL, not episodic. Timeline extends from "4-6 weeks" (pre-mining estimate) to "60-90+ days minimum."**
-
----
-
-### (3) BOJ HIKE PROBABILITY — REVISED BACK DOWN
-
-The 20-30% March hike probability from Mar 10 EOD (premised on oil at $87.80) is **closed.**
-
-| Meeting | Prior (Mar 10 EOD) | Current (Mar 11) | Driver |
-|---------|------------------|-----------------|--------|
-| **March 18-19** | 20-30% hike | **5-8% hike** | Active mining revives stagflation trap. Ueda "prolonged hold." Reuters poll consensus hold. |
-| **April 23-24** | ~50% | **~20-25%** | Oil trajectory uncertain. SPR buy time. |
-| **June** | Base case if April miss | **~55% — new base case** | Reuters poll. If Hormuz cleared by April/May, June viable. |
-
-**Why the rapid reversal:**
-- Mar 10 EOD upgrade was based on a single day of oil at $87.80 after Trump's CBS comments
-- Active mining = stagflation trap re-engaged immediately
-- Ueda explicitly signaling prolonged hold confirms BOJ reads the same data
-- Oil at $89-93 = import cost pressure back — the core argument for hiking (wage-led, non-energy inflation) gets buried again under energy shock
-
-**BOJ is frozen through at least Q2 2026.** The trap deepens: can't hike into mining-extended energy shock, can't cut into elevated inflation from import costs. Paralysis is the policy.
-
----
-
-### (4) CARRY TRADE STRESS SIGNALS — MECHANISM RE-INVERTED
-
-The brief mechanism reversion (BOJ hike → yen strength → unwind) from Mar 10 is **cancelled.**
-
-Active mining flips it back to the inverted mechanism:
-- Oil at $89-93 → Japan import costs elevated → current account pressure → yen structural weakness
-- BOJ frozen (confirmed by Ueda) → carry still nominally attractive
-- USD/JPY drifting back toward 158.5 = carry forces reasserting
-- Phase 2 via BOJ voluntary hike: **LOW probability near-term**
-- Phase 2 via forced intervention/MoF action: **BUILDING — watch 159.00-160.00**
-
-**Updated carry unwind probabilities:**
-| Timeframe | Mar 10 EOD | Mar 11 AM | Driver |
-|-----------|-----------|-----------|--------|
-| 7d | 25-30% | **15%** | Oil buffered by SPR/IEA news; short-term relief |
-| 30d | 75% | **80%** | Active mining EXTENDS crisis → structural pressure builds |
-| 60d | 75% | **88%** | SPR depletion clock ticking; mine clearance timeline |
-
----
-
-### (5) THREE-ANCHOR UST SELLING — ACCELERATION LIKELY
-
-**Does active Hormuz mining accelerate the Japan leg of UST selling?**
-
-**YES — two channels:**
-
-**Channel 1: MoF FX Intervention**
-- With yen weakening back to 158.2-158.5 and oil at $89-93, trajectory is toward 159-160
-- At 160, MoF operational intervention risk becomes acute
-- Operational intervention = selling USTs/FX reserves to buy yen
-- This IS the Japan leg of UST selling activating
-- Mine extension = yen weakness extended = intervention trigger approached sooner
-
-**Channel 2: Life insurer ESR rebalancing**
-- Mar 10 noted Japan Post Insurance CEO signaling shift out of JGBs
-- With energy crisis extended, Japanese life insurers face larger FY-end mark-to-market hits
-- Repatriation flows (selling USD assets, buying JPY) accelerate as FY end approaches (Mar 31)
-- Life insurer repatriation = UST selling Japan leg, separately from MoF
-
-**Korea:** BoK pressure resumes with oil at $89+. BoK FX defense restarts. KRW/UST selling re-engages.
-
-**Net: Three-anchor UST selling is re-accelerating, not pausing.**
-
----
-
-### (6) NEW RISK CHANNEL: IRAN FINANCIAL INSTITUTION TARGETING
-
-Iran declared financial institutions as legitimate military targets. Two drones near Dubai airport (downed). KLM cancelled Dubai flights through March 28.
-
-**Implications for Japan:**
-- MUFG, Mizuho, SMBC all have significant UAE/Gulf operations and custody arrangements
-- Japanese life insurers (Nippon Life, Dai-ichi) hold Gulf sovereign bonds and regional credit exposure
-- Physical threat to Dubai financial infrastructure = **credit/counterparty risk channel** on top of energy channel
-- BOJ financial stability argument for extended hold INTENSIFIES: not just energy shock but potential credit hits to major Japanese banks
-- This is a new signal that doesn't appear in prior STATUS — needs monitoring
-
----
-
-### (7) UPDATED ALERT LEVELS — MAR 11 REVISION
-
-| Level | Action | Status |
-|-------|--------|--------|
-| **USD/JPY 158.50** | 🟡 Current — yen testing this level, weakening trend | WATCH |
-| **USD/JPY 159.00** | ⚠️ NEW ALERT — MoF verbal intervention escalation zone | SET |
-| **USD/JPY 160.00** | 🚨 Operational intervention zone — potential Phase 2 via FX channel | ELEVATED |
-| **Brent crude $93+** | ⚠️ Ceasefire narrative dead, full crisis re-engaged | WATCH |
-| **Brent crude $85-** | 🟢 SPR/IEA relief working; BOJ hike probability rises | SET |
-| **Nikkei 52,000** | 🚨 GPIF trigger zone | STANDING |
-| **Japan SPR depletion pace** | 🟡 Monitor burn rate — 60-75 day effective buffer from Monday | NEW |
-| **Mine clearance news** | 🟡 Any confirmed minesweeping operation = Hormuz reopening timeline materializes | NEW |
-
----
-
-### (8) PROPOSALS FOR WILL'S APPROVAL — MAR 11
-
-**Proposal A: Revise BOJ hike probability.**
-March hike back to 5-8% (was temporarily 20-30% on Mar 10 at oil $87.80). June is now the base case (per Reuters poll consensus). No trade action on rate direction until Ueda presser Mar 19 — watch language on energy vs. wages.
-
-**Proposal B: Re-engage energy crisis as STRUCTURAL (not paused).**
-Active mining makes this a physical-not-political constraint. Even full ceasefire = weeks of minesweeping before transit resumes. Recommend revising crisis designation from "PAUSED" back to "ACUTE — EXTENDED TIMELINE." SPR buffer countdown: ~60-75 effective days from Monday.
-
-**Proposal C: Three-anchor UST selling — flag to NEXUS for synthesis.**
-Both Japan channels (MoF intervention + life insurer repatriation) and Korea channel (BoK defense) are re-engaging. Recommend NEXUS spawn to assess whether this changes LIQUID's UST supply thesis. The three-anchor problem may be entering its active phase.
-
-**Proposal D: New monitoring item — Japanese bank MENA credit exposure.**
-Iran's targeting of financial institutions creates a new risk vector for MUFG/Mizuho/SMBC. Not yet a trading signal but needs one news cycle to determine if this is rhetorical or operational. If Dubai financial operations hit, add to crisis severity.
-
-**Proposal E: Set SPR depletion clock.**
-Japan SPR effective buffer ~60-75 days from Monday Mar 16. If Hormuz remains mined at 45-day mark (around May 1), recommend escalating Japan energy crisis to "acute shortage" status regardless of other signals.
-
-**No new carry trade entries until after BOJ Mar 19 presser.** Ueda language on wage vs. energy could be the Phase 2 catalyst even if hold is unanimous. Watch for any shift in April framing.
-
----
-
-**Signal Status:** 🔴🔴 CRITICAL — Active Hormuz mining = structural energy crisis for Japan | BOJ frozen through Q2 | Carry unwind 30d: 80% | Three-anchor UST selling re-engaging | Japan SPR clock starts Monday
-
----
-
-
-
----
-
-## 🌅 EOD BRIEF — MAR 10, 2026 (20:30 UTC)
-
-### TODAY'S HEADLINE: OIL -11%, TRUMP "WAR PRETTY MUCH COMPLETE" — REGIME CHANGE IN PROGRESS
-
-**The day's dominant event: Oil crashed.** Brent settled at **$87.80/bbl (-11%, -$11.16)**, WTI at **$83.45 (-11.9%, -$11.32)**. Biggest single-day oil drop since March 2022. Trigger: Trump CBS News interview — "the war is very complete, pretty much." Markets interpreted as ceasefire/de-escalation signal.
-
-**Intraday sequence (March 9-10):**
-- Mar 9 open: Brent spiked to **$119.50** (highest since 2022), Nikkei -7%+
-- Mar 9 afternoon: Trump CBS comments → oil reversed sharply
-- Mar 10 US close: Brent settled **$87.80**, WTI **$83.45** — below pre-crisis levels on a % basis
-
-### DELTAS vs PRIOR STATUS (Mar 10 17:09 UTC)
-
-| Metric | Prior STATUS | Now (Mar 10 EOD) | Delta |
-|--------|-------------|-----------------|-------|
-| **Oil (Brent)** | $108.77 | **$87.80 (-11% today)** | 🟢🟢 Major decompression |
-| **Oil (WTI)** | $107.56 | **$83.45** | 🟢🟢 Back below $90 |
-| **USD/JPY** | 158.70 | **~157.7-158.0** | 🟢 Slight yen strength |
-| **Nikkei 225** | 52,728 | **TBD (Asia open)** | Watch — likely bounce given oil drop |
-| **BOJ hike probability (Mar 18-19)** | **2% (98% hold)** | **~20-30% hike** | 🚨 MAJOR DELTA — see below |
-| **Energy crisis timeline** | 4-6 wks to rationing | **PAUSED pending ceasefire** | Thesis extended/weakened short-term |
-| **Carry unwind 7d** | 15% | **25-30%** | BOJ hike risk revived |
-| **Carry unwind 30d** | 78% | **75%** | Mechanism reverting |
-| **Mechanism status** | Inverted (yen weakness) | **Reverting to original path** | Hike → yen strength → unwind |
-
-### 🚨 KEY DELTA #1: BOJ HIKE PROBABILITY UPGRADED
-
-**Prior STATUS: 98% HOLD. Revised: ~70-80% hold / 20-30% hike.**
-
-Sources:
-- **Il Sole 24 Ore (Mar 9):** "at the BoJ session on 18-19 March there might be a new rate hike from 0.75% to 1%." Ueda "confirmed that new rate hikes are on the table."
-- **Ueda (Feb 26 Yomiuri interview):** Left open March OR April as live meetings. "Any decision would be dependent on data available at the time."
-- **Real wage data (Jan 2026):** Real wages rose for first time in over a year. Base salaries: strongest growth in 30+ years. Classic BOJ tightening justification.
-- **Japan Post Insurance CEO (Mar 10):** Still expects BOJ hike "as soon as April" — insurer community pricing eventual hike.
-- **Oriental Economist note:** Takaichi's two new BOJ nominees replaced two doves but are NOT additional doves — "no increase in those opposed to early rate hikes."
-
-**Why the upgrade:** With oil now at $87.80 (vs $119.50 intraday high yesterday), the stagflation trap argument collapses partially. BOJ's primary objection to hiking was energy shock → imported inflation → can't add domestic rate pressure. With oil at $87, that argument weakens materially. Wage data is strong. Mar 18-19 hike is now legitimately on the table.
-
-**Counterargument:** Core inflation (ex-food & energy) only 1.3% — still well below 2% target. BOJ may still hold and wait for data clarity. Takaichi government political pressure. 30-day resolution of Iran situation unknown.
-
-### 🚨 KEY DELTA #2: MECHANISM REVERSION
-
-Prior STATUS established **inverted mechanism**: yen weakens (not strengthens) → stagflation builds → eventual forced BOJ action. That was predicated on sustained energy shock.
-
-With oil below $90:
-- Energy import cost pressure on yen REDUCED
-- Dollar safe-haven demand REDUCED (war de-escalating)
-- BOJ hike probability RISES → markets may front-run yen strength
-- **Original Phase 2 mechanism reactivated**: BOJ hike → yen strengthens sharply → carry unwind forced
-
-The Aug 2024 playbook (BOJ hike → yen squeeze → global carry unwind) is now the more probable path again. The 30-day probability stays near 75% but the MECHANISM has reverted to the original, faster-onset path.
-
-### KEY DELTA #3: TRUMP DE-ESCALATION — WATCH FOR CONFIRMATION
-
-Trump CBS: "war is very complete, pretty much." **This is NOT a ceasefire.** Markets moved hard on it but:
-- No official ceasefire announced
-- Hormuz shipping status unclear — no confirmed reopening
-- LNG Qatar force majeure status unclear
-- Iran Supreme Leader Khamenei Jr. (hardliner) still in place
-
-**SAM call:** Oil bounce back toward $90-95 is possible if ceasefire is NOT confirmed in 24-48 hours. Asia open tonight is the first test. If Nikkei stages a recovery rally and USD/JPY drifts toward 157, that confirms markets pricing de-escalation. If oil bounces back and Nikkei stays under 53,000, de-escalation is not confirmed.
-
-### UPDATED ALERT LEVELS
-
-| Level | Action |
-|-------|--------|
-| **USD/JPY 157.00** | 🟡 New watch — yen strengthening on BOJ hike expectations |
-| **USD/JPY 155.00** | ⚠️ ALERT — Phase 2 carry unwind onset, notify Will immediately |
-| **USD/JPY 159.50** | ⚠️ OLD UPSIDE ALERT — lower priority given oil drop |
-| **USD/JPY 160.00** | 🚨 Intervention likely (still valid if oil bounces back) |
-| **Nikkei 55,000** | 🟡 Watch — recovery above here = markets pricing ceasefire |
-| **Nikkei 50,000** | 🚨 GPIF trigger zone — still valid |
-| **Oil (Brent) $95+** | ⚠️ Ceasefire failed, energy crisis back — stagflation mechanism resumes |
-| **Oil (Brent) <$85** | 🟢 BOJ hike probability rises further |
-
-### CROSS-DOMAIN SIGNALS
-
-1. **HAWK (energy):** LNG rates ($300K/day) should decompress IF Hormuz reopens. Watch for Fearnleys/Riviera Maritime data update. If rates fall back below $100K/day within 48 hours, energy crisis thesis needs partial revision.
-2. **LIQUID (UST):** Oil de-escalation → US 10Y yields may rise (risk-on → out of safety bid) OR fall (slower Fed path priced in). Watch 10Y. If 10Y rises toward 4.5%+, carry differential narrows further for JPY.
-3. **HENRY/CARL:** US stocks bouncing on Trump comments (S&P from -1.5% to +0.8% on day). Positive risk sentiment = carry still attractive short-term. Delays Phase 2 onset.
-4. **NEXUS flag:** Recommend NEXUS spawn to assess whether oil de-escalation changes convergence picture. The energy × Japan × UST triple-chain may be unwinding faster than thesis expected — in the BULLISH direction for Japan short-term.
-
-
-
----
-
-## 🚨 MONITORING ALERTS — MAR 10 EOD UPDATE
-
-**Current levels:** USD/JPY ~157.8 | Nikkei 52,728 (Mar 9 close — Mar 10 Asia open TBD) | Brent $87.80
-
-### USD/JPY Alert Levels (REVISED)
-| Level | Action |
-|-------|--------|
-| **~157.8** | Current — yen slightly stronger on oil drop / de-escalation |
-| **157.00** | 🟡 Watch — if reached, BOJ hike expectations building |
-| **155.00** | ⚠️ ALERT — Phase 2 onset (BOJ hike + safe-haven combo), notify Will |
-| **159.50** | ⚠️ Upside warning if ceasefire fails and oil bounces |
-| **160.00** | 🚨 Intervention zone (lower priority today, reactivates if oil $95+) |
-
-### Nikkei Alert Level
-| Level | Action |
-|-------|--------|
-| **55,000** | 🟡 Watch — recovery here = ceasefire priced in |
-| **50,000** | 🚨 GPIF trigger zone — still valid |
-
-### Japan Post Insurance — ESR Rebalancing Watch
-- **Mar 10:** Japan Post Insurance CEO publicly stated shifting OUT of low-yield JGBs → higher-yield bonds. Expects BOJ hike "as soon as April." This is early FY-end ESR rebalancing made public.
-- **Watch next 2-3 weeks:** Similar statements from Nippon Life, Dai-ichi Life, Meiji Yasuda. Multiple insurers signaling = ESR setup confirmation → life insurer repatriation wave loading.
-- **Significance:** If 2+ major insurers confirm publicly, carry unwind 30d probability upgrades to 85%+.
-
-### BOJ Super-Week — Mar 16-19 ⚠️ NOW LIVE HIKE RISK
-- **Super-Week:** BOJ (Mar 18-19) + Fed + ECB + BoE all meeting same week
-- **BOJ meeting: Mar 18-19**
-- **Ueda presser: Mar 19** — KEY EVENT. Oil at $87.80 = stagflation trap weakens = hike back on table
-- **March hike probability: ~20-30%** (was 2% per prior STATUS)
-- **April hike probability: ~50%** — now base case if March hold
-- **Pre-position monitoring window: NOW (Mar 11+)** — moved up from Mar 16
-- **Action required:** Monitor BOJ pre-meeting communications this week for any leak/signal
-
----
-
----
-
-## 🌅 AM CHECK-IN — MAR 9 (17:30 UTC / 12:30 PM ET) — MARKET OPEN UPDATE
-
-**HEADLINE: NIKKEI -6.2% (on top of -5.5% last week). USD/JPY 159.00. OIL $107-114/BBL. BOJ HOLD PROBABILITY 98%+. INTERVENTION ZONE IMMINENT.**
-
-### MARKET OPEN UPDATE — MAR 9
-
-- **Nikkei 225:** -6.2% today. -11.7% cumulative over two sessions. Japan bearing disproportionate energy shock impact (90%+ crude import dependence, Qatar LNG primary buyer).
-- **USD/JPY:** ~159.00 in NY morning session — back at the verbal intervention line (Jan 2026 MoF checks zone). One figure from 160 psychological trigger.
-- **Brent crude:** $108.77 (+17% today, +28% last week). WTI $107.56. JPMorgan sees path to $120+ absent resolution.
-- **Iran:** Mojtaba Khamenei confirmed new Supreme Leader (hardliner) — no off-ramp visible. Hormuz shipping still stalled.
-- **BOJ meeting (Mar 18-19):** Multiple Reuters sources say HOLD is near-certain. *(Date corrected — NOT Mar 13-14)* "It's become difficult for the BOJ to raise rates." Himino gave no hints of imminent action. Only trigger for hike would be sharp yen drop past 160 — now just 1 figure away.
-- **Carry trade:** No Phase 2 unwind yet. 159.00 = still carry-positive numerically. BUT if USD/JPY spikes through 160 and MoF is forced to intervene, positioning unwind risk spikes fast.
-- **Watch today:** 160 USD/JPY line, MoF Katayama statements, any BOJ pre-meeting communication, Wall St open (S&P futures -1.8%, Nasdaq -2.1%).
-
----
-
-## 🌅 AM CHECK-IN — MAR 9 (13:45 UTC / 8:45 AM ET)
-
-**HEADLINE: TAKAICHI IS PM. YEN AT 158.60. JGB 10Y AT 2.22%. BOJ MEETING IN 4 DAYS. LNG RATES +650%. DOUBLE ENERGY+CHIP HIT CONFIRMED.**
-
-### (1) OVERNIGHT JAPAN DEVELOPMENTS — POLITICAL SHOCK
-
-**🚨 SNAP ELECTION RESULT: TAKAICHI WON. LDP TWO-THIRDS MAJORITY.**
-
-This is the biggest political development in the STATUS since the Iran war started. Key facts:
-- **Sanae Takaichi** is PM — confirmed via BBC/CSIS (Feb 2026 election, formally in government now)
-- LDP secured a **two-thirds majority** (supermajority) — strongest mandate in years
-- Voter turnout: 56.25% (up from 2024 snap)
-- Market reaction at election: "Japanese stocks surge to record high" (BBC headline)
-- CSIS: Takaichi expected to deliver policy address on FY2026 budget (¥122T / $783B — largest on record), budget debate extends into spring
-
-**Implications for SAM thesis:**
-- Takaichi is a **reflationist/nationalist** — historically comfortable with weak yen as export stimulus
-- BUT she's also defense-hawk → ¥122T budget = massive fiscal expansion → JGB supply pressure → long-end yields up → steepening accelerates
-- BOJ now answers to a PM who has historically questioned BOJ independence and favored loose policy — this is the **"dovish nominees"** risk from STATUS now confirmed at the political level
-- No appetite for yen-defending rate hike from Takaichi government → BOJ HOLD extended further
-- **Key new tension:** Takaichi government = fiscal expansion + BOJ dovish pressure = JGB supply surge + frozen short rates = curve steepening on steroids
-
-### (2) USD/JPY AND YEN
-
-- **USD/JPY: 158.60** (Asian session Monday, Mar 9) — yen weakening for THIRD CONSECUTIVE SESSION
-- Oil price: WTI above $100/barrel — dollar safe-haven demand + energy import dynamics dominant
-- Iran: Mojtaba Khamenei appointed new supreme leader (hardliner continuity) — no resolution path
-- Japan Labor Cash Earnings: +3% YoY Jan 2026 (was +2.5% Dec) — wage data supportive of eventual BOJ hike, but entirely overridden by energy shock context
-- Current Account surplus: ¥941.6B (below ¥960B expected) — narrowing, import cost pressure visible
-- **Mechanism confirmed: yen weakness route dominant.** 158.60 vs STATUS baseline of 157.96. Trending toward 159.44 retest.
-
-### (3) CARRY TRADE STRESS SIGNALS
-
-- No carry unwind Phase 2 trigger. Mechanism remains **inverted** (yen weakness, not strength).
-- USD/JPY at 158.60 = more carry headroom, not less. Carry still attractive numerically.
-- BUT: JGB 10Y at **2.22%** (up 0.05pp today from yesterday) — highest since STATUS tracking began. Up from 2.12% in STATUS.
-- Rate differential narrowing slightly (JGB up, UST rates mixed) — long-term carry erosion in progress
-- Short-term: NO stress signal. Medium-term: structural erosion. Carry unwind Phase 2 still awaiting BOJ forced action OR yen collapse through 160+ that triggers MoF intervention.
-- **KRW:** No new circuit-breaker headlines. BoK defense appears to have held post-Mar 5 bounce.
-
-### (4) JGB AND INTERVENTION INDICATORS
-
-- JGB 10Y: **2.22%** (+0.05pp today) — steepening intact, fiscal doom loop building
-- JGB 30Y: Monitoring — no new data, but Takaichi ¥122T budget = long-end supply pressure imminent
-- MoF verbal intervention: Active (Katayama "strong sense of urgency") — no operational action
-- Intervention zone: 160 on upside. At 158.60, within 1.4 figures. Watch carefully.
-- **BOJ language risk at Mar 13-14:** Even a HOLD with hawkish language (acknowledging energy/wage pressure) could be yen-supportive. But Takaichi government context makes hawkish signal politically difficult.
-
-### (5) BOJ MEETING MAR 18-19 — NEXT WEEK *(corrected from Mar 13-14)*
-
-**HOLD: 98%+** (upgraded from 92% given Takaichi political context + energy shock depth)
-
-- No scenario where BOJ hikes into $100+ oil, 158.60 USD/JPY, Takaichi fiscal expansion
-- Key watch: **policy statement language**
-  - Scenario A (dovish hold): Acknowledges energy risk, delays forward guidance → yen weakens → 159+ in play
-  - Scenario B (neutral hold): No new language → status quo → yen drifts higher
-  - Scenario C (hawkish hold): Acknowledges wage growth (+3%) as progress → markets price April hike → yen strengthens → potential Phase 2 trigger
-- Probability: A 50% / B 35% / C 15%
-- **Pre-positioning recommendation:** BOJ meeting is a low-volatility event this cycle. The *language* matters more than the decision. Watch Ueda presser post-meeting for any shift on April.
-
-### INBOX — TWO SIGNALS PROCESSED
-
-**Signal (a): HAWK — LNG Carriers +529% (or +650%)**
-
-Confirmed and upgraded. The HAWK signal understated the move:
-- LNG carrier rates: **$40K → $300K/day = +650%** (Fearnleys/Riviera Maritime, Mar 5)
-- US Gulf-Asia route (Japan, Korea, Taiwan, China): $42K (Feb 25) → $300K/day
-- Australia-Asia route: ~$255K/day
-- Qatar halted LNG production, declared force majeure (Reuters, Mar 4)
-- Qatar + UAE = ~20% of global LNG supply
-- ~85% of Qatar LNG goes to Asian buyers — **Japan is primary victim**
-- Japan-Korea Marker (JKM) benchmark: one-year highs
-- Dutch TTF: +35% in a single day (Tuesday), +76% on the week
-- WTI above $100
-- **Timeline compression:** If Qatar production is weeks from restart and Hormuz tanker traffic stalled, Japan's spot LNG buying window is closing. Industrial rationing risk within 4-6 weeks if no resolution.
-- **BOJ implication:** Energy costs surge → CPI spike incoming → BOJ trapped (can't hike into FX weakness, can't cut into inflation). Frozen confirmed.
-
-**Signal (b): PROME — TSMC Disruption Compounding**
-
-Integrated. This is the **double hit** thesis — Japan takes two simultaneous supply shocks:
-1. **Energy:** Qatar LNG halt + Hormuz stall → industrial fuel shortage
-2. **Chips:** TSMC Kumamoto delayed to 2029 → no domestic advanced fab capacity for years
-- TSMC advanced-node capacity already "about three times short" of AI demand globally
-- Japan's semiconductor renaissance (Rapidus, TSMC Kumamoto) was the industrial policy answer to energy vulnerability — if TSMC is delayed, Japan has no alternative supply chain buffer
-- **Compounding effect:** Energy rationing → manufacturing shutdowns → chip production disruption → Japan loses both inputs simultaneously → industrial output collapse scenario now non-trivial
-- **Timeline:** Energy impact is 4-8 weeks. TSMC impact is structural (2026-2029 gap). But market *pricing* of the combined risk is the near-term catalyst.
-- **BOJ implication:** Double supply shock = stagflation deepens → BOJ paralysis extends past June/July → yen weakness continues → eventual forced intervention/hike = Phase 2 trigger
-
-### UPDATED SIGNAL DASHBOARD
-
-| Metric | Status (Mar 6) | Now (Mar 9) | Delta |
-|--------|----------------|-------------|-------|
-| **USD/JPY** | ~157.96 | **158.60** | 🔴 Yen weakening further |
-| **JGB 10Y** | ~2.12% | **2.22%** | 🔴 +10bp, steepening accelerating |
-| **WTI Oil** | >$85 escalating | **>$100** | 🔴🔴 Three-digit oil confirmed |
-| **LNG carrier rates** | Multi-year highs | **$300K/day (+650%)** | 🔴🔴 Extreme |
-| **BOJ hold prob** | 92% | **98%+** | Hold more certain |
-| **Japan PM** | Lame duck Ueda era | **Takaichi (supermajority)** | 🚨 Political change |
-| **Carry unwind 7d** | 20% | **15%** | Yen weakness = carry works |
-| **Carry unwind 30d** | 75% | **78%** | Energy shock loading |
-| **Carry unwind 60d** | 90% | **92%** | Double hit adds weight |
-
-### ACTION PROPOSALS FOR WILL'S APPROVAL
-
-**Proposal 1: BOJ Pre-Positioning**
-No pre-positioning in RATE direction — hold is essentially locked. However:
-- **Watch for:** Ueda post-meeting presser Wednesday/Thursday. Any hawkish language = yen strength catalyst = potential Phase 2 trigger within 1-2 weeks.
-- **Recommend:** Add Mar 13-14 as a high-alert monitoring window. If Ueda signals April as live, carry unwind probability jumps to 35%+ on 7-day.
-- **No trade action until after BOJ statement.** Deploy agents then wait.
-
-**Proposal 2: Energy Crisis Timeline**
-- Qatar LNG halt + Hormuz = Japan spot LNG window closing ~4-6 weeks
-- TSMC double-hit = compounding structural risk
-- **Recommend:** SAM elevate energy crisis from "building" to "acute" in thesis. Notify NEXUS for cross-agent synthesis (energy → carry → JGB → UST → US rates).
-- **Suggest NEXUS spawn** after this check-in to assess convergence across HAWK (energy) + PROME (TSMC) + SAM (carry/JPY).
-
-**Proposal 3: USD/JPY 160 Watch**
-- At 158.60, MoF verbal intervention zone is 1.4 figures away
-- If USD/JPY hits 160, probability of operational FX intervention spikes
-- FX intervention = yen strengthens sharply = Phase 2 trigger (safe-haven override)
-- **Recommend:** Set 159.50 as ALERT level for Will notification. 160+ = potential Phase 2 onset within 48-72 hours.
-
-**No new trade entries proposed until after BOJ statement.**
-
----
-
-## 🚨 EOD UPDATE — MAR 6 (21:20 UTC)
-
-**HEADLINE: OIL SHOCK DROWNS OUT WEAK NFP. YEN WEAKENING, NOT STRENGTHENING.**
-
-**CRITICAL DELTAS vs 18:30 UTC mid-session scan:**
-
-| Metric | Mid-Session (18:30) | EOD (21:20) | Delta |
-|--------|---------------------|-------------|-------|
-| **USD/JPY** | ~157.5 (flat) | **~157.96+ (biased UP)** | 🔴 Yen WEAKENING post-NFP, not strengthening. 159.44 retest in play. |
-| **Nikkei 225** | -0.19% (55,175 at mid) | **+0.59% at 55,606-55,620 (CLOSE)** | 🟢 Japan equities held. No post-NFP collapse. |
-| **BOJ next hike** | April (dead) / paralysis | **June/July base case** (Reuters/Kameda) | 🔴 April hike formally dead. 2+ month extension of freeze. |
-| **Oil** | WTI >$85 | **Qatar force majeure warning LIVE** | 🔴🔴 NEW ESCALATION — Kuwait shut production, Gulf exports could stop "within weeks" |
-| **Carry vector** | 4 (HENRY upgrade) | **4 — mechanism confirmed INVERTED** | Phase 2 via yen STRENGTH is dead short-term. Yen WEAKNESS route now dominant. |
-| **USD/KRW** | ~1,467-1,500 range | No new breach data | Monitoring |
-
-**BIGGEST NEW DEVELOPMENT TODAY:**
-- **Qatar Energy Minister Saad al-Kaabi (FT interview, March 6):** Gulf energy exporters may declare force majeure "within weeks" if conflict continues. $150/barrel target reset. Kuwait already shut in production. This is NOT a negotiating posture — this is operational.
-- **Implication for Japan:** If Gulf exports stop, Japan's 90% oil import dependency becomes an acute supply crisis. LNG feedstock shortage → industrial shutdowns → yen collapse accelerates. BOJ trapped further.
-
-**MECHANISM STATUS:**
-- ❌ Phase 2 via yen STRENGTH (safe-haven): NOT triggering. Dollar safe-haven demand + energy import dynamics overriding.
-- ✅ Phase 2 via yen WEAKNESS (stagflation trap): Building. Path = oil at $150 → Japan import costs explode → yen collapses further → BOJ eventually forced to hike to stop yen (or intervene) → equity crash → carry unwind.
-- Timeline: EXTENDED. This is a 30-60 day path, not 7-day.
-
-**BOJ (Reuters, ex-BOJ chief economist Seisaku Kameda):**
-- Was targeting April hike before Iran conflict
-- Now June/July base case with conflict ongoing
-- "BOJ already behind the curve on inflation. Risk of being too late heightening with rising oil and weak yen."
-- If conflict de-escalates this month, April still possible but low probability
-- Mar 13 meeting: HOLD confirmed. Watch for policy statement language on energy risk.
-
-**Carry Unwind Probability REVISED:**
-| Timeframe | Mid-Session | EOD | Driver |
-|-----------|-------------|-----|--------|
-| 7d | 50% | **20%** | Yen weakening ≠ carry unwind trigger. Short-term path cleared. |
-| 30d | 85% | **75%** | Oil at $150 + BOJ frozen → medium-term stagflation path intact |
-| 60d | 92% | **90%** | Structural thesis unchanged. Mechanism inverted, destination same. |
-
-**Signal: Carry/JPY vector remains at 4 — but the TRIGGER PATH has inverted.** We are in the yen weakness / stagflation accumulation phase, not the yen strength / safe-haven unwind phase. The eventual unwind arrives when BOJ is FORCED to act (intervention or hike) into a weakening currency + energy shock. That is more violent when it comes — but later.
-
-
-
----
-
-## 🚨 MID-SESSION UPDATE — MAR 6 (18:30 UTC)
-
-**CRITICAL DELTA — USD/JPY NOT RESPONDING AS MODELED:**
-- USD/JPY at **~157.5** mid-session (UP 0.04% from yesterday) — yen is on its **3rd consecutive weekly DECLINE**, NOT strengthening
-- Pre-NFP narrative was **dollar strength via Iran energy demand** overwhelming safe-haven bid
-- STATUS.md (13:48 UTC) estimated post-NFP 153-155 — if market is holding 157+ even after -92K, carry unwind Phase 2 is NOT triggering on expected timeline
-- **Energy import channel dominant:** Iran conflict = oil shock = Japan import costs = yen structural weakness. Safe-haven bid losing to trade-deficit dynamics.
-- **Nikkei Mar 6:** -0.19% to 55,175 — essentially flat. NOT the -2% to -4% Monday open predicted. Japan equity resilience stronger than modeled.
-- **BOJ Ueda (Mar 6):** Warned Iran conflict "could significantly affect Japan's economy" → prolonged hold signaled. Frozen through April likely.
-- **Finance Min Katayama:** Reiterated "strong sense of urgency" on yen, intervention "an option," coordinating with US. Verbal intervention escalating but no action.
-- **USD/KRW:** Monitor 1,500 line — context says breached. BoK defense posture active.
-
-**Probability HOLD (revised narrative):** 7d carry unwind held at 50% from 13:48 update but the mechanism may be energy-channel, not safe-haven channel. Phase 2 could arrive via yen WEAKNESS (Japan stagflation) not yen strength (safe-haven). Watch BOJ Mar 13 — even holding rates while yen weak is the trap.
-
----
-
-## 🚨 NFP EVENT — MAR 6 CHECK-IN (13:48 UTC)
-
-**NFP February 2026: -92,000** (vs +59K expected — 151K miss) | **Unemployment: 4.4%** | Third payroll decline in 5 months
-**Pre-NFP USDJPY: ~157.5** | **Estimated post-NFP: 153-155 immediate; 150-152 in 1-14 days**
-**HENRY Carry/JPY vector: UPGRADED 2→4** — Aug 2024 playbook threshold approaching
-
-**Probability update:** 7d carry unwind: **50%** (was 20%) | 30d: **85%** (was 75%) | 60d: **92%** (was 90%)
-
-**Key watch:** USDJPY close today. Below 155 = Phase 2 loading. Below 152 = Aug 2024 replay.
-**Korea:** Dollar weakness → KRW strengthens → BoK UST selling PAUSED (partial three-anchor relief)
-**Nikkei Monday open:** -2% to -4% expected if USDJPY holds below 155 into weekend
-
-Full check-in: `AGENTS/SAM/CHECKIN_MAR6.md`
-
----
-
-## EOD UPDATE — MAR 5 (21:20 UTC)
-
-**EOD Summary (Mar 5):** Asia staged a technical relief bounce — NOT a fundamental reversal. Nikkei +1.9% to **55,278**, KOSPI +9.6% (best day since 2008), Kosdaq +14.1%. USD/KRW pulled back sharply to ~**1,467** (from 1,500 breach). USD/JPY held ~156.85-157.00 range — yen safe-haven bid persisting but not accelerating. Carry unwind **STABILIZING short-term** (margin call clearing, Bessent oil statement) but structural thesis UNCHANGED. BOJ frozen. SPX -1.22% on US close — divergence between Asia bounce and continued US weakness. NFP tomorrow is the bifurcation event.
-
----
-
-## EOD UPDATE — MAR 5 (21:20 UTC)
-
-**Summary:** EMERGENCY CONDITIONS PERSIST — NEW NUANCE OVERNIGHT. USDJPY pulled back to **~156.85** in Asian session (from 157.2 prev close) — **genuine safe-haven yen bid** emerging as Iran conflict escalates (US/Israel "striking progressively deeper"). This is the first real safe-haven signal; watch for acceleration. BOJ in **"strategic paralysis"** — March hike dead, April/July uncertain. JGB short-end yields FELL overnight as hike expectations pushed out. Finance Minister Katayama deployed **intervention language** ("watching closely, prepared to take various measures") — ambiguous re direction, but verbal warning live. Nikkei holding ~53.8-54.6k (near prior close, 55k support broken). Three-anchor UST selling thesis intact. Carry unwind probability unchanged: **7d 35%, 30d 80%, 60d 90%**.
-
-### SIGNAL DASHBOARD DELTAS (vs AM Scan)
-
-| Metric | AM Scan | EOD Mar 5 | Delta |
-|--------|---------|-----------|-------|
-| **Nikkei** | ~53.8-54.6k range | **55,278 (+1.9%)** | ✅ Bear bounce confirmed |
-| **KOSPI** | +~10% intraday (circuit breaker halt) | **+9.6% final (5,583.9)** | ✅ Held gains, best day since 2008 |
-| **Kosdaq** | +14.1% intraday | **+14.1% final (1,116.41)** | Confirmed |
-| **USD/KRW** | ~1,479 AM open | **~1,467 EOD** | 🟢 Won strengthened ~33 pts off 1,500 |
-| **USD/JPY** | ~156.85 Asian session | **~156.85-157.00** | Flat — range-bound |
-| **BOJ signal** | Frozen, paralysis | Ueda reiterating hike path but monitoring Iran | No change |
-| **Carry unwind prob 7d** | 20% | **20%** (no change) | Stabilizing |
-| **Carry unwind prob 30d** | 75% | **75%** (no change) | Structural intact |
-| **SPX** | -1.22% (EOD US) | **-1.22%** | US/Asia divergence live |
-
----
-
-## AM SCAN UPDATE — MAR 5 (18:30 UTC)
-
-### KEY DEVELOPMENT: BEAR MARKET BOUNCE IN PROGRESS
-KOSPI surged ~10% (best day since 2008), Kosdaq +14.1%, Nikkei +1.9% (~+1,400 pts). **This is NOT a fundamental reversal.** Yuanta strategist Daniel Yoo: "It has nothing to do with fundamentals." Bounce driven by: (1) margin call exhaustion — retail leveraged selling cleared, (2) Bessent statement on stabilizing Persian Gulf oil shipments reducing near-term Hormuz panic. Korea Exchange halted trading on upside circuit breaker during the surge.
-
-**China NPC Work Report (Mar 5):** Li Qiang set 2026 GDP target at **4.5-5%** — lowest in decades, first cut since 2023. Cited "dramatically changing international trade environment" and "deep-rooted structural problems." Fiscal spending target ~30T RMB ($4.3T). This is a deflationary anchor, NOT a stimulus bazooka. China is managing expectations DOWN, not firing rocket fuel.
-
-**Carry Unwind Probability Update:** Bear bounce does NOT change structural thesis. Adjusted to reflect short-term pressure relief: **7d: 20%** (down from 35% — margin calls cleared), **30d: 75%** (down from 80% — Bessent oil statement buys 1-2 weeks), **60d: 90%** (unchanged). Thesis intact; timeline compressed but not broken.
-
----
-
-## OVERNIGHT SCAN — MAR 5 MORNING (13:45 UTC)
-
-### (1) Japan / BOJ / Yen Developments
-- **USDJPY: ~156.85** (Asian session) — yen strengthening, first credible safe-haven bid vs. prior profit-taking. If Iran escalation continues, 155 handle possible. Watch: if USDJPY breaks below 156 on sustained safe-haven flow, carry unwind Phase 2 could compress further.
-- **BOJ "Strategic Paralysis"**: March hike essentially dead. Market now pricing April or July as next live meeting. Short-end JGB yields fell overnight on hike delay expectations. This is a HOLD-forever trap — can't hike into energy shock + equity crash + geopolitical uncertainty.
-- **Finance Minister Katayama**: "Watching market developments closely, prepared to take various measures if needed." Standard jawboning but signals MoF on alert. Yen currently strengthening so intervention direction unclear — if yen weakens back above 158+, expect verbal escalation toward actual FX intervention.
-- **Iran escalation**: US Joint Chiefs: US will "strike progressively deeper" into Iran. Israel launched new "wave of strikes" on Tehran military infrastructure. NO near-term resolution. Hormuz closure structural, not episodic. Energy shock sustains.
-- **Nikkei**: ~53.8-54.6k range overnight — no new crash, but 55,000 support definitively broken. Goldman Sachs/SMBC see 58,500-61,500 by end-2026 as recovery case — irrelevant near-term. GPIF mechanical trigger zone still approaching.
-
-### (2) Carry Trade Stress Signals
-- **Yen safe-haven bid** is new. Prior moves (157.97 high) were carry-funded dollar demand. Now seeing reversal bid on Iran escalation. This is the Phase 1→2 transition signal to watch.
-- **KRW**: No major new overnight data; prior BoK defense of 1,500 appears to be holding (based on lack of new circuit-breaker headlines). Fed swap line binary still unresolved — 48-72hr watch continues.
-- **Short JGB yields falling** = market pricing BOJ frozen = carry trade more attractive in theory... BUT safe-haven yen bid contradicts. Tension: BOJ paralysis should support carry, but risk-off overrides. This is Phase 2 early signal.
-
-### (3) JGB / Intervention Indicators
-- **Short-end JGB yields fell** — 2Y most sensitive to BOJ; falling = hike expectations pushed to April/July minimum. Long end (10Y ~2.12%, 30Y ~3.28%) unchanged — steepening intact.
-- **MoF intervention language active** (Katayama statement). Not yet operational, but on alert.
-- **No new UST anchor-selling data overnight**, but structural dynamic unchanged.
-
-### KEY POLICY IMPLICATION
-BOJ is caught in a new trap: if yen strengthens (safe-haven), import costs ease but carry unwind accelerates → Phase 2. If yen weakens (risk-on), import inflation deepens → stagflation. Either path is bad. BOJ paralysis is now the base case through April, possibly July. This extends the thesis runway but doesn't change the destination.
-
----
-
-## SIGNAL DASHBOARD
-
-| Vector | Value | Status | Signal |
-|--------|-------|--------|--------|
-| **USDJPY** | **~156.85 (Mar 5 Asian session)** | 🔴 | **NEW: Genuine safe-haven bid emerging** — Iran escalation (US/Israel striking deeper into Tehran) triggering yen strength. Prior moves were carry/dollar demand; this is different. Intervention language active (MoF Katayama). Watch 156 as next support; break below = Phase 2 accelerating. Intervention zone still 160 on upside. |
-| **JGB 10Y** | **~2.12%** | 🟠 | Inflation fear dominating. Not a safety bid. Long-end steepening intact. |
-| **JGB 30Y** | **~3.28%** | 🟠 | Pullback from 3.31%. Steepening trend intact. Fiscal doom loop delayed, not canceled. |
-| **Brent Oil** | **Up 3% more but pausing (off Tue highs)** | 🔴 | Hormuz closure sustained. Brent up ~3% Wednesday but below Tuesday's 8-month high — market taking a breath, not reversing. Europe stocks +0.5%, gold regaining poise. Slight decompression in panic — NOT resolution of supply shock. |
-| **BOJ Rate** | **0.75%** | 🟡 | HOLD 95%+ for March 13-14. BUT: **NEW — Ueda warned Hormuz conflict could have "significant impact" on Japan economy via energy prices.** April hike expectations RISING. Rabobank forecasts USD/JPY back to 145 (1yr) on continued BOJ hikes. Ueda is NOT fully lame-duck — he's framing energy as risk factor. Frozen at Mar 13, possible in Apr. |
-| **Carry Unwind Prob** | **🔴 EMERGENCY UPGRADE** | 🔴 | **7d: 35%** (was 20%), **30d: 80%** (was 65%), **60d: 90%** (was 80%). KRW 1,500 breach = SAM emergency trigger. Hormuz closure = structural energy shock compressing timeline. |
-| **VIX** | **~30+** | 🔴 | Korea circuit breakers = contagion event. S&P likely -3%+ today. |
-| **KOSPI** | **-12% (CIRCUIT BREAKERS prior day)** | 🔴 | Cumulative damage severe. BoK now in full defense posture. |
-| **USD/KRW** | **1,479 open Mar 4 (off 1,500 breach)** | 🔴 | **Emergency trigger hit, then partial pullback.** BoK Governor postponed overseas trip + emergency meeting. KRW opened 1,479 on Mar 4 after brief overnight 1,500 breach. Bounce from 1,500 = BoK intervention working SHORT-TERM. Sustained defense TBD. 3rd consecutive session of won depreciation. |
-| **Nikkei 225** | **54,245 (-3.61% Mar 4 JST close)** | 🔴 | Two-day cumulative -6.5% (56,279 → 54,245). All sectors down: tech + oil/coal led. GPIF mechanical trigger proximity escalating. Intraday low ~53,873 (-4.27%). Trying to find support after ~10% decline from pre-crisis levels. |
-| **UST Anchor Selling** | **$30-55B/mo combined** | 🔴 | NEW. Japan + Korea + China stealth. Three-anchor problem LIVE. |
-| **Insurance Cliff (Mar 5)** | **PARTIALLY DEFUSED** | 🟠 | Trump DFC backstop. P&I clubs may still withdraw but US government insurance available. |
-
----
-
-## NEW DEVELOPMENT: KOREA AS THIRD UST ANCHOR (Mar 4, 2026)
-
-**ZHAO Signal — Processed:**
-
-KOSPI -12%, KOSDAQ -13% with circuit breakers = systemic stress, not routine volatility. This is the worst Korean equity day in decades.
-
-**The Three-Anchor Problem (now LIVE):**
-| Anchor | UST Holdings | Selling Mechanism | Monthly Volume |
-|--------|-------------|-------------------|----------------|
-| **Japan** | $1.203T | Life insurer repatriation + carry unwind | $15-25B/mo (estimated) |
-| **Korea** | ~$145-165B | BoK FX reserve defense (selling USTs to buy KRW) | $10-20B/mo (at 1,500 defense) |
-| **China** | ~$760B | Stealth decoupling via Belgium/UK custodians | $5-10B/mo (ongoing) |
-| **COMBINED** | | | **$30-55B/mo** |
-
-This is structural UST supply shock, not episodic. If sustained 3+ months: 10Y yield rises 30-50bp, crowding out US fiscal space, raising US borrowing costs.
-
----
-
-## FED SWAP LINE: THE BINARY PIVOT
-
-**Question:** If Fed doesn't activate BoK swap line, Korea sells USTs to defend KRW. What's SAM's read?
-
-**Assessment:**
-
-**Path A — Fed ACTIVATES swap line:**
-- BoK gets USD liquidity without selling USTs
-- UST supply pressure removed from Korea
-- BUT: Activation = systemic stress signal → global risk-off → EM contagion → Japan equities hit → GPIF mechanical trigger → carry unwind Phase 2 accelerates
-- Market reads activation as "crisis confirmed" → yen could paradoxically strengthen as risk-off overwhelms carry
-- **Net for carry thesis:** Accelerates Phase 2 timeline. Bullish Phase 2 setup. 30-day carry unwind probability jumps to 75-80%.
-
-**Path B — Fed DOESN'T ACTIVATE:**
-- BoK must defend 1,500 by selling USTs (and other reserves)
-- Korean won potentially through 1,500 → forced devaluation → regional FX crisis (1997 echo)
-- UST selling = 10Y yields up → dollar stronger → yen weaker (Phase 1 extension)
-- BUT: If KRW crashes past 1,500, contagion to EM Asia is uncontrolled → eventually reaches Japan (Nikkei deeper) → GPIF trigger → Phase 2 arrives via EM crisis route, not US recession route
-- **Net for carry thesis:** Phase 1 extends 2-4 weeks, then Phase 2 arrives via EM crisis. Messier path, same destination.
-
-**SAM's Read:** Both paths lead to carry unwind — just different timelines and triggers. Fed swap line is a 2-4 week delay mechanism, not a solution. The fundamental: Japan + Korea energy shock → dollar demand → UST selling → yield pressure → US financial conditions tighten → growth hits → Phase 2. The **1,500 line is a 72-hour watch item**. If BoK breaks through 1,500 without Fed intervention, we're in 1997-echo territory — update carry probability to 85%+ immediately.
-
----
-
-## USD/KRW 1,481 — FRAMEWORK CHANGE?
-
-**Does 1,481 change the framework?**
-
-**Yes, partially.** It adds a *new transmission channel* that wasn't in the original SAM thesis:
-- Original thesis: Japan → carry unwind via US recession signal + JGB stress
-- Updated: **Korea FX crisis → UST selling → US yields up → US financial conditions tighten → recession signal arrives FASTER** via external pressure, not just domestic US deterioration
-- Korea adds a "backdoor recession trigger" — the supply shock in USTs that Japan was supposed to provide arrives sooner via BoK reserve defense
-
-**Framework update:**
-- Carry unwind Phase 2 onset probability elevated
-- US recession signal could arrive via UST yield spike (external) rather than NFP miss (domestic)
-- NFP Friday (Mar 6) remains critical but now SECONDARY to BoK 1,500 line as trigger
-
----
-
-## CARRY UNWIND PROBABILITY (REVISED)
-
-| Timeframe | Old (08:45 ET) | New (13:30 ET) | Driver |
-|-----------|-----|-----|--------|
-| 7 days | 20% | **35%** | KRW 1,500 BREACHED; BoK UST selling active; Hormuz shock |
-| 30 days | 65% | **80%** | Three-anchor UST selling + Hormuz energy shock + ADP miss |
-| 60 days | 80% | **90%** | Structural stagflation trap + USD demand + energy cost surge |
-| Full escalation | 90%+ | **90%+** | Unchanged |
-
-**🚨 EMERGENCY TRIGGER HIT:** USD/KRW through 1,500 without confirmed Fed swap line. Per SAM framework, this is the forced upgrade condition. Phase 2 onset window: **10-14 days** if no Fed intervention within 48 hours.
-
----
-
-## BOJ STATUS (Updated)
-
-**March 13-14: HOLD 92%** (was 90%)
-- Stagflation trap DEEPER: energy shock + equity crash = can't hike
-- War uncertainty PERSISTS
-- Dovish nominees + lame-duck Ueda = zero appetite for action
-- Korea contagion adds instability argument for pause
-
-**BOJ can't save Japan here.** Frozen is the only option.
-
----
-
-## INBOX PROCESSED (Mar 4 08:45 ET)
-
-| Signal | From | Status |
-|--------|------|--------|
-| ZHAO — Korea third UST anchor, KOSPI -12%, USD/KRW 1,481 | ZHAO | ✅ INTEGRATED → ML-JPN-184; carry unwind revised; outbox alerts sent |
-| LIQUID — Bull steepener, 10Y 4.063%, yen strengthening risk at 148 | LIQUID | ✅ INTEGRATED → consistent with Phase 2 trigger framework; 148 watch level noted |
-| HANS — European UST demand paradox (bid now, headwind medium) | HANS | ✅ NOTED → cross-domain; HANS domain; flagged to NEXUS for synthesis |
-
----
-
-## KEY DATES (Updated)
+## KEY DATES (Updated Mar 17)
 
 | Date | Event | Status |
 |------|-------|--------|
-| **NOW** | USD/KRW 1,481 → BoK 1,500 defense line | 🔴 72-HOUR WATCH |
-| **Mar 5 (Thu)** | Insurance cliff — P&I clubs withdrawal | 🟠 PARTIALLY DEFUSED |
-| **Mar 6 (Fri)** | NFP — carry bifurcation point | 🔴 CRITICAL (now secondary to 1,500 line) |
-| **Mar 6-7** | Fed swap line decision on BoK? | 🔴 BINARY PIVOT |
-| Mar 12 | Shunto Yamaba (Toyota/Honda) | 🟠 |
-| **Mar 16** | Pre-position monitoring begins (Super-Week) | 🔴 |
-| **Mar 18-19** | BOJ Meeting — HOLD expected. Ueda presser Mar 19 = KEY. April signal = 35%+ carry unwind 7d | 🔴 |
-| Mar 21 | Shunto First Tally (Rengo) | 🟠 |
-| Mar 31 | FY2025 ends, ESR, budget | 🟠 |
-| **Apr 23-24** | BOJ Meeting — war-dependent | 🔴 |
+| **Mar 17 (TODAY)** | FOMC starts; Ueda parliamentary speech (DONE — hawkish) | 🔴 LIVE |
+| **Mar 18 (TOMORROW)** | 🔴🔴 Auto Yamaba (Toyota/Honda) + BOJ opens | CRITICAL |
+| **Mar 19 (Wed/Thu)** | 🔴🔴 Ueda presser + FOMC decision — DUAL CATALYST | CRITICAL |
+| **Mar 21** | Shunto first tally (Rengo) | 🟠 |
+| **Mar 31** | FY2025 end — life insurer repatriation peak (T-14) | 🔴 LOADING |
+| **Apr 23-24** | BOJ Meeting — April hike ~68-70% | 🔴 |
 
 ---
 
-## THESIS (Updated Mar 4)
+## THESIS (Updated Mar 17)
 
-**Core thesis unchanged. Timeline accelerated.**
+**Core thesis: STRENGTHENED.** Ueda's explicit hawkish pre-meeting language is the clearest signal yet that BOJ is preparing to hike in April. The convergence of wage data (real wages +1.4%, Nissan full acceptance, Yamaba tomorrow), Ueda's "inflation accelerating toward 2%" framing, and FY-end repatriation loading creates the most favorable conditions for a hawkish BOJ pivot since January.
 
-Phase 1 extending (yen weak, dollar reclaiming) — but Korea crash has injected a new UST supply vector that could compress the Phase 2 timeline by 2-4 weeks. The doom loop chain now has a SECONDARY ignition point: BoK 1,500 line → UST selling → US 10Y up 30-50bp → financial conditions tighten → recession signal arrives ahead of NFP → carry unwind Phase 2.
+**The mechanism is reverting to original:** BOJ hawkish signal → yen strengthens → carry unwind. This is the cleaner, faster path. If Ueda delivers a hawkish presser Mar 19 AND FOMC signals dovish → rate differential narrows from BOTH sides → carry unwind onset within 7-14 days.
 
-**Three scenarios for next 72 hours:**
-1. **BoK holds 1,500 + Fed activates swap line** → UST pressure relieved; Phase 2 timeline intact (30-60 day); buy time to NFP. 40% probability.
-2. **BoK holds 1,500 without swap line** → UST selling begins; 10Y rises; Phase 1 extends with yield pressure building underneath. 35% probability.
-3. **KRW through 1,500 (uncontrolled)** → 1997 echo; regional contagion; emergency conditions; carry unwind probability 85%+; Phase 2 arrives within 10-14 days. 25% probability.
-
-**Archives:**
-- Mar 3 EOD STATUS: `domain/session_archive/STATUS_archive_20260303_EOD.md`
-- Feb 27 archive: `domain/sources/STATUS_archive_20260227.md`
-- LNG analysis: `domain/sources/LNG_CRISIS_JAPAN_MAR2.md`
-- Life insurer deep dive: `domain/sources/RP-SAM-4_JAPAN_LIFE_INSURER_STRESS.md`
+**Risk:** Oil above $105 could re-engage stagflation trap. Honda EV writedown could produce a weak Yamaba outlier. Takaichi political pressure remains a wildcard. But Ueda is showing he's willing to look through the oil shock — and that changes everything.

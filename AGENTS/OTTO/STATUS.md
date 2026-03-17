@@ -1,8 +1,8 @@
 # OTTO STATUS
 
-**Signal Status:** 🔴🔴 CRITICAL — ESCALATING | **Last Updated:** 2026-03-16 17:19 UTC
+**Signal Status:** 🔴🔴 CRITICAL — ESCALATING | **Last Updated:** 2026-03-17 13:45 UTC
 
-**Summary:** **PRIVATE CREDIT MELTDOWN** — Fortune: "$265B wipeout"; MS GATED North Haven fund; BlackRock restricted HPS; Blue Owl $1.4B forced sale | **Prediction #8 CONFIRMED (BDC gate)** | Economist/Dimon using "cockroach" metaphor | First Brands debt UPGRADED to $12B (<2% recovery) | MFS shortfall UPGRADED to £1.3B | Goeasy -65% + "aggressive accounting" | CVNA 5:1 stock split + buying Stellantis stores | FOMC Mar 17-18 IMMINENT | DQ 7.1% (RED) | NFP -92K
+**Summary:** **PRIVATE CREDIT CASCADE** — JPM marking down $22.2B software collateral (Mar 16); Blue Owl OTIC permanently gated ($527M); MS/BlackRock/Cliffwater all restricting | Fitch 2H25 Monitor: subprime 60+ DQ 6.74% YE25 + "deterioration expected 2026" | Car-Mart 30+ DQ surged 4.4% | FOMC underway TODAY | CVNA discovery output pending | DQ 7.1% (RED) | NFP -92K
 
 **Vectors:** 83+ | **ML Entries:** 130+ | **Research Packages:** 15 complete
 
@@ -49,7 +49,8 @@ Recovery ratio 30.58% (vs 41% benchmark). Construction employment -92.7% YoY. S&
 | MS North Haven Fund | **GATED** — 10.9% requests, 5% cap enforced, only 45.8% fulfilled | 🔴🔴 NEW |
 | BlackRock HPS Fund | **Restricted withdrawals** on $26B fund | 🔴 NEW |
 | Cliffwater Flagship | 7% withdrawal requests on $33B fund | 🔴 NEW |
-| Blue Owl | **$1.4B forced asset sale** + DB downgrade to Hold + fiduciary probe; -66% from peak | 🔴🔴 |
+| Blue Owl | **$1.4B forced asset sale** + DB downgrade; OTIC **permanently gated** ($527M request) | 🔴🔴 |
+| JPM PC Markdowns | **$22.2B exposure; marking down software collateral; 3-5% default spike forecast** | 🔴🔴 NEW |
 | Private Credit Sector | **$265B market cap wipeout** — Fortune: "resembles bank run" | 🔴🔴 NEW |
 | Large Bankruptcies | 9/week Feb 2026 = COVID levels | 🔴 |
 | 60+ DQ Rate | **7.1% (Feb 2026) — NEW RECORD** (was 6.9% Jan 2026) — ABOVE 🔴 THRESHOLD | 🔴🔴 |
@@ -137,64 +138,46 @@ Recovery ratio 30.58% (vs 41% benchmark). Construction employment -92.7% YoY. S&
 
 ---
 
-## MAR 12 CHECK-IN UPDATE (2026-03-12 13:45 UTC)
+## MAR 17 CHECK-IN UPDATE (2026-03-17 13:45 UTC)
 
-### 1. ABS/Subprime Auto Data — THRESHOLD CROSSED
-- **60+ DQ rate: 7.1% (Feb 2026)** — NEW RECORD, crosses 🔴 RED threshold (was 7.0%)
-  - Jan 2026 was 6.9%. Another +20bps in one month.
-  - Transmission: NFP -92K → subprime borrower job losses → faster DQ acceleration
-  - This is not mean-reverting. Moody's/S&P both say "weakness continues through 2026"
-- **SoFi 2025-1 CNL 2.6% TRIGGER CONFIRMED** — previously logged, still the most important recent ABS event
-  - Stress is now confirmed to be moving UP the credit quality stack (SoFi = near-prime)
-  - Watch: Upstart, LendingClub, Prosper ABS for next CNL trigger proximity
-  - **Action needed:** CARL ABS sprint (approved proposal — still unexecuted)
+### 1. ABS/Subprime Auto Data
+- **Fitch 2H25 ABS Monitor (Mar 12):** Subprime 60+ DQ = 6.74% at year-end 2025. Our Feb 2026 monthly read = 7.1%. Both confirm acceleration. Fitch: "expects performance to deteriorate in 2026 vs 2025" — tariffs, cooling labor market, affordability.
+- **Prime 60+ DQ rose to 0.43%** — stress bleeding up the credit stack (confirms SoFi CNL signal).
+- **Fitch: newer subprime vintages improving but still worse than pre-pandemic; deeper subprime facing more pressure.**
+- **Car-Mart (CRMT) Q3 FY2026 (Mar 12):** 30+ DQ surged to **4.4% from 3.7%** — deep subprime dealer stress. Winter Storm Fern accelerated but underlying weakness clear.
+- **Congressional Research Service (Mar 11):** Report on auto loan market policy — longer terms = higher DQ even controlling for credit quality. Confirms structural affordability thesis.
+- No new monthly DQ read yet beyond 7.1% (Feb). Next read likely early April.
 
-### 2. Carvana (CVNA) — Mar 15 IMMINENT
-- Discovery Production 1 = **3 DAYS OUT (Mar 15)**
-- DriveTime internal documents compelled by Judge Boyle
-- Pomerantz class action investigation active; Gotham estimates $1B+ earnings overstatement
-- Court ruling confirmed: Carvana's motion for reconsideration denied, key claims survive
-- **What to watch on Mar 15:** DriveTime internal docs — VIN/title fraud scale, servicing fee reality
-- No new news beyond what was logged Mar 9-11.
+### 2. Carvana (CVNA)
+- **Mar 15 Discovery Production 1:** No public output yet. DriveTime internal docs were compelled — watch for leaks/filings.
+- **Insider sell:** Thomas Taira (President, Special Projects) sold 953 shares Mar 9. Small but notable during litigation window.
+- **CVNA targeting 3M annual units + 13.5% EBITDA margin** at Raymond James conference — aggressive guidance while under fraud investigation.
+- Stock split (5:1) vote May 5, record May 6 — already priced in. No new Hindenburg/Gotham activity.
 
-### 3. Fraud/Bankruptcy Developments
-- **First Brands:** Mar 11 hearing on Motion to Compel (Kroll site confirms). Auction process expected to conclude **end of March 2026**. CFO Graham cooperating witness; Patrick James trial June.
-- **Tricolor:** Vehicle liquidation deadline **Mar 31** — imminent. Bank lawsuit (JPM/Barclays/Fifth Third, $230M+) proceeding in Manhattan.
-- **MFS UK:** No new news since Mar 9 (£930M shortfall, Barclays £500M, Elliott £200M). Case developing.
-- No new cockroach cases found in today's search.
+### 3. Fraud/Bankruptcy
+- **No new cockroach (case #5) found this week.** MFS still developing.
+- **First Brands:** Auction process targeting end-March conclusion. No new filings found since Mar 11 Motion to Compel.
+- **Tricolor:** Vehicle liquidation deadline Mar 31 = 2 weeks out. Bank lawsuit (JPM/Barclays/Fifth Third) proceeding.
+- **MFS UK:** No material update beyond Mar 13 (judge blocked CEO's administrator bid). Shortfall remains £1.3B.
 
-### 5 Unexecuted Proposals — Review
-Based on context reconstruction (proposals failed 3x on API overload):
-1. **Signal CARL: DQ data + NFP transmission** — Still critical. DQ now 7.1%. Route signal. ✅ **ROUTING NOW** (see OUTBOUND below)
-2. **CARL ABS sprint: Upstart/LendingClub/Prosper CNL proximity** — Still critical post-SoFi trigger. ✅ **STILL RELEVANT**
-3. **Short watchlist expansion: CACC/SYF/OMF/WRLD** — Still relevant; Goeasy -57% is the analog. ✅ **STILL RELEVANT**
-4. **WAL sizing on next green day** — WAL at $69.60 (Mar 11 close). Green bounce = add. ✅ **STILL RELEVANT**
-5. **First Brands Ch.7 status check** — Kroll confirms auction end-March, some Ch.7 units possible. Confirmed partial. ✅ **EXECUTED ABOVE**
+### 4. Private Credit — 🔴🔴 ESCALATION
+- **JPMorgan marking down software loan collateral (Mar 16):** $22.2B exposure to private credit funds. Internal models now forecast 3-5% tech-loan default spike through 2027. Margin squeeze = forced selling.
+- **Blue Owl OTIC: PERMANENTLY SHUT GATES on redemptions** (late Feb) after $527M withdrawal request. This is not a temporary cap — fund is in wind-down mode.
+- **Business Insider (Mar 12):** Private credit timeline of warning signs published — narrative mainstreaming.
+- **Morningstar (Mar 11):** "Liquidity squeeze puts lenders in tight spot" — framing the dilemma (relax caps → destroy value vs gate → panic signal).
+- **Assessment:** JPM markdowns = new transmission vector. Banks tightening leverage to private credit → forced asset sales → NAV declines → more redemptions. This is the reflexive loop we warned about. FOMC hawkish hold today/tomorrow could accelerate.
+
+### 5. FOMC (Mar 17-18)
+- Meeting underway TODAY. Presser Mar 19 2:30 PM ET.
+- Hawkish hold expected. Any language about "patient" or "higher for longer" = catalyst for private credit stress.
 
 ---
 
-## MAR 10-11 INBOX SIGNALS (processed 2026-03-11)
+## PRIOR CHECK-INS (Condensed)
 
-| Signal | Detail | Impact |
-|--------|--------|--------|
-| **SoFi 2025-1 CNL 2.6% — TRIGGERED** | First-ever CNL trigger for SoFi. Junior tranches subordinated, senior paydown accelerated. Personal loan ABS, not subprime auto — stress broadening UP quality stack. | 🔴 Cross-ref Upstart, LendingClub, Prosper ABS for approaching CNL triggers |
-| **Goeasy (GSY.TO) -65% (updated)** | Decline deepened. **"Aggressive historical accounting" in LendCare** = potential fraud. National Bank downgraded Strong-Buy→Hold. Analyst target cut $210→$50 (76%). Valuation switched P/E→P/B (crisis method). Seeking Alpha: "investment thesis fundamentally broken." | 🔴🔴 Canary CONFIRMED. Accounting manipulation + NCO mid-teens. CACC/SYF/OMF/WRLD next. |
+**Mar 12:** DQ 7.1% confirmed (RED threshold crossed). SoFi CNL trigger confirmed. CVNA discovery Mar 15 imminent. First Brands auction end-March. Tricolor liquidation Mar 31. Unexecuted proposals: CARL ABS sprint, short watchlist expansion (CACC/SYF/OMF/WRLD), WAL sizing.
 
-## MAR 9 NEW SIGNALS
-
-| Signal | Detail | Impact |
-|--------|--------|--------|
-| **WAL sues Jefferies** | $126.4M unpaid on First Brands loans; filed Mar 6 | 🔴 WAL equity stress confirmed; Jefferies exposure live |
-| **Jefferies scrutiny** | Reuters: Jefferies under review for MFS + First Brands lending standards | 🔴 Jefferies → WAL chain now public |
-| **MFS: Barclays £500M** | Bloomberg Mar 4: Barclays owed ~£500M by MFS entities | 🔴 UPGRADE from "hundreds of millions" |
-| **MFS: Elliott/SMBC/Macquarie** | Bloomberg Mar 2: Elliott £200M, SMBC + Macquarie also exposed | 🟠 Broadens institutional damage |
-| **MFS: £930M collateral shortfall** | Unicus Research: £1.16B loans vs £230M "true value" collateral | 🔴 CONFIRMS double-pledging at scale |
-| **First Brands CFO guilty** | Stephen Graham pleads guilty Mar 5; will testify vs Patrick + Edward James | 🔴 Case against James brothers now very strong |
-| **First Brands Ch.7 partial** | Feb 17: mulling placing some units into Ch.7 (still in Ch.11) | 🟠 Prediction #25 PARTIAL |
-| **CVNA Pomerantz** | Class action investigation active; Gotham: $1B+ earnings overstatement | 🟠 Class period TBD |
-| **Subprime ABS weak** | Experian Q4 2025: subprime 15.31% of finance (highest since 2021); 30-day DQ 2.54% | 🟠 Confirms expansion + stress |
-| **Moody's ABS outlook** | "Weakness to continue through 2026" | 🟠 Confirms no improvement expected |
-| **EDGAR monitoring LIVE** | Protocol written; OZK watch starts Mar 25 | ✅ |
+**Mar 9-11 Key Signals:** WAL sues Jefferies $126.4M | Jefferies under scrutiny (MFS+FB) | MFS Barclays £500M confirmed | MFS £930M shortfall confirmed | First Brands CFO Graham guilty plea | SoFi CNL 2.6% triggered | Goeasy -65% + "aggressive accounting" | Experian: subprime 15.31% of originations | EDGAR monitoring live (OZK Mar 25)
 
 ---
 
@@ -221,7 +204,10 @@ Based on context reconstruction (proposals failed 3x on API overload):
 | Mar 12 | **Blue Owl $1.4B forced asset sale** + DB downgrade | 🔴 NEW |
 | Mar 14 | **Fortune: "$265B private credit meltdown"** | 🔴🔴 NEW |
 | Mar 15 | **Economist: Dimon "cockroach" metaphor** for Tricolor/First Brands | 🔴🔴 NEW |
+| Mar 12 | **Fitch 2H25 ABS Monitor: subprime 60+ DQ 6.74% YE25; deterioration expected 2026** | 🔴 NEW |
+| Mar 12 | **Car-Mart 30+ DQ surged 4.4% (from 3.7%)** — deep subprime dealer stress | 🔴 NEW |
 | Mar 15 | Carvana discovery production 1 — **PASSED** (no public output yet) | ⏳ |
+| Mar 16 | **JPMorgan marking down software loan collateral — private credit margin squeeze** | 🔴🔴 NEW |
 | Mar 31 | Tricolor vehicle liquidation deadline | 🔴 IMMINENT |
 | Mar 31 | First Brands auction conclusion | 🔴 IMMINENT |
 | Mar 17-18 | **FOMC meeting** — presser Mar 19 2:30 PM ET | 🔴🔴 IMMINENT |

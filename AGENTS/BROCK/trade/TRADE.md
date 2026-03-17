@@ -4,7 +4,13 @@
 **Status:** Stage 2 confirmed + insider admission. 5+ gates in 10 days. Zito: "All the marks are wrong." $10B+ Q1 retail outflows. FOMC tomorrow.
 **Account:** $55,820 (+179.57%) | BROCK-relevant positions: ~$2,600 deployed
 
-> **Core doctrine:** Every trade must link to a convergence vector or FLOW transmission channel. Private credit cascade is the thesis — positions express specific pathways within it. Hamilton lag structure governs expiry selection: credit peaks BEFORE equity (~3mo lead), peak damage Q1 2027. **Dec 2026 minimum for all positions.**
+> **Core doctrine:** Every trade must link to a convergence vector or FLOW transmission channel. Private credit cascade is the thesis — positions express specific pathways within it.
+>
+> **TWO SEPARATE EXPIRY FRAMEWORKS:**
+> - **Private credit catalyst trade** (APO, ARES, ARCC, OWL) — April-May catalyst cluster is dateable and imminent. Expiry should match: **May/Jun/Jul puts.** Event-driven: tender disclosures, defaults, class actions, earnings.
+> - **Macro demand destruction trade** (KRE, IWM, HYG, broad indices) — Hamilton lag structure governs. Credit peaks BEFORE equity (~3mo lead), peak damage Q1 2027. **Dec 2026 minimum.**
+>
+> Do NOT apply Hamilton's December roll logic to private credit names with April-May catalysts.
 
 ---
 
@@ -28,7 +34,7 @@ Detail → `domain/sources/TARGETING_FRAMEWORK_MAR16.md`
 ## SECTION 1: HIGHEST CONVICTION
 
 ### TRADE 1A — APO Put Roll to Dec (EXISTING — PRIORITY)
-**Instrument:** APO $100P Jun×1 → roll to Dec (strike $100P or $95P)
+**Instrument:** APO $100P Jun×1 — HOLD through April-May catalyst cluster (tender disclosures, class actions May 1, earnings). Roll to Jul/Aug only if catalysts delay.
 **Current:** +7.6% ($830 value). APO ~$106 (bounced from $100.30).
 **Direction:** Long put
 **Thesis:** APO -41% = least damaged of PE managers despite greatest systemic risk:
@@ -44,7 +50,7 @@ Detail → `domain/sources/TARGETING_FRAMEWORK_MAR16.md`
 **Conviction:** 5/5
 **Sizing:** Current 1 contract. Consider adding 1 on the roll (2x Dec).
 **Vector Links:** Athene/Insurance (5/5), Software Marks (5/5), FLOW-BRK-016 (Insider→Forced Marks), FLOW-BRK-017 (Dual Legal Liability).
-**Hamilton:** Dec captures credit peak. If PIMCO's "multi-year" is right, may need to roll again to Jun/Dec 2027 at year-end.
+**Expiry logic:** Jun captures the April-May PC catalyst cluster (tenders, NDX default, class actions, earnings). Hamilton's Dec framework applies to macro/index trades (HYG, KRE), NOT single-name PC plays with imminent dateable catalysts.
 
 ### TRADE 1B — APO Put Apr — HARVEST
 **Instrument:** APO $100P Apr×1
@@ -100,8 +106,8 @@ Today (Mar 16) was a green day. Rolls are time-sensitive — FOMC tomorrow could
 | Priority | Position | Current | Action | Rationale |
 |----------|----------|---------|--------|-----------|
 | **1** | APO $100P Apr | +11.75% ($450) | **Harvest → redeploy into Dec** | Theta accelerating, 4 weeks left, catalysts are Apr-May+ |
-| **2** | APO $100P Jun | +7.6% ($830) | **Roll → Dec $100P or $95P** | Hamilton says Dec minimum. Jun too short. |
-| **3** | HYG $75P Jun ×8 | +46.7% ($360) | **Roll → Dec** | Credit peaks lag oil by 3-14mo. Jun too early. Largest contract count. |
+| **2** | APO $100P Jun | +7.6% ($830) | **Hold Jun or roll to Jul/Aug** | PC catalyst cluster is April-May. Jun captures it. Dec only if thesis extends. |
+| **3** | HYG $75P Jun ×8 | +46.7% ($360) | **Roll → Dec** | HYG = macro/credit spread trade. Hamilton applies here — Dec minimum. |
 | **4** | OWL $9.5P Apr | -7% ($95) | **Cut or let expire** | OWL -67% from peak. Most damage done. $95 remaining = not worth the theta. |
 
 **Total roll capital freed:** ~$1,735 (APO Apr $450 + APO Jun $830 + HYG $360 + OWL $95)
@@ -113,7 +119,7 @@ Today (Mar 16) was a green day. Rolls are time-sensitive — FOMC tomorrow could
 | Position | Entry | Current | P&L | Conv | Assessment |
 |----------|-------|---------|-----|------|-----------|
 | APO $100P Apr ×1 | — | $450 | +11.75% | 5 | HARVEST → Dec |
-| APO $100P Jun ×1 | — | $830 | +7.6% | 5 | ROLL → Dec |
+| APO $100P Jun ×1 | — | $830 | +7.6% | 5 | HOLD Jun — PC catalyst window |
 | OWL $9.5P Apr ×1 | — | $95 | -7% | 2 | CUT — most damage priced |
 | HYG $75P Jun ×8 | — | $360 | +46.7% | 4 | ROLL → Dec |
 
@@ -168,7 +174,7 @@ Today (Mar 16) was a green day. Rolls are time-sensitive — FOMC tomorrow could
 - HYG Dec: exit if HY OAS <260bps sustained
 
 ### Duration Risk (PIMCO Flag)
-Stracke says "structural, multi-year." Hamilton says peak damage Q1 2027. Dec 2026 captures credit peak but may not capture full equity repricing (7-11mo post oil peak). **Flag for year-end review:** consider rolling Dec 2026 → Jun/Dec 2027 LEAPs if thesis still intact.
+Stracke says "structural, multi-year." For macro/index trades (HYG), Hamilton framework applies — see BRENT (`domain/sources/HAMILTON_DEMAND_DESTRUCTION_FRAMEWORK.md`). Dec 2026 captures credit peak. **Flag for year-end review:** consider rolling HYG Dec → Jun/Dec 2027 LEAPs if thesis still intact. PC single-name puts (APO, ARES, ARCC) governed by their own catalyst windows, not Hamilton.
 
 ### Concentration Check
 BROCK-relevant positions after rolls: APO Dec (1-2 contracts) + ARCC (1-2 contracts, if entered) + HYG Dec (8 contracts) = majority put-heavy. Offset: AAPL long (100 shares, $25.3K, 45% of account). AAPL is unmonitored by any agent (RED flagged this).
