@@ -6,7 +6,8 @@
 
 ## 🔴 Costly Mistakes
 
-1. **Don't override conviction with probabilistic hedging.** Recommended closing CVNA put before earnings — stock dropped 20%. Implied moves are consensus, not ceilings. Don't talk Will out unless the THESIS is broken.
+1. **NEVER stop/restart the gateway.** Running `openclaw gateway stop` or `systemctl stop openclaw-gateway` kills communication with Will. On Mar 18, a prior session stopped the gateway TWICE — Will lost contact for ~1 hour. The gateway is infrastructure, not something agents should touch. If there's a gateway issue, tell Will and let him handle it.
+2. **Don't override conviction with probabilistic hedging.** Recommended closing CVNA put before earnings — stock dropped 20%. Implied moves are consensus, not ceilings. Don't talk Will out unless the THESIS is broken.
 2. **Mechanical before creative.** Rolls, trims, expiries BEFORE new research threads. (KRE roll got bumped by oil thesis → never executed.)
 3. **Deploy agents then wait.** If you spawn agents for a decision, wait for outputs. If urgent, don't deploy — just decide.
 4. **Puts on green days, calls on red days.** Default. Note when breaking and why.
