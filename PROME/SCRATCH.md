@@ -1,74 +1,76 @@
 # SCRATCH — Ephemeral Working Memory
 
-**Updated:** 2026-03-18 ~16:00 UTC (Wednesday)
+**Updated:** 2026-03-18 ~20:20 UTC (Wednesday)
 
 ---
 
 ## QUICKSTART
-Scenario C, War Day 17. Account $53,040 (+111%). **FOMC DECISION TODAY 2:00 PM ET. Powell presser 2:30 PM ET.**
-**HY OAS 328bps — RED threshold crossed.** ADP Pulse 9K/wk — below 10K alert.
-**TIC Jan data releasing TODAY** — Belgium $477.3B, watch $500B threshold.
-**BOJ Day 1 open** — decision + Ueda presser TOMORROW. USD/JPY 159.3, 0.7 from ¥160 intervention.
-**All 6 morning check-ins complete** — 5 RED, 1 ORANGE. Convergence 45/50 CRITICAL.
-**Post-FOMC synthesis proposed** — awaiting Will's approval.
-**Harness Phase 1 triage protocol** — still pending from Mar 17.
+Scenario C, War Day 19. Account ~$53K (+111%). **FOMC DONE — hold 3.50-3.75%, 1 cut (7-7 split with 0-cut camp). Powell: "If we don't see progress, you won't see the cut."**
+**HY OAS 328bps — RED threshold crossed.** VIX 24.40 (+9%). 10Y 4.259%.
+**TIC Jan data TOMORROW** (corrected from today). Belgium $500B watch.
+**BOJ decision + Ueda presser TOMORROW** — Yamaba delivered (Toyota full wage acceptance). Carry unwind 38% 7d.
+**PPI 0.7% MoM** (2x expected) — one-year high. Core PPI 3.9% YoY.
 
 ## SESSION WORK (Mar 18 Wednesday — FOMC Day)
-- **Morning check-ins (9:00-9:45 AM ET):** All 6 agents completed. 5 RED, 1 ORANGE.
-  - LABOR: ADP breached, claims suppressed, PI hearing today
-  - CARL: HY OAS 328 RED, subprime ATR, gas →$4, convergence 45/50
-  - MARCO: H-2A reversal, DHS Day 31, ag labor blind
-  - SAM: BOJ live, ¥160 line, 88% 30-day carry unwind
-  - ZHAO: TIC TODAY, Belgium $500B watch, lose/lose FOMC
-  - OTTO: Private credit gating cascade, CVNA discovery past due
-- **Heartbeat 12:00 PM ET:** HY OAS holding 327-328 RED. IWM ~250. Pre-FOMC coiling.
-- **Post-FOMC synthesis proposed** to Will — awaiting approve/reject.
+- **Morning check-ins (9:00-9:45 AM ET):** All 6 complete. 5 RED, 1 ORANGE.
+- **FOMC analysis:** Full SEP breakdown, dot plot distribution, risk balance charts. Thesis confirmed.
+- **Powell presser:** Hawkish conditional — cut depends on inflation progress that isn't coming.
+- **EOD agent scan:** 6/6 complete. HENRY/LIQUID/SAM all worse. REGINALD: FL foreclosures +35%, "can't sell house" ATH. BROCK: NDFI $1.54T.
+- **VIX compression-release pattern:** Explained to Will. 22.3 → 24.4 post-Powell.
 
 ## OPEN ITEMS (PRIORITY ORDER)
 
-### Immediate (next session)
-1. **FOMC decision analysis** — dots, SEP, Powell language. Cross-agent synthesis if approved.
-2. **TIC Jan data** — Belgium $500B check. Update ZHAO.
-3. **BOJ decision + Ueda presser (Thu Mar 19)** — Yamaba wage results needed.
-4. **Draft Phase 1 triage protocol document** — carried from Mar 17
-5. **NEXUS synthesis** of 9 agent OUTBOXes — still pending from Mar 17
+### Immediate (next session — Thu Mar 19)
+1. **TIC Jan data** — Belgium $500B check. Update ZHAO.
+2. **BOJ decision + Ueda presser** — dual compression scenario if hawkish
+3. **Claims** — 8:30 AM ET. Consensus ~215K. Watch continuing claims.
+4. **20Y auction** — demand test post-Powell
+5. **NEXUS synthesis** — still pending from Mar 17. Now with FOMC data.
+6. **Draft Phase 1 triage protocol** — carried from Mar 17
 
 ### This Week
-4. **TIC data Mar 18** — ZHAO watching Belgium ($477B, threshold $500B)
-5. **BOJ Thu Mar 19** — Ueda hawkish, carry unwind 35% 7d
-6. **HYG Jun→Dec roll** — on next green day
-7. **VLY $10P Mar 20** — let expire worthless
-8. **FL UI Wave 1 exhaustion Mar 24** — T-7
+7. **HYG Jun→Dec roll** — on next green day
+8. **VLY $10P Mar 20** — let expire worthless
+9. **FL UI Wave 1 exhaustion Mar 24** — T-6
+10. **Kuwait curtailment physical Mar 20** — T-2
 
 ### Research Queue
-9. BX deep dive (BROCK)
-10. WFC warehouse exposure ($59.7B)
-11. Russia sanctions modeling (RED)
-12. HANS Europe recon
+11. BX deep dive (BROCK)
+12. WFC warehouse exposure ($59.7B)
+13. Russia sanctions modeling (RED)
+14. HANS Europe recon
 
 ## CONFIRMED DATA BLOCK
 ```
-Account: $53,040 (+111.24%). Down $3,874 on day.
-AAPL: 80 shares, $20,338 (38.35% of portfolio)
-ARES: Jun $95P entered at $7.70
-APO: $107.55 (Mar 17 ~10:25 AM ET, relief rally)
-HY OAS: 328bps (Mar 13, RED threshold breached)
-ADP Pulse: 9,000/wk (BREACHED <10K)
-VIX: 27.19 (sustained >25)
+VIX: 24.40 (+9.08%) — Mar 18 close
+10Y: 4.259% (+5.7bps) — Mar 18 close
+Gold: $4,848 (-3.2%) — Mar 18
+BTC: $71,125 (-4.6%) — Mar 18
+PPI MoM: +0.7% (expected +0.3%) — Mar 18
+Core PPI YoY: 3.9% — Mar 18
+Fed Funds: 3.50-3.75% (hold, 11-1) — Mar 18
+Dot plot median: 3.4% (1 cut). 7 dots at 0 cuts, 7 at 1 cut.
+Core PCE projection: 2.7% (up from 2.5% Dec)
+PCE projection: 2.7% (up from 2.4% Dec)
+GDP projection: 2.4% (up from 2.3% Dec)
+UE projection: 4.4% (unchanged)
+Longer-run neutral: 3.1% (up from 3.0%)
+USD/JPY: ~159.0
+HY OAS: 328bps (Mar 13, RED)
+ADP Pulse: 9,000/wk
 Gas AAA: $3.79 ($4 breakpoint ~1-2 weeks)
-USD/JPY: 159.3-159.5 (intervention line ¥160)
-FOMC: Decision + presser Wed Mar 19 2:30 PM ET
-BOJ: Decision Thu Mar 19. Ueda hawkish.
-TIC Jan 2026: releases Mar 18
-Claims: Wed Mar 19
+BOJ: Decision + Ueda presser Thu Mar 19
+TIC Jan 2026: releases Thu Mar 19
+Claims: Thu Mar 19
+20Y auction: Thu Mar 19
 FL UI Wave 1: Mar 24
-Kuwait curtailment physical: Mar 20
+Kuwait curtailment: Mar 20
 OZK earnings: Apr 16
 APO class actions: May 1
 ```
 
 ## Handoff
-**Last context:** Wednesday Mar 18 ~16:00 UTC (12:00 PM ET). FOMC day. Morning check-ins complete (6/6). All agents aligned: Fed trapped, convergence critical. Post-FOMC synthesis proposed, awaiting approval.
-**Next session:** (1) FOMC decision + Powell presser analysis (2:00/2:30 PM ET). (2) TIC data — Belgium $500B. (3) BOJ tomorrow. (4) Phase 1 triage protocol. (5) NEXUS synthesis.
-**Rhythm:** Catalyst-dense. Execute mode. Everything fires in the next 24 hours.
-**Today's work:** 6 agent check-ins, 1 heartbeat market check, handoff prep.
+**Last context:** Wednesday Mar 18 ~20:20 UTC (4:20 PM ET). FOMC complete — thesis confirmed. All positions reinforced. VIX compression released (+9%). Stocks/bonds/gold/BTC all sold.
+**Next session:** (1) TIC data — Belgium $500B. (2) BOJ + Ueda. (3) Claims. (4) 20Y auction. (5) NEXUS synthesis with FOMC data.
+**Rhythm:** Tomorrow is the highest-density single day since the war started. Execute mode.
+**Today's work:** 6 AM check-ins, FOMC full analysis (SEP + dots + risk charts + presser), EOD scan, all saved.

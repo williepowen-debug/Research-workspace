@@ -1,7 +1,7 @@
 # BROCK STATUS — Private Credit / Alt Assets / PE / ILS
 
-**Last context:** Mar 17 16:30 UTC. Seven new signals processed. KEY REFRAME: total bank NDFI exposure is $1.54 TRILLION (FFIEC Q4 2025) — 5x the $300B PE-only estimate. Loss modeling rebuilt. MS 8% base / UBS 15% stress applied to full NDFI universe. OWL UK mortgage insolvency + "irregularities" language = new OWL stress event. MFIC (Apollo BDC) actively choosing buybacks over lending = real-time lending freeze. HY yield 6.95% approaching 7% threshold. PC data center reflexive loop named with OWL ($30B Meta), APO, BX as exposed lenders. Prior context: ARES deep dive COMPLETE. Five deep dives done: APO, ARCC, OWL, KKR, ARES.
-**Last updated:** 2026-03-17 16:30 UTC
+**Last context:** Mar 18 AM scan. Barclays calls BDC spreads +80bp to 260bp "justified" + "rarefied territory." Saba/Weinstein launching hostile tenders on OWL BDC stakes. OWL +4.45%, ARES +6.57% Mar 17 (dead cat bounce pre-FOMC). Markets down pre-FOMC on hot PPI. FOMC 2 PM ET today, Powell 2:30 PM. Prior: Seven new signals processed. KEY REFRAME: total bank NDFI exposure is $1.54 TRILLION (FFIEC Q4 2025) — 5x the $300B PE-only estimate. Loss modeling rebuilt. MS 8% base / UBS 15% stress applied to full NDFI universe. OWL UK mortgage insolvency + "irregularities" language = new OWL stress event. MFIC (Apollo BDC) actively choosing buybacks over lending = real-time lending freeze. HY yield 6.95% approaching 7% threshold. PC data center reflexive loop named with OWL ($30B Meta), APO, BX as exposed lenders. Prior context: ARES deep dive COMPLETE. Five deep dives done: APO, ARCC, OWL, KKR, ARES.
+**Last updated:** 2026-03-18 12:33 UTC
 
 ---
 
@@ -18,6 +18,8 @@
 | **BDC NAV Discount (Listed)** | **-17%** (Invesco/Bloomberg/Cliffwater, Mar 2). Perpetual BDC repurchases: ~5% Avg Net Assets Q4 2025 — RECORD, worse than 2022 non-recession and approaching COVID. COVID peak: -26%. | 🔴 | [CONF] Invesco Mar 17 |
 | **Whalen WGA NDFI Report** | "Banks quietly loaded up on PC risk. The cycle is now turning." 1920s "permanently high plateau" comparison. Institutional peer validation of thesis. | 🔴 | [CONF] WGA IRA Bank Book Q1 2026 Mar 12 |
 | **PC Data Center Reflexive Loop** | OWL $30B Meta deal (Hyperion campus). APO/BX/BLK/TPG named as DC lenders. AI disrupts SaaS → PC bleeds → PC can't finance AI infrastructure. Unvirtuous cycle. | 🔴 | [CONF] Axios/Primack Mar 17 |
+| **Barclays: BDC Spreads "Justified"** | BDC debt spreads +80bp to **260bp** YTD — "rarefied territory." Barclays says premiums are JUSTIFIED. Institutional validation of BDC stress. | 🔴 NEW | [CONF] Bloomberg/Barclays Mar 17 |
+| **Saba Hostile Tenders on OWL** | Weinstein/Saba + Cox Capital launching tender offers on Blue Owl BDC stakes. Vulture secondary market now active. | 🔴 NEW | [CONF] CNBC Mar 17 |
 | **HY Yield** | **6.95%** approaching 7.00% barrier. +55bp in ~2 weeks. Psychological threshold = institutional selling/downgrade cycle trigger. | 🔴 | [CONF] Bloomberg Mar 17 |
 
 **[NEW — Mar 17 signal batch above. Prior table continues below:]**

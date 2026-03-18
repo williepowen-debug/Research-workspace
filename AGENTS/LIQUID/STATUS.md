@@ -1,5 +1,26 @@
 # LIQUID STATUS
-**Last Updated:** 2026-03-17 17:31 UTC | **Agent:** LIQUID | **Status:** 🔴🔴 CRITICAL — BUYER OF LAST RESORT CONFIRMED
+**Last Updated:** 2026-03-18 17:31 UTC | **Agent:** LIQUID | **Status:** 🔴🔴 CRITICAL — FOMC DECISION DAY
+
+---
+
+## MARCH 18 AM SCAN — FOMC DECISION DAY
+
+**Yields (pre-open):**
+- 10Y: 4.189-4.206% (DOWN ~4bps from 4.23% yesterday)
+- 2Y: 3.665-3.682% (down ~2bps)
+- 30Y: 4.833-4.855% (down ~2bps)
+- 10Y TIPS: 1.87% | 10Y BEI: 2.37%
+- Curve: 10Y-2Y spread ~51bps (positive, steepening)
+
+**FOMC:** Decision 2:00 PM ET, presser 2:30 PM. Fed funds at 3.50-3.75%. CME 92%+ hold probability. Dot plot is the real event — 0-1 cuts projected for 2026 would cement higher-for-longer. This is the first decision incorporating Iran war + $100 oil + 15% tariffs.
+
+**SOFR/Repo:** SOFR was 3.65% as of Mar 12. No acute repo stress signals. Discount window usage elevated ($4.85B) but gradual.
+
+**TIC DATA CORRECTION:** TIC January 2026 flows release **March 19 (tomorrow)**, NOT today. Confirmed by multiple sources. This means the TIC + 20Y auction + BOJ decision all hit on the same day (Mar 19). Maximum density window.
+
+**Buyback context:** Treasury's two consecutive record buybacks ($14.7B + $15B) remain the dominant signal. The slight yield decline into FOMC may reflect positioning for dovish hold + recognition that Treasury is backstopping.
+
+**HY/Credit:** HY OAS was 317bps (Mar 12), 3bps below LIQ-01 320bps trigger. HY yield 6.95% near 7% threshold. Updated OAS data needed from FRED (Mar 13-17 prints). Credit spreads are the canary — if FOMC dot plot signals higher-for-longer AND TIC shows foreign selling tomorrow, OAS could gap above 320.
 
 ---
 
