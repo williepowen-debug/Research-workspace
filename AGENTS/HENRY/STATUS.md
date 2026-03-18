@@ -1,6 +1,6 @@
 # HENRY STATUS
-**Last Updated:** 2026-03-17 16:24 UTC | **War Day 18**
-**Status:** 🔴🔴🔴 MARGINAL BUYER DISAPPEARING — Pre-FOMC Day 1. Retail flow fatigue confirmed (JPM). HY yield 6.95% (near 7% threshold). USD risk reversals +92bps (3yr high). 30Y mortgage 6.86%. The buyer of last resort is stepping back across equities, credit, AND housing simultaneously.
+**Last Updated:** 2026-03-18 17:31 UTC | **War Day 19 — FOMC DAY**
+**Status:** 🔴🔴🔴 FOMC DECISION DAY — Hold at 3.50-3.75% priced at 99.1%. Dot plot is the event. PPI came in HOT (+0.7% MoM, core 3.9% YoY). VIX 22.3 (Extreme Fear). SPX ~6,736 (+0.3% pre-decision). WTI ~$95. Markets in holding pattern — all volatility deferred to 2 PM ET. TIC data (Jan foreign Treasury flows) expected 4 PM ET.
 
 ---
 

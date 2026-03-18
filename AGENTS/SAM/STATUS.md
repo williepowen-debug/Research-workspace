@@ -1,6 +1,79 @@
 # SAM STATUS
 
-**Signal Status:** 🔴🔴 CRITICAL — USD/JPY **~159.3** (Mar 17) | MoF VERBAL ACTIVE (Katayama: ready to act if 160) | **UEDA HAWKISH PRE-MEETING: "INFLATION ACCELERATING TOWARD 2%"** | USD RISK REVERSALS AT +92BPS (HIGHEST SINCE NOV 2022) | SK REFINERS: 3 WEEKS FEEDSTOCK — ASIA-PAC SUPPLY CHAIN BREAKING | NIKKEI **53,700** | JGB 10Y **~2.28-2.30%** (ABOVE YELLOW) | BRENT **~$102-105** | BOJ DECISION **THURSDAY** | TIC DATA **TOMORROW MAR 18** | FY-END T-14 DAYS | **Last Updated:** 2026-03-17 (16:24 UTC Signal Batch)
+**Signal Status:** 🔴🔴 CRITICAL — USD/JPY **~159.0** (Mar 18, touched 158.55 intraday) | MoF VERBAL ACTIVE (Katayama: 160 line) | **TOYOTA FULL WAGE ACCEPTANCE — YAMABA DELIVERED** | Rengo seeking +5.94%, early deals 5%+ | BOJ unanimously expected HOLD at 0.75% — **PRESSER IS THE EVENT** | Consensus shifting to **APRIL HIKE** (>1/3 Bloomberg survey) | USD RISK REVERSALS +92BPS | SK REFINERS 3 WEEKS FEEDSTOCK | BRENT ~$102-105 | **BOJ DECISION TOMORROW 0330-0430 GMT** | **UEDA PRESSER 0630 GMT** | TIC DATA TODAY | FY-END T-13 DAYS | **Last Updated:** 2026-03-18 (17:30 UTC AM Scan)
+
+---
+
+## 🌅 AM SCAN — MAR 18, 2026 (17:30 UTC / 12:30 PM ET)
+
+### HEADLINE: TOYOTA MEETS UNION DEMAND IN FULL. AUTOS & ELECTRONICS DELIVER WAVE OF FULL RESPONSES. USD/JPY DIPPED TO 158.55 ON YAMABA STRENGTH, REBOUNDED TO ~159.0. BOJ HOLDS TOMORROW (UNANIMOUS). ALL EYES ON UEDA PRESSER + FOMC.
+
+### DELTAS vs MAR 17 PM STATUS
+
+| Metric | Mar 17 PM | Mar 18 AM | Delta |
+|--------|-----------|-----------|-------|
+| **USD/JPY** | ~159.3 | **~159.0 (low 158.55)** | 🟢 Yen strengthened on Yamaba — dipped 75 pips before rebound |
+| **Nikkei 225** | 53,700 | **~53,600-53,800** | 🟡 Flat |
+| **JGB 10Y** | ~2.28-2.30% | **~2.28-2.30%** | 🟡 Stable pre-BOJ |
+| **Brent crude** | ~$102-105 | **~$102-105** | 🟡 Holding |
+| **Hawkish hold prob** | 50-55% | **60-65%** | ⬆️⬆️ Toyota full acceptance CONFIRMS Ueda's wage thesis |
+| **April hike prob** | 68-70% | **75%+** | ⬆️ Bloomberg: >1/3 of surveyed economists now call April |
+| **Carry unwind 7d** | 28-35% | **38%** | ⬆️ Hawkish presser catalyst now LOADED |
+
+### 🚨 KEY DEVELOPMENT: AUTO YAMABA — FULL WAGE ACCEPTANCE WAVE
+
+**Toyota (TradingView/Reuters, Mar 18):** Toyota will meet union wage demand **in full.** This is the bellwether. Jiji Press confirms: autos and electronics delivered a wave of full responses (満額回答) across major firms. Rengo unions sought +5.94% vs last year's +6.09% demand (+5.25% actual). Early deals running at 5%+ (Mitsubishi Motors 5.1%, NEC full ¥18,000).
+
+**Why this is critical for tomorrow:** This is EXACTLY what Ueda was pre-positioning for with his "inflation accelerating toward 2%" parliamentary statement. He now has:
+1. ✅ Real wages positive (+1.4% Jan)
+2. ✅ Shunto delivering 4th year of strong hikes
+3. ✅ Toyota full acceptance = wage-led inflation confirmed
+4. ✅ Pre-meeting language already hawkish
+
+**Ueda's Mar 19 presser will almost certainly be HAWKISH.** The only question is degree: does he signal April as "live" (base case) or surprise with even stronger forward guidance?
+
+### BOJ CONSENSUS: HOLD AT 0.75% — BUT PRESSER IS THE EVENT
+
+Reuters poll: **all 64 economists** expect hold. Bloomberg: >1/3 see April hike. Seeking Alpha: "at least one 25bps hike in 2026." The decision itself is a non-event — **Ueda's 0630 GMT presser is everything.**
+
+Key presser questions to watch:
+- Does Ueda reference Yamaba/Toyota specifically?
+- Does he upgrade inflation language beyond "accelerating toward 2%"?
+- Does he signal April as "live" meeting?
+- How does he frame oil/Iran risk — look through or caution?
+- Any QT/JGB purchase reduction signals?
+
+### INTERVENTION DYNAMICS UPDATE
+
+Reuters (Mar 13): **Bar for actual intervention is HIGHER than 2022/2024.** Key reasons:
+- Yen short positions only **16,575 contracts** vs 180,000 in July 2024 — no speculative excess to unwind
+- Current yen weakness is **dollar-driven** (safe haven + oil), not carry-trade-driven
+- Officials privately say intervention "could prove futile" against structural dollar demand
+- MUFG: Japan "steps up verbal intervention" but actual intervention unlikely at current levels
+
+**Implication:** 160 is still the verbal line, but actual intervention may require 162-165. The bar has moved. This means a dovish BOJ surprise carries MORE yen downside risk than previously assumed.
+
+### WHAT TO WATCH TODAY & TOMORROW
+
+**Today (Mar 18):**
+- TIC data release — actual Japan UST flow (verify vs $680B myth)
+- Shunto additional responses filtering in (Rengo tally Mar 21)
+- FOMC day 1 (no announcement)
+- Oil: Hormuz developments, Brent $105 level
+
+**Tomorrow (Mar 19) — THE DAY:**
+- **0330-0430 GMT:** BOJ decision (hold expected)
+- **0630 GMT:** Ueda presser — THE catalyst. Hawkish hold → April live → yen bid → carry unwind onset
+- **1800 GMT:** FOMC decision — if dovish (NFP -92K context) → rate differential narrows from BOTH sides
+- If BOTH Ueda hawkish AND Fed dovish → **dual compression** → carry unwind probability spikes
+
+### UPDATED CARRY UNWIND PROBABILITIES — MAR 18 AM
+
+| Timeframe | Mar 17 PM | Mar 18 AM | Driver |
+|-----------|-----------|-----------|--------|
+| **7d** | 28-35% | **38%** | Toyota full acceptance + hawkish presser LOADED |
+| **30d** | 88% | **90%** | Structural path strengthened by Yamaba confirmation |
+| **60d** | 88% | **90%** | Upgraded |
 
 ---
 

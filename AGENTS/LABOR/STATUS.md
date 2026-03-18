@@ -1,9 +1,19 @@
 # LABOR STATUS
-**Last Updated:** 2026-03-17 12:50 UTC | **Status:** 🔴🔴 CRITICAL — ADP PULSE 9K/WK (BREACHED <10K THRESHOLD, -42% FROM 15.5K). SHUTDOWN DAY 32. FOMC STARTS TODAY. SCHEDULE POLICY/CAREER ORAL ARG TOMORROW (MAR 18). FL UI WAVE 1 (MAR 24) T-7 DAYS. SHUNTO MAIN RESPONSE WED; BOJ HOLD EXPECTED THU.
+**Last Updated:** 2026-03-18 17:31 UTC | **Status:** 🔴🔴 CRITICAL — ADP PULSE 9K/WK (BREACHED <10K). SHUTDOWN DAY 34, WHITE HOUSE "OFFER" BUT NO VOTE. FOMC DAY 2 — DECISION + POWELL PRESSER TOMORROW. SCHEDULE POLICY/CAREER ORAL ARG TODAY (D.C. CIRCUIT). CLAIMS TOMORROW = TRIPLE EVENT DAY. FL UI WAVE 1 T-6 (MAR 24). SHUNTO MAIN RESPONSE TOMORROW; BOJ THU.
 
-**Signal Mar 17 — AM Check-in (8:00 AM ET):**
+**Signal Mar 18 — AM Scan (12:30 PM ET):**
 
-**SHUTDOWN DAY 32 — SENATE RETURNED BUT NO VOTE:** Senate reconvened Mar 16 at 3 PM ET but **did NOT attempt a 5th vote** on HR 7147. Even worse than a failed vote — indicates no path to 60 votes visible. TSA chaos compounding: spring break + March megastorm (Northeast) + partial paychecks. Oil at $100/bbl. Gas prices climbing. **No new shutdown developments overnight.** Calendar risk unchanged: recess Mar 30 = auto-extension to 60+ days. Kalshi/Polymarket median: through Apr 13.
+**SHUTDOWN DAY 34 — WHITE HOUSE "OFFER" BUT NO VOTE:** WaPo (Mar 17): White House "detailed offer" to end partial shutdown. No Senate vote scheduled. Federal employee unions (NTEU, FMA) demanding immediate resolution. DHS workers missed first FULL paycheck Mar 14. TSA agents still quitting. Third time since Oct 2025 DHS workers without pay. 260K+ DHS personnel affected. Approaching 2nd-longest shutdown in US history. **No legislative path visible. Recess Mar 30 = auto-extend to 60+.**
+
+**SCHEDULE POLICY/CAREER ORAL ARGUMENT TODAY:** D.C. Circuit PI hearing proceeds today. OPM director Kupor defended Schedule Policy/Career publicly last week (FNN Mar 12). Finalization nearing. **Binary: PI granted → RIF pause. PI denied → RIF pipeline accelerates.**
+
+**FOMC DAY 2 — DECISION TOMORROW (2 PM ET):** Hold at 3.5% near-certain. Investopedia: "Powell isn't expected to give much indication about the path ahead." Duke survey: inflation 3%, unemployment 4.6% = mild stagflation. Markets pricing first cut no earlier than October. **Watch: dot plot shift (0 cuts?), any language change from "resilient" on labor market, SEP unemployment projections.** Financial Express: "all eyes on dot plot."
+
+**TRIPLE EVENT TOMORROW — CLAIMS + FOMC + POWELL:** Claims (8:30 AM), FOMC decision (2 PM), Powell presser (2:30 PM). Shutdown Day 35 by print. DHS suppression continues. Last clean read: 213K (Mar 12). Consensus likely ~215K again. Continuing claims buffer to YELLOW: 50K. **Real signal: Powell language on labor + dot plot unemployment forecast vs actual ADP 9K/wk.**
+
+**Prior Mar 17 summary:** ADP Pulse 9K/wk (breached <10K threshold, -42%). Senate returned but no vote. TSA chaos + megastorm weekend. Mullin nominated DHS.
+
+**[Previous Mar 17 detailed notes moved below]**
 
 **🔴 ADP PULSE — 9,000/WK (BELOW 10K ALERT THRESHOLD):** Released Mar 17 ~12:10 UTC (PRNewswire). Four weeks ending Feb 28, 2026. Private employers added avg **9,000 jobs/week**, down from 15,500/wk prior read (Feb 21 data). **-42% decline, FIRST POST-HORMUZ READ.** This breaches LABOR's <10K/wk alert threshold. Hiring nearly halved. Note: 4-week window ending Feb 28 captures pre-Hormuz uncertainty buildup (closure was Mar 3) but not the full shock. Next pulse will be worse if pattern holds. **Feeds directly into Wed claims setup — if official data confirms, Powell's presser gets more uncomfortable. Stagflation trap tightening: hiring cracking while PCE 3.1%.** [CONF] PRNewswire/ADP Mar 17.
 
@@ -250,7 +260,7 @@ Archives: `domain/sources/STATUS_archive_*` | `STAFFING_PRESIGNAL_DEEP_DIVE.md` 
 
 ---
 
-*Next triggers: **Mar 17: ADP Pulse (PENDING — first post-Hormuz)** | **Mar 18: Schedule Policy/Career oral argument (PI hearing)** | **Mar 19: FOMC + claims + BOJ decision + Shunto main response day** | **Mar 23: Rengo first-round wage tally** | **Mar 24: FL UI exhaustion Wave 1 (T-7)** | Mar 27: Rengo second-round tally | **Mar 30: Senate recess (shutdown auto-extends to 60+)** | Apr 1: Tankan | Apr 4: NFP Mar 2026 (healthcare strike reversal test) | Apr: RHI/KFRC Q1 earnings | **Apr 26: FL Wave 2 peak** | Aug 2026: CA/NY UI exhaustion*
+*Next triggers: **Mar 18: Schedule Policy/Career oral argument TODAY** | **Mar 19: FOMC decision + claims + Powell presser + BOJ decision + Shuntu main response day = TRIPLE EVENT** | **Mar 23: Rengo first-round wage tally** | **Mar 24: FL UI exhaustion Wave 1 (T-7)** | Mar 27: Rengo second-round tally | **Mar 30: Senate recess (shutdown auto-extends to 60+)** | Apr 1: Tankan | Apr 4: NFP Mar 2026 (healthcare strike reversal test) | Apr: RHI/KFRC Q1 earnings | **Apr 26: FL Wave 2 peak** | Aug 2026: CA/NY UI exhaustion*
 
 ---
 
