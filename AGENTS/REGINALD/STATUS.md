@@ -1,5 +1,37 @@
 # REGINALD STATUS
-**Last Updated:** 2026-03-19 13:36 UTC | **Status:** 🔴🔴🔴 CRITICAL — HY OAS 328bps BREACHED RED (>320). CARL cross-agent flag: 350 threshold (issuance freeze) possible by EOW. CRE refi window SLAMMING SHUT. Florida foreclosures +35% YoY. Two distinct bank failure channels mapped.
+**Last Updated:** 2026-03-19 17:31 UTC | **Status:** 🔴🔴🔴 CRITICAL — HY OAS 328bps BREACHED RED (>320). CARL cross-agent flag: 350 threshold (issuance freeze) possible by EOW. CRE refi window SLAMMING SHUT. Florida foreclosures +35% YoY. Two distinct bank failure channels mapped. **NEW: Feb PPI +0.7% (vs +0.4% est) — hottest in 2+ years. Core PPI +0.5%. 10Y spiked 4.29%. Rate cut path DEMOLISHED post-hawkish FOMC hold.**
+
+---
+
+## 🚨 MAR 19 AM — PPI SHOCK + POST-FOMC + RAS LAFFAN ATTACK
+
+**Filed:** 2026-03-19 17:31 UTC | **Source:** BLS PPI, FOMC, web search
+
+### Feb PPI — Hottest in 2+ Years
+- Headline PPI: **+0.7% MoM** (est +0.4%) — sharpest monthly increase in over two years
+- Core PPI: **+0.5% MoM** — price pressures deeply embedded in services/supply chains
+- Key drivers: traveler accommodation +5.7%, wholesale trade margins for machinery +14.4%
+- 10Y yield spiked to **4.29%** — highest in months
+- **Assessment:** Combined with yesterday's hawkish FOMC hold (7/19 zero cuts 2026) and Brent $108+ (Ras Laffan attack), this is the THIRD simultaneous confirmation that rate cuts are impossible. NIM relief for regionals = dead for 2026. CRE refi math worsens in real time.
+
+### Post-FOMC + Ras Laffan Compound
+- FOMC held hawkish — no Fed put, no acknowledgment of credit stress
+- Ras Laffan (Qatar LNG) attacked post-FOMC — Brent pushed past $108
+- StockMarketWatch midday: "perfect storm of geopolitical instability and recalibrated rate outlook"
+- FinancialContent (Mar 18): CRE firms facing "$900B maturity wall" — "refinance or default ultimatum." NYCB flagged alongside VNO, BXP.
+- Commercial Observer survey (369 senior leaders): "weak to moderate growth, continued pressure from interest rates, construction costs, and tariffs"
+
+### What This Means for Bank Watchlist Today
+- **OZK/WAL/ZION:** All under maximum pressure. No rate relief. Rising input costs. Credit markets seizing (HY OAS 328→350 trajectory). Apr 16 OZK earnings now a potential detonation event in a much worse macro backdrop than even last week.
+- **KRE:** Watch for breach of $60 support today. If PPI + FOMC + oil triple-hit drives KRE below $60, that's a new multi-year low and institutional capitulation signal.
+- **HY OAS trajectory:** PPI shock + post-FOMC risk-off should push OAS wider today. If 340+ prints, CARL's 350 EOW target becomes near-certain.
+
+### Today's Watch
+1. **HY OAS intraday** — does 340 breach today on PPI + FOMC + oil triple?
+2. **KRE/WAL/OZK price action** — gap down expected; watch for $60 KRE support
+3. **Any bank analyst downgrades** triggered by FOMC/PPI combination
+4. **10Y trajectory** — 4.29% and rising = CRE refi math deteriorating in real time
+5. **Oil follow-through** — Ras Laffan escalation durability
 
 ---
 

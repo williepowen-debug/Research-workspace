@@ -1,90 +1,120 @@
 # SCRATCH — Ephemeral Working Memory
 
-**Updated:** 2026-03-19 ~14:00 UTC (Thursday)
+**Updated:** 2026-03-19 ~22:00 UTC (Thursday)
 
 ---
 
 ## QUICKSTART
 Scenario C EXECUTION. War Day 20. Account ~$53K (+111%).
-**🔴 GULF ENERGY WAR ACTIVE** — Ras Laffan burning, Aramco evacuating, IRGC targeting ALL GCC. Brent $108+. Diesel >$5. Gas $3.79 → $4 in DAYS.
-**FOMC DONE ✅** — hold, 7/19 zero cuts, Powell warned energy→inflation. PPI +0.7% (2x exp). **Fed trapped CONFIRMED.**
-**BOJ DONE ✅** — hold 0.75%, Takata hawkish dissent. Carry unwind deferred (7d: 40%, 30d: 88%). April hike window live.
-**Claims 205K** (fell, DHS suppressed Day 35). **New home sales 587K vs 722K (-18.7%)** — demand destruction in hard data.
-**HY OAS 328bps RED** — if today's close 340+, 350 (issuance freeze) by EOW. REGINALD flagged. THIS IS #1 PRIORITY.
-**ZHAO re-spawn pending** on Opus 4.6 — Gulf→UST demand hole analysis. Check subagents.
+**🔴 GULF ENERGY WAR ACTIVE** — Ras Laffan 3-5 YR REPAIR (permanent capacity destruction). Iran targeting Yanbu (Saudi's ONLY remaining export route). Kuwait refineries burning. Brent $107+.
+**HY OAS: 320bps** (Mar 18 close, FRED confirmed). Pulled back from 328 peak. Still RED but NOT escalating toward 340. Monitor, not emergency.
+**Fed trapped CONFIRMED.** BOJ hold, Takata dissent. Claims 205K. New home sales -18.7%.
+**China halted fertilizer exports** (Bloomberg Mar 16). No swing producer = CF structural bull case for years.
+**S&P testing 6,600** and 200-day MA. Third consecutive down day. NOT a green day — no rolls.
 
-## SESSION WORK (Mar 19 Thursday — Triple Event Day)
-- **Overnight:** BOJ monitored through late-night skip. Takata dissent = hawkish signal.
-- **Morning check-ins:** LABOR, CARL, MARCO, REGINALD, OTTO, SAM all complete. ZHAO timed out → re-spawned Opus.
-- **Agent proposals routed to Will:** HY OAS→REGINALD flag, Gulf remittance corridor, Mullin capture. ALL APPROVED. Process fix: proposals now standard routing.
-- **Priority stack built with Will** (1-10 ranking) — saved in memory/2026-03-19.md
-- **New home sales 587K** (-18.7% miss) — demand destruction in hard data. Weakens "resilient" narrative.
-- **Claims 205K** — fell. Counter-signal to thesis timing but DHS suppressed.
+## SESSION WORK (Mar 19 Thursday — PM Session ~16:00-22:00 UTC)
 
-## OPEN ITEMS (PRIORITY ORDER)
+### HY OAS Update (MAJOR)
+- Pulled FRED actuals: 328 was the PEAK (Mar 13). Since then: 327→322→**320** (Mar 18)
+- Trending DOWN, not toward 340. EMERGENCY scenario deferred.
+- Still RED (≥320) but not accelerating. One bad day can reverse.
+- MarketMinute article claiming "470bps" is unreliable — FRED says 320.
+
+### New Facility Attacks (Mar 18-19)
+- Kuwait: Mina al-Ahmadi (466K bpd) + Mina Abdullah (270K bpd) refineries hit by drones
+- Saudi: SAMREF refinery at Yanbu hit by drone. Yanbu terminal had ballistic missile intercepted.
+- **YANBU IS THE SINGLE MOST CRITICAL CHOKEPOINT** — Saudi's only export outlet with Hormuz closed. If it goes offline, Saudi exports → near zero.
+- Ras Laffan second attack: 5 missiles, 1 struck. QatarEnergy CEO: **3-5 YEARS to repair.** Permanent capacity destruction.
+- South Pars + Asaluyeh (Iran) struck by Israel. Habshan (UAE) shut from debris.
+- HAWK + BRENT STATUS files updated. Canonical tracker: `HAWK/domain/OIL_FACILITY_DAMAGE_TRACKER.md`
+
+### Qatar LNG = Thesis Hardener
+- 77 mtpa offline for 3-5 years = multi-year market restructuring
+- TSMC inflation channel doesn't close (Taiwan paying 2x for LNG permanently)
+- Fed trapped for LONGER — structural energy inflation, not transitory
+- CF long is the most direct beneficiary (domestic gas feedstock, competitors shut out)
+- China confirmed fertilizer export halt (Bloomberg Mar 16) — no swing producer relief
+- CF Jun $115C at +129% — may need longer-dated exposure for multi-year story
+
+### Tourism/Oil Shock Research (NEW WORKSTREAM)
+Built a 5-part research program on fuel→tourism transmission:
+
+**Completed:**
+1. ✅ HAWK — Oil Facility Damage Tracker (living document, 20 facilities, 7 countries)
+2. ✅ CARL — Tourism/Fuel Transmission initial analysis
+3. ✅ BRENT — 1973 Arab Oil Embargo tourism impact (sequencing + lags)
+4. ✅ BRENT — 1990 Gulf War tourism impact (two-channel model: fuel + fear)
+5. ✅ CARL — 2008 Oil→Tourism month-by-month sequencing
+6. ✅ CARL — Cruise Industry Exposure analysis
+
+**Still queued:**
+7. ⏳ LABOR — Theme parks + conventions as claims leading indicator (#5 prompt)
+
+**Key synthesis across all three analogs:**
+- Oil shock → claims spike = ALWAYS 3-6 month lag
+- Feb 28 conflict start → hospitality claims spike = **June-August 2026**
+- This lands on top of FL Wave 1 UI exhaustion + Hamilton demand destruction ramp
+- Three forces compound simultaneously
+- Critical difference from all analogs: NO FED CIRCUIT BREAKER (can't cut into structural energy inflation)
+- Carnival (CCL) = canary. Unhedged, $24B debt, -25-30% since Feb 28. Norwegian even more fragile.
+
+### Agent Decomposition Brainstorm
+- Meadows framework (Thinking in Systems): self-contained small units, built bottom-up
+- Dense-Within, Sparse-Between test for agent boundaries
+- FERT/GRAIN agent likely warranted — own data, own calendar, cross-agent dependency
+- Tourism stays inside CARL for now
+- BRENT may be overloaded (oil + LNG + fertilizer = three markets)
+- Full discussion saved — revisit tonight or next session
+
+### Priority Stack Revision
+HY OAS cooling (328→320) shifts priorities. Gulf escalation + facility damage is the real driver now. Reprioritization discussion started but not formalized — Will had other threads to pull.
+
+## OPEN ITEMS (PRIORITY ORDER — REVISED)
 
 ### Immediate (next session)
-1. **HY OAS close today** — if 340+ escalate to EMERGENCY. 350 = issuance freeze. #1 PRIORITY.
-2. **ZHAO re-spawn result** — Gulf→UST demand hole with Ras Laffan destroyed. Check subagents on boot.
-3. **Belgium TIC confirmation** — full Treasury PDF needed. ZHA-03 $500B check.
-4. **Kuwait curtailment physical Mar 20** — TOMORROW
-5. **NEXUS synthesis** — still pending from Mar 17. Now with FOMC + BOJ + claims data.
-6. **Schedule Policy/Career ruling** — binary, no timeline. Keep checking.
+1. **HY OAS close Mar 19** — pull from FRED when available. If reversal back above 325, flag.
+2. **Kuwait curtailment physical Mar 20** — TOMORROW
+3. **Yanbu vulnerability** — monitor for further attacks. If Yanbu goes offline = EMERGENCY.
+4. **LABOR prompt #5** — theme parks/conventions as claims leading indicator. Ready to fire.
+5. **NEXUS synthesis** — overdue from Mar 17. Now with FOMC + BOJ + tourism research.
+6. **Agent decomposition** — brainstorm session with Will tonight/next session
 
 ### This Week
-7. **HYG Jun→Dec roll** — on next green day
-8. **FL UI Wave 1 exhaustion Mar 24** — T-5. Locked in.
+7. **FL UI Wave 1 exhaustion Mar 24** — T-5. Locked in.
+8. **HYG Jun→Dec roll** — on next green day (none this week so far)
 9. **Rengo shunto wage tally Mar 23** — SAM/BOJ input
-10. **VLY $10P Mar 20** — let expire worthless
+10. **CF positioning** — evaluate rolling Jun $115C to longer date or adding equity
 
 ### Research Queue
-11. BX deep dive (BROCK)
-12. WFC warehouse exposure ($59.7B)
-13. Russia sanctions modeling (RED)
-14. HANS Europe recon
-15. Draft Phase 1 triage protocol — carried from Mar 17
+11. Belgium TIC confirmation — ZHA-03 $500B check
+12. BX deep dive (BROCK)
+13. WFC warehouse exposure ($59.7B)
+14. Schedule Policy/Career ruling — binary, no timeline
+15. HANS Europe recon
 
 ## CONFIRMED DATA BLOCK
 ```
+HY OAS: 320bps (Mar 18 close, FRED CONFIRMED) — pulled back from 328 peak
+  Path: 306→309→317→328→327→322→320 (Mar 10-18)
+S&P: ~6,565 intraday Mar 19 (testing 200-day MA, -0.9%)
 Claims: 205K (↓8K) — Mar 19
-New Home Sales: 587K vs 722K exp (-18.7%) — Feb 2026 (released Mar 19)
+New Home Sales: 587K vs 722K exp (-18.7%) — Feb 2026
 BOJ: Hold 0.75%, 8-1 (Takata dissent for 1.0%) — Mar 19
-SAM carry unwind: 7d 40% (↓from 65%), 30d 88%, 60d 90%
-China TIC Jan: $694.4B (+$10.9B from Dec)
-VIX: 25.09 (+12%) — Mar 18 close
-10Y: 4.259% (+5.7bps) — Mar 18 close
-S&P: 6,624.70 (-1.36%) — Mar 18 close (2026 low)
-Dow: 46,225.15 (-1.63%, broke 200-day MA) — Mar 18 close
-R2K: 2,478.64 (-1.6%) — Mar 18 close
-Gold: $4,848 (-3.2%) — Mar 18
-BTC: $71,125 (-4.6%) — Mar 18
-PPI MoM: +0.7% (expected +0.3%) — Mar 18
-Core PPI YoY: 3.9% — Mar 18
-Fed Funds: 3.50-3.75% (hold, 11-1) — Mar 18
-Dot plot median: 3.4% (1 cut). 7 dots at 0 cuts, 7 at 1 cut.
-Core PCE projection: 2.7% (up from 2.5% Dec)
-PCE projection: 2.7% (up from 2.4% Dec)
-GDP projection: 2.4% (up from 2.3% Dec)
-UE projection: 4.4% (unchanged)
-Longer-run neutral: 3.1% (up from 3.0%)
-USD/JPY: ~159.0
-HY OAS: 328bps (Mar 13, RED)
-ADP Pulse: 9,000/wk
-Gas AAA: $3.79 ($4 breakpoint ~1-2 weeks)
-BOJ: Decision + Ueda presser Thu Mar 19
-TIC Jan 2026: releases Thu Mar 19
-Claims: Thu Mar 19
-20Y auction: Thu Mar 19
+FOMC: Hold 3.50-3.75%, 7/19 zero cuts — Mar 18
+PPI MoM: +0.7% (2x exp) — Mar 18
+Brent: $107 — Mar 18
+China fertilizer export halt — confirmed Bloomberg Mar 16
+Urea prices: +40% since conflict
+Qatar LNG: 3-5 year repair timeline (QatarEnergy CEO)
+Gas AAA: $3.79 ($4 breakpoint imminent)
+Kuwait curtailment: physical Mar 20
 FL UI Wave 1: Mar 24
-Kuwait curtailment: Mar 20
 OZK earnings: Apr 16
-APO class actions: May 1
 ```
 
 ## Handoff
-**Last context:** Thursday Mar 19 ~14:00 UTC (10 AM ET). Triple event day mostly resolved. FOMC/BOJ/claims/new home sales all processed. All agents checked in. Priority stack built with Will.
-**Next tide:** (1) HY OAS close — #1 single data point. (2) ZHAO result pending (Opus). (3) Kuwait curtailment Mar 20. (4) FL Wave 1 Mar 24. (5) NEXUS synthesis overdue.
-**Open questions:** Schedule Policy/Career ruling (binary, no timeline). Belgium TIC. HY OAS trajectory.
-**Positions:** No changes. Rolls waiting for green days.
-**Rhythm:** Will engaged, processing fast. Likes priority stack format. Approved agent proposal routing as standard. Wants proactive flagging. Session likely continues through market close — watch HY OAS.
-**Today's work:** BOJ overnight monitoring, 7 agent check-ins, priority stack, new home sales triage, process fix (proposal routing), full file updates + handoff.
+**Last context:** Thursday Mar 19 ~22:00 UTC (6 PM ET). Afternoon/evening session with Will. Major work: HY OAS correction (320 not 340), facility damage updates, tourism research workstream (6 of 7 pieces complete), Qatar LNG structural implications, CF bull case, agent decomposition brainstorm.
+**Next tide:** (1) HY OAS Mar 19 close from FRED. (2) Kuwait physical curtailment Mar 20. (3) Yanbu attack monitoring. (4) Fire LABOR prompt #5. (5) Agent decomposition with Will tonight.
+**Open questions:** CF positioning (roll Jun or add equity?). Agent boundary redesign (FERT agent?). Priority stack needs formal revision.
+**Positions:** No changes. No green days for rolls this week so far.
+**Rhythm:** Will engaged in strategic mode — connecting Meadows systems thinking to agent architecture. Interested in granular agents. Tourism research producing real insights on lag structure. Good session.

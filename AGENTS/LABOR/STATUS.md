@@ -1,5 +1,17 @@
 # LABOR STATUS
-**Last Updated:** 2026-03-18 17:31 UTC | **Status:** 🔴🔴 CRITICAL — ADP PULSE 9K/WK (BREACHED <10K). SHUTDOWN DAY 34, WHITE HOUSE "OFFER" BUT NO VOTE. FOMC DAY 2 — DECISION + POWELL PRESSER TOMORROW. SCHEDULE POLICY/CAREER ORAL ARG TODAY (D.C. CIRCUIT). CLAIMS TOMORROW = TRIPLE EVENT DAY. FL UI WAVE 1 T-6 (MAR 24). SHUNTO MAIN RESPONSE TOMORROW; BOJ THU.
+**Last Updated:** 2026-03-19 17:31 UTC | **Status:** 🔴🔴 CRITICAL — CLAIMS 205K (BEAT, BUT DHS-SUPPRESSED). POWELL: "ZERO EMPLOYMENT GROWTH EQUILIBRIUM" + "DOWNSIDE RISK." FED HELD, 1 CUT DOT PLOT. SHUTDOWN DAY 35, NO SENATE VOTE TODAY. SCHEDULE POLICY/CAREER RULING PENDING (ORAL ARG WAS MAR 18). ADP PULSE 9K/WK. FL UI WAVE 1 T-5 (MAR 24). SENATE RECESS MAR 30 = 60+ DAY SHUTDOWN.
+
+**Signal Mar 19 — AM Scan (1:31 PM ET):**
+
+**CLAIMS 205K — SUPPRESSED BEAT:** Initial claims dropped 8K to 205K (vs 215K consensus). Continuing claims 1.857M (+10K). Reuters/consensus: "stable labor market." **BUT: DHS suppression active (260K+ workers can't file, shutdown Day 35). New seasonal factors introduced for 2026 — revised 2021-2025, smoothed Sep/Dec 2025 spikes. Adjusted real estimate: ~215-220K (adding 2-5% DHS filer suppression of 5-13K).** Combined with ADP Pulse at 9K/wk (-42%), the official claims number is masking deterioration. Continuing claims buffer to YELLOW: 43K (1,857K vs 1,900K threshold). Tightening.
+
+**POWELL LANGUAGE SHIFT — "ZERO EMPLOYMENT GROWTH EQUILIBRIUM":** Fed held at 3.50-3.75%. Dot plot: ONE cut this year (down from two). Higher inflation projections, steady unemployment. **Powell explicitly said labor market is in "zero employment growth equilibrium" with "downside risk" and "not a really comfortable balance."** This is the first material dovish-on-labor language shift from Powell. Pantheon: "elevated uncertainty, tightening financial conditions, and high borrowing costs will continue to weigh on hiring." Fed trapped: acknowledging labor risk but can't cut (inflation projections up).
+
+**SHUTDOWN DAY 35 — NO VOTE TODAY:** Senate vote today unlikely per NJ.com/multiple sources. TSA staffing crisis at airports. White House "offered" to compromise (Mar 17) but no deal. Approaching 2nd-longest shutdown in history. **Senate recess Mar 30 = automatic extension to 60+ days.** DHS workers missed 2nd full paycheck Mar 14.
+
+**SCHEDULE POLICY/CAREER — RULING PENDING:** Oral argument was Mar 18 (D.C. Circuit). No ruling found overnight. **Still binary: PI granted → RIF pause. PI denied → acceleration.** Could come any day.
+
+**Prior Mar 18 summary:**
 
 **Signal Mar 18 — AM Scan (12:30 PM ET):**
 
@@ -88,8 +100,8 @@
 | **ADP NER Weekly Pulse** | **9,000/wk (Feb 28) 🔴 BREACHED** | 🔴 | [CONF] ADP/PRNewswire Mar 17. Down from 15,500/wk (-42%). First post-Hormuz read. <10K threshold breached. |
 | **ISM Mfg/Svc Feb** | **52.4 / 56.1** | 🟡 | [CONF] Mfg employment 48.8 (contraction). Services strong counter-signal. |
 | **Schedule Policy/Career** | **LIVE Mar 6, oral arg Mar 18** | 🔴 | [CONF] No injunction. PI hearing tomorrow. |
-| **Initial Claims** | **213K** | 🟢 | [CONF] BLS Mar 12 (FIRST CLEAN READ). Down 1K WoW, beat 215K exp. Range: 199-232K YTD. Well below 235K tripwire. No vector upgrade. |
-| **Continuing Claims** | **1.850M** | 🟢 | [CONF] BLS Mar 12 (FIRST CLEAN READ). DOWN from 1.868M. Buffer to YELLOW (1,900K) = 50K. No threshold breach. |
+| **Initial Claims** | **205K** | 🟢⚠️ | [CONF] BLS Mar 19. Down 8K WoW, beat 215K exp. BUT: DHS-suppressed (260K workers can't file). New seasonal factors. Real estimate ~215-220K. |
+| **Continuing Claims** | **1.857M** | 🟠 | [CONF] BLS Mar 19. Up 10K. Buffer to YELLOW (1,900K) = 43K. TIGHTENING. |
 | **U-3 Unemployment** | **4.4%** ↑ | 🔴 | [CONF] BLS Mar 6. Up from 4.3%. +0.4pp YoY. LAB-02 path active (4.7% trigger). |
 | U-6 Underemployment | 8.4% | 🟠 | [CONF] BLS Feb 7. +0.8pp YoY. Feb update pending. |
 | **Long-term Unemployed** | **1.9M** ↑ | 🔴 | [CONF] BLS Mar 6. +400K YoY. Up from 1.8M. Accelerating. |
@@ -111,7 +123,7 @@
 | **Continuing Claims (threshold)** | **1,868K** | 🟠 | [CONF] BLS Mar 5 (DHS suppression). 32K from YELLOW (1,900K). First clean read tomorrow — risk of gap-through. |
 | Cass Freight Jan 2026 | Cycle low (Feb report pending) | 🟠 | [CONF] Cass Jan 2026 published. Feb 2026 report NOT YET PUBLISHED (checked Mar 15). |
 | **DHS Paycheck Miss** | **SECOND CONSECUTIVE** | 🔴 | [CONF] NPR/CNN/Daily Mail Mar 13-14. First FULL paycheck missed weekend Mar 13-14. "Hundreds quitting." Airport chaos confirmed. Cumulative spending shock ~$300-400M. Cross: CARL urgent. |
-| **Shutdown Duration** | **Day 31 (Mar 16)** | 🔴🔴 | [CONF] Senate returned, FAILED again (4th block). Recess Mar 30-Apr 10 = 60+ days if no deal this month. Kalshi median: through Apr 13. 2nd-longest shutdown in history approaching. Mar 19 claims STILL suppressed. |
+| **Shutdown Duration** | **Day 35 (Mar 19)** | 🔴🔴 | [CONF] Senate returned, FAILED again (4th block). Recess Mar 30-Apr 10 = 60+ days if no deal this month. Kalshi median: through Apr 13. 2nd-longest shutdown in history approaching. Mar 19 claims STILL suppressed. |
 | **JOLTS Quits Rate** | **2.0% (7 consecutive months)** | 🔴 | [CONF] BLS/Indeed Hiring Lab Mar 13. Quits 3.1M flat. Govt/financial/mfg below 1.5%. Hotel California structurally confirmed. |
 | **FL UI Wave 1 Block** | **NO BLOCK** | 🔴 | [CONF] Mar 15 research. HB 191 TIGHTENS UI (not extends). Wave 1 exhaustion Mar 24 = LOCKED IN. |
 | **Schedule Policy/Career Injunction** | **NO INJUNCTION** | 🔴 | [CONF] Mar 15 research. Oral arg on PI scheduled Mar 18. RIF cascade proceeding unblocked. |
@@ -260,7 +272,7 @@ Archives: `domain/sources/STATUS_archive_*` | `STAFFING_PRESIGNAL_DEEP_DIVE.md` 
 
 ---
 
-*Next triggers: **Mar 18: Schedule Policy/Career oral argument TODAY** | **Mar 19: FOMC decision + claims + Powell presser + BOJ decision + Shuntu main response day = TRIPLE EVENT** | **Mar 23: Rengo first-round wage tally** | **Mar 24: FL UI exhaustion Wave 1 (T-7)** | Mar 27: Rengo second-round tally | **Mar 30: Senate recess (shutdown auto-extends to 60+)** | Apr 1: Tankan | Apr 4: NFP Mar 2026 (healthcare strike reversal test) | Apr: RHI/KFRC Q1 earnings | **Apr 26: FL Wave 2 peak** | Aug 2026: CA/NY UI exhaustion*
+*Next triggers: **Mar 19: Schedule Policy/Career ruling PENDING (could drop any day)** | **FOMC held, 1 cut dot plot, Powell "zero growth equilibrium"** | **Mar 23: Rengo first-round wage tally** | **Mar 24: FL UI exhaustion Wave 1 (T-7)** | Mar 27: Rengo second-round tally | **Mar 30: Senate recess (shutdown auto-extends to 60+)** | Apr 1: Tankan | Apr 4: NFP Mar 2026 (healthcare strike reversal test) | Apr: RHI/KFRC Q1 earnings | **Apr 26: FL Wave 2 peak** | Aug 2026: CA/NY UI exhaustion*
 
 ---
 

@@ -1,5 +1,25 @@
 # LIQUID STATUS
-**Last Updated:** 2026-03-19 00:07 UTC | **Agent:** LIQUID | **Status:** 🔴🔴🔴 MAXIMUM STRESS — GULF INFRASTRUCTURE WAR + FOMC HAWKISH + 20Y AUCTION PRE-DAWN
+**Last Updated:** 2026-03-19 17:32 UTC | **Agent:** LIQUID | **Status:** 🔴🔴🔴 MAXIMUM STRESS — 20Y AUCTION DAY + TIC RELEASE + POST-FOMC HAWKISH + BRENT $108+
+
+---
+
+## MARCH 19 AM SCAN — MARKET OPEN
+
+**10Y yield:** 4.277% at 1:30 PM EDT (+2bps from 4.257% close). **Day high: 4.328%** (+7.1bps intraday peak). Overnight session tested higher — bear steepening continues post-FOMC hawkish hold. The intraday 4.328% print is the highest since the Mar 12 auction selloff. Selling pressure accelerated overnight into Asia session — consistent with Gulf/Japan forced selling thesis.
+
+**Funding/SOFR:** SOFR last confirmed 3.65% (Mar 12). No confirmed repo anomaly but data lags T+1. With RRP at $0.278B and 20Y auction today, any SOFR print above 3.75% on tomorrow's release = plumbing stress confirmation. Discount window usage was $4.85B and trending up.
+
+**20Y auction today:** $13B. This is the critical stress test. BTC target: <2.0x probable given (a) no Fed put confirmed yesterday, (b) Brent $108+, (c) QIA now potential forced UST seller, (d) Gulf petrodollar plumbing physically disrupted (DIFC evacuations), (e) Japan life insurers still reducing UST exposure. **If BTC <1.9x or tail >5bps = market dislocation signal.** Settlement March 31 = quarter-end with zero RRP buffer.
+
+**TIC January 2026:** Releasing today. Belgium $500B watch. Pre-war baseline. If foreign selling >$50B in Jan (BEFORE war) = structural demand hole confirmed, not cyclical. Treasury's two consecutive record buybacks ($14.7B + $15B) may have been front-running this data.
+
+**Key watch items today:**
+1. 20Y auction results (BTC, tail, indirect bid %)
+2. TIC January data (Belgium, Japan, China, Gulf)
+3. Initial claims
+4. SOFR tomorrow AM (Mar 18 print) — any spike = plumbing stress
+5. Brent trajectory — $110 = new regime threshold
+6. Kuwait tank tops Mar 20 — physical curtailment imminent
 
 ---
 

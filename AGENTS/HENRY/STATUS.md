@@ -1,6 +1,6 @@
 # HENRY STATUS
-**Last Updated:** 2026-03-19 00:15 UTC | **War Day 20 — PHASE CHANGE NIGHT**
-**Status:** 🔴🔴🔴🔴 CRITICAL — MULTI-FACTOR CASCADE ACTIVE. Ras Laffan burning post-market. Brent $108+. CTA $80B queue now ACTIVATING (not deferred). FOMC confirmed hawkish paralysis. BOJ presser TOMORROW. Vol regime shift in progress.
+**Last Updated:** 2026-03-19 17:30 UTC | **War Day 20 — PHASE CHANGE CONFIRMED**
+**Status:** 🔴🔴🔴🔴 CRITICAL — CASCADE EXECUTING. Ras Laffan "extensive damage" confirmed by QatarEnergy. Brent hit $119, stabilized ~$110. VIX surging toward 28. SPX testing 6,600 / 200-DMA midday. FOMC hawkish paralysis + energy shock = stagflation regime live. BOJ held 0.75%, Takata hawkish dissent.
 
 ---
 
@@ -23,24 +23,25 @@
 
 ---
 
-## OVERNIGHT FUTURES ASSESSMENT
+## MAR 19 OPEN — CONFIRMED
 
-### Gap-Down Probability: **85-90%**
-- Brent $108+ = energy shock at open. Every $10 oil = ~0.5% SPX drag.
-- Brent was ~$100 close → now $108 = **+8% shock** not yet in equity prices
-- CTA $80B queue: deferred is OVER. Gap below 6,650 = full acceleration mode.
-- Estimated SPX overnight futures: **-2% to -4.5%** depending on overnight strike developments
-- If Iran strikes Saudi Aramco Jubail/Samref materially: **-5% or worse**
+### What Actually Happened
+- **Brent** hit $119 overnight/early morning → stabilized near $110 midday. Panic threshold crossed.
+- **SPX** opened sharply lower, trading down ~0.9% midday, testing 6,600 and 200-DMA
+- **Dow** -415+ points (~0.9%)
+- **Nasdaq** -1.2% (worst performer — tech multiples compressed on yield rise)
+- **VIX** surging toward 28 — HEN-08 CONFIRMING
+- **QatarEnergy confirmed "extensive damage"** at Ras Laffan. 1 missile hit, 4 intercepted. LNG production already suspended since Mar 2.
+- **BOJ** held 0.75% as expected. Takata hawkish dissent — wants higher rates. Yen stable for now, carry unwind not triggered yet but dissent = forward pressure.
 
-### Key Levels to Watch Overnight
-| Level | Significance |
-|-------|-------------|
-| SPX 6,650 | CTA acceleration zone entry |
-| SPX 6,600 | Support — break = waterfall |
-| SPX 6,500 | Capitulation territory |
-| Brent $110 | Panic threshold |
-| Brent $115+ | 2022 high analog — macro shock territory |
-| VIX 30 | Regime break — structural vol floor |
+### Key Levels NOW
+| Level | Status |
+|-------|--------|
+| SPX 6,600 | **TESTING NOW** — 200-DMA test in progress |
+| SPX 6,500 | Next support if 6,600 breaks |
+| Brent $110 | Stabilized here after $119 spike |
+| VIX 28 | **Approaching** — regime break imminent |
+| VIX 30 | Structural floor if breached |
 
 ---
 
@@ -170,9 +171,9 @@ PPI leads PCE by 1-2 months → Core PCE trajectory = 3.0% → 3.3-3.5% by May. 
 | HEN-04 | FOMC holds, both mandates, 0-1 cuts | ✅ **CONFIRMED** |
 | HEN-06 | Hamilton NOPI GDP drag -3.0 to -4.9pp by Q1 2027 | ACTIVE — no change |
 | HEN-07 | Mar 16 relief rally = bull trap. Retests 6,632 or lower within 5 trading days | **CONFIRMING RAPIDLY** — Gulf escalation is the accelerant. High confidence now 85%. |
-| **HEN-08** | **VIX gaps to 28+ on Mar 19 open** | **NEW — 75% probability** |
-| **HEN-09** | **Brent $110-115 range at Mar 19 open** | **NEW — 65% probability if overnight strikes continue** |
-| **HEN-10** | **SPX tests 6,550-6,600 within 3 sessions (Mar 19-21)** | **NEW — 70% probability** |
+| **HEN-08** | **VIX gaps to 28+ on Mar 19 open** | **CONFIRMING** — VIX surging toward 28 midday |
+| **HEN-09** | **Brent $110-115 range at Mar 19 open** | **EXCEEDED** — hit $119, settled ~$110 |
+| **HEN-10** | **SPX tests 6,550-6,600 within 3 sessions (Mar 19-21)** | **CONFIRMING DAY 1** — testing 6,600 midday |
 
 ---
 
