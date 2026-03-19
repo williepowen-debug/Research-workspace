@@ -1,10 +1,19 @@
 # MEMORY — Key Insights & Lessons
 
-**Last Updated:** 2026-03-17 14:15 UTC
+**Last Updated:** 2026-03-19 14:00 UTC
 
 ---
 
 ## CORE DISCOVERIES
+
+### FOMC Trapped + Triple Event Day — Mar 18-19 (CONFIRMED)
+Fed held 3.5%. Dot plot: 1 cut median, but **7/19 see zero cuts (up from 6)**. Powell warned energy→inflation. PPI same day +0.7% MoM (2x expected). Stocks hit 2026 lows: S&P -1.36%, Dow -768 broke 200-day MA, R2K -1.6%, VIX 25.09. **Fed put officially dead** — can't cut into oil inflation (PCE 3.1% + PPI accelerating). Claims 205K (fell, DHS suppressed Day 35). New home sales **587K vs 722K exp (-18.7%)** — demand destruction showing in hard data even while claims stay "resilient." Gap between claims (lagging) and real economy data (cracking) widening — resolution favors our thesis.
+
+### BOJ Hawkish-on-Hold / Carry Unwind Deferred — Mar 19
+Held 0.75%, 8-1. **Takata dissented hawkish** (wanted 1.0%, "price stability more or less achieved" — landmark). Ueda: "on track before Iran," "real rates significantly low." Carry unwind 7d probability downgraded 65%→40%, but 30d still 88%. April Tankan (Apr 1) → BOJ Apr 23-24 = earliest hike window. Both central banks paralyzed = stagflationary corridor. Pressure extends rather than relieves — bigger unwind when it comes.
+
+### Agent Check-in Proposals — Mar 19 (PROCESS FIX)
+Was sitting on agent proposals instead of routing to Will. Fixed: AGENTS.md updated. Standard practice now: agent proposes → route to Will → execute on approval.
 
 ### HY OAS 328 — Transmission Confirmed — Mar 17
 HY OAS crossed 320 RED threshold (was 303 on Mar 3, +25bps in 5 trading days). ABS → HY transmission live. Historical templates: 2020 COVID (350→1,087 in 5 weeks, Fed killed it), 2007-08 GFC (320→2,147 over 16 months, slow grind then acceleration after Lehman), 2015 energy (false alarm, reversed). Current setup resembles 2007: systemic not sector-only, but compression factor pulls timeline ~1Q earlier. Expect 320→500 in 2-4 months (May-July). 500+ = acceleration phase with forced selling. CFA Institute analysis: even "improved" BB-heavy index composition still projects 1,093bps in next recession. No Fed put available (PCE 3.1%).
