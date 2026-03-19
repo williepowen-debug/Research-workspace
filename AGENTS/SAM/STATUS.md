@@ -1,6 +1,69 @@
 # SAM STATUS
 
-**Signal Status:** 🔴🔴🔴 CRITICAL — **PHASE CHANGE** | USD/JPY ~159.0 (watching 160 line) | **RAS LAFFAN BURNING — BRENT $108+** | FOMC HELD HAWKISH (1 cut, 7 dots at zero) | TOYOTA YAMABA FULL ACCEPTANCE | **DUAL COMPRESSION LIVE** (Ueda hawkish + Powell hawkish) | **BOJ DECISION TONIGHT 0330-0430 GMT** | **UEDA PRESSER 0630 GMT** | CARRY UNWIND 7D: **65%** | FY-END T-12 DAYS | **Last Updated:** 2026-03-19 (00:07 UTC PM/Eve Scan)
+**Signal Status:** 🔴🔴🔴 CRITICAL — **DUAL COMPRESSION CONFIRMED** | USD/JPY ~158.2 (yen strengthening post-Ueda) | **RAS LAFFAN BURNING — BRENT $108+** | FOMC HELD HAWKISH | BOJ HELD 0.75% (8-1, Takata dissented for 1.0%) | **UEDA HAWKISH HOLD DELIVERED** — wages "solid," April live, "will continue to raise rates" | CARRY UNWIND 7D: **75%** | FY-END T-12 DAYS | **Last Updated:** 2026-03-19 (17:31 UTC AM Scan)
+
+---
+
+## 🌅 AM SCAN — MAR 19, 2026 (17:31 UTC / 12:31 PM ET)
+
+### HEADLINE: BOJ HELD 0.75% (8-1). TAKATA DISSENTED FOR 1.0%. UEDA DELIVERED SCENARIO A — HAWKISH HOLD. YEN STRENGTHENING TO ~158.2. CARRY UNWIND 7D → 75%.
+
+---
+
+### BOJ DECISION OUTCOME
+
+| Item | Detail |
+|------|--------|
+| **Decision** | Hold 0.75% (8-1 vote) |
+| **Dissent** | Takata proposed 1.0% — said "price stability target more or less achieved," upside risks from second-round effects |
+| **Ueda presser tone** | **HAWKISH** — Scenario A confirmed |
+| **Key Ueda quotes** | "Will continue to raise policy rate if economy, prices move in line with forecast" |
+| | "Underlying inflation gradually accelerating towards 2% target" |
+| | "Wage talks delivering solid results" |
+| | "Real interest rates at significantly low levels" |
+| | "A rate hike is still possible if economic downturn proves temporary" |
+| **Oil framing** | Acknowledged "higher oil prices push up inflation, curb economy" but did NOT use it as excuse to delay. Emphasis on "lower visibility" — monitoring, not retreating |
+| **April guidance** | Implicitly live — "will explain after April Tankan" on energy impact assessment |
+
+### MARKET REACTION
+
+| Metric | Pre-Decision | Post-Ueda | Delta |
+|--------|-------------|-----------|-------|
+| **USD/JPY** | ~159.0 | **~158.2** | 🟢 Yen +80 pips — Ueda hawkish bid |
+| **JGB 10Y** | ~2.28-2.30% | Rising (hawkish pricing) | ⬆️ Differential narrowing |
+
+**Yen strengthened during presser** (Bloomberg confirms). The ~158.2 level implies the market read Ueda as hawkish — April remains live, wages confirmed, rate hikes continuing. USD/JPY has pulled back from the 160 danger zone.
+
+### CARRY UNWIND ASSESSMENT — POST-BOJ
+
+**Scenario A confirmed.** Ueda delivered exactly the hawkish hold we projected at 60% probability. Key triggers met:
+- ✅ Wage confidence expressed ("solid results")
+- ✅ Rate hike path reaffirmed ("will continue to raise")
+- ✅ April implicitly live (Tankan reference)
+- ✅ Oil NOT used as delay excuse
+- ✅ Takata's 1.0% dissent = internal pressure for faster normalization
+
+**Dual compression is now CONFIRMED and OPERATING:**
+- Japan side: BOJ hawkish hold → JGB yields rising → yen strengthening
+- US side: FOMC hawkish hold → 10Y at 4.26% → NO Fed relief for dollar bears
+- Net: differential narrowing FROM THE JAPAN SIDE, exactly as thesis predicted
+
+**Complication — Energy overlay:** Brent $108+ and Ras Laffan damage create a structural yen headwind via trade deficit. This is why USD/JPY moved to 158.2 not 157 — energy costs are a drag on yen appreciation. But Ueda is explicitly looking through this, which means BOJ policy path is NOT derailed.
+
+### UPDATED CARRY UNWIND PROBABILITIES — MAR 19 AM
+
+| Timeframe | Mar 18 PM | Mar 19 AM | Driver |
+|-----------|-----------|-----------|--------|
+| **7d** | 65% | **75%** | Scenario A confirmed. Dual compression live. April hike ~80%. |
+| **30d** | 92% | **94%** | Structural path reinforced by Ueda's explicit hawkish framing |
+| **60d** | 92% | **94%** | Upgraded |
+
+### KEY RISK: ENERGY SHOCK AS SPEED GOVERNOR
+
+The carry unwind thesis is ON TRACK but the energy shock is acting as a **speed governor** — yen can't appreciate as fast as fundamentals warrant because trade deficit is widening on $108 oil. This means:
+- Gradual carry unwind (158→155 over weeks) MORE likely than violent snap (159→152 overnight)
+- UNLESS: ceasefire/Ras Laffan repair → oil drops → yen snaps violently
+- OR: MoF intervention at 160 (now less likely given yen strengthening)
 
 ---
 

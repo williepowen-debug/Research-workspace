@@ -1,7 +1,45 @@
 # BRENT STATUS
 
-**Last Updated:** 2026-03-17 16:30 UTC — SUPPLY QUANTIFICATION UPDATE: ADNOC 50% shut-in (~2.0M bpd) + Fujairah terminal SUSPENDED (1.8M bpd throughput) + Shah Gas Plant struck (1.28-1.45 Bscf/d) + Kuwait curtailment Mar 20 (2.58M bpd) + Iraq 1.5M bpd offline + Qatar force majeure. **TOTAL GULF OIL OFFLINE: ~6.8-7.0 mbpd. TOTAL GAS OFFLINE: ~6.5-7.0 Bscf/d. SPR 400M bbl covers only 65% of offline oil at peak release rate — and only once.** SK refiners at 3-week feedstock deadline (early April). Jones Act waiver logged as policy tool exhaustion signal.
-**Overall Status:** 🔴🔴 RED-RED — HORMUZ CLOSED + PHYSICALLY MINED / ADNOC 50% SHUT-IN / FUJAIRAH BYPASS SUSPENDED / LAST BYPASS ROUTE (ADCOP→FUJAIRAH) NOW OFFLINE / GULF OIL OFFLINE ~7 MBPD / SK REFINER FEEDSTOCK CRISIS 3 WEEKS / PHASE 1 EXTENDED + DEEPENED
+**Last Updated:** 2026-03-19 UTC — MAR 18-19 CRITICAL ESCALATION: Kuwait refineries STRUCK (Mina al-Ahmadi 466K bpd + Mina Abdullah 270K bpd, drones, fires Mar 19). Qatar LNG: CEO confirms 3-5 YEARS to repair Ras Laffan after 2nd strike Mar 18 — PERMANENT capacity destruction (77 mtpa, full suspension). Saudi Arabia: Yanbu now ONLY export outlet, SAMREF refinery hit by drone Mar 19, ballistic missile intercepted at Yanbu terminal. **YANBU IS THE SINGLE MOST CRITICAL CHOKEPOINT. If Yanbu falls, Saudi exports → near-zero.** Iraq exports cut ~3.0M bpd (Hormuz). UAE >50% cut (~1.6M+ bpd). Total crude off market: ~6-7M bpd. Brent hit $107 Mar 18 — SPR 400M bbl market verdict: FAILED. **Brent $108+ may be CONSERVATIVE if Yanbu is successfully struck.**
+**Overall Status:** 🔴🔴 RED-RED — HORMUZ CLOSED + MINED / KUWAIT REFINERIES ON FIRE / QATAR LNG PERMANENT DESTRUCTION (3-5 YRS) / SAUDI YANBU UNDER ACTIVE ATTACK / ALL GULF EXPORT INFRASTRUCTURE TARGETED / BRENT $107 + RISING / SPR FAILED / PHASE 1 DEEP EXTENSION
+
+---
+
+## ⚡ MAR 18-19 CRITICAL UPDATE — ESCALATION TO INFRASTRUCTURE DESTRUCTION
+
+### Supply Snapshot as of Mar 19
+
+| Producer | Crude Off Market | Key Developments Mar 18-19 |
+|----------|-----------------|---------------------------|
+| Iraq | **~3.0M bpd** | Hormuz closure — full export route cut |
+| Kuwait | **~1.5-2.0M bpd est** | Going physical Mar 20 (confirmed). **NEW Mar 19: Mina al-Ahmadi (466K bpd) + Mina Abdullah (270K bpd) refineries struck by drones, fires ongoing.** Refinery damage compounds export curtailment. |
+| UAE | **>1.6M bpd** (>50% cut) | Fujairah terminal offline (3 attacks). Habshan gas complex shut from debris. Shah gas field offline. |
+| Qatar | **~0.7M bpd crude/cond + 77 MTPA LNG** | **PERMANENT DESTRUCTION** — QatarEnergy CEO: 3-5 YEARS to repair Ras Laffan after Mar 18 second strike. LNG full suspension. This is no longer temporary. |
+| Saudi Arabia | **Rerouted to Yanbu only** | All exports via Yanbu (last remaining outlet). **Mar 19: SAMREF refinery at Yanbu hit by drone. Ballistic missile intercepted at Yanbu terminal.** Iran is targeting Yanbu. If Yanbu goes offline: Saudi exports → near-zero. |
+| **TOTAL CRUDE OFF MARKET** | **~6-7M bpd** | — |
+
+**⚠️ YANBU CRITICAL ASSESSMENT:**
+Iran has escalated to targeting Yanbu — Saudi Arabia's ONLY remaining export outlet. SAMREF refinery strike + ballistic missile intercept confirm active campaign against this single chokepoint. If Yanbu export terminal is successfully struck:
+- Saudi crude exports fall to effectively zero
+- Petroline becomes useless (nowhere to load)
+- 9-10M+ bpd additional supply removed from market (Saudi + Iraq already curtailed = total Gulf offline 15M+ bpd)
+- **Brent $108 becomes extremely conservative. $130-150 scenario becomes base case.**
+
+**Qatar LNG — Structural Revision (MAJOR):**
+Previous model: temporary force majeure, repair timeline unknown. **NEW REALITY:** QatarEnergy CEO explicitly stated 3-5 YEARS to repair after second Ras Laffan strike. This is **permanent capacity destruction**. 77 mtpa offline for 3-5 years = structural LNG supply gap, not a cycle. European/Asian spot markets must find alternative supply for YEARS, not months. US LNG (Cheniere, VG) is now the default structural supplier. JKM elevated for years, not quarters.
+
+**IEA/SPR — Market Verdict:**
+400M barrel coordinated release (largest ever, announced Mar 11). Brent hit $107 on Mar 18. **SPR has failed to suppress prices.** Market correctly reads: SPR is a finite buffer vs an ongoing structural supply removal. Once SPR runs, no backstop. Policy tools exhausted.
+
+### Brent Price Target Reassessment
+
+| Scenario | Brent Target | Probability | Conditions |
+|----------|-------------|-------------|------------|
+| Yanbu holds, current levels | **$100-115** | 40% | Yanbu survives, no new major strikes. SPR provides marginal damping. |
+| Yanbu degraded (partial) | **$120-135** | 35% | SAMREF damage reduces Saudi throughput; terminal partially functional |
+| **Yanbu offline (successful strike)** | **$145-165+** | 25% | Saudi exports → near-zero. 15M+ bpd total Gulf offline. SPR depleted. |
+
+**REVISED BASE CASE: $120-130 Brent.** Previous $108+ target was pre-Yanbu-attack data. The target must be revised upward. The question is no longer "will prices stay elevated" — it's "does Yanbu survive."
 
 ---
 
@@ -157,9 +195,9 @@ Gulf crude offline → SK run cuts (early Apr) → Asia-Pacific product shortage
 
 | Metric | Value | Source | Updated |
 |--------|-------|--------|---------|
-| WTI spot | **$85** (Mar 11 AM flash crash) → **~$93-95 est** (Mar 13, tracking Brent $101.07) | [CONF] Will/Reuters Mar 11; Brent CONF Mar 13 | Mar 13 |
+| WTI spot | **~$100-102 est** (Mar 19, tracking Brent $107) | [EST] tracking Brent Mar 18-19 | Mar 19 |
 | WTI peak (Mar 9) | $107.09 — largest monthly gain in history (+59.17%) | [CONF] Kobeissi Letter Mar 9 | Mar 9 |
-| Brent spot | **$101.07** (Mar 13 close) [CONF] — recovered from $85-91 flash crash | [CONF] Mar 13 | Mar 13 |
+| Brent spot | **$107** (Mar 18) [CONF] — SPR 400M bbl failed to suppress. **New target: $120-130 base; $145-165+ if Yanbu struck.** | [CONF] Will Mar 19 | Mar 19 |
 | Brent M01-M12 spread | **-$25.49** (Mar 9: M01=$98.96, M12=$73.47). M1-M3 est ~$8-12/bbl. Path B trigger ($3) is DISTANT. | [CONF] ICE via OpenDataDSL Mar 9 | Mar 13 |
 | Gasoline crack (3-2-1 LLS Gulf) | $28.91/bbl (Mar 5). Current: elevated, exact TBD | [CONF] EIA Mar 5 | Mar 11 |
 | Retail gasoline US avg | **$3.699/gal** (AAA Mar 15) | [CONF] AAA Mar 15 | Mar 15 |
@@ -182,12 +220,11 @@ Gulf crude offline → SK run cuts (early Apr) → Asia-Pacific product shortage
 - UAE ~20 days of storage runway
 - Iraq curtailing 1.5 mbpd
 - Physical mines → even ceasefire → 30-90 day delay before shipping restarts
-- **Brent trajectory (UPDATED Mar 11):**
-  - **$85 → flash crash, not fundamental (WTI $85 = buy the dip)**
-  - **$90 base case:** Kuwait hits tank tops Mar 20 as modeled → forced curtailment headline → oil rebounds. Base scenario with SPR partially offsetting.
-  - **$100 next leg:** All 4 Gulf producers curtailing + SPR insufficient to close gap. ~2-3 week timeline from Mar 11.
-  - **$120 scenario:** Extended closure 6-8+ weeks, mine clearance delays, Iran executes full commercial shipping blockade. SPR ceiling ~$110; above that, political options exhausted.
-  - **Mine floor effect:** WTI floor is ~$85-90 even WITH SPR release, because physical mines prevent full supply restoration on any short timeline.
+- **Brent trajectory (UPDATED Mar 19):**
+  - **$107 (Mar 18) — SPR failed.** Market absorbed 400M barrel release and pushed higher. Policy tools exhausted.
+  - **$120-130 base case (REVISED):** Kuwait going physical Mar 20, Qatar LNG 3-5 year destruction, Yanbu under active attack. SPR can no longer suppress. Iran targeting last Saudi export outlet.
+  - **$145-165+ scenario (elevated probability, ~25%):** Yanbu successfully struck → Saudi exports → near-zero → total Gulf offline 15M+ bpd → no remaining SPR capacity → historic price dislocation.
+  - **No meaningful floor below $100:** Physical mines + all Gulf infrastructure under attack + SPR exhausted = permanent elevated floor. $108+ prior target NOW CONSERVATIVE.
 
 ### Phase 2: Demand Destruction / OPEC+ Unwind (NOT YET — but mechanics now mapped)
 - Original timing: Apr-May (pre-war, based on 140M barrel OPEC+ flush)
@@ -306,9 +343,9 @@ The mine confirmation creates a nuanced wrinkle in Path A exit protocol: a cease
 
 | Vector | Score | Current State | Threshold → Next | Updated |
 |--------|-------|---------------|------------------|---------|
-| Hormuz/chokepoint | 🔴🔴 5 | -92% shipping + **PHYSICAL MINES CONFIRMED** (Mar 11). US sank 16 minelayers. Iran: full blockade. Dubai airport hit. 3 ships attacked in single day. | Physical mines = duration floor. Even ceasefire → 30-90 day corridor clearance before shipping. | Mar 11 |
-| Gulf production | 🔴🔴 5 | **ALL 4 CURTAILING + ADNOC 50% SHUT-IN + FUJAIRAH SUSPENDED.** Kuwait Mar 20. Iraq 1.5M bpd offline. Qatar force majeure. UAE: ADNOC 50% shut-in (~2M bpd), export terminal suspended. Total offline: ~6.8-7.0 mbpd. Shah Gas Plant hit (1.28-1.45 Bscf/d). | MAX — all 4 curtailed + export infrastructure destroyed | Mar 17 |
-| Brent price | 🔴🔴 5 | **WTI $107 peak (Mar 9), $85 flash crash (Mar 11)**. $100 threshold breached and retreated on Trump rhetoric + SPR announcement. Physical reality supports $90+ base. | $85 = buy-the-dip. $107 = peak was Scenario C entry. Mine floor: $85-90 base even with SPR. | Mar 11 |
+| Hormuz/chokepoint | 🔴🔴 5 | -92% shipping + **PHYSICAL MINES** + Iran now targeting Yanbu (Saudi's only export outlet). Kuwait refineries struck Mar 19. Qatar LNG permanently destroyed (3-5 yr repair). All GCC export infrastructure under active drone/missile campaign. | MAX. No further upgrades available. Yanbu strike would trigger THRESHOLD EVENT. | Mar 19 |
+| Gulf production | 🔴🔴 5 | **ALL CURTAILING + INFRASTRUCTURE STRUCK.** ~6-7M bpd offline. Kuwait physical Mar 20 + refineries on fire (Mar 19). Qatar LNG: 77 mtpa, 3-5 yr repair — PERMANENT. UAE >50% cut. Saudi: Yanbu only outlet, now under attack (SAMREF + ballistic missile intercept Mar 19). Iraq: 3.0M bpd cut. | MAX — permanent LNG destruction is structural shift. Yanbu survival is now the single most important variable. | Mar 19 |
+| Brent price | 🔴🔴 5 | **Brent $107 (Mar 18)** — SPR 400M bbl FAILED. New base: $120-130. If Yanbu struck: $145-165+. Prior $108+ target is now conservative. Policy ceiling breached — no tools left. | At or above scenario C. REVISED UPWARD. | Mar 19 |
 | US production response | 🟡 2 | NON-RESPONSE CONFIRMED: 411 oil rigs (flat/declining), DUC 5,015 (-41% from peak), no capex increases announced. Max surge 200-240K bpd/90 days — well below crisis need. | Rig count >461 (+50 from 411 trough) = shale finally responding | Mar 6 |
 | Demand destruction | 🟠 3→4 | **Airlines in fare-hike phase as of Mar 9-12** (Qantas, Air India, multiple Asia/Europe carriers). Route cuts are NEXT phase in 4-8 weeks (late April). Pump price: $3.699/gal (AAA Mar 15). Clock started for airline capacity cuts. | Gasoline -5% YoY confirmed (earliest May-June). Airline route cuts = leading signal (watch IATA Apr-May) | Mar 15 |
 | Storage (global) | 🔴 4 | Gulf filling; Cushing +1.564M bbl wk Feb 27 (~24-26M est) [CONF EIA] | Cushing <20M = WTI dislocation | Mar 6 |
@@ -316,7 +353,7 @@ The mine confirmation creates a nuanced wrinkle in Path A exit protocol: a cease
 | Energy credit | 🟡 2 | CONFIRMED: HY Energy OAS 300 bps (Mar 5) — 8 bps TIGHTER than broad HY (308 bps). E&P is geopolitical safe haven. Phase 2 leading indicators NOT yet triggered: refiner crack compression, EM sovereign CDS, CCC-rated decoupling. E&P defaults lag price crash 6-12 months. | HY energy OAS >400 AND crack spreads compressing = Phase 2 credit warning | Mar 6 |
 | OPEC+ policy | 🔴 4 | 3.24 mbpd deferred. Unwind paused by war. When Hormuz reopens: Day 3 meeting, Day 8 VLCC loading, price crash. Paper quotas ≠ physical (2022 gap was 2.7-2.89 mbpd). | Hormuz reopens → immediately = 5 | Mar 6 |
 
-**Convergence: 38/45 🔴🔴** *(Mar 11 update: Physical mines confirmed → Hormuz vector upgraded. SPR 400M bbl announced → political intervention marker. WTI flash crash to $85 = mis-pricing, not thesis break. Kuwait 9 days to curtailment. Mine floor extends Phase 1 duration even in bull-case resolution.)*
+**Convergence: 40/45 🔴🔴** *(Mar 19 update: Brent $107 — SPR FAILED. Qatar LNG 3-5 year permanent destruction (structural shift). Kuwait refineries on fire Mar 19. Saudi Yanbu under active attack (SAMREF + ballistic missile intercept). Iran targeting the single last Saudi export outlet. Yanbu survival = #1 monitoring priority. Brent target revised: base $120-130, Yanbu-strike scenario $145-165+. Policy tools exhausted. Phase 1 deepening, not ending. Canonical facility damage → HAWK/domain/OIL_FACILITY_DAMAGE_TRACKER.md)*
 
 ---
 
@@ -388,13 +425,15 @@ The mine confirmation creates a nuanced wrinkle in Path A exit protocol: a cease
 
 **OPEC+ Mar 1 emergency announcement: 206K bpd increase = 1.4% of 14-15M bpd stranded. Symbolic.**
 
-## BYPASS INFRASTRUCTURE — UPDATED (BATCH 4)
+## BYPASS INFRASTRUCTURE — UPDATED (MAR 19)
 | Route | Real Ceiling | Status |
 |-------|-------------|--------|
-| Petroline → Yanbu | **3.3-3.5M bpd** (terminal loading limit, not pipeline capacity) | 🟡 1.9M bpd Mar 1-5 (surge from 1.1M Feb avg). Grade limit: Arab Light only. Red Sea Houthi threat. |
-| ADCOP → Fujairah | **1.5 mbpd normal / 1.8 mbpd surge** | 🔴 **SUSPENDED (Mar 16-17)** — Terminal hit, loading operations halted entirely. ADCOP pipeline may still run but with nowhere to load, UAE crude is landlocked. |
+| Petroline → Yanbu | **3.3-3.5M bpd** (terminal loading limit) | 🔴 **UNDER ACTIVE ATTACK (Mar 19)** — SAMREF refinery struck by drone. Ballistic missile intercepted at terminal. ONLY remaining Saudi export outlet. If terminal struck: Saudi exports → near-zero. Monitoring = #1 priority. |
+| ADCOP → Fujairah | **1.5 mbpd normal / 1.8 mbpd surge** | 🔴 **SUSPENDED** — Terminal hit in 3 attacks. UAE crude landlocked. |
 | Kirkuk-Ceyhan | **0 bpd** | 🔴 Full suspension since Mar 3 |
-| **Net bypass max** | **~3.3M bpd (Petroline only)** | **~16.7M bpd gap vs 20M normal Hormuz flow. Fujairah suspension = last UAE bypass offline.** |
+| **Net bypass max** | **~3.3M bpd (Petroline only, at risk)** | **~16.7M bpd gap vs 20M normal. YANBU NOW UNDER ACTIVE Iranian ATTACK CAMPAIGN.** |
+
+**⚠️ CANONICAL FACILITY DAMAGE SOURCE:** `HAWK/domain/OIL_FACILITY_DAMAGE_TRACKER.md` — reference for all facility-level damage detail.
 
 **⚠️ ADCOP CORRECTION (Batch 4):** Prior STATUS entry (0.3M bpd) was OVERSTATED on drone damage. Actual: ADCOP running ~1.5 mbpd per GULF_STORAGE_CRISIS_MAR8 model. UAE storage runway (Mar 31 curtailment) is based on this corrected figure — longer buffer than previously stated. However, Fujairah drone vulnerability remains real risk; if terminal fully disabled, UAE net build rate surges back to 3.41 mbpd (halving runway to mid-March).
 
