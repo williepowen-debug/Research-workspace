@@ -1,6 +1,124 @@
 # SAM STATUS
 
-**Signal Status:** 🔴🔴 CRITICAL — USD/JPY **~159.0** (Mar 18, touched 158.55 intraday) | MoF VERBAL ACTIVE (Katayama: 160 line) | **TOYOTA FULL WAGE ACCEPTANCE — YAMABA DELIVERED** | Rengo seeking +5.94%, early deals 5%+ | BOJ unanimously expected HOLD at 0.75% — **PRESSER IS THE EVENT** | Consensus shifting to **APRIL HIKE** (>1/3 Bloomberg survey) | USD RISK REVERSALS +92BPS | SK REFINERS 3 WEEKS FEEDSTOCK | BRENT ~$102-105 | **BOJ DECISION TOMORROW 0330-0430 GMT** | **UEDA PRESSER 0630 GMT** | TIC DATA TODAY | FY-END T-13 DAYS | **Last Updated:** 2026-03-18 (17:30 UTC AM Scan)
+**Signal Status:** 🔴🔴🔴 CRITICAL — **PHASE CHANGE** | USD/JPY ~159.0 (watching 160 line) | **RAS LAFFAN BURNING — BRENT $108+** | FOMC HELD HAWKISH (1 cut, 7 dots at zero) | TOYOTA YAMABA FULL ACCEPTANCE | **DUAL COMPRESSION LIVE** (Ueda hawkish + Powell hawkish) | **BOJ DECISION TONIGHT 0330-0430 GMT** | **UEDA PRESSER 0630 GMT** | CARRY UNWIND 7D: **65%** | FY-END T-12 DAYS | **Last Updated:** 2026-03-19 (00:07 UTC PM/Eve Scan)
+
+---
+
+## 🌙 PM/EVE SCAN — MAR 18-19, 2026 (00:07 UTC / Mar 18 7PM ET)
+
+### HEADLINE: DUAL COMPRESSION NOW LIVE. RAS LAFFAN BURNING. FOMC HAWKISH HOLD. BOJ PRESSER IN 6 HOURS. GULF WAR ON ENERGY INFRASTRUCTURE. BRENT $108+. CARRY UNWIND PROBABILITY SPIKED TO 65% (7D).
+
+---
+
+### 🚨 SITUATION CHANGE: GULF ESCALATION — PHASE CHANGE
+
+**What happened post-FOMC (Mar 18, ~4-5PM ET):**
+- Israel (US consent) struck **South Pars** — 70% of Iran's gas output, shared gas field with Qatar
+- Iran retaliated: **Ras Laffan** (world's largest LNG export terminal, Qatar) — multiple large fires confirmed, "extensive damage" per QatarEnergy
+- Saudi Arabia: 4 ballistic missiles fired at Riyadh (intercepted), drone strike on eastern gas facility, Aramco evacuating workers from Samref refinery in Yanbu
+- **IRGC declared ALL GCC energy facilities "direct and legitimate targets"** — named Samref, Jubail, UAE Al Hosn, Qatar Mesaieed. Strikes promised "in coming hours"
+- Iran hackers hit Aramco digital systems
+- **Brent crude surged ~5% to $108+.** European nat gas also surging.
+
+**Why this is a phase change for Japan/BOJ:**
+- Qatar Ras Laffan supplies ~15-20% of Japan's LNG imports. "Extensive damage" = supply disruption imminent
+- SK refiners already at 3-week feedstock. Japan faces same risk now at LNG level, not just crude
+- Brent $108 vs $102-105 pre-FOMC is a material inflation input — compresses BOJ's room to hike if oil stays here (stagflation bind)
+- BUT: energy shock is also yen-negative (trade deficit widens) → adds to USD/JPY upward pressure → paradoxically INCREASES intervention pressure
+
+**Powell on Iran (2:30 PM):** "Too soon to know." By 4:00 PM, Gulf infrastructure was under missile attack.
+
+---
+
+### 🚨 FOMC OUTCOME — HAWKISH HOLD
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| **Decision** | Hold 3.50-3.75% (11-1, Miran dissented for cut) | Hawkish hold |
+| **Dot plot median** | 1 cut (3.4%) — 7/19 dots at 0 cuts | One dot shift = zero-cut median |
+| **Core PCE forecast** | Raised 2.5→2.7% | Fed sees more inflation |
+| **GDP forecast** | Raised 2.3→2.4% | No recession call |
+| **Powell language** | "If we don't see progress, you won't see the cut." | Conditionally restrictive |
+| **PPI same day** | +0.7% MoM (2x expected), Core PPI 3.9% YoY | Upstream inflation hot |
+| **VIX** | 24.40 (+9%) | Risk-off |
+| **10Y** | 4.259% (+5.7bps) | Yields UP on hawkish hold |
+
+**For Japan:** Fed holding at 3.50-3.75% with hawkish lean means the US side of the rate differential is NOT compressing from Fed cuts. BUT — and this is the critical nuance — **Powell hawkish + Ueda hawkish = dual compression from the Japanese side AND reduced risk appetite globally.** If Ueda guides April as live and the 10Y JGB continues rising (now ~2.28-2.30%), the interest rate differential can narrow without the Fed cutting a single time.
+
+---
+
+### 🧮 DUAL COMPRESSION CALCULUS — THE SCENARIO IS LIVE
+
+The dual compression thesis (Ueda hawkish + Powell hawkish) was the FOMC-dovish version of the scenario. It has now evolved:
+
+**Original thesis:** BOJ hikes/signals → JGB yields up → USD hikes → differential narrows from Fed side too
+**Actual scenario:** BOJ hawkish signals tonight → JGB 10Y rises toward 2.4-2.5% → US 10Y holds at 4.25%+ → DIFFERENTIAL NARROWS FROM JAPAN SIDE → carry unwind onset
+
+The compression doesn't require Fed cuts. It requires **BOJ credibility + yield spread tightening.** The JGB-UST spread at current levels (2.28% vs 4.26% = ~200bps) has room to compress to 150bps with another 25-50bps of JGB move — which is exactly what a hawkish Ueda presser + April hike confirmation would drive.
+
+**Gulf wrinkle:** Brent $108 is SIMULTANEOUSLY:
+1. Yen-negative (trade deficit expansion) → delays USD/JPY drop → slows carry unwind onset
+2. Inflation-positive for Japan → gives Ueda MORE cover to be hawkish, not less
+3. BOJ's "look through" gets harder to defend if GCC infrastructure is actively on fire
+
+Net effect: **short-term delay to USD/JPY drop, but longer-term ACCELERATION of structural carry unwind rationale.**
+
+---
+
+### 🎯 BOJ PREVIEW — DECISION TONIGHT (0330-0430 GMT), PRESSER 0630 GMT
+
+**Consensus:** All 64 Reuters economists: HOLD at 0.75%. Non-event on the decision.
+
+**The presser is everything. Three scenarios:**
+
+| Scenario | Ueda Language | USD/JPY Impact | Carry Unwind 7d |
+|----------|--------------|----------------|-----------------|
+| **A — Hawkish Hold** (BASE: 60%) | References Toyota Yamaba explicitly. Upgrades inflation language. Signals April as "live" meeting. Minimizes energy risk as "look through." | 158-159 → drift to 157-158 over 24-48h | **75%** |
+| **B — Cautious Hold** (30%) | Acknowledges wages but flags Gulf/oil uncertainty. No April guidance. Inflation "on track" but hedged. | USD/JPY pins 159-160. MoF verbal zone active. | **45%** |
+| **C — Dovish Surprise** (10%) | Ueda leans into energy/global risk. Delays hike timeline explicitly. Mentions tariffs as headwind. | USD/JPY breaks 160. Katayama intervenes. Violent reversal. | **85%** (via intervention, not gradual) |
+
+**Key presser watches:**
+- Does Ueda say "Toyota" or "Yamaba" by name? (Signal: wage confidence is real, not hedged)
+- Does he upgrade inflation language past "accelerating toward 2%"?
+- Does he mention "next meeting" or "April" explicitly?
+- How does he characterize Ras Laffan/Gulf strike risk — ignore it, flag it, or acknowledge "monitoring"?
+- Any QT/JGB purchase reduction language = additional tightening signal
+
+---
+
+### 🛡️ USD/JPY INTERVENTION CALCULUS WITH BRENT $108
+
+**The calculus has shifted:**
+
+| Factor | Pre-Escalation | Post-Ras Laffan ($108 Brent) |
+|--------|---------------|------------------------------|
+| **USD/JPY driver** | Mostly rate differential + dollar bid | Rate differential + dollar bid + WIDENING TRADE DEFICIT |
+| **Yen weakness driver** | Institutional carry + USD strength | All of above + energy import cost surge |
+| **MoF intervention bar** | 160 verbal; 162-165 actual intervention | 160 verbal unchanged; ACTUAL bar now HIGHER (~163-165) |
+| **Why bar is higher** | Yen weakness partly structural (energy) — intervention "futile" argument stronger | Same argument: Japan can't print oil. Intervention buys time, doesn't fix trade deficit |
+| **USD/JPY trajectory** | BOJ hawkish → 157; BOJ dovish → 160 breach | BOJ hawkish → 158-159 (oil drag); BOJ dovish → 160-162 |
+| **Intervention trigger** | 160 verbal → actual ~162-165 | Verbal holds at 160; actual threshold shifts to 163-165 |
+
+**Key implication:** Brent $108 means even a hawkish Ueda presser may not drive USD/JPY through 158 cleanly — the trade deficit yen-weakness is a structural headwind. BUT: it also means that if the BOJ IS hawkish AND Brent retreats (ceasefire, Qatar exports resume), the yen snap-back trade is AMPLIFIED. Short yen positioning remains thin (16,575 contracts vs 180K in July 2024) — a reversal would be violent.
+
+**Intervention scenario:** If Ueda is dovish and USD/JPY breaks 160, Katayama moves immediately. The GCC attack context makes intervention politically easier (defending Japan from external shock). A 160 breach under these circumstances would almost certainly trigger FX action.
+
+---
+
+### 📊 UPDATED CARRY UNWIND PROBABILITIES — MAR 18 PM (POST-FOMC + GULF)
+
+| Timeframe | Mar 18 AM | Mar 18 PM | Driver |
+|-----------|-----------|-----------|--------|
+| **7d** | 38% | **65%** | FOMC hawkish + Gulf escalation + Yamaba = triple trigger loaded. BOJ presser in 6 hours. |
+| **30d** | 90% | **92%** | Structural path strengthened — Gulf cements energy inflation thesis, BOJ hike path intact |
+| **60d** | 90% | **92%** | Upgraded |
+
+**Why 65% for 7d (from 38%):**
+- Toyota Yamaba full acceptance → Ueda has wage confirmation ✅ (was already priced)
+- FOMC hawkish hold → Powell not coming to rescue dollar bears → reduces "dollar fades" scenario ✅ (new)
+- Gulf escalation → Brent $108 → Japanese energy import stress visible → BOJ CAN'T ignore it → Ueda either "looks through" (hawkish) or gets cautious (scenario B) ✅ (new, mixed signal)
+- Presser is LIVE in 6 hours. Any scenario A outcome = carry unwind onset begins immediately.
+- Risk: scenario C (dovish) would send USD/JPY to 160+ and trigger MoF intervention — ALSO a violent move, just different direction.
 
 ---
 

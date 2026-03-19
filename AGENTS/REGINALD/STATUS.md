@@ -1,5 +1,41 @@
 # REGINALD STATUS
-**Last Updated:** 2026-03-17 16:00 UTC | **Status:** 🔴🔴🔴 CRITICAL — Florida foreclosures +35% YoY (12th consecutive month). Housing at GFC-trough levels WITHOUT recession. Two distinct bank failure channels now mapped: CRE transmission (OZK/WAL — our targets) vs PC/NDFI transmission (Stifel/First-Citizens/Axos). UWMC/TWO merger failed. BX rotating out of CRE. Relistings record high.
+**Last Updated:** 2026-03-19 13:36 UTC | **Status:** 🔴🔴🔴 CRITICAL — HY OAS 328bps BREACHED RED (>320). CARL cross-agent flag: 350 threshold (issuance freeze) possible by EOW. CRE refi window SLAMMING SHUT. Florida foreclosures +35% YoY. Two distinct bank failure channels mapped.
+
+---
+
+## 🚨 MAR 19 — CARL CROSS-AGENT FLAG: HY OAS 328bps RED BREACH
+
+**Filed:** 2026-03-19 13:36 UTC | **Source:** CARL alert — HY OAS 328bps (Mar 17), velocity +25bps/5 days
+
+### What 328→350 Means for REGINALD's Domain
+
+**Lending Standards Tightening (IMMEDIATE):**
+- At 328bps, regional bank credit committees are already tightening. At 350, new CRE origination effectively freezes for sub-investment-grade borrowers.
+- OZK's 2022 vintage construction loans hitting hard maturity Q1-Q3 2026 have NO takeout market. HY OAS at 350 = the permanent capital markets exit is also shut. These loans are trapped.
+- WAL's CRE book + Cantor appraisals: marks into a market where BOTH property values (below COVID lows) AND credit markets (350 OAS = frozen) are hostile. Double compression.
+
+**CRE Refinancing Freeze:**
+- $76.6B CMBS hard maturity wall meets 350 OAS = no refinancing, no extensions, forced liquidation. The 70-94% loss severity (Chicago precedent) becomes the baseline, not the tail.
+- KRE banks collectively hold 70% of CRE. A credit market freeze at 350 is the catalyst that converts extend-and-pretend into recognize-and-charge-off.
+
+**Memo Item 3 Exposure Amplification:**
+- WAL $2.73B hidden CRE (RCON2746) + OZK 37.6% hidden CRE: these positions were underwritten assuming functioning credit markets for exit/refi. At 350, the hidden CRE IS the loss — no amount of relabeling hides a loan that can't refi.
+- The $4.2T NDFI channel (Layer 2 hidden CRE): private credit funds borrowing from banks can't raise new capital at 350 OAS → fund-level stress → bank NDFI loan impairment.
+
+### REGINALD Thresholds Approaching/Breached
+
+| Threshold | Level | Current | Status |
+|-----------|-------|---------|--------|
+| HY OAS >320 (CARL→REG) | 320 | **328** | 🔴 **BREACHED** |
+| HY OAS 350 (issuance freeze) | 350 | 328 (+25bps/5d velocity) | 🟠 **ETA: EOW if velocity holds** |
+| FHLB advances >$600B | $600B | ~$480B | 🟡 Watch — 350 OAS could trigger drawdowns |
+| KRE below $60 | $60 | ~$64-66 est | 🟠 Approaching |
+
+### Catalyst Chain: Post-FOMC + Gulf + Hot PPI
+
+Hawkish hold (7/19 zero cuts) + Brent $108+ + PPI +0.7% = **all three conditions for NIM relief are now negative simultaneously.** No rate cuts, rising input costs, credit markets seizing. This is the worst macro backdrop for our bank watchlist since we began tracking.
+
+**[PROPOSAL]:** If HY OAS closes 340+ today, escalate REGINALD to 🔴🔴🔴🔴 EMERGENCY and flag Will for position review — the 350 breach would validate accelerating OZK Aug $42.5P and WAL Sep $70P timelines. Middle-market layoff cascade from issuance freeze would feed back into LABOR's claims data within 4-6 weeks.
 
 ---
 

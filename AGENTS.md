@@ -31,6 +31,7 @@ Before `/clear` or `/new`, read `PROME/HANDOFF.md`.
 - **Internal actions** (read, organize, search): do freely
 - **External actions** (emails, tweets, public posts): ask first
 - **Agent trade proposals** → send to Will with [Approve] [Reject] → never execute without approval
+- **Agent check-in proposals** → when agents propose research, cross-agent flags, or new tracking items during daily check-ins, route to Will for approval then execute. Make this standard practice.
 
 ---
 

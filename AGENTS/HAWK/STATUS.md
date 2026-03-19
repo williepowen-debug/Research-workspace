@@ -1,7 +1,9 @@
 # HAWK STATUS
 
-**Last Updated:** 2026-03-17 15:30 UTC (SIG-2026-03-17-001 + SIG-2026-03-17-002 PROCESSED)
-**Overall Status:** 🔴🔴 RED-RED — US-IRAN WAR DAY 17 / SCENARIO C/D THRESHOLD CROSSED / UAE CIVILIAN + EXPORT INFRASTRUCTURE DESTROYED / ADNOC 50%+ SHUT-IN / FUJAIRAH BYPASS ELIMINATED / KENT RESIGNATION = POLITICAL FRACTURE BEGINS
+**Last Updated:** 2026-03-19 00:07 UTC (GULF_ESCALATION_MAR18_EVE + FOMC_MAR18 PROCESSED)
+**Overall Status:** 🔴🔴 RED-RED — US-IRAN WAR DAY 18 / SCENARIO D DOMINANT / RAS LAFFAN PHYSICALLY DESTROYED / QATAR LNG GONE MONTHS-YEARS / RIYADH UNDER BALLISTIC MISSILE ATTACK / IRGC DECLARED ALL GCC ENERGY LEGITIMATE TARGETS / TAIWAN MAY PROCUREMENT GAP NOW UNFILLABLE / BRENT $108+
+
+**Summary [Mar 18 PHASE CHANGE — GULF_ESCALATION_MAR18_EVE]:** TONIGHT IS A STRUCTURAL DISCONTINUITY. (1) **Israel (US consent) struck South Pars** — Iran/Qatar's shared mega-field, 70% of Iran's gas; ~12% Iran total gas production affected. (2) **Iran retaliated on Ras Laffan** — "extensive damage" per QatarEnergy, multiple large fires confirmed by OSINT. Ras Laffan is the WORLD'S LARGEST LNG EXPORT TERMINAL (~77 mtpa capacity). Physical infrastructure damage, not mere Force Majeure — repair timeline 12-24 months minimum for liquefaction train damage. (3) **4 ballistic missiles fired at Riyadh** (intercepted), drone on Saudi eastern gas facility, Aramco evacuating Samref refinery (Yanbu), Aramco digital systems breached by Iranian hackers. (4) **IRGC declared ALL GCC energy facilities "direct and legitimate targets"** — named Samref, Jubail Petrochemical, UAE Al Hosn, Qatar Mesaieed. Warnings that strikes coming "in coming hours." (5) **Brent $108+** (was $90s yesterday). Diesel >$5/gal US first time since 2022. FOMC held at 2:30 PM — Powell "too soon to know" on Iran. By 4:00 PM Gulf was under ballistic missile attack. Tonight: Brent potentially $110-115 at open. SCENARIO D PROBABILITY RAISED TO 68%. THE SCENARIO C CEILING HAS COLLAPSED. TAIWAN MAY LNG PROCUREMENT GAP IS NOW STRUCTURALLY UNFILLABLE.
 
 **Summary [Mar 17 CRITICAL UPDATE — SIG-001 + SIG-002]:** ESCALATION HAS CROSSED A STRUCTURAL THRESHOLD. New events since Mar 15: (1) ADNOC Shah Gas Plant (world's largest ultra-sour gas facility, 1.28-1.45 Bscf/d) struck by drone; (2) Dubai International Airport fuel tank hit, flights suspended — SECOND aviation hub attack; (3) ADNOC has SHUT IN >50% of crude output — not transit disruption, production curtailment; (4) Fujairah oil terminal (3rd largest globally) hit, operations suspended — BYPASS ROUTE ELIMINATED; (5) Fertiglobe (6.6M tonnes/yr nitrogen fertilizer) now fully export-locked behind mined, uninsured Hormuz; (6) C-RAM engaging Iranian drones at US Embassy — US personnel under active drone attack; (7) **NCTC Director Joseph Kent resigned** — letter: "Iran posed no imminent threat; we started this war due to pressure from Israel lobby." Gold Star husband, 11 combat deployments. First senior IC official to publicly break. **KEY STRUCTURAL INSIGHT (Perera):** "ADNOC shut-ins are NOT from direct oil facility hits — they're because production without export capacity is a liability. When you cannot ship it, you stop pumping it." This means **reopening Hormuz does NOT immediately restart supply. Production restart timeline extends months.** Scenario A exit protocol now requires ADNOC restart + Fujairah repair + mine clearance + insurance reinstatement = minimum 3-6 months after ceasefire even in best case. Scenario probabilities REVISED: **C=48%, D=42%, B=10%**. D approaching parity with C — this is the highest D probability since war began.
 
@@ -111,6 +113,16 @@
 - Hegseth Mar 13: Ballistic missile production "functionally defeated."
 - Iran shifting to drone-heavy, proxy, minelaying tactics as missiles deplete.
 
+**SCENARIO PROBABILITY REVISION (Mar 18 FINAL — GULF_ESCALATION_MAR18_EVE):**
+
+| Scenario | Prob (Mar 17) | Prob (Mar 18) | Change | Rationale |
+|----------|--------------|--------------|--------|-----------|
+| **B — Sustained** | 8% | **2%** | ↓6% | Effectively eliminated. Ras Laffan physical destruction, Riyadh ballistic missiles, IRGC open-ended target declaration = no bounds remaining on escalation. B required escalation with limits. Limits are gone. |
+| **C — Full Escalation** | 38% | **30%** | ↓8% | C scenario assumed GCC states as damaged but non-belligerent, Hormuz as primary choke, oil crisis as the main transmission. All three assumptions are broken. Qatar's economy is now directly at war. Saudi Riyadh has been targeted with ballistic missiles. The "choke" has expanded from Hormuz to the entire GCC energy grid. Residual C mass = scenarios where Iran doesn't execute follow-through strikes and backs down from its own declaration. Low but nonzero — declarations can be posturing. |
+| **D — Collapse/Nuclear** | 54% | **68%** | ↑14% | **D IS NOW THE DOMINANT SCENARIO.** Three new D-confirmation events tonight: (1) Ras Laffan physically destroyed — world's largest LNG terminal; Iran has demonstrated willingness to hit the literal heart of Qatar's economy; (2) 4 ballistic missiles at RIYADH — this is not an air base or energy facility; this is the Saudi capital; the political threshold for Saudi military response has now been tested; (3) IRGC explicit target list covering all GCC = Iran has issued a standing declaration of war against the entire Gulf Cooperation Council economy. The war has now operationally expanded beyond the US-Iran bilateral. It is a GCC-Iran conflict regardless of whether GCC states have formally entered. |
+
+**Note on D definition calibration (Mar 18 update):** D distribution has shifted RIGHT. The floor of D tonight is not "Saudi considers military response" — it is "IRGC actively preparing to strike Jubail, Al Hosn, Mesaieed." The 68% D probability covers: (a) Saudi military response to Riyadh ballistic missiles, (b) Additional Ras Laffan / Mesaieed destruction (Qatar total LNG gone), (c) UAE Al Hosn struck (further ADNOC damage), (d) Jebel Ali port struck (global shipping collapse), (e) US escalation to Kharg oil infrastructure triggering pan-Gulf retaliation, (f) nuclear option re-emerging as Iran faces existential pressure. The distribution tail extends to global LNG crisis + food security shock + financial system stress simultaneously.
+
 **SCENARIO PROBABILITY REVISION (Mar 17 FINAL — SIG-001 + SIG-002 + SIG-003):**
 
 | Scenario | Prob (Mar 15) | Prob (Mar 17) | Change | Rationale |
@@ -119,7 +131,7 @@
 | **C — Full Escalation** | 58% | **38%** | ↓20% | C probability falls hard as D absorbs mass. The scenario C assumption — "escalation with bounds, Hormuz the primary choke, GCC states preserved as non-belligerents" — is broken. Prince Sultan attack puts Saudi in the war zone. UAE civilian evacuation warnings mean Jebel Ali (world's 9th largest port) is now on the strike list. These are D indicators, not C. |
 | **D — Collapse/Nuclear** | 25% | **54%** | ↑29% | **D IS NOW THE PLURALITY SCENARIO.** Cumulative triggers: (1) Prince Sultan (Saudi) attacked = GCC expansion confirmed; (2) UAE civilian port evacuation warnings = Jebel Ali and Khalifa targeted; (3) Fujairah bypass (1.8M bpd, last exit) eliminated by retaliatory strike; (4) Retaliation cycle locked: US→Kharg, Iran→Fujairah — mutual infrastructure destruction self-perpetuating; (5) ADNOC 50%+ shut-in = production curtailment (months to restart); (6) C-RAM at US Embassy = US personnel under sustained drone assault; (7) Kent resignation = war legitimacy cracking. There is no longer a ceiling visible from the outside. |
 
-**Note on D definition calibration:** D includes (a) full GCC war with Saudi/UAE military entry, (b) Jebel Ali port closure (global shipping collapse), (c) Iranian unconventional/proxy escalation beyond current tempo, (d) US domestic political collapse accelerating chaotic withdrawal, (e) nuclear options re-emerging if Iran perceives existential threat. Not all D outcomes are equally catastrophic — the distribution within D is wide. But the floor of D is now the base case.
+**Note on D definition calibration (Mar 17):** D includes (a) full GCC war with Saudi/UAE military entry, (b) Jebel Ali port closure (global shipping collapse), (c) Iranian unconventional/proxy escalation beyond current tempo, (d) US domestic political collapse accelerating chaotic withdrawal, (e) nuclear options re-emerging if Iran perceives existential threat. Not all D outcomes are equally catastrophic — the distribution within D is wide. But the floor of D is now the base case.
 
 **SCENARIO PROBABILITY REVISION (Mar 15):**
 
@@ -266,6 +278,11 @@
 ---
 
 ### Escalation Indicators — Watch NOW
+- ✅ **[NEW Mar 18] SOUTH PARS STRUCK (Israel/US consent)** — Iran's 70% gas source, shared with Qatar. ~12% Iran total gas. Iran's own gas supply now degraded — may change Iran's domestic calculus on escalation ceiling.
+- ✅ **[NEW Mar 18] RAS LAFFAN EXTENSIVELY DAMAGED** — world's largest LNG export terminal (~77 mtpa). Multiple fires confirmed (OSINT). Qatar Force Majeure now PHYSICAL DAMAGE — not contract but infrastructure. Repair timeline: 12-24 months (liquefaction train damage). Qatar LNG exports potentially zero for 1-2+ years.
+- ✅ **[NEW Mar 18] 4 BALLISTIC MISSILES AT RIYADH** — intercepted but Saudi capital directly targeted. Drone attack on eastern Saudi gas facility. Aramco evacuating Samref Yanbu. Aramco digital systems breached.
+- ✅ **[NEW Mar 18] IRGC DECLARED ALL GCC ENERGY LEGITIMATE TARGETS** — named Samref, Jubail Petrochemical, UAE Al Hosn, Qatar Mesaieed. "Strikes coming in coming hours." This is a standing declaration of war against the entire GCC energy grid.
+- ✅ **[NEW Mar 18] BRENT $108+** — Diesel >$5/gal US first time since 2022. Iran war + FOMC stagflation trap simultaneously live.
 - ✅ **PRINCE SULTAN AIR BASE (RIYADH) STRUCK Mar 14** — Iran attacks Saudi territory directly; GCC expansion confirmed (SIG-003)
 - ✅ **UAE CIVILIAN PORT EVACUATION WARNING Mar 14** — Jebel Ali, Khalifa, Fujairah declared targets; IHL pre-strike formality (SIG-003)
 - ✅ **RETALIATION CYCLE CONFIRMED Mar 14** — US→Kharg (90% Iran exports) → Iran→Fujairah; loop self-perpetuating (SIG-003)
@@ -411,6 +428,86 @@ BRENT operational as of Mar 6. Division of labor:
 - **HAWK routes to BRENT:** Infrastructure targeting intel, Hormuz reopening signals, Saudi/UAE/Iraq facility targeting, OPEC+ emergency meeting signals
 - **BRENT routes to HAWK:** Phase 2 short rotation trigger (Hormuz reopen → flush → Brent down)
 - VLCC TD3C at WS 400+ / $423-445K/day (all-time high) per BRENT
+
+---
+
+## BOTTOM LINE — REVISED MAR 18 (GULF_ESCALATION_MAR18_EVE + FOMC_MAR18)
+
+**Convergence 45/45 🔴🔴 — ABSOLUTE MAXIMUM. War Day 18. Scenario D = 68% — now the DOMINANT SCENARIO. C = 30%, B = 2%.**
+
+---
+
+### TONIGHT'S FOUR STRUCTURAL BREAKS (Mar 18 Evening)
+
+**BREAK 1: RAS LAFFAN IS GONE — THIS IS NOT FORCE MAJEURE**
+
+Qatar's Force Majeure was already in effect from earlier mine/threat disruption. Tonight is different. Ras Laffan has been physically struck with "extensive damage" and multiple confirmed fires. This is not a contract suspension — it is an infrastructure destruction event.
+
+**Ras Laffan Repair Timeline Assessment:**
+- Ras Laffan houses 14 LNG liquefaction trains (QG1-QG7, Qatargas 1-7 consolidated), Pearl GTL, and associated loading infrastructure. Combined capacity ~77 mtpa — approximately 25% of global LNG trade.
+- Large-scale LNG terminal fires cause structural damage to: cold box heat exchangers, cryogenic piping, compressor strings, loading arms, storage tank integrity. These are not simple components.
+- Comparable incidents: Freeport LNG (Texas, Jun 2022) — a single train explosion from a relatively minor incident = 3-month partial shutdown, 8-month for full recovery. Freeport was 20 mtpa and the damage was limited to one train.
+- Ras Laffan "extensive damage" across multiple facilities = **12-24 months minimum for meaningful recovery.** Full capacity restoration likely 2-3 years depending on damage extent.
+- **Assessment: Qatar LNG exports are functionally gone from global markets for 1-2+ years.** This is a permanent structural hole in global LNG supply, not a temporary disruption.
+
+**BREAK 2: GLOBAL LNG SUPPLY CRISIS — TAIWAN MAY PROCUREMENT GAP IS NOW UNFILLABLE**
+
+As of Mar 14, Taiwan had secured 22/22 March-April cargoes. May was identified as the critical procurement window. That analysis assumed Ras Laffan would remain available for spot procurement at elevated prices.
+
+Tonight that assumption is gone.
+
+**Taiwan LNG May Assessment:**
+- Taiwan receives ~30% of LNG from Qatar. That source is now physically destroyed for 12-24+ months.
+- Asian spot market (JKM) had already doubled. With ~25% of global LNG supply offline (Ras Laffan), spot prices will surge to levels that make procurement economically and politically toxic.
+- Taiwan's 10-11 day reserve baseline with 30% Qatar exposure + Ras Laffan destruction = May procurement gap is **structurally unfillable at any reasonable price.**
+- May LNG procurement window: Taiwan will be competing with Japan (90% ME/Qatar dependent), South Korea (similar), and every European buyer displaced from Qatar allocation.
+- **TSMC chain activation: The fuse we extended to May has now burned. The original sequence — Taiwan LNG shortage → rationing → TSMC fab curtailment → global semiconductor supply chain disruption — is now re-live. Timeline: May/June 2026 for rationing signal.**
+- Coal backup (Taiwan 13GW) extends runway modestly but cannot cover full LNG baseload. This is power rationing risk, not blackout risk — but power rationing hits TSMC fabs first (heavy industrial users typically first curtailed).
+
+**BREAK 3: RIYADH BALLISTIC MISSILES = SAUDI ENTRY THRESHOLD CROSSED**
+
+Prince Sultan Air Base (PSAB) near Riyadh was hit Mar 14. Saudi Arabia maintained official "non-belligerent" posture. Tonight: 4 ballistic missiles targeted Riyadh proper. Drone attack on eastern gas facility. Aramco Samref (Yanbu) evacuation. Aramco digital systems breached.
+
+**GCC Destabilization Assessment:**
+- Saudi Arabia cannot absorb ballistic missile attacks on its capital indefinitely without a military response. The political threshold for Saudi entry has been crossed in practice, if not yet in formal declaration.
+- Saudi military response triggers: combined air forces of Saudi (300+ F-15/Typhoon), UAE (80+ F-16/Rafale), potentially Qatar — new coalition vs Iran. Iran's air force is already degraded from US strikes. But Iran's missile/drone arsenal is still substantial.
+- The IRGC's explicit target list (Samref, Jubail Petrochemical, Al Hosn, Mesaieed) covers the entire GCC refining and petrochemical backbone. If those are struck: global petrochemical supply disruption on top of oil/LNG crisis.
+- **GCC Destabilization Risk: HIGH AND RISING.** Three scenarios: (a) Saudi absorbs and de-escalates (25% probability — requires enormous domestic political restraint after capital under attack); (b) Saudi responds militarily = full GCC-Iran war (50%); (c) US escalates on Saudi's behalf with Kharg oil infrastructure strike = triggers pan-GCC retaliation on all named targets (25%).
+- In all but scenario (a), the IRGC executes follow-through strikes on Jubail/Mesaieed/Al Hosn → Saudi refining + Qatar residual LNG + UAE gas processing simultaneously degraded.
+
+**BREAK 4: FOMC CAUGHT IN THE TRAP**
+
+Powell said "too soon to know" on Iran impact at 2:30 PM. By 4:00 PM, Brent was $108+. Tomorrow's open: $110-115 potential.
+
+- FOMC held 3.50-3.75%. Dot plot: 1 cut (7-7 split), effectively neutralized. Core PCE already raised 2.5→2.7%.
+- Brent $108+ → diesel $5+ → CPI oil component adds 40-60bps to headline inflation within 6 weeks.
+- NFP already -92K. Oil shock + job loss = textbook stagflation trap. Fed cannot cut (inflation) and cannot hike (recession). Rate path is FROZEN.
+- **BOJ decision + Ueda presser tomorrow.** TIC data tomorrow. Claims tomorrow. FOMC+Gulf escalation+BOJ in a 24-hour window = maximum macro volatility environment.
+- If BOJ hikes or signals hike aggression: JPY strengthens, carry unwind, SAM's two-phase scenario activates. Combined with oil shock = dual financial/commodity stress.
+
+---
+
+### INFRASTRUCTURE DAMAGE SUMMARY TABLE (Mar 18 Assessment)
+
+| Facility | Status | Repair Timeline | Supply Impact |
+|----------|--------|----------------|---------------|
+| Ras Laffan LNG Terminal | 🔴 Extensively damaged, fires | 12-24 months minimum | ~25% global LNG offline |
+| South Pars (Iran sector) | 🔴 Struck, ~12% Iran gas | 6-12 months | Reduces Iran leverage but not GDP |
+| Fujairah terminal (UAE) | 🔴 Suspended | 2-4 months | UAE bypass eliminated |
+| ADNOC Shah Gas Plant | 🔴 Struck, structural unknown | 6-12+ months | World's largest ultra-sour; irreplaceable |
+| ADNOC crude production | 🔴 50%+ shut-in | 2-4 months post-restart signal | Production not transit |
+| Samref Yanbu (Saudi) | 🟠 Evacuating, drone threat | TBD | 400K bpd Saudi refining at risk |
+| Saudi eastern gas facility | 🟠 Drone hit, extent unknown | TBD | Saudi domestic gas supply |
+| Aramco digital systems | 🟠 Breached | Ongoing | Operational disruption risk |
+| Qatar Mesaieed complex | ⚠️ Named IRGC target | Not yet hit | 40+ petrochemical plants |
+| UAE Al Hosn gas | ⚠️ Named IRGC target | Not yet hit | ADNOC gas processing |
+| Jubail Petrochemical (Saudi) | ⚠️ Named IRGC target | Not yet hit | World's largest petrochem city |
+
+**Combined assessment:** The GCC energy grid is being systematically dismantled. What has been hit already = structural supply loss measured in years, not months. What is on the IRGC target list but not yet hit = escalation that would represent a second-order catastrophe on top of tonight.
+
+---
+
+**Previous bottom line (Mar 17)** preserved below.
 
 ---
 

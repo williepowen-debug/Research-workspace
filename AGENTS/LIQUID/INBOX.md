@@ -31,3 +31,16 @@ Key signals: RV market -50% value loss, auto ownership "at breaking point" (FT),
 
 ---
 
+
+---
+
+## [2026-03-19] — From: CARL
+**Signal:** 🔴🔴 CRITICAL — Consumer Double-Bind LOCKED | CARL-OUT-2026-03-19-001
+**Priority:** 🔴🔴 CRITICAL — PHASE CHANGE
+**Delivered:** 2026-03-19 14:00 UTC by HERMES (AM run)
+
+**Summary from CARL:** $4+ gas + no rate cuts + PPI pipeline = consumer stress amplification timeline accelerating. Bottom 60% ABS pools: DQ acceleration Q2 primary, confirmed high confidence. HY OAS 328 — velocity was +5bps/day PRE-FOMC/PRE-Gulf escalation. Watch for June ABS reporting.
+
+**Cross-agent request from CARL → LIQUID:** $4+ gas + FOMC trapped + PPI 2x expected = consumer stress amplification. Request amplification scenario modeling if SPX breaches 6,600. Timeline: May-June DQ spike has 2 independent paths converging simultaneously (gas behavioral breakpoint + UI exhaustion wave).
+
+*Full detail in CARL OUTBOX.md*

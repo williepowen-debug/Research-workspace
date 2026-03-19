@@ -1,5 +1,256 @@
 # LIQUID STATUS
-**Last Updated:** 2026-03-18 17:31 UTC | **Agent:** LIQUID | **Status:** 🔴🔴 CRITICAL — FOMC DECISION DAY
+**Last Updated:** 2026-03-19 00:07 UTC | **Agent:** LIQUID | **Status:** 🔴🔴🔴 MAXIMUM STRESS — GULF INFRASTRUCTURE WAR + FOMC HAWKISH + 20Y AUCTION PRE-DAWN
+
+---
+
+## 🚨🚨 MARCH 18 EOD / MARCH 19 PRE-DAWN — GULF ESCALATION + FOMC RESULT
+
+### FOMC RESULT — HOLD. POWELL HAWKISH.
+- **Decision:** Fed funds held at **3.50-3.75%**. As expected.
+- **Powell tone:** HAWKISH on inflation. No pivot signal. No "we're monitoring financial conditions" dovish lean. Explicitly framing energy shock as an inflation risk, not a growth shock. This is the **no-Fed-put confirmation.**
+- **Implication for credit:** HY OAS trajectory from 328bps has no ceiling backstop. The "Fed will flinch" reprieve thesis is dead until PCE materially softens. With Brent $108+ and Ras Laffan burning, March PCE will spike — Powell just locked in higher-for-longer through at least June.
+- **Dot plot (if released):** Consistent with 0-1 cuts 2026. Stagflation trap confirmed from the podium.
+
+### 🚨 RAS LAFFAN BURNING — GULF ESCALATION TIER 2
+- **Event:** Ras Laffan Industrial City (Qatar) — on fire. This is not a border skirmish.
+- **What Ras Laffan is:** World's largest LNG terminal. Qatar exports ~77 MMT/year LNG from this facility. Processes ~40% of global LNG supply. Hosts QatarEnergy, ExxonMobil, Shell, TotalEnergies, ConocoPhillips joint ventures. Also hosts NGL, petrochemical, GTL plants.
+- **Brent:** $108+ and rising. If Ras Laffan export capacity is materially impaired, Asian LNG spot (JKM already $15.495/MMBtu in prior signal) goes parabolic. European energy crisis deepens. WTI follows Brent.
+- **Gulf sovereign fund implication:** Qatar Investment Authority (QIA) — estimated $450-500B AUM, significant UST holdings — faces dual pressure: (a) domestic emergency capital needs, (b) fiscal revenue collapse if LNG exports disrupted. **QIA becomes a forced seller of liquid assets including USTs.** This is additive to the $50-90B/month anchor selling thesis. Qatar was NOT in the original 4-anchor model (Japan, China, Korea, Gulf broadly). This is a new forced seller.
+- **Energy sector HY:** E&P companies with Gulf exposure, LNG terminals, petrochemical feedstock-dependent issuers — spreads widen sharply on supply chain disruption. Energy is ~15% of HY index. OAS from 328 could gap 15-25bps on this alone.
+
+### HY OAS — LIQ-01 CONFIRMED TRIGGERED
+- **Current level:** **328bps** (updated from 317bps Mar 12). LIQ-01 threshold = 320bps.
+- **Status:** 🔴🔴 **TRIGGERED. 8bps above threshold.**
+- **Trajectory:** 328 → **350-380bps** near-term with no Fed put + energy crisis deepening. Gulf infrastructure war adds energy sector spread blow-out on top of rate-regime pressure. CCC OAS likely through 1000bps.
+- **HYG $75P Jun:** OTM by ~$4.20 at $79.20 close. With HY OAS at 328 and climbing, Jun expiry still has time. If OAS reaches 375bps, HYG approaches $76-77 range. Position valid — monitor delta.
+
+---
+
+## MARCH 19 MAXIMUM DENSITY RISK WINDOW
+
+Three simultaneous events:
+1. **TIC January 2026 data** — Foreign UST holdings. Belgium $500B watch.
+2. **20Y bond auction** — $13B. BTC target: >2.0x. Tail risk: >4bps = devastating.
+3. **Initial claims** — Leading labor indicator. Any surge = LIQ-01 velocity accelerates.
+
+### 20Y AUCTION ASSESSMENT — BRENT $108 + RAS LAFFAN + NO FED PUT
+
+**Demand picture:**
+- **Gulf sovereign funds:** QIA (Qatar) now a potential emergency seller. Saudi SAMA below fiscal breakeven even at $108 (breakeven ~$80, but war spending surge elevates it). UAE ADIA similarly stressed. Gulf recycling into the 20Y specifically collapses when (a) fiscal pressure = sell liquid assets, and (b) energy infrastructure uncertainty means capital preservation over duration risk.
+- **Japan (life insurers):** BOJ hold confirmed. JGB yields rising still. USD/JPY FX hedge cost elevated. Japanese life insurers — the natural 20Y buyers — have been reducing UST exposure due to FX hedge drag. No catalyst to return at $108 oil + hawkish Fed.
+- **Domestic buyers:** Retail investor fatigue (-30% YoY UST purchases, per prior signal). Pension/ALM buyers were the 30Y bid at 4.87% — but 20Y is belly, not long end. Less ALM-attractive.
+- **Primary dealers:** Stuck with inventory from prior weak auctions. Dealer balance sheets constrained.
+- **Fed:** NOT buying. QT still active.
+- **Assessment:** 20Y BTC **<2.0x probable**. Prior Feb 20Y was "disastrous tail." Two consecutive record Treasury buybacks ($14.7B + $15B) front-end concentrated — Treasury is not backstopping the belly directly. This auction is flying blind into maximum demand destruction.
+- **Tail risk:** If BTC <1.9x or tail >5bps → market dislocation signal. Could force emergency Treasury communication. Watch for 20Y yield to gap 10-20bps above WI.
+
+### TIC JANUARY 2026 — BELGIUM $500B WATCH + GULF CHAOS OVERLAY
+
+**Pre-war baseline (January 2026):**
+- TIC Jan = data from BEFORE Hormuz closure (late Jan/Feb onset). This is the **structural baseline** — how much were foreigners selling BEFORE the war?
+- If TIC Jan shows Belgium (Euroclear proxy) declining from ~$500B toward $450-480B range = European official sector was already in structural exit BEFORE war. This confirms the demand hole is secular, not cyclical.
+- **Gulf states in Jan:** Below fiscal breakeven (~$80/bbl) even before war premium. If Saudi/UAE/Qatar show net selling in Jan = confirms involuntary structural selling.
+- **China:** ~$750-780B range. Any drop below $750B = meaningful escalation of disengagement.
+- **Japan:** BOJ hold through Mar — life insurers still running FX hedge drag. Any Japan net selling in Jan confirms JGB/UST rebalancing thesis.
+
+**Gulf chaos overlay on TIC:**
+- TIC Jan = snapshot. But the **market interpretation** will be forward-looking: if Jan (calm baseline) shows $40-60B of foreign selling, the CURRENT rate (post-Ras Laffan, post-Hormuz, post-FOMC hawkish hold) is running at $70-100B/month.
+- TIC Jan weak + Ras Laffan burning = **demand hole thesis upgraded to $70-100B/month** from current $50-90B estimate.
+- **Belgium $500B watch:** If Belgium shows material decline, Euroclear custodial data suggests European sovereign wealth and central bank selling. Combined with Gulf — this is a global coordinated exit from UST duration. Not coordinated by intent, but by coincidence of incentive structure.
+
+### TREASURY BUYBACK PATTERN — FRONT-RUNNING BAD TIC?
+
+**Pattern:**
+- March 10: $14.7B buyback — RECORD at time
+- March 17: $15.0B buyback — NEW RECORD
+- Both concentrated in **04/30/2026 - 03/15/2028** maturity range (front-end / belly)
+- Both BEFORE TIC data release (Mar 19)
+
+**Assessment:**
+- Treasury has **advance visibility** on TIC data. The Bureau of Fiscal Service aggregates foreign custody data in real-time through TIC reporting system — Treasury knows the January foreign holding picture BEFORE it publishes.
+- Two consecutive record buybacks in the maturities most vulnerable to foreign selling (2-3Y = exactly where foreign official accounts concentrate), executed the week BEFORE TIC publication = **Treasury was backstopping the demand hole they knew was coming.**
+- This is not "front-running" in the illegal sense — it's Treasury using its own balance sheet to manage market function. But it's a profound signal: **Treasury treated TIC January data as information requiring active intervention before release.**
+- If TIC Jan shows $50B+ of foreign selling AND Treasury was already buying back $30B in two weeks = Treasury was absorbing roughly 60% of one month's foreign selling in buyback operations. Unsustainable at scale.
+- **Structural implication:** If foreign selling accelerates to $70-100B/month (post-Ras Laffan), Treasury would need to run $50-70B/month in buybacks to maintain market function. That's unprecedented. Either buybacks scale further (inflationary), or yields gap higher (deflationary demand destruction), or Fed pivots (current Powell tone: no).
+
+---
+
+## UPDATED THRESHOLDS
+
+| Threshold | Level | Current | Status |
+|-----------|-------|---------|--------|
+| LIQ-01 (HY OAS) | 320bps | **328bps CONFIRMED** | 🔴🔴 TRIGGERED +8bps |
+| LIQ-01 next target | 350bps | 328bps | 🔴 22bps away — no backstop |
+| CCC OAS alert | 1000bps | 969bps [Mar 9] + rising | 🔴 Likely through 1000bps |
+| VIX spring release | 35+ | ~27-29 (estimate post-FOMC) | 🟠 Coiled, building |
+| RRP buffer | >$5B | $0.278B [Mar 10] | 🔴 GONE |
+| 20Y BTC danger | <2.0x | TBD March 19 | ⏳ WATCH |
+| Brent danger threshold | $110 | $108+ | 🟠 2bps away from new regime |
+| 10Y yield danger | >5.0% | ~4.15-4.20% | 🟡 ~80bps away |
+
+---
+
+## UPDATED DANGER WINDOWS
+
+| Window | Risk |
+|--------|------|
+| **March 19 (TODAY)** | 🔴🔴🔴 **MAXIMUM DENSITY**: TIC Jan data (Belgium $500B watch) + 20Y auction ($13B, BTC <2.0x probable) + claims. Ras Laffan burning. Brent $108+. Powell locked in hawkish. No Fed put. |
+| **March 19 20Y auction** | 🔴🔴 If BTC <1.9x or tail >5bps = market dislocation. Treasury cannot buyback fast enough. |
+| **March 31** | Quarter-end. 20Y settlement. Zero RRP buffer. |
+| **April** | TGA drain. Trump-Xi summit. QIA emergency selling if Ras Laffan damage severe. |
+| **May** | Powell term ends. Warsh = intervention willingness collapse. BCRED Q2 structural test. |
+
+---
+
+## 🚨🚨 MARCH 18 EVENING UPDATE — GULF INFRASTRUCTURE UNDER ACTIVE ATTACK
+**Processed:** 2026-03-19 00:10 UTC | Sources: GULF_ESCALATION_MAR18_EVE.md + FOMC_MAR18_SIGNAL.md
+
+### PHASE CHANGE: Energy Infrastructure Now Active Battlefield on Both Sides
+
+**FOMC (processed):**
+- Hold 3.50-3.75% (11-1, Miran dissented). Waller flipped to hold.
+- Dot plot: median 1 cut. 7/19 see 0 cuts (one dot from zero-cut median).
+- Core PCE raised 2.5→2.7%. Stagflation explicitly on risk chart.
+- Powell: "If we don't see progress, you won't see the cut." Oil "will push up overall inflation."
+- **Powell said "too soon to know" re: Iran at 2:30 PM. By 4:00 PM Gulf infrastructure was under missile attack.**
+- 10Y: 4.259% (+5.7bps). VIX: 24.40 (+9%). PPI +0.7% MoM — 2x expected. Core PPI 3.9% YoY.
+
+**Gulf Escalation (processed):**
+1. Israel (US consent) struck **South Pars** — ~12% of Iran gas production offline.
+2. Iran retaliated: **Ras Laffan** (Qatar LNG) — extensive damage confirmed, fires visible in OSINT. **World's largest LNG export terminal.**
+3. Iran fired 4 ballistic missiles at Riyadh (intercepted). Drone strike on eastern Saudi gas facility. Aramco evacuating Samref/Yanbu.
+4. IRGC declared ALL GCC energy facilities "direct and legitimate targets." Named: Samref, Jubail, Al Hosn UAE, Mesaieed Qatar.
+5. **Brent $108+.** Diesel >$5/gal US — first time since 2022.
+
+---
+
+### RAS LAFFAN — GLOBAL LNG SUPPLY DISRUPTION MAGNITUDE
+
+Qatar is the world's largest LNG exporter. Ras Laffan Industrial City is the **primary** LNG complex — essentially all of Qatar's liquefaction capacity.
+
+| Metric | Estimate | Basis |
+|--------|----------|-------|
+| Qatar LNG exports | ~77 MT/yr | ~2024 baseline |
+| Global LNG trade | ~420 MT/yr | IEA/industry consensus |
+| **Qatar share of global LNG** | **~18-22%** | Direct calculation |
+| Ras Laffan as % of Qatar capacity | **~95%+** | Ras Laffan = primary complex |
+| **Effective global LNG offline** | **~18-22%** | If Ras Laffan fully offline |
+
+**Prior QatarEnergy force majeure** (from WILL briefings) had already disrupted. This is kinetic strike damage — not just shipping disruption. Repair timeline: weeks to months minimum.
+
+**Demand-side exposure:**
+- Japan: ~30% of LNG from Qatar
+- South Korea: similar dependence
+- Taiwan: May procurement gap — now potentially unfillable
+- Europe: entering refill season with primary LNG supplier damaged; Germany/France at ~20-21% storage
+
+**Financial transmission (LIQUID domain):**
+- JKM spot prices spike → Japan import costs surge → trade deficit → life insurer repatriation → UST selling pressure acceleration
+- Korean/Taiwanese industrial shutdowns = Asia-Pacific credit stress
+- European gas price spike → ECB forced into impossible position (inflation + recession simultaneously)
+- TSMC power vulnerability → equity market tail risk (semiconductor supply chain)
+
+---
+
+### BRENT PRICE TARGETS — REVISED
+
+| Scenario | Brent Level | Probability |
+|----------|-------------|-------------|
+| Current (live) | $108+ | Confirmed |
+| Open tomorrow (Mar 19) | $110-115 | High if overnight strikes continue |
+| If Aramco/UAE struck | $120-130+ | IRGC threats active, not theoretical |
+| Scenario D (GCC destabilization) | $130-150 | Rising — was 5%, now 15-20% |
+
+**Prior target was $100-110 sustained.** Revised: $110-115 is the new base case open. If IRGC follows through on named-facility threats tonight, $120+ opens.
+
+---
+
+### HAMILTON NOPI RECALCULATION — BRENT SUSTAINED $108+
+
+**Framework reference:** `AGENTS/BRENT/domain/sources/HAMILTON_DEMAND_DESTRUCTION_FRAMEWORK.md`
+
+Prior NOPI=47 was calibrated to WTI $119 peak (Mar 9) vs $75 behavioral reference.
+
+| Sustained Price | NOPI (ln × 100 vs $75 ref) | GDP Drag (Hamilton) | Analog |
+|----------------|---------------------------|---------------------|--------|
+| $75 (baseline) | 0 | 0 | No shock |
+| $100 (prior estimate) | ~28.8 | -1.8 to -2.5pp | 1990 Gulf War territory |
+| **$108 sustained** | **~36.5** | **-2.8 to -3.7pp** | Above 1990, below 1979 |
+| $115 sustained | ~42.7 | -3.0 to -4.3pp | Approaching 1979 Iran territory |
+| $120 sustained | ~47.0 | -3.0 to -4.9pp | 1979 Iran Revolution analog (prior peak) |
+
+**Key revision:** Sustained $108 Brent = NOPI ~36-37 — this is ABOVE the 1990 Gulf War episode (NOPI=32.6, GDP drag -3.7pp). The GDP trough timeline (Q1 2027) is UNCHANGED — Hamilton's lag structure is back-loaded regardless. But the magnitude of peak drag at lag 4 increases with sustained price.
+
+**Critical for LIQUID:** The "sustained" qualifier matters more than the level. Prior NOPI=47 used the $119 spike, but a sustained $108+ means:
+1. No mean-reversion relief in consumer/business budgeting
+2. CPI embeds the price at each monthly print (April, May, June CPI all show $108+ oil)
+3. Fed is trapped deeper — each month of $108+ Brent = 1 additional month of "too soon to know" becomes "it's too late to ignore"
+4. HY OAS convergence to LIQ-01 (320bps) is now more certain, not slower
+
+---
+
+### KUWAIT CURTAILMENT (MAR 20) — PHYSICAL INTERACTION
+
+Kuwait tanks tops confirmed as Mar 20 crisis date — 2.58 mbpd offline.
+
+**Prior context:** Kuwait storage crisis was tracking independent of Iran/Qatar escalation. Now:
+- Kuwait physical curtailment (tank tops) hits **Mar 20 — tomorrow**
+- This is forced, not voluntary — Kuwait cannot pump what it cannot store
+- Kuwait fiscal breakeven: ~$65-70/bbl. With oil at $108, Kuwait is generating surplus — BUT physical production is curtailed regardless
+- **Export revenue paradox:** High price, no volumes = Kuwait sovereign accounts degrading despite high spot price
+
+**For Gulf anchor thesis (FLOW-ZHAO-12):**
+- Kuwait historically recycled petrodollar revenues into UST/agency/equity
+- With physical exports offline (tank tops), revenue flow **collapses even at $108**
+- Kuwait UST buying = likely NEGATIVE for March, further widening the demand hole
+- Combined with DIFC operational disruption (Citi/StanChart/HSBC evacuated) = Gulf petrodollar plumbing physically disrupted
+
+**Mar 20 interaction with Ras Laffan damage:**
+- Kuwait oil curtailment (Mar 20) + Qatar LNG offline + IRGC threatening Aramco = GCC production simultaneously offline across multiple countries
+- Additive supply disruption: total Gulf offline likely expands past 7.0 mbpd (BRENT's prior estimate)
+- Brent price support floor rises as physical barrels evaporate
+
+---
+
+### LIQ-01 / HYG POSITION — REVISED ASSESSMENT
+
+**Prior:** HY OAS 317bps (Mar 12 FRED) — 3bps below 320bps trigger.
+
+**With Brent sustained $108+ and FOMC confirmed higher-for-longer:**
+- LIQ-01 trigger probability: **HIGH** — VIX 24.40 (+9%) + oil shock + FOMC stagflation chart = convergence
+- FOMC dot plot now stagflation-encoded: inflation raised, 0-cut minority one dot from majority
+- April/May CPI prints will embed $108+ Brent → core PCE stays elevated → Fed trapped
+- Mar 13 HY OAS (releases Mar 16): almost certainly ≥320bps given today's risk-off
+
+**HYG position (Jun $75P x10):**
+- OTM by $4.20 at last confirmed close ($79.20 on Mar 14)
+- Thesis accelerating. Gulf escalation = oil shock + credit tightening + financial plumbing disruption
+- **Do NOT exit.** Mar 19 BOJ decision + TIC data + 20Y auction = maximum-density risk window still live
+- Consider: roll to Sep/Dec to capture Hamilton lag-3/lag-4 GDP damage (peak Q1'27)
+
+---
+
+### DANGER WINDOWS — UPDATED
+
+| Window | Risk | Status |
+|--------|------|--------|
+| **Mar 19 (TOMORROW)** | 🔴🔴🔴 **TRIPLE THREAT**: 20Y bond auction ($13B) + BOJ decision + TIC Jan data + Kuwait physical curtailment (tank tops). If overnight Gulf strikes continue, Brent opens $110-115 before auction. | CRITICAL |
+| **Mar 19 overnight** | IRGC named-facility strikes threatened "in coming hours" — Samref, Jubail, Al Hosn, Mesaieed. Any confirmation → $120+ open. | ACTIVE THREAT |
+| **Now → Mar 31** | Gulf petrodollar plumbing disrupted: Citi/StanChart/HSBC evacuated + Kuwait revenues offline + Ras Laffan offline = FLOW-ZHAO-12 demand hole widens. | LIVE |
+| **April CPI** | First CPI print embedding $108+ Brent. Fed trapped. | CERTAINTY |
+| **Apr 20-25** | Japan March trade balance — LNG crisis now 5x worse than modeled (Ras Laffan + Hormuz). Life insurer repatriation acceleration. | UPGRADED |
+
+---
+
+### SCENARIO PROBABILITY UPDATE
+
+| Scenario | Prior | Revised | Driver |
+|----------|-------|---------|--------|
+| Full Stagflation Spiral (base) | 45% | **50%** | FOMC confirms trap; oil $108+ sustained |
+| Managed Decline / Muddle-Through | 25% | **15%** | Infrastructure kinetically targeted = harder to "muddle" |
+| Policy Rescue | 15% | **10%** | Powell trapped. Iran not negotiating. |
+| Acute Financial Dislocation | 10% | **10%** | Unchanged — requires DIFC escalation confirmation |
+| **War Escalation / Scenario D** | **5%** | **15%** | IRGC named targets, active kinetic strikes on GCC infra |
 
 ---
 

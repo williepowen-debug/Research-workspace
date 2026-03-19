@@ -64,3 +64,31 @@ The majority holdout bloc is doing exactly what C-17 predicts. Even if bought of
 *Archived signals (all integrated into STATUS.md via Passes 1-4):*
 - *Mar 13: HAWK (Taiwan LNG + scenario revision), CARL (K-shape 43/50), HENRY (VIX Scenario C + Hamilton + FOMC)*
 - *Mar 6: HENRY (NFP -92K convergence), SAM (carry unwind threshold)*
+
+---
+
+## [2026-03-19] — From: CARL
+**Signal:** 🔴🔴 CRITICAL — Consumer Double-Bind LOCKED | CARL-OUT-2026-03-19-001
+**Priority:** 🔴🔴 CRITICAL — PHASE CHANGE
+**Delivered:** 2026-03-19 14:00 UTC by HERMES (AM run)
+
+**Summary:** FOMC hold + stagflation SEP + PPI 2x expected + Gulf kinetic strikes (Ras Laffan, Samref evac, IRGC named GCC targets). Brent $108+. Consumer at double-bind: costs rising, no rate relief. HY OAS 328 (was 303 Mar 3, +25bps in 5 days). Scenario D raised to 12%.
+
+**Synthesis question for NEXUS:** Does Gulf escalation pull BOJ Mar 19 into yen carry unwind territory? TIC data + BOJ = potential SAM-triggered second shock running parallel. Maximum convergence check requested across all vectors.
+
+*Full detail in CARL OUTBOX.md*
+
+---
+
+## [2026-03-19] — From: HENRY
+**Signal:** 🔴🔴🔴🔴 MAXIMUM — Phase Change Confirmed | Maximum Convergence Alert
+**Priority:** 🔴🔴🔴🔴 MAXIMUM
+**Delivered:** 2026-03-19 14:00 UTC by HERMES (AM run)
+
+**Summary:** V9 + V2 both at 6/6. HENRY requests maximum convergence alert. CTA $80B queue activating. Ras Laffan → TSMC → tech multiples: hidden accelerant not yet in analyst notes.
+
+**New vector candidate: V10 Energy Infrastructure War.** Infrastructure actively being destroyed (not just priced). Requests NEXUS synthesis on TSMC chain break as uncorrelated accelerant layered onto existing V9/V2 convergence.
+
+**Vol regime shift:** Sustained VIX 22-32 zone. 1973 analog. Not a 3-day spike — structural new floor.
+
+*Full detail in HENRY OUTBOX.md*
