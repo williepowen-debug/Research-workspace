@@ -5,11 +5,12 @@
 ---
 
 ## QUICKSTART
-Scenario C, War Day 19. Account ~$53K (+111%). **FOMC DONE — hold 3.50-3.75%, 1 cut (7-7 split with 0-cut camp). Powell: "If we don't see progress, you won't see the cut."**
-**HY OAS 328bps — RED threshold crossed.** VIX 24.40 (+9%). 10Y 4.259%.
-**TIC Jan data TOMORROW** (corrected from today). Belgium $500B watch.
-**BOJ decision + Ueda presser TOMORROW** — Yamaba delivered (Toyota full wage acceptance). Carry unwind 38% 7d.
-**PPI 0.7% MoM** (2x expected) — one-year high. Core PPI 3.9% YoY.
+Scenario C/D ESCALATION, War Day 19. Account ~$53K (+111%).
+**🔴 GULF ENERGY WAR ACTIVE** — Israel struck South Pars (70% Iran gas). Iran hit Ras Laffan (world's largest LNG terminal, "extensive damage"), fired at Riyadh, threatening ALL GCC energy. Brent $108+. IRGC: strikes "in coming hours."
+**FOMC DONE** — hold 3.50-3.75%, 1 cut (7-7 split). Powell: "If we don't see progress, you won't see the cut."
+**HY OAS 328bps RED.** VIX 24.40 (+9%). 10Y 4.259%. Diesel >$5/gal.
+**TODAY Mar 19:** TIC data + BOJ/Ueda + Claims + 20Y auction — ALL into Gulf escalation.
+**PPI 0.7% MoM** (2x expected). Core PPI 3.9% YoY.
 
 ## SESSION WORK (Mar 18 Wednesday — FOMC Day)
 - **Morning check-ins (9:00-9:45 AM ET):** All 6 complete. 5 RED, 1 ORANGE.
