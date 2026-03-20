@@ -1,0 +1,14 @@
+variable_name	data_type	allowed_values	missing_code	required	default	description
+ID	String	KB-{AGT}-NNN (sequential per agent)		Yes		Unique identifier for each knowledge base entry
+Date	Date	YYYY-MM-DD		Yes		Date the claim was logged
+Group	String	NETWORK_GROUPS from AGENTS/VOCABULARIES.tsv		Yes		Topic cluster for cross-agent filtering. Must use controlled vocabulary.
+Entity	String	CANONICAL_ENTITIES from AGENTS/VOCABULARIES.tsv preferred; free text if unlisted		Yes		Most specific entity the fact is about. Use canonical name where available.
+Fact	String	Free text (one atomic claim per row)		Yes		The claim itself — precise, sourced, quantified where possible
+Source	String	SOURCE_TAGS from AGENTS/VOCABULARIES.tsv + date preferred; free text if unlisted		Yes		Where the claim came from
+Conf	String	A1-F6 Admiralty digraph		Yes	F6	Letter (A-F) = source reliability, number (1-6) = info credibility
+Epistemic	Categorical	EMPIRICAL;ESTIMATE;ASSUMPTION		Yes	EMPIRICAL	Nature of claim
+Status	Categorical	ACTIVE;CONFIRMED;STALE;SUPERSEDED;CORRECTED		Yes	ACTIVE	Lifecycle state
+Stale_By	Date	YYYY-MM-DD or empty		No		Review/expiration date
+DerivedFrom	String	Comma-separated KB IDs or empty		No		Parent KB entries
+Vectors	String	Comma-separated refs or empty		No		Thesis connections
+Notes	String	Free text		No		Catch-all

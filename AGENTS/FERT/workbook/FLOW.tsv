@@ -1,0 +1,8 @@
+ID	From	To	Channel	Speed	Confirmed	Evidence	Notes
+FL-FERT-01	Gulf gas/LNG disruption	Fertilizer production loss	Gas → ammonia/urea production	Immediate	Yes	Qatar 77 mtpa offline, 3-5yr repair	Same gas feeds LNG exports and fertilizer plants
+FL-FERT-02	Hormuz closure	Global urea supply shock	Shipping route closure	Immediate	Yes	45% of globally traded urea transits Hormuz, ~1M tons/mo missing	Physical chokepoint — no alternative route
+FL-FERT-03	China export halt	Global supply tightening	Policy → trade flow	Immediate	Yes	MOFCOM full halt Bloomberg Mar 16	Removes swing supplier simultaneous with Hormuz
+FL-FERT-04	Fertilizer price spike	Food CPI increase	Input cost → farm gate → wholesale → retail	1-2 quarters	Estimated	1973 analog: 6-12 months	Lag is structural — planting/harvest cycles
+FL-FERT-05	Diesel price increase	Farming input costs	Energy → machinery/transport	1-3 months	Estimated	Historical correlation	Secondary channel alongside fertilizer
+FL-FERT-06	Food CPI spike	Social instability	Cost of living → political pressure	2-4 quarters	Estimated	Historical pattern (Arab Spring, 2008)	Feedback loop: instability → conflict extension → more supply disruption
+FL-FERT-07	Fertilizer shortage	Planting disruption	Unavailability → reduced acreage/yield	Seasonal	Estimated	NH planting NOW, window closes April	Irreversible if missed — cannot replant

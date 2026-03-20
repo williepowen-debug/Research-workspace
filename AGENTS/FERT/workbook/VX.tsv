@@ -1,0 +1,6 @@
+ID	Vector	Current_Value	State	GREEN	YELLOW	ORANGE	RED	Last_Changed	Trigger	Notes
+VX-FERT-01	Urea NOLA ($/mt)	683	ORANGE	<550	550-650	650-800	>800	2026-03-10	Hormuz closure + Gulf supply destruction	+32% from $516 pre-conflict baseline. STALE — last confirmed Mar 10.
+VX-FERT-02	China export policy	Full halt	RED	Open/quotas normal	Quotas tightened	Partial halt	Full halt	2026-03-16	MOFCOM full export halt	Bloomberg confirmed Mar 16. Removes largest swing supplier.
+VX-FERT-03	India inventory (days supply)	Unknown	YELLOW	>30 days	20-30 days	10-20 days	<10 days	2026-03-20	49% nitrogen from Gulf — structural vulnerability	Emergency purchases not yet confirmed. Needs sourcing.
+VX-FERT-04	European plant closures (count)	Unknown	YELLOW	0	1-2	3-5	>5	2026-03-20	Energy-cost-driven shutdowns	Needs sourcing and count.
+VX-FERT-05	US gas Henry Hub ($/MMBtu)	Ref BRENT	YELLOW	<3.50	3.50-4.50	4.50-6.00	>6.00	2026-03-20	See BRENT agent for current	Cross-reference with BRENT/HENRY for current value.

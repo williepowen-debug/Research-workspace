@@ -64,12 +64,20 @@ Sub-agents own detail → distill upward to parents → lateral only when transm
 ## Trading: FORGE
 `FORGE/STATUS.md` — converts research → positions → P/L. Sub-folders per trade (KRE/, WAL/, etc.)
 
+## Commodity / Sector
+
+| Agent | Domain | Status | Key |
+|-------|--------|--------|-----|
+| **FERT** | Fertilizer / food security | 🔴 | Urea +32%, China export halt, CF structural bull. Qatar LNG = permanent supply destruction. |
+
 ## Transmission
 ```
 LABOR → CARL → REGINALD → repricing
 LIQUID amplifies any stage | HENRY = speed gauge
 SAM + ZHAO + HANS = parallel global risk | HAWK = external shock
 HAWK (military) → BRENT (oil fundamentals) → CARL (gas pumps) + LIQUID (energy credit) + HENRY (inflation) + SAM (Japan energy)
+BRENT (energy) → FERT (fertilizer/food) → CARL (consumer food CPI) + HENRY (inflation)
+HAWK (geopolitical) → FERT (China policy, Gulf damage)
 SHADE = insurance plumbing under BROCK/REGINALD | feeds LIQUID on systemic
 NEXUS synthesizes across all → convergence/contradiction → PROME
 HERMES carries signals between all agents (OUTBOX → INBOX, 2x daily)
