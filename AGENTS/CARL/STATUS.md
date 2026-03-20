@@ -1,5 +1,41 @@
 # CARL STATUS
-**Updated:** 2026-03-19 00:10 UTC (FOMC_MAR18 + GULF_ESCALATION_MAR18_EVE processed: **🔴🔴 PHASE CHANGE. FOMC held + hawkish dot (1 cut, 7 doves from 6). PPI +0.7% MoM (2x expected). Gulf infrastructure now active battlefield: Brent $108+, diesel >$5/gal (first since 2022), Ras Laffan burning, Aramco evacuating. Gas $3.79 → $4+ window COMPRESSED from 1-2wks to DAYS. Consumer double-bind: $4+ gas AND no rate cuts AND PPI feeding forward. HY OAS 328 trajectory accelerates. Savings rate 4.5% (Jan tax-bump) will revert — real buffer 3.6% (Dec). Credit stress acceleration timeline: Q2 primary window confirmed with high confidence.**) | Prior: 2026-03-17 17:30 UTC
+**Updated:** 2026-03-20 13:15 UTC (Daily check-in Mar 20)
+
+---
+## CHECK-IN — Mar 20 (8:15 AM ET)
+
+### 1. New Data Since Mar 19
+| Item | Data | Source |
+|------|------|--------|
+| **Student Loan Default — RECORD** | **7.7M defaulted on $181B (Dec 2025). 9.2M in default + 2.4M late-stage DQ as of early Mar = 11.6M seriously delinquent/defaulted out of 43M (27%).** SAVE plan court-ordered end → 7M more borrowers forced to resume payments with 7 months accrued interest. | NYT / Ed Dept / NPR, Mar 20 |
+| **Gas: $3.91 national** | AAA Mar 20: $3.91 (↑$0.12 from $3.79 Mar 17 = +$0.04/day). **$4 breakpoint: ~2-3 days at current pace.** | AAA via 96.3XKE, Mar 20 |
+| **Diesel: $5.10 national** | Confirmed Mar 19. Sustained >$5 since Mar 18. | MacroMicro AAA data |
+| Non-QM DQ rising | Fitch: 2023-2025 vintages showing deterioration. Sector-wide performance shift. Confirms SIG-002. | NMP / Fitch, Mar 19 |
+| Existing Home Sales Feb | +1.7% MoM to 4.09M SAAR, median $398K. Modest. PRE-oil-shock data — irrelevant to forward trajectory. Pending +1.8%. | NAR Mar 10/13 |
+| NYT K-shape coverage | NYT explicitly uses "K-shaped economy" framing to explain student loan DQ record. Mainstream narrative catching up to our thesis. | NYT Mar 20 |
+
+### 2. Threshold Check
+| Metric | Current | Threshold | Distance | Status |
+|--------|---------|-----------|----------|--------|
+| Subprime Auto 60+ DQ | 7.1% | 7.0% RED | **BREACHED** | 🔴🔴 |
+| CC 90+ DQ | 12.70% | 13.74% GFC | 1.04pp (92%) | 🔴 — Q1 data due Apr will tell |
+| Fannie MF DQ | 0.74% | 0.80% GFC | 6bps | 🔴 — IMMINENT |
+| Student 90+ DQ | 9.6% → **LIKELY BREACHED 10%** | 10% | Was 0.4pp — Ed Dept data suggests crossed | 🔴🔴 **NEW BREACH LIKELY** |
+| Gas pump | **$3.91** | $4.00 behavioral | **$0.09 = ~2 days** | 🔴🔴 IMMINENT |
+| HY OAS | 328 | 350 (GFC early) | 22bps | 🔴 — watch velocity |
+
+**Student loan 10% threshold:** Ed Dept says 9.2M default + 2.4M late-stage DQ = 11.6M/43M = 27% seriously troubled. Our NY Fed 90+ DQ metric (9.6% in Q4 2025) almost certainly breached 10% by now given SAVE unwinding. Will confirm with Q1 NY Fed data (due June). **Upgrading to LIKELY BREACHED.**
+
+**Oil shock acceleration:** Gas +$0.12 in 3 days ($3.79→$3.91) = +$0.04/day. At this pace, $4.00 hits Mar 22-23 (this weekend). The behavioral breakpoint — fuel-vs-food tradeoffs for bottom 60% — arrives before the UI exhaustion cliff (Mar 24). These two events hitting simultaneously (Mon Mar 24) = compounding stress event. Diesel $5.10 confirmed = trucking surcharges already flowing.
+
+### 3. Cross-Agent Integration
+- **LABOR:** UI exhaustion cliff Mar 24 = **MONDAY — 4 DAYS.** Gas $4 likely hits same weekend. Dual stress event.
+- **Oil shock STRUCTURAL:** Best case 80-85% capacity by Q4 2026. $4/gal was "imminent" — now confirmed days away at $3.91 (+$0.04/day).
+- **HY OAS 328 RED:** No new print since Mar 13. Next read critical — captures both FOMC hold AND Gulf escalation. Expecting 340-360 range.
+
+---
+
+**Prior update:** 2026-03-19 00:10 UTC (FOMC_MAR18 + GULF_ESCALATION_MAR18_EVE processed: **🔴🔴 PHASE CHANGE. FOMC held + hawkish dot (1 cut, 7 doves from 6). PPI +0.7% MoM (2x expected). Gulf infrastructure now active battlefield: Brent $108+, diesel >$5/gal (first since 2022), Ras Laffan burning, Aramco evacuating. Gas $3.79 → $4+ window COMPRESSED from 1-2wks to DAYS. Consumer double-bind: $4+ gas AND no rate cuts AND PPI feeding forward. HY OAS 328 trajectory accelerates. Savings rate 4.5% (Jan tax-bump) will revert — real buffer 3.6% (Dec). Credit stress acceleration timeline: Q2 primary window confirmed with high confidence.**) | Prior: 2026-03-17 17:30 UTC
 **Overall Status:** 🔴🔴 CRITICAL — **NEW (Mar 17 afternoon): FERTILIZER MARKET SEIZURE. China halts nitrogen-potassium exports + Gulf 49% urea offline + Fertiglobe 6.6M tonnes trapped = triple supply shock. THIS WAS OUR PREDICTED CALENDAR TRIGGER. Food CPI timeline PULLED FORWARD to Q2-Q3 (was Q3-Q4). CF Industries (Jun $115C, +129%) = direct beneficiary of US domestic nitrogen premium. Mortgage K-shape accelerating: FHA DQ >11%, 30yr rate 6.86% (highest since Nov, up from 6.45% in Jan). Chicago Fed confirms consumer stall: ZERO real retail growth since September — consumer was already flatlined BEFORE oil shock.** | **Prior (Mar 17 morning): HY OAS 328bps RED threshold crossed. Gas $3.79, $4 breakpoint ~1-2wks. FOMC boxed (PCE 3.1% + GDP 0.7%).**
 
 **Summary:** Consumer fragility at extreme levels — NOW ENTERING PHASE CHANGE. Subprime auto 60+ DQ **7.1% — ALL-TIME RECORD, RED threshold BREACHED**. Fannie MF DQ 0.74% (6bps from GFC peak). **GULF ESCALATION (Mar 18 evening):** Brent $108+ (post-market, likely opens $110-115). Diesel >$5/gal — first time since 2022. Gas pump $3.79 → **$4 breakpoint NOW DAYS not weeks** (Brent $108 compresses prior 1-2wk estimate). Ras Laffan (world's largest LNG terminal) burning — Qatar exports disrupted. Aramco evacuating Samref refinery. IRGC declared ALL GCC energy facilities legitimate targets. Oil shock is now a direct battlefield event, not an embargo. **FOMC (Mar 18):** Held 3.50-3.75%. Dot plot: median 1 cut (7-7 split — one shift = zero cuts). Powell boxed: "If we don't see progress, you won't see the cut." PPI +0.7% MoM same day (2x expected), Core PPI 3.9% YoY one-year high. Consumer double-bind now locked: $4+ gas AND no rate cuts AND PPI price pipeline feeding forward into April CPI. No relief valve on either dimension. Gas squeeze NOW STRUCTURAL: Hormuz actively mined, WTI→Brent $108+, diesel $5+/gal — no relief until military resolution. DOGE RIF: 327K permanent separations confirmed = localized demand destruction. NFP -92K + **continuing claims 1,850K (Mar 13 first clean read — YELLOW 1,900K NOT triggered, ↓21K)**. UI exhaustion cliff Mar 24 locked. Stagflation trap deepens: GDPNow **2.7%** (Mar 13, COUNTER-trend UP from 2.1% Mar 6), wages sticky (+3.8% YoY) while payrolls break. **Retail sales Jan -0.2% MoM — confirms demand weakness (PRE-oil-shock data).** 850K mortgages in 90+/foreclosure — highest since July 2022. No policy backstop. **NEW (Mar 12):** CPI Feb +0.3% MoM / 2.4% YoY, core +0.2%/2.5% — in-line, PRE-OIL-SHOCK data. Apparel +1.3% = tariff pass-through live. Market SOLD OFF anyway — stagflation fear overrides good CPI print. April CPI = real shock (oil + tariffs). PROME DD-3 research: savings rate **3.6%** (CORRECTED from 4.5%) = 2008 stress profile match. Baker (2018 JPE): leverage amplifies consumption elasticity 25% — applies directly to bottom 60%. Demand destruction arrives **2-3 months not 4+** — pulls Q3 projections to Q2. $4/gallon behavioral breakpoint: currently $3.40 → ~4-8 weeks at current rate (+$0.45/wk). **Prior (Mar 11):** Hormuz actively mined + Dubai airport drone strike + Iran declares financial institutions as military targets — oil shock becomes structural, not a spike. Fertilizer stranding now locked (not probabilistic) → food CPI Q3-Q4 HIGH-CONFIDENCE. Iran financial institution threat = NEW ABS servicer operational risk. Danger window pulled forward: Q2 leading edge DQ conversion (was Q3 primary). **Prior (Mar 10):** Goeasy (GSY.TO) **REVISED -56.97%** — dividend SUSPENDED, outlook WITHDRAWN, $233M writeoff, NCO 13% (2025) → MID-TEENS (2026). SoFi 2025-1 CNL trigger BREACHED at 2.6% — first ever. Electronics tariff pass-through LIVE: TVs +25%, laptops +15-25%, appliances +20-30%. ⚠️ Auto ABS originate-to-distribute fraud patterns re-emerging (Unicus Research, not public).

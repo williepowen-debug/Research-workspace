@@ -1,6 +1,67 @@
 # OTTO STATUS
 
-**Signal Status:** 🔴🔴 CRITICAL — ESCALATING | **Last Updated:** 2026-03-17 16:25 UTC
+**Signal Status:** 🔴🔴 CRITICAL — ESCALATING | **Last Updated:** 2026-03-20 13:55 UTC
+
+---
+
+## MAR 20 CHECK-IN #2 (2026-03-20 13:55 UTC)
+
+### 1. CVNA — Put Volume Spike
+- **Mar 19: 155,794 put options acquired — 92% above typical daily volume** (81,195). Bearish positioning accelerating post-FOMC.
+- Stock ~$295 (+1.3% on Mar 19) but MF notes "contracting profit margin" narrative gaining traction. Still -35% YTD.
+- Motley Fool (Mar 18): framing CVNA as "4,300% comeback" story — bullish retail narrative vs. institutional put buying = classic divergence.
+- **No new litigation/discovery output since Mar 15 Production 1.** Still waiting for public filings from DriveTime docs.
+
+### 2. CFPB — Second Court Forces Continued Funding (Mar 16)
+- **🆕 ABA Banking Journal (Mar 16): Second federal judge ruled Trump admin must continue funding CFPB.** Funding secured through end of Q2 FY2026 (March).
+- Admin expected CFPB to run out of funds in early 2026; planned to transfer enforcement to DOJ.
+- **Assessment:** Courts keeping CFPB technically alive but agency remains non-operational for enforcement. Transfer to DOJ = slower, less specialized enforcement. No change to "functionally dead" status for subprime auto oversight.
+
+### 3. Auto Loan Fraud — Florida Ring Bust + $10B Projection
+- **🆕 DealershipGuy (Mar 4): Florida fraud ring busted — $1.5M auto loan scheme across 2 dealerships.** Underscores retail-level fraud proliferation.
+- **🆕 GetOutOfDebt.org: Credit washing fraud now projected to hit $10B in 2026** (up from $9.2B). #CreditHacks social media pipeline continuing to scale.
+- Iowa dealership (Center Point) sued for loan fraud Mar 2 — geographic spread beyond traditional hotspots.
+- **Cockroach thesis reinforced:** Fraud operating at every level — institutional (Tricolor, First Brands), dealer (FL ring, Iowa), and retail (credit washing). Pipeline pollution confirmed.
+
+### 4. ABS/Issuance
+- **S&P forecasts 4% drop in auto ABS issuance in 2026** (~$122B, down ~$5B YoY) due to projected lower vehicle sales. Subprime spreads stabilized early 2026 but performance still deteriorating.
+- S&P: doesn't expect ABS sector to set another record in 2026. Deep subprime = 1/3 of outstanding loans.
+- No new monthly DQ data beyond 7.1%. Next Fitch read likely early April.
+
+### 5. Post-FOMC Assessment
+- Hawkish hold confirmed (see prior check-in). Higher-for-longer = no rate relief for auto borrowers.
+- **CVNA put spike is first market signal of institutional bearish repositioning post-FOMC.** Watch for spread widening in subprime ABS tranches over next 2 weeks.
+
+---
+
+## MAR 20 CHECK-IN (2026-03-20 13:45 UTC)
+
+### 1. FOMC Outcome (Mar 18-19)
+- **Fed held rates at 3.5%-3.75%.** Dot plot: median expects ONE cut in 2026 (down from two in Dec). 7 of 19 participants see NO cuts this year (up from 6).
+- Higher inflation + slower growth projections for 2026. "Elevated uncertainty" language retained — Iran war + oil at $100 cited.
+- **Assessment:** Hawkish hold confirmed. Higher-for-longer = continued pressure on subprime borrowers. No relief for auto affordability. Private credit stress catalyzed as expected.
+
+### 2. CVNA Update
+- **Stock ~$291 today, down ~35% YTD.** Motley Fool (Mar 19): "brutal start to 2026." Forward sales multiple 2.48x — still above industry.
+- No public output from Mar 15 Discovery Production 1 yet. No new Hindenburg/Gotham reports.
+- Still pursuing Stellantis dealership acquisitions ($160M+) while under fraud investigation — aggressive posture unchanged.
+
+### 3. Auto Loan Fraud — "Credit Washing" Explosion
+- **🆕 NEW VECTOR:** Credit washing fraud up **162% in 2 years** — now appearing in **1.7% of all auto loan applications** (getoutofdebt.org, Feb 27).
+- Automotive News (Feb 27): #CreditHacks proliferating on TikTok/social media. Scammers file false identity theft claims with FTC to erase negative marks, then qualify for new auto loans.
+- AI tools being used to optimize and legitimize fraudulent claims.
+- **Auto loan fraud losses: $9.2B** (CBT News). With CFPB functionally dead, no federal enforcement check on this.
+- **Thesis fit:** Cockroach pattern — fraud isn't just at the institutional level (Tricolor, First Brands). It's now retail-scale and social-media-driven, polluting the origination pipeline that feeds ABS.
+
+### 4. CFPB Status
+- CFPB received funding through end of Q2 FY2026 (March), staving off furloughs (GovExec, Jan 16). But agency still pushing to shut itself down per court filings.
+- Mass layoffs (~90% of staff) held up in federal court for most of 2025. Litigation ongoing. Agency remains functionally non-operational for enforcement.
+
+### 5. ABS/DQ — No New Monthly Read
+- No new monthly DQ data beyond 7.1% (Feb). Next Fitch monthly read likely early April.
+- Subprime performance "projected to remain elevated rather than meaningfully improve" per DeFi Solutions industry overview.
+
+---
 
 **Summary:** **CONSUMER DURABLE GOODS DEMAND DESTRUCTION CONFIRMED** — RV market -50% value collapse (leading indicator); FT: car ownership costs "at breaking point"; gas approaching $4 behavioral breakpoint; insurance + maintenance + financing all rising simultaneously | **Private Credit Cascade continues:** JPM marking down $22.2B software collateral (Mar 16); Blue Owl OTIC permanently gated ($527M); MS/BlackRock/Cliffwater all restricting | Fitch 2H25 Monitor: subprime 60+ DQ 6.74% YE25 + "deterioration expected 2026" | Car-Mart 30+ DQ surged 4.4% | FOMC underway TODAY | CVNA discovery output pending | DQ 7.1% (RED) | NFP -92K
 
@@ -142,70 +203,13 @@ Recovery ratio 30.58% (vs 41% benchmark). Construction employment -92.7% YoY. S&
 
 ---
 
-## MAR 17 SIGNAL UPDATE #2 (2026-03-17 16:25 UTC) — CONSUMER DURABLE GOODS
-
-### SIG-2026-03-17-001: Two Consumer Durable Goods Stress Signals
-
-**SIGNAL 1 — FT: Car Ownership Costs "At Breaking Point"**
-- Gas approaching $4/gal behavioral breakpoint (Scenario D oil shock accelerating)
-- Insurance + maintenance + financing costs all rising simultaneously
-- Multi-vector affordability squeeze, not a single-item problem
-- **Transmission:** Hits subprime auto borrowers first → DQ acceleration → ABS stress
-- **Context:** At 7.1% DQ, this is gasoline on a fire. Each cost vector independently manageable; simultaneous = demand destruction threshold.
-
-**SIGNAL 2 — RV Market Collapse: LEADING INDICATOR**
-- **Data point:** 2024 Winnebago Vista, 8,113 miles, MSRP $239,660 → current price $120,000
-- **50% value collapse in ~1.5 years** — this is not depreciation, this is demand destruction
-- **Why this matters:** RV buyers are upper-middle to wealthy consumers. They pull back FIRST. Mass market follows 6-12 months later.
-- **Historical pattern:** RV demand leads consumer discretionary by ~6-12 months. If wealthy consumers are dumping $120K assets at 50% loss, mass market consumer stress is baked in for late 2026-early 2027.
-- **Amplifier:** Oil shock (Scenario D) makes RV ownership operationally unaffordable. $4+ gas on a 7-8 MPG motorhome = $300+ per tank. Permanent demand suppression.
-
-**ASSESSMENT:** Durable goods demand destruction is not a forecast — it's present-tense. The RV collapse is the wealthy canary. Auto affordability squeeze hits the subprime pool directly (our primary thesis). These signals are additive and accelerating.
-
-**SIGNAL TO HERMES → NEXUS:** Consumer sector stress now confirmed at two price points (ultra-premium RV and mass-market auto). Cross-agent synthesis needed — CARL (auto DQ acceleration), HENRY (consumer spending velocity), LIQUID (discretionary credit exposure).
-
----
-
-## MAR 17 CHECK-IN UPDATE (2026-03-17 13:45 UTC)
-
-### 1. ABS/Subprime Auto Data
-- **Fitch 2H25 ABS Monitor (Mar 12):** Subprime 60+ DQ = 6.74% at year-end 2025. Our Feb 2026 monthly read = 7.1%. Both confirm acceleration. Fitch: "expects performance to deteriorate in 2026 vs 2025" — tariffs, cooling labor market, affordability.
-- **Prime 60+ DQ rose to 0.43%** — stress bleeding up the credit stack (confirms SoFi CNL signal).
-- **Fitch: newer subprime vintages improving but still worse than pre-pandemic; deeper subprime facing more pressure.**
-- **Car-Mart (CRMT) Q3 FY2026 (Mar 12):** 30+ DQ surged to **4.4% from 3.7%** — deep subprime dealer stress. Winter Storm Fern accelerated but underlying weakness clear.
-- **Congressional Research Service (Mar 11):** Report on auto loan market policy — longer terms = higher DQ even controlling for credit quality. Confirms structural affordability thesis.
-- No new monthly DQ read yet beyond 7.1% (Feb). Next read likely early April.
-
-### 2. Carvana (CVNA)
-- **Mar 15 Discovery Production 1:** No public output yet. DriveTime internal docs were compelled — watch for leaks/filings.
-- **Insider sell:** Thomas Taira (President, Special Projects) sold 953 shares Mar 9. Small but notable during litigation window.
-- **CVNA targeting 3M annual units + 13.5% EBITDA margin** at Raymond James conference — aggressive guidance while under fraud investigation.
-- Stock split (5:1) vote May 5, record May 6 — already priced in. No new Hindenburg/Gotham activity.
-
-### 3. Fraud/Bankruptcy
-- **No new cockroach (case #5) found this week.** MFS still developing.
-- **First Brands:** Auction process targeting end-March conclusion. No new filings found since Mar 11 Motion to Compel.
-- **Tricolor:** Vehicle liquidation deadline Mar 31 = 2 weeks out. Bank lawsuit (JPM/Barclays/Fifth Third) proceeding.
-- **MFS UK:** No material update beyond Mar 13 (judge blocked CEO's administrator bid). Shortfall remains £1.3B.
-
-### 4. Private Credit — 🔴🔴 ESCALATION
-- **JPMorgan marking down software loan collateral (Mar 16):** $22.2B exposure to private credit funds. Internal models now forecast 3-5% tech-loan default spike through 2027. Margin squeeze = forced selling.
-- **Blue Owl OTIC: PERMANENTLY SHUT GATES on redemptions** (late Feb) after $527M withdrawal request. This is not a temporary cap — fund is in wind-down mode.
-- **Business Insider (Mar 12):** Private credit timeline of warning signs published — narrative mainstreaming.
-- **Morningstar (Mar 11):** "Liquidity squeeze puts lenders in tight spot" — framing the dilemma (relax caps → destroy value vs gate → panic signal).
-- **Assessment:** JPM markdowns = new transmission vector. Banks tightening leverage to private credit → forced asset sales → NAV declines → more redemptions. This is the reflexive loop we warned about. FOMC hawkish hold today/tomorrow could accelerate.
-
-### 5. FOMC (Mar 17-18)
-- Meeting underway TODAY. Presser Mar 19 2:30 PM ET.
-- Hawkish hold expected. Any language about "patient" or "higher for longer" = catalyst for private credit stress.
-
----
-
 ## PRIOR CHECK-INS (Condensed)
 
-**Mar 12:** DQ 7.1% confirmed (RED threshold crossed). SoFi CNL trigger confirmed. CVNA discovery Mar 15 imminent. First Brands auction end-March. Tricolor liquidation Mar 31. Unexecuted proposals: CARL ABS sprint, short watchlist expansion (CACC/SYF/OMF/WRLD), WAL sizing.
+**Mar 20:** FOMC hawkish hold confirmed. CVNA put volume +92% (bearish institutional positioning). CFPB: 2nd court forces continued funding but agency still non-operational. FL fraud ring bust ($1.5M). Credit washing projected $10B. S&P: ABS issuance -4% in 2026.
 
-**Mar 9-11 Key Signals:** WAL sues Jefferies $126.4M | Jefferies under scrutiny (MFS+FB) | MFS Barclays £500M confirmed | MFS £930M shortfall confirmed | First Brands CFO Graham guilty plea | SoFi CNL 2.6% triggered | Goeasy -65% + "aggressive accounting" | Experian: subprime 15.31% of originations | EDGAR monitoring live (OZK Mar 25)
+**Mar 17:** Consumer durable goods demand destruction confirmed (RV -50%, FT "breaking point"). Private credit cascade: JPM $22.2B markdowns, Blue Owl OTIC permanently gated, Fortune "$265B meltdown." Fitch 2H25: subprime 60+ DQ 6.74% YE25, deterioration expected 2026. Car-Mart 30+ DQ surged 4.4%. FOMC underway.
+
+**Mar 12:** DQ 7.1% (RED threshold). SoFi CNL triggered. CVNA discovery Mar 15. First Brands auction end-March. Tricolor liquidation Mar 31.
 
 ---
 
@@ -213,40 +217,18 @@ Recovery ratio 30.58% (vs 41% benchmark). Construction employment -92.7% YoY. S&
 
 | Date | Event | Status |
 |------|-------|--------|
-| Feb 26 | **MFS UK collapse confirmed** | 🔴 CONFIRMED |
-| Feb 18 | Carvana Q4 earnings | ✅ Miss; -24% AH |
-| Mar 2 | JPM/Barclays/Fifth Third sued over Tricolor ABS ($230M+) | 🔴 |
-| Mar 2 | **WAL 8-K filed — LAM charge-off ($42.1M)** | 🔴 |
-| Mar 4 | BCRED $3.8B redemption — met 100% via mgmt capital | 🔴 RESOLVED (no gate) |
-| Mar 4 | **Barclays £500M MFS exposure confirmed** | 🔴 |
-| Mar 5 | Blue Owl BOCC II soft gate — ending quarterly liquidity | 🔴 |
-| Mar 5 | **First Brands CFO Stephen Graham pleads guilty** | 🔴 |
-| Mar 6 | **NFP -92,000 — first negative print** | 🔴 |
-| Mar 6 | **WAL sues Jefferies $126.4M (First Brands loans)** | 🔴 |
-| Mar 9 | Elliott/SMBC/Macquarie MFS exposure published | 🟠 |
-| Mar 12 | **DQ Rate 7.1% (Feb 2026) — crosses RED threshold** | 🔴🔴 NEW |
-| Mar 11 | First Brands — Motion to Compel hearing | 🔴 |
-| Mar 13 | **CVNA 5-for-1 stock split announced** (vote May 5, record May 6) | 🟠 NEW |
-| Mar 13 | **CVNA buying Stellantis dealerships** — 6 stores, $160M+ | 🟠 NEW |
-| Mar 11-12 | **Morgan Stanley GATES North Haven fund** — first hard gate | 🔴🔴 NEW |
-| Mar 12 | **Blue Owl $1.4B forced asset sale** + DB downgrade | 🔴 NEW |
-| Mar 14 | **Fortune: "$265B private credit meltdown"** | 🔴🔴 NEW |
-| Mar 15 | **Economist: Dimon "cockroach" metaphor** for Tricolor/First Brands | 🔴🔴 NEW |
-| Mar 12 | **Fitch 2H25 ABS Monitor: subprime 60+ DQ 6.74% YE25; deterioration expected 2026** | 🔴 NEW |
-| Mar 12 | **Car-Mart 30+ DQ surged 4.4% (from 3.7%)** — deep subprime dealer stress | 🔴 NEW |
-| Mar 15 | Carvana discovery production 1 — **PASSED** (no public output yet) | ⏳ |
-| Mar 16 | **JPMorgan marking down software loan collateral — private credit margin squeeze** | 🔴🔴 NEW |
+| Mar 16 | **2nd court forces CFPB continued funding** | 🔴 NEW |
+| Mar 17-18 | **FOMC hawkish hold — 1 cut expected 2026** | ✅ CONFIRMED |
+| Mar 19 | **CVNA put volume +92% above average** | 🔴 NEW |
+| Mar 25 | OZK EDGAR 8-K watch begins | 🔴🔴 |
 | Mar 31 | Tricolor vehicle liquidation deadline | 🔴 IMMINENT |
 | Mar 31 | First Brands auction conclusion | 🔴 IMMINENT |
-| Mar 17-18 | **FOMC meeting** — presser Mar 19 2:30 PM ET | 🔴🔴 IMMINENT |
-| Mar 25 | OZK EDGAR 8-K watch begins — Temple8: "Next SVB?" + institutional selling | 🔴🔴 |
 | Apr 6 | TCPC class action lead deadline | 🟠 |
-| Apr 30 | Tricolor vehicle liquidation | 🟠 |
+| May 5 | CVNA stock split vote | 🟠 |
 | Jun 12 | Carvana discovery production 2 | 🟠 |
 | June | First Brands trial | 🟠 |
 | Aug | Daniel Chu trial | 🟠 |
 | Sep 15 | NY FAIR Business Practices Act | 🟠 |
-| ~Jan 2027 | GM/Ford ILC first deposits | 🟡 |
 
 ---
 

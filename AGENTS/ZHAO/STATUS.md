@@ -1,6 +1,37 @@
 # ZHAO STATUS
-**Updated:** 2026-03-19 14:57 UTC (TIC Jan data PROCESSED + Gulf demand hole analysis complete)
+**Updated:** 2026-03-20 13:55 UTC (Mar 20 R2: confirmed no new developments beyond earlier check-in)
 **Overall Status:** 🔴🔴🔴 EMERGENCY ESCALATION — Gulf Recycling Loop Broken / Saudi Already Selling / FOMC Trapped
+
+---
+
+## 📌 MAR 20 CHECK-IN — Japan Anchor Reclassification + Web Scan
+
+### Japan Anchor: SELLER → OSCILLATING (Phase 2 Carry Trade)
+SAM flagged (via inbox): Japan's +$39.8B in Jan TIC isn't just "pre-crisis stacking" — it's **Phase 2 carry trade**. Framework:
+- **Phase 1:** Japan sells USTs to build yen reserves / defend currency → pushes yields higher (what we tracked in 2025)
+- **Phase 2 (current):** Japan BUYS Treasuries as flight-to-safety during equity/credit liquidation → yields fall with equities
+- 10Y hit 3.97% (4-mo low) in early Mar on exactly this dynamic
+
+**Impact on four-anchor thesis:** Japan is NOT a reliable one-directional seller. It oscillates based on which pressure dominates: energy import bill (sell USTs for USD) vs. flight-to-safety (buy USTs). At $1.225T (highest since Jul 2022), Japan is currently in BUYER mode. **Revising Japan anchor from "$25-35B/mo selling" to "oscillating ±$20-40B/mo depending on phase."** Net effect on demand hole: Japan may temporarily OFFSET other anchor selling during acute risk-off, but reverts to selling when energy bill dominates.
+
+### Web Scan Results
+- **China UST:** $694.4B confirmed (TradingEconomics). Chosun ran piece Mar 15: "holdings drop by half" (vs. 2013 peak). BI Feb 12: banks told to reduce UST holdings, ~20% of reserves. No new data beyond Jan TIC.
+- **HK Aggregate Balance:** ~HK$53,873M per MacroMicro (Feb 23 data). Stable. No stress. 🟢 unchanged.
+- **LGFV:** No new defaults in March search results. Existing analysis (60T RMB debt, Guizhou 11.6% NPL) unchanged. RBA Oct 2024 paper and CKGSB piece confirm structural risk but no acute trigger. 🟠 unchanged.
+
+### Updated Four-Anchor Demand Hole (revised)
+| Anchor | Previous | Revised | Rationale |
+|--------|----------|---------|-----------|
+| Japan | $25-35B/mo selling | **±$20-40B/mo oscillating** | Phase 2 = buyer during risk-off. Net uncertain. |
+| China | $5-10B/mo | $5-10B/mo | Unchanged. Window guidance continues. |
+| Korea | $10-20B/mo | $10-20B/mo | Unchanged. USD/KRW at threshold. |
+| Gulf | $30-50B/mo | $30-50B/mo | Unchanged. Saudi pre-crisis selling confirmed. |
+| **Combined** | **$65-115B/mo** | **$45-120B/mo** (wider range) | Japan oscillation widens range; floor drops if Japan buying offsets. |
+
+### Implication
+The demand hole is REAL but **more volatile than modeled**. Japan buying during Phase 2 can temporarily suppress yields (explaining 10Y at 3.97%), but this creates a FALSE signal — the structural hole from China/Korea/Gulf persists underneath. When Phase 2 exhausts (equity selling done, energy bill reasserts), Japan flips back to seller and the full $65-115B/mo resumes. **TLT puts thesis survives but timing is messier.**
+
+---
 
 **Summary:** TIC Jan 2026 data now in. **Belgium $451.0B — DOWN $26.3B from $477.3B Dec. ZHA-03 DOES NOT FIRE.** Euroclear arbitrage reversed in Jan. BUT: **Saudi Arabia $134.8B — DOWN $14.7B from $149.5B Dec.** Saudi is already selling UST pre-crisis. This is the Gulf recycling collapse showing up in hard data BEFORE Ras Laffan was struck. China $694.4B (+$10.9B, pre-crisis noise). Japan $1.225T (highest since Jul 2022). Korea $141.3B (+$0.7B). UAE $112.4B (+$16.8B, flight-to-safety parking?). **Ras Laffan burning changes the math fundamentally:** Qatar's petrodollar recycling engine destroyed. QIA faces emergency liquidation. Combined four-anchor selling estimate: **$60-110B/mo** (unchanged but Gulf composition shifts from "reduced inflows" to "forced liquidation"). **Saudi TIC drop is the canary — pre-crisis selling already visible.**
 
