@@ -1,10 +1,16 @@
 # MEMORY — Key Insights & Lessons
 
-**Last Updated:** 2026-03-19 14:00 UTC
+**Last Updated:** 2026-03-20 12:20 UTC
 
 ---
 
 ## CORE DISCOVERIES
+
+### Oil Shock Is Structural, Not Episodic — Mar 20 (MAJOR)
+Infrastructure damage analysis (verified via CNBC, Fortune, OilPrice, JPM) proves oil prices can't normalize even with ceasefire. Key damage: Ras Tanura 250-350K bpd shortfall (8-12 wk min repair), Ras Laffan LNG offline since Mar 2 (2.1M bpd equiv, mid-June restart best case), Iran lost 300-400K bpd refining + 40-50M bbl storage (12-18mo rebuild). Gulf storage full → 2-3M additional bpd forced offline. Hormuz flow: 5-6M bpd actual vs 20M normal (14-16M gap). SPR covers 15-20%. US shale grade mismatch: only 400K usable for Asian refineries, not 1M. **Best case: 80-85% pre-crisis capacity by Q4 2026. Full recovery 2027.** Hamilton framework upgrade: demand destruction isn't spike-then-revert, it's sustained. Dec expiry thesis strengthened — no relief valve. Dubai crude hit $166 (Mar 20), WTI $94, spread $70+ (Gayed said $50, already stale). Oil-in-yen 60%+ increase since Jan compounds Japan carry unwind — now 6mo minimum problem regardless of diplomacy. Floor price assumption: WTI can't go below $80-85 even with ceasefire.
+
+### Gayed Yen-Oil Nexus Verified — Mar 20
+All claims verified: BOJ 8-1 hold ✅, Takata dissent ✅, Dubai $150+ (now $166) ✅, Japan TIC +$39.8B Jan ($1.225T) ✅, USD/JPY 159 ✅. Phase 2 carry trade (Japan flips from UST seller to buyer) confirmed in TIC data. Complicates ZHAO demand hole — Japan may bid Treasuries during equity unwind. Takaichi dove-stacking BOJ board (Asada late Mar, Sato Jun) removes rate defense option.
 
 ### FOMC Trapped + Triple Event Day — Mar 18-19 (CONFIRMED)
 Fed held 3.5%. Dot plot: 1 cut median, but **7/19 see zero cuts (up from 6)**. Powell warned energy→inflation. PPI same day +0.7% MoM (2x expected). Stocks hit 2026 lows: S&P -1.36%, Dow -768 broke 200-day MA, R2K -1.6%, VIX 25.09. **Fed put officially dead** — can't cut into oil inflation (PCE 3.1% + PPI accelerating). Claims 205K (fell, DHS suppressed Day 35). New home sales **587K vs 722K exp (-18.7%)** — demand destruction showing in hard data even while claims stay "resilient." Gap between claims (lagging) and real economy data (cracking) widening — resolution favors our thesis.

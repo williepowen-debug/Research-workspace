@@ -69,6 +69,7 @@ Sub-agents own detail → distill upward to parents → lateral only when transm
 | Agent | Domain | Status | Key |
 |-------|--------|--------|-----|
 | **FERT** | Fertilizer / food security | 🔴 | Urea +32%, China export halt, CF structural bull. Qatar LNG = permanent supply destruction. |
+| **CRUISE** | Cruise industry / tourism canary | 🔴 | CCL unhedged (-25-30%), NCLH fragile ($700M interest vs $600M income). Gulf season cancelled. 290K US jobs. |
 
 ## Transmission
 ```
@@ -78,6 +79,8 @@ SAM + ZHAO + HANS = parallel global risk | HAWK = external shock
 HAWK (military) → BRENT (oil fundamentals) → CARL (gas pumps) + LIQUID (energy credit) + HENRY (inflation) + SAM (Japan energy)
 BRENT (energy) → FERT (fertilizer/food) → CARL (consumer food CPI) + HENRY (inflation)
 HAWK (geopolitical) → FERT (China policy, Gulf damage)
+BRENT (fuel) → CRUISE (operator P&L) → CARL (port city impact) + LABOR (port employment)
+HAWK (Gulf/insurance) → CRUISE (itinerary cancellations)
 SHADE = insurance plumbing under BROCK/REGINALD | feeds LIQUID on systemic
 NEXUS synthesizes across all → convergence/contradiction → PROME
 HERMES carries signals between all agents (OUTBOX → INBOX, 2x daily)

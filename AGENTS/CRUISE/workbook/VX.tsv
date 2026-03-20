@@ -1,0 +1,6 @@
+ID	Vector	State	Score	GREEN	YELLOW	ORANGE	RED	Current	Source	Last_Changed	Notes
+VX-CRU-01	CCL stock (% from pre-conflict)	RED	4	<-10%	-10 to -20%	-20 to -35%	>-35%	-25 to -30%	Market data Mar 9	2026-03-20	Unhedged on fuel. $24B debt.
+VX-CRU-02	Bunker fuel ($/mt)	YELLOW	3	<500	500-650	650-800	>800	Ref BRENT	BRENT agent	2026-03-20	Need current spot from BRENT
+VX-CRU-03	Forward booking pace YoY	YELLOW	3	>0%	0 to -10%	-10 to -20%	>-20% decline	Unknown post-conflict	Pre-conflict strong	2026-03-20	Q1 earnings (April) = first data
+VX-CRU-04	Gulf itineraries cancelled	RED	5	0	1-5	5-15	>15 or full season	Full season cancelled	Industry reports Mar 9	2026-03-20	MSC trapped. War risk prohibitive.
+VX-CRU-05	NCLH interest coverage ratio	RED	4	>2.0x	1.5-2.0x	1.0-1.5x	<1.0x	~0.86x	EST: $600M/$700M	2026-03-20	Interest > income. Missed Q4.
