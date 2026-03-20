@@ -1,5 +1,39 @@
 # MARCO STATUS
-**Last Updated:** 2026-03-17 12:30 UTC | **Status:** 🔴 RED
+**Last Updated:** 2026-03-20 13:30 UTC | **Status:** 🔴 RED
+
+## CHECKIN-MAR20 — Daily Check-In (Mar 20 9:30 AM ET)
+
+### DHS Shutdown — Day 34. First Real Negotiations.
+
+**Mullin confirmation hearing: Mar 18 (completed).** Mullin promised judicial warrants (not administrative) for ICE home/business entries — direct response to Good/Pretti killings. Key Dem demand partially met.
+
+**Mar 19: First in-person negotiation in weeks.** Homan + Collins (R) + Britt (R) met with Murray (D) and Dem negotiators. ~75 min meeting. Murray: "still a long ways apart." Homan: "need to get the government back open." Collins: "Democrats' demands keep growing." **Movement but no deal.**
+
+**TSA escalation continues.** NYT (Mar 16): **300+ officers have quit** since shutdown began. 10%+ no-show rate on Mar 16. Acting Deputy TSA Admin Stahl warned on Fox (Mar 17): **"we may have to literally shut down airports, particularly smaller ones."** BI (Mar 20): delays persist nationwide. Spring break peak ongoing.
+
+**Next paycheck miss: ~Mar 28.** Senate recess Mar 30. 10 working days to deal. Path narrowing but negotiations finally happening.
+
+### H-2A — Federal Court Challenge (NEW)
+
+**UFW sued over H-2A wage cuts** in U.S. District Court, Eastern CA (Fresno). Hearing held ~Mar 18-19. Trump admin attorney **conceded in court: "there aren't enough Americans to take these jobs."** Direct admission on the record. UFW argues wage cuts will depress domestic ag worker pay too. Case ongoing.
+
+**FL-specific:** FL Fruit & Vegetable Assoc reported 200+ H-2A blueberry pickers stuck in State Dept visa processing in NJ → crop loss ("berries remained on bush and went bad"). USDA one-stop office head replaced by ICE policy veteran Brian Kennedy in Jan 2026 — enforcement-first figure now running ag labor facilitation.
+
+### Enforcement — Killing Fallout Driving Negotiations
+
+Good/Pretti killings now central to shutdown deal dynamics. Dems using as leverage. Mullin's judicial warrant pledge = first concrete Republican policy concession. CalMatters (Mar 17) published major investigation "Agents of Chaos" on CBP unchecked force.
+
+### Dashboard Updates
+
+| Indicator | Prior | Now | Change |
+|-----------|-------|-----|--------|
+| DHS Shutdown | Day 31, no negotiations | Day 34, negotiations started | ↑ First movement |
+| TSA Disruption | "Agents quitting" | 300+ quit, airport closures warned | ↑ ESCALATING |
+| H-2A | Wage cuts announced | UFW lawsuit in court, admin concedes labor shortage | ↑ Legal challenge |
+
+**Prediction #25 (TSA disruption):** Confidence → **90%**. Airport closure warnings from TSA leadership = new severity level.
+
+---
 
 ## CHECKIN-MAR17 — Daily Check-In (Mar 17 12:30 UTC)
 
