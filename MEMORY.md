@@ -1,10 +1,31 @@
 # MEMORY — Key Insights & Lessons
 
-**Last Updated:** 2026-03-20 12:20 UTC
+**Last Updated:** 2026-03-20 20:15 UTC
 
 ---
 
 ## CORE DISCOVERIES
+
+### Seven Depletion Clocks — Mar 20 (CRITICAL NEW FRAMEWORK)
+Source: Shanaka Perera + QatarEnergy official + First Squawk. Crisis is NOT just oil/financial — it's simultaneous physical depletion across 7 supply chains with hard deadlines diplomacy can't extend. (1) **Planting:** mid-April, corn/soy nitrogen-dependent, irreversible, determines Oct harvest. (2) **USDA Mar 31:** Prospective Plantings sets 12-month food supply model. (3) **FAO Apr 3:** Food Price Index, 2022 peak 159.7, this will be worse — food emergency? (4) **Pharma APIs:** India buffers 2-3mo from Feb 28 = late May depletion. 87.7% methanol from Hormuz. 47% US generics from India. (5) **China crude:** drawing commercial reserves 1M bpd, 4-6 week buffer = mid-late April exhaustion. Then: Russian pipeline, premium reroute, or crack SPR (reprices every commodity). (6) **Helium:** SK Hynix/Samsung 2-3mo inventory. 64.7% from Qatar (Ras Laffan offline). Late May-June = semiconductor fabrication rationing. AI hardware physical wall. **AAPL risk.** (7) **Insurance:** Solvency II requires 30-60 days zero incidents for P&I clubs. Even after ceasefire, shipping normalization takes 6-16 months. The calendar is the only actor that never lost a negotiation.
+
+### QatarEnergy Official Damage — Mar 20 (PRIMARY SOURCE)
+Minister Al-Kaabi official statement: Trains 4+6 damaged = 12.8M tonnes/yr (17% Qatar LNG). **3-5 YEARS to repair.** Force majeure on all long-term LNG contracts (China, S. Korea, Italy, Belgium). Pearl GTL (Shell) offline minimum 1 year. Lost: condensates 18.6M bbl (24% exports), LPG 1.281M MT (13%), helium 309.54 MCFA (14%). $20B/year lost revenue. Worse than our estimates.
+
+### Iraq Force Majeure — Mar 20 (BREAKING)
+Iraq declared force majeure on ALL foreign-operated oilfields (2:10 PM 3/20). Iraq ~4.5M bpd, ~half foreign-operated (BP, Exxon, Total). Adds potential 2-2.5M bpd to supply gap. Hormuz gap potentially 16-18M+ bpd.
+
+### Iran Escalation Dominance — Mar 20
+Iran hit KSA, UAE, AND Qatar (3 countries) after Israel hit 1 (South Pars). UAE shut Habshan gas. Qatar expelled Iranian military attachés. Saudi: trust "completely shattered." Iran demonstrating it can hurt any Gulf neighbor regardless of neutrality. Yanbu bypass under direct threat.
+
+### SPX 200-DMA Break — Mar 20
+S&P closed ~6,606, below 200-DMA for first time in 214 sessions. Four consecutive weekly losses. CTA $80B sell queue activated. Equity catching up to what credit/energy already priced.
+
+### RED Adversarial Review — Mar 20
+Confidence raised 80%→85%. Top risks: ceasefire headline (15%), price controls (12%, weakened by SPR already spent), Japan buyer (10%). Key counter-signal: HY OAS at 320 despite everything — credit not panicking OR credit lagging. Rebuttal: 320 IS confirming on 2007 timeline (300→600 took 7 months, we're 3 weeks in). Position action: cut APO Apr (timing risk), roll HYG Jun→Dec, hold core.
+
+### Yanbu Pipeline Under Attack — Mar 20
+Saudi activated East-West Pipeline to full capacity Mar 11. Pushing 4.2M bpd through Yanbu (7M theoretical). Iran hit Samref refinery at Yanbu Mar 19 (drone + ballistic missile intercepted). Loadings briefly halted. BloombergNEF: even best case, Red Sea diversion "hardly patches" the deficit. Houthi re-entry risk could shut Red Sea route too.
 
 ### Oil Shock Is Structural, Not Episodic — Mar 20 (MAJOR)
 Infrastructure damage analysis (verified via CNBC, Fortune, OilPrice, JPM) proves oil prices can't normalize even with ceasefire. Key damage: Ras Tanura 250-350K bpd shortfall (8-12 wk min repair), Ras Laffan LNG offline since Mar 2 (2.1M bpd equiv, mid-June restart best case), Iran lost 300-400K bpd refining + 40-50M bbl storage (12-18mo rebuild). Gulf storage full → 2-3M additional bpd forced offline. Hormuz flow: 5-6M bpd actual vs 20M normal (14-16M gap). SPR covers 15-20%. US shale grade mismatch: only 400K usable for Asian refineries, not 1M. **Best case: 80-85% pre-crisis capacity by Q4 2026. Full recovery 2027.** Hamilton framework upgrade: demand destruction isn't spike-then-revert, it's sustained. Dec expiry thesis strengthened — no relief valve. Dubai crude hit $166 (Mar 20), WTI $94, spread $70+ (Gayed said $50, already stale). Oil-in-yen 60%+ increase since Jan compounds Japan carry unwind — now 6mo minimum problem regardless of diplomacy. Floor price assumption: WTI can't go below $80-85 even with ceasefire.
