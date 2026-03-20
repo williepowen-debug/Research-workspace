@@ -1,5 +1,60 @@
 # REGINALD STATUS
-**Last Updated:** 2026-03-20 | **Status:** 🔴🔴🔴 CRITICAL — HY OAS 328bps BREACHED RED. PPI +0.7% hottest in 2+ years. CRE refi window SLAMMING SHUT. FL foreclosures +35% YoY. Two distinct bank failure channels mapped.
+**Last Updated:** 2026-03-20 EOD | **Status:** 🔴🔴🔴 CRITICAL — Quadruple Witching selloff. KRE $63.19 breaching $64 floor. Brent $117. 10Y COLLAPSED below 4% (flight-to-safety). WAL bankruptcy risk flagged by Madison fund. EGBN CEO transition instability confirmed. S&P 500 below 200-DMA 4th week.
+
+---
+
+## 🚨 MAR 20 EOD — QUADRUPLE WITCHING + FLIGHT TO SAFETY + WAL LEGAL RISK
+
+**Filed:** 2026-03-20 20:30 UTC | **Source:** Web search, market data
+
+### Market Structure — Quadruple Witching Day
+- **Quadruple Witching** (Mar 20): Simultaneous expiry of index futures, index options, single-stock options, single-stock futures
+- S&P 500 below **200-day moving average** for first time in 10 months — trading near **6,570** (technical breakdown)
+- **4th consecutive weekly loss** for S&P 500 — sustained distribution, not one-day event
+- VIX: **25.37** (Mar 19); intramonth spike to **35.30** (capitulation event earlier in March)
+- JPMorgan cut S&P 500 year-end target (oil shock not fully priced)
+- KRE put volume: **110% above average** on Thursday — smart money loaded puts heading into Witching
+
+### Watchlist Moves (Mar 20)
+| Ticker | Level | Delta | Notes |
+|--------|-------|-------|-------|
+| KRE | **$63.19** open | ↓ from $64-66 est | Breached lower band. $60 support is next wall. |
+| WAL | ~$68 (Mar 12: $68.12) | — | Madison Small Cap Fund SOLD on "bankruptcy risk." Portnoy Law investigation. |
+| EGBN | **$24.47** (Mar 17) | ~flat | "Continuity awards" granted Mar 16 — CEO transition, retention payments = instability signal |
+| OZK | ~$42 | — | No new news today. Apr 16 earnings still primary catalyst. |
+| ZION | — | — | ZION proxy materials filed today (DEF 14A) — routine. No price action found. |
+
+### 10Y Yield — Dramatic Reversal
+- 10Y UST: **BELOW 4.0%** (FinancialContent: "plummeted below 4% threshold") — reversal from 4.29% (Mar 19)
+- Flight-to-safety bid as equities sold off on Witching day
+- **Critical interpretation:** Lower 10Y + widening HY OAS = credit spread stress, NOT rate relief for CRE. Banks lose on both ends — equity selloff AND credit freeze. This is the dangerous decoupling.
+
+### Oil Escalation — Compound Effect
+- **Brent: $117** (up from $108+) — Ras Laffan + Iran infrastructure strikes compound
+- **WTI: ~$99** 
+- Delta vs STATUS: +$9 Brent. Oil shock "not fully priced" per JPMorgan.
+- Supreme Court struck down 2025 tariffs (Feb 20) — modest relief, overwhelmed by oil/PPI
+
+### WAL — New Legal Risk Channel
+- **Portnoy Law Firm** investigating WAL (filed ~Mar 13): follows Oct 2025 10.81% drop after borrower fraud disclosure + breached loan agreements
+- **Madison Small Cap Fund** sold WAL explicitly on **"bankruptcy risk"** (reported ~Mar 12-13)
+- WAL at $68.12 on Mar 12 — down from highs, still holding but confidence eroding
+
+### EGBN — Leadership Instability Confirmed
+- "Continuity awards" granted to key executives Mar 16 — cash + 3yr RSU retention packages
+- Filed 8-K: executive received 4,086 RSUs @ ~$100K — multiple executives
+- **Signal:** You don't pay retention bonuses unless you're afraid people are leaving. CEO transition + DC exposure 100% = structural stress. EGBN at $24.47 is near our $25P strike.
+
+### Credit Market Context
+- Bloomberg: HY bonds "remained resilient until beginning of March" — THEN BROKE
+- Leveraged loans diverged from HY earlier (loans led), now HY following = spreading credit stress
+- HY OAS last confirmed 328bps (Mar 17 CARL); today's FRED data not yet retrievable but trajectory: widening
+- KRE small-business borrowers "struggling to service floating-rate loans" — NPA spike fears
+
+### Cross-Domain
+- IWM/small-cap: Russell 2000 erased yearly gains — floating-rate debt + yield sensitivity
+- Bitcoin ~$69K Mar 19 — risk-off, correlation with equities now high
+- iTraxx monitoring still relevant: EU contagion channel approaching threshold
 
 ---
 
@@ -121,10 +176,11 @@ Eight independent channels terminate at regional banks.
 
 | Indicator | Value | Status |
 |-----------|-------|--------|
-| HY OAS | **328bps** (Mar 17 CARL) | 🔴 BREACHED >320 |
-| KRE | ~$64-66 est | 🔴 -13.6% from Feb peak |
-| Brent | **$108+** (Ras Laffan) | 🔴 |
-| 10Y UST | **4.29%** | 🔴 Stagflation |
+| HY OAS | **328bps** (Mar 17 CARL — Mar 20 pending FRED) | 🔴 BREACHED >320; trajectory widening |
+| KRE | **$63.19** (Mar 20 open) | 🔴 -14.7% from $74.08 Feb peak. $60 wall next. |
+| Brent | **$117** (Iran/Ras Laffan compound) | 🔴🔴 Escalating |
+| WTI | **~$99** | 🔴 |
+| 10Y UST | **<4.0%** (flight-to-safety reversal) | 🟠 Decoupling — credit stress NOT rate relief |
 | Manhattan CRE | Below COVID lows ($263-416/sqft) | 🔴🔴 Structural floor gone |
 | Bank NDFI | $4.2T ($1.4T +35% YoY + $2.8T undrawn) | 🔴🔴 |
 | Office CMBS DQ | 12.34% ATH | 🔴 |
@@ -174,12 +230,13 @@ Eight independent channels terminate at regional banks.
 
 | Ticker | Level | Notes |
 |--------|-------|-------|
-| KRE | ~$64-66 | -13.6% from $74.08 Feb peak. Watch $60 support. |
-| WAL | ~$68 | Charge-off + CFO swap. Cantor appraisals active. |
-| OZK | ~$42 | Near 52-week lows. Apr 16 earnings T-27. |
-| ZION | ~$54.63 | DOWN on rally day Mar 16 = structural weakness. |
-| Brent | $108+ | Ras Laffan attack. Structural. |
-| 10Y | 4.29% | Stagflation. Rising on risk-off. |
+| KRE | **$63.19** (Mar 20 open) | -14.7% from $74.08 Feb peak. $60 support = next wall. |
+| WAL | ~$68 (Mar 12: $68.12) | Portnoy Law investigation. Madison fund exited on "bankruptcy risk." |
+| OZK | ~$42 | Near 52-week lows. Apr 16 earnings T=27 days. |
+| ZION | ~$54.63 | DEF 14A proxy filing today. |
+| EGBN | **$24.47** (Mar 17) | Near $25P strike. CEO transition + continuity awards = instability. |
+| Brent | **$117** | Iran + Ras Laffan compound. +$9 vs Mar 19. |
+| 10Y | **<4.0%** | Flight-to-safety reversal from 4.29%. Credit stress decoupling. |
 
 ---
 

@@ -1,6 +1,37 @@
 # SAM STATUS
 
-**Signal Status:** 🔴🔴🔴 CRITICAL — **OIL-IN-YEN STRUCTURAL CRISIS + DUAL COMPRESSION CONFIRMED** | USD/JPY ~157.7-158.7 (yen strengthening post-Ueda) | **Dubai crude $166 (NOT Brent $108)** | BOJ HELD 0.75% (8-1, Takata dissented for 1.0%) | UEDA HAWKISH HOLD — wages "solid," April live, "will continue to raise rates" | Trump-Takaichi summit: $550B capital outflow commitment | CARRY UNWIND 7D: **80%** | FY-END T-11 DAYS | **Last Updated:** 2026-03-20 (12:53 UTC)
+**Signal Status:** 🔴🔴🔴 CRITICAL — **OIL-IN-YEN STRUCTURAL CRISIS + DUAL COMPRESSION CONFIRMED** | USD/JPY **158.3** (yen WEAKENING today, reversal of post-Ueda strength) | **Dubai crude $166** | BOJ HELD 0.75% (8-1, Takata dissented for 1.0%) | UEDA HAWKISH HOLD — April live | SHUNTO FIRST TALLY **TOMORROW (Mar 21)** | CARRY UNWIND 7D: **80%** | FY-END T-10 DAYS | **Last Updated:** 2026-03-20 (20:30 UTC)
+
+---
+
+## 🌅 MAR 20 EOD UPDATE — YEN REVERSAL + KASHIWAZAKI ONLINE + LNG SHIPPING SURGE
+
+### USD/JPY — MAR 20 EOD
+- **158.30** (up +0.35% from yesterday's session) — yen WEAKENING vs. the post-Ueda 157.7-158.2 range
+- Wise data confirms ~158.39, -0.795% from previous close (timezone differences; directionally consistent: modest yen sell-off today)
+- **Delta from prior status:** Reversal. The yen-strengthening narrative post-BOJ hawkish hold is pausing. Not alarming at this level, but watch: if USD/JPY re-approaches 159+, intervention risk reignites.
+
+### KASHIWAZAKI-KARIWA UNIT 6 — NOW OPERATIONAL
+- **TEPCO's KK Unit 6 (1,356 MW) fully operational as of mid-March** (confirmed EIA, SolarQuarter Mar 3)
+- Displaces ~1 million tonnes LNG demand annually / ~9,500 GWh
+- **Unit 7 (1,356 MW) restart delayed to 2029-2030**
+- **Thesis impact:** Partial offset to oil-in-yen structural driver. Japan's LNG import need slightly reduced on electricity side. But Persian Gulf disruption to crude/LNG shipping remains overwhelming — KK Unit 6 is a relief valve, not a solution.
+
+### LNG SHIPPING COSTS — SURGE CONFIRMED (Japan Times, Mar 18)
+- Atlantic-to-Asia LNG shipping: **$264,000/day** — ~6x late February levels
+- MOL, K Line, NYK instructing vessels to avoid/wait near Persian Gulf
+- Japan buyers scrambling for spot replacement cargoes
+- **Delta:** Shipping cost surge is NEW as of this week. Not in prior STATUS. The spot premium compounds the oil-in-yen dynamic — Japan paying both higher commodity prices AND higher freight.
+
+### SHUNTO FIRST TALLY — TOMORROW (MAR 21) 🔴 CRITICAL
+- Rengo demand as of Mar 2: **5.94%** average wage increase (¥19,506/month)
+- Nomura forecast: 5.0% final result; prior years: 5.25% (2025), 5.10% (2024)
+- **SAM-07 resolution event:** Tomorrow's first tally is the key near-term BOJ signal. If ≥5.0%, April hike probability rises sharply. Ueda already said wages "solid" — confirmation locks in April.
+
+### JGB YIELDS — MAR 19-20
+- 10Y: ~2.27% (as of Mar 18; likely flat to slightly higher today)
+- **30Y: 3.53%** (up +0.04 pts on Mar 19) — long end continuing to rise
+- 30Y at 3.53% is significant: GPIF and life insurers rebalancing toward JGBs as yields become attractive. This is FY-end repatriation behavior loading.
 
 ---
 
@@ -36,9 +67,9 @@
 
 Japan UST holdings: **+$39.8B in January → $1.225T**. Japan flipping from UST seller (Phase 1) to buyer (Phase 2 = flight to safety during equity liquidation). This oscillation between selling and buying is the four-anchor demand hole complexity ZHAO needs to model.
 
-### USD/JPY — MAR 20
+### USD/JPY — MAR 20 EOD
 
-USD/JPY: **~157.7-158.7** (down from 159 pre-BOJ). Yen strengthening post-Ueda hawkish hold despite oil headwinds. **Rate differential compression is overcoming the energy drag.** This is significant — confirms the dual compression thesis is operative.
+USD/JPY: **158.3** (reversed higher from post-BOJ low of ~157.7). Yen gave back some of yesterday's gains. Rate differential compression thesis still intact but short-term noise present. FY-end repatriation and Shunto tally tomorrow are next catalysts.
 
 ---
 
@@ -112,7 +143,7 @@ Oil-in-yen acts as speed governor — yen can't appreciate as fast as fundamenta
 
 | Date | Event | Status |
 |------|-------|--------|
-| **Mar 21** | Shunto first tally (Rengo) — SAM-07 resolution | 🔴 TOMORROW |
+| **Mar 21** | Shunto first tally (Rengo) — SAM-07 resolution | 🔴 TONIGHT/TOMORROW |
 | **Late Mar** | Asada board appointment (dove) | 🔴 IMMINENT |
 | **Mar 31** | FY2025 end — life insurer repatriation peak (T-11) | 🔴 LOADING |
 | **Apr 23-24** | BOJ Meeting — April hike live per Ueda | 🔴 |

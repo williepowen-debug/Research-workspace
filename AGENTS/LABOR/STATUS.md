@@ -1,5 +1,17 @@
 # LABOR STATUS
-**Last Updated:** 2026-03-19 17:31 UTC | **Status:** 🔴🔴 CRITICAL — CLAIMS 205K (BEAT, BUT DHS-SUPPRESSED). POWELL: "ZERO EMPLOYMENT GROWTH EQUILIBRIUM" + "DOWNSIDE RISK." FED HELD, 1 CUT DOT PLOT. SHUTDOWN DAY 35, NO SENATE VOTE TODAY. SCHEDULE POLICY/CAREER RULING PENDING (ORAL ARG WAS MAR 18). ADP PULSE 9K/WK. FL UI WAVE 1 T-5 (MAR 24). SENATE RECESS MAR 30 = 60+ DAY SHUTDOWN.
+**Last Updated:** 2026-03-20 20:30 UTC | **Status:** 🔴🔴 CRITICAL — META 15-16K LAYOFF PLAN CONFIRMED (LARGEST SINCE 2022). SHUTDOWN DAY 36, SENATE NEGOTIATIONS FINALLY STARTED (KATIE BRITT OFFER ON TABLE). SCHEDULE POLICY/CAREER RULING STILL PENDING. NO NEW CLAIMS DATA TODAY (NEXT: MAR 26). FL UI WAVE 1 T-4 (MAR 24).
+
+**Signal Mar 20 — EOD Scan (8:30 PM ET):**
+
+**META 15-16K LAYOFF ANNOUNCEMENT — LARGEST SINCE 2022:** Reuters broke Mar 14 (exclusive). Forbes/CNBC/Verge confirmed through week. Meta planning to cut ~20% of ~79,000-person workforce = 15,000-16,000 jobs "over the course of 2026." Triggered by AI cost pressure + launch delays on "Avocado" AI model. Mid-level management, QA, customer support, internal IT cited as primary targets (Challenger data). META stock +3% on Monday on the news — market reads layoffs as efficiency play, not distress signal. **This is a delta vs STATUS.md — not previously captured. Adds ~15K to private sector WARN/Challenger pipeline.** AI cited in >12,000 YTD job cuts total (Challenger/CNBC Mar 16). Note: meta AI narrative shield holding (stock up) — thesis vector 11 (LAB-11) timeline stays Q3-Q4 but pipeline loading.
+
+**SHUTDOWN DAY 36 — NEGOTIATIONS FINALLY STARTED:** Providence Journal/Roll Call Mar 20: Day 36, no deal yet. BUT key shift: NBC (ms.now) Mar 19 reports "lawmakers finally start negotiating" — "significant offer on the table from Sen. [Katie Britt, R-AL]." Thune confirmed filibuster nuke off the table. Senate vote "planned" today per NJ.com but Roll Call evening headline: "not done yet." **Delta: first credible negotiation signal after 36 days. Not a deal, but first real table contact. Reduces (modestly) probability of Senate recess Mar 30 auto-extend, but clock still very tight — 10 days.** DHS suppression continues; 260K workers still can't file clean UI.
+
+**NO NEW CLAIMS DATA TODAY:** Thursday claims release (205K, week ended Mar 14) was yesterday (Mar 19) — already captured in STATUS.md. Next release: Thursday Mar 26 (week ended Mar 21). Still DHS-suppressed. Continue using real estimate ~215-220K.
+
+**SCHEDULE POLICY/CAREER — RULING STILL PENDING:** Oral argument was Mar 18 (D.C. Circuit). Day 2 post-argument, no ruling found. Binary outcome unchanged: PI granted → RIF pause; PI denied → RIF acceleration. Could drop any day.
+
+**WARN 2025 CONTEXT UPDATE:** Economic Times Mar 19 reports WARN analysis (44 states): 413,000 workers impacted by large-scale layoffs in 2025, highest since 2020, +20% YoY from 345,000 in 2024. Corroborates LAB-09 ✅ and strengthens WARN pipeline thesis heading into 2026.
 
 **Signal Mar 19 — AM Scan (1:31 PM ET):**
 
@@ -144,7 +156,7 @@
 
 ## SECTOR & GEOGRAPHIC CUTS
 
-**Sectors:** Federal/DOGE 327K | Tech ~245K | Logistics 78K | Financial 49K | Biotech/Media entering
+**Sectors:** Federal/DOGE 327K | Tech ~245K (+Meta 15-16K pipeline) | Logistics 78K | Financial 49K | Biotech/Media entering
 
 **Geographic hotspots:**
 | State | Signal |
@@ -272,7 +284,7 @@ Archives: `domain/sources/STATUS_archive_*` | `STAFFING_PRESIGNAL_DEEP_DIVE.md` 
 
 ---
 
-*Next triggers: **Mar 19: Schedule Policy/Career ruling PENDING (could drop any day)** | **FOMC held, 1 cut dot plot, Powell "zero growth equilibrium"** | **Mar 23: Rengo first-round wage tally** | **Mar 24: FL UI exhaustion Wave 1 (T-7)** | Mar 27: Rengo second-round tally | **Mar 30: Senate recess (shutdown auto-extends to 60+)** | Apr 1: Tankan | Apr 4: NFP Mar 2026 (healthcare strike reversal test) | Apr: RHI/KFRC Q1 earnings | **Apr 26: FL Wave 2 peak** | Aug 2026: CA/NY UI exhaustion*
+*Next triggers: **Mar 20-26: Schedule Policy/Career ruling PENDING** | **Mar 23: Rengo first-round wage tally** | **Mar 24: FL UI exhaustion Wave 1 (T-4)** | **Mar 26: Weekly claims (week ended Mar 21 — first post-FOMC read)** | Mar 27: Rengo second-round tally | **Mar 30: Senate recess (shutdown auto-extends to 60+ IF no deal)** | Apr 1: Tankan | **Apr 3: NFP Mar 2026 (healthcare strike reversal test)** | Apr: RHI/KFRC Q1 earnings | **Apr 26: FL Wave 2 peak** | Aug 2026: CA/NY UI exhaustion*
 
 ---
 
