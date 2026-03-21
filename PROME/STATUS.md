@@ -1,9 +1,9 @@
 # PROME STATUS.md
-**Updated:** 2026-03-12 21:33 UTC
+**Updated:** 2026-03-21 01:50 UTC
 
-**Last context:** Oil >$100 CONFIRMED Mar 12. SPR failed — IEA 32-country release insufficient (covers ~15-20 days of shortfall). Citi DIFC evacuation CONFIRMED. Iran declared "permanent closure" of Hormuz + "war of attrition" strategy publicly. Kuwait airport struck — curtailment timeline accelerates. TSMC inflation channel active: Hormuz → Qatar LNG → Taiwan power → TSMC → Core PCE +24-36bps → Fed cuts eliminated. Stagflation trap hardened further.
+**Last context:** All 6 major STATUS prunes complete. Mechanical cleanup session. Markets closed until Monday. Gas $3.91 → $4 this weekend. FL UI cliff Mon Mar 24. HY OAS 320 (pulled back from 328 peak, still RED).
 
-## 🔴🔴 SCENARIO C — WAR DAY 12 — BRENT $100+ CONFIRMED — SPR FAILED — PERMANENT CLOSURE DECLARED
+## 🔴🔴 SCENARIO D DOMINANT (68%) — WAR DAY 21 — BRENT $110+ — YANBU UNDER ATTACK — QATAR LNG PERMANENT (3-5yr)
 
 ---
 
@@ -11,25 +11,25 @@
 
 | Agent | St | Key State | Upd |
 |-------|----|-----------|-----|
-| NEXUS | 🟢🟢 | C-20 90%, C-02 98%, C-22 78% (ABS crack) | 3/12 |
-| CARL | 🟢🟢 | Savings 3.6%, DD-3 integrated, Q2 DQ window, gas 4-8wk→$4 | 3/12 |
-| LABOR | 🟢 | Claims 213K/1.850M BENIGN. Buffer to YELLOW widened (50K). JOLTS tmrw 10AM | 3/12 |
-| SAM | 🟢 | USD/JPY 159. Verbal intervention zone. BOJ hold 92-95%. Ueda 3/19 | 3/12 |
-| OTTO | 🟢 | DQ 7.1% RED. SoFi CNL triggered. CVNA discovery 3/15 | 3/12 |
-| MARCO | 🟢 | DHS Day 26. 3/14 paycheck miss. Four-vector 3/14-21 | 3/12 |
-| HENRY | 🔴🔴 | **Brent $100. V9→5/🔴🔴. SPX -1.22%. 10Y 4.23%.** | 3/12 |
-| LIQUID | 🔴🔴 | 10Y 4.23% (+7bps). RRP $0.278B (buffer gone). 10Y auction today | 3/12 |
-| ZHAO | 🔴🔴 | Four-anchor $50-90B/mo. Gulf infra 42/55 convergence. ZHA-08 fired. Reviewed. | 3/12 |
-| HAWK | 🔴🔴 | Scenario C 62%, D 23%, B 15%. Taiwan LNG Mar 15 PASSED — 22/22 secured, May gap next. Cost channel live (JKM 2x). | 3/14 |
-| BROCK | 🟠 | APO -39% anomaly (peers -55 to -61%). Inbox clean. | 3/12 |
-| REGINALD | 🟠 | KW bondholder revolt delivered (HERMES). KB pending | 3/12 |
+| NEXUS | 🟢🟢 | Synthesis overdue since Mar 17 | 3/12 |
+| CARL | 🔴🔴 | Gas $3.91→$4 days. Convergence 42/50. Student loan record. Pruned ✅ | 3/21 |
+| LABOR | 🟢 | Claims 205K benign. UI cliff Mar 24. Inbox backlog (8) | 3/19 |
+| SAM | 🟢 | BOJ hold 8-1, Takata dissent. Pruned ✅ | 3/20 |
+| OTTO | 🟢 | DQ 7.1% RED. SoFi CNL triggered | 3/12 |
+| MARCO | 🟢 | DHS Day 21+ | 3/20 |
+| HENRY | 🔴🔴 | Brent $110+. SPX broke 200-DMA. 10Y 4.25% | 3/19 |
+| LIQUID | 🔴🔴 | RRP $0.822B. Reserves $2.8T (4yr low). Pruned ✅ | 3/20 |
+| ZHAO | 🔴🔴 | Four-anchor $50-90B/mo. Gulf infra convergence | 3/12 |
+| HAWK | 🔴🔴 | Scenario D 68%. Yanbu under attack. 7 depletion clocks. Pruned ✅ | 3/20 |
+| BROCK | 🟠 | APO -39% anomaly. Inbox backlog | 3/12 |
+| REGINALD | 🟠 | Pruned ✅. H.8 flag in inbox. Inbox backlog (9) | 3/20 |
+| BRENT | 🔴🔴 | Brent $107+. Kuwait physical Mar 20. Qatar permanent. Pruned ✅ | 3/21 |
 | HANS | 🟠 | Needs DD-4 (China Hormuz) | 3/9 |
-| BRENT | 🟠 | STNG reassessment delivered (HERMES). Needs fresh data | 3/12 |
 | DARWIN | 🟡 | Scan overdue. Low pri | 2/18 |
 
 ---
 
-## Positions (Mar 12)
+## Positions (Mar 20 — no changes, markets closed)
 
 ### TLT Short — 99% conv, $2,274 total (4% portfolio)
 TLT $88P May×2 +82% | $85P Jun×3 +91% | $85P Sep×2 -1.5% | $82P Oct×2 new | TBT 14sh +0.75%
@@ -42,55 +42,48 @@ Sep×2 $60P +107% ✅ | Dec×3 $60P +56% ✅
 Jun (ROLL): $85P×1 +179%, $77.5P×1 +2%, $65P×1 +11% | Sep $70P×1 +20% ✅
 
 ### Other Puts
-APO $100P: Apr×1 +34% (roll?), Jun×1 +17% (ROLL→Dec)
+APO $100P: Apr×1 +34% (**CUT — agreed**), Jun×1 +17% (ROLL→Dec)
 OZK: $42.5P May×1 +6%, $42.5P Aug×1 +61% ✅, $45P Aug×2 +33% ✅
 IWM $250P Jun×1 +84% (ROLL→Sep)
-HYG $75P Jun×8 +1% (ROLL→Dec)
+HYG $75P Jun×8 +1% (**ROLL→Dec — recommended**)
 AAL $10P: Jun×2 -1%, Jul×2 -76%
 ZION $57.5P Jul×1 +52% ✅ | FLG $13P Jul×1 +27% ✅
 EGBN $25P Jun×1 -36% (cut?) | OWL $9.5P Apr×1 -29% (cut?)
-KELYA $7.5P Aug×1 -1% | VLY $10P Mar20×10 -41% (dead)
+KELYA $7.5P Aug×1 -1% | VLY $10P Mar20×10 — **EXPIRED**
+USO 118C Mar 27 (**CUT — recommended**)
 
 ### Longs
-AAPL 100sh $25,576 (45%) | CF $115C Jun×1 +129%
-Small: USO 1sh, SLV 5, FXY 4, SLVP 3, INVH 7, AMH 6 (~$1,170)
+AAPL 100sh ~$25,576 (45%) — helium clock May-Jun risk | CF $115C Jun×1 +129%
+Small: USO 2sh, SLV 5, FXY 4, SLVP 3, INVH 7, AMH 6 (~$1,170)
 
 ---
 
-## Convictions (Mar 12)
+## Trade Decisions (Monday)
 
-| # | Trade | C | Hamilton |
-|---|-------|---|---------|
-| 1 | TLT puts laddered | 5 | All |
-| 2 | KRE Dec (hold) | 5 | 3-4 |
-| 3 | OZK Aug (Apr 16 earnings) | 5 | 4 |
-| 4 | APO roll Jun→Dec | 5 | 4 |
-| 5 | WAL roll Jun→Sep/Dec | 5 | 3-4 |
-| 6 | CF Jun (energy) | 4 | 1-2 |
-| 7 | IWM roll Jun→Sep | 4 | 2-3 |
-| 8 | HYG roll Jun→Dec | 4 | 3 |
-| 9 | AAL Jul (jet fuel) | 4 | 2-3 |
-| 10 | ZION Jul | 3 | 3 |
+| Action | Status |
+|--------|--------|
+| APO Apr $100P — cut | Agreed, not executed (markets closed) |
+| HYG Jun→Dec roll | Recommended, next green day |
+| USO 118C Mar 27 — cut | Recommended, not executed |
+| WAL $85P Jun (+179%) — roll first | Priority roll |
+| EGBN $25P Jun — cut or extend? | Pending Will decision |
+| OWL $9.5P Apr — cut? | Pending Will decision |
 
 ---
 
-## Dates
+## Dates (future only)
 
 | Date | Event |
 |------|-------|
-| **3/12** | ✅ Claims benign. Brent $100+ CONFIRMED. SPR failed. Citi DIFC evacuation. Kuwait airport struck. Permanent closure + war of attrition declared. |
-| **3/13** | JOLTS 10AM ET 🔴 |
-| **3/14** | DHS paycheck miss 🔴 |
-| **3/15** | CVNA discovery / TIC data 🔴 + ~~TAIWAN LNG CRITICAL DATE~~ ✅ PASSED — 22/22 cargoes secured, May gap = next window |
-| **3/17-18** | FOMC — SEP + dots 🔴🔴 |
-| **3/18-19** | BOJ — Ueda 3/19 🔴🔴 |
-| **3/20** | Kuwait curtailment physical 🔴 (ACCELERATED — airport damage Mar 12) |
+| **~3/22-23** | Gas $4.00 behavioral breakpoint 🔴🔴 |
 | **3/24** | FL UI exhaustion Wave 1 🔴 |
+| **3/23** | Rengo shunto wage tally (SAM) 🟠 |
 | **3/31** | Q1 end — WTI close = NOPI 🔴🔴 |
+| **3/31** | USDA planting intentions (fertilizer calendar) 🔴 |
 | **4/1** | Japan FY-end repatriation 🔴 |
 | **4/3** | March NFP 🔴 |
 | **4/16** | OZK earnings 🔴 |
-| **4/20-25** | Japan March trade balance 🔴 |
+| **4/17** | APO $100P expiry 🔴 |
 | **4/20-29** | WAL/EGBN/ZION/SSB earnings 🔴 |
 | **5/13** | April CPI (first oil-shock print) 🔴🔴 |
 
@@ -100,19 +93,15 @@ Small: USO 1sh, SLV 5, FXY 4, SLVP 3, INVH 7, AMH 6 (~$1,170)
 
 | Action | Pri |
 |--------|-----|
-| Jun roll plan (next green day). TLT size up. WAL $85P Jun (+179%) first. | 🔴 |
-| DD-4 + DD-5 → HAWK/HANS | 🟠 |
-| VIX call spread — widen 25/35 → 25/45 if VIX 40-55 is base case? | 🟠 |
-| OWL $9.5P Apr cut? / VLY $10P Mar20 let expire / EGBN $25P Jun cut or extend? | 🟠 |
-| TIC Mar 18 — Belgium $500B watch (corrected from Mar 15) | 🟠 |
-| Fresh HY OAS pull needed (last confirmed: 297bps Mar 4, now stale) | 🟡 |
-
-### Completed This Session (Mar 12 EOD)
-- ✅ HERMES EOD delivery (9 signals across 11 routes)
-- ✅ ZHAO STATUS reviewed (four-anchor $50-90B/mo, DIFC evac, permanent closure)
-- ✅ HAWK/HENRY/LIQUID inbox processed + all files updated (STATUS/KB/VX/FLOW/TRADE)
-- ✅ BROCK/CARL/SAM/OTTO inbox processed (BROCK+OTTO clean; CARL 4 signals, SAM 1 signal)
-- ✅ SCRATCH.md updated, stale inbox counts cleared
+| Inbox backlogs: BRENT (9), REGINALD (9), LABOR (8) | 🔴 |
+| Trade decisions for Monday (see table above) | 🔴 |
+| LABOR prompt #5 — theme parks/conventions | 🟠 |
+| NEXUS synthesis — overdue since Mar 17 | 🟠 |
+| Stale sub-agents decision (Will): CARL POLLY/POP/GIG/NICK, REGINALD RENO/TEX | 🟠 |
+| Seven depletion clocks — no agent tracks | 🟠 |
+| Iraq FM verification | 🟡 |
+| Belgium TIC $500B check | 🟡 |
+| HANS DD-4 Europe recon | 🟡 |
 
 ---
 
@@ -122,109 +111,27 @@ NOPI 47→GDP -3.0 to -4.9pp. Peak=lag4 Q1'27. Equity trough 7-11mo post oil pea
 
 ---
 
-## Scenario C — Current Probabilities (Mar 12)
+## Scenario Probabilities (Mar 20 — per HAWK)
 
-| Scenario | Prob | Change | Description |
-|----------|------|--------|-------------|
-| A — Surgical/Resolved | 0% | — | Ceasefire, Hormuz reopens <4 weeks |
-| B — Sustained/Contained | **15%** | ↓ from 22% | Hormuz 4-8 weeks, no escalation to Gulf states |
-| C — Full Escalation (BASE CASE) | **62%** | ↑ from 60% | **4-6 months BASE, years-long attrition explicit Iranian strategy** |
-| D — Collapse/Nuclear | **23%** | ↑ from 18% | Financial infra targeted, GCC state destabilization |
-
-**Scenario C duration revision:** Previously "4-6+ months." Updated to **4-6 months BASE case; years-long attrition is Iran's declared explicit strategy** (war of attrition statement Mar 12). Libya template, not Gulf War template.
+| Scenario | Prob | Description |
+|----------|------|-------------|
+| A — Resolved | 0% | Ceasefire, Hormuz reopens <4 weeks |
+| B — Contained | ~10% | Hormuz 4-8 weeks, no GCC escalation |
+| C — Full Escalation | ~22% | 4-6 months base, attrition strategy |
+| **D — Collapse/Destabilization** | **~68%** | **GCC infra targeted, state destabilization** |
 
 ---
 
-## Scenario C — Taiwan LNG Critical Path (Mar 15 passed — fuse extended to May)
+## Key Data
 
-**Mar 14 UPDATE: Taiwan secured all March-April cargoes. No rationing. TSMC disruption DELAYED, not eliminated.**
-
-| Item | Status |
-|------|--------|
-| Taiwan LNG reserves | 8-11 day baseline (daily tanker dependent) |
-| Qatar supply (30% of Taiwan total) | Fully offline — QatarEnergy Force Majeure declared (Ras Laffan strikes) |
-| March-April cargoes secured | **22 of 22 CONFIRMED** ✅ |
-| May procurement | ⚠️ **NEXT CRITICAL WINDOW — still being sourced** |
-| Asian spot LNG (JKM) | **>2x pre-crisis** — cost channel LIVE |
-| Taipower rationing | Not imposed — govt says "absolutely not necessary" |
-| Coal backup | 13GW available (swing capacity) |
-| TSMC electricity share | ~9% of Taiwan total demand |
-
-**TSMC Inflation Transmission Chain (DELAYED — cost channel active, supply chain intact):**
 ```
-Hormuz closure → Qatar LNG offline → Taiwan PAYING 2X FOR REPLACEMENT CARGOES
-→ Taipower cost spike → Taiwan electricity prices rise → TSMC opex increase
-→ [IF May procurement fails] → Taipower rationing → TSMC fab curtailment
-→ Chip supply gap → Tech goods deflation reverses
-→ Core PCE +24-36bps → Fed cut elimination
+HY OAS: 320bps (Mar 18, FRED) — pulled back from 328 peak, still RED
+SPX: ~6,565 (below 200-DMA, first time in 214 sessions)
+Claims: 205K (Mar 19) — benign
+FOMC: Hold 3.50-3.75%, 1 cut median (7-7 split)
+BOJ: Hold 0.75%, 8-1 (Takata dissent)
+Brent: $107+ (Mar 18), Dubai $166
+Gas AAA: $3.91 (Mar 20), $4 imminent
+Diesel: $5.10 (Mar 19)
+Account: ~$53K (+111%)
 ```
-
-**Key change:** Taiwan bought time with money. The COST channel is firing (JKM 2x, Taipower absorbing losses). The SUPPLY chain hasn't broken yet. May is the next test.
-
-**Escalation indicators (Taiwan) — UNCHANGED:**
-- Taipower rationing announcement → ORANGE
-- TSMC voluntary output cut → RED
-- Rolling blackouts → 🔴🔴
-- **NEW: May procurement failure → ORANGE (leading indicator)**
-
----
-
-## Fertilizer Shortage Calendar (Rabobank / CRU Data)
-
-**45% of globally traded urea transits Hormuz. ~1M tons/month missing. No strategic reserve.**
-
-| Window | Phase | Key Dynamics |
-|--------|-------|--------------|
-| **Week 0-2** (NOW) | Price shock | Urea NOLA $516→$683/mt (+32%). Physical $700/t FOB Oman. Buyers panic-buying. |
-| **Week 2-4** | Inventory drawdown | India inventory drawdown begins. 49% of India nitrogen from Gulf. CF utilization 95-99%. Spring planting buying window open. |
-| **Week 4-6** | Allocation crisis | India strategic reserves depleted. China urea export watch — Beijing may restrict exports to protect domestic supply. US 21-33% Gulf-dependent faces spot squeeze. Australia 52% from KSA. |
-| **Week 6-8** | Planting disruption | Spring planting decisions locked in. Reduced nitrogen application → yield expectations cut. Food production gap locked for 2026 harvest. |
-| **Q3-Q4 2026** | Food CPI spike | Harvest shortfalls hit grocery prices. CPI food component accelerates. |
-
-**India inventory drawdown:** Key trigger. Once India signals emergency purchases or ration allocation, confirms planting disruption is structural.
-
-**China urea export watch:** China is swing producer. If Beijing restricts exports to protect domestic supply, global spot market seizes. Watch: MOFCOM export quota announcements.
-
-**Food instability → conflict extension loop:**
-```
-Fertilizer shortage → food price spike → food insecurity in MENA/Asia
-→ political instability → harder to negotiate Hormuz resolution
-→ conflict extension → more fertilizer shortage (loop)
-```
-
----
-
-## Exit Rules — Binary vs Protracted Resolution Template
-
-**Current template: PROTRACTED (Libya analog, NOT Gulf War analog)**
-
-| Template | Characteristics | Our Positioning |
-|----------|----------------|----------------|
-| **Binary (Gulf War)** | Sharp resolution, fast normalization. Algo speed: ~23 min to erode 40% premium. | DANGEROUS — pre-set limit orders MANDATORY for Scenario A. Do NOT hold through algo unwind. |
-| **Protracted (Libya)** | Months-to-years, partial normalization only. Infrastructure damage extends disruption beyond political resolution. | CURRENT BASE CASE. Hold structure intact. Roll, don't close. |
-
-**Scenario A exit protocol (binary resolution):**
-- If Hormuz ceasefire announced + diplomatic agreement: **algo speed 23 min to erode 40% premium**
-- Pre-set limit orders mandatory on TLT shorts, energy longs BEFORE announcement
-- Do NOT wait for confirmation — by the time confirmation arrives, premium is gone
-- Target: exit energy longs in first 10-15 min; keep TLT shorts (Fed still trapped by prior CPI prints)
-
-**Scenario C exit (protracted):**
-- No rush — infrastructure damage (mines, desalination, refineries) extends disruption 4-6+ months post-political resolution
-- Roll options to longer dates; premium erosion slow
-- Monitor: mine clearance progress, insurance reinstatement, tanker re-entry
-
----
-
-## Cross-Agent Matrix (Updated Mar 12)
-
-| Agent | Transmission | Status | Key Signal |
-|-------|-------------|--------|-----------|
-| BRENT | Commodity fundamentals, tanker rates, crack spreads | 🔴🔴 Active | Storage crisis, pipeline gap |
-| HENRY | Velocity: oil → VIX → vol regime | 🔴🔴 Active | V9 triggered |
-| LIQUID | **Fed cut elimination via Core PCE/TSMC channel** | 🔴🔴 Alert | 10Y 4.23%, RRP drained; TSMC adds +24-36bps Core PCE |
-| CARL | **Tech goods inflation (TSMC channel) + consumer stress (gas pump)** | 🔴🔴 Active | Gas 4-8wk→$4; TSMC chip supply → tech goods CPI |
-| SAM | Japan carry unwind via LNG/energy crisis | 🔴🔴 Active | USD/JPY 159, BOJ 3/19 |
-| HANS | Conflict duration + humanitarian dynamics | 🟠 Needs DD-4 | Civilian infra targeting |
-| MARCO | Immigration/labor intersection | 🔴 Active | 3/14 paycheck miss |
-| OTTO | Consumer credit deterioration | 🔴 Active | DQ 7.1% RED |
