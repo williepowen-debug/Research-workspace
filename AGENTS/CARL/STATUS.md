@@ -1,7 +1,7 @@
 # CARL STATUS
 **Updated:** 2026-03-21 01:30 UTC (Pruned — archive: `workbook/STATUS_archive_mar1_mar15.md`)
 
-**Overall Status:** 🔴🔴 CRITICAL — Phase change Mar 18. FOMC hold (hawkish, 1 cut median) + Gulf military escalation (Brent $108+, Ras Laffan burning) = consumer double-bind LOCKED. Gas $3.91→$4 days away. Diesel >$5. No monetary relief valve. Subprime auto 7.1% ATR breached. Convergence 45/50.
+**Overall Status:** 🔴🔴 CRITICAL — Phase change Mar 18. FOMC hold (hawkish, 1 cut median) + Gulf military escalation (Brent $108+, Ras Laffan burning) = consumer double-bind LOCKED. Gas $3.91→$4 days away. Diesel >$5. No monetary relief valve. Subprime auto 7.1% ATR breached. Convergence 42/50.
 
 ---
 
@@ -210,7 +210,7 @@
 
 ## BOTTOM LINE
 
-**Phase change Mar 18.** FOMC hold (hawkish, 1 cut median) + Gulf military escalation (Ras Laffan burning, Brent $108+) = consumer double-bind LOCKED with no relief valve. Gas $3.91 hitting $4 behavioral breakpoint this weekend, coinciding with UI exhaustion cliff Mar 24. Savings buffer 3.6% (2008 match). HY OAS 328 with no policy backstop → trajectory toward 350+ (systematic credit tightening). Fertilizer triple seizure (China halt + Gulf offline + Fertiglobe trapped) pulling food CPI to Q2-Q3. K-shape now CONVERGING downward — both upper and lower income cohorts cutting simultaneously removes the offset. Convergence 45/50, four vectors at max. **Q2 2026 is the primary DQ conversion window.**
+**Phase change Mar 18.** FOMC hold (hawkish, 1 cut median) + Gulf military escalation (Ras Laffan burning, Brent $108+) = consumer double-bind LOCKED with no relief valve. Gas $3.91 hitting $4 behavioral breakpoint this weekend, coinciding with UI exhaustion cliff Mar 24. Savings buffer 3.6% (2008 match). HY OAS 328 with no policy backstop → trajectory toward 350+ (systematic credit tightening). Fertilizer triple seizure (China halt + Gulf offline + Fertiglobe trapped) pulling food CPI to Q2-Q3. K-shape now CONVERGING downward — both upper and lower income cohorts cutting simultaneously removes the offset. Convergence 42/50, four vectors at max. **Q2 2026 is the primary DQ conversion window.**
 
 ---
 
