@@ -1,16 +1,33 @@
 # SCRATCH — Ephemeral Working Memory
 
-**Updated:** 2026-03-19 ~22:00 UTC (Thursday)
+**Updated:** 2026-03-20 ~23:45 UTC (Thursday)
 
 ---
 
 ## QUICKSTART
-Scenario C EXECUTION. War Day 20. Account ~$53K (+111%).
-**🔴 GULF ENERGY WAR ACTIVE** — Ras Laffan 3-5 YR REPAIR (permanent capacity destruction). Iran targeting Yanbu (Saudi's ONLY remaining export route). Kuwait refineries burning. Brent $107+.
-**HY OAS: 320bps** (Mar 18 close, FRED confirmed). Pulled back from 328 peak. Still RED but NOT escalating toward 340. Monitor, not emergency.
-**Fed trapped CONFIRMED.** BOJ hold, Takata dissent. Claims 205K. New home sales -18.7%.
-**China halted fertilizer exports** (Bloomberg Mar 16). No swing producer = CF structural bull case for years.
-**S&P testing 6,600** and 200-day MA. Third consecutive down day. NOT a green day — no rolls.
+Scenario D DOMINANT (68%). War Day 21. Account ~$53K (+111%).
+**🔴 GULF ENERGY WAR — SYSTEMATIC ESCALATION** — Iran hit 3 countries simultaneously. Yanbu under active attack (Saudi's ONLY remaining export route). Iraq force majeure ALL foreign-operated fields (UNVERIFIED — First Squawk only). Ras Laffan 3-5yr repair. Brent $110+, Dubai $166.
+**SPX broke 200-DMA** at 6,606 (first time in 214 sessions). Equities catching up to credit/energy.
+**HY OAS: 320bps** (FRED Mar 18). Still RED. HY OAS 327 confirmed Mar 19.
+**Fed trapped CONFIRMED.** BOJ hold 8-1, Takata dissent. FOMC held 3.50-3.75%.
+**Seven depletion clocks running:** helium May-Jun, China crude mid-Apr, pharma APIs late May, planting/USDA Mar 31.
+**Gas $3.91** — $4 breakpoint this weekend. FL UI exhaustion cliff Mon Mar 24.
+
+## HANDOFF
+**Last context:** Massive pruning day. HAWK complete (530→160). Also done: SAM (613→138), REGINALD (1170→238), LIQUID (610→149). RED review + rebuttal written.
+**Next tide:**
+1. BRENT prune (492→<250) — same pattern
+2. CARL prune (310→<250) — lighter
+3. Inbox backlogs: BRENT (9), REGINALD (9), LABOR (8)
+4. Trade decisions (markets closed until Monday): APO Apr cut, HYG Jun→Dec roll, USO 118C cut
+5. CALENDAR.md: gas $4 + FL UI cliff
+6. Fed H.8 released — flag REGINALD
+7. Stale sub-agents decision (CARL: POLLY/POP/GIG/NICK; REGINALD: RENO/TEX)
+8. Seven clocks — no agent currently tracks
+**Open questions:** Iraq FM verification. AAPL helium exposure (80 shares, May-Jun clock).
+**Positions:** No changes today. Markets closed.
+**Rhythm note:** Will comfortable with autonomous pruning. Plans reviewed before execution. Session productive — 4 major prunes + RED review in one day.
+**Today's work:** See memory/2026-03-20.md for full log.
 
 ## SESSION WORK (Mar 19 Thursday — PM Session ~16:00-22:00 UTC)
 
