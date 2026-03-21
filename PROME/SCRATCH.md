@@ -62,6 +62,27 @@ Scenario D DOMINANT (68%). War Day 21. Account ~$53K (+111%).
 15. WFC warehouse exposure ($59.7B)
 16. HANS Europe recon
 
+## PRIORITY STACK (living — revise as understanding changes)
+
+_This is a living ranking. Update it when new data shifts importance. Don't preserve stale rankings._
+
+**Hierarchy:** Gulf escalation is the primary driver — compressing every timeline and removing every circuit breaker. Credit tells us whether visible stress converts to systemic, but the oil shock is why there's no off-ramp.
+
+| # | Signal | Status | Notes |
+|---|--------|--------|-------|
+| 1 | **Gulf escalation / oil shock** | 🔴🔴 | Scenario D 68%. Yanbu under attack. Iraq FM. Qatar permanent 3-5yr. Driving everything. |
+| 2 | **HY OAS trajectory** | 🔴 | 320 (pulled back from 328 peak). Still RED. Not accelerating. 350 = issuance freeze. |
+| 3 | **Seven Depletion Clocks** | 🔴🔴 | Hard deadlines: planting Mar 31, China crude mid-Apr, helium May-Jun, pharma late May. No agent tracks. |
+| 4 | **Fed trapped** | ✅ CONFIRMED | 7/19 zero cuts. PPI hot. No put. Now consensus. |
+| 5 | **Private credit cascade** | 🔴 | 6 funds gated. JPM marking down collateral. Stage 2. |
+| 6 | **Hidden CRE (Memo Item 3)** | 🟠 | Converts when HY OAS kills refi at 350. Loaded gun. |
+| 7 | **FL Wave 1 + gas $4 dual event** | 🔴 | Monday Mar 24. Gas $3.91→$4 same weekend. Both hit simultaneously. |
+| 8 | **Hamilton demand destruction** | ✅ TRACKING | Oil structural (80-85% capacity best case by Q4). Dec framework strengthened. |
+| 9 | **SPX 200-DMA / equity catch-up** | 🔴 | Below 200-DMA first time in 214 sessions. CTA $80B sell queue. |
+| 10 | **Claims / official labor data** | 🟡 | 205K — refuses to crack. Biggest TIMING risk. |
+
+---
+
 ## CONFIRMED DATA BLOCK
 ```
 HY OAS: 320bps (Mar 18 close, FRED CONFIRMED) — pulled back from 328 peak
