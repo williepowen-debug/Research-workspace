@@ -20,6 +20,8 @@
 | Mar 14-21 | Gas pump peak stress window (CARL) | CARL | 🔴 |
 | **Mar 17-18** | **FOMC (SEP + dot plot)** | HENRY | 🔴 |
 | **Mar 20** | **WAL $77.5P expiry** | PROME | 🟠 |
+| **~Mar 22-23** | **Gas $4.00 behavioral breakpoint (AAA $3.91 Mar 20, +$0.04/day)** | CARL | 🔴🔴 |
+| **Mar 24** | **FL UI exhaustion Wave 1 — consumption cliff** | LABOR | 🔴 |
 | Mar 31 | Q1 Quarter-End | LIQUID | 🟠 |
 | ~Mar 31 | Japan FY-End ESR Disclosures | SAM | 🔴 |
 | ~Mar 31 | JPM Collar Expiry | HENRY | 🟡 |
