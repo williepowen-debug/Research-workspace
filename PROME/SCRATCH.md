@@ -9,10 +9,10 @@ Scenario D DOMINANT (68%). War Day 22. Account $57,467 (+134%). Markets closed u
 **🔴 GULF ENERGY WAR** — Hormuz closed + mined. Yanbu under attack. Qatar LNG permanent (3-5yr). Brent $107+. Gas $3.91→$4 breakpoint.
 **HY OAS: 320bps** (Mar 18 close, FRED). Still RED.
 **Fed trapped CONFIRMED.** No cut. No put. PCE 3.1%.
-**FL UI Wave 1 exhaustion Mon Mar 24.**
+**FL UI Wave 1 exhaustion Tue Mar 24.**
 
 ## HANDOFF
-**Last context:** Built Google Calendar integration. CALENDAR.md now syncs to Will's phone via "Research Ops" calendar. 30 events, color-coded by priority.
+**Last context:** Google Calendar live — 39 events synced, color-coded. Fixed date parsing for fuzzy dates and day-of-week errors.
 
 **Completed today (6 sessions):**
 1. ✅ MEMORY.md: 17KB → **2.9KB** (83% cut). Stale data cleaned, KEY CORRECTIONS removed, Two Expiry Frameworks → LESSONS.md.
