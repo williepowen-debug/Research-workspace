@@ -1,6 +1,6 @@
 # SCRATCH — Ephemeral Working Memory
 
-**Updated:** 2026-03-22 ~19:00 UTC (Sunday 3:00 PM ET)
+**Updated:** 2026-03-22 ~19:30 UTC (Sunday 3:30 PM ET)
 
 ---
 
@@ -12,23 +12,21 @@ Scenario D DOMINANT (68%). War Day 22. Account ~$53K (+111%). Markets closed unt
 **FL UI Wave 1 exhaustion Mon Mar 24.**
 
 ## HANDOFF
-**Last context:** Memory cleanup session. Phase 1 of MEMORY.md prune complete. Phase 2 (condensing) next.
+**Last context:** Two-session memory cleanup. MEMORY.md pruned 17KB → 10.9KB (-36%). All information relocated, nothing deleted. System is leaner.
 
-**Completed this session:**
-1. ✅ Investigated last session freeze — subagent timeout (120s limit) at 16:36 UTC jammed the session
-2. ✅ Read full iran-war/ research library — all 4 pending files (#11-13 + Houthi persistence) are COMPLETE with cross-model validation
-3. ✅ MEMORY.md Phase 1 prune: 17KB → 13.8KB (-3.2KB). 11 entries archived to `PROME/ARCHIVE_MEMORY.md`
-4. ✅ Before archiving, verified intel lives in proper agent homes (LABOR, CARL, REGINALD, FORGE)
-5. ✅ Wrote Convergence Day / H.8 systemic masking into REGINALD STATUS (was missing)
-6. ✅ Wrote Chart Analysis / "THE TOP" framework into FORGE STATUS (was missing)
-7. ✅ iran-war/INDEX.md still shows #11-13 as "more models pending" — needs update to show complete
+**Completed today (across 2 sessions):**
+1. ✅ Investigated prior session freeze — subagent timeout (120s) jammed session
+2. ✅ Read full iran-war/ research library — all 4 pending files complete with cross-model validation
+3. ✅ **Phase 1:** Archived 11 entries to `PROME/ARCHIVE_MEMORY.md`. Verified intel lives in proper agent homes first. Wrote missing data into REGINALD (Convergence Day/H.8) and FORGE (Chart Analysis/THE TOP).
+4. ✅ **Phase 2:** Condensed 7 entries with file pointers. Merged Yanbu into Iran Escalation. Created `FORGE/research/SEVEN_DEPLETION_CLOCKS.md` (8.7KB comprehensive file).
+5. ✅ All changes pushed to GitHub.
 
 **Next session (priority order):**
-1. **MEMORY.md Phase 2 — Condensing pass.** Target: 13.8KB → ~8-10KB. Rewrite verbose entries to 1-2 lines + file pointers. See plan in daily notes.
-2. **Phase 2 (SCRATCH/STATUS dedupe) + Phase 3 (HEARTBEAT cleanup)** — after MEMORY condensing
-3. **Will has new prompt responses to integrate** — was about to send when we pivoted to cleanup
-4. **iran-war/INDEX.md update** — mark #11-13 as complete
-5. **Trade decisions for Monday** — APO Apr cut, HYG Jun→Dec roll, USO 118C cut
+1. **Will has new prompt responses to integrate** — was ready to send before cleanup pivot
+2. **iran-war/INDEX.md update** — mark #11-13 as complete
+3. **Phase 3: SCRATCH/STATUS dedupe + HEARTBEAT cleanup** — optional, lower priority now
+4. **Trade decisions for Monday** — APO Apr cut, HYG Jun→Dec roll, USO 118C cut
+5. **Inbox backlogs:** BRENT (9), REGINALD (9), LABOR (8)
 
-**Open questions:** Stale sub-agents. Seven clocks assignment. Inbox backlogs (BRENT 9, REGINALD 9, LABOR 8).
+**Open questions:** Stale sub-agents (CARL POLLY/POP/GIG/NICK, REGINALD RENO/TEX). Seven clocks agent assignment. Inbox backlogs.
 **Positions:** No changes. Markets closed until Monday.
