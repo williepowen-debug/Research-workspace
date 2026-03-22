@@ -38,6 +38,16 @@ This is the master index for all research related to the 2026 Iran war, Strait o
 ## Research Process
 See [RESEARCH_LOG.md](RESEARCH_LOG.md) for prompts, methodology, and future directions.
 
+## Related Files (Elsewhere in Workspace)
+
+| File | Location | Relevance |
+|------|----------|-----------|
+| Hamilton Demand Destruction Framework | `FORGE/research/DEMAND_DESTRUCTION_FRAMEWORK.md` | Core framework linking oil shock to GDP drag. NOPI=47. Dec expiry. |
+| Fed T-Bill / Repo Analysis | `FORGE/research/FED_TBILL_REPO_ANALYSIS.md` | Fed stealth liquidity — $352B T-Bills, 2019 repo parallel. Fed trapped. |
+| Oil Facility Damage Tracker | `HAWK/domain/OIL_FACILITY_DAMAGE_TRACKER.md` | Granular facility-by-facility damage. Current through Mar 19. |
+| Energy Dominance Strategy | `AGENTS/HAWK/domain/sources/ENERGY_DOMINANCE_STRATEGY.md` | Will's original insight (Mar 2). US running supply consolidation. |
+| Eisman/Gober APO Analysis | `BROCK/domain/sources/EISMAN_GOBER_TRANSCRIPT_ANALYSIS_MAR2.md` | Athene run risk, affiliated paper, captive financials. |
+
 ## Agent Cross-References
 - **BRENT** — STATUS.md updated Mar 22 (Russia decline + Ukraine strikes + Iran duration)
 - **ZHAO** — STATUS.md updated Mar 22 (yuan-for-Hormuz play)
