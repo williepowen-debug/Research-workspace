@@ -23,8 +23,13 @@ Scenario D DOMINANT (68%). War Day 22. Account ~$53K (+111%). Markets closed unt
 
 **Next session (priority order):**
 1. **Will has new prompt responses to integrate** — was ready to send before cleanup pivot
-2. **iran-war/INDEX.md update** — mark #11-13 as complete
-3. **Phase 3: SCRATCH/STATUS dedupe + HEARTBEAT cleanup** — optional, lower priority now
+2. **STALE FILES — quick fixes:**
+   - HEARTBEAT.md: Says "Scenario C" — should be D (68%). Completed catalysts = clutter. "Critical watch today" stale.
+   - iran-war/INDEX.md: #11-13 show "more models pending" — they're complete
+   - MEMORY.md: Timestamp says 17:45, should be ~19:30
+   - CALENDAR.md: Last updated Feb 27 — month stale, needs full rebuild
+   - STATUS.md: VLY expired position still listed, last updated Mar 21
+3. **Phase 3: SCRATCH/STATUS dedupe** — lower priority now that MEMORY is lean
 4. **Trade decisions for Monday** — APO Apr cut, HYG Jun→Dec roll, USO 118C cut
 5. **Inbox backlogs:** BRENT (9), REGINALD (9), LABOR (8)
 
