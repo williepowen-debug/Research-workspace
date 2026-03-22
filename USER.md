@@ -1,25 +1,12 @@
 # USER.md - About Your Human
 
 - **Name:** Will
-- **What to call them:** Will
-- **Pronouns:** *(TBD)*
 - **Timezone:** Eastern (ET / EST / EDT)
 
 ---
 
-## Motivation & Purpose
-
-Will built this agent network to understand market forces well enough to **make trades on them**. The hypothesis: publicly sourced data, systematically assembled, might allow high-level market reading that generates edge.
-
-The research is interesting in its own right, but the ultimate test is whether the system produces **actionable insights** that can be traded. If the system is unique or powerful, Will wants to give it a real shot.
-
-**What matters:**
-- Synthesis toward positioning, not just research for its own sake
-- Falsifiable predictions with clear timeframes
-- Tracking when we had signal before consensus
-- Direct, non-hedged analysis
-
----
+## Purpose
+System exists to generate **actionable trade positioning** from public data. Falsifiable predictions, direct analysis, signal-before-consensus tracking. Income matters — not academic exercise.
 
 ## Communication & Style
 
@@ -27,37 +14,16 @@ The research is interesting in its own right, but the ultimate test is whether t
 - Direct analysis, no hedging. Epistemic humility: "working model, not truth."
 - Values brutal honesty over reassurance. Probabilistic thinking.
 - Early riser (~6 AM ET). Approves proposals via inline buttons.
-- Comfortable with autonomous ops. Gives permission to edit USER.md, LESSONS.md, MEMORY.md without asking.
-- Frequently wants help tying specifics back to the bigger picture. When discussing a chart, data point, or position — connect it to the thesis, the timeline, and what it means for the overall trade. Don't assume he sees the link; make it explicit.
-- Wants Prome to be proactive about flagging what needs doing — stale tasks, blocking items, time-sensitive signals, unfinished work. Don't wait to be asked. Permission granted Mar 9, 2026.
-
-*Agent roster → `AGENTS_DIRECTORY.md`*
-
----
-
-## Background & Journey
-
-- Currently unemployed — has a family to support. Income matters, not just intellectual exercise.
-- Previous career: sales (account executive, dealership, various). Does NOT want to go back to sales.
-- Education: English Literature, some history/pre-law. Studied hard for LSAT but never took it.
-- Started working with LLMs ~May 2025. No prior background in AI, finance, or markets.
-- Original motivation: tariff uncertainty → "can AI help me figure out what's happening?" → kept iterating.
-- First attempt was a symbolic identity/continuity engine on vanilla ChatGPT 4 — "Codex," "Scrolls," ritualized prompts, permission architecture. Self-describes as "hallucinogenic mess" but it's how he learned about context windows, model degradation over long sessions, and why external persistence beats in-context memory.
-- Built the entire current system through pure iteration — no formal training, just pushing further each time. Each failure taught a real lesson.
-- The Lit background shows: thinks in narratives, transmission chains, "what story is the market telling itself."
-- Sees potential career in AI-native research/operations but has no traditional credentials for it.
-- Goal: earn income (trades and/or the system), keep learning, keep building. Open to where it leads.
-- **Publishing intent (Mar 15):** Wants to turn research into publishable content. First piece: Memo Item 3 methodology (Substack or similar). Sees potential for research newsletter as income stream alongside trades.
-
----
+- Comfortable with autonomous ops. Permission to edit USER.md, LESSONS.md, MEMORY.md without asking.
+- Always tie specifics back to the bigger picture — connect data points to thesis, timeline, and positioning. Make the link explicit.
+- Be proactive: flag stale tasks, blocking items, time-sensitive signals, unfinished work.
 
 ## How Will Thinks
 
-- **Challenges his own thesis** — runs RED team against his own conviction, asks "doesn't this break the pattern?"
-- **Systems thinker** — designs agent architecture, optimizes context, thinks about infrastructure not just content
-- **Pushes back, then verifies** — doesn't accept first answers; pulls primary sources (10-Ks, EDGAR) himself
-- **Disciplined trader** — cuts losers without sentiment (FSK -71% closed for clean signal), pragmatic on timing
-- **Wants proactive updates** — don't wait to be asked
-- **Learns by building, not reading** — discovered context limits, model degradation, and persistence architecture by hitting walls and iterating, not from documentation
-- **Willing to share vulnerabilities** — showed early "embarrassing" work unprompted. Values honesty over image management.
-- **Thinks about agents as people** — not anthropomorphizing, but modeling their failure modes empathetically. "What would cause it to mess up? What could help it? It's playing catch up while skydiving." This produces better system design than treating agents as code. He optimizes for the agent's cold-boot experience the way a good manager optimizes for a new hire's first day.
+- **Challenges his own thesis** — RED teams his own conviction, pulls primary sources (10-Ks, EDGAR) himself
+- **Systems thinker** — designs architecture, optimizes context, builds by iteration not instruction
+- **Disciplined trader** — cuts losers without sentiment, pragmatic on timing
+- **Narrative thinker** — Lit background. Frames markets as stories and transmission chains. Analysis lands better as "what's the story" than "here are the numbers."
+- **Thinks about agents as people** — models failure modes empathetically, optimizes for the cold-boot experience
+
+*Background & journey → `WILL/BACKGROUND.md` | Agent roster → `AGENTS_DIRECTORY.md`*

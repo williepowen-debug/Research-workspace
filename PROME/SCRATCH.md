@@ -1,6 +1,6 @@
 # SCRATCH — Ephemeral Working Memory
 
-**Updated:** 2026-03-22 ~20:30 UTC (Sunday 4:30 PM ET)
+**Updated:** 2026-03-22 ~21:00 UTC (Sunday 5:00 PM ET)
 
 ---
 
@@ -12,28 +12,34 @@ Scenario D DOMINANT (68%). War Day 22. Account ~$53K (+111%). Markets closed unt
 **FL UI Wave 1 exhaustion Mon Mar 24.**
 
 ## HANDOFF
-**Last context:** System optimization session. Injection weight reduction + cron infrastructure buildout.
+**Last context:** Continued injection optimization. USER.md cut 68%.
 
-**Completed this session:**
-1. ✅ HEARTBEAT.md rewrite: 2,381B → 683B (71% cut). Accurate scenario, thresholds with current values, removed stale catalysts/completed events.
-2. ✅ Fixed broken cron jobs: disabled duplicate HERMES AM/PM (hermes agent copies, 13 consecutive errors), set delivery.to on LABOR WARN + Morning Audio Briefing + EOD Scan, bumped EOD timeout 300s→600s.
-3. ✅ Added 8 new cron jobs: H.8 REGINALD auto-update, nightly git commit, inbox backlog alert, Friday position snapshot, weekly memory prune, stale agent sweep, catalyst prep check, predictions monitor.
-4. ✅ Offloaded catalysts table + heartbeat checks from HEARTBEAT.md into cron jobs (saves ~1,700B per message injection).
+**Completed today (3 sessions):**
+1. ✅ MEMORY.md pruned 17KB → 10.9KB (-36%). ARCHIVE_MEMORY.md + SEVEN_DEPLETION_CLOCKS.md created.
+2. ✅ HEARTBEAT.md: 2,381B → 683B (71% cut). Offloaded catalysts + checks to cron.
+3. ✅ USER.md: 4,484B → 1,613B (64% cut). Background moved to WILL/BACKGROUND.md.
+4. ✅ Fixed broken cron (duplicate HERMES, delivery errors, EOD timeout).
+5. ✅ Added 8 new cron jobs (H.8 auto-update, nightly git, inbox backlog, position snapshot, memory prune, stale agent sweep, catalyst prep, predictions monitor).
 
-**Prior session work (same day):**
-- MEMORY.md pruned 17KB → 10.9KB (-36%)
-- iran-war/ research library read complete
-- ARCHIVE_MEMORY.md created, SEVEN_DEPLETION_CLOCKS.md created
+**Injection budget progress:**
+| File | Before | After |
+|------|--------|-------|
+| MEMORY.md | 17KB | 10.9KB |
+| USER.md | 4.5KB | 1.6KB |
+| HEARTBEAT.md | 2.4KB | 0.7KB |
+| AGENTS.md | 2.4KB | 2.4KB (already lean) |
+| SOUL.md | 2.0KB | 2.0KB (keep) |
+| **Total injection** | **~28KB** | **~18KB (-36%)** |
 
 **Next session (priority order):**
-1. **Continue injection optimization** — USER.md (4.5KB) and MEMORY.md (10.9KB) are next targets
-2. **STALE FILES — quick fixes:**
-   - iran-war/INDEX.md: #11-13 show "more models pending" — they're complete
-   - CALENDAR.md: Last updated Feb 27 — month stale, needs full rebuild
+1. **MEMORY.md optimization** — 10.9KB, biggest remaining injection target
+2. **STALE FILES:**
+   - iran-war/INDEX.md: #11-13 show "more models pending" — complete
+   - CALENDAR.md: Last updated Feb 27 — month stale
    - STATUS.md: VLY expired position still listed
 3. **Will has new prompt responses to integrate**
 4. **Trade decisions for Monday** — APO Apr cut, HYG Jun→Dec roll, USO 118C cut
 5. **Inbox backlogs:** BRENT (9), REGINALD (9), LABOR (8)
 
-**Open questions:** Stale sub-agents (CARL POLLY/POP/GIG/NICK, REGINALD RENO/TEX). Seven clocks agent assignment. SCRATCH/STATUS dedupe.
+**Open questions:** Stale sub-agents. Seven clocks agent assignment. SCRATCH/STATUS dedupe.
 **Positions:** No changes. Markets closed until Monday.
