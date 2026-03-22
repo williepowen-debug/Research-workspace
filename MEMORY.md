@@ -10,24 +10,16 @@
 7 simultaneous physical supply chain depletions with hard deadlines diplomacy can't extend. Nearest: USDA Mar 31, FAO Apr 3, planting mid-April, China crude mid-late April, pharma late May, helium late May-June (AAPL risk), insurance 6-16mo post-ceasefire. Each clock that triggers creates a NEW crisis on top of energy. → `FORGE/research/SEVEN_DEPLETION_CLOCKS.md`
 
 ### Geopolitical Deep Dive — Mar 22 (MULTI-MODEL VALIDATED)
-6+ AI models cross-referenced on China response + Israel endgame. Key consensus findings:
-(1) **War is months not weeks.** Iran endurance strategy, no ceasefire sought, mine clearance 30-90 days post-ceasefire.
-(2) **Air power NEVER achieves regime change alone** (Pape). Most likely: weakened but surviving Iran → nuclear acceleration (Osirak precedent).
-(3) **Israel PGM exhaustion in weeks.** 3,000+ in 36 hours, THAAD production 96/yr. Trump will force endgame.
-(4) **China buffer 2.5-4 months** (runs out mid-May to late June). Russian pipeline maxed 600-700K bpd. Iran shipments down 44%.
-(5) **Every supply avenue blocked simultaneously** — Russia structurally declining, Iran offline, Gulf damaged, US shale not responding. Hamilton runs unopposed.
-(6) **Houthi indigenous capability** = potential second chokepoint (Bab el-Mandeb) even post-Hormuz.
-(7) **Trump reversed sanctions on Iranian oil at sea** (Mar 20-21) — looking for price relief.
-Full report: `FORGE/research/GEOPOLITICAL_DEEP_DIVE_MAR22.md`
+6+ models cross-referenced. War months not weeks. PGM exhaustion forces endgame mid-April. All supply avenues blocked simultaneously. China buffer mid-May to late June. Weakened Iran → nuclear acceleration (Osirak). Hamilton runs unopposed. → `FORGE/research/GEOPOLITICAL_DEEP_DIVE_MAR22.md` + `FORGE/research/iran-war/`
 
-### Houthi Strategic Reserve + Dual Chokepoint — Mar 22 (GEMINI — MAJOR)
-Houthis deliberately HOLDING BACK Bab el-Mandeb disruption as escalation card — grows more powerful as war continues. Dual-chokepoint crisis (Hormuz + Red Sea) = 1/3 global seaborne crude halted if activated. Houthis manufacturing arms independently, predate Islamic Republic. Operatives in Iraq and Lebanon — lateral coordination bypassing IRGC. Even Hormuz reopening won't normalize if Houthis activate. Yanbu SAMREF refinery already struck by IRGC — no safe alternative export route. Iraqi PMF controls government ministries (oil, education, agriculture), 80-100K fighters with independent revenue. Iranian collapse removes restraint → MORE dangerous.
+### Houthi Strategic Reserve + Dual Chokepoint — Mar 22
+Dual-chokepoint card unplayed — Houthis deliberately holding back Bab el-Mandeb as escalation card. Autonomous: survive Iran collapse, $2B+/yr domestic revenue, indigenous drone production. If activated: 1/3 global seaborne crude halted. Even Hormuz reopening doesn't normalize. → `FORGE/research/iran-war/07_DUAL_CHOKEPOINT.md`
 
 ### Russia Structural Decline — Mar 22 (CARNEGIE VERIFIED)
-Carnegie Endowment "A Tight Spot" (Mar 20) — verified against IEA, TASS, Reuters, Forbes. Russia at 8.6M bpd (IEA Feb), 4 years ahead of Carnegie's 2030 projection. Decline driven by state policy (58.4% take), OPEC+ trap (killed project pipeline), sanctions (Arctic equipment), war (labor shortages). Ukraine strikes compounding: 500K bpd refining offline, tankers sunk in Mediterranean, Druzhba pipeline hit. Trump green-lighted attacks on Russian infrastructure (except American commercial interests). Russia CAN'T swing produce even with $100+ oil.
+Russia 8.6M bpd (IEA Feb), 4yr ahead of Carnegie's 2030 projection. Can't swing produce at $100+ — state policy (58.4% take), OPEC+ trap, sanctions, labor. Ukraine strikes compounding: 500K bpd refining offline. → `FORGE/research/iran-war/01_RUSSIA_SUPPLY_DECLINE.md`
 
-### Trump Net Assessment — Mar 22 (ANALYTICAL FRAMEWORK)
-Steelmanned Trump energy strategy: supply consolidation → break OPEC+ → dollar hegemony → Russia leverage → domestic boom. Assessment: directional conviction exists but no unified financial model. Multiple power centers executing without second-order coordination. Key contradiction: can't squeeze Russia AND wage Iran war. "Indifference rather than conspiracy" — Russia isn't in Trump's equation. Most dangerous = no one at controls understanding transmission.
+### Trump Net Assessment — Mar 22
+Steelman: supply consolidation → break OPEC+ → dollar hegemony → Russia leverage → domestic boom. Reality: directional conviction, no unified model. Can't squeeze Russia AND wage Iran war. "Indifference > conspiracy." Most dangerous = no one at controls understanding transmission. → `FORGE/research/iran-war/03_TRUMP_STRATEGY.md`
 
 ### QatarEnergy Official Damage — Mar 20 (PRIMARY SOURCE)
 Minister Al-Kaabi official statement: Trains 4+6 damaged = 12.8M tonnes/yr (17% Qatar LNG). **3-5 YEARS to repair.** Force majeure on all long-term LNG contracts (China, S. Korea, Italy, Belgium). Pearl GTL (Shell) offline minimum 1 year. Lost: condensates 18.6M bbl (24% exports), LPG 1.281M MT (13%), helium 309.54 MCFA (14%). $20B/year lost revenue. Worse than our estimates.
@@ -35,17 +27,14 @@ Minister Al-Kaabi official statement: Trains 4+6 damaged = 12.8M tonnes/yr (17% 
 ### Iraq Force Majeure — Mar 20 (BREAKING)
 Iraq declared force majeure on ALL foreign-operated oilfields (2:10 PM 3/20). Iraq ~4.5M bpd, ~half foreign-operated (BP, Exxon, Total). Adds potential 2-2.5M bpd to supply gap. Hormuz gap potentially 16-18M+ bpd.
 
-### Iran Escalation Dominance — Mar 20
-Iran hit KSA, UAE, AND Qatar (3 countries) after Israel hit 1 (South Pars). UAE shut Habshan gas. Qatar expelled Iranian military attachés. Saudi: trust "completely shattered." Iran demonstrating it can hurt any Gulf neighbor regardless of neutrality. Yanbu bypass under direct threat.
+### Iran Escalation Dominance + Yanbu — Mar 20
+Iran hit KSA, UAE, AND Qatar simultaneously — no Gulf neutrality possible. Habshan shut, Qatar expelled attachés. Yanbu East-West Pipeline at 4.2M bpd (7M theoretical) = last Saudi export path. Iran hit Samref refinery Mar 19. Houthi re-entry risk could shut Red Sea route too.
 
 ### SPX 200-DMA Break — Mar 20
-S&P closed ~6,606, below 200-DMA for first time in 214 sessions. Four consecutive weekly losses. CTA $80B sell queue activated. Equity catching up to what credit/energy already priced.
+S&P ~6,606, below 200-DMA first time in 214 sessions. CTA $80B sell queue. Equity catching up to credit/energy.
 
 ### RED Adversarial Review — Mar 20
-Confidence raised 80%→85%. Top risks: ceasefire headline (15%), price controls (12%, weakened by SPR already spent), Japan buyer (10%). Key counter-signal: HY OAS at 320 despite everything — credit not panicking OR credit lagging. Rebuttal: 320 IS confirming on 2007 timeline (300→600 took 7 months, we're 3 weeks in). Position action: cut APO Apr (timing risk), roll HYG Jun→Dec, hold core.
-
-### Yanbu Pipeline Under Attack — Mar 20
-Saudi activated East-West Pipeline to full capacity Mar 11. Pushing 4.2M bpd through Yanbu (7M theoretical). Iran hit Samref refinery at Yanbu Mar 19 (drone + ballistic missile intercepted). Loadings briefly halted. BloombergNEF: even best case, Red Sea diversion "hardly patches" the deficit. Houthi re-entry risk could shut Red Sea route too.
+Confidence 85%. Top risks: ceasefire headline (15%), price controls (12%), Japan buyer (10%). HY OAS 320 IS confirming on 2007 timeline (300→600 took 7mo, we're 3wks in).
 
 ### Oil Shock Is Structural, Not Episodic — Mar 20 (MAJOR)
 Infrastructure damage analysis (verified via CNBC, Fortune, OilPrice, JPM) proves oil prices can't normalize even with ceasefire. Key damage: Ras Tanura 250-350K bpd shortfall (8-12 wk min repair), Ras Laffan LNG offline since Mar 2 (2.1M bpd equiv, mid-June restart best case), Iran lost 300-400K bpd refining + 40-50M bbl storage (12-18mo rebuild). Gulf storage full → 2-3M additional bpd forced offline. Hormuz flow: 5-6M bpd actual vs 20M normal (14-16M gap). SPR covers 15-20%. US shale grade mismatch: only 400K usable for Asian refineries, not 1M. **Best case: 80-85% pre-crisis capacity by Q4 2026. Full recovery 2027.** Hamilton framework upgrade: demand destruction isn't spike-then-revert, it's sustained. Dec expiry thesis strengthened — no relief valve. Dubai crude hit $166 (Mar 20), WTI $94, spread $70+ (Gayed said $50, already stale). Oil-in-yen 60%+ increase since Jan compounds Japan carry unwind — now 6mo minimum problem regardless of diplomacy. Floor price assumption: WTI can't go below $80-85 even with ceasefire.
