@@ -95,13 +95,25 @@ Small: USO 2sh, SLV 5, FXY 4, SLVP 3, INVH 7, AMH 6 (~$1,170)
 |--------|-----|
 | Inbox backlogs: BRENT (9), REGINALD (9), LABOR (8) | 🔴 |
 | Trade decisions for Monday (see table above) | 🔴 |
-| LABOR prompt #5 — theme parks/conventions | 🟠 |
+| LABOR prompt #5 — theme parks/conventions | ✅ done |
 | NEXUS synthesis — overdue since Mar 17 | 🟠 |
 | Stale sub-agents decision (Will): CARL POLLY/POP/GIG/NICK, REGINALD RENO/TEX | 🟠 |
 | Seven depletion clocks — no agent tracks | 🟠 |
 | Iraq FM verification | 🟡 |
 | Belgium TIC $500B check | 🟡 |
 | HANS DD-4 Europe recon | 🟡 |
+
+---
+
+## FL Theme Park / Convention Claims Vector (NEW — Mar 21)
+
+| Vector | Trigger | Lag | Expected Claims Window |
+|--------|---------|-----|----------------------|
+| Gas $4+ → park attendance drop → seasonal non-recalls | Gas crossing $4 ~Mar 22-23 | 6-10 wks (spring); 12-16 wks (summer) | May–July 2026 |
+| Convention softness (GBTA -29%, DOGE travel cuts) | Already materializing | 4-8 wks | May–Jun 2026 |
+| Wave 1 exhaustees in L&H re-separating | Mar 24 exhaustion → L&H rehires at risk | Immediate if demand drops | Jun-Jul 2026 |
+
+**Scale:** Disney 77K + Universal 20K + SeaWorld 5K direct; 468K total supported Orange County. 5% shock = 50-65K job exposures. 2008 analog: Orlando U/R tripled (3.5% → 10.8%) over 18 months. **Watch FL initial claims (not continuing) starting May — exhaustion cliff suppresses continuing claims.** Full: `LABOR/domain/sources/FL_THEME_PARK_CONVENTION_CLAIMS.md`
 
 ---
 
