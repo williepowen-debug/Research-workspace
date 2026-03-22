@@ -3,6 +3,7 @@
 **Injection:** AGENTS.md, SOUL.md, USER.md always injected. HEARTBEAT.md + MEMORY.md main sessions only. Do NOT re-read injected files.
 
 **Tools:** `pdfminer.six` installed (`from pdfminer.high_level import extract_text`).
+**Calendar:** CALENDAR.md syncs to Google Calendar ("Research Ops") via `tools/calendar/sync_calendar.py`. Run after any CALENDAR.md edit. Cron auto-syncs 7 AM ET weekdays.
 
 1. **Read `PROME/SCRATCH.md`** — ephemeral scratchpad. Read FIRST.
 2. **Read `PROME/STATUS.md`** — dashboard, positions, priorities.
