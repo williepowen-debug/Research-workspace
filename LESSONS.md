@@ -12,6 +12,7 @@
 3. **Deploy agents then wait.** If you spawn agents for a decision, wait for outputs. If urgent, don't deploy — just decide.
 4. **Puts on green days, calls on red days.** Default. Note when breaking and why.
 5. **Roll duration, don't trim size.** Expiry too short → roll to later expiry. Trimming size = thesis broken. Rolling = timeline uncertain. (Sold HYG at $0.51 when HY OAS was 1bp from trigger.)
+6. **Two expiry frameworks.** PC single-name puts (APO, ARES, ARCC): dateable catalysts → May/Jun/Jul expiry. Macro/index (HYG, KRE, IWM): Hamilton demand destruction → Dec expiry. Don't mix them. BRENT owns Hamilton clock. BROCK owns PC catalyst clock.
 
 ---
 

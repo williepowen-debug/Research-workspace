@@ -3,6 +3,7 @@
 ## Current State
 **Scenario D DOMINANT (68%).** War Day 22. Brent $107+. Gas $3.91→$4 imminent. HY OAS 320 (RED). Fed trapped. Account ~$53K (+111%).
 **Regime:** Execution phase. Jun rolls → Dec on green days. Hamilton framework drives expiry decisions.
+**Scenarios:** A=resolved 0% | B=contained 10% | C=full escalation 22% | **D=collapse/destabilization 68%**
 
 ## Thresholds
 
