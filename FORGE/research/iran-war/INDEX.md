@@ -26,9 +26,9 @@ This is the master index for all research related to the 2026 Iran war, Strait o
 
 | # | File | Topic | Status | Prompt Drafted? |
 |---|------|-------|--------|----------------|
-| 11 | [pending/US_SHALE_NONRESPONSE.md](pending/US_SHALE_NONRESPONSE.md) | Why no production response at $107? | 🔄 Prompt running | ✅ Yes |
-| 12 | [pending/MUNITIONS_BURN_RATE.md](pending/MUNITIONS_BURN_RATE.md) | Hard physical clock on war duration | 🔄 Prompt running | ✅ Yes |
-| 13 | [pending/HOUTHI_CAPABILITY.md](pending/HOUTHI_CAPABILITY.md) | Indigenous capability, Red Sea threat persistence | 🔄 Prompt running | ✅ Yes |
+| 11 | [pending/US_SHALE_NONRESPONSE.md](pending/US_SHALE_NONRESPONSE.md) | Why no production response at $107? | ✅ Claude done, more models pending | ✅ Yes |
+| 12 | [pending/MUNITIONS_BURN_RATE.md](pending/MUNITIONS_BURN_RATE.md) | Hard physical clock on war duration | ✅ Claude done, more models pending | ✅ Yes |
+| 13 | [pending/HOUTHI_CAPABILITY.md](pending/HOUTHI_CAPABILITY.md) | Indigenous capability, Red Sea threat persistence | ✅ Claude done, more models pending | ✅ Yes |
 | 14 | pending/EUROPEAN_LNG_SCRAMBLE.md | Qatar 3-5yr repair, TTF pricing, winter 26-27 | ⏳ Not started | ❌ |
 | 15 | pending/TRUMP_OFFRAMP_TIMING.md | Political pressure timeline, midterm calculus | ⏳ Not started | ❌ |
 | 16 | pending/MEK_OPPOSITION_GROUND.md | Is someone cultivating a ground partner? | ⏳ Not started | ❌ |
