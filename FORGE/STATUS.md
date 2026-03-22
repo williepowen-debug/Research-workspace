@@ -11,6 +11,8 @@ Positioned for repricing of systemic risk via regional bank puts. Credit leads e
 
 **NFP -92K (Mar 6) = THESIS CONFIRMED.** First negative NFP this cycle. WAL -13% ($70), KRE -3.6% ($64). Brent $90 (Hormuz storage crisis). All vectors firing simultaneously.
 
+**Technical Confirmation (Feb 24):** 6-bank watchlist (OZK, WAL, EGBN, ZION, FLG, SSB) topped Feb 2026 and reversed. Pattern matches GFC 2007 template — slow grind, not SVB-style sudden death. KRE put/call ratio 2.27 (heavy). 75-80% confidence this is THE TOP for regional bank equities.
+
 ---
 
 ## Realized Today — Mar 6

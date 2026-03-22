@@ -56,6 +56,9 @@
 - Bitcoin ~$69K Mar 19 — risk-off, correlation with equities now high
 - iTraxx monitoring still relevant: EU contagion channel approaching threshold
 
+### H.8 Systemic Masking — Convergence Day (Feb 27)
+Fed H.8 confirmed industry-level Memo Item 3 reclassification: **C&I +14.4% YoY while CRE +1.1%** (down from +5.9%). The masking is systemic, not bank-specific — banks industry-wide are shifting CRE into C&I. Same day: MFS fraud (£2B) → Jefferies/Barclays → sector derisking → WAL -10.64% on NO specific catalyst (pure vulnerability premium). Private credit → bank equity transmission confirmed live. **HY OAS 320bps = credit transmission threshold.**
+
 ---
 
 ## 🚨 MAR 19 AM — PPI SHOCK + POST-FOMC + RAS LAFFAN ATTACK
