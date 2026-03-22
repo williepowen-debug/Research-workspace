@@ -8,7 +8,7 @@
 
 | Date | Event | Owner | Priority |
 |------|-------|-------|----------|
-| **3/24** | **Gas $4.00 behavioral breakpoint (imminent)** | CARL | 🔴🔴 |
+| **3/23** | **Gas $4.00 behavioral breakpoint (imminent)** | CARL | 🔴🔴 |
 | 3/23 | Rengo shunto wage tally (round 1) | SAM | 🟠 |
 | **3/24** | **FL UI exhaustion Wave 1 — consumption cliff** | LABOR/CARL | 🔴 |
 | 3/27 | Rengo wage tally (round 2) | SAM | 🟠 |
