@@ -1,152 +1,190 @@
 # NEXUS STATUS
-**Updated:** 2026-03-17 ~19:30 UTC | **Run:** Pass 6 — 9-Agent Batch Synthesis. Convergence matrix updated. OUTBOX.md written for PROME.
-**Last context:** 9 agents processed Mar 17 signals. HAWK: Scenario D → 50% base case (was 15%). BRENT: 6.8-7.0 mbpd offline, Fujairah terminal destroyed. BROCK: $1.54T NDFI (5x prior). CARL: fertilizer trigger CONFIRMED, food CPI pulled Q2-Q3. SAM: FOMC+BOJ 48hr window, carry 35%/88%. HENRY: retail buyer gone (not weakening). OTTO: wealthy canary dead. REGINALD: dual CRE+PC failure, housing at 2008. LIQUID: Treasury $60B/mo buybacks structural.
+**Updated:** 2026-03-22 ~17:50 UTC | **Run:** Pass 8 — Geopolitical Deep Dive Integration. 8+ model cross-referenced synthesis absorbed. 3 new convergences. 2 new tensions. Timeline compression identified.
+**Last context:** Pass 7 was Mar 21 at 50/50 ceiling. Since then: massive geopolitical deep dive completed using 8+ AI models cross-referenced against primary sources (Carnegie, IEA, ISW, CSIS, Atlantic Council, Kpler, etc). Russia structural decline verified, Iran endurance war confirmed, dual-chokepoint crisis identified, LGFV cascade mechanism discovered, China buffer clock quantified.
 
-**⚠️ THRESHOLD CROSSED: CONVERGENCE SCORE 48/50 (was 43/50, +5 points). System is past the critical 45/50 threshold.**
-
----
-
-## 🔴🔴🔴 CRITICAL — MAR 17
-
-| # | Alert | Agents | Action |
-|---|-------|--------|--------|
-| 0 | **CONVERGENCE 48/50 — THRESHOLD CROSSED** | ALL | System-wide alignment unprecedented. 9 independent agents pointing the same direction. NEXUS confidence in thesis: 96%. |
-| 1 | **FOMC+BOJ 48HR DUAL-CATALYST WINDOW** | SAM,HENRY,LIQUID | FOMC Wed → dovish (locked, NFP -92K + stagflation). BOJ Thu → hawkish hold (Yamaba wages + Ueda parliament language). Rate differential narrows BOTH ends simultaneously = carry unwind 35% 7d / 88% 30d. **Cleanest trigger in thesis timeline.** |
-| 2 | **$1.54T SHADOW BANKING REFRAME** | BROCK,REGINALD | Prior model: $300B PE-only. Actual: $1.54T FFIEC NDFI. Bank losses: $80-185B (vs prior worst $27B). Zito + UBS stress = 3-4x 2008. BDC NAV -17%. BCRED hard gate imminent Q2. |
-| 3 | **SCENARIO D NOW 50% BASE CASE** | HAWK,BRENT | Was 15% at Mar 14. Saudi/UAE/Kuwait all kinetically targeted. Fujairah terminal destroyed = last UAE Hormuz bypass gone. Retaliation cycle non-linear. Phase 1 extends to Q3. |
-| 4 | **FERTILIZER TRIGGER CONFIRMED** | CARL,BRENT | PREDICTED trigger hit. Gulf 49% offline + China N+K halt = 40-50% global N+K disrupted at spring planting. Food CPI pulled Q2-Q3 (was Q3-Q4). CF Industries thesis confirmed. |
-| 5 | **RETAIL BUYER STRUCTURALLY GONE** | HENRY,OTTO,CARL | JPM: weekly purchases -30%, ETF inflows -22% — "persistent," not one-week. RV market -50% (wealthy canary). Zero real retail growth 6 consecutive months. Bull trap 6,632 by Mar 23 (HENRY). This is present-tense, not forecast. |
-| 6 | **TREASURY $60B/MO STRUCTURAL DEMAND HOLE** | LIQUID,SAM | Buybacks plugging foreign demand gap. SK run cuts Apr → Asia-Pacific current account stress → additional demand destruction vector. Japan+Korea = 5.7 mbpd Gulf-dependent capacity simultaneously at risk. |
+**⚠️ CONVERGENCE SCORE: 50/50 — CEILING MAINTAINED. Quality of confirmation has deepened dramatically. New transmission mechanisms identified.**
 
 ---
 
-## CONVERGENCE MATRIX — Updated Mar 17
+## 🔴🔴🔴 CRITICAL — MAR 22 (PASS 8)
+
+| # | Alert | Agents | Notes |
+|---|-------|--------|-------|
+| 0 | **CONVERGENCE 50/50 — MAINTAINED + DEEPENED** | ALL | Score can't go higher but confirmation quality has stepped up. 8+ model synthesis validates every major thesis vector. NEW: transmission mechanisms identified (LGFV cascade, dual-chokepoint, proxy horizontal resilience). |
+| 1 | **SUPPLY CLOSURE FROM ALL DIRECTIONS — VERIFIED** | BRENT,HAWK | Russia 8.6M bpd (4yr ahead of 2030 decline schedule, Carnegie verified). Ukraine strikes: 500K bpd refining offline, tankers sunk in Med, Caspian platforms hit. Iran endurance war (months not weeks). US shale NOT responding ($107 oil, rigs -7% YoY, DUC -41%). Gulf under active IRGC attack. NO backfill source exists globally. |
+| 2 | **DUAL-CHOKEPOINT CRISIS — MAJOR NEW FINDING** | BRENT,HAWK | Hormuz (Iran) + Bab el-Mandeb (Houthi "strategic reserve"). Houthis DELIBERATELY holding back Red Sea disruption as escalation card that grows MORE powerful over time. If activated: 1/3 global seaborne crude halted simultaneously. Yanbu SAMREF already struck by IRGC — Saudi Red Sea bypass NOT safe. No alternative routes exist. |
+| 3 | **CHINA BUFFER CLOCK: MID-MAY TO LATE JUNE** | BRENT,SAM,ZHAO | 900M-1.4B barrels (2.5-4 months). Russian pipeline maxed 600-700K bpd. Iranian shipments to China -44%. When buffer exhausts → real demand destruction in world's largest importer. |
+| 4 | **LGFV CASCADE — NEW TRANSMISSION MECHANISM** | ZHAO,HENRY,LIQUID | Oil shock → manufacturer margin compression (25% already loss-making) → reduced corporate tax receipts → LGFV debt servicing crisis (¥66T hidden debt, ~50% GDP). Connects Hamilton demand destruction directly to Chinese financial system stress. PPI may flip positive March = "bad inflation." |
+| 5 | **ISRAEL PGM EXHAUSTION — HARD CLOCK ON WAR** | HAWK | 3,000+ PGMs in 36 hours. THAAD production 96/yr. "A few weeks of bombing left." But Trump will force endgame eventually (Suez 1956 precedent). War duration bounded by munitions, not political will. |
+| 6 | **PROXY HORIZONTAL RESILIENCE** | HAWK,BRENT | Iraqi PMF: 80-100K fighters, controls government ministries, independent revenue. Houthi operatives in Iraq/Lebanon — lateral coordination bypassing decapitated IRGC-QF. Iranian collapse removes RESTRAINT → proxies MORE dangerous, not less. |
+| 7 | **NUCLEAR ACCELERATION NEAR-CERTAIN** | HAWK | Air power NEVER achieved regime change alone (Pape: "for over a century"). Most likely: weakened but surviving Iran → nuclear acceleration (Osirak precedent). MBS: "if they get one, we have to get one." Regional cascade. |
+| 8 | **TRUMP SANCTIONS REVERSAL — PRICE RELIEF ATTEMPT** | HAWK,BRENT | Mar 20-21: reversed sanctions on 140M barrels Iranian oil at sea (General License U). Looking for price relief. But 140M barrels ≈ 1.4 days global consumption. Band-aid on arterial bleed. |
+
+---
+
+## CONVERGENCE MATRIX — Updated Mar 22 (Pass 8)
 
 | ID | Name | Agents | Confidence | Status | Change |
 |----|------|--------|------------|--------|--------|
-| C-01 | Q2 Consumer Stress | ALL | **97%** ↑ | ✅ CONFIRMED | ↑ Chicago Fed: zero real retail growth Sep-Feb. Consumer entered oil shock from stalled baseline. |
-| C-02 | **Private Credit Cascade** | REGINALD,HENRY,BROCK,LIQUID,LABOR | **99%** ↑ | 🔴🔴🔴 IMMINENT | ↑↑ $1.54T NDFI reframe (5x prior). MFIC buyback = lending freeze. UK "irregularities" insolvency = marks wrong. BDC -17% NAV. Loss range $80-185B. Blue Owl OWL three concurrent catalysts. |
-| C-05 | FL Triple Collision | LABOR,REGINALD,CARL | **90%** ↑ | 🔴 IMMINENT | FL completions +35%. Housing at 2008 levels (REGINALD). UI Wave 1 Mar 24 unchanged. |
-| C-07 | **UST Demand Destruction** | HENRY,BRENT,SAM,LIQUID | **99%** | 🔴🔴🔴 MAX | LIQUID confirms ~$60B/mo structural. SK energy crisis adds Asia-Pacific current account vector. TIC data Mar 18 = next confirmation. |
-| C-08 | **Energy-Credit Nexus** | BRENT,HAWK,HENRY,BROCK | **98%** ↑ | 🔴🔴 CONFIRMED | ↑ Fujairah terminal DESTROYED (not disrupted). Shah Gas Plant struck. Retaliation cycle removes bypass capacity non-linearly. Phase 1 duration now extends to Q3 even on ceasefire. Mine floor confirmed + extended. |
-| C-10 | **Energy Warfare → Supply Chain** | BRENT,HAWK,CARL | **97%** ↑ | 🔴🔴 CONFIRMED | ↑↑ PREDICTED TRIGGER HIT. Gulf 49% offline + China N+K halt = 40-50% global N+K disrupted. Spring planting window closing NOW. Food CPI Q2-Q3. |
-| C-11 | Q2 Forced Disclosure Cluster | BRENT,REGINALD,HENRY,BROCK | **92%** ↑ | 🔴 UPGRADED | ↑ MFIC buyback = lending freeze signal before Q1 earnings. OWL UK "irregularities" = collateral mark failures in real time. April earnings cluster = forced disclosure. |
-| C-15 | Petrodollar Recycling Collapse | HAWK,HENRY,SAM,LIQUID | **94%** ↑ | 🔴🔴 UPGRADED | ↑ Scenario D 50% = Gulf sovereign income near-zero. $60B/mo Treasury demand hole confirms recycling collapse. |
-| C-16 | PE/Alt Asset Cascade | BROCK,REGINALD,HENRY | **95%** ↑ | 🔴🔴 ACCELERATING | ↑ APO: three vectors (Athene + MFIC freeze + DC reflexive loop). OWL: three concurrent Apr catalysts. $1.54T NDFI = systemic exposure confirmed. |
-| C-17 | CRE Can-Kick Failure | REGINALD,BROCK,HENRY | **92%** ↑ | 🔴🔴 UPGRADED | ↑ FL completions +35% = new supply into impaired demand. Housing at 2008 levels. WAL Gibbons → Idnani CFO swap = coordinated preparation confirmed. |
-| C-19 | Stagflation Trap | ALL | **97%** ↑ | ✅ CONFIRMED | ↑ Consumer stall (zero real retail growth 6mo) confirmed pre-shock. GDP 0.7% + PCE 3.1% + NFP -92K = Fed boxed. |
-| C-21 | Financial Infra → Credit Contagion | HAWK,LIQUID,BROCK | **82%** ↑ | 🟠 → 🔴 UPGRADED | ↑ DIFC/SAMA targeted. Fujairah struck. Kharg Island offline. Pattern = systematic financial infrastructure targeting. |
+| C-01 | Q2 Consumer Stress | ALL | **99%** | ✅✅ FACT | — No change. Already confirmed. Gas $4 breakpoint + student loans + sub-auto all active. |
+| C-02 | **Private Credit Cascade** | REGINALD,HENRY,BROCK,LIQUID,LABOR | **99%** | 🔴🔴🔴 ACTIVE | — No new data this pass. BCRED, APO, distressed exchanges all still active. |
+| C-05 | FL Triple Collision | LABOR,REGINALD,CARL | **95%** | 🔴🔴 T-1 | ↑ Tomorrow Mar 24 is Monday. Gas $4 breakpoint hit this weekend. |
+| C-07 | **UST Demand Destruction** | HENRY,BRENT,SAM,LIQUID | **99%** | 🔴🔴🔴 MAX | ↑ Gulf sovereign income near-zero + IRGC declared all GCC energy "legitimate targets." Petrodollar recycling structurally broken during conflict. |
+| C-08 | **Energy-Credit Nexus** | BRENT,HAWK,HENRY,BROCK | **99%** | 🔴🔴🔴 MAX | ↑↑ Supply closure verified from ALL directions simultaneously. No backfill. Dual-chokepoint risk adds second layer. Scenario D reinforced. |
+| C-10 | **Energy Warfare → Supply Chain** | BRENT,HAWK,CARL | **99%** ↑ | 🔴🔴🔴 MAX | ↑ Elevated to 99%. Russia structural decline + Ukraine strikes compounding = permanent supply reduction independent of Iran war outcome. |
+| C-11 | Q2 Forced Disclosure Cluster | BRENT,REGINALD,HENRY,BROCK | **95%** | 🔴 ACTIVE | — No change this pass. |
+| C-15 | Petrodollar Recycling Collapse | HAWK,HENRY,SAM,LIQUID | **97%** ↑ | 🔴🔴 ACTIVE | ↑ Gulf under active IRGC attack ("all GCC energy legitimate targets"). Qatar LNG permanent. Yanbu struck. Gulf sovereigns spending on defense, not buying Treasuries. |
+| C-16 | PE/Alt Asset Cascade | BROCK,REGINALD,HENRY | **97%** | 🔴🔴 ACCELERATING | — No new data this pass. |
+| C-17 | CRE Can-Kick Failure | REGINALD,BROCK,HENRY | **95%** | 🔴🔴 ACCELERATING | — No new data this pass. |
+| C-19 | Stagflation Trap | ALL | **99%** | ✅✅ CONFIRMED FACT | — Reinforced by supply-side closure from all directions. No supply relief = no inflation relief = Fed stays trapped. |
+| C-21 | Financial Infra → Credit Contagion | HAWK,LIQUID,BROCK | **88%** | 🔴🔴 ACTIVE | — No new data this pass. |
+| C-22 | **Supply Infrastructure DESTRUCTION (Permanent)** | BRENT,HAWK | **99%** ↑ | 🔴🔴🔴 MAX | ↑↑ Elevated to 99%. Qatar LNG 3-5yr permanent. Yanbu SAMREF struck. Russia: 500K bpd refining offline, Caspian platforms hit, tanker sunk in Med. Ukraine strikes = permanent capacity reduction independent of policy. Carnegie confirms structural decline trajectory. |
+| C-23 | **FOMC+BOJ Dual-Catalyst** | SAM,HENRY,LIQUID | **95%** | ✅ TRIGGERED | — No new data this pass. Awaiting Shunto tally result. |
+| C-24 | **Consumer Demand Destruction: Present-Tense** | HENRY,OTTO,CARL | **97%** | ✅✅ FACT | — No change. |
+| C-25 | **Asia-Pacific Energy Supply Shock** | BRENT,SAM,ZHAO | **95%** ↑ | 🔴🔴 APPROACHING → CLOCK RUNNING | ↑ China buffer quantified: 2.5-4 months → exhaustion mid-May to late June. Russian pipeline maxed. Iranian shipments -44%. SK refiner feedstock ~2-3wk. China banned diesel/gasoline/aviation fuel exports through end-March. |
+| C-26 | 10Y Dangerous Decoupling | LIQUID,REGINALD,HENRY | **90%** | 🔴🔴 ACTIVE | — No new data this pass. |
+| C-27 | Bank Liquidity Seizure Setup | REGINALD,LIQUID,BROCK | **88%** | 🔴🔴 ACTIVE | — No new data this pass. |
+| C-28 | Gas $4 — Consumer Behavioral Break | CARL,HENRY,LABOR | **95%** ↑ | 🔴🔴 TRIGGERED | ↑ $4 threshold likely hit this weekend (Mar 22-23). Diesel >$5 sustained. |
 
-### NEW CONVERGENCES — Mar 17
+### NEW CONVERGENCES — Pass 8 (Mar 22)
 
 | ID | Name | Agents | Confidence | Status |
 |----|------|--------|------------|--------|
-| **C-22** | **Supply Infrastructure DESTRUCTION (Permanent)** | BRENT,HAWK | **92%** | 🔴🔴 NEW — Fujairah terminal destroyed. Shah Gas Plant struck (world's largest ultra-sour processor). Retaliation cycle non-linear. DIFFERENCE from prior: disruption stops on ceasefire, destruction requires 60-90 day reconstruction regardless of diplomacy. Phase 1 extends to Q3 2026 minimum. |
-| **C-23** | **FOMC+BOJ Dual-Catalyst Window (48hr)** | SAM,HENRY,LIQUID | **85%** | 🔴🔴 NEW — FOMC Wed (dovish, locked) + BOJ Thu (hawkish, wages locked in) = rate differential narrows from both ends simultaneously. Carry unwind 35% 7d. USD risk reversals +92bp (3yr high). TIC data today. Cleanest trigger window in thesis timeline. |
-| **C-24** | **Consumer Demand Destruction: Present-Tense** | HENRY,OTTO,CARL | **93%** | 🔴 NEW — Retail purchases -30% (JPM, "persistent"), RV -50% (wealthy canary), zero real retail growth 6mo. This has crossed from forecast to confirmed. Bull trap signal: 6,632 SPX by Mar 23. Mass market lag: Q4 26/Q1 27. |
-| **C-25** | **Asia-Pacific Energy Supply Shock (Apr)** | BRENT,SAM | **88%** | 🔴 NEW — SK refiners 3 weeks feedstock. Japan ~80% Gulf dependent. Japan+Korea = 5.7 mbpd simultaneously at risk. Run cuts early April → 350-700K bpd product loss. Adds current account deterioration vector to yen thesis (counter-force to carry unwind). |
+| **C-29** | **DUAL-CHOKEPOINT CRISIS (Hormuz + Bab el-Mandeb)** | BRENT,HAWK | **92%** | 🔴🔴🔴 NEW — Houthis holding Bab el-Mandeb disruption as "strategic reserve" — escalation card that GROWS more powerful over time. If activated: Hormuz + Red Sea = 1/3 global seaborne crude halted simultaneously. Even Hormuz reopening doesn't normalize if Houthis activate. Yanbu already struck → no safe bypass. Houthi indigenous manufacturing = sustainable without Iranian resupply. This is the TAIL RISK that makes even optimistic scenarios dangerous. |
+| **C-30** | **LGFV CASCADE: Oil → Chinese Financial Stress** | ZHAO,HENRY,LIQUID,BRENT | **85%** | 🔴🔴 NEW — Transmission chain: oil shock → manufacturer margin compression (25% already loss-making) → reduced corporate tax receipts → LGFV debt servicing crisis (¥66T hidden debt, ~50% GDP). CIPS spiked to 928B RMB ($128B) daily on Mar 9 (war-driven emergency clearing). PPI flipping positive = "bad inflation" (cost-push, not demand-pull). China property -12-13% 2025, another -10-14% expected 2026. Capital Economics: growth could fall below 3% if war continues months. THIS IS HOW HAMILTON DEMAND DESTRUCTION TRANSMITS TO CHINA. |
+| **C-31** | **PROXY HORIZONTAL RESILIENCE** | HAWK,BRENT | **88%** | 🔴🔴 NEW — Iranian collapse does NOT neutralize proxy threat. Iraqi PMF: 80-100K fighters, controls govt ministries (oil, education, agriculture), independent revenue. Houthis predate Islamic Republic, manufacturing arms independently. Lateral coordination between proxies (operatives in Iraq/Lebanon) bypasses IRGC-QF decapitation. Iranian collapse removes RESTRAINT → proxies become LESS predictable, not less dangerous. Implication: even regime change doesn't deliver "peace premium" to oil markets near-term. |
 
 ---
 
-## CONTRADICTIONS & TENSIONS — Mar 17
+## CONTRADICTIONS & TENSIONS — Pass 8
 
 | # | Tension | Resolution |
 |---|---------|------------|
-| T-03 | HYG timing risk (3-14mo credit lag) vs LIQ-01 proximity (317bps) | Unchanged. Rolling Jun→Dec. LIQ-01 crossing begins VaR cascade, not immediate HYG collapse. |
-| T-04 | BOJ hawkish → yen bid vs energy shock → current account yen weakness | Confirmed as genuine counter-force (SAM). Sequence matters: rate differential drives short-term (days-weeks), current account drives medium-term (April+). FXY position structurally intact; sizing up conditional on Yamaba + FOMC tone. |
-| **T-05** | **Scenario D 50% + SK run cuts (Apr) vs oil demand destruction (OTTO/HENRY: consumer pulling back)** | **Temporal resolution: supply destruction outpaces demand destruction in Phase 1 (now→Q3). Oil price net up even with demand weakness because supply offline (6.8-7.0 mbpd) >> demand reduction possible. Phase 2 (Q4+): demand destruction may suppress oil from extreme levels. Not a contradiction — sequential.** |
-| **T-06** | **HENRY: 52/60 convergence scale vs CARL: 45/50** | **Scale difference. Normalized: HENRY ~87% (52/60), CARL 90% (45/50). Both confirm threshold crossed. NEXUS 48/50 = 96%. Consistent direction, minor variance in scoring methodology.** |
+| T-03 | HYG timing risk vs LIQ-01 proximity | Unchanged. |
+| T-04 | BOJ hawkish → yen bid vs energy shock → yen weakness | Unchanged. Awaiting Shunto tally. |
+| T-05 | Supply destruction vs demand destruction timing | **UPDATED:** Supply closure now verified from ALL directions simultaneously (Russia structural, Ukraine physical, Iran offline, Gulf attacked, US shale non-responsive). Supply dominance extends through summer minimum. Demand destruction is SEQUENTIAL — consumer → corporate → financial. Supply leads by 2-3 quarters. |
+| T-07 | 10Y below 4% vs stagflation narrative | Unchanged. Watch Monday. |
+| T-08 | FOMC cut probability vs Fed dots | Unchanged. April CPI = next data. |
+| **T-09 (NEW)** | **Israel PGM exhaustion (weeks) vs Iran endurance war (months)** | Israel runs out of precision munitions before Iran capitulates. Resolution: Trump forces off-ramp when PGMs deplete (Suez 1956 precedent). This creates a WINDOW — April-May 2026 — where war must either escalate (ground component?) or de-escalate (forced ceasefire). MEK/ground partner variable is the wildcard. If no ground component → ceasefire → mine clearance 30-90 days → Hormuz partial normalization by late summer. If ground component materializes → regime change consensus breaks → timeline unknowable. |
+| **T-10 (NEW)** | **Trump price relief attempts vs structural supply closure** | Trump reversed sanctions on 140M barrels at sea. Looking for price relief before midterms. But 140M barrels = ~1.4 days global consumption. SPR already failed. No supply source can backfill. Structural vs political: structural wins over quarters. Trump may achieve temporary dips but cannot resolve the underlying supply-demand imbalance. Each relief attempt that fails = market realizes no cavalry is coming. Watch for: Saudi spare capacity announcement (last card), or forced ceasefire (endgame). |
 
 ---
 
-## THRESHOLD PROXIMITY MATRIX — Mar 17
+## THRESHOLD PROXIMITY MATRIX — Pass 8
 
 | Threshold | Current | Gap | Window | Agents |
 |-----------|---------|-----|--------|--------|
-| **FOMC decision** | — | — | **TOMORROW (Wed Mar 18)** | ALL |
-| **BOJ / Ueda presser** | — | — | **THURSDAY (Mar 19)** | SAM,HENRY |
-| **TIC data** | — | — | **TODAY (Mar 18)** | SAM,LIQUID,ZHAO |
-| **Kuwait storage crisis** | Curtailing since Mar 7 | ~3 days | **Mar 20** | BRENT,HAWK |
-| **SK refiner feedstock** | 3 weeks remaining | ~3 weeks | **Early April** | BRENT,SAM |
-| **FL UI exhaustion Wave 1** | — | — | **Mar 24 (7 days)** | LABOR,CARL |
-| LIQ-01 (HY OAS 320bps) | 317bps | 3bps | FOMC could trigger | LIQUID,HENRY |
-| HY Yield 7.00% | 6.95% | 5bps | FOMC could trigger | HENRY,BROCK |
-| BDC NAV -26% (COVID level) | -17% | -9pp | Q2 | BROCK |
-| BCRED hard gate | — | — | Q2 / Apr 1 | LIQUID,BROCK |
-| Life insurer FY-end repatriation | — | — | ~Apr 1 (15 days) | SAM |
-| Q1 end / WTI NOPI | — | — | Mar 31 | HENRY,BRENT |
-| OZK earnings | — | — | Apr 16 | REGINALD |
+| **Gas $4 behavioral break** | ~$4.00 | 0 | **THIS WEEKEND — TRIGGERED** | CARL,HENRY,LABOR |
+| **FL UI Wave 1 exhaustion** | T-1 | — | **MON MAR 24** | LABOR,CARL,REGINALD |
+| **Israel PGM exhaustion** | Active depletion | — | **WEEKS (April?)** | HAWK |
+| **China buffer exhaustion** | 2.5-4 months | — | **MID-MAY TO LATE JUNE** | BRENT,SAM,ZHAO |
+| **Yanbu strike → $145-165 Brent** | SAMREF already hit | 0 | **ACTIVE** | HAWK,BRENT |
+| **Dual-chokepoint activation** | Houthi "strategic reserve" | — | **UNKNOWN — escalation card** | BRENT,HAWK |
+| LIQ-01 (HY OAS 320bps) | 320bps | 0 | Touched — pulled back | LIQUID,HENRY |
+| HY issuance freeze (350 OAS) | 320bps | 30bps | Weeks | LIQUID,BROCK |
+| KRE $60 support | $63.19 | $3.19 | Days-weeks | REGINALD |
+| WAL bankruptcy event | Flagged | — | Unknown | REGINALD,BROCK |
+| SK refiner feedstock exhaustion | ~2-3wk | — | Early April | BRENT,SAM |
+| Life insurer FY-end repatriation | — | — | **Mar 31 (9 days)** | SAM |
+| Q1 end / quarter-close stress | — | — | **Mar 31 (9 days)** | HENRY,LIQUID,REGINALD |
+| OZK earnings | — | — | **Apr 16** | REGINALD |
 | April CPI (first oil-shock print) | — | — | May 13 | ALL |
-| FHA DQ 13% (2009 level) | >11% | ~2pp | Q2-Q3 | CARL |
+| BCRED hard gate | $3.8B redemptions in | — | Q2 / Apr 1 | BROCK,LIQUID |
+| BDC NAV -26% (COVID level) | ~-17% | -9pp | Q2 | BROCK |
 
 ---
 
-## CROSS-POLLINATION FLAGS — Mar 17
+## TIMELINE COMPRESSION — Pass 8 (NEW SECTION)
+
+The geopolitical deep dive reveals a **convergence window: April-June 2026** where multiple hard constraints collide:
+
+| Event | Window | Implication |
+|-------|--------|-------------|
+| Israel PGM exhaustion | April | Forces war endgame (ceasefire or ground escalation) |
+| SK refiner feedstock exhaustion | Early April | Asia-Pacific supply crisis goes live |
+| Q1 quarter-close | Mar 31 | Forced marks, disclosure, liquidity stress |
+| FL UI Wave 1 | Mar 24 | Consumer stress visible in data |
+| OZK earnings | Apr 16 | CRE disclosure catalyst |
+| April CPI | May 13 | First oil-shock inflation print |
+| China buffer exhaustion | Mid-May to late June | World's largest importer starts rationing |
+| BCRED Q2 gate | Apr 1+ | Private credit liquidity test |
+
+**The system is entering a 90-day window where every major stress vector hits simultaneously.** This is not a forecast — these are physical and financial constraints with known timelines.
+
+---
+
+## CROSS-POLLINATION FLAGS — Pass 8
 
 | Flag | From | To | Type | Status |
 |------|------|----|------|--------|
-| Retaliation cycle → Ras Tanura/Yanbu threat posture | BRENT | HAWK | Response needed — BRENT asked 5 specific questions | ⚠️ PENDING |
-| HY 7% amplification w/o retail support | HENRY | LIQUID | Modeling request — regime change from prior episodes | ⚠️ PENDING |
-| BOJ Thursday + TIC data → UST demand impact | SAM | LIQUID | Joint modeling needed — dual events hitting demand | ⚠️ PENDING |
-| $1.54T NDFI by bank/category | BROCK | REGINALD | WFC NDFI total likely >> $59.7B PE-only exposure | ⚠️ PENDING |
-| SK run cuts → Asia-Pacific current account → yen | BRENT | SAM | Counter-force to carry unwind — SAM already integrating | ✅ IN PROGRESS |
-| Fertilizer trigger → CF Industries Jun $115C | BRENT | CARL | Both agents independently confirmed | ✅ ALIGNED |
-| Consumer stall → oil demand destruction | CARL/HENRY/OTTO | BRENT | Does demand destruction constrain Phase 1 price target? BRENT should model. | ⚠️ NEW FLAG |
+| Dual-chokepoint (C-29) → shipping/insurance repricing | BRENT,HAWK | HENRY,LIQUID | Houthi activation = second chokepoint. Even Hormuz normalization doesn't help. | ⚠️ NEW — MAJOR |
+| LGFV cascade (C-30) → global demand destruction | ZHAO | CARL,HENRY | China financial stress → export order collapse → US manufacturing/retail impact | ⚠️ NEW |
+| Israel PGM clock → forced ceasefire timing | HAWK | BRENT,PROME | Weeks, not months. Creates April window for war de-escalation. | ⚠️ NEW |
+| Proxy resilience (C-31) → no "peace premium" | HAWK | BRENT,PROME | Even regime change doesn't normalize oil near-term. Proxies persist. | ⚠️ NEW |
+| Trump sanctions reversal → temporary price dip risk | HAWK,BRENT | PROME | 140M barrels = noise. But watch for Saudi spare capacity announcement. | ⚠️ MONITOR |
+| Russia structural decline → PERMANENT supply reduction | BRENT | ALL | Carnegie verified. Not cyclical — structural. Baseline supply lower forever. | ✅ CONFIRMED |
+| Shunto tally → FXY sizing | SAM | PROME | Still awaiting result from Mar 21 | ⚠️ PENDING |
+| C-26 (10Y decoupling) → HYG timing | LIQUID,REGINALD | HENRY,BROCK | Unchanged | ⚠️ ACTIVE |
+| C-27 (LCLoR) → KRE position | REGINALD,LIQUID | PROME | Unchanged | ⚠️ ACTIVE |
+| Gas $4 + FL UI Mon | CARL,LABOR | REGINALD | Unchanged — firing NOW | 🔴 LIVE |
 
 ---
 
-## CONVERGENCE SCORE SUMMARY
+## CONVERGENCE SCORE HISTORY
 
 | Date | Score | Notes |
 |------|-------|-------|
-| Mar 14 | 43/50 | Pre-FOMC. All agents 🔴. First unanimous alignment. |
-| **Mar 17** | **48/50** | **+5 points. Threshold (45/50) CROSSED. 9-agent batch confirms.** |
+| Mar 14 | 43/50 | Pre-FOMC. First unanimous alignment. |
+| Mar 17 | 48/50 | +5. Threshold (45/50) CROSSED. |
+| Mar 21 | 50/50 | CEILING. FOMC confirmed, Scenario D 68%, SPX 200-DMA broken. |
+| **Mar 22** | **50/50** | **MAINTAINED AT CEILING. 3 new convergences (C-29/30/31). 2 new tensions (T-09/10). Score cannot increase but DEPTH of confirmation has stepped up dramatically: 8+ model cross-validation, primary source verification, NEW transmission mechanisms (LGFV cascade, dual-chokepoint, proxy resilience). Timeline compression identified: April-June = simultaneous constraint collision.** |
 
-**Delta breakdown (+5):**
-- Scenario D 15% → 50%: +1.5 (major scenario upgrade, core energy thesis)
-- $1.54T NDFI (5x prior): +1.0 (magnitude reframe, C-02 qualitatively changes)
-- Fertilizer trigger confirmed (predicted): +0.5 (CARL's own prediction proved)
-- Consumer demand destruction present-tense: +1.0 (HENRY + OTTO + CARL triple-confirm)
-- FOMC+BOJ 48hr window (new): +0.5 (cleanest near-term catalyst identified)
-- SK refiner feedstock crisis (new vector): +0.5 (adds Asia-Pacific supply chain channel)
-
----
-
-## PROPOSALS — Updated Mar 17
-
-### PROP-01: TLT Puts — CONTINUE BUILDING ✅
-Basis: C-07 99%. $60B/mo structural demand hole (LIQUID). TIC data today. BOJ hawkish Thursday = repatriation accelerates. Apr 1 FY-end = overlapping catalyst. Sep $85P or Oct $83P timing still optimal.
-
-### PROP-02: Roll Credit Puts Jun→Dec — 🟢 URGENT
-Basis: HY yield 6.95% (5bps from 7%). Retail bid gone (HENRY). FOMC Wednesday = potential gap event. Roll priority: WAL $85P Jun → HYG Jun → KRE Jun → APO.
-
-### PROP-03: APO Puts — HIGHEST CONVICTION 🔴🔴
-Basis: Three vectors now confirmed. (1) Athene captive exposure. (2) MFIC lending freeze (buying own stock > deploying capital). (3) DC reflexive loop + Zito marks. Class actions May 1. APO -39% = most mispriced to downside given $1.54T NDFI reframe.
-
-### PROP-04: FXY — SIZE CONDITIONAL 🟡
-Basis: Hawkish Ueda Thursday base case (50-55%). Yamaba wages nearly certain. Sizing up IF: Yamaba ≥¥12,000 AND FOMC dovish AND USD risk reversals start declining. Hard stop: USD/JPY 160+ sustained.
-
-### PROP-06 (NEW): CF Industries Jun $115C — HOLD ✅
-Basis: CARL +129% position. Fertilizer trigger confirmed. BRENT quantifies Gulf 40-50% N+K offline. China halt removes swing supplier. Spring planting window closing. Directional conviction high.
+**Pass 8 qualitative delta (score unchanged, quality deepened):**
+- Supply closure verified from ALL directions simultaneously: +depth
+- Dual-chokepoint (C-29) = new tail risk that makes optimistic scenarios dangerous: +depth
+- LGFV cascade (C-30) = new transmission chain oil→China financial stress: +depth
+- Proxy horizontal resilience (C-31) = no "peace premium" even in best case: +depth
+- Timeline compression: April-June convergence window identified: +clarity
+- Trump sanctions reversal = ineffective (140M barrels ≈ 1.4 days): +clarity
+- Israel PGM exhaustion creates hard clock on war: +clarity
 
 ---
 
-## NARRATIVE GAP — Mar 17
+## PROPOSALS — Updated Pass 8
 
-**The 48/50 score represents the largest gap from consensus in this operation's history.**
+### PROP-01: TLT Puts — HOLD/RECALIBRATE ⚠️
+No change from Pass 7. Watch Monday 10Y.
 
-| Consensus Belief | System Reality |
-|-----------------|---------------|
-| "Supply disruption is temporary" | DESTRUCTION, not disruption. Fujairah terminal + Shah Gas Plant require physical reconstruction regardless of diplomacy. Phase 1 extends Q3. |
-| "SPR/IEA release covers the gap" | 3.3-4.4 mbpd release covers ~50-65% of 6.8-7.0 mbpd offline. One-time. SK/Japan feedstock exhaustion in weeks. |
-| "Consumer is resilient" | Zero real retail growth 6 consecutive months. Retail buyer structurally gone. Consumer entered oil shock from stalled baseline. |
-| "Private credit issues are contained" | $1.54T NDFI vs $300B prior model. Every loss estimate was built on PE-only exposure. Actual systemic exposure 5x larger. |
-| "Fed can cut if needed" | Stagflation locked. PCE 3.1% + GDP 0.7% + NFP -92K = Fed can neither cut nor raise. 0-cut dots tomorrow. |
-| "Carry unwind is months away" | FOMC+BOJ dual-catalyst window is 48 HOURS. Rate differential could narrow from both ends simultaneously. |
+### PROP-02: Roll KRE/HYG Puts Jun→Dec — 🔴🔴 URGENT
+No change. Execute if not done.
 
-**Three things not priced (unchanged from Mar 14, urgency now acute):**
-1. Bessent 160 bilateral — USD/JPY 159.3, 0.7 from scheduled intervention
-2. APO mispricing — -39% despite most tail risk
-3. $1.54T NDFI exposure — market still anchored to $300B PE-only narrative
+### PROP-03: APO Puts — 🔴🔴 HIGHEST CONVICTION
+No change. Dual class actions + forced marks Q2.
 
-NEXUS | 2026-03-17 19:30 UTC
+### PROP-04: FXY — SIZE CONDITIONAL ON SHUNTO 🔴
+Awaiting Shunto result.
+
+### PROP-06: CF Industries Jun $115C — HOLD ✅
+**STRENGTHENED** by geopolitical deep dive. No supply relief from any direction. Fertilizer thesis intact and reinforced.
+
+### PROP-07: KRE Puts — NEAR-TERM ADD 🔴
+No change. Mar 31 quarter-close catalyst approaching.
+
+### PROP-08 (NEW CONSIDERATION): Energy Upside Extension
+If dual-chokepoint activates (Houthi strategic reserve deployed), current energy positioning may be UNDERSIZED. CF is the only direct energy upside position. Consider whether additional energy exposure warranted given: (a) no supply backfill globally, (b) dual-chokepoint tail risk, (c) China buffer exhaustion mid-May to late June. Flag for Will — this is a sizing question, not a new thesis.
+
+---
+
+## NARRATIVE GAP — Pass 8 (Updated)
+
+| Consensus Belief | System Reality (Pass 8) |
+|-----------------|------------------------|
+| "Supply will normalize eventually" | **NO IT WON'T.** Russia structurally declining (Carnegie verified, 4yr ahead of schedule). Ukraine destroying infrastructure permanently. Iran offline months minimum. US shale not responding. Gulf under active attack. There is no swing producer left. |
+| "Ceasefire will fix Hormuz" | Even ceasefire → 30-90 day mine clearance (5,000+ mines) + 4-12 week P&I reinstatement. AND Houthi Bab el-Mandeb "strategic reserve" hasn't been deployed yet. Two chokepoints, not one. |
+| "Iran collapse = peace" | Proxy networks have horizontal structure and independent revenue. Iraqi PMF won't disarm. Houthis predate Iran. Collapse removes RESTRAINT → more dangerous. Plus nuclear acceleration near-certain in weakened survivor scenario. |
+| "China can weather this" | 2.5-4 month buffer then real pain. LGFV cascade transmits oil shock to ¥66T hidden debt pile. "Bad inflation" = cost-push, not demand-pull. Growth could fall below 3%. |
+| "Trump will manage oil prices" | 140M barrels sanctions reversal = 1.4 days consumption. SPR already failed. No supply source exists to backfill. Each failed relief attempt teaches market there's no cavalry. |
+
+---
+
+NEXUS | 2026-03-22 17:50 UTC

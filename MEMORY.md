@@ -1,6 +1,6 @@
 # MEMORY — Key Insights & Lessons
 
-**Last Updated:** 2026-03-20 20:15 UTC
+**Last Updated:** 2026-03-22 17:45 UTC
 
 ---
 
@@ -8,6 +8,26 @@
 
 ### Seven Depletion Clocks — Mar 20 (CRITICAL NEW FRAMEWORK)
 Source: Shanaka Perera + QatarEnergy official + First Squawk. Crisis is NOT just oil/financial — it's simultaneous physical depletion across 7 supply chains with hard deadlines diplomacy can't extend. (1) **Planting:** mid-April, corn/soy nitrogen-dependent, irreversible, determines Oct harvest. (2) **USDA Mar 31:** Prospective Plantings sets 12-month food supply model. (3) **FAO Apr 3:** Food Price Index, 2022 peak 159.7, this will be worse — food emergency? (4) **Pharma APIs:** India buffers 2-3mo from Feb 28 = late May depletion. 87.7% methanol from Hormuz. 47% US generics from India. (5) **China crude:** drawing commercial reserves 1M bpd, 4-6 week buffer = mid-late April exhaustion. Then: Russian pipeline, premium reroute, or crack SPR (reprices every commodity). (6) **Helium:** SK Hynix/Samsung 2-3mo inventory. 64.7% from Qatar (Ras Laffan offline). Late May-June = semiconductor fabrication rationing. AI hardware physical wall. **AAPL risk.** (7) **Insurance:** Solvency II requires 30-60 days zero incidents for P&I clubs. Even after ceasefire, shipping normalization takes 6-16 months. The calendar is the only actor that never lost a negotiation.
+
+### Geopolitical Deep Dive — Mar 22 (MULTI-MODEL VALIDATED)
+6+ AI models cross-referenced on China response + Israel endgame. Key consensus findings:
+(1) **War is months not weeks.** Iran endurance strategy, no ceasefire sought, mine clearance 30-90 days post-ceasefire.
+(2) **Air power NEVER achieves regime change alone** (Pape). Most likely: weakened but surviving Iran → nuclear acceleration (Osirak precedent).
+(3) **Israel PGM exhaustion in weeks.** 3,000+ in 36 hours, THAAD production 96/yr. Trump will force endgame.
+(4) **China buffer 2.5-4 months** (runs out mid-May to late June). Russian pipeline maxed 600-700K bpd. Iran shipments down 44%.
+(5) **Every supply avenue blocked simultaneously** — Russia structurally declining, Iran offline, Gulf damaged, US shale not responding. Hamilton runs unopposed.
+(6) **Houthi indigenous capability** = potential second chokepoint (Bab el-Mandeb) even post-Hormuz.
+(7) **Trump reversed sanctions on Iranian oil at sea** (Mar 20-21) — looking for price relief.
+Full report: `FORGE/research/GEOPOLITICAL_DEEP_DIVE_MAR22.md`
+
+### Houthi Strategic Reserve + Dual Chokepoint — Mar 22 (GEMINI — MAJOR)
+Houthis deliberately HOLDING BACK Bab el-Mandeb disruption as escalation card — grows more powerful as war continues. Dual-chokepoint crisis (Hormuz + Red Sea) = 1/3 global seaborne crude halted if activated. Houthis manufacturing arms independently, predate Islamic Republic. Operatives in Iraq and Lebanon — lateral coordination bypassing IRGC. Even Hormuz reopening won't normalize if Houthis activate. Yanbu SAMREF refinery already struck by IRGC — no safe alternative export route. Iraqi PMF controls government ministries (oil, education, agriculture), 80-100K fighters with independent revenue. Iranian collapse removes restraint → MORE dangerous.
+
+### Russia Structural Decline — Mar 22 (CARNEGIE VERIFIED)
+Carnegie Endowment "A Tight Spot" (Mar 20) — verified against IEA, TASS, Reuters, Forbes. Russia at 8.6M bpd (IEA Feb), 4 years ahead of Carnegie's 2030 projection. Decline driven by state policy (58.4% take), OPEC+ trap (killed project pipeline), sanctions (Arctic equipment), war (labor shortages). Ukraine strikes compounding: 500K bpd refining offline, tankers sunk in Mediterranean, Druzhba pipeline hit. Trump green-lighted attacks on Russian infrastructure (except American commercial interests). Russia CAN'T swing produce even with $100+ oil.
+
+### Trump Net Assessment — Mar 22 (ANALYTICAL FRAMEWORK)
+Steelmanned Trump energy strategy: supply consolidation → break OPEC+ → dollar hegemony → Russia leverage → domestic boom. Assessment: directional conviction exists but no unified financial model. Multiple power centers executing without second-order coordination. Key contradiction: can't squeeze Russia AND wage Iran war. "Indifference rather than conspiracy" — Russia isn't in Trump's equation. Most dangerous = no one at controls understanding transmission.
 
 ### QatarEnergy Official Damage — Mar 20 (PRIMARY SOURCE)
 Minister Al-Kaabi official statement: Trains 4+6 damaged = 12.8M tonnes/yr (17% Qatar LNG). **3-5 YEARS to repair.** Force majeure on all long-term LNG contracts (China, S. Korea, Italy, Belgium). Pearl GTL (Shell) offline minimum 1 year. Lost: condensates 18.6M bbl (24% exports), LPG 1.281M MT (13%), helium 309.54 MCFA (14%). $20B/year lost revenue. Worse than our estimates.

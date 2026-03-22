@@ -1,6 +1,6 @@
 # BRENT STATUS
 
-**Last Updated:** 2026-03-21 UTC
+**Last Updated:** 2026-03-22 UTC
 **Overall Status:** 🔴🔴 RED-RED — HORMUZ CLOSED + MINED / KUWAIT PHYSICAL (MAR 20) / QATAR LNG PERMANENT DESTRUCTION / YANBU UNDER ATTACK / BRENT $107+ / SPR FAILED / PHASE 1 DEEP EXTENSION
 
 ---
@@ -16,6 +16,7 @@
 | Saudi Arabia | Rerouted to Yanbu only | SAMREF refinery at Yanbu hit by drone Mar 19. Ballistic missile intercepted at terminal. **Yanbu = single chokepoint** |
 | **TOTAL** | **~6-7M bpd** | If Yanbu struck: +9-10M bpd offline → total Gulf 15M+ bpd |
 
+**Trigger:** Israel struck South Pars (Mar 18) — 70% Iran gas output, ~12% total Iran gas. Iran retaliated across GCC within hours.
 **Yanbu:** If successfully struck → Saudi exports near-zero → Brent $145-165+. #1 monitoring priority.
 **Qatar LNG:** 3-5 year repair = permanent capacity destruction. US LNG (Cheniere, VG) = default structural supplier. JKM elevated for years.
 **SPR verdict:** 400M bbl release (largest ever). Brent hit $107 Mar 18. **FAILED.** Policy tools exhausted.
@@ -29,7 +30,7 @@
 | Brent spot | **$107** [CONF] — base $120-130; Yanbu-strike $145-165+ | Mar 18 |
 | WTI spot | ~$100-102 est (tracking Brent) | Mar 19 |
 | Brent M01-M12 spread | **-$25.49** (M1-M3 est ~$8-12). Path B trigger ($3) DISTANT | Mar 13 |
-| Retail gasoline US avg | **$3.699/gal** [CONF] AAA | Mar 15 |
+| Retail gasoline US avg | **>$5.00/gal** [CONF] — first time since 2022 | Mar 18 |
 | JKM (Asian LNG) | **$16.18/MMBtu** [CONF] | Mar 14 |
 | Henry Hub | **$3.13/MMBtu** [CONF] | Mar 14 |
 | TTF (European gas) | $18.1/MMBtu [CONF] | Mar 9 |
@@ -45,6 +46,7 @@
 - Kuwait physical Mar 20 [CONF]. Qatar LNG permanently destroyed. UAE >50% cut. Yanbu under attack
 - **Brent targets (REVISED Mar 19):** $120-130 base | $145-165+ if Yanbu struck | No floor below $100
 - Even ceasefire → 30-90 day mine clearance + P&I reinstatement lag before shipping restarts
+- **Iran war duration: MONTHS not weeks** — Iran fighting war of endurance, no ceasefire sought (FM Araghchi explicit). ISW Mar 14: neither side prepared for negotiations. Phase 1 extends into summer minimum
 - SPR (400M bbl) failed to suppress — policy tools exhausted
 
 ### Phase 2: Demand Destruction / OPEC+ Unwind (NOT YET)
@@ -101,7 +103,7 @@ Associated gas crisis: shut-in wells → power/desal lose feedstock. Iraq in nea
 
 | Route | Ceiling | Status |
 |-------|---------|--------|
-| Petroline → Yanbu | 3.3-3.5M bpd | 🔴 **UNDER ATTACK** — SAMREF struck, ballistic missile intercepted |
+| Petroline → Yanbu | 3.3-3.5M bpd | 🔴 **UNDER ATTACK** — SAMREF struck, ballistic missile intercepted. IRGC named Jubail Petrochemical as next target |
 | ADCOP → Fujairah | 1.5-1.8M bpd | 🔴 **SUSPENDED** — terminal hit 3x |
 | Kirkuk-Ceyhan | 0 bpd | 🔴 Suspended since Mar 3 |
 | **Net bypass** | **~3.3M bpd (Petroline only, at risk)** | Gap: ~16.7M bpd vs 20M normal |
@@ -175,8 +177,49 @@ ALL THREE simultaneously (3 consecutive readings each):
 | UAE | 0.67M bpd | ~0.4M bpd | 🔴 Fujairah struck |
 | Kuwait | 0.30M bpd | 0.2M bpd | 🔴 Curtailing |
 | Iraq | 0M bpd | 0 | 🔴 At max |
-| Russia | Negative | 0 | 🔴 Shadow fleet halted |
+| Russia | **Structurally declining** | 0 | 🔴 See RUSSIA STRUCTURAL DECLINE below |
 | **TOTAL** | **~4.35M bpd** | **2.0-2.5M bpd max** | 90% inaccessible |
+
+---
+
+## RUSSIA STRUCTURAL DECLINE (Carnegie, Mar 20 — verified IEA/TASS/Reuters/Forbes)
+
+**Russia is not a swing producer on ANY timeline. Production is in irreversible structural decline compounded by Ukrainian kinetic attacks.**
+
+### Production Status
+- IEA: **8.6M bpd Feb 2026** — down 710K MoM, ~1M below OPEC+ quota
+- TASS: 9.184M bpd Feb, 390K below OPEC+ target (discrepancy with IEA — methodology differs)
+- Carnegie base case: 8M bpd by 2030, <7M by 2035 (~3%/yr decline) — but IEA's Feb number suggests 2030 projection reached **4 years early**
+
+### Why Russia CAN'T Ramp (even at $100+)
+| Constraint | Detail |
+|-----------|--------|
+| Cost of capital | ~20% real (CBR rate). No access to Asian or Western debt. Cash-flow-only investment |
+| OPEC+ pipeline trap | Quotas killed new project development. Capacity atrophied. Self-reinforcing |
+| Arctic/frontier | Mothballed. Require sanctioned imported equipment |
+| Labor | War-driven shortages |
+| Fiscal extraction | State takes 58.4% above $13.5/bbl — companies can't retain enough for capex |
+| Tight oil (Bazhenov/Achimov) | Exists but $40-60/bbl full-cycle, no fiscal regime to develop |
+
+**Brownfield economics:** Pre-tax ~$16/bbl. Wells won't shut in, but decline at natural depletion without new drilling. Decline is policy/investment-driven, not geological.
+
+**National Wealth Fund:** $130B pre-war → ~$50B early 2025. Moscow Times: possible depletion by 2026. Fiscal cushion gone.
+
+**OPEC+ trap:** Russia values membership as one of last multilateral forums. Won't defect. But membership accelerates decline by removing capacity investment incentive. Self-reinforcing doom loop.
+
+### Ukraine Kinetic Degradation (Escalating — compounding structural decline)
+
+**Refining:** ~500K bpd offline (~15% of total). Peak: 1.1M bpd disrupted (17%). $12B+ damage. Attacks daily (Bashneft/Saratov Mar 21).
+
+**Pipeline/Transport:** Druzhba pumping station hit Feb 23 — Transneft cut 250K bpd intake. Black Sea export barrage Mar 13.
+
+**Tankers (NEW escalation):** 6+ tankers attacked since Nov 2025. Tanker SUNK in Mediterranean Mar 4 (Arctic Metagaz, 2,000+ mi from Ukraine). Shadow fleet under direct attack.
+
+**Offshore:** Lukoil Caspian platforms struck Dec 2025 — 200K bpd lost (Carnegie: proximate cause of Dec-Jan production dip).
+
+**US position:** Green light on everything EXCEPT CPC pipeline (Kazakh/American oil). State Dept demarche was commercial, not strategic.
+
+**Net effect:** Capital diverted from new drilling to rebuilding destroyed infrastructure. Treadmill. IEA 8.6M bpd = structural + kinetic degradation compounding. Russia gets higher prices but CANNOT increase volume to capture them.
 
 ---
 
@@ -185,6 +228,21 @@ SK refiners (~2.46 mbpd, 65-72% Gulf-dependent) have ~3 weeks feedstock remainin
 
 ## SPR ASSESSMENT (verdict: FAILED)
 IEA 400M bbl release (largest ever) + Japan 80M bbl. Brent $107 post-release. SPR covers ~50-65% of offline production for 90-120 days only. US reserves at 443M bbl — releasing 172M bbl = 38.8% of remaining. Not repeatable. Policy tools exhausted.
+
+## IRAN WAR DURATION ASSESSMENT (Mar 22 — CSIS/BBC/Atlantic Council/ISW)
+
+**Iran strategy: Endure → Impose Costs → Wait for Political Fractures → Negotiate from Strength**
+
+- Regime survival #1 — Mojtaba Khamenei installed after supreme leader killed. Security forces loyal
+- Hormuz as economic weapon — closed Mar 4. Hurts everyone else more than Iran (Kharg already struck)
+- No ceasefire sought — FM Araghchi: "Iran never asked for a ceasefire." ISW Mar 14: neither side prepared for negotiations. Oman/Egypt mediation rejected by BOTH sides
+- US-Israel goal divergence widening — NYT Mar 20: Israel wants regime change, US wants off-ramp for gas/midterms. Iran explicitly depends on this fracture
+- Attrition economics — interceptors cost orders of magnitude more than Iranian drones
+- **Yuan-for-Hormuz play:** Iran negotiating with 8 countries for selective passage ONLY for yuan-denominated oil. Chinese-flagged vessels reportedly passing. Politically significant
+
+**Phase 1 timing implication:** War likely months. Even ceasefire → mine clearance (30-90d) + P&I reinstatement (4-12 wks) = **Phase 1 extends well into summer 2026 minimum.** Path A exit remains distant.
+
+---
 
 ## MINE CLEARANCE (condensed)
 Navigable corridor: 30-90 days with dedicated MCM force. P&I insurance reinstatement (4-12 weeks post-clearance) is the **binding constraint**, not physical clearance. Even ceasefire today → Brent elevated 30-90 days minimum.

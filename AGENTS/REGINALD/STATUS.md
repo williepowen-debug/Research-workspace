@@ -1,5 +1,5 @@
 # REGINALD STATUS
-**Last Updated:** 2026-03-20 EOD | **Status:** 🔴🔴🔴 CRITICAL — Quadruple Witching selloff. KRE $63.19 breaching $64 floor. Brent $117. 10Y COLLAPSED below 4% (flight-to-safety). WAL bankruptcy risk flagged by Madison fund. EGBN CEO transition instability confirmed. S&P 500 below 200-DMA 4th week.
+**Last Updated:** 2026-03-21 02:14 UTC | **Status:** 🔴🔴🔴 CRITICAL — Quadruple Witching selloff. KRE $63.19 breaching $64 floor. Brent $117. 10Y COLLAPSED below 4% (flight-to-safety). WAL bankruptcy risk flagged. FOMC stagflation confirmed. $875B CRE maturity wall (MBA). FHLB issuance +31% YoY (contingency behavior). Reserves $2.8T 4yr low.
 
 ---
 
@@ -107,8 +107,10 @@
 |-----------|-------|---------|--------|
 | HY OAS >320 (CARL→REG) | 320 | **328** | 🔴 **BREACHED** |
 | HY OAS 350 (issuance freeze) | 350 | 328 (+25bps/5d) | 🟠 **ETA: EOW** |
-| FHLB advances >$600B | $600B | ~$480B | 🟡 Watch |
+| FHLB advances >$600B | $600B | ~$480B (issuance +31%) | 🟠 Escalating — regionals at LCLoR |
 | KRE below $60 | $60 | ~$64-66 est | 🟠 Approaching |
+
+**CARL Mar 19 Update:** Stagflation 65% (↑), Hard landing 27%, GCC destab 12%, Hormuz 8%, Soft landing 2%. Watch: C&I loan demand tightening, auto ABS charge-off accel (subprime DQ 7.1% ATR), regional banks with subprime auto exposure. HY OAS pulled to 320 (Mar 20) — trajectory still widening.
 
 **[PROPOSAL]:** If HY OAS closes 340+ today, escalate to 🔴🔴🔴🔴 EMERGENCY and flag Will for position review.
 
@@ -166,7 +168,7 @@ Eight independent channels terminate at regional banks.
 | SSFA / NDFI | $4.2T industry-wide NDFI (+35% YoY); hidden CRE Layer 2 | 🔴🔴 |
 | Private Credit | BCRED near-gate, Blue Owl gated, FSK div -31%, TCPC fraud, Zito "all marks wrong" | 🔴 CRITICAL |
 | MFS Fraud | £2B double-pledging — Barclays £600M, Jefferies, Apollo/Atlas SP | 🔴 WIDENING |
-| CMBS Maturity | $76.6B hard maturity, no extensions left | 🔴 |
+| CMBS Maturity | $76.6B hard maturity, no extensions. MBA: $875B total CRE maturing 2026 ($396B at depositories; credit cos 29% rate = Memo3 hiding vector) | 🔴🔴 |
 | Federal Layoffs | DOGE 307K+ confirmed in BLS. DC corridor stress ACTIVE | 🔴 FIRED |
 | Stagflation Trap | PPI +0.7%, Brent $108+, FOMC hawkish hold, no NIM relief | 🔴🔴 |
 
@@ -188,7 +190,10 @@ Eight independent channels terminate at regional banks.
 | Private Credit Default | 5.8% (Jan 2026 Fitch) | 🔴 Record |
 | BCRED Redemptions | $3.8B Q1 (7.9% NAV) | 🔴 Gate-adjacent |
 | Bank CRE DQ vs CMBS gap | 4.18% vs 12.34% = 8.16pp | 🔴 Masking |
-| FHLB Advances | ~$480B | 🟢 (stress >$700B) |
+| FHLB Advances | ~$480B (issuance +31% YoY; 77% simple floaters) | 🟠 Contingency behavior |
+| Fed T-Bills (FHLB/Fed) | $352B — exceeds 2020 COVID peak | 🟠 Stealth liquidity injection |
+| Bank Reserves | $2.8T — 4yr low, G-SIB concentrated; regionals approaching LCLoR | 🔴 |
+| CRE Maturity 2026 | $875B (MBA) — $396B at depositories; hotel/motel 30% rate (highest) | 🔴🔴 |
 | SOFR-IORB | -1bp | 🟢 |
 
 ---
@@ -218,7 +223,7 @@ Eight independent channels terminate at regional banks.
 
 | Agent | Key Signal | Status |
 |-------|------------|--------|
-| CREED | Office 12.34% ATH, Chicago 70-94%, $936B maturity wall | 🔴 |
+| CREED | Office 12.34% ATH, Chicago 70-94%, $875B CRE maturity wall (MBA confirmed) | 🔴 |
 | BROCK | PCDR 5.8%, BCRED near-gate, TCPC fraud, UBS 15% warning | 🔴 CRITICAL |
 | CORAL | Migration -93% Census. FL #2 foreclosure. SIRS mandates. | 🔴 |
 | BELT | MS +109bps, LA +89bps, MD +87bps mortgage DQ | 🔴 |
@@ -250,6 +255,8 @@ Eight independent channels terminate at regional banks.
 | CLO AAA >165bps | ~125bps | LIQUID → BDC transmission | Not yet |
 | iTraxx Senior Fin >100bps | ~95bps | EU→US contagion (HANS) | 🟠 Approaching |
 | SOFR-IORB >+15bps | -1bp | LIQUID → FHLB spike | Not yet |
+| C&I loan demand tightening | CARL watch | Post-FOMC survey signal | 👁 Monitor |
+| Auto ABS charge-off >7.1% | 7.1% ATR (subprime) | CARL → REGINALD Q1 earnings | 🟠 Watch |
 
 ---
 
@@ -292,4 +299,4 @@ Eight independent channels terminate at regional banks.
 
 Eight channels active, 6 of 8 at 🔴+. HY OAS 328 BREACHED — credit stress independently confirmed. PPI +0.7% demolished rate cut path. Ras Laffan attack pushed Brent $108+. Triple simultaneous confirmation: no NIM relief, no CRE refi, no credit market function. Apr 16 OZK earnings and Q1 bank wave are the next detonation windows.
 
-*Daily updates Mar 6–Mar 16 → `archive/STATUS_mar6_mar16.md`*
+*Mar 6–16 detail → `archive/STATUS_mar6_mar16.md`*

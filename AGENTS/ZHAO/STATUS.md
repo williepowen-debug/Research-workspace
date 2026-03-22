@@ -1,6 +1,6 @@
 # ZHAO STATUS
-**Updated:** 2026-03-20 13:55 UTC (Mar 20 R2: confirmed no new developments beyond earlier check-in)
-**Overall Status:** 🔴🔴🔴 EMERGENCY ESCALATION — Gulf Recycling Loop Broken / Saudi Already Selling / FOMC Trapped
+**Updated:** 2026-03-22 16:34 UTC (Mar 22: Yuan-for-Hormuz intel integrated)
+**Overall Status:** 🔴🔴🔴 EMERGENCY ESCALATION — Gulf Recycling Loop Broken / Yuan-for-Hormuz Petrodollar Challenge / FOMC Trapped
 
 ---
 
@@ -30,6 +30,75 @@ SAM flagged (via inbox): Japan's +$39.8B in Jan TIC isn't just "pre-crisis stack
 
 ### Implication
 The demand hole is REAL but **more volatile than modeled**. Japan buying during Phase 2 can temporarily suppress yields (explaining 10Y at 3.97%), but this creates a FALSE signal — the structural hole from China/Korea/Gulf persists underneath. When Phase 2 exhausts (equity selling done, energy bill reasserts), Japan flips back to seller and the full $65-115B/mo resumes. **TLT puts thesis survives but timing is messier.**
+
+---
+
+---
+
+## 📌 MAR 22 INTEL DROP — Iran Yuan-for-Hormuz Play
+
+### What's Happening
+Iran reportedly negotiating with **8 countries** to allow selective Hormuz passage ONLY for oil cargo traded in **Chinese yuan**, not USD. CNN confirms senior Iranian official considering this. Chinese-flagged vessels already passing while others blocked (Foreign Policy, Mar 17). Asia Times: "direct hit on the petrodollar."
+
+**Sources:** Chosun (Mar 18), CNN, Foreign Policy (Mar 17), Asia Times, European Business Magazine, Time Magazine.
+
+### Operational Assessment: 60% Political Signaling / 40% Structural Proof-of-Concept
+
+Foreign Policy correctly notes this is "implausible during wartime" at scale — insurance, GPS interference, sailor safety all unresolved. Many Chinese ships still stranded. **But the signaling IS the substance.** Even if only a fraction of Gulf oil actually transits in yuan, the precedent is established: a non-dollar payment channel for the world's most critical energy chokepoint exists and has been operationally demonstrated.
+
+### Impact on Existing Framework
+
+**1. UST Demand Hole — AMPLIFIED (not just additive)**
+
+The yuan-for-Hormuz play attacks the demand hole from a DIFFERENT vector than what we've been tracking. Our four-anchor thesis tracks SELLING of existing UST holdings. The petrodollar recycling mechanism is about FUTURE INFLOWS — oil revenue earned in USD → recycled into UST purchases by Gulf SWFs. If even 10-15% of Gulf oil revenue shifts to yuan settlement:
+
+- **Lost recycling:** Gulf states earning yuan instead of USD don't recycle into UST. At ~$1.5T/year Gulf oil revenue, 10% = $150B/year = ~$12.5B/mo in LOST UST demand inflows. This is ON TOP of the $65-115B/mo active selling.
+- **Structural vs. cyclical:** Active selling can reverse (ceasefire, fiscal recovery). Petrodollar settlement shift is STRUCTURAL — once payment infrastructure exists, it persists.
+- **China incentive alignment:** Iran is offering China the one thing that could make Beijing tolerate the war: preferential energy access + yuan internationalization proof-of-concept. This reduces probability of China pressuring Iran for ceasefire → war extends → Gulf selling extends.
+
+**Revised combined demand hole: $65-115B/mo (active selling) + $5-15B/mo (lost recycling inflows if yuan settlement gains traction) = $70-130B/mo potential.** Upper bound now meaningfully higher.
+
+**2. USD/CNY — Revised Assessment**
+
+Had 7.30 in 8-12 weeks as of Mar 20. The yuan-for-oil dynamic creates COMPETING pressures:
+- **Yuan-bullish:** Real demand for yuan to purchase oil. If 8 countries need yuan for Hormuz transit, that's genuine CNY buying pressure. PBOC fix at 6.8961 already showing deliberate appreciation.
+- **Yuan-bearish:** Broader capital flight risk if war escalates. US retaliation against China for exploiting yuan-for-oil channel could trigger sanctions risk → capital outflows.
+- **Net assessment:** Near-term (4-8 weeks), the yuan demand from oil settlement is SMALL relative to total FX flows. The signaling value matters more than actual volumes. **Maintaining 7.30 at 8-12 weeks but noting this is now a two-way risk rather than one-directional depreciation call.** If US retaliates with financial sanctions on Chinese entities exploiting Hormuz access, 7.30 comes FASTER. If yuan-for-oil gains traction broadly, 7.30 gets pushed out further.
+
+**ZHA-01 revised: 55% confidence, but now asymmetric — could break 7.30 on US retaliation (faster) OR get pushed out on yuan demand (slower). Binary outcome set, not gradual drift.**
+
+**3. China's Strategic Dilemma — The Wedge**
+
+China gets 1/3 of oil via Hormuz + ~1B barrels in reserves. Iran's offer creates a wedge:
+- **Accept:** Preferential energy access + yuan internationalization milestone. Risk: US retaliation (sanctions, tariffs, financial warfare). Trump already calling on China to send "war ships" = pressure building.
+- **Reject:** Lose preferential access, pay same spot prices as everyone else. No yuan milestone. But maintain US trade relationship.
+- **Most likely:** China plays BOTH sides — accepts quietly via state-owned tankers (COSCO already doing this), denies publicly, avoids formal endorsement. **This is exactly what the Chinese-flagged vessel transits suggest is already happening.**
+
+Implication: China won't loudly champion yuan settlement (too provocative to US), but will quietly enable it. This means the petrodollar erosion happens in the SHADOW — hard to measure, easy to underestimate.
+
+**4. Russia Supply Decline — Tightening the Screw**
+
+Carnegie Endowment (Mar 20): Russia at 8.6M bpd, ~1M below OPEC+ quota. Structural decline, can't ramp even at $100+. Combined with Hormuz closure: global accessible supply dramatically tighter. Whoever controls remaining barrels has leverage. Iran is trying to make yuan the ACCESS KEY to those barrels.
+
+This means: (a) Oil stays elevated ($100+) longer → Japan/Korea energy import bills stay elevated → UST selling persists, (b) Russia can't fill the supply gap → no relief valve, (c) Iran's leverage INCREASES as supply tightens — their yuan-for-access offer becomes more valuable, not less.
+
+### Updated Signal Dashboard Entry
+
+**New row for Gulf Recycling:**
+| Gulf Petrodollar Settlement | Yuan-for-Hormuz active (limited) | Any formal bilateral agreement = RED | 🟠→🔴 TRANSITIONING | [CONF] Chosun/CNN/FP Mar 17-18 — operational but limited. Chinese ships transiting. |
+
+### Implications for Convergence Matrix
+
+**Vector #10 (Gulf Recycling Collapse): Remains 🔴🔴 5+ but with NEW transmission channel.** Previously tracked as: reduced inflows + forced selling. Now ALSO includes: **active diversion of oil settlement away from USD entirely.** Three mechanisms now:
+1. ~~Reduced inflows~~ (oil revenue down due to infrastructure damage) — ACTIVE
+2. **Forced selling** (QIA/PIF liquidating existing UST holdings) — ACTIVE
+3. **Settlement diversion** (oil traded in yuan = revenue never enters USD system at all) — NEW, OPERATIONAL BUT LIMITED
+
+### [PROPOSAL] New Prediction: ZHA-10
+**Yuan-denominated oil settlement through Hormuz exceeds $5B cumulative by Q3 2026.** Confidence: 45%. This is the LOW bar — even modest Chinese tanker transit volumes at current prices hit this. Invalidation: Ceasefire reopens Hormuz to all traffic → yuan-only channel collapses → back to USD settlement. Significance: If validated, it's the first operational proof that petrodollar settlement can be bypassed at a critical chokepoint. Even at small scale, the PRECEDENT matters more than the volume.
+
+### [FLAG] Cross-Agent: LIQUID + NEXUS
+The yuan-for-Hormuz play adds a NEW dimension to the UST demand hole that LIQUID needs to model: not just selling of existing holdings, but diversion of future inflows away from USD entirely. NEXUS should assess whether this constitutes a convergence signal across ZHAO (capital flows), HAWK (geopolitical), and the broader de-dollarization thesis.
 
 ---
 
@@ -108,10 +177,10 @@ The demand hole is REAL but **more volatile than modeled**. Japan buying during 
 | 7 | HK Peg Channel | 🟡 2 | AB $53,854M stable Mar 12 (flat from $53,874 Mar 11). HIBOR-SOFR ~-227bps (1-mo HIBOR 2.029%). No change. Weekly monitoring. Gulf escalation (Citi DIFC evac, downtown Dubai explosions) raises capital flight tail risk through HK — still low prob but watch. | AB <$45B or HIBOR-SOFR >-300bps = 3 |
 | 8 | LNG/Energy Shock | 🔴🔴 5 | **UPGRADED Mar 18. Ras Laffan struck — "extensive damage" confirmed by QatarEnergy. World's largest LNG export terminal burning.** Taiwan LNG buffer collapses from days to hours. Japan (JERA), Korea (KOGAS — ~40% of LNG from Qatar), Europe all in supply crisis. China modestly insulated (COSCO/PICC alternative routing) but not immune. MAXIMUM SCORE REACHED. | Already maxed |
 | 9 | USD/CNY Defense | 🟡 2 | ~6.90. PBOC fix 6.8961 Mar 17 = active appreciation signal. 7.30 pushed to 8-12 weeks. | USD reversal + DXY >103 = 3 |
-| 10 | Gulf Recycling Collapse | 🔴🔴 5+ | **ZHA-08 FIRED Mar 11. FURTHER ESCALATED Mar 18.** Estimate revised: **$75-120B/qtr** (from $45-75B). Ras Laffan damage = Qatar's petrodollar recycling engine destroyed. QIA ($500B+) now faces emergency drawdown scenario — not just reduced inflows, but ACTIVE LIQUIDATION of overseas assets (UST) to fund infrastructure repair, defense spending, and domestic stabilization. Saudi Samref evacuating (Yanbu refinery). Aramco digital systems breached. PIF already confirmed scaling back US equity. Iraq at 1.4M bpd (down from 4.3M). ANY Hormuz bypass partial revenue is now overwhelmed by magnitude of new damage. **INVOLUNTARY EMERGENCY SELLING. PETRODOLLAR RECYCLING LOOP BROKEN.** | Already fired; now MAXIMUM |
+| 10 | Gulf Recycling Collapse | 🔴🔴 5+ | **ZHA-08 FIRED Mar 11. ESCALATED Mar 18. NEW VECTOR Mar 22.** Three mechanisms now active: (1) Revenue collapse (Ras Laffan), (2) Emergency UST liquidation (QIA/PIF), (3) **Yuan settlement diversion — Iran offering Hormuz transit only for yuan-denominated cargo (Chosun/CNN Mar 17-18). Chinese ships already transiting.** Petrodollar loop attacked from BOTH ends: existing holdings being sold AND future inflows being diverted away from USD. $75-120B/qtr forced selling + $5-15B/mo lost inflows from yuan settlement channel. | Already maxed + new vector |
 | 11 | Gulf Financial Infrastructure Destruction | 🔴🔴 5+ | **UPGRADED Mar 18. PHASE CHANGE.** Ras Laffan (world's largest LNG terminal) extensively damaged — THIS IS FINANCIAL INFRASTRUCTURE for Qatar, not just physical. QatarEnergy = QIA's primary revenue engine. Samref (Yanbu) = Saudi refinery, evacuated. Aramco digital systems breached. IRGC named: **Jubail Petrochemical, UAE Al Hosn, Qatar Mesaieed** — promised strikes "in coming hours." If any of these are struck: (1) Saudi/UAE refinery capacity gone, (2) ADNOC revenue collapses → ADIA/Mubadala forced selling, (3) Kuwait Finance House / KIA drawdown. DIFC still operational but with Citi WFH and now active strikes in the region, correspondent banking fragility rising. **Emergency UST liquidation is no longer tail risk — it is base case if strikes continue.** | Already maxed |
 
-**Total: 43/55 — 🔴🔴🔴 EMERGENCY ESCALATION (down 1 from Belgium downgrade). SIX vectors at max (5+), two at RED (4), three at ORANGE (3). Belgium downgrade offset by Saudi TIC confirming Gulf selling mechanism already live pre-crisis. ZHA-08 FIRED AND ACCELERATING. Ras Laffan burning. Combined four-anchor: $60-110B/mo.**
+**Total: 43/55 — 🔴🔴🔴 EMERGENCY ESCALATION. SIX vectors at max (5+), two at RED (4), three at ORANGE (3). Mar 22 update: Yuan-for-Hormuz play adds NEW transmission channel to Gulf recycling collapse — petrodollar attacked from both ends (existing holdings sold + future inflows diverted to yuan). Combined four-anchor: $70-130B/mo (revised up from $65-115B/mo to include lost recycling inflows from yuan settlement).**
 
 ---
 
@@ -194,14 +263,15 @@ Guizhou NPL 11.6% (1 point from RED). Feb $456B liquidity crunch → PBOC inject
 
 | ID | Prediction | Conf | Timeframe | Status | Invalidation |
 |----|------------|------|-----------|--------|-------------|
-| ZHA-01 | USD/CNY breaks 7.30 | **55%** ↓ | 8-12 weeks | OPEN | PBOC fix 6.8961 Mar 17 = deliberate appreciation signal. Market ~6.94. PBOC actively managing CNY stronger, not weaker. 7.30 timeline extended. DXY <100 sustained 10 sessions + PBOC stops gold buys |
+| ZHA-01 | USD/CNY breaks 7.30 | **55%** | 8-12 weeks | OPEN — **BINARY** | Mar 22: Yuan-for-oil creates two-way risk. Could break 7.30 FASTER (US retaliation/sanctions) or get pushed out FURTHER (yuan demand for oil settlement). PBOC fix 6.8961 Mar 17. Now asymmetric outcome set, not gradual drift. DXY <100 sustained 10 sessions + PBOC stops gold buys |
 | ZHA-02 | 10Y rises on risk-off (UST ≠ safe haven) | 65% | Mar 2026 | ✅ CONFIRMED | — |
 | ZHA-03 | Belgium TIC >$500B | **45%** ↓↓ | ~~Q1 2026~~ → Q2-Q3 2026 | OPEN — **Jan missed badly ($451B, -$26.3B)** | Growth decelerates <15% YoY for 2 prints. Jan REVERSAL significant. Need Feb print. Thesis weakened but not dead (SEC mandate still structural). Timeline pushed. |
 | ZHA-04 | China official <$650B | 65% | Q2-Q3 2026 | OPEN | NFP relief → may slip to Q3. Watch DXY. |
 | ZHA-05 | Regional bank NPL >12% (any province) | 55% | H1 2026 | OPEN | Major PBOC recap before threshold |
 | ZHA-06 | >250 small banks consolidated in 2026 | 60% | 2026 | OPEN | Policy reversal on mergers |
 | ZHA-07 | Liquidity crunch forcing UST sales (again) | 70% | 2026 | OPEN | Sustained easing removes pressure |
-| ZHA-08 | Gulf recycling reduction >$50B/quarter | ✅ FIRED / ESCALATING | Q1 2026 | ✅ FIRED Mar 11 / **PHASE CHANGE Mar 18** | Ras Laffan struck. Upper bound revised $75B→$120B/qtr. QIA emergency drawdown scenario now base case. |
+| ZHA-08 | Gulf recycling reduction >$50B/quarter | ✅ FIRED / ESCALATING | Q1 2026 | ✅ FIRED Mar 11 / **PHASE CHANGE Mar 18 / YUAN VECTOR Mar 22** | Ras Laffan struck + yuan-for-Hormuz adds settlement diversion. Three mechanisms: revenue collapse + forced selling + yuan diversion. |
+| ZHA-10 | Yuan oil settlement via Hormuz >$5B cumulative | 45% | Q3 2026 | OPEN | Ceasefire reopens Hormuz to all traffic → yuan channel collapses. Even at small scale, PRECEDENT matters more than volume. |
 
 ---
 
