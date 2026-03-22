@@ -1,6 +1,6 @@
 # SCRATCH — Ephemeral Working Memory
 
-**Updated:** 2026-03-22 ~21:00 UTC (Sunday 5:00 PM ET)
+**Updated:** 2026-03-22 ~21:15 UTC (Sunday 5:15 PM ET)
 
 ---
 
@@ -12,27 +12,27 @@ Scenario D DOMINANT (68%). War Day 22. Account ~$53K (+111%). Markets closed unt
 **FL UI Wave 1 exhaustion Mon Mar 24.**
 
 ## HANDOFF
-**Last context:** Continued injection optimization. USER.md cut 68%.
+**Last context:** Injection optimization day. MEMORY.md just cut 72% (10.9KB → 3.1KB). Will wants fresh-eyes review next session before moving on.
 
-**Completed today (3 sessions):**
-1. ✅ MEMORY.md pruned 17KB → 10.9KB (-36%). ARCHIVE_MEMORY.md + SEVEN_DEPLETION_CLOCKS.md created.
+**Completed today (4 sessions):**
+1. ✅ MEMORY.md: 17KB → 10.9KB → **3.1KB** (total 82% cut). Detail lives in research files, MEMORY carries conclusions + pointers.
 2. ✅ HEARTBEAT.md: 2,381B → 683B (71% cut). Offloaded catalysts + checks to cron.
 3. ✅ USER.md: 4,484B → 1,613B (64% cut). Background moved to WILL/BACKGROUND.md.
 4. ✅ Fixed broken cron (duplicate HERMES, delivery errors, EOD timeout).
 5. ✅ Added 8 new cron jobs (H.8 auto-update, nightly git, inbox backlog, position snapshot, memory prune, stale agent sweep, catalyst prep, predictions monitor).
 
-**Injection budget progress:**
-| File | Before | After |
-|------|--------|-------|
-| MEMORY.md | 17KB | 10.9KB |
-| USER.md | 4.5KB | 1.6KB |
-| HEARTBEAT.md | 2.4KB | 0.7KB |
-| AGENTS.md | 2.4KB | 2.4KB (already lean) |
-| SOUL.md | 2.0KB | 2.0KB (keep) |
-| **Total injection** | **~28KB** | **~18KB (-36%)** |
+**Injection budget:**
+| File | Start of day | Now | Cut |
+|------|-------------|-----|-----|
+| MEMORY.md | 17KB | 3.1KB | 82% |
+| USER.md | 4.5KB | 1.6KB | 64% |
+| HEARTBEAT.md | 2.4KB | 0.7KB | 71% |
+| AGENTS.md | 2.4KB | 2.4KB | — |
+| SOUL.md | 2.0KB | 2.0KB | — |
+| **Total injection** | **~28KB** | **~12KB** | **~57%** |
 
 **Next session (priority order):**
-1. **MEMORY.md optimization** — 10.9KB, biggest remaining injection target
+1. **Fresh-eyes review of MEMORY.md** — Will wants to look again before moving on
 2. **STALE FILES:**
    - iran-war/INDEX.md: #11-13 show "more models pending" — complete
    - CALENDAR.md: Last updated Feb 27 — month stale
