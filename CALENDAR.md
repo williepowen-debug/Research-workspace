@@ -8,7 +8,7 @@
 
 | Date | Event | Owner | Priority |
 |------|-------|-------|----------|
-| **~3/22-23** | **Gas $4.00 behavioral breakpoint** | CARL | 🔴🔴 |
+| **3/23** | **Gas $4.00 behavioral breakpoint (imminent)** | CARL | 🔴🔴 |
 | 3/23 | Rengo shunto wage tally (round 1) | SAM | 🟠 |
 | **3/24** | **FL UI exhaustion Wave 1 — consumption cliff** | LABOR/CARL | 🔴 |
 | 3/27 | Rengo wage tally (round 2) | SAM | 🟠 |
@@ -30,18 +30,18 @@
 | **4/2** | **OWL $9.5P Apr 2 expiry** | PROME | 🔴 |
 | **4/3** | **NFP (Mar) + FAO food price index — depletion clock #2** | HENRY/HAWK | 🔴 |
 | 4/10 | CPI (Mar) | HENRY | 🟠 |
-| ~mid-Apr | Planting deadline — depletion clock #3 | HAWK | 🔴 |
+| 4/14 | Planting deadline — depletion clock #3 | HAWK | 🔴 |
 | 4/15 | Tax Season / TGA rebuild | LIQUID | 🟠 |
 | **4/16** | **OZK Q1 Earnings** | REGINALD | 🔴 |
 | **4/17** | **APO $100P Apr expiry — CUT agreed** | PROME | 🔴 |
 | ~4/20 | ZION Q1 Earnings | REGINALD | 🔴 |
 | ~4/21 | WAL Q1 Earnings | REGINALD | 🔴 |
-| **4/23-24** | **BOJ meeting — earliest hike window** | SAM | 🔴 |
+| **4/23** | **BOJ meeting — earliest hike window (2 days)** | SAM | 🔴 |
 | ~4/25 | Asada joins BOJ board (Takaichi dove-stacking) | SAM | 🟠 |
 | ~4/29 | EGBN Q1 Earnings | REGINALD | 🟠 |
-| 4/28-29 | FOMC | HENRY | 🟠 |
+| 4/28 | FOMC (2 days) | HENRY | 🟠 |
 | 4/30 | GDP Advance (Q1) + PCE (Mar) | HENRY | 🔴 |
-| ~late Apr | China crude buffer exhaustion — depletion clock #4 | HAWK/ZHAO | 🔴🔴 |
+| 4/25 | China crude buffer exhaustion — depletion clock #4 | HAWK/ZHAO | 🔴🔴 |
 
 ## MAY-JUN 2026
 
@@ -52,12 +52,12 @@
 | **5/12** | **WAL Investor Day** | REGINALD | 🔴 |
 | **5/13** | **April CPI — first oil-shock print** | HENRY | 🔴🔴 |
 | 5/15 | OZK $42.5P May + TLT $88P May expiry | PROME | 🟠 |
-| ~late May | Pharma supply exhaustion — depletion clock #5 | HAWK | 🔴 |
-| ~late May-Jun | Helium exhaustion — depletion clock #6 (AAPL risk) | HAWK | 🔴 |
+| 5/25 | Pharma supply exhaustion — depletion clock #5 | HAWK | 🔴 |
+| 5/30 | Helium exhaustion — depletion clock #6 (AAPL risk) | HAWK | 🔴 |
 | May TBD | BDC Earnings (BXSL, FSK, OWL) | BROCK | 🔴 |
-| 6/16-17 | FOMC (SEP + dot plot) | HENRY | 🔴 |
+| 6/16 | FOMC (SEP + dot plot, 2 days) | HENRY | 🔴 |
 | 6/18 | **Major Jun expiry cluster** — WAL, KRE, HYG, APO, AAL, ARES, EGBN, CF | PROME | 🔴🔴 |
-| ~Jun | Sato joins BOJ board (dove-stacking complete) | SAM | 🟠 |
+| 6/15 | Sato joins BOJ board (dove-stacking complete) | SAM | 🟠 |
 
 ## H2 2026 (Background)
 
