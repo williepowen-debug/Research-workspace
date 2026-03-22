@@ -1,6 +1,6 @@
 # SCRATCH — Ephemeral Working Memory
 
-**Updated:** 2026-03-22 ~22:00 UTC (Sunday 6:00 PM ET)
+**Updated:** 2026-03-22 ~22:15 UTC (Sunday 6:15 PM ET)
 
 ---
 
@@ -12,18 +12,20 @@ Scenario D DOMINANT (68%). War Day 22. Account $57,467 (+134%). Markets closed u
 **FL UI Wave 1 exhaustion Mon Mar 24.**
 
 ## HANDOFF
-**Last context:** Injection optimization complete. Fresh-eyes MEMORY review done. Subagent tested cold-boot effectiveness (B- → gaps closed). Ready for stale files.
+**Last context:** Built Google Calendar integration. CALENDAR.md now syncs to Will's phone via "Research Ops" calendar. 30 events, color-coded by priority.
 
-**Completed today (5 sessions):**
-1. ✅ MEMORY.md: 17KB → **2.9KB** (83% cut). Conclusions + pointers only. Stale prices/counts cleaned.
-2. ✅ HEARTBEAT.md: 2,381B → **780B** (67% cut). Added scenario definitions.
+**Completed today (6 sessions):**
+1. ✅ MEMORY.md: 17KB → **2.9KB** (83% cut). Stale data cleaned, KEY CORRECTIONS removed, Two Expiry Frameworks → LESSONS.md.
+2. ✅ HEARTBEAT.md: 2,381B → **780B** (67% cut). Scenario defs added. Catalysts + checks offloaded to cron.
 3. ✅ USER.md: 4,484B → 1,613B (64% cut). Background → `WILL/BACKGROUND.md`.
-4. ✅ Created `PROME/POSITIONS.md` from live brokerage screenshot. MEMORY points to it.
-5. ✅ Two Expiry Frameworks moved MEMORY → LESSONS.md rule #6.
-6. ✅ Fixed broken cron + added 8 new cron jobs.
-7. ✅ Spawned cold-boot subagent to test injection effectiveness. Identified gaps, closed them.
+4. ✅ Created `PROME/POSITIONS.md` from live brokerage screenshot.
+5. ✅ Fixed broken cron + added 9 cron jobs (8 operational + calendar sync).
+6. ✅ CALENDAR.md full rebuild — forward-only, depletion clocks, all expiries, war catalysts.
+7. ✅ Google Calendar API integration — `tools/calendar/sync_calendar.py`, auto-syncs 7 AM ET weekdays.
+8. ✅ Cold-boot subagent test — identified/closed injection gaps.
+9. ✅ UST Demand Hole: verified CNY 7.30 call missed (actual 6.91). Flagged in MEMORY.
 
-**Injection budget (final):**
+**Injection budget:**
 | File | Start of day | Now |
 |------|-------------|-----|
 | MEMORY.md | 17KB | 2.9KB |
@@ -34,13 +36,12 @@ Scenario D DOMINANT (68%). War Day 22. Account $57,467 (+134%). Markets closed u
 | **Total** | **~28KB** | **~10KB (~64% cut)** |
 
 **Next session (priority order):**
-1. **STALE FILES:**
+1. **STALE FILES (2 remaining):**
    - iran-war/INDEX.md: #11-13 show "more models pending" — complete
-   - CALENDAR.md: Last updated Feb 27 — month stale, needs full rebuild
-   - STATUS.md: VLY expired position, positions section now redundant with POSITIONS.md
+   - STATUS.md: VLY expired, positions section now redundant with POSITIONS.md
 2. **Will has new prompt responses to integrate**
-3. **Trade decisions for Monday** — APO Apr cut, HYG Jun→Dec roll, USO 118C cut, OWL Apr 2 expiring
+3. **Trade decisions for Monday** — APO Apr cut, HYG Jun→Dec roll, USO 118C cut (expires Thu), OWL Apr 2 (11 days)
 4. **Inbox backlogs:** BRENT (9), REGINALD (9), LABOR (8)
 
 **Open questions:** Stale sub-agents. Seven clocks agent assignment. SCRATCH/STATUS dedupe.
-**Positions:** Updated from live screenshot. See `PROME/POSITIONS.md`.
+**Positions:** See `PROME/POSITIONS.md`.
