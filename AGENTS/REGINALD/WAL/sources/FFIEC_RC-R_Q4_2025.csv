@@ -1,0 +1,59 @@
+# WAL (Western Alliance Bank) FFIEC Call Report Q4 2025
+# Schedule RC-R Part II - Securitization Exposures
+# RSSD-ID: 3138146
+# Report Date: 2025-12-31
+# Extracted: 2026-02-25
+
+# Item 9a: HTM Securities - Securitization Exposures
+RCONS475,165051,Held-to-maturity securities (Exposure)
+RCONS476,165051,Held-to-maturity securities (Credit Equivalent)
+RCONS477,0,Held-to-maturity securities (Col C)
+RCONS478,33071,Held-to-maturity securities (RWA)
+RCONS479,0,Held-to-maturity securities (Col E)
+
+# Item 9b: AFS Securities - Securitization Exposures
+RCONS480,3792017,Available-for-sale securities (Exposure)
+RCONS481,3791967,Available-for-sale securities (Credit Equivalent)
+RCONS482,50,Available-for-sale securities (Col C)
+RCONS483,799649,Available-for-sale securities (RWA)
+RCONS484,0,Available-for-sale securities (Col E)
+
+# Item 9c: Trading Assets - Securitization Exposures
+RCONS485,0,Trading assets (Exposure)
+RCONS486,0,Trading assets (Credit Equivalent)
+RCONS487,0,Trading assets (Col C)
+RCONS488,0,Trading assets (Col D)
+RCONS489,0,Trading assets (Col E)
+
+# Item 9d: All Other On-Balance Sheet Securitization Exposures
+RCONS490,10815082,Other on-balance sheet securitization (Exposure)
+RCONS491,10815082,Other on-balance sheet securitization (Credit Equivalent)
+RCONS492,0,Other on-balance sheet securitization (Col C)
+RCONS493,2167129,Other on-balance sheet securitization (RWA)
+RCONS494,0,Other on-balance sheet securitization (Col E)
+
+# Item 10: Off-Balance Sheet Securitization Exposures
+RCONS495,2446364,Off-balance sheet securitization (Exposure)
+RCONS496,2446364,Off-balance sheet securitization (Credit Equivalent)
+RCONS497,0,Off-balance sheet securitization (Col C)
+RCONS498,489273,Off-balance sheet securitization (RWA)
+RCONS499,0,Off-balance sheet securitization (Col E)
+
+# SUMMARY
+# Total Securitization Exposure: $17,218,514 thousand
+# Total RWA: $3,489,122 thousand
+# Implied Average Risk Weight: 20.3%
+# SSFA Floor Risk Weight: 20%
+# Conclusion: WAL using SSFA to achieve minimum risk weight on securitization exposures
+
+# CAPITAL ARBITRAGE CALCULATION
+# With SSFA (20% RW): $3.49B RWA -> $279M capital required (8%)
+# Without SSFA (100% RW): $17.22B RWA -> $1,378M capital required (8%)
+# Capital Savings: $1,098M (~$1.1B)
+
+# KEY CAPITAL RATIOS (from RC-R Part I)
+# CET1 Ratio: 11.76% (RCOAP793)
+# Tier 1 Ratio: 12.22% (RCOA7206)
+# Total Capital Ratio: 13.67% (RCOA7205)
+# Total RWA: $63,395,425 thousand (RCOAA223)
+# Tier 1 Capital: $7,749,556 thousand (RCOA8274)
