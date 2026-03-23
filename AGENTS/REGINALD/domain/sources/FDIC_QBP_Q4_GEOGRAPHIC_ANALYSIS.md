@@ -43,6 +43,45 @@
 - OZK puts (May/Aug) align with maturity wall timeline + IQHQ Aug maturity
 - WAL puts (Jun/Sep) should catch both Jefferies contagion and Q1 earnings
 
-## Still Needed
-- 30+ day PDNA by district (leading indicator, catches problems 60 days before noncurrent)
-- Cross-reference specific OZK loan geography against Atlanta/NY district community bank trends
+## 30-89 Day Pipeline — Leading Indicator (Table V-A)
+
+### All Institutions — Nonfarm Nonresidential
+| District | 30-89 Days | Noncurrent (90+/NA) | PDNA Total | vs National |
+|----------|-----------|-------------------|-----------|-------------|
+| Kansas City | 0.39% | 2.01% | 2.40% | +77bps |
+| **New York** (OZK loans) | **0.41%** | **1.57%** | **1.98%** | **+35bps** |
+| National | 0.33% | 1.30% | 1.63% | — |
+| **Atlanta** (OZK loans) | 0.28% | 1.36% | 1.64% | +1bp |
+| Chicago | 0.30% | 1.09% | 1.39% | -24bps |
+| **Dallas** (OZK HQ) | 0.33% | 0.89% | 1.22% | -41bps |
+| **San Francisco** (WAL HQ) | **0.26%** | **0.90%** | **1.16%** | -47bps |
+
+**NY 30-89 day at 0.41% = highest in country, 24% above national.** This is the pipeline feeding noncurrents 60-90 days from now. OZK's heaviest origination market has the hottest delinquency pipeline in America.
+
+### Community Banks Only — Nonfarm Nonresidential
+| District | 30-89 Days | Noncurrent | PDNA Est. | vs CB National |
+|----------|-----------|-----------|----------|---------------|
+| CB National | 0.39% | 0.80% | 1.19% | — |
+| Chicago | 0.42% | 0.88% | 1.30% | +11bps |
+| **Dallas** (OZK HQ) | **0.42%** | **0.86%** | **1.28%** | **+9bps** |
+| New York | 0.40% | 0.75% | 1.15% | -4bps |
+| Kansas City | 0.36% | 0.79% | 1.15% | -4bps |
+| Atlanta | 0.34% | 0.76% | 1.10% | -9bps |
+| San Francisco | 0.36% | 0.73% | 1.09% | -10bps |
+
+**Dallas community banks: 30-89 at 0.42% (highest tied with Chicago).** The pipeline is hot at OZK's home district too.
+
+## Key Analytical Insight: Pipeline Methodology Breaks for WAL
+- SF 30-89 day is CLEANEST (0.26%) but NCO is HIGHEST (1.13%)
+- This is NOT a delinquency-to-charge-off funnel. It's direct loss recognition.
+- Standard leading indicator methodology (watch 30-89 → predict noncurrent) works for OZK but NOT for WAL
+- WAL losses appear episodically (Cantor fraud pattern), not gradually through the pipeline
+- Makes the two positions more complementary as a paired trade
+
+## Next Data Pull: OZK Call Report RC-C
+- Need OZK's institution-level Q4 2025 Call Report, Schedule RC-C
+- Specifically: nonfarm nonresidential by STATE (not FDIC district)
+- This replaces district proxies with actual OZK loan geography
+- Compare OZK institution-level noncurrent rates against these district benchmarks
+- Available on EDGAR / FFIEC CDR — pull before April 16 earnings
+- If OZK's noncurrent rate in NY/FL/GA loans exceeds district averages, thesis is airtight
