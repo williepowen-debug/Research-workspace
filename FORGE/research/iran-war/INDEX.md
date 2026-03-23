@@ -1,56 +1,63 @@
 # Iran War Research Library — Index
-**Created:** 2026-03-22 | **Last Updated:** 2026-03-22
+**Created:** 2026-03-22 | **Last Updated:** 2026-03-23
 
-This is the master index for all research related to the 2026 Iran war, Strait of Hormuz closure, and geopolitical implications for our trading thesis.
+Master index for all research on the 2026 Iran war, Strait of Hormuz closure, and trading implications.
 
-**Master synthesis:** `GEOPOLITICAL_DEEP_DIVE_MAR22.md` (in parent directory — 22KB, complete)
+**Master synthesis:** `GEOPOLITICAL_DEEP_DIVE_MAR22.md` (parent directory — 22KB)
 
 ---
 
 ## Completed Research
 
-| # | File | Topic | Status | Models Used | Last Updated |
-|---|------|-------|--------|-------------|-------------|
-| 01 | [RUSSIA_SUPPLY_DECLINE.md](01_RUSSIA_SUPPLY_DECLINE.md) | Carnegie verified structural decline + Ukraine strikes | ✅ Complete | Prome (verified) | Mar 22 |
-| 02 | [IRAN_WIN_CONDITIONS.md](02_IRAN_WIN_CONDITIONS.md) | Endurance strategy, no ceasefire, war months not weeks | ✅ Complete | Prome (CSIS, BBC, AC, ISW) | Mar 22 |
-| 03 | [TRUMP_STRATEGY.md](03_TRUMP_STRATEGY.md) | Net assessment, contradictions, indifference thesis | ✅ Complete | Prome analysis | Mar 22 |
-| 04 | [UKRAINE_STRIKES.md](04_UKRAINE_STRIKES.md) | Escalating attacks on Russian oil infrastructure | ✅ Complete | Prome (Reuters, Forbes, BBC) | Mar 22 |
-| 05 | [CHINA_RESPONSE.md](05_CHINA_RESPONSE.md) | Energy security, diplomacy, yuan play, economic impact | ✅ Complete | 4 models (Deep Research, Perplexity, Grok, Gemini) | Mar 22 |
-| 06 | [ISRAEL_ENDGAME.md](06_ISRAEL_ENDGAME.md) | Objectives, air power limits, PGM clock, divergence | ✅ Complete | 4 models (Perplexity, Claude, Grok, Gemini) | Mar 22 |
-| 07 | [DUAL_CHOKEPOINT.md](07_DUAL_CHOKEPOINT.md) | Houthi strategic reserve, Hormuz + Bab el-Mandeb | ✅ Complete | Gemini primary | Mar 22 |
-| 08 | [PROXY_RESILIENCE.md](08_PROXY_RESILIENCE.md) | PMF, Houthis, Hezbollah — life after Tehran | ✅ Complete | Multi-model | Mar 22 |
-| 09 | [YUAN_FOR_HORMUZ.md](09_YUAN_FOR_HORMUZ.md) | Petrodollar challenge, CIPS, de-dollarization | ✅ Complete | Multi-model | Mar 22 |
-| 10 | [TRADE_IMPLICATIONS.md](10_TRADE_IMPLICATIONS.md) | Hamilton connection, timeline, positioning impact | ✅ Complete | Prome synthesis | Mar 22 |
+| # | File | Topic | Size |
+|---|------|-------|------|
+| 01 | [RUSSIA_SUPPLY_DECLINE](01_RUSSIA_SUPPLY_DECLINE.md) | Carnegie verified structural decline + Ukraine strikes | — |
+| 02 | [IRAN_WIN_CONDITIONS](02_IRAN_WIN_CONDITIONS.md) | Endurance strategy, no ceasefire, war months not weeks | — |
+| 03 | [TRUMP_STRATEGY](03_TRUMP_STRATEGY.md) | Net assessment, contradictions, indifference thesis | — |
+| 04 | [UKRAINE_STRIKES](04_UKRAINE_STRIKES.md) | Escalating attacks on Russian oil infrastructure | — |
+| 05 | [CHINA_RESPONSE](05_CHINA_RESPONSE.md) | Energy security, diplomacy, yuan play, economic impact | — |
+| 06 | [ISRAEL_ENDGAME](06_ISRAEL_ENDGAME.md) | Objectives, air power limits, PGM clock, divergence | — |
+| 07 | [DUAL_CHOKEPOINT](07_DUAL_CHOKEPOINT.md) | Houthi strategic reserve, Hormuz + Bab el-Mandeb | — |
+| 08 | [PROXY_RESILIENCE](08_PROXY_RESILIENCE.md) | PMF, Houthis, Hezbollah — life after Tehran | — |
+| 09 | [YUAN_FOR_HORMUZ](09_YUAN_FOR_HORMUZ.md) | Petrodollar challenge, CIPS, de-dollarization | — |
+| 10 | [TRADE_IMPLICATIONS](10_TRADE_IMPLICATIONS.md) | Hamilton connection, timeline, positioning impact | — |
+| 11 | [HOUTHI_CAPABILITY](11_HOUTHI_CAPABILITY.md) | Indigenous capability, supply chain, inventory estimates | 7KB |
+| 12 | [HOUTHI_PERSISTENCE](12_HOUTHI_PERSISTENCE.md) | Red Sea threat persistence without Iran | 9KB |
+| 13 | [MUNITIONS_BURN_RATE](13_MUNITIONS_BURN_RATE.md) | Hard physical clock — interceptor depletion, Pacific bleed | 12KB |
+| 14 | [US_SHALE_NONRESPONSE](14_US_SHALE_NONRESPONSE.md) | Why $107 oil produces zero new barrels — 8 structural constraints | 12KB |
 
-## Pending Research
+#11-14 are multi-model syntheses (Claude + GPT + Grok merged into definitive files). Source responses in `pending/`.
 
-| # | File | Topic | Status | Prompt Drafted? |
-|---|------|-------|--------|----------------|
-| 11 | [pending/US_SHALE_NONRESPONSE.md](pending/US_SHALE_NONRESPONSE.md) | Why no production response at $107? | ✅ 2 Claude responses | ✅ Yes |
-| 12 | [pending/MUNITIONS_BURN_RATE.md](pending/MUNITIONS_BURN_RATE.md) | Hard physical clock on war duration | ✅ 2 Claude responses | ✅ Yes |
-| 13 | [pending/HOUTHI_CAPABILITY.md](pending/HOUTHI_CAPABILITY.md) | Indigenous capability, Red Sea threat persistence | ✅ 3 responses (2 Claude + 1 prior) | ✅ Yes |
-| 14 | pending/EUROPEAN_LNG_SCRAMBLE.md | Qatar 3-5yr repair, TTF pricing, winter 26-27 | ⏳ Not started | ❌ |
-| 15 | pending/TRUMP_OFFRAMP_TIMING.md | Political pressure timeline, midterm calculus | ⏳ Not started | ❌ |
-| 16 | pending/MEK_OPPOSITION_GROUND.md | Is someone cultivating a ground partner? | ⏳ Not started | ❌ |
-| 17 | pending/NUCLEAR_RECONSTITUTION.md | Enrichment timeline post-strikes | ⏳ Not started | ❌ |
-| 18 | pending/MINE_CLEARANCE_LOGISTICS.md | 5,000+ mines, clearance timeline | ⏳ Not started | ❌ |
+## Future Research
 
-## Research Process
-See [RESEARCH_LOG.md](RESEARCH_LOG.md) for prompts, methodology, and future directions.
+| # | Topic | Notes |
+|---|-------|-------|
+| 15 | European LNG Scramble | Qatar 3-5yr repair, TTF pricing, winter 26-27. HANS needs this. |
+| 16 | Trump Offramp Timing | Political pressure timeline, midterm calculus |
+| 17 | MEK Opposition Ground | Is someone cultivating a ground partner? |
+| 18 | Nuclear Reconstitution | Enrichment timeline post-strikes |
+| 19 | Mine Clearance Logistics | 5,000+ mines, clearance timeline |
 
-## Reference Files (Copied into `reference/`)
+## Reference Files (`reference/`)
 
 | File | Description |
 |------|-------------|
-| [DEMAND_DESTRUCTION_FRAMEWORK.md](reference/DEMAND_DESTRUCTION_FRAMEWORK.md) | Hamilton's core framework. NOPI=47. GDP drag -3.0 to -4.9pp. Dec expiry. |
-| [FED_TBILL_REPO_ANALYSIS.md](reference/FED_TBILL_REPO_ANALYSIS.md) | Fed stealth liquidity — $352B T-Bills, 2019 repo parallel. Fed trapped. |
-| [OIL_FACILITY_DAMAGE_TRACKER.md](reference/OIL_FACILITY_DAMAGE_TRACKER.md) | HAWK's granular facility-by-facility damage. Current through Mar 19. |
-| [ENERGY_DOMINANCE_STRATEGY.md](reference/ENERGY_DOMINANCE_STRATEGY.md) | Will's original insight (Mar 2). US running integrated supply consolidation. |
-| [EISMAN_GOBER_TRANSCRIPT_ANALYSIS_MAR2.md](reference/EISMAN_GOBER_TRANSCRIPT_ANALYSIS_MAR2.md) | APO/Athene run risk, affiliated paper, captive financials. |
+| DEMAND_DESTRUCTION_FRAMEWORK | Hamilton's core framework. NOPI=47. Dec expiry. |
+| FED_TBILL_REPO_ANALYSIS | Fed stealth liquidity — $352B T-Bills, 2019 repo parallel. |
+| OIL_FACILITY_DAMAGE_TRACKER | HAWK's facility-by-facility damage (through Mar 19). |
+| ENERGY_DOMINANCE_STRATEGY | Will's original insight (Mar 2). Integrated supply consolidation. |
+| EISMAN_GOBER_TRANSCRIPT_ANALYSIS_MAR2 | APO/Athene run risk, affiliated paper, captive financials. |
 
 ## Agent Cross-References
-- **BRENT** — STATUS.md updated Mar 22 (Russia decline + Ukraine strikes + Iran duration)
-- **ZHAO** — STATUS.md updated Mar 22 (yuan-for-Hormuz play)
-- **NEXUS** — Pass 8 synthesis completed Mar 22 (full geopolitical cross-reference)
-- **HAWK** — Damage tracker current through Mar 19. Needs Ukraine strike data.
-- **HANS** — Needs European LNG scramble research (#14)
+- **BRENT** — Russia decline + Ukraine strikes + Iran duration (Mar 22)
+- **ZHAO** — Yuan-for-Hormuz play (Mar 22)
+- **NEXUS** — Pass 8 synthesis, full geopolitical cross-reference (Mar 22)
+- **HAWK** — Damage tracker through Mar 19. Needs Ukraine strike data.
+- **HANS** — Needs #15 (European LNG Scramble)
+
+## How To Use This Library
+1. **Quick positioning:** Read #10 (Trade Implications) + master synthesis
+2. **Supply thesis:** #01 (Russia) + #14 (Shale) + #07 (Dual Chokepoint) = no relief
+3. **Duration/escalation:** #02 (Iran) + #13 (Munitions) + #06 (Israel) = months not weeks
+4. **Proxy/disruption:** #11 (Houthi Capability) + #12 (Persistence) + #08 (Proxy Resilience)
+5. **Macro/FX:** #05 (China) + #09 (Yuan) + reference files
