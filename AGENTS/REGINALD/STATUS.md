@@ -268,6 +268,7 @@ Eight independent channels terminate at regional banks.
 | Date | Event |
 |------|-------|
 | **Mar 24** | FL UI exhaustion cliff — WARN cohort loses benefits. Peak Apr 26. SSB/VLY DQ risk. |
+| **~Mar 25** | Jefferies fiscal Q1 earnings — first Wall St read on credit market stress + ME war impact. Tied to WAL via double-pledging chain. SMFG seeking 20% stake (Japan→US credit deepening, SAM crossover). |
 | **Mar (NOW)** | Cantor appraisals — WAL $98M receiver; <50¢ = Q1 writedown |
 | **Apr 1** | eSLR relaxation effective |
 | **Apr 10** | CPI (captures oil shock) — dangerous print |
@@ -295,6 +296,14 @@ Eight independent channels terminate at regional banks.
 
 - **Exit 50%:** Claims <240K sustained + CBRE >-5%
 - **Exit 100%:** BTFP 2.0 announced OR HY OAS <260bps
+
+---
+
+## MAR 23 INBOX INTEGRATION
+
+**"Help with mortgage" Google Trends ATH (Mar 22):** Surpassed GFC peak. Confirms & compounds existing "can't sell house" ATH signal. Leading indicator with ~2-3Q lag to DQ. Combined with OZK reserves CUT 41% and WAL hidden CRE growing, loss reserves are massively understated heading into Apr earnings. No threshold change — reinforces existing 🔴 on CRE/Hidden CRE channels and OZK Apr 16 detonation risk.
+
+**Jefferies Q1 (next week):** First major read on credit market stress post-ME war escalation. Direct WAL linkage via double-pledging chain. SMFG seeking 20% stake = Japanese bank deepening US credit exposure as stress peaks (SAM/ZHAO crossover — carry unwind + US credit loss = dual hit). Added to KEY CATALYSTS. Watch: credit provisions, trading losses, warehouse/pledge exposure mentions.
 
 ---
 

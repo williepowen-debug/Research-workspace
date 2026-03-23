@@ -25,7 +25,7 @@ Geopolitical risk is binary in ways domestic stress isn't. Wars start on specifi
 
 When spawned with a task:
 
-1. **Check `mail/inbox/`** — process any pending signals (INTEGRATE, LOG, or DISCARD). **For each signal, log a one-line entry to KB.tsv** using the 13-column schema. Move processed signals to `mail/inbox/processed/`.
+1. **Check `inbox/`** — process any pending signals (INTEGRATE, LOG, or DISCARD). **For each signal, log a one-line entry to KB.tsv** using the 13-column schema. Move processed signals to `inbox/processed/`.
 2. **Read `STATUS.md`** — situation tiers, scenario framework, transmission paths
 3. **Before writing to KB.tsv, read `workbook/SCHEMA.tsv`** — validate all enum fields (Conf, Epistemic, Status) against `allowed_values`. Use `default` values when unsure.
 3b. **Read `AGENTS/VOCABULARIES.tsv`** — use NETWORK_GROUPS for Group field, CANONICAL_ENTITIES for Entity field, SOURCE_TAGS for Source field. If no match exists, use closest term and note the gap.
@@ -35,21 +35,21 @@ When spawned with a task:
 7. **Write results back to `STATUS.md`** — update scenario probabilities, situation tiers, cross-agent flags
 8. **Log significant findings to workbook TSV files** — KB.tsv for facts, VX.tsv for vector state changes, FLOW.tsv for transmission pathway updates. STATUS gets rewritten; workbook entries are permanent.
 9. **Research detail → `domain/sources/` (external source material) or `research/` (deep dives)**
-10. **Cross-agent signals → `mail/outbox/`** (HERMES delivers)
+10. **Cross-agent signals → `outbox/`** (HERMES delivers)
 
 **MAIL:** Do NOT process inbox on normal spawns unless Step 1 finds pending signals. Full inbox processing is a separate task — wait to be spawned specifically for it.
 
-All mail lives in `mail/`:
-- **Inbox:** `mail/inbox/` — inbound signals from other agents (delivered by HERMES)
-- **Outbox:** `mail/outbox/` — outbound signals you write for other agents
-- **Processed:** `mail/inbox/processed/` — signals you've integrated
-- **Delivered:** `mail/outbox/delivered/` — signals HERMES has delivered
+All mail lives in removed:
+- **Inbox:** `inbox/` — inbound signals from other agents (delivered by HERMES)
+- **Outbox:** `outbox/` — outbound signals you write for other agents
+- **Processed:** `inbox/processed/` — signals you've integrated
+- **Delivered:** `outbox/delivered/` — signals HERMES has delivered
 
 ### Inbox Processing Protocol
-When spawned for inbox processing: **read `mail/PROTOCOL.md` first and follow it exactly.** It contains the full processing steps, outbox format, and receipt template.
+When spawned for inbox processing: **check inbox/ for pending signals and process them.** It contains the full processing steps, outbox format, and receipt template.
 
 ### Outbox Protocol
-Write a single `.md` file to `mail/outbox/` per signal:
+Write a single `.md` file to `outbox/` per signal:
 - **Filename:** `YYYY-MM-DD_to-[target]_[short_description].md`
 - **Format:**
 ```
@@ -60,7 +60,7 @@ Write a single `.md` file to `mail/outbox/` per signal:
 **Priority:** 🔴/🟠/🟡
 ```
 - HERMES sweeps outboxes and delivers to target agents' inboxes
-- After delivery, HERMES moves to `mail/outbox/delivered/`
+- After delivery, HERMES moves to `outbox/delivered/`
 - **Write a signal when:** a threshold fires, a prediction resolves, or analysis produces an actionable insight
 - **Do NOT write for:** routine STATUS updates or data that only affects your own vectors
 
@@ -80,7 +80,7 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 - Use tier system: 🟢 GREEN / 🟡 YELLOW / 🟠 ORANGE / 🔴 RED for each situation.
 - **Source tags on all data points.** Every value must include: `[CONF]` for confirmed data with source + date, `[EST]` for estimates. Example: `**Brent $90** | [CONF] ICE Mar 6` or `**~$95** | [EST] model-implied`. No naked numbers.
 - **Prediction ID format:** All predictions use `HAW-xx` (e.g., `HAW-01`, `HAW-04`). No bare numbers. Prevents ID collisions when cross-referencing across agents.
-- **PREDICTIONS.tsv resolution protocol:** At session boot, scan for entries whose Timeframe has passed or whose Status can be resolved. Update Status to CONFIRMED, FAILED, PARTIALLY, or EXPIRED. Fill Date_Resolved and Outcome. Log resolution to KB.tsv. Post significant resolutions to `mail/outbox/`.
+- **PREDICTIONS.tsv resolution protocol:** At session boot, scan for entries whose Timeframe has passed or whose Status can be resolved. Update Status to CONFIRMED, FAILED, PARTIALLY, or EXPIRED. Fill Date_Resolved and Outcome. Log resolution to KB.tsv. Post significant resolutions to `outbox/`.
 - **Don't maintain stale copies.** If another agent owns a data point (HENRY owns VIX, LIQUID owns HY OAS), reference their value with `[CONF HENRY Mar 6]` rather than keeping your own copy that drifts. One source of truth per metric.
 
 ---
@@ -244,6 +244,6 @@ Every STATUS.md update must end with a `## BOTTOM LINE` section: 2-4 sentences. 
 | `workbook/FLOW.tsv` | Transmission pathways — how geopolitical stress reaches markets (Speed/Status/Trigger/Pathway) |
 | `workbook/PREDICTIONS.tsv` | Falsifiable forecasts with confidence, timeframe, invalidation, and resolution tracking |
 | `domain/sources/` | Research archives, STATUS backups |
-| `mail/inbox/` | Inbound signals from other agents. Process when spawned for it. |
-| `mail/outbox/` | Outbound signals for other agents. One file per signal. HERMES delivers. |
+| `inbox/` | Inbound signals from other agents. Process when spawned for it. |
+| `outbox/` | Outbound signals for other agents. One file per signal. HERMES delivers. |
 | `research/` | Deep dives, analysis outputs |

@@ -29,13 +29,13 @@ Key insight you must maintain: the K-shape is real. Prime/near-prime (~40%) are 
    - Transmission/cascade mechanics → `workbook/FLOW.tsv`
    - New predictions → `workbook/PREDICTIONS.tsv` (with Invalidation criteria)
 6. **Research detail → `domain/sources/`** — STATUS.md gets a summary, detail lives here
-7. **Cross-agent signals → `mail/outbox/`** (HERMES delivers)
+7. **Cross-agent signals → `outbox/`** (HERMES delivers)
 
 **MAIL:** Do NOT process inbox on normal spawns. Inbox processing is a separate task — wait to be spawned specifically for it.
 
-All mail lives in `mail/`. See `mail/PROTOCOL.md` for full inbox/outbox/signal procedures. Key rules:
-- **Inbox:** `mail/inbox/` — inbound signals. Process only when spawned for it.
-- **Outbox:** `mail/outbox/` — one `.md` file per signal, HERMES delivers.
+All mail lives in removed. See inbox/outbox directories for signal procedures. Key rules:
+- **Inbox:** `inbox/` — inbound signals. Process only when spawned for it.
+- **Outbox:** `outbox/` — one `.md` file per signal, HERMES delivers.
 - **Reply only if:** (a) new info sender doesn't have, (b) error correction, or (c) threshold trigger. Silence = received and integrated.
 
 If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.md`:
@@ -159,9 +159,9 @@ The "Beneath the Ice" thesis weakens if:
 |------|---------|
 | `STATUS.md` | Live state — dashboard, K-shape, predictions. **Primary memory.** ≤250 lines. |
 | `TRADE.md` | Domain trade ideas — consumer credit plays, ABS shorts, housing. Read on trade spawns. |
-| `mail/inbox/` | Inbound signals. Process when spawned for it. |
-| `mail/outbox/` | Outbound signals. One file per signal. HERMES delivers. |
-| `mail/PROTOCOL.md` | Full mail procedures (inbox processing, outbox format, reply rules). |
+| `inbox/` | Inbound signals. Process when spawned for it. |
+| `outbox/` | Outbound signals. One file per signal. HERMES delivers. |
+| Mail protocol (archived) | Full mail procedures (inbox processing, outbox format, reply rules). |
 | `workbook/SCHEMA.tsv` | **Read at boot.** Column definitions for all TSVs below. |
 | `workbook/KB.tsv` | Knowledge base — 13-column schema (ID/Date/Group/Entity/Fact/Source/Conf/Epistemic/Status/Stale_By/DerivedFrom/Vectors/Notes). ID format KB-CARL-NNN. |
 | `workbook/VX.tsv` | Indicator vectors — threshold tracking with Y/O/R status colors. See stale data rules. |

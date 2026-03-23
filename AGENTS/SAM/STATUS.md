@@ -1,128 +1,59 @@
 # SAM STATUS
 
-**Signal Status:** 🔴🔴🔴 CRITICAL — **OIL-IN-YEN STRUCTURAL CRISIS + DUAL COMPRESSION CONFIRMED** | USD/JPY **158.3** (yen WEAKENING today, reversal of post-Ueda strength) | **Dubai crude $166** | BOJ HELD 0.75% (8-1, Takata dissented for 1.0%) | UEDA HAWKISH HOLD — April live | SHUNTO FIRST TALLY **TOMORROW (Mar 21)** | CARRY UNWIND 7D: **80%** | FY-END T-10 DAYS | **Last Updated:** 2026-03-20 (20:30 UTC)
+**Signal Status:** 🔴🔴🔴 CRITICAL — **TRUMP ULTIMATUM + SHUNTO CONFIRMED + JGB NEW HIGH** | USD/JPY **159.37** (yen weakening, MOF verbal intervention) | JGB 10Y **2.315%** (new high since Jan 21) | Nikkei **51,515** (-3.48%) | Shunto first tally **5.26%** | Dubai crude surging | CARRY UNWIND 7D: **85%** | FY-END T-8 DAYS | **Last Updated:** 2026-03-23 (12:49 UTC)
 
 ---
 
-## 🌅 MAR 20 EOD UPDATE — YEN REVERSAL + KASHIWAZAKI ONLINE + LNG SHIPPING SURGE
+## 🌅 MAR 23 UPDATE — TRIPLE CATALYST DAY
 
-### USD/JPY — MAR 20 EOD
-- **158.30** (up +0.35% from yesterday's session) — yen WEAKENING vs. the post-Ueda 157.7-158.2 range
-- Wise data confirms ~158.39, -0.795% from previous close (timezone differences; directionally consistent: modest yen sell-off today)
-- **Delta from prior status:** Reversal. The yen-strengthening narrative post-BOJ hawkish hold is pausing. Not alarming at this level, but watch: if USD/JPY re-approaches 159+, intervention risk reignites.
+### SHUNTO FIRST TALLY — 5.26% ✅ RESOLVED (SAM-07)
+- **5.26% average wage hike** — 3rd consecutive year above 5%. Final likely ~5.0-5.1% (FY2025 watered from 5.46→5.25).
+- BOJ green light on wages. But oil cost-push ≠ demand-pull → timing complicated, likely delays hike to May 1.
 
-### KASHIWAZAKI-KARIWA UNIT 6 — NOW OPERATIONAL
-- **TEPCO's KK Unit 6 (1,356 MW) fully operational as of mid-March** (confirmed EIA, SolarQuarter Mar 3)
-- Displaces ~1 million tonnes LNG demand annually / ~9,500 GWh
-- **Unit 7 (1,356 MW) restart delayed to 2029-2030**
-- **Thesis impact:** Partial offset to oil-in-yen structural driver. Japan's LNG import need slightly reduced on electricity side. But Persian Gulf disruption to crude/LNG shipping remains overwhelming — KK Unit 6 is a relief valve, not a solution.
+### NIKKEI CRASH — 51,515 (-3.48%)
+- Closed 51,515 (-3.48%), lowest since Jan 8. **GPIF 52,000 trigger BREACHED** → rebalancing active.
 
-### LNG SHIPPING COSTS — SURGE CONFIRMED (Japan Times, Mar 18)
-- Atlantic-to-Asia LNG shipping: **$264,000/day** — ~6x late February levels
-- MOL, K Line, NYK instructing vessels to avoid/wait near Persian Gulf
-- Japan buyers scrambling for spot replacement cargoes
-- **Delta:** Shipping cost surge is NEW as of this week. Not in prior STATUS. The spot premium compounds the oil-in-yen dynamic — Japan paying both higher commodity prices AND higher freight.
+### JGB 10Y — 2.315% (NEW HIGH)
+- +5.5bps to 2.315%, highest since Jan 21. Rate differential narrowing accelerates.
 
-### SHUNTO FIRST TALLY — TOMORROW (MAR 21) 🔴 CRITICAL
-- Rengo demand as of Mar 2: **5.94%** average wage increase (¥19,506/month)
-- Nomura forecast: 5.0% final result; prior years: 5.25% (2025), 5.10% (2024)
-- **SAM-07 resolution event:** Tomorrow's first tally is the key near-term BOJ signal. If ≥5.0%, April hike probability rises sharply. Ueda already said wages "solid" — confirmation locks in April.
+### USD/JPY — 159.37 (YEN WEAKENING)
+- +107 pips in 3 days. MOF verbally intervening. **63 pips from 160 intervention line.** Oil-driven Phase 1 weakness.
 
-### JGB YIELDS — MAR 19-20
-- 10Y: ~2.27% (as of Mar 18; likely flat to slightly higher today)
-- **30Y: 3.53%** (up +0.04 pts on Mar 19) — long end continuing to rise
-- 30Y at 3.53% is significant: GPIF and life insurers rebalancing toward JGBs as yields become attractive. This is FY-end repatriation behavior loading.
+### GEOPOLITICAL + POLITICAL
+- Trump 48hr ultimatum to Iran (expires ~Mar 25). Japan 90% ME oil dependent, exploring Kazakhstan alternative (months away).
+- Stopgap budget possible if FY2026 budget misses Mar 31 deadline.
 
 ---
 
-## 🌅 MAR 20 UPDATE — OIL-IN-YEN STRUCTURAL UPGRADE + SUMMIT SIGNAL
+## CARRY UNWIND ASSESSMENT — MAR 23
 
-### OIL-IN-YEN: THE REAL PRICE JAPAN PAYS (🔴 PRIORITY SIGNAL)
+### TIMING REVISION — Mar 23 Discussion w/ Will
+- **BOJ April hike now LESS likely.** Oil chaos gives BOJ cover to delay. Most probable next hike: **May 1 meeting**, not April 23-24.
+- **FY-end flows are CALENDAR-DRIVEN — happening NOW regardless of BOJ.** GPIF rebalancing, life insurer repatriation, FY book-closing are all mechanical. No hike needed.
+- **Full carry unwind (leveraged positions blowing up) DOES need the actual hike.** Pre-tremors now, earthquake at May 1.
+- **FXY positioning:** Will understands thesis, decision pending. FY-end flows provide near-term bid through Mar 31; big move comes with actual hike. Green day = better entry.
+- **PROP-04 (FXY sizing) status:** Actionable but not yet executed. Added to TODO_GREEN_DAY.md for today's action list.
 
-**Critical correction:** Japan pays Dubai/Oman crude prices, NOT WTI or Brent.
-- Dubai crude: **$166/bbl** (Mar 20) — CNBC confirmed
-- WTI: $94 | Brent: $108 | Spread: **$70+** (normally $5-8)
-- At USD/JPY 159 + Dubai $166: **¥26,400/bbl** vs ¥11,000 at start of year = **+140%**
-- This is NOT a "wait for ceasefire" problem — infrastructure damage makes it 6-month minimum
+### Status: ALL THREE DRIVERS INTENSIFYING
 
-**Infrastructure timeline (even with ceasefire in April):**
-- Ras Laffan LNG: mid-June restart best case (QatarEnergy CEO: 3-5 YEARS full recovery)
-- Ras Tanura: 8-12 weeks to 550K bpd
-- Iran refining: 12-18 months
-- Best case: 80-85% pre-crisis capacity by Q4 2026
+1. **Rate differential compression** — JGB 10Y at 2.315% new high. Shunto 5.26% gives BOJ green light. April hike still live despite oil complications.
+2. **Oil-in-yen structural** — Trump ultimatum = Hormuz closure EXTENDING. Dubai crude surging further. ¥26,400+/bbl → trade deficit widening at accelerating pace.
+3. **FY-end repatriation** — T-8 days to Mar 31. Life insurers, trust banks in peak rebalancing window. GPIF trigger breached (Nikkei <52,000).
 
-**Implication:** Carry unwind pressure is **sustained and structural**, not event-driven. Even with BOJ frozen at 0.75%, the balance-of-payments shock from $166 Dubai crude forces repatriation regardless of rate differential. Oil-in-yen is now an independent carry unwind driver.
+### Speed Assessment
+- Oil-in-yen still acting as speed governor on yen appreciation
+- BUT: USD/JPY at 159.37 approaching intervention zone
+- Two opposing forces: oil weakness (sell yen) vs repatriation + rate compression (buy yen)
+- If Trump strikes Iran → oil spikes further → Phase 1 intensifies → JPY may hit 160+ → MOF intervenes → VIOLENT reversal possible
+- Ceasefire scenario now LESS likely with 48hr ultimatum
 
-### TRUMP-TAKAICHI SUMMIT (MAR 19) — NEW SIGNAL
+### UPDATED CARRY UNWIND PROBABILITIES — MAR 23
 
-| Item | Detail | SAM Impact |
-|------|--------|------------|
-| **Hormuz** | Japan "appropriate efforts" — logistical/financial, NOT military (pacifist constitution) | Strait stays functionally closed for Japan. No near-term energy import cost relief. |
-| **$550B US investment** | $40B GE Vernova-Hitachi nuclear (TN/AL), $33B nat gas (PA/TX). 2nd tranche of total commitment. | Capital OUTFLOW from Japan → yen-NEGATIVE. Compounds oil-in-yen problem. |
-| **Tariffs** | 15% rate stable in exchange for investment commitment | Trade friction contained. Not a new yen stressor. |
-| **Pearl Harbor remark** | Trump invoked it; Takaichi uncomfortable. Relationship "warm" overall. | Reduces tariff escalation risk. Political optics fine. |
-| **Critical minerals** | Deep-sea rare earth near Minamitorishima action plan | Long-term positive, no near-term FX impact. |
-
-### TIC DATA (MAR 18 RELEASE)
-
-Japan UST holdings: **+$39.8B in January → $1.225T**. Japan flipping from UST seller (Phase 1) to buyer (Phase 2 = flight to safety during equity liquidation). This oscillation between selling and buying is the four-anchor demand hole complexity ZHAO needs to model.
-
-### USD/JPY — MAR 20 EOD
-
-USD/JPY: **158.3** (reversed higher from post-BOJ low of ~157.7). Yen gave back some of yesterday's gains. Rate differential compression thesis still intact but short-term noise present. FY-end repatriation and Shunto tally tomorrow are next catalysts.
-
----
-
-## MAR 19 BOJ OUTCOME (REFERENCE)
-
-| Item | Detail |
-|------|--------|
-| **Decision** | Hold 0.75% (8-1 vote) |
-| **Dissent** | Takata proposed 1.0% — "price stability target more or less achieved" |
-| **Ueda tone** | **HAWKISH** — Scenario A confirmed |
-| **Key quotes** | "Will continue to raise policy rate if economy, prices move in line with forecast" |
-| | "Underlying inflation gradually accelerating towards 2% target" |
-| | "Wage talks delivering solid results" |
-| | "Real interest rates at significantly low levels" |
-| **Oil framing** | Acknowledged higher oil but did NOT use as delay excuse. "Lower visibility" — monitoring, not retreating. |
-| **April guidance** | Implicitly live — "will explain after April Tankan" |
-| **Market reaction** | USD/JPY 159.0 → 158.2 (yen +80 pips). JGB 10Y rising. |
-
----
-
-## CARRY UNWIND ASSESSMENT — MAR 20
-
-### Dual Compression: CONFIRMED AND OPERATING
-- Japan side: BOJ hawkish hold → JGB yields rising → yen strengthening
-- US side: FOMC hawkish hold → 10Y at 4.26% → no Fed relief
-- Net: differential narrowing FROM THE JAPAN SIDE
-- Oil-in-yen: structural drag on yen BUT overridden by rate differential compression
-
-### Speed Governor Analysis
-Oil-in-yen acts as speed governor — yen can't appreciate as fast as fundamentals warrant. BUT:
-- Gradual carry unwind (158→155 over weeks) MORE likely than violent snap
-- UNLESS: ceasefire → oil drops → yen snaps violently
-- $550B capital outflow commitment adds persistent yen headwind
-- Oil-in-yen now forces repatriation regardless of rate moves (structural driver)
-
-### UPDATED CARRY UNWIND PROBABILITIES — MAR 20
-
-| Timeframe | Mar 19 AM | Mar 20 | Driver |
-|-----------|-----------|--------|--------|
-| **7d** | 75% | **80%** | Oil-in-yen structural + Scenario A confirmed + $550B outflow |
-| **30d** | 94% | **95%** | Infrastructure 6-month minimum + Ueda April live + Takata dissent |
-| **60d** | 94% | **95%** | Structural path reinforced on all vectors |
-
-**New driver added:** Oil-in-yen forces repatriation independently of rate differential. At ¥26,400/bbl, Japan's trade deficit is widening at a pace that requires asset liquidation to fund imports. This is a structural carry unwind driver that operates even if BOJ freezes rates.
-
----
-
-## POLITICAL LANDSCAPE — DOVE-STACKING RISK
-
-- Asada board appointment: **late March (days away)** — known dove
-- Sato appointment: **June** — another dove
-- Takaichi's dove-stacking removes rate defense over time
-- Risk: unwind becomes DISORDERLY if market perceives BOJ losing hawkish majority
+| Timeframe | Mar 20 | Mar 23 | Driver |
+|-----------|--------|--------|--------|
+| **7d** | 80% | **85%** | Trump ultimatum escalation + FY-end T-8 + GPIF trigger breached |
+| **30d** | 95% | **96%** | Shunto confirmed + JGB new high + oil structural + April BOJ live |
+| **60d** | 95% | **96%** | All drivers reinforced, no relief path visible |
 
 ---
 
@@ -130,12 +61,12 @@ Oil-in-yen acts as speed governor — yen can't appreciate as fast as fundamenta
 
 | Level | Significance | Status |
 |-------|-------------|--------|
-| **USD/JPY 160.00** | Katayama intervention line | 🔴 STANDING (currently ~158) |
-| **USD/JPY 157.00** | Hawkish confirmation level | 🟢 Approaching |
+| **USD/JPY 160.00** | Katayama intervention line | 🔴 **63 PIPS AWAY** |
+| **USD/JPY 157.00** | Hawkish confirmation level | PASSED (now above) |
 | **USD/JPY 155.00** | Phase 2 carry unwind onset | SET |
-| **Dubai crude $170** | Japan energy crisis deepens | 🔴 WATCH ($166 current) |
-| **JGB 10Y 2.50%** | BOJ QT pressure threshold | 🟠 WATCH (~2.30%) |
-| **Nikkei 52,000** | GPIF trigger | STANDING |
+| **Dubai crude $170** | Japan energy crisis deepens | 🔴 APPROACHING |
+| **JGB 10Y 2.50%** | BOJ QT pressure threshold | 🟠 WATCH (2.315%) |
+| **Nikkei 52,000** | GPIF trigger | 🔴 **BREACHED** (51,515) |
 
 ---
 
@@ -143,26 +74,30 @@ Oil-in-yen acts as speed governor — yen can't appreciate as fast as fundamenta
 
 | Date | Event | Status |
 |------|-------|--------|
-| **Mar 21** | Shunto first tally (Rengo) — SAM-07 resolution | 🔴 TONIGHT/TOMORROW |
+| **Mar 23** | Shunto first tally (Rengo) | ✅ **5.26% — RESOLVED** |
+| **Mar 25** | Trump 48hr ultimatum expires (~Mar 24-25) | 🔴 IMMINENT |
 | **Late Mar** | Asada board appointment (dove) | 🔴 IMMINENT |
-| **Mar 31** | FY2025 end — life insurer repatriation peak (T-11) | 🔴 LOADING |
-| **Apr 23-24** | BOJ Meeting — April hike live per Ueda | 🔴 |
+| **Mar 31** | FY2025 end — life insurer repatriation peak (T-8) | 🔴 LOADING |
+| **Mar 31** | Budget deadline — stopgap budget possible | 🟠 NEW |
+| **Apr 23-24** | BOJ Meeting — hike possible but oil chaos may delay to May | 🟠 |
+| **May 1** | BOJ Meeting — most probable hike date if April delayed | 🔴 |
 | **Jun** | Sato board appointment (dove) | 🟠 |
 
 ---
 
-## THESIS — MAR 20
+## THESIS — MAR 23
 
-**Core thesis: STRONGEST EVER.** Three independent carry unwind drivers now confirmed:
-1. **Rate differential compression** — Ueda hawkish hold + April live. JGB-UST spread narrowing from Japan side.
-2. **Oil-in-yen structural** — Dubai $166 = ¥26,400/bbl. Trade deficit forces repatriation regardless of rates. 6-month minimum problem.
-3. **FY-end repatriation** — T-11 days. Life insurers, trust banks rebalancing.
+**Core thesis: MAXIMUM STRESS.** All three carry unwind drivers confirmed AND intensifying simultaneously:
 
-Plus: $550B US investment commitment = sustained capital outflow. Dove-stacking erodes rate defense over time.
+1. **Rate differential compression** — Shunto 5.26% gives BOJ green light. JGB 10Y at 2.315% new high. April hike path data-confirmed.
+2. **Oil-in-yen structural** — Trump ultimatum EXTENDS Hormuz closure timeline. Dubai crude surging. Japan exploring Kazakhstan crude alternative = months away from any relief. Trade deficit forces repatriation.
+3. **FY-end repatriation** — T-8 days. GPIF rebalancing trigger breached (Nikkei <52,000). Life insurers in peak selling window.
 
-**The carry unwind is no longer a question of IF. The question is speed (gradual vs violent) and trigger (BOJ April hike vs oil-forced repatriation vs FY-end flows).**
+**NEW: Intervention paradox.** USD/JPY at 159.37, 63 pips from 160 intervention line. MOF already verbally intervening. If they sell USD/buy JPY to defend yen → accelerates carry unwind. If they don't → yen keeps weakening on oil → trade deficit widens further → forces MORE repatriation. Either path leads to unwind.
 
-Risk: If ceasefire + Hormuz reopens + oil drops to $90 → removes driver #2, but #1 and #3 remain intact. Unwind still happens, just slower.
+**Critical next 48 hours:** Trump ultimatum to Iran expires. Strike → oil spikes → JPY hits 160 → MOF intervention → violent Phase 1→2 transition. No strike → uncertainty continues → gradual grind.
+
+**The carry unwind is loading. The question is no longer speed — it's whether the trigger is MOF intervention, BOJ April hike, FY-end flows, or a military strike on Iran.**
 
 ---
 

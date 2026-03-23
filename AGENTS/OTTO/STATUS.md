@@ -1,6 +1,42 @@
 # OTTO STATUS
 
-**Signal Status:** 🔴🔴 CRITICAL — ESCALATING | **Last Updated:** 2026-03-20 13:55 UTC
+**Signal Status:** 🔴🔴 CRITICAL — ESCALATING | **Last Updated:** 2026-03-23 13:46 UTC
+
+---
+
+## MAR 23 CHECK-IN (2026-03-23 13:46 UTC)
+
+### 1. ABS/Subprime Auto — TransUnion Feb 2026 Snapshot (Released Mar 20)
+- **🆕 TransUnion Feb 2026:** Consumer 30+ DPD **edged down 19bps to 4.53%**; 60+ DPD **fell 2bps to 1.76%**. Modest seasonal improvement — NOT a trend reversal.
+- **Independent/BHPH lenders: 7.99% (30+) / 3.33% (60+)** — highest by wide margin. This is the subprime belly where our thesis lives.
+- Geographic hotspots: MS 8.18%, LA 7.38%, DC 7.30%, GA 6.68% — Southeast/Gulf Coast concentration persists.
+- **2022 & 2023 vintages: "spell sustained issues"** — recovery pipelines busy into 2027 per CUCollector analysis.
+- Average new loan amount rose to $31,651 — larger originations = bigger loss severity when defaults come.
+- **Assessment:** Headline improvement is seasonal noise. Vintage-level data and BHPH segment remain ugly. Our ABS-level DQ (7.1% subprime 60+) is a different cut than TU consumer-level (1.76% all-in). No contradiction — subprime ABS performance still deteriorating. Next Fitch monthly read expected early April = next real data point.
+
+### 2. CVNA — Continued Weakness, No New Catalysts
+- Stock trending down ~3% on Mar 20 (TimothySykes). Still -35% YTD.
+- Motley Fool (Mar 19): framing as buy-the-dip opportunity. Simply Wall St (Mar 22): DCF suggests "undervalued on cash flow" — bullish analyst narrative building as stock falls.
+- **No new litigation output, no new short-seller reports, no 10-K issues flagged.**
+- Stock split vote still May 5. Discovery Production 2 still Jun 12.
+- **Assessment:** Quiet period. Put volume spike from Mar 19 (155K contracts, +92%) was the last actionable signal. Watch for Production 1 public output and OZK 8-K.
+
+### 3. El-Erian: Private Credit = "2007-like Financial Accident" Risk (Mar 19)
+- **🆕 Business Insider (Mar 19): Mohamed El-Erian explicitly compares private credit to Bear Stearns chain of events.** Outlines 3-phase crisis: (1) liquidity fears snowball, (2) solvency concerns emerge, (3) lending crunch → recession.
+- "Very important to try to interrupt this process before it gathers steam."
+- Article cites Tricolor and First Brands as the initial jitters that started this.
+- **Assessment:** Our thesis is now being articulated by one of the most prominent macro voices. El-Erian + Dimon ("cockroach" quote in Economist Mar 15) + Fortune ("resembles bank run") = mainstream narrative convergence. The cockroach metaphor is no longer ours alone.
+
+### 4. First Brands — Senator Moreno Involvement (Mar 18)
+- **🆕 Senator Bernie Moreno (R-OH) addressing First Brands fallout publicly** — efforts to "preserve strong brands, factories and jobs." Engine Builder Magazine, AftermarketNews, FleetEquipment all covered.
+- Ohio facility closures confirmed: 1,200+ layoffs.
+- Political dimension = new. Congressional attention could accelerate scrutiny of shadow lenders or slow asset liquidation.
+- **No update on auction conclusion (expected end-March) or Ch. 7 conversion.**
+
+### 5. Imminent Timeline Items (This Week)
+- **Mar 25: OZK EDGAR 8-K watch begins** — 🔴🔴 still active. No 8-K found in search.
+- **Mar 31: Tricolor vehicle liquidation deadline** — 🔴 IMMINENT (8 days). No public update found.
+- **Mar 31: First Brands auction conclusion** — 🔴 IMMINENT (8 days). No public update found.
 
 ---
 

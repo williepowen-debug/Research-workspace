@@ -158,6 +158,19 @@ ALL THREE simultaneously (3 consecutive readings each):
 
 ---
 
+## FREIGHT / SHIPPING RATES (Mar 22-23)
+
+| Route/Metric | Prior Range | Current | Move |
+|--------------|------------|---------|------|
+| Chemical tanker Houston→Rotterdam (5Kmt) | $50-75 (2+ yr range) | **~$200** | +167-300% vertical spike |
+| VLCC (dirty) | — | $423K/day peak | +201% from pre-war |
+| LNG carrier (Asia Pac) | ~$20K/day | $125K/day | +529% |
+
+**Source:** @FreightAlley (Craig Fuller), @ed_fin (Ed Finley-Richardson) Mar 22. "The bull market no one is talking about yet."
+**Implication:** Freight cost spike = additional demand destruction transmission channel. Shippers without hedged transport budgets face margin destruction. Chemical tanker vertical move is leading indicator for broader shipping repricing into consumer goods inflation.
+
+---
+
 ## DATA CALENDAR (future)
 
 | Date | Release | Priority |

@@ -1,5 +1,21 @@
 # LABOR STATUS
-**Last Updated:** 2026-03-20 20:30 UTC | **Status:** 🔴🔴 CRITICAL — META 15-16K LAYOFF PLAN CONFIRMED (LARGEST SINCE 2022). SHUTDOWN DAY 36, SENATE NEGOTIATIONS FINALLY STARTED (KATIE BRITT OFFER ON TABLE). SCHEDULE POLICY/CAREER RULING STILL PENDING. NO NEW CLAIMS DATA TODAY (NEXT: MAR 26). FL UI WAVE 1 T-4 (MAR 24).
+**Last Updated:** 2026-03-23 13:00 UTC | **Status:** 🔴🔴 CRITICAL — FL UI WAVE 1 EXHAUSTION TOMORROW (MAR 24). SHUTDOWN DAY 39, MULLIN CLOTURE 54-37 (FINAL VOTE MON/TUE). OIL WHIPSAW: BRENT $112→$96→$104 ON TRUMP/IRAN TALK CLAIMS (IRAN DENIES). ICE CONSTRUCTION RAIDS DRYING UP SITES (NYT/GUARDIAN). RENGO SHUNTO 5.26% (BELOW 6% BOJ THRESHOLD). SCHEDULE POLICY/CAREER RULING STILL PENDING. NEXT CLAIMS: THU MAR 27.
+
+**Signal Mar 23 — Midday Scan (1:00 PM UTC):**
+
+**🔴 FL UI WAVE 1 — T-1 (TOMORROW MAR 24):** First cohort of FL workers who filed after WARN surge (+76% YoY, Oct-Dec 2025) exhaust 12-week benefits TOMORROW. No legislative block (HB 191 tightens UI, doesn't extend). Zero safety net. **Vector 8 UPGRADING to 5 (🔴🔴) on fire.** This is the canary — CC delinquency spike follows ~60 days (May), auto loan stress Jun, foreclosure re-acceleration Jul. Wave 2 peak Apr 26. CA/NY exhaustion Aug.
+
+**SHUTDOWN DAY 39 — MULLIN CLOTURE ADVANCES 54-37:** Senate rare Sunday session Mar 22. Fetterman + Heinrich (D-NM, surprise defection) voted to advance Mullin's DHS nomination. Final confirmation vote expected Mon/Tue. **BUT: Mullin confirmation ≠ shutdown end.** Funding still requires separate deal. Senate returns today, vote this week "odds slim" per NJ.com/APP. Recess Mar 30 still the hard wall — 7 days. DHS workers approaching 3rd missed paycheck cycle. Day 39 = approaching longest shutdown in US history.
+
+**OIL WHIPSAW — BRENT $112→$96→$104:** Sunday: Brent spiked to ~$114 on Trump ultimatum + Iran threat to close Hormuz indefinitely (CNN). Monday: Trump posted "productive talks" on Truth Social, ordered 5-day halt on Iran energy strikes → Brent crashed 14% to $96 (Bloomberg). Iran DENIED any talks (Reuters). Now trading ~$104. **Net: oil still $100+, Hormuz still closed, but volatility creates planning paralysis for employers. Gas $3.96 national avg (AAA), diesel $5.29. The $4/gas behavioral breakpoint (DD-3) is T-0 to T-1.** If Iran denial sticks and strikes resume in 5 days, oil re-spikes. Construction/logistics/transport margins crushed either way.
+
+**ICE CONSTRUCTION RAIDS — LABOR SUPPLY SHOCK:** NYT Mar 18: "Trump's ICE Raids Upend South Texas Construction Industry." Guardian Mar 19: 1-in-3 construction workers foreign-born, raids at Home Depot stores and active sites. Bisnow Mar 18: NYC construction safety enforcement undermined by deportation fears. SoCal: ~20 incidents in one day (Mar 19). **This is a supply-side labor shock overlaying demand-side deterioration. Construction hiring was already frozen (Hormuz + rate uncertainty). Now workers physically disappearing from sites. Cross: MARCO owns migration-driven displacement, but construction employment collapse feeds LABOR vectors (claims, sector cuts).** Drudge headline today confirms escalation.
+
+**RENGO SHUNTO FIRST-ROUND: 5.26%:** Released today. Below 6.0% BOJ emergency threshold. Third consecutive year >5%. Settlements tracking Nomura forecast (~5.0% actual). **BOJ April hike still on table but not forced. SAM domain primary. LABOR note: no carry unwind trigger from this data point.**
+
+**SCHEDULE POLICY/CAREER — STILL NO RULING (DAY 5 POST-ARGUMENT):** D.C. Circuit oral arg was Mar 18. Five days, no decision. Binary outcome unchanged. Each day without PI = more RIFs processed.
+
+**Prior signal notes moved below ↓**
 
 **Signal Mar 20 — EOD Scan (8:30 PM ET):**
 
@@ -93,12 +109,12 @@
 | 5 | Sector cuts (tech/bio/media/fintech) | **4** | 🔴 | Hiring plans -56% YoY. Tech +51% Challenger. Biotech/media entering. | New >50K single-sector announcement → 5 |
 | 6 | Long-term unemployed / white-collar | **4** | 🔴 | **1.9M (+400K YoY)**. U-3 now 4.4%. College grad 36.6% — record. | U-3 ≥4.7% → 5 |
 | 7 | Temp employment | **4** | 🔴 | -12% YoY, re-accelerating. Counter: RHI/KFRC sequential+. | 2mo staffing recovery → 3. Temp ≥-15% → 5 |
-| 8 | Gig economy / UI exhaustion | **4** | 🔴 | FL Wave 1 Mar 24, Wave 2 Apr 26. Locked in. | Wave 1 fires (no legislative extension) → 5 |
+| 8 | Gig economy / UI exhaustion | **5** ↑ | 🔴🔴 | **FL Wave 1 FIRES TOMORROW Mar 24.** No block. Wave 2 Apr 26. | CONFIRMED — upgrade on fire. CC spike ~May. |
 | 9 | BLS data degradation | **4** ↑ | 🔴 | JOLTS Jan delayed. DHS suppression. **BLS language "changed little on net in 2025" = phantom job acknowledgment.** NFP -92K vs +130K prior = data volatility. | BLS staff cuts → 5 |
 | 10 | ISM employment | **3** | 🟠 | Mfg 48.8 (28mo <50). Services 51.8 (expansion). | Mfg <47 OR Services <50 → 4. Both <50 → 5 |
 | 11 | Staffing canaries (RHI/KFRC) | **2** | 🟡 | Sequential+ first time in 12Q. Counter-signal. | Q1 miss + sequential negative → 4. 2Q recovery → 1 |
 
-**Total: 43/55** ↑ | 🔴🔴: 2 | 🔴: 7 | 🟠: 1 | 🟡: 1 | ⚪: 0 | **Overall: 🔴🔴 MAXIMUM CONVICTION DETERIORATION** — shadow gap CONFIRMED. NFP -92K = resolution event. Vector 9 upgraded.
+**Total: 44/55** ↑ | 🔴🔴: 3 | 🔴: 6 | 🟠: 1 | 🟡: 1 | ⚪: 0 | **Overall: 🔴🔴 MAXIMUM CONVICTION DETERIORATION** — FL Wave 1 fires tomorrow. 3 vectors at max. Shadow gap confirmed. ICE construction raids = new supply shock overlaying demand deterioration.
 
 ---
 
@@ -127,7 +143,7 @@
 | **JOLTS Jan 2026** | **6.95M / hires 3.3%** | 🟠 | [CONF] BLS Mar 13. Openings beat, hires flat (cycle low). O/U ratio 0.93. |
 | **Challenger YTD** | **156,742 (5th since 2009)** | 🔴 | [CONF] Hiring plans -56% YoY. |
 | **DOGE / WARN** | **327K fed + 766/91,190 WARN** | 🔴 | [CONF] Pace ~7 notices/day. Shadow gap confirmed (LAB-09 ✅). |
-| **Hormuz** | **CLOSED Mar 3** | 🔴 | [CONF] Oil $100+. Hiring paralysis structural through H1. |
+| **Hormuz** | **CLOSED Mar 3** | 🔴 | [CONF] Oil whipsaw $112→$96→$104 (Mar 23). Gas $3.96/diesel $5.29 (AAA). $4 behavioral breakpoint imminent. Iran denying talks — 5-day strike pause only. |
 | **GDP Q4 2025 (2nd Est.)** | **+0.7%** (from +1.4% advance) | 🔴 | [CONF] BEA Mar 14. Federal spending -16.7% (-1.16pp). Consumer spending 2.4%→2.0%. Exports -3.3%. Full year 2025: 2.1%. Economy entered Hormuz oil shock at near-stall speed. Confirms DOGE/shutdown in macro data. |
 | **CPI Feb 2026** | **+2.4% YoY / +0.3% MoM** | 🟠 | [CONF] BLS Mar 12. In-line. Core +0.2%, 2.5%. Apparel +1.3% = tariff bleed-in. PRE-Hormuz stale data. Market sold off pricing forward oil shock. Fed trap tightens: can't cut into worsening inflation. |
 | **NFIB Poor Sales Feb 2026** | **11%** (r=0.83 U-3) | 🔴 | [CONF] NFIB Feb 2026. 4th most-cited problem. Tripled in 3 yrs. Near 2020 highs. At recession-entry levels. **Leading indicator — small biz largest employer cohort. Layoffs follow poor sales with 1-2Q lag.** PRE-Hormuz/oil shock. Implies U-3 trajectory toward 5%+. Directly correlated with IWM fundamental deterioration. Cross: IWM bear, LAB-12 new prediction. |
@@ -135,11 +151,11 @@
 | **Continuing Claims (threshold)** | **1,868K** | 🟠 | [CONF] BLS Mar 5 (DHS suppression). 32K from YELLOW (1,900K). First clean read tomorrow — risk of gap-through. |
 | Cass Freight Jan 2026 | Cycle low (Feb report pending) | 🟠 | [CONF] Cass Jan 2026 published. Feb 2026 report NOT YET PUBLISHED (checked Mar 15). |
 | **DHS Paycheck Miss** | **SECOND CONSECUTIVE** | 🔴 | [CONF] NPR/CNN/Daily Mail Mar 13-14. First FULL paycheck missed weekend Mar 13-14. "Hundreds quitting." Airport chaos confirmed. Cumulative spending shock ~$300-400M. Cross: CARL urgent. |
-| **Shutdown Duration** | **Day 35 (Mar 19)** | 🔴🔴 | [CONF] Senate returned, FAILED again (4th block). Recess Mar 30-Apr 10 = 60+ days if no deal this month. Kalshi median: through Apr 13. 2nd-longest shutdown in history approaching. Mar 19 claims STILL suppressed. |
+| **Shutdown Duration** | **Day 39 (Mar 23)** | 🔴🔴 | [CONF] Mullin cloture 54-37 Mar 22. Final vote Mon/Tue. BUT funding still separate. Recess Mar 30 = 7 days. Approaching longest shutdown ever. DHS workers nearing 3rd missed paycheck. |
 | **JOLTS Quits Rate** | **2.0% (7 consecutive months)** | 🔴 | [CONF] BLS/Indeed Hiring Lab Mar 13. Quits 3.1M flat. Govt/financial/mfg below 1.5%. Hotel California structurally confirmed. |
-| **FL UI Wave 1 Block** | **NO BLOCK** | 🔴 | [CONF] Mar 15 research. HB 191 TIGHTENS UI (not extends). Wave 1 exhaustion Mar 24 = LOCKED IN. |
+| **FL UI Wave 1 Block** | **NO BLOCK — FIRES TOMORROW** | 🔴🔴 | [CONF] Mar 15 research + Mar 23 recheck. HB 191 TIGHTENS UI. Wave 1 exhaustion Mar 24 = T-1. Vector 8 → 5. |
 | **Schedule Policy/Career Injunction** | **NO INJUNCTION** | 🔴 | [CONF] Mar 15 research. Oral arg on PI scheduled Mar 18. RIF cascade proceeding unblocked. |
-| **Shunto 2026 Demand** | **5.94% (¥19,506/mo)** | 🟠 | [CONF] Japan Times Mar 6. Just below 6.0% BOJ threshold. Settlements pending. Nomura forecast actual ~5.0%. |
+| **Shunto 2026 First Round** | **5.26% actual** | 🟡 | [CONF] Rengo Mar 23. Below 6.0% BOJ threshold. 3rd year >5%. No forced BOJ action. April hike still possible but data-dependent. |
 | Google "Severance" | 100 | 🔴 | [CONF] Google Trends. ALL-TIME HIGH. |
 | Tech Insider Sell/Buy | 14.08x | 🔴 | [CONF] own analysis. vs 2.5x non-layoff peers. 3-6mo leading. |
 | **NFP Feb Consensus** | **+58-65K** | 🔴 | [EST] MarketPulse/OANDA Mar 5. Kiplinger: +35K. Apollo: 100-130K. Our model: 75-110K. Mar 6 8:30 ET. |
@@ -284,10 +300,10 @@ Archives: `domain/sources/STATUS_archive_*` | `STAFFING_PRESIGNAL_DEEP_DIVE.md` 
 
 ---
 
-*Next triggers: **Mar 20-26: Schedule Policy/Career ruling PENDING** | **Mar 23: Rengo first-round wage tally** | **Mar 24: FL UI exhaustion Wave 1 (T-4)** | **Mar 26: Weekly claims (week ended Mar 21 — first post-FOMC read)** | Mar 27: Rengo second-round tally | **Mar 30: Senate recess (shutdown auto-extends to 60+ IF no deal)** | Apr 1: Tankan | **Apr 3: NFP Mar 2026 (healthcare strike reversal test)** | Apr: RHI/KFRC Q1 earnings | **Apr 26: FL Wave 2 peak** | Aug 2026: CA/NY UI exhaustion*
+*Next triggers: **Mar 24: 🔴 FL UI exhaustion Wave 1 FIRES** | **Mar 24-25: Mullin DHS confirmation vote** | **Mar 23-28: Schedule Policy/Career ruling PENDING (Day 5+)** | **Mar 27: Weekly claims (week ended Mar 22)** | Mar 27: Rengo second-round tally | **Mar 28: Trump Iran strike pause expires (5 days from Mar 23)** | **Mar 30: Senate recess (shutdown auto-extends to 60+ IF no deal — 7 days)** | Apr 1: Tankan | **Apr 3: NFP Mar 2026 (healthcare strike reversal test)** | Apr: RHI/KFRC Q1 earnings | **Apr 26: FL Wave 2 peak** | Aug 2026: CA/NY UI exhaustion*
 
 ---
 
 ## BOTTOM LINE
 
-**NFP -92K confirmed shadow payroll gap. Valve broke.** Structural -64K after stripping healthcare strike (-28K). U-3 4.4% climbing. 1.9M long-term unemployed (+400K YoY). WARN→payroll r=0.78 validated. Fed trapped: -92K payrolls vs PCE 2.9% + Hormuz oil spike. 401(k) hardship withdrawals at record 6% (last-resort indicator). Consumer stress chain fully loaded. DD-3: demand destruction arrives 2-3mo, not 4+. **Critical risk:** Healthcare strike reversal in March NFP could produce +100-130K — bounce risk, not structural improvement. Watch sector detail. **This week:** FOMC/claims/BOJ triple event Wed. Schedule Policy/Career oral arg Tue. ADP Pulse pending. FL Wave 1 T-7.
+**Three vectors now at maximum (5/5): WARN pipeline, DOGE, and FL UI exhaustion (fires tomorrow).** 44/55 total score. FL Wave 1 is the transmission trigger — 12-week benefit exhaustion for the WARN surge cohort with zero safety net. CC delinquency spike follows ~60 days (May). Meanwhile: shutdown Day 39 with recess in 7 days, ICE raids physically emptying construction sites (supply shock on top of demand shock), oil whipsawing $96-$114 with $4/gas breakpoint imminent, and Schedule Policy/Career ruling could drop any day (5 days post-argument). **This week's claims (Thu Mar 27) still DHS-suppressed — real signal won't emerge until shutdown resolves.** Key watch: does Mullin confirmation (Mon/Tue) create political cover for a funding deal before Mar 30 recess? If not, 60+ day shutdown locked in. **Healthcare strike reversal risk in Apr 3 NFP remains the thesis bounce risk — structural deterioration confirmed regardless.**

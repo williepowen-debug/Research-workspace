@@ -1,62 +1,29 @@
-# REGINALD OUTBOX
-**Written:** 2026-03-21 02:14 UTC | **Processed:** 4 inbox files
+# REGINALD Inbox Backlog Processing — Mar 23, 2026
 
----
+**Processed:** 10 signals (Mar 6–20) → all moved to `mail/inbox/processed/`
+**Outbox signals written:** 0 (no threshold-crossing events)
 
-## What Changed in STATUS.md
+## Summary
 
-### 1. Header Updated
-- Date bumped to 2026-03-21 02:14 UTC
-- Header now includes: FOMC stagflation confirmed, $875B CRE maturity wall (MBA), FHLB +31% YoY, reserves $2.8T 4yr low
+**All 10 signals were ALREADY integrated into STATUS.md** via other paths (direct research, CARL cross-agent alerts, Mar 17 SIG batch, Mar 19-20 live updates). No STATUS updates needed.
 
-### 2. SIGNAL DASHBOARD — 3 New Rows Added
-| Added | Value |
-|-------|-------|
-| FHLB Advances | Updated: +31% YoY, 77% simple floaters — contingency behavior flag |
-| Fed T-Bills (FHLB/Fed) | $352B — exceeds 2020 COVID peak (stealth liquidity injection) |
-| Bank Reserves | $2.8T 4yr low, G-SIB concentrated; regionals approaching LCLoR |
-| CRE Maturity 2026 | $875B MBA data — $396B at depositories; hotel/motel 30% rate highest |
+### Signal-by-Signal:
 
-### 3. THESIS TABLE — CMBS Maturity Row Updated
-- `$76.6B CMBS hard maturity` → expanded to include MBA $875B breakdown
-- Credit companies 29% maturity rate flagged as Memo Item 3 hiding vector
-- Upgraded to 🔴🔴
+| Signal | Source | Verdict |
+|--------|--------|---------|
+| LIQUID NFP bank credit facility stress (Mar 6) | LIQUID | ✅ Already in STATUS — SOFR -1bp, HY OAS 328 tracked |
+| NFP -92K bank stress (Mar 6) | LABOR | ✅ Already in STATUS — DOGE 307K+, federal channel 🔴 FIRED |
+| Federal MSA banking exposure (Mar 9) | PROME/Gemini | ✅ Already in STATUS — EGBN DC 100%, federal worker DQ timeline Jun-Sep |
+| 8-K forced disclosure framework (Mar 9) | PROME/Gemini | ✅ Research methodology — OZK Apr 16, WAL ~Apr 22-24 already in catalysts. 8-K watch windows (Mar 25+) are useful detail but stored in research, not STATUS-level |
+| Kennedy-Wilson creditor revolt (Mar 9) | PROME | ✅ Already captured — extend-and-pretend breaking theme throughout STATUS |
+| Vegas 19% cancellation rate (Mar 9) | PROME | ✅ Low-priority — housing stress extensively covered (Google Trends ATH, existing sales at 2008 trough). Vegas specific data is minor addendum |
+| Subprime auto 7.1% + EM contagion (Mar 9) | CARL | ✅ Already in STATUS — auto ABS 7.1% ATR in cross-agent triggers, HY OAS trajectory tracked |
+| OTTO Tricolor/MFS/Barclays (Mar 11) | OTTO | ✅ Already in STATUS — MFS £2B, Barclays £600M, WAL $126.4M, Jefferies chain all covered |
+| Kennedy-Wilson bondholder revolt (Mar 11) | Duplicate | ✅ Same signal as Mar 9 delivery, already integrated |
+| H.8 Mar 20 release flag | System | ✅ Already in STATUS — H.8 systemic masking section (C&I +14.4% vs CRE +1.1%) covers this. New H.8 data TBD but flag itself is stale |
 
-### 4. CARL Cross-Signal Section — Updated
-- Scenario probabilities updated: Stagflation 65% (↑5%), GCC destab 12% (↑7%), Soft landing 2% (↓3%)
-- CARL watch requests logged: C&I loan demand tightening, auto ABS charge-off accel, subprime auto regional exposure, HY OAS 350 freeze threshold
-- HY OAS pull-back noted: 320 (Mar 20) vs 328 peak — trajectory still widening
+### Anything Missed?
+**No.** STATUS.md as of Mar 21 is comprehensive. All 10 signals were captured through direct research sessions or cross-agent updates that occurred between Mar 6-20. The mail system lagged behind real-time integration — this is expected during high-activity periods.
 
-### 5. CROSS-AGENT TRIGGERS — 2 New Rows
-- C&I loan demand tightening (CARL watch, post-FOMC)
-- Auto ABS charge-off >7.1% (subprime ATR — Q1 earnings window)
-
-### 6. FHLB Trigger — Updated
-- `🟡 Watch` → `🟠 Escalating — regionals at LCLoR`
-
-### 7. CREED Sub-Agent Row
-- `$936B maturity wall` corrected to `$875B CRE maturity wall (MBA confirmed)`
-
----
-
-## Key Integration Notes
-
-**FOMC (Mar 18):** Already captured in MAR 19 AM section. CARL cross-signal provided additional scenario probability updates — integrated.
-
-**CRE Maturity $875B:** This is the most structurally important new data. MBA primary source. $396B at depositories directly threatens KRE thesis bank watchlist. Hotel/motel 30% rate = highest property type = acute near-term stress. Credit companies 29% = Memo Item 3 hiding vector confirmed from a second angle.
-
-**FHLB/Reserve Stress:** The +31% surge with 77% floaters is contingency borrowing behavior — banks are quietly stress-funding. Fed T-Bills $352B exceeding COVID peak = stealth liquidity injection that surface indicators (SOFR, EFFR) are masking. Regionals approaching LCLoR → when they hit it, C&I/CRE lending stops → defaults accelerate. Directly amplifies $875B maturity wall risk.
-
-**CARL Consumer Double-Bind:** No new REGINALD-specific data beyond what was already in MAR 19 section, but scenario probabilities updated and watch items formally logged. HY OAS 320 (pulled back from 328) — still above 320 threshold.
-
----
-
-## Files Moved to Processed
-- `inbox/FOMC_MAR18_SIGNAL.md` → `inbox/processed/`
-- `inbox/SIG-CARL-20260319-consumer-double-bind-gulf.md` → `inbox/processed/`
-- `inbox/SIG-REGINALD-20260313-cre-maturity-wall-875b.md` → `inbox/processed/`
-- `inbox/SIG-REGINALD-20260313-fhlb-surge-bank-funding.md` → `inbox/processed/`
-
----
-
-## STATUS Line Count: 302 (target <300; within 1% — no substance cut to hit number)
+### Note
+The 8-K forced disclosure framework (Mar 9) contains valuable research methodology (FDIC Call Report hierarchy, "well-secured" loophole, TDR surge patterns) that lives in research outputs rather than STATUS. Worth referencing during OZK Apr 16 pre-earnings analysis starting ~Mar 25.

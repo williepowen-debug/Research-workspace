@@ -161,6 +161,8 @@ BRENT operational as of Mar 6. Division of labor:
 - [ ] USDA Prospective Plantings Mar 31
 - [ ] Gas $4 breakpoint — possible this weekend
 - [ ] FL UI exhaustion cliff — Monday Mar 24
+- [ ] **Taiwan LNG:** JKM spot price (leading proxy); CPC emergency tenders; Taipower reserve margin. Stage 1 (JKM spike) likely reached. TSMC output cut = systemic accelerant → alert Will immediately. (Framework: inbox signal Mar 14)
+- [ ] **Fertilizer/food supply:** Urea exports crashed to ~1.9Mt (Mar) vs ~3.5Mt baseline (-45%). Brazil grain exporters went NO BID (unprecedented). Compound shock: Hormuz + China export restrictions + affordability already at limit pre-war.
 
 ---
 

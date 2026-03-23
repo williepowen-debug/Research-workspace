@@ -1,5 +1,5 @@
 # LIQUID STATUS
-**Last Updated:** 2026-03-20 20:30 UTC | **Agent:** LIQUID | **Status:** 🔴🔴🔴 MAXIMUM STRESS — HORMUZ BLOCKADE CONFIRMED + FLIGHT-TO-SAFETY RALLY + STAGFLATION TRAP TIGHTENING + FOMC CUT PRICED 86.4%
+**Last Updated:** 2026-03-23 13:37 UTC | **Agent:** LIQUID | **Status:** 🔴🔴🔴 MAXIMUM STRESS — HORMUZ BLOCKADE + GLOBAL YIELD REVERSAL + STEALTH LIQUIDITY INJECTION + CONSUMER CREDIT CRACKING
 
 ---
 
@@ -16,6 +16,22 @@
 - **VIX:** Was 25.09 Mar 19 close. Today likely higher — confirming coiled spring thesis. Exact close unavailable.
 - **RRP:** No fresh print. Last confirmed $0.278B (Mar 10). Buffer remains GONE. Quarter-end Mar 31 still the critical date.
 - **SOFR:** 3.65% [Mar 12 — stale]. Awaiting FRED update. 30-day avg SOFR ~4.144% per Pensford (reflects current rate environment).
+
+### Mar 21 — Global Yield Reversal (NEW — processed Mar 23)
+- **10Y yield:** 4.382% (+13.2bps) — flight-to-safety REVERSED. Globally synchronized selloff.
+- **UK 10Y:** +16.8bps (leading EMEA). Italy 10Y +16.3bps. Canada 2Y +17.5bps.
+- **Japan:** Flat (BOJ intervention?). China: slight bid (-0.2 to +0.2bps).
+- **Interpretation:** Inflation expectations repricing worldwide on energy shock. Duration = no safe haven. Supports structural seller thesis.
+
+### Stealth Liquidity Signals (NEW — processed Mar 23)
+- **Fed T-Bill purchases:** $358B (Mar 12) — exceeds Mar 2020 COVID peak ($325B) and Sep 2019 repo crisis. Steep ramp from $195B (Dec 8). Fed pre-positioning for stress while publicly maintaining QT. Major divergence.
+- **FHLB issuance:** +31% YoY ($269B/mo Jan-Feb 2026 vs $205B/mo 2025). Discount notes +35%. 77% simple floaters (vs 59%). Avg trade size $264M vs $167M. Banks quietly maxing no-stigma funding — SVB-era pattern.
+- **JPM private credit:** Marking down software loan collateral, restricting further lending to PC funds. HLEND gated, BCRED 7.9% redemptions. Bank → PC fund leverage restriction = systemic credit tightening channel. CLO arranger pause risk rising.
+
+### Consumer Credit Cracking (NEW — processed Mar 23)
+- **OTTO (Mar 17):** RV market -50% value loss, auto ownership "breaking point" (FT), subprime auto DQ 7.1% (RED). Durable goods demand destruction underway.
+- **CARL (Mar 19):** $4+ gas + no rate cuts + PPI pipeline = consumer stress amplification. Bottom 60% ABS pools: DQ acceleration Q2 primary. HY OAS velocity was +5bps/day pre-FOMC. Two paths converging May-June: gas behavioral breakpoint + UI exhaustion wave.
+- **Amplification risk:** If SPX breaches 6,600 → wealth effect + consumer credit stress = feedback loop into HY OAS.
 
 ---
 
@@ -130,6 +146,9 @@ BCRED $3.8B redemptions (7.9%) met via self-injection in Q1. Q2 = structural tes
 | DIFC transmission | 🔴 ACTIVE — Citi/StanChart/HSBC evacuated | `workbook/DIFC_TRANSMISSION_MAR11.md` |
 | Stagflation trap | 🔴 CONFIRMED energy-independent | `workbook/STAGFLATION_TRAP_MAR11.md` |
 | VIX coiled spring | 🟠 False calm at 24-25 | `workbook/VIX_COILED_SPRING_MAR11.md` |
+| Stealth liquidity | 🔴 Fed T-Bills $358B (>2020), FHLB +31% | Inbox signals Mar 11-13 |
+| Consumer credit | 🔴 Subprime auto DQ 7.1%, ABS DQ accelerating Q2 | OTTO/CARL signals Mar 17-19 |
+| Global yield reversal | 🔴 Synchronized selloff Mar 21, 10Y→4.382% | Bloomberg Mar 20-21 |
 | All vectors + thresholds | — | `workbook/VX.tsv` |
 | Transmission flows | — | `workbook/FLOW.tsv` |
 | Mar 12-17 updates | — | `archive/STATUS_mar12_mar17.md` |

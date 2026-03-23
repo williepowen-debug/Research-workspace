@@ -1,15 +1,18 @@
 # CARL STATUS
-**Updated:** 2026-03-21 01:30 UTC (Pruned — archive: `workbook/STATUS_archive_mar1_mar15.md`)
+**Updated:** 2026-03-23 13:15 UTC (Pruned — archive: `workbook/STATUS_archive_mar1_mar15.md`)
 
-**Overall Status:** 🔴🔴 CRITICAL — Phase change Mar 18. FOMC hold (hawkish, 1 cut median) + Gulf military escalation (Brent $108+, Ras Laffan burning) = consumer double-bind LOCKED. Gas $3.91→$4 days away. Diesel >$5. No monetary relief valve. Subprime auto 7.1% ATR breached. Convergence 42/50.
+**Overall Status:** 🔴🔴 CRITICAL — Phase change Mar 18. FOMC hold (hawkish, 1 cut median) + Gulf military escalation (Brent $108+, Ras Laffan burning) = consumer double-bind LOCKED. Gas $3.91→$4 days away. Diesel >$5. No monetary relief valve. Subprime auto 7.1% ATR breached. **NEW: "Help with mortgage" Google Trends at ALL-TIME HIGH (surpasses GFC).** Lennar gross margin 15.2% (lowest since 2010). Housing stress activating Path C BEFORE mass employment crack — thesis evolution. Convergence 43/50.
 
 ---
 
 ## CHECK-IN — Mar 20 (8:15 AM ET)
 
-### 1. New Data Since Mar 19
+### 1. New Data Since Mar 20
 | Item | Data | Source |
 |------|------|--------|
+| **🔴 "Help with mortgage" — ALL-TIME HIGH** | Google Trends surpasses GFC peak. Vertical spike. 181K views on Barchart post. | Barchart/Google Trends, Mar 22 |
+| **Lennar Q1 gross margin: 15.2%** | Lowest since Q1 2010 (GFC trough 6.5%). Down from 21.8% YoY. Revenue/sqft falling = pricing power gone. | ResiClub/Lennar earnings, Mar 12 |
+| **OTTO: Subprime auto 7.1% + SoFi CNL 2.6%** | Already in dashboard. OTTO requests ABS sprint on Upstart/LendingClub/Prosper CNL proximity. | SIG-OTTO-20260312 |
 | **Student Loan Default — RECORD** | 7.7M defaulted on $181B. 11.6M seriously delinquent/defaulted (27% of 43M). SAVE plan court-ordered end → 7M more forced to resume. | NYT / Ed Dept / NPR, Mar 20 |
 | **Gas: $3.91 national** | +$0.12 from $3.79 Mar 17 (+$0.04/day). **$4 breakpoint ~2-3 days.** | AAA Mar 20 |
 | **Diesel: $5.10 national** | Sustained >$5 since Mar 18. | MacroMicro AAA |
@@ -66,6 +69,8 @@
 | Foreclosures Q4 | **58,140** | 🟠 +41% YoY, target 70K/qtr | ATTOM |
 | FL Foreclosures YoY | **+190%** | 🔴 Cure rate collapsed | ATTOM |
 | ICE Mortgage 30+ DQ | **3.65% Jan** | 🟠 850K in 90+/foreclosure (highest since Jul 2022) | ICE Feb 26 |
+| "Help with mortgage" Trends | **ALL-TIME HIGH** | 🔴🔴 Surpasses GFC. Leading soft indicator. | Google Trends Mar 22 |
+| Lennar Gross Margin | **15.2% Q1** | 🔴 Lowest since 2010. Builder pricing power gone. | ResiClub Mar 12 |
 
 ### Macro / Energy / Stress
 | Metric | Value | Status | Source |
@@ -97,9 +102,9 @@
 | 7 | FL Triple Squeeze | 🔴 4 | Energy + HOA + Insurance. Migration -93%. |
 | 8 | Reverse Wealth Effect | 🔴🔴 5 | RV crash + upper income pullback. Max. |
 | 9 | K-Shape CONVERGING | 🔴🔴 5 | Both cohorts moving DOWN simultaneously. Max. |
-| 10 | Foreclosure Acceleration | 🟠 3 | 58,140 (+41% YoY). Q1 >65K = 4. |
+| 10 | Foreclosure Acceleration | 🔴 4 | 58,140 (+41% YoY). "Help with mortgage" ATH = leading indicator upgrade. Q1 >65K = 5. |
 
-**Total: 42/50 → 🔴🔴 CRITICAL. Four at max (5), four RED (4), two ORANGE (3).**
+**Total: 43/50 → 🔴🔴 CRITICAL. Four at max (5), five RED (4), one ORANGE (3).**
 
 ---
 
@@ -115,7 +120,7 @@
 **Transmission paths:**
 - **A:** Employment → Subprime stress → Banks (via REGINALD)
 - **B:** SPX decline → Reverse wealth effect → Top 60% pulls back (6-8wk lag)
-- **C:** Housing → Banks directly (bypasses consumer credit)
+- **C:** Housing → Banks directly (bypasses consumer credit) **← ACTIVATING: mortgage distress ATH + Lennar margin collapse = housing cracking under cost burden BEFORE mass employment crack. Path C running parallel with Path A, not sequential.**
 - **F:** AI displacement → Prime mortgage stress → Banks
 - **PC:** Private credit freeze → Middle-market layoffs → Q3 consumer conversion
 
@@ -210,7 +215,7 @@
 
 ## BOTTOM LINE
 
-**Phase change Mar 18.** FOMC hold (hawkish, 1 cut median) + Gulf military escalation (Ras Laffan burning, Brent $108+) = consumer double-bind LOCKED with no relief valve. Gas $3.91 hitting $4 behavioral breakpoint this weekend, coinciding with UI exhaustion cliff Mar 24. Savings buffer 3.6% (2008 match). HY OAS 328 with no policy backstop → trajectory toward 350+ (systematic credit tightening). Fertilizer triple seizure (China halt + Gulf offline + Fertiglobe trapped) pulling food CPI to Q2-Q3. K-shape now CONVERGING downward — both upper and lower income cohorts cutting simultaneously removes the offset. Convergence 42/50, four vectors at max. **Q2 2026 is the primary DQ conversion window.**
+**Phase change Mar 18.** FOMC hold + Gulf escalation = consumer double-bind LOCKED. Gas $3.91→$4 behavioral breakpoint this weekend + UI exhaustion cliff Mar 24 = dual stress event. **NEW thesis evolution Mar 23:** "Help with mortgage" Google Trends at ALL-TIME HIGH (surpasses GFC) + Lennar margin collapse to 15.2% (lowest since 2010) = **Path C activating.** Housing is cracking under cost burden (rates 6.86% + energy + insurance) BEFORE mass employment crack. This means employment is not the sole detonator — housing stress is running parallel. Convergence 43/50, five vectors at RED (4), four at max (5). **Q2 2026 is the primary DQ conversion window. Path C may accelerate bank transmission timeline.**
 
 ---
 

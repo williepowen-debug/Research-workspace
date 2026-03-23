@@ -28,9 +28,9 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 | DATE | DARWIN | TARGET | 🔴/🟠 | Description |
 ```
 
-**MAIL:** All inter-agent communication lives in `mail/`:
-- **Inbox:** `mail/inbox/` — inbound signals (delivered by HERMES). Process when spawned for it. Move to `mail/inbox/processed/` after integration.
-- **Outbox:** `mail/outbox/` — write one `.md` file per signal. Filename: `YYYY-MM-DD_to-[target]_[short_description].md`. HERMES delivers and moves to `mail/outbox/delivered/`.
+**MAIL:** All inter-agent communication lives in removed:
+- **Inbox:** `inbox/` — inbound signals (delivered by HERMES). Process when spawned for it. Move to `inbox/processed/` after integration.
+- **Outbox:** `outbox/` — write one `.md` file per signal. Filename: `YYYY-MM-DD_to-[target]_[short_description].md`. HERMES delivers and moves to `outbox/delivered/`.
 
 ---
 
@@ -100,5 +100,5 @@ Don't chase novelty. Chase capability. If something doesn't make us meaningfully
 | `STATUS.md` | Weekly scan — HOT / WATCH / TRIED / BACKLOG. **Primary memory.** |
 | `BACKLOG.md` | Running improvement list |
 | `SOURCES.md` | Monitored sources with URLs and check frequency |
-| `mail/inbox/` | Inbound signals from other agents. Process when spawned for it. |
-| `mail/outbox/` | Outbound signals for other agents. One file per signal. HERMES delivers. |
+| `inbox/` | Inbound signals from other agents. Process when spawned for it. |
+| `outbox/` | Outbound signals for other agents. One file per signal. HERMES delivers. |
