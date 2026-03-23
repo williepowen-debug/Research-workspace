@@ -9,15 +9,15 @@
 | Date | Event | Owner | Priority |
 |------|-------|-------|----------|
 | **3/23** | **Gas $4.00 behavioral breakpoint (imminent)** | CARL | 🔴🔴 |
-| 3/23 | Rengo shunto wage tally (round 1) | SAM | 🟠 |
+| 3/23 | ~~Rengo shunto wage tally (round 1)~~ | SAM | ✅ 5.26% |
 | **3/24** | **FL UI exhaustion Wave 1 — consumption cliff** | LABOR/CARL | 🔴 |
 | **3/24** | **Trump 48hr ultimatum to Iran expires (~evening ET)** | HAWK | 🔴🔴 |
-| **3/25** | **Jefferies Q1 earnings — WAL double-pledging exposure** | REGINALD | 🔴 |
+| **3/25** | **Jefferies Q1 earnings (after close) — WAL double-pledging exposure** | REGINALD | 🔴 |
 | **3/26** | **ARESSI flow data — BROCK PC catalyst** | BROCK | 🔴 |
 | 3/27 | OBDCII reporting window opens (through Apr 3) | BROCK | 🔴 |
-| 3/28 | PCE (Feb) — likely hot given PPI +0.7% | HENRY | 🔴 |
+| 3/28 | Initial Claims | HENRY | 🟠 |
 | 3/27 | Rengo wage tally (round 2) | SAM | 🟠 |
-| 3/27 | USO $118C Mar 27 expiry — **CUT recommended** | PROME | 🔴 |
+| 3/27 | USO $118C Mar 27 expiry — **HOLDING (Hormuz still closed)** | PROME | 🔴 |
 | 3/28 | DHS paycheck miss (Day 41, pre-recess) | MARCO | 🟠 |
 | 3/30 | Senate recess → shutdown auto-extends to 60+ | MARCO | 🟠 |
 | **3/31** | **Q1 end — WTI close = NOPI magnitude** | BRENT | 🔴🔴 |
@@ -34,6 +34,7 @@
 | 4/1 | Japan FY-end repatriation begins | SAM | 🔴 |
 | **4/2** | **OWL $9.5P Apr 2 expiry** | PROME | 🔴 |
 | **4/3** | **NFP (Mar) + FAO food price index — depletion clock #2** | HENRY/HAWK | 🔴 |
+| **4/9** | **PCE (Feb) + GDP Q4 third estimate** | HENRY | 🔴 |
 | 4/10 | CPI (Mar) | HENRY | 🟠 |
 | 4/14 | Planting deadline — depletion clock #3 | HAWK | 🔴 |
 | 4/15 | Tax Season / TGA rebuild | LIQUID | 🟠 |
