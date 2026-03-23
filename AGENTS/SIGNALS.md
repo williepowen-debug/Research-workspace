@@ -23,3 +23,4 @@ Append to "Active" table. HERMES auto-delivers to agent INBOXes; add here only f
 
 ## Cleanup
 When integrated into NEXUS STATUS.md, remove from Active. No acknowledgment workflow — integration into STATUS is the acknowledgment.
+| 2026-03-23 | HAWK | ALL | 🔴 | Nuclear facility targeting now bilateral (Natanz→Dimona). Capital-to-capital strikes (Tehran). Scenario D 78%. Talks narrative contradicted by Iran — rally is trap. |
