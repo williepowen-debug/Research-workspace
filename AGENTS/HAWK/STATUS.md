@@ -1,36 +1,33 @@
 # HAWK STATUS
 **Agent:** HAWK (Gulf Energy Infrastructure & Oil Market)
-**Last Updated:** 2026-03-23 02:10 UTC
-**War Day:** 22 | **Scenario:** D 72% / C 26% / B 2%
+**Last Updated:** 2026-03-23 16:55 UTC
+**War Day:** 24 | **Scenario:** D 78% / C 20% / B 2%
 **Convergence:** 45/45 🔴🔴 MAXIMUM
 
 ---
 
 ## Current Situation Summary
 
-Gulf energy conflict has escalated from targeted strikes to systematic campaign severing all remaining crude export routes. **Yanbu is now under active threat** — Iran's attempt to shut Saudi Arabia's last functioning export outlet.
+Gulf energy conflict has crossed into **capital-to-capital direct strikes and nuclear facility targeting**. This is no longer a contained military operation — it is a full regional war with nuclear escalation risk.
 
 **Escalation phases:**
 - Phase 1: Hormuz closure cuts ~20% of global oil trade
 - Phase 2: Gulf state refinery/facility strikes degrade processing capacity
-- Phase 3 (NOW): Active campaign against Yanbu — Saudi's only remaining export chokepoint
+- Phase 3: Campaign against Yanbu — Saudi's only remaining export chokepoint
+- Phase 4 (NOW): **Capital strikes (Tehran) + nuclear facility targeting (Dimona) + multi-front coordination**
 
-**Day 21 key developments (Mar 20):**
-- Iran hit 3 countries simultaneously (KSA, UAE, Qatar) Mar 18-19
-- Yanbu under active attack — Saudi's last export route
-- Iraq force majeure on all foreign-operated oilfields (Mar 20, First Squawk — UNVERIFIED)
-- Hormuz: 5-6M bpd vs 20M normal → gap 16-18M bpd
-- Infrastructure damage structural: 80-85% capacity Q4 best case
-- Seven depletion clocks running (Perera): planting/USDA/FAO/pharma/China/helium/insurance
-- SPX broke 200-DMA at 6,606 — equities catching up to credit/energy signal
+**Day 24 key developments (Mar 23) — CRITICAL ESCALATION:**
+- **Israel conducting "wide-scale wave of strikes" on Tehran** — IDF confirmed, Reuters confirmed, two rounds within hours. Al Jazeera: "unprecedented." Targets: infrastructure in capital.
+- **Iran struck near Dimona (Israel's nuclear reactor/research site)** — 180 injured. Iranian state media says targeted nuclear facility in retaliation for Natanz. **Missiles penetrated Israeli air defenses.** Nuclear threshold crossed.
+- **Hezbollah + Iran joint multi-vector attack on northern Israel** — full proxy coordination, simultaneous strikes.
+- **Trump claimed "productive talks" + POSTPONED US power plant strikes by 5 days** (new deadline ~Mar 28). Markets rallied on "talks" narrative.
+- **Iran DENYING any talks exist.** The rally is built on a narrative directly contradicted by the party allegedly negotiating AND by active combat in Tehran/Dimona simultaneously.
+- **Net: US delayed its strikes, but Israel escalated independently. Iran counter-escalated to nuclear-adjacent targeting. Diplomacy narrative is unverified at best, fabricated at worst.**
 
-**Day 22 key developments (Mar 22-23) — ESCALATION WEEKEND:**
-- **Trump 48-hour ultimatum (Sat 3/22):** Reopen Hormuz or US destroys Iranian power plants. Deadline: ~Mon 3/24 evening.
-- **Ghalibaf response #1 (kinetic):** Attack power plants → Iran strikes energy/oil facilities across entire Middle East. Counter-threat explicit and public.
-- **Ghalibaf response #2 (FINANCIAL — NEW DOMAIN):** UST buyers declared "legitimate military targets." Statements: "financial institutions that fund U.S. military budget are legitimate targets"; "we monitor your investment portfolios"; "this is your final notice." 743K views.
-- **Ghalibaf credibility:** Iran Parliament Speaker, former IRGC commander. Post-Khamenei killing, one of the most powerful institutional voices remaining in Iran. This is NOT fringe rhetoric.
-- **New escalation vector:** War has now explicitly crossed into financial domain. UST demand is now a declared battleground.
-- **Scenario D raised to 72%** — ultimatum/counter-ultimatum dynamic, financial targeting rhetoric, no diplomatic channel visible.
+**Day 22 developments (Mar 22-23) — retained:**
+- Trump 48-hour ultimatum (now postponed/extended to ~Mar 28)
+- Ghalibaf kinetic + financial counter-threats (UST buyers = military targets)
+- **Scenario D raised to 78%** — Dimona targeting is the key new variable. Nuclear facility strikes by both sides (Natanz → Dimona) = nuclear escalation ladder actively being climbed.
 
 **Canonical damage tracker:** `HAWK/domain/OIL_FACILITY_DAMAGE_TRACKER.md`
 
@@ -56,12 +53,13 @@ Gulf energy conflict has escalated from targeted strikes to systematic campaign 
 | Scenario | Prob | Duration | Oil (Brent) | VIX | Key Condition |
 |----------|------|----------|-------------|-----|---------------|
 | **A — Surgical** | 0% | Closed | N/A | N/A | Window closed Day 17+; Fujairah destroyed |
-| **B — Sustained** | 2% ↓ | Months min | $90-115 | 35-45 | Requires Iran stand-down + rebuild. Diplomatic paths nearly eliminated. |
-| **C — Full Escalation** | 30% ↓ | 6-12 months | $120-170 | 45-65 | 13M+ bpd gap, ADNOC shut, Fujairah gone. Trajectory increasingly D-like. |
-| **D — Collapse/Nuclear** | 68% ↑↑ | Unknown | $150-200+ | 65+ | Dominant. Yanbu campaign, Iraq FM, 3-country simultaneous strikes, Kent cascade. |
+| **B — Sustained** | 2% | Months min | $90-115 | 35-45 | Requires Iran stand-down + rebuild. Trump delay buys tiny sliver of time. |
+| **C — Full Escalation** | 20% ↓ | 6-12 months | $120-170 | 45-65 | Distinction between C and D blurring. Only if Dimona/Tehran strikes don't trigger nuclear ladder. |
+| **D — Collapse/Nuclear** | 78% ↑↑ | Unknown | $150-200+ | 65+ | DOMINANT. Capital strikes + nuclear facility targeting + multi-front war + no verified diplomacy. |
 
-*Updated Mar 20: D raised to 68% — Iran hit 3 countries, Yanbu under attack, Iraq FM, supply gap 16-18M+ bpd, SPX 200-DMA break. C→30% as D absorbs probability. B collapsed to 2%.*
-*Updated Mar 23: D raised to 72% — Trump 48hr ultimatum expires Mon 3/24 evening. Ghalibaf counter-threats (kinetic + financial domain). UST buyers declared military targets. Post-Khamenei power vacuum accelerates hard-liner rhetoric to operational posture.*
+*Updated Mar 20: D raised to 68%.*
+*Updated Mar 23 AM: D raised to 72% — Trump ultimatum, Ghalibaf financial threats.*
+*Updated Mar 23 PM: D raised to 78% — Israel striking Tehran (capital), Iran struck Dimona (nuclear site), both sides targeting nuclear-adjacent infrastructure. Trump "talks" narrative denied by Iran. Rally is a trap. Nuclear escalation ladder actively being climbed. The Natanz→Dimona exchange is the single most dangerous development of the entire conflict.*
 
 ---
 
@@ -70,11 +68,11 @@ Gulf energy conflict has escalated from targeted strikes to systematic campaign 
 | Vector | Score | Current State |
 |--------|-------|---------------|
 | Hormuz status | 🔴🔴 5 | 46 vs 561 transits (-92%); zero large tankers westbound since Mar 3 |
-| Iran military ops | 🔴🔴 5 | Nuclear facility fire; Haifa refinery hit; regime degradation campaign |
+| Iran military ops | 🔴🔴 5 | Tehran capital under Israeli strike; Iran struck Dimona nuclear site; mutual nuclear-adjacent targeting |
 | Oil price | 🔴🔴 5 | Brent $90+, Platts +21%; Yergin "biggest disruption in history" |
 | Gulf production | 🔴🔴 5 | Iraq+Kuwait+UAE+Saudi ALL curtailing = 6.7M+ bpd |
 | Hezbollah/proxies | 🔴🔴 5 | Activated Mar 12; IDF Litani ground op; 29 attacks/24h |
-| Diplomatic channels | 🔴🔴 5 | Iran/US both refusing talks; Iran issuing IHL pre-strike warnings |
+| Diplomatic channels | 🔴🔴 5 | Trump claims talks; Iran denies talks exist; active combat ongoing during "negotiation" claims |
 | Shadow fleet/shipping | 🔴🔴 5 | VLCC +201%, LNG +529%; war risk uninsurable |
 | Russia-Ukraine energy | 🟠 3 | Druzhba struck; Hungary/Slovakia disrupted; revenue -50% YoY |
 | Global economy | 🔴🔴 5 | NFP -92K; SPX broke 200-DMA; stagflation trap |
@@ -168,50 +166,46 @@ BRENT operational as of Mar 6. Division of labor:
 
 ---
 
-## 48-Hour Ultimatum Scenario Tree (Expires ~Mon 3/24 Evening)
+## Revised Scenario Tree (Mar 23 — Ultimatum Extended to ~Mar 28)
 
-**Base state:** Trump ultimatum to reopen Hormuz → Ghalibaf kinetic + financial counter-threats
+**Status: Original Branch 3 partially activated (Israel striking Tehran independently) while Trump delays US power plant strikes. Iran counter-escalated to nuclear-adjacent targeting (Dimona). Original branches superseded.**
 
-### Branch 1: Iran Blinks / Partial Signal (~10%)
-- Iran signals willingness to negotiate Hormuz, back-channel opens
-- US pulls back from power plant strike threat
-- Market: risk-on relief rally (hours-days); fundamentals unchanged
-- Oil: -$10-15 flush; thesis intact — infrastructure damage is done
-- UST: brief demand recovery; Ghalibaf rhetoric forgotten
+### Branch A: "Talks" Narrative Holds / Ceasefire Progress (~8%)
+- Trump's "productive talks" claim proves real; back-channel exists
+- Iran signals willingness under cover of denial (face-saving)
+- Market: rally extends; BUT infrastructure damage is structural — oil stays elevated
+- Trap risk: Iran could be buying time to reposition militarily
 
-### Branch 2: Deadline Passes, Both Sides Stand Down / Ambiguity (~25%)
-- Deadline expires with no action from either side
-- US claims "ongoing pressure working"; Iran claims victory
-- Status quo extended; Hormuz remains partially blocked
-- Market: uncertainty premium stays; no catalyst either direction
-- Oil: range-bound $90-100
+### Branch B: Talks Narrative Collapses / Status Quo Grind (~22%)
+- Iran denial proves correct; no talks happening
+- Market rally reverses as reality catches up
+- Israel continues Tehran strikes; Iran continues counter-strikes
+- Grinding escalation without formal US power plant strikes yet
+- Oil: back to $100-120 range; VIX re-spikes
 
-### Branch 3: US Strikes Iranian Power Plants (~35%)
-- Trump follows through; US/Israeli air strike on Iranian power grid
-- Ghalibaf counter-threat activates: Iran strikes energy/oil infrastructure across Middle East (Yanbu, Ras Tanura, Kuwait, UAE pipelines)
-- Cascading: Gulf SWFs panic-sell UST holdings (Ghalibaf gave them political cover + operational fig leaf)
-- Oil: immediate gap to $140-160+; possible $200 handles
-- UST: demand shock; 10Y could spike 50-100bps on Gulf/Asian sovereign selling
-- VIX: 65+ territory; **Scenario D fully activated**
-- Nuclear escalation risk enters probability window
+### Branch C: Nuclear Escalation Ladder Continues (~40%) ⚠️ MOST LIKELY
+- Dimona strike was the crossing. Israel responds by targeting more Iranian nuclear infrastructure
+- Iran retaliates against Israeli nuclear assets more directly
+- Tit-for-tat on nuclear-adjacent targets = each step raises the floor
+- US forced to choose: restrain Israel or join escalation
+- Oil: $140-170; VIX 55+; UST selloff accelerates
 
-### Branch 4: Iran Pre-Empts / Tests US Resolve (~20%)
-- Iran strikes before deadline (power plants, Yanbu, US base in region)
-- Forces Trump hand: respond or be seen as bluffing
-- Either capitulation (credibility collapse) or full escalation
-- Worst-case branch for markets; least priced
+### Branch D: US Power Plant Strikes Proceed (~Mar 28) (~20%)
+- Trump's 5-day delay expires; "talks" produce nothing
+- Original Branch 3 from prior tree activates
+- Ghalibaf counter-threat executes: Iran strikes Gulf energy infrastructure
+- Oil: $160-200+; VIX 65+; full D scenario
 
-### Branch 5: Financial Attack Materializes (~10%)
-- Gulf/Asian sovereign funds announce UST reduction (quietly or loudly)
-- PBOC signals reduced UST purchases; coordination with Iran narrative
-- Not Ghalibaf pulling a trigger — institutions acting on cover he provided
-- 10Y spike; dollar pressure; US funding crisis acceleration
-- ZHAO's four-anchor stress scenario becomes acute
+### Branch E: Iran Targets US Assets Directly (~10%)
+- Dimona success emboldens; Iran strikes US base or carrier group
+- US enters as direct combatant (not just support role)
+- Full great power conflict; all bets off
+- Oil: unquotable; markets may halt
 
-**HAWK base case for Monday:** Branch 2 or 3 most likely. Markets open with massive uncertainty premium. **Critical watch: any strike confirmation before Asia open Sun night = Branch 3 activated immediately.**
+**HAWK base case:** Branch B/C dominant. The Dimona strike changed the character of this war — nuclear facilities are now fair game for BOTH sides. The "talks" rally is the most dangerous market signal right now because it's building positions directly against the kinetic reality.
 
 ---
 
-## Bottom Line — Mar 23 (Updated)
+## Bottom Line — Mar 23 PM (Updated)
 
-**Day 22 (Mar 23). Scenario D dominant (72%).** Trump 48-hour ultimatum expires Monday evening — the single most important near-term catalyst. Ghalibaf's financial targeting rhetoric is the new variable: war has crossed from kinetic to financial domain. UST buyers are now explicitly declared military targets by Iran's Parliament Speaker (post-Khamenei, this matters). Gulf SWFs have political cover to quietly diversify away from UST — this feeds directly into ZHAO's four-anchor demand hole thesis. Monday open will be risk-off regardless of ultimatum outcome. If Branch 3 (US strikes power plants) → Branch 3 response cascade → oil $140-160+, UST demand shock, VIX 65+. Infrastructure damage remains structural. Thesis executing; entering highest-risk 72-hour window of the conflict.
+**Day 24. Scenario D dominant (78%).** Two nuclear-threshold crossings today: Israel striking Tehran capital, Iran striking near Dimona. The Natanz→Dimona exchange means nuclear facilities are now actively traded targets on both sides — this is the most dangerous development of the entire war. Trump's "productive talks" claim drove a market rally, but Iran explicitly denies talks exist while missiles fly in both directions. **The rally is a trap.** It's built on a narrative contradicted by the party allegedly negotiating AND by active combat. New US deadline ~Mar 28 for power plant strikes. The question is no longer whether this escalates — it's whether the nuclear escalation ladder has a rung where both sides stop. Watch for: Israel response to Dimona (will they hit Iranian nuclear sites harder?), Iran's next salvo, and whether the "talks" narrative survives 24 hours of scrutiny.
