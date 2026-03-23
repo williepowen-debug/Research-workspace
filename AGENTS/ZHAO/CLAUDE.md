@@ -19,13 +19,13 @@ You are part of a multi-agent research network tracking systemic financial risk.
 
 When spawned with a task:
 
-1. **Check `mail/inbox/`** — process any pending signals (INTEGRATE, LOG, or DISCARD). **For each signal, log a one-line entry to KB.tsv** using the 13-column schema. Move processed signals to `mail/inbox/processed/`.
+1. **Check `inbox/`** — process any pending signals (INTEGRATE, LOG, or DISCARD). **For each signal, log a one-line entry to KB.tsv** using the 13-column schema. Move processed signals to `inbox/processed/`.
 2. **Read `STATUS.md`** — your current state, dashboard, active situations
 3. **Before writing to KB.tsv, read `workbook/SCHEMA.tsv`** — validate all enum fields (Conf, Epistemic, Status) against `allowed_values`. Use `default` values when unsure.
 3b. **Read `AGENTS/VOCABULARIES.tsv`** — use NETWORK_GROUPS for Group field, CANONICAL_ENTITIES for Entity field, SOURCE_TAGS for Source field. If no match exists, use closest term and note the gap.
 4. **Execute the task**
 5. **Write results back to your files** — update `STATUS.md`, log to workbook (KB/VX/FLOW) when appropriate
-6. **If your findings are relevant to another agent's domain, write to `mail/outbox/`**
+6. **If your findings are relevant to another agent's domain, write to `outbox/`**
 7. **If the task changes your thesis or key numbers, update STATUS.md before finishing**
 
 ⚠️ **Critical:** Always WRITE to STATUS.md. Do not just report findings back to PROME verbally. If it's not in the file, it doesn't persist.
@@ -34,7 +34,7 @@ When spawned with a task:
 
 ⚠️ **Critical:** Log significant findings to workbook TSV files, not just STATUS.md. STATUS gets rewritten; workbook entries are permanent.
 
-**MAIL:** Do NOT process inbox on normal spawns. Inbox processing is a separate task — wait to be spawned specifically for it. When spawned for inbox: **read `mail/PROTOCOL.md` first and follow it exactly.**
+**MAIL:** Do NOT process inbox on normal spawns. Inbox processing is a separate task — wait to be spawned specifically for it. When spawned for inbox: **check inbox/ for pending signals.**
 
 ---
 
@@ -70,7 +70,7 @@ When spawned with a task:
 - Military/conflict scenarios → HAWK (Taiwan military is HAWK; Taiwan economic/trade is yours)
 - Oil prices / Hormuz → HAWK/BRENT (but energy shock transmission to Asia is yours)
 
-**Boundary rule:** If you encounter signal in another agent's domain, write it to `mail/outbox/` as a signal file. Don't deep-dive it yourself.
+**Boundary rule:** If you encounter signal in another agent's domain, write it to `outbox/` as a signal file. Don't deep-dive it yourself.
 
 ---
 
@@ -134,10 +134,10 @@ STATUS.md contains explicit falsification criteria. Review and update when predi
 
 ## MAIL SYSTEM
 
-All inter-agent communication lives in `mail/`:
+All inter-agent communication lives in removed:
 
 ```
-mail/
+
   inbox/           ← inbound signals (delivered by HERMES)
     processed/     ← signals you've integrated
   outbox/          ← outbound signals you write
@@ -146,7 +146,7 @@ mail/
   RECEIPT.md       ← processing receipt (overwritten each run)
 ```
 
-When spawned for inbox processing: **read `mail/PROTOCOL.md` first and follow it exactly.** It contains the full processing steps, outbox format, and receipt template. All mail processing instructions live there, not here.
+When spawned for inbox processing: **check inbox/ for pending signals.** It contains the full processing steps, outbox format, and receipt template. All mail processing instructions live there, not here.
 
 ---
 
@@ -177,4 +177,4 @@ When spawned for inbox processing: **read `mail/PROTOCOL.md` first and follow it
 | `sources/` | RP-ZHAO-1 through RP-ZHAO-9 (all complete) |
 | `domain/sources/` | Archived research and raw data |
 | `archive/` | Old STATUS versions, pre-migration files |
-| `mail/` | Inter-agent signals (inbox/outbox/PROTOCOL.md) |
+| removed | Inter-agent signals (inbox/outbox/PROTOCOL.md) |

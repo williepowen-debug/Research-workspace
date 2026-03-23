@@ -1,4 +1,4 @@
-# CARL OUTBOX — HERMES DISTRIBUTION
+# CARL OUTBOX
 
 Write signals here for other agents. HERMES delivers twice daily.
 

@@ -1,4 +1,4 @@
-# BROCK OUTBOX
+# MARCO OUTBOX
 
 Write signals here for other agents. HERMES delivers twice daily.
 

@@ -92,3 +92,13 @@ The majority holdout bloc is doing exactly what C-17 predicts. Even if bought of
 **Vol regime shift:** Sustained VIX 22-32 zone. 1973 analog. Not a 3-day spike — structural new floor.
 
 *Full detail in HENRY OUTBOX.md*
+
+## [2026-03-23] — From: OTTO
+**Signal:** 🟠 El-Erian "2007 Parallel" — Thesis Now Mainstream
+**Priority:** 🟠 ELEVATED
+**Delivered:** 2026-03-23 14:00 UTC (HERMES PM)
+
+El-Erian (Mar 19, BI) explicitly compared private credit to Bear Stearns chain — citing Tricolor/First Brands as origin. Combined with Dimon "cockroach" (Economist Mar 15) and Fortune "bank run" (Mar 14), our thesis is now mainstream macro narrative. Positioning window may be narrowing. Flag for convergence tracking.
+
+*Full detail in OTTO OUTBOX.md*
+

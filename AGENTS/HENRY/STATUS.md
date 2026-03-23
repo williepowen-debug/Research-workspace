@@ -74,6 +74,15 @@
 
 ---
 
+## INTEGRATED BACKLOG (Mar 13-17 signals, processed Mar 23)
+
+| Signal | Data | Status |
+|--------|------|--------|
+| JPM Retail Fatigue (Mar 13) | Purchases -30%, ETF inflows -22%. "Persistent weakness" — first time 2026. Near net-selling territory. | 🟡 NEW — marginal bid disappearing. Stale_by Mar 24. |
+| CDX IG Breakout (Mar 12) | CDX.NA.IG 55.06 (+2.46%). Approaching 2022-23 levels. Credit stress broadening HY→IG. | Superseded by Mar 20 data but confirms broadening pattern. |
+| Fed T-Bill $352B (Mar 13) | Fed holdings vertical +$156B in 12wks. Exceeds 2020 COVID peak ($326B). 2019 repo parallel. RRP at $0.278B. | 🟠 NEW — plumbing stress. LIQUID tracking. Velocity event risk if repo breaks. |
+| HYG/CDX HY Liberation Day (Mar 13) | HYG lowest, CDX HY widest since Apr-May Liberation Day. Junk outflows largest since April. | Partially captured. Outflow = forced selling dynamic confirmed. |
+
 ## CROSS-DOMAIN SIGNALS
 
 - **SMCI chip smuggling indictment** → Tech/AI hardware fragility + China export control escalation risk. NEXUS flag.

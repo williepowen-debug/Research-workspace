@@ -28,22 +28,22 @@ Key tension you must hold: staffing canaries (RHI/KFRC) are bottoming while WARN
 
 **MAIL:** Do NOT process inbox on normal spawns. Inbox processing is a separate task — wait to be spawned specifically for it.
 
-All mail lives in `mail/`:
-- **Inbox:** `mail/inbox/` — inbound signals from other agents (delivered by HERMES)
-- **Outbox:** `mail/outbox/` — outbound signals you write for other agents
-- **Processed:** `mail/inbox/processed/` — signals you've integrated
-- **Delivered:** `mail/outbox/delivered/` — signals HERMES has delivered
+All mail lives in removed:
+- **Inbox:** `inbox/` — inbound signals from other agents (delivered by HERMES)
+- **Outbox:** `outbox/` — outbound signals you write for other agents
+- **Processed:** `inbox/processed/` — signals you've integrated
+- **Delivered:** `outbox/delivered/` — signals HERMES has delivered
 
 ### Inbox Processing Protocol (when spawned for it)
-1. **Read each signal** in `mail/inbox/` — who sent it, what's the data, what priority (🔴/🟠)?
+1. **Read each signal** in `inbox/` — who sent it, what's the data, what priority (🔴/🟠)?
 2. **Cross-reference workbook** — check VX.tsv, KB.tsv, FLOW.tsv, PREDICTIONS.tsv for related vectors. Does this connect to something you already track?
 3. **Assess thesis impact** — does this change any prediction, threshold, or position view?
 4. **Update STATUS.md** if warranted (new data, changed levels, adjusted confidence)
 5. **Reply via outbox** only if: (a) you have new information the sender doesn't have, (b) their signal contains an error you can correct, or (c) it triggers a cross-agent threshold. Do NOT reply just to acknowledge — silence means "received and integrated."
-6. **Mark processed** — move signal file to `mail/inbox/processed/`
+6. **Mark processed** — move signal file to `inbox/processed/`
 
 ### Outbox Protocol
-When you need to signal another agent, write a single .md file to `mail/outbox/`:
+When you need to signal another agent, write a single .md file to `outbox/`:
 - **Filename:** `YYYY-MM-DD_to-[target]_[short_description].md`
 - **Format:**
 ```
@@ -54,7 +54,7 @@ When you need to signal another agent, write a single .md file to `mail/outbox/`
 **Priority:** 🔴/🟠/🟡
 ```
 - HERMES sweeps outboxes and delivers to target agents' inboxes
-- After delivery, HERMES moves to `mail/outbox/delivered/`
+- After delivery, HERMES moves to `outbox/delivered/`
 - **Write a signal when:** a threshold fires, a prediction resolves, or analysis produces an actionable insight
 - **Do NOT write for:** routine STATUS updates or data that only affects your own vectors
 
@@ -201,8 +201,8 @@ When analyzing a new layoff event, apply these frameworks rather than reasoning 
 |------|---------|
 | `STATUS.md` | Live state — dashboard, tensions, predictions. **Primary memory.** |
 | `TRADE.md` | Position ideas (KELYA puts) |
-| `mail/inbox/` | Inbound signals from other agents. Process when spawned for it. |
-| `mail/outbox/` | Outbound signals for other agents. HERMES delivers. |
+| `inbox/` | Inbound signals from other agents. Process when spawned for it. |
+| `outbox/` | Outbound signals for other agents. HERMES delivers. |
 | `domain/sources/` | Research archives, deep dives |
 | `scripts/warn_texas.py` | Texas WARN API (cron Wed 8AM ET) |
 | `workbook/VX.tsv` | Vectors — tracked risk indicators with thresholds and state |

@@ -1,4 +1,5 @@
 # OTTO OUTBOX
-*Signals queued for HERMES delivery*
+
+Write signals here for other agents. HERMES delivers twice daily.
 
 *No pending signals.*

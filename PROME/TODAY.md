@@ -1,74 +1,71 @@
-# TODAY.md — Sunday March 9, 2026
+# TODAY.md — Monday March 23, 2026
+
+**Market open 9:30 AM ET.** Scenario D dominant (68%). War Day 22. Account $57,467 (+134%). Brent $107+. Gas $3.91→$4 breakpoint TODAY.
+
+---
+
+## 🔴 Pre-Open (NOW — before 9:30)
+
+- [ ] **USO $118C Mar 27 — CUT at open** (expires Thursday, -6%, cut recommended)
+- [ ] **APO $100P Apr 17 — CUT at open** (agreed, -37%, theta bleeding)
+- [ ] **OWL $9.5P Apr 2 — decision** (expires in 10 days, +6%, PROP-09 says ADD before Wed 3/26)
+- [ ] Review pre-market: KRE, WAL, APO, OWL levels
+- [ ] SAM check-in results (spawned — shunto date + JGB 2.310% + Nikkei -3.55%)
+
+## 🔴 At/Near Open (9:30 AM)
+
+### Trade Execution — from PROPOSALS_MAR23.md
+- [ ] **PROP-09: OWL Apr puts — BUY before Wed 3/26** (OBDC II reports 3/27–4/3, ARESSI 3/26)
+- [ ] **PROP-03: APO — roll Apr→May/Jun or cut** (dual class action, lead plaintiff May 1)
+- [ ] **PROP-02: Roll KRE/HYG Jun→Dec** — GREEN DAY ONLY (Hamilton framework)
+- [ ] **PROP-07: KRE near-term add** — GREEN DAY ONLY ($63.19, Q1 close 3/31)
+- [ ] **PROP-04: FXY sizing** — PENDING shunto result from SAM
+- [ ] **PROP-08: Energy upside extension** — CF only direct exposure, undersized?
+- [ ] **WAL $85P Jun (+219%) — ROLL** first priority on any green open
+
+## 🟠 During Session
+
+### Catalysts Today
+- [ ] **Gas $4.00 behavioral breakpoint** — CARL has $3.91 +$0.04/day, crossing TODAY
+- [ ] **Rengo shunto wage tally** — date discrepancy (3/21 vs 3/23), SAM resolving
+- [ ] Nikkei -3.55% overnight — risk-off signal, watch carry unwind
+
+### Catalyst Tomorrow (Tue 3/24)
+- [ ] **FL UI exhaustion Wave 1** — LABOR confirms locked in, zero legislative block
+
+### Agent Inbox Backlogs
+- [ ] BROCK (9) — 🔴 highest backlog
+- [ ] LIQUID (4) — reserve distribution, RRP
+- [ ] HENRY (3) — Brent $110+, SPX 200-DMA break, 10Y
+- [ ] HAWK (3) — depletion clocks, Yanbu
+- [ ] CARL (3) — gas breakpoint signals
+- [ ] SAM (3) — ✅ spawned, processing now
+
+### Infrastructure
+- [ ] NEXUS synthesis — ✅ Pass 9 complete (3/23 01:30 UTC)
+- [ ] Stale agents: HANS (3/11), DARWIN (2/18) — deprioritized
 
 ---
 
 ## ✅ Completed Today
 
-### HAWK Migration (Full — Segments A-D)
-- [x] KB.tsv created: 51 rows (34 original + 8 run 1 + 9 run 2)
-- [x] VX.tsv migrated: 12 rows, 11 col with thresholds
-- [x] FLOW.tsv migrated: 10 rows, 9 col
-- [x] PREDICTIONS.tsv: invalidation criteria filled
-- [x] CLAUDE.md: 13-col KB schema, 3-pass cold-boot, workbook logging rules, mail pointer
-- [x] SCHEMA.tsv: created from BRENT template
-- [x] Spawned HAWK 2x for inbox processing (13 signals, all processed)
-- [x] 5 outbox signals generated and delivered (BRENT x2, CARL, HENRY, SAM)
-- [x] Scenario C upgraded to 55% base case
-
-### Signal Blitz (22 signals → 13 agents)
-- [x] Will's ~30 screenshots triaged and routed
-- [x] Economist war data (munitions, fires, bilateral strikes)
-- [x] Lloyd's List Hormuz -92%
-- [x] Iraq 3M bpd confirmed
-- [x] BX $400M own-money, Blue Owl permanent freeze, PE drawdowns
-- [x] MFS "Architecture of Deception" (Unicus Research)
-- [x] PIMCO "full-blown default cycle"
-- [x] Finance openings -117K (2012 lows)
-- [x] Campbell "Strip vs Strait" — Gulf recycling NEW vector
-- [x] Platts commodity dashboard, ULSD parabolic, Vegas cancellations
-- [x] SPY below 20-week MA
-- [x] Haifa refinery hit
-
-### Infrastructure
-- [x] mail/PROTOCOL.md created and deployed to all 14 agents
-- [x] RECEIPT.md pattern established (agents write receipt after inbox runs)
-- [x] HERMES 3 delivery runs (17 signals total, all outboxes clean)
-- [x] SAT_3-7.md: 9-col → 13-col schema confirmed network-wide
-
-### NEXUS Synthesis (Reviewed ✅)
-- [x] 4 new convergences: C-15 Petrodollar (85%), C-16 PE Cascade (88%), C-17 CRE Can-Kick (83%), C-18 Fertilizer/Food (72%)
-- [x] Three-Anchor UST framework: Japan + China + Gulf
-- [x] Top 10 trade convictions established with Will
-- [x] TLT puts confirmed #1 conviction (5/5, works in every scenario)
+- [x] PROME STATUS.md — fixed NEXUS from "overdue" to Pass 9 complete
+- [x] SAM spawned for inbox + shunto resolution + JGB 2.310%
+- [x] TODAY.md rebuilt for 3/23
 
 ---
 
-## 🔲 Still Open (carry to next session)
+## Key Levels to Watch
 
-### Immediate
-- [ ] **ZHAO update** — add Campbell Gulf recycling vector, KB/logging standardization, spawn for inbox
-- [ ] HAWK TRADE.md — last piece of full migration
-- [ ] PROME/STATUS.md — update agent dashboard (stale since Mar 7)
-- [ ] BRIEFING.md — update with tonight's context + NEXUS findings
+| Ticker | Level | Significance |
+|--------|-------|-------------|
+| Gas | $4.00 | Behavioral breakpoint (Hamilton) |
+| HY OAS | 350 | Issuance freeze (currently 328, 22bps gap) |
+| KRE | $60 | Support ($63.19 current, $3.19 gap) |
+| Brent | $110+ | Supply destruction confirmed |
+| USD/JPY | 159+ | Intervention risk |
+| 10Y JGB | 2.310% | New high, BOJ pressure |
 
-### Monday Market Actions
-- [ ] SSB trim 50% — first at open
-- [ ] TLT puts ADD — top conviction, 3-anchor
-- [ ] VIX call spread ADD — SPY below 20-week MA
-- [ ] LNG spread evaluate — carriers +529%
-- [ ] WAL position confirm — $85P Jun open?
-- [ ] Taiwan Taipower check — LNG buffer near-critical (1-4 days)
-- [ ] Live data pulls (12 items per BRIEFING.md)
+---
 
-### Infrastructure Sprint
-- [ ] HENRY KB migration (Sprint 3d, 89 rows)
-- [ ] REGINALD KB migration (Sprint 3e, 116 rows, hardest)
-- [ ] Update remaining CLAUDE.md files with mail/PROTOCOL.md pointer
-- [ ] TRADE.md: BROCK, CARL still need
-- [ ] HERMES cron automation
-
-### Research
-- [ ] Apollo 10-K deep dive (Athene exposure)
-- [ ] REGINALD sub-agent audit (BELT/CORAL/CREED/RENO/TEX)
-- [ ] DHS claims suppression analysis (Prompt 2)
-- [ ] RED team update — thesis much more confirmed, worth re-running
+*Proposals → `PROME/PROPOSALS_MAR23.md` | Positions → `PROME/POSITIONS.md` | Calendar → `CALENDAR.md`*

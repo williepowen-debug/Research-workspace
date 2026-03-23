@@ -1,6 +1,52 @@
 # ZHAO STATUS
-**Updated:** 2026-03-22 16:34 UTC (Mar 22: Yuan-for-Hormuz intel integrated)
-**Overall Status:** 🔴🔴🔴 EMERGENCY ESCALATION — Gulf Recycling Loop Broken / Yuan-for-Hormuz Petrodollar Challenge / FOMC Trapped
+**Updated:** 2026-03-23 13:45 UTC (Mar 23: Daily check-in + Ghalibaf UST threat assessment)
+**Overall Status:** 🔴🔴🔴 EMERGENCY ESCALATION — Gulf Recycling Loop Broken / Yuan-for-Hormuz / Ghalibaf UST Buyer Threat / FOMC Trapped
+
+---
+
+## 📌 MAR 23 DAILY CHECK-IN
+
+### 1. TIC Data (Belgium/China)
+**No new data.** Jan 2026 TIC remains latest (released Mar 18). Next release: **Apr 15, 2026** (Feb 2026 data). Current: Belgium $451.0B (🟡), China $694.4B (🟠). No threshold changes.
+
+### 2. HK Peg Stress Signals
+**HKMA daily data as of Mar 23:** Aggregate Balance **HK$53,770M** (closing). Flat — no stress. Forecast stable through Mar 26 (~53,311M after EFBN issuance, still well above $45B threshold). 1-mo HIBOR fixing: **1.95107%** (DOWN from 2.082% on Mar 17). Overnight HIBOR: 1.14%. Base rate 4.00%. HIBOR-SOFR spread widening back toward safe territory (~-235bps vs -222bps prior). **🟢 GREEN. No peg stress.**
+
+### 3. LGFV/Property News
+**Bloomberg/Reuters Mar 16:** China new home prices still declining in February but pace slowing. Biggest cities showing marginal improvement. 15th Five-Year Plan (2026-2030) outlined property sector reform goals. **No new LGFV defaults.** No acute trigger. 🟠 UNCHANGED.
+
+### 4. Threshold Status
+| Threshold | Current | Distance | Status |
+|-----------|---------|----------|--------|
+| Belgium >$500B | $451.0B | $49B away | 🟡 Safe |
+| China <$650B | $694.4B | $44.4B buffer | 🟠 Watch |
+| HK AB <$45B | HK$53,770M | HK$8,770M buffer | 🟢 Safe |
+| Saudi <$120B | $134.8B | $14.8B buffer | 🟠 APPROACHING (at Jan pace, ~1 month) |
+
+### 5. Ghalibaf Statement — Impact on Demand Hole Assessment
+
+**What happened (Mar 22):** Iran Parliament Speaker Ghalibaf posted on X: "Alongside military bases, those financial entities that finance the US military budget are legitimate targets. US Treasury bonds are soaked in Iranians' blood. Purchase them, and you purchase a strike on your HQ and assets." [CONF: CNBC, NYT, Iran International, Newsweek, bne IntelliNews — all Mar 22-23]
+
+**HAWK's assessment is correct: this gives Gulf SWFs political cover to reduce UST exposure.** Here's why it matters for my demand hole:
+
+**Mechanism 1 — Political Cover for Gulf Sellers:**
+Gulf SWFs (QIA, ADIA, PIF, KIA) were already selling UST for fiscal reasons (Ras Laffan damage, infrastructure repair, defense spending). Ghalibaf's statement provides an ADDITIONAL rationale: "we're reducing UST holdings because holding them makes us an Iranian target." This converts what was a fiscal necessity into a security imperative — much harder for the US to push back on. Saudi's -$14.7B/mo selling pace now has political air cover.
+
+**Mechanism 2 — Insurance/Compliance Friction:**
+If Iranian officials are publicly declaring UST holders as military targets, compliance departments at Gulf financial institutions, sovereign wealth funds, and banks will need to reassess. Even if no one takes the threat literally, it introduces bureaucratic friction that biases toward SELLING, not buying. Marginal UST purchases get delayed or redirected to alternatives (gold, EUR sovereign, Chinese government bonds).
+
+**Mechanism 3 — Broader FOI Deterrence:**
+Beyond the Gulf, any foreign official institution weighing UST purchases now has a new political risk factor. The statement won't deter Japan or UK (too deep in the alliance), but it could influence marginal buyers in ASEAN, Africa, Latin America — countries maintaining Iran relationships.
+
+**Revised Demand Hole Assessment:**
+The Ghalibaf statement is **additive, not transformative.** It doesn't create new selling that wasn't already happening — the fiscal pressure from Ras Laffan is the primary driver. But it:
+- **Accelerates** Gulf selling by removing political inhibition (narrative: "security, not disloyalty")
+- **Reduces** probability of Gulf buying dip (even if oil revenue recovers, the political stigma remains)
+- **Adds asymmetry** to the demand hole: selling accelerates, buying recovery gets slower
+
+**Quantitative impact:** Modest. I'm adding **$2-5B/mo to the Gulf anchor upper bound** to reflect reduced buyback probability and marginal deterrence. Revised Gulf: $30-55B/mo (was $30-50B/mo). Combined four-anchor: **$70-135B/mo** (was $70-130B/mo).
+
+**ZHA-08 status:** Already FIRED and escalating. Ghalibaf adds a fourth mechanism to Gulf recycling collapse: (1) Revenue collapse, (2) Emergency liquidation, (3) Yuan settlement diversion, (4) **Political deterrence of UST holding.**
 
 ---
 
@@ -141,15 +187,15 @@ The yuan-for-Hormuz play adds a NEW dimension to the UST demand hole that LIQUID
 | Belgium YoY Growth | **~19%** | >35% = RED | 🟡 DOWNGRADED | [CONF] TIC Jan 2026 ($451B vs $377.7B Jan 2025) |
 | **Saudi Arabia UST** | **$134.8B** | <$120B = RED | 🔴 NEW SIGNAL | [CONF] TIC Jan 2026 (-$14.7B from $149.5B Dec — largest monthly drop) |
 | True China Holdings (adj) | **~$1.85T** | <$1.6T = RED | 🟢 STABLE | [CONF] Setser/CFR |
-| Combined Anchor Selling | **$50-90B/mo ↑** | — | 🔴 ACTIVE | [EST↑] JP+CN+KR+Gulf (Gulf revised up Mar 11) |
+| Combined Anchor Selling | **$70-135B/mo ↑** | — | 🔴 ACTIVE | [EST↑] JP+CN+KR+Gulf (Gulf revised up Mar 23 — Ghalibaf political cover effect) |
 | Gulf Recycling Reduction | **$75-120B/qtr (~$25-40B/mo) ↑↑** | >$50B/qtr = ZHA-08 fires | 🔴🔴🔴 ZHA-08 FIRES / ESCALATING | [EST↑↑] Mar 18 — Ras Laffan struck (world's largest LNG terminal), Samref evacuating, ALL GCC energy named targets. Upper bound revised from $75B → $120B/qtr. QIA emergency drawdown scenario now live. |
 
 ### Currency / HK Peg
 | Metric | Value | Threshold | Status | Source |
 |--------|-------|-----------|--------|--------|
 | USD/CNY | **6.90** | >7.30 = 🟠, >7.40 = 🔴 | 🟡 WATCHING | [CONF] PBOC fix 6.8961 Mar 17 (down from 6.9057) — deliberate appreciation signal. Market ~6.94. 7.30 pushed out 8-12 weeks. |
-| HK Aggregate Balance | **HK$53.9B** | <$45B = 🟡, <$40B = 🟠 | 🟢 GREEN | [CONF] HKMA Mar 17 (53,854M open; forecast 53,770M Mar 18 after DW reversal) |
-| HIBOR-SOFR Spread | **~-222bps** | >-200bps = 🟠, >-300bps = 🔴 | 🟠 ORANGE | [CONF] HKAB 1-mo HIBOR 2.082% Mar 17; SOFR ~4.30%. Approaching -200bps upgrade trigger. |
+| HK Aggregate Balance | **HK$53.8B** | <$45B = 🟡, <$40B = 🟠 | 🟢 GREEN | [CONF] HKMA Mar 23 (53,770M closing; forecast stable through Mar 26) |
+| HIBOR-SOFR Spread | **~-235bps** | >-200bps = 🟠, >-300bps = 🔴 | 🟡 IMPROVED | [CONF] HKAB 1-mo HIBOR 1.951% Mar 23; SOFR ~4.30%. Widened from -222bps — moved AWAY from upgrade trigger. |
 | USD/KRW | **1,501** | >1,500 = BoK UST selling | 🔴 ACTIVE | [CONF] TradingEconomics Mar 13 — stable at threshold. Japan+Korea joint FX statement Mar 14 confirms dual pressure. |
 
 ### Domestic Stress

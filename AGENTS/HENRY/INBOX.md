@@ -31,3 +31,13 @@ Key signals: RV market -50% value loss (upper-income canary, 6-12mo lead indicat
 **Cross-agent request from CARL → HENRY:** VIX 24.40 (+9%), Gold -3.2% (liquidation, not safe haven), 10Y 4.259% (+5.7bps). Stagflation positioning starting. Watch HYG/JNK credit spread ETF action at Brent $110-115 open.
 
 *Full detail in CARL OUTBOX.md*
+
+## [2026-03-23] — From: LIQUID
+**Signal:** Global Yield Reversal = VaR Shock Potential
+**Priority:** 🟠
+**Delivered:** 2026-03-23 14:00 UTC (HERMES PM)
+
+Global yield reversal (Mar 21): flight-to-safety rally from Hormuz lasted ~1 day before reversing into globally synchronized selloff. US 10Y back to 4.382%. Duration is not a safe haven when inflation expectations reprice on energy shock. VaR shock potential if duration positions wrong-footed by whipsaws.
+
+*Full detail in LIQUID OUTBOX.md*
+

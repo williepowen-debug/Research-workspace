@@ -40,7 +40,7 @@
 | 2 | Staleness | Last updated timestamp in STATUS.md header | 🔴 >48h on weekdays, 🟠 >24h |
 | 3 | Broken paths | Parse CLAUDE.md for referenced files/dirs, verify they exist | 🔴 any missing |
 | 4 | PREDICTIONS hygiene | OPEN predictions past their stated timeframe | 🟠 per stale prediction |
-| 5 | Inbox backlog | Count files in `mail/inbox/` (excluding processed/) | 🟠 >3 unprocessed, 🔴 >5 |
+| 5 | Inbox backlog | Count files in `inbox/` (excluding processed/) | 🟠 >3 unprocessed, 🔴 >5 |
 | 6 | Workbook size | Any TSV/MD in workbook/ over 500 lines | 🟠 flag |
 | 7 | Directory structure | Compare dirs that exist vs what CLAUDE.md references | 🟠 mismatch |
 | 8 | INBOX.md orphans | Check for INBOX.md files (legacy format) | 🟡 flag |

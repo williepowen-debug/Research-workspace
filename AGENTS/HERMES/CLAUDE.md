@@ -28,25 +28,24 @@ You are a postal service. Pick up, deliver, move to delivered. Nothing else.
 
 ## Mail System — Directory Pattern
 
-Most agents use the **directory mail system**. Mail lives in `AGENTS/{NAME}/mail/`:
+Most agents use the **directory mail system**. Mail lives at the agent root:
 
 ```
-mail/
-  outbox/           ← signals waiting for delivery (individual .md files)
-    delivered/      ← signals HERMES has delivered (moved here after delivery)
-  inbox/            ← inbound signals from other agents
-    processed/      ← signals the agent has integrated (agent moves these, not you)
+outbox/             ← signals waiting for delivery (individual .md files)
+  delivered/        ← signals HERMES has delivered (moved here after delivery)
+inbox/              ← inbound signals from other agents
+  processed/        ← signals the agent has integrated (agent moves these, not you)
 ```
 
 **Signal filename format:** `YYYY-MM-DD_to-[target]_[short_description].md`
 
 ### Reading Outboxes
-- List all `.md` files in `mail/outbox/` (NOT in `mail/outbox/delivered/`)
+- List all `.md` files in `outbox/` (NOT in `outbox/delivered/`)
 - Each file is one signal. Read it to get the target agent, content, and priority.
 - The `to-[target]` in the filename tells you the destination agent.
 
 ### Delivering to Inboxes
-- Write a new `.md` file to the target agent's `mail/inbox/`
+- Write a new `.md` file to the target agent's `inbox/`
 - **Filename:** `YYYY-MM-DD_[source-agent]_[short_description].md`
 - **Content:** Copy the signal content, prepend a HERMES delivery header:
 
@@ -60,8 +59,8 @@ mail/
 ```
 
 ### Clearing Outboxes
-- After successful delivery, **move** the signal file from `mail/outbox/` to `mail/outbox/delivered/`
-- Use: `mv AGENTS/{NAME}/mail/outbox/{file}.md AGENTS/{NAME}/mail/outbox/delivered/`
+- After successful delivery, **move** the signal file from `outbox/` to `outbox/delivered/`
+- Use: `mv AGENTS/{NAME}/outbox/{file}.md AGENTS/{NAME}/outbox/delivered/`
 - Do NOT delete outbox files — always move to `delivered/`
 
 ---
@@ -74,21 +73,22 @@ All agent files are in the workspace at `AGENTS/{NAME}/`.
 
 | Agent | Outbox | Inbox |
 |-------|--------|-------|
-| LABOR | `AGENTS/LABOR/mail/outbox/` | `AGENTS/LABOR/mail/inbox/` |
-| CARL | `AGENTS/CARL/mail/outbox/` | `AGENTS/CARL/mail/inbox/` |
-| SAM | `AGENTS/SAM/mail/outbox/` | `AGENTS/SAM/mail/inbox/` |
-| HENRY | `AGENTS/HENRY/mail/outbox/` | `AGENTS/HENRY/mail/inbox/` |
-| LIQUID | `AGENTS/LIQUID/mail/outbox/` | `AGENTS/LIQUID/mail/inbox/` |
-| REGINALD | `AGENTS/REGINALD/mail/outbox/` | `AGENTS/REGINALD/mail/inbox/` |
-| HAWK | `AGENTS/HAWK/mail/outbox/` | `AGENTS/HAWK/mail/inbox/` |
-| MARCO | `AGENTS/MARCO/mail/outbox/` | `AGENTS/MARCO/mail/inbox/` |
-| HANS | `AGENTS/HANS/mail/outbox/` | `AGENTS/HANS/mail/inbox/` |
-| ZHAO | `AGENTS/ZHAO/mail/outbox/` | `AGENTS/ZHAO/mail/inbox/` |
-| DARWIN | `AGENTS/DARWIN/mail/outbox/` | `AGENTS/DARWIN/mail/inbox/` |
-
-| BROCK | `AGENTS/BROCK/mail/outbox/` | `AGENTS/BROCK/mail/inbox/` |
-| OTTO | `AGENTS/OTTO/mail/outbox/` | `AGENTS/OTTO/mail/inbox/` |
-| NEXUS | `AGENTS/NEXUS/mail/outbox/` | `AGENTS/NEXUS/mail/inbox/` |
+| LABOR | `AGENTS/LABOR/outbox/` | `AGENTS/LABOR/inbox/` |
+| CARL | `AGENTS/CARL/outbox/` | `AGENTS/CARL/inbox/` |
+| SAM | `AGENTS/SAM/outbox/` | `AGENTS/SAM/inbox/` |
+| HENRY | `AGENTS/HENRY/outbox/` | `AGENTS/HENRY/inbox/` |
+| LIQUID | `AGENTS/LIQUID/outbox/` | `AGENTS/LIQUID/inbox/` |
+| REGINALD | `AGENTS/REGINALD/outbox/` | `AGENTS/REGINALD/inbox/` |
+| HAWK | `AGENTS/HAWK/outbox/` | `AGENTS/HAWK/inbox/` |
+| MARCO | `AGENTS/MARCO/outbox/` | `AGENTS/MARCO/inbox/` |
+| HANS | `AGENTS/HANS/outbox/` | `AGENTS/HANS/inbox/` |
+| ZHAO | `AGENTS/ZHAO/outbox/` | `AGENTS/ZHAO/inbox/` |
+| DARWIN | `AGENTS/DARWIN/outbox/` | `AGENTS/DARWIN/inbox/` |
+| BROCK | `AGENTS/BROCK/outbox/` | `AGENTS/BROCK/inbox/` |
+| OTTO | `AGENTS/OTTO/outbox/` | `AGENTS/OTTO/inbox/` |
+| NEXUS | `AGENTS/NEXUS/outbox/` | `AGENTS/NEXUS/inbox/` |
+| RED | `AGENTS/RED/outbox/` | `AGENTS/RED/inbox/` |
+| BRENT | `AGENTS/BRENT/outbox/` | `AGENTS/BRENT/inbox/` |
 
 ### WILL (Human)
 
@@ -102,12 +102,12 @@ WILL uses a flat INBOX.md. Append delivery in the standard format. Agents target
 
 ## Execution Protocol
 
-1. **Scan outboxes:** For each agent, list `.md` files in `mail/outbox/` (skip `delivered/` subfolder). Read each file.
+1. **Scan outboxes:** For each agent, list `.md` files in `outbox/` (skip `delivered/` subfolder). Read each file.
 2. **For each pending signal:**
    a. Identify the target agent (from filename `to-[target]` or signal content)
-   b. Write a new `.md` file to target's `mail/inbox/`
+   b. Write a new `.md` file to target's `inbox/`
    c. If target is **WILL** → append to `WILL/INBOX.md` instead
-3. **Clear source outbox:** `mv` the signal file to `mail/outbox/delivered/`
+3. **Clear source outbox:** `mv` the signal file to `outbox/delivered/`
 4. **If a signal has no clear target** → deliver to `WILL/INBOX.md` for manual routing
 5. After all deliveries, report summary: count, from whom, to whom
 
