@@ -1,7 +1,7 @@
 # PROME STATUS.md
-**Updated:** 2026-03-23 13:15 UTC
+**Updated:** 2026-03-23 14:15 UTC
 
-## 🔴🔴 SCENARIO D DOMINANT (68%) — WAR DAY 22 — BRENT $107+ — ACCOUNT $57,467 (+134%)
+## 🔴🔴 SCENARIO D DOMINANT (72%) — WAR DAY 22 — BRENT $104 — ACCOUNT $51,447 (-10.48% today, relief rally)
 
 ---
 
@@ -10,36 +10,39 @@
 | Agent | St | Key State | Upd | Inbox |
 |-------|----|-----------|-----|-------|
 | NEXUS | 🟢🟢 | Pass 9 complete. 50/50 convergence. Stage 2 confirmed. | 3/23 | 0 |
-| CARL | 🔴🔴 | Gas $3.91→$4 imminent. Convergence 42/50. Pruned ✅ | 3/23 | 3 |
-| LABOR | 🟢 | Claims 205K benign. UI cliff Mar 24 | 3/23 | 0 |
-| SAM | 🟢 | BOJ hold 8-1, Takata dissent. JGB 2.310% new high. Pruned ✅ | 3/23 | 3 |
-| OTTO | 🟢 | DQ 7.1% RED. SoFi CNL triggered | 3/20 | 1 |
-| MARCO | 🟢 | DHS Day 22+ | 3/20 | 0 |
-| HENRY | 🔴🔴 | Brent $110+. SPX broke 200-DMA. 10Y 4.25% | 3/20 | 3 |
-| LIQUID | 🔴🔴 | RRP $0.822B. Reserves $2.8T (4yr low). Pruned ✅ | 3/20 | 4 |
-| ZHAO | 🔴🔴 | Four-anchor $50-90B/mo. Gulf infra convergence | 3/22 | 1 |
-| HAWK | 🔴🔴 | Scenario D 68%. Yanbu under attack. 7 depletion clocks. Pruned ✅ | 3/23 | 3 |
-| BROCK | 🟠 | APO -39% anomaly. Inbox backlog (9) | 3/23 | 0 |
-| REGINALD | 🟠 | Pruned ✅. H.8 flag in inbox | 3/23 | 0 |
-| BRENT | 🔴🔴 | Brent $107+. Kuwait physical Mar 20. Qatar permanent. Pruned ✅ | 3/22 | 2 |
-| HANS | 🟠 | Needs DD-4 (China Hormuz). **STALE** | 3/11 | 0 |
-| DARWIN | 🟡 | Scan overdue. **STALE** | 2/18 | 0 |
+| CARL | 🔴🔴 | Path C activating (housing cracking before employment). Convergence 43/50. | 3/23 | 0 ✅ |
+| LABOR | 🟢 | Claims 205K benign. FL UI cliff Mar 24. ICE construction raids confirmed. | 3/23 | 0 ✅ |
+| SAM | 🟢 | Shunto 5.26%. GPIF breached. BOJ hike likely May 1 not April. | 3/23 | 0 ✅ |
+| OTTO | 🟢 | DQ 7.1% RED. El-Erian 2007 parallel. | 3/23 | 0 |
+| MARCO | 🟢 | DHS Day 37. ICE raids = 4 workforce disruption vectors. Congress recessing to Apr 13. | 3/23 | 0 |
+| HENRY | 🔴🔴 | JPM retail fatigue (-30% purchases). Fed T-Bill $352B integrated. | 3/23 | 0 ✅ |
+| LIQUID | 🔴🔴 | Stealth liquidity, FHLB +31%, JPM restricting PC lending. Global yield reversal. | 3/23 | 0 ✅ |
+| ZHAO | 🔴🔴 | Demand hole revised $70-135B/mo. Ghalibaf UST threat = one-way ratchet. | 3/23 | 0 ✅ |
+| HAWK | 🔴🔴 | Scenario D 72%. Trump ultimatum Mon. Taiwan LNG + fertilizer -45% integrated. | 3/23 | 0 ✅ |
+| BROCK | 🟠 | BCRED first NAV loss. ARESSI Mar 26, OBDCII Mar 27. True defaults 4-5%. | 3/23 | 0 ✅ |
+| REGINALD | 🟠 | Mortgage ATH + Jefferies Q1 integrated. OZK pre-earnings Mar 25. | 3/23 | 0 ✅ |
+| BRENT | 🔴🔴 | Chemical tanker freight 4x spike. All other signals already integrated. | 3/23 | 0 ✅ |
+| HANS | 🟠 | Needs DD-4 (China Hormuz). **STALE 12d** | 3/11 | 0 |
+| DARWIN | 🟡 | Scan overdue. **STALE 33d** | 2/18 | 0 |
 
 ---
 
 ## Pending
 
-| Action | Pri |
-|--------|-----|
-| Inbox backlogs: LIQUID (4), HENRY (3), SAM (3), CARL (3), HAWK (3), BRENT (2) | 🔴 |
-| Trade decisions for Monday (see POSITIONS.md) | 🔴 |
-| NEXUS synthesis — ✅ Pass 9 complete 3/23 | ✅ |
-| Stale sub-agents decision (Will): CARL POLLY/POP/GIG/NICK, REGINALD RENO/TEX | 🟠 |
-| Seven depletion clocks — no agent tracks | 🟠 |
-| Iraq FM verification | 🟡 |
-| Belgium TIC $500B check | 🟡 |
-| HANS DD-4 Europe recon | 🟡 |
+| Action | Pri | Status |
+|--------|-----|--------|
+| ~~Inbox backlogs~~ | ~~🔴~~ | ✅ ALL CLEARED — every agent at 0 |
+| Position review | 🔴 | ✅ Complete — see TODO_GREEN_DAY.md |
+| ~~Inbox/outbox migration~~ | ~~🟠~~ | ✅ All agents + HERMES migrated to flat inbox/outbox |
+| NEXUS synthesis pass | 🟠 | Deferred — waiting for more news/catalysts |
+| APO Apr 17 put — cut on red day | 🟠 | Pending |
+| TLT 88 May put — sell decision | 🟠 | Will thinking it over |
+| FXY sizing decision | 🟠 | Thesis confirmed, entry pending |
+| Jun→Dec rolls | 🟡 | Will watching market, no rush on KRE |
+| Stale agents decision: HANS, DARWIN | 🟡 | |
+| SOFI thesis research | 🟡 | Will wants to investigate consumer pain angle |
+| OZK pre-earnings analysis (8-K framework) | 🟡 | Start ~Mar 25 |
 
 ---
 
-*Positions → `PROME/POSITIONS.md` | Calendar → `CALENDAR.md` + Google Calendar | Thesis → `MEMORY.md`*
+*Positions → `TODO_GREEN_DAY.md` | Calendar → `CALENDAR.md` | Thesis → `MEMORY.md`*
