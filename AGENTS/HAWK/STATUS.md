@@ -1,7 +1,7 @@
 # HAWK STATUS
 **Agent:** HAWK (Gulf Energy Infrastructure & Oil Market)
-**Last Updated:** 2026-03-20 23:30 UTC
-**War Day:** 21 | **Scenario:** D 68% / C 30% / B 2%
+**Last Updated:** 2026-03-23 02:10 UTC
+**War Day:** 22 | **Scenario:** D 72% / C 26% / B 2%
 **Convergence:** 45/45 🔴🔴 MAXIMUM
 
 ---
@@ -15,7 +15,7 @@ Gulf energy conflict has escalated from targeted strikes to systematic campaign 
 - Phase 2: Gulf state refinery/facility strikes degrade processing capacity
 - Phase 3 (NOW): Active campaign against Yanbu — Saudi's only remaining export chokepoint
 
-**Day 21 key developments:**
+**Day 21 key developments (Mar 20):**
 - Iran hit 3 countries simultaneously (KSA, UAE, Qatar) Mar 18-19
 - Yanbu under active attack — Saudi's last export route
 - Iraq force majeure on all foreign-operated oilfields (Mar 20, First Squawk — UNVERIFIED)
@@ -23,6 +23,14 @@ Gulf energy conflict has escalated from targeted strikes to systematic campaign 
 - Infrastructure damage structural: 80-85% capacity Q4 best case
 - Seven depletion clocks running (Perera): planting/USDA/FAO/pharma/China/helium/insurance
 - SPX broke 200-DMA at 6,606 — equities catching up to credit/energy signal
+
+**Day 22 key developments (Mar 22-23) — ESCALATION WEEKEND:**
+- **Trump 48-hour ultimatum (Sat 3/22):** Reopen Hormuz or US destroys Iranian power plants. Deadline: ~Mon 3/24 evening.
+- **Ghalibaf response #1 (kinetic):** Attack power plants → Iran strikes energy/oil facilities across entire Middle East. Counter-threat explicit and public.
+- **Ghalibaf response #2 (FINANCIAL — NEW DOMAIN):** UST buyers declared "legitimate military targets." Statements: "financial institutions that fund U.S. military budget are legitimate targets"; "we monitor your investment portfolios"; "this is your final notice." 743K views.
+- **Ghalibaf credibility:** Iran Parliament Speaker, former IRGC commander. Post-Khamenei killing, one of the most powerful institutional voices remaining in Iran. This is NOT fringe rhetoric.
+- **New escalation vector:** War has now explicitly crossed into financial domain. UST demand is now a declared battleground.
+- **Scenario D raised to 72%** — ultimatum/counter-ultimatum dynamic, financial targeting rhetoric, no diplomatic channel visible.
 
 **Canonical damage tracker:** `HAWK/domain/OIL_FACILITY_DAMAGE_TRACKER.md`
 
@@ -53,6 +61,7 @@ Gulf energy conflict has escalated from targeted strikes to systematic campaign 
 | **D — Collapse/Nuclear** | 68% ↑↑ | Unknown | $150-200+ | 65+ | Dominant. Yanbu campaign, Iraq FM, 3-country simultaneous strikes, Kent cascade. |
 
 *Updated Mar 20: D raised to 68% — Iran hit 3 countries, Yanbu under attack, Iraq FM, supply gap 16-18M+ bpd, SPX 200-DMA break. C→30% as D absorbs probability. B collapsed to 2%.*
+*Updated Mar 23: D raised to 72% — Trump 48hr ultimatum expires Mon 3/24 evening. Ghalibaf counter-threats (kinetic + financial domain). UST buyers declared military targets. Post-Khamenei power vacuum accelerates hard-liner rhetoric to operational posture.*
 
 ---
 
@@ -155,6 +164,52 @@ BRENT operational as of Mar 6. Division of labor:
 
 ---
 
-## Bottom Line — Mar 20
+---
 
-Day 21. Scenario D dominant (68%). All nine convergence vectors at maximum (45/45). Infrastructure damage is structural through 2026 — even ceasefire means months to normalize (3-5yr Ras Laffan, 12-18mo Iran). Seven depletion clocks counting down: helium (May-Jun), China crude reserves (mid-Apr), pharma (late May), planting/USDA (Mar 31). Yanbu is the critical node — if it falls, no Saudi export pathway remaining. Iraq FM would add ~3M bpd to the supply gap. SPX broke 200-DMA. Credit (HY OAS 327) re-confirming. Equity finally catching up to energy/credit signal. Thesis executing.
+## 48-Hour Ultimatum Scenario Tree (Expires ~Mon 3/24 Evening)
+
+**Base state:** Trump ultimatum to reopen Hormuz → Ghalibaf kinetic + financial counter-threats
+
+### Branch 1: Iran Blinks / Partial Signal (~10%)
+- Iran signals willingness to negotiate Hormuz, back-channel opens
+- US pulls back from power plant strike threat
+- Market: risk-on relief rally (hours-days); fundamentals unchanged
+- Oil: -$10-15 flush; thesis intact — infrastructure damage is done
+- UST: brief demand recovery; Ghalibaf rhetoric forgotten
+
+### Branch 2: Deadline Passes, Both Sides Stand Down / Ambiguity (~25%)
+- Deadline expires with no action from either side
+- US claims "ongoing pressure working"; Iran claims victory
+- Status quo extended; Hormuz remains partially blocked
+- Market: uncertainty premium stays; no catalyst either direction
+- Oil: range-bound $90-100
+
+### Branch 3: US Strikes Iranian Power Plants (~35%)
+- Trump follows through; US/Israeli air strike on Iranian power grid
+- Ghalibaf counter-threat activates: Iran strikes energy/oil infrastructure across Middle East (Yanbu, Ras Tanura, Kuwait, UAE pipelines)
+- Cascading: Gulf SWFs panic-sell UST holdings (Ghalibaf gave them political cover + operational fig leaf)
+- Oil: immediate gap to $140-160+; possible $200 handles
+- UST: demand shock; 10Y could spike 50-100bps on Gulf/Asian sovereign selling
+- VIX: 65+ territory; **Scenario D fully activated**
+- Nuclear escalation risk enters probability window
+
+### Branch 4: Iran Pre-Empts / Tests US Resolve (~20%)
+- Iran strikes before deadline (power plants, Yanbu, US base in region)
+- Forces Trump hand: respond or be seen as bluffing
+- Either capitulation (credibility collapse) or full escalation
+- Worst-case branch for markets; least priced
+
+### Branch 5: Financial Attack Materializes (~10%)
+- Gulf/Asian sovereign funds announce UST reduction (quietly or loudly)
+- PBOC signals reduced UST purchases; coordination with Iran narrative
+- Not Ghalibaf pulling a trigger — institutions acting on cover he provided
+- 10Y spike; dollar pressure; US funding crisis acceleration
+- ZHAO's four-anchor stress scenario becomes acute
+
+**HAWK base case for Monday:** Branch 2 or 3 most likely. Markets open with massive uncertainty premium. **Critical watch: any strike confirmation before Asia open Sun night = Branch 3 activated immediately.**
+
+---
+
+## Bottom Line — Mar 23 (Updated)
+
+**Day 22 (Mar 23). Scenario D dominant (72%).** Trump 48-hour ultimatum expires Monday evening — the single most important near-term catalyst. Ghalibaf's financial targeting rhetoric is the new variable: war has crossed from kinetic to financial domain. UST buyers are now explicitly declared military targets by Iran's Parliament Speaker (post-Khamenei, this matters). Gulf SWFs have political cover to quietly diversify away from UST — this feeds directly into ZHAO's four-anchor demand hole thesis. Monday open will be risk-off regardless of ultimatum outcome. If Branch 3 (US strikes power plants) → Branch 3 response cascade → oil $140-160+, UST demand shock, VIX 65+. Infrastructure damage remains structural. Thesis executing; entering highest-risk 72-hour window of the conflict.
