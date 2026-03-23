@@ -1,5 +1,15 @@
 # BROCK STATUS — Private Credit / BDC / PE / Alt Assets
-**Updated:** Mar 23, 2026 (inbox batch: 9 signals processed)
+**Updated:** Mar 23, 2026 EOD (subagent EOD sweep)
+
+## 🔴 EOD UPDATE — March 23, 2026 (NEW DELTAS)
+- **BDC sector discount widened to 25% avg** (Raymond James, per Livemint Mar 23) — up from ~17% in our prior data. Significant mark-widening in 3 days.
+- **TD Cowen (today):** Cut OWL price target $16 → **$14**, reiterated Buy but noted "choppy through Labor Day." Citizens also cut OWL PT to $23.
+- **OWL tender offer priced at 33.2% discount to NAV** — confirms market is pricing in further NAV deterioration on OBDC portfolio. OWL $9.5P April 2 expiry now deeply in-play territory at current trajectory.
+- **FS KKR (FSK):** NAV reported at **$20.89** (drifted lower), earnings swung to a LOSS last quarter. Trades at ~50% discount to NAV — most stressed public BDC. This is a comp marker for what OBDC/ARCC face if credit keeps deteriorating.
+- **Livemint/Barron's (today):** Consensus piece titled "Investors are fleeing private credit" now mainstream financial press. Wealth manager channel seeing inflow freeze — "hard to justify staying in private funds when public BDCs trade at 25% discount."
+- **Forbes (Mar 22):** Explicit coverage of PIK → default loop using BDC portfolio data.
+- **Blue Owl BCRED:** Article confirms redemption cap lifted 5%→7% + BX injected $400M own capital (already in STATUS — confirming no new action today on this front).
+- **Thesis-relevant:** Barron's piece explicitly names the reflexivity trap — "first out gets best assets" dynamic now in mainstream press = retail advisor redemption wave likely accelerating in Q2.
 
 ## ⚠️ NEW ALERT — BCRED First Monthly Loss (Mar 20)
 - **Blackstone's BCRED posted its FIRST monthly loss in 3+ years** — Bloomberg Mar 20, 41K views
