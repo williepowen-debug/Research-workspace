@@ -1,5 +1,19 @@
 # LABOR STATUS
-**Last Updated:** 2026-03-23 13:00 UTC | **Status:** 🔴🔴 CRITICAL — FL UI WAVE 1 EXHAUSTION TOMORROW (MAR 24). SHUTDOWN DAY 39, MULLIN CLOTURE 54-37 (FINAL VOTE MON/TUE). OIL WHIPSAW: BRENT $112→$96→$104 ON TRUMP/IRAN TALK CLAIMS (IRAN DENIES). ICE CONSTRUCTION RAIDS DRYING UP SITES (NYT/GUARDIAN). RENGO SHUNTO 5.26% (BELOW 6% BOJ THRESHOLD). SCHEDULE POLICY/CAREER RULING STILL PENDING. NEXT CLAIMS: THU MAR 27.
+**Last Updated:** 2026-03-23 20:20 UTC | **Status:** 🔴🔴 CRITICAL — FL UI WAVE 1 EXHAUSTION TOMORROW (MAR 24). SHUTDOWN DAY 39 — TRUMP BLEW UP DEAL WITH SAVE ACT DEMAND (RECESS MAR 30 = 60+ DAYS NOW NEAR-CERTAIN). ICE NOW AT AIRPORTS (WIRED). OIL $104. NO SCHEDULE POLICY/CAREER RULING (DAY 5). NEXT CLAIMS: THU MAR 27.
+
+**Signal Mar 23 — EOD Scan (8:20 PM UTC):**
+
+**🔴🔴 SHUTDOWN DEAL COLLAPSE — TRUMP SAVE ACT DEMAND (EOD DELTA):** Trump posted Truth Social Sunday night demanding SAVE America Act (proof-of-citizenship voter ID bill) MUST pass before any shutdown deal. Senators Thune told reporters deal would be "very hard to explain" leaving without, but Trump explicitly REJECTED an off-ramp Thune had presented. CNN confirmed Trump rejected deal. Politico/Hill confirm Senate pessimism, "no end in sight." **Delta vs midday: Midday scan had "odds slim" for vote this week. EOD: Trump killed the deal himself. Mar 30 Senate recess = 60+ day shutdown now near-certain absent a complete reversal. DHS workers approaching 3rd missed paycheck cycle with NO legislative path visible. Upgrade shutdown probability to 95%+ for 60+ days. SAVE Act is a Dem red line — zero crossover votes.**
+
+**🔴 ICE AIRPORT DEPLOYMENT — NEW ESCALATION (TODAY):** WIRED (Mar 23, 12:52 PM): ICE agents deployed to 12+ airports including NY, Atlanta, Chicago — "over the last 24 hours." ACLU confirmed Trump threatened airport deployment over weekend. Detention numbers: 37K one year ago → 72K+ by Jan 2026, still expanding. **Labor intersection: TSA already short-staffed (shutdown, quitting in masse) + ICE now physically at airports = compound aviation sector labor chaos. Airport ground crews, baggage, catering — many foreign-born workers will not report. This is a NEW vector beyond the construction raids MARCO tracked. Cross-domain: aviation disruption feeding into logistics (cargo delay) and hospitality/tourism. Corroborates MARCO's 4 vectors — now add airport sector as vector 5.**
+
+**🟠 CONSTRUCTION LABOR SHORTAGE FORWARD SIGNAL:** Sahan Journal (Mar 23): Minneapolis/Twin Cities construction sector warning spring/summer labor shortage "expected" due to immigration enforcement — 9+ ICE sightings at construction sites since December. Corroborates NYT/Guardian from last week. **Delta: now has FORWARD projection — employers warning spring/summer season will face acute shortages before project backlog absorbs. Timeline aligns with Danger Window Q2-Q3.**
+
+**⚠️ FEB NFP DATA DISCREPANCY:** Article circulating today (financialcontent.com/marketminute) claims Feb NFP = **+60,000** vs our confirmed **-92,000** (BLS Mar 6). Article calls it "well below consensus of 110K" — structurally consistent with a weak print framing but number materially different. Possible explanations: (1) press release/wire error; (2) a revision from a secondary BLS release today not yet tracked. **Action: Do NOT update NFP figure in dashboard — our [CONF] BLS Mar 6 sourcing stands until a verified BLS release contradicts it. Flag for verification on next claims day (Mar 27). If real, a revision from -92K to +60K would be a major upward revision and partial thesis headwind (but still well below trend).**
+
+**🔴 SCHEDULE POLICY/CAREER — DAY 5 POST-ARGUMENT, NO RULING:** Five full business days since D.C. Circuit oral argument (Mar 18). No injunction issued. RIF pipeline unblocked. Each additional day = more separations processed.
+
+**📊 TECH LAYOFFS YTD:** SkillSyncer (Mar 23): 102 layoff events, 51,686 workers in 2026. Close Brothers (UK) cutting 600 with AI rollout — minor international signal, not primary. No major new domestic tech announcement today.
 
 **Signal Mar 23 — Midday Scan (1:00 PM UTC):**
 

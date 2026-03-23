@@ -1,6 +1,23 @@
 # SAM STATUS
 
-**Signal Status:** 🔴🔴🔴 CRITICAL — **TRUMP ULTIMATUM + SHUNTO CONFIRMED + JGB NEW HIGH** | USD/JPY **159.37** (yen weakening, MOF verbal intervention) | JGB 10Y **2.315%** (new high since Jan 21) | Nikkei **51,515** (-3.48%) | Shunto first tally **5.26%** | Dubai crude surging | CARRY UNWIND 7D: **85%** | FY-END T-8 DAYS | **Last Updated:** 2026-03-23 (12:49 UTC)
+**Signal Status:** 🔴🔴🔴 CRITICAL — **TRUMP ULTIMATUM + SHUNTO CONFIRMED + JGB NEW HIGH + BOJ LANGUAGE SHIFT** | USD/JPY **~159.5** (intervention line 160 holding) | JGB 10Y **2.315%** (new high since Jan 21) | Nikkei **51,515** (-3.5% close) | Topix **3,486** (-3.4%) | Shunto first tally **5.26%** | Dubai crude surging | CARRY UNWIND 7D: **85%** | FY-END T-8 DAYS | **Last Updated:** 2026-03-23 (20:16 UTC EOD)
+
+---
+
+## 🌅 MAR 23 EOD — UEDA LANGUAGE SHIFT (NEW) + MARKETS CLOSE
+
+### BOJ LANGUAGE SHIFT — BIGGEST NEW ITEM (Reuters, Mar 23)
+- **Ueda explicitly broadening hike conditions:** "Even if the economy comes under downward pressure, if we judge that such downward pressure would be temporary and will not affect underlying inflation, it would be possible for us to raise interest rates."
+- This REMOVES the previous constraint requiring "improvements in the economy" before hiking.
+- **Implication: April hike is NOT dead.** BOJ is building language to hike even if growth disappoints due to oil/war. Prior thesis of May 1 delay may be conservative.
+- **New disclosure planned by summer:** new underlying inflation indicator + updated neutral rate estimate. BOJ is signaling the journey to neutral is longer than markets price.
+- MUFG: "Comments will keep market participants wary of direct intervention if USD/JPY breaks 160.00-161.95 range."
+
+### CONFIRMED EOD MARKET DATA — MAR 23
+- Nikkei 225 close: **51,515.49** (-3.5%) | Topix: **3,486.44** (-3.4%)
+- JGB 10Y: **2.315%** (+5.5bps, new high since Jan 21)
+- JGB 20Y: **3.180%** (+6bps) | JGB 5Y: **1.720%** (+5bps) | JGB 2Y: **1.29%** (+2.5bps)
+- USD/JPY: **~159.5** (mid-159s, resistance at 160.00; 2nd day of gains)
 
 ---
 
