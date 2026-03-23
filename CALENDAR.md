@@ -11,6 +11,11 @@
 | **3/23** | **Gas $4.00 behavioral breakpoint (imminent)** | CARL | 🔴🔴 |
 | 3/23 | Rengo shunto wage tally (round 1) | SAM | 🟠 |
 | **3/24** | **FL UI exhaustion Wave 1 — consumption cliff** | LABOR/CARL | 🔴 |
+| **3/24** | **Trump 48hr ultimatum to Iran expires (~evening ET)** | HAWK | 🔴🔴 |
+| **3/25** | **Jefferies Q1 earnings — WAL double-pledging exposure** | REGINALD | 🔴 |
+| **3/26** | **ARESSI flow data — BROCK PC catalyst** | BROCK | 🔴 |
+| 3/27 | OBDCII reporting window opens (through Apr 3) | BROCK | 🔴 |
+| 3/28 | PCE (Feb) — likely hot given PPI +0.7% | HENRY | 🔴 |
 | 3/27 | Rengo wage tally (round 2) | SAM | 🟠 |
 | 3/27 | USO $118C Mar 27 expiry — **CUT recommended** | PROME | 🔴 |
 | 3/28 | DHS paycheck miss (Day 41, pre-recess) | MARCO | 🟠 |
@@ -36,7 +41,7 @@
 | **4/17** | **APO $100P Apr expiry — CUT agreed** | PROME | 🔴 |
 | ~4/20 | ZION Q1 Earnings | REGINALD | 🔴 |
 | ~4/21 | WAL Q1 Earnings | REGINALD | 🔴 |
-| **4/23** | **BOJ meeting — earliest hike window (2 days)** | SAM | 🔴 |
+| **4/23** | **BOJ meeting — possible but oil may delay to May** | SAM | 🟠 |
 | ~4/25 | Asada joins BOJ board (Takaichi dove-stacking) | SAM | 🟠 |
 | ~4/29 | EGBN Q1 Earnings | REGINALD | 🟠 |
 | 4/28 | FOMC (2 days) | HENRY | 🟠 |
@@ -47,7 +52,10 @@
 
 | Date | Event | Owner | Priority |
 |------|-------|-------|----------|
+| **5/1** | **APO class action lead plaintiff deadline** | BROCK | 🔴 |
+| **5/1** | **BOJ meeting — most probable hike date if April delayed** | SAM | 🔴 |
 | **5/1** | **SOFI $16P May 1 expiry** | PROME | 🟠 |
+| 5/4-7 | APODS flow data (APO catalyst) | BROCK | 🟠 |
 | 5/8 | NFP (Apr) | HENRY | 🔴 |
 | **5/12** | **WAL Investor Day** | REGINALD | 🔴 |
 | **5/13** | **April CPI — first oil-shock print** | HENRY | 🔴🔴 |
