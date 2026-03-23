@@ -62,6 +62,16 @@ FDIC calls 60 "normal range" (1-2% of banks). But +69% from trough with zero fai
 - DIF reserve ratio: 1.42%
 - 4,336 FDIC-insured institutions (down 43 in Q4, all mergers)
 
+## Adversarial Challenges (Stress-Test Before Citing)
+1. **Reserve coverage footnote:** FDIC cites "pending loan portfolio sale between institutions" as mechanical reason for allowance decline. One-time factor that reverses next quarter. The 171.2% may partially recover — so don't overstate reserve compression acceleration. **Counter:** The noncurrent rise ($4.1B QoQ) is NOT explained by the sale. Reserves can be managed, noncurrents can't be faked.
+2. **Aggregate PDNA still below pre-pandemic:** 1.56% vs 1.94% average. FDIC is technically right that aggregate looks fine. **Counter:** Our thesis lives on sub-portfolio divergence — non-owner CRE and multifamily are the pockets where WAL/OZK are overweight, and those are exactly what FDIC flags as above pre-pandemic.
+3. **Community bank NIM at 3.77% (highest since 2018):** Surface reads as healthy. **Counter:** NIM can be high right before credit losses spike — margin doesn't matter if the loans default.
+
+## Geographic Analysis Needed
+- Table III-B: Community bank breakdowns by region (Atlanta + Dallas Fed districts)
+- Cross-reference against WAL (Phoenix/LA) and OZK (national Sunbelt CRE) concentration
+- If regional community bank PDNA > 1.36% national avg in these districts, thesis strengthens
+
 ## REGINALD Implications
 1. Reserve coverage declining industry-wide validates OZK thesis — they're just more aggressive
 2. Community bank coverage at 154.3% vs OZK cutting reserves = outlier behavior on an already-declining trend
