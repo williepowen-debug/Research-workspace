@@ -1,7 +1,7 @@
 # PROME STATUS.md
-**Updated:** 2026-03-23 14:15 UTC
+**Updated:** 2026-03-23 17:35 UTC
 
-## 🔴🔴 SCENARIO D DOMINANT (72%) — WAR DAY 22 — BRENT $104 — ACCOUNT $51,447 (-10.48% today, relief rally)
+## 🔴🔴 SCENARIO D DOMINANT (78%) — WAR DAY 24 — BRENT mid-$90s — ACCOUNT $51,447 (relief rally = VOL TRAP)
 
 ---
 
@@ -18,7 +18,7 @@
 | HENRY | 🔴🔴 | JPM retail fatigue (-30% purchases). Fed T-Bill $352B integrated. | 3/23 | 0 ✅ |
 | LIQUID | 🔴🔴 | Stealth liquidity, FHLB +31%, JPM restricting PC lending. Global yield reversal. | 3/23 | 0 ✅ |
 | ZHAO | 🔴🔴 | Demand hole revised $70-135B/mo. Ghalibaf UST threat = one-way ratchet. | 3/23 | 0 ✅ |
-| HAWK | 🔴🔴 | Scenario D 72%. Trump ultimatum Mon. Taiwan LNG + fertilizer -45% integrated. | 3/23 | 0 ✅ |
+| HAWK | 🔴🔴 | Scenario D **78%**. Day 24. Israel striking Tehran. Iran hit Dimona (nuclear). "Talks" = fiction. | 3/23 | 0 ✅ |
 | BROCK | 🟠 | BCRED first NAV loss. ARESSI Mar 26, OBDCII Mar 27. True defaults 4-5%. | 3/23 | 0 ✅ |
 | REGINALD | 🟠 | Mortgage ATH + Jefferies Q1 integrated. OZK pre-earnings Mar 25. | 3/23 | 0 ✅ |
 | BRENT | 🔴🔴 | Chemical tanker freight 4x spike. All other signals already integrated. | 3/23 | 0 ✅ |
