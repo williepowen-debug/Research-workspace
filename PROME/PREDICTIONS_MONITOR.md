@@ -1,5 +1,5 @@
 # PREDICTIONS MONITOR
-**Updated:** 2026-03-14
+**Updated:** 2026-03-23
 
 Quick-reference for predictions closest to resolution. Check daily.
 
@@ -15,7 +15,7 @@ Quick-reference for predictions closest to resolution. Check daily.
 | **CARL-16** | Fannie MF DQ >0.80% | **0.74%** | 0.80% | **0.06pp** | Q1 2026 | CARL |
 | **CARL-11** | CC 90+ DQ >13.74% (GFC) | **12.70%** | 13.74% | **1.04pp** | Q2 2026 (no new data — NY Fed Q4 is latest) | CARL |
 | **CARL-12** | Student 90+ DQ >10% | **9.6%** | 10.0% | **0.4pp** | Q1-Q2 2026 | CARL |
-| **SAM-7** | Shunto tally ≥3.5% | Demands 5.94%. Nissan accepted in full (¥10K/mo). | 3.5% base-up | First tally **Mar 21** (not mid-Mar) | SAM |
+| **SAM-7** | Shunto tally ≥3.5% | **✅ 5.26% avg (Rengo first tally Mar 23)** | 3.5% base-up | **BREACHED — 3rd yr >5%** | SAM |
 
 ---
 
@@ -37,9 +37,9 @@ Quick-reference for predictions closest to resolution. Check daily.
 | Date | Event | Prediction | Agent |
 |------|-------|------------|-------|
 | **Mar 15** | Taiwan LNG critical date | Qatar-cleared cargoes consumed, spot gap opens | HAWK |
-| **Mar 17-18** | FOMC + SEP | 0-cut dots into stagflation. Fed paralyzed. | HENRY |
-| **Mar 18-19** | BOJ + Ueda presser | Hold 92-95%. Verbal intervention if USD/JPY at 159+. | SAM |
-| **Mar 18** | TIC data (Belgium) | $477.3B → $500B threshold? | ZHAO |
+| ~~**Mar 17-18**~~ | FOMC + SEP | ⚠️ **Partial**: Held. Dots show 1 cut (not 0). Tone paralyzed. Powell: "if no progress, no cut." | HENRY |
+| ~~**Mar 18-19**~~ | BOJ + Ueda presser | ✅ **Hold 8-1**. Takata dissented for 1.0%. Ueda keeps April hike on table. USD/JPY 159.37. | SAM |
+| ~~**Mar 18**~~ | TIC data (Belgium) | ❓ Need to check — was released Mar 18 | ZHAO |
 | **Mar 20** | Kuwait curtailment physical | Forced well shutdowns if storage full | BRENT |
 | **Mar 24** | FL UI exhaustion Wave 1 | Triple collision: LABOR+CARL+REGINALD | LABOR |
 | **Mar 31** | Q1 end — WTI close | NOPI magnitude locked | HENRY,BRENT |
@@ -59,6 +59,7 @@ Quick-reference for predictions closest to resolution. Check daily.
 |----|------------|--------|------|-------|
 | CARL-14 | Subprime Auto 60+ >7% | ✅ **7.1%** | Mar 2026 | OTTO confirmed. BREACHED. Heading 7.5-8.0% by Q2. |
 | — | NFP negative | ✅ **-92K** | Mar 6 | First negative this cycle. Dec revised to -17K. |
+| SAM-7 | Shunto tally ≥3.5% | ✅ **5.26%** | Mar 23 | Rengo first tally. 3rd consecutive yr >5%. Strengthens BOJ April hike case. |
 | — | GDP weakness | ✅ **0.7%** | Mar 14 | Revised from 1.4%. Economy entered oil shock already weak. |
 | OTTO-4 | Bank losses >$1B (auto fraud) | ✅ $1.8B | Feb 14 | Tricolor $591M + First Brands ~$1.2B |
 | CARL-1 | CC 90+ >8.36% | ✅ 12.70% | Feb 10 | NY Fed Q4 2025 |
@@ -68,7 +69,7 @@ Quick-reference for predictions closest to resolution. Check daily.
 | SAM-3 | Takaichi <260 seats | ❌ 316 | Feb 8 | Supermajority |
 | LABOR-4 | KFRC guides down | ⚠️ Partial | Feb 11 | Beat but confirms stagnation |
 
-**Running Score:** 8.5/10 (85%)
+**Running Score:** 10.5/12 (88%)
 
 ---
 
@@ -125,11 +126,11 @@ Run this check weekly or when data releases:
 
 | Metric | Value |
 |--------|-------|
-| Total Resolved | 10 |
-| Correct | 7 |
-| Partial | 1.5 |
+| Total Resolved | 12 |
+| Correct | 8 |
+| Partial | 2.5 |
 | Wrong | 1 |
-| **Accuracy** | **85%** |
+| **Accuracy** | **88%** |
 
 **Insight:** System accuracy improving with scale. Higher-confidence predictions performing well. Major misses only on political calls (SAM-3 election).
 

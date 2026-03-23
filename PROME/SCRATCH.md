@@ -1,35 +1,44 @@
 # SCRATCH — Ephemeral Working Memory
 
-**Updated:** 2026-03-23 ~01:45 UTC (Sunday 8:45 PM ET)
+**Updated:** 2026-03-23 14:15 UTC (Mon 10:15 AM ET)
 
 ---
 
 ## QUICKSTART
-Scenario D DOMINANT (68%). War Day 22. Account $57,467 (+134%). Markets open tomorrow (Mon 3/23).
-**🔴 GULF ENERGY WAR** — Hormuz closed + mined. Yanbu under attack. Qatar LNG permanent (3-5yr). Brent $107+. Gas $3.91→$4 breakpoint.
-**HY OAS: 328bps** (corrected from 320). 22bps from 350 issuance freeze. RED.
-**Fed trapped CONFIRMED.** No cut. No put. PCE 3.1%.
-**Private credit Stage 2 CONFIRMED.** JPM margin calls, DB $30B, BCRED first NAV loss, true defaults 4-5%.
-**Mon 3/23:** Gas $4 breakpoint + Rengo wage tally. **Tue 3/24:** FL UI Wave 1 exhaustion.
+Scenario D 72% (↑ from 68%). War Day 22. Account $51,447 (relief rally day, -10.48%). Brent ~$104 (crashed from $114 on "Trump-Iran talks" — Iran denying).
+**Trump 48hr ultimatum expires Mon 3/24 evening.** HAWK: 35% US strikes, 25% ambiguity, 20% Iran pre-empts.
+**HY OAS: 327bps** — 23bps from 350 issuance freeze. RED threshold confirmed.
+**All agent inboxes CLEARED.** First time in weeks. System fully current.
+**Inbox/outbox migration DONE.** All agents use flat inbox/outbox now.
 
 ## HANDOFF
-**Last context:** BROCK inbox (9 signals) processed, NEXUS Pass 9 completed, proposals consolidated. Will reviewed and approved all proposals for Monday execution.
+**Last context:** Massive housekeeping + position review session with Will. Relief rally = pain today but thesis unchanged.
 
 **Completed this session:**
-1. ✅ Iran war library: Munitions + Shale synthesis (subagents). Files 13 + 14 complete.
-2. ✅ INDEX.md rebuilt — 14 completed files, clean numbering, "How To Use" reading paths added.
-3. ✅ NEXUS STATUS pruned 19KB→4.3KB before Pass 9 spawn.
-4. ✅ BROCK inbox processed (9 signals) — Stage 2 confirmed, BCRED NAV loss, JPM markdowns, true default rate 4-5%.
-5. ✅ NEXUS Pass 9 — 3 convergence upgrades (C-16→99%, C-21→95%, C-11→97%), 2 new (C-32 BDC Reflexivity, C-33 Software Refi Wall), PROP-09 (OWL Apr puts).
-6. ✅ Proposals saved to `PROME/PROPOSALS_MAR23.md` — Will likes all, execute tomorrow.
+1. ✅ ALL agent inboxes cleared (REGI, CARL, HENRY, LIQUID, SAM, HAWK, LABOR, BRENT — ~30 signals processed)
+2. ✅ Inbox/outbox migration — all agents + HERMES moved from mail/inbox → flat inbox/
+3. ✅ Full position review with Will — see TODO_GREEN_DAY.md
+4. ✅ SAM STATUS updated manually (BOJ timing → May 1, FXY decision pending)
+5. ✅ CARL thesis evolution: Path C activating (housing cracking before employment)
+6. ✅ ZHAO check-in: demand hole revised $70-135B/mo, Ghalibaf one-way ratchet
+7. ✅ MARCO check-in: ICE raids confirmed, 4 workforce disruption vectors
+8. ✅ BROCK DBRS vintage data saved (default pipeline: 16% CCC-C, 3.4yr avg time to default)
+9. ✅ HAWK outbox reviewed (Trump ultimatum, Ghalibaf financial warfare, scenario tree)
+
+**Position decisions made:**
+- HOLD: KRE (all), IWM, HYG, TLT Jun+Oct, WAL (all 4), ARES, ZION, CF, AAL, FLG, KELYA, OWL
+- CONSIDERING SELL: TLT 88 Put May (+134%)
+- CUT ON RED DAY: APO 100 Put Apr 17 (-57%)
+- DEAD: EGBN 25 Put Jun
+- INVESTIGATE LATER: SOFI consumer pain thesis
 
 **Next session (priority order):**
-1. **Will wants to analyze/integrate new signals** — he'll bring them
-2. **Trade execution at open** — see `PROME/PROPOSALS_MAR23.md`. OWL most urgent (buy before Wed 3/26).
-3. **Remaining inbox backlogs:** LIQUID (4), HENRY (3), HAWK (3)
-4. **Shunto wage tally** — needed for PROP-04 (FXY sizing)
-5. **APO expiry decision** — keep Apr or roll to May/Jun?
+1. **Market watch** — does Iran denial unravel the rally? Ultimatum deadline Mon evening.
+2. **Jefferies Q1 earnings** — Tue/Wed, WAL contagion narrative
+3. **OZK pre-earnings analysis** — start Mar 25, use 8-K framework from REGI
+4. **ARESSI flow data Mar 26** — BROCK catalyst for OWL/APO
+5. **NEXUS synthesis pass** — when catalyst dust settles
+6. **FXY sizing** — thesis confirmed, waiting for entry
+7. **Stale agents** — HANS/DARWIN: keep or kill?
 
-**Open questions:** Stale sub-agents (CARL POLLY/POP/GIG/NICK, REGINALD RENO/TEX). Seven clocks agent assignment. HANS DD-4 priority.
-**Positions:** See `PROME/POSITIONS.md`.
-**Proposals:** See `PROME/PROPOSALS_MAR23.md`.
+**Open questions:** TLT May sell decision. SOFI thesis. Seven depletion clocks agent assignment.
