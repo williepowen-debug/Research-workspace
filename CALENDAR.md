@@ -1,6 +1,6 @@
 # CALENDAR — Unified Event Tracker
 
-*Updated: 2026-03-22. Econ data releases → `AGENTS/HENRY/domain/ECON_CALENDAR.md`*
+*Updated: 2026-03-23. Econ data releases → `AGENTS/HENRY/domain/ECON_CALENDAR.md`*
 
 ---
 
@@ -12,17 +12,19 @@
 | 3/23 | ~~Rengo shunto wage tally (round 1)~~ | SAM | ✅ 5.26% |
 | **3/24** | **FL UI exhaustion Wave 1 — consumption cliff** | LABOR/CARL | 🔴 |
 | **3/24** | **Trump 48hr ultimatum to Iran expires (~evening ET)** | HAWK | 🔴🔴 |
+| 3/25 | OZK 8-K EDGAR watch begins | OTTO/REGINALD | 🟠 |
 | **3/25** | **Jefferies Q1 earnings (after close) — WAL double-pledging exposure** | REGINALD | 🔴 |
 | **3/26** | **ARESSI flow data — BROCK PC catalyst** | BROCK | 🔴 |
 | 3/27 | OBDCII reporting window opens (through Apr 3) | BROCK | 🔴 |
-| 3/28 | Initial Claims | HENRY | 🟠 |
 | 3/27 | Rengo wage tally (round 2) | SAM | 🟠 |
+| 3/27 | Initial Claims | HENRY | 🟠 |
 | 3/27 | USO $118C Mar 27 expiry — **HOLDING (Hormuz still closed)** | PROME | 🔴 |
 | 3/28 | DHS paycheck miss (Day 41, pre-recess) | MARCO | 🟠 |
 | 3/30 | Senate recess → shutdown auto-extends to 60+ | MARCO | 🟠 |
 | **3/31** | **Q1 end — WTI close = NOPI magnitude** | BRENT | 🔴🔴 |
 | **3/31** | **USDA planting intentions — depletion clock #1** | HAWK | 🔴🔴 |
 | 3/31 | Tricolor liquidation deadline | OTTO | 🟠 |
+| ~3/31 | First Brands auction conclusion | OTTO | 🟠 |
 | ~3/31 | Japan FY-End ESR Disclosures | SAM | 🔴 |
 | ~3/31 | JPM Collar Expiry | HENRY | 🟡 |
 
@@ -31,12 +33,14 @@
 | Date | Event | Owner | Priority |
 |------|-------|-------|----------|
 | **4/1** | **Tankan — BOJ checkpoint** | SAM | 🔴 |
-| 4/1 | Japan FY-end repatriation begins | SAM | 🔴 |
+| 4/1 | Japan FY-end repatriation deadline passed — selling may continue into early Apr | SAM | 🔴 |
 | **4/2** | **OWL $9.5P Apr 2 expiry** | PROME | 🔴 |
 | **4/3** | **NFP (Mar) + FAO food price index — depletion clock #2** | HENRY/HAWK | 🔴 |
 | **4/9** | **PCE (Feb) + GDP Q4 third estimate** | HENRY | 🔴 |
 | 4/10 | CPI (Mar) | HENRY | 🟠 |
+| ~4/13 | Congress returns from recess — shutdown resolution window | MARCO | 🟠 |
 | 4/14 | Planting deadline — depletion clock #3 | HAWK | 🔴 |
+| **4/15** | **TIC data (Jan) — first post-crisis Gulf flow data** | ZHAO | 🔴 |
 | 4/15 | Tax Season / TGA rebuild | LIQUID | 🟠 |
 | **4/16** | **OZK Q1 Earnings** | REGINALD | 🔴 |
 | **4/17** | **APO $100P Apr expiry — CUT agreed** | PROME | 🔴 |
@@ -63,9 +67,11 @@
 | 5/15 | OZK $42.5P May + TLT $88P May expiry | PROME | 🟠 |
 | 5/25 | Pharma supply exhaustion — depletion clock #5 | HAWK | 🔴 |
 | 5/30 | Helium exhaustion — depletion clock #6 (AAPL risk) | HAWK | 🔴 |
+| 5/5 | CVNA stock split vote | OTTO | 🟠 |
 | May TBD | BDC Earnings (BXSL, FSK, OWL) | BROCK | 🔴 |
 | 6/16 | FOMC (SEP + dot plot, 2 days) | HENRY | 🔴 |
 | 6/18 | **Major Jun expiry cluster** — WAL, KRE, HYG, APO, AAL, ARES, EGBN, CF | PROME | 🔴🔴 |
+| 6/12 | CVNA Discovery Production 2 | OTTO | 🟠 |
 | 6/15 | Sato joins BOJ board (dove-stacking complete) | SAM | 🟠 |
 
 ## H2 2026 (Background)
