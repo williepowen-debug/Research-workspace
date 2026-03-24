@@ -8,6 +8,11 @@
 
 ## PRE-EARNINGS CHECKLIST
 
+### CONFIRMED PRE-EARNINGS DEVELOPMENTS (Mar 24)
+- **Sterling Bay Lincoln Yards seized** (Mar 20, 2026): 284K SF life sci building, deed-in-lieu, 100% vacant since 2023. Carrying value $50M (68% of $74M appraisal). $14.1M charged off H2 2025. Now OREO via BOTO Strategic Properties IV LLC. [KB-OZK-094]
+- **$265M SD life sci loan sold to SVP** (Jan 2026): Sterling Bay project, largely vacant. Sold to distressed buyer Strategic Value Partners. Loss amount unknown — need to check Q1 charge-offs. [KB-OZK-095]
+- **Key Q1 question:** Did the SVP loan sale generate additional charge-offs in Q1? The $265M was still on book at Q4. If sold at discount, Q1 NCOs could spike.
+
 ### Data to Pull Before Apr 16
 - [ ] **OZK Call Report RC-C** — state-level nonfarm nonresidential noncurrent rates. Compare institution-level vs FDIC district benchmarks (NY 1.57%, Atlanta 1.36%). Available on FFIEC CDR / EDGAR.
 - [ ] **8-K EDGAR watch** (started Mar 25) — any forced pre-announcement, loan sale disclosures, material event filings
