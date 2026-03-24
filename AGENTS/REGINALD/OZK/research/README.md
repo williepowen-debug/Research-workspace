@@ -33,6 +33,7 @@ Original analysis produced by the agent network. Each file is a standalone deep 
 | C2 | Rate relief scenario — do cuts save OZK? |
 | C3 | Capital absorption — thin EV edge counter |
 | D1–D5 | Deep dives: LTV, pledged loans, shadow CRE, problem bank comp, dividends |
+| **D6** | **Extend-and-pretend: 590 mods, 98% classification gap, 59% re-default. Thesis Layer 2 (mechanism).** |
 | 8K Framework | Forced disclosure triggers and timeline |
 | NDFI Analysis | Shadow CRE in non-depository financial institution loans |
 | Insider Activity | Form 4 compilation |
