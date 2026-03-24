@@ -104,7 +104,7 @@ OZK has the **worst absolute Memo Item 3 ratio** in the screen [KB-OZK-020] — 
 | "358% CRE is fine, always concentrated" | Never stress-tested with frozen refi + collapsed life sciences + sponsor fatigue simultaneously. KBRA Negative outlook. 302% CRE/Total RBC = barely above 300% regulatory threshold. |
 | "FDIC reserve footnote = one-time" | Explains allowance decline, NOT NPL surge ($150M → $341M in ONE quarter). NPLs are the real signal. |
 | "Short interest 14-15% = squeeze" | Crowded yes, but coverage 1.6x and falling is the worst in peer group. Squeezes are temporary; trajectory isn't. |
-| "Gleason has never lost" | Gleason has never faced frozen refi + collapsed life sciences + 358% concentration simultaneously. Past performance ≠ future. |
+| "Gleason has never lost" | GFC record is genuine — beat industry NCOs every quarter but one, ROA >1.20% throughout [KB-OZK-064]. BUT: GFC book was ~$2B community-scale AR CRE, not today's $20B+ national RESG. CRE/equity was 381% then vs ~620% now [KB-OZK-068]. RESG dominance came post-2012 — this is the first real stress test of the actual portfolio [KB-OZK-067]. FDIC loss-share cushioned apparent performance [KB-OZK-066]. |
 | "IQHQ got extended, crisis deferred" | Extension = more time underwater. 97% vacant [KB-OZK-028 ⚠️ Oct 2024, may be stale], SD life sciences vacancy 25-29%. Extension doesn't create tenants. IQHQ itself under financial pressure (investor markdowns 4-23%, PIK loans at 13.5-14%) [KB-OZK-029]. |
 
 ---
