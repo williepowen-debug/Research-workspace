@@ -88,23 +88,40 @@
 
 ---
 
-## EXECUTION PLAN
+## EXECUTION STATUS (Updated Mar 23, 10:20 PM ET)
 
-### Phase 1: Primary Data (This week, before Mar 28)
-- **Fixes 1 + 3 + 6 + 7** — One spawn session pulls 10-Q from EDGAR, extracts Q4 2025 data, reconciles CRE denominators, resolves life sciences and construction ACL discrepancies. ~1 hour.
-- **Fix 2 (IQHQ)** — Parallel: Will Googles IQHQ news/leasing, agent searches EDGAR for OZK IQHQ disclosures. ~30 min each.
+| Fix | Status | Notes |
+|-----|--------|-------|
+| 1 | ✅ COMPLETE | Primary data extracted from Mgmt Comments |
+| 2 | ⬜ OPEN | IQHQ — not disclosed in OZK filings, external sources only |
+| 3 | ✅ COMPLETE | CRE denominators reconciled |
+| 4 | ✅ COMPLETE | FDIC API + FFIEC CDR pulled |
+| 5 | ✅ COMPLETE | SCENARIOS.md created, EV $38.75 |
+| 6 | ✅ PARTIAL | $3.1B total confirmed, funded split unverified |
+| 7 | 🟡 DEFERRED | Construction ACL — may not need separate pull |
 
-### Phase 2: Institutional Data (Next week, before Apr 7)
-- **Fix 4 (RC-C)** — Pull from FFIEC CDR. Compare institution vs district. ~30 min.
-- **Fix 5 (Scenarios)** — Requires Fix 1 data. Build bull/base/bear with stock targets. ~1 session.
+### AUDIT GAPS (from AUDIT_REPORT_MAR23.md)
+| Gap | Status | Notes |
+|-----|--------|-------|
+| A (Data integrity) | ✅ COMPLETE | All 8 contradictions fixed |
+| B1 (State-level RC-C) | ❌ OPEN | Not in standard call report format |
+| B2 (Uninsured deposits) | ✅ COMPLETE | $11.9B / 35.8% |
+| B3 (NDFI $2.74B) | ✅ COMPLETE | 23 named counterparties via 4 deep research models |
+| B4 (FHLB/liquidity) | ❌ OPEN | $23.9B pledged, borrowing capacity unknown |
+| B5 (Bioterra source) | ✅ COMPLETE | Square Mile Capital co-originator, $203M Dec 2022 |
+| B6 (Pacific Center "par") | 🟡 PARTIAL | Consistent with mgmt comments, not independently verified |
+| B7 (Insider Form 4s) | ❌ OPEN | Quick EDGAR check |
+| B8 (IQHQ in OZK filings) | ✅ CONFIRMED ABSENT | Zero mention in any OZK filing |
+| C (Weaknesses) | ❌ OPEN | Rate relief scenario, reclassification innocent explanation |
+| D (Opportunities) | ❌ OPEN | LTV extrapolation, problem bank comparison |
+| E (Publication readiness) | ❌ OPEN | Temple 8 refs, PDNA geography inversion |
 
-### Phase 3: Final Review (Apr 7-14)
-- Update EVIDENCE.md with all new data
-- Re-run audit agent to verify fixes
-- Final EARNINGS_PREP.md update with RC-C data and scenario framework
-- Confirm all research agenda items checked off
+### Publishing Prep (Mar 24)
+- Core findings are publication-ready
+- Need to clean Temple 8 references
+- Need to write standalone publishable piece (separate from internal files)
 
-**Target:** A folder by Apr 14, two days before earnings.
+**Target:** A+ folder by Apr 14, two days before earnings.
 
 ---
 

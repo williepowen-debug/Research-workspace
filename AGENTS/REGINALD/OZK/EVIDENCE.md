@@ -53,7 +53,7 @@ Dallas CB 30-89 pipeline tied for highest = hot at OZK's home district too.
 |------|--------|--------|----------|
 | **IQHQ RaDD (San Diego)** | $915M / ~$555M funded | 97% vacant (1 tenant: J. Craig Venter, 50K/1.7M SF). Cole est: worth ~$500M = underwater. SD life sci vacancy 25-29%. IQHQ under pressure (markdowns 4-23%, PIK loans 13.5-14%). **Two-year extension reported (Bisnow Oct 2024), +$87M equity injection.** Not disclosed in OZK filings — all from external sources. | **~Aug 2028** (extended from 2026) |
 | Pacific Center (Sorrento Mesa) | $265M | Sold to Strategic Value Partners (distressed debt) Jan 5. Mgmt claims "par" and "one-off." | Done |
-| Bioterra (Sorrento Mesa) | $202M | Vacant, facing distress. 5 miles from Pacific Center. | Active |
+| Bioterra (Sorrento Mesa) | $203M | **Co-originated with Square Mile Capital (Dec 2022).** 316K SF life science campus, now vacant. 5 miles from Pacific Center. Source: Commercial Observer, confirmed via Claude deep research. | Active |
 | Boston office | $72.4M | Charged off Q4 | Done |
 | Lincoln Yards (Chicago) | $9M | Life sciences, charged off Q4 | Done |
 | LA land parcel | $54.45M | Foreclosed | Done |
@@ -112,10 +112,33 @@ TCE: $5,130M | TBV/share: $46.48 | Book/share: $52.46
 ### Adjusted CRE Concentration (Including Shadow NDFI + Memo Item 3)
 | Metric | Reported | + Shadow CRE + MI3 |
 |--------|---------|-------------------|
-| CRE / Tier 1 | 358% | **405-416%** |
-| Basis | On-balance CRE only | + $1.0-1.6B shadow CRE via NDFI + $1.289B Memo Item 3 |
+| CRE / Tier 1 | 358% | **411-420%** |
+| Basis | On-balance CRE only | + $1.25-1.75B shadow CRE via NDFI + $1.289B Memo Item 3 |
 
-OZK's $2.74B NDFI book (loans to bridge lenders, PE funds, BDCs) is positively correlated with CRE stress — wrong-way risk. CEO Gleason confirmed on Q3 2025 earnings call: **"a chunk of our NDFI loans that show up on our call report are actually RESG loans. And this goes back to our long-standing relationships with a lot of the debt funds that do commercial real estate lending."** Management's own admission: NDFI ≈ CRE debt fund exposure. Full analysis → `research/NDFI_SHADOW_CRE_ANALYSIS.md`
+### NDFI = CRE Debt Fund Exposure (23 Named Counterparties Identified)
+
+CEO Gleason, Q3 2025 earnings call: **"A chunk of our NDFI loans that show up on our call report are actually RESG loans... debt funds that do commercial real estate lending."** He described two mechanisms: (a) senior/mezz co-lending, and (b) **note-on-note back-leverage** where funds pledge their entire loan to OZK as collateral.
+
+**Deep research across 4 models identified 23 named entities (19 CRE, 4 non-CRE):**
+
+Top CRE counterparties by deal volume:
+| Partner | Deals | Largest Deal | Stress |
+|---------|-------|-------------|--------|
+| **Square Mile Capital** | 5 deals, $1.5B+ | One Chicago $735M; **Bioterra SD $203M (VACANT)** | 🔴 |
+| **JVP Management** | 1 deal | 50 W 66th NYC $967M ($800M OZK) | 🟡 |
+| **Cain International** | 1 deal | Aman NYC $750M ($300M OZK) | 🟢 |
+| **Affinius Capital** | 7+ deals (most frequent) | Multiple industrial/multifamily $500M+ | 🔴 $2.7B bond stress, Oct 2026 |
+| **Starwood (STWD)** | Multiple | $400M Philly construction | ⚠️ Div cut 2023 |
+| **Related Fund Mgmt** | 2+ deals | $380M Riverwalk SD | 🟢 |
+| **Blue Owl** | 1 confirmed | $335M bridge refi'd OZK's $215M Wynwood | 🔴 Redemption gates |
+
+**6 of 19 CRE partners under stress.** Blue Owl is an OZK exit counterparty — takes out maturing construction loans. If Blue Owl can't fund, OZK's maturity wall worsens.
+
+**Only confirmed BDC direct lending:** Prospect Floating Rate Fund, $75M revolving credit, OZK as facility agent (SEC 8-K, Aug 2025).
+
+**Ruled out:** ARCC, OBDC, BXMT, KREF, Claros, Ready Capital — none confirmed as OZK counterparties. OZK's NDFI book tilts mid-market CRE funds, not large alts managers.
+
+Full analysis + all sources → `research/NDFI_SHADOW_CRE_ANALYSIS.md`
 
 ---
 
