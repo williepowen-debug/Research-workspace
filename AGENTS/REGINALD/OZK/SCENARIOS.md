@@ -22,7 +22,7 @@
 | Metric | Q3 2025 | Q4 2025 | Run Rate |
 |--------|---------|---------|----------|
 | Noncurrent | $149.7M | $341.2M | Doubling quarterly |
-| Quarterly NCOs | $48.3M | $50.6M | ~$50M/quarter, accelerating |
+| Quarterly NCOs (net) | $48.3M | $50.6M | ~$50M/quarter, flat Q3→Q4 |
 | ACL | $532.3M | $475.7M | Declining $56.6M/quarter |
 | Provision | — | $50.6M | Covering ~half of losses |
 | ACL/Noncurrent | 3.55x | 1.39x | Collapsing |

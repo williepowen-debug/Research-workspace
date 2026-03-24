@@ -1,5 +1,5 @@
 # PROME STATUS.md
-**Updated:** 2026-03-23 23:05 UTC
+**Updated:** 2026-03-24 13:15 UTC
 
 ## 🔴🔴 SCENARIO D DOMINANT (78%) — WAR DAY 24 — BRENT mid-$90s — ACCOUNT $51,447 (relief rally = VOL TRAP)
 
@@ -9,21 +9,21 @@
 
 | Agent | St | Key State | Upd | Inbox |
 |-------|----|-----------|-----|-------|
-| NEXUS | 🟢🟢 | Pass 9 complete. 50/50 convergence. Stage 2 confirmed. | 3/23 | 0 |
+| NEXUS | 🟢🟢 | Pass 9 complete. 50/50 convergence. Stage 2 confirmed. | 3/23 | 3 |
 | CARL | 🔴🔴 | Path C activating (housing cracking before employment). Convergence 43/50. | 3/23 | 0 ✅ |
-| LABOR | 🟢 | Claims 205K benign. FL UI cliff Mar 24. ICE construction raids confirmed. | 3/23 | 0 ✅ |
+| LABOR | 🟢 | Claims 205K benign. FL UI cliff Mar 24. ICE construction raids confirmed. | 3/24 | 0 ✅ |
 | SAM | 🟢 | Shunto 5.26%. GPIF breached. BOJ hike likely May 1 not April. | 3/23 | 0 ✅ |
-| OTTO | 🟢 | DQ 7.1% RED. El-Erian 2007 parallel. | 3/23 | 0 |
-| MARCO | 🟢 | DHS Day 37. ICE raids = 4 workforce disruption vectors. Congress recessing to Apr 13. | 3/23 | 0 |
+| OTTO | 🟢 | DQ 7.1% RED. El-Erian 2007 parallel. | 3/23 | 2 |
+| MARCO | 🟢 | DHS Day 37. ICE raids = 4 workforce disruption vectors. Congress recessing to Apr 13. | 3/23 | 0 ✅ |
 | HENRY | 🔴🔴 | JPM retail fatigue (-30% purchases). Fed T-Bill $352B integrated. | 3/23 | 0 ✅ |
 | LIQUID | 🔴🔴 | Stealth liquidity, FHLB +31%, JPM restricting PC lending. Global yield reversal. | 3/23 | 0 ✅ |
-| ZHAO | 🔴🔴 | Demand hole revised $70-135B/mo. Ghalibaf UST threat = one-way ratchet. | 3/23 | 0 ✅ |
+| ZHAO | 🔴🔴 | Demand hole revised $70-135B/mo. Ghalibaf UST threat = one-way ratchet. | 3/23 | 1 |
 | HAWK | 🔴🔴 | Scenario D **78%**. Day 24. Israel striking Tehran. Iran hit Dimona (nuclear). "Talks" = fiction. | 3/23 | 0 ✅ |
 | BROCK | 🟠 | BCRED first NAV loss. ARESSI Mar 26, OBDCII Mar 27. True defaults 4-5%. | 3/23 | 0 ✅ |
 | REGINALD | 🟠 | Mortgage ATH + Jefferies Q1 integrated. OZK pre-earnings Mar 25. | 3/23 | 0 ✅ |
 | BRENT | 🔴🔴 | Chemical tanker freight 4x spike. All other signals already integrated. | 3/23 | 0 ✅ |
-| HANS | 🟠 | Needs DD-4 (China Hormuz). **STALE 12d** | 3/11 | 0 |
-| DARWIN | 🟡 | Scan overdue. **STALE 33d** | 2/18 | 0 |
+| HANS | 🟠 | Needs DD-4 (China Hormuz). **STALE 13d** | 3/11 | 3 |
+| DARWIN | 🟡 | Scan overdue. **STALE 34d** | 2/18 | 0 |
 
 ---
 

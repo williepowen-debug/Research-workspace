@@ -1,20 +1,25 @@
 # BRENT STATUS
 
-**Last Updated:** 2026-03-22 UTC
-**Overall Status:** 🔴🔴 RED-RED — HORMUZ CLOSED + MINED / KUWAIT PHYSICAL (MAR 20) / QATAR LNG PERMANENT DESTRUCTION / YANBU UNDER ATTACK / BRENT $107+ / SPR FAILED / PHASE 1 DEEP EXTENSION
+**Last Updated:** 2026-03-24 UTC
+**Overall Status:** 🔴🔴🔴 RED-RED-RED — HORMUZ CLOSED + MINED / RUSSIAN BALTIC EXPORTS OFFLINE (PRIMORSK+UST-LUGA) / NOVOROSSIYSK HIT / KUWAIT PHYSICAL / QATAR LNG PERMANENT / YANBU UNDER ATTACK / VALERO PORT ARTHUR FIRE (380K bpd) / SPR FAILED / PHASE 1 COMPOUNDING
 
 ---
 
-## ⚡ MAR 18-19 SUPPLY SNAPSHOT (condensed)
+## ⚡ MAR 24 SUPPLY SNAPSHOT
 
-| Producer | Crude Off Market | Key Status |
+| Producer/Facility | Crude Off Market | Key Status |
 |----------|-----------------|------------|
 | Iraq | ~3.0M bpd | Hormuz closure — full export cut |
-| Kuwait | ~1.5-2.0M bpd | Physical Mar 20 [CONF]. Refineries struck Mar 19 (Mina al-Ahmadi 466K + Mina Abdullah 270K bpd, fires) |
-| UAE | >1.6M bpd (>50% cut) | Fujairah terminal offline (3 attacks). Habshan/Shah gas offline |
-| Qatar | ~0.7M bpd + 77 MTPA LNG | **PERMANENT** — CEO: 3-5 YEARS to repair Ras Laffan. Full LNG suspension |
-| Saudi Arabia | Rerouted to Yanbu only | SAMREF refinery at Yanbu hit by drone Mar 19. Ballistic missile intercepted at terminal. **Yanbu = single chokepoint** |
-| **TOTAL** | **~6-7M bpd** | If Yanbu struck: +9-10M bpd offline → total Gulf 15M+ bpd |
+| Kuwait | ~1.5-2.0M bpd | Physical Mar 20 [CONF]. Refineries struck Mar 19 |
+| UAE | >1.6M bpd (>50% cut) | Fujairah terminal offline (3 attacks) |
+| Qatar | ~0.7M bpd + 77 MTPA LNG | **PERMANENT** — 3-5 YEARS to repair Ras Laffan |
+| Saudi Arabia | Rerouted to Yanbu only | SAMREF hit. **Yanbu = single chokepoint** |
+| **Russia — Baltic** | **~1.7M bpd at risk** | 🔴 **NEW Mar 23:** Primorsk (>1M bpd crude + diesel) SHUT — fuel reservoirs burning after Ukrainian drone strike. Ust-Luga (~700K bpd) suspended then restarted. Both are Russia's largest western export hubs |
+| **Russia — Black Sea** | Disrupted | Novorossiysk hit earlier Mar. All 3 major Russian export outlets attacked in same month |
+| **Russia — Refining** | ~500K bpd offline | Ufa (Bashneft) refinery also struck Mar 23 simultaneous with Primorsk |
+| **US — Valero Port Arthur** | **380K bpd** | 🔴 **NEW Mar 23:** Explosion + fire (industrial heater). Shelter-in-place issued. Fire extinguished but damage/restart TBD. 2nd largest Valero refinery |
+| **TOTAL Gulf** | **~6-7M bpd** | Hormuz chokepoint |
+| **TOTAL w/ Russia+US** | **~8-9M bpd equiv disrupted** | Multi-theater supply destruction now compounding |
 
 **Trigger:** Israel struck South Pars (Mar 18) — 70% Iran gas output, ~12% total Iran gas. Iran retaliated across GCC within hours.
 **Yanbu:** If successfully struck → Saudi exports near-zero → Brent $145-165+. #1 monitoring priority.
@@ -118,6 +123,7 @@ Canonical facility damage: `HAWK/domain/OIL_FACILITY_DAMAGE_TRACKER.md`
 |----------|-------|---------|-----|-------|
 | USO (2 shares) | ~$96 [EST] | ~$110 [EST] | +~14% [EST] | Brent $101.07 Mar 13 |
 | USO 91C Mar 18 | SOLD Mar 6 | $17.00 | +$1,098 (+183%) | Harvested |
+| **USO $118C Mar 27** | HOLDING | — | — | **Will HOLDING through Thu expiry.** Thesis: compounding multi-theater supply destruction (Hormuz + Primorsk + Valero) |
 
 **Watchlist:** USO adds on dips | US E&P beneficiaries (research needed) | Refiner shorts if cracks compress
 
