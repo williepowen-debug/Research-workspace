@@ -183,6 +183,41 @@ A bank with $200M buyback authority that refuses to buy its own stock at 52-week
 ```
 **Save as:** `sources/OZK_BUYBACK_ACTIVITY.md`
 
+### PROMPT 13: Peer 2022 Vintage Maturity Wall — Same Pattern?
+```
+Several regional banks had heavy construction lending in 2021-2022. I want to know if other banks with large 2022 construction vintages are showing the same noncurrent step-up pattern as Bank OZK.
+
+Check Q3-Q4 2025 FDIC data for these CRE-heavy construction lenders:
+- Glacier Bancorp (GBCI)
+- Pacific Premier (PPBI)  
+- Banc of California (BANC)
+- Customers Bancorp (CUBI)
+- Any other banks known for large construction books in 2022
+
+For each: 
+1. Construction & development loan balances (2022 peak vs current)
+2. Noncurrent loan trend Q1 2025 → Q4 2025
+3. NCO rate trend over same period
+4. Any management commentary about 2022 vintage performance
+
+If multiple banks show the same noncurrent step-up on 2022 vintages, it confirms OZK's pattern is systemic (maturity wall), not idiosyncratic (bad underwriting). If OZK is an outlier, that's worse — means their specific book is impaired.
+```
+**Save as:** `sources/PEER_2022_VINTAGE_COMPARISON.md`
+
+### PROMPT 14: OZK Options Implied Move vs Historical Earnings Moves
+```
+For Bank OZK (ticker OZK) earnings on April 16, 2026:
+
+1. What is the current options-implied move for earnings? (straddle price / stock price for the nearest weekly expiry)
+2. What have OZK's actual earnings-day moves been for the last 8 quarters? (date, direction, magnitude)
+3. How often has OZK exceeded the implied move? (beat rate)
+4. What is the current IV rank / IV percentile for OZK options?
+5. For the Aug 2026 $42.50 and $45 puts specifically — what's the current delta, IV, and open interest?
+
+Context: I hold Aug $42.50 and $45 puts. I need to know if the market is already pricing in a large move (high IV = thesis partially priced) or if options are cheap relative to the actual risk (low IV = opportunity). This directly affects whether to add, hold, or trim into earnings.
+```
+**Save as:** `sources/OZK_OPTIONS_IMPLIED_MOVE.md`
+
 ---
 
 *After running, drop files in `AGENTS/REGINALD/OZK/sources/`. I'll integrate into KB.tsv and update the thesis.*
