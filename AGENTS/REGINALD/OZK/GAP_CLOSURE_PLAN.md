@@ -112,8 +112,8 @@
 | B6 (Pacific Center "par") | 🟡 PARTIAL | Consistent with mgmt comments, not independently verified |
 | B7 (Insider Form 4s) | ✅ COMPLETE | Prior data in INSIDER_SCAN_OZK.md. No new transactions per GuruFocus. CRO discretionary sale Feb 24 remains strongest signal. |
 | B8 (IQHQ in OZK filings) | ✅ CONFIRMED ABSENT | Zero mention in any OZK filing |
-| C (Weaknesses) | ❌ OPEN | Rate relief scenario, reclassification innocent explanation |
-| D (Opportunities) | ❌ OPEN | LTV extrapolation, problem bank comparison |
+| C (Weaknesses) | ✅ COMPLETE | C1-C3 rebuttals done. C4 Gleason framing corrected. C5 IQHQ timeline noted. |
+| D (Opportunities) | ✅ COMPLETE | D1 LTV extrap, D2 pledged/liquidity, D3 shadow CRE lever, D4 problem bank, D5 dividend sustainability |
 | E (Publication readiness) | ❌ OPEN | Temple 8 refs, PDNA geography inversion |
 
 ### Publishing Prep (Mar 24)
