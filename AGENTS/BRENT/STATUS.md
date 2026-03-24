@@ -17,7 +17,7 @@
 | **Russia — Baltic** | **~1.7M bpd at risk** | 🔴 **NEW Mar 23:** Primorsk (>1M bpd crude + diesel) SHUT — fuel reservoirs burning after Ukrainian drone strike. Ust-Luga (~700K bpd) suspended then restarted. Both are Russia's largest western export hubs |
 | **Russia — Black Sea** | Disrupted | Novorossiysk hit earlier Mar. All 3 major Russian export outlets attacked in same month |
 | **Russia — Refining** | ~500K bpd offline | Ufa (Bashneft) refinery also struck Mar 23 simultaneous with Primorsk |
-| **US — Valero Port Arthur** | **380K bpd** | 🔴 **NEW Mar 23:** Explosion + fire (industrial heater). Shelter-in-place issued. Fire extinguished but damage/restart TBD. 2nd largest Valero refinery |
+| **US — Valero Port Arthur** | **380K bpd** | 🔴🔴 **FULL SHUTDOWN CONFIRMED Mar 24.** Diesel hydrotreater explosion, fire 5hrs, severe damage. Entire 380K bpd refinery shut (Reuters). No restart timeline. Product supply loss compounds Hormuz+Primorsk+Kuwait. |
 | **TOTAL Gulf** | **~6-7M bpd** | Hormuz chokepoint |
 | **TOTAL w/ Russia+US** | **~8-9M bpd equiv disrupted** | Multi-theater supply destruction now compounding |
 
