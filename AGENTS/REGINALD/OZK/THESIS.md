@@ -7,7 +7,7 @@ OZK is a slow-building reservoir of unrecognized CRE losses. Stress is accumulat
 **Three-wave catalyst structure:**
 1. **NOW → Apr 16 earnings:** Atlanta/FL/GA loans already noncurrent (1.36%), showing up as charge-offs
 2. **Q2 2026:** NY pipeline (0.41% 30-89 day, highest in country) converts to noncurrent
-3. **Aug 2026 → likely Aug 2028:** IQHQ RaDD ($915M) — the whale. **Two-year extension reported (Bisnow Oct 2024).** IQHQ injected $87M additional equity. Loan likely not due until ~2028. Campus 97% vacant (only tenant: J. Craig Venter Institute, 50K/1.7M SF). Cole est. value ~$500M vs $555M funded = underwater. Crisis real but timeline extended.
+3. **Aug 2026 → likely Aug 2028:** IQHQ RaDD ($915M) — the whale. **Two-year extension reported (Bisnow Oct 2024).** Total reserves held by bank: $152.9M ($87M Jun 2024 + $82M Jan 2025) [KB-OZK-086]. LTV 50.3% at full funding per latest appraisal. Campus 97% vacant (only tenant: J. Craig Venter Institute, 50K/1.7M SF) [KB-OZK-028 ⚠️ Oct 2024, may be stale]. Cole est. value ~$500M vs $555M funded = underwater. Crisis real but timeline extended.
 
 **Noncurrent concentration (FFIEC Call Report, Q4 2025):** 75.2% of all noncurrent ($256.7M of $341M) is in "other nonfarm nonresidential" — non-owner-occupied CRE [KB-OZK-012]. This is the exact category where IQHQ, office, and life sciences loans sit. The stress is surgically concentrated in OZK's vulnerability.
 
@@ -71,6 +71,10 @@ OZK has the **worst absolute Memo Item 3 ratio** in the screen [KB-OZK-020] — 
 
 **FFIEC Screen methodology:** RC-C Part I → Item 4 (C&I) → Memo Item 3 → ratio >20% = flag. OZK field: RCON2746 [KB-OZK-018].
 
+**Regulatory oversight gap:** OZK shed its holding company structure ~2018 [KB-OZK-085]. No longer subject to SEC or Federal Reserve oversight — supervised only by FDIC + Arkansas State Bank Department. Filings are PDFs, not searchable EDGAR HTML. The country's largest construction lender ($40B+) has less regulatory scrutiny than most peers its size.
+
+**Reclassification mechanic (CEO-confirmed):** Gleason Q3 2024: "Two criteria for moving out of construction category — CO + monthly amortizing feature" [KB-OZK-087]. Reclassified loans carry same risk profiles but disappear from regulatory "construction" line item.
+
 ---
 
 ## 2022 VINTAGE MATURITY WALL
@@ -78,7 +82,8 @@ OZK has the **worst absolute Memo Item 3 ratio** in the screen [KB-OZK-020] — 
 - **$3.7B in loans maturing in 2026** [KB-OZK-074], heavily concentrated in life sciences ($1.5B) [KB-OZK-077] and office. Original 2022 origination: Q1 $3.14B, Q2 $3.53B, Q3 $4.35B, Q4 $2.81B = ~$13.8B total [KB-OZK-061 ⚠️ UNVERIFIED from primary data]
 - **Q1 2026 is front-loaded** — management explicitly guided "elevated payoff velocity" and "a lot of payoffs" in Q1 [KB-OZK-075]. April 16 earnings will capture this.
 - Bridge-to-Mini-Perm structure: 3yr initial + two 1yr extension options. 541 modifications since 2022 with $1.3B sponsor equity injections [KB-OZK-076]. Extensions convert cliff → slope, BUT extensions that fail performance hurdles = forced nonaccrual recognition.
-- **Adverse selection:** Record RESG repayments (~$6-8B in 2025). Healthy loans already left. What remains at maturity is what couldn't refi [KB-OZK-078].
+- **Adverse selection:** FY2025 RESG repayments: $7.24B (record, +19% YoY). Q4 alone: $3.0B record [KB-OZK-082]. Healthy loans already left. What remains at maturity is what couldn't refi [KB-OZK-078].
+- **Extension fatigue:** 414 mods over 14 quarters on ~300 credits = many extended more than once [KB-OZK-083]. Sterling Bay/Lincoln Yards modified SIX TIMES before $20.8M write-down. "You pay, you stay" extracted $2.6B from sponsors ($1.3B equity + $866M reserves + $429M principal) [KB-OZK-084] — but sponsor willingness has limits.
 - DBRS: 2021-2022 vintages are 63% of CCC-C borrower pool; avg time to default 3.4 years = right now [KB-OZK-062 ⚠️ UNSOURCED]
 
 ---

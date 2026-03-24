@@ -25,6 +25,16 @@ Banks must file 8-K within 4 business days for material events including:
 
 **OZK's recognition lag hierarchy:** Extend-and-pretend → maturity default → NPA classification → charge-off. Average lag: 6-18 months. The 2022 vintage maturities hitting now are 36-42 months post-origination = right on schedule.
 
+### Q1 2026 Maturity Context (from Prompt #2/#3 research, Mar 24)
+- **$3.7B total loans maturing in 2026** [KB-OZK-074]. Q1 is front-loaded — management guided "elevated payoff velocity" and "a lot of payoffs" in Q1 [KB-OZK-075].
+- Estimated Q1 maturities: **~$1.8B** (40% of $4.575B commitments maturing 2026) [KB-OZK-080]. LOW CONFIDENCE estimate but directionally consistent.
+- Q4 2025 RESG repayments hit record **$3.0B**. FY2025 total: **$7.24B** (+19% YoY) [KB-OZK-082].
+- 2022 vintage payoffs: $1.25B (Q3) + $1.34B (Q4) = accelerating [KB-OZK-082].
+- **414 modifications over 14 quarters** on ~300 credits = many extended more than once [KB-OZK-083]. Sterling Bay modified 6x before $20.8M write-down.
+- **$1.5B of $3.1B life sci book maturing in 2026** [KB-OZK-077]. Nearly half hitting the wall this year.
+- IQHQ reserves: $152.9M held by bank ($87M Jun 2024 + $82M Jan 2025) [KB-OZK-086].
+- **This is THE quarter.** Q1 captures peak maturity velocity. Whatever story the data tells, it tells it here.
+
 ---
 
 ## WHAT TO WATCH ON THE CALL
@@ -38,9 +48,10 @@ Banks must file 8-K within 4 business days for material events including:
 
 ### Secondary (Confirming/Disconfirming)
 6. **Noncurrent loans trend** — industry rose $4.1B QoQ. Where is OZK specifically?
-7. **Unfunded commitments** — still $19.08B? How much was drawn in Q1?
-8. **Construction maturities** — any color on 2022 vintage stabilization rates? Extension volumes?
-9. **CIB growth** — is the diversification into corporate/institutional real, or just relabeling?
+7. **Unfunded commitments** — was $18.0B at Q4. How much drawn/expired in Q1?
+8. **Construction maturities** — Q1 extension count (was 49 in Q4, 41 in Q3). How many of the 414 cumulative mods are second+ extensions? Stabilization rate on 2022 vintage?
+9. **CIB growth** — is the diversification into corporate/institutional real, or relabeling? CEO confirmed reclass mechanic: "two criteria — CO + monthly amortizing" [KB-OZK-087].
+10. **Sponsor extraction** — cumulative was $2.6B ($1.3B equity + $866M reserves + $429M principal) [KB-OZK-084]. How much more in Q1? Is sponsor willingness holding?
 10. **Insider buying post-quarter** — did anyone buy after the quarter closed? (Signal of confidence, or absence thereof)
 
 ### Red Flags to Listen For
@@ -97,4 +108,4 @@ Banks must file 8-K within 4 business days for material events including:
 
 ---
 
-*Thesis → `THESIS.md` | Evidence → `EVIDENCE.md` | 8-K framework → `research/8K_FORCED_DISCLOSURE_FRAMEWORK.md`*
+*Thesis → `THESIS.md` | Canonical data → `workbook/KB.tsv` | 8-K framework → `research/8K_FORCED_DISCLOSURE_FRAMEWORK.md`*
