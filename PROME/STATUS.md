@@ -1,5 +1,5 @@
 # PROME STATUS.md
-**Updated:** 2026-03-24 13:15 UTC
+**Updated:** 2026-03-25 18:45 UTC
 
 ## 🔴🔴 SCENARIO D DOMINANT (78%) — WAR DAY 24 — BRENT mid-$90s — ACCOUNT $51,447 (relief rally = VOL TRAP)
 
@@ -41,9 +41,9 @@
 | Jun→Dec rolls | 🟡 | Will watching market, no rush on KRE |
 | Stale agents decision: HANS, DARWIN | 🟡 | |
 | SOFI thesis research | 🟡 | Will wants to investigate consumer pain angle |
-| OZK Gap Closure — Fixes 1+2+3+6+7 | 🔴 | 🔄 Sub-agents running (10-K extract + IQHQ research) |
-| OZK Gap Closure — Fix 4 (RC-C) | 🟠 | Phase 2, after Fix 1 lands |
-| OZK Gap Closure — Fix 5 (scenarios) | 🟠 | Phase 2, needs Fix 1 data |
+| ~~OZK Gap Closure~~ | ~~🔴~~ | ✅ KB.tsv migrated (63 rows), data fixes, BRIEFING rewritten |
+| OZK Audit E (pub cleanup) | 🟡 | Temple 8 refs, citations, PDNA geography |
+| Jefferies Q1 (today after close) | 🟠 | WAL catalyst — check results |
 
 ---
 
