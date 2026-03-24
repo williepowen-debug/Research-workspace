@@ -36,7 +36,7 @@ Slow-building reservoir of unrecognized CRE losses, masked by reserve cuts and e
 - [ ] Update stock price (~$49 vs SCENARIOS ~$42-44 — reconcile)
 
 ### SHOULD DO (Before Apr 10)
-- [ ] Gleason GFC track record — FDIC CERT 110, 2007-2012 *(Prompt #1)*
+- [x] Gleason GFC track record — FDIC CERT 110, 2007-2012 *(Prompt #1)* ✅ KB-064/065/066
 - [ ] Interest reserve depletion model *(Prompt #3)*
 - [ ] TDR/modification data from 10-K *(Prompt #4)*
 - [ ] Life sciences vacancy Q1 — San Diego *(Prompt #6)*
