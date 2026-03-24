@@ -16,28 +16,11 @@ Run these and drop results into `sources/`. Prome will integrate into KB.tsv.
 | 5 | Geographic deep dive (V1–V4) | KB-107–120 | 4 LLMs, 14 rows, EXPOSURE_MAP built |
 | 4 | TDR/loan modifications | KB-096–106 | 4 LLMs, 11 rows. 590 mods, 98% classification gap, 59% re-default |
 | 6 | FL Paradox stress-test | KB-121–132 | 4 LLMs, 12 rows, FINDINGS.md complete |
+| 7 | Peer ACL/NCO comparison | KB-133–136 | 3 LLMs (Claude best), 4 rows. OZK outlier on every metric |
 
 ---
 
 ## 🔴 HIGH PRIORITY — Run Next
-
-### PROMPT 7: Peer ACL/NCO Comparison Table
-```
-Build a comparison table of CRE-heavy regional banks using Q4 2025 data:
-
-Banks: OZK, WAL (Western Alliance), ZION (Zions), COLB (Columbia Banking), FNB Corp, EWBC (East West Bancorp), HBAN (Huntington), TFC (Truist)
-
-For each bank, pull:
-- Total CRE / Total Risk-Based Capital ratio
-- Construction & Development / Total Risk-Based Capital
-- Allowance for Credit Losses (ACL) as % of total loans
-- Net Charge-Off rate (annualized)
-- Noncurrent loan ratio
-- ACL / Noncurrent coverage ratio
-
-Rank by CRE concentration. Highlight where OZK is an outlier.
-```
-**Save as:** `sources/OZK_PEER_COMP_Q4_2025.md`
 
 ### PROMPT 15: IQHQ RaDD Leasing Status
 ```
