@@ -35,15 +35,6 @@ Slow-building reservoir of unrecognized CRE losses, masked by reserve cuts and e
 - [ ] Updated insider filings (Form 4s since Feb 24)
 - [ ] Peer earnings comparison framework
 
-## File Index
-| File | What's In It |
-|------|-------------|
-| **STATUS.md** | This dashboard |
-| **THESIS.md** | Full bear case, bull rebuttals, Memo Item 3 |
-| **EVIDENCE.md** | All data: FDIC, geographic, insiders, distressed loans, industry |
-| **EARNINGS_PREP.md** | April 16 specific — what to watch, RC-C data, call questions |
-| `10K_ANALYSIS_2024.md` | 10-K data extraction (Feb 25) |
-| `TEMPLE8_SHORT_THESIS_MAR2026.md` | Temple 8 ACL inversion + IQHQ |
-| `research/OZK_THESIS_FEB25.md` | Original deep thesis (RP-REG-7) |
-| `research/8K_FORCED_DISCLOSURE_FRAMEWORK.md` | Pre-announcement patterns |
-| `sources/` | FDIC QBP, geographic analysis, FFIEC, FORGE, insider scan |
+## Navigation
+**Cold boot? Start at `INDEX.md`** — boot sequence, key numbers, full file map.
+KB.tsv (workbook/) is the canonical evidence store. EVIDENCE.md is legacy — archive post-earnings.

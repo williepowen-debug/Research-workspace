@@ -1,5 +1,6 @@
-# OZK — Evidence Database
+# OZK — Evidence Database (LEGACY)
 **Last Updated:** 2026-03-23
+**⚠️ KB.tsv is now canonical.** This file is kept as narrative reference until post-Apr 16 earnings, then archive.
 
 This file contains all current data supporting the OZK short thesis. Updated as new evidence arrives.
 
