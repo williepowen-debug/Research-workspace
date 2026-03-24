@@ -61,27 +61,39 @@ Banks must file 8-K within 4 business days for material events including:
 
 ## PEER COMPARISON FRAMEWORK
 
-| Metric | OZK (Q4) | Peer Avg | Watch for Q1 |
-|--------|----------|----------|-------------|
-| NCO rate | 1.18% | ~0.35% | Acceleration? |
-| ACL ratio | 1.16% | 1.75-2.05% | Gap widening? |
-| Coverage ratio | <1.0x | 4.5-5.1x | Still inverted? |
-| CRE/Tier 1 | 455% | ~200-250% | Any reduction? |
-| Noncurrent % | — | industry 0.96% | OZK specific? |
+| Metric | OZK (Q4) | Peer Avg | Watch for Q1 | Source |
+|--------|----------|----------|-------------|--------|
+| NCO rate (FY ann.) | 1.18% | ~0.35% | Acceleration? | FDIC API (FY2025 YTD $172.5M / avg loans) |
+| NCO rate (Q4 ann.) | 0.64% | — | Q1 trajectory? | FDIC API ($50.6M Q4 / $31.8B × 4) |
+| ACL ratio | **1.26%** | 1.75-2.05% | Gap widening? | Mgmt Comments (corrected from Temple 8's 1.16%) |
+| ACL/Noncurrent | **1.39x** | 4.5-5.1x | Still collapsing? | FDIC API ($475.7M / $341.2M) |
+| CRE/Tier 1 | **358%** | ~200-250% | Any reduction? | Mgmt Comments (corrected from Temple 8's 455%) |
+| Noncurrent % | **1.07%** | industry 0.96% | Rising from $341M? | FDIC API |
 
 ---
 
-## RC-C DATA (TO BE FILLED)
+## RC-C / RC-N DATA (From FFIEC Call Report, Q4 2025)
 
-*Pull from FFIEC CDR when available. Paste state-level nonfarm nonresidential noncurrent rates here.*
+**State-level breakdowns NOT available** in standard call report format. District-level benchmarks below.
 
-| State | Noncurrent Rate | vs District Avg | OZK Exposure | Notes |
-|-------|----------------|-----------------|-------------|-------|
-| FL | TBD | vs Atlanta 1.36% | Heavy | |
-| NY | TBD | vs NY 1.57% | Heavy | |
-| CA | TBD | vs SF 0.90% | Life sciences | |
-| IL | TBD | vs Chicago 1.09% | 67% of NPLs | |
-| GA | TBD | vs Atlanta 1.36% | Moderate | |
+### Noncurrent by Loan Type (RC-N, institution-level, $000s)
+| Category | Noncurrent | % of Total NC | 30-89 Past Due | Signal |
+|----------|-----------|--------------|---------------|--------|
+| **Other nonfarm nonres** | **$256,727** | **75.2%** | $741 | 🔴 Office/life sci |
+| **Other construction/land** | **$40,424** | **11.8%** | $3,188 | 🔴 |
+| Owner-occ nonfarm nonres | $2,121 | 0.6% | $3,420 | Mild |
+| C&I | $2,703 | 0.8% | $10,143 | Low |
+| 1-4 family | ~$12,000 | 3.5% | $11,677 | Low |
+| All other | ~$27,000 | 7.9% | $12,460 | Low |
+| **TOTAL** | **$341,223** | | **$41,738** | |
+
+### District Benchmarks (FDIC QBP Q4 2025)
+| District | Nonfarm Nonres NC Rate | 30-89 Pipeline | OZK Relevance |
+|----------|----------------------|---------------|---------------|
+| NY | 1.57% | 0.41% (highest) | Primary origination |
+| Atlanta | 1.36% | 0.28% | FL/GA book |
+| National | 1.30% | 0.33% | Benchmark |
+| Dallas (HQ) | 0.89% | 0.33% | OZK counted here — false clean signal |
 
 ---
 

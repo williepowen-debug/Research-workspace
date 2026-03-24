@@ -9,18 +9,22 @@ OZK is a slow-building reservoir of unrecognized CRE losses. Stress is accumulat
 2. **Q2 2026:** NY pipeline (0.41% 30-89 day, highest in country) converts to noncurrent
 3. **Aug 2026 → likely Aug 2028:** IQHQ RaDD ($915M) — the whale. **Two-year extension reported (Bisnow Oct 2024).** IQHQ injected $87M additional equity. Loan likely not due until ~2028. Campus 97% vacant (only tenant: J. Craig Venter Institute, 50K/1.7M SF). Cole est. value ~$500M vs $555M funded = underwater. Crisis real but timeline extended.
 
+**Noncurrent concentration (FFIEC Call Report, Q4 2025):** 75.2% of all noncurrent ($256.7M of $341M) is in "other nonfarm nonresidential" — non-owner-occupied CRE. This is the exact category where IQHQ, office, and life sciences loans sit. The stress is surgically concentrated in OZK's vulnerability.
+
+**Interest reserve artificiality:** $7.0B of $7.8B construction loans (89.7%) use interest reserves. Borrowers are not paying from cash flow — the bank capitalizes interest to keep loans current ($108.6M in Q4 alone). When reserves deplete or loans mature without stabilization, these convert en masse to nonaccrual.
+
 ---
 
 ## ACL THINNING — UNDER-PROVISIONING IN REAL TIME
 
 **Reserve is being consumed faster than rebuilt.** (Primary source: OZK Q4 2025 Mgmt Comments + Financial Supplement, verified Mar 23)
 
-- Q4 2025 NCO rate: **1.18%** (highest in 15 years, 8x YoY increase)
+- Q4 2025 gross NCO rate (annualized): **1.18%** ($98.3M gross charge-offs × 4 / avg loans; highest in 15 years, ~8x vs Q4 2024's $12.4M). FDIC net NCOs: $50.6M (after ~$47.7M recoveries). FY2025 NCO rate: 0.50%.
 - ACL ratio: **1.26%** (of loans + unfunded) — ~~NOT 1.16% as Temple 8 claimed~~
 - ACL coverage on Q4 annualized NCOs: **1.6x** ($632M / $393M) — low vs peers but ~~NOT <1.0x~~
 - ACL peaked $679.6M (Q3), **declined to $631.9M** (Q4) — melting ice cube ✅
 - Q4 provision: **$50.6M** vs Q4 charge-offs: **$98.3M** — provision covered barely HALF of losses
-- FY 2025 charge-offs: $160M (vs $57.4M in 2024) — 2.8x YoY ✅
+- FY 2025 gross charge-offs: $160M per mgmt comments (FDIC API shows $172.5M gross before recoveries; $4.9M recoveries per FDIC = net $167.6M — remaining ~$7.6M gap likely timing/definitional). Prior year: $57.4M — 2.8x YoY ✅
 - Full-year ACL build was only +$12.5M, entirely front-loaded Q1-Q3; **Q4 reversed direction** ✅
 - RESG NCO rate: **0.68%** — 3.6x its 23-year average of 0.19%
 
@@ -31,7 +35,9 @@ OZK is a slow-building reservoir of unrecognized CRE losses. Stress is accumulat
 | Regional peer avg | 1.75-2.05% | ~0.35% | ~5x | |
 | **OZK** | **1.26%** | **1.18%** | **1.6x** | Lowest in peer group |
 
-**Temple 8 correction:** Their "inversion" (-2bps, <1.0x coverage) was an apples-to-oranges denominator error. The real ACL ratio (1.26%) exceeds the NCO rate (1.18%) by +8bps. Coverage is 1.6x, not <1.0x. **However**, 1.6x is still the lowest in the peer group by a wide margin, and the trajectory is what matters — provision is running at half the charge-off rate. At this pace, another 2 quarters of elevated losses depletes the buffer.
+**Temple 8 correction:** Their "inversion" (-2bps, <1.0x coverage) was an apples-to-oranges denominator error. The real ACL ratio (1.26%) exceeds the Q4 annualized gross NCO rate (1.18%) by +8bps. Coverage is 1.6x on annualized NCOs, not <1.0x. **However**, 1.6x is still the lowest in the peer group by a wide margin, and the trajectory is what matters — provision is running at half the charge-off rate. At this pace, another 2 quarters of elevated losses depletes the buffer.
+
+**FDIC API confirms (Mar 23):** ACL/noncurrent coverage collapsed from 8.86x → **1.39x** in two quarters (Q2→Q4 2025). ACL was *cut* $56.6M in Q4 while noncurrent doubled and charge-offs hit their highest quarterly rate ($50.6M). The FDIC-derived 1.39x is worse than the 1.6x from management comments — difference likely due to noncurrent vs annualized-NCO denominators. Both tell the same story: reserves are being consumed, not rebuilt.
 
 Under-provisioned ~35-40% vs peers while running charge-offs at 3x the norm. The thesis is trajectory, not snapshot.
 
@@ -41,7 +47,7 @@ Under-provisioned ~35-40% vs peers while running charge-offs at 3x the norm. The
 
 - CRE/Tier 1: **358%** | CRE/TCE: **387%** | Total RE/TCE: **425%** (regulatory red line: 300% CRE/Total RBC — OZK at **302%**, barely above)
 - ~~Temple 8's "455%" cannot be replicated from primary data~~
-- KBRA Negative outlook: CRE 358%, construction 197% (construction figure may use broader definition)
+- KBRA Negative outlook: CRE 358%, construction 197% per KBRA (FDIC-derived: 142% using $7.78B construction / $5.49B Tier 1; KBRA's 197% likely includes unfunded construction commitments or broader land/development definition — 55pt gap unreconciled)
 - RESG: 54.4% of total loans (down from 70% peak — mix of deliberate runoff + defaults. $130.5M RESG NCOs = 0.7% of portfolio; most decline was payoffs/repayments)
 - CIB diversification to 16.3% (from 9%) — but this is the "other loans" category growing system-wide
 - **$18.0B unfunded commitments** (down from $19.08B) — still massive vs capital
@@ -58,6 +64,8 @@ Under-provisioned ~35-40% vs peers while running charge-offs at 3x the norm. The
 | True CRE (on-B/S) | 71.5% | ~59% | — | |
 
 OZK has the **worst absolute Memo Item 3 ratio** in the screen — comparable to Metropolitan Capital which failed Jan 30, 2026. The ratio is structurally declining (C&I growing faster, diluting) rather than actively worsening like WAL. But at 37.6%, the absolute level means a massive amount of CRE risk sits in the "C&I" label where regulators and analysts aren't looking for it.
+
+**FDIC API confirms reclassification (Mar 23):** C&I doubled (+153%, $1.36B → $3.43B) over 8 quarters while construction fell 36.9% ($12.3B → $7.8B). ~46% of construction decline migrated to C&I. This is OZK-specific quantitative proof, not just industry H.8 inference.
 
 **Hidden CRE in "Other":** $1.06B of "Other" loans is RESG loans to non-depository financial institutions (debt-on-debt loans).
 
@@ -78,7 +86,7 @@ OZK has the **worst absolute Memo Item 3 ratio** in the screen — comparable to
 
 ## LIFE SCIENCES COLLAPSE
 
-- **$3.2B exposure** (~10% of RESG portfolio)
+- **$3.1B total commitment** (10.7% of RESG; confirmed Figure 14 Mgmt Comments. Temple 8 cited $3.2B — rounding.)
 - Sorrento Mesa (San Diego) vacancy: **35%** (was <5% at origination in 2021)
 - 3M sqft available in one submarket alone
 - VC biotech funding collapsed — demand driver gone
