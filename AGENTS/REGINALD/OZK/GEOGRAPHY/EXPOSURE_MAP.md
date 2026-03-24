@@ -83,27 +83,31 @@
 
 ### 🔴 CRITICAL (Active losses / seizures)
 
-**San Diego ($1.94B):** Ground zero. County vacancy 29.7-31.2%. Sorrento Mesa 35-38%. 13 consecutive quarters of rent declines. IQHQ RaDD $915M (97% vacant), Bioterra $203M (vacant), Pacific Center $265M (sold to SVP at undisclosed loss). Combined identified: ~$1.38B. Remaining ~$560M includes Hines Riverwalk and others.
+**San Diego ($1.94B):** Ground zero. County vacancy 29.7-31.2%. Sorrento Mesa 35-38%. 13 consecutive quarters of rent declines. Cap rates jumped 4.4%→6.6% since origination (V1). IQHQ RaDD $915M (97% vacant, as-market value est. $320-490M per Atrium — potential LTV 186-285%), Bioterra $203M (vacant, co-orig with Square Mile), Pacific Center $265M (sold to SVP at undisclosed loss). Combined identified: ~$1.38B. Remaining ~$560M includes Hines Riverwalk and others.
 
-**Boston/Cambridge ($1.40B):** 40 Thorndike $300M original → $156.4M carrying after $72.4M charge-off. 100% vacant. 808 Windsor Somerville $246M (life sci). Union Square $239M. 10 Prospect $119M (LTV deteriorated 41.9%→50.5%). Lab vacancy ~20%, 9M SF under construction.
+**Boston/Cambridge ($1.40B):** Sullivan Courthouse (40 Thorndike) $300M original → $156.4M carrying after $72.4M charge-off. 100% vacant, 422K SF delivered with zero tenants. Equity partners withdrew, OZK dual-tracking title acquisition — likely OREO in 2026. 808 Windsor/Boynton Yards Somerville $246M (life sci). Fan Pier Phase 5 $215M (MF — under construction, lower stress). Union Square $239M. 10 Prospect $119M (LTV deteriorated 41.9%→50.5%). Arsenal Yards $100M — REPAID 2023 (success). Boston life sci vacancy ~20-30% with 9M SF under construction. Lab TI costs >$200/SF (V3).
 
-**Chicago ($1.13B):** Lincoln Yards land seized ($128M→$84M, sold). 1229 Concord seized ($125M→$50M, 100% vacant). One Chicago Square $475M (may be repaid — unconfirmed). Sterling Bay relationship fully collapsed.
+**Chicago ($1.13B):** Lincoln Yards land seized ($128M→$84M, sold to JDL/Kayne Oct 2025 — "substantially no gain or loss"). 1229 Concord seized ($125M→$50M, 100% vacant, March 2026 deed-in-lieu). One Chicago Square $475M — **REPAID** via $415M Wells Fargo CMBS refi in 2022, OZK exited cleanly (V3 confirmed). Sterling Bay relationship fully collapsed. 300 N Michigan ($150M, extended to Jul 2025) and 345 N Morgan (~$70M, deferred to Aug 2026) remain on extended terms (V3). **Residual exposure likely ~$100-200M after dispositions.**
 
-**Seattle ($806M):** The Jack $72.5M, 100% vacant since 2023, LTV 111% (underwater). Chapter Building $106.9M, appears empty. Office vacancy >33%, 1.5M SF net negative absorption 2025.
+**Seattle ($806M):** The Jack $72.5M ($56.2M outstanding), 100% vacant since 2023, LTV **111%** — only OZK credit underwater at current appraisal. Chapter Building $106.9M, appears empty. 760 Aloha $7.75M — SOLD Nov 2025 for $188/SF. Office vacancy >33%, 1.5M SF net negative absorption 2025.
 
 ### 🟠 ELEVATED (Market stress, limited OZK-specific losses)
 
-**Los Angeles ($1.41B):** Two loans in nonaccrual: Arts District $38.1M, Santa Monica $50.1M (15% leased, sponsor stopped paying, $5.7M charge-off). $54.45M land in OREO. Santa Monica availability 34.6%.
+**Los Angeles ($1.41B):** Two loans in nonaccrual: Arts District $38.1M (sponsor under contract to sell), Santa Monica 1650 Euclid $50.1M (65K SF creative office, 15% leased, sponsor stopped paying, $5.7M charge-off — OZK pursuing title). $54.45M land in OREO (buyer's purchase fell through despite $12M in extension fees — re-listing). Santa Monica availability 34.6%.
 
-**Atlanta ($1.04B):** Echo Street West $135M, office component 100% vacant at delivery. West Midtown availability 46%. Microsoft paused nearby campus. Managed workout vs default unclear.
+**Atlanta ($1.04B):** Echo Street West $135M (Lincoln Property Co.) — office component (765 Echo, 275K SF) was 100% vacant at delivery. Sold to Menlo Equities Dec 2024 at ~$200/SF vs $450-700/SF replacement cost — massive equity loss but OZK partially protected by apartment component (Vibe, 292 units, leased to 94%+, $43.5M Fannie Mae refi in 2025). West Midtown availability 46%. Microsoft paused nearby 90-acre campus. **Residual OZK exposure likely apartment portion only.**
 
-**Washington DC ($983M):** Northern Virginia vacancy 21-23%. No OZK-specific defaults identified yet.
+**Baltimore ($253M):** Baltimore Peninsula — Goldman Sachs/Sagamore (Kevin Plank) development. Undeveloped land ($66M orig → $40M after $9.7M charge-offs, deed-in-lieu Dec 2025 — OZK now owns 235 acres). Completed phase $189M extended through 2028 with Hines hired as asset manager.
+
+**Washington DC ($983M):** Northern Virginia vacancy 21-23%. Net absorption negative. No OZK-specific defaults identified yet. Federal workforce reductions a risk factor.
+
+**SF Bay Area ($1.44B):** Southline Phase 1 ($373M total, co-orig Square Mile, 375K SF lab/office, South SF) — under construction, marketing "Now Leasing" but specific occupancy not disclosed. Bay Area life sci availability ~30%. No disclosed nonperforming status.
 
 ### 🟢 PERFORMING (Strong fundamentals for OZK's exposure)
 
-**Miami ($3.96B):** Largest concentration but best protected. 14 condo loans totaling $2.47B with WA LTC 45.9%, LTV 39.1%. 11 of 14 have presales covering full repayment. Waldorf Astoria $425M (90% pre-sold), Baccarat $328M (95%+ pre-sold). No Florida defaults identified.
+**Miami ($3.96B):** Largest concentration but best protected. 14 condo loans totaling $2.47B with WA LTC 45.9%, LTV 39.1%. 11 of 14 have presales covering full repayment. Named projects: Waldorf Astoria Miami $668M (PMG/Mohari, 90% pre-sold), Four Seasons Coconut Grove $324M (CMC/Fort Partners, Jan 2026 origination), South Flagler House ~$310M (Related Ross), Baccarat $328M (95%+ pre-sold), Ritz-Carlton Pompano $259M, Vita at Grove Isle $239M, Wynwood Plaza $215M, Waldorf Pompano $160M, Ponce Park $133M (40% under contract). No Florida defaults identified. **Market caution (V4):** FL high-end condo inventory +40% YoY, statewide supply at 13.2 months, net domestic migration collapsed 93% (310K→23K). Pre-sales protect OZK specifically but macro is softening.
 
-**New York ($3.53B):** 50 W 66th $800M fully repaid July 2024 (success story). No NYC-specific defaults found. Market softening but OZK exposure is primarily luxury residential, not office.
+**New York ($3.53B):** 50 W 66th $800M fully repaid July 2024 via $1.2B JVP refi (unambiguous success — 50%+ units sold). No NYC-specific defaults found. Remaining book appears primarily luxury residential/mixed-use. Market: Manhattan luxury condo inventory -16.1% YoY, 65.3% cash transactions. NYC is OZK's strongest gateway market after Miami.
 
 **Dallas ($1.45B), Phoenix ($1.27B), Nashville ($1.23B), Denver ($1.09B):** No distressed assets identified. Multifamily/industrial dominant.
 
@@ -114,6 +118,8 @@
 Florida is simultaneously OZK's **largest concentration** ($7.45B, 23% of RESG) and its **strongest segment** (39-43% LTV, 90%+ pre-sales, zero defaults). The headline concentration number masks genuinely conservative underwriting.
 
 Meanwhile, life science + office = **24.2% of RESG** with the **highest LTVs** (50-52% vs portfolio avg 45%) and **100% of identified problem loans**. The geographic risk isn't about where OZK has the most money — it's about where the money meets the wrong asset type.
+
+**Management's own disclosure (Q4 2025 call, V3):** *"More than $2 billion of loans are entering the final year of their terms and are either completely or substantially unleased, many of them life science loans."* This $2B+ pipeline is the next wave of NPL migrations — likely concentrated in Boston (Boynton Yards), SF Bay (Southline), and residual San Diego.
 
 **Actionable risk clusters for the short thesis:**
 1. San Diego life sci (~$1.4B identified, all distressed or watch)
@@ -131,14 +137,22 @@ Meanwhile, life science + office = **24.2% of RESG** with the **highest LTVs** (
 | Data Point | V1 | V2 | V3 | V4 | Confidence |
 |-----------|----|----|----|----|-----------|
 | MSA-level $ amounts (Mgmt Comments) | ✅ (Q4 2025) | ❌ (narrative) | ❌ (ranges only) | **✅ (Q1 2025, exact)** | HIGH — V1/V4 primary |
-| State aggregation | ❌ | ✅ (NPA by state) | ❌ | **✅** | HIGH |
-| FDIC district mismatch quantified | ✅ (basic) | ✅ (basic) | ✅ | **✅ ($ by region)** | HIGH |
-| Project-level distress inventory | ✅ | ✅ | **✅ (most detailed)** | **✅ (most detailed)** | HIGH |
-| FFIEC has no geo data | ✅ (assumed) | ❌ | **✅ (confirmed)** | **✅ (confirmed)** | HIGH — structural |
-| FL paradox (largest + safest) | ✅ | ❌ | ✅ | **✅** | HIGH |
-| 50 W 66th repaid | ❌ | ❌ | ✅ | **✅** | HIGH — bull correction |
+| State aggregation | ❌ | **✅ (NPA by state)** | ❌ | **✅** | HIGH |
+| FDIC district mismatch quantified | ✅ (basic) | ✅ (Memphis office detail) | ✅ | **✅ ($ by region)** | HIGH |
+| Project-level distress inventory | ✅ | ✅ | **✅ (best — full loan table)** | **✅ (most detailed)** | HIGH |
+| FFIEC has no geo data | ✅ (assumed) | ❌ | **✅ (confirmed via FFIEC docs)** | **✅ (confirmed)** | HIGH — structural |
+| FL paradox (largest + safest) | ✅ | ❌ | ✅ | **✅ (FL macro risk caveat)** | HIGH |
+| 50 W 66th repaid | ❌ | **✅** | **✅** | **✅** | HIGH — bull correction |
+| One Chicago Square REPAID | ❌ | ❌ | **✅ (CMBS refi 2022)** | ❌ | HIGH — reduces Chicago exposure |
+| $2B+ unleased pipeline (mgmt quote) | ❌ | ❌ | **✅** | ❌ | HIGH — next wave signal |
+| Baltimore Peninsula details | ❌ | ❌ | **✅ ($66M + $189M)** | **✅** | HIGH |
+| SD cap rate jump 4.4%→6.6% | **✅** | ❌ | ❌ | ❌ | HIGH — valuation compression |
+| Atrium RaDD as-market $320-490M | ❌ | ❌ | **✅** | ❌ | MEDIUM — third party est. |
+| Boston life sci TI >$200/SF | ❌ | ❌ | **✅** | ❌ | HIGH — conversion cost barrier |
+| NPA by state (CA $61M OREO dominant) | ❌ | **✅ (unique)** | ❌ | ❌ | HIGH |
+| FL migration collapse 93% | ❌ | ❌ | ❌ | **✅ (unique)** | HIGH — macro risk |
 
-**V4 was strongest overall.** V3 had the most detailed project inventory. V2 uniquely provided NPA by state.
+**V4 strongest on MSA data and FL macro risk.** V3 best project-level inventory and the $2B pipeline quote. V2 unique on NPA by state. V1 had SD cap rate data.
 
 ---
 
