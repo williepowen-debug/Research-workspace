@@ -11,8 +11,11 @@ The geographic research is the most complete view of OZK's loan book available o
 - EXPOSURE_MAP.md — ✅ 58 MSAs, state rollups, FDIC district mismatch, distress clusters, FL paradox, cross-model confidence table
 - REGULATORY_DISTRICTS.md — ✅ PDNA/NCO gap analysis, district benchmarks, extend-and-pretend matrix
 
+**Completed files (new):**
+- FL_PARADOX/ — ✅ COMPLETE. 4-model synthesis, 12 KB rows (121-132). FL book confirmed as strongest segment. Biscayne 21 ($105M) only named exception.
+
 **Pending files:**
-- MARKET_CONDITIONS.md — vacancy rates, cap rates, distressed sales by metro (Prompt 6 not yet drafted)
+- MARKET_CONDITIONS.md — vacancy rates, cap rates, distressed sales by metro (not yet drafted)
 
 ## Key Findings
 
@@ -49,7 +52,7 @@ The geographic research is the most complete view of OZK's loan book available o
 | FL migration collapse | -93% (310K→23K) |
 
 ## KB Coverage
-KB-OZK-107 through KB-OZK-120 (14 entries). Key entries:
+KB-OZK-107 through KB-OZK-132 (26 entries). Key entries:
 - 107: MSA concentration (exact figures)
 - 110: FL paradox
 - 115: One Chicago repaid
@@ -57,9 +60,15 @@ KB-OZK-107 through KB-OZK-120 (14 entries). Key entries:
 - 117: RaDD as-market valuation
 - 118: SD cap rate decompression
 - 120: FL macro softening
+- 121: Biscayne 21 impaired ($105M)
+- 122: FinCEN rule (Mar 1, 2026)
+- 123-125: SB 4-D, insurance, deposit wall
+- 126-128: Q4 extensions, project progress, ACL build
+- 129-132: UBS bubble, compound cascade, deposit leakage, concentration duality
 
 ## What Changed Last
-- Mar 24: Full review pass. EXPOSURE_MAP updated with V2/V3 findings (One Chicago repaid, $2B pipeline quote, Baltimore, Atrium valuation, FL macro risk). KB expanded 114→120.
+- Mar 24 (evening): FL_PARADOX investigation complete. 4-model synthesis from Claude/Gemini/ChatGPT/Perplexity. 12 new KB rows (121-132). FL confirmed as fortress with one exception (Biscayne 21).
+- Mar 24 (earlier): Full review pass. EXPOSURE_MAP updated with V2/V3 findings (One Chicago repaid, $2B pipeline quote, Baltimore, Atrium valuation, FL macro risk). KB expanded 114→120.
 
 ## Next
 - MARKET_CONDITIONS.md — last empty file in GEOGRAPHY. Fresh vacancy/cap rate pulls by metro.

@@ -1,30 +1,35 @@
 # FL PARADOX STATUS
 **Updated:** 2026-03-24
 
-## Assessment: 🟡 INVESTIGATION OPEN — Pre-sale safety assumption untested
+## Assessment: ✅ INVESTIGATION COMPLETE — FL book confirmed as strongest segment
 
-The FL paradox (largest concentration = safest segment) rests entirely on pre-sale coverage ratios from Q2 2024 data. UBS ranks Miami #1 globally for bubble risk. The question is whether "90% pre-sold" translates to "90% will close" in a market showing macro deterioration.
+The FL paradox holds: largest concentration ($7.45B) = safest segment. Four independent LLM analyses converge on this conclusion. The 46% LTC / 39% LTV / 50% deposit wall / all-cash buyer base is structurally sound.
 
-## Current State
-- Prompt drafted and saved to PROMPT.md — ready for Will to run through 4 LLMs
-- Preliminary web search completed — UBS bubble ranking, SB 4-D impact, insurance crisis
-- No LLM results yet
-- Key early signal: the FL condo crisis primarily hits OLDER buildings (SB 4-D reserves), not new construction. This may actually strengthen the paradox for current OZK loans. But the macro (migration -93%, supply 13.2 months, UBS bubble #1) cuts the other way.
+**One exception:** Biscayne 21 ($105M) — impaired collateral strategy, no path to redevelopment. Watch for Q1 non-accrual on Apr 16.
 
-## What We Need
-1. Historical walkaway rates from 2008 Miami luxury cycle
-2. Current pre-sale cancellation data for 2025-2026
-3. Deposit structure analysis (are deposits large enough to deter walkaway?)
-4. Supply/absorption at the $2M+ luxury tier specifically
-5. Foreign buyer dependency and LatAm exposure
-6. OZK-specific project status updates
+**One emerging risk:** FinCEN rule (Mar 1, 2026) adds friction to foreign cash buyer pipeline. Monitor absorption post-March.
 
-## Next
-- Will runs prompt through 4 LLMs
-- Save results to SOURCES/
-- Build FINDINGS.md with cross-model synthesis
-- Update KB with any findings that change the thesis
+## What We Learned
+1. Deposit wall makes walkaway irrational absent >50% price decline (2008 was 38-42%)
+2. SB 4-D is relative positive (destroys older stock) but absolute negative (raises TCO for all)
+3. Insurance stabilizing off elevated base — not the acute threat it was in 2022-23
+4. Biscayne 21 is the only named FL loan with visible stress
+5. Contract re-trades/assignments appearing as earliest stress signal (Perplexity)
+6. Concentration duality: narrow buyer pool can correlate withdrawals
+7. All marquee projects on track — no construction or sponsor distress
+
+## Conclusion for Thesis
+**FL is not where this trade works.** The bear case rests on bank-level ACL exhaustion from life sciences/office, with FL as potential Wave 3 amplifier. The strongest version of the OZK short is: "FL is fine, and it still doesn't save them."
+
+## KB Coverage
+KB-OZK-121 through KB-OZK-132 (12 entries) + KB-OZK-110, KB-OZK-120 (prior)
+
+## Files
+- `FINDINGS.md` — ✅ Cross-model synthesis (8 findings)
+- `EXISTING_DATA.md` — ✅ Pre-investigation data compilation
+- `PROMPT.md` — ✅ Original research prompt
+- Sources in `../../sources/FL_PARADOX_*.md/.docx` (4 files)
 
 ---
 
-*Prompt → `PROMPT.md` | Parent → `../EXPOSURE_MAP.md` | KB → `../../workbook/KB.tsv` (110, 120)*
+*Findings → `FINDINGS.md` | KB → `../../workbook/KB.tsv` (110, 120-132) | Parent → `../STATUS.md`*
