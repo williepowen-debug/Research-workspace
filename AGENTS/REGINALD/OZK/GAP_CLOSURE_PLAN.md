@@ -110,7 +110,7 @@
 | B4 (FHLB/liquidity) | ❌ OPEN | $23.9B pledged, borrowing capacity unknown |
 | B5 (Bioterra source) | ✅ COMPLETE | Square Mile Capital co-originator, $203M Dec 2022 |
 | B6 (Pacific Center "par") | 🟡 PARTIAL | Consistent with mgmt comments, not independently verified |
-| B7 (Insider Form 4s) | ❌ OPEN | Quick EDGAR check |
+| B7 (Insider Form 4s) | ✅ COMPLETE | Prior data in INSIDER_SCAN_OZK.md. No new transactions per GuruFocus. CRO discretionary sale Feb 24 remains strongest signal. |
 | B8 (IQHQ in OZK filings) | ✅ CONFIRMED ABSENT | Zero mention in any OZK filing |
 | C (Weaknesses) | ❌ OPEN | Rate relief scenario, reclassification innocent explanation |
 | D (Opportunities) | ❌ OPEN | LTV extrapolation, problem bank comparison |
