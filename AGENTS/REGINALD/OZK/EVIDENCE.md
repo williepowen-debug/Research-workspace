@@ -109,6 +109,84 @@ Full data → `sources/FDIC_QBP_Q4_2025.md`
 
 TCE: $5,130M | TBV/share: $46.48 | Book/share: $52.46
 
+### Adjusted CRE Concentration (Including Shadow NDFI + Memo Item 3)
+| Metric | Reported | + Shadow CRE + MI3 |
+|--------|---------|-------------------|
+| CRE / Tier 1 | 358% | **405-416%** |
+| Basis | On-balance CRE only | + $1.0-1.6B shadow CRE via NDFI + $1.289B Memo Item 3 |
+
+OZK's $2.74B NDFI book (loans to bridge lenders, PE funds, BDCs) is positively correlated with CRE stress — wrong-way risk. CEO Gleason confirmed on Q3 2025 earnings call: **"a chunk of our NDFI loans that show up on our call report are actually RESG loans. And this goes back to our long-standing relationships with a lot of the debt funds that do commercial real estate lending."** Management's own admission: NDFI ≈ CRE debt fund exposure. Full analysis → `research/NDFI_SHADOW_CRE_ANALYSIS.md`
+
+---
+
+## FDIC API — CREDIT QUALITY TREND (Primary, Mar 23)
+
+### Noncurrent Loans ($000s)
+| Quarter | Noncurrent | % of Loans | QoQ | ACL Balance | ACL Coverage |
+|---------|-----------|------------|-----|-------------|-------------|
+| Q1 2024 | 61,197 | 0.22% | | 365,935 | 5.98x |
+| Q2 2024 | 85,266 | 0.30% | +39% | 407,079 | 4.77x |
+| Q3 2024 | 175,665 | 0.61% | +106% | 420,058 | 2.39x |
+| Q4 2024 | 131,494 | 0.45% | -25% | 465,547 | 3.54x |
+| Q1 2025 | 62,719 | 0.20% | -52% | 488,150 | 7.78x |
+| Q2 2025 | 58,545 | 0.18% | -7% | 518,634 | 8.86x |
+| Q3 2025 | 149,744 | 0.46% | +156% | 532,341 | 3.55x |
+| **Q4 2025** | **341,223** | **1.07%** | **+128%** | **475,721** | **1.39x** |
+
+🔴 Noncurrent 2.3x in one quarter. Coverage collapsed 8.86x → 1.39x in two quarters. ACL cut $56.6M while charge-offs accelerated.
+
+### Charge-offs (YTD cumulative → quarterly implied)
+| Quarter | YTD NCOs ($000s) | Quarterly | Ann. Rate |
+|---------|-----------------|-----------|-----------|
+| Q1 2025 | 38,417 | 38,417 | 0.50% |
+| Q2 2025 | 73,632 | 35,215 | 0.43% |
+| Q3 2025 | 121,945 | 48,313 | 0.60% |
+| Q4 2025 | 172,514 | 50,569 | 0.64% |
+
+Source: FDIC API (banks.data.fdic.gov), CERT 110, pulled Mar 23 2026. Full data → `sources/FDIC_API_CALL_REPORT_DATA.md`
+
+### RC-N Noncurrent by Loan Type (Q4 2025, from FFIEC Call Report)
+| Category | 30-89 Past Due ($000s) | Noncurrent ($000s) | % of Total NC |
+|----------|----------------------|-------------------|--------------|
+| **Other nonfarm nonres** | **741** | **256,727** | **75.2%** |
+| **Other construction/land** | **3,188** | **40,424** | **11.8%** |
+| Owner-occ nonfarm nonres | 3,420 | 2,121 | 0.6% |
+| C&I | 10,143 | 2,703 | 0.8% |
+| All other categories | 24,246 | 39,248 | 11.5% |
+| **TOTAL** | **41,738** | **341,223** | |
+
+🔴 **75% of all noncurrent loans are in "other nonfarm nonresidential"** — non-owner-occupied CRE (office, life sciences, retail). This is where IQHQ, Pacific Center, Bioterra sit. The stress is concentrated in the exact category the thesis targets.
+
+### 🔴 Interest Reserves — Construction Book Artificiality
+- $7.0B of $7.8B construction loans use interest reserves (RCONG376) — **89.7%**
+- Q4 interest capitalized from reserves: $108.6M (RIADG377)
+- Borrowers are NOT paying from cash flow. The bank is lending to itself to keep loans current. When reserves deplete or loans mature, these convert to nonaccrual.
+
+### RCON2746 — Memo Item 3 CONFIRMED: $1.289 BILLION
+- C&I total: $3,431,585 ($000s)
+- Memo Item 3 / C&I = **37.6%** ✅ (matches prior estimate)
+- Additional: $2.74B in loans to NDFIs (non-depository financial institutions) — debt-on-debt risk
+
+Source: FFIEC Call Report (RSSD 107244), Q4 2025, pulled Mar 23 2026.
+
+### Deposit Composition — Uninsured Exposure (FDIC API, 8 quarters)
+| Quarter | Total Dep ($M) | Insured ($M) | Uninsured ($M) | Uninsured % | Brokered ($M) |
+|---------|---------------|-------------|----------------|-------------|---------------|
+| Q1 2024 | 29,406 | 19,538 | 9,922 | 33.7% | 609 |
+| Q2 2024 | 29,944 | 19,785 | 10,483 | 35.0% | 621 |
+| Q3 2024 | 30,572 | 20,330 | 10,778 | 35.3% | 636 |
+| Q4 2024 | 31,043 | 20,462 | 11,214 | 36.1% | 638 |
+| Q1 2025 | 31,926 | 21,019 | 11,591 | 36.3% | 652 |
+| Q2 2025 | 33,522 | 21,772 | 12,446 | 37.1% | 657 |
+| Q3 2025 | 33,985 | 22,805 | 12,012 | 35.3% | 667 |
+| **Q4 2025** | **33,385** | **22,402** | **11,939** | **35.8%** | **662** |
+
+**$11.9B uninsured = 35.8% of deposits.** This is the flight-risk pool in a stress scenario. For context, SVB was ~94% uninsured; First Republic was ~68%. OZK's 35.8% is moderate but not benign — $11.9B is 2.2x Tier 1 capital. A 20% run on uninsured ($2.4B) would require significant FHLB/discount window borrowing against already-74%-pledged loan book.
+
+Uninsured deposits grew from $9.9B → $12.4B (peak Q2 2025) then declined $500M in H2 2025. Early outflow signal? Or seasonal. Worth watching.
+
+Source: FDIC API (CERT 110), fields DEP/DEPINS/DEPUNA/DEPSMB/DEPLGB.
+
 ---
 
 ## KEY RISK METRICS (Dec 2025, primary sourced)
@@ -121,7 +199,7 @@ TCE: $5,130M | TBV/share: $46.48 | Book/share: $52.46
 | Life Science (total commitment) | **$3.1B** | 10.7% of RESG. Funded split not disclosed. |
 | Office (total commitment) | **$3.7B** | 12.8% of RESG. LTV 55% avg. |
 | **Unfunded Commitments** | **$18.0B** | Down from $19.08B but still massive vs capital |
-| NPLs | **$341M** | **1.06%** — doubled from $150M in Q3 |
+| NPLs | **$341M** | **1.07%** — doubled from $150M in Q3 (FDIC: $341,223 / $31,842,064) |
 | NPAs | **$402M** | **0.99%** — doubled from $228M in Q3 |
 | Classified/Criticized | **$984M** | Substandard non-accrual $341M, accrual $161M, special mention $421M |
 | RESG FY2025 NCOs | **$130.5M** | 0.68% — 3.6x the 23-year avg of 0.19% |
@@ -141,7 +219,7 @@ Construction ACL: ~~"$85M" and "$139M" discrepancy~~ — category-level ACL not 
 
 ---
 
-## MEMO ITEM 3 — HIDDEN CRE
+## MEMO ITEM 3 — HIDDEN CRE + RECLASSIFICATION EVIDENCE
 
 | Metric | OZK | WAL | Metropolitan (failed) |
 |--------|-----|-----|-----------------------|
@@ -151,6 +229,28 @@ Construction ACL: ~~"$85M" and "$139M" discrepancy~~ — category-level ACL not 
 | Hidden in "Other" | $1.06B (RESG to NDFIs) | — | — |
 
 FFIEC field: RCON2746. Screen: RC-C Part I → Item 4 (C&I) → Memo Item 3 → ratio >20% = flag.
+
+### 🔴 FDIC API Confirms Reclassification at OZK (Mar 23, 2026)
+
+**C&I doubled while construction fell — textbook Memo Item 3 migration:**
+
+| Quarter | Construction ($M) | C&I ($M) | Const QoQ | C&I QoQ |
+|---------|-------------------|----------|-----------|---------|
+| Q1 2024 | 12,322 | 1,355 | — | — |
+| Q2 2024 | 11,491 | 1,499 | -831 | +144 |
+| Q3 2024 | 9,828 | 1,503 | -1,663 | +4 |
+| Q4 2024 | 9,523 | 1,729 | -306 | +225 |
+| Q1 2025 | 9,209 | 2,066 | -314 | +337 |
+| Q2 2025 | 8,685 | 2,330 | -524 | +264 |
+| Q3 2025 | 8,490 | 2,871 | -195 | +540 |
+| Q4 2025 | 7,778 | 3,432 | -712 | +561 |
+
+- **Construction: -$4,544M (-36.9%) over 8 quarters**
+- **C&I: +$2,077M (+153%) over 8 quarters**
+- ~46% of construction decline migrated to C&I
+- This is OZK-specific evidence (not just industry H.8 data)
+
+**✅ RCON2746 confirmed from FFIEC CDR:** $1.289B = 37.6% of C&I. See RC-N/RC-C section above.
 
 ---
 

@@ -39,15 +39,20 @@
 - **Who:** Agent with 10-K + calculator
 - **Time:** 15 min, can bundle with Fix 1
 
-## FIX 4: Fill RC-C Data 🟠 HIGH
+## FIX 4: Fill RC-C Data 🟢 PARTIAL COMPLETE
 **Gap:** Empty placeholder in EARNINGS_PREP.md. Need state-level noncurrent rates for OZK specifically.
-**Attack:**
-- FFIEC CDR (cdr.ffiec.gov) → search Bank OZK → Schedule RC-C Part I
-- Pull: nonfarm nonresidential by state (FL, NY, CA, IL, GA)
-- Compare institution-level vs FDIC district benchmarks already in EVIDENCE.md
-- If CDR doesn't break by state, check Schedule RC-N (past due by loan type)
-- **Who:** Agent or Will can pull from FFIEC CDR website
-- **Time:** 1 session, ~30 min
+**Result (Phase 1 — FDIC API, Mar 23):** Pulled 8 quarters of loan composition, noncurrent, ACL, charge-off data via FDIC API (CERT 110). Key findings: C&I +153% while construction -36.9% (reclassification proof). Noncurrent spiked to $341M (1.07%). ACL cut $56.6M into deterioration. Coverage collapsed to 1.39x. Data saved to `sources/FDIC_API_CALL_REPORT_DATA.md`, integrated into EVIDENCE.md + THESIS.md.
+
+**Phase 2 COMPLETE (FFIEC CDR, Mar 23):** Will pulled full Call Report from cdr.ffiec.gov (RSSD 107244, Q4 2025). Key extractions:
+- **RCON2746 = $1.289B** → Memo Item 3 / C&I = 37.6% ✅ confirmed
+- **RC-N noncurrent**: 75.2% concentrated in other nonfarm nonres ($256.7M) — office/life sci
+- **Interest reserves**: $7.0B of $7.8B construction book (89.7%) — massive artificiality
+- **NDFI exposure**: $2.74B in loans to non-depository financial institutions
+- Full data → `sources/FDIC_API_CALL_REPORT_DATA.md`
+
+**Still missing:**
+- State-level breakdowns (not in standard call report format)
+- Construction ACL category breakdown (may need RC-R detail)
 
 ## FIX 5: Scenario Analysis + Target Prices 🟠 HIGH
 **Gap:** No quantified bull/base/bear, no stock targets, no max drawdown tolerance.
