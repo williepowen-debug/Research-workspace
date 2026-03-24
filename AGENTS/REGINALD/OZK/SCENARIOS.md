@@ -2,6 +2,8 @@
 **Created:** 2026-03-23 | **Last Updated:** 2026-03-23
 **Current Price:** ~$42-44 | **TBV:** $46.48 | **Book:** $52.46
 
+> **Framing note:** Probabilities here are scenario weights for position sizing. THESIS.md conviction reflects overall directional view. Both coexist — 50% bear scenario weight with high-conviction directional thesis means the expected value strongly favors the short even at coin-flip odds.
+
 ---
 
 ## KEY INPUTS

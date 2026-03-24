@@ -27,13 +27,34 @@ Slow-building reservoir of unrecognized CRE losses, masked by reserve cuts and e
 | ~Apr 20-21 | Peer earnings (ZION, WAL) | Sector read-through |
 | **Aug 2026** | IQHQ RaDD maturity ($915M) | Aug puts aligned |
 
-## Research Agenda (Before Apr 16)
-- [ ] Pull OZK Call Report RC-C — state-level noncurrent rates
-- [ ] 8-K EDGAR watch — forced disclosures before earnings
+## Research Agenda — Single Task Tracker
+*This is the ONE authoritative list. GAP_ANALYSIS Part 7 is frozen. EXTERNAL_PROMPTS.md is Will's tool — when results land in sources/, check items off here.*
+
+### MUST DO (This Week)
+- [ ] Set up 8-K EDGAR monitoring — CIK 0001609065 (window is NOW)
+- [ ] Pull current short interest — FINRA or Ortex (undated everywhere)
+- [ ] Update stock price (~$49 vs SCENARIOS ~$42-44 — reconcile)
+
+### SHOULD DO (Before Apr 10)
+- [ ] Gleason GFC track record — FDIC CERT 110, 2007-2012 *(Prompt #1)*
+- [ ] Interest reserve depletion model *(Prompt #3)*
+- [ ] TDR/modification data from 10-K *(Prompt #4)*
+- [ ] Life sciences vacancy Q1 — San Diego *(Prompt #6)*
+- [ ] Peer ACL/NCO comp table — 5-8 CRE-heavy regionals *(Prompt #7)*
+- [ ] Construction loan maturity schedule *(Prompt #2)*
 - [ ] IQHQ RaDD leasing updates
-- [ ] Life sciences vacancy Q1 — San Diego, Boston, Chicago
 - [ ] Updated insider filings (Form 4s since Feb 24)
-- [ ] Peer earnings comparison framework
+
+### NICE TO HAVE
+- [ ] Metropolitan Capital failure comparison *(Prompt #8)*
+- [ ] Affinius Capital bond details *(Prompt #9)*
+- [ ] Sell-side consensus *(Prompt #10)*
+- [ ] FHLB Dallas advance rates *(Prompt #11)*
+- [ ] Buyback activity update *(Prompt #12)*
+- [ ] Peer 2022 vintage maturity wall *(Prompt #13)*
+- [ ] Options implied move for Apr 16 *(Prompt #14)*
+- [ ] State-level RC-C noncurrent breakdowns
+- [ ] Source $13.8B 2022 origination claim
 
 ## Navigation
 **Cold boot? Start at `INDEX.md`** — boot sequence, key numbers, full file map.
