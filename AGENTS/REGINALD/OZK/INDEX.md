@@ -50,7 +50,8 @@
 | 2 | `THESIS.md` | 5 min | Full bear case, three waves, bull rebuttals, MI3 discovery |
 | 3 | `SCENARIOS.md` | 3 min | Bull/base/bear with probabilities and triggers |
 | 4 | `GAP_ANALYSIS_REPORT.md` | 5 min | All known gaps, unsourced claims, logical leaps, action list |
-| 5 | `workbook/KB.tsv` | 3 min | 63-row canonical evidence database |
+| 5 | `workbook/KB.tsv` | 3 min | 136-row canonical evidence database |
+| — | `workbook/KB_INDEX.md` | 2 min | Group navigator: 16 clusters → folders → thesis layers |
 
 **Total cold-boot: ~18 min.** Covers 90%+ of what an agent needs.
 
@@ -64,7 +65,8 @@
 | `THESIS.md` | Full thesis with three-wave framework |
 | `SCENARIOS.md` | Probability-weighted outcomes |
 | `GAP_ANALYSIS_REPORT.md` | Comprehensive gap audit with prioritized action list |
-| `workbook/KB.tsv` | Canonical evidence store (63 rows, 13 columns) |
+| `workbook/KB.tsv` | Canonical evidence store (**136 rows**, 13 columns) |
+| `workbook/KB_INDEX.md` | **KB group navigator** — 16 clusters mapped to folders, thesis layers, and earnings prep |
 
 ### Deep Dives (read on-demand)
 | File | When to Read |
@@ -87,9 +89,18 @@
 | `research/D3_SHADOW_CRE_LEVER.md` | Novel adjusted CRE/Tier1 metric |
 | `research/D4_PROBLEM_BANK_COMPARISON.md` | OZK vs problem bank thresholds |
 | `research/D5_DIVIDEND_SUSTAINABILITY.md` | Dividend cut probability model |
+| `research/D6_EXTEND_AND_PRETEND.md` | **590 mods, 98% classification gap, 59% re-default — thesis Layer 2** |
 | `research/NDFI_SHADOW_CRE_ANALYSIS.md` | $2.74B shadow CRE deep dive |
 | `research/INSIDER_ACTIVITY_COMPILED.md` | All insider transactions compiled |
 | `research/8K_FORCED_DISCLOSURE_FRAMEWORK.md` | Pre-announcement pattern analysis |
+
+### Geography (CRE exposure by metro)
+| File | Content |
+|------|---------|
+| `GEOGRAPHY/EXPOSURE_MAP.md` | 58 MSAs, $2.9B distressed cluster, FL paradox |
+| `GEOGRAPHY/REGULATORY_DISTRICTS.md` | FDIC district mismatch, PDNA/NCO gaps |
+| `GEOGRAPHY/FL_PARADOX/FINDINGS.md` | 4-model FL stress-test — confirmed fortress with Biscayne 21 exception |
+| `GEOGRAPHY/STATUS.md` | Geographic investigation tracker |
 
 ### Sources (raw data — don't read at boot)
 | File | Content |
@@ -113,7 +124,8 @@
 ### Workbook
 | File | Content |
 |------|---------|
-| `workbook/KB.tsv` | 63-row evidence database (13-column standard schema) |
+| `workbook/KB.tsv` | **136-row** evidence database (13-column standard schema) |
+| `workbook/KB_INDEX.md` | Group navigator — 16 clusters mapped to folders + thesis layers |
 | `workbook/KB_MIGRATION_LOG.md` | Migration audit trail |
 
 ---
