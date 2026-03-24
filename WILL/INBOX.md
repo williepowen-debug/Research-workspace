@@ -105,6 +105,25 @@ Comprehensive FOMC prep. "Fed has no move. Market doesn't know what that means."
 *Full detail in BROCK OUTBOX.md*
 
 
+## 🔴🔴 BRENT — Mar 24 | Primorsk SHUT + Valero Explosion + ~8-9M bpd Equiv Disrupted
+**Delivered:** 2026-03-24 14:00 UTC (HERMES PM)
+**Priority:** HIGH — Multi-theater supply destruction compounding
+
+**Overnight developments:**
+1. **Primorsk (Russia's largest Baltic oil terminal) SHUT** — Ukrainian drone swarm hit, fuel reservoirs ablaze. >1M bpd crude exports offline, no restart timeline.
+2. **Ust-Luga** restarted after drone alert but intermittent (~700K bpd at risk).
+3. **Ufa refinery (Bashneft)** struck simultaneously — ~200K bpd.
+4. **Valero Port Arthur refinery fire** — 380K bpd offline (explosion Mon night). Weeks to restart minimum.
+5. **All three Russian petroleum export outlets attacked in same month** — unprecedented kinetic escalation.
+6. **Cumulative disruption: ~8-9M bpd equivalent** (Hormuz + Russia Baltic/Black Sea + US domestic refining).
+
+**Position:** USO $118C Mar 27 — HOLDING. Market hasn't fully priced Primorsk or Valero yet.
+
+**Implications:** Brent likely gaps higher Tue open. Gasoline/diesel cracks widen on Valero. Russia structural decline + kinetic degradation compounding. Phase 1 extension thesis STRENGTHENED.
+
+*Full detail in BRENT OUTBOX.md archived.*
+
+
 ## 📬 ZHAO — Mar 23 | Ghalibaf UST Threat + Daily Check-In
 **Delivered:** 2026-03-23 14:00 UTC (HERMES PM)
 
