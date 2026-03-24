@@ -122,10 +122,25 @@ Full data → `sources/FDIC_QBP_Q4_2025.md`
 
 However: zero borrowings also means OZK has no rollover risk and no wholesale funding costs. This is conservative balance sheet management. The risk is binary: either deposits stay (fine) or they run (problem).
 
-### Insider Transactions (B7, checked Mar 23 2026)
-Per GuruFocus: **zero insider transactions (buy or sell) in the past 3 months.** No C-suite selling since CRO Majumdar (Feb 24, per prior EVIDENCE.md). No insider buying either. Neutral signal — absence of selling doesn't confirm bull case, but absence of buying near 52-week lows also doesn't confirm insider confidence.
+### Insider Transactions (Updated Mar 23 2026)
 
-Source: GuruFocus insider tracker (Gleason George G II page), FFIEC Call Report (funding lines).
+**Prior sales (from INSIDER_SCAN_OZK.md):**
+
+| Date | Name | Title | Action | Signal |
+|------|------|-------|--------|--------|
+| Feb 24, 2026 | **Majumdar** | **CRO** | Sold 10.78% of holdings (419 shares), **NO 10b5-1 plan** | 🔴 Discretionary — the risk officer reducing exposure |
+| Oct '24 + Jan '25 | Hicks | CFO | ~$944K across tranches (~22% of holdings) | 🔴 Material, staged |
+| Prior | Whipple | Director | $5.2M sold at $51.50 (stock now ~$42-44) | 🔴 Sold near high — timing correct |
+| 12 months | All insiders | — | **Zero buying** | 🔴 No one stepped in during drawdown |
+| — | Gleason | CEO (~10%) | Zero selling | 🟡 Captive (position too large to sell) |
+
+**Update (Mar 23, checked GuruFocus):** Zero new insider transactions (buy or sell) in last 3 months. Pattern holds: C-suite sold into late 2024 / early 2025 drawdown, CRO sold discretionarily in Feb 2026, and **nobody has bought** at or near 52-week lows.
+
+**Why it matters:** CRO Majumdar sold discretionarily (no 10b5-1 plan) the same quarter the bank cut ACL by $56.6M while noncurrent doubled. The risk officer reducing personal exposure without automatic plan cover, while managing the bank's credit risk function — that's the strongest insider signal in the screen.
+
+**C4 caveat (per WEAKNESSES.md):** Gleason's non-selling is NOT a bearish signal — $470M position in a $4.7B company has legitimate liquidity constraints. The signal is the other C-suite: CFO staged $944K out, CRO sold discretionarily, nobody bought.
+
+Source: `sources/INSIDER_SCAN_OZK.md`, GuruFocus insider tracker. FFIEC Call Report (funding lines).
 | CRE/Total RBC | **~302%** | — | 300% ⚠️ | Barely above regulatory threshold |
 | CRE + unfunded / Tier 1 | **~682%** | — | — | ~~900% unverifiable~~ |
 
