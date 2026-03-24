@@ -221,4 +221,113 @@ Context: I hold Aug $42.50 and $45 puts. I need to know if the market is already
 
 ---
 
+---
+
+## 🔴 ADDED — Unprompted Research Items
+
+### PROMPT 15: IQHQ RaDD Leasing Status
+```
+IQHQ's RaDD (Research and Development District) is a 1.7M sqft life sciences campus under construction on the San Diego waterfront (Harbor Drive). Bank OZK has $915M in exposure (their single largest loan). 
+
+I need current (Q1 2026) information on:
+1. Leasing status — what % of the 1.7M sqft is pre-leased or leased? Any named tenants?
+2. Construction status — on schedule? Expected delivery date?
+3. IQHQ corporate health — any fundraising, leadership changes, or financial stress signals?
+4. San Diego life sciences demand context — is there tenant demand for this much new lab space given current vacancy rates (~25-30% in Sorrento Mesa)?
+5. Any recent news articles, press releases, or broker reports mentioning RaDD specifically
+
+Context: This is a $915M construction loan maturing ~Aug 2026. If the building delivers into a soft leasing market with low pre-leasing, OZK faces a binary outcome: extend (more risk) or force a sale (loss recognition). The loan has LTV estimated at 186-285% on distressed basis.
+```
+**Save as:** `sources/IQHQ_RADD_LEASING_Q1_2026.md`
+
+### PROMPT 16: OZK Insider Transactions (Recent)
+```
+Pull all SEC Form 4 filings for Bank OZK (CIK 0001609065) from January 1, 2026 to present.
+
+For each filing:
+1. Insider name and title
+2. Transaction type (buy/sell/option exercise)
+3. Date, shares, price
+4. Remaining holdings after transaction
+
+Specifically flag:
+- Any sales by CEO George Gleason or CFO
+- Any sales by board members
+- Pattern: are insiders selling into strength or buying weakness?
+- The CRO position — is it still vacant? Any new C-suite hires filed?
+
+Also check: OZK had a CRO gap (Chief Risk Officer departed, position unfilled as of late 2025). Has this been filled? Any 8-K announcing a new CRO?
+
+Context: Prior analysis found CFO selling in narrow windows above $47, and no insider buying despite stock near 52-week lows. CRO vacancy during peak CRE stress is a red flag.
+```
+**Save as:** `sources/OZK_INSIDER_FILINGS_2026.md`
+
+### PROMPT 17: State-Level CRE Noncurrent Breakdowns
+```
+From FDIC Call Report data (FFIEC CDR), pull Bank OZK's (RSSD ID: 107244, FDIC CERT: 110) loan quality data broken down by state or FDIC supervisory region.
+
+Specifically looking for:
+1. Schedule RC-C Part II — Loans to Small Businesses and Small Farms, broken by state
+2. Any geographic concentration disclosures in the 10-K (Section: Credit Risk — Geographic)
+3. FDIC Summary of Deposits data — branch footprint vs lending footprint mismatch
+4. State-level noncurrent rates if available in public filings
+
+Key question: OZK lends nationally from an Arkansas charter but has branches in only ~8 states. Which states have the highest noncurrent rates on OZK's book? Is the stress concentrated in specific geographies (San Diego, Boston, NYC) or spread evenly?
+
+Compare: FDIC QBP shows national CRE noncurrent at 1.17%. OZK's consolidated noncurrent is 0.71% — but we suspect this hides geographic pockets well above the national average.
+```
+**Save as:** `sources/OZK_STATE_NONCURRENT_BREAKDOWN.md`
+
+### PROMPT 18: OZK $13.8B 2022 Origination Verification
+```
+Verify Bank OZK's 2022 loan origination volume. Multiple sources cite approximately $13.8B in new loan originations during 2022 (their peak year).
+
+Check:
+1. 2022 10-K (filed Feb 2023) — loan origination/production tables
+2. Q4 2022 earnings call transcript — management commentary on origination volume
+3. Any investor presentations from 2022-2023 citing annual production figures
+4. FDIC Call Report: compare total loans Dec 2021 vs Dec 2022 (net growth ≠ gross origination, but gives a floor)
+
+Key data points needed:
+- Gross origination volume for full year 2022
+- Breakdown by loan type (construction vs permanent vs C&I)
+- Average loan size for 2022 vintage
+- How this compares to 2021 and 2023 origination (was 2022 truly the peak?)
+
+Context: If 2022 originations were truly $13.8B with 36-42 month construction terms, most of that vintage matures in H1-H2 2026. This is the "maturity wall" thesis. But I need to verify the $13.8B figure — it appears in our research but isn't sourced to a specific filing.
+```
+**Save as:** `sources/OZK_2022_ORIGINATION_VERIFICATION.md`
+
+### PROMPT 19: CRE Market Conditions by OZK Metro (Vacancy, Cap Rates, Absorption)
+```
+For Bank OZK's top 10 metro exposures, pull current (Q4 2025 or Q1 2026) commercial real estate market conditions:
+
+Metros (ranked by OZK exposure):
+1. South Florida / Miami ($7.45B, 23%)
+2. New York City ($4.2B, 13%)
+3. San Diego ($1.4B, 4.3%)
+4. Dallas-Fort Worth ($1.2B, 3.7%)
+5. Atlanta ($1.1B, 3.4%)
+6. Boston ($700M+)
+7. Seattle ($235M+)
+8. Chicago ($200M residual)
+9. Los Angeles ($140M+)
+10. Baltimore ($253M — single project: Peninsula)
+
+For each metro, I need:
+- Office vacancy rate (overall + Class A)
+- Multifamily vacancy rate + rent growth trend
+- Cap rate trend (current vs 2022 origination-era)
+- Net absorption (positive or negative last 2 quarters)
+- Construction pipeline (sqft under construction)
+- Any notable distressed sales or foreclosures in Q1 2026
+
+Sources: CBRE, JLL, Cushman & Wakefield, CoStar quarterly reports, or Moody's Analytics CRE data.
+
+Key question: In which of these metros are market conditions WORSE than at origination (2021-2022)? Where cap rates have expanded most = where OZK's LTVs have deteriorated most.
+```
+**Save as:** `sources/OZK_METRO_MARKET_CONDITIONS.md`
+
+---
+
 *After running, drop files in `AGENTS/REGINALD/OZK/sources/`. I'll integrate into KB.tsv and update the thesis.*
