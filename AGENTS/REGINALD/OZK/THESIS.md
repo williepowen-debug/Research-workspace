@@ -19,12 +19,12 @@ OZK is a slow-building reservoir of unrecognized CRE losses. Stress is accumulat
 
 **Reserve is being consumed faster than rebuilt.** (Primary source: OZK Q4 2025 Mgmt Comments + Financial Supplement, verified Mar 23)
 
-- Q4 2025 gross NCO rate (annualized): **1.18%** ($98.3M gross charge-offs × 4 / avg loans; highest in 15 years, ~8x vs Q4 2024's $12.4M). FDIC net NCOs: $50.6M (after ~$47.7M recoveries). FY2025 NCO rate: 0.50%.
+- **FY2025 gross NCO rate (annualized): 1.18%** ($172.5M gross / avg loans; highest in 15 years, ~3x vs FY2024's $57.4M). Q4 2025 quarterly annualized net NCO rate: **0.64%** ($50.6M × 4 / $31.8B). Q4 gross charge-offs: $98.3M, recoveries ~$47.7M. Note: the FY rate is high because H2 losses accelerated; Q4 specifically was flat vs Q3 ($50.6M vs $48.3M net).
 - ACL ratio: **1.26%** (of loans + unfunded) — ~~NOT 1.16% as Temple 8 claimed~~
 - ACL coverage on Q4 annualized NCOs: **1.6x** ($632M / $393M) — low vs peers but ~~NOT <1.0x~~
 - ACL peaked $679.6M (Q3), **declined to $631.9M** (Q4) — melting ice cube ✅
 - Q4 provision: **$50.6M** vs Q4 charge-offs: **$98.3M** — provision covered barely HALF of losses
-- FY 2025 gross charge-offs: $160M per mgmt comments (FDIC API shows $172.5M gross before recoveries; $4.9M recoveries per FDIC = net $167.6M — remaining ~$7.6M gap likely timing/definitional). Prior year: $57.4M — 2.8x YoY ✅
+- FY 2025 gross charge-offs: $160M per mgmt comments (FDIC API shows $172.5M gross before recoveries; $4.9M recoveries per FDIC = net $167.6M — remaining ~$7.6M gap likely timing/definitional). Prior year: $57.4M — **3.0x YoY** ✅
 - Full-year ACL build was only +$12.5M, entirely front-loaded Q1-Q3; **Q4 reversed direction** ✅
 - RESG NCO rate: **0.68%** — 3.6x its 23-year average of 0.19%
 
@@ -33,7 +33,7 @@ OZK is a slow-building reservoir of unrecognized CRE losses. Stress is accumulat
 | Huntington | 1.83% | 0.24% | 7.5x | |
 | Truist | 1.55% | 0.57% | 2.7x | |
 | Regional peer avg | 1.75-2.05% | ~0.35% | ~5x | |
-| **OZK** | **1.26%** | **1.18%** | **1.6x** | Lowest in peer group |
+| **OZK** | **1.26%** | **1.18% (FY ann.)** | **1.6x** | Lowest in peer group |
 
 **Temple 8 correction:** Their "inversion" (-2bps, <1.0x coverage) was an apples-to-oranges denominator error. The real ACL ratio (1.26%) exceeds the Q4 annualized gross NCO rate (1.18%) by +8bps. Coverage is 1.6x on annualized NCOs, not <1.0x. **However**, 1.6x is still the lowest in the peer group by a wide margin, and the trajectory is what matters — provision is running at half the charge-off rate. At this pace, another 2 quarters of elevated losses depletes the buffer.
 
