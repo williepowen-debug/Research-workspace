@@ -1,29 +1,40 @@
 # SCRATCH — Ephemeral Working Memory
 
-**Updated:** 2026-03-25 18:45 UTC (Tue 2:45 PM ET)
+**Updated:** 2026-03-24 14:30 UTC (Tue 10:30 AM ET)
 
 ---
 
 ## QUICKSTART
-Scenario D **78%**. War Day **25**. Account $51,447. Brent mid-$90s.
-**OZK folder: A- quality. KB.tsv migrated (63 rows, 13-col). All A-E sections COMPLETE. Remaining: Audit E (pub cleanup), B1/B4 (minor).**
+Scenario D **78%**. War Day **25**. Account **$54,416**. Brent mid-$90s.
+**OZK folder: A- quality, fully restructured. INDEX.md entry point. KB.tsv canonical (63 rows). Fix 4 (KB cross-refs in THESIS.md) is the one remaining structural task.**
 
 ## HANDOFF
-**Last context:** Completed OZK KB.tsv migration — 63 rows, 13-column schema. Fixed NCO/YoY data errors. Rewrote BRIEFING.md. Compressed LABOR STATUS. Updated BRENT (Primorsk/TX refinery). All committed and pushed.
+**Last context:** Major session — overnight signal integration + OZK folder optimization.
+
+**This session completed:**
+- Overnight signals integrated: APO gated ($15.1B, 11.2% requests, 45% honored), ARES gated ($10.7B), FSK downgraded to junk (Moody's Ba1)
+- BROCK spawned → processed cascade, updated STATUS (9 funds in ~7 weeks)
+- APO Apr 17 put removed from cut list — gate confirms thesis, HOLD
+- HANS refreshed after 13 days stale — DD-4 (China Hormuz) delivered, full domain update
+- NEXUS Pass 10 complete — 4 new convergence threads (C-30 to C-34), 50/50 ceiling
+- Valero Port Arthur FULL SHUTDOWN confirmed (380K bpd), BRENT STATUS updated
+- OZK folder restructured: INDEX.md created, 5 files archived, single task tracker in STATUS.md, edit policy, scenario sync note
+- 14 external research prompts written (EXTERNAL_PROMPTS.md) — Will running them now
+- REGINALD structure audit completed
 
 **Next session priorities:**
-1. **Jefferies Q1** — Reports after close today (Mar 25). WAL catalyst. Check results.
-2. **Audit E** — OZK publication readiness: Temple 8 ref cleanup, source citations, PDNA geography
-3. **B1** — State-level data (may defer — limited availability)
-4. **B4** — FHLB/liquidity detail (largely covered by D2)
-5. **OZK earnings Apr 16** — 22 days out. Folder is thesis-ready.
-6. **Stale agents** — HANS (13d), DARWIN (34d) — decide: refresh or archive
-7. **Position mgmt** — APO Apr 17 put cut, TLT 88 May sell decision, FXY sizing
+1. **Fix 4** — KB cross-references in THESIS.md (deferred for fresh context)
+2. **Integrate Will's prompt results** — he's running Gleason GFC + others now, will drop in sources/
+3. **Jefferies Q1** — reports after close today. WAL catalyst.
+4. **ARESSI Mar 26** (2 days) + **OBDCII Mar 27** (3 days) — BDC redemption catalysts
+5. **USO $118C Mar 27** — Thursday expiry, down 69%. Decision needed.
+6. **DARWIN** still stale (34d) — HANS refreshed, DARWIN remains
 
 **Open questions:**
 - TLT 88 May put — Will still thinking
 - FXY entry timing
-- Jun→Dec roll timing (Will watching market)
+- Jun→Dec roll timing
+- USO Thursday — ride or cut?
 - SOFI consumer pain thesis — deferred
 
-**Rhythm:** Will comfortable with autonomous ops. Proactive flagging encouraged. Inline buttons for approvals.
+**Rhythm:** Will comfortable with autonomous ops. Proactive flagging encouraged. APO is now HOLD (not cut list).
