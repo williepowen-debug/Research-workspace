@@ -28,7 +28,7 @@
 |--------|--------|-----------|--------|
 | $42.5P | May 15 | 2 | Wave 1: Apr earnings catalyst |
 | $42.5P | Aug 21 | 1 | Waves 2-3: NY pipeline + IQHQ |
-| $45P | Aug 21 | 2 | Waves 2-3: NY pipeline + IQHQ |
+| $45P | Aug 21 | **4** | Waves 2-3: NY pipeline + IQHQ (added 2 @ $4.05 Mar 24) |
 
 **Earnings: April 16, 2026** — 23 days
 
