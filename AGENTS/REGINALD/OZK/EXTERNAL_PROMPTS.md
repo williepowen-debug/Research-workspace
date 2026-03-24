@@ -14,28 +14,12 @@ Run these and drop results into `sources/`. Prome will integrate into KB.tsv.
 | 2 | Construction loan maturity schedule | KB-074–079 | 4 LLMs, fully integrated |
 | 3 | Interest reserve depletion model | KB-080/081/088–093 | 4 LLMs, 6 rows |
 | 5 | Geographic deep dive (V1–V4) | KB-107–120 | 4 LLMs, 14 rows, EXPOSURE_MAP built |
+| 4 | TDR/loan modifications | KB-096–106 | 4 LLMs, 11 rows. 590 mods, 98% classification gap, 59% re-default |
 | 6 | FL Paradox stress-test | KB-121–132 | 4 LLMs, 12 rows, FINDINGS.md complete |
 
 ---
 
 ## 🔴 HIGH PRIORITY — Run Next
-
-### PROMPT 4: TDR / Loan Modification Data
-```
-Pull Bank OZK's troubled debt restructuring (TDR) and loan modification disclosures from their most recent 10-K (2024, filed Feb 2026) and 10-Q filings. Under ASC 326, look for:
-- Total modified loans ($ amount and % of portfolio)
-- Modifications by type (rate reduction, term extension, payment deferral, combination)
-- Modified loans that subsequently defaulted (re-default rate)
-- Any discussion of "financial difficulty" modifications
-
-Also check FFIEC Call Report for OZK (RSSD 107244):
-- RC-C Memoranda Item 1 (restructured loans)
-- RC-N Memoranda (past due restructured loans)
-
-Rising TDRs + flat NPLs = extend-and-pretend evidence at the institution level.
-```
-**Save as:** `sources/OZK_TDR_MODIFICATIONS.md`
-**Status:** V1–V4 results in sources/ but NOT YET INTEGRATED into KB. Needs synthesis pass.
 
 ### PROMPT 7: Peer ACL/NCO Comparison Table
 ```
