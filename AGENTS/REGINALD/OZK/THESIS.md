@@ -5,7 +5,7 @@
 OZK is a slow-building reservoir of unrecognized CRE losses. Stress is accumulating in the loan book, masked by reserve cuts, extend-and-pretend, and classification management. The 2022 vintage maturity wall forces recognition Q1-Q3 2026.
 
 **Three-wave catalyst structure:**
-1. **NOW → Apr 16 earnings:** Atlanta/FL/GA loans already noncurrent (1.36%), showing up as charge-offs
+1. **NOW → Apr 16 earnings:** Atlanta/FL/GA loans already noncurrent (1.36%), showing up as charge-offs. **Sterling Bay Lincoln Yards life sci building seized via deed-in-lieu Mar 2026** — 284K SF, 100% vacant since 2023 completion, carrying value $50M (was $125M loan), $14.1M already charged off H2 2025 [KB-OZK-094]. OZK also sold $265M Sterling Bay SD life sci loan to distressed buyer SVP in Jan 2026 [KB-OZK-095]. Wave 1 is LIVE.
 2. **Q2 2026:** NY pipeline (0.41% 30-89 day, highest in country) converts to noncurrent
 3. **Aug 2026 → likely Aug 2028:** IQHQ RaDD ($915M) — the whale. **Two-year extension reported (Bisnow Oct 2024).** Total reserves held by bank: $152.9M ($87M Jun 2024 + $82M Jan 2025) [KB-OZK-086]. LTV 50.3% at full funding per latest appraisal. Campus 97% vacant (only tenant: J. Craig Venter Institute, 50K/1.7M SF) [KB-OZK-028 ⚠️ Oct 2024, may be stale]. Cole est. value ~$500M vs $555M funded = underwater. Crisis real but timeline extended.
 
