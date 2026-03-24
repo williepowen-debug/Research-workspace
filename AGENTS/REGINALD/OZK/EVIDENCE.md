@@ -104,6 +104,28 @@ Full data → `sources/FDIC_QBP_Q4_2025.md`
 | TCE/TA | **12.79%** | — | — | |
 | CRE/Tier 1 | **~358%** | ~415% | 300% ⚠️ | Improved but still 1.2x red line |
 | CRE/TCE | **~387%** | — | — | |
+
+### Funding & Liquidity (FFIEC Call Report Q4 2025)
+| Metric | Value | Signal |
+|--------|-------|--------|
+| **FHLB advances outstanding** | **$0** | Zero wholesale borrowing |
+| Other borrowed money | $0 | |
+| Fed funds purchased | $0 | |
+| Repo | $537K | Immaterial |
+| **FHLB standby LOCs** | **$4,131M** | Available but undrawn — OZK's primary liquidity backstop |
+| **Pledged loans** | **$23,927M (74%)** | Already committed as collateral |
+| Pledged securities | $893M | |
+| Total deposits | $33,385M | 100% deposit-funded |
+| Uninsured deposits | $11,939M (35.8%) | Flight risk |
+
+**Key finding:** OZK has ZERO wholesale borrowings — entirely deposit-funded. The $4.13B FHLB standby LOC is the liquidity backstop, but $23.9B in loans are already pledged. In a deposit flight scenario ($11.9B uninsured), OZK would need to draw the FHLB LOC ($4.1B) and potentially seek additional Fed discount window or emergency funding. The gap between uninsured deposits ($11.9B) and available FHLB capacity ($4.1B) is ~$7.8B — a significant shortfall if a run materializes.
+
+However: zero borrowings also means OZK has no rollover risk and no wholesale funding costs. This is conservative balance sheet management. The risk is binary: either deposits stay (fine) or they run (problem).
+
+### Insider Transactions (B7, checked Mar 23 2026)
+Per GuruFocus: **zero insider transactions (buy or sell) in the past 3 months.** No C-suite selling since CRO Majumdar (Feb 24, per prior EVIDENCE.md). No insider buying either. Neutral signal — absence of selling doesn't confirm bull case, but absence of buying near 52-week lows also doesn't confirm insider confidence.
+
+Source: GuruFocus insider tracker (Gleason George G II page), FFIEC Call Report (funding lines).
 | CRE/Total RBC | **~302%** | — | 300% ⚠️ | Barely above regulatory threshold |
 | CRE + unfunded / Tier 1 | **~682%** | — | — | ~~900% unverifiable~~ |
 
