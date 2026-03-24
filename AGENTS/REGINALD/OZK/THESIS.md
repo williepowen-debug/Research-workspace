@@ -15,6 +15,22 @@ OZK is a slow-building reservoir of unrecognized CRE losses. Stress is accumulat
 
 ---
 
+## EXTEND-AND-PRETEND — THE CLASSIFICATION GAP (NEW Mar 24)
+
+**590 modifications. $1.5M in regulatory restructured loans. 98% avoided classification.**
+
+OZK executed 590 RESG modifications over 14 quarters on ~300 loans — the average loan has been modified roughly twice [KB-OZK-101]. But formal ASC 326 "financial difficulty" disclosures classified only 10 loans ($96.4M) in H1 2025, and Call Report RC-C Memoranda shows just $1.525M in restructured loans [KB-OZK-096]. Management frames modifications as commercially positive (fees collected, reserves posted, no concessions granted). The regulatory filings tell a different story.
+
+**59% re-default rate:** Of $78.3M in formally modified loans through Q3 2025, $46.3M subsequently went nonaccrual [KB-OZK-097]. More than half of the loans that were actually classified as troubled re-defaulted anyway. If that rate applies to the broader 590 operational modifications, the implied future nonaccrual pipeline is enormous.
+
+**Management credibility hit:** The Q2 2025 10-Q disclosed a $66.1M construction loan that received a **261 basis point rate reduction** (to SOFR+300) [KB-OZK-098]. This directly contradicts management's repeated earnings call claim of granting "no concessions — no rate reductions, no spread reductions, no floor reductions." One confirmed concession undermines the entire "we improve our position with each extension" narrative.
+
+**Interest reserves as hidden TDR:** FY2024 saw $504M in interest income recognized from reserve advances on $19.8B maximum committed balance [KB-OZK-099]. The bank is essentially funding interest payments to itself through contractual advances. The 10-K states reserves were never advanced outside contractual terms — but the scale itself is the mechanism keeping loans performing until reserves exhaust.
+
+**NPL volatility as forensic signal:** The NPL ratio swung from 0.60% to 0.18% to 1.06% in five quarters. The sharp 0.18% dip in Q2 2025 was driven by $101M in foreclosure transfers — NPLs moved to OREO, not resolved [KB-OZK-100]. Foreclosed assets surged from $69M to $160M in H1 2025. This is classification management through timing.
+
+---
+
 ## ACL THINNING — UNDER-PROVISIONING IN REAL TIME
 
 **Reserve is being consumed faster than rebuilt.** (Primary source: OZK Q4 2025 Mgmt Comments + Financial Supplement, verified Mar 23)
@@ -83,7 +99,7 @@ OZK has the **worst absolute Memo Item 3 ratio** in the screen [KB-OZK-020] — 
 - **Q1 2026 is front-loaded** — management explicitly guided "elevated payoff velocity" and "a lot of payoffs" in Q1 [KB-OZK-075]. April 16 earnings will capture this.
 - Bridge-to-Mini-Perm structure: 3yr initial + two 1yr extension options. 541 modifications since 2022 with $1.3B sponsor equity injections [KB-OZK-076]. Extensions convert cliff → slope, BUT extensions that fail performance hurdles = forced nonaccrual recognition.
 - **Adverse selection:** FY2025 RESG repayments: $7.24B (record, +19% YoY). Q4 alone: $3.0B record [KB-OZK-082]. Healthy loans already left. What remains at maturity is what couldn't refi [KB-OZK-078].
-- **Extension fatigue:** 414 mods over 14 quarters on ~300 credits = many extended more than once [KB-OZK-083]. Sterling Bay/Lincoln Yards modified SIX TIMES before $20.8M write-down. "You pay, you stay" extracted $2.6B from sponsors ($1.3B equity + $866M reserves + $429M principal) [KB-OZK-084] — but sponsor willingness has limits.
+- **Extension fatigue:** **590 mods** over 14 quarters on ~300 credits = average loan modified ~2x [KB-OZK-101]. Sterling Bay/Lincoln Yards modified SIX TIMES before $20.8M write-down. "You pay, you stay" extracted $2.6B from sponsors ($1.3B equity + $866M reserves + $429M principal) [KB-OZK-084] — but sponsor willingness has limits. **59% of formally classified modifications re-defaulted** [KB-OZK-097]. Management's "no concessions" claim contradicted by 261bps rate cut on $66.1M loan [KB-OZK-098].
 - DBRS: 2021-2022 vintages are 63% of CCC-C borrower pool; avg time to default 3.4 years = right now [KB-OZK-062 ⚠️ UNSOURCED]
 
 ---
