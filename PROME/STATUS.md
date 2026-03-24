@@ -20,7 +20,7 @@
 | ZHAO | 🔴🔴 | Demand hole revised $70-135B/mo. Ghalibaf UST threat = one-way ratchet. | 3/23 | 1 |
 | HAWK | 🔴🔴 | Scenario D **78%**. Day 24. Israel striking Tehran. Iran hit Dimona (nuclear). "Talks" = fiction. | 3/23 | 0 ✅ |
 | BROCK | 🔴🔴 | APO+ARES gated. FSK junk. 9 funds in ~7wks. ARESSI Mar 26, OBDCII Mar 27. | 3/24 | 0 ✅ |
-| REGINALD | 🟠 | OZK KB 95. Full tree buildout: MARKET, INSIDERS, GEOGRAPHY, PRIVATE_CREDIT all populated. 3 subagents successful. Will running geo prompts. | 3/24 | 0 ✅ |
+| REGINALD | 🔴 | OZK KB **120**. 19 prompts (5 done, 14 queued). Full tree built. EXPOSURE_MAP reviewed. FL_PARADOX launched. Apr 16 = 23 days. | 3/24 | 0 ✅ |
 | BRENT | 🔴🔴 | Valero Port Arthur FULL SHUTDOWN (380K bpd). Primorsk >1M bpd offline. ~8-9M bpd total disrupted. | 3/24 | 0 ✅ |
 | HANS | 🔴🔴 | DD-4 delivered. EU storage 17-19% entering refill. Dimona = point of no return. | 3/24 | 0 ✅ |
 | DARWIN | 🟡 | Scan overdue. **STALE 34d** | 2/18 | 0 |
@@ -44,8 +44,8 @@
 | ~~OZK Gap Closure~~ | ~~🔴~~ | ✅ KB.tsv migrated (63 rows), data fixes, BRIEFING rewritten |
 | OZK Audit E (pub cleanup) | 🟡 | Temple 8 refs, citations, PDNA geography |
 | Jefferies Q1 (today after close) | 🟠 | WAL catalyst — check results |
-| OZK Fix 4 — KB cross-refs in THESIS.md | 🟠 | Deferred for fresh context |
-| Will running OZK external prompts | 🟠 | Prompts 1-3 DONE (KB 95). Prompt 4 (EXPOSURE_MAP) running now. Prompt 5 (MARKET_CONDITIONS) queued. |
+| OZK Fix 4 — KB cross-refs in THESIS.md | ✅ | Done — 22 anchors added, 2 warning flags |
+| Will running OZK external prompts | 🟠 | Prompts 1-5 DONE (KB 120). 14 more queued (#6-19). Will pulling from GitHub. |
 | USO $118C Mar 27 decision | 🟠 | Thursday expiry, -69%. Ride or cut? |
 
 ---
