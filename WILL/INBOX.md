@@ -105,6 +105,15 @@ Comprehensive FOMC prep. "Fed has no move. Market doesn't know what that means."
 *Full detail in BROCK OUTBOX.md*
 
 
+## 🔴 BROCK — Mar 24 PM | APO Gating Own Fund + Gate Count 9 + FSK Junked
+**Delivered:** 2026-03-24 22:00 UTC (HERMES PM)
+**Priority:** URGENT — APO put thesis + gate count update
+
+APO disclosed their own $15.1B Debt Solutions fund gating (11.2% redemptions vs 5% cap). Three risk vectors now active on APO stock: credit, legal (class actions, Rowan named), liquidity/franchise. **Gate count: 9 in ~7 weeks** (+APO Debt Solutions, ARES fund, FSK junk downgrade). FSK Ba1 = forced sellers, sector-wide BDC repricing. Apr 17 puts tight — watch for break below 100 by Apr 5-7 or consider roll. Jun 18 puts high conviction hold. APODS catalyst calendar updated (Q1 redemptions disclosed Mar 23, next Q2 ~Aug/Sep). ARESSI (Mar 26) and OBDCII (Mar 27–Apr 3) still live tripwires.
+
+*Full detail in BROCK OUTBOX.md archived.*
+
+
 ## 🔴🔴 BRENT — Mar 24 | Primorsk SHUT + Valero Explosion + ~8-9M bpd Equiv Disrupted
 **Delivered:** 2026-03-24 14:00 UTC (HERMES PM)
 **Priority:** HIGH — Multi-theater supply destruction compounding
