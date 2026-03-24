@@ -37,7 +37,7 @@ Slow-building reservoir of unrecognized CRE losses, masked by reserve cuts and e
 
 ### SHOULD DO (Before Apr 10)
 - [x] Gleason GFC track record — FDIC CERT 110, 2007-2012 *(Prompt #1)* ✅ KB-064/065/066
-- [x] Interest reserve depletion model *(Prompt #3)* ✅ KB-080/081 (quarterly maturity estimate; reserve depletion mechanics not fully modeled — still a gap)
+- [x] Interest reserve depletion model *(Prompt #3)* ✅ KB-080/081/088-093 (4 LLMs: depletion timeline, cap interest gap, net burn rate, cascade mechanics, $500M hold limit, buybacks)
 - [ ] TDR/modification data from 10-K *(Prompt #4)*
 - [ ] Life sciences vacancy Q1 — San Diego *(Prompt #6)*
 - [ ] Peer ACL/NCO comp table — 5-8 CRE-heavy regionals *(Prompt #7)*

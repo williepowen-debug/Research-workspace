@@ -1,7 +1,7 @@
 # OZK — Agent Index
 **Start here on cold boot.**
 
-**Last session (Mar 24):** Prompts #1/#2/#3 integrated from multiple LLMs. KB at 87 rows. GFC research (10 rows), maturity schedule (6 rows), quarterly estimates + repayment velocity + extension fatigue + no-holding-co governance + IQHQ reserves + reclass quote (6 rows). THESIS.md, WEAKNESSES.md, EARNINGS_PREP.md all updated.
+**Last session (Mar 24):** Prompts #1/#2/#3 fully integrated from 4 LLMs each. KB at 93 rows. GFC track record (10 rows), maturity schedule (8 rows), interest reserve depletion model (6 rows) — 100% of original reserves exhausted, $47M/quarter net burn, SR 23-5 cascade mechanics. $500M hold limit + Q4 buybacks discovered. THESIS/WEAKNESSES/EARNINGS_PREP all updated.
 
 ---
 

@@ -11,7 +11,7 @@ OZK is a slow-building reservoir of unrecognized CRE losses. Stress is accumulat
 
 **Noncurrent concentration (FFIEC Call Report, Q4 2025):** 75.2% of all noncurrent ($256.7M of $341M) is in "other nonfarm nonresidential" — non-owner-occupied CRE [KB-OZK-012]. This is the exact category where IQHQ, office, and life sciences loans sit. The stress is surgically concentrated in OZK's vulnerability.
 
-**Interest reserve artificiality:** $7.0B of $7.8B construction loans (89.7%) use interest reserves [KB-OZK-016]. Borrowers are not paying from cash flow — the bank capitalizes interest to keep loans current ($108.6M in Q4 alone). When reserves deplete or loans mature without stabilization, these convert en masse to nonaccrual.
+**Interest reserve artificiality:** $7.0B of $7.8B construction loans (89.7%) use interest reserves [KB-OZK-016]. But modeling confirms **100% of original 2021-2022 reserves are mathematically exhausted** — 18mo reserves at 5% origination burned out by month 14 at 8.5% rates [KB-OZK-088]. The current 89.7% reflects sponsor-funded replenishments ($866M over 14Q), not original reserves. Q4 2025 capitalized interest of $108.6M is 17-31% below the $131-158M expected at stated rates — consistent with ~34% of the book no longer capitalizing via reserves [KB-OZK-089]. Net reserve burn: ~$47M/quarter ($108.6M consumed vs ~$62M replenished) [KB-OZK-090]. Fed SR 23-5 explicitly warns against using reserves to mask deterioration [KB-OZK-091].
 
 ---
 
