@@ -94,6 +94,8 @@ Bear case alone (50% prob): May put worth ~$4.50 intrinsic, Aug put worth ~$5.75
 
 **Why 50% (up from initial 40%):** The interest reserve data changes this materially. 89.7% of the construction book isn't organically performing — it's being administered. The market reads "low construction noncurrent" as health; we now know it's artifice. When the 2022 vintage matures Q1-Q3 2026, the cliff is mechanical, not probabilistic. The Q4 noncurrent spike was the *leading edge*, not an anomaly.
 
+**Rate relief sensitivity (C2 analysis):** Moderate rate cuts (75bps) reduce bear probability by ~5% at most. The stress is concentrated in office/life sci (75% of noncurrent) — categories where the bottleneck is vacancy, not borrowing cost. Office cap rates are STILL RISING (+20bps YoY nationally). Rate cuts help multifamily/industrial (where OZK is already getting paydowns), not the stressed categories. Full analysis → `research/C2_RATE_RELIEF_SCENARIO.md`
+
 **Timeline:** Q2-Q3 2026 earnings catalysts (July, October reports)
 
 ---
