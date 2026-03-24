@@ -11,20 +11,15 @@ Stress-testing whether OZK's $7.45B Florida book — its largest geographic conc
 ### PROMPT.md
 The research prompt sent to LLMs. Saved for reproducibility and to track what we asked vs what we got back.
 
-### SOURCES/
-Raw LLM outputs (V1-V4) saved as-is. Same pattern as other OZK prompts — never edit after creation.
+### Sources (in `../../sources/`)
+Raw LLM outputs saved as-is, following OZK source convention:
+- `FL_PARADOX_claude_deep_research.md` — Best bear analysis. Found Biscayne 21 + FinCEN.
+- `FL_PARADOX_gemini_deep_research.docx` — Best bull defense. Project milestones + ACL build.
+- `FL_PARADOX_chatgpt_response.md` — Weakest. No OZK-specific data.
+- `FL_PARADOX_perplexity_response.md` — Sharpest framing. Concentration duality + re-trade signal.
 
-### FINDINGS.md
-Cross-model synthesis of what the research revealed. Structured by investigation angle:
-1. Pre-sale walkaway risk (historical + current)
-2. SB 4-D / SIRS regulatory impact on new construction
-3. Insurance crisis impact on closings
-4. Supply glut / absorption at luxury tier
-5. Foreign buyer exposure and LatAm risk
-6. Specific OZK project risk
-7. Macro indicators vs "pre-sales make it safe"
-
-Each finding gets a confidence grade and a verdict: does it STRENGTHEN the paradox (FL is safe) or WEAKEN it (FL is riskier than claimed)?
+### FINDINGS.md ✅
+Cross-model synthesis with 8 findings. Each graded by confidence and verdict (strengthens/weakens the paradox).
 
 ### STATUS.md
 Current assessment of the investigation. Updated as results come in.
@@ -52,4 +47,4 @@ We're testing:
 
 ---
 
-*Parent → `../EXPOSURE_MAP.md` | KB refs → KB-OZK-110, KB-OZK-120 | Thesis → `../../THESIS.md`*
+*Parent → `../EXPOSURE_MAP.md` | KB refs → KB-OZK-110, KB-OZK-120–132 | Thesis → `../../THESIS.md`*

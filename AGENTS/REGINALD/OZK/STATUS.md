@@ -39,7 +39,7 @@ Slow-building reservoir of unrecognized CRE losses, masked by reserve cuts and e
 - [x] Gleason GFC track record — FDIC CERT 110, 2007-2012 *(Prompt #1)* ✅ KB-064/065/066
 - [x] Interest reserve depletion model *(Prompt #3)* ✅ KB-080/081/088-093 (4 LLMs: depletion timeline, cap interest gap, net burn rate, cascade mechanics, $500M hold limit, buybacks)
 - [ ] TDR/modification data from 10-K *(Prompt #4)*
-- [ ] Life sciences vacancy Q1 — San Diego *(Prompt #6)*
+- [x] FL Paradox stress-test — 4 LLM synthesis *(Prompt #6)* ✅ KB-121→130 (Biscayne 21, FinCEN, SB 4-D, insurance, deposits, extensions, project progress, ACL build, UBS bubble, compound cascade)
 - [ ] Peer ACL/NCO comp table — 5-8 CRE-heavy regionals *(Prompt #7)*
 - [x] Construction loan maturity schedule *(Prompt #2)* ✅ KB-074/075/076/077/078/079
 - [ ] IQHQ RaDD leasing updates
