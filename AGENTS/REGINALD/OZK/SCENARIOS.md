@@ -169,6 +169,41 @@ Bear case alone (50% prob): May put worth ~$4.50 intrinsic, Aug put worth ~$5.75
 
 ---
 
+## THESIS REFRAME: EARNINGS COMPRESSION, NOT BANK FAILURE
+
+### Capital Absorption — OZK Can Take Massive Losses
+| Metric | Current | Well-Cap Min | Buffer ($M) |
+|--------|---------|-------------|-------------|
+| CET1 | 11.70% | 6.50% | ~$2,310M |
+| Tier 1 | 12.50% | 8.00% | ~$2,000M (binding) |
+| Leverage | 13.60% | 5.00% | ~$3,500M |
+
+**At current charge-off run rates ($393M annualized), capital GROWS.** OZK earns $680M/year, pays $172M dividend, retains $508M pre-provision. Even after $393M in NCOs and $200M provision, capital increases. To get capital erosion, charge-offs need to roughly triple.
+
+### When Does the Stock Break? (It's About Earnings, Not Capital)
+
+The market reprices on earnings compression, not capital depletion:
+
+| Trigger | CET1 Impact | Stock Impact |
+|---------|-------------|-------------|
+| Provision doubles ($200M → $400M) | CET1 still rises | EPS $6.18 → ~$4.50. Stock: $27-32 at 6-7x |
+| Provision triples ($200M → $600M) | CET1 flat | EPS $6.18 → ~$3.00. Stock: $18-24 at 6-8x |
+| IQHQ writedown ($200M one-time) | CET1 drops ~45bps | TBV drops ~$1.80. Sentiment event. |
+| Rating downgrade (CET1 ~10%) | Requires ~$755M excess loss | Deposit flight trigger. Forced raise. |
+
+### EPS Sensitivity — The Real Trade
+
+| EPS | P/E 7x (current) | P/E 6x (stressed) | P/E 5x (crisis) |
+|-----|-------------------|--------------------|--------------------|
+| $6.18 | $43 (today) | $37 | $31 |
+| $5.00 | $35 (-19%) | **$30 (-30%)** | $25 (-42%) |
+| $4.00 | $28 (-35%) | **$24 (-44%)** | $20 (-53%) |
+| $3.00 | $21 (-51%) | $18 (-58%) | **$15 (-65%)** |
+
+Bear case only needs EPS to compress to $5.00 with a 6x multiple → **$30** (-30%).
+
+---
+
 ## PUT STRUCTURE REVIEW
 
 ### Current Positions (assumed)
@@ -177,22 +212,35 @@ Bear case alone (50% prob): May put worth ~$4.50 intrinsic, Aug put worth ~$5.75
 | May $42.5 Put | $42.5 | May 2026 | ~54 days | ⚠️ Tight — needs Apr 16 earnings to catalyze |
 | Aug $45 Put | $45 | Aug 2026 | ~145 days | ✅ Aligns with Q2 maturity wall + Q1 earnings reaction |
 
-### May $42.5 Assessment
-- **At risk.** 54 days is tight. Needs April 16 earnings to deliver a negative surprise.
-- **What could make it work:** Apr earnings show Q1 noncurrent rising (maturity wall beginning), provision surge, or management language change on IQHQ/construction.
-- **What kills it:** Any positive headline, short squeeze on earnings beat, or "kitchen sink" quarter where management front-loads bad news but stock rallies on "worst is over."
-- **Recommendation:** This is a *catalyst bet*, not a *thesis bet*. The thesis is right but 54 days is asking for precision timing.
+### Aug $45 Put — Expected Value
 
-### Aug $45 Assessment
-- **Well positioned.** 145 days captures the 2022 vintage maturity wall (Q1-Q3 2026 hard maturities).
-- **IQHQ is NOT a catalyst for this expiry** — maturity pushed to ~2028. But construction cliff + continued noncurrent growth is sufficient.
-- **Interest reserve depletion** is the key mechanism — those $7B in construction loans will start hitting maturities through this window.
-- **Risk:** Short squeeze could temporarily push stock to $50-55, putting Aug $45 underwater temporarily.
+| Scenario | Prob | Stock Price | Intrinsic | Weighted |
+|----------|------|-------------|-----------|----------|
+| Bear ($33.50) | 50% | $33.50 | $11.50 | $5.75 |
+| Base ($41.00) | 30% | $41.00 | $4.00 | $1.20 |
+| Bull ($57.50) | 15% | $57.50 | $0.00 | $0.00 |
+| Tail ($21.50) | 5% | $21.50 | $23.50 | $1.18 |
+| **EV** | | | | **$8.13** |
 
-### Sizing Considerations
-- Short interest 14-15% with 12-18 days-to-cover = squeeze risk is real
-- Max drawdown tolerance: need to survive a $50-55 spike without panic
-- Position sizing should assume 30-40% temporary loss is possible on squeeze days
+**At ~$3-4 cost, expected return is 2-2.7x.** Positive EV even with 15% probability of total loss (bull/squeeze).
+
+### May $42.5 Put — Expected Value
+
+| Scenario | Prob | Stock at Exp | Intrinsic | Weighted |
+|----------|------|-------------|-----------|----------|
+| Bear (partial) | 35% | $38 | $4.50 | $1.58 |
+| Base | 35% | $42 | $0.50 | $0.18 |
+| Bull | 20% | $48 | $0.00 | $0.00 |
+| Tail | 10% | $35 | $7.50 | $0.75 |
+| **EV** | | | | **$2.50** |
+
+Catalyst bet on April 16. Positive EV but narrow margin.
+
+### Sizing Guidance
+- **The 10% stock EV edge is thin for a stock short. But we're buying puts — asymmetry changes the math.** $3-4 risk for $8-12 bear payoff = 2-3x with defined max loss.
+- **Squeeze risk:** 14-15% SI, 12-18 days to cover. Size to survive $50-55 without panic.
+- **Position sizing rule:** Max 3-5% of account per put position. At $51K account, that's $1,500-2,500 per position.
+- **Do not add on green days.** Add on red days when vol is cheaper.
 
 ---
 
