@@ -1,12 +1,12 @@
 # SCRATCH — Ephemeral Working Memory
 
-**Updated:** 2026-03-24 15:35 UTC (Tue 11:35 AM ET)
+**Updated:** 2026-03-24 19:50 UTC (Tue 3:50 PM ET)
 
 ---
 
 ## QUICKSTART
 Scenario D **78%**. War Day **25**. Account **$54,416**. Brent mid-$90s.
-**OZK folder: A+ quality. KB.tsv at 95 rows. All 3 prompts fully integrated (4 LLMs each). MARKET folder created with README instructions across entire tree. Sterling Bay seizure + SVP loan sale = Wave 1 LIVE.**
+**OZK folder: A+ quality. KB.tsv at 95 rows. Full tree: 8 branches, all with README + STATUS. 3 subagents built INSIDERS, PRIVATE_CREDIT, GEOGRAPHY files. Will has Prompt 4 (EXPOSURE_MAP) results from 4 LLMs ready to integrate → GEOGRAPHY/EXPOSURE_MAP.md. Prompt 5 (MARKET_CONDITIONS) queued after.**
 
 ## HANDOFF
 **Last context:** Session 4 — OZK narrative synthesis, thesis assessment, new developments, file architecture.
@@ -20,12 +20,15 @@ Scenario D **78%**. War Day **25**. Account **$54,416**. Brent mid-$90s.
 - REGULATORY_DISTRICTS.md created by subagent (Segment 3 migration complete).
 - 3 subagents spawned today, all successful. File architecture pattern validated.
 
-**Next session priorities:**
-1. **Integrate Will's prompt results** → EXPOSURE_MAP.md + MARKET_CONDITIONS.md
-2. **Log Will's new OZK positions** → POSITIONS.md (still pending)
-3. **Jefferies Q1** — reports after close today. WAL catalyst.
-4. **ARESSI Mar 26** (tomorrow) + **OBDCII Mar 27** (2 days)
-5. **USO $118C Mar 27** — Thursday expiry. Decision needed.
+**IMMEDIATE NEXT SESSION:**
+1. **Will has Prompt 4 results ready** — 4 LLM outputs for EXPOSURE_MAP. Read GEOGRAPHY/README.md, take Will's results, build EXPOSURE_MAP.md. This is the priority.
+2. **Prompt 5 (MARKET_CONDITIONS)** — Will may also have these. Same pattern → MARKET_CONDITIONS.md.
+
+**Also pending:**
+3. **Log Will's new OZK positions** → MARKET/POSITIONS.md (still hasn't sent details)
+4. **Jefferies Q1** — reported after close today (Mar 24). Pull results. WAL catalyst.
+5. **ARESSI Mar 26** (tomorrow) + **OBDCII Mar 27** (2 days)
+6. **USO $118C Mar 27** — Thursday expiry. Decision needed.
 
 **Completed OZK prompts:**
 - [x] Prompt #1: Gleason GFC (4 LLMs, KB-064→073)
