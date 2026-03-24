@@ -134,6 +134,66 @@ Source: Gemini Deep Research analysis of syndicated loan docs, UCC filings, trad
 
 **Combined named CRE counterparties across both models: 11 entities, all CRE debt funds or CRE-focused PE/REITs.** Zero non-CRE NDFIs found in the RESG-managed NDFI book.
 
+### Additional Counterparties (Perplexity Deep Research)
+
+| Counterparty | Relationship | Example Deal | Source |
+|-------------|-------------|-------------|--------|
+| **3650 Capital** | RESG co-lending | $32M mezz / $59M OZK senior, Stamford CT multifamily (Sep 2025) | connectcre, perecredit |
+| **PGIM Real Estate** (Prudential) | RESG co-lending | $24M mezz / $58M OZK senior, N Fort Worth multifamily (Aug 2025) | Commercial Observer |
+| **GoldenTree / TZ Capital** | RESG co-lending | ~$125M mezz / ~$475M OZK senior, South Flagler House luxury condos, WPB | bridgeloanguy |
+| **Aequum Capital** (Castlelake) | CIB Lender Finance, syndicated revolver | OZK participant in $140M facility (Jul 2024) | prnewswire |
+
+### Affinius Capital — ELEVATED STRESS (Perplexity finding)
+Affinius has **$2.7B in Amazon-warehouse-backed bonds** (issued 2021 at ~2%) now trading at **81 cents on the dollar**. Mandatory principal repayment deadline: **October 2026**. Hard interest step-up clauses activate on miss. Fortress faced identical structure on $2B and missed its July 2025 deadline. If Affinius is also a back-leverage borrower (note-on-note) from OZK — not just a co-lender — this becomes direct NDFI credit exposure.
+
+### Full Gleason Mechanism Quote (Perplexity found extended version)
+> "We compete with those guys, a lot of times, if they win a unitranche deal, they'll **bifurcate it into a senior mezz and we're the senior lender and they're the mezz**, sometimes they want to hold that whole loan on their books, but **leverage it with a loan from us**. And we do a **loan to lenders** or an NDFI loan to those guys."
+
+This confirms two sub-variants:
+- **Sub-variant A (Co-lending):** OZK senior + fund mezz on same project. OZK has no fund-level exposure.
+- **Sub-variant B (Back-leverage / Note-on-note):** Fund pledges its entire loan to OZK as collateral. OZK has **direct fund-level credit exposure** — if fund can't repay, OZK takes the loan collateral (which may be impaired CRE).
+
+## MASTER COUNTERPARTY LIST — All Three Models Combined
+
+### RESG CRE Co-Lending Partners (15 confirmed entities)
+
+| # | Counterparty | Deals Found | Stress | Sources |
+|---|-------------|------------|--------|---------|
+| 1 | **Affinius Capital** | 7+ deals (most frequent partner) | 🔴 $2.7B Amazon bond stress, Oct 2026 deadline | All 3 models |
+| 2 | **Acore Capital** | 2 deals (LA office, Winchester VA industrial) | 🟡 LA office impaired | Gemini + ChatGPT + Perplexity |
+| 3 | **Mesa West / Morgan Stanley** | 2 deals ($413M Tacoma, $88M Alexandria) | 🟢 Low | All 3 models |
+| 4 | **Related Fund Management** | 2+ deals ($380M Riverwalk SD, $54.7M West Adams) | 🟢 Low | Gemini + ChatGPT |
+| 5 | **Starwood Property Trust (STWD)** | $400M construction, Philadelphia | ⚠️ Dividend cut 2023 | ChatGPT |
+| 6 | **Bridge Investment Group (BRG)** | $367M Stacks DC (Apr 2022) | 🔴 NAV plunge, redemption gates | ChatGPT |
+| 7 | **Belpointe PREP (OZ)** | Construction, St. Petersburg FL | 🔴 NAV plunged, gated | ChatGPT |
+| 8 | **3650 Capital** | $91M Stamford CT multifamily | 🟢 Low | Perplexity |
+| 9 | **PGIM Real Estate** (Prudential) | $82M Fort Worth multifamily | 🟢 Low | Perplexity |
+| 10 | **GoldenTree / TZ Capital** | ~$600M South Flagler House WPB | 🟢 Low | Perplexity |
+| 11 | **Mack Real Estate / Claros** | Industrial, Phoenix | 🟡 Claros (CMTG) distressed refi | ChatGPT |
+| 12 | **Innovo / PIMCO** | $250M Bronx industrial | 🟢 Low | ChatGPT |
+| 13 | **Blackstone (BREDS)** | Jersey City/NYC co-operations | ⚠️ Down >20% YTD | Gemini |
+| 14 | **Blue Owl** | $335M bridge refi'd OZK's $215M Wynwood (Mar 2026) | 🔴 Redemption gates, OBDC div suspended | ChatGPT |
+| 15 | **Related (San Diego/Hines)** | $380M Riverwalk construction | 🟢 Low | Gemini + ChatGPT |
+
+### CIB Lender Finance / Non-CRE (3 confirmed)
+
+| # | Counterparty | Facility | Stress |
+|---|-------------|---------|--------|
+| 16 | **Regents Capital** | $150M revolver (equipment leasing) | 🟢 Low |
+| 17 | **Aequum Capital** (Castlelake) | Participant in $140M syndicated revolver | 🟢 Low |
+| 18 | **Mach Natural Resources** | $37.2M term (energy) | 🟢 Low |
+| 19 | **Archrock Services** | $75M of $1.1B revolver (industrial) | 🟢 Low |
+
+### Stressed Counterparties Summary: 5 of 15 CRE partners under stress
+
+| Entity | Stress Type | OZK Risk Channel |
+|--------|-----------|-----------------|
+| **Affinius** | $2.7B bond maturity Oct 2026 | If back-leverage borrower (Sub-variant B), direct NDFI exposure |
+| **Blue Owl** | Redemption gates, forced loan sales | Exit counterparty — takes out OZK construction loans |
+| **Bridge Investment Group** | NAV plunge, redemption gates | Past co-lender (2022 deal) |
+| **Belpointe PREP** | NAV collapse, gated | Past borrower (paid off Jun 2024) |
+| **Starwood Property Trust** | Dividend cut | Co-lender on $400M Philly construction |
+
 ### Confirmed Non-CRE NDFI Relationships (CIB)
 
 | Counterparty | Relationship | Amount | Source |
