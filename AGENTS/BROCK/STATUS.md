@@ -1,7 +1,35 @@
-# BROCK STATUS — Private Credit / BDC / PE / Alt Assets
-**Updated:** Mar 23, 2026 EOD (subagent EOD sweep)
+# BROCK STATUS — Private Credit / BDC / Alt Assets
+**Updated:** Mar 24, 2026 (subagent — overnight cascade: APO gated, ARES gated, FSK junk)
 
-## 🔴 EOD UPDATE — March 23, 2026 (NEW DELTAS)
+## 🔴🔴 OVERNIGHT CASCADE — March 24, 2026 [URGENT]
+
+### APO — Apollo Debt Solutions ($15.1B NAV) GATED [Mar 23]
+- Redemption requests: **11.2% of shares** in Q1 — capped at 5%, only **45% of requests honored** (~$730M returned)
+- NAV/share -1.2% (3mo through Feb 28). Software = 12.3% of loans.
+- APO holding firm at 5% cap (unlike BX which relaxed). SEC 8-K filed.
+- **APODS catalyst calendar entry is DEAD** — event already occurred Mar 23, not May 4-7 (see calendar update below)
+- **APO 100 Put thesis: CONFIRMED, STRENGTHENED.** APO managing its own $15B flagship fund is gating → stock should re-rate lower as market absorbs "Apollo the institution" under redemption stress, not just portfolio company risk. Apr 17 puts in 24 days; Jun 18 has more time. APO gating = legal + credit + now liquidity risk in one name.
+
+### ARES — $10.7B fund limiting redemptions [Mar 24]
+- Bloomberg breaking: "Ares limits private credit fund withdrawals as redemptions surge"
+- Details thin — just broke. Confirm when ARES files 8-K.
+- **ARES 95 Put (Jun 18) thesis: CONFIRMED.** Same redemption dynamic now confirmed at ARES.
+
+### FSK — DOWNGRADED TO JUNK by Moody's (Baa3→Ba1) [Mar 23]
+- Non-accruals: **5.5% of total investments** — one of highest among rated BDCs
+- Net loss $114M Q4 alone; full-year 2025 net income: only $11M
+- Higher leverage + PIK % + lower first-lien % vs peers. Software 16.4% exposure.
+- FSK -4% on news, **-30% YTD**
+- **Junk rating implications for BDC sector:** (1) FSK borrowing costs spike — compresses NII further, accelerating loss trajectory. (2) Forces CLO/investment-grade mandated holders to sell FSK bonds → FSK must pay up or tap equity. (3) Peer contagion: rating agencies now actively reviewing BDC sector — ARCC, OBDC, GBDC next on watchlist. (4) "Investment-grade private credit" narrative officially broken for at least one major BDC — retail advisor redemption wave accelerates.
+
+### Gate Count Update
+- **Prior:** 6 funds gated in 5 weeks (MS North Haven, BCRED, BlackRock HPS, Blue Owl OBDC II, Cliffwater + 1)
+- **NOW: 9 funds stressed/gated in ~7 weeks** (+ APO Debt Solutions, ARES fund, FSK junk = functional equivalent)
+- APO 11.2% requests vs 5% cap = **$730M trapped behind gate** — largest single-fund dislocation confirmed
+
+---
+
+## 🔴 EOD UPDATE — March 23, 2026 (prior deltas)
 - **BDC sector discount widened to 25% avg** (Raymond James, per Livemint Mar 23) — up from ~17% in our prior data. Significant mark-widening in 3 days.
 - **TD Cowen (today):** Cut OWL price target $16 → **$14**, reiterated Buy but noted "choppy through Labor Day." Citizens also cut OWL PT to $23.
 - **OWL tender offer priced at 33.2% discount to NAV** — confirms market is pricing in further NAV deterioration on OBDC portfolio. OWL $9.5P April 2 expiry now deeply in-play territory at current trajectory.
@@ -27,7 +55,7 @@
 - NHPIFS: Apr 29–May 1
 - GSCRED: May 1–3
 - HLEND: May 1–3 (released Mar 6 already)
-- APODS: May 4–7
+- ~~APODS: May 4–7~~ → **ALREADY GATED Mar 23** — 11.2% requests, 5% cap, 45% honored. Remove from forward watch.
 - OAKSCF: May 9–12
 - **Each release is a potential accelerant if outflows match BCRED/HLEND pattern**
 - **OBDCII (Mar 27–Apr 3) is highest priority — OWL Apr puts expire in this window**
@@ -52,7 +80,7 @@
 - Fund managers buying credit protection on portfolios they publicly call "fundamentally sound" — contradiction live
 - **Snider framework stage:** Stage 1 (inflows slowed) → **Stage 2 NOW** (outflows > inflows, forced sales, collateral revaluation) → Stage 3 (systemic)
 - Deutsche Bank disclosed **$30B exposure** to private credit — bank↔shadow bank nexus quantified
-- 6 funds gated in 5 weeks as of Mar 13 (now 7+ with updates since)
+- **9 funds gated/stressed in ~7 weeks** as of Mar 24 (APO + ARES added Mar 24; FSK junk = functionally equivalent)
 - Blankfein: "smells like 2008"
 
 ## True Default Rate — 4–5% Already (S&P/FT Data)

@@ -35,7 +35,7 @@
 | Position review | 🔴 | ✅ Complete — see TODO_GREEN_DAY.md |
 | ~~Inbox/outbox migration~~ | ~~🟠~~ | ✅ All agents + HERMES migrated to flat inbox/outbox |
 | NEXUS synthesis pass | 🟠 | Deferred — waiting for more news/catalysts |
-| APO Apr 17 put — cut on red day | 🟠 | Pending |
+| ~~APO Apr 17 put~~ | ~~🟠~~ | ✅ HOLD — gate confirms thesis (11.2% redemptions, 45% honored) |
 | TLT 88 May put — sell decision | 🟠 | Will thinking it over |
 | FXY sizing decision | 🟠 | Thesis confirmed, entry pending |
 | Jun→Dec rolls | 🟡 | Will watching market, no rush on KRE |
