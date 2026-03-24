@@ -173,7 +173,11 @@ This confirms two sub-variants:
 | 12 | **Innovo / PIMCO** | $250M Bronx industrial | 🟢 Low | ChatGPT |
 | 13 | **Blackstone (BREDS)** | Jersey City/NYC co-operations | ⚠️ Down >20% YTD | Gemini |
 | 14 | **Blue Owl** | $335M bridge refi'd OZK's $215M Wynwood (Mar 2026) | 🔴 Redemption gates, OBDC div suspended | ChatGPT |
-| 15 | **Related (San Diego/Hines)** | $380M Riverwalk construction | 🟢 Low | Gemini + ChatGPT |
+| 15 | **Related (San Diego/Hines)** | $380M Riverwalk construction | 🟢 Low |
+| 16 | **Square Mile Capital** | 5 deals incl Bioterra $203M (VACANT), One Chicago $735M | 🔴 Bioterra vacant |
+| 17 | **Cain International** | Aman New York $750M ($300M OZK) | 🟢 Low |
+| 18 | **JVP Management** | 50 W 66th St NYC $967M ($800M OZK) — largest known loan | 🟡 Monitor |
+| 19 | **Prospect Floating Rate Fund** | $75M revolving credit, OZK facility agent (SEC 8-K) | 🟡 Non-traded BDC | Gemini + ChatGPT |
 
 ### CIB Lender Finance / Non-CRE (3 confirmed)
 
@@ -182,9 +186,9 @@ This confirms two sub-variants:
 | 16 | **Regents Capital** | $150M revolver (equipment leasing) | 🟢 Low |
 | 17 | **Aequum Capital** (Castlelake) | Participant in $140M syndicated revolver | 🟢 Low |
 | 18 | **Mach Natural Resources** | $37.2M term (energy) | 🟢 Low |
-| 19 | **Archrock Services** | $75M of $1.1B revolver (industrial) | 🟢 Low |
+| 20 | **Archrock Services** | $75M of $1.1B revolver (industrial) | 🟢 Low |
 
-### Stressed Counterparties Summary: 5 of 15 CRE partners under stress
+### Stressed Counterparties Summary: 6 of 19 CRE partners under stress
 
 | Entity | Stress Type | OZK Risk Channel |
 |--------|-----------|-----------------|
@@ -193,11 +197,28 @@ This confirms two sub-variants:
 | **Bridge Investment Group** | NAV plunge, redemption gates | Past co-lender (2022 deal) |
 | **Belpointe PREP** | NAV collapse, gated | Past borrower (paid off Jun 2024) |
 | **Starwood Property Trust** | Dividend cut | Co-lender on $400M Philly construction |
+| **Square Mile Capital** | Bioterra $203M now vacant | Most prolific historical partner (5 deals, $1.5B+) |
+
+### Additional Counterparties (Claude Deep Research)
+
+| Counterparty | Relationship | Example Deal | Source |
+|-------------|-------------|-------------|--------|
+| **Square Mile Capital** | RESG co-lending — **most prolific historical partner** (5 deals, $1.5B+) | One Chicago Square $735M ($475M OZK); **Bioterra SD $203M (Dec 2022, NOW VACANT)**; SF life sci $373M | Commercial Observer |
+| **Prospect Floating Rate Fund** (Prospect Capital) | **Direct BDC lending — $75M revolving credit, OZK as facility agent** | SEC 8-K filing Aug 13, 2025. Replaced prior Sumitomo facility. SOFR+250bps, matures Aug 2029. | SEC EDGAR — **only confirmed BDC direct lending from SEC filings** |
+| **Cain International** | RESG co-lending | Aman New York $750M ($300M OZK senior, ~2019) | Commercial Observer |
+| **JVP Management** | RESG co-lending | 50 West 66th St NYC (Extell) $967M ($800M OZK senior, Feb 2022) — **OZK's largest known single loan** | Commercial Observer |
+
+**Key finding:** Square Mile Capital is the **Bioterra co-originator** ($203M, Dec 2022, Sorrento Mesa SD). This closes audit gap B5 — we now have a sourced co-lender for the $202M vacant life science campus. Square Mile described OZK as "a trusted and reliable partner in the construction lending space."
+
+**Personnel connection:** David Dancer moved from Bank OZK RESG to Acore Capital (per Acore leadership page). Revolving door between OZK and its NDFI counterparties.
+
+**What Claude ruled out:** Comprehensive SEC search found NO OZK lending relationships with ARCC, OBDC/OBDE, BXMT, KREF, LADR, TRTX, GBDC, Claros, Ready Capital, Arbor, or any major institutional BDC/mortgage REIT. These entities use money-center banks (JPM, GS, WF, MS, DB) for warehouse lines. OZK's NDFI book tilts toward **mid-market CRE-focused funds**, not the large alts managers.
 
 ### Confirmed Non-CRE NDFI Relationships (CIB)
 
 | Counterparty | Relationship | Amount | Source |
 |-------------|-------------|--------|--------|
+| **Prospect Floating Rate Fund** (Prospect Capital) | $75M revolving credit, OZK facility agent | $75M | SEC 8-K (Aug 2025) |
 | **Mach Natural Resources LP** | Syndicated credit facility — OZK as "New Lender" + Co-Syndication Agent | ~$37.2M initial term | SEC filing (Sep 2025) |
 | **Archrock Services LP** | Revolving credit facility — OZK as "New Lender" | $75M of $1.1B facility | Justia contracts (Aug 2024) |
 
