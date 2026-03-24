@@ -41,7 +41,7 @@ Slow-building reservoir of unrecognized CRE losses, masked by reserve cuts and e
 - [ ] TDR/modification data from 10-K *(Prompt #4)*
 - [ ] Life sciences vacancy Q1 — San Diego *(Prompt #6)*
 - [ ] Peer ACL/NCO comp table — 5-8 CRE-heavy regionals *(Prompt #7)*
-- [ ] Construction loan maturity schedule *(Prompt #2)*
+- [x] Construction loan maturity schedule *(Prompt #2)* ✅ KB-074/075/076/077/078/079
 - [ ] IQHQ RaDD leasing updates
 - [ ] Updated insider filings (Form 4s since Feb 24)
 

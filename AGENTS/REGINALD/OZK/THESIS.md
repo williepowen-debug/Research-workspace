@@ -75,11 +75,10 @@ OZK has the **worst absolute Memo Item 3 ratio** in the screen [KB-OZK-020] — 
 
 ## 2022 VINTAGE MATURITY WALL
 
-- **$13.8B construction loans originated 2022** — largest construction lender in US that year, outpacing JPM and WFC [KB-OZK-061 ⚠️ UNVERIFIED]
-- Standard construction terms: 36-42 months to stabilization
-- = **hard maturities Q1-Q3 2026** — not soft with automatic extensions
-- Sponsor must demonstrate: leased, generating cash flow, eligible for permanent financing or sale
-- Frozen refi market = most cannot demonstrate stabilization
+- **$3.7B in loans maturing in 2026** [KB-OZK-074], heavily concentrated in life sciences ($1.5B) [KB-OZK-077] and office. Original 2022 origination: Q1 $3.14B, Q2 $3.53B, Q3 $4.35B, Q4 $2.81B = ~$13.8B total [KB-OZK-061 ⚠️ UNVERIFIED from primary data]
+- **Q1 2026 is front-loaded** — management explicitly guided "elevated payoff velocity" and "a lot of payoffs" in Q1 [KB-OZK-075]. April 16 earnings will capture this.
+- Bridge-to-Mini-Perm structure: 3yr initial + two 1yr extension options. 541 modifications since 2022 with $1.3B sponsor equity injections [KB-OZK-076]. Extensions convert cliff → slope, BUT extensions that fail performance hurdles = forced nonaccrual recognition.
+- **Adverse selection:** Record RESG repayments (~$6-8B in 2025). Healthy loans already left. What remains at maturity is what couldn't refi [KB-OZK-078].
 - DBRS: 2021-2022 vintages are 63% of CCC-C borrower pool; avg time to default 3.4 years = right now [KB-OZK-062 ⚠️ UNSOURCED]
 
 ---
