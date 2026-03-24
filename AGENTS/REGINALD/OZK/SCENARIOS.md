@@ -64,6 +64,8 @@ Bear case alone (50% prob): May put worth ~$4.50 intrinsic, Aug put worth ~$5.75
 3. **Noncurrent spike read as one-off** — market doesn't see the maturity wall pipeline behind it
 4. **C&I reclassification flatters CRE ratios** — 37.6% Memo Item 3 not discussed by sellside
 5. **Record EPS $6.18 anchors narrative** — earnings lag credit reality by 2-3 quarters
+6. **"CIB diversification" narrative accepted uncritically** — 23 named NDFI counterparties are overwhelmingly CRE debt funds. CEO admits "a chunk of NDFI loans are actually RESG loans." True CRE/Tier 1: 411-420%, not reported 358%.
+7. **Exit counterparty risk invisible** — Blue Owl (redemption gates, div suspended) is taking out OZK construction loans. Affinius (most frequent co-lender, 7+ deals) has $2.7B in bonds at 81¢ with Oct 2026 deadline. If either fails, OZK's construction maturity wall gets worse.
 
 ---
 
