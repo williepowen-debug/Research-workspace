@@ -1,55 +1,24 @@
 # OZK External Research Prompts
-**For Will to run on ChatGPT/Perplexity/Gemini**
-**Generated:** 2026-03-24
+**For Will to run on ChatGPT/Perplexity/Gemini/Claude**
+**Updated:** 2026-03-24 (evening)
 
-Run these and drop results into `sources/`. I'll integrate.
-**When results land → update STATUS.md "Research Agenda" checklist** (that's the single task tracker).
+Run these and drop results into `sources/`. Prome will integrate into KB.tsv.
 
 ---
 
-## 🔴 HIGH PRIORITY (This Week)
+## ✅ COMPLETED
 
-### PROMPT 1: Gleason's GFC Track Record (strongest bull counter — we need data)
-```
-Pull Bank of the Ozarks (now Bank OZK, FDIC CERT 110) quarterly financial data from 2007-2012. I need:
-- Net charge-off rate by quarter
-- Noncurrent loan ratio by quarter  
-- CRE concentration ratio (CRE/total risk-based capital)
-- Any FDIC enforcement actions during this period
-- Total assets growth trajectory
+| # | Topic | KB Rows | Notes |
+|---|-------|---------|-------|
+| 1 | Gleason GFC track record | KB-064/065/066 | 4 LLMs, fully integrated |
+| 2 | Construction loan maturity schedule | KB-074–079 | 4 LLMs, fully integrated |
+| 3 | Interest reserve depletion model | KB-080/081/088–093 | 4 LLMs, 6 rows |
+| 5 | Geographic deep dive (V1–V4) | KB-107–120 | 4 LLMs, 14 rows, EXPOSURE_MAP built |
+| 6 | FL Paradox stress-test | KB-121–132 | 4 LLMs, 12 rows, FINDINGS.md complete |
 
-Compare to peer regional banks that failed or were stressed during GFC. Did Bank of the Ozarks avoid losses while running high CRE concentration? This is critical — I need to understand if CEO George Gleason has genuinely navigated a severe CRE downturn before, or if his track record is untested.
-```
-**Save as:** `sources/OZK_GFC_TRACK_RECORD.md`
+---
 
-### PROMPT 2: Construction Loan Maturity Schedule
-```
-For Bank OZK (ticker OZK), I need their construction loan maturity schedule. Check:
-1. The 2024 10-K (filed Feb 2026) — look for tables showing loan maturity by type, especially construction & land development
-2. Q3 and Q4 2025 earnings call transcripts — any management commentary on construction loan maturity timing, paydown expectations, or "pipeline" rolling off
-3. Any investor presentations from 2025-2026
-
-Specifically: how much of their ~$7.8B construction book matures in each quarter of 2026? Is it front-loaded (Q1-Q2) or spread evenly? This determines whether the "maturity wall" is a cliff or a slope.
-```
-**Save as:** `sources/OZK_CONSTRUCTION_MATURITY_SCHEDULE.md`
-
-### PROMPT 3: Interest Reserve Depletion Model
-```
-Bank OZK has $7.8B in construction loans, with 89.7% ($7.0B) on interest reserves. In Q4 2025, $108.6M in interest was capitalized (added to loan balances from reserves).
-
-Help me model when these reserves deplete:
-- Standard construction loan interest reserve = 12-24 months of interest at origination
-- Most of these loans were originated in 2021-2022 (the $13.8B peak)
-- Current weighted average rate on construction loans ~8-9%
-- Construction terms are typically 36-42 months
-
-Questions:
-1. If a loan originated mid-2022 with an 18-month interest reserve, when does the reserve run out?
-2. What percentage of OZK's construction book likely has DEPLETED reserves already?
-3. When reserves deplete on a construction loan that hasn't stabilized, what happens mechanically? (Goes to cash-pay → borrower can't pay → nonaccrual?)
-4. Is $108.6M/quarter in capitalized interest consistent with a book that still has healthy reserves, or does it suggest reserves are thinning?
-```
-**Save as:** `sources/OZK_INTEREST_RESERVE_MODEL.md`
+## 🔴 HIGH PRIORITY — Run Next
 
 ### PROMPT 4: TDR / Loan Modification Data
 ```
@@ -66,37 +35,7 @@ Also check FFIEC Call Report for OZK (RSSD 107244):
 Rising TDRs + flat NPLs = extend-and-pretend evidence at the institution level.
 ```
 **Save as:** `sources/OZK_TDR_MODIFICATIONS.md`
-
-### PROMPT 5: Current Short Interest
-```
-What is the current short interest for Bank OZK (ticker: OZK)?
-- Shares short
-- Short interest as % of float
-- Days to cover
-- Most recent reporting date
-- Trend over last 3 months (increasing or decreasing?)
-- Compare to WAL, ZION, FLG short interest levels
-
-Sources: FINRA short interest data, Ortex, S3 Partners, or any recent financial coverage.
-```
-**Save as:** `sources/OZK_SHORT_INTEREST_CURRENT.md`
-
----
-
-## 🟠 MEDIUM PRIORITY (Before Apr 10)
-
-### PROMPT 6: Life Sciences Vacancy Q1 2026
-```
-What are the current (Q1 2026) life sciences / lab space vacancy rates for:
-1. San Diego overall
-2. Sorrento Mesa submarket specifically
-3. South San Francisco / Bay Area (for comparison)
-
-Sources: CBRE, JLL, Cushman & Wakefield quarterly reports. 
-
-Also: any recent news about life sciences lab space demand trends in early 2026? Are pharma/biotech companies still downsizing lab footprints or has demand stabilized?
-```
-**Save as:** `sources/LIFE_SCI_VACANCY_Q1_2026.md`
+**Status:** V1–V4 results in sources/ but NOT YET INTEGRATED into KB. Needs synthesis pass.
 
 ### PROMPT 7: Peer ACL/NCO Comparison Table
 ```
@@ -115,6 +54,47 @@ For each bank, pull:
 Rank by CRE concentration. Highlight where OZK is an outlier.
 ```
 **Save as:** `sources/OZK_PEER_COMP_Q4_2025.md`
+
+### PROMPT 15: IQHQ RaDD Leasing Status
+```
+IQHQ's RaDD (Research and Development District) is a 1.7M sqft life sciences campus under construction on the San Diego waterfront (Harbor Drive). Bank OZK has $915M in exposure (their single largest loan). 
+
+I need current (Q1 2026) information on:
+1. Leasing status — what % of the 1.7M sqft is pre-leased or leased? Any named tenants?
+2. Construction status — on schedule? Expected delivery date?
+3. IQHQ corporate health — any fundraising, leadership changes, or financial stress signals?
+4. San Diego life sciences demand context — is there tenant demand for this much new lab space given current vacancy rates (~25-30% in Sorrento Mesa)?
+5. Any recent news articles, press releases, or broker reports mentioning RaDD specifically
+
+Context: This is a $915M construction loan maturing ~Aug 2026. If the building delivers into a soft leasing market with low pre-leasing, OZK faces a binary outcome: extend (more risk) or force a sale (loss recognition). The loan has LTV estimated at 186-285% on distressed basis.
+```
+**Save as:** `sources/IQHQ_RADD_LEASING_Q1_2026.md`
+
+### PROMPT 16: OZK Insider Transactions (Recent)
+```
+Pull all SEC Form 4 filings for Bank OZK (CIK 0001609065) from January 1, 2026 to present.
+
+For each filing:
+1. Insider name and title
+2. Transaction type (buy/sell/option exercise)
+3. Date, shares, price
+4. Remaining holdings after transaction
+
+Specifically flag:
+- Any sales by CEO George Gleason or CFO
+- Any sales by board members
+- Pattern: are insiders selling into strength or buying weakness?
+- The CRO position — is it still vacant? Any new C-suite hires filed?
+
+Also check: OZK had a CRO gap (Chief Risk Officer departed, position unfilled as of late 2025). Has this been filled? Any 8-K announcing a new CRO?
+
+Context: Prior analysis found CFO selling in narrow windows above $47, and no insider buying despite stock near 52-week lows. CRO vacancy during peak CRE stress is a red flag.
+```
+**Save as:** `sources/OZK_INSIDER_FILINGS_2026.md`
+
+---
+
+## 🟠 MEDIUM PRIORITY — Before Apr 10
 
 ### PROMPT 8: Metropolitan Capital Bank Failure Comparison
 ```
@@ -156,35 +136,7 @@ Specifically: did Citi maintain their Sell rating from May 2024? Any other downg
 ```
 **Save as:** `sources/OZK_SELLSIDE_CONSENSUS.md`
 
----
-
-## 🟡 NICE TO HAVE
-
-### PROMPT 11: FHLB Dallas Advance Rates
-```
-What are FHLB Dallas's current advance rates and eligible collateral policies for:
-- Construction loans (are they eligible collateral at all?)
-- CRE loans (haircut percentages)
-- Any recent policy changes to collateral eligibility
-
-Context: OZK has $23.9B in pledged loans (74% of book) with $8.8B FHLB capacity. If FHLB tightens collateral standards on construction loans, OZK's liquidity buffer could shrink significantly.
-```
-**Save as:** `sources/FHLB_DALLAS_ADVANCE_RATES.md`
-
-### PROMPT 12: OZK Buyback Activity
-```
-Bank OZK authorized a $200M stock buyback program in July 2024. As of Q3 2024, only $460K (0.2%) had been used.
-
-Check: has OZK repurchased any additional shares in Q4 2025 or Q1 2026? Look at:
-- 10-K buyback disclosure
-- Any 8-K filings related to repurchase activity
-- Earnings call commentary on capital return strategy
-
-A bank with $200M buyback authority that refuses to buy its own stock at 52-week lows is a powerful signal.
-```
-**Save as:** `sources/OZK_BUYBACK_ACTIVITY.md`
-
-### PROMPT 13: Peer 2022 Vintage Maturity Wall — Same Pattern?
+### PROMPT 13: Peer 2022 Vintage Maturity Wall
 ```
 Several regional banks had heavy construction lending in 2021-2022. I want to know if other banks with large 2022 construction vintages are showing the same noncurrent step-up pattern as Bank OZK.
 
@@ -205,100 +157,7 @@ If multiple banks show the same noncurrent step-up on 2022 vintages, it confirms
 ```
 **Save as:** `sources/PEER_2022_VINTAGE_COMPARISON.md`
 
-### PROMPT 14: OZK Options Implied Move vs Historical Earnings Moves
-```
-For Bank OZK (ticker OZK) earnings on April 16, 2026:
-
-1. What is the current options-implied move for earnings? (straddle price / stock price for the nearest weekly expiry)
-2. What have OZK's actual earnings-day moves been for the last 8 quarters? (date, direction, magnitude)
-3. How often has OZK exceeded the implied move? (beat rate)
-4. What is the current IV rank / IV percentile for OZK options?
-5. For the Aug 2026 $42.50 and $45 puts specifically — what's the current delta, IV, and open interest?
-
-Context: I hold Aug $42.50 and $45 puts. I need to know if the market is already pricing in a large move (high IV = thesis partially priced) or if options are cheap relative to the actual risk (low IV = opportunity). This directly affects whether to add, hold, or trim into earnings.
-```
-**Save as:** `sources/OZK_OPTIONS_IMPLIED_MOVE.md`
-
----
-
----
-
-## 🔴 ADDED — Unprompted Research Items
-
-### PROMPT 15: IQHQ RaDD Leasing Status
-```
-IQHQ's RaDD (Research and Development District) is a 1.7M sqft life sciences campus under construction on the San Diego waterfront (Harbor Drive). Bank OZK has $915M in exposure (their single largest loan). 
-
-I need current (Q1 2026) information on:
-1. Leasing status — what % of the 1.7M sqft is pre-leased or leased? Any named tenants?
-2. Construction status — on schedule? Expected delivery date?
-3. IQHQ corporate health — any fundraising, leadership changes, or financial stress signals?
-4. San Diego life sciences demand context — is there tenant demand for this much new lab space given current vacancy rates (~25-30% in Sorrento Mesa)?
-5. Any recent news articles, press releases, or broker reports mentioning RaDD specifically
-
-Context: This is a $915M construction loan maturing ~Aug 2026. If the building delivers into a soft leasing market with low pre-leasing, OZK faces a binary outcome: extend (more risk) or force a sale (loss recognition). The loan has LTV estimated at 186-285% on distressed basis.
-```
-**Save as:** `sources/IQHQ_RADD_LEASING_Q1_2026.md`
-
-### PROMPT 16: OZK Insider Transactions (Recent)
-```
-Pull all SEC Form 4 filings for Bank OZK (CIK 0001609065) from January 1, 2026 to present.
-
-For each filing:
-1. Insider name and title
-2. Transaction type (buy/sell/option exercise)
-3. Date, shares, price
-4. Remaining holdings after transaction
-
-Specifically flag:
-- Any sales by CEO George Gleason or CFO
-- Any sales by board members
-- Pattern: are insiders selling into strength or buying weakness?
-- The CRO position — is it still vacant? Any new C-suite hires filed?
-
-Also check: OZK had a CRO gap (Chief Risk Officer departed, position unfilled as of late 2025). Has this been filled? Any 8-K announcing a new CRO?
-
-Context: Prior analysis found CFO selling in narrow windows above $47, and no insider buying despite stock near 52-week lows. CRO vacancy during peak CRE stress is a red flag.
-```
-**Save as:** `sources/OZK_INSIDER_FILINGS_2026.md`
-
-### PROMPT 17: State-Level CRE Noncurrent Breakdowns
-```
-From FDIC Call Report data (FFIEC CDR), pull Bank OZK's (RSSD ID: 107244, FDIC CERT: 110) loan quality data broken down by state or FDIC supervisory region.
-
-Specifically looking for:
-1. Schedule RC-C Part II — Loans to Small Businesses and Small Farms, broken by state
-2. Any geographic concentration disclosures in the 10-K (Section: Credit Risk — Geographic)
-3. FDIC Summary of Deposits data — branch footprint vs lending footprint mismatch
-4. State-level noncurrent rates if available in public filings
-
-Key question: OZK lends nationally from an Arkansas charter but has branches in only ~8 states. Which states have the highest noncurrent rates on OZK's book? Is the stress concentrated in specific geographies (San Diego, Boston, NYC) or spread evenly?
-
-Compare: FDIC QBP shows national CRE noncurrent at 1.17%. OZK's consolidated noncurrent is 0.71% — but we suspect this hides geographic pockets well above the national average.
-```
-**Save as:** `sources/OZK_STATE_NONCURRENT_BREAKDOWN.md`
-
-### PROMPT 18: OZK $13.8B 2022 Origination Verification
-```
-Verify Bank OZK's 2022 loan origination volume. Multiple sources cite approximately $13.8B in new loan originations during 2022 (their peak year).
-
-Check:
-1. 2022 10-K (filed Feb 2023) — loan origination/production tables
-2. Q4 2022 earnings call transcript — management commentary on origination volume
-3. Any investor presentations from 2022-2023 citing annual production figures
-4. FDIC Call Report: compare total loans Dec 2021 vs Dec 2022 (net growth ≠ gross origination, but gives a floor)
-
-Key data points needed:
-- Gross origination volume for full year 2022
-- Breakdown by loan type (construction vs permanent vs C&I)
-- Average loan size for 2022 vintage
-- How this compares to 2021 and 2023 origination (was 2022 truly the peak?)
-
-Context: If 2022 originations were truly $13.8B with 36-42 month construction terms, most of that vintage matures in H1-H2 2026. This is the "maturity wall" thesis. But I need to verify the $13.8B figure — it appears in our research but isn't sourced to a specific filing.
-```
-**Save as:** `sources/OZK_2022_ORIGINATION_VERIFICATION.md`
-
-### PROMPT 19: CRE Market Conditions by OZK Metro (Vacancy, Cap Rates, Absorption)
+### PROMPT 19: CRE Market Conditions by OZK Metro
 ```
 For Bank OZK's top 10 metro exposures, pull current (Q4 2025 or Q1 2026) commercial real estate market conditions:
 
@@ -328,6 +187,98 @@ Key question: In which of these metros are market conditions WORSE than at origi
 ```
 **Save as:** `sources/OZK_METRO_MARKET_CONDITIONS.md`
 
+### PROMPT 20: Life Sciences Vacancy Deep Dive (SD + National)
+```
+What are the current (Q1 2026) life sciences / lab space vacancy rates for:
+1. San Diego overall
+2. Sorrento Mesa submarket specifically
+3. South San Francisco / Bay Area (for comparison)
+4. Boston/Cambridge (for comparison)
+
+Sources: CBRE, JLL, Cushman & Wakefield quarterly reports.
+
+Also: any recent news about life sciences lab space demand trends in early 2026? Are pharma/biotech companies still downsizing lab footprints or has demand stabilized? Any notable lease signings or move-outs in SD specifically?
+
+Context: OZK has ~$1.4B in San Diego life sciences exposure including the $915M IQHQ RaDD project. Sorrento Mesa vacancy was 30%+ as of mid-2025. If vacancy is still rising, the maturity wall on these loans becomes a cliff.
+```
+**Save as:** `sources/LIFE_SCI_VACANCY_Q1_2026.md`
+
 ---
 
-*After running, drop files in `AGENTS/REGINALD/OZK/sources/`. I'll integrate into KB.tsv and update the thesis.*
+## 🟡 NICE TO HAVE
+
+### PROMPT 11: FHLB Dallas Advance Rates
+```
+What are FHLB Dallas's current advance rates and eligible collateral policies for:
+- Construction loans (are they eligible collateral at all?)
+- CRE loans (haircut percentages)
+- Any recent policy changes to collateral eligibility
+
+Context: OZK has $23.9B in pledged loans (74% of book) with $8.8B FHLB capacity. If FHLB tightens collateral standards on construction loans, OZK's liquidity buffer could shrink significantly.
+```
+**Save as:** `sources/FHLB_DALLAS_ADVANCE_RATES.md`
+
+### PROMPT 12: OZK Buyback Activity
+```
+Bank OZK authorized a $200M stock buyback program in July 2024. As of Q3 2024, only $460K (0.2%) had been used.
+
+Check: has OZK repurchased any additional shares in Q4 2025 or Q1 2026? Look at:
+- 10-K buyback disclosure
+- Any 8-K filings related to repurchase activity
+- Earnings call commentary on capital return strategy
+
+A bank with $200M buyback authority that refuses to buy its own stock at 52-week lows is a powerful signal.
+```
+**Save as:** `sources/OZK_BUYBACK_ACTIVITY.md`
+
+### PROMPT 14: Options Implied Move for Apr 16
+```
+For Bank OZK (ticker OZK) earnings on April 16, 2026:
+
+1. What is the current options-implied move for earnings? (straddle price / stock price for the nearest weekly expiry)
+2. What have OZK's actual earnings-day moves been for the last 8 quarters? (date, direction, magnitude)
+3. How often has OZK exceeded the implied move? (beat rate)
+4. What is the current IV rank / IV percentile for OZK options?
+5. For the Aug 2026 $42.50 and $45 puts specifically — what's the current delta, IV, and open interest?
+
+Context: I hold Aug $42.50 and $45 puts. I need to know if the market is already pricing in a large move (high IV = thesis partially priced) or if options are cheap relative to the actual risk (low IV = opportunity).
+```
+**Save as:** `sources/OZK_OPTIONS_IMPLIED_MOVE.md`
+
+### PROMPT 17: State-Level CRE Noncurrent Breakdowns
+```
+From FDIC Call Report data (FFIEC CDR), pull Bank OZK's (RSSD ID: 107244, FDIC CERT: 110) loan quality data broken down by state or FDIC supervisory region.
+
+Specifically looking for:
+1. Schedule RC-C Part II — Loans to Small Businesses and Small Farms, broken by state
+2. Any geographic concentration disclosures in the 10-K (Section: Credit Risk — Geographic)
+3. FDIC Summary of Deposits data — branch footprint vs lending footprint mismatch
+4. State-level noncurrent rates if available in public filings
+
+Key question: OZK lends nationally from an Arkansas charter but has branches in only ~8 states. Which states have the highest noncurrent rates on OZK's book?
+```
+**Save as:** `sources/OZK_STATE_NONCURRENT_BREAKDOWN.md`
+
+### PROMPT 18: $13.8B 2022 Origination Verification
+```
+Verify Bank OZK's 2022 loan origination volume. Multiple sources cite approximately $13.8B in new loan originations during 2022 (their peak year).
+
+Check:
+1. 2022 10-K (filed Feb 2023) — loan origination/production tables
+2. Q4 2022 earnings call transcript — management commentary on origination volume
+3. Any investor presentations from 2022-2023 citing annual production figures
+4. FDIC Call Report: compare total loans Dec 2021 vs Dec 2022
+
+Key data points needed:
+- Gross origination volume for full year 2022
+- Breakdown by loan type (construction vs permanent vs C&I)
+- Average loan size for 2022 vintage
+- How this compares to 2021 and 2023 origination (was 2022 truly the peak?)
+
+Context: If 2022 originations were truly $13.8B with 36-42 month construction terms, most of that vintage matures in H1-H2 2026. This is the "maturity wall" thesis.
+```
+**Save as:** `sources/OZK_2022_ORIGINATION_VERIFICATION.md`
+
+---
+
+*After running, drop files in `AGENTS/REGINALD/OZK/sources/`. Prome will integrate into KB.tsv and update the research agenda.*
