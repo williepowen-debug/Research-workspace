@@ -1,7 +1,7 @@
 # OZK — Agent Index
 **Start here on cold boot.**
 
-**Last session (Mar 24):** Fix 4 complete (KB cross-refs in THESIS.md). Gleason GFC research integrated from 4 LLMs — 10 new KB rows (064-073), OCC Formal Agreement discovered, RESG counterfactual established, Corus analog identified. KB now at 73 rows. WEAKNESSES.md C6 added. GAP_ANALYSIS Angles 1+3 resolved.
+**Last session (Mar 24):** Prompts #1/#2/#3 integrated from multiple LLMs. KB at 87 rows. GFC research (10 rows), maturity schedule (6 rows), quarterly estimates + repayment velocity + extension fatigue + no-holding-co governance + IQHQ reserves + reclass quote (6 rows). THESIS.md, WEAKNESSES.md, EARNINGS_PREP.md all updated.
 
 ---
 
