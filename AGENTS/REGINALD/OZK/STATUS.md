@@ -5,10 +5,11 @@
 ---
 
 ## Positions
-| Strike | Expiry | Contracts | P/L | Wave |
-|--------|--------|-----------|-----|------|
-| $42.5P | May 15 | 2 | -0.7% | 1: Apr earnings |
-| $45P | Aug 21 | 2 | -9.6% | 2-3: NY pipeline + IQHQ |
+| Strike | Expiry | Contracts | Cost Basis | Wave |
+|--------|--------|-----------|------------|------|
+| $42.5P | May 15 | 2 | — | 1: Apr earnings |
+| $42.5P | Aug 21 | 1 | — | 2-3: NY pipeline + IQHQ |
+| $45P | Aug 21 | **4** | 2 @ prev + 2 @ $4.05 (Mar 24) | 2-3: NY pipeline + IQHQ |
 
 ## What's Changed Recently
 - **Mar 23:** FDIC QBP geographic analysis — NY pipeline 0.41% (highest), Dallas E&P gap 1.69pts (largest). Filed.
