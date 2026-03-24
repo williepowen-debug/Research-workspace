@@ -1,25 +1,30 @@
 # SCRATCH — Ephemeral Working Memory
 
-**Updated:** 2026-03-24 03:00 UTC (Mon 11:00 PM ET)
+**Updated:** 2026-03-24 03:40 UTC (Mon 11:40 PM ET)
 
 ---
 
 ## QUICKSTART
 Scenario D **78%**. War Day **24**. Account $51,447. Brent mid-$90s.
-**OZK folder: A quality. C1+C3 complete. C2 (rate relief) is next.**
+**OZK folder: A- quality. All C + D sections COMPLETE. Remaining: Audit E (publication cleanup), B1/B4 (minor).**
 
 ## HANDOFF
-**Last context:** Ninth segment of Mar 23. Completed C1 (reclassification rebuttal) and C3 (capital absorption / position sizing).
+**Last context:** Completed full D1-D5 opportunity research + insider compilation file. All committed and pushed (`246ae59`).
 
-**C1 finding:** C&I and NDFI are separate RC-C line items. Combined $6.2B in "non-RE" categories → $2.3-2.9B (37-46%) is CRE-linked. Genuine diversification = ~$3.3-3.9B (10-12% of total loans). Bull argument partially correct but materially overstated. Written to `research/C1_RECLASSIFICATION_REBUTTAL.md`.
+**This session completed:**
+- D1: LTV extrapolation — two reappraised loans (52.9%→98.9%) scaled across $3.7B office book. 20-30% stressed = $74-111M unrecognized impairment. "Most powerful paragraph" written.
+- D2: Pledged loans/liquidity — 74% of loans pledged (worst in SVB/FRC comp set). $15.1B total liquidity ($8.8B FHLB). Depositor subordination math: only ~$10B unpledged vs $11.9B uninsured. Tripwire: FHLB advances going from $0 to any positive.
+- D3: Shadow CRE lever — novel metric packaged. 405-420% adjusted CRE/Tier 1 (vs reported 358%). Three-layer stack: direct CRE + Memo Item 3 + NDFI shadow CRE. Wrong-way risk framing.
+- D4: Problem bank comparison — NCO 1.9x industry, reserve coverage below avg, CRE 2-3x guidance. "Earn your way through" breakeven: NCO must triple to ~3%.
+- D5: Dividend sustainability — $1.56/yr at 25% payout looks safe. Breaks at EPS <$3 (payout >50%). Cut probability ~20-25% within 12mo. NYCB template: cut = -38% in one day.
+- Insider activity compiled into single reference (`research/INSIDER_ACTIVITY_COMPILED.md`)
 
-**C3 finding:** At current NCO run rates, capital GROWS (bank earns through losses). NCOs must triple to erode capital. Thesis reframed: **earnings compression, not bank failure.** EPS $5.00 at 6x = $30 (-30%). Aug $45 put EV = $8.13 on $3-4 cost = 2-2.7x. Added EPS sensitivity + put EV math to SCENARIOS.md. Written to `research/C3_CAPITAL_ABSORPTION_ANALYSIS.md`.
-
-**Next (after /clear):**
-1. **C2: Rate relief scenario** — strongest bull argument, unaddressed. Need to model: if Fed cuts 75-150bps by mid-2026, what % of $7B interest-reserve construction book successfully refis? Key insight to develop: rate cuts help multifamily/industrial (demand exists) but NOT office/life sci (structural vacancy). Our noncurrent is 75% office/life sci — the category rate cuts help least. Need cap rate data pull.
-2. **B4: FHLB/liquidity** — quick FDIC API pull
-3. **B7: Insider Form 4s** — quick EDGAR check
-4. **D: LTV extrapolation** — scale 52.9%→98.9% across $3.7B office book
+**Next session priorities:**
+1. **Audit E** — Publication readiness: Temple 8 ref cleanup, source citations, PDNA geography
+2. **B1** — State-level data (may not be available in standard format — could defer)
+3. **B4** — FHLB/liquidity detail (largely covered by D2 now)
+4. **Jefferies Q1 Wed Mar 25** — WAL catalyst, monitor after close
+5. **OZK earnings Apr 16** — 23 days out. Folder is thesis-ready.
 
 **Position decisions (unchanged).**
 **Upcoming:** Jefferies Q1 Wed Mar 25 after close (WAL catalyst).
