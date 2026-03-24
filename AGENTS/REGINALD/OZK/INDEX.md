@@ -1,7 +1,7 @@
 # OZK — Agent Index
 **Start here on cold boot.**
 
-**Last session (Mar 25):** KB.tsv migrated (63 rows), NCO/YoY data corrected, BRIEFING rewritten, folder restructured (5 files archived), INDEX.md created. Next: Fix 4 (KB cross-refs in THESIS.md), Will running external prompts.
+**Last session (Mar 24):** Fix 4 complete (KB cross-refs in THESIS.md). Gleason GFC research integrated from 4 LLMs — 10 new KB rows (064-073), OCC Formal Agreement discovered, RESG counterfactual established, Corus analog identified. KB now at 73 rows. WEAKNESSES.md C6 added. GAP_ANALYSIS Angles 1+3 resolved.
 
 ---
 

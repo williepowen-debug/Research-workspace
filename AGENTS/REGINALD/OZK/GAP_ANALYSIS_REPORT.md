@@ -159,11 +159,8 @@ These were flagged by AUDIT_REPORT_MAR23.md but remain in the files:
 
 ## PART 6: NEW ANGLES NOT YET EXPLORED
 
-### ANGLE 1: OZK's Loan Loss History Through Prior Cycles — GLEASON'S TRACK RECORD
-**What:** The bull case centers on "Gleason has never lost." The rebuttal is "never faced this environment." But nobody has actually pulled OZK's (formerly Bank of the Ozarks) FDIC data through 2008-2012. If OZK had near-zero losses during GFC while peers were blowing up, that's a genuinely strong counter-argument that deserves quantification, not dismissal.
-**Why it matters:** If Gleason navigated 2008-2012 with <20bps NCOs while running high CRE concentration, the "this time is different" argument needs to be much more specific about WHY (frozen refi + collapsed life sciences + sponsor fatigue as a unique combination).
-**Data source:** FDIC API, CERT 110, 2007-2012 quarterly data. 15-minute pull.
-**Priority:** HIGH — this is the single strongest bull counterargument and you're dismissing it without data.
+### ANGLE 1: OZK's Loan Loss History Through Prior Cycles — GLEASON'S TRACK RECORD ✅ RESOLVED Mar 24
+**Status:** Four independent research models run. GFC record is genuine (NCOs well below industry, profitable every quarter). Key findings: RESG was small during GFC (different bank), FDIC loss-share cushioned performance, OCC Formal Agreement June 2011 found by V3 (3 of 4 models missed it), Corus Bank = closest historical analog (same model, failed). See KB-OZK-064 through 073 and WEAKNESSES.md C6.
 
 ### ANGLE 2: OZK's Specific Construction Loan Maturity Schedule
 **What:** The "2022 vintage = Q1-Q3 2026 maturities" is the thesis backbone, but it's generic (36-42 month terms on 2022 originations). OZK's actual construction loan maturity schedule — how much matures each quarter — should be in the 10-K or management comments.
@@ -171,11 +168,8 @@ These were flagged by AUDIT_REPORT_MAR23.md but remain in the files:
 **Data source:** OZK management comments (loan maturity tables), 10-K risk factor disclosures, or earnings call commentary on construction pipeline maturities.
 **Priority:** HIGH
 
-### ANGLE 3: FDIC Enforcement Actions / MRA History
-**What:** Has OZK received any Matters Requiring Attention, formal/informal enforcement actions, or consent orders? The FDIC enforcement database is public.
-**Why it matters:** If OZK is already under enhanced supervision (likely given 358% CRE/Tier 1 > 300% threshold), any escalation would be a catalyst. If they have a clean enforcement history, that's a point for the bull case.
-**Data source:** FDIC enforcement actions database (public), OCC/Fed enforcement actions search.
-**Priority:** MEDIUM
+### ANGLE 3: FDIC Enforcement Actions / MRA History ✅ RESOLVED Mar 24
+**Status:** OCC Formal Agreement issued June 8, 2011 (OCC eaN12-003.pdf). "Less than satisfactory" mgmt and liquidity. Required 11% total RBC minimum, enhanced credit review. One individual action (FDIC-09-244e, Bradley Payne, personal misconduct). No current enforcement actions found for 2024-2026 period — but informal MOUs may not be public. See KB-OZK-069.
 
 ### ANGLE 4: Sell-Side Coverage Changes
 **What:** Citi downgraded OZK to Sell in May 2024 over IQHQ. What's current coverage? How many Buys vs Sells? Any recent rating changes?

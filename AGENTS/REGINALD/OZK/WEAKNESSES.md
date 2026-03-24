@@ -118,6 +118,15 @@ Stop implying bank failure anywhere in the thesis. OZK can absorb massive losses
 ### C4: Gleason Non-Selling Framing Is Weak
 EVIDENCE.md presents CEO 10% ownership without selling as bearish. But someone with $470M in a $4.7B company has legitimate liquidity constraints regardless of outlook. **Recommendation:** Remove as a signal. Replace with insider selling data (C-suite other than CEO — see B7 Form 4 check).
 
+### C6: Gleason's GFC Track Record Is Genuinely Strong (ADDRESSED — Mar 24)
+Four independent research models confirm OZK's GFC performance was exceptional: NCOs well below industry in virtually every quarter, ROA >1.20% throughout, profitable every quarter of 2008, proactive Q4 2008 capital raise (CRE ratio 394%→286% in one quarter). Peer failures (Corus, Colonial, ANB, WaMu) had losses orders of magnitude worse. This IS the strongest bull argument. **Our rebuttal (now data-backed):**
+1. **Different bank.** GFC portfolio was ~$2B community AR CRE. Today: $35B+ national RESG with $500M-$915M single-project exposures. RESG was small during GFC [KB-OZK-067].
+2. **Different concentration.** CRE/equity ~381% then vs ~620% now. GFC LTV averaged ~68% vs ~49% today — tighter LTV but massively higher total exposure [KB-OZK-068/070].
+3. **FDIC subsidy.** 7 failed bank acquisitions with 80% loss-share. Record 2010-2011 earnings driven substantially by bargain-purchase gains and accretion, not organic credit performance [KB-OZK-066/071].
+4. **OCC Formal Agreement June 2011.** "Less than satisfactory" mgmt and liquidity. Required 11% capital minimum, enhanced credit review. Three of four research models missed this entirely [KB-OZK-069].
+5. **Corus analog.** Corus Bank ran the *same* gateway-city construction model and failed. Difference was basis (LTV), not strategy [KB-OZK-072].
+**Verdict:** Gleason demonstrated genuine discipline, but the GFC stress-tested a fundamentally different institution. The current RESG book is being stress-tested for the first time now. See `sources/OZK_GFC_TRACK_RECORD_V2.md` through `V4.md` for full research.
+
 ### C5: IQHQ Timeline Extension Weakens Wave 3
 IQHQ maturity pushed to ~2028. No longer a 2026 catalyst. The thesis should lean on Waves 1-2 (construction maturity wall + noncurrent trajectory + interest reserve depletion) without invoking IQHQ for near-term catalysis. IQHQ remains relevant as background risk and worst-case loss estimate, but it's not what makes the April-August put structure work.
 
