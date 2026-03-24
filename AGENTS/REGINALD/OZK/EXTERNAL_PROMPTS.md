@@ -3,6 +3,7 @@
 **Generated:** 2026-03-24
 
 Run these and drop results into `sources/`. I'll integrate.
+**When results land → update STATUS.md "Research Agenda" checklist** (that's the single task tracker).
 
 ---
 

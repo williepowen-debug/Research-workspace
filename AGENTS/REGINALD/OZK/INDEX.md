@@ -1,6 +1,8 @@
 # OZK — Agent Index
 **Start here on cold boot.**
 
+**Last session (Mar 25):** KB.tsv migrated (63 rows), NCO/YoY data corrected, BRIEFING rewritten, folder restructured (5 files archived), INDEX.md created. Next: Fix 4 (KB cross-refs in THESIS.md), Will running external prompts.
+
 ---
 
 ## Key Numbers (Q4 2025)
@@ -29,6 +31,16 @@
 | $45P | Aug 21 | 2 | Waves 2-3: NY pipeline + IQHQ |
 
 **Earnings: April 16, 2026** — 23 days
+
+## Data Update Rules
+
+| What Changed | Where to Update | Don't Touch |
+|---|---|---|
+| **A number/data point** | KB.tsv only | THESIS.md (references KB rows — narrative stays stable) |
+| **Narrative/framing** | THESIS.md | KB.tsv (data doesn't change because framing did) |
+| **New evidence arrives** | Add KB.tsv row → check off STATUS.md Research Agenda | EVIDENCE.md (legacy, frozen) |
+| **Task completed** | STATUS.md Research Agenda checklist | GAP_ANALYSIS Part 7 (frozen snapshot) |
+| **Session ending** | Update "Last Session" below + STATUS.md "What's Changed" | — |
 
 ## Boot Sequence
 

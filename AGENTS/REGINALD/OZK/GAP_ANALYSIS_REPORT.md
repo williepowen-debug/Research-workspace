@@ -197,7 +197,8 @@ These were flagged by AUDIT_REPORT_MAR23.md but remain in the files:
 
 ---
 
-## PART 7: PRIORITY ACTION LIST (23 DAYS TO EARNINGS)
+## PART 7: PRIORITY ACTION LIST ⚠️ FROZEN AS OF MAR 24
+*Live task tracking has moved to STATUS.md "Research Agenda." This list is preserved as the original audit output — do not update here.*
 
 ### MUST DO (This Week)
 1. **Fix EARNINGS_PREP.md** — Replace all Temple 8 numbers with corrected figures. 10 minutes.
