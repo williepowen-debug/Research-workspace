@@ -18,9 +18,10 @@ Read this before `/clear` or `/new`.
 1. **`PROME/SCRATCH.md`** — Update QUICKSTART + handoff block for next-me
 2. **`memory/YYYY-MM-DD.md`** — Log session work + handoff block
 3. **`PROME/STATUS.md`** — Update dashboard
-4. **`MEMORY.md`** — Add learnings worth keeping
-5. **Commit and push**
-5. If applicable: USER.md, PREDICTIONS.md, LESSONS.md, CALENDAR.md, FORGE/STATUS.md
+4. **`PROME/TOSCANINI/QUEUE.md`** — Stage proposals for next session (pending signals, follow-ups from completed agents)
+5. **`MEMORY.md`** — Add learnings worth keeping
+6. **Commit and push**
+7. If applicable: USER.md, PREDICTIONS.md, LESSONS.md, CALENDAR.md, FORGE/STATUS.md
 
 ## Session Reset Strategy
 - **`/clear`** — Compaction summary rides along (lossy, stacks). 2-3 clears max before `/new`.
