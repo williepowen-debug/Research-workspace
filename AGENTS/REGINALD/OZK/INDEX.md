@@ -1,7 +1,7 @@
 # OZK — Agent Index
 **Start here on cold boot.**
 
-**Last session (Mar 24 evening):** KB at **136 rows** across 16 groups. FL Paradox complete (4 LLMs, 12 rows — FL book confirmed fortress, Biscayne 21 exception). Peer comp integrated (OZK 5.4x peer NCO). D6 Extend-and-Pretend synthesis written. KB_INDEX.md navigator created. Prompts #1-7 complete (except #5 short interest). Positions updated: +2 OZK Aug $45P @ $4.05.
+**Last session (Mar 25):** KB at **160 rows** across 17 groups. SHORT_INTEREST added as group 17 (KB-OZK-160). FL Paradox complete. Peer comp integrated. D6 Extend-and-Pretend synthesis written. KB_INDEX.md navigator created. Orphan folders (INSIDERS/, MARKET/, PRIVATE_CREDIT/) indexed.
 
 ---
 
@@ -49,7 +49,7 @@
 | 1 | `STATUS.md` | 2 min | Dashboard, positions, catalyst calendar, research agenda |
 | 2 | `THESIS.md` | 5 min | Full bear case, three waves, bull rebuttals, MI3 discovery |
 | 3 | `SCENARIOS.md` | 3 min | Bull/base/bear with probabilities and triggers |
-| 4 | `workbook/KB.tsv` | 3 min | **146-row** canonical evidence database |
+| 4 | `workbook/KB.tsv` | 3 min | **160-row** canonical evidence database |
 | — | `workbook/KB_INDEX.md` | 2 min | Group navigator: **17 clusters** → folders → thesis layers |
 
 **Total cold-boot: ~15 min.** Covers 90%+ of what an agent needs.
@@ -63,7 +63,7 @@
 | `STATUS.md` | Live dashboard, positions, catalyst calendar |
 | `THESIS.md` | Full thesis with three-wave framework |
 | `SCENARIOS.md` | Probability-weighted outcomes (**⚠️ price inputs stale — refresh before earnings**) |
-| `workbook/KB.tsv` | Canonical evidence store (**146 rows**, 13 columns) |
+| `workbook/KB.tsv` | Canonical evidence store (**160 rows**, 13 columns) |
 | `workbook/KB_INDEX.md` | **KB group navigator** — 17 clusters mapped to folders, thesis layers, and earnings prep |
 
 ### Deep Dives (read on-demand)
@@ -89,6 +89,9 @@
 | `research/NDFI_SHADOW_CRE_ANALYSIS.md` | $2.74B shadow CRE deep dive |
 | `research/INSIDER_ACTIVITY_COMPILED.md` | All insider transactions compiled |
 | `research/8K_FORCED_DISCLOSURE_FRAMEWORK.md` | Pre-announcement pattern analysis |
+| `INSIDERS/` | Insider trading analysis (deep dive) |
+| `MARKET/` | Market data, snapshots, trade log |
+| `PRIVATE_CREDIT/` | Affinius/NDFI counterparty risk analysis |
 
 ### Life Sciences (asset type — cross-geography)
 | File | Content |
@@ -127,8 +130,8 @@
 ### Workbook
 | File | Content |
 |------|---------|
-| `workbook/KB.tsv` | **136-row** evidence database (13-column standard schema) |
-| `workbook/KB_INDEX.md` | Group navigator — 16 clusters mapped to folders + thesis layers |
+| `workbook/KB.tsv` | **160-row** evidence database (13-column standard schema) |
+| `workbook/KB_INDEX.md` | Group navigator — 17 clusters mapped to folders + thesis layers |
 | `workbook/KB_MIGRATION_LOG.md` | Migration audit trail |
 
 ---
