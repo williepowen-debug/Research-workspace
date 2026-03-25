@@ -1,7 +1,7 @@
 # LIFE_SCI — Cross-Model Findings (IQHQ RaDD Focus)
 
-**Completed:** 2026-03-25 | **Models:** Claude, Gemini
-**KB Rows:** 137–141 | **Group:** `LIFE_SCI` | **Nav:** `../../workbook/KB_INDEX.md`
+**Updated:** 2026-03-25 | **Models:** Claude, Gemini (Prompts 15 + 20)
+**KB Rows:** 137–141, 147–156 | **Group:** `LIFE_SCI` | **Nav:** `../../workbook/KB_INDEX.md`
 
 ---
 
@@ -79,4 +79,59 @@ Campus at Horton (Stockdale Capital, ~1M SF, zero tenants, potential foreclosure
 
 ---
 
-*Sources → `../sources/IQHQ_RADD_claude_prompt15.md`, `../sources/IQHQ_RADD_gemini_prompt15.docx` | KB → `../workbook/KB.tsv` (094-095, 117, 137-141) | Thesis → `../THESIS.md`*
+---
+
+## Prompt 20 Update: National Life Sci Vacancy Deep Dive (Claude, Mar 25)
+**KB Rows:** 147–156 | **Source:** `../sources/OZK_LIFE_SCI_VACANCY_CLAUDE.md`
+
+### Finding 6: National Bottoming — But Recovery Is Years Away
+**KB-147** | **Confidence: A2**
+
+U.S. vacancy dipped to **23.0%** Q4 2025 — first decline since Q2 2022. Construction pipeline collapsed to 4.5M SF (lowest since 2017). But JLL estimates **18.7M SF must exit market** through conversion/distress by 2030 — supply attrition, not demand growth, is the rebalancing mechanism. At current absorption (150K–950K SF/quarter), organic demand alone takes many years.
+
+### Finding 7: Sorrento Mesa — Epicenter of Speculative Distress
+**KB-148** | **Confidence: A2**
+
+Sorrento Mesa vacancy **38.2%** (JLL Q3 2025). Half of office inventory converted to wet lab speculatively. Holds **48% of all SD sublease space** (~650K SF, 30 subleases). Even the "good" SD submarkets are at 29-38%. Torrey Pines could spike to 45% if BioMed repositions the 630K SF former Pfizer campus.
+
+### Finding 8: 14 Consecutive Quarters of Rent Decline
+**KB-149** | **Confidence: A2**
+
+SD Class A lab rents **$5.86/SF/mo NNN** — longest sustained decline on record. Effective rents 20-25% below peak. One Q4 deal included a **full year of free rent**. RaDD would need to lease at deep discounts to these already-distressed rates given its locational handicap.
+
+### Finding 9: Boston at All-Time High Vacancy
+**KB-150** | **Confidence: A2**
+
+Boston/Cambridge hit **28.0%** vacancy Q4 2025 — all-time high. Seaport **34.8%**. Full-year negative absorption 929K SF. Even Kendall Square (9.3% direct) saw its largest quarterly jump since early 2024. OZK already charged off Sullivan ($72.4M) and IQHQ's Boston projects (109 Brookline vacant, Fenway paused) add further risk.
+
+### Finding 10: Bay Area Shows First Green Shoot
+**KB-151** | **Confidence: B1**
+
+Bay Area vacancy fell to **30.2%** (from 32.8% Q3) — first quarterly decline in cycle. Q4 leasing 1.2M SF. But sublease availability nearly doubled to **2.7M SF** (20% of total — highest sublease share of any U.S. life sci market). IQHQ's own Spur Phase I (340K SF) delivered with zero preleasing here.
+
+### Finding 11: Structural Demand Shrinkage — AI + NIH + VC Collapse
+**KB-152** | **Confidence: B1**
+
+Biotech VC share: **15% → 7%** (AI crowding). AI-native biotechs use 1/3 less space/employee. NIH cut **$2.3B** in grants (7,800+ cancelled). SD VC funding **-44.8%**. Even in recovery, the old demand model for megaprojects like RaDD is broken.
+
+### Finding 12: OZK SD Portfolio — 1 Performing, 1 Sold, 2 Distressed
+**KB-153, KB-154** | **Confidence: B1**
+
+- **Aperture Del Mar** ($475M): Pre-leased Neurocrine through 2036. ✅ Only clearly performing SD loan.
+- **Pacific Center** ($265M): SOLD Jan 5, 2026 to Strategic Value Partners (distressed debt). OZK claimed par on $100M outstanding, but distressed buyer + $165M unfunded = loan was impaired.
+- **Bioterra** ($202M): Vacant in 38% Sorrento Mesa submarket.
+- **RaDD** ($915M): 97% vacant, downtown 94% vacancy.
+
+### Finding 13: Short Thesis Is Crowded — But Loss Threshold Is High
+**KB-155** | **Confidence: B1**
+
+Temple 8 Capital short report (Mar 10, 2026): "The Next SVB?" targeting Apr-Jun 2026. Citi downgraded to Sell (May 2024, PT $37). **Red Beryl counterpoint:** property needs ~75% decline from 2022 appraisal for impairment on $555M funded — IQHQ's $950M equity cushion provides buffer. Our thesis: **narrative damage at Apr 16 earnings IS the catalyst**, not necessarily a charge-off.
+
+### Finding 14: Pharma Patent Cliff = Demand, But Not for RaDD
+**KB-156** | **Confidence: B1**
+
+200+ drugs losing protection, $300B+ revenue at risk → pharma is leasing. But Novartis chose Campus Point, Biogen chose Cambridge. Large pharma wants established clusters, not pioneering downtown waterfront. RaDD doesn't benefit.
+
+---
+
+*Sources → `../sources/IQHQ_RADD_claude_prompt15.md`, `../sources/IQHQ_RADD_gemini_prompt15.docx`, `../sources/OZK_LIFE_SCI_VACANCY_CLAUDE.md` | KB → `../workbook/KB.tsv` (094-095, 117, 137-156) | Thesis → `../THESIS.md`*

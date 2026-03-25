@@ -1,6 +1,6 @@
 # KB.tsv — Group Index
 
-**Updated:** 2026-03-25 | **Total rows:** 146 | **Groups:** 17
+**Updated:** 2026-03-25 | **Total rows:** 156 | **Groups:** 17
 
 Navigate the KB by investigation cluster. Each group maps to a folder or research file where the full synthesis lives.
 
@@ -21,7 +21,7 @@ Navigate the KB by investigation cluster. Each group maps to a folder or researc
 |-------|------|-------|---------------|----------------|
 | **EXTEND_PRETEND** | 096–097, 099–104 | 8 | **research/D6_EXTEND_AND_PRETEND.md** | 590 mods, 98% classification gap, 59% re-default, NPL forensics. (098 cross-listed → MGMT_CREDIBILITY) |
 | **DISTRESSED_LOANS** | 028–036 | 9 | THESIS.md (evidence) | Named problem loans: IQHQ RaDD, Sterling Bay, Boston, Seattle, Santa Monica |
-| **LIFE_SCI** | 094–095, 117, 137–141 | 8 | **LIFE_SCI/FINDINGS.md** | $3.2B life sci, RaDD 3.3% leased, maturity extended Aug 2028, IQHQ distress cascade (16.5% rescue capital, 94% investor markdowns), downtown SD >90% vacant, AI demand shrink |
+| **LIFE_SCI** | 094–095, 117, 137–141, 147–156 | 18 | **LIFE_SCI/FINDINGS.md** | $3.2B life sci, RaDD 3.3% leased, maturity Aug 2028, IQHQ distress, national bottoming 23.0% (first decline), SD rents 14th straight decline, Sorrento Mesa 38.2%, Boston ATH 28.0%, Bay Area first recovery, VC→AI crowding (15%→7%), Pacific Center sold to distressed buyer, Temple 8 short report, pharma patent cliff demand misaligned to RaDD |
 | **MGMT_CREDIBILITY** | 037–041, 069, 085, 093, 098 | 9 | THESIS.md (narrative) | "No concessions" contradiction, CFO selling, buyback non-use |
 | **INSIDER** | 142–145 | 4 | sources/OZK_INSIDER_claude_prompt16.md | ZERO insider buys 18mo, 65:1 sell ratio, CRO filled (Majumdar), Mar 11 mass filing, Gleason "most uncertain time in 45yr career" |
 
