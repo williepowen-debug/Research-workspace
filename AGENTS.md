@@ -13,6 +13,13 @@ LABOR → CARL → REGINALD → market repricing
 SAM (Japan) runs parallel — can trigger independently via carry unwind
 
 NEXUS synthesizes across all agents → convergence/contradiction detection → PROME
+
+TOSCANINI (PROME/TOSCANINI/) orchestrates all of the above:
+  - Generates proposals → Will approves/rejects (binary)
+  - Spawns sub-agents with COMPLETION_SPEC
+  - Tracks outcomes in DECISIONS.md
+  - Queues Will-only tasks in WILL_QUEUE.md
+  - Signal batching: 3+ signals → spawn agent (🔴🔴 exceptions spawn immediately)
 ```
 
 ---
@@ -32,6 +39,7 @@ Before `/clear` or `/new`, read `PROME/HANDOFF.md`.
 - **External actions** (emails, tweets, public posts): ask first
 - **Agent trade proposals** → send to Will with [Approve] [Reject] → never execute without approval
 - **Agent check-in proposals** → when agents propose research, cross-agent flags, or new tracking items during daily check-ins, route to Will for approval then execute. Make this standard practice.
+- **Toscanini governs all proposals.** Full autonomy tiers in `PROME/TOSCANINI/AUTONOMY.md`. Tier 1 = free, Tier 2 = propose, Tier 3 = always ask.
 
 ---
 
@@ -58,6 +66,8 @@ When Will sends market signals:
 ## Sub-Agent Spawn
 
 Before spawning, check agent STATUS <10KB (prune if needed). See `docs/OPERATIONS.md` for full protocol, `AGENTS_DIRECTORY.md` for roster.
+
+**Every spawn must include COMPLETION_SPEC** (see `PROME/TOSCANINI/COMPLETION_SPEC.md`). Sub-agents report: STATUS / CHANGED / RESULT / GAPS / WILL_NEEDS / FOLLOW-UP. Prome routes WILL_NEEDS → `TOSCANINI/WILL_QUEUE.md`, FOLLOW-UP → `TOSCANINI/QUEUE.md`.
 
 ---
 

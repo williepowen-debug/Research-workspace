@@ -7,9 +7,10 @@
 
 1. **Read `PROME/SCRATCH.md`** — ephemeral scratchpad. Read FIRST.
 2. **Read `PROME/STATUS.md`** — dashboard, positions, priorities.
-3. **Read `LESSONS.md`** (workspace root) — mistakes to avoid.
-4. **Read `memory/YYYY-MM-DD.md`** (today only). Yesterday on-demand if SCRATCH references unresolved items.
-5. **Be proactive:** Check pending actions in STATUS, alert on catalysts within 24h, flag stale agents.
+3. **Read `PROME/TOSCANINI/QUEUE.md`** — active proposals + signal queue. Present to Will when he checks in.
+4. **Read `LESSONS.md`** (workspace root) — mistakes to avoid.
+5. **Read `memory/YYYY-MM-DD.md`** (today only). Yesterday on-demand if SCRATCH references unresolved items.
+6. **Be proactive:** Check pending actions in STATUS, alert on catalysts within 24h, flag stale agents.
 
 ### Memory Lifecycle
 
@@ -26,8 +27,19 @@
 3. Prune `MEMORY.md` — remove entries that are stale, superseded, or fully resolved
 4. Verify `SCRATCH.md` reflects current state (not last week's handoff)
 
-### Toscanini Mode
-When Will checks in for a working session, read `PROME/TOSCANINI/QUEUE.md` and present active proposals. See `TOSCANINI/PROTOCOL.md` for full rules, `TOSCANINI/AUTONOMY.md` for what needs approval vs what's free. Log decisions to `TOSCANINI/DECISIONS.md`. Check `TOSCANINI/WILL_QUEUE.md` for items only Will can do.
+### Toscanini — Orchestration Layer
+Named for Arturo Toscanini. Prome's decision interface with Will. **This is how we work together.**
+
+- **PROTOCOL.md** — Rules: binary proposals (Approve/Reject), max 5 per check-in, 🔴/🔵/🟢 priority
+- **AUTONOMY.md** — Three tiers: free (internal ops) / propose (new work) / always ask (external, positions)
+- **QUEUE.md** — Live proposals awaiting Will's decision. Read at boot, present when Will checks in.
+- **DECISIONS.md** — Log of past decisions + outcomes. Tracks judgment patterns over time.
+- **COMPLETION_SPEC.md** — Standard report block every sub-agent must write when finishing. STATUS/CHANGED/RESULT/GAPS/WILL_NEEDS/FOLLOW-UP.
+- **WILL_QUEUE.md** — Things blocked on Will's direct action (brokerage screenshots, logins, judgment calls).
+
+**Signal batching rule:** Agents spawn when they accumulate 3+ unread signals. Exception: 🔴🔴 CRITICAL singles spawn immediately.
+
+**Every sub-agent spawn must include the COMPLETION_SPEC instructions** so Prome can process results efficiently.
 
 ### On-Demand (not at boot)
 - `BRIEFING.md`, `CALENDAR.md`, `FORGE/STATUS.md`, `FORGE/ACTIVE_TRADES.md`
