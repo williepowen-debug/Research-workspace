@@ -18,6 +18,7 @@ Run these and drop results into `sources/`. Prome will integrate into KB.tsv.
 | 6 | FL Paradox stress-test | KB-121–132 | 4 LLMs, 12 rows, FINDINGS.md complete |
 | 7 | Peer ACL/NCO comparison | KB-133–136 | 3 LLMs (Claude best), 4 rows. OZK outlier on every metric |
 | 15 | IQHQ RaDD leasing + distress | KB-137–141 | Claude + Gemini. 3.3% leased, maturity to Aug 2028, IQHQ in distress cascade |
+| 20 | Life sci vacancy deep dive | KB-147–156 | Claude. National 23.0% (first decline), SD 26-31%, Sorrento 38.2%, Boston ATH 28.0%, Bay Area 30.2% (first recovery), 18.7M SF must exit by 2030 |
 | 16 | Insider transactions | KB-142–146 | Claude + Gemini. Zero buys 18mo, 65:1 sell ratio, CRO filled (Majumdar), CIK corrected |
 
 ---

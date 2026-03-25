@@ -24,16 +24,18 @@ Life sciences is where the OZK thesis hits hardest. The FL condo book is a fortr
 | 109 Brookline (285K SF) | Completed 2024, entirely vacant |
 
 ## What Changed
-- Mar 25: Prompt 15 integrated (Claude + Gemini). 5 new KB rows (137-141). RaDD leasing at 3.3%, maturity extended Aug 2028, IQHQ distress cascade documented, AI demand shrink identified.
+- Mar 25 (PM): **Prompt 20 integrated** (Claude). 10 new KB rows (147-156). National bottoming (23.0%, first decline), SD rents 14th straight quarterly decline, Boston ATH 28.0%, Bay Area first green shoot, Sorrento Mesa 38.2% (48% of sublease), VC/AI crowding (15%→7%), Pacific Center sold to distressed buyer, Temple 8 short report published.
+- Mar 25 (AM): Prompt 15 integrated (Claude + Gemini). 5 new KB rows (137-141). RaDD leasing at 3.3%, maturity extended Aug 2028, IQHQ distress cascade documented, AI demand shrink identified.
 
 ## What's Needed
-- [ ] Prompt 20 (Life Sci Vacancy Deep Dive) — SD + Boston + national vacancy data
 - [ ] IQHQ next capital raise or asset sale announcement
 - [ ] Campus at Horton resolution (foreclosure = valuation comp for RaDD)
 - [ ] Any new RaDD lease signing (would change the narrative)
+- [ ] Bioterra ($202M) status — any leasing or restructuring?
+- [ ] Q1 2026 vacancy data refresh (CBRE/JLL April releases)
 
 ---
 
-**KB Rows:** 094–095, 117, 137–141 | **Group:** `LIFE_SCI` | **Nav:** `../workbook/KB_INDEX.md`
+**KB Rows:** 094–095, 117, 137–141, 147–156 | **Group:** `LIFE_SCI` | **Nav:** `../workbook/KB_INDEX.md`
 
 *Findings → `FINDINGS.md` | Sources → `../sources/IQHQ_RADD_*` | Parent → `../STATUS.md`*
