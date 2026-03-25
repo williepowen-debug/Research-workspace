@@ -1,5 +1,5 @@
 # WAL KB Index — Group Navigator
-**59 rows | 10 groups | Seeded 2026-03-25**
+**61 rows | 10 groups | Seeded 2026-03-25**
 
 ---
 
@@ -12,11 +12,11 @@
 | 3 | CANTOR_FRAUD | 9 | 014-022 | V2 | $98M exposure, 30% reserved vs ZION 83%, $52M shortfall, OREO +2,625% | `research/` (RQ-REG-A01) |
 | 4 | INSIDER | 7 | 023-029 | ALL | CFO swap (JPM FIG crisis banker), board risk additions, zero buying | `sources/INSIDER_SCAN_WAL.md` |
 | 5 | GEOGRAPHIC | 6 | 030-035 | ALL | SF NCO highest (1.13%), pipeline lowest (0.26%), fast-transmission thesis | `sources/FDIC_QBP_Q4...` |
-| 6 | JEFFERIES | 5 | 036-040 | V2 | Double-pledging chain, SMFG 20%, Convergence Day -10.64% | `research/JEFFERIES/` |
+| 6 | JEFFERIES | 6 | 036-040,060 | V2 | Double-pledging chain, SMFG 20%, Convergence Day -10.64% | `research/JEFFERIES/` |
 | 7 | NEVADA_GAMING | 5 | 041-045 | — | 18-22% NV exposure, Circa $420M, consumer crossover (CARL) | `sources/RENO_WAL...` |
 | 8 | CAPITAL | 4 | 046-049 | V3 | CET1 11.0% (assumes SSFA), CLN doesn't cover MI3, 74% pledged | — |
 | 9 | EARNINGS | 4 | 050-053 | — | Record Q4 ($2.59 EPS, $991M FY), NPL improving on surface | — |
-| 10 | MARKET_SIGNAL | 6 | 054-059 | ALL | Two -10%+ drops, Madison "bankruptcy risk", Portnoy investigating | — |
+| 10 | MARKET_SIGNAL | 7 | 054-059,061 | ALL | Two -10%+ drops, Madison "bankruptcy risk", Portnoy investigating | — |
 
 ---
 
