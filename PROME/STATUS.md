@@ -1,7 +1,7 @@
 # PROME STATUS.md
-**Updated:** 2026-03-25 13:15 UTC
+**Updated:** 2026-03-25 22:15 UTC
 
-## 🔴🔴 SCENARIO D DOMINANT (78%) — WAR DAY 25 — BRENT $107+ — ACCOUNT $54K+
+## 🔴🔴 SCENARIO D DOMINANT (78%) — WAR DAY 25 — BRENT ~$100 — ACCOUNT $52K+
 
 ---
 
@@ -16,11 +16,11 @@
 | OTTO | 🟢 | DQ 7.1% RED. El-Erian 2007 parallel. | 3/23 | 2 |
 | MARCO | 🟢 | DHS Day 37. ICE raids = 4 workforce disruption vectors. Congress recessing to Apr 13. | 3/23 | 0 ✅ |
 | HENRY | 🔴🔴 | JPM retail fatigue (-30%). Fed T-Bill $352B. **PMI counter-signal (tariff front-running?). $14T IG supply wall.** | 3/23 | 3 |
-| LIQUID | 🔴🔴 | Stealth liquidity, FHLB +31%. **$10T maturity wall. PC funding channel mapped. Japan demand withdrawal.** | 3/23 | 3 |
+| LIQUID | 🔴🔴 | Stealth liquidity, FHLB +31%. **HY OAS 319 head-fake (CDX 9mo high). Quarter-end plumbing stress. Iraq FM.** | 3/25 | 3 |
 | ZHAO | 🔴🔴 | Demand hole $70-135B/mo. Ghalibaf ratchet. **De-dollarization accelerating (reserves 72%→56.9%).** | 3/23 | 3 |
 | HAWK | 🔴🔴 | Scenario D **78%**. Day 25. **Qatar FM. Israel hits Caspian route. Russia fertilizer suspension.** | 3/23 | 2 |
 | BROCK | 🔴🔴 | APO+ARES gated. FSK junk. 9 funds ~7wks. **PC contagion 6-stage map built. Stage 2 active.** ARESSI Mar 26, OBDCII Mar 27. | 3/24 | 1 |
-| REGINALD | 🔴 | OZK KB **159**/17 grp. WAL KB **60**/10 grp. **Both EARNINGS_PREPs upgraded (B+).** Apr 16 OZK = **22d**, Apr 21 WAL = **27d**. | 3/25 | 0 ✅ |
+| REGINALD | 🔴 | OZK KB **159**/17 grp. WAL KB **60**/10 grp. **WAL/FRAUD/ folder built (3 vectors consolidated).** Apr 16 OZK = **22d**, Apr 21 WAL = **27d**. | 3/25 | 0 ✅ |
 | BRENT | 🔴🔴 | Valero 380K bpd offline. Primorsk >1M bpd. **Qatar FM: 13M tonnes LNG removed 3-5yr. Ust-Luga struck AGAIN. Australia fuel shortages.** | 3/24 | 2 |
 | HANS | 🔴🔴 | DD-4 delivered. EU storage 17-19% entering refill. Dimona = point of no return. | 3/24 | 0 ✅ |
 | DARWIN | 🟡 | Scan overdue. **STALE 35d** | 2/18 | 0 |
@@ -51,7 +51,7 @@
 | Stale agents decision: HANS, DARWIN | 🟡 | |
 | MOF weekly ITS monitoring | 🟢 | NEW — check Wed/Thu for Japan foreign bond flows. `tools/monitoring/mof_weekly_check.sh` |
 | SOFI thesis research | 🟡 | Will wants to investigate consumer pain angle |
-| Gas AAA $4 breakpoint watch | 🔴 | $3.91 → $4 imminent. Qatar FM + LNG surge accelerates. Hamilton behavioral breakpoint. |
+| Gas AAA $4 breakpoint watch | 🔴 | **$3.977 — AT threshold.** Qatar FM + LNG surge accelerates. Hamilton behavioral breakpoint. |
 | PC contagion Perplexity follow-up | 🟡 | "if X then Y" decision tree with trigger thresholds for HY OAS, BDC discount, CLO equity |
 | ~~OZK Gap Closure~~ | ~~🔴~~ | ✅ KB.tsv migrated (63 rows), data fixes, BRIEFING rewritten |
 | OZK Audit E (pub cleanup) | 🟡 | Temple 8 refs, citations, PDNA geography |
@@ -59,6 +59,11 @@
 | OZK Fix 4 — KB cross-refs in THESIS.md | ✅ | Done — 22 anchors added, 2 warning flags |
 | Will running OZK external prompts | 🟠 | 10 prompts done (KB 159). 5 remaining (#8,9,10,13,19). Will delivering results. |
 | USO $118C Mar 27 decision | 🟠 | Thursday expiry, -69%. Ride or cut? |
+| Jefferies transcript analysis | 🔴 | Thu AM — 6 questions prepped in FORGE/research/jefferies/EARNINGS/Q1_CY2026.md |
+| Quarter-end SOFR watch | 🔴 | Thu-Fri — LIQUID flagged zero RRP + 20Y settlement = spike risk |
+| FORGE/jefferies architecture | ✅ | Built + audited (A-). Canonical JEF research home. |
+| WAL/FRAUD folder | ✅ | Built — First Brands, Tricolor, Stupin CRE, Convergence consolidated. |
+| LIQUID PM signal (LIQ-25-03-25-A) | ✅ | Processed — HY OAS head-fake, CDX divergence, Iraq FM. |
 
 ---
 
