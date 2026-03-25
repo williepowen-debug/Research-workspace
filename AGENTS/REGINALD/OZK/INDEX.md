@@ -1,7 +1,7 @@
 # OZK — Agent Index
 **Start here on cold boot.**
 
-**Last session (Mar 25):** KB at **160 rows** across 17 groups. SHORT_INTEREST added as group 17 (KB-OZK-160). FL Paradox complete. Peer comp integrated. D6 Extend-and-Pretend synthesis written. KB_INDEX.md navigator created. Orphan folders (INSIDERS/, MARKET/, PRIVATE_CREDIT/) indexed.
+**Last session (Mar 25):** KB at **160 rows** across 17 groups. SHORT_INTEREST added as group 17 (KB-OZK-160). FL Paradox complete. Peer comp integrated. D6 Extend-and-Pretend synthesis written. KB_INDEX.md navigator created. Orphan folders (INSIDERS/, MARKET/, PRIVATE_CREDIT/) indexed. **EARNINGS_PREP.md fully rebuilt** — quantitative NCO range, tripwires, decision matrix, position management, management defense anticipation, squeeze risk, KB gaps flagged.
 
 ---
 

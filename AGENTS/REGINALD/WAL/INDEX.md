@@ -62,7 +62,7 @@
 ### Deep Dives (read on-demand)
 | File | When to Read |
 |------|-------------|
-| `EARNINGS_PREP.md` | Prepping for Apr 21 specifically |
+| `EARNINGS_PREP.md` | **Apr 21 prep — A- quality** (tripwires, decision matrix, mgmt defense, 11 KB gaps flagged) |
 | `WEAKNESSES.md` | Stress-testing — what breaks the thesis |
 | `EXTERNAL_PROMPTS.md` | Research prompts for Will to run externally (5 pending) |
 | `TECHNICALS.md` | Chart levels and technical analysis |
