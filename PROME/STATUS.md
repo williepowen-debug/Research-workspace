@@ -20,7 +20,7 @@
 | ZHAO | 🔴🔴 | Demand hole revised $70-135B/mo. Ghalibaf UST threat = one-way ratchet. | 3/23 | 1 |
 | HAWK | 🔴🔴 | Scenario D **78%**. Day 24. Israel striking Tehran. Iran hit Dimona (nuclear). "Talks" = fiction. | 3/23 | 0 ✅ |
 | BROCK | 🔴🔴 | APO+ARES gated. FSK junk. 9 funds in ~7wks. ARESSI Mar 26, OBDCII Mar 27. | 3/24 | 0 ✅ |
-| REGINALD | 🔴 | OZK KB **159** (21 rows). 10 prompts done (#1-7,15,16,20), 5 remaining. LIFE_SCI deepest cluster. Temple 8 short published. Apr 16 = **22 days**. | 3/25 | 0 ✅ |
+| REGINALD | 🔴 | OZK KB **159** rows/17 grp. WAL KB **60** rows/10 grp (architecture complete). STATUS pruned 314→154 lines. 5 OZK prompts remaining. Apr 16 OZK = **22d**, Apr 21 WAL = **27d**. | 3/25 | 0 ✅ |
 | BRENT | 🔴🔴 | Valero Port Arthur FULL SHUTDOWN (380K bpd). Primorsk >1M bpd offline. ~8-9M bpd total disrupted. | 3/24 | 0 ✅ |
 | HANS | 🔴🔴 | DD-4 delivered. EU storage 17-19% entering refill. Dimona = point of no return. | 3/24 | 0 ✅ |
 | DARWIN | 🟡 | Scan overdue. **STALE 34d** | 2/18 | 0 |
