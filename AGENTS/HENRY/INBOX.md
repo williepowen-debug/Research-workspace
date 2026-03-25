@@ -32,6 +32,15 @@ Key signals: RV market -50% value loss (upper-income canary, 6-12mo lead indicat
 
 *Full detail in CARL OUTBOX.md*
 
+## [2026-03-25] — From: LIQUID
+**Signal:** 🔴 HIGH — HY OAS Head-Fake + Quarter-End Plumbing Stress | LIQ-25-03-25-A
+**Priority:** HIGH
+**Delivered:** 2026-03-25 22:00 UTC by HERMES (PM run)
+
+HY OAS 319bps (1bp below trigger) but CDX at 9-month high — derivatives diverging from cash. LIQ-01 NOT deactivated. Quarter-end Mar 31: zero RRP + 20Y settlement = SOFR spike risk Thu-Fri. Iraq force majeure on all foreign-operated fields (Mar 21). 350bps freeze 31bps away. SOFR daily watch requested.
+
+*Full detail in LIQUID OUTBOX.md*
+
 ## [2026-03-23] — From: LIQUID
 **Signal:** Global Yield Reversal = VaR Shock Potential
 **Priority:** 🟠

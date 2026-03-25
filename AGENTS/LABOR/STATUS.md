@@ -1,5 +1,25 @@
 # LABOR STATUS
-**Last Updated:** 2026-03-25 13:00 UTC | **Status:** 🔴🔴 CRITICAL — FL UI WAVE 1 EXHAUSTION FIRED (MAR 24). SHUTDOWN DAY 41. OIL SUPPLY SHOCK COMPOUNDING (PRIMORSK HIT). GAS $4 BREAKPOINT IMMINENT. SCHEDULE POLICY/CAREER RULING DAY 7+. NEXT CLAIMS: THU MAR 27.
+**Last Updated:** 2026-03-25 20:16 UTC | **Status:** 🔴🔴 CRITICAL — FL UI WAVE 1 EXHAUSTION FIRED (MAR 24). SHUTDOWN DAY 41 — MULLIN CONFIRMED DHS (54-45), DEAL DEAD. H-2A VISA BACKLOG "DISASTROUS" (JULY). ICE >1,100/DAY — COST-PUSH LABOR SHOCK LOADING. CROSS-SIGNAL → CARL FILED. CONVERGENCE 53/65.
+
+**Signal Mar 25 — EOD (20:16 UTC):**
+
+**🔴 META LAYOFFS EXECUTED:** Meta began cutting "several hundred" employees TODAY (Mar 25) across Reality Labs, Facebook, recruiting, sales, and global operations (Reuters/CNBC/TechCrunch). This is the FIRST TRANCHE of the ~15K/20% pipeline (Reuters reported senior execs directed to plan 20% cuts). TheStreet framing it as AI-displacement signal. Second Meta cut in 2026 (Jan: 10% of Reality Labs). Confirms Sector vector — tech layoffs accelerating, not stabilizing.
+
+**🔴🔴 TSA CRISIS ESCALATING — WORST WAIT TIMES IN HISTORY:** TSA chief testified at House Homeland Security hearing (3+ hours, Mar 25) that DHS shutdown has caused "worst airport waits in history." Business Insider: 10% TSA agent callout rate on several days last week. Airport lines stretching OUTSIDE buildings. Officials now advising arrive 4 hours early. This is a LABOR story — unpaid federal workers are quitting/calling out, degrading capacity. Attrition accelerating nonlinearly.
+
+**🔴 TSA-ICE NEXUS — NEW:** NYT (Mar 24): TSA tipped off ICE agents before arrests at San Francisco airport. A mother and 9-year-old detained and deported to Guatemala. TSA workers being used as immigration enforcement tools. This MERGES the shutdown labor crisis with ICE enforcement vector — remaining TSA workers are now dual-functioning as ICE tipsters, creating additional attrition pressure as some workers refuse participation. 220+ ICE detention sites nationwide (NPR/Houston Public Media).
+
+**🔴 SHUTDOWN — NO VOTE SCHEDULED:** Senate returned at noon ET today but NO vote on DHS funding on the calendar. Deal remains dead. Senators "racing to salvage a proposal" (AP) but no concrete path. Recess Mar 30 = 5 days away. 60+ day shutdown probability upgraded to ~99%.
+
+**Signal Mar 25 — PM Check-in (13:31 UTC):**
+
+**🔴 DHS/SHUTDOWN UPDATE:** Mullin confirmed as DHS Secretary (54-45, Mar 24). Shutdown continues Day 41. CNN: new bipartisan proposal floated but Trump said "Any deal they make, I'm pretty much not happy with it." **Politico Mar 24: latest proposal fell flat — Democrats, conservatives, AND Trump all raising doubts simultaneously.** Senate recess confirmed March 30 → **returns April 13** (14-day Easter recess). 24-hr Senate / 48-hr House recall window if deal during recess. **60+ day shutdown now ~98% probability.** Mullin says he'll end Noem "micromanaging" policy that caused funding delays — potential claims data improvement over 4-6 weeks, not immediately.
+
+**🔴🔴 H-2A VISA CRISIS — NEW:** Federal court in Fresno this week — Trump admin attorney conceded "there aren't enough Americans to take these jobs" while defending H-2A wage cut policy. UFW lawsuit challenging wage cuts. Separately: H-2A visa backlog with South African worker placements pushing appointments to JULY — NPGA called it "disastrous." Colorado orchard lost 40K lbs of fruit waiting for approvals. Agricultural labor supply crunch acute — compounding with ICE enforcement removing undocumented ag labor simultaneously.
+
+**🔴 ICE ENFORCEMENT:** Pace now >1,100 arrests/day nationally (NYT, Mar 20). Geographic hotspot data published. 363 pregnant/postpartum immigrants deported Jan 2025–Feb 2026. Hyundai plant GA raid (475 workers) created US-South Korea diplomatic friction. ICE expanding detention capacity (Leavenworth added). Enforcement accelerating into H-2A supply gap = structural ag/construction labor crunch.
+
+**⚠️ MEXICO FINABIEN:** Mexico launched FINABIEN platform (Mar 20) to lower remittance fees and improve exchange rates for Mexicans abroad sending money home. Signal: Mexico anticipating sustained remittance flow but tightening margins — possible forward indicator of labor displacement concern. No new volume data yet (Banxico reports with lag).
 
 **Signal Mar 25 — AM Check-in (8:00 AM ET):**
 
@@ -39,15 +59,17 @@
 | 2 | DOGE / federal workforce | **5** | 🔴🔴 | 327K cuts. Schedule Policy/Career effective Mar 6. | Federal conversion shows in clean claims |
 | 3 | Claims / shadow payroll gap | **4** | 🔴 | 213K suppressed (DHS). Shadow gap: WARN ↑ / claims flat. | Claims ≥235K on Mar 12 clean read → 5 |
 | 4 | Hormuz hiring freeze | **4** | 🔴 | Closed Mar 3. Structural uncertainty through H1. | Sustained >8 weeks + hiring plans deteriorate → 5 |
-| 5 | Sector cuts (tech/bio/media/fintech) | **4** | 🔴 | Hiring plans -56% YoY. Tech +51% Challenger. Biotech/media entering. | New >50K single-sector announcement → 5 |
-| 6 | Long-term unemployed / white-collar | **4** | 🔴 | **1.9M (+400K YoY)**. U-3 now 4.4%. College grad 36.6% — record. | U-3 ≥4.7% → 5 |
+| 5 | Sector cuts (tech/bio/media/fintech) | **5** ↑ | 🔴🔴 | Hiring plans -56% YoY. Tech +51% Challenger. Biotech/media entering. **Meta 15K pipeline EXECUTING — first tranche Mar 25 (hundreds across 5 divisions). 20% workforce cut = largest single-company pipeline since 2023.** | UPGRADED: Meta execution confirms pipeline not aspirational. |
+| 6 | Long-term unemployed / white-collar | **5** ↑ | 🔴🔴 | **1.9M (+400K YoY)**. Avg duration 25.7wk (4-yr high). Median 11.1wk. College grad 36.6% — record. K-shape locked in. | ↑ UPGRADED: duration surge = structural, not cyclical |
 | 7 | Temp employment | **4** | 🔴 | -12% YoY, re-accelerating. Counter: RHI/KFRC sequential+. | 2mo staffing recovery → 3. Temp ≥-15% → 5 |
 | 8 | Gig economy / UI exhaustion | **5** ↑ | 🔴🔴 | **FL Wave 1 FIRES TOMORROW Mar 24.** No block. Wave 2 Apr 26. | CONFIRMED — upgrade on fire. CC spike ~May. |
 | 9 | BLS data degradation | **4** ↑ | 🔴 | JOLTS Jan delayed. DHS suppression. **BLS language "changed little on net in 2025" = phantom job acknowledgment.** NFP -92K vs +130K prior = data volatility. | BLS staff cuts → 5 |
 | 10 | ISM employment | **3** | 🟠 | Mfg 48.8 (28mo <50). Services 51.8 (expansion). | Mfg <47 OR Services <50 → 4. Both <50 → 5 |
 | 11 | Staffing canaries (RHI/KFRC) | **2** | 🟡 | Sequential+ first time in 12Q. Counter-signal. | Q1 miss + sequential negative → 4. 2Q recovery → 1 |
+| 12 | **H-2A visa pipeline collapse** | **4** 🆕 | 🔴 | NPGA "disastrous" — South African placements pushed to JULY. UFW v. DOL (E.D. Cal, Fresno) — Trump admin conceded "not enough Americans to take these jobs." H-2A wage cut ruling pending. Colorado orchard lost 40K lbs waiting approvals. ICE removing undocumented ag/construction workers SIMULTANEOUSLY as legal H-2A pipeline blocked. Spring planting window NOW. | UFW injunction granted → 5. July backlog persists past Apr 15 → 5. ICE >1,500/day sustained → upgrade enforcement sub-vector. |
+| 13 | **ICE enforcement / ag-construction labor supply shock** | **4** 🆕 | 🔴 | >1,100 arrests/day nationally (NYT Mar 20). Hyundai GA plant raid (475 workers). Detention expanding (Leavenworth). Enforcement accelerating into H-2A gap. Ag/construction/food processing: structural labor removal. Cost-push inflation pipeline loading. Cross-signal → CARL filed. | ICE >1,500/day sustained 2+ weeks → 5. Food CPI confirming → 5. |
 
-**Total: 44/55** ↑ | 🔴🔴: 3 | 🔴: 6 | 🟠: 1 | 🟡: 1 | ⚪: 0 | **Overall: 🔴🔴 MAXIMUM CONVICTION DETERIORATION** — FL Wave 1 fires tomorrow. 3 vectors at max. Shadow gap confirmed. ICE construction raids = new supply shock overlaying demand deterioration.
+**Total: 54/65** ↑ | 🔴🔴: 5 | 🔴: 4 | 🟠: 1 | 🟡: 1 | ⚪: 0 | **Overall: 🔴🔴 MAXIMUM CONVICTION DETERIORATION** — FL Wave 1 fired Mar 24. 4 vectors at max. Duration surge structurally confirms Hotel California. K-shape locked in.
 
 ---
 
@@ -66,6 +88,7 @@
 | **U-3 Unemployment** | **4.4%** ↑ | 🔴 | [CONF] BLS Mar 6. Up from 4.3%. +0.4pp YoY. LAB-02 path active (4.7% trigger). |
 | U-6 Underemployment | 8.4% | 🟠 | [CONF] BLS Feb 7. +0.8pp YoY. Feb update pending. |
 | **Long-term Unemployed** | **1.9M** ↑ | 🔴 | [CONF] BLS Mar 6. +400K YoY. Up from 1.8M. Accelerating. |
+| **Avg Unemployment Duration** | **25.7 wks** ↑ 🆕 | 🔴🔴 | [CONF] Kobeissi/BLS Feb 2026. 4-yr high. +2wk in Feb alone. +6.3wk since Oct 2023 — fastest pace since 2020-21. Median 11.1wk (2nd highest since Dec 2021). Pattern = recession onset signal. |
 | **College Grad Unemployment** | **36.6%** of unemployed | 🟠 | [CONF] BLS Feb 7. Record. White-collar deterioration. |
 | **Part-time (Economic)** | **4.4M** ↓ | 🟡 | [CONF] BLS Mar 6. DOWN 477K. Ambiguous — workers may be exiting to unemployed, not finding FT. |
 | **Prime-Age Participation** | **83.9%** ↓ | 🔴 | [CONF] BLS Mar 6. Fell in Feb. Labor supply contracting. NEW — not in prior read. |
@@ -84,11 +107,14 @@
 | **Continuing Claims (threshold)** | **1,868K** | 🟠 | [CONF] BLS Mar 5 (DHS suppression). 32K from YELLOW (1,900K). First clean read tomorrow — risk of gap-through. |
 | Cass Freight Jan 2026 | Cycle low (Feb report pending) | 🟠 | [CONF] Cass Jan 2026 published. Feb 2026 report NOT YET PUBLISHED (checked Mar 15). |
 | **DHS Paycheck Miss** | **SECOND CONSECUTIVE** | 🔴 | [CONF] NPR/CNN/Daily Mail Mar 13-14. First FULL paycheck missed weekend Mar 13-14. "Hundreds quitting." Airport chaos confirmed. Cumulative spending shock ~$300-400M. Cross: CARL urgent. |
-| **Shutdown Duration** | **Day 39 (Mar 23)** | 🔴🔴 | [CONF] Mullin cloture 54-37 Mar 22. Final vote Mon/Tue. BUT funding still separate. Recess Mar 30 = 7 days. Approaching longest shutdown ever. DHS workers nearing 3rd missed paycheck. |
+| **Shutdown Duration** | **Day 41 (Mar 25)** | 🔴🔴 | [CONF] Mullin cloture 54-37 Mar 22. Final vote Mon/Tue. BUT funding still separate. Recess Mar 30 = 7 days. Approaching longest shutdown ever. DHS workers nearing 3rd missed paycheck. |
 | **JOLTS Quits Rate** | **2.0% (7 consecutive months)** | 🔴 | [CONF] BLS/Indeed Hiring Lab Mar 13. Quits 3.1M flat. Govt/financial/mfg below 1.5%. Hotel California structurally confirmed. |
 | **FL UI Wave 1 Block** | **NO BLOCK — FIRES TOMORROW** | 🔴🔴 | [CONF] Mar 15 research + Mar 23 recheck. HB 191 TIGHTENS UI. Wave 1 exhaustion Mar 24 = T-1. Vector 8 → 5. |
 | **Schedule Policy/Career Injunction** | **NO INJUNCTION** | 🔴 | [CONF] Mar 15 research. Oral arg on PI scheduled Mar 18. RIF cascade proceeding unblocked. |
 | **Shunto 2026 First Round** | **5.26% actual** | 🟡 | [CONF] Rengo Mar 23. Below 6.0% BOJ threshold. 3rd year >5%. No forced BOJ action. April hike still possible but data-dependent. |
+| **UFW v. DOL (H-2A Injunction)** | **Ruling pending** | 🔴 | [WATCH] E.D. Cal (Fresno). Hearing Mar 19. UFW challenging H-2A wage cuts. Trump admin conceded "not enough Americans to take these jobs." If injunction granted → H-2A expansion blocked during planting peak → ag labor crunch intensifies. Cross-signal: CARL (food price acceleration). **Apr 1 check. NPGA July backlog confirmed "disastrous."** |
+| **Banxico Remittances Jan 2026** | **YoY decline (first since 2015)** | 🔴 | [WATCH] Banxico data (lag). Jan 2026 remittances declined YoY — first January decline since 2015. Full year 2025: -4.6% (biggest annual drop since 2009). Next data point ~Apr 3-7 (Feb 2026). **Monitor monthly. Threshold: >5% YoY decline in Jan-Feb 2026 = upgrade shadow payroll gap confidence. Jan-Feb 2026 YoY data due ~May 2026.** Mexico launched FINABIEN platform (Mar 20) — anticipating sustained remittance flow but tightening margins. Forward indicator of labor displacement concern. |
+| **Mullin DHS Confirmation** | **CONFIRMED 54-45 (Mar 24)** | 🔴 | [CONF] Mullin confirmed as DHS Secretary Mar 24. States he will end Noem "micromanaging" policy that caused funding delays. **Claims data improvement possible Q2 (4-6 week lag). Shadow adjustment: +55K maintained through end of April. Flag: data quality improvement possible Q2 — watch May claims for first clean read under Mullin operations.** |
 | Google "Severance" | 100 | 🔴 | [CONF] Google Trends. ALL-TIME HIGH. |
 | Tech Insider Sell/Buy | 14.08x | 🔴 | [CONF] own analysis. vs 2.5x non-layoff peers. 3-6mo leading. |
 | **NFP Feb Consensus** | **+58-65K** | 🔴 | [EST] MarketPulse/OANDA Mar 5. Kiplinger: +35K. Apollo: 100-130K. Our model: 75-110K. Mar 6 8:30 ET. |
@@ -226,6 +252,26 @@
 
 ---
 
+## MONITORING CALENDAR
+
+| Date | Item | Threshold | Action |
+|------|------|-----------|--------|
+| **Mar 27** | Weekly initial claims | ≥235K (clean read) → shadow gap 5 | Next claims print under Mullin transition |
+| **Mar 31** | USDA Planting Intentions | Reduced corn/soy acreage → food CPI locked | Cross-signal CARL + HAWK |
+| **Apr 1** | UFW v. DOL check (E.D. Cal Fresno) | Injunction granted → H-2A vector → 5 | Ag labor crunch peak window |
+| **~Apr 3-7** | Banxico remittances Feb 2026 | >5% YoY decline | Upgrade shadow payroll gap confidence; confirm labor displacement |
+| **Apr 3** | NFP Mar 2026 | Healthcare strike reversal test | Watch net vs bounce |
+| **Apr 13+** | Senate returns from recess | Any shutdown deal | Data quality improvement timing reset |
+| **Apr 15** | H-2A July backlog — recheck | Still delayed → harvest season locked | Upgrade H-2A vector to 5 |
+| **Apr 26** | FL UI Wave 2 peak | CC DQ spike → May | Cross-signal CARL |
+| **~May 2026** | Banxico Jan-Feb 2026 YoY data | >5% YoY decline (Jan or Feb 2026) | Labor displacement confirmed; upgrade remittance signal |
+| **May–Jun 2026** | Claims post-Mullin transition | Sustained >220K on clean data | Shadow adjustment +55K → reassess if claims jump |
+| **Q2 (ongoing)** | Claims data quality | Mullin operations 4-6wk lag | First clean read expected ~May; flag if no improvement by Jun |
+
+**Shadow payroll adjustment:** +55K maintained through end of April. Mullin confirms policy that caused DHS suppression will end — data quality improvement expected Q2. Watch May prints for first clean read.
+
+---
+
 ## FRAMEWORKS & DOCS
 
 WARN→claims r=0.78 (τ=6wk) | Insider sell/buy 14x | Staffing bottoming (RHI/KFRC) | AI = IR cover (Wright)
@@ -233,10 +279,10 @@ Archives: `domain/sources/STATUS_archive_*` | `STAFFING_PRESIGNAL_DEEP_DIVE.md` 
 
 ---
 
-*Next triggers: **Mar 24: 🔴 FL UI exhaustion Wave 1 FIRES** | **Mar 24-25: Mullin DHS confirmation vote** | **Mar 23-28: Schedule Policy/Career ruling PENDING (Day 5+)** | **Mar 27: Weekly claims (week ended Mar 22)** | Mar 27: Rengo second-round tally | **Mar 28: Trump Iran strike pause expires (5 days from Mar 23)** | **Mar 30: Senate recess (shutdown auto-extends to 60+ IF no deal — 7 days)** | Apr 1: Tankan | **Apr 3: NFP Mar 2026 (healthcare strike reversal test)** | Apr: RHI/KFRC Q1 earnings | **Apr 26: FL Wave 2 peak** | Aug 2026: CA/NY UI exhaustion*
+*Next triggers: **Mar 24: 🔴 FL UI exhaustion Wave 1 FIRES** | **Mar 24-25: Mullin DHS confirmation vote** | **Mar 23-28: Schedule Policy/Career ruling PENDING (Day 5+)** | **Mar 27: Weekly claims (week ended Mar 22)** | Mar 27: Rengo second-round tally | **Mar 28: Trump Iran strike pause expires (5 days from Mar 23)** | **Mar 30: Senate recess (shutdown auto-extends to 60+ IF no deal — 7 days)** | Apr 1: Tankan | **Apr 1: UFW v. DOL injunction check (H-2A ruling pending since Mar 19 — injunction granted = food price acceleration → CARL)** | **Apr 3: NFP Mar 2026 (healthcare strike reversal test)** | **Apr 3-7: Banxico Feb 2026 remittances (~>5% YoY decline = upgrade shadow payroll gap confidence)** | Apr: RHI/KFRC Q1 earnings | **Apr 26: FL Wave 2 peak** | Aug 2026: CA/NY UI exhaustion*
 
 ---
 
 ## BOTTOM LINE
 
-**Three vectors now at maximum (5/5): WARN pipeline, DOGE, and FL UI exhaustion (fires tomorrow).** 44/55 total score. FL Wave 1 is the transmission trigger — 12-week benefit exhaustion for the WARN surge cohort with zero safety net. CC delinquency spike follows ~60 days (May). Meanwhile: shutdown Day 39 with recess in 7 days, ICE raids physically emptying construction sites (supply shock on top of demand shock), oil whipsawing $96-$114 with $4/gas breakpoint imminent, and Schedule Policy/Career ruling could drop any day (5 days post-argument). **This week's claims (Thu Mar 27) still DHS-suppressed — real signal won't emerge until shutdown resolves.** Key watch: does Mullin confirmation (Mon/Tue) create political cover for a funding deal before Mar 30 recess? If not, 60+ day shutdown locked in. **Healthcare strike reversal risk in Apr 3 NFP remains the thesis bounce risk — structural deterioration confirmed regardless.**
+**Four vectors at maximum (5/5): WARN pipeline, DOGE, FL UI exhaustion (fired Mar 24), Long-term Unemployed (upgraded Mar 25). Two new vectors added Mar 25: H-2A pipeline collapse (4) + ICE enforcement labor supply shock (4) — cost-push inflation pipeline loading.** 53/65 total score. Duration surge (25.7wk avg, +6.3wk since Oct 2023) is the structural confirmation: people who lose jobs CAN'T find new ones. Hotel California in the duration data — hires rate 3.3% cycle low. K-shape locked in as structural, not cyclical. **Mar 27 claims still DHS-suppressed (+55K shadow adjustment maintained through end of April) — Mullin confirmed 54-45 Mar 24, promises to end suppression policy; data quality improvement expected Q2, flag for May.** Continuing claims trendline (1.868M → 1.9M YELLOW) remains the real signal. **NEW RISK: ICE 1,100/day + H-2A July backlog = simultaneous removal of ag/construction/food processing labor supply as spring planting begins. Cost-push food CPI locked in Q2-Q3. Cross-signal filed to CARL.** CC delinquency spike follows FL Wave 1 exhaustion ~May. Shutdown Day 41, recess Mar 30 = 60+ days locked. Healthcare strike reversal risk Apr 3 NFP bounce. Banxico remittance data (>5% YoY decline) = shadow labor gap confirmation — monitor monthly, threshold data due ~May.

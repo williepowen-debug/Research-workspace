@@ -1,5 +1,5 @@
 # REGINALD STATUS
-**Last Updated:** 2026-03-25 04:00 UTC | **Status:** 🔴🔴🔴 CRITICAL
+**Last Updated:** 2026-03-25 20:15 UTC | **Status:** 🔴🔴🔴 CRITICAL
 
 ---
 
@@ -24,10 +24,10 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 
 | Indicator | Value | Status |
 |-----------|-------|--------|
-| HY OAS | **320-328bps** (Mar 17-20) | 🔴 BREACHED >320 |
-| KRE | **~$63** (Mar 20) | 🔴 $60 support next |
-| Brent | **$107+** | 🔴🔴 |
-| 10Y UST | **<4.0%** (flight-to-safety) | 🟠 Credit stress, not rate relief |
+| HY OAS | **319bps** (Mar 25) | 🔴 Still >300, slight compression |
+| KRE | **~$60** (Mar 25, near support) | 🔴🔴 Testing critical $60 |
+| Brent | **~$120** (mid-March spike) | 🔴🔴 |
+| 10Y UST | **4.44%** (mid-March high) | 🔴 Yields surging, no relief |
 | Office CMBS DQ | 12.34% ATH | 🔴 |
 | Bank CRE DQ gap | 4.18% vs CMBS 12.34% = 8.16pp masking | 🔴 |
 | FHLB Advances | ~$480B (issuance +31% YoY) | 🟠 Contingency behavior |
@@ -59,6 +59,8 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 
 **Three vectors:** V1 Hidden CRE (MI3) | V2 Jefferies double-pledging / fraud pattern | V3 SSFA capital arbitrage
 
+**⚡ Jefferies Q1 delivered Mar 25.** EPS missed 23% ($0.70 vs $0.91). $17M First Brands/MFS losses confirmed. TBVPS -15.7% YoY. WAL fraud transmission chain now has P&L confirmation. 27 days to WAL earnings.
+
 ---
 
 ## CONVERGENCE MATRIX — Targets & Positions
@@ -83,7 +85,7 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 
 | Date | Event |
 |------|-------|
-| **Mar 25** | **Jefferies fiscal Q1 after close** — credit provisions, WAL chain. SMFG full takeover team assembled (FT). |
+| **Mar 25** | **Jefferies fiscal Q1 after close** — REPORTING TONIGHT. JEF -2% into print, -36% YTD. SMFG takeover walked back (Bloomberg: no immediate plans). Consensus $0.89 EPS / $1.98B rev. MFS £103M + First Brands exposure key focus. |
 | Mar 26 | ARESSI — private credit catalyst (BROCK) |
 | Mar 27 | OBDCII — private credit catalyst (BROCK) |
 | Mar 27 | USO $118C expiry |

@@ -1,6 +1,84 @@
 # ZHAO STATUS
-**Updated:** 2026-03-23 13:45 UTC (Mar 23: Daily check-in + Ghalibaf UST threat assessment)
-**Overall Status:** 🔴🔴🔴 EMERGENCY ESCALATION — Gulf Recycling Loop Broken / Yuan-for-Hormuz / Ghalibaf UST Buyer Threat / FOMC Trapped
+**Updated:** 2026-03-25 13:45 UTC (Mar 25: Daily check-in + HIBOR spike + Japan FY-end confirmed + de-dollarization)
+**Overall Status:** 🔴🔴🔴 EMERGENCY ESCALATION — Gulf Recycling Loop Broken / Yuan-for-Hormuz / Ghalibaf UST Buyer Threat / FOMC Trapped / HIBOR approaching threshold
+
+---
+
+## 📌 MAR 25 DAILY CHECK-IN
+
+### Inbox Processed (3 files → moved to processed/)
+1. `dedollarization_mar25.md` — De-dollarization acceleration + Treasury insolvency framing
+2. `japan_repatriation_mar25.md` — Japan FY-end repatriation quantified (SAM research)
+3. `signal_ghalibaf_ust_blackrock_mar23.md` — Ghalibaf + BlackRock rotation claim (partially processed Mar 23)
+
+### 1. TIC Data (Belgium/China)
+**No new data.** Jan 2026 TIC remains latest. Next release: **Apr 15, 2026** (Feb 2026 data). Current: Belgium $451.0B (🟡), China $694.4B (🟠). No threshold changes.
+
+**Custodial bias note (from Japan inbox):** SAM/Brad Setser (CFR) confirm Belgium/Luxembourg/UK TIC figures contain hidden Japanese AND Chinese selling via Euroclear custodial routing. True foreign selling > headline TIC figures for BOTH Japan and China. Strengthens the demand hole undercount thesis even while ZHA-03 Belgium headline misses.
+
+### 2. HK Peg Stress Signals — ⚠️ HIBOR SPIKE — APPROACHING THRESHOLD
+**HKMA live data as of 18:30 HKT Mar 25 (just published):**
+- Closing Aggregate Balance: **HK$53,773M** (essentially flat from 53,770M Mar 23) 🟢
+- Forecast: 53,773M through Mar 30, then 53,311M after EFBN — well above $45B threshold 🟢
+- **1-mo HIBOR fixing: 2.12548%** ⚠️ UP sharply from 1.95107% on Mar 23 (+17bps in 2 days)
+- Overnight HIBOR: **1.83%** UP from 1.14% on Mar 23 (+69bps)
+- HIBOR-SOFR spread (1-mo): SOFR ~4.30% → **~-205bps** (was -235bps on Mar 23) — narrowed 30bps
+
+**⚠️ HIBOR narrowing is notable.** The HIBOR-SOFR threshold for 🟠 upgrade is >-200bps. We are NOW AT -205BPS — 5bps from trigger. The rapid move (30bps in 2 days) warrants monitoring. AB is stable so this is liquidity/rate signal, not peg defense signal. Possible drivers: quarter-end HKD funding pressure (Mar 31 approaching), regional capital flow tightening. **Not yet actionable but watch daily through Mar 31.**
+
+**Status: 🟢→🟡 CAUTION. AB still fine. HIBOR approaching threshold. Upgrade to 🟠 if spread crosses -200bps.**
+
+### 3. LGFV/Property News
+**No new defaults or acute triggers overnight.** Atlantic Council piece (Feb 13) confirms ongoing information suppression — Beijing blocking release of sales data. No LGFV default headlines Mar 24-25. Structural risk unchanged: 🟠 UNCHANGED.
+
+### 4. Threshold Status
+| Threshold | Current | Distance | Status |
+|-----------|---------|----------|--------|
+| Belgium >$500B | $451.0B | $49B away | 🟡 Safe |
+| China <$650B | $694.4B | $44.4B buffer | 🟠 Watch |
+| HK AB <$45B | HK$53,773M | HK$8,773M buffer | 🟢 Safe |
+| HIBOR-SOFR >-200bps | **-205bps** | **5bps from trigger** | ⚠️ APPROACHING |
+| Saudi <$120B | $134.8B | $14.8B buffer | 🟠 APPROACHING |
+
+### 5. Japan FY-End Repatriation — Confirmed (from SAM via inbox)
+SAM quantified the Japan FY-end selling (full research: `AGENTS/SAM/research/JAPAN_FYEND_REPATRIATION.md`):
+- Life insurer FY Q4 (Jan-Mar 2026): ¥5-7T ($32-45B) net foreign bond sales
+- UST-specific: **~$13-22B net reduction this quarter** — CONFIRMED, not estimated
+- Structural swing: Japan going from +$30-80B/yr UST buyer → neutral/seller = **$50-120B/yr swing**
+- Feb data: ¥3.42T selling, 7/10 life insurers reducing foreign holdings
+- Japan still largest foreign UST holder at $1.19T (ahead of China ~$800B)
+
+**Implication for demand hole:** Japan's $13-22B/quarter = ~$4-7B/month in confirmed structural UST selling from life insurers alone. Combined with oscillation dynamic (Phase 2 risk-off buying can temporarily offset), the net Japan contribution is:
+- **Structural baseline: -$4-7B/mo (confirmed selling from life insurers)**
+- **Phase 2 overlay: +$20-40B/mo during acute risk-off (offsetting)**
+- **Net: oscillating but with confirmed structural drain underneath**
+
+The STATUS.md Japan anchor characterization (±$20-40B/mo oscillating) remains correct but the structural sellng floor is now quantified. **No revision needed to combined $70-135B/mo range — Japan component already embedded.**
+
+### 6. De-dollarization Acceleration (from inbox)
+Key data points for the demand hole model:
+- Dollar share of global reserves: **56.9%** (down from 72% in 2000)
+- Intra-BRICS trade: $500B, >50% settled in local currencies
+- Hormuz yuan toll booth: IRGC accepting yuan for tanker transit (operational, not theoretical)
+- US Treasury net position: **-$41.72T** ($6.06T assets vs $47.78T liabilities) — Hanke/Walker (Fortune, Mar 23): "insolvent under any standard accounting framework"
+
+**Impact assessment:** These data points strengthen the structural de-dollarization narrative but don't change the near-term demand hole math materially. The yuan settlement channel is new since last estimate. Modest upward revision warranted on upper bound of lost recycling inflows.
+
+**Revised combined demand hole (incorporating inbox data):** 
+- Active selling: $70-135B/mo (unchanged)
+- Lost recycling inflows (yuan settlement): $5-15B/mo → **$8-18B/mo** (raised upper bound given Hormuz operational + dollar share at 56.9%)
+- **Combined upper bound revised to ~$153B/mo from ~$150B/mo** — directionally significant but not order-of-magnitude change
+
+### [PROPOSALS — Mar 25]
+
+**[PROPOSAL A] BlackRock 13F Verification (Pending)**
+Inbox `signal_ghalibaf_ust_blackrock_mar23.md` flags Felix Prehn claim that BlackRock selling USTs for 3rd consecutive quarter, rotating into commodities. **Caveat: FinTwit influencer.** Action needed: verify against BlackRock's actual 13F filings or quarterly reports. Can SAM or HENRY pull this? If confirmed, adds voluntary institutional demand destruction on top of involuntary sovereign selling. → **Route to Will for research tasking approval.**
+
+**[PROPOSAL B] HIBOR Daily Monitoring Through Mar 31**
+HIBOR-SOFR at -205bps, 5bps from 🟠 threshold. Quarter-end (Mar 31) is a known liquidity pressure point. Recommend: ZHAO checks HKMA daily page each morning through Mar 31. If spread crosses -200bps, escalate to 🟠 and flag to NEXUS for convergence reassessment (HK peg Vector #7 upgrades from 🟡2 to 🟠3). → **No approval needed, internal monitoring.**
+
+**[PROPOSAL C] Custodial Bias Adjustment — Belgium Tracking**
+SAM confirmed TIC custodial bias: Belgium figures contain hidden Japanese AND Chinese selling via Euroclear. This means even at $451B (below $500B threshold), the beneficial ownership question remains live. Suggest: add footnote to Belgium tracking that "true beneficial-owner selling through Belgium-custodied accounts likely $25-50B higher than headline." ZHA-03 headline confidence stays at 45% but the STRUCTURAL argument for Euroclear as a hidden demand-hole amplifier is reinforced, not weakened. → **No approval needed, internal framework update.**
 
 ---
 
@@ -194,8 +272,8 @@ The yuan-for-Hormuz play adds a NEW dimension to the UST demand hole that LIQUID
 | Metric | Value | Threshold | Status | Source |
 |--------|-------|-----------|--------|--------|
 | USD/CNY | **6.90** | >7.30 = 🟠, >7.40 = 🔴 | 🟡 WATCHING | [CONF] PBOC fix 6.8961 Mar 17 (down from 6.9057) — deliberate appreciation signal. Market ~6.94. 7.30 pushed out 8-12 weeks. |
-| HK Aggregate Balance | **HK$53.8B** | <$45B = 🟡, <$40B = 🟠 | 🟢 GREEN | [CONF] HKMA Mar 23 (53,770M closing; forecast stable through Mar 26) |
-| HIBOR-SOFR Spread | **~-235bps** | >-200bps = 🟠, >-300bps = 🔴 | 🟡 IMPROVED | [CONF] HKAB 1-mo HIBOR 1.951% Mar 23; SOFR ~4.30%. Widened from -222bps — moved AWAY from upgrade trigger. |
+| HK Aggregate Balance | **HK$53,773M** | <$45B = 🟡, <$40B = 🟠 | 🟢 GREEN | [CONF] HKMA Mar 25 (53,773M closing; forecast stable through Mar 30, 53,311M after EFBN — well above threshold) |
+| HIBOR-SOFR Spread | **~-205bps** ⚠️ | >-200bps = 🟠, >-300bps = 🔴 | ⚠️ APPROACHING 🟠 | [CONF] HKAB 1-mo HIBOR 2.12548% Mar 25 (was 1.951% Mar 23, +17bps). Overnight HIBOR 1.83% (was 1.14%). Spread narrowed 30bps in 2 days. 5bps from 🟠 threshold. Quarter-end pressure possible. |
 | USD/KRW | **1,501** | >1,500 = BoK UST selling | 🔴 ACTIVE | [CONF] TradingEconomics Mar 13 — stable at threshold. Japan+Korea joint FX statement Mar 14 confirms dual pressure. |
 
 ### Domestic Stress
@@ -220,7 +298,7 @@ The yuan-for-Hormuz play adds a NEW dimension to the UST demand hole that LIQUID
 | 4 | LGFV/Banking Transmission | 🟠 3 | Guizhou 11.6% NPL near RED. Feb $456B crunch proved pattern. | Another liquidity crunch or NPL >12% = 4 |
 | 5 | Property Zombification | 🟠 3 | Decade deleveraging. Vanke SOE rescue. Land revenue halved. | Vanke default or Tier 1 contagion = 4 |
 | 6 | PBOC Defensive Wall | 🟠 3 | **Gold 16mo streak** (updated Mar 15 — Bloomberg Mar 7: +30K troy oz to 74.22M troy oz = 2,308 tonnes). Crypto ban. CIPS +43%. Building redundancy. | Capital controls tightened = 4 |
-| 7 | HK Peg Channel | 🟡 2 | AB $53,854M stable Mar 12 (flat from $53,874 Mar 11). HIBOR-SOFR ~-227bps (1-mo HIBOR 2.029%). No change. Weekly monitoring. Gulf escalation (Citi DIFC evac, downtown Dubai explosions) raises capital flight tail risk through HK — still low prob but watch. | AB <$45B or HIBOR-SOFR >-300bps = 3 |
+| 7 | HK Peg Channel | 🟡 2 ⚠️ | AB $53,773M stable Mar 25. **HIBOR-SOFR ~-205bps** (1-mo HIBOR 2.12548% — UP 17bps from Mar 23). Overnight HIBOR surged to 1.83% from 1.14%. Spread narrowed 30bps in 2 days; 5bps from 🟠 trigger. Quarter-end (Mar 31) pressure suspected. Gulf capital flight tail risk through HK persists. **Daily monitoring through Mar 31 — single data point from crossing triggers upgrade to 🟠3.** | AB <$45B OR HIBOR-SOFR >-200bps = 3 |
 | 8 | LNG/Energy Shock | 🔴🔴 5 | **UPGRADED Mar 18. Ras Laffan struck — "extensive damage" confirmed by QatarEnergy. World's largest LNG export terminal burning.** Taiwan LNG buffer collapses from days to hours. Japan (JERA), Korea (KOGAS — ~40% of LNG from Qatar), Europe all in supply crisis. China modestly insulated (COSCO/PICC alternative routing) but not immune. MAXIMUM SCORE REACHED. | Already maxed |
 | 9 | USD/CNY Defense | 🟡 2 | ~6.90. PBOC fix 6.8961 Mar 17 = active appreciation signal. 7.30 pushed to 8-12 weeks. | USD reversal + DXY >103 = 3 |
 | 10 | Gulf Recycling Collapse | 🔴🔴 5+ | **ZHA-08 FIRED Mar 11. ESCALATED Mar 18. NEW VECTOR Mar 22.** Three mechanisms now active: (1) Revenue collapse (Ras Laffan), (2) Emergency UST liquidation (QIA/PIF), (3) **Yuan settlement diversion — Iran offering Hormuz transit only for yuan-denominated cargo (Chosun/CNN Mar 17-18). Chinese ships already transiting.** Petrodollar loop attacked from BOTH ends: existing holdings being sold AND future inflows being diverted away from USD. $75-120B/qtr forced selling + $5-15B/mo lost inflows from yuan settlement channel. | Already maxed + new vector |

@@ -1,10 +1,51 @@
 # SAM STATUS
 
-**Signal Status:** 🔴🔴🔴 CRITICAL — **TRUMP ULTIMATUM + SHUNTO CONFIRMED + JGB NEW HIGH + BOJ LANGUAGE SHIFT** | USD/JPY **~159.5** (intervention line 160 holding) | JGB 10Y **2.315%** (new high since Jan 21) | Nikkei **51,515** (-3.5% close) | Topix **3,486** (-3.4%) | Shunto first tally **5.26%** | Dubai crude surging | CARRY UNWIND 7D: **85%** | FY-END T-6 DAYS | **Last Updated:** 2026-03-25 (SAM subagent — repatriation research complete)
+**Signal Status:** 🟠🟠🔴 HIGH — **CEASEFIRE HOPES EASE OIL + NIKKEI RALLIES + JGB PULLS BACK — but structural thesis intact** | USD/JPY **~159.26** (intervention line 160 still close) | JGB 10Y **2.25%** (-6.5bps relief pullback) | Nikkei **53,750** (+2.87% rally) | Topix **3,651** (+2.57%) | Shunto 5.26% confirmed | Oil declining on Iran talks | CARRY UNWIND 7D: **75%** (reduced — ceasefire optionality) | FY-END T-6 DAYS | **Last Updated:** 2026-03-25 EOD (SAM subagent)
 
 ---
 
-## 🔬 MAR 25 — REPATRIATION MECHANICS RESEARCH (NEW)
+## 🌅 MAR 25 EOD — CEASEFIRE RELIEF SESSION (NEW)
+
+### MARKET DATA — MAR 25 CLOSE
+- Nikkei 225: **53,750** (+2.87%) — 2nd straight gain, back above GPIF 52,000 trigger
+- Topix: **3,651** (+2.57%)
+- JGB 10Y: **2.25%** (-6.5bps from 2.315% high, -2bps on session)
+- USD/JPY: **~159.26** (slight easing, +0.35% vs prior session per TE)
+
+### WHAT HAPPENED
+- **US pursuing Iran ceasefire talks** — Israeli media: Washington seeking 1-month ceasefire. NYT: US sent Iran 15-point proposal. Tehran DENIED any negotiations.
+- **Oil declined** on ceasefire hopes → relief for import-dependent Japan → Nikkei rallied, JGB yields pulled back
+- **Japan core CPI Feb: 1.6%** — slowest since Mar 2022 (gov measures easing costs). Complicates BOJ hike narrative slightly.
+- **Tech/AI stocks led** — Kioxia +6.4%, Fujikura +7.2%, SoftBank +7.9%, Advantest +4.8%, Tokyo Electron +3.1%
+
+### DELTAS vs PRIOR STATUS (Mar 23)
+| Metric | Mar 23 | Mar 25 | Change |
+|--------|--------|--------|--------|
+| Nikkei | 51,515 | 53,750 | **+4.3%** (2-day rally) |
+| JGB 10Y | 2.315% | 2.25% | **-6.5bps** (relief) |
+| USD/JPY | ~159.5 | ~159.26 | **Roughly flat** |
+| GPIF trigger | BREACHED | **UN-BREACHED** | Nikkei back >52k |
+| Oil narrative | Surging/crisis | Declining on ceasefire | **SHIFTED** |
+| Carry 7D prob | 85% | **75%** | Ceasefire optionality reduces near-term |
+
+### ASSESSMENT
+- This is a **RELIEF SESSION, not a reversal.** Tehran denied negotiations. Ceasefire is a HOPE, not a fact.
+- JGB 10Y pullback from 2.315→2.25% is technically significant but doesn't change structural trend (still +10bps/month).
+- GPIF trigger un-breaching is GOOD — removes one mechanical sell pressure. But fragile if ceasefire talks collapse.
+- Core CPI at 1.6% is interesting — if sustained, weakens BOJ urgency. But one month ≠ trend, and oil was the main driver.
+- USD/JPY barely moved despite oil decline and equity rally — suggests structural yen weakness (oil import flow) is deeply embedded. **This supports our thesis that FXY needs BOJ hike, not just oil relief.**
+- FY-end repatriation mechanics unchanged — T-6 days, life insurers still in settlement window.
+
+### CARRY UNWIND PROBABILITY REVISION
+| Timeframe | Mar 23 | Mar 25 | Driver |
+|-----------|--------|--------|--------|
+| **7d** | 85% | **75%** | Ceasefire talks add optionality; oil easing removes acute trigger |
+| **30d** | 96% | **92%** | Structural drivers intact but near-term pressure eased |
+| **60d** | 96% | **94%** | BOJ May 1 still expected; shunto confirmed; JGB trend intact |
+
+---
+
+## 🔬 MAR 25 — REPATRIATION MECHANICS RESEARCH
 
 ### KEY FINDINGS — JAPAN FY-END REPATRIATION
 *Full research: `research/JAPAN_FYEND_REPATRIATION.md` | Brief: `outbox/repatriation_brief.md`*
@@ -122,12 +163,13 @@
 
 | Level | Significance | Status |
 |-------|-------------|--------|
-| **USD/JPY 160.00** | Katayama intervention line | 🔴 **63 PIPS AWAY** |
+| **USD/JPY 160.00** | 🔴 **INTERVENTION WATCH TRIGGER** — MOF actual FX action risk | 🔴 **63 PIPS AWAY** |
 | **USD/JPY 157.00** | Hawkish confirmation level | PASSED (now above) |
 | **USD/JPY 155.00** | Phase 2 carry unwind onset | SET |
 | **Dubai crude $170** | Japan energy crisis deepens | 🔴 APPROACHING |
-| **JGB 10Y 2.50%** | BOJ QT pressure threshold | 🟠 WATCH (2.315%) |
-| **Nikkei 52,000** | GPIF trigger | 🔴 **BREACHED** (51,515) |
+| **JGB 10Y 2.40%** | 🟠 **STRESS CROSSOVER SIGNAL** — fiscal + carry unwind risk | 🟠 WATCH (2.25%, pulled back from 2.315%) |
+| **JGB 10Y 2.50%** | BOJ QT pressure threshold | 🟠 WATCH (2.25%) |
+| **Nikkei 52,000** | GPIF trigger | 🟢 **UN-BREACHED** (53,750 — back above) |
 
 ---
 

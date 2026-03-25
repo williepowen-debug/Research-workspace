@@ -1,5 +1,86 @@
 # LIQUID STATUS
-**Last Updated:** 2026-03-23 13:37 UTC | **Agent:** LIQUID | **Status:** 🔴🔴🔴 MAXIMUM STRESS — HORMUZ BLOCKADE + GLOBAL YIELD REVERSAL + STEALTH LIQUIDITY INJECTION + CONSUMER CREDIT CRACKING
+**Last Updated:** 2026-03-25 17:50 UTC | **Agent:** LIQUID | **Status:** 🔴🔴🔴 MAXIMUM STRESS — HORMUZ BLOCKADE + CDX 9-MONTH HIGH + PRIVATE CREDIT GATING + QUARTER-END MAR 31 IMMINENT
+
+---
+
+## Mar 25 Mid-Week Refresh (TODAY — 48h update)
+
+### Credit Spreads — Live (FRED, as of Mar 24 close)
+
+| Spread | Mar 24 | Mar 20 | Change | Threshold | Status |
+|--------|--------|--------|--------|-----------|--------|
+| **HY OAS** (BAMLH0A0HYM2) | **319bps** | 324bps | -5bps | 320 trigger / 350 freeze | 🟠 1bp BELOW trigger — NOT clear |
+| **IG OAS** (BAMLC0A0CM) | **87bps** | 90bps | -3bps | — | 🟡 slight tightening |
+| **BB OAS** (BAMLH0A1HYBB) | **196bps** | 200bps | -4bps | — | 🟡 |
+| **CCC OAS** (BAMLH0A3HYC) | **977bps** | 979bps | -2bps | 1000bps | 🟠 23bps below 1000 threshold |
+
+**HY OAS narrative:** Spiked 328bps mid-March (Mar 13), pulled back to 319 by Mar 24. Currently sitting 1bp below LIQ-01 trigger of 320. This is NOT a clean deactivation — it's a surface calm with 350 freeze threshold 31bps away. CDX (CDS index) simultaneously at 9-month high per Sentiment Trader / RIA analysis (Mar 21). Divergence between cash HY index (slightly improved) and CDX (new 9-month high) signals derivatives market pricing MORE stress than cash market — watch which converges.
+
+**LCDX:** No public real-time data accessible. CDX.NA.HY proxy shows 9-month high. LCDX (leveraged loan CDS index) directionally similar per private credit deterioration signals below.
+
+### RRP / Plumbing (FRED RRPONTSYD)
+
+| Date | RRP Balance |
+|------|-------------|
+| Mar 19 | $0.637B |
+| Mar 20 | $0.822B |
+| Mar 23 | $0.857B |
+| **Mar 24** | **$1.123B** |
+
+**Read:** RRP essentially ZERO. Marginal uptick Mar 24 ($1.1B) vs $0.28B (Mar 10) reflects normal intraday noise — not a trend reversal. The buffer is gone. Quarter-end (Mar 31) with zero RRP = no shock absorber. In the week before quarter-end, money market funds and banks pull back repo, SOFR can spike 5-15bps above IORB. Watch SOFR daily this week.
+
+**SOFR:** 3.63% (Mar 24) — up 1bp from prior week's 3.62%. Not spiking yet but it's only Wednesday. IORB = 3.75%. SOFR-IORB spread: -12bps (normal/loose). Flag at SOFR > 3.70 = funding tightness emerging.
+
+### Fed Balance Sheet / Reserves (FRED WALCL / WRESBAL)
+
+| Date | Fed BS (WALCL) | Reserves (WRESBAL) |
+|------|---------------|---------------------|
+| Feb 4 | $6.563T | ~$2.950T |
+| Mar 4 | $6.629T | $3.016T |
+| Mar 11 | $6.646T | $3.038T |
+| **Mar 18** | **$6.656T** | **$3.020T** |
+
+**Key fact (CONFIRMED):** Fed halted Treasury QT effective **December 1, 2025**. MBS runoff continues at $35B/month but Treasury rolloff stopped. Treasury holdings (TREAST): $4.266T (Jan 28) → $4.359T (Mar 18) = **+$93B in 7 weeks**. This is reinvestment of maturing coupons into T-bills — not "new" QE but balance sheet is growing, not shrinking.
+
+**Reserves:** $3.020T (Mar 18) — down $17.7B from prior week but still $300B above the $2.7T danger floor. Safe zone intact but direction matters — watching for sustained draws below $2.85T.
+
+**Structural note:** Fed ended Treasury QT proactively after "mild stress" in money markets (per Banking Exchange analysis). Confirms their model: if reserves approach $2.7-2.5T, intervention triggers. Current $3.0T = ~$300-500B cushion.
+
+### T-Bill Issuance Pace
+
+Fed TREAST growing at ~$13B/week reinvestment pace. Treasury gross T-bill issuance remains elevated but no dramatic acceleration noted this week. Key: with RRP near zero, T-bill buyers are bank reserve accounts and MMFs directly — any supply surge hits reserve drain harder than when RRP buffer existed.
+
+### Quarter-End Mar 31 — Plumbing Assessment
+
+**Stress setup:**
+1. **RRP = ~$1B** (effectively zero). No buffer. MMFs cannot park cash at Fed in volume.
+2. **20Y settlement Mar 31** — $17B+ hitting dealer books on the exact quarter-end date.
+3. **Window dressing** — banks shrink repo books Mon-Wed (Mar 25-26), typically causes repo rate spikes Wed-Thu. Normalized by Fri.
+4. **Institutional flows** — pension rebalancing after Q1's equity selloff (4 consecutive weekly losses, SPX at 6,506). Bond funds likely receiving inflows. But dealers constrained.
+5. **Reserves $3.0T** — above danger floor. SRF (Standing Repo Facility) backstop available but stigmatized.
+
+**Base case:** SOFR spikes 3-8bps Thursday-Friday (Mar 27-28) as repo books shrink. Normalizes Apr 1. No crisis.
+**Tail risk:** If SOFR spikes >15bps AND RRP stays zero AND Brent re-accelerates above $110 on Iraq force majeure → quarter-end becomes a genuine liquidity test. Iraq declared force majeure on ALL foreign-operated oil fields Friday Mar 21 — escalation. Brent closed above $108.
+
+### Iraq Force Majeure (NEW since Mar 23 — Mar 21 close)
+
+Iraq declared force majeure on all foreign-operated oil fields Friday Mar 21. This extends the supply shock beyond Iran/Hormuz to Iraqi production (~4.5 mbpd at risk). Brent > $108. This was NOT in last STATUS. Materially widens the energy shock scenario.
+
+### Private Credit Deterioration (Escalated since Mar 23)
+
+Blackstone, Blue Owl, and BlackRock all reporting redemption requests near/at the 5% gate threshold. JPMorgan's Bill Eigen: "bad news often happens all at once in private markets." BCRED Q2 structural test thesis confirmed by this trajectory. Opacity + leverage now visible.
+
+### Market Context (Week of Mar 17-21, from RIA Mar 21)
+
+- **S&P 500 close (Mar 21):** 6,506 (-1.5% Friday), 4th consecutive weekly loss, 7.1% below Jan ATH of 7,002
+- **200-DMA** (~6,620) broken, failed 4 subsequent recovery attempts
+- **CDX at 9-month high** while SPX within 5% of ATH = classic bear market signal (100% track record over 20 years per Sentiment Trader)
+- **Macquarie:** Expects Fed's next move is a HIKE, not a cut, pushed to 1H27
+- **HSBC:** Markets "pricing a recessionary outcome"
+- **UMich Consumer Sentiment prelim:** 55.5 — near post-pandemic lows
+- **VIX:** Not specified for Mar 21, but elevated week context
+
+---
 
 ---
 
@@ -91,16 +172,17 @@
 
 | Threshold | Level | Current | Status |
 |-----------|-------|---------|--------|
-| LIQ-01 (HY OAS) | 320bps | **328bps** (Mar 20) | 🔴🔴 TRIGGERED +8bps — stable but not improving |
-| LIQ-01 next target | 350bps | 328bps | 🔴 22bps away — no backstop |
-| CCC OAS | 1000bps | 969bps [Mar 9] + rising | 🟠 Likely through 1000 |
-| VIX spring release | 35+ | 25.09 (Mar 19) → likely higher Mar 20 | 🟠 Coiled — quadruple witching + Hormuz |
-| RRP buffer | >$5B | $0.278B [Mar 10 — STALE] | 🔴 GONE — quarter-end Mar 31 critical |
-| Brent danger | $110 | $108.60 (Mar 20) | 🟠 Below $110 but structural — IEA/SPR only buffer |
-| 10Y yield danger | >5.0% | **~4.12-4.23%** (Mar 20 EST) | 🟡 Rally counterintuitive — stagflation trap |
-| FOMC cut probability | <50% confirms hold | **86.4% CUT** priced | 🔴 Market demanding pivot Fed can't deliver |
-| 20Y BTC danger | <2.0x | **2.76x** (Mar 17) | ✅ CLEARED — solid demand, but 4.7bps tail |
-| Reserve floor | $2.8T | $2.9T | 🟡 $100B cushion |
+| LIQ-01 (HY OAS) | 320bps | **319bps** (Mar 24) | 🟠 1bp BELOW trigger — marginal; CDX says more stress |
+| LIQ-01 next target | 350bps | 319bps | 🔴 31bps away — no backstop |
+| CCC OAS | 1000bps | **977bps** (Mar 24) | 🟠 23bps from threshold — elevated |
+| CDX (9-mo high signal) | 9-month high | 🔴 TRIGGERED (Mar 21) | 🔴🔴 100% bear market signal track record |
+| VIX spring release | 35+ | Not refreshed Mar 24-25 | 🟠 Coiled — S&P at 200-DMA break |
+| RRP buffer | >$5B | **$1.123B** (Mar 24) | 🔴 EFFECTIVELY ZERO — quarter-end Mar 31 in 6 days |
+| Brent danger | $110 | >$108 (Mar 21) | 🟠 Iraq force majeure adding new supply risk |
+| 10Y yield danger | >5.0% | ~4.38% (Mar 21 last confirmed) | 🟡 Stagflation trap intact |
+| FOMC cut probability | <50% confirms hold | Macquarie: next move is HIKE 1H27 | 🔴 No pivot available |
+| 20Y BTC danger | <2.0x | 2.76x (Mar 17) | ✅ Last auction solid |
+| Reserve floor | $2.7T | **$3.020T** (Mar 18) | 🟡 $320B cushion — adequate for now |
 
 ---
 

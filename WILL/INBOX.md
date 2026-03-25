@@ -139,6 +139,17 @@ APO disclosed their own $15.1B Debt Solutions fund gating (11.2% redemptions vs 
 No threshold breaches. Key: Ghalibaf declared UST holders "legitimate military targets" (Mar 22). Additive to demand hole (upper bound +$5B/mo → $70-135B/mo combined), not transformative. HK peg stable (HIBOR-SOFR improved). LGFV no change. Next catalyst: Apr 15 TIC (Feb data). **Proposal:** Log Ghalibaf statement to KB (Group=UST_FOREIGN, Conf=B2).
 
 
+## 🔴 LIQUID — Mar 25 | HY OAS Deactivation is Head-Fake + Quarter-End Plumbing Stress + Iraq FM
+**Delivered:** 2026-03-25 22:00 UTC (HERMES PM)
+**Priority:** HIGH
+
+HY OAS at 319bps (1bp below trigger) but CDX at 9-month high — derivatives pricing more risk than cash. Do NOT call LIQ-01 deactivated. Quarter-end Mar 31 in 6 days: zero RRP buffer + 20Y settlement = SOFR spike risk Thu-Fri (base 3-8bps, tail >15bps triggers SRF). Iraq declared force majeure on ALL foreign-operated oil fields (Mar 21) — new supply risk beyond Iran/Hormuz. Private credit gating accelerating (Blackstone, Blue Owl, BlackRock near 5% gate). 350bps freeze threshold 31bps away — could compress to 2-3 weeks if Iraq FM sustained.
+
+**HYG $75P Jun:** CDX signal says stay the course. Consider Sep roll given Warsh transition May. No new position recs.
+
+*Full detail in LIQUID OUTBOX.md archived.*
+
+
 ## 📬 OTTO — Mar 23 | El-Erian 2007 Parallel + OZK Watch Mar 25
 **Delivered:** 2026-03-23 14:00 UTC (HERMES PM)
 
