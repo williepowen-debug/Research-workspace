@@ -1,12 +1,12 @@
 # SCRATCH — Ephemeral Working Memory
 
-**Updated:** 2026-03-25 01:20 UTC (Tue 9:20 PM ET)
+**Updated:** 2026-03-25 01:37 UTC (Tue 9:37 PM ET)
 
 ---
 
 ## QUICKSTART
 Scenario D **78%**. War Day **25**. Account ~$54K+.
-**OZK: KB at 141 rows, 16 groups, KB_INDEX.md built. Prompts #1-7 + #15 done. LIFE_SCI/ folder created. Tree is clean and audited.**
+**OZK: KB at 146 rows, 17 groups. Prompts #1-7 + #15-16 done. Tree cleaned (3 archived, 1 moved, EARNINGS_PREP refreshed).**
 
 ## HANDOFF
 **Last context:** Session 2 continued — STATUS.md rewritten after full data pass. Still in OZK tree. Will working on Prompt 16 (insider transactions).
@@ -43,7 +43,7 @@ Scenario D **78%**. War Day **25**. Account ~$54K+.
 - [ ] #9 Affinius bonds
 - [ ] #10 Sell-side consensus
 - [ ] #13 Peer 2022 vintage
-- [ ] #16 Insider transactions
+- [x] #16 Insider transactions (KB 142-146)
 - [ ] #19 Metro market conditions
 - [ ] #20 Life sci vacancy
 
