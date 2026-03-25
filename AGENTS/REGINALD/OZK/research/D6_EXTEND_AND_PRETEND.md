@@ -1,6 +1,7 @@
 # D6: Extend-and-Pretend — The Modification Machine
 
-**Created:** 2026-03-24 | **Sources:** V1–V4 TDR synthesis | **KB rows:** 096–106
+**Created:** 2026-03-24 | **Sources:** V1–V4 TDR synthesis
+**KB Rows:** 096–097, 099–104 | **Group:** `EXTEND_PRETEND` | **Cross-ref:** 098 (→MGMT_CREDIBILITY), 105 (→ACL_THINNING)
 
 ---
 

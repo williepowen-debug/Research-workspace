@@ -2,6 +2,7 @@
 
 **Created:** 2026-03-24
 **Sources:** FFIEC Call Report Q4 2025, OZK Q3 2025 Earnings Call, Deep Research (4 models, 23 named counterparties)
+**KB Rows:** 021–027 (SHADOW_CRE), 018–020, 087 (MEMO_ITEM_3) | **Nav:** `../workbook/KB_INDEX.md`
 **Status:** COMPLETE
 **Dependency:** `NDFI_SHADOW_CRE_ANALYSIS.md` (full counterparty data)
 

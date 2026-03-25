@@ -1,6 +1,7 @@
 # FL PARADOX — Cross-Model Findings
 
-**Completed:** 2026-03-24 | **Models:** Claude, Gemini, ChatGPT, Perplexity | **KB rows:** 121–132
+**Completed:** 2026-03-24 | **Models:** Claude, Gemini, ChatGPT, Perplexity
+**KB Rows:** 121–132 | **Group:** `FL_PARADOX` | **Nav:** `workbook/KB_INDEX.md`
 
 ---
 

@@ -2,6 +2,7 @@
 
 **Created:** 2026-03-24
 **Sources:** OZK Q4 2025 Management Comments, FDIC API (CERT 110), FFIEC Call Report Q4 2025
+**KB Rows:** 042–047 | **Group:** `CAPITAL_LIQUIDITY` | **Nav:** `../workbook/KB_INDEX.md`
 **Status:** COMPLETE
 
 ---

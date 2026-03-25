@@ -19,7 +19,7 @@ Navigate the KB by investigation cluster. Each group maps to a folder or researc
 
 | Group | Rows | Count | Folder / File | What It Covers |
 |-------|------|-------|---------------|----------------|
-| **EXTEND_PRETEND** | 096–104 | 9 | **research/D6_EXTEND_AND_PRETEND.md** | 590 mods, 98% classification gap, 59% re-default, rate contradiction, NPL forensics |
+| **EXTEND_PRETEND** | 096–097, 099–104 | 8 | **research/D6_EXTEND_AND_PRETEND.md** | 590 mods, 98% classification gap, 59% re-default, NPL forensics. (098 cross-listed → MGMT_CREDIBILITY) |
 | **DISTRESSED_LOANS** | 028–036 | 9 | THESIS.md (evidence) | Named problem loans: IQHQ RaDD, Sterling Bay, Boston, Seattle, Santa Monica |
 | **LIFE_SCI** | 094–095, 117 | 3 | GEOGRAPHY/ (SD cluster) | $3.2B life sci exposure, Pacific Center sold to SVP, SD cap rate blow-out |
 | **MGMT_CREDIBILITY** | 037–041, 069, 085, 093, 098 | 9 | THESIS.md (narrative) | "No concessions" contradiction, CRO vacancy, CFO selling, buyback non-use |
@@ -35,7 +35,7 @@ Navigate the KB by investigation cluster. Each group maps to a folder or researc
 
 | Group | Rows | Count | Folder / File | What It Covers |
 |-------|------|-------|---------------|----------------|
-| **GEOGRAPHY** | 107–120 | 14 | **GEOGRAPHY/EXPOSURE_MAP.md** | 58 MSAs mapped, $2.9B distressed cluster (5 metros), FL paradox intro, supervisory mismatch, $2B unleased pipeline |
+| **GEOGRAPHY** | 107–116, 118–120 | 13 | **GEOGRAPHY/EXPOSURE_MAP.md** | 58 MSAs mapped, $2.9B distressed cluster (5 metros), FL paradox intro, supervisory mismatch, $2B unleased pipeline. (117 → LIFE_SCI) |
 | **FL_PARADOX** | 121–132 | 12 | **GEOGRAPHY/FL_PARADOX/FINDINGS.md** | 4-model stress-test: deposit wall, SB 4-D moat, insurance, Biscayne 21 ($105M), FinCEN, concentration duality |
 
 ## Peer Comparison
@@ -50,6 +50,44 @@ Navigate the KB by investigation cluster. Each group maps to a folder or researc
 |-------|------|-------|---------------|----------------|
 | **BULL_COUNTER** | 051–055, 064–068, 070–073, 079, 092, 106 | 17 | research/C1-C3 + WEAKNESSES.md | GFC track record (11bps 22yr avg), record EPS $6.18, $1.3B sponsor extractions, 45.9% LTC, thin EV edge |
 | **GAP** | 056–060 | 5 | GAP_ANALYSIS_REPORT.md | Known data gaps: short interest undated, IQHQ leasing unknown, Form 4 stale |
+
+---
+
+## Standalone Research (not tied to a single KB group)
+
+These research files exist in `research/` but span multiple KB groups or predate the KB system. They're indexed in `INDEX.md` but not directly reachable from the group tables above.
+
+| File | Topic | Closest KB Groups |
+|------|-------|--------------------|
+| C1_RECLASSIFICATION_REBUTTAL.md | "MI3 reclassification is normal" rebuttal | BULL_COUNTER, MEMO_ITEM_3 |
+| C2_RATE_RELIEF_SCENARIO.md | Do rate cuts save OZK? | BULL_COUNTER, MATURITY_WALL |
+| C3_CAPITAL_ABSORPTION_ANALYSIS.md | Thin EV edge counter-argument | BULL_COUNTER |
+| D1_LTV_EXTRAPOLATION.md | LTV stress on reappraised loans | CRE_CONCENTRATION, DISTRESSED_LOANS |
+| D4_PROBLEM_BANK_COMPARISON.md | OZK vs problem bank thresholds | ACL_THINNING, CRE_CONCENTRATION |
+| D5_DIVIDEND_SUSTAINABILITY.md | Dividend cut probability model | CAPITAL_LIQUIDITY |
+| 8K_FORCED_DISCLOSURE_FRAMEWORK.md | Pre-announcement triggers & timeline | MGMT_CREDIBILITY |
+| INSIDER_ACTIVITY_COMPILED.md | Form 4 compilation | MGMT_CREDIBILITY |
+| NDFI_SHADOW_CRE_ANALYSIS.md | $2.74B shadow CRE deep dive | SHADOW_CRE |
+
+---
+
+## KB.tsv Column Legend
+
+| Column | Meaning |
+|--------|---------|
+| ID | `KB-OZK-NNN` unique identifier |
+| Date | When the row was created |
+| Group | Cluster tag (maps to this index) |
+| Entity | Specific topic within the group |
+| Fact | The actual data point or finding |
+| Source | Where it came from (filing, LLM, FDIC, etc.) |
+| Conf | Confidence: A=high, B=medium, C=low; 1=primary, 2=secondary, 3=derived |
+| Epistemic | EMPIRICAL (hard data), ANALYTICAL (derived), ESTIMATE, THEORETICAL |
+| Status | ACTIVE, STALE, SUPERSEDED, ARCHIVED |
+| Stale_By | Date after which this should be refreshed |
+| DerivedFrom | Parent KB row(s) if this builds on prior evidence |
+| Vectors | Cross-agent references (→REGINALD, →CARL, etc.) |
+| Notes | Analyst commentary, implications, caveats |
 
 ---
 

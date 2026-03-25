@@ -1,6 +1,7 @@
 # OZK — Geographic Exposure Map
 
 **Last Updated:** 2026-03-24 | **Sources:** Q1 2025 Management Comments (Figure 18), Q4 2024 Investor Presentation, 10-K, earnings calls, trade press | **4 LLM cross-reference**
+**KB Rows:** 107–116, 118–120 | **Group:** `GEOGRAPHY` | **Nav:** `../workbook/KB_INDEX.md`
 
 ---
 
