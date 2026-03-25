@@ -1,6 +1,6 @@
 # SCRATCH — Ephemeral Working Memory
 
-**Updated:** 2026-03-25 01:10 UTC (Tue 9:10 PM ET)
+**Updated:** 2026-03-25 01:20 UTC (Tue 9:20 PM ET)
 
 ---
 
@@ -9,7 +9,7 @@ Scenario D **78%**. War Day **25**. Account ~$54K+.
 **OZK: KB at 141 rows, 16 groups, KB_INDEX.md built. Prompts #1-7 + #15 done. LIFE_SCI/ folder created. Tree is clean and audited.**
 
 ## HANDOFF
-**Last context:** Session 2 (evening Mar 24) — OZK prompt integration marathon. 21 new KB rows. No trading, no other agents touched.
+**Last context:** Session 2 continued — STATUS.md rewritten after full data pass. Still in OZK tree. Will working on Prompt 16 (insider transactions).
 
 **Completed this session:**
 - FL Paradox: 4 LLMs → KB 121-132 → FINDINGS.md (FL is fortress, Biscayne 21 exception)
