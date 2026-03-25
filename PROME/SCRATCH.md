@@ -42,5 +42,5 @@ Scenario D **78%**. War Day **25**. Account ~$54K+.
 - Inbox briefs delivered to LIQUID, HENRY, ZHAO
 - REGINALD delivered WAL EARNINGS_PREP (C→B+) and OZK EARNINGS_PREP (upgraded)
 - MOF weekly monitoring set up (`tools/monitoring/mof_weekly_check.sh`)
-- PROME STATUS updated (SAM line, inbox counts, FXY status, MOF monitoring)
-- First live MOF check — latest is week ending Mar 14 (-¥992B). Mar 21 data expected ~Mar 27-28.
+- Private Credit Contagion three-source research (Gemini + Claude + Perplexity) — raw sources saved to BROCK/research
+- **NEXT:** Write unified PC contagion synthesis + route to agents
