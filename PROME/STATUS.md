@@ -1,7 +1,7 @@
 # PROME STATUS.md
-**Updated:** 2026-03-24 14:30 UTC
+**Updated:** 2026-03-25 12:30 UTC
 
-## 🔴🔴 SCENARIO D DOMINANT (78%) — WAR DAY 25 — BRENT mid-$90s — ACCOUNT $54,416
+## 🔴🔴 SCENARIO D DOMINANT (78%) — WAR DAY 25 — BRENT $107+ — ACCOUNT $54K+
 
 ---
 
@@ -9,21 +9,22 @@
 
 | Agent | St | Key State | Upd | Inbox |
 |-------|----|-----------|-----|-------|
-| NEXUS | 🟢🟢 | Pass 10 complete. 50/50 ceiling. C-30→C-34 added. FSK/APO/ARES integrated. | 3/24 | 0 ✅ |
-| CARL | 🔴🔴 | Path C activating (housing cracking before employment). Convergence 43/50. | 3/23 | 0 ✅ |
-| LABOR | 🟢 | Claims 205K benign. FL UI cliff Mar 24. ICE construction raids confirmed. | 3/24 | 0 ✅ |
-| SAM | 🟢 | Shunto 5.26%. GPIF breached. BOJ hike likely May 1. **Repatriation research complete** — structural $50-120B/yr UST demand withdrawal confirmed. | 3/25 | 0 ✅ |
+| NEXUS | 🟢🟢 | Pass 10 complete. 50/50 ceiling. C-30→C-34 added. FSK/APO/ARES integrated. | 3/24 | 1 |
+| CARL | 🔴🔴 | Path C activating. Convergence 43/50. **Russia fertilizer suspension = 3rd source offline.** | 3/25 | 1 |
+| LABOR | 🟢 | Claims 205K benign. FL UI cliff Mar 24. **Unemployment duration 25.7wk (4yr high).** | 3/25 | 1 |
+| SAM | 🟢 | Shunto 5.26%. GPIF breached. BOJ hike likely May 1. **Repatriation research complete** — structural $50-120B/yr UST demand withdrawal. FXY thesis refined. | 3/25 | 0 ✅ |
 | OTTO | 🟢 | DQ 7.1% RED. El-Erian 2007 parallel. | 3/23 | 2 |
 | MARCO | 🟢 | DHS Day 37. ICE raids = 4 workforce disruption vectors. Congress recessing to Apr 13. | 3/23 | 0 ✅ |
-| HENRY | 🔴🔴 | JPM retail fatigue (-30% purchases). Fed T-Bill $352B integrated. | 3/23 | 1 |
-| LIQUID | 🔴🔴 | Stealth liquidity, FHLB +31%, JPM restricting PC lending. Global yield reversal. | 3/23 | 1 |
-| ZHAO | 🔴🔴 | Demand hole revised $70-135B/mo. Ghalibaf UST threat = one-way ratchet. | 3/23 | 2 |
-| HAWK | 🔴🔴 | Scenario D **78%**. Day 24. Israel striking Tehran. Iran hit Dimona (nuclear). "Talks" = fiction. | 3/23 | 0 ✅ |
-| BROCK | 🔴🔴 | APO+ARES gated. FSK junk. 9 funds in ~7wks. ARESSI Mar 26, OBDCII Mar 27. | 3/24 | 0 ✅ |
-| REGINALD | 🔴 | OZK KB **159** rows/17 grp. WAL KB **60** rows/10 grp (architecture complete). STATUS pruned 314→154 lines. 5 OZK prompts remaining. Apr 16 OZK = **22d**, Apr 21 WAL = **27d**. | 3/25 | 0 ✅ |
-| BRENT | 🔴🔴 | Valero Port Arthur FULL SHUTDOWN (380K bpd). Primorsk >1M bpd offline. ~8-9M bpd total disrupted. | 3/24 | 0 ✅ |
+| HENRY | 🔴🔴 | JPM retail fatigue (-30%). Fed T-Bill $352B. **PMI counter-signal (tariff front-running?). $14T IG supply wall.** | 3/25 | 3 |
+| LIQUID | 🔴🔴 | Stealth liquidity, FHLB +31%. **$10T maturity wall. PC funding channel mapped. Japan demand withdrawal.** | 3/25 | 3 |
+| ZHAO | 🔴🔴 | Demand hole $70-135B/mo. Ghalibaf ratchet. **De-dollarization accelerating (reserves 72%→56.9%).** | 3/25 | 2 |
+| HAWK | 🔴🔴 | Scenario D **78%**. Day 25. **Qatar FM. Israel hits Caspian route. Russia fertilizer suspension.** | 3/25 | 2 |
+| BROCK | 🔴🔴 | APO+ARES gated. FSK junk. 9 funds ~7wks. **PC contagion 6-stage map built. Stage 2 active.** ARESSI Mar 26, OBDCII Mar 27. | 3/25 | 1 |
+| REGINALD | 🔴 | OZK KB **159**/17 grp. WAL KB **60**/10 grp. **Both EARNINGS_PREPs upgraded (B+).** Apr 16 OZK = **22d**, Apr 21 WAL = **27d**. | 3/25 | 0 ✅ |
+| BRENT | 🔴🔴 | Valero 380K bpd offline. Primorsk >1M bpd. **Qatar FM: 13M tonnes LNG removed 3-5yr. Ust-Luga struck AGAIN. Australia fuel shortages.** | 3/25 | 2 |
 | HANS | 🔴🔴 | DD-4 delivered. EU storage 17-19% entering refill. Dimona = point of no return. | 3/24 | 0 ✅ |
 | DARWIN | 🟡 | Scan overdue. **STALE 34d** | 2/18 | 0 |
+| RED | 🟢 | 85% confidence. | 3/14 | 1 |
 
 ---
 
@@ -42,9 +43,11 @@
 | Stale agents decision: HANS, DARWIN | 🟡 | |
 | MOF weekly ITS monitoring | 🟢 | NEW — check Wed/Thu for Japan foreign bond flows. `tools/monitoring/mof_weekly_check.sh` |
 | SOFI thesis research | 🟡 | Will wants to investigate consumer pain angle |
+| Gas AAA $4 breakpoint watch | 🔴 | $3.91 → $4 imminent. Qatar FM + LNG surge accelerates. Hamilton behavioral breakpoint. |
+| PC contagion Perplexity follow-up | 🟡 | "if X then Y" decision tree with trigger thresholds for HY OAS, BDC discount, CLO equity |
 | ~~OZK Gap Closure~~ | ~~🔴~~ | ✅ KB.tsv migrated (63 rows), data fixes, BRIEFING rewritten |
 | OZK Audit E (pub cleanup) | 🟡 | Temple 8 refs, citations, PDNA geography |
-| Jefferies Q1 (today after close) | 🟠 | WAL catalyst — check results |
+| Jefferies Q1 (today after close) | 🔴 | WAL catalyst — 6x deferred, CANNOT slip. KB-WAL-040 stale. |
 | OZK Fix 4 — KB cross-refs in THESIS.md | ✅ | Done — 22 anchors added, 2 warning flags |
 | Will running OZK external prompts | 🟠 | 10 prompts done (KB 159). 5 remaining (#8,9,10,13,19). Will delivering results. |
 | USO $118C Mar 27 decision | 🟠 | Thursday expiry, -69%. Ride or cut? |
