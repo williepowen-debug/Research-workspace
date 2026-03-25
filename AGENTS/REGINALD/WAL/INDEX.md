@@ -1,7 +1,7 @@
 # WAL — Agent Index
 **Start here on cold boot.**
 
-**Last session (Mar 25 evening):** Architecture buildout. Split STATUS.md into lean dashboard + THESIS.md. Created skeleton: workbook/, MARKET/, research vectors, SCENARIOS, WEAKNESSES, EARNINGS_PREP, EXTERNAL_PROMPTS. KB.tsv not yet seeded.
+**Last session (Mar 25 late):** KB.tsv seeded — **59 rows across 10 groups**. KB_INDEX.md written with vector mapping, thesis layers, staleness tracking. Architecture complete.
 
 ---
 
@@ -44,8 +44,8 @@
 | 1 | `STATUS.md` | 1 min | Dashboard, positions, catalysts, research agenda |
 | 2 | `THESIS.md` | 4 min | Full thesis — three vectors, geographic evidence, insider, bull rebuttals |
 | 3 | `SCENARIOS.md` | 1 min | Bull/base/bear with triggers |
-| 4 | `workbook/KB.tsv` | TBD | Canonical evidence store (not yet built) |
-| — | `workbook/KB_INDEX.md` | TBD | Group navigator (not yet built) |
+| 4 | `workbook/KB.tsv` | 3 min | **59-row** canonical evidence database |
+| — | `workbook/KB_INDEX.md` | 2 min | **10 groups** → vectors → thesis layers → staleness |
 
 ## File Map
 
@@ -56,8 +56,8 @@
 | `STATUS.md` | Live dashboard, positions, catalyst calendar |
 | `THESIS.md` | Full thesis with three-vector framework |
 | `SCENARIOS.md` | Probability-weighted outcomes (DRAFT) |
-| `workbook/KB.tsv` | Canonical evidence store (TBD) |
-| `workbook/KB_INDEX.md` | KB group navigator (TBD) |
+| `workbook/KB.tsv` | Canonical evidence store (**59 rows**, 13 columns) |
+| `workbook/KB_INDEX.md` | **KB group navigator** — 10 groups mapped to vectors, thesis layers, staleness |
 
 ### Deep Dives (read on-demand)
 | File | When to Read |
