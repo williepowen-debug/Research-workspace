@@ -56,7 +56,7 @@
 | `STATUS.md` | Live dashboard, positions, catalyst calendar |
 | `THESIS.md` | Full thesis with three-vector framework |
 | `SCENARIOS.md` | Probability-weighted outcomes (DRAFT) |
-| `workbook/KB.tsv` | Canonical evidence store (**59 rows**, 13 columns) |
+| `workbook/KB.tsv` | Canonical evidence store (**61 rows**, 13 columns) |
 | `workbook/KB_INDEX.md` | **KB group navigator** — 10 groups mapped to vectors, thesis layers, staleness |
 
 ### Deep Dives (read on-demand)
