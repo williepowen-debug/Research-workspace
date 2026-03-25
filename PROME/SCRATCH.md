@@ -1,34 +1,33 @@
 # SCRATCH — Ephemeral Working Memory
 
-**Updated:** 2026-03-25 01:37 UTC (Tue 9:37 PM ET)
+**Updated:** 2026-03-25 02:15 UTC (Tue 10:15 PM ET)
 
 ---
 
 ## QUICKSTART
 Scenario D **78%**. War Day **25**. Account ~$54K+.
-**OZK: KB at 146 rows, 17 groups. Prompts #1-7 + #15-16 done. Tree cleaned (3 archived, 1 moved, EARNINGS_PREP refreshed).**
+**OZK: KB at 159 rows, 17 groups. Prompts #1-7 + #15-16 + #20 done. LIFE_SCI is deepest cluster (21 rows). Apr 16 earnings = 22 days.**
 
 ## HANDOFF
-**Last context:** Session 2 continued — STATUS.md rewritten after full data pass. Still in OZK tree. Will working on Prompt 16 (insider transactions).
+**Last context:** Session 3 — Deep in OZK LIFE_SCI domain. Integrated Prompt 20 (life sci vacancy) from both Claude and Gemini. Wrote the narrative synthesis for Will ("what does the research say"). Rewrote LIFE_SCI/STATUS.md with capital stack table, portfolio map, structural headwinds. All committed.
 
 **Completed this session:**
-- FL Paradox: 4 LLMs → KB 121-132 → FINDINGS.md (FL is fortress, Biscayne 21 exception)
-- TDR: discovered already done (KB 096-106), checked off
-- Peer comp: 3 LLMs → KB 133-136 (OZK 5.4x peer NCO, WAL thinnest coverage)
-- IQHQ RaDD: 2 LLMs → KB 137-141 (3.3% leased, Aug 2028 extension, IQHQ distress, >90% downtown vacancy, AI demand shrink)
-- KB_INDEX.md navigator built + audited
-- D6_EXTEND_AND_PRETEND.md written
-- LIFE_SCI/ standalone folder created
-- KB anchors added to 5 research files
-- Positions logged: +2 OZK Aug 45P, +1 WAL Sep 67.5P, +2 FLG Jul 13P
+- Prompt 20 Claude: 10 KB rows (147-156) — national bottoming 23.0%, SD rents 14th decline, Sorrento Mesa 38.2%, Boston ATH 28%, Bay Area green shoot, VC→AI crowding, Pacific Center sold, Temple 8 short
+- Prompt 20 Gemini: 3 KB rows (157-159) — HR Ratings RaDD mezz ($1.23B debt, 15% PIK accruing $76M), M&A $240B sublease driver, Boston 16.5M SF pipeline
+- LIFE_SCI/FINDINGS.md expanded to 17 findings with model comparison
+- LIFE_SCI/STATUS.md full rewrite — capital stack, SD context, portfolio map, headwinds
+- KB_INDEX.md updated (159 rows)
+- EXTERNAL_PROMPTS.md updated (Prompt 20 done)
+- Narrative synthesis delivered to Will
 
 **IMMEDIATE NEXT SESSION:**
-1. **Jefferies Q1** — NOT PULLED. 3x deferred. WAL catalyst. DO THIS FIRST.
-2. **8-K EDGAR monitor** — keep deferring, just set it up
-3. **Remaining OZK prompts** — Will running #16 (insider), then #8-13, #19-20
-4. **ARESSI Mar 26** (Wed) + **OBDCII Mar 27** (Thu) — private credit catalysts (BROCK domain)
-5. **USO $118C Mar 27** — expires Thursday. Cut.
-6. **RaDD maturity verify** — Claude says Aug 2028, Gemini says Aug 2026. Need primary source.
+1. **Jefferies Q1** — NOT PULLED. 4x deferred now. WAL catalyst. DO THIS.
+2. **Remaining OZK prompts** — #8 (Metropolitan), #9 (Affinius), #10 (sell-side), #13 (peer vintage), #19 (metro conditions). Will may deliver more results.
+3. **8-K EDGAR monitor** — CIK corrected (KB-146), still not set up
+4. **ARESSI Mar 26** (Wed) + **OBDCII Mar 27** (Thu) — private credit catalysts (BROCK)
+5. **USO $118C Mar 27** — expires Thursday
+6. **RaDD maturity verify** — Likely Aug 2028 (Claude + Gemini Prompt 20 both now confirm extension). HR Ratings says bullet 3Q 2026 but expects refi. Probably resolved.
+7. **REGINALD STATUS.md** — needs update (still says KB 120, should be 159)
 
 **OZK prompt status:**
 - [x] #1 GFC track record (KB 064-066)
@@ -39,15 +38,15 @@ Scenario D **78%**. War Day **25**. Account ~$54K+.
 - [x] #6 FL Paradox (KB 121-132)
 - [x] #7 Peer comp (KB 133-136)
 - [x] #15 IQHQ RaDD (KB 137-141)
+- [x] #16 Insider transactions (KB 142-146)
+- [x] #20 Life sci vacancy (KB 147-159)
 - [ ] #8 Metropolitan failure
 - [ ] #9 Affinius bonds
 - [ ] #10 Sell-side consensus
 - [ ] #13 Peer 2022 vintage
-- [x] #16 Insider transactions (KB 142-146)
 - [ ] #19 Metro market conditions
-- [ ] #20 Life sci vacancy
 
 **Open questions:**
-- RaDD maturity: Aug 2026 or Aug 2028?
 - TLT 88 May put, FXY entry, Jun→Dec roll timing
 - USO $118C Mar 27 — CUT (expires Thu)
+- REGINALD STATUS.md stale (KB 120 → 159)
