@@ -37,7 +37,7 @@
 
 | Date | Event |
 |------|-------|
-| Mar 25 | Architecture buildout (this session) |
+| Mar 25 | KB.tsv seeded (59 rows, 10 groups) + architecture buildout |
 | Mar 23 | FDIC geographic analysis integrated, insider scan completed |
 | Feb 27 | Convergence Day: -10.64% on zero WAL-specific news |
 
@@ -68,4 +68,4 @@
 
 ---
 
-*Thesis → `THESIS.md` | Technicals → `TECHNICALS.md` | Evidence → `workbook/KB.tsv` (TBD)*
+*Thesis → `THESIS.md` | Technicals → `TECHNICALS.md` | Evidence → `workbook/KB.tsv` (59 rows, 10 groups)*
