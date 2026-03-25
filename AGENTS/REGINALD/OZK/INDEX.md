@@ -1,7 +1,7 @@
 # OZK — Agent Index
 **Start here on cold boot.**
 
-**Last session (Mar 24):** Prompts #1/#2/#3 fully integrated from 4 LLMs each. KB at 93 rows. GFC track record (10 rows), maturity schedule (8 rows), interest reserve depletion model (6 rows) — 100% of original reserves exhausted, $47M/quarter net burn, SR 23-5 cascade mechanics. $500M hold limit + Q4 buybacks discovered. THESIS/WEAKNESSES/EARNINGS_PREP all updated.
+**Last session (Mar 24 evening):** KB at **136 rows** across 16 groups. FL Paradox complete (4 LLMs, 12 rows — FL book confirmed fortress, Biscayne 21 exception). Peer comp integrated (OZK 5.4x peer NCO). D6 Extend-and-Pretend synthesis written. KB_INDEX.md navigator created. Prompts #1-7 complete (except #5 short interest). Positions updated: +2 OZK Aug $45P @ $4.05.
 
 ---
 
@@ -11,10 +11,10 @@
 |--------|-------|--------|
 | CRE / Tier 1 Capital | **358%** (guideline: 300%) | 🔴 Highest-tier concentration |
 | Adjusted CRE / Tier 1 (w/ shadow) | **405-420%** | 🔴 Novel metric — includes MI3 + NDFI |
-| ACL / Total Loans | **1.26%** | Below peer avg ~1.75% |
-| ACL / Noncurrent Coverage | **1.39x** | 🔴 Below peer avg, declining |
-| FY2025 NCO Rate (annualized) | **0.64%** (Q4 quarterly) | Rising — was 0.22% FY2024 |
-| Noncurrent Ratio | **1.07%** ($341M) | Trending up |
+| ACL / Total Loans | **1.16%** ($632M) | 🔴 Below peer median ~1.23%, below peer avg ~1.75% |
+| ACL / Noncurrent Coverage | **~184%** | 🔴 BELOW peer median 231% — less reserved per $ of problem loans |
+| FY2025 NCO Rate (annualized) | **1.18%** FY / **1.18%** Q4 ann | 🔴 5.4x peer median (0.22%). ACL ratio breached. |
+| Noncurrent Ratio | **1.06%** ($341M) | 🔴 1.7x peer median (0.61%) |
 | Memo Item 3 / C&I | **37.6%** ($1.289B) | 🔴 Hidden CRE in C&I — worst in peer set |
 | NDFI (Shadow CRE) | **$2.74B** | Debt-on-debt, counterparty risk |
 | Construction on Interest Reserves | **89.7%** ($7.0B of $7.8B) | Clock ticking — reserves deplete |
@@ -28,6 +28,7 @@
 |--------|--------|-----------|--------|
 | $42.5P | May 15 | 2 | Wave 1: Apr earnings catalyst |
 | $42.5P | Aug 21 | 1 | Waves 2-3: NY pipeline + IQHQ |
+| $45P | Aug 21 | **4** | Waves 2-3: NY pipeline + IQHQ (added 2 @ $4.05 Mar 24) |
 | $45P | Aug 21 | **4** | Waves 2-3: NY pipeline + IQHQ (added 2 @ $4.05 Mar 24) |
 
 **Earnings: April 16, 2026** — 23 days
