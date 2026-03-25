@@ -36,6 +36,6 @@ Life sciences is where the OZK thesis hits hardest. The FL condo book is a fortr
 
 ---
 
-**KB Rows:** 094–095, 117, 137–141, 147–156 | **Group:** `LIFE_SCI` | **Nav:** `../workbook/KB_INDEX.md`
+**KB Rows:** 094–095, 117, 137–141, 147–159 | **Group:** `LIFE_SCI` | **Nav:** `../workbook/KB_INDEX.md`
 
 *Findings → `FINDINGS.md` | Sources → `../sources/IQHQ_RADD_*` | Parent → `../STATUS.md`*

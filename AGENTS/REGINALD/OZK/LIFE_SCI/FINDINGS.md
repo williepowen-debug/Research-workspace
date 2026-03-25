@@ -1,7 +1,7 @@
 # LIFE_SCI — Cross-Model Findings (IQHQ RaDD Focus)
 
 **Updated:** 2026-03-25 | **Models:** Claude, Gemini (Prompts 15 + 20)
-**KB Rows:** 137–141, 147–156 | **Group:** `LIFE_SCI` | **Nav:** `../../workbook/KB_INDEX.md`
+**KB Rows:** 137–141, 147–159 | **Group:** `LIFE_SCI` | **Nav:** `../../workbook/KB_INDEX.md`
 
 ---
 
@@ -132,6 +132,32 @@ Temple 8 Capital short report (Mar 10, 2026): "The Next SVB?" targeting Apr-Jun 
 
 200+ drugs losing protection, $300B+ revenue at risk → pharma is leasing. But Novartis chose Campus Point, Biogen chose Cambridge. Large pharma wants established clusters, not pioneering downtown waterfront. RaDD doesn't benefit.
 
+### Finding 15: RaDD Mezzanine Is a Ticking Clock (Gemini/HR Ratings)
+**KB-157** | **Confidence: B1**
+
+HR Ratings reveals RaDD total debt ~$1.23B. A $75M mezzanine at **15% PIK** entered end-2024 — interest accruing ~$76M through 2026 (debt growing while building earns nothing). Total investment overran by $300M ($1.7B→$2.3B). HR Ratings anticipates total debt refinancing to **$1.5B+ by 2028**. Bullet maturity 3Q 2026.
+
+### Finding 16: M&A Consolidation = More Sublease Near-Term
+**KB-158** | **Confidence: B1**
+
+Life sciences M&A hit $240B in 2025 (+81% YoY). Short-term: redundant facility closures → more sublease. VC $29.8B at $16M avg deal (+50% vs 10yr avg) → historical 12-18mo lag to leasing = recovery late 2026 earliest. Biomanufacturing surge ($250B+ since 2021) benefits process facilities, not spec lab like RaDD.
+
+### Finding 17: Boston Pipeline Still Flooding
+**KB-159** | **Confidence: B1**
+
+Gemini/Colliers places Boston at 34.0% vacancy (vs CBRE 28.0% — methodology gap). **16.5M SF under construction, only 46.8% preleased** — more vacancy incoming. Cambridge up 12 consecutive quarters from near 0%. Boston added 26M SF (+30%) since 2019.
+
 ---
 
-*Sources → `../sources/IQHQ_RADD_claude_prompt15.md`, `../sources/IQHQ_RADD_gemini_prompt15.docx`, `../sources/OZK_LIFE_SCI_VACANCY_CLAUDE.md` | KB → `../workbook/KB.tsv` (094-095, 117, 137-156) | Thesis → `../THESIS.md`*
+## Model Comparison (Prompt 20)
+
+| Model | Best At | Missed / Weaker |
+|-------|---------|-----------------|
+| **Claude** | Granular SD submarket data (Sorrento 48% sublease share, 14 quarters rent decline), concession detail (full year free rent), Bay Area sublease doubling, Temple 8 report | HR Ratings mezzanine detail, M&A volume, biomanufacturing demand shift |
+| **Gemini** | HR Ratings RaDD debt structure (PIK mezz, $2.3B cost overrun), M&A $240B, VC lag model, TechBio demand thesis, Boston pipeline 16.5M SF, biomanufacturing | Less specific on SD rent concessions, missed Temple 8 report, Boston vacancy methodology unclear |
+
+**Best synthesis:** Claude for SD-specific bearish data (rents, sublease, concessions). Gemini for RaDD capital structure (HR Ratings is a primary source we didn't have) and demand recovery timeline.
+
+---
+
+*Sources → `../sources/IQHQ_RADD_claude_prompt15.md`, `../sources/IQHQ_RADD_gemini_prompt15.docx`, `../sources/OZK_LIFE_SCI_VACANCY_CLAUDE.md`, `../sources/OZK_LIFE_SCI_VACANCY_GEMINI.md` | KB → `../workbook/KB.tsv` (094-095, 117, 137-141, 147-159) | Thesis → `../THESIS.md`*
