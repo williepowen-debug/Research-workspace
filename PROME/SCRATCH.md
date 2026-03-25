@@ -1,46 +1,43 @@
 # SCRATCH — Ephemeral Working Memory
 
-**Updated:** 2026-03-25 03:45 UTC (Tue 11:45 PM ET)
+**Updated:** 2026-03-25 12:35 UTC (Wed 8:35 AM ET)
 
 ---
 
 ## QUICKSTART
-Scenario D **78%**. War Day **25**. Account ~$54K+.
+Scenario D **78%**. War Day **25**. Account ~$54K+. Brent $107+. Gas $3.91 → **$4 imminent** (Qatar FM accelerates).
 
-**Productive session.** Japan repatriation deep research completed (3 external sources + SAM agent). REGINALD delivered both earnings preps. System in good shape.
+**Massive overnight session.** Two three-source research syntheses (Japan repatriation, PC contagion). Both earnings preps delivered. 13 signals triaged and routed to 10 agents. 17 inbox briefs total. System well-stocked heading into catalyst-heavy Wed/Thu.
 
 ## HANDOFF
 
-**Last context:** Completed P1 (Japan FY-End Repatriation) research — three-source synthesis (Gemini Deep Research + Perplexity + Claude Deep Search) merged with SAM's independent findings. Unified doc written. FXY thesis refined. Inbox briefs routed to LIQUID, HENRY, ZHAO. REGINALD delivered WAL and OZK EARNINGS_PREP upgrades (both solid B+). MOF weekly monitoring set up.
+**Last context:** Overnight (11PM–1AM ET), Will ran prompts through Gemini/Perplexity/Claude, fed results back. Built Japan FY-end repatriation unified doc (FXY thesis refined — BOJ hike is catalyst, not calendar flows) and PC contagion mechanics 6-stage map (Stage 2 active, fire sale at 80-85¢ = THE tripwire). REGINALD delivered both WAL and OZK earnings preps (C→B+). Then Will sent 13 signals from X/Bloomberg — all triaged and routed. Catalyst prep cron confirmed all 6 catalysts within 48h covered.
 
-**Next tide:**
-1. **Jefferies Q1 after close today (Wed Mar 25)** — 6x deferred, CANNOT slip again. Pull results, update WAL KB. KB-WAL-040 stale.
-2. **USO $118C Mar 27** — expires Thursday, -69%. Cut or let expire decision needed.
-3. **ARESSI Mar 26 (Wed)** + **OBDCII Mar 27 (Thu)** — BROCK private credit catalysts.
-4. **MOF weekly data release ~Mar 27-28** — week ending Mar 21 data. First live check of new monitoring stack.
-5. **OZK SCENARIOS.md recalibration** — flagged stale at $44.70, stock now ~$49. Both REGINALD agents flagged this.
-6. **WAL V2 evidence gap** — Jefferies double-pledging chain has NO primary source. Run External Prompt #3 or downgrade V2.
-7. **OZK Prompts #8 (Metropolitan) & #13 (peer vintage)** — HIGH PRIORITY earnings ammo.
-8. **Review REGINALD earnings prep outputs** — both delivered, spot-checked and look B+. May want Will to review the call questions and decision matrices.
+**Next tide (PRIORITIZED):**
+1. 🔴 **Jefferies Q1 after close TODAY** — 6x deferred, CANNOT slip. Pull results, update WAL KB (KB-WAL-040 stale). Check double-pledging chain evidence.
+2. 🔴 **Gas AAA $4 watch** — $3.91, Qatar FM (13M tonnes LNG removed) + Asia LNG +40-60%. Hamilton behavioral breakpoint may breach this week.
+3. 🟠 **ARESSI flow data** (Wed 3/26) — first PC contagion Stage 3-4 test. Watch for: marks declining, non-accrual, facility tightening.
+4. 🟠 **OBDCII reporting window** (Thu 3/27) — same framework. NAV loss >2%, non-accrual >4%, PIK rising = Stage 3-4 confirmation.
+5. 🟠 **USO $118C Mar 27** — expires Thursday, -69%. Ride or let expire? Qatar FM + Ust-Luga + Primorsk = bullish but option deep OTM.
+6. 🟠 **Initial Claims** (Thu 3/27) — HENRY STATUS 2 days old, routine but check.
+7. 🟠 **Rengo Wage Tally Round 2** (Thu 3/27) — SAM ready.
+8. 🟠 **MOF weekly data** ~Thu/Fri — week ending Mar 21. First live check of new monitoring stack.
+9. 🟡 **OZK SCENARIOS.md recalibration** — stale at $44.70, now ~$49. Both REGINALD agents flagged.
+10. 🟡 **WAL V2 evidence gap** — Jefferies double-pledging chain has NO primary source.
+11. 🟡 **Perplexity follow-up** — PC contagion "if X then Y" decision tree with trigger thresholds. Worth running.
 
 **Open questions:**
 - TLT 88 May put decision
-- FXY entry — thesis refined, awaiting BOJ hike or oil resolution catalyst (NOT calendar flows)
+- FXY entry — thesis refined, awaiting BOJ hike or oil resolution catalyst
 - Jun→Dec roll timing
 - WAL $85P Jun — deep ITM (+170%), take profit or roll?
-- Trump 5-day strike pause expires ~Mar 28 — aligns with MOF data release
+- USO $118C Mar 27 — ride or let expire?
 
-**Positions:** No changes this session.
+**Agent inbox status:** 17 briefs across 10 agents. Most agents have 1-3 pending inbox items. HENRY and LIQUID have 3 each (heaviest). Next HERMES round should process these.
 
-**Rhythm note:** Will engaged and productive. Ran P1 prompt through two LLMs himself (Gemini Deep Research + Perplexity), plus sent Claude Deep Search output. Three-source method validated — Claude was best, corrected errors in both others.
+**Key new research docs (overnight):**
+- `AGENTS/SAM/research/JAPAN_FYEND_REPATRIATION.md` — unified 8-section synthesis
+- `AGENTS/BROCK/research/PC_CONTAGION_MECHANICS.md` — unified 8-section synthesis
+- Raw sources: 3 in SAM/research, 3 in BROCK/research
 
-**Today's work:**
-- Japan FY-End Repatriation unified research doc (8 sections, source concordance)
-- Three raw source docs saved (Gemini, Perplexity, Claude)
-- SAM STATUS updated with revised FXY entry framework
-- MEMORY.md updated with structural demand withdrawal finding ($50-120B/yr)
-- Inbox briefs delivered to LIQUID, HENRY, ZHAO
-- REGINALD delivered WAL EARNINGS_PREP (C→B+) and OZK EARNINGS_PREP (upgraded)
-- MOF weekly monitoring set up (`tools/monitoring/mof_weekly_check.sh`)
-- Private Credit Contagion three-source research (Gemini + Claude + Perplexity) — raw sources saved to BROCK/research
-- **NEXT:** Write unified PC contagion synthesis + route to agents
+**Positions:** No changes overnight.
