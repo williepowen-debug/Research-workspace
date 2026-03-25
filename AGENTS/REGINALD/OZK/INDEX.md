@@ -95,6 +95,13 @@
 | `research/INSIDER_ACTIVITY_COMPILED.md` | All insider transactions compiled |
 | `research/8K_FORCED_DISCLOSURE_FRAMEWORK.md` | Pre-announcement pattern analysis |
 
+### Life Sciences (asset type — cross-geography)
+| File | Content |
+|------|---------|
+| `LIFE_SCI/FINDINGS.md` | **RaDD 3.3% leased, IQHQ distress cascade, downtown SD >90% vacant, AI demand shrink** |
+| `LIFE_SCI/STATUS.md` | Monitoring items: leasing, IQHQ liquidity, loan maturity, Campus at Horton |
+| `LIFE_SCI/README.md` | Scope ($3.2B across SD/Boston/Chicago), key numbers, navigation |
+
 ### Geography (CRE exposure by metro)
 | File | Content |
 |------|---------|
