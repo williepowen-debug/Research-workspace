@@ -38,5 +38,13 @@ Scenario D dominant (78%). War Day 25. Account **$52K (+92%)**. Brent ~$100 (cea
 **New architecture this session:**
 - `FORGE/research/jefferies/` — STATUS, THESIS, EARNINGS/Q1_CY2026, KB.tsv, sources/
 - `AGENTS/REGINALD/WAL/FRAUD/` — STATUS, FIRST_BRANDS, TRICOLOR, STUPIN_CRE, CONVERGENCE, sources/
+- `PROME/TOSCANINI/` — Orchestration protocol. PROTOCOL, AUTONOMY, QUEUE, DECISIONS, COMPLETION_SPEC, WILL_QUEUE
+
+**Signal queue (pending spawn — 3-signal threshold rule):**
+- HAWK: 7 signals (sea drone Kuwait, Kuwait airport, 82nd Airborne, Rezaie, Lebanon annexation, Iran demands Lebanon in ceasefire, "negotiating with themselves") — READY TO SPAWN
+- REGINALD: 5 signals (WAL downgrades x3, $400B CRE maturity wall, CMBS Chicago foreclosure) — READY TO SPAWN
+- ZHAO: 2 signals (Hormuz toll booth, yuan settlement) — needs 1 more
+- SAM: 2 signals (inflation-linked bond buyback cut, USDJPY 159.31) — needs 1 more
+- HENRY: 2 signals (VIX 29+, S&P front-running false peace) — needs 1 more
 
 **Positions:** No changes. $52K, +92%. Full marks in POSITIONS.md.

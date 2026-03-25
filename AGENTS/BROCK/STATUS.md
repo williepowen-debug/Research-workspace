@@ -1,5 +1,5 @@
 # BROCK STATUS — Private Credit / BDC / Alt Assets
-**Updated:** Mar 24, 2026 (subagent — overnight cascade: APO gated, ARES gated, FSK junk)
+**Updated:** Mar 25, 2026 (subagent — Mar 25 evening signal integration: MS 8% default, CNBC narrative shift, ARES confirmed)
 
 ## 🔴🔴 OVERNIGHT CASCADE — March 24, 2026 [URGENT]
 
@@ -10,9 +10,10 @@
 - **APODS catalyst calendar entry is DEAD** — event already occurred Mar 23, not May 4-7 (see calendar update below)
 - **APO 100 Put thesis: CONFIRMED, STRENGTHENED.** APO managing its own $15B flagship fund is gating → stock should re-rate lower as market absorbs "Apollo the institution" under redemption stress, not just portfolio company risk. Apr 17 puts in 24 days; Jun 18 has more time. APO gating = legal + credit + now liquidity risk in one name.
 
-### ARES — $10.7B fund limiting redemptions [Mar 24]
-- Bloomberg breaking: "Ares limits private credit fund withdrawals as redemptions surge"
-- Details thin — just broke. Confirm when ARES files 8-K.
+### ARES — Strategic Income Fund ($10.7B) GATED [Mar 24, confirmed Mar 25]
+- **11.6% redemption requests** in Q1 — capped at **5%** [CONF Bloomberg Mar 24 + CNBC Mar 25]
+- More than DOUBLE the cap requested — ~$660M trapped behind gate
+- ARES joins APO (11.2%), MS North Haven (10.9%) in the >10% request club
 - **ARES 95 Put (Jun 18) thesis: CONFIRMED.** Same redemption dynamic now confirmed at ARES.
 
 ### FSK — DOWNGRADED TO JUNK by Moody's (Baa3→Ba1) [Mar 23]
@@ -23,9 +24,11 @@
 - **Junk rating implications for BDC sector:** (1) FSK borrowing costs spike — compresses NII further, accelerating loss trajectory. (2) Forces CLO/investment-grade mandated holders to sell FSK bonds → FSK must pay up or tap equity. (3) Peer contagion: rating agencies now actively reviewing BDC sector — ARCC, OBDC, GBDC next on watchlist. (4) "Investment-grade private credit" narrative officially broken for at least one major BDC — retail advisor redemption wave accelerates.
 
 ### Gate Count Update
-- **Prior:** 6 funds gated in 5 weeks (MS North Haven, BCRED, BlackRock HPS, Blue Owl OBDC II, Cliffwater + 1)
-- **NOW: 9 funds stressed/gated in ~7 weeks** (+ APO Debt Solutions, ARES fund, FSK junk = functional equivalent)
-- APO 11.2% requests vs 5% cap = **$730M trapped behind gate** — largest single-fund dislocation confirmed
+- **9 funds stressed/gated in ~8 weeks** (MS North Haven, BCRED, BlackRock HPS, Blue Owl OBDC II, Cliffwater, Canadian RE, APO Debt Solutions, ARES, FSK junk)
+- **BlackRock HPS = LARGEST single gated fund by AUM ($26B)** — $1.2B Q1 requests, only ~$600M honored [CONF CNBC Mar 25 + BI Mar 24]
+- APO 11.2% requests vs 5% cap = **$730M trapped behind gate**
+- ARES 11.6% requests vs 5% cap = **~$660M trapped behind gate**
+- **Total trapped capital across gates: >$2B+ estimated** [EST]
 
 ---
 
@@ -75,12 +78,21 @@
 - BDC NAV discount: -17% sector-wide
 - **Thursday (Mar 19) price action:** ARES +1.2%, BX -2.1%, KKR -0.9%, OWL -slipped despite BofA upgrade
 
-## JPMorgan Collateral Markdown — Stage 2 Confirmed (Mar 11–13)
-- **JPM marked down collateral that private credit funds pledged, then issued margin calls**
-- Fund managers buying credit protection on portfolios they publicly call "fundamentally sound" — contradiction live
-- **Snider framework stage:** Stage 1 (inflows slowed) → **Stage 2 NOW** (outflows > inflows, forced sales, collateral revaluation) → Stage 3 (systemic)
-- Deutsche Bank disclosed **$30B exposure** to private credit — bank↔shadow bank nexus quantified
-- **9 funds gated/stressed in ~7 weeks** as of Mar 24 (APO + ARES added Mar 24; FSK junk = functionally equivalent)
+## JPMorgan Collateral Markdown — Stage 2→3 Transition Active
+
+### 6-Stage Contagion Map (updated Mar 25)
+| Stage | Description | Status |
+|-------|-------------|--------|
+| 1. Inflow slowdown | New capital slows, fundraising harder | ✅ COMPLETE |
+| 2. Outflows > inflows | Redemptions spike, gates imposed, collateral marked down | ✅ ACTIVE — 9 funds gated, $2B+ trapped |
+| 3. Forced selling / mark-to-market | NAV declines force selling; marks can't hold | 🔶 ENTERING — JPM collateral markdown, BCRED first loss, 25% BDC discount |
+| 4. Bank transmission | Warehouse lines pulled, bank exposure triggers tightening | ⬜ NEXT — DB $30B exposure quantified, JPM margin calls issued |
+| 5. Regulatory / rating action | Downgrades cascade, regulatory intervention | 🔶 EARLY — FSK junk downgrade = first domino |
+| 6. Systemic contagion | Cross-asset, cross-sector transmission | ⬜ NOT YET |
+
+- **CNBC Mar 25: "Private credit's 'zero-loss fantasy' is coming to an end"** — MAINSTREAM press now explicitly confirming Stage 2→3 thesis [CONF CNBC Mar 25]. Names First Brands + Tricolor as catalysts. This is the narrative inflection point.
+- JPM marked down collateral → margin calls. Fund managers buying protection on "fundamentally sound" portfolios.
+- Deutsche Bank: **$30B exposure** to private credit — bank↔shadow bank nexus quantified
 - Blankfein: "smells like 2008"
 
 ## True Default Rate — 4–5% Already (S&P/FT Data)
@@ -100,8 +112,10 @@
 - **Kofax/Project Leopard (B-/B2, $1.5B deal):** YTM spiked from ~13% → **25.7%** since Jan 2026 — concrete example of refi squeeze at individual credit level
 
 ## Default Data — ESCALATING
-- **Morningstar DBRS (Mar 19 note, reported Mar 20):** Distressed exchanges = **94% of all defaults** in 12 months to Feb 2026. "Extend & pretend" is now the dominant mode — but rated as default/selective default. Confirms PIMCO's "full-blown default cycle" thesis with hard data.
-- **Morgan Stanley (Mar 16):** 8% default rate forecast on direct lending — AI disruption of software PE.
+- **Morningstar DBRS (Mar 19 note, reported Mar 20):** Distressed exchanges = **94% of all defaults** in 12 months to Feb 2026. "Extend & pretend" is now the dominant mode — but rated as default/selective default.
+- **Morgan Stanley (Mar 25, Joyce Jiang):** 8% default rate projection on PC direct lending [CONF CNBC Mar 25]. Vs **2–2.5% historical avg** = 3-4x normal. MS frames as "significant but not systemic" (lower leverage vs 2008). **KEY: Bulk of the 8% = "amend-and-pretend"** (maturity extensions, covenant waivers, PIK) — shadow defaults, not hard defaults. This RECONCILES with our 4-5% true default rate: reported ~1.5% + shadow ~3-4% via amend-and-pretend + remaining hard defaults = ~8% total distress rate.
+- **Software sector = 26% of direct lending** [CONF MS via CNBC Mar 25] — concentrated vulnerability to AI disruption
+- **Raymond James (Mar 25):** "Takes private credit from a 'zero loss' fantasy to a more normal credit asset class" [CONF CNBC Mar 25]
 - **UBS stress test:** 15% default scenario still on table.
 - **Apollo's Zito (Mar 16):** "All the marks are wrong" — software PE marks, 20-40 cent recovery.
 
@@ -146,5 +160,13 @@
 - **UBS:** 15% stress scenario
 - **Bahnsen (Mar 20):** Pushback — "grossly misunderstood" contagion narrative
 
-## Thesis Status: CONFIRMED, ESCALATING, BROADENING
-Morningstar DBRS 94% distressed-exchange stat is the smoking gun for "marks are wrong" thesis — companies are defaulting, just not calling it that. APO Epstein class action expansion (Rowan personally named, two firms active) adds governance risk on top of credit risk, potentially explaining prior relative "outperformance" (different risk profile, not safety). BofA buy call generated one-day noise; macro overwhelmed it. Watch for whether APO underperforms peers now that legal risk is explicit.
+## Thesis Status: CONFIRMED, ESCALATING, NARRATIVE INFLECTION
+
+**Stage 2→3 transition now in mainstream press.** CNBC "zero-loss fantasy" headline = consensus narrative catching up to our thesis. MS 8% default projection validates our shadow default framework — the gap between reported (1.5%) and real (~8% including amend-and-pretend) is now Wall Street consensus, not contrarian. BlackRock HPS ($26B) confirmed as largest single fund gate by AUM. 9 funds gated in 8 weeks with >$2B trapped capital.
+
+**Key shift:** "Amend-and-pretend" now named explicitly by MS and Raymond James — shadow defaults are no longer our private thesis, they're sell-side talking points. This is both validation and warning: when consensus catches up, the move accelerates but positioning alpha shrinks.
+
+**Watch:** ARESSI Mar 26 (tomorrow), OBDCII Mar 27–Apr 3. If ARESSI confirms >10% requests, gate count hits double digits.
+
+## BOTTOM LINE
+Private credit contagion is transitioning from Stage 2 (gates/outflows) to Stage 3 (forced marks/selling). CNBC's "zero-loss fantasy" article is the narrative inflection — mainstream press now says what we've tracked for weeks. MS projecting 8% total distress rate (including amend-and-pretend) confirms our shadow default framework. BlackRock HPS ($26B, largest single gate), ARES (11.6% requests confirmed), and MS/Raymond James commentary all landed in one day. **Single most important thing to watch: ARESSI tomorrow (Mar 26) and OBDCII next week — if both gate, we're at 11 funds and Stage 3 is undeniable.**
