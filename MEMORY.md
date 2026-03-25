@@ -41,3 +41,7 @@
 - **Stale data:** Skip VX rows >5 trading days. Pull live before citing STATUS >24h.
 - **Schema standard:** REGINALD TSV format. Mechanically triggerable vectors > vibes.
 - **Poisoned refs:** Separate methodology from live data. Methodology = thresholds only, never current values.
+- **Two-pass KB seeding works.** Pass 1 = extract facts to staging list (SCRATCH). Pass 2 = fresh context, convert to TSV. Separation prevents quality drift. Used for WAL (61 rows in one night).
+- **WAL = fast-transmission, OZK = reservoir.** Different loss patterns → different scenario structures → different put expiry logic. WAL losses bypass pipeline (SF NCO highest, pipeline lowest). OZK losses accumulate behind interest reserves.
+- **Short interest contrast matters.** OZK 13.81% (crowded, squeeze risk). WAL 3.54% (not consensus, repricing edge). Low SI = you're ahead of the market, but less institutional validation.
+- **Domain audits via subagent spawn = high value.** Cold-boot agent reading the full domain catches staleness, orphan files, evidence gaps that the daily operator misses. Run periodically.
