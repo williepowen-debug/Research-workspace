@@ -1,6 +1,6 @@
 # OZK — Dashboard
-**Updated:** 2026-03-23 | **Conviction:** 🔴🔴 HIGH | **Thesis:** RESERVOIR
-**Price:** ~$49 | **TBV:** $41.48 | **P/TBV:** 1.18x
+**Updated:** 2026-03-25 | **Conviction:** 🔴🔴 HIGH | **Thesis:** RESERVOIR
+**Price:** ~$49 | **TBV:** $41.48 | **P/TBV:** 1.18x | **KB:** 141 rows, 16 groups
 
 ---
 
@@ -11,52 +11,77 @@
 | $42.5P | Aug 21 | 1 | — | 2-3: NY pipeline + IQHQ |
 | $45P | Aug 21 | **4** | 2 @ prev + 2 @ $4.05 (Mar 24) | 2-3: NY pipeline + IQHQ |
 
-## What's Changed Recently
-- **Mar 23:** FDIC QBP geographic analysis — NY pipeline 0.41% (highest), Dallas E&P gap 1.69pts (largest). Filed.
-- **Mar 23:** Temple 8 short thesis — ACL-NCO inversion confirmed, IQHQ whale identified. Filed.
-- **Mar 23:** FDIC industry data — reserve coverage 171.2% declining, problem banks +69% from trough. Filed.
-- **Mar 23:** Folder restructured to self-contained with sources + research subdirs.
+## Thesis Strength After 141 KB Rows
 
-## Thesis One-Liner
-Slow-building reservoir of unrecognized CRE losses, masked by reserve cuts and extend-and-pretend. 2022 vintage maturity wall forces recognition Q1-Q3 2026. ACL buffer already gone (coverage <1.0x). Three waves: Atlanta (now), NY pipeline (Q2), IQHQ (Aug).
+| Domain | Verdict | Key Finding | Confidence |
+|--------|---------|-------------|------------|
+| **Concentration** | 🔴 Confirmed outlier | 5.4x peer NCO, 7x peer C&D, coverage BELOW median | HIGH — 3 models, primary data |
+| **Extend-and-pretend** | 🔴 Mechanism proven | 590 mods, 98% avoid classification, 59% re-default, rate concession contradiction | HIGH — 10-K sourced |
+| **ACL thinning** | 🔴 Buffer gone | NCO 1.18% > ACL 1.16%. Provision covers half of losses. Coverage 184% (below peer 231%) | HIGH — FDIC verified |
+| **Maturity wall** | 🔴 Hitting now | $3.7B maturing 2026, Q1 front-loaded. $13.8B 2022 vintage on 36-42mo terms | MEDIUM — origination unverified |
+| **Life sciences** | 🔴 Worst asset type | RaDD 3.3% leased, IQHQ paying 16.5% rescue capital, downtown SD >90% vacant | HIGH — 2 models + broker data |
+| **FL condos** | 🟢 Fortress | 46% LTC, 50% deposit wall, all-cash buyers. NOT where thesis breaks | HIGH — 4 models converge |
+| **Geography** | 🟡 Surgical | 24% of RESG (life sci + office) holds 100% of distress. FL is fine. | HIGH — 58 MSAs mapped |
+
+**Strongest evidence:** Extend-and-pretend classification gap (590 mods / 10 classified). Peer comp (5.4x NCO). IQHQ distress cascade.
+**Weakest evidence:** $13.8B origination volume unverified. Short interest undated. RaDD maturity discrepancy (Aug 2026 vs 2028).
+
+## Headline Numbers
+
+| Stat | Value | Source |
+|------|-------|--------|
+| OZK NCO vs peer median | **5.4x** (1.18% vs 0.22%) | KB-136, Prompt #7 |
+| RESG modifications | **590** over 14 quarters, avg loan modified 2x | KB-101, D6 |
+| Classification gap | **98%** of mods avoid "financial difficulty" label | KB-096 |
+| Re-default rate | **59%** of classified mods re-defaulted | KB-097 |
+| RaDD leasing | **3.3%** (50K of 1.5M SF) | KB-137, Prompt #15 |
+| IQHQ rescue capital cost | **13.5-16.5%** (PIK + preferred) | KB-139 |
+| Downtown SD vacancy | **>90%** | KB-140 |
+| FL deposit wall | **30-50%** non-refundable pre-close | KB-125 |
 
 ## Catalyst Calendar
 | Date | Event | Status |
 |------|-------|--------|
-| **Mar 25** | 8-K EDGAR watch begins | Pending |
-| **Apr 16** | **Q1 2026 Earnings** | 24 days — PRIMARY CATALYST |
+| **Mar 25** | Jefferies Q1 (WAL read-through) | ⚠️ NOT PULLED — 3x deferred |
+| **Apr 16** | **Q1 2026 Earnings** | 23 days — PRIMARY CATALYST |
 | ~Apr 20-21 | Peer earnings (ZION, WAL) | Sector read-through |
-| **Aug 2026** | IQHQ RaDD maturity ($915M) | Aug puts aligned |
+| **~Aug 2028** | IQHQ RaDD maturity (extended from Aug 2026) | Outside put window — narrative catalyst only |
 
-## Research Agenda — Single Task Tracker
-*This is the ONE authoritative list. GAP_ANALYSIS Part 7 is frozen. EXTERNAL_PROMPTS.md is Will's tool — when results land in sources/, check items off here.*
+## What's Changed (Mar 24-25)
+- **+21 KB rows** (120→141): FL Paradox (121-132), Peer Comp (133-136), IQHQ RaDD (137-141)
+- **KB_INDEX.md** built — 16-group navigator, audited and fixed
+- **D6_EXTEND_AND_PRETEND.md** — thesis Layer 2 synthesis
+- **LIFE_SCI/** standalone folder created (README, STATUS, FINDINGS)
+- **FL_PARADOX/FINDINGS.md** — 4-model synthesis, FL confirmed fortress
+- Positions: +2 OZK Aug $45P @ $4.05, +1 WAL Sep $67.5P, +2 FLG Jul $13P
+
+## Investigation Domains
+| Folder | What | Status |
+|--------|------|--------|
+| `GEOGRAPHY/` | 58 MSAs, $2.9B distressed cluster, FL Paradox | ✅ Complete (Mar 24) |
+| `LIFE_SCI/` | RaDD, Boston, Chicago life sci exposure | ✅ Prompt 15 done, Prompt 20 pending |
+| `research/` | D1-D6 deep dives, C1-C3 counter-arguments | ✅ D6 new (Mar 24) |
+| `workbook/` | 141-row KB + KB_INDEX navigator | ✅ Audited (Mar 24) |
+
+## Research Agenda
 
 ### MUST DO (This Week)
-- [ ] Set up 8-K EDGAR monitoring — CIK 0001609065 (window is NOW)
-- [ ] Pull current short interest — FINRA or Ortex (undated everywhere)
-- [ ] Update stock price (~$49 vs SCENARIOS ~$42-44 — reconcile)
+- [ ] Jefferies Q1 — WAL read-through (3x deferred, DO IT)
+- [ ] 8-K EDGAR monitoring — CIK 0001609065
+- [ ] Pull current short interest — undated everywhere
+- [ ] Reconcile stock price (~$49 vs SCENARIOS ~$42-44)
 
-### SHOULD DO (Before Apr 10)
-- [x] Gleason GFC track record — FDIC CERT 110, 2007-2012 *(Prompt #1)* ✅ KB-064/065/066
-- [x] Interest reserve depletion model *(Prompt #3)* ✅ KB-080/081/088-093 (4 LLMs: depletion timeline, cap interest gap, net burn rate, cascade mechanics, $500M hold limit, buybacks)
-- [x] TDR/modification data from 10-K *(Prompt #4)* ✅ KB-096→106 (590 mods, 98% classification gap, 59% re-default, rate concession contradiction, NPL forensics, NIM compression)
-- [x] FL Paradox stress-test — 4 LLM synthesis *(Prompt #6)* ✅ KB-121→130 (Biscayne 21, FinCEN, SB 4-D, insurance, deposits, extensions, project progress, ACL build, UBS bubble, compound cascade)
-- [x] Peer ACL/NCO comp table — 8 CRE-heavy regionals *(Prompt #7)* ✅ KB-133→136 (3 models: OZK 5.4x peer NCO, 7x peer C&D, coverage BELOW median, WAL thinnest)
-- [x] Construction loan maturity schedule *(Prompt #2)* ✅ KB-074/075/076/077/078/079
-- [x] IQHQ RaDD leasing + IQHQ distress *(Prompt #15)* ✅ KB-137→140 (3.3% leased, maturity extended to Aug 2028, IQHQ capital cascade, downtown SD >90% vacant)
-- [ ] Updated insider filings (Form 4s since Feb 24)
+### PROMPTS REMAINING (Will running externally)
+- [ ] #16 Insider transactions — Will working on it now
+- [ ] #8 Metropolitan failure comparison
+- [ ] #9 Affinius bonds (co-lending partner)
+- [ ] #10 Sell-side consensus
+- [ ] #13 Peer 2022 vintage maturity wall
+- [ ] #19 Metro market conditions
+- [ ] #20 Life sci vacancy deep dive
 
-### NICE TO HAVE
-- [ ] Metropolitan Capital failure comparison *(Prompt #8)*
-- [ ] Affinius Capital bond details *(Prompt #9)*
-- [ ] Sell-side consensus *(Prompt #10)*
-- [ ] FHLB Dallas advance rates *(Prompt #11)*
-- [ ] Buyback activity update *(Prompt #12)*
-- [ ] Peer 2022 vintage maturity wall *(Prompt #13)*
-- [ ] Options implied move for Apr 16 *(Prompt #14)*
-- [ ] State-level RC-C noncurrent breakdowns
-- [ ] Source $13.8B 2022 origination claim
+### COMPLETED PROMPTS
+#1 GFC (064-066) · #2 Maturity (074-079) · #3 Interest reserve (080-093) · #4 TDR (096-106) · #5 Geography (107-120) · #6 FL Paradox (121-132) · #7 Peer comp (133-136) · #15 IQHQ RaDD (137-141)
 
 ## Navigation
-**Cold boot? Start at `INDEX.md`** — boot sequence, key numbers, full file map.
-KB.tsv (workbook/) is the canonical evidence store. EVIDENCE.md is legacy — archive post-earnings.
+**Cold boot → `INDEX.md`** | **KB navigator → `workbook/KB_INDEX.md`** | **Thesis → `THESIS.md`** | **Earnings → `EARNINGS_PREP.md`**
