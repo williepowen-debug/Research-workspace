@@ -26,6 +26,9 @@
 3. Prune `MEMORY.md` — remove entries that are stale, superseded, or fully resolved
 4. Verify `SCRATCH.md` reflects current state (not last week's handoff)
 
+### Toscanini Mode
+When Will checks in for a working session, read `PROME/TOSCANINI/QUEUE.md` and present active proposals. See `TOSCANINI/PROTOCOL.md` for full rules, `TOSCANINI/AUTONOMY.md` for what needs approval vs what's free. Log decisions to `TOSCANINI/DECISIONS.md`. Check `TOSCANINI/WILL_QUEUE.md` for items only Will can do.
+
 ### On-Demand (not at boot)
 - `BRIEFING.md`, `CALENDAR.md`, `FORGE/STATUS.md`, `FORGE/ACTIVE_TRADES.md`
 - `WILL/` — journal, `IDEAS.md`, `trading-journal/`
