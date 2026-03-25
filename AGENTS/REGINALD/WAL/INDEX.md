@@ -1,7 +1,7 @@
 # WAL — Agent Index
 **Start here on cold boot.**
 
-**Last session (Mar 25 late):** KB.tsv seeded — **59 rows across 10 groups**. KB_INDEX.md written with vector mapping, thesis layers, staleness tracking. Architecture complete.
+**Last session (Mar 25 late):** KB.tsv seeded — **61 rows across 10 groups**. KB_INDEX.md written with vector mapping, thesis layers, staleness tracking. Architecture complete.
 
 ---
 
@@ -44,7 +44,7 @@
 | 1 | `STATUS.md` | 1 min | Dashboard, positions, catalysts, research agenda |
 | 2 | `THESIS.md` | 4 min | Full thesis — three vectors, geographic evidence, insider, bull rebuttals |
 | 3 | `SCENARIOS.md` | 1 min | Bull/base/bear with triggers |
-| 4 | `workbook/KB.tsv` | 3 min | **59-row** canonical evidence database |
+| 4 | `workbook/KB.tsv` | 3 min | **61-row** canonical evidence database |
 | — | `workbook/KB_INDEX.md` | 2 min | **10 groups** → vectors → thesis layers → staleness |
 
 ## File Map
