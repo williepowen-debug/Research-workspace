@@ -1,7 +1,113 @@
 # CARL STATUS
-**Updated:** 2026-03-23 13:15 UTC (Pruned — archive: `workbook/STATUS_archive_mar1_mar15.md`)
+**Updated:** 2026-03-25 13:47 UTC (Pruned — archive: `workbook/STATUS_archive_mar1_mar15.md`)
 
-**Overall Status:** 🔴🔴 CRITICAL — Phase change Mar 18. FOMC hold (hawkish, 1 cut median) + Gulf military escalation (Brent $108+, Ras Laffan burning) = consumer double-bind LOCKED. Gas $3.91→$4 days away. Diesel >$5. No monetary relief valve. Subprime auto 7.1% ATR breached. **NEW: "Help with mortgage" Google Trends at ALL-TIME HIGH (surpasses GFC).** Lennar gross margin 15.2% (lowest since 2010). Housing stress activating Path C BEFORE mass employment crack — thesis evolution. Convergence 43/50.
+**Overall Status:** 🔴🔴 CRITICAL — Phase change Mar 18. FOMC hold (hawkish, 1 cut median) + Gulf military escalation (Brent $108+, Ras Laffan burning) = consumer double-bind LOCKED. Gas $3.91→$4 days away. Diesel >$5. No monetary relief valve. Subprime auto 7.1% ATR breached. **NEW: "Help with mortgage" Google Trends at ALL-TIME HIGH (surpasses GFC).** Lennar gross margin 15.2% (lowest since 2010). Housing stress activating Path C BEFORE mass employment crack — thesis evolution. **NEW Mar 25: Russia suspends ammonium nitrate exports = ALL THREE global nitrogen sources offline. Unemployment duration 25.7 wks (4-yr high, +2 in Feb alone). Gas $3.977 — AT $4 breakpoint. UI exhaustion cliff Mar 24 passed = dual stress event confirmed.** Convergence 44/50.
+
+---
+
+## CHECK-IN — Mar 25 (16:31 UTC) — ABS SPRINT + CVNA TRIGGERS
+
+### ⚡ GRANT THORNTON RESIGNATION — EXPLICIT MONITORING TRIGGER (NEW)
+**GT audits ALL FOUR Garcia entities:** CVNA, DriveTime, Bridgecrest/GoFi, AND Tricolor ($800M fraud, confirmed).
+- **Resignation = fraud confirmation.** GT cannot sign off on financials as presented → forced restatement.
+- **Price impact: -50%+ day-of.** Binary, non-gradual, un-hedgeable without pre-position.
+- **Monitor:** EDGAR 8-K Item 4.01 / 4.02 (auditor change). Any withdrawal = immediate trigger.
+- **Companion trigger:** NT 10-K (late filing notification) fires first → -10 to -20% → GT resignation follows.
+- GCR explicitly predicts both. Tricolor precedent = same auditor, same structure, already confirmed fraud.
+- **CVNA_FRAUD_WATCH.md updated** with binary trigger framework and positioning logic.
+
+### ABS Sprint — CACC + ALLY 10-K Processed (KB-CARL-105 / KB-CARL-106)
+
+#### ALLY Financial FY2024 (Full Year)
+| Metric | 2024 | 2023 | Signal |
+|--------|------|------|--------|
+| Consumer auto NCO ratio | **2.2%** | 1.8% | 🔴 Rising |
+| Consumer auto NCOs ($) | **$1,810M** | $1,491M | +$319M YoY |
+| Consumer auto 30+ DPD | **$4.6B** | ~$4.5B | 🔴 Rising |
+| Nonprime auto loans | **$8.2B (9.7%)** | $8.7B (10.3%) | Slight contraction |
+| CVNA % of ALLY auto book | **8.6%** | 8.2% | 🔴 CVNA link |
+| ALLY Credit Card NCO | **11.2%** | 7.1% | 🔴🔴 Multi-channel |
+
+**CVNA link:** ALLY had $1.5B commercial floorplan line to CVNA (due Q2 2025) + 8.6% of retail auto book = Carvana loans. **ALLY exited CVNA retail origination channel Q1 2025** — creditor withdrawal confirmed.
+
+#### Credit Acceptance (CACC) FY2025
+| Metric | 2025 | 2024 | Signal |
+|--------|------|------|--------|
+| Provision for credit losses | **$616M** | $815M | Improving but elevated |
+| Forecast changes provision | **$338M** | $494M | 2022-24 vintage still underperforming |
+| Forecasted NCF decline | **$169M (1.5%)** | $314M (3.1%) | Smaller but cumulative |
+| Net income | **$424M** | $248M | Improvement |
+| Origination volume | **-12.6% units / -16.5% dollars** | — | 🔴 Deliberate pullback |
+
+**Key:** CACC deliberately cutting origination volume after 2022-2024 vintage underperformance. Pure-play subprime lender is de-risking. Confirms systemic vintage stress — not idiosyncratic.
+
+**Combined ABS reading:** ALLY NCO 2.2% (full spectrum) + CACC deliberately shrinking + Exeter 8 ABS deals upgraded/hiked = MULTIPLE subprime lenders signaling stress. The 7.1% 60+ DQ picture understates trajectory.
+
+---
+
+## CHECK-IN — Mar 25 (13:47 UTC) — INBOX PROCESSED
+
+### Inbox Files Processed
+| File | Source | Key Finding |
+|------|--------|-------------|
+| `2026 01 28 - Carvana.pdf` | Gotham City Research 70-pg report | Full FOIA-sourced DriveTime/Bridgecrest data. **Primary-source fraud documentation.** CVNA_FRAUD_WATCH.md updated. |
+| `2026 01 28 - Carvana - Supplemental materials.pdf` | GCR supplemental | Additional financial exhibits for DriveTime/GoFi structure. Archived to domain/sources. |
+
+### CVNA — Key New Data (GCR Report, Jan 28 — Now Fully Processed)
+- **DriveTime 20x-40x leverage** (historical max 10.3x) — FOIA confirmed, not estimate
+- **Bridgecrest marked down $5.9B loan book -15%** in 2024 while CVNA booked $755M Gain on Sales (same year, same loans)
+- **73% of CVNA adj EBITDA** = related-party subsidies + Gain on Loan Sales. Ex-these: margin -2.5% net, 3.4% EBITDA
+- **Grant Thornton = auditor for CVNA + DriveTime + Bridgecrest/GoFi + Tricolor** (all four entities)
+- GCR predicts: 10-K delay, restatements, Grant Thornton resignation
+- Stock now ~$315 (**-35% YTD** from $486 peak). Q4 missed adj EBITDA despite revenue beat.
+- Abelian Analysis issued **second** short report in 2026 (Gotham City Research = first)
+- Class action nearing **deposition phase** (Beeli Capital Mar 2026)
+- **CVNA_FRAUD_WATCH.md fully updated** — see for complete catalyst table
+
+### ABS/Subprime Auto — Status (No New Data Since Mar 25 13:31)
+- Subprime 60+ DQ **7.1%** still at all-time record breach
+- No new Fitch/S&P ABS print since last update — next watch: Q1 ABS remittance data
+- Consumer stress building: gas $3.977, UI exhaustion cliff passed Mar 24, unemployment duration 25.7wks
+- **These are Q2 detonators for ABS conversion** — DQ → default → ABS trust triggers Q2-Q3
+
+### Fraud / Bankruptcy Developments
+| Entity | Status |
+|--------|--------|
+| CVNA / Bridgecrest | 🔴 GCR FOIA report confirms fraud structure. Deposition phase. GT resignation = primary trigger. |
+| Tricolor | 💀 $800M fraud confirmed. Bank creditors (JPM/Barclays/Fifth Third) in active litigation. |
+| Flagship Credit | 🔴 Mass layoffs, fire sale to InterVest — distressed lender exit |
+| CPSS | 🟠 Class action + $900M forward flow dependency — watch Q1 earnings |
+
+### Proposals for Will (Mar 25 — Post Inbox)
+1. **[APPROVE/REJECT] CVNA POSITION REVIEW:** Stock at $315 (-35% YTD). Fraud thesis now primary-source documented (GCR FOIA). Grant Thornton resignation = the catalyst that moves this from allegation to confirmation. Is CVNA currently in our portfolio or watch list? Recommend defining entry/exit triggers based on: (a) GT resignation, (b) 10-K delay, (c) BLAST ABS restatement.
+2. **[APPROVE/REJECT] ABS SPRINT — CACC + ALLY:** Pending folder contains `CACC.pdf` and `ALLY 10k.pdf`. Credit Acceptance (CACC) is the deepest subprime auto originator — Q4/full-year data would update our 7.1% ATR picture with a pure-play signal. Request to read and integrate. OTTO previously flagged this sprint.
+3. **MONITOR:** GCR predicted Grant Thornton resignation. No confirmation yet. Set alert — this is binary catalyst. If GT resigns: CVNA fraud moves from thesis to confirmed, stock likely -50%+ day.
+
+---
+
+## CHECK-IN — Mar 25 (13:31 UTC)
+
+### 1. New Data Since Mar 23
+| Item | Data | Source |
+|------|------|--------|
+| **🔴🔴 Russia suspends ammonium nitrate exports** | Third major fertilizer source offline. Gulf urea (Hormuz/Ras Laffan) + China N-K halt (Mar 17) + Russia AN = ALL THREE global nitrogen sources simultaneously impaired. Spring planting decisions happening NOW. USDA Planting Intentions Mar 31 = **6 days.** CF Industries thesis maximum strength. | Bloomberg, Mar 24 |
+| **🔴 ICE enforcement: 1,100+/day = ~33K workers/month removed** | Concentrated in ag, construction, food processing. Hyundai GA raid (475 workers). H-2A pipeline clogged to July — legal replacement delayed. Court conceded "not enough Americans." Cost-push channel: labor removal → food prices → CPI food acceleration → Fed trap (can't cut into supply-side inflation). Cross-signal from MARCO. | NYT Mar 20, UFW v. DOL (E.D. Cal) |
+| **🔴 Mexico remittances Jan 2026 YoY decline** | First January YoY drop since 2015 (Banxico). Full-year 2025: -4.6% YoY (worst since 2009). Real-time income confirmation for ICE labor removal. Secondary: localized retail/housing stress in CA/TX/FL immigrant communities. Cross-signal from MARCO. | Banxico Jan 2026 |
+| **🔴 Unemployment duration: 25.7 weeks** | +2 weeks in Feb alone. 4-year high. +6.3 weeks since Oct 2023. K-shape labor: bottom can't get rehired while headline stable. Employment leg buckling — confirms Path C running parallel not sequential. | BLS, Feb 2026 |
+| **🔴🔴 Gas pump: $3.977** | At $4 behavioral breakpoint. $3.91 Mar 20 → $3.977 Mar 25. UI exhaustion cliff Mar 24 passed = dual stress event landed. | AAA, Mar 25 |
+
+### 2. Threshold Check
+| Metric | Current | Threshold | Status |
+|--------|---------|-----------|--------|
+| Gas pump | **$3.977** | $4.00 behavioral | 🔴🔴 **AT THRESHOLD** |
+| Unemployment duration | **25.7 wks** | 26-wk = structural | 🔴 0.3 wks from signal |
+| Urea NOLA | **$683/mt** (last print) | $800/mt = panic | 🔴 Watch next print |
+| USDA Planting Intentions | — | Mar 31 | 🔴 6 days |
+
+### 3. Proposals for Will
+- **RESEARCH:** Pull next urea NOLA spot price — Russia AN suspension likely pushed it toward $750-800 range. Confirm before USDA Mar 31.
+- **MONITOR:** Unemployment duration — 0.3 weeks from 26-week structural threshold. If Mar data (Apr release) confirms ≥26 weeks, employment detonator is formally entering structural territory.
+- **CATALYST:** USDA Planting Intentions Mar 31 — if farmers signal reduced nitrogen application due to supply/price, food CPI Q2 timeline locks in. Flag to HAWK for harvest yield model update.
 
 ---
 
@@ -75,7 +181,7 @@
 ### Macro / Energy / Stress
 | Metric | Value | Status | Source |
 |--------|-------|--------|--------|
-| Gas Pump | **$3.91 → $4 in ~2 days** | 🔴🔴 Behavioral breakpoint imminent | AAA Mar 20 |
+| Gas Pump | **$3.977 — AT $4 BREAKPOINT** | 🔴🔴 Behavioral breakpoint reached Mar 25 | AAA Mar 25 |
 | Diesel | **$5.10** | 🔴🔴 First >$5 since 2022 | AAA Mar 19 |
 | Brent Crude | **$108+** | 🔴🔴 Ras Laffan burning, no ceiling until military resolution | Gulf signal Mar 18 |
 | HY OAS | **328bps** | 🔴 RED >320 breached. +25bps in 5 trading days. No policy backstop. | FRED Mar 13 |
@@ -84,7 +190,9 @@
 | Continuing Claims | **1,850K** | 🟠 YELLOW 1,900K not triggered. ↓21K. | BLS Mar 13 |
 | DOGE RIF | **327K permanent separations** | 🔴 Localized demand destruction DC/MD/VA | DHS |
 | Chicago Fed Real Retail | **0% real growth since Sep 2025** | 🔴🔴 Consumer stalled pre-oil-shock | Chicago Fed |
-| Urea NOLA | **$683/mt (+$167/wk)** | 🔴🔴 China halt + Gulf offline = seizure | HAWK |
+| Urea NOLA | **$683/mt (+$167/wk) → watch $800** | 🔴🔴 China halt + Gulf offline + Russia suspended = TRIPLE seizure | HAWK/Bloomberg |
+| Russia Ammonium Nitrate | **SUSPENDED (export ban)** | 🔴🔴 Third major global fertilizer source offline. Spring planting NOW. | Bloomberg Mar 24 |
+| Unemployment Duration | **25.7 weeks avg (+2 in Feb)** | 🔴 4-year high. +6.3wk since Oct 2023. K-shape employment buckling. | BLS Mar 2026 |
 | RV Market | **-50% in ~1.5yr** | 🔴🔴 High-income discretionary collapse leading indicator | Dealer walkthrough Mar 17 |
 
 ---
@@ -98,7 +206,7 @@
 | 3 | Fannie MF DQ → GFC | 🔴 4 | 0.74% = 6bps from peak. >0.78% = 5. |
 | 4 | Student Loan 90+ | 🔴 4 | 9.6%, likely >10%. Q1 data = 5. |
 | 5 | Gas Price Squeeze | 🔴🔴 5 | $3.91→$4 days. Diesel >$5. Brent $108+. Max. |
-| 6 | UI Exhaustion Wave | 🟠 3 | Mar 24 first wave. Claims spike = 4. |
+| 6 | UI Exhaustion Wave | 🔴 4 | Mar 24 first wave PASSED. Duration 25.7wks (4-yr high, +2 in Feb). Employment leg buckling. Duration ≥26wks = 5. |
 | 7 | FL Triple Squeeze | 🔴 4 | Energy + HOA + Insurance. Migration -93%. |
 | 8 | Reverse Wealth Effect | 🔴🔴 5 | RV crash + upper income pullback. Max. |
 | 9 | K-Shape CONVERGING | 🔴🔴 5 | Both cohorts moving DOWN simultaneously. Max. |
@@ -162,15 +270,16 @@
 
 | From | Signal | CARL Effect | Status |
 |------|--------|-------------|--------|
-| LABOR | NFP -92K, claims 213K, UI cliff Mar 24 | Employment detonator + consumption cliff → May DQ spike | 🔴 ACTIVE |
+| LABOR | NFP -92K, claims 213K, UI cliff Mar 24; **avg duration 25.7wk (+2 in Feb, 4-yr high)** | Employment detonator + consumption cliff → May DQ spike. Duration surge = employment leg buckling (K-shape) | 🔴 ACTIVE |
 | HAWK | WTI $107+, gas $3.91, diesel $5.10, Brent $108+ | Gas squeeze STRUCTURAL — Hormuz mined, no relief until military resolution | 🔴🔴 LOCKED |
 | WAR | Gulf escalation Mar 18: Ras Laffan burning, IRGC targets all GCC energy | Oil shock = active battlefield. No ceiling. | 🔴🔴 PHASE CHANGE |
 | FOMC | Hold 3.50-3.75%. 1 cut median (7-7). PPI +0.7% MoM. | No monetary relief valve. Powell boxed. | 🔴🔴 LOCKED |
-| HAWK | Fertilizer: China N-K halt + Gulf offline + Fertiglobe trapped | Triple seizure. Food CPI Q2-Q3. CF Industries beneficiary. | 🔴🔴 PREDICTED TRIGGER |
+| HAWK | Fertilizer: China N-K halt + Gulf offline + Fertiglobe trapped + **Russia ammonium nitrate suspended** | TRIPLE source seizure confirmed. Food CPI Q2-Q3 pulled to Q2. CF Industries thesis max strength. | 🔴🔴 CONFIRMED TRIGGER |
 | LABOR | DOGE RIF 327K + continuing claims 1,850K (YELLOW not triggered) | Localized demand destruction. Claims 50K below threshold. | 🟠 WATCH |
 | HENRY | VIX elevated, SPY <20-wk | Reverse wealth effect — upper income pullback explicit | 🔴 UPGRADED |
 | REGINALD | FL triple squeeze | FL DQ to outpace national Q2 | 🟠 ON TRACK |
 | BROCK | Blue Owl + BCRED gates | Middle-market cuts May-Jun | 🟠 ON TRACK |
+| MARCO | ICE 1,100+/day = ~33K workers/month from ag/construction/food processing. H-2A clogged to July. Mexico remittances -4.6% full-year 2025 (worst since 2009); Jan 2026 first YoY drop since 2015. | Cost-push inflation channel: labor supply shock → food prices → CPI food acceleration → Fed trap. Localized retail/housing stress CA/TX/FL. Cannot cut into supply-side inflation. | 🔴 NEW Mar 25 |
 
 ---
 
@@ -204,7 +313,8 @@
 |------|-----------|--------|
 | Week 1-2 | Gulf fertilizer stranded. Urea NOLA $516→$683. | ✅ CONFIRMED |
 | Week 2-4 | US distributor inventory drawdown. Spring planting decisions begin. | ✅ ACTIVE |
-| Week 4-6 | China halts N-K exports. AFBF warns Trump. Triple supply seizure. | ✅ **PREDICTED TRIGGER** |
+| Week 4-6 | China halts N-K exports. AFBF warns Trump. Triple supply seizure. | ✅ **CONFIRMED** |
+| **Week 5 (Mar 25)** | **Russia suspends ammonium nitrate (Bloomberg Mar 24). ALL THREE major global nitrogen sources offline simultaneously. CF Industries = last reliable supply. Urea NOLA watch $800/mt. USDA planting intentions Mar 31.** | 🔴🔴 **CONFIRMED — Mar 25** |
 | Week 6-10 | Planting disruption confirmed. Reduced nitrogen = lower yield locked. | 🟠 Watch USDA Mar 31 |
 | Q2-Q3 | Food CPI spike. Grocery inflation accelerates. Pulled forward from Q3-Q4. | 🔴 HIGH-CONFIDENCE |
 | Q3-Q4 | Peak food CPI transmission. K-shape amplifier for bottom 60%. | 🔴 SECONDARY WAVE |
@@ -215,7 +325,9 @@
 
 ## BOTTOM LINE
 
-**Phase change Mar 18.** FOMC hold + Gulf escalation = consumer double-bind LOCKED. Gas $3.91→$4 behavioral breakpoint this weekend + UI exhaustion cliff Mar 24 = dual stress event. **NEW thesis evolution Mar 23:** "Help with mortgage" Google Trends at ALL-TIME HIGH (surpasses GFC) + Lennar margin collapse to 15.2% (lowest since 2010) = **Path C activating.** Housing is cracking under cost burden (rates 6.86% + energy + insurance) BEFORE mass employment crack. This means employment is not the sole detonator — housing stress is running parallel. Convergence 43/50, five vectors at RED (4), four at max (5). **Q2 2026 is the primary DQ conversion window. Path C may accelerate bank transmission timeline.**
+**NEW Mar 25 (MARCO cross-signal):** ICE enforcement at 1,100+/day (~33K workers/month) + Mexico remittance -4.6% YoY (2025) = supply-side labor shock CONFIRMED transmitting to income loss in real time. Cost-push inflation channel open: ag/construction labor removal → food prices → CPI food acceleration → Fed trap deepens. H-2A legal replacement clogged to July. Cannot cut into supply-side inflation. Localized stress CA/TX/FL.
+
+**Phase change Mar 18.** FOMC hold + Gulf escalation = consumer double-bind LOCKED. Gas $3.91→$4 behavioral breakpoint this weekend + UI exhaustion cliff Mar 24 = dual stress event. **NEW thesis evolution Mar 23:** "Help with mortgage" Google Trends at ALL-TIME HIGH (surpasses GFC) + Lennar margin collapse to 15.2% (lowest since 2010) = **Path C activating.** Housing is cracking under cost burden (rates 6.86% + energy + insurance) BEFORE mass employment crack. This means employment is not the sole detonator — housing stress is running parallel. **NEW Mar 25:** Russia suspends ammonium nitrate exports = ALL THREE major global nitrogen sources offline simultaneously. Food CPI timeline pulled to Q2-Q3 with high confidence — 6 days to USDA planting intentions (Mar 31). Unemployment duration 25.7 weeks (4-yr high, +2 in Feb alone) = employment leg quietly buckling while headline rate holds steady. Convergence 44/50, five vectors at RED (4), five at max (5). **Q2 2026 is the primary DQ conversion window. Path C + fertilizer triple seizure = dual acceleration of timeline.**
 
 ---
 

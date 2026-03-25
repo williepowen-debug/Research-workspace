@@ -17,13 +17,13 @@ You are part of a multi-agent research network tracking systemic financial risk.
 
 When spawned with a task:
 
-1. **Check `mail/inbox/`** — process any pending signals (INTEGRATE, LOG, or DISCARD). **For each signal, log a one-line entry to KB.tsv** using the 13-column schema. Move processed signals to `mail/inbox/processed/`.
+1. **Check `inbox/`** — process any pending signals (INTEGRATE, LOG, or DISCARD). **For each signal, log a one-line entry to KB.tsv** using the 13-column schema. Move processed signals to `inbox/processed/`.
 2. **Read `STATUS.md`** — your current state, dashboard, active situations
 3. **Before writing to KB.tsv, read `workbook/SCHEMA.tsv`** — validate all enum fields (Conf, Epistemic, Status) against `allowed_values`. Use `default` values when unsure.
 3b. **Read `AGENTS/VOCABULARIES.tsv`** — use NETWORK_GROUPS for Group field, CANONICAL_ENTITIES for Entity field, SOURCE_TAGS for Source field. If no match exists, use closest term and note the gap.
 4. **Execute the task**
 5. **Write results back to your files** — update `STATUS.md`, log to workbook (KB/VX/FLOW) when appropriate
-6. **If your findings are relevant to another agent's domain, write to `mail/outbox/`**
+6. **If your findings are relevant to another agent's domain, write to `outbox/`**
 7. **If the task changes your thesis or key numbers, update STATUS.md before finishing**
 
 ⚠️ **Critical:** Always WRITE to STATUS.md. Do not just report findings back to PROME verbally. If it's not in the file, it doesn't persist.
@@ -54,7 +54,7 @@ When spawned with a task:
 **You do NOT own (other agents handle):**
 - [bullet list of adjacent domains and who owns them]
 
-**Boundary rule:** If you encounter signal in another agent's domain, write it to `mail/outbox/` as a signal file. Don't deep-dive it yourself. HERMES (the mail carrier agent) will deliver it.
+**Boundary rule:** If you encounter signal in another agent's domain, write it to `outbox/` as a signal file. Don't deep-dive it yourself. HERMES (the mail carrier agent) will deliver it.
 
 ---
 
@@ -130,10 +130,10 @@ Your STATUS.md must include explicit exit/falsification criteria. If the thesis 
 
 ## MAIL SYSTEM
 
-All inter-agent communication lives in `mail/`:
+All inter-agent communication lives in flat folders:
 
 ```
-mail/
+
   inbox/           ← inbound signals from other agents (delivered by HERMES)
     processed/     ← signals you've integrated (move here after processing)
   outbox/          ← outbound signals you write for other agents
@@ -142,7 +142,7 @@ mail/
 ```
 
 ### Sending Signals (Outbox)
-When you discover something relevant to another agent's domain, write a single `.md` file to `mail/outbox/`:
+When you discover something relevant to another agent's domain, write a single `.md` file to `outbox/`:
 
 - **Filename:** `YYYY-MM-DD_to-[target]_[short_description].md`
 - **Format:**
@@ -154,16 +154,16 @@ When you discover something relevant to another agent's domain, write a single `
 **Priority:** 🔴/🟠/🟡
 ```
 
-HERMES sweeps all outboxes twice daily and delivers signals to target agents' `mail/inbox/`. After delivery, HERMES moves the file to `mail/outbox/delivered/`.
+HERMES sweeps all outboxes twice daily and delivers signals to target agents' `inbox/`. After delivery, HERMES moves the file to `outbox/delivered/`.
 
 **When to send:** Threshold breaches, state changes, new evidence that crosses domain boundaries. Don't send routine updates — only things that would change another agent's assessment.
 
 **Sending to WILL (the human):** Use `To: WILL` for items that need human decision-making — trade ideas, position changes, threshold breaches requiring action, or time-sensitive approvals. Don't send routine analysis; only things Will needs to see or act on.
 
 ### Receiving Signals (Inbox)
-When spawned for inbox processing: **read `mail/PROTOCOL.md` first and follow it exactly.** It contains the full processing steps, outbox format, and receipt template.
+When spawned for inbox processing: **read `PROTOCOL.md` first and follow it exactly.** It contains the full processing steps, outbox format, and receipt template.
 
-All mail processing instructions live in `mail/PROTOCOL.md`, not in CLAUDE.md. This keeps CLAUDE.md light and puts instructions where the work happens.
+All mail processing instructions live in `PROTOCOL.md`, not in CLAUDE.md. This keeps CLAUDE.md light and puts instructions where the work happens.
 
 ---
 
@@ -261,7 +261,7 @@ Default: **F6** (cannot judge either dimension). Every new, unverified claim sta
 - Update Status to CONFIRMED, FAILED, PARTIALLY, or EXPIRED
 - Fill Date_Resolved and Outcome columns
 - Log resolution to KB.tsv as evidence (e.g., "PRED REG-08 CONFIRMED: KRE broke $65 on Mar 7")
-- Post significant confirmations/failures to `mail/outbox/` for cross-agent awareness
+- Post significant confirmations/failures to `outbox/` for cross-agent awareness
 
 ---
 
@@ -328,6 +328,6 @@ Update it every session. If your bottom line hasn't changed, your session didn't
 | `workbook/VX.tsv` | Vectors — tracked risk indicators with thresholds and state. |
 | `workbook/FLOW.tsv` | Transmission pathways — how stress travels between domains. |
 | `workbook/PREDICTIONS.tsv` | Falsifiable forecasts with confidence and resolution tracking. |
-| `mail/inbox/` | Inbound signals from other agents (delivered by HERMES). Process when spawned for it. |
-| `mail/outbox/` | Outbound signals for other agents. One file per signal. HERMES delivers. |
+| `inbox/` | Inbound signals from other agents (delivered by HERMES). Process when spawned for it. |
+| `outbox/` | Outbound signals for other agents. One file per signal. HERMES delivers. |
 | `domain/sources/` | Archived research and raw data |

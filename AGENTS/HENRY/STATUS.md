@@ -1,32 +1,46 @@
 # HENRY STATUS
-**Last Updated:** 2026-03-23 20:18 UTC | **War Day 24 — BULL TRAP / IRAN DENIES TALKS**
-**Status:** 🟡🔴 WHIPSAW DAY — False diplomatic rally. SPX +1.23% on Trump "talks" narrative. Iran IMMEDIATELY denied. 5-day pause on strikes = ticking clock. Brent -11% to $99.94 on same false signal. VIX spiked to 30+ intraday (first since Mar 9), then compressed sharply. This is the trap HAWK flagged. Thesis intact. Reversal window: 24-72h.
+**Last Updated:** 2026-03-25 20:17 UTC | **War Day 26 — BULL TRAP v2: 15-POINT PLAN REJECTED**
+**Status:** 🟡🔴 SECOND DIPLOMATIC PUMP IN 3 DAYS. Trump sent 15-point plan to Iran via Pakistan. Iran rejected. Same playbook as Mar 23. Market rallied anyway. VIX compressed again. Account -4.9% (bearish positions squeezed). Pattern: diplomatic headline → rally → rejection → but THIS time market didn't sell off into close. Dangerous for short-term positioning but thesis structurally intact.
 
 ---
 
-## MAR 23 EOD — CONFIRMED CLOSES
+## MAR 25 EOD — CONFIRMED CLOSES
 
 ### Today's Key Data
-| Asset | Close | Delta vs Mar 20 | Signal |
-|-------|-------|-----------------|--------|
-| SPX | **~6,586** | -20pts from 6,606 | 🔴 Rally failed to recover prior week. Still net DOWN. |
-| VIX | **~24-25** (est.) | Spiked to 30+ intraday | 🔴🔴 VIX 30+ CONFIRMED intraday (first since Mar 9). Vol compressed on false narrative = gamma trap |
-| 10Y | **4.348%** | -4.2bps from 4.39% | 🟡 Relief yield compression. Not structural — driven by Iran pause. |
-| 2Y | **3.848%** | ~-4bps | 🟡 Curve still stressed |
-| 30Y | **4.92%** | ~-4bps | 🟡 Long end relief, not confirmation |
-| Brent | **$99.94** | -$7 from ~$107 | 🔴 TRAP: -11% on denied talks. False move. Hormuz still closed. |
-| Dow | **~47,017** (+2.19%) | +996pts | 🟡 Relief rally. Dow still below 200-DMA recovery confirmation. |
-| Nasdaq | **21,647** (+1.6%) | Bounce from lows | 🟡 Tech rebound on energy relief |
-| RUT | **+2.5%** | Bounce | 🟡 Small caps bounced — WATCH: rate sensitivity means any vol reversal = hard decline |
+| Asset | Close | Delta vs Mar 23 | Delta vs Mar 24 | Signal |
+|-------|-------|-----------------|-----------------|--------|
+| SPX | **~6,610** | +24pts (+0.4%) | +54pts (+0.81%) | 🟡 Rally on diplomatic headline. Still below Mar 20 (6,606→now marginally above) |
+| VIX | **~24-25** (est.) | Flat | -2pts from 26.95 | 🔴 Vol crushed AGAIN by diplomatic narrative. Second compression in 3 days. |
+| 10Y | **4.326%** | -2.2bps from 4.348% | -6.6bps from 4.392% | 🟢 Significant yield drop. Flight to safety despite equity rally = DIVERGENCE |
+| 2Y | **~3.82%** (est.) | ~-3bps | TBD | 🟡 Curve compression continuing |
+| Brent | **$102.22** | +$2.28 from $99.94 | -2.2% on day | 🟡 Intraday low $97.57 then recovered. Still structurally elevated vs pre-war. |
+| WTI | **~$90** (est.) | — | -2.2% | 🟡 Tracking Brent |
+| Dow | **~46,850** (+359pts) | — | +0.77% | 🟡 Another diplomatic rally |
+| Nasdaq | — | — | +0.92% | 🟡 Tech led |
+| Gold | **$4,547** | — | +$145 (+3.3%) | 🔴🔴 GOLD RIPPING while equities rally = hedging demand NOT declining |
+| Bitcoin | **$71,669** | — | +$1,101 | 🟡 Risk-on but muted |
 
-### What Was NEW Today (Mar 23 Specific)
-1. **TRUMP "PRODUCTIVE CONVERSATIONS" TWEET** — Announced 5-day pause on military strikes against Iranian power plants and energy infrastructure. Markets rallied instantly. Brent crashed 11%.
-2. **IRAN DENIED ALL TALKS** — Iranian Foreign Ministry stated "no dialogue" exists between US and Iran. Regime denied any direct or indirect negotiations. This is confirmed contradiction.
-3. **VIX HIT 30+ INTRADAY** — First time since March 9. Pre-rally, war escalation fears drove vol spike. Trump tweet caused rapid compression. Vol trap is SET.
-4. **Iran Parliament threatened Treasury buyers** — Speaker Ghalibaf said entities financing US military via bond purchases are "legitimate targets." Sovereign credit threat vector — new.
-5. **10Y hit multi-month high INTRADAY** (above 4.39%) before falling back to 4.348% on Iran pause narrative.
-6. **5-day clock starts NOW** — Pause is conditional on "ongoing meetings." Iran says there are no meetings. Clock expires ~March 28 (aligns with five-day strike pause from LABOR outbox).
-7. **Brent broke below $100** — Settled $99.94 (Reuters). But based on denied narrative. Structural floor remains: Hormuz closed, Kuwait physical shortfalls ongoing.
+### What Was NEW Today (Mar 25 Specific)
+1. **TRUMP 15-POINT PLAN TO IRAN** — Delivered via Pakistan. Demands: destroy Natanz/Isfahan/Fordow, abandon proxies, reopen Hormuz as "free maritime zone," dismantle nuclear capabilities, hand enriched material to IAEA. Offers: sanctions removal, civilian nuclear assistance at Bushehr.
+2. **IRAN REJECTED CEASEFIRE** — "Iran does not accept a ceasefire... it is not logical to enter into such a process with those who violate the agreement." Military spokesman mocked Trump: "negotiating with yourselves."
+3. **MAR 24 WAS A DOWN DAY** — SPX -0.37% to 6,556.37. VIX spiked to 26.95. This was MISSED in our 2-day gap. The reversal from Mar 23's rally partially confirmed HEN-11.
+4. **10Y YIELD FELL HARD** — 4.392% → 4.326% (-6.6bps). Despite equity rally, bonds caught a bid. This is a DIVERGENCE signal — someone is buying protection.
+5. **GOLD +3.3% TO $4,547** — Gold ripping alongside equities = macro hedging demand is real. Not a risk-on day — it's a hedged risk-on day.
+6. **OIL WHIPSAW CONTINUES** — Brent hit $97.57 intraday (lowest since war escalation) then recovered to $102.22. Third major oil whipsaw in a week.
+7. **5-DAY CLOCK AT T-2** — Strike pause expires ~Mar 28. Iran has now rejected BOTH the vague "talks" narrative AND a concrete 15-point plan.
+
+---
+
+## CRITICAL STRUCTURAL OBSERVATION
+
+**Equities up + Yields down + Gold up = HEDGED RALLY, NOT CONVICTION RALLY.**
+
+This is the most important signal today. If this were genuine risk-on:
+- Yields would be flat or rising (growth expectations improving)
+- Gold would be flat or declining (no need for hedges)
+- VIX term structure would normalize
+
+Instead we have: SPX +0.81%, 10Y -6.6bps, Gold +3.3%. This is institutions BUYING the rally while simultaneously hedging downside. Smart money doesn't trust this.
 
 ---
 
@@ -35,57 +49,74 @@
 | # | Prediction | Status |
 |---|------------|--------|
 | HEN-04 | FOMC holds, both mandates, 0-1 cuts | ✅ **CONFIRMED** |
-| HEN-07 | Mar 16 relief rally = bull trap. Retests 6,632 or lower within 5 trading days | ✅ **CONFIRMED** |
-| HEN-08 | VIX gaps to 28+ | ✅ **CONFIRMED** — VIX 30+ intraday Mar 23. Close confirmation pending. |
-| HEN-09 | Brent $110-115 at Mar 19 open | ✅ **EXCEEDED** — hit $119, now $99.94 on false diplomatic signal |
-| HEN-10 | SPX tests 6,550-6,600 within 3 sessions | 🟡 **PARTIAL** — SPX 6,586 on Mar 23. In range but as a close on a RALLY DAY, not organic. |
-| HEN-11 | Iran "talks" rally = bull trap, violent reversal within 24-72h | 🔴 **NEW PREDICTION** — Thesis: Iran denial + 5-day countdown + vol compression = reversal trigger |
+| HEN-07 | Mar 16 relief rally = bull trap | ✅ **CONFIRMED** |
+| HEN-08 | VIX gaps to 28+ | ✅ **CONFIRMED** — 30+ intraday Mar 23, 26.95 close Mar 24 |
+| HEN-09 | Brent $110-115 | ✅ **EXCEEDED** — hit $119, now oscillating $97-105 on diplomatic whipsaw |
+| HEN-10 | SPX tests 6,550-6,600 | ✅ **CONFIRMED** — SPX 6,556 on Mar 24. Hit target. |
+| HEN-11 | Iran "talks" rally = bull trap, reversal 24-72h | 🟡 **PARTIAL** — Mar 24 gave back gains (-0.37%). But Mar 25 rallied again on 15-point plan. Pattern repeating: new headline → new pump. |
+| HEN-12 | 15-point plan rally = bull trap v2. Iran rejection + Mar 28 strike deadline = reversal catalyst | 🔴 **NEW PREDICTION** |
 
 ---
 
-## KEY DELTAS vs MAR 20 STATUS
+## KEY DELTAS vs MAR 23 STATUS (2-DAY GAP)
 
-| Vector | Mar 20 State | Mar 23 Close | Delta | Interpretation |
+| Vector | Mar 23 State | Mar 25 Close | Delta | Interpretation |
 |--------|-------------|--------------|-------|----------------|
-| SPX | 6,606.49 | ~6,586 | -20pts | Relief rally couldn't recover prior losses. NET DOWN. |
-| VIX | 27.28 | ~24-25 (est.) | Compressed; 30+ intraday | Vol trap: spiked to 30+, then crushed by Trump tweet. False compression. |
-| 10Y | 4.39% | 4.348% | -4.2bps | Modest relief. Not structural — Iran narrative driven. |
-| Brent | ~$107 | $99.94 | -$7 | Broke $100 on denied narrative. Will bounce back when reality sets in. |
-| Thesis validity | Max convergence | Trap set | Unchanged | Iran denial = 5-day countdown to reversal. Thesis intact. |
-| HEN-08 | Near-confirm at 27.28 | VIX 30+ intraday | ✅ CONFIRMED | HEN-08 fully confirmed on intraday print. |
+| SPX | 6,586 | ~6,610 | +24pts | Net FLAT over 2 days. Went down to 6,556 then back up. Chop. |
+| VIX | ~24-25 | ~24-25 | Flat (spiked to 27 Mar 24) | Vol stuck in compression zone. Each diplomatic headline crushes vol, each rejection spikes it. Exhausting both sides. |
+| 10Y | 4.348% | 4.326% | -2.2bps | Lower despite equity rally = divergence signal |
+| Brent | $99.94 | $102.22 | +$2.28 | Bounced as predicted. But intraday hit $97.57. Oil can't find a floor. |
+| Gold | ~$4,400 (est.) | $4,547 | +$147 | GOLD IS THE TELL. Up 3.3% in a day while equities rally = macro fear is REAL. |
+| Diplomatic status | Trump "talks" tweet, Iran denied | Trump 15-point plan, Iran rejected | ESCALATION of diplomatic theater | Same playbook, higher stakes. Iran rejection more emphatic this time. |
+| Strike clock | T-5 (started Mar 23) | T-2 (expires ~Mar 28) | 3 days elapsed | Running out of diplomatic runway before strikes resume |
 
 ---
 
-## CRITICAL LEVELS — NEXT SESSION (Tue Mar 24)
+## CRITICAL LEVELS — NEXT SESSION (Thu Mar 26)
 
 | Level | Status | Implication |
 |-------|--------|-------------|
-| SPX 6,600 | FAILED to close above | Market net LOWER despite biggest rally in weeks. Bearish structure. |
-| SPX 6,550 | HEN-10 target | Still in play — one bad session away |
-| VIX 30 | CONFIRMED intraday | Close above 30 = regime signal. Watch Tuesday. |
-| Brent $100 | Broke below on false signal | Recovery likely as Iran narrative collapses. |
-| 5-Day Clock | STARTED TODAY | Expires ~March 28. Iran says no talks exist. |
+| SPX 6,620 | Resistance (Schaeffer's flagged) | Must close above for bulls. Failed to reclaim. |
+| SPX 6,550 | Support (tested Mar 24) | Held. Break below = acceleration. |
+| VIX 25 | Pivot zone | Below = complacency. Above = fear returning. |
+| VIX 30 | Regime change | Close above = structural shift. |
+| 10Y 4.30% | Bull/bear line | Breaking below = flight to safety accelerating |
+| Brent $100 | Psychological | Intraday breaks increasing. Diplomacy keeping lid on. |
+| Gold $4,500 | New floor? | If gold holds above $4,500 while equities wobble = macro hedge positioning confirmed |
+| Mar 28 | Strike deadline | 5-day pause expires. Iran has rejected both diplomatic overtures. |
+| Mar 31 | Quarter-end | 6 days. Rebalancing flows + window dressing could amplify moves in either direction. |
 
 ---
 
-## CROSS-DOMAIN SIGNALS (Mar 23)
+## QUARTER-END DYNAMICS (NEW)
 
-- **HAWK (active):** "Talks" rally is a trap — Iran denial + active combat = violent reversal when narrative collapses. Vol compression = max exposure for new call buyers.
-- **LABOR (active):** Oil whipsaw $114→$96→$104 — employer planning paralysis deepens. $4/gas breakpoint at T-0/T-1. Five-day strike pause expires ~Mar 28 (ICE raids + oil uncertainty = hiring freeze).
-- **Iran Parliament → Treasury threat:** New sovereign credit vector. If traders price this even partially, yields could spike despite risk-off.
-- **PMI Tuesday (Flash):** Forecast 50.5 (down from 51.9). A miss below 50 = contraction signal. Combined with false Iran rally = double negative catalyst.
-- **UMich Friday:** Consumer sentiment already battered. Gas at $3.96 + war = likely miss.
+Mar 31 = Q1 close. Six trading days away. Key implications:
+- **Pension rebalancing:** If equities are down for Q1, pensions BUY stocks / SELL bonds. Could provide temporary support.
+- **Window dressing:** Fund managers sell losers, buy winners. Oil-exposed losers could face additional selling pressure.
+- **Gamma pin:** Dealers may try to pin SPX near round numbers through quarter-end.
+- **Vol compression:** Quarter-end often sees VIX compression as dealers roll positions. Could mask real risk until Q2 opens.
+- **WARNING:** Quarter-end is a MASKING event. Real price discovery resumes in early April.
+
+---
+
+## CROSS-DOMAIN SIGNALS (Mar 25)
+
+- **GOLD DIVERGENCE:** Gold +3.3% on a green equity day = institutions hedging. This is not a risk-on day. It's a "buy the rally, buy the hedge" day.
+- **BOND BID DESPITE EQUITY RALLY:** 10Y down 6.6bps while SPX up 0.81%. Someone is rotating into safety. Watch for curve steepening if this continues.
+- **OIL LOSING WAR PREMIUM:** Third sub-$100 intraday print this week despite Hormuz still closed. Market pricing in diplomatic resolution that Iran has explicitly rejected twice. This is mispricing.
+- **HAWK:** 15-point plan is maximalist — Iran will never accept "destroy all nuclear facilities + disarm." This is negotiation theater, not peace. Strike clock continues.
+- **LABOR:** Oil whipsaw ($97-$105 intraday range) = employer planning paralysis deepening. Energy cost uncertainty is real even at "lower" levels.
 
 ## POSITION IMPACT
 
 | Position | Status | Action |
 |----------|--------|--------|
-| IWM $250P Jun | RUT bounced +2.5% today — position compressed | ✅ HOLD — false rally. RUT is most rate-sensitive. Vol reversal = hard decline. |
-| HYG $75P Jun | Rally compressed HY spreads today | ✅ HOLD — credit stress not resolved. Iran denial = re-widening soon. |
-| TLT Puts | 10Y compressed to 4.348% today | ✅ HOLD — structural yield drivers intact. Iran Parliament Treasury threat = NEW upward yield catalyst. |
-| Regional shorts | Bounced on relief rally | ✅ HOLD — JPM retail fatigue (-30% purchases) + credit stress = regionals structurally weak. |
+| IWM $250P Jun | RUT rallied — position squeezed | ✅ HOLD — RUT 32% floating rate debt. Rate stress unchanged. Rally is diplomatic, not fundamental. |
+| HYG $75P Jun | Rally compressed HY spreads again | ✅ HOLD — credit stress structural. Each rally is a better entry. |
+| TLT Puts | 10Y FELL to 4.326% — TLT rallied | ⚠️ WATCH — bond bid is real. If 10Y breaks below 4.30%, TLT put thesis needs review. Flight-to-safety could override yield stress thesis. |
+| Regional shorts | Bounced on rally | ✅ HOLD — fundamentals unchanged. Quarter-end window dressing may add temporary support. |
 
 ---
 
 ## BOTTOM LINE
-**This was a TRAP DAY, not a recovery.** SPX is still NET LOWER than last Friday's close (6,606 → 6,586) despite the biggest Dow rally in weeks. The entire move was built on a Trump tweet that Iran immediately called fabricated. VIX spiked to 30+ first (confirming HEN-08) then got crushed by the false narrative — this is maximum gamma exposure for the bulls. Brent's drop to $99.94 is structurally unsupported: Hormuz is still closed, Kuwait physical shortfalls are deepening, and the 5-day pause clock expires ~March 28 — the same day as ICE raid/construction site labor shock and JPM's retail fatigue inflection. **The thesis is intact. The trap is set. The 5-day window is the reversal trigger.**
+**Day 2 of the same playbook: diplomatic headline → rally → Iran rejection.** But the STRUCTURE of this rally is weak — bonds caught a bid (10Y -6.6bps), gold ripped 3.3%, and VIX is being mechanically compressed by headline-driven gamma. The market is trading diplomatic theater while the strike clock ticks to Mar 28 (T-2). Iran has now rejected BOTH a vague "talks" narrative AND a concrete 15-point plan. The 15-point plan is maximalist (destroy all nuclear infrastructure) — Iran will never accept this. When the 5-day pause expires and strikes resume, the diplomatic premium that's been compressing vol and lifting equities evaporates instantly. Account is down 4.9% on short-term pain from repeated diplomatic pumps, but the thesis is intact: gold's rip and the bond bid confirm smart money isn't buying this rally for real. Quarter-end in 6 days adds noise. Hold through.
