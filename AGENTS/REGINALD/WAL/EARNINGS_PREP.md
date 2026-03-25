@@ -1,34 +1,172 @@
 # WAL — Q1 2026 Earnings Prep
-**Expected:** ~April 21, 2026 | **DRAFT — populate after KB build**
+**Date:** ~April 21, 2026 | **Current price basis:** $69.70 (Mar 25) | **Positions:** $85P Jun18 / $77.5P Sep18 / $70P Sep18 / $65P Jun18
 
 ---
 
-## Key Questions for the Call
+## PRE-CALL CHECKLIST (complete before Apr 21)
 
-1. **Memo Item 3 trajectory** — Did MI3/C&I ratio continue rising above 24.2%?
-2. **Provision build** — Any incremental reserves beyond Cantor $30M?
-3. **SSFA treatment** — Any regulatory commentary or reclassification?
-4. **Cantor resolution** — Additional markdowns, litigation updates?
-5. **CFO transition** — Idnani's first full quarter. What changes in disclosure/framing?
-6. **War impact** — CRE borrower stress from oil/energy spike?
-7. **Deposit flows** — Uninsured deposit concentration ($11.9B) stable?
-
-## What Would Confirm Thesis
-
-- MI3 ratio still rising
-- Provision build beyond Cantor
-- New charge-off episode (fast-transmission pattern)
-- Vague language on SSFA or "portfolio optimization"
-- Vecchione still absent / limited visibility
-
-## What Would Challenge Thesis
-
-- MI3 ratio declining + credible explanation
-- Clean credit quarter with no surprises
-- Insider buying pre-earnings
-- Specific SSFA regulatory validation
-- Deposit growth / uninsured deposit reduction
+- [ ] Pull Jefferies Q1 results + credit commentary (KB-WAL-040 — STALE as of Mar 25)
+- [ ] Form 4 scan: any insider buying? (KB-WAL-027 — zero as of Mar 25)
+- [ ] Short interest refresh — was 3.54% (KB-WAL-061; stale by Apr 20)
+- [ ] Cantor docket check — any court filings/settlements since Q3 (KB-WAL-018)
+- [ ] SSFA regulatory news scan — Basel III Endgame any updates (KB-WAL-013)
+- [ ] Vecchione status — returned from medical leave? (KB-WAL-024)
+- [ ] MI3 industry peer comparison — is WAL still the only bank with a RISING ratio? (External Prompt #2)
+- [ ] Pull Q1 press release MI3/C&I data BEFORE the call starts
 
 ---
 
-*Will be populated with KB evidence anchors after workbook build.*
+## VECTOR TRIPWIRES — WHAT THE NUMBERS MUST DO
+
+### Vector 1 — Hidden CRE (KB-WAL-001 through -007)
+
+| Metric | Q4 2025 (baseline) | CONFIRM thesis | CHALLENGE thesis |
+|--------|-------------------|----------------|-----------------|
+| MI3/C&I ratio | **24.2%** | ≥25% or any acceleration | <22% with credible explanation |
+| True CRE / Tier 1 | **474%** | Rising | <420% via genuine loan paydowns |
+| Labeled CRE % of loans | ~35% | Stable or rising (relabeling continues) | Falling WITH MI3 also falling |
+| Equipment Finance ($B) | $3.489B (-16.6% YoY) (KB-WAL-006) | Continued decline (what's growing isn't C&I) | Recovery with specific deal disclosure |
+| Memo Item 3 $ amount | $2.73B (KB-WAL-002) | >$2.9B | <$2.5B |
+
+**Hard tripwire:** MI3 ratio ≥25% = thesis accelerating. Buy more Sep puts on any post-earnings strength.
+**Defcon:** MI3 ratio disclosed AND declining two consecutive quarters with management offering verifiable attribution = thesis weakening, start closing Jun positions.
+
+---
+
+### Vector 2 — Cantor / Fast-Transmission Credit (KB-WAL-014 through -022)
+
+| Metric | Q4 2025 (baseline) | CONFIRM thesis | CHALLENGE thesis |
+|--------|-------------------|----------------|-----------------|
+| Cantor reserve | $30M (KB-WAL-014) | Any increase OR new charge-off | Full recovery disclosed with court order |
+| OREO balance | $137M (KB-WAL-019) | >$150M | <$100M declining trend |
+| Provision for credit losses | $80M (Q3 spike, KB-WAL-020) | >$50M Q1 (any non-Cantor source) | <$35M clean quarter |
+| NCO rate (FY trend) | 0.24% FY2025 (KB-WAL-052) | >0.30% annualized | <0.20% |
+| New episodic disclosures | Zero post-Cantor (KB-WAL-022) | ANY new credit irregularity | Explicit Cantor resolution >$50M recovery |
+
+**Critical:** WAL's fast-transmission pattern means clean Q1 provision ≠ all-clear. Cantor was invisible until it wasn't (KB-WAL-034). Evaluate OREO trajectory independently of provision build.
+
+**ZION comparison (KB-WAL-015, -016):** ZION took 83% loss rate on identical fraud. WAL at 30%. Gap = $52M potential additional charge-off if WAL aligns. Ask directly on Q&A.
+
+---
+
+### Vector 3 — SSFA Capital Arbitrage (KB-WAL-008 through -013)
+
+| Metric | Current (KB-WAL-008) | CONFIRM risk | CHALLENGE risk |
+|--------|---------------------|--------------|---------------|
+| SSFA total exposures | $17.22B | Any increase | Voluntary reduction with explanation |
+| CET1 ratio | 11.0% (KB-WAL-046) | Any decline below 10.5% | Rising above 11.5% |
+| "Other OBS" SSFA | $10.815B at 20% RW (KB-WAL-009) | Any disclosure of composition | Management proactively explains composition |
+| Regulatory language | None flagged (KB-WAL-013) | Any mention of "securitization review" | Explicit reaffirmation of SSFA treatment |
+
+**The $1.1B question:** Management will NOT discuss SSFA proactively. This only surfaces via analyst question or regulatory action. Monitor Call Report RC-R Part II Item 9d vs prior quarter.
+
+---
+
+## MANAGEMENT DEFENSE PLAYBOOK — WHAT THEY'LL SAY (AND HOW TO HEAR IT)
+
+### On NIM / Net Interest Income
+**Expected line:** "NIM expanded X bps as deposit costs stabilized / declined in the quarter."
+**Hear instead:** Check whether NIM expansion is from repricing assets OR from growing MI3 book at higher yields (which would CONFIRM relabeling — CRE structured as C&I carries higher stated yields). Ask: "What's the yield differential between your Memo Item 3 and traditional C&I?"
+
+### On Deposit Costs
+**Expected line:** "Deposit costs declined to X%, confirming our franchise strength and relationship banking model."
+**Hear instead:** Uninsured deposit concentration $11.9B vs ~$10B unpledged assets (KB-WAL-049). Any mention of promotional rates or deposit campaigns = pressure point. Watch for deposit beta commentary vs peer guidance.
+
+### On Loan Growth / C&I Mix
+**Expected line:** "C&I growth continues to drive our portfolio optimization away from CRE. Our CRE concentration has declined."
+**Hear instead:** This IS the relabeling. Demand specific disclosure: "Can you break out Memo Item 3 within C&I?" Management confirmed the mechanism on Q4 call (KB-WAL-004) — Vecchione + Bruckner said CRE% fell while true CRE ($36.8B) was stable.
+
+### On CRE Quality
+**Expected line:** "Our CRE portfolio continues to perform well. Noncurrent rates remain below national averages."
+**Hear instead:** SF district CRE noncurrent 0.90% BELOW national (KB-WAL-033) — management is right on this metric. But SF NCO rate is HIGHEST nationally at 1.13% (KB-WAL-030). Losses bypass delinquency pipeline (KB-WAL-034). Challenge: "How do you reconcile below-average delinquency with above-average charge-off rates?"
+
+### On Cantor
+**Expected line:** "The Cantor situation is isolated to our note finance segment. Our review of all loans >$10M found no additional irregularities."
+**Hear instead:** (a) Reserve unchanged at $30M vs ZION's 83% loss rate on identical fraud (KB-WAL-016); (b) Silence ≠ resolution (KB-WAL-018); (c) Cantor is the PATTERN, not the tail risk. Ask about recovery timeline and whether civil litigation has produced any asset identification.
+
+### On CFO Transition (Idnani)
+**Expected line:** "Dale brings deep capital markets expertise and will help us optimize our balance sheet as we continue to grow."
+**Hear instead:** Idnani came from JPM FIG — financial institutions group / restructuring advisory (KB-WAL-023). His entire career toolkit is built for stress scenarios. A growth bank hires a growth CFO. The 22-year incumbent CFO wasn't removed — he was "promoted" to VP Deposit Initiatives (parking title). Watch Idnani's word choices on capital adequacy, SSFA, and reserve methodology.
+
+---
+
+## KEY QUESTIONS FOR THE CALL
+
+**Q1.** "Memo Item 3 — 'loans to finance CRE not secured by real estate' — reached 24.2% of your C&I book in Q4, up from 15.5% two years ago. What drove that ratio in Q1, and at what level does management consider this ratio elevated?" *(KB-WAL-001, -004)*
+
+**Q2.** "ZION disclosed an 83% loss rate on the Cantor Group V fraud ring — the same perpetrators, same collateral manipulation methods as your exposure. Your reserve is $30M on $98.6M exposure, implying ~30% loss rate. What's the basis for that differential?" *(KB-WAL-015, -016)*
+
+**Q3.** "Your OREO balance has gone from $8M mid-2024 to $137M in Q4 2025 — a 1,600%+ increase. Is that entirely Cantor-related, and what's the current REO disposition timeline?" *(KB-WAL-019)*
+
+**Q4.** "Your $17.2B in securitization exposures carries a 20% risk weight under SSFA. Can you confirm that treatment hasn't been subject to any regulatory comment? And what's the composition of the $10.8B in 'other on-balance sheet' exposures — is that primarily warehouse lending?" *(KB-WAL-008, -009, -013)*
+
+**Q5.** "Equipment Finance fell 16.6% YoY to $3.5B while total C&I grew. What's driving that divergence, and where specifically is the C&I growth coming from?" *(KB-WAL-006)*
+
+**Q6.** "You have $11.9B in uninsured deposits against approximately $10B in unpledged assets. How has that coverage ratio moved in Q1, and what's your contingency if deposit behavior changes?" *(KB-WAL-049)*
+
+**Q7.** "CFO Idnani — this being your first full quarter: are there any changes to reserve methodology, SSFA treatment, or how the bank approaches Memo Item 3 disclosure that you're implementing?" *(KB-WAL-023)*
+
+**Q8.** "The San Francisco FDIC district shows the lowest 30-89 day delinquency pipeline nationally (0.26%) but the highest NCO rate (1.13%). That pattern — losses bypassing the pipeline — is evident in your charge-off history. How should investors model credit risk when traditional leading indicators don't predict your charge-offs?" *(KB-WAL-030, -031, -034)*
+
+---
+
+## PRE-EARNINGS DECISION MATRIX
+
+| What Is Disclosed | Action | Rationale |
+|------------------|--------|-----------|
+| MI3 ratio ≥25% + any provision increase | **Add Sep puts (70P or lower)** | V1 accelerating. Thesis confirmed. |
+| New charge-off event >$50M (any source) | **Add aggressively on the drop** | Fast-transmission has fired. Precedent: -10.88% (KB-WAL-054). |
+| Cantor reserve unchanged at $30M + Idnani vague on timeline | **Hold all** | Under-provision intact. Keg still loaded. |
+| Provision <$35M + MI3 flat/down + clean OREO | **Hold Sep, let Jun decay** | Base case grinding. No catalyst. Jun positions have limited time. |
+| MI3 declining + specific C&I attribution + Cantor ≥$70M reserved | **Close Jun puts, tighten Sep** | Thesis weakening. Reduce exposure to expiring positions. |
+| Insider buying disclosed (especially Idnani or Vecchione) | **Close Jun puts immediately** | Strongest thesis challenge signal (KB-WAL-027). |
+| SSFA regulatory comment disclosed OR CET1 <10.5% | **Hold everything. Consider tail position.** | V3 activating. |
+| Capital raise announcement | **Hold all, add cheap OTM puts** | Tail scenario confirming (KB-WAL-049). |
+| Management announces May 12 Investor Day cancellation | **Flag immediately** | Guidance loss = stress signal. |
+| Stock drops >8% on earnings | **Do not panic-close** | Market pricing what pipeline can't see. This is the thesis (KB-WAL-055). |
+
+---
+
+## POSITION MANAGEMENT — SCENARIO LINKAGE
+
+| Scenario (prob) | Stock target | Primary put beneficiary | Action if confirmed |
+|----------------|-------------|------------------------|---------------------|
+| Bear (45%, $42-52) | $47 mid | $77.5P Sep, $70P Sep | Hold Sep through Q2. $85P Jun consider rolling to Sep $70P. |
+| Base (30%, $55-65) | $60 mid | $85P Jun (already deep ITM) | Take partial profit on $85P. Hold Sep. |
+| Bull (20%, $75-88) | $81.50 mid | All puts lose | Exit Jun positions. Keep small Sep as tail hedge. |
+| Tail (5%, $28-38) | $33 mid | All positions win massively | Hold everything. Add cheap low strikes. |
+
+**$85P Jun — decision point:** Already deep ITM, delta ~1. If earnings are neutral/disappointing but no new catalyst, consider rolling to Sep $70P to free capital and extend runway through Investor Day (May 12) and any Q2 catalyst.
+
+**Key date:** May 12 Investor Day is the next major catalyst after Apr 21. If earnings are clean but thesis intact, Sep puts have runway. Jun puts expire Jun 18 — need a move by May.
+
+---
+
+## KB GAPS — WHAT'S MISSING
+
+| Missing Row | Why It Matters | Priority |
+|-------------|----------------|----------|
+| **Jefferies Q1 results** (KB-WAL-040 is stale) | V2 hinge — need credit provision data from Mar 25 after-close | 🔴 Critical before Apr 21 |
+| **WAL Q1 2026 loan composition detail** | MI3 is the most important number — need Call Report when filed | 🔴 Critical |
+| **Deposit beta / NIM detail Q4** | Management defense anticipation requires current NIM trajectory | 🟡 High |
+| **SSFA composition — "Other OBS" $10.8B** | KB-WAL-009 flags this as inferred; never confirmed | 🟡 High |
+| **Nevada gaming revenue data** (current) | KB-WAL-041 exposure is estimated 18-22%; no current gaming revenue stress data | 🟡 High |
+| **WAL Q1 press release / Call Report** | Will be filed ~Apr 21 — entire KB will need refresh post-earnings | 🔴 Obvious |
+| **Peer MI3 ratios** (ZION, FHB, BOKF) | External Prompt #2 pending. Need to confirm WAL is uniquely rising | 🟡 High |
+| **Idnani background detail** | KB-WAL-023 says "JPM FIG" — specific deals/roles would sharpen the restructuring thesis | 🟠 Medium |
+| **Vecchione return status** | KB-WAL-024 medical leave Dec 2024 — has he returned? Materially changes governance read | 🟠 Medium |
+| **Cantor court docket** | KB-WAL-017/021 cite litigation — no docket-level detail on asset recovery or timeline | 🟠 Medium |
+| **CLN counterparty identity** | KB-WAL-047 confirms $8.1B coverage but no counterparty. If counterparty = Jefferies-linked fund, V2+V3 merge | 🟠 Medium |
+
+---
+
+## ONE-PAGE THESIS SUMMARY (for call day)
+
+**The bet:** WAL's loan portfolio is ~59% true CRE (vs. labeled 35%) via a growing Memo Item 3 reclassification. At 474% CRE/Tier 1, they breach regulatory red lines using a definition that hides the exposure. Losses in their geographic footprint bypass delinquency pipelines and hit P&L directly — Cantor was the pattern. Their CFO swap (22-year veteran → JPM restructuring banker) is the insider tell. Zero insider buying confirms no floor confidence. Three independent vectors (relabeling, fraud/fast-transmission, SSFA capital gap) can each independently catalyze repricing from $69.70 toward $47 (bear) or $33 (tail).
+
+**The trade:** Not predicting insolvency — predicting EPS compression from $8.73 toward $5-7 at 7x P/E. Market is anchored to record earnings narrative and doesn't model fast-transmission or MI3 mechanics. 3.54% short interest means the smart money isn't there yet. We're early.
+
+**What kills it:** MI3 declining + insider buying + Cantor fully reserved. None of those are true today.
+
+---
+*KB: 61 rows | Scenarios: SCENARIOS.md | Weakness audit: WEAKNESSES.md | Last updated: 2026-03-25*

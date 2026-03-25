@@ -1,120 +1,260 @@
 # OZK — Q1 2026 Earnings Prep
-**Earnings Date:** April 16, 2026 | **Created:** Mar 23, 2026
-**Positions at stake:** $42.5P May x2 (Wave 1), $42.5P Aug x1 + $45P Aug x4 (Wave 2-3)
-**CIK:** 0001569650 (NOT 0001609065 — that's Pathfinder Bancorp) [KB-OZK-146]
+**Earnings Date:** April 16, 2026 | **Days Out:** 22 | **Last Updated:** Mar 25, 2026
+**Price:** ~$49 (⚠️ SCENARIOS.md calibrated at $44.70 — needs recalibration, see flag below)
+**CIK:** 0001569650 | **Positions:** $42.5P May×2 | $42.5P Aug×1 | $45P Aug×4
 
-*Delete this file after earnings are processed.*
-
----
-
-## PRE-EARNINGS CHECKLIST
-
-### CONFIRMED PRE-EARNINGS DEVELOPMENTS (Mar 24)
-- **Sterling Bay Lincoln Yards seized** (Mar 20, 2026): 284K SF life sci building, deed-in-lieu, 100% vacant since 2023. Carrying value $50M (68% of $74M appraisal). $14.1M charged off H2 2025. Now OREO via BOTO Strategic Properties IV LLC. [KB-OZK-094]
-- **$265M SD life sci loan sold to SVP** (Jan 2026): Sterling Bay project, largely vacant. Sold to distressed buyer Strategic Value Partners. Loss amount unknown — need to check Q1 charge-offs. [KB-OZK-095]
-- **Key Q1 question:** Did the SVP loan sale generate additional charge-offs in Q1? The $265M was still on book at Q4. If sold at discount, Q1 NCOs could spike.
-
-### Data to Pull Before Apr 16
-- [ ] **8-K EDGAR watch** — CIK 0001569650. Any forced pre-announcement, loan sale disclosures, material events.
-- [ ] **Life sciences vacancy Q1** — Prompt #20 (Will running). SD, Boston, national.
-- [ ] **Peer earnings** — ZION (~Apr 20), WAL (~Apr 21) for sector read-through
-- [ ] **Jefferies Q1** — WAL read-through. 3x deferred.
-- [ ] **Short interest refresh** — undated at 14-15%. Need current from FINRA/Ortex.
-- [x] ~~IQHQ RaDD leasing~~ → **3.3% leased** (JCVI 50K SF), maturity extended ~Aug 2028 [KB-137-138]
-- [x] ~~Insider filings~~ → **Zero buys 18mo**, 65:1 sell ratio, CRO filled (Majumdar) [KB-142-145]
-
-### 8-K Watch Framework (from research/8K_FORCED_DISCLOSURE_FRAMEWORK.md)
-Banks must file 8-K within 4 business days for material events including:
-- Significant loan impairments requiring disclosure
-- Material changes to reserve adequacy
-- Goodwill impairment triggers
-- Departure of key officers (already happened — watch for more)
-
-**OZK's recognition lag hierarchy:** Extend-and-pretend → maturity default → NPA classification → charge-off. Average lag: 6-18 months. The 2022 vintage maturities hitting now are 36-42 months post-origination = right on schedule.
-
-### Q1 2026 Maturity Context (from Prompt #2/#3 research, Mar 24)
-- **$3.7B total loans maturing in 2026** [KB-OZK-074]. Q1 is front-loaded — management guided "elevated payoff velocity" and "a lot of payoffs" in Q1 [KB-OZK-075].
-- Estimated Q1 maturities: **~$1.8B** (40% of $4.575B commitments maturing 2026) [KB-OZK-080]. LOW CONFIDENCE estimate but directionally consistent.
-- Q4 2025 RESG repayments hit record **$3.0B**. FY2025 total: **$7.24B** (+19% YoY) [KB-OZK-082].
-- 2022 vintage payoffs: $1.25B (Q3) + $1.34B (Q4) = accelerating [KB-OZK-082].
-- **590 modifications over 14 quarters** on ~300 credits = avg loan modified ~2x [KB-OZK-101]. 98% avoid "financial difficulty" classification [KB-OZK-096]. 59% re-default rate on the 2% that ARE classified [KB-OZK-097]. Sterling Bay modified 6x before $20.8M write-down.
-- **$1.5B of $3.1B life sci book maturing in 2026** [KB-OZK-077]. Nearly half hitting the wall this year.
-- IQHQ reserves: $152.9M held by bank ($87M Jun 2024 + $82M Jan 2025) [KB-OZK-086].
-- **This is THE quarter.** Q1 captures peak maturity velocity. Whatever story the data tells, it tells it here.
+*Delete after earnings processed.*
 
 ---
 
-## WHAT TO WATCH ON THE CALL
+## ⚠️ FLAGS BEFORE READING
 
-### Primary (Thesis-Defining)
-1. **ACL level** — did it fall below $632M again? If so, melting ice cube confirmed for second consecutive quarter. If it rose, they're admitting Q4 was worse than let on.
-2. **Q1 charge-offs** — Q4 was $98.3M. Acceleration (>$100M) = thesis on track. Deceleration = potential short-term relief but doesn't fix coverage ratio.
-3. **RESG % of total loans** — tracking from 54.4% toward 50% target. Watch whether decline is from new origination elsewhere or from RESG losses/sales.
-4. **IQHQ discussion** — RaDD at 3.3% leased [KB-137], maturity extended ~Aug 2028 [KB-138], IQHQ paying 16.5% rescue capital [KB-139]. Analysts WILL ask. Downtown SD >90% vacant [KB-140]. Watch for any impairment recognition or further disclosure.
-5. **Life sciences commentary** — any new charge-offs in San Diego/Boston/Chicago. Bioterra ($202M) is the next shoe. Fenway Center paused, 109 Brookline vacant. AI-native demand shrink means less space needed [KB-141].
-
-### Secondary (Confirming/Disconfirming)
-6. **Noncurrent loans trend** — industry rose $4.1B QoQ. Where is OZK specifically?
-7. **Unfunded commitments** — was $18.0B at Q4. How much drawn/expired in Q1?
-8. **Construction maturities** — Q1 extension count (was 49 in Q4, 41 in Q3). How many of the 590 cumulative mods are second+ extensions? Stabilization rate on 2022 vintage?
-9. **CIB growth** — is the diversification into corporate/institutional real, or relabeling? CEO confirmed reclass mechanic: "two criteria — CO + monthly amortizing" [KB-OZK-087].
-10. **Sponsor extraction** — cumulative was $2.6B ($1.3B equity + $866M reserves + $429M principal) [KB-OZK-084]. How much more in Q1? Is sponsor willingness holding?
-10. **Insider buying post-quarter** — zero buys in 18 months, 65:1 sell ratio [KB-142]. Did anyone finally buy after Q1? Gleason called this "the most uncertain time" in his 45-year career [KB-145].
-
-### Red Flags to Listen For
-- "Prudently extended" / "working with sponsors" = extend-and-pretend continuing
-- "One-off" or "idiosyncratic" regarding any charge-off = same language as Pacific Center
-- "Green shoots" without specific tenant signings = empty narrative
-- "Reserve adequacy" without specific coverage ratio improvement = ACL still melting
-- Any mention of capital raise, ATM program, or debt issuance = liquidity stress
-
-### Green Flags (Would Weaken Thesis)
-- ACL materially rebuilt (>$680M would reverse Q4 decline)
-- IQHQ major tenant announcement
-- Sorrento Mesa vacancy improvement
-- Construction stabilization rate above 70%
-- Insider buying in size
+1. **SCENARIOS.md is stale** — calibrated at $44.70, stock now ~$49. All strike probabilities and EV calculations need refresh before Apr 16. Don't trade off the scenario targets without recalibrating.
+2. **SI refresh needed** — KB-OZK-160 shows 13.81% / 11.2 DTC as of Mar 25. Pull FINRA/Ortex before earnings.
 
 ---
 
-## PEER COMPARISON FRAMEWORK (Prompt #7, 3 models — KB 133-136)
+## Q1 CHARGE-OFF ESTIMATE
 
-| Metric | OZK (Q4) | Peer Median | OZK Multiple | Watch for Q1 |
-|--------|----------|-------------|-------------|-------------|
-| CRE/RBC | **~358%** | ~186% | **1.9x** | Any reduction? |
-| C&D/RBC | **~197%** | ~28% | **7.0x** | Only bank >100% |
-| NCO rate (Q4 ann.) | **1.18%** | 0.22% | **5.4x** | Acceleration? |
-| ACL/Loans | **1.16%** | 1.23% | Below median | Gap widening? |
-| Noncurrent % | **1.06%** | 0.61% | **1.7x** | Rising from $341M? |
-| ACL/Noncurrent | **~184%** | ~231% | **Below median** | Still collapsing? |
+### Methodology
+Build from three independent evidence streams:
 
-**Key peers:** EWBC cleanest (0.08% NCO, 546% coverage, 15.1% CET1). WAL thinnest coverage (~90%). COLB 2nd highest concentration (~316% post-Pacific Premier).
+**Stream 1: Trend extrapolation**
+- Q3 2025 net NCO: $48.3M | Q4 2025 net NCO: $50.6M (flat QoQ)
+- Q4 gross charge-offs: $98.3M (recoveries: ~$47.7M)
+- Trend suggests $50-60M net in Q1 absent catalysts
 
----
+**Stream 2: Known Q1 events**
+- $265M SD life sci loan sold to SVP (Jan 2026) [KB-OZK-095] — SVP buys at deep discount. If OZK sold at 80¢ = ~$53M loss. If sold at 70¢ = ~$80M. Loss likely SPLIT between Q4 (when loan was on book) and Q1 (when sale closed). Amount unknown — this is the KEY wildcard.
+- Sterling Bay Lincoln Yards seized via deed-in-lieu (Mar 2026) [KB-OZK-094] — $14.1M already charged off H2 2025, remaining exposure ~$35M on $50M carrying value. Additional Q1 charge-off possible if OREO marked.
+- 49 modifications in Q4, $56.7M deposits collected [KB-OZK-101] — extensions that fail performance hurdles hit Q1 as forced nonaccruals.
 
-## RC-C / RC-N DATA (From FFIEC Call Report, Q4 2025)
+**Stream 3: Reserve depletion model**
+- Net reserve burn: ~$47M/quarter [KB-OZK-090]. Loans losing reserves → cash-pay demand → sponsor default → 90-day cascade [KB-OZK-091].
+- $322M in nonaccrual additions last 6 months [KB-OZK-063]. Flow rate suggests continued pipeline.
 
-**State-level breakdowns NOT available** in standard call report format. District-level benchmarks below.
+### Q1 NCO Range Estimate
+| Scenario | Net NCO | Gross NCO | NCO Rate (ann.) | Signal |
+|----------|---------|-----------|-----------------|--------|
+| **Low** | $45-55M | $70-85M | ~0.55-0.68% | Stable — SVP loss mostly in Q4, few new additions |
+| **Base** | $60-80M | $95-115M | ~0.75-1.00% | Modest acceleration — partial SVP + 5-10 new charge-offs |
+| **High** | $90-120M | $130-160M | ~1.10-1.50% | Acceleration confirmed — SVP loss + construction failures + life sci |
+| **Spike** | >$120M | >$160M | >1.50% | Sizable new credit (Bioterra? Sorrento Mesa?) breaks in Q1 |
 
-### Noncurrent by Loan Type (RC-N, institution-level, $000s)
-| Category | Noncurrent | % of Total NC | 30-89 Past Due | Signal |
-|----------|-----------|--------------|---------------|--------|
-| **Other nonfarm nonres** | **$256,727** | **75.2%** | $741 | 🔴 Office/life sci |
-| **Other construction/land** | **$40,424** | **11.8%** | $3,188 | 🔴 |
-| Owner-occ nonfarm nonres | $2,121 | 0.6% | $3,420 | Mild |
-| C&I | $2,703 | 0.8% | $10,143 | Low |
-| 1-4 family | ~$12,000 | 3.5% | $11,677 | Low |
-| All other | ~$27,000 | 7.9% | $12,460 | Low |
-| **TOTAL** | **$341,223** | | **$41,738** | |
-
-### District Benchmarks (FDIC QBP Q4 2025)
-| District | Nonfarm Nonres NC Rate | 30-89 Pipeline | OZK Relevance |
-|----------|----------------------|---------------|---------------|
-| NY | 1.57% | 0.41% (highest) | Primary origination |
-| Atlanta | 1.36% | 0.28% | FL/GA book |
-| National | 1.30% | 0.33% | Benchmark |
-| Dallas (HQ) | 0.89% | 0.33% | OZK counted here — false clean signal |
+**Working estimate: $65-90M net NCO (base-to-high).** Key is whether SVP loan sale hits Q1 (it should — sale closed Jan 2026).
 
 ---
 
-*Thesis → `THESIS.md` | Canonical data → `workbook/KB.tsv` | 8-K framework → `research/8K_FORCED_DISCLOSURE_FRAMEWORK.md`*
+## QUANTITATIVE TRIPWIRES
+
+These are binary signals. Cross one → thesis confirmed or refuted on that dimension.
+
+### Acceleration Confirmed (Bearish)
+| Metric | Q4 Level | Acceleration Tripwire | Why It Matters |
+|--------|----------|----------------------|----------------|
+| **Net NCO rate (ann.)** | 0.64% (Q4 alone) | **>0.75%** | Above Q4 = trend inflecting up |
+| **Gross charge-offs** | $98.3M | **>$100M** | First time exceeding prior quarter |
+| **Provision expense** | $50.6M | **>$80M** | Management admitting Q4 was under-provisioned |
+| **ACL balance** | $631.9M | **<$610M** | Second consecutive quarter of melting ice cube |
+| **Noncurrent balance** | $341M (1.06%) | **>$420M (1.30%)** | Acceleration into distressed-bank territory |
+| **Modification count Q1** | 49 (Q4) | **>55** | Extend-and-pretend accelerating, not resolving |
+| **OREO balance** | ~$160M | **>$200M** | More seizures → OREO surge → unresolved stress |
+
+### Extend-and-Pretend WORKING (Bullish)
+| Metric | Tripwire |
+|--------|----------|
+| NCO rate | **<0.50% ann.** (below Q4 trend) |
+| Provision | **>$90M** AND ACL rises (intentional rebuild, not crisis) |
+| Noncurrent | **Flat or declining** from $341M |
+| Modification count | **<35 in Q1** with majority converting to payoff |
+| IQHQ tenant announcement | **>100K SF signed** (specific, not LOI) |
+
+### Forced Reckoning (Extreme Bear)
+- Any single charge-off **>$100M** on one credit = named whale recognition
+- ACL/Noncurrent coverage falls **below 150%** (currently ~184%)
+- Management withdraws or materially lowers FY2026 guidance
+
+---
+
+## PRE-EARNINGS DECISION MATRIX
+
+**Current positions:** $42.5P May×2 | $42.5P Aug×1 | $45P Aug×4 | Price: ~$49
+
+### IF STOCK IS $46-52 GOING INTO APRIL 16 (NEAR CURRENT)
+
+| Scenario | What Happens on Call | May $42.5P | Aug $42.5P | Aug $45P (×4) | Action |
+|----------|---------------------|------------|------------|---------------|--------|
+| **Bear confirmed** | NCO >$90M, NPA >$420M, ACL falls | ATM → deep ITM | Hold → deep ITM | Hold → ITM | **Hold all / trim May to lock gains** |
+| **Base** | NCO $60-80M, flat NPA, no IQHQ | Slight premium expansion | Hold | Small gain | **Hold — wave 2 builds** |
+| **Bull relief** | NCO <$50M, ACL flat, positive color | Lose ~50% | Hold | Slight loss | **Hold Aug — May loss capped** |
+| **Squeeze** | Beat all metrics + tenant news | -80% May | -40% Aug | -20-30% Aug | **Pre-planned sizing survives this** |
+
+### IF STOCK RUNS TO $53-57 BEFORE APRIL 16 (RALLY SCENARIO)
+- May $42.5P likely near-worthless → **consider rolling May to Aug** if IV allows
+- Aug $45P at ~$49: 8pts OTM → meaningful delta reduction → consider adding 1-2 Aug $47P or $48P contracts to reset delta
+- Do NOT trim Aug positions unless stop-loss hit: cost basis committed, max loss defined
+
+### IF STOCK DROPS TO $44-47 BEFORE APRIL 16 (DRIFT DOWN)
+- May $42.5P gains value → **lock 50% of gain on 1 contract**, let 1 ride into earnings
+- Aug positions improve → hold unchanged
+- Consider adding 1 Aug $45P at any significant pull to $44 (adds to winner, not averaging loser)
+
+### STOP-LOSS PHILOSOPHY
+These are puts with defined max loss (premium paid). No stop-losses needed unless:
+- Thesis-breaking event (IQHQ major tenant, major loan sale above par, capital raise at premium)
+- In those cases: exit May immediately, hold Aug pending re-evaluation
+
+---
+
+## POSITION MANAGEMENT BY SCENARIO OUTCOME
+
+### OUTCOME A — Bear Confirmed (NCO >$90M, NPA surge, ACL melting)
+- May $42.5P: if stock hits $44-46 on earnings day → sell at open (hold overnight risk high)
+- Aug $42.5P + $45P: **hold through Q2** — wave 2 (NY pipeline, Q2 noncurrent) not yet priced in
+- Watch for short squeeze into and after report → use spike to $50+ as opportunity to add Aug if conviction holds
+- Target trim level: stock at $42-43 → trim 2 of 4 Aug $45P; stock at $38-39 → trim remaining
+
+### OUTCOME B — Base (NCO $60-80M, messy but no catalyst)
+- May $42.5P: likely expires with modest value → let run, set mental stop at $0.50
+- Aug positions: hold — base case still implies gradual deterioration through Q2
+- No new adds unless Q1 data reveals something unexpected
+- Q2 watch: NY pipeline (0.41% 30-89 day, highest nationally) converting to NPA = wave 2 trigger
+
+### OUTCOME C — Bull Relief (NCO <$50M, IQHQ positive surprise)
+- May $42.5P: likely worthless → accept loss, move on
+- Aug positions: reassess. If bull thesis has structural support (tenant signed, SVP loss was small):
+  - Trim 2 of 4 Aug $45P to reduce exposure
+  - Hold $42.5P Aug — lower strike = more room
+- Do NOT exit entire position on one quarter of relief. Maturity wall is mechanical.
+
+### OUTCOME D — Squeeze (positive beat + analyst upgrades + sector momentum)
+- Pre-planned max loss = premium paid. No additional action needed.
+- If stock rips to $54-57: hold all positions. Aug expirations have 4+ months. Squeeze is temporary.
+- Only reassess if a fundamental break (IQHQ 30%+ leased, dividend raised, CET1 rising) — not just price action.
+
+---
+
+## KEY CALL QUESTIONS
+
+Prioritized by thesis impact. KB anchors for each.
+
+### 1. SVP Loan Sale — Where Did the Loss Go?
+*"The $265M Sterling Bay SD loan sold to Strategic Value Partners in January — was the loss recognized in Q4 or Q1? What was the net charge on sale?"*
+- If management says "recognized in Q4": review Q4 numbers (may explain why Q4 gross NCOs were $98.3M). If in Q1: Q1 NCOs spike.
+- [KB-OZK-095]
+
+### 2. Extend-and-Pretend: 590 Mods, How Many Converted?
+*"Of the 49 Q4 modifications, how many have now met their performance hurdles vs. required further extension or went nonaccrual in Q1?"*
+- They won't answer directly, but watch for "extensions in Q1 were elevated" (bearish) vs "resolved several credits" (bullish)
+- The 59% re-default rate [KB-OZK-097] means roughly half of formally classified mods fail. How many of the 49 Q4 mods are now in that pipeline?
+- [KB-OZK-096, -097, -101]
+
+### 3. Rate Concession Contradiction — How Many More?
+*"The Q2 10-Q disclosed a 261bps rate reduction on a $66M construction loan — which appears to contradict the 'no concessions granted' language. Can you clarify the policy and whether additional rate reductions were granted in Q1?"*
+- This directly undermines Gleason's credibility [KB-OZK-098, -102]
+- A defensive or vague answer signals more hidden concessions
+
+### 4. IQHQ RaDD — Update on Leasing and Reserves
+*"RaDD was 3.3% leased as of last update with 5-6 non-life-sciences tenants in negotiation. Are any of those signed? What is the current reserve balance and reserve adequacy if professional-services tenants can only support office rents?"*
+- OZK holds $152.9M in reserves [KB-OZK-086]. If tenants sign at office rates vs lab rates, cash flows don't support the $555M funded balance.
+- [KB-OZK-137, -138, -139]
+
+### 5. Life Sciences Pipeline — Bioterra and Next Shoe
+*"Bioterra ($202M) and the remaining San Diego life sci book are maturing in 2026. What is the leasing status and expected resolution on each remaining $100M+ life sci credit?"*
+- SD total: ~$1.4B distressed cluster [KB-OZK-111]. Market: 25-29% vacancy [KB-OZK-095 area]
+- [KB-OZK-077, -111]
+
+### 6. Insider Buying — Where's the Conviction?
+*"The company has executed $2.25M in buybacks at prices below TBV, yet no officer or director has purchased shares personally in 18+ months. Gleason described this as 'the most uncertain time in his 45-year career.' When do insiders start buying with their own capital?"*
+- Frame as a question, not accusation. The signal speaks for itself.
+- [KB-OZK-142, -143, -144, -145]
+
+### 7. FL Geography — Confirm the Fortress
+*"The Florida condo book (14 loans, WA LTC 45.9%, 11/14 with presales covering repayment) is often cited as the portfolio's strength. Are there any FL credits that have migrated to special mention or substandard in the last quarter?"*
+- FL is the one genuine bull data point [KB-OZK-110, -121-132]. If it cracks, bear case accelerates.
+- If FL stays clean, don't overweight — it's already in our model.
+
+---
+
+## MANAGEMENT DEFENSE ANTICIPATION (GLEASON'S PLAYBOOK)
+
+Expect these narratives. Know the counter before they speak.
+
+| Narrative | Gleason's Framing | Reality Check |
+|-----------|------------------|---------------|
+| **"Modifications are prudent"** | "We improve our position with every extension — more equity, more reserves, no concessions." | 590 mods on ~300 loans (avg 2x). 59% re-default on the ones they DID classify. One confirmed 261bps rate cut contradicts "no concessions." [KB-OZK-096-104] |
+| **"Florida is a fortress"** | "14 Miami condos, 45.9% LTC, 11/14 have presales covering full loan." | TRUE — but FL is 22.8% of RESG. The danger is SD, Boston, Chicago, Seattle (the $2.9B distressed cluster). Don't let FL story crowd out the stressed metros. [KB-OZK-110, -111] |
+| **"RaDD is progressing"** | "Management is actively leasing, TI money is committed, the 2028 extension gives time." | 3.3% leased after 3 years, pivoting to non-life-sci tenants at lower rents, IQHQ in financial distress (Aimco 94% write-down, Bluerock -40% IPO day). $152.9M in reserves doesn't cover $555M funded. [KB-OZK-137-139] |
+| **"RESG NCOs are normalizing"** | "23-year average was 0.19%. Current 0.68% is elevated but within historical parameters for a correction cycle." | 3.6x the 23-year average. The 23-year average includes the GFC era when the portfolio was ~$2B community-scale AR CRE, not $20B+ national RESG. Different animal. [KB-OZK-004, -064-068] |
+| **"Payoffs prove health"** | "Record $7.24B in repayments in 2025. The loans that can refi, are." | The adverse selection point: performing loans leave, distressed ones stay. What's left at maturity is what couldn't refi — exactly the opposite of health. [KB-OZK-078-082] |
+| **"CIB diversification is working"** | "CIB now 16.3% of loans, target RESG below 50%." | $2.3-2.9B of "CIB" is CRE reclassified: NDFI loans 70-90% CRE-linked ($2.74B), MI3 $1.29B hidden CRE in C&I. Gleason himself confirmed NDFI loans "are actually RESG loans in debt funds." [KB-OZK-018-027] |
+| **"Capital is strong"** | "CET1 11.70% — well above regulatory minimums." | TRUE, but the thesis isn't bank failure. EPS compression ($6.18 → $4-5) × multiple compression (10x → 6-7x) = $28-35. Capital is not the vulnerability. [WEAKNESSES.md C3] |
+
+---
+
+## SHORT SQUEEZE RISK SECTION
+
+**Current data (Mar 25):** 13.81% float short | 11.20 days to cover | 15.67M shares short [KB-OZK-160]
+
+### Squeeze Mechanics
+- 11.2 DTC means at average volume, covering would take 11 days. Any positive headline compresses that.
+- At 13.81%, well past the 10% "crowded short" threshold. Market knows it.
+- Stock already at ~$49 vs SCENARIOS.md $44.70 = squeeze may already be running.
+
+### Triggers That Could Spike the Stock
+| Trigger | Magnitude | Duration |
+|---------|-----------|---------|
+| NCO <$50M (beat) | +$4-8 | Days-weeks |
+| IQHQ tenant announcement (>100K SF) | +$6-10 | Weeks |
+| Dividend raise or buyback acceleration | +$3-5 | Days |
+| Sector-wide CRE rally (Fed cut surprise) | +$5-10 | Weeks |
+| Activist/insider buy in size | +$8-15 | Sustained |
+
+### How to Survive the Squeeze
+1. **Position sizing was right.** Max loss = premium paid. No stop-losses needed.
+2. **Aug expiry gives runway.** If a squeeze pushes to $54-57 before April 16, our Aug $45P remains playable — the maturity wall is mechanical, not temporal.
+3. **The squeeze signal.** Short ratio at 11.2 DTC means covering would take 11 days of average volume. If stock rips $8-10 in a week, that's a covering event. Watch volume: covering looks like high-volume up days with no fundamental news. That's your "hold, don't fold" signal.
+4. **The thesis is not the stock price.** A squeeze is noise. The interest reserve depletion math [KB-OZK-088], the 590-mod pipeline [KB-OZK-096], and the $322M nonaccrual flow [KB-OZK-063] do not change because shorts are covering.
+
+---
+
+## DATA TO PULL BEFORE APR 16
+
+| Item | Source | Urgency |
+|------|--------|---------|
+| **SI refresh** | FINRA/Ortex | HIGH — 22 days out |
+| **8-K watch** (CIK 0001569650) | EDGAR | DAILY — any material event |
+| **SVP loan sale disclosure** | Check if Q1 8-K filed | HIGH — determines Q1 NCO |
+| **IQHQ tenant news** | Bisnow/CoStar | MEDIUM — weekly scan |
+| **Peer earnings** | ZION ~Apr 20, WAL ~Apr 21 | MEDIUM — sector read-through |
+| **Life sci vacancy update** | Prompt #20 (Will running) | MEDIUM — SD/Boston/national |
+| **Bioterra status** | CoStar, TRD | MEDIUM — next identified shoe |
+
+---
+
+## CONFIRMED PRE-EARNINGS DEVELOPMENTS (Mar 24)
+
+- ✅ **Sterling Bay Lincoln Yards seized** (Mar 20): deed-in-lieu, $50M carrying value, $14.1M previously charged off. OREO via BOTO Strategic Properties IV LLC. [KB-OZK-094]
+- ✅ **$265M SD life sci sold to SVP** (Jan 2026): distressed sale. Loss unknown — KEY Q1 question. [KB-OZK-095]
+- ✅ **IQHQ RaDD extended** to Aug 2028 (not Aug 2026). Wave 3 deferred. 3.3% leased. [KB-OZK-137-138]
+- ✅ **Zero insider buys 18mo**, 65:1 sell ratio, Gleason "most uncertain time in 45yr career." [KB-OZK-142-145]
+- ✅ **590 total mods** confirmed at Q4, 49 in Q4 alone. 59% re-default on formally classified. [KB-OZK-096-101]
+
+---
+
+## KB GAPS — EARNINGS PREP BLIND SPOTS
+
+| Gap | Impact | How to Close |
+|-----|--------|-------------|
+| **SVP sale loss amount** | Determines Q1 NCO range materially | Check Q1 8-K or first FFIEC submission |
+| **Bioterra ($202M) status** | Next identified life sci shoe — zero current data | CoStar/TRD search |
+| **Q1 interest capitalized** | Reserve depletion rate — vs $108.6M Q4 | FFIEC Call Report RIADG377 (post-Apr 16) |
+| **Mod hurdle pass rates** | How many Q4 mods avoided Q1 nonaccrual | Implied from Q1 noncurrent change |
+| **IQHQ Bluerock valuation update** | IQHQ equity effectively zero — any mark or restructuring? | Check Bluerock SEC filings |
+| **$13.8B vintage claim** | Unverified from primary data [KB-OZK-061] | Historical Call Report RC-C |
+| **DBRS vintage rating source** | No citation [KB-OZK-062] — can't use in external thesis | DBRS/Morningstar search |
+| **Short interest current** | Mar 25 figure stale in 3 weeks | FINRA/Ortex before Apr 16 |
+
+---
+
+*Thesis → `THESIS.md` | Scenarios (stale) → `SCENARIOS.md` | Evidence → `workbook/KB.tsv` | Extend-and-pretend synthesis → `research/D6_EXTEND_AND_PRETEND.md`*
