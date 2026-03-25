@@ -54,7 +54,7 @@ The thesis survives its own stress test (WEAKNESSES.md is excellent). But severa
 ### GAP 7: OZK's Q1 2026 8-K Activity — NO MONITORING EVIDENCE
 - **What's missing:** 8K watch window opened Mar 25 per EARNINGS_PREP.md. No evidence of any EDGAR monitoring being set up or results logged. STATUS.md research agenda has "8-K EDGAR watch begins" as "Pending."
 - **Why it matters:** Per the 8K_FORCED_DISCLOSURE_FRAMEWORK, the 8-K is potentially the real catalyst, not earnings day. If OZK files a mid-quarter update, the put position needs immediate attention.
-- **Data source:** EDGAR full-text search, SEC RSS feed for CIK 0001609065.
+- **Data source:** EDGAR full-text search, SEC RSS feed for CIK 0001569650.
 - **Priority:** HIGH (time-sensitive — window is NOW)
 
 ### GAP 8: Affinius Capital $2.7B Bond Maturity Detail
@@ -197,7 +197,7 @@ These were flagged by AUDIT_REPORT_MAR23.md but remain in the files:
 ### MUST DO (This Week)
 1. **Fix EARNINGS_PREP.md** — Replace all Temple 8 numbers with corrected figures. 10 minutes.
 2. **Fix NCO rate labeling** — Global find/replace "Q4 NCO rate 1.18%" → "FY2025 annualized NCO rate." 15 minutes.
-3. **Set up 8-K EDGAR monitoring** — SEC RSS feed or daily manual check for CIK 0001609065. 5 minutes.
+3. **Set up 8-K EDGAR monitoring** — SEC RSS feed or daily manual check for CIK 0001569650. 5 minutes.
 4. **Pull current short interest** — FINRA or Ortex. 5 minutes.
 5. **Update stock price** in STATUS.md ($49 → current). 1 minute.
 
