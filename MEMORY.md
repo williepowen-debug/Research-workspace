@@ -1,6 +1,6 @@
 # MEMORY — Key Insights & Lessons
 
-**Last Updated:** 2026-03-23 14:15 UTC
+**Last Updated:** 2026-03-25 04:45 UTC
 
 **Positions → `PROME/POSITIONS.md`** | **Agent roster → `AGENTS_DIRECTORY.md`** | **Background → `WILL/BACKGROUND.md`**
 
@@ -17,6 +17,9 @@
 - **CARL Path C Activating (Mar 23)** — "Help with mortgage" Google Trends at ALL-TIME HIGH (surpasses GFC). Lennar margins 15.2% (lowest since 2010). Housing cracking BEFORE employment — thesis evolution from K-shape model. Employment no longer sole detonator; housing + employment running parallel stress paths. Convergence 43/50.
 - **Ghalibaf Financial Warfare (Mar 23)** — Iran Parliament Speaker declared UST buyers "legitimate military targets." Not fringe — post-Khamenei, most powerful institutional voice. Gives Gulf SWFs political cover to reduce UST exposure. One-way ratchet (stigma makes re-entry harder). ZHAO revised demand hole $70-135B/mo (from $70-130B).
 - **BOJ Timing Revision (Mar 23)** — Shunto 5.26% confirmed (3rd year >5%), but oil chaos delays hike from April to likely May 1. FY-end flows (GPIF rebalancing, life insurer repatriation) are MECHANICAL and happening NOW regardless. Full carry unwind needs actual hike.
+- **WAL Fast-Transmission Thesis (Mar 25)** — WAL losses bypass delinquency pipeline → direct to P&L. SF district has LOWEST 30-89 day pipeline (0.26%) but HIGHEST NCO (1.13%). Standard leading indicators break for WAL. Three independent vectors: Hidden CRE (MI3 24.2% growing), Jefferies double-pledging (unconfirmed chain), SSFA $1.1B capital arbitrage. KB: 61 rows, 10 groups. EV $57.10 vs $69.70 (18% overvalued). Short interest 3.54% = NOT consensus = edge.
+- **Two-Pass KB Method Works** — Extraction pass (read all sources → staging list in SCRATCH) then formatting pass (clean context → TSV). Produced cleaner output than single-pass for OZK. Use this method for future KB builds.
+- **WAL vs OZK: Complementary, Not Symmetric** — OZK = reservoir (gradual, maturity wall, predictable pipeline). WAL = fast-transmission (episodic, sudden, unpredictable). Different put expiry logic. OZK crowded (13.81% SI), WAL uncrowded (3.54%). Paired trade covers both failure modes.
 
 ---
 
