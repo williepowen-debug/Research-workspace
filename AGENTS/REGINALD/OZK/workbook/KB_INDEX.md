@@ -1,6 +1,6 @@
 # KB.tsv — Group Index
 
-**Updated:** 2026-03-24 | **Total rows:** 136 | **Groups:** 16
+**Updated:** 2026-03-25 | **Total rows:** 140 | **Groups:** 16
 
 Navigate the KB by investigation cluster. Each group maps to a folder or research file where the full synthesis lives.
 
@@ -21,7 +21,7 @@ Navigate the KB by investigation cluster. Each group maps to a folder or researc
 |-------|------|-------|---------------|----------------|
 | **EXTEND_PRETEND** | 096–097, 099–104 | 8 | **research/D6_EXTEND_AND_PRETEND.md** | 590 mods, 98% classification gap, 59% re-default, NPL forensics. (098 cross-listed → MGMT_CREDIBILITY) |
 | **DISTRESSED_LOANS** | 028–036 | 9 | THESIS.md (evidence) | Named problem loans: IQHQ RaDD, Sterling Bay, Boston, Seattle, Santa Monica |
-| **LIFE_SCI** | 094–095, 117 | 3 | GEOGRAPHY/ (SD cluster) | $3.2B life sci exposure, Pacific Center sold to SVP, SD cap rate blow-out |
+| **LIFE_SCI** | 094–095, 117, 137–140 | 7 | GEOGRAPHY/ (SD cluster) + sources/IQHQ_RADD_claude_prompt15.md | $3.2B life sci, RaDD 3.3% leased, maturity extended Aug 2028, IQHQ distress cascade (16.5% rescue capital, 94% investor markdowns), downtown SD >90% vacant |
 | **MGMT_CREDIBILITY** | 037–041, 069, 085, 093, 098 | 9 | THESIS.md (narrative) | "No concessions" contradiction, CRO vacancy, CFO selling, buyback non-use |
 
 ## Thesis Layer 3: Catalyst & Timing

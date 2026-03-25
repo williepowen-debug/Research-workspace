@@ -17,25 +17,11 @@ Run these and drop results into `sources/`. Prome will integrate into KB.tsv.
 | 4 | TDR/loan modifications | KB-096–106 | 4 LLMs, 11 rows. 590 mods, 98% classification gap, 59% re-default |
 | 6 | FL Paradox stress-test | KB-121–132 | 4 LLMs, 12 rows, FINDINGS.md complete |
 | 7 | Peer ACL/NCO comparison | KB-133–136 | 3 LLMs (Claude best), 4 rows. OZK outlier on every metric |
+| 15 | IQHQ RaDD leasing + distress | KB-137–140 | Claude deep research. 3.3% leased, maturity to Aug 2028, IQHQ in distress cascade |
 
 ---
 
 ## 🔴 HIGH PRIORITY — Run Next
-
-### PROMPT 15: IQHQ RaDD Leasing Status
-```
-IQHQ's RaDD (Research and Development District) is a 1.7M sqft life sciences campus under construction on the San Diego waterfront (Harbor Drive). Bank OZK has $915M in exposure (their single largest loan). 
-
-I need current (Q1 2026) information on:
-1. Leasing status — what % of the 1.7M sqft is pre-leased or leased? Any named tenants?
-2. Construction status — on schedule? Expected delivery date?
-3. IQHQ corporate health — any fundraising, leadership changes, or financial stress signals?
-4. San Diego life sciences demand context — is there tenant demand for this much new lab space given current vacancy rates (~25-30% in Sorrento Mesa)?
-5. Any recent news articles, press releases, or broker reports mentioning RaDD specifically
-
-Context: This is a $915M construction loan maturing ~Aug 2026. If the building delivers into a soft leasing market with low pre-leasing, OZK faces a binary outcome: extend (more risk) or force a sale (loss recognition). The loan has LTV estimated at 186-285% on distressed basis.
-```
-**Save as:** `sources/IQHQ_RADD_LEASING_Q1_2026.md`
 
 ### PROMPT 16: OZK Insider Transactions (Recent)
 ```
