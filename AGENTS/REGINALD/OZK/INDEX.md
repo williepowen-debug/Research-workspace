@@ -29,7 +29,6 @@
 | $42.5P | May 15 | 2 | Wave 1: Apr earnings catalyst |
 | $42.5P | Aug 21 | 1 | Waves 2-3: NY pipeline + IQHQ |
 | $45P | Aug 21 | **4** | Waves 2-3: NY pipeline + IQHQ (added 2 @ $4.05 Mar 24) |
-| $45P | Aug 21 | **4** | Waves 2-3: NY pipeline + IQHQ (added 2 @ $4.05 Mar 24) |
 
 **Earnings: April 16, 2026** — 23 days
 
@@ -50,11 +49,10 @@
 | 1 | `STATUS.md` | 2 min | Dashboard, positions, catalyst calendar, research agenda |
 | 2 | `THESIS.md` | 5 min | Full bear case, three waves, bull rebuttals, MI3 discovery |
 | 3 | `SCENARIOS.md` | 3 min | Bull/base/bear with probabilities and triggers |
-| 4 | `GAP_ANALYSIS_REPORT.md` | 5 min | All known gaps, unsourced claims, logical leaps, action list |
-| 5 | `workbook/KB.tsv` | 3 min | 136-row canonical evidence database |
-| — | `workbook/KB_INDEX.md` | 2 min | Group navigator: 16 clusters → folders → thesis layers |
+| 4 | `workbook/KB.tsv` | 3 min | **146-row** canonical evidence database |
+| — | `workbook/KB_INDEX.md` | 2 min | Group navigator: **17 clusters** → folders → thesis layers |
 
-**Total cold-boot: ~18 min.** Covers 90%+ of what an agent needs.
+**Total cold-boot: ~15 min.** Covers 90%+ of what an agent needs.
 
 ## File Map
 
@@ -64,20 +62,17 @@
 | `INDEX.md` | This file — start here |
 | `STATUS.md` | Live dashboard, positions, catalyst calendar |
 | `THESIS.md` | Full thesis with three-wave framework |
-| `SCENARIOS.md` | Probability-weighted outcomes |
-| `GAP_ANALYSIS_REPORT.md` | Comprehensive gap audit with prioritized action list |
-| `workbook/KB.tsv` | Canonical evidence store (**136 rows**, 13 columns) |
-| `workbook/KB_INDEX.md` | **KB group navigator** — 16 clusters mapped to folders, thesis layers, and earnings prep |
+| `SCENARIOS.md` | Probability-weighted outcomes (**⚠️ price inputs stale — refresh before earnings**) |
+| `workbook/KB.tsv` | Canonical evidence store (**146 rows**, 13 columns) |
+| `workbook/KB_INDEX.md` | **KB group navigator** — 17 clusters mapped to folders, thesis layers, and earnings prep |
 
 ### Deep Dives (read on-demand)
 | File | When to Read |
 |------|-------------|
 | `EARNINGS_PREP.md` | Prepping for Apr 16 specifically |
-| `EVIDENCE.md` | Narrative evidence summary (pre-KB, archive post-earnings) |
-| `10K_ANALYSIS_2024.md` | Need raw 10-K data points |
 | `TEMPLE8_SHORT_THESIS_MAR2026.md` | External short thesis (Temple 8) for comparison |
 | `WEAKNESSES.md` | Stress-testing — what breaks the thesis |
-| `EXTERNAL_PROMPTS.md` | 14 research prompts for Will to run externally |
+| `EXTERNAL_PROMPTS.md` | Research prompts for Will to run externally (9 done, 7 remaining) |
 
 ### Research (specific analyses)
 | File | Topic |
