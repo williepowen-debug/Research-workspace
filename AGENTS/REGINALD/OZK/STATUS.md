@@ -61,18 +61,18 @@
 | `GEOGRAPHY/` | 58 MSAs, $2.9B distressed cluster, FL Paradox | ✅ Complete (Mar 24) |
 | `LIFE_SCI/` | RaDD, Boston, Chicago life sci exposure | ✅ Prompt 15 done, Prompt 20 pending |
 | `research/` | D1-D6 deep dives, C1-C3 counter-arguments | ✅ D6 new (Mar 24) |
-| `workbook/` | 141-row KB + KB_INDEX navigator | ✅ Audited (Mar 24) |
+| `workbook/` | **146-row** KB + KB_INDEX navigator | ✅ Audited (Mar 24) |
 
 ## Research Agenda
 
 ### MUST DO (This Week)
 - [ ] Jefferies Q1 — WAL read-through (3x deferred, DO IT)
-- [ ] 8-K EDGAR monitoring — CIK 0001609065
+- [ ] 8-K EDGAR monitoring — CIK 0001569650
 - [ ] Pull current short interest — undated everywhere
 - [ ] Reconcile stock price (~$49 vs SCENARIOS ~$42-44)
 
 ### PROMPTS REMAINING (Will running externally)
-- [ ] #16 Insider transactions — Will working on it now
+- [x] #16 Insider transactions ✅ KB-142→146 (zero buys 18mo, 65:1 sell ratio, CRO filled, CIK corrected)
 - [ ] #8 Metropolitan failure comparison
 - [ ] #9 Affinius bonds (co-lending partner)
 - [ ] #10 Sell-side consensus
@@ -81,7 +81,7 @@
 - [ ] #20 Life sci vacancy deep dive
 
 ### COMPLETED PROMPTS
-#1 GFC (064-066) · #2 Maturity (074-079) · #3 Interest reserve (080-093) · #4 TDR (096-106) · #5 Geography (107-120) · #6 FL Paradox (121-132) · #7 Peer comp (133-136) · #15 IQHQ RaDD (137-141)
+#1 GFC (064-066) · #2 Maturity (074-079) · #3 Interest reserve (080-093) · #4 TDR (096-106) · #5 Geography (107-120) · #6 FL Paradox (121-132) · #7 Peer comp (133-136) · #15 IQHQ RaDD (137-141) · #16 Insider (142-146)
 
 ## Navigation
 **Cold boot → `INDEX.md`** | **KB navigator → `workbook/KB_INDEX.md`** | **Thesis → `THESIS.md`** | **Earnings → `EARNINGS_PREP.md`**

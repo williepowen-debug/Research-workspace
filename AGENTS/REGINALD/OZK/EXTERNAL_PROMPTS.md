@@ -17,33 +17,8 @@ Run these and drop results into `sources/`. Prome will integrate into KB.tsv.
 | 4 | TDR/loan modifications | KB-096–106 | 4 LLMs, 11 rows. 590 mods, 98% classification gap, 59% re-default |
 | 6 | FL Paradox stress-test | KB-121–132 | 4 LLMs, 12 rows, FINDINGS.md complete |
 | 7 | Peer ACL/NCO comparison | KB-133–136 | 3 LLMs (Claude best), 4 rows. OZK outlier on every metric |
-| 15 | IQHQ RaDD leasing + distress | KB-137–140 | Claude deep research. 3.3% leased, maturity to Aug 2028, IQHQ in distress cascade |
-
----
-
-## 🔴 HIGH PRIORITY — Run Next
-
-### PROMPT 16: OZK Insider Transactions (Recent)
-```
-Pull all SEC Form 4 filings for Bank OZK (CIK 0001609065) from January 1, 2026 to present.
-
-For each filing:
-1. Insider name and title
-2. Transaction type (buy/sell/option exercise)
-3. Date, shares, price
-4. Remaining holdings after transaction
-
-Specifically flag:
-- Any sales by CEO George Gleason or CFO
-- Any sales by board members
-- Pattern: are insiders selling into strength or buying weakness?
-- The CRO position — is it still vacant? Any new C-suite hires filed?
-
-Also check: OZK had a CRO gap (Chief Risk Officer departed, position unfilled as of late 2025). Has this been filled? Any 8-K announcing a new CRO?
-
-Context: Prior analysis found CFO selling in narrow windows above $47, and no insider buying despite stock near 52-week lows. CRO vacancy during peak CRE stress is a red flag.
-```
-**Save as:** `sources/OZK_INSIDER_FILINGS_2026.md`
+| 15 | IQHQ RaDD leasing + distress | KB-137–141 | Claude + Gemini. 3.3% leased, maturity to Aug 2028, IQHQ in distress cascade |
+| 16 | Insider transactions | KB-142–146 | Claude + Gemini. Zero buys 18mo, 65:1 sell ratio, CRO filled (Majumdar), CIK corrected |
 
 ---
 
