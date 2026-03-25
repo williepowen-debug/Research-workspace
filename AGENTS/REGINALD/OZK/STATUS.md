@@ -43,7 +43,7 @@ Slow-building reservoir of unrecognized CRE losses, masked by reserve cuts and e
 - [x] FL Paradox stress-test — 4 LLM synthesis *(Prompt #6)* ✅ KB-121→130 (Biscayne 21, FinCEN, SB 4-D, insurance, deposits, extensions, project progress, ACL build, UBS bubble, compound cascade)
 - [x] Peer ACL/NCO comp table — 8 CRE-heavy regionals *(Prompt #7)* ✅ KB-133→136 (3 models: OZK 5.4x peer NCO, 7x peer C&D, coverage BELOW median, WAL thinnest)
 - [x] Construction loan maturity schedule *(Prompt #2)* ✅ KB-074/075/076/077/078/079
-- [ ] IQHQ RaDD leasing updates
+- [x] IQHQ RaDD leasing + IQHQ distress *(Prompt #15)* ✅ KB-137→140 (3.3% leased, maturity extended to Aug 2028, IQHQ capital cascade, downtown SD >90% vacant)
 - [ ] Updated insider filings (Form 4s since Feb 24)
 
 ### NICE TO HAVE
