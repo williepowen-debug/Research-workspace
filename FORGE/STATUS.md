@@ -1,85 +1,91 @@
 # FORGE — Trading Operations
 
-**Updated:** 2026-03-06 ~10:15 AM ET | **Account:** ~$51,200 | **All-Time:** +173% | **Day:** +$3,499 (+7.34%)
-**Cash:** ~$7,300 (after 5 sells) | **Realized today:** ~$3,056
+**Updated:** 2026-03-25 ~1:45 PM ET | **Account:** $52,007.22 | **All-Time:** +92.35% (+$20,414) | **Day:** -$2,682 (-4.90%)
+**Cash:** $10,468.76 (20.13%) | **Pending activity:** -$981.35
 
 ---
 
 ## Thesis
 
-Positioned for repricing of systemic risk via regional bank puts. Credit leads equities. Hidden CRE (Memo Item 3), private credit cracking, hot PPI = higher for longer. WAL is primary target.
+**Scenario D probability: 82%.** Stagflation regime with credit stress transmission. 9 private credit funds now gated (APO 11.2%, ARES 11.6% redemption requests). Gas hit $4 behavioral breakpoint — CNN "Fuel vs Food" confirmed. HY OAS 319 but CDX at 9-month high = cash spreads window-dressed for quarter-end (LIQUID flags head-fake). Brent ~$100 (ceasefire talk pullback, Iran denying). 3 WAL analyst downgrades (Weiss, Barclays, WFC). Jefferies Q1 EPS miss 23%, $17M credit losses.
 
-**NFP -92K (Mar 6) = THESIS CONFIRMED.** First negative NFP this cycle. WAL -13% ($70), KRE -3.6% ($64). Brent $90 (Hormuz storage crisis). All vectors firing simultaneously.
-
-**Technical Confirmation (Feb 24):** 6-bank watchlist (OZK, WAL, EGBN, ZION, FLG, SSB) topped Feb 2026 and reversed. Pattern matches GFC 2007 template — slow grind, not SVB-style sudden death. KRE put/call ratio 2.27 (heavy). 75-80% confidence this is THE TOP for regional bank equities.
-
----
-
-## Realized Today — Mar 6
-
-| Trade | Entry | Exit | P/L | Return |
-|-------|-------|------|-----|--------|
-| **USO $91C Mar 18** | $6.01 | $17.00 | **+$1,098** | **+183%** |
-| **WAL $82.5P Jun** | $3.91 | $15.18 | **+$1,126** | **+288%** |
-| **WAL $77.5P Mar 20** | $2.25 | $8.38 | **+$647** | **+340%** |
-| **KRE $66P Mar 13** | $1.46 | $2.78 | **+$131** | **+90%** |
-| **KRE $62P Mar 31** | $1.16 | $2.00 | **+$54** | **+41%** |
-
-**Rule applied:** Harvest short-dated on red days. Re-enter on green days. Trim concentration (WAL had 4 Jun puts, now 2).
+**Transmission chain firing:** LABOR (cooling) → CARL (K-shape consumer) → credit stress (HY OAS 319, CDX divergence) → regional bank repricing. SAM parallel channel (Japan FY-end Mar 31).
 
 ---
 
 ## Thesis Puts (Holding)
 
-| Name | Qty | Entry | Current | Total P/L | Expiry | Notes |
-|------|-----|-------|---------|-----------|--------|-------|
-| **WAL $85P** | 1 | $5.91 | ~$15.10 | **+156%** | Jun 18 | Deep ITM. WAL at $70. |
-| **WAL $77.5P** | 1 | $5.50 | ~$9.50 | **+73%** | Jun 18 | ITM |
-| KRE $67P | 1 | $3.28 | ~$5.75 | **+77%** | Jun 30 | ITM |
-| KRE $65P | 4 | $2.81 | ~$4.80 | **+71%** | Jun 30 | 4 contracts, ITM |
-| KRE $63P | 1 | $2.79 | ~$3.95 | **+42%** | Jun 30 | Near ATM |
-| KRE $60P | 2 | $1.29 | ~$3.00 | **+133%** | Jun 18 | |
-| KRE $60P | 2 | $2.27 | ~$4.20 | **+85%** | Sep 30 | |
-| KRE $60P | 3 | $2.93 | ~$4.90 | **+67%** | Dec 18 | Long-dated core |
-| **IWM $250P** | 1 | $7.69 | ~$13.61 | **+77%** | Jun 30 | |
-| **HYG $75P** | 10 | $0.31 | ~$0.52 | **+70%** | Jun 18 | Credit canary. 10 contracts. |
-| **APO $100P** | 1 | $7.71 | ~$7.10 | **-8%** | Jun 18 | Private credit thesis LIVE |
-| **APO $100P** | 1 | $4.03 | ~$4.30 | **-7%** | Apr 17 | Catalyst play |
-| **SSB $90P** | 1 | $1.87 | ~$4.20 | **+125%** | Jun 18 | Trim candidate |
-| **ZION $57.5P** | 1 | $4.01 | ~$5.60 | **+40%** | Jul 17 | |
-| **OZK $42.5P** | 1 | $2.12 | ~$2.80 | **+32%** | Aug 21 | Apr 16 earnings catalyst |
-| **OZK $45P** | 2 | $3.32 | ~$3.60 | **+9%** | Aug 21 | |
-| **FLG $13P** | 1 | $0.91 | ~$1.15 | **+27%** | Jul 17 | |
-| **AAL $10P** | 4 | $0.57 | ~$0.91 | **+81%** | Jul 17 | Trim candidate |
+### KRE — ~$4,864 (~9.4% of portfolio)
+| Strike | Expiry | Qty | Cost | P&L | Value |
+|--------|--------|-----|------|-----|-------|
+| $67P | Jun 30 | 1 | $3.28 | **+45.85%** | $475 |
+| $65P | Jun 30 | 4 | $2.81 | **+35.14%** | $1,520 |
+| $63P | Jun 30 | 1 | $2.79 | +9.44% | $305 |
+| $60P | Jun 18 | 2 (M) | $1.29 | **+85.53%** | $428 |
+| $60P | Jun 18 | 1 | $2.66 | -19.83% | $213 |
+| $60P | Sep 30 | 2 | $2.27 | **+47.78%** | $670 |
+| $60P | Dec 18 | 3 (M) | $2.93 | **+46.92%** | $1,200 |
 
-**Dead (let expire):**
-- EGBN $25P Jun — ~$0.90 (-43%)
-- VLY $10P Mar 20 — $0.05 (-41%)
-- KELYA $7.5P Aug — $0.75 (flat) — staffing canary
+### WAL — ~$4,400 (~8.5%)
+| Strike | Expiry | Qty | Cost | P&L | Value |
+|--------|--------|-----|------|-----|-------|
+| $85P | Jun 18 | 1 | $5.91 | **+148.86%** | $1,470 |
+| $77.5P | Jun 18 | 1 | $5.51 | **+85.22%** | $1,020 |
+| $67.5P | Jun 18 | 2 | $4.91 | -0.14% | $980 |
+| $70P | Sep 18 | 1 | $7.69 | +5.37% | $810 |
+| $67.5P | Sep 18 | 1 | $7.51 | -5.42% | $710 |
+| $65P | Jun 18 | 1 | $4.50 | -13.27% | $390 |
+
+### TLT — ~$1,544 (~3.0%)
+| Strike | Expiry | Qty | Cost | P&L | Value |
+|--------|--------|-----|------|-----|-------|
+| $88P | May 15 | 2 | $1.28 | **+99.72%** | $510 |
+| $85P | Jun 19 | 3 | $0.82 | **+103.24%** | $498 |
+| $85P | Sep 30 | 2 | $2.52 | +7.28% | $540 |
+| $82P | Oct 16 | 2 | $1.68 | +9.13% | $366 |
+
+### APO — ~$1,690 (~3.3%)
+| Strike | Expiry | Qty | Cost | P&L | Value |
+|--------|--------|-----|------|-----|-------|
+| $100P | Apr 17 | 1 | $4.03 | **-55.30%** | $180 |
+| $100P | Jun 18 | 1 | $7.71 | -23.45% | $590 |
+| $95P | Dec 18 | 1 | $11.85 | -22.35% | $920 |
+
+### OZK — ~$2,085 (~4.0%)
+| Strike | Expiry | Qty | Cost | P&L | Value |
+|--------|--------|-----|------|-----|-------|
+| $42.5P | May 15 | 2 | $2.20 | **-31.88%** | $300 |
+| $45P | Aug 21 | 4 | $3.69 | +5.78% | $1,560 |
+| $42.5P | Aug 21 | 1 | $2.12 | **+34.64%** | $285 |
+
+### Other Puts
+| Ticker | Strike | Expiry | Qty | Cost | P&L | Value |
+|--------|--------|--------|-----|------|-----|-------|
+| IWM | $250P | Jun 30 | 1 | $7.69 | **+63.13%** | $1,254 |
+| HYG | $75P | Jun 18 | 8 | $0.31 | +17.36% | $288 |
+| ZION | $57.5P | Jul 17 | 1 | $4.01 | +14.80% | $460 |
+| FLG | $13P | Jul 17 | 3 | $0.95 | -16.09% | $240 |
+| AAL | $10P | Jul 17 | 2 | $0.57 | **+49.99%** | $170 |
+| AAL | $10P | Jun 18 | 2 | $0.90 | -13.02% | $156 |
+| ARES | $95P | Jun 18 | 1 | $8.03 | -14.04% | $890 |
+| EGBN | $25P | Jun 18 | 1 (M) | $1.57 | -52.13% | $75 |
+| SOFI | $16P | May 1 | 2 | $1.23 | -9.52% | $222 |
+| OWL | $9.5P | Apr 2 | 1 | $0.66 | -16.25% | $60 |
+| KELYA | $7.5P | Aug 21 | 1 | $0.79 | -0.89% | $75 |
 
 ---
 
-## Non-Thesis Positions
+## Longs
 
-| Ticker | Qty | Current | Value | Total P/L | Notes |
-|--------|-----|---------|-------|-----------|-------|
-| **AAPL** | 100 | ~$255 | ~$25,500 | **+978%** | Legacy. ~50% of portfolio. -$539 today. |
-| GLD | 2 | ~$468 | ~$936 | +10% | Risk-off |
-| SLV | 10 | ~$75 | ~$750 | -20% | Silver |
-| SLVP | 3 | ~$39 | ~$118 | -9% | Silver miners |
-| USO LP | 2 | ~$106 | ~$211 | +51% | Oil long |
-| CPER | 6 | ~$35 | ~$212 | +2% | Copper |
-| XAR | 1 | ~$276 | ~$276 | +10% | Aerospace/defense |
-| ITA | 1 | ~$238 | ~$238 | +8% | Aerospace/defense |
-| INVH | 7 | ~$26 | ~$183 | -1% | Invitation Homes |
-| AMH | 12 | ~$30 | ~$355 | -4% | American Homes 4 Rent |
-| GOOG | 1 | ~$298 | ~$298 | -11% | |
-| OKLO | 3 | ~$62 | ~$185 | -32% | Nuclear. Underwater. |
-| TBT | 14 | ~$34 | ~$477 | -2% | Short 20Y Treasury |
-| CEPT | 10 | ~$11 | ~$110 | -3% | |
-| FXY | 4 | ~$58 | ~$233 | -3% | Yen |
-| STNG | 2 | ~$77 | ~$155 | -1% | Tankers |
-| PALL | 1 | ~$148 | ~$148 | -8% | Palladium |
+| Ticker | Type | Qty | Cost | P&L | Value |
+|--------|------|-----|------|-----|-------|
+| **AAPL** | Stock | 80 | $23.84 | **+975.11%** | $20,338 |
+| TBT | Stock | 14 | $34.63 | +1.24% | $491 |
+| CF | $130C Jun 18 | 1 | $11.67 | -3.71% | $1,210 |
+| USO | $118C Mar 27 | 1 | $9.01 | -88.57% | $103 |
+| FXY | Stock | 4 | $59.77 | -3.54% | $231 |
+| SLV | Stock | 5 | $91.03 | -27.96% | $328 |
+| SLVP | Stock | 3 | $43.06 | -20.14% | $103 |
 
 ---
 
@@ -87,11 +93,36 @@ Positioned for repricing of systemic risk via regional bank puts. Credit leads e
 
 | Priority | Action | Deadline |
 |----------|--------|----------|
-| 🟠 | **Trim SSB $90P (+125%)?** Low conviction name, doubled. | Today/Mon |
-| 🟠 | **Trim AAL $10P (+81%)?** Not core thesis. | Today/Mon |
-| 🟠 | **Check BIZD options** — private credit ETF puts | Today |
-| 🟡 | **Green day re-entry plan:** KRE lottos before FOMC, WAL reload at $73-75, APO add | Next green day |
-| 🟡 | **OKLO (-32%)** — cut or hold? | Next week |
+| 🔴 | **WAL $85P Jun (+149%)** — Roll to Sep or Dec | Next green day |
+| 🔴 | **HYG $75P Jun → Dec** — Hamilton framework, 8 contracts | Next green day |
+| 🟠 | **APO $100P Apr (-55%)** — Cut on next APO dip, or by early Apr | By Apr 7 |
+| 🟠 | **TLT $88P May (+100%)** — Sell decision pending Will | Before May |
+| ⚫ | **USO $118C Mar 27 (-89%)** — Expires Thu. Leave alone. | Mar 27 |
+| 🟡 | **Jun→Dec rolls (KRE)** — No rush per Will | When opportunity |
+
+---
+
+## Key Catalysts (Week of Mar 25)
+
+- **Wed 3/26** — ARESSI flow data (BROCK catalyst — PC contagion Stage 3-4 test)
+- **Thu 3/27** — Weekly claims + OBDCII report + USO expiry + Quarter-end plumbing (SOFR spike risk)
+- **Fri 3/28** — PCE (likely hot) + Iran 5-day pause expires
+- **Mon 3/31** — Quarter-end: Japan FY-end + USDA Planting Intentions
+
+---
+
+## Positions Closed Since Last Update (Mar 6-9)
+
+| Date | Trade | Entry | Exit | P/L | Return |
+|------|-------|-------|------|-----|--------|
+| Mar 9 | SSB $90P Jun | $1.87 | $5.45 | +$358 | +191% |
+| Mar 9 | GOOG 1 share | $334 | $295.68 | -$38 | -11.5% |
+| Mar 9 | OKLO 3 shares | $90.78 | $56.70 | -$102 | -37.4% |
+| Mar 9 | AMH 6 shares | ~$29.50 | $29.42 | ~-$5 | flat |
+| Mar 9 | SLV 5 shares | ~$91 | $76.71 | ~-$80 | -17% |
+| Mar 9 | PALL 1 share | ~$161 | $149.57 | ~-$11 | -7% |
+
+**Also exited since Mar 6:** GLD, CPER, XAR, ITA, INVH (remaining), USO LP, CEPT, STNG (shares) — all non-thesis positions cleared for dry powder. AAPL trimmed from 100 → 80 shares. HYG trimmed from 10 → 8 contracts. AAL restructured (4 Jul → 2 Jul + 2 Jun).
 
 ---
 
@@ -99,15 +130,13 @@ Positioned for repricing of systemic risk via regional bank puts. Credit leads e
 
 | Ticker | Trade | Conviction | Thesis | Wait For |
 |--------|-------|-----------|--------|----------|
-| **BIZD** | Puts (strike TBD) | 70% | Private credit ETF. Blue Owl gating + BCRED hemorrhaging. | Check options chain |
-| **OWL** | Puts (strike TBD) | 70% | Blue Owl epicenter. -60% from highs, record SI. | Screen options |
-| **KRE short-dated** | Lottos before FOMC | 65% | Mar 17-18 FOMC is next catalyst | Green day entry |
-| **WAL reload** | Mar/Apr put on bounce | 70% | If bounces to $73-75 | Green day |
-| **APO add** | More puts on bounce | 70% | Private credit thesis accelerating | Green day |
-| **HYG add** | More puts | 60% | HY OAS approaching 320 | Next credit widening leg |
-| **STNG options** | Jul/Oct calls | 65% | Tanker rates spiking. Own shares. | IV normalization |
+| **PC single-names** | APO/ARES/ARCC puts | 70% | BROCK catalyst clock. 9 funds gated. | Green day re-entry |
+| **FXY add** | Shares | 60% | Need BOJ hike or oil catalyst, not just repatriation | Signal |
+| **HYG add** | More puts | 60% | CDX divergence = real stress masked | Next credit widening |
+| **SOFI thesis** | Research needed | TBD | Consumer pain angle | Investigation |
 
 ---
 
 *Trade history → `JOURNAL.md` | Watchlist → `WATCHLIST.md` | Risk rules → `PROTOCOL.md`*
 *Thesis diary → `ACTIVE_TRADES.md` | Will's journal → `WILL/trading-journal`*
+*Green day playbook → `TODO_GREEN_DAY.md`*

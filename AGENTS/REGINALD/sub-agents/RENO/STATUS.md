@@ -10,321 +10,108 @@
 
 ## Mission
 
-Track Nevada's converging stress channels and their transmission to regional bank balance sheets. Nevada is a "canary state" — highly cyclical, tourism-dependent, and facing structural climate constraints. The 2008 crisis hit Nevada harder than any other state (60%+ home price declines). Early stress signals here may lead national recognition.
+Track Nevada's converging stress channels and their transmission to regional bank balance sheets. Nevada is a "canary state" — highly cyclical, tourism-dependent. Early stress signals here may lead national recognition.
 
 ---
 
-## The Nevada Thesis
+## The Nevada Thesis: "The Desert Canary"
 
-### Core Hypothesis: "The Desert Canary"
-
-Nevada's economy rests on three pillars, with stress levels now confirmed:
-
-1. **Tourism/Gaming** 🔴 — Canadian boycott real (-24% arrivals), 12 consecutive months of visitor decline
+1. **Tourism/Gaming** 🔴 — Canadian boycott (-24% arrivals), 12 consecutive months visitor decline
 2. **Housing** 🟡 — Correction underway (5 months supply), NOT crash (equity buffers holding)
-3. **Water** 🟢 — Surprisingly resilient (SNWA AA+ rated, 2.2M AF banked, 11-year buffer)
+3. **Water** 🟢 — Resilient (SNWA AA+, 2.2M AF banked, 11-year buffer). Not near-term catalyst.
+4. **Municipal Credit** 🟢 — Clark County AAA, State AA+. Exceptionally strong. See archive for detail.
 
-### Key Finding: "The Gaming Paradox"
+### "The Gaming Paradox"
 
-**Gaming revenue hit record $15.8B statewide in 2025 despite -7.5% visitor decline.** This is NOT resilience—it's baccarat whale concentration (+52.6% YoY). The mass-market leisure base is eroding:
-- Penny slots: **-31.2%** (value tier exhausted)
-- Strip growth: **+0.03%** (flat)
-- Strip RevPAR: **-10%** (MGM)
-
-When high-roller variance normalizes, structural weakness becomes visible.
+**Gaming revenue hit record $15.8B statewide in 2025 despite -7.5% visitor decline.** This is baccarat whale concentration (+52.6% YoY). Mass-market eroding: Penny slots -31.2%, Strip +0.03% (flat), Strip RevPAR -10% (MGM).
 
 ---
 
 ## Key Metrics Dashboard
 
-### Gaming Channel 🟠 ORANGE
+### Gaming 🟠 | Tourism 🔴
 
-| Metric | 2025 Value | YoY Change | Status |
-|--------|------------|------------|--------|
-| Statewide Revenue | **$15.8B** | +1.2% | 🟢 Record |
-| Strip Revenue | **$8.82B** | +0.03% | 🟡 Flat |
-| Downtown Revenue | **$951M** | +2.1% | 🟢 Record |
+| Metric | Value | YoY | Status |
+|--------|-------|-----|--------|
+| Statewide Revenue | $15.8B | +1.2% | 🟢 Record |
+| Strip Revenue | $8.82B | +0.03% | 🟡 Flat |
 | Baccarat (Aug) | $116.5M | +52.6% | 🟢 Whale-driven |
 | Penny Slots (Aug) | $93.1M | -31.2% | 🔴 Value exhaustion |
-| Mobile Sports Betting | $29.4M | +96.8% | 🟢 Digital growth |
+| Total Visitors (2025) | 38.5M | -7.5% | 🔴 |
+| Canadian Visitors | -24% | >10% trigger | 🔴 |
+| Canadian Seats Q1 2026 | -82,000 | WestJet/AC cuts | 🔴 |
+| Convention 2026 | 1.23M | Record pipeline | 🟢 |
 
-**Operator Health:**
+**Operator risk:** Caesars $11.9B debt + falling RevPAR = margin compression. 100% Strip unionization (Jan 2026) = permanently elevated costs.
 
-| Operator | Strip RevPAR | ADR | Occupancy | Debt |
-|----------|--------------|-----|-----------|------|
-| MGM | $228 (-10%) | $251 (-7%) | 91% (-3 pts) | Manageable |
-| Caesars | Declining | -5% | 92% (-5 pts) | **$11.9B** (HIGH) |
-| Wynn | Stable | Premium | Strong | $10.6B |
-| Venetian | Record | Premium | Record | Apollo-owned |
+### Housing 🟡 | Employment 🟠
 
-**Key Risk:** Caesars $11.9B debt + falling RevPAR = margin compression
+| Metric | Value | Status |
+|--------|-------|--------|
+| Median SFR Price | $470,000 (-3.1% YoY) | 🟡 |
+| Months of Supply | 5.0 | 🟡 |
+| Days on Market | 85 (+44% YoY) | 🟠 |
+| Statewide UR (SA) | 5.2% (46th rank) | 🔴 |
+| Construction Jobs | -10,500 (-9.3% YoY) | 🔴 |
+| UI Exhaustion Rate | 41% | 🔴 |
 
-### Tourism Channel 🔴 RED
+**Why no 2008 repeat:** High equity, locked-in sub-4% mortgages, no ARMs/subprime. Volume collapse, not price crash.
 
-| Metric | Current Value | Threshold | Status |
-|--------|---------------|-----------|--------|
-| Total Visitors (2025) | **38.5M** | -7.5% YoY | 🔴 |
-| Canadian Visitors | **-24%** | >10% decline trigger | 🔴 |
-| Airline Capacity | **-3.5%** | Spirit/Frontier cuts | 🟠 |
-| Canadian Seats Q1 2026 | **-82,000** | WestJet/AC cuts | 🔴 |
-| Convention Attendees 2026 | **1.23M** | Record pipeline | 🟢 |
+**"Low-Hire, Low-Fire" Paradox:** Employers holding but not expanding. Construction -9.3% mirrors RATE of early 2008.
 
-**Labor Milestone:** 100% Strip unionization achieved (Jan 2026)
-- Record wage increases locked in through 2028
-- Cost structure permanently elevated
-
-### Housing Channel 🟡 YELLOW
-
-| Metric | Current Value | Threshold | Status |
-|--------|---------------|-----------|--------|
-| Median SFR Price | **$470,000** | -3.1% YoY | 🟡 |
-| Months of Supply | **5.0** | >6 = buyer's | 🟡 |
-| Days on Market | **85** | +44% YoY | 🟠 |
-| Total Sales | **1,825/mo** | 18-year low | 🔴 |
-| Foreclosure Rate | **1:248** | Top 5 nationally | 🟠 |
-| Cash Sales | **26%** | Investor floor | 🟢 |
-
-**Why No 2008 Repeat:** High equity, locked-in sub-4% mortgages, no ARMs, no subprime. Volume collapse, not price crash.
-
-### Employment Channel 🟠 ORANGE — NEW
-
-| Metric | Current Value | Threshold | Status |
-|--------|---------------|-----------|--------|
-| Statewide UR (SA) | **5.2%** | vs 4.4% national | 🔴 46th rank |
-| Las Vegas MSA UR | **5.2%** | 2nd worst large metro | 🔴 |
-| Reno-Sparks MSA UR | **4.0%** | More resilient | 🟡 |
-| Construction Jobs | **-10,500** | -9.3% YoY | 🔴 |
-| UI Initial Claims | **13,852** | +13.3% MoM | 🟠 |
-| UI Exhaustion Rate | **41%** | Workers stuck | 🔴 |
-| Prof/Business Svcs | **-1,600** | Dec decline (largest) | 🟠 |
-| Financial Activities | **-3,600** | -4.5% YoY | 🟡 |
-
-**2026 Forecasts (Consensus):**
-| Metric | June 2026 | Dec 2026 |
-|--------|-----------|----------|
-| Unemployment Rate | **5.6%** | **5.9%** |
-| Job Growth YoY | +0.8% | +0.1% |
-| Visitor Volume | -1.4% | -0.2% |
-| Taxable Sales | +0.1% | +0.5% |
-
-**Key Finding: "Low-Hire, Low-Fire" Paradox**
-- Employers maintaining payrolls but refusing to expand
-- Construction -9.3% mirrors RATE of early 2008 decline (not yet scale)
-- 41% UI exhaustion = workers can't re-enter workforce
-- Black Nevadans: 10.09% UR (2x White); Youth (16-19): 23.94%
-
-**Structural Conclusion:** Nevada most vulnerable state to national slowdown. "Yellow lights on dashboard now a steady, ominous glow."
-
-### Water/Climate Channel 🟢 GREEN
-
-| Metric | Current Value | Status |
-|--------|---------------|--------|
-| Lake Mead Level | **1,065.82 ft** | Tier 1 shortage |
-| SNWA Reserves | **2.2M AF** | 11-year buffer |
-| SNWA Rating | **AA+ (S&P)** | Stable |
-| Actual vs Cap | 212K vs 270K AF | Comfortable |
-
-**Not a near-term catalyst.** Post-2026 compact = structural risk (2027-2030).
+**2026 Forecasts:** UR 5.2% → 5.9% by Dec. Job growth +0.8% → +0.1%.
 
 ---
 
-## Bank Exposure — COMPREHENSIVE
+## Bank Exposure
 
-### Western Alliance (WAL) — DETAILED ANALYSIS ✅
+### Comparative Assessment
 
-**Corporate Profile:**
-- Total Assets: **~$90B** (crossed Large Financial Institution threshold)
-- Subsidiaries: Bank of Nevada (Las Vegas) + First Independent Bank (Reno)
-- 2025 Brand unification underway
+| Bank | NV Exposure | CRE Risk | CET1 | Assessment |
+|------|-------------|----------|------|------------|
+| WAL | 18-22% | Moderate (CLN-hedged) | 11.0% | 🟡 Defensive — NOT primary target |
+| ZION | Significant | **440%** (HIGH) | 10.9% | 🟠 Vulnerable |
+| FIBK | Moderate | Retrenching | — | 🟡 Defensive |
 
-**Nevada Exposure:**
+**WAL:** CLN hedging, 2008 survivor culture, 85% multi-product customers. Gaming specialty (Circa $420M). See archive for full detail.
 
-| Metric | Value | Context |
-|--------|-------|---------|
-| NV Loan % (est.) | **18-22%** | of $58.7B total HFI |
-| Gaming Vertical | **Western Alliance Gaming** | National specialty |
-| Flagship Credit | **Circa Resort $420M** | Lead arranger, admin agent |
-| CRE Strategy | Industrial/Hospitality focus | Avoiding office |
-
-**Credit Quality:**
-
-| Metric | FY 2025 | Peer Comparison |
-|--------|---------|-----------------|
-| CET1 Ratio | **11.0%** | Above median |
-| ROTCE | **16.9%** | Superior |
-| NCO Ratio | **0.24%** | vs 0.32% peer avg |
-| NPL/Loans | **0.85%** | Rising but manageable |
-| Criticized Loans | **$1.3B** | Peaked mid-2025, declining |
-
-**Risk Mitigants:**
-1. **Credit-Linked Notes (CLNs)** — Transfers CRE risk to third parties
-2. **2008 Survivor** — Acquired distressed banks, conservative culture
-3. **OREO Strategy** — Repossessing office properties to accelerate resolution
-4. **Holistic Relationships** — 85% of customers use multiple products (sticky deposits)
-
-**WAL Assessment:** 🟡 YELLOW — Well-managed, NV-exposed but defensive posture. Canadian tourism decline creates borrower stress pipeline, but CLNs and capital buffers provide cushion. NOT a primary short target.
-
-### Zions (Nevada State Bank) — HIGH RISK
-
-| Metric | Value | Context |
-|--------|-------|---------|
-| CRE/Equity Ratio | **440%** | FAU flags as HIGH |
-| Uninsured Deposits | Elevated | Vulnerability |
-| SBA Lending | 72 loans, $25.5M | Small business focus |
-
-**Zions Assessment:** 🟠 ORANGE — Higher CRE concentration than WAL, no CLN hedging visible. More vulnerable to NV stress transmission.
-
-### Comparative Bank Risk
-
-| Bank | NV Exposure | CRE Risk | Capital | Assessment |
-|------|-------------|----------|---------|------------|
-| WAL | 18-22% | Moderate (CLN-hedged) | 11.0% CET1 | 🟡 Defensive |
-| ZION | Significant | **440%** (HIGH) | 10.9% CET1 | 🟠 Vulnerable |
-| FIBK | Moderate | Retrenching | Declining assets | 🟡 Defensive |
+**ZION:** Higher CRE concentration, no CLN hedging visible. More vulnerable.
 
 ---
 
-## Municipal Credit Ratings 🟢 GREEN
-
-### State of Nevada
-
-| Rating Agency | Rating | Outlook |
-|---------------|--------|---------|
-| S&P (GO) | **AA+** | Stable |
-| S&P (COPs) | AA | Stable |
-| Moody's | Aa1 | Stable |
-
-**Key Metrics:**
-- Available reserves: $1.3B (~20% of operating revenue)
-- Debt capacity: ~$2.1B over next three biennia
-- Debt amortization: 57% retired in 5 years, 80% in 10 years
-- General Fund forecast: +2.4% FY26, +2.9% FY27
-
-### Local Governments
-
-| Issuer | S&P | Moody's | Notes |
-|--------|-----|---------|-------|
-| Clark County | **AAA** | Aa1 | Highest rated, $3.3B GO debt |
-| Henderson | **AA+** | Aa2 | Diversified away from gaming |
-| North Las Vegas | AA- | N/A | Turnaround story, logistics hub |
-| Reno | N/A | Aa3 | Upgraded Mar 2024 |
-| Washoe County | N/A | Aa2 | Stable |
-| SNWA | **AA+** | N/A | Upgraded Feb 2025 |
-
-### Downgrade Triggers (S&P Scenarios)
-1. **Lake Mead <1,020 ft** — More severe mandatory shortages
-2. **Tourism revenue -10%+** — Impacts state General Fund
-3. **Reserve depletion <10%** — Sovereign-level action
-4. **Dead pool (895 ft)** — Fundamental tax base damage
-
-### NVPERS (Public Pension)
-- FY2024 return: **11.94%** (exceeded 7.25% assumption)
-- 10-year annualized: 8.30%
-- Total assets: $64.1B
-- Funded ratio: ~76% (improving)
-
-**Assessment:** 🟢 GREEN — Municipal credits exceptionally strong. Clark County AAA, SNWA AA+ after Feb 2025 upgrade. Not a near-term catalyst for stress.
-
----
-
-## Forward Indicators
-
-### Bullish (Near-Term Buffers)
-1. **Convention Super-Cycle 2026** — 1.23M attendees, record pipeline
-2. **A's Stadium** — $2B project, on track for Jan 2028 opening
-3. **Luxury Segment Resilient** — Venetian/Wynn hitting records
-4. **Labor Peace** — Contracts through 2028
-
-### Bearish (Building Pressure)
-1. **12 Consecutive Months of Visitor Decline** — Structural, not cyclical
-2. **Canadian Capacity -10% Q1 2026** — 82,000 fewer seats
-3. **Penny Slot Collapse -31%** — Value tier priced out
-4. **MGM Strip RevPAR -10%** — Premium operators feeling it
-5. **Caesars Debt $11.9B** — Margin compression risk
-
----
-
-## Transmission Chain (Updated with Employment Data)
+## Transmission Chain
 
 ```
-Canadian Tourism -24% (CONFIRMED)
-    → Strip visitor volume -7.5% (CONFIRMED)
-    → Gaming mix shifts to whales (CONFIRMED, fragile)
-    → Construction jobs -9.3% (CONFIRMED, 2008-rate parallel)
-    → Hospitality employment (FORECAST: UR 5.2% → 5.9% by Dec '26)
-    ↓
-EMPLOYMENT DETERIORATION UNDERWAY:
-- Initial claims +13.3% MoM ⚠️
-- 41% exhaustion rate (workers stuck)
-- Professional services -1,600/mo
-- Consensus: Nevada "most vulnerable state to national slowdown"
-    ↓
-    → Consumer stress (lagging, not yet visible)
-    → Gaming/CRE borrower stress (H2 2026)
-    → WAL NV loans (18-22% of book) at risk
-    → ZION NSB more vulnerable (440% CRE/equity)
+Canadian Tourism -24% → Strip visitors -7.5% → Gaming mix → whales (fragile)
+    → Construction -9.3% → UR 5.2% → 5.9% forecast
+    → Consumer stress (lagging) → Gaming/CRE borrower stress (H2 2026)
+    → ZION NSB vulnerable (440% CRE/equity)
     
 STATUS: Employment deterioration UNDERWAY, bank stress NOT YET
-TIMING: H2 2026 for employment trigger, bank stress 2-3Q after
+TIMING: H2 2026 employment trigger, bank stress 2-3Q after
 ```
 
 ---
 
-## Research Status
+## Net Assessment for REGINALD
 
-### Completed ✅ (ALL 7/7)
-- [x] RP-RENO-1: Canadian Tourism Impact
-- [x] RP-RENO-2: Gaming Industry Health
-- [x] RP-RENO-3: WAL Nevada Exposure
-- [x] RP-RENO-4: Nevada Housing Deep Dive  
-- [x] RP-RENO-5: Lake Mead / Water Crisis
-- [x] RP-RENO-6: Nevada Municipal Credit
-- [x] RP-RENO-7: Employment Leading Indicators ✅ NEW
+**Nevada is NOT a near-term catalyst for regional bank stress.** Despite tourism collapse:
+- Municipal credits at multi-decade highs
+- Water management buys time
+- Housing = volume collapse, not price crash
+- Convention buffer buys time (record 2026)
+- WAL defensive; ZION more exposed but not primary target
 
----
-
-## Sources Archive
-
-| Document | Date | Coverage |
-|----------|------|----------|
-| `RENO_Canadian_Tourism_Impact_2026-02-11.md` | 2026-02-11 | Tourism economics, boycott |
-| `RENO_Housing_Market_Analysis_2026-02-11.md` | 2026-02-11 | Housing, 2008 comparison |
-| `RENO_Water_Crisis_Lake_Mead_2026-02-11.md` | 2026-02-11 | Water, municipal credit |
-| `RENO_WAL_Nevada_Exposure_2026-02-11.md` | 2026-02-11 | WAL bank analysis |
-| `RENO_Gaming_Industry_Analysis_2026-02-11.md` | 2026-02-11 | Gaming, operator health |
-| `RENO_Municipal_Credit_Analysis_2026-02-11.md` | 2026-02-11 | State/local ratings, pension |
-| `RENO_Nevada_Labor_Market_Analysis_2026-02-11.md` | 2026-02-11 | **Employment leading indicators** |
+**Requires:** Employment shock in hospitality + recession → consumer defaults → CRE distress
+**Timeline:** H2 2026 at earliest, more likely 2027
 
 ---
 
-## Key Takeaways for REGINALD
+## Research Status — 100% COMPLETE ✅
 
-1. **WAL is NOT a primary short target** — CLN hedging, 2008 survivor culture, 11% CET1
-2. **ZION more vulnerable** — 440% CRE/equity, no visible hedging
-3. **Gaming paradox = fragile equilibrium** — Whale variance masks volume collapse
-4. **Municipal credits exceptionally strong** — Clark County AAA, SNWA AA+, state AA+
-5. **Convention buffer buys time** — Record 2026 calendar
-6. **Canadian transmission chain intact** — But needs employment trigger to hit banks
-
-### Net Assessment for Bank Thesis
-
-**Nevada is NOT a near-term catalyst for regional bank stress.**
-
-Despite tourism collapse (-24% Canadian, -7.5% total):
-- Municipal credits at multi-decade highs (AAA/AA+)
-- SNWA water management buys time (2.2M AF buffer)
-- Housing correcting via volume, not price crash
-- Gaming revenue record masks fragility but supports tax base
-- WAL defensive posture (CLNs, 11% CET1)
-- ZION is more exposed but not primary target
-
-**The transmission chain to bank stress requires:**
-1. Employment shock in hospitality sector
-2. Recession triggering consumer defaults
-3. CRE distress in gaming-adjacent properties
-
-**Timeline:** H2 2026 at earliest, more likely 2027 if recession
+All 7/7: RP-RENO-1 (Canadian Tourism) through RP-RENO-7 (Employment).
+*Sources & detail: `workbook/STATUS_archive_20260325.md`*
 
 ---
 
-*RENO: Research substantially complete. Desert canary singing on tourism, but institutional resilience (credits, water, banks) provides buffers. Monitor employment for trigger.*
+*RENO: Desert canary singing on tourism, but institutional resilience provides buffers. Monitor employment for trigger.*

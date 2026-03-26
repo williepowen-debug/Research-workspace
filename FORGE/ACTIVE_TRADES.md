@@ -3,7 +3,7 @@
 *Every trade gets logged here at entry with full thesis. Updated as trades evolve.*
 *P/L tracking lives in FORGE/STATUS.md. This file is the WHY, not the what.*
 
-**Last Updated:** 2026-03-09
+**Last Updated:** 2026-03-25
 
 ---
 
@@ -308,15 +308,109 @@ LIQUID projected LIQ-01 (320bps) to trigger at open. HY OAS was 297 as of Mar 4,
 
 ---
 
-## Watchlist — Not Yet Entered
+## New Entries — Post-March 9 (Exact Dates Unknown)
+
+*Positions appearing in Mar 25 POSITIONS.md that were not in ACTIVE_TRADES as of Mar 9. Entry dates unknown — POSITIONS.md is canonical for cost basis.*
+
+### TLT $85P Jun 19 x3 | Entry $0.82/contract | Cost: ~$246
+**ENTRY CONTEXT MISSING — Will to backfill**
+**Current P&L:** +103.24% | Value: $498
+**Notes:** Extends TLT put ladder alongside existing May $88P and Sep $85P. Likely part of the stagflation/demand-hole thesis expansion.
+
+### TLT $82P Oct 16 x2 | Entry $1.68/contract | Cost: ~$336
+**ENTRY CONTEXT MISSING — Will to backfill**
+**Current P&L:** +9.13% | Value: $366
+**Notes:** Longest-dated TLT put. Oct expiry covers full credit break window per Kimi analysis.
+
+### WAL $67.5P Jun 18 x2 | Entry $4.91/contract | Cost: ~$982
+**ENTRY CONTEXT MISSING — Will to backfill**
+**Current P&L:** -0.14% | Value: $980
+**Notes:** Deepens WAL waterfall below the $65P. Two contracts = meaningful sizing.
+
+### WAL $70P Sep 18 x1 | Entry $7.69/contract | Cost: $769
+**ENTRY CONTEXT MISSING — Will to backfill**
+**Current P&L:** +5.37% | Value: $810
+**Notes:** Sep-dated WAL put. Covers earnings + summer stress window.
+
+### WAL $67.5P Sep 18 x1 | Entry $7.51/contract | Cost: $751
+**ENTRY CONTEXT MISSING — Will to backfill**
+**Current P&L:** -5.42% | Value: $710
+**Notes:** Sep-dated companion to the Jun $67.5P. Time diversification.
+
+### APO $95P Dec 18 x1 | Entry $11.85/contract | Cost: $1,185
+**ENTRY CONTEXT MISSING — Will to backfill**
+**Current P&L:** -22.35% | Value: $920
+**Notes:** Long-dated core private credit thesis position. Dec expiry = maximum runway for BROCK catalyst. Largest single-contract cost basis in the portfolio.
+
+### ARES $95P Jun 18 x1 | Entry $8.03/contract | Cost: $803
+**ENTRY CONTEXT MISSING — Will to backfill**
+**Current P&L:** -14.04% | Value: $890
+**Notes:** ARES now confirmed gated (11.6% redemption requests). Private credit single-name alongside APO.
+
+### SOFI $16P May 1 x2 | Entry $1.23/contract | Cost: ~$246
+**ENTRY CONTEXT MISSING — Will to backfill**
+**Current P&L:** -9.52% | Value: $222
+**Notes:** Consumer pain thesis. May 1 expiry = short fuse. SOFI thesis research flagged as pending in TODO_GREEN_DAY.
+
+### KELYA $7.5P Aug 21 x1 | Entry $0.79/contract | Cost: $79
+**ENTRY CONTEXT MISSING — Will to backfill**
+**Current P&L:** -0.89% | Value: $75
+**Notes:** Staffing canary. Was on watchlist as "dead" in prior STATUS.md but still held.
+
+### CF $130C Jun 18 x1 | Entry $11.67/contract | Cost: $1,167
+**ENTRY CONTEXT MISSING — Will to backfill**
+**Current P&L:** -3.71% | Value: $1,210
+**Notes:** LONG call — fertilizer thesis. Contrarian to the short book. Likely tied to food inflation vector / USDA planting intentions catalyst (Mar 31).
+
+### USO $118C Mar 27 x1 | Entry $9.01/contract | Cost: $901
+**ENTRY CONTEXT MISSING — Will to backfill**
+**Current P&L:** -88.57% | Value: $103
+**Notes:** Oil upside call, expires Mar 27. Essentially dead. Leave alone per TODO_GREEN_DAY.
+
+### AAL $10P Jun 18 x2 | Entry $0.90/contract | Cost: ~$180
+**ENTRY CONTEXT MISSING — Will to backfill**
+**Current P&L:** -13.02% | Value: $156
+**Notes:** Second AAL tranche alongside existing Jul $10P. Jun expiry = tighter catalyst window.
+
+### OZK $45P Aug 21 x2 additional | Entry $3.69/contract | Cost: ~$738
+**ENTRY CONTEXT MISSING — Will to backfill**
+**Current P&L:** +5.78% (blended with original 2) | Value: $1,560 (all 4)
+**Notes:** Added 2 more contracts to existing 2x position (now 4 total). Doubling down ahead of Apr 16 earnings.
+
+### OZK $42.5P May 15 x1 additional | Entry $2.20/contract | Cost: ~$220
+**ENTRY CONTEXT MISSING — Will to backfill**
+**Current P&L:** -31.88% (blended) | Value: $300 (both)
+**Notes:** Added 1 more contract (now 2 total). Tighter expiry for earnings gamma.
+
+### FLG $13P Jul 17 x2 additional | Entry $0.95/contract | Cost: ~$190
+**ENTRY CONTEXT MISSING — Will to backfill**
+**Current P&L:** -16.09% (blended) | Value: $240 (all 3)
+**Notes:** Position grew from 1 to 3 contracts.
+
+### FXY Stock x4 | Entry $59.77/share | Cost: ~$239
+**ENTRY CONTEXT MISSING — Will to backfill**
+**Current P&L:** -3.54% | Value: $231
+**Notes:** Yen carry unwind thesis (SAM). Starter position. Thesis refined Mar 25: repatriation alone insufficient, need BOJ hike or oil catalyst.
+
+---
+
+## Positions Exited Since Mar 9
+
+**Non-thesis cleared for dry powder:** GLD, CPER, XAR, ITA, INVH (remaining), USO LP, CEPT, STNG (shares), PALL.
+**AAPL trimmed:** 100 → 80 shares.
+**HYG trimmed:** 10 → 8 contracts.
+**SLV trimmed:** 10 → 5 shares.
+
+---
+
+## Watchlist — Not Yet Entered (Updated Mar 25)
 
 | Ticker | Trade | Conviction | Thesis | Wait For |
 |--------|-------|-----------|--------|----------|
-| **STNG options** | Jul $85C or Oct $85C | 70% | Already own shares. Options when IV settles. | IV normalization, tighter spreads |
-| **BXSL** | Puts (strike TBD) | 65% | Medallia 78¢, NAV overstated. BROCK thesis. | Screen options |
-| **OWL** | ✅ ENTERED $9.5P Apr | 65% | Blue Owl epicenter, OBDC II gated. | — |
-| **FXY add** | Shares | 60% | SAM carry unwind 55%. Sold 12 last week, kept 4. May re-enter. | Dip or catalyst |
-| **HYG add** | More puts | 60% | Cheap. HY OAS approaching 320. | Next credit widening leg |
+| **PC re-entry** | APO/ARES/ARCC puts | 70% | BROCK catalyst clock, 9 funds gated | Green day |
+| **FXY add** | Shares | 60% | Need BOJ hike or oil catalyst | Signal |
+| **HYG add** | More puts | 60% | CDX divergence = real stress masked | Credit widening |
+| **SOFI thesis** | Research needed | TBD | Consumer pain angle | Investigation |
 | **CVX** | Puts (strike TBD) | 55% | 29% CPC exposure | April earnings |
 
 ---

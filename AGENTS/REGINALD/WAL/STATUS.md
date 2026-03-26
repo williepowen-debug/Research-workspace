@@ -1,5 +1,5 @@
 # WAL STATUS
-**Last Updated:** 2026-03-25 | **Status:** 🔴🔴 HIGH CONVICTION SHORT
+**Last Updated:** 2026-03-26 | **Status:** 🔴🔴 HIGH CONVICTION SHORT
 **Price:** ~$68 | **Assets:** $90B+
 
 ---
@@ -37,6 +37,10 @@
 
 | Date | Event |
 |------|-------|
+| Mar 26 | Analyst downgrades: Weiss Buy→Hold, Barclays PT $105→$90, WFC PT $83→$79. Consensus PT ~$85-90 (thesis: $47-60). KB 61→70 rows. EARNINGS_PREP upgraded B+→A-. |
+| Mar 26 | $400B CRE maturity wall confirmed for 2026. CMBS $167M Chicago office foreclosure sets loss severity benchmark. |
+| Mar 26 | Jefferies Q1 confirmed: EPS $0.70 vs $0.91 (-23%), $17M MFS losses. V2 chain has P&L confirmation. |
+| Mar 26 | BROCK: NDFI total = $1.54T (5x prior model). WAL's $10.8B OBS SSFA may be NDFI warehouse exposure. V3 amplified. |
 | Mar 25 | KB.tsv seeded (61 rows, 10 groups) + architecture buildout |
 | Mar 23 | FDIC geographic analysis integrated, insider scan completed |
 | Feb 27 | Convergence Day: -10.64% on zero WAL-specific news |
@@ -58,13 +62,15 @@
 
 ## Research Agenda
 
-- [ ] **Jefferies Q1 reaction** (Mar 25 after close) — credit provisions, Cantor mentions, WAL exposure
+- [x] **Jefferies Q1 reaction** — EPS $0.70 vs $0.91 (-23%). $17M MFS losses. TBVPS -15.7% YoY. V2 confirmed. SMFG "no immediate plans." (KB-WAL-066)
 - [ ] **WAL Call Report RC-C** — state-level noncurrent rates (AZ, CA, NV)
 - [ ] **Cantor Note Finance update** — any restructuring, additional markdowns
 - [ ] **SSFA regulatory signals** — any OCC/FDIC commentary on securitization risk weights
-- [ ] **Updated insider filings** — any new Form 4s
-- [ ] **SMFG/Jefferies acquisition progress** — timeline, implications for credit risk transfer
-- [ ] **Nevada gaming stress** — consumer discretionary data crossover with CARL
+- [ ] **Updated insider filings** — any new Form 4s (refresh by Apr 18)
+- [ ] **SMFG/Jefferies acquisition progress** — walked back "no immediate plans" — monitor
+- [ ] **Nevada gaming + housing stress** — Mortgage distress ATH; Google Trends signal. Cross-ref NV gaming data for KB-WAL-041.
+- [ ] **OZK Apr 16 read-through** — AZ/NV CRE stress = direct WAL thesis preview 5 days before earnings
+- [ ] **Analyst consensus refresh** — watch for additional PT cuts post-OZK (baseline: Weiss Hold, Barclays $90, WFC $79)
 
 ---
 
