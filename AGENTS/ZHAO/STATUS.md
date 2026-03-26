@@ -1,6 +1,50 @@
 # ZHAO STATUS
-**Updated:** 2026-03-25 13:45 UTC (Mar 25: Daily check-in + HIBOR spike + Japan FY-end confirmed + de-dollarization)
+**Updated:** 2026-03-26 16:45 UTC (Mar 26: Inbox processed x2 — Japan TIC Phase 2 + HANS energy asymmetry; HIBOR-SOFR -205bps monitoring continued)
 **Overall Status:** 🔴🔴🔴 EMERGENCY ESCALATION — Gulf Recycling Loop Broken / Yuan-for-Hormuz / Ghalibaf UST Buyer Threat / FOMC Trapped / HIBOR approaching threshold
+
+---
+
+## 📌 MAR 26 INBOX PROCESSING + HIBOR REFRESH
+
+### Inbox Processed (2 files → moved to processed/)
+1. `2026-03-20_to-ZHAO_phase2_tic.md` — Japan TIC Phase 2 oscillation analysis (6 days stale, now processed)
+2. `HANS_OUTBOX-MAR24-HANS-DOMAIN-REFRESH.md` — HANS domain refresh (2 days stale, ZHAO-relevant extracts below)
+
+### A. Japan Phase 2 TIC Update (from Mar 20 memo)
+**Japan Jan 2026 TIC: +$39.8B BUYER** (holdings → $1.225T). Contradicts sustained-selling model.
+- Japan is Phase 1/Phase 2 **oscillator**, not a steady drain anchor:
+  - **Phase 1** (normal): UST seller — carry unwind, rate differential repatriation
+  - **Phase 2** (risk-off): UST **buyer** — flight-to-safety during equity liquidation / Gulf escalation
+- Net Q1-Q2 effect may be closer to **neutral** than initial four-anchor model
+- **Medium-term still bearish:** Oil-in-yen structural pressure (Dubai $166, ¥26,400/bbl) = sustained repatriation in Q2-Q3 as trade deficit forces asset liquidation
+- **Model update:** Four-anchor demand hole should incorporate "Phase 2 offset" — Japan temporarily fills demand hole during acute risk-off, then resumes selling. Non-linear, not disabled.
+- Cross-ref: SAM-15 (oil-in-yen structural repatriation), SAM STATUS Mar 20
+
+### B. HANS Domain Refresh — ZHAO-Relevant Extracts (Mar 24)
+**China Energy Asymmetry Now Structural:**
+- China: Hormuz safe passage (DD-4) + Russian crude discount + Qatar LNG access = **25-40% energy cost wedge** vs. Europe
+- Duration: disruption + normalization = **2-4 year** structural advantage, not cyclical
+- EU chemical, aluminum, fertilizer sectors in structural decline → **capital flow implication**: EU industrial capital will seek cheaper production = China inflow tailwind
+- Belgium/Euroclear narrative upgrade: China as "alternative security provider" + "only viable energy partner" **converging** — adds geopolitical dimension to custodial routing motive
+
+**Watch signals (HANS flagged):**
+- EU-China back-channel energy discussions = **capital flows signal**
+- Macron/Scholz Beijing visit H2 2026 = tell for EU-China realignment
+- EU exemption from Chinese rare earth restrictions in exchange for softer Taiwan stance = potential deal structure → would accelerate CNY settlement flows
+
+**Private credit cascade (HANS → LIQUID, but ZHAO implication):**
+- 9 funds gated (APO/ARES) + HY OAS 328 = EU LP forced redemptions → USD demand spike
+- FX swap basis widening → European dollar funding premium → potential ECB swap line activation
+- This is a **temporary UST demand OFFSET** — EU institutions selling to meet redemptions could hit UST market on the supply side
+
+### C. HIBOR-SOFR Daily Update — Mar 26
+**No new HKMA data ingested this session.** Carrying forward Mar 25 readings:
+- HIBOR-SOFR: **~-205bps** ⚠️ (5bps from 🟠 trigger at -200bps)
+- Quarter-end: **Mar 31 = 5 days away.** Historically, quarter-end = peak HIBOR demand, further narrowing expected.
+- AB: HK$53,773M (stable). Peg defense not required, but liquidity pressure is rate-driven.
+- **Scenario if HIBOR-SOFR crosses -200bps:** Upgrade HK Peg Channel from 🟡 2 to 🟠 3. Flag to PROME.
+- **No new data on SAFE reserves or LGFV stress this session.**
+- Monitoring continues through Mar 31. Next HKMA AB reading: check daily.
 
 ---
 
@@ -82,14 +126,14 @@ No new defaults or acute triggers. Information suppression continues. 🟠 UNCHA
 
 | # | Vector | Score | Current State |
 |---|--------|-------|---------------|
-| 1 | Four-Anchor UST Selling | 🔴 5 | JP+CN+KR+Gulf active. All anchors have Hormuz/TSMC transmission pathway. |
+| 1 | Four-Anchor UST Selling | 🔴 5 | JP+CN+KR+Gulf active. Japan = Phase 1/2 oscillator (Jan TIC +$39.8B). Medium-term net seller via oil-in-yen. Phase 2 offset non-linear — doesn't disable thesis. |
 | 2 | Korea Crisis | 🔴🔴 5 | KOSPI worst-ever 2-day. USD/KRW >1,500. BoK selling live. |
 | 3 | Custodial Arbitrage | 🟠 3 ↓ | Belgium $451B — REVERSED. $500B now $49B away. |
 | 4 | LGFV/Banking | 🟠 3 | Guizhou 11.6% NPL near RED. |
 | 5 | Property Zombification | 🟠 3 | Decade deleveraging. Vanke SOE rescue. Land revenue halved. |
 | 6 | PBOC Defensive Wall | 🟠 3 | Gold 16mo streak. CIPS +43%. |
 | 7 | HK Peg Channel | 🟡 2 ⚠️ | AB stable. HIBOR-SOFR -205bps, 5bps from 🟠. Daily monitoring through Mar 31. |
-| 8 | LNG/Energy Shock | 🔴🔴 5 | Ras Laffan struck — permanent capacity destruction. |
+| 8 | LNG/Energy Shock | 🔴🔴 5 | Ras Laffan struck — permanent capacity destruction. China asymmetry confirmed: Hormuz passage + Russia + Qatar = 25-40% cost wedge vs. EU (HANS DD-4). |
 | 9 | USD/CNY Defense | 🟡 2 | ~6.90. PBOC active appreciation. |
 | 10 | Gulf Recycling Collapse | 🔴🔴 5+ | Three mechanisms: revenue collapse + forced selling + yuan settlement diversion. |
 | 11 | Gulf Financial Infra Destruction | 🔴🔴 5+ | Ras Laffan + Samref + Aramco breach. Emergency liquidation = base case. |

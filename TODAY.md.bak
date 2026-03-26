@@ -1,0 +1,66 @@
+# TODAY — Thursday, March 26, 2026
+
+## Key Catalysts Today & Tomorrow
+
+| Day | Event | Owner | Priority | Status |
+|-----|-------|-------|----------|--------|
+| **Thu 3/26** | ARES earnings — redemption update, NAV, non-accruals | BROCK | 🔴 | ⏳ Watching |
+| **Thu 3/26** | Initial Claims — Mullin normalization? Shadow gap? | LABOR/HENRY | 🟠 | `LABOR/research/CLAIMS_FRAMEWORK_MAR27.md` |
+| **Thu 3/26** | Quarter-end SOFR daily watch | LIQUID | 🔴 | `LIQUID/research/QUARTER_END_PLAYBOOK_MAR31.md` |
+| **Thu 3/26** | ZHAO HIBOR-SOFR at -205bps (5bps from trigger) | ZHAO | 🟠 | Monitoring daily |
+| **Fri 3/27** | OBDCII Q1 report — OWL $9.5P Apr 2 catalyst | BROCK | 🔴 | Need hold/exit framework |
+| **Fri 3/27** | PCE data — Fed inflation gauge | HENRY | 🔴 | `HENRY/research/CATALYST_PLAYBOOK_MAR27-28.md` |
+| **Fri 3/27** | USO $118C Mar 27 EXPIRES | PROME | 🟠 | $1.88, -79%. Ride or cut? |
+| **Fri 3/27** | Shunto Round 2 — BOJ checkpoint | SAM | 🟠 | `SAM/research/RENGO_R2_PREP_MAR27.md` |
+| **Fri 3/28** | Iran 5-day pause expires — escalation or extend? | HAWK | 🔴🔴 | `RED/research/CEASEFIRE_FADE_PROTOCOL.md` |
+| **Fri 3/28** | DHS paycheck miss (Day 42, Congress recessed) | MARCO | 🟠 | `MARCO/inbox/TSA_SHUTDOWN_STRESS_MAR26.md` |
+
+## Next Week — Mar 31 Gauntlet
+
+| Day | Event | Owner | Priority |
+|-----|-------|-------|----------|
+| **3/31** | Q1 end — WTI close = NOPI magnitude lock | BRENT | 🔴🔴 |
+| **3/31** | USDA Planting Intentions — depletion clock #1 | HAWK | 🔴🔴 |
+| **3/31** | Japan FY-End ESR Disclosures | SAM | 🔴 |
+| **3/31** | Tricolor vehicle liquidation commences ($800M gap) | OTTO | 🔴 |
+| **3/31** | First Brands auction concludes (Ch. 7 risk) | OTTO | 🔴 |
+| **3/31** | Quarter-end SOFR/repo — zero RRP + 20Y settlement | LIQUID | 🔴🔴 |
+| **4/1** | Tankan — BOJ checkpoint | SAM | 🔴 |
+| **4/2** | OWL $9.5P Apr 2 EXPIRES | PROME | 🔴 |
+
+## Pending Trade Decisions (Will deferred this session)
+
+| Position | Issue | Urgency | Doc |
+|----------|-------|---------|-----|
+| APO $100P Apr 17 | -80%, $1.80. Roll to Jun $95P? | Hard stop Apr 11 | `RED/research/APO_ROLL_DECISION_MAR26.md` |
+| OWL $9.5P Apr 2 | Expires in 7 days. OBDCII tomorrow. | This week | Needs framework |
+| USO $118C Mar 27 | Expires TOMORROW. -79%. | Today/tomorrow | — |
+| KRE Jun→Dec rolls | T-19 says book is inverted 61/39 | This week | `LIQUID/research/KRE_HYG_ROLL_ANALYSIS.md` |
+| Near→long rebalance | 61% near / 39% long vs 6-12mo war | This week | `RED/POSITION_TIMELINE_STRESS.md` |
+| FXY sizing | 4 shares → full size. BOJ May 1. | Next catalyst | `SAM/research/FXY_ACTIVATION_CARD.md` |
+| MPC diesel crack | New entry. 3-5% portfolio. | Green day | `BRENT/research/DIESEL_CRACK_ANALYSIS.md` |
+
+## Session 2 Completed (today)
+
+- ✅ W-002 NDFI verified — $1.32T (FDIC primary), "$1.54T" phantom. 4 files corrected.
+- ✅ T-19 RED position timeline — book inverted, roll recs delivered
+- ✅ T-20 entry thesis backfill — 4/5 Will-verified, ZION needs research (T-21 queued)
+- ✅ MARCO deep refresh — VX 11 rows, ag data gap documented, 6 reports
+- ✅ SAM/ZHAO/OTTO/MARCO daily check-ins
+- ✅ LESSONS.md updated (subagent auto-announce)
+- ✅ All handoff docs updated for `/new`
+
+## Key Levels
+
+| Ticker | Level | Significance |
+|--------|-------|-------------|
+| HY OAS | 319 | CDX diverging. Head-fake per LIQUID. |
+| Gas | $3.98 | **AT $4 behavioral breakpoint** |
+| Brent | ~$100 | Ceasefire pullback from $107 |
+| USD/JPY | ~159.45 | 55 pips from 160 MOF intervention |
+| HIBOR-SOFR | -205bps | 5bps from -200 trigger |
+| APO Apr | $1.80 | -80%, theta bleeding daily |
+
+---
+
+*Account: $52,626 (+66%) | Cash: $9,487 (18%) | Positions → `PROME/POSITIONS.md`*

@@ -1,18 +1,24 @@
 # NDFI Exposure — Hidden CRE Layer 2 Hypothesis
 
-**Created:** 2026-03-10 | **Source:** Whalen/Daily Reckoning FDIC Q4 2025 data
-**Status:** 🔴🔴 NEW CRITICAL CHANNEL — hypothesis stage, needs RCON code research
+**Created:** 2026-03-10 | **Source:** Whalen/Daily Reckoning + FDIC primary verification
+**Status:** 🔴🔴 CRITICAL CHANNEL — FDIC-confirmed, primary source verified Mar 26
+**Verified:** Mar 26 via FDIC "Bank Lending to NDFIs" (Feb 2026) + FRED series B1030NCBCQG
 
 ---
 
-## Core Data (FDIC Q4 2025)
+## Core Data (FDIC verified)
 
-| Metric | Value | Signal |
-|--------|-------|--------|
-| Total bank loans/leases | $13.4T | +5.9% YoY baseline |
-| NDFI loans outstanding | **$1.4T** | **+35% YoY, +7% QoQ — fastest growing category** |
-| Est. undrawn commitments to NDFIs | **~$2.8T** | 2:1 ratio to outstanding |
-| **Total potential NDFI exposure** | **~$4.2T** | Industry-wide |
+| Metric | Value | Signal | Source |
+|--------|-------|--------|--------|
+| Total bank loans/leases | $13.4T | +5.9% YoY baseline | FDIC QBP Q4 2025 |
+| NDFI loans outstanding (Q3 2025) | **$1.32T** | **21.9% CAGR since 2010, 10% of all bank loans** | FDIC Feb 2026 paper, FRED B1030NCBCQG |
+| NDFI loans outstanding (Q4 2025 est.) | **~$1.4T** | Whalen estimate, pending FDIC confirmation | Whalen/Daily Reckoning |
+| NDFI as % of Tier 1 capital + allowance | **52.3%** | Up from 4.1% in 2010 | FDIC Feb 2026 paper |
+| Concentration: banks >$100B | **86%** of all NDFI loans | Top 10 banks hold 71% | FDIC Feb 2026 paper |
+| Est. undrawn commitments to NDFIs | **~$2.8T** | 2:1 ratio to outstanding (Whalen est.) | Whalen — unverified |
+| **Total potential NDFI exposure** | **~$4.1T** | Industry-wide (funded + unfunded) | Derived — unfunded ratio unverified |
+
+⚠️ **Prior error corrected:** "$1.54T" cited in RED STATUS was a phantom figure — no primary source exists. Actual Q3 2025 = $1.32T. "5.1x revision" likely referred to Dec 2024 Call Report reclassification effects, not a balance change.
 | Corporate bankruptcies 2025 | 700+ (through Nov) | +14% YoY, highest in 15 years |
 | FHLB advances | -14% | Liquidity backstop being drawn down |
 

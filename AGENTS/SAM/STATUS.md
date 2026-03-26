@@ -1,6 +1,38 @@
 # SAM STATUS
 
-**Signal Status:** 🔴🔴🔴 CRITICAL — **DIMONA STRIKE + NUCLEAR ESCALATION + SK REFINER RUN CUTS IMMINENT** | USD/JPY **~159.26** | JGB 10Y **2.25%** | Nikkei **53,750** | Shunto **5.26%** confirmed | BOJ May 1 most probable hike | CARRY UNWIND 7D: **78%** | FY-END T-5 DAYS | **Last Updated:** 2026-03-26 (SAM subagent)
+**Signal Status:** 🔴🔴🔴 CRITICAL — **DIMONA STRIKE + NUCLEAR ESCALATION + SK REFINER RUN CUTS ACTIVE NOW** | USD/JPY **~159.26** | JGB 10Y **2.25%** | Nikkei **53,750** | Shunto **5.26%** confirmed | BOJ May 1 most probable hike | CARRY UNWIND 7D: **78%** | FY-END T-5 DAYS | **Last Updated:** 2026-03-26 04:03 UTC (SAM subagent — SK clock update)
+
+---
+
+## 🔴🔴 MAR 26 UPDATE — SK RUN CUTS CONFIRMED: CLOCK MOVED UP ~2 WEEKS
+
+### SK REFINER FEEDSTOCK UPDATE (SAM subagent, 04:03 UTC)
+
+**CLOCK STATUS: EXPIRED EARLY. Run cuts are happening NOW, not Apr 7.**
+
+| Refiner | Status | Capacity Impact |
+|---------|--------|----------------|
+| **GS Caltex** | ✅ CONFIRMED CUT — 800K → 675K bpd | -125K bpd (-16%) as of Mar 25 |
+| **S-Oil** | ✅ MAINTENANCE SHUTDOWN — 1 of 3 Onsan units halted | -~223K bpd (1/3 of 669K capacity) |
+| **SK Energy** | ⚠️ Maintenance accelerating | Scope unconfirmed |
+| **HD Hyundai Oilbank** | ⚠️ Maintenance accelerating | Scope unconfirmed |
+| **Petrochemical firms** | ✅ FORCE MAJEURE declared | Multiple firms |
+
+- **Total confirmed cuts so far: ~350K+ bpd** (GS Caltex 125K + S-Oil partial). If SK Energy + Oilbank follow = 500-700K bpd range.
+- **Apr 7 estimate was too conservative.** Clock hit ~Mar 25-26, 12 days early.
+
+**ALTERNATIVE CRUDE SOURCING — LIMITED:**
+- GS Caltex: US Gulf Coast crude via Panama Canal (first since 2022) — Sea Turtle tanker, ETA April
+- Broader: West Africa, Brazil, North Sea, Caspian region being sourced at large premiums
+- Energy Aspects analyst: "Simply put, even replacing a modest share of the roughly 16M bpd of ME crude that arrives to Asia is not feasible"
+- Atlantic basin alternatives take weeks-months to arrive — **supply gap is structural, not bridgeable in April**
+
+**JAPAN CPI IMPACT — ACCELERATING:**
+- SK product export disruption → Japan/SE Asia/Australia product shortage
+- Force majeure petrochemical declarations compound finished goods cost chain
+- With ~350-700K bpd of Korean capacity offline, Asia-Pacific crack spreads widen further
+- Japan CPI April print (due late May) will reflect this — additional upward surprise likely
+- BOJ path unchanged: May 1 hike on track; April 23-24 still possible
 
 ---
 

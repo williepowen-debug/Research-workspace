@@ -29,6 +29,29 @@
 | D-019 | 2026-03-26 | P-023: Prome inbox triage (14 messages) | Med | ✅ Approve | *pending* | |
 | D-014 | 2026-03-26 | P-017: OTTO 2 signals + First Brands chain map | Med | ✅ Approve | *pending* | |
 
+| D-020 | 2026-03-26 | Batch 8 (T-01 to T-04, T-22 to T-30): 13 proposals | Mixed | ✅ Approve All (×2) | See session 3 report below | |
+
+### Batch 8 Outcomes (Session 3, Mar 26)
+
+| ID | Proposal | Conviction | Value | Grade |
+|----|----------|------------|-------|-------|
+| T-01 | HENRY Triple Catalyst Matrix | High | 36-cell matrix, "200K = fake" insight, USO roll flag | A — actionable, decision-ready |
+| T-02 | BROCK ARES Pre-Report | High | Watch metrics + thresholds defined | B — framework, no new intel |
+| T-03 | RED APO Roll/Cut | High | APO at $110.52 (not $135), class action + gating found, HOLD rec | A+ — changed the decision |
+| T-04 | BROCK OBDCII Framework | High | Tender suspended finding, 5-8% lottery framing | B — useful but expected |
+| T-22 | OTTO Inbox (Prome read) | High | OZK false positive, Tricolor $800M brief | B+ — no action but closed loop |
+| T-23 | NEXUS NDFI Fix (Prome) | High | 3× $1.54T→$1.32T + litigation correction | A — error correction, data integrity |
+| T-24 | ARES Integration | High | ⏳ Blocked — earnings not published | — |
+| T-25 | ZHAO Inbox | Med | Japan TIC +$39.8B oscillator, HIBOR carried forward | C+ — housekeeping, no edge |
+| T-26 | MARCO STATUS Sync | Med | 300→141 lines, Day 40 updated | C — housekeeping |
+| T-27 | SHADE/NAIC | Med | PBR guardrails APF 2025-16, AG 55 filing window live | B+ — regulatory signal |
+| T-28 | Construction Collapse | High | 135K removed, 170K shadow, NFP undercounts 2-3x | A — new quantification, blind spot filled |
+| T-29 | Exhaustion Cascade | High | Peak Jul 2026, $800-930M/mo hole, cross-posted CARL | B+ — useful timeline but soft FL numbers |
+| T-30 | Staffing Canary | Med | Resolved 🟢 — flex demand not recovery | A — counter-signal eliminated |
+| Bonus | APO Litigation Map | High | 1 lawsuit not 2, Leon Black §20(a) | A — corrected false belief |
+
+**Pattern:** Decision-oriented tasks (T-03, T-28, T-30) graded A/A+. Open-ended hygiene (T-25, T-26) graded C/C+. Will directed: prioritize specific questions going forward.
+
 **Conviction** = Prome's pre-decision confidence that the work produces value (High/Med/Low).
 **Value Produced** = One-line post-completion assessment. Numbers required. e.g., "3 KB entries, scenario prob shifted 68%→78%" or "Low — no actionable findings."
 

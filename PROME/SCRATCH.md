@@ -1,49 +1,45 @@
 # SCRATCH — Ephemeral Working Memory
 
-**Updated:** 2026-03-26 02:30 UTC (Wed 10:30 PM ET)
+**Updated:** 2026-03-26 18:00 UTC (Thu 2:00 PM ET)
 
 ---
 
 ## QUICKSTART
-Scenario D **82%**. War Day 26. Account **$52K (+92%)**. Brent ~$100. HY OAS 319. Gas $3.983.
+Scenario D **82%**. War Day 26. Account **$52,626 (+66%)**. Brent ~$100. HY OAS 319. Gas $3.98. Cash $9,487 (18%).
 
-**TOSCANINI: 15 decisions, 14 approved, 0 rejected.** Batch 1-3 complete. System proven over 2 sessions.
+**Book inverted:** 61% near / 39% long vs 6-12mo thesis. T-19 recommends 22/78 rebalance. Will deferred trade execution.
 
-## STATE
+## Handoff
+**Last context:** Batch 8 complete (12/13). Decision-oriented spawns >> hygiene. Will directed: prioritize specific questions going forward. Batch 9 queued (5 proposals, all decision-oriented). T-24 (ARES earnings) still blocked.
 
-**Batch 3 results:**
-- REGINALD WAL PREP: 7/11 items closed, grade A-. 4 need external data.
-- CARL: KB +4, 40-50% global N+K disrupted. Convergence 44/50.
-- SAM: KB created (10), carry unwind 78%. FXY decision surfaced.
-- OTTO: KB created (8), First Brands chain: Barclays→Apollo→WAL (inference).
-- Mar 31 PREP: 🔄 may still be running — check LAST_COMPLETION.md
+**Next tide:**
+1. 🔴 ARES earnings — still not published. Spawn BROCK immediately when they drop.
+2. 🔴 Batch 9 awaiting approval: FXY entry timing (T-31), KRE roll pricing (T-32), IWM add decision (T-33), ZION kill conditions (T-34), diesel crack instrument (T-35)
+3. 🔴 USO $118C expires TOMORROW — HENRY says roll to Apr $120C if Brent >$100 at open
+4. 🔴 Claims Thu 8:30 AM — use HENRY Triple Catalyst Playbook. 200K = fake (Mullin +40-60K)
+5. 🔴 APO HOLD to Apr 7, stop $113. Class action today + 11.2% gating. Verify bid price + redemption source.
+6. 🟠 OWL $9.5P — hold through OBDCII tomorrow. Exit if NAV >$14.50 + non-accruals flat.
+7. 🟠 HIBOR-SOFR -205bps, 5bps from trigger. Daily through Mar 31.
+8. 🟠 SK refiner cuts 2 weeks early — may accelerate FXY entry (T-31)
 
-**Concurrent limit: 3.** One spawn, one objective rule active.
+**Open questions:**
+- ARES earnings: when do they publish?
+- APO Apr $100P actual bid price — Will needs to verify
+- 11.2% redemption source (Piper Sandler or SEC filing?) — Will needs to confirm
+- RRP at $1.1B (zero) — what happens quarter-end with no buffer?
 
-**AGENT OPS approvals: 12/12** → strong Tier 1 promotion candidate.
+**Process note:** Auto-announce still unreliable. Always check `subagents list` after ~2-3 min. Concurrent same-agent spawns overwrite LAST_COMPLETION.md — check for research files directly.
 
-## WILL_QUEUE (present at check-in)
+**$1.54T phantom:** Corrected in NEXUS (3×), SHADE (3×), plus prior RED/REGINALD/MEMORY. Watch for re-propagation from any stale cross-agent mail.
 
-| ID | Pri | What |
-|----|-----|------|
-| W-001 | 🟡 | ABS trust trigger proximity (Bloomberg) |
-| W-002 | 🟠 | Verify NDFI $1.54T methodology |
-| W-003 | 🔴 | APO Apr 17 puts — roll or cut? Deferred to market open. |
-| W-004 | 🟡 | Backfill 16 ACTIVE_TRADES entries |
-| W-005 | 🟠 | FXY sizing — Dimona escalation adds urgency per SAM |
+## WILL_QUEUE
 
-## HANDOFF
-
-**Next session priorities:**
-1. 🔴 **Check Mar 31 prep completion** (`AGENTS/PROME/LAST_COMPLETION.md` or `FORGE/research/MAR31_CATALYST_BRIEF.md`)
-2. 🔴 **W-003 — APO Apr puts** at market open
-3. 🔴 **Jefferies transcript** — P-003 pre-approved, fire when available (~9 AM ET)
-4. 🔴 **ARESSI flow data** — check if available, BROCK follow-up
-5. 🔴 **Claims 8:30 AM** → spawn HENRY after print
-6. 🔴 **OBDCII reporting opens** — OWL $9.5P expires Apr 2
-7. 🟠 **PCE Fri 3/28** — HENRY has prep
-8. 🟠 **Iran pause expires ~Fri 3/28**
-9. 🟠 **Present Batch 4:** BRENT, LABOR, NEXUS synthesis, DARWIN, Prome inbox triage
-10. 🟠 **W-005 FXY sizing** — SAM says Dimona adds urgency
-
-**DECISIONS.md patterns:** AGENT OPS 12/12 approved. Consider promoting to Tier 1 (need 5 more per AUTONOMY.md threshold, but 12 is strong signal — propose rule change?).
+| ID | Pri | Item | Status |
+|----|-----|------|--------|
+| W-001 | 🟡 | ABS trust trigger proximity | Blocked — Bloomberg |
+| W-003 | 🔴 | APO Apr — HOLD to Apr 7, stop $113 | Decision delivered. Verify bid + redemption source. |
+| W-004 | 🟡 | Backfill remaining 11 | Top 5 done |
+| W-005 | 🟠 | FXY sizing | → T-31 |
+| W-006 | 🔴 | OWL Apr — hold through OBDCII tomorrow | Framework delivered |
+| W-007 | 🟠 | FABN tranches from EDGAR maturing before Jun 18 | Surfaced by SHADE |
+| W-008 | 🟡 | Whalen WGA IRA Bank Book Q1 2026 | Proprietary NDFI data, flagged by BROCK |

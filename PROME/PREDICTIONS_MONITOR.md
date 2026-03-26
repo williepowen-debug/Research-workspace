@@ -10,7 +10,7 @@ Quick-reference for predictions closest to resolution. Check daily.
 | ID | Prediction | Current | Target | Gap | ETA | Agent |
 |----|------------|---------|--------|-----|-----|-------|
 | **CARL-14** | Subprime Auto 60+ >7% | **7.1%** | 7.00% | **✅ BREACHED** | Feb 2026 data | CARL,OTTO |
-| **LIQ-01** | HY OAS >320bps | **317bps** (FRED Mar 12) | 320bps | **3bps** | Oscillating 306-319. FOMC could trigger. | LIQUID |
+| **LIQ-01** | HY OAS >320bps | **317bps** (FRED Mar 25) | 320bps | **⚠️ BREACHED 328bps Mar 13, pulled back** | Hit 328 on Mar 13, now oscillating 317-327 range. Not sustained but threshold was touched. | LIQUID |
 | **LAB-02** | U-3 ≥4.7% Q2 | **4.4%** | 4.7% | 0.3pp | Q2 2026 (80% conf) | LABOR |
 | **CARL-16** | Fannie MF DQ >0.80% | **0.74%** | 0.80% | **0.06pp** | Q1 2026 | CARL |
 | **CARL-11** | CC 90+ DQ >13.74% (GFC) | **12.70%** | 13.74% | **1.04pp** | Q2 2026 (no new data — NY Fed Q4 is latest) | CARL |
@@ -142,7 +142,7 @@ Run this check weekly or when data releases:
 
 **SAM: ✅ Partially verified Mar 14** (live search). 30Y JGB 3.51% (was 3.57%), Shunto demands 5.94%, Nissan accepted. First tally Mar 21 (corrected from "mid-Mar"). USD/JPY ~159 confirmed.
 
-**LIQUID: ✅ Verified Mar 14** (FRED pull). HY OAS **317bps** (Mar 12), NOT 319. Oscillating 306-319 range. Gap to LIQ-01 is 3bps, not 1bp. Still coiled but not at knife edge.
+**LIQUID: ✅ Updated Mar 26** (FRED pull). HY OAS hit **328bps Mar 13** (BREACHED 320 target), then pulled back. Mar 25: 317bps. Range Mar 10-25: 306-328bps. LIQ-01 was touched but not sustained.
 
 **ZHAO: ✅ Partially verified Mar 14** (FRED). USD/CNY **6.90** — prior "7.25" was WRONG (agent hallucination or stale data). Nowhere near 7.30 YELLOW. Range 6.84-6.90 all Feb-Mar.
 

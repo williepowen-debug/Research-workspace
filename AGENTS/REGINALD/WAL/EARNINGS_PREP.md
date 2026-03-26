@@ -52,7 +52,18 @@
 
 **ZION comparison (KB-WAL-015, -016):** ZION took 83% loss rate on identical fraud. WAL at 30%. Gap = $52M potential additional charge-off if WAL aligns. Ask directly on Q&A.
 
-**[Mar 26 update — V2 CONFIRMED]:** Jefferies Q1 delivered: EPS $0.70 vs $0.91 (-23% miss). $17M First Brands/MFS losses on the books. TBVPS -15.7% YoY. Fraud transmission chain (Jefferies → double-pledging → WAL exposure) now has P&L confirmation. Cantor silence on Q4 call + JEF miss = both ends of V2 chain showing stress. SMFG "no immediate plans" walk-back = no JEF backstop timeline. (KB-WAL-066, -060)
+**[Mar 26 update — V2 CONFIRMED + LOSS SEVERITY MODEL]:**
+- Jefferies Q1: EPS $0.70 vs $0.91 (-23% miss). $17M First Brands/MFS losses on P&L. TBVPS -15.7% YoY.
+- **First Brands exposure at JEF = ZERO** (final $10M write-off). JEF fully exited. Losses crystallized and non-recoverable at JEF node.
+- Handler: "losses that may be absorbed over time" — explicit guidance that remaining chain nodes (Barclays → Apollo → WAL) will absorb residual losses.
+- JEF recognized ~13% of £103M MFS exposure ($17M). ZION 83% comp implies JEF has ~$90M future losses ahead; each downstream node faces similar trajectory.
+- **WAL loss severity model:** ZION 83% comp remains primary benchmark. WAL Cantor at 30% reserve vs 83% comp = **$52M potential additional charge-off**. JEF data does not challenge this comp — it validates that fraud losses are real and non-recoverable.
+- **V2 = strongest near-term vector** by confirmation quality. V1 larger in dollar terms but slower-moving. V2 can fire episodically at any earnings (Cantor was invisible until -10.88%).
+- SMFG "no immediate plans" = no JEF backstop. Chain losses must be absorbed by each holder.
+- Fixed income / securitized products -24% YoY at JEF = consistent with credit deterioration thesis.
+- JEF transcript (Mar 26 AM): extract warehouse lending commentary, counterparty language on who still holds First Brands paper. **Critical for confirming WAL node.**
+- Cantor silence on Q4 call + JEF miss = both ends of V2 chain showing stress. (KB-WAL-066, -060)
+- **PROP-07 (KRE add):** JEF confirmation + 3 analyst downgrades = threshold NOT MET. JEF is amplified inference, not WAL direct disclosure. Recommend staging KRE add trigger for post-OZK Apr 16.
 
 ---
 
@@ -155,7 +166,7 @@
 
 | Missing Row | Why It Matters | Priority |
 |-------------|----------------|----------|
-| **Jefferies Q1 results** (KB-WAL-040 is stale) | V2 hinge — need credit provision data from Mar 25 after-close | 🔴 Critical before Apr 21 |
+| **Jefferies Q1 results** (KB-WAL-066 UPDATED) | ✅ FILLED Mar 26. EPS miss 23%, First Brands = ZERO, $17M MFS losses, TBVPS -15.7%. V2 confirmed. Transcript pending (Mar 26 AM). | ✅ Done — monitor transcript |
 | **WAL Q1 2026 loan composition detail** | MI3 is the most important number — need Call Report when filed | 🔴 Critical |
 | **Deposit beta / NIM detail Q4** | Management defense anticipation requires current NIM trajectory | 🟡 High |
 | **SSFA composition — "Other OBS" $10.8B** | KB-WAL-009 flags this as inferred; never confirmed | 🟡 High |
@@ -205,4 +216,4 @@
 | European bank stress (iTraxx 130-160bps est.) | HANS OUTBOX MAR24 | Global credit tightening = no WAL lifeline |
 
 ---
-*KB: 70 rows | Scenarios: SCENARIOS.md | Weakness audit: WEAKNESSES.md | Last updated: 2026-03-26 | Grade: B+→A-*
+*KB: 70 rows | Scenarios: SCENARIOS.md | Weakness audit: WEAKNESSES.md | Last updated: 2026-03-26 03:58 UTC | Grade: B+→A- (maintained post-JEF Q1; next upgrade: OZK Apr 16 AZ/NV confirmation OR WAL MI3 ≥25%)*
