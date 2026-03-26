@@ -1,5 +1,5 @@
 # PROME STATUS.md
-**Updated:** 2026-03-26 18:00 UTC
+**Updated:** 2026-03-26 23:30 UTC
 
 ## 🔴🔴 SCENARIO D DOMINANT (82%) — WAR DAY 26 — BRENT ~$100 — ACCOUNT $52,626 (+66%)
 
@@ -19,7 +19,7 @@
 | LIQUID | 🔴🔴 | Stealth liquidity, FHLB +31%. **HY OAS 319 head-fake (CDX 9mo high). Quarter-end plumbing stress. Iraq FM.** | 3/26 | 0 ✅ |
 | ZHAO | 🔴🔴 | Demand hole $70-135B/mo. Ghalibaf ratchet. **HIBOR-SOFR -205bps (5bps from trigger).** Japan TIC +$39.8B (oscillator). Quarter-end. | 3/26 | 0 ✅ |
 | HAWK | 🔴🔴 | Scenario D **78%**. Day 25. **Qatar FM. Israel hits Caspian route. Russia fertilizer suspension.** | 3/26 | 0 ✅ |
-| BROCK | 🔴🔴 | APO+ARES gated. FSK junk. 9 funds ~7wks. **Stage 2 active. ARES pre-report + OBDCII framework delivered. APO litigation: 1 case (Feldman v. Apollo), Leon Black §20(a). NAIC PBR guardrails constrain Athene.** | 3/26 | 0 ✅ |
+| BROCK | 🔴🔴 | APO+ARES gated. FSK junk. 9 funds ~7wks. **ARES trade folder COMPLETE — 32 KB rows, IHAM deep dive (83% L3, $3B exposure, first-loss, revolver maxed), ARES Mgmt earnings extracted. Aspida deep dive NEXT.** | 3/26 | 0 ✅ |
 | REGINALD | 🔴 | OZK KB **159**/17 grp. WAL KB **60**/10 grp. **WAL/FRAUD/ folder built (3 vectors consolidated).** Apr 16 OZK = **22d**, Apr 21 WAL = **27d**. | 3/26 | 0 ✅ |
 | BRENT | 🔴🔴 | Valero 380K bpd offline. Primorsk >1M bpd. **Qatar FM: 13M tonnes LNG removed 3-5yr. Ust-Luga struck AGAIN. Australia fuel shortages.** | 3/26 | 0 ✅ |
 | HANS | 🔴🔴 | DD-4 delivered. EU storage 17-19% entering refill. Dimona = point of no return. | 3/26 | 0 ✅ |
@@ -43,7 +43,7 @@
 | APO Apr HOLD (W-003) | 🔴 | **HOLD to Apr 7, stop $113.** APO at $110.52. Class action + 11.2% gating. Verify bid + redemption source. |
 | OWL $9.5P Apr 2 (W-006) | 🔴 | **Expires 7 DAYS.** Hold through OBDCII tomorrow. Exit if NAV >$14.50 + non-accruals flat. |
 | USO $118C Mar 27 | 🔴 | **Expires TOMORROW.** Roll to Apr $120C if Brent >$100 at open. |
-| ARES earnings (T-24) | 🔴 | **Not yet published.** Spawn BROCK immediately when available. |
+| ARES deep dive (T-24) | ✅ | **COMPLETE.** ARCC 10-K verified, IHAM 10-K/A extracted, ARES Mgmt Q4 earnings deck extracted. 32 KB rows. Aspida statutory deep dive is NEXT. |
 | KRE Jun→Dec rolls (T-32) | 🔴 | Need exact pricing. Queued in Batch 9. Rolling after quarter-end = worse fills. |
 | Near→long rebalance | 🔴 | Book 61/39 inverted. RED recommends 22/78. |
 | Quarter-end SOFR watch | 🔴 | Mar 31 — RRP at $1.1B (ZERO) + 20Y settlement. |

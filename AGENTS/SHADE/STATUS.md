@@ -2,7 +2,7 @@
 
 **Signal Status:** 🔴 CRITICAL — ESCALATING | **Last Updated:** 2026-03-26 17:45 UTC
 
-**Summary:** Multiple kill paths ACTIVE simultaneously. NAIC Spring Meeting concluded Mar 24-25 (San Diego) — adopted new PBR reinvestment guardrails targeting PE-backed/offshore reinsurance structures; transparency concerns raised publicly. Egan Jones publicly responded to SEC formal review (Aug 12 deadline), no DOJ update surfaced. Apollo gating $1.5B in redemptions (paying 45¢/$1). APO stock -23% YTD. AG 55 first filings in process. BROCK FFIEC data: full shadow banking exposure = $1.32T (FDIC Q3 2025, ~$1.4T Q4 est; "$1.54T" was phantom — corrected Mar 26) — material upward revision to loss scenarios.
+**Summary:** Multiple kill paths ACTIVE simultaneously. NAIC Spring Meeting concluded Mar 24-25 (San Diego) — adopted new PBR reinvestment guardrails targeting PE-backed/offshore reinsurance structures; transparency concerns raised publicly. Egan Jones publicly responded to SEC formal review (Aug 12 deadline), no DOJ update surfaced. Apollo gating $1.5B in redemptions (paying 45¢/$1). APO stock -23% YTD. AG 55 first filings in process. BROCK FFIEC data: full shadow banking exposure = $1.411T domestic Q4 2025 verified (FFIEC RCONJ454, $1,410,736M). BankviewUSA $1.54T was inaccurate. — material upward revision to loss scenarios.
 
 ---
 
@@ -64,10 +64,10 @@
 - **THESIS LINK:** PBR guardrails adoption = regulatory pressure increasing on exact structures Athene uses. If offshore reinsurance must use standard BBB reinvestment assumptions, Athene's investment spread advantage narrows structurally.
 
 ### 5. BROCK FFIEC Data — CRITICAL MODEL UPDATE (Mar 17, 9 days stale)
-- **Total bank NDFI exposure = $1.32T** (FDIC Q3 2025, ~$1.4T Q4 est; "$1.54T" was phantom — corrected Mar 26. Prior model: $300B PE funds only — understated ~4.4x)
-- Categories: Business Credit ($377.5B), PE Funds ($368.6B), Mortgage ($353.1B), Consumer ($147.8B), Other ($292.1B)
-- Revised loss scenarios at MS 8% / Zito 65% LGD: **$80B** (was $14.4B prior model)
-- UBS stress 15% / Zito 65% LGD: **$150B** — ~3x 2008 peak
+- **Total bank NDFI exposure = $1.411T** (FFIEC Q4 2025 domestic, RCONJ454 verified. Prior model: $300B PE funds only — understated ~4.7x. BankviewUSA $1.54T was inaccurate.)
+- Categories (RCON PV05-PV09): Mortgage ($335B), Business Credit ($341B), PE Funds ($344B), Consumer ($113B), Other ($248B)
+- Revised loss scenarios at MS 8% / Zito 65% LGD: **$73.4B** (was $14.4B prior model)
+- UBS stress 15% / Zito 65% LGD: **$137.6B**
 - **SHADE vector:** Blue Owl UK "irregularities" case = fraudulent borrower in captive-adjacent lending chain. If OWL found one, Athene-Apollo chain should be scanned for similar collateral quality failures.
 - APO data center lending = **third vector** on Athene: (1) statutory leverage, (2) class actions, (3) data center reflexive loop
 - APO MFIC at -27.2% NAV discount, 2.6% non-accruals, 4.8% PIK — leading indicator of lending freeze spreading
@@ -158,5 +158,5 @@
 6. Cross-reference Athene deposit outflows with FABN refinancing needs
 7. Signal LIQUID re: BDC gating as private credit liquidity event
 8. **NEW:** Scan Athene/Apollo portfolio for collateral quality failures similar to Blue Owl UK "irregularities" case
-9. **NEW:** Update BROCK loss models with $1.32T FDIC baseline (prior $300B was PE-only, understated ~4.4x)
+9. **DONE:** BROCK loss models updated with $1.411T FFIEC verified baseline (prior $300B was PE-only, understated ~4.7x)
 10. **NEW:** Watch MFIC + other Apollo BDCs for lending freeze spreading signals

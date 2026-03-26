@@ -39,7 +39,7 @@
 
 ---
 
-| SIG-038 | 2026-03-26 | BROCK → NEXUS/PROME | **NDFI $1.54T (FFIEC Q4 2025)** — Prior model $300B was PE funds only (1/5 categories). Bank loss potential 5x larger. MS+Zito=$80B, UBS+Zito=$150B. Prior worst case understated 5-6x. C-21 upgrades. | 🔴 INTEGRATED | 🔴🔴🔴 |
+| SIG-038 | 2026-03-26 | BROCK → NEXUS/PROME | **NDFI $1.411T domestic verified (FFIEC Q4 2025 RCONJ454, $1,410,736M)** — Prior model $300B was PE funds only (1/5 categories). Bank loss potential ~5x larger. MS+Zito=$73.4B, UBS+Zito=$137.6B. BankviewUSA $1.54T was inaccurate. C-21 upgrades. | 🔴 INTEGRATED | 🔴🔴🔴 |
 | SIG-039 | 2026-03-26 | pc_contagion → NEXUS | **HY OAS cascade timeline** — >400bps Jun-Jul, >500bps Aug-Sep. 37 CLO managers / 15 software credits = synchronized OC failure risk. $2.8T undrawn bank commitments = hidden funding stress. PRED-36/37 filed. | 🔴 NEW | 🔴🔴 |
 | SIG-040 | 2026-03-26 | BRENT → NEXUS | **Phase 1 extends to Q3 2026 regardless of ceasefire** — Ras Laffan + Fujairah + Primorsk require 60-90d physical reconstruction. Ceasefire doesn't fix supply. Infrastructure destruction ≠ disruption. PRED-39 filed. | 🔴 NEW | 🔴🔴🔴 |
 | SIG-041 | 2026-03-26 | ZHAO → NEXUS | **Gulf SWF emergency liquidation = base case** — $75-120B/qtr selling. Petrodollar recycling swing: was +$50-80B/qtr, now -$75-120B. Total UST supply/demand reversal $125-200B/qtr ($500-800B/yr) from Gulf alone. | 🔴 INTEGRATED into C-07/C-34 | 🔴🔴🔴 |

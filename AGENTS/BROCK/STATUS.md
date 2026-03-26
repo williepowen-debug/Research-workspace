@@ -68,7 +68,7 @@
 | APO $100P Apr 17 | ~$180 | **HOLD to Apr 7, stop $113.** APO at $110.52. | Class action + 11.2% gating | Apr 7 hard stop |
 | APO $100P Jun 18 | ~$590 | CONFIRMED. May 1 lead plaintiff. | Feldman v. Apollo (SDNY) | May 1 deadline |
 | APO $95P Dec | ~$920 | Full thesis runway. | Stage 2→3→4 timeline | Q2-Q3 cascade |
-| ARES $95P Jun 18 | ~$890 | CONFIRMED. 11.6% gating. | Non-accrual >2.2% = add | Earnings TODAY (pending) |
+| ARES $95P Jun 18 | ~$890 | CONFIRMED. 11.6% gating. | Non-accrual >2.2% = add | Q1 earnings late Apr/May |
 | OWL $9.5P Apr 2 | ~$60 | 5-8% lottery. Hold through OBDCII. | NAV <$14 + non-accrual >3.5% = hold | OBDCII Mar 27 |
 
 ---
@@ -77,7 +77,7 @@
 
 | Date | Event | Priority | Impact |
 |------|-------|----------|--------|
-| **Mar 26 (TODAY)** | ARES earnings + ARESSI redemption data | 🔴🔴 | Non-accrual / NAV / dividend coverage → add trigger |
+| **Late Apr/May** | ARES Q1 2026 earnings (ARCC + ARES Mgmt) | 🔴🔴 | Non-accrual / NAV / dividend coverage → add trigger |
 | **Mar 27-Apr 3** | OBDCII Q1 report | 🔴🔴 | OWL Apr puts live. Gate = Stage 3 confirmation. |
 | **Mar 31** | APO Realty Income JV close ($1B) | 🟠 | Capital deployment during own stress |
 | **Apr 22-25** | BARPCC Q1 redemption | 🟠 | Gate count watch |
@@ -131,8 +131,8 @@
 
 ## OPEN QUESTIONS
 
-- ARES earnings: not yet published as of 3:38 PM ET. When they drop → spawn immediately.
-- ARESSI redemption data: due today Mar 26. If >10% requests → gate count hits double digits.
+- ARES Q1 2026 earnings: expected late April / early May. 10-K (Q4 2025) filed Feb 25, 2026.
+- ARESSI redemption data: 11.6% requests already confirmed (KB-BRK-062). Gate in effect. Watch for Q1 2026 update.
 - OBDCII Mar 27: does suspended tender = formal gate? How does market react?
 - APO $100P Apr bid price: Will needs to verify live.
 - 11.2% redemption source: Piper Sandler or SEC filing? Needs confirmation.

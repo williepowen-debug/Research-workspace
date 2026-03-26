@@ -1,6 +1,6 @@
 # MEMORY — Key Insights & Lessons
 
-**Last Updated:** 2026-03-25 04:45 UTC
+**Last Updated:** 2026-03-26 23:30 UTC
 
 **Positions → `PROME/POSITIONS.md`** | **Agent roster → `AGENTS_DIRECTORY.md`** | **Background → `WILL/BACKGROUND.md`**
 
@@ -14,6 +14,7 @@
 - **Hamilton Framework** — NOPI=47, GDP drag -3.0 to -4.9pp, peak lag4 Q1'27. Credit peaks BEFORE equity (~3mo lead). $4/gal = behavioral breakpoint. Jun=1/3 damage, Dec=peak. Roll Jun→Dec. → `FORGE/research/DEMAND_DESTRUCTION_FRAMEWORK.md`
 - **Fed Stealth Liquidity** — T-Bills $195B→$352B in 12wk (exceeds COVID peak). Reserves $2.8T (4yr low), concentrated G-SIBs. Surface calm = intervention working, not health. 2019 repo parallel: breaks binary. → `FORGE/research/FED_TBILL_REPO_ANALYSIS.md`
 - **Private Credit Cascade** — Multiple funds gated, accelerating. JPM marking down collateral (Snider Stage 2). Defaults 4-5% true rate. Software wall $70B 2028. BCRED first monthly loss (reflexivity active). DBRS: 16% of rated universe CCC-C, 3.4yr avg time to default, 2021-22 vintages cracking NOW. → BROCK domain
+- **IHAM Hidden Leverage (Mar 26)** — ARCC's wholly-owned CLO subsidiary is far worse than disclosed. 10-K/A Exhibit 99.3 (KPMG audited, filed Mar 23): $3B max exposure (+44%), 83% Level 3, revolver fully drawn, $531M NEW sub note from parent at 11%, IHAM is FIRST-LOSS ($941M sub notes in own CLOs), $287M cumulative realized losses, revenue declining while buying $7.1B new assets. ARES Mgmt simultaneously reducing own credit investments (-28%) while growing insurance (+59%). Nobody on sell side has read this filing (3 days old). → `AGENTS/BROCK/trade/ARES/sources/IHAM_FINANCIALS_FY2025.md`
 - **PC Contagion Mechanics Mapped (Mar 25)** — Three-source confirmed (Gemini+Claude+Perplexity). Six-stage contagion: gate → cash substitution → financing tighten → honest marks → CLO spillover → bank impairment. Currently Stage 2. Key corrections: CLO OC failure ≠ forced selling (needs EOD + AAA vote, high bar). Bank exposure $95B committed (manageable, ~2bps CET1). THE tripwire = fire-sale at 80-85¢ (not Blue Owl's 99.7¢). 2007 analog: 4-5 months gate→bank writedown = Q2-Q3 2026. Software = stress vector (10-13% CLO, 17-35% BDC, 37 managers holding same 15 distressed credits). Goldman: $45-70B retail outflows projected. PE-controlled insurers (APO/Athene, BX/Evermore, KKR/GA) = dual exposure risk. → `AGENTS/BROCK/research/PC_CONTAGION_MECHANICS.md`
 - **CARL Path C Activating (Mar 23)** — "Help with mortgage" Google Trends at ALL-TIME HIGH (surpasses GFC). Lennar margins 15.2% (lowest since 2010). Housing cracking BEFORE employment — thesis evolution from K-shape model. Employment no longer sole detonator; housing + employment running parallel stress paths. Convergence 43/50.
 - **Ghalibaf Financial Warfare (Mar 23)** — Iran Parliament Speaker declared UST buyers "legitimate military targets." Not fringe — post-Khamenei, most powerful institutional voice. Gives Gulf SWFs political cover to reduce UST exposure. One-way ratchet (stigma makes re-entry harder). ZHAO revised demand hole $70-135B/mo (from $70-130B).
@@ -29,7 +30,7 @@
 
 - **RED Team (Feb 14)** — 85% confidence (upgraded Mar 20). Falsification: exit 50% if claims <240K + CBRE >-5%; exit 100% if BTFP 2.0 / HY OAS <260bps. → `AGENTS/RED/`
 - **UST Demand Hole** — Four-anchor stress (Japan+China+Korea+Gulf). Combined selling $70-135B/mo (revised up Mar 23 — Ghalibaf ratchet). Gulf recycling broken. Note: CNY 7.30 call missed (actual 6.91 Mar 20 — yuan strengthened). Structural selling thesis intact but magnitude/timing uncertain.
-- **NDFI Verified (Mar 26)** — FDIC primary source: $1.32T Q3 2025, ~$1.4T Q4 est. Prior "$1.54T" was phantom (no source). 52.3% of Tier 1 capital, 21.9% CAGR since 2010, 86% in banks >$100B. FDIC Feb 2026 paper + FRED B1030NCBCQG. W-002 resolved.
+- **NDFI Verified (Mar 26)** — FFIEC CDR Call Reports Q4 2025: $1.411T domestic (RCONJ454, exact $1,410,736M), $1.569T consolidated (RCFDJ454). Q3 2025 was $1.316T. Prior "$1.54T" from BankviewUSA was inaccurate (not phantom — real site, wrong numbers). Subcategories: Mortgage $335B, Business $341B, PE $344B, Consumer $113B, Other $248B. 10.5% of total loans, 77.6% growth in 2 years. Loss models: MS 8%+Zito 65% = $73.4B; UBS 15%+Zito = $137.6B. 52.3% of Tier 1 capital, 86% in banks >$100B. W-002 resolved.
 - **Ag Labor Data Gap (Mar 26)** — USDA Ag Labor Survey AND DOL NAWS both canceled. No official source for agricultural employment tracking going forward. MARCO flagged as permanent blind spot. We're relying on indirect signals (H-2A certs, self-deportation estimates, produce prices) with no ground truth.
 
 ---

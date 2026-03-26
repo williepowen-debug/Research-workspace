@@ -11,14 +11,14 @@
 | Metric | Value | Signal | Source |
 |--------|-------|--------|--------|
 | Total bank loans/leases | $13.4T | +5.9% YoY baseline | FDIC QBP Q4 2025 |
-| NDFI loans outstanding (Q3 2025) | **$1.32T** | **21.9% CAGR since 2010, 10% of all bank loans** | FDIC Feb 2026 paper, FRED B1030NCBCQG |
-| NDFI loans outstanding (Q4 2025 est.) | **~$1.4T** | Whalen estimate, pending FDIC confirmation | Whalen/Daily Reckoning |
+| NDFI loans outstanding (Q3 2025) | **$1.316T** | Source: FDIC QBP time series | FDIC Feb 2026 paper, FRED B1030NCBCQG |
+| NDFI loans outstanding (Q4 2025, verified) | **$1.411T** | **RCONJ454 confirmed. 10.5% of total bank loans. 77.6% growth from $794.5B Q4 2023 (~33% annualized).** | FFIEC CDR Call Reports Q4 2025 (RCONJ454) verified vs FDIC QBP |
 | NDFI as % of Tier 1 capital + allowance | **52.3%** | Up from 4.1% in 2010 | FDIC Feb 2026 paper |
 | Concentration: banks >$100B | **86%** of all NDFI loans | Top 10 banks hold 71% | FDIC Feb 2026 paper |
 | Est. undrawn commitments to NDFIs | **~$2.8T** | 2:1 ratio to outstanding (Whalen est.) | Whalen — unverified |
 | **Total potential NDFI exposure** | **~$4.1T** | Industry-wide (funded + unfunded) | Derived — unfunded ratio unverified |
 
-⚠️ **Prior error corrected:** "$1.54T" cited in RED STATUS was a phantom figure — no primary source exists. Actual Q3 2025 = $1.32T. "5.1x revision" likely referred to Dec 2024 Call Report reclassification effects, not a balance change.
+⚠️ **Prior error corrected:** "$1.54T" from BankviewUSA was inaccurate on any basis — domestic (RCON) = $1.411T, consolidated (RCFD) = $1.569T. BankviewUSA was a real website but reported wrong numbers. Verified Q4 2025 domestic = $1,410,736M via FFIEC CDR RCONJ454 + FDIC QBP time series.
 | Corporate bankruptcies 2025 | 700+ (through Nov) | +14% YoY, highest in 15 years |
 | FHLB advances | -14% | Liquidity backstop being drawn down |
 
