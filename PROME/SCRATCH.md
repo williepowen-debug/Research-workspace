@@ -1,45 +1,48 @@
 # SCRATCH — Ephemeral Working Memory
 
-**Updated:** 2026-03-26 18:00 UTC (Thu 2:00 PM ET)
+**Updated:** 2026-03-26 21:00 UTC (Thu 5:00 PM ET)
 
 ---
 
 ## QUICKSTART
-Scenario D **82%**. War Day 26. Account **$52,626 (+66%)**. Brent ~$100. HY OAS 319. Gas $3.98. Cash $9,487 (18%).
+Scenario D **82%**. War Day 27. Account **$52,007 (+92%)**. Brent ~$100. HY OAS 319. Gas $3.98. Cash $9,487 (18%).
 
-**Book inverted:** 61% near / 39% long vs 6-12mo thesis. T-19 recommends 22/78 rebalance. Will deferred trade execution.
+**Book inverted:** 61% near / 39% long vs 6-12mo thesis. T-19 recommends 22/78 rebalance. Will deferred.
 
 ## Handoff
-**Last context:** Batch 8 complete (12/13). Decision-oriented spawns >> hygiene. Will directed: prioritize specific questions going forward. Batch 9 queued (5 proposals, all decision-oriented). T-24 (ARES earnings) still blocked.
+**Last context:** BROCK domain audit + cleanup. Will wants to continue in BROCK next session.
 
-**Next tide:**
-1. 🔴 ARES earnings — still not published. Spawn BROCK immediately when they drop.
-2. 🔴 Batch 9 awaiting approval: FXY entry timing (T-31), KRE roll pricing (T-32), IWM add decision (T-33), ZION kill conditions (T-34), diesel crack instrument (T-35)
-3. 🔴 USO $118C expires TOMORROW — HENRY says roll to Apr $120C if Brent >$100 at open
-4. 🔴 Claims Thu 8:30 AM — use HENRY Triple Catalyst Playbook. 200K = fake (Mullin +40-60K)
-5. 🔴 APO HOLD to Apr 7, stop $113. Class action today + 11.2% gating. Verify bid price + redemption source.
-6. 🟠 OWL $9.5P — hold through OBDCII tomorrow. Exit if NAV >$14.50 + non-accruals flat.
-7. 🟠 HIBOR-SOFR -205bps, 5bps from trigger. Daily through Mar 31.
-8. 🟠 SK refiner cuts 2 weeks early — may accelerate FXY entry (T-31)
+**Completed this session (Session 4):**
+1. ✅ BROCK STATUS rewrite — 176→145 lines, chronological dump → functional dashboard (signal table, gate tracker, contagion map, positions, catalysts, cross-agent, open questions). Old STATUS archived to `workbook/STATUS_ARCHIVE_MAR26.md`.
+2. ✅ BROCK VX.tsv sync — all 15 vectors updated to current data (Mar 26). Prose trimmed 37%. Key updates: 9 gates (was 5+), MS 8% (was Fitch 5.8%), 25% NAV discount (was 22%), FSK junk, NAIC PBR guardrails, OWL $9.14.
+3. ✅ EOD scan delivered — account $52,007, SK refiner cuts 2wk early, USO $118C let expire, WAL +149% (roll on green day).
 
-**Open questions:**
-- ARES earnings: when do they publish?
-- APO Apr $100P actual bid price — Will needs to verify
-- 11.2% redemption source (Piper Sandler or SEC filing?) — Will needs to confirm
-- RRP at $1.1B (zero) — what happens quarter-end with no buffer?
+**Next session — BROCK continued:**
+1. 🔴 ARES trade folder — build `trade/ARES/` with deep dive (no structured thesis exists for $890 position)
+2. 🔴 ARES earnings — STILL not published. Spawn BROCK integration immediately when available.
+3. 🟠 BROCK Predictions scrub — BRK-09 (HRZN) needs verification, stale resolve dates
+4. 🟠 KB.tsv audit — 101 entries, unknown staleness
 
-**Process note:** Auto-announce still unreliable. Always check `subagents list` after ~2-3 min. Concurrent same-agent spawns overwrite LAST_COMPLETION.md — check for research files directly.
+**Batch 9 still queued (not yet approved):**
+T-31 FXY entry timing, T-32 KRE roll pricing, T-33 IWM add decision, T-34 ZION kill conditions, T-35 diesel crack instrument
 
-**$1.54T phantom:** Corrected in NEXUS (3×), SHADE (3×), plus prior RED/REGINALD/MEMORY. Watch for re-propagation from any stale cross-agent mail.
+**Open threads (unchanged):**
+- USO $118C — let expire per EOD scan
+- APO HOLD to Apr 7, stop $113
+- OWL hold through OBDCII tomorrow
+- HIBOR-SOFR -205bps, daily through Mar 31
+- Claims tomorrow 8:30 AM — use HENRY Triple Catalyst Playbook
+
+**Process learning (Session 3):** Decision-oriented spawns >> hygiene. A/A+ on specific questions, C/C+ on open-ended inbox processing. Prioritize accordingly.
 
 ## WILL_QUEUE
 
 | ID | Pri | Item | Status |
 |----|-----|------|--------|
 | W-001 | 🟡 | ABS trust trigger proximity | Blocked — Bloomberg |
-| W-003 | 🔴 | APO Apr — HOLD to Apr 7, stop $113 | Decision delivered. Verify bid + redemption source. |
+| W-003 | 🔴 | APO Apr — HOLD to Apr 7, stop $113 | Verify bid + redemption source |
 | W-004 | 🟡 | Backfill remaining 11 | Top 5 done |
 | W-005 | 🟠 | FXY sizing | → T-31 |
 | W-006 | 🔴 | OWL Apr — hold through OBDCII tomorrow | Framework delivered |
 | W-007 | 🟠 | FABN tranches from EDGAR maturing before Jun 18 | Surfaced by SHADE |
-| W-008 | 🟡 | Whalen WGA IRA Bank Book Q1 2026 | Proprietary NDFI data, flagged by BROCK |
+| W-008 | 🟡 | Whalen WGA IRA Bank Book Q1 2026 | Proprietary NDFI data |
