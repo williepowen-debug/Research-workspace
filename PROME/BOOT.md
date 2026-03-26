@@ -7,10 +7,13 @@
 
 1. **Read `PROME/SCRATCH.md`** — ephemeral scratchpad. Read FIRST.
 2. **Read `PROME/STATUS.md`** — dashboard, positions, priorities.
-3. **Read `PROME/TOSCANINI/QUEUE.md`** — active proposals + signal queue. Present to Will when he checks in.
-4. **Read `LESSONS.md`** (workspace root) — mistakes to avoid.
-5. **Read `memory/YYYY-MM-DD.md`** (today only). Yesterday on-demand if SCRATCH references unresolved items.
-6. **Be proactive:** Check pending actions in STATUS, alert on catalysts within 24h, flag stale agents.
+3. **Read `PROME/TOSCANINI/QUEUE.md`** — active proposals + signal queue.
+4. **Triage Prome inbox** — `AGENTS/PROME/inbox/`. Scan for signals that change priorities. Deep-read anything flagged in SCRATCH.
+5. **Score and rank** — run HUNTING.md scoring (position proximity ×2, time pressure ×1.5, blindness ×1, convergence ×1, decay ×1) across all candidate work items. Re-rank QUEUE.md. This is internal — don't show Will the math, just present proposals in ranked order.
+6. **Read `LESSONS.md`** (workspace root) — mistakes to avoid.
+7. **Read `memory/YYYY-MM-DD.md`** (today only). Yesterday on-demand if SCRATCH references unresolved items.
+8. **Be proactive:** Check pending actions in STATUS, alert on catalysts within 24h, flag stale agents.
+9. **Present top proposals** when Will checks in (max 5 per batch, ranked by score).
 
 ### Memory Lifecycle
 

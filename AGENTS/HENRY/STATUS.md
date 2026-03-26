@@ -1,122 +1,156 @@
 # HENRY STATUS
-**Last Updated:** 2026-03-25 20:17 UTC | **War Day 26 — BULL TRAP v2: 15-POINT PLAN REJECTED**
-**Status:** 🟡🔴 SECOND DIPLOMATIC PUMP IN 3 DAYS. Trump sent 15-point plan to Iran via Pakistan. Iran rejected. Same playbook as Mar 23. Market rallied anyway. VIX compressed again. Account -4.9% (bearish positions squeezed). Pattern: diplomatic headline → rally → rejection → but THIS time market didn't sell off into close. Dangerous for short-term positioning but thesis structurally intact.
+**Last Updated:** 2026-03-26 01:15 UTC | **War Day 27 — PCE PREP + 9-SIGNAL INBOX INTEGRATION**
+**Status:** 🔴🔴 FED TRAP CRYSTALLIZING. PCE prints Fri Mar 28 (same day as Iran strike clock T-0). Claims Thu Mar 27. ULC 4.4% + gas +$1.01/mo + consumer spending contraction = stagflation signature forming. Account -4.9% — thesis intact, short-term pain from diplomatic pumps.
 
 ---
 
-## MAR 25 EOD — CONFIRMED CLOSES
+## MAR 25-26 KEY LEVELS
 
-### Today's Key Data
-| Asset | Close | Delta vs Mar 23 | Delta vs Mar 24 | Signal |
-|-------|-------|-----------------|-----------------|--------|
-| SPX | **~6,610** | +24pts (+0.4%) | +54pts (+0.81%) | 🟡 Rally on diplomatic headline. Still below Mar 20 (6,606→now marginally above) |
-| VIX | **~24-25** (est.) | Flat | -2pts from 26.95 | 🔴 Vol crushed AGAIN by diplomatic narrative. Second compression in 3 days. |
-| 10Y | **4.326%** | -2.2bps from 4.348% | -6.6bps from 4.392% | 🟢 Significant yield drop. Flight to safety despite equity rally = DIVERGENCE |
-| 2Y | **~3.82%** (est.) | ~-3bps | TBD | 🟡 Curve compression continuing |
-| Brent | **$102.22** | +$2.28 from $99.94 | -2.2% on day | 🟡 Intraday low $97.57 then recovered. Still structurally elevated vs pre-war. |
-| WTI | **~$90** (est.) | — | -2.2% | 🟡 Tracking Brent |
-| Dow | **~46,850** (+359pts) | — | +0.77% | 🟡 Another diplomatic rally |
-| Nasdaq | — | — | +0.92% | 🟡 Tech led |
-| Gold | **$4,547** | — | +$145 (+3.3%) | 🔴🔴 GOLD RIPPING while equities rally = hedging demand NOT declining |
-| Bitcoin | **$71,669** | — | +$1,101 | 🟡 Risk-on but muted |
+| Asset | Level | Signal |
+|-------|-------|--------|
+| SPX | ~6,610 | 🟡 Diplomatic rally. Resistance 6,620. Support 6,550. |
+| VIX | ~24-25 | 🔴 Mechanically compressed by diplomatic headlines. True risk = 30+. |
+| 10Y | 4.326% | 🟢 Fell 6.6bps despite equity rally = divergence. Bond bid is real. |
+| Brent | $102.22 | 🟡 Intraday $97.57 → recovered. Oil whipsaw continues. |
+| Gold | $4,547 | 🔴🔴 +3.3% on green equity day = macro hedge demand. THE TELL. |
+| Gas | $3.983/gal | 🔴 +$1.01/gal in ONE month (+34%). $4 breakpoint effectively T-0. |
+| HY OAS | 328bps | 🔴 Credit channel transmission confirmed (HANS). |
+| Core PCE | 2.7% YoY | 🔴 Already confirmed. Fed trapped. |
 
-### What Was NEW Today (Mar 25 Specific)
-1. **TRUMP 15-POINT PLAN TO IRAN** — Delivered via Pakistan. Demands: destroy Natanz/Isfahan/Fordow, abandon proxies, reopen Hormuz as "free maritime zone," dismantle nuclear capabilities, hand enriched material to IAEA. Offers: sanctions removal, civilian nuclear assistance at Bushehr.
-2. **IRAN REJECTED CEASEFIRE** — "Iran does not accept a ceasefire... it is not logical to enter into such a process with those who violate the agreement." Military spokesman mocked Trump: "negotiating with yourselves."
-3. **MAR 24 WAS A DOWN DAY** — SPX -0.37% to 6,556.37. VIX spiked to 26.95. This was MISSED in our 2-day gap. The reversal from Mar 23's rally partially confirmed HEN-11.
-4. **10Y YIELD FELL HARD** — 4.392% → 4.326% (-6.6bps). Despite equity rally, bonds caught a bid. This is a DIVERGENCE signal — someone is buying protection.
-5. **GOLD +3.3% TO $4,547** — Gold ripping alongside equities = macro hedging demand is real. Not a risk-on day — it's a hedged risk-on day.
-6. **OIL WHIPSAW CONTINUES** — Brent hit $97.57 intraday (lowest since war escalation) then recovered to $102.22. Third major oil whipsaw in a week.
-7. **5-DAY CLOCK AT T-2** — Strike pause expires ~Mar 28. Iran has now rejected BOTH the vague "talks" narrative AND a concrete 15-point plan.
+---
+
+## PREDICTION SCORECARD
+
+| # | Prediction | Status |
+|---|------------|--------|
+| HEN-04 | FOMC holds, both mandates, 0-1 cuts | ✅ **CONFIRMED** |
+| HEN-07 | Mar 16 relief rally = bull trap | ✅ **CONFIRMED** |
+| HEN-08 | VIX gaps to 28+ | ✅ **CONFIRMED** — 30+ intraday Mar 23 |
+| HEN-09 | Brent $110-115 | ✅ **EXCEEDED** — hit $119, now $97-105 whipsaw |
+| HEN-10 | SPX tests 6,550-6,600 | ✅ **CONFIRMED** — 6,556 Mar 24 |
+| HEN-11 | Iran "talks" rally = bull trap, reversal 24-72h | 🟡 **PARTIAL** — pattern repeating with each headline |
+| HEN-12 | 15-point plan rally = bull trap v2. Iran rejection + Mar 28 deadline = catalyst | 🔴 **ACTIVE — T-0 Friday** |
+| HEN-13 | PCE Mar 28 hot (≥2.7% headline) + rising claims Thu = Fed trap visible in one week | 🔴 **NEW — pending** |
 
 ---
 
 ## CRITICAL STRUCTURAL OBSERVATION
 
 **Equities up + Yields down + Gold up = HEDGED RALLY, NOT CONVICTION RALLY.**
-
-This is the most important signal today. If this were genuine risk-on:
-- Yields would be flat or rising (growth expectations improving)
-- Gold would be flat or declining (no need for hedges)
-- VIX term structure would normalize
-
-Instead we have: SPX +0.81%, 10Y -6.6bps, Gold +3.3%. This is institutions BUYING the rally while simultaneously hedging downside. Smart money doesn't trust this.
+SPX +0.81%, 10Y -6.6bps, Gold +3.3% on the same day. Institutions are buying the rally AND simultaneously buying the hedge. Smart money doesn't trust this.
 
 ---
 
-## PREDICTION SCORECARD UPDATE
+## NEW SIGNALS INTEGRATED (9 inbox files, Mar 23-25)
 
-| # | Prediction | Status |
-|---|------------|--------|
-| HEN-04 | FOMC holds, both mandates, 0-1 cuts | ✅ **CONFIRMED** |
-| HEN-07 | Mar 16 relief rally = bull trap | ✅ **CONFIRMED** |
-| HEN-08 | VIX gaps to 28+ | ✅ **CONFIRMED** — 30+ intraday Mar 23, 26.95 close Mar 24 |
-| HEN-09 | Brent $110-115 | ✅ **EXCEEDED** — hit $119, now oscillating $97-105 on diplomatic whipsaw |
-| HEN-10 | SPX tests 6,550-6,600 | ✅ **CONFIRMED** — SPX 6,556 on Mar 24. Hit target. |
-| HEN-11 | Iran "talks" rally = bull trap, reversal 24-72h | 🟡 **PARTIAL** — Mar 24 gave back gains (-0.37%). But Mar 25 rallied again on 15-point plan. Pattern repeating: new headline → new pump. |
-| HEN-12 | 15-point plan rally = bull trap v2. Iran rejection + Mar 28 strike deadline = reversal catalyst | 🔴 **NEW PREDICTION** |
+### 1. Nikkei/GPIF Breach (Mar 23)
+- Nikkei 51,515 (-3.48%) — breached GPIF 52,000 rebalancing trigger
+- GPIF now actively rebalancing: institutional selling of foreign assets incl. US equities
+- FY-end T-8 amplifies. Carry unwind 7d probability **85%**
+- Cross-link: SAM domain (Japan carry), equity structural bid weakening
+
+### 2. Oil Whipsaw / Labor Implications (Mar 23)
+- Gas $3.96, diesel $5.29. $4 behavioral breakpoint T-0 to T-1.
+- Strike pause expires ~Mar 28 (confirmed Mar 28 overlap with PCE)
+- ICE construction raids compounding labor supply shock (NYT/Guardian)
+- Employer planning paralysis deepening — vol itself freezes hiring
+
+### 3. "Talks" Trap / Vol Spike (Mar 23)
+- Trump "productive talks" narrative contradicted by Iran denial + active combat (Dimona strike)
+- VIX compression on false narrative → violent reversal pending
+- Pattern repeated Mar 25 with 15-point plan rejection
+
+### 4. HANS Domain Refresh (Mar 24) — KEY CROSS-AGENT FLAGS FOR HENRY
+- **HY OAS 328bps CONFIRMED** — credit channel transmission active
+- ARA diesel crack: est. $38-45 (was $25 Mar 11)
+- Private credit cascade: APO/ARES gated (9 funds total) — LP forced selling = USD demand spike
+- European industrial equities under severe pressure (chemicals, aluminum, autos)
+- Dimona strike = nuclear-infrastructure threshold crossed. Fordow/Natanz strike as Israeli retaliation = Kharg Island at risk → Brent $120+
+
+### 5. Japan Repatriation (Mar 25)
+- Structural demand withdrawal: **$50-120B/yr** annual swing from buyer to neutral/seller in USTs
+- 30Y market depth down 30% — Japanese sales cause 10-20bps intraday moves
+- JPM retail fatigue (-30% purchases) + Japan withdrawal = **two independent demand pillars weakening simultaneously**
+- Connects to Fed T-Bill $352B signal: long-end losing its anchor foreign buyer
+- **Term premium must rise.** Supports rate trajectory thesis.
+
+### 6. $14T Maturity Wall (Mar 25)
+- $10T UST maturing in 12 months (33% of outstanding — highest ever)
+- Total 2026 IG supply: **~$14T** (UST + corporate)
+- War supplemental: >$200B; debt interest: $1.22T
+- **Doom loop:** war → inflation → no cuts → higher debt service → more issuance → at higher rates
+- Record supply + shrinking demand (Japan, retail) = **term premium must rise**
+
+### 7. OTTO Consumer Durable Destruction (Mar 17)
+- 2024 Winnebago Vista (8,113 mi, MSRP $239K): dealer asking **$120K = 50% value loss**
+- RV leads mass consumer discretionary by 6-12 months → Q4 2026/Q1 2027 mass-market stress signal
+- Auto costs "at breaking point" (FT Mar 2026) — gas, insurance, maintenance, financing all simultaneously
+- Subprime DQ 7.1% + $4 gas = not incremental stress, it's the mechanism for next DQ leg higher
+
+### 8. PMI Counter-Signal + ULC Hot (Mar 25)
+- Manufacturing PMI 52.4 (beat) — likely **tariff front-running**, not genuine expansion
+- Services PMI 51.1 (slight miss)
+- **ULC Q4F: 4.4% vs 3.6% expected — STAGFLATIONARY**
+- Philly Non-Mfg: -23.9; Richmond Biz: -10 → real economy deteriorating
+- K-shape: top front-running tariffs, bottom can't find jobs (unemployment duration 25.7 weeks, 4-yr high)
+
+### 9. Carl → Gas Velocity (Mar 25)
+- Gas +**$1.01/gal (+34%) in ONE MONTH**
+- CNN: Americans cutting food spending to afford gas = **real spending contraction NOW**
+- SPR 172M barrel release failing — demand destruction is the only price mechanism
+- At velocity: **$4.50 in 2-3 weeks**. Each $0.10 = ~$14B/yr extracted from consumer discretionary
+- CA $5.37, LA $5.72 — California consumer already impaired
+- **GDP drag: +$1.01/mo sustained = est. -0.3 to -0.5% Q2 GDP drag from gas alone**
 
 ---
 
-## KEY DELTAS vs MAR 23 STATUS (2-DAY GAP)
+## FED TRAP THESIS — CURRENT STATE
 
-| Vector | Mar 23 State | Mar 25 Close | Delta | Interpretation |
-|--------|-------------|--------------|-------|----------------|
-| SPX | 6,586 | ~6,610 | +24pts | Net FLAT over 2 days. Went down to 6,556 then back up. Chop. |
-| VIX | ~24-25 | ~24-25 | Flat (spiked to 27 Mar 24) | Vol stuck in compression zone. Each diplomatic headline crushes vol, each rejection spikes it. Exhausting both sides. |
-| 10Y | 4.348% | 4.326% | -2.2bps | Lower despite equity rally = divergence signal |
-| Brent | $99.94 | $102.22 | +$2.28 | Bounced as predicted. But intraday hit $97.57. Oil can't find a floor. |
-| Gold | ~$4,400 (est.) | $4,547 | +$147 | GOLD IS THE TELL. Up 3.3% in a day while equities rally = macro fear is REAL. |
-| Diplomatic status | Trump "talks" tweet, Iran denied | Trump 15-point plan, Iran rejected | ESCALATION of diplomatic theater | Same playbook, higher stakes. Iran rejection more emphatic this time. |
-| Strike clock | T-5 (started Mar 23) | T-2 (expires ~Mar 28) | 3 days elapsed | Running out of diplomatic runway before strikes resume |
+```
+ULC 4.4% + Core PCE 2.7% → Fed CANNOT CUT (inflation above target)
+Gas +34%/mo + consumer food tradeoffs + NFP -92K → Fed CANNOT HOLD (recession risk)
+$14T supply wall + Japan demand withdrawal → term premium rising regardless
+```
+**This week (Mar 27-28) is the single clearest visualization of the trap.**
 
 ---
 
-## CRITICAL LEVELS — NEXT SESSION (Thu Mar 26)
+## CRITICAL LEVELS — NEXT 72H
 
-| Level | Status | Implication |
-|-------|--------|-------------|
-| SPX 6,620 | Resistance (Schaeffer's flagged) | Must close above for bulls. Failed to reclaim. |
-| SPX 6,550 | Support (tested Mar 24) | Held. Break below = acceleration. |
-| VIX 25 | Pivot zone | Below = complacency. Above = fear returning. |
-| VIX 30 | Regime change | Close above = structural shift. |
-| 10Y 4.30% | Bull/bear line | Breaking below = flight to safety accelerating |
-| Brent $100 | Psychological | Intraday breaks increasing. Diplomacy keeping lid on. |
-| Gold $4,500 | New floor? | If gold holds above $4,500 while equities wobble = macro hedge positioning confirmed |
-| Mar 28 | Strike deadline | 5-day pause expires. Iran has rejected both diplomatic overtures. |
-| Mar 31 | Quarter-end | 6 days. Rebalancing flows + window dressing could amplify moves in either direction. |
-
----
-
-## QUARTER-END DYNAMICS (NEW)
-
-Mar 31 = Q1 close. Six trading days away. Key implications:
-- **Pension rebalancing:** If equities are down for Q1, pensions BUY stocks / SELL bonds. Could provide temporary support.
-- **Window dressing:** Fund managers sell losers, buy winners. Oil-exposed losers could face additional selling pressure.
-- **Gamma pin:** Dealers may try to pin SPX near round numbers through quarter-end.
-- **Vol compression:** Quarter-end often sees VIX compression as dealers roll positions. Could mask real risk until Q2 opens.
-- **WARNING:** Quarter-end is a MASKING event. Real price discovery resumes in early April.
+| Level | Event | Date |
+|-------|-------|------|
+| Claims > 230K | Labor deterioration threshold (DHS-suppressed: true=+15-20K) | **Thu Mar 27** |
+| PCE ≥ 2.7% | Confirms Fed trap, hot scenario | **Fri Mar 28** |
+| PCE spending < +0.1% | Consumer already breaking in Feb data | **Fri Mar 28** |
+| Iran strike clock T-0 | 5-day pause expires, strikes likely resume | **Fri Mar 28** |
+| SPX 6,620 | Bull/bear resistance. Must close above for bulls. | Daily |
+| VIX 30 | Regime change. Close above = structural shift. | Daily |
+| Gold $4,500 | Floor confirmation. Above = macro fear real. | Daily |
+| 10Y 4.30% | Break below = flight to safety accelerating | Daily |
+| Mar 31 | Quarter-end. Masking event. Real discovery resumes Q2. | 5 days |
 
 ---
 
-## CROSS-DOMAIN SIGNALS (Mar 25)
+## PCE PREP — SUMMARY (full framework: `domain/PCE_PREP_MAR28.md`)
 
-- **GOLD DIVERGENCE:** Gold +3.3% on a green equity day = institutions hedging. This is not a risk-on day. It's a "buy the rally, buy the hedge" day.
-- **BOND BID DESPITE EQUITY RALLY:** 10Y down 6.6bps while SPX up 0.81%. Someone is rotating into safety. Watch for curve steepening if this continues.
-- **OIL LOSING WAR PREMIUM:** Third sub-$100 intraday print this week despite Hormuz still closed. Market pricing in diplomatic resolution that Iran has explicitly rejected twice. This is mispricing.
-- **HAWK:** 15-point plan is maximalist — Iran will never accept "destroy all nuclear facilities + disarm." This is negotiation theater, not peace. Strike clock continues.
-- **LABOR:** Oil whipsaw ($97-$105 intraday range) = employer planning paralysis deepening. Energy cost uncertainty is real even at "lower" levels.
+- **Base case:** Headline PCE 2.7-2.9%, Core 2.7%. In-line to hot. 55% probability in-line, 35% hot.
+- **Energy caveat:** Feb data captures $90-108 Brent. The +$1.01/gal velocity is MARCH — hits April 30 PCE. Today sets the baseline for a larger April shock.
+- **Surprise risk:** Personal Spending weak + hot inflation simultaneously = stagflation signal markets are NOT priced for.
+- **Double catalyst risk:** PCE hot + strike clock expiry on same day (Mar 28) = potential 3-5% SPX drawdown.
 
-## POSITION IMPACT
+---
 
-| Position | Status | Action |
-|----------|--------|--------|
-| IWM $250P Jun | RUT rallied — position squeezed | ✅ HOLD — RUT 32% floating rate debt. Rate stress unchanged. Rally is diplomatic, not fundamental. |
-| HYG $75P Jun | Rally compressed HY spreads again | ✅ HOLD — credit stress structural. Each rally is a better entry. |
-| TLT Puts | 10Y FELL to 4.326% — TLT rallied | ⚠️ WATCH — bond bid is real. If 10Y breaks below 4.30%, TLT put thesis needs review. Flight-to-safety could override yield stress thesis. |
-| Regional shorts | Bounced on rally | ✅ HOLD — fundamentals unchanged. Quarter-end window dressing may add temporary support. |
+## POSITIONS
+
+| Position | Status |
+|----------|--------|
+| IWM $250P Jun | ✅ HOLD — 32% floating rate debt. Rate stress unchanged. |
+| HYG $75P Jun | ✅ HOLD — HY OAS 328 confirms credit stress transmission. Each rally = better entry. |
+| TLT Puts | ⚠️ MONITOR — Bond bid real (10Y -6.6bps). But $14T supply wall + Japan withdrawal = yields grind higher medium-term. |
+| Regional shorts | ✅ HOLD — Quarter-end window dressing may add noise; fundamentals unchanged. |
 
 ---
 
 ## BOTTOM LINE
-**Day 2 of the same playbook: diplomatic headline → rally → Iran rejection.** But the STRUCTURE of this rally is weak — bonds caught a bid (10Y -6.6bps), gold ripped 3.3%, and VIX is being mechanically compressed by headline-driven gamma. The market is trading diplomatic theater while the strike clock ticks to Mar 28 (T-2). Iran has now rejected BOTH a vague "talks" narrative AND a concrete 15-point plan. The 15-point plan is maximalist (destroy all nuclear infrastructure) — Iran will never accept this. When the 5-day pause expires and strikes resume, the diplomatic premium that's been compressing vol and lifting equities evaporates instantly. Account is down 4.9% on short-term pain from repeated diplomatic pumps, but the thesis is intact: gold's rip and the bond bid confirm smart money isn't buying this rally for real. Quarter-end in 6 days adds noise. Hold through.
+
+**The trap is closing.** Thursday claims + Friday PCE, on the same day the Iran strike clock hits zero, is the single most consequential 48-hour window since the war began. Gas +34% in a month with consumers cutting food spending is not a forecast — it's happening now. ULC at 4.4% means the inflation is cost-push structural, not demand-pull transitory. The Fed cannot cut into this, cannot hold without recession, and the $14T supply wall will reprice term premium regardless. Account -4.9% from diplomatic pump squeezes. The thesis is intact. The week of Mar 27-28 is the catalyst window.

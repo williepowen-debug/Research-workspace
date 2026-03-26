@@ -1,50 +1,49 @@
 # SCRATCH — Ephemeral Working Memory
 
-**Updated:** 2026-03-25 22:15 UTC (Wed 6:15 PM ET)
+**Updated:** 2026-03-26 02:30 UTC (Wed 10:30 PM ET)
 
 ---
 
 ## QUICKSTART
-Scenario D dominant (78%). War Day 25. Account **$52K (+92%)**. Brent ~$100 (ceasefire talk pullback). HY OAS **319 — but CDX at 9-month high (head-fake)**. Gas $3.977 — AT $4 breakpoint.
+Scenario D **82%**. War Day 26. Account **$52K (+92%)**. Brent ~$100. HY OAS 319. Gas $3.983.
 
-**Evening session.** Jefferies Q1 landed (EPS miss 23%, $17M credit losses confirmed). Built FORGE/research/jefferies/ architecture. Built WAL/FRAUD/ folder (First Brands + Tricolor + Stupin consolidated). LIQUID PM signal: HY OAS head-fake (CDX divergence), quarter-end plumbing stress, Iraq force majeure.
+**TOSCANINI: 15 decisions, 14 approved, 0 rejected.** Batch 1-3 complete. System proven over 2 sessions.
+
+## STATE
+
+**Batch 3 results:**
+- REGINALD WAL PREP: 7/11 items closed, grade A-. 4 need external data.
+- CARL: KB +4, 40-50% global N+K disrupted. Convergence 44/50.
+- SAM: KB created (10), carry unwind 78%. FXY decision surfaced.
+- OTTO: KB created (8), First Brands chain: Barclays→Apollo→WAL (inference).
+- Mar 31 PREP: 🔄 may still be running — check LAST_COMPLETION.md
+
+**Concurrent limit: 3.** One spawn, one objective rule active.
+
+**AGENT OPS approvals: 12/12** → strong Tier 1 promotion candidate.
+
+## WILL_QUEUE (present at check-in)
+
+| ID | Pri | What |
+|----|-----|------|
+| W-001 | 🟡 | ABS trust trigger proximity (Bloomberg) |
+| W-002 | 🟠 | Verify NDFI $1.54T methodology |
+| W-003 | 🔴 | APO Apr 17 puts — roll or cut? Deferred to market open. |
+| W-004 | 🟡 | Backfill 16 ACTIVE_TRADES entries |
+| W-005 | 🟠 | FXY sizing — Dimona escalation adds urgency per SAM |
 
 ## HANDOFF
 
-**Last context:** Post-Jefferies earnings analysis. All new architecture built. LIQUID flagged HY OAS 319 as a head-fake — CDX derivatives at 9-month high while cash spreads window-dress for quarter-end. LIQ-01 NOT deactivated. Quarter-end plumbing stress Thu-Fri (zero RRP + 20Y settlement = SOFR spike risk).
+**Next session priorities:**
+1. 🔴 **Check Mar 31 prep completion** (`AGENTS/PROME/LAST_COMPLETION.md` or `FORGE/research/MAR31_CATALYST_BRIEF.md`)
+2. 🔴 **W-003 — APO Apr puts** at market open
+3. 🔴 **Jefferies transcript** — P-003 pre-approved, fire when available (~9 AM ET)
+4. 🔴 **ARESSI flow data** — check if available, BROCK follow-up
+5. 🔴 **Claims 8:30 AM** → spawn HENRY after print
+6. 🔴 **OBDCII reporting opens** — OWL $9.5P expires Apr 2
+7. 🟠 **PCE Fri 3/28** — HENRY has prep
+8. 🟠 **Iran pause expires ~Fri 3/28**
+9. 🟠 **Present Batch 4:** BRENT, LABOR, NEXUS synthesis, DARWIN, Prome inbox triage
+10. 🟠 **W-005 FXY sizing** — SAM says Dimona adds urgency
 
-**Next tide (PRIORITIZED):**
-1. 🔴 **Jefferies earnings call transcript** (Thu AM) — 6 questions prepped in FORGE/research/jefferies/EARNINGS/Q1_CY2026.md
-2. 🔴 **ARESSI flow data** (Wed 3/26) — PC contagion Stage 3-4 test
-3. 🔴 **OBDCII reporting** (Thu 3/27) — OWL catalyst window
-4. 🔴 **Quarter-end plumbing** (Thu-Fri) — SOFR daily watch per LIQUID. Zero RRP + 20Y settlement.
-5. 🟠 **Weekly claims** (Thu 3/27) — FL Wave 1 exhaustion in pipeline
-6. 🟠 **Iran deadline ~Mar 28** — 5-day pause expires. If talks collapse → oil spike Monday.
-7. 🟠 **USO $118C expires Thu** — leaving alone (-69%)
-8. 🟠 **Quarter-end Mar 31** — Japan FY-end + USDA Planting Intentions same day
-9. 🟡 **Rolls on green day** — WAL $85P Jun (+149%), HYG Jun→Dec
-
-**Open questions:**
-- FXY entry — awaiting BOJ hike or oil resolution
-- Jun→Dec roll timing
-- TLT 88 May put decision
-- SOFI thesis research
-
-**Decisions made this session:**
-- Jefferies Q1 → logged, architecture built in FORGE/research/jefferies/
-- WAL FRAUD folder → built (First Brands, Tricolor, Stupin, Convergence)
-- LIQUID signal → HY OAS head-fake confirmed, CDX divergence, LIQ-01 still active
-
-**New architecture this session:**
-- `FORGE/research/jefferies/` — STATUS, THESIS, EARNINGS/Q1_CY2026, KB.tsv, sources/
-- `AGENTS/REGINALD/WAL/FRAUD/` — STATUS, FIRST_BRANDS, TRICOLOR, STUPIN_CRE, CONVERGENCE, sources/
-- `PROME/TOSCANINI/` — Orchestration protocol. PROTOCOL, AUTONOMY, QUEUE, DECISIONS, COMPLETION_SPEC, WILL_QUEUE
-
-**Signal queue (pending spawn — 3-signal threshold rule):**
-- HAWK: 7 signals (sea drone Kuwait, Kuwait airport, 82nd Airborne, Rezaie, Lebanon annexation, Iran demands Lebanon in ceasefire, "negotiating with themselves") — READY TO SPAWN
-- REGINALD: 5 signals (WAL downgrades x3, $400B CRE maturity wall, CMBS Chicago foreclosure) — READY TO SPAWN
-- ZHAO: 2 signals (Hormuz toll booth, yuan settlement) — needs 1 more
-- SAM: 2 signals (inflation-linked bond buyback cut, USDJPY 159.31) — needs 1 more
-- HENRY: 2 signals (VIX 29+, S&P front-running false peace) — needs 1 more
-
-**Positions:** No changes. $52K, +92%. Full marks in POSITIONS.md.
+**DECISIONS.md patterns:** AGENT OPS 12/12 approved. Consider promoting to Tier 1 (need 5 more per AUTONOMY.md threshold, but 12 is strong signal — propose rule change?).

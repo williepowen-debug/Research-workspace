@@ -5,14 +5,18 @@
 
 ## PRE-CALL CHECKLIST (complete before Apr 21)
 
-- [ ] Pull Jefferies Q1 results + credit commentary (KB-WAL-040 — STALE as of Mar 25)
-- [ ] Form 4 scan: any insider buying? (KB-WAL-027 — zero as of Mar 25)
-- [ ] Short interest refresh — was 3.54% (KB-WAL-061; stale by Apr 20)
-- [ ] Cantor docket check — any court filings/settlements since Q3 (KB-WAL-018)
-- [ ] SSFA regulatory news scan — Basel III Endgame any updates (KB-WAL-013)
-- [ ] Vecchione status — returned from medical leave? (KB-WAL-024)
-- [ ] MI3 industry peer comparison — is WAL still the only bank with a RISING ratio? (External Prompt #2)
-- [ ] Pull Q1 press release MI3/C&I data BEFORE the call starts
+- [x] Pull Jefferies Q1 results + credit commentary (KB-WAL-066 — UPDATED Mar 26: EPS $0.70 vs $0.91 miss 23%, $17M First Brands/MFS losses confirmed, TBVPS -15.7% YoY. V2 confirmed.)
+- [x] Form 4 scan: any insider buying? (KB-WAL-027 — **zero** as of Mar 25; ⚠️ REFRESH NEEDED by Apr 18 — Will must recheck SEC Form 4 feed ~Apr 17)
+- [x] Short interest refresh — **3.54%** as of Mar 25 (KB-WAL-061; ⚠️ REFRESH NEEDED by Apr 20 — pull Finviz/S3 ~Apr 19)
+- [ ] Cantor docket check — **WILL_NEEDS:** PACER search for Cantor Group V civil/criminal docket. KB-WAL-018 confirms Q4 call silence only. No docket-level asset recovery or timeline data in KB. (KB-WAL-018)
+- [x] SSFA regulatory news scan — **No current regulatory action as of Mar 25.** KB-WAL-013: Basel III Endgame tightening remains forward risk only; no OCC/FDIC comment letters or enforcement noted. (KB-WAL-013)
+- [ ] Vecchione status — **WILL_NEEDS:** No confirmation of return from medical leave in KB or STATUS. KB-WAL-024 baseline = leave began Dec 2024. Check WAL 8-K / press release / LinkedIn. Governance read changes if returned. (KB-WAL-024)
+- [ ] MI3 industry peer comparison — **WILL_NEEDS:** External Prompt #2 not yet run. No peer MI3 ratios in KB (ZION, FHB, BOKF absent). Need to confirm WAL is uniquely rising vs peers. High priority before Apr 21.
+- [ ] Pull Q1 press release MI3/C&I data BEFORE the call starts — **BLOCKED: Q1 data not yet public.** Earnings ~Apr 21. Pull WAL press release and Call Report RC-C the morning of Apr 21 before 8:30am ET.
+- [x] **[NEW]** Track $400B CRE maturity wall execution — KB-WAL-067 confirmed: $400B wall concentrated in 2026. **OZK Apr 16 = first AZ/NV read-through** (5 days before WAL). If OZK discloses material CRE provisions Apr 16, re-evaluate V1 baseline before Apr 21. (KB-WAL-067)
+- [x] **[NEW]** Analyst consensus PT refresh — **Tracker populated.** Weiss Buy→Hold / Barclays $105→$90 / WFC $83→$79 all in KB-WAL-062–065 and Analyst Consensus Tracker below. Current consensus ~$85-90 vs thesis $47-60. ⚠️ Watch for additional cuts post-OZK Apr 16. (KB-WAL-062 through -065)
+- [x] **[NEW]** Nevada housing/mortgage stress data — **Data in KB.** Google Trends "help with mortgage" ATH (surpassing GFC) + Lennar Q1 gross margin 15.2% (lowest since Q1 2010) confirmed in KB-WAL-070. NV exposure 18-22% of $58.7B portfolio in KB-WAL-041. Path C (housing→banks) activating. (KB-WAL-070, KB-WAL-041)
+- [x] **[NEW]** Warehouse line / NDFI exposure confirmation — **Data in KB.** KB-WAL-069: BROCK confirms total bank NDFI = $1.54T (FFIEC Q4). WAL $10.8B OBS SSFA (KB-WAL-009) assessed as likely warehouse lending to NDFIs. V3 amplified. ⚠️ Composition never confirmed by management — Q4 Q&A item (see Q4 above). (KB-WAL-069, KB-WAL-009)
 
 ---
 
@@ -30,6 +34,7 @@
 
 **Hard tripwire:** MI3 ratio ≥25% = thesis accelerating. Buy more Sep puts on any post-earnings strength.
 **Defcon:** MI3 ratio disclosed AND declining two consecutive quarters with management offering verifiable attribution = thesis weakening, start closing Jun positions.
+**[Mar 26 update]:** $400B CRE maturity wall fully landing in 2026 (KB-WAL-067). OZK Apr 16 earnings = first read-through on AZ/NV CRE stress. If OZK discloses material CRE provisions, re-evaluate WAL V1 baseline upward before Apr 21.
 
 ---
 
@@ -47,6 +52,8 @@
 
 **ZION comparison (KB-WAL-015, -016):** ZION took 83% loss rate on identical fraud. WAL at 30%. Gap = $52M potential additional charge-off if WAL aligns. Ask directly on Q&A.
 
+**[Mar 26 update — V2 CONFIRMED]:** Jefferies Q1 delivered: EPS $0.70 vs $0.91 (-23% miss). $17M First Brands/MFS losses on the books. TBVPS -15.7% YoY. Fraud transmission chain (Jefferies → double-pledging → WAL exposure) now has P&L confirmation. Cantor silence on Q4 call + JEF miss = both ends of V2 chain showing stress. SMFG "no immediate plans" walk-back = no JEF backstop timeline. (KB-WAL-066, -060)
+
 ---
 
 ### Vector 3 — SSFA Capital Arbitrage (KB-WAL-008 through -013)
@@ -59,6 +66,8 @@
 | Regulatory language | None flagged (KB-WAL-013) | Any mention of "securitization review" | Explicit reaffirmation of SSFA treatment |
 
 **The $1.1B question:** Management will NOT discuss SSFA proactively. This only surfaces via analyst question or regulatory action. Monitor Call Report RC-R Part II Item 9d vs prior quarter.
+
+**[Mar 26 update — V3 AMPLIFIED]:** BROCK confirms total bank NDFI exposure = $1.54T (FFIEC Q4). WAL's $10.8B OBS SSFA (KB-WAL-009) may represent warehouse lending to NDFIs — same pool. If MS 8% default rate on PC lending materializes, WAL warehouse exposure could face marks. Ask Idnani directly about warehouse line utilization changes in Q1. (KB-WAL-069)
 
 ---
 
@@ -169,4 +178,31 @@
 **What kills it:** MI3 declining + insider buying + Cantor fully reserved. None of those are true today.
 
 ---
-*KB: 61 rows | Scenarios: SCENARIOS.md | Weakness audit: WEAKNESSES.md | Last updated: 2026-03-25*
+
+## ANALYST CONSENSUS TRACKER (Mar 26 baseline)
+
+| Analyst | Prior Action | Mar 26 Action | Implied View |
+|---------|-------------|---------------|--------------|
+| Weiss | Buy | **Hold** | Removing conviction |
+| Barclays | Buy, PT $105 | **PT $90** | -14% PT cut |
+| Wells Fargo | PT $83 | **PT $79** | -5% PT cut |
+| Consensus (inferred) | ~$95-100 | ~$85-90 | Thesis PT still $47-60 |
+
+**Read:** Sell-side moving toward middle — not yet near our thesis. Short interest 3.54% = repricing room enormous. Weiss downgrade to Hold is most significant: removes a Buy reco from the momentum camp. Watch for additional cuts post-OZK earnings (Apr 16).
+
+---
+
+## MACRO TAILWINDS ADDED (Mar 26)
+
+| Signal | Source | WAL Impact |
+|--------|--------|-----------|
+| $400B CRE maturity wall in 2026 | Will signals | V1 timeline compressed |
+| CMBS $167M Chicago office foreclosure | Will signals | Loss severity benchmark: ~30-40% |
+| Mortgage distress Google Trends ATH | CARL SIG-20260323 | NV/AZ consumer spillover to WAL book |
+| MS 8% PC default rate, warehouse at risk | BROCK + MS CNBC | V3 (SSFA warehouse) amplified |
+| Jefferies Q1 EPS miss 23% | BROCK relay | V2 confirmed |
+| Construction raids (TX/AZ/FL labor withdrawal) | REGINALD inbox | Secondary: AZ construction CRE stress |
+| European bank stress (iTraxx 130-160bps est.) | HANS OUTBOX MAR24 | Global credit tightening = no WAL lifeline |
+
+---
+*KB: 70 rows | Scenarios: SCENARIOS.md | Weakness audit: WEAKNESSES.md | Last updated: 2026-03-26 | Grade: B+→A-*

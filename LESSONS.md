@@ -16,6 +16,11 @@
 
 ---
 
+10. **One spawn, one objective.** Don't bundle two distinct goals into one agent spawn. Agent context is finite (~50K tokens, 3-8 min). REGINALD P-002 bundled inbox processing + EARNINGS_PREP upgrade — inbox got done, prep didn't move. Split into two proposals instead.
+11. **Check subagent status before every response.** During active spawns, run `subagents list` before replying to Will. Report completions FIRST. On Mar 26, BROCK and REGINALD both finished without Prome noticing — Will had to ask. Completions buried in conversation flow is a protocol failure.
+
+---
+
 ## 🟡 Verification
 
 1. **Agent data can be hallucinated.** Verify against SEC filings before trading. (PSEC PIK 35%→actual 8.6%)

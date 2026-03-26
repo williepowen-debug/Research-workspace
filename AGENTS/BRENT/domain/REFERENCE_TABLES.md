@@ -139,3 +139,18 @@
 | Historical 2020 peak | 1,087 bps | ICE BofA Mar 23 2020 | — |
 
 *E&P credit is a LAGGING indicator of price reversal. Phase 2 warning emerges in: (1) refiner spreads, (2) EM sovereign CDS, (3) CCC-rated E&P decoupling, (4) RBL drawdowns.*
+
+## Kirishi Refinery (KINEF) — Key Facts
+| Parameter | Value |
+|-----------|-------|
+| Owner | Surgutneftegaz (KINEF / Kirishinefteorgsintez subsidiary) |
+| Location | Kirishi, Leningrad Oblast, Russia |
+| Capacity | ~360–420K bpd crude processing |
+| Key unit | CDU-6: ~160K bpd (~40% of total) |
+| Status | **ONLY refinery in Northwestern Russia** — zero redundancy |
+| Products | ULSD diesel (primary), fuel oil, naphtha, jet fuel, LPG |
+| Export route 1 | Transnefteproduct pipeline → Primorsk port (diesel/ULSD) |
+| Export route 2 | Rail → Ust-Luga port (diesel) |
+| Prior strike | Oct 2025: CDU-6 struck, ~160K bpd offline 1+ month |
+| New strike | Mar 26, 2026: Ukrainian drones. "Sky glowing red." Scope TBD |
+| Strategic role | Source of ALL Russian NW refined product exports. Feeds both major Baltic ports. |

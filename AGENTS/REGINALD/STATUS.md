@@ -1,5 +1,5 @@
 # REGINALD STATUS
-**Last Updated:** 2026-03-25 20:15 UTC | **Status:** 🔴🔴🔴 CRITICAL
+**Last Updated:** 2026-03-26 01:30 UTC | **Status:** 🔴🔴🔴 CRITICAL
 
 ---
 
@@ -14,7 +14,7 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 | SSFA / NDFI | $4.2T industry-wide NDFI (+35% YoY); hidden CRE Layer 2 | 🔴🔴 |
 | Private Credit | BCRED near-gate, Blue Owl gated, FSK div -31%, TCPC fraud | 🔴 CRITICAL |
 | MFS/Fraud | £2B double-pledging — Barclays/Jefferies/Apollo. Cantor $270M ring. | 🔴 |
-| CMBS Maturity | $875B total CRE maturing 2026 (MBA). $76.6B hard maturity, no extensions. | 🔴🔴 |
+| CMBS Maturity | $875B total CRE maturing 2026 (MBA). $76.6B hard maturity + $400B wall pushed to 2026. No extensions. | 🔴🔴 |
 | Federal Layoffs | DOGE 307K+ confirmed. DC corridor stress ACTIVE. | 🔴 |
 | Stagflation Trap | PPI +0.7%, Brent $107+, FOMC hawkish hold, no NIM relief | 🔴🔴 |
 
@@ -34,7 +34,11 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 | Bank Reserves | $2.8T — 4yr low, G-SIB concentrated | 🔴 |
 | Private Credit Default | 5.8% (Jan Fitch) | 🔴 Record |
 | FL Foreclosures | +35% YoY, 12th consecutive increase | 🔴🔴 |
-| "Help with mortgage" | Google Trends ATH (surpasses GFC) | 🔴🔴 |
+| "Help with mortgage" | Google Trends ATH (surpasses GFC). Lennar Q1 margin 15.2% — lowest since 2010. Path C activating. | 🔴🔴 |
+| NDFI Exposure | $1.54T total (FFIEC Q4 2025) — 5.1x prior $300B model. MS base: $80B bank losses. | 🔴🔴 |
+| PC Default Rate | MS 8% total distress (CNBC Mar 25). 9 funds gated. Warehouse lines = next transmission. | 🔴🔴 |
+| CMBS Chicago | $167M office foreclosure — 2026's largest. Loss severity benchmark established. | 🔴 |
+| Construction Labor | ICE raids → 57 Concrete bankruptcy (TX). 1-in-3 workers foreign-born. Q2 start data at risk. | 🔴 |
 
 ---
 
@@ -50,16 +54,18 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 
 ## RESEARCH — WAL
 
-**KB: 60 rows, 10 groups** | **Earnings: ~Apr 21 (~27 days)**
-- Architecture complete (built Mar 25): INDEX, THESIS, STATUS, SCENARIOS, WEAKNESSES, EARNINGS_PREP, EXTERNAL_PROMPTS, MARKET/, vector research folders.
-- 5 external prompts ready (SSFA deep dive, MI3 industry comp, Jefferies-WAL chain, Nevada gaming, WAL vs OZK).
+**KB: 70 rows, 10 groups** | **Earnings: Apr 21 (~26 days)** | **EARNINGS_PREP: B+→A-**
+- Architecture complete (Mar 25): INDEX, THESIS, STATUS, SCENARIOS, WEAKNESSES, EARNINGS_PREP, EXTERNAL_PROMPTS.
+- 5 external prompts ready. EARNINGS_PREP upgraded Mar 26 with new signals.
 - WAL = fast-transmission thesis (episodic, sudden — bypasses delinquency pipeline).
 
 **Key numbers:** CRE/Tier 1 474%, MI3/C&I 24.2% (GROWING), SSFA $17.2B ($1.1B capital savings), Cantor $98M (30% reserved vs ZION 83%), SF NCO highest nationally (1.13%), pipeline lowest (0.26%).
 
-**Three vectors:** V1 Hidden CRE (MI3) | V2 Jefferies double-pledging / fraud pattern | V3 SSFA capital arbitrage
+**Three vectors:** V1 Hidden CRE (MI3) | V2 Jefferies/fraud (CONFIRMED Mar 25) | V3 SSFA/NDFI warehouse
 
-**⚡ Jefferies Q1 delivered Mar 25.** EPS missed 23% ($0.70 vs $0.91). $17M First Brands/MFS losses confirmed. TBVPS -15.7% YoY. WAL fraud transmission chain now has P&L confirmation. 27 days to WAL earnings.
+**⚡ Jefferies Q1 confirmed.** EPS $0.70 vs $0.91 (-23%). $17M MFS losses on P&L. V2 chain confirmed. SMFG backstop walked back.
+**⚡ Analyst downgrades (Mar 26):** Weiss Buy→Hold | Barclays PT $105→$90 | WFC PT $83→$79. Consensus PT ~$85-90. Thesis PT $47-60.
+**⚡ Macro amplifiers:** $400B CRE maturity wall in 2026 | NDFI $1.54T (V3 amplified) | Mortgage distress ATH | CMBS $167M Chicago office foreclosure.
 
 ---
 

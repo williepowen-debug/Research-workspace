@@ -1,6 +1,6 @@
 # NEXUS STATUS
-**Updated:** 2026-03-24 ~14:30 UTC | **Run:** Pass 10 — APO/ARES Gated, FSK Junk, Valero Shutdown, Primorsk Hit, FL UI Wave 1 FIRED
-**Convergence Score: 50/50 — CEILING. Stage 2 institutionalized. 9 funds gated. Supply destruction compounding on ALL fronts. Timing precision at maximum.**
+**Updated:** 2026-03-26 02:45 UTC | **Run:** Pass 11 — 14 agents refreshed. NDFI $1.54T. Phase 1 extends Q3 2026. HY OAS cascade timeline locked. JEF chain confirmed.
+**Convergence Score: 50/50 — CEILING MAINTAINED. Loss scale 5x prior model. Timeline precision upgraded. No falsifications.**
 
 ---
 
@@ -102,6 +102,18 @@
 | PROP-10 | ARES Puts | 🔴 **NEW** — ARES gating own $10.7B fund confirms same dynamic as APO. Jun puts. |
 | PROP-11 | Diesel/refining crack spread | 🔴 **NEW** — Valero Port Arthur 380K bpd offline + Primorsk diesel offline = diesel crack spread explosion. DINO/MPC/PSX crack spread beneficiaries or direct ULSD futures. Flag for Will. |
 
+## NEW CONVERGENCES (Pass 11)
+1. **NDFI $1.54T (FFIEC)**: Bank shadow exposure 5.1x prior model ($300B was PE only). MS+Zito=$80B, UBS+Zito=$150B losses. C-21 upgrades. Every prior scenario understated 5-6x.
+2. **Phase 1 extends to Q3 2026 regardless of ceasefire**: Infrastructure destruction (Ras Laffan, Fujairah, Primorsk) requires 60-90d reconstruction minimum. Ceasefire ≠ supply recovery. PRED-39.
+3. **HY OAS cascade timeline**: >400bps Jun-Jul, >500bps Aug-Sep. 37 CLO managers / 15 software credits = synchronized OC failure. 2007 analog: bank writedowns Q2-Q3 2026.
+4. **Petrodollar recycling broken AND reversing**: $125-200B/qtr UST supply/demand reversal from Gulf alone. Annual $500-800B. Emergency liquidation (not just reduced recycling). ZHAO confirms.
+5. **Dimona → ceasefire door closed**: HANS explicitly closes 60-day ceasefire optionality. Fordow→Kharg = main path. War duration base case revised to 6-12 months (was 3-6mo).
+6. **JEF chain confirmed**: Q1 EPS miss 23%, First Brands zero, MFS $17M. OTTO maps JEF→zero, Barclays→Apollo→WAL. Q1 bank earnings (Apr 20-29) = resolution event.
+7. **Marginal buyer structurally absent**: HENRY confirms retail buyer GONE across all asset classes simultaneously. USD risk reversals +92bps (3-yr high). BTFD mechanism structurally changed.
+
+## NEW TENSIONS (Pass 11)
+- **T-15 NEW**: Japan CPI 1.6% (slowest since Mar 2022) vs BOJ May 1 urgency. Government energy subsidies inflate headline. Shunto 5.26% = primary BOJ input. BOJ thesis intact. Monitor Mar CPI.
+
 ## NEW CONVERGENCES (Pass 10)
 1. **C-34 NEW**: Gulf surplus recycling collapse — Campbell independently confirmed. HAWK→C-07→HENRY pathway explicitly mapped for first time.
 2. **C-05 TRIGGERED**: FL UI Wave 1 fired Mar 24. No longer T-1 — it is active.
@@ -118,7 +130,7 @@
 3. **Campbell "Strip vs Strait" (Mar 9)**: Gulf surplus recycling = NEW vector (C-34). Sulphur chains, sovereign bond stress, credit deterioration, central bank trap — outside analyst at 52K views reaching our thesis. Consensus catching up. Data center capex at risk. "End of cycle" framing (1970s, not 2008).
 
 ## SCORE HISTORY
-Mar 14: 43 → Mar 17: 48 → Mar 21: 50 (ceiling) → Mar 22: 50 (depth: geo) → Mar 23: 50 (depth: Stage 2 + reflexivity) → Mar 24: 50 (depth: 9 funds gated, Valero + Primorsk, FL UI fired, ARESSI/OBDCII 48-72hrs, T-14 critical narrative gap)
+Mar 14: 43 → Mar 17: 48 → Mar 21: 50 (ceiling) → Mar 22: 50 (depth: geo) → Mar 23: 50 (depth: Stage 2 + reflexivity) → Mar 24: 50 (depth: 9 funds gated, Valero + Primorsk, FL UI fired, ARESSI/OBDCII 48-72hrs, T-14 critical narrative gap) → Mar 26: 50 (depth: NDFI $1.54T 5x prior, Phase 1 Q3 extension, HY OAS timeline locked, JEF chain, petrodollar reversal $125-200B/qtr)
 
 ---
 NEXUS | 2026-03-24 14:30 UTC
