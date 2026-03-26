@@ -1,4 +1,4 @@
-# ARES Pre-Report Brief — March 26, 2025
+# ARES Pre-Report Brief — March 26, 2026
 **Author:** BROCK (BDC/Private Credit Agent)  
 **Status:** Pre-earnings watch brief  
 **Event:** ARES Management (NYSE: ARES) / ARCC earnings report — TODAY  
@@ -21,7 +21,7 @@
 **Key Q4 2024 narratives:**
 - Non-accrual at cost jumped 31% QoQ (1.3% → 1.7%) — single biggest one-quarter move in recent history
 - Management cited "modestly increased" FV non-accrual (0.6% → 0.9%) — downplayed, but directionally negative
-- Leadership transition: Kipp DeVeer stepping down as CEO (eff. April 30, 2025), Kort Schnabel taking over
+- Leadership transition: Kipp DeVeer stepping down as CEO (eff. April 30, 2025), Kort Schnabel taking over (completed)
 - Yield on new investments compressed: 10.7% vs 12.2% in 2023 — spread compression accelerating
 
 ### ARES Management (the asset manager — NYSE: ARES)
@@ -121,7 +121,7 @@
 
 ### CURRENT POSITION BASIS
 - Strike: $95 (Put)  
-- Expiry: June 2025  
+- Expiry: June 2026  
 - Time: ~85 days to expiry as of March 26  
 - Thesis: ARES stock reprices lower as PC stress becomes consensus; manager discount expands as AUM growth narrative breaks
 
@@ -174,8 +174,8 @@ BDC sector reprices -20% to -35% from current levels
 ```
 
 **Timeline assessment:**
-- If today shows 2+ red signals → Stage 3 entry within 60-90 days (May-June 2025)
-- If today shows 0-1 red signal → Stage 2 extended, reassess at Q1 2025 reporting (May)
+- If Q1 shows 2+ red signals → Stage 3 entry within 60-90 days (May-June 2026)
+- If Q1 shows 0-1 red signal → Stage 2 extended, reassess at Q1 2026 reporting (late Apr/May)
 - Catalyst calendar: OBDCII (tomorrow Mar 27) + FSK follow-up + BCRED monthly (April) → convergence point
 
 ---
@@ -197,4 +197,4 @@ BDC sector reprices -20% to -35% from current levels
 
 ---
 
-*Brief compiled: March 26, 2025 | BROCK | Next update: Post-earnings (same day)*
+*Brief compiled: March 26, 2026 | BROCK | Next update: Post Q1 earnings (late Apr/May 2026)*
