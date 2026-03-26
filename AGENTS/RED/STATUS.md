@@ -73,7 +73,7 @@ Evidence the narrative is hollow:
 
 **New entrant watch list:**
 - **CDX/OAS Convergence Trap**: If HY cash spreads widen to catch CDX (rather than CDX compressing), 9 fund gates become narrative anchor and HYG thesis accelerates. Not a blow-up — a blow-up *prevention*.
-- **NDFI $1.54T Reframe Risk**: If this estimate is wrong by even 30-40%, it changes bank exposure calculus significantly. Source/methodology needs verification.
+- **NDFI Reframe Risk**: ✅ RESOLVED. FDIC primary source confirms $1.32T (Q3 2025), ~$1.4T est. Q4. The "$1.54T" figure was a phantom — no primary source. Actual number still massive (52.3% of Tier 1 capital + allowance, 21.9% CAGR since 2010). Thesis holds, number corrected.
 
 ---
 
@@ -85,7 +85,7 @@ Evidence the narrative is hollow:
 | HYG Jun puts | 🔴 HIGH | → | CDX divergence is BULLISH for thesis, but cash OAS 319 not breaking. Time decay still killing. CDX may never converge before June. |
 | IWM Jun puts | 🟠 MOD | → | Ceasefire squeeze risk + most shorted index. Take 25-30% profit. |
 | TLT puts | 🟠 MOD | ↓ | BOJ May not April = delayed SAM unwind. Life insurer outright selling is a real headwind for TLT puts (they're selling Treasuries). Slightly better setup than prior. |
-| KRE Dec puts | 🟡 LOW | → | NDFI $1.54T reframe strengthens thesis. Long dated. Hold. |
+| KRE Dec puts | 🟡 LOW | → | NDFI $1.32T confirmed (FDIC primary). 52.3% of Tier 1. Long dated. Hold. |
 | WAL Jun/Sep puts | 🟡 LOW | → | CRE catalyst Apr earnings. Hold. |
 | OZK Aug puts | 🟡 LOW | → | Binary Apr 16 earnings. Hold. |
 | ZION puts | 🟡 LOW | → | Acceptable. |
@@ -98,7 +98,7 @@ Evidence the narrative is hollow:
 
 1. **PMI headline vs internals divergence.** We're correctly reading internals (Philly -23.9, Unit Labor 4.4%) but markets are trading the headline PMI 52.4. The divergence can persist longer than near-dated options survive.
 2. **9 fund gates = slow-motion crisis, not acute event.** We're expecting cascade acceleration. But if it stays at "one a week," markets can absorb it. The pace matters as much as the direction.
-3. **$1.54T NDFI exposure figure.** 5.1x revision from prior estimate is a huge number. If methodology is off, this is a falsification-level data error. RED flags this for Will verification.
+3. **~~$1.54T~~ NDFI exposure figure — RESOLVED.** Actual: $1.32T (Q3 2025 FDIC), ~$1.4T Q4 est. "$1.54T" was synthesis error. Not a falsification — corrected number is still 52.3% of Tier 1 capital, 10% of all bank loans, 86% concentrated in top banks. Thesis intact.
 4. **HY OAS 319 vs CDX divergence.** LIQUID's "window-dressed cash" framing is plausible but not proven. If the *real* answer is that cash spreads are correct and CDX is distorted by options hedging flows, we've been misreading credit for 8 weeks.
 5. **Wartime employment paradox.** Defense/infrastructure hiring could keep claims low through Q2 even as consumer economy deteriorates. Our Hamilton chain (oil→unemployment) has NO historical analog in wartime. This is a real blind spot.
 
@@ -117,7 +117,7 @@ Evidence the narrative is hollow:
 | April NFP >+200K | Reassess employment channel | Watch Apr 3 |
 | BOJ April: unanimous hold + dovish | Extend SAM timeline to Q4 2026+ | Likely hold but watch |
 | Iran pause extension post-3/28 | Reduce Scenario D, extend ceasefire probability | **EXPIRES FRI** |
-| NDFI $1.54T source confirmed | Strengthens KRE/bank thesis materially | Needs verification |
+| ~~NDFI $1.54T~~ | ✅ RESOLVED — actual $1.32T (Q3), ~$1.4T (Q4 est). Thesis intact. | Verified Mar 26 |
 
 ---
 

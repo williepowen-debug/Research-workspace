@@ -17,7 +17,7 @@
 ---
 
 10. **One spawn, one objective.** Don't bundle two distinct goals into one agent spawn. Agent context is finite (~50K tokens, 3-8 min). REGINALD P-002 bundled inbox processing + EARNINGS_PREP upgrade — inbox got done, prep didn't move. Split into two proposals instead.
-11. **Check subagent status before every response.** During active spawns, run `subagents list` before replying to Will. Report completions FIRST. On Mar 26, BROCK and REGINALD both finished without Prome noticing — Will had to ask. Completions buried in conversation flow is a protocol failure.
+11. **Check subagent status before every response.** During active spawns, run `subagents list` before replying to Will. Report completions FIRST. Auto-announce is unreliable — system-level push notifications for subagent completion are inconsistent (race conditions when multiple finish near-simultaneously, possible delivery drops). Don't trust auto-announce alone. On Mar 26, BROCK and REGINALD both finished without Prome noticing — Will had to ask. Later same day, T-19 (RED) completed silently while T-20 (FORGE) announced fine. **Workaround:** After spawning, proactively check `subagents list` after ~2-3 min rather than waiting for push. This is an OpenClaw platform limitation, not agent-side. **Root cause (Mar 26 update):** The auto-announce push mechanism is unreliable — completions sometimes don't surface to Telegram. This is a system-level issue (OpenClaw routing), not agent behavior. Workaround: don't trust auto-announce alone. After spawning, proactively check `subagents list` after ~2-3 min or before any reply to Will. Treat auto-announce as nice-to-have, not guaranteed.
 
 ---
 

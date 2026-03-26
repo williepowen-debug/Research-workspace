@@ -5,7 +5,8 @@
 **Tools:** `pdfminer.six` installed (`from pdfminer.high_level import extract_text`).
 **Calendar:** CALENDAR.md syncs to Google Calendar ("Research Ops") via `tools/calendar/sync_calendar.py`. Run after any CALENDAR.md edit. Cron auto-syncs 7 AM ET weekdays.
 
-1. **Read `PROME/SCRATCH.md`** — ephemeral scratchpad. Read FIRST.
+1. **Read `PROME/TODAY.md`** — what's actually happening today. Catalysts, decisions, levels.
+2. **Read `PROME/SCRATCH.md`** — ephemeral scratchpad, handoff from last session.
 2. **Read `PROME/STATUS.md`** — dashboard, positions, priorities.
 3. **Read `PROME/TOSCANINI/QUEUE.md`** — active proposals + signal queue.
 4. **Triage Prome inbox** — `AGENTS/PROME/inbox/`. Scan for signals that change priorities. Deep-read anything flagged in SCRATCH.

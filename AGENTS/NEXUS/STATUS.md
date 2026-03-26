@@ -1,5 +1,5 @@
 # NEXUS STATUS
-**Updated:** 2026-03-26 02:45 UTC | **Run:** Pass 11 — 14 agents refreshed. NDFI $1.54T. Phase 1 extends Q3 2026. HY OAS cascade timeline locked. JEF chain confirmed.
+**Updated:** 2026-03-26 02:45 UTC | **Run:** Pass 11 — 14 agents refreshed. NDFI $1.32T (FDIC Q3 2025, ~$1.4T Q4 est). Phase 1 extends Q3 2026. HY OAS cascade timeline locked. JEF chain confirmed.
 **Convergence Score: 50/50 — CEILING MAINTAINED. Loss scale 5x prior model. Timeline precision upgraded. No falsifications.**
 
 ---
@@ -93,7 +93,7 @@
 | # | Proposal | Status |
 |---|----------|--------|
 | PROP-02 | Roll KRE/HYG Jun→Dec | 🔴 URGENT |
-| PROP-03 | APO Puts | 🔴🔴 HIGHEST CONVICTION — gating own $15.1B flagship, dual class action, CEO Rowan named, May 1 lead plaintiff. Apr 17 (24 days); Jun 18 (more time). |
+| PROP-03 | APO Puts | 🔴🔴 HIGHEST CONVICTION — gating own $15.1B flagship, securities class action (Feldman v. Apollo, SDNY), Rowan + Leon Black named, May 1 lead plaintiff. Apr 17 (22 days); Jun 18 (more time). |
 | PROP-04 | FXY — conditional on Shunto | 🔴 PENDING |
 | PROP-06 | CF Industries Jun $115C | ✅ HOLD — strengthened (Valero + Primorsk compound supply) |
 | PROP-07 | KRE Puts near-term add | 🔴 Mar 31 catalyst. WAL Jefferies tonight = near-term trigger. |
@@ -103,7 +103,7 @@
 | PROP-11 | Diesel/refining crack spread | 🔴 **NEW** — Valero Port Arthur 380K bpd offline + Primorsk diesel offline = diesel crack spread explosion. DINO/MPC/PSX crack spread beneficiaries or direct ULSD futures. Flag for Will. |
 
 ## NEW CONVERGENCES (Pass 11)
-1. **NDFI $1.54T (FFIEC)**: Bank shadow exposure 5.1x prior model ($300B was PE only). MS+Zito=$80B, UBS+Zito=$150B losses. C-21 upgrades. Every prior scenario understated 5-6x.
+1. **NDFI $1.32T (FDIC Q3 2025, ~$1.4T Q4 est)**: Bank shadow exposure ~4.4x prior model ($300B was PE only). "$1.54T" was phantom — corrected Mar 26. MS+Zito=$80B, UBS+Zito=$150B losses. C-21 upgrades. Every prior scenario understated 4-5x.
 2. **Phase 1 extends to Q3 2026 regardless of ceasefire**: Infrastructure destruction (Ras Laffan, Fujairah, Primorsk) requires 60-90d reconstruction minimum. Ceasefire ≠ supply recovery. PRED-39.
 3. **HY OAS cascade timeline**: >400bps Jun-Jul, >500bps Aug-Sep. 37 CLO managers / 15 software credits = synchronized OC failure. 2007 analog: bank writedowns Q2-Q3 2026.
 4. **Petrodollar recycling broken AND reversing**: $125-200B/qtr UST supply/demand reversal from Gulf alone. Annual $500-800B. Emergency liquidation (not just reduced recycling). ZHAO confirms.
@@ -130,7 +130,7 @@
 3. **Campbell "Strip vs Strait" (Mar 9)**: Gulf surplus recycling = NEW vector (C-34). Sulphur chains, sovereign bond stress, credit deterioration, central bank trap — outside analyst at 52K views reaching our thesis. Consensus catching up. Data center capex at risk. "End of cycle" framing (1970s, not 2008).
 
 ## SCORE HISTORY
-Mar 14: 43 → Mar 17: 48 → Mar 21: 50 (ceiling) → Mar 22: 50 (depth: geo) → Mar 23: 50 (depth: Stage 2 + reflexivity) → Mar 24: 50 (depth: 9 funds gated, Valero + Primorsk, FL UI fired, ARESSI/OBDCII 48-72hrs, T-14 critical narrative gap) → Mar 26: 50 (depth: NDFI $1.54T 5x prior, Phase 1 Q3 extension, HY OAS timeline locked, JEF chain, petrodollar reversal $125-200B/qtr)
+Mar 14: 43 → Mar 17: 48 → Mar 21: 50 (ceiling) → Mar 22: 50 (depth: geo) → Mar 23: 50 (depth: Stage 2 + reflexivity) → Mar 24: 50 (depth: 9 funds gated, Valero + Primorsk, FL UI fired, ARESSI/OBDCII 48-72hrs, T-14 critical narrative gap) → Mar 26: 50 (depth: NDFI $1.32T corrected, Phase 1 Q3 extension, HY OAS timeline locked, JEF chain, petrodollar reversal $125-200B/qtr)
 
 ---
 NEXUS | 2026-03-24 14:30 UTC

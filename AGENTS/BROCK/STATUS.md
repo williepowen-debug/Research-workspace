@@ -119,12 +119,16 @@
 - **UBS stress test:** 15% default scenario still on table.
 - **Apollo's Zito (Mar 16):** "All the marks are wrong" — software PE marks, 20-40 cent recovery.
 
-## APO — Dual Legal Risk Now Active (NEW Mar 20)
-- **Hagens Berman** + **Schall Law Firm** BOTH issued public class action notices today (Mar 20)
-- Class period: **May 10, 2021 – Feb 21, 2026**
-- **Critical escalation:** CEO Marc Rowan personally named — allegations that Rowan himself had documented business communications with Epstein, directly contradicting Apollo's repeated claim "never did any business with Jeffrey Epstein"
-- Two parallel law firm campaigns = coordinated plaintiff discovery; lead plaintiff deadline May 1
-- This is SEPARATE from the private credit class action — APO now fighting two fronts
+## APO — Securities Class Action (RECONCILED Mar 26)
+**[CORRECTED Mar 26 — see APO_LITIGATION_MAP_MAR26.md for full detail]**
+- **ONE primary securities class action:** *Feldman v. Apollo Global Management, Inc., et al.* — Case No. 1:26-cv-01692, SDNY — **Filed March 2, 2026**
+- Class period: **May 10, 2021 – Feb 21, 2026** | Lead plaintiff deadline: **May 1, 2026**
+- **Named defendants:** Apollo Global Management (entity) + CEO Marc Rowan + **Leon Black** (former CEO/co-founder, named as controlling person under §20(a)) — NO Athene entity named
+- **4 law firms soliciting plaintiffs on same case:** Hagens Berman (likely original filer, announced Mar 9), Schall Law Firm (Mar 20 reminder), Levi & Korsinsky / SueWallSt (Mar 26 alert emphasizing Black), ClaimsFiler (Mar 25-26)
+- **Mar 20 "two notices" = same case** — Schall's Mar 20 press release was a reminder of the existing Feldman case; not a separate filing
+- **"Private credit class action" = UNCONFIRMED** — no separate private credit suit found as of Mar 26. Original "two fronts" framing was incorrect. Watch for potential APODS investor suit related to Mar 23 gating but none filed yet.
+- **Leon Black naming (new per RED Mar 26):** Black held 7.0% of APO common stock as of Apr 25, 2025; alleged to have participated in drafting/reviewing false statements despite stepping down before class period. Guarantees continued headline risk beyond Rowan.
+- **Thesis impact:** Single consolidated case → court appoints lead plaintiff by May 1. Institutional plaintiff announcement = settlement risk escalation signal. Leon Black = media amplification beyond financial press.
 
 ## APO Capital Deployment — $1B Realty Income JV (NEW Mar 19-20)
 - Apollo committed $1B for 49% stake in Realty Income net-lease retail JV (~500 properties, grocery/QSR)

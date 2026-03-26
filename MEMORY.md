@@ -29,6 +29,8 @@
 
 - **RED Team (Feb 14)** — 85% confidence (upgraded Mar 20). Falsification: exit 50% if claims <240K + CBRE >-5%; exit 100% if BTFP 2.0 / HY OAS <260bps. → `AGENTS/RED/`
 - **UST Demand Hole** — Four-anchor stress (Japan+China+Korea+Gulf). Combined selling $70-135B/mo (revised up Mar 23 — Ghalibaf ratchet). Gulf recycling broken. Note: CNY 7.30 call missed (actual 6.91 Mar 20 — yuan strengthened). Structural selling thesis intact but magnitude/timing uncertain.
+- **NDFI Verified (Mar 26)** — FDIC primary source: $1.32T Q3 2025, ~$1.4T Q4 est. Prior "$1.54T" was phantom (no source). 52.3% of Tier 1 capital, 21.9% CAGR since 2010, 86% in banks >$100B. FDIC Feb 2026 paper + FRED B1030NCBCQG. W-002 resolved.
+- **Ag Labor Data Gap (Mar 26)** — USDA Ag Labor Survey AND DOL NAWS both canceled. No official source for agricultural employment tracking going forward. MARCO flagged as permanent blind spot. We're relying on indirect signals (H-2A certs, self-deportation estimates, produce prices) with no ground truth.
 
 ---
 
