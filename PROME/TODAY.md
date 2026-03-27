@@ -27,6 +27,18 @@
 - [ ] **Near→long rebalance** — 61/39 → target 22/78. `RED/POSITION_TIMELINE_STRESS.md`
 - [ ] **Apr 1:** Tankan survey (SAM)
 
+## ✅ Completed Tonight (Session 7 — 9:18 PM ET)
+
+- [x] 22 signals ingested from Will's clippings → 11 agent inboxes
+- [x] **BOND agent created** — standalone, full file structure, seeded KB, LIQUID data migrated
+- [x] BOND added to AGENTS_DIRECTORY.md + transmission chain
+- [x] 4 KBRA reference docs extracted + 2 PDFs archived to BOND/domain/sources/
+- [x] KBRA Q4 Surveillance hard data → BROCK inbox (KMDM 81, 25% sub-1.0x ICR, 2.9x multilevel downgrades)
+- [x] OBDCII $600M sale context → BROCK inbox (feeds T-04 OWL framework)
+- [x] CFO mechanism identified → SHADE inbox (CDO logic on fund interests for insurance capital)
+- [x] SCRATCH.md, memory/2026-03-26.md, AGENTS_DIRECTORY.md all updated
+- [x] W-009 added to WILL_QUEUE (KBRA Premium access — 7 paywalled reports)
+
 ## ✅ Completed Today
 
 - [x] T-19 RED position timeline stress test — book inverted, roll recs delivered

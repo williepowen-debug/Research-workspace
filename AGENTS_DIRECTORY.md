@@ -23,6 +23,7 @@ Sub-agents own detail → distill upward to parents → lateral only when transm
 | **SAM** | Japan/BOJ/JGB | 🔴 | JGB stress → global contagion |
 | **ZHAO** | China/capital flows | 🔴 | TIC data, LGFV, HK peg. True holdings ~$1.8-1.9T stable |
 | **HANS** | Europe (US lens) | 🟡 | UST demand, ECB, sovereign spreads. Needs research prompts |
+| **BOND** | US bond market structure | 🔴 | Auctions, dealer positioning, issuance (HY/IG), credit spreads, CDX-cash divergence, credit-equity lead. Between LIQUID (plumbing) and ZHAO (foreign flows). |
 
 ## Synthesis
 
@@ -82,6 +83,7 @@ HAWK (geopolitical) → FERT (China policy, Gulf damage)
 BRENT (fuel) → CRUISE (operator P&L) → CARL (port city impact) + LABOR (port employment)
 HAWK (Gulf/insurance) → CRUISE (itinerary cancellations)
 SHADE = insurance plumbing under BROCK/REGINALD | feeds LIQUID on systemic
+BOND = bond market structure between LIQUID (plumbing) and ZHAO (foreign flows) | auctions → LIQUID (repo demand) | credit spreads → HENRY (credit-equity lead) | issuance freeze → REGINALD (bank funding)
 NEXUS synthesizes across all → convergence/contradiction → PROME
 HERMES carries signals between all agents (OUTBOX → INBOX, 2x daily)
 ```

@@ -29,9 +29,29 @@ First Brands (fraud)
             → WAL as lender to intermediary chain
 ```
 
-WAL's exposure is **indirect** — through the private credit/leveraged lending chain, not direct lending to First Brands. This makes it harder to quantify but confirmed by Bloomberg (Oct 2025): "Western Alliance faces First Brands risk."
+WAL's exposure is **indirect but now quantified** — WAL lent to **LAM TFG I SPV LLC** (owned by Point Bonita master fund, within Jefferies' Leucadia Asset Management platform). Non-recourse to SPV collateral = First Brands receivables.
 
-**WAL-specific dollar exposure:** [DATA NEEDED] — not disclosed in WAL filings. Must be addressed at Apr 21 earnings.
+**WAL-specific dollar exposure:** **$126.4M disputed** (lawsuit filed Mar 6, 2026). $42.1M paid Jan 15 2026, then Jefferies refused further payments. Total original lending unknown but "steadily increasing amounts" since 2021.
+
+### Structural Detail (from deep analysis, Mar 26 2026)
+
+```
+WAL (lender, non-recourse)
+    → LAM TFG I SPV LLC (borrower, Point Bonita-owned)
+        → Point Bonita master fund ($3B trade-finance, ~$715M First Brands = 25%)
+            → Leucadia Asset Management (Jefferies platform)
+                → First Brands Group (servicer, now bankrupt + DOJ indicted)
+```
+
+**Key structural failures:**
+1. **UCC filings lapsed Sept 2025** — collateral perfection broken at critical moment
+2. **Cash dominion misrepresentation** — First Brands retained control over collections despite contractual transfer to Point Bonita (per investor lawsuit Feb 25)
+3. **No parent guarantee obtained** — WAL asked Jefferies + Point Bonita for guarantees during Oct 2025 forbearance, both refused
+4. **Forbearance dispute** — WAL alleges Oct 2025 agreement required full repayment by **Mar 31, 2026** (THIS MONDAY). JEF says non-recourse, no obligation.
+5. **Jefferies economic stake** — $43M (5.9% of Point Bonita's First Brands position) + ~$2M via Apex lending. Not merely a manager — skin in the game.
+
+### 🔴 CATALYST: Mar 31 2026 — Alleged Forbearance Payment Deadline
+The Oct 2025 forbearance agreement allegedly required full repayment by Mar 31, 2026. One $42.1M payment made Jan 15, then cut off. $126.4M remains disputed. This is the same convergence day as Japan FY-end, USDA Planting, Tricolor liquidation.
 
 ---
 
@@ -39,11 +59,13 @@ WAL's exposure is **indirect** — through the private credit/leveraged lending 
 
 Jefferies Q1 CY2026 (reported Mar 25 2026 after close):
 - **$17M in losses** from First Brands + MFS combined
+- **$30M pretax loss Q4 CY2025** on First Brands (recognized earlier, Bloomberg Jan 7 2026)
+- **$36M telecom writedown** + **24% decline in fixed income revenue** (per @junkbondinvest, Mar 26)
 - EPS $0.70 vs consensus $0.91 — **23% miss**, driven by credit losses
 - TBVPS $34.24, down **15.7% YoY** — balance sheet erosion
 - Oppenheimer cut PT from $97 to $74 ahead of results
 
-The $17M is described as combined First Brands + MFS. Breakdown between the two: [DATA NEEDED — pending transcript analysis Mar 26].
+**Total JEF First Brands losses:** $30M (Q4) + portion of $17M (Q1) = **~$40-47M** and counting. Plus legal costs from dual lawsuits (WAL + investor class action).
 
 **Significance:** If Jefferies is taking real P&L losses, WAL's exposure through the same chain is also real — not theoretical.
 
@@ -59,6 +81,10 @@ The $17M is described as combined First Brands + MFS. Breakdown between the two:
 | Feb 25 2026 | Jefferies sued; former exec confirms fraud to judge | Reuters, ML-REG-088 |
 | Feb 27 2026 | WAL -10.64% Convergence Day; Jefferies -11% on MFS disclosure | Market data, ML-REG-096 |
 | Mar 25 2026 | Jefferies Q1: $17M loss confirmed | Jefferies earnings, ML-REG-116 |
+| Mar 6 2026 | WAL sues JEF for $126.4M (breach + fraud) | Reuters [1] |
+| Mar 8-9 2026 | JEF disputes: "meritless," loans were non-recourse to SPV | Nasdaq [3] |
+| Mar 25 2026 | Jefferies Q1: $17M loss + $36M telecom writedown + -24% FI rev | Bloomberg/JunkBondInvest |
+| **Mar 31 2026** | **Alleged forbearance payment deadline — CONVERGENCE DAY** | |
 | **Apr 21 2026** | **WAL Q1 earnings — exposure must be addressed** | |
 
 ---
@@ -84,6 +110,12 @@ Unicus Research (ML-REG-114) drew the explicit structural parallel: CRE originat
 - WAL's NDFI book ($4.2T industry, +35% YoY per ML-REG-115) includes warehouse lines to BDCs
 
 ---
+
+## Investor Litigation (Feb 25 2026)
+
+Point Bonita investors sued Jefferies + Point Bonita alleging misrepresentation of "cash dominion" over receivables. If First Brands actually controlled payment streams despite contractual transfer, the collateral supporting both fund investors AND WAL's lending was weaker than represented. This is the fraud mechanism — receivables may have been double-pledged, overstated, or uncollectible.
+
+**Full analysis doc:** `WAL-JEF-PointBonita-Analysis-20260326.docx` (16 footnoted sources, entity structure table, complete timeline)
 
 ## Canonical Research
 
