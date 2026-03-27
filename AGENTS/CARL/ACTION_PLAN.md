@@ -5,10 +5,8 @@
 
 ## PRIORITY 1 — TIME-SENSITIVE (This week)
 
-### 1.1 Claims Data (Mar 27)
-- **What:** Pull Mar 27 weekly claims print. First post-Mullin data point.
-- **Why:** If DHS suppression ends and claims gap to 230K+, narrative shock accelerates behavioral contagion. Update VX-CARL-CLAIMS-01.
-- **Output:** KB entry + VX update if threshold breached.
+### ~~1.1 Claims Data (Mar 27)~~ — DONE
+Pulled Mar 27. Initial 210K, continuing 1,819K (lowest since May 2024). Counter-signal logged in KB-117 + red_team/. VX-CARL-CLAIMS-01 updated to GREEN.
 
 ### 1.2 Gas $4.00 Documentation
 - **What:** When AAA formally prints $4.00+ national avg, document as KB entry.
@@ -24,15 +22,15 @@
 
 ## PRIORITY 2 — DATA REFRESH (Next 1-2 sessions)
 
-### 2.1 Stale KB Entries (Past Stale_By Date)
-| KB ID | Topic | Last Data | Stale Since | Refresh Source |
-|-------|-------|-----------|-------------|----------------|
-| KB-003 | Existing Home Sales | Jan 2026 NAR | 2026-03-15 | NAR Feb/Mar release |
-| KB-004 | South FL Housing | Dec 2025 Redfin | 2026-03-15 | Redfin latest |
-| KB-005 | Price Declines | Feb 2026 Wright | 2026-03-15 | Wright Substack |
-| KB-006 | Insider Selling | Jan 2026 | 2026-03-15 | Washington Service |
-| KB-026 | MF DQ GFC | Mar 4 Fannie | 2026-04-15 | Fannie Q1 data |
-| KB-038 | Inventory Surge | Feb 2026 ResiClub | 2026-04-15 | ResiClub/Lance Lambert |
+### ~~2.1 Stale KB Entries (Past Stale_By Date)~~ — 5/6 DONE (Mar 27)
+| KB ID | Topic | Status | Notes |
+|-------|-------|--------|-------|
+| ~~KB-003~~ | Existing Home Sales | DONE | Feb 4.09M SAAR (+1.7%), mild counter-signal |
+| ~~KB-004~~ | South FL Housing | DONE | FL 83 days on market (+6 YoY) |
+| ~~KB-005~~ | Price Declines | DONE | 47/50 cities declining — major escalation |
+| ~~KB-006~~ | Insider Selling | DONE | Ratio 0.24 vs 0.34 median |
+| **KB-026** | **MF DQ GFC** | **OPEN** | **Need Fannie Feb 2026 PDF for exact MF DQ rate** |
+| ~~KB-038~~ | Inventory Surge | DONE | 66/200 metros above 2019 levels |
 
 ### 2.2 Approaching Stale (2-3 weeks)
 - KB-070: Payment network selloff (Feb 23 market data)
@@ -45,9 +43,9 @@
 
 ## PRIORITY 3 — HOUSEKEEPING (Next 2-3 sessions)
 
-### 3.1 VX Consolidation
-- **Merge VX-CARL-1.01 / VX-CARL-6.01** (duplicate CC 90+ DQ vectors). Keep 1.01, delete 6.01.
-- **Merge VX-CARL-1.04 / VX-CARL-ABS-15** (duplicate subprime auto 60+ DQ). Keep 1.04, delete ABS-15.
+### ~~3.1 VX Consolidation~~ — DONE (Mar 27)
+- ~~Merge VX-CARL-1.01 / VX-CARL-6.01~~ — consolidated, 6.01 marked CONSOLIDATED
+- ~~Merge VX-CARL-1.04 / VX-CARL-ABS-15~~ — consolidated, ABS-15 marked CONSOLIDATED
 
 ### 3.2 Stale VX Refresh
 - ~15 VX rows last updated 2026-01-22 (over 2 months). Pull current data or mark [STALE]:
@@ -57,10 +55,9 @@
   - VX-CARL-4.01, 4.02, 4.03
   - VX-CARL-5.01 through 5.06
 
-### 3.3 STATUS.md Cleanup
-- Archive check-in blocks (Mar 25-26 narratives) to `domain/sources/STATUS_archive_20260327.md`
-- Target: STATUS.md under 150 lines (currently ~200 with new danger window entries)
-- Keep: dashboard tables, convergence matrix, predictions, danger window, cross-agent links
+### ~~3.3 STATUS.md Cleanup~~ — DONE (Mar 27)
+- ~~Archive check-in blocks~~ — archived to `domain/sources/STATUS_archive_20260327.md`
+- ~~Target under 150 lines~~ — achieved 128 lines
 
 ### 3.4 ABS Baselines (12 PENDING vectors)
 - VX-CARL-ABS-01 through ABS-07 (CC: Discover, Cap One payment rates, DQ, charge-off, vintage)
