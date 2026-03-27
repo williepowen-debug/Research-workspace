@@ -1,0 +1,14 @@
+ID	Vector	Current_State	Score	Threshold_Yellow	Threshold_Red	Last_Signal	Last_Updated	Notes
+VX-BND-01	Treasury Auction Health	🔴	4	BTC <2.5x or tail >2bps	BTC worst in 2yr+ or consecutive failures	5Y worst BTC 4yr, highest tail since 2024	2026-03-26	Watch 7Y and 10Y auctions next
+VX-BND-02	HY Spread Level	🔴	4	HY OAS >300	HY OAS >350 (issuance freeze)	HY OAS 319, Janus Henderson pulled deal	2026-03-26	31bps from freeze threshold; 2007 template: 320→500 in 2-4mo
+VX-BND-03	IG Issuance	🟡	2	IG OAS +10bps/wk	IG OAS +20bps/wk or pulled deals	Widening but not freezing yet	2026-03-26	Monitor new issue calendar
+VX-BND-04	Dealer Inventory	🟠	3	Dealer net position declining	Forced inventory reduction	MS $85B broker-dealer → bank transfer	2026-03-26	Capacity restructuring reduces intermediation
+VX-BND-05	Yield Curve	🟠	3	10Y >4.3% sustained	10Y >4.5% or bear steepener	OECD inflation 4.2%, Fed trapped	2026-03-26	Duration pain with no rate cut relief
+VX-BND-06	CDX-Cash Divergence	🔴	4	CDX leads cash by >1 week	Sustained divergence >2 weeks	CDX at 9-month high, diverging from cash	2026-03-26	Synthetic leading cash = hedging demand > real selling
+VX-BND-07	Credit-Equity Lead Timing	🟠	3	HY OAS >300 rising (lead activating)	HY OAS >350 (3mo equity lag per Hamilton)	HY OAS 319, rising	2026-03-26	2007 template: credit leads equity by ~3 months
+VX-BND-08	Indirect Bid %	🟢	2	<60%	<40%	69.0% (20Y Mar 19) — strong recovery from Feb 55%	2026-03-26	From LIQUID VX-LIQUID-2.02. PRE-WAR Feb was ORANGE (55%). Watch for reversal in Apr auction post-Dimona.
+VX-BND-09	Auction Tail	🟡	2	>1.5bps	>5.0bps	4.7bps (20Y Mar 19); Feb 20Y was 2.0bps	2026-03-26	From LIQUID VX-LIQUID-2.03. 20Y belly showing weakness. 30Y still clean. Long-end deteriorating.
+VX-BND-10	IG Primary Issuance	🔴	4	<$5B/day	ZERO 2+ days	ZERO 2 consecutive days (Mar 2-3) — war shock froze primary	2026-03-26	From LIQUID VX-LIQUID-6.04. 2-day halt = systemic. 3+ days = credit crisis transmission confirmed.
+VX-BND-11	CCC OAS	🟠	3	>900bps	>1200bps	969-977bps (Mar 9-24). 23bps from 1000 threshold.	2026-03-26	From LIQUID VX-LIQUID-6.07. CCC = canary for HY. Lower-quality deteriorates first, HY follows 1-5 days.
+VX-BND-12	Term Premium (ACM)	🟡	2	>1.00%	>1.50%	0.80% (Feb 5). SF Fed CR model 1.22%. Historical avg 2.16%.	2026-03-26	From LIQUID VX-LIQUID-7.04. Rising = FOI subsidy evaporating. FOI share dropped from 50% (2015) to ~30%.
+VX-BND-13	FOI Demand Hole	🔴	4	>$300B/yr	>$400B/yr	$50-90B/month (ZHAO upgrade Mar 12). 4 anchors: Japan+China+Korea+Gulf.	2026-03-26	From LIQUID VX-LIQUID-7.05. Annual hole larger than modeled. Must be absorbed by leveraged buyers at higher term premium.

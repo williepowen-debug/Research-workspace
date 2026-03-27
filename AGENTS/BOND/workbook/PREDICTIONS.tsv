@@ -1,0 +1,5 @@
+ID	Date_Made	Prediction	Confidence	Timeframe	Resolution_Criteria	Status	Date_Resolved	Outcome	Notes
+BND-01	2026-03-26	HY OAS reaches 350bps (issuance freeze threshold)	65%	May-Jul 2026	HY OAS closes above 350 for 2+ consecutive sessions	OPEN			Based on 2007 template: 320→350 in 1-3 months; current trajectory + pulled deals support
+BND-02	2026-03-26	HY issuance freeze accelerates — weekly volume drops below $3B for 2+ weeks	60%	Apr-Jun 2026	HY new issue volume <$3B/week for 2 consecutive weeks	OPEN			Janus Henderson scrapped deal is leading indicator; OAS widening makes new issuance uneconomic
+BND-03	2026-02-26	HY OAS velocity +50bps in 2 weeks triggers forced selling cascade	55%	Mar-Apr 2026	HY OAS moves +50bps within any 14-day window	OPEN			From LIQUID LIQ-02. Dual-trigger framework: level + velocity.
+BND-04	2026-02-26	CLO AAA widens >160bps SOFR+	50%	H1 2026	CLO AAA spread exceeds 160bps over SOFR	OPEN			From LIQUID LIQ-03. Best canary per LIQUID research.
