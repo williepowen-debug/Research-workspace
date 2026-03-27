@@ -22,6 +22,14 @@
 4. **Refresh stale VX rows** — 15+ rows last updated Jan 22. Pull current or mark [STALE].
 5. **Archive STATUS.md check-in blocks** to get under 150 lines.
 6. **Fill or defer 12 PENDING ABS baselines** (VX-CARL-ABS-01 through ABS-07, ABS-11, ABS-12, ABS-14).
+7. **STALE KB DATA PULLS** (past Stale_By date, need fresh data):
+   - KB-CARL-003: NAR existing home sales Feb/Mar 2026 (was Jan data, stale 3/15)
+   - KB-CARL-004: Redfin FL housing latest (was Dec 2025 data, stale 3/15)
+   - KB-CARL-005: Wright housing price declines update (was Feb data, stale 3/15)
+   - KB-CARL-006: Insider sell/buy ratio latest (was Jan data, stale 3/15)
+   - KB-CARL-026: Fannie/Freddie MF DQ Q1 if available (stale 4/15)
+   - KB-CARL-038: Metro inventory surge update (was Feb data, stale 4/15)
+8. **APPROACHING STALE** (next 2-3 weeks): KB-070, 072, 077, 075, 081 — reassess at next research session.
 
 ## URGENT
 - Claims print today (Mar 27) — potential narrative shock if shadow gap normalizes.
