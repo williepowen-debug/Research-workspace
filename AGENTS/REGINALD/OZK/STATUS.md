@@ -39,11 +39,35 @@
 | Downtown SD vacancy | **>90%** | KB-140 |
 | FL deposit wall | **30-50%** non-refundable pre-close | KB-125 |
 
+## KBRA Q4 2025 Compendium (Feb 12, 2026) — EXTERNAL VALIDATION
+
+**OZK appears on 4 "worst" lists in entire KBRA-rated universe:**
+- **#1 worst NCO increase** QoQ (+77bps, 0.41→1.18)
+- **#3 worst NPA increase** QoQ (+55bps, 0.69→1.24)
+- **#2 highest deposit costs** (3.06%)
+- **#10 highest LLR** (1.47%)
+
+**ALL ratings: Negative outlook** (Deposit A-, Senior Unsecured A-, Sub BBB+, Pref BBB)
+
+KBRA highlights: $72M single office charge-off. RESG declining $1.4B/qtr, projected <50% by early 2026. 40% variable rate loans at floors. Management claims "late stages of CRE downturn." CIB backfilling at $0.8B/qtr.
+
+**KBRA Credit Constraints:** High C&D concentration, elevated reliance on volatile funding, spread-derived revenues with limited fee income.
+
+**vs peer comparison (KBRA 4Q25):**
+| | OZK | WAL | ZION | Sector Median |
+|--|-----|-----|------|---------------|
+| NCO | **1.18** | 0.31 | 0.05 | 0.17 |
+| NPA | **1.24** | 1.08 | 0.52 | 0.65 |
+| Dep Cost | **3.06%** | — | 1.56% | 1.93% |
+| Outlook | **Negative** | Stable | Stable | — |
+
+*Source: KBRA Q4 2025 US Bank Compendium, Feb 12, 2026. Full extract: `REGINALD/domain/research/capital-rewrite-2026/KBRA_COMPENDIUM_4Q25.md`*
+
 ## Catalyst Calendar
 | Date | Event | Status |
 |------|-------|--------|
 | **Mar 25** | Jefferies Q1 (WAL read-through) | ⚠️ NOT PULLED — 3x deferred |
-| **Apr 16** | **Q1 2026 Earnings** | 23 days — PRIMARY CATALYST |
+| **Apr 16** | **Q1 2026 Earnings** | 20 days — PRIMARY CATALYST |
 | ~Apr 20-21 | Peer earnings (ZION, WAL) | Sector read-through |
 | **~Aug 2028** | IQHQ RaDD maturity (extended from Aug 2026) | Outside put window — narrative catalyst only |
 
