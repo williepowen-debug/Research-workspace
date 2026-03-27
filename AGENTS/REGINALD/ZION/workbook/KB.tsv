@@ -1,0 +1,6 @@
+ID	Date	Group	Entity	Fact	Source	Conf	Epistemic	Status	Stale_By	DerivedFrom	Vectors	Notes
+KB-ZION-001	2026-03-27	FRAUD_CANTOR	Exposure	Stupin/Cantor exposure ~$60M via California Bank & Trust subsidiary	ZION Q3 2025 8-K	A1	EMPIRICAL	ACTIVE			→V2	
+KB-ZION-002	2026-03-27	FRAUD_CANTOR	ChargeOff	$50M charged off Q3 2025 (83% of exposure). Immediate recognition.	ZION Q3 2025 earnings	A1	EMPIRICAL	ACTIVE			→V2	
+KB-ZION-003	2026-03-27	FRAUD_CANTOR	Collateral	Collateral described as "irretrievably lost" — subordinated/transferred by fraud ring	ZION lawsuit filing	A1	EMPIRICAL	ACTIVE			→V2	
+KB-ZION-004	2026-03-27	FRAUD_CANTOR	Disclosure	Led disclosure Oct 15 2025 (WAL followed Oct 16). Named defendants.	ZION 8-K Oct 15 2025	A1	EMPIRICAL	ACTIVE			→V2	
+KB-ZION-005	2026-03-27	AUDITOR	EY	Auditor is Ernst & Young (Big 4). Benchmark for audit quality comparison vs WAL/RSM.	ZION 10-K	A1	EMPIRICAL	ACTIVE			→V5	

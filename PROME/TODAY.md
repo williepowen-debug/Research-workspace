@@ -1,13 +1,31 @@
-# TODAY.md — Thursday March 26, 2026
+# TODAY.md — Monday March 31, 2026
 
-**10:25 AM ET.** Scenario D dominant (82%). War Day 26. Account $52,626 (+66%). Brent ~$100. HY OAS 319. Gas $3.98. Cash $9,487 (18%).
+**CONVERGENCE DAY.** Scenario D dominant (85%). War Day 30. Account $55,689 (+111.5%). Brent $108-112. HY OAS ~319. Gas $4 BREACHED. Cash ~$12K (21.6%).
 
 ---
 
-## 🔴 Today — Thu Mar 26
+## 🔴🔴 AT OPEN — Mon Mar 31
 
-- [ ] **ARES earnings** — NOT YET SCHEDULED. Date TBD. Watch for: non-accruals, NAV, dividend coverage, redemption update (was 11.6%), software/healthcare marks. Route to BROCK when announced.
-- [ ] **USO $118C Mar 27 expires TOMORROW** — $1.88, -79%. Ride or cut?
+- [ ] **FXY Tranche 1 — BUY 4 shares at ~$24.00-24.50.** USD/JPY breached 160 Friday. MOF intervention imminent (Katayama warned at 159.5). If USD/JPY <158 at open = intervention fired, buy anyway (thesis playing out). If still 160+ = buy before the snap. Stop $22.50. Target $27-29. → SAM decision card approved.
+- [ ] **Check USD/JPY / MOF weekend intervention** — could gap FXY at open.
+
+## 🔴 Monday Mar 31 — Catalyst Convergence
+
+- [ ] **Japan FY-end close** — GPIF rebalancing, life insurer repatriation mechanical flows
+- [ ] **US Q1 close** — quarter-end window dressing, SOFR/repo stress (RRP at zero + 20Y settlement)
+- [ ] **USDA Planting Intentions** — acreage estimates, ag supply baseline
+- [ ] **Tricolor liquidation deadline** — $800M gap, recovery rates feed BROCK + REGINALD
+- [ ] **First Brands auction** — recovery data, WAL/Apollo exposure
+- [ ] **APR 1: Tankan survey** — if strong, BOJ April hike live (SAM)
+
+## 🔴 This Week
+
+- [ ] **OWL $9.5P Apr 2 — EXPIRES 4 DAYS.** ITM at $8.84 vs $9.50 strike. OBDCII status still unknown.
+- [ ] **APO Apr 17 roll decision** — hard stop Apr 7 (W-003). HOLD to Apr 7, stop $113.
+- [ ] **PCE** — did it drop Friday 3/28? Check result. HENRY catalyst.
+- [ ] **Iran pause extended to Apr 6** — HAWK has new deadline
+- [ ] **Near→long rebalance** — book 61/39 inverted, RED recommends 22/78
+- [ ] **KRE Jun→Dec roll** — tranche 1, rolling after quarter-end = worse fills
 - [ ] **Weekly initial claims** — FL Wave 1 exhaustion? Mullin normalization? See `LABOR/research/CLAIMS_FRAMEWORK_MAR27.md`
 - [ ] **Quarter-end SOFR watch** — daily per LIQUID. `LIQUID/research/QUARTER_END_PLAYBOOK_MAR31.md`
 - [ ] **ZHAO HIBOR-SOFR** — -205bps, 5bps from -200 trigger. Monitor.
