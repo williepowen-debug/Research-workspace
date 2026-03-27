@@ -1,32 +1,32 @@
 ID	Name	Current_Value	Status	Green	Yellow	Orange	Red	Last_Updated	Source	Notes
 VX-CARL-1.01	Credit Card 90+ DQ	12.70%	RED	<8%	10%	12%	13.74%	2026-02-10	NY Fed Q4 2025	92% of GFC peak (13.74%)
 VX-CARL-1.02	Credit Card Payment Rate	PENDING	PENDING	>22%	18-20%	15-18%	<15%	2026-02-11	ABS Framework	LEADING INDICATOR — track via ABS trustee reports
-VX-CARL-1.03	BNPL Late Rate	42%	YELLOW	<30%	40%	45%	50%	2026-01-22	Industry Reports	+7pp YoY; 61% subprime concentration
+VX-CARL-1.03	BNPL Late Rate	42%	YELLOW	<30%	40%	45%	50%	2026-03-27	LendingTree Feb 2026	Confirmed 42% (up from 34% in 2023, 39% in 2024). 24% made late payment per Fed. Gen Z 39%, Millennials 35%.
 VX-CARL-1.04	Subprime Auto 60+ DQ	7.1%	RED-BREACHED	<3%	5%	6%	7%	2026-03-04	Fitch ABS Feb 2026	⚠️ BREACHED. ALL-TIME RECORD. Prime 0.4% = 17.75x gap.
-VX-CARL-1.05	Deep Subprime Auto Acceleration	+40% YoY	ORANGE	<+15%	+30%	+40%	+50%	2026-01-22	Industry Data	Accelerating delinquency
-VX-CARL-1.06	Student Loan Conditional DQ	31%	ORANGE	<15%	25%	30%	35%	2026-01-22	Industry Data	Conditional on repayment
-VX-CARL-1.07	Gen Z Prime Contagion	23%	YELLOW	<15%	20%	25%	30%	2026-01-22	Industry Data	Structural breaking point
-VX-CARL-1.08	Medical Debt (Collections)	$88-140B	YELLOW	<$60B	$100B	$150B	$200B	2026-01-22	CFPB	Returning to credit reports
-VX-CARL-1.09	Auto Denial Rate	15.2%	YELLOW	<10%	15%	20%	25%	2026-01-22	Industry Data	Doubled from baseline
-VX-CARL-2.01	Rent Late Rate	11.7%	GREEN	<10%	12%	15%	18%	2026-01-22	Industry Reports	Below threshold
-VX-CARL-2.02	HOA Assessments (FL Condo)	$134K-$400K	YELLOW	<$100K	$150K	$200K	$250K	2026-01-22	News Reports	FL condo crisis; SIRS mandatory
-VX-CARL-2.03	Homeowners Insurance (High-risk)	50% YoY	YELLOW	<20%	40%	60%	80%	2026-01-22	Industry Data	CA/FL stress zones
-VX-CARL-2.04	Auto Insurance CPI	20-30% YoY	YELLOW	<10%	25%	35%	50%	2026-01-22	CPI Data	Regressive tax effect
-VX-CARL-2.05	Utility Arrears	$23B	ORANGE	<$15B	$20B	$25B	$30B	2026-01-22	Utility Reports	1-in-6 households behind; LIHEAP broken
-VX-CARL-2.06	Uninsured Rate (Medical)	~10%	YELLOW	<8%	12%	15%	20%	2026-01-22	Census/KFF	ACA cliff activated
-VX-CARL-3.01	Jobs Spread	8 pts	YELLOW	>15	5	0	<0	2026-01-22	JOLTS	Approaching inversion; JOLTS Jan due Mar 13
+VX-CARL-1.05	Deep Subprime Auto Acceleration	+40% YoY	ORANGE	<+15%	+30%	+40%	+50%	2026-03-27	Industry Data	DEFERRED — needs Fitch/S&P ABS reports. Bundle with Segment E ABS pull. Subprime 60+ at 7.1% ATR (VX-CARL-1.04) confirms direction.
+VX-CARL-1.06	Student Loan Conditional DQ	31%	ORANGE	<15%	25%	30%	35%	2026-03-27	Industry Data	DEFERRED — needs Fed or servicer data. SAVE plan still enjoined. 30+ DQ at 16.3% worst ever (VX-CARL-SL-01) confirms direction.
+VX-CARL-1.07	Gen Z Prime Contagion	23%	YELLOW	<15%	20%	25%	30%	2026-03-27	Industry Data	DEFERRED — needs TransUnion/Equifax generational breakdowns. Dollar Tree data (60% new HH >$100K) confirms top-40% stress spreading.
+VX-CARL-1.08	Medical Debt (Collections)	$88-140B	YELLOW	<$60B	$100B	$150B	$200B	2026-03-27	CFPB / Court ruling Jul 2025	CFPB rule to remove medical debt from credit reports VACATED (E.D. Tex. Jul 2025). Debt stays on reports. 9 states passed own bans (2025-2026). 43M credit reports affected. Dollar amount unchanged but policy environment worsened.
+VX-CARL-1.09	Auto Denial Rate	15.2%	YELLOW	<10%	15%	20%	25%	2026-03-27	NY Fed SCE Oct 2025	No newer data found. 15.2% in Oct (doubled from 6.7% June). Subprime DQ 15.78% 30+ as of Sep. TransUnion projects 60+ DQ leveling at 1.54% by EOY 2026. Prime/near-prime now also showing strain.
+VX-CARL-2.01	Rent Late Rate	11.7%	GREEN	<10%	12%	15%	18%	2026-03-27	Industry Reports	No fresh 2026 data; NMHC tracker inactive post-COVID. Value retained. SLOW CADENCE — next check Q2 earnings (MAA, EQR, AVB).
+VX-CARL-2.02	HOA Assessments (FL Condo)	$10K-$100K+ (common)	YELLOW	<$100K	$150K	$200K	$250K	2026-03-27	FL DBPR / SIRS Jan 2026	SIRS full-funding mandatory Jan 1 2026 (no more waiving). $25K threshold (up from $10K). HB 913 extends some deadlines. Special assessments $10K-$100K+ now widespread.
+VX-CARL-2.03	Homeowners Insurance (High-risk)	FL +18%, Nat'l +8.5% YoY	GREEN	<20%	40%	60%	80%	2026-03-27	Insurify/Bankrate 2025 data	COUNTER-SIGNAL: Decelerating from 50% YoY. FL avg $8,292 (+18%). National new-policy avg $1,950 (+8.5%). Citizens FL cutting rates -8.7%. CA State Farm +17% post-fires. Double-digit era ending nationally.
+VX-CARL-2.04	Auto Insurance CPI	5.9% YoY	GREEN	<10%	25%	35%	50%	2026-03-27	BLS CPI Feb 2026 (rel. Mar 12)	COUNTER-SIGNAL: Dropped from 20-30% to 5.9% YoY. MoM -0.3%. Major cooling. One less cost-squeeze vector for bottom 60%.
+VX-CARL-2.05	Utility Arrears	~$25B	ORANGE	<$15B	$20B	$25B	$30B	2026-03-27	NEADA Feb 2026	21.5M HH behind (1-in-6). Up from $20.4B Dec 2024. Avg elec bill $156/mo (+29% since 2021). Heating +11% this winter. LIHEAP cut to $4.05B (from $6.1B 2023). Only 17% eligible HH receive aid. Approaching RED.
+VX-CARL-2.06	Uninsured Rate (Medical)	~10%	YELLOW	<8%	12%	15%	20%	2026-03-27	Census/KFF	SLOW CADENCE — Census annual (Sep release). KFF periodic. ACA cliff + Medicaid unwinding may push higher. Next hard data ~Sep 2026.
+VX-CARL-3.01	Jobs Spread	-4 pts (INVERTED)	RED	>15	5	0	<0	2026-03-27	JOLTS Jan 2026 (rel. Mar 13)	INVERTED: 6.946M openings vs 7.368M unemployed = 0.94 ratio. First time below 1.0. Spread was +8 in Jan, now -4.
 VX-CARL-3.02	Long-term Unemployed	1.9M	YELLOW	<1.2M	2M	2.5M	3M	2026-03-06	BLS Feb 2026 NFP	+400K YoY; NFP -92K confirms pipeline deepening; "Hotel California"
 VX-CARL-3.03	Govt Workforce Drop	172K	ORANGE	<50K	100K	150K	200K	2026-03-06	BLS Feb 2026 NFP	Federal -10K in Feb NFP. DOGE cuts now IN BLS DATA — confirmed, not anecdotal. DOGE + LIHEAP eliminated.
-VX-CARL-3.04	Savings Rate	~4.5%	YELLOW	>6%	4%	3%	<3%	2026-01-22	BEA	Buffer thinning
-VX-CARL-4.01	Hardship 401k Withdrawals	4.8%	ORANGE	<3%	4.5%	5%	5.5%	2026-01-22	Vanguard	ATH — buffer exhaustion
-VX-CARL-4.02	Gambling Losses	$264B	GREEN	<$200B	$275B	$300B	$350B	2026-01-22	Industry Data	Elevated but stable
-VX-CARL-4.03	Trade-down Migration	2.6M >$100K	ORANGE	<1M	2M	2.5M	3M	2026-01-22	Dollar Tree	High-income downshifting
-VX-CARL-5.01	Liquidity Fragility ($400 test)	37%	YELLOW	<25%	40%	45%	50%	2026-01-24	Fed SHED 2023	One-incident-away population
-VX-CARL-5.02	Care Deferral Rate	28-38%	YELLOW	<20%	35%	40%	50%	2026-01-24	NHIS/Gallup	Deferred care due to cost
-VX-CARL-5.03	Underinsurance Rate (Medical)	23%	YELLOW	<15%	25%	30%	35%	2026-01-24	Commonwealth Fund 2024	23% threshold
-VX-CARL-5.04	Paycheck-to-Paycheck	62%	ORANGE	<45%	65%	70%	75%	2026-01-24	LendingClub	Structural fragility
-VX-CARL-5.05	Hardship Withdrawal Trend	+33% YoY	YELLOW	<+10%	+25%	+35%	+50%	2026-01-24	Industry Data	Doubled since 2018
-VX-CARL-5.06	CA Insurance Retreat	450K+	ORANGE	<200K	400K	500K	600K	2026-01-24	CA FAIR Plan	FAIR Plan policies accelerating
+VX-CARL-3.04	Savings Rate	4.5%	YELLOW	>6%	4%	3%	<3%	2026-03-27	BEA Jan 2026 (rel. Feb 20)	Confirmed 4.5% Jan. Up from 3.6% Dec (2008 match). Feb data due Apr 9. Tax-driven bounce likely temporary.
+VX-CARL-4.01	Hardship 401k Withdrawals	4.8%	ORANGE	<3%	4.5%	5%	5.5%	2026-03-27	Vanguard 2024	SLOW CADENCE — Vanguard "How America Saves" annual. 4.8% was ATH. Next report likely mid-2026. Watch for Fidelity quarterly updates.
+VX-CARL-4.02	Gambling Losses	$264B	GREEN	<$200B	$275B	$300B	$350B	2026-03-27	AGA 2024 data	SLOW CADENCE — AGA annual. 2025 data due ~spring 2026. $264B is 2024. Elevated but stable.
+VX-CARL-4.03	Trade-down Migration	6.5M new HH Q4 (60% >$100K)	RED	<1M	2M	2.5M	3M	2026-03-27	Dollar Tree Q4 FY2026 (Mar 16)	UPGRADED: 6.5M net new HH in Q4 → record 102M total. 60% of new growth from >$100K. Comp +5.0%. CEO: "higher income households increasingly trade down." K-shape converging = both cohorts stressed.
+VX-CARL-5.01	Liquidity Fragility ($400 test)	37%	YELLOW	<25%	40%	45%	50%	2026-03-27	Fed SHED 2023	SLOW CADENCE — annual survey. 2024 SHED released ~May 2025, next ~May 2026. Value is structural baseline. 37% can't cover $400 emergency.
+VX-CARL-5.02	Care Deferral Rate	28-38%	YELLOW	<20%	35%	40%	50%	2026-03-27	NHIS/Gallup	SLOW CADENCE — NHIS annual, Gallup periodic. Next update likely mid-2026. ACA cliff + LIHEAP cuts may worsen.
+VX-CARL-5.03	Underinsurance Rate (Medical)	23%	YELLOW	<15%	25%	30%	35%	2026-03-27	Commonwealth Fund 2024	SLOW CADENCE — biennial survey. 2024 report is latest. Next ~2026. Value stable at 23%.
+VX-CARL-5.04	Paycheck-to-Paycheck	62%	ORANGE	<45%	65%	70%	75%	2026-03-27	LendingClub/PYMNTS 2025	Confirmed 62%. 44% of >$100K earners also P2P. 60% of employed adults per latest survey. Structural, not cyclical.
+VX-CARL-5.05	Hardship Withdrawal Trend	+33% YoY	YELLOW	<+10%	+25%	+35%	+50%	2026-03-27	Fidelity/Vanguard 2024	SLOW CADENCE — tied to 401k annual reports. +33% YoY, doubled since 2018. Next update mid-2026.
+VX-CARL-5.06	CA Insurance Retreat	668,000	RED	<200K	400K	500K	600K	2026-03-27	CA FAIR Plan Jan 2026	UPGRADED: 668K policies (+43% since Sep 2024), $724B exposure. +276% since 2018. 14% of policies in low-fire-risk urban zones = broad retreat, not just wildfire. Breached 600K RED threshold.
 VX-CARL-6.01	CC 90+ DQ (NY Fed)	12.70%	CONSOLIDATED	<8%	10%	12%	13.74%	2026-03-27	NY Fed Q4 2025	CONSOLIDATED into VX-CARL-1.01. Duplicate removed.
 VX-CARL-6.02	Auto 90+ DQ	5.21%	RED	<3.5%	4%	5%	5.27%	2026-02-10	NY Fed Q4 2025	At historical max
 VX-CARL-6.03	Total Household Debt	$18.78T	ORANGE	<$16T	$18T	$19T	$20T	2026-02-10	NY Fed Q4 2025	Record high (+$4.6T since 2019)
