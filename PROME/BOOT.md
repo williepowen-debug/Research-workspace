@@ -58,8 +58,8 @@ Named for Arturo Toscanini. Prome's decision interface with Will. **This is how 
 | ID | Domain | ID | Domain |
 |----|--------|----|--------|
 | labor | Employment/claims | henry | Market structure/econ data |
-| carl | Consumer credit | liquid | Funding/Treasury |
-| reginald | Regional banks | sam | Japan/BOJ/JGB |
+| ~~carl~~ | ~~Consumer credit~~ 🖥️ **Claude Code — DO NOT SPAWN** | liquid | Funding/Treasury |
+| ~~reginald~~ | ~~Regional banks~~ 🖥️ **Claude Code — DO NOT SPAWN** | sam | Japan/BOJ/JGB |
 | brock | BDC/private credit | zhao | China/capital flows |
 | nexus | Cross-agent synthesis | hans | Europe (US lens) |
 | hawk | Geopolitical/military | brent | Oil/energy markets |

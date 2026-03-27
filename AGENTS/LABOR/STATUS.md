@@ -1,5 +1,19 @@
 # LABOR STATUS
-**Last Updated:** 2026-03-26 02:34 UTC | **Status:** 🔴🔴 CRITICAL — ICE CONSTRUCTION RAIDS CONFIRMED SECTOR COLLAPSE (TX/AZ/FL). DURATION 25.7WK = 4-YR HIGH. FL UI WAVE 1 FIRED MAR 24. SHUTDOWN DAY 41. CLAIMS THU MAR 27. NFP APR 3. CONVERGENCE 55/65.
+**Last Updated:** 2026-03-27 20:16 UTC | **Status:** 🔴🔴 CRITICAL — CLAIMS 210K SUPPRESSION INTACT. CONTINUING CLAIMS 1.819M = 2-YR LOW (COUNTER-SIGNAL). DOGE 260K+ CONFIRMED EXITS 2025. FL WAVE 1 ACTIVE. SHUTDOWN DAY 42. NFP APR 3. CONVERGENCE 54/65.
+
+**Signal Mar 27 — EOD (20:16 UTC):**
+
+**🟢 CLAIMS 210K — SUPPRESSION STILL FULLY INTACT:** Initial claims +5K to 210K (wk ending Mar 21), in line with consensus. Per our framework, this is "<210K-225K" band = Mullin has NOT acted on suppression lift yet. No position triggers. Shadow adjustment +55K maintained → true estimate ~265K.
+
+**🟢⚠️ CONTINUING CLAIMS 1.819M — 2-YEAR LOW (COUNTER-SIGNAL):** Fell 32K to 1.819M (wk ending Mar 14), lowest since May 2024. Moved AWAY from 1.9M YELLOW threshold. Surface read: people cycling off benefits = finding jobs OR exhausting benefits. With duration at 25.7wks, exhaustion is the more likely driver. FL Wave 1 (fired Mar 24) hasn't hit the data yet — that's wk ending Mar 28 at earliest.
+
+**🔴 DOGE CONFIRMED: 260K+ LEFT FEDERAL SERVICE IN 2025:** OMB data cited in retrospective coverage (AP/OC Register). Includes RIF, early retirement, deferred resignations, hiring freeze. Previous tracking had 327K — OMB confirms at least 260K realized. Difference likely timing (some cuts landed early 2026).
+
+**🟠 FISERV 118 LAYOFFS (NJ):** Financial services tech. Minor but adds to fintech layoff pattern.
+
+**🟠 HIGHER ED STRESS:** Portland State considering program cuts/layoffs. Southern Oregon warned of insolvency. Education sector entering layoff cycle.
+
+**📊 TECH LAYOFFS YTD:** 102 events / 51,686 workers in 2026 (SkillSyncer tracker as of Mar 27).
 
 **Signal Mar 26 — Inbox processed (02:34 UTC):**
 
@@ -21,6 +35,8 @@ Mullin confirmed DHS (54-45). Politico: latest proposal fell flat — Dems, cons
 **Signal Mar 25 — AM:**
 FL UI Wave 1 FIRED Mar 24. Primorsk + Ust-Luga offline (Russia Baltic). Apollo gated. Gas $4 imminent. Shutdown Day 41.
 
+**Key outcomes Mar 24-27:** Claims 210K (+5K, in line). CC 1.819M (-32K, 2-yr low). DOGE 260K+ exits confirmed (OMB). Fiserv 118 layoffs. Tech YTD 102 events / 51,686. Higher ed stress (Portland State, Southern Oregon). Meta layoffs reverberating.
+
 **Key outcomes Mar 17-23:** Shutdown deal collapse (Trump SAVE Act). ICE at 12+ airports. ADP Pulse 9K/wk (-42%). Powell "zero employment growth equilibrium." Claims 205K (suppressed). Shunto 5.26%. Meta 15-16K pipeline. WARN 413K in 2025 (+20% YoY).
 
 ## ⚡ CORE TENSION — DO NOT FORCE COHERENCE
@@ -39,7 +55,7 @@ FL UI Wave 1 FIRED Mar 24. Primorsk + Ust-Luga offline (Russia Baltic). Apollo g
 |---|--------|-------|------------|
 | 1 | WARN pipeline | **5** 🔴🔴 | 766/91,190. YTD 5th-highest since 2009. |
 | 2 | DOGE / federal | **5** 🔴🔴 | 327K cuts. Schedule Policy effective. |
-| 3 | Claims / shadow gap | **4** 🔴 | 213K suppressed (DHS). |
+| 3 | Claims / shadow gap | **3** 🟠 ↓ | 210K suppressed. CC 1.819M = 2-yr low. Mullin inactive. |
 | 4 | Hormuz hiring freeze | **4** 🔴 | Closed Mar 3. Structural uncertainty. |
 | 5 | Sector cuts | **5** 🔴🔴 ↑ | Meta 15K executing Mar 25. Hiring plans -56% YoY. |
 | 6 | Long-term unemployed | **5** 🔴🔴 ↑ | 1.9M (+400K YoY). Avg 25.7wk (4-yr high). |
@@ -52,7 +68,7 @@ FL UI Wave 1 FIRED Mar 24. Primorsk + Ust-Luga offline (Russia Baltic). Apollo g
 | 13 | ICE enforcement | **5** 🔴🔴 ↑ | >1,100/day. 57 Concrete bankruptcy. 60% vol drop TX. No-warrant raids. NYC fear effects. |
 | 14 | Unemployment duration | **5** 🔴🔴 | 25.7wks avg (+2.0wks MoM, 4-yr high). +6.3wks since Oct'23 = fastest since 2020-21. |
 
-**Total: 55/65** | 🔴🔴: 7 | 🔴: 4 | 🟠: 1 | 🟡: 1
+**Total: 54/65** | 🔴🔴: 7 | 🔴: 3 | 🟠: 2 | 🟡: 1
 
 ---
 
@@ -64,15 +80,15 @@ FL UI Wave 1 FIRED Mar 24. Primorsk + Ust-Luga offline (Russia Baltic). Apollo g
 | U-3 | **4.4%** ↑ | 🔴 |
 | Long-term Unemployed | **1.9M** (+400K YoY) | 🔴 |
 | Avg Duration | **25.7 wks** (4-yr high) | 🔴🔴 |
-| Initial Claims | **205K** (DHS-suppressed +55K) | 🟢⚠️ |
-| Continuing Claims | **1.857M** (32K from YELLOW) | 🟠 |
+| Initial Claims | **210K** (DHS-suppressed +55K) | 🟢⚠️ |
+| Continuing Claims | **1.819M** (-32K, 2-yr low) | 🟢⚠️ |
 | JOLTS Quits | **2.0%** x7 months | 🔴 |
 | ADP Pulse | **9K/wk** (-42%) | 🔴 |
 | Prime-Age Participation | **83.9%** ↓ | 🔴 |
 | Temp Employment YoY | **-12%** | 🔴 |
 | DOGE/WARN | 327K fed + 766/91,190 WARN | 🔴 |
 | GDP Q4 2025 | **+0.7%** (from +1.4%) | 🔴 |
-| Shutdown | **Day 41** | 🔴🔴 |
+| Shutdown | **Day 42** | 🔴🔴 |
 | Hormuz | **CLOSED Mar 3** | 🔴 |
 | Mullin DHS | **CONFIRMED 54-45** | 🔴 |
 | H-2A Backlog | July — "disastrous" | 🔴 |

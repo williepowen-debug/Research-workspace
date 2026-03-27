@@ -1,6 +1,6 @@
 # MEMORY — Key Insights & Lessons
 
-**Last Updated:** 2026-03-26 23:30 UTC
+**Last Updated:** 2026-03-27 20:50 UTC
 
 **Positions → `PROME/POSITIONS.md`** | **Agent roster → `AGENTS_DIRECTORY.md`** | **Background → `WILL/BACKGROUND.md`**
 
@@ -37,6 +37,7 @@
 
 ## SYSTEM ARCHITECTURE
 
+- **Multi-runtime (Mar 27).** CARL and REGINALD now run independently via Claude Code on Telegram, siloed to their own domain folders. Prome does NOT spawn them — communicate via inbox files only. Read before editing their files (race condition risk). All other agents still spawned by Prome via OpenClaw.
 - **Inbox siloed from spawn.** Separate spawn for inbox processing vs normal tasks.
 - **Reply rule:** Only reply to signals if (a) new info, (b) error correction, (c) threshold trigger.
 - **Inbox = flat folder at agent root.** `inbox/` and `outbox/` (migrated from `mail/inbox` Mar 23). Processed → `inbox/processed/`, delivered → `outbox/delivered/`.

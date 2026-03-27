@@ -1,6 +1,6 @@
 # SAM STATUS
 
-**Signal Status:** 🔴🔴🔴 CRITICAL — **DIMONA STRIKE + NUCLEAR ESCALATION + SK REFINER RUN CUTS ACTIVE NOW** | USD/JPY **~159.26** | JGB 10Y **2.25%** | Nikkei **53,750** | Shunto **5.26%** confirmed | BOJ May 1 most probable hike | CARRY UNWIND 7D: **78%** | FY-END T-5 DAYS | **Last Updated:** 2026-03-26 04:03 UTC (SAM subagent — SK clock update)
+**Signal Status:** 🔴🔴🔴 CRITICAL — **JGB SELLOFF ACCELERATING + BOJ NEW INFLATION GAUGE HAWKISH** | USD/JPY **~159.49** | JGB 10Y **2.380%** (+13bps, approaching 2.40% stress threshold) | 5Y JGB **RECORD HIGH** 1.820% | 2Y **highest since 1995** | Shunto R2 not yet released | BOJ hike by June = ex-economist base case | CARRY UNWIND 7D: **80%** | FY-END T-2 DAYS (Mon Mar 31) | **Last Updated:** 2026-03-27 20:16 UTC (SAM EOD)
 
 ---
 
@@ -60,39 +60,47 @@
 - Second-round tally Mar 27 (watch for higher revision)
 - BOJ April hike data-dependent (Tankan Apr 1). **May 1 remains most probable.**
 
-### CARRY UNWIND PROBABILITY REVISION — MAR 26
+### CARRY UNWIND PROBABILITY REVISION — MAR 27
 
-| Timeframe | Mar 25 | Mar 26 | Driver |
+| Timeframe | Mar 26 | Mar 27 | Driver |
 |-----------|--------|--------|--------|
-| **7d** | 75% | **78%** | Dimona nuclear escalation overrides ceasefire optionality; risk-off JPY bid |
-| **30d** | 92% | **93%** | SK run cuts April = Japan product shortage = CPI pressure; BOJ May 1 on track |
-| **60d** | 94% | **95%** | Dimona→Fordow sequence = extended disruption; Fed cut risk adds independent JPY catalyst |
+| **7d** | 78% | **80%** | JGB selloff = market pricing faster BOJ hike; 2Y biggest weekly move since 2008; FY-end Mon |
+| **30d** | 93% | **94%** | BOJ new inflation gauge + Kameda "by June" = hike certainty rising; Tankan Apr 1 |
+| **60d** | 95% | **96%** | Bear steepening = terminal rate expectations rising; life insurer exit from super-longs = structural |
 
 ---
 
-## MARKET DATA — MAR 25 CLOSE
+## MARKET DATA — MAR 27 CLOSE
 
-| Metric | Value | Change | Status |
+| Metric | Value | Change (from Mar 25) | Status |
 |--------|-------|--------|--------|
-| Nikkei 225 | **53,750** | +2.87% | 🟢 Above GPIF 52k trigger |
-| Topix | **3,651** | +2.57% | 🟢 |
-| JGB 10Y | **2.25%** | -6.5bps relief | 🟠 Structural trend intact |
-| USD/JPY | **~159.26** | Roughly flat | 🔴 63 pips from 160 |
-| Oil | Declining on ceasefire hopes | BUT Dimona reverses this | 🔴 |
+| JGB 2Y | **1.380%** | +4.5bps (highest since May 1995) | 🔴 |
+| JGB 5Y | **1.820%** | +8.0bps (**ALL-TIME RECORD**) | 🔴🔴 |
+| JGB 10Y | **2.380%** | +13bps (two-month high) | 🔴 **20bps FROM 2.40% STRESS THRESHOLD** |
+| JGB 20Y | **3.275%** | +15.5bps (highest since Jan) | 🔴 |
+| JGB 30Y | **3.710%** | +19bps | 🔴 |
+| JGB 40Y | **3.915%** | +21bps | 🔴 |
+| USD/JPY | **~159.49** | +23 pips weaker | 🔴 51 pips from 160 |
 
-**Relief session caveat:** Ceasefire relief was based on Iran negotiations narrative — **Tehran denied negotiations AND Dimona strike occurred.** Oil relief = temporary. Structural thesis intact.
+**Bear steepening in full force.** Super-long end getting crushed — life insurers and traditional buyers pulling back. SMBC Nikko: "BOJ wanted to send message it's ready to raise rates regardless of market condition." AXA: "Market may revise up terminal rate expectations — explains why Japan curve bear-steepens unlike US/Europe."
 
 ---
 
-## BOJ ASSESSMENT — MAR 26
+## BOJ ASSESSMENT — MAR 27
+
+**New BOJ inflation gauge (Mar 26):** Core CPI excluding special factors = **+2.2% in February**. First-ever release of this indicator. Analysts: BOJ deliberately signaling underlying inflation above target = staging ground for hike.
+
+**Output gap:** Demand exceeded supply for **15th straight quarter** — strongest case for persistent inflation.
+
+**Ex-BOJ chief economist Kameda (Mar 26):** "BOJ likely to raise rates by June" — Iran war oil costs heighten risk of being too late on inflation. This is the most hawkish ex-official statement yet.
+
+**Cabinet Office March report:** 10% crude oil increase → +0.3pp CPI over ~1 year. With oil up far more than 10%, this is an understatement.
 
 **Ueda language shift (Mar 23):** "Even if economy comes under downward pressure, if downward pressure would be temporary and will not affect underlying inflation, it would be possible to raise interest rates."
-- REMOVES prior growth-precondition for hiking
-- **April hike NOT dead** despite oil complications
-- May 1 = most probable; April 23-24 = possible if oil shock deemed "temporary"
-- New underlying inflation indicator + updated neutral rate disclosure planned by summer
 
-**Rate differential compression:** JGB 10Y 2.25% (pulled back from 2.315% high, structural trend +10bps/month)
+**Hike timeline:** April 23-24 = live. **May 1 = base case.** June = backstop per Kameda. Market pricing in aggressive path — 5-day 2Y move largest since Oct 2008.
+
+**Rate differential compression:** JGB 10Y 2.380% — up 13bps on the day, structural trend now +15bps/month accelerating
 
 ---
 
@@ -127,11 +135,11 @@
 
 | Level | Significance | Status |
 |-------|-------------|--------|
-| **USD/JPY 160.00** | MOF intervention trigger | 🔴 63 PIPS AWAY |
+| **USD/JPY 160.00** | MOF intervention trigger | 🔴 **51 PIPS AWAY** |
 | **USD/JPY 157.00** | Hawkish confirmation | PASSED |
 | **USD/JPY 155.00** | Phase 2 carry unwind onset | SET |
 | **USD/JPY 145.00** | Carry unwind (HANS Fed cut path) | NEW THRESHOLD |
-| **JGB 10Y 2.40%** | Stress crossover signal | 🟠 WATCH (2.25%) |
+| **JGB 10Y 2.40%** | Stress crossover signal | 🔴 **2bps AWAY (2.380%)** |
 | **Nikkei 52,000** | GPIF trigger | 🟢 UN-BREACHED (53,750) |
 | **Brent $120** | Kharg Island scenario (Dimona path) | 🔴 WATCH |
 | **Shunto 6.0%** | BOJ emergency threshold | Not hit (5.26%) |
@@ -142,8 +150,8 @@
 
 | Date | Event | Status |
 |------|-------|--------|
-| **Mar 27** | Shunto second-round tally | 🔴 IMMINENT |
-| **Mar 31** | FY2025 end — repatriation window closes | 🔴 T-5 |
+| **Mar 27** | Shunto second-round tally | 🟠 NOT YET RELEASED (may be delayed) |
+| **Mar 31** | FY2025 end — repatriation window closes | 🔴 T-2 (MONDAY) |
 | **Early Apr** | SK refiner run cuts expected | 🔴 INCOMING |
 | **Apr 1** | Tankan survey — BOJ data input | 🔴 |
 | **Apr 15** | Feb TIC data release (Japan UST flows) | 🟠 |

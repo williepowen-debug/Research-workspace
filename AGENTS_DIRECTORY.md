@@ -1,6 +1,20 @@
 # AGENTS DIRECTORY
 
-*Quick reference. Updated: 2026-03-02*
+*Quick reference. Updated: 2026-03-27*
+
+## Runtime Architecture
+
+| Runtime | Agent(s) | Interface | Notes |
+|---------|----------|-----------|-------|
+| **OpenClaw (VPS)** | Prome + all spawn-based agents | Telegram | Orchestrator. Spawns sub-agents. Full workspace access. |
+| **Claude Code** | REGINALD, CARL | Telegram | Independent sessions. Siloed to own domain folders. Push to shared repo. |
+
+**Key rules for multi-runtime:**
+- Prome does NOT spawn REGINALD or CARL as sub-agents. They run independently.
+- Communication is via **inbox files** in the repo (`AGENTS/{NAME}/inbox/`), not session tools.
+- Prome must **read before editing** any REGINALD/CARL file — they may be writing at any time.
+- Their completions won't come through sub-agent channels. Check their files directly.
+- **They are fully siloed** — can only see their own CLAUDE.md + domain folder. Cannot read HEARTBEAT.md, MEMORY.md, other agents' files, or cross-references. **Inbox signals must be self-contained** with all relevant context inline. No "see BRENT/research/..." links.
 
 ## Signal Flow
 Sub-agents own detail → distill upward to parents → lateral only when transmission matters. Don't dump raw signals to parents.
@@ -10,8 +24,8 @@ Sub-agents own detail → distill upward to parents → lateral only when transm
 | Agent | Domain | Status | Key |
 |-------|--------|--------|-----|
 | **LABOR** | Employment | 🟡 | Claims, NFP, JOLTS, DOGE cuts. Danger: Q2-Q3 2026 |
-| **CARL** | Consumer credit | 🟡 | DQ, subprime auto, phantom debt. Lags LABOR 3-6mo. Subs: POLLY, POP, GIG, DOC, NICK |
-| **REGINALD** | Regional banks | 🟡 | CRE, bank watchlist, FHLB. Subs: CREED (CRE), CORAL (FL condos) 🟠 |
+| **CARL** 🖥️ | Consumer credit | 🟡 | DQ, subprime auto, phantom debt. Lags LABOR 3-6mo. Subs: POLLY, POP, GIG, DOC, NICK. **Claude Code — independent, siloed.** |
+| **REGINALD** 🖥️ | Regional banks | 🟡 | CRE, bank watchlist, FHLB. Subs: CREED (CRE), CORAL (FL condos) 🟠. **Claude Code — independent, siloed.** |
 | **BROCK** | BDC / private credit | 🟠 | PIK, gates, NAV, Athene/Apollo, software marks. Lateral peer to REGINALD — signals bank-PC transmission |
 
 ## Market Structure

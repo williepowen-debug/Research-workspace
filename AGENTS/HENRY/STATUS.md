@@ -1,21 +1,37 @@
 # HENRY STATUS
-**Last Updated:** 2026-03-26 01:15 UTC | **War Day 27 — PCE PREP + 9-SIGNAL INBOX INTEGRATION**
-**Status:** 🔴🔴 FED TRAP CRYSTALLIZING. PCE prints Fri Mar 28 (same day as Iran strike clock T-0). Claims Thu Mar 27. ULC 4.4% + gas +$1.01/mo + consumer spending contraction = stagflation signature forming. Account -4.9% — thesis intact, short-term pain from diplomatic pumps.
+**Last Updated:** 2026-03-27 20:15 UTC | **War Day 28 — PCE DAY CARNAGE + IRAN DEADLINE EXTENSION**
+**Status:** 🔴🔴🔴 FED TRAP CONFIRMED. Core PCE +0.4% MoM (hot). SPX -1.67% to 6,369. VIX 31.46 (+14.65%). Dow entered correction. Nasdaq >10% off highs. Consumer sentiment collapsed to 53.3. Gold $4,551. Oil $99.55. 5th straight losing week for SPX. Quarter-end Monday.
 
 ---
 
-## MAR 25-26 KEY LEVELS
+## MAR 27 CLOSE — KEY LEVELS
 
-| Asset | Level | Signal |
-|-------|-------|--------|
-| SPX | ~6,610 | 🟡 Diplomatic rally. Resistance 6,620. Support 6,550. |
-| VIX | ~24-25 | 🔴 Mechanically compressed by diplomatic headlines. True risk = 30+. |
-| 10Y | 4.326% | 🟢 Fell 6.6bps despite equity rally = divergence. Bond bid is real. |
-| Brent | $102.22 | 🟡 Intraday $97.57 → recovered. Oil whipsaw continues. |
-| Gold | $4,547 | 🔴🔴 +3.3% on green equity day = macro hedge demand. THE TELL. |
-| Gas | $3.983/gal | 🔴 +$1.01/gal in ONE month (+34%). $4 breakpoint effectively T-0. |
-| HY OAS | 328bps | 🔴 Credit channel transmission confirmed (HANS). |
-| Core PCE | 2.7% YoY | 🔴 Already confirmed. Fed trapped. |
+| Asset | Level | Δ Today | Signal |
+|-------|-------|---------|--------|
+| SPX | 6,368.85 | -108.31 (-1.67%) | 🔴🔴 5th straight losing week. Down ~6.2% from ATH. |
+| Nasdaq | 20,948.36 | -459.72 (-2.15%) | 🔴🔴 Correction territory (>10% off highs). |
+| Dow | 45,166.64 | -793.47 (-1.73%) | 🔴🔴 **Entered correction.** |
+| Russell 2000 | 2,446.62 | -1.87% | 🔴🔴 Small caps hit hardest. |
+| VIX | 31.46 | +14.65% | 🔴🔴 **Above 30 regime change level. Confirmed.** |
+| 10Y | ~4.30% | — | 🟡 Bond bid real but 30Y at 4.982% = long-end stress. |
+| 30Y | 4.982% | Rising | 🔴 Supply wall + inflation = long-end repricing. |
+| Brent/WTI | $99.55 | +5.37% | 🔴🔴 War premium. Strait of Hormuz effectively closed. |
+| Gold | $4,550.70 | +3.21% | 🔴🔴 Flight to safety. New highs. |
+| Gas | ~$3.98-4.00+ | — | 🔴 $4 behavioral breakpoint breached or at threshold. |
+
+---
+
+## PCE DATA — RELEASED TODAY (Feb data)
+
+| Metric | Result | Prior | Signal |
+|--------|--------|-------|--------|
+| Headline PCE MoM | +0.3% | +0.3% | 🟡 In-line |
+| **Core PCE MoM** | **+0.4%** | +0.3% | 🔴🔴 **HOT. Acceleration.** |
+| Core PCE YoY | ~2.7-3.0% | 2.7% | 🔴 Sticky at or above prior. Fed trapped. |
+| UMich Sentiment (final) | **53.3** | 56.6 | 🔴🔴 Collapsed. -3.3 pts. |
+| 1Y Inflation Expectations | **3.8%** | 3.4% | 🔴🔴 +0.4pp. Unanchoring risk. |
+
+**KEY: Core PCE +0.4% MoM is the hottest in months. Combined with UMich inflation expectations jumping to 3.8%, this is the stagflation signature we predicted.** Consumers expect MORE inflation while feeling WORSE about the economy. Fed cannot cut into rising expectations. Fed cannot hold while sentiment collapses. Trap is now visible to everyone.
 
 ---
 
@@ -25,118 +41,40 @@
 |---|------------|--------|
 | HEN-04 | FOMC holds, both mandates, 0-1 cuts | ✅ **CONFIRMED** |
 | HEN-07 | Mar 16 relief rally = bull trap | ✅ **CONFIRMED** |
-| HEN-08 | VIX gaps to 28+ | ✅ **CONFIRMED** — 30+ intraday Mar 23 |
-| HEN-09 | Brent $110-115 | ✅ **EXCEEDED** — hit $119, now $97-105 whipsaw |
-| HEN-10 | SPX tests 6,550-6,600 | ✅ **CONFIRMED** — 6,556 Mar 24 |
-| HEN-11 | Iran "talks" rally = bull trap, reversal 24-72h | 🟡 **PARTIAL** — pattern repeating with each headline |
-| HEN-12 | 15-point plan rally = bull trap v2. Iran rejection + Mar 28 deadline = catalyst | 🔴 **ACTIVE — T-0 Friday** |
-| HEN-13 | PCE Mar 28 hot (≥2.7% headline) + rising claims Thu = Fed trap visible in one week | 🔴 **NEW — pending** |
+| HEN-08 | VIX gaps to 28+ | ✅ **CONFIRMED** — now 31.46 |
+| HEN-09 | Brent $110-115 | ✅ **EXCEEDED** — hit $119, whipsaw $97-$100 |
+| HEN-10 | SPX tests 6,550-6,600 | ✅ **EXCEEDED** — now 6,369 |
+| HEN-11 | Iran "talks" rally = bull trap | ✅ **CONFIRMED** — each rally sold |
+| HEN-12 | 15-point plan rally = bull trap v2 | ✅ **CONFIRMED** — SPX gave it all back and more |
+| HEN-13 | PCE hot (≥2.7%) + rising claims = Fed trap | ✅ **CONFIRMED** — Core MoM +0.4%, sentiment collapsed |
+| HEN-14 | VIX closes above 30 = structural regime shift | ✅ **CONFIRMED TODAY** — 31.46 close |
+| HEN-15 | Quarter-end Mon Mar 31 = window dressing masks real positioning. Q2 open reveals true sentiment. | 🔴 **ACTIVE — Monday** |
 
 ---
 
-## CRITICAL STRUCTURAL OBSERVATION
+## MARKET STRUCTURE — WHAT CHANGED TODAY
 
-**Equities up + Yields down + Gold up = HEDGED RALLY, NOT CONVICTION RALLY.**
-SPX +0.81%, 10Y -6.6bps, Gold +3.3% on the same day. Institutions are buying the rally AND simultaneously buying the hedge. Smart money doesn't trust this.
+1. **VIX regime shift confirmed.** Close at 31.46 is above the 30 threshold we flagged. This is no longer compression from diplomatic headlines — it's structural fear. Dealer gamma positioning is now firmly negative territory, meaning moves amplify in both directions.
 
----
+2. **Dow entered correction.** All three major indexes now in or near correction territory. Breadth is terrible — 4 of top 10 S&P components >20% off 52-week highs.
 
-## NEW SIGNALS INTEGRATED (9 inbox files, Mar 23-25)
+3. **30Y yield at 4.982%.** The long end is repricing. This is the $14T supply wall + Japan withdrawal thesis playing out. 5% on the 30Y is a psychological level that will cause forced selling in duration-sensitive portfolios.
 
-### 1. Nikkei/GPIF Breach (Mar 23)
-- Nikkei 51,515 (-3.48%) — breached GPIF 52,000 rebalancing trigger
-- GPIF now actively rebalancing: institutional selling of foreign assets incl. US equities
-- FY-end T-8 amplifies. Carry unwind 7d probability **85%**
-- Cross-link: SAM domain (Japan carry), equity structural bid weakening
+4. **Consumer sentiment collapsed to 53.3** with inflation expectations jumping to 3.8%. This is the stagflation consumer — expecting more inflation, feeling worse about the economy, cutting spending. Exactly what we modeled.
 
-### 2. Oil Whipsaw / Labor Implications (Mar 23)
-- Gas $3.96, diesel $5.29. $4 behavioral breakpoint T-0 to T-1.
-- Strike pause expires ~Mar 28 (confirmed Mar 28 overlap with PCE)
-- ICE construction raids compounding labor supply shock (NYT/Guardian)
-- Employer planning paralysis deepening — vol itself freezes hiring
+5. **Oil $99.55 (+5.37%)** despite Trump extending Iran strike deadline to Apr 6. Market doesn't trust the extension. Strait of Hormuz closure premium is sticky.
 
-### 3. "Talks" Trap / Vol Spike (Mar 23)
-- Trump "productive talks" narrative contradicted by Iran denial + active combat (Dimona strike)
-- VIX compression on false narrative → violent reversal pending
-- Pattern repeated Mar 25 with 15-point plan rejection
-
-### 4. HANS Domain Refresh (Mar 24) — KEY CROSS-AGENT FLAGS FOR HENRY
-- **HY OAS 328bps CONFIRMED** — credit channel transmission active
-- ARA diesel crack: est. $38-45 (was $25 Mar 11)
-- Private credit cascade: APO/ARES gated (9 funds total) — LP forced selling = USD demand spike
-- European industrial equities under severe pressure (chemicals, aluminum, autos)
-- Dimona strike = nuclear-infrastructure threshold crossed. Fordow/Natanz strike as Israeli retaliation = Kharg Island at risk → Brent $120+
-
-### 5. Japan Repatriation (Mar 25)
-- Structural demand withdrawal: **$50-120B/yr** annual swing from buyer to neutral/seller in USTs
-- 30Y market depth down 30% — Japanese sales cause 10-20bps intraday moves
-- JPM retail fatigue (-30% purchases) + Japan withdrawal = **two independent demand pillars weakening simultaneously**
-- Connects to Fed T-Bill $352B signal: long-end losing its anchor foreign buyer
-- **Term premium must rise.** Supports rate trajectory thesis.
-
-### 6. $14T Maturity Wall (Mar 25)
-- $10T UST maturing in 12 months (33% of outstanding — highest ever)
-- Total 2026 IG supply: **~$14T** (UST + corporate)
-- War supplemental: >$200B; debt interest: $1.22T
-- **Doom loop:** war → inflation → no cuts → higher debt service → more issuance → at higher rates
-- Record supply + shrinking demand (Japan, retail) = **term premium must rise**
-
-### 7. OTTO Consumer Durable Destruction (Mar 17)
-- 2024 Winnebago Vista (8,113 mi, MSRP $239K): dealer asking **$120K = 50% value loss**
-- RV leads mass consumer discretionary by 6-12 months → Q4 2026/Q1 2027 mass-market stress signal
-- Auto costs "at breaking point" (FT Mar 2026) — gas, insurance, maintenance, financing all simultaneously
-- Subprime DQ 7.1% + $4 gas = not incremental stress, it's the mechanism for next DQ leg higher
-
-### 8. PMI Counter-Signal + ULC Hot (Mar 25)
-- Manufacturing PMI 52.4 (beat) — likely **tariff front-running**, not genuine expansion
-- Services PMI 51.1 (slight miss)
-- **ULC Q4F: 4.4% vs 3.6% expected — STAGFLATIONARY**
-- Philly Non-Mfg: -23.9; Richmond Biz: -10 → real economy deteriorating
-- K-shape: top front-running tariffs, bottom can't find jobs (unemployment duration 25.7 weeks, 4-yr high)
-
-### 9. Carl → Gas Velocity (Mar 25)
-- Gas +**$1.01/gal (+34%) in ONE MONTH**
-- CNN: Americans cutting food spending to afford gas = **real spending contraction NOW**
-- SPR 172M barrel release failing — demand destruction is the only price mechanism
-- At velocity: **$4.50 in 2-3 weeks**. Each $0.10 = ~$14B/yr extracted from consumer discretionary
-- CA $5.37, LA $5.72 — California consumer already impaired
-- **GDP drag: +$1.01/mo sustained = est. -0.3 to -0.5% Q2 GDP drag from gas alone**
+6. **Gold $4,551 (+3.21%)** on a massive equity down day = pure fear bid. Not rotation, not rebalancing — hedging.
 
 ---
 
-## FED TRAP THESIS — CURRENT STATE
+## CROSS-DOMAIN SIGNALS
 
-```
-ULC 4.4% + Core PCE 2.7% → Fed CANNOT CUT (inflation above target)
-Gas +34%/mo + consumer food tradeoffs + NFP -92K → Fed CANNOT HOLD (recession risk)
-$14T supply wall + Japan demand withdrawal → term premium rising regardless
-```
-**This week (Mar 27-28) is the single clearest visualization of the trap.**
-
----
-
-## CRITICAL LEVELS — NEXT 72H
-
-| Level | Event | Date |
-|-------|-------|------|
-| Claims > 230K | Labor deterioration threshold (DHS-suppressed: true=+15-20K) | **Thu Mar 27** |
-| PCE ≥ 2.7% | Confirms Fed trap, hot scenario | **Fri Mar 28** |
-| PCE spending < +0.1% | Consumer already breaking in Feb data | **Fri Mar 28** |
-| Iran strike clock T-0 | 5-day pause expires, strikes likely resume | **Fri Mar 28** |
-| SPX 6,620 | Bull/bear resistance. Must close above for bulls. | Daily |
-| VIX 30 | Regime change. Close above = structural shift. | Daily |
-| Gold $4,500 | Floor confirmation. Above = macro fear real. | Daily |
-| 10Y 4.30% | Break below = flight to safety accelerating | Daily |
-| Mar 31 | Quarter-end. Masking event. Real discovery resumes Q2. | 5 days |
-
----
-
-## PCE PREP — SUMMARY (full framework: `domain/PCE_PREP_MAR28.md`)
-
-- **Base case:** Headline PCE 2.7-2.9%, Core 2.7%. In-line to hot. 55% probability in-line, 35% hot.
-- **Energy caveat:** Feb data captures $90-108 Brent. The +$1.01/gal velocity is MARCH — hits April 30 PCE. Today sets the baseline for a larger April shock.
-- **Surprise risk:** Personal Spending weak + hot inflation simultaneously = stagflation signal markets are NOT priced for.
-- **Double catalyst risk:** PCE hot + strike clock expiry on same day (Mar 28) = potential 3-5% SPX drawdown.
+- **CARL:** Gas at/near $4 behavioral breakpoint. Oil +5.37% today guarantees gas prices rise next week. $4.50 by mid-April increasingly base case. Consumer already cutting food spending.
+- **SAM:** Quarter-end Monday. GPIF rebalancing + Japan FY-end = structural selling of foreign assets. Carry unwind risk elevated into Monday.
+- **HANS:** 30Y at 4.982% — credit stress accelerates. HY OAS likely widening. Corporate refinancing costs jumping.
+- **LIQUID:** VIX 31+ = dealer negative gamma. Expect amplified moves Monday. Quarter-end rebalancing into negative gamma = volatile session.
+- **LABOR:** UMich consumer sentiment collapse (53.3) = hiring freeze deepens. Employers won't hire into collapsing consumer confidence.
 
 ---
 
@@ -144,13 +82,13 @@ $14T supply wall + Japan demand withdrawal → term premium rising regardless
 
 | Position | Status |
 |----------|--------|
-| IWM $250P Jun | ✅ HOLD — 32% floating rate debt. Rate stress unchanged. |
-| HYG $75P Jun | ✅ HOLD — HY OAS 328 confirms credit stress transmission. Each rally = better entry. |
-| TLT Puts | ⚠️ MONITOR — Bond bid real (10Y -6.6bps). But $14T supply wall + Japan withdrawal = yields grind higher medium-term. |
-| Regional shorts | ✅ HOLD — Quarter-end window dressing may add noise; fundamentals unchanged. |
+| IWM $250P Jun | ✅ HOLD — Russell -1.87% today. Small caps getting crushed. |
+| HYG $75P Jun | ✅ HOLD — 30Y at 4.982% = credit stress transmission accelerating. |
+| TLT Puts | ✅ VINDICATED — 30Y approaching 5%. Supply wall thesis playing out. |
+| Regional shorts | ✅ HOLD — Rate stress + consumer deterioration = fundamental thesis intact. |
 
 ---
 
 ## BOTTOM LINE
 
-**The trap is closing.** Thursday claims + Friday PCE, on the same day the Iran strike clock hits zero, is the single most consequential 48-hour window since the war began. Gas +34% in a month with consumers cutting food spending is not a forecast — it's happening now. ULC at 4.4% means the inflation is cost-push structural, not demand-pull transitory. The Fed cannot cut into this, cannot hold without recession, and the $14T supply wall will reprice term premium regardless. Account -4.9% from diplomatic pump squeezes. The thesis is intact. The week of Mar 27-28 is the catalyst window.
+**The trap snapped shut today.** Core PCE +0.4% MoM (hot) + consumer sentiment collapse to 53.3 + inflation expectations unanchoring to 3.8% = the stagflation print we predicted. VIX closed above 30 (31.46), confirming regime shift. All three major indexes in or entering correction. Oil at $99.55 with Strait of Hormuz premium sticky. Gold surging to $4,551. The Fed is visibly trapped — every data point today confirmed they cannot cut (inflation accelerating) and cannot hold (consumer breaking). Monday is quarter-end with negative dealer gamma, Japan FY-end rebalancing, and Iran deadline extension that nobody trusts. The account was down ~5% yesterday from diplomatic pumps. Today validated the thesis. Q2 opens with nowhere to hide.

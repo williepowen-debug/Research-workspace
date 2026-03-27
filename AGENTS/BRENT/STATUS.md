@@ -1,7 +1,7 @@
 # BRENT STATUS
 
-**Last Updated:** 2026-03-26 UTC
-**Overall Status:** 🔴🔴🔴 RED-RED-RED — HORMUZ CLOSED + MINED / RUSSIAN BALTIC OFFLINE / KUWAIT PHYSICAL / QATAR LNG PERMANENT + FM LEGAL / YANBU UNDER ATTACK / VALERO PORT ARTHUR FIRE (380K bpd) / SPR FAILED / AUSTRALIA PHYSICAL SHORTAGE
+**Last Updated:** 2026-03-27 UTC
+**Overall Status:** 🔴🔴🔴 RED-RED-RED — HORMUZ CLOSED + MINED + TANKER AGROUND / RUSSIAN BALTIC OFFLINE (KIRISHI STRUCK) / KUWAIT PHYSICAL / QATAR LNG PERMANENT + FM LEGAL / YANBU UNDER ATTACK / VALERO PORT ARTHUR FIRE (380K bpd) / SPR FAILED / AUSTRALIA PHYSICAL SHORTAGE / ISRAEL STRUCK IRAN NUCLEAR SITES / GAS $4 BREAKPOINT BREACHED
 
 ---
 
@@ -27,8 +27,8 @@
 
 | Metric | Value | Updated |
 |--------|-------|---------|
-| Brent spot | **~$100** — pulled back from $120 on ceasefire talk. Base $120-130; Yanbu-strike $145-165+ | Mar 25 |
-| Retail gas US avg | **>$5.00/gal** | Mar 18 |
+| Brent spot | **~$108-112** — +$8-12 from $100. Highest since mid-2022. +$34 YoY. | **Mar 27** |
+| Retail gas US avg | **~$4.00/gal** (**$4 BEHAVIORAL BREAKPOINT BREACHED**) FL >$4.00. CNN: $240/mo per household | **Mar 27** |
 | JKM (Asian LNG) | **$16.18/MMBtu** | Mar 14 |
 | Henry Hub | **$3.13/MMBtu** | Mar 14 |
 | TTF | $18.1/MMBtu | Mar 9 |
@@ -174,10 +174,40 @@ ALL THREE x3 readings: Brent M1-M3 <$3 | EIA gasoline -5% YoY | CFTC longs decli
 - Downstream: semiconductors, MRI machines, aerospace, scientific research. **No substitute**
 - New commodity stress vector. Flag to NEXUS for semiconductor chain tracking.
 
-### Hamilton NOPI / Q1 WTI Close (⚠️ CATALYST)
-- **Q1 WTI close = March 31.** At ~$100, NOPI is large positive. Hamilton framework: NOPI=47+ → GDP drag -3.0 to -4.9pp
-- Ceasefire talk pulling Brent ~$100 from $120 peak. IF $100 holds through Mar 31 → NOPI near maximum level
-- Mar 31 = hard catalyst for GDP drag estimates entering Q2 models
+### MAR 27 SIGNALS — HORMUZ EXTENSION + BRENT SPIKE + GAS $4 (🔴🔴)
+
+#### Hormuz Deadline Extended to Apr 6
+- Trump extended Hormuz deadline +10 days to **April 6** (was Mar 28/today)
+- Pausing energy plant destruction. "Talks going well."
+- **Iran: "proposal one-sided and unfair"** — NO capitulation
+- **Rubio at G7: "weeks, not months"** — minimum 2-8 more weeks of risk (NYT Mar 27)
+- **Israel struck Iranian nuclear sites** (NYT live updates Mar 27) — escalation wildcard
+
+#### Thai Tanker Mayuree Naree — Qeshm Island Grounding
+- Hit by Iranian projectiles **Mar 11**, drifting since. **Ran aground off Qeshm Island** Mar 27
+- 3 crew missing. Iran asserting physical Hormuz control
+- Confirms Iran enforcing exclusion zone with kinetic action
+
+#### Brent $108-112: NOPI Updated (🔴🔴 CRITICAL — Q1 CLOSE MON)
+- **NOPI revised upward.** Prior: NOPI=47 at $100. Updated:
+  - **$108 Brent → NOPI = 55** (exceeds 1973 embargo NOPI of 52.8)
+  - **$112 Brent → NOPI = 59** (severe category)
+  - **$115 Brent → NOPI = 62** (uncharted post-1979 territory)
+- **Revised Hamilton GDP drag: -4.5 to -6.0pp cumulative** (was -3.0 to -4.9pp at NOPI 47)
+- Peak damage still Q1 2027 at lag 4: -1.8 to -2.4pp in that quarter alone
+- **Q1 close Monday Mar 31 locks in NOPI 55-59 in Hamilton's model** — all Q2 recession estimates anchor here
+
+#### Gas $4 Behavioral Breakpoint — BREACHED
+- National avg ~$4.00 (AAA Mar 27). Florida over $4.00
+- Per DD-3: $4 = documented behavioral breakpoint (2008 pattern)
+- 2026 consumer matches 2008 stress profile: savings 3.6%, subprime auto >7%, zero buffer
+- **Front-loading: behavioral damage compressing to Q2 2026 (was Q3)**
+
+### Hamilton NOPI / Q1 WTI Close (⚠️ CATALYST — 4 DAYS OUT)
+- **Q1 WTI close = March 31.** Brent $108-112 → NOPI 55-59 → GDP drag -4.5 to -6.0pp
+- **NO ceasefire in sight.** Extension to Apr 6 + Iran rejection + Israel strikes = price floor
+- Mar 31 = hard catalyst. NOPI 55-59 is the anchor for entire Q2 GDP model
+- *Routing: HENRY inbox `BRENT_ROUTING_2026-03-27.md`*
 
 ---
 
