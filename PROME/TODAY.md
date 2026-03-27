@@ -6,7 +6,7 @@
 
 ## 🔴 Today — Thu Mar 26
 
-- [ ] **ARES earnings** — reports today. Watch for: non-accruals, NAV, dividend coverage, redemption update (was 11.6%), software/healthcare marks. Route to BROCK.
+- [ ] **ARES earnings** — NOT YET SCHEDULED. Date TBD. Watch for: non-accruals, NAV, dividend coverage, redemption update (was 11.6%), software/healthcare marks. Route to BROCK when announced.
 - [ ] **USO $118C Mar 27 expires TOMORROW** — $1.88, -79%. Ride or cut?
 - [ ] **Weekly initial claims** — FL Wave 1 exhaustion? Mullin normalization? See `LABOR/research/CLAIMS_FRAMEWORK_MAR27.md`
 - [ ] **Quarter-end SOFR watch** — daily per LIQUID. `LIQUID/research/QUARTER_END_PLAYBOOK_MAR31.md`

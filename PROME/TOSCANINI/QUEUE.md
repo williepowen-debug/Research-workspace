@@ -27,8 +27,8 @@ Claims Thu + PCE Fri + Iran pause expiry Fri. No integrated playbook. Last cease
 ### T-02 | DECISION FRAMEWORK | 🔴 | Score: 17.0
 **ARESSI Pre-Report Brief**
 Agent: BROCK | Conviction: High
-Reports TODAY. First BDC marks post-FSK junk downgrade. ARES $95P Jun ($890) has no entry criteria.
-→ Define watch metrics (non-accruals, NAV, dividend coverage, software/healthcare marks). Set ARES entry/add criteria + OWL hold/exit criteria. Deliver before close.
+Earnings date TBD (NOT confirmed). First BDC marks post-FSK junk downgrade. ARES $95P Jun ($890) has no entry criteria.
+→ Define watch metrics (non-accruals, NAV, dividend coverage, software/healthcare marks). Set ARES entry/add criteria + OWL hold/exit criteria. Deliver before earnings date confirmed.
 **Positions:** ARES $95P Jun ($890), OWL $9.5P Apr ($60)
 
 ### T-03 | POSITION MGMT | 🔴 | Score: 16.5
