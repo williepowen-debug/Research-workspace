@@ -161,6 +161,7 @@ The "Beneath the Ice" thesis weakens if:
 |------|---------|
 | `SCRATCH.md` | Ephemeral handoff. Rewritten every session. **Read FIRST at boot.** ≤30 lines. |
 | `ACTION_PLAN.md` | Prioritized to-do list. Read when spawned for maintenance/housekeeping tasks. |
+| `red_team/` | Counter-evidence, thesis-weakening data, competing hypotheses. NOT boot material — read when assessing conviction. |
 | `STATUS.md` | Live state — dashboard, K-shape, predictions. **Primary memory.** ≤250 lines. |
 | `TRADE.md` | Domain trade ideas — consumer credit plays, ABS shorts, housing. Read on trade spawns. |
 | `inbox/` | Inbound signals. Process when spawned for it. |
