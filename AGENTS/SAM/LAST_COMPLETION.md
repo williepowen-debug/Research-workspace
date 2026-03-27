@@ -1,8 +1,7 @@
-# SAM LAST COMPLETION — Fri Mar 27, 2026
-
+## COMPLETION — SAM — 2026-03-27
 STATUS: ✅ DONE
-CHANGED: [AGENTS/SAM/STATUS.md, AGENTS/SAM/LAST_COMPLETION.md]
-RESULT: JGB 10Y surged +13bps to 2.380% (2bps from 2.40% stress threshold), 5Y hit ALL-TIME RECORD 1.820%, 2Y highest since 1995. BOJ released new inflation gauge (core CPI ex-special factors +2.2%) — deliberate hawkish staging. Ex-BOJ economist Kameda: "hike by June." USD/JPY 159.49 (51 pips from 160). Shunto R2 not yet released. Carry unwind 7d probability raised to 80%.
-GAPS: Shunto Round 2 results not found — may be delayed or not yet released Friday. Tokyo March CPI not yet available (typically released last Friday of month — may come later tonight Japan time or was pre-empted).
-WILL_NEEDS: None
-FOLLOW-UP: Monitor for Shunto R2 release over weekend; Tankan Apr 1 is next major catalyst; JGB 10Y at 2.380% nearly at 2.40% stress threshold — breach next week would be significant signal.
+CHANGED: AGENTS/SAM/STATUS.md (header, market data table, carry unwind probabilities, new FXY Entry Decision Card section)
+RESULT: USD/JPY breached 160.106 (first since July 2024) with MOF intervention imminent; JGB 40Y hit 3.924% (+5.83% single day), 30Y 3.692% — multi-decade levels. FXY Entry Decision Card issued: BUY NOW in tranches (4→8 shares immediately, 8→12 on catalyst confirmation), entry ~$24.00–24.50, stop ~$22.50 (USD/JPY ~167), target $27–29 (USD/JPY 148–152 post-BOJ). 7D carry unwind probability revised to 85%.
+GAPS: FXY current exact price not confirmed (estimated ~$24.00–24.50 from USD/JPY 160 handle; Will should verify live quote before executing). Shunto R2 final tally not yet received.
+WILL_NEEDS: ✅ DECISION REQUIRED — Buy 4 shares FXY now (tranche 1, total → 8 shares) at ~$24.00–24.50? Entry Decision Card issued. Verify live FXY price before executing. Second tranche (+4 shares → 12 total) on intervention confirmation or BOJ Apr 23-24/May 1.
+FOLLOW-UP: Monitor MOF for intervention announcement (could fire weekend or Monday open). Check Shunto R2 tally. Watch Tankan Apr 1 — if strong, escalate April BOJ hike probability.

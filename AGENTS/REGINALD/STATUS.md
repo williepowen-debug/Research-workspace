@@ -1,5 +1,5 @@
 # REGINALD STATUS
-**Last Updated:** 2026-03-26 01:30 UTC | **Status:** 🔴🔴🔴 CRITICAL
+**Last Updated:** 2026-03-27 20:15 UTC | **Status:** 🔴🔴🔴 CRITICAL
 
 ---
 
@@ -25,10 +25,10 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 | Indicator | Value | Status |
 |-----------|-------|--------|
 | HY OAS | **319bps** (Mar 25) | 🔴 Still >300, slight compression |
-| KRE | **~$60** (Mar 25, near support) | 🔴🔴 Testing critical $60 |
+| KRE | **~$63.6** (Mar 27, +6% off March low) | 🔴 Bouncing but below 200d |
 | Brent | **~$120** (mid-March spike) | 🔴🔴 |
 | 10Y UST | **4.44%** (mid-March high) | 🔴 Yields surging, no relief |
-| Office CMBS DQ | 12.34% ATH | 🔴 |
+| Office CMBS DQ | 11.4% Feb (down from 12.34% ATH Jan) | 🟠 Mod-driven dip |
 | Bank CRE DQ gap | 4.18% vs CMBS 12.34% = 8.16pp masking | 🔴 |
 | FHLB Advances | ~$480B (issuance +31% YoY) | 🟠 Contingency behavior |
 | Bank Reserves | $2.8T — 4yr low, G-SIB concentrated | 🔴 |
@@ -91,10 +91,14 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 
 | Date | Event |
 |------|-------|
-| **Mar 25** | **Jefferies fiscal Q1 after close** — REPORTING TONIGHT. JEF -2% into print, -36% YTD. SMFG takeover walked back (Bloomberg: no immediate plans). Consensus $0.89 EPS / $1.98B rev. MFS £103M + First Brands exposure key focus. |
+| **Mar 25** | **Jefferies fiscal Q1 confirmed** — EPS $0.70 vs $0.91 (-23%). $17M MFS losses. V2 chain confirmed. |
 | Mar 26 | ARESSI — private credit catalyst (BROCK) |
 | Mar 27 | OBDCII — private credit catalyst (BROCK) |
 | Mar 27 | USO $118C expiry |
+| **Mar 27** | **Bloomberg: Citi weighing US regional bank acquisition** — dismissed as "baseless speculation" by Citi. C -4.5%. Signal: G-SIBs smelling regional distress = acquisition optionality. |
+| **Mar 27** | **CMBS office DQ dips to 11.4% Feb** (from 12.34% ATH Jan) — mod-driven, NOT organic recovery. $100B+ CMBS matures 2026, >50% expected default. |
+| **Mar 23-27** | **ZION acquires Basis Investment Group agency lending** (Fannie/Freddie multifamily). Adds CRE MF exposure at cycle peak. |
+| **Mar 19** | **Basel III Endgame re-proposal** — $87.7B system-wide capital relief, 5.2% reduction for large regionals. Comments due Jun 18. Eases capital pressure but DOES NOT fix CRE quality. |
 | Apr 1 | eSLR relaxation effective |
 | Apr 10 | CPI (captures oil shock) |
 | **Apr 16** | **OZK Q1 earnings — detonation event** |

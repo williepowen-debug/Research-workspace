@@ -114,13 +114,92 @@ No direct BDO→WAL link found in public filings. First Brands is private (KPS C
 
 ---
 
+## PCAOB "Issuer B" — High Confidence = WAL
+
+**Source:** PCAOB Release No. 104-2025-100 (May 22, 2025)
+**PDF:** https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2025-100-rsm.pdf
+
+Issuer B is described as a financial institution that "purchased certain collateralized loans at a discount" and "engaged specialists to estimate fair value of these loans' underlying collateral" to determine whether discounts were "accretable." This is a textbook description of WAL's ~$2B Note Finance division. No other RSM bank client (all <$16B) operates at this scale in purchased distressed loans.
+
+**What PCAOB found RSM failed to do:**
+1. Did NOT evaluate reasonableness of significant assumptions used by company specialists for collateral fair values — only inquired of management and read specialist-prepared info
+2. Did NOT evaluate relevance of certain data used to develop adjustment factors for impairment
+3. Did NOT evaluate the specific review procedures the control owner performed
+4. Did NOT perform adequate procedures regarding the work of company's specialists as audit evidence
+
+**Confidence that Issuer B = WAL: HIGH**
+
+---
+
+## WAL FY2025 10-K — RSM Audit Opinion (Filed Feb 23, 2026)
+
+### Opinion: Clean / Unqualified
+RSM issued unqualified opinion on both financial statements AND ICFR. **No going concern. No emphasis-of-matter. No qualified language.** Dated Feb 20, 2026. RSM has been WAL's auditor since 1994 (32 years).
+
+### Critical Audit Matters: Weak
+- **CAM 1 (ACL):** Generic — about qualitative overlays to quantitative models. Does NOT mention Cantor, Stupin, or fraud specifically. Does NOT address collateral valuation.
+- **CAM 2 (MSRs):** Mortgage servicing rights valuation. Unrelated to fraud.
+- **No CAM on collateral verification or fraud exposure** — despite PCAOB flagging exactly this deficiency in 2024 inspection.
+
+### Cantor/Fraud Disclosures in 10-K
+- **$98.5M facility** to Cantor Group V, nonaccrual
+- **$29.6M specific reserve** — established Q3 2025, **UNCHANGED through Q4 2025** (6 months, zero adjustment)
+- WAL claims "as-is" appraisals support recoverability; **updated appraisals due March 2026**
+- Two "ultra-high net worth" guarantors (Stupin/Marcil, unnamed in filing)
+- Risk factor admits NDFI lending "may be less likely to detect fraud"
+- **"Stupin" — zero mentions** in entire 10-K
+- Audit fees: not in 10-K, will be in DEF 14A proxy (~April)
+
+### The Reserve Gap
+| | WAL | ZION |
+|---|---|---|
+| Exposure | $98.5M | ~$60M |
+| Reserved | $29.6M (30%) | $50M (83%) |
+| Implied recovery | ~70% | ~17% |
+| Auditor | RSM (mid-tier) | EY (Big 4) |
+| Reserve change since Q3 | None | Immediate charge-off |
+
+Same fraud ring. Same collateral subordination scheme. WAL reserves 30%, ZION charged off 83%. RSM signed off on the 30% reserve after the PCAOB caught them failing to verify collateral values at what appears to be this exact client.
+
+---
+
+## Cantor Collateral & Appraisal Status (Mar 27 2026)
+
+### What We Know
+- WAL's Cantor facility is a **warehouse line secured by CRE loans** (not direct property). Collateral = the loans themselves.
+- Cantor pledged loans claiming first-lien position; many were actually junior liens with forged title policies.
+- Some underlying properties were **already in foreclosure or transferred** to other entities before the fraud was discovered.
+- Portfolio concentrated in **SoCal CRE** — storefronts and office buildings near LA, SF, Orange County.
+- Cantor Group LLC: incorporated 2015, based Newport Beach, CA.
+- WAL sought receiver appointment (Aug 2025). **No public confirmation receiver was appointed.** Case at Stanley Mosk Courthouse, LA County Superior Court.
+
+### The March 2026 Appraisals
+- WAL 10-K (Feb 23): "Updated collateral appraisals are expected in March 2026"
+- As of Mar 27, those appraisals should be complete or nearly complete.
+- Results will not be public until Q1 earnings (Apr 21) unless WAL files an 8-K.
+- **If appraisals confirm junior-lien status on distressed SoCal CRE, recovery assumptions collapse.**
+
+### ZION Recovery Signal
+- ZION charged off $50M on $60M (83%) in Q3 2025 and has gone silent.
+- No updated "Cantor" or "Stupin" language in recent ZION filings.
+- Silence = they're not recovering anything material. This is the best available proxy for what WAL's appraisals will show.
+
+### What We Can't Get
+- Specific property addresses (not in public filings — may be in court exhibits)
+- Receiver reports (if receiver was appointed)
+- The actual appraisal numbers before Apr 21
+- **Next step:** Check LA County Superior Court docket for receiver status, exhibits with property lists
+
+---
+
 ## Apr 21 Earnings — Key Questions
 
-1. Has RSM issued any Critical Audit Matters (CAMs) related to collateral verification or fraud exposure?
-2. Did RSM perform independent collateral verification on the Stupin portfolio, or rely on WAL's internal review?
-3. Will RSM's opinion on WAL's ACL methodology address the 30% vs 83% reserve gap with ZION?
-4. Has WAL's audit committee discussed auditor adequacy given the bank's growth and complexity?
-5. Is WAL considering a Big 4 auditor transition? (This would itself be a signal.)
+1. ✅ **ANSWERED:** RSM's CAMs are generic — no fraud/collateral-specific CAM despite PCAOB findings
+2. **March 2026 updated appraisals** — will they support the 70% recovery assumption or force a reserve increase?
+3. Will WAL's audit committee discuss RSM adequacy given PCAOB deficiency findings?
+4. Has WAL considered Big 4 auditor transition? (This would itself be a signal)
+5. **DEF 14A proxy** (~April) — audit fees will reveal if RSM is under-resourced for WAL's complexity
+6. **All three fraud vectors** — WAL must address First Brands, Tricolor, AND Stupin. What's total reserve?
 
 ---
 
