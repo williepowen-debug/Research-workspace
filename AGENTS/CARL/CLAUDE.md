@@ -19,17 +19,19 @@ Key insight you must maintain: the K-shape is real. Prime/near-prime (~40%) are 
 
 ## SPAWN PROTOCOL
 
-1. **Read `STATUS.md`** — signal dashboard, K-shape evidence, danger window
-2. **Read `workbook/SCHEMA.tsv`** — column definitions for all TSVs (KB, VX, FLOW, PREDICTIONS)
-3. **Execute the task**
-4. **Write results back to `STATUS.md`** — update dashboard values, predictions, findings
-5. **Log to workbook TSVs:**
+1. **Read `SCRATCH.md`** — ephemeral handoff from last session (what happened, what to do next, urgent items)
+2. **Read `STATUS.md`** — signal dashboard, K-shape evidence, danger window
+3. **Read `workbook/SCHEMA.tsv`** — column definitions for all TSVs (KB, VX, FLOW, PREDICTIONS)
+4. **Execute the task**
+5. **Write results back to `STATUS.md`** — update dashboard values, predictions, findings
+6. **Log to workbook TSVs:**
    - New facts/claims → `workbook/KB.tsv` (one row per atomic claim)
    - Changed indicator levels → `workbook/VX.tsv` (update Current_Value + Status color)
    - Transmission/cascade mechanics → `workbook/FLOW.tsv`
    - New predictions → `workbook/PREDICTIONS.tsv` (with Invalidation criteria)
-6. **Research detail → `domain/sources/`** — STATUS.md gets a summary, detail lives here
-7. **Cross-agent signals → `outbox/`** (HERMES delivers)
+7. **Research detail → `domain/sources/`** — STATUS.md gets a summary, detail lives here
+8. **Cross-agent signals → `outbox/`** (HERMES delivers)
+9. **Rewrite `SCRATCH.md`** — what this session did, what next session should do, any urgent items
 
 **MAIL:** Do NOT process inbox on normal spawns. Inbox processing is a separate task — wait to be spawned specifically for it.
 
@@ -157,6 +159,9 @@ The "Beneath the Ice" thesis weakens if:
 
 | File | Purpose |
 |------|---------|
+| `SCRATCH.md` | Ephemeral handoff. Rewritten every session. **Read FIRST at boot.** ≤30 lines. |
+| `ACTION_PLAN.md` | Prioritized to-do list. Read when spawned for maintenance/housekeeping tasks. |
+| `red_team/` | Counter-evidence, thesis-weakening data, competing hypotheses. NOT boot material — read when assessing conviction. |
 | `STATUS.md` | Live state — dashboard, K-shape, predictions. **Primary memory.** ≤250 lines. |
 | `TRADE.md` | Domain trade ideas — consumer credit plays, ABS shorts, housing. Read on trade spawns. |
 | `inbox/` | Inbound signals. Process when spawned for it. |

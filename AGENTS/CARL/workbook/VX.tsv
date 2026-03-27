@@ -27,7 +27,7 @@ VX-CARL-5.03	Underinsurance Rate (Medical)	23%	YELLOW	<15%	25%	30%	35%	2026-01-2
 VX-CARL-5.04	Paycheck-to-Paycheck	62%	ORANGE	<45%	65%	70%	75%	2026-01-24	LendingClub	Structural fragility
 VX-CARL-5.05	Hardship Withdrawal Trend	+33% YoY	YELLOW	<+10%	+25%	+35%	+50%	2026-01-24	Industry Data	Doubled since 2018
 VX-CARL-5.06	CA Insurance Retreat	450K+	ORANGE	<200K	400K	500K	600K	2026-01-24	CA FAIR Plan	FAIR Plan policies accelerating
-VX-CARL-6.01	CC 90+ DQ (NY Fed)	12.70%	RED	<8%	10%	12%	13.74%	2026-02-10	NY Fed Q4 2025	Duplicate of 1.01 — consolidate on next refresh
+VX-CARL-6.01	CC 90+ DQ (NY Fed)	12.70%	CONSOLIDATED	<8%	10%	12%	13.74%	2026-03-27	NY Fed Q4 2025	CONSOLIDATED into VX-CARL-1.01. Duplicate removed.
 VX-CARL-6.02	Auto 90+ DQ	5.21%	RED	<3.5%	4%	5%	5.27%	2026-02-10	NY Fed Q4 2025	At historical max
 VX-CARL-6.03	Total Household Debt	$18.78T	ORANGE	<$16T	$18T	$19T	$20T	2026-02-10	NY Fed Q4 2025	Record high (+$4.6T since 2019)
 VX-CARL-6.04	Q1 Income Mortgage DQ	3.0%	ORANGE	<1.5%	2.5%	3%	3.5%	2026-02-10	NY Fed Q4 2025	5x pandemic lows
@@ -51,7 +51,7 @@ VX-CARL-ABS-11	ABS Auto 30+ DQ (Exeter)	PENDING	PENDING	<10%	12-15%	15-18%	>18%	
 VX-CARL-ABS-12	ABS Auto Payment Rate (Ally)	PENDING	PENDING	>5.5%	4-5%	3.5-4%	<3.5%	2026-02-11	EDGAR 10-D	Prime/near-prime comparison
 VX-CARL-ABS-13	ABS Cross-Trust Divergence	8.23pp	RED	<0.5pp	<1pp	1-2pp	>2pp	2026-03-11	SDART vs HAROT Jan'26	SDART 2024-1 CNL 8.48% vs HAROT 2024-1 CNL 0.25% = 8.23pp gap at same seasoning. 60+ DQ: 9.31% vs 0.28% = 9.03pp. Even adjusting for subprime vs prime, divergence this extreme suggests origination quality concerns beyond credit tier.
 VX-CARL-ABS-14	ABS vs NY Fed DQ Divergence	PENDING	PENDING	<0.3pp	<0.5pp	0.5-1pp	>1pp	2026-02-11	ABS vs NY Fed	Early warning confirmation
-VX-CARL-ABS-15	Subprime Auto 60+ DQ (ABS)	7.1%	RED-BREACHED	<3%	>5%	>6%	>7%	2026-03-04	Fitch ABS Feb 2026	⚠️ BREACHED. Duplicate of 1.04 — consolidate on next refresh.
+VX-CARL-ABS-15	Subprime Auto 60+ DQ (ABS)	7.1%	CONSOLIDATED	<3%	>5%	>6%	>7%	2026-03-27	Fitch ABS Feb 2026	CONSOLIDATED into VX-CARL-1.04. Duplicate removed.
 VX-CARL-FC-01	National Foreclosures (Qtr)	58,140	ORANGE	<35,000	50,000	60,000	70,000	2026-02-12	NY Fed/ATTOM Q4 2025	+41% YoY; target 70K/qtr Q2
 VX-CARL-MF-01	Fannie MF Serious DQ	0.74%	ORANGE	<0.40%	0.60%	0.70%	0.80%	2026-03-04	Fannie Mae	6bps from GFC peak. IMMINENT. $270B+ maturity wall.
 VX-CARL-MF-02	Freddie MF Serious DQ	0.48%	ORANGE	<0.20%	0.30%	0.40%	0.50%	2026-02-12	Freddie Mac	Highest in 21 years; doubled in 2 years
@@ -76,4 +76,5 @@ VX-CARL-FOOD-01	Urea Fertilizer Price Change	+27-34% (10 days)	ORANGE	<+10%	+20%
 VX-CARL-FOOD-02	Food Inflation Transmission Lag	Q3-Q4 2026 (est)	ORANGE	>6mo lag	4-6mo	2-4mo	<2mo	2026-03-10	Historical (1973 analog)	Fertilizer spike → food price spike = 1-2 quarters. 1973: +45-90% fertilizer → food follows 6-12 months.
 VX-CARL-ELEC-01	Electronics Price Inflation (Third Consumer Vector)	TVs +25%, laptops +15-25%, appliances +20-30% (tariff pass-through live)	ORANGE	<+5%	+10%	+20%	+30%+	2026-03-09	PROME / Tariff data	TSMC disruption → tech goods swing from -5% deflation to +10% inflation. Compounds gas + federal income cliff. 2021 analog: GPU 2-3x MSRP. Carrier upgrade revenue at risk.
 VX-CARL-FED-01	Federal Worker Income Replacement Rate (UI)	~20-23% of prior salary (DC $444/wk cap)	RED	>60%	50%	35%	<25%	2026-03-09	PROME / UCFE mechanics	327K RIFs × 75-80% income drop. Severance delays cliff by weeks only. Mid-tier MSAs most exposed (military/research/VA hubs).
-VX-CARL-CLAIMS-01	Continuing Claims vs YELLOW Threshold	1,868K (32K below 1,900K YELLOW)	ORANGE	<1,750K	1,800K	1,900K	2,000K+	2026-03-12	BLS Mar 5 / PROME	Mar 13 = first clean read post-DHS suppression. Could gap through threshold in single print. ≥1,900K = Q2 consumer deterioration onset (not Q3).
+VX-CARL-CLAIMS-01	Continuing Claims vs YELLOW Threshold	1,819K (81K below 1,900K YELLOW)	GREEN	<1,750K	1,800K	1,900K	2,000K+	2026-03-27	BLS Mar 27 / DOL	Lowest since May 2024. Gap WIDENING from threshold. Two consecutive benign prints. COUNTER-SIGNAL for thesis timing. Next: watch for reversal toward 1,900K.
+VX-CARL-UI-01	National UI Exhaustion Spending Hole (Monthly)	$650M/mo (baseline)	ORANGE	<$400M	$600M	$800M	$900M+	2026-03-27	LABOR Exhaustion Cascade Model Mar 26	Peak $800M-$930M/mo est. July 2026. FL peak June-July ($7.4M/mo). $3.9B annual. No EUC/EB buffer. Q3 = consumption stress quarter.
