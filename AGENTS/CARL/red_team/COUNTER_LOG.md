@@ -30,6 +30,18 @@ Running log of data that weakens the "Beneath the Ice" thesis. Newest first.
 
 ---
 
+## 2026-03-27 — NAR Existing Home Sales Feb +1.7% MoM
+
+**Data:** Feb 2026 existing home sales 4.09M SAAR (+1.7% from 3.91M Jan). Affordability index 117.6 — highest since Mar 2022, improved 8th consecutive month. [NAR, released Mar 10]
+
+**Why it matters:** Sales bounced from Jan's 4-year crash. Affordability improving. If housing transactions stabilize, Path C (Housing → Banks) slows.
+
+**Thesis impact:** Mild weakening of Path C timing. BUT: 4.09M is still far below pre-pandemic ~5.9M avg. Transaction velocity remains structurally impaired. Yun himself says "long way to go." This is a dead cat bounce, not a recovery — unless it sustains into March/April.
+
+**What would change my mind back:** Feb was an isolated bounce and March reverts below 4.0M. Or affordability index reversal as gas + insurance costs compress real purchasing power.
+
+---
+
 ## Standing Counter-Evidence (Structural)
 
 - **ALLY NCO guidance 1.9% (KB-CARL-099):** Prime/near-prime auto not cracking. K-shape confirmed but containment holding at prime tier. If ALLY guides up in April earnings, this flips.
