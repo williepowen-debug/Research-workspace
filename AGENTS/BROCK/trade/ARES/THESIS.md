@@ -134,25 +134,64 @@ ARES Strategic Income Fund ($10.7B AUM) gated March 24, 2026. [KB-BRK-062]
 
 ---
 
-## VECTOR 3: ASPIDA INSURANCE TAIL RISK
+## VECTOR 3: ASPIDA INSURANCE TAIL RISK — STATUTORY DATA OBTAINED
 
-ARES owns Aspida, an insurance subsidiary described as "capital-light" vs Apollo/Athene's balance-sheet-heavy model. [KB-BRK-049]
+ARES owns Aspida, an insurance subsidiary described as "capital-light." **Statutory data now contradicts this claim.** [KB-BRK-049, KB-ARES-123 through 128]
 
-**This is the most under-researched vector.**
+### Entity Structure (Confirmed)
+```
+Aspida Holdings Ltd. (Cayman — redomesticated from Bermuda Jan 2025)
+├── Aspida Life Ins Co (Michigan, NAIC 67423) — US operating entity
+│   $14.7B assets (2025), $635M surplus, annuities only
+├── Aspida Life Re Ltd. (Bermuda, Class E) — reinsurer
+│   ~$16-18B estimated assets (offshore, no public filings)
+├── Aspida Re Cayman Ltd / AReC (Cayman, Class B(iii)) — reinsurer
+│   Receives ceded reserves from US entity
+└── [Cayman unnamed entity] — confirmed by regulatory affairs hire
+```
 
-What we know:
-- Same PE-insurance structural template as Athene (Apollo) and Global Atlantic (KKR) [KB-BRK-057]
-- Limited public disclosure — not broken out at detail level in ARES 10-K
-- "Capital-light" claim is unverified
-- NAIC PBR guardrails (APF 2025-16) constrain the PE-insurance spread model — affects Athene directly, Aspida by analogy
+### "Capital-Light" Claim DEMOLISHED
+- **Negative unassigned surplus: -$136M** (Dec 2024). Cannot pay dividends without MI regulator approval. [KB-ARES-124]
+- **Operating losses every year:** -$78M (2024), -$45M (2023), -$55M (2022). Not self-sustaining. [KB-ARES-124]
+- **Requires parent capital injections:** $150M (2024), $247M (2023), $75M (Jan-May 2025). Capital-consuming, not capital-light. [KB-ARES-124]
+- **Leverage 22:1** (liabilities/surplus) at US entity level. [KB-ARES-123]
 
-What we need:
-- NAIC statutory filing analysis (same Eisman/Gober approach used for Athene)
-- Captive reinsurance structures — does Aspida use them?
-- Affiliated paper exposure — is Aspida buying ARES-originated assets?
-- If Aspida has similar issues to Athene, ARES has hidden tail risk the bulls aren't pricing
+### Offshore Cession Explosion
+- Funds held under reinsurance (unauthorized reinsurers) grew **+597% in one year:** $555M → $3.87B. [KB-ARES-125]
+- FY2024 ceded to AReC (Cayman): premiums $2.86B, reserves $3.54B. [KB-ARES-125]
+- Also cedes $511M to non-affiliated Cayman Class B(iii) insurer. [KB-ARES-125]
+- **US entity is being hollowed out** — assets stay onshore (funds withheld), but economic risk/reward goes to Cayman where disclosure is minimal.
+- Michigan DIFS only directly supervises $14.7B. AIS manages $25.9B total for Aspida — the ~$16-18B gap is in Bermuda/Cayman entities with no US public filings. [KB-ARES-126]
 
-**Research priority: HIGH.** This is where edge could be largest because nobody is looking.
+### Affiliated Investment Pipeline Growing 5-7x/yr
+- 9 affiliated LPs: $142M (vs $20.8M 2023 = +6.8x). [KB-ARES-127]
+- 10 affiliated ABS: $69M (vs $13.9M 2023 = +5.0x). [KB-ARES-127]
+- All investments managed by Ares Insurance Solutions (affiliated). AIS fees $11.6M (2024). [KB-ARES-127]
+- Unfunded commitments to affiliated deals: $267M. [KB-ARES-127]
+- ABS portfolio $1.45B total — unknown how much is ARCC-originated. Only $69M explicitly labeled affiliated.
+- **This is the circular risk:** ARES originates credit → Aspida buys it → ARES collects management fees on both sides.
+
+### Bond Portfolio Composition (Dec 2024)
+- Total bonds: $6.38B
+- Corporate: $3.05B (48%)
+- ABS: $1.45B (23%)
+- CMBS: $722M (11%)
+- RMBS: $890M (14%)
+- Mortgage loans grew $1.6M → $277M in one year (+17,000%)
+
+### Ratings & Partnerships
+- AM Best A- (Jun 2024) for both ALIC and Aspida Re. KBRA A- (Sep 2023). Holdings rated **BBB** (lower). [KB-ARES-128]
+- T. Rowe Price/OHA strategic partnership (Feb 2025) — diversifying beyond ARES-only investment management.
+- $3B+ capital raise (Jan 2025): $2.3B equity + $700M credit facilities. But US entity surplus still only $635M.
+
+### Remaining Gaps
+- **Aspida Re (Bermuda) financials** — where ~$16-18B sits, no public access via BMA
+- **RBC ratio** — not in N-4/A, would be in NAIC Annual Statement (paywalled)
+- **Full Schedule D** — would show every bond holding (can confirm ARCC paper)
+- **ARES ownership %** of Aspida not explicitly disclosed
+
+### Why This Matters for the Trade
+The Athene/Apollo template is being replicated at smaller scale but with the SAME structural risks: offshore cessions, affiliated asset management, capital extraction via fees, loss-making US entity backstopped by parent. Nobody on the Street is analyzing Aspida's statutory filings. The "capital-light" narrative is the consensus view — and it's wrong.
 
 ---
 
@@ -179,7 +218,7 @@ Shared borrower names across BDCs create correlated mark-down risk. [KB-BRK-031]
 | "Saba/Weinstein is buying ARES" | Weinstein confirms funds are distressed — he's betting managers survive the fund bleed. That's a different trade than "ARES is fine." |
 | "23.8% software is fine — it's diversified software" | 2021-22 vintage at 3.4yr avg maturity → cracking NOW. AI disruption wasn't underwritten. 20% haircut = 10% NAV hit. |
 | "IHAM is just a small subsidiary" | $3B max exposure (10% of ARCC assets). First-loss position. 83% Level 3. Revolver maxed. Revenue declining while buying $7.1B in new assets. This is hidden leverage inside hidden leverage. |
-| "Aspida is capital-light, not Athene" | Unverified claim. No detailed disclosure. Same structural template. Research gap = optionality for the short. |
+| "Aspida is capital-light, not Athene" | **REFUTED by statutory data.** Negative unassigned surplus (-$136M). Operating losses every year. Requires $150-247M/yr parent injections. 22:1 leverage. Offshore cessions +597% YoY. Same Athene template adapted to Cayman. "Capital-light" = capital-consuming. [KB-ARES-123-128] |
 | "Dividend is safe — 40+ consecutive quarters" | GAAP EPS $1.86 < dividend $1.92. Coverage 1.06x. Cash $638M vs $16B debt. One bad quarter breaks the streak. |
 | "Private credit is the future — secular growth" | Secular growth doesn't prevent cyclical blowups. 94% of defaults are distressed exchanges hiding the real default rate. |
 
