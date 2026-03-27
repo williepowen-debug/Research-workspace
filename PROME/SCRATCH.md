@@ -1,6 +1,6 @@
 # SCRATCH — Ephemeral Working Memory
 
-**Updated:** 2026-03-27 00:40 UTC (Wed 8:40 PM ET)
+**Updated:** 2026-03-27 01:20 UTC (Thu 9:20 PM ET)
 
 ---
 
@@ -9,35 +9,40 @@ Scenario D **82%**. War Day 26. Account **$52,007 (+92%)**. Brent ~$100. HY OAS 
 
 **Book inverted:** 61% near / 39% long vs 6-12mo thesis. T-19 recommends 22/78 rebalance. Will deferred.
 
-## Handoff
-**Last context:** MASSIVE research session. Aspida deep dive completed (Phase 1 + KBRA). AOCI capital rewrite analysis for OZK/WAL. Will browsing KBRA — may return with more PDFs.
+## Handoff — Session 6 Complete
+**Massive research session.** Two major accomplishments:
 
-**Completed this session (Session 6 — Aspida + AOCI):**
-1. ✅ **Aspida deep dive COMPLETE** — Entity structure mapped (US/Bermuda/Cayman), statutory data from N-4/A + NAIC + KBRA. "Capital-light" demolished. RBC 398% declining. BIG Bonds/TAC at 49%. Bermuda entity $12.4B, profit center ($173M AOI). 10 new KB rows (ARES-123→132). THESIS.md Vector 3 fully rewritten.
-2. ✅ **AOCI capital rewrite analysis** — REGINALD ran 5-factor screen. OZK/WAL score BEST (1st/2nd) — AOCI is NOT their vulnerability. KEY/HBAN most exposed. Saved to capital-rewrite-2026/ folder.
-3. ✅ **ARES earnings date corrected** — was falsely stated as "today" in TODAY.md and QUEUE.md. Fixed to TBD.
-4. ✅ BROCK subagent (Aspida findings) — complete, integrated
-5. ✅ REGINALD subagent (AOCI analysis) — complete, integrated
+### 1. Aspida Deep Dive COMPLETE
+- Entity structure: Aspida Holdings (Cayman) → Aspida Life (MI, NAIC 67423) + Aspida Life Re (Bermuda) + AReC (Cayman)
+- "Capital-light" demolished: negative surplus (-$136M), operating losses every year, requires $150-247M/yr parent injections
+- RBC 398% declining (was 480%). BIG Bonds/TAC surging to 49%
+- Bermuda entity = profit center ($12.4B assets, $173M AOI, 206% BSCR)
+- 87% funds withheld structure = circular dependence
+- KBRA surveillance obtained (Aug 2025) with full time series for both entities
+- 10 new KB rows (ARES-123→132). THESIS.md Vector 3 fully rewritten.
+- Sources: NAIC CIS, N-4/A SEC filing, KBRA, Aspida website, RRC/ACLI NAIC letters
 
-**Next session priorities:**
-1. 🔴 **Claims 8:30 AM** — Use HENRY Triple Catalyst Playbook. Mullin +40-60K shadow may normalize.
-2. 🔴 **USO $118C Mar 27 expires TODAY** — ride or cut decision needed at open
-3. 🔴 **OBDCII report** — if published, process through BROCK. OWL $9.5P Apr 2 expires in 6 days.
-4. 🔴 **PCE data Fri** — HENRY catalyst
-5. 🔴 **Iran 5-day pause expires Fri** — if talks collapse → oil spike Monday
-6. 🟠 **Batch 5 (T-01 through T-07)** — queued, not yet deployed. Claims + PCE + Iran = triple catalyst window.
-7. 🟠 **Batch 9 (T-31 through T-35)** — still needs Will's approval
-8. 🟠 **KBRA reports** — Will may pull Q4 2025 US Bank Compendium, Private Credit 2026 Outlook, Middle East Credit Implications
+### 2. KBRA Q4 2025 Bank Compendium
+- OZK: **#1 worst NCO increase** in entire KBRA universe (+77bps). #3 NPA increase. #2 deposit costs. ALL Negative outlook.
+- WAL: Stable, CET1 declining to 10.5-11.0%
+- **ZION: IMPROVING** — NCOs collapsed, CET1 highest since 4Q18. Short thesis weakest here.
+- EGBN: Negative but stabilizing
+- OZK STATUS.md updated. KB additions staged (4 rows).
 
-**Batch 9 still queued (not yet approved):**
-T-31 FXY entry timing, T-32 KRE roll pricing, T-33 IWM add decision, T-34 ZION kill conditions, T-35 diesel crack instrument
+### 3. AOCI Capital Rewrite
+- REGINALD ran 5-factor screen: OZK and WAL scored BEST — AOCI is NOT their vulnerability
+- KEY/HBAN most exposed. Street will sort regionals into good/bad bank narrative.
+- Full context saved in REGINALD inbox + capital-rewrite-2026/ folder
 
-**Open threads:**
-- APO HOLD to Apr 7, stop $113
-- HIBOR-SOFR -205bps, daily through Mar 31
-- Quarter-end SOFR watch — Mar 31 = zero RRP + 20Y settlement
-
-**Process learning (Session 6):** Will navigating websites + pasting screenshots/PDFs → Prome extracting and synthesizing = excellent repeatable workflow. KBRA surveillance reports = high-value free source for insurance analysis. BROCK subagent found N-4/A as source of audited statutory data — SEC filings contain statutory financials for insurance companies registering variable annuities.
+## Next session priorities
+1. 🔴 **Claims 8:30 AM ET** — Use HENRY Triple Catalyst Playbook. Mullin +40-60K shadow.
+2. 🔴 **USO $118C Mar 27 expires TODAY** — ride or cut at open
+3. 🔴 **PCE data Fri** — HENRY catalyst
+4. 🔴 **Iran 5-day pause expires Fri** — if talks collapse → oil spike Monday
+5. 🟠 **Batch 5 (T-01→T-07)** — queued, not deployed
+6. 🟠 **Batch 9 (T-31→T-35)** — needs Will approval. T-34 ZION kill conditions now MORE urgent given KBRA data showing improvement
+7. 🟠 **REGINALD KB integration** — 4 pending rows in KB_ADDITIONS.tsv need to be committed to main KB
+8. 🟡 **KBRA Private Credit 2026 Outlook** — paywalled but high value if Will has access
 
 ## WILL_QUEUE
 
