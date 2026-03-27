@@ -160,6 +160,7 @@ The "Beneath the Ice" thesis weakens if:
 | File | Purpose |
 |------|---------|
 | `SCRATCH.md` | Ephemeral handoff. Rewritten every session. **Read FIRST at boot.** ≤30 lines. |
+| `THESIS.md` | Thesis of record — "Beneath the Ice" v2.0, load-bearing vectors, composition shift, exit rules. Read when assessing conviction or trade proposals. |
 | `ACTION_PLAN.md` | Prioritized to-do list. Read when spawned for maintenance/housekeeping tasks. |
 | `red_team/` | Counter-evidence, thesis-weakening data, competing hypotheses. NOT boot material — read when assessing conviction. |
 | `STATUS.md` | Live state — dashboard, K-shape, predictions. **Primary memory.** ≤250 lines. |
