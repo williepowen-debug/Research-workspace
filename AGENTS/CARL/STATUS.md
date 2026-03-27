@@ -1,6 +1,6 @@
 # CARL STATUS
-**Updated:** 2026-03-27 ~19:45 UTC
-**Overall:** 🔴🔴 CRITICAL — Convergence 44/50. Gas $3.983 ($4 breakpoint). Q3 = consumption stress quarter.
+**Updated:** 2026-03-27 ~22:30 UTC
+**Overall:** 🔴🔴 CRITICAL — Convergence 44/50. Gas $3.983 ($4 breakpoint). JOLTS inverted (0.94). Q3 = consumption stress quarter.
 
 *Check-in archives: `domain/sources/STATUS_archive_20260327.md`, `workbook/STATUS_archive_20260325.md`, `workbook/STATUS_archive_mar1_mar15.md`*
 
@@ -38,9 +38,10 @@
 | Diesel | **$5.10** | 🔴🔴 |
 | Brent | **$108+** | 🔴🔴 |
 | HY OAS | **328bps** (RED >320) | 🔴 |
-| Savings Rate | Dec 3.6% = 2008 match | 🟠 |
+| Savings Rate | **4.5% Jan** (up from 3.6% Dec) | 🟠 |
 | Urea NOLA | **$683/mt** (watch $800) | 🔴🔴 |
 | Russia AN | **SUSPENDED** | 🔴🔴 |
+| JOLTS Ratio | **0.94 — INVERTED** (Jan 2026) | 🔴 |
 | Unemployment Duration | **25.7 wks** (4-yr high) | 🔴 |
 | UI Exhaustion Spending Hole | **$650M/mo** (peak $930M/mo July) | 🔴🔴 |
 
@@ -67,10 +68,11 @@
 
 ## THESIS
 
-**"Beneath the Ice" — 60% structurally fragile, employment is detonator.**
-- 37% can't cover $400 | 53% can't cover $1,000 | 60%+ paycheck-to-paycheck
-- **Paths:** A (Employment→Subprime), B (SPX→Wealth effect), C (Housing→Banks, **ACTIVATING**), F (AI→Prime mortgage), PC (Private credit→Middle-market)
-- Payment hierarchy: Auto → Mortgage → Student → CC
+**"Beneath the Ice" v2.0 — 60% structurally fragile, cost squeeze is the mechanism.**
+- 37% can't cover $400 | 62% paycheck-to-paycheck | JOLTS inverted (0.94)
+- **Mechanism shift:** Employment didn't break acutely — instead, multi-vector cost squeeze (energy + food + UI exhaustion) grinding the bottom 60%. JOLTS inversion confirms structural rot. K-shape converging downward (both cohorts stressed). Subsidence, not earthquake.
+- **Paths:** A (Employment→Subprime, SLOW), B (SPX→Wealth effect), C (Housing→Banks, **ACTIVATING**), F (AI→Prime mortgage), PC (Private credit→Middle-market)
+- **Counter-signals:** Auto insurance CPI cooled (5.9% vs 20-30%), homeowners insurance decelerating (+8.5% vs 50%)
 
 ---
 
