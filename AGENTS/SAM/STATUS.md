@@ -195,15 +195,15 @@
 
 ### ENTRY PARAMETERS
 
-| Parameter | Value | Notes |
-|-----------|-------|-------|
-| **Entry level** | FXY ~$24.00–24.50 (current) | USD/JPY 160 handle = FXY at relative lows |
-| **Current size** | 4 shares | Starter |
-| **Tranche 1 — NOW** | +4 shares → **8 total** | Pre-intervention entry; captures MOF spike |
-| **Tranche 2 — On confirmation** | +4 shares → **12 total** | After BOJ Apr 23-24 or May 1 hike confirmed OR intervention fires and dips |
-| **Target size** | **12 shares** | Full position |
-| **Stop loss** | FXY ~$22.50 / USD/JPY ~167 | Oil shock full domination; intervention fails; yen blow-through |
-| **Price target (6-month)** | FXY ~$27–29 / USD/JPY ~148–152 | Post-BOJ hike + carry unwind + oil stabilization |
+| Parameter | FXY Price | USD/JPY | Notes |
+|-----------|-----------|---------|-------|
+| **Entry level** | **~$57.36** | ~160 | FXY at relative lows (verified live Mar 27) |
+| **Current size** | 4 shares ($229) | | Starter |
+| **Tranche 1 — MON OPEN** | +4 shares → **8 total (~$459)** | | Pre-intervention entry; captures MOF spike |
+| **Tranche 2 — On confirmation** | +4 shares → **12 total (~$688)** | | After BOJ Apr 23-24 or May 1 hike confirmed OR intervention dip |
+| **Target size** | **12 shares** | | Full position |
+| **Stop loss** | **~$55.05** | ~167 | Oil shock full domination; intervention fails; yen blow-through |
+| **Price target (6-month)** | **~$60–62** | ~148–152 | Post-BOJ hike + carry unwind + oil stabilization |
 
 ---
 
@@ -225,8 +225,8 @@
 
 | Risk | Probability | FXY Impact | Mitigation |
 |------|-------------|-----------|-----------|
-| **Oil shock dominates** — Kharg Island struck, Brent $120+; yen stays weak despite BOJ | 20% | FXY -10–15% | Stop at $22.50; position sized to absorb |
-| **Intervention fails** — MOF spends $37B but yen breaks to 162-163 anyway | 15% | FXY -5–8% before recovery | Hold if fundamentals intact; size allows |
+| **Oil shock dominates** — Kharg Island struck, Brent $120+; yen stays weak despite BOJ | 20% | FXY to ~$51–53 | Stop at $55.05; position sized to absorb |
+| **Intervention fails** — MOF spends $37B but yen breaks to 162-163 anyway | 15% | FXY to ~$56–57 before recovery | Hold if fundamentals intact; size allows |
 | **BOJ delays** — Tankan weak, BOJ punts past June | 10% | FXY -3–5% short term | Time gives more carry unwind buildup |
 | **Dimona→Fordow escalation** | Cuts both ways — risk-off strengthens JPY, but oil spike weakens it | Net: probably JPY positive if escalation = Fed cut path | HANS cross-ref |
 
