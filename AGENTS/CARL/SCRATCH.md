@@ -16,6 +16,7 @@
 - Outbox: sent FL pincer signal to REGINALD (exhaustion + outmigration + housing stress).
 
 ## NEXT SESSION SHOULD
+**Full prioritized plan: see `ACTION_PLAN.md`**
 1. **Check Claims data** — Mar 27 print should be available. First post-Mullin data point. Shadow gap normalization?
 2. **USDA Mar 31 prep** — 4 days away. Review current fertilizer data, prep for food CPI trajectory update.
 3. **Consolidate VX duplicates:** VX-CARL-1.01/6.01 (CC DQ) and VX-CARL-1.04/ABS-15 (subprime auto).
