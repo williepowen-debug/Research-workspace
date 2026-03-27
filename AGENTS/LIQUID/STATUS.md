@@ -1,5 +1,5 @@
 # LIQUID STATUS
-**Last Updated:** 2026-03-26 01:10 UTC | **Agent:** LIQUID | **Status:** 🔴🔴🔴 MAXIMUM STRESS — NUCLEAR ESCALATION + DIMONA STRIKE + PC STAGE 3 + QUARTER-END MAR 31 (5 DAYS)
+**Last Updated:** 2026-03-27 20:16 UTC | **Agent:** LIQUID | **Status:** 🔴🔴🔴 MAXIMUM STRESS — NUCLEAR ESCALATION + DIMONA STRIKE + PC STAGE 3 + QUARTER-END MAR 31 (1 TRADING DAY)
 
 ---
 
@@ -24,30 +24,34 @@ Gas $3.983/gal (+34%). Payment hierarchy compression: bottom 60% cuts CC payment
 
 ---
 
-## Live Spread Table (Mar 24 Close)
+## Live Spread Table (Mar 27 Close)
 
-| Spread | Mar 24 | Change | Threshold | Status |
-|--------|--------|--------|-----------|--------|
-| **HY OAS** | **319bps** | -5bps | 320 trigger / 350 freeze | 🟠 1bp BELOW trigger — CDX says more stress |
-| **IG OAS** | **87bps** | -3bps | — | 🟡 |
-| **CCC OAS** | **977bps** | -2bps | 1000bps | 🟠 23bps from threshold |
+| Spread | Mar 27 | Δ vs Mar 24 | Threshold | Status |
+|--------|--------|-------------|-----------|--------|
+| **HY OAS** | **~319bps** | ~flat | 320 trigger / 350 freeze | 🟠 1bp BELOW trigger — CDX says more stress |
+| **IG OAS** | **~87bps** | ~flat | — | 🟡 |
+| **CCC OAS** | **~977bps** | ~flat | 1000bps | 🟠 23bps from threshold |
 | **CDX** | 9-mo high | ↑ | — | 🔴🔴 Divergence from cash HY = head-fake |
 
-**CDX divergence:** Cash HY slightly improved, CDX (synthetic) at 9-month high → derivatives market pricing MORE stress. Cash HY will reprice to CDX, not vice versa. HY yield: 6.95% (Mar 17), approaching 7% threshold = forced selling regime.
+**CDX divergence:** Cash HY flat, CDX (synthetic) still at 9-month high → derivatives market pricing MORE stress. Cash HY will reprice to CDX, not vice versa. HY yield approaching 7% threshold = forced selling regime.
 
 ---
 
-## Plumbing Dashboard (Mar 24)
+## Plumbing Dashboard (Mar 27)
 
 | Metric | Value | Threshold | Status |
 |--------|-------|-----------|--------|
-| **RRP** | $1.123B | >$5B buffer | 🔴 ZERO — no shock absorber |
-| **SOFR** | 3.63% | Flag >3.70 | 🟡 Loose — window dressing starts Mar 25-26 |
+| **RRP** | ~$1B | >$5B buffer | 🔴 ZERO — no shock absorber |
+| **SOFR** | 3.64% (Mar 25) | Flag >3.70 | 🟡 +1bp — window dressing underway |
+| **EFFR** | 3.64% (Mar 26) | — | 🟡 Stable within target |
 | **Reserves** | $3.020T (Mar 18) | $2.7T floor | 🟡 $320B cushion |
 | **Fed T-Bills** | $352B | — | 🔴 Exceeds COVID peak ($325B) — stealth injection |
 | **FHLB issuance** | +31% YoY | — | 🔴 SVB-era pre-stress pattern |
+| **10Y yield** | 4.46% (Mar 27) | >5.0% | 🟠 +8bps today, +78bps from Mar 21 |
+| **2Y yield** | 4.02% (Mar 27) | — | 🟠 Above 4.0% — Fed cut expectations repriced |
+| **MOVE index** | Spiking >52wk avg | — | 🔴 Treasury vol elevated — RSM "stress signals" |
 
-**Quarter-end Mar 31 setup:** Zero RRP + 20Y settlement ($17B+) on exact quarter-end + window dressing + pension rebalancing. Base case: SOFR +3-8bps Mar 27-28, normalizes Apr 1. Tail: SOFR >15bps + Brent >$110 = genuine liquidity test. **Monitor SOFR daily through Apr 1.**
+**Quarter-end Mar 31 setup:** Zero RRP + 20Y settlement ($17B+) on exact quarter-end + window dressing + pension rebalancing. SOFR +1bp so far — still GREEN on playbook. Treasuries selling off into Q-end (10Y +8bps today to 4.46%, 2Y through 4.0%). MOVE spiking = vol premium rising. **ONE TRADING DAY to Mar 31. Monitor SOFR publication Mon AM (reflects Fri activity).**
 
 ---
 
@@ -96,8 +100,7 @@ Gas $3.983/gal (+34%). Payment hierarchy compression: bottom 60% cuts CC payment
 
 | Window | Risk |
 |--------|------|
-| **Mar 27-28** | Window dressing → SOFR spike. Zero RRP = no buffer. Monitor daily. |
-| **Mar 31** | 20Y settlement + quarter-end + zero RRP. 2019 analog. SRF backstop (stigmatized). |
+| **Mar 31 (MON)** | 🔴 20Y settlement + quarter-end + zero RRP. 2019 analog. SRF backstop (stigmatized). ONE TRADING DAY AWAY. |
 | **Mar 26-Apr 3** | ARESSI, OBDCII reports — PC hard data confirmation of Stage 3. |
 | **Apr 10-15** | April CPI — embeds $108+ oil → upside print → Fed cuts re-priced away |
 | **Apr 20-25** | Japan March trade balance → life insurer repatriation hard data. LNG 5x worse than modeled. |

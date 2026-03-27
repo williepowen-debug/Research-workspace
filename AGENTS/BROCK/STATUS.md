@@ -1,5 +1,5 @@
 # BROCK STATUS — Private Credit / BDC / Alt Assets
-**Updated:** 2026-03-26 20:00 UTC | **Status:** 🔴🔴 STAGE 2→3 TRANSITION ACTIVE
+**Updated:** 2026-03-27 20:25 UTC | **Status:** 🔴🔴🔴 STAGE 3 CONFIRMED — FORCED MARKS / SELLING ACTIVE
 
 ---
 
@@ -8,7 +8,9 @@
 | Indicator | Value | Status | Source |
 |-----------|-------|--------|--------|
 | Fund gates (confirmed) | **9 funds / 8 weeks** | 🔴🔴 | Bloomberg/Reuters/CNBC |
+| Interval fund contagion | Cliffwater 14% requests (2x cap), selling $1B | 🔴🔴 NEW | WealthMgmt Mar 26 |
 | Trapped capital | **>$2B+** behind gates | 🔴🔴 | EST from filings |
+| PC inflows Jan-Feb 2026 | **Down >33%** vs prior period | 🔴 NEW | Morningstar/Bloomberg Mar 26 |
 | True default rate | **~8% total distress** (MS); reported 1.5% | 🔴🔴 | MS Mar 25 / CNBC |
 | Fitch PCDR | 5.8% trailing; **9.2% 2025 cohort** (record) | 🔴🔴 | Fitch Feb 2026 |
 | BDC NAV discount | **~25% avg** (78¢ per share) | 🔴 | Raymond James Mar 23 |
@@ -20,7 +22,16 @@
 | BCRED | First monthly loss (3+ yrs). Reflexivity active. | 🔴 | Bloomberg Mar 20 |
 | FSK | **Junk** (Baa3→Ba1). Non-accruals 5.5%. -30% YTD. | 🔴🔴 | Moody's Mar 23 |
 | Insider admission | Zito (Apollo): "All marks wrong." 20-40¢ recovery. | 🔴 | CNBC Mar 16 |
-| Narrative | **Mainstream** — CNBC/FT/WSJ/Fortune/Economist/PIMCO | 🔴 | Mar 12-25 |
+| Narrative | **Mainstream + systemic** — Bloomberg "take down economy" piece Mar 27 | 🔴🔴 | Mar 12-27 |
+| APO sentiment score | **38→22** (Mar 14→25), down 22% YTD | 🔴 | 247WallSt Mar 25 |
+| APO spread compression | **17bps YoY**, net spread 1.20%, CoF +30.9% Q4 | 🔴 | AOL/247WS Mar 25 |
+| Blue Owl → family offices | Pivoting distribution as retail flees | 🟠 | Bloomberg Mar 27 |
+| Blue Owl → Century Capital | OWL triggered collapse of Century Capital | 🔴 | Yahoo Mar 25 |
+| Ostrover denial vs. reality | "No increase in defaults" while fund FULLY GATED — same week | 🔴🔴 NEW | Bloomberg Mar 26 |
+| Industry disclosure admission | Execs admitting "failed to clearly explain liquidity restrictions" | 🔴🔴 NEW | Bloomberg Mar 26 |
+| Apollo ADS 45¢/$1 | Returning 45 cents on dollar for $25B fund redemptions | 🔴🔴 NEW | CNBC/Reuters Mar 23 |
+| BCRED cap raise 5%→7.9% | Raised quarterly cap to contain demand — not generosity | 🔴 NEW | WealthMgmt.com Mar 2026 |
+| Narrative: fully mainstream | Motley Fool + Seeking Alpha + Forbes all running PC crisis stories | 🔴 NEW | Mar 26-27 |
 
 ---
 
@@ -38,7 +49,7 @@
 |-------|-------------|--------|----------|
 | 1 | Inflow slowdown | ✅ DONE | Fundraising frozen, $10B+ Q1 outflows |
 | 2 | Outflows > inflows, gates | ✅ ACTIVE | 9 gates, $2B+ trapped, 11.2% APO / 11.6% ARES requests |
-| 3 | Forced marks / selling | 🔶 ENTERING | JPM collateral markdowns, BCRED first loss, 25% BDC discount, FSK junk |
+| 3 | Forced marks / selling | ✅ ACTIVE | JPM markdowns + margin calls, BCRED first loss, Apollo 45¢/$1, ARES/APO/BL+OWL 4 gates in 72hrs, industry admits disclosure failure |
 | 4 | Bank transmission | ⬜ NEXT | DB $30B quantified, JPM margin calls issued, WFC $59.7B exposure |
 | 5 | Regulatory / rating cascade | 🔶 EARLY | FSK downgrade = first domino. NAIC PBR guardrails (APF 2025-16) constrain Athene. |
 | 6 | Systemic contagion | ⬜ NOT YET | — |
@@ -78,7 +89,7 @@
 | Date | Event | Priority | Impact |
 |------|-------|----------|--------|
 | **Late Apr/May** | ARES Q1 2026 earnings (ARCC + ARES Mgmt) | 🔴🔴 | Non-accrual / NAV / dividend coverage → add trigger |
-| **Mar 27-Apr 3** | OBDCII Q1 report | 🔴🔴 | OWL Apr puts live. Gate = Stage 3 confirmation. |
+| **Mar 27-Apr 3** | OBDCII Q1 report — **NOT YET FILED as of Mar 27 close** | 🔴🔴 | OWL Apr puts live. Gate = Stage 3 confirmation. |
 | **Mar 31** | APO Realty Income JV close ($1B) | 🟠 | Capital deployment during own stress |
 | **Apr 22-25** | BARPCC Q1 redemption | 🟠 | Gate count watch |
 | **Apr 23-26** | OCINCC Q1 redemption | 🟠 | Gate count watch |
@@ -133,7 +144,8 @@
 
 - ARES Q1 2026 earnings: expected late April / early May. 10-K (Q4 2025) filed Feb 25, 2026.
 - ARESSI redemption data: 11.6% requests already confirmed (KB-BRK-062). Gate in effect. Watch for Q1 2026 update.
-- OBDCII Mar 27: does suspended tender = formal gate? How does market react?
+- **OBDCII Q1 report NOT filed as of Mar 27 close.** Window still open through Apr 3. OWL $9.5P Apr 2 expires in 6 days — decision needed by Mon/Tue.
+- OBDCII: does suspended tender = formal gate? How does market react?
 - APO $100P Apr bid price: Will needs to verify live.
 - 11.2% redemption source: Piper Sandler or SEC filing? Needs confirmation.
 - VX.tsv stale (Mar 16): 15 vectors need sync to current data (9 gates not 5, MS 8% not Fitch 5.8%).
