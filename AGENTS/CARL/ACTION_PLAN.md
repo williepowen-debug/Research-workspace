@@ -47,13 +47,13 @@ Pulled Mar 27. Initial 210K, continuing 1,819K (lowest since May 2024). Counter-
 - ~~Merge VX-CARL-1.01 / VX-CARL-6.01~~ — consolidated, 6.01 marked CONSOLIDATED
 - ~~Merge VX-CARL-1.04 / VX-CARL-ABS-15~~ — consolidated, ABS-15 marked CONSOLIDATED
 
-### 3.2 Stale VX Refresh
-- ~15 VX rows last updated 2026-01-22 (over 2 months). Pull current data or mark [STALE]:
-  - VX-CARL-1.03, 1.05, 1.06, 1.07, 1.08, 1.09
-  - VX-CARL-2.01 through 2.06
-  - VX-CARL-3.01, 3.04
-  - VX-CARL-4.01, 4.02, 4.03
-  - VX-CARL-5.01 through 5.06
+### ~~3.2 Stale VX Refresh~~ — DONE (Mar 27, Segment D)
+- 21 rows refreshed across 4 tiers:
+  - Tier A (govt): 3 rows — JOLTS inverted (RED), savings confirmed, auto insurance cooled (GREEN)
+  - Tier B (industry): 10 rows — trade-down upgraded (RED), CA FAIR upgraded (RED), insurance cooled (GREEN)
+  - Tier C (annual): 6 rows reclassified as SLOW CADENCE with next update dates
+  - Tier D (specialized): 3 rows marked DEFERRED pending Segment E
+- Status changes: 3.01 YELLOW→RED, 2.04 YELLOW→GREEN, 2.03 YELLOW→GREEN, 4.03 ORANGE→RED, 5.06 ORANGE→RED
 
 ### ~~3.3 STATUS.md Cleanup~~ — DONE (Mar 27)
 - ~~Archive check-in blocks~~ — archived to `domain/sources/STATUS_archive_20260327.md`
