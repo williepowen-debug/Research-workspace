@@ -4,6 +4,30 @@ Running log of data that weakens the "Beneath the Ice" thesis. Newest first.
 
 ---
 
+## 2026-03-27 — Auto Insurance CPI Collapsed to 5.9% YoY
+
+**Data:** BLS CPI Feb 2026: motor vehicle insurance +5.9% YoY, -0.3% MoM. Previously tracked at 20-30% YoY. [BLS, released Mar 12]
+
+**Why it matters:** Auto insurance was a key cost-squeeze vector — regressive, unavoidable, compressing bottom 60% disposable income. At 5.9%, it's back inside the GREEN threshold (<10%). This removes one of the cost vectors that was supposed to compound with energy and food to break the consumer. If homeowners insurance is also decelerating (see below), the "insurance squeeze" leg of the thesis is substantially weakened.
+
+**Thesis impact:** Moderate weakening of the cost-squeeze mechanism. Energy ($4/gal) and food (nitrogen seizure) are still intensifying, but insurance relief gives the bottom 60% slightly more breathing room on fixed costs. VX-CARL-2.04 downgraded YELLOW → GREEN.
+
+**What would change my mind back:** Auto insurance re-accelerates above 15% YoY due to tariff pass-through on parts/vehicles (possible Q2-Q3 as tariffs bite).
+
+---
+
+## 2026-03-27 — Homeowners Insurance Decelerating Nationally
+
+**Data:** National new-policy avg $1,950 (+8.5% YoY) per Insurify/Bankrate. FL avg $8,292 (+18%). Citizens FL cutting rates -8.7%. Previously tracked at 50% YoY. [Insurify, Bankrate, 2025 data]
+
+**Why it matters:** Homeowners insurance was the third leg of the FL Triple Squeeze (energy + HOA + insurance). National deceleration from double-digit to single-digit removes one pressure point. FL remains elevated at +18% but Citizens cutting rates suggests the worst may be passing in FL specifically.
+
+**Thesis impact:** Mild weakening of Vector 7 (FL Triple Squeeze) and the broader cost-squeeze mechanism. BUT: FL HOA/SIRS costs are still crushing (mandatory full funding Jan 1 2026, $10K-$100K+ assessments common), so the FL squeeze has two remaining legs even with insurance easing. VX-CARL-2.03 downgraded YELLOW → GREEN.
+
+**What would change my mind back:** Major hurricane season (Jun-Nov) triggers insurer withdrawals + emergency surcharges. CA fire season repeats. Citizens FL rate cap increases to 15% in 2026.
+
+---
+
 ## 2026-03-27 — Continuing Claims Drop to Lowest Since May 2024
 
 **Data:** Initial claims 210K (+5K, benign). Continuing claims 1,819K (-32K) — lowest since May 2024. [BLS/DOL, week ending Mar 21]

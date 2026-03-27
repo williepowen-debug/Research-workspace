@@ -63,9 +63,9 @@ Triple nitrogen seizure: Gulf urea offline, China N+K halted, Russia AN suspende
 FL Wave 1 fired Mar 24. Wave 2 Apr 26. National peak July ($800M-$930M/mo spending hole). No federal safety net. This is mechanical — benefits end on a date, spending stops on a date, DQs convert on a date. The only consumer stress vector with hard dollar quantification.
 **Kill condition:** Congress passes UI extension or federal emergency program.
 
-### 5. Employment (WEAKENED — slow burn, not acute)
-NFP -92K confirmed but claims benign (210K initial, 1,819K continuing). Duration 25.7wk rising = structural, not cyclical. The employment detonator has NOT fired acutely. Stress is converting through duration (people staying unemployed longer) rather than through mass layoffs. This changes the speed of conversion but not the direction.
-**Kill condition:** Claims sustained <200K for 8+ weeks AND continuing claims drop below 1,750K.
+### 5. Employment (STRUCTURAL ROT — not acute break)
+NFP -92K confirmed but claims benign (210K initial, 1,819K continuing). **JOLTS inverted for the first time: 6.946M openings vs 7.368M unemployed = 0.94 ratio (Jan 2026).** More unemployed than job openings. Duration 25.7wk rising = structural, not cyclical. The employment detonator has NOT fired as mass layoffs — instead, the labor market is rotting from the inside. Hiring dried up, duration lengthened, and the ratio quietly flipped negative while claims stayed low. Claims mask the reality because displaced workers are churning through gig/part-time rather than filing. This changes the SPEED of conversion (slower) but not the DIRECTION (still deteriorating), and the JOLTS inversion confirms it's not just a soft patch.
+**Kill condition:** Claims sustained <200K for 8+ weeks AND continuing claims drop below 1,750K AND JOLTS ratio recovers above 1.1.
 
 ---
 
@@ -73,11 +73,15 @@ NFP -92K confirmed but claims benign (210K initial, 1,819K continuing). Duration
 
 **Original thesis (v1.0, Feb 2026):** Employment cracks → subprime auto/CC DQ spikes → bank NCOs → systemic repricing. Linear, fast, employment-first.
 
-**Current thesis (v2.0, Mar 2026):** Multiple cost vectors (energy + food + insurance + HOA) simultaneously compress the bottom 60% while housing prices decline nationally. Employment is a slow grind, not a detonator. The K-shape is converging downward (top 40% now pulling back via reverse wealth effect). Conversion happens through COST SQUEEZE + UI EXHAUSTION rather than mass layoffs.
+**Current thesis (v2.0, Mar 2026):** Multiple cost vectors (energy + food + insurance + HOA) simultaneously compress the bottom 60% while housing prices decline nationally. Employment is a slow grind, not a detonator — but JOLTS inversion (0.94 ratio, Jan 2026) confirms the labor market is structurally weaker than claims suggest. The K-shape is converging downward (top 40% now pulling back — Dollar Tree gained 6.5M HH in Q4, 60% from >$100K earners). Conversion happens through COST SQUEEZE + UI EXHAUSTION rather than mass layoffs.
+
+**Why the mechanism changed:** v1.0 assumed a single-point-of-failure system (employment breaks → credit collapses → banks eat losses). Reality is a multi-point-of-pressure system: energy, food, insurance, HOA, and UI exhaustion simultaneously compressing disposable income from different directions, while employment weakens structurally rather than breaking acutely. We expected an earthquake; we got subsidence — the ground is sinking everywhere, slowly, from multiple causes. The destination (consumer credit crisis → bank losses) is the same; the path is different.
 
 **What this means for timing:** Slower than v1.0 modeled. Q2-Q3 stress, but grinding rather than step-function. The acute break requires either (a) gas sustained >$4.50, (b) food CPI visibly spiking, or (c) a catalyst we haven't modeled (CVNA fraud event, private credit cascade, geopolitical escalation).
 
 **What this means for trades:** Longer duration needed. The thesis plays out over quarters, not weeks. Roll timelines, don't trim positions.
+
+**Insurance relief (Mar 27 update):** Auto insurance CPI collapsed from 20-30% to 5.9% YoY. Homeowners insurance decelerating (national +8.5%, FL +18%, down from 50%). Two cost-squeeze vectors easing. This partially offsets the thesis but is outweighed by energy, food, and UI exhaustion vectors intensifying.
 
 ---
 
@@ -96,7 +100,7 @@ NFP -92K confirmed but claims benign (210K initial, 1,819K continuing). Duration
 | 9 | K-Shape Converging | 5 | Active, max |
 | 10 | Foreclosure + Housing | 4 | STRENGTHENING (47/50 cities) |
 
-**Composition note:** Vectors 5, 7, 8, 9, 10 strengthened since inception. Labor-adjacent vectors (6) confirmed but employment acute break not visible in claims. Score holds at 44 but the weight has shifted from labor-driven to cost-driven.
+**Composition note (Mar 27 update):** JOLTS inversion confirms structural employment weakness even as claims stay benign. Trade-down accelerating (Dollar Tree 6.5M new HH, 60% >$100K). CA FAIR Plan breached 668K (RED). But auto insurance CPI cooled to 5.9% (GREEN) and homeowners insurance decelerating (GREEN) — two cost-squeeze vectors easing. Net: 3 vectors worsened, 2 improved. Score holds at 44 but weight continues shifting from labor-driven to cost-driven. The load-bearing walls are now energy + food + UI exhaustion, not employment.
 
 ---
 
@@ -123,6 +127,8 @@ NFP -92K confirmed but claims benign (210K initial, 1,819K continuing). Duration
 
 See `red_team/COUNTER_LOG.md` for full log. Current key counter-signals:
 - Claims 1,819K lowest since May 2024 (employment NOT cracking acutely)
+- **Auto insurance CPI 5.9% YoY** (collapsed from 20-30%; major cost-squeeze relief) [BLS Feb 2026]
+- **Homeowners insurance +8.5% nationally** (decelerated from 50% YoY; FL Citizens cutting -8.7%) [Insurify 2025]
 - NAR Feb +1.7% MoM with affordability improving (housing not in freefall)
 - ALLY NCO guidance 1.9% (prime auto holding)
 - GDPNow 2.7% (Q1 GDP not in recession territory)
