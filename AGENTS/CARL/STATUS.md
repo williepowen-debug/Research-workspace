@@ -108,6 +108,7 @@ GT audits ALL FOUR Garcia entities (CVNA, DriveTime, Bridgecrest/GoFi, Tricolor)
 | Urea NOLA | **$683/mt** (watch $800) | 🔴🔴 |
 | Russia AN | **SUSPENDED** | 🔴🔴 |
 | Unemployment Duration | **25.7 wks** (4-yr high) | 🔴 |
+| UI Exhaustion Spending Hole | **$650M/mo** (peak $930M/mo July) | 🔴🔴 |
 
 ---
 
@@ -147,8 +148,11 @@ GT audits ALL FOUR Garcia entities (CVNA, DriveTime, Bridgecrest/GoFi, Tricolor)
 | **Mar 24** | FL UI Wave 1 exhaustion | ✅ FIRED |
 | **Apr 26** | FL UI Wave 2 peak | 🟠 IMMINENT |
 | **Q2** | DQ conversion (Mar/Apr stress → May/Jun spike) | 🔴 UPGRADED |
+| **Jun 24** | FL Wave 1 UI exhaustion cliff (~4,500 workers) | 🔴 NEW |
 | **Q2-Q3** | Food CPI spike (triple nitrogen seizure) | 🔴🔴 |
 | **May-Jun** | Middle-market PC cuts | 🟠 |
+| **Jul-Aug** | FL exhaustion peak ($7.4M/mo hole) + national peak ($800M-$930M/mo) | 🔴🔴 NEW |
+| **Q3** | **CONSUMPTION STRESS QUARTER** — UI exhaustion + gas + food CPI converge | 🔴🔴 UPGRADED |
 | **Q4+** | Foreclosure acceleration | PROJECTED |
 
 ---
@@ -157,12 +161,12 @@ GT audits ALL FOUR Garcia entities (CVNA, DriveTime, Bridgecrest/GoFi, Tricolor)
 
 | From | Signal | Status |
 |------|--------|--------|
-| LABOR | NFP -92K, UI cliff Mar 24, duration 25.7wk | 🔴 |
+| LABOR | NFP -92K, UI cliff Mar 24, duration 25.7wk, exhaustion cascade $800M-$930M/mo peak July | 🔴🔴 |
 | HAWK | WTI $107+, gas $3.98, diesel $5.10 | 🔴🔴 |
 | WAR | Gulf escalation, Ras Laffan burning | 🔴🔴 |
 | FOMC | Hold 3.50-3.75%, 1 cut | 🔴🔴 |
 | HAWK | Triple nitrogen seizure | 🔴🔴 |
-| MARCO | ICE 1,100+/day, remittances -4.6% | 🔴 |
+| MARCO | ICE 1,100+/day, remittances -4.6%, Miami outmigration -2.0% | 🔴 |
 
 ---
 
