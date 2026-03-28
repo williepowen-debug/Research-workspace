@@ -1,5 +1,5 @@
 # REGINALD STATUS
-**Last Updated:** 2026-03-27 20:15 UTC | **Status:** 🔴🔴🔴 CRITICAL
+**Last Updated:** 2026-03-28 00:00 UTC | **Status:** 🔴🔴🔴 CRITICAL
 
 ---
 
@@ -12,11 +12,11 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 | CRE | 70% of CRE at regionals, 70-94% loss severity confirmed | 🔴 |
 | Hidden CRE | MI3 relabeling — WAL 24.2%, OZK 37.6%, EGBN 23.7%. H.8 confirms systemic. | 🔴 |
 | SSFA / NDFI | $4.2T industry-wide NDFI (+35% YoY); hidden CRE Layer 2 | 🔴🔴 |
-| Private Credit | BCRED near-gate, Blue Owl gated, FSK div -31%, TCPC fraud | 🔴 CRITICAL |
+| Private Credit | Ares gated (5% cap, 11.6% requests), Apollo 45¢/$1, bad PIK 6.4%, MS projects 8% default | 🔴🔴 CRITICAL |
 | MFS/Fraud | £2B double-pledging — Barclays/Jefferies/Apollo. Cantor $270M ring. | 🔴 |
 | CMBS Maturity | $875B total CRE maturing 2026 (MBA). $76.6B hard maturity + $400B wall pushed to 2026. No extensions. | 🔴🔴 |
 | Federal Layoffs | DOGE 307K+ confirmed. DC corridor stress ACTIVE. | 🔴 |
-| Stagflation Trap | PPI +0.7%, Brent $107+, FOMC hawkish hold, no NIM relief | 🔴🔴 |
+| Stagflation Trap | PPI +0.7%, Brent $112.57 (highest since 2022), FOMC hawkish hold, no NIM relief | 🔴🔴 |
 
 ---
 
@@ -24,37 +24,40 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 
 | Indicator | Value | Status |
 |-----------|-------|--------|
-| HY OAS | **319bps** (Mar 25) | 🔴 Still >300, slight compression |
-| KRE | **~$63.6** (Mar 27, +6% off March low) | 🔴 Bouncing but below 200d |
-| Brent | **~$120** (mid-March spike) | 🔴🔴 |
-| 10Y UST | **4.44%** (mid-March high) | 🔴 Yields surging, no relief |
-| Office CMBS DQ | 11.4% Feb (down from 12.34% ATH Jan) | 🟠 Mod-driven dip |
-| Bank CRE DQ gap | 4.18% vs CMBS 12.34% = 8.16pp masking | 🔴 |
+| HY OAS | **317bps** (Mar 27) | 🔴 Still >300, hovering near 320 threshold |
+| KRE | **$63.67** (Mar 27) | 🟠 Above $60 support, off 52wk high $74 |
+| Brent | **$112.57** (Mar 27 settle, +4.22%) | 🔴🔴 Highest since Jul 2022. Hormuz closed since Mar 2. |
+| 10Y UST | **4.42%** (Mar 27) | 🔴 Hit 4.48% intraday (highest since Jul 2025) |
+| Office CMBS DQ | **11.2%** (Feb 2026, Trepp) — pulled back from 12.34% Jan ATH on 5 loan mods | 🔴 |
+| Bank CRE DQ gap | 4.18% vs CMBS 11.2% = ~7pp masking | 🔴 |
 | FHLB Advances | ~$480B (issuance +31% YoY) | 🟠 Contingency behavior |
 | Bank Reserves | $2.8T — 4yr low, G-SIB concentrated | 🔴 |
-| Private Credit Default | 5.8% (Jan Fitch) | 🔴 Record |
+| Private Credit Default | 5.8% TTM (Jan Fitch), MS projects 8%. Bad PIK 6.4% (vs 2.5% in 2021). | 🔴🔴 Record |
 | FL Foreclosures | +35% YoY, 12th consecutive increase | 🔴🔴 |
 | "Help with mortgage" | Google Trends ATH (surpasses GFC). Lennar Q1 margin 15.2% — lowest since 2010. Path C activating. | 🔴🔴 |
 | NDFI Exposure | $1.54T total (FFIEC Q4 2025) — 5.1x prior $300B model. MS base: $80B bank losses. | 🔴🔴 |
-| PC Default Rate | MS 8% total distress (CNBC Mar 25). 9 funds gated. Warehouse lines = next transmission. | 🔴🔴 |
+| PC Gating | Ares 5% cap (11.6% requests), Apollo 45¢/$1 (11.2% requests). Warehouse lines = next transmission. | 🔴🔴 |
 | CMBS Chicago | $167M office foreclosure — 2026's largest. Loss severity benchmark established. | 🔴 |
 | Construction Labor | ICE raids → 57 Concrete bankruptcy (TX). 1-in-3 workers foreign-born. Q2 start data at risk. | 🔴 |
+| AOCI Reinclusion | Fed/FDIC/OCC capital rewrite: mandatory AOCI phase-in for Cat III/IV. $49.5B aggregate hit across 21 banks. Comment period closes Jun 18. | 🔴 NEW |
+| MS $85B Transfer | Fed approved MS moving $85B broker-dealer→insured bank (4-3 vote, first ever). Regulatory capture signal — G-SIBs favored, regionals won't be. | 🟠 NEW |
 
 ---
 
 ## RESEARCH — OZK
 
-**KB: 159 rows, 17 groups** | **Earnings: Apr 16 (~22 days)**
+**KB: 159 rows, 17 groups** | **Earnings: Apr 16 (~20 days)** | **Price: $46.43 (Mar 27, -2.17%)**
 - 10 prompts done (#1-7, 15, 16, 20). 5 remaining (#8 Metropolitan, #9 Affinius, #10 sell-side, #13 peer vintage, #19 metro conditions)
 - LIFE_SCI deepest cluster (21 rows). RaDD 3.3% leased, maturity Aug 2028.
 - Temple 8 short thesis published. OZK = reservoir thesis (stress accumulates → maturity wall forces recognition).
 - Full architecture: INDEX → STATUS → THESIS → KB.tsv → KB_INDEX. Boot ~15 min.
 
 **Key numbers:** CRE/Tier 1 358% (adj 405-420%), ACL 1.16%, NCO 1.18% (5.4x peers), noncurrent 1.06% (1.7x peers), MI3/C&I 37.6% (worst), 89.7% construction on interest reserves.
+**⚡ AOCI exposure:** Cat III/IV — mandatory unrealized AFS loss recognition phasing in. Street buying headline relief while AOCI is the buried bomb.
 
 ## RESEARCH — WAL
 
-**KB: 70 rows, 10 groups** | **Earnings: Apr 21 (~26 days)** | **EARNINGS_PREP: B+→A-**
+**KB: 70 rows, 10 groups** | **Earnings: Apr 21 (~25 days)** | **EARNINGS_PREP: B+→A-** | **Price: ~$67-68 (Mar 27) ⚠️ BELOW $78 THRESHOLD**
 - Architecture complete (Mar 25): INDEX, THESIS, STATUS, SCENARIOS, WEAKNESSES, EARNINGS_PREP, EXTERNAL_PROMPTS.
 - 5 external prompts ready. EARNINGS_PREP upgraded Mar 26 with new signals.
 - WAL = fast-transmission thesis (episodic, sudden — bypasses delinquency pipeline).
@@ -63,7 +66,8 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 
 **Three vectors:** V1 Hidden CRE (MI3) | V2 Jefferies/fraud (CONFIRMED Mar 25) | V3 SSFA/NDFI warehouse
 
-**⚡ Jefferies Q1 confirmed.** EPS $0.70 vs $0.91 (-23%). $17M MFS losses on P&L. V2 chain confirmed. SMFG backstop walked back.
+**⚡ Jefferies Q1 confirmed.** EPS $0.70 vs $0.91 (-23%). $17M MFS losses + $36M telecom writedown + First Brands fraud (→ OTTO T-15 Mar 31 auction, $800M gap). 24% FI revenue decline. V2 chain confirmed. SMFG backstop walked back.
+**⚡ AOCI exposure:** Cat III/IV — same AOCI bomb as OZK. Forced recognition of underwater AFS/HTM from 2022-23 rate shock.
 **⚡ Analyst downgrades (Mar 26):** Weiss Buy→Hold | Barclays PT $105→$90 | WFC PT $83→$79. Consensus PT ~$85-90. Thesis PT $47-60.
 **⚡ Macro amplifiers:** $400B CRE maturity wall in 2026 | NDFI $1.54T (V3 amplified) | Mortgage distress ATH | CMBS $167M Chicago office foreclosure.
 
@@ -91,20 +95,20 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 
 | Date | Event |
 |------|-------|
-| **Mar 25** | **Jefferies fiscal Q1 confirmed** — EPS $0.70 vs $0.91 (-23%). $17M MFS losses. V2 chain confirmed. |
-| Mar 26 | ARESSI — private credit catalyst (BROCK) |
-| Mar 27 | OBDCII — private credit catalyst (BROCK) |
-| Mar 27 | USO $118C expiry |
+| ~~Mar 25~~ | ~~JEF Q1~~ — DONE. EPS $0.70 vs $0.91 (-23%). $17M MFS losses. V2 confirmed. |
+| ~~Mar 26~~ | ~~ARESSI~~ — DONE. (Check BROCK for results.) |
+| **Mar 27** | **OBDCII Q1 report — TODAY.** OWL $9.5P Apr 2 expires in 6 days. |
+| ~~Mar 27~~ | ~~USO $118C expiry~~ — TODAY, resolve at close. |
 | **Mar 27** | **Bloomberg: Citi weighing US regional bank acquisition** — dismissed as "baseless speculation" by Citi. C -4.5%. Signal: G-SIBs smelling regional distress = acquisition optionality. |
-| **Mar 27** | **CMBS office DQ dips to 11.4% Feb** (from 12.34% ATH Jan) — mod-driven, NOT organic recovery. $100B+ CMBS matures 2026, >50% expected default. |
-| **Mar 23-27** | **ZION acquires Basis Investment Group agency lending** (Fannie/Freddie multifamily). Adds CRE MF exposure at cycle peak. |
-| **Mar 19** | **Basel III Endgame re-proposal** — $87.7B system-wide capital relief, 5.2% reduction for large regionals. Comments due Jun 18. Eases capital pressure but DOES NOT fix CRE quality. |
+| **Mar 23-27** | **ZION acquires Basis Investment Group agency lending** (Fannie/Freddie MF). Adds CRE MF exposure at cycle peak. |
+| **Mar 31** | **First Brands auction** — $800M gap, recovery data feeds BROCK + REGINALD (OTTO T-15) |
 | Apr 1 | eSLR relaxation effective |
 | Apr 10 | CPI (captures oil shock) |
 | **Apr 16** | **OZK Q1 earnings — detonation event** |
 | Apr 20-29 | Q1 bank earnings wave (ZION → WAL → VLY → EGBN) |
 | May 12 | WAL Investor Day |
 | May 21 | Epstein class action deadline (APO) |
+| **Jun 18** | **AOCI capital rewrite comment period closes** — finalization likely H2 2026/Q1 2027 |
 
 ---
 
@@ -113,11 +117,11 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 | Condition | Current | Threshold | Fired? |
 |-----------|---------|-----------|--------|
 | Claims >300K | ~213K | LABOR → all ORANGE→RED | Not yet |
-| HY OAS >320bps | **320-328** | CARL → credit confirmed | 🔴 **YES** |
-| HY OAS 350 (freeze) | ~328 | Issuance freeze | 🟠 |
+| HY OAS >320bps | **317** (Mar 27) | CARL → credit confirmed | 🔴 Previously fired, slight retreat |
+| HY OAS 350 (freeze) | ~317 | Issuance freeze | 🟠 |
 | CLO AAA >165bps | ~125bps | LIQUID → BDC transmission | Not yet |
 | iTraxx Senior Fin >100bps | ~95bps | EU→US contagion (HANS) | 🟠 |
-| SOFR-IORB >+15bps | -1bp | LIQUID → FHLB spike | Not yet |
+| SOFR-IORB >+15bps | ~0bp (Mar 27) | LIQUID → FHLB spike | Not yet |
 
 ---
 
@@ -136,8 +140,8 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 
 | Agent | Key Signal | Status |
 |-------|------------|--------|
-| CREED | Office 12.34% ATH, $875B maturity wall | 🔴 |
-| BROCK | PCDR 5.8%, BCRED near-gate | 🔴 CRITICAL |
+| CREED | Office 11.2% (Feb, off 12.34% Jan ATH on loan mods), $875B maturity wall | 🔴 |
+| BROCK | PCDR 5.8% (MS projects 8%), Ares+Apollo gated, bad PIK 6.4% | 🔴🔴 CRITICAL |
 | CORAL | FL #2 foreclosure, migration -93% | 🔴 |
 | BELT | MS +109bps mortgage DQ | 🔴 |
 | RENO/TEX | Dormant | 🟡 |
@@ -160,6 +164,15 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 
 - **Exit 50%:** Claims <240K sustained + CBRE >-5%
 - **Exit 100%:** BTFP 2.0 announced OR HY OAS <260bps
+
+---
+
+## ⚠️ THRESHOLD BREACHES (as of Mar 27)
+
+| Metric | Threshold | Current | Note |
+|--------|-----------|---------|------|
+| WAL | <$78 | **~$67-68** | Breached. Hidden CRE thesis accelerating. Analyst downgrades confirmed. |
+| HY OAS | >320bps | 317bps | Previously breached (hit 320-328), slight retreat. Still elevated. |
 
 ---
 
