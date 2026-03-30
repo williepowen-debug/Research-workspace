@@ -1,55 +1,43 @@
 # CARL SCRATCH
-**Last session:** 2026-03-27 ~21:30 UTC
-**Type:** Segment D — Stale VX refresh (21 rows, all tiers)
+**Last session:** 2026-03-29 ~22:00 UTC
+**Type:** Signal dispatch + data refresh
 
 ---
 
 ## WHAT HAPPENED
-1. **Full VX audit:** Categorized 21 stale rows (all dated Jan 22-24) into 4 tiers by data source type.
-2. **Tier A (3 rows, government):** JOLTS, savings rate, auto insurance CPI refreshed.
-   - **JOLTS INVERTED:** Jobs spread flipped from +8 to -4 pts (6.946M openings vs 7.368M unemployed = 0.94 ratio). YELLOW → RED.
-   - **Auto Insurance CPI COOLED:** 5.9% YoY (was 20-30%). YELLOW → GREEN. COUNTER-SIGNAL.
-   - **Savings rate confirmed:** 4.5% Jan, Feb due Apr 9.
-3. **Tier B (10 rows, industry):** BNPL, rent, HOA, insurance, utilities, auto denial, trade-down, P2P, CA FAIR, medical debt.
-   - **Trade-down UPGRADED:** Dollar Tree +6.5M new HH Q4, 60% from >$100K. ORANGE → RED.
-   - **CA FAIR Plan UPGRADED:** 668K policies ($724B exposure). ORANGE → RED. Breached 600K threshold.
-   - **Utility arrears worsening:** ~$25B (from $23B). LIHEAP cut to $4.05B.
-   - **Homeowners insurance COOLED:** FL +18%, Nat'l +8.5%. YELLOW → GREEN. COUNTER-SIGNAL.
-   - **CFPB medical debt rule VACATED** (Jul 2025). Debt stays on reports.
-4. **Tier C (6 rows, annual):** Reclassified as SLOW CADENCE with next expected update dates. No new data available.
-5. **Tier D (3 rows, specialized):** Marked DEFERRED pending Segment E ABS pull.
+1. **JOLTS inversion signal dispatched (2 signals):**
+   - `outbox/SIG-CARL-LABOR-20260329-jolts-inversion.md` → LABOR (🔴)
+   - `outbox/SIG-CARL-PROME-20260329-jolts-inversion.md` → PROME (🔴)
+   - Key data: 0.94 ratio, 6.946M openings vs 7.368M unemployed, spread -4 pts
+   - Framed as "subsidence not earthquake" — structural rot, not acute shock
+2. **Gas price refreshed:** $3.981 (AAA Mar 29). Still hasn't formally printed $4.00. Up $1.00 since Feb 26.
+3. **Urea NOLA updated:** $690s/ton (was $475 early March = +45%). STATUS updated.
+4. **USDA Mar 31 preview researched:**
+   - Corn acreage expected ~93M (USDA) to 96M (Rabobank), down from 99M in 2025
+   - "Soybean pivot" — corn net loss >$210/acre at current fertilizer prices
+   - Report drops Mon Mar 31 at noon ET (11 AM CDT)
+   - Chain: nitrogen seizure → corn acreage cut → corn supply tightens → food CPI Q3-Q4
 
-## STATUS CHANGES SUMMARY
-| VX ID | Direction | Old → New |
-|-------|-----------|-----------|
-| 3.01 Jobs Spread | WORSENED | YELLOW → RED (INVERTED) |
-| 2.04 Auto Insurance | IMPROVED | YELLOW → GREEN |
-| 2.03 Homeowners Insurance | IMPROVED | YELLOW → GREEN |
-| 4.03 Trade-down | WORSENED | ORANGE → RED |
-| 5.06 CA FAIR Plan | WORSENED | ORANGE → RED |
-
-**Net:** 3 worsened, 2 improved. Jobs spread inversion is the biggest new signal.
+## STATUS CHANGES
+| Item | Change |
+|------|--------|
+| Gas Pump | $3.983 → $3.981 (confirmed, still sub-$4) |
+| Urea NOLA | $683 → $690s (updated from fresh search) |
+| Catalysts line | USDA countdown updated to 2 days |
 
 ## NEXT SESSION SHOULD
-**Full prioritized plan: see `ACTION_PLAN.md`**
-Top priorities:
-1. **USDA Mar 31** — 3 days. Triple nitrogen seizure → food CPI trajectory.
-2. **Gas $4.00 documentation** — $3.983 as of Mar 26. Document when it formally prints.
-3. **KB-026 refresh** — Fannie MF DQ rate. Need Feb 2026 PDF.
-4. **Segment E** — ABS baselines decision (12 PENDING vectors).
-5. **Jobs spread inversion** — consider signal to LABOR/PROME. JOLTS inverted is a major development.
-
-## URGENT
-- USDA Mar 31 (3 days) — food CPI trajectory.
-- Gas $4.00 formal print imminent ($3.983).
-- JOLTS inversion — new RED vector. May warrant cross-agent signal.
+1. **USDA Mar 31 (MONDAY)** — Pull Prospective Plantings + Grain Stocks when released (noon ET). Update KB, VX-CARL-FOOD-01/02.
+2. **Gas $4.00 formal print** — Check AAA daily. Document as KB entry when it crosses.
+3. **KB-026 Fannie MF DQ** — Still needs Feb 2026 PDF. 0.74% → watching 0.80% breach.
+4. **Segment E ABS decision** — 12 PENDING vectors still unresolved.
+5. **Check signal delivery** — JOLTS signals in outbox awaiting HERMES pickup.
 
 ## PENDING SIGNALS
-- Outbox: SIG-CARL-REGINALD-20260327-fl-pincer.md (awaiting HERMES delivery)
-- **NEW:** Consider JOLTS inversion signal to LABOR/PROME.
+- `outbox/SIG-CARL-REGINALD-20260327-fl-pincer.md` (awaiting HERMES)
+- `outbox/SIG-CARL-LABOR-20260329-jolts-inversion.md` (NEW, awaiting HERMES)
+- `outbox/SIG-CARL-PROME-20260329-jolts-inversion.md` (NEW, awaiting HERMES)
 
-## KEY CONTEXT FOR NEXT CARL
-- Segment D (stale VX refresh) is DONE. All 21 rows updated.
-- Two counter-signals found: auto insurance CPI cooled (GREEN), homeowners insurance decelerating (GREEN).
-- Jobs spread inversion is thesis-SUPPORTING (employment weakening by structure, not claims).
-- ACTION_PLAN.md needs Segment D marked done.
+## URGENT
+- USDA Mon Mar 31 noon ET — food CPI trajectory catalyst
+- Gas $4 formal print imminent
+- 3 signals in outbox awaiting HERMES delivery

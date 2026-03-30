@@ -34,12 +34,12 @@
 ### Macro / Energy / Stress
 | Metric | Value | Status |
 |--------|-------|--------|
-| Gas Pump | **$3.983 — $4 BREAKPOINT** | 🔴🔴 |
+| Gas Pump | **$3.981 — $4 BREAKPOINT (Mar 29)** | 🔴🔴 |
 | Diesel | **$5.10** | 🔴🔴 |
 | Brent | **$108+** | 🔴🔴 |
 | HY OAS | **328bps** (RED >320) | 🔴 |
 | Savings Rate | **4.5% Jan** (up from 3.6% Dec) | 🟠 |
-| Urea NOLA | **$683/mt** (watch $800) | 🔴🔴 |
+| Urea NOLA | **$690s/mt** (was $475 early Mar, watch $800) | 🔴🔴 |
 | Russia AN | **SUSPENDED** | 🔴🔴 |
 | JOLTS Ratio | **0.94 — INVERTED** (Jan 2026) | 🔴 |
 | Unemployment Duration | **25.7 wks** (4-yr high) | 🔴 |
@@ -125,6 +125,6 @@
 - **Thesis kill:** Claims <220K 8+ weeks AND CC 90+ DQ declines 2 consecutive quarters
 - **Time-based:** Q1 consumer earnings (April) = mandatory review
 
-*Next catalysts: ✅ $4/gal CONFIRMED | ✅ FL UI Wave 1 PASSED | HY OAS 350 | USDA Mar 31 (5 days) | $4.50/gal (~2-3 wks) | April CPI | Q1 earnings April*
+*Next catalysts: ✅ $4/gal IMMINENT ($3.981) | ✅ FL UI Wave 1 PASSED | HY OAS 350 | **USDA Mar 31 (2 days)** — corn -5-6M acres expected | $4.50/gal (~2-3 wks) | April CPI | Q1 earnings April*
 *Prior check-ins (Mar 20), K-shape evidence table, fertilizer calendar archived to `workbook/STATUS_archive_20260325.md`*
 *Key docs: `domain/sources/CVNA_FRAUD_WATCH.md` | `workbook/ABS_BASELINE.tsv` | `workbook/STATE_DIFFUSION.tsv`*

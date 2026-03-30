@@ -1,112 +1,80 @@
 # SAM STATUS
 
-**Signal Status:** 🔴🔴🔴 CRITICAL — **USD/JPY 160 BREACHED + JGB SUPER-LONG ROUT** | USD/JPY **160.106** (first breach since July 2024) | MOF INTERVENTION IMMINENT (Katayama warned at 159.5) | JGB 40Y **3.924%** (+5.83%) | JGB 30Y **3.692%** (+5.28%) | JGB 10Y **2.370%** (+4.18%) | CARRY UNWIND 7D: **85%** | FY-END T-2 DAYS (Mon Mar 31) | **Last Updated:** 2026-03-27 21:25 UTC (SAM post-signal)
+**Signal Status:** 🔴🔴🔴 CRITICAL — **BOJ SUMMARY: DEBATE ON SIZE OF HIKE** | USD/JPY **159.65** (pulled back from 160.1 breach Mar 27) | MOF INTERVENTION IMMINENT (Katayama warned at 159.5, no action yet) | Brent **~$115** (+55% in March) | JGB 10Y **2.38%** | JGB 30Y **3.69%** | JGB 40Y **3.92%** | CARRY UNWIND 7D: **85%** | FY-END TOMORROW (Mar 31) | TANKAN TOMORROW (Apr 1) | **Last Updated:** 2026-03-30 13:55 UTC
 
 ---
 
-## 🔴🔴 MAR 26 UPDATE — SK RUN CUTS CONFIRMED: CLOCK MOVED UP ~2 WEEKS
+## 🔴🔴🔴 MAR 30 — BOJ SUMMARY OF OPINIONS (March 18-19 meeting)
 
-### SK REFINER FEEDSTOCK UPDATE (SAM subagent, 04:03 UTC)
+**THE DEBATE HAS SHIFTED FROM "WHEN" TO "HOW MUCH"**
 
-**CLOCK STATUS: EXPIRED EARLY. Run cuts are happening NOW, not Apr 7.**
-
-| Refiner | Status | Capacity Impact |
-|---------|--------|----------------|
-| **GS Caltex** | ✅ CONFIRMED CUT — 800K → 675K bpd | -125K bpd (-16%) as of Mar 25 |
-| **S-Oil** | ✅ MAINTENANCE SHUTDOWN — 1 of 3 Onsan units halted | -~223K bpd (1/3 of 669K capacity) |
-| **SK Energy** | ⚠️ Maintenance accelerating | Scope unconfirmed |
-| **HD Hyundai Oilbank** | ⚠️ Maintenance accelerating | Scope unconfirmed |
-| **Petrochemical firms** | ✅ FORCE MAJEURE declared | Multiple firms |
-
-- **Total confirmed cuts so far: ~350K+ bpd** (GS Caltex 125K + S-Oil partial). If SK Energy + Oilbank follow = 500-700K bpd range.
-- **Apr 7 estimate was too conservative.** Clock hit ~Mar 25-26, 12 days early.
-
-**ALTERNATIVE CRUDE SOURCING — LIMITED:**
-- GS Caltex: US Gulf Coast crude via Panama Canal (first since 2022) — Sea Turtle tanker, ETA April
-- Broader: West Africa, Brazil, North Sea, Caspian region being sourced at large premiums
-- Energy Aspects analyst: "Simply put, even replacing a modest share of the roughly 16M bpd of ME crude that arrives to Asia is not feasible"
-- Atlantic basin alternatives take weeks-months to arrive — **supply gap is structural, not bridgeable in April**
-
-**JAPAN CPI IMPACT — ACCELERATING:**
-- SK product export disruption → Japan/SE Asia/Australia product shortage
-- Force majeure petrochemical declarations compound finished goods cost chain
-- With ~350-700K bpd of Korean capacity offline, Asia-Pacific crack spreads widen further
-- Japan CPI April print (due late May) will reflect this — additional upward surprise likely
-- BOJ path unchanged: May 1 hike on track; April 23-24 still possible
+- **Takata DISSENTED** — voted for 25bp hike to 1.00% (defeated 8-1)
+- One member: "raise the policy interest rate **without hesitation**" if no significant deterioration in economy/small firm wages
+- One member: consider **scale** of hike — floated **larger-than-usual** hike to respond to Middle East oil shock
+- One member: need for "**rapid tightening**" explicitly discussed
+- Hold justified only by Middle East uncertainty — NOT by dovish economics
+- **Net assessment:** Most hawkish Summary of Opinions in the normalization cycle. April 23-24 is LIVE. May 1 remains base case.
 
 ---
 
-## 🔴 MAR 26 UPDATE — NUCLEAR ESCALATION + SK RUN CUTS
+## INTEGRATED CONTEXT (Mar 26-27, condensed)
 
-### NEW CRITICAL SIGNALS INTEGRATED
+**SK Refiner Crisis:** Run cuts active NOW (~350K+ bpd confirmed: GS Caltex -125K, S-Oil partial -223K). Alternative crude sourcing not feasible at scale. Asia-Pacific product shortage feeding Japan CPI. Apr print (due late May) will reflect this.
 
-**1. DIMONA STRIKE (HANS MAR 24)** — Game-changer
-- Iran struck Dimona (Israeli nuclear facility). **Ceasefire probability = effectively zero.**
-- Dimona → Fordow/Natanz/Parchin strike (Israeli retaliation) = BASE CASE sequence, not tail risk
-- If Fordow struck → Iran retaliates on Kharg Island → additional 2-3M bpd offline → Brent $120+
-- Risk-off compression globally: war entering existential dimension. **CHF accelerating. JPY bid from risk-off.**
-- HANS flag: if Fed forced to cut faster (private credit cascade = recession) + risk-off → USD/JPY below 145 = carry unwind; below 140 = disorderly
+**Dimona Strike (Mar 24):** Iran struck Israeli nuclear facility. Ceasefire probability = zero. Dimona→Fordow→Kharg = base case sequence. If Kharg struck → +2-3M bpd offline → Brent $120+. HANS: Fed forced cuts (private credit cascade) + risk-off → USD/JPY sub-145 = carry unwind.
 
-**2. SK REFINER FEEDSTOCK CRISIS (BRENT MAR 17)**
-- SK refiners had ~3 weeks feedstock as of Mar 17 → **run cuts expected early April**
-- SK total capacity ~2.46 mbpd (65-72% Gulf-dependent). S-Oil most exposed (85% Gulf/Aramco JV)
-- Japan+Korea combined: ~5.7 mbpd Gulf-dependent. **Simultaneous April run cuts → Asia-Pacific product market seizes**
-- Japan imports ~3.1 mbpd (~80% Gulf). Japan SPR: 80M bbl committed Mar 16 — stopgap only
-- SK product export loss at 50% run cuts: 350-400K bpd supply loss to Japan/SE Asia/Australia/US West Coast
-- **For SAM thesis:** Asia-Pacific product shortage → Japan consumer price surge → BOJ rate path accelerates
+**Shunto:** First-round 5.26% confirmed (Mar 23). 3rd consecutive year >5%. Below 6.0% emergency threshold. Second-round tally pending. Strong enough for BOJ.
 
-**3. SHUNTO 5.26% (MAR 23 CONFIRMATION)**
-- Rengo first-round: 5.26% — 3rd consecutive year >5%. Below 6.0% emergency threshold.
-- Second-round tally Mar 27 (watch for higher revision)
-- BOJ April hike data-dependent (Tankan Apr 1). **May 1 remains most probable.**
+### CARRY UNWIND PROBABILITY — MAR 30
 
-### CARRY UNWIND PROBABILITY REVISION — MAR 27 POST-SIGNAL
+| Timeframe | Mar 27 | Mar 30 | Driver |
+|-----------|--------|--------|--------|
+| **7d** | 85% | **85%** | USD/JPY 159.65 — pulled back from 160 but MOF intervention still imminent. FY-end tomorrow. |
+| **30d** | 96% | **97%** | BOJ Summary hawkish beyond expectations. Debate on BIGGER hikes. Tankan tomorrow — strong = April hike live. |
+| **60d** | 97% | **97%** | Structural case locked: hedged UST negative vs JGB, oil feeding CPI, BOJ path accelerating not decelerating. |
 
-| Timeframe | Mar 26 | Mar 27 EOD | Mar 27 POST-160 | Driver |
-|-----------|--------|--------|--------|--------|
-| **7d** | 78% | 80% | **85%** | USD/JPY 160 breached = MOF intervention imminent; intervention = forced carry reversal |
-| **30d** | 93% | 94% | **96%** | JGB super-long rout + BOJ urgency + oil shock feeding CPI = hike certainty near-certain |
-| **60d** | 95% | 96% | **97%** | Structural: hedged UST now negative vs JGB, life insurer exit accelerating, BOJ path locked |
-
-**INTERVENTION RISK:** NOW ELEVATED TO IMMEDIATE. July 2024 precedent: ~$37B spent, USD/JPY fell ~5-6% in days. Katayama warned verbally at 159.5 — breach of 160 makes action nearly certain before Monday open or early next week.
+**INTERVENTION STATUS:** Verbal warning at 159.5. 160 breached Mar 27, pulled back to 159.65. MOF has NOT acted yet. Monday (FY-end) or early week = highest probability window. July 2024 precedent: $37B, 5-6% reversal.
 
 ---
 
-## MARKET DATA — MAR 27 CLOSE / POST-SIGNAL UPDATE
+## MARKET DATA — MAR 30
 
-| Metric | Value | Single-Day Move | Status |
+| Metric | Value | Since Mar 13 | Status |
 |--------|-------|--------|--------|
-| JGB 2Y | **1.380%** | +4.5bps (highest since May 1995) | 🔴 |
-| JGB 5Y | **1.820%** | +8.0bps (**ALL-TIME RECORD**) | 🔴🔴 |
-| JGB 10Y | **2.370%** | **+4.18% / +9.5bps** | 🔴🔴 **STRESS THRESHOLD BREACHED** |
-| JGB 20Y | **3.275%** | +15.5bps (highest since Jan) | 🔴 |
-| JGB 30Y | **3.692%** | **+5.28% / +18.5bps** (multi-decade territory) | 🔴🔴 |
-| JGB 40Y | **3.924%** | **+5.83% / +21.6bps** | 🔴🔴 |
-| USD/JPY | **160.106** | **160 BREACHED** — first since July 2024 | 🔴🔴 MOF INTERVENTION IMMINENT |
+| JGB 2Y | **1.380%** | +6.0bps (highest since May 1995) | 🔴 |
+| JGB 5Y | **1.820%** | +21.5bps (**ALL-TIME RECORD**) | 🔴🔴 |
+| JGB 10Y | **2.380%** | +13bps (highest since 1999) | 🔴🔴 |
+| JGB 20Y | **3.275%** | +22.5bps | 🔴 |
+| JGB 30Y | **3.692%** | +21.2bps (multi-decade) | 🔴🔴 |
+| JGB 40Y | **3.924%** | +27.4bps | 🔴🔴 |
+| USD/JPY | **159.65** | -0.07 (160.1 breached Mar 27, pulled back) | 🔴 |
+| Brent | **~$115/bbl** | +55% in March (record monthly surge) | 🔴🔴 |
 
-**Critical dynamic (paradox):** Yen weakening DESPITE higher JGB yields = oil shock / current account deterioration overwhelming rate differentials. This makes BOJ hike MORE urgent, not less. When oil shock resolves OR BOJ acts, the rate differential compression will dominate — yen snaps back hard.
+**Oil-yen paradox:** Yen weakening DESPITE surging JGB yields = oil/current account dominating. BOJ hike becomes MORE urgent, not less. When oil stabilizes or BOJ acts → snap-back.
 
-**JGB super-long rout:** 30Y at 3.692%, 40Y at 3.924% = life insurer capitulation. Traditional buyers stepping back. UST vs JGB hedged return now inverted by ~+0.34% in JGBs' favor. Every bp higher on JGBs = more reason for Japanese institutions to repatriate.
+**JGB super-long rout:** Life insurer capitulation — traditional buyers stepping back despite yields above "attractive" thresholds. Bear steepening: super-long crushed, short end BOJ-driven. UST vs JGB hedged return inverted ~+0.34% in JGBs' favor → repatriation incentive structural.
 
-**Bear steepening in full force.** Super-long end getting crushed — life insurers and traditional buyers pulling back. SMBC Nikko: "BOJ wanted to send message it's ready to raise rates regardless of market condition." AXA: "Market may revise up terminal rate expectations — explains why Japan curve bear-steepens unlike US/Europe."
+**CFTC JPY positioning (Mar 20):** Net short **-67,800 contracts**. TRIPLED in 2 weeks (-16.6K → -41.4K → -67.8K). Carry trade getting MORE crowded as unwind catalysts load. July 2024 pre-unwind was ~-180K (we're at 38%). Velocity of buildup = more violent snap when it fires.
 
 ---
 
-## BOJ ASSESSMENT — MAR 27
+## BOJ ASSESSMENT — MAR 30
 
-**New BOJ inflation gauge (Mar 26):** Core CPI excluding special factors = **+2.2% in February**. First-ever release of this indicator. Analysts: BOJ deliberately signaling underlying inflation above target = staging ground for hike.
+**Mar 30 Summary of Opinions (Mar 18-19 meeting):** See top section. Most hawkish summary in normalization cycle. Board debating SIZE of hike, not just timing. Takata dissented for 1.00%. "Raise without hesitation" + "rapid tightening" language.
 
-**Output gap:** Demand exceeded supply for **15th straight quarter** — strongest case for persistent inflation.
+**BOJ inflation gauge (Mar 26):** Core CPI ex special factors = **+2.2% in Feb**. First-ever release — deliberately signaling underlying inflation above target.
 
-**Ex-BOJ chief economist Kameda (Mar 26):** "BOJ likely to raise rates by June" — Iran war oil costs heighten risk of being too late on inflation. This is the most hawkish ex-official statement yet.
+**Output gap:** Demand exceeded supply for **15th straight quarter**.
 
-**Cabinet Office March report:** 10% crude oil increase → +0.3pp CPI over ~1 year. With oil up far more than 10%, this is an understatement.
+**Kameda (ex-BOJ chief economist, Mar 26):** "BOJ likely to raise rates by June" — oil costs heighten risk of being too late on inflation.
 
-**Ueda language shift (Mar 23):** "Even if economy comes under downward pressure, if downward pressure would be temporary and will not affect underlying inflation, it would be possible to raise interest rates."
+**Ueda language shift (Mar 23):** Temporary downward pressure on economy would NOT prevent rate hikes if underlying inflation intact.
 
-**Hike timeline:** April 23-24 = live. **May 1 = base case.** June = backstop per Kameda. Market pricing in aggressive path — 5-day 2Y move largest since Oct 2008.
+**Hike timeline:** April 23-24 = LIVE (Summary of Opinions confirms board readiness). **May 1 = base case.** June = backstop. Market pricing aggressive — 5-day 2Y move largest since Oct 2008.
 
-**Rate differential compression:** JGB 10Y 2.380% — up 13bps on the day, structural trend now +15bps/month accelerating
+**TANKAN (Apr 1):** Manufacturing outlook expected 15 (up from 12). Non-manufacturing 28. Strong print = April hike probability jumps significantly.
+
+**⚠️ Takaichi Board Stacking (Mar 30 research):** Nominated 2 dovish academics — Asada (joined end Mar, dove-for-dove swap) and Sato (joins June, HAWK-TO-DOVE swap replacing Nakagawa). Both reflationists. Parliament approved. April/May hike math unchanged, but hikes beyond 1.00% become much harder. Two more hawk terms expire 2027. Medium-term political risk: YELLOW.
 
 ---
 
@@ -156,10 +124,9 @@
 
 | Date | Event | Status |
 |------|-------|--------|
-| **Mar 27** | Shunto second-round tally | 🟠 NOT YET RELEASED (may be delayed) |
-| **Mar 31** | FY2025 end — repatriation window closes | 🔴 T-2 (MONDAY) |
-| **Early Apr** | SK refiner run cuts expected | 🔴 INCOMING |
-| **Apr 1** | Tankan survey — BOJ data input | 🔴 |
+| **Mar 31** | FY2025 end — repatriation window closes | 🔴 TOMORROW |
+| **Apr 1** | Tankan survey — BOJ data input. Mfg outlook exp. 15. | 🔴 TOMORROW |
+| **Early Apr** | SK refiner run cuts deepening | 🔴 ACTIVE NOW |
 | **Apr 15** | Feb TIC data release (Japan UST flows) | 🟠 |
 | **Apr 23-24** | BOJ Meeting — hike possible (Ueda language supports) | 🟠 |
 | **May 1** | BOJ Meeting — **most probable hike date** | 🔴 |
