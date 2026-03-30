@@ -1,6 +1,23 @@
 # HENRY STATUS
-**Last Updated:** 2026-03-27 20:15 UTC | **War Day 28 — PCE DAY CARNAGE + IRAN DEADLINE EXTENSION**
-**Status:** 🔴🔴🔴 FED TRAP CONFIRMED. Core PCE +0.4% MoM (hot). SPX -1.67% to 6,369. VIX 31.46 (+14.65%). Dow entered correction. Nasdaq >10% off highs. Consumer sentiment collapsed to 53.3. Gold $4,551. Oil $99.55. 5th straight losing week for SPX. Quarter-end Monday.
+**Last Updated:** 2026-03-30 17:32 UTC | **War Day 31 — CREDIT CONTAGION BEGINNING. CCC BREACHED 1000.**
+**Status:** 🔴🔴🔴 CREDIT STRESS ESCALATING. CCC OAS 1013 (+29). HY OAS 342 (+21, NEW RED ZONE BREACH). Brent $107.95. VIX ~31. 10Y 4.42% (+9bps). Nasdaq correction deepening (-0.5% today). Mixed open: Dow +0.3%, SPX -0.2%. Tuesday = Q1-end + Japan FY-end convergence. PCE confirmed hot (already logged Fri). Forced-selling risk rising.
+
+---
+
+## MAR 30 UPDATE — KEY LEVELS (1:30 PM ET)
+
+| Asset | Level | Δ | Signal |
+|-------|-------|---|--------|
+| HY OAS | **342 bps** | +21 | 🔴🔴 **ZONE BREACH — white→red. New alarm.** |
+| CCC OAS | **1013 bps** | +29 | 🔴🔴 **Above 1000. Forced-selling threshold crossed.** |
+| Brent | $107.95 | -4.10 | 🔴 Iran talk relief, still elevated |
+| Gas | $3.96 | +0.24 | 🟡 Approaching $4 |
+| 10Y | 4.42% | +9bps | 🟡 Rising. Quarter-end supply + war premium |
+| USD/JPY | 159.52 | -0.11 | 🔴 Yen weak. Carry unwind risk into Japan FY-end |
+| Dow | +0.3% | — | Mixed session, relief bounce |
+| Nasdaq | -0.5% | — | 🔴 Correction deepening |
+
+---
 
 ---
 

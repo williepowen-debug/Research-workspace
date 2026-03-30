@@ -97,6 +97,22 @@ def fetch_all(series_list):
                     entry["prev"] = float(obs[1]["value"]) * mult
                     entry["change"] = entry["value"] - entry["prev"]
 
+        elif s["source"] == "fred_spread":
+            # Spread = series[0] - series[1]
+            id_a, id_b = s["id"][0], s["id"][1]
+            obs_a = fred_fetch(id_a, limit=2)
+            obs_b = fred_fetch(id_b, limit=2)
+            if obs_a and obs_b and "error" not in obs_a[0] and "error" not in obs_b[0]:
+                val_a = float(obs_a[0]["value"])
+                val_b = float(obs_b[0]["value"])
+                entry["value"] = round(val_a - val_b, 4)
+                entry["date"] = obs_a[0]["date"]
+                if len(obs_a) > 1 and len(obs_b) > 1 and "error" not in obs_a[1] and "error" not in obs_b[1]:
+                    prev_a = float(obs_a[1]["value"])
+                    prev_b = float(obs_b[1]["value"])
+                    entry["prev"] = round(prev_a - prev_b, 4)
+                    entry["change"] = round(entry["value"] - entry["prev"], 4)
+
         # Classify
         if entry["value"] is not None:
             entry["zone"] = classify(entry["value"], s)
@@ -260,12 +276,30 @@ def print_dashboard(results, transitions=None):
 # ---------------------------------------------------------------------------
 
 def detect_transitions(results, last_state):
-    """Compare current zones to last run. Returns dict of {name: (old_zone, new_zone)}."""
+    """Compare current zones to last run. Returns dict of {name: (old_zone, new_zone)}.
+    
+    Supports hysteresis: indicators with a 'hysteresis' config in SERIES require
+    the value to cross a buffer beyond the threshold before triggering a zone change.
+    This prevents alert spam when values oscillate near boundaries.
+    """
     transitions = {}
     for r in results:
         name = r["name"]
         old_zone = last_state.get(name, {}).get("zone")
         if old_zone and old_zone != r["zone"]:
+            # Check if this series has hysteresis configured
+            series_def = next((s for s in SERIES if s["name"] == name), None)
+            if series_def and "hysteresis" in series_def and r["value"] is not None:
+                buf = series_def["hysteresis"]
+                old_value = last_state.get(name, {}).get("value")
+                if old_value is not None:
+                    diff = abs(r["value"] - old_value)
+                    if diff < buf:
+                        # Value hasn't moved enough past boundary — suppress transition
+                        # Keep the OLD zone in state to prevent drift
+                        r["zone"] = old_zone
+                        r["emoji"] = get_emoji(old_zone)
+                        continue
             transitions[name] = (old_zone, r["zone"])
     return transitions
 

@@ -1,37 +1,44 @@
 # SCRATCH — Ephemeral Working Memory
 
-**Updated:** 2026-03-27 22:10 UTC (Fri 6:10 PM ET)
+**Updated:** 2026-03-30 22:00 UTC (Mon 6:00 PM ET)
 
 ---
 
 ## QUICKSTART
-Scenario D **85%** (HAWK raised). War Day 27. Account **$55,689 (+111.5%)**. Brent **$108-112**. Gas **$4 BREACHED**. HY OAS ~319. NOPI **55-59 (exceeds 1973 embargo)**. Cash ~$12K (21.6%).
+Scenario D **85%**. War Day 29. Account **~$55,689 (+111.5%)**. Brent **$107-108**. Gas **$3.96 → $4 BREACHED**. HY OAS **342**. CCC OAS **1013**. CCC/HY ratio **2.96** (unprecedented). Cash ~$12K (21.6%).
 
-**Nasdaq in correction.** S&P longest losing streak since '22. PC Stage 3 confirmed (Barron's + Bloomberg same day). USD/JPY **160 BREACHED**. JGB 40Y **3.924%** (+5.83% single day).
-**Book inverted:** 61% near / 39% long. T-19 recommends 22/78 rebalance. Will deferred.
+**TIMING FRAMEWORK COMPLETE.** 11 research files in `FORGE/timing/research/`. CONVERGENCE_TIMELINE.md rewritten (338 lines). 2026 ≈ late Q3/early Q4 2007. Insurance stress Q2-Q3'26. Bank stress late '26. Peak selling Q1-Q2'27.
 
-## Session 9 Summary (Signal Triage + SAM + Cron)
-- **8 signals triaged** from Will's screenshots → 9 inbox files across 8 agents
-  - Qatar FM 90 cargoes (BRENT/HAWK/HANS)
-  - JGB selloff + USD/JPY 160 (SAM/ZHAO)
-  - Apollo co-founder + MFS Bloomberg — PC narrative mainstream (BROCK/SHADE)
-  - Stagflation regime + FedWatch no cuts (HENRY/LIQUID)
-- **SAM spawned** — FXY Entry Decision Card delivered. **Will approved tranche 1 for Monday open.**
-- **FXY price corrected** — SAM had $24, actual is **$57.36**. Decision card in STATUS.md fixed:
-  - Entry: ~$57.36 | Stop: ~$55.05 (USD/JPY 167) | Target: ~$60-62 (USD/JPY 148-152)
-  - Tranche 1 Mon: +4 shares (~$229) | Full: 12 shares (~$688)
-- **USD/JPY monitoring cron BUILT AND LIVE** — runs every 30min Tokyo hours (23:00-06:00 UTC Mon-Fri). Alerts on threshold breach, silent otherwise. State file prevents spam.
-- **H.8 auto-update completed** (REGINALD cron) — C&I vs CRE divergence +6.1pp, ALLL reserve release 3rd month, NDFI first decline. Will briefed in detail.
-- **HERMES PM delivered** — H.8 findings routed to NEXUS/HENRY/LIQUID/CARL inboxes
-- **TODAY.md rewritten** for Mon Mar 31 — FXY buy is first line item at open
-- **CARL + REGINALD + SAM** are Claude Code on Telegram. DO NOT SPAWN.
+**New dashboard indicators:** CP-Tbill (0.15 🟢), SOFR-IORB (-0.02 🟢), BIZD (BDC ETF, Tier 2).
 
-## IMMEDIATE NEXT SESSION
-1. 🔴 **Build SAM KB.tsv** — Will explicitly requested this. Extract ~40-50 key facts from STATUS, research files, repatriation brief into structured KB. Use two-pass method (extraction → formatting). This is prep for SAM Claude Code promotion.
-2. 🟠 Update STATUS.md agent dashboard (BROCK/BRENT/HAWK completions from Session 8 still not reflected)
-3. 🟠 Reassess QUEUE.md Batch 5 — many tasks overtaken by events
-4. 🟠 Check OBDCII — did it drop? OWL decision by Mon.
-5. 🟡 BOND → AGENTS_DIRECTORY.md
+## Handoff
+**Last context:** Deep research session — synthesized 8 external LLM responses (3 Gorton framework, 4 Z.1 Flow of Funds, 1 LIBOR-OIS replacement) into comprehensive timing framework. All saved in `FORGE/timing/research/`.
+**Next tide:**
+1. 🔴 **FXY + APD buy at open** (both approved)
+2. 🔴 **OWL Apr 2 — 2 DAYS.** Check OBDCII.
+3. 🔴 **APO stop $113** — currently $108.42
+4. 🔴 **Quarter-end SOFR watch** — Perli says ampleness at Q1 2019 levels + zero RRP
+5. 🟠 **SAM KB.tsv** — Will requested, still not done
+6. 🟠 **STATUS.md refresh** — BROCK/LIQUID stale given new research
+7. 🟠 **Issuance freeze agent** — spawned earlier, never checked results
+8. 🟠 **QUEUE.md Batch 5/9 reassessment** — some items overtaken by events
+9. 🟡 **Research gaps:** PE-insurer→FABN transmission, Egan-Jones cascade, Norinchukin↔CLO loop, OFR Brief 26-02
+**Open questions:** Near→long rebalance still deferred (61/39 inverted, RED says 22/78). KRE Jun→Dec roll pricing needed.
+**Positions:** No changes today. FXY + APD approved for Mon open.
+**Rhythm note:** Will in deep research mode tonight. Responsive to prompts. Wants concise summaries not raw docs.
+**Today's work:**
+- Saved 8 research responses (Gorton ×3, Flow of Funds ×4, LIBOR-OIS ×1)
+- Added CP-Tbill, SOFR-IORB, BIZD to dashboard + `fred_spread` handler
+- Rewrote CONVERGENCE_TIMELINE.md (338 lines, subagent)
+- Identified 7 new research gaps from cross-referencing all findings
+- Dispatched CARL + SAM daily check-ins
+
+## Architecture Notes
+- **CARL + REGINALD + SAM** are Claude Code on Telegram. DO NOT SPAWN. Inbox signals only.
+- Market data dashboard: `FORGE/tools/market-data/dashboard.py`. Cron 4x/day (10,12,14,16 ET weekdays). Hysteresis on VIX (1.5pt) and HY OAS (5bps).
+- `fred_spread` source type now supported in dashboard (computes difference of two FRED series).
+- CONVERGENCE_TIMELINE.md is the master timing document. All research feeds into it.
+- 11 research files in `FORGE/timing/research/`. Do NOT re-read all at boot — use CONVERGENCE_TIMELINE.md as synthesis.
 
 ## WILL_QUEUE (current)
 
@@ -39,15 +46,9 @@ Scenario D **85%** (HAWK raised). War Day 27. Account **$55,689 (+111.5%)**. Bre
 |----|-----|------|--------|
 | W-001 | 🟡 | ABS trust trigger proximity | Blocked — Bloomberg |
 | W-003 | 🔴 | APO Apr — HOLD to Apr 7, stop $113 | APO at $108.42 |
-| W-005 | 🟠 | FXY Tranche 1 — **BUY MON OPEN** ~$57.36, +4 shares | **APPROVED** |
-| W-006 | 🔴 | OWL Apr — ITM at $8.84 | **4 DAYS.** Check OBDCII. |
+| W-005 | ✅ | FXY Tranche 1 — BUY MON OPEN | APPROVED |
+| W-006 | 🔴 | OWL Apr 2 — **2 DAYS** | Check OBDCII |
 | W-007 | 🟠 | FABN tranches maturing before Jun 18 | SHADE |
 | W-008 | 🟡 | Whalen WGA IRA Bank Book Q1 2026 | Proprietary |
 | W-009 | 🟡 | KBRA Private Credit Premium access | Paywalled |
-
-## Architecture Notes
-- SAM USD/JPY cron: `AGENTS/SAM/tools/usdjpy_monitor.sh`, state at `.usdjpy_alert_state`
-- **SAM promoted to Claude Code** (like CARL/REGINALD). DO NOT SPAWN. Inbox signals only.
-- Group chat test (Prome + CARL + REGINALD) still pending
-- **Market data dashboard COMPLETE** — `FORGE/tools/market-data/dashboard.py`. Cron every 5min. Morning briefing 6 AM ET. Web panel at :8080/api/stress. All thresholds in `config.py` (single source of truth for CLI + web dashboard).
-- **System timezone set to ET** (was UTC). All timestamps now Eastern.
+| W-010 | 🔴 | APD Tranche 1 — BUY MON OPEN | APPROVED |

@@ -1,29 +1,41 @@
 # OTTO STATUS
 
-**Signal Status:** 🔴🔴 CRITICAL — ESCALATING | **Last Updated:** 2026-03-26 02:28 UTC
+**Signal Status:** 🔴🔴 CRITICAL — ESCALATING | **Last Updated:** 2026-03-30 13:45 UTC
 
 ---
 
-## MAR 26 UPDATE (2026-03-26 02:28 UTC)
+## MAR 30 UPDATE (2026-03-30 13:45 UTC)
 
-### JEF CONFIRMS FIRST BRANDS EXPOSURE = ZERO
-- Jefferies Q1: final $10M write-off; "our direct exposure to First Brands is now zero."
-- Handler qualifier: "losses that may be absorbed over time" = **exposure migrated, not extinguished**
-- **Remaining chain:** Barclays (lender of record) → Apollo/Atlas SP (warehouse/ABS) → WAL (warehouse line suspect)
-- This is the live question feeding REGINALD's WAL earnings thesis. JEF cleared; who holds the paper?
+### ABS/SUBPRIME — 32-YEAR RECORD (Fitch/CarEdge, Mar 24)
+- Subprime auto DQ hit **32-year high** (since 1994) per Fitch data analyzed by CarEdge.
+- First-time ABS issuers dragging overall ABS performance despite seasonal consumer-level improvement (Auto Finance News, Mar 25).
+- Total auto debt outstanding: **$1.66T**. Overall 90+ DQ at 5.2% — approaching GFC peak of 5.3% but with larger, more subprime-heavy composition.
+- Consumer-level TU Feb slight improvement = seasonal noise (confirmed). ABS-level stress diverging upward.
 
-### TRICOLOR — 5 DAYS TO LIQUIDATION
-- Mar 31 deadline IMMINENT. Vehicle liquidation commences. $800M gap vs $2B debt.
-- Chu trial Aug 2026. Expect cascading recoveries reported Q2.
+### BARCLAYS PULLS BACK ON ABL — 🔴🔴 NEW (Bloomberg/Reuters, Mar 25)
+- **Barclays pulling back on asset-based lending after MFS + Tricolor losses.** Bloomberg: "collapses left the firm facing losses."
+- Reuters: "revived concerns over lending practices as investors grow jittery about risks in wider credit markets."
+- **This is contagion behavior.** Major bank retracting from ABL = tightening credit to the exact segment that needs it most.
+- Feeds REGINALD (bank exposure) + LIQUID (credit tightening) + NEXUS (transmission chain).
 
-### First Brands — Auction ~Mar 31
-- Buyers withdrew "suddenly & unexpectedly" (WSJ Feb 23). Bids narrowed to "interest only."
-- Auction conclusion imminent. Ch. 7 conversion risk elevated.
-- Asset recovery <2%. $1.1B DIP loan near-worthless.
+### FIRST BRANDS — FIRE SALE CONFIRMS <2% RECOVERY (Mar 24-27)
+- **12 brands including Autolite sold for $25M** (Bloomberg, Mar 27). That's pennies on the dollar for a $12B debt company.
+- **Walbro unit: seeking $50M** court approval (Mar 24). Total recovery trajectory: ~$75M on $12B = **<1% recovery**.
+- DOJ obtained stay on civil discovery — criminal case takes priority.
+- **Our <2% recovery prediction was generous. Actual trending toward <1%.**
 
-### CVNA DQ — 7.1% RED CONFIRMED
-- El-Erian 2007 parallel on record. Subprime ATR structurally breached at 7.1%.
-- Put volume spike Mar 19: 155K contracts (+92%).
+### TRICOLOR — MAR 31 LIQUIDATION TODAY/TOMORROW
+- Vehicle liquidation deadline **imminent** (Mar 31). $800M gap vs $2.2B pledged collateral ($1.4B real).
+- **Trial date moved to OCTOBER** (was Aug) per NIADA, Mar 25. Delay = more complexity.
+- Bloomberg Mar 25 feature: immigrant borrowers vs Wall Street over Tricolor fraud. Narrative going mainstream.
+- Barclays ABL pullback (above) explicitly linked to Tricolor losses.
+
+### CVNA — STOCK BOUNCED, NO FUNDAMENTAL CHANGE
+- Stock ~$302 (Mar 27). Up 7.9% on Mar 23 on proxy/split news.
+- Proxy filed: opposing CEO/chairman separation, 5-for-1 stock split vote May 5.
+- **BofA maintains Buy** (Mar 24) — bullish counter-narrative building.
+- No new litigation output. Discovery Production 2 still Jun 12.
+- Put volume spike (Mar 19, 155K contracts) remains last actionable signal.
 
 ### Consumer Durables Demand Destruction (Processed: SIG-2026-03-17-001)
 - FT Mar 16: US car ownership costs at "breaking point."
@@ -146,15 +158,15 @@ $12B debt (FT). DOJ indicted Patrick James (9 counts, life risk). Asset recovery
 
 | Date | Event | Status |
 |------|-------|--------|
-| **Mar 25** | OZK EDGAR 8-K watch | 🔴🔴 |
-| **Mar 31** | Tricolor liquidation deadline | 🔴 |
-| **Mar 31** | First Brands auction | 🔴 |
+| **Mar 31** | Tricolor vehicle liquidation | 🔴 IMMINENT (TODAY) |
+| **Mar 31** | First Brands asset sales (Walbro $50M pending) | 🔴 |
+| **Apr TBD** | First Brands 12-brand $25M sale closing | 🟠 |
 | Apr 6 | TCPC class action lead deadline | 🟠 |
 | May 1 | APO class action lead deadline | 🟠 |
 | May 5 | CVNA stock split vote | 🟠 |
 | Jun 12 | Carvana discovery production 2 | 🟠 |
 | June | First Brands trial | 🟠 |
-| Aug | Daniel Chu trial | 🟠 |
+| **Oct** | Tricolor executive trial (moved from Aug) | 🟠 |
 
 ---
 

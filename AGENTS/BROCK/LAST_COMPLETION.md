@@ -1,9 +1,13 @@
-# LAST_COMPLETION — BROCK
+## COMPLETION — BROCK — 2026-03-30
 
-## COMPLETION — BROCK — 2026-03-27
 STATUS: ✅ DONE
-CHANGED: STATUS.md, workbook/KB.tsv, research/PC_GATING_ACCELERATION_MAR27.md, LAST_COMPLETION.md
-RESULT: Stage 3 confirmed active (upgraded from "entering"). Gate count holds at 9 funds / 8 weeks but this week's 4 simultaneous events (ARES 11.6%, Apollo 45¢/$1, BCRED cap 5%→7.9%, Blue Owl full stop) = Stage 3 behavioral confirmation not Stage 2 escalation. Added KB-BRK-102 through KB-BRK-106. Research brief written with per-position action guidance.
-GAPS: OBDCII Q1 report status unknown — could not verify if it dropped today (no live data access). Gate count stays at 9 because new signals are about already-tracked funds, not new gates.
-WILL_NEEDS: (1) **URGENT — OWL $9.5P Apr 2 expires in 5 days**: check if OBDCII report dropped today; exit if no report expected by Mar 30. (2) Check OBDCII/OWL SEC filings at sec.gov for any Mar 27 filing. (3) Verify APO $100P Apr bid price live.
-FOLLOW-UP: If OBDCII report drops → update STATUS.md gate tracker + OWL position note. If no report by Mar 30 → recommend exit OWL Apr puts. ARES add trigger: watch for Q1 earnings non-accrual >2.2%.
+
+CHANGED: AGENTS/BROCK/STATUS.md
+
+RESULT: AM scan complete. 6 new signals logged. Top development: US Treasury convening meetings with domestic + international insurance regulators on PC markets (Reuters Mar 30) — Stage 4/5 transition signal, Athene/Apollo insurance channel directly in crosshairs. OWL at $8.97, puts $0.53 ITM with 3 days left; OBDCII Q1 still unfiled. Tricolor deadline tomorrow ($800M gap) — no resolution found; Barclays already pulling ABL. First Brands fraud confirmed by prosecutors (multi-billion); Walbro sold $50M, more auctions coming.
+
+GAPS: No OBDCII Q1 filing found (still within window through ~Apr 3). No direct OWL intraday price confirmation for today (used fetch.py $8.97). First Brands specific WAL/Apollo recovery % not yet public.
+
+WILL_NEEDS: OWL $9.5P Apr 2 decision — currently $0.53 ITM, 3 days to expiry. Hold for OBDCII filing or take profit now? Judgment call on exit timing.
+
+FOLLOW-UP: Monitor OBDCII Q1 filing (SEC EDGAR) — if filed today/tomorrow before Apr 2, OWL put becomes binary. Check First Brands auction results Mar 31.

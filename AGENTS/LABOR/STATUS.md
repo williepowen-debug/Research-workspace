@@ -1,5 +1,22 @@
 # LABOR STATUS
-**Last Updated:** 2026-03-27 20:16 UTC | **Status:** 🔴🔴 CRITICAL — CLAIMS 210K SUPPRESSION INTACT. CONTINUING CLAIMS 1.819M = 2-YR LOW (COUNTER-SIGNAL). DOGE 260K+ CONFIRMED EXITS 2025. FL WAVE 1 ACTIVE. SHUTDOWN DAY 42. NFP APR 3. CONVERGENCE 54/65.
+**Last Updated:** 2026-03-30 18:00 UTC | **Status:** 🔴🔴 CRITICAL — CLAIMS 210K SUPPRESSION INTACT. DOGE 9% FEDERAL WORKFORCE ELIMINATED. JOLTS TMR (Mar 31). NFP APR 3 GOOD FRIDAY = GAP RISK MON APR 6. CONVERGENCE 54/65.
+
+**Signal Mar 30 — AM Scan (18:00 UTC):**
+
+**🔴 DOGE — 9% FEDERAL WORKFORCE ELIMINATED:** Wikipedia confirms by March 2026 ~9% of entire federal workforce gone. Annualized pace: structural, not transitory. 260K+ exits (OMB confirmed) is floor — ongoing RIFs not yet fully captured.
+
+**⚠️ NFP GOOD FRIDAY TRAP:** March NFP drops April 3 at 8:30 AM ET — markets CLOSED (Good Friday). Cannot react until Monday Apr 6 open. Gap risk is asymmetric: if NFP is another negative print (Feb was -92K), futures cannot absorb. Watch Sunday night futures. This is the key risk event of the week.
+
+**📅 THIS WEEK CALENDAR:**
+- Tue Mar 31: JOLTS Feb (consensus 6.85-6.89M, down from 6.946M Jan). Quarter-end. Watch for window dressing noise in labor proxies.
+- Wed Apr 1: ADP Monthly NER (March private payrolls — likely the last clean read before NFP)
+- Thu Apr 2: Weekly claims (wk ending Mar 28 — first week to capture FL Wave 1 fired Mar 24)
+- Fri Apr 3: NFP March — MARKET CLOSED. BLS releases 8:30 AM ET into void.
+- Mon Apr 6: Market opens with full NFP data in hand. Gap risk.
+
+**🔴 TECH LAYOFFS:** 150K+ cuts in 2026 per tech-insider.org tracker. Prior count 51,686 (SkillSyncer, 102 events) appears to be undercount — alternative trackers at 150K+.
+
+**🔴🔴 RICHMOND FED FLAG:** Hiring rate 3.3% historically implies U-3 of 6-10%, not the reported 4.3%. Structural divergence = BLS degradation or extreme mismatch. Supports shadow-adjustment thesis.
 
 **Signal Mar 27 — EOD (20:16 UTC):**
 
@@ -174,4 +191,4 @@ FL UI Wave 1 FIRED Mar 24. Primorsk + Ust-Luga offline (Russia Baltic). Apollo g
 
 *Prior: `domain/sources/STATUS_archive_*`. UI exhaustion timeline and frameworks archived to `workbook/STATUS_archive_20260325.md`*
 
-*Next: Mar 27 claims | Apr 3 NFP | Apr 26 FL Wave 2 | Aug CA/NY exhaustion*
+*Next: Mar 31 JOLTS | Apr 1 ADP | Apr 3 claims (FL Wave 1 first capture) | Apr 3 NFP (Good Friday — gap risk Apr 6) | Apr 26 FL Wave 2 | Aug CA/NY exhaustion*
