@@ -1,5 +1,5 @@
 # BROCK STATUS — Private Credit / BDC / Alt Assets
-**Updated:** 2026-03-27 20:25 UTC | **Status:** 🔴🔴🔴 STAGE 3 CONFIRMED — FORCED MARKS / SELLING ACTIVE
+**Updated:** 2026-03-30 18:00 UTC | **Status:** 🔴🔴🔴 STAGE 3/4 TRANSITION — REGULATORY RESPONSE TRIGGERED
 
 ---
 
@@ -25,6 +25,14 @@
 | Narrative | **Mainstream + systemic** — Bloomberg "take down economy" piece Mar 27 | 🔴🔴 | Mar 12-27 |
 | APO sentiment score | **38→22** (Mar 14→25), down 22% YTD | 🔴 | 247WallSt Mar 25 |
 | APO spread compression | **17bps YoY**, net spread 1.20%, CoF +30.9% Q4 | 🔴 | AOL/247WS Mar 25 |
+| **🆕 US Treasury / insurance regulators** | Treasury convening meetings w/ domestic + intl insurance regs on PC markets | 🔴🔴 NEW | Reuters Mar 30 |
+| **🆕 NYT PC/Trump piece** | "Private-Credit Wobbles Could Prove Perilous for Trump" — political mainstream | 🔴 NEW | NYT Mar 30 |
+| **🆕 "Cockroach Effect" narrative** | Major financial media calling redemption halts a reckoning | 🔴 NEW | FinContent Mar 30 |
+| **🆕 First Brands fraud confirmed** | Prosecutors: fake invoices, double-pledged collateral, falsified financials. Walbro sold $50M. | 🔴🔴 NEW | TruckParts Mar 26 |
+| **🆕 Barclays ABL pullback** | Scaling back asset-based lending after Tricolor/MFS losses | 🔴 NEW | Bloomberg Mar 25 |
+| **🆕 Tricolor real estate tentacles** | Fraud extended to RE transactions nationwide (Daniel Chu) | 🔴 NEW | Real Deal Mar 28 |
+| OWL price | **$8.97** (Mar 30) — $9.5P Apr 2 = $0.53 ITM | 🔴 | Market data |
+| OBDC price | **$10.81** (Mar 30) — ex-div tomorrow Mar 31 | 🔴 | Market data |
 | Blue Owl → family offices | Pivoting distribution as retail flees | 🟠 | Bloomberg Mar 27 |
 | Blue Owl → Century Capital | OWL triggered collapse of Century Capital | 🔴 | Yahoo Mar 25 |
 | Ostrover denial vs. reality | "No increase in defaults" while fund FULLY GATED — same week | 🔴🔴 NEW | Bloomberg Mar 26 |
@@ -80,7 +88,7 @@
 | APO $100P Jun 18 | ~$590 | CONFIRMED. May 1 lead plaintiff. | Feldman v. Apollo (SDNY) | May 1 deadline |
 | APO $95P Dec | ~$920 | Full thesis runway. | Stage 2→3→4 timeline | Q2-Q3 cascade |
 | ARES $95P Jun 18 | ~$890 | CONFIRMED. 11.6% gating. | Non-accrual >2.2% = add | Q1 earnings late Apr/May |
-| OWL $9.5P Apr 2 | ~$60 | 5-8% lottery. Hold through OBDCII. | NAV <$14 + non-accrual >3.5% = hold | OBDCII Mar 27 |
+| OWL $9.5P Apr 2 | CHECK | **ITM $0.53. OWL $8.97. 3 DAYS LEFT. OBDCII Q1 not filed.** | Exit before Apr 2 close | OBDCII still unfiled |
 
 ---
 

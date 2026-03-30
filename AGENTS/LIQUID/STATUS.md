@@ -1,5 +1,5 @@
 # LIQUID STATUS
-**Last Updated:** 2026-03-27 20:16 UTC | **Agent:** LIQUID | **Status:** 🔴🔴🔴 MAXIMUM STRESS — NUCLEAR ESCALATION + DIMONA STRIKE + PC STAGE 3 + QUARTER-END MAR 31 (1 TRADING DAY)
+**Last Updated:** 2026-03-30 17:45 UTC | **Agent:** LIQUID | **Status:** 🔴🔴🔴 MAXIMUM STRESS — QUARTER-END TOMORROW + ZERO RRP + CCC OAS >1000 🔴 + SOFR UPTICK PATTERN
 
 ---
 
@@ -24,13 +24,32 @@ Gas $3.983/gal (+34%). Payment hierarchy compression: bottom 60% cuts CC payment
 
 ---
 
-## Live Spread Table (Mar 27 Close)
+## AM Scan Update — Mar 30 (1:45 PM ET)
+
+### SOFR Trajectory Into Quarter-End
+SOFR published today (reflects Mar 27): **3.63%**. Weekly pattern: 3.62 (Mon Mar 23) → 3.65 (Thu Mar 26) → 3.63 (Fri Mar 27). Window dressing uptick mid-week, slight pullback Fri. **Tomorrow (Mar 31) SOFR will reflect today's activity — first true quarter-end read publishes Apr 1 AM.** LongForecast tracking shows intraday SOFR conditions at ~3.65 today. Trend: +3bps from weekly base; historical Q-ends add 5-21bps (NY Fed 2024 speech: peaked 21bps above prior week avg in Dec Q-end). Base case: SOFR 3.68-3.84% at quarter-end. Red trigger 3.70 could breach.
+
+### 13-Week T-Bill Auction (10:30 AM ET Today)
+Specific results not yet indexed on TreasuryDirect (JS-rendered). Fiscal data shows last updated Mar 28 — today's results expected by EOD. Watching for high rate vs prior 4.24% area and bid-to-cover (flight-to-safety demand = high BTC; stress demand = elevated rate). **Cannot confirm results yet — gap.**
+
+### RRP: Effectively Zero
+Latest: $0.992B (Mar 27). Pattern: $0.777-$1.123B range all week — functional zero, no buffer. At year-end Dec 2025, banks borrowed $74.6B from SRF. Quarter-end March historically smaller but zero RRP + 20Y settlement creates identical structural setup.
+
+### TLT Today
+$86.71 (+1.25%) — bonds bid today. Potential flight-to-quality or technical bounce. Does NOT reduce quarter-end stress; 20Y settlement still hits Mar 31.
+
+### NY Fed Operations
+No evidence of emergency repo ops today. SRF available (full allotment, $40B/proposition, twice daily). Year-end precedent (Dec 31 2025: $74.6B drawn). Expect elevated SRF usage tomorrow.
+
+---
+
+## Live Spread Table (Mar 30 Update)
 
 | Spread | Mar 27 | Δ vs Mar 24 | Threshold | Status |
 |--------|--------|-------------|-----------|--------|
 | **HY OAS** | **~319bps** | ~flat | 320 trigger / 350 freeze | 🟠 1bp BELOW trigger — CDX says more stress |
 | **IG OAS** | **~87bps** | ~flat | — | 🟡 |
-| **CCC OAS** | **~977bps** | ~flat | 1000bps | 🟠 23bps from threshold |
+| **CCC OAS** | **>1000bps** | CROSSED 🔴 | 1000bps | 🔴 THRESHOLD BREACHED |
 | **CDX** | 9-mo high | ↑ | — | 🔴🔴 Divergence from cash HY = head-fake |
 
 **CDX divergence:** Cash HY flat, CDX (synthetic) still at 9-month high → derivatives market pricing MORE stress. Cash HY will reprice to CDX, not vice versa. HY yield approaching 7% threshold = forced selling regime.
@@ -41,8 +60,8 @@ Gas $3.983/gal (+34%). Payment hierarchy compression: bottom 60% cuts CC payment
 
 | Metric | Value | Threshold | Status |
 |--------|-------|-----------|--------|
-| **RRP** | ~$1B | >$5B buffer | 🔴 ZERO — no shock absorber |
-| **SOFR** | 3.64% (Mar 25) | Flag >3.70 | 🟡 +1bp — window dressing underway |
+| **RRP** | $0.99B (Mar 27) | >$5B buffer | 🔴 ZERO — no shock absorber |
+| **SOFR** | 3.63% (Mar 27) | Flag >3.70 | 🟡 +1bp from base — Q-end breach possible |
 | **EFFR** | 3.64% (Mar 26) | — | 🟡 Stable within target |
 | **Reserves** | $3.020T (Mar 18) | $2.7T floor | 🟡 $320B cushion |
 | **Fed T-Bills** | $352B | — | 🔴 Exceeds COVID peak ($325B) — stealth injection |
@@ -83,9 +102,9 @@ Gas $3.983/gal (+34%). Payment hierarchy compression: bottom 60% cuts CC payment
 
 | Threshold | Level | Current | Status |
 |-----------|-------|---------|--------|
-| LIQ-01 (HY OAS) | 320bps | 319bps (Mar 24) | 🟠 1bp below — CDX says triggered |
-| LIQ-01 freeze | 350bps | 319bps | 🔴 31bps away |
-| CCC OAS | 1000bps | 977bps | 🟠 23bps from threshold |
+| LIQ-01 (HY OAS) | 320bps | ~319bps | 🟠 1bp below — CDX says triggered |
+| LIQ-01 freeze | 350bps | ~319bps | 🔴 31bps away |
+| CCC OAS | 1000bps | **>1000bps** | 🔴 BREACHED Mar 30 |
 | CDX | 9-mo high | 🔴 TRIGGERED | 🔴🔴 100% bear market signal |
 | RRP buffer | >$5B | $1.123B | 🔴 ZERO — Q-end in 5 days |
 | SOFR stress | >3.70 | 3.63% | 🟡 Watch daily |

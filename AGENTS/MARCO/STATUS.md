@@ -1,5 +1,5 @@
 # MARCO STATUS
-**Last Updated:** 2026-03-26 16:45 UTC | **Status:** 🔴 RED
+**Last Updated:** 2026-03-30 13:30 UTC | **Status:** 🔴 RED
 
 ---
 
@@ -7,15 +7,15 @@
 
 | Indicator | Value | Status |
 |-----------|-------|--------|
-| DHS Shutdown | Day 40, Congress recessed til Apr 13 | 🔴 BREACHED |
-| TSA Disruption | 400+ quit, 11% national callout, 40-43% at Houston hubs | 🔴 BREACHED |
-| ICE Construction Raids | 10-15 raids/co, 60% vol drops TX/NYC | 🔴 BREACHED |
+| DHS Shutdown | Day 44, 2 competing bills, Senate recessed, NO resolution | 🔴 BREACHED |
+| TSA Disruption | 400+ quit, 12% national callout, 33%+ at JFK/BWI/ATL/IAH | 🔴 BREACHED |
+| ICE Raids | Expanding: +58% arrests CA Central Valley, rural MN meatpacking | 🔴 BREACHED |
 | FL Net Domestic Migration | 22,517 (93% collapse) | 🔴 BREACHED |
 | Canadian Visitors to US | -22% YoY Jan 2026 (13th consecutive decline) | 🔴 BREACHED |
 | NFP Feb 2026 | -92K, UE 4.4% | 🔴 BREACHED |
 | Mexico Remittances Jan 2026 | -1.4% YoY | 🔴 BREACHED |
 | Ag Employment | -155K + 2.2M self-deportations | 🔴 BREACHED |
-| H-2A Certifications | 415K (admin cutting wages to compensate) | 🔴 BREACHED |
+| H-2A Certifications | 415K + Red River Valley delays, interviews not til July | 🔴 BREACHED |
 | E-Verify | ✅ OPERATIONAL | 🟢 ACTIVE |
 
 **Composite: 9 BREACHED indicators, 1 CONFIRMED disruption**
@@ -24,22 +24,26 @@
 
 ## ACTIVE SITUATIONS
 
-### DHS Shutdown (Day 40, 🔴 CRITICAL — LONGEST EVER)
-- Day 40 beats prior DHS record of 43 days before Congress returns (Apr 13 = Day 60).
-- **400+ TSA officers have quit** since shutdown began. National callout rate 11%.
-  - Houston Bush: **~40% callout** | Houston Hobby: **43%** | Atlanta: ~30% | New Orleans: ~30%
-  - Spring break peak + 2nd missed paycheck (~Mar 28) = inflection point. Quits accelerating.
+### DHS Shutdown (Day 44, 🔴 CRITICAL — LONGEST EVER, NO RESOLUTION)
+- **Day 44.** 2nd full paycheck missed Mar 28. Congress in deadlock:
+  - **Senate** passed bill (unanimously) funding DHS *except* ICE/CBP. House rejected it.
+  - **House** passed rival 8-week (60-day) stopgap funding all of DHS (213-203). Senate on recess, hasn't voted.
+  - Two competing bills, no conference, Senate recessed until Apr 13. **Shutdown continues.**
+- **Trump signed executive directive** to pay TSA "as early as Monday [Mar 30]" — but legal mechanism unclear and morale damage already done.
+- **TSA callout rate still ~12% nationally.** JFK, Baltimore, Houston, Atlanta all >33%. Hours-long lines at major hubs during spring break peak.
+- **400+ TSA officers have quit** since shutdown began. Quits accelerating after 2nd missed paycheck.
 - **Musk's $250M TSA salary offer rejected** by White House (legal barriers from gov contracts).
 - ICE/CBP funded separately (OBBBA). TSA is the unprotected pressure point.
 - Transportation Sec. Duffy warned small airports may shut. Delta suspended Congressional member services.
-- No resolution mechanism for 18+ days. Congress recessed — both sides dug in.
-- **Next paycheck miss: ~Mar 28** (2nd full miss). Small airport closures risk real after this.
+- **Even if Trump EO pays TSA, shutdown not legally resolved.** Structural damage (quits, training gaps) persists.
 
-### ICE Construction Raids (🔴 CRITICAL — EXPANDING VECTOR)
+### ICE Construction Raids (🔴 CRITICAL — EXPANDING TO RURAL AG/MEATPACKING)
 - Rio Grande Valley: 10-15 raids per company. No-warrant raids taking documented + undocumented workers.
 - 57 Concrete: **60% residential volume drop** → filed bankruptcy Dec 2025.
 - NYC: Fear effects undermining Dept of Buildings safety enforcement.
 - 1-in-3 construction workers foreign-born = systemic, not marginal.
+- **NEW (Mar 26-30):** ICE arrests **up 58% in CA Central Valley** vs same period last year (Fresno Bee). Workplace raids in *agricultural areas and hardware stores* in Kern County.
+- **NEW:** American Prospect long-form on ICE sweeps in rural MN meatpacking/farming towns — labor displacement beyond metro areas.
 - **Prediction #26 (housing start delays in border states, Q2 2026, 70% conf)** live.
 
 ### Ag Labor Data Gap (🔴 PERMANENT — NEW CRITICAL FINDING)
@@ -55,11 +59,14 @@
   - MONTHLY: State Dept H-2A Visa Issuances (supply vs. demand gap)
   - LAGGING: CPI Fresh Fruits/Vegetables (price pass-through confirmation)
 
-### H-2A / Ag Labor (Planting Season ACTIVE)
+### H-2A / Ag Labor (Planting Season ACTIVE — NEW BOTTLENECK SIGNAL)
 - Emergency wage rules effective Jan 1: lower AEWR, easier hiring.
 - UFW lawsuit ongoing (Eastern CA). Admin conceded in court: "there aren't enough Americans."
 - FL: 200+ blueberry pickers stuck in State Dept processing → crop loss.
 - 2.2M self-deportations in 2025 = underlying supply shock. No replacement survey data.
+- **NEW (Mar 27):** Red River Valley (MN/ND) potato growers warning H-2A visa delays threaten 2026 planting. South African workers can't get State Dept interview appointments until **July** — months past planting window. Multiple ag trade outlets reporting.
+- **NEW:** Diesel surged to **$5.37/gal** (from $3.89 early March). 640-acre farm fuel bill: ~$17K vs ~$12K a month ago. Energy shock compounding labor shortage for ag sector.
+- **NEW:** Mexico launched FINABIEN platform to lower remittance fees. US 1% tax on cash remittances (effective Jan 1) driving digital shift — could change remittance flow patterns.
 
 ### Canadian Travel (🔴 STRUCTURAL DECLINE)
 - **Jan 2026 StatCan data (released Mar 23):** Canadian return trips from US = **2.1M, -22.0% YoY**
@@ -102,7 +109,8 @@
 
 | Date | Event |
 |------|-------|
-| **~Mar 28** | 2nd full TSA paycheck miss — inflection point for quits/closures |
+| **Mar 28** | ✅ 2nd TSA paycheck missed. Trump EO to pay "by Mon 3/30" — unconfirmed |
+| **~May 22** | House stopgap expires (if Senate passes it) — next cliff |
 | **Apr 13** | Congress returns (earliest) = Day 60 of shutdown |
 | **Mar-May** | Planting season — H-2A bottleneck peak, no NASS data |
 | **May 28** | StatCan Q1 2026 BOP (first remittance data for 2026) |

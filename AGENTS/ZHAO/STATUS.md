@@ -1,6 +1,39 @@
 # ZHAO STATUS
-**Updated:** 2026-03-26 16:45 UTC (Mar 26: Inbox processed x2 — Japan TIC Phase 2 + HANS energy asymmetry; HIBOR-SOFR -205bps monitoring continued)
+**Updated:** 2026-03-30 13:45 UTC (Mar 30: Daily check-in — HIBOR spike past -200bps trigger, HK Peg Channel upgraded 🟡→🟠; property "lost decade" narrative intensifying; no new TIC data)
 **Overall Status:** 🔴🔴🔴 EMERGENCY ESCALATION — Gulf Recycling Loop Broken / Yuan-for-Hormuz / Ghalibaf UST Buyer Threat / FOMC Trapped / HIBOR approaching threshold
+
+---
+
+## 📌 MAR 30 DAILY CHECK-IN
+
+### 1. TIC Data (Belgium/China)
+**No new data.** Jan 2026 TIC remains latest. Next release: **Apr 15, 2026** (Feb 2026 data).
+- Belgium: $451.0B (🟡 unchanged)
+- China: $694.4B (🟠 unchanged)
+
+### 2. HK Peg Stress — ⚠️🟠 HIBOR-SOFR THRESHOLD BREACHED
+**HKMA data as of 18:30 HKT Mar 30:**
+- Aggregate Balance: **HK$53,773M** (flat — no peg defense required) 🟢
+- Overnight HIBOR: **2.13%** (UP from 1.83% Mar 25; +30bps)
+- 1-mo HIBOR fixing: **2.28292%** (UP from 2.12548% Mar 25; +16bps)
+- HIBOR-SOFR spread (1-mo): **~-202bps** (narrowed past -200bps trigger from -205bps)
+- **🟠 TRIGGER CROSSED.** HK Peg Channel upgraded from 🟡 2 → 🟠 3.
+- Quarter-end **Mar 31 = TOMORROW.** Peak HIBOR demand expected. Further narrowing likely.
+- AB stable — this remains a rate/liquidity signal, not active peg defense. But rate pressure is accelerating into quarter-end.
+
+### 3. LGFV/Property News
+- **CEOWORLD (Mar 29):** "China's Property Crisis Starting to Look Like Japan's Lost Decade" — 6th year of adjustment, 70% household wealth in housing, multi-year drag as excess stock absorbed. Macro leverage crossed **302.3% of GDP** in 2025 (up 11.8pp from 2024). Total govt borrowing incl. LGFVs at **124% of GDP**.
+- **Bloomberg (Mar 23):** "Light at End of Tunnel for China's Property Slump" — contrarian take, but paywalled.
+- No new LGFV defaults or acute triggers. Information suppression continues. 🟠 UNCHANGED but narrative worsening.
+
+### 4. Threshold Status (Updated Mar 30)
+| Threshold | Current | Distance | Status |
+|-----------|---------|----------|--------|
+| Belgium >$500B | $451.0B | $49B away | 🟡 Safe |
+| China <$650B | $694.4B | $44.4B buffer | 🟠 Watch |
+| HK AB <$45B | HK$53,773M | HK$8,773M buffer | 🟢 Safe |
+| HIBOR-SOFR >-200bps | **~-202bps** | **AT/PAST trigger** | 🟠 BREACHED |
+| Saudi <$120B | $134.8B | $14.8B buffer | 🟠 APPROACHING |
 
 ---
 
@@ -110,7 +143,7 @@ No new defaults or acute triggers. Information suppression continues. 🟠 UNCHA
 |--------|-------|-----------|--------|--------|
 | USD/CNY | **6.90** | >7.30 = 🟠 | 🟡 | PBOC fix 6.8961 Mar 17 |
 | HK Aggregate Balance | **HK$53,773M** | <$45B = 🟡 | 🟢 | HKMA Mar 25 |
-| HIBOR-SOFR Spread | **~-205bps** ⚠️ | >-200bps = 🟠 | ⚠️ APPROACHING | HKAB Mar 25 |
+| HIBOR-SOFR Spread | **~-202bps** 🟠 | >-200bps = 🟠 | 🟠 BREACHED | HKMA Mar 30 |
 | USD/KRW | **1,501** | >1,500 = BoK selling | 🔴 ACTIVE | TradingEconomics Mar 13 |
 
 ### Domestic Stress
@@ -132,7 +165,7 @@ No new defaults or acute triggers. Information suppression continues. 🟠 UNCHA
 | 4 | LGFV/Banking | 🟠 3 | Guizhou 11.6% NPL near RED. |
 | 5 | Property Zombification | 🟠 3 | Decade deleveraging. Vanke SOE rescue. Land revenue halved. |
 | 6 | PBOC Defensive Wall | 🟠 3 | Gold 16mo streak. CIPS +43%. |
-| 7 | HK Peg Channel | 🟡 2 ⚠️ | AB stable. HIBOR-SOFR -205bps, 5bps from 🟠. Daily monitoring through Mar 31. |
+| 7 | HK Peg Channel | 🟠 3 | AB stable. HIBOR-SOFR ~-202bps — 🟠 BREACHED Mar 30. Quarter-end Mar 31 tomorrow. |
 | 8 | LNG/Energy Shock | 🔴🔴 5 | Ras Laffan struck — permanent capacity destruction. China asymmetry confirmed: Hormuz passage + Russia + Qatar = 25-40% cost wedge vs. EU (HANS DD-4). |
 | 9 | USD/CNY Defense | 🟡 2 | ~6.90. PBOC active appreciation. |
 | 10 | Gulf Recycling Collapse | 🔴🔴 5+ | Three mechanisms: revenue collapse + forced selling + yuan settlement diversion. |

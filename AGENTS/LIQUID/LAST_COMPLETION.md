@@ -1,10 +1,8 @@
-# LIQUID LAST COMPLETION
-**Timestamp:** 2026-03-27 20:20 UTC
-**Task:** EOD Analysis — Fri Mar 27, 2026
+## COMPLETION — LIQUID — 2026-03-30
 
-STATUS: ⚠️ PARTIAL
-CHANGED: [AGENTS/LIQUID/STATUS.md — updated plumbing dashboard, spread table, danger windows with Mar 27 data]
-RESULT: SOFR 3.64% (+1bp, GREEN on playbook). Treasuries sold off hard — 10Y 4.46% (+4.8bps today), 2Y 4.02% (+3.7bps, through 4.0%). MOVE index spiking above 52wk avg. One trading day to Mar 31 quarter-end.
-GAPS: SOFR for Mar 26/27 activity not yet published (publishes next business day 8AM ET). RRP daily figure for Mar 27 not available yet (~4:30PM lag). HY OAS has 1-day FRED lag — Mar 27 data not yet posted. Could not pull exact MOVE index level or FRA-OIS spread without Bloomberg terminal.
-WILL_NEEDS: None
-FOLLOW-UP: Mon Mar 30 AM — pull SOFR (Fri activity), RRP, check playbook thresholds. This is THE day before the critical Mar 31 settlement.
+STATUS: ✅ DONE
+CHANGED: AGENTS/LIQUID/STATUS.md, AGENTS/LIQUID/LAST_COMPLETION.md
+RESULT: AM scan complete. SOFR 3.63% (published today, reflects Mar 27) — weekly pattern shows 3.65 mid-week uptick, Q-end breach of 3.70 red threshold possible tomorrow. RRP confirmed functional zero ($0.99B). CCC OAS threshold BREACHED (>1000bps 🔴 — updated in STATUS). TLT +1.25% today (bonds bid). 13-week T-bill auction at 10:30 AM — specific results not yet indexed (gap). STATUS.md updated with AM scan section + CCC OAS breach.
+GAPS: 13-week T-bill auction results not retrievable — TreasuryDirect JS-rendered, fiscal data last updated Mar 28. Retry after 3 PM ET or check tomorrow AM.
+WILL_NEEDS: SOFR tomorrow (Apr 1 AM) will be the definitive quarter-end read — watch for >3.70. SRF usage tomorrow (analogous to $74.6B drawn Dec 31 2025) is key confirmation metric.
+FOLLOW-UP: Spawn LIQUID again Apr 1 AM to capture official Mar 31 SOFR, SRF usage data, 20Y settlement outcome, and any repo market dislocation reports.

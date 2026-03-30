@@ -36,6 +36,7 @@ SERIES = [
         "green": (None, 300),
         "yellow": (300, 320),
         "red": (320, None),
+        "hysteresis": 5,  # Must move 5bps past boundary (alerts at 325/315 not 320)
         "notes": "350=issuance freeze",
         "multiply": 100,
     },
@@ -141,6 +142,31 @@ SERIES = [
         "notes": "5.0%=danger level",
     },
 
+    {
+        "name": "CP-TBill Spread",
+        "source": "fred_spread",
+        "id": ["DCPF3M", "DTB3"],
+        "agent": "LIQUID",
+        "tier": 1,
+        "direction": "higher_worse",
+        "green": (None, 0.30),
+        "yellow": (0.30, 1.00),
+        "red": (1.00, None),
+        "notes": "LIBOR-OIS replacement #1. 1.50+=alarm, 3.0+=GFC",
+    },
+    {
+        "name": "SOFR-IORB",
+        "source": "fred_spread",
+        "id": ["SOFR", "IORB"],
+        "agent": "LIQUID",
+        "tier": 1,
+        "direction": "higher_worse",
+        "green": (None, 0.05),
+        "yellow": (0.05, 0.25),
+        "red": (0.25, None),
+        "notes": "Reserve scarcity. >+5bps=watch, >+25bps=alarm",
+    },
+
     # ===== TIER 2 — Position Monitoring =====
 
     {
@@ -228,6 +254,18 @@ SERIES = [
         "notes": "30Y approaching 5%",
     },
     {
+        "name": "BIZD",
+        "source": "price",
+        "id": "BIZD",
+        "agent": "BROCK",
+        "tier": 2,
+        "direction": "lower_worse",
+        "green": (18, None),
+        "yellow": (15, 18),
+        "red": (None, 15),
+        "notes": "BDC ETF — ABX equivalent. NAV discount = PC stress",
+    },
+    {
         "name": "VIX",
         "source": "price",
         "id": "^VIX",
@@ -237,6 +275,7 @@ SERIES = [
         "green": (None, 20),
         "yellow": (20, 30),
         "red": (30, None),
+        "hysteresis": 1.5,  # Must move 1.5pts past boundary (alerts at 31.5/28.5 not 30)
         "notes": ">30=regime change",
     },
 ]
