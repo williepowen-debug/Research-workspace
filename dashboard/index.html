@@ -188,6 +188,32 @@
         .matrix-table th { text-align: left; padding: 6px 8px; font-size: 10px; color: var(--text3); text-transform: uppercase; border-bottom: 1px solid var(--border); }
         .matrix-table td { padding: 6px 8px; border-bottom: 1px solid rgba(39,39,42,.5); }
 
+        /* ===== STRESS PANEL ===== */
+        .stress-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; }
+        .stress-score { font: 700 28px 'JetBrains Mono', monospace; }
+        .stress-score.critical { color: var(--red); }
+        .stress-score.elevated { color: var(--orange); }
+        .stress-score.watch { color: var(--yellow); }
+        .stress-score.calm { color: var(--green); }
+        .stress-summary { font-size: 12px; color: var(--text3); }
+        .stress-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 8px; }
+        @media (max-width: 768px) { .stress-grid { grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); } }
+        .stress-item {
+            background: var(--bg3); border: 1px solid var(--border); border-radius: 8px;
+            padding: 10px 12px; transition: all .15s;
+        }
+        .stress-item.zone-red { border-color: var(--red-border); background: var(--red-bg); }
+        .stress-item.zone-yellow { border-color: rgba(202,138,4,.3); background: var(--yellow-bg); }
+        .stress-item.zone-green { border-color: rgba(22,163,74,.3); background: var(--green-bg); }
+        .stress-item-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 3px; }
+        .stress-item-name { font-size: 11px; font-weight: 600; color: var(--text2); }
+        .stress-item-dot { font-size: 10px; }
+        .stress-item-value { font: 600 16px 'JetBrains Mono', monospace; }
+        .stress-item-agent { font-size: 9px; color: var(--text3); margin-top: 2px; }
+        .stress-item-note { font-size: 9px; color: var(--text3); font-style: italic; }
+        .stress-tier-label { font-size: 10px; font-weight: 600; color: var(--text3); text-transform: uppercase; letter-spacing: .5px; margin: 12px 0 8px; }
+        .stress-tier-label:first-child { margin-top: 0; }
+
         /* ===== MODAL ===== */
         .modal-overlay {
             display: none; position: fixed; inset: 0; background: rgba(0,0,0,.3);
@@ -342,6 +368,16 @@
 
         <!-- Scenario Bar -->
         <div class="scenario-bar" id="scenario-bar"></div>
+
+        <!-- Stress Panel -->
+        <div class="card" id="stress-panel" style="display:none;">
+            <div class="stress-header">
+                <div class="card-title" style="margin-bottom:0;">⚡ Market Stress</div>
+                <div><span class="stress-score" id="stress-level"></span></div>
+            </div>
+            <div class="stress-summary" id="stress-summary"></div>
+            <div id="stress-body"></div>
+        </div>
 
         <!-- Metrics Strip -->
         <div class="metrics-strip" id="metrics-strip"></div>
@@ -587,6 +623,7 @@ let predData = null;
 let treasuryData = null;
 let secData = null;
 let alertsData = null;
+let stressData = null;
 let networkInitialized = false;
 
 // ============================================================
@@ -660,6 +697,46 @@ function renderScenarios() {
             <div class="scenario-pill-name">${stripMdBold((s.Description || '').substring(0, 40))}</div>
         </div>`;
     }).join('');
+}
+
+function renderStressPanel() {
+    if (!stressData?.series) return;
+    const panel = document.getElementById('stress-panel');
+    panel.style.display = 'block';
+
+    const s = stressData.summary;
+    const levelEl = document.getElementById('stress-level');
+    levelEl.textContent = `${s.level} (${s.score})`;
+    levelEl.className = 'stress-score ' + s.level.toLowerCase();
+
+    const summaryEl = document.getElementById('stress-summary');
+    summaryEl.textContent = `${s.red}🔴  ${s.yellow}🟡  ${s.green}🟢  ·  Updated ${stressData.updated || ''}`;
+
+    const tier1 = stressData.series.filter(x => x.tier === 1);
+    const tier2 = stressData.series.filter(x => x.tier === 2);
+
+    const renderItems = (items) => items.map(item => {
+        const zone = item.zone || 'unknown';
+        const emoji = item.emoji || '⚪';
+        const val = item.formatted || (item.value != null ? item.value : 'N/A');
+        return `<div class="stress-item zone-${zone}">
+            <div class="stress-item-top">
+                <span class="stress-item-name">${item.name}</span>
+                <span class="stress-item-dot">${emoji}</span>
+            </div>
+            <div class="stress-item-value">${val}</div>
+            <div class="stress-item-agent">${item.agent}</div>
+            ${item.shadow ? `<div class="stress-item-note">${item.shadow.label}: ${Math.round(item.shadow.value).toLocaleString()}</div>` : ''}
+            ${item.notes ? `<div class="stress-item-note">${item.notes}</div>` : ''}
+        </div>`;
+    }).join('');
+
+    document.getElementById('stress-body').innerHTML = `
+        <div class="stress-tier-label">Tier 1 — Decision Drivers</div>
+        <div class="stress-grid">${renderItems(tier1)}</div>
+        <div class="stress-tier-label">Tier 2 — Position Monitoring</div>
+        <div class="stress-grid">${renderItems(tier2)}</div>
+    `;
 }
 
 function renderMetrics() {
@@ -1379,7 +1456,7 @@ document.querySelectorAll('.tab-btn[data-tab]').forEach(btn => {
 // ============================================================
 
 async function loadAll() {
-    const [status, prices, fred, bls, preds, treasury, sec, alerts, energy] = await Promise.all([
+    const [status, prices, fred, bls, preds, treasury, sec, alerts, energy, stress] = await Promise.all([
         fetchJSON('/api/status'),
         fetchJSON('/api/prices'),
         fetchJSON('/api/fred'),
@@ -1389,6 +1466,7 @@ async function loadAll() {
         fetchJSON('/api/sec'),
         fetchJSON('/api/alerts'),
         fetchJSON('/api/energy'),
+        fetchJSON('/api/stress'),
     ]);
 
     statusData = status;
@@ -1400,11 +1478,13 @@ async function loadAll() {
     secData = sec;
     alertsData = alerts;
     energyData = energy;
+    stressData = stress;
 
     // Overview tab
     renderHeaderPrices();
     renderHero();
     renderScenarios();
+    renderStressPanel();
     renderMetrics();
     renderPositions();
     renderCatalysts();

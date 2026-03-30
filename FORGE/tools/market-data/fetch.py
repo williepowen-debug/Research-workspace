@@ -114,38 +114,25 @@ def price_fetch(tickers):
     if cached:
         return cached
 
-    try:
-        import yfinance as yf
-        data = yf.download(tickers, period="2d", progress=False, threads=True)
+    import yfinance as yf
+    results = {}
+    for t in tickers:
+        try:
+            tk = yf.Ticker(t)
+            info = tk.fast_info
+            curr = float(info["lastPrice"])
+            prev = float(info.get("regularMarketPreviousClose") or info.get("previousClose") or 0)
+            chg = ((curr - prev) / prev * 100) if prev else None
+            results[t] = {
+                "price": round(curr, 2),
+                "prev": round(prev, 2) if prev else None,
+                "change": round(float(chg), 2) if chg is not None else None,
+            }
+        except Exception as e:
+            results[t] = {"error": str(e)}
 
-        if data.empty:
-            return {"error": "No data returned"}
-
-        results = {}
-        close = data["Close"]
-
-        for t in tickers:
-            try:
-                if len(tickers) == 1:
-                    curr = close.iloc[-1]
-                    prev = close.iloc[-2] if len(close) > 1 else None
-                else:
-                    curr = close[t].iloc[-1]
-                    prev = close[t].iloc[-2] if len(close) > 1 else None
-
-                chg = ((curr - prev) / prev * 100) if prev else None
-                results[t] = {
-                    "price": round(float(curr), 2),
-                    "prev": round(float(prev), 2) if prev else None,
-                    "change": round(float(chg), 2) if chg is not None else None,
-                }
-            except Exception:
-                results[t] = {"error": f"Failed to parse {t}"}
-
-        _cache_set(cache_key, results)
-        return results
-    except Exception as e:
-        return {"error": str(e)}
+    _cache_set(cache_key, results)
+    return results
 
 # ---------------------------------------------------------------------------
 # Display

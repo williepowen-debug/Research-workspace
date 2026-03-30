@@ -1,7 +1,7 @@
 {
   "fred_JTSJOL": true,
   "KRE": false,
-  "VIX": false,
+  "VIX": true,
   "BTC": false,
   "USDJPY": false,
   "TNX": false,
@@ -12,10 +12,16 @@
   "fred_UNRATE": false,
   "fred_PAYEMS": false,
   "CVNA": false,
-  "WAL": true,
+  "WAL": false,
   "OZK": false,
   "fred_U6RATE": false,
   "fred_BAMLH0A0HYM2": false,
   "fred_SOFR": false,
-  "fred_RRPONTSYD": true
+  "fred_RRPONTSYD": true,
+  "BZ": true,
+  "JPY": true,
+  "APO": true,
+  "ARES": true,
+  "FXY": false,
+  "TLT": false
 }

@@ -37,7 +37,8 @@
 
 ## SYSTEM ARCHITECTURE
 
-- **Multi-runtime (Mar 27).** CARL and REGINALD now run independently via Claude Code on Telegram, siloed to their own domain folders. Prome does NOT spawn them — communicate via inbox files only. Read before editing their files (race condition risk). All other agents still spawned by Prome via OpenClaw.
+- **Multi-runtime (Mar 27, updated Mar 29).** CARL, REGINALD, and SAM now run independently via Claude Code on Telegram, siloed to their own domain folders. Prome does NOT spawn them — communicate via inbox files only. Read before editing their files (race condition risk). All other agents still spawned by Prome via OpenClaw.
+- **Market data dashboard (Mar 29).** `FORGE/tools/market-data/` — three layers: fetch.py (data), config.py (thresholds), dashboard.py (CLI + cron + alerts). 17 series, weighted stress scoring (Tier 1 = 2pts), morning briefing 6 AM ET, web panel at :8080/api/stress. Single config.py drives both CLI and web dashboard. System timezone changed to ET.
 - **Inbox siloed from spawn.** Separate spawn for inbox processing vs normal tasks.
 - **Reply rule:** Only reply to signals if (a) new info, (b) error correction, (c) threshold trigger.
 - **Inbox = flat folder at agent root.** `inbox/` and `outbox/` (migrated from `mail/inbox` Mar 23). Processed → `inbox/processed/`, delivered → `outbox/delivered/`.

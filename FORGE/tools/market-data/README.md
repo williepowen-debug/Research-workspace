@@ -45,9 +45,10 @@ python3 fetch.py fred ICSA           # Single FRED series
 
 ## Build Status
 
-- [ ] Layer 1: fetch.py (FRED + yfinance)
-- [ ] Layer 2: config.py (agent mapping + thresholds)
-- [ ] Layer 3: dashboard.py
+- [x] Layer 1: fetch.py (FRED + yfinance) — fixed price_fetch bug Mar 29
+- [x] Layer 2: config.py (agent mapping + thresholds) — approved Mar 28
+- [x] Layer 3: dashboard.py — ALL segments complete Mar 29
+- [x] Layer 3 Segment 4: cron + Telegram auto-alerts — installed `*/5 * * * *`
 - [ ] Tier 3 series added
-- [ ] Cron automation
 - [ ] STATUS file auto-update
+- [ ] server.py → config.py unification

@@ -24,7 +24,7 @@ Scenario D **85%** (HAWK raised). War Day 27. Account **$55,689 (+111.5%)**. Bre
 - **H.8 auto-update completed** (REGINALD cron) — C&I vs CRE divergence +6.1pp, ALLL reserve release 3rd month, NDFI first decline. Will briefed in detail.
 - **HERMES PM delivered** — H.8 findings routed to NEXUS/HENRY/LIQUID/CARL inboxes
 - **TODAY.md rewritten** for Mon Mar 31 — FXY buy is first line item at open
-- **CARL + REGINALD** are Claude Code on Telegram. DO NOT SPAWN.
+- **CARL + REGINALD + SAM** are Claude Code on Telegram. DO NOT SPAWN.
 
 ## IMMEDIATE NEXT SESSION
 1. 🔴 **Build SAM KB.tsv** — Will explicitly requested this. Extract ~40-50 key facts from STATUS, research files, repatriation brief into structured KB. Use two-pass method (extraction → formatting). This is prep for SAM Claude Code promotion.
@@ -47,5 +47,7 @@ Scenario D **85%** (HAWK raised). War Day 27. Account **$55,689 (+111.5%)**. Bre
 
 ## Architecture Notes
 - SAM USD/JPY cron: `AGENTS/SAM/tools/usdjpy_monitor.sh`, state at `.usdjpy_alert_state`
-- Will planning to promote SAM to Claude Code (like CARL/REGINALD)
+- **SAM promoted to Claude Code** (like CARL/REGINALD). DO NOT SPAWN. Inbox signals only.
 - Group chat test (Prome + CARL + REGINALD) still pending
+- **Market data dashboard COMPLETE** — `FORGE/tools/market-data/dashboard.py`. Cron every 5min. Morning briefing 6 AM ET. Web panel at :8080/api/stress. All thresholds in `config.py` (single source of truth for CLI + web dashboard).
+- **System timezone set to ET** (was UTC). All timestamps now Eastern.

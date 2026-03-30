@@ -1,0 +1,87 @@
+{
+  "HY OAS": {
+    "zone": "red",
+    "value": 321.0,
+    "timestamp": "2026-03-30T01:40:05Z"
+  },
+  "CCC OAS": {
+    "zone": "yellow",
+    "value": 984.0,
+    "timestamp": "2026-03-30T01:40:05Z"
+  },
+  "Brent": {
+    "zone": "red",
+    "value": 108.85,
+    "timestamp": "2026-03-30T01:40:05Z"
+  },
+  "Gas (wkly)": {
+    "zone": "yellow",
+    "value": 3.961,
+    "timestamp": "2026-03-30T01:40:05Z"
+  },
+  "USD/JPY": {
+    "zone": "red",
+    "value": 159.96,
+    "timestamp": "2026-03-30T01:40:05Z"
+  },
+  "Init Claims": {
+    "zone": "green",
+    "value": 210000.0,
+    "timestamp": "2026-03-30T01:40:05Z"
+  },
+  "Cont Claims": {
+    "zone": "green",
+    "value": 1819000.0,
+    "timestamp": "2026-03-30T01:40:05Z"
+  },
+  "SOFR": {
+    "zone": "yellow",
+    "value": 3.65,
+    "timestamp": "2026-03-30T01:40:05Z"
+  },
+  "10Y Yield": {
+    "zone": "yellow",
+    "value": 4.42,
+    "timestamp": "2026-03-30T01:40:05Z"
+  },
+  "KRE": {
+    "zone": "yellow",
+    "value": 63.37,
+    "timestamp": "2026-03-30T01:40:05Z"
+  },
+  "APO": {
+    "zone": "red",
+    "value": 108.42,
+    "timestamp": "2026-03-30T01:40:05Z"
+  },
+  "ARES": {
+    "zone": "red",
+    "value": 106.28,
+    "timestamp": "2026-03-30T01:40:05Z"
+  },
+  "OZK": {
+    "zone": "yellow",
+    "value": 44.52,
+    "timestamp": "2026-03-30T01:40:05Z"
+  },
+  "WAL": {
+    "zone": "yellow",
+    "value": 67.8,
+    "timestamp": "2026-03-30T01:40:05Z"
+  },
+  "FXY": {
+    "zone": "yellow",
+    "value": 57.36,
+    "timestamp": "2026-03-30T01:40:05Z"
+  },
+  "TLT": {
+    "zone": "yellow",
+    "value": 85.64,
+    "timestamp": "2026-03-30T01:40:05Z"
+  },
+  "VIX": {
+    "zone": "red",
+    "value": 31.05,
+    "timestamp": "2026-03-30T01:40:05Z"
+  }
+}
