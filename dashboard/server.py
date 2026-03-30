@@ -15,6 +15,11 @@ from urllib.parse import urlparse, parse_qs
 
 PORT = 8080
 WORKSPACE = "/home/moltbot/.openclaw/workspace"
+
+# Import config.py from market-data tools
+import sys as _sys
+_sys.path.insert(0, os.path.join(WORKSPACE, "FORGE/tools/market-data"))
+from config import SERIES as STRESS_SERIES, classify as stress_classify, get_emoji as stress_emoji, format_value as stress_format
 ALERTS_FILE = os.path.join(WORKSPACE, "dashboard", "alerts.json")
 SUBAGENT_LOG_FILE = os.path.join(WORKSPACE, "dashboard", "subagent_log.json")
 FRED_API_KEY = "8ce3f08db56f151f54221a0dd12b63de"
@@ -546,23 +551,35 @@ def list_all_agents():
 # PRICE FETCHER (extended with oil)
 # ============================================================
 
-PRICE_SYMBOLS = {
-    "KRE": {"yahoo": "KRE", "threshold": 60, "direction": "below"},
-    "WAL": {"yahoo": "WAL", "threshold": 82.5, "direction": "below"},
-    "OZK": {"yahoo": "OZK", "threshold": 40, "direction": "below"},
-    "VIX": {"yahoo": "^VIX", "threshold": 25, "direction": "above"},
-    "USDJPY": {"yahoo": "USDJPY=X", "threshold": 160, "direction": "above"},
-    "TNX": {"yahoo": "^TNX", "threshold": 5.0, "direction": "above"},
-    "HYG": {"yahoo": "HYG", "threshold": 75, "direction": "below"},
-    "IWM": {"yahoo": "IWM", "threshold": None},
-    "SPY": {"yahoo": "SPY", "threshold": None},
-    "GLD": {"yahoo": "GLD", "threshold": None},
-    "TLT": {"yahoo": "TLT", "threshold": None},
-    "APO": {"yahoo": "APO", "threshold": None},
-    "BZ": {"yahoo": "BZ=F", "threshold": None, "label": "Brent Crude"},
-    "CL": {"yahoo": "CL=F", "threshold": None, "label": "WTI Crude"},
-    "UNG": {"yahoo": "UNG", "threshold": None, "label": "Nat Gas ETF"},
-}
+# Build PRICE_SYMBOLS from config.py + display-only extras
+# Thresholds come from config.py; extras (SPY, GLD, etc.) are display-only
+def _build_price_symbols():
+    symbols = {}
+    # Pull thresholds from config.py for price-sourced series
+    for s in STRESS_SERIES:
+        if s["source"] == "price":
+            ticker_key = s["id"].replace("=F", "").replace("=X", "").replace("^", "")
+            direction = "above" if s["direction"] == "higher_worse" else "below"
+            # Use red boundary as threshold
+            red = s["red"]
+            threshold = red[0] if red[0] is not None else red[1]
+            symbols[ticker_key] = {
+                "yahoo": s["id"],
+                "threshold": threshold,
+                "direction": direction,
+                "label": s["name"],
+            }
+    # Display-only extras (no thresholds — not in config.py)
+    for key, yahoo, label in [
+        ("SPY", "SPY", "S&P 500"), ("IWM", "IWM", "Russell 2000"),
+        ("GLD", "GLD", "Gold"), ("HYG", "HYG", "HY Bond ETF"),
+        ("CL", "CL=F", "WTI Crude"), ("UNG", "UNG", "Nat Gas ETF"),
+    ]:
+        if key not in symbols:
+            symbols[key] = {"yahoo": yahoo, "threshold": None, "label": label}
+    return symbols
+
+PRICE_SYMBOLS = _build_price_symbols()
 
 last_breach_state = load_json_file(BREACH_STATE_FILE, {})
 
@@ -613,17 +630,36 @@ def fetch_prices():
 # FRED / BLS / TREASURY / SEC (kept from v1, condensed)
 # ============================================================
 
-FRED_SERIES = {
-    "ICSA": {"name": "Initial Claims", "threshold": 250000, "direction": "above", "format": "thousands"},
-    "CCSA": {"name": "Continuing Claims", "threshold": 2000000, "direction": "above", "format": "thousands"},
-    "JTSJOL": {"name": "JOLTS Job Openings", "threshold": 7000, "direction": "below", "format": "thousands"},
-    "UNRATE": {"name": "Unemployment Rate", "threshold": 5.0, "direction": "above", "format": "percent"},
-    "U6RATE": {"name": "U-6 Underemployment", "threshold": 9.0, "direction": "above", "format": "percent"},
-    "PAYEMS": {"name": "Nonfarm Payrolls", "threshold": None, "direction": None, "format": "thousands"},
-    "BAMLH0A0HYM2": {"name": "HY OAS", "threshold": 4.0, "direction": "above", "format": "percent"},
-    "SOFR": {"name": "SOFR Rate", "threshold": 4.50, "direction": "above", "format": "percent"},
-    "RRPONTSYD": {"name": "RRP Balance", "threshold": 5, "direction": "below", "format": "billions"},
-}
+# Build FRED_SERIES from config.py + display-only extras
+def _build_fred_series():
+    series = {}
+    for s in STRESS_SERIES:
+        if s["source"] == "fred":
+            direction = "above" if s["direction"] == "higher_worse" else "below"
+            red = s["red"]
+            threshold = red[0] if red[0] is not None else red[1]
+            # Apply multiplier to threshold if needed (OAS stored in bps, FRED returns %)
+            mult = s.get("multiply", 1)
+            if mult != 1:
+                threshold = threshold / mult  # compare in FRED's native units
+            fmt = "thousands" if threshold and threshold > 10000 else "percent"
+            series[s["id"]] = {
+                "name": s["name"], "threshold": threshold,
+                "direction": direction, "format": fmt,
+            }
+    # Display-only extras not in config.py
+    for sid, name, fmt in [
+        ("JTSJOL", "JOLTS Job Openings", "thousands"),
+        ("UNRATE", "Unemployment Rate", "percent"),
+        ("U6RATE", "U-6 Underemployment", "percent"),
+        ("PAYEMS", "Nonfarm Payrolls", "thousands"),
+        ("RRPONTSYD", "RRP Balance", "billions"),
+    ]:
+        if sid not in series:
+            series[sid] = {"name": name, "threshold": None, "direction": None, "format": fmt}
+    return series
+
+FRED_SERIES = _build_fred_series()
 
 def fetch_fred_data():
     if cache_fresh(fred_cache):
@@ -884,6 +920,88 @@ def parse_predictions():
     return result
 
 # ============================================================
+# STRESS DASHBOARD (from config.py)
+# ============================================================
+
+stress_cache = make_cache(300)  # 5 min
+
+def fetch_stress_dashboard():
+    """Fetch all series from config.py, classify each, return structured data."""
+    if cache_fresh(stress_cache):
+        return stress_cache["data"]
+
+    results = []
+    for s in STRESS_SERIES:
+        entry = {
+            "name": s["name"],
+            "agent": s["agent"],
+            "tier": s["tier"],
+            "value": None,
+            "zone": "unknown",
+            "emoji": "⚪",
+            "notes": s.get("notes", ""),
+        }
+
+        try:
+            if s["source"] == "price":
+                url = f"https://query1.finance.yahoo.com/v8/finance/chart/{s['id']}?interval=1d&range=1d"
+                req = urllib.request.Request(url, headers={"User-Agent": "PROME-Dashboard/2.0"})
+                with urllib.request.urlopen(req, timeout=10) as resp:
+                    data = json.loads(resp.read().decode())
+                    price = data.get("chart", {}).get("result", [{}])[0].get("meta", {}).get("regularMarketPrice")
+                    entry["value"] = round(price, 2) if price else None
+
+            elif s["source"] == "fred":
+                url = f"https://api.stlouisfed.org/fred/series/observations?series_id={s['id']}&api_key={FRED_API_KEY}&file_type=json&sort_order=desc&limit=1"
+                req = urllib.request.Request(url, headers={"User-Agent": "PROME-Dashboard/2.0"})
+                with urllib.request.urlopen(req, timeout=15) as resp:
+                    data = json.loads(resp.read().decode())
+                    obs = data.get("observations", [])
+                    if obs and obs[0].get("value") != ".":
+                        entry["value"] = float(obs[0]["value"]) * s.get("multiply", 1)
+                        entry["date"] = obs[0]["date"]
+        except Exception as e:
+            entry["error"] = str(e)
+
+        if entry["value"] is not None:
+            entry["zone"] = stress_classify(entry["value"], s)
+            entry["emoji"] = stress_emoji(entry["zone"])
+            entry["formatted"] = stress_format(entry["value"], s)
+
+        # Shadow adjustment
+        shadow = s.get("shadow_adj")
+        if shadow and entry["value"] is not None:
+            entry["shadow"] = {
+                "label": shadow["label"],
+                "value": entry["value"] + shadow["add"],
+            }
+
+        results.append(entry)
+
+    reds = sum(1 for r in results if r["zone"] == "red")
+    yellows = sum(1 for r in results if r["zone"] == "yellow")
+    greens = sum(1 for r in results if r["zone"] == "green")
+
+    # Weighted score (Tier 1 = 2pts, Tier 2 = 1pt)
+    score = sum(2 if r["tier"] == 1 else 1 for r in results if r["zone"] == "red")
+    if score >= 6:
+        level = "CRITICAL"
+    elif score >= 4:
+        level = "ELEVATED"
+    elif score >= 2:
+        level = "WATCH"
+    else:
+        level = "CALM"
+
+    output = {
+        "series": results,
+        "summary": {"red": reds, "yellow": yellows, "green": greens, "score": score, "level": level},
+        "updated": time.strftime("%Y-%m-%d %H:%M:%S ET", time.localtime()),
+    }
+    return cache_set(stress_cache, output)
+
+
+# ============================================================
 # HTTP HANDLER
 # ============================================================
 
@@ -988,6 +1106,12 @@ class DashboardHandler(http.server.SimpleHTTPRequestHandler):
             self.send_json(parse_agent_status(name))
             return
         
+        # Stress dashboard (from config.py thresholds)
+        if path == '/api/stress':
+            stress_data = fetch_stress_dashboard()
+            self.send_json(stress_data)
+            return
+        
         # ---- EXISTING ENDPOINTS ----
         
         if path == '/api/prices':
@@ -1077,6 +1201,7 @@ class DashboardHandler(http.server.SimpleHTTPRequestHandler):
                     "/api/status", "/api/positions", "/api/scenarios",
                     "/api/catalysts", "/api/convictions", "/api/pending",
                     "/api/agents", "/api/agent/{name}", "/api/energy",
+                    "/api/stress",
                     "/api/prices", "/api/fred", "/api/bls",
                     "/api/treasury", "/api/sec", "/api/predictions",
                     "/api/alerts", "/api/subagents", "/api/file?path=...",

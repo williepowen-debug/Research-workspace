@@ -7,7 +7,7 @@
 | Runtime | Agent(s) | Interface | Notes |
 |---------|----------|-----------|-------|
 | **OpenClaw (VPS)** | Prome + all spawn-based agents | Telegram | Orchestrator. Spawns sub-agents. Full workspace access. |
-| **Claude Code** | REGINALD, CARL | Telegram | Independent sessions. Siloed to own domain folders. Push to shared repo. |
+| **Claude Code** | REGINALD, CARL, SAM | Telegram | Independent sessions. Siloed to own domain folders. Push to shared repo. |
 
 **Key rules for multi-runtime:**
 - Prome does NOT spawn REGINALD or CARL as sub-agents. They run independently.
@@ -34,7 +34,7 @@ Sub-agents own detail → distill upward to parents → lateral only when transm
 |-------|--------|--------|-----|
 | **HENRY** | Market structure + econ data | 🟡 | Gamma/GEX, VIX, CPI/PPI/PCE/NFP/ISM. Calendar: `HENRY/domain/ECON_CALENDAR.md` |
 | **LIQUID** | Funding/Treasury | 🟡 | RRP, SOFR, SRF, auctions. Hours to crisis when it breaks |
-| **SAM** | Japan/BOJ/JGB | 🔴 | JGB stress → global contagion |
+| **SAM** 🖥️ | Japan/BOJ/JGB | 🔴 | JGB stress → global contagion. **Claude Code — independent, siloed.** |
 | **ZHAO** | China/capital flows | 🔴 | TIC data, LGFV, HK peg. True holdings ~$1.8-1.9T stable |
 | **HANS** | Europe (US lens) | 🟡 | UST demand, ECB, sovereign spreads. Needs research prompts |
 | **BOND** | US bond market structure | 🔴 | Auctions, dealer positioning, issuance (HY/IG), credit spreads, CDX-cash divergence, credit-equity lead. Between LIQUID (plumbing) and ZHAO (foreign flows). |

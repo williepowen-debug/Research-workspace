@@ -4,6 +4,7 @@
 
 **Tools:** `pdfminer.six` installed (`from pdfminer.high_level import extract_text`).
 **Calendar:** CALENDAR.md syncs to Google Calendar ("Research Ops") via `tools/calendar/sync_calendar.py`. Run after any CALENDAR.md edit. Cron auto-syncs 7 AM ET weekdays.
+**Market Data:** `FORGE/tools/market-data/` — `fetch.py` (live prices + FRED), `config.py` (thresholds), `dashboard.py` (CLI stress dashboard). Use `python3 dashboard.py` before citing any price. Cron runs every 5min (self-throttled). Morning briefing at 6 AM ET to Telegram. Web dashboard at :8080 (`/api/stress`).
 
 1. **Read `PROME/TODAY.md`** — what's actually happening today. Catalysts, decisions, levels.
 2. **Read `PROME/SCRATCH.md`** — ephemeral scratchpad, handoff from last session.
@@ -59,7 +60,7 @@ Named for Arturo Toscanini. Prome's decision interface with Will. **This is how 
 |----|--------|----|--------|
 | labor | Employment/claims | henry | Market structure/econ data |
 | ~~carl~~ | ~~Consumer credit~~ 🖥️ **Claude Code — DO NOT SPAWN** | liquid | Funding/Treasury |
-| ~~reginald~~ | ~~Regional banks~~ 🖥️ **Claude Code — DO NOT SPAWN** | sam | Japan/BOJ/JGB |
+| ~~reginald~~ | ~~Regional banks~~ 🖥️ **Claude Code — DO NOT SPAWN** | ~~sam~~ | ~~Japan/BOJ/JGB~~ 🖥️ **Claude Code — DO NOT SPAWN** |
 | brock | BDC/private credit | zhao | China/capital flows |
 | nexus | Cross-agent synthesis | hans | Europe (US lens) |
 | hawk | Geopolitical/military | brent | Oil/energy markets |

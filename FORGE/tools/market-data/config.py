@@ -37,6 +37,7 @@ SERIES = [
         "yellow": (300, 320),
         "red": (320, None),
         "notes": "350=issuance freeze",
+        "multiply": 100,
     },
     {
         "name": "CCC OAS",
@@ -48,6 +49,7 @@ SERIES = [
         "green": (None, 900),
         "yellow": (900, 1000),
         "red": (1000, None),
+        "multiply": 100,
         "notes": "Forced selling regime",
     },
     {

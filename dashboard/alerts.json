@@ -502,5 +502,59 @@
     "message": "VIX recovered (now 24.69, threshold 25)",
     "value": 24.69,
     "threshold": 25
+  },
+  {
+    "id": 1774827629279,
+    "timestamp": "2026-03-29 23:40:29 UTC",
+    "type": "threshold",
+    "severity": "warning",
+    "message": "BZ breached 100 (now 108.02)",
+    "value": 108.02,
+    "threshold": 100
+  },
+  {
+    "id": 1774827629673,
+    "timestamp": "2026-03-29 23:40:29 UTC",
+    "type": "threshold",
+    "severity": "warning",
+    "message": "JPY breached 157 (now 160.36)",
+    "value": 160.36,
+    "threshold": 157
+  },
+  {
+    "id": 1774827630082,
+    "timestamp": "2026-03-29 23:40:30 UTC",
+    "type": "threshold",
+    "severity": "warning",
+    "message": "APO breached 110 (now 108.42)",
+    "value": 108.42,
+    "threshold": 110
+  },
+  {
+    "id": 1774827630474,
+    "timestamp": "2026-03-29 23:40:30 UTC",
+    "type": "threshold",
+    "severity": "warning",
+    "message": "ARES breached 110 (now 106.28)",
+    "value": 106.28,
+    "threshold": 110
+  },
+  {
+    "id": 1774827630971,
+    "timestamp": "2026-03-29 23:40:30 UTC",
+    "type": "threshold",
+    "severity": "info",
+    "message": "WAL recovered (now 67.8, threshold 65)",
+    "value": 67.8,
+    "threshold": 65
+  },
+  {
+    "id": 1774827630972,
+    "timestamp": "2026-03-29 23:40:30 UTC",
+    "type": "threshold",
+    "severity": "warning",
+    "message": "VIX breached 30 (now 31.05)",
+    "value": 31.05,
+    "threshold": 30
   }
 ]

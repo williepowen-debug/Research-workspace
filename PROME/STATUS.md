@@ -1,38 +1,30 @@
 # PROME STATUS.md
-**Updated:** 2026-03-26 23:30 UTC
+**Updated:** 2026-03-29 20:30 ET
 
-## 🔴🔴 SCENARIO D DOMINANT (82%) — WAR DAY 26 — BRENT ~$100 — ACCOUNT $52,626 (+66%)
+## 🔴🔴 SCENARIO D DOMINANT (85%) — WAR DAY 29 — BRENT $107 — ACCOUNT ~$55,689 (+111.5%) — STRESS: CRITICAL (9)
 
 ---
 
 ## Agents
 
-| Agent | St | Key State | Upd | Inbox |
-|-------|----|-----------|-----|-------|
-| NEXUS | 🟢🟢 | Pass 10 complete. 50/50 ceiling. C-30→C-34 added. FSK/APO/ARES integrated. | 3/26 | 0 ✅ |
-| CARL | 🔴🔴 | Path C activating. Convergence 43/50. **Russia fertilizer suspension = 3rd source offline.** | 3/26 | 0 ✅ |
-| LABOR | 🟢 | Claims 205K benign. FL UI cliff Mar 24. **Duration 25.7wk (4yr high). Construction 135K removed, NFP undercounts 2-3x. Exhaustion peak Jul 2026 ($800-930M/mo). Staffing canary resolved 🟢.** | 3/26 | 0 ✅ |
-| SAM | 🟢 | Shunto 5.26%. GPIF breached. BOJ hike likely May 1. **Repatriation research complete** — structural $50-120B/yr UST demand withdrawal. FXY thesis refined. | 3/26 | 0 ✅ |
-| OTTO | 🟢 | DQ 7.1% RED. El-Erian 2007 parallel. | 3/26 | 0 ✅ |
-| MARCO | 🔴 | DHS Day 40. **9 breached indicators.** STATUS refreshed (141 lines). TSA Houston 40-43% callout. Ag data gap permanent. | 3/26 | 0 ✅ |
-| HENRY | 🔴🔴 | JPM retail fatigue (-30%). Fed T-Bill $352B. **PMI counter-signal (tariff front-running?). $14T IG supply wall.** | 3/26 | 0 ✅ |
-| LIQUID | 🔴🔴 | Stealth liquidity, FHLB +31%. **HY OAS 319 head-fake (CDX 9mo high). Quarter-end plumbing stress. Iraq FM.** | 3/26 | 0 ✅ |
-| ZHAO | 🔴🔴 | Demand hole $70-135B/mo. Ghalibaf ratchet. **HIBOR-SOFR -205bps (5bps from trigger).** Japan TIC +$39.8B (oscillator). Quarter-end. | 3/26 | 0 ✅ |
-| HAWK | 🔴🔴 | Scenario D **78%**. Day 25. **Qatar FM. Israel hits Caspian route. Russia fertilizer suspension.** | 3/26 | 0 ✅ |
-| BROCK | 🔴🔴 | APO+ARES gated. FSK junk. 9 funds ~7wks. **ARES trade folder 42 KB rows. Aspida deep dive COMPLETE — "capital-light" demolished (neg surplus, losses, 398% RBC declining, BIG 49%). KBRA obtained.** | 3/27 | 0 ✅ |
-| REGINALD | 🔴 | OZK KB **159**/17 grp. WAL KB **60**/10 grp. **WAL/FRAUD/ folder built (3 vectors consolidated).** Apr 16 OZK = **22d**, Apr 21 WAL = **27d**. | 3/26 | 0 ✅ |
-| BRENT | 🔴🔴 | Valero 380K bpd offline. Primorsk >1M bpd. **Qatar FM: 13M tonnes LNG removed 3-5yr. Ust-Luga struck AGAIN. Australia fuel shortages.** | 3/26 | 0 ✅ |
-| HANS | 🔴🔴 | DD-4 delivered. EU storage 17-19% entering refill. Dimona = point of no return. | 3/26 | 0 ✅ |
-| DARWIN | 🟡 | Scan overdue. **STALE 36d** | 2/18 | 0 |
-| RED | 🟢 | 85% confidence. **APO HOLD to Apr 7, stop $113.** APO at $110.52, class action + 11.2% gating. | 3/26 | 0 ✅ |
-
----
-
-## Intelligence Quality Notes
-
-| Claim | Source | Verdict | Date |
-|-------|--------|---------|------|
-| BlackRock sold USTs 3 consecutive quarters, rotating into GDX/FCX/CCJ | Felix Prehn (FinTwit) | **FALSE** — 13F data contradicts. IEF +44% in shares, CCJ actively sold (-46%), GDX ~0.0003% of AUM. TLT volatile not trending. Do not weight. | 3/25/2026 |
+| Agent | St | Key State | Upd | Runtime |
+|-------|----|-----------|-----|---------|
+| NEXUS | 🟢🟢 | Pass 10 complete. 50/50 ceiling. C-30→C-34 added. | 3/26 | OpenClaw |
+| CARL | 🔴🔴 | Path C activating. Convergence 43/50. Russia fertilizer = 3rd source offline. | 3/26 | 🖥️ Claude Code |
+| LABOR | 🟢 | Claims 210K. Duration 25.7wk (4yr high). Construction 135K removed. Exhaustion peak Jul 2026. | 3/27 | OpenClaw |
+| SAM | 🔴 | USD/JPY 160 🔴. FXY entry approved Mon open. BOJ hike likely May 1. Repatriation $50-120B/yr. | 3/29 | 🖥️ Claude Code |
+| OTTO | 🟢 | DQ 7.1% RED. El-Erian 2007 parallel. | 3/26 | OpenClaw |
+| MARCO | 🔴 | DHS Day 42. 9 breached indicators. Ag data gap permanent. | 3/26 | OpenClaw |
+| HENRY | 🔴🔴 | JPM retail fatigue (-30%). Fed T-Bill $352B. PMI counter-signal. $14T IG supply wall. | 3/26 | OpenClaw |
+| LIQUID | 🔴🔴 | HY OAS 321 🔴 (crossed 320). SOFR 3.65 🟡. Quarter-end plumbing stress. RRP at zero. | 3/29 | OpenClaw |
+| ZHAO | 🔴🔴 | Demand hole $70-135B/mo. HIBOR-SOFR -205bps (5bps from trigger). Quarter-end. | 3/26 | OpenClaw |
+| HAWK | 🔴🔴 | Scenario D **85%**. Day 29. Iran deadline extended to **Apr 6**. Israel struck nuclear sites. | 3/27 | OpenClaw |
+| BROCK | 🔴🔴🔴 | **Stage 3 confirmed.** APO+ARES gated. FSK junk. 9 funds/8wks. True default ~8% (MS). Narrative mainstream (Bloomberg). | 3/27 | OpenClaw |
+| REGINALD | 🔴 | OZK KB 159 rows. WAL KB 60 rows. Apr 16 OZK = 17d, Apr 21 WAL = 22d. | 3/26 | 🖥️ Claude Code |
+| BRENT | 🔴🔴🔴 | 8-9M bpd disrupted. Hormuz+Baltic+Valero. Qatar FM permanent. SPR FAILED. Gas $3.96 at $4 breakpoint. | 3/27 | OpenClaw |
+| HANS | 🔴🔴 | DD-4 delivered. EU storage 17-19% entering refill. | 3/26 | OpenClaw |
+| DARWIN | 🟡 | Scan overdue. **STALE 39d** | 2/18 | OpenClaw |
+| RED | 🟢 | 85% confidence. APO HOLD to Apr 7, stop $113. | 3/26 | OpenClaw |
 
 ---
 
@@ -40,32 +32,33 @@
 
 | Action | Pri | Status |
 |--------|-----|--------|
-| APO Apr HOLD (W-003) | 🔴 | **HOLD to Apr 7, stop $113.** APO at $110.52. Class action + 11.2% gating. Verify bid + redemption source. |
-| OWL $9.5P Apr 2 (W-006) | 🔴 | **Expires 7 DAYS.** Hold through OBDCII tomorrow. Exit if NAV >$14.50 + non-accruals flat. |
-| USO $118C Mar 27 | 🔴 | **Expires TOMORROW.** Roll to Apr $120C if Brent >$100 at open. |
-| ARES deep dive (T-24) | ✅ | **COMPLETE.** ARCC 10-K, IHAM 10-K/A, ARES Mgmt Q4 earnings, **Aspida statutory deep dive COMPLETE** (N-4/A + NAIC + KBRA). 42 KB rows. Vector 3 fully documented. |
-| KRE Jun→Dec rolls (T-32) | 🔴 | Need exact pricing. Queued in Batch 9. Rolling after quarter-end = worse fills. |
+| FXY Tranche 1 (W-005) | 🔴 | **BUY MON OPEN.** ~$57.36, +4 shares. **APPROVED.** |
+| APD Tranche 1 (W-010) | 🔴 | **BUY MON OPEN.** ~$292, +3 shares. Helium supply shock. Stop $265. **APPROVED.** |
+| OWL $9.5P Apr 2 (W-006) | 🔴 | **Expires 3 DAYS.** ITM at $8.84. Check OBDCII NAV/non-accruals. |
+| APO Apr HOLD (W-003) | 🔴 | **HOLD to Apr 7, stop $113.** APO at $108.42 🔴. |
+| KRE Jun→Dec rolls (T-32) | 🔴 | Rolling after quarter-end = worse fills. |
 | Near→long rebalance | 🔴 | Book 61/39 inverted. RED recommends 22/78. |
-| Quarter-end SOFR watch | 🔴 | Mar 31 — RRP at $1.1B (ZERO) + 20Y settlement. |
-| Gas AAA $4 breakpoint | 🔴 | **$3.98 — AT threshold.** |
-| FXY entry timing (T-31) | 🟠 | SK refiner cuts 2wk early. May accelerate entry. Queued Batch 9. |
+| Quarter-end SOFR watch | 🔴 | Mar 31 — SOFR 3.65 🟡, RRP at zero + 20Y settlement. |
+| Gas AAA $4 breakpoint | 🔴 | **$3.96 — AT threshold.** |
 | ZHAO HIBOR-SOFR | 🟠 | -205bps, 5bps from trigger. Daily through Mar 31. |
-| Diesel crack instrument (T-35) | 🟠 | Queued Batch 9. |
-| IWM add decision (T-33) | 🟠 | Hedged rally signal. Queued Batch 9. |
-| ZION kill conditions (T-34) | 🟠 | Queued Batch 9. |
-| W-004 remaining 11 backfills | 🟡 | Top 5 done. |
-| W-001 ABS trust triggers | 🟡 | Blocked — Bloomberg |
-| DARWIN | 🟡 | **STALE 36d.** Zero position relevance. |
+| PCE result | 🟠 | Should have dropped Fri 3/28. Check. |
+| DARWIN | 🟡 | **STALE 39d.** Zero position relevance. |
 
-### Resolved Session 3
-- ✅ Batch 8: 12/13 complete (T-01 to T-30 minus T-24)
-- ✅ APO litigation map: 1 lawsuit, not 2 (Feldman v. Apollo, Leon Black §20(a))
-- ✅ NEXUS + SHADE NDFI corrected ($1.54T phantom)
-- ✅ Construction collapse quantified (135K, NFP undercounts 2-3x)
-- ✅ Exhaustion peak mapped (Jul 2026, $800-930M/mo)
-- ✅ Staffing canary resolved (🟢)
-- ✅ NAIC PBR guardrails documented (APF 2025-16)
+### Resolved
+- ✅ USO $118C Mar 27 — expired/rolled
+- ✅ ARES deep dive (T-24) — COMPLETE
+- ✅ FXY entry timing (T-31) — APPROVED, executing Mon
+- ✅ SAM KB.tsv — COMPLETE (Claude Code promotion)
+- ✅ Market data dashboard — Layer 3 complete, cron running, morning briefing 6 AM ET
 
 ---
 
-*Positions → `TODO_GREEN_DAY.md` | Calendar → `CALENDAR.md` | Thesis → `MEMORY.md`*
+## Intelligence Quality Notes
+
+| Claim | Source | Verdict | Date |
+|-------|--------|---------|------|
+| BlackRock sold USTs 3 consecutive quarters, rotating into GDX/FCX/CCJ | Felix Prehn (FinTwit) | **FALSE** — 13F data contradicts. | 3/25 |
+
+---
+
+*Dashboard → `python3 FORGE/tools/market-data/dashboard.py` | Positions → `PROME/POSITIONS.md` | Calendar → `CALENDAR.md`*
