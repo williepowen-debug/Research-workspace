@@ -1,6 +1,26 @@
 # SAM STATUS
 
-**Signal Status:** 🔴🔴🔴 CRITICAL — **BOJ SUMMARY: DEBATE ON SIZE OF HIKE** | USD/JPY **159.65** (pulled back from 160.1 breach Mar 27) | MOF INTERVENTION IMMINENT (Katayama warned at 159.5, no action yet) | Brent **~$115** (+55% in March) | JGB 10Y **2.38%** | JGB 30Y **3.69%** | JGB 40Y **3.92%** | CARRY UNWIND 7D: **85%** | FY-END TOMORROW (Mar 31) | TANKAN TOMORROW (Apr 1) | **Last Updated:** 2026-03-30 13:55 UTC
+**Signal Status:** 🔴🔴🔴 CRITICAL — **MIMURA ESCALATION: "DECISIVE MEASURES"** | USD/JPY **159.13** (-0.69% today, pulled further from 160.1) | MOF INTERVENTION IMMINENT (Mimura used "decisive" — first time, strongest signal yet) | FXY **$57.68** (+0.30%) | Brent **~$115** | JGB 10Y **2.38%** | CARRY UNWIND 7D: **87%** | FY-END TODAY (Mar 31) | TANKAN TOMORROW (Apr 1) | **Last Updated:** 2026-03-31 13:45 UTC
+
+---
+
+## 🔴🔴🔴 MAR 31 — FY-END DAY + MIMURA ESCALATION
+
+**KEY DEVELOPMENTS TODAY:**
+
+1. **Mimura "decisive measures" (Mar 30 late / Mar 31 Asia):** Top currency diplomat Atsushi Mimura escalated from standard verbal warnings to explicit "decisive measures" language — first time he's used this term. Traders read this as imminent intervention signal. This is the final verbal step before actual USD-selling. Reuters: "strongest warning yet."
+
+2. **USD/JPY 159.13** — pulled back 52 pips from 159.65 on Mimura's remarks + FY-end flows. Still within intervention danger zone but the pullback suggests verbal jawboning having effect + some FY-end repatriation bids supporting yen.
+
+3. **FXY $57.68** (+0.30%) — modest yen strengthening consistent with pullback. Will's 4-share starter position marginally in the green.
+
+4. **BOJ Ueda (Mar 30):** Said BOJ is "keeping close eye on yen moves and impact on economy" — coordinated messaging with Mimura. BOJ explicitly linking yen weakness to rate hike justification. JPMorgan's Shatil: BOJ "teeing up for its next rate rise."
+
+5. **Markets pricing 65% May hike to 1.00%** — up from prior estimates. Oil above $110 could force emergency April move per Equiti analysis.
+
+6. **No GPIF announcement.** No life insurer flow data yet (as expected — TIC lag). FY-end adjustment flows happening but no headline-grabbing data.
+
+7. **Tankan (tomorrow Apr 1):** Consensus not updated from our prior expectations (mfg outlook ~15). Release will be key BOJ input for April 23-24 decision.
 
 ---
 
@@ -29,11 +49,11 @@
 
 | Timeframe | Mar 27 | Mar 30 | Driver |
 |-----------|--------|--------|--------|
-| **7d** | 85% | **85%** | USD/JPY 159.65 — pulled back from 160 but MOF intervention still imminent. FY-end tomorrow. |
-| **30d** | 96% | **97%** | BOJ Summary hawkish beyond expectations. Debate on BIGGER hikes. Tankan tomorrow — strong = April hike live. |
-| **60d** | 97% | **97%** | Structural case locked: hedged UST negative vs JGB, oil feeding CPI, BOJ path accelerating not decelerating. |
+| **7d** | 85% | **87%** | Mimura "decisive" = intervention within days. USD/JPY 159.13 pulling back. FY-end TODAY — last adjustment flows. |
+| **30d** | 97% | **97%** | Market pricing 65% May hike. Tankan tomorrow. BOJ-MOF coordinated hawkish messaging. |
+| **60d** | 97% | **97%** | Structural case locked. Board stacking doesn't affect May timeline. |
 
-**INTERVENTION STATUS:** Verbal warning at 159.5. 160 breached Mar 27, pulled back to 159.65. MOF has NOT acted yet. Monday (FY-end) or early week = highest probability window. July 2024 precedent: $37B, 5-6% reversal.
+**INTERVENTION STATUS:** 🔴🔴 Mimura used "decisive measures" — STRONGEST verbal signal in this cycle. 160 breached Mar 27, now at 159.13. MOF has NOT yet intervened with actual USD selling. This week (FY-end today + early April) = highest probability window. July 2024 precedent: $37B, 5-6% reversal. Next test of 160 likely triggers action.
 
 ---
 

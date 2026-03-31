@@ -736,5 +736,59 @@
     "message": "APO breached 110 (now 109.96)",
     "value": 109.96,
     "threshold": 110
+  },
+  {
+    "id": 1774942418903,
+    "timestamp": "2026-03-31 07:33:38 UTC",
+    "type": "threshold",
+    "severity": "info",
+    "message": "VIX recovered (now 29.62, threshold 30)",
+    "value": 29.62,
+    "threshold": 30
+  },
+  {
+    "id": 1774963898941,
+    "timestamp": "2026-03-31 13:31:38 UTC",
+    "type": "threshold",
+    "severity": "info",
+    "message": "APO recovered (now 111.51, threshold 110)",
+    "value": 111.51,
+    "threshold": 110
+  },
+  {
+    "id": 1774963898943,
+    "timestamp": "2026-03-31 13:31:38 UTC",
+    "type": "threshold",
+    "severity": "info",
+    "message": "ARES recovered (now 110.0, threshold 110)",
+    "value": 110.0,
+    "threshold": 110
+  },
+  {
+    "id": 1774964258663,
+    "timestamp": "2026-03-31 13:37:38 UTC",
+    "type": "threshold",
+    "severity": "warning",
+    "message": "ARES breached 110 (now 108.85)",
+    "value": 108.85,
+    "threshold": 110
+  },
+  {
+    "id": 1774968098480,
+    "timestamp": "2026-03-31 14:41:38 UTC",
+    "type": "threshold",
+    "severity": "warning",
+    "message": "APO breached 110 (now 109.96)",
+    "value": 109.96,
+    "threshold": 110
+  },
+  {
+    "id": 1774969538445,
+    "timestamp": "2026-03-31 15:05:38 UTC",
+    "type": "threshold",
+    "severity": "info",
+    "message": "APO recovered (now 110.21, threshold 110)",
+    "value": 110.21,
+    "threshold": 110
   }
 ]
