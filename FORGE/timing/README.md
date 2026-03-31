@@ -10,24 +10,35 @@ Cross-agent timing research. Where are we in each transmission chain relative to
 
 ## Files
 
-### Analysis
+### Thesis (start here)
+- `thesis/NARRATIVE.md` — **The thesis in plain language.** What we believe and why.
+- `thesis/TIMELINE.md` — Phased framework (5 phases, falsifiable assumptions, position alignment)
+- `thesis/PREDICTIONS.md` — 22 specific falsifiable calls with tracking grid
+- `thesis/CHANGELOG.md` — Decision journal (every view change logged with evidence)
+- `thesis/LECTURE.md` — Full thesis as narrative script (designed for text-to-speech)
+
+### Status
+- `STATUS.md` — Current state, monitoring dashboard, research inventory
+
+### Analysis (evidence base)
 - `CONVERGENCE_TIMELINE.md` — Master framework: analog mapping, convergence matrix, expiry implications
 - `2007_OAS_OVERLAY.md` — Daily HY OAS comparison 2007 vs 2026 (FRED data, not estimates)
 - `CCC_HY_RATIO_MULTI_EPISODE.md` — CCC/HY ratio across 4 stress episodes (2007, 2011, 2015, 2020)
 - `FCIC_TIMELINE_2007.md` — 40+ dated events Jun '07 → Mar '08 with 2026 analog mapping
-- `FED_INTERVENTION_CREDIT_RESPONSE.md` — Fed actions → credit spread response (partial, agent timed out)
+- `FED_INTERVENTION_CREDIT_RESPONSE.md` — Fed actions → credit spread response
 - *(pending)* `ISSUANCE_FREEZE_ANALYSIS.md` — At what OAS does issuance freeze?
 
 ### External Research (LLM responses)
-- `research/GORTON_FRAMEWORK_RESPONSE_1.md` — Gorton framework applied to PC (model 1)
-- `research/GORTON_FRAMEWORK_RESPONSE_2.md` — Gorton framework applied to PC (model 2, w/ 48 citations)
-- `research/GORTON_FRAMEWORK_RESPONSE_3.md` — Gorton framework applied to PC (model 3, Bermuda Triangle)
+- `research/GORTON_FRAMEWORK_RESPONSE_{1,2,3}.md` — Gorton panic framework applied to PC (3 independent analyses)
+- `research/FLOW_OF_FUNDS_RESPONSE_{1,2,3,4}.md` — Z.1 selling sequence (4 independent analyses)
+- `research/LIBOR_OIS_EQUIVALENT_RESPONSE.md` + `LIBOR_OIS_RESPONSE_{1,2}.md` — Post-LIBOR counterparty risk
+- `research/FABN_MARKET_RESPONSE.md` + `FABN_MARKET_RESPONSE_2.md` — $277B insurer wholesale funding
+- `research/PE_INSURER_TRANSMISSION_RESPONSE.md` + `PE_INSURER_TRANSMISSION_RESPONSE_2_GEMINI.md` — Monoline analog speed
+- `research/PE_INSURER_CROSS_CONTAMINATION_RESPONSE.md` — Bermuda Triangle circular exposure
+- `research/ZOMBIE_LENDING_RESPONSE.md` — Japan analog, forcing function ranking
 
 ### Prompts (reusable)
-- `prompts/2007_OAS_OVERLAY_PROMPT.md` — Original OAS overlay prompt (superseded by script)
-- `prompts/GORTON_FRAMEWORK_PROMPT.md` — Gorton/opacity/cascade framework
-- `prompts/LIBOR_OIS_EQUIVALENT_PROMPT.md` — What replaces LIBOR-OIS in 2026?
-- `prompts/FLOW_OF_FUNDS_SELLING_PROMPT.md` — Who sells first? Z.1 selling sequence
+- `prompts/` — 11 research prompts + split sub-prompts (Gorton, LIBOR-OIS, Flow of Funds, PE-insurer, FABN, dealer capacity, Norinchukin, OFR Brief, repo 2019, zombie lending, 2007 OAS overlay)
 
 ### Scripts
 - `scripts/oas_overlay_2007.py` — FRED data pull for HY/CCC OAS overlay

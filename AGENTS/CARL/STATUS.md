@@ -1,6 +1,6 @@
 # CARL STATUS
-**Updated:** 2026-03-27 ~22:30 UTC
-**Overall:** 🔴🔴 CRITICAL — Convergence 44/50. Gas $3.983 ($4 breakpoint). JOLTS inverted (0.94). Q3 = consumption stress quarter.
+**Updated:** 2026-03-31 ~13:15 UTC
+**Overall:** 🔴🔴 CRITICAL — Convergence 46/50. **GAS $4 BREAKPOINT FIRED.** JOLTS inverted (0.94, Feb data TODAY). Q3 = consumption stress quarter.
 
 *Check-in archives: `domain/sources/STATUS_archive_20260327.md`, `workbook/STATUS_archive_20260325.md`, `workbook/STATUS_archive_mar1_mar15.md`*
 
@@ -34,7 +34,7 @@
 ### Macro / Energy / Stress
 | Metric | Value | Status |
 |--------|-------|--------|
-| Gas Pump | **$3.981 — $4 BREAKPOINT (Mar 29)** | 🔴🔴 |
+| Gas Pump | **$4.00+ — 🔴🔴 BREAKPOINT FIRED (Mar 31)** | 🔴🔴 |
 | Diesel | **$5.10** | 🔴🔴 |
 | Brent | **$108+** | 🔴🔴 |
 | HY OAS | **328bps** (RED >320) | 🔴 |
@@ -55,14 +55,14 @@
 | 2 | Subprime Auto 60+ | 🔴🔴 5 | **BREACHED** 7.1% ATR. Max. |
 | 3 | Fannie MF DQ → GFC | 🔴 4 | 0.74% = 6bps from peak. |
 | 4 | Student Loan 90+ | 🔴 4 | 9.6%, likely >10%. |
-| 5 | Gas Price Squeeze | 🔴🔴 5 | $3.983 behavioral. Diesel >$5. Max. |
-| 6 | UI Exhaustion Wave | 🔴 4 | Mar 24 Wave 1 PASSED. Duration 25.7wks. |
+| 5 | Gas Price Squeeze | 🔴🔴 5 | **$4.00+ FIRED.** Diesel $5.10. Max. |
+| 6 | UI Exhaustion Wave | 🔴🔴 5 | Duration 25.7wks (+2.0 single month). Cont claims drop = exhaustion. DOGE 260K+ cuts. Max. |
 | 7 | FL Triple Squeeze | 🔴 4 | Energy + HOA + Insurance. |
 | 8 | Reverse Wealth Effect | 🔴🔴 5 | RV crash + upper income pullback. Max. |
 | 9 | K-Shape CONVERGING | 🔴🔴 5 | Both cohorts moving DOWN. Max. |
 | 10 | Foreclosure Accel | 🔴 4 | 58,140 (+41% YoY). "Help mortgage" ATH. |
 
-**Total: 44/50 → 🔴🔴 CRITICAL.**
+**Total: 46/50 → 🔴🔴 CRITICAL.** (+2 from Mar 27: UI exhaustion 4→5 on duration spike + exhaustion signal, gas confirmed at max.)
 
 ---
 
@@ -70,7 +70,7 @@
 
 **"Beneath the Ice" v2.0 — 60% structurally fragile, cost squeeze is the mechanism.**
 - 37% can't cover $400 | 62% paycheck-to-paycheck | JOLTS inverted (0.94)
-- **Mechanism shift:** Employment didn't break acutely — instead, multi-vector cost squeeze (energy + food + UI exhaustion) grinding the bottom 60%. JOLTS inversion confirms structural rot. K-shape converging downward (both cohorts stressed). Subsidence, not earthquake.
+- **Mechanism shift:** Employment didn't break acutely — instead, multi-vector cost squeeze (energy + food + UI exhaustion) grinding the bottom 60%. JOLTS inversion confirms structural rot. K-shape converging downward (both cohorts stressed). Subsidence, not earthquake. **NEW (Mar 31):** DOGE + ICE raids + tech layoffs = labor supply shock layered ON TOP of cost squeeze. Continuing claims dropping while duration spikes = exhaustion, not recovery. Gas $4 fires the behavioral breakpoint — discretionary pullback accelerates NOW.
 - **Paths:** A (Employment→Subprime, SLOW), B (SPX→Wealth effect), C (Housing→Banks, **ACTIVATING**), F (AI→Prime mortgage), PC (Private credit→Middle-market)
 - **Counter-signals:** Auto insurance CPI cooled (5.9% vs 20-30%), homeowners insurance decelerating (+8.5% vs 50%)
 
@@ -80,7 +80,7 @@
 
 | Window | Trigger | Status |
 |--------|---------|--------|
-| **NOW** | Gas $4 + FOMC hold = double lockdown | 🔴🔴 LOCKED |
+| **NOW (Mar 31)** | **Gas $4 FIRED** + FOMC hold + JOLTS today + USDA Plantings today | 🔴🔴 **ACTIVE** |
 | **Mar 24** | FL UI Wave 1 exhaustion | ✅ FIRED |
 | **Apr 26** | FL UI Wave 2 peak | 🟠 IMMINENT |
 | **Q2** | DQ conversion (Mar/Apr stress → May/Jun spike) | 🔴 UPGRADED |
@@ -97,7 +97,7 @@
 
 | From | Signal | Status |
 |------|--------|--------|
-| LABOR | NFP -92K, UI cliff Mar 24, duration 25.7wk, exhaustion cascade $800M-$930M/mo peak July | 🔴🔴 |
+| LABOR | NFP -92K, duration 25.7wk (+2.0 single month, 4-yr high), cont claims 1.819M (2-yr low = exhaustion), DOGE 260K+ (9% fed workforce), ICE raids → 57 Concrete bankrupt / 60% TX res vol drop, tech 150K+ layoffs 2026, TSA 10% callout, shutdown 60+ days, NFP Apr 3 into CLOSED market (gap risk Apr 6) | 🔴🔴 |
 | HAWK | WTI $107+, gas $3.98, diesel $5.10 | 🔴🔴 |
 | WAR | Gulf escalation, Ras Laffan burning | 🔴🔴 |
 | FOMC | Hold 3.50-3.75%, 1 cut | 🔴🔴 |
@@ -125,6 +125,6 @@
 - **Thesis kill:** Claims <220K 8+ weeks AND CC 90+ DQ declines 2 consecutive quarters
 - **Time-based:** Q1 consumer earnings (April) = mandatory review
 
-*Next catalysts: ✅ $4/gal IMMINENT ($3.981) | ✅ FL UI Wave 1 PASSED | HY OAS 350 | **USDA Mar 31 (2 days)** — corn -5-6M acres expected | $4.50/gal (~2-3 wks) | April CPI | Q1 earnings April*
+*Next catalysts: ✅ $4/gal **FIRED** (Mar 31) | ✅ FL UI Wave 1 PASSED | **TODAY: USDA Plantings (corn -4.4M acres exp), JOLTS Feb (consensus 6.85-6.89M)** | **Apr 3: NFP Mar into CLOSED market** (gap risk Apr 6) | Apr 26: FL UI Wave 2 | HY OAS 350 | $4.50/gal (~2-3 wks) | April CPI | Q1 earnings April*
 *Prior check-ins (Mar 20), K-shape evidence table, fertilizer calendar archived to `workbook/STATUS_archive_20260325.md`*
 *Key docs: `domain/sources/CVNA_FRAUD_WATCH.md` | `workbook/ABS_BASELINE.tsv` | `workbook/STATE_DIFFUSION.tsv`*

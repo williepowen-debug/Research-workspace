@@ -1,6 +1,6 @@
 # SCRATCH — Ephemeral Working Memory
 
-**Updated:** 2026-03-30 22:00 UTC (Mon 6:00 PM ET)
+**Updated:** 2026-03-31 16:45 UTC (Tue 12:45 PM ET)
 
 ---
 
@@ -12,22 +12,26 @@ Scenario D **85%**. War Day 29. Account **~$55,689 (+111.5%)**. Brent **$107-108
 **New dashboard indicators:** CP-Tbill (0.15 🟢), SOFR-IORB (-0.02 🟢), BIZD (BDC ETF, Tier 2).
 
 ## Handoff
-**Last context:** Deep research session — synthesized 8 external LLM responses (3 Gorton framework, 4 Z.1 Flow of Funds, 1 LIBOR-OIS replacement) into comprehensive timing framework. All saved in `FORGE/timing/research/`.
-**Next tide:**
-1. 🔴 **FXY + APD buy at open** (both approved)
-2. 🔴 **OWL Apr 2 — 2 DAYS.** Check OBDCII.
-3. 🔴 **APO stop $113** — currently $108.42
-4. 🔴 **Quarter-end SOFR watch** — Perli says ampleness at Q1 2019 levels + zero RRP
-5. 🟠 **SAM KB.tsv** — Will requested, still not done
-6. 🟠 **STATUS.md refresh** — BROCK/LIQUID stale given new research
-7. 🟠 **Issuance freeze agent** — spawned earlier, never checked results
-8. 🟠 **QUEUE.md Batch 5/9 reassessment** — some items overtaken by events
-9. 🟡 **Research gaps:** PE-insurer→FABN transmission, Egan-Jones cascade, Norinchukin↔CLO loop, OFR Brief 26-02
-**Open questions:** Near→long rebalance still deferred (61/39 inverted, RED says 22/78). KRE Jun→Dec roll pricing needed.
-**Positions:** No changes today. FXY + APD approved for Mon open.
-**Rhythm note:** Will in deep research mode tonight. Responsive to prompts. Wants concise summaries not raw docs.
-**Today's work:**
-- Saved 8 research responses (Gorton ×3, Flow of Funds ×4, LIBOR-OIS ×1)
+**Last context:** Major thesis-building session in `FORGE/timing/`. Built thesis subfolder, then ran CCC decomposition research that **downgraded** CCC/HY ratio as systemic indicator. Confidence 85%→80%.
+**What happened today (Mar 31):**
+- Built `FORGE/timing/STATUS.md` — monitoring dashboard for timing research
+- Built `FORGE/timing/thesis/` subfolder: NARRATIVE.md, TIMELINE.md, PREDICTIONS.md (22 calls), CHANGELOG.md, LECTURE.md (TTS script)
+- **CCC SECTOR DECOMPOSITION (critical finding):** Three independent analyses (Perplexity, Claude, Gemini) all show CCC at 1013bp is concentrated in cable/media (~24-30%), healthcare (~15%), software (~5-8%) — NOT broad systemic. Ex-software CCC OAS ~930-960bp. Ex-software+cable ~650-780bp. 2015-16 energy analog, not 2007 GFC. **Thesis adjusted accordingly.** Logged in CHANGELOG.md, updated NARRATIVE, PREDICTIONS, STATUS.
+- FXY Tranche 1 approved and executed (+4 shares @ ~$57.68, now 8 shares total)
+- SAM/ZHAO/OTTO daily check-ins ran (SAM: Mimura "decisive," USD/JPY 159.13, 65% May hike pricing)
+- Calendar sync token expired (non-urgent, needs re-auth)
+- **Do NOT spawn SAM, REGINALD, or CARL** — they run independently on Claude Code now. Communicate via inbox files.
+- Issuance freeze subagent was spawned but timed out — check results or re-run
+
+**Next session priorities:**
+1. 🔴 **OWL $9.5P Apr 2 — TOMORROW.** Decision needed.
+2. 🟠 **Issuance freeze analysis** — check subagent output or re-run. Key gap: at what OAS does HY issuance freeze? Affects timeline.
+3. 🟠 **Relief Rally Playbook** — pre-written decision framework for positions during relief rallies. Operational, not research.
+4. 🟠 **Kitchen Sink Scenario** — what does BTFP 2.0 look like for PC? Model the intervention risk for Dec positions.
+5. 🟡 **Norinchukin × CLO × Yen feedback loop** — cross-contagion quantification (SAM×BROCK)
+6. 🟡 **LECTURE.md** — may need update to reflect CCC downgrade (currently says "keep your eyes on the CCC/HY ratio" as closing line)
+**Open questions:** Near→long rebalance still deferred. KRE Jun→Dec roll timing (LIQUID flagged: post Q-end = worse fills — Q-end was today).
+**Rhythm note:** Will was walking + cleaning, wanted text scripts for Speechify. Engaged in deep thesis work. Good discipline on questioning blind spots.
 - Added CP-Tbill, SOFR-IORB, BIZD to dashboard + `fred_spread` handler
 - Rewrote CONVERGENCE_TIMELINE.md (338 lines, subagent)
 - Identified 7 new research gaps from cross-referencing all findings

@@ -1,5 +1,5 @@
 # MARCO STATUS
-**Last Updated:** 2026-03-30 13:30 UTC | **Status:** 🔴 RED
+**Last Updated:** 2026-03-31 13:30 UTC | **Status:** 🔴 RED
 
 ---
 
@@ -7,11 +7,11 @@
 
 | Indicator | Value | Status |
 |-----------|-------|--------|
-| DHS Shutdown | Day 44, 2 competing bills, Senate recessed, NO resolution | 🔴 BREACHED |
-| TSA Disruption | 400+ quit, 12% national callout, 33%+ at JFK/BWI/ATL/IAH | 🔴 BREACHED |
-| ICE Raids | Expanding: +58% arrests CA Central Valley, rural MN meatpacking | 🔴 BREACHED |
+| DHS Shutdown | Day 45, TSA back pay started but shutdown NOT resolved, Senate recessed til Apr 13 | 🔴 BREACHED |
+| TSA Disruption | 400+ quit, back pay flowing but structural damage done, shutdown continues | 🔴 BREACHED |
+| ICE Raids | Expanding: +58% arrests CA Central Valley, rural MN meatpacking, 14 custody deaths in 2026 | 🔴 BREACHED |
 | FL Net Domestic Migration | 22,517 (93% collapse) | 🔴 BREACHED |
-| Canadian Visitors to US | -22% YoY Jan 2026 (13th consecutive decline) | 🔴 BREACHED |
+| Canadian Visitors to US | Feb 2026: 1.5M trips, air -17.6% YoY, land -12.9% (14th consecutive decline) | 🔴 BREACHED |
 | NFP Feb 2026 | -92K, UE 4.4% | 🔴 BREACHED |
 | Mexico Remittances Jan 2026 | -1.4% YoY | 🔴 BREACHED |
 | Ag Employment | -155K + 2.2M self-deportations | 🔴 BREACHED |
@@ -24,14 +24,16 @@
 
 ## ACTIVE SITUATIONS
 
-### DHS Shutdown (Day 44, 🔴 CRITICAL — LONGEST EVER, NO RESOLUTION)
-- **Day 44.** 2nd full paycheck missed Mar 28. Congress in deadlock:
+### DHS Shutdown (Day 45, 🔴 CRITICAL — LONGEST EVER, NO RESOLUTION)
+- **Day 45.** 3rd paycheck missed. Congress in deadlock:
   - **Senate** passed bill (unanimously) funding DHS *except* ICE/CBP. House rejected it.
   - **House** passed rival 8-week (60-day) stopgap funding all of DHS (213-203). Senate on recess, hasn't voted.
   - Two competing bills, no conference, Senate recessed until Apr 13. **Shutdown continues.**
-- **Trump signed executive directive** to pay TSA "as early as Monday [Mar 30]" — but legal mechanism unclear and morale damage already done.
+- **TSA back pay started flowing Mon 3/31** per White House memo directing DHS to pay despite shutdown. But: shutdown NOT resolved, future paychecks uncertain, 400+ already quit.
+- Politico (3/30): "The DHS shutdown might never end" — neither side has incentive to cave before Apr 13 recess return.
 - **TSA callout rate still ~12% nationally.** JFK, Baltimore, Houston, Atlanta all >33%. Hours-long lines at major hubs during spring break peak.
 - **400+ TSA officers have quit** since shutdown began. Quits accelerating after 2nd missed paycheck.
+- CNN (3/31): "6 weeks, 3 missed paychecks and hourslong lines" — structural damage narrative hardening.
 - **Musk's $250M TSA salary offer rejected** by White House (legal barriers from gov contracts).
 - ICE/CBP funded separately (OBBBA). TSA is the unprotected pressure point.
 - Transportation Sec. Duffy warned small airports may shut. Delta suspended Congressional member services.
@@ -44,6 +46,8 @@
 - 1-in-3 construction workers foreign-born = systemic, not marginal.
 - **NEW (Mar 26-30):** ICE arrests **up 58% in CA Central Valley** vs same period last year (Fresno Bee). Workplace raids in *agricultural areas and hardware stores* in Kern County.
 - **NEW:** American Prospect long-form on ICE sweeps in rural MN meatpacking/farming towns — labor displacement beyond metro areas.
+- **NEW (Mar 30-31):** NBC tracker updated — ICE arrests have *doubled* since Jan 2025, detention at all-time high.
+- **NEW:** 14th ICE custody death in 2026 (José Guadalupe Ramos, Adelanto CA, Mar 25). Reuters/Guardian. Political pressure building.
 - **Prediction #26 (housing start delays in border states, Q2 2026, 70% conf)** live.
 
 ### Ag Labor Data Gap (🔴 PERMANENT — NEW CRITICAL FINDING)
