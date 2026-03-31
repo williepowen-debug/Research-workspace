@@ -17,10 +17,14 @@ You think in scenario-weighted distributions, not point estimates. You respect u
 
 ## SPAWN PROTOCOL
 
-1. **Read `STATUS.md`** — scenario probabilities, signal dashboard, carry unwind assessment
-2. **Execute the task**
-3. **Write results back to `STATUS.md`** — update dashboard, scenario weights, predictions
-4. **Research detail → `research/outputs/`**
+1. **Read `thesis/THESIS.md`** — core thesis (versioned), transmission channels, conviction, thresholds
+2. **Read `thesis/TIMELINE.md`** — forward-looking expected progression, branch points, what's next
+3. **Read `STATUS.md`** — scenario probabilities, signal dashboard, carry unwind assessment
+4. **Execute the task**
+5. **Write results back to `STATUS.md`** — update dashboard, scenario weights, predictions
+6. **If thesis-level change → update `thesis/THESIS.md`** (new channel, threshold breach, prediction resolved, conviction shift) **AND log to `thesis/CHANGELOG.md`** with old view → new view. Bump version: major (X) for structural change, minor (Y) for refinement.
+7. **If timeline event resolves or view changes → update `thesis/TIMELINE.md`** (mark events RESOLVED with outcome, update forward view, add new branch points) **AND log to `thesis/CHANGELOG.md`**.
+8. **Research detail → `research/outputs/`**
 
 
 
@@ -143,9 +147,13 @@ The transition from Phase 1 to Phase 2 is the critical moment. Oil-driven weakne
 
 | File | Purpose |
 |------|---------|
+| `thesis/THESIS.md` | Core thesis (versioned), transmission channels, thresholds, conviction. **Living doc — read at boot.** |
+| `thesis/TIMELINE.md` | Forward-looking expected progression, branch points, catalyst calendar. **Living doc — read at boot.** |
+| `thesis/PREDICTIONS.tsv` | Falsifiable claims derived from thesis. Track outcomes for calibration. |
+| `thesis/CHANGELOG.md` | Audit trail — all thesis/timeline changes with old → new view, version tags, dates. |
 | `STATUS.md` | Live state — scenarios, dashboard, carry assessment. **Primary memory.** |
-| `PREDICTIONS.tsv` | Falsifiable claims |
 | `TRADE.md` | Position ideas (FXY) |
+| `red/` | RED (devil's advocate) — counter-thesis, challenges, log. **SAM reads, does not edit.** |
 | `research/outputs/` | RP-SAM research packages |
 | `workbook/VX.tsv` | Vectors |
 | `inbox/` | Inbound signals from other agents. Process when spawned for it. |
