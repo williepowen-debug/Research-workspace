@@ -1,0 +1,191 @@
+# STATE VECTOR: POLLY → CARL
+# Insurance Stress Report
+
+state_vector:
+  # === IDENTITY ===
+  id: "SV-POLLY-2026-01-20-01"
+  from_agent: "POLLY"
+  to_agent: "CARL"
+  timestamp: "2026-01-20T14:00:00Z"
+  urgency: "ELEVATED"
+
+  # === SYNTACTIC (shared vocabulary) ===
+  domain: "Insurance Stress"
+  primary_metric: "Uninsured/Underinsured Motorist Rate"
+  value: "15.4% uninsured; 33.4% combined uninsured+underinsured"
+  status: "ELEVATED"
+
+  secondary_metrics:
+    - metric: "Auto Insurance Premium Growth"
+      value: "11.1% YoY (Feb 2025); 64% cumulative since 2020"
+      status: "ELEVATED"
+    - metric: "CA FAIR Plan Enrollment"
+      value: "650,000 policies; $700B exposure; largest residual market in US"
+      status: "CRITICAL"
+    - metric: "FL Citizens Enrollment"
+      value: "395,144 policies (-73% from 1.4M peak)"
+      status: "RECOVERING"
+    - metric: "Health Insurance Deductible"
+      value: "$1,886 average (+17% since 2020)"
+      status: "ELEVATED"
+    - metric: "Medical Debt"
+      value: "$88B in collections; 20% of Americans"
+      status: "ELEVATED"
+
+  # === SEMANTIC (POLLY's interpretation) ===
+  interpretation: |
+    INSURANCE STRESS THESIS VALIDATED with geographic nuance.
+
+    Insurance is both INDICATOR and AMPLIFIER of consumer financial stress:
+
+    AS INDICATOR:
+    - 15.4% of drivers are uninsured (1 in 7)
+    - 33.4% are uninsured OR underinsured (1 in 3) — up 10pp since 2017
+    - This is happening despite economic recovery, indicating AFFORDABILITY is the driver
+    - Auto premiums up 64% cumulative since 2020 (vs 25% general inflation)
+    - Health premiums growing 6%+ for third consecutive year (vs ~4% wage growth)
+
+    AS AMPLIFIER:
+    - $88B medical debt in collections affects 20% of Americans
+    - High deductibles ($1,886 avg, $2,631 small firms) create effective underinsurance
+    - CA: 150,000 households in extreme fire areas are UNINSURED
+    - Coverage gaps convert manageable incidents into financial catastrophes
+
+    CRITICAL GEOGRAPHIC BIFURCATION:
+    - FLORIDA: Market RECOVERING. Citizens down 73% from peak. 17 new carriers entered.
+      2022 tort reforms working. Citizens requesting 2.6% rate CUT.
+    - CALIFORNIA: Market FAILING. FAIR Plan now LARGEST residual market in US (650K policies,
+      $700B exposure). Jan 2025 wildfires caused $4B loss. 36% rate increase sought.
+
+    This divergence is DIAGNOSTIC: Policy reforms CAN restore private markets (FL example)
+    but NOT when risk exceeds viable pricing (CA wildfire exposure).
+
+  confidence: 72%
+  confidence_reasoning: |
+    Increased from 65% based on:
+    - Uninsured motorist data (15.4%) directly validates affordability crisis
+    - Auto premium growth (11.1%) confirms sustained squeeze
+    - CA FAIR Plan explosion confirms availability crisis mechanism
+    - Health premium/deductible data validates slow squeeze
+
+    Confidence limited by:
+    - FL recovery contradicts universal crisis narrative
+    - Auto rates moderating (projected 4-7% in 2026)
+    - P&C industry profitable overall
+
+  translation_flags:
+    - "Geographic bifurcation: national averages mask regional extremes"
+    - "FL recovery is real but untested against major hurricane"
+    - "CA crisis is acute and worsening despite regulatory reforms"
+    - "Uninsured ≠ uninsurable; many can't AFFORD coverage"
+    - "High deductibles create 'underinsurance' not captured in coverage rates"
+    - "Medical debt impacts credit scores (CFPB rule vacated)"
+
+  # === PRAGMATIC (recommended action) ===
+  recommended_action: "INCORPORATE"
+  action_rationale: |
+    Insurance stress should be INCORPORATED into CARL's consumer stress assessment.
+
+    Reasons:
+    1. One-third of drivers inadequately covered = one-third of accidents involve uninsured
+    2. Auto premium burden (3.39% of median income) directly reduces discretionary spending
+    3. Health deductible growth (+17% since 2020) creates hidden underinsurance
+    4. CA property values at risk if homes become uninsurable
+    5. Medical debt ($88B) is direct credit score impairment mechanism
+
+    Specific recommendations for CARL:
+    - Factor geographic insurance stress into regional consumer assessments
+    - CA housing vectors should incorporate insurance availability crisis
+    - FL housing vectors may benefit from insurance market stabilization
+    - Medical debt connection to NICK (shadow credit) should be tracked
+
+  transmission_to_carl:
+    vectors_affected:
+      - "VX-CARL-1.03 (Credit Card DQ) — Medical debt and premium burden affect credit"
+      - "VX-CARL-2.xx (Housing) — CA insurance crisis threatens property values/mortgages"
+      - "Consumer spending vectors — Premium burden reduces discretionary income"
+    flow_activated: "FLOW-POLLY-05 (Polly-to-CARL Transmission) is MONITORING"
+    lag_estimate: "DIRECT: Immediate (premium burden); LATENT: Incident-dependent (coverage gaps)"
+    incident_dependency: |
+      CRITICAL: Latent transmission requires INCIDENT to activate.
+      - Auto accident for uninsured driver → debt/credit damage
+      - Medical event for underinsured consumer → medical debt
+      - Wildfire for uninsured CA homeowner → total loss
+      The 33.4% inadequately covered represents LATENT vulnerability, not active stress.
+
+  # === GEOGRAPHIC ALERT ===
+  regional_alert:
+    present: true
+    region: "California"
+    severity: "CRITICAL"
+    details: |
+      CA homeowners insurance market in CRISIS:
+      - FAIR Plan: 650,000 policies, $700B exposure (5x growth since 2020)
+      - Now LARGEST residual market in US, surpassing FL Citizens
+      - Jan 2025 LA wildfires: $4B loss, 36% rate increase sought
+      - 150,000 households in extreme fire areas are UNINSURED
+      - 1 in 5 homes in extreme fire areas lost coverage since 2019
+
+      Implications for CARL:
+      - CA property values at risk if homes cannot be insured
+      - Mortgage availability affected (lenders require insurance)
+      - Potential regional economic stress if market doesn't stabilize
+
+  # === POSITIVE SIGNAL ===
+  positive_signal:
+    present: true
+    region: "Florida"
+    details: |
+      FL homeowners insurance market RECOVERING:
+      - Citizens down 73% from 1.4M peak to 395K policies
+      - 17 new insurers entered market since 2022 reforms
+      - 546,000 policies moved to private market in 2025
+      - Citizens requesting 2.6% rate DECREASE
+      - Lowest policy count since 2012
+
+      Implications for CARL:
+      - FL housing stress from insurance may be stabilizing
+      - 2022 tort reforms demonstrate policy solutions CAN work
+      - CAUTION: Recovery untested against major hurricane
+
+  # === VALIDITY ===
+  sources:
+    - "BLS CPI Motor Vehicle Insurance (Feb 2025)"
+    - "IRC Uninsured/Underinsured Motorists Study (2023)"
+    - "Florida Citizens Property Insurance Corp (Jan 2026)"
+    - "California Department of Insurance / FAIR Plan (Sept 2025)"
+    - "KFF 2025 Employer Health Benefits Survey"
+    - "Census ACS Health Insurance (2024)"
+    - "CFPB Medical Debt Reports"
+    - "S&P Global P&C Industry Analysis"
+
+  data_quality: "HIGH — Multiple authoritative sources (BLS, Census, KFF, IRC, state regulators)"
+
+  next_update: "Post-carrier earnings (Progressive Jan 29, Allstate Feb 5) or if significant development"
+
+  # === POLLY STATUS SUMMARY ===
+  polly_vector_summary:
+    critical: 1
+    elevated: 5
+    watch: 2
+    mixed: 2
+    tbd: 2
+
+  polly_thesis_status: "VALIDATED (with geographic nuance)"
+  polly_thesis_confidence: "72%"
+
+  flow_status:
+    - flow: "FLOW-POLLY-01 (Premium Squeeze Cascade)"
+      status: "ACTIVE"
+      evidence: "Auto 11.1% YoY; health 6%+ for third year"
+    - flow: "FLOW-POLLY-02 (Homeowners Availability Cascade)"
+      status: "CRITICAL in CA; RECOVERING in FL"
+      evidence: "CA FAIR 650K; FL Citizens -73%"
+    - flow: "FLOW-POLLY-03 (Medical Debt Cascade)"
+      status: "ACTIVE"
+      evidence: "$88B in collections; CFPB rule vacated"
+    - flow: "FLOW-POLLY-05 (Polly-to-CARL Transmission)"
+      status: "MONITORING"
+      evidence: "Latent vulnerability building; awaiting incident triggers"
+
+# === END STATE VECTOR ===

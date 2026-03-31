@@ -1,0 +1,194 @@
+# STATE VECTOR: DOC → CARL
+# Healthcare Cost Stress Report
+
+state_vector:
+  # === IDENTITY ===
+  id: "SV-DOC-2026-01-20-01"
+  from_agent: "DOC"
+  to_agent: "CARL"
+  timestamp: "2026-01-20T15:00:00Z"
+  urgency: "ELEVATED"
+
+  # === SYNTACTIC (shared vocabulary) ===
+  domain: "Healthcare Cost Stress"
+  primary_metric: "Care Deferral Rate"
+  value: "33-36% delaying care due to cost; 47% worried about 2026 costs (record high)"
+  status: "ELEVATED"
+
+  secondary_metrics:
+    - metric: "Deductible Burden"
+      value: "$1,886 average; +43% over decade; 53% small firm workers face $2,000+"
+      status: "ELEVATED"
+    - metric: "Underinsured Rate"
+      value: "23% of insured are underinsured; 57% of underinsured forgo care"
+      status: "ELEVATED"
+    - metric: "Medical Debt in Collections"
+      value: "$88B total; 20% of Americans affected; CFPB protection vacated July 2025"
+      status: "ELEVATED"
+    - metric: "Medication Non-Adherence"
+      value: "20.2% cost-related; causes $528B annual cost, 100K preventable deaths"
+      status: "ELEVATED"
+    - metric: "Medical CPI"
+      value: "3.2% YoY (Dec 2025); below threshold but still exceeds general inflation"
+      status: "WATCH"
+
+  # === SEMANTIC (DOC's interpretation) ===
+  interpretation: |
+    HEALTHCARE COST CRISIS THESIS VALIDATED.
+
+    Healthcare costs represent UNIQUE consumer financial vulnerability due to three characteristics:
+
+    UNAVOIDABLE: Medical needs must eventually be addressed. You can defer a purchase but not
+    indefinitely defer a diagnosis. The body eventually demands care.
+
+    UNPREDICTABLE: A single diagnosis can generate $50K-100K+ in costs overnight with no warning.
+    No budgeting or planning can fully prepare for this.
+
+    CATASTROPHIC: Single events can destroy financial stability. Medical debt is #1 source of
+    debt in collections. Contributes to majority of bankruptcies.
+
+    KEY FINDINGS THIS SESSION:
+
+    1. CARE DEFERRAL CASCADE ACTIVATING:
+       - 33-36% of Americans skipping/delaying care due to cost
+       - 18% report their health worsened as a result
+       - 47% worried about affording healthcare in 2026 (RECORD HIGH since 2021)
+       - This is the stress → deferral → worse health → acute event → catastrophic cost cycle
+
+    2. OOP BURDEN IS STRUCTURAL:
+       - Deductibles up 43% over decade ($1,886 average; $2,631 small firms)
+       - 23% of insured are underinsured (OOP >10% of income OR deductible >5% of income)
+       - 66% of underinsured have EMPLOYER coverage — not just individual market problem
+       - Insurance card ≠ access; high deductibles create functional barrier to care
+
+    3. MEDICAL DEBT TRANSMISSION UNPROTECTED:
+       - $88B in collections affecting 20% of Americans
+       - CFPB rule to remove medical debt from credit reports VACATED July 2025
+       - Medical debt directly damages credit scores and financial resilience
+       - Oklahoma 8.8% medical debt rate; TX/TN congressional districts >10%
+
+    4. MEDICATION NON-ADHERENCE IS DEADLY:
+       - 20% cost-related non-adherence rate
+       - Causes 100,000 preventable deaths annually
+       - $528B in morbidity/mortality costs
+       - Insulin rationing has caused deaths; cardiovascular non-adherence causes preventable events
+
+    PARTIAL POSITIVE SIGNAL:
+    - IRA drug provisions helping Medicare (38-79% price cuts, $2K cap, $35 insulin)
+    - Medical CPI moderating (3.2% vs 4%+ threshold)
+    - However: Commercial plans unaffected; employer costs still rising 9%
+
+  confidence: 78%
+  confidence_reasoning: |
+    Increased from 75% based on:
+    - Care deferral data (36%) exceeds threshold and shows health consequences (18% worsened)
+    - Record cost anxiety (47%) is leading indicator of future behavioral stress
+    - Underinsured rate (23%) proves insurance ≠ access
+    - Medical debt ($88B) and CFPB rule vacatur confirm transmission vulnerability
+    - Three FLOW cascades now ACTIVATING (Deferral, Debt Spiral, Non-Adherence)
+
+    Confidence limited by:
+    - Medical CPI moderating (3.2%) — below ELEVATED threshold
+    - IRA provisions provide some drug cost relief (Medicare only)
+    - Data on care deferral consequences is survey-based, not claims-based
+
+  translation_flags:
+    - "Healthcare costs are UNAVOIDABLE — unlike other spending, cannot defer indefinitely"
+    - "Care deferral is both INDICATOR (stress) and ACCELERANT (worse outcomes)"
+    - "Underinsured ≠ uninsured; 23% have coverage but can't afford to use it"
+    - "Medical debt different from other debt — unchosen, unforeseeable, potentially massive"
+    - "CFPB rule vacated — medical debt remains on credit reports"
+    - "IRA drug provisions only affect Medicare; commercial plans still see rising costs"
+
+  # === PRAGMATIC (recommended action) ===
+  recommended_action: "INCORPORATE"
+  action_rationale: |
+    Healthcare cost stress should be INCORPORATED into CARL's consumer stress assessment.
+
+    Reasons:
+    1. One-third of consumers deferring care = latent health events → future acute costs
+    2. 23% underinsured = one medical event away from financial catastrophe
+    3. $88B medical debt directly damages credit scores (CFPB protection removed)
+    4. 20% medication non-adherence = preventable hospitalizations → debt spiral
+    5. Record anxiety (47%) suggests stress not yet fully reflected in current data
+
+    Specific recommendations for CARL:
+    - Healthcare is distinct transmission channel — event-triggered, latent stress
+    - Medical debt should be tracked as credit impairment mechanism
+    - Care deferral is leading indicator — stress precedes visible financial deterioration
+    - Factor underinsurance (23%) into consumer resilience assessment
+
+  transmission_to_carl:
+    vectors_affected:
+      - "VX-CARL-1.xx (Credit) — Medical debt damages credit scores"
+      - "Consumer spending vectors — Healthcare crowds out discretionary spending"
+      - "Financial fragility — One medical event can trigger cascading default"
+    flow_activated: "FLOW-DOC-05 (DOC-to-CARL Transmission) is MONITORING; three internal FLOWs ACTIVATING"
+    lag_estimate: "IMMEDIATE: spending displacement; MEDIUM-TERM: debt accumulation (6-18mo); LATENT: deferred care consequences (variable, then sudden)"
+    incident_dependency: |
+      CRITICAL: Healthcare stress transmission has LATENT component requiring TRIGGER.
+      - Medical event for underinsured consumer → debt spiral
+      - Deferred care condition becoming acute → catastrophic cost
+      - Medication non-adherence → hospitalization
+      The 23% underinsured and 36% deferring care represent LATENT vulnerability, not active stress.
+      A medical event converts latent to active. This population is one diagnosis away from crisis.
+
+  # === POLLY COORDINATION ===
+  polly_coordination:
+    overlap_identified: true
+    topics:
+      - "Deductible burden: DOC VX-DOC-2.02 ↔ POLLY VX-POLLY-3.02"
+      - "Medical debt: DOC VX-DOC-3.01 ↔ POLLY VX-POLLY-3.04"
+      - "Premium + deductible = total consumer burden"
+    recommendation: "Cross-reference findings; avoid double-counting in CARL synthesis"
+
+  # === NICK COORDINATION ===
+  nick_coordination:
+    overlap_identified: true
+    topics:
+      - "Medical debt as shadow obligation (payment plans, not yet in collections)"
+      - "$88B in collections — some portion may appear in NICK's shadow credit domain"
+      - "CFPB rule vacated — credit reporting implications for both domains"
+    recommendation: "Coordinate on medical debt classification; share CFPB developments"
+
+  # === VALIDITY ===
+  sources:
+    - "BLS CPI Medical Care (Dec 2025)"
+    - "KFF 2025 Employer Health Benefits Survey"
+    - "Commonwealth Fund 2024 Biennial Health Insurance Survey"
+    - "Gallup/West Health 2025 Healthcare Tracking"
+    - "CFPB Medical Debt Reports"
+    - "CMS IRA Drug Negotiation Announcements"
+    - "Academic studies on medication non-adherence"
+
+  data_quality: "HIGH — Multiple authoritative sources (BLS, KFF, Commonwealth Fund, CFPB, Gallup)"
+
+  next_update: "Post-February BLS CPI release (~Feb 12) or if ACA subsidy cliff developments occur"
+
+  # === DOC STATUS SUMMARY ===
+  doc_vector_summary:
+    elevated: 5
+    watch: 4
+    tbd: 1
+
+  doc_thesis_status: "VALIDATED"
+  doc_thesis_confidence: "78%"
+
+  flow_status:
+    - flow: "FLOW-DOC-01 (Cost Growth Cascade)"
+      status: "MONITORING"
+      evidence: "CPI 3.2% exceeds wages; employers projecting 9% increase"
+    - flow: "FLOW-DOC-02 (Care Deferral Cascade)"
+      status: "ACTIVATING"
+      evidence: "36% deferral; 18% health worsened; 47% record anxiety"
+    - flow: "FLOW-DOC-03 (Medical Debt Spiral)"
+      status: "ACTIVATING"
+      evidence: "$88B in collections; CFPB protection vacated"
+    - flow: "FLOW-DOC-04 (Medication Non-Adherence Cascade)"
+      status: "ACTIVATING"
+      evidence: "20% non-adherence; 100K preventable deaths"
+    - flow: "FLOW-DOC-05 (DOC-to-CARL Transmission)"
+      status: "MONITORING"
+      evidence: "5 ELEVATED vectors; transmission channels active"
+
+# === END STATE VECTOR ===
