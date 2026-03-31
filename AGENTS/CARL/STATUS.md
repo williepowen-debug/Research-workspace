@@ -18,6 +18,7 @@
 | Student Loan 30+ DQ | **16.3% WORST EVER** | 🔴 |
 | Student Loan 90+ DQ | **9.6%** (0.4pp from 10%) | 🔴 |
 | BNPL Late Rate | **41%** (+7pp YoY) | 🟠 |
+| SYF 30+ DQ | **4.7%** (Feb, +0.1pp MoM — stress up quality stack) | 🟠 |
 | Total Household Debt | **$18.78T record** | 🔴 |
 
 ### Housing / Multifamily
@@ -27,6 +28,7 @@
 | FHA DQ | **11.52%** vs Conv 2.89% | 🔴 |
 | 30-Yr Mortgage | **6.86%** | 🔴 |
 | Foreclosures Q4 | **58,140** (+41% YoY) | 🟠 |
+| 90+/Foreclosure Pipeline | **878K** (Feb, +175K/25% in 4mo, cure rates -40%) | 🔴🔴 |
 | FL Foreclosures YoY | **+190%** | 🔴 |
 | "Help with mortgage" | **ALL-TIME HIGH** | 🔴🔴 |
 | Lennar Gross Margin | **15.2%** (lowest since 2010) | 🔴 |
@@ -44,6 +46,9 @@
 | JOLTS Ratio | **0.94 — INVERTED** (Jan 2026) | 🔴 |
 | Unemployment Duration | **25.7 wks** (4-yr high) | 🔴 |
 | UI Exhaustion Spending Hole | **$650M/mo** (peak $930M/mo July) | 🔴🔴 |
+| Core PCE | **3.1% YoY** (Jan; simulated 3.27% Mar) | 🔴 |
+| GDP Q4 2025 | **0.7%** (revised down from 1.4%) | 🔴 |
+| GDPNow Q1 2026 | **2.0%** (Mar 23, down from 2.7% Mar 13) | 🟠 |
 
 ---
 
@@ -60,7 +65,7 @@
 | 7 | FL Triple Squeeze | 🔴 4 | Energy + HOA + Insurance. |
 | 8 | Reverse Wealth Effect | 🔴🔴 5 | RV crash + upper income pullback. Max. |
 | 9 | K-Shape CONVERGING | 🔴🔴 5 | Both cohorts moving DOWN. Max. |
-| 10 | Foreclosure Accel | 🔴 4 | 58,140 (+41% YoY). "Help mortgage" ATH. |
+| 10 | Foreclosure Accel | 🔴 4 | 878K in 90+/FC pipeline (+25% in 4mo). Cure rates -40%. |
 
 **Total: 46/50 → 🔴🔴 CRITICAL.** (+2 from Mar 27: UI exhaustion 4→5 on duration spike + exhaustion signal, gas confirmed at max.)
 
@@ -68,7 +73,7 @@
 
 ## THESIS
 
-**"Beneath the Ice" v2.0 — 60% structurally fragile, cost squeeze is the mechanism.**
+**"Beneath the Ice" v2.1 — 60% structurally fragile, cost squeeze is the mechanism.**
 - 37% can't cover $400 | 62% paycheck-to-paycheck | JOLTS inverted (0.94)
 - **Mechanism shift:** Employment didn't break acutely — instead, multi-vector cost squeeze (energy + food + UI exhaustion) grinding the bottom 60%. JOLTS inversion confirms structural rot. K-shape converging downward (both cohorts stressed). Subsidence, not earthquake. **NEW (Mar 31):** DOGE + ICE raids + tech layoffs = labor supply shock layered ON TOP of cost squeeze. Continuing claims dropping while duration spikes = exhaustion, not recovery. Gas $4 fires the behavioral breakpoint — discretionary pullback accelerates NOW.
 - **Paths:** A (Employment→Subprime, SLOW), B (SPX→Wealth effect), C (Housing→Banks, **ACTIVATING**), F (AI→Prime mortgage), PC (Private credit→Middle-market)
@@ -98,7 +103,7 @@
 | From | Signal | Status |
 |------|--------|--------|
 | LABOR | NFP -92K, duration 25.7wk (+2.0 single month, 4-yr high), cont claims 1.819M (2-yr low = exhaustion), DOGE 260K+ (9% fed workforce), ICE raids → 57 Concrete bankrupt / 60% TX res vol drop, tech 150K+ layoffs 2026, TSA 10% callout, shutdown 60+ days, NFP Apr 3 into CLOSED market (gap risk Apr 6) | 🔴🔴 |
-| HAWK | WTI $107+, gas $3.98, diesel $5.10 | 🔴🔴 |
+| HAWK | WTI $107+, gas $4.02, diesel $5.10 | 🔴🔴 |
 | WAR | Gulf escalation, Ras Laffan burning | 🔴🔴 |
 | FOMC | Hold 3.50-3.75%, 1 cut | 🔴🔴 |
 | HAWK | Triple nitrogen seizure | 🔴🔴 |
