@@ -78,13 +78,13 @@ If regulators scrutinize or stress scenarios force re-evaluation of SSFA assumpt
 | Actor | Action | Signal |
 |-------|--------|--------|
 | CFO Gibbons (22yr) | Moved to "VP Deposit Initiatives" — parking title | 🔴 Removed during CRE reclassification |
-| New CFO Idnani | Hired from **JPM FIG** (bank advisory/restructuring) | 🔴 Crisis playbook hire |
+| New CFO Vishal Idnani | Hired from **JPM FIG** (20yr MD, advised 50+ regional banks incl. WAL) | 🔴 Preparation hire — regulatory/capital/transaction expertise |
 | CAO Ardrey | Retired; discretionary sells at $64 and $76 | 🔴 Only genuine discretionary seller |
 | CEO Vecchione | Medical leave Dec 2024; Gibbons dual-hatted during reclassification | 🔴 Governance gap |
 | Board (Dec 2025) | Two risk specialists added incl. Clarke Starnes III (former Truist CRO) | 🔴 Boards add risk specialists when expecting risk |
 | All insiders | **Zero buying** | 🔴 |
 
-**CFO swap is the tell.** You don't replace a 22-year CFO with a JPM FIG restructuring banker unless you're preparing for a difficult chapter. Timing aligns with hidden CRE acceleration, Cantor charge-off, and board risk committee expansion.
+**CFO swap is the tell.** You don't replace a 22-year CFO with a JPM FIG managing director unless you're preparing for something significant. Official narrative: $100B threshold regulatory navigation. Circumstantial read: preparation sequence (board risk additions → comp restructuring → CFO swap → appraisals → earnings) was executed Oct-Jan, BEFORE the stock crashed. Full profile → `LEADERSHIP.md`.
 
 ---
 

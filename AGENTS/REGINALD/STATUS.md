@@ -1,5 +1,5 @@
 # REGINALD STATUS
-**Last Updated:** 2026-03-28 00:00 UTC | **Status:** 🔴🔴🔴 CRITICAL
+**Last Updated:** 2026-03-31 16:00 UTC | **Status:** 🔴🔴🔴 CRITICAL
 
 ---
 
@@ -60,6 +60,8 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 **KB: 70 rows, 10 groups** | **Earnings: Apr 21 (~25 days)** | **EARNINGS_PREP: B+→A-** | **Price: ~$67-68 (Mar 27) ⚠️ BELOW $78 THRESHOLD**
 - Architecture complete (Mar 25): INDEX, THESIS, STATUS, SCENARIOS, WEAKNESSES, EARNINGS_PREP, EXTERNAL_PROMPTS.
 - 5 external prompts ready. EARNINGS_PREP upgraded Mar 26 with new signals.
+- **NEW (Mar 31):** `LEADERSHIP.md` created — full C-suite, board, audit committee, auditor, CRE leadership, ownership profile. CFO Idnani corrected to Vishal (not Deepak). CRO Emily Nachlas profiled. Guggenheim (TPG RE Finance Trust) on Risk committee, NOT Audit — expertise/oversight gap identified.
+- **NEW (Mar 31):** Chart analysis (1W/1M/3M/5min) confirms institutional distribution pattern. Volume front-loaded on spike days, dead between. Bounce from $65 on thin volume = no institutional accumulation.
 - WAL = fast-transmission thesis (episodic, sudden — bypasses delinquency pipeline).
 
 **Key numbers:** CRE/Tier 1 474%, MI3/C&I 24.2% (GROWING), SSFA $17.2B ($1.1B capital savings), Cantor $98M (30% reserved vs ZION 83%), SF NCO highest nationally (1.13%), pipeline lowest (0.26%).

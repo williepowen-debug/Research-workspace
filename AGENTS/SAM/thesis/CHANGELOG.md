@@ -8,6 +8,26 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-03-31 — MIMURA ESCALATION + MARKET PRICING UPDATE
+
+### TIMELINE Updated
+**Author:** PROME
+**Action:** Updated "Mon Mar 31" section with Mimura "decisive measures" escalation and market pricing shift.
+
+**What changed:**
+- Mimura (top currency diplomat) used "decisive measures" — strongest verbal signal this cycle, first time this language. Final step before actual USD-selling.
+- Ueda coordinated messaging: "keeping close eye on yen moves." MOF-BOJ alignment is the pattern that precedes intervention (same as July 2024 sequence).
+- Market now pricing 65% May hike to **1.00%** (above our prior base case of 0.75%). Equiti: oil above $110 could force emergency April move.
+
+**Old view:** MOF intervention "still on alert" based on Katayama warning at 159.5
+**New view:** Mimura escalation = intervention is the NEXT step, not a possibility. Verbal sequence complete.
+
+**KB entries added:** KB-SAM-157 (Mimura), KB-SAM-158 (Ueda-Mimura coordination), KB-SAM-159 (65% May 1.00% pricing)
+
+**Note on THESIS:** No version bump — intervention was already tracked in THESIS v1.0. This is confirming evidence, not a structural change. If market pricing of 1.00% holds and our terminal rate view needs revising from 0.75%, that would warrant v1.1.
+
+---
+
 ## 2026-03-31 — INITIAL CREATION
 
 ### THESIS v1.0 — Established
