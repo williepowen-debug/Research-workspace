@@ -9,11 +9,12 @@ This document maps our forward-looking expectations — what's coming, what we t
 
 ## THIS WEEK (Mar 31 – Apr 4)
 
-### Mon Mar 31 — FY2025 END
+### Mon Mar 31 — FY2025 END + MIMURA ESCALATION
 - **Event:** Japan fiscal year closes. Repatriation window shuts.
 - **Our view:** Bulk of FY-end selling already done (Feb ¥3.42T was the peak). Today is adjustment, not a wave. After today, the repatriation tailwind for JPY fades near-term.
 - **Watch for:** Any outsized flows in final hours. Post-close, the market shifts focus to FY2026 investment plans (announced in April by Big 4 insurers).
-- **MOF intervention:** Still on alert. USD/JPY at 159.65 after 160.1 breach Mar 27. Katayama warned at 159.5. Monday/early week = highest intervention probability window (FY-end settlement, thin liquidity). July 2024 precedent: $37B, 5-6% reversal in days.
+- **MOF intervention: 🔴 MIMURA ESCALATED TO "DECISIVE MEASURES"** — strongest verbal signal this cycle. First time this language used. USD/JPY pulled back to 159.13 on the remarks. This is the final verbal step before actual USD-selling. Coordinated with Ueda ("keeping close eye on yen moves"). JPMorgan: BOJ "teeing up for its next rate rise." FY-end today + early April = highest probability window for actual intervention. July 2024 precedent: $37B, 5-6% reversal.
+- **Market pricing update:** 65% probability of May hike to 1.00% (above our prior base case of 0.75%). Equiti: oil above $110 could force emergency April move.
 
 ### Tue Apr 1 — TANKAN SURVEY
 - **Event:** BOJ's quarterly business sentiment survey. Manufacturing outlook expected ~15 (up from 12). Non-manufacturing ~28.
