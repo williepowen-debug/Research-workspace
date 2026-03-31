@@ -1,5 +1,5 @@
 # CARL THESIS: "Beneath the Ice"
-**Version:** 2.1 | **Updated:** 2026-03-31 | **Status:** ACTIVE — composition shift in progress
+**Version:** 2.0 | **Updated:** 2026-03-27 | **Status:** ACTIVE — composition shift in progress
 
 ---
 
@@ -7,7 +7,7 @@
 
 60% of American households are structurally fragile. Aggregate data masks a K-shaped deterioration where the bottom 60% (subprime, paycheck-to-paycheck, BNPL-dependent) are collapsing while the top 40% (prime, asset-owning) have until recently appeared stable. The thesis originally held that employment was the detonator — a labor market crack would convert latent vulnerability into acute credit stress.
 
-**March 2026 revision:** The detonator is shifting. Employment has not cracked acutely (claims 1,819K, lowest since May 2024). Instead, three cost vectors are converging to do the work: energy ($4+/gal gas, SPR failing to contain), food (triple nitrogen seizure → Q3-Q4 CPI), and housing (47/50 cities declining, insurance/HOA surges). The K-shape itself is converging downward — both cohorts now deteriorating simultaneously. Stagflation now in published data: core PCE 3.1% + GDP 0.7% (Q4 2025 revised down).
+**March 2027 revision:** The detonator is shifting. Employment has not cracked acutely (claims 1,819K, lowest since May 2024). Instead, three cost vectors are converging to do the work: energy ($4/gal gas), food (triple nitrogen seizure → Q3-Q4 CPI), and housing (47/50 cities declining, insurance/HOA surges). The K-shape itself is converging downward — both cohorts now deteriorating simultaneously.
 
 ---
 
@@ -20,18 +20,11 @@
 | Student loan 30+ DQ worst ever | 16.3% NY Fed Q4 2025 | KB-029 |
 | Housing price declines near-universal | 47/50 largest cities declining | KB-005 |
 | FL foreclosures +190% YoY | Cure rate collapsed | KB-044 |
-| Gas $4.02 — behavioral breakpoint BREACHED | AAA Mar 31; CNN "fuel vs food" confirmation | KB-108, KB-118 |
-| SPR 172M barrel release failing to contain prices | Gas rose through SPR release ($2.98 → $4.02) | KB-109 |
-| Retail investor structurally absent | JPM equity purchases -30% WoW, near net-negative | KB-111 |
-| K-shape converging downward | Reuters: both cohorts cutting; Dollar Tree +6.5M HH (60% >$100K) | KB-091 |
+| Gas $4 behavioral breakpoint reached | CNN "fuel vs food" confirmation | KB-108 |
+| Retail investor structurally absent | JPM equity purchases -30% WoW | KB-111 |
+| K-shape converging downward | Reuters: both cohorts cutting | KB-091 |
 | FL UI Wave 1 exhaustion fired | Mar 24, as forecast | KB-113 |
 | ABS structured credit cracking first | SoFi CNL trigger, SDART 22% DQ | KB-078, ABS data |
-| Stagflation in published data | Core PCE 3.1% + GDP Q4 revised to 0.7% | KB-089, KB-090 |
-| RV market collapse (upper-income canary) | 50% value loss on near-new Winnebago, 1.5yr old | KB-112 |
-| 878K mortgages in 90+/foreclosure (Feb 2026) | Highest since Jun 2022 (Jun 2018 ex-pandemic); cure rates -40% | ICE First Look Feb 2026 |
-| SYF 30+ DQ rising MoM | 4.6% → 4.7% (Feb); stress migrating up quality stack | KB-096 |
-| Triple nitrogen seizure confirmed (3 sources offline) | Gulf urea + China N+K halt + Russia AN suspended | KB-101, KB-110 |
-| ICE enforcement removing 33K+ workers/mo from ag/food | H-2A clogged to July; Mexico remittances -4.6% YoY | KB-103, KB-104 |
 | 4/8 CARL predictions confirmed | CRL-01, 02, 03, 04 | PREDICTIONS.tsv |
 
 ---
@@ -55,16 +48,16 @@
 The thesis converts from "stress" to "systemic event" through these channels. Ordered by current importance:
 
 ### 1. Energy Cost Squeeze (STRONGEST — active now)
-Gas $4.02 (Mar 31) — $4 behavioral breakpoint BREACHED. Up $1.04 in 33 days (+35%). Diesel >$5.10. Brent >$108. Bottom 60% now spending 6-8% of income on gas (vs ~4% at $3). CNN behavioral confirmation of fuel-vs-food tradeoffs. SPR 172M barrel release FAILING — gas rose through the entire release period; Energy Sec admitted 120 days to deliver. Government's primary price relief tool exhausted without effect. Demand destruction is now the only remaining price mechanism. Next breakpoint: $4.50 (est. 2-3 weeks). DQ conversion lag: 30-60 days from sustained $4+.
+Gas at $3.98, diesel >$5. Bottom 60% spend 8-12% of income on energy (vs 2-3% top 20%). CNN behavioral confirmation of fuel-vs-food tradeoffs. SPR failed to contain prices. This is the primary transmission mechanism RIGHT NOW — compresses disposable income, accelerates payment hierarchy collapse.
 **Kill condition:** Brent drops below $80, gas falls below $3.50 sustained.
 
 ### 2. Housing Price Decline + Foreclosure Acceleration (STRENGTHENING)
-47/50 cities declining. FL leading (-10.2% Cape Coral). Inventory building (66/200 metros above 2019). Miami outmigration now -2.0% (worse than pre-COVID NYC) — FL population boom reversing. No floor under FL home prices. ICE First Look Feb 2026: 878K borrowers in 90+/foreclosure — UP 175K (25%) in 4 months, highest since Jun 2022 (Jun 2018 ex-pandemic). Cure rates among 90+ DQ mortgages DOWN 40%. FHA = 80% of the increase. Foreclosure sales +25% YoY. Path C (Housing → Banks → REGINALD) has the broadest geographic base and hardest pipeline numbers it's ever had.
+47/50 cities declining. FL leading (-10.2% Cape Coral). Inventory building (66/200 metros above 2019). Outmigration reversing FL population boom. No floor under FL home prices. Foreclosures +41% YoY and accelerating. Path C (Housing → Banks → REGINALD) has the broadest geographic base it's ever had.
 **Kill condition:** Price declines reverse in 10+ major metros for 2 consecutive months.
 
 ### 3. Food CPI (LOADING — not yet fired)
-Triple nitrogen seizure — all three sources now confirmed offline: (1) Gulf urea (Fertiglobe 6.6M tonnes/yr + Qatar 2-3M tonnes/yr) behind Hormuz, (2) China halted N+K exports (~30% global potash), (3) Russia suspended ammonium nitrate until Apr 21 (40% of global AN trade). Combined: 40-50% of global N+K disrupted during spring planting window. Urea NOLA at $690s/mt ($760 cfr equivalent), up from $475 early March (+45%). USDA Mar 31 Prospective Plantings drops noon ET today — corn acreage expected 93-96M (down from 99M). Second supply-side channel: ICE enforcement removing ~33K workers/month from ag/food/construction; H-2A replacements clogged to July. Mexico remittances -4.6% YoY confirms labor income loss. Food CPI impact arrives Q3-Q4 with 4-6 month lag. This vector keeps inflation hot even if oil drops — independent supply shock from both input costs AND labor removal.
-**Kill condition:** Hormuz reopens AND China lifts export ban AND Russia resumes AN AND ICE ag enforcement pauses. All needed.
+Triple nitrogen seizure: Gulf urea offline, China N+K halted, Russia AN suspended. 40-50% of global N+K disrupted during spring planting. USDA Mar 31 will set trajectory. Food CPI impact arrives Q3-Q4 with 4-6 month lag. This is the vector that keeps inflation hot even if oil drops — independent supply shock.
+**Kill condition:** Hormuz reopens AND China lifts export ban AND Russia resumes AN. All three needed.
 
 ### 4. UI Exhaustion (CONFIRMED — executing)
 FL Wave 1 fired Mar 24. Wave 2 Apr 26. National peak July ($800M-$930M/mo spending hole). No federal safety net. This is mechanical — benefits end on a date, spending stops on a date, DQs convert on a date. The only consumer stress vector with hard dollar quantification.
@@ -84,7 +77,7 @@ NFP -92K confirmed but claims benign (210K initial, 1,819K continuing). **JOLTS 
 
 **Why the mechanism changed:** v1.0 assumed a single-point-of-failure system (employment breaks → credit collapses → banks eat losses). Reality is a multi-point-of-pressure system: energy, food, insurance, HOA, and UI exhaustion simultaneously compressing disposable income from different directions, while employment weakens structurally rather than breaking acutely. We expected an earthquake; we got subsidence — the ground is sinking everywhere, slowly, from multiple causes. The destination (consumer credit crisis → bank losses) is the same; the path is different.
 
-**What this means for timing:** Slower than v1.0 modeled. Q2-Q3 stress, but grinding rather than step-function. Gas has breached $4 (Mar 31); the next catalyst requiring (a) gas sustained >$4.50, (b) food CPI visibly spiking, or (c) an unmodeled event (CVNA fraud, private credit cascade). GDPNow has dropped from 2.7% to 2.0% (Mar 23) — stall speed approaching.
+**What this means for timing:** Slower than v1.0 modeled. Q2-Q3 stress, but grinding rather than step-function. The acute break requires either (a) gas sustained >$4.50, (b) food CPI visibly spiking, or (c) a catalyst we haven't modeled (CVNA fraud event, private credit cascade, geopolitical escalation).
 
 **What this means for trades:** Longer duration needed. The thesis plays out over quarters, not weeks. Roll timelines, don't trim positions.
 
@@ -107,7 +100,7 @@ NFP -92K confirmed but claims benign (210K initial, 1,819K continuing). **JOLTS 
 | 9 | K-Shape Converging | 5 | Active, max |
 | 10 | Foreclosure + Housing | 4 | STRENGTHENING (47/50 cities) |
 
-**Composition note (Mar 31 update):** Gas $4.02 BREACHED (behavioral breakpoint confirmed). SPR failing. 878K mortgages in 90+/foreclosure (+25% in 4 months), cure rates -40%. RV market collapse (50% value loss) confirms reverse wealth effect on upper income. Retail investor near net-negative (JPM). Stagflation in published data (PCE 3.1%, GDP 0.7%). GDPNow dropped to 2.0%. Triple nitrogen seizure all three sources confirmed offline + ICE ag labor removal = dual food CPI channels. SYF DQ rising MoM (stress moving up quality stack). Insurance cooling (auto 5.9%, homeowners decelerating) provides partial offset. Score holds at 44 — multiple vectors strengthened but insurance relief prevents increase. Load-bearing walls: energy + food + UI exhaustion + housing pipeline.
+**Composition note (Mar 27 update):** JOLTS inversion confirms structural employment weakness even as claims stay benign. Trade-down accelerating (Dollar Tree 6.5M new HH, 60% >$100K). CA FAIR Plan breached 668K (RED). But auto insurance CPI cooled to 5.9% (GREEN) and homeowners insurance decelerating (GREEN) — two cost-squeeze vectors easing. Net: 3 vectors worsened, 2 improved. Score holds at 44 but weight continues shifting from labor-driven to cost-driven. The load-bearing walls are now energy + food + UI exhaustion, not employment.
 
 ---
 
@@ -138,7 +131,7 @@ See `red_team/COUNTER_LOG.md` for full log. Current key counter-signals:
 - **Homeowners insurance +8.5% nationally** (decelerated from 50% YoY; FL Citizens cutting -8.7%) [Insurify 2025]
 - NAR Feb +1.7% MoM with affordability improving (housing not in freefall)
 - ALLY NCO guidance 1.9% (prime auto holding)
-- GDPNow 2.0% (Mar 23, down from 2.7% Mar 13 — weakening as counter-signal)
+- GDPNow 2.7% (Q1 GDP not in recession territory)
 - Savings rate 4.5% Jan (buffer slightly rebuilt, tax-driven)
 
 ---
