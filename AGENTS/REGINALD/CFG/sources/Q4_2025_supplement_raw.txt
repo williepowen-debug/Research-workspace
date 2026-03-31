@@ -1,0 +1,17004 @@
+Financial Supplement
+
+Fourth Quarter and Full Year 2025 
+
+1
+
+Table of Contents
+
+Consolidated Financial Highlights
+
+Consolidated Statements of Operations (unaudited)
+
+Consolidated Balance Sheets (unaudited)
+
+Loans and Deposits
+
+Average Balance Sheets, Annualized Yields and Rates
+
+Mortgage Banking Fees
+
+Segment Financial Highlights
+
+Credit-Related Information:
+
+Nonaccrual loans and leases
+
+Loans and Leases 90 Days or More Past Due and Accruing
+
+Charge-offs, Recoveries, and Related Ratios
+
+Summary of Changes in the Components of the Allowance for Credit Losses
+
+Capital and Ratios
+
+Non-GAAP Financial Measures and Reconciliations 
+
+Page
+
+3
+
+5
+
+6
+
+7
+
+8
+
+10
+
+11
+
+14
+
+15
+
+16
+
+18
+
+19
+
+20
+
+The information in this Financial Supplement is preliminary and based on company data available at the time of 
+the earnings presentation. It speaks only as of the particular date or dates included in the accompanying pages. 
+The  Company  does  not  undertake  an  obligation  to,  and  disclaims  any  duty  to,  update  any  of  the  information 
+provided.  Any  forward-looking  statements  in  this  Financial  Supplement  are  subject  to  the  forward-looking 
+statements language contained in the Company’s reports filed with the SEC pursuant to the Securities Exchange 
+Act  of  1934,  which  can  be  found  on  the  SEC’s  website  (www.sec.gov)  or  on  the  Company’s  website 
+(www.citizensbank.com). The Company’s future financial performance is subject to the risks and uncertainties 
+described in its SEC filings.
+
+Please note that items in this document may not sum due to rounding.
+
+2
+
+CONSOLIDATED FINANCIAL HIGHLIGHTS   
+(dollars in millions, except per share data)
+
+SELECTED OPERATING DATA
+
+Total revenue
+
+Noninterest expense
+
+Pre-provision profit1
+
+Provision (benefit) for credit losses
+
+NET INCOME
+
+Net income, Underlying1
+
+Net income available to common stockholders
+
+Net income available to common stockholders, 
+Underlying1
+
+PER COMMON SHARE DATA 
+
+Basic earnings
+
+Diluted earnings
+
+Basic earnings, Underlying1
+
+Diluted earnings, Underlying1
+
+Cash dividends declared and paid per common share 
+
+Book value per common share
+
+Tangible book value per common share1
+
+Dividend payout ratio
+
+Dividend payout ratio, Underlying1
+
+COMMON SHARES OUTSTANDING 
+
+Average: Basic
+
+   Diluted
+
+4Q25
+
+3Q25
+
+2Q25
+
+1Q25
+
+4Q24
+
+3Q25
+
+4Q24
+
+2025
+
+2024
+
+2024
+
+$/bps
+
+%
+
+$/bps
+
+%
+
+$/bps
+
+%
+
+QUARTERLY TRENDS
+
+4Q25 Change
+
+FULL YEAR
+
+2025 Change
+
+$2,157 
+
+1,343 
+
+$2,118 
+
+1,335 
+
+$2,037 
+
+1,319 
+
+$1,935 
+
+1,314 
+
+$1,986 
+
+1,316 
+
+814 
+
+137 
+
+528 
+
+528 
+
+489 
+
+489 
+
+783 
+
+154 
+
+494 
+
+494 
+
+457 
+
+457 
+
+718 
+
+164 
+
+436 
+
+436 
+
+402 
+
+402 
+
+621 
+
+153 
+
+373 
+
+373 
+
+340 
+
+340 
+
+670 
+
+162 
+
+401 
+
+412 
+
+367 
+
+378 
+
+$39 
+
+8 
+
+31 
+
+(17) 
+
+34 
+
+34 
+
+32 
+
+32 
+
+ 2% 
+
+ 1 
+
+ 4 
+
+ (11) 
+
+ 7 
+
+ 7 
+
+ 7 
+
+ 7 
+
+$171 
+
+ 9% 
+
+$8,247 
+
+$7,809 
+
+$438 
+
+27 
+
+144 
+
+(25) 
+
+127 
+
+116 
+
+122 
+
+111 
+
+ 2 
+
+ 21 
+
+ (15) 
+
+ 32 
+
+ 28 
+
+ 33 
+
+ 29 
+
+5,311 
+
+2,936 
+
+608 
+
+1,831 
+
+1,831 
+
+1,688 
+
+5,234 
+
+2,575 
+
+687 
+
+1,509 
+
+1,607 
+
+1,372 
+
+77 
+
+361 
+
+(79) 
+
+322 
+
+224 
+
+316 
+
+1,688 
+
+1,470 
+
+218 
+
+ 6% 
+
+ 1 
+
+ 14 
+
+ (11) 
+
+ 21 
+
+ 14 
+
+ 23 
+
+ 15 
+
+$1.14 
+
+$1.06 
+
+$0.93 
+
+$0.78 
+
+$0.83 
+
+  $0.08 
+
+ 8% 
+
+  $0.31 
+
+ 37% 
+
+$3.90 
+
+$3.05 
+
+  $0.85 
+
+ 28% 
+
+1.13 
+
+1.14 
+
+1.13 
+
+0.46 
+
+56.39 
+
+38.07 
+
+ 40 %
+
+ 40 
+
+1.05 
+
+1.06 
+
+1.05 
+
+0.42 
+
+54.97 
+
+36.73 
+
+ 40 %
+
+ 40 
+
+0.92 
+
+0.93 
+
+0.92 
+
+0.42 
+
+53.43 
+
+35.23 
+
+ 45 %
+
+ 45 
+
+0.77 
+
+0.78 
+
+0.77 
+
+0.42 
+
+51.99 
+
+33.97 
+
+ 54 %
+
+ 54 
+
+0.83 
+
+0.86 
+
+0.85 
+
+0.42 
+
+50.26 
+
+32.34 
+
+0.08 
+
+0.08 
+
+0.08 
+
+0.04 
+
+1.42 
+
+1.34 
+
+ 8 
+
+ 8 
+
+ 8 
+
+ 10 
+
+ 3 
+
+ 4 
+
+0.30 
+
+0.28 
+
+0.28 
+
+0.04 
+
+6.13 
+
+5.73 
+
+ 36 
+
+ 33 
+
+ 33 
+
+ 10 
+
+ 12 
+
+ 18 
+
+ 51 %
+
+ 49 
+
+ 73  bps
+
+ 73  bps
+
+ (1,025)  bps
+
+ (865)  bps
+
+3.86 
+
+3.90 
+
+3.86 
+
+1.72 
+
+56.39 
+
+38.07 
+
+ 44 %
+
+ 44 
+
+3.03 
+
+3.26 
+
+3.24 
+
+1.68 
+
+50.26 
+
+32.34 
+
+0.83 
+
+0.64 
+
+0.62 
+
+0.04 
+
+6.13 
+
+5.73 
+
+ 55% 
+
+ 52 
+
+ (1,098)  bps
+
+ (800)  bps
+
+ 27 
+
+ 20 
+
+ 19 
+
+ 2 
+
+ 12 
+
+ 18 
+
+ 429,483,110 
+
+ 431,365,552 
+
+ 433,640,210 
+
+ 438,320,757 
+
+ 440,802,738 
+
+ (1,882,442) 
+
+ —% 
+
+ (11,319,628) 
+
+ (3%) 
+
+ 433,173,162 
+
+ 450,678,038 
+
+ (17,504,876) 
+
+ (4%) 
+
+ (2) 
+
+ (3) 
+
+ 436,890,731 
+
+ 453,510,245 
+
+ (16,619,514) 
+
+ 429,242,174 
+
+ 440,543,381 
+
+ (11,301,207) 
+
+ (4) 
+
+ (3) 
+
+ 434,077,960 
+
+ 435,472,350 
+
+ 436,539,774 
+
+ 442,200,180 
+
+ 444,836,786 
+
+ (1,394,390) 
+
+ — 
+
+ (10,758,826) 
+
+Common shares at period-end
+
+ 429,242,174 
+
+ 431,453,142 
+
+ 432,768,811 
+
+ 437,668,127 
+
+ 440,543,381 
+
+ (2,210,968) 
+
+ (1) 
+
+ (11,301,207) 
+
+1 These are non-GAAP financial measures. For further information on these measures, refer to "Non-GAAP Financial Measures and Reconciliations." 
+
+3
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CONSOLIDATED FINANCIAL HIGHLIGHTS, CONTINUED
+(dollars in millions, except per share data)
+
+FINANCIAL RATIOS
+
+Net interest margin
+
+Net interest margin, FTE1,2
+
+Return on average common equity
+
+Return on average common equity, Underlying2
+
+Return on average tangible common equity2
+
+Return on average tangible common equity, Underlying2
+
+Return on average total assets
+
+Return on average total assets, Underlying2
+
+Return on average total tangible assets2
+
+Return on average total tangible assets, Underlying2
+
+Effective income tax rate
+
+Effective income tax rate, Underlying2
+
+Efficiency ratio
+
+Efficiency ratio, Underlying2
+
+Noninterest income as a % of total revenue
+
+Noninterest income as a % of total revenue, Underlying2
+
+4Q25
+
+3Q25
+
+2Q25
+
+1Q25
+
+4Q24
+
+3Q25
+
+4Q24
+
+2025
+
+2024
+
+2024
+
+$/bps
+
+%
+
+$/bps
+
+%
+
+$/bps
+
+%
+
+QUARTERLY TRENDS
+
+4Q25 Change
+
+FULL YEAR
+
+2025 Change
+
+ 3.06 %
+
+ 2.99 %
+
+ 2.94 %
+
+ 2.89 %
+
+ 2.86 %
+
+7 bps
+
+20 bps
+
+ 2.97 %
+
+ 2.84 %
+
+ 13  bps
+
+ 3.07 
+
+ 8.16 
+
+ 8.16 
+
+ 12.18 
+
+ 12.18 
+
+ 0.95 
+
+ 0.95 
+
+ 0.98 
+
+ 0.98 
+
+ 22.03 
+
+ 22.03 
+
+ 62.24 
+
+ 62.24 
+
+ 28.75 
+
+ 28.75 
+
+ 3.00 
+
+ 7.77 
+
+ 7.77 
+
+ 11.75 
+
+ 11.75 
+
+ 0.90 
+
+ 0.90 
+
+ 0.93 
+
+ 0.93 
+
+ 21.38 
+
+ 21.38 
+
+ 63.03 
+
+ 63.03 
+
+ 29.75 
+
+ 29.75 
+
+ 2.95 
+
+ 7.18 
+
+ 7.18 
+
+ 11.05 
+
+ 11.05 
+
+ 0.80 
+
+ 0.80 
+
+ 0.83 
+
+ 0.83 
+
+ 21.37 
+
+ 21.37 
+
+ 64.76 
+
+ 64.76 
+
+ 29.41 
+
+ 29.41 
+
+ 2.90 
+
+ 6.21 
+
+ 6.21 
+
+ 9.64 
+
+ 9.64 
+
+ 0.70 
+
+ 0.70 
+
+ 0.73 
+
+ 0.73 
+
+ 20.26 
+
+ 20.26 
+
+ 67.91 
+
+ 67.91 
+
+ 28.14 
+
+ 28.14 
+
+ 2.87 
+
+ 6.64 
+
+ 6.84 
+
+ 10.36 
+
+ 10.66 
+
+ 0.73 
+
+ 0.75 
+
+ 0.76 
+
+ 0.78 
+
+ 21.04 
+
+ 21.17 
+
+ 66.27 
+
+ 65.36 
+
+ 28.90 
+
+ 28.54 
+
+7
+
+ 39 
+
+ 39 
+
+ 43 
+
+ 43 
+
+ 5 
+
+ 5 
+
+ 5 
+
+ 5 
+
+ 65 
+
+ 65 
+
+ (79) 
+
+ (79) 
+
+ (100) 
+
+ (100) 
+
+20
+
+ 152 
+
+ 132 
+
+ 182 
+
+ 152 
+
+ 22 
+
+ 20 
+
+ 22 
+
+ 20 
+
+ 99 
+
+ 86 
+
+ (403) 
+
+ (312) 
+
+ (15) 
+
+ 21 
+
+ 2.98 
+
+ 7.36 
+
+ 7.36 
+
+ 11.20 
+
+ 11.20 
+
+ 0.84 
+
+ 0.84 
+
+ 0.87 
+
+ 0.87 
+
+ 21.34 
+
+ 21.34 
+
+ 64.40 
+
+ 64.40 
+
+ 29.03 
+
+ 29.03 
+
+ 2.85 
+
+ 6.27 
+
+ 6.72 
+
+ 9.81 
+
+ 10.51 
+
+ 0.69 
+
+ 0.73 
+
+ 0.71 
+
+ 0.76 
+
+ 20.06 
+
+ 20.80 
+
+ 67.03 
+
+ 65.15 
+
+ 27.86 
+
+ 27.73 
+
+ 13 
+
+ 109 
+
+ 64 
+
+ 139 
+
+ 69 
+
+ 15 
+
+ 11 
+
+ 16 
+
+ 11 
+
+ 128 
+
+ 54 
+
+ (263) 
+
+ (75) 
+
+ 117 
+
+ 130 
+
+CAPITAL RATIOS - PERIOD-END (PRELIMINARY)                                  
+
+CET1 capital ratio
+
+Tier 1 capital ratio
+
+Total capital ratio
+
+Tier 1 leverage ratio
+
+Common equity ratio
+
+Tangible common equity ratio2
+
+SELECTED BALANCE SHEET DATA
+
+ 10.6 %
+
+ 10.7 %
+
+ 10.6 %
+
+ 10.6 %
+
+ 10.8 %
+
+ 11.9 
+
+ 13.8 
+
+ 9.4 
+
+ 10.7 
+
+ 7.5 
+
+ 11.9 
+
+ 13.9 
+
+ 9.4 
+
+ 10.6 
+
+ 7.4 
+
+ 11.9 
+
+ 13.8 
+
+ 9.4 
+
+ 10.6 
+
+ 7.2 
+
+ 11.9 
+
+ 13.9 
+
+ 9.4 
+
+ 10.3 
+
+ 7.0 
+
+ 12.1 
+
+ 14.0 
+
+ 9.4 
+
+ 10.2 
+
+ 6.8 
+
+Loan-to-deposit ratio (period-end balances)
+
+ 77.84 %
+
+ 78.26 %
+
+ 79.56 %
+
+ 77.51 %
+
+ 79.65 %
+
+Loan-to-deposit ratio (average balances)
+
+Full-time equivalent colleagues (period-end)
+
+ 78.82 
+
+17,398 
+
+ 79.57 
+
+17,496 
+
+ 79.72 
+
+17,677 
+
+ 80.89 
+
+17,315 
+
+ 80.88 
+
+17,287 
+
+ (42)  bps
+
+ (75)  bps
+
+(98) 
+
+ (181)  bps
+
+ (206)  bps
+
+ (1) 
+
+111 
+
+ 1 
+
+ 77.84 %
+
+ 79.65 %
+
+ 79.73 
+
+17,398 
+
+ 81.77 
+
+17,287 
+
+ (181)  bps
+
+ (204)  bps
+
+111 
+
+ 1 
+
+1Net interest margin is presented on a fully taxable-equivalent ("FTE") basis using the federal statutory tax rate of 21% to adjust for the tax-exempt status of income from certain assets held by the Company.
+
+2These are non-GAAP financial measures. For further information on these measures, refer to "Non-GAAP Financial Measures and Reconciliations." 
+
+4
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CONSOLIDATED STATEMENTS OF OPERATIONS (unaudited)  
+(dollars in millions)
+
+INTEREST INCOME
+
+Interest and fees on loans and leases
+
+Interest and fees on loans held for sale
+
+Investment securities
+
+Interest-bearing deposits in banks
+
+Total interest income
+
+INTEREST EXPENSE
+
+Deposits
+
+Short-term borrowed funds
+
+Long-term borrowed funds
+
+Total interest expense
+
+Net interest income
+
+NONINTEREST INCOME
+
+Service charges and fees
+
+Capital markets fees
+
+Wealth fees
+
+Card fees
+
+Mortgage banking fees
+
+Foreign exchange and derivative products
+
+Letter of credit and loan fees
+
+Securities gains, net
+
+Other income
+
+Total noninterest income
+
+TOTAL REVENUE
+
+Provision (benefit) for credit losses
+
+NONINTEREST EXPENSE
+
+Salaries and employee benefits
+
+Equipment and software
+
+Outside services
+
+Occupancy
+
+Other operating expense
+
+Total noninterest expense
+
+Income before income tax expense
+
+Income tax expense
+
+Net income
+
+Net income, Underlying1
+
+Net income available to common stockholders
+
+Net income available to common stockholders, 
+Underlying1
+
+4Q25
+
+3Q25
+
+2Q25
+
+1Q25
+
+4Q24
+
+3Q25
+
+4Q24
+
+2025
+
+2024
+
+2024
+
+$
+
+%
+
+$
+
+%
+
+$
+
+%
+
+QUARTERLY TRENDS
+
+4Q25 Change
+
+FULL YEAR
+
+2025 Change
+
+$1,901 
+
+$1,897 
+
+$1,851 
+
+$1,829 
+
+$1,910 
+
+22 
+
+434 
+
+89 
+
+31 
+
+433 
+
+97 
+
+36 
+
+428 
+
+92 
+
+16 
+
+418 
+
+89 
+
+21 
+
+419 
+
+112 
+
+2,446 
+
+2,458 
+
+2,407 
+
+2,352 
+
+2,462 
+
+781 
+
+— 
+
+128 
+
+909 
+
+816 
+
+5 
+
+149 
+
+970 
+
+802 
+
+9 
+
+159 
+
+970 
+
+795 
+
+8 
+
+158 
+
+961 
+
+1,537 
+
+1,488 
+
+1,437 
+
+1,391 
+
+112 
+
+140 
+
+98 
+
+86 
+
+52 
+
+34 
+
+49 
+
+7 
+
+42 
+
+620 
+
+2,157 
+
+137 
+
+716 
+
+199 
+
+148 
+
+109 
+
+171 
+
+112 
+
+166 
+
+93 
+
+87 
+
+49 
+
+42 
+
+48 
+
+2 
+
+31 
+
+630 
+
+2,118 
+
+154 
+
+705 
+
+197 
+
+161 
+
+106 
+
+166 
+
+111 
+
+105 
+
+88 
+
+90 
+
+73 
+
+41 
+
+45 
+
+5 
+
+42 
+
+600 
+
+2,037 
+
+164 
+
+681 
+
+193 
+
+169 
+
+108 
+
+168 
+
+109 
+
+100 
+
+81 
+
+83 
+
+59 
+
+39 
+
+44 
+
+7 
+
+22 
+
+544 
+
+1,935 
+
+153 
+
+696 
+
+194 
+
+155 
+
+112 
+
+157 
+
+883 
+
+1 
+
+166 
+
+1,050 
+
+1,412 
+
+109 
+
+121 
+
+75 
+
+97 
+
+60 
+
+35 
+
+45 
+
+4 
+
+28 
+
+574 
+
+1,986 
+
+162 
+
+674 
+
+193 
+
+170 
+
+112 
+
+167 
+
+1,343 
+
+1,335 
+
+1,319 
+
+1,314 
+
+1,316 
+
+677 
+
+149 
+
+$528 
+
+$528 
+
+$489 
+
+$489 
+
+629 
+
+135 
+
+$494 
+
+$494 
+
+$457 
+
+$457 
+
+554 
+
+118 
+
+$436 
+
+$436 
+
+$402 
+
+$402 
+
+468 
+
+95 
+
+$373 
+
+$373 
+
+$340 
+
+$340 
+
+508 
+
+107 
+
+$401 
+
+$412 
+
+$367 
+
+$378 
+
+$4 
+
+(9) 
+
+1 
+
+(8) 
+
+(12) 
+
+ —% 
+
+ (29) 
+
+ — 
+
+ (8) 
+
+ — 
+
+(35) 
+
+ (4) 
+
+(5) 
+
+ (100) 
+
+(21) 
+
+(61) 
+
+49 
+
+ (14) 
+
+ (6) 
+
+ 3 
+
+— 
+
+ — 
+
+(26) 
+
+ (16) 
+
+5 
+
+(1) 
+
+3 
+
+(8) 
+
+1 
+
+5 
+
+11 
+
+(10) 
+
+39 
+
+(17) 
+
+11 
+
+2 
+
+ 5 
+
+ (1) 
+
+ 6 
+
+ (19) 
+
+ 2 
+
+ 250 
+
+ 35 
+
+ (2) 
+
+ 2 
+
+ (11) 
+
+ 2 
+
+ 1 
+
+(13) 
+
+ (8) 
+
+3 
+
+5 
+
+8 
+
+48 
+
+14 
+
+$34 
+
+$34 
+
+$32 
+
+$32 
+
+ 3 
+
+ 3 
+
+ 1 
+
+ 8 
+
+ 10 
+
+ 7% 
+
+ 7% 
+
+ 7% 
+
+ 7% 
+
+($9) 
+
+ —% 
+
+$7,478 
+
+$7,948 
+
+($470) 
+
+ (6%) 
+
+1 
+
+15 
+
+(23) 
+
+(16) 
+
+ 5 
+
+ 4 
+
+ (21) 
+
+ (1) 
+
+(102) 
+
+ (12) 
+
+(1) 
+
+ (100) 
+
+(38) 
+
+(141) 
+
+125 
+
+3 
+
+19 
+
+23 
+
+(11) 
+
+(8) 
+
+(1) 
+
+4 
+
+3 
+
+14 
+
+46 
+
+171 
+
+(25) 
+
+42 
+
+6 
+
+(22) 
+
+(3) 
+
+4 
+
+27 
+
+169 
+
+42 
+
+$127 
+
+$116 
+
+$122 
+
+ (23) 
+
+ (13) 
+
+ 9 
+
+ 3 
+
+ 16 
+
+ 31 
+
+ (11) 
+
+ (13) 
+
+ (3) 
+
+ 9 
+
+ 75 
+
+ 50 
+
+ 8 
+
+ 9 
+
+ (15) 
+
+ 6 
+
+ 3 
+
+ (13) 
+
+ (3) 
+
+ 2 
+
+ 2 
+
+ 33 
+
+ 39 
+
+ 32% 
+
+ 28% 
+
+ 33% 
+
+105 
+
+1,713 
+
+367 
+
+9,663 
+
+3,194 
+
+22 
+
+594 
+
+3,810 
+
+5,853 
+
+444 
+
+511 
+
+360 
+
+346 
+
+233 
+
+156 
+
+186 
+
+22 
+
+136 
+
+77 
+
+1,658 
+
+503 
+
+10,186 
+
+3,825 
+
+15 
+
+713 
+
+4,553 
+
+5,633 
+
+420 
+
+467 
+
+294 
+
+368 
+
+209 
+
+146 
+
+175 
+
+18 
+
+79 
+
+2,394 
+
+8,247 
+
+608 
+
+2,176 
+
+7,809 
+
+687 
+
+2,798 
+
+2,657 
+
+783 
+
+633 
+
+435 
+
+662 
+
+5,311 
+
+2,328 
+
+497 
+
+$1,831 
+
+$1,831 
+
+$1,688 
+
+769 
+
+639 
+
+447 
+
+722 
+
+5,234 
+
+1,888 
+
+379 
+
+$1,509 
+
+$1,607 
+
+$1,372 
+
+28 
+
+55 
+
+(136) 
+
+(523) 
+
+(631) 
+
+7 
+
+(119) 
+
+(743) 
+
+220 
+
+24 
+
+44 
+
+66 
+
+(22) 
+
+24 
+
+10 
+
+11 
+
+4 
+
+57 
+
+218 
+
+438 
+
+ 36 
+
+ 3 
+
+ (27) 
+
+ (5) 
+
+ (16) 
+
+ 47 
+
+ (17) 
+
+ (16) 
+
+ 4 
+
+ 6 
+
+ 9 
+
+ 22 
+
+ (6) 
+
+ 11 
+
+ 7 
+
+ 6 
+
+ 22 
+
+ 72 
+
+ 10 
+
+ 6 
+
+(79) 
+
+ (11) 
+
+141 
+
+14 
+
+(6) 
+
+(12) 
+
+(60) 
+
+77 
+
+440 
+
+118 
+
+$322 
+
+$224 
+
+$316 
+
+ 5 
+
+ 2 
+
+ (1) 
+
+ (3) 
+
+ (8) 
+
+ 1 
+
+ 23 
+
+ 31 
+
+ 21% 
+
+ 14% 
+
+ 23% 
+
+$111 
+
+ 29% 
+
+$1,688 
+
+$1,470 
+
+$218 
+
+ 15% 
+
+1 These are non-GAAP financial measures. For further information on these measures, refer to "Non-GAAP Financial Measures and Reconciliations." 
+
+5
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CONSOLIDATED BALANCE SHEETS (unaudited)
+(dollars in millions, except par value)
+
+PERIOD-END BALANCES
+
+AS OF
+
+Dec 31, 2025
+
+Sept 30, 2025
+
+June 30, 2025
+
+Mar 31, 2025
+
+Dec 31, 2024
+
+DECEMBER 31, 2025 CHANGE
+
+September 30, 2025
+%
+
+$
+
+December 31, 2024
+%
+
+$
+
+ASSETS
+
+Cash and due from banks
+Interest-bearing cash and due from banks
+Interest-bearing deposits in banks
+Debt securities available for sale, at fair value
+Debt securities held to maturity
+Loans held for sale
+Loans and leases
+Less: Allowance for loan and lease losses
+
+Net loans and leases
+Premises and equipment
+Bank-owned life insurance
+Goodwill
+Other intangible assets
+Other assets1
+
+TOTAL ASSETS
+
+LIABILITIES AND STOCKHOLDERS' EQUITY
+LIABILITIES
+Deposits:
+
+Noninterest-bearing
+Interest-bearing
+Total deposits
+
+Short-term borrowed funds
+Long-term borrowed funds:
+
+FHLB advances
+Senior debt
+Subordinated debt and other debt
+Total long-term borrowed funds
+
+Other liabilities1
+
+TOTAL LIABILITIES
+STOCKHOLDERS' EQUITY
+
+Preferred stock:
+
+$1,464 
+11,263 
+961 
+35,697 
+7,933 
+1,198 
+142,692 
+(1,943) 
+140,749 
+915 
+3,441 
+8,187 
+115 
+14,428 
+
+$1,254 
+10,396 
+694 
+35,419 
+8,124 
+1,334 
+140,870 
+(1,972) 
+138,898 
+857 
+3,422 
+8,187 
+123 
+14,039 
+
+$1,107 
+7,441 
+680 
+34,658 
+8,293 
+2,093 
+139,304 
+(2,008) 
+137,296 
+855 
+3,408 
+8,187 
+129 
+14,163 
+
+$1,082 
+10,459 
+685 
+34,208 
+8,469 
+2,820 
+137,635 
+(2,014) 
+135,621 
+855 
+3,386 
+8,187 
+137 
+14,239 
+
+$1,409 
+9,192 
+635 
+32,765 
+8,599 
+858 
+139,203 
+(2,061) 
+137,142 
+875 
+3,364 
+8,187 
+146 
+14,349 
+
+$210 
+867 
+267 
+278 
+(191) 
+(136) 
+1,822 
+29 
+1,851 
+58 
+19 
+— 
+(8) 
+389 
+
+$226,351 
+
+$222,747 
+
+$218,310 
+
+$220,148 
+
+$217,521 
+
+$3,604 
+
+$40,417 
+142,896 
+183,313 
+58 
+
+2,014 
+6,328 
+2,882 
+11,224 
+5,439 
+200,034 
+
+$39,472 
+140,539 
+180,011 
+214 
+
+14 
+6,825 
+3,602 
+10,441 
+6,252 
+196,918 
+
+$38,001 
+137,085 
+175,086 
+249 
+
+1,542 
+6,821 
+4,163 
+12,526 
+5,215 
+193,076 
+
+$37,556 
+140,020 
+177,576 
+47 
+
+42 
+7,568 
+4,657 
+12,267 
+5,392 
+195,282 
+
+$36,920 
+137,856 
+174,776 
+— 
+
+53 
+7,168 
+5,180 
+12,401 
+6,090 
+193,267 
+
+$945 
+2,357 
+3,302 
+(156) 
+
+2,000 
+(497) 
+(720) 
+783 
+(813) 
+3,116 
+
+ 17% 
+ 8 
+ 38 
+ 1 
+ (2) 
+ (10) 
+ 1 
+ (1) 
+ 1 
+ 7 
+ 1 
+ — 
+ (7) 
+ 3 
+
+ 2% 
+
+ 2% 
+ 2 
+ 2 
+ (73) 
+
+NM  
+
+ (7) 
+ (20) 
+ 7 
+ (13) 
+ 2 
+
+$55 
+2,071 
+326 
+2,932 
+(666) 
+340 
+3,489 
+118 
+3,607 
+40 
+77 
+— 
+(31) 
+79 
+
+ 4% 
+
+ 23 
+ 51 
+ 9 
+ (8) 
+ 40 
+ 3 
+ (6) 
+ 3 
+ 5 
+ 2 
+ — 
+ (21) 
+ 1 
+
+$8,830 
+
+ 4% 
+
+$3,497 
+5,040 
+8,537 
+58 
+
+1,961 
+(840) 
+(2,298) 
+(1,177) 
+(651) 
+6,767 
+
+ 9% 
+ 4 
+ 5 
+ 100 
+
+NM
+ (12) 
+ (44) 
+ (9) 
+ (11) 
+ 4 
+
+$25.00 par value, 100,000,000 shares authorized for each of the periods presented
+
+2,111 
+
+2,111 
+
+2,113 
+
+2,113 
+
+2,113 
+
+— 
+
+ — 
+
+(2) 
+
+ — 
+
+Common stock: 
+$0.01 par value, 1,000,000,000 shares authorized for each of the periods presented
+Additional paid-in capital
+Retained earnings
+Treasury stock, at cost
+Accumulated other comprehensive income (loss)
+
+7 
+22,476 
+11,345 
+(7,652) 
+(1,970) 
+
+7 
+22,448 
+11,056 
+(7,526) 
+(2,267) 
+
+7 
+22,420 
+10,783 
+(7,450) 
+(2,639) 
+
+7 
+22,370 
+10,566 
+(7,249) 
+(2,941) 
+
+7 
+22,364 
+10,412 
+(7,047) 
+(3,595) 
+
+TOTAL STOCKHOLDERS' EQUITY
+
+26,317 
+
+25,829 
+
+25,234 
+
+24,866 
+
+24,254 
+
+TOTAL LIABILITIES AND STOCKHOLDERS' EQUITY
+
+$226,351 
+
+$222,747 
+
+$218,310 
+
+$220,148 
+
+$217,521 
+
+Memo: Total tangible common equity2
+
+$16,341 
+
+$15,848 
+
+$15,246 
+
+$14,867 
+
+$14,246 
+
+— 
+28 
+289 
+(126) 
+297 
+
+488 
+
+$3,604 
+
+$493 
+
+ — 
+ — 
+ 3 
+ (2) 
+ 13 
+
+ 2 
+
+ 2% 
+
+ 3% 
+
+— 
+112 
+933 
+(605) 
+1,625 
+
+2,063 
+
+$8,830 
+
+$2,095 
+
+ — 
+ 1 
+ 9 
+ (9) 
+ 45 
+
+ 9 
+
+ 4% 
+
+ 15% 
+
+1 Effective for the fourth quarter of 2025, the Company modified the presentation of its Consolidated Balance Sheets to include Derivative assets and Derivative liabilities in Other assets and Other liabilities, respectively. Prior period results 
+
+have been revised to conform to the new presentation.
+
+2 Represents a non-GAAP financial measure. For further information on this measure, refer to "Non-GAAP Financial Measures and Reconciliations." 
+
+6
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+LOANS AND DEPOSITS
+(dollars in millions)
+
+PERIOD-END BALANCES
+
+LOANS AND LEASES
+
+Commercial and industrial
+
+Commercial real estate
+
+Total commercial
+
+Residential mortgages
+
+Home equity
+
+Automobile
+
+Education
+
+Other retail
+
+Total retail
+
+Total loans and leases
+
+Loans held for sale
+
+Dec 31, 2025
+
+Sept 30, 2025
+
+June 30, 2025
+
+Mar 31, 2025
+
+Dec 31, 2024
+
+Sept 30, 2025
+
+December 31, 2024
+
+AS OF
+
+DECEMBER 31, 2025 CHANGE
+
+$
+
+%
+
+$
+
+%
+
+$49,232 
+
+$46,953 
+
+$45,412 
+
+$43,781 
+
+$42,551 
+
+24,580 
+
+73,812 
+
+35,024 
+
+19,069 
+
+2,310 
+
+8,416 
+
+4,061 
+
+68,880 
+
+$142,692 
+
+1,198 
+
+25,540 
+
+72,493 
+
+34,477 
+
+18,415 
+
+2,816 
+
+8,556 
+
+4,113 
+
+68,377 
+
+$140,870
+
+1,334 
+
+26,230 
+
+71,642 
+
+33,823 
+
+17,711 
+
+3,407 
+
+8,550 
+
+4,171 
+
+67,662 
+
+$139,304
+
+2,093 
+
+26,727 
+
+70,508 
+
+33,114 
+
+16,853 
+
+4,044 
+
+8,779 
+
+4,337 
+
+67,127 
+
+$137,635
+
+2,820 
+
+27,225 
+
+69,776 
+
+32,726 
+
+16,495 
+
+4,744 
+
+10,812 
+
+4,650 
+
+69,427 
+
+$139,203
+
+858 
+
+$2,279 
+
+(960) 
+
+1,319 
+
+547 
+
+654 
+
+(506) 
+
+(140) 
+
+(52) 
+
+503 
+
+$1,822 
+
+ 5% 
+
+ (4) 
+
+ 2 
+
+ 2 
+
+ 4 
+
+ (18) 
+
+ (2) 
+
+ (1) 
+
+ 1 
+
+ 1% 
+
+(136) 
+
+ (10) 
+
+$6,681 
+
+(2,645) 
+
+4,036 
+
+2,298 
+
+2,574 
+
+(2,434) 
+
+(2,396) 
+
+(589) 
+
+(547) 
+
+$3,489 
+
+340 
+
+$3,829 
+
+$3,497 
+
+4,182 
+
+(1,623) 
+
+4,741 
+
+ 16% 
+
+ (10) 
+
+ 6 
+
+ 7 
+
+ 16 
+
+ (51) 
+
+ (22) 
+
+ (13) 
+
+ (1) 
+
+ 3% 
+
+ 40 
+
+ 3% 
+
+ 9% 
+
+ 13 
+
+ (6) 
+
+ 9 
+
+(2,260) 
+
+ (10) 
+
+$8,537 
+
+ 5% 
+
+Loans and leases and loans held for sale
+
+$143,890 
+
+$142,204 
+
+$141,397 
+
+$140,455 
+
+$140,061 
+
+$1,686 
+
+ 1% 
+
+DEPOSITS
+
+Noninterest-bearing demand
+
+Checking with interest
+
+Savings
+
+Money market
+
+Time
+
+Total deposits
+
+$40,417 
+
+$39,472 
+
+$38,001 
+
+$37,556 
+
+$36,920 
+
+37,428 
+
+24,353 
+
+60,062 
+
+21,053 
+
+35,219 
+
+24,759 
+
+59,709 
+
+20,852 
+
+34,918 
+
+25,400 
+
+55,638 
+
+21,129 
+
+34,456 
+
+25,765 
+
+55,996 
+
+23,803 
+
+33,246 
+
+25,976 
+
+55,321 
+
+23,313 
+
+$945 
+
+2,209 
+
+(406) 
+
+353 
+
+201 
+
+$183,313 
+
+$180,011 
+
+$175,086 
+
+$177,576 
+
+$174,776 
+
+$3,302 
+
+ 2% 
+
+ 6 
+
+ (2) 
+
+ 1 
+
+ 1 
+
+ 2% 
+
+7
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+AVERAGE BALANCE SHEETS, ANNUALIZED YIELDS AND RATES
+(dollars in millions)
+
+INTEREST-EARNING ASSETS
+
+Interest-bearing cash and due from banks and deposits in banks
+
+Taxable investment securities
+
+Non-taxable investment securities
+
+Total investment securities
+
+Commercial and industrial
+
+Commercial real estate
+
+Total commercial
+
+Residential mortgages
+
+Home equity
+
+Automobile
+
+Education
+
+Other retail
+
+Total retail
+
+Total loans and leases
+
+Loans held for sale
+
+Total interest-earning assets
+
+Noninterest-earning assets
+
+TOTAL ASSETS
+
+INTEREST-BEARING LIABILITIES
+
+Checking with interest
+
+Savings
+
+Money market
+
+Time
+
+Total interest-bearing deposits
+
+Short-term borrowed funds
+
+FHLB advances
+
+Senior debt
+
+Subordinated debt and other debt
+
+Total long-term borrowed funds
+
+Total borrowed funds
+
+Total interest-bearing liabilities
+
+Noninterest-bearing demand deposits
+
+Other noninterest-bearing liabilities
+
+TOTAL LIABILITIES
+
+STOCKHOLDERS' EQUITY
+
+TOTAL LIABILITIES AND STOCKHOLDERS' EQUITY
+
+INTEREST RATE SPREAD
+
+NET INTEREST INCOME AND NET INTEREST MARGIN
+
+NET INTEREST INCOME AND NET INTEREST MARGIN, FTE1
+
+Memo: Total deposits (interest-bearing and noninterest-bearing 
+demand)
+
+Average 
+Balance
+
+  $9,156 
+
+  46,730 
+
+1 
+
+  46,731 
+
+  48,108 
+
+  25,043 
+
+  73,151 
+
+  34,752 
+
+  18,754 
+
+2,557 
+
+8,469 
+
+4,074 
+
+  68,606 
+
+  22,075 
+
+ $221,242 
+
+  $36,257 
+
+  24,477 
+
+  58,904 
+
+  21,226 
+
+  140,864 
+
+221 
+
+35 
+
+6,642 
+
+3,179 
+
+9,856 
+
+  10,077 
+
+  150,941 
+
+  38,993 
+
+5,374 
+
+  195,308 
+
+  25,934 
+
+ $221,242 
+
+4Q25
+
+QUARTERLY TRENDS
+
+3Q25
+
+4Q24
+
+3Q25
+
+4Q24
+
+4Q25 Change
+
+Interest
+
+Rate
+
+Average 
+Balance
+
+Interest
+
+Rate
+
+Average 
+Balance
+
+Interest
+
+Rate
+
+Average 
+Balance
+
+Interest
+
+Rate
+
+Average 
+Balance
+
+Interest
+
+Rate
+
+ 3.80% 
+
+  $9,015 
+
+ 4.24% 
+
+  $9,459 
+
+$112 
+
+ 4.65% 
+
+$141 
+
+($8) 
+
+(44) bps
+
+($23) 
+
+(85) bps
+
+  46,452 
+
+1 
+
+  46,453 
+
+  46,351 
+
+  25,799 
+
+  72,150 
+
+  34,134 
+
+  18,027 
+
+3,096 
+
+8,513 
+
+4,091 
+
+  67,861 
+
+$89 
+
+434 
+
+— 
+
+434 
+
+605 
+
+358 
+
+963 
+
+350 
+
+323 
+
+30 
+
+128 
+
+107 
+
+938 
+
+ 3.71 
+
+ 2.60 
+
+ 3.71 
+
+ 4.92 
+
+ 5.59 
+
+ 5.15 
+
+ 4.03 
+
+ 6.84 
+
+ 4.60 
+
+ 6.00 
+
+ 10.34 
+
+ 5.44 
+
+ 5.29 
+
+ 5.95 
+
+ 4.86 
+
+$97 
+
+433 
+
+— 
+
+433 
+
+581 
+
+380 
+
+961 
+
+339 
+
+322 
+
+35 
+
+129 
+
+111 
+
+936 
+
+ 3.71 
+
+ 2.60 
+
+ 3.71 
+
+ 4.91 
+
+ 5.76 
+
+ 5.21 
+
+ 3.98 
+
+ 7.07 
+
+ 4.44 
+
+ 5.98 
+
+  44,822 
+
+1 
+
+  44,823 
+
+  43,674 
+
+  27,681 
+
+  71,355 
+
+  32,520 
+
+  16,246 
+
+5,129 
+
+  10,949 
+
+ 10.92 
+
+4,748 
+
+  69,592 
+
+ 5.49 
+
+ 5.35 
+
+ 5.73 
+
+ 4.92 
+
+  141,757 
+
+1,901 
+
+1,523 
+
+22 
+
+  199,167 
+
+2,446 
+
+  140,011 
+
+1,897 
+
+2,119 
+
+31 
+
+  197,598 
+
+2,458 
+
+  21,519 
+
+ $219,117 
+
+  140,947 
+
+1,910 
+
+1,384 
+
+21 
+
+  196,613 
+
+2,462 
+
+  20,935 
+
+ $217,548 
+
+419 
+
+— 
+
+419 
+
+538 
+
+419 
+
+957 
+
+310 
+
+311 
+
+56 
+
+150 
+
+126 
+
+953 
+
+ 3.73 
+
+ 2.60 
+
+ 3.73 
+
+ 4.82 
+
+ 5.93 
+
+ 5.25 
+
+ 3.81 
+
+ 7.61 
+
+ 4.29 
+
+ 5.48 
+
+ 10.60 
+
+ 5.46 
+
+ 5.35 
+
+ 6.04 
+
+ 4.96 
+
+278 
+
+— 
+
+278 
+
+1,757 
+
+(756) 
+
+1,001 
+
+618 
+
+727 
+
+(539) 
+
+(44) 
+
+(17) 
+
+745 
+
+1,746 
+
+(596) 
+
+1,569 
+
+556 
+
+  $2,125 
+
+$135 
+
+ 1.48% 
+
+  $34,748 
+
+$134 
+
+ 1.54% 
+
+  $32,720 
+
+$123 
+
+ 1.49% 
+
+  $1,509 
+
+77 
+
+377 
+
+192 
+
+781 
+
+— 
+
+1 
+
+84 
+
+43 
+
+128 
+
+128 
+
+909 
+
+ 1.26 
+
+ 2.54 
+
+ 3.57 
+
+ 2.20 
+
+ 1.34 
+
+ 3.31 
+
+ 5.11 
+
+ 5.32 
+
+ 5.17 
+
+ 5.09 
+
+ 2.39 
+
+  25,001 
+
+  57,783 
+
+  20,355 
+
+  137,887 
+
+589 
+
+1,009 
+
+6,823 
+
+3,811 
+
+  11,643 
+
+  12,232 
+
+  150,119 
+
+  38,070 
+
+5,387 
+
+  193,576 
+
+  25,541 
+
+ $219,117 
+
+86 
+
+411 
+
+185 
+
+816 
+
+5 
+
+12 
+
+88 
+
+49 
+
+149 
+
+154 
+
+970 
+
+ 1.36 
+
+ 2.82 
+
+ 3.61 
+
+ 2.35 
+
+ 2.91 
+
+ 4.64 
+
+ 5.16 
+
+ 5.16 
+
+ 5.11 
+
+ 5.01 
+
+ 2.56 
+
+ 1.63 
+
+ 2.81 
+
+ 4.42 
+
+ 2.55 
+
+ 7.88 
+
+ 4.55 
+
+ 4.92 
+
+ 5.49 
+
+ 5.16 
+
+ 5.17 
+
+ 2.78 
+
+  26,237 
+
+  54,548 
+
+  24,053 
+
+  137,558 
+
+41 
+
+172 
+
+7,316 
+
+5,401 
+
+  12,889 
+
+  12,930 
+
+107 
+
+385 
+
+268 
+
+883 
+
+1 
+
+2 
+
+90 
+
+74 
+
+166 
+
+167 
+
+  150,488 
+
+1,050 
+
+  36,704 
+
+6,235 
+
+  193,427 
+
+  24,121 
+
+ $217,548 
+
+(524) 
+
+1,121 
+
+871 
+
+2,977 
+
+(368) 
+
+(974) 
+
+(181) 
+
+(632) 
+
+(1,787) 
+
+(2,155) 
+
+822 
+
+923 
+
+(13) 
+
+1,732 
+
+393 
+
+(2,638) 
+
+(61) 
+
+1 
+
+— 
+
+1 
+
+24 
+
+(22) 
+
+2 
+
+11 
+
+1 
+
+(5) 
+
+(1) 
+
+(4) 
+
+2 
+
+4 
+
+(9) 
+
+(12) 
+
+$1 
+
+(9) 
+
+(34) 
+
+7 
+
+(35) 
+
+(5) 
+
+(11) 
+
+(4) 
+
+(6) 
+
+(21) 
+
+(26) 
+
+(61) 
+
+—  
+
+—  
+
+—  
+
+1
+
+(17)
+
+(6)
+
+5
+
+(23)
+
+16
+
+2
+
+(58)
+
+(5)
+
+(6)
+
+22
+
+(6)
+
+($303) 
+
+1,908 
+
+— 
+
+1,908 
+
+4,434 
+
+1,796 
+
+2,232 
+
+2,508 
+
+(2,572) 
+
+(2,480) 
+
+(674) 
+
+(986) 
+
+810 
+
+139 
+
+2,554 
+
+1,140 
+
+  $3,694 
+
+(6)
+
+  $3,537 
+
+(10)
+
+(28)
+
+(4)
+
+(15)
+
+(157)
+
+(133)
+
+(5)
+
+16
+
+6
+
+8
+
+(17)
+
+(1,760) 
+
+4,356 
+
+(2,827) 
+
+3,306 
+
+180 
+
+(137) 
+
+(674) 
+
+(2,222) 
+
+(3,033) 
+
+(2,853) 
+
+453 
+
+2,289 
+
+(861) 
+
+1,881 
+
+1,813 
+
+15 
+
+— 
+
+15 
+
+67 
+
+6 
+
+40 
+
+12 
+
+(26) 
+
+(22) 
+
+(19) 
+
+(15) 
+
+(9) 
+
+1 
+
+(16) 
+
+$12 
+
+(30) 
+
+(8) 
+
+(76) 
+
+(102) 
+
+(1) 
+
+(1) 
+
+(6) 
+
+(31) 
+
+(38) 
+
+(39) 
+
+(141) 
+
+(2)
+
+—
+
+(2)
+
+10
+
+(34)
+
+(10)
+
+22
+
+(77)
+
+31
+
+52
+
+(26)
+
+(2)
+
+(6)
+
+(9)
+
+(10)
+
+(1)
+
+(37)
+
+(27)
+
+(85)
+
+(35)
+
+(654)
+
+(124)
+
+19
+
+(17)
+
+1
+
+(8)
+
+(39)
+
+ 2.47  %
+
+  $1,537 
+
+ 3.06 %
+
+  $1,541 
+
+ 3.07 %
+
+ 2.36  %
+
+  $1,488 
+
+ 2.99 %
+
+  $1,492 
+
+ 3.00 %
+
+ 2.18  %
+
+  $1,412 
+
+ 2.86 %
+
+  $1,416 
+
+ 2.87 %
+
+$49 
+
+$49 
+
+11
+
+7
+
+7
+
+$125 
+
+$125 
+
+29 
+
+20
+
+20
+
+ $179,857 
+
+$781 
+
+ 1.72  %  $175,957 
+
+$816 
+
+ 1.84  %  $174,262 
+
+$883 
+
+ 2.02  %   $3,900 
+
+($35) 
+
+(12) bps
+
+  $5,595 
+
+($102) 
+
+(30) bps
+
+  $2,125 
+
+  $3,694 
+
+1Net interest income and net interest margin are presented on a fully taxable-equivalent ("FTE") basis using the federal statutory tax rate of 21% to adjust for the tax-exempt status of income from certain assets held by the Company and are 
+considered non-GAAP financial measures. For further information on these measures, refer to "Non-GAAP Financial Measures and Reconciliations." 
+
+8
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+AVERAGE BALANCE SHEETS, ANNUALIZED YIELDS AND RATES
+(dollars in millions)
+
+INTEREST-EARNING ASSETS
+
+Interest-bearing cash and due from banks and deposits in banks
+
+Taxable investment securities
+
+Non-taxable investment securities
+
+Total investment securities
+
+Commercial and industrial
+
+Commercial real estate
+
+Total commercial
+
+Residential mortgages
+
+Home equity
+
+Automobile
+
+Education
+
+Other retail
+
+Total retail
+
+Total loans and leases
+
+Loans held for sale
+
+Total interest-earning assets
+
+Noninterest-earning assets
+
+TOTAL ASSETS
+
+INTEREST-BEARING LIABILITIES
+
+Checking with interest
+
+Savings
+
+Money market
+
+Time
+
+Total interest-bearing deposits
+
+Short-term borrowed funds
+
+FHLB advances
+
+Senior debt
+
+Subordinated debt and other debt
+
+Total long-term borrowed funds
+
+Total borrowed funds
+
+Total interest-bearing liabilities
+
+Noninterest-bearing demand deposits
+
+Other noninterest-bearing liabilities
+
+TOTAL LIABILITIES
+
+STOCKHOLDERS' EQUITY
+
+TOTAL LIABILITIES AND STOCKHOLDERS' EQUITY
+
+INTEREST RATE SPREAD
+
+NET INTEREST INCOME AND NET INTEREST MARGIN
+
+NET INTEREST INCOME AND NET INTEREST MARGIN, FTE1
+
+FULL YEAR
+
+2025
+
+2024
+
+2025 Change
+
+2024
+
+Average 
+Balance
+
+Interest
+
+Rate
+
+Average 
+Balance
+
+Interest
+
+Rate
+
+Average 
+Balance
+
+Interest
+
+Rate
+
+$8,624 
+
+46,449 
+
+1 
+
+46,450 
+
+45,763 
+
+26,079 
+
+71,842 
+
+33,800 
+
+17,695 
+
+3,432 
+
+9,075 
+
+4,233 
+
+68,235 
+
+140,077 
+
+1,897 
+
+197,048 
+
+21,549 
+
+$218,597 
+
+$34,397 
+
+25,189 
+
+56,475 
+
+21,875 
+
+137,936 
+
+601 
+
+675 
+
+6,908 
+
+4,073 
+
+11,656 
+
+12,257 
+
+150,193 
+
+37,746 
+
+5,557 
+
+193,496 
+
+25,101 
+
+$218,597 
+
+$367 
+
+1,713 
+
+— 
+
+1,713 
+
+2,250 
+
+1,509 
+
+3,759 
+
+1,334 
+
+1,246 
+
+153 
+
+533 
+
+453 
+
+3,719 
+
+7,478 
+
+105 
+
+9,663 
+
+$502 
+
+337 
+
+1,521 
+
+834 
+
+3,194 
+
+22 
+
+32 
+
+348 
+
+214 
+
+594 
+
+616 
+
+3,810 
+
+ 4.20% 
+
+ 3.69 
+
+ 2.60 
+
+ 3.69 
+
+ 4.85 
+
+ 5.71 
+
+ 5.16 
+
+ 3.95 
+
+ 7.04 
+
+ 4.44 
+
+ 5.87 
+
+ 10.71 
+
+ 5.45 
+
+ 5.30 
+
+ 5.55 
+
+ 4.88 
+
+$9,566 
+
+44,627 
+
+1 
+
+44,628 
+
+44,174 
+
+28,430 
+
+72,604 
+
+31,916 
+
+15,603 
+
+6,404 
+
+11,340 
+
+4,837 
+
+70,100 
+
+142,704 
+
+1,174 
+
+198,072 
+
+20,952 
+
+$219,024 
+
+ 1.46% 
+
+$32,943 
+
+ 1.34 
+
+ 2.69 
+
+ 3.81 
+
+ 2.32 
+
+ 3.62 
+
+ 4.61 
+
+ 5.05 
+
+ 5.24 
+
+ 5.09 
+
+ 5.02 
+
+ 2.54 
+
+27,100 
+
+53,053 
+
+24,967 
+
+138,063 
+
+252 
+
+1,319 
+
+6,896 
+
+5,616 
+
+13,831 
+
+14,083 
+
+152,146 
+
+36,457 
+
+6,466 
+
+195,069 
+
+23,955 
+
+$219,024 
+
+$5,853 
+
+$5,869 
+
+$3,194 
+
+ 2.34  %
+
+ 2.97 %
+
+ 2.98 %
+
+ 1.82  %  
+
+$174,520 
+
+$503 
+
+1,658 
+
+— 
+
+1,658 
+
+2,333 
+
+1,795 
+
+4,128 
+
+1,184 
+
+1,231 
+
+274 
+
+613 
+
+518 
+
+3,820 
+
+7,948 
+
+77 
+
+10,186 
+
+$491 
+
+476 
+
+1,705 
+
+1,153 
+
+3,825 
+
+15 
+
+74 
+
+333 
+
+306 
+
+713 
+
+728 
+
+4,553 
+
+$5,633 
+
+$5,650 
+
+$3,825 
+
+($942) 
+
+1,822 
+
+— 
+
+1,822 
+
+1,589 
+
+(2,351) 
+
+(762) 
+
+1,884 
+
+2,092 
+
+(2,972) 
+
+(2,265) 
+
+(604) 
+
+(1,865) 
+
+(2,627) 
+
+723 
+
+(1,024) 
+
+597 
+
+($427) 
+
+$1,454 
+
+(1,911) 
+
+3,422 
+
+(3,092) 
+
+(127) 
+
+349 
+
+(644) 
+
+12 
+
+(1,543) 
+
+(2,175) 
+
+(1,826) 
+
+(1,953) 
+
+1,289 
+
+(909) 
+
+(1,573) 
+
+1,146 
+
+($427) 
+
+ 5.17% 
+
+ 3.71 
+
+ 2.60 
+
+ 3.71 
+
+ 5.20 
+
+ 6.21 
+
+ 5.60 
+
+ 3.71 
+
+ 7.89 
+
+ 4.27 
+
+ 5.41 
+
+ 10.72 
+
+ 5.45 
+
+ 5.52 
+
+ 6.51 
+
+ 5.10 
+
+ 1.49% 
+
+ 1.76 
+
+ 3.21 
+
+ 4.62 
+
+ 2.77 
+
+ 5.73 
+
+ 5.52 
+
+ 4.84 
+
+ 5.45 
+
+ 5.15 
+
+ 5.16 
+
+ 2.99 
+
+ 2.11  %
+
+ 2.84 %
+
+ 2.85 %
+
+($136) 
+
+ (97)  bps
+
+55 
+
+— 
+
+55 
+
+(83) 
+
+(286) 
+
+(369) 
+
+150 
+
+15 
+
+(121) 
+
+(80) 
+
+(65) 
+
+(101) 
+
+(470) 
+
+28 
+
+(523) 
+
+$11 
+
+(139) 
+
+(184) 
+
+(319) 
+
+(631) 
+
+7 
+
+(42) 
+
+15 
+
+(92) 
+
+(119) 
+
+(112) 
+
+(743) 
+
+ (2) 
+
+ — 
+
+ (2) 
+
+ (35) 
+
+ (50) 
+
+ (44) 
+
+ 24 
+
+ (85) 
+
+ 17 
+
+ 46 
+
+ (1) 
+
+ — 
+
+ (22) 
+
+ (96) 
+
+ (22) 
+
+ (3) 
+
+ (42) 
+
+ (52) 
+
+ (81) 
+
+ (45) 
+
+ (211) 
+
+ (91) 
+
+ 21 
+
+ (21) 
+
+ (6) 
+
+ (14) 
+
+ (45) 
+
+$220 
+
+$219 
+
+ 23 
+
+ 13 
+
+ 13 
+
+ 2.19  %  
+
+$1,162 
+
+($631) 
+
+ (37)  bps
+
+Memo: Total deposits (interest-bearing and noninterest-bearing demand)
+
+$175,682 
+
+1 Net interest income and net interest margin are presented on a fully taxable-equivalent ("FTE") basis using the federal statutory tax rate of 21% to adjust for the tax-exempt status of income from certain assets held by the Company and are 
+
+considered non-GAAP financial measures. For further information on these measures, refer to "Non-GAAP Financial Measures and Reconciliations." 
+
+9
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+MORTGAGE BANKING FEES SUMMARY
+(dollars in millions)
+
+MORTGAGE BANKING FEES
+
+Production revenue
+
+Mortgage servicing revenue
+
+MSR valuation changes, net of hedge impact
+
+Total mortgage banking fees
+
+4Q25
+
+3Q25
+
+2Q25
+
+1Q25
+
+4Q24
+
+3Q25
+
+4Q24
+
+2025
+
+2024
+
+2024
+
+$/bps
+
+%
+
+$/bps
+
+%
+
+$/bps
+
+%
+
+QUARTERLY TRENDS
+
+4Q25 Change
+
+FULL YEAR
+
+2025 Change
+
+$19 
+
+21 
+
+12 
+
+$52 
+
+$18 
+
+29 
+
+2 
+
+$49 
+
+$19 
+
+28 
+
+26 
+
+$73 
+
+$15 
+
+32 
+
+12 
+
+$59 
+
+$14 
+
+33 
+
+13 
+
+$60 
+
+$1 
+
+(8) 
+
+10 
+
+$3 
+
+ 6% 
+
+ (28) 
+
+NM  
+
+ 6% 
+
+$5 
+
+(12) 
+
+(1) 
+
+($8) 
+
+ 36% 
+
+ (36) 
+
+ (8) 
+
+ (13%) 
+
+$71 
+
+110 
+
+52 
+
+$233 
+
+$58 
+
+134 
+
+17 
+
+$209 
+
+$13 
+
+(24) 
+
+35 
+
+$24 
+
+ 22% 
+
+ (18) 
+
+ 206 
+
+ 11% 
+
+Pull-through adjusted locks
+
+$2,486 
+
+$2,150 
+
+$2,458 
+
+$2,112 
+
+$1,543 
+
+$336 
+
+ 16% 
+
+$943 
+
+ 61% 
+
+$9,206 
+
+$6,873 
+
+$2,333 
+
+ 34% 
+
+ 0.78 %
+
+ 0.81 %
+
+ 0.78 %
+
+ 0.71 %
+
+ 0.90 %
+
+ (3)  bps
+
+ (12)  bps
+
+ 0.77% 
+
+ 0.85% 
+
+ (7)  bps
+
+Production revenue as a percentage of Pull-through 
+adjusted locks
+
+RESIDENTIAL REAL ESTATE ORIGINATIONS
+
+Retail
+
+Third Party
+
+Total
+
+Originated for sale
+
+Originated for investment
+
+Total
+
+$2,175 
+
+2,179 
+
+$4,354 
+
+$2,748 
+
+1,606 
+
+$4,354 
+
+$2,019 
+
+1,837 
+
+$3,856 
+
+$2,379 
+
+1,477 
+
+$3,856 
+
+$2,189 
+
+1,916 
+
+$4,105 
+
+$2,486 
+
+1,619 
+
+$4,105 
+
+$1,444 
+
+1,474 
+
+$2,918 
+
+$1,916 
+
+1,002 
+
+$2,918 
+
+$1,680 
+
+1,341 
+
+$3,021 
+
+$1,948 
+
+1,073 
+
+$3,021 
+
+$156 
+
+342 
+
+$498 
+
+$369 
+
+129 
+
+$498 
+
+MORTGAGE SERVICING INFORMATION (UPB)
+
+Loans serviced for others
+
+Owned loans serviced
+
+Total
+
+$94,877 
+
+35,599 
+
+$95,244 
+
+34,760 
+
+$95,422 
+
+34,284 
+
+$95,203 
+
+33,737 
+
+$95,600 
+
+33,064 
+
+  $130,476 
+
+  $130,004 
+
+  $129,706 
+
+  $128,940 
+
+  $128,664 
+
+($367)
+
+839
+
+$472
+
+ 8% 
+
+ 19 
+
+ 13% 
+
+ 16% 
+
+ 9 
+
+ 13% 
+
+ —% 
+
+ 2 
+
+ —% 
+
+$495 
+
+838 
+
+$1,333 
+
+$800 
+
+533 
+
+$1,333 
+
+($723) 
+
+2,535 
+
+$1,812 
+
+ 29% 
+
+ 62 
+
+ 44% 
+
+ 41% 
+
+ 50 
+
+ 44% 
+
+$7,827 
+
+7,406 
+
+$6,058 
+
+5,060 
+
+$15,233 
+
+$11,118 
+
+$9,529 
+
+5,704 
+
+$7,264 
+
+3,854 
+
+$15,233 
+
+$11,118 
+
+ (1%) 
+
+$94,877 
+
+ 8 
+
+35,599 
+
+$95,600 
+
+33,064 
+
+ 1% 
+
+  $130,476 
+
+  $128,664 
+
+$1,769 
+
+2,346 
+
+$4,115 
+
+$2,265 
+
+1,850 
+
+$4,115 
+
+($723) 
+
+2,535 
+
+$1,812 
+
+ 29% 
+
+ 46 
+
+ 37% 
+
+ 31% 
+
+ 48 
+
+ 37% 
+
+ (1%) 
+
+ 8 
+
+ 1% 
+
+MSR at fair value
+
+$1,455 
+
+$1,430 
+
+$1,426 
+
+$1,397 
+
+$1,491 
+
+$25 
+
+ 2% 
+
+($36) 
+
+ (2%) 
+
+$1,455 
+
+$1,491 
+
+($36) 
+
+ (2%) 
+
+10
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+SEGMENT FINANCIAL HIGHLIGHTS - CONSUMER BANKING 
+(dollars in millions)
+
+CONSUMER BANKING1
+
+Net interest income
+
+Noninterest income
+
+Total revenue
+
+Noninterest expense
+
+Profit (loss) before credit losses
+
+Net charge-offs
+
+Income (loss) before income tax expense (benefit)
+
+Income tax expense (benefit)
+
+Net income (loss)
+
+AVERAGE BALANCES
+
+Total assets
+
+Total loans and leases2
+
+Deposits
+
+Interest-earning assets
+
+KEY METRICS
+
+Net interest margin
+
+Efficiency ratio
+
+Loan-to-deposit ratio (period-end balances)
+
+Loan-to-deposit ratio (average balances)
+
+QUARTERLY TRENDS
+
+4Q25 Change
+
+FULL YEAR
+
+2025 Change
+
+4Q25
+
+3Q25
+
+2Q25
+
+1Q25
+
+4Q24
+
+3Q25
+
+4Q24
+
+2025
+
+2024
+
+2024
+
+$1,299 
+
+315 
+
+1,614 
+
+984 
+
+630 
+
+80 
+
+550 
+
+139 
+
+$1,262 
+
+311 
+
+1,573 
+
+979 
+
+594 
+
+81 
+
+513 
+
+130 
+
+$1,218 
+
+329 
+
+1,547 
+
+963 
+
+584 
+
+81 
+
+503 
+
+127 
+
+$1,193 
+
+297 
+
+1,490 
+
+954 
+
+536 
+
+86 
+
+450 
+
+114 
+
+$1,195 
+
+311 
+
+1,506 
+
+943 
+
+563 
+
+82 
+
+481 
+
+123 
+
+$/bps
+
+$37 
+
+4 
+
+41 
+
+5 
+
+36 
+
+(1) 
+
+37 
+
+9 
+
+$411 
+
+$383 
+
+$376 
+
+$336 
+
+$358 
+
+$28 
+
+%
+
+ 3% 
+
+ 1 
+
+ 3 
+
+ 1 
+
+ 6 
+
+ (1) 
+
+ 7 
+
+ 7 
+
+ 7% 
+
+$/bps
+
+$104 
+
+4 
+
+108 
+
+41 
+
+67 
+
+(2) 
+
+69 
+
+16 
+
+$53 
+
+%
+
+ 9% 
+
+$4,972 
+
+$4,564 
+
+ 1 
+
+ 7 
+
+ 4 
+
+ 12 
+
+ (2) 
+
+ 14 
+
+ 13 
+
+ 15% 
+
+1,252 
+
+6,224 
+
+3,880 
+
+2,344 
+
+328 
+
+2,016 
+
+510 
+
+1,131 
+
+5,695 
+
+3,677 
+
+2,018 
+
+331 
+
+1,687 
+
+434 
+
+$1,506 
+
+$1,253 
+
+$/bps
+
+$408 
+
+121 
+
+529 
+
+203 
+
+326 
+
+(3) 
+
+329 
+
+76 
+
+$253 
+
+$82,552 
+
+75,980 
+
+131,488 
+
+76,583 
+
+$80,729 
+
+74,274 
+
+128,547 
+
+74,870 
+
+$78,822 
+
+72,402 
+
+127,271 
+
+72,988 
+
+$77,534 
+
+71,054 
+
+125,728 
+
+71,635 
+
+$76,637 
+
+  $1,823 
+
+ 2% 
+
+  $5,915 
+
+ 8% 
+
+$79,925 
+
+$75,064 
+
+  $4,861 
+
+70,274 
+
+  1,706 
+
+124,552 
+
+  2,941 
+
+70,857 
+
+  1,713 
+
+ 2 
+
+ 2 
+
+ 2 
+
+  5,706 
+
+  6,936 
+
+  5,726 
+
+ 8 
+
+ 6 
+
+ 8 
+
+73,443 
+
+128,275 
+
+74,035 
+
+68,681 
+
+  4,762 
+
+121,745 
+
+  6,530 
+
+69,272 
+
+  4,763 
+
+ 6.73 %
+
+ 6.69 %
+
+ 6.69 %
+
+ 6.76 %
+
+ 6.72 %
+
+ 60.98 
+
+ 57.28 
+
+ 57.19 
+
+ 62.22 
+
+ 57.40 
+
+ 57.16 
+
+ 62.24 
+
+ 57.24 
+
+ 56.26 
+
+ 64.06 
+
+ 54.97 
+
+ 56.04 
+
+ 62.59 
+
+ 55.85 
+
+ 55.88 
+
+ 4  bps
+
+ (124)  bps
+
+ (12)  bps
+
+ 3  bps
+
+ 1  bps
+
+ (161)  bps
+
+ 143  bps
+
+ 131  bps
+
+ 6.72 %
+
+ 6.59 %
+
+ 62.35 
+
+ 57.28 
+
+ 56.67 
+
+ 64.55 
+
+ 55.85 
+
+ 55.92 
+
+ 13  bps
+
+ (220)  bps
+
+ 143  bps
+
+ 75  bps
+
+%
+
+ 9% 
+
+ 11 
+
+ 9 
+
+ 6 
+
+ 16 
+
+ (1) 
+
+ 20 
+
+ 18 
+
+ 20% 
+
+ 6% 
+
+ 7 
+
+ 5 
+
+ 7 
+
+1 During the fourth quarter of 2025, the Company’s Non-Core operating segment no longer met the criteria to be considered a reportable segment and, therefore, it is now reported as part of the Company’s Other non-segment operations. 
+In addition, certain activities within Other non-segment operations were transferred to the Consumer and Commercial Banking segments due to organizational changes. Prior period results were recast to conform to the new segment 
+presentation.
+
+2 Includes loans held for sale.
+
+11
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+SEGMENT FINANCIAL HIGHLIGHTS - COMMERCIAL BANKING
+(dollars in millions)
+
+COMMERCIAL BANKING1
+
+Net interest income
+
+Noninterest income
+
+Total revenue
+
+Noninterest expense
+
+Profit (loss) before credit losses
+
+Net charge-offs
+
+Income (loss) before income tax expense (benefit)
+
+Income tax expense (benefit)
+
+Net income (loss)
+
+AVERAGE BALANCES
+
+Total assets
+
+Total loans and leases2
+
+Deposits
+
+Interest-earning assets
+
+KEY METRICS
+
+Net interest margin
+
+Efficiency ratio
+
+Loan-to-deposit ratio (period-end balances)
+
+Loan-to-deposit ratio (average balances)
+
+4Q25
+
+3Q25
+
+2Q25
+
+1Q25
+
+4Q24
+
+3Q25
+
+4Q24
+
+2025
+
+2024
+
+2024
+
+QUARTERLY TRENDS
+
+4Q25 Change
+
+FULL YEAR
+
+2025 Change
+
+$450 
+
+$448 
+
+$439 
+
+$441 
+
+$464 
+
+262 
+
+712 
+
+357 
+
+355 
+
+70 
+
+285 
+
+70 
+
+286 
+
+734 
+
+333 
+
+401 
+
+78 
+
+323 
+
+75 
+
+232 
+
+671 
+
+317 
+
+354 
+
+84 
+
+270 
+
+64 
+
+215 
+
+656 
+
+327 
+
+329 
+
+77 
+
+252 
+
+56 
+
+232 
+
+696 
+
+313 
+
+383 
+
+91 
+
+292 
+
+68 
+
+$/bps
+
+%
+
+$2 
+
+(24) 
+
+(22) 
+
+24 
+
+(46) 
+
+(8) 
+
+(38) 
+
+(5) 
+
+ —% 
+
+ (8) 
+
+ (3) 
+
+ 7 
+
+ (11) 
+
+ (10) 
+
+ (12) 
+
+ (7) 
+
+$215 
+
+$248 
+
+$206 
+
+$196 
+
+$224 
+
+($33) 
+
+ (13%) 
+
+$/bps
+
+($14) 
+
+30 
+
+16 
+
+44 
+
+(28) 
+
+(21) 
+
+(7) 
+
+2 
+
+($9) 
+
+$66,750 
+
+$66,134 
+
+$66,284 
+
+$65,366 
+
+$66,787 
+
+$616 
+
+63,356 
+
+45,443 
+
+64,248 
+
+62,905 
+
+44,482 
+
+63,719 
+
+63,057 
+
+42,481 
+
+63,710 
+
+62,437 
+
+42,178 
+
+63,018 
+
+63,789 
+
+43,597 
+
+64,419 
+
+451 
+
+961 
+
+529 
+
+ 1% 
+
+ 1 
+
+ 2 
+
+ 1 
+
+($37) 
+
+(433) 
+
+  1,846 
+
+(171) 
+
+%
+
+ (3%) 
+
+$1,778 
+
+$1,950 
+
+995 
+
+2,773 
+
+1,334 
+
+1,439 
+
+309 
+
+1,130 
+
+265 
+
+$865 
+
+908 
+
+2,858 
+
+1,241 
+
+1,617 
+
+353 
+
+1,264 
+
+291 
+
+$973 
+
+$/bps
+
+($172) 
+
+87 
+
+(85) 
+
+93 
+
+(178) 
+
+(44) 
+
+(134) 
+
+(26) 
+
+%
+
+ (9%) 
+
+ 10 
+
+ (3) 
+
+ 7 
+
+ (11) 
+
+ (12) 
+
+ (11) 
+
+ (9) 
+
+($108) 
+
+ (11%) 
+
+$66,137 
+
+$68,478 
+
+  ($2,341) 
+
+62,941 
+
+43,657 
+
+63,677 
+
+65,481 
+
+  (2,540) 
+
+44,472 
+
+(815) 
+
+65,982 
+
+  (2,305) 
+
+ (3%) 
+
+ (4) 
+
+ (2) 
+
+ (3) 
+
+ 13 
+
+ 2 
+
+ 14 
+
+ (7) 
+
+ (23) 
+
+ (2) 
+
+ 3 
+
+ (4%) 
+
+ —% 
+
+ (1) 
+
+ 4 
+
+ — 
+
+ 2.78 %
+
+ 2.78 %
+
+ 2.78 %
+
+ 2.83 %
+
+ 2.86 %
+
+ 50.09 
+
+ 132.96 
+
+ 138.26 
+
+ 45.15 
+
+ 132.70 
+
+ 140.06 
+
+ 47.47 
+
+ 139.59 
+
+ 146.90 
+
+ 49.77 
+
+ 142.21 
+
+ 146.86 
+
+ 44.78 
+
+ 139.43 
+
+ 144.70 
+
+ —  bps
+
+ 494  bps
+
+ 26  bps
+
+ (180)  bps
+
+ (8)  bps
+
+ 531  bps
+
+ (647)  bps
+
+ (644)  bps
+
+ 2.79 %
+
+ 2.96 %
+
+ 48.07 
+
+ 132.96 
+
+ 142.87 
+
+ 43.40 
+
+ 139.43 
+
+ 145.95 
+
+ (17)  bps
+
+ 467  bps
+
+ (647)  bps
+
+ (308)  bps
+
+1 During the fourth quarter of 2025, the Company’s Non-Core operating segment no longer met the criteria to be considered a reportable segment and, therefore, it is now reported as part of the Company’s Other non-segment operations. 
+In addition, certain activities within Other non-segment operations were transferred to the Consumer and Commercial Banking segments due to organizational changes. Prior period results were recast to conform to the new segment 
+presentation.
+
+2 Includes loans held for sale.
+
+12
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+SEGMENT FINANCIAL HIGHLIGHTS - OTHER
+(dollars in millions)
+
+OTHER1,2
+
+Net interest income
+
+Noninterest income
+
+Total revenue
+
+Noninterest expense
+
+Profit (loss) before provision (benefit) for credit losses
+
+Provision (benefit) for credit losses
+
+Income (loss) before income tax expense (benefit)
+
+Income tax expense (benefit)
+
+Net income (loss)
+
+AVERAGE BALANCES
+
+Total assets
+
+Total loans and leases3
+
+Deposits
+
+Interest-earning assets
+
+QUARTERLY TRENDS
+
+4Q25 Change
+
+FULL YEAR
+
+2025 Change
+
+4Q25
+
+3Q25
+
+2Q25
+
+1Q25
+
+4Q24
+
+3Q25
+
+4Q24
+
+2025
+
+2024
+
+2024
+
+($212) 
+
+43 
+
+(169) 
+
+2 
+
+(171) 
+
+(13) 
+
+(158) 
+
+(60) 
+
+($98) 
+
+($222) 
+
+($220) 
+
+($243) 
+
+($247) 
+
+33 
+
+(189) 
+
+23 
+
+(212) 
+
+(5) 
+
+(207) 
+
+(70) 
+
+39 
+
+(181) 
+
+39 
+
+(220) 
+
+(1) 
+
+(219) 
+
+(73) 
+
+32 
+
+(211) 
+
+33 
+
+(244) 
+
+(10) 
+
+(234) 
+
+(75) 
+
+31 
+
+(216) 
+
+60 
+
+(276) 
+
+(11) 
+
+(265) 
+
+(84) 
+
+($137) 
+
+($146) 
+
+($159) 
+
+($181) 
+
+$
+
+$10 
+
+10 
+
+20 
+
+(21) 
+
+41 
+
+%
+
+ 5% 
+
+ 30 
+
+ 11 
+
+ (91) 
+
+ 19 
+
+(8) 
+
+ (160) 
+
+49 
+
+10 
+
+$39 
+
+ 24 
+
+ 14 
+
+ 28% 
+
+$
+
+$35 
+
+12 
+
+47 
+
+(58) 
+
+105 
+
+(2) 
+
+107 
+
+24 
+
+$83 
+
+%
+
+ 14% 
+
+ 39 
+
+ 22 
+
+ (97) 
+
+ 38 
+
+ (18) 
+
+ 40 
+
+ 29 
+
+ 46% 
+
+($897) 
+
+($881) 
+
+($16) 
+
+ (2%) 
+
+$
+
+%
+
+147 
+
+(750) 
+
+97 
+
+(847) 
+
+(29) 
+
+(818) 
+
+(278) 
+
+($540) 
+
+137 
+
+(744) 
+
+316 
+
+(1,060) 
+
+3 
+
+(1,063) 
+
+(346) 
+
+($717) 
+
+10 
+
+(6) 
+
+(219) 
+
+213 
+
+(32) 
+
+245 
+
+68 
+
+$177 
+
+ 7 
+
+ (1) 
+
+ (69) 
+
+ 20 
+
+NM
+
+ 23 
+
+ 20 
+
+ 25% 
+
+$71,940 
+
+$72,254 
+
+$72,555 
+
+$73,409 
+
+$74,124 
+
+($314) 
+
+ —% 
+
+($2,184) 
+
+ (3%) 
+
+$72,535 
+
+$75,482 
+
+($2,947) 
+
+ (4%) 
+
+3,944 
+
+2,926 
+
+58,336 
+
+4,950 
+
+2,928 
+
+59,009 
+
+6,104 
+
+4,376 
+
+59,620 
+
+7,406 
+
+4,799 
+
+60,406 
+
+8,268 
+
+6,113 
+
+61,338 
+
+(1,006) 
+
+ (20) 
+
+(2) 
+
+(673) 
+
+ — 
+
+ (1) 
+
+(4,324) 
+
+(3,187) 
+
+(3,002) 
+
+ (52) 
+
+ (52) 
+
+ (5) 
+
+5,590 
+
+3,750 
+
+59,336 
+
+9,715 
+
+8,303 
+
+62,817 
+
+(4,125) 
+
+(4,553) 
+
+(3,481) 
+
+ (42) 
+
+ (55) 
+
+ (6) 
+
+1 During the fourth quarter of 2025, the Company’s Non-Core operating segment no longer met the criteria to be considered a reportable segment and, therefore, it is now reported as part of the Company’s Other non-segment operations. 
+In addition, certain activities within Other non-segment operations were transferred to the Consumer and Commercial Banking segments due to organizational changes. Prior period results were recast to conform to the new segment 
+presentation.
+
+2 Consists primarily of treasury and community development, and includes assets, liabilities, capital, revenues, provision (benefit) for credit losses, expenses, and income tax expense (benefit) not attributed to our Consumer Banking or 
+
+Commercial Banking segments.
+
+3 Includes loans held for sale. 
+
+13
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CREDIT-RELATED INFORMATION 
+(dollars in millions)
+
+NONACCRUAL LOANS AND LEASES
+
+Commercial and industrial
+
+Commercial real estate
+
+Total commercial
+
+Residential mortgages1
+
+Home equity
+
+Automobile
+
+Education
+
+Other retail
+
+Total retail
+
+Total nonaccrual loans and leases
+
+ASSET QUALITY RATIOS
+
+Allowance for loan and lease losses to loans and leases
+
+Allowance for credit losses to loans and leases
+
+Allowance for loan and lease losses to nonaccrual loans and leases
+
+Allowance for credit losses to nonaccrual loans and leases
+
+Nonaccrual loans and leases to loans and leases
+
+1 Loans fully or partially guaranteed by the FHA, VA and USDA are classified as accruing.
+
+Dec 31, 2025
+
+Sept 30, 2025
+
+June 30, 2025
+
+Mar 31, 2025
+
+Dec 31, 2024
+
+Sept 30, 2025
+
+December 31, 2024
+
+AS OF
+
+DECEMBER 31, 2025 CHANGE
+
+$/bps/%
+
+%
+
+$/bps/%
+
+%
+
+$277 
+
+$230 
+
+$233 
+
+$283 
+
+618 
+
+895 
+
+196 
+
+319 
+
+28 
+
+20 
+
+46 
+
+609 
+
+1,504 
+
+ 1.36% 
+
+ 1.53 
+
+ 129 
+
+ 145 
+
+ 1.05 
+
+703 
+
+933 
+
+188 
+
+297 
+
+31 
+
+20 
+
+49 
+
+585 
+
+1,518 
+
+ 1.40% 
+
+ 1.56 
+
+ 130 
+
+ 145 
+
+ 1.08 
+
+706 
+
+939 
+
+198 
+
+282 
+
+34 
+
+19 
+
+52 
+
+585 
+
+1,524 
+
+ 1.44% 
+
+ 1.59 
+
+ 132 
+
+ 145 
+
+ 1.09 
+
+700 
+
+983 
+
+198 
+
+282 
+
+39 
+
+20 
+
+60 
+
+599 
+
+1,582 
+
+ 1.46% 
+
+ 1.61 
+
+ 127 
+
+ 140 
+
+ 1.15 
+
+ 20% 
+
+ (12) 
+
+ (4) 
+
+ 4 
+
+ 7 
+
+ (10) 
+
+ — 
+
+ (6) 
+
+ 4 
+
+ (1) 
+
+$241 
+
+776 
+
+1,017 
+
+192 
+
+283 
+
+48 
+
+56 
+
+68 
+
+647 
+
+1,664 
+
+ 1.48% 
+
+ 1.62 
+
+ 124 
+
+ 136 
+
+ 1.20 
+
+$47 
+
+(85) 
+
+(38) 
+
+8 
+
+22 
+
+(3) 
+
+— 
+
+(3) 
+
+24 
+
+(14) 
+
+ (4)  bps
+
+ (3)  bps
+
+ (1%) 
+
+ —% 
+
+ (3)  bps
+
+ 15% 
+
+ (20) 
+
+ (12) 
+
+ 2 
+
+ 13 
+
+ (42) 
+
+ (64) 
+
+ (32) 
+
+ (6) 
+
+ (10) 
+
+$36 
+
+(158) 
+
+(122) 
+
+4 
+
+36 
+
+(20) 
+
+(36) 
+
+(22) 
+
+(38) 
+
+(160) 
+
+ (12)  bps
+
+ (9)  bps
+
+ 5% 
+
+ 9% 
+
+ (15)  bps
+
+14
+
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CREDIT-RELATED INFORMATION, CONTINUED
+(dollars in millions)
+
+LOANS AND LEASES 90 DAYS OR MORE PAST DUE AND ACCRUING
+
+Commercial and industrial
+
+Commercial real estate
+
+Total commercial
+
+Residential mortgages1
+
+Home equity
+
+Automobile
+
+Education
+
+Other retail
+
+Total retail
+
+Total loans and leases
+
+Dec 31, 2025
+
+Sept 30, 2025
+
+June 30, 2025
+
+Mar 31, 2025
+
+Dec 31, 2024
+
+Sept 30, 2025
+
+December 31, 2024
+
+AS OF
+
+DECEMBER 31, 2025 CHANGE
+
+$/bps
+
+%
+
+$/bps
+
+%
+
+$5 
+
+20 
+
+25 
+
+141 
+
+1 
+
+— 
+
+2 
+
+— 
+
+144 
+
+$169 
+
+$39 
+
+7 
+
+46 
+
+114 
+
+— 
+
+— 
+
+2 
+
+— 
+
+116 
+
+$162 
+
+$3 
+
+60 
+
+63 
+
+128 
+
+— 
+
+— 
+
+2 
+
+1 
+
+131 
+
+$194 
+
+$9 
+
+4 
+
+13 
+
+138 
+
+— 
+
+— 
+
+3 
+
+1 
+
+142 
+
+$155 
+
+$8 
+
+6 
+
+14 
+
+179 
+
+— 
+
+— 
+
+2 
+
+1 
+
+182 
+
+$196 
+
+($34) 
+
+ (87%) 
+
+13 
+
+(21) 
+
+27 
+
+1 
+
+— 
+
+— 
+
+— 
+
+28 
+
+$7 
+
+ 186 
+
+ (46) 
+
+ 24 
+
+ 100 
+
+ — 
+
+ — 
+
+ — 
+
+ 24 
+
+ 4% 
+
+($3) 
+
+14 
+
+11 
+
+(38) 
+
+1 
+
+— 
+
+— 
+
+(1) 
+
+(38) 
+
+($27) 
+
+ (38%) 
+
+ 233 
+
+ 79 
+
+ (21) 
+
+ 100 
+
+ — 
+
+ — 
+
+ (100) 
+
+ (21) 
+
+ (14%) 
+
+1 90+ days past due and accruing includes $141 million, $114 million, $128 million, $137 million, and $172 million of loans fully or partially guaranteed by the FHA, VA, and USDA for December 31, 2025, September 30, 2025, June 30, 2025, 
+
+March 31, 2025 and December 31, 2024, respectively.
+
+15
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CREDIT-RELATED INFORMATION, CONTINUED 
+(dollars in millions)
+
+CHARGE-OFFS, RECOVERIES AND RELATED RATIOS
+
+4Q25
+
+3Q25
+
+2Q25
+
+1Q25
+
+4Q24
+
+3Q25
+
+4Q24
+
+2025
+
+2024
+
+2024
+
+$
+
+%
+
+$
+
+%
+
+$
+
+%
+
+QUARTERLY TRENDS
+
+4Q25 Change
+
+FULL YEAR
+
+2025 Change
+
+GROSS CHARGE-OFFS
+
+Commercial and industrial
+
+Commercial real estate
+
+Total commercial
+
+Residential mortgages
+
+Home equity
+
+Automobile
+
+Education
+
+Other retail
+
+Total retail
+
+Total gross charge-offs
+
+GROSS RECOVERIES
+
+Commercial and industrial
+
+Commercial real estate
+
+Total commercial
+
+Residential mortgages
+
+Home equity
+
+Automobile
+
+Education
+
+Other retail
+
+Total retail
+
+Total gross recoveries
+
+NET CHARGE-OFFS (RECOVERIES)
+
+Commercial and industrial
+
+Commercial real estate
+
+Total commercial
+
+Residential mortgages
+
+Home equity
+
+Automobile
+
+Education
+
+Other retail
+
+Total retail
+
+$22 
+
+89 
+
+111 
+
+— 
+
+6 
+
+22 
+
+33 
+
+66 
+
+127 
+
+$238 
+
+$7 
+
+7 
+
+14 
+
+1 
+
+7 
+
+12 
+
+5 
+
+10 
+
+35 
+
+$49 
+
+$15 
+
+82 
+
+97 
+
+(1) 
+
+(1) 
+
+10 
+
+28 
+
+56 
+
+92 
+
+$7 
+
+(16) 
+
+(9) 
+
+4 
+
+2 
+
+(1) 
+
+1 
+
+(5) 
+
+1 
+
+ 21% 
+
+ (28) 
+
+ (10) 
+
+NM  
+
+ 67 
+
+ (8) 
+
+ 4 
+
+ (8) 
+
+ 1 
+
+$18 
+
+(47) 
+
+(29) 
+
+5 
+
+(1) 
+
+(10) 
+
+(7) 
+
+(9) 
+
+(22) 
+
+ 82% 
+
+ (53) 
+
+ (26) 
+
+ 100 
+
+ (17) 
+
+ (45) 
+
+ (21) 
+
+ (14) 
+
+ (17) 
+
+$146 
+
+205 
+
+351 
+
+7 
+
+17 
+
+59 
+
+133 
+
+250 
+
+466 
+
+$107 
+
+312 
+
+419 
+
+4 
+
+18 
+
+94 
+
+126 
+
+262 
+
+504 
+
+$39 
+
+(107) 
+
+(68) 
+
+3 
+
+(1) 
+
+ 36% 
+
+ (34) 
+
+ (16) 
+
+ 75 
+
+ (6) 
+
+(35) 
+
+ (37) 
+
+7 
+
+(12) 
+
+(38) 
+
+ 6 
+
+ (5) 
+
+ (8) 
+
+($8) 
+
+ (4%) 
+
+($51) 
+
+ (21%) 
+
+$817 
+
+$923 
+
+($106) 
+
+ (11%) 
+
+($1) 
+
+ (14%) 
+
+$13 
+
+$31 
+
+($18) 
+
+ (58%) 
+
+$3 
+
+(2) 
+
+1 
+
+(1) 
+
+(1) 
+
+— 
+
+1 
+
+(1) 
+
+(2) 
+
+ 100% 
+
+ (67) 
+
+ 17 
+
+ (100) 
+
+ (17) 
+
+ — 
+
+ 20 
+
+ (17) 
+
+ (7) 
+
+(6) 
+
+(7) 
+
+(1) 
+
+(2) 
+
+(3) 
+
+1 
+
+(5) 
+
+(10) 
+
+ (86) 
+
+ (50) 
+
+ (100) 
+
+ (29) 
+
+ (25) 
+
+ 20 
+
+ (50) 
+
+ (29) 
+
+($1) 
+
+ (3%) 
+
+($17) 
+
+ (35%) 
+
+$4 
+
+(14) 
+
+(10) 
+
+5 
+
+3 
+
+(1) 
+
+— 
+
+(4) 
+
+3 
+
+ 13% 
+
+ (25) 
+
+ (12) 
+
+ 100 
+
+ 100 
+
+ (25) 
+
+ — 
+
+ (7) 
+
+ 4 
+
+$19 
+
+(41) 
+
+(22) 
+
+6 
+
+1 
+
+(7) 
+
+(8) 
+
+(4) 
+
+(12) 
+
+ 127% 
+
+ (50) 
+
+ (23) 
+
+NM  
+
+ 100 
+
+ (70) 
+
+ (29) 
+
+ (7) 
+
+ (13) 
+
+5 
+
+18 
+
+2 
+
+22 
+
+41 
+
+24 
+
+26 
+
+115 
+
+$133 
+
+$133 
+
+200 
+
+333 
+
+5 
+
+(5) 
+
+18 
+
+109 
+
+224 
+
+351 
+
+$684 
+
+12 
+
+43 
+
+4 
+
+25 
+
+53 
+
+21 
+
+31 
+
+134 
+
+$177 
+
+$76 
+
+300 
+
+376 
+
+— 
+
+(7) 
+
+41 
+
+105 
+
+231 
+
+370 
+
+$746 
+
+(7) 
+
+(25) 
+
+(2) 
+
+(3) 
+
+(12) 
+
+3 
+
+(5) 
+
+(19) 
+
+ (58) 
+
+ (58) 
+
+ (50) 
+
+ (12) 
+
+ (23) 
+
+ 14 
+
+ (16) 
+
+ (14) 
+
+($44) 
+
+ (25%) 
+
+$57 
+
+(100) 
+
+(43) 
+
+5 
+
+2 
+
+ 75% 
+
+ (33) 
+
+ (11) 
+
+ 100 
+
+ 29 
+
+(23) 
+
+ (56) 
+
+4 
+
+(7) 
+
+(19) 
+
+($62) 
+
+ 4 
+
+ (3) 
+
+ (5) 
+
+ (8%) 
+
+$40 
+
+$33 
+
+$39 
+
+$34 
+
+54 
+
+93 
+
+— 
+
+4 
+
+14 
+
+26 
+
+64 
+
+51 
+
+85 
+
+1 
+
+5 
+
+20 
+
+56 
+
+67 
+
+108 
+
+$201 
+
+149 
+
+$234 
+
+42 
+
+82 
+
+5 
+
+5 
+
+12 
+
+26 
+
+57 
+
+105 
+
+$187 
+
+$6 
+
+1 
+
+7 
+
+— 
+
+5 
+
+9 
+
+6 
+
+5 
+
+25 
+
+$32 
+
+$34 
+
+41 
+
+75 
+
+5 
+
+— 
+
+3 
+
+20 
+
+52 
+
+80 
+
+58 
+
+91 
+
+1 
+
+3 
+
+13 
+
+25 
+
+62 
+
+104 
+
+$195 
+
+$3 
+
+3 
+
+6 
+
+1 
+
+6 
+
+9 
+
+5 
+
+6 
+
+27 
+
+$33 
+
+$30 
+
+55 
+
+85 
+
+— 
+
+(3) 
+
+4 
+
+20 
+
+56 
+
+77 
+
+$— 
+
+1 
+
+1 
+
+— 
+
+6 
+
+11 
+
+8 
+
+8 
+
+33 
+
+$34 
+
+$39 
+
+53 
+
+92 
+
+— 
+
+(2) 
+
+3 
+
+18 
+
+56 
+
+75 
+
+$4 
+
+— 
+
+4 
+
+1 
+
+5 
+
+12 
+
+5 
+
+7 
+
+30 
+
+$34 
+
+$30 
+
+51 
+
+81 
+
+— 
+
+— 
+
+8 
+
+51 
+
+60 
+
+119 
+
+$200 
+
+16
+
+Total net charge-offs
+
+$155 
+
+$162 
+
+$167 
+
+$189 
+
+($7) 
+
+ (4%) 
+
+($34) 
+
+ (18%) 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CREDIT-RELATED INFORMATION, CONTINUED
+(dollars in millions)
+
+ANNUALIZED NET CHARGE-OFF (RECOVERY) RATES
+
+Commercial and industrial
+
+Commercial real estate
+
+Total commercial
+
+Residential mortgages
+
+Home equity
+
+Automobile
+
+Education
+
+Other retail
+
+Total retail
+
+Total loans and leases
+
+Memo: Average loans
+
+Commercial and industrial
+
+Commercial real estate
+
+Total commercial
+
+Residential mortgages
+
+Home equity
+
+Automobile
+
+Education
+
+Other retail
+
+Total retail
+
+4Q25
+
+3Q25
+
+2Q25
+
+1Q25
+
+4Q24
+
+3Q25
+
+4Q24
+
+2025
+
+2024
+
+2024
+
+$/bps
+
+%
+
+$/bps
+
+%
+
+$/bps
+
+%
+
+QUARTERLY TRENDS
+
+4Q25 Change
+
+FULL YEAR
+
+2025 Change
+
+ 0.28% 
+
+ 0.26% 
+
+ 0.35% 
+
+ 0.28% 
+
+ 0.14% 
+
+ 2  bps
+
+ 14  bps
+
+ 0.29% 
+
+ 0.17% 
+
+ 12  bps
+
+ 0.64 
+
+ 0.40 
+
+ 0.05 
+
+ — 
+
+ 0.60 
+
+ 0.94 
+
+ 5.02 
+
+ 0.46 
+
+ 0.85 
+
+ 0.47 
+
+ — 
+
+ 0.80 
+
+ 0.51 
+
+ — 
+
+ 0.77 
+
+ 0.47 
+
+ 0.01 
+
+ 1.17 
+
+ 0.54 
+
+ — 
+
+ (0.06) 
+
+ (0.05) 
+
+ (0.01) 
+
+ (0.01) 
+
+ 0.43 
+
+ 0.92 
+
+ 5.45 
+
+ 0.45 
+
+ 0.36 
+
+ 0.86 
+
+ 5.23 
+
+ 0.45 
+
+ 0.73 
+
+ 1.92 
+
+ 5.46 
+
+ 0.70 
+
+ 0.83 
+
+ 1.01 
+
+ 4.54 
+
+ 0.53 
+
+ (21) 
+
+ (7) 
+
+ 5 
+
+ 6 
+
+ 17 
+
+ 2 
+
+ (43) 
+
+ 1 
+
+ (53) 
+
+ (14) 
+
+ 5 
+
+ 1 
+
+ (23) 
+
+ (7) 
+
+ 48 
+
+ (7) 
+
+ 0.77 
+
+ 0.46 
+
+ 0.01 
+
+ 1.05 
+
+ 0.52 
+
+ — 
+
+ (0.03) 
+
+ (0.04) 
+
+ 0.54 
+
+ 1.20 
+
+ 5.29 
+
+ 0.51 
+
+ 0.65 
+
+ 0.93 
+
+ 4.75 
+
+ 0.53 
+
+ (28) 
+
+ (6) 
+
+ 1 
+
+ 1 
+
+ (11) 
+
+ 27 
+
+ 54 
+
+ (2) 
+
+ 0.43% 
+
+ 0.46% 
+
+ 0.48% 
+
+ 0.58% 
+
+ 0.53% 
+
+ (3)  bps
+
+ (10)  bps
+
+ 0.49% 
+
+ 0.52% 
+
+ (3)  bps
+
+$48,108 
+
+$46,351 
+
+$44,936 
+
+$43,599 
+
+$43,674 
+
+  $1,757 
+
+ 4% 
+
+  $4,434 
+
+27,681 
+
+(756) 
+
+ (3) 
+
+  (2,638) 
+
+25,043 
+
+73,151 
+
+34,752 
+
+18,754 
+
+2,557 
+
+8,469 
+
+4,074 
+
+25,799 
+
+72,150 
+
+34,134 
+
+18,027 
+
+3,096 
+
+8,513 
+
+4,091 
+
+26,487 
+
+71,423 
+
+33,420 
+
+17,324 
+
+3,705 
+
+8,660 
+
+4,277 
+
+68,606 
+
+67,861 
+
+67,386 
+
+27,013 
+
+70,612 
+
+32,872 
+
+16,647 
+
+4,394 
+
+10,690 
+
+4,495 
+
+69,098 
+
+71,355 
+
+  1,001 
+
+32,520 
+
+16,246 
+
+5,129 
+
+10,949 
+
+4,748 
+
+69,592 
+
+618 
+
+727 
+
+(539) 
+
+(44) 
+
+(17) 
+
+745 
+
+ 1 
+
+ 2 
+
+ 4 
+
+  1,796 
+
+  2,232 
+
+  2,508 
+
+ (17) 
+
+  (2,572) 
+
+ (1) 
+
+  (2,480) 
+
+ — 
+
+ 1 
+
+ 1% 
+
+(674) 
+
+(986) 
+
+$810 
+
+ 10% 
+
+ (10) 
+
+ 3 
+
+ 7 
+
+ 15 
+
+ (50) 
+
+ (23) 
+
+ (14) 
+
+ (1) 
+
+$45,763 
+
+$44,174 
+
+  $1,589 
+
+26,079 
+
+71,842 
+
+33,800 
+
+17,695 
+
+3,432 
+
+9,075 
+
+4,233 
+
+28,430 
+
+  (2,351) 
+
+72,604 
+
+(762) 
+
+31,916 
+
+  1,884 
+
+15,603 
+
+  2,092 
+
+6,404 
+
+  (2,972) 
+
+11,340 
+
+  (2,265) 
+
+4,837 
+
+(604) 
+
+68,235 
+
+70,100 
+
+  (1,865) 
+
+ 4% 
+
+ (8) 
+
+ (1) 
+
+ 6 
+
+ 13 
+
+ (46) 
+
+ (20) 
+
+ (12) 
+
+ (3) 
+
+ 1% 
+
+  $140,077 
+
+  $142,704 
+
+  ($2,627) 
+
+ (2%) 
+
+Total loans and leases
+
+  $141,757 
+
+  $140,011 
+
+  $138,809 
+
+  $139,710 
+
+  $140,947 
+
+  $1,746 
+
+17
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CREDIT-RELATED INFORMATION, CONTINUED
+(dollars in millions)
+
+4Q25
+
+3Q25
+
+2Q25
+
+1Q25
+
+4Q24
+
+3Q25
+
+$
+
+%
+
+4Q24
+
+$
+
+%
+
+2025
+
+2024
+
+2024
+
+$
+
+%
+
+QUARTERLY TRENDS
+
+4Q25 Change
+
+FULL YEAR
+
+2025 Change
+
+SUMMARY OF CHANGES IN THE COMPONENTS OF THE 
+ALLOWANCE FOR CREDIT LOSSES
+
+Allowance for loan and lease losses - beginning
+
+$1,972 
+
+$2,008 
+
+$2,014 
+
+$2,061 
+
+$2,079 
+
+($36) 
+
+ (2%) 
+
+($107) 
+
+ (5%) 
+
+$2,061 
+
+$2,098 
+
+($37) 
+
+ (2%) 
+
+Charge-offs:
+
+Commercial
+
+Retail 
+
+Total charge-offs
+
+Recoveries:
+
+Commercial
+
+Retail 
+
+Total recoveries
+
+Net charge-offs
+
+Provision (benefit) for loan and lease losses:
+
+Commercial
+
+Retail
+
+Total provision (benefit) for loan and lease losses
+
+82 
+
+105 
+
+187 
+
+7 
+
+25 
+
+32 
+
+155 
+
+50 
+
+76 
+
+126 
+
+91 
+
+104 
+
+195 
+
+6 
+
+27 
+
+33 
+
+162 
+
+62 
+
+64 
+
+126 
+
+93 
+
+108 
+
+201 
+
+1 
+
+33 
+
+34 
+
+167 
+
+50 
+
+111 
+
+161 
+
+85 
+
+149 
+
+234 
+
+4 
+
+30 
+
+34 
+
+200 
+
+89 
+
+64 
+
+153 
+
+111 
+
+127 
+
+238 
+
+14 
+
+35 
+
+49 
+
+189 
+
+50 
+
+121 
+
+171 
+
+(9) 
+
+1 
+
+(8) 
+
+1 
+
+(2) 
+
+(1) 
+
+(7) 
+
+ (10) 
+
+ 1 
+
+ (4) 
+
+ 17 
+
+ (7) 
+
+ (3) 
+
+ (4) 
+
+(12) 
+
+ (19) 
+
+12 
+
+— 
+
+ 19 
+
+ — 
+
+(29) 
+
+(22) 
+
+(51) 
+
+(7) 
+
+(10) 
+
+(17) 
+
+(34) 
+
+— 
+
+(45) 
+
+(45) 
+
+ (26) 
+
+ (17) 
+
+ (21) 
+
+ (50) 
+
+ (29) 
+
+ (35) 
+
+ (18) 
+
+ — 
+
+ (37) 
+
+ (26) 
+
+351 
+
+466 
+
+817 
+
+18 
+
+115 
+
+133 
+
+684 
+
+251 
+
+315 
+
+566 
+
+419 
+
+504 
+
+923 
+
+43 
+
+134 
+
+177 
+
+746 
+
+266 
+
+443 
+
+709 
+
+(68) 
+
+(38) 
+
+(106) 
+
+(25) 
+
+(19) 
+
+(44) 
+
+(62) 
+
+(15) 
+
+(128) 
+
+(143) 
+
+ (16) 
+
+ (8) 
+
+ (11) 
+
+ (58) 
+
+ (14) 
+
+ (25) 
+
+ (8) 
+
+ (6) 
+
+ (29) 
+
+ (20) 
+
+Allowance for loan and lease losses - ending
+
+$1,943 
+
+$1,972 
+
+$2,008 
+
+$2,014 
+
+$2,061 
+
+($29) 
+
+ (1%) 
+
+($118) 
+
+ (6%) 
+
+$1,943 
+
+$2,061 
+
+($118) 
+
+ (6%) 
+
+Allowance for unfunded lending commitments - 
+beginning
+
+Provision (benefit) for unfunded lending commitments
+
+Allowance for unfunded lending commitments - ending
+
+$229 
+
+11 
+
+$240 
+
+$201 
+
+28 
+
+$229 
+
+Total allowance for credit losses - ending
+
+$2,183 
+
+$2,201 
+
+$198 
+
+3 
+
+$201 
+
+$2,209 
+
+$198 
+
+— 
+
+$198 
+
+$2,212 
+
+$207 
+
+(9) 
+
+$198 
+
+$2,259 
+
+Memo: Total allowance for credit losses by product
+
+Commercial 
+
+Retail 
+
+$1,252 
+
+$1,265 
+
+$1,269 
+
+$1,312 
+
+$1,295 
+
+931 
+
+936 
+
+940 
+
+900 
+
+964 
+
+Total allowance for credit losses
+
+$2,183 
+
+$2,201 
+
+$2,209 
+
+$2,212 
+
+$2,259 
+
+$28 
+
+(17) 
+
+$11 
+
+($18) 
+
+($13) 
+
+(5) 
+
+($18) 
+
+ 14% 
+
+ (61%) 
+
+ 5% 
+
+ (1%) 
+
+ (1%) 
+
+ (1) 
+
+ (1%) 
+
+$22 
+
+20 
+
+$42 
+
+($76) 
+
+($43) 
+
+(33) 
+
+($76) 
+
+ 11% 
+
+NM  
+
+ 21% 
+
+ (3%) 
+
+$198 
+
+42 
+
+$240 
+
+$220 
+
+(22) 
+
+$198 
+
+$2,183 
+
+$2,259 
+
+ (3%) 
+
+ (3) 
+
+ (3%) 
+
+$1,252 
+
+$1,295 
+
+931 
+
+964 
+
+$2,183 
+
+$2,259 
+
+($22) 
+
+ (10%) 
+
+64 
+
+$42 
+
+($76) 
+
+($43) 
+
+(33) 
+
+($76) 
+
+NM
+
+ 21% 
+
+ (3%) 
+
+ (3%) 
+
+ (3) 
+
+ (3%) 
+
+18
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Dec 31, 2025
+
+Sept 30, 2025
+
+June 30, 2025
+
+Mar 31, 2025
+
+Dec 31, 2024
+
+Sept 30, 2025
+
+December 31, 2024
+
+2025
+
+2024
+
+2024
+
+$
+
+%
+
+$
+
+%
+
+$
+
+%
+
+AS OF
+
+DECEMBER 31, 2025 CHANGE
+
+FULL YEAR
+
+2025 Change
+
+CAPITAL AND RATIOS  
+(dollars in millions)
+
+CAPITAL RATIOS AND COMPONENTS 
+(PRELIMINARY)
+
+CET1 capital
+
+Tier 1 capital
+
+Total capital
+
+Risk-weighted assets
+
+Adjusted average assets1
+
+CET1 capital ratio
+
+Tier 1 capital ratio
+
+Total capital ratio
+
+Tier 1 leverage ratio
+
+TANGIBLE COMMON EQUITY (PERIOD-END)
+
+Common stockholders' equity
+
+Less: Goodwill
+
+Less: Other intangible assets
+
+Add: Deferred tax liabilities2
+
+$18,240 
+
+20,351 
+
+23,654 
+
+171,493 
+
+215,390 
+
+ 10.6 %
+
+ 11.9 
+
+ 13.8 
+
+ 9.4 
+
+$24,206 
+
+8,187 
+
+115 
+
+437 
+
+$18,046 
+
+20,157 
+
+23,455 
+
+168,932 
+
+213,536 
+
+ 10.7 %
+
+ 11.9 
+
+ 13.9 
+
+ 9.4 
+
+$23,718 
+
+8,187 
+
+123 
+
+440 
+
+$17,812 
+
+19,925 
+
+23,221 
+
+168,017 
+
+212,450 
+
+ 10.6 %
+
+ 11.9 
+
+ 13.8 
+
+ 9.4 
+
+$23,121 
+
+8,187 
+
+128 
+
+440 
+
+$17,751 
+
+19,864 
+
+23,156 
+
+166,908 
+
+211,119 
+
+ 10.6 %
+
+ 11.9 
+
+ 13.9 
+
+ 9.4 
+
+$22,753 
+
+8,187 
+
+137 
+
+438 
+
+$17,900 
+
+20,013 
+
+23,232 
+
+165,699 
+
+212,555 
+
+ 10.8 %
+
+ 12.1 
+
+ 14.0 
+
+ 9.4 
+
+$22,141 
+
+8,187 
+
+146 
+
+438 
+
+$194 
+
+194 
+
+199 
+
+2,561 
+
+1,854 
+
+$488 
+
+— 
+
+(8) 
+
+(3) 
+
+Total tangible common equity3
+
+$16,341 
+
+$15,848 
+
+$15,246 
+
+$14,867 
+
+$14,246 
+
+$493 
+
+TANGIBLE COMMON EQUITY (AVERAGE)
+
+Common stockholders' equity
+
+Less: Goodwill
+
+Less: Other intangible assets
+
+Add: Deferred tax liabilities2
+
+Total tangible common equity3
+
+INTANGIBLE ASSETS (PERIOD-END)
+
+Goodwill
+
+Other intangible assets
+
+Total intangible assets
+
+$23,823 
+
+8,187 
+
+120 
+
+440 
+
+$23,288 
+
+8,187 
+
+126 
+
+440 
+
+$22,494 
+
+8,187 
+
+134 
+
+438 
+
+$22,188 
+
+8,187 
+
+142 
+
+438 
+
+$22,009 
+
+8,187 
+
+136 
+
+436 
+
+$535 
+
+— 
+
+(6) 
+
+— 
+
+$15,956 
+
+$15,415 
+
+$14,611 
+
+$14,297 
+
+$14,122 
+
+$541 
+
+$8,187 
+
+115 
+
+$8,302 
+
+$8,187 
+
+123 
+
+$8,310 
+
+$8,187 
+
+128 
+
+$8,315 
+
+$8,187 
+
+137 
+
+$8,324 
+
+$8,187 
+
+146 
+
+$8,333 
+
+$— 
+
+(8) 
+
+($8) 
+
+         1 Adjusted average assets include quarterly average assets, less deductions for disallowed goodwill and other intangible assets, net of deferred taxes, and the accumulated other comprehensive 
+
+   income impact related to the adoption of post-retirement benefit plan guidance under GAAP.  
+
+         2 Deferred tax liabilities relate to tax-deductible goodwill and other intangible assets.
+         3 These are non-GAAP financial measures. For further information on these measures, refer to "Non-GAAP Financial Measures and Reconciliations." 
+
+19
+
+ 1% 
+
+ 1 
+
+ 1 
+
+ 2 
+
+ 1 
+
+ 2% 
+
+ — 
+
+ (7) 
+
+ (1) 
+
+ 3% 
+
+ 2% 
+
+ — 
+
+ (5) 
+
+ — 
+
+ 4% 
+
+ —% 
+
+ (7) 
+
+ —% 
+
+$340 
+
+338 
+
+422 
+
+5,794 
+
+2,835 
+
+ 2% 
+
+ 2 
+
+ 2 
+
+ 3 
+
+ 1 
+
+$2,065 
+
+ 9% 
+
+  $24,206 
+
+  $22,141 
+
+$2,065 
+
+— 
+
+(31) 
+
+(1) 
+
+ — 
+
+ (21) 
+
+ — 
+
+8,187 
+
+8,187 
+
+115 
+
+437 
+
+146 
+
+438 
+
+— 
+
+(31) 
+
+(1) 
+
+$2,095 
+
+ 15% 
+
+  $16,341 
+
+  $14,246 
+
+$2,095 
+
+$1,814 
+
+ 8% 
+
+  $22,954 
+
+  $21,881 
+
+$1,073 
+
+— 
+
+ — 
+
+8,187 
+
+8,187 
+
+(16) 
+
+ (12) 
+
+4 
+
+ 1 
+
+131 
+
+439 
+
+143 
+
+433 
+
+— 
+
+(12) 
+
+6 
+
+$1,834 
+
+ 13% 
+
+  $15,075 
+
+  $13,984 
+
+$1,091 
+
+ 9% 
+
+ — 
+
+ (21) 
+
+ — 
+
+ 15% 
+
+ 5% 
+
+ — 
+
+ (8) 
+
+ 1 
+
+ 8% 
+
+$— 
+
+(31) 
+
+($31) 
+
+ —% 
+
+ (21) 
+
+ —% 
+
+$8,187 
+
+$8,187 
+
+115 
+
+146 
+
+$8,302 
+
+$8,333 
+
+$— 
+
+(31) 
+
+($31) 
+
+ —% 
+
+ (21) 
+
+ —% 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NON-GAAP FINANCIAL MEASURES AND RECONCILIATIONS      
+(dollars in millions, except per share data)
+
+Non-GAAP Financial Measures
+
+This document contains non-GAAP financial measures, with those denoted as Underlying for any given reporting period excluding certain items that may occur in that period which management does not consider 
+indicative  of  the  Company’s  on-going  financial  performance.  We  believe  these  non-GAAP  financial  measures  provide  useful  information  to  investors  because  they  are  used  by  our  management  to  evaluate  our 
+operating performance and make day-to-day operating decisions. In addition, we believe those measures denoted as Underlying in any given reporting period reflect our on-going financial performance in that period 
+and, accordingly, are useful to consider in addition to our GAAP financial results. The following tables present reconciliations of our non-GAAP measures to the most directly comparable GAAP financial measures.
+
+We caution investors not to place undue reliance on such non-GAAP financial measures, but to consider them with the most directly comparable GAAP measures. Non-GAAP financial measures have limitations as 
+analytical tools and should not be considered in isolation or as a substitute for our results reported under GAAP.
+
+20
+
+NON-GAAP FINANCIAL MEASURES AND RECONCILIATIONS, CONTINUED
+(dollars in millions, except per share data)
+
+Noninterest income, Underlying:
+
+Noninterest income (GAAP)
+
+Less: Notable items
+
+Noninterest income, Underlying (non-GAAP)
+
+Total revenue, Underlying:
+
+Total revenue (GAAP)
+
+Less: Notable items
+
+Total revenue, Underlying (non-GAAP)
+
+Noninterest expense, Underlying:
+
+Noninterest expense (GAAP)
+
+Less: Notable items
+
+Noninterest expense, Underlying (non-GAAP)
+
+Pre-provision profit:
+
+Total revenue (GAAP)
+
+Less: Noninterest expense (GAAP)
+
+Pre-provision profit (non-GAAP)
+
+Pre-provision profit, Underlying:
+
+Total revenue, Underlying (non-GAAP)
+
+Less: Noninterest expense, Underlying (non-GAAP)
+
+Pre-provision profit, Underlying (non-GAAP)
+
+Income before income tax expense, Underlying:
+
+Income before income tax expense (GAAP)
+
+Less: Income (expense) before income tax expense 
+(benefit) related to notable items
+
+Income before income tax expense, Underlying (non-
+GAAP)
+
+Income tax expense, Underlying:
+
+Income tax expense (GAAP)
+
+Less: Income tax expense (benefit) related to notable 
+items
+
+Income tax expense, Underlying (non-GAAP)
+
+Net income, Underlying:
+
+Net income (GAAP)
+
+Add: Notable items, net of income tax benefit
+
+Net income, Underlying (non-GAAP)
+
+Net income available to common stockholders, 
+Underlying:
+
+A
+
+B
+
+C
+
+D
+
+E
+
+F
+
+C
+
+E
+
+D
+
+F
+
+G
+
+H
+
+I
+
+J
+
+K
+
+L
+
+Net income available to common stockholders (GAAP)
+
+M
+
+Add: Notable items, net of income tax benefit
+
+Net income available to common stockholders, 
+Underlying (non-GAAP)
+
+N
+
+4Q25
+
+3Q25
+
+2Q25
+
+1Q25
+
+4Q24
+
+3Q25
+
+4Q24
+
+2025
+
+2024
+
+2024
+
+$
+
+%
+
+$
+
+%
+
+$
+
+%
+
+QUARTERLY TRENDS
+
+4Q25 Change
+
+FULL YEAR
+
+2025 Change
+
+$620 
+
+— 
+
+$620 
+
+$630 
+
+— 
+
+$630 
+
+$600 
+
+— 
+
+$600 
+
+$544 
+
+— 
+
+$544 
+
+$574 
+
+10 
+
+$564 
+
+($10) 
+
+— 
+
+($10) 
+
+ (2%) 
+
+ — 
+
+ (2%) 
+
+$46 
+
+ 8% 
+
+$2,394 
+
+$2,176 
+
+$218 
+
+ 10% 
+
+(10) 
+
+ (100) 
+
+— 
+
+15 
+
+(15) 
+
+ (100) 
+
+$56 
+
+ 10% 
+
+$2,394 
+
+$2,161 
+
+$233 
+
+ 11% 
+
+$2,157 
+
+$2,118 
+
+$2,037 
+
+$1,935 
+
+$1,986 
+
+— 
+
+— 
+
+— 
+
+— 
+
+10 
+
+$2,157 
+
+$2,118 
+
+$2,037 
+
+$1,935 
+
+$1,976 
+
+$1,343 
+
+$1,335 
+
+$1,319 
+
+$1,314 
+
+$1,316 
+
+— 
+
+— 
+
+— 
+
+— 
+
+24 
+
+$1,343 
+
+$1,335 
+
+$1,319 
+
+$1,314 
+
+$1,292 
+
+$2,157 
+
+1,343 
+
+$814 
+
+$2,157 
+
+1,343 
+
+$814 
+
+$2,118 
+
+1,335 
+
+$783 
+
+$2,118 
+
+1,335 
+
+$783 
+
+$2,037 
+
+1,319 
+
+$718 
+
+$2,037 
+
+1,319 
+
+$718 
+
+$1,935 
+
+1,314 
+
+$621 
+
+$1,935 
+
+1,314 
+
+$621 
+
+$1,986 
+
+1,316 
+
+$670 
+
+$1,976 
+
+1,292 
+
+$684 
+
+$677 
+
+$629 
+
+$554 
+
+$468 
+
+$508 
+
+$39 
+
+— 
+
+$39 
+
+$8 
+
+— 
+
+$8 
+
+$39 
+
+8 
+
+$31 
+
+$39 
+
+8 
+
+$31 
+
+$48 
+
+ 2% 
+
+ — 
+
+ 2% 
+
+ 1% 
+
+ — 
+
+ 1% 
+
+ 2% 
+
+ 1 
+
+ 4% 
+
+ 2% 
+
+ 1 
+
+ 4% 
+
+ 8% 
+
+$171 
+
+ 9% 
+
+$8,247 
+
+$7,809 
+
+$438 
+
+ 6% 
+
+(10) 
+
+ (100) 
+
+— 
+
+15 
+
+(15) 
+
+ (100) 
+
+$8,247 
+
+$7,794 
+
+$453 
+
+$181 
+
+$27 
+
+ 9% 
+
+ 2% 
+
+(24) 
+
+ (100) 
+
+$5,311 
+
+— 
+
+$51 
+
+ 4% 
+
+$5,311 
+
+$171 
+
+27 
+
+$144 
+
+$181 
+
+51 
+
+$130 
+
+ 9% 
+
+ 2 
+
+ 21% 
+
+ 9% 
+
+ 4 
+
+ 19% 
+
+$8,247 
+
+5,311 
+
+$2,936 
+
+$8,247 
+
+5,311 
+
+$2,936 
+
+$5,234 
+
+156 
+
+$5,078 
+
+$7,809 
+
+5,234 
+
+$2,575 
+
+$7,794 
+
+5,078 
+
+$2,716 
+
+ 6% 
+
+ 1% 
+
+$77 
+
+(156) 
+
+ (100) 
+
+$233 
+
+ 5% 
+
+$438 
+
+77 
+
+$361 
+
+$453 
+
+233 
+
+$220 
+
+ 6% 
+
+ 1 
+
+ 14% 
+
+ 6% 
+
+ 5 
+
+ 8% 
+
+$169 
+
+ 33% 
+
+$2,328 
+
+$1,888 
+
+$440 
+
+ 23% 
+
+— 
+
+— 
+
+— 
+
+— 
+
+(14) 
+
+— 
+
+ — 
+
+14 
+
+ 100 
+
+— 
+
+(141) 
+
+141 
+
+ 100 
+
+$677 
+
+$629 
+
+$554 
+
+$468 
+
+$522 
+
+$48 
+
+ 8% 
+
+$155 
+
+ 30% 
+
+$2,328 
+
+$2,029 
+
+$299 
+
+ 15% 
+
+$149 
+
+— 
+
+$149 
+
+$528 
+
+— 
+
+$528 
+
+$489 
+
+— 
+
+$489 
+
+$135 
+
+— 
+
+$135 
+
+$494 
+
+— 
+
+$494 
+
+$457 
+
+— 
+
+$457 
+
+$118 
+
+— 
+
+$118 
+
+$436 
+
+— 
+
+$436 
+
+$402 
+
+— 
+
+$402 
+
+$107 
+
+(3) 
+
+$110 
+
+$401 
+
+11 
+
+$412 
+
+$367 
+
+11 
+
+$378 
+
+$95 
+
+— 
+
+$95 
+
+$373 
+
+— 
+
+$373 
+
+$340 
+
+— 
+
+$340 
+
+21
+
+— 
+
+$14 
+
+$34 
+
+— 
+
+$34 
+
+$32 
+
+— 
+
+$32 
+
+ — 
+
+ 10% 
+
+ 7% 
+
+ — 
+
+ 7% 
+
+ 7% 
+
+ — 
+
+ 7% 
+
+$14 
+
+ 10% 
+
+$42 
+
+ 39% 
+
+3 
+
+$39 
+
+ 100 
+
+ 35% 
+
+$497 
+
+— 
+
+$497 
+
+$379 
+
+$118 
+
+ 31% 
+
+(43) 
+
+$422 
+
+43 
+
+$75 
+
+ 100 
+
+ 18% 
+
+$127 
+
+ 32% 
+
+$1,831 
+
+$1,509 
+
+$322 
+
+ 21% 
+
+(11) 
+
+ (100) 
+
+— 
+
+98 
+
+(98) 
+
+ (100) 
+
+$116 
+
+ 28% 
+
+$1,831 
+
+$1,607 
+
+$224 
+
+ 14% 
+
+$122 
+
+ 33% 
+
+$1,688 
+
+$1,372 
+
+$316 
+
+ 23% 
+
+(11) 
+
+ (100) 
+
+— 
+
+98 
+
+(98) 
+
+ (100) 
+
+$111 
+
+ 29% 
+
+$1,688 
+
+$1,470 
+
+$218 
+
+ 15% 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+4Q25
+
+3Q25
+
+2Q25
+
+1Q25
+
+4Q24
+
+3Q25
+
+4Q24
+
+2025
+
+2024
+
+2024
+
+$/bps
+
+%
+
+$/bps
+
+%
+
+$/bps
+
+%
+
+QUARTERLY TRENDS
+
+4Q25 Change
+
+FULL YEAR
+
+2025 Change
+
+$2,157 
+
+1,343 
+
+$2,118 
+
+1,335 
+
+$2,037 
+
+1,319 
+
+$1,935 
+
+1,314 
+
+$1,986 
+
+1,316 
+
+$2,157 
+
+1,343 
+
+$2,118 
+
+1,335 
+
+$2,037 
+
+1,319 
+
+$1,935 
+
+1,314 
+
+$1,976 
+
+1,292 
+
+$39 
+
+8 
+
+$39 
+
+8 
+
+ 1.86% 
+
+ 0.58 
+
+ 1.28% 
+
+ 1.86% 
+
+ 0.58 
+
+ 1.28% 
+
+$171 
+
+27 
+
+$181 
+
+51 
+
+ 8.57% 
+
+ 1.97 
+
+ 6.60% 
+
+ 9.11% 
+
+ 3.90 
+
+ 5.21% 
+
+$8,247 
+
+5,311 
+
+$7,809 
+
+5,234 
+
+$438 
+
+77 
+
+$8,247 
+
+5,311 
+
+$7,794 
+
+5,078 
+
+$453 
+
+233 
+
+ 5.60% 
+
+ 1.46 
+
+ 4.14% 
+
+ 5.80% 
+
+ 4.57 
+
+ 1.23% 
+
+ 62.24% 
+
+ 62.24 
+
+ 63.03% 
+
+ 63.03 
+
+ 64.76% 
+
+ 64.76 
+
+ 67.91% 
+
+ 67.91 
+
+ 66.27% 
+
+ 65.36 
+
+ (79)  bps
+
+ (79)  bps
+
+ 28.75 %
+
+ 29.75% 
+
+ 29.41% 
+
+ 28.14% 
+
+ 28.90% 
+
+ (100)  bps
+
+ 28.75 
+
+ 29.75 
+
+ 29.41 
+
+ 28.14 
+
+ 28.54 
+
+ (100)  bps
+
+ 22.03% 
+
+ 22.03 
+
+ 21.38% 
+
+ 21.38 
+
+ 21.37% 
+
+ 21.37 
+
+ 20.26% 
+
+ 20.26 
+
+ 21.04% 
+
+ 21.17 
+
+ 65  bps
+
+ 65  bps
+
+ (403)  bps
+
+ (312)  bps
+
+ (15)  bps
+
+ 21  bps
+
+ 99  bps
+
+ 86  bps
+
+ 64.40 %
+
+ 64.40 
+
+ 67.03 %
+
+ (263)  bps
+
+ 65.15 
+
+ (75)  bps
+
+ 29.03 %
+
+ 27.86 %
+
+ 117  bps
+
+ 29.03 
+
+ 27.73 
+
+ 130  bps
+
+ 21.34 %
+
+ 21.34 
+
+ 20.06 %
+
+ 20.80 
+
+ 128  bps
+
+ 54  bps
+
+$23,823 
+
+$23,288 
+
+$22,494 
+
+$22,188 
+
+$22,009 
+
+$535 
+
+ 2% 
+
+  $1,814 
+
+ 8% 
+
+$22,954 
+
+$21,881 
+
+  $1,073 
+
+ 5% 
+
+ 8.16% 
+
+ 7.77% 
+
+ 7.18% 
+
+ 6.21% 
+
+ 6.64% 
+
+ 39  bps
+
+ 8.16 
+
+ 7.77 
+
+ 7.18 
+
+ 6.21 
+
+ 6.84 
+
+ 39  bps
+
+ 152  bps
+
+ 132  bps
+
+ 7.36 %
+
+ 6.27 %
+
+ 109  bps
+
+ 7.36 
+
+ 6.72 
+
+ 64  bps
+
+C
+
+E
+
+D
+
+F
+
+E/C
+
+F/D
+
+A/C
+
+B/D
+
+I/G
+
+J/H
+
+O
+
+M/O
+
+N/O
+
+NON-GAAP FINANCIAL MEASURES AND RECONCILIATIONS, CONTINUED
+(dollars in millions, except per share data)
+
+Operating leverage:
+
+Total revenue (GAAP)
+
+Less: Noninterest expense (GAAP)
+
+Operating leverage
+
+Operating leverage, Underlying: 
+
+Total revenue, Underlying (non-GAAP)
+
+Less: Noninterest expense, Underlying (non-GAAP)
+
+Operating leverage, Underlying (non-GAAP)
+
+Efficiency ratio and efficiency ratio, Underlying:
+
+Efficiency ratio 
+
+Efficiency ratio, Underlying (non-GAAP)
+
+Noninterest income as a % of total revenue, 
+Underlying:
+
+Noninterest income as a % of total revenue
+
+Noninterest income as a % of total revenue, 
+Underlying (non-GAAP)
+
+Effective income tax rate and effective income tax 
+rate, Underlying:
+
+Effective income tax rate
+
+Effective income tax rate, Underlying (non-GAAP)
+
+Return on average common equity and return on 
+average common equity, Underlying:
+
+Average common equity (GAAP)
+
+Return on average common equity
+
+Return on average common equity, Underlying (non-
+GAAP)
+
+Return on average tangible common equity and 
+return on average tangible common equity, 
+Underlying:
+
+Average common equity (GAAP)
+
+Less: Average goodwill (GAAP)
+
+Less: Average other intangibles (GAAP)
+
+Add: Average deferred tax liabilities related to 
+goodwill and other intangible assets (GAAP)
+
+Average total assets (GAAP)
+
+Return on average total assets
+
+Return on average total assets, Underlying (non-
+GAAP)
+
+O
+
+$23,823 
+
+$23,288 
+
+$22,494 
+
+$22,188 
+
+$22,009 
+
+$535 
+
+ 2% 
+
+  $1,814 
+
+8,187 
+
+120 
+
+8,187 
+
+126 
+
+8,187 
+
+134 
+
+8,187 
+
+142 
+
+8,187 
+
+136 
+
+440 
+
+440 
+
+438 
+
+438 
+
+436 
+
+— 
+
+(6) 
+
+— 
+
+$541 
+
+ — 
+
+ (5) 
+
+ — 
+
+— 
+
+(16) 
+
+4 
+
+ 4% 
+
+  $1,834 
+
+ 8% 
+
+ — 
+
+ (12) 
+
+ 1 
+
+ 13% 
+
+$22,954 
+
+$21,881 
+
+  $1,073 
+
+8,187 
+
+131 
+
+8,187 
+
+143 
+
+439 
+
+433 
+
+— 
+
+(12) 
+
+6 
+
+$15,075 
+
+$13,984 
+
+  $1,091 
+
+ 5% 
+
+ — 
+
+ (8) 
+
+ 1 
+
+ 8% 
+
+Average tangible common equity (non-GAAP)
+
+P
+
+$15,956 
+
+$15,415 
+
+$14,611 
+
+$14,297 
+
+$14,122 
+
+Return on average tangible common equity (non-
+GAAP)
+
+Return on average tangible common equity, 
+Underlying (non-GAAP)
+
+Return on average total assets and return on 
+average total assets, Underlying:
+
+M/P
+
+N/P
+
+ 12.18% 
+
+ 11.75% 
+
+ 11.05% 
+
+ 9.64% 
+
+ 10.36% 
+
+ 43  bps
+
+ 12.18 
+
+ 11.75 
+
+ 11.05 
+
+ 9.64 
+
+ 10.66 
+
+ 43  bps
+
+ 182  bps
+
+ 152  bps
+
+ 11.20 %
+
+ 9.81 %
+
+ 139  bps
+
+ 11.20 
+
+ 10.51 
+
+ 69  bps
+
+Q
+
+  $221,242 
+
+  $219,117 
+
+  $217,661 
+
+  $216,309 
+
+  $217,548 
+
+$2,125 
+
+ 1% 
+
+$3,694 
+
+ 2% 
+
+  $218,597 
+
+  $219,024 
+
+ 0.84 %
+
+ 0.69 %
+
+($427) 
+
+ 15  bps
+
+ —% 
+
+ 0.84 
+
+ 0.73 
+
+ 11  bps
+
+K/Q
+
+L/Q
+
+ 0.95% 
+
+ 0.90% 
+
+ 0.80% 
+
+ 0.70% 
+
+ 0.73% 
+
+ 5  bps
+
+ 0.95 
+
+ 0.90 
+
+ 0.80 
+
+ 0.70 
+
+ 0.75 
+
+ 5  bps
+
+ 22  bps
+
+ 20  bps
+
+22
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NON-GAAP FINANCIAL MEASURES AND RECONCILIATIONS, CONTINUED
+(dollars in millions, except per share data)
+
+4Q25
+
+3Q25
+
+2Q25
+
+1Q25
+
+4Q24
+
+3Q25
+
+4Q24
+
+2025
+
+2024
+
+2024
+
+$/bps
+
+%
+
+$/bps
+
+%
+
+$/bps
+
+%
+
+QUARTERLY TRENDS
+
+4Q25 Change
+
+FULL YEAR
+
+2025 Change
+
+Return on average total tangible assets and 
+return on average total tangible assets, 
+Underlying:
+
+Average total assets (GAAP)
+
+Less: Average goodwill (GAAP)
+
+Less: Average other intangibles (GAAP)
+
+Add: Average deferred tax liabilities related to 
+goodwill and other intangible assets (GAAP)
+
+Q
+
+  $221,242 
+
+  $219,117 
+
+  $217,661 
+
+  $216,309 
+
+  $217,548 
+
+$2,125 
+
+8,187 
+
+120 
+
+8,187 
+
+126 
+
+8,187 
+
+134 
+
+8,187 
+
+142 
+
+8,187 
+
+136 
+
+440 
+
+440 
+
+438 
+
+438 
+
+436 
+
+— 
+
+(6) 
+
+— 
+
+Average tangible assets (non-GAAP)
+
+R
+
+  $213,375 
+
+  $211,244 
+
+  $209,778 
+
+  $208,418 
+
+  $209,661 
+
+$2,131 
+
+ 1% 
+
+ — 
+
+ (5) 
+
+ — 
+
+ 1% 
+
+$3,694 
+
+ 2% 
+
+  $218,597 
+
+  $219,024 
+
+($427) 
+
+— 
+
+(16) 
+
+ — 
+
+ (12) 
+
+8,187 
+
+131 
+
+8,187 
+
+143 
+
+4 
+
+ 1 
+
+439 
+
+433 
+
+— 
+
+(12) 
+
+6 
+
+$3,714 
+
+ 2% 
+
+  $210,718 
+
+  $211,127 
+
+($409) 
+
+ —% 
+
+ — 
+
+ (8) 
+
+ 1 
+
+ —% 
+
+Return on average total tangible assets (non-
+GAAP)
+
+Return on average total tangible assets, 
+Underlying (non-GAAP)
+
+Book value per common share and tangible 
+book value per common share:
+
+Common shares - at period-end (GAAP)
+
+Common stockholders' equity (GAAP)
+
+Less: Goodwill (GAAP)
+
+Less: Other intangible assets (GAAP)
+
+Add: Deferred tax liabilities related to goodwill 
+and other intangible assets (GAAP)
+
+Tangible common equity (non-GAAP)
+
+Book value per common share (GAAP)
+
+Tangible book value per common share (non-
+GAAP)
+
+Net  income  per  average  common  share  -  basic 
+and  diluted  and  net 
+income  per  average 
+common share - basic and diluted, Underlying:
+
+Average common shares outstanding - basic 
+(GAAP)
+
+Average common shares outstanding - diluted 
+(GAAP)
+
+Net income per average common share - basic 
+(GAAP)
+
+Net income per average common share - diluted 
+(GAAP)
+
+Net income per average common share - basic, 
+Underlying (non-GAAP)
+
+Net income per average common share - diluted, 
+Underlying (non-GAAP)
+
+Dividend payout ratio and dividend payout 
+ratio, Underlying:
+
+Cash dividends declared and paid per common 
+share
+
+K/R
+
+L/R
+
+S
+
+T
+
+U
+
+T/S
+
+U/S
+
+V
+
+W
+
+M/V
+
+M/W
+
+N/V
+
+N/W
+
+ 0.98 %
+
+ 0.93% 
+
+ 0.83% 
+
+ 0.73% 
+
+ 0.76% 
+
+ 5  bps
+
+ 0.98 
+
+ 0.93 
+
+ 0.83 
+
+ 0.73 
+
+ 0.78 
+
+ 5  bps
+
+ 22  bps
+
+ 20  bps
+
+ 0.87 %
+
+ 0.71 %
+
+ 16  bps
+
+ 0.87 
+
+ 0.76 
+
+ 11  bps
+
+ 429,242,174 
+
+ 431,453,142 
+
+ 432,768,811 
+
+ 437,668,127 
+
+ 440,543,381 
+
+ (2,210,968) 
+
+ (1%) 
+
+ (11,301,207) 
+
+ (3%) 
+
+ 429,242,174 
+
+ 440,543,381 
+
+ (11,301,207) 
+
+ (3%) 
+
+$24,206 
+
+$23,718 
+
+$23,121 
+
+$22,753 
+
+$22,141 
+
+8,187 
+
+115 
+
+437 
+
+$16,341 
+
+$56.39 
+
+8,187 
+
+123 
+
+440 
+
+$15,848 
+
+$54.97 
+
+8,187 
+
+128 
+
+440 
+
+$15,246 
+
+$53.43 
+
+8,187 
+
+137 
+
+438 
+
+$14,867 
+
+$51.99 
+
+8,187 
+
+146 
+
+438 
+
+$14,246 
+
+$488 
+
+— 
+
+(8) 
+
+(3) 
+
+$493 
+
+ 2 
+
+ — 
+
+ (7) 
+
+ (1) 
+
+ 3% 
+
+ 3% 
+
+$2,065 
+
+— 
+
+(31) 
+
+(1) 
+
+$2,095 
+
+  $6.13 
+
+$50.26 
+
+  $1.42 
+
+38.07 
+
+36.73 
+
+35.23 
+
+33.97 
+
+32.34 
+
+1.34 
+
+ 4 
+
+5.73 
+
+ 9 
+
+ — 
+
+ (21) 
+
+ — 
+
+ 15% 
+
+ 12% 
+
+ 18 
+
+$24,206 
+
+$22,141 
+
+$2,065 
+
+8,187 
+
+115 
+
+437 
+
+$16,341 
+
+$56.39 
+
+8,187 
+
+146 
+
+438 
+
+— 
+
+(31) 
+
+(1) 
+
+$14,246 
+
+$2,095 
+
+$50.26 
+
+  $6.13 
+
+38.07 
+
+32.34 
+
+5.73 
+
+ 9 
+
+ — 
+
+ (21) 
+
+ — 
+
+ 15% 
+
+ 12% 
+
+ 18 
+
+ 429,483,110 
+
+ 431,365,552 
+
+ 433,640,210 
+
+ 438,320,757 
+
+ 440,802,738 
+
+ (1,882,442) 
+
+ —% 
+
+ (11,319,628) 
+
+ (3%) 
+
+ 433,173,162 
+
+ 450,678,038 
+
+ (17,504,876) 
+
+ (4%) 
+
+ 434,077,960 
+
+ 435,472,350 
+
+ 436,539,774 
+
+ 442,200,180 
+
+ 444,836,786 
+
+ (1,394,390) 
+
+ — 
+
+ (10,758,826) 
+
+ (2) 
+
+ 436,890,731 
+
+ 453,510,245 
+
+ (16,619,514) 
+
+ (4) 
+
+$1.14 
+
+$1.06 
+
+$0.93 
+
+$0.78 
+
+$0.83 
+
+  $0.08 
+
+1.13 
+
+1.14 
+
+1.13 
+
+1.05 
+
+1.06 
+
+1.05 
+
+0.92 
+
+0.93 
+
+0.92 
+
+0.77 
+
+0.78 
+
+0.77 
+
+0.83 
+
+0.08 
+
+0.86 
+
+0.08 
+
+0.85 
+
+0.08 
+
+ 8 
+
+ 8 
+
+ 8 
+
+ 8 
+
+  $0.31 
+
+0.30 
+
+0.28 
+
+0.28 
+
+ 37 
+
+ 36 
+
+ 33 
+
+ 33 
+
+$3.90 
+
+$3.05 
+
+  $0.85 
+
+3.86 
+
+3.90 
+
+3.86 
+
+3.03 
+
+0.83 
+
+3.26 
+
+0.64 
+
+3.24 
+
+0.62 
+
+ 28 
+
+ 27 
+
+ 20 
+
+ 19 
+
+X
+
+$0.46 
+
+$0.42 
+
+$0.42 
+
+$0.42 
+
+$0.42 
+
+  $0.04 
+
+ 10% 
+
+  $0.04 
+
+ 10% 
+
+$1.72 
+
+$1.68 
+
+  $0.04 
+
+ 2% 
+
+Dividend payout ratio
+
+Dividend payout ratio, Underlying (non-GAAP)
+
+X/(M/V)
+
+X/(N/V)
+
+ 40 %
+
+ 40 
+
+ 40 %
+
+ 40 
+
+ 45 %
+
+ 45 
+
+ 54 %
+
+ 54 
+
+ 51 %
+
+ 49 
+
+73 bps
+
+73 bps
+
+(1,025) bps
+
+(865) bps
+
+ 44 %
+
+ 44 
+
+ 55 %
+
+(1,098) bps
+
+ 52 
+
+(800) bps
+
+23
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NON-GAAP FINANCIAL MEASURES AND RECONCILIATIONS, CONTINUED
+
+(dollars in millions, except per share data)
+
+4Q25
+
+3Q25
+
+2Q25
+
+1Q25
+
+4Q24
+
+3Q25
+
+4Q24
+
+2025
+
+2024
+
+2024
+
+$/bps
+
+%
+
+$/bps
+
+%
+
+$/bps
+
+%
+
+QUARTERLY TRENDS
+
+4Q25 Change
+
+FULL YEAR
+
+2025 Change
+
+Y
+
+  $226,351 
+
+  $222,747 
+
+  $218,310 
+
+  $220,148 
+
+  $217,521 
+
+$3,604 
+
+ 2 %  
+
+$8,830 
+
+ 4% 
+
+  $226,351 
+
+  $217,521 
+
+$8,830 
+
+8,187 
+
+115 
+
+8,187 
+
+123 
+
+8,187 
+
+128 
+
+8,187 
+
+137 
+
+8,187 
+
+146 
+
+437 
+
+440 
+
+440 
+
+438 
+
+438 
+
+— 
+
+(8) 
+
+(3) 
+
+Z
+
+  $218,486 
+
+  $214,877 
+
+  $210,435 
+
+  $212,262 
+
+  $209,626 
+
+$3,609 
+
+ — 
+
+ (7) 
+
+ (1) 
+
+ 2% 
+
+— 
+
+(31) 
+
+ — 
+
+ (21) 
+
+8,187 
+
+115 
+
+8,187 
+
+146 
+
+(1) 
+
+ — 
+
+437 
+
+438 
+
+— 
+
+(31) 
+
+(1) 
+
+$8,860 
+
+ 4% 
+
+  $218,486 
+
+  $209,626 
+
+$8,860 
+
+T/Y
+
+U/Z
+
+AA
+
+BB
+
+ 10.7 %
+
+ 7.5 
+
+ 10.6 %
+
+ 7.4 
+
+ 10.6 %
+
+ 7.2 
+
+ 10.3 %
+
+ 7.0 
+
+ 10.2 %
+
+ 6.8 
+
+4 bps
+
+10 bps
+
+51 bps
+
+70 bps
+
+ 10.7 %
+
+ 7.5 
+
+ 10.2 %
+
+ 6.8 
+
+51 bps
+
+70 bps
+
+$6,098 
+
+199,167 
+
+$5,902 
+
+197,598 
+
+$5,770 
+
+196,318 
+
+$5,637 
+
+195,058 
+
+$5,620 
+
+$196 
+
+196,613 
+
+  1,569 
+
+ 3% 
+
+ 1 
+
+$478 
+
+  2,554 
+
+ 9% 
+
+ 1 
+
+$5,853 
+
+197,048 
+
+$5,633 
+
+$220 
+
+198,072 
+
+  (1,024) 
+
+AA/BB
+
+ 3.06 %
+
+ 2.99% 
+
+ 2.94% 
+
+ 2.89% 
+
+ 2.86% 
+
+ 7  bps
+
+ 20  bps
+
+ 2.97 %
+
+ 2.84 %
+
+ 13  bps
+
+ 3% 
+
+$125 
+
+ 9% 
+
+$5,853 
+
+$5,633 
+
+$220 
+
+$1,537 
+
+$1,488 
+
+$1,437 
+
+$1,391 
+
+$1,412 
+
+4 
+
+1,541 
+
+6,112 
+
+ 3.07 %
+
+4 
+
+1,492 
+
+5,919 
+
+ 3.00% 
+
+4 
+
+1,441 
+
+5,786 
+
+ 2.95% 
+
+4 
+
+1,395 
+
+5,653 
+
+ 2.90% 
+
+4 
+
+1,416 
+
+5,637 
+
+ 2.87% 
+
+$49 
+
+— 
+
+49 
+
+194 
+
+ — 
+
+ 3 
+
+ 3 
+
+— 
+
+125 
+
+475 
+
+ 7  bps
+
+ 20  bps
+
+Common equity ratio and tangible common 
+equity ratio:
+
+Total assets (GAAP)
+
+Less: Goodwill (GAAP)
+
+Less: Other intangible assets (GAAP)
+
+Add: Deferred tax liabilities related to goodwill 
+and other intangible assets (GAAP)
+
+Tangible assets (non-GAAP)
+
+Common equity ratio (GAAP)
+
+Tangible common equity ratio (non-GAAP)
+
+Net interest income and net interest margin on 
+an FTE basis:
+
+Net interest income (annualized) (GAAP)
+
+Average interest-earning assets (GAAP)
+
+Net interest margin (GAAP)
+
+Net interest income (GAAP)
+
+FTE adjustment
+
+Net interest income on an FTE basis (non-GAAP)
+
+Net interest income on an FTE basis (annualized) 
+(non-GAAP)
+
+CC
+
+Net interest margin on an FTE basis (non-GAAP)
+
+CC/BB
+
+Card fees, Underlying:
+
+Card fees (GAAP)
+
+Less: Notable items
+
+Card fees, Underlying (non-GAAP)
+
+Other income, Underlying:
+
+Other income (GAAP)
+
+Less: Notable items
+
+Other income, Underlying (non-GAAP)
+
+Salaries and employee benefits, Underlying:
+
+Salaries and employee benefits (GAAP)
+
+Less: Notable items
+
+Salaries and employee benefits, Underlying (non-
+GAAP)
+
+Equipment and software, Underlying:
+
+Equipment and software (GAAP)
+
+Less: Notable items
+
+Equipment and software, Underlying (non-GAAP)
+
+Outside services, Underlying:
+
+Outside services (GAAP)
+
+Less: Notable items
+
+Outside services, Underlying (non-GAAP)
+
+ 4 
+
+ — 
+
+ (21) 
+
+ — 
+
+ 4% 
+
+ 4% 
+
+ (1) 
+
+ 4% 
+
+ (6) 
+
+ 4 
+
+ 4 
+
+ (6%) 
+
+ (100) 
+
+ 1% 
+
+ 72% 
+
+ 100 
+
+ 55% 
+
+ 5% 
+
+ (100) 
+
+ 7% 
+
+ 2% 
+
+ (100) 
+
+ 4% 
+
+ (1%) 
+
+ (100) 
+
+ 4% 
+
+ — 
+
+ 9 
+
+ 8 
+
+ (11%) 
+
+ (100) 
+
+ —% 
+
+ 50% 
+
+ 100 
+
+ 45% 
+
+16 
+
+5,869 
+
+5,869 
+
+ 2.98 %
+
+$346 
+
+— 
+
+$346 
+
+$136 
+
+— 
+
+$136 
+
+17 
+
+5,650 
+
+5,650 
+
+ 2.85 %
+
+$368 
+
+24 
+
+$344 
+
+$79 
+
+(9) 
+
+$88 
+
+ 6% 
+
+$2,798 
+
+$2,657 
+
+ (100) 
+
+— 
+
+46 
+
+(1) 
+
+219 
+
+219 
+
+ 13  bps
+
+($22) 
+
+(24) 
+
+$2 
+
+$57 
+
+9 
+
+$48 
+
+$141 
+
+(46) 
+
+ 9% 
+
+$2,798 
+
+$2,611 
+
+$187 
+
+ 3% 
+
+ (100) 
+
+ 5% 
+
+ (13%) 
+
+ (100) 
+
+ (11%) 
+
+$783 
+
+— 
+
+$783 
+
+$633 
+
+— 
+
+$633 
+
+$769 
+
+17 
+
+$752 
+
+$639 
+
+28 
+
+$611 
+
+$14 
+
+(17) 
+
+$31 
+
+($6) 
+
+(28) 
+
+$22 
+
+$86 
+
+— 
+
+$86 
+
+$42 
+
+— 
+
+$42 
+
+$716 
+
+— 
+
+$716 
+
+$199 
+
+— 
+
+$199 
+
+$148 
+
+— 
+
+$148 
+
+$87 
+
+— 
+
+$87 
+
+$31 
+
+— 
+
+$31 
+
+$705 
+
+— 
+
+$705 
+
+$197 
+
+— 
+
+$197 
+
+$161 
+
+— 
+
+$161 
+
+$90 
+
+— 
+
+$90 
+
+$42 
+
+— 
+
+$42 
+
+$681 
+
+— 
+
+$681 
+
+$193 
+
+— 
+
+$193 
+
+$169 
+
+— 
+
+$169 
+
+$97 
+
+11 
+
+$86 
+
+$28 
+
+(1) 
+
+$29 
+
+$674 
+
+17 
+
+$657 
+
+$193 
+
+3 
+
+$190 
+
+$170 
+
+4 
+
+$166 
+
+($1) 
+
+— 
+
+($1) 
+
+$11 
+
+— 
+
+$11 
+
+$11 
+
+— 
+
+$11 
+
+$2 
+
+— 
+
+$2 
+
+($13) 
+
+— 
+
+($13) 
+
+ (1%) 
+
+($11) 
+
+ — 
+
+ (1%) 
+
+ 35% 
+
+ — 
+
+ 35% 
+
+ 2% 
+
+ — 
+
+ 2% 
+
+ 1% 
+
+ — 
+
+ 1% 
+
+(11) 
+
+$— 
+
+$14 
+
+1 
+
+$13 
+
+$42 
+
+(17) 
+
+$59 
+
+$6 
+
+(3) 
+
+$9 
+
+ (8%) 
+
+($22) 
+
+ — 
+
+(4) 
+
+ (8%) 
+
+($18) 
+
+$83 
+
+— 
+
+$83 
+
+$22 
+
+— 
+
+$22 
+
+$696 
+
+— 
+
+$696 
+
+$194 
+
+— 
+
+$194 
+
+$155 
+
+— 
+
+$155 
+
+24
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NON-GAAP FINANCIAL MEASURES AND RECONCILIATIONS, CONTINUED
+
+(dollars in millions, except per share data)
+
+Occupancy, Underlying:
+
+Occupancy (GAAP)
+
+Less: Notable items
+
+Occupancy, Underlying (non-GAAP)
+
+Other operating expense, Underlying:
+
+Other operating expense (GAAP)
+
+Less: Notable items
+
+Other operating expense, Underlying (non-GAAP)
+
+4Q25
+
+3Q25
+
+2Q25
+
+1Q25
+
+4Q24
+
+3Q25
+
+4Q24
+
+2025
+
+2024
+
+2024
+
+$/bps
+
+%
+
+$/bps
+
+%
+
+$/bps
+
+%
+
+QUARTERLY TRENDS
+
+4Q25 Change
+
+FULL YEAR
+
+2025 Change
+
+$109 
+
+— 
+
+$109 
+
+$171 
+
+— 
+
+$171 
+
+$106 
+
+— 
+
+$106 
+
+$166 
+
+— 
+
+$166 
+
+$108 
+
+— 
+
+$108 
+
+$168 
+
+— 
+
+$168 
+
+$112 
+
+— 
+
+$112 
+
+$157 
+
+— 
+
+$157 
+
+$112 
+
+5 
+
+$107 
+
+$167 
+
+(5) 
+
+$172 
+
+$3 
+
+— 
+
+$3 
+
+$5 
+
+— 
+
+$5 
+
+ 3% 
+
+ — 
+
+ 3% 
+
+ 3% 
+
+ — 
+
+ 3% 
+
+($3) 
+
+ (3%) 
+
+(5) 
+
+ (100) 
+
+$2 
+
+$4 
+
+5 
+
+ 2% 
+
+ 2% 
+
+ 100 
+
+($1) 
+
+ (1%) 
+
+$435 
+
+— 
+
+$435 
+
+$662 
+
+— 
+
+$662 
+
+$447 
+
+19 
+
+$428 
+
+$722 
+
+46 
+
+$676 
+
+($12) 
+
+ (3%) 
+
+(19) 
+
+ (100) 
+
+$7 
+
+ 2% 
+
+($60) 
+
+ (8%) 
+
+(46) 
+
+ (100) 
+
+($14) 
+
+ (2%) 
+
+25
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+

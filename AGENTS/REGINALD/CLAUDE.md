@@ -172,6 +172,7 @@ Metropolitan Capital failed with 61% true CRE (labeled 10.7%). Three masking lev
 
 | File | Purpose |
 |------|---------|
+| `THESIS.md` | Master convergence thesis — 8 channels, 3-layer architecture, dual failure channels, target theses, confirmation/invalidation. |
 | `STATUS.md` | Live state — sub-agent dashboard, FHLB, watchlist. **Primary memory.** ≤250 lines. |
 | `LESSONS.md` | Mistake patterns — read at boot |
 | `inbox/` | Inbound signals from other agents. Process when spawned for it. |
