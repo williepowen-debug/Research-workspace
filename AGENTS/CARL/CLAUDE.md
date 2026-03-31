@@ -133,7 +133,7 @@ When new consumer data arrives, always disaggregate:
 
 ## CONVERGENCE MATRIX
 
-Consumer stress converts to systemic risk when multiple vectors fire simultaneously. Convergence score: **44/50 CRITICAL** (see STATUS.md for full 10-vector breakdown).
+Consumer stress converts to systemic risk when multiple vectors fire simultaneously. Convergence score: **46/50 CRITICAL** (see STATUS.md for full 10-vector breakdown).
 
 | Vector | Status | Weight |
 |--------|--------|--------|

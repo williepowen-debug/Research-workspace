@@ -92,7 +92,7 @@ NFP -92K confirmed but claims benign (210K initial, 1,819K continuing). **JOLTS 
 
 ---
 
-## Convergence Score: 44/50
+## Convergence Score: 46/50
 
 | # | Vector | Score | Trend |
 |---|--------|-------|-------|
@@ -100,14 +100,14 @@ NFP -92K confirmed but claims benign (210K initial, 1,819K continuing). **JOLTS 
 | 2 | Subprime Auto 60+ | 5 | BREACHED, stable at max |
 | 3 | Fannie MF DQ → GFC | 4 | Imminent |
 | 4 | Student Loan 90+ | 4 | Stable |
-| 5 | Gas Price Squeeze | 5 | Active, max |
-| 6 | UI Exhaustion Wave | 4 | Confirmed, executing |
+| 5 | Gas Price Squeeze | 5 | $4.02 BREACHED, max |
+| 6 | UI Exhaustion Wave | 5 | Duration +2.0wk single month, cont claims drop = exhaustion, DOGE 260K+ |
 | 7 | FL Triple Squeeze | 4 | Strengthening (outmigration) |
 | 8 | Reverse Wealth Effect | 5 | Active, max |
 | 9 | K-Shape Converging | 5 | Active, max |
-| 10 | Foreclosure + Housing | 4 | STRENGTHENING (47/50 cities) |
+| 10 | Foreclosure + Housing | 4 | STRENGTHENING (878K pipeline, cure rates -40%) |
 
-**Composition note (Mar 31 update):** Gas $4.02 BREACHED (behavioral breakpoint confirmed). SPR failing. 878K mortgages in 90+/foreclosure (+25% in 4 months), cure rates -40%. RV market collapse (50% value loss) confirms reverse wealth effect on upper income. Retail investor near net-negative (JPM). Stagflation in published data (PCE 3.1%, GDP 0.7%). GDPNow dropped to 2.0%. Triple nitrogen seizure all three sources confirmed offline + ICE ag labor removal = dual food CPI channels. SYF DQ rising MoM (stress moving up quality stack). Insurance cooling (auto 5.9%, homeowners decelerating) provides partial offset. Score holds at 44 — multiple vectors strengthened but insurance relief prevents increase. Load-bearing walls: energy + food + UI exhaustion + housing pipeline.
+**Composition note (Mar 31 update):** Gas $4.02 BREACHED. SPR failing. UI exhaustion upgraded 4→5: duration spiked +2.0wk in single month to 25.7wk (4-yr high), continuing claims dropping to 2-yr low reinterpreted as exhaustion not recovery, DOGE 260K+ cuts layered on. 878K mortgages in 90+/foreclosure (+25% in 4 months), cure rates -40%. RV collapse (50% value loss) confirms reverse wealth effect. Stagflation in published data (PCE 3.1%, GDP 0.7%). GDPNow dropped to 2.0%. Triple nitrogen seizure all three sources confirmed + ICE ag labor removal = dual food CPI channels. SYF DQ rising MoM. Insurance cooling (auto 5.9%, homeowners decelerating) provides partial offset but outweighed by upgrades. Load-bearing walls: energy + food + UI exhaustion + housing pipeline.
 
 ---
 
