@@ -153,16 +153,9 @@
 
 ---
 
-## THESIS — MAR 26
+## THESIS
 
-**Core thesis: ESCALATING STRESS. Multiple simultaneous triggers loading.**
-
-1. **Rate differential compression** — Shunto 5.26% green-lights BOJ. Ueda removed growth precondition. May 1 hike base case. April still live.
-2. **Oil-in-yen structural + ESCALATING** — Dimona strike ends ceasefire game. Dimona→Fordow→Kharg = main sequence. SK run cuts April = Asia-Pacific product shortage feeding back into Japan CPI. Oil relief of Mar 25 = false dawn.
-3. **FY-end repatriation winding down** — bulk done Feb, final adjustment Mar 25-31. Removes one tailwind from near-term JPY.
-4. **NEW: Fed cut independent path** — Private credit cascade (APO/ARES gated) = recession signal. If Fed cuts into risk-off, USD/JPY collapses independently of BOJ. Sub-145 possible on this path.
-
-**Intervention paradox unchanged:** USD/JPY 63 pips from 160. MOF sells USD → accelerates carry unwind. MOF doesn't act → yen weakens on oil → forces more repatriation. Either path leads to unwind.
+**See `thesis/THESIS.md` (v1.0) for full thesis, transmission channels, and thresholds.**
 
 **FXY: 4 shares starter position. 🔴 ENTRY DECISION CARD ISSUED — see below.**
 
