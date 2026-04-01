@@ -5,39 +5,30 @@
 ---
 
 ## QUICKSTART
-Scenario D **82%**. War Day 31. Brent **$108-112**. Gas **$4 BREACHED 🔴**. HY OAS **342**. CCC OAS **1013** (but **concentrated** — cable/media/healthcare/software, NOT broad systemic; see CHANGELOG). CCC/HY ratio **2.96** (downgraded as indicator). Thesis confidence **80%** (was 85%).
+Scenario D **82%**. War Day 32. Brent **$103** (eased from $108). Gas **$3.99** (at $4 breakpoint). HY OAS **346** 🔴 (widening). CCC OAS **1020** 🔴🔴 (concentrated — cable/media/healthcare/software, NOT broad systemic). CCC/HY ratio ~**2.95** (downgraded as indicator). Thesis confidence **80%**.
 
-**TIMING THESIS BUILT.** `FORGE/timing/thesis/` — NARRATIVE, TIMELINE, PREDICTIONS (22 calls), CHANGELOG, LECTURE. Plus `FORGE/timing/STATUS.md`. CCC sector decomposition completed (3 sources). Thesis now rests on **transmission channels** not CCC as standalone.
-
-**Key change today:** CCC/HY ratio downgraded from "most important finding" to "partially distorted signal." 2015-16 energy analog for CCC, not 2007 GFC. Five of six convergence pillars remain intact.
+**TODAY = APR 1.** OWL $9.5P expires TOMORROW (Apr 2) — decision needed. Treasury + insurance regulators meeting today (PC Stage 3 signal). Tankan survey today (BOJ hike signal).
 
 **Do NOT spawn SAM, REGINALD, or CARL** — they run independently on Claude Code. Inbox files only.
+**Calendar sync broken** — Google OAuth token expired, needs re-auth (non-urgent).
 
 ## Handoff
-**Last context:** Major thesis-building session in `FORGE/timing/`. Built thesis subfolder, then ran CCC decomposition research that **downgraded** CCC/HY ratio as systemic indicator. Confidence 85%→80%.
-**What happened today (Mar 31):**
-- Built `FORGE/timing/STATUS.md` — monitoring dashboard for timing research
-- Built `FORGE/timing/thesis/` subfolder: NARRATIVE.md, TIMELINE.md, PREDICTIONS.md (22 calls), CHANGELOG.md, LECTURE.md (TTS script)
-- **CCC SECTOR DECOMPOSITION (critical finding):** Three independent analyses (Perplexity, Claude, Gemini) all show CCC at 1013bp is concentrated in cable/media (~24-30%), healthcare (~15%), software (~5-8%) — NOT broad systemic. Ex-software CCC OAS ~930-960bp. Ex-software+cable ~650-780bp. 2015-16 energy analog, not 2007 GFC. **Thesis adjusted accordingly.** Logged in CHANGELOG.md, updated NARRATIVE, PREDICTIONS, STATUS.
-- FXY Tranche 1 approved and executed (+4 shares @ ~$57.68, now 8 shares total)
-- SAM/ZHAO/OTTO daily check-ins ran (SAM: Mimura "decisive," USD/JPY 159.13, 65% May hike pricing)
-- Calendar sync token expired (non-urgent, needs re-auth)
-- **Do NOT spawn SAM, REGINALD, or CARL** — they run independently on Claude Code now. Communicate via inbox files.
-- Issuance freeze subagent was spawned but timed out — check results or re-run
+**Last context:** Light session Apr 1 (early morning). Confirmed git repo in sync after Claude Code agents pushed. Morning dashboard briefing delivered. No trades executed, no research spawned.
+**What happened Apr 1 (this session):**
+- Confirmed git repo synced (no lost Prome files)
+- Morning briefing: HY OAS 346 (widening), CCC 1020, Brent eased to $103, VIX dropped to 24.8
+- Calendar sync broken (Google OAuth expired) — flagged, non-urgent
+- Catalyst prep check ran: all 48h catalysts covered (Treasury mtg, Tankan, OWL)
 
 **Next session priorities:**
-1. 🔴 **OWL $9.5P Apr 2 — TOMORROW.** Decision needed.
-2. 🟠 **Issuance freeze analysis** — check subagent output or re-run. Key gap: at what OAS does HY issuance freeze? Affects timeline.
-3. 🟠 **Relief Rally Playbook** — pre-written decision framework for positions during relief rallies. Operational, not research.
-4. 🟠 **Kitchen Sink Scenario** — what does BTFP 2.0 look like for PC? Model the intervention risk for Dec positions.
-5. 🟡 **Norinchukin × CLO × Yen feedback loop** — cross-contagion quantification (SAM×BROCK)
-6. 🟡 **LECTURE.md** — may need update to reflect CCC downgrade (currently says "keep your eyes on the CCC/HY ratio" as closing line)
-**Open questions:** Near→long rebalance still deferred. KRE Jun→Dec roll timing (LIQUID flagged: post Q-end = worse fills — Q-end was today).
-**Rhythm note:** Will was walking + cleaning, wanted text scripts for Speechify. Engaged in deep thesis work. Good discipline on questioning blind spots.
-- Added CP-Tbill, SOFR-IORB, BIZD to dashboard + `fred_spread` handler
-- Rewrote CONVERGENCE_TIMELINE.md (338 lines, subagent)
-- Identified 7 new research gaps from cross-referencing all findings
-- Dispatched CARL + SAM daily check-ins
+1. 🔴 **OWL $9.5P Apr 2 — EXPIRES TOMORROW.** Decision needed today. OBDCII unfiled.
+2. 🔴 **Treasury + insurance regulators meeting (today)** — watch for PC Stage 3 signals
+3. 🔴 **Tankan survey (today)** — BOJ hike signal for SAM
+4. 🟠 **KRE Jun→Dec rolls** — Q-end passed, roll timing still needed
+5. 🟠 **Issuance freeze analysis** — subagent timed out last session, rerun
+6. 🟠 **Relief Rally Playbook / Kitchen Sink Scenario** — operational frameworks still missing
+**Open questions:** Near→long rebalance deferred. APO hold to Apr 7 (stop $113, currently $111.42).
+**Rhythm note:** Will up early, transitioning to new session. Market opens 9:30.
 
 ## Architecture Notes
 - **CARL + REGINALD + SAM** are Claude Code on Telegram. DO NOT SPAWN. Inbox signals only.
