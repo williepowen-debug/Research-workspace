@@ -1,5 +1,5 @@
 # REGINALD STATUS
-**Last Updated:** 2026-03-31 16:00 UTC | **Status:** 🔴🔴🔴 CRITICAL
+**Last Updated:** 2026-03-31 22:30 UTC | **Status:** 🔴🔴🔴 CRITICAL
 
 ---
 
@@ -24,9 +24,11 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 
 | Indicator | Value | Status |
 |-----------|-------|--------|
-| HY OAS | **317bps** (Mar 27) | 🔴 Still >300, hovering near 320 threshold |
+| HY OAS | **321bps** (Mar avg, FRED/ICE BofA) | 🔴 AT 320 threshold. G4 gate partially met. |
+| CCC OAS | **984bps** (Mar 29) | 🔴 16bps from 1000 forced-selling threshold. But CCC concentrated in cable/media — downgraded as systemic indicator (see SCRATCH). |
 | KRE | **$63.67** (Mar 27) | 🟠 Above $60 support, off 52wk high $74 |
-| Brent | **$112.57** (Mar 27 settle, +4.22%) | 🔴🔴 Highest since Jul 2022. Hormuz closed since Mar 2. |
+| Brent | **~$116** (Mar 29 gap, Houthis entered war) | 🔴🔴 New high. Hormuz closed since Mar 2. |
+| S&P 500 | **-7.4% March** (5th consecutive weekly loss) | 🔴 Recession odds at highest level in years. |
 | 10Y UST | **4.42%** (Mar 27) | 🔴 Hit 4.48% intraday (highest since Jul 2025) |
 | Office CMBS DQ | **11.2%** (Feb 2026, Trepp) — pulled back from 12.34% Jan ATH on 5 loan mods | 🔴 |
 | Bank CRE DQ gap | 4.18% vs CMBS 11.2% = ~7pp masking | 🔴 |
@@ -41,12 +43,13 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 | Construction Labor | ICE raids → 57 Concrete bankruptcy (TX). 1-in-3 workers foreign-born. Q2 start data at risk. | 🔴 |
 | AOCI Reinclusion | Fed/FDIC/OCC capital rewrite: mandatory AOCI phase-in for Cat III/IV. $49.5B aggregate hit across 21 banks. Comment period closes Jun 18. | 🔴 NEW |
 | MS $85B Transfer | Fed approved MS moving $85B broker-dealer→insured bank (4-3 vote, first ever). Regulatory capture signal — G-SIBs favored, regionals won't be. | 🟠 NEW |
+| KBS REIT III | Going concern doubt. $78.7M loss (7.3x YoY), $1.3B debt maturing ~1yr, 77% leased office, no distributions since Jun 2023. Another distressed office data point. | 🔴 NEW |
 
 ---
 
 ## RESEARCH — OZK
 
-**KB: 159 rows, 17 groups** | **Earnings: Apr 16 (~20 days)** | **Price: $46.43 (Mar 27, -2.17%)**
+**KB: 159 rows, 17 groups** | **Earnings: Apr 16 (~16 days)** | **Price: $44.85 (Mar 30)** | **Consensus: Hold (2B/5H/1S), PT $53.71, EPS ~$1.50/Q**
 - 10 prompts done (#1-7, 15, 16, 20). 5 remaining (#8 Metropolitan, #9 Affinius, #10 sell-side, #13 peer vintage, #19 metro conditions)
 - LIFE_SCI deepest cluster (21 rows). RaDD 3.3% leased, maturity Aug 2028.
 - Temple 8 short thesis published. OZK = reservoir thesis (stress accumulates → maturity wall forces recognition).
@@ -57,7 +60,7 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 
 ## RESEARCH — WAL
 
-**KB: 70 rows, 10 groups** | **Earnings: Apr 21 (~25 days)** | **EARNINGS_PREP: B+→A-** | **Price: ~$67-68 (Mar 27) ⚠️ BELOW $78 THRESHOLD**
+**KB: 70 rows, 10 groups** | **Earnings: Apr 21 (~21 days)** | **EARNINGS_PREP: B+→A-** | **Price: ~$67-68 (Mar 27) ⚠️ BELOW $78 THRESHOLD** | **Consensus: Mod Buy (11B/4H), PT $97.73**
 - Architecture complete (Mar 25): INDEX, THESIS, STATUS, SCENARIOS, WEAKNESSES, EARNINGS_PREP, EXTERNAL_PROMPTS.
 - 5 external prompts ready. EARNINGS_PREP upgraded Mar 26 with new signals.
 - **NEW (Mar 31):** `LEADERSHIP.md` created — full C-suite, board, audit committee, auditor, CRE leadership, ownership profile. CFO Idnani corrected to Vishal (not Deepak). CRO Emily Nachlas profiled. Guggenheim (TPG RE Finance Trust) on Risk committee, NOT Audit — expertise/oversight gap identified.
@@ -95,22 +98,16 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 
 ## KEY CATALYSTS
 
-| Date | Event |
-|------|-------|
-| ~~Mar 25~~ | ~~JEF Q1~~ — DONE. EPS $0.70 vs $0.91 (-23%). $17M MFS losses. V2 confirmed. |
-| ~~Mar 26~~ | ~~ARESSI~~ — DONE. (Check BROCK for results.) |
-| **Mar 27** | **OBDCII Q1 report — TODAY.** OWL $9.5P Apr 2 expires in 6 days. |
-| ~~Mar 27~~ | ~~USO $118C expiry~~ — TODAY, resolve at close. |
-| **Mar 27** | **Bloomberg: Citi weighing US regional bank acquisition** — dismissed as "baseless speculation" by Citi. C -4.5%. Signal: G-SIBs smelling regional distress = acquisition optionality. |
-| **Mar 23-27** | **ZION acquires Basis Investment Group agency lending** (Fannie/Freddie MF). Adds CRE MF exposure at cycle peak. |
-| **Mar 31** | **First Brands auction** — $800M gap, recovery data feeds BROCK + REGINALD (OTTO T-15) |
-| Apr 1 | eSLR relaxation effective |
-| Apr 10 | CPI (captures oil shock) |
-| **Apr 16** | **OZK Q1 earnings — detonation event** |
-| Apr 20-29 | Q1 bank earnings wave (ZION → WAL → VLY → EGBN) |
-| May 12 | WAL Investor Day |
-| May 21 | Epstein class action deadline (APO) |
-| **Jun 18** | **AOCI capital rewrite comment period closes** — finalization likely H2 2026/Q1 2027 |
+**Full timeline with branch points and position calendar → `thesis/TIMELINE.md`**
+
+| Next Up | Date | Event |
+|---------|------|-------|
+| 🔴 | **Mar 31** | First Brands auction — $800M gap (OTTO T-15) |
+| | Apr 1 | eSLR relaxation effective (G-SIBs only) |
+| | Apr 10 | CPI (captures oil shock) |
+| 🔴 | **Apr 16** | **OZK Q1 earnings** |
+| 🔴 | Apr 20-29 | Bank earnings wave (ZION → WAL → VLY → EGBN) |
+| | Jun 18 | AOCI capital rewrite comment period closes |
 
 ---
 

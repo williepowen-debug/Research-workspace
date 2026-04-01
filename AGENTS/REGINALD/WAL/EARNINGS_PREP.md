@@ -1,5 +1,5 @@
 # WAL — Q1 2026 Earnings Prep
-**Date:** ~April 21, 2026 | **Current price basis:** $69.70 (Mar 25) | **Positions:** $85P Jun18 / $77.5P Sep18 / $70P Sep18 / $65P Jun18
+**Date:** ~April 21, 2026 | **Current price basis:** ~$67-68 (Mar 27) | **Positions:** $85P Jun18 / $77.5P Sep18 / $70P Sep18 / $65P Jun18 | **Consensus:** Mod Buy (11B/4H), PT $97.73
 
 ---
 
@@ -14,7 +14,7 @@
 - [ ] MI3 industry peer comparison — **WILL_NEEDS:** External Prompt #2 not yet run. No peer MI3 ratios in KB (ZION, FHB, BOKF absent). Need to confirm WAL is uniquely rising vs peers. High priority before Apr 21.
 - [ ] Pull Q1 press release MI3/C&I data BEFORE the call starts — **BLOCKED: Q1 data not yet public.** Earnings ~Apr 21. Pull WAL press release and Call Report RC-C the morning of Apr 21 before 8:30am ET.
 - [x] **[NEW]** Track $400B CRE maturity wall execution — KB-WAL-067 confirmed: $400B wall concentrated in 2026. **OZK Apr 16 = first AZ/NV read-through** (5 days before WAL). If OZK discloses material CRE provisions Apr 16, re-evaluate V1 baseline before Apr 21. (KB-WAL-067)
-- [x] **[NEW]** Analyst consensus PT refresh — **Tracker populated.** Weiss Buy→Hold / Barclays $105→$90 / WFC $83→$79 all in KB-WAL-062–065 and Analyst Consensus Tracker below. Current consensus ~$85-90 vs thesis $47-60. ⚠️ Watch for additional cuts post-OZK Apr 16. (KB-WAL-062 through -065)
+- [x] **[NEW]** Analyst consensus PT refresh — **UPDATED Mar 31 via web search.** Full consensus: 15 analysts, 11 Buy / 4 Hold / 0 Sell. Avg PT $97.73 (range $79-$107). UBS $106, Citi $107 still Buy. Only 4 downgrades (Weiss, Barclays, WFC, TD Cowen). Gap to thesis ($47-60) is 40-52%. ⚠️ Watch for additional cuts post-OZK Apr 16.
 - [x] **[NEW]** Nevada housing/mortgage stress data — **Data in KB.** Google Trends "help with mortgage" ATH (surpassing GFC) + Lennar Q1 gross margin 15.2% (lowest since Q1 2010) confirmed in KB-WAL-070. NV exposure 18-22% of $58.7B portfolio in KB-WAL-041. Path C (housing→banks) activating. (KB-WAL-070, KB-WAL-041)
 - [x] **[NEW]** Warehouse line / NDFI exposure confirmation — **Data in KB.** KB-WAL-069: BROCK confirms total bank NDFI = $1.54T (FFIEC Q4). WAL $10.8B OBS SSFA (KB-WAL-009) assessed as likely warehouse lending to NDFIs. V3 amplified. ⚠️ Composition never confirmed by management — Q4 Q&A item (see Q4 above). (KB-WAL-069, KB-WAL-009)
 
@@ -184,22 +184,32 @@
 
 **The bet:** WAL's loan portfolio is ~59% true CRE (vs. labeled 35%) via a growing Memo Item 3 reclassification. At 474% CRE/Tier 1, they breach regulatory red lines using a definition that hides the exposure. Losses in their geographic footprint bypass delinquency pipelines and hit P&L directly — Cantor was the pattern. Their CFO swap (22-year veteran → JPM restructuring banker) is the insider tell. Zero insider buying confirms no floor confidence. Three independent vectors (relabeling, fraud/fast-transmission, SSFA capital gap) can each independently catalyze repricing from $69.70 toward $47 (bear) or $33 (tail).
 
-**The trade:** Not predicting insolvency — predicting EPS compression from $8.73 toward $5-7 at 7x P/E. Market is anchored to record earnings narrative and doesn't model fast-transmission or MI3 mechanics. 3.54% short interest means the smart money isn't there yet. We're early.
+**The trade:** Not predicting insolvency — predicting EPS compression from $8.73 toward $5-7 at 7x P/E. 11 of 15 analysts still rate Buy at avg PT $97.73 — consensus is anchored to record earnings narrative and doesn't model fast-transmission or MI3 mechanics. 3.54% short interest means the smart money isn't there yet. We're early, and there are 11 Buy ratings to downgrade.
 
 **What kills it:** MI3 declining + insider buying + Cantor fully reserved. None of those are true today.
 
 ---
 
-## ANALYST CONSENSUS TRACKER (Mar 26 baseline)
+## ANALYST CONSENSUS TRACKER (Updated Mar 31)
 
-| Analyst | Prior Action | Mar 26 Action | Implied View |
-|---------|-------------|---------------|--------------|
-| Weiss | Buy | **Hold** | Removing conviction |
-| Barclays | Buy, PT $105 | **PT $90** | -14% PT cut |
-| Wells Fargo | PT $83 | **PT $79** | -5% PT cut |
-| Consensus (inferred) | ~$95-100 | ~$85-90 | Thesis PT still $47-60 |
+**Aggregate:** 15 analysts — **11 Buy, 4 Hold, 0 Sell** | Consensus PT: **$97.73** | Our PT: **$47-60**
 
-**Read:** Sell-side moving toward middle — not yet near our thesis. Short interest 3.54% = repricing room enormous. Weiss downgrade to Hold is most significant: removes a Buy reco from the momentum camp. Watch for additional cuts post-OZK earnings (Apr 16).
+| Analyst | Rating | PT | Date | Notes |
+|---------|--------|-----|------|-------|
+| UBS | **Buy** | $106 | Mar 10 | Maintained. Highest conviction bull. |
+| Citi | **Buy** | $107 | Recent | Boosted PT. |
+| Barclays | Hold (cut) | $90 | Mar 26 | Was Buy/$105. -14% cut. |
+| Wells Fargo | Hold | $79 | Mar 26 | Was $83. Lowest Street PT. |
+| TD Cowen | **Hold** (downgraded) | $83 | Mar 9 | Was Buy. Most recent downgrade. |
+| Weiss | **Hold** (downgraded) | — | Mar 26 | Was Buy. No PT disclosed. |
+| DA Davidson | Buy | $93 | Recent | Cut PT. |
+| Others (8) | Buy | Various | — | Contributing to $97.73 avg. Not individually tracked. |
+
+**Read:** The downgrades we tracked (Weiss, Barclays, WFC, TD Cowen) are real but they're 4 of 15. ELEVEN analysts still rate Buy. Consensus PT $97.73 is 40-52% above our $47-60 range. The market hasn't repriced — it's barely started. UBS and Citi are RAISING targets while we're modeling insolvency scenarios.
+
+This is the edge: 73% of analysts rate Buy on a stock we think has 30-50% downside. When the repricing comes — triggered by earnings miss, fraud disclosure, or SSFA scrutiny — there are 11 Buy ratings to downgrade. Each one moves the stock.
+
+**Watch for post-OZK Apr 16:** If OZK misses, expect 2-3 additional WAL downgrades within 48 hours as analysts re-examine CRE assumptions.
 
 ---
 
@@ -216,4 +226,4 @@
 | European bank stress (iTraxx 130-160bps est.) | HANS OUTBOX MAR24 | Global credit tightening = no WAL lifeline |
 
 ---
-*KB: 70 rows | Scenarios: SCENARIOS.md | Weakness audit: WEAKNESSES.md | Last updated: 2026-03-26 03:58 UTC | Grade: B+→A- (maintained post-JEF Q1; next upgrade: OZK Apr 16 AZ/NV confirmation OR WAL MI3 ≥25%)*
+*KB: 70 rows | Scenarios: SCENARIOS.md | Weakness audit: WEAKNESSES.md | Last updated: 2026-03-31 22:30 UTC | Grade: A- (consensus tracker upgraded with full 15-analyst coverage; next upgrade: OZK Apr 16 AZ/NV confirmation OR WAL MI3 ≥25%)*
