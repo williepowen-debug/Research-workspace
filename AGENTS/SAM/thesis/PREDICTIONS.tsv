@@ -1,5 +1,5 @@
 Pred_ID	Date_Made	Prediction	Confidence	Timeframe	Status	Date_Resolved	Outcome	Notes
-SAM-04	2026-02-15	JGB 30Y stays <4.0% through Q1	60%	Q1 2026	OPEN			Currently ~3.50%
+SAM-04	2026-02-15	JGB 30Y stays <4.0% through Q1	60%	Q1 2026	CONFIRMED	2026-03-31	TRUE	Q1 ended Mar 31. 30Y peaked at 3.692% (Mar 27) — held below 4.0% but closer than expected. Approached within 31bp. Low confidence (60%) was appropriate — this was a genuine near-miss.
 SAM-05	2026-02-15	BOJ signals faster hikes post-election	70%	Feb-Mar 2026	CONFIRMED	2026-03-19	TRUE	Ueda hawkish hold: "will continue to raise rates," April live, Takata dissented for 1.0%. Scenario A delivered.
 SAM-06	2026-02-15	Life insurers announce more JGB selling	75%	Q1 2026	OPEN			
 SAM-07	2026-02-15	Strong Shunto >=3.5% base-up	48%→75%	Late Mar 2026	CONFIRMED	2026-03-23	TRUE	Rengo first-round 5.26% — comfortably above 3.5% threshold. 3rd consecutive year >5%.
