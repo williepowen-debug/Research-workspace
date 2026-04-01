@@ -5,11 +5,13 @@
 ---
 
 ## QUICKSTART
-Scenario D **85%**. War Day 29. Account **~$55,689 (+111.5%)**. Brent **$107-108**. Gas **$3.96 → $4 BREACHED**. HY OAS **342**. CCC OAS **1013**. CCC/HY ratio **2.96** (unprecedented). Cash ~$12K (21.6%).
+Scenario D **82%**. War Day 31. Brent **$108-112**. Gas **$4 BREACHED 🔴**. HY OAS **342**. CCC OAS **1013** (but **concentrated** — cable/media/healthcare/software, NOT broad systemic; see CHANGELOG). CCC/HY ratio **2.96** (downgraded as indicator). Thesis confidence **80%** (was 85%).
 
-**TIMING FRAMEWORK COMPLETE.** 11 research files in `FORGE/timing/research/`. CONVERGENCE_TIMELINE.md rewritten (338 lines). 2026 ≈ late Q3/early Q4 2007. Insurance stress Q2-Q3'26. Bank stress late '26. Peak selling Q1-Q2'27.
+**TIMING THESIS BUILT.** `FORGE/timing/thesis/` — NARRATIVE, TIMELINE, PREDICTIONS (22 calls), CHANGELOG, LECTURE. Plus `FORGE/timing/STATUS.md`. CCC sector decomposition completed (3 sources). Thesis now rests on **transmission channels** not CCC as standalone.
 
-**New dashboard indicators:** CP-Tbill (0.15 🟢), SOFR-IORB (-0.02 🟢), BIZD (BDC ETF, Tier 2).
+**Key change today:** CCC/HY ratio downgraded from "most important finding" to "partially distorted signal." 2015-16 energy analog for CCC, not 2007 GFC. Five of six convergence pillars remain intact.
+
+**Do NOT spawn SAM, REGINALD, or CARL** — they run independently on Claude Code. Inbox files only.
 
 ## Handoff
 **Last context:** Major thesis-building session in `FORGE/timing/`. Built thesis subfolder, then ran CCC decomposition research that **downgraded** CCC/HY ratio as systemic indicator. Confidence 85%→80%.
