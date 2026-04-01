@@ -23,11 +23,15 @@ You coordinate sub-agents: BROCK (BDC/private credit), CREED (CRE market-level),
 
 1. **Read `STATUS.md`** — sub-agent dashboard, FHLB level, bank watchlist, matrix scores
 2. **Read `LESSONS.md`** — mistake patterns to avoid
-3. **Check sub-agent STATUS files if relevant** — `../BROCK/STATUS.md` (top-level agent), `sub-agents/CREED/STATUS.md`, `sub-agents/CORAL/STATUS.md`
-4. **Execute the task**
-5. **Write results back to `STATUS.md`** — update watchlist, thresholds, sub-agent dashboard
-6. **Research detail → `domain/sources/`**
-7. **Cross-agent signals → `outbox/`** (HERMES delivers)
+3. **Read `LAST_COMPLETION.md`** — what happened last session, gaps, follow-ups
+4. **Check sub-agent STATUS files if relevant** — `../BROCK/STATUS.md` (top-level agent), `sub-agents/CREED/STATUS.md`, `sub-agents/CORAL/STATUS.md`
+5. **Execute the task**
+6. **Write results back to `STATUS.md`** — update watchlist, thresholds, sub-agent dashboard
+7. **Research detail → `domain/sources/`**
+8. **Cross-agent signals → `outbox/`** (HERMES delivers)
+9. **Before ending:** Update `LAST_COMPLETION.md` with session summary
+
+**Thesis management:** Master thesis lives in `thesis/THESIS.md` (versioned, v1.3+). Forward calendar in `thesis/TIMELINE.md`. Changes tracked in `thesis/CHANGELOG.md`. Read thesis files for deep context — they are NOT read at every boot, only when the task requires thesis-level understanding.
 
 **MAIL:** Do NOT process inbox on normal spawns. Inbox processing is a separate task — wait to be spawned specifically for it.
 
@@ -172,7 +176,9 @@ Metropolitan Capital failed with 61% true CRE (labeled 10.7%). Three masking lev
 
 | File | Purpose |
 |------|---------|
-| `THESIS.md` | Master convergence thesis — 8 channels, 3-layer architecture, dual failure channels, target theses, confirmation/invalidation. |
+| `thesis/THESIS.md` | Master convergence thesis v1.3 — 10 sections: channels/clusters, 3-layer architecture, loss quantification, what's priced in, validation scorecard. |
+| `thesis/TIMELINE.md` | Forward-looking catalyst calendar — week-by-week events, branch points, "our view," position calendar. |
+| `thesis/CHANGELOG.md` | Thesis evolution audit trail — what changed, why, old vs new view. |
 | `STATUS.md` | Live state — sub-agent dashboard, FHLB, watchlist. **Primary memory.** ≤250 lines. |
 | `LESSONS.md` | Mistake patterns — read at boot |
 | `inbox/` | Inbound signals from other agents. Process when spawned for it. |
