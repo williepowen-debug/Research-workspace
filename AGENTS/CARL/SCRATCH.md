@@ -1,38 +1,41 @@
 # CARL SCRATCH
-**Last session:** 2026-03-31 ~16:10 UTC
-**Type:** Domain overhaul + data refresh
+**Last session:** 2026-03-31 ~23:45 UTC
+**Type:** Data pulls (USDA, JOLTS), signal processing, SYF deep dive
 
 ---
 
 ## WHAT HAPPENED
-1. **Gas $4.02 BREACHED** — AAA printed $4.02 Mar 31. Behavioral breakpoint confirmed. KB-CARL-118 logged, STATUS + THESIS updated.
-2. **ICE First Look Feb 2026** — 878K in 90+/foreclosure (+175K/25% in 4mo), cure rates -40%, FHA 80% of increase. KB-CARL-119 logged.
-3. **THESIS.md → v2.1** — Full audit against KB/VX. Added 8 confirmed evidence items (stagflation, SPR failure, RV collapse, ICE First Look, SYF DQ, nitrogen sources, ICE enforcement, retail investor gone). Gas/urea updated. GDPNow corrected to 2.0%.
-4. **STATUS.md refreshed** — Added SYF 30+ DQ, 878K pipeline, macro rows (PCE 3.1%, GDP 0.7%, GDPNow 2.0%). All gas refs updated to $4.02.
-5. **CLAUDE.md overhauled** — Identity, convergence matrix, exit rules, thresholds, files table all updated to match v2.1 thesis.
-6. **Folder cleanup:** sources/ merged → domain/sources/. archive/ deleted (50 files). Root-level one-offs removed. ACTION_PLAN → ROADMAP.md.
-7. **red_team/ rebuilt** — SOFT_LANDING.md (<5%) and CONTAINMENT.md (20-25%) created from old competing hypotheses, updated with current data.
+1. **USDA Prospective Plantings pulled** — Corn 95.338M (-3.45M, above estimates). Wheat 43.775M = LOWEST SINCE 1919. Soy 84.7M (+3.49M). Corn cut below 5M HAWK threshold. Wheat is the big number — food CPI loading confirmed. KB-CARL-120/121.
+2. **JOLTS Feb pulled** — Openings 6.882M (-358K). Ratio 0.94→0.91 (deepening). Hires rate 3.1% = COVID-low. Quits 1.9% (8mo trapped). Feb data PREDATES Iran. KB-CARL-122.
+3. **3 new predictions** — CRL-09 (JOLTS Mar <0.88, 75%), CRL-10 (Food CPI >4%, 70%), CRL-11 (Hires ≤3.2% thru Q2, 85%). CRL-01 resolved as MISSED (timing).
+4. **Will's signal clippings processed** — UMich 53.3, Conf Board 70.9 expectations, ECB tariff passthrough, unsecured loans $276B record, import prices 4-yr high, K-shape bifurcation (airlines strong / dollar stores weak). KB-CARL-123-128.
+5. **SYF deep dive** — Big 5 prime "stable" (1.30% DQ, 2.0% NCO) BUT SYF NCO spiked 4.7%→5.8% in one month (+110bps). Book shrinking despite growth guidance. SYF was LOOSENING credit into deteriorating macro. Survivorship bias confirmed. KB-CARL-129-131. SYF upgraded to RED in STATUS.
+6. **2 outbox signals written** — LABOR (JOLTS deepening), REGINALD (SYF canary). Also shared SYF signal directly to Will for REGINALD.
 
 ## STATUS CHANGES
 | Item | Change |
 |------|--------|
-| Gas Pump | $3.981 → $4.02 BREACHED |
-| GDPNow | 2.7% → 2.0% (Mar 23) |
-| Thesis version | v2.0 → v2.1 |
-| Convergence matrix | Updated in CLAUDE.md + STATUS.md |
-| Folder structure | Cleaned — 6 docs + 7 dirs at root |
+| JOLTS Ratio | 0.94 → 0.91 (deepening) |
+| USDA Wheat | Added — 43.775M, lowest since 1919 |
+| USDA Corn | Added — 95.338M, -3.45M |
+| SYF | 🟠 → 🔴 (NCO 5.8% spike) |
+| Predictions | +3 new, 1 resolved. Scorecard: 2 confirmed, 1 missed, 8 open |
 
 ## NEXT SESSION SHOULD
-1. **USDA Mar 31 Prospective Plantings** — Report dropped noon ET today. PULL THE DATA. Update KB, VX-CARL-FOOD-01/02. If corn acreage cut >5M acres, signal HAWK.
-2. **Gas $4.50 watch** — Check AAA daily. Est. 2-3 weeks at current trajectory.
-3. **Weekly claims Apr 3** — Third benign print = stronger counter-signal. Reversal toward 1,900K re-triggers.
-4. **3 outbox signals still awaiting HERMES:**
+1. **SYF monthly 8-K (March data)** — should drop mid-April. Check for NCO breach above 6%.
+2. **SYF Q1 2026 earnings (late April)** — guidance revision? "Non-restrictive" walk-back? Critical tell.
+3. **CRL-08 timeframe** — $4.50 gas by Apr 5 likely misses. Extend to mid-April.
+4. **Fannie MF DQ Feb 2026** — Still need this PDF. 0.74% watching 0.80% GFC breach (CRL-03, 90% conf).
+5. **NFP March (Apr 3)** — Into CLOSED market. Gap risk Apr 6. Watch for LABOR signal.
+6. **5 outbox signals awaiting HERMES:**
    - SIG-CARL-LABOR-20260329-jolts-inversion.md
+   - SIG-CARL-LABOR-20260331-jolts-feb-deepening.md
    - SIG-CARL-PROME-20260329-jolts-inversion.md
    - SIG-CARL-REGINALD-20260327-fl-pincer.md
-5. **1 inbox signal unprocessed:** SIG-CARL-20260329-gas-4-behavioral.md
-6. **KB-026 Fannie MF DQ** — Still need Feb 2026 PDF. 0.74% → watching 0.80%.
+   - SIG-CARL-REGINALD-20260331-syf-canary.md
+7. **1 inbox signal unprocessed:** SIG-CARL-20260329-gas-4-behavioral.md (separate spawn task)
+8. **Add SYF to monthly tracking cadence** — 8-K + earnings cycle
 
 ## URGENT
-- USDA data likely already available — pull first thing next session
-- Outbox signals need HERMES delivery
+- NFP March drops Apr 3 — into closed market, gap risk Apr 6
+- SYF March 8-K mid-April — first test of whether NCO spike continues
