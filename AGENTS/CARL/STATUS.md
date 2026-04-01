@@ -1,5 +1,5 @@
 # CARL STATUS
-**Updated:** 2026-03-31 ~13:15 UTC
+**Updated:** 2026-03-31 ~18:15 UTC
 **Overall:** 🔴🔴 CRITICAL — Convergence 46/50. **GAS $4 BREAKPOINT FIRED.** JOLTS inverted (0.94, Feb data TODAY). Q3 = consumption stress quarter.
 
 *Check-in archives: `domain/sources/STATUS_archive_20260327.md`, `workbook/STATUS_archive_20260325.md`, `workbook/STATUS_archive_mar1_mar15.md`*
@@ -18,7 +18,7 @@
 | Student Loan 30+ DQ | **16.3% WORST EVER** | 🔴 |
 | Student Loan 90+ DQ | **9.6%** (0.4pp from 10%) | 🔴 |
 | BNPL Late Rate | **41%** (+7pp YoY) | 🟠 |
-| SYF 30+ DQ | **4.7%** (Feb, +0.1pp MoM — stress up quality stack) | 🟠 |
+| SYF 30+ DQ | **4.7%** (Feb, +0.1pp MoM) — **NCO 5.8% (+110bps spike in 1mo)** | 🔴 |
 | Total Household Debt | **$18.78T record** | 🔴 |
 
 ### Housing / Multifamily
@@ -43,7 +43,9 @@
 | Savings Rate | **4.5% Jan** (up from 3.6% Dec) | 🟠 |
 | Urea NOLA | **$690s/mt** (was $475 early Mar, watch $800) | 🔴🔴 |
 | Russia AN | **SUSPENDED** | 🔴🔴 |
-| JOLTS Ratio | **0.94 — INVERTED** (Jan 2026) | 🔴 |
+| USDA Wheat Acres | **43.775M — LOWEST SINCE 1919** (-3.4% YoY) | 🔴🔴 |
+| USDA Corn Acres | **95.338M** (-3.45M/-3.5% YoY, above 94.4M est) | 🟠 |
+| JOLTS Ratio | **0.91 — INVERTED & DEEPENING** (Feb 2026, was 0.94 Jan) | 🔴🔴 |
 | Unemployment Duration | **25.7 wks** (4-yr high) | 🔴 |
 | UI Exhaustion Spending Hole | **$650M/mo** (peak $930M/mo July) | 🔴🔴 |
 | Core PCE | **3.1% YoY** (Jan; simulated 3.27% Mar) | 🔴 |
@@ -75,7 +77,7 @@
 
 **"Beneath the Ice" v2.1 — 60% structurally fragile, cost squeeze is the mechanism.**
 - 37% can't cover $400 | 62% paycheck-to-paycheck | JOLTS inverted (0.94)
-- **Mechanism shift:** Employment didn't break acutely — instead, multi-vector cost squeeze (energy + food + UI exhaustion) grinding the bottom 60%. JOLTS inversion confirms structural rot. K-shape converging downward (both cohorts stressed). Subsidence, not earthquake. **NEW (Mar 31):** DOGE + ICE raids + tech layoffs = labor supply shock layered ON TOP of cost squeeze. Continuing claims dropping while duration spikes = exhaustion, not recovery. Gas $4 fires the behavioral breakpoint — discretionary pullback accelerates NOW.
+- **Mechanism shift:** Employment didn't break acutely — instead, multi-vector cost squeeze (energy + food + UI exhaustion) grinding the bottom 60%. JOLTS inversion confirms structural rot. K-shape converging downward (both cohorts stressed). Subsidence, not earthquake. **NEW (Mar 31 PM):** JOLTS Feb: ratio 0.94→0.91 in one month (deepening). Hires rate 3.1% = COVID-low. Quits rate 1.9% 8mo streak (workers trapped). Feb data PREDATES Iran — March worse. USDA wheat at 107-yr low (food CPI loading confirmed). Gas $4 behavioral breakpoint fired. Three vectors converging simultaneously.
 - **Paths:** A (Employment→Subprime, SLOW), B (SPX→Wealth effect), C (Housing→Banks, **ACTIVATING**), F (AI→Prime mortgage), PC (Private credit→Middle-market)
 - **Counter-signals:** Auto insurance CPI cooled (5.9% vs 20-30%), homeowners insurance decelerating (+8.5% vs 50%)
 
@@ -85,7 +87,7 @@
 
 | Window | Trigger | Status |
 |--------|---------|--------|
-| **NOW (Mar 31)** | **Gas $4 FIRED** + FOMC hold + JOLTS today + USDA Plantings today | 🔴🔴 **ACTIVE** |
+| **NOW (Mar 31)** | **Gas $4 FIRED** + FOMC hold + ✅ JOLTS 0.91 (deepening) + ✅ USDA wheat 107-yr low | 🔴🔴 **ACTIVE** |
 | **Mar 24** | FL UI Wave 1 exhaustion | ✅ FIRED |
 | **Apr 26** | FL UI Wave 2 peak | 🟠 IMMINENT |
 | **Q2** | DQ conversion (Mar/Apr stress → May/Jun spike) | 🔴 UPGRADED |
@@ -102,7 +104,7 @@
 
 | From | Signal | Status |
 |------|--------|--------|
-| LABOR | NFP -92K, duration 25.7wk (+2.0 single month, 4-yr high), cont claims 1.819M (2-yr low = exhaustion), DOGE 260K+ (9% fed workforce), ICE raids → 57 Concrete bankrupt / 60% TX res vol drop, tech 150K+ layoffs 2026, TSA 10% callout, shutdown 60+ days, NFP Apr 3 into CLOSED market (gap risk Apr 6) | 🔴🔴 |
+| LABOR | NFP -92K, duration 25.7wk (+2.0 single month, 4-yr high), cont claims 1.819M (2-yr low = exhaustion), DOGE 260K+ (9% fed workforce), ICE raids → 57 Concrete bankrupt / 60% TX res vol drop, tech 150K+ layoffs 2026, TSA 10% callout, shutdown 60+ days, NFP Apr 3 into CLOSED market (gap risk Apr 6). **JOLTS Feb: 0.91 ratio (↓ from 0.94), hires at COVID-low, quits trapped. Pre-Iran data.** | 🔴🔴 |
 | HAWK | WTI $107+, gas $4.02, diesel $5.10 | 🔴🔴 |
 | WAR | Gulf escalation, Ras Laffan burning | 🔴🔴 |
 | FOMC | Hold 3.50-3.75%, 1 cut | 🔴🔴 |
@@ -123,6 +125,9 @@
 | CRL-06 | Student 90+ >10% | ⚠️ IMMINENT (9.6%) |
 | CRL-07 | CC 90+ >13.74% (GFC) | TRACKING (12.70%) |
 | CRL-08 | Foreclosures >70K/qtr | TRACKING (58,140) |
+| CRL-09 | JOLTS Mar ratio <0.88 (from 0.91 Feb) | NEW — 75% conf, May release |
+| CRL-10 | Food CPI YoY >4.0% | NEW — 70% conf, Q4 2026 |
+| CRL-11 | Hires rate stays ≤3.2% through Q2 | NEW — 85% conf |
 
 ---
 
@@ -130,6 +135,6 @@
 - **Thesis kill:** Claims <220K 8+ weeks AND CC 90+ DQ declines 2 consecutive quarters
 - **Time-based:** Q1 consumer earnings (April) = mandatory review
 
-*Next catalysts: ✅ $4/gal **FIRED** (Mar 31) | ✅ FL UI Wave 1 PASSED | **TODAY: USDA Plantings (corn -4.4M acres exp), JOLTS Feb (consensus 6.85-6.89M)** | **Apr 3: NFP Mar into CLOSED market** (gap risk Apr 6) | Apr 26: FL UI Wave 2 | HY OAS 350 | $4.50/gal (~2-3 wks) | April CPI | Q1 earnings April*
+*Next catalysts: ✅ $4/gal **FIRED** (Mar 31) | ✅ FL UI Wave 1 PASSED | ✅ USDA Plantings **PULLED** (wheat 107-yr low, corn -3.45M < 5M threshold) | ✅ JOLTS Feb **PULLED** (6.882M, ratio 0.91, hires COVID-low) | **Apr 3: NFP Mar into CLOSED market** (gap risk Apr 6) | Apr 26: FL UI Wave 2 | HY OAS 350 | $4.50/gal (~2-3 wks) | April CPI | Q1 earnings April*
 *Prior check-ins (Mar 20), K-shape evidence table, fertilizer calendar archived to `workbook/STATUS_archive_20260325.md`*
 *Key docs: `domain/sources/CVNA_FRAUD_WATCH.md` | `workbook/ABS_BASELINE.tsv` | `workbook/STATE_DIFFUSION.tsv`*
