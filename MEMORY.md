@@ -1,12 +1,15 @@
 # MEMORY — Key Insights & Lessons
 
-**Last Updated:** 2026-03-27 20:50 UTC
+**Last Updated:** 2026-03-31 18:00 UTC
 
 **Positions → `PROME/POSITIONS.md`** | **Agent roster → `AGENTS_DIRECTORY.md`** | **Background → `WILL/BACKGROUND.md`**
 
 ---
 
 ## CORE DISCOVERIES (condensed — detail in linked files)
+
+- **CCC/HY Ratio Downgraded (Mar 31)** — Three-source analysis (Perplexity/Claude/Gemini) shows CCC at 1013bp is concentrated in cable/media (~24-30% of CCC bond index), PE-healthcare (~15%), software (~5-8%). Ex-software OAS: ~930-960bp. Ex-software+cable: ~650-780bp. 2015-16 energy analog for CCC, not 2007 GFC. Broad HY index also structurally higher quality (BB=58% vs 38% in 2007). **Thesis now rests on transmission channels (CLO→BDC→insurance), not CCC as standalone systemic indicator.** Confidence 85%→80%. Recovery rates 37.7% (vs 62.3% avg) and 40% CCC borrowers <1.0x cash flow coverage remain genuine broad stress signals. → `FORGE/timing/thesis/CHANGELOG.md`
+- **Timing Thesis Codified (Mar 31)** — Full thesis folder built: NARRATIVE, TIMELINE (5 phases), PREDICTIONS (22 falsifiable calls), CHANGELOG, LECTURE. Central call: acceleration May-Jul, cascade Q4, peak selling Q1-Q2 2027. → `FORGE/timing/thesis/`
 
 - **Seven Depletion Clocks** — 7 simultaneous physical supply depletions with hard deadlines. Nearest: USDA 3/31, FAO 4/3, planting mid-Apr, China crude mid-late Apr. Each triggers NEW crisis on top of energy. → `FORGE/research/SEVEN_DEPLETION_CLOCKS.md`
 - **Oil Shock Is Structural** — Infrastructure damage means prices can't normalize even with ceasefire. Best case 80-85% capacity by Q4 2026, full recovery 2027. Floor WTI ~$80-85. No relief valve → Dec expiry strengthened. → `FORGE/research/iran-war/`
@@ -54,3 +57,6 @@
 - **Domain audits via subagent spawn = high value.** Cold-boot agent reading the full domain catches staleness, orphan files, evidence gaps that the daily operator misses. Run periodically.
 - **TOSCANINI orchestration layer** (Mar 25). `PROME/TOSCANINI/` — Prome generates binary proposals (Approve/Reject), Will decides, Prome executes via sub-agents. Three autonomy tiers (free/propose/always-ask). Sub-agents must write COMPLETION_SPEC block. Signal batching: 3+ signals triggers agent spawn (🔴🔴 exceptions spawn immediately). Will-only tasks tracked in WILL_QUEUE.md. Decision patterns logged for trust evolution.
 - **Transmission node architecture** (Mar 25). Entities we track but don't trade (e.g., Jefferies) live in `FORGE/research/` not inside agent folders. They serve multiple agents. Agent folders are for positions and domain-specific research.
+- **Three-source convergence method (Mar 31).** Running the same structured prompt through Perplexity + Claude + Gemini (deep research modes) produces high-confidence answers. Will runs them externally, sends results. Weight sources by methodology quality (who actually cited primary data vs. who estimated from vibes). Used for CCC decomposition — Perplexity/Claude anchored to XCCC ETF holdings, Gemini conflated loan/bond markets.
+- **CHANGELOG-first workflow (Mar 31).** Thesis files (`FORGE/timing/thesis/`) must never be edited without a CHANGELOG.md entry first. Prevents silent thesis drift. A cold-boot Prome can read the changelog and understand the trajectory of thinking.
+- **Prome confidence ≠ Prome knowledge (Mar 31).** Will flagged: "I sound confident whether I've read 5% or 95% of the system." The tone doesn't change with the coverage. Flag blind spots proactively. Don't make sweeping claims about relative quality of research without having read it all.
