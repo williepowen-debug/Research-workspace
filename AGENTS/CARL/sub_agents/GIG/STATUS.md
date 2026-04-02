@@ -1,7 +1,7 @@
 # GIG STATUS
-**Last Updated:** 2026-02-12 | **Status:** 🟠 ELEVATED — 24M Invisible Workers, Zero Buffer
+**Last Updated:** 2026-04-01 | **Status:** 🟠 ELEVATED — Oversupply Confirmed, Earnings Compressing
 
-> **RP-LABOR-12 Baseline (Feb 11, 2026):** 24M gig workers invisible to UI claims. **65% on cash advances** to bridge payout delays. **Dave 28DPD at 1.95-2.00%** (stress threshold: >2.10%). FL leads nation at 22% gig concentration. This population has **zero financial runway** — any macro shock converts instantly.
+> **Update (Apr 1, 2026):** Dave 28DPD IMPROVED to **1.89%** (Q4 actual) — moving AWAY from 2.10% threshold. Credit model working. BUT: broader gig population MORE stressed — oversupply confirmed as labor market cools, workers flooding into gig, earning 50-65% of prior traditional pay. Gas $4+ directly squeezes driver net income. The canary (Dave) looks healthier but the mine is filling with gas.
 
 ---
 
@@ -40,12 +40,15 @@ Bank losses (REGINALD)
 
 | Indicator | Value | Threshold | Status | Source |
 |-----------|-------|-----------|--------|--------|
-| **Dave 28DPD** | **1.95-2.00%** | >2.10% | 🟡 WATCH | Dave Q4 2025 |
+| **Dave 28DPD** | **1.89%** (Q4 actual) | >2.10% | 🟢 IMPROVED | Dave Q4 2025 (10-K Mar 2 2026) |
 | **Emergency Loan Dependency** | **58%** | >55% | 🔴 CRITICAL | RadCred 2026 |
 | **Cash Advance for Payout Bridge** | **65%** | >50% | 🔴 CRITICAL | Everee 2025 |
 | **Bills Delayed (Payout Lag)** | **61%** | >40% | 🔴 CRITICAL | Everee 2025 |
 | **Utilization Rate (NYC)** | 58% | <50% | 🟢 NORMAL | NYC TLC 2024 |
 | **Lyft Weekly Earnings** | $318 | <$300 | 🟡 DECLINING | Gridwise 2025 |
+| **Uber Eats Hourly** | **$14.96** (-5% YoY) | <$14 | 🟡 DECLINING | Industry 2024 |
+| **DoorDash Hourly** | **$12.23** (-3% YoY) | <$11 | 🟡 DECLINING | Industry 2024 |
+| **Gig vs Prior Pay** | **50-65%** | <50% | 🟠 STRESSED | Yahoo/Berkeley |
 | **FL Gig Concentration** | **22%** | N/A | 🔴 HIGHEST | State data |
 
 ### Primary Canary: Dave 28DPD
@@ -54,11 +57,13 @@ Dave Inc. (DAVE) reports "28 Days Past Due" on cash advances — real-time stres
 
 | Period | 28DPD | Status | Notes |
 |--------|-------|--------|-------|
-| Q4 2025 | 1.95-2.00% | 🟢 NORMAL | CashAI filtering working |
+| Q4 2025 | **1.89%** | 🟢 IMPROVED | Beat 1.95-2.00% guidance. CashAI filtering effective. |
 | **Stress Threshold** | >2.10% | 🟡 YELLOW | Income no longer supports advances |
 | **Crisis Threshold** | >2.50% | 🔴 RED | Systemic gig insolvency |
 
-**Why Dave matters:** $554M FY2025 revenue (+60% YoY) = massive gig worker penetration. 28DPD is the earliest liquidity signal for this population.
+**Why Dave matters:** $554M FY2025 revenue (+60% YoY), FY2026 guidance $690-710M (+25-28%). Adj EBITDA $227M (+162% YoY). ExtraCash originations $2.0B/qtr (+49% YoY). Massive gig worker penetration. 28DPD is the earliest liquidity signal for this population.
+
+**Oversupply signal (NEW Apr 2026):** As labor market cools (JOLTS 0.91), displaced workers flooding INTO gig → oversupply → earnings compression. Uber Eats driver wages -5% to $14.96/hr, DoorDash -3% to $12.23/hr. Gig workers earning only 50-65% of prior traditional pay. Gas $4+ directly squeezes net income. FLOW-GIG-01 (saturation doom loop) now ACTIVE.
 
 ---
 
@@ -84,7 +89,7 @@ Dave Inc. (DAVE) reports "28 Days Past Due" on cash advances — real-time stres
 | DoorDash (DASH) | Feb 18 | Active dashers, orders/dasher, pay trends | PENDING |
 | Upwork (UPWK) | Feb 18 | Freelancer count, GSV/freelancer | PENDING |
 | Fiverr (FVRR) | Feb 25 | Active sellers, revenue/seller | PENDING |
-| **Dave (DAVE)** | TBD | **28DPD rate** — PRIMARY CANARY | PENDING |
+| **Dave (DAVE)** | Mar 2 (10-K filed) | **28DPD 1.89%** — IMPROVED | ✅ PROCESSED |
 
 ---
 
@@ -133,7 +138,7 @@ Employment stress → Workers flood TO gig → Oversupply →
 Earnings decline → Hours increase → Financial stress → 
 Auto loan DQ → Economic contraction → More employment stress
 ```
-**Status:** MONITORING | **Confidence:** 65%
+**Status:** ACTIVE (Apr 2026) — Yahoo Finance confirms: "workers quietly turning to Uber and DoorDash to fill the income gap" | **Confidence:** 75%
 
 ### FLOW-GIG-04: Gig-to-CARL Transmission
 ```

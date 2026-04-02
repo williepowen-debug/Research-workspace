@@ -1,5 +1,5 @@
 # CARL STATUS
-**Updated:** 2026-03-31 ~18:15 UTC
+**Updated:** 2026-04-01 ~13:55 UTC
 **Overall:** 🔴🔴 CRITICAL — Convergence 46/50. **GAS $4 BREAKPOINT FIRED.** JOLTS inverted (0.94, Feb data TODAY). Q3 = consumption stress quarter.
 
 *Check-in archives: `domain/sources/STATUS_archive_20260327.md`, `workbook/STATUS_archive_20260325.md`, `workbook/STATUS_archive_mar1_mar15.md`*
@@ -40,7 +40,7 @@
 | Diesel | **$5.10** | 🔴🔴 |
 | Brent | **$108+** | 🔴🔴 |
 | HY OAS | **328bps** (RED >320) | 🔴 |
-| Savings Rate | **4.5% Jan** (up from 3.6% Dec) | 🟠 |
+| Savings Rate | **4.5% Jan** (Feb data Apr 9; up from 3.6% Dec) | 🟠 |
 | Urea NOLA | **$690s/mt** (was $475 early Mar, watch $800) | 🔴🔴 |
 | Russia AN | **SUSPENDED** | 🔴🔴 |
 | USDA Wheat Acres | **43.775M — LOWEST SINCE 1919** (-3.4% YoY) | 🔴🔴 |
@@ -51,6 +51,10 @@
 | Core PCE | **3.1% YoY** (Jan; simulated 3.27% Mar) | 🔴 |
 | GDP Q4 2025 | **0.7%** (revised down from 1.4%) | 🔴 |
 | GDPNow Q1 2026 | **2.0%** (Mar 23, down from 2.7% Mar 13) | 🟠 |
+| UMich Sentiment | **53.3 — RECESSIONARY** (sub-55, down from 56.6 Feb) | 🔴 |
+| CB Expectations | **70.9 — RECESSIONARY WARNING** (sub-80, 0.9pts from RED) | 🟠 |
+| Retail Sales MoM | **+0.6% Feb** (beat est; likely tariff front-loading) | 🟢 ⚠️ |
+| Retail Control Group | **+0.5% Feb** (strong but same front-loading caveat) | 🟢 ⚠️ |
 
 ---
 
@@ -133,7 +137,7 @@
 
 ## EXIT RULES
 - **Thesis kill:** Claims <220K 8+ weeks AND CC 90+ DQ declines 2 consecutive quarters
-- **Time-based:** Q1 consumer earnings (April) = mandatory review
+- **Time-based:** Q1 consumer earnings (April) = mandatory review → **See `EARNINGS_WATCH_Q1.md` for full calendar + watch metrics**
 
 *Next catalysts: ✅ $4/gal **FIRED** (Mar 31) | ✅ FL UI Wave 1 PASSED | ✅ USDA Plantings **PULLED** (wheat 107-yr low, corn -3.45M < 5M threshold) | ✅ JOLTS Feb **PULLED** (6.882M, ratio 0.91, hires COVID-low) | **Apr 3: NFP Mar into CLOSED market** (gap risk Apr 6) | Apr 26: FL UI Wave 2 | HY OAS 350 | $4.50/gal (~2-3 wks) | April CPI | Q1 earnings April*
 *Prior check-ins (Mar 20), K-shape evidence table, fertilizer calendar archived to `workbook/STATUS_archive_20260325.md`*

@@ -1,8 +1,8 @@
 Provider	Active Users	TPV Growth	Delinquency Rate (30+)	Delinquency Rate (60+)	Delinquency Rate (90+)	Late Fee Revenue %	Funding Cost	Stock Price	Status	Last Updated	Next Earnings	Notes
-Affirm	18.7M	+23% YoY	4.2%	2.8%	1.9%	~15%	8.5-9.0%	$57.23	🟢 GREEN	2025-Q3	2026-02-12	TPV growth strong; DQ rates elevated but stable; high funding costs compress margins
-Klarna	150M global (37M US)	+28% YoY	3.8%	2.3%	1.5%	Minimal (fee-light)	6.0-7.0%	Private (IPO pending)	🟢 GREEN	2025-Q4	2026-03 (IPO expected)	Strong growth; lower DQ vs peers; IPO delayed multiple times; profitability achieved Q2 2025
-Afterpay (Block)	24M US	+15% YoY	5.1%	3.4%	2.2%	0% (no late fees)	4.5-5.5%	$89.34 (SQ)	🟡 YELLOW	2025-Q3	2026-02-20 (Block earnings)	DQ crossing 5% threshold; Square integration complete; merchant-funded model under pressure
-PayPal BNPL	30M+ active	+8% YoY	3.2%	1.9%	1.2%	~10%	3.0-4.0%	$92.15	🟡 YELLOW	2025-Q3	2026-02-05	TPV growth slowing below 10% threshold; lowest funding cost (balance sheet); merchant competition intense
+Affirm	18.7M+	+30% YoY (Q2 FY26)	~4.2% (est)	~2.8% (est)	~1.9% (est)	~15%	Best since 2021 (sub-100bps ABS)	Beat est	🟢 GREEN	2026-02-05	2026-05-08 (Q3 FY26)	EPS $0.37 (beat $0.27). Card GMV +160%. Active cardholders +121%. CEO: "consumer quite healthy." Guidance: GMV growth decel to 30% Q3, 25% Q4. ABS funding sub-100bps = best since 2021. Growth strong but decelerating.
+Klarna	150M global (15.8M banking)	+32% YoY GMV ($38.7B Q4)	Stable per mgmt	Stable per mgmt	Stable per mgmt	Minimal	Improved	-22% from IPO	🟡 YELLOW	2026-02-19	2026-05 (Q1 2026)	IPO completed Sep 2025 (NYSE: KLAR). First $1B revenue quarter. Provisions improved 0.72%→0.65% of GMV. BUT: securities class action filed — alleged lending for fast-food deliveries to "financially unsophisticated consumers." Stock below IPO price. Banking consumers doubled to 15.8M. Fair Financing GMV +165%. Klarna Card volume +209%.
+Afterpay (Block)	24M+ US	+69% lending originations YoY	~1% loss rate overall	N/A	N/A	0% (no late fees)	N/A	Beat est (XYZ)	🟡 YELLOW	2026-02-27	2026-05 (Q1 2026)	Strongest quarter for first-time Borrow actives EVER. Higher losses Dec/Jan on new cohort mix shift (by design). 96% installments paid on time. Borrow originations +3x YoY. Bad debts $112.3M in 2024 (up from $82.9M 2023 = +35% YoY). Pre-Purchase launched Feb 2026. Aggressive growth = building risk pipeline.
+PayPal BNPL	30M+	+20% YoY ($40B+ 2025)	~3.2% (est)	~1.9% (est)	~1.2% (est)	~10%	3.0-4.0%	-19% on earnings	🟠 ORANGE	2026-02-03	2026-04-29 (Q1 2026)	CEO REPLACED (Chriss → Lores). Revenue $8.68B MISSED est $8.80B. EPS $1.23 missed. 2026 guidance: slightly negative to flat margins, EPS down low-single to flat. BNPL only visible to <15% of traffic. Market leader (35% share) but weakest execution. UPGRADED to ORANGE on miss + CEO change + weak guidance.
 
 # THRESHOLDS
 # 🟢 GREEN: DQ 30+ <4%, TPV growth >15%, stable funding
@@ -19,27 +19,25 @@ PayPal BNPL	30M+ active	+8% YoY	3.2%	1.9%	1.2%	~10%	3.0-4.0%	$92.15	🟡 YELLOW	
 # Repayment Confidence: Only 59% "very confident" (41% have doubts)
 # Credit Bureau: Affirm reporting since Jun 2025; Klarna/Afterpay resisting
 
-# KEY RISKS (Feb 2026)
+# KEY RISKS (Updated Apr 2026)
 # - Employment shock → conversion velocity = 0-3 months (faster than credit cards)
 # - 63% of users have multiple simultaneous BNPL loans (stacking = hidden leverage)
 # - $24-36B phantom debt unreported to credit bureaus
-# - Merchant-funded models break if merchants pull back (Afterpay, Klarna)
-# - Rising funding costs compress unit economics (Affirm especially vulnerable)
-# - Regulatory scrutiny increasing (CFPB 1033 rule, state-level licensing)
+# - Klarna class action: lending for fast-food deliveries to "financially unsophisticated consumers"
+# - Block aggressive growth (+3x Borrow, +69% lending) = building future loss pipeline
+# - PayPal CEO change mid-cycle = strategic uncertainty for market leader
+# - All 4 providers pursuing aggressive growth despite macro deterioration
+
+# CFPB 1033 DEADLINE: Apr 30 2026 (open banking data sharing)
+# When this hits, BNPL debt becomes MORE visible to lenders — could trigger tightening
 
 # WATCH FOR:
-# - PayPal TPV growth staying sub-10% → signals market saturation
-# - Afterpay DQ >6% → first to break given no-late-fee model
-# - Affirm funding cost >10% → refinancing crisis
-# - Klarna IPO delay beyond Q1 2026 → private funding stress
+# - PayPal Q1 2026 earnings Apr 29 — first report under new CEO
+# - Affirm Q3 FY2026 ~May 8 — GMV deceleration to 30%? DQ trajectory?
+# - Klarna Q1 2026 ~May — class action impact? Credit provisions rising?
+# - Block Q1 2026 ~May — new cohort losses normalizing or accelerating?
+# - CFPB 1033 implementation Apr 30 — BNPL debt visibility shock
 # - Any provider launching "hardship programs" or "payment flexibility" → RED FLAG
-
-# UPCOMING CATALYSTS:
-# 2026-02-05: PayPal Q4 earnings
-# 2026-02-12: Affirm Q2 FY2026 earnings
-# 2026-02-20: Block (Afterpay) Q4 earnings
-# 2026-03-??: Klarna IPO expected (watch for further delays)
-# 2026-04-30: CFPB 1033 implementation deadline (open banking data sharing)
 
 # TRANSMISSION TO BANKS:
 # BNPL stress → Consumer liquidity crisis → Credit card/auto DQ spike → Bank NCOs (REGINALD)

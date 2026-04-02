@@ -2,7 +2,7 @@ State	CC_DQ_90+	Auto_DQ_90+	Foreclosure_YoY	UI_Rate	Gig_Concentration	Insurance_
 # STATE STRESS DIFFUSION MODEL
 # Purpose: Identify "Next FL" — which states are following Florida's stress trajectory
 # Scoring: Each factor 0-3 (0=low stress, 3=critical), sum for composite
-# Updated: 2026-02-12
+# Updated: 2026-04-01 (national aggregates from NY Fed Q4 2025 rel. Feb 10; state-level detail partially refreshed)
 
 # TIER 1: CRITICAL (Following FL trajectory)
 FL	4.10%	6.2%	+190%	3.8%	22%	HIGH	-90%	21	1	🔴 CRITICAL	Canary state - all vectors converging; SSB 23% exposure
@@ -12,7 +12,7 @@ LA	4.2%	6.1%	+42%	4.8%	14%	HIGH	Negative	15	4	🟠 ELEVATED	Energy sector stress
 NV	3.5%	5.4%	+55%	5.2%	16%	MODERATE	Slowing	14	5	🟠 ELEVATED	Gaming/hospitality exposure; housing overvalued
 
 # TIER 2: WATCH (Stress building)
-MD	N/A	N/A	TOP-5	4.2%	21%	HIGH	Negative	17	6	🔴 CRITICAL	DOGE ground zero; federal worker 5.4% of workforce (#3 in nation); MBA Q4 DQ +87bps (#3 national); ICE Nov noncurrent +16.4% YoY (#1 national); housing cost burden 40-67% net income; 0-2mo contractor transmission confirmed. See MARYLAND_DEEP_DIVE_2026-02-18.md
+MD	N/A	N/A	TOP-5	4.2%	21%	HIGH	Negative	18	6	🔴 CRITICAL	DOGE ground zero. Lost 15K-25K federal jobs in 2025 (~9% of fed workforce in state). DC/MD/VA: -34,100 fed jobs Jan-Sep 2025. Fed workers = $26.9B annual earnings. FHA DQ up to 11.3%. Lowest-income zip codes: 90+ DQ surged 0.5%→3.0%. Governor Moore emergency actions. Composite UPGRADED +1 on confirmed job losses. See MARYLAND_DEEP_DIVE_2026-02-18.md
 AZ	3.0%	5.2%	+35%	4.0%	15%	ELEVATED	Slowing	13	7	🟡 WATCH	Phoenix office CRE; water stress; border exposure
 GA	3.4%	5.5%	+28%	3.9%	14%	MODERATE	Positive	12	7	🟡 WATCH	Atlanta diversified but CC stress elevated
 SC	3.3%	5.3%	+32%	3.6%	13%	MODERATE	Positive	11	8	🟡 WATCH	Manufacturing dependent; Charleston CRE
@@ -42,11 +42,22 @@ IL	2.6%	4.5%	+12%	4.8%	18%	MODERATE	Negative	10	13	🟡 WATCH	Chicago office CRE
 # 6. MD — ELEVATED TO CRITICAL 2026-02-18: DOGE transmission confirmed. See MARYLAND_DEEP_DIVE_2026-02-18.md
 
 # DATA SOURCES:
-# CC/Auto DQ: NY Fed state-level data (annual, Q4 2024 latest)
+# CC/Auto DQ: NY Fed state-level data (Q4 2025 released Feb 10 2026 — interactive data available but exact state numbers need manual pull from NY Fed website)
 # Foreclosures: ATTOM Data
 # UI Rate: BLS state unemployment
 # Gig: Interview Guys 2025 report
 # Insurance: State insurance commissioner reports
 # Migration: Census/moving company data
 
-# NEXT UPDATE: March 2026 (after NY Fed Q4 2025 state data release)
+# NY FED Q4 2025 KEY FINDINGS (Feb 10 2026):
+# - Total debt: $18.8T (+$191B QoQ)
+# - 4.8% of debt delinquent = highest since pre-GFC
+# - Auto 90+ DQ: 5.2% nationally (near GFC peak 5.3%)
+# - Deterioration CONCENTRATED in lower-income areas + declining home price areas
+# - Liberty Street Economics: "Where Are Mortgage Delinquencies Rising the Most?" confirms geographic concentration thesis
+# - Lowest-income zip codes: 90+ mortgage DQ surged from ~0.5% to ~3.0% by late 2025
+
+# GAP: Need to pull exact state-level CC/auto 90+ DQ from NY Fed interactive data tool for FL/TX/MS/LA/NV/MD/AZ
+# This requires accessing: https://www.newyorkfed.org/microeconomics/hhdc (interactive charts → state filter)
+
+# NEXT UPDATE: After state-level numbers pulled from NY Fed interactive tool
