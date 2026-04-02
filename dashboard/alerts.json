@@ -790,5 +790,14 @@
     "message": "APO recovered (now 110.21, threshold 110)",
     "value": 110.21,
     "threshold": 110
+  },
+  {
+    "id": 1774981900744,
+    "timestamp": "2026-03-31 18:31:40 UTC",
+    "type": "threshold",
+    "severity": "warning",
+    "message": "BIZD breached 15 (now 12.74)",
+    "value": 12.74,
+    "threshold": 15
   }
 ]
