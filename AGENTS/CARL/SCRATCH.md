@@ -1,41 +1,56 @@
 # CARL SCRATCH
-**Last session:** 2026-03-31 ~23:45 UTC
-**Type:** Data pulls (USDA, JOLTS), signal processing, SYF deep dive
+**Last session:** 2026-04-01 ~21:40 UTC
+**Type:** Coverage audit, gap closure (Tier 1 + Tier 2)
 
 ---
 
 ## WHAT HAPPENED
-1. **USDA Prospective Plantings pulled** — Corn 95.338M (-3.45M, above estimates). Wheat 43.775M = LOWEST SINCE 1919. Soy 84.7M (+3.49M). Corn cut below 5M HAWK threshold. Wheat is the big number — food CPI loading confirmed. KB-CARL-120/121.
-2. **JOLTS Feb pulled** — Openings 6.882M (-358K). Ratio 0.94→0.91 (deepening). Hires rate 3.1% = COVID-low. Quits 1.9% (8mo trapped). Feb data PREDATES Iran. KB-CARL-122.
-3. **3 new predictions** — CRL-09 (JOLTS Mar <0.88, 75%), CRL-10 (Food CPI >4%, 70%), CRL-11 (Hires ≤3.2% thru Q2, 85%). CRL-01 resolved as MISSED (timing).
-4. **Will's signal clippings processed** — UMich 53.3, Conf Board 70.9 expectations, ECB tariff passthrough, unsecured loans $276B record, import prices 4-yr high, K-shape bifurcation (airlines strong / dollar stores weak). KB-CARL-123-128.
-5. **SYF deep dive** — Big 5 prime "stable" (1.30% DQ, 2.0% NCO) BUT SYF NCO spiked 4.7%→5.8% in one month (+110bps). Book shrinking despite growth guidance. SYF was LOOSENING credit into deteriorating macro. Survivorship bias confirmed. KB-CARL-129-131. SYF upgraded to RED in STATUS.
-6. **2 outbox signals written** — LABOR (JOLTS deepening), REGINALD (SYF canary). Also shared SYF signal directly to Will for REGINALD.
+1. **Full coverage audit** — Identified 13 gaps ranked by severity. Top gaps: ABS CC trusts (7 PENDING vectors), Google Trends (never populated), all 6 sub-agents dormant 7 weeks, BNPL earnings missed, retail sales 3 months stale.
+2. **Segment A: Consumer Sentiment VX vectors added** — VX-CARL-SENT-01 (UMich 53.3, RED, sub-55 = recessionary) and VX-CARL-SENT-02 (CB Expectations 70.9, ORANGE, 0.9pts from RED). Both added to STATUS.md dashboard.
+3. **Segment B: Retail Sales + Savings Rate refreshed** — Jan 2026 retail -0.2%, Feb 2026 +0.6% (released today, beat est). Control group +0.5%. Both now GREEN but flagged as likely tariff FRONT-LOADING ahead of Liberation Day Apr 2. Savings rate stays 4.5% Jan (Feb data Apr 9). KB-CARL-132/133.
+4. **Segment C: Q1 Earnings Calendar built** — EARNINGS_WATCH_Q1.md created. JPM Apr 14, ALLY Apr 17, SYF Apr 21 (CRITICAL), COF Apr 21, AXP Apr 23. Phase 2: WMT May 14, TGT May 20-27, DLTR May 21, DG Jun 2. Monthly data drops mapped. Thesis review framework defined.
+5. **Segment D: BNPL earnings caught up** — PayPal UPGRADED to ORANGE (missed estimates, CEO replaced, stock -19%, weak guidance). Klarna IPO completed Sep 2025, class action filed (lending for fast-food deliveries). Block Borrow +3x YoY. Affirm strong. CFPB 1033 deadline Apr 30 flagged. BNPL_STRESS.tsv fully refreshed. KB-CARL-134-137.
+6. **Segment E: GIG sub-agent refreshed** — Dave 28DPD IMPROVED to 1.89% (beat guidance, moving away from 2.10% threshold). BUT broader gig oversupply confirmed — workers flooding in as labor market cools, earning 50-65% of prior pay, gas $4+ squeezing net income. FLOW-GIG-01 upgraded to ACTIVE. MoneyLion being acquired by Gen Digital. KB-CARL-138-139.
+7. **Segment F: State Diffusion updated** — MD composite UPGRADED to 18 (from 17). Lost 15K-25K federal jobs in 2025 (9% of state fed workforce). FHA DQ 11.3%. Lowest-income zip codes: 90+ mortgage DQ surged 0.5%→3.0%. NY Fed Q4 2025 confirms delinquency concentrated in lower-income + declining home price areas. KB-CARL-140.
 
 ## STATUS CHANGES
 | Item | Change |
 |------|--------|
-| JOLTS Ratio | 0.94 → 0.91 (deepening) |
-| USDA Wheat | Added — 43.775M, lowest since 1919 |
-| USDA Corn | Added — 95.338M, -3.45M |
-| SYF | 🟠 → 🔴 (NCO 5.8% spike) |
-| Predictions | +3 new, 1 resolved. Scorecard: 2 confirmed, 1 missed, 8 open |
+| VX-CARL-SENT-01 | NEW — UMich 53.3, RED |
+| VX-CARL-SENT-02 | NEW — CB Expectations 70.9, ORANGE |
+| VX-CARL-6.09 | 0% → +0.6% Feb, GREEN (front-loading caveat) |
+| VX-CARL-6.10 | -0.1% → +0.5% Feb, GREEN (front-loading caveat) |
+| PayPal BNPL | 🟡 → 🟠 ORANGE (CEO change, miss, weak guidance) |
+| Dave 28DPD | 1.95-2.00% → 1.89% (improved) |
+| FLOW-GIG-01 | MONITORING → ACTIVE (oversupply confirmed) |
+| MD Composite | 17 → 18 (DOGE job losses confirmed) |
+| EARNINGS_WATCH_Q1.md | NEW file created |
+| KB entries | +9 (KB-CARL-132 through 140) |
+| Discover | Now part of Capital One (acquired May 2025) |
 
 ## NEXT SESSION SHOULD
-1. **SYF monthly 8-K (March data)** — should drop mid-April. Check for NCO breach above 6%.
-2. **SYF Q1 2026 earnings (late April)** — guidance revision? "Non-restrictive" walk-back? Critical tell.
-3. **CRL-08 timeframe** — $4.50 gas by Apr 5 likely misses. Extend to mid-April.
-4. **Fannie MF DQ Feb 2026** — Still need this PDF. 0.74% watching 0.80% GFC breach (CRL-03, 90% conf).
-5. **NFP March (Apr 3)** — Into CLOSED market. Gap risk Apr 6. Watch for LABOR signal.
-6. **5 outbox signals awaiting HERMES:**
-   - SIG-CARL-LABOR-20260329-jolts-inversion.md
-   - SIG-CARL-LABOR-20260331-jolts-feb-deepening.md
-   - SIG-CARL-PROME-20260329-jolts-inversion.md
-   - SIG-CARL-REGINALD-20260327-fl-pincer.md
-   - SIG-CARL-REGINALD-20260331-syf-canary.md
-7. **1 inbox signal unprocessed:** SIG-CARL-20260329-gas-4-behavioral.md (separate spawn task)
-8. **Add SYF to monthly tracking cadence** — 8-K + earnings cycle
+1. **NFP March drops Apr 3** — Into CLOSED market. Gap risk Apr 6. Watch for LABOR signal.
+2. **Savings rate Feb drops Apr 9** — If fell while retail rose → consumers spending down savings.
+3. **UMich prelim April ~Apr 11** — Sub-50 = deep recession signal. Currently 53.3.
+4. **CPI March mid-April** — Food CPI acceleration? Gas passthrough visible?
+5. **JPM earnings Apr 14** — First Phase 1 financial. Start EARNINGS_WATCH_Q1.md tracking.
+6. **SYF earnings Apr 21** — THE critical report. NCO >6%? Guidance cut?
+7. **CFPB 1033 deadline Apr 30** — BNPL phantom debt visibility shock.
+8. **Retail Sales March ~May 1** — Front-loading test. If negative → Q2 cliff confirmed.
+9. **CRL-08 ($4.50 gas)** — Likely needs timeline extension past Apr 5.
+10. **Fannie MF DQ Feb** — Still need this PDF. 0.74% watching 0.80% GFC breach.
+11. **State Diffusion exact numbers** — Need manual pull from NY Fed interactive data tool for FL/TX/MS/LA/NV/MD/AZ state-level CC/auto 90+ DQ.
+12. **5 outbox signals still awaiting HERMES delivery.**
+13. **1 inbox signal unprocessed:** SIG-CARL-20260329-gas-4-behavioral.md
+
+## TIER 3 BACKLOG (not started)
+- ABS CC trust EDGAR pulls (Discover DCMT + Cap One COMET monthly 10-D)
+- Google Trends baseline population (sell plasma, pawn shop, eviction help)
+- SLOOS / Credit Tightening VX vector
+- Tariff pass-through tracking (broader than electronics)
+- Sub-agents DOC, NICK, POLLY, POP refresh
 
 ## URGENT
-- NFP March drops Apr 3 — into closed market, gap risk Apr 6
-- SYF March 8-K mid-April — first test of whether NCO spike continues
+- NFP March Apr 3 — into closed market, gap risk Apr 6
+- Liberation Day tariffs Apr 2 — watch for market reaction + consumer impact
+- SYF March 8-K comes WITH earnings Apr 21 (not separately)
