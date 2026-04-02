@@ -1,6 +1,14 @@
 # LABOR STATUS
 **Last Updated:** 2026-04-02 16:15 UTC | **Status:** 🔴🔴 CRITICAL — CLAIMS 202K (2-YR LOW, FL WAVE 1 INVISIBLE). SHADOW ADJUSTMENT ↑ +65K. ORACLE 10-30K. UNILEVER FREEZE. DOGE 385K. ADP +62K (HEALTHCARE ONLY). JOLTS HIRES = APR 2020 LOW. APR 10 CLAIMS = FL WAVE 1 LAG TEST. CONVERGENCE 56/65.
 
+**Signal Apr 2 — AM Scan (17:33 UTC):**
+
+**🟠 CHALLENGER MARCH CUTS: 60,602 (+25% MoM, -78% YoY).** Released today. Q1 2026 total: 217,632 — lowest Q1 since pre-DOGE base. YoY decline misleading: Mar 2025 had 275K from DOGE mass firings. Stripping DOGE base effect, 2026 tracking in line with 2025 pace. Tech led with 22,291 (Amazon 16K restructuring). Healthcare announced 17,107 cuts — most since Apr 2020 (notable given healthcare is the ONLY sector adding jobs in ADP). Hiring plans: just 5,306 — confirms low-hire, low-fire Hotel California. Key quote from Wall Street Pit: "limited firing, and payroll growth supported mostly by healthcare."
+
+**📊 WARN TRACKER UPDATE:** LayoffAlert.org: 766 WARN notices / 91,190 workers through Apr 2026 across 37 states. Consistent with our TrueUp tracking (85,156 / 208 events). Saks WARN filed — fulfillment center closures Mar-Apr.
+
+**📊 NO ADDITIONAL DATA RELEASES TODAY.** Claims reported yesterday. Challenger was the only scheduled release. NFP tomorrow (Good Friday — markets closed). Sunday night futures = key reaction window.
+
 **Signal Apr 2 — Shadow Adjustment Update (16:15 UTC):**
 
 **🔴🔴 CLAIMS 202K (WK ENDING MAR 28) — 2-YEAR LOW, FL WAVE 1 INVISIBLE:** Initial claims FELL to 202K, lowest in 2 years. This was the first data window to capture FL Wave 1 firings (fired Mar 24). ZERO signal. Either FL processing lag (1-2wk) or active suppression. Strengthens suppression thesis significantly.

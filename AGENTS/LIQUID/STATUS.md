@@ -25,6 +25,27 @@ Gating mechanics (OCIC $36B at 21.9%, OTIC $3.3B at 40.7%) are absorbing interna
 
 ---
 
+## Apr 2 AM Update — Post Quarter-End Day 2
+
+### SOFR Normalization: IN PROGRESS, NOT COMPLETE
+SOFR published today (reflects Apr 1): **3.65%** — down 3bps from 3.68% Q-end peak. Normalizing toward 3.63-3.64 target but not there yet. **Tomorrow (Apr 3) is the critical test.** If Apr 2 print (published Apr 3) does NOT reach 3.63-3.64, that's the structural leak signal we flagged. Current trajectory: 3.68 → 3.65 → should be ~3.63 tomorrow. On track but not confirmed.
+
+### 10Y Reversal: Rally Fading
+10Y backed up to **4.36%** from 4.30% yesterday (+6bps). The safe-haven bid is fading as inflation concerns resurface (Iran war oil pass-through). This reversal WIDENS the hedged-return gap for Japanese buyers again → repatriation pressure returns. Bond market closed Friday for Easter — thin liquidity through end of week.
+
+### Key Today
+- **No major Treasury auctions today** (standard bill auctions only in early-April window)
+- **No Fed speakers of note** — Powell spoke earlier this week (wait-and-see on Iran war effects, "one-time" tariff framing)
+- **Markets expect Fed on hold all year** — no cavalry for credit stress
+- **FT: Foreign CB UST holdings at NY Fed lowest since 2012** — absorption capacity structurally impaired
+- **Buffett buying Treasuries** — symbolic confidence bid, but one buyer doesn't replace central bank systematic demand
+- **House Financial Services hearing on capital markets fraud** — watch for PC/BDC-related testimony
+
+### Plumbing Assessment: 🟡 NORMALIZING BUT INCOMPLETE
+SOFR-IORB back to 0.00% (green). CP-TBill spread 0.16% (green). No repo stress signals visible in overnight markets. The quarter-end passed orderly — SRF likely did its job. But the real test is whether SOFR sticks at 3.63-3.64 by tomorrow, or settles higher (structural).
+
+---
+
 ## Apr 1 EOD Update — Post Quarter-End
 
 ### Quarter-End Outcome: Orderly But Confirming
@@ -48,13 +69,13 @@ CCC OAS at **994bps**, back below 1000 from >1000 on Mar 30. Could be quarter-en
 
 | Metric | Value | Prior | Δ | Status |
 |--------|-------|-------|---|--------|
-| **SOFR** | 3.68% | 3.63% | +5bps | 🟡 Q-end spike, expect normalization |
-| **SOFR-IORB** | 0.03% | — | — | 🟢 Within normal |
+| **SOFR** | 3.65% | 3.68% | -3bps | 🟡 Normalizing — need 3.63-3.64 by Apr 3 |
+| **SOFR-IORB** | 0.00% | 0.03% | -3bps | 🟢 Normal |
 | **RRP** | ~$1B est | $0.99B | ~flat | 🔴 ZERO buffer persists |
-| **10Y yield** | 4.30% | 4.46% | -16bps | 🟡 Rally on Powell dovish |
-| **HY OAS** | 328bps | ~319bps | +9bps | 🔴 LIQ-01 BREACHED |
-| **CCC OAS** | 994bps | >1000bps | ~-6bps | 🟡 Pullback from breach |
-| **CP-TBill spread** | 0.15% | — | — | 🟢 No ST funding stress |
+| **10Y yield** | 4.36% | 4.30% | +6bps | 🟡 Rally fading, inflation fears |
+| **HY OAS** | 316bps | 328bps | -12bps | 🟡 Pulled back below LIQ-01; watch retest |
+| **CCC OAS** | 981bps | 994bps | -13bps | 🟡 Below 1000; Q-end cleanup |
+| **CP-TBill spread** | 0.16% | 0.15% | +1bp | 🟢 No ST funding stress |
 | **BIZD** | -5.4% today | — | — | 🔴 PC institutional exit |
 | **Fed hike prob** | ~20% | ~35% | -15pp | 🟢 Dovish shift |
 

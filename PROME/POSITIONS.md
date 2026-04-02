@@ -77,7 +77,7 @@
 | FLG | $13P | Jul 17 | 3 | $0 (0%) | $270 | $0.95 |
 | AAL | $10P | Jun 18 | 2 | +$24 (+14.28%) | $192 | $0.90 |
 | EGBN | $25P | Jun 18 | 1 (M) | -$46 (-29.49%) | $110 | $1.57 |
-| OWL | $9.5P | Apr 2 | 1 | $0 (0%) | $50 | $0.66 |
+| OWL | $9.5P | Apr 2 | ~~1~~ CLOSED | — | — | $0.66 → sold ~$1.66 (~$100 profit) |
 | KELYA | $7.5P | Aug 21 | 1 | $0 (0%) | $75 | $0.76 |
 
 *Closed today: AAL $10P Jul (1 contract, +$115.33), SOFI $16P May (1 contract, +$173.33)*
@@ -96,7 +96,7 @@
 *Sold today: 5 AAPL at $248.415, 3 SLV at $33.145. USO $118C Mar 27 expired/sold at $5.63.*
 
 ## Pending Decisions
-- 🔴 **OWL $9.5P Apr 2: $0.50** — 5 DAYS. Lottery ticket. Hold through OBDCII if it drops.
+- ✅ **OWL $9.5P Apr 2: CLOSED** — Sold for ~$100 profit. OWL at $8.44, thesis validated.
 - 🔴 **APO $100P Apr 17: $2.10** — 21 days. -47.85% all time. HOLD to Apr 7, stop $113.
 - 🔴 **KRE Jun → Dec rolls** — do before/after Q-end? Pricing needed.
 - 🟠 **FXY: 4 shares at $57.36** — USD/JPY at 159.5, intervention warnings. Add?

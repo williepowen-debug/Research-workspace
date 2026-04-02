@@ -1,14 +1,20 @@
-# LAST_COMPLETION — TIMING folder refresh
+# LIQUID AM Scan — Apr 2, 2026
 
-**Date:** 2026-04-02 ~17:00 ET
-**Task:** Update FORGE/timing/ documents with Blue Owl dual gating data and Apr 2 market levels
+## LIQUID AM BRIEF — Apr 2, 2026
+
+Post quarter-end normalization is underway but incomplete. SOFR printed 3.65% (Apr 1 data), down 3bps from the 3.68% Q-end peak — on track toward the 3.63-3.64 target but not there yet. Tomorrow's print is the critical test: if SOFR doesn't reach 3.63-3.64 by Apr 3, that's a structural leak, not seasonal. The good news: SOFR-IORB is back to 0.00% (flat), CP-TBill spread holds at 0.16% (green), and there are no visible repo stress signals. The SRF appears to have absorbed Q-end pressure as designed. No major Treasury auctions or Fed speakers today; bond market closed Friday for Easter means thin end-of-week liquidity.
+
+The broader picture is mixed. HY OAS pulled back sharply to 316bps from 328bps — back below the LIQ-01 320bps trigger, suggesting some Q-end mark cleanup. CCC OAS similarly dropped to 981bps from 994bps. These reversions look seasonal, but the trajectory from mid-March (when both were well below these levels) remains concerning. The 10Y reversed its safety rally, backing up to 4.36% (+6bps) on renewed inflation fears from Iran war oil pass-through. Foreign CB Treasury holdings at the NY Fed at the lowest since 2012 per FT — this is the structural absorption problem that won't fix itself. Dealer inventory stress (JPM's $2.6B Janus absorption) and the MS $85B transfer continue to consume G-SIB balance sheet capacity precisely when PC managers need repo access most.
+
+Key watch through tomorrow: SOFR normalization completion is the single most important near-term signal. If it sticks at 3.65%+ through Apr 3, escalate to structural assessment. OBDCII report deadline Apr 3 will provide hard PC data. The HY OAS pullback buys time but doesn't change the trajectory — 316 today vs. 328 yesterday is noise; the question is whether it retests 320+ next week.
 
 ---
 
 ## COMPLETION
+
 STATUS: ✅ DONE
-CHANGED: `FORGE/timing/STATUS.md`, `FORGE/timing/CONVERGENCE_TIMELINE.md`
-RESULT: Updated both timing files with Apr 2 live data. HY OAS 316 (down from 342 quarter-end spike), CCC OAS 981, CCC/HY ratio now 3.15 — HIGHER than the 2.96 quarter-end reading because HY reverted faster than CCC. Blue Owl OTIC (40.7% gated, $3.3B) and OCIC (21.9% gated, $36B) added to all relevant sections; fund gate count updated from 7+ to 11+; PE-insurer dump pattern confirmed across 4 firms (Apollo→Athene, Ares→IHAM, KKR→Global Atlantic, Blue Owl→Kuvare at 99.7¢ related-party).
-GAPS: None — all 5 specified updates completed.
-WILL_NEEDS: Blue Owl→Kuvare 99.7¢ pricing — worth flagging that real secondary bids (Saba/Cox) diverge materially; if Will wants a position sizing implication memo on the insurer transmission channel acceleration, BROCK can run it.
-FOLLOW-UP: BROCK should update its own STATUS.md to reflect OTIC/OCIC gating as Stage 2→3 transition confirmation. LIQUID should assess whether Blue Owl warehouse line exposure implies Stage 3→4 trigger timeline is now <4 weeks vs prior 4-6 week estimate.
+CHANGED: [AGENTS/LIQUID/STATUS.md, AGENTS/LIQUID/LAST_COMPLETION.md]
+RESULT: SOFR normalizing at 3.65% (-3bps from Q-end 3.68%), must reach 3.63-3.64 by Apr 3 or structural leak confirmed. HY OAS pulled back to 316bps (below LIQ-01 320 trigger). 10Y reversed to 4.36% (+6bps). No repo stress signals — plumbing green, normalization yellow.
+GAPS: NY Fed SOFR page didn't render rate table (descriptive text only); used context-provided 3.65% figure. No real-time RRP data available.
+WILL_NEEDS: None
+FOLLOW-UP: Check SOFR print tomorrow (Apr 3) for normalization completion — this is the structural vs. seasonal determination date.
