@@ -1,5 +1,5 @@
 # REGINALD STATUS
-**Last Updated:** 2026-03-31 22:30 UTC | **Status:** 🔴🔴🔴 CRITICAL
+**Last Updated:** 2026-04-01 19:15 UTC | **Status:** 🔴🔴🔴 CRITICAL
 
 ---
 
@@ -26,7 +26,7 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 |-----------|-------|--------|
 | HY OAS | **321bps** (Mar avg, FRED/ICE BofA) | 🔴 AT 320 threshold. G4 gate partially met. |
 | CCC OAS | **984bps** (Mar 29) | 🔴 16bps from 1000 forced-selling threshold. But CCC concentrated in cable/media — downgraded as systemic indicator (see SCRATCH). |
-| KRE | **$63.67** (Mar 27) | 🟠 Above $60 support, off 52wk high $74 |
+| KRE | **$65.15** (Apr 1) | 🟠 Above $60 support, off 52wk high $74. Q2-start bounce. |
 | Brent | **~$116** (Mar 29 gap, Houthis entered war) | 🔴🔴 New high. Hormuz closed since Mar 2. |
 | S&P 500 | **-7.4% March** (5th consecutive weekly loss) | 🔴 Recession odds at highest level in years. |
 | 10Y UST | **4.42%** (Mar 27) | 🔴 Hit 4.48% intraday (highest since Jul 2025) |
@@ -49,7 +49,7 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 
 ## RESEARCH — OZK
 
-**KB: 159 rows, 17 groups** | **Earnings: Apr 16 (~16 days)** | **Price: $44.85 (Mar 30)** | **Consensus: Hold (2B/5H/1S), PT $53.71, EPS ~$1.50/Q**
+**KB: 159 rows, 17 groups** | **Earnings: Apr 16 (15 days)** | **Price: ~$46-47 (Apr 1, bouncing)** | **Consensus: Hold (2B/5H/1S), PT $53.71, EPS ~$1.50/Q**
 - 10 prompts done (#1-7, 15, 16, 20). 5 remaining (#8 Metropolitan, #9 Affinius, #10 sell-side, #13 peer vintage, #19 metro conditions)
 - LIFE_SCI deepest cluster (21 rows). RaDD 3.3% leased, maturity Aug 2028.
 - Temple 8 short thesis published. OZK = reservoir thesis (stress accumulates → maturity wall forces recognition).
@@ -60,7 +60,7 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 
 ## RESEARCH — WAL
 
-**KB: 70 rows, 10 groups** | **Earnings: Apr 21 (~21 days)** | **EARNINGS_PREP: B+→A-** | **Price: ~$67-68 (Mar 27) ⚠️ BELOW $78 THRESHOLD** | **Consensus: Mod Buy (11B/4H), PT $97.73**
+**KB: 70 rows, 10 groups** | **Earnings: Apr 21 (20 days)** | **EARNINGS_PREP: B+→A-** | **Price: ~$68 (Apr 1) ⚠️ BELOW $78 THRESHOLD** | **Consensus: Mod Buy (11B/4H), PT $97.73**
 - Architecture complete (Mar 25): INDEX, THESIS, STATUS, SCENARIOS, WEAKNESSES, EARNINGS_PREP, EXTERNAL_PROMPTS.
 - 5 external prompts ready. EARNINGS_PREP upgraded Mar 26 with new signals.
 - **NEW (Mar 31):** `LEADERSHIP.md` created — full C-suite, board, audit committee, auditor, CRE leadership, ownership profile. CFO Idnani corrected to Vishal (not Deepak). CRO Emily Nachlas profiled. Guggenheim (TPG RE Finance Trust) on Risk committee, NOT Audit — expertise/oversight gap identified.
@@ -102,8 +102,8 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 
 | Next Up | Date | Event |
 |---------|------|-------|
-| 🔴 | **Mar 31** | First Brands auction — $800M gap (OTTO T-15) |
-| | Apr 1 | eSLR relaxation effective (G-SIBs only) |
+| ⏳ | **Mar 31** | First Brands auction — $800M gap (OTTO T-15). Results pending. |
+| ✅ | Apr 1 | eSLR relaxation effective (G-SIBs only) — TODAY |
 | | Apr 10 | CPI (captures oil shock) |
 | 🔴 | **Apr 16** | **OZK Q1 earnings** |
 | 🔴 | Apr 20-29 | Bank earnings wave (ZION → WAL → VLY → EGBN) |
@@ -116,7 +116,7 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 | Condition | Current | Threshold | Fired? |
 |-----------|---------|-----------|--------|
 | Claims >300K | ~213K | LABOR → all ORANGE→RED | Not yet |
-| HY OAS >320bps | **317** (Mar 27) | CARL → credit confirmed | 🔴 Previously fired, slight retreat |
+| HY OAS >320bps | **~321** (Mar avg); HYG $79.56 (Apr 1) | CARL → credit confirmed | 🔴 At threshold. |
 | HY OAS 350 (freeze) | ~317 | Issuance freeze | 🟠 |
 | CLO AAA >165bps | ~125bps | LIQUID → BDC transmission | Not yet |
 | iTraxx Senior Fin >100bps | ~95bps | EU→US contagion (HANS) | 🟠 |
@@ -170,7 +170,7 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 
 | Metric | Threshold | Current | Note |
 |--------|-----------|---------|------|
-| WAL | <$78 | **~$67-68** | Breached. Hidden CRE thesis accelerating. Analyst downgrades confirmed. |
+| WAL | <$78 | **~$68** (Apr 1) | Breached. Hidden CRE thesis accelerating. Analyst downgrades confirmed. |
 | HY OAS | >320bps | 317bps | Previously breached (hit 320-328), slight retreat. Still elevated. |
 
 ---
