@@ -24,8 +24,8 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 
 | Indicator | Value | Status |
 |-----------|-------|--------|
-| HY OAS | **328bps** (Apr 1) | 🔴 Breached 320 again, widening. Diverges from equity rally. |
-| KRE | **~$64.35** (Apr 1, +1.07%) | 🟠 Bounced on oil/peace hopes. No institutional accumulation pattern. |
+| HY OAS | **316bps** (Apr 2) | 🟠 Tightened 12bps overnight (328→316). Ceasefire hope rally. Still above 300 floor. |
+| KRE | **$65.89** (Apr 2, +0.07%) | 🟠 Flat after yesterday's bounce. No follow-through. |
 | Brent | **~$99-100** (Apr 1 intraday, briefly <$100) | 🟠 Peace hopes pulled it off highs. Still elevated. |
 | 10Y UST | **4.42%** (Mar 27) | 🔴 Hit 4.48% intraday (highest since Jul 2025) |
 | Office CMBS DQ | **11.2%** (Feb 2026, Trepp) — pulled back from 12.34% Jan ATH on 5 loan mods | 🔴 |
@@ -33,8 +33,9 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 | FHLB Advances | ~$480B (issuance +31% YoY) | 🟠 Contingency behavior |
 | Bank Reserves | $2.8T — 4yr low, G-SIB concentrated | 🔴 |
 | Private Credit Default | 5.8% TTM (Jan Fitch), MS projects 8%. Bad PIK 6.4% (vs 2.5% in 2021). | 🔴🔴 Record |
-| PC Mainstream | Economist + Bloomberg + NPR all Apr 1. "Signs of strain" / "redemption crisis." Narrative inflection. | 🔴🔴 NEW |
-| Blue Owl OBDC II | Permanent gating (Feb). $2.50/sh return-of-capital (~30% NAV) by Mar 31. Liquidation path. | 🔴🔴 NEW |
+| PC Mainstream | Economist + Bloomberg + NPR all Apr 1. "Signs of strain" / "redemption crisis." Narrative inflection. | 🔴🔴 |
+| Blue Owl OBDC II | Permanent gating (Feb). $2.50/sh return-of-capital (~30% NAV) by Mar 31. Liquidation path. | 🔴🔴 |
+| Blue Owl OCIC/OTIC | **Apr 2:** OCIC 21.9% redemption requests, OTIC 40.7%. Both capped at 5%. $988M honored / ~$3.2B trapped (OCIC). $179M honored / ~$1B trapped (OTIC). OWL -2.9%. | 🔴🔴🔴 NEW |
 | Blackstone BCRED | Raised quarterly redemption cap 5%→7.9% in Q1 to meet demand. Gate not hit but pressure rising. | 🔴 NEW |
 | Leveraged Loan ICR | Share with ICR <1.0x doubled to 20% (from ~10% in 2019). Forced selling by gated BDCs next. | 🔴🔴 NEW |
 | FL Foreclosures | +35% YoY, 12th consecutive increase | 🔴🔴 |
@@ -110,6 +111,7 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 | **Mar 31** | **First Brands auction** — $800M gap, recovery data feeds BROCK + REGINALD (OTTO T-15) |
 | ~~Apr 1~~ | ~~eSLR relaxation effective~~ — DONE. Now live. G-SIBs benefit, regionals don't. |
 | **Apr 1** | **BIZD -5.4%** — BDC/PC stress day. KRE +1.07% divergence. Economist/Bloomberg/NPR all publish PC crisis pieces. |
+| **Apr 2** | **Blue Owl OCIC/OTIC dual gating confirmed.** 21.9%/40.7% redemption requests, 5% cap. $4.2B trapped. OWL -2.9%. Claims 202K (near 2yr low). Flagstar upgraded by Moody's. |
 | Apr 10 | CPI (captures oil shock) |
 | **Apr 16** | **OZK Q1 earnings — detonation event** |
 | Apr 20-29 | Q1 bank earnings wave (ZION → WAL → VLY → EGBN) |
@@ -179,7 +181,7 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 | Metric | Threshold | Current | Note |
 |--------|-----------|---------|------|
 | WAL | <$78 | **~$67-68** | Breached. Hidden CRE thesis accelerating. Analyst downgrades confirmed. |
-| HY OAS | >320bps | **328bps** | 🔴 Re-breached Apr 1. Widening while equities rally = classic late-cycle divergence. |
+| HY OAS | >320bps | **316bps** (Apr 2) | 🟠 Tightened below 320 on ceasefire rally. Watch for re-breach. |
 
 ---
 
