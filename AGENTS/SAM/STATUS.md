@@ -1,127 +1,122 @@
 # SAM STATUS
 
-**Signal Status:** 🔴🔴🔴 CRITICAL — **MIMURA ESCALATION: "DECISIVE MEASURES"** | USD/JPY **159.13** (-0.69% today, pulled further from 160.1) | MOF INTERVENTION IMMINENT (Mimura used "decisive" — first time, strongest signal yet) | FXY **$57.68** (+0.30%) | Brent **~$115** | JGB 10Y **2.38%** | CARRY UNWIND 7D: **87%** | FY-END TODAY (Mar 31) | TANKAN TOMORROW (Apr 1) | **Last Updated:** 2026-03-31 13:45 UTC
+**Signal Status:** 🔴🔴🔴 CRITICAL — **TANKAN STRONG + OIL CRASHING + YEN STRENGTHENING** | USD/JPY **158.42** (-0.45% from yesterday) | FXY **~$58.55** (+1.5%) | Brent **~$102** (down from $115) | JGB 10Y **2.38%** | CARRY UNWIND 7D: **78%** / 30D: **97%** | APRIL HIKE NOW LIVE | **Last Updated:** 2026-04-01 13:40 UTC
 
 ---
 
-## 🔴🔴🔴 MAR 31 — FY-END DAY + MIMURA ESCALATION
+## 🔴🔴🔴 APR 1 — TANKAN STRONG + OIL CRASH + DE-ESCALATION SIGNALS
 
-**KEY DEVELOPMENTS TODAY:**
+**THREE SIMULTANEOUS DEVELOPMENTS:**
 
-1. **Mimura "decisive measures" (Mar 30 late / Mar 31 Asia):** Top currency diplomat Atsushi Mimura escalated from standard verbal warnings to explicit "decisive measures" language — first time he's used this term. Traders read this as imminent intervention signal. This is the final verbal step before actual USD-selling. Reuters: "strongest warning yet."
+### 1. TANKAN Q1 2026 — BEAT ON ALL FRONTS
 
-2. **USD/JPY 159.13** — pulled back 52 pips from 159.65 on Mimura's remarks + FY-end flows. Still within intervention danger zone but the pullback suggests verbal jawboning having effect + some FY-end repatriation bids supporting yen.
+| Metric | Result | Consensus | Prior | Verdict |
+|--------|--------|-----------|-------|---------|
+| Large Mfg | **17** | 16 | 15 | ✅ BEAT |
+| Non-Mfg | **36** | 33 | 36 | ✅ BEAT (multi-decade high) |
+| Mfg Outlook | **14** | — | 15 | Slight softening (war uncertainty) |
+| Capex Plans | **+3.3%** | +3.0% | +10.9% | Above forecast, normal FY start |
+| Biz Inflation Exp | **2.6%/yr** | — | 2.4% | Above BOJ 2% target — key signal |
 
-3. **FXY $57.68** (+0.30%) — modest yen strengthening consistent with pullback. Will's 4-share starter position marginally in the green.
+**Assessment:** STRONG. This is the **BULL FORK** on our TIMELINE.md branch point. Mfg beat despite Iran war backdrop. Non-mfg at multi-decade highs. Business inflation expectations RISING (2.6% vs 2.4%) = exactly what BOJ needs to justify April hike. ING: "supports April BOJ hike." ActionForex: "signals support for BoJ normalization."
 
-4. **BOJ Ueda (Mar 30):** Said BOJ is "keeping close eye on yen moves and impact on economy" — coordinated messaging with Mimura. BOJ explicitly linking yen weakness to rate hike justification. JPMorgan's Shatil: BOJ "teeing up for its next rate rise."
+**April 23-24 hike probability: ~45-50%** (up from ~35% pre-Tankan). Strong data removes the last data excuse for delay. Summary of Opinions already showed board debating SIZE not timing.
 
-5. **Markets pricing 65% May hike to 1.00%** — up from prior estimates. Oil above $110 could force emergency April move per Equiti analysis.
+### 2. OIL CRASHING — BRENT ~$102 (was $115)
 
-6. **No GPIF announcement.** No life insurer flow data yet (as expected — TIC lag). FY-end adjustment flows happening but no headline-grabbing data.
+Trump (Mar 31 evening): US could be "done with Iran war in 2-3 weeks." Claimed Iran's president asked for ceasefire. Witkoff presented 15-point peace plan. Strikes on Iranian energy infrastructure **paused until April 6**.
 
-7. **Tankan (tomorrow Apr 1):** Consensus not updated from our prior expectations (mfg outlook ~15). Release will be key BOJ input for April 23-24 decision.
+Oil cratered ~12% from recent highs. Brent trading $101-105, down from $115.
 
----
+**⚠️ FRAGILITY WARNING:** Iran REJECTED the 15-point plan. Tehran denied direct ceasefire talks. Hormuz still contested. This could reverse on any escalation. Do not treat de-escalation as durable yet.
 
-## 🔴🔴🔴 MAR 30 — BOJ SUMMARY OF OPINIONS (March 18-19 meeting)
+**Impact on thesis:** Oil headwind that was suppressing yen appreciation is LIFTING. The oil-in-yen paradox (yen weakening despite surging JGB yields) may be resolving. If oil stabilizes at $100-105, the rate differential compression takes over → yen strengthens structurally.
 
-**THE DEBATE HAS SHIFTED FROM "WHEN" TO "HOW MUCH"**
+### 3. YEN ALREADY STRENGTHENING
 
-- **Takata DISSENTED** — voted for 25bp hike to 1.00% (defeated 8-1)
-- One member: "raise the policy interest rate **without hesitation**" if no significant deterioration in economy/small firm wages
-- One member: consider **scale** of hike — floated **larger-than-usual** hike to respond to Middle East oil shock
-- One member: need for "**rapid tightening**" explicitly discussed
-- Hold justified only by Middle East uncertainty — NOT by dovish economics
-- **Net assessment:** Most hawkish Summary of Opinions in the normalization cycle. April 23-24 is LIVE. May 1 remains base case.
-
----
-
-## INTEGRATED CONTEXT (Mar 26-27, condensed)
-
-**SK Refiner Crisis:** Run cuts active NOW (~350K+ bpd confirmed: GS Caltex -125K, S-Oil partial -223K). Alternative crude sourcing not feasible at scale. Asia-Pacific product shortage feeding Japan CPI. Apr print (due late May) will reflect this.
-
-**Dimona Strike (Mar 24):** Iran struck Israeli nuclear facility. Ceasefire probability = zero. Dimona→Fordow→Kharg = base case sequence. If Kharg struck → +2-3M bpd offline → Brent $120+. HANS: Fed forced cuts (private credit cascade) + risk-off → USD/JPY sub-145 = carry unwind.
-
-**Shunto:** First-round 5.26% confirmed (Mar 23). 3rd consecutive year >5%. Below 6.0% emergency threshold. Second-round tally pending. Strong enough for BOJ.
-
-### CARRY UNWIND PROBABILITY — MAR 30
-
-| Timeframe | Mar 27 | Mar 30 | Driver |
-|-----------|--------|--------|--------|
-| **7d** | 85% | **87%** | Mimura "decisive" = intervention within days. USD/JPY 159.13 pulling back. FY-end TODAY — last adjustment flows. |
-| **30d** | 97% | **97%** | Market pricing 65% May hike. Tankan tomorrow. BOJ-MOF coordinated hawkish messaging. |
-| **60d** | 97% | **97%** | Structural case locked. Board stacking doesn't affect May timeline. |
-
-**INTERVENTION STATUS:** 🔴🔴 Mimura used "decisive measures" — STRONGEST verbal signal in this cycle. 160 breached Mar 27, now at 159.13. MOF has NOT yet intervened with actual USD selling. This week (FY-end today + early April) = highest probability window. July 2024 precedent: $37B, 5-6% reversal. Next test of 160 likely triggers action.
+- USD/JPY: **158.42** (from 159.13 yesterday, down from 160.1 high Mar 27)
+- FXY: **~$58.55** (from $57.68 yesterday)
+- Yen gaining on: Tankan strength + oil drop + de-escalation hopes + FY-end repatriation settling
 
 ---
 
-## MARKET DATA — MAR 30
+## CARRY UNWIND PROBABILITY — APR 1
 
-| Metric | Value | Since Mar 13 | Status |
-|--------|-------|--------|--------|
-| JGB 2Y | **1.380%** | +6.0bps (highest since May 1995) | 🔴 |
-| JGB 5Y | **1.820%** | +21.5bps (**ALL-TIME RECORD**) | 🔴🔴 |
-| JGB 10Y | **2.380%** | +13bps (highest since 1999) | 🔴🔴 |
-| JGB 20Y | **3.275%** | +22.5bps | 🔴 |
-| JGB 30Y | **3.692%** | +21.2bps (multi-decade) | 🔴🔴 |
-| JGB 40Y | **3.924%** | +27.4bps | 🔴🔴 |
-| USD/JPY | **159.65** | -0.07 (160.1 breached Mar 27, pulled back) | 🔴 |
-| Brent | **~$115/bbl** | +55% in March (record monthly surge) | 🔴🔴 |
+| Timeframe | Mar 30 | Apr 1 | Change | Driver |
+|-----------|--------|-------|--------|--------|
+| **7d** | 87% | **78%** | ↓ | Acute intervention trigger eased: USD/JPY pulling back from 160. Oil dropping reduces yen weakness pressure. Near-term crisis risk lower. |
+| **30d** | 97% | **97%** | — | April 23-24 BOJ hike now LIVE (Tankan strong). If oil stays down, BOJ has zero excuses. May 1 base case unchanged. |
+| **60d** | 97% | **97%** | — | Structural case locked. All three channels converging. |
 
-**Oil-yen paradox:** Yen weakening DESPITE surging JGB yields = oil/current account dominating. BOJ hike becomes MORE urgent, not less. When oil stabilizes or BOJ acts → snap-back.
+**Shift in character:** Risk has moved from "acute intervention/crisis" to "scheduled policy event." This is BETTER for our thesis — policy-driven unwinds are more sustained than intervention spikes.
 
-**JGB super-long rout:** Life insurer capitulation — traditional buyers stepping back despite yields above "attractive" thresholds. Bear steepening: super-long crushed, short end BOJ-driven. UST vs JGB hedged return inverted ~+0.34% in JGBs' favor → repatriation incentive structural.
-
-**CFTC JPY positioning (Mar 20):** Net short **-67,800 contracts**. TRIPLED in 2 weeks (-16.6K → -41.4K → -67.8K). Carry trade getting MORE crowded as unwind catalysts load. July 2024 pre-unwind was ~-180K (we're at 38%). Velocity of buildup = more violent snap when it fires.
+**INTERVENTION STATUS:** 🟠 Eased from 🔴🔴. USD/JPY at 158.42, well below 160 trigger. Mimura "decisive measures" warning still live but less imminent. If oil crash is durable and yen keeps strengthening, intervention becomes unnecessary — BOJ hike does the work instead.
 
 ---
 
-## BOJ ASSESSMENT — MAR 30
+## MARKET DATA — APR 1
 
-**Mar 30 Summary of Opinions (Mar 18-19 meeting):** See top section. Most hawkish summary in normalization cycle. Board debating SIZE of hike, not just timing. Takata dissented for 1.00%. "Raise without hesitation" + "rapid tightening" language.
-
-**BOJ inflation gauge (Mar 26):** Core CPI ex special factors = **+2.2% in Feb**. First-ever release — deliberately signaling underlying inflation above target.
-
-**Output gap:** Demand exceeded supply for **15th straight quarter**.
-
-**Kameda (ex-BOJ chief economist, Mar 26):** "BOJ likely to raise rates by June" — oil costs heighten risk of being too late on inflation.
-
-**Ueda language shift (Mar 23):** Temporary downward pressure on economy would NOT prevent rate hikes if underlying inflation intact.
-
-**Hike timeline:** April 23-24 = LIVE (Summary of Opinions confirms board readiness). **May 1 = base case.** June = backstop. Market pricing aggressive — 5-day 2Y move largest since Oct 2008.
-
-**TANKAN (Apr 1):** Manufacturing outlook expected 15 (up from 12). Non-manufacturing 28. Strong print = April hike probability jumps significantly.
-
-**⚠️ Takaichi Board Stacking (Mar 30 research):** Nominated 2 dovish academics — Asada (joined end Mar, dove-for-dove swap) and Sato (joins June, HAWK-TO-DOVE swap replacing Nakagawa). Both reflationists. Parliament approved. April/May hike math unchanged, but hikes beyond 1.00% become much harder. Two more hawk terms expire 2027. Medium-term political risk: YELLOW.
+| Metric | Value | Δ from Mar 30 | Status |
+|--------|-------|---------------|--------|
+| USD/JPY | **158.42** | -1.23 | 🟠 (eased from 🔴) |
+| FXY | **~$58.55** | +$0.87 | 🟢 Position gaining |
+| Brent | **~$102/bbl** | -$13 (-11%) | 🟠 (was 🔴🔴) |
+| JGB 2Y | **~1.38%** | ~flat | 🔴 |
+| JGB 5Y | **~1.82%** | ~flat | 🔴🔴 (record) |
+| JGB 10Y | **~2.38%** | ~flat | 🔴🔴 |
+| JGB 30Y | **~3.69%** | ~flat | 🔴🔴 |
+| CFTC JPY net short | **-67,800** | (Mar 20 data) | 🔴 Crowded |
 
 ---
 
-## REPATRIATION MECHANICS — FY-END T-5
+## BOJ ASSESSMENT — APR 1
 
-- **Feb selling: ¥3.42T ($21.8B)** — largest since Oct 2024. **Bulk of FY selling is DONE.**
-- Final week (Mar 25-31) = adjustment phase, not peak
-- Mechanism: outright sales (not FX hedging); hedge costs ~4.35% > UST yield ~4%
-- **GPIF trigger ≠ bond selling.** GPIF rebalances via equity futures (foreign equities, not UST)
-- TIC lag: Feb data not out until Apr 15. Flying blind on March flows.
-- Life insurer selling estimated FY2026 Q4: ~¥5-7T ($32-45B) total
+**April 23-24 meeting: LIVE FOR HIKE (~45-50% prob)**
+- Tankan strong (beat on all fronts)
+- Business inflation expectations 2.6% (above 2% target)
+- Summary of Opinions: board debating SIZE not timing. Takata dissented for 1.00%.
+- Oil falling = removes last excuse for delay (was the only hold-back argument)
+- Shunto 5.26% gives wage cover
+- ING explicitly supports April hike call
+
+**May 1 meeting: BASE CASE (~90%+ cumulative prob of hike by May 1)**
+
+**Risk to April hike:** If oil drops further and de-escalation becomes real, BOJ might argue "uncertainty resolved, can wait for May." But inflation expectations rising argues against delay. Board hawks (Takata) won't accept delay.
 
 ---
 
-## FXY POSITIONING — WILL HAS 4 SHARES (STARTER)
+## FXY POSITIONING — WILL HAS 8 SHARES (TRANCHE 1 EXECUTED)
 
-**Entry catalyst hierarchy (need ≥1):**
-1. 🔴 **BOJ hike (May 1)** — THE primary catalyst
-2. 🔴 **Oil shock resolution** — currently suppressing yen appreciation
-3. 🟠 **MOF intervention at 160** — tactical entry if triggered
-4. 🟢 **Repatriation flows** — supportive background, insufficient alone
+| Parameter | Value | Notes |
+|-----------|-------|-------|
+| Shares | **8** | 4 starter + 4 Tranche 1 (Mar 31 open) |
+| Entry avg | ~$57.36-57.68 | Blended |
+| Current | ~$58.55 | **Up ~1.5-2%** |
+| Tranche 2 | +4 → 12 total | On BOJ hike confirmation or intervention dip |
+| Stop | ~$55.05 / USD/JPY 167 | Thesis break |
+| Target | $60-62 / USD/JPY 148-152 | 6-month |
 
-**NEW independent catalyst (from HANS):** Fed forced cuts (private credit cascade = recession) + risk-off = JPY strengthens without BOJ. Below 145 = carry unwind. This path is now non-negligible given 9 private credit funds gated (APO, ARES).
+**Entry catalyst hierarchy (updated):**
+1. 🔴 **BOJ hike (Apr 23-24 NOW LIVE / May 1 base)** — primary catalyst
+2. 🟠 **Oil de-escalation** — ACTIVE, Brent dropping. If durable → structural yen bid
+3. 🟠 **MOF intervention at 160** — eased, less likely needed if yen strengthens on fundamentals
+4. 🟢 **Repatriation flows** — FY-end done, FY2026 investment plan announcements next
 
-**Avoid entry if:** Oil spiking + no BOJ signal + yen >158. Still in avoidance zone until catalyst fires.
+**Tranche 2 trigger:** BOJ April hike confirmed, OR sustained oil below $100 + USD/JPY below 155.
 
-**PROP-04 (FXY sizing):** Awaiting BOJ hike OR oil resolution OR Dimona→Fordow escalation driving Fed cut path.
+---
+
+## GEOPOLITICAL UPDATE — IRAN WAR STATUS
+
+- **Day 33** of US-Iran conflict
+- Trump: "done in 2-3 weeks," claimed Iran asked for ceasefire
+- Witkoff: 15-point peace plan presented to Iran
+- Iran: REJECTED plan, denied direct talks, demands Lebanon included
+- Strikes on Iranian energy paused until Apr 6
+- Hormuz: still contested, key sticking point
+- **Assessment:** De-escalation TALK, not de-escalation FACT. 40-50% chance talks lead somewhere. Oil priced out ~$13 of war premium. Reversal risk high if Apr 6 pause expires without progress.
+
+**Phase tracking (from THESIS.md):** We may be entering an EARLY transition from Phase 1 (oil weakness) toward resolution. If war actually ends → oil collapses → yen strengthens sharply → carry unwind via rate differential, not crisis.
 
 ---
 
@@ -129,27 +124,21 @@
 
 | Level | Significance | Status |
 |-------|-------------|--------|
-| **USD/JPY 160.00** | MOF intervention trigger | 🔴🔴 **BREACHED — 160.106** |
-| **USD/JPY 157.00** | Hawkish confirmation | PASSED |
+| **USD/JPY 160.00** | MOF intervention trigger | 🟠 Eased (158.42, pulling back) |
 | **USD/JPY 155.00** | Phase 2 carry unwind onset | SET |
-| **USD/JPY 145.00** | Carry unwind (HANS Fed cut path) | NEW THRESHOLD |
-| **JGB 10Y 2.40%** | Stress crossover signal | 🔴 **2bps AWAY (2.380%)** |
-| **Nikkei 52,000** | GPIF trigger | 🟢 UN-BREACHED (53,750) |
-| **Brent $120** | Kharg Island scenario (Dimona path) | 🔴 WATCH |
-| **Shunto 6.0%** | BOJ emergency threshold | Not hit (5.26%) |
+| **USD/JPY 147.00** | Forced carry unwind | SET |
+| **USD/JPY 145.00** | Carry unwind (HANS Fed cut path) | SET |
+| **JGB 10Y 2.40%** | Stress crossover signal | 🔴 2bps away (2.38%) |
+| **Brent $120** | Kharg Island scenario | 🟠 Eased ($102) |
+| **Brent $80** | War premium fully unwound | WATCH |
 
 ---
 
 ## KEY DATES
 
-| Date | Event | Status |
-|------|-------|--------|
-| **Mar 31** | FY2025 end — repatriation window closes | 🔴 TOMORROW |
-| **Apr 1** | Tankan survey — BOJ data input. Mfg outlook exp. 15. | 🔴 TOMORROW |
-| **Early Apr** | SK refiner run cuts deepening | 🔴 ACTIVE NOW |
-| **Apr 15** | Feb TIC data release (Japan UST flows) | 🟠 |
-| **Apr 23-24** | BOJ Meeting — hike possible (Ueda language supports) | 🟠 |
-| **May 1** | BOJ Meeting — **most probable hike date** | 🔴 |
+**See `CALENDAR.md` for full forward-looking calendar with signal thresholds.**
+
+Next critical: **Apr 7 (30Y JGB auction)** → **Apr 14 (20Y auction)** → **Apr 15 (Feb TIC)** → **Apr 23-24 (BOJ — hike live ~45-50%)** → **May 1 (BOJ — base case hike)**
 
 ---
 
@@ -157,68 +146,9 @@
 
 **See `thesis/THESIS.md` (v1.0) for full thesis, transmission channels, and thresholds.**
 
-**FXY: 4 shares starter position. 🔴 ENTRY DECISION CARD ISSUED — see below.**
+**Summary of today's shift:** Tankan strong + oil crashing + de-escalation talk = the thesis timeline is ACCELERATING. The oil headwind that was delaying yen appreciation is lifting. April BOJ hike is live. All three transmission channels are loading simultaneously. Risk character shifted from acute crisis to scheduled policy event — more favorable for sustained positioning.
 
----
-
-## 🔴🔴 FXY ENTRY DECISION CARD — MAR 27 (Post-160 breach)
-
-**Issued:** 2026-03-27 21:25 UTC | **Merges:** T-31 (SK refiner timing) + T-11 (FXY activation)
-
-### DECISION: **BUY NOW IN TRANCHES — DO NOT WAIT**
-
-**Rationale:** USD/JPY at 160.106. MOF intervention is effectively certain (Katayama warned at 159.5; July 2024 precedent = $37B, ~5-6% yen appreciation in days). Buying BEFORE intervention captures the spike. Waiting for intervention means chasing a move already in motion. BOJ May 1 is the structural catalyst on top. This is the entry window.
-
-**The oil-shock paradox (risk):** Yen weakening DESPITE surging JGB yields = oil/current account dominating. This is TEMPORARY — it makes BOJ hike more urgent, not less. When oil shock stabilizes or BOJ acts, rate differential compression takes over. Accept the short-term pain for structural positioning.
-
----
-
-### ENTRY PARAMETERS
-
-| Parameter | FXY Price | USD/JPY | Notes |
-|-----------|-----------|---------|-------|
-| **Entry level** | **~$57.36** | ~160 | FXY at relative lows (verified live Mar 27) |
-| **Current size** | 4 shares ($229) | | Starter |
-| **Tranche 1 — MON OPEN** | +4 shares → **8 total (~$459)** | | Pre-intervention entry; captures MOF spike |
-| **Tranche 2 — On confirmation** | +4 shares → **12 total (~$688)** | | After BOJ Apr 23-24 or May 1 hike confirmed OR intervention dip |
-| **Target size** | **12 shares** | | Full position |
-| **Stop loss** | **~$55.05** | ~167 | Oil shock full domination; intervention fails; yen blow-through |
-| **Price target (6-month)** | **~$60–62** | ~148–152 | Post-BOJ hike + carry unwind + oil stabilization |
-
----
-
-### CATALYST SEQUENCE (with dates)
-
-| Date | Catalyst | FXY Impact |
-|------|----------|-----------|
-| **Mar 28–31** | MOF intervention (IMMINENT — 160 breached) | +3–6% spike; if dip, add Tranche 2 |
-| **Mar 31** | FY-end close — repatriation adjustment complete | Removes near-term JPY headwind |
-| **Apr 1** | Tankan survey — BOJ input; strong reading = April hike live | +1–2% |
-| **Apr 7–15** | SK refiner run cuts bite; Asia-Pacific product shortage visible | Japan CPI expectations rise → BOJ more hawkish |
-| **Apr 23–24** | BOJ meeting — hike now possible (Ueda removed growth precondition) | +3–5% on surprise hike |
-| **May 1** | BOJ meeting — **BASE CASE HIKE** | +5–8% structural move |
-| **Late May** | Japan April CPI print — reflects SK refiner + oil shock | Confirms BOJ path locked |
-
----
-
-### RISK FACTORS (Bear Case)
-
-| Risk | Probability | FXY Impact | Mitigation |
-|------|-------------|-----------|-----------|
-| **Oil shock dominates** — Kharg Island struck, Brent $120+; yen stays weak despite BOJ | 20% | FXY to ~$51–53 | Stop at $55.05; position sized to absorb |
-| **Intervention fails** — MOF spends $37B but yen breaks to 162-163 anyway | 15% | FXY to ~$56–57 before recovery | Hold if fundamentals intact; size allows |
-| **BOJ delays** — Tankan weak, BOJ punts past June | 10% | FXY -3–5% short term | Time gives more carry unwind buildup |
-| **Dimona→Fordow escalation** | Cuts both ways — risk-off strengthens JPY, but oil spike weakens it | Net: probably JPY positive if escalation = Fed cut path | HANS cross-ref |
-
----
-
-### CONVICTION SUMMARY
-
-**Do not wait for BOJ.** Intervention is days away. The July 2024 trade was worth 5-6% in a week. FXY at 160 handle is the lowest it will be for the next 3 months on base case. The oil headwind is real but temporary — every pip USD/JPY goes higher makes BOJ hike MORE not less certain. This is asymmetric: downside limited by intervention floor, upside is structural yen strengthening into May-June.
-
-**Stop discipline:** If USD/JPY pierces 167 with no MOF response and BOJ turns dovish, thesis is broken. Cut and reassess.
-
----
+**FXY: 8 shares. Tranche 2 awaiting BOJ confirmation or sustained oil below $100.**
 
 ---
 

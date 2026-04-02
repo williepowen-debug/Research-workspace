@@ -8,6 +8,27 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-04-01 — TANKAN RESOLVED (BULL FORK) + OIL CRASH + TIMELINE EXPANSION
+
+### TIMELINE Updated
+**Author:** SAM
+**Action:** Major update — marked 2 events RESOLVED, added 5 new branch points, added oil de-escalation scenario.
+
+**What changed:**
+1. **Tankan RESOLVED — BULL FORK.** Large mfg 17 (beat cons 16), non-mfg 36 (beat cons 33), biz inflation expectations 2.6% (above BOJ 2% target). April 23-24 hike probability: ~45-50% (up from ~35%).
+2. **FY-end RESOLVED.** No outsized flows. Window closed.
+3. **Oil crash added.** Trump ceasefire talk → Brent ~$102 (from $115). De-escalation fragile — Iran rejected 15-point plan. Apr 6 strike pause expiry added as branch point.
+4. **JGB auctions added.** Apr 7 (30Y) and Apr 14 (20Y) — not in original TIMELINE. These are cross-agent 🔴 triggers if BTC <2.0x.
+5. **New tail scenario: oil de-escalation (25%).** War ends → Brent $80-90 → yen strengthens on fundamentals → FXY target faster with less volatility. Reduced "oil dominates" from 20% → 15%.
+6. **Branch point table expanded** from 7 to 10 entries, with status tracking column added.
+
+**Old view:** 7 branch points, Tankan pending, no auction dates, oil $115 headwind active
+**New view:** 10 branch points, Tankan resolved bull, auctions tracked, oil headwind possibly lifting, de-escalation path emerging
+
+**Note on THESIS:** No version bump. Thesis structure unchanged — all 3 channels intact, conviction HIGH. The shift is in TIMING (accelerating) and RISK CHARACTER (crisis → policy-driven). If April hike probability exceeds 60% or oil de-escalation firms up, consider v1.1 to update probabilities.
+
+---
+
 ## 2026-03-31 — MIMURA ESCALATION + MARKET PRICING UPDATE
 
 ### TIMELINE Updated

@@ -21,12 +21,14 @@ You think in scenario-weighted distributions, not point estimates. You respect u
 2. **Read `thesis/THESIS.md`** — core thesis (versioned), transmission channels, conviction, thresholds
 3. **Read `thesis/TIMELINE.md`** — forward-looking expected progression, branch points, what's next
 4. **Read `STATUS.md`** — scenario probabilities, signal dashboard, carry unwind assessment
-5. **Execute the task**
-6. **Write results back to `STATUS.md`** — update dashboard, scenario weights, predictions
-7. **If thesis-level change → update `thesis/THESIS.md`** (new channel, threshold breach, prediction resolved, conviction shift) **AND log to `thesis/CHANGELOG.md`** with old view → new view. Bump version: major (X) for structural change, minor (Y) for refinement.
-8. **If timeline event resolves or view changes → update `thesis/TIMELINE.md`** (mark events RESOLVED with outcome, update forward view, add new branch points) **AND log to `thesis/CHANGELOG.md`**.
-9. **Research detail → `research/outputs/`**
-10. **Before finishing → update `MEMORY.md`** — rewrite Session Notes with handoff for next session. Add any new Feedback/Findings. Prune stale entries. Promote thesis-level findings to THESIS.md and remove from memory.
+5. **Read `CALENDAR.md`** — upcoming dates, auctions, data releases, signal thresholds
+6. **Execute the task**
+7. **Write results back to `STATUS.md`** — update dashboard, scenario weights, predictions
+8. **Update `CALENDAR.md`** — mark resolved events ✅, add new dates discovered, prune past events
+9. **If thesis-level change → update `thesis/THESIS.md`** (new channel, threshold breach, prediction resolved, conviction shift) **AND log to `thesis/CHANGELOG.md`** with old view → new view. Bump version: major (X) for structural change, minor (Y) for refinement.
+10. **If timeline event resolves or view changes → update `thesis/TIMELINE.md`** (mark events RESOLVED with outcome, update forward view, add new branch points) **AND log to `thesis/CHANGELOG.md`**.
+11. **Research detail → `research/outputs/`**
+12. **Before finishing → update `MEMORY.md`** — rewrite Session Notes with handoff for next session. Add any new Feedback/Findings. Prune stale entries. Promote thesis-level findings to THESIS.md and remove from memory.
 
 
 
@@ -155,6 +157,7 @@ The transition from Phase 1 to Phase 2 is the critical moment. Oil-driven weakne
 | `thesis/PREDICTIONS.tsv` | Falsifiable claims derived from thesis. Track outcomes for calibration. |
 | `thesis/CHANGELOG.md` | Audit trail — all thesis/timeline changes with old → new view, version tags, dates. |
 | `STATUS.md` | Live state — scenarios, dashboard, carry assessment. **Primary memory.** |
+| `CALENDAR.md` | Upcoming dates, auctions, data releases, signal thresholds. **Read at boot.** Prune weekly. |
 | `TRADE.md` | Position ideas (FXY) |
 | `red/` | RED (devil's advocate) — counter-thesis, challenges, log. **SAM reads, does not edit.** |
 | `research/outputs/` | RP-SAM research packages |
