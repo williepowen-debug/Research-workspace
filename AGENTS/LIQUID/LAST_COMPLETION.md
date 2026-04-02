@@ -1,8 +1,14 @@
-# LIQUID EOD Completion — April 1, 2026
+# LAST_COMPLETION — TIMING folder refresh
 
-**STATUS:** ✅ Complete
-**CHANGED:** HY OAS 319→328 (LIQ-01 breached), SOFR 3.63→3.68 (+5bps Q-end orderly), 10Y 4.46→4.30 (-16bps Powell dovish), BIZD -5.4% (PC institutional exit), CCC OAS >1000→994 (pullback), Fed hike prob 35→20%
-**RESULT:** Quarter-end passed without blowout but confirmed zero-RRP vulnerability. HY OAS definitively breached 320 trigger — 22bps from 350 freeze. BIZD crash signals Stage 3→4 transition in private credit. 10Y rally masks credit stress (bonds bid + HY widening = risk-off). Proposal 4 (HYG puts) validated. Proposal 5 (BCRED) may accelerate.
-**GAPS:** No RRP hard data for Mar 31 yet (publishes tomorrow). No SRF usage data for Q-end. OBDCII report pending Apr 3.
-**WILL_NEEDS:** Review HYG $75P Jun roll timing — LIQ-01 confirmed, delta may warrant adding or rolling to Sep. BIZD -5.4% may warrant Proposal 5 timeline acceleration.
-**FOLLOW-UP:** Monitor SOFR Apr 2-3 for normalization (if stays >3.65 = structural). OBDCII Apr 3 for PC hard data. Track HY OAS trajectory toward 350.
+**Date:** 2026-04-02 ~17:00 ET
+**Task:** Update FORGE/timing/ documents with Blue Owl dual gating data and Apr 2 market levels
+
+---
+
+## COMPLETION
+STATUS: ✅ DONE
+CHANGED: `FORGE/timing/STATUS.md`, `FORGE/timing/CONVERGENCE_TIMELINE.md`
+RESULT: Updated both timing files with Apr 2 live data. HY OAS 316 (down from 342 quarter-end spike), CCC OAS 981, CCC/HY ratio now 3.15 — HIGHER than the 2.96 quarter-end reading because HY reverted faster than CCC. Blue Owl OTIC (40.7% gated, $3.3B) and OCIC (21.9% gated, $36B) added to all relevant sections; fund gate count updated from 7+ to 11+; PE-insurer dump pattern confirmed across 4 firms (Apollo→Athene, Ares→IHAM, KKR→Global Atlantic, Blue Owl→Kuvare at 99.7¢ related-party).
+GAPS: None — all 5 specified updates completed.
+WILL_NEEDS: Blue Owl→Kuvare 99.7¢ pricing — worth flagging that real secondary bids (Saba/Cox) diverge materially; if Will wants a position sizing implication memo on the insurer transmission channel acceleration, BROCK can run it.
+FOLLOW-UP: BROCK should update its own STATUS.md to reflect OTIC/OCIC gating as Stage 2→3 transition confirmation. LIQUID should assess whether Blue Owl warehouse line exposure implies Stage 3→4 trigger timeline is now <4 weeks vs prior 4-6 week estimate.

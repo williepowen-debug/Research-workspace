@@ -1,6 +1,6 @@
 # CONVERGENCE TIMELINE — How Early Are We?
 
-**Created:** 2026-03-30 | **Last Updated:** 2026-03-30 22:00 UTC
+**Created:** 2026-03-30 | **Last Updated:** 2026-04-02 17:00 UTC
 
 ---
 
@@ -72,7 +72,7 @@ Map each thesis leg to its historical analog, identify where we are in that sequ
 | Stage | Description | 2026 Status | Evidence |
 |-------|-------------|-------------|----------|
 | 1 | Shadow banking blowups | ✅ **COMPLETED** | Tricolor Ch.7 Sep'25, First Brands Sep'25, BlackRock TCP -19% NAV Q4'25, Blue Owl permanent halt Feb'26 |
-| 2 | Retail/semi-liquid gating | 🔴 **ACTIVE** | 7+ funds gated Q1 2026, $4.6B trapped, Goldman projects $45-70B outflows 2026-27 |
+| 2 | Retail/semi-liquid gating | 🔴 **ACTIVE** | 11+ funds gated Q1-Q2 2026, $4.6B+ trapped, Goldman projects $45-70B outflows 2026-27. Blue Owl dual gating (Apr 2) = largest single event. |
 | 3 | Insurance/regulatory pressure | ⚠️ **EARLY SIGNALS** | Treasury meeting w/ insurance regulators Apr 1, Egan-Jones investigation, NAIC found ratings 3 notches inflated |
 | 4 | Bank pullback | 🔲 **VERY EARLY** | JPM re-marking Mar 11, Barclays ABL pullback Mar 25, Deutsche Bank flagged €26B exposure |
 | 5 | Pension forced selling | 🔲 **NOT YET** | But pensions now hold PC directly (CalPERS 8% target, $16.4B) — unlike 2007 |
@@ -92,8 +92,8 @@ Map each thesis leg to its historical analog, identify where we are in that sequ
 | Stage | Description | 2007 Timing | 2026 Status |
 |-------|-------------|-------------|-------------|
 | 1 | Gates / redemption limits | Mar 2007 | ✅ Done (Feb 2026) |
-| 2 | Cash substitution / rotation | Apr-May 2007 | ✅ Happening now |
-| 3 | Financing tightens | May-Jun 2007 | ⏳ Early (Barclays ABL pullback Mar 25) |
+| 2 | Cash substitution / rotation | Apr-May 2007 | ✅ **CONFIRMED** — Blue Owl OTIC 40.7%/OCIC 21.9% gated, $1.4B sold to Kuvare at 99.7¢ (related-party). $4.6B+ trapped across 11+ funds. |
+| 3 | Financing tightens | May-Jun 2007 | ⚠️ **EARLY** — Barclays ABL pullback Mar 25. LIQUID: warehouse line non-renewals = Stage 4 trigger, 4-6 week timeline. |
 | 4 | Honest marks / writedowns | Jul-Aug 2007 | ⏳ Pre-stage (Treasury meeting w/ insurance regulators Apr 1) |
 | 5 | CLO spillover | Aug-Sep 2007 | ❌ Not yet |
 | 6 | Bank impairment | Oct+ 2007 | ❌ Not yet |
@@ -110,15 +110,18 @@ Map each thesis leg to its historical analog, identify where we are in that sequ
 | Apollo Debt Solutions | $15.1B | 11.2% | 5% | Investors got 45 cents on dollar |
 | Ares Strategic Income | $10.7B | 11.6% | 5% | Gated |
 | Morgan Stanley North Haven | $7.6B | 10.9% | 5% | Gated |
-| Blue Owl Capital Corp II | N/A | N/A | N/A | **Permanently halted** redemptions, sold $1.4B across 128 companies |
+| Blue Owl Capital Corp II | N/A | N/A | N/A | **Permanently halted** redemptions, sold $1.4B across 128 companies (separate vehicle from OTIC/OCIC below) |
+| **Blue Owl OTIC** | $3.3B | 40.7% | 5% | Gated Apr 2026 |
+| **Blue Owl OCIC** | $36B | 21.9% | 5% | Gated Apr 2026 |
 
-**Q4 2025 redemptions nearly TRIPLED from prior quarter to 4.71% of beginning-quarter NAV.**
+**Q4 2025 redemptions nearly TRIPLED from prior quarter to 4.71% of beginning-quarter NAV. As of Apr 2, 11+ funds gated with $4.6B+ trapped.**
 
 ### Accelerants vs. 2007
 
 1. **Treasury already engaging at Stage 2-3.** In 2007, government didn't engage until Stage 5+. Either proactive intervention (slows cascade) or problem is worse at this stage.
 2. **Egan-Jones ratings bomb** — unique 2026 accelerant with no 2007 parallel (see below).
 3. **PE-insurer nexus** didn't exist at scale in 2007. PE-controlled insurers now direct $700B. Athene surplus 2.4% vs 7.2% industry avg; ~1/5 of investments at Athene and Global Atlantic are loans to affiliated funds.
+4. **Fund gates: 11+ active** (as of Apr 2) — Blue Owl dual gating is the largest single gating event. $4.6B+ trapped. PE-insurer dump pattern now confirmed across 4 firms: Apollo→Athene, Ares→IHAM, KKR→Global Atlantic, **Blue Owl→Kuvare** ($1.4B at 99.7¢, Apr 2026). Note: 99.7¢ is NOT a market price — it's a related-party transaction. Real secondary bids (Saba/Cox) are offering discounts to locked-up holders.
 
 ---
 
@@ -257,6 +260,14 @@ The "Bermuda Triangle" strategy — alt-manager → captive insurer → offshore
 - Athene surplus **2.4%** vs 7.2% industry avg
 - ~1/5 of investments at Athene and Global Atlantic are **loans to affiliated funds** (circular exposure)
 - 94% distressed exchange rate = actively suppressing information production (worse than 2007 CDO opacity because no ABX equivalent exists for real-time pricing)
+
+**PE-Insurer Dump Pattern — Now Confirmed Across 4 Firms (Apr 2, 2026):**
+- Apollo → Athene
+- Ares → IHAM
+- KKR → Global Atlantic
+- **Blue Owl → Kuvare** ($1.4B at 99.7¢, Apr 2026)
+
+Blue Owl sold $1.4B from OTIC/OCIC portfolios to Kuvare Insurance (related party) at 99.7¢ on the dollar. **This is NOT a market price.** Real secondary market bids from distressed buyers (Saba Capital, Cox Enterprises) are offering meaningful discounts to locked-up holders. The 99.7¢ price only exists because Kuvare is an affiliated entity. This is the same playbook Apollo ran with Athene — using the captive insurer as a dumping ground for assets that cannot be sold at par in the open market.
 
 ### Trigger Events to Watch (Ranked)
 
