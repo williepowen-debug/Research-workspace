@@ -1,100 +1,40 @@
 # LIQUID STATUS
-**Last Updated:** 2026-03-30 17:45 UTC | **Agent:** LIQUID | **Status:** 🔴🔴🔴 MAXIMUM STRESS — QUARTER-END TOMORROW + ZERO RRP + CCC OAS >1000 🔴 + SOFR UPTICK PATTERN
+**Last Updated:** 2026-04-01 16:15 ET | **Agent:** LIQUID | **Status:** 🔴🔴 ELEVATED — Q-END PASSED (SOFR +5bps orderly) + HY OAS BREACHED 320 + BIZD -5.4% PC STRESS + 10Y RALLY
 
 ---
 
-## Mar 25-26 Inbox Integration (NEW)
+## Apr 1 EOD Update — Post Quarter-End
 
-### Nuclear Escalation — Scenario D 78%
-Iran struck near Dimona nuclear facility Mar 23 (180 injured, air defenses penetrated). Israel conducting "unprecedented" Tehran strikes. HANS: ceasefire probability door now **closed**. Main path: Dimona → Fordow/Natanz → Kharg Island (-2-3M bpd additional). Brent $120+ scenario activated. UST dynamics: safe-haven demand vs Gulf SWF political cover to sell (Ghalibaf). **Any risk-on positioning from recent rally = trap.**
+### Quarter-End Outcome: Orderly But Confirming
+SOFR published today (reflects Mar 31 Q-end): **3.68%** (+5bps from 3.63%). Within our base case of 3-8bps spike. NOT a 2019-style blowout — SRF likely absorbed the pressure. But the +5bps confirms zero-RRP vulnerability is real. Should normalize back to ~3.63-3.64% by Apr 2-3.
 
-### Private Credit — Stage 3 Confirmed
-CNBC Mar 25: "Private credit's zero-loss fantasy is coming to an end." 9 funds gated in 8 weeks. >$2B trapped. BlackRock HPS $26B = largest single gate. ARES 11.6% requests vs 5% cap. MS projects 8% distress rate. Stage 3 = forced marks → NAV compression → credit facility draws → public market selling. ARESSI reports Mar 26, OBDCII Mar 27–Apr 3. **BCRED Q2 (May/June) = Proposal 5 structural test on track.**
+### HY OAS: LIQ-01 TRIGGER CONFIRMED
+HY OAS now **328bps** — definitively through our 320 trigger. Was 319 (1bp below) on Mar 30. CDX divergence thesis validated: derivatives led, cash followed. **22bps from 350 freeze level.** Trajectory matters more than level — 9bps in 2 sessions is acceleration.
 
-Contagion to LIQUID domain (HANS): EU LP forced redemptions from APO/ARES → USD demand spike → EUR/USD basis going negative → ECB dollar swap line watch if basis > -50bps.
+### BIZD -5.4%: Private Credit Liquidity Stress
+Single-day 5.4% drop in BDC index = institutional de-risking, not retail panic. Confirmations: IFP Advisors cut BIZD 91%, Investment Partners cut GSBD 68.2% (13F filings). This is Stage 3 → Stage 4 transition signal: forced marks → NAV compression → **institutional exits**. BCRED Q2 thesis (Proposal 5) accelerating ahead of schedule.
 
-### Japan FY-End Repatriation — Accelerating
-JGB 10Y at 2.315% new high (+5.5bps, Mar 23). Hedged UST return: **-0.34%** vs JGB 2.27% — widest gap since 2007. 7/10 major life insurers reducing foreign bonds. Feb 2026: ¥3.42T net foreign bond sales. FY Q4 estimate: ¥5-7T ($32-45B) of which ~$13-22B UST-specific. **Structural swing: $50-120B/yr from buyer to seller.** Cross-currency basis blowout = forced repatriation marker. Watch indirect bidder rates at upcoming auctions.
+### 10Y Rally to 4.30%
+10Y dropped to **4.30%** from 4.46% (-16bps). Powell: tariffs = "one-time price bump," Fed hike probability fell to 20% from 35%. Safe-haven bid + dovish repricing. **BUT:** this rally masks credit stress — bonds bid while HY widens = classic risk-off divergence. TLT -0.5% today suggests duration not uniformly bid.
 
-### $14T IG Supply Wall (Quantified)
-$10T UST matures in next 12 months (33% of outstanding — highest ever) + $2T deficit + $2T corporate = **$14T IG supply in 2026**. Annual debt interest $1.22T (exceeds defense + Medicare). Treasury net position: -$41.72T. Doom loop: war → energy → inflation → no cuts → higher debt service → more borrowing at higher rates. Circle has no exit while strait is closed.
-
-### Gas → Credit Transmission (CARL Mar 25)
-Gas $3.983/gal (+34%). Payment hierarchy compression: bottom 60% cuts CC payments first. **Mar 25 shock → mid-April misses → May/June DQ prints.** Subprime auto at 7.1% DQ + gas squeeze = ABS trust early amortization trigger watch Q2.
+### CCC OAS: Slight Pullback
+CCC OAS at **994bps**, back below 1000 from >1000 on Mar 30. Could be quarter-end mark cleanup. Watch if it re-breaches this week — if so, the dip was noise.
 
 ---
 
-## AM Scan Update — Mar 30 (1:45 PM ET)
+## Plumbing Dashboard (Apr 1)
 
-### SOFR Trajectory Into Quarter-End
-SOFR published today (reflects Mar 27): **3.63%**. Weekly pattern: 3.62 (Mon Mar 23) → 3.65 (Thu Mar 26) → 3.63 (Fri Mar 27). Window dressing uptick mid-week, slight pullback Fri. **Tomorrow (Mar 31) SOFR will reflect today's activity — first true quarter-end read publishes Apr 1 AM.** LongForecast tracking shows intraday SOFR conditions at ~3.65 today. Trend: +3bps from weekly base; historical Q-ends add 5-21bps (NY Fed 2024 speech: peaked 21bps above prior week avg in Dec Q-end). Base case: SOFR 3.68-3.84% at quarter-end. Red trigger 3.70 could breach.
-
-### 13-Week T-Bill Auction (10:30 AM ET Today)
-Specific results not yet indexed on TreasuryDirect (JS-rendered). Fiscal data shows last updated Mar 28 — today's results expected by EOD. Watching for high rate vs prior 4.24% area and bid-to-cover (flight-to-safety demand = high BTC; stress demand = elevated rate). **Cannot confirm results yet — gap.**
-
-### RRP: Effectively Zero
-Latest: $0.992B (Mar 27). Pattern: $0.777-$1.123B range all week — functional zero, no buffer. At year-end Dec 2025, banks borrowed $74.6B from SRF. Quarter-end March historically smaller but zero RRP + 20Y settlement creates identical structural setup.
-
-### TLT Today
-$86.71 (+1.25%) — bonds bid today. Potential flight-to-quality or technical bounce. Does NOT reduce quarter-end stress; 20Y settlement still hits Mar 31.
-
-### NY Fed Operations
-No evidence of emergency repo ops today. SRF available (full allotment, $40B/proposition, twice daily). Year-end precedent (Dec 31 2025: $74.6B drawn). Expect elevated SRF usage tomorrow.
-
----
-
-## Live Spread Table (Mar 30 Update)
-
-| Spread | Mar 27 | Δ vs Mar 24 | Threshold | Status |
-|--------|--------|-------------|-----------|--------|
-| **HY OAS** | **~319bps** | ~flat | 320 trigger / 350 freeze | 🟠 1bp BELOW trigger — CDX says more stress |
-| **IG OAS** | **~87bps** | ~flat | — | 🟡 |
-| **CCC OAS** | **>1000bps** | CROSSED 🔴 | 1000bps | 🔴 THRESHOLD BREACHED |
-| **CDX** | 9-mo high | ↑ | — | 🔴🔴 Divergence from cash HY = head-fake |
-
-**CDX divergence:** Cash HY flat, CDX (synthetic) still at 9-month high → derivatives market pricing MORE stress. Cash HY will reprice to CDX, not vice versa. HY yield approaching 7% threshold = forced selling regime.
-
----
-
-## Plumbing Dashboard (Mar 27)
-
-| Metric | Value | Threshold | Status |
-|--------|-------|-----------|--------|
-| **RRP** | $0.99B (Mar 27) | >$5B buffer | 🔴 ZERO — no shock absorber |
-| **SOFR** | 3.63% (Mar 27) | Flag >3.70 | 🟡 +1bp from base — Q-end breach possible |
-| **EFFR** | 3.64% (Mar 26) | — | 🟡 Stable within target |
-| **Reserves** | $3.020T (Mar 18) | $2.7T floor | 🟡 $320B cushion |
-| **Fed T-Bills** | $352B | — | 🔴 Exceeds COVID peak ($325B) — stealth injection |
-| **FHLB issuance** | +31% YoY | — | 🔴 SVB-era pre-stress pattern |
-| **10Y yield** | 4.46% (Mar 27) | >5.0% | 🟠 +8bps today, +78bps from Mar 21 |
-| **2Y yield** | 4.02% (Mar 27) | — | 🟠 Above 4.0% — Fed cut expectations repriced |
-| **MOVE index** | Spiking >52wk avg | — | 🔴 Treasury vol elevated — RSM "stress signals" |
-
-**Quarter-end Mar 31 setup:** Zero RRP + 20Y settlement ($17B+) on exact quarter-end + window dressing + pension rebalancing. SOFR +1bp so far — still GREEN on playbook. Treasuries selling off into Q-end (10Y +8bps today to 4.46%, 2Y through 4.0%). MOVE spiking = vol premium rising. **ONE TRADING DAY to Mar 31. Monitor SOFR publication Mon AM (reflects Fri activity).**
-
----
-
-## Stealth Liquidity (Confirmed)
-- **Fed T-Bills:** $195B (Dec 8) → $352B (Mar 12) = +$157B in 12 weeks. Exceeds COVID peak. QT halted Dec 1 2025. +$93B in 7 weeks via coupon reinvestment into T-bills. Balance sheet growing while publicly on QT.
-- **FHLB:** +31% YoY ($269B/mo). Discount notes +35%. 77% simple floaters. Avg trade $264M vs $167M. Banks maxing no-stigma funding.
-- **PC warehouse lines:** Bank committed lending to PC $95B ($56B utilized). $2.8T undrawn NDFI commitments = latent liquidity demand on G-SIBs. CLO new issuance halt watch: <$12B/mo = Stage 5 signal.
-
----
-
-## Quarter-End Mar 31 — Risk Assessment
-
-**Stress setup:** RRP = $1B (zero). 20Y settlement Mar 31. Window dressing Mon-Wed. Reserves $3.0T (above floor). SRF available (stigmatized).
-**2019 repo analog:** Zero RRP buffer + settlement collision → overnight repo 10%+. Reserves higher now but analog mechanism intact.
-**Base case:** SOFR spikes 3-8bps Thu-Fri, normalizes Apr 1. **Tail:** Dimona escalation + Iraq force majeure + SOFR >15bps = genuine Q1 funding crisis.
-
----
-
-## Geopolitical / Energy
-
-- **Hormuz:** 95% transit cessation confirmed. IRGC "closed military zone." Brent >$108. Maersk suspended all crossings.
-- **Iraq force majeure (Mar 21):** ALL foreign-operated fields (~4.5mbpd at risk). Extends shock beyond Hormuz.
-- **Dimona/Tehran strikes (Mar 23):** Nuclear-adjacent infrastructure targeted. HANS: Fordow→Kharg sequence = main path. Brent $120+ scenario active.
-- **SPR:** 172M bbl remaining. IEA 400M coordinated release insufficient. No policy lever available.
+| Metric | Value | Prior | Δ | Status |
+|--------|-------|-------|---|--------|
+| **SOFR** | 3.68% | 3.63% | +5bps | 🟡 Q-end spike, expect normalization |
+| **SOFR-IORB** | 0.03% | — | — | 🟢 Within normal |
+| **RRP** | ~$1B est | $0.99B | ~flat | 🔴 ZERO buffer persists |
+| **10Y yield** | 4.30% | 4.46% | -16bps | 🟡 Rally on Powell dovish |
+| **HY OAS** | 328bps | ~319bps | +9bps | 🔴 LIQ-01 BREACHED |
+| **CCC OAS** | 994bps | >1000bps | ~-6bps | 🟡 Pullback from breach |
+| **CP-TBill spread** | 0.15% | — | — | 🟢 No ST funding stress |
+| **BIZD** | -5.4% today | — | — | 🔴 PC institutional exit |
+| **Fed hike prob** | ~20% | ~35% | -15pp | 🟢 Dovish shift |
 
 ---
 
@@ -102,49 +42,47 @@ No evidence of emergency repo ops today. SRF available (full allotment, $40B/pro
 
 | Threshold | Level | Current | Status |
 |-----------|-------|---------|--------|
-| LIQ-01 (HY OAS) | 320bps | ~319bps | 🟠 1bp below — CDX says triggered |
-| LIQ-01 freeze | 350bps | ~319bps | 🔴 31bps away |
-| CCC OAS | 1000bps | **>1000bps** | 🔴 BREACHED Mar 30 |
-| CDX | 9-mo high | 🔴 TRIGGERED | 🔴🔴 100% bear market signal |
-| RRP buffer | >$5B | $1.123B | 🔴 ZERO — Q-end in 5 days |
-| SOFR stress | >3.70 | 3.63% | 🟡 Watch daily |
-| Brent danger | $110 | >$108 | 🟠 Iraq force majeure active |
-| Reserve floor | $2.7T | $3.020T | 🟡 $320B cushion |
-| 10Y yield | >5.0% | 4.382% (Mar 21) | 🟡 Stagflation trap intact |
-| PC gate cascade | 5% cap breach | ARES 11.6% | 🔴 Stage 3 confirmed |
+| LIQ-01 (HY OAS) | 320bps | **328bps** | 🔴 BREACHED — confirmed Apr 1 |
+| LIQ-01 freeze | 350bps | 328bps | 🟠 22bps away — watch acceleration |
+| CCC OAS | 1000bps | 994bps | 🟡 Pulled back — watch re-breach |
+| RRP buffer | >$5B | ~$1B | 🔴 ZERO — structural |
+| SOFR stress | >3.70 | 3.68% | 🟡 Q-end peak, normalizing |
+| Reserve floor | $2.7T | ~$3.0T | 🟡 Cushion intact |
 
 ---
 
-## Danger Windows
+## Cross-Domain Signals
 
-| Window | Risk |
-|--------|------|
-| **Mar 31 (MON)** | 🔴 20Y settlement + quarter-end + zero RRP. 2019 analog. SRF backstop (stigmatized). ONE TRADING DAY AWAY. |
-| **Mar 26-Apr 3** | ARESSI, OBDCII reports — PC hard data confirmation of Stage 3. |
-| **Apr 10-15** | April CPI — embeds $108+ oil → upside print → Fed cuts re-priced away |
-| **Apr 20-25** | Japan March trade balance → life insurer repatriation hard data. LNG 5x worse than modeled. |
-| **May** | Powell term ends → Warsh transition. BCRED Q2 structural test (hard gate risk). |
+- **BIZD → BROCK/HENRY:** 5.4% single-day BDC drop = VaR shock for levered holders. If BDC NAV compression forces warehouse line draws, that's direct G-SIB balance sheet consumption → REGINALD territory.
+- **10Y rally → SAM:** Lower UST yields narrow the hedged-return gap for Japanese buyers. If 10Y goes below 4.15%, hedged return turns positive again — could slow repatriation. Watch.
+- **Powell dovish → CARL:** "One-time" tariff framing = Fed maintaining cut option. Credit transmission from gas/energy still running — Fed may be behind the curve if inflation proves sticky.
 
 ---
 
-## Active Proposals
+## Active Proposals (Unchanged)
 
-**PROPOSAL 3 — CRUDE SHORT ON HOLD.** Dimona→Fordow→Kharg = Brent $120+ scenario active. Do NOT enter short.
-**PROPOSAL 4 — HYG PUT REVIEW.** HYG $75P Jun x10. LIQ-01 triggered at 328. Review delta/roll Sep/Dec for Hamilton lag-3/lag-4.
-**PROPOSAL 5 — BCRED Q2 HARD GATE.** Q2 = structural test. May/June announcement window. On track.
+**PROPOSAL 3 — CRUDE SHORT ON HOLD.** Hormuz/Dimona still active.
+**PROPOSAL 4 — HYG PUT REVIEW.** LIQ-01 now confirmed at 328. HYG $75P Jun x10 in the money on thesis. Review delta for roll decision.
+**PROPOSAL 5 — BCRED Q2 HARD GATE.** BIZD -5.4% = Stage 4 acceleration. May be early.
 
 ## Active Positions
 
 | Position | Expiry | Thesis | Monitor |
 |----------|--------|--------|---------|
-| TEN calls (Jun $30) | Jun 2026 | Triple premium (ice + Black Sea + Hormuz) | Dimona extends — DO NOT EXIT |
-| HYG $75P Jun x10 | Jun 2026 | LIQ-01 triggered, CDX divergence = head-fake | OAS trajectory, VIX release |
+| TEN calls (Jun $30) | Jun 2026 | Triple premium | Dimona extends — hold |
+| HYG $75P Jun x10 | Jun 2026 | LIQ-01 confirmed, BIZD crash | OAS trajectory to 350 |
 
 ---
 
-## Frameworks (Detail in workbook/)
+## Danger Windows (Updated)
 
-Ras Laffan LNG · Brent Scenarios · Hamilton NOPI · Treasury Buybacks · Auction Framework · TIC Framework · Gulf Escalation · Kuwait Curtailment · DIFC Transmission · Stagflation Trap · VIX Coiled Spring
+| Window | Risk |
+|--------|------|
+| **Apr 2-3** | SOFR normalization watch — if stays >3.65 post Q-end = structural not seasonal |
+| **Apr 3** | OBDCII report deadline — PC hard data |
+| **Apr 10-15** | April CPI — embeds $108+ oil |
+| **Apr 20-25** | Japan March trade balance |
+| **May** | Powell term → Warsh. BCRED Q2 test. |
 
 ---
 
@@ -152,12 +90,11 @@ Ras Laffan LNG · Brent Scenarios · Hamilton NOPI · Treasury Buybacks · Aucti
 
 | Frequency | Items |
 |-----------|-------|
-| **Daily (through Apr 1)** | SOFR, RRP, HY OAS, VIX |
-| **This week** | ARESSI (Mar 26), OBDCII (Mar 27-Apr 3), 20Y settlement (Mar 31) |
-| **Weekly** | CLO pipeline, EUR/USD basis swap, FHLB issuance |
-| **Upcoming** | Apr 10-15 CPI, Apr 20-25 Japan trade balance, May BCRED Q2, May Warsh transition |
+| **Daily (through Apr 3)** | SOFR normalization, HY OAS trajectory, BIZD follow-through |
+| **This week** | OBDCII (Apr 3), RRP post Q-end |
+| **Weekly** | CLO pipeline, EUR/USD basis, FHLB issuance |
 
 ---
 
-*Domain: Financial plumbing — repo markets, funding rates, credit spreads, foreign Treasury demand, dealer capacity, basis trade stability.*
-*Signals to: REGINALD (bank funding), HENRY (VaR/cascade), SAM (Japan trigger). Signals from: BROCK (private credit), SAM (BOJ/yen), HAWK (oil/geopolitical).*
+*Prior geopolitical/energy context, stealth liquidity, frameworks — see git history or prior STATUS versions.*
+*Domain: Financial plumbing — repo markets, funding rates, credit spreads, foreign Treasury demand, dealer capacity.*

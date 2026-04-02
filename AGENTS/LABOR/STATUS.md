@@ -1,5 +1,62 @@
 # LABOR STATUS
-**Last Updated:** 2026-03-30 18:00 UTC | **Status:** 🔴🔴 CRITICAL — CLAIMS 210K SUPPRESSION INTACT. DOGE 9% FEDERAL WORKFORCE ELIMINATED. JOLTS TMR (Mar 31). NFP APR 3 GOOD FRIDAY = GAP RISK MON APR 6. CONVERGENCE 54/65.
+**Last Updated:** 2026-04-02 16:15 UTC | **Status:** 🔴🔴 CRITICAL — CLAIMS 202K (2-YR LOW, FL WAVE 1 INVISIBLE). SHADOW ADJUSTMENT ↑ +65K. ORACLE 10-30K. UNILEVER FREEZE. DOGE 385K. ADP +62K (HEALTHCARE ONLY). JOLTS HIRES = APR 2020 LOW. APR 10 CLAIMS = FL WAVE 1 LAG TEST. CONVERGENCE 56/65.
+
+**Signal Apr 2 — Shadow Adjustment Update (16:15 UTC):**
+
+**🔴🔴 CLAIMS 202K (WK ENDING MAR 28) — 2-YEAR LOW, FL WAVE 1 INVISIBLE:** Initial claims FELL to 202K, lowest in 2 years. This was the first data window to capture FL Wave 1 firings (fired Mar 24). ZERO signal. Either FL processing lag (1-2wk) or active suppression. Strengthens suppression thesis significantly.
+
+**🔴 SHADOW ADJUSTMENT RAISED: +55K → +65K.** New implied true claims: 202K + 65K = ~267K. Above CARL cross-agent trigger (250K). Evidence: FL Wave 1 invisible, Oracle 10-30K not showing, Unilever freeze not measured, tech 85K+ YTD not flowing through, WA documented-worker detentions expanding chilling effect. Full methodology: `domain/SHADOW_ADJUSTMENT_NOTE.md`. **Decision rule: if Apr 10 claims < 215K → upgrade to +70K.**
+
+**📊 TECH LAYOFF TRACKER SWITCH: TrueUp replaces SkillSyncer as primary.** TrueUp: 85,156 workers / 208 events. SkillSyncer: 51,686 / 102 events (retained as secondary). TrueUp captures ~65% more events and workers. Prior STATUS references to SkillSyncer counts were undercounts.
+
+**🟠 WA DOCUMENTED-WORKER DETENTIONS (cross-signal from MARCO):** ICE now detaining workers WITH legal documentation in Washington state. Arrests <100/mo → 400+/mo. 2025 cherry harvest already disrupted. WA = #1 apple, cherry, hop state. Expands labor supply shock beyond undocumented — H-2A and green card holders now at risk. Factors into shadow adjustment (immigration chilling effect component ↑ from +12K to +15K).
+
+**⚠️🔴 APR 10 CLAIMS (WK ENDING APR 4) = CRITICAL FL WAVE 1 LAG TEST.** If FL Wave 1 was processing lag (not suppression), it should appear in this print. If claims still < 215K → FL confirmed suppressed → shadow adjustment upgrades to +70K.
+
+**Signal Apr 1 — EOD (20:16 UTC):**
+
+**🔴🔴 ORACLE MASS LAYOFFS — ~10K-30K GLOBALLY:** Oracle executing massive restructuring. Guardian reports ~10K, Indian sources say up to 30K globally (12K India alone). $2.1B restructuring charge filed in March. AI-driven reallocation — cutting legacy roles to fund data center buildout. Software engineers, account execs, program managers all hit. 6 AM termination emails. This is the largest single-company layoff event of 2026 so far.
+
+**🟠 META WA STATE — 168 MORE CUTS:** WARN filing in Washington state. Incremental to the ~15K pipeline tracked since Mar 25. Meta continuing to execute in tranches.
+
+**🔴 UNILEVER GLOBAL HIRING FREEZE — HORMUZ TRANSMISSION CONFIRMED:** Reuters exclusive: Unilever freezing hiring "at all levels" for 3+ months, citing Middle East war effects. CBS framing: "Iran war adding fresh pressure to slowing labor market." This is the first major multinational explicitly citing Hormuz as reason for hiring freeze. Corporate transmission chain: Hormuz → input costs → hiring freeze → labor demand destruction. Expect more to follow.
+
+**🔴 DOGE — 385K FIGURE NOW CIRCULATING:** LA Daily reports "federal government shed 385,000 employees last year" — up from OMB's 260K and our prior 327K tracking. Difference may include contractors + attrition not captured in OMB's narrower count. Admin now pivoting to "Gen Z hiring blitz" — optics play while structural damage is done.
+
+**🔴 TECH LAYOFFS YTD UPDATED:** TrueUp (primary): 208 events / 85,156 workers. SkillSyncer (secondary): 102 events / 51,686. Layoffs.fyi: 70+ companies / 40,480. Oracle alone may add 10-30K to these counts. Business Insider: "AI layoff switcheroo" — companies cutting humans, hiring AI, using contract workers (Klarna model spreading).
+
+**📊 CROSS-DOMAIN: BIZD -5.4% TODAY:** Private credit ETF worst day in months. Connects to CARL's middle-market stress thesis. If BDC NAVs crack, portfolio companies (many mid-market employers) face covenant pressure → layoffs. This is the transmission we've been watching.
+
+**Signal Apr 1 — Daily Check-in (13:05 UTC):**
+
+**📊 ADP MARCH 2026: +62K — HEALTHCARE CARRYING THE ENTIRE NUMBER**
+Private sector added 62,000 jobs in March (beat consensus 39K, but barely better than Feb's upward-revised 66K). The breakdown is the story:
+- Education/Health: **+58K** (this IS the report — Healthcare holding)
+- Construction: +30K (suspicious given ICE raids — survey week predates full impact)
+- Trade/Transport/Utilities: **-58K** (logistics bleeding continues)
+- Manufacturing: -11K (28+ months contraction in employment)
+- Professional/Business Services: **+1K** (near zero — white-collar hiring frozen)
+- Northeast: -29K | Midwest: -26K
+- Strip healthcare: ~+4K private sector jobs. **Hotel California confirmed in private payrolls.**
+- Pay: +4.5% YoY — wages still inflationary, Fed still trapped
+- Nela Richardson (ADP chief economist): "health care boosted job growth" — no ambiguity
+
+**🔴🔴 JOLTS FEBRUARY 2026: HIRES AT APRIL 2020 LEVELS (released Mar 31)**
+- Job openings: 6.9M (↓ from 7.2M Jan) — sliding again
+- **Gross hires: 4.85M — fewest since April 2020** (pandemic lockdown comp)
+- **Hiring rate: 3.1%** — lowest since early 2011, when unemployment was ~10%
+- Indeed Hiring Lab title: "Stuck in Neutral" — Hotel California structurally confirmed
+- "Low-hire, low-fire dynamic firmly intact through February"
+- This is pre-Hormuz, pre-shutdown-peak data. March/April will be worse.
+
+**⚠️ IRAN/HORMUZ — PEACE OPTIMISM BUT NO DEAL:**
+- China + Pakistan presented ceasefire framework Mar 31: immediate ceasefire + Hormuz reopening
+- Iran REJECTED US 15-point plan; wants Lebanon included as condition → deal not imminent
+- Trump signals "weeks" to end campaign — market pricing optimism
+- Brent $101.85 (down from $118 prior, was $114 Mar 27) — false dawn risk
+- Gas: $3.99 (1 cent from $4 behavioral breakpoint)
+- **If deal closes: removes one inflationary leg but structural labor damage already done**
+- **If deal fails: Brent snaps back toward $114+, gas $4+ confirmed**
 
 **Signal Mar 30 — AM Scan (18:00 UTC):**
 
@@ -73,8 +130,8 @@ FL UI Wave 1 FIRED Mar 24. Primorsk + Ust-Luga offline (Russia Baltic). Apollo g
 | 1 | WARN pipeline | **5** 🔴🔴 | 766/91,190. YTD 5th-highest since 2009. |
 | 2 | DOGE / federal | **5** 🔴🔴 | 327K cuts. Schedule Policy effective. |
 | 3 | Claims / shadow gap | **3** 🟠 ↓ | 210K suppressed. CC 1.819M = 2-yr low. Mullin inactive. |
-| 4 | Hormuz hiring freeze | **4** 🔴 | Closed Mar 3. Structural uncertainty. |
-| 5 | Sector cuts | **5** 🔴🔴 ↑ | Meta 15K executing Mar 25. Hiring plans -56% YoY. |
+| 4 | Hormuz hiring freeze | **5** 🔴🔴 ↑ | Unilever global freeze citing Hormuz. Corporate transmission confirmed. |
+| 5 | Sector cuts | **5** 🔴🔴 ↑↑ | Oracle 10-30K + Meta continuing. Unilever freeze. Hiring plans -56% YoY. |
 | 6 | Long-term unemployed | **5** 🔴🔴 ↑ | 1.9M (+400K YoY). Avg 25.7wk (4-yr high). |
 | 7 | Temp employment | **4** 🔴 | -12% YoY. RHI/KFRC sequential+ = counter. |
 | 8 | UI exhaustion | **5** 🔴🔴 ↑ | FL Wave 1 FIRED Mar 24. Wave 2 Apr 26. |
@@ -85,7 +142,7 @@ FL UI Wave 1 FIRED Mar 24. Primorsk + Ust-Luga offline (Russia Baltic). Apollo g
 | 13 | ICE enforcement | **5** 🔴🔴 ↑ | >1,100/day. 57 Concrete bankruptcy. 60% vol drop TX. No-warrant raids. NYC fear effects. |
 | 14 | Unemployment duration | **5** 🔴🔴 | 25.7wks avg (+2.0wks MoM, 4-yr high). +6.3wks since Oct'23 = fastest since 2020-21. |
 
-**Total: 54/65** | 🔴🔴: 7 | 🔴: 3 | 🟠: 2 | 🟡: 1
+**Total: 56/65** | 🔴🔴: 8 | 🔴: 2 | 🟠: 2 | 🟡: 1
 
 ---
 
@@ -97,7 +154,7 @@ FL UI Wave 1 FIRED Mar 24. Primorsk + Ust-Luga offline (Russia Baltic). Apollo g
 | U-3 | **4.4%** ↑ | 🔴 |
 | Long-term Unemployed | **1.9M** (+400K YoY) | 🔴 |
 | Avg Duration | **25.7 wks** (4-yr high) | 🔴🔴 |
-| Initial Claims | **210K** (DHS-suppressed +55K) | 🟢⚠️ |
+| Initial Claims | **202K** (2-yr low, DHS-suppressed +65K → ~267K) | 🔴⚠️ |
 | Continuing Claims | **1.819M** (-32K, 2-yr low) | 🟢⚠️ |
 | JOLTS Quits | **2.0%** x7 months | 🔴 |
 | ADP Pulse | **9K/wk** (-42%) | 🔴 |
@@ -169,15 +226,18 @@ FL UI Wave 1 FIRED Mar 24. Primorsk + Ust-Luga offline (Russia Baltic). Apollo g
 
 | Date | Item | Action |
 |------|------|--------|
-| Mar 27 | Weekly claims | Mullin transition |
-| Mar 31 | USDA Planting Intentions | Cross CARL+HAWK |
-| Apr 1 | UFW v. DOL check | H-2A ruling |
-| Apr 3 | NFP Mar 2026 | Healthcare strike reversal test |
+| ✅ Mar 27 | Weekly claims 210K | Mullin inactive |
+| ✅ Mar 31 | JOLTS Feb — hires 4.85M (Apr 2020 low), openings 6.9M | 🔴🔴 CONFIRMED |
+| ✅ Apr 1 | ADP Mar +62K (healthcare only, T/T/U -58K) | Hotel California confirmed |
+| ✅ Apr 2 | Claims 202K wk Mar 28 — FL Wave 1 INVISIBLE, 2-yr low | Shadow adj ↑ +65K |
+| **Apr 10** | **Claims wk Apr 4 — 🔴 FL WAVE 1 LAG TEST (CRITICAL)** | If <215K → shadow ↑ +70K, FL confirmed suppressed |
+| **Apr 3** | **NFP Mar 2026 — MARKET CLOSED (Good Friday)** | Gap risk Mon Apr 6 open; prep Sunday night futures watch |
 | ~Apr 3-7 | Banxico Feb remittances | >5% YoY = upgrade |
+| Apr 6 | Market open post-NFP | Gap risk assessment |
 | Apr 13+ | Senate returns | Shutdown deal? |
 | Apr 26 | FL UI Wave 2 | Cross CARL |
 
-**Shadow adjustment:** +55K maintained through end of April. Mullin promises to end suppression — data improvement expected Q2.
+**Shadow adjustment:** +65K effective Apr 2. Upgrade to +70K if Apr 10 claims < 215K. Mullin promises to end suppression — data improvement expected Q2. Full methodology: `domain/SHADOW_ADJUSTMENT_NOTE.md`.
 
 ---
 

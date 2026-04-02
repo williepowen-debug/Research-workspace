@@ -1,6 +1,93 @@
 # ZHAO STATUS
-**Updated:** 2026-03-30 13:45 UTC (Mar 30: Daily check-in — HIBOR spike past -200bps trigger, HK Peg Channel upgraded 🟡→🟠; property "lost decade" narrative intensifying; no new TIC data)
-**Overall Status:** 🔴🔴🔴 EMERGENCY ESCALATION — Gulf Recycling Loop Broken / Yuan-for-Hormuz / Ghalibaf UST Buyer Threat / FOMC Trapped / HIBOR approaching threshold
+**Updated:** 2026-04-02 09:45 EDT (Apr 2: HIBOR-SOFR reverted to -231bps — quarter-end seasonal CONFIRMED, not structural; HK AB up to 53,851M; no new TIC/LGFV signals; Brent $108.61)
+**Overall Status:** 🔴🔴🔴 EMERGENCY ESCALATION — Demand Hole Confirmed in Real-Time / Gulf Recycling Loop Broken / JGB Selloff Accelerating Japan Anchor Withdrawal / HIBOR Reverted (seasonal confirmed)
+
+---
+
+## 📌 APR 1 DAILY CHECK-IN (QUARTER-END INTEGRATION)
+
+### 1. TIC Data (Belgium/China)
+**No new data.** Feb 2026 TIC releases **Apr 15** (next mandatory review).
+- Belgium: **$451.0B** (🟡 unchanged — $49B from $500B trigger)
+- China: **$694.4B** (🟠 unchanged — $44.4B buffer above $650B exit)
+- Note: Apr 15 will be the first print to capture any LNG crisis / Gulf escalation impact on Chinese TIC behavior.
+
+### 2. HK Peg Stress — Post Quarter-End Assessment
+- Aggregate Balance: **HK$53,773M** as of Mar 30 — 🟢 Safe ($8.8B above $45B trigger). No peg defense activated.
+- HIBOR-SOFR: **~-202bps** (Mar 30 reading) — 🟠 **THRESHOLD ALREADY BREACHED.** Quarter-end passed; watch whether spread reverts post-Mar 31 demand spike or stays elevated.
+- Next data point: HKMA AB daily update. If spread stays >-200bps post quarter-end, structural not seasonal — upgrade thesis.
+- Quarter-end historically spikes HIBOR demand. If HIBOR-SOFR *doesn't* normalize back below -200bps in Apr 1-5 window, that's a structural signal upgrade.
+
+### 3. LGFV/Property — No Overnight News
+- No new LGFV defaults or acute triggers overnight. Information suppression continues.
+- Last signal: Mar 29 (Brent $116 gap + quarter-end). Property "lost decade" narrative unchanged at 🟠.
+- 302.3% GDP macro leverage, 124% total govt debt incl. LGFVs — unchanged.
+
+### 4. Threshold Status (Apr 1)
+| Threshold | Current | Distance | Status |
+|-----------|---------|----------|--------|
+| Belgium >$500B | $451.0B | $49B away | 🟡 Safe |
+| China <$650B | $694.4B | $44.4B buffer | 🟠 Watch |
+| HK AB <$45B | HK$53,773M | HK$8,773M buffer | 🟢 Safe |
+| HIBOR-SOFR >-200bps | **~-231bps** | 31bps buffer | 🟡 REVERTED (seasonal) |
+| Saudi <$120B | $134.8B | $14.8B buffer | 🟠 APPROACHING |
+
+### 5. Apr 2 HKMA Update — HIBOR-SOFR REVERTED ✅
+**Fresh data (Apr 2, 18:30 HKT):**
+- 1-mo HIBOR: **1.98601%** (down from 2.28292% Mar 30 — 30bps drop)
+- Overnight HIBOR: **1.88%** (down from 2.13% Mar 30 — 25bps drop)
+- HIBOR-SOFR spread: **~-231bps** (reverted from -202bps breach)
+- AB: **HK$53,851M** (up +78M from Mar 30)
+- **Quarter-end seasonal spike CONFIRMED.** Breach was not structural. Downgrade HIBOR-SOFR from 🟠 BREACHED → 🟡 WATCH.
+- Forecast AB: 53,942M by Apr 8 (+91M EFBN interest), 53,311M after Apr 10 (-630M EFBN issuance). Stable.
+
+### 6. NY Fed Foreign CB UST Holdings — DEMAND HOLE REAL-TIME CONFIRMED ⚠️🔴
+**Source:** Luke Gromen / FT, Mar 31, 2026 (24K views)
+**Foreign CB custodial UST holdings at NY Fed = LOWEST SINCE 2012.**
+
+**Demand Hole Model Integration:**
+- This is **real-time custodial data** — no TIC lag. Confirms simultaneous anchor withdrawal is already in the system.
+- Previously the $107-330B/quarter selling envelope was projection-based. Now confirmed in observable flow data.
+- Combined validation chain: (a) 5Y auction worst bid-to-cover in 4 years (Mar 26), (b) JGB selloff accelerating Japan withdrawal (Mar 27), (c) NY Fed holdings lowest since 2012 (Mar 31).
+- **Demand hole confidence upgrade:** From structural projection → **observable reality.** The hole is not theoretical; it is currently present in custodial data.
+- **Revised framing for LIQUID synthesis:** The demand hole is NOT front-running a future event. It is currently visible in real-time NY Fed data. FOMC is already absorbing or rates are clearing higher. This is in-market, not predictive.
+- Ghalibaf declaration (UST buyers = military targets) adds behavioral dimension: foreign CBs with military/political exposure to Gulf may be *accelerating* withdrawal beyond pure economic calculation.
+- **Cross-ref LIQUID:** Absorption capacity model should update with NY Fed data as validation anchor. The "who absorbs $107-330B/qtr" question is now proven to be unanswered — they are not being absorbed, they are flowing out.
+
+### 6. Inbox Signals Processed (4 files)
+
+#### SIG-ZHAO-20260326: 5Y Auction — Worst Bid-to-Cover in 4 Years
+- **Status:** PROCESSED 🔴
+- Worst bid-to-cover since 2022. Dealers forced to absorb. Primary dealer balance sheet as shock absorber = temporary, not sustainable.
+- Validates demand hole at direct auction level — not just secondary/custodial.
+- Coincided with HIBOR-SOFR at -205bps (5bps from trigger). Foreign buyer retreat and liquidity tightening occurring simultaneously.
+- **Model update:** Add "auction demand deterioration" as a concurrent demand hole signal alongside TIC/custodial. Three now confirm: TIC trend + custodial (NY Fed) + auction mechanics.
+
+#### SIG-ZHAO-20260327: JGB Selloff Accelerates Japan Anchor Withdrawal
+- **Status:** PROCESSED 🔴
+- Japan 10Y: 2.37% | 30Y: 3.69% | 40Y: 3.92% — all up 4-6% single session.
+- Hedged UST return vs. JGB: **-0.34% vs. +2.37% = 271bp differential.** Life insurers have no rational economic reason to hold USTs.
+- Japan Phase 2 offset (risk-off UST buying) now competing against domestic JGB yields that are approaching UST yields on hedged basis. **Phase 2 offset weakens as JGB yields rise.**
+- USD/JPY breached 160 intraday. Today: 158.58 — partial reversion (Brent down from $116 to $103 suggests Gulf risk-off partially unwound).
+- **Model update:** Japan $50-120B/yr structural swing estimate may be understated if JGB yields continue rising. Phase 2 offset duration shortens as JGB becomes competitive alternative to unhedged USTs.
+- BOJ intervention risk: if BOJ buys JGBs (QE reactivation), that competes with UST demand. If BOJ stays hands-off, JGB yields rise further → Japan institutional demand withdrawal accelerates.
+
+#### SIG-ZHAO-20260329: Brent $116 Gap + Quarter-End
+- **Status:** PROCESSED 🟠
+- Brent gapped to $116.43 (Houthis entered war). Today: **$103** — significant pullback. Risk-off partially unwound vs. March 29.
+- PCE 3.1% core — Fed confirmed trapped (stagflation corridor).
+- Gulf SWF recycling behavior at $116 vs. $103: at $116, more petrodollars but under attack → less recycled. At $103, less revenue → also less recycled. No scenario currently produces normalized Gulf UST recycling.
+- HY OAS now 346 (up from 328 in STATUS dashboard). Credit stress widening continues.
+
+#### SIG-ZHAO-20260331: NY Fed Foreign CB Lowest Since 2012
+- **Status:** PROCESSED 🔴 (fully integrated in Section 5 above)
+- Moved to processed.
+
+---
+
+*Prior check-ins through Mar 30 below.*
+
+---
 
 ---
 
@@ -137,13 +224,15 @@ No new defaults or acute triggers. Information suppression continues. 🟠 UNCHA
 | **Saudi Arabia UST** | **$134.8B** | <$120B = RED | 🔴 | TIC Jan 2026 (-$14.7B) |
 | Combined Anchor Selling | **$70-135B/mo ↑** | — | 🔴 ACTIVE | JP+CN+KR+Gulf |
 | Gulf Recycling Reduction | **$75-120B/qtr** | >$50B/qtr = ZHA-08 | 🔴🔴🔴 ZHA-08 FIRES/ESCALATING | Ras Laffan + QIA liquidation |
+| NY Fed Foreign CB Holdings | **Lowest since 2012** | — | 🔴 CONFIRMED | Gromen/FT Mar 31 |
+| 5Y Auction Bid-to-Cover | **Worst in 4 years** | — | 🔴 CONFIRMED | Mar 26 |
 
 ### Currency / HK Peg
 | Metric | Value | Threshold | Status | Source |
 |--------|-------|-----------|--------|--------|
 | USD/CNY | **6.90** | >7.30 = 🟠 | 🟡 | PBOC fix 6.8961 Mar 17 |
 | HK Aggregate Balance | **HK$53,773M** | <$45B = 🟡 | 🟢 | HKMA Mar 25 |
-| HIBOR-SOFR Spread | **~-202bps** 🟠 | >-200bps = 🟠 | 🟠 BREACHED | HKMA Mar 30 |
+| HIBOR-SOFR Spread | **~-231bps** | >-200bps = 🟠 | 🟡 REVERTED (seasonal) | HKMA Apr 2 |
 | USD/KRW | **1,501** | >1,500 = BoK selling | 🔴 ACTIVE | TradingEconomics Mar 13 |
 
 ### Domestic Stress
@@ -165,7 +254,7 @@ No new defaults or acute triggers. Information suppression continues. 🟠 UNCHA
 | 4 | LGFV/Banking | 🟠 3 | Guizhou 11.6% NPL near RED. |
 | 5 | Property Zombification | 🟠 3 | Decade deleveraging. Vanke SOE rescue. Land revenue halved. |
 | 6 | PBOC Defensive Wall | 🟠 3 | Gold 16mo streak. CIPS +43%. |
-| 7 | HK Peg Channel | 🟠 3 | AB stable. HIBOR-SOFR ~-202bps — 🟠 BREACHED Mar 30. Quarter-end Mar 31 tomorrow. |
+| 7 | HK Peg Channel | 🟡 2 | AB HK$53,851M stable. HIBOR-SOFR reverted to -231bps (Apr 2). Quarter-end breach was seasonal. |
 | 8 | LNG/Energy Shock | 🔴🔴 5 | Ras Laffan struck — permanent capacity destruction. China asymmetry confirmed: Hormuz passage + Russia + Qatar = 25-40% cost wedge vs. EU (HANS DD-4). |
 | 9 | USD/CNY Defense | 🟡 2 | ~6.90. PBOC active appreciation. |
 | 10 | Gulf Recycling Collapse | 🔴🔴 5+ | Three mechanisms: revenue collapse + forced selling + yuan settlement diversion. |

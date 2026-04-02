@@ -21,6 +21,13 @@
 
 ---
 
+## 🟡 Analytical Discipline
+
+1. **Steelman the counter-case on every position.** When discussing any trade, proactively articulate the honest case for being wrong — with a real probability, not a throwaway hedge. Conviction without doubt is stubbornness. The thesis being 90% right still means 10% wrong, and that 10% needs a plan. (Apr 1: WAL chart looked bullish, steelmanned it honestly — 15-20% chance thesis is wrong. Didn't change the position, but sharpened the "what would falsify this" criteria.)
+2. **Separate intellectual honesty from position management.** Being able to articulate why you're wrong doesn't mean you think you are. Rigor ≠ uncertainty. Flag the counter-case, assign it a probability, then trade your conviction — not your anxiety.
+
+---
+
 ## 🟡 Verification
 
 1. **Agent data can be hallucinated.** Verify against SEC filings before trading. (PSEC PIK 35%→actual 8.6%)

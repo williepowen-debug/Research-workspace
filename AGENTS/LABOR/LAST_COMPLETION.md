@@ -1,8 +1,24 @@
-## COMPLETION — LABOR — 2026-03-30
+# LABOR Completion — Apr 2, 2026
 
-STATUS: ✅ DONE
-CHANGED: AGENTS/LABOR/STATUS.md, AGENTS/LABOR/LAST_COMPLETION.md
-RESULT: Completed AM scan for Mar 30. Key finds: (1) DOGE now confirmed 9% of entire federal workforce eliminated by Mar 2026 — ongoing; (2) NFP Apr 3 drops on Good Friday while markets closed — gap risk opens Mon Apr 6; (3) JOLTS Feb releases tomorrow (consensus 6.85-6.89M vs 6.946M Jan); (4) Thu Apr 3 weekly claims = first FL Wave 1 capture (fired Mar 24); (5) Richmond Fed confirms hiring rate 3.3% implies U-3 of 6-10% under pre-pandemic model — supports shadow-adjustment thesis. Convergence held at 54/65.
-GAPS: No new WARN filings found today; tech layoff count discrepancy (SkillSyncer 51,686 vs tech-insider 150K+) — different scope/methodology, not resolved.
-WILL_NEEDS: None.
-FOLLOW-UP: Monitor JOLTS tomorrow (Mar 31) — if openings breach 6.8M, upgrade Vector 1. Watch Thursday claims for FL Wave 1 signal. NFP Sunday night futures watch critical for gap sizing.
+## STATUS
+✅ Complete
+
+## CHANGED
+- `STATUS.md` — Added 202K claims print, shadow adjustment +55K→+65K, tech tracker switch (TrueUp primary), Apr 10 critical flag, WA detentions cross-signal, updated signal dashboard
+- `domain/SHADOW_ADJUSTMENT_NOTE.md` — NEW. Full methodology for +65K adjustment with component breakdown and decision rule for +70K upgrade
+- `inbox/marco-cross-signal-apr2.md` — Processed, logged in STATUS
+
+## RESULT
+Shadow adjustment raised from +55K to +65K. Recommended +65K (not +70K) because FL Wave 1 invisibility could be 1-2wk processing lag rather than permanent suppression. Decision rule set: if Apr 10 claims < 215K → auto-upgrade to +70K. Implied true claims: 202K + 65K = ~267K (above CARL 250K trigger). TrueUp now primary tech tracker (85,156 / 208 events vs SkillSyncer 51,686 / 102).
+
+## GAPS
+- Apr 10 claims print needed to distinguish FL processing lag vs suppression
+- NFP Mar 2026 releasing Apr 3 into Good Friday void — gap risk Mon Apr 6
+
+## WILL_NEEDS
+- None — task was pre-approved
+
+## FOLLOW-UP
+- **Apr 10:** FL Wave 1 lag test. If claims < 215K → shadow ↑ +70K
+- **Apr 26:** FL Wave 2 firing date
+- CARL should be alerted that implied true claims (~267K) now exceed 250K cross-agent trigger

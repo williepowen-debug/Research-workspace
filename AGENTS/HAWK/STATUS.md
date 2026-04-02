@@ -1,12 +1,64 @@
 # HAWK STATUS
 **Agent:** HAWK (Gulf Energy Infrastructure & Oil Market)
-**Last Updated:** 2026-03-27 20:30 UTC
-**War Day:** 27 | **Scenario:** D 85% / C 12% / B 3%
+**Last Updated:** 2026-04-01 13:45 UTC
+**War Day:** 32 | **Scenario:** D 92% / C 6% / B 2%
 **Convergence:** 45/45 🔴🔴 MAXIMUM
 
 ---
 
-## Current Situation Summary
+## ⚠️ CRITICAL UPDATE — Days 28-32 (Mar 27 - Apr 1, 2026)
+
+**6 signals processed. Phase 5 now FULLY ACTIVE. Three Gulf states under attack. Apr 6 deadline in 5 days.**
+
+**Scenario D raised to 92% (from 85%). This is the largest single-batch probability shift since Day 18.**
+
+### Signal Batch Summary (Mar 27-31):
+
+**1. Qatar FM Confirmed (Mar 27)** 🔴
+- QatarEnergy force majeure: 90 LNG cargoes through May. Ras Laffan damage confirmed lasting. Validates Scenario D energy infrastructure weaponization thesis.
+
+**2. AWACS Destroyed + UAE Al Taweelah Strike (Mar 29)** 🔴🔴
+- US E-3 AWACS ($300M) destroyed by Iranian missile at Saudi base — first-ever combat loss of type. US air battle management capability degraded.
+- Iran struck Al Taweelah, UAE — EGA aluminium smelter, 4% of global aluminium supply. NEW commodity vector (aluminium joins oil/gas/fertilizer/helium).
+- UAE was already under compound stress (Fujairah offline). Now industrial capacity hit.
+
+**3. Houthi Entry — Phase 5 ACTIVE (Mar 29)** 🔴🔴
+- Houthis fired cruise missiles + drones at Israel (Mar 28), second wave confirmed.
+- Multi-front war now active: Iran + Hezbollah + Houthis simultaneously.
+- Brent gapped to **$116.43** Sunday open (+$8.43 / +7.8% from Friday $108).
+- Red Sea + Hormuz = BOTH maritime chokepoints now under kinetic threat.
+- Apr 6 diplomatic resolution harder: Houthi entry is not controllable by Iran deal.
+
+**4. ADCOP Pipeline Fire — Hormuz Bypass Eliminated (Mar 31)** 🔴
+- Massive fire at Habshan-Fujairah pipeline pumping station (ADCOP), UAE.
+- This pipeline bypasses Hormuz — the "safe" alternative Gulf crude export route.
+- **Now offline. No Hormuz bypass route exists.** Fujairah also offline. UAE export capacity gone.
+- With Yanbu threatened, the entire bypass architecture is compromised.
+
+**5. Iran Strikes Kuwait Desalination Plant (Mar 31)** 🔴
+- Iran hit power station + water desalination plant in Kuwait. One worker killed.
+- Kuwait is NOT a combatant. Indiscriminate Gulf infrastructure targeting confirmed.
+- **Three Gulf states now under direct Iranian attack:** Saudi (AWACS at Saudi base), UAE (ADCOP + Al Taweelah), Kuwait (desalination + ports).
+- Escalation ladder has broken past bilateral conflict into regional war.
+
+**6. Helium Force Majeure — 8th Depletion Clock (Mar 31)** 🟡
+- Airgas declared force majeure — only 50% of normal monthly helium demand met.
+- Hormuz closure cut ~30% global helium supply. $13.50/ccf surcharge.
+- Helium critical for: semiconductor fab, MRI, fiber optics, AI infrastructure.
+- This is depletion clock #8. Prior 7: oil, LNG, fertilizer (3 sources), aluminium, wheat/grain.
+
+### Apr 6 Deadline Reassessment — 5 Days Out:
+- Houthi entry makes any Iran deal insufficient to stop conflict (Houthis independent actor)
+- ADCOP fire eliminates any "managed Hormuz bypass" scenario — C scenario infrastructure
+- Kuwait strike signals Iran has abandoned any pretense of limiting conflict to combatants
+- AWACS loss raises US domestic political pressure to escalate, not de-escalate
+- **Net: Apr 6 deadline is now more likely to trigger kinetic response, not extension**
+
+---
+
+---
+
+## Current Situation Summary (Updated Apr 1)
 
 **Apr 6 deadline now active — US energy plant strike pause extended +10 days. Iran rejected terms. Israel struck nuclear sites.**
 
@@ -20,7 +72,7 @@ The 10-day extension creates diplomatic cover but no actual deal path. Iran reje
 - Phase 2: Gulf state refinery/facility strikes (Kuwait, UAE, Qatar)
 - Phase 3: Yanbu campaign — Saudi's only remaining export chokepoint
 - Phase 4 (ACTIVE): Capital strikes (Tehran) + nuclear facility targeting + multi-front coordination
-- **Phase 5 EMERGING:** Nuclear site strikes by Israel; Hormuz kinetic assertion; 82nd Airborne deployed; Apr 6 deadline
+- **Phase 5 ACTIVE (Mar 29):** Houthi kinetic entry; AWACS destroyed; Al Taweelah struck; 3 Gulf states under direct attack; ADCOP bypass eliminated; Kuwait non-combatant targeted
 
 ---
 
@@ -51,22 +103,26 @@ The 10-day extension creates diplomatic cover but no actual deal path. Iran reje
 
 ## Scenario D Probability Reassessment — Day 27
 
-**Previous: 82% → New: 85% (↑3)**
+**Previous: 85% (Mar 27) → New: 92% (Apr 1, ↑7) — largest single-batch shift since Day 18**
 
-**Factors pulling UP:**
-- Iran rejected US proposal = no deal path whatsoever (confirms Tier 4 pattern)
-- Israel struck nuclear sites = new escalation vector; Iran must respond or appear capitulated; likely accelerates nuclear program or retaliates hard
-- Hormuz tanker hit by Iranian projectiles = physical enforcement of Hormuz control, not just rhetoric
-- Rubio "weeks not months" = US operational posture, not diplomatic
-- Wang Yi ceasefire call = regional powers scared = escalation is real and accelerating
+**Factors pulling UP (Days 28-32 additions):**
+- Houthi kinetic entry = Phase 5 active; multi-front war cannot be resolved by bilateral Iran deal
+- Iran struck Kuwait (non-combatant) = regional war, not bilateral conflict; 3 Gulf states under attack
+- ADCOP fire = Hormuz bypass eliminated; no safe Gulf crude export route exists
+- AWACS destroyed = US air battle management degraded; raises domestic political pressure to escalate
+- Al Taweelah / EGA strike = Iran expanding commodity disruption beyond oil (aluminium 4% global)
+- Qatar FM confirmed (90 cargoes) = structural LNG loss real and lasting
+- Helium force majeure = depletion clock cascade now at 8 vectors
+- Iran rejected US proposal = no deal path (confirmed Tier 4 pattern, repeated)
+- Israel struck nuclear sites = escalation vector not present in prior assessment
 
 **Factors pulling DOWN:**
-- 10-day extension = immediate trigger delayed (small reduction in acute Mar 28 risk)
-- China/Pakistan pressure = marginal diplomatic constraint on all parties
+- Apr 6 extension = 5-day tactical window (rapidly expiring)
+- China/Pakistan pressure = marginal constraint, no mechanism
 
-**Net: UP.** The extension is tactical cover, not de-escalation. The underlying dynamics — Iran rejection, nuclear strikes, Hormuz enforcement — all point to higher probability of full collapse/nuclear scenario. The extra 10 days gives Iran time to disperse nuclear materials post-Israeli strike, not time to negotiate.
+**Net: STRONGLY UP.** Phase 5 activation + 3-Gulf-state targeting + Hormuz bypass elimination together represent the largest single-week escalation since war start. C scenario depends on "controlled burns + Hormuz bypass intact" — both now false.
 
-*D trajectory: 68% (Mar 20) → 72% (Mar 23 AM) → 78% (Mar 23 PM) → 82% (Mar 26) → **85% (Mar 27)***
+*D trajectory: 68% (Mar 20) → 72% (Mar 23 AM) → 78% (Mar 23 PM) → 82% (Mar 26) → 85% (Mar 27) → **92% (Apr 1 — Phase 5 active, 3 Gulf states struck, Hormuz bypass eliminated)***
 
 ---
 
@@ -80,30 +136,27 @@ The 10-day extension creates diplomatic cover but no actual deal path. Iran reje
 - **Secondary risk:** Iranian escalation via Hormuz (tanker interdictions, mining) renders Apr 6 academic
 - **Diplomatic window:** Zero — Iran rejected terms, Wang Yi call has no binding mechanism
 
-### Scenario B — Deal/Stand-Down (3%, unchanged)
-- Iran accepts modified terms before Apr 6
-- Israeli nuclear strike campaign paused
-- Hormuz reopened; tanker interdictions cease
+### Scenario B — Deal/Stand-Down (2%, ↓1)
+- Iran + Houthi simultaneous stand-down + nuclear freeze + Kuwait/UAE compensation
 - **Brent:** $90-115
-- **Condition:** Iran would need to reverse nuclear program stance + accept Hormuz terms Iran called "one-sided." Zero evidence. Held at 3%.
+- **Condition:** Zero evidence. Approaching noise floor. Houthi entry makes this require two separate deals. Held at 2%.
 
-### Scenario C — Limited Escalation / Controlled Burns (12%, ↓3)
-- Apr 6 passes; US conducts targeted energy plant strikes
-- Iran retaliates regionally but avoids nuclear escalation response
-- Hormuz partially closed but no additional nuclear facility targeting
+### Scenario C — Limited Escalation / Controlled Burns (6%, ↓6)
+- Apr 6 passes; US conducts targeted energy plant strikes; Iran retaliates but avoids full collapse
 - **Brent:** $120-170
-- **Note:** C/D distinction continues to blur. Israeli nuclear strikes make C increasingly unstable — hard to contain escalation once nuclear sites are in play. C declining.
+- **DEGRADED:** ADCOP fire eliminated Hormuz bypass C depended on. Houthi entry = second chokepoint outside C scope. Kuwait strike shows Iran targeting non-combatants. C's "controlled" assumption is broken. 6% = residual only.
 
-### Scenario D — Full Collapse / Nuclear Escalation (85%, ↑3)
-- Apr 6 trigger fires AND/OR Israeli nuclear strikes provoke Iranian nuclear response
+### Scenario D — Full Collapse / Nuclear Escalation (92%, ↑7)
+- **NOW IN PROGRESS.** Multi-front war (Iran + Houthi + Hezbollah) active simultaneously.
 - Iran executes Ghalibaf counter-threat: full Gulf energy infrastructure destruction
-- Hormuz closed; Yanbu struck; nuclear ambiguity broken
+- Hormuz closed; Yanbu struck; ADCOP gone; Hormuz bypass architecture eliminated
 - US executes power plant destruction campaign (Rubio "weeks not months")
 - **Brent:** $150-200+
-- **Apr 6 variants:**
-  - D1: Iran strikes preemptively before Apr 6 in response to nuclear site attacks
-  - D2: Apr 6 passes → US strikes → Iran executes Hormuz enforcement
-  - D3: Nuclear escalation path — Israel accelerates; Iran breaks nuclear threshold
+- **Apr 6 variants (updated Apr 1):**
+  - D1: Iran preemptive strike (nuclear site retaliation) BEFORE Apr 6 — **elevated probability**
+  - D2: Apr 6 passes → US strikes → Iran executes full Gulf infrastructure destruction
+  - D3: Houthi escalation triggers Israeli ground op → Iran forced full commitment
+  - D4 (NEW): Kuwait/UAE strikes trigger Gulf coalition direct military response → Iran broadens war
 
 ---
 
@@ -130,7 +183,10 @@ The 10-day extension creates diplomatic cover but no actual deal path. Iran reje
 | ADNOC Shah Gas (UAE) | 1.28-1.45 Bscf/d | Offline (Mar 16) |
 | Kharg Island (Iran) | 90% Iran crude exports | Hit — Iran export base gone |
 | Iraq (all foreign-operated) | ~3M+ bpd | Force majeure claimed |
-| **Iranian nuclear sites** | — | **NEW: Hit by Israel Mar 27** |
+| **Iranian nuclear sites** | — | Hit by Israel Mar 27; ongoing |
+| **Al Taweelah / EGA (UAE)** | 4% global aluminium | **NEW: Hit Mar 28; injuries + significant damage** |
+| **ADCOP Habshan-Fujairah pipeline (UAE)** | Hormuz bypass route | **NEW: Fire Mar 31; bypass route GONE** |
+| **Kuwait desalination plant** | Critical water infrastructure | **NEW: Hit Mar 31; 1 killed; non-combatant state targeted** |
 
 ---
 
@@ -156,28 +212,32 @@ The 10-day extension creates diplomatic cover but no actual deal path. Iran reje
 
 | Agent | Signal | Current |
 |-------|--------|---------|
-| **CARL** | Oil → gas pump prices | 🔴🔴 Gas $4 breached. Qatar FM → structural LNG loss. Apr 6 = next shock vector |
-| **SAM** | Japan energy vulnerability | 🔴🔴 Dubai $166. Qatar FM = South Korea LNG hit. Oil-in-yen +140% YTD |
-| **LIQUID** | Risk-off + credit | 🔴🔴 HY OAS 327. 10Y 4.25%. RRP $0.822B |
-| **HENRY** | Vol regime | 🔴🔴 SPX broke 200-DMA. VIX 25+. CTA $80B sell queue |
+| **CARL** | Oil → gas pump prices | 🔴🔴 Gas $4 breached. Qatar FM confirmed (90 cargoes). Brent $116.43 on Houthi entry. Apr 6 = next shock vector |
+| **SAM** | Japan energy vulnerability | 🔴🔴 Dubai $166. Qatar FM = South Korea LNG hit. Houthi = Red Sea adds second chokepoint. Oil-in-yen +140% YTD |
+| **LIQUID** | Risk-off + credit | 🔴🔴 HY OAS 327. 10Y 4.25%. Brent $116 = new credit stress input |
+| **HENRY** | Vol regime | 🔴🔴 SPX broke 200-DMA. VIX 25+. CTA $80B sell queue. Aluminium shock = new industrial input |
 | **REGINALD** | Bank/CRE stress | 🟠 PPI +0.7%. CRE $900B wall. OZK earnings Apr 16 |
-| **BRENT** | Infrastructure targeting | 🔴🔴 Nuclear sites now in play; Yanbu = final bypass; Hormuz enforcement active |
-| **RED** | Ceasefire fade + thesis | 🔴🔴 Wang Yi call = Tier 4 narrative. Routing signal sent. Scorecard updated. |
+| **BRENT** | Infrastructure targeting | 🔴🔴 ADCOP bypass gone; Al Taweelah aluminium; Kuwait desalination; AWACS; 3 Gulf states — route all |
+| **RED** | Ceasefire fade + thesis | 🔴🔴 Phase 5 active = near-zero ceasefire probability; Houthi entry independent vector |
 
 ---
 
-## Watch Items (Priority — Updated Apr 6 Framework)
+## Watch Items (Priority — Updated Apr 1, Day 32)
 
-- [ ] **Apr 6 — Energy plant destruction deadline**: Trump executes or extends again? Iran preempts?
-- [ ] **Iranian nuclear response**: Acceleration? Strategic retaliation? Threshold crossing?
-- [ ] **Yanbu Export Terminal**: Any disruption = immediate $150+ oil shock; last Saudi bypass
-- [ ] **Mayuree Naree + Hormuz enforcement**: Additional tanker interdictions? Mining?
-- [ ] **82nd Airborne operational posture** — offensive or defensive? Public statements
-- [ ] **USDA Planting Intentions Mar 31** — nitrogen at $700/mt; acreage/input reduction = Q3 food CPI locked
-- [ ] **Wang Yi follow-up** — any binding mechanism? China applying real pressure on Iran? (Low probability)
-- [ ] **Israeli nuclear strike campaign** — is this one strike or sustained campaign? IAEA response?
-- [ ] **Qatar FM cascades**: China alternative sourcing, Italy/EU gas prices, South Korea won
-- [ ] **Ceasefire narrative watch**: Apr 6 extension itself is a "progress" narrative — watch for Tier 3/4 fade setup
+**⚠️ APR 6 IN 5 DAYS — CRITICAL WINDOW**
+
+- [ ] **Apr 6 — Energy plant destruction deadline**: Trump executes or extends AGAIN? Iran preempts before deadline?
+- [ ] **D1 preemptive scenario** — Iranian retaliation for nuclear sites could fire before Apr 6; watch for large-scale Iran strike
+- [ ] **Yanbu Export Terminal**: Last Saudi bypass; any disruption = immediate $150+ oil shock; highest priority facility watch
+- [ ] **Al Taweelah / EGA operational status** — 4% global aluminium offline? Duration? Supply chain cascade to auto/aerospace
+- [ ] **ADCOP fire investigation** — accidental or targeted? Duration of Habshan-Fujairah pipeline outage
+- [ ] **Kuwait government response** — non-combatant state struck; does Kuwait break from US/coalition posture?
+- [ ] **Houthi second-wave capability** — how many cruise missiles remain? Red Sea shipping collapse level?
+- [ ] **AWACS replacement timeline** — US air battle management gap; how quickly can E-3 be replaced from European stocks?
+- [ ] **Helium supply chain** — semiconductor fab shutdowns? MRI rationing? Timeline to full impact
+- [ ] **Gulf coalition fracture** — UAE + Kuwait under direct attack; Saudi signaling; coalition cohesion degrading
+- [ ] **Ceasefire narrative watch**: Any "Houthi deal" or "Kuwait compensation" narrative = Tier 3/4 fade setup
+- [ ] **Brent above $120** — watch for $120-125 level; historically triggers demand destruction signals
 
 ---
 
@@ -213,12 +273,16 @@ The 10-day extension creates diplomatic cover but no actual deal path. Iran reje
 
 ---
 
-## Bottom Line — Mar 27 (Day 27)
+## Bottom Line — Apr 1 (Day 32)
 
-**D at 85%. Apr 6 is the new trigger wire — but Israeli nuclear strikes may detonate it early.**
+**D at 92%. Phase 5 active. Apr 6 in 5 days. War has expanded beyond bilateral conflict into regional multi-front war.**
 
-The deadline extension is tactical cover, not de-escalation. Iran rejected the terms same day they were reported. Israel striking Iranian nuclear sites introduces the most dangerous escalation vector yet: Iran must respond or appear to capitulate, and response options include accelerating to nuclear threshold. Rubio's "weeks not months" is an operational timeline, not a diplomatic one. The 82nd Airborne deployment, Hormuz tanker enforcement, and complete failure of any diplomatic channel (0/3 real ceasefire headlines) all confirm Scenario D as dominant.
+This week's 6 signals represent the most consequential single batch since war start. Iran is no longer fighting a bilateral conflict with Israel/US — it is striking three Gulf states simultaneously (Saudi, UAE, Kuwait), including non-combatants. The Hormuz bypass architecture is now gone (ADCOP fire + Fujairah offline). Phase 5 is active with Houthi kinetic entry adding a second maritime chokepoint. Eight depletion clocks are now running: oil, LNG, fertilizer×3, aluminium, helium, wheat.
 
-**The next 10 days are not a diplomatic window. They are an escalation countdown.**
+The AWACS destruction is a strategic signal: Iran has demonstrated the ability to hit $300M US military assets on allied soil. This raises US domestic political pressure to escalate, not de-escalate. The coalition is fracturing from the bottom — UAE and Kuwait are under direct attack and neither is a combatant state.
 
-**Thesis Kill:** Ceasefire + mine clearance + infrastructure repair + insurance reinstatement + Brent <$80. Minimum 4-7 months post-ceasefire. Nuclear site strikes make this harder — not easier.
+**Apr 6 is not a negotiating deadline. It is a countdown to kinetic response — and Iran may not wait for it.**
+
+C scenario required: Hormuz bypass intact (gone), controlled targeting (Kuwait non-combatant struck), bilateral framework (Houthi entry invalidates). C is structurally broken. D at 92% reflects that we are in Scenario D right now — the question is only whether Apr 6 formally triggers the US response.
+
+**Thesis Kill (unchanged, harder):** Ceasefire + mine clearance + infrastructure repair + insurance reinstatement + Brent <$80. Now requires: Iran + Houthi separate deals + 3-Gulf-state reconstruction + nuclear program freeze. Minimum 6-12 months post-ceasefire. 2% probability.

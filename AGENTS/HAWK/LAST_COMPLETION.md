@@ -1,9 +1,25 @@
-# LAST COMPLETION — HAWK — 2026-03-27
+# HAWK Subagent Completion Block
+**Task:** Inbox Processing — 6 signals Mar 27-31
+**Completed:** 2026-04-01 ~13:50 UTC
+**Agent session:** hawk:subagent:0e3c38a9-c28a-4bf6-b397-0a143ff547f7
 
-## COMPLETION — HAWK — 2026-03-27
-STATUS: ✅ DONE
-CHANGED: AGENTS/HAWK/STATUS.md, AGENTS/RED/inbox/HAWK_ROUTING_2026-03-27.md, AGENTS/HAWK/LAST_COMPLETION.md
-RESULT: Scenario D raised from 82% to 85% driven by Iran rejecting US proposal, Israeli nuclear site strikes (new escalation vector), and Iranian kinetic enforcement of Hormuz (Mayuree Naree tanker). STATUS.md updated for Day 27 with full Apr 6 scenario tree replacing obsolete Mar 28 branch; three-scenario structure reframed (D 85%, C 12%, B 3%). Routing signal sent to RED with ceasefire scorecard update (0/3 real; Mar 27 extension + Wang Yi call = Tier 4 pattern confirmed by Brent $108-112 and same-day Iran rejection).
-GAPS: Could not verify real-time Brent price beyond $108-112 range provided; CEASEFIRE_FADE_PROTOCOL.md scorecard table not directly edited (routing signal to RED includes the update — RED agent should apply). No direct access to confirm 82nd Airborne operational specifics beyond prior intel.
-WILL_NEEDS: RED agent needs to update CEASEFIRE_FADE_PROTOCOL.md scorecard with Mar 27 row (routing signal contains the data). Will should assess whether nuclear site strikes warrant position adjustment in near-dated instruments (APO Apr particularly) — HAWK flagged the new risk but position decisions require Will approval.
-FOLLOW-UP: Monitor Apr 6 deadline approach. Watch for Iranian nuclear retaliation signal (most urgent new variable). USDA Planting Intentions Mar 31 still pending — CARL/HENRY flag. If narrative rally materializes on Wang Yi / extension headlines, RED protocol calls for Tier 4 add.
+---
+
+**STATUS:** COMPLETE. All 6 signals processed, STATUS.md updated, files moved to inbox/processed/.
+
+**CHANGED:**
+- Scenario D: 85% → 92% (↑7, largest single-batch shift since Day 18)
+- Scenario C: 12% → 6% (structurally broken — ADCOP gone, Houthi entry invalidates controlled-burns assumption)
+- Scenario B: 3% → 2% (approaching noise floor)
+- Phase 5: EMERGING → **ACTIVE** (Houthi kinetic entry Mar 29)
+- New facilities added: Al Taweelah/EGA aluminium (4% global), ADCOP pipeline (Hormuz bypass GONE), Kuwait desalination
+- 8th depletion clock activated: helium (Airgas FM, 50% supply cut)
+- Bottom Line, Watch Items, Cross-Agent Transmission, Scenario Tree all updated to Day 32
+
+**RESULT:** War has expanded from bilateral Iran/Israel-US conflict to regional multi-front war hitting 3 Gulf states (Saudi, UAE, Kuwait). AWACS destroyed ($300M, first-ever combat loss). Houthi entry = two maritime chokepoints simultaneous. Hormuz bypass architecture eliminated. Qatar FM confirmed (90 cargoes). Brent gapped to $116.43 on Houthi entry.
+
+**GAPS:** Brent current price not pulled (last signal had $116.43 at Sunday open Mar 30; live data needed). USDA Planting Intentions Mar 31 outcome unknown. Al Taweelah/EGA operational status unclear (extent of damage).
+
+**WILL_NEEDS:** Decision on whether D4 variant (Gulf coalition fracture → direct military response) warrants separate scenario branch. Routing to BRENT agent for Al Taweelah aluminium + ADCOP detailed analysis. Routing to RED for Phase 5 ceasefire fade protocol update.
+
+**FOLLOW-UP:** Pull live Brent price. Route ADCOP + Al Taweelah to BRENT. Route Houthi Phase 5 + ceasefire narrative to RED. Apr 6 is 5 days out — daily STATUS check warranted. Flag Kuwait non-combatant precedent for SAM (Japan analogues).

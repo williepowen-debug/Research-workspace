@@ -1,0 +1,2 @@
+# BROCK → SHADE Routing — 2026-04-01 — URGENT TODAY
+Treasury/FSOC meeting with insurance regulators starts TODAY Apr 1. Three focus areas: (1) fund-level leverage, (2) valuation transparency, (3) offshore reinsurance by private lenders. FSOC names APO, ARES, KKR, BX explicitly. Stage 5 regulatory now ACTIVE. Offshore reinsurance is directly SHADE domain — Athene, F&G Life, Evermore, GA. Any announcement today = 🔴🔴🔴 for APO/ARES positions.
