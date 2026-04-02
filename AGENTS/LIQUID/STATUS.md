@@ -1,5 +1,27 @@
 # LIQUID STATUS
-**Last Updated:** 2026-04-01 16:15 ET | **Agent:** LIQUID | **Status:** 🔴🔴 ELEVATED — Q-END PASSED (SOFR +5bps orderly) + HY OAS BREACHED 320 + BIZD -5.4% PC STRESS + 10Y RALLY
+**Last Updated:** 2026-04-02 13:09 ET | **Agent:** LIQUID | **Status:** 🔴🔴 ELEVATED — PC GATING STAGE 3 + STRUCTURAL BALANCE SHEET PRE-POSITIONING + FOREIGN UST DEMAND WITHDRAWAL + DEALER INVENTORY STRESS
+
+---
+
+## Apr 2 Update — 6 Signals Integrated (BROCK + 5 Inbox)
+
+### BROCK Question Answered: Blue Owl Gating → Fund Finance/Repo Stress?
+
+**Short answer: CONTAINED at fund level, but structural pre-conditions for spread are now in place.**
+
+Gating mechanics (OCIC $36B at 21.9%, OTIC $3.3B at 40.7%) are absorbing internally — the $1.4B Kuvare loan sale at 99.7¢ is NOT arms-length, establishes no real secondary pricing, and was likely a warehouse-lender-mandated liquidity demonstration. SOFR-IORB at 0.03% (effectively flat) confirms no direct repo/funding rate contagion at publication.
+
+**But 3 yellow flags indicate structural narrowing — not blowout yet:**
+
+1. **Dealer inventory stress (Janus/5Y auction, 3/26):** JPMorgan absorbed the Janus deal as a $2.6B junk loan after bond sale failed. 5Y auction worst bid-to-cover in 4 years, highest tail since 2024. Dealers accumulating inventory = repo demand rising, G-SIB balance sheet consumption accelerating. This is the direct pipeline from PC gating stress to funding markets: when PC managers need cash and can't sell bonds, they draw warehouse lines → G-SIBs warehouse the risk → repo collateral demand increases.
+
+2. **Secondary market bid-ask widening (Saba/Cox discounts on OWL interests):** NAV facility margin calls become likely as Q1 marks finalize. If managers face concurrent NAV calls + gate pressure, they'll sell liquid assets first (UST, IG bonds) → suppresses collateral quality in repo pool.
+
+3. **MS $85B broker-dealer→bank transfer (3/26):** Fed approved (4-3 dissent) moving $85B of broker-dealer assets into insured bank entity. This is pre-positioning, not active stress — but it CONSUMES bank balance sheet capacity precisely when PC managers most need repo lines from dealer desks. 2007-08 analog: risk moved to FDIC's sheet before the blowout. Regulatory dissent (4-3) signals internal Fed awareness this is problematic.
+
+**Repo stress trigger sequence:** Gate count 11 funds → $4.6B trapped capital → secondary discounts widen → warehouse line non-renewals → CLO accumulation facilities tighten → **SOFR spike** (not there yet). Current SOFR 3.68% (+5bps Q-end, normalizing). Watch for SOFR NOT normalizing back to 3.63-3.64 by Apr 3 — that would confirm structural leak.
+
+**Stage assessment:** PC Stage 2→3 confirmed. Repo stress = Stage 4. Transition risk: MEDIUM-HIGH over 4-6 weeks.
 
 ---
 
@@ -93,6 +115,36 @@ CCC OAS at **994bps**, back below 1000 from >1000 on Mar 30. Could be quarter-en
 | **Daily (through Apr 3)** | SOFR normalization, HY OAS trajectory, BIZD follow-through |
 | **This week** | OBDCII (Apr 3), RRP post Q-end |
 | **Weekly** | CLO pipeline, EUR/USD basis, FHLB issuance |
+
+---
+
+---
+
+## New Durable Signals (Apr 2 Integration)
+
+| Signal | Date | Key Data | Implication |
+|--------|------|----------|-------------|
+| Blue Owl dual gate | 4/2 | OCIC 21.9% req, OTIC 40.7% req, $1.4B Kuvare sale | PC Stage 3; warehouse lender stress demo; NOT secondary pricing |
+| Janus bond sale scrapped | 3/26 | $2.6B junk loan absorbed by JPM; 5Y auction worst B2C in 4yrs | Dealer inventory rising; issuance freeze approaching 350bps |
+| MS $85B BD→bank transfer | 3/26 | 4-3 Fed vote; Guynn (MS lawyer) runs Fed supervision | Pre-positioning for credit losses; 2007-08 analog; balance sheet consumption |
+| No Fed cuts until late 2026 | 3/27 | 93.8% hold Apr 29; first cut Jul 29 probability | No Fed put; HY OAS floor removed; PC distress has no cavalry |
+| Brent $116 Q-end gap | 3/29 | +8% Sunday gap; PCE 3.1%; S&P -7.4% March | Passed orderly (SOFR +5bps only); collateral haircut risk on energy credits |
+| Foreign CB UST lowest since 2012 | 3/31 | NY Fed custodial holdings; Iran-war driven | Absorption capacity shrinking; dealer must step up with less balance sheet |
+| Q1 close S&P +2.91% | 3/31 | Best Q-end since Sep 2008 (+5.42%) | Window dressing mechanical bounce; watch reversal |
+| HY OAS post-Q-end reversion | 4/1 | 346→316 (brief spike then reversal) | Quarter-end reversion confirms seasonal not structural yet; BUT trajectory from 328 Apr 1 |
+
+---
+
+## Updated Danger Windows
+
+| Window | Risk |
+|--------|------|
+| **Apr 2-3** | SOFR normalization — must return to 3.63-3.64. If stays >3.65 = structural leak |
+| **Apr 3** | OBDCII report deadline — PC hard data |
+| **Q1 marks final (Apr 1-15)** | NAV facility margin calls as marks finalize → warehouse line draws |
+| **Apr 10-15** | April CPI — embeds $108+ oil |
+| **Apr 20-25** | Japan March trade balance |
+| **May** | Powell term → Warsh. BCRED Q2 test. CLO accumulation facility renewals. |
 
 ---
 

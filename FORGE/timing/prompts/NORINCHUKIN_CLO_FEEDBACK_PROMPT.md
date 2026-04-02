@@ -9,14 +9,16 @@ Norinchukin Bank is Japan's largest agricultural cooperative bank. After taking 
 - After the bond losses, Norinchukin sold ~¥10T in foreign bonds and rotated into CLOs seeking yield
 - The bank has a structural need for yield above its cooperative deposit costs
 
-**The concern (March 2026):**
+**The concern (April 2026):**
 
-US private credit is under severe stress. CCC OAS has crossed 1,013bps. 7+ funds have gated. The underlying loans in CLOs — leveraged loans to mid-market and large companies — are deteriorating:
+US private credit is under severe stress. CCC OAS at 981bps (spiked to 1013 quarter-end). 11+ funds have gated including Blue Owl dual gating (OTIC 40.7%, OCIC 21.9% redemption requests, both capped at 5%). $4.6B+ trapped capital. PC Stage 2→3 transition confirmed. The underlying loans in CLOs — leveraged loans to mid-market and large companies — are deteriorating:
 - Software loans trading below 80¢: $25B record (Morningstar LSTA)
 - Fitch: 5.8% default rate (record for private credit, much of which overlaps with leveraged loan collateral in CLOs)
 - Middle-market CLO issuance hit record $41.8B in 2024 with projected 30%+ growth — these newer vintages are untested
 - OC (overcollateralization) tests: some CLOs failing junior OC tests, diverting cash flows from equity to senior tranches
 - 94% of defaults are distressed exchanges — actively suppressing price discovery in the underlying loans
+- Blue Owl sold $1.4B to related-party insurer Kuvare at 99.7¢ — NOT a market price. PE-insurer dump pattern confirmed across 4 firms (Apollo→Athene, Ares→IHAM, KKR→GA, Blue Owl→Kuvare)
+- Brent $108, gas $4 breached — oil shock compressing borrower EBITDA, making A&E arithmetically impossible for energy-exposed credits
 
 **The feedback loop I want modeled:**
 
@@ -61,8 +63,9 @@ Mass selling of US assets (Treasuries, corporate bonds, CLOs) by Japanese sector
    - Other Japanese institutions (life insurers, GPIF, regional banks) face unrealized losses on their own foreign holdings as yen strengthens
    - At some threshold, other institutions also repatriate → self-reinforcing
    - In 1998, the carry unwind took yen from 147 to 111 in ~2 months
-   - Current USD/JPY: ~159.5 with MOF intervention warnings at 160
-   - BOJ expected to hike May 1 — another yen-strengthening catalyst hitting simultaneously
+   - Current USD/JPY: ~159.5 with MOF intervention warnings at 160. Mimura said "decisive" action.
+   - BOJ expected to hike Apr 23-24 or May 1 (~45-50% probability) — another yen-strengthening catalyst hitting simultaneously
+   - Japan life insurers already withdrawing: hedge ratio collapsed 60%→45.7%, hedged UST return now -0.34% vs JGB 2.27%. 7/10 major insurers announced reductions. $50-120B annual swing.
    
    What's the tipping point where Norinchukin selling triggers broader Japanese institutional repatriation?
 
@@ -80,8 +83,8 @@ Mass selling of US assets (Treasuries, corporate bonds, CLOs) by Japanese sector
 7. **Timing question.** If US PC stress accelerates through Q2 2026 (our central estimate):
    - When would CLO OC test failures become widespread enough to affect Norinchukin's portfolio?
    - What's the lag between leveraged loan defaults and CLO tranche markdowns?
-   - When does Norinchukin's fiscal year end for reporting purposes? (March 31 — i.e., TODAY)
-   - Could FY2025 results (released May-June) reveal CLO losses that trigger the selling cascade?
+   - Norinchukin's fiscal year ended March 31 — FY2025 results due May-June
+   - Could FY2025 results reveal CLO losses that trigger the selling cascade? This is imminent.
 
 ## What I Want Back
 

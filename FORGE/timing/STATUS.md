@@ -1,7 +1,7 @@
 # TIMING — STATUS
 
-**Last Updated:** 2026-03-31 16:30 UTC
-**Signal Status:** 🔴🔴 CRITICAL — Stage 3-4 of 6 (Gorton) | CCC/HY ratio 2.96 (unprecedented) | HY OAS ~342 = Jul 2007 | No Fed put
+**Last Updated:** 2026-04-02 17:00 UTC
+**Signal Status:** 🔴🔴 CRITICAL — Stage 3-4 of 6 (Gorton) | CCC/HY ratio 3.15 (981/316, unprecedented) | HY OAS 316 (quarter-end spike to 342 reverted) | No Fed put | Blue Owl dual gating = PC Stage 2→3 confirmed
 
 ---
 
@@ -16,10 +16,16 @@ We are in **late June / early July 2007** on the credit clock. The explosion mon
 | Gorton 6-stage | **3-4** (early transparent signals → hidden amplifier stress) | Major BDC NAV markdown >5%, or NAIC SVO re-rating | Q2-Q3 2026 |
 | BROCK 6-stage PC | **2-3** (cash substitution → financing tightens) | More bank pullbacks (Barclays was first) | Stage 4 by Jun-Aug |
 | Z.1 selling cascade | **Stage 1-2** (shadow blowups done, retail gating active) | Insurance forced selling (+1Q lag) | Q2-Q3 2026 |
-| 2007 OAS overlay | **Jul 2 equivalent** (HY 342 vs 303) | 300→400 took 24 days in '07 | 400 by late Apr? |
+| 2007 OAS overlay | **Jul 2 equivalent** (HY 316 vs 303; quarter-end spike to 342 reverted Apr 2) | 300→400 took 24 days in '07 | 400 by late Apr? |
 | Hamilton oil shock | **Front edge** — NOPI=47, gas $4 breached | 1/3 demand destruction | Jun 2026 |
 | Labor | **Pre-inflection** — JOLTS 0.94, claims 210K green | Claims sustained +20K | Jun-Aug 2026 |
 | Japan carry | **Pre-catalyst** — USD/JPY 159, BOJ hike likely May | Actual hike + unwind | May+ |
+
+---
+
+## THE CCC/HY RATIO — UPDATE (Apr 2)
+
+**Quarter-end SOFR stress passed clean. HY OAS reverted from 342 → 316. CCC OAS reverted from 1013 → 981. CCC/HY ratio now 3.15 (981/316) — actually HIGHER than the quarter-end reading of 2.96, because HY reverted faster than CCC. But Blue Owl OTIC (40.7% gated) + OCIC (21.9% gated) Apr 2 = PC Stage 2→3 confirmed regardless of spread levels.**
 
 ---
 
@@ -65,7 +71,8 @@ We are in **late June / early July 2007** on the credit clock. The explosion mon
 ## FORCING FUNCTIONS (ranked by proximity)
 
 ### Already Active
-- ✅ Retail redemption pressure — 7+ funds gated, $4.6B trapped, Goldman projects $45-70B outflows
+- ✅ Retail redemption pressure — 11+ funds gated, $4.6B+ trapped, Goldman projects $45-70B outflows
+- ✅ Blue Owl dual gating (Apr 2) — OTIC 40.7% gated ($3.3B), OCIC 21.9% gated ($36B). Largest single gating event. $1.4B sold to Kuvare at 99.7¢ (related-party, NOT market price). PE-insurer dump pattern now confirmed across 4 firms.
 - ✅ BDC stock discount — CWBDC 17%, OBDC 25%, Blue Owl marks challenged
 - ✅ Barclays ABL pullback (Mar 25) — first bank credit tightening signal
 - ✅ PC defaults 5.8% (Fitch), MS estimates 8%. 94% distressed exchanges
@@ -101,16 +108,20 @@ We are in **late June / early July 2007** on the credit clock. The explosion mon
 
 | Indicator | Current | Watch | Alarm | Owner |
 |-----------|---------|-------|-------|-------|
-| HY OAS | 342 🟡 | 400 | 500+ | REGINALD/LIQUID |
-| CCC OAS | 1013 🔴 | 1200 | 1500+ | LIQUID |
-| CCC/HY ratio | 2.96 🔴 | <2.5 (compressing) | <2.0 (HY exploding) | TIMING |
-| SOFR-IORB | -0.02 🟢 | >+5 sustained | >+25 | LIQUID |
-| CP-Tbill spread | ~15bps 🟢 | 50-100 | 150+ | LIQUID |
-| BIZD (BDC ETF) | 12.51 🔴 | <12 | <11 | BROCK |
+| HY OAS | 316 🟡 | 400 | 500+ | REGINALD/LIQUID |
+| CCC OAS | 981 🟡 | 1200 | 1500+ | LIQUID |
+| CCC/HY ratio | 3.15 🔴 | <2.5 (compressing) | <2.0 (HY exploding) | TIMING |
+| SOFR-IORB | 0.00 🟢 | >+5 sustained | >+25 | LIQUID |
+| CP-Tbill spread | 0.16 🟢 | 50-100 | 150+ | LIQUID |
+| BIZD (BDC ETF) | $12.28 🔴 | <12 | <11 | BROCK |
+| APO | $108.02 🔴 | — | — | BROCK |
+| ARES | $104.08 🔴 | — | — | BROCK |
 | BCRED NAV | -0.4% (Feb) | -2%+ quarterly | -5%+ | BROCK |
-| Fund gates | 7+ active | 10+ | Major fund freeze | BROCK |
-| Brent | $108 🔴 | $120 | $130+ | HENRY |
-| Gas AAA | $4.00 🔴 | $4.50 | $5.00 | HENRY/CARL |
+| Fund gates | 11+ active | 15+ | Major fund freeze | BROCK |
+| Brent | $107.73 🔴 | $120 | $130+ | HENRY |
+| Gas AAA | $3.99 🟡 | $4.50 | $5.00 | HENRY/CARL |
+| VIX | 25.62 🟡 | 30 | 40+ | TIMING |
+| USD/JPY | 159.48 🔴 | 155 (yen strength) | 150 | SAM |
 
 ---
 
