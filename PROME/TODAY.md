@@ -1,56 +1,56 @@
-# TODAY.md — Tuesday April 1, 2026
+# TODAY.md — Thursday April 3, 2026
 
-**Post-Convergence.** Q-end behind us. Treasury + insurance regulators meeting TODAY. Tankan TODAY. OWL expires TOMORROW.
+**Good Friday. Markets CLOSED. NFP drops 8:30 AM into void.**
 
-Scenario D dominant (82%). War Day 32. Brent **$103** (eased from $108). HY OAS **346** 🔴 (widening). CCC OAS **1020** 🔴🔴. Gas **$3.99** (at $4 breakpoint). VIX **25.15** 🟡 (dropped from ~30). USD/JPY **158.58** 🔴.
+Scenario D dominant (82%). War Day 33. Brent **$111 🔴🔴** (Trump no off-ramp speech). Gas **>$4.00 🔴 BREACHED** (Hamilton breakpoint confirmed). HY OAS **316** 🟡 (spiked 346 q-end, reverted). CCC OAS **994** 🟡 (pulled back below 1000). VIX **26.86** 🟡. USD/JPY **159.60** 🔴.
 
-**Stress: HIGH.** HY OAS widening. CCC still >1000. But VIX eased, Brent pulled back ~$5.
+**Stress: HIGH.** Blue Owl dual gating. Oil $111. Gold -9.6% margin-call liquidation. "Sell everything except oil and cash" pattern active.
 
 ---
 
-## 🔴🔴 TODAY — Tue Apr 1
+## 🔴🔴 TODAY — Fri Apr 3
 
-- [ ] **Treasury + insurance regulators meeting** — PC Stage 3 signal. BROCK flagged 🔴🔴. Watch for statements on fund-level leverage, offshore reinsurance, investment liquidity.
-- [ ] **Tankan survey** — if strong, BOJ April hike live. SAM domain.
-- [ ] **eSLR reform effective today** — frees ~$210-384B dealer capacity. Watch Treasury market reaction.
-- [ ] **OWL $9.5P Apr 2 — EXPIRES TOMORROW.** OWL at ~$8.97, ~$0.53 ITM. Decision needed today: hold into expiry or sell.
+- [ ] **NFP March (8:30 AM)** — consensus +57K. Market CLOSED. Gap risk → Monday open. If negative again (Feb was -92K), Sunday night futures will be ugly.
+- [ ] **OWL $9.5P EXPIRED** — check outcome. Did we sell or exercise?
 
-## 🔴 This Week
+## 🔴 This Week / Next
 
-- [ ] **APR 2: OWL expiry** — must decide by end of today
-- [ ] **APR 6: Iran pause expiry** — HAWK deadline
-- [ ] **APR 7: APO hold deadline** — stop $113, APO currently $111.42
-- [ ] **KRE Jun→Dec roll** — Q-end passed, roll timing needed this week
-- [ ] **Near→long rebalance** — book 61/39 inverted, RED recommends 22/78
+- [ ] **SUN 4/6: Iran pause expiry** — HAWK deadline
+- [ ] **SUN ~6 PM ET: Futures watch** — Asia opens with NFP data in hand. Monitor ES/NQ reaction.
+- [ ] **MON 4/7: APO hold reassess** — stop $113. APO at $110.25.
+- [ ] **MON 4/7: Market opens with NFP + Blue Owl + oil $111 fully digested**
+- [ ] **THU 4/10: Weekly claims** — FL Wave 1 lag test (wk ending Apr 4). CRITICAL.
+- [ ] **TUE 4/15: TIC data** — first post-escalation print. ZHAO domain.
+- [ ] **WED 4/16: OZK Q1 earnings** — REGINALD domain.
+- [ ] **MON 4/21: WAL Q1 earnings** — REGINALD domain.
+- [ ] **THU 4/23-24: BOJ meeting** — hike live (~45-50%). SAM domain.
+- [ ] **TUE 4/29: CVNA Q1 earnings** — OTTO domain.
 
-## Key Levels (live as of Apr 1 morning)
+## Key Levels
 
 | Ticker | Value | Zone | Threshold |
 |--------|-------|------|-----------|
-| HY OAS | 346bps | 🔴 | >320 red, 350 = issuance freeze |
-| CCC OAS | 1020bps | 🔴🔴 | >1000 = forced selling regime |
-| Brent | $102.66 | 🔴 | >$100 |
-| Gas | $3.99 | 🟡→🔴 | $4.00 = behavioral breakpoint |
-| USD/JPY | 158.58 | 🔴 | >157 red, 160 = MOF intervention |
-| SOFR | 3.68 | 🟡 | >3.70 red. Post Q-end — did it normalize? |
-| SOFR-IORB | 0.03 | 🟢 | >+0.05 watch, >+0.25 alarm |
-| CP-Tbill | 0.15 | 🟢 | >0.30 watch, >1.00 alarm |
-| 10Y | 4.35% | 🟡 | 5.00-5.25% = clearing price (Gemini research) |
-| VIX | 25.15 | 🟡 | >30 = regime change (dropped from ~30) |
-| APO | $111.42 | 🟡 | Stop $113 |
-| KRE | $65.15 | 🟡 | <$63 red |
-| WAL | $70.85 | 🟡 | Window dressing fading? |
-| FXY | $57.88 | 🟡 | 8 shares, sizing TBD |
-| BIZD | $12.80 | 🔴 | BDC ETF stress |
-| TLT | $86.69 | 🟡 | Long duration |
+| HY OAS | 316bps | 🟡 | >320 red (spiked 346 q-end) |
+| CCC OAS | 994bps | 🟡 | >1000 red |
+| Brent | $111 | 🔴🔴 | >$100 red. Trump no off-ramp. |
+| Gas | >$4.00 | 🔴 | $4.00 = behavioral breakpoint BREACHED |
+| USD/JPY | 159.60 | 🔴 | >158 red |
+| SOFR-IORB | 0.03 | 🟢 | >+0.05 watch |
+| CP-Tbill | 0.16 | 🟢 | >0.30 watch |
+| VIX | 26.86 | 🟡 | >30 red |
+| APO | $110.25 | 🟡 | Stop $113 |
+| KRE | $65.83 | 🟡 | Ripped intraday to $65.98 on oil spike |
+| OWL | $8.66 | 🔴 | Dual gating confirmed |
+| BIZD | $12.11 | 🔴 | -5.4% Apr 1 |
 
 ## Notable Shifts Since Yesterday
 
-- **Brent eased ~$5** ($108→$103). Trump claims driving relief? Iran denied everything.
-- **VIX dropped from ~30 to 25** — risk-on tone, but HY OAS still widening (contradictory)
-- **SOFR 3.68** — approaching 3.70 red trigger. Post Q-end, should normalize. If it doesn't = signal.
-- **eSLR reform goes live today** — biggest structural change to dealer capacity since COVID exemption. $210-384B freed.
-- **SOFR-IORB crept to +0.03** — was -0.02 yesterday. Approaching +0.05 watch zone. Post Q-end or something stickier?
+- **🔴🔴 Blue Owl dual gating** — OTIC 40.7% redemption requests, OCIC 21.9%. Both capped at 5%. $1.4B sold to related-party insurer Kuvare at 99.7¢. PC Stage 2→3 transition.
+- **🔴🔴 Oil $111** — Trump no off-ramp speech killed ceasefire optimism. +11% intraday.
+- **🔴 Gold -9.6%** — margin-call liquidation cascade. Below $4,400.
+- **🔴 Claims 202K** — FL Wave 1 invisible. Suppression thesis massively strengthened. Shadow adjustment being increased to +65-70K.
+- **🟢 HIBOR-SOFR reverted** — quarter-end seasonal confirmed, not structural. Downgraded from breach.
+- **Asset manager stocks dropping** (Bloomberg) — contagion from Blue Owl spreading to sector.
 
 ---
 
