@@ -1,6 +1,6 @@
 # CARL STATUS
-**Updated:** 2026-04-01 ~13:55 UTC
-**Overall:** 🔴🔴 CRITICAL — Convergence 46/50. **GAS $4 BREAKPOINT FIRED.** JOLTS inverted (0.94, Feb data TODAY). Q3 = consumption stress quarter.
+**Updated:** 2026-04-02 ~20:45 UTC
+**Overall:** 🔴🔴 CRITICAL — Convergence 46/50. **GAS $4 BREAKPOINT FIRED.** JOLTS inverted (0.91, Feb 2026). Q3 = consumption stress quarter.
 
 *Check-in archives: `domain/sources/STATUS_archive_20260327.md`, `workbook/STATUS_archive_20260325.md`, `workbook/STATUS_archive_mar1_mar15.md`*
 
@@ -9,52 +9,52 @@
 ## SIGNAL DASHBOARD
 
 ### Credit / Delinquency
-| Metric | Value | Status |
-|--------|-------|--------|
-| CC 90+ DQ | **12.70%** (92% of GFC) | 🔴 |
-| Subprime Auto 60+ DQ | **7.1% ATR** | 🔴🔴 |
-| SoFi 2025-1 CNL | **2.6% TRIGGERED** | 🔴 |
-| Auto 90+ DQ | **5.21%** (near 5.27% max) | 🔴 |
-| Student Loan 30+ DQ | **16.3% WORST EVER** | 🔴 |
-| Student Loan 90+ DQ | **9.6%** (0.4pp from 10%) | 🔴 |
-| BNPL Late Rate | **41%** (+7pp YoY) | 🟠 |
-| SYF 30+ DQ | **4.7%** (Feb, +0.1pp MoM) — **NCO 5.8% (+110bps spike in 1mo)** | 🔴 |
-| Total Household Debt | **$18.78T record** | 🔴 |
+| Metric | Value | As Of | Status |
+|--------|-------|-------|--------|
+| CC 90+ DQ | **12.70%** (92% of GFC) | Q4 2025, NY Fed | 🔴 |
+| Subprime Auto 60+ DQ | **6.9% ATR** | Jan 2026, Fitch | 🔴🔴 |
+| SoFi 2025-1 CNL | **2.6% TRIGGERED** | Mar 2026 | 🔴 |
+| Auto 90+ DQ | **5.21%** (near 5.27% max) | Q4 2025, NY Fed | 🔴 |
+| Student Loan 30+ DQ | **16.3% WORST EVER** | Q4 2025, NY Fed | 🔴 |
+| Student Loan 90+ DQ | **9.6%** (0.4pp from 10%) | Q4 2025, NY Fed | 🔴 |
+| BNPL Late Rate | **41%** (+7pp YoY) | 2025, CFPB | 🟠 |
+| SYF 30+ DQ | **4.7%** / NCO **5.8%** (+110bps) | Feb 2026, SYF 8-K | 🔴 |
+| Total Household Debt | **$18.78T record** | Q4 2025, NY Fed | 🔴 |
 
 ### Housing / Multifamily
-| Metric | Value | Status |
-|--------|-------|--------|
-| Fannie MF DQ | **0.74%** (6bps from GFC) | 🔴 |
-| FHA DQ | **11.52%** vs Conv 2.89% | 🔴 |
-| 30-Yr Mortgage | **6.86%** | 🔴 |
-| Foreclosures Q4 | **58,140** (+41% YoY) | 🟠 |
-| 90+/Foreclosure Pipeline | **878K** (Feb, +175K/25% in 4mo, cure rates -40%) | 🔴🔴 |
-| FL Foreclosures YoY | **+190%** | 🔴 |
-| "Help with mortgage" | **ALL-TIME HIGH** | 🔴🔴 |
-| Lennar Gross Margin | **15.2%** (lowest since 2010) | 🔴 |
+| Metric | Value | As Of | Status |
+|--------|-------|-------|--------|
+| Fannie MF DQ | **0.74%** (6bps from GFC) | Feb 2026, Fannie | 🔴 |
+| FHA DQ | **11.52%** vs Conv 2.89% | Q4 2025, MBA | 🔴 |
+| 30-Yr Mortgage | **6.46%** | Apr 2, Freddie PMMS | 🟠 |
+| Foreclosures Q4 | **58,140** (+41% YoY) | Q4 2025, ATTOM | 🟠 |
+| 90+/FC Pipeline | **878K** (+175K/25% in 4mo, cure -40%) | Feb 2026, MBA | 🔴🔴 |
+| FL Foreclosures YoY | **+190%** | Q4 2025, ATTOM | 🔴 |
+| "Help with mortgage" | **ALL-TIME HIGH** | Mar 2026, Google | 🔴🔴 |
+| Lennar Gross Margin | **15.2%** (lowest since 2010) | Q1 FY2026, LEN | 🔴 |
 
 ### Macro / Energy / Stress
-| Metric | Value | Status |
-|--------|-------|--------|
-| Gas Pump | **$4.00+ — 🔴🔴 BREAKPOINT FIRED (Mar 31)** | 🔴🔴 |
-| Diesel | **$5.10** | 🔴🔴 |
-| Brent | **$108+** | 🔴🔴 |
-| HY OAS | **328bps** (RED >320) | 🔴 |
-| Savings Rate | **4.5% Jan** (Feb data Apr 9; up from 3.6% Dec) | 🟠 |
-| Urea NOLA | **$690s/mt** (was $475 early Mar, watch $800) | 🔴🔴 |
-| Russia AN | **SUSPENDED** | 🔴🔴 |
-| USDA Wheat Acres | **43.775M — LOWEST SINCE 1919** (-3.4% YoY) | 🔴🔴 |
-| USDA Corn Acres | **95.338M** (-3.45M/-3.5% YoY, above 94.4M est) | 🟠 |
-| JOLTS Ratio | **0.91 — INVERTED & DEEPENING** (Feb 2026, was 0.94 Jan) | 🔴🔴 |
-| Unemployment Duration | **25.7 wks** (4-yr high) | 🔴 |
-| UI Exhaustion Spending Hole | **$650M/mo** (peak $930M/mo July) | 🔴🔴 |
-| Core PCE | **3.1% YoY** (Jan; simulated 3.27% Mar) | 🔴 |
-| GDP Q4 2025 | **0.7%** (revised down from 1.4%) | 🔴 |
-| GDPNow Q1 2026 | **2.0%** (Mar 23, down from 2.7% Mar 13) | 🟠 |
-| UMich Sentiment | **53.3 — RECESSIONARY** (sub-55, down from 56.6 Feb) | 🔴 |
-| CB Expectations | **70.9 — RECESSIONARY WARNING** (sub-80, 0.9pts from RED) | 🟠 |
-| Retail Sales MoM | **+0.6% Feb** (beat est; likely tariff front-loading) | 🟢 ⚠️ |
-| Retail Control Group | **+0.5% Feb** (strong but same front-loading caveat) | 🟢 ⚠️ |
+| Metric | Value | As Of | Status |
+|--------|-------|-------|--------|
+| Gas Pump | **$4.08 BREAKPOINT FIRED** | Apr 2, AAA | 🔴🔴 |
+| Diesel | **$5.51** | Apr 2, AAA | 🔴🔴 |
+| Brent | **$107-112** (extreme intraday vol) | Apr 2 | 🔴🔴 |
+| HY OAS | **316bps** (was 328, tightened) | Apr 1, FRED | 🟠 |
+| Savings Rate | **4.5%** (up from 3.6% Dec) | Jan 2026, BEA | 🟠 |
+| Urea NOLA | **$690s/mt** (was $475 early Mar) | Mar 28 | 🔴🔴 |
+| Russia AN | **SUSPENDED** | Mar 2026 | 🔴🔴 |
+| USDA Wheat Acres | **43.775M — LOWEST SINCE 1919** | Mar 31, USDA | 🔴🔴 |
+| USDA Corn Acres | **95.338M** (-3.45M/-3.5% YoY) | Mar 31, USDA | 🟠 |
+| JOLTS Ratio | **0.91 INVERTED & DEEPENING** | Feb 2026, BLS | 🔴🔴 |
+| Unemployment Duration | **25.7 wks** (4-yr high) | Feb 2026, BLS | 🔴 |
+| UI Exhaustion Hole | **$650M/mo** (peak $930M/mo July) | CARL est, Mar 31 | 🔴🔴 |
+| Core PCE | **3.1% YoY** (sim 3.27% Mar) | Jan 2026, BEA | 🔴 |
+| GDP Q4 2025 | **0.7%** (revised down from 1.4%) | 3rd est, BEA | 🔴 |
+| GDPNow Q1 2026 | **1.6%** (was 1.9% yesterday, 3.1% mid-Feb) | Apr 2, Atlanta Fed | 🔴 |
+| UMich Sentiment | **53.3 RECESSIONARY** (sub-55) | Mar 2026, UMich | 🔴 |
+| CB Expectations | **70.9 RECESSION WARNING** (sub-80) | Mar 2026, CB | 🟠 |
+| Retail Sales MoM | **+0.6%** (front-loading caveat) | Feb 2026, Census | 🟢 ⚠️ |
+| Retail Control Group | **+0.5%** (front-loading caveat) | Feb 2026, Census | 🟢 ⚠️ |
 
 ---
 
@@ -63,10 +63,10 @@
 | # | Vector | Score | Current |
 |---|--------|-------|---------|
 | 1 | CC 90+ DQ → GFC | 🔴 4 | 12.70% = 92% of GFC. Q1 >13% = 5. |
-| 2 | Subprime Auto 60+ | 🔴🔴 5 | **BREACHED** 7.1% ATR. Max. |
+| 2 | Subprime Auto 60+ | 🔴🔴 5 | **ATR** 6.9% (Jan 2026). Max. |
 | 3 | Fannie MF DQ → GFC | 🔴 4 | 0.74% = 6bps from peak. |
 | 4 | Student Loan 90+ | 🔴 4 | 9.6%, likely >10%. |
-| 5 | Gas Price Squeeze | 🔴🔴 5 | **$4.00+ FIRED.** Diesel $5.10. Max. |
+| 5 | Gas Price Squeeze | 🔴🔴 5 | **$4.08 FIRED.** Diesel $5.51. Max. |
 | 6 | UI Exhaustion Wave | 🔴🔴 5 | Duration 25.7wks (+2.0 single month). Cont claims drop = exhaustion. DOGE 260K+ cuts. Max. |
 | 7 | FL Triple Squeeze | 🔴 4 | Energy + HOA + Insurance. |
 | 8 | Reverse Wealth Effect | 🔴🔴 5 | RV crash + upper income pullback. Max. |
@@ -80,7 +80,7 @@
 ## THESIS
 
 **"Beneath the Ice" v2.1 — 60% structurally fragile, cost squeeze is the mechanism.**
-- 37% can't cover $400 | 62% paycheck-to-paycheck | JOLTS inverted (0.94)
+- 37% can't cover $400 | 62% paycheck-to-paycheck | JOLTS inverted (0.91)
 - **Mechanism shift:** Employment didn't break acutely — instead, multi-vector cost squeeze (energy + food + UI exhaustion) grinding the bottom 60%. JOLTS inversion confirms structural rot. K-shape converging downward (both cohorts stressed). Subsidence, not earthquake. **NEW (Mar 31 PM):** JOLTS Feb: ratio 0.94→0.91 in one month (deepening). Hires rate 3.1% = COVID-low. Quits rate 1.9% 8mo streak (workers trapped). Feb data PREDATES Iran — March worse. USDA wheat at 107-yr low (food CPI loading confirmed). Gas $4 behavioral breakpoint fired. Three vectors converging simultaneously.
 - **Paths:** A (Employment→Subprime, SLOW), B (SPX→Wealth effect), C (Housing→Banks, **ACTIVATING**), F (AI→Prime mortgage), PC (Private credit→Middle-market)
 - **Counter-signals:** Auto insurance CPI cooled (5.9% vs 20-30%), homeowners insurance decelerating (+8.5% vs 50%)
@@ -106,32 +106,42 @@
 
 ## CROSS-AGENT LINKS
 
-| From | Signal | Status |
-|------|--------|--------|
-| LABOR | NFP -92K, duration 25.7wk (+2.0 single month, 4-yr high), cont claims 1.819M (2-yr low = exhaustion), DOGE 260K+ (9% fed workforce), ICE raids → 57 Concrete bankrupt / 60% TX res vol drop, tech 150K+ layoffs 2026, TSA 10% callout, shutdown 60+ days, NFP Apr 3 into CLOSED market (gap risk Apr 6). **JOLTS Feb: 0.91 ratio (↓ from 0.94), hires at COVID-low, quits trapped. Pre-Iran data.** | 🔴🔴 |
-| HAWK | WTI $107+, gas $4.02, diesel $5.10 | 🔴🔴 |
-| WAR | Gulf escalation, Ras Laffan burning | 🔴🔴 |
-| FOMC | Hold 3.50-3.75%, 1 cut | 🔴🔴 |
-| HAWK | Triple nitrogen seizure | 🔴🔴 |
-| MARCO | ICE 1,100+/day, remittances -4.6%, Miami outmigration -2.0% | 🔴 |
+| From | Key Signal | As Of | Status |
+|------|-----------|-------|--------|
+| LABOR | JOLTS 0.91 inverted, hires COVID-low 3.1%, duration 25.7wk, NFP -92K, DOGE 260K+ | Mar 31 | 🔴🔴 |
+| HAWK | WTI $105, Brent $107-112, gas $4.08, diesel $5.51, nitrogen seizure (urea $690s) | Apr 2 | 🔴🔴 |
+| WAR | Gulf escalation, Ras Laffan burning — drives HAWK oil/gas | Mar 29 | 🔴🔴 |
+| FOMC | Hold 3.50-3.75%, 1 cut priced — fed locked by stagflation | Mar 19 | 🔴🔴 |
+| MARCO | ICE 1,100+/day, remittances -4.6%, Miami outmigration -2.0% | Mar 26 | 🔴 |
 
 ---
 
 ## PREDICTIONS
 
+*Canonical source: `workbook/PREDICTIONS.tsv`. IDs below match TSV.*
+
+**Resolved:**
 | ID | Prediction | Status |
 |----|-----------|--------|
-| CRL-01 | CC 90+ >2019 peak | ✅ CONFIRMED |
-| CRL-02 | Subprime Auto >7% | ✅ CONFIRMED |
-| CRL-03 | FL Foreclosures +100% YoY | ✅ CONFIRMED |
-| CRL-04 | Hardship 401k >5.5% | ✅ CONFIRMED |
-| CRL-05 | Fannie MF DQ >0.80% | ⚠️ IMMINENT (0.74%) |
-| CRL-06 | Student 90+ >10% | ⚠️ IMMINENT (9.6%) |
-| CRL-07 | CC 90+ >13.74% (GFC) | TRACKING (12.70%) |
-| CRL-08 | Foreclosures >70K/qtr | TRACKING (58,140) |
-| CRL-09 | JOLTS Mar ratio <0.88 (from 0.91 Feb) | NEW — 75% conf, May release |
-| CRL-10 | Food CPI YoY >4.0% | NEW — 70% conf, Q4 2026 |
-| CRL-11 | Hires rate stays ≤3.2% through Q2 | NEW — 85% conf |
+| CRL-01 | Gas pump peak stress Mar 14-21 | ❌ MISSED (direction right, magnitude wrong) |
+| CRL-02 | Subprime Auto 60+ DQ >7.0% | ✅ CONFIRMED* (6.9% ATR, at threshold) |
+
+**Legacy confirmed (pre-TSV, not re-numbered):**
+- CC 90+ >2019 peak ✅ | FL Foreclosures +100% YoY ✅ | Hardship 401k >5.5% ✅
+
+**Open:**
+| ID | Prediction | Conf | Timeframe | Current |
+|----|-----------|------|-----------|---------|
+| CRL-03 | Fannie MF DQ >0.80% (GFC) | 90% | Q2 2026 | 0.74% Feb — hovering 6bps from target |
+| CRL-04 | Student 90+ DQ >10% | 88% | Q1-Q2 2026 | 9.6% — 0.4pp gap |
+| CRL-05 | CC 90+ DQ >13.74% (GFC) | 75% | Q2-Q3 2026 | 12.70% — 1.04pp gap |
+| CRL-06 | Foreclosures >70K/qtr | 70% | Q2 2026 | 58,140 Q4 — needs +20% |
+| CRL-07 | FL UI exhaustion → DQ spike | 85% | Jun-Aug 2026 | LABOR model confirms timeline |
+| CRL-08 | Gas $4.50+ national avg | 80% | May 2026 (extended from Apr 5) | $4.08 — $0.42 gap |
+| CRL-09 | JOLTS Mar ratio <0.88 | 75% | May release | Feb was 0.91, pre-Iran |
+| CRL-10 | Food CPI YoY >4.0% | 70% | Q4 2026 | Wheat 107yr low, urea $690s |
+| CRL-11 | Hires rate ≤3.2% through Q2 | 85% | Jul/Aug releases | Currently 3.1% COVID-low |
+| CRL-12 | SYF FY2026 NCO >6.0% (guidance ceiling) | 77% | FY2026 (Jan 2027) | Feb 5.8%, near ceiling in month 2 |
 
 ---
 

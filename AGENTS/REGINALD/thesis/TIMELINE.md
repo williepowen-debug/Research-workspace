@@ -1,6 +1,6 @@
 # REGINALD TIMELINE
 
-**Last Updated:** 2026-03-31
+**Last Updated:** 2026-04-02
 **View:** Forward-looking catalyst calendar with branch points. Week-by-week through the Q1 earnings detonation window and beyond.
 
 This document maps our forward-looking expectations — what's coming, what we think happens, and where the path could diverge. Updated as events resolve or views change.
@@ -168,6 +168,30 @@ This document maps our forward-looking expectations — what's coming, what we t
 
 ### FHLB Advance Spike
 - **Our view:** Currently ~$480B (issuance +31% YoY). Our threshold is >$700B. The spike comes when banks need liquidity to meet withdrawal demands while capital erodes from CRE + AOCI. This is the LIQUID crossover signal.
+
+---
+
+## BRANCH POINT SUMMARY
+
+These are the moments where our expected path could fork:
+
+| Date | Event | Bull Fork (thesis strengthens) | Bear Fork (thesis weakens) | Status |
+|------|-------|-------------------------------|---------------------------|--------|
+| Mar 25 | JEF Q1 earnings | V2 chain confirmed | Clean quarter | ✅ **RESOLVED: BULL** — $17M MFS losses, -23% EPS |
+| Mar 31 | First Brands auction | Low recovery (<40%) = permanent losses | High recovery = contained | ❓ **RESULT UNKNOWN** |
+| Apr 1 | eSLR relaxation | Market reads G-SIB/regional divergence | Relief rally in KRE | ✅ **RESOLVED** — divergence is the thesis |
+| **Apr 10** | CPI (Mar data) | Hot (>3.5%) = stagflation trap confirmed | Cool (<3.0%) = Channel 8 weakens | **PENDING** |
+| **Apr 16** | OZK Q1 earnings | Miss + provision spike + noncurrent jump | Beat on healthy payoffs | **PENDING — PRIMARY** |
+| **Apr 20** | ZION Q1 earnings | Provisions spike = systemic confirmation | Clean = idiosyncratic OZK story | **PENDING** |
+| **Apr 21** | WAL Q1 earnings | Any vector fires (MI3/fraud/SSFA) | Clean quarter | **PENDING — PRIMARY** |
+| Apr 23-24 | BOJ meeting | Hike → CLO → BDC → fund finance chain | Dovish → Channel 4 pauses | **PENDING** (SAM cross-feed) |
+| Apr 20-29 | Earnings wave synthesis | 2+ misses = SYSTEMIC confirmed | 0-1 miss = idiosyncratic | **PENDING — CRITICAL** |
+| ~May 1-10 | Q1 Call Reports | WAL MI3 ≥25%, NDFI still growing | MI3 stable, NDFI slowing | **PENDING — MORE IMPORTANT THAN EARNINGS** |
+| Mid-May | FDIC QBP | CRE DQ acceleration, NDFI +35% YoY | Contained | **PENDING** |
+| Jun 18 | AOCI comment close | Aggressive opposition = max exposure | Muted = banks adapted | **PENDING** |
+| Q2-Q3 | 2022 vintage maturities peak | Recognition wave, provisions spike | Healthy payoffs dominate | **PENDING** |
+
+**Key sequence:** OZK (Apr 16) primes the market → second miss (WAL/ZION/EGBN) triggers sector repricing → Call Reports (May) confirm with regulatory data → AOCI compound hits (Jun+)
 
 ---
 
