@@ -139,12 +139,15 @@ We are in **late June / early July 2007** on the credit clock. The explosion mon
 9. ✅ FABN market sizing ($277B, PE-insurer dominant)
 10. ✅ PE-insurer transmission channel (monoline analog mapped)
 11. ✅ Zombie lending (Japan analog, forcing function ranking)
+12. ✅ Norinchukin ↔ CLO feedback loop (2 analyses — low-prob high-severity; market-structure risk, not credit impairment)
+13. ✅ OFR Brief 26-02 counterparty exposures (3 analyses — $410-540B lending, $300B uncalled capital, critical blind spots)
 
 ### Open / High Priority
 - ❌ Issuance freeze threshold — at what OAS does HY issuance freeze? (subagent running)
 - ✅ CCC constituent-level data — **RESOLVED Mar 31**: concentrated in cable/media + healthcare + software, NOT broad systemic. Three independent analyses. See `research/CCC_SECTOR_DECOMPOSITION_*.md`
 - ❌ CCC/HY ratio compression velocity — days from 2.5 to panic (partially superseded — ratio is compositionally distorted)
-- ❌ Norinchukin ↔ CLO feedback loop quantification (SAM×BROCK cross-domain)
+- ✅ Norinchukin ↔ CLO feedback loop quantification — **RESOLVED Apr 2**: Two-source analysis (Claude + Gemini). Portfolio is 100% AAA ($62-65B), CET1 17.70%, 37% subordination. No AAA CLO has ever defaulted. Real risk is market-structure (5% of global CLO market, 46% of annual AAA trading volume). CCC bucket at 5.0% vs 7.5% trigger with 29.8% B3/B- downgrade pipeline. BOJ Apr 28 meeting (69% hike probability). FY2025 results May-Jun = near-term catalyst. Low-probability, high-severity node. See `research/NORINCHUKIN_CLO_FEEDBACK_RESPONSE_*.md`
+- ✅ OFR Brief 26-02 analysis — **RESOLVED Apr 2**: Three-source analysis (Claude + Perplexity + Gemini). $410-540B lending exposure (lower/upper bound). Y-14 banks: $123B committed / $74B utilized (<5% C&I loans). 86% secured, 1.3% avg DP, 32% LGD. $81B high-leverage tail (>3.5x, 23% of borrowing). $300B uncalled LP capital ($100B pensions, $90B insurers). Critical blind spots: no PE-insurer-FHLB mapping, no offshore vehicles, no inter-fund lending. Published Mar 12 on YE2024 data (already stale). See `research/OFR_BRIEF_26_02_RESPONSE_*.md`
 - ❌ September 2019 repo crisis day-by-day (2026 vulnerability mapping)
 
 ---
@@ -158,4 +161,4 @@ We are in **late June / early July 2007** on the credit clock. The explosion mon
 
 ---
 
-*This STATUS reflects research completed through Mar 30, 2026. The timing folder is a living framework — update as new data arrives. The goal is calibration, not prediction.*
+*This STATUS reflects research completed through Apr 2, 2026. The timing folder is a living framework — update as new data arrives. The goal is calibration, not prediction.*
