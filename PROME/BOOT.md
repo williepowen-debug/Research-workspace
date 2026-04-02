@@ -67,6 +67,7 @@ Named for Arturo Toscanini. Prome's decision interface with Will. **This is how 
 | marco | Migration/labor flows | shade | PE-insurance-captive |
 | hermes | Signal delivery | darwin | System evolution |
 | otto | Auto/consumer DQ | red | Adversarial analysis |
+| oracle | Prediction markets | | |
 
 **Spawn:** `sessions_spawn(agentId="<id>", task="...", cleanup="keep")`
 **Steer/check:** `subagents(action="list")` / `subagents(action="steer", target="<sessionKey>", message="...")`

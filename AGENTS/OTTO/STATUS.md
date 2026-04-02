@@ -1,6 +1,51 @@
 # OTTO STATUS
 
-**Signal Status:** 🔴🔴 CRITICAL — ESCALATING | **Last Updated:** 2026-03-30 13:45 UTC
+**Signal Status:** 🔴🔴 CRITICAL — ESCALATING | **Last Updated:** 2026-04-01 09:45 EDT
+
+---
+
+## APR 1 CHECK-IN (2026-04-01 09:45 EDT)
+
+### WAR TRANSMISSION — 🔴🔴 NEW (Auto Finance News, Mar 30)
+- Iran war (Day 32) pushing **oil >$100/bbl** → inflation spike → consumer squeeze
+- **Prime ABS spreads widened +17bps** on fuel/inflation fears; subprime spreads worse
+- Direct transmission: higher fuel costs → reduced disposable income → **elevated DQ risk for subprime borrowers**
+- Gas at **$3.99** (behavioral breakpoint: demand destruction accelerates above $4)
+- Otto assessment: War = accelerant on already-stressed subprime stack. Not priced in at current ABS spreads.
+
+### SYF NCO 5.8% — CARL SIGNAL CONFIRMED (TradingView/GuruFocus, Mar ~10)
+- **Synchrony Financial Feb 2026 NCO: 5.8%** (+110bps MoM) on $99.9B loan book
+- 30+ DQ: 4.7% — consumer credit bleeding broadly
+- CARL flagged as "subprime canary" — SYF book skews toward subprime/near-prime retail credit
+- Analyst consensus Q1 NCO: 5.84%; BTIG revised down to 5.50% (still elevated vs prime ~1.9%)
+- **SYF NCO is 3x prime** — confirms CARL's consumer stress thesis is now showing in large-cap data
+- 📤 **Signal queued → CARL**: Integrate SYF 5.8% NCO as confirmation data point
+
+### TRICOLOR — MAR 31 LIQUIDATION OUTCOME (Status: No public result yet)
+- Deadline passed (Mar 31). **No post-deadline reporting yet as of Apr 1 morning.**
+- Vehicle liquidation proceeds determine recovery for warehouse lenders (JPM, Barclays, FITB)
+- Trial: October 19, 2026. Chu/Goodgame pleaded not guilty.
+- **Watch for Q1 earnings disclosures**: JPM ($170M), FITB ($170-200M), Barclays (nine-figure) may update loss figures
+- Inbox: MAR31_BANKRUPTCY_BRIEF.md processed ✅
+
+### FIRST BRANDS — APR 9 HEARING ADJOURNED (Kroll docket, Apr 2)
+- **April 9 hearing: ADJOURNED** per Kroll docket — "Notice of Further Adjournment" filed. No new date visible yet.
+- April 2 relief-from-stay hearing also adjourned (Joint Notice filed).
+- $25M PGI brand sale (Autolite, FRAM, Trico) **expected to close early April** — still pending court approval.
+- **Hebron FRAM warehouse closing** — 76 layoffs by Apr 30 (Cincinnati Biz Courier, Mar 31).
+- **April 30, 2026 = target cessation date** for remaining operations.
+- Recovery trajectory: <1% on $12B debt — tracking below our <2% prediction.
+- Inbox: MAR31_BANKRUPTCY_BRIEF.md processed ✅
+
+### CVNA — NO NEW CATALYSTS (Apr 1)
+- Stock -25% in 2026, trading at ~35x LTM earnings. Bearish scrutiny building.
+- Annual stockholder meeting May 5 (split vote). Discovery Production 2 Jun 12.
+- No new litigation output, no filings. Thesis intact, patience required.
+
+### OZK — NO 8-K FILED (Inbox: OZK_8K_CHECK_MAR26.md)
+- No 8-K filed Mar 20-26. Q1 earnings: **April 16, 2026** — next OZK catalyst
+- Lincoln Yards possession taken (CRE workout continuing) — not an SEC event
+- Inbox: OZK_8K_CHECK_MAR26.md processed ✅
 
 ---
 
@@ -158,9 +203,10 @@ $12B debt (FT). DOJ indicted Patrick James (9 counts, life risk). Asset recovery
 
 | Date | Event | Status |
 |------|-------|--------|
-| **Mar 31** | Tricolor vehicle liquidation | 🔴 IMMINENT (TODAY) |
-| **Mar 31** | First Brands asset sales (Walbro $50M pending) | 🔴 |
-| **Apr TBD** | First Brands 12-brand $25M sale closing | 🟠 |
+| **Mar 31** | Tricolor vehicle liquidation | ✅ DEADLINE PASSED — outcome TBD |
+| **Mar 31** | First Brands asset sales (Walbro $50M pending) | ✅ $25M 12-brand sale confirmed |
+| **Apr 9** | First Brands hearing — **ADJOURNED** | ⏳ NEW DATE TBD |
+| **Apr 16** | OZK Q1 earnings | 🟠 WATCH |
 | Apr 6 | TCPC class action lead deadline | 🟠 |
 | May 1 | APO class action lead deadline | 🟠 |
 | May 5 | CVNA stock split vote | 🟠 |

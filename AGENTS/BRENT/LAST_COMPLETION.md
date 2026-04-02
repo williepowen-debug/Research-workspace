@@ -1,24 +1,17 @@
-# BRENT LAST COMPLETION
+# LAST_COMPLETION — BRENT Inbox Processing
 
-## COMPLETION — BRENT — 2026-03-27
-STATUS: ✅ DONE
-CHANGED: 
-- AGENTS/BRENT/STATUS.md (header, price dashboard, new Mar 27 signal section with NOPI/Hormuz/gas/tanker)
-- AGENTS/BRENT/workbook/KB.tsv (7 new entries: KB-BRT-123 through KB-BRT-129)
-- HENRY/inbox/BRENT_ROUTING_2026-03-27.md (new — full routing signal)
-- AGENTS/BRENT/LAST_COMPLETION.md (this file)
+**Completed:** 2026-04-01 UTC | **Agent:** BRENT subagent | **Task:** Inbox processing 7 signals Mar 26-31
 
-RESULT: Brent $108-112 pushes NOPI from 47 to 55-59, exceeding the 1973 embargo level (52.8) and revising Hamilton GDP drag upward from -3.0 to -4.9pp to **-4.5 to -6.0pp cumulative** (peak Q1 2027: -1.8 to -2.4pp in that quarter alone). Gas $4 behavioral breakpoint confirmed breached nationally, compressing Hamilton's demand destruction timeline ~1 quarter forward to Q2 2026. Diesel thesis materially strengthened with three simultaneous supply disruptions (Valero, Kirishi, Hormuz tanker) converging. Hormuz deadline extended to Apr 6 — Iran explicitly rejected terms, Israel struck nuclear sites, NOT deescalation.
+---
 
-GAPS: None material. NOPI calculation uses ($Brent − $53 reference baseline) methodology inferred from prior NOPI=47 at $100; exact Hamilton equation parameterization depends on quarterly average vs spot close — Q1 close Mar 31 will be the definitive anchor.
+STATUS: ✅ COMPLETE — 7 signals processed, KB updated (entries 130-138), STATUS.md header + snapshot updated, all files moved to processed/
 
-WILL_NEEDS: 
-- Watch Mar 31 Brent/WTI close — this is the single number that locks in NOPI and GDP drag for all Q2 models
-- Consider position sizing review given NOPI now exceeds 1973 embargo levels — Phase 1 targets ($120-130) look more likely than not
-- Diesel crack spread trade: Valero + HFC + PSX exposure may be worth sizing given multi-vector convergence
+CHANGED: STATUS.md header → APR 1 snapshot; Brent updated to $116-120; ADCOP fire added as 🔴🔴 threshold event; bypass table updated; new signal block (MAR 29-31) added; IEA 7M bpd refining impaired, Corpus Christi water, OECD 4.2% integrated. KB.tsv: 9 new entries (KB-BRT-130 through KB-BRT-138).
 
-FOLLOW-UP: 
-- Apr 6 Hormuz deadline — spawn BRENT update at deadline or earlier if escalation
-- Q1 close Mar 31 — NOPI final calculation; route to HENRY + NEXUS immediately
-- Monitor ARA gasoil stocks (Kirishi → European diesel draw, weekly IEA data)
-- Israel/Iran nuclear strike response — could be 24-48hr escalation window
+RESULT: Supply scenario materially worsened. ADCOP fire (Mar 31) is the highest-priority unresolved signal — if confirmed offline, zero bypass exists and Brent $130+ is base case. Brent already at $116-120 (NOPI ~62-65, uncharted post-1979). Russian Baltic = effectively zero after Ust-Luga 3rd strike. Qatar FM operationalized (90 cargoes through May). IEA confirms 7M bpd refining impaired globally. New vectors: Al Taweelah aluminium, Corpus Christi water, OECD CPI 4.2%.
+
+GAPS: ADCOP operational status unconfirmed (fire severity unknown). NOPI exact recalculation at $116 close not finalized. Corpus Christi refinery capacity quantification pending. Kirishi military fuel degradation impact on Russian ops unassessed.
+
+WILL_NEEDS: ADCOP status confirmation — is it offline or partial? If offline = threshold event requiring immediate position review. NOPI recalculation at $116 for Hamilton model update. Corpus Christi refinery capacity list (which specific refineries at risk in May).
+
+FOLLOW-UP: Route to HENRY: OECD 4.2% + NOPI recalculation at $116. Route to HANS: Qatar 90-cargo FM near-term EU storage impact. Route to CARL: Corpus Christi TX infrastructure stress. Route to NEXUS: Al Taweelah aluminium as new cross-commodity vector. Monitor ADCOP operational status — single most important open question as of Apr 1.

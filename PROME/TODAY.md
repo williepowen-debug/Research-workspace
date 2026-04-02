@@ -1,67 +1,56 @@
-# TODAY.md — Monday March 31, 2026
+# TODAY.md — Tuesday April 1, 2026
 
-**CONVERGENCE DAY.** Japan FY-end + US Q-end + USDA + Tricolor deadline. All simultaneous.
+**Post-Convergence.** Q-end behind us. Treasury + insurance regulators meeting TODAY. Tankan TODAY. OWL expires TOMORROW.
 
-Scenario D dominant (85%). War Day 30. Account ~$55,689 (+111.5%). Brent $107-108. HY OAS **342** 🔴. CCC OAS **1013** 🔴🔴. Gas **$3.96 → $4 BREACHED**. VIX ~30 🔴.
+Scenario D dominant (82%). War Day 32. Brent **$103** (eased from $108). HY OAS **346** 🔴 (widening). CCC OAS **1020** 🔴🔴. Gas **$3.99** (at $4 breakpoint). VIX **25.15** 🟡 (dropped from ~30). USD/JPY **158.58** 🔴.
 
-**Stress: CRITICAL (score 11).** HY OAS +21 to 342. CCC crossed 1000. Perli says reserve ampleness at Q1 2019 levels.
+**Stress: HIGH.** HY OAS widening. CCC still >1000. But VIX eased, Brent pulled back ~$5.
 
 ---
 
-## 🔴🔴 AT OPEN — Tue Mar 31
+## 🔴🔴 TODAY — Tue Apr 1
 
-- [ ] **FXY Tranche 1 — BUY 4 shares at ~$57.36.** APPROVED. Check USD/JPY overnight (FY-end flows).
-- [ ] **APD Tranche 1 — BUY 3 shares at ~$292.** APPROVED. Stop $265.
-- [ ] **OWL $9.5P Apr 2 — EXPIRES 2 DAYS.** ITM. OBDCII unfiled. Decision: hold into expiry or sell.
-- [ ] **Quarter-end SOFR/repo stress** — watch SRF usage. $30-80B normal, $80-120B watch, $120B+ alarm. Zero RRP buffer.
-
-## 🔴🔴 Tuesday Mar 31 — CONVERGENCE DAY
-
-- [ ] **Japan FY-end close** — GPIF rebalancing, life insurer repatriation. Mechanical flows. Watch USD/JPY.
-- [ ] **US Q1 close** — window dressing, SOFR stress. 20Y settlement same day.
-- [ ] **USDA Planting Intentions** — acreage estimates. LABOR/MARCO domain.
-- [ ] **Tricolor liquidation deadline** — recovery rates feed BROCK + REGINALD.
-- [ ] **First Brands auction** — WAL/Apollo exposure.
-- [ ] **Treasury meeting with insurance regulators begins (Apr 1)** — announced Mar 30. Focus: fund-level leverage, offshore reinsurance, investment liquidity.
+- [ ] **Treasury + insurance regulators meeting** — PC Stage 3 signal. BROCK flagged 🔴🔴. Watch for statements on fund-level leverage, offshore reinsurance, investment liquidity.
+- [ ] **Tankan survey** — if strong, BOJ April hike live. SAM domain.
+- [ ] **eSLR reform effective today** — frees ~$210-384B dealer capacity. Watch Treasury market reaction.
+- [ ] **OWL $9.5P Apr 2 — EXPIRES TOMORROW.** OWL at ~$8.97, ~$0.53 ITM. Decision needed today: hold into expiry or sell.
 
 ## 🔴 This Week
 
-- [ ] **APR 1: Tankan survey** — if strong, BOJ April hike live
-- [ ] **APR 1: Treasury + insurance regulators meeting** — PC Stage 3 signal
-- [ ] **APR 2: OWL expiry** — must decide by Apr 1
+- [ ] **APR 2: OWL expiry** — must decide by end of today
 - [ ] **APR 6: Iran pause expiry** — HAWK deadline
-- [ ] **APR 7: APO hold deadline** — stop $113, reassess
-- [ ] **PCE result** — should have dropped Fri 3/28. Check.
-- [ ] **KRE Jun→Dec roll** — price and execute this week
+- [ ] **APR 7: APO hold deadline** — stop $113, APO currently $111.42
+- [ ] **KRE Jun→Dec roll** — Q-end passed, roll timing needed this week
 - [ ] **Near→long rebalance** — book 61/39 inverted, RED recommends 22/78
 
-## Key Levels (as of Mon 5:30 PM ET)
+## Key Levels (live as of Apr 1 morning)
 
 | Ticker | Value | Zone | Threshold |
 |--------|-------|------|-----------|
-| HY OAS | 342bps | 🔴 | >320 red, 350 = issuance freeze |
-| CCC OAS | 1013bps | 🔴🔴 | >1000 = forced selling regime |
-| CCC/HY ratio | 2.96 | 🔴🔴 | Unprecedented. Every prior episode: violent compression |
-| Brent | $108.79 | 🔴 | >$100 |
-| Gas | $3.96 | 🟡→🔴 | $4.00 = behavioral breakpoint |
-| USD/JPY | 159.68 | 🔴 | >157 red, 160 = MOF intervention |
-| SOFR | 3.63 | 🟡 | >3.70 red. Q-end spike expected. |
-| SOFR-IORB | -0.02 | 🟢 | >+0.05 watch, >+0.25 alarm |
+| HY OAS | 346bps | 🔴 | >320 red, 350 = issuance freeze |
+| CCC OAS | 1020bps | 🔴🔴 | >1000 = forced selling regime |
+| Brent | $102.66 | 🔴 | >$100 |
+| Gas | $3.99 | 🟡→🔴 | $4.00 = behavioral breakpoint |
+| USD/JPY | 158.58 | 🔴 | >157 red, 160 = MOF intervention |
+| SOFR | 3.68 | 🟡 | >3.70 red. Post Q-end — did it normalize? |
+| SOFR-IORB | 0.03 | 🟢 | >+0.05 watch, >+0.25 alarm |
 | CP-Tbill | 0.15 | 🟢 | >0.30 watch, >1.00 alarm |
-| VIX | ~30 | 🔴 | >30 = regime change |
-| APO | $108.42 | 🔴 | Stop $113 |
-| KRE | $63.37 | 🟡 | <$63 red |
-| FXY | $57.36 | 🟡 | Entry level |
-| BIZD | — | — | BDC ETF, ABX proxy. Check at open. |
+| 10Y | 4.35% | 🟡 | 5.00-5.25% = clearing price (Gemini research) |
+| VIX | 25.15 | 🟡 | >30 = regime change (dropped from ~30) |
+| APO | $111.42 | 🟡 | Stop $113 |
+| KRE | $65.15 | 🟡 | <$63 red |
+| WAL | $70.85 | 🟡 | Window dressing fading? |
+| FXY | $57.88 | 🟡 | 8 shares, sizing TBD |
+| BIZD | $12.80 | 🔴 | BDC ETF stress |
+| TLT | $86.69 | 🟡 | Long duration |
 
-## New Intelligence (from today's research)
+## Notable Shifts Since Yesterday
 
-- **2026 ≈ late Q3/early Q4 2007** in Z.1 selling sequence. Insurance stress Q2-Q3'26. Bank stress late '26.
-- **Powell Mar 30: "watching closely"** on PC but no systemic risk call. = "subprime is contained."
-- **FS KKR downgraded to junk** (Moody's Mar 23). First BDC downgrade of cycle. PIK 14.7%.
-- **7 funds gated Q1 2026.** Apollo investors got 45¢ on dollar for redemptions.
-- **Egan-Jones:** BMA revoked, SEC/DOJ investigating, NAIC found 3-notch inflation. $350B+ at risk if revoked.
-- **Perli Mar 26:** Reserve ampleness at Q1 2019 levels. Zero RRP. SRF usage escalating ($74.6B Dec record).
+- **Brent eased ~$5** ($108→$103). Trump claims driving relief? Iran denied everything.
+- **VIX dropped from ~30 to 25** — risk-on tone, but HY OAS still widening (contradictory)
+- **SOFR 3.68** — approaching 3.70 red trigger. Post Q-end, should normalize. If it doesn't = signal.
+- **eSLR reform goes live today** — biggest structural change to dealer capacity since COVID exemption. $210-384B freed.
+- **SOFR-IORB crept to +0.03** — was -0.02 yesterday. Approaching +0.05 watch zone. Post Q-end or something stickier?
 
 ---
 

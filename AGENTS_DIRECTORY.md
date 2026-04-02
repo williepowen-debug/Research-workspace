@@ -44,6 +44,7 @@ Sub-agents own detail → distill upward to parents → lateral only when transm
 | Agent | Domain | Status | Key |
 |-------|--------|--------|-----|
 | **NEXUS** | Cross-agent synthesis | 🔴 | Convergence detection, contradiction flagging, threshold clustering, narrative gap |
+| **ORACLE** | Prediction markets | 🟠 | Polymarket/Kalshi monitoring. Real-money odds on bank failure, recession, bailout, Fed, geopolitical. Sentiment gauge + contrarian signal. |
 
 ## Insurance / Private Credit
 
@@ -98,6 +99,7 @@ BRENT (fuel) → CRUISE (operator P&L) → CARL (port city impact) + LABOR (port
 HAWK (Gulf/insurance) → CRUISE (itinerary cancellations)
 SHADE = insurance plumbing under BROCK/REGINALD | feeds LIQUID on systemic
 BOND = bond market structure between LIQUID (plumbing) and ZHAO (foreign flows) | auctions → LIQUID (repo demand) | credit spreads → HENRY (credit-equity lead) | issuance freeze → REGINALD (bank funding)
+ORACLE monitors prediction market odds → divergence signals to RED, confirmation signals to domain agents
 NEXUS synthesizes across all → convergence/contradiction → PROME
 HERMES carries signals between all agents (OUTBOX → INBOX, 2x daily)
 ```

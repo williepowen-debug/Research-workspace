@@ -1,54 +1,54 @@
 # HENRY STATUS
-**Last Updated:** 2026-03-30 17:32 UTC | **War Day 31 — CREDIT CONTAGION BEGINNING. CCC BREACHED 1000.**
-**Status:** 🔴🔴🔴 CREDIT STRESS ESCALATING. CCC OAS 1013 (+29). HY OAS 342 (+21, NEW RED ZONE BREACH). Brent $107.95. VIX ~31. 10Y 4.42% (+9bps). Nasdaq correction deepening (-0.5% today). Mixed open: Dow +0.3%, SPX -0.2%. Tuesday = Q1-end + Japan FY-end convergence. PCE confirmed hot (already logged Fri). Forced-selling risk rising.
+**Last Updated:** 2026-04-01 16:15 ET | **Q2 Day 1 — CEASEFIRE RALLY + BDC DIVERGENCE**
+**Status:** 🟡🔴 VIX compressed to 24.8 (from 31+). Equities rally on ceasefire hopes + strong data. BUT: BIZD -5.4% = private credit stress screaming. Gold record $4,795 on a risk-on day = hedging underneath. ISM Prices Paid 58.5 = inflation sticky. Classic divergence setup.
 
 ---
 
-## MAR 30 UPDATE — KEY LEVELS (1:30 PM ET)
+## APR 1 CLOSE — KEY LEVELS
 
-| Asset | Level | Δ | Signal |
-|-------|-------|---|--------|
-| HY OAS | **342 bps** | +21 | 🔴🔴 **ZONE BREACH — white→red. New alarm.** |
-| CCC OAS | **1013 bps** | +29 | 🔴🔴 **Above 1000. Forced-selling threshold crossed.** |
-| Brent | $107.95 | -4.10 | 🔴 Iran talk relief, still elevated |
-| Gas | $3.96 | +0.24 | 🟡 Approaching $4 |
-| 10Y | 4.42% | +9bps | 🟡 Rising. Quarter-end supply + war premium |
-| USD/JPY | 159.52 | -0.11 | 🔴 Yen weak. Carry unwind risk into Japan FY-end |
-| Dow | +0.3% | — | Mixed session, relief bounce |
-| Nasdaq | -0.5% | — | 🔴 Correction deepening |
-
----
-
----
-
-## MAR 27 CLOSE — KEY LEVELS
-
-| Asset | Level | Δ Today | Signal |
-|-------|-------|---------|--------|
-| SPX | 6,368.85 | -108.31 (-1.67%) | 🔴🔴 5th straight losing week. Down ~6.2% from ATH. |
-| Nasdaq | 20,948.36 | -459.72 (-2.15%) | 🔴🔴 Correction territory (>10% off highs). |
-| Dow | 45,166.64 | -793.47 (-1.73%) | 🔴🔴 **Entered correction.** |
-| Russell 2000 | 2,446.62 | -1.87% | 🔴🔴 Small caps hit hardest. |
-| VIX | 31.46 | +14.65% | 🔴🔴 **Above 30 regime change level. Confirmed.** |
-| 10Y | ~4.30% | — | 🟡 Bond bid real but 30Y at 4.982% = long-end stress. |
-| 30Y | 4.982% | Rising | 🔴 Supply wall + inflation = long-end repricing. |
-| Brent/WTI | $99.55 | +5.37% | 🔴🔴 War premium. Strait of Hormuz effectively closed. |
-| Gold | $4,550.70 | +3.21% | 🔴🔴 Flight to safety. New highs. |
-| Gas | ~$3.98-4.00+ | — | 🔴 $4 behavioral breakpoint breached or at threshold. |
+| Asset | Level | Δ vs Mar 30 | Signal |
+|-------|-------|-------------|--------|
+| SPX | 6,575.32 | +3.2% | 🟢 Ceasefire rally. Q1 close at -4.6% YTD. |
+| Nasdaq | 21,840.95 | +1.16% today | 🟢 Tech led (semis, mega-cap) |
+| Dow | 46,565.74 | +0.48% today | 🟢 Moderate |
+| Russell 2000 | 2,515.12 | +0.75% today | 🟢 Small caps participating |
+| VIX | **24.79** | -6.7 pts from 31.46 | 🟡 Massive compression. Still elevated vs norms. Near 25 threshold. |
+| Brent | ~$101 | -$7 from $107.95 | 🔴 Still triple digits. Ceasefire hopes pulling it down. |
+| WTI | $99.48 | -1.87% today | 🔴 Sub-$100 on ceasefire talk |
+| Gold | **$4,794.80** | +$244 from $4,551 | 🔴🔴 **RECORD. +2.48% on a risk-on day = deep hedging.** |
+| HY OAS | ~328 bps | -14 from 342 | 🔴 Tightened but still elevated (red zone). |
+| KRE | +1% | — | 🟢 Regionals green, diverging from credit stress |
+| WAL | +2% | — | 🟢 |
+| **BIZD** | **-5.4%** | — | 🔴🔴 **MAJOR BDC STRESS. Private credit cracking.** |
+| XLE | -3.64% | — | Energy sold hard on ceasefire |
 
 ---
 
-## PCE DATA — RELEASED TODAY (Feb data)
+## ECONOMIC DATA — RELEASED TODAY
 
-| Metric | Result | Prior | Signal |
-|--------|--------|-------|--------|
-| Headline PCE MoM | +0.3% | +0.3% | 🟡 In-line |
-| **Core PCE MoM** | **+0.4%** | +0.3% | 🔴🔴 **HOT. Acceleration.** |
-| Core PCE YoY | ~2.7-3.0% | 2.7% | 🔴 Sticky at or above prior. Fed trapped. |
-| UMich Sentiment (final) | **53.3** | 56.6 | 🔴🔴 Collapsed. -3.3 pts. |
-| 1Y Inflation Expectations | **3.8%** | 3.4% | 🔴🔴 +0.4pp. Unanchoring risk. |
+| Metric | Result | Expected | Signal |
+|--------|--------|----------|--------|
+| ISM Mfg PMI | **52.7** | 52.5 | 🟢 3rd month expansion |
+| ISM Prices Paid | **58.5** | — | 🔴 **Elevated. Input cost inflation sticky.** |
+| ISM Employment | Contracting | — | 🔴 Mfg hiring still weak |
+| ADP Private Payrolls | **+62K** | +40K | 🟢 Beat. Small biz drove gains. Pay +4.5% YoY. |
+| Retail Sales (Feb) | **+0.6%** | +0.5% | 🟢 Consumer spending resilient |
 
-**KEY: Core PCE +0.4% MoM is the hottest in months. Combined with UMich inflation expectations jumping to 3.8%, this is the stagflation signature we predicted.** Consumers expect MORE inflation while feeling WORSE about the economy. Fed cannot cut into rising expectations. Fed cannot hold while sentiment collapses. Trap is now visible to everyone.
+**KEY: ISM headline looks fine. But the divergence is telling — output expanding while employment contracts and prices stay hot. That's the stagflationary signature: producing more at higher cost with fewer workers. Margin compression ahead.**
+
+---
+
+## MARKET STRUCTURE — WHAT CHANGED TODAY
+
+1. **VIX crushed from 31 to 24.8.** Biggest single-session decompression in weeks. Dealer gamma flipping less negative — but 24.8 is NOT complacent. It's right at the threshold where another shock re-escalates fast. Term structure likely still inverted (front > back = hedging demand).
+
+2. **BIZD -5.4% while SPX +0.72% = SCREAMING DIVERGENCE.** BDCs are the canary in private credit. A 5.4% drop on a broad rally day means: forced selling, NAV markdowns, or fund redemptions in leveraged credit. This is the stress that doesn't show in HY OAS (which tightened to 328). Private credit cracks before public markets price it.
+
+3. **Gold $4,795 record on a risk-on day.** When gold makes all-time highs while equities rally on ceasefire hopes, somebody doesn't believe the ceasefire. This is structural hedging, not tactical. Institutional money buying protection even as they chase the rally.
+
+4. **Energy sector -3.64% (XLE) while crude only -1.87%.** Market pricing full ceasefire resolution into energy equities faster than commodity itself. If ceasefire doesn't materialize, energy names snap back hard while everything else gives up gains.
+
+5. **Q2 opened with a trap-quality rally.** SPX recovered to 6,575 — but Q1 closed -4.6% YTD. This has the structure of a bear market rally: ceasefire headline + quarter-turn window dressing + short covering. Real positioning (gold, BIZD, VIX still at 24.8) tells a different story.
 
 ---
 
@@ -56,42 +56,27 @@
 
 | # | Prediction | Status |
 |---|------------|--------|
-| HEN-04 | FOMC holds, both mandates, 0-1 cuts | ✅ **CONFIRMED** |
-| HEN-07 | Mar 16 relief rally = bull trap | ✅ **CONFIRMED** |
-| HEN-08 | VIX gaps to 28+ | ✅ **CONFIRMED** — now 31.46 |
-| HEN-09 | Brent $110-115 | ✅ **EXCEEDED** — hit $119, whipsaw $97-$100 |
-| HEN-10 | SPX tests 6,550-6,600 | ✅ **EXCEEDED** — now 6,369 |
-| HEN-11 | Iran "talks" rally = bull trap | ✅ **CONFIRMED** — each rally sold |
-| HEN-12 | 15-point plan rally = bull trap v2 | ✅ **CONFIRMED** — SPX gave it all back and more |
-| HEN-13 | PCE hot (≥2.7%) + rising claims = Fed trap | ✅ **CONFIRMED** — Core MoM +0.4%, sentiment collapsed |
-| HEN-14 | VIX closes above 30 = structural regime shift | ✅ **CONFIRMED TODAY** — 31.46 close |
-| HEN-15 | Quarter-end Mon Mar 31 = window dressing masks real positioning. Q2 open reveals true sentiment. | 🔴 **ACTIVE — Monday** |
-
----
-
-## MARKET STRUCTURE — WHAT CHANGED TODAY
-
-1. **VIX regime shift confirmed.** Close at 31.46 is above the 30 threshold we flagged. This is no longer compression from diplomatic headlines — it's structural fear. Dealer gamma positioning is now firmly negative territory, meaning moves amplify in both directions.
-
-2. **Dow entered correction.** All three major indexes now in or near correction territory. Breadth is terrible — 4 of top 10 S&P components >20% off 52-week highs.
-
-3. **30Y yield at 4.982%.** The long end is repricing. This is the $14T supply wall + Japan withdrawal thesis playing out. 5% on the 30Y is a psychological level that will cause forced selling in duration-sensitive portfolios.
-
-4. **Consumer sentiment collapsed to 53.3** with inflation expectations jumping to 3.8%. This is the stagflation consumer — expecting more inflation, feeling worse about the economy, cutting spending. Exactly what we modeled.
-
-5. **Oil $99.55 (+5.37%)** despite Trump extending Iran strike deadline to Apr 6. Market doesn't trust the extension. Strait of Hormuz closure premium is sticky.
-
-6. **Gold $4,551 (+3.21%)** on a massive equity down day = pure fear bid. Not rotation, not rebalancing — hedging.
+| HEN-04 | FOMC holds, both mandates, 0-1 cuts | ✅ CONFIRMED |
+| HEN-07 | Mar 16 relief rally = bull trap | ✅ CONFIRMED |
+| HEN-08 | VIX gaps to 28+ | ✅ CONFIRMED (hit 31.46) |
+| HEN-09 | Brent $110-115 | ✅ EXCEEDED (hit $119) |
+| HEN-10 | SPX tests 6,550-6,600 | ✅ CONFIRMED — now at 6,575 |
+| HEN-11 | Iran "talks" rally = bull trap | 🔴 **ACTIVE — testing again today** |
+| HEN-12 | 15-point plan rally = bull trap v2 | ✅ CONFIRMED |
+| HEN-13 | PCE hot + rising claims = Fed trap | ✅ CONFIRMED |
+| HEN-14 | VIX above 30 = regime shift | ✅ CONFIRMED (then compressed) |
+| HEN-15 | Q1 window dressing masks real positioning | ✅ **CONFIRMED — Q2 open reveals divergences** |
+| **HEN-16** | **Apr 1 ceasefire rally = bull trap v3. BIZD divergence + gold record + VIX still 24.8 = rally on borrowed time.** | 🔴 **NEW — ACTIVE** |
 
 ---
 
 ## CROSS-DOMAIN SIGNALS
 
-- **CARL:** Gas at/near $4 behavioral breakpoint. Oil +5.37% today guarantees gas prices rise next week. $4.50 by mid-April increasingly base case. Consumer already cutting food spending.
-- **SAM:** Quarter-end Monday. GPIF rebalancing + Japan FY-end = structural selling of foreign assets. Carry unwind risk elevated into Monday.
-- **HANS:** 30Y at 4.982% — credit stress accelerates. HY OAS likely widening. Corporate refinancing costs jumping.
-- **LIQUID:** VIX 31+ = dealer negative gamma. Expect amplified moves Monday. Quarter-end rebalancing into negative gamma = volatile session.
-- **LABOR:** UMich consumer sentiment collapse (53.3) = hiring freeze deepens. Employers won't hire into collapsing consumer confidence.
+- **HANS/Credit:** BIZD -5.4% is a direct credit signal. Private leveraged credit (BDCs) cracking while HY OAS tightens = the stress is in the shadows. BDCs fund mid-market companies — this is the transmission from rate stress to real economy.
+- **CARL/Consumer:** Retail sales +0.6% beat, but ISM employment contracting. Consumer spending on borrowed time if labor deteriorates.
+- **SAM/Japan:** Ceasefire rally may attract Japanese buying back into risk (FY just started). Watch USD/JPY — if yen weakens further, carry trade rebuilds and SAM risk re-escalates.
+- **LABOR:** ADP +62K beat but pay growth +4.5% YoY = wage-price spiral alive. ISM employment contracting = manufacturing shedding while services still hiring. NFP Friday is the real test.
+- **LIQUID:** VIX compression from 31 to 24.8 = massive gamma flip. If we get a shock (ceasefire collapses, NFP miss), the re-escalation will be violent because everyone just sold vol.
 
 ---
 
@@ -99,13 +84,13 @@
 
 | Position | Status |
 |----------|--------|
-| IWM $250P Jun | ✅ HOLD — Russell -1.87% today. Small caps getting crushed. |
-| HYG $75P Jun | ✅ HOLD — 30Y at 4.982% = credit stress transmission accelerating. |
-| TLT Puts | ✅ VINDICATED — 30Y approaching 5%. Supply wall thesis playing out. |
-| Regional shorts | ✅ HOLD — Rate stress + consumer deterioration = fundamental thesis intact. |
+| IWM $250P Jun | ⚠️ WATCH — Russell rallied +0.75%. Small caps bouncing on ceasefire. |
+| HYG $75P Jun | ⚠️ WATCH — HY OAS tightened. But BIZD divergence supports thesis. |
+| TLT Puts | ✅ HOLD — Inflation data (ISM prices 58.5, wages +4.5%) supports. |
+| Regional shorts | ⚠️ WATCH — KRE +1%, WAL +2%. Regionals green today. Counter-trend. |
 
 ---
 
 ## BOTTOM LINE
 
-**The trap snapped shut today.** Core PCE +0.4% MoM (hot) + consumer sentiment collapse to 53.3 + inflation expectations unanchoring to 3.8% = the stagflation print we predicted. VIX closed above 30 (31.46), confirming regime shift. All three major indexes in or entering correction. Oil at $99.55 with Strait of Hormuz premium sticky. Gold surging to $4,551. The Fed is visibly trapped — every data point today confirmed they cannot cut (inflation accelerating) and cannot hold (consumer breaking). Monday is quarter-end with negative dealer gamma, Japan FY-end rebalancing, and Iran deadline extension that nobody trusts. The account was down ~5% yesterday from diplomatic pumps. Today validated the thesis. Q2 opens with nowhere to hide.
+**Today was a ceasefire-driven bull trap candidate — HEN-16.** The surface narrative is clean: strong ADP, ISM expanding, troops leaving Iran in weeks, VIX crushed. But the signal underneath is rotten. BIZD -5.4% on a rally day is a private credit alarm — BDCs don't drop 5% unless NAVs are being marked down or redemptions are hitting. Gold at $4,795 record on a risk-on day means institutional hedgers don't believe the ceasefire story. ISM prices paid at 58.5 means the Fed is still trapped — inflation sticky, employment contracting, stagflation signature intact. The VIX at 24.8 is deceptively close to the 25 threshold; one bad headline and it's back to 30+. This rally needs the ceasefire to actually happen AND NFP Friday to hold up. We give it <40% odds of sustaining through the week.

@@ -1,25 +1,23 @@
-# OTTO LAST COMPLETION
+# OTTO COMPLETION — 2026-04-02 12:16 EDT
 
-**Completed:** 2026-03-26 02:28 UTC
-**Task:** Process inbox (2 files), update STATUS, build KB, map First Brands exposure chain
+## STATUS
+✅ Both tasks complete.
 
-## Summary
+## CHANGED
+- `AGENTS/OTTO/STATUS.md` — First Brands section updated: Apr 9 hearing ADJOURNED, Apr 2 relief-from-stay also adjourned, Hebron FRAM 76 layoffs, PGI sale closing early April. Timeline entry updated.
+- `AGENTS/MARCO/inbox/OTTO_WA_ICE_TRACKING_APR2.md` — Created. Notifies MARCO of WA addition to 3-state ICE ag raid pattern (CA, MN, WA).
 
-Processed 2 inbox signals (2026-02-24_signals.md, SIG-2026-03-17-001.md). Key integration: JEF Q1 confirms $0 First Brands exposure after $10M write-off, but handler language ("absorbed over time") signals exposure migrated — not extinguished. Mapped remaining chain: Barclays → Apollo/Atlas SP → WAL warehouse. This feeds REGINALD's WAL earnings thesis directly.
+## RESULT
+**First Brands (Task 1):** Apr 9 hearing is **ADJOURNED** per Kroll docket — a "Notice of Further Adjournment" was filed. The Apr 2 relief-from-stay hearing was also adjourned. No rescheduled date visible yet. The $25M PGI brand sale is expected to close early April (pending court approval). New: Hebron FRAM warehouse closing with 76 layoffs by Apr 30. Recovery still tracking <1% on $12B debt.
 
-Tricolor liquidation deadline Mar 31 (5 days). First Brands auction ~Mar 31 with buyer withdrawal confirmed (WSJ Feb 23 — buyers "suddenly & unexpectedly" withdrew). CVNA DQ 7.1% RED confirmed. Consumer durables destruction: RV market -50% value (anecdotal), FT auto ownership "breaking point."
+**MARCO inbox (Task 2):** Inbox file written. WA state added to the CA/MN/WA 3-state ICE ag raid pattern.
 
-## Files Changed
-- AGENTS/OTTO/STATUS.md — updated (178 lines)
-- AGENTS/OTTO/workbook/KB.tsv — created (8 KB entries)
-- AGENTS/OTTO/inbox/processed/ — 2 files moved
-- AGENTS/OTTO/LAST_COMPLETION.md — this file
+## GAPS
+- No new hearing date visible on Kroll for First Brands — may need to check PACER or wait for updated docket.
 
----
+## WILL_NEEDS
+- None. Informational update only.
 
-STATUS: ✅ DONE
-CHANGED: AGENTS/OTTO/STATUS.md, AGENTS/OTTO/workbook/KB.tsv, AGENTS/OTTO/inbox/processed/2026-02-24_signals.md, AGENTS/OTTO/inbox/processed/SIG-2026-03-17-001.md, AGENTS/OTTO/LAST_COMPLETION.md
-RESULT: Processed 2 inbox signals and integrated JEF Q1 confirmation that First Brands exposure is now $0 at Jefferies (final $10M write-off), mapping remaining exposure chain to Barclays→Apollo/Atlas SP→WAL. KB.tsv created with 8 entries; STATUS updated to 178 lines with Mar 31 dual-deadline (Tricolor liquidation + First Brands auction) flagged as IMMINENT.
-GAPS: Cannot confirm WAL warehouse exposure amount — inference only; no primary source confirming WAL holds First Brands paper. RV market collapse needs fleet-level data (current entry is single-dealer anecdote).
-WILL_NEEDS: Confirm whether WAL has disclosed First Brands warehouse exposure in any 10-K/8-K. Pull full FT paywall article on auto ownership breaking point costs breakdown.
-FOLLOW-UP: Mar 31 — monitor Tricolor liquidation news + First Brands auction outcome. Route WAL exposure question to REGINALD immediately.
+## FOLLOW-UP
+- Monitor Kroll/PACER for rescheduled First Brands hearing date.
+- Watch for PGI $25M sale court approval (expected early April).
