@@ -1,6 +1,6 @@
 # SAM TIMELINE
 
-**Last Updated:** 2026-04-01
+**Last Updated:** 2026-04-02
 **View:** Base case progression with branch points marked
 
 This document maps our forward-looking expectations — what's coming, what we think happens, and where the path could diverge. Updated as events resolve or views change.
@@ -30,17 +30,27 @@ This document maps our forward-looking expectations — what's coming, what we t
 - **⚠️ FRAGILE:** Iran REJECTED the 15-point plan, denied direct talks, demands Lebanon included. Hormuz still contested. Could reverse on any escalation.
 - **Our view:** The oil headwind that was suppressing yen appreciation is lifting. If durable, the oil-in-yen paradox resolves — rate differential compression takes over. But do NOT treat de-escalation as confirmed.
 
-### Wed Apr 2 — 10Y JGB AUCTION
-- **Event:** 10Y JGB auction. Yield ~2.38%.
-- **Our view:** Less critical than super-long auctions but watch for demand signals. JGB 10Y is 2bps from our 2.40% stress crossover threshold.
-- **Watch for:** BTC ratio, any yield spike above 2.40%.
+### Wed Apr 2 — 10Y JGB AUCTION + TRUMP SPEECH REVERSAL ✅ RESOLVED
+- **Event:** 10Y JGB auction. Trump primetime speech on Iran war.
+- **Outcome — Auction WEAK:**
+  - BTC 2.56x (vs Feb 3.02, Jan 3.30, 12mo avg ~3.24) — notably below average
+  - Tail 0.36 — WIDEST since Aug 2024 (the carry unwind month). Demand quality problem.
+  - Coupon set at 2.4% — 28-year high. Yield at avg price 2.350%, lowest accepted 2.395%.
+  - Not a failure (>2.0x) but a clear warning shot ahead of Apr 7 30Y auction.
+- **Outcome — Trump speech REVERSED de-escalation:**
+  - NO exit plan, NO Hormuz reopening, "2-3 more weeks" of strikes.
+  - Brent surged $102→$109 (+7%). $7 of yesterday's $13 unwind reversed in 12 hours.
+  - USD/JPY back to 159.68 (from 158.42). FXY $58.45 (from $58.55).
+  - S&P -1.5%, Nasdaq -2.1%. De-escalation probability: 40-50% → ~25-30%.
+- **Net:** Phase 1 oil dynamics REASSERTING. Yen weakening back toward 160. MOF intervention risk re-engaging. Smooth de-escalation path is gone — back to bumpy BOJ/intervention path.
+- **Implication for Apr 7:** If 10Y gets only 2.56x at 2.4% yield, what does 30Y get at ~3.7% with life insurers stepping back? April 7 is now THE most important data point on the calendar.
 
 ### Sun Apr 6 — TRUMP STRIKE PAUSE EXPIRES
 - **Event:** Deadline for paused strikes on Iranian energy infrastructure.
 - **Branch point:**
-  - Extended/talks progress: Oil stays $100-105, yen strengthening continues. De-escalation narrative firms.
-  - Strikes resume: Oil reverses to $110+, yen weakens, FXY gives back gains. Back to Phase 1 oil headwind.
-- **Why it matters:** $13 of war premium has been unwound. This date tests whether that unwind holds.
+  - Extended/talks progress: Oil stays $100-110, yen stabilizes. But probability LOW (~25-30%) after Trump speech.
+  - Strikes resume (likely): Oil back to $115+, Kharg Island risk returns, yen weakens further, USD/JPY tests 160+.
+- **Why it matters:** De-escalation trade already 50%+ reversed. If strikes resume, ALL of yesterday's unwind reverses and then some. Apr 7 30Y auction would happen with oil back at $115+ and yen under pressure.
 
 ---
 
@@ -180,7 +190,8 @@ These are the moments where our expected path could fork:
 | Date | Event | Bull Fork | Bear Fork | Status |
 |------|-------|-----------|-----------|--------|
 | **Apr 1** | Tankan | Strong → April hike live | Weak → May only | ✅ **RESOLVED: BULL** |
-| **Apr 6** | Strike pause expiry | Extended → oil stays low | Strikes resume → oil reverses | **NEW — PENDING** |
+| **Apr 2** | 10Y JGB auction | Strong demand | Weak demand → 30Y risk | ✅ **RESOLVED: WEAK** (BTC 2.56x, tail 0.36) |
+| **Apr 6** | Strike pause expiry | Extended → oil stays low | Strikes resume → oil reverses | **PENDING — bear more likely after Trump speech** |
 | **Apr 7** | 30Y JGB auction | BTC >3.0x → demand holds | BTC <2.0x → insurer buyer strike | **NEW — PENDING** |
 | **Apr 14** | 20Y JGB auction | Healthy demand | Weak → super-long crisis | **NEW — PENDING** |
 | **Apr 15** | TIC data | Large selling → thesis confirmed | Mixed → slower timeline | PENDING |

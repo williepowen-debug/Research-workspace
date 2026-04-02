@@ -9,7 +9,7 @@
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |------|-------|---------------|-------------------|-----------|
 | Apr 1 ✅ | Tankan Q1 survey | Mfg index, outlook, biz inflation exp | Strong = April hike live | BOJ path |
-| Apr 2 | 10Y JGB auction | BTC ratio, tail, yield | Weak demand = stress signal | LIQUID |
+| Apr 2 ✅ | 10Y JGB auction | **BTC 2.56x, tail 0.36 (widest since Aug '24), coupon 2.4% (28yr high)** | **WEAK — below avg but above 2.0x failure** | LIQUID |
 | ~Apr 3 | MOF FY-end week flow data | Net foreign bond selling (w/e Mar 28) | >¥1T = 🟠 LIQUID signal | LIQUID, PROME |
 | Apr 3 | T-bill auction (3mo) | — | Routine | — |
 

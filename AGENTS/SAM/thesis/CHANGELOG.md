@@ -8,6 +8,48 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-04-02 — TRUMP REVERSAL + WEAK 10Y AUCTION + SAM-06 RESOLVED
+
+### PREDICTION Resolved: SAM-06
+**Author:** SAM
+**Prediction:** "Life insurers announce more JGB selling" (75% confidence, Q1 2026)
+**Result:** CONFIRMED — TRUE
+**Evidence:** Fukoku Mutual stopped buying 30Y/40Y JGBs (Jan 2026, first to break). Nippon Life realized ¥220B JGB losses (active selling, not paper). Feb MOF data showed ¥3.42T foreign bond selling — largest since Oct 2024. Multiple independent confirmations across Q1.
+**Calibration note:** 75% confidence on a TRUE outcome — well-calibrated.
+
+### TIMELINE Updated
+**Author:** SAM
+**Action:** Marked Apr 2 RESOLVED (10Y auction + Trump speech). Updated Apr 6 assessment. Added to branch point table.
+
+**What changed:**
+1. **10Y JGB auction RESOLVED — WEAK.** BTC 2.56x (well below 12mo avg 3.24), tail 0.36 (widest since Aug 2024). Coupon 2.4% (28-year high). Not a failure but a clear warning for Apr 7 30Y.
+2. **Trump speech REVERSED de-escalation.** No exit plan, no Hormuz reopening. Brent surged $102→$109. De-escalation probability dropped to ~25-30% (was 40-50%).
+3. **Phase 1 dynamics reasserting.** USD/JPY back to 159.68. Oil up = yen weak. MOF intervention risk re-engaging.
+4. **Apr 6 branch point updated.** Bear fork (strikes resume) now more likely after Trump speech.
+
+**Old view:** De-escalation possibly emerging, oil headwind lifting, smooth policy path. 10Y auction routine.
+**New view:** De-escalation crumbling, oil back as headwind, Phase 1 reasserting. 10Y auction weak = Apr 7 30Y now THE critical event. Path to FXY target bumpier but destination unchanged.
+
+**Note on THESIS:** No version bump. Thesis structure unchanged — all 3 channels intact. What changed is PATH (bumpier) not DESTINATION. April BOJ hike prob slight downgrade (45-50% → 40-45%) on renewed "uncertainty" excuse. May unchanged.
+
+### NEW FILES CREATED
+**Author:** SAM + Will
+1. **STRATEGY.md** — Decision playbook at SAM root. When to add/hold/exit FXY, vol signals mapped to position decisions, 5-stage trade framework, asymmetry table. Not part of boot — read when position decisions are on the table.
+2. **research/outputs/VOL_OPTIONS_FRAMEWORK.md** — Full technical reference for vol/options monitoring. CME CVOL (JPVL) regimes, UpVar/DnVar decomposition, FXY OI structure, USD/JPY risk reversal interpretation, convergence signal logic, traffic light dashboard. Source: Perplexity deep research, validated by SAM.
+3. **4 new workbook vectors** (VX-SAM-12.00 through 12.03) — vol convergence signal, CVOL, FXY P/C OI, risk reversals. All marked MANUAL UPDATE REQUIRED.
+
+### PROCESS IMPROVEMENT
+**Author:** SAM + Will
+**Action:** Boot process audit and 6 structural fixes to CLAUDE.md:
+1. Boot order changed: THESIS → STATUS → CALENDAR → TIMELINE → MEMORY (was MEMORY first)
+2. Market refresh step added (step 7) — fetch live prices before analysis
+3. Doc ownership rules added — prevents STATUS/TIMELINE/MEMORY redundancy
+4. Session notes template added (CHANGES SINCE / LAST SESSION / NEXT SESSION)
+5. PREDICTIONS.tsv added to boot sequence (step 6)
+6. STATUS.md trimmed ~34 lines of narrative that duplicated TIMELINE
+
+---
+
 ## 2026-04-01 — TANKAN RESOLVED (BULL FORK) + OIL CRASH + TIMELINE EXPANSION
 
 ### TIMELINE Updated

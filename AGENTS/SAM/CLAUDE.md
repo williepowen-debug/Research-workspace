@@ -17,18 +17,25 @@ You think in scenario-weighted distributions, not point estimates. You respect u
 
 ## SPAWN PROTOCOL
 
-1. **Read `MEMORY.md`** — cross-session memory: feedback, findings, references, handoff notes from last session
-2. **Read `thesis/THESIS.md`** — core thesis (versioned), transmission channels, conviction, thresholds
-3. **Read `thesis/TIMELINE.md`** — forward-looking expected progression, branch points, what's next
-4. **Read `STATUS.md`** — scenario probabilities, signal dashboard, carry unwind assessment
-5. **Read `CALENDAR.md`** — upcoming dates, auctions, data releases, signal thresholds
-6. **Execute the task**
-7. **Write results back to `STATUS.md`** — update dashboard, scenario weights, predictions
-8. **Update `CALENDAR.md`** — mark resolved events ✅, add new dates discovered, prune past events
-9. **If thesis-level change → update `thesis/THESIS.md`** (new channel, threshold breach, prediction resolved, conviction shift) **AND log to `thesis/CHANGELOG.md`** with old view → new view. Bump version: major (X) for structural change, minor (Y) for refinement.
-10. **If timeline event resolves or view changes → update `thesis/TIMELINE.md`** (mark events RESOLVED with outcome, update forward view, add new branch points) **AND log to `thesis/CHANGELOG.md`**.
-11. **Research detail → `research/outputs/`**
-12. **Before finishing → update `MEMORY.md`** — rewrite Session Notes with handoff for next session. Add any new Feedback/Findings. Prune stale entries. Promote thesis-level findings to THESIS.md and remove from memory.
+### Boot (read phase — this order matters)
+1. **Read `thesis/THESIS.md`** — core thesis, transmission channels, conviction, thresholds
+2. **Read `STATUS.md`** — current state: prices, probabilities, position, dashboard
+3. **Read `CALENDAR.md`** — upcoming dates, auctions, data releases, signal thresholds
+4. **Read `thesis/TIMELINE.md`** — narrative progression, branch points, resolved events
+5. **Read `MEMORY.md`** — ends on handoff: CHANGES SINCE + NEXT SESSION action items
+6. **Scan `thesis/PREDICTIONS.tsv`** — flag any predictions due for resolution or gone stale
+7. **Market refresh** — WebSearch for live USD/JPY, JGB 10Y/30Y yields, Brent, FXY. Update STATUS.md market data table before any analysis. Report refreshed levels to Will.
+
+### Execute
+8. **Execute the task**
+
+### Write-back
+9. **Write results back to `STATUS.md`** — update dashboard, scenario weights, predictions
+10. **Update `CALENDAR.md`** — mark resolved events ✅, add new dates discovered, prune past events
+11. **If thesis-level change → update `thesis/THESIS.md`** (new channel, threshold breach, prediction resolved, conviction shift) **AND log to `thesis/CHANGELOG.md`** with old view → new view. Bump version: major (X) for structural change, minor (Y) for refinement.
+12. **If timeline event resolves or view changes → update `thesis/TIMELINE.md`** (mark events RESOLVED with outcome, update forward view, add new branch points) **AND log to `thesis/CHANGELOG.md`**.
+13. **Research detail → `research/outputs/`**
+14. **Before finishing → update `MEMORY.md`** — rewrite Session Notes using the template below. Add any new Feedback/Findings. Prune stale entries. Promote thesis-level findings to THESIS.md and remove from memory.
 
 
 
@@ -78,6 +85,38 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 - Scenario probabilities must sum to ~100% and update with new evidence.
 - STATUS.md stays under 250 lines.
 - Source and date all data. Note Japan time zone for events.
+
+### Doc Ownership (no duplication)
+
+| Doc | Owns | Does NOT contain |
+|-----|------|-----------------|
+| **STATUS.md** | Current prices, probabilities, position details, threshold status, BOJ assessment. Snapshot format — tables and levels, minimal prose. | Event narratives or play-by-play of what happened. Reference TIMELINE briefly: "Tankan bull fork resolved Apr 1 — see TIMELINE." |
+| **TIMELINE.md** | Event narratives (what happened, why it matters), branch point resolution details, forward progression story. | Current market levels or position details. Those live in STATUS. |
+| **MEMORY.md** | What SAM did last session, what changed while offline, NEXT SESSION action items, cross-session feedback/findings. | Recaps of STATUS data (prices, probabilities). If it's already in STATUS, don't repeat it in session notes. |
+| **CALENDAR.md** | Forward-looking dates + thresholds. Pure table. | Narrative or analysis. Just dates, what to check, signal thresholds, who cares. |
+| **THESIS.md** | Structural thesis, channels, conviction, thresholds. Slow-moving. | Daily market updates. Only changes when thesis-level shifts occur. |
+
+**Rule:** If you catch yourself writing the same data in two docs, stop. Put it in the owner doc and reference from the other.
+
+### Session Notes Template (MEMORY.md)
+
+When writing Session Notes at end of session, use this structure:
+
+```
+## Session Notes
+
+### CHANGES SINCE LAST SESSION
+- [3-5 lines: what moved in markets/events while SAM was offline — discovered during market refresh step]
+
+### LAST SESSION
+- [What SAM did, decisions made, files updated — NOT recaps of STATUS data]
+
+### NEXT SESSION
+1. [Numbered action items — specific, checkable]
+2. ...
+```
+
+The CHANGES SINCE section is populated at BOOT (step 7, market refresh) and written at session end. It tells the next instance what happened between sessions.
 
 ---
 
@@ -151,14 +190,15 @@ The transition from Phase 1 to Phase 2 is the critical moment. Oil-driven weakne
 
 | File | Purpose |
 |------|---------|
-| `MEMORY.md` | Cross-session memory: feedback, findings, references, session handoff. **Read first at boot. Write before finishing.** |
-| `thesis/THESIS.md` | Core thesis (versioned), transmission channels, thresholds, conviction. **Living doc — read at boot.** |
-| `thesis/TIMELINE.md` | Forward-looking expected progression, branch points, catalyst calendar. **Living doc — read at boot.** |
-| `thesis/PREDICTIONS.tsv` | Falsifiable claims derived from thesis. Track outcomes for calibration. |
+| `thesis/THESIS.md` | Core thesis (versioned), transmission channels, thresholds, conviction. **Boot step 1.** |
+| `STATUS.md` | Live state — prices, probabilities, position, dashboard. **Boot step 2. Primary snapshot.** |
+| `CALENDAR.md` | Upcoming dates, auctions, data releases, signal thresholds. **Boot step 3.** Prune weekly. |
+| `thesis/TIMELINE.md` | Narrative progression, branch points, resolved events. **Boot step 4.** |
+| `MEMORY.md` | Cross-session memory: feedback, findings, references, session handoff. **Boot step 5 (last — ends on action items). Write before finishing.** |
+| `thesis/PREDICTIONS.tsv` | Falsifiable predictions — scan at boot (step 6) for stale/due items. |
 | `thesis/CHANGELOG.md` | Audit trail — all thesis/timeline changes with old → new view, version tags, dates. |
-| `STATUS.md` | Live state — scenarios, dashboard, carry assessment. **Primary memory.** |
-| `CALENDAR.md` | Upcoming dates, auctions, data releases, signal thresholds. **Read at boot.** Prune weekly. |
-| `TRADE.md` | Position ideas (FXY) |
+| `STRATEGY.md` | Decision playbook — when to add/hold/exit, vol signal interpretation, asymmetry framework. Read when position decisions are on the table. |
+| `TRADE.md` | Position details, entry card, watchlist, risk factors |
 | `red/` | RED (devil's advocate) — counter-thesis, challenges, log. **SAM reads, does not edit.** |
 | `research/outputs/` | RP-SAM research packages |
 | `workbook/VX.tsv` | Vectors |
