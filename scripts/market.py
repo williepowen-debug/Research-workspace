@@ -5,9 +5,9 @@ import yfinance as yf
 import sys
 
 WATCHLIST = {
-    "Positions": ["WAL", "OZK", "KRE", "TLT", "CF", "STNG", "AAL", "IWM", "HYG"],
-    "Watchlist": ["LNG", "APO", "EGBN", "USO"],
-    "Benchmarks": ["SPY", "QQQ", "DX-Y.NYB", "CL=F", "GC=F", "^TNX", "^VIX"],
+    "Positions": ["WAL", "OZK", "KRE", "ZION", "EGBN", "SSB", "IWM", "HYG", "TLT", "CF", "STNG", "AAL"],
+    "Watchlist": ["LNG", "APO", "FLG", "CFG", "VLY", "USO"],
+    "Benchmarks": ["SPY", "QQQ", "DX-Y.NYB", "CL=F", "BZ=F", "GC=F", "^TNX", "^VIX"],
 }
 
 def fmt(ticker, info):

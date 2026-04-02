@@ -1,6 +1,6 @@
 # LESSONS.md — REGINALD Mistake Patterns & Rules
 
-*Read at boot. Learn once, prevent forever.*
+*Read at boot. Learn once, prevent forever. This file is for verified mistakes that burned us — each with a prevention rule. For Will's working preferences and data source learnings, see `MEMORY.md` (Feedback + Findings sections).*
 
 ---
 

@@ -1,6 +1,7 @@
 # WAL STATUS
-**Last Updated:** 2026-03-26 | **Status:** 🔴🔴 HIGH CONVICTION SHORT
-**Price:** ~$68 | **Assets:** $90B+
+**Last Updated:** 2026-04-02 | **Status:** 🔴🔴 HIGH CONVICTION SHORT
+**Price:** $72.09 (Apr 2, below $78 threshold) | **Assets:** $90B+
+**Consensus:** Mod Buy (11B/4H), PT $97.73 | **KB:** 70 rows, 10 groups
 
 ---
 
@@ -37,6 +38,8 @@
 
 | Date | Event |
 |------|-------|
+| Mar 31 | `LEADERSHIP.md` created — full C-suite, board, audit committee, auditor, CRE leadership, ownership. CFO Idnani corrected to Vishal. Guggenheim on Risk (NOT Audit) — expertise/oversight gap. |
+| Mar 31 | Chart analysis (1W/1M/3M/5min): institutional distribution pattern. Volume front-loaded on spike days, dead between. Bounce from $65 on thin volume = no accumulation. |
 | Mar 26 | Analyst downgrades: Weiss Buy→Hold, Barclays PT $105→$90, WFC PT $83→$79. Consensus PT ~$85-90 (thesis: $47-60). KB 61→70 rows. EARNINGS_PREP upgraded B+→A-. |
 | Mar 26 | $400B CRE maturity wall confirmed for 2026. CMBS $167M Chicago office foreclosure sets loss severity benchmark. |
 | Mar 26 | Jefferies Q1 confirmed: EPS $0.70 vs $0.91 (-23%), $17M MFS losses. V2 chain has P&L confirmation. |
@@ -52,7 +55,7 @@
 | Date | Event | Impact |
 |------|-------|--------|
 | **Mar 25** | **Jefferies Q1 after close** | Double-pledging exposure, credit provisions |
-| ~Apr 21 | WAL Q1 earnings | First post-war quarterly, CRE provision reveal |
+| **~Apr 21** | **WAL Q1 earnings** | 19 days — PRIMARY. CRE provision reveal |
 | May 1 | APO class action deadline | PC sector pressure |
 | May 12 | WAL Investor Day | Management forced to address thesis |
 | Jun 18 | $85P + $65P expiry | |
@@ -74,4 +77,9 @@
 
 ---
 
-*Thesis → `THESIS.md` | Technicals → `TECHNICALS.md` | Evidence → `workbook/KB.tsv` (61 rows, 10 groups)*
+## AOCI Exposure
+**Cat III/IV — mandatory unrealized AFS loss recognition phasing in.** Same AOCI bomb as OZK. Fed/FDIC/OCC capital rewrite forces recognition of underwater AFS/HTM from 2022-23 rate shock. Separate capital drain from credit losses — two simultaneous bleeds. Comment period closes Jun 18.
+
+---
+
+*Thesis → `THESIS.md` | Technicals → `TECHNICALS.md` | Evidence → `workbook/KB.tsv` (70 rows, 10 groups)*

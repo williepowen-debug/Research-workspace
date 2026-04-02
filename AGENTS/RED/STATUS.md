@@ -1,138 +1,113 @@
 # RED STATUS
-**Last Updated:** 2026-03-26 | **Role:** Adversarial Analysis / Thesis Stress-Tester
+**Last Updated:** 2026-04-02 | **Role:** Adversarial Analysis / Thesis Stress-Tester
 
 ---
 
 ## CURRENT ASSESSMENT
 
-**Confidence: 85% (unchanged).** Thesis structurally intact. BUT: ceasefire rally cost us +32% of gains. Near-dated options are now the biggest risk — not thesis correctness. Being right in Q4 while June/July puts expire during a peace rally is NOT a win.
+**Confidence: 75% (was 85%).** Thesis directionally correct — transmission chain confirmed by hard data. But network unanimity (every agent at RED/CRITICAL) is itself a risk signal. Counter-signals being dismissed, policy rescue underweighted, timeline doesn't match near-dated options book. Convergence density in April is real and partially offsets timeline concern.
 
-**Portfolio: +92% (was +124%). Drawdown = 32% of account. Brent $100 (was ~$120).**
+**Key adjustment:** CCC OAS >1000 is concentrated (cable/media/healthcare), not broad systemic. CCC/HY ratio downgraded as indicator. Thesis now rests on transmission channels (CLO→BDC→insurance), not CCC standalone.
 
 ---
 
 ## COMPETING HYPOTHESES
 
-| Hypothesis | Prob | Change | Key Driver |
-|------------|:----:|:------:|-----------|
-| **Full Stagflation Spiral** | **48%** | -2 | Structural infra damage intact. PMI front-running, not organic. But ceasefire could delay. |
-| **Managed Decline / Muddle-Through** | **24%** | +2 | PMI 52.4, employment 213K, credit OAS 319. System absorbing better than model. |
-| **Policy Rescue** | **11%** | +1 | Gas at $3.98 = Trump political pain → EO pressure. Price controls back on table. |
-| **Acute Financial Dislocation** | **10%** | 0 | 9 funds gated, CDX 9-month high, FSK junk. Trajectory clear but slow. |
-| **War Escalation (Scenario D)** | **7%** | -1 | HAWK 82% but Iran pause expires 3/28. Ceasefire narrative dominant narrative RIGHT NOW. |
-| ~~Soft Landing~~ | **0%** | 0 | Tombstoned. |
+| Hypothesis | Prob | Δ | Key Driver |
+|------------|:----:|:-:|-----------|
+| **Full Stagflation Spiral** | **35%** | -13 | Transmission chain real but "subsidence not earthquake" = slower than modeled. Oil ceiling ~$110-115, not $150+. |
+| **Managed Decline / Muddle-Through** | **30%** | +6 | System absorbing stress: claims 210K, gates holding, eSLR freeing capacity. Ugly but stable. |
+| **Policy Rescue** | **20%** | +9 | Stealth QE already active ($157B T-bills). eSLR reform. Treasury meeting on PC. Gas $4 = Trump political pressure. Fed has unused tools. |
+| **Acute Financial Dislocation** | **8%** | -2 | 9 gates + CDX divergence, but gates are HOLDING. Stage 3 active, Stage 4 not triggered. |
+| **War Escalation (Scenario D)** | **5%** | -2 | HAWK 85% but deadline keeps extending (Mar 28→Apr 6). Brent can't sustain $120+. |
+| Soft Landing | **2%** | +2 | Not zero — staffing canaries positive, claims low, savings rate rising. Improbable but not impossible. |
 
-**Net bear: 65% (was 68%) | Net managed/rescue: 35% (was 32%)**
-
----
-
-## HONEST ASSESSMENT: DOES CEASEFIRE HAVE REAL LEGS?
-
-**Verdict: Narrative playbook, not fundamental resolution. But it can kill near-dated options anyway.**
-
-Evidence the narrative is hollow:
-- Trump 15-point plan rejected by Iran — this is not a deal, it's posturing
-- Same playbook as Mar 23 rally. That rally faded. This one may too.
-- Infrastructure damage is *structural* — even ceasefire doesn't repair it in 30-60 days
-- APO/ARES gates are operational, not narrative-driven — those don't un-gate on ceasefire headlines
-- CDX trading at 9-month high while OAS 319 = derivatives traders not buying the narrative
-
-**Why ceasefire could still hurt us:**
-- IV crush on near-dated puts = position loss even if thesis holds
-- Oil $100→$80 on "framework" headline = TLT/HYG thesis temporarily reversed
-- Market only needs to rally 2-3 weeks for June puts to bleed out
-- **This is the real risk: being right, but too early, in the wrong instruments**
+**Net bear: 48% (was 65%) | Net managed/rescue: 52% (was 35%)**
 
 ---
 
-## PMI / FREIGHT COUNTER-SIGNAL ASSESSMENT
+## NETWORK UNANIMITY WARNING
 
-**Verdict: Tariff front-running, not organic expansion. Confirms bear thesis.**
+Every Tier 1 agent is at RED or CRITICAL. Every convergence matrix is at/near maximum. HENRY is 10/10 on predictions. HAWK is 45/45 on convergence. This is the pattern I exist to flag.
 
-- Manufacturing PMI 52.4 matches 2018-19 playbook exactly: tariff pull-forward → inventory glut → manufacturing recession 6-9 months later
-- Philly Fed Non-Manufacturing -23.9 (vs -17.3) — the *real* economy, not front-running, is deteriorating
-- Unit Labor Costs 4.4% (beat 3.6%) — this is stagflationary, not a growth signal
-- Unemployment duration 25.7 weeks (4-year high) is structurally inconsistent with PMI expansion
-- Anna Wong attribution to tariff timing = non-organic demand, we've seen this end badly
+**Risk:** Circular reinforcement — agents feeding each other's confidence. LIQUID's HY OAS "confirms" CARL's consumer stress "confirms" LABOR's employment deterioration. Either genuine cascade or echo chamber. No mechanism to distinguish.
 
-**No thesis revision warranted. PMI headline number is misleading. Hold 85%.**
+**Mitigant:** The convergence DENSITY in April (14+ catalysts in 30 days) is a legitimate structural argument. Depleted buffers (zero RRP, SPR deployed, FHLB elevated) mean the system has no margin for error.
+
+**Net assessment:** Network is probably right on direction, probably wrong on magnitude/speed for near-dated options.
 
 ---
 
-## PEAK BULLISHNESS SIGNAL (Edwards/FactSet)
+## COUNTER-SIGNALS (NOT NOISE — TRACK THESE)
 
-58.2% buy ratings at S&P 200-DMA breakdown = maximum consensus at technical inflection. This is CONFIRMING, not challenging. Sell-side still overwhelmingly bullish = repricing still has significant runway. This is the contrarian setup that precedes large drawdowns. **Marginally raises conviction.** Would be worth noting in NEXUS for cross-agent synthesis.
+| Signal | Value | Bull Read | Bear Read | RED Weight |
+|--------|-------|-----------|-----------|:----------:|
+| Continuing claims | 1.819M (2yr low) | People finding jobs | Exhaustion | 40/60 bear |
+| Staffing canaries | RHI/KFRC sequential+ (first in 12Q) | Early cycle turn | Dead cat | 45/55 bear |
+| Retail sales | +0.6% MoM | Consumer spending | Front-loading tariffs | 35/65 bear |
+| GDPNow | 1.9% Q1 | Not recessionary | Lagging | 40/60 bear |
+| Savings rate | 4.5% (up from 3.6%) | De-levering = stabilizing | Precautionary = scared | 50/50 |
+| Brent ceiling | $108-112 (not $150+) | Demand destruction working | Supply estimates overstated | 55/45 bull |
 
----
-
-## TOP 3 BLOW-UP SCENARIOS (Updated)
-
-1. **Ceasefire IV Crush (18%, up from 15%)** — "Framework agreement" kills near-dated puts. Account already -32% on ceasefire *talk* alone. An actual announcement could take APO Apr and HYG Jun to near-zero before thesis plays out. **This is now #1.**
-2. **Administered Price Ceiling (12%, unchanged)** — Trump EO + SPR + DPA. Gas at $3.98 is the exact pressure point. He feels this politically. If he acts before June expiry, near-dated book evaporates. Watch: gas price tweets, oil exec meetings.
-3. **Japan Buyer of Last Resort (10%, unchanged)** — BOJ likely May 1, not April. SAM front-loading winding down, not spiking. But *life insurers selling outright* is a real threat to the SAM carry-unwind thesis. If TIC shows sustained buying in Mar/Apr, SAM thesis delays to Q4 2026+.
-
-**New entrant watch list:**
-- **CDX/OAS Convergence Trap**: If HY cash spreads widen to catch CDX (rather than CDX compressing), 9 fund gates become narrative anchor and HYG thesis accelerates. Not a blow-up — a blow-up *prevention*.
-- **NDFI Reframe Risk**: ✅ RESOLVED. FDIC primary source confirms $1.32T (Q3 2025), ~$1.4T est. Q4. The "$1.54T" figure was a phantom — no primary source. Actual number still massive (52.3% of Tier 1 capital + allowance, 21.9% CAGR since 2010). Thesis holds, number corrected.
+**Rule:** If 3+ of these shift further bullish in next 30 days, downgrade confidence to 65%.
 
 ---
 
-## POSITION VULNERABILITY (Re-ranked with Current Context)
+## POSITION VULNERABILITY (Apr 2 — Re-ranked)
 
-| Position | Risk | Change | Rationale |
-|----------|:----:|:------:|-----------|
-| APO Apr puts | 🔴 HIGH | ↑ | APO *gates confirmed* = thesis proven, but Apr expiry = ceasefire IV crush kills it. Paradox: right thesis, wrong timing. Take profit or roll NOW. |
-| HYG Jun puts | 🔴 HIGH | → | CDX divergence is BULLISH for thesis, but cash OAS 319 not breaking. Time decay still killing. CDX may never converge before June. |
-| IWM Jun puts | 🟠 MOD | → | Ceasefire squeeze risk + most shorted index. Take 25-30% profit. |
-| TLT puts | 🟠 MOD | ↓ | BOJ May not April = delayed SAM unwind. Life insurer outright selling is a real headwind for TLT puts (they're selling Treasuries). Slightly better setup than prior. |
-| KRE Dec puts | 🟡 LOW | → | NDFI $1.32T confirmed (FDIC primary). 52.3% of Tier 1. Long dated. Hold. |
-| WAL Jun/Sep puts | 🟡 LOW | → | CRE catalyst Apr earnings. Hold. |
-| OZK Aug puts | 🟡 LOW | → | Binary Apr 16 earnings. Hold. |
-| ZION puts | 🟡 LOW | → | Acceptable. |
-
-**KEY PARADOX:** APO gating is the clearest thesis confirmation we've had. But it's also the clearest example of why APO Apr puts are now most at risk — IV has spiked on the news, the event is "priced," and any ceasefire narrative could flush the position before the credit spiral continues.
-
----
-
-## MAXIMUM ALIGNMENT BLIND SPOTS (Updated)
-
-1. **PMI headline vs internals divergence.** We're correctly reading internals (Philly -23.9, Unit Labor 4.4%) but markets are trading the headline PMI 52.4. The divergence can persist longer than near-dated options survive.
-2. **9 fund gates = slow-motion crisis, not acute event.** We're expecting cascade acceleration. But if it stays at "one a week," markets can absorb it. The pace matters as much as the direction.
-3. **~~$1.54T~~ NDFI exposure figure — RESOLVED.** Actual: $1.32T (Q3 2025 FDIC), ~$1.4T Q4 est. "$1.54T" was synthesis error. Not a falsification — corrected number is still 52.3% of Tier 1 capital, 10% of all bank loans, 86% concentrated in top banks. Thesis intact.
-4. **HY OAS 319 vs CDX divergence.** LIQUID's "window-dressed cash" framing is plausible but not proven. If the *real* answer is that cash spreads are correct and CDX is distorted by options hedging flows, we've been misreading credit for 8 weeks.
-5. **Wartime employment paradox.** Defense/infrastructure hiring could keep claims low through Q2 even as consumer economy deteriorates. Our Hamilton chain (oil→unemployment) has NO historical analog in wartime. This is a real blind spot.
+| Position | Risk | Rationale |
+|----------|:----:|-----------|
+| APO $100P Apr 17 | 🔴 HIGH | Hard stop Apr 7 at $113. APO ~$110. 15 days left. Thesis confirmed but timing razor-thin. |
+| HYG $75P Jun x8 | 🔴 HIGH | CDX divergence unresolved 8+ weeks. OAS 342 but cash at 319-321. May not converge by June. |
+| SOFI $16P May x2 | 🔴 HIGH | Short fuse, no clear catalyst before May 1. |
+| KRE May $70P x2 | 🟠 MOD | May expiry tight. KRE at $65.83. Needs catalyst in 6 weeks. |
+| IWM $250P Jun | 🟠 MOD | Russell in correction. Ceasefire/rally risk but longer runway than most June. |
+| TLT $88P May x2 | 🟠 MOD | 30Y at 4.98%. Thesis playing out but May = tight if bond rally. |
+| OZK $45P Aug x4 | 🟡 LOW | Earnings Apr 16. Aug expiry = adequate runway. |
+| WAL multi-strike Jun/Sep | 🟡 LOW | Earnings Apr 21. Waterfall structure good. Sep positions well-timed. |
+| KRE $60P Dec x4 | 🟢 SAFE | Long-dated. Thesis strongest here. |
+| TLT $82P Oct x2 | 🟢 SAFE | Longest-dated TLT. Full credit break window. |
+| APO $95P Dec | 🟢 SAFE | Full runway. Stage 3→4 timeline. |
+| FXY shares x8 | 🟢 SAFE | No expiry. BOJ hike catalyst Apr-May. |
 
 ---
 
-## FALSIFICATION CRITERIA (Updated Mar 26)
+## FALSIFICATION CRITERIA (Updated Apr 2)
 
 | Trigger | Action | Status |
 |---------|--------|--------|
-| WTI <$80 sustained 7d | Exit TLT/HYG, reduce KRE 50% | WATCH — at $100 after ceasefire |
+| NFP Apr 3 >+150K | Downgrade to 65%, reassess employment channel | **TOMORROW** |
+| Apr 6 passes without Scenario D escalation | Reduce war premium, downgrade HAWK to 75% | **4 DAYS** |
+| WTI <$85 sustained 7d | Exit TLT puts, reduce KRE 50% | Watch ($107) |
+| Claims <200K, 3 consecutive weeks | Reduce to 60% conviction | Watch (210K) |
+| HY OAS <300 sustained | Exit HYG, reduce all 25% | Not triggered (342) |
 | BTFP 2.0 / bank guarantee | EXIT ALL IMMEDIATELY | Dormant |
-| Claims <200K, 2 consecutive weeks | Reduce to 60% conviction, take 50% profit | WATCH |
-| HY OAS <280 sustained | Exit HYG, reduce all 25% | Not triggered (319) |
-| Trump price controls + SPR | Roll near-dated to 6+ month. Timing resets. | HIGH RISK — gas at $3.98 |
-| Ceasefire announcement (any) | Take 30% profit immediately, hold rest | ACTIVE — partial trigger already |
-| April NFP >+200K | Reassess employment channel | Watch Apr 3 |
-| BOJ April: unanimous hold + dovish | Extend SAM timeline to Q4 2026+ | Likely hold but watch |
-| Iran pause extension post-3/28 | Reduce Scenario D, extend ceasefire probability | **EXPIRES FRI** |
-| ~~NDFI $1.54T~~ | ✅ RESOLVED — actual $1.32T (Q3), ~$1.4T (Q4 est). Thesis intact. | Verified Mar 26 |
+| Trump ceasefire deal (real, not talk) | Take 30% profit, hold rest | Watch |
+| BOJ April: unanimous hold + dovish | Extend SAM timeline to Q4+ | Apr 23-24 |
+| Staffing canaries positive 2 consecutive quarters | Upgrade soft landing to 5%, reduce bear 5% | Track Q2 |
 
 ---
 
-## ADVERSARIAL RECOMMENDATION
+## TOP ADVERSARIAL PRIORITIES
 
-**The 32% drawdown is a warning, not a noise event.** It happened in a week on ceasefire *talk* — not an actual deal. An actual ceasefire announcement could take the account to +50% or lower on near-dated positions.
-
-**Recommended actions:**
-1. **APO Apr puts:** Roll or take profit *immediately*. Thesis confirmed ≠ position safe. IV has spiked; roll to June/July captures the continuation.
-2. **IWM Jun puts:** Take 25-30% partial profit. Most exposed to short-squeeze dynamics.
-3. **HYG Jun puts:** Decision point. CDX divergence is real but may not converge before June. Consider rolling to Sep.
-4. **Core book (KRE Dec, WAL Sep, OZK Aug):** Hold. Thesis strongest here, expiries give it room.
-
-**If ceasefire is announced before 3/28:** Execute falsification trigger — take 30% profit immediately, hold rest. Don't freeze.
+1. **NDFI number reconciliation** — My prior STATUS says $1.54T debunked (actual $1.32T FDIC). REGINALD uses $1.54T (FFIEC Q4 2025) + cites $4.2T industry-wide. Must resolve.
+2. **Quarter-end check** — Mar 31 passed. Did SOFR spike? Did 2019 analog fire? Silence = system absorbed stress = counter-signal.
+3. **CDX/cash convergence** — 8+ weeks of divergence with no resolution. At what point is this noise, not signal?
 
 ---
 
-*RED: You were +124%. You're +92%. The thesis didn't change. The instruments did. Protect the instruments.*
+## OPEN CHALLENGES
+
+| Challenge | Target | Strength | Status |
+|-----------|--------|----------|--------|
+| Timeline vs options book | Portfolio | STRONG | ACTIVE — June puts vs Q3-Q4 thesis |
+| Network echo chamber | All agents | MODERATE | ACTIVE — 100% red alignment |
+| Policy rescue underweight | PROME | MODERATE | ACTIVE — stealth QE + eSLR + unused tools |
+| Counter-signals dismissed | LABOR/CARL | MODERATE | ACTIVE — staffing, claims, retail |
+| Alpha window closing on PC | BROCK | MODERATE | ACTIVE — consensus catching up |
+| Oil ceiling vs disruption claims | BRENT | MODERATE | NEW — $108 not $150 despite "8-9M bpd" |
+| HAWK convergence overfitting | HAWK | WEAK-MOD | NEW — 45/45 can't discriminate |
+
+---
+
+*RED: The thesis is probably right. The timing is probably wrong. Protect the instruments.*

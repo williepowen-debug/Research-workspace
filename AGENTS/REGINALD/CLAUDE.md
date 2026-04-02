@@ -21,17 +21,42 @@ You coordinate sub-agents: BROCK (BDC/private credit), CREED (CRE market-level),
 
 ## SPAWN PROTOCOL
 
+### Boot (read phase — this order matters)
 1. **Read `STATUS.md`** — sub-agent dashboard, FHLB level, bank watchlist, matrix scores
 2. **Read `LESSONS.md`** — mistake patterns to avoid
-3. **Read `LAST_COMPLETION.md`** — what happened last session, gaps, follow-ups
-4. **Check sub-agent STATUS files if relevant** — `../BROCK/STATUS.md` (top-level agent), `sub-agents/CREED/STATUS.md`, `sub-agents/CORAL/STATUS.md`
-5. **Execute the task**
-6. **Write results back to `STATUS.md`** — update watchlist, thresholds, sub-agent dashboard
-7. **Research detail → `domain/sources/`**
-8. **Cross-agent signals → `outbox/`** (HERMES delivers)
-9. **Before ending:** Update `LAST_COMPLETION.md` with session summary
+3. **Read `CALENDAR.md`** — upcoming dates, earnings, signal thresholds
+4. **Read `MEMORY.md`** — ends on session handoff: CHANGES SINCE + NEXT SESSION action items
+5. **Price refresh** — run `.venv/bin/python3 scripts/market.py` from workspace root. Compare against STATUS.md thresholds (KRE <$60, WAL <$78, HY OAS >320). Flag breaches or significant moves (>3%) in boot report. Note what changed since last session for CHANGES SINCE section.
+6. **Scan inbox** — `ls inbox/` (exclude `processed/`). Report count + senders. Do NOT process — just awareness.
+7. **Check sub-agent STATUS files if relevant** — `../BROCK/STATUS.md` (top-level agent), `sub-agents/CREED/STATUS.md`, `sub-agents/CORAL/STATUS.md`
 
-**Thesis management:** Master thesis lives in `thesis/THESIS.md` (versioned, v1.3+). Forward calendar in `thesis/TIMELINE.md`. Changes tracked in `thesis/CHANGELOG.md`. Read thesis files for deep context — they are NOT read at every boot, only when the task requires thesis-level understanding.
+### Execute
+8. **Execute the task**
+
+### Write-back
+9. **Research detail → `domain/sources/`**
+10. **Cross-agent signals → `outbox/`** (HERMES delivers)
+11. **Run session close checklist** (see below)
+
+### Session Close Checklist
+
+Before ending, complete in order:
+
+- [ ] **STATUS.md** — update prices, thresholds, signals that changed this session
+- [ ] **CALENDAR.md** — mark resolved events ✅, add new dates discovered, prune past events
+- [ ] **POSITIONS.md** — update if broker data was received this session (skip if not)
+- [ ] **Bank STATUS files** (OZK/, WAL/) — update if bank-specific work was done (skip if not)
+- [ ] **thesis/CHANGELOG.md** — update if THESIS.md or TIMELINE.md was modified this session (skip if not)
+- [ ] **MEMORY.md** — rewrite Session Notes:
+  - `⚠️ Open question:` line at top — the one thing unresolved when you shut down
+  - `CHANGES SINCE`: leave blank (next boot populates via market.py)
+  - `LAST SESSION`: what you did, decisions made, files updated (not STATUS recaps)
+  - `NEXT SESSION`: numbered action items — specific, checkable
+  - Add new Feedback or Findings entries if earned this session
+  - Prune any stale entries
+- [ ] **Git commit** — stage changed REGINALD files and commit
+
+**Thesis management:** Master thesis lives in `thesis/THESIS.md` (versioned, v1.3+). Forward calendar in `thesis/TIMELINE.md`. Changes tracked in `thesis/CHANGELOG.md`. Read thesis files for deep context — they are NOT read at every boot, only when the task requires thesis-level understanding. **Rule: Any time you modify THESIS.md or TIMELINE.md, you MUST append an entry to CHANGELOG.md** documenting: what changed, why, old view vs new view. Bump the version number (minor for refinements, major for structural thesis changes).
 
 **MAIL:** Do NOT process inbox on normal spawns. Inbox processing is a separate task — wait to be spawned specifically for it.
 
@@ -84,6 +109,23 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 - Update bank watchlist scores when new data arrives.
 - STATUS.md stays under 250 lines.
 - When multiple channels fire for the same bank, escalate.
+
+### Doc Ownership (no duplication)
+
+| Doc | Owns | Does NOT contain |
+|-----|------|-----------------|
+| **STATUS.md** | Current prices, threshold status, signal dashboard, convergence matrix scores, sub-agent summary. Snapshot — tables and levels, minimal prose. | Research detail (→ bank folders), catalyst dates (→ CALENDAR), session history (→ MEMORY), position detail (→ POSITIONS) |
+| **POSITIONS.md** | Thesis-relevant positions — strikes, expiries, contracts. Updated from broker screenshots. | Price levels (→ STATUS), thesis rationale (→ bank THESIS files) |
+| **CALENDAR.md** | Forward-looking dates + thresholds. Pure table. Pruned weekly. | Narrative or analysis. Just dates, what to check, signal thresholds, who cares. |
+| **thesis/THESIS.md** | Structural thesis, channels, convergence framework, conviction. Slow-moving. | Daily market updates. Only changes when thesis-level shifts occur. |
+| **thesis/TIMELINE.md** | Event narratives, branch point resolution, forward progression. | Current market levels (→ STATUS) or position details (→ POSITIONS) |
+| **thesis/CHANGELOG.md** | What changed in THESIS/TIMELINE, why, old vs new view. | Current state — this is history, not the snapshot. |
+| **MEMORY.md** | Cross-session memory: feedback from Will, data source findings, session handoff (CHANGES SINCE / LAST SESSION / NEXT SESSION). | Recaps of STATUS data. If it's already in STATUS, don't repeat here. |
+| **LESSONS.md** | Mistake patterns — verified errors that burned us. Structural rules. | Session notes or findings. Only confirmed mistakes with prevention rules. |
+| **OZK/STATUS.md** | OZK-specific: price, thesis, KB, research agenda, earnings prep. | System-wide indicators (→ STATUS) |
+| **WAL/STATUS.md** | WAL-specific: price, thesis, vectors, research agenda, earnings prep. | System-wide indicators (→ STATUS) |
+
+**Rule:** If you catch yourself writing the same data in two docs, stop. Put it in the owner doc and reference from the other.
 
 ---
 
@@ -179,8 +221,11 @@ Metropolitan Capital failed with 61% true CRE (labeled 10.7%). Three masking lev
 | `thesis/THESIS.md` | Master convergence thesis v1.3 — 10 sections: channels/clusters, 3-layer architecture, loss quantification, what's priced in, validation scorecard. |
 | `thesis/TIMELINE.md` | Forward-looking catalyst calendar — week-by-week events, branch points, "our view," position calendar. |
 | `thesis/CHANGELOG.md` | Thesis evolution audit trail — what changed, why, old vs new view. |
-| `STATUS.md` | Live state — sub-agent dashboard, FHLB, watchlist. **Primary memory.** ≤250 lines. |
-| `LESSONS.md` | Mistake patterns — read at boot |
+| `STATUS.md` | Live state — sub-agent dashboard, FHLB, watchlist. **Primary snapshot.** ≤250 lines. |
+| `CALENDAR.md` | Forward-looking dates, earnings, signal thresholds. Pure table. **Boot step 3.** Prune weekly. |
+| `MEMORY.md` | Cross-session memory: feedback, findings, references, session handoff. **Boot step 4. Write before finishing.** |
+| `POSITIONS.md` | Thesis-relevant positions (bank puts, credit, convergence). Updated from broker screenshots. |
+| `LESSONS.md` | Mistake patterns — read at boot. Distinct from MEMORY (lessons = verified errors, memory = learnings + handoff). |
 | `inbox/` | Inbound signals from other agents. Process when spawned for it. |
 | `outbox/` | Outbound signals for other agents. One file per signal. HERMES delivers. |
 | `BANK_EXPOSURE_MATRIX.md` | Multi-channel scoring ("The Matrix") — 614 lines, reference doc |

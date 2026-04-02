@@ -8,6 +8,25 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-04-02 — TIMELINE: Branch Point Summary Table Added
+
+### TIMELINE Updated
+**Author:** REGINALD + Will
+**Action:** Added Branch Point Summary table to TIMELINE.md. 13 events mapped with bull fork / bear fork / status tracking. Key sequence annotation added.
+
+**What changed:**
+- New section before POSITION CALENDAR: fork-tracking table for all major catalysts (Apr 10 CPI through Q2-Q3 2022 vintage maturities)
+- 2 events marked RESOLVED (JEF Q1 = BULL, eSLR = divergence confirmed), 1 marked UNKNOWN (First Brands), 10 PENDING
+- Key sequence formalized: OZK primes → second miss triggers sector repricing → Call Reports confirm → AOCI compounds
+- Adopted SAM's branch point pattern for consistency across agents
+
+**Old view:** Branch points described in narrative within each week's section — no summary view
+**New view:** All forks visible in one table at bottom of TIMELINE, with status tracking and sequence annotation
+
+**Note on THESIS:** No version bump — TIMELINE structural improvement, no thesis change.
+
+---
+
 ## 2026-03-31 — v1.3: WHAT'S PRICED IN + PRUNING
 
 ### THESIS Updated → v1.3

@@ -1,6 +1,7 @@
 # OZK — Dashboard
-**Updated:** 2026-03-25 | **Conviction:** 🔴🔴 HIGH | **Thesis:** RESERVOIR
-**Price:** ~$49 | **TBV:** $41.48 | **P/TBV:** 1.18x | **KB:** 141 rows, 16 groups
+**Updated:** 2026-04-02 | **Conviction:** 🔴🔴 HIGH | **Thesis:** RESERVOIR
+**Price:** ~$46-47 (Apr 1) | **TBV:** $41.48 | **P/TBV:** ~1.12x | **KB:** 159 rows, 17 groups
+**Consensus:** Hold (2B/5H/1S), PT $53.71, EPS ~$1.50/Q
 
 ---
 
@@ -67,7 +68,7 @@ KBRA highlights: $72M single office charge-off. RESG declining $1.4B/qtr, projec
 | Date | Event | Status |
 |------|-------|--------|
 | **Mar 25** | Jefferies Q1 (WAL read-through) | ⚠️ NOT PULLED — 3x deferred |
-| **Apr 16** | **Q1 2026 Earnings** | 20 days — PRIMARY CATALYST |
+| **Apr 16** | **Q1 2026 Earnings** | 14 days — PRIMARY CATALYST |
 | ~Apr 20-21 | Peer earnings (ZION, WAL) | Sector read-through |
 | **~Aug 2028** | IQHQ RaDD maturity (extended from Aug 2026) | Outside put window — narrative catalyst only |
 
@@ -106,6 +107,9 @@ KBRA highlights: $72M single office charge-off. RESG declining $1.4B/qtr, projec
 
 ### COMPLETED PROMPTS
 #1 GFC (064-066) · #2 Maturity (074-079) · #3 Interest reserve (080-093) · #4 TDR (096-106) · #5 Geography (107-120) · #6 FL Paradox (121-132) · #7 Peer comp (133-136) · #15 IQHQ RaDD (137-141) · #16 Insider (142-146)
+
+## AOCI Exposure
+**Cat III/IV — mandatory unrealized AFS loss recognition phasing in.** Fed/FDIC/OCC capital rewrite: AOCI phase-in for Cat III/IV. $49.5B aggregate hit across 21 banks. Comment period closes Jun 18. Street buying headline relief while AOCI is the buried bomb. This is a SEPARATE capital drain from credit losses.
 
 ## Navigation
 **Cold boot → `INDEX.md`** | **KB navigator → `workbook/KB_INDEX.md`** | **Thesis → `THESIS.md`** | **Earnings → `EARNINGS_PREP.md`**
