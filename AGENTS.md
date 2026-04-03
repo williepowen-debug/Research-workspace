@@ -45,7 +45,7 @@ Before `/clear` or `/new`, read `PROME/HANDOFF.md`.
 
 ## Signal Processing
 
-**Full protocol:** `PROME/SIGNAL_PROTOCOL.md`
+**Full protocol:** `PROME/TOSCANINI/SIGNAL_PROTOCOL.md`
 
 When Will sends market signals:
 1. **Triage** — which agent owns this?

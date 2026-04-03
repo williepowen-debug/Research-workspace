@@ -2,57 +2,88 @@
 
 **Injection:** AGENTS.md, SOUL.md, USER.md always injected. HEARTBEAT.md + MEMORY.md main sessions only. Do NOT re-read injected files.
 
-**Tools:** `pdfminer.six` installed (`from pdfminer.high_level import extract_text`).
-**Calendar:** CALENDAR.md syncs to Google Calendar ("Research Ops") via `tools/calendar/sync_calendar.py`. Run after any CALENDAR.md edit. Cron auto-syncs 7 AM ET weekdays.
-**Market Data:** `FORGE/tools/market-data/` — `fetch.py` (live prices + FRED), `config.py` (thresholds), `dashboard.py` (CLI stress dashboard). Use `python3 dashboard.py` before citing any price. Cron runs every 5min (self-throttled). Morning briefing at 6 AM ET to Telegram. Web dashboard at :8080 (`/api/stress`).
-**News Sweep:** `FORGE/tools/news-sweep/` — `sweep.py` (fetcher + classifier + router), `config.py` (queries, entity index, WATCH_FOR lists, keywords, source weights). Pulls from Google News RSS, FT/BBC RSS, ZeroHedge. Classifies headlines as NEW/DEVELOPMENT/KNOWN/NOISE using entity index + escalation qualifiers + WATCH_FOR gap lists. Routes to agent inboxes. Cron M-F 8:30 AM ET + Telegram push. On-demand: `python3 sweep.py --compact --route`. Dashboard: `/api/news`. **Prome maintains** the entity index and WATCH_FOR lists in config.py — update after major STATUS changes or agent COMPLETION_SPECs.
-**Dashboard Server:** `dashboard/server.py` — HTTP API on :8080. Endpoints: `/api/status`, `/api/stress`, `/api/news`, `/api/agents`, `/api/prices`, `/api/fred`, `/api/bls`, `/api/sec`, `/api/predictions`, `/api/alerts`.
+---
 
-1. **Read `PROME/TODAY.md`** — what's actually happening today. Catalysts, decisions, levels.
-2. **Read `PROME/SCRATCH.md`** — ephemeral scratchpad, handoff from last session.
-2. **Read `PROME/STATUS.md`** — dashboard, positions, priorities.
-3. **Read `PROME/TOSCANINI/QUEUE.md`** — active proposals + signal queue.
-4. **Triage Prome inbox** — `AGENTS/PROME/inbox/`. Scan for signals that change priorities. Deep-read anything flagged in SCRATCH.
-5. **Score and rank** — run HUNTING.md scoring (position proximity ×2, time pressure ×1.5, blindness ×1, convergence ×1, decay ×1) across all candidate work items. Re-rank QUEUE.md. This is internal — don't show Will the math, just present proposals in ranked order.
-6. **Read `LESSONS.md`** (workspace root) — mistakes to avoid.
-7. **Read `memory/YYYY-MM-DD.md`** (today only). Yesterday on-demand if SCRATCH references unresolved items.
-8. **Be proactive:** Check pending actions in STATUS, alert on catalysts within 24h, flag stale agents.
-9. **Present top proposals** when Will checks in (max 5 per batch, ranked by score).
+## Tools
 
-### Memory Lifecycle
+**Market Data:** `FORGE/tools/market-data/` — `fetch.py` (live prices + FRED), `config.py` (thresholds), `dashboard.py` (CLI stress dashboard). Use `python3 dashboard.py` before citing any price. Cron: 5min (self-throttled). Morning briefing 6 AM ET. Web: `:8080/api/stress`.
+
+**News Sweep:** `FORGE/tools/news-sweep/` — `sweep.py` (fetcher + classifier + router), `config.py` (queries, entity index, WATCH_FOR lists, keywords, source weights). Cron M-F 8:30 AM ET + Telegram push. On-demand: `python3 sweep.py --compact --route`. Web: `/api/news`. **Prome maintains** the entity index and WATCH_FOR lists — update after major STATUS changes or agent COMPLETION_SPECs.
+
+**Dashboard Server:** `dashboard/server.py` — HTTP API on :8080. Key endpoints: `/api/status`, `/api/stress`, `/api/news`, `/api/agents`, `/api/prices`, `/api/predictions`.
+
+**Calendar:** CALENDAR.md syncs to Google Calendar via `tools/calendar/sync_calendar.py`. Cron 7 AM ET weekdays. *(Currently broken — Google OAuth issue.)*
+
+**Other:** `pdfminer.six` installed (`from pdfminer.high_level import extract_text`).
+
+---
+
+## Doc Ownership
+
+**Rule: If you catch yourself writing the same data in two docs, stop. Put it in the owner doc and reference from the other.**
+
+| Doc | Owns | Does NOT contain |
+|-----|------|-----------------|
+| **TODAY.md** | Today's date, catalysts, task checklist, key market levels, notable shifts | Agent operational state, pending system actions |
+| **STATUS.md** | Agent health table, pending actions, resolved items, intelligence quality notes | Market levels or catalyst calendar (→ TODAY), thesis narrative (→ HEARTBEAT) |
+| **SCRATCH.md** | Session handoff — what just happened, immediate state, pending items for next Prome | Anything that should persist beyond one session (→ MEMORY.md or STATUS) |
+| **HEARTBEAT.md** *(root, injected)* | Scenario weights, threshold table, catalyst calendar (48h), position decisions pending | Agent operational details (→ STATUS), full position sizing (→ POSITIONS) |
+| **POSITIONS.md** | Full portfolio: entries, stops, sizing, P&L, account value | Operational priorities or agent health |
+| **PREDICTIONS_MONITOR.md** | Falsifiable predictions with resolution dates and outcomes | Position details or daily catalysts |
+| **OUTBOX.md** | Prome's outbound signals for agents | Anything else |
+| **TOSCANINI/QUEUE.md** | Active proposals awaiting Will's decision | Completed/rejected proposals (→ DECISIONS.md) |
+| **TOSCANINI/WILL_QUEUE.md** | Tasks blocked on Will's direct action | Proposals for Will to approve (→ QUEUE.md) |
+| **memory/YYYY-MM-DD.md** | Daily session log — what was done, files changed, handoff notes | Long-term insights (→ MEMORY.md root) |
+| **MEMORY.md** *(root, injected)* | Curated long-term discoveries, thesis framework, system architecture | Daily session details (→ memory/) |
+
+---
+
+## Boot Sequence
+
+1. **Read `PROME/SCRATCH.md`** — session handoff from last Prome. What's hot, what's unfinished.
+2. **Read `PROME/TODAY.md`** — today's catalysts, levels, task checklist.
+3. **Read `PROME/STATUS.md`** — agent health, pending actions, priorities.
+4. **Read `PROME/TOSCANINI/QUEUE.md`** — active proposals + signal queue.
+5. **Triage Prome inbox** — `AGENTS/PROME/inbox/`. Scan for signals that change priorities.
+6. **Score and rank** — run HUNTING.md scoring (position proximity ×2, time pressure ×1.5, blindness ×1, convergence ×1, decay ×1). Re-rank QUEUE.md. Internal — don't show Will the math.
+7. **Be proactive:** Flag catalysts within 24h, stale agents, pending decisions, blocking items.
+8. **Present top proposals** when Will checks in (max 5 per batch, ranked by score).
+
+---
+
+## Memory Lifecycle
 
 | File | Policy | Frequency |
 |------|--------|-----------|
-| `PROME/SCRATCH.md` | **Full rewrite each session.** Ephemeral only — current state + immediate next actions. Not a log. Overwrite, don't append. |  Every session start or handoff |
-| `memory/YYYY-MM-DD.md` | **Build within day, start fresh next day.** Append checkpoints and session logs throughout the day. One file per calendar day. | Continuous |
-| `MEMORY.md` | **Curated long-term.** Promote insights from daily notes that have lasting value (discoveries, corrections, framework shifts). Remove entries that are fully superseded or no longer relevant. | Weekly review |
-| Old daily notes (>14 days) | **Archive — don't load at boot.** Read on-demand only if investigating a specific past event. Don't delete — they're the audit trail. | As needed |
+| `PROME/SCRATCH.md` | **Full rewrite each session.** Ephemeral — current state + next actions. Overwrite, don't append. | Every session |
+| `memory/YYYY-MM-DD.md` | **Build within day, fresh next day.** Append checkpoints and session logs. One file per calendar day. | Continuous |
+| `MEMORY.md` | **Curated long-term.** Promote lasting insights from daily notes. Prune superseded entries. | Weekly review |
+| Old daily notes (>14 days) | **Archive — don't load at boot.** Read on-demand for past events. Don't delete. | As needed |
 
-**Weekly maintenance (fold into first session of the week):**
+**Weekly maintenance (first session of the week):**
 1. Skim past week's `memory/` dailies
 2. Pull anything missing from `MEMORY.md`
-3. Prune `MEMORY.md` — remove entries that are stale, superseded, or fully resolved
-4. Verify `SCRATCH.md` reflects current state (not last week's handoff)
+3. Prune `MEMORY.md` — remove stale, superseded, or resolved entries
+4. Verify `SCRATCH.md` reflects current state
 
-### Toscanini — Orchestration Layer
-Named for Arturo Toscanini. Prome's decision interface with Will. **This is how we work together.**
+---
 
-- **PROTOCOL.md** — Rules: binary proposals (Approve/Reject), max 5 per check-in, 🔴/🔵/🟢 priority
-- **AUTONOMY.md** — Three tiers: free (internal ops) / propose (new work) / always ask (external, positions)
-- **QUEUE.md** — Live proposals awaiting Will's decision. Read at boot, present when Will checks in.
-- **DECISIONS.md** — Log of past decisions + outcomes. Tracks judgment patterns over time.
-- **COMPLETION_SPEC.md** — Standard report block every sub-agent must write when finishing. STATUS/CHANGED/RESULT/GAPS/WILL_NEEDS/FOLLOW-UP.
-- **WILL_QUEUE.md** — Things blocked on Will's direct action (brokerage screenshots, logins, judgment calls).
+## Toscanini — Orchestration Layer
 
-**Signal batching rule:** Agents spawn when they accumulate 3+ unread signals. Exception: 🔴🔴 CRITICAL singles spawn immediately.
+Prome's decision interface with Will.
 
-**Every sub-agent spawn must include the COMPLETION_SPEC instructions** so Prome can process results efficiently.
+| File | Purpose |
+|------|---------|
+| **QUEUE.md** | Live proposals awaiting Will. Read at boot, present at check-in. |
+| **WILL_QUEUE.md** | Tasks blocked on Will's direct action. |
+| **DECISIONS.md** | Past decisions + outcomes. Judgment pattern tracking. |
+| **PROTOCOL.md** | Rules: binary proposals (Approve/Reject), max 5/batch, 🔴/🔵/🟢 priority. |
+| **AUTONOMY.md** | Three tiers: free (internal) / propose (new work) / always ask (external, positions). |
+| **COMPLETION_SPEC.md** | Standard sub-agent report block: STATUS/CHANGED/RESULT/GAPS/WILL_NEEDS/FOLLOW-UP. |
+| **HUNTING.md** | Work item scoring framework. |
+| **SIGNAL_BATCHING.md** | 3+ signals → spawn. 🔴🔴 singles spawn immediately. |
 
-### On-Demand (not at boot)
-- `BRIEFING.md`, `CALENDAR.md`, `FORGE/STATUS.md`, `FORGE/ACTIVE_TRADES.md`
-- `WILL/` — journal, `IDEAS.md`, `trading-journal/`
-- Agent STATUS files (`AGENTS/*/STATUS.md`)
-- `PROME/HANDOFF.md` — read before `/clear` or `/new`
+**Every sub-agent spawn must include COMPLETION_SPEC instructions.**
 
 ---
 
@@ -61,8 +92,8 @@ Named for Arturo Toscanini. Prome's decision interface with Will. **This is how 
 | ID | Domain | ID | Domain |
 |----|--------|----|--------|
 | labor | Employment/claims | henry | Market structure/econ data |
-| ~~carl~~ | ~~Consumer credit~~ 🖥️ **Claude Code — DO NOT SPAWN** | liquid | Funding/Treasury |
-| ~~reginald~~ | ~~Regional banks~~ 🖥️ **Claude Code — DO NOT SPAWN** | ~~sam~~ | ~~Japan/BOJ/JGB~~ 🖥️ **Claude Code — DO NOT SPAWN** |
+| ~~carl~~ | ~~Consumer credit~~ 🖥️ **DO NOT SPAWN** | liquid | Funding/Treasury |
+| ~~reginald~~ | ~~Regional banks~~ 🖥️ **DO NOT SPAWN** | ~~sam~~ | ~~Japan/BOJ/JGB~~ 🖥️ **DO NOT SPAWN** |
 | brock | BDC/private credit | zhao | China/capital flows |
 | nexus | Cross-agent synthesis | hans | Europe (US lens) |
 | hawk | Geopolitical/military | brent | Oil/energy markets |
@@ -72,8 +103,7 @@ Named for Arturo Toscanini. Prome's decision interface with Will. **This is how 
 | oracle | Prediction markets | | |
 
 **Spawn:** `sessions_spawn(agentId="<id>", task="...", cleanup="keep")`
-**Steer/check:** `subagents(action="list")` / `subagents(action="steer", target="<sessionKey>", message="...")`
-**Follow-up:** `sessions_send(sessionKey="agent:<id>:subagent:...", message="...")`
+**Steer:** `subagents(action="list")` / `subagents(action="steer", target="<key>", message="...")`
 **Spawn-ready rule:** If agent STATUS.md >10KB, prune before spawning.
 
 Full manual: `docs/OPERATIONS.md` | Full roster: `AGENTS_DIRECTORY.md`
@@ -85,6 +115,18 @@ Full manual: `docs/OPERATIONS.md` | Full roster: `AGENTS_DIRECTORY.md`
 Spawn after check-in rounds or when multiple signals arrive.
 Reads: Agent STATUS headers (first 30 lines), SIGNALS.md, PREDICTIONS_MONITOR.md
 Outputs: Convergence reports, contradiction flags, threshold proximity matrix
+
+---
+
+## On-Demand (not at boot)
+
+- `LESSONS.md` (workspace root) — mistakes to avoid. Review periodically.
+- `memory/YYYY-MM-DD.md` — daily session logs. Read today's if SCRATCH references unresolved items.
+- `BRIEFING.md`, `CALENDAR.md`, `FORGE/STATUS.md`, `FORGE/ACTIVE_TRADES.md`
+- `WILL/` — journal, `IDEAS.md`, `trading-journal/`
+- Agent STATUS files (`AGENTS/*/STATUS.md`)
+- `PROME/HANDOFF.md` — read before `/clear` or `/new`
+- Protocol files in `TOSCANINI/` — read when executing that protocol
 
 ---
 
