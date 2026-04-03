@@ -1,5 +1,5 @@
 # BROCK STATUS — Private Credit / BDC / Alt Assets
-**Updated:** 2026-04-02 11:15 UTC | **Status:** 🔴🔴🔴🔴🔴 STAGE 2→3 TRANSITION — BLUE OWL DUAL GATE + RELATED-PARTY DUMP + $10B+ TRAPPED
+**Updated:** 2026-04-02 19:10 ET | **Status:** 🔴🔴🔴🔴🔴 STAGE 2→3 ACCELERATING — PEBBLES II + 46 NON-ACCRUALS + 24.4% PIK + CROSS-FUND OPACITY + BLACKSTONE REFUSES A&E + DOWD NDFI CONFIRMED
 
 ---
 
@@ -70,7 +70,16 @@ Total trapped capital across ALL industry gates: **>$10B** (prior $4.6B + $7.3B 
 | **🆕 Software exposure understated** | Top PC funds (APO, ARES, BX, OWL) avg 25% software vs 19% reported. BX leads at 33%, OWL nearly doubles reported. | 🔴 NEW | SYZ Group Apr 1 |
 | **🆕 Senator Reed / OFR mapping** | OFR asked to "map all participants" — regulators "flying blind into potential credit crisis" | 🔴🔴 NEW | Reed letter Mar 24 |
 | **🆕 Walker & Dunlop $222M CRE fraud** | $221.6M GSE loan buybacks. PC filled CRE void, now gating. Fraud-tainted collateral in gating vehicles. | 🔴 NEW | Unicus Research Mar 31 |
-| **🆕 Bloomberg Big Take + Barron's** | Harris (APO co-founder) calls cracks. Bloomberg "MFS blind spot" feature. Stage 3 narrative confirmed. | 🔴 NEW | Barron's/Bloomberg Mar 27 |
+| **🆕 Bloomberg Big Take + Barron's** | Harris (APO co-founder) calls cracks. Bloomberg "MFS blind spot" feature. Stage 3 narrative confirmed. | 🔴 | Barron's/Bloomberg Mar 27 |
+| **🆕🔴🔴 Pebbles II — Apollo 46 non-accruals** | Apollo BDC has 46 companies in non-accrual — MOST of any fund in universe. Apollo co-president called it "pebbles" Feb 9. 42 days later investors got 45¢/$1. Recovery: 33-45¢ (vs 62.3% historical). | 🔴🔴 NEW | Eric Jackson/EventHorizonIQ + @ksha Apr 2 |
+| **🆕🔴🔴 FSK 24.4% PIK** | FS KKR Capital: 24.4% of ENTIRE portfolio on PIK. Nearly 1 in 4 borrowers can't pay cash interest. (GCRED was 24.2% — this is now systemic, not idiosyncratic.) | 🔴🔴 NEW | Eric Jackson Apr 2 |
+| **🆕🔴🔴 Cross-fund overlap destroys diversification** | GBDC+GSBD (Golub+Goldman): 192 identical companies, correlation 0.79. CGBD+ORCC (Carlyle+Blue Owl): 128 identical companies. "10,210 Holdings. 424 Companies in Multiple Funds. 33 Cents on the Dollar." | 🔴🔴 NEW | Eric Jackson Apr 2 |
+| **🆕🔴 Blackstone refuses Medallia/Thoma Bravo A&E** | Bloomberg confirmed: BX-led PC group refused to extend another lifeline to Medallia (Thoma Bravo). Largest PC player saying NO to A&E = cost of forbearance exceeds cost of recognition. Stage 3 extend-and-pretend breakdown. | 🔴 NEW | Bloomberg Apr 2 |
+| **🆕🔴 Dowd NDFI chart** | Phinance chart: 2024→ "All other loans" (= NDFI/PC/fund finance) became ONLY driver of commercial bank credit growth. "All marginal credit growth 24 & 25 went to NDFIs. That part under duress. Negative feedback loops engaged." Confirms $1.411T NDFI Q4 finding. | 🔴 NEW | @DowdEdward (ex-BlackRock PM) Apr 1 |
+| **🆕🟠 BDC NAV acceleration table (UNSOURCED)** | Every fund accelerated Q4→Q1: OTIC -15.4%→-40.7% (2.6x), OCIC -5.2%→-21.9% (4.2x), Cliffwater -5.5%→-14.0% (2.5x), Apollo Debt -4.8%→-11.2%, Ares Strategic -5.8%→-11.6%, BX PC -4.5%→-7.9%, HPS -4.1%→-9.3%, FSK -0.6%→-6.3% (10.5x!), MS NH -5.3%→-10.9%. Avg 2-3x acceleration. ⚠️ UNSOURCED — plausible but unverified vs SEC filings. | 🟠 NEW ⚠️ | Unattributed spreadsheet Apr 2 |
+| **🆕🟠 Cliffwater 219% redemption requests Q1 (UNVERIFIED)** | 219% of shares requested withdrawal Q1 — 10x Blue Owl OTIC. CIO Nesbitt compared himself to Steve Jobs being fired from Apple. ⚠️ EXTRAORDINARY CLAIM — single source, needs Cliffwater quarterly report / SEC filing. | 🟠 NEW ⚠️ | @NickNemo17 (Nick Nemeth) Apr 2 |
+| **🆕🟠 Treasury buyback 2.87x oversubscribed** | BFS: max $15B par; holders offered $43.1B; accepted $15B (maxed). 05/15/2026–03/31/2028 maturities. Holders eager to shed = balance sheet stress signal. | 🟠 NEW | Treasury BFS Apr 1 |
+| **🆕🟡 FT independently covering Treasury/regulator PC meetings** | FT coverage of same Treasury/insurance regulator PC talks. Upgrades prior Reuters sourcing — now dual-sourced. | 🟡 NEW | FT Apr 1 |
 | **🆕 Cliffwater FOF-of-FOFs** | CPEFX: 23.5% in other FOFs, Reg D throughout, 3 opacity layers, already gating 14% | 🟠 NEW | @LeylaKuni Mar 29 |
 | **🆕 US Treasury / insurance regulators** | Treasury convening meetings w/ domestic + intl insurance regs on PC markets | 🔴🔴 | Reuters Mar 30 |
 | **🆕 NYT PC/Trump piece** | "Private-Credit Wobbles Could Prove Perilous for Trump" — political mainstream | 🔴 | NYT Mar 30 |
@@ -81,12 +90,9 @@ Total trapped capital across ALL industry gates: **>$10B** (prior $4.6B + $7.3B 
 | OWL price | **$8.97** (Mar 30) — $9.5P Apr 2 = $0.53 ITM | 🔴 | Market data |
 | OBDC price | **$10.81** (Mar 30) — ex-div tomorrow Mar 31 | 🔴 | Market data |
 | Blue Owl → family offices | Pivoting distribution as retail flees | 🟠 | Bloomberg Mar 27 |
-| Blue Owl → Century Capital | OWL triggered collapse of Century Capital | 🔴 | Yahoo Mar 25 |
-| Ostrover denial vs. reality | "No increase in defaults" while fund FULLY GATED — same week | 🔴🔴 NEW | Bloomberg Mar 26 |
-| Industry disclosure admission | Execs admitting "failed to clearly explain liquidity restrictions" | 🔴🔴 NEW | Bloomberg Mar 26 |
+| Ostrover denial vs. reality | "No increase in defaults" while fund FULLY GATED — same week | 🔴🔴 | Bloomberg Mar 26 |
 | Apollo ADS 45¢/$1 | Returning 45 cents on dollar for $25B fund redemptions | 🔴🔴 NEW | CNBC/Reuters Mar 23 |
-| BCRED cap raise 5%→7.9% | Raised quarterly cap to contain demand — not generosity | 🔴 NEW | WealthMgmt.com Mar 2026 |
-| Narrative: fully mainstream | Motley Fool + Seeking Alpha + Forbes all running PC crisis stories | 🔴 NEW | Mar 26-27 |
+| BCRED cap raise 5%→7.9% | Raised quarterly cap to contain demand — not generosity | 🔴 | WealthMgmt.com Mar 2026 |
 
 ---
 
@@ -96,9 +102,13 @@ Total trapped capital across ALL industry gates: **>$10B** (prior $4.6B + $7.3B 
 
 **Software exposure reframe (Apr 1):** $103.7B BDC software exposure (vs $70B model — 48% undersized). OTF 74%, GCRED 24.2% PIK, Thoma Bravo $12.3B/48 cos. Zendesk = 12-lender overlap = correlated loss vector. Maturity wall peaks 2031 but stress is NOW via PIK/marks.
 
-**Regulatory Stage 5 now active:** Treasury/FSOC formally investigating. Meeting with insurance regulators TODAY Apr 1. "Flying blind" OFR admission. PC in 401(k) = political dimension. Stage 3+5 running simultaneously — this is no longer just a credit event, it's a systemic policy event.
+**Regulatory Stage 5 now active:** Treasury/FSOC formally investigating. Insurance regulator meetings Apr 1. "Flying blind" OFR admission. PC in 401(k) = political dimension. Stage 3+5 running simultaneously — this is no longer just a credit event, it's a systemic policy event.
 
-**Key risk:** Consensus catching up. When sell-side says it, the move accelerates but positioning edge shrinks. Regulatory recognition = next acceleration vector.
+**Pebbles II — Gorton opacity made concrete (Apr 2):** Apollo 46 non-accruals (most in universe) vs "pebbles" statement 42 days before 45¢/$1. FSK 24.4% PIK = systemic, not idiosyncratic. GBDC+GSBD 192 identical companies (corr 0.79): investor paying two fee streams for single risk. CGBD+ORCC 128 identical companies. 424 companies in multiple funds. Recovery 33-45¢ vs 62.3% historical. Combined with Blue Owl 40.7% gate and Blackstone refusing Medallia A&E — the opacity structure is collapsing on multiple vectors simultaneously.
+
+**Dowd/NDFI confirmation:** ALL marginal commercial bank credit growth 2024-25 went to NDFIs. Trajectory chart confirms $1.411T Q4 exposure was not a snapshot — it was the culmination of a 2-year credit reallocation. Now under duress. Negative feedback loops engaged.
+
+**Key risk:** Consensus catching up. Sell-side saying it = alpha compressing. But regulatory recognition + Pebbles II narrative = next acceleration. Blackstone refusing A&E is the tell — when the biggest player won't extend, the reckoning becomes inevitable.
 
 ---
 
@@ -108,7 +118,7 @@ Total trapped capital across ALL industry gates: **>$10B** (prior $4.6B + $7.3B 
 |-------|-------------|--------|----------|
 | 1 | Inflow slowdown | ✅ DONE | Fundraising frozen, $10B+ Q1 outflows |
 | 2 | Outflows > inflows, gates | ✅ ACTIVE | 9 gates, $2B+ trapped, 11.2% APO / 11.6% ARES requests |
-| 3 | Forced marks / selling | 🟡 TRANSITIONING | JPM markdowns + margin calls, BCRED first loss, Apollo 45¢/$1, **OWL $1.4B sale to own insurer at 99.7¢ (manufactured mark)**, ARES/APO/BL+OWL 4 gates in 72hrs. **NOT Stage 3 complete until arms-length fire sale at 85-90¢.** |
+| 3 | Forced marks / selling | 🟠 ACCELERATING | JPM markdowns + margin calls, BCRED first loss, Apollo 45¢/$1, OWL $1.4B→Kuvare at 99.7¢ (manufactured mark), ARES/APO/BL+OWL 4 gates in 72hrs. **Blackstone REFUSES Medallia/TB A&E** (Bloomberg Apr 2) — extend-and-pretend breaking at the source. Apollo 46 non-accruals. FSK 24.4% PIK. **NOT Stage 3 complete until arms-length fire sale at 85-90¢.** |
 | 4 | Bank transmission | ⬜ NEXT | DB $30B quantified, JPM margin calls issued, WFC $59.7B exposure |
 | 5 | Regulatory / rating cascade | 🔴🔴 ACCELERATING | FSK downgrade. NAIC PBR. **Treasury/FSOC + Congress now BOTH active.** House Dems grilling BX/ARES/APO/OWL/KKR on valuations, marketing, leverage. Senator Reed OFR mapping. Stage 5 is multi-pronged: executive branch + legislative branch + rating agencies. |
 | 6 | Systemic contagion | ⬜ NOT YET | — |
@@ -141,7 +151,7 @@ Total trapped capital across ALL industry gates: **>$10B** (prior $4.6B + $7.3B 
 | APO $100P Jun 18 | ~$590 | CONFIRMED. May 1 lead plaintiff. | Feldman v. Apollo (SDNY) | May 1 deadline |
 | APO $95P Dec | ~$920 | Full thesis runway. | Stage 2→3→4 timeline | Q2-Q3 cascade |
 | ARES $95P Jun 18 | ~$890 | CONFIRMED. 11.6% gating. | Non-accrual >2.2% = add | Q1 earnings late Apr/May |
-| OWL $9.5P Apr 2 | **EXPIRES TODAY** | **ITM $0.84. OWL $8.66. DUAL GATE NEWS.** See OWL assessment below. | Exercise/sell decision by 4pm | Dual gate = legs into tomorrow |
+| OWL $9.5P Apr 2 | **EXPIRED** | ✅ Was ITM $0.84 at expiry. Dual gate news confirmed legs. | Outcome: exercise vs sell — confirm with Will | — |
 
 ---
 
@@ -231,30 +241,9 @@ Total trapped capital across ALL industry gates: **>$10B** (prior $4.6B + $7.3B 
 | Mar 23 | Stage 2+ | FSK downgraded to junk (Ba1). Apollo honoring only 45¢/$1. | Rating cascade begins |
 | Mar 25 | Stage 2+ | MS: 8% true distress rate (vs 1.5% reported). Barclays ABL pullback. | Stage 3 signals emerging |
 | Mar 31 | **Stage 5 parallel** | Treasury/FSOC investigating. Congressional probe. Insurance regulator meetings. | Regulatory track running ahead of credit track |
-| **Apr 2** | **Stage 2→3 TRANSITION** | **Blue Owl dual gate: OCIC 21.9%, OTIC 40.7%. $7.3B new trapped. $1.4B sold to own insurer at 99.7¢. Gate count: 11.** | **Largest single gating event. Related-party sale = manufactured marks. Next: arms-length sale at <95¢ completes Stage 3.** |
+| **Apr 2** | **Stage 2→3 TRANSITION** | **Blue Owl dual gate: OCIC 21.9%, OTIC 40.7%. $7.3B new trapped. $1.4B sold to own insurer at 99.7¢. Gate count: 11. Blackstone refuses Medallia/TB A&E. Pebbles II: Apollo 46 non-accruals, FSK 24.4% PIK, GBDC+GSBD 192-company overlap.** | Cross-fund opacity exposed. Blackstone A&E refusal = extend-and-pretend structurally broken. Next: arms-length fire sale at <95¢ completes Stage 3. |
 
 **Next Stage 3 completion trigger:** Fire sale at 85-90¢ by a non-related-party buyer. When that happens, auditors force industry-wide marks → Stage 4 (bank transmission) activates mechanically via NAV facility borrowing base erosion.
-
----
-
-## OWL $9.5P ASSESSMENT (Expires Apr 2)
-
-**Current:** OWL $8.44 (-3.04%), puts $1.06 ITM. Expires today.
-
-**Case for sell-to-close now:**
-- Lock in ~$0.84 intrinsic (minus any remaining time value)
-- Avoid assignment risk / short stock over weekend
-- Market closed Friday (Good Friday) — can't manage short position until Monday
-
-**Case for letting exercise (short 100 shares at $9.50):**
-- OWL $8.66 → short at $9.50 = $0.84/share embedded gain on assignment
-- This news has LEGS: 40.7% is unprecedented, related-party dump will get media pickup, NFP void tomorrow means this story dominates
-- Q1 earnings still ahead — more gates possible, OBDCII still unfiled
-- Regulatory overhang (Treasury/FSOC + Congress) = multi-week pressure
-
-**BROCK's view:** This depends on Will's book management preference. The news is definitively negative for OWL with multi-week catalysts ahead. If Will wants short OWL exposure, letting exercise at $9.50 and holding short into Q1 earnings is defensible. If he wants clean book, sell to close. **The one risk is Good Friday — market closed, can't manage the short until Monday.** But Blue Owl news dropping on the last trading day before a 3-day weekend means Monday opens with full media digestion.
-
-**Recommendation:** Lean toward letting exercise IF Will is comfortable holding short OWL over the long weekend. Otherwise sell to close and capture the $0.84.
 
 ---
 

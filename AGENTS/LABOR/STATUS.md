@@ -1,5 +1,38 @@
 # LABOR STATUS
-**Last Updated:** 2026-04-02 16:15 UTC | **Status:** 🔴🔴 CRITICAL — CLAIMS 202K (2-YR LOW, FL WAVE 1 INVISIBLE). SHADOW ADJUSTMENT ↑ +65K. ORACLE 10-30K. UNILEVER FREEZE. DOGE 385K. ADP +62K (HEALTHCARE ONLY). JOLTS HIRES = APR 2020 LOW. APR 10 CLAIMS = FL WAVE 1 LAG TEST. CONVERGENCE 56/65.
+**Last Updated:** 2026-04-03 13:05 UTC | **Status:** 🔴🔴 CRITICAL — NFP +178K (STRIKE BOUNCE, HEALTHCARE 76K = 43% OF TOTAL). U-3 4.3% (↓0.1). FEB REVISED TO -133K. FED GOVT -355K TOTAL. WAGE GROWTH 3.5% (SLOWEST SINCE 2021). BREAKEVEN JOBS MAY BE NEGATIVE (DALLAS FED). SHADOW +65K. APR 10 CLAIMS = FL WAVE 1 LAG TEST. CONVERGENCE 56/65.
+
+**Signal Apr 3 — NFP MARCH 2026 (13:05 UTC):**
+
+**🟡⚠️ NFP MARCH: +178K (vs +60K exp, vs -133K revised Feb) — HEADLINE STRONG, INTERNALS MIXED:**
+Released 8:30 AM ET into CLOSED markets (Good Friday). Headline is a big beat. But decomposition matters:
+- **Healthcare: +76K** (43% of total). Includes 31K Kaiser Permanente strike return (CA/HI). Strip strike return: +147K organic, strip healthcare entirely: +102K.
+- **Construction: +26K** (weather rebound from winter declines)
+- **Transportation/Warehousing: +21K** (partial reversal of prior losses)
+- **Manufacturing: +15K** (surprise positive after 28mo contraction streak — one-off or turn?)
+- **Social Assistance: +14K** (continued trend)
+- **Federal Government: -18K** → total -355K / -11.8% from Oct 2024 peak (DOGE damage confirmed at BLS level)
+- **Financial Activities: -15K** (credit stress bleeding into employment)
+- **Revisions: Jan +34K to 160K, Feb -41K to -133K** (net -7K). Feb downward revision makes the trough deeper.
+
+**📊 HOUSEHOLD SURVEY:** U-3 4.3% (↓0.1pp from 4.4%). Improvement modest — still elevated vs 2023 lows.
+
+**📊 WAGES:** +3.5% YoY (slowest since 2021). Avg workweek 34.2 hrs (shortened). Workers earning less per paycheck even as hourly rates rise slowly. Wage-price spiral NOT the current problem — demand destruction is.
+
+**🔴 CRITICAL CONTEXT — STRIKE DISTORTION + BREAKEVEN SHIFT:**
+- Dallas Fed (Mar 31): breakeven job growth may be **negative** due to immigration restrictions collapsing labor supply growth
+- Fed (Apr 2): labor supply growing only ~10K/month in 2026
+- Implication: +178K looks strong but is inflated by 31K strike return + weather rebound. AND the bar for "strong" is now much lower — if breakeven is ~10K/month, even +100K is above-trend
+- NYT: "particularly remarkable considering severe slowdown in people entering labor market due to immigration restrictions and deportations"
+
+**🔴 HOTEL CALIFORNIA STILL INTACT:**
+- Hiring rate at Feb 2020 lows (JOLTS)
+- Claims at 2-yr lows (no firing, but no hiring either)
+- NYT: "employers stretched to hold on to staff" — hoarding, not expanding
+- One strong NFP does NOT break the Hotel California dynamic. Need sustained +150K+ for 3+ months.
+
+**📊 MARKET REACTION:** Markets CLOSED. Sunday night futures (Apr 5) = first reaction window. The headline beat may trigger "soft landing back on" narrative. Risk: consensus shifts bullish into Apr 6 open, but tariff/Hormuz headwinds make this a last-look-back print (survey week pre-dates worst of energy shock).
+
+**⚠️ KILL RULE CHECK:** Kill A requires NFP ≥+200K x3 months. This is +178K — does NOT trigger. Prior months: -133K (Feb), +160K (Jan revised). NOT close to triggering.
 
 **Signal Apr 2 — AM Scan (17:33 UTC):**
 
@@ -158,14 +191,17 @@ FL UI Wave 1 FIRED Mar 24. Primorsk + Ust-Luga offline (Russia Baltic). Apollo g
 
 | Indicator | Value | Status |
 |-----------|-------|--------|
-| NFP Feb 2026 | **-92,000** | 🔴🔴 |
-| U-3 | **4.4%** ↑ | 🔴 |
+| NFP Mar 2026 | **+178,000** (strike bounce, HC 43%) | 🟡⚠️ |
+| NFP Feb 2026 (revised) | **-133,000** | 🔴🔴 |
+| U-3 | **4.3%** ↓ | 🟠 |
 | Long-term Unemployed | **1.9M** (+400K YoY) | 🔴 |
 | Avg Duration | **25.7 wks** (4-yr high) | 🔴🔴 |
 | Initial Claims | **202K** (2-yr low, DHS-suppressed +65K → ~267K) | 🔴⚠️ |
 | Continuing Claims | **1.819M** (-32K, 2-yr low) | 🟢⚠️ |
 | JOLTS Quits | **2.0%** x7 months | 🔴 |
 | ADP Pulse | **9K/wk** (-42%) | 🔴 |
+| Avg Hourly Earnings YoY | **3.5%** (slowest since 2021) | 🟡 |
+| Avg Workweek | **34.2 hrs** (shortened) | 🟠 |
 | Prime-Age Participation | **83.9%** ↓ | 🔴 |
 | Temp Employment YoY | **-12%** | 🔴 |
 | DOGE/WARN | 327K fed + 766/91,190 WARN | 🔴 |
@@ -239,7 +275,7 @@ FL UI Wave 1 FIRED Mar 24. Primorsk + Ust-Luga offline (Russia Baltic). Apollo g
 | ✅ Apr 1 | ADP Mar +62K (healthcare only, T/T/U -58K) | Hotel California confirmed |
 | ✅ Apr 2 | Claims 202K wk Mar 28 — FL Wave 1 INVISIBLE, 2-yr low | Shadow adj ↑ +65K |
 | **Apr 10** | **Claims wk Apr 4 — 🔴 FL WAVE 1 LAG TEST (CRITICAL)** | If <215K → shadow ↑ +70K, FL confirmed suppressed |
-| **Apr 3** | **NFP Mar 2026 — MARKET CLOSED (Good Friday)** | Gap risk Mon Apr 6 open; prep Sunday night futures watch |
+| ✅ Apr 3 | NFP Mar +178K (beat, strike bounce), U-3 4.3%, Feb revised -133K | 🟡 Headline strong, internals mixed |
 | ~Apr 3-7 | Banxico Feb remittances | >5% YoY = upgrade |
 | Apr 6 | Market open post-NFP | Gap risk assessment |
 | Apr 13+ | Senate returns | Shutdown deal? |

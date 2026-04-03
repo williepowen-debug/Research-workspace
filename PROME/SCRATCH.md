@@ -1,41 +1,46 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-04-02 20:30 ET (Session 3)
+**Last Updated:** 2026-04-03 11:15 ET (Session handoff)
 
 ## What Just Happened
-Massive signal ingestion session — 36 signals across 5 batches from Will's Twitter/media collection. All triaged, analyzed, and routed to 9 agents via 22 signal files across 6 git pushes. Also: CLAUDE.md rewrite (tighter 100-line version), OWL $9.5P closed (~$100 profit), research corpus synthesis.
+Built the News Sweep tool from scratch. Full session with Will designing, researching, building, testing, and deploying a thesis-tagged news monitoring system. Also: LABOR check-in (NFP 178K), MARCO DHS deal logged, multiple agent cron check-ins handled (Good Friday — light touch).
 
 ## Immediate State
-- **Context:** ~75% used after heavy session. Transfer to new session recommended.
-- **All signals routed.** BROCK processed batch 1 via spawn; batches 2-3 in inbox. All other agents have queued signals.
-- **CLAUDE.md v2 pushed to git** (`f9a9136`) — 100 lines, domain-agent focused, Prome-only sections removed. Will needs to do `mv CLAUDE.md CLAUDE_OLD.md && git pull` on local machine to pick it up.
-- **OWL $9.5P closed** — ~$100 profit, POSITIONS.md updated, W-006 resolved.
-- **NFP tomorrow (Good Friday, markets closed).** Consensus +57K. Gap risk Monday. Sunday futures ~6 PM ET.
+- **NEWS SWEEP v1 IS LIVE.** `FORGE/tools/news-sweep/` — sweep.py + config.py fully operational. First live run completed, 9 agent inboxes received files. Cron set for M-F 8:30 AM ET with Telegram push. Dashboard endpoint `/api/news` active.
+- **Monday Apr 7 is the real test.** First automated sweep → agent check-in → inbox processing cycle. Watch for: agents reading sweep files, dedup cache behavior, Google News rate limits.
+- **Good Friday.** Markets closed. Most agents not spawned today. LABOR got NFP check-in (178K, healthcare-driven). MARCO got DHS deal news (shutdown may end today).
 
-## Key Signals to Track (from tonight's ingestion)
-1. 🔴🔴 **Fed + Dallas Fed: breakeven job growth ZERO.** Labor market structurally fragile — any demand shock hits employment immediately. Apr 10 claims = critical.
-2. 🔴🔴 **Pebbles II (Eric Jackson):** Apollo 46 non-accruals (most of any BDC), FSK 24.4% PIK, 192 companies shared GBDC/GSBD, Spotless Brands in 7 funds, CPP/Antares 70 overlap, Dutch DB→DC Jan 1. May-Aug = thesis confirms or breaks.
-3. 🔴 **FT/RA Stanger:** $7.5B redemption requests Q1, ALL 12 largest funds accelerating, unmet redemptions appearing first time.
-4. 🔴 **Blackstone refused Medallia A&E** — Stage 3 extend-and-pretend breakdown.
-5. 🔴 **Goldman TRS paused** — ABX analog for leveraged loans being developed but not ready.
-6. 🔴 **Wells Fargo $200B into repo** — single-point-of-failure dependency.
-7. 🔴 **Walker & Dunlop: "systemic" CRE fraud** — $222M bad loan buybacks, filing uses "systemic."
-8. 🔴 **Hiring rate 3.1%** — lowest since 2011, pre-recessionary.
-9. 🔴 **Dividend recaps $28.7B** — 2021 peak level, PE using debt for distributions.
-10. 🔴 **Software = 32.2% of leveraged loan index** by volume.
+## Key Signals to Track
+1. 🔴🔴 **Blue Owl $5.4B redemptions** — 10+ sources confirming. BROCK domain. Sweep correctly classified and routed.
+2. 🔴🔴 **Kuwait refinery drone strike** — new Gulf infrastructure attack. HENRY WATCH_FOR hit.
+3. 🔴🔴 **Subprime auto cluster** — 8 articles, Tricolor fraud charges, Chapter 7 filing. CARL/OTTO domain.
+4. 🔴 **Apollo SEC class action (Epstein ties)** — DEVELOPMENT on known entity. BROCK.
+5. 🔴 **NFP 178K** — headline beat but internals weak (healthcare 43%, Feb revised down to -133K). LABOR logged.
+6. 🔴 **DHS shutdown deal reached** — may resolve today via pro forma session. MARCO inbox.
+7. 🔴 **Carry trade unwind risk building** — SAM WATCH_FOR hit. UBS calling USD/JPY 175.
+
+## News Sweep — Maintenance Notes for Next Prome
+- **Config:** `FORGE/tools/news-sweep/config.py` has ENTITY_INDEX and WATCH_FOR lists. Update after major STATUS changes.
+- **Known friction:** LIQUID inbox can be large (34 items first run, should be smaller after query tightening). Some watch keyword false positives in compact output (minor).
+- **V2 considerations (NOT YET — wait 1 week):** Auto entity index generation, push WATCH_FOR to agents, NEXUS integration, embedding-based matching. Will agreed to evaluate after 1 full week of v1 data.
+- **Full docs:** `FORGE/tools/news-sweep/README.md`
 
 ## Pending / Unresolved
-- CLAUDE.md needs local machine pickup (Will: `mv CLAUDE.md CLAUDE_OLD.md && git pull`)
-- ORACLE inaugural sweep — still never spawned
+- **Monday Apr 7:** APO reassess (stop $113, at ~$107 — already blown through), KRE Jun→Dec roll, HYG roll
+- **Monday Apr 7:** First automated news sweep cycle. Monitor.
+- **Apr 10:** FL Wave 1 lag test (claims print — critical given Fed breakeven = zero research)
+- **Apr 6 (Sun):** Iran pause expiry — HAWK deadline
+- **BOJ Apr 23-24 meeting**
+- ORACLE agent inaugural sweep — still never spawned
 - Calendar sync broken (Google OAuth)
-- Monday Apr 7 batch: APO reassess (stop $113, at $108.02), KRE Jun→Dec roll, HYG roll
-- Apr 10: FL Wave 1 lag test (claims print — NOW EVEN MORE CRITICAL given Fed breakeven research)
-- Iran pause expires Sun Apr 6 — HAWK deadline
-- BOJ Apr 23-24 meeting
 - Cliffwater 219% and BDC NAV table still need primary source verification
-- BROCK batches 2-3 unprocessed (in inbox)
+- BROCK batches 2-3 unprocessed (in inbox from Apr 2)
+- CLAUDE.md needs local machine pickup (Will: `mv CLAUDE.md CLAUDE_OLD.md && git pull`)
+- **NEXUS and RED both 8 days stale** (last updated 3/26). Should get check-ins soon.
+- **Agent inbox backlog:** REGINALD (8+sweep), CARL (7+sweep), HENRY (6+sweep), LABOR (5+sweep)
 
 ## Don't Forget
-- WTI at $109.79 (+11% on day). ADCOP pipeline fire developing.
+- WTI at $109+. Brent $107-108. Gas $3.99 (hair below $4 breakpoint).
 - Account ~$55.7K (+111.5%)
-- Eric Jackson's timeline: May-Aug = thesis confirms or breaks (Q1 10-Q filings)
-- Fed laying intellectual groundwork for framework shift on labor
+- Eric Jackson timeline: May-Aug = thesis confirms or breaks
+- Fed breakeven job growth = ZERO (structural fragility)
+- APO below stop — decision needed Monday
