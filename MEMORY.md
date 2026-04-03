@@ -1,6 +1,6 @@
 # MEMORY — Key Insights & Lessons
 
-**Last Updated:** 2026-03-31 18:00 UTC
+**Last Updated:** 2026-04-03 17:00 ET
 
 **Positions → `PROME/POSITIONS.md`** | **Agent roster → `AGENTS_DIRECTORY.md`** | **Background → `WILL/BACKGROUND.md`**
 
@@ -18,19 +18,17 @@
 - **Fed Stealth Liquidity (updated Apr 3)** — Fed buying ~$40B T-Bills/month since Dec '25, TBAC projects ~$540B total SOMA demand. Perli (Mar 26): reserve ampleness at Q1 2019 levels. Program ongoing with no changes (Mar 18 FOMC). Surface calm = intervention working, not health. 2019 repo parallel: breaks binary. → `FORGE/research/FED_TBILL_REPO_ANALYSIS.md`
 - **IHAM Hidden Leverage (Mar 26)** — ARCC's CLO subsidiary is first-loss ($941M sub notes), 83% Level 3, losses growing while parent feeds it cash to buy more assets. Ares Mgmt reducing own credit exposure (-28%) while growing insurance (+59%) — insiders rotating away from the book. Template for what other PE-CLO subsidiaries may be hiding. Full detail in BROCK. → `AGENTS/BROCK/trade/ARES/sources/IHAM_FINANCIALS_FY2025.md`
 - **PC Contagion Mechanics (updated Apr 3)** — Six-stage model: gate → cash substitution → financing tighten → honest marks → CLO spillover → bank impairment. **Now Stage 3 confirmed** — Blue Owl, BlackRock, Morgan Stanley all gating. Congress CRS report published (Apr 2). ECB + BOE launched emergency exploratory scenarios. Tripwire = fire-sale at 80-85¢. 2007 analog: 4-5 months gate→bank writedown = Q2-Q3 2026. → `AGENTS/BROCK/research/PC_CONTAGION_MECHANICS.md`
-- **CARL Path C Activating (Mar 23, confirmed Apr 3)** — "Help with mortgage" Google Trends still at ALL-TIME HIGH (above 2008). Lennar Q1 2026 margin compression continues (17%→lower, from 25%+ pandemic peak). NEW: serious mortgage DQ (90+ day) at highest since 2022 (Mar 26). Multifamily CMBS DQ hit new ATH in March. Overall CMBS DQ 7.55% (+41bps). Housing cracking BEFORE employment — parallel stress paths, not sequential. Convergence 43/50.
-- **Ghalibaf Financial Warfare (Mar 23)** — Iran Parliament Speaker declared UST buyers "legitimate military targets." One-way ratchet: stigma gives Gulf SWFs political cover to reduce UST exposure, re-entry harder once started. TIC Apr 15 = first verification. → ZHAO domain + `FORGE/research/iran-war/`
-- **BOJ Timing Revision (Mar 23, updated Apr 3)** — Shunto 5.26% confirmed (3rd year >5%). Oil chaos delayed hike from April to likely May or later. Next meeting Apr 23-24 (~35-40% hike probability). FY-end flows (GPIF, life insurers) are MECHANICAL regardless of hike. Full carry unwind needs actual hike. **Ueda:** can hike even into weak growth.
-- **Japan Structural UST Demand Withdrawal (Mar 25)** — Multi-year regime change, NOT a calendar event. Life insurers shifting away from USTs (hedged return now negative). $50-120B annual swing from buyer to neutral/seller. BOJ hike is the real catalyst for carry unwind, not FY-end flows. Repatriation alone doesn't reliably strengthen yen. → `AGENTS/SAM/research/JAPAN_FYEND_REPATRIATION.md`
-- **WAL + OZK: Complementary Shorts (Mar 25)** — WAL = fast-transmission (losses bypass delinquency pipeline → straight to P&L, SI 3.54% = uncrowded edge). OZK = reservoir (losses accumulate behind interest reserves, SI 13.81% = crowded). Different failure modes, different put expiry logic. OZK Q1 Apr 16, WAL Q1 Apr 21. → REGINALD domain
+- **CARL Path C Activating (Mar 23, confirmed Apr 3)** — "Help with mortgage" Google Trends still at ALL-TIME HIGH (above 2008). Lennar Q1 2026 margin compression continues (17%→lower, from 25%+ pandemic peak). NEW: serious mortgage DQ (90+ day) at highest since 2022 (Mar 26). Multifamily CMBS DQ hit new ATH in March. Overall CMBS DQ 7.55% (+41bps). Housing cracking BEFORE employment — parallel stress paths, not sequential. Convergence 43/50. → `AGENTS/CARL/STATUS.md`
+- **Ghalibaf + UST Demand Hole (Mar 23)** — Iran Parliament Speaker declared UST buyers "legitimate military targets." One-way ratchet: stigma gives Gulf SWFs political cover to reduce exposure. Four-anchor stress (Japan+China+Korea+Gulf), $70-135B/mo combined. TIC Apr 15 = first verification. → `AGENTS/ZHAO/STATUS.md` + `FORGE/research/iran-war/`
+- **Japan: Structural Shift + BOJ (updated Apr 3)** — Multi-year regime change, NOT a calendar event. Life insurers shifting away from USTs (hedged return now negative). $50-120B annual swing from buyer to neutral/seller. BOJ hike is the real catalyst (next meeting Apr 23-24, ~35-40%), not FY-end flows. Repatriation alone doesn't reliably strengthen yen. Ueda: can hike even into weak growth. → `AGENTS/SAM/research/JAPAN_FYEND_REPATRIATION.md`
+- **WAL + OZK: Complementary Shorts (Mar 25)** — WAL = fast-transmission (losses bypass delinquency pipeline → straight to P&L, SI 3.54% = uncrowded edge). OZK = reservoir (losses accumulate behind interest reserves, SI 13.81% = crowded). Different failure modes, different put expiry logic. OZK Q1 Apr 16, WAL Q1 Apr 21. → `AGENTS/REGINALD/STATUS.md`
 
 ---
 
 ## THESIS FRAMEWORK
 
-- **UST Demand Hole** — Four-anchor stress (Japan+China+Korea+Gulf), $70-135B/mo combined. CNY 7.30 call missed (yuan strengthened). TIC Apr 15 = first verification. → ZHAO domain
 - **NDFI Verified (Mar 26)** — $1.41T domestic, $1.57T consolidated. 77.6% growth in 2 years, 52.3% of Tier 1 capital, 86% in banks >$100B. This is how private credit losses transmit to bank balance sheets (Chain 2 → Chain 1 bridge). Loss range $73-138B. → REGINALD domain (`NDFI_HIDDEN_CRE_HYPOTHESIS.md`)
-- **Ag Labor Data Gap (Mar 26)** — USDA Ag Labor Survey AND DOL NAWS both canceled. No official source for agricultural employment tracking going forward. MARCO flagged as permanent blind spot. We're relying on indirect signals (H-2A certs, self-deportation estimates, produce prices) with no ground truth.
+- **Ag Labor Data Gap (Mar 26)** — USDA Ag Labor Survey AND DOL NAWS both canceled. No official source for agricultural employment tracking. Permanent blind spot — relying on indirect signals (H-2A certs, self-deportation estimates, produce prices). → `AGENTS/MARCO/STATUS.md`
 
 ---
 
@@ -42,4 +40,4 @@
 - **Three-source convergence method.** Perplexity + Claude + Gemini (deep research modes). Weight by methodology quality (primary data citations vs estimates).
 - **CHANGELOG-first workflow.** Thesis files must never be edited without CHANGELOG.md entry first. Prevents silent drift.
 - **Prome confidence ≠ Prome knowledge.** Tone doesn't change with coverage. Flag blind spots proactively.
-- **News sweep design (Apr 3).** Forward-looking WATCH_FOR > backward-looking known signals. Centralized supervisor pattern (DeepMind: unstructured multi-agent networks amplify errors 17x). Entity index manually maintained by Prome.
+
