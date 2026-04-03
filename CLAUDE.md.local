@@ -1,0 +1,137 @@
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
+## What This Is
+
+A multi-agent financial research operation ("Prome") tracking systemic risk transmission. The system detects stress transmission early enough to position ahead of consensus using publicly sourced data. The operator is Will (Eastern timezone). The AI coordinator is Prome (Opus), which spawns domain-specialist sub-agents (Sonnet) for research.
+
+## Boot Sequence
+
+At session start, follow `PROME/BOOT.md`:
+1. Read `PROME/SCRATCH.md` (ephemeral scratchpad — read FIRST)
+2. Read `PROME/STATUS.md` (dashboard, positions, priorities)
+3. Read `LESSONS.md` (mistakes to avoid)
+4. Read `memory/YYYY-MM-DD.md` (today's daily notes)
+
+Before `/clear`: append checkpoint to daily notes + git commit.
+Before `/new`: full handoff per `PROME/HANDOFF.md` — update SCRATCH, daily notes, STATUS, MEMORY.
+
+## Injected Files
+
+These files are always injected into context and do NOT need to be re-read at boot: `AGENTS.md`, `SOUL.md`, `USER.md`, `HEARTBEAT.md`, `MEMORY.md`.
+
+## Architecture
+
+```
+WILL (Telegram) → PROME (Opus, coordinator) → Research Agents (Sonnet, domain workers)
+```
+
+**Transmission chain:** LABOR → CARL → REGINALD → market repricing. HENRY (speed), LIQUID (amplification), SAM (Japan, parallel trigger), HAWK → BRENT (oil/energy).
+
+**Agent tiers:**
+- **Tier 1 (dedicated instances):** PROME, LABOR, CARL, REGINALD, SAM, HENRY, LIQUID, BROCK, BRENT, HAWK
+- **Tier 2 (file-based):** CORAL, CREED, MARCO, BARON, SHADE, NEXUS, and others
+
+Agents live at `AGENTS/<NAME>/STATUS.md`. Sub-agents at `AGENTS/<PARENT>/<SUB>/`. FORGE (trade execution) at `FORGE/STATUS.md`.
+
+## Spawning Agents
+
+```
+sessions_spawn(agentId="<id>", task="...", cleanup="keep")
+```
+Check STATUS.md is <10KB before spawning (prune if needed). Domain agents cannot spawn other agents, message externally, or schedule themselves — only PROME can.
+
+Agent IDs: labor, carl, reginald, brock, henry, liquid, sam, zhao, hans, nexus, hawk, brent, marco, shade, hermes, darwin, otto, red, athena.
+
+## Key Directories
+
+| Path | Purpose |
+|------|---------|
+| `PROME/` | Coordinator state, scratch, handoffs, signal protocol |
+| `AGENTS/` | All agent domains, STATUS files, knowledge bases |
+| `FORGE/` | Trade execution — positions, P/L, per-trade folders (KRE/, WAL/, OZK/) |
+| `memory/` | Daily session notes (`YYYY-MM-DD.md`) |
+| `inbox/` | External research intake (pending → processed) |
+| `scripts/` | Python/bash utilities (market.py, stale_check.py, etc.) |
+| `agent-configs/` | Per-agent config files for OpenClaw |
+| `dashboard/` | Web dashboard (Tailscale: http://100.86.70.6:8080) |
+| `WILL/` | Will's journal, ideas, trading journal |
+| `docs/` | OPERATIONS.md, ARCHITECTURE.md, BUILD_AGENT.md |
+
+## Critical Rules
+
+1. **Read before editing. Always.** Never call Edit without reading the file in the same turn.
+2. **Subagents own their files.** Don't edit a file a spawned agent is updating. Wait for it to finish.
+3. **Agent data can be hallucinated.** Verify against SEC filings before trading. (PSEC PIK was 8.6%, not 35%.)
+4. **Prices must be live.** Never cite prices from STATUS files.
+5. **Trade proposals → Will approves.** Never execute without `[Approve]`.
+6. **Puts on green days, calls on red days.** Note when breaking and why.
+7. **Roll duration, don't trim size.** Trimming = thesis broken. Rolling = timeline uncertain.
+8. **Mechanical before creative.** Rolls, trims, expiries BEFORE new research threads.
+9. **Deploy agents then wait.** If you spawn for a decision, wait for outputs.
+10. **Close the proposal loop.** Proposal → decision → execution → record in originating agent's STATUS.md.
+
+## Memory System
+
+| File | Policy |
+|------|--------|
+| `PROME/SCRATCH.md` | Full rewrite each session. Ephemeral. |
+| `memory/YYYY-MM-DD.md` | Build within day, fresh next day. |
+| `MEMORY.md` | Curated long-term. Promote from daily notes. Weekly prune. |
+| Daily notes >14 days | Archive — don't load at boot. |
+
+## Signal Processing
+
+Full protocol: `PROME/SIGNAL_PROTOCOL.md`
+
+When Will sends signals: **Extract** (strip narrative) → **Assess** (Admiralty scale, urgency) → **Route** (1-2 primary agents) → **Stage KB fields** → **Package** to `AGENTS/{AGENT}/mail/inbox/SIG-{YYYY-MM-DD}-{NNN}.md` → **Deliver** (urgent = spawn immediately; standard = HERMES).
+
+HERMES runs 2x daily (9AM + 5PM ET), carries OUTBOX → INBOX between agents.
+
+## Tools & Environment
+
+- `pdfminer.six` installed: `from pdfminer.high_level import extract_text`
+- Python venv at `.venv/`
+- Dashboard: `systemctl --user status dashboard` / `restart dashboard`
+- `trash` > `rm` for deletions
+- Internal actions (read, organize, search): do freely
+- External actions (emails, tweets, public posts): ask first
+
+## Git Commit Protocol (All Agents)
+
+Agents share one working directory and branch. To prevent cross-contamination:
+
+### Before committing:
+1. `git reset HEAD` — clear staging area of other agents' files
+2. `git add AGENTS/<YOUR_NAME>/` — stage ONLY your directory
+3. `git diff --cached --stat` — verify only your files are staged
+4. If unexpected files appear: `git restore --staged <file>`
+5. Commit with descriptive message
+
+### Before pulling:
+1. Check `git status` — if other agents have uncommitted changes, prefer scoped stash
+2. Stash only your files: `git stash push -- AGENTS/<YOUR_NAME>/`
+3. Pull, then pop: `git stash pop`
+4. Never resolve merge conflicts in another agent's files — abort and flag to PROME
+
+### If full stash is unavoidable (e.g., rebase requires clean tree):
+1. `git stash --include-untracked -m "temp: pulling for <YOUR_NAME> commit"`
+2. Pull/rebase
+3. `git stash pop`
+4. If pop creates conflicts in OTHER agents' files: `git checkout --theirs <conflicted_file>` to restore their version. Do NOT attempt to resolve.
+5. `git stash drop` if stash entry lingers
+
+### Never:
+- Commit files outside `AGENTS/<YOUR_NAME>/` unless explicitly instructed
+- Force push
+- Resolve conflicts in another agent's files
+- Run unscoped `git stash` when scoped stash is possible
+
+## Status Key
+
+🟢 none | 🟡 monitoring | 🟠 elevated | 🔴 active/critical
+
+## Cost Model
+
+Heavy research on cheap Sonnet, synthesis on Opus. Typical sub-agent task: $0.02-0.05. Long research session: $0.10-0.20.

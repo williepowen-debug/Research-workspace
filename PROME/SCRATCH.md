@@ -1,77 +1,53 @@
 # SCRATCH — Ephemeral Working Memory
 
-**Updated:** 2026-04-02 12:45 ET (Thu 12:45 PM ET)
+**Updated:** 2026-04-02 17:50 UTC (Wed 1:50 PM ET)
 
 ---
 
 ## QUICKSTART
-Scenario D **82%**. War Day 33. Brent **$111 🔴🔴** (Trump no off-ramp). Gas **>$4 🔴 BREACHED**. HY OAS **316** 🟡 (reverted from 346 q-end spike). CCC **994** 🟡 (below 1000). VIX **26.86** 🟡. Gold **-9.6%** (margin liquidation). Account ~$55.7K (+111.5%).
+Scenario D **82%**. Brent **$108.16** (+6.9%), WTI **$111.40** (+11.3% — big spike). HY OAS **~321bps** (at 320 threshold). VIX **25.40**. 10Y **4.31%** (down from 4.42%). SPY **$654.12**. Thesis confidence **80%**.
 
-**OWL $9.5P EXPIRED TODAY (Apr 2).** Check outcome — Will never confirmed sell vs exercise. OWL at $8.66.
-**Do NOT spawn SAM, REGINALD, or CARL** — Claude Code, inbox only.
-**Calendar sync broken** — Google OAuth expired (non-urgent).
-**Good Friday TOMORROW** — markets closed. NFP 8:30 AM into void. Gap risk Monday.
+**TODAY = APR 2.** Next major catalyst: OZK earnings Apr 16 (14 days). Bank earnings wave Apr 20-29.
 
-## IMMEDIATE PRIORITY — NEXT SESSION
-1. 🔴 **OWL expiry outcome** — what happened? Sold, exercised, or expired worthless? Confirm with Will.
-2. 🔴 **NFP reaction** — if data dropped before session, pull it. Consensus +57K. If negative, Sunday night futures watch ~6 PM ET.
-3. 🔴 **LABOR shadow adjustment** — subagent was spawned but may not have completed. Check AGENTS/LABOR/LAST_COMPLETION.md. Should have updated STATUS with 202K + new +65-70K shadow + TrueUp tracker switch.
-4. 🔴 **APO reassess Mon Apr 7** — stop $113. APO at $110.25. Getting close.
-5. 🟠 **LIQUID inbox (5 signals)** — still unprocessed from yesterday. Includes BROCK cross-signals from Blue Owl gating.
-6. 🟠 **ORACLE inaugural sweep** — still not done. Agent registered but never spawned.
-7. 🟠 **KRE Jun→Dec roll** — still needs pricing. T-32 in QUEUE.
+**Do NOT spawn SAM, REGINALD, or CARL** — they run independently on Claude Code. Inbox files only.
+**Calendar sync broken** — Google OAuth token expired, needs re-auth (non-urgent).
 
-## What Happened Today (Apr 2)
+**REGINALD session (Apr 2 PM):** Boot process overhauled — 6 improvements to spawn protocol. STATUS.md trimmed (178→156 lines), research moved to bank folders. market.py updated with full watchlist + Brent. Live prices: WAL $72.09 (up from $68, still <$78), KRE $65.83, OZK $46.25. 2 inbox signals processed (CARL SYF canary, CRE trifecta).
 
-### Morning (6 AM - 10 AM)
-- **6 AM briefing** sent to Will. Claims 202K, OWL ITM, catalyst calendar.
-- **Agent check-ins spawned/inboxed:** LABOR ✅, CARL (inbox) ✅, MARCO ✅, SAM (inbox) ✅, ZHAO ✅, OTTO ✅
-- **LABOR key finding:** Claims 202K — FL Wave 1 (fired Mar 24) did NOT show up. Suppression thesis massively strengthened. Proposed shadow adjustment +55K→+65-70K (APPROVED).
-- **MARCO key finding:** WA state ICE farmworker arrests surging — documented workers detained. 3-state pattern (CA, MN, WA).
-- **ZHAO key finding:** HIBOR-SOFR reverted post quarter-end → seasonal, not structural. Downgraded.
-- **OTTO key finding:** CVNA earnings Apr 29 (new catalyst). First Brands Apr 9 hearing ADJOURNED.
+## Handoff
+**Last context:** REGINALD session Apr 2 PM — boot process improvements. No PROME session today yet.
+**What happened Apr 2 (REGINALD only):**
+- Boot process overhauled (6 improvements — price refresh, inbox scan, research out of STATUS, open question format, changelog rule)
+- market.py updated with full bank watchlist + Brent, yfinance installed
+- Live prices pulled — WAL bounced to $72.09, oil spiking (WTI +11.3%)
+- 2 inbox signals processed (CARL SYF subprime canary, CRE fraud/insurance trifecta)
+- All REGINALD files current
 
-### Midday (10 AM - 1 PM)
-- **🔴🔴 Blue Owl dual gating** — OTIC 40.7% redemption requests, OCIC 21.9%. Both capped at 5%. Related-party sale to Kuvare at 99.7¢. BROCK spawned on Opus for full analysis → COMPLETED. Contagion Stage 2→3 transition. PE-insurer dump pattern confirmed (Blue Owl→Kuvare, Ares→IHAM, Apollo→Athene, KKR→GA).
-- **🔴🔴 Oil $111** — Trump speech, no off-ramp on Iran. Killed ceasefire optimism. +11% intraday.
-- **🔴 Gold -9.6%** — margin-call cascade. Liquidating gold to cover losses elsewhere. March 2020 "dash for cash" mechanics replaying.
-- **KRE ripped to $65.98** at 10:30 on oil spike candle, then pulled back. Banks rallying = market compartmentalizing (2007 pattern).
-- **HEARTBEAT updated** — freshened numbers, rolled calendar, cleaned resolved items.
-- **Filed 3 research responses** — safe-haven/collateral prompt: Perplexity, Gemini deep, Claude deep. Full set now in `FORGE/timing/research/`.
-
-### Cross-Agent Signals Written
-- CARL inbox: claims suppression + Zandi/Moody's DQ + SYF NCO
-- LABOR inbox: MARCO WA documented-worker cross-signal
-- NEXUS inbox: Toyota -8.5% demand destruction
-- BROCK inbox: Blue Owl gating signal (+ BROCK spawned full analysis)
-- REGINALD inbox: bank warehouse exposure to Blue Owl (from BROCK)
-- LIQUID inbox: fund finance/repo stress check (from BROCK)
-- NEXUS inbox: PE-insurer pattern (from BROCK)
-
-### Approvals Given by Will
-- ✅ LABOR 5 proposals (shadow adjustment, tracker switch, CARL cross-signal, Sunday futures watch, Apr 10 flag)
-- ✅ MARCO 2 proposals (WA tracking, LABOR cross-signal)
-- ✅ OTTO 4 proposals (CVNA calendar, Zandi→CARL, Toyota→NEXUS, Kroll check)
-- ❓ ZHAO — no proposals needed
-- ❓ OWL puts — NEVER CONFIRMED sell vs exercise
-
-### Git
-- Pulled Claude Code commits (CARL, REGINALD, SAM). Merged clean.
-- Committed + pushed: `91ade2f Prome Apr 2: Blue Owl gating, HEARTBEAT refresh, agent check-ins, cross-signals`
+**Next session priorities:**
+1. 🔴 **OWL $9.5P — EXPIRED Apr 2.** Check if decision was made / exercised.
+2. 🟠 **KRE Jun→Dec rolls** — Q-end passed, roll timing still needed
+3. 🟠 **Issuance freeze analysis** — subagent timed out, rerun needed
+4. 🟠 **Relief Rally Playbook / Kitchen Sink Scenario** — operational frameworks still missing
+5. 🟠 **Oil spike** — WTI $111.40 (+11.3%), Brent $108.16 (+6.9%). Stagflation channel amplifying. BRENT/HAWK may need spawn.
+**Open questions:** Near→long rebalance deferred. APO hold to Apr 7 (stop $113, last $108.24). First Brands auction result still unknown.
+**Rhythm note:** REGINALD boot improvements done. Next PROME session should run full dashboard.
 
 ## Architecture Notes
 - **CARL + REGINALD + SAM** are Claude Code on Telegram. DO NOT SPAWN. Inbox signals only.
-- Market data dashboard: `FORGE/tools/market-data/dashboard.py`. Cron running.
-- **ORACLE** registered but needs inaugural sweep (never spawned).
-- LABOR shadow adjustment subagent may still be running — check LAST_COMPLETION.md.
+- Market data dashboard: `FORGE/tools/market-data/dashboard.py`. Cron 4x/day (10,12,14,16 ET weekdays). Hysteresis on VIX (1.5pt) and HY OAS (5bps).
+- `fred_spread` source type now supported in dashboard (computes difference of two FRED series).
+- CONVERGENCE_TIMELINE.md is the master timing document. All research feeds into it.
+- 11 research files in `FORGE/timing/research/`. Do NOT re-read all at boot — use CONVERGENCE_TIMELINE.md as synthesis.
 
 ## WILL_QUEUE (current)
 
 | ID | Pri | Item | Status |
 |----|-----|------|--------|
 | W-001 | 🟡 | ABS trust trigger proximity | Blocked — Bloomberg |
-| W-003 | 🔴 | APO Apr — HOLD to Apr 7, stop $113 | APO at $110.25 |
-| W-006 | ❓ | OWL Apr 2 — EXPIRED. Outcome? | Unknown |
+| W-003 | 🔴 | APO Apr — HOLD to Apr 7, stop $113 | APO at $108.42 |
+| W-005 | ✅ | FXY Tranche 1 — BUY MON OPEN | APPROVED |
+| W-006 | 🔴 | OWL Apr 2 — **2 DAYS** | Check OBDCII |
 | W-007 | 🟠 | FABN tranches maturing before Jun 18 | SHADE |
 | W-008 | 🟡 | Whalen WGA IRA Bank Book Q1 2026 | Proprietary |
 | W-009 | 🟡 | KBRA Private Credit Premium access | Paywalled |
+| W-010 | 🔴 | APD Tranche 1 — BUY MON OPEN | APPROVED |
