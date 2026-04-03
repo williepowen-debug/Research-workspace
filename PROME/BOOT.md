@@ -130,6 +130,20 @@ Outputs: Convergence reports, contradiction flags, threshold proximity matrix
 
 ---
 
+## Git Protocol
+
+**Never `git add -A` or `git add .`.** Claude Code agents (CARL, REGINALD, SAM, RED) share this repo and only stage their own `AGENTS/<NAME>/` dirs. If Prome does `git add -A`, it sweeps up their uncommitted work.
+
+**Prome scoped commits:**
+```bash
+git add MEMORY.md AGENTS.md HEARTBEAT.md PROME/ TOOLS.md  # only what you changed
+git commit -m "..."
+git push
+```
+Add other specific files as needed (FORGE/, memory/, etc.) but never blanket-add.
+
+---
+
 ## Key Reference Files
 
 | File | When |
