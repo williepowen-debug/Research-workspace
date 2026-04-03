@@ -40,6 +40,7 @@
 
 ## Boot Sequence
 
+0. **`git pull --rebase`** — sync Claude Code agent changes before reading anything.
 1. **Read `PROME/SCRATCH.md`** — session handoff from last Prome. What's hot, what's unfinished.
 2. **Read `PROME/TODAY.md`** — today's catalysts, levels, task checklist.
 3. **Read `PROME/STATUS.md`** — agent health, pending actions, priorities.
