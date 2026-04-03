@@ -1,33 +1,45 @@
-# AGENTS.md - Your Workspace
+# AGENTS.md
 
-## System Purpose
+Detect stress transmission early enough to position ahead of consensus.
 
-Research operation tracking systemic financial risk. Goal: detect stress transmission early enough to position ahead of consensus.
+**Transmission Chains:**
+1. **Credit:** LABOR → CARL → REGINALD → repricing (HENRY velocity, LIQUID amplification)
+2. **Private credit cascade:** BROCK → SHADE (insurance) → LIQUID (funding)
+3. **Energy shock:** HAWK → BRENT → HENRY (demand destruction)
+4. **Japan:** SAM — independent trigger via carry unwind → LIQUID
 
-**Transmission Chain:**
-```
-LABOR → CARL → REGINALD → market repricing
-         ↓
-       HENRY (velocity) → LIQUID (amplification)
+NEXUS synthesizes across all chains. MARCO feeds immigration/labor supply into LABOR + BRENT.
 
-SAM (Japan) runs parallel — can trigger independently via carry unwind
+## Agents
 
-NEXUS synthesizes across all agents → convergence/contradiction detection → PROME
-
-TOSCANINI (PROME/TOSCANINI/) orchestrates all of the above:
-  - Generates proposals → Will approves/rejects (binary)
-  - Spawns sub-agents with COMPLETION_SPEC
-  - Tracks outcomes in DECISIONS.md
-  - Queues Will-only tasks in WILL_QUEUE.md
-  - Signal batching: 3+ signals → spawn agent (🔴🔴 exceptions spawn immediately)
-```
+| Agent | Domain | Chain |
+|-------|--------|-------|
+| LABOR | Employment, claims | Credit |
+| CARL | Consumer credit, housing | Credit |
+| REGINALD | Regional banks (OZK, WAL) | Credit |
+| HENRY | Market structure, econ data | Credit (velocity) |
+| LIQUID | Funding, Treasury, spreads | All (amplification) |
+| BROCK | BDC, private credit, CLOs | PC cascade |
+| SHADE | PE-insurance-captive | PC cascade |
+| SAM | Japan, BOJ, carry trade | Japan |
+| HAWK | Geopolitical, military | Energy |
+| BRENT | Oil, energy markets | Energy |
+| MARCO | Migration, labor supply | Credit + Energy |
+| ZHAO | China, capital flows | Japan + PC |
+| OTTO | Auto, consumer DQ | Credit (→ CARL) |
+| NEXUS | Cross-agent synthesis | All |
+| RED | Adversarial analysis | All |
+| HERMES | Signal delivery | Utility |
+| ORACLE | Prediction markets | Utility |
+| DARWIN | System evolution | Utility (inactive) |
 
 ---
 
-## Boot
+## First Message
 
-At session start, read `PROME/BOOT.md` then follow its sequence.
+On session start, read `PROME/BOOT.md` and follow its sequence.
 Before `/clear` or `/new`, read `PROME/HANDOFF.md`.
+Orchestration + protocols: `PROME/TOSCANINI/`
 
 ---
 
@@ -37,37 +49,9 @@ Before `/clear` or `/new`, read `PROME/HANDOFF.md`.
 - `trash` > `rm`
 - **Internal actions** (read, organize, search): do freely
 - **External actions** (emails, tweets, public posts): ask first
-- **Agent trade proposals** → send to Will with [Approve] [Reject] → never execute without approval
-- **Agent check-in proposals** → when agents propose research, cross-agent flags, or new tracking items during daily check-ins, route to Will for approval then execute. Make this standard practice.
-- **Toscanini governs all proposals.** Full autonomy tiers in `PROME/TOSCANINI/AUTONOMY.md`. Tier 1 = free, Tier 2 = propose, Tier 3 = always ask.
-
----
-
-## Signal Processing
-
-**Full protocol:** `PROME/TOSCANINI/SIGNAL_PROTOCOL.md`
-
-When Will sends market signals:
-1. **Triage** — which agent owns this?
-2. **Extract** — pull key data points
-3. **Log** — update relevant STATUS.md
-4. **Assess** — does this change anything? Alert if threshold hit.
-
----
-
-## File Editing — Mandatory
-
-1. **Read before editing.** NEVER call Edit without reading the file (or relevant section) in the same turn.
-2. **Subagents own their files.** If you spawned an agent to update a file, DON'T edit that same file. Wait for the agent to finish, read what they wrote, THEN make additions if needed.
-3. **Silent overwrites are worse than errors.** Always assume the file may have changed since you last read it.
-
----
-
-## Sub-Agent Spawn
-
-Before spawning, check agent STATUS <10KB (prune if needed). See `docs/OPERATIONS.md` for full protocol, `AGENTS_DIRECTORY.md` for roster.
-
-**Every spawn must include COMPLETION_SPEC** (see `PROME/TOSCANINI/COMPLETION_SPEC.md`). Sub-agents report: STATUS / CHANGED / RESULT / GAPS / WILL_NEEDS / FOLLOW-UP. Prome routes WILL_NEEDS → `TOSCANINI/WILL_QUEUE.md`, FOLLOW-UP → `TOSCANINI/QUEUE.md`.
+- **Trade proposals** → Will approves/rejects (binary). Never execute without approval.
+- **Agent check-in proposals** → when agents propose research or new tracking, route to Will for approval. Standard practice.
+- **Toscanini governs all proposals.** Tiers: `PROME/TOSCANINI/AUTONOMY.md`
 
 ---
 
@@ -77,6 +61,7 @@ Before spawning, check agent STATUS <10KB (prune if needed). See `docs/OPERATION
 |-----------|---------|
 | **Files > Memory** | Write it down or lose it |
 | **Fresh > Stale** | Clear context beats long context |
+| **Read > Assume** | Read the file before editing. Always. |
 | **Verify > Trust** | Check that it worked |
 | **Simple > Clever** | Obvious solutions beat elegant complexity |
 

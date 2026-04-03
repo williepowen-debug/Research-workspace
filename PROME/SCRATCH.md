@@ -30,8 +30,5 @@ Two sessions today. Session 1: built News Sweep tool. Session 2: Git sync + Prom
 - **News sweep v2 — wait 1 week of v1 data before evaluating**
 
 ## Don't Forget
-- Brent $109, Gas $3.99, APO $107 (below stop)
-- Account ~$55.7K (+111.5%)
 - Eric Jackson timeline: May-Aug = thesis confirms or breaks
 - Fed breakeven job growth = ZERO
-- NFP +178K headline but healthcare 43%, Feb revised to -133K
