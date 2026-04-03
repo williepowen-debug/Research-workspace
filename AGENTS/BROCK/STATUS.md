@@ -24,7 +24,7 @@ Total trapped capital across ALL industry gates: **>$10B** (prior $4.6B + $7.3B 
 - Blue Owl blames "AI-related disruption to software companies"
 - OTIC requests "amplified by concentrated shareholder base within certain wealth channels and regions"
 - 90% of OCIC shareholders elected NOT to tender (but 10% = ~$3.6B in absolute terms)
-- OWL stock: **$8.66** (-0.57%), BIZD $12.24 (+1.07% recovery)
+- OWL stock: **$8.44** (-3.04%), BIZD $12.31 (+1.69% dead-cat bounce)
 - **OWL $9.5P Apr 2 expires TODAY** — $0.84 ITM
 
 **Contagion assessment:** This is the Stage 2→3 transition. 40.7% is unprecedented — nearly HALF of OTIC wanted out. The related-party sale to Kuvare at 99.7¢ is manufactured price discovery, not real marks. Stage 3 (honest marks) requires an arms-length fire sale at 85-90¢ or below. We're not there yet, but the pressure to generate that event is intensifying every quarter.
@@ -239,7 +239,7 @@ Total trapped capital across ALL industry gates: **>$10B** (prior $4.6B + $7.3B 
 
 ## OWL $9.5P ASSESSMENT (Expires Apr 2)
 
-**Current:** OWL $8.66, puts $0.84 ITM. Expires today.
+**Current:** OWL $8.44 (-3.04%), puts $1.06 ITM. Expires today.
 
 **Case for sell-to-close now:**
 - Lock in ~$0.84 intrinsic (minus any remaining time value)

@@ -64,4 +64,5 @@ ADDED: [date]
 
 | ID | What | Completed | Outcome |
 |----|------|-----------|---------|
-| — | *None yet* | — | — |
+| W-002 | Verify NDFI $1.54T | 2026-03-26 | Resolved — FFIEC CDR confirmed $1.411T domestic, $1.569T consolidated. Prior "$1.54T" was BankviewUSA (inaccurate). |
+| W-006 | OWL $9.5P outcome | 2026-04-02 | Sold for ~$100 profit. OWL at $8.44, thesis validated. |

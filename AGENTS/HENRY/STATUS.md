@@ -1,6 +1,16 @@
 # HENRY STATUS
-**Last Updated:** 2026-04-01 16:15 ET | **Q2 Day 1 — CEASEFIRE RALLY + BDC DIVERGENCE**
-**Status:** 🟡🔴 VIX compressed to 24.8 (from 31+). Equities rally on ceasefire hopes + strong data. BUT: BIZD -5.4% = private credit stress screaming. Gold record $4,795 on a risk-on day = hedging underneath. ISM Prices Paid 58.5 = inflation sticky. Classic divergence setup.
+**Last Updated:** 2026-04-02 08:30 ET | **Q2 Day 2 — CEASEFIRE NARRATIVE DEAD. TRUMP ESCALATES.**
+**Status:** 🔴🔴 Overnight reversal. Trump Oval Office address: "extremely hard" strikes on Iran in 14-21 days. S&P futures -1%+, Dow -800 overnight. Brent surged 6%+ back to ~$110. HEN-16 (ceasefire bull trap) confirming in <24 hours. Safe havens bid hard. Defense sector only green.
+
+## OVERNIGHT DEVELOPMENTS — APR 2 PRE-MARKET
+- **Trump Oval Office address (late Apr 1):** Vowed "extremely hard" strikes on Iranian military + infrastructure within 2-3 weeks. Cited "continued Iranian aggression and refusal to dismantle regional proxies." Killed ceasefire narrative entirely.
+- **S&P 500 futures: -1%+.** Dow futures dropped 800+ points overnight.
+- **Brent crude: surged 6%+ to ~$110** (dashboard: $107.82). Traders pricing Strait of Hormuz blockade risk. Yesterday's $101 drop fully reversed and then some.
+- **Treasuries/USD bid hard** — classic flight to safety.
+- **Defense stocks surging pre-market:** LMT, NOC, RTX, PLTR all up.
+- **ECB Economic Bulletin released today** (Apr 2) — monitoring for Euro-area impact.
+- **No major US data releases today.** Next catalyst: Weekly Jobless Claims (Thu) and NFP (Fri Apr 3).
+- **HEN-16 CONFIRMED:** Ceasefire rally lasted exactly one session. Bull trap v3 played out faster than any prior iteration.
 
 ---
 
@@ -66,7 +76,9 @@
 | HEN-13 | PCE hot + rising claims = Fed trap | ✅ CONFIRMED |
 | HEN-14 | VIX above 30 = regime shift | ✅ CONFIRMED (then compressed) |
 | HEN-15 | Q1 window dressing masks real positioning | ✅ **CONFIRMED — Q2 open reveals divergences** |
-| **HEN-16** | **Apr 1 ceasefire rally = bull trap v3. BIZD divergence + gold record + VIX still 24.8 = rally on borrowed time.** | 🔴 **NEW — ACTIVE** |
+| **HEN-16** | **Apr 1 ceasefire rally = bull trap v3. BIZD divergence + gold record + VIX still 24.8 = rally on borrowed time.** | ✅ **CONFIRMED <24hrs. Trump escalation killed it overnight.** |
+| **HEN-17** | **Brent $115+ retest within 2 weeks if Trump follows through on strike timeline. Strait of Hormuz risk = $120+ tail.** | 🔴 **NEW — ACTIVE** |
+| **HEN-18** | **VIX back above 30 within 48 hours. Vol sellers from yesterday's compression get squeezed.** | 🔴 **NEW — ACTIVE** |
 
 ---
 
