@@ -6,6 +6,9 @@
 
 ## Queue
 
+- **🔴 System showcase / portfolio piece** — Sanitize the repo (strip positions, account values, trade theses). Keep architecture, agent structure, memory patterns, coordination protocols, git history intact. Write a narrative walkthrough: problem → what industry just discovered → what you built months ago → results. Format: GitHub repo + blog post or Twitter thread. This is the resume. Targets: Anthropic, OpenClaw, Mem0, hedge fund AI teams, AI agent community on X. Timing is perfect — Microsoft/Mem0 just published this week.
+- **Career outreach targets** — (1) OpenClaw Discord — you're an advanced user, show the architecture. (2) Anthropic solutions team — complex multi-agent use case they'd want to showcase. (3) Mem0 GitHub discussions — your file-based memory approach vs their framework. (4) Twitter/X AI agent community — thread describing the system. (5) Hedge fund AI/quant recruiters.
+
 - **INTAKE agent** — receives raw inputs (articles, pics, links, tweets). Extracts data, tags relevant agents, drops clean structured summaries into SIGNALS.md or agent inboxes. Removes the triage burden from PROME. Think ETL pipeline for research signals.
 - **Options flow analysis** — when Jun puts pop independently, understand why. Build a framework for reading unusual options activity as a signal (OI changes, IV skew, roll activity, dealer hedging).
 - **Ukraine-Russia oil paradox** — If Ukraine is successfully destroying Russian oil production/refining capacity, what does Russia actually have left to sell Europe even in a ceasefire scenario? Does the Energy Dominance thesis have a hidden leg: even if sanctions lift, Russian supply may be physically impaired for years. Check: how much refining capacity is actually offline vs temporarily shut? Is this priced into the "ceasefire = oil down" narrative?
