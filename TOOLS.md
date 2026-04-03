@@ -29,3 +29,32 @@ python3 FORGE/tools/market-data/dashboard.py --json               # structured o
 **Web:** Dashboard at :8080, stress panel at `/api/stress`.
 
 Full docs: `FORGE/tools/market-data/README.md`
+
+## News Sweep Tool
+**Location:** `FORGE/tools/news-sweep/`
+**Status:** ✅ v2 Live (entity classification + WATCH_FOR + inbox routing)
+
+Thesis-tagged news monitoring. Pulls from Google News RSS, FT/BBC RSS, ZeroHedge. Classifies headlines against entity index and agent WATCH_FOR lists. Routes to agent inboxes. Suppresses already-known stories.
+
+```bash
+# Standard sweep (Telegram-friendly output)
+python3 FORGE/tools/news-sweep/sweep.py --compact
+
+# Sweep + route to agent inboxes
+python3 FORGE/tools/news-sweep/sweep.py --compact --route
+
+# Single agent
+python3 FORGE/tools/news-sweep/sweep.py --compact --agent BROCK
+
+# Full markdown
+python3 FORGE/tools/news-sweep/sweep.py
+
+# JSON
+python3 FORGE/tools/news-sweep/sweep.py --json
+```
+
+**Config:** `FORGE/tools/news-sweep/config.py` — queries, entity index, WATCH_FOR lists, keywords, source weights, noise filters.
+**Schedule:** M-F 8:30 AM ET auto (before agent check-ins) + on-demand.
+**Outputs:** Agent inboxes (`AGENTS/{name}/inbox/sweep_*.md`), `latest.json`, `latest.md`.
+
+Full docs: `FORGE/tools/news-sweep/README.md`

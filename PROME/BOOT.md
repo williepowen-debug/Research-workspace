@@ -5,6 +5,8 @@
 **Tools:** `pdfminer.six` installed (`from pdfminer.high_level import extract_text`).
 **Calendar:** CALENDAR.md syncs to Google Calendar ("Research Ops") via `tools/calendar/sync_calendar.py`. Run after any CALENDAR.md edit. Cron auto-syncs 7 AM ET weekdays.
 **Market Data:** `FORGE/tools/market-data/` — `fetch.py` (live prices + FRED), `config.py` (thresholds), `dashboard.py` (CLI stress dashboard). Use `python3 dashboard.py` before citing any price. Cron runs every 5min (self-throttled). Morning briefing at 6 AM ET to Telegram. Web dashboard at :8080 (`/api/stress`).
+**News Sweep:** `FORGE/tools/news-sweep/` — `sweep.py` (fetcher + classifier + router), `config.py` (queries, entity index, WATCH_FOR lists, keywords, source weights). Pulls from Google News RSS, FT/BBC RSS, ZeroHedge. Classifies headlines as NEW/DEVELOPMENT/KNOWN/NOISE using entity index + escalation qualifiers + WATCH_FOR gap lists. Routes to agent inboxes. Cron M-F 8:30 AM ET + Telegram push. On-demand: `python3 sweep.py --compact --route`. Dashboard: `/api/news`. **Prome maintains** the entity index and WATCH_FOR lists in config.py — update after major STATUS changes or agent COMPLETION_SPECs.
+**Dashboard Server:** `dashboard/server.py` — HTTP API on :8080. Endpoints: `/api/status`, `/api/stress`, `/api/news`, `/api/agents`, `/api/prices`, `/api/fred`, `/api/bls`, `/api/sec`, `/api/predictions`, `/api/alerts`.
 
 1. **Read `PROME/TODAY.md`** — what's actually happening today. Catalysts, decisions, levels.
 2. **Read `PROME/SCRATCH.md`** — ephemeral scratchpad, handoff from last session.

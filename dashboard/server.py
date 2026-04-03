@@ -1106,6 +1106,19 @@ class DashboardHandler(http.server.SimpleHTTPRequestHandler):
             self.send_json(parse_agent_status(name))
             return
         
+        # News sweep latest results
+        if path == '/api/news':
+            news_json = os.path.join(WORKSPACE, "FORGE/tools/news-sweep/latest.json")
+            if os.path.exists(news_json):
+                with open(news_json, "r") as f:
+                    try:
+                        self.send_json(json.load(f))
+                    except json.JSONDecodeError:
+                        self.send_json({"error": "Invalid JSON in latest.json"})
+            else:
+                self.send_json({"error": "No sweep data yet. Run: python3 FORGE/tools/news-sweep/sweep.py"})
+            return
+
         # Stress dashboard (from config.py thresholds)
         if path == '/api/stress':
             stress_data = fetch_stress_dashboard()

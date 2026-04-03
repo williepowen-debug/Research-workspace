@@ -1,6 +1,6 @@
-# TODAY.md — Thursday April 3, 2026
+# TODAY.md — Thursday April 2, 2026
 
-**Good Friday. Markets CLOSED. NFP drops 8:30 AM into void.**
+**Markets open. Good Friday TOMORROW — NFP drops 8:30 AM into closed market. Gap risk → Monday open.**
 
 Scenario D dominant (82%). War Day 33. Brent **$111 🔴🔴** (Trump no off-ramp speech). Gas **>$4.00 🔴 BREACHED** (Hamilton breakpoint confirmed). HY OAS **316** 🟡 (spiked 346 q-end, reverted). CCC OAS **994** 🟡 (pulled back below 1000). VIX **26.86** 🟡. USD/JPY **159.60** 🔴.
 
