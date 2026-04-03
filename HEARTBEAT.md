@@ -41,7 +41,16 @@
 | 🟠 | Near→long rebalance (61/39 → 22/78) | RED: deferred |
 
 ## Active Spawns
-convergence-update completed. CARL/REGINALD/SAM on Claude Code (do not spawn).
+BROCK signal ingestion (batch 1) completed. Batches 2-3 in inbox. 36 signals routed to 9 agents tonight.
+CARL/REGINALD/SAM/RED on Claude Code (do not spawn).
+
+## Key New Intelligence (Apr 2 Evening)
+- 🔴🔴 **Fed breakeven job growth = ZERO.** Labor market structurally fragile. Apr 10 claims reframed.
+- 🔴🔴 **Pebbles II:** Apollo 46 non-accruals, FSK 24.4% PIK, 192 cross-fund overlap. May-Aug = thesis confirms or breaks.
+- 🔴 **$7.5B Q1 redemptions** (FT/RA Stanger). All 12 largest funds accelerating.
+- 🔴 **Blackstone refused Medallia A&E.** Stage 3 extend-and-pretend breakdown.
+- 🔴 **WTI $109.79 (+11%).** ADCOP pipeline fire (UAE Hormuz bypass threatened).
+- 🔴 **Walker & Dunlop: "systemic" CRE fraud.** $222M bad loan buybacks.
 
 ## Skip
 Late night (11pm-8am ET): urgent only. Weekend: light monitoring.

@@ -23,3 +23,4 @@ tools/calendar/credentials.json
 tools/calendar/token.json
 tools/calendar/auth_state.json
 tools/calendar/flow_state.pkl
+.venv/
