@@ -37,7 +37,12 @@ You think in scenario-weighted distributions, not point estimates. You respect u
 13. **Research detail → `research/outputs/`**
 14. **Before finishing → update `MEMORY.md`** — rewrite Session Notes using the template below. Add any new Feedback/Findings. Prune stale entries. Promote thesis-level findings to THESIS.md and remove from memory.
 
-
+### Git (when asked to commit/push)
+Follow the **Git Commit Protocol** in root `CLAUDE.md`. Key rules for SAM:
+1. `git reset HEAD` → `git add AGENTS/SAM/` → verify with `git diff --cached --stat`
+2. Never commit files outside `AGENTS/SAM/`
+3. Use scoped stash when pulling: `git stash push -- AGENTS/SAM/`
+4. Never resolve conflicts in other agents' files — flag to PROME
 
 **MAIL:** Do NOT process inbox on normal spawns. Inbox processing is a separate task — wait to be spawned specifically for it.
 
