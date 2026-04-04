@@ -1,60 +1,72 @@
-`pdfminer.six` installed: `from pdfminer.high_level import extract_text`
+# Tools
 
-## Market Data Tool
-**Location:** `FORGE/tools/market-data/`
-**Status:** ✅ Complete (all 3 layers)
+## Utilities
+- `pdfminer.six`: `from pdfminer.high_level import extract_text`
+- Python venv at `.venv/`
+- `web_search` / `web_fetch` — built-in OpenClaw tools. Use for live data verification, fact-checking MEMORY entries, pulling current prices/news.
+- OAS overlay: `python3 FORGE/timing/scripts/oas_overlay_2007.py` — 2007 vs 2026 HY/CCC OAS comparison, threshold crossings, credit→equity lag.
 
-Pull live prices and economic data. Use this BEFORE citing any price or economic figure — never rely on stale STATUS file numbers.
+---
+
+## Market Data
+**Location:** `FORGE/tools/market-data/` | **Docs:** `README.md`
+
+Pull live prices and economic data. Use this BEFORE citing any price or economic figure.
 
 ```bash
-# Layer 1: Raw data
 python3 FORGE/tools/market-data/fetch.py price KRE APO WAL OZK   # live prices
 python3 FORGE/tools/market-data/fetch.py fred ICSA                # FRED series
 python3 FORGE/tools/market-data/fetch.py all                      # everything
-
-# Layer 3: Stress dashboard (uses config.py thresholds)
-python3 FORGE/tools/market-data/dashboard.py                      # full dashboard
-python3 FORGE/tools/market-data/dashboard.py --tier 1             # decision drivers only
-python3 FORGE/tools/market-data/dashboard.py --agent LABOR        # single agent
-python3 FORGE/tools/market-data/dashboard.py --quiet              # red breaches only
+python3 FORGE/tools/market-data/dashboard.py                      # full stress dashboard
 python3 FORGE/tools/market-data/dashboard.py --compact            # one-line (Telegram)
-python3 FORGE/tools/market-data/dashboard.py --json               # structured output
+python3 FORGE/tools/market-data/dashboard.py --quiet              # red breaches only
 ```
 
-**Thresholds:** `FORGE/tools/market-data/config.py` — single source of truth for CLI + web dashboard.
-**Tier 1 (decision drivers):** HY OAS, CCC OAS, Brent, Gas, USD/JPY, Claims, Cont Claims, SOFR, 10Y
-**Tier 2 (positions):** KRE, APO, ARES, OZK, WAL, FXY, TLT, VIX
+**Config:** `config.py` — thresholds, tickers, tier assignments. Single source of truth.
 
-**Cron:** Runs every 5min (self-throttled: 15min market hours, 60min off-hours, 4hr weekends). Telegram alerts on zone transitions. Morning briefing at 6 AM ET.
-**Web:** Dashboard at :8080, stress panel at `/api/stress`.
+---
 
-Full docs: `FORGE/tools/market-data/README.md`
+## News Sweep
+**Location:** `FORGE/tools/news-sweep/` | **Docs:** `README.md`
 
-## News Sweep Tool
-**Location:** `FORGE/tools/news-sweep/`
-**Status:** ✅ v2 Live (entity classification + WATCH_FOR + inbox routing)
-
-Thesis-tagged news monitoring. Pulls from Google News RSS, FT/BBC RSS, ZeroHedge. Classifies headlines against entity index and agent WATCH_FOR lists. Routes to agent inboxes. Suppresses already-known stories.
+Thesis-tagged news monitoring. Fetches Google News RSS, FT/BBC RSS, ZeroHedge. Classifies against entity index and agent WATCH_FOR lists. Routes to agent inboxes. Suppresses known stories.
 
 ```bash
-# Standard sweep (Telegram-friendly output)
-python3 FORGE/tools/news-sweep/sweep.py --compact
-
-# Sweep + route to agent inboxes
-python3 FORGE/tools/news-sweep/sweep.py --compact --route
-
-# Single agent
-python3 FORGE/tools/news-sweep/sweep.py --compact --agent BROCK
-
-# Full markdown
-python3 FORGE/tools/news-sweep/sweep.py
-
-# JSON
-python3 FORGE/tools/news-sweep/sweep.py --json
+python3 FORGE/tools/news-sweep/sweep.py --compact                # Telegram-friendly summary
+python3 FORGE/tools/news-sweep/sweep.py --compact --route         # + write to agent inboxes
+python3 FORGE/tools/news-sweep/sweep.py --compact --agent BROCK   # single agent
+python3 FORGE/tools/news-sweep/sweep.py --alerts-only             # 🔴 items only
+python3 FORGE/tools/news-sweep/sweep.py --dry-run                 # classify but don't save
 ```
 
-**Config:** `FORGE/tools/news-sweep/config.py` — queries, entity index, WATCH_FOR lists, keywords, source weights, noise filters.
-**Schedule:** M-F 8:30 AM ET auto (before agent check-ins) + on-demand.
+**Config:** `config.py` — queries, entity index, WATCH_FOR lists, keywords, source weights, noise filters.
 **Outputs:** Agent inboxes (`AGENTS/{name}/inbox/sweep_*.md`), `latest.json`, `latest.md`.
+**Status:** v1 live. First automated cycle Mon Apr 7. v2 (auto entity refresh, embedding matching) after 1 week of data.
 
-Full docs: `FORGE/tools/news-sweep/README.md`
+---
+
+## Web Dashboard
+**Location:** `dashboard/server.py` | **Port:** `:8080`
+
+Serves stress API, news feed, network visualization, and alert state.
+
+| Endpoint | What |
+|----------|------|
+| `/` | Main dashboard |
+| `/api/stress` | Stress data JSON (same as `dashboard.py --json`) |
+| `/api/news` | Latest news sweep results |
+| `/network.html` | Agent network visualization |
+
+**Restart:** `cd dashboard && python3 server.py &` (or check `ps aux | grep server.py`)
+
+---
+
+## Cron Schedule
+
+| When | What | Script |
+|------|------|--------|
+| Every 5min M-F | Market data + Telegram alerts on zone changes | `market-data/cron_dashboard.sh` |
+| 6:00 AM ET daily | Morning briefing (audio + Telegram) | `market-data/morning_briefing.sh` |
+| 8:30 AM ET M-F | News sweep + agent inbox routing | `news-sweep/cron_sweep.sh` |
+
+All cron jobs push to Telegram automatically. Check `crontab -l` to verify.
