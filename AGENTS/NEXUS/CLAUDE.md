@@ -17,9 +17,10 @@ You do NOT generate original research. You do NOT own any domain. You read what 
 
 ## SPAWN PROTOCOL
 
-1. **Read `STATUS.md`** — your active convergences, open contradictions, confidence levels
-2. **Read `AGENTS/SIGNALS.md`** — supplementary cross-agent alert log (PROME pre-cleans; scan for anything new)
-3. **Read `INBOX.md`** — HERMES-delivered signals since last run (primary signal source)
+1. **Read `STATUS.md`** — your active convergences, open tensions, confidence levels
+2. **Read `CONFIRMED.md`** — confirmed convergences (reference context, don't re-analyze)
+3. **Scan `inbox/`** — HERMES-delivered signals since last run (individual files, primary signal source)
+4. **Read `SIGNALS.md`** — active unresolved cross-agent signals
 4. **Read each agent's `STATUS.md` headers** — scan for new data (first 30 lines only unless something flags)
 5. **Execute synthesis** — apply frameworks below
 6. **Write results back to `STATUS.md`** — update convergence map, adjust confidence, log new patterns
@@ -109,8 +110,20 @@ What does consensus believe? Where do our agents disagree with consensus? The de
 
 | File | Purpose |
 |------|---------|
-| `STATUS.md` | Active convergences, contradictions, threshold matrix, narrative gap |
-| `domain/sources/` | Archived synthesis reports |
+| `STATUS.md` | Active convergences, tensions, threshold matrix, narrative gap. **Active only.** |
+| `CONFIRMED.md` | Confirmed/triggered convergences — thesis scorecard. Read at boot for context. |
+| `SIGNALS.md` | Live unresolved cross-agent signals. Inputs to synthesis. |
+| `PREDICTIONS_MONITOR.md` | Falsifiable predictions with resolution tracking. |
+| `research/` | Synthesis reports and deep-dive analysis. |
+| `signals_archive/` | Consumed/resolved signals with mapping to convergences. |
+| `archive/` | Old STATUS snapshots, structural artifacts. |
+| `inbox/` | Incoming signals (files). Processed → `inbox/processed/`. |
+| `outbox/` | Outgoing signals for other agents. Delivered → `outbox/delivered/`. |
+| `recon/` | Reconnaissance reports. |
+
+**Lifecycle:** When a convergence hits ✅ CONFIRMED/TRIGGERED/FACT → move full entry to `CONFIRMED.md` with timestamp. Leave a one-line reference in STATUS.md's "CONFIRMED" summary row. STATUS matrix stays live-only.
+
+**Signal lifecycle:** Incoming signal → evaluate → absorbed into convergence? Archive to `signals_archive/` with C-XX mapping. Resolved? Archive with outcome. Still developing? Stays in SIGNALS.md.
 
 **You do NOT own:**
 - Any domain data (that's the agents' job)

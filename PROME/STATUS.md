@@ -1,5 +1,5 @@
 # PROME STATUS.md
-**Updated:** 2026-04-03 12:00 ET
+**Updated:** 2026-04-04 06:00 ET
 
 ## 🔴🔴 SCENARIO D DOMINANT (82%) — WAR DAY 35 — BRENT $109 — BLUE OWL GATING — STRESS: HIGH
 
@@ -21,7 +21,7 @@
 | REGINALD | 🔴 | OZK KB 159 rows. WAL KB 60 rows. OZK Q1 Apr 16, WAL Apr 21. | 4/2 | 8+sweep | 🖥️ Claude Code |
 | MARCO | 🔴 | DHS Day 47 (deal reached, may resolve today). ICE going dark on data. | **4/3** | 1+sweep | OpenClaw |
 | OTTO | 🟠 | DQ 7.1% RED. Tricolor fraud charges. CVNA earnings Apr 29. | 4/2 | 0+sweep | OpenClaw |
-| NEXUS | 🟢🟢 | Pass 10 complete. 50/50 ceiling. | 3/26 | 2 | OpenClaw | **⚠️ STALE 8d** |
+| NEXUS | 🟠 | Restructured Apr 4. Pass 12 running. 16 active convergences. | **4/4** | 8 (processing) | OpenClaw |
 | RED | 🟢 | 85% confidence. | 3/26 | 3 | 🖥️ Claude Code | **⚠️ STALE 8d** |
 | HANS | 🔴🔴 | DD-4 delivered. EU storage 17-19%. | 3/25 | 2 | OpenClaw | **⚠️ STALE 9d** |
 | DARWIN | 🟡 | Inactive. | 2/18 | 0 | OpenClaw | **⚠️ STALE 44d** |
@@ -34,7 +34,8 @@
 |--------|-----|--------|
 | APO hold reassess (stop $113) | 🔴 | **Mon 4/7.** APO at $107 — below stop. Decision needed. |
 | KRE Jun→Dec rolls | 🔴 | Roll timing needed. Price this week. |
-| NEXUS + RED check-ins | 🟠 | Both 8 days stale. Schedule after weekend. |
+| NEXUS Pass 12 | 🟠 | Running now (spawned Apr 4). |
+| RED check-in | 🟠 | 9 days stale. Schedule Mon. |
 | HANS check-in | 🟠 | 9 days stale. |
 | Near→long rebalance (61/39 → 22/78) | 🟠 | RED recommends. Deferred. |
 | ORACLE inaugural sweep | 🟡 | Registered, never spawned. Low priority. |
