@@ -1,6 +1,6 @@
 # PREDICTIONS MONITOR
 **Purpose:** Track all falsifiable predictions made by the system. Structured for rapid status scanning.
-**Last Updated:** 2026-03-26 02:45 UTC | **Source:** NEXUS Pass 11 — 14 agents refreshed
+**Last Updated:** 2026-04-04 16:30 UTC | **Source:** NEXUS Pass 12 — 15 agents refreshed, 8 inbox processed
 **Format:** ID | Date | Source | Claim | Trigger | Status
 
 ---
@@ -32,9 +32,9 @@
 | PRED-20 | Mar 2026 | NEXUS/HENRY | HY OAS 320→500 in 2-4mo (2007 template) | OAS ≥350 = issuance freeze; ≥500 = 2008-style | 🔴 ACTIVE — OAS 328bps, 22bps from 350 freeze threshold | 99% |
 | PRED-21 | Mar 2026 | NEXUS/CARL | FL UI Wave 1 → CC DQ spike ~May | ~May 2026 (6-8 wk lag from Mar 24 wave fire) | 🔴 PENDING — Wave 1 fired. Clock running. | 99% |
 | PRED-22 | Mar 2026 | SAM | BOJ hike May 1 | BOJ meeting May 1, 2026 | 🔴 PENDING — Shunto 5.26% ✅, JGB 2.25% trend intact. Ceasefire optionality reduced 7d probability. | 94% |
-| PRED-23 | Mar 2026 | HENRY/NEXUS | Quarter-end SOFR spike Thu-Fri (Mar 27-28) | Q1 quarter-close Mar 31 | 🔴 PENDING — Q1 close approaching. Claims Thu + PCE Fri = dual catalyst. | 90% |
+| PRED-23 | Mar 2026 | HENRY/NEXUS | Quarter-end SOFR spike Thu-Fri (Mar 27-28) | Q1 quarter-close Mar 31 | ✅ PARTIAL CONFIRMED — SOFR spiked Q-end then normalized to 3.65. Contained at fund level per LIQUID. Structural pre-conditions in place but no blowout. | 90% |
 | PRED-24 | Mar 2026 | NEXUS | Private credit cascade Stage 2→3 transition | HY OAS ≥350 / bank↔shadow bank contagion begins | 🔴 ACTIVE — Stage 2 institutionalized (9 funds gated). Stage 3 threshold = HY OAS 350. | 99% |
-| PRED-25 | Mar 2026 | HAWK/NEXUS | HAWK Scenario D ≥80% probability | War escalation metrics threshold | 🔴 ACTIVE — Scenario D at 82% (HAWK Mar 26). Mar 28 deadline. | 82% |
+| PRED-25 | Mar 2026 | HAWK/NEXUS | HAWK Scenario D ≥80% probability | War escalation metrics threshold | ✅ CONFIRMED — Scenario D at **92%** (HAWK Apr 1). AWACS destroyed, UAE Al Taweelah, Houthi Phase 5. Threshold exceeded. | 92% |
 | PRED-26 | Mar 2026 | RED | RED bear confidence ≥85% | Thesis integrity + market confirmation | 🔴 ACTIVE — RED at 85%, unchanged. NET bear 65% (was 68% — ceasefire dip). | 85% |
 | PRED-27 | Mar 2026 | NEXUS | BDC rating contagion: ARCC/OBDC/GBDC downgraded | Moody's review post-FSK Ba1 | 🔴 PENDING — FSK junk confirmed. Moody's actively reviewing sector. 48-72hr catalyst (ARESSI/OBDCII). | 99% |
 | PRED-28 | Mar 2026 | HENRY | PCE Mar 28 hot (≥2.7% headline) | PCE print Fri Mar 28 | 🔴 PENDING — HEN-13. Core PCE already 2.7% YoY baseline. | 80% |
@@ -42,7 +42,7 @@
 | PRED-30 | Mar 2026 | NEXUS | Gulf surplus recycling collapse → structural UST/equity selling | Oil price suppression + Gulf state revenue decline | 🔴 ACTIVE — C-34 NEW. Campbell confirmation. HAWK→C-07→HENRY pathway mapped. | 90% |
 | PRED-31 | Mar 2026 | NEXUS | FL UI Wave 2 peak → second DQ wave | Apr 26 peak | 🟠 PENDING — Wave 1 fired. Wave 2 mechanically scheduled. | 95% |
 | PRED-32 | ~Mar 2026 | NEXUS | China buffer exhaustion → LGFV cascade (¥66T) | Mid-May to late June 2026 | 🟠 PENDING — C-30. Oil→margin→tax→LGFV chain. | 85% |
-| PRED-33 | Mar 2026 | HENRY | Iran 5-day pause expires Mar 28 → escalation resumes | Mar 28 deadline | 🔴 PENDING — Iran denying talks throughout. "Waiting" posture (Rezaie). | 82% |
+| PRED-33 | Mar 2026 | HENRY | Iran 5-day pause expires Mar 28 → escalation resumes | Mar 28 deadline | 🟡 EXTENDED — Pause extended to **Apr 6** (tomorrow). Trump Oval Office Apr 1: "extremely hard strikes" in 14-21 days. Escalation not reversed, deadline extended. | 85% |
 | PRED-34 | Mar 2026 | NEXUS | APO stock repricing as "Apollo gates Apollo" processed by market | News cycle absorption post-gate | 🔴 ACTIVE — PROP-03. Gate confirmed. Dual class action. CEO Rowan named. May 1 lead plaintiff deadline. | 99% |
 | PRED-35 | Mar 2026 | NEXUS | LGFV cascade: oil→margin→tax→LGFV (¥66T) | China oil buffer exhaustion | 🟠 PENDING — C-30. Mid-May to late June trigger window. | 85% |
 
@@ -54,7 +54,10 @@
 | PRED-41 | Mar 2026 | OTTO/NEXUS | Mass-market consumer stress breaks Q4 2026 / Q1 2027 | 6-12mo lag from RV/auto destruction now | 🟠 PENDING — RV 50% value loss present-tense. FT "breaking point" on auto costs. | 75% |
 | PRED-42 | Mar 2026 | ZHAO | Belgium TIC Jan 2026 >$500B → ZHA-03 fires | TIC Mar 19 print | 🟡 PENDING — 70% probability per ZHAO. May already be published. | 70% |
 | PRED-43 | Mar 2026 | HANS/HAWK | Dimona→Fordow→Kharg sequence as main escalation path | Israeli nuclear retaliation to Dimona strike | 🔴 ACTIVE — HANS closes ceasefire door. Fordow/Natanz/Parchin strike = main path, not tail. | 65% |
-| PRED-44 | Mar 2026 | OTTO/NEXUS | JEF "losses over time" → multiple mark-downs across lender chain Q1-Q2 | Q1 bank earnings Apr 20-29 | 🔴 PENDING — JEF Q1 EPS miss 23%, First Brands zero. Barclays→Apollo→WAL chain inference. | 85% |
+| PRED-44 | Mar 2026 | OTTO/NEXUS | JEF "losses over time" → multiple mark-downs across lender chain Q1-Q2 | Q1 bank earnings Apr 20-29 | 🔴 PENDING — JEF Q1 EPS miss 23%, First Brands zero. Barclays→Apollo→WAL chain inference. OZK Apr 16, WAL Apr 21. | 85% |
+| PRED-45 | Apr 2026 | NEXUS | Blue Owl arms-length fire sale triggers industry mark-down | First secondary market transaction at 85-90¢ or below | 🔴 ACTIVE — Kuvare related-party at 99.7¢ = artificial. Saba/Cox discounts indicate real secondary well below par. OTIC 40.7% creates forced liquidation pressure. | 90% |
+| PRED-46 | Apr 2026 | NEXUS/SAM | BOJ Apr 23-24 rate hike (pulled forward from May) | Tankan beat + Asada debut + Shunto 5.26% | 🔴 ACTIVE — SAM: April hike "firmly live." 8-1 or 7-2 vote likely. Asada dove swap may delay to May but doesn't block. | 75% |
+| PRED-47 | Apr 2026 | NEXUS/HAWK | Iran pause expiry Apr 6 → escalation resumes within 2 weeks | Apr 6 deadline + Trump "14-21 days" | 🔴 ACTIVE — Tomorrow. Scenario D 92%. Houthi Phase 5 active. Multi-front makes diplomatic resolution structurally harder. | 85% |
 
 ---
 
