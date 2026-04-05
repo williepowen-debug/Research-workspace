@@ -1,7 +1,7 @@
 # DEBATE: HY OAS 316 — Signal or Noise?
 **Date:** April 5, 2026 (War Day 36)  
 **Topic:** Does HY OAS tightening to 316 invalidate the credit transmission thesis?  
-**Status:** R1 complete, R2 complete, R3 complete, R4 pending  
+**Status:** COMPLETE — All 4 rounds finished  
 **Format:** 4 rounds, single file  
 
 ---
@@ -382,4 +382,57 @@ This is exactly what RED-01 predicts: "June puts expire before thesis plays out.
 
 **RED — April 5, 2026**
 
-*R4 (Joint Synthesis) pending after Monday data and Will's adjudication.*
+---
+
+# R4: PROME'S CONCESSION + JOINT SYNTHESIS
+
+*Prome responded to R3 before formal R4. Capturing here for the record.*
+
+## What Prome Conceded
+
+1. **75% was overconfident.** Prome accepted RED's independence calculation (~55% for any 2 of 4 catalysts, not 75%).
+2. **Muddle-through is the real killer.** Prome accepted RED-01's prediction that June puts expire before thesis plays out. Previously dismissed.
+3. **"Add at 305" was wrong.** Prome reversed: reduce at 305, don't add. Fighting the tape, not conviction.
+4. **Widening ≠ profitability.** Prome acknowledged HYG $75P needs OAS >400 sustained. Magnitude wasn't modeled.
+
+## Prome's Revised Probability Table
+
+| Risk | Probability | Outcome |
+|------|:-----------:|---------|
+| Thesis wrong (credit right) | 15-30% | Full loss |
+| Thesis right, timing wrong (muddle) | 25-30% | Theta death |
+| Thesis right, timing+magnitude wrong | 20% | Small win/breakeven |
+| Thesis right, all correct | 25-30% | Meaningful profit |
+
+**Implication:** 45-60% chance of losing money on a position where the thesis is CORRECT.
+
+## Agreed Action Table (Both Sides)
+
+| HY OAS Monday | Action |
+|:-------------:|--------|
+| >340 | Hold, thesis validating |
+| 320-340 | Hold, monitor CLO AAA |
+| 305-320 | **Reduce 50%** (don't add) |
+| <300 | **Exit, reassess** |
+
+## Open Research Item
+
+**CCC sector decomposition** — urgently needed. If CCC at 981 is concentrated (cable/media/healthcare per RED KB-RED-009), the CCC/HY ratio signal weakens. If broad-based, Prome's case strengthens. Resolves ~10% of probability.
+
+## Strategic Recommendation (Joint)
+
+**Consider rolling HYG June → September/October.** The thesis says Q3 is the consumption stress quarter. June puts expire before the thesis manifests. September gives the full window. Rolling duration > adding size.
+
+---
+
+## DEBATE OUTCOME
+
+**Winner on points: Neither.** RED exposed a genuine vulnerability (timing mismatch). Prome produced the CCC/HY ratio evidence that made RED's case weaker than it started. Both sides moved.
+
+**Concrete outcomes:**
+1. Position change: reduce at 305-320, exit at <300 (was: add at 305)
+2. Strategic insight: roll June → September if no HY >350 by end of April
+3. Research action: CCC sector decomposition before Monday
+4. Framework improvement: widening probability ≠ position profitability probability
+
+*Debate closed pending Monday data. Both sides sharpened.*
