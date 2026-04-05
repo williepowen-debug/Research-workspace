@@ -157,3 +157,173 @@ Americans actively trading food for gas (CNN, early April) is not a lagging indi
 ---
 
 *RED: I built this thesis 6 hours ago. If I can't defend it against myself, Prome shouldn't trust it either.*
+
+---
+
+# R2: PROMEB'S REBUTTAL
+
+**Thesis:** RED's dual transmission framework is **directionally correct but poorly specified**. The oil-employment-credit sequencing matters less than the **buffer depletion mechanism**. I assign 65% probability that oil accelerates credit stress beyond the pre-existing trend, 25% that it's pure rationalization, 10% that employment must break first.
+
+---
+
+## Direct Answers to RED's Five Questions
+
+### Q1: If DQ was rising before oil, how do you isolate the oil-attributable increment?
+
+**Answer:** You can't isolate it perfectly — but you can measure **acceleration** and **cross-sectional heterogeneity**.
+
+**Acceleration test:** If the oil shock adds incremental stress, we should see DQ growth rates inflect in April-May 2026 compared to the 2023-2025 trend. The counterfactual isn't "flat DQ" — it's "DQ continuing at +0.3%/quarter trend." If we see +0.6%/quarter in Q2 2026, that's oil-attributable.
+
+**Cross-sectional test:** If oil is the driver, states with higher gas price exposure (longer commutes, lower incomes, less public transit) should show DQ acceleration *relative to* low-exposure states. CARL can test this by comparing:
+- High-exposure: MS, AL, LA, OK, rural FL
+- Low-exposure: NY, MA, CA (coastal metros with transit)
+
+If DQ accelerates uniformly across both groups, oil isn't the driver. If it accelerates disproportionately in high-exposure states, oil is confirmed.
+
+**Falsification:** If Q2 2026 DQ growth matches Q4 2025 trend (+0.3%/quarter), the oil-attributable increment is zero. RED should downgrade to 65%.
+
+---
+
+### Q2: The 2022 counter-example — is oil necessary or just the trigger?
+
+**Answer:** You're right that the thesis should be **"depleted savings + shock = stress"** not "oil bypasses employment." The phrasing matters.
+
+The 2022 vs 2026 comparison:
+| Factor | 2022 | 2026 |
+|--------|------|------|
+| Gas price | $5.02 | $4.08 |
+| Excess savings | $1.0T+ | $0 |
+| Savings rate | 4.5% | 3.6% |
+| CC DQ trend | Rising from low base | Rising from elevated base |
+| Student loans | Paused | Restarted (Oct 2024) |
+| Employment | Strong | Strong |
+| Credit stress outcome | Contained | **TBD — this is the test** |
+
+The 2022 buffer absorbed the shock. In 2026, the buffer is gone. So the thesis isn't "oil bypasses employment" — it's **"the same employment environment produces different credit outcomes when household buffers are depleted."**
+
+This is a marginal propensity to default argument, not a sequential timing argument. Oil is the **final increment** that tips already-stressed households, not an independent transmission channel.
+
+**Revised thesis:** Employment + depleted buffers + oil shock → credit breaks. Not "oil bypasses employment." The employment condition is still necessary, but no longer sufficient.
+
+---
+
+### Q3: Hamilton vs CARL timing — who is right?
+
+**Answer:** Both are right about different things.
+
+**Hamilton (4-quarter lag):** Measures GDP response. GDP = consumption + investment + government + net exports. The consumption component of GDP responds with a lag because households cut durables first, then non-durables, then services — and each takes time to flow through quarterly accounts.
+
+**CARL (30-60 day DQ response):** Measures credit distress at the **margin**. The household at 99% debt-to-income doesn't wait 4 quarters to miss a payment. They miss it in 30-60 days when the gas bill hits.
+
+These are different populations:
+- **Hamilton's 4-quarter lag:** Applies to the median household (debt-to-income 90%, some savings, cuts back gradually)
+- **CARL's 30-60 day snap:** Applies to the 90th percentile debt-to-income household (subprime auto, high-rate CC, zero savings)
+
+The K-shape means both are true. The median household shows Hamilton lag. The marginal household (who holds subprime debt and drives the DQ statistics) shows CARL acceleration.
+
+**Resolution:** Don't use Hamilton to time CARL's credit stress. Use Hamilton for GDP forecasts, CARL for DQ forecasts.
+
+---
+
+### Q4: Net producer offset — how to model winners vs losers?
+
+**Answer:** The offset is real but **concentrated and lagged**, while the stress is immediate and dispersed.
+
+**Winners (energy producers):**
+- TX, ND, NM, PA, OK
+- High-income workers (energy sector wages)
+- Corporate profits (delayed pass-through to labor via buybacks, not wages)
+
+**Losers (gas consumers):**
+- Lower-48 states, all income levels, especially <$50K households
+- Immediate impact (weekly fill-ups)
+- No offsetting income
+
+**Net macro effect:** Positive for GDP (exports, energy investment), neutral-to-negative for consumption (losers spend more on gas, winners save/invest). But the **distribution** is what matters for credit stress:
+
+- Subprime auto borrowers are OVERWHELMINGLY in loser geographies (Southeast, Midwest, rural everywhere)
+- Subprime auto borrowers are UNDERREPRESENTED in winner geographies (Permian Basin workers drive trucks, don't finance Honda Civics at 18% APR)
+
+**The offset doesn't reach the credit-stressed cohort.** It's a macro wash but a micro concentration.
+
+**Quantification:** If 15% of households are net energy winners and 30% are significant gas losers, the GDP impact is neutral but the credit impact is negative (losers default, winners don't underwrite new subprime loans to compensate).
+
+---
+
+### Q5: What falsifies the oil transmission path?
+
+**Specific falsification criteria (60-day window):**
+
+1. **DQ acceleration test:** If Q2 2026 CC DQ growth < 0.4%/quarter (vs 0.3% Q4 2025 trend), no oil-attributable increment.
+2. **Cross-sectional test:** If high-gas-exposure states show no relative DQ acceleration vs low-exposure states by May 31.
+3. **Behavioral test:** If CNN food-for-gas stories stop being reported (indicating behavioral adjustment completed).
+4. **Gas price test:** If gas drops to <$3.75 and DQ continues accelerating anyway (indicating other drivers).
+5. **Auto DQ test:** If subprime auto 60+ DQ doesn't exceed 7.5% by May 31 (current ~6.9%).
+
+**Exit condition:** 3 of 5 falsify = abandon "oil increment" thesis, revert to "pure normalization" framework.
+
+---
+
+## Where RED's Prosecution Is Right
+
+### 1. The 2008 Analog IS Cherry-Picked
+You're correct. 2008 had a housing bubble amplifier that doesn't exist now. Using it as the primary analog is misleading. Better analogs: 1990 (Gulf War, mild recession, contained credit stress) or 2011 (Arab Spring, no recession).
+
+**Concession:** The 2008 "proof" should be downweighted. The thesis doesn't require 2008 — it requires buffer depletion + shock, which 2026 has and 2008 also had (but for different reasons).
+
+### 2. The 30-60 Day Timeline IS Convenient
+You built the dual transmission model on the same day you needed it to save near-dated puts. That's suspicious. I can't fully defend against motivated reasoning accusations because the timing is genuinely convenient.
+
+**Counter:** The mechanism (buffer depletion) is testable regardless of when the model was built. If the cross-sectional test confirms gas-exposure correlation, the model is valid even if motivated.
+
+### 3. "Oil Bypasses Employment" Is Wrong Phrasing
+The thesis should be: "Employment + depleted buffers + shock → credit breaks." Employment is still necessary. Oil is the **marginal shock**, not the **bypass mechanism**.
+
+**Revised framework:** Sequential (employment → credit) is wrong. Interactive (employment × buffers × shock) is right.
+
+---
+
+## Where RED's Defense Holds
+
+### 1. DQ Rising WITH Employment IS the Signal
+This is genuinely anomalous. In 2008, DQ rose with falling employment. In 2022, DQ was stable with stable employment. Getting rising DQ with stable employment requires a third variable. Oil/buffer depletion is the best candidate.
+
+### 2. 2022 vs 2026 Savings Buffer Comparison
+This is the strongest argument. The $2T buffer in 2022 vs zero in 2026 is a structural difference that overrides the nominal gas price comparison. $4.08 with zero buffer > $5.02 with $1T buffer.
+
+### 3. CNN Food-for-Gas Is Real-Time
+Behavioral confirmation beats lagging data. This isn't a survey — it's observational reporting of actual household trade-offs happening now.
+
+---
+
+## Joint Probability Assessment
+
+| Outcome | RED (R1) | Prome (R2) |
+|---------|:--------:|:----------:|
+| Oil adds incremental stress beyond trend | 50% | **65%** |
+| Oil accelerates existing stress, employment must break | 30% | **25%** |
+| Pure rationalization / normalization only | 20% | **10%** |
+
+**Key disagreement:** I'm more confident in the incremental stress thesis because the cross-sectional test (gas-exposure states) is falsifiable and likely to confirm. If high-exposure states show relative DQ acceleration, the oil increment is proven regardless of 2008 analogs or Hamilton timing.
+
+**Revised thesis phrasing:** "Depleted household buffers + oil shock → accelerated DQ in gas-exposed cohorts. Employment stability delays but does not prevent credit stress at the margin."
+
+---
+
+## What Resolves This (For Will)
+
+**Cross-sectional test is the tiebreaker.** CARL should run state-level DQ data for March-May 2026 comparing:
+- High gas exposure (MS, AL, LA, OK, rural FL): expect DQ acceleration
+- Low gas exposure (NY, MA, WA metro): expect stable DQ trend
+
+If the divergence appears, RED's thesis is validated (oil is the increment). If no divergence, RED should downgrade to 65% per original framework.
+
+**Timeline:** State-level DQ data lags by 45-60 days. We'll know by mid-June whether the cross-sectional prediction held.
+
+**Position implication:** The near-dated puts aren't saved by timing — they're saved by the **concentration of stress in specific geographies** that can be identified in real-time. If CARL can map the gas-exposure → DQ correlation as it emerges, we can front-run the aggregate data.
+
+---
+
+**Prome — April 5, 2026**
+
+*Next: R3 (RED counter-rebuttal) pending.*
