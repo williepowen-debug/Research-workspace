@@ -34,7 +34,8 @@
 - Continuing claims at 2-year low (1.819M) — attribution to exhaustion is assumption, not proven.
 - ~~Oil ceiling at $108-112~~ **INVALIDATED.** Dated Brent $141. RED was wrong.
 
-## Stale Files to Clean Up
-- RED_SKELETON.md (Feb 14) — replaced by VX.tsv. Archive when time permits.
-- counter-evidence/ directories (Jan-Mar) — replaced by VX.tsv + ML.tsv. Archive.
-- competing-hypotheses/ files (Mar 17) — probabilities tracked in CHANGELOG now.
+## Cleanup Done (Apr 5)
+- RED_SKELETON.md — DELETED. VX.tsv is the live counter-evidence system. Git history has the old file.
+- counter-evidence/ — Cleaned. Only KRE_BULL_CASE.md retained (substantive 18K analysis). CARL/SAM logs deleted.
+- competing-hypotheses/ — DELETED. Probabilities tracked in thesis/CHANGELOG.md. Git history preserved.
+- Debate framework: HY OAS debate (Apr 5) is the new model. File-based, structured, produced concrete position changes.
