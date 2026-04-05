@@ -1,0 +1,21 @@
+Date	VX_ID	Old_Strength	New_Strength	Old_BullWt	New_BullWt	Reason
+2026-04-03	VX-RED-001	STRONG	STRONG		40	Baseline snapshot. Migrated from old 7-col schema. Updated with Apr 2 counter-signal weights.
+2026-04-03	VX-RED-002	MODERATE	MODERATE		45	Baseline snapshot. Real wages still positive but watch for tariff-driven inflation erosion.
+2026-04-03	VX-RED-003	MODERATE	MODERATE		35	Baseline snapshot. Retail +0.6% MoM but tariff front-loading likely.
+2026-04-03	VX-RED-004	MODERATE	MODERATE		35	Baseline snapshot. Japan muddle-through precedent strong but long-end breakout is novel.
+2026-04-03	VX-RED-005	MODERATE	MODERATE		40	Baseline snapshot. CET1 strong but AOCI rewrite Jun 18 comment period is catalyst.
+2026-04-03	VX-RED-006	STRONG	STRONG		45	Baseline snapshot. ZBT active through Nov 2026. Bistable with crash — employment switches.
+2026-04-03	VX-RED-007	STRONG	STRONG		45	Baseline snapshot. $1.5T+ mechanical bid is real. Hard to dismiss.
+2026-04-03	VX-RED-008	MODERATE	MODERATE-STRONG		45	Upgraded based on Feb 11 Fed announcement. Explicit forbearance = extended timeline for CRE.
+2026-04-03	VX-RED-009	WEAK	WEAK		30	Baseline snapshot. Scale uncertain. ALLY $19B is the real risk, not fraud count.
+2026-04-03	VX-RED-010	MODERATE	MODERATE		40	Baseline snapshot. SRF untested at scale but exists by design.
+2026-04-03	VX-RED-011	STRONG	STRONG		40	Baseline snapshot. Test imminent: Q1 2026 guidance season Apr-May.
+2026-04-03	VX-RED-012	MODERATE	MODERATE		45	New vector from Apr 2 assessment. First positive in 12Q. Track Q2.
+2026-04-03	VX-RED-013	STRONG	STRONG		55	New vector. BULL-LEANING. Russia sanctions relief unmodeled. Expires Apr 11.
+2026-04-03	VX-RED-014	STRONG	STRONG		40	New vector. Employment resilient through oil shock. May lag quarters not weeks.
+2026-04-03	VX-RED-015	MODERATE-STRONG	MODERATE-STRONG		45	New vector. HY OAS silence at 342 despite multiple stress events. Notable.
+2026-04-03	VX-RED-016	STRONG	STRONG		20	New vector. Portfolio construction risk not counter-evidence. Needs exit criteria.
+2026-04-03	VX-RED-017	MODERATE	MODERATE		45	New vector. Trump dealmaking pattern. Scenario A probability 10-15% not 0%.
+2026-04-05	VX-RED-001	STRONG	STRONG	40	45	NFP +178K confirmed employment resilience. Bull weight upgraded 40→45. No longer sole master variable.
+2026-04-05	VX-RED-013	STRONG	WEAK	55	25	Dated Brent $141 despite sanctions relief. Oil ceiling counter-signal DEAD. Downgraded from STRONG/BULL to WEAK.
+2026-04-05	VX-RED-015	MODERATE-STRONG	STRONG	45	55	HY OAS tightened to 316 (from 342). Credit NOT confirming. Upgraded to STRONG BULL-LEANING. Most dangerous counter-signal.

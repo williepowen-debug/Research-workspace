@@ -1,0 +1,76 @@
+file	variable_name	data_type	allowed_values	required	description
+KB.tsv	ID	String	KB-RED-NNN	Yes	Unique knowledge base entry identifier
+KB.tsv	Date	Date	YYYY-MM-DD	Yes	Date logged or last verified
+KB.tsv	Group	String	VOCABULARIES.tsv or RED-specific: COUNTER_EV, METHODOLOGY, NETWORK_STRUCT, THESIS_RISK, POLICY	Yes	Topic cluster
+KB.tsv	Entity	String	Free text (canonical preferred)	Yes	Most specific entity the fact is about
+KB.tsv	Fact	String	Free text (one atomic claim)	Yes	The claim — precise, sourced, quantified
+KB.tsv	Source	String	Free text with date	Yes	Where the claim came from
+KB.tsv	Conf	String	A1-F6 Admiralty digraph	Yes	Source reliability (A-F) x info credibility (1-6)
+KB.tsv	Epistemic	Categorical	EMPIRICAL;ESTIMATE;ASSUMPTION	Yes	Nature of claim
+KB.tsv	Status	Categorical	ACTIVE;CONFIRMED;STALE;SUPERSEDED;CORRECTED	Yes	Lifecycle state
+KB.tsv	Stale_By	Date	YYYY-MM-DD or empty	No	Expected review/expiration date
+KB.tsv	DerivedFrom	String	Comma-separated KB-RED-NNN	No	Parent KB entries (provenance)
+KB.tsv	Vectors	String	VX-RED-NNN or →AGENT refs	No	Thesis connections and cross-agent links
+KB.tsv	Notes	String	Free text	No	Caveats, gaps, implications
+VX.tsv	ID	String	VX-RED-NNN	Yes	Unique counter-evidence vector identifier
+VX.tsv	Name	String	Free text	Yes	Counter-evidence vector name
+VX.tsv	Target	String	Agent name or PORTFOLIO	Yes	Which thesis this challenges
+VX.tsv	Counter_Evidence	String	Free text	Yes	The specific counter-evidence
+VX.tsv	Strength	Categorical	WEAK;MODERATE;MODERATE-STRONG;STRONG;COMPELLING	Yes	Current strength assessment
+VX.tsv	Bull_Wt	Integer	0-100	Yes	Probability this signal supports bull case
+VX.tsv	Bear_Wt	Integer	0-100	Yes	Probability this signal supports bear case
+VX.tsv	Flip_If	String	Free text	Yes	Condition that would flip this vector
+VX.tsv	Last_Reviewed	Date	YYYY-MM-DD	Yes	Last review date
+VX.tsv	Source	String	Free text	Yes	Data source
+VX.tsv	KB_Links	String	KB-RED-NNN refs	No	Related KB entries
+VX.tsv	Notes	String	Free text	No	Catch-all
+ML.tsv	ML_ID	String	ML-RED-NNN	Yes	Unique finding identifier (append-only)
+ML.tsv	Date	Date	YYYY-MM-DD	Yes	Date of finding
+ML.tsv	Session	String	RED-NNN	Yes	Session that produced this finding
+ML.tsv	Entity	String	Agent name or topic	Yes	What was analyzed
+ML.tsv	Category	Categorical	CHALLENGE;METHODOLOGY;SYNTHESIS;ERROR;OBSERVATION;BASELINE	Yes	Type of finding
+ML.tsv	Finding	String	Free text (1-2 sentences)	Yes	Core finding condensed
+ML.tsv	Data_Quote	String	Free text or empty	No	Key numbers supporting the finding
+ML.tsv	Source	String	Free text	No	Data source
+ML.tsv	Status	Categorical	OPEN;RESOLVED;STRUCTURAL;SUPERSEDED	Yes	Resolution state
+ML.tsv	Confidence	Float	0.0-1.0	No	Confidence in finding
+ML.tsv	Thesis_Impact	Categorical	CONSISTENT;CONTRADICTS;NEUTRAL;MODIFIES	No	Impact on bear thesis
+ML.tsv	KB_Links	String	KB-RED-NNN refs	No	Related KB entries
+ML.tsv	Cross_Links	String	ML-RED-NNN refs	No	Related ML entries
+ML.tsv	Notes	String	Free text	No	Resolution details, lessons learned
+CHALLENGES.tsv	CHG_ID	String	CHG-RED-NNN	Yes	Unique challenge identifier
+CHALLENGES.tsv	Date	Date	YYYY-MM-DD	Yes	Date challenge issued
+CHALLENGES.tsv	Target	String	Agent, position, or thesis	Yes	What is being challenged
+CHALLENGES.tsv	Grade	String	Letter grade A+ to F	Yes	Overall assessment grade
+CHALLENGES.tsv	Key_Finding	String	Free text	Yes	Core finding
+CHALLENGES.tsv	Status	Categorical	ACTIVE;RESOLVED;SUPERSEDED	Yes	Current status
+CHALLENGES.tsv	Resolved_Date	Date	YYYY-MM-DD or empty	No	When resolved
+CHALLENGES.tsv	Resolution	String	Free text	No	How it was resolved
+CHALLENGES.tsv	KB_Links	String	KB-RED-NNN refs	No	Related KB entries
+CHALLENGES.tsv	VX_Links	String	VX-RED-NNN refs	No	Related VX entries
+PREDICTIONS.tsv	Pred_ID	String	RED-NN	Yes	Unique prediction identifier
+PREDICTIONS.tsv	Date_Made	Date	YYYY-MM-DD	Yes	When prediction was made
+PREDICTIONS.tsv	Prediction	String	Free text	Yes	The falsifiable prediction
+PREDICTIONS.tsv	Confidence	String	0-100%	Yes	Confidence level
+PREDICTIONS.tsv	Timeframe	String	Date or range	Yes	When it should resolve
+PREDICTIONS.tsv	Status	Categorical	ACTIVE;CONFIRMED;MISSED;INVALIDATED	Yes	Current status
+PREDICTIONS.tsv	Date_Resolved	Date	YYYY-MM-DD or empty	No	When resolved
+PREDICTIONS.tsv	Outcome	String	Free text	No	What actually happened
+PREDICTIONS.tsv	Invalidation	String	Free text	Yes	What would prove this wrong
+PREDICTIONS.tsv	Notes	String	Free text	No	Lessons learned
+FLOW.tsv	ID	String	FLOW-RED-NNN	Yes	Unique break-pathway identifier
+FLOW.tsv	Name	String	Free text	Yes	Break pathway name
+FLOW.tsv	Speed	String	Duration estimate	Yes	How fast the break propagates
+FLOW.tsv	Status	Categorical	INTACT;WEAKENING;BREAKING;BROKEN	Yes	Current pathway state
+FLOW.tsv	Break_Condition	String	Free text	Yes	What causes the pathway to fail
+FLOW.tsv	Current_Evidence	String	Free text	Yes	Where things stand now
+FLOW.tsv	Pathway	String	Free text	Yes	Chain of events if break occurs
+FLOW.tsv	Positions_Affected	String	Position refs	No	Which positions lose if this breaks
+FLOW.tsv	Notes	String	Free text	No	Catch-all
+VX_HISTORY.tsv	Date	Date	YYYY-MM-DD	Yes	Snapshot date
+VX_HISTORY.tsv	VX_ID	String	VX-RED-NNN	Yes	Which vector changed
+VX_HISTORY.tsv	Old_Strength	String	Previous strength or BASELINE	Yes	Before change
+VX_HISTORY.tsv	New_Strength	String	Current strength	Yes	After change
+VX_HISTORY.tsv	Old_BullWt	Integer	0-100	No	Previous bull weight
+VX_HISTORY.tsv	New_BullWt	Integer	0-100	No	New bull weight
+VX_HISTORY.tsv	Reason	String	Free text	Yes	What drove the change

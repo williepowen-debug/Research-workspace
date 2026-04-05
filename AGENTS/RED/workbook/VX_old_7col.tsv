@@ -1,0 +1,18 @@
+ID	Name	Target_Agent	Counter_Evidence	Current_Strength	Last_Reviewed	Notes
+VX-RED-001	Employment Resilience	CARL	Unemployment 4.1%; claims 220K; openings 7.5M+	STRONG	2026-01-27	No recession without job losses historically
+VX-RED-002	Real Wage Growth	CARL	Real wages positive 12+ months; low-income strongest	MODERATE	2026-01-27	Directly undermines cost-of-living squeeze
+VX-RED-003	Consumer Spending Resilience	CARL	Retail sales growing; holiday solid; services robust	MODERATE	2026-01-27	Behavior doesn't match stress thesis
+VX-RED-004	Japan Muddle-Through	SAM	Debt/GDP 260% for decades; BOJ owns 50%+ JGBs	MODERATE	2026-01-27	30-year track record of muddling through
+VX-RED-005	System Bank Capital	REGINALD	CET1 12.7% (820bps above minimum); JPM/BAC strong	MODERATE	2026-01-27	Individual stress ≠ system stress
+VX-RED-006	Zweig Breadth Thrust	HENRY	ZBT active; 100% historical 12-month success rate	STRONG	2026-01-27	HENRY's own data; strongest bullish signal
+VX-RED-007	Structural Bid	HENRY	$1.5T+ annual mechanical demand (HENRY Domain 8)	STRONG	2026-01-27	Counter-thesis built by HENRY itself
+VX-RED-008	CRE Forbearance Precedent	CREED	2009-2012: regulators extended 3+ years	MODERATE	2026-01-27	They did it before; tools still available
+VX-RED-009	Auto Fraud Isolation	OTTO	3 cases may be full extent; $370M is noise for large banks	WEAK	2026-01-27	Pattern real but scale uncertain
+VX-RED-010	SRF Backstop	LIQUID	$500B facility designed for exactly this scenario	MODERATE	2026-01-27	Untested at scale but exists by design
+VX-RED-011	EARNINGS vs CARL Contradiction	CROSS-AGENT	Guidance 47% positive while CARL says consumer breaking	STRONG	2026-01-27	One must be wrong or lagging
+VX-RED-012	AI Innovation Cycle	HENRY	Unlike 2000, tech leaders have massive revenues/profits	MODERATE	2026-01-27	Fundamental difference from dot-com
+VX-RED-013	Russia Sanctions Relief	BRENT/HENRY	US lifted Russian oil sanctions until Apr 11 (Bessent Mar 13). WTI -14% to $93.50. If Russian supply fills 2-3M bpd of Hormuz gap, NOPI magnitude overstated. Hamilton -3 to -4.9pp assumes sustained $100+ oil.	STRONG	2026-03-14	UNMODELED in any agent. Most important new bull signal. BRENT must run revised NOPI scenario.
+VX-RED-014	Employment Wartime Resilience	LABOR	Claims 213K at War Day 13. JOLTS headline beat. Defense/energy/logistics wartime hiring could offset DOGE job losses. Employment has NOT broken despite 13 days of $100+ oil shock.	STRONG	2026-03-14	Master variable still intact. May be lagging 3-4 quarters not 3-4 weeks. Honest acknowledgment required.
+VX-RED-015	HY OAS Not Confirming	LIQUID	HY OAS 317bps, oscillating 306-319 for 2 weeks. Has not broken 320bps despite SPX selloff, oil $100, 10Y surge, 4 fund gates. Credit market NOT pricing acute crisis.	MODERATE-STRONG	2026-03-14	Structured products cracking before HY (historical pattern) but HY OAS silence is notable counter-signal.
+VX-RED-016	AAPL Portfolio Concentration	PROME	45% of portfolio is LONG AAPL (100sh, $25,576). No stress test exists. In Scenario D (financial dislocation + Taiwan supply chain + Chinese mfg disruption), AAPL faces severe downside. This is the largest unexamined risk in the portfolio.	STRONG	2026-03-14	Structural. Will needs explicit AAPL exit criteria before Scenario D risk materializes.
+VX-RED-017	Trump Dealmaker Dynamic	HAWK	Russian sanctions lifted = deal-making framework active. If Russia-mediated Iran deal is possible, HAWK's 0% ceasefire (Scenario A) is too confident. Honest probability 10-15%. Iran "war of attrition" declaration doesn't preclude back-channel deal.	MODERATE	2026-03-14	Political judgment call. Pattern: Trump uses maximum pressure then offers exit ramp. Watch for any back-channel signals.

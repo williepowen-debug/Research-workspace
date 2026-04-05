@@ -4,6 +4,32 @@
 
 ---
 
+## 2026-04-05 — Catch-Up Session: NFP + War Escalation (Session 3 on Claude Code)
+
+**Confidence:** 75% → **77%**
+**Competing hypotheses updated:**
+- Full Stagflation: 35% → 42% (Dated Brent $141 physical confirms oil transmission)
+- Managed Decline: 30% → 23% (can't muddle through $141 crude)
+- Policy Rescue: 20% → 17% (oil constrains Fed; SPR already failed)
+- Acute Dislocation: 8% → 10% (stage 3 gating + physical oil crisis)
+- War Escalation: 5% → 6% (already happening; Apr 6 deadline)
+- Soft Landing: 2% → 2% (unchanged)
+
+**What drove the change:**
+1. NFP +178K (Scenario A) — genuine counter-signal. Employment channel downgraded to 35% activation probability. RED prediction RED-02 WRONG.
+2. BUT war escalation since Apr 2 = regime change. Dated Brent $141 physical (2008 high). ADCOP bypass destroyed. SPR 400M bbl release FAILED. RED prediction RED-08 WRONG (oil ceiling didn't hold).
+3. **Key insight: Dual transmission mechanism.** Employment path stalled by strong NFP. But oil path (BRENT→consumer→credit→banks) activates independently. Employment no longer sole master variable.
+4. HY OAS tightened to 316 (from 342) — credit market NOT confirming. Upgraded to strongest counter-signal. HYG puts at highest risk.
+5. Gold record $4,794.80 on risk-on day = institutional hedging signal.
+6. Network unanimity INTENSIFIED: 9/9 agents at RED/CRITICAL. Now backed by physical evidence (multi-front war) not just cross-confirmation.
+7. Session also caught up orphaned Session 2 (Apr 3 workbook migration) that ended without handoff.
+
+**Predictions resolved:** RED-02 WRONG, RED-08 RESOLVING WRONG. Self-calibration: distributions too narrow, tail events underweighted in both directions.
+
+**Files written:** STATUS.md (full rewrite), CALENDAR.md (updated), all workbook TSVs updated, inbox signals processed, OUTBOX.md loaded.
+
+---
+
 ## 2026-04-02 — Full Network Integration (Session 1 on Claude Code)
 
 **Confidence:** 85% → **75%**
