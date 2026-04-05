@@ -326,4 +326,123 @@ If the divergence appears, RED's thesis is validated (oil is the increment). If 
 
 **Prome — April 5, 2026**
 
-*Next: R3 (RED counter-rebuttal) pending.*
+---
+
+# R3: RED'S COUNTER-REBUTTAL
+
+**Updated position:** Prome's reframing is better than my original. The thesis should NOT be "oil bypasses employment." It should be "depleted buffers + oil shock → accelerated DQ in marginal households, regardless of aggregate employment." I accept this revision.
+
+**RED's revised probability after R2:**
+
+| Outcome | R1 | R3 (revised) | Movement |
+|---------|:--:|:------------:|:--------:|
+| Oil adds incremental stress beyond trend | 50% | **60%** | +10 |
+| Oil accelerates existing stress, employment must break | 30% | **25%** | -5 |
+| Pure rationalization / normalization only | 20% | **15%** | -5 |
+
+Prome moved me +10%. Here's why, and where I still push back.
+
+---
+
+## What Prome Got Right — Genuinely Better Framework
+
+### The Reframing Is Superior
+
+My original: "Oil bypasses employment." Prome's revision: "Employment + depleted buffers + oil shock → credit breaks. Employment is necessary but not sufficient."
+
+This is more honest. It doesn't claim employment doesn't matter — it claims the SAME employment environment produces different credit outcomes depending on buffer levels. 2022 proves this: same (or higher) oil, different buffer, different outcome. The variable that changed isn't employment — it's the cushion.
+
+**I accept this as the correct framing.** My STATUS.md should be updated.
+
+### The Hamilton/CARL Resolution Is Elegant
+
+Hamilton (4 quarters) measures the median household. CARL (30-60 days) measures the marginal household. Both are right about different populations. The K-shape means both timelines are running simultaneously.
+
+This resolves my prosecution point #5 entirely. I withdraw that challenge.
+
+### The Net Producer Offset Answer Is Convincing
+
+"The offset doesn't reach the credit-stressed cohort." Subprime auto borrowers are overwhelmingly in loser geographies, not Permian Basin boomtowns. The macro wash is real, but the micro concentration is what matters for DQ statistics. I withdraw prosecution point #6.
+
+---
+
+## Where I Still Push Back
+
+### 1. The Cross-Sectional Test Can't Be Run in Time for Near-Dated Puts
+
+Prome proposes comparing high-gas-exposure states (MS, AL, LA) vs low-exposure states (NY, MA, WA) on DQ acceleration. Excellent test design. Problem: state-level DQ data lags by 45-60 days. Prome's own timeline says "we'll know by mid-June."
+
+The June puts EXPIRE by mid-June. The test that validates the thesis arrives at the same time the instruments die. This is the same timing-mismatch problem we found in the HYG debate.
+
+**The cross-sectional test informs September/October positions, not June positions.** For near-dated puts, we're still flying blind on whether oil is adding incremental DQ or not.
+
+### 2. "Depleted Buffers + Any Shock" Means Oil Isn't Special
+
+If the real variable is depleted buffers (not oil specifically), then any shock would trigger the same credit acceleration. A tariff escalation, a student loan restart surge, a bank failure — anything that hits the marginal consumer's budget produces the same result.
+
+This matters because: if oil isn't special, the thesis doesn't need $141 crude to work. It just needs depleted buffers + time + any catalyst. That's actually a STRONGER thesis than "oil bypasses employment" — but it also means the oil price itself is less important than we're modeling. A ceasefire that drops oil to $90 wouldn't kill the thesis if buffers are still depleted and student loans are still biting.
+
+**Implication for positioning:** If depleted buffers are the real driver, we should be less sensitive to oil price moves and more focused on consumer credit data directly. The HYG/KRE positions are correctly placed for buffer depletion, but the TLT/energy-related positions depend on oil specifically.
+
+### 3. The 2022 Comparison Proves My Point About the Pre-Existing Trend
+
+Prome says 2022 had buffers and 2026 doesn't, so 2026 will see DQ stress from oil. But I can flip this: 2026's DQ was ALREADY rising at GFC-equivalent levels BEFORE oil spiked. If buffers were already depleted enough to drive DQ to 12.7% CC without oil, then:
+
+- The DQ would have continued rising without the oil shock
+- Oil is adding a marginal increment on top of an already-critical trend
+- The marginal increment from oil may be SMALL compared to the base trend
+
+This doesn't kill the thesis — it just downgrades oil from "primary driver" to "accelerant." The question isn't whether oil adds stress. It's whether oil adds ENOUGH incremental stress to materially change the timeline.
+
+### 4. The Falsification Criteria Are Good But Prome Set the Bar Low
+
+Prome says "if Q2 DQ growth < 0.4%/quarter (vs 0.3% trend), no oil-attributable increment." That's asking whether oil added 0.1% to quarterly DQ growth. That's a tiny increment — essentially saying "if oil adds any measurable stress at all, thesis confirmed."
+
+A more rigorous standard: did oil ACCELERATE the timeline by enough to matter for the position book? If DQ grows 0.4% instead of 0.3%, that's a 33% acceleration. Is that enough to bring forward the credit cascade from Q3-Q4 to Q2? Probably not.
+
+**RED's proposed standard:** Oil needs to add >0.2%/quarter to DQ growth (double the trend) for the "oil-as-accelerant" thesis to matter for positioning. Otherwise it's just noise on top of an existing trend.
+
+---
+
+## What This Debate Resolved
+
+### Agreements (Both Sides)
+1. **"Oil bypasses employment" is wrong phrasing.** Correct: "Depleted buffers + oil = accelerated DQ at the margin."
+2. **Employment is necessary but not sufficient.** The same employment produces different credit outcomes at different buffer levels.
+3. **2008 is not the right analog.** The buffer depletion + shock framework stands on its own without needing 2008.
+4. **Hamilton and CARL are measuring different populations.** Both timelines valid simultaneously.
+5. **Net producer offset is real at macro level but doesn't reach the credit-stressed cohort.**
+6. **The cross-sectional test (high vs low gas exposure states) is the right falsification approach.**
+
+### Disagreements (Still Open)
+1. **Magnitude of oil increment:** RED says oil is an accelerant adding marginal stress. Prome says 65% it's incrementally meaningful. RED says 60% — close but the gap is on HOW MUCH it accelerates.
+2. **Timing relevance for near-dated puts:** Both acknowledge the cross-sectional test resolves by mid-June, which is when June puts expire. Not helpful for near-dated positions.
+3. **Whether "any shock" produces the same result:** RED argues depleted buffers are the real variable. Oil is fungible with other shocks. This matters for portfolio construction.
+
+---
+
+## Implications for RED's Framework
+
+### What Changes in STATUS.md
+- "Dual transmission mechanism" → revise to "buffer depletion mechanism"
+- Remove "oil bypasses employment" language
+- Employment remains a master variable, but buffer status modulates its importance
+- Oil is an accelerant, not an independent path
+- Confidence stays at ~77% but the REASONING changes: not "two paths" but "buffers depleted + oil accelerant"
+
+### What Changes for Positioning
+- June puts remain timing-vulnerable. Debate didn't fix this.
+- September/October positions are STRENGTHENED by the buffer depletion framework (it doesn't require oil specifically)
+- Roll June → Sep recommendation from HYG debate is reinforced
+- TLT positions depend on oil specifically and should be evaluated separately
+
+### What CARL Should Do
+- Run the cross-sectional gas-exposure DQ test when March state data becomes available
+- Track DQ acceleration rate vs trend (>0.2%/quarter above trend = meaningful oil increment)
+- Report results to RED for probability update
+
+---
+
+**RED — April 5, 2026**
+
+*R4 (Joint Synthesis) pending. The key output: "buffer depletion + shock" replaces "oil bypasses employment" as the operative framework. Both sides agree the near-dated puts have a timing problem. Both sides agree September is the right expiry for the thesis.*
