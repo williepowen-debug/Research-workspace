@@ -183,21 +183,30 @@ One paragraph max. Where is the market right and we're wrong? What are we filter
 
 ### Workbook (Permanent Memory)
 
-These TSV files are your persistent memory across sessions. **Always update them when you find something significant.**
+These TSV files are your persistent memory across sessions. **Always update them when you find something significant.** Full column definitions in `workbook/SCHEMA.tsv`.
 
-| File | Schema | Purpose |
-|------|--------|---------|
-| `workbook/CHALLENGES.tsv` | `Challenge, Date, Target, Grade, Key Finding, Status` | Every formal challenge issued. Track resolution. |
-| `workbook/VX.tsv` | `ID, Name, Target_Agent, Counter_Evidence, Current_Strength, Last_Reviewed, Notes` | Standing counter-evidence vectors. Update strengths as reality changes. |
-| `workbook/ML.tsv` | `ML_ID, Date, Target, Finding, Strength, Resolution, Notes` | Detailed adversarial findings log. Append-only with resolution updates. |
+| File | Columns | Purpose |
+|------|---------|---------|
+| `workbook/KB.tsv` | 13-col: `ID, Date, Group, Entity, Fact, Source, Conf, Epistemic, Status, Stale_By, DerivedFrom, Vectors, Notes` | Master knowledge base. Institutional knowledge, counter-evidence facts, methodology corrections. Network-standard 14-col format (minus 1: no Predictions col). Uses Admiralty confidence coding. |
+| `workbook/VX.tsv` | 12-col: `ID, Name, Target, Counter_Evidence, Strength, Bull_Wt, Bear_Wt, Flip_If, Last_Reviewed, Source, KB_Links, Notes` | Standing counter-evidence vectors with explicit bull/bear weights and flip conditions. RED-unique adversarial schema. |
+| `workbook/ML.tsv` | 14-col: `ML_ID, Date, Session, Entity, Category, Finding, Data_Quote, Source, Status, Confidence, Thesis_Impact, KB_Links, Cross_Links, Notes` | Detailed findings log. Append-only audit trail. Categories: CHALLENGE, METHODOLOGY, SYNTHESIS, ERROR, OBSERVATION, BASELINE. |
+| `workbook/CHALLENGES.tsv` | 10-col: `CHG_ID, Date, Target, Grade, Key_Finding, Status, Resolved_Date, Resolution, KB_Links, VX_Links` | Formal challenges issued. RED-unique. Cross-linked to KB and VX. |
+| `workbook/PREDICTIONS.tsv` | 10-col: `Pred_ID, Date_Made, Prediction, Confidence, Timeframe, Status, Date_Resolved, Outcome, Invalidation, Notes` | Falsifiable predictions with outcomes. Network-standard format. |
+| `workbook/FLOW.tsv` | 9-col: `ID, Name, Speed, Status, Break_Condition, Current_Evidence, Pathway, Positions_Affected, Notes` | Transmission pathways that could BREAK. RED-unique: tracks where cascade fails, not where it fires. |
+| `workbook/VX_HISTORY.tsv` | 7-col: `Date, VX_ID, Old_Strength, New_Strength, Old_BullWt, New_BullWt, Reason` | Vector strength change log. Audit trail for VX.tsv updates. |
+| `workbook/SCHEMA.tsv` | Self-documenting | Column definitions for all workbook files. |
 
 **Rules:**
-- New challenge → add row to CHALLENGES.tsv
-- New counter-evidence data point → add or update row in VX.tsv
-- Significant analytical finding → add row to ML.tsv with full reasoning
-- When a finding is resolved or superseded → update Resolution column, don't delete
-- Review VX.tsv strengths each sweep — downgrade/upgrade as data changes
-- ML.tsv is append-only (with resolution updates). It's your audit trail.
+- New institutional knowledge → add row to KB.tsv with Admiralty confidence + staleness date
+- New counter-evidence data point → add or update row in VX.tsv; log change in VX_HISTORY.tsv
+- Significant analytical finding → add row to ML.tsv (append-only; update Status/Notes for resolution)
+- New formal challenge → add row to CHALLENGES.tsv with KB/VX cross-links
+- New falsifiable prediction → add row to PREDICTIONS.tsv with invalidation criteria
+- Break pathway identified → add row to FLOW.tsv; update Status as evidence changes
+- When a finding is resolved or superseded → update Status column, don't delete rows
+- Review VX.tsv strengths each sweep — downgrade/upgrade as data changes; log in VX_HISTORY.tsv
+- KB.tsv entries with Stale_By dates must be reviewed/refreshed by that date
+- Old 7-col files archived as `*_old_7col.tsv` for reference
 
 ---
 

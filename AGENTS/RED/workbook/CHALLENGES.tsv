@@ -1,6 +1,15 @@
-Challenge	Date	Target	Grade	Key Finding	Status
-SSB V2	2026-02-12	SSB $90P	B-	Near-neutral EV; timing is main risk	Complete
-SAM V2	2026-02-12	Japan thesis	Upgraded	Shunto now #2 catalyst (was #7)	Complete
-Network Sweep	2026-02-12	Full system	B+	Direction 60-75%, timing 25-35%	Complete
-KRE Challenge	2026-02-20	KRE June Puts	A-	Thesis valid (75%) but timing mispriced by 2-3 quarters	Complete
-Emergency War Sweep	2026-03-14	Full system / all positions	A- direction / C+ timing	Russia sanctions unmodeled; employment still benign (213K); HYG Jun + APO Apr most vulnerable; ceasefire 0% too confident; AAPL 45% unexamined; direction sound, timing is the risk	Complete
+CHG_ID	Date	Target	Grade	Key_Finding	Status	Resolved_Date	Resolution	KB_Links	VX_Links
+CHG-RED-001	2026-02-12	SSB $90P	B-	Near-neutral EV; timing is main risk. Net EV -$155.	RESOLVED	2026-02-12	SSB trade has negative expected value. Directionally plausible but temporally mismatched.	KB-RED-021,KB-RED-022	VX-RED-011
+CHG-RED-002	2026-02-12	Japan thesis	B+	Shunto now #2 catalyst (was #7). SAM thesis upgraded.	RESOLVED	2026-02-12	SAM thesis strengthened by Shunto data. Direction confirmed.	KB-RED-002	VX-RED-004
+CHG-RED-003	2026-02-12	Full system	B+	Direction 60-75% confident, timing 25-35%. Employment is master variable.	RESOLVED	2026-02-12	First full sweep. All 3 challenges resolved. Network conditional on employment.	KB-RED-001,KB-RED-004	VX-RED-001,VX-RED-006
+CHG-RED-004	2026-02-20	KRE June Puts	A-	Thesis valid (75%) but timing mispriced by 2-3 quarters. Dec positions preferred.	RESOLVED	2026-02-20	KRE thesis holds. Near-dated puts vulnerable. Dec expiry appropriate.	KB-RED-018	VX-RED-005,VX-RED-008
+CHG-RED-005	2026-03-14	Full system (war)	A- dir / C+ timing	Russia sanctions unmodeled; employment benign (213K); HYG Jun + APO Apr most vulnerable.	RESOLVED	2026-03-14	Direction sound. Timing is the risk. AAPL 45% unexamined. Ceasefire 0% too confident.	KB-RED-015,KB-RED-017	VX-RED-013,VX-RED-014,VX-RED-016
+CHG-RED-006	2026-04-02	Portfolio	STRONG	June/May puts vs Q3-Q4 thesis. Concentrated temporal risk in single expiry window.	ACTIVE			KB-RED-018	VX-RED-015
+CHG-RED-007	2026-04-02	All agents	MODERATE	100% red alignment across network. Circular reinforcement possible. Echo chamber risk.	ACTIVE			KB-RED-010	VX-RED-001,VX-RED-006,VX-RED-011
+CHG-RED-008	2026-04-02	PROME	MODERATE	Policy rescue at 11% was too low. Revised to 20%. Stealth QE active, eSLR freed capacity, unused tools.	ACTIVE			KB-RED-016	VX-RED-010
+CHG-RED-009	2026-04-02	LABOR/CARL	MODERATE	Counter-signals (staffing, claims, retail, GDPNow) being dismissed not weighted. Need explicit bull/bear probabilities.	ACTIVE			KB-RED-011,KB-RED-012,KB-RED-013,KB-RED-024	VX-RED-001,VX-RED-003,VX-RED-012
+CHG-RED-010	2026-04-02	BROCK	MODERATE	Alpha window closing on private credit thesis. Consensus catching up to what we identified early.	ACTIVE
+CHG-RED-011	2026-04-02	BRENT	MODERATE	$108 not $150 despite 8-9M bpd disrupted. Oil ceiling undermines extreme scenario magnitude.	RESOLVED	2026-04-05	RED WAS WRONG. Dated Brent $141 physical. Oil ceiling counter-signal invalidated. ADCOP bypass destroyed, SPR failed.	KB-RED-014,KB-RED-027	VX-RED-013
+CHG-RED-012	2026-04-02	HAWK	WEAK-MOD	45/45 convergence score cannot discriminate. May be overfitting signal to noise.	WEAKENED			KB-RED-027
+CHG-RED-013	2026-04-05	LABOR/CARL	MODERATE	NFP +178K challenges employment-first transmission model. Employment channel activation probability downgraded to 35%.	ACTIVE			KB-RED-026,KB-RED-030	VX-RED-001,VX-RED-014
+CHG-RED-014	2026-04-05	LIQUID/ALL	STRONG	HY OAS tightened to 316 (from 342) during maximum stress. Credit market NOT confirming thesis. Most dangerous counter-signal. HYG puts at highest risk.	ACTIVE			KB-RED-028	VX-RED-015
