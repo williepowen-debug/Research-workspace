@@ -28,19 +28,23 @@
 
 ---
 
-## TRANSMISSION MECHANISM SHIFT (NEW — Apr 5)
+## BUFFER DEPLETION FRAMEWORK (Revised Apr 5 — Post-Debate)
 
-Prior model: LABOR → CARL → REGINALD → repricing. Employment = master variable.
-Current reality: TWO parallel paths now active.
+~~Prior model: "Oil bypasses employment" (dual transmission).~~ **REVISED after debate with Prome.**
+Correct model: **Depleted household buffers + oil shock → accelerated DQ at the margin, regardless of aggregate employment.**
 
-| Path | Status | Speed | Employment-Dependent? |
-|------|--------|-------|:---------------------:|
-| Employment → Credit → Banks | STALLED | Quarters | Yes — and NFP +178K says stalled |
-| Oil → Consumer → Credit → Banks | FIRING | Weeks-months | No — gas $4.08 hits regardless |
-| Oil → Japan costs → Carry unwind | PRIMED | BOJ meeting | No — import cost driven |
-| Oil → Credit spreads → Gating | ACTIVE | Stage 3 | No — corporate cash flow driven |
+Employment is necessary but not sufficient. The SAME employment environment produces different credit outcomes depending on buffer levels:
+- 2022: Gas $5.02 + $1T savings buffer → no credit stress
+- 2026: Gas $4.08 + zero buffer → DQ at GFC levels and rising
 
-**Implication:** Near-dated puts are LESS vulnerable than Apr 2 assessment suggested, because oil transmission is faster than employment transmission. But HY OAS tightening to 316 contradicts this — credit market says "not yet."
+Oil is an **accelerant**, not an independent transmission path. Any shock (tariffs, student loans, oil) tips already-stressed households when buffers are depleted. This means:
+- Oil price moves matter LESS than consumer buffer status for credit thesis
+- A ceasefire dropping oil to $90 wouldn't kill the thesis if buffers stay depleted
+- September/October positions are strengthened (buffer depletion is structural, not oil-dependent)
+
+**Timing reality:** Thesis manifestation window is July-October 2026. May/June puts are 2-4 months early. See thesis/TIMELINE.md.
+
+**Falsification:** CARL should run cross-sectional DQ test (high vs low gas-exposure states). If no divergence by mid-June, oil increment is zero → revert to pure normalization framework.
 
 ---
 

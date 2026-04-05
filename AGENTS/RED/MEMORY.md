@@ -8,7 +8,7 @@
 - **NDFI RESOLVED (Apr 5):** Q3 $1.32T vs Q4 domestic $1.411T vs Q4 consolidated $1.569T. Timing+scope issue. Use $1.411T domestic (RCONJ454) as standard. Total committed ~$4.2T (Whalen). Growth +35% YoY. REGINALD had correction in NDFI_HIDDEN_CRE_HYPOTHESIS.md that RED never read.
 - [CCC Concentration](archive/status_snapshots/STATUS_2026-04-02.md) — CCC OAS >1000 is cable/media/healthcare, not broad systemic. Downgraded as indicator Mar 31.
 - [CDX/Cash Divergence](research/CEASEFIRE_FADE_PROTOCOL.md) — 8+ weeks of CDX/cash HY divergence. HY OAS now TIGHTENED to 316 (from 342). May have resolved wrong way for HYG puts.
-- **Dual Transmission (Apr 5):** War created oil path (BRENT→consumer→credit→banks) that bypasses employment. Employment no longer sole master variable. NFP +178K stalls employment path but thesis survives via oil path.
+- ~~**Dual Transmission (Apr 5):**~~ **REVISED → Buffer Depletion Framework.** "Oil bypasses employment" was wrong. Correct: "Depleted buffers + any shock (oil, tariffs, student loans) → accelerated DQ at the margin." Employment is necessary but not sufficient. 2022 proves it: same oil, different buffer, different outcome. Oil is accelerant, not independent path. Debate with Prome produced this revision — see challenges/DEBATE_OIL_TRANSMISSION_2026-04-05.md.
 
 ## Assessment History
 - Mar 26: 85% confidence. Ceasefire rally cost 32% of gains. Near-dated puts = biggest risk.
