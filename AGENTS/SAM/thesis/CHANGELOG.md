@@ -8,6 +8,49 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-04-05 — NORINCHUKIN RESEARCH + HEDGE RATIO COLLAPSE (THESIS v1.2)
+
+### THESIS v1.1 → v1.2 (minor)
+**Author:** SAM
+**Action:** Integrated Norinchukin CLO contagion research. Added hedge ratio data, institutional exposure framing, GPIF non-risk finding, new thresholds.
+
+**What changed:**
+1. **Life insurer hedge ratio: 44.4% (Mar 2025) — 14-year low.** ~55% of foreign bonds ($370-550B) unhedged. Avg FX entry for unhedged: USD/JPY 135-145. Critical forced-selling threshold: below 130-135. This quantifies the exposure we knew existed but hadn't measured.
+2. **Total institutional foreign portfolio: ~$3.0-3.5T.** Japan holds $1,185.5B in USTs (Dec 2025). Frames the larger pool beyond our $450-810B life insurer estimate.
+3. **Norinchukin shrinking CLO book.** World's largest CLO investor (¥9.7T/$65B, 100% AAA). Reduced ¥500B in Q1 2026 — "fastest decline on record." Not forced selling yet but directional.
+4. **GPIF confirmed NOT a forced-selling risk.** ±6-7% deviation bands cushion yen moves. Rebalances by BUYING foreign assets on yen appreciation. Through FY2029.
+5. **New threshold added:** USD/JPY 130-135 (insurer forced systematic selling).
+6. **Cross-agent link to LIQUID updated** with hedge ratio + UST holdings data.
+7. **Outbox signal written** for LIQUID: hedge ratio collapse + Norinchukin + repatriation framing.
+
+**Old view:** Channel 1 repatriation driven by ESR + hedge cost inversion + JGB yield attraction. Exposure estimated but hedge ratio not quantified.
+**New view:** Same drivers, now with MEASURED hedge ratio (44.4%, 14yr low). System more exposed than modeled. Repatriation base case ($80-120B) may be conservative. Forced-selling FX threshold mapped (130-135). GPIF risk eliminated.
+
+**Source:** Norinchukin CLO research package (Apr 2026). Full report: `research/outputs/NORINCHUKIN_CLO_CONTAGION.md`.
+
+---
+
+## 2026-04-03 — PRIVATE CREDIT AMPLIFIER INTEGRATED (THESIS v1.1)
+
+### THESIS v1.0 → v1.1 (minor)
+**Author:** SAM
+**Action:** Added "Private Credit Amplifier" sub-section to Channel 1 (Life Insurer Repatriation). Adjusted flow scenario probabilities. New KB entries (160-162), new vector (VX-SAM-13.00).
+
+**What changed:**
+1. **Japan life insurers hold ~$40-53B ($45B central est.) in US private credit**, mostly unhedged (80-90%). Bottom-up verified: Sumitomo $10.7B, Nippon $3.25B, Meiji $4.2B, Dai-ichi $4.2B, plus listed insurers $14B. Morgan Stanley 1-3% AUM range applied to $2.6T industry.
+2. **Double-hit vector identified:** BOJ hike (yen +5-8%) + US PC cascade ($10.1B Q1 redemptions) = $4-12B combined losses on illiquid, gated positions.
+3. **Flow scenario probabilities adjusted:** Base case 75%→70%, stress case 20%→25%. PC amplifier makes orderly repatriation less likely.
+4. **Inbox signal processed:** Prome/Eric Jackson (Pebbles II) cross-fund analysis. Also noted: Dutch pension DB→DC switch (Jan 2026), global pension PC exposure map (CPP, AustralianSuper, Korea NPS, UK).
+
+**Old view:** Channel 1 repatriation driven by ESR + hedge cost inversion + JGB yield attraction. Base case 75%.
+**New view:** Same drivers PLUS private credit amplifier — illiquid PC positions create correlated losses that make exits messier. Stress case probability nudged to 25%. Not a new channel — Channel 1's dark twin.
+
+**Counterpoint noted:** Most CLO holdings are AAA/AA tranches (historically resilient). Severity depends on vintage and tranche quality. Direct lending more exposed than CLO senior tranches.
+
+**Source:** Prome signal SIG-2026-04-02-001, Morgan Stanley estimates, SAM bottom-up verification. Full research: `research/outputs/JAPAN_INSURER_PRIVATE_CREDIT_EXPOSURE.md`.
+
+---
+
 ## 2026-04-02 — TRUMP REVERSAL + WEAK 10Y AUCTION + SAM-06 RESOLVED
 
 ### PREDICTION Resolved: SAM-06
