@@ -1,6 +1,6 @@
 # REGINALD CALENDAR
 
-**Last Updated:** 2026-04-02 | **View:** Forward-looking only. Past events pruned weekly.
+**Last Updated:** 2026-04-03 | **View:** Forward-looking only. Past events pruned weekly.
 
 ---
 
@@ -10,11 +10,11 @@
 |-----------|-------|---------------|-------------------|
 | Weekly (Thu) | Initial claims | DOGE layoff acceleration | >300K = all ORANGE banks → RED |
 
-## THIS WEEK (Mar 31 - Apr 4)
+## UNRESOLVED
 
-| Date | Event | What to Check | Threshold / Signal | Who Cares |
-|------|-------|---------------|-------------------|-----------|
-| Mar 31 ❓ | First Brands auction | Result, $800M gap | Recovery rate <40% = 🔴 | BROCK, WAL V2 |
+| Original Date | Event | Status | What to Check | Who Cares |
+|---------------|-------|--------|---------------|-----------|
+| Mar 31 | First Brands auction | ✅ RESOLVED | Piecemeal liquidation: $75M asset sales vs $9.3B debt (<1% recovery). Debt 30-47¢. $2.3B fabricated receivables. WAL $126.4M likely unrecoverable. | BROCK, WAL V2 |
 
 ## WEEK OF APR 7
 
@@ -26,7 +26,7 @@
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |------|-------|---------------|-------------------|-----------|
-| **Apr 16** | **OZK Q1 earnings** | NCO, provisions, CRE migration, MI3, ACL | NCO >$90M or capital raise = 🔴 | PROME |
+| **Apr 21** | **OZK Q1 earnings** (moved from Apr 16, conf call Apr 22) | NCO, provisions, CRE migration, MI3, ACL | NCO >$90M or capital raise = 🔴 | PROME |
 
 ## WEEK OF APR 21
 
@@ -43,6 +43,7 @@
 |------|-------|---------------|-------------------|-----------|
 | **~May 1-10** | **Q1 Call Report filings (FFIEC)** 🔴 | MI3 ratios, NDFI, AOCI detail, CRE DQ by category, TDR/mods | WAL MI3 ≥25% = acceleration. **More important than earnings for thesis.** | PROME |
 | May 12 | WAL Investor Day | Management response to thesis vectors | — | PROME |
+| **May 15** | **KRE $70P expiry** | Position management | Roll/close decision needed by ~May 8 | FORGE |
 | ~Mid-May | FDIC Quarterly Banking Profile | Aggregate CRE DQ, NDFI growth, provision trends | NDFI still +35% YoY = doubling down | PROME |
 | May 21 | APO class action deadline | PC sector headline risk | — | BROCK |
 
@@ -50,8 +51,15 @@
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |------|-------|---------------|-------------------|-----------|
+| **Jun 1** | **Reinsurance renewals** | FL property insurance pricing, carrier exits | Premium hikes compound SIRS + 4x CRE insurance squeeze (ML-REG-137) | CORAL, OZK, SSB |
 | **Jun 18** | **AOCI capital rewrite comment period closes** | Final rule direction, industry opposition | Cat III/IV impact ($49.5B aggregate) | ALL banks |
 | **Jun 18** | **Options expiry cluster** | WAL $85P, WAL $65P, SSB $90P, KRE multi, IWM $250P, HYG $75P | Position management decisions needed by ~Jun 11 | FORGE |
+
+## OCTOBER
+
+| Date | Event | What to Check | Threshold / Signal | Who Cares |
+|------|-------|---------------|-------------------|-----------|
+| **Oct 2026** | **Affinius Capital $2.7B bond maturity** | Refi ability, OZK exposure, NDFI stress | Failure to refi = discrete OZK catalyst | OZK, BROCK |
 
 ## PREDICTION CHECKPOINTS
 

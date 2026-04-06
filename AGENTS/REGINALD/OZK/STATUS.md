@@ -1,7 +1,7 @@
 # OZK — Dashboard
 **Updated:** 2026-04-02 | **Conviction:** 🔴🔴 HIGH | **Thesis:** RESERVOIR
-**Price:** ~$46-47 (Apr 1) | **TBV:** $41.48 | **P/TBV:** ~1.12x | **KB:** 159 rows, 17 groups
-**Consensus:** Hold (2B/5H/1S), PT $53.71, EPS ~$1.50/Q
+**Price:** $46.31 (Apr 4) | **TBV:** $41.48 | **P/TBV:** ~1.12x | **KB:** 159 rows, 17 groups
+**Consensus:** Hold (2B/5H/1S), PT $53.71, EPS $1.52/Q (Zacks Feb 2026), FY2026 $6.02
 
 ---
 
@@ -67,8 +67,8 @@ KBRA highlights: $72M single office charge-off. RESG declining $1.4B/qtr, projec
 ## Catalyst Calendar
 | Date | Event | Status |
 |------|-------|--------|
-| **Mar 25** | Jefferies Q1 (WAL read-through) | ⚠️ NOT PULLED — 3x deferred |
-| **Apr 16** | **Q1 2026 Earnings** | 14 days — PRIMARY CATALYST |
+| **Mar 25** | Jefferies Q1 (WAL read-through) | ⚠️ NOT PULLED — 3x deferred. First Brands auction resolved: $75M total recovery vs $9.3B debt. |
+| **Apr 21** | **Q1 2026 Earnings** (moved from Apr 16, conf call Apr 22) | 16 days — PRIMARY CATALYST |
 | ~Apr 20-21 | Peer earnings (ZION, WAL) | Sector read-through |
 | **~Aug 2028** | IQHQ RaDD maturity (extended from Aug 2026) | Outside put window — narrative catalyst only |
 

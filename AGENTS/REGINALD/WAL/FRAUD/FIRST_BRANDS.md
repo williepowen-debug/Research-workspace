@@ -1,5 +1,5 @@
 # First Brands / Point Bonita — WAL Fraud Vector 1
-**Last Updated:** 2026-03-25
+**Last Updated:** 2026-04-05
 
 ---
 
@@ -85,6 +85,9 @@ Jefferies Q1 CY2026 (reported Mar 25 2026 after close):
 | Mar 8-9 2026 | JEF disputes: "meritless," loans were non-recourse to SPV | Nasdaq [3] |
 | Mar 25 2026 | Jefferies Q1: $17M loss + $36M telecom writedown + -24% FI rev | Bloomberg/JunkBondInvest |
 | **Mar 31 2026** | **Alleged forbearance payment deadline — CONVERGENCE DAY** | |
+| Jan-Feb 2026 | First Brands auction: Walbro sold for $50M (Overdrive Capital) | Kroll/Bloomberg |
+| Mar 27 2026 | Brand portfolio (Fram, Autolite, Trico) sold for $25M (PGI Northstar) | Bloomberg |
+| Feb 2026 | Some units moving to Chapter 7 liquidation | Bloomberg/Crain's Cleveland |
 | **Apr 21 2026** | **WAL Q1 earnings — exposure must be addressed** | |
 
 ---
@@ -99,6 +102,42 @@ First Brands is not isolated. The double-pledging mechanism has now surfaced in 
 Reuters framed this as **"cockroaches in private credit"** — if you find one, there are more (ML-REG-096). The structural vulnerability is identical: collateral-based lending where physical verification is infrequent and paper records are manipulated.
 
 Unicus Research (ML-REG-114) drew the explicit structural parallel: CRE origination fraud and auto ABS fraud share the same architecture — infrequent physical verification, paper-based records, originate-to-distribute incentives.
+
+---
+
+## Auction Result (Resolved Apr 2026)
+
+**The Mar 31 forbearance deadline passed. Piecemeal liquidation confirmed.**
+
+### Asset Sales
+| Asset | Buyer | Price |
+|-------|-------|-------|
+| Brand portfolio (Fram, Autolite, Trico — 12 brands) | PGI Northstar | $25M |
+| Walbro business | Overdrive Capital LLC | $50M |
+| Autolite, Brake Parts, Cardone | Winding down / Chapter 7 | — |
+| **Total recovered** | | **~$75M** |
+
+### Recovery Math
+- Total debt: $9.3B ($6B on-balance-sheet + $2.4B off-balance-sheet SPVs + $800M supply chain)
+- Fabricated receivables: $2.3B confirmed by restructuring advisors
+- Asset sale recovery: ~$75M / $9.3B = **<1%**
+- Debt trading: **30-47 cents** on the dollar (Dec 2025 - Feb 2026 range)
+- Morningstar DBRS adverse scenario: total losses potentially **>$1B** across trade credit insurers/reinsurers
+
+### Key Exposures
+| Entity | Exposure | Note |
+|--------|----------|------|
+| Onset Financial | $1.9B | Inventory-backed |
+| Jefferies / Point Bonita | $715M | Receivables — JEF took $40-47M in losses already |
+| UBS | >$500M | Supply chain financing |
+| 15 BDCs | $237M | Marks need to come down |
+
+### WAL V2 Impact
+WAL's $126.4M disputed exposure through Point Bonita/Jefferies is **almost certainly unrecoverable** given <1% asset recovery. The Mar 31 forbearance deadline passed — Jefferies still calling the lawsuit "meritless" and asserting non-recourse. This forces WAL to either:
+1. Write off the $126.4M (or net of $42.1M already paid = $84.3M remaining) in Q1 2026
+2. Continue disputing in court while carrying impaired asset on books
+
+Either way, this is a Q1 earnings catalyst — analysts will ask about it.
 
 ---
 

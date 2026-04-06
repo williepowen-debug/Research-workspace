@@ -25,36 +25,25 @@
 
 ## Session Notes
 
-⚠️ **Open question:** First Brands auction result (Mar 31) still unknown — affects BROCK/OTTO T-15 chain and WAL V2 vector
+⚠️ **Open question:** OZK + WAL reporting same day (Apr 21) — need to finalize all position decisions BEFORE print. ZION (Apr 20) is only leading indicator now.
 
 ### CHANGES SINCE LAST SESSION
-- [Populated at boot from market.py + inbox scan — what moved while REGINALD was offline]
+- **Prices (Apr 4):** WAL $72.07 (-0.43%), OZK $46.31 (+0.30%), KRE $66.00, Brent $111.60, VIX 23.87, APO $107.04 (-2.91%)
+- **3 inbox signals** unprocessed (CARL FL pincer, CARL SYF canary, sweep Apr 3)
+
+### LAST SESSION (Apr 5 — short session)
+- **First Brands auction RESOLVED:** Piecemeal liquidation confirmed. $75M total recovery vs $9.3B debt (<1%). Debt 30-47¢. $2.3B fabricated receivables. WAL $126.4M likely unrecoverable — Q1 earnings catalyst. Updated FIRST_BRANDS.md with full auction results, recovery math, WAL V2 impact.
+- **OZK earnings date CHANGED:** Apr 16 → Apr 21 (GlobeNewswire Mar 31). OZK and WAL now report SAME DAY. Rewrote EARNINGS_PREP.md WAL read-through section — no more 5-day tactical window. ZION (Apr 20) is the only pre-print sector read.
+- **OZK consensus EPS filled:** $1.52 (Zacks Feb 2026 revision, down from $1.58). FY2026 $6.02. Beat/miss: >$1.55 = beat, <$1.48 = miss.
+- **Files updated:** CALENDAR.md, STATUS.md, OZK/STATUS.md, OZK/EARNINGS_PREP.md, WAL/FRAUD/FIRST_BRANDS.md, MEMORY.md
 
 ### LAST SESSION (Apr 2 — full afternoon session, ~3 hours)
-- **Architecture overhaul** — 11 total improvements to REGINALD infrastructure:
-  1. OZK/WAL research sections moved out of STATUS.md → bank-specific STATUS files
-  2. Open question format added (now in MEMORY.md)
-  3. Price refresh step added to boot (market.py, yfinance installed)
-  4. Inbox scan step added to boot
-  5. CHANGELOG rule enforced for thesis/timeline edits
-  6. Doc ownership table added to CLAUDE.md (10 docs mapped)
-  7. CALENDAR.md created (earnings wave, Call Reports, AOCI, predictions, options expiry)
-  8. MEMORY.md created (this file — replaces LAST_COMPLETION.md)
-  9. Boot sequence reordered with Boot/Execute/Write-back sections
-  10. Branch point table added to thesis/TIMELINE.md (13 events)
-  11. Session close checklist added to CLAUDE.md
-- **STATUS.md trimmed** 178 → 147 lines, now a pure dashboard
-- **POSITIONS.md created** from broker screenshot — thesis positions only
-- **2 inbox signals processed** (CARL SYF subprime canary, CRE fraud/insurance trifecta)
-- **PROME/SCRATCH.md updated** to Apr 2
-- **Live prices:** WAL $72.09 (+6% from $68), KRE $65.83, OZK $46.25, WTI $111.40 (+11.3%)
-- **OWL $9.5P:** Decision was hold-to-expiry (Mar 29). Will confirmed still in portfolio — check auto-exercise.
-- **Treasury meeting (Apr 1):** No outcomes documented. Gap.
+- Architecture overhaul (11 improvements), STATUS.md trimmed, POSITIONS.md created, 2 inbox signals processed, live prices refreshed
 
 ### NEXT SESSION
-1. First Brands auction result — still unknown, affects BROCK/OTTO T-15 and WAL V2
-2. OZK earnings prep — 14 days, consensus EPS gap still open
-3. WAL earnings prep — 19 days, EARNINGS_PREP at A-
+1. OZK earnings prep remaining gaps — SI refresh, 8-K watch, Bioterra status, SCENARIOS.md recalibration
+2. WAL earnings prep — 16 days, same-day as OZK now. Pre-print position decisions critical.
+3. Process 3 inbox signals (CARL FL pincer, CARL SYF canary, sweep Apr 3)
 4. Cantor PACER docket — still pending
 5. Vecchione return status — still pending
 6. MI3 peer comparison — still pending
