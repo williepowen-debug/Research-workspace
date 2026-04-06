@@ -38,6 +38,7 @@
 
 *Operational procedures (inbox structure, spawn protocol, Toscanini, tools) → `PROME/BOOT.md`. Only genuine insights below.*
 
+- **Persistent Agents — Do Not Spawn (Apr 6)** — CARL, REGINALD, RED, SAM, BRENT run as persistent agents on Claude Code/Telegram. Spawning sub-agents for these five disrupts their workflows. Spawn restriction: LABOR, HENRY, LIQUID, BROCK, SHADE, HAWK, MARCO, ZHAO, OTTO, NEXUS only. → `AGENTS.md`
 - **News Sweep Tool Deployed (Apr 3)** — Full thesis-tagged news monitoring system live. 15 Google News RSS queries + FT/BBC RSS + ZeroHedge scrape. Entity index (~35), WATCH_FOR lists (9 agents), classification routing, source quality weighting. Suppresses KNOWN stories. Cron M-F 8:30 AM ET. First automated cycle runs Monday Apr 7. → `FORGE/tools/news-sweep/`
 - **NFP Healthcare Distortion (Apr 3)** — NFP +178K beat but healthcare = 43% (+76K incl 31K Kaiser strike return). Strip healthcare → +102K. Feb revised -133K. Fed govt -18K. Hiring rate 3.1% = lowest since Jan 2011 (pre-dates war). Headline numbers mask deterioration. → `AGENTS/LABOR/STATUS.md`
 - **Dealer Capacity Research (Mar 31-Apr 2)** — Duffie et al.: 90%+ dealer capacity binds constraints, 96% = March 2020 peak (5.4σ). ABFER structural VAR: $100B flow shock → >100bps yield impact under constraint (3-5x naive OLS). 10Y clearing price: 5.00-5.25%. SLR exemption = decisive policy variable. eSLR reform effective Apr 1 ($210-384B capacity freed). → `FORGE/timing/research/DEALER_CAPACITY_RESPONSE_1B_PERPLEXITY.md`

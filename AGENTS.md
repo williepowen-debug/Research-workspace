@@ -12,18 +12,19 @@ NEXUS synthesizes across all chains. MARCO feeds immigration/labor supply into L
 
 ## Agents
 
-| Agent | Domain | Chain |
-|-------|--------|-------|
-| LABOR | Employment, claims | Credit |
-| CARL | Consumer credit, housing | Credit |
-| REGINALD | Regional banks (OZK, WAL) | Credit |
-| HENRY | Market structure, econ data | Credit (velocity) |
-| LIQUID | Funding, Treasury, spreads | All (amplification) |
-| BROCK | BDC, private credit, CLOs | PC cascade |
-| SHADE | PE-insurance-captive | PC cascade |
-| SAM | Japan, BOJ, carry trade | Japan |
-| HAWK | Geopolitical, military | Energy |
-| BRENT | Oil, energy markets | Energy |
+| Agent | Domain | Chain | Spawn? |
+|-------|--------|-------|--------|
+| LABOR | Employment, claims | Credit | ✅ OK |
+| CARL | Consumer credit, housing | Credit | ❌ Persistent (Claude Code/Telegram) |
+| REGINALD | Regional banks (OZK, WAL) | Credit | ❌ Persistent (Claude Code/Telegram) |
+| HENRY | Market structure, econ data | Credit (velocity) | ✅ OK |
+| LIQUID | Funding, Treasury, spreads | All (amplification) | ✅ OK |
+| BROCK | BDC, private credit, CLOs | PC cascade | ✅ OK |
+| SHADE | PE-insurance-captive | PC cascade | ✅ OK |
+| SAM | Japan, BOJ, carry trade | Japan | ❌ Persistent (Claude Code/Telegram) |
+| HAWK | Geopolitical, military | Energy | ✅ OK |
+| BRENT | Oil, energy markets | Energy | ❌ Persistent (Claude Code/Telegram) |
+| RED | Adversarial analysis | All | ❌ Persistent (Claude Code/Telegram) |
 | MARCO | Migration, labor supply | Credit + Energy |
 | ZHAO | China, capital flows | Japan + PC |
 | OTTO | Auto, consumer DQ | Credit (→ CARL) |
