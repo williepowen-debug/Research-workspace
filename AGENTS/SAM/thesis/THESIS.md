@@ -1,7 +1,7 @@
 # SAM THESIS — v1.0
 
-**Version:** 1.0
-**Last Updated:** 2026-03-31
+**Version:** 1.2
+**Last Updated:** 2026-04-05
 **Status:** 🔴 ESCALATING STRESS — Multiple simultaneous triggers loading
 **Conviction:** HIGH
 
@@ -19,7 +19,9 @@ Japan is approaching a structural inflection where multiple independent transmis
 
 ### Channel 1: Life Insurer Repatriation (SAM → LIQUID)
 
-Japanese life insurers hold $450-810B in USTs. The April 2025 ESR regime change (SMR 933% → ESR 219% in field tests) made unrealized losses visible to regulators for the first time. They can no longer hide.
+Japanese life insurers hold $450-810B in USTs. Total Japanese institutional foreign portfolio exposure subject to repatriation is ~$3.0-3.5T (including GPIF ¥124.6T, life insurers ~¥100-150T, megabanks, regionals). Japan holds $1,185.5B in USTs (Dec 2025) — world's largest foreign holder. The April 2025 ESR regime change (SMR 933% → ESR 219% in field tests) made unrealized losses visible to regulators for the first time. They can no longer hide.
+
+**Note:** GPIF is NOT a forced-selling risk. Its 25/25/25/25 target allocation has ±6-7% deviation bands. Even USD/JPY 150→130 only drops foreign asset weights to ~21.5-21.8% — within band. GPIF rebalancing actually CUSHIONS yen appreciation by buying foreign assets when they decline. Confirmed through FY2029.
 
 **Mechanism:**
 - JGB yields rising → unrealized losses mount (Big 4: ~¥13.2T / $86B, up 125% YoY)
@@ -27,17 +29,29 @@ Japanese life insurers hold $450-810B in USTs. The April 2025 ESR regime change 
 - Hedged UST returns now NEGATIVE vs JGBs (-0.34% after hedge costs vs +1.82% JGB)
 - Selling is outright (not FX hedging) because hedge costs ~4.35% exceed UST yield ~4%
 
+**Hedge Ratio Collapse (NEW — Apr 5):**
+- Nine major life insurers' hedge ratio: **44.4% as of Mar 2025 — 14-YEAR LOW** (down from ~60% historically)
+- ~55% of foreign bond holdings (~$370-550B) are now UNHEDGED
+- Volume-weighted avg FX entry rate for unhedged positions: **USD/JPY 135-145**
+- **Critical acceleration point: USD/JPY below 130-135** — losses severe enough to force systematic selling
+- At current ~160, FX isn't the trigger. Carry unwind to 147-148 starts eating coupon income. Below 135 = mechanical forced selling.
+- Source: `research/outputs/NORINCHUKIN_CLO_CONTAGION.md`
+
 **Evidence it's happening NOW:**
 - Feb 2026 selling: ¥3.42T ($21.8B) — largest since Oct 2024
 - Nippon Life: ¥220B realized JGB losses (active selling, not paper)
 - Fukoku Mutual: FIRST to stop buying 30Y/40Y JGBs (Jan 2026)
 - 50% of Big 10 insurers planned overseas debt cuts (Oct 2025 survey)
 - J-ICS explains buyer strike: insurers need yield STABILITY not just yield LEVEL
+- Norinchukin (world's largest CLO investor, ¥9.7T/$65B) already shrinking: ¥500B decline Q1 2026, "fastest on record"
 
 **Flow scenarios:**
-- Base case: $80-120B over 12 months ($7-10B/mo) — 75% prob
-- Stress case: $150-250B over 6 months ($25-40B/mo) — 20% prob
+- Base case: $80-120B over 12 months ($7-10B/mo) — 70% prob
+- Stress case: $150-250B over 6 months ($25-40B/mo) — 25% prob
 - Crisis case: $300-500B over 3 months ($100-165B/mo) — 5% prob
+
+**Private Credit Amplifier (NEW — Apr 3):**
+Life insurers also hold ~$40-53B (~$45B central est.) in US private credit — mostly unhedged (80-90%, hedge costs destroy yield pickup on illiquid cash flows). Double-hit: BOJ hike strengthens yen 5-8% (wiping 2-3yr spread income on ~$35-48B unhedged) WHILE US PC marks down simultaneously ($10.1B redemption cascade, gates rising). Combined currency + mark-to-market losses est. $4-12B on positions that CANNOT be sold (illiquid, gated). Key holdings: Sumitomo $10.7B, Nippon Life $3.25B (TCW), Meiji Yasuda $4.2B, Dai-ichi $4.2B. Most CLO holdings are AAA/AA tranches (resilient historically) but direct PC lending less protected. Under ESR, these losses are now visible to regulators. **Net effect:** shifts probability from base case → stress case repatriation. Orderly exit becomes less likely. Source: Morgan Stanley 1-3% AUM range, verified bottom-up. Full research: `research/outputs/JAPAN_INSURER_PRIVATE_CREDIT_EXPOSURE.md`.
 
 ### Channel 2: Carry Unwind (SAM → HENRY)
 
@@ -143,6 +157,7 @@ If cascade → recession → Fed cuts → USD weakens → JPY sub-145 WITHOUT BO
 | USD/JPY 155 | Phase 2 carry unwind onset | SET |
 | USD/JPY 147 | Forced carry unwind | SET |
 | USD/JPY 145 | Unhedged positions underwater → mechanical selling | SET |
+| USD/JPY 130-135 | Life insurer forced systematic selling (avg entry rate for unhedged) | SET |
 | JGB 10Y 2.40% | Stress crossover | 🔴 2bps away (2.380%) |
 | JGB 30Y 4.0% | Severe insurer stress / acceleration zone | WATCH |
 | Brent $120 | Kharg Island scenario | 🔴 WATCH ($115 current) |
@@ -175,7 +190,7 @@ If cascade → recession → Fed cuts → USD weakens → JPY sub-145 WITHOUT BO
 
 ## CROSS-AGENT LINKS
 
-- **→ LIQUID:** Life insurer UST selling ($80-500B range). Hedged returns inverted. Repatriation active.
+- **→ LIQUID:** Life insurer UST selling ($80-500B range). Hedged returns inverted. Repatriation active. Hedge ratio 44.4% (14yr low) = $370-550B unhedged. Norinchukin CLO ¥9.2T shrinking. Japan holds $1,185.5B USTs.
 - **→ HENRY:** Carry unwind (85-97% probability). CFTC shorts tripling. Aug 2024 speed precedent.
 - **← HAWK:** War → Japan energy vulnerability (90% ME oil dependent). Dimona→Fordow→Kharg path.
 - **← HANS/BROCK:** Private credit cascade → Fed cuts → USD/JPY sub-145 independent of BOJ.

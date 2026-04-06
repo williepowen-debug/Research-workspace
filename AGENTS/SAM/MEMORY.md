@@ -31,35 +31,30 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (Apr 1 → Apr 2)
-- Trump speech: NO exit plan, NO Hormuz reopening. De-escalation narrative collapsed.
-- Brent reversed $102→$109 (+7%). Phase 1 oil dynamics reasserting.
-- USD/JPY weakened 158.42→159.68. Back toward 160 intervention trigger.
-- 10Y JGB auction WEAK: BTC 2.56x, tail 0.36 (widest since Aug '24), coupon 2.4% (28yr high).
-- S&P -1.5%, Nasdaq -2.1%.
+### CHANGES SINCE LAST SESSION (Apr 2 → Apr 5)
+- ESCALATION RESUMED: Bushehr nuclear plant struck Apr 4, Mahshahr petrochemical hub hit (5 dead, 170 injured). 30+ universities bombed. De-escalation narrative dead.
+- Oil head-fake confirmed: Brent $101→$109 (+8% Fri). Apr 1 pullback fully reversed. Phase 1 oil dynamics reasserted.
+- USD/JPY back to ~160 — MOF intervention trigger retested. FXY $57.54 (grinding).
+- JGB 10Y 2.39% (1bp from 2.40% threshold). JGB 30Y 3.68%.
+- Strike pause expires Apr 6 (Sun) 8pm ET — strikes already resumed on Apr 4-5, largely symbolic.
+- CFTC: last confirmed reading -67.8K (Mar 20). Apr 4 release not yet confirmed.
 
-### LAST SESSION (Apr 2)
-- Boot process audit → 6 structural fixes to CLAUDE.md (new boot order, market refresh step, doc ownership rules, session notes template, predictions at boot, CHANGES SINCE section)
-- STATUS.md trimmed ~34 lines redundancy, refreshed with live market data + auction results
-- CALENDAR.md: marked Apr 2 auction ✅. TIMELINE.md: Apr 2 resolved + branch points updated.
-- Resolved SAM-06 → CONFIRMED TRUE. Prediction scoreboard: 5 true, 0 false, 3 open.
-- Gap audit: filled 20Y auction blind spot (Feb 3.08x, Mar 3.25x — improving trend). Updated EUR/JPY (183.84, still RED). Searched for BOJ post-Tankan comments (none yet) and insurer FY2026 plan previews (none yet).
-- NEW: Built vol/options monitoring framework with Will (via Perplexity research):
-  - research/outputs/VOL_OPTIONS_FRAMEWORK.md — full technical reference (CVOL, UpVar/DnVar, FXY OI, risk reversals, convergence signal)
-  - 4 new workbook vectors: VX-SAM-12.00 (convergence), 12.01 (CVOL ~9), 12.02 (FXY P/C ~0.06), 12.03 (risk reversals, est. positive)
-  - Key insight: all three vol signals complacent = market NOT pricing our thesis yet = we're early, not wrong
-- NEW: Created STRATEGY.md at SAM root — decision playbook (when to add/hold/exit, vol signals mapped to position decisions, 5-stage framework, asymmetry table)
-- Educated Will on: insurer hedge ratio spiral mechanics, stage framework, trade patience
-- Will agreed: hold 8 shares, don't add into headwind, let triggers work
-- TRADE.md is STALE (Mar 30, shows 4 shares, some prices may be wrong) — needs refresh next session
+### LAST SESSION (Apr 5)
+- Booted via Telegram (Will pinged). Full spawn protocol executed.
+- Integrated Norinchukin CLO contagion research (Will shared via Telegram):
+  - THESIS v1.1→v1.2: Added hedge ratio collapse (44.4%, 14yr low), institutional framing ($3.0-3.5T), GPIF non-risk, Norinchukin CLO shrinkage, USD/JPY 130-135 threshold
+  - Saved research to research/outputs/NORINCHUKIN_CLO_CONTAGION.md
+  - CHANGELOG updated with full v1.2 entry
+  - STATUS.md refreshed: market data table updated, Norinchukin integration section added
+  - Outbox signal written for LIQUID: hedge ratio + Norinchukin + UST holdings
+- Key new insight: hedge ratio 44.4% means system MORE exposed than we modeled. Repatriation base case may be conservative.
 
 ### NEXT SESSION
-1. Apr 3: Check MOF FY-end week flow data (w/e Mar 28). If net selling >¥1T = 🟠 LIQUID signal.
-2. Apr 4 (Fri): CFTC positioning update — have JPY shorts grown beyond -67.8K?
-3. Apr 6: Strike pause expiry. Did strikes resume? Oil impact. BINARY.
-4. Apr 7: 30Y JGB auction — THE stress test. BTC vs Mar's 3.65x. If <2.0x = 🔴 signal LIQUID/HENRY/PROME.
-5. Apr 7-9: Feb wage data (MHLW). Low marginal value unless surprise negative.
-6. Apr 7-14: Big 4 insurer FY2026 investment plans. Signal to LIQUID whatever they announce.
-7. Refresh TRADE.md — update position to 8 shares, fix stale prices, align with STRATEGY.md.
-8. 2 outbox items STILL pending HERMES: BROCK private credit + SK refiner. Flag to PROME.
-9. Apr 14-18: CRITICAL vol check window (pre-BOJ Apr 23-24). Ask Will for CVOL/FXY OI/RR data.
+1. **Apr 7 (Mon): 30Y JGB auction** — THE critical event. BTC vs Mar 3.65x at 3.7%+ yield. If <2.0x = 🔴 LIQUID/HENRY/PROME.
+2. Apr 7-9: Feb wage data (MHLW). Low priority unless surprise.
+3. Apr 7-14: Big 4 insurer FY2026 investment plans. Signal LIQUID on any announcement.
+4. Check CFTC Apr 4 release — have JPY shorts grown past -67.8K?
+5. Check MOF FY-end week flow data (still pending from last session).
+6. Refresh TRADE.md — update position to 8 shares, fix stale prices.
+7. 2 outbox items STILL pending HERMES: BROCK private credit + SK refiner. Flag to PROME.
+8. Apr 14-18: Vol check window (pre-BOJ). Ask Will for CVOL/FXY OI/RR data.

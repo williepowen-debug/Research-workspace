@@ -1,6 +1,6 @@
 # SAM STATUS
 
-**Signal Status:** 🔴🔴 ELEVATED — **POST-TANKAN DIGEST + OIL WHIPSAW RISK** | USD/JPY **~159.37** (rebounded from 158.82 overnight) | FXY **$57.58** (-0.38%) | Brent **~$101** (holding but Trump "finish the job" adds uncertainty) | JGB 10Y est. **~2.35%** | CARRY UNWIND 7D: **78%** (oil holds low but yen weakened overnight on mixed signals) | **Last Updated:** 2026-04-02 13:30 UTC
+**Signal Status:** 🔴🔴 ELEVATED — **ESCALATION RESUMED + 30Y AUCTION MONDAY** | USD/JPY **~160** (back at intervention trigger) | FXY **$57.54** | Brent **~$109** (war premium back, +8% Fri) | JGB 10Y **~2.39%** | JGB 30Y **~3.68%** | CARRY UNWIND 7D: **80%** | **Last Updated:** 2026-04-05 23:30 UTC
 
 ---
 
@@ -64,16 +64,16 @@ Analyst consensus shifting: 162-164 now cited as actual intervention trigger (Tr
 
 ---
 
-## MARKET DATA — APR 1
+## MARKET DATA — APR 5
 
-| Metric | Value | Δ from Mar 30 | Status |
+| Metric | Value | Δ from Apr 1 | Status |
 |--------|-------|---------------|--------|
-| USD/JPY | **158.86** | -0.79 from 159.65 | 🔴 (retreating) |
-| Brent | **~$101** | **-$14** from ~$115 | 🟠 (still elevated but pullback huge) |
-| FXY | **~$57.59** | -$0.09 | 🟠 |
-| JGB 10Y | est. **~2.35%** | -3bps | 🔴 (still near highs) |
-| Tankan Mfg | **17** | NEW | 🔴 (supports BOJ) |
-| Tankan Non-Mfg | **36** | NEW | 🔴 (supports BOJ) |
+| USD/JPY | **~160** | +1.14 from 158.86 | 🔴 INTERVENTION TRIGGER |
+| Brent | **~$109** | +$8 from ~$101 | 🔴 (war premium back) |
+| FXY | **$57.54** | -$0.05 | 🟠 (grinding) |
+| JGB 10Y | **~2.39%** | +4bps | 🔴 (1bp from 2.40% threshold) |
+| JGB 30Y | **~3.68%** | n/a | 🔴 (Apr 7 auction at this level) |
+| Insurer hedge ratio | **44.4%** | NEW (14yr low) | 🔴🔴 |
 
 ---
 
@@ -126,8 +126,18 @@ Analyst consensus shifting: 162-164 now cited as actual intervention trigger (Tr
 
 ---
 
+## NORINCHUKIN RESEARCH INTEGRATION (Apr 5)
+
+New data from Norinchukin CLO contagion research:
+- **Life insurer hedge ratio: 44.4% (Mar 2025) — 14-year low.** ~55% of foreign bonds ($370-550B) UNHEDGED.
+- Avg FX entry for unhedged: USD/JPY 135-145. Forced selling threshold: <130-135.
+- **Norinchukin** (world's largest CLO investor, ¥9.7T/$65B) already shrinking — ¥500B Q1 2026, "fastest on record."
+- Japan total institutional foreign portfolio: ~$3.0-3.5T. UST holdings: $1,185.5B (Dec 2025).
+- **GPIF is NOT a forced-selling risk** — ±6-7% bands, rebalances by buying foreign assets on yen appreciation.
+- Signal sent to LIQUID via outbox.
+
 ## THESIS
 
-Oil pullback is the most bullish development for FXY thesis in 2 weeks. Tankan beat strengthens BOJ hike case. Asada's dovish debut is expected but flags medium-term board resistance. Net: thesis intact, headwinds reducing.
+Thesis STRENGTHENED by Norinchukin research — hedge ratio collapse (44.4%) confirms system more exposed than modeled. Oil headwind returned ($109) but all catalysts accelerating: BOJ data hurdles cleared, intervention trigger retested, insurer stress measurable. Spring coiling tighter.
 
 *Archive: Pre-Mar 25 entries → archive/STATUS_pre_mar18.md | Full repatriation research: research/JAPAN_FYEND_REPATRIATION.md*
