@@ -1,0 +1,139 @@
+# CARL CHANGELOG
+
+Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each entry documents what changed, why, and the old view vs new view. This is the audit trail.
+
+**Versioning convention:**
+- THESIS: `vX.Y` — major (X) = structural thesis change (new mechanism, thesis break, conviction reversal). Minor (Y) = refinement (updated evidence, threshold adjustment, vector upgrade/downgrade).
+- PREDICTIONS: changes logged by Pred_ID.
+
+---
+
+## 2026-04-04 — STUDENT LOAN VECTOR REFRESH: 4→5, STUE ACTIVATED
+
+### THESIS Updated (minor, no version bump — convergence upgrade)
+**Author:** CARL
+**Action:** Student loan convergence vector #4 upgraded 4→5 (max). Convergence score 46→47/50. STUE sub-agent created.
+
+**What changed:**
+1. **FSA Data Center (Dec 2025, Mar 13 release):** 7.7M borrowers in default on $180B. +2.5M since Sep 2025. Active repayment 31+ DQ rate: 18.6% by dollar (vs 12.7% Dec 2019 — 46% worse). <40% of borrowers in repayment.
+2. **~25% DQ rate:** Protect Borrowers/TCF analysis — 25% of borrowers with payment due are behind. 7.9M entered delinquency in first 3Q 2025. Projection: 13M in default by EOY 2026.
+3. **SAVE ending Jul 1:** Settlement with Missouri. 7.5M borrowers get 90 days to select new plan. Non-selectors → 10-year standard plan (payment shock). RAP launches Jul 1.
+4. **MOHELA failures:** 2.5M missed bills → 800K manufactured delinquencies. Wait times 7-50x peers. ~2M credit report errors. $7.2M DOE penalty.
+5. **Treasury transfer (Mar 19):** Phase 1 — 9M defaulted borrowers to Treasury. Legal authority disputed.
+6. **Sweet v. McMahon:** 205K automatic discharges (Ninth Circuit rejected DOE delay Mar 25). Minor positive, drop in bucket.
+
+**Old view:** Student loan 90+ DQ at 9.6%, trending toward 10%. Vector score 4/5. SAVE enjoined, forbearance holding. Passive monitoring.
+**New view:** Mass default event actively executing. 7.7M in default, 25% DQ, servicer failures amplifying, SAVE ending forces 7.5M into repayment Jul 1, Treasury transfer creating chaos. Vector score 5/5 (max). STUE sub-agent activated for dedicated tracking.
+
+### PREDICTIONS Updated
+| Pred_ID | Change | Reason |
+|---------|--------|--------|
+| CRL-04 | 88% → **95%** | Student 90+ DQ >10%. FSA confirms 7.7M default, ~25% DQ, 18-29 cohort at 21%. SAVE ending Jul 1. Near-certain on next NY Fed release. |
+
+### New KB Entries
+KB-CARL-145 through KB-CARL-151 (7 entries covering FSA update, DQ rate, SAVE settlement, Treasury transfer, Sweet v. McMahon, MOHELA failures, demographic concentration).
+
+### New VX Entries
+VX-CARL-SL-05 (Borrowers in Default), VX-CARL-SL-06 (Treasury Transfer), VX-CARL-SL-07 (Servicer Failure). Existing SL-01 through SL-04 upgraded ORANGE→RED.
+
+---
+
+## 2026-04-03 — NFP MARCH: HEADLINE MASKS STRUCTURAL ROT
+
+### PREDICTIONS Updated
+**Author:** CARL
+**Action:** Confidence adjustments on 3 predictions after NFP Mar +178K headline beat.
+
+| Pred_ID | Change | Reason |
+|---------|--------|--------|
+| CRL-05 | 75% → **72%** | CC 90+ DQ GFC breach. Headline beat removes single-month employment catalyst, but Feb revised to -133K, LFPR 61.9%, real wages near zero. Multi-vector cost squeeze now primary driver, not employment break. |
+| CRL-09 | 75% → **73%** | JOLTS Mar <0.88. NFP +178K could imply some hiring channels reopened (healthcare, construction), but Kaiser return is one-time and LFPR collapse means denominator may shrink. |
+| CRL-11 | 85% → **83%** | Hires rate ≤3.2%. NFP establishment survey shows hiring in healthcare/construction/transport, but Kaiser is one-time. LFPR collapse suggests discouraged workers exiting, not broad hiring. |
+
+**Old view:** NFP -92K (Feb) was the employment catalyst accelerating consumer stress conversion.
+**New view:** NFP Mar +178K headline removes acute employment break narrative but internals (LFPR 61.9%, Feb revised -133K, wages 3.5% YoY) confirm structural rot. Mechanism unchanged — cost squeeze is primary, not employment detonator. Timeline: no change to Q2-Q3 stress window.
+
+**No THESIS version bump.** Thesis structure unchanged. Evidence base shifts slightly (employment less acute, but structural rot deepens). All load-bearing vectors intact.
+
+---
+
+## 2026-04-03 — FILE STRUCTURE REORGANIZATION
+
+### THESIS.md Restructured
+**Author:** CARL + Will
+**Action:** Moved THESIS.md to thesis/ directory. Extracted Composition Shift narrative to this CHANGELOG. Convergence matrix marked as canonical (STATUS.md mirrors). PREDICTIONS.tsv moved from workbook/ to thesis/.
+
+---
+
+## 2026-03-31 — v2.1: JOLTS INVERSION + GAS $4 + TRIPLE NITROGEN SEIZURE
+
+### THESIS Updated: v2.0 → v2.1
+**Author:** CARL
+**Action:** Minor version bump. Three vectors converging simultaneously confirmed.
+
+**What changed:**
+1. **JOLTS Feb: 0.91 (deepening).** Ratio dropped from 0.94 (Jan) to 0.91 in one month. Hires rate 3.1% = COVID-low. Quits rate 1.9% (8-month streak — workers trapped). Feb data PREDATES Iran — March will be worse.
+2. **Gas $4.02 behavioral breakpoint FIRED.** Up $1.04 in 33 days (+35%). SPR 172M barrel release failing — gas rose through the entire release. CNN behavioral confirmation of fuel-vs-food tradeoffs.
+3. **USDA wheat acreage: LOWEST SINCE 1919.** Corn -3.45M acres. Farmers fleeing N-intensive crops. Triple nitrogen seizure confirmed (Gulf + China + Russia). Food CPI loading for Q3-Q4.
+4. **Convergence score upgraded:** UI exhaustion 4→5 (duration +2.0wk single month), gas confirmed at max. Total: 44→46/50.
+
+**Old view (v2.0):** Multi-vector cost squeeze replacing employment detonator. Gas approaching $4, JOLTS newly inverted, food CPI possible but unconfirmed.
+**New view (v2.1):** Three independent vectors SIMULTANEOUSLY confirmed/firing. Gas $4 breached. JOLTS deepening. USDA locks in food CPI. No longer prospective — executing. Q3 = consumption stress quarter.
+
+### PREDICTIONS Added
+- CRL-09: JOLTS Mar ratio <0.88 (75% conf)
+- CRL-10: Food CPI YoY >4.0% (70% conf, Q4 2026)
+- CRL-11: Hires rate ≤3.2% through Q2 (85% conf)
+
+---
+
+## 2026-03-27 — INSURANCE RELIEF COUNTER-SIGNAL
+
+### THESIS Updated (minor, no version bump)
+**Author:** CARL
+**Action:** Added insurance relief as counter-evidence.
+
+**What changed:**
+- Auto insurance CPI collapsed from 20-30% to 5.9% YoY (BLS Feb 2026)
+- Homeowners insurance decelerating: national +8.5%, FL +18%, down from 50% (Insurify 2025)
+- Two cost-squeeze vectors easing
+
+**Assessment:** Partially offsets thesis but outweighed by energy, food, and UI exhaustion vectors intensifying. No score change. Logged in counter-evidence section.
+
+---
+
+## 2026-03-10 — v2.0: MECHANISM SHIFT (MAJOR)
+
+### THESIS Updated: v1.0 → v2.0
+**Author:** CARL
+**Action:** Major version bump. Thesis mechanism fundamentally changed.
+
+**Old view (v1.0, Feb 2026):** Employment cracks → subprime auto/CC DQ spikes → bank NCOs → systemic repricing. Linear, fast, employment-first. Single-point-of-failure model.
+
+**New view (v2.0, Mar 2026):** Multiple cost vectors (energy + food + insurance + HOA) simultaneously compress the bottom 60% while housing prices decline nationally. Employment is a slow grind, not a detonator. K-shape converging downward (top 40% now pulling back). Conversion through COST SQUEEZE + UI EXHAUSTION rather than mass layoffs.
+
+**Why the mechanism changed:** v1.0 assumed employment breaks → credit collapses → banks eat losses. Reality is a multi-point-of-pressure system. We expected an earthquake; we got subsidence — the ground is sinking everywhere, slowly, from multiple causes. The destination (consumer credit crisis → bank losses) is the same; the path is different.
+
+**Implications:**
+- **Timing:** Slower than v1.0. Q2-Q3 stress, grinding not step-function.
+- **Trades:** Longer duration needed. Roll timelines, don't trim positions.
+- **Convergence score:** Established 10-vector matrix to track multi-source pressure.
+
+### PREDICTIONS Established
+- CRL-01 through CRL-08 created (initial prediction set)
+
+---
+
+## 2026-02-23 — v1.0: THESIS ESTABLISHED
+
+### THESIS Created: v1.0
+**Author:** CARL
+**Action:** Initial thesis — "Beneath the Ice"
+
+**Core claim:** 60% of American households are structurally fragile. Employment crack is the detonator. Subprime auto and CC delinquencies are the first visible signals. Bank NCOs follow.
+
+**Initial predictions:** CRL-01 (gas peak stress), CRL-02 (subprime auto 60+ DQ >7.0%)
+
+---
+
+*This document is the audit trail for thesis evolution. Log every change with what/why/old→new. Read when assessing conviction or reviewing prediction calibration.*

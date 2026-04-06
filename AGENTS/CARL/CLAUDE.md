@@ -28,7 +28,8 @@ Key insight you must maintain: the K-shape was real and is now CONVERGING DOWNWA
    - New facts/claims → `workbook/KB.tsv` (one row per atomic claim)
    - Changed indicator levels → `workbook/VX.tsv` (update Current_Value + Status color)
    - Transmission/cascade mechanics → `workbook/FLOW.tsv`
-   - New predictions → `workbook/PREDICTIONS.tsv` (with Invalidation criteria)
+   - New predictions → `thesis/PREDICTIONS.tsv` (with Invalidation criteria)
+   - Prediction changes → log in `thesis/CHANGELOG.md`
 7. **Research detail → `domain/sources/`** — STATUS.md gets a summary, detail lives here
 8. **Cross-agent signals → `outbox/`** (HERMES delivers)
 9. **Rewrite `SCRATCH.md`** using the template below
@@ -201,7 +202,7 @@ When new consumer data arrives, always disaggregate:
 
 ## CONVERGENCE MATRIX
 
-Consumer stress converts to systemic risk when multiple vectors fire simultaneously. Convergence score: **46/50 CRITICAL** (see STATUS.md for full 10-vector breakdown).
+Consumer stress converts to systemic risk when multiple vectors fire simultaneously. Convergence score: **46/50 CRITICAL** (canonical matrix in `thesis/THESIS.md`, dashboard mirror in STATUS.md).
 
 | Vector | Status | Weight |
 |--------|--------|--------|
@@ -230,7 +231,7 @@ Consumer stress converts to systemic risk when multiple vectors fire simultaneou
 3. **Phantom debt gets refinanced** — BNPL/cash advance absorbed into conventional credit
 4. **Government intervention** — student loan forgiveness, mortgage forbearance 2.0, stimulus, UI extension
 
-**Mandatory review:** Q1 consumer earnings (April 2026). See THESIS.md for full exit framework.
+**Mandatory review:** Q1 consumer earnings (April 2026). See `thesis/THESIS.md` for full exit framework.
 
 ---
 
@@ -239,10 +240,12 @@ Consumer stress converts to systemic risk when multiple vectors fire simultaneou
 | File | Purpose |
 |------|---------|
 | `SCRATCH.md` | Ephemeral handoff. Rewritten every session. **Read FIRST at boot.** Uses template (see Spawn Protocol). |
-| `THESIS.md` | Thesis of record — "Beneath the Ice" v2.1, load-bearing vectors, composition shift, exit rules. Read when assessing conviction or trade proposals. |
+| `STATUS.md` | Live state — dashboard, K-shape, convergence mirror. **Primary memory.** ≤250 lines. |
 | `ROADMAP.md` | Persistent backlog. Read when spawned for maintenance/housekeeping tasks. |
-| `STATUS.md` | Live state — dashboard, K-shape, predictions. **Primary memory.** ≤250 lines. |
 | `TRADE.md` | Domain trade ideas — consumer credit plays, ABS shorts, housing. Read on trade spawns. |
+| `thesis/THESIS.md` | Thesis of record — "Beneath the Ice" v2.1, load-bearing vectors, convergence matrix (canonical), exit rules. Read when assessing conviction or trade proposals. |
+| `thesis/PREDICTIONS.tsv` | Trackable predictions with resolution dates + invalidation criteria. |
+| `thesis/CHANGELOG.md` | Audit trail of thesis evolution — every version bump, prediction change, structural shift logged with what/why/old→new. |
 | `inbox/` | Inbound signals. Process when spawned for it. |
 | `outbox/` | Outbound signals. One file per signal. HERMES delivers. |
 | `red_team/` | Counter-evidence log + competing hypotheses (SOFT_LANDING, CONTAINMENT). NOT boot material — read when assessing conviction. |
@@ -250,16 +253,14 @@ Consumer stress converts to systemic risk when multiple vectors fire simultaneou
 | `workbook/KB.tsv` | Knowledge base — 13-column schema (ID/Date/Group/Entity/Fact/Source/Conf/Epistemic/Status/Stale_By/DerivedFrom/Vectors/Notes). ID format KB-CARL-NNN. |
 | `workbook/VX.tsv` | Indicator vectors — threshold tracking with Y/O/R status colors. See stale data rules. |
 | `workbook/FLOW.tsv` | Transmission mechanics — payment hierarchy, K-shape cascade, stress conversion paths. |
-| `workbook/PREDICTIONS.tsv` | Trackable predictions with resolution dates + Invalidation criteria. |
 | `workbook/ABS_BASELINE.tsv` | ABS trust performance baselines (subprime auto/CC). |
 | `workbook/BNPL_STRESS.tsv` | BNPL/phantom debt tracking. |
 | `workbook/STATE_DIFFUSION.tsv` | State-level stress diffusion (FL/TX/MD priority). |
 | `workbook/TRENDS.tsv` | Consumer trend data. |
 | `workbook/ML.tsv` | Legacy data log. |
-| `domain/sources/` | Research archives, STATUS backups, deep dives. |
+| `domain/sources/` | Research archives, deep dives. |
 | `research/` | Deep dives (MD analysis, etc.). Reference, not boot material. |
-| `sub_agents/` | 6 sub-agents: GIG (gig economy), DOC (medical debt), NICK (student loans), POLLY (insurance), POP (demographics), META (meta-analysis). Currently dormant. |
+| `archive/` | STATUS backups, legacy data, old analysis. Historical reference only. |
+| `sub_agents/` | 6 sub-agents: GIG (gig economy), DOC (medical debt), STUE (student loans — replaces NICK), POLLY (insurance), POP (demographics), META (meta-analysis). STUE active; others dormant. |
 
-**All TSVs live in `workbook/`.** Root TSVs are canonical — `workbook/` files are the source of truth.
-
-`workbook/*.md` files are STATUS archives — historical, don't load at boot.
+**Data TSVs live in `workbook/` (TSVs only — no prose).** Predictions live in `thesis/`. Archives live in `archive/`.
