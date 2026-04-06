@@ -24,10 +24,10 @@ SDART_2024-5	Subprime Auto	Santander	19.22%	7.80%	1.89%	5.14% CNL	—	🔴 CRITI
 SDART_2025-1	Subprime Auto	Santander	17.15%	6.95%	1.62%	4.22% CNL	—	🔴 CRITICAL	Jan-2026	EDGAR 10-D	13mo seasoned. $2.25B orig → $1.43B. LARGEST POOL. Class E tranche added.
 HAROT_2024-1	Prime Auto	Honda	1.21%	0.28%	0.05%	0.25% CNL	—	🟢 NORMAL	Jan-2026	EDGAR 10-D	24mo seasoned. CONTROL. $2.16B orig → $724M. Monthly NL 0.03%. 34x CNL gap vs SDART.
 Exeter_2024	Deep Subprime	Exeter	—	—	—	20.75% ECL	—	🔴 CRITICAL	2025	S&P	S&P hiked expected cumulative net loss
-Aggregate_Subprime_Auto	Subprime Auto	Multiple	—	>6.0%	—	—	—	🔴 CRITICAL	Oct-2025	CBT News	Record; 30x vs prime (0.2%)
+Aggregate_Subprime_Auto	Subprime Auto	Multiple	—	6.9% ATR	—	—	—	🔴🔴 CRITICAL	Jan-2026	Fitch/Wolf Street	Record high. Up 34bps from 6.56% Jan 2024. Santander highest among lenders at 7.9% (Dec-2025).
 
 # PRIME AUTO (Baseline)
-Aggregate_Prime_Auto	Prime Auto	Multiple	—	0.2%	—	—	—	🟢 NORMAL	Oct-2025	Fitch	Pristine; K-shape confirmed
+Aggregate_Prime_Auto	Prime Auto	Multiple	—	0.4%	—	—	—	🟢 NORMAL	Jan-2026	Fitch/Wolf Street	Unchanged from Dec-2025. Even GFC peak was only 0.9%. K-shape: 17x gap vs subprime (6.9% vs 0.4%).
 
 # STATE-LEVEL 90+ DQ (NY FED)
 State_Nevada	State	NY Fed	—	—	14.53%	—	—	🔴 CRITICAL	Q4-2025	NY Fed	Worst state
@@ -47,8 +47,13 @@ Age_All	Cohort	NY Fed	—	—	7.13%	—	—	🟠 HIGH	Q4-2025	NY Fed	+181bps vs 
 # Charge-Off: 🟢<3.0% | 🟡3.0-4.0% | 🟠4.0-5.0% | 🔴>5.0%
 # State 90+ DQ: 🟢<10% | 🟡10-12% | 🟠12-14% | 🔴>14%
 
-# KEY INSIGHT:
-# Credit metrics STABILIZING at elevated levels (35-50% of GFC peak)
+# ALL AUTO LOANS (NY FED + WOLF STREET)
+All_Auto_Aggregate	All Auto	NY Fed	—	1.61%	—	—	—	🟡 ELEVATED	Dec-2025	Wolf Street/NY Fed	Down from 1.66% Jan-2025 high. Total balance $1.67T. Auto-to-DPI ratio 7.2% (lowest since 2014).
+
+# KEY INSIGHT (Updated Apr 5):
+# Subprime 60+ DQ at ALL-TIME RECORD (6.9% Jan 2026). Prime pristine (0.4%). Gap = 17x.
 # State/age divergence extreme: NV 14.53% vs WI 7.62% = 6.91pp K-shape
-# Major issuers improving: Discover/CapOne both declining QoQ
-# CARL thesis = coiled spring, not active fire. Employment shock is trigger.
+# CC issuers Discover/CapOne declining QoQ but SYF NCO spiking (5.8%)
+# SDART trust-level data current through Jan-2026 collection. EDGAR blocked — Feb/Mar 10-D pull needed manually.
+# Tricolor collapse + PrimaLend + Goeasy = subprime lender failure cascade. Warehouse lending tightening = credit supply squeeze.
+# CARL thesis = coiled spring with multiple triggers loading (gas $4+, food CPI, UI exhaustion). Employment shock accelerates but is no longer sole trigger.

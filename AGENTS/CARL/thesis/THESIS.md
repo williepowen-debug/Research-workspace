@@ -76,30 +76,26 @@ NFP -92K confirmed but claims benign (210K initial, 1,819K continuing). **JOLTS 
 
 ---
 
-## The Composition Shift
+## Thesis Evolution
 
-**Original thesis (v1.0, Feb 2026):** Employment cracks → subprime auto/CC DQ spikes → bank NCOs → systemic repricing. Linear, fast, employment-first.
+*Full history in `thesis/CHANGELOG.md`. Summary:*
 
-**Current thesis (v2.0, Mar 2026):** Multiple cost vectors (energy + food + insurance + HOA) simultaneously compress the bottom 60% while housing prices decline nationally. Employment is a slow grind, not a detonator — but JOLTS inversion (0.94 ratio, Jan 2026) confirms the labor market is structurally weaker than claims suggest. The K-shape is converging downward (top 40% now pulling back — Dollar Tree gained 6.5M HH in Q4, 60% from >$100K earners). Conversion happens through COST SQUEEZE + UI EXHAUSTION rather than mass layoffs.
+- **v1.0 (Feb 2026):** Employment-first detonator → subprime cascade → bank losses. Linear, fast.
+- **v2.0 (Mar 2026):** Multi-vector cost squeeze (energy + food + UI exhaustion) replaces single employment detonator. Subsidence, not earthquake. K-shape converging downward.
+- **v2.1 (Mar 31 2026):** JOLTS inversion confirmed (0.91 Feb). Gas $4 breakpoint fired. Triple nitrogen seizure. Three vectors converging simultaneously.
 
-**Why the mechanism changed:** v1.0 assumed a single-point-of-failure system (employment breaks → credit collapses → banks eat losses). Reality is a multi-point-of-pressure system: energy, food, insurance, HOA, and UI exhaustion simultaneously compressing disposable income from different directions, while employment weakens structurally rather than breaking acutely. We expected an earthquake; we got subsidence — the ground is sinking everywhere, slowly, from multiple causes. The destination (consumer credit crisis → bank losses) is the same; the path is different.
-
-**What this means for timing:** Slower than v1.0 modeled. Q2-Q3 stress, but grinding rather than step-function. Gas has breached $4 (Mar 31); the next catalyst requiring (a) gas sustained >$4.50, (b) food CPI visibly spiking, or (c) an unmodeled event (CVNA fraud, private credit cascade). GDPNow has dropped from 2.7% to 2.0% (Mar 23) — stall speed approaching.
-
-**What this means for trades:** Longer duration needed. The thesis plays out over quarters, not weeks. Roll timelines, don't trim positions.
-
-**Insurance relief (Mar 27 update):** Auto insurance CPI collapsed from 20-30% to 5.9% YoY. Homeowners insurance decelerating (national +8.5%, FL +18%, down from 50%). Two cost-squeeze vectors easing. This partially offsets the thesis but is outweighed by energy, food, and UI exhaustion vectors intensifying.
+**Current mechanism:** Cost squeeze + UI exhaustion + housing pipeline. Employment is structural rot, not acute break. Timing: Q2-Q3 stress, grinding not step-function. Trades need longer duration — roll, don't trim.
 
 ---
 
-## Convergence Score: 46/50
+## Convergence Score: 47/50 *(canonical — STATUS.md mirrors for dashboard)*
 
 | # | Vector | Score | Trend |
 |---|--------|-------|-------|
 | 1 | CC 90+ DQ → GFC | 4 | Stable |
 | 2 | Subprime Auto 60+ | 5 | BREACHED, stable at max |
 | 3 | Fannie MF DQ → GFC | 4 | Imminent |
-| 4 | Student Loan 90+ | 4 | Stable |
+| 4 | Student Loan 90+ | 5 | BREACHED — 7.7M default, ~25% DQ, SAVE ending Jul 1. Max. |
 | 5 | Gas Price Squeeze | 5 | $4.02 BREACHED, max |
 | 6 | UI Exhaustion Wave | 5 | Duration +2.0wk single month, cont claims drop = exhaustion, DOGE 260K+ |
 | 7 | FL Triple Squeeze | 4 | Strengthening (outmigration) |
@@ -107,7 +103,9 @@ NFP -92K confirmed but claims benign (210K initial, 1,819K continuing). **JOLTS 
 | 9 | K-Shape Converging | 5 | Active, max |
 | 10 | Foreclosure + Housing | 4 | STRENGTHENING (878K pipeline, cure rates -40%) |
 
-**Composition note (Mar 31 update):** Gas $4.02 BREACHED. SPR failing. UI exhaustion upgraded 4→5: duration spiked +2.0wk in single month to 25.7wk (4-yr high), continuing claims dropping to 2-yr low reinterpreted as exhaustion not recovery, DOGE 260K+ cuts layered on. 878K mortgages in 90+/foreclosure (+25% in 4 months), cure rates -40%. RV collapse (50% value loss) confirms reverse wealth effect. Stagflation in published data (PCE 3.1%, GDP 0.7%). GDPNow dropped to 2.0%. Triple nitrogen seizure all three sources confirmed + ICE ag labor removal = dual food CPI channels. SYF DQ rising MoM. Insurance cooling (auto 5.9%, homeowners decelerating) provides partial offset but outweighed by upgrades. Load-bearing walls: energy + food + UI exhaustion + housing pipeline.
+**Composition note (Apr 4 update):** Student loan 90+ upgraded 4→5: FSA confirms 7.7M default/$180B (Dec 2025), ~25% of borrowers w/payment due behind, 18-29 cohort at 21% 90+DQ, SAVE plan ending Jul 1 forces 7.5M into repayment, MOHELA failures manufacturing 800K DQ from missed bills, Treasury transfer creating operational chaos. Score 46→47/50. All prior upgrades remain (gas breached, UI exhaustion max, etc.). STUE sub-agent activated for student loan drill-down.
+
+**Prior (Mar 31):** Gas $4.02 BREACHED. SPR failing. UI exhaustion upgraded 4→5. 878K mortgages in 90+/FC pipeline (+25% in 4mo), cure rates -40%. RV collapse confirms reverse wealth effect. Stagflation in published data (PCE 3.1%, GDP 0.7%). Triple nitrogen seizure confirmed. Load-bearing walls: energy + food + UI exhaustion + housing pipeline + student loan mass default.
 
 ---
 
@@ -143,4 +141,4 @@ See `red_team/COUNTER_LOG.md` for full log. Current key counter-signals:
 
 ---
 
-*This document is the thesis of record. Update when composition shifts, vectors fire/invalidate, or exit conditions approach. SCRATCH.md references this for session orientation.*
+*This document is the thesis of record. Update when composition shifts, vectors fire/invalidate, or exit conditions approach. Log all changes in `thesis/CHANGELOG.md`. Predictions tracked in `thesis/PREDICTIONS.tsv`. SCRATCH.md references this for session orientation.*

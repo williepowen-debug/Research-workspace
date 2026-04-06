@@ -13,17 +13,28 @@ Date	Term	Geography	Value	YoY Change	Status	Notes
 
 # TERMS TO TRACK (Monthly)
 # Tier 1 (Desperation): sell plasma, pawn shop, payday loan
-# Tier 2 (Housing): eviction help, can't pay rent, eviction notice
+# Tier 2 (Housing): eviction help, can't pay rent, eviction notice, help with mortgage
 # Tier 3 (Debt): debt relief, bankruptcy lawyer, debt consolidation
 # Tier 4 (Basics): food bank near me, utility assistance
 
-# BASELINE CHECK - Feb 2026 (to be populated on first full check)
-# Next scheduled: Week of Feb 17, 2026
+# STATUS: Google Trends index values require manual interactive pull.
+# Below are PROXY INDICATORS sourced from news/data where Trends index unavailable.
 
-# PROTOCOL:
-# 1. Go to Google Trends
-# 2. Enter term, set geography (US, then FL, TX)
-# 3. Set time range: Past 12 months
-# 4. Compare to same period prior year
-# 5. Log value (0-100) and YoY change
-# 6. Flag any >20% YoY or ATH
+# === CONFIRMED ATH / CRITICAL SIGNALS ===
+2026-03	help with mortgage	US-National	ATH	—	🔴🔴 ATH	Confirmed in STATUS.md. Surpasses GFC. Source: Google Trends via PROME SIG-Apr-2.
+2026-03	sell plasma	US-National	PROXY	+8.4% collections YoY (2025), +11% projected 2026	🔴 CRITICAL	$4.7B industry, 200K/day, 75M donations 2025. +30% since 2022. Middle-class now selling ($87K-$120K earners). Source: NBC/La Voce Feb 2026.
+
+# === PROXY: PAWN SHOP ACTIVITY ===
+2026-04	pawn shop	US-National	PROXY	Market $42.95B→$44.26B (+3.06% CAGR)	🟠 ELEVATED	Marketplace Apr 2: "when my business is real good, it's not a good thing." 66% of low-income/underbanked consumers use short-term credit. Source: Marketplace/Maximize Market Research.
+
+# === PROXY: RENT/EVICTION STRESS ===
+2026-Q1	can't pay rent	US-National	PROXY	Median HH 31% of income to rent	🟠 ELEVATED	"Rent Now Pay Later" products emerging = repackaged payday loans at 399% APR. CFPB complaints rising. Source: Protect Borrowers 2026.
+
+# === PROXY: FOOD BANK DEMAND ===
+# No current data pulled. Tier 4 terms need manual Google Trends check.
+
+# === NEXT STEPS ===
+# 1. Manual Google Trends pull for all Tier 1-4 terms (National + FL + TX)
+# 2. Compare to prior year baseline
+# 3. Cross-reference with "Walmart recession signal" (WMT/Luxury Index at GFC levels per PROME Apr 2)
+# 4. Track: "debt relief" + "bankruptcy lawyer" — bankruptcy filings likely spiking Q2-Q3
