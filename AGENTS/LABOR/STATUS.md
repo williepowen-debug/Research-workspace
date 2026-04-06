@@ -1,5 +1,30 @@
 # LABOR STATUS
-**Last Updated:** 2026-04-03 13:05 UTC | **Status:** 🔴🔴 CRITICAL — NFP +178K (STRIKE BOUNCE, HEALTHCARE 76K = 43% OF TOTAL). U-3 4.3% (↓0.1). FEB REVISED TO -133K. FED GOVT -355K TOTAL. WAGE GROWTH 3.5% (SLOWEST SINCE 2021). BREAKEVEN JOBS MAY BE NEGATIVE (DALLAS FED). SHADOW +65K. APR 10 CLAIMS = FL WAVE 1 LAG TEST. CONVERGENCE 56/65.
+**Last Updated:** 2026-04-06 20:20 UTC | **Status:** 🟡 POST-NFP DIGEST DAY — MARKETS ABSORB +178K HEADLINE. NO NEW LABOR DATA. FL WAVE 1 LAG TEST REMAINS THURS APR 10. CONVERGENCE 56/65.
+
+**Signal Apr 6 — EOD (20:20 UTC):**
+
+**📊 MARKET REACTION TO NFP: MUTED OPTIMISM.** S&P 500 +0.12%, Dow -0.18%, Nasdaq +0.42% at close. Markets absorbed the +178K NFP headline without euphoria. No "soft landing back on" narrative took hold — credit concerns (HY OAS 313) and Hormuz uncertainty keeping sentiment cautious. Russell 2000 outperformed (+0.75%) — small-cap catch-up trade, not labor-driven.
+
+**📊 NO NEW LABOR DATA TODAY.** Monday economic calendar had ISM Services (10 AM ET) — not a labor release. Next LABOR-critical print: Thursday 8:30 AM ET claims (week ending Apr 4).
+
+**📊 CROSS-DOMAIN SIGNALS:**
+- **Unilever hiring freeze:** First major multinational explicitly citing Hormuz war for 3-month global hiring freeze. Corporate transmission chain confirmed: Hormuz → input costs → labor demand destruction. Expect more to follow.
+- **Reuters/Iran war labor analysis:** "Six-month average monthly payroll growth is close to zero" — consensus catching up to our Hotel California thesis.
+- **Bloomberg:** "Curious kind of balance" (Powell's term) holding but "war in Iran threatens to upend it."
+
+**📊 NFP POST-MORTEM (Apr 3, Good Friday):** +178K headline beat consensus (+60K) but internals confirm Hotel California thesis:
+- Healthcare +76K (43% of total, includes 31K Kaiser strike return) — strip both = +102K organic
+- Federal -18K (total -355K since Oct 2024 peak, -11.8%)
+- Financial -15K (credit stress bleeding through)
+- Feb revised to -133K (net revisions -7K) — trough deeper than reported
+- Wages +3.5% YoY (slowest since 2021), workweek shortened to 34.2 hrs
+- Dallas Fed breakeven now ~10K/month due to immigration supply collapse — +178K is above-trend but NOT robust in context
+
+**📊 CLAIMS 202K — FL WAVE 1 INVISIBLE:** Week ending Mar 28 was first window to capture FL Wave 1 firings (Mar 24). ZERO signal. Strengthens suppression thesis. Shadow adjustment +55K → +65K. Decision rule: if Apr 10 claims <215K, upgrade to +70K.
+
+**📊 DHS SHUTDOWN DEAL REACHED:** Removes uncertainty but structural damage done. 42-day shutdown already disrupted seasonal patterns, contractor flows. Mullin (DHS Sec) confirmed — promised to end claims suppression "Q2."
+
+**⚠️ THURS APR 10 CLAIMS = CRITICAL:** Week ending Apr 4. If FL Wave 1 was processing lag (not suppression), it appears here. If claims still <215K → FL confirmed suppressed → shadow ↑ +70K. This is the make-or-break print for suppression thesis.
 
 **Signal Apr 3 — NFP MARCH 2026 (13:05 UTC):**
 

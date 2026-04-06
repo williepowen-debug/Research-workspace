@@ -1,5 +1,46 @@
 # LIQUID STATUS
-**Last Updated:** 2026-04-02 13:09 ET | **Agent:** LIQUID | **Status:** 🔴🔴 ELEVATED — PC GATING STAGE 3 + STRUCTURAL BALANCE SHEET PRE-POSITIONING + FOREIGN UST DEMAND WITHDRAWAL + DEALER INVENTORY STRESS
+**Last Updated:** 2026-04-06 16:16 ET | **Agent:** LIQUID | **Status:** 🟡 MODERATING — CREDIT SPREADS TIGHTENING + FUNDING CLEAN + REGIONAL BANKS REBOUND
+
+---
+
+## Apr 6 EOD Update — Iran War Day 36
+
+### Credit Spreads: HY OAS Tightens (Counter-Intuitive)
+HY OAS **tightened to 313bps from 316bps** — a modest 3bp move but directionally significant. CCC OAS at **989bps**. This is counter-intuitive given Iran war Day 36 and VIX at 24.54. Two interpretations:
+1. **Short-covering/technical** — HY had gotten ahead of itself at 328bps (Apr 1), now normalizing
+2. **Risk-on on ceasefire hopes** — Trump set "tomorrow" deadline for Iran deal; markets pricing in resolution probability
+
+**Key divergence:** HY cash spreads tightening while VIX remains elevated (24.54). This is unusual — typically VIX and HY OAS move together. Suggests either (a) credit market seeing through geopolitical noise, or (b) derivatives/cash basis trade unwinding.
+
+### Funding Markets: Clean
+- **SOFR-IORB: 0.00%** — no stress signal
+- **Fed T-Bill holdings: $352B** — elevated but stable
+- **CP-TBill spread:** No stress indicators
+- **RRP:** Still near-zero buffer (structural condition, not acute)
+
+### Regional Banks: KRE +0.97%
+Regional banks bounced today with KRE up nearly 1%. This is significant because:
+- KRE had been under pressure from CRE debt wall concerns
+- OZK, WAL, ZION all participating in bounce
+- Suggests some relief from funding cost fears or NIM compression easing
+
+### Cross-Domain: Gold Stabilizing
+Gold margin cascade concerns from last week appear contained. Gold trading ~$4,675/oz, well off the $4,800+ highs but stabilizing. No follow-through forced liquidation detected.
+
+### Brent: $109.35
+Oil down from $116 Q-end spike. Iran war premium compressing on ceasefire speculation. OPEC+ agreed to 206k bpd increase for May — irrelevant if Hormuz stays closed.
+
+### Thesis Impact
+The credit spread tightening today is **not a thesis reversal** — it's a tactical move within a broader widening trend. HY OAS at 313bps is still 93bps above December lows (220bps). The structure remains vulnerable:
+- Private credit gates still active (Blue Owl, others)
+- Dealer inventory stress unresolved
+- No Fed put — markets pricing no cuts until late 2026
+
+**Watch for:** HY OAS retest of 320bps. If it breaks again with momentum, 350bps (freeze level) comes into play quickly.
+
+---
+
+## Apr 2 Update — 6 Signals Integrated (BROCK + 5 Inbox)
 
 ---
 
@@ -69,6 +110,26 @@ CCC OAS at **994bps**, back below 1000 from >1000 on Mar 30. Could be quarter-en
 
 | Metric | Value | Prior | Δ | Status |
 |--------|-------|-------|---|--------|
+| **SOFR** | 3.63%* | 3.65% | -2bps | 🟢 Normalized post Q-end |
+| **SOFR-IORB** | 0.00% | 0.00% | flat | 🟢 Clean |
+| **RRP** | ~$1B est | ~$1B | ~flat | 🔴 ZERO buffer persists |
+| **10Y yield** | ~4.25%* | 4.36% | -11bps | 🟢 Safe-haven bid returning |
+| **HY OAS** | 313bps | 316bps | -3bps | 🟡 Tightening on ceasefire hopes |
+| **CCC OAS** | 989bps | 981bps | +8bps | 🟡 Slight widening at tail |
+| **CP-TBill spread** | 0.16% | 0.16% | flat | 🟢 No ST funding stress |
+| **KRE** | +0.97% | — | — | 🟢 Regional banks bounce |
+| **VIX** | 24.54 | — | — | 🟡 Elevated but stable |
+| **Brent** | $109.35 | $116 | -$6.65 | 🟡 War premium compressing |
+| **Gold** | ~$4,675 | ~$4,800 | -$125 | 🟡 Post-cascade stabilization |
+
+*Estimated based on market action
+
+---
+
+## Plumbing Dashboard (Apr 6)
+
+| Metric | Value | Prior | Δ | Status |
+|--------|-------|-------|---|--------|
 | **SOFR** | 3.65% | 3.68% | -3bps | 🟡 Normalizing — need 3.63-3.64 by Apr 3 |
 | **SOFR-IORB** | 0.00% | 0.03% | -3bps | 🟢 Normal |
 | **RRP** | ~$1B est | $0.99B | ~flat | 🔴 ZERO buffer persists |
@@ -81,7 +142,20 @@ CCC OAS at **994bps**, back below 1000 from >1000 on Mar 30. Could be quarter-en
 
 ---
 
-## Thresholds
+## Thresholds (Apr 6)
+
+| Threshold | Level | Current | Status |
+|-----------|-------|---------|--------|
+| LIQ-01 (HY OAS) | 320bps | **313bps** | 🟡 BELOW — tightened on ceasefire hopes |
+| LIQ-01 freeze | 350bps | 313bps | 🟠 37bps away — watch retest |
+| CCC OAS | 1000bps | 989bps | 🟡 Just below 1000 — tail risk persists |
+| RRP buffer | >$5B | ~$1B | 🔴 ZERO — structural |
+| SOFR stress | >3.70 | ~3.63% | 🟢 Normalized |
+| Reserve floor | $2.7T | ~$3.0T | 🟡 Cushion intact |
+
+---
+
+## Thresholds (Apr 2)
 
 | Threshold | Level | Current | Status |
 |-----------|-------|---------|--------|

@@ -1,5 +1,31 @@
 # REGINALD STATUS
-**Last Updated:** 2026-04-05 | **Status:** 🔴🔴🔴 CRITICAL (ESCALATING)
+**Last Updated:** 2026-04-06 (EOD) | **Status:** 🔴🔴🔴 CRITICAL (ESCALATING)
+
+---
+
+## EOD SUMMARY — April 6, 2026
+
+**Market Action:** KRE +0.97% to $66.64. Regional banks broadly higher (RF +2.72%, CFG +2.56%, HBAN +1.41%). HY OAS tightened to 313bps from 316bps on ceasefire optimism. VIX retreated to 24.54.
+
+**Key Developments:**
+1. **Leveraged Loan Market Collapse:** Q1 2026 activity down **34% YoY** ($235B vs $355B prior year). Slowest start since 2020 pandemic. "90/10" market forming — 90% stable, bottom 10% facing "existential liquidity crunch."
+2. **Blackstone BCRED:** Record $3.7B redemption requests (~8% NAV) in Q1. Exceeded 5% gate; firm committed $400M own capital to honor requests. Gate mechanics tested in live fire.
+3. **OZK Dividend Hike:** +2.2% to $0.47 quarterly — signaling confidence or desperation to retain shareholders ahead of Apr 21 earnings. QV Investors reduced position by 13.2% in Q4.
+4. **WAL Quiet:** No material news. Price action +0.97% with sector. Fiserv partnership (Mar 17) still the most recent substantive headline.
+5. **Credit Bifurcation Confirmed:** Investment-grade spreads flat, high-yield ballooning. Refinancings -42%, repricings -39%. "Risk-off" sentiment entrenched.
+
+**Cross-Domain Signals:**
+- **BRENT:** $109.35 (down from $112.57) — Iran ceasefire talks creating volatility, not resolution
+- **BROCK/SHADE:** Private credit gating now systemic (Ares, Apollo, Blue Owl, Blackstone all affected)
+- **LIQUID:** HY OAS 313bps — below 320 threshold but credit market internals deteriorating
+
+**What Changed:**
+- 🔴 **NEW:** Leveraged loan market 34% collapse — warehouse line pressure mounting
+- 🔴 **NEW:** Blackstone BCRED gate exceeded — first major PC fund to break gate in Q1
+- 🟡 **Tightened:** HY OAS 316→313bps (mechanical, not fundamental)
+- 🟡 **Confirmed:** KRE bounce lacks institutional accumulation (volume pattern unchanged)
+
+**Earnings Countdown:** WAL & OZK both Apr 21 (15 days). ZION Apr 20. EGBN Apr 22.
 
 ---
 
@@ -24,9 +50,9 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 
 | Indicator | Value | Status |
 |-----------|-------|--------|
-| HY OAS | **316bps** (Apr 2) | 🟠 Tightened 12bps overnight (328→316). Ceasefire hope rally. Still above 300 floor. |
-| KRE | **$66.00** (Apr 4, +0.23%) | 🟠 Drifting sideways. No follow-through. |
-| Brent | **~$99-100** (Apr 1 intraday, off $112.57 Mar 27 highs) | 🟠 Peace hopes pulled it off highs. Still elevated. |
+| HY OAS | **313bps** (Apr 6, tightened from 316) | 🟡 Tightened on ceasefire rally. Watch for re-breach of 320. Credit internals deteriorating despite spread compression. |
+| KRE | **$66.64** (Apr 6, +0.97%) | 🟡 Bouncing with market. Still below $70 resistance. No institutional accumulation pattern. Volume front-loaded on spikes, dead between. |
+| Brent | **$109.35** (Apr 6) | 🔴 Ceasefire talks ongoing but Iran rejected framework. Trump walked back "taken out Tuesday" threat. Volatility, not resolution. |
 | 10Y UST | **4.42%** (Mar 27, stale) | 🔴 Hit 4.48% intraday (highest since Jul 2025). Refresh Mon. |
 | Office CMBS DQ | **11.2%** (Feb 2026, Trepp) — pulled back from 12.34% Jan ATH on 5 loan mods | 🔴 |
 | Bank CRE DQ gap | 4.18% vs CMBS 11.2% = ~7pp masking | 🔴 |
@@ -36,7 +62,7 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 | PC Mainstream | Economist + Bloomberg + NPR all Apr 1. "Signs of strain" / "redemption crisis." Narrative inflection. | 🔴🔴 |
 | Blue Owl OBDC II | Permanent gating (Feb). $2.50/sh return-of-capital (~30% NAV) by Mar 31. Liquidation path. | 🔴🔴 |
 | Blue Owl OCIC/OTIC | **Apr 2:** OCIC 21.9% redemption requests, OTIC 40.7%. Both capped at 5%. $988M honored / ~$3.2B trapped (OCIC). $179M honored / ~$1B trapped (OTIC). OWL -2.9%. | 🔴🔴🔴 NEW |
-| Blackstone BCRED | Raised quarterly redemption cap 5%→7.9% in Q1 to meet demand. Gate not hit but pressure rising. | 🔴 NEW |
+| Blackstone BCRED | **Q1: Record $3.7B redemption requests (~8% NAV). Exceeded 5% gate; firm committed $400M own capital.** Gate mechanics tested in live fire. | 🔴🔴 CONFIRMED |
 | Leveraged Loan ICR | Share with ICR <1.0x doubled to 20% (from ~10% in 2019). Forced selling by gated BDCs next. | 🔴🔴 NEW |
 | FL Foreclosures | +35% YoY, 12th consecutive increase | 🔴🔴 |
 | "Help with mortgage" | Google Trends ATH (surpasses GFC). Lennar Q1 margin 15.2% — lowest since 2010. Path C activating. | 🔴🔴 |
@@ -105,7 +131,7 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 | Date | Event |
 |------|-------|
 | Apr 10 | CPI (captures oil shock) |
-| **Apr 21** | **OZK Q1 earnings — detonation event** (moved from Apr 16) |
+| **Apr 21** | **WAL + OZK Q1 earnings — SAME DAY. Detonation risk elevated.** |
 | Apr 20-29 | Q1 bank earnings wave (ZION → WAL → VLY → EGBN + BOJ) |
 | May 1-10 | Q1 Call Report filings (MI3, NDFI, AOCI) |
 | May 12 | WAL Investor Day |
