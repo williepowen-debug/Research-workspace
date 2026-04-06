@@ -41,7 +41,7 @@
 | 🟠 | NEXUS/RED/HANS check-ins | All 8-9+ days stale |
 
 ## Active Spawns
-NEXUS Pass 12 running (spawned Apr 4). CARL/REGINALD/SAM on Claude Code (do not spawn).
+NEXUS Pass 12 running (spawned Apr 4). CARL/REGINALD/SAM/RED/BRENT are persistent agents on Claude Code/Telegram — **do not spawn sub-agents for these five**.
 
 ## Skip
 Late night (11pm-8am ET): urgent only. Weekend: light monitoring.
