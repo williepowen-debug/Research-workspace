@@ -1,29 +1,29 @@
 {
-  "timestamp": "2026-04-03T14:19:52.310877+00:00",
-  "total": 271,
-  "actionable": 162,
-  "known": 97,
-  "noise": 12,
+  "timestamp": "2026-04-05T16:41:03.461853+00:00",
+  "total": 276,
+  "actionable": 166,
+  "known": 104,
+  "noise": 6,
   "articles": [
     {
-      "title": "Record Missed Car Payments Fuel Angst Over Subprime Auto Lenders",
-      "source": "Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYUg0UnBPX1RNNmlvT3VhSVE1RGY4eWFJSE1xaXhQaW4tMHhadHdBMDE3YTdUbWM1dDlVVlNpdVVfYm9FWGJycFRMYnpXQS1TWDgtZlhrdFYwcXFsS2ZaelZXSXdmb0V5SmhsWWcyZXQzRjdQdTYtU2hBclN0QTZRLWpiUmk3LUpaR1dpUm5nR0hlRlM0THRVRXJPcS1iU0pxUmhsN0hUd05vLV9DbFR0RjFwWTRDdw?oc=5",
-      "published": "2025-11-14T08:00:00+00:00",
+      "title": "Fire breaks out at Russia's NORSI oil refinery after drone attack, governor says",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaEJkMDdMTlBYWmFoMjBYTWdKT2FxQVJQRFdXbTd0SFFoakJRTm9tZ1Ita25aTXFmNWkwNUhZYnZpN05KcWZPOTVxUlcwYS1yYnNPb09UYzZtMkhNZllrOXRYdzROdHlRMEk4emR2QWNMbkI5UVhsYkJVM3JVUzY5ajhmNmRxelNlS0xha2dFcFZPU3JsZXFsSnNRS0dQbmItNWNQcTg0Qlp0dTlMeUh0QlU0SzRaODRZ?oc=5",
+      "published": "2026-04-05T06:54:00+00:00",
       "agents": [
-        "CARL"
+        "HENRY"
       ],
-      "feed_label": "consumer-stress",
+      "feed_label": "gas-supply",
       "origin": "google_news",
-      "level": "watch",
-      "keyword": "subprime",
+      "level": "normal",
+      "keyword": null,
       "entity": null,
       "entity_info": null,
       "escalation": null,
       "watch_hits": [
         [
-          "CARL",
-          "subprime auto DQ above 7%"
+          "HENRY",
+          "refinery attack"
         ]
       ],
       "classification": "NEW_WATCH_HIT",
@@ -31,108 +31,34 @@
       "source_weight": 3
     },
     {
-      "title": "\u2018Garbage in, garbage out\u2019: Weak dealer data threatens subprime auto funding",
-      "source": "Auto Finance News",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOYmV6aVFkT1A2eUpIS2lWamExVkxGRHFCQ28tVE1uMzVlUGJEeHlkTGF0UUx2T0Y5Rm41U1EyVExfMmFSeUNXaHJXN1Z1aUZmcnBpN1JSRE5iSHQzdTVjTUJ5UWdxQWZ2c2NUQm5sRHpHdFZMYjQyZDBBaWxFTGJDZE5ISHlOMWxFdEhra285dFdZU0w0eVRBQXlSYzl4NGpTbHQtRDl1d0Y4REZQVmFnZXB6X0ZfVTV0bElYNmRDZWNMWVIzaTRWQQ?oc=5",
-      "published": "2026-03-31T21:42:58+00:00",
+      "title": "Oman and Iran hold talks on reopening Strait of Hormuz",
+      "source": "Middle East Eye",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNSkFqX2d5OVdUR0l2TTVGSmNaNUxJT3FsRTFYQldQMUZWVTZZUWtDYU1VVmVuYWxsMzhPTEpWd2pTYl9SYWJLNWhNZVhHYndSZlFfRWtXSVBoNy1kVXMzSEZKcUJJTE0zRkxMZFVVLXJJeVRRUDg5MllqZjUzaURsb3BScVZhQmU2LVVV?oc=5",
+      "published": "2026-04-05T10:34:20+00:00",
       "agents": [
-        "CARL"
+        "HENRY",
+        "SAM"
       ],
-      "feed_label": "consumer-stress",
+      "feed_label": "oil-energy",
       "origin": "google_news",
-      "level": "watch",
-      "keyword": "subprime",
-      "entity": null,
-      "entity_info": null,
-      "escalation": null,
-      "watch_hits": [
-        [
-          "CARL",
-          "subprime auto DQ above 7%"
-        ]
-      ],
-      "classification": "NEW_WATCH_HIT",
-      "suppressed": false,
-      "source_weight": 2
-    },
-    {
-      "title": "Tricolor executives charged with 'systematic fraud' after subprime auto lender roiled banking sector",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPN3VsaXdPdFhMTVJmb0xBZVJSZ0IxZlFMNUZRSHFJQTB1SnAyZVl3T3FOak9pUTg2QnNaWEJDOTZQWk9ma01XZnBPQzV1M1RPeWZ4MFgwRWZjdGlwcnhJc0ZnZDMzTzZ5d2UwcmkwZXNKSVR5ZjZkekJ5NnZxTE9zUFJuZXdEQUlqQnJHVWUxQW94Qk15QlJXY3ppRFcwOEZKdkQ5ZUxMQlJQcDhRaFk0TW5OMWt0T0VXdzI5M3QzbDRTTlJmcmY5Snh30gHPAUFVX3lxTE56dXFibjhLRmM1V1dTRFBuaGNvVWktUTRGUHBZZjQyNlViX2hDTG9WRGVtdTdXckhQTmpoUHJEcUxRekpzZWJfTXZaSnh5NVNJWHBORl9nYWV4M2ZOalo2UFRYdU56S2xPcDk5M2NrRGpNTWczYk5WMl9wM2xSM1lYRkxfZUdkTXpJZEZ1b0Y0aE1fLWw0U0hFRVNwVFpWQS1KRmQwbUxqYlIzdThrNUQ4OVU3V05fbkdCdnlsV0owMFpKWmQ3blVrNEF2aTdXNA?oc=5",
-      "published": "2025-12-17T08:00:00+00:00",
-      "agents": [
-        "CARL",
-        "OTTO"
-      ],
-      "feed_label": "consumer-stress",
-      "origin": "google_news",
-      "level": "watch",
-      "keyword": "subprime",
-      "entity": "Tricolor",
+      "level": "normal",
+      "keyword": null,
+      "entity": "Hormuz",
       "entity_info": {
         "agents": [
-          "CARL",
-          "OTTO"
+          "HENRY",
+          "SAM"
         ],
         "aliases": [
-          "Tricolor Auto"
+          "Strait of Hormuz",
+          "Hormuz Strait"
         ]
       },
       "escalation": null,
       "watch_hits": [
         [
-          "CARL",
-          "subprime auto DQ above 7%"
-        ]
-      ],
-      "classification": "NEW_WATCH_HIT",
-      "suppressed": false,
-      "source_weight": 2
-    },
-    {
-      "title": "Iranian drone attack sparks fires at Kuwait oil refinery, state media says",
-      "source": "The Times of Israel",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxORzdJeVRwTFpjX1VacWZ2c2gtT3N4QV9MeGo3azhIZXdMX3Bieks1V29jc3VJNXN6TW4tUW14UWtEeEpwaDBILXFRazg5Mnl4TU9LTGZ3SjVBd3ljQXlZeEJVWk84VHEzQ1AxY25DOEZVQXVSd2FSazE0YzdiRlpEeWpwLV9RYTNVTDdaVW14eEg0dnVTZmdsakFXWHVKUy1BTllmaXdLS2tDZ1lTdkZOMGhhNm1PNkotMnpj?oc=5",
-      "published": "2026-04-03T05:09:35+00:00",
-      "agents": [
-        "HENRY"
-      ],
-      "feed_label": "gas-supply",
-      "origin": "google_news",
-      "level": "normal",
-      "keyword": null,
-      "entity": null,
-      "entity_info": null,
-      "escalation": null,
-      "watch_hits": [
-        [
           "HENRY",
-          "refinery attack"
-        ]
-      ],
-      "classification": "NEW_WATCH_HIT",
-      "suppressed": false,
-      "source_weight": 1
-    },
-    {
-      "title": "Drone Hits Kuwaiti Oil Refinery in New Attack on Gulf Energy Sites",
-      "source": "Springfield News-Sun",
-      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOM0pzbHBZaDVlUzZVUmVub0pYN0JLSHRsamR3dDdYaHc4b2JZdjJSRkU0ampXWXFfVGtFcVkxSmhRNEszQjliaHdsa2xGeVE2ZTdiX3ROaDAxQWNfb2M5QlN3MlkxUFM0NnppdG9EMGRCdng5NWU5SEZGUEJWbjZPcUNkT1lGN2EwUE9VZ1NUT0pqQ2k1UXMtX0N5Smc5U0kyamN4TmhrNXRTWlNDTWduaG10cnI0Wm52RkRfSUtrSXByRmpKeThHRmJRdWtWZS04Vl9vZkphNnlOUF9mX0JSc3BEdDFnSDJ6cVQxQUY4U0tZcktJUjFn?oc=5",
-      "published": "2026-04-03T12:05:09+00:00",
-      "agents": [
-        "HENRY"
-      ],
-      "feed_label": "gas-supply",
-      "origin": "google_news",
-      "level": "normal",
-      "keyword": null,
-      "entity": null,
-      "entity_info": null,
-      "escalation": null,
-      "watch_hits": [
-        [
-          "HENRY",
-          "refinery attack"
+          "Hormuz reopening"
         ]
       ],
       "classification": "NEW_WATCH_HIT",
@@ -165,156 +91,6 @@
       "source_weight": 1
     },
     {
-      "title": "NY Fed says subprime auto loans gain in Q4, but remain below pre-pandemic levels",
-      "source": "WardsAuto",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNS1lMd2dnZkJiV1BMcWEyNkg4c1NYRmVmRmhucExtbjBJRm9MVUF5b000YXYzS3hsdE9jWTEtV3pSNXdmNlYyVWRFcjhaTWdHeW9VQUZGdm5QckVtdlRHT3ZyTlZDMmZjNkRzMUxKQV8ybzJGdzh3cFgyUENoVDgxTndPVDZvdFRvWldPMHNZdlkzWU9BMFZub2JoN3paeU5vSW54b1NZQUxjTThGTFZNbUJvUQ?oc=5",
-      "published": "2026-02-12T08:00:00+00:00",
-      "agents": [
-        "CARL"
-      ],
-      "feed_label": "consumer-stress",
-      "origin": "google_news",
-      "level": "watch",
-      "keyword": "subprime",
-      "entity": null,
-      "entity_info": null,
-      "escalation": null,
-      "watch_hits": [
-        [
-          "CARL",
-          "subprime auto DQ above 7%"
-        ]
-      ],
-      "classification": "NEW_WATCH_HIT",
-      "suppressed": false,
-      "source_weight": 1
-    },
-    {
-      "title": "Subprime auto financing stress is adding pressure to loan approvals",
-      "source": "Car Dealership Guy News",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQWxKd3Zib2RMbl8wY1BnRUhfR2FmeGtLS1dBV0JHa0Q3eE9FTWpHLWE0UVlPSGFoRGMxUUZrZ1VkMnhjY2pBcjF4b3haT05UOXZXcXI4UUJFVVpnYXBnRUFsRkN0MXFKaUpFMW00TnJqN2hhajRiVzZNRDY1YU1McGFhZGx5MGU4TC1rNTh3R2s2M3lvUUJ4OWFrWUtiaGZoSGtzRWU4TTNXY3VPQmU0Mw?oc=5",
-      "published": "2025-12-23T08:00:00+00:00",
-      "agents": [
-        "CARL"
-      ],
-      "feed_label": "consumer-stress",
-      "origin": "google_news",
-      "level": "watch",
-      "keyword": "subprime",
-      "entity": null,
-      "entity_info": null,
-      "escalation": null,
-      "watch_hits": [
-        [
-          "CARL",
-          "subprime auto DQ above 7%"
-        ]
-      ],
-      "classification": "NEW_WATCH_HIT",
-      "suppressed": false,
-      "source_weight": 1
-    },
-    {
-      "title": "Consumer Portfolio Svcs Stock: Navigating Subprime Auto Finance in a Volatile Credit Landscape",
-      "source": "AD HOC NEWS",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPT3lJdWEwQnRtTjFPNlAyUWdITnFUUTdNcU4wdW40YkR5bTBZTXJlOTNmdS1mTkhiSGZhd3BzaFU4TGhTRG43WE5xdldUTm5YcWtlWU9hbHdTYnZMcVZneDRJLVdaRGxOWWRKWjdFeHVWdzdfbGtxZ2QtRjFOTVF2RkVxaDlZYmJ6bkVFeW14U1EtV2NKWmc3ZFB5Z1FHRmpSanppSXRYVkVjbDhrdEJzR081eklOcXJXdDNfaU5tdDVRRnVH?oc=5",
-      "published": "2026-03-30T08:21:58+00:00",
-      "agents": [
-        "CARL"
-      ],
-      "feed_label": "consumer-stress",
-      "origin": "google_news",
-      "level": "alert",
-      "keyword": "gating",
-      "entity": null,
-      "entity_info": null,
-      "escalation": null,
-      "watch_hits": [
-        [
-          "CARL",
-          "subprime auto DQ above 7%"
-        ]
-      ],
-      "classification": "NEW_WATCH_HIT",
-      "suppressed": false,
-      "source_weight": 1
-    },
-    {
-      "title": "A major subprime auto lender suddenly collapsed \u2014 raising concerns about the industry. How it could impact borrowers",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNLTZmR0NwaWlnVDFmZFZDYkFPTkUzNVZKMG9SalNuWHQtZUZUTS1MamRmcnVGWkVQRFh0aVZfTEJieDk1eEVyaWd1ZnBGcS1mYW9vY2M3Uzh1MlhqLWdnMDJ0cmlRRmNSaFhOSGpBclZzMVBBcEpGampOb2xLUHJtX2xlUUxhVDNv?oc=5",
-      "published": "2025-10-04T07:00:00+00:00",
-      "agents": [
-        "CARL"
-      ],
-      "feed_label": "consumer-stress",
-      "origin": "google_news",
-      "level": "watch",
-      "keyword": "subprime",
-      "entity": null,
-      "entity_info": null,
-      "escalation": null,
-      "watch_hits": [
-        [
-          "CARL",
-          "subprime auto DQ above 7%"
-        ]
-      ],
-      "classification": "NEW_WATCH_HIT",
-      "suppressed": false,
-      "source_weight": 1
-    },
-    {
-      "title": "Subprime Auto Lender Files for Chapter 7 Bankruptcy",
-      "source": "ACA International",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdEhHZWxNM0w2LUFVZG43Q1h1NW16aC1PV3kwWHRzNGpleGtGR2FBX3hiOWtiNHlCT1FBdlhkbHpuWjlLQ0FWeVE0eGE2Zk9iWGpzNjF4b3FDS3BxWmtGMnpkZ0w4c25lUzh3bE1KejBnSUw5Q3hac05Rbl9JQzYzQkpzRUFneVVaQjZFMThYNXRmanhi?oc=5",
-      "published": "2025-09-16T07:00:00+00:00",
-      "agents": [
-        "CARL"
-      ],
-      "feed_label": "consumer-stress",
-      "origin": "google_news",
-      "level": "watch",
-      "keyword": "subprime",
-      "entity": null,
-      "entity_info": null,
-      "escalation": null,
-      "watch_hits": [
-        [
-          "CARL",
-          "subprime auto DQ above 7%"
-        ]
-      ],
-      "classification": "NEW_WATCH_HIT",
-      "suppressed": false,
-      "source_weight": 1
-    },
-    {
-      "title": "Subprime auto loans fall as lenders tighten credit in Q3",
-      "source": "WardsAuto",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1KeFVtcDN2TGRBMnhLbGRhNlJid1RVTGIzUnY4Y012V0JGcGxLbzdVNFNhY280MjZWeF9hT3VQYzJGWE5SOEdWenhqMUd4R253dmh4bndVNWhfV3dtT0VTYzVYUEtVcC1wbTVITGRPLU94dHZwMmV1MC1pbw?oc=5",
-      "published": "2025-11-12T08:00:00+00:00",
-      "agents": [
-        "CARL"
-      ],
-      "feed_label": "consumer-stress",
-      "origin": "google_news",
-      "level": "watch",
-      "keyword": "subprime",
-      "entity": null,
-      "entity_info": null,
-      "escalation": null,
-      "watch_hits": [
-        [
-          "CARL",
-          "subprime auto DQ above 7%"
-        ]
-      ],
-      "classification": "NEW_WATCH_HIT",
-      "suppressed": false,
-      "source_weight": 1
-    },
-    {
       "title": "Fed's Bowman says new external review of Silicon Valley Bank failure underway",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOR01VSURTMVN6SGRmV0xmaEF1NUZhTXBrSVJ0ek1reGZpckFqdVYtOGh6UzFsOG5NNjRRZWZfQjhtRjBYLXA5TzEtSl83akRDcGd1a2dySVIwYnFPVjN5ZmJqTlVMTUVxM2ZsbTdWNnFONFVSRE1qajcza0JMRGxtalJMdkpOYXRJcmhQS2hreGw5VjVVNXZkWi0wTk82Q0t5TVRuY1dxbmhNTmtKQWs2MEYzMUVfSE9RdUdieEdkcWFRLVlZVDhiWDdWcGZsNmQ4alVXbGhKaURRbW9NVW0yZ0FmTQ?oc=5",
@@ -334,6 +110,48 @@
       "classification": "NEW_ALERT",
       "suppressed": false,
       "source_weight": 3
+    },
+    {
+      "title": "Gulf banks face $307 billion deposit flight risk if war worsens, S&P says",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZ0gyeldrWENtajd0b1ozOThGSERRV2xacmFldldGQWg3eTZYVXRUdkJsMjE4LUh4dHBieGZnM09fZDNMZW9BODZkbkdWSEozeENEQWt1MTM2VV9JTnRHZkVqamhCNkc5UU9LVkFzTEhTSm9mR2NHbW11MDhlNXdmei03azEzeUNBWE9SeXl2a1JoYXc3RkxZRmNjYmhNZFpYYU5HMS01aFpacVRFT2xiVDJ4YURjYVlXUURFUjBVcw?oc=5",
+      "published": "2026-03-17T07:00:00+00:00",
+      "agents": [
+        "REGINALD",
+        "LIQUID"
+      ],
+      "feed_label": "bank-stress",
+      "origin": "google_news",
+      "level": "alert",
+      "keyword": "deposit flight",
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW_ALERT",
+      "suppressed": false,
+      "source_weight": 3
+    },
+    {
+      "title": "FDIC: \u2018Suspected fraud\u2019 contributed to Texas bank failure",
+      "source": "Banking Dive",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPY3hjLVdVNHZjT3FEUlEzY3lFZ2d4Q0ZkaWg5dFJyRzFtY2hZc201ZTBCUTJwNFF1TE9UdnBKLXNDUElzeWpOeUt1a01SYks3SEpyR2dTV0tSUWQ3VThDN1ZYZzFJTmNhamdyQXRtWjNWR2xUMk5neGNmMlVEY0k1eW50VFJISVNMNzQ0V1g2U1NxQkZ3a3hXSnc5RkFtcTFBTk96UHln?oc=5",
+      "published": "2025-06-30T07:00:00+00:00",
+      "agents": [
+        "REGINALD",
+        "LIQUID"
+      ],
+      "feed_label": "bank-stress",
+      "origin": "google_news",
+      "level": "alert",
+      "keyword": "bank failure",
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW_ALERT",
+      "suppressed": false,
+      "source_weight": 2
     },
     {
       "title": "FDIC releases audit of causes and response to January 2025 community bank failure",
@@ -357,63 +175,171 @@
       "source_weight": 1
     },
     {
-      "title": "Apollo\u2019s Insurance Arm Rises to Second-Biggest FHLB Borrower",
-      "source": "Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOU1YwZy03SW0tWXZ5cEY3NzN5N2NHMDE2bkgtQTQ1N1hmMFVMeVV3aGV1aHRkd0RfcjlqR25LUWtJUjdjek5RR1dBejFjZXY3azVibzlGLWdYME1hTkFsWmtYMWNvajJSOXo3SDNSNlJkSUdSMUZYNlJlSTZoTGg1WDUxTjd0ei1STTBUWXEwdnFfV1ZnNkdEcWRDYjl2QzhkT0Nha1BXVFNZamk4ZDExRHZ3?oc=5",
-      "published": "2026-03-25T20:36:22+00:00",
+      "title": "15 most recent bank failures",
+      "source": "American Banker",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9OU0FZMFVvZ2QtYXVOTWpCa3djUGxETDEzbzlFTWhobUpfVnZMdWlDWmswQzNrOEIzc0ZDWVM3cnFTV1ZXTlRMamp2V25jM0ppMTBYM3BEZFM3OFI4bnIyaFlBSlQtT2NNa0RxMURCZ3JaQQ?oc=5",
+      "published": "2026-02-09T08:00:00+00:00",
       "agents": [
-        "BROCK"
+        "REGINALD",
+        "LIQUID"
       ],
-      "feed_label": "pe-insurance",
+      "feed_label": "bank-stress",
       "origin": "google_news",
-      "level": "normal",
-      "keyword": null,
-      "entity": "Apollo",
-      "entity_info": {
-        "agents": [
-          "BROCK"
-        ],
-        "aliases": [
-          "APO",
-          "Apollo Global",
-          "Athene"
-        ]
-      },
-      "escalation": "SEC",
+      "level": "alert",
+      "keyword": "bank failure",
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
       "watch_hits": [],
-      "classification": "DEVELOPMENT",
+      "classification": "NEW_ALERT",
       "suppressed": false,
-      "source_weight": 3
+      "source_weight": 1
     },
     {
-      "title": "A Bid to Use Force to Open Strait of Hormuz Hits Roadblocks at U.N. Security Council",
-      "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQN3RQTDdPV1Z5QUdXU2plOXh5WFo4UmFNYVlJT2owVjc3cVNMa1NpSDc2YzRzUHV1RktaSWFmTV96M2ttclZydlFUc3doaE9kbFlLMUpybUNEVllfSHJFX0RlVlJtZjAxdFVqZTdhdGtQRUZpaFJnN2w1UVpaR3BEVmt3WnpvQQ?oc=5",
-      "published": "2026-04-03T03:29:06+00:00",
+      "title": "Economic Capital: A Better Measure of Bank Failure?",
+      "source": "Liberty Street Economics",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVm15SjQxYWh1empkUzNQOGE4cTktX0JFdWhseHhhUVdFV05KUEhTd25nTS1qN25DR095cGdERUJWenNqRjJEQk9wajZObU1MVWlVZDNzVUFIc3paSmdDR0FEdzlWaS0zQVR6RFpDZ2dzdDNRckV5WkM1MG5lNXpFeDYtUDlKZXAtNnRRaFZjZDNHeUF0cGE4U3h3Uks4RldzZ0VLNXNPYw?oc=5",
+      "published": "2025-11-06T08:00:00+00:00",
       "agents": [
-        "HENRY",
-        "SAM"
+        "REGINALD",
+        "LIQUID"
       ],
-      "feed_label": "oil-energy",
+      "feed_label": "bank-stress",
       "origin": "google_news",
-      "level": "normal",
-      "keyword": null,
-      "entity": "Hormuz",
-      "entity_info": {
-        "agents": [
-          "HENRY",
-          "SAM"
-        ],
-        "aliases": [
-          "Strait of Hormuz",
-          "Hormuz Strait"
-        ]
-      },
-      "escalation": "SEC",
+      "level": "alert",
+      "keyword": "bank failure",
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
       "watch_hits": [],
-      "classification": "DEVELOPMENT",
+      "classification": "NEW_ALERT",
       "suppressed": false,
-      "source_weight": 2
+      "source_weight": 1
+    },
+    {
+      "title": "The first bank failure of 2026",
+      "source": "Chicago Sun-Times",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNTDRFLWg3S1lkN0FWZlFQRkxLQ0I4TW4wQ3pCQ2dDclZ3OFdJUnNvRE54ckZXWEJPQThsbXFxUDQ1c2p1OEMtT1pqSUl4WTkzNUd5R1MxZWsyNHI0eV9BeTFnNE9BbHdyUXhUeE95c0l0U3hObU40Mk9Ma1lRM2M0cnFrV3k0SjBGU1pGSEZuQVR5SXVQbUhtbmJ4bDM1S2wyYmptX3FqU1AzVzM4STNHMUwwMEt1ZTZUZl9SejZsWG12QWZidm01elpPdVZRT0R0c1E?oc=5",
+      "published": "2026-02-02T08:00:00+00:00",
+      "agents": [
+        "REGINALD",
+        "LIQUID"
+      ],
+      "feed_label": "bank-stress",
+      "origin": "google_news",
+      "level": "alert",
+      "keyword": "bank failure",
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW_ALERT",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Chicago\u2019s Metropolitan Capital Bank becomes first US bank failure of 2026",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUW5pbmlYa0RRa0FSVVNNMEZyQ2I1LVZFVUx4NmVaN0tFdElxRS1rVXRKcWdFVXNIcldqTG1wUEl6RWFoS2lza1NUdThmX3pUd3FwRVBWSUQxRy1JMGg4emZZZkF0NjNfbG9zVXhmYTc1SzZ0VkU1RWp6R1FQTzFKbVpINS01eXo5eWc5LWh3WjY?oc=5",
+      "published": "2026-02-02T08:00:00+00:00",
+      "agents": [
+        "REGINALD",
+        "LIQUID"
+      ],
+      "feed_label": "bank-stress",
+      "origin": "google_news",
+      "level": "alert",
+      "keyword": "bank failure",
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW_ALERT",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "US lawmakers revisit stablecoin yields amid deposit flight concerns",
+      "source": "The Block",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNnZfZl9tUGowdDhqNmlrN1dUbjJpU0tibUNwaGF4RGR2RGhLMkQwOW9nRklsQ1NELTI5RFJUcHdiNzVTaThHVWZNS281X1RWSENVbTZnbjFZSUV1TGJqQWs1VWUybEFnaS1ZS3Z0WGZjUC1tT2J5a1E0WGIzREV2cXBFNi1zNm1JcENYM0VvbjNKWlRrdmJ0by14cE1OeHc?oc=5",
+      "published": "2026-02-26T08:00:00+00:00",
+      "agents": [
+        "REGINALD",
+        "LIQUID"
+      ],
+      "feed_label": "bank-stress",
+      "origin": "google_news",
+      "level": "alert",
+      "keyword": "deposit flight",
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW_ALERT",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Ayandeh Bank failure deepens Iran\u2019s economic crisis",
+      "source": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE92UmI1RENLQnRsOGNITkNSNzlMSm82Um5YeWRTdzF6TzFUS3pqbmZGeHdGUFhMaTZCdTdMMlRFdElQczEyVUI3TVV6eGY1NzhtY25kU0Z2czJ3XzU4YjNQUXdRR0RSRnp6SHc?oc=5",
+      "published": "2026-01-14T08:00:00+00:00",
+      "agents": [
+        "REGINALD",
+        "LIQUID"
+      ],
+      "feed_label": "bank-stress",
+      "origin": "google_news",
+      "level": "alert",
+      "keyword": "bank failure",
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW_ALERT",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Chicago's Metropolitan Capital shut down in first U.S. bank failure of 2026",
+      "source": "Crain's Chicago Business",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZmZfWkd3NkhjeUFoRUlGZjlXN3A5cTZlLUJObmxzTnF0aUFwSWMxY2VqbE1nNC1ueDllUHZYa212OW5FdDRuUS04OEI3bHR1eU9LQXVqM2FuSnBKRnFkWUpTTk52Ul9RQV9NQ1RiS0dXUzczZmFTZlprSEY3OXpDWk0zOF92bGhDVmJieE5ZVHAtT3VtSmNUT0plRlI3ZXU3R3NR?oc=5",
+      "published": "2026-02-02T08:00:00+00:00",
+      "agents": [
+        "REGINALD",
+        "LIQUID"
+      ],
+      "feed_label": "bank-stress",
+      "origin": "google_news",
+      "level": "alert",
+      "keyword": "bank failure",
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW_ALERT",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Consumer Portfolio Svcs Stock: Navigating Subprime Auto Finance in a Volatile Credit Landscape",
+      "source": "ad-hoc-news.de",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPelhXbWlfeXZ2MkpSZXBGLUZnSjI3Q1BndEdpSTl2bHRzcTZOV1dFNVQ2QUx3TXdaRF81VUpJVzkzT0Y3MVpoVXpjZE9aUG50Z0pYc2hMbm9ocjgyMW85ZkJjV3J0MnR6dkpYbWhRYlVuWW9fZkFTNXdmY3BZWjItTTVtWlB5RUZwVHRrUDc0b2Q3ZFg1LTdCeHdjTVlqdUZiaC1CdjdIcThoYVVXaldjZEF1QlhBWW9YYThNemlB?oc=5",
+      "published": "2026-03-30T08:21:58+00:00",
+      "agents": [
+        "CARL"
+      ],
+      "feed_label": "consumer-stress",
+      "origin": "google_news",
+      "level": "alert",
+      "keyword": "gating",
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW_ALERT",
+      "suppressed": false,
+      "source_weight": 1
     },
     {
       "title": "News | The Puget Sound region\u2019s office vacancy holds steady at a record high",
@@ -444,29 +370,29 @@
       "source_weight": 2
     },
     {
-      "title": "Apollo Global planning to open second HQ; Texas, Florida among location contenders: Reports",
+      "title": "Tricolor executives charged with 'systematic fraud' after subprime auto lender roiled banking sector",
       "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQd3ZHaXNUcnczcmNxcTRhNUxfemF2dlhXSzk3SDdqeXJObUpzS3FCVmtMZ2M4NVBXdGpCMG90V1pxV0lENzZtXzJDNmdNV3J5V1U3WVlzUjZKZUlzNGFyZEZ4Qkpib29WNHFaSlBrMVhNbmtXbjFNTWRWZXZPczZWSUNTbVpBOXRCOVZxOFo5WXhGU3k0Tjcwblh2NE9RWW1XME5xeVhRSG5pNEx4TXEyUFBld1hFUVVmbXAxTFZxRFNNRGVtSGZHbEhHZw?oc=5",
-      "published": "2026-03-30T11:21:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPN3VsaXdPdFhMTVJmb0xBZVJSZ0IxZlFMNUZRSHFJQTB1SnAyZVl3T3FOak9pUTg2QnNaWEJDOTZQWk9ma01XZnBPQzV1M1RPeWZ4MFgwRWZjdGlwcnhJc0ZnZDMzTzZ5d2UwcmkwZXNKSVR5ZjZkekJ5NnZxTE9zUFJuZXdEQUlqQnJHVWUxQW94Qk15QlJXY3ppRFcwOEZKdkQ5ZUxMQlJQcDhRaFk0TW5OMWt0T0VXdzI5M3QzbDRTTlJmcmY5Snh30gHPAUFVX3lxTE56dXFibjhLRmM1V1dTRFBuaGNvVWktUTRGUHBZZjQyNlViX2hDTG9WRGVtdTdXckhQTmpoUHJEcUxRekpzZWJfTXZaSnh5NVNJWHBORl9nYWV4M2ZOalo2UFRYdU56S2xPcDk5M2NrRGpNTWczYk5WMl9wM2xSM1lYRkxfZUdkTXpJZEZ1b0Y0aE1fLWw0U0hFRVNwVFpWQS1KRmQwbUxqYlIzdThrNUQ4OVU3V05fbkdCdnlsV0owMFpKWmQ3blVrNEF2aTdXNA?oc=5",
+      "published": "2025-12-17T08:00:00+00:00",
       "agents": [
-        "BROCK"
+        "CARL",
+        "OTTO"
       ],
-      "feed_label": "position-pe",
+      "feed_label": "consumer-stress",
       "origin": "google_news",
-      "level": "normal",
-      "keyword": null,
-      "entity": "Apollo",
+      "level": "watch",
+      "keyword": "subprime",
+      "entity": "Tricolor",
       "entity_info": {
         "agents": [
-          "BROCK"
+          "CARL",
+          "OTTO"
         ],
         "aliases": [
-          "APO",
-          "Apollo Global",
-          "Athene"
+          "Tricolor Auto"
         ]
       },
-      "escalation": "SEC",
+      "escalation": "fraud",
       "watch_hits": [],
       "classification": "DEVELOPMENT",
       "suppressed": false,
@@ -502,94 +428,42 @@
       "source_weight": 2
     },
     {
-      "title": "Athene Tops Annual Annuity Sales for Third Consecutive Year",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQU1p5RnduakJOeWJ2d3ZhcHBEWGVCTy1CRDRmT0dJTkpldXNiR2lYVS05VkY5aVZPUjY2cm5jNjdmamMzQTgxT2ZyNkR6dG5jWnI2WXRjQTFJOFdJclNGUTZkdjRMbU1QdGJXcmNhYmdzdmJBbWhMR3M5cVItOTB6VTdrMkVkVHBYb3g0NGp5bmxBWTJhUGpyVWt5V3BFUQ?oc=5",
-      "published": "2026-03-24T07:00:00+00:00",
+      "title": "Blue Owl Limits Fund Withdrawals Following Record Surge in Q1 Redemption Requests",
+      "source": "TIKR.com",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNd2NtX3V2b0d3cUl0M0oxUFJRM1hNVWlQbXJIQThqNW1xZDZDY1FYNlp4YnAyZE43ZHhya3d2cFM5d2NmTzNjeVIzR01HTnpZcUpBdTI0aWszZ0EySllyektYa1k4RnFLTWwwMXJJNUEydWNLajM1eHVyQ1Z1cFFoZXppekh3OXFMZXVySFQ0eDBqU3RRaW5nRDZCalRPNGhYUmNZSE5RUmdtV3M?oc=5",
+      "published": "2026-04-05T12:06:21+00:00",
       "agents": [
-        "BROCK"
-      ],
-      "feed_label": "pe-insurance",
-      "origin": "google_news",
-      "level": "normal",
-      "keyword": null,
-      "entity": "Apollo",
-      "entity_info": {
-        "agents": [
-          "BROCK"
-        ],
-        "aliases": [
-          "APO",
-          "Apollo Global",
-          "Athene"
-        ]
-      },
-      "escalation": "SEC",
-      "watch_hits": [],
-      "classification": "DEVELOPMENT",
-      "suppressed": false,
-      "source_weight": 1
-    },
-    {
-      "title": "UN Security Council Set To Vote On Plan To Open Strait Of Hormuz Amid Divisions",
-      "source": "Radio Free Europe/Radio Liberty",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNE9Fcmp0VW1ReF8tYTMzU05DODlGbFV3d0hBUmVxcVpNUW96UHl2c09ZM0c4b0JpZjZObnNnNUZCRDliZm1IU09ydGFyRWlHTnoxamJBd1dqNVNaMGc2eE85Rk9aN0l6Snd2THBmZ3p5QzhaaE1tTmJaM2FnNkwxY2ZqeXVHR2g0MV9JX1lhZXlaY2hycmN4ZTBrV3EzVEhoeVhwVnFn0gGoAUFVX3lxTE5GSnU0c0dVbHJMMVJWWjE0NmQ5Smxjc0lpdTRJOUY5UFFTSUJ6UVFDdndYNmtnblI2Vzl1eUNHRTcxLUVrRXFSbGgyQTRlVnlGazVNSE5DS2N3aklBbUVUekNnVzBMWTJLb0R5TU5mLUJyUGpTeUpRLVhuMjI0eEh1ZUZnX0RDOGZ4c1A4MTVINGVWMGdDVEhKZjQ0eG5mOF9ramVuaFotZA?oc=5",
-      "published": "2026-04-03T13:02:14+00:00",
-      "agents": [
-        "HENRY",
-        "SAM"
-      ],
-      "feed_label": "oil-energy",
-      "origin": "google_news",
-      "level": "normal",
-      "keyword": null,
-      "entity": "Hormuz",
-      "entity_info": {
-        "agents": [
-          "HENRY",
-          "SAM"
-        ],
-        "aliases": [
-          "Strait of Hormuz",
-          "Hormuz Strait"
-        ]
-      },
-      "escalation": "SEC",
-      "watch_hits": [],
-      "classification": "DEVELOPMENT",
-      "suppressed": false,
-      "source_weight": 1
-    },
-    {
-      "title": "According to data from the Federal Reserve Bank of New York, the Secured Overnight Financing Rate (SOFR) was 3.68% on the last trading day (March 31, coinciding with month-end and quarter-end), compared to 3.63% the previous day.",
-      "source": "Bitget",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1JQ3dHVGlKVXNPWVY3OUt5ZGxKaTM5ZHNiVU1UUmtDR3JvTUR3M0hjb21QTHBnMU5WQklJejBydnFOTFMwVFBmRkVoeXBqdHgtS1FYeUM3cmF0YlZhSlllOF9fb1bSAWpBVV95cUxNYkVHUEh3dDRiRlBzZGZJS0R3MUUzbW9abFN5SnBIZ1ZiZE9QTTA1cHhfcmZxNGZrdl9CY0dxYVAzYjNTNVBsN0tfbng4UTA3UjhjNng0eHVfYW9LV3ZlRWZOVzRhRzZhUXFB?oc=5",
-      "published": "2026-03-31T23:27:44+00:00",
-      "agents": [
+        "BROCK",
         "LIQUID"
       ],
-      "feed_label": "funding-stress",
+      "feed_label": "bdc-names",
       "origin": "google_news",
       "level": "normal",
       "keyword": null,
-      "entity": "SOFR",
+      "entity": "Blue Owl",
       "entity_info": {
         "agents": [
+          "BROCK",
           "LIQUID"
         ],
-        "aliases": []
+        "aliases": [
+          "OWL",
+          "OBDC",
+          "Owl Rock",
+          "Blue Owl Capital"
+        ]
       },
-      "escalation": "SEC",
+      "escalation": "record",
       "watch_hits": [],
       "classification": "DEVELOPMENT",
       "suppressed": false,
       "source_weight": 1
     },
     {
-      "title": "Apollo Global Management Faces Securities Class Action Over Epstein Ties",
-      "source": "National Today",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOekxiZXJORkpNYkZqcGJBdGxsNkJwbHZLLVluNk1PRHBrS0RjNF9YUFNrWG4xX09hQXBfbWVIdVcxUTRkOF9vVzR1aVU5S09QQjhsdUNqeXdhZkp4VVBsanpLRkkwRkgxQVNlVWtvQVhwU1lmU3psMDJncV9LRkp5US00bjNVQWpFX1NYWm1JeFZ2bTd6Q09FcXUxSGQzbUwxaW5SMnZuWjlzY3M5bGVicnQxR1p4RTA1VmMxSGY1bTNwdDBkWHJCczdJZFA?oc=5",
-      "published": "2026-04-02T23:35:48+00:00",
+      "title": "APO Investor Alert: APOLLO GLOBAL MANAGEMENT, INC. Securities Fraud Lawsuit - Investors With Losses May Seek to Lead the Class Action After Allegedly Misrepresenting CEO Accountability: Levi & Korsinsky",
+      "source": "morningstar.com",
+      "url": "https://news.google.com/rss/articles/CBMi8AJBVV95cUxNXzVCa0Q4QWVWbkh3a2dJNE5qWV9pdkw5TjFqMHhhTUpKLUVINFFCQ2UxN3Q3VXdaaTQ5NHZWX0ZSQWRRYUVBczF1OHRnVGl0YnlHTTZiYWpoVDdjOG1ObVkyVFdJTnktc0F6ZXZSRDRRTHV5a1hXMWt6UU1xcUhBeC1vVUI4WGcxY1Q5VDhfUUI1bUk2amZTanlBOG5BWHVsUE1Ud3M0OXRvV1RhMzI5MzF5X2o3Mjdrbi1zRENtbW96M0VtZmxkY2lZYVVlT2JzM3NScmxaX0o1Mm94SUk0X3JOQ0RzUjZEZnlXcVhOcHdMbnRfclZZaHdGWW5SVHFlVDhUMzhVTzlxR2pDSEVkVk5IXzRYWUh4SHdwMUdyX0ZDWlhFUC1YSWh5Q0VZSnZmU2hGZHZaS0cySmpGT043QmZINHZYcTI5SHhZQ2dFNEkzUF9lWWNWUm5oZmtDdG1nUl8xUXZFLWZiaEdncm00Ng?oc=5",
+      "published": "2026-04-01T13:00:00+00:00",
       "agents": [
         "BROCK"
       ],
@@ -608,74 +482,46 @@
           "Athene"
         ]
       },
-      "escalation": "SEC",
+      "escalation": "fraud",
       "watch_hits": [],
       "classification": "DEVELOPMENT",
       "suppressed": false,
       "source_weight": 1
     },
     {
-      "title": "APO Shareholder Alert: Apollo Global management, Inc. Securities Class Action Lawsuit Investors With Losses May Join -- The Gross Law Firm",
-      "source": "PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNX3pfY1RpU3NPLTVNQ3luQV9CSUVUbVAzQXFGdDV4T1Z1RWhNVmo5SWhsV0pSaWl1RVl5YUpIOUdwRlNvUUhnb3pHd1h3cVBUQlVydzFJajFfUzFkbENFaGU2N25HUWZ6QW5mS2tjc3JqZFRVTlBJcjJIdVI2QlBkUnRDbExFQUNIbkRKLXlnSkRSc3BMcm1yWjJZNFJYQWgwTFcwZmREbWYtcUZad2tyOFdBUFNUMzdKWFZhTGxLMUNYT0VlVS01SURHSnplSFRpNmltc0RhaXpYRlYxZS1Wal9sZVVYd1pTQ1VoMTZfeC1FLV9xUFViNlpuU1oxQ01PT2ItWlJSWHFyY2otX3loTEotSlRkRWpu?oc=5",
-      "published": "2026-03-31T13:00:00+00:00",
-      "agents": [
-        "BROCK"
-      ],
-      "feed_label": "position-pe",
-      "origin": "google_news",
-      "level": "normal",
-      "keyword": null,
-      "entity": "Apollo",
-      "entity_info": {
-        "agents": [
-          "BROCK"
-        ],
-        "aliases": [
-          "APO",
-          "Apollo Global",
-          "Athene"
-        ]
-      },
-      "escalation": "SEC",
-      "watch_hits": [],
-      "classification": "DEVELOPMENT",
-      "suppressed": false,
-      "source_weight": 1
-    },
-    {
-      "title": "Services Sector Contraction In March Screams Q1 Stagflation",
+      "title": "\"Unprecedented\" Withdrawal Requests Now Hitting Private Credit",
       "source": "ZeroHedge",
-      "url": "https://www.zerohedge.com/economics/services-sector-contraction-march-screams-q1-stagflation",
-      "published": "2026-04-03T14:19:52.270411+00:00",
+      "url": "https://www.zerohedge.com/markets/unprecedented-withdrawal-requests-now-hitting-private-credit",
+      "published": "2026-04-05T16:41:03.412396+00:00",
       "agents": [
         "ALL",
-        "MARCO"
+        "REGINALD"
       ],
       "feed_label": "zerohedge",
       "origin": "web",
       "level": "normal",
       "keyword": null,
-      "entity": "ICE",
+      "entity": "WAL",
       "entity_info": {
         "agents": [
-          "MARCO"
+          "REGINALD"
         ],
         "aliases": [
-          "immigration enforcement"
+          "Western Alliance",
+          "Western Alliance Bank"
         ]
       },
-      "escalation": "SEC",
+      "escalation": "unprecedented",
       "watch_hits": [],
       "classification": "DEVELOPMENT",
       "suppressed": false,
       "source_weight": 1
     },
     {
-      "title": "Credit investors flee to safety, pulling $11bn from junk bonds this year",
+      "title": "Credit investors flee to safety, pulling nearly $14bn from junk bonds this year",
       "source": "Financial Times",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORFhNamlZTTNqSmlRclVPTGNlelkzcUV2SmF3Y3pXcUtxX2FLemNrS2hmdmtmdUcxeGVkMkRRVTFHTG4tc2R3VFBBakkxT1BlMFlRQnY4aDR1OGdvWjlmblU3bUhnREJnbzAtb0FyaVg5eDNRRTRmTFdEVjJIeGg5VGs2ZVM?oc=5",
-      "published": "2026-04-03T04:00:23+00:00",
+      "published": "2026-04-03T04:01:33+00:00",
       "agents": [
         "LIQUID"
       ],
@@ -712,18 +558,97 @@
       "source_weight": 3
     },
     {
-      "title": "Cuba to release more than 2,000 prisoners as US pressure mounts",
-      "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/cwy3r3w4zl8o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-04-03T14:18:04+00:00",
-      "description": "US President Trump has made clear his desire to change Cuba's leadership and has placed the country under an oil embargo.",
+      "title": "FirstFT: Credit investors flee to safety and pull billions from junk bonds",
+      "source": "Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUUpJY1ZiSXREakFsVF9DX2hwWkpSU0U0RG05UXcxR0o1bkM3UHVTMGVoTDBrdjI4aHJ4YVRUQVlEVTFSWUdOMy1PQ3ZKQzZCUkFwd3Nnb1VCZjJHSVNuZzhNR184Qjh4Zzc1Z1p5UGFNbXl5WjZPazQ0SEluZi1qYjBCdFA?oc=5",
+      "published": "2026-04-02T21:59:17+00:00",
       "agents": [
-        "ALL"
+        "LIQUID"
       ],
-      "feed_label": "bbc-world",
-      "origin": "rss",
+      "feed_label": "credit-spreads",
+      "origin": "google_news",
       "level": "watch",
-      "keyword": "oil embargo",
+      "keyword": "junk bond",
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW_WATCH",
+      "suppressed": false,
+      "source_weight": 3
+    },
+    {
+      "title": "Junk Bonds Are on a Tear This Summer",
+      "source": "wsj.com",
+      "url": "https://news.google.com/rss/articles/CBMilANBVV95cUxPbFItMl9SS3lMWDR6MW12d0dsQlJITWl5MnRmR0cwd0l0SW9jVklzMkhqdERMZlNyNURENE03T1RUSVl6eVVBeXhwaHpSYWxTUlFDdWR4STd5RnI1c3NEbk5uSVRiZkgwQUFpN0hDUEh3UEdhSFd3ZFhQSmVTNnNZblhCVG1EYnh6cU5rb185eWE2V19ZQ1NKTWZnWlhPWlhTNk5ZNVRHcF9tV3Y2SUhoNDZWT1U4Mm1ibWFiTkRTM2tib1pFd0llXzQ2UkotMzNfZ2N0eXJxVGxQb3ZrYjZmZ19tUXBMUjBiX0d4S3did05ZVlV0cFBjLTRKSTl2UXFGQnR5dWFQbjdCUy00OVlyb1QtY3oyaFl4UUhidWYtbkRCMUJmNWJHaTF5X29fWFM4c0xOWTBVbXdFR29VVUhzdjJOQmxmSUVLM21TMTNGLWVUbFRyelR1Zi1haGp2blJzSGNJOGsxRDRnTWdmbXhVQXROOHFCODI0dVptYTlCanFuS0JaNnl1WWI2Vktrcm1HbGRYSw?oc=5",
+      "published": "2025-08-30T07:00:00+00:00",
+      "agents": [
+        "LIQUID"
+      ],
+      "feed_label": "credit-spreads",
+      "origin": "google_news",
+      "level": "watch",
+      "keyword": "junk bond",
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW_WATCH",
+      "suppressed": false,
+      "source_weight": 3
+    },
+    {
+      "title": "Leveraged Loans Are Outperforming Junk Bonds By Most Since 2023",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRGVhZGdld1dCVGdjYS14ZXgyeUJHaDNEdm45eDd0Q0dUMUlFTzI0RmVrRlZoTUp5RjEyU2NaanB4Y1lPbHpodWpRelBiWVJYVGhfV2txNElOSjlWS2hLaU5mOEJJTDdLUFE5RGRFSE93UWkwa0g1NHB1VlNJU1BmOWxIdW5NU3o5MFdNYVhLZGdHdlpwVUZ4NGtuM3EwLU5EMWlYZkVSMnh2emdzbzEyNVJSQW4?oc=5",
+      "published": "2026-03-27T07:00:00+00:00",
+      "agents": [
+        "LIQUID"
+      ],
+      "feed_label": "credit-spreads",
+      "origin": "google_news",
+      "level": "watch",
+      "keyword": "junk bond",
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW_WATCH",
+      "suppressed": false,
+      "source_weight": 3
+    },
+    {
+      "title": "Record Missed Car Payments Fuel Angst Over Subprime Auto Lenders",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYUg0UnBPX1RNNmlvT3VhSVE1RGY4eWFJSE1xaXhQaW4tMHhadHdBMDE3YTdUbWM1dDlVVlNpdVVfYm9FWGJycFRMYnpXQS1TWDgtZlhrdFYwcXFsS2ZaelZXSXdmb0V5SmhsWWcyZXQzRjdQdTYtU2hBclN0QTZRLWpiUmk3LUpaR1dpUm5nR0hlRlM0THRVRXJPcS1iU0pxUmhsN0hUd05vLV9DbFR0RjFwWTRDdw?oc=5",
+      "published": "2025-11-14T08:00:00+00:00",
+      "agents": [
+        "CARL"
+      ],
+      "feed_label": "consumer-stress",
+      "origin": "google_news",
+      "level": "watch",
+      "keyword": "subprime",
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW_WATCH",
+      "suppressed": false,
+      "source_weight": 3
+    },
+    {
+      "title": "\u2018Garbage in, garbage out\u2019: Weak dealer data threatens subprime auto funding",
+      "source": "Auto Finance News",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOYmV6aVFkT1A2eUpIS2lWamExVkxGRHFCQ28tVE1uMzVlUGJEeHlkTGF0UUx2T0Y5Rm41U1EyVExfMmFSeUNXaHJXN1Z1aUZmcnBpN1JSRE5iSHQzdTVjTUJ5UWdxQWZ2c2NUQm5sRHpHdFZMYjQyZDBBaWxFTGJDZE5ISHlOMWxFdEhra285dFdZU0w0eVRBQXlSYzl4NGpTbHQtRDl1d0Y4REZQVmFnZXB6X0ZfVTV0bElYNmRDZWNMWVIzaTRWQQ?oc=5",
+      "published": "2026-03-31T21:42:58+00:00",
+      "agents": [
+        "CARL"
+      ],
+      "feed_label": "consumer-stress",
+      "origin": "google_news",
+      "level": "watch",
+      "keyword": "subprime",
       "entity": null,
       "entity_info": null,
       "escalation": null,
@@ -733,17 +658,77 @@
       "source_weight": 2
     },
     {
-      "title": "Oakland City University warns employees of potential 'mass layoff'",
-      "source": "Courier & Press",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOa1BHeGJjNmRjQ1I3UHlnZnRjNDRZWlhmVE9YbV8yUEw1YlEzMW53M0hVcU5lWXBoRjBhRVNnRXR1UlktU1pvVm9WWDZMb3phaFByRzlLTC1URFBLMXRpLWtNdi1PXzg2X2QyYnhFZDBhT2w5TXBVS3U3MU1aTkE2YlVLRVduVnhwSWtLaVdkSWhMcEN3YmU4bGV2cUp4aUtsUkNUYXlBY1lDVk9JaGo2WlBpejAxemxyXzAtdnZ5bXM2QQ?oc=5",
-      "published": "2026-04-02T21:37:00+00:00",
+      "title": "Yen Carry Trade Unwind Threatens U.S. Dollar Stability",
+      "source": "stonex.com",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNV0QxeThSUDctaElPZWRBSElIOENFM1A5OHBTc3BfZ2tPYkhzUlhoZkl0VWZ3c3J4c1lhOE1DeXdPSElVMlZ3bFlVN2RNRjlHTWNPTlhza1J2bUZxQ1VyTlVWSkpSY1UzdWRLdGZGV2tWc2xya01MLUtmeTY4VWNEMkpHVkdScE0yRmNjS2VTd0NkbDA?oc=5",
+      "published": "2026-03-23T07:00:00+00:00",
+      "agents": [
+        "SAM"
+      ],
+      "feed_label": "japan-boj",
+      "origin": "google_news",
+      "level": "watch",
+      "keyword": "carry trade unwind",
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW_WATCH",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Top Companies that Announced Major Layoffs & Hiring Freezes-2025 - 26",
+      "source": "Intellizence",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNaWxJMW1sTjUwRVNKSXpQWHN3OWFieURKZWlHSGF1MVFMdUl5Z0FkRE5zb2J0allacVZQYWplSC1HNXhENjJwbnIxMEN2ZkRNODhHLTIxQXNqWUxkZXUzbnVKMXNvQnRLVUhtY1hIMUthX25NcW95S0RDRzg4ZEttTW5IYmRncm41RTVHNWdpYy1RS1ZuNFpaQnVIS1U?oc=5",
+      "published": "2026-04-02T07:00:00+00:00",
       "agents": [
         "LABOR"
       ],
       "feed_label": "labor-layoffs",
       "origin": "google_news",
       "level": "watch",
-      "keyword": "mass layoff",
+      "keyword": "hiring freeze",
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW_WATCH",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "NY Fed says subprime auto loans gain in Q4, but remain below pre-pandemic levels",
+      "source": "WardsAuto",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNS1lMd2dnZkJiV1BMcWEyNkg4c1NYRmVmRmhucExtbjBJRm9MVUF5b000YXYzS3hsdE9jWTEtV3pSNXdmNlYyVWRFcjhaTWdHeW9VQUZGdm5QckVtdlRHT3ZyTlZDMmZjNkRzMUxKQV8ybzJGdzh3cFgyUENoVDgxTndPVDZvdFRvWldPMHNZdlkzWU9BMFZub2JoN3paeU5vSW54b1NZQUxjTThGTFZNbUJvUQ?oc=5",
+      "published": "2026-02-12T08:00:00+00:00",
+      "agents": [
+        "CARL"
+      ],
+      "feed_label": "consumer-stress",
+      "origin": "google_news",
+      "level": "watch",
+      "keyword": "subprime",
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW_WATCH",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Subprime auto financing stress is adding pressure to loan approvals",
+      "source": "Car Dealership Guy News",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQWxKd3Zib2RMbl8wY1BnRUhfR2FmeGtLS1dBV0JHa0Q3eE9FTWpHLWE0UVlPSGFoRGMxUUZrZ1VkMnhjY2pBcjF4b3haT05UOXZXcXI4UUJFVVpnYXBnRUFsRkN0MXFKaUpFMW00TnJqN2hhajRiVzZNRDY1YU1McGFhZGx5MGU4TC1rNTh3R2s2M3lvUUJ4OWFrWUtiaGZoSGtzRWU4TTNXY3VPQmU0Mw?oc=5",
+      "published": "2025-12-23T08:00:00+00:00",
+      "agents": [
+        "CARL"
+      ],
+      "feed_label": "consumer-stress",
+      "origin": "google_news",
+      "level": "watch",
+      "keyword": "subprime",
       "entity": null,
       "entity_info": null,
       "escalation": null,
@@ -754,7 +739,7 @@
     },
     {
       "title": "23 Credit Card Delinquency Rate Statistics 2025-2026",
-      "source": "cardrates.com",
+      "source": "CardRates.com",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5YYzVPWlpQa3VWZDNzVGRjTWhBVkFhbTFyeTctNTFYZTIxeEtHbUFDcnlVQndkWmdwdkVhSndmYS1xb2ZJakd0VFFEU1dkUDVNbl8ydVFTcy1HTWZwMEFJOXF1NmNadVZoUzJXd2dDWm9VU0p0c0lvSWZUd2liN1E?oc=5",
       "published": "2026-03-31T00:00:00+00:00",
       "agents": [
@@ -773,10 +758,70 @@
       "source_weight": 1
     },
     {
+      "title": "A major subprime auto lender suddenly collapsed \u2014 raising concerns about the industry. How it could impact borrowers",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNLTZmR0NwaWlnVDFmZFZDYkFPTkUzNVZKMG9SalNuWHQtZUZUTS1MamRmcnVGWkVQRFh0aVZfTEJieDk1eEVyaWd1ZnBGcS1mYW9vY2M3Uzh1MlhqLWdnMDJ0cmlRRmNSaFhOSGpBclZzMVBBcEpGampOb2xLUHJtX2xlUUxhVDNv?oc=5",
+      "published": "2025-10-04T07:00:00+00:00",
+      "agents": [
+        "CARL"
+      ],
+      "feed_label": "consumer-stress",
+      "origin": "google_news",
+      "level": "watch",
+      "keyword": "subprime",
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW_WATCH",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Subprime Auto Lender Files for Chapter 7 Bankruptcy",
+      "source": "ACA International",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdEhHZWxNM0w2LUFVZG43Q1h1NW16aC1PV3kwWHRzNGpleGtGR2FBX3hiOWtiNHlCT1FBdlhkbHpuWjlLQ0FWeVE0eGE2Zk9iWGpzNjF4b3FDS3BxWmtGMnpkZ0w4c25lUzh3bE1KejBnSUw5Q3hac05Rbl9JQzYzQkpzRUFneVVaQjZFMThYNXRmanhi?oc=5",
+      "published": "2025-09-16T07:00:00+00:00",
+      "agents": [
+        "CARL"
+      ],
+      "feed_label": "consumer-stress",
+      "origin": "google_news",
+      "level": "watch",
+      "keyword": "subprime",
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW_WATCH",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
       "title": "What\u2019s a Private-Credit Fund Worth When the Money Is Locked Up?",
-      "source": "WSJ",
-      "url": "https://news.google.com/rss/articles/CBMisgNBVV95cUxQbmFaWVAtWFE4YmQ3bVktTnZZbk14MG9fVF9OMW9rWnR1a2xBYjI1bG9YbDVOR1RWVXIxNVAycE0tUXdkeC1HOElDRVlzdFVWSzBCQWFMN2Z4MDZrcU93RkM3cWZYRnpyZVlnekllRXZvWEtLWS04Vi1uU3ZXaEw0WXFUSEloeEdvUlF3b0k4T2FBdGVidk11S0FmZVFETFdkTUtGY1lCbnZSUnBJeDY0N19Ua3BTZTVPelRlaHI4elRDNnRkNmotVXVieHNCUTF0RFI1c29kUDVqSDQ1RTVVYXlmcnJ1T0k5ajlQWmdReEdsMS1nSVdqM3FReVdzYXlVdXg3aXZWYUhJbng5Q3JsVjkwUU5NZzZTOUdLQVNYclJVLVdZMTlER0xZMDBkY09DeFlmdm9tVHl0TG5DYktLR1NFS0xXUE04dkM5SWhxZkpLcjlqaXZFNkYyRENuMkltaV9iUnNpbmh2OEpZT2p1S21IbU1FUmZoOXk5UEZZNW9GUmRzaGtkV0IwNExSZVBVYXdHSHYyMFVUYm9lR0hka1FnSlFmYldQRVFNMFRjNDRHUQ?oc=5",
+      "source": "wsj.com",
+      "url": "https://news.google.com/rss/articles/CBMisgNBVV95cUxNRlh4UTRWa05SMUdCYTI4cEZ3Zl96UjRQOWxPRW1sOUFTbTZXdnhBU1Jiem1sYlY2OWZJbkZzR1hHSUZsbUZtTzRPSXBtTWgwQ1RFQXhtSDJ5MHlBcURkZkw4WXhrd0h4U0E0MnJnNFFDdlNzNU0wNFdRYmQ4WVlFZDBOcVdqS0toZ2ExNzF6d1ZWZVhZX1pacGtIYi1Sa2NQd2c0c1k2UFJRRlMtUFBEWFZRdHRHblg2SEdCckhHbV9sMHBBeTA4elhMTlFjNWliZUoxdFJzRXE1S3huM2JLOFl0dzhPT1V3NFl2YUZNYnpzazhLNFhvNzNsSDlFaEY4eWtlVWpvV09mRW45Z2phQ0FxZklTSFd1R2FaZ2NaTkd4cnFoWTlBX3VLWXhtb0lUdHRZNlZFai1iLTJoaTNja0ttN0gwMFFvczJZbjNQQUxiOXVPcEVwZndiajBjem5iR1BBUk9HMldSZlBPbGM5WU5wdmVnWE14ZW9wd1pDUkM1bnBrMFVMMkZOVjdXZHFPcXRQM1hiNkdleWw0aDNiVXZ3eXBGQzdtWUJxWkZLTWdNZw?oc=5",
       "published": "2026-04-03T09:30:00+00:00",
+      "agents": [
+        "BROCK"
+      ],
+      "feed_label": "private-credit",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 3
+    },
+    {
+      "title": "Private credit jitters trigger caps on redemptions, tighter lending",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZmhSY2dqcDZ5RG1TcFhGbFVFU3lXcEIxLV93MjdVdjBTaFNxeU1UT1NlUjJFcmkwTjdyWGRvekUxU09DMlYwVVExZGdoMWc2NFV6UTNYcVdFaThKYjZEVTJZeGN3QXF0Q0RXelg3UF82WXAxOEFkMDAyQmlnMlFmZVpWZ1ZJQVF6YkRDZXVhZGFaR3BNZ0lEV2hXS2VGUENkQ3VLM203YjZJNUZmODViUmFUc0Q3R3l1c3dwSU9lZw?oc=5",
+      "published": "2026-04-02T07:00:00+00:00",
       "agents": [
         "BROCK"
       ],
@@ -813,10 +858,10 @@
       "source_weight": 3
     },
     {
-      "title": "The Wealthy Investors That Powered Private Credit Are Rushing for the Exits",
-      "source": "WSJ",
-      "url": "https://news.google.com/rss/articles/CBMixANBVV95cUxQdmVpbTg0WTh6YnZLNlNCZzJwSjlBQlIyWjh3eGI2dDlNWGpYZ0xuS1ZMU1RHa2NNSVV6dEtMbjYzRHN3SWRfMkE0bkdTMUNmRm1vOVl4bDhJc3BVckw4ai1wbGhJd2tmSUhiaXZzNlpwZ0lLRlVGT0pIbDI0Ymttd1I1R0tMWFlhNnhDcy1MS1BJLVI5MzdkRjc0RHZuRnlJbjhjb1d1SkJpRWFnM3I3eU92SlB1TE5ybl9Ob0NjRUNjNzQ4eUd3MFdUa0pvak9xM1ZVb00wMVFvdzAwUlM4RUxtTl81OF9kUnd2RjNidWZLYzdFb2lKVHhQSWZYU3BDQlBMbkZsYTlRMENOMjZWWHRLOUlqMHlsNjc2QWhwd3ZWZWJkOE1hcUxpTjQwOEFCWHFrX3NnZ2xMeXEweWkxRmZVX2NST2I5SExTWlQ0X3d3eENrR2FYU0dZck95R3JNN1paVXRFcVFkeFpHcGRHX2xWN3loVWJTMGgtV0ppNFdOc1RuNDRjeWtNc0NyM3lyN3VKYW1MeVlGWEt3UlIzOXhWU05rRXhpNkNQcktKNFRqUWhwVFpCTGV1ZUxUOWFwYktqTQ?oc=5",
-      "published": "2026-04-02T23:30:00+00:00",
+      "title": "Private credit sector stresses could be catastrophic, but not just yet",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNGQ3OXNUcENwVE9OS2JtMlJfeEpUNlctTlRiMk4zdHotSlRpOVhUdnlEbnhaSms4T3BNWXdEOVp6c0k0b0FlUTUyMlN4VzNWTWhqQjVnV0N4MUxoaFFXaTlmWUUwTTZaQUprdGE1WjVKV3AyT0NZT2VKaG5WU1V5Q3JsX1hxWDA1TWppZGNQUEQ4MFprLS1JWnU3S05pR0JUZWlqM3luZHFUU1BaOEdvOWVNTnBxOU41bGc?oc=5",
+      "published": "2026-04-03T20:42:00+00:00",
       "agents": [
         "BROCK"
       ],
@@ -833,30 +878,10 @@
       "source_weight": 3
     },
     {
-      "title": "Drones hit Kuwait's Mina al-Ahmadi refinery, fires reported, no injuries",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaFNZU29yamFLb3FxN2JwRUhoM3FOWV92Z2R5cWIxQTItSjh2MzZENTQ0SlFmQmFkY1AxSlZHRmR3YW14YjBrYWtISGlNbW5sYl9JU1FCNHl6WWVIRTV6c2tJaTM3VDZ6YUlOS0FkR2VBX1BnWmVtNlUtRjZHbVFhbV9xMmFyZm1YZEdQM1F4UDIxcHNUbWxLM1pWdXlsNG1veFQwX2xCVGxIOW9ackdmMTNReW5PRzdwZlVqT05WbXA?oc=5",
-      "published": "2026-04-03T04:38:00+00:00",
-      "agents": [
-        "HENRY"
-      ],
-      "feed_label": "gas-supply",
-      "origin": "google_news",
-      "level": "normal",
-      "keyword": null,
-      "entity": null,
-      "entity_info": null,
-      "escalation": null,
-      "watch_hits": [],
-      "classification": "NEW",
-      "suppressed": false,
-      "source_weight": 3
-    },
-    {
-      "title": "UBS Says Dollar-Yen May Rise to 175 on Extended Oil Disruption",
+      "title": "Why Is the Japanese Yen So Weak \u2014 and Will Authorities Intervene?",
       "source": "Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTVZGYUFhNXZuZTByajF3dWtqWHc2djl1ZzN0c1M3Zkx1eVFVS0NYTTN0SzFndkkzQVpvdWxOSjhVcV80dThqT0ZKVmpNN1dIYnBScXFsa2lGTzhUMmNmU0ROZnIzSExudGFiWG0zMEE3R0kwUGZqSVlpTWpIS1E4TllGb3hmMVZfQnJFQ2NYNjNnWnhDUnVJdUpNSTdKX2xGcW5oRlZ1em5KOFE1WHEzZkk4dw?oc=5",
-      "published": "2026-04-02T00:28:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWFByak9PMWFEbzVyU2xXYUlZYzRHXzVsUWNYMmxMeUNGMExGN2NyWUp2T3B3WUh0OTNYUndyeVF5ZlppbmxBVkN4SmVYaUM5MUlVYU1HOG9oaEUzQmZIWHdMQUxxLVQwRGtLUzdQeEs2U1NVRXl2RG9nSjhwSDFuTnh4M0FrUUZWbWFneURLTGZzTElraFFZeXNSaTJJQmhsQ2JhSUdRR2xxdVY4bl9VNXhsTjNwVmxIZU40TA?oc=5",
+      "published": "2026-03-31T04:39:00+00:00",
       "agents": [
         "SAM"
       ],
@@ -873,10 +898,10 @@
       "source_weight": 3
     },
     {
-      "title": "Yen and rupee rise as Asian countries struggle to defend their currencies",
-      "source": "Financial Times",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPY0hHaXJBajVYdXlVbGRKWDE4cDVyU1NZVzN5bzVqbEtXVTA3WDkwNDliR1FiSjljS1dEQnNWV2hXOGF3WVdTblNwWDNlSUV3S2R6Y0RmZFR2SU9XbXhpZVFNZDRFVkYzSUVJUUxCNzdzYjhJbFg3YS16TnNSb0otZVJZWDQ?oc=5",
-      "published": "2026-03-30T10:23:16+00:00",
+      "title": "Berkshire Hires Banks for Yen Bond Offering in Volatile Market",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdjFIZDZGR0R5UWRfcDgyZnlucEN0RWdzWV8xVUxlczQ3RTAyaFdfZFdXUEhFbVpKcWNqRlZsQjR6YjB5UG9ScE94YUhhUkZFWnNXSlVKU2pwb0R2VUlSVF9qQTV4azE5NHI4bnZxVTlTakZtOEdsT1VQSXhiWEVpemg0ZGlWM0xBRkdCRXV2ZFNwQzg4d1NtcjVFRm9BcVRGOXFiZkVPZWU5MDlueHdCajFYMA?oc=5",
+      "published": "2026-04-02T04:51:00+00:00",
       "agents": [
         "SAM"
       ],
@@ -893,14 +918,34 @@
       "source_weight": 3
     },
     {
-      "title": "What We\u2019re Looking For in Today\u2019s Jobs Report",
-      "source": "WSJ",
-      "url": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxPQVJCOWIwQ2k1ZU1KRHgzenkxQjRqS2gtX09ta3ZlSGtOeVUwQUdvQ0JHLXpqZmN6R0JKZV9QZEV3aVp3TDM5RzZKanEtWXdMcTZRcnVJZmRUejloOUpuM2w3V3g4ZHlMSkZRQmdIbXJUZVZfVFNjeTRkMDUwQnZrLWxqSjhJcWowNEw5ZEdxOENDUTZSeTM3alEzaF9iMGZMT3dKWWRYUVlycnRNNjZLRGo1OXRMSTVaX2lQbDBJMWhHOGFhNTdqeTNIU0VEU1pnemhLOVdHMmhEMUgxYlFrR0RaT3lYbHFJemctTTZORUdKQUJ0azZobGQ2WHMySlZrWWlmM3pfTF9RMzNPbXNhVWxIeFg0d1I1X3dacjFISHBhN0NiZS13eUVmM3JuRWhpWnpSaWhIdnJLUXZYbWlOM2p6MTNJS1VlbHpfZXVzZHZrS0J0Wkhsa0pMWmxzWVZxN19DZFZpeVdOUXlNaFg3ZGJoVEhXNHZX?oc=5",
-      "published": "2026-04-03T09:30:00+00:00",
+      "title": "Japan turns up FX heat as volatility rises, signals readiness to act",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQN2hqd0tPa3BDSExrLVA5X2NDTmNQNXE0dlQ4NEdUZDc0TERCQXhrZVZ5YzRERkxBLXBtWnFuU2ZycXoyZW1fSi04Y29yaW55bWV6X1hPcHZNcXdWNEVuRGU1bjdVLTR4X0JEZ0I0TnZGUHRDdC1IYk1nS3JuY0pScmZjX1JtRVlYN1ZPcHJOUzdjRG9IdXpYcGVlcVhNX2xtZUIzaUVnekFJaXIyLW5yXzRzNXNzaWduZ2FoM2pYMmNSZw?oc=5",
+      "published": "2026-04-03T07:42:39+00:00",
       "agents": [
-        "LABOR"
+        "SAM"
       ],
-      "feed_label": "labor-nfp",
+      "feed_label": "japan-boj",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 3
+    },
+    {
+      "title": "Japan brands yen falls as 'speculative' as Iran war ignites sell-off",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUG5NUDVtYUVxYVV6UEN2ajd2ZWE2dEt3XzE1OEtNUllvSlN0WjZsUmkzMHItQzZIY25wRE1zRXUzN2N3dlFfRkxVeUY3Um5rRHE3RXY2bXZ1UGdOS2hWa01PWkNqZzhCeXBqVVlZN3FUNEJjMW8yODBCZkVtYWFCZzNtY2pzZENfSzd5MXRLcUhuaDYxbGVwMU5hSVJhMFdkRU8zbll0MDh5Ynk0YzR6bjcweFZZZw?oc=5",
+      "published": "2026-03-31T04:32:00+00:00",
+      "agents": [
+        "SAM"
+      ],
+      "feed_label": "japan-boj",
       "origin": "google_news",
       "level": "normal",
       "keyword": null,
@@ -933,10 +978,10 @@
       "source_weight": 3
     },
     {
-      "title": "Bond Yields Rise After Strong March Jobs Report",
-      "source": "WSJ",
-      "url": "https://news.google.com/rss/articles/CBMimwNBVV95cUxPQWM3VFBzcXhsbkxHeU9UaHdfRWVhM3UyMEotZjBjRzBmZGNKdkdHbkdxZVdkZ1N1U2cwTnhvN0hheFhVUnozWnpDNHNtX3NDWFNYWEtHTW1OaERjRnBHRlRCaFdRdU5SMlUzNHJLQVhCM3Q4c2Fsb0F2VTNONF8tSTREOW5md29yR0RNUTZtbHE1bHp0UDA1UXdkTFhPV1VsZXFFUzZLcWpiTlRTbnJ5MDNUY1Jwc0FmeDFzOFJBUk9rX0o4T0kyYzdDdHprYm9zbFBMWjNmcmNyMWZjc0VSUDBHU0k4VjlPTzY0TExHd2R0SVpuX0doVUJacjFPdWNmekw5aDJWbG1SNWJEU1RfQ3F4YzFwQ090Z0FyLUxzTERZNng3Y0dRZHZfNU5tWG9xOU9HeFlicDJKeWJSUkN2VWkwRjY4QlRicUFJN3p4TFVBVmdmMWprYnpLQVc4VmF1R0x2ZTJOSFhMVkh4a1pQb0pWYnRHUU1qTU54WjRFaS1LTE1jSkhDdFFmS0RUWXp5aDVFamhITGJDQ1k?oc=5",
-      "published": "2026-04-03T13:13:00+00:00",
+      "title": "Breaking Down the Booming March Jobs Report",
+      "source": "wsj.com",
+      "url": "https://news.google.com/rss/articles/CBMikwNBVV95cUxPZjRBbFMxV3ZpanJZbTRaMVl4UVR2QkFxUTQ2Q2lwWmdzRk9sdFJJMUhZZkJsNWFpYllBeFoyaGFkamlFa2ZpM21SZXhXaTlydjctRXRfYXhiVUlLU2M1ZFVVQmtOSUhWQnhQa0tmclplMlNsazFlTXV2XzFFNG5rYk5RUWFuM1ByeXRiSlpmRFZEMnRrSjR5Nk4xWnlwTnVPclN5Q192bEx4dFdMMUo1aUVDY1cwODNyeEhmcHVwcVBSQ28tRkJ6WGd4RzNaN2JRVUpGdFNtemdBX1lfQzVBS2JJa25ndHJHUUxpTkF2UHVjM0NOdVh3R21mVFpBdUJFd0duUUQ4Z0Q3c25qMXNUTW5Qb1I0SUFTNEFwVDdQaXFrUE1rV1VlTGRvVFNrSkhTSmZCd25tNi1lZmV3ZjdvYTVveXZDV2J4UzF6U3E0emR3MnZzUzA5YnFmN2IyblVXMGY5a3Z2NFlWX25kQ1lncnJUaGJORGRnbW4xRVV6Vm1yaVlucVVoY210UjJWdkp3QVVZ?oc=5",
+      "published": "2026-04-03T20:09:00+00:00",
       "agents": [
         "LABOR"
       ],
@@ -1014,6 +1059,27 @@
       "source_weight": 3
     },
     {
+      "title": "Failed Bank Information for First Republic Bank, San Francisco, CA",
+      "source": "Federal Deposit Insurance Corporation (FDIC) (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVUpSTGxvR2xhRS1CR0lmZ0NDaGNfMzRLTnp1cWM3N2VQRV9tTmlFVTB1WUxlb3JCX3FwVW1McGF6cnVlS3piNHlmRF9Ba2l4YmMtckJvcS1OcHFxSVNTN1dGY3lLdlNaZE5HbG81WTZtNlRPQ3NnbkJ0cDZDMEV2NktONmpUSzZZSU1ldmU0eDJnOUtjMHVheQ?oc=5",
+      "published": "2025-08-07T07:00:00+00:00",
+      "agents": [
+        "REGINALD",
+        "LIQUID"
+      ],
+      "feed_label": "bank-stress",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 3
+    },
+    {
       "title": "The Broad, Continuing Rise in Delinquent U.S. Credit Card Debt Revisited",
       "source": "Federal Reserve Bank of St. Louis",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPck9odHhwa3FYYjVJcjJmVjYyeWtpXy1Zb0R3cmkyc0o3bnU5UzFlT1hFdGRpb0FOc1B3TGRYODJNNno3Wjc0R3NfamZKVGljT0VyQldVelBjNldxSkdkSEhLU291WU1CZFNqMlZaeG5lYUR4YjBrZUNva1FmdWhEWGxNQng4ZWlXbGc5RHY2LWJnYlFteGwzSHB3Ylp2YldJcUJMU0R4YzhFTkJzRDVydVp6RQ?oc=5",
@@ -1034,11 +1100,11 @@
       "source_weight": 3
     },
     {
-      "title": "Europe must prepare for \u2018long-lasting\u2019 energy shock, EU warns",
+      "title": "Trump vows to destroy Iran\u2019s power plants and bridges unless it reopens strait",
       "source": "FT",
-      "url": "https://www.ft.com/content/7d3a6810-b571-4730-aa35-f7bfcacdc242",
-      "published": "2026-04-03T04:00:32+00:00",
-      "description": "Energy commissioner says bloc is assessing fuel rationing and releasing more oil from strategic reserves",
+      "url": "https://www.ft.com/content/50943619-f694-4f49-bacf-6191b9096215",
+      "published": "2026-04-05T13:52:09+00:00",
+      "description": "US special forces locate second missing crew member from F-15E shot down over Iran",
       "agents": [
         "ALL"
       ],
@@ -1055,11 +1121,11 @@
       "source_weight": 3
     },
     {
-      "title": "Gulf energy sites targeted in wave of attacks",
+      "title": "US rescues second fighter jet airman shot down over Iran",
       "source": "FT",
-      "url": "https://www.ft.com/content/c860846e-e7e9-42cf-9c26-15ca516169b0",
-      "published": "2026-04-03T12:58:14+00:00",
-      "description": "Donald Trump says US could \u201ceasily\u201d open Strait of Hormuz after renewing threat to attack Iranian infrastructure",
+      "url": "https://www.ft.com/content/764a9cda-eda0-4332-a4ce-6a26afaf7597",
+      "published": "2026-04-05T13:32:11+00:00",
+      "description": "Trump warns Tehran \u2018you\u2019ll be living in hell\u2019 unless the Strait of Hormuz is opened by Tuesday",
       "agents": [
         "ALL"
       ],
@@ -1076,11 +1142,11 @@
       "source_weight": 3
     },
     {
-      "title": "Prediction markets: the hunt for the new \u2018dumb money\u2019",
+      "title": "How Iran keeps firing missiles under bombardment",
       "source": "FT",
-      "url": "https://www.ft.com/content/9b038375-66c1-4c30-80a3-49176e5137dd",
-      "published": "2026-04-03T04:00:12+00:00",
-      "description": "As new bettors flock to platforms such as Kalshi and Polymarket, some make easy prey for trading firms and professional gamblers",
+      "url": "https://www.ft.com/content/bfa38b06-2877-48d2-857b-7f90d405159a",
+      "published": "2026-04-05T04:00:13+00:00",
+      "description": "Tehran is still launching retaliatory strikes on Israel and Gulf states",
       "agents": [
         "ALL"
       ],
@@ -1097,11 +1163,11 @@
       "source_weight": 3
     },
     {
-      "title": "Investors are betting on AI chaos. History suggests otherwise",
+      "title": "Is AI the new fracking?",
       "source": "FT",
-      "url": "https://www.ft.com/content/76ea6878-d11c-4118-ad98-3b361fcdbb01",
-      "published": "2026-04-03T11:00:05+00:00",
-      "description": "The experience of past tech revolutions suggests savvy incumbents might muddle through and even thrive",
+      "url": "https://www.ft.com/content/525cc89e-1ee9-4039-a588-5039565053f9",
+      "published": "2026-04-05T15:00:27+00:00",
+      "description": "The backlash against data centres chimes with energy Nimbyism of the past",
       "agents": [
         "ALL"
       ],
@@ -1118,11 +1184,11 @@
       "source_weight": 3
     },
     {
-      "title": "What\u2019s going on with dollar debt?",
+      "title": "How Trump became tech\u2019s regulator-in-chief",
       "source": "FT",
-      "url": "https://www.ft.com/content/c5a34c74-416c-4c90-8fc3-60a1c94d7cd5",
-      "published": "2026-04-03T04:00:32+00:00",
-      "description": "\u2018Swap\u2019 trades by hedge funds have exploded recently",
+      "url": "https://www.ft.com/content/16bc1f88-0ae0-4de8-91ef-ea947876dc7d",
+      "published": "2026-04-05T11:30:32+00:00",
+      "description": "His interventions in the sector exceed anything the EU has done",
       "agents": [
         "ALL"
       ],
@@ -1139,11 +1205,11 @@
       "source_weight": 3
     },
     {
-      "title": "US economy beats expectations to add 178,000 jobs in March",
+      "title": "Countries must not hoard fuel during Iran war, warns IEA",
       "source": "FT",
-      "url": "https://www.ft.com/content/82c1795b-704a-4da3-82ec-2f9cd52de01e",
-      "published": "2026-04-03T13:36:41+00:00",
-      "description": "Figure signals improvement in labour market after string of bleak data releases",
+      "url": "https://www.ft.com/content/9e47e3b8-fae1-4c1c-b79c-22dda42bc2b1",
+      "published": "2026-04-05T03:00:20+00:00",
+      "description": "Fatih Birol makes veiled reference to China as he urges nations to avoid export bans despite worsening supply shock",
       "agents": [
         "ALL"
       ],
@@ -1160,11 +1226,11 @@
       "source_weight": 3
     },
     {
-      "title": "Trump fires US attorney-general Pam Bondi",
+      "title": "Campaign to curb cars in Berlin sparks uproar ahead of election",
       "source": "FT",
-      "url": "https://www.ft.com/content/533ecec7-713f-46f1-a2a2-cbd9a659299f",
-      "published": "2026-04-02T19:41:43+00:00",
-      "description": "Loyalist\u2019s exit comes after pressure over her handling of files related to Jeffrey Epstein",
+      "url": "https://www.ft.com/content/8ac85c84-7947-4ed0-8c41-12733b71c88d",
+      "published": "2026-04-05T04:00:12+00:00",
+      "description": "Conservatives and far right are opposing a citizens\u2019 initiative to restrict traffic in the German capital",
       "agents": [
         "ALL"
       ],
@@ -1181,11 +1247,11 @@
       "source_weight": 3
     },
     {
-      "title": "Trump\u2019s poll ratings should worry Republicans",
+      "title": "Nelson Peltz\u2019s bidding war highlights $25bn wave of asset manager consolidation",
       "source": "FT",
-      "url": "https://www.ft.com/content/3d01c928-4c4f-4032-9fbf-055cf714586f",
-      "published": "2026-04-03T13:00:04+00:00",
-      "description": "Seven months out from the midterms, Americans are feeling economic pain",
+      "url": "https://www.ft.com/content/e51d9d8f-ffaa-480e-b763-350ebace12c8",
+      "published": "2026-04-05T11:02:13+00:00",
+      "description": "Quest for scale puts global money manager tie-ups on pace to crush last year\u2019s deal total as costs and competition mount",
       "agents": [
         "ALL"
       ],
@@ -1202,11 +1268,11 @@
       "source_weight": 3
     },
     {
-      "title": "Fund managers snap up bonds on growth threat from Iran war",
+      "title": "UK courts Anthropic to expand in London after US defence clash",
       "source": "FT",
-      "url": "https://www.ft.com/content/397d5395-90d4-40db-8130-740b9bc91f5b",
-      "published": "2026-04-03T04:00:12+00:00",
-      "description": "After sharp market sell-off, debt investors shift focus from inflation fears to likely damage to economies",
+      "url": "https://www.ft.com/content/6bfd7b59-5e63-4a4d-ab55-7c2bd39b05a5",
+      "published": "2026-04-05T04:00:12+00:00",
+      "description": "Keir Starmer\u2019s government steps up efforts to get American AI start-up to grow its presence in Britain",
       "agents": [
         "ALL"
       ],
@@ -1223,11 +1289,11 @@
       "source_weight": 3
     },
     {
-      "title": "Trump administration announces new tariffs on pharmaceuticals",
+      "title": "Zimbabwe\u2019s \u2018Crocodile\u2019 leader eyes role as president for life",
       "source": "FT",
-      "url": "https://www.ft.com/content/25ecf952-2fca-4ac0-9f72-69949c929a62",
-      "published": "2026-04-02T19:31:34+00:00",
-      "description": "White House also rolls back levies on some metals in an attempt to simplify duties",
+      "url": "https://www.ft.com/content/8b0c2a98-2bce-4557-bf5d-20b144ee54f6",
+      "published": "2026-04-05T04:00:12+00:00",
+      "description": "Emmerson Mnangagwa plans to amend constitution to extend tenure to 2030 \u2014 and possibly beyond",
       "agents": [
         "ALL"
       ],
@@ -1264,10 +1330,10 @@
       "source_weight": 2
     },
     {
-      "title": "Bain Capital's Managing Partner on Private Credit, Alts, and More",
+      "title": "Private-Credit Funds Face Higher Financing Costs in Bond Market. Here\u2019s Why.",
       "source": "Barron's",
-      "url": "https://news.google.com/rss/articles/CBMizANBVV95cUxPRUpHWlQxWnZtb2wySmJic19SLXMtcjRlUXlTUTYxc1N1TlZuUEIyV1phQVFsOW1vUGFXMENlNEgzU29GQU1hWGk1cWFQcGI0NmlUTk00UzRIWFJYSVFfUDRTRGhRamU4MlpHNklDc2FUdHdyZTZxbUZ6a3dpc3BKX3NwZjZQSHJYa1NuNVo2RGswUU95SUs0YmxTa09jeGkyUWsyUHRNWk9Nbm5GcllJT0JwQm44M1Rjbm9zRVlrNmhEOEJ0RE0ydEhMS3F5ZXBmS1h5alkyM3J2TWpKazNXS2ZyeWNpNWtyellJSFIxaHBUR0hiMmQ0cVF1R09kellWS3FodTd1a1lsZjZBdGVKbXdGZ0dmM1EzTnN0MGx0S3Q2OUR0djUySV9HTk9XOUdNWUlqdnpsdDVMZXFRYW13anNwZ0VxV05QV0dLRjR1Z3hBbXRCYk5MdE1lRTBZWEhJUXJaM2N1OWFBeVhhREJ2Zk51amhQQnJsUERjaXBtX2JGTlYzcmlwWGV0ZG4yLXZwRWlxakNIcXVQdFlmNlc2ckd3aGE2allmMnNPN3N0ODc0XzVPVU9BMU5USTdHbTc4R2NXOWNZLTJucjJO?oc=5",
-      "published": "2026-04-03T12:20:17+00:00",
+      "url": "https://news.google.com/rss/articles/CBMirgNBVV95cUxNSGZXMTNmNktONXk4S2tRQkNoS1VneFNfSlJRS2wwRzAxZ2VnSHNuU21KRVlNeklDMVFuVU1yV2RDdmRkd2ZiXzdSR0NZNnhOYVBOaTBnLWUxV2RvVE1CUnJPS1MzOEdNeDdFNGVNazRZdUVWWVJ3Y2RlWUxsbjB3MXBLNFY1LU1vWXJ0X1dnXzh4RWRQOW02M2FWTGltSWttWGZPMDE3bXJxNGtkZjI0UGlKZk92RUJDM0JwcE1iSHRjQ1pZcUNaSUg1dmJUMGZLNGFWUTk3RUxiUmZsc0wxODQ4cDZtYVUtMnZZMEFSMV9pLXpQOUM0T0FxWmhuNWJST1dfLTA4MGR6ZmVYNEV1VmFvTDRrYWNWd0JCQlFlODNnbUhqTTNwa2NnV19PRVNtaWh2X0NkT3FLbXNjVmRSOWw1a0puTzJNYWd1MWw2dy12cjEybjNIeVk0bVJ3OTlweHBxa3pZS2NzS3Jnd2ltV09waWR6ejEzOV85X3B5M085bFlVR3I5bUozNDA5VXdwVVJtMktKZHMtZ2lraFN6eTVQeUg3TUFEdkhWeVdB?oc=5",
+      "published": "2026-04-04T06:30:00+00:00",
       "agents": [
         "BROCK"
       ],
@@ -1304,14 +1370,14 @@
       "source_weight": 2
     },
     {
-      "title": "An Oil Explosion in a Black Texas Town Traces Back to Trump\u2019s Iran and Venezuela Crises",
-      "source": "capitalbnews.org",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9zREd0cUlUamhLQmJEZm1rN3g1U0lfZzNzdWZRc1Uyakttcl9QU28tQUstb2J0UkdIX3lSM3pyWVRSSDFJa0s5TjN2S3o0TTJyTU03WHMxcThPZm9WcFRTQjJJa0p4bm1pZFJOekM0N2lXTVZPdkhHeDN3?oc=5",
-      "published": "2026-03-30T17:15:00+00:00",
+      "title": "Oil tumbles nearly 11% after Trump puts hold on U.S. strikes against Iran energy infrastructure for five days",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONnh6TzZGRGxxUXlhT3MwdFdsN19JdjdWUkkybS1Od1lhQWVVTy0tOF8wSV8zSFFlVlp0SGkxa1ZtNE8ySU1pRVhvdkZxeGZ1NE5ZdFcwNFI5N2t0SzNjZTF3WmZFTTNqaTZmTEdsSFY3cE5zU1VWem9nN2s4UTlUei1kd3gycWN6OUE5WFNVVDN6d2RSSXpzXy1wMlZhc3A3TXB4a0V1U3LSAa4BQVVfeXFMTncxRUlGbUoyMHluZlI3RG1kdlJJQXhTbWFHWEZlZzZTQ3JvcGVRekNhclQ0dkR3WUlhLTVqR2hQdFNMTmQ2bEJqU1Ffd3NxbnpiU1hycXotTDJEWHBpRjIySnQ2Wms4QnF0a0RER0VXcm1iRFdEWUIwRVBNSGhOSnVzRmFMaFdlZTA1ZlZob0YzVjNJaFhidXVNYVJpdXJJWDJhX3hUZmw1UTZFRzBn?oc=5",
+      "published": "2026-03-23T07:00:00+00:00",
       "agents": [
         "HENRY"
       ],
-      "feed_label": "gas-supply",
+      "feed_label": "oil-energy",
       "origin": "google_news",
       "level": "normal",
       "keyword": null,
@@ -1324,50 +1390,10 @@
       "source_weight": 2
     },
     {
-      "title": "Dangote refinery counters reports of higher crude allocation from Nigerian government",
-      "source": "Business Insider Africa",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNenlHeUJyTnFuQWh4aW1YaXoxVm4wSkZtS3hOU29SNHdOSVNfLXlyTFE5eEtZQWo0SzNsLXB5VFRjY3NfQ295NlkzMlB0TFBxZjFja0lkb2lQTVh4NEdvTHpuMlltTDhCRFppRUdsbUM4OTZJZUs3ZEdselJMdmpKcVRMT1ZGTjBkdlpnWTdFTzltNlpLMC1NdWJUM01rOWk2b2tiOU00eHVxZDNFVjQ0eEVpVl9oM2Z6STVMbGd6MXJFWXd1VVUwSWtWWFo0TmZTOENmLXFpT3dIdw?oc=5",
-      "published": "2026-04-03T12:01:33+00:00",
-      "agents": [
-        "HENRY"
-      ],
-      "feed_label": "gas-supply",
-      "origin": "google_news",
-      "level": "normal",
-      "keyword": null,
-      "entity": null,
-      "entity_info": null,
-      "escalation": null,
-      "watch_hits": [],
-      "classification": "NEW",
-      "suppressed": false,
-      "source_weight": 2
-    },
-    {
-      "title": "Japan finance chief says ready to take all possible steps on yen volatility",
-      "source": "Japan Wire by Kyodo News",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1XVTBVUS0tR3UxdjZZRnRmMWdPcnJJMnNJbm91S1NJdC01dU9COVN2TUlscFlnaEFkdkZHNUp0WkV6QTRrb3hoTmhqLVNjNVFzSGF1M05kZTZtZw?oc=5",
-      "published": "2026-04-03T02:23:20+00:00",
-      "agents": [
-        "SAM"
-      ],
-      "feed_label": "japan-boj",
-      "origin": "google_news",
-      "level": "normal",
-      "keyword": null,
-      "entity": null,
-      "entity_info": null,
-      "escalation": null,
-      "watch_hits": [],
-      "classification": "NEW",
-      "suppressed": false,
-      "source_weight": 2
-    },
-    {
-      "title": "BREAKING NEWS: Microsoft to make AI-related investment totaling 1.6 tril. yen in Japan",
-      "source": "Japan Wire by Kyodo News",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE50U2JxSzByRTJDczlBM1hsb043OGc0YnRjdkFnVUV2OVhucHllZ0o5NGliWWRiMVIya1ZzTERpbTQzWm4ydGdWOHhpV1pTQjBiVDZJNHVyZm1VQQ?oc=5",
-      "published": "2026-04-03T02:35:37+00:00",
+      "title": "Japanese yen hits 160 per dollar, weakest since July 2024",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMWN3bGRaRG1ia29vOE5EdkJuVlh5TnlSUjlXc3hvOU5jeVlIMnd6aTNmMk5WeGZlQ1pYenpKdlgtN0V2Y2pBdzBxekZGUXM5Qm9DU2YzYkRiMFF2T1M0bEZrZVMtSk1YMkNNWm82SGZSTnlmclNJY0x1bW9QRW5Qak1ZZVV1ZldpYWlEZDcyTkJ0eENUNEZYRDIxOEZSZmlQR2pvSzk0MNIBrAFBVV95cUxOWklvMDBmemdhcTZIR0VwVERYSEs1SC1oamE3aUw4dGhSOGV4RDlSb080bVFKNnNWYURXQ0NQVXF0b3BpeXZQbHg0MFZwd2pmTjRkTUxBQXN1bFZESHY5QVEwNEM3S3diOER1QUtVekJqcmdTNGdJRnBpaUFtVUJ4T19OY08zbjJxa2hfVGplV3JDdkh1Y2NHNmVZMUdyQnZOSTVQck40ZnViQkFC?oc=5",
+      "published": "2026-03-27T07:00:00+00:00",
       "agents": [
         "SAM"
       ],
@@ -1424,34 +1450,14 @@
       "source_weight": 2
     },
     {
-      "title": "U.S. jobs report bounces back from dismal February with surprisingly strong 178,000 payrolls",
-      "source": "Fortune",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOM3FKYnhBd1NiZ1pZRXpsbGFTYnFLVWtoeUFVc1NnNmlsUEFqdmg0bjZhOWNJYVIxOEpiUHRLNlFEUjBkVHJ6blZMWWs4cHdyRWwtMmtlX1cxUmxlbkw3cy1IN2ljc1hHZDBjOElFZG9zZ3lFU3lMaEthT1VmQ2NhRTM3OU5YTW5xWUdjV1RKMjk5QUZXc0U0M0FiTGd4R3dMM2d4azVtbjJ6UGpzVWNkbDlXOFlmM3lnZ0drSUJ6RQ?oc=5",
-      "published": "2026-04-03T12:48:00+00:00",
+      "title": "Strong Showing for Job Market in Latest Report",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1JOTdYLVlUQ0Qwa1NIelFPWER4d3hmMWl1UWRrbVRNaHhtcUw0aWlDQUJkZm9pRmVOcGtOQTBsNXpUY3pyWWZValdkeXlnb3FLbjJiZFBmU3hURVZ2STdJSWZ3M3BMQmJNLWZ5R2NKamcyT0Uwd0Qw?oc=5",
+      "published": "2026-04-04T20:41:01+00:00",
       "agents": [
         "LABOR"
       ],
       "feed_label": "labor-nfp",
-      "origin": "google_news",
-      "level": "normal",
-      "keyword": null,
-      "entity": null,
-      "entity_info": null,
-      "escalation": null,
-      "watch_hits": [],
-      "classification": "NEW",
-      "suppressed": false,
-      "source_weight": 2
-    },
-    {
-      "title": "From Strait Blockage to Straight Losses: Credit Stress Pathways for Asian Listed Companies",
-      "source": "S&P Global",
-      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQSXlIbWNUUDd3QUxuZk9VV3hrV1ZwLXRuSkcwTUdTandabXVlb1BBZUYtRXlER3pTS2ZsWktjT3I1T1B2VDUzMldkRWE2Z2RpMmtLM2RyVjVqN0xveGtRQ2p0eUIyODVOdDhVVE5HTmNxT0VOT0t2dGpOeFUtYjlETm1kbzhfbGxTaGx1MV9mVDgzT0p1aFFiVjlQTHJ2akVPQ2F3X0xfSC1kNzJnWFYtLTNhUkJkNUVtM05DYU11al9aVXNlZ29xeVRHZlRxdmZwSmotSTFQVnJuY1oyMW9JckJKUG9lck54VDdQakh6MHJGTmpEVlJJUXZNS1k?oc=5",
-      "published": "2026-03-21T07:00:00+00:00",
-      "agents": [
-        "LIQUID"
-      ],
-      "feed_label": "credit-spreads",
       "origin": "google_news",
       "level": "normal",
       "keyword": null,
@@ -1504,6 +1510,69 @@
       "source_weight": 2
     },
     {
+      "title": "Chicago bank first to fail in 2026",
+      "source": "Banking Dive",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNS1MyR0VXLWdNQ0ZzRmR2VGZ1c2RaZjJnc2ZZUkljR05OcWFWNTRGRk9OYXRMRFZTWTZ5ZVk0VC1oeGkwdDEwdEFyS1h6M3FLLWI5NTBqc0V2OE9yalA1RXZjb0o5YTYxcnlVdUNyNVJEaHZGemplV3kyaXB1TW0tWUI4QnMxc2w1UXNPZzdGOEh3Y1NoSmpGRXNIaWpIRmFtSzZISTZTd3BDemlyTENMSFVR?oc=5",
+      "published": "2026-02-02T08:00:00+00:00",
+      "agents": [
+        "REGINALD",
+        "LIQUID"
+      ],
+      "feed_label": "bank-stress",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 2
+    },
+    {
+      "title": "Pepsi withdraws as UK festival sponsor after Kanye West backlash",
+      "source": "BBC Business",
+      "url": "https://www.bbc.com/news/articles/cp86942yj97o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-04-05T15:13:36+00:00",
+      "description": "Sir Keir Starmer says it is \"deeply concerning\" the rapper is set to headline a festival after recent antisemitic comments.",
+      "agents": [
+        "ALL"
+      ],
+      "feed_label": "bbc-business",
+      "origin": "rss",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 2
+    },
+    {
+      "title": "State pension age starts rising to 67 - here's how much you get and when",
+      "source": "BBC Business",
+      "url": "https://www.bbc.com/news/articles/cx2e7e90kneo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-04-03T23:27:52+00:00",
+      "description": "The age at which people can start receiving the state pension is going up in stages over the next two years.",
+      "agents": [
+        "ALL"
+      ],
+      "feed_label": "bbc-business",
+      "origin": "rss",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 2
+    },
+    {
       "title": "US jobs surge unexpectedly in March despite Iran war",
       "source": "BBC Business",
       "url": "https://www.bbc.com/news/articles/crk165g4vv3o?at_medium=RSS&at_campaign=rss",
@@ -1528,7 +1597,7 @@
       "title": "M&S boss calls for more action on crime and abuse of staff",
       "source": "BBC Business",
       "url": "https://www.bbc.com/news/articles/crk16j2j1ygo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-04-03T07:29:13+00:00",
+      "published": "2026-04-03T21:13:17+00:00",
       "description": "Thinus Keeve's comments come days after an M&amp;S store was targeted during disorder in south London.",
       "agents": [
         "ALL"
@@ -1672,32 +1741,11 @@
       "source_weight": 2
     },
     {
-      "title": "Energy bill help would be based on household income, Reeves says",
-      "source": "BBC Business",
-      "url": "https://www.bbc.com/news/articles/cgk0d76yg8po?at_medium=RSS&at_campaign=rss",
-      "published": "2026-04-01T08:07:51+00:00",
-      "description": "The chancellor tells the BBC it is \"too early\" to say exactly who would get help but hinted any support would not arrive until the autumn.",
-      "agents": [
-        "ALL"
-      ],
-      "feed_label": "bbc-business",
-      "origin": "rss",
-      "level": "normal",
-      "keyword": null,
-      "entity": null,
-      "entity_info": null,
-      "escalation": null,
-      "watch_hits": [],
-      "classification": "NEW",
-      "suppressed": false,
-      "source_weight": 2
-    },
-    {
-      "title": "Experts dispute US account of deadly Iran sports hall strike in Lamerd",
+      "title": "US airman injured but safe after rescue from inside Iran, Trump says",
       "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/c4gx8e1x5j3o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-04-03T13:16:33+00:00",
-      "description": "Six weapons experts have contested the US claim that video evidence suggests an Iranian missile could have hit the hall.",
+      "url": "https://www.bbc.com/news/articles/cr41evk126go?at_medium=RSS&at_campaign=rss",
+      "published": "2026-04-05T08:36:06+00:00",
+      "description": "The recovery of the airman follows separate search efforts by both the US and Iran.",
       "agents": [
         "ALL"
       ],
@@ -1714,11 +1762,11 @@
       "source_weight": 2
     },
     {
-      "title": "Artemis II leaves Earth's orbit on track for far side of the Moon",
+      "title": "How downed F-15 US airman was rescued inside Iran",
       "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/c937g7nd5x4o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-04-03T11:12:28+00:00",
-      "description": "The mission's last, big push on its lunar journey takes humans out of the Earth's orbit for the first time since 1972.",
+      "url": "https://www.bbc.com/news/articles/cm2k1dgz142o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-04-05T15:45:20+00:00",
+      "description": "The US has rescued the missing crew member of the US F-15 fighter jet which was shot down over southern Iran.",
       "agents": [
         "ALL"
       ],
@@ -1735,11 +1783,11 @@
       "source_weight": 2
     },
     {
-      "title": "France's Muslim gathering ban overturned by courts",
+      "title": "Pope Leo calls for global leaders to choose peace in his first Easter Mass",
       "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/cwyjekvwww0o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-04-03T12:20:28+00:00",
-      "description": "The Paris police department had argued that the four-day gathering was a security threat because it could be a target of terrorism.",
+      "url": "https://www.bbc.com/news/articles/crk1zgjj7y1o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-04-05T12:35:36+00:00",
+      "description": "Pope Leo XIV addressed thousands of worshippers gathered in St Peter's Square on Easter Sunday in his first address as pontiff.",
       "agents": [
         "ALL"
       ],
@@ -1756,11 +1804,11 @@
       "source_weight": 2
     },
     {
-      "title": "Burkina Faso must 'forget' about democracy, military leader says",
+      "title": "AI videos fuel rhetoric as Orb\u00e1n bids for four more years in Hungary",
       "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/cly0zp1xgz3o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-04-03T11:11:42+00:00",
-      "description": "Capt Ibrahim Traor\u00e9, who seized power in 2023, says democratic rule would not work for his country.",
+      "url": "https://www.bbc.com/news/articles/c5yj97yd6v5o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-04-04T23:15:48+00:00",
+      "description": "Videos have targeted Viktor Orb\u00e1n's election rival, who could unseat him after 16 years in office.",
       "agents": [
         "ALL"
       ],
@@ -1777,11 +1825,11 @@
       "source_weight": 2
     },
     {
-      "title": "Trump removes US Attorney General Pam Bondi",
+      "title": "Cambodia unveils statue to honour famous landmine-sniffing rat",
       "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/ce843ge47z4o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-04-03T11:42:17+00:00",
-      "description": "Bondi's time as top US law enforcement officer was overshadowed by her handling of the Epstein files.",
+      "url": "https://www.bbc.com/news/articles/c0rx7xzd10xo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-04-05T01:09:11+00:00",
+      "description": "The statue honours the late African giant pouched rat who sniffed out more than 100 landmines during his lifetime.",
       "agents": [
         "ALL"
       ],
@@ -1798,11 +1846,11 @@
       "source_weight": 2
     },
     {
-      "title": "Italy part company with manager after failing to qualify for World Cup",
+      "title": "Artemis's stunning Moon pictures - science or holiday photos?",
       "source": "BBC World",
-      "url": "https://www.bbc.com/sport/football/articles/cevk0mn93ejo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-04-03T13:04:44+00:00",
-      "description": "Manager Gennaro Gattuso and Italy agree to \"mutually terminate\" his contract after their failure to qualify for a third successive World Cup.",
+      "url": "https://www.bbc.com/news/articles/clye6j0g840o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-04-05T15:03:19+00:00",
+      "description": "The story behind the beautiful pictures beamed back to Earth from the Artemis II astronauts.",
       "agents": [
         "ALL"
       ],
@@ -1819,11 +1867,11 @@
       "source_weight": 2
     },
     {
-      "title": "Pete Hegseth asks US Army's top general to step down",
+      "title": "Man charged over fatal shooting of baby in pram in New York",
       "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/cn8d63v058zo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-04-03T13:03:57+00:00",
-      "description": "Gen Randy George was nominated for the role in 2023 by former President Joe Biden.",
+      "url": "https://www.bbc.com/news/articles/cx267dnex7ko?at_medium=RSS&at_campaign=rss",
+      "published": "2026-04-04T23:28:09+00:00",
+      "description": "Two men have been arrested over the shooting of a seven-month-old baby in Williamsburg.",
       "agents": [
         "ALL"
       ],
@@ -1840,11 +1888,11 @@
       "source_weight": 2
     },
     {
-      "title": "International law experts allege violations in Iran war",
+      "title": "German males under 45 may need military approval for long stays abroad",
       "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/cy91x2n29nlo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-04-03T11:53:40+00:00",
-      "description": "The White House says it is making the entire region safer by eliminating short and long-term threats.",
+      "url": "https://www.bbc.com/news/articles/cvg3nr83xyvo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-04-04T21:16:42+00:00",
+      "description": "Under the law, travel approvals must generally be granted and it remains unclear how the rule would be enforced if breached.",
       "agents": [
         "ALL"
       ],
@@ -1861,11 +1909,11 @@
       "source_weight": 2
     },
     {
-      "title": "Myanmar's coup leader who set off a brutal civil war becomes president",
+      "title": "US says it has arrested relatives of late Iranian \u200bgeneral Qasem \u200bSoleimani",
       "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/c1782nk0018o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-04-03T06:49:37+00:00",
-      "description": "General Min Aung Hlaing has been chosen as the next president by the newly-elected parliament.",
+      "url": "https://www.bbc.com/news/articles/cgqkn4j48qdo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-04-04T21:29:46+00:00",
+      "description": "The niece and grand-niece of Qasem Soleimani are in the custody of US Immigration and Customs Enforcement, officials said.",
       "agents": [
         "ALL"
       ],
@@ -1882,11 +1930,11 @@
       "source_weight": 2
     },
     {
-      "title": "Judge dismisses most of Blake Lively's claims in Justin Baldoni harassment suit",
+      "title": "Russian attack on Ukraine market kills five",
       "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/c3ex59yy4j2o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-04-02T22:47:48+00:00",
-      "description": "The judge left in place three allegations against Baldoni, meaning the civil trial will go ahead next month.",
+      "url": "https://www.bbc.com/news/articles/cp869m2gzr0o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-04-04T18:54:53+00:00",
+      "description": "A Russian drone hit a busy spot in the southern Ukrainian town on Saturday morning, injuring another 21 people.",
       "agents": [
         "ALL"
       ],
@@ -1903,11 +1951,11 @@
       "source_weight": 2
     },
     {
-      "title": "Fears cost of water and beer to soar as India's scorching summer hits",
+      "title": "Fugitive mafia boss wanted for murder arrested in Amalfi Coast luxury villa",
       "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/c5ywqky5dd7o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-04-02T23:16:37+00:00",
-      "description": "Makers of plastic and glass bottles are struggling to access raw materials as the war squeezes supplies.",
+      "url": "https://www.bbc.com/news/articles/cn437qkk80lo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-04-04T11:10:28+00:00",
+      "description": "Roberto Mazzarella has been on the run for more than a year and was living under a false name, police say.",
       "agents": [
         "ALL"
       ],
@@ -1924,11 +1972,11 @@
       "source_weight": 2
     },
     {
-      "title": "Arlo Parks: 'I got out of my head and into my body'",
+      "title": "Artemis II crew now halfway to Moon as they take 'spectacular' image of Earth",
       "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/cq8wzkyxyyyo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-04-02T23:11:19+00:00",
-      "description": "The singer-songwriter found herself on the dancefloor. On a new album, she asks us to join her.",
+      "url": "https://www.bbc.com/news/articles/ce8jzr423p9o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-04-04T06:42:48+00:00",
+      "description": "The snap was taken aboard the Orion capsule by its commander, Reid Wiseman, as the crew head towards the Moon.",
       "agents": [
         "ALL"
       ],
@@ -1945,11 +1993,11 @@
       "source_weight": 2
     },
     {
-      "title": "'This has got me worried': Iranians fear what comes next after US strike on Karaj bridge",
+      "title": "World's oldest leader to get a deputy for first time in 43-year rule",
       "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/cp86mrj40e2o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-04-03T10:35:55+00:00",
-      "description": "President Trump has warned Iran of strikes on bridges and electric power plants if its leaders do not agree to his terms to end the war.",
+      "url": "https://www.bbc.com/news/articles/cx2e95xqn10o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-04-04T18:30:58+00:00",
+      "description": "Cameroon's President Paul Biya, 93, won his eighth successive term last year in a disputed election.",
       "agents": [
         "ALL"
       ],
@@ -1966,10 +2014,31 @@
       "source_weight": 2
     },
     {
-      "title": "The overlooked private credit risk is in life insurance",
-      "source": "Axios",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE56eU1hb0VEenVkMWFGc1JmQVRMendTTXMtdTkwZjN1WWhHUXV1RUtDMnFBUTJUblktM2UwZ3V0Y3E0cEh5Tm9icWVxcm9tNXhtU1JxVkdrcFZiOGpLYklTd3RtdjZpMW9JemxtWGZpYw?oc=5",
-      "published": "2026-04-03T11:03:02+00:00",
+      "title": "Australians told to continue Easter travel plans despite fuel shortages",
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/articles/c62l084kgk6o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-04-04T12:10:10+00:00",
+      "description": "Hundreds of petrol stations across Australia have run out of fuel as the Iran war disrupts global oil shipments and pushes up prices.",
+      "agents": [
+        "ALL"
+      ],
+      "feed_label": "bbc-world",
+      "origin": "rss",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 2
+    },
+    {
+      "title": "Private Credit and the New World of Financial Risk",
+      "source": "paulkrugman.substack.com",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1kS0FsNGViTzRFN1hNb0c4SUhhYWpPcEsyeUs0SThtRXlPZHF6M0pLU0JsVl9DUE4tcmZKN0V4SHVxTGl2cVNxM3ptMWR1UWhyNjdjYXNMU0NBVEVtVXRFTkVmVy1HSUpwRWZmX3VfYmtITTZzMVE?oc=5",
+      "published": "2026-04-05T10:31:21+00:00",
       "agents": [
         "BROCK"
       ],
@@ -1986,10 +2055,30 @@
       "source_weight": 1
     },
     {
-      "title": "Five things to know about private credit as risk-related concerns start to surface",
-      "source": "Penn Today",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdmsxMFRlbFI1Vk53SzZLLUFLV1F6alZjb0ROdXB4SDB3OElvTm5rVzZ2NENhNmNTY0JXU2oyTS1ZVll2R3B1WTVuOEhNWVFwOUtnTHdlWFZ2XzU1VUlGRXpHeEVTMnBkaVFmTnJHOWtMRzhKR1dWcGpzdHN2VWlZeWlwQjhzSHhaY3RvbUdTb3R0TkRlZ3ItVUtzZnM5VjJWSHN1eFczdWlVZw?oc=5",
-      "published": "2026-03-31T12:00:00+00:00",
+      "title": "FO Exclusive: Big Trouble in the US Private Credit Market",
+      "source": "Fair Observer",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNLVVqMUllVzFYWnJyc25ZMGlISlZ0akxCdHlaeWNLWkQ2U0FrOUVMLThaMTFlT0JCS0F1QWRDckRxeGxxSFhGTWtINWk3MV9uRm5wd0Zyb1UyWW1sYS14WFNlcVBFTnU4LXozVDRreXZ6U2ltZlliOXMzZWRvY2o0TVVkRnFsMS12NzF4cVF2eEt6eUdqdTFCQURvbEFLWGRBLUY3Mm43cUVzRmFPYzNsNG5yVnQ?oc=5",
+      "published": "2026-04-04T12:38:03+00:00",
+      "agents": [
+        "BROCK"
+      ],
+      "feed_label": "private-credit",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "The overlooked private credit risk is in life insurance",
+      "source": "axios.com",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE56eU1hb0VEenVkMWFGc1JmQVRMendTTXMtdTkwZjN1WWhHUXV1RUtDMnFBUTJUblktM2UwZ3V0Y3E0cEh5Tm9icWVxcm9tNXhtU1JxVkdrcFZiOGpLYklTd3RtdjZpMW9JemxtWGZpYw?oc=5",
+      "published": "2026-04-03T11:03:02+00:00",
       "agents": [
         "BROCK"
       ],
@@ -2026,10 +2115,10 @@
       "source_weight": 1
     },
     {
-      "title": "Private credit community pushes back on alarmist narratives",
-      "source": "ION Analytics",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOERTNU1VY2twMDJOa2NMSUcwZHhXNmtUQ1Niei1nTmc2cDlFbkxBU0RqdnVyRi1yaTJvZDI5QmpiWDdqa0VWLTNObTRGU2lPOHk4VGpndXZvRGlKWGMyNkFRQ25UcjJIaGRMVXJvSlBmRUNULVJyY1M0UkVIQ1FNeEN3eXZ4czRaUjQ5RG96YmlIYWdNVy1HcWh6YUIzcWsxWWpUR19n?oc=5",
-      "published": "2026-04-01T17:01:30+00:00",
+      "title": "Five things to know about private credit as risk-related concerns start to surface",
+      "source": "Penn Today",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdmsxMFRlbFI1Vk53SzZLLUFLV1F6alZjb0ROdXB4SDB3OElvTm5rVzZ2NENhNmNTY0JXU2oyTS1ZVll2R3B1WTVuOEhNWVFwOUtnTHdlWFZ2XzU1VUlGRXpHeEVTMnBkaVFmTnJHOWtMRzhKR1dWcGpzdHN2VWlZeWlwQjhzSHhaY3RvbUdTb3R0TkRlZ3ItVUtzZnM5VjJWSHN1eFczdWlVZw?oc=5",
+      "published": "2026-03-31T12:00:00+00:00",
       "agents": [
         "BROCK"
       ],
@@ -2046,14 +2135,14 @@
       "source_weight": 1
     },
     {
-      "title": "\u200bWeyerhaeuser pension risk transfer case dismissed \u2014 the latest in a wave of failed lawsuits",
-      "source": "pionline.com",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNY0tKbXNldGl1QWRhTE1EX1llaG1wQXVXS19lT2JKYmhJVlNhOC16NUstdERSck9GeWphMFVlWVpnNFN5cVZUd0JBa2VIemVvUTVSX0RUWDVrT0c5ZFR4cWkxeFM5SDdCYUxqeHFCY1Jxci1WTlZGMUJaWVBvNm11NWlHWk52WVVIdkFVel9WN3pFenJSbWpKZjl3YVljamFJcDFneVZMalREYzU4NmlHR2xYLWNsd05LMDBkTWdvbVQ1Uk1KZ3c?oc=5",
-      "published": "2026-04-02T16:24:00+00:00",
+      "title": "Risks shade private credit outlook in Europe; more but smaller carve-out deals",
+      "source": "spglobal.com",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPRTM0SmFacTBCcEhWTkhDb0xRV0NfZWRsV3ZLR1ExcWYxTmpfZHZEdHpBS3lIelNuaFFFUVVaX0o2dW12Y1lXdUFuTWNQX3lqUHJGZ0VIdWljWUdkSlBKNzRDNnlSaS1zQi1iLUhDREVTb0JZOU44VzByRy1FT0xhanF5U0tabWw5TU9lTnc1d3VpdGNVUFFKMEpIcFAtTnphY08wU01hRWM4WUsyZ3BxR3RfLXl0amlPYjROT0NSSDVfZERpMldwSnVDQ1pLWXpGSzM5SEFCRDZ2Z1BTTzVwaG9YQ0N5TFc3cEZ2RFA4N1lteDRMQVhxXw?oc=5",
+      "published": "2026-04-03T18:42:58+00:00",
       "agents": [
         "BROCK"
       ],
-      "feed_label": "pe-insurance",
+      "feed_label": "private-credit",
       "origin": "google_news",
       "level": "normal",
       "keyword": null,
@@ -2066,10 +2155,30 @@
       "source_weight": 1
     },
     {
-      "title": "Kuwait desalination plant, oil refinery hit by missile and drone strikes",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcG9sQnI3REJ3ZTV4eXEzNzlnenR3WHhHMFBIQThhZmx1Vk43bThGUWY2ZUk0dzZSM200Y0xtemhBTFVGSzNPRnYzNkluOXFvWU5qb1dJY2RQZDNYNXI1clFGUjdiTTVQSnktOUpybHplSHRoN0ZkTkJGelcxQ01DOEpiQTB4bGF1ME9DY0VuQ05uOUlrX2R5ejFBc2RydjY5MnVpVkFmbkwwVW9qcmtBStIBtgFBVV95cUxQamhxbmRVbnQtdlctSWFxNEh4OXdUcnhpc0F1ejk5OWlyX0NUQjhPQVB5N2VmMDBFdGo4aFY3dXVCQVlCbi13cGxsWF9wcVd0WTF0a29VWGdPQlJqbm02bExmZXVybDBQeFpTSkx6YTJmM2ZEeE9HbkpPS0VjS3ZhZzE3bVBEcy1KZWpwLWxuWVVBNS15djd1VXRLZTRYLTlQT184dHdzWW1ObTVhQnUzZ1ZoOGdlZw?oc=5",
-      "published": "2026-04-03T12:11:15+00:00",
+      "title": "The PIK Divide: Separating Structural Flexibility from Shadow Distress in Private Credit",
+      "source": "ABF Journal",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUlBSQjRCblQ2OEExMXdiQ1RPRU1zQnJkVG1kRzNpYldUaDJMSHNicUI5cWtvZ3FqTlBRQTI4RjFBXzZpeWtLTXhKOVpYVUVSZjJlR3luZElJakJSbkFwWkFyRVhDczhTR0h3TVZYbTVCR0xFZnJnN3lhNFVpdDkzVGJ3VFlMWktKX1YtVHZsakc4djlTN21RNzlRUHdCanA1c1kxdTBad1M1NXpqd1pQNTU4QTFRUQ?oc=5",
+      "published": "2026-04-03T18:17:29+00:00",
+      "agents": [
+        "BROCK"
+      ],
+      "feed_label": "private-credit",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Ukraine hits port in Russia\u2019s Primorsk, oil refinery in Nizhny Novgorod",
+      "source": "aljazeera.com",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSlUtVUFrOFNnN2Q3YURQZXN1MTNXU3lJb3lQX2NaUDVZWWtEbkVVbGgxcFZxWk9ISUVOWFBjb285S0oxZUNHZVQ1N1hvR0FxVWhQLW5DVV8wa2RmWXFJMUxvNHFzSldBNldEcGhwS0x6aXJYOGRySU01bmk4Qlk3ZnJ3WV8xN2pXWnM0a2NIVGNFNXViczV3Z2dzQldkSF81X2tMZDg0dFdqTFRU0gGyAUFVX3lxTE9PYlF3NmJoS1lpMU5QdWJPeXBiRWp2NktFYnphSmlybW1aQk5maGdHX3ctajZvSGVrTm4zODI0MlpPbHFiY0xPdE4wajg4MHo0ZVFTWkJqTXQxLVQ0Y1B5N1laTEU3RVZJQ2VqOGtkUlpZVmhXTlJDa3QyUFpiTmVxMlVsNURTX2hRamYzd3l4d1Rzb3VZTFZCdlpOM0VYNUJsUW0yemFHTkNsN3FBWUM3UEE?oc=5",
+      "published": "2026-04-05T10:02:05+00:00",
       "agents": [
         "HENRY"
       ],
@@ -2086,10 +2195,10 @@
       "source_weight": 1
     },
     {
-      "title": "Refinery Process Chemicals Market to 2035 Driven by Stringent Global Low-Sulfur Fuel Mandates",
-      "source": "IndexBox",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVk1jWHkzWWhla2k2V3BBMmxwdVRrTDM4WUZiY1o2TVlFYlNIN1dpT25RN0VLbGhBb09LZ3lwQjdiU2xsdkZ1MndEMkN5TWFvNVFfUHMzdXJ3N3piNDZKQXFDNTZUVjVuQUZSeW5MZ3NwNWFhdVc5cDNFTWFneTFScWxtRVFzV3BiWjVRNWVpc3hYXzlRWkluQXFqdWNBcFJ4bXhqVzB2NUE4TEQ5WnJGZXZBRjJEZjNXZUtoclM0SDg?oc=5",
-      "published": "2026-04-03T07:31:04+00:00",
+      "title": "Ukrainian Strike Damages Central Russian Oil Refinery, Baltic Port Oil Facility",
+      "source": "The Moscow Times",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOc3M0LXUyaWREMS0tUk0xeWVGdl90SlVQaHRDazVLRzFyRllzTUVQbWFlVnJaZ3BQWFZ1dnpPaUF6eVptdjc2RG1HeUhyMWxpMWc0Z0R4SW1MR0FCaU9ZWnplRmdCdkxJOXZscFV0blFEY2wtUTlqSFBOcEpRVkVsbnpLUTRJX2lzdW43UWlxV21TVklMdVU0ZS1sUkJyeE4wNlo4QVE3d1QtcjhubmlPQkVHNER0Q1dQNW5MckdWQ3BwNkZmdWc?oc=5",
+      "published": "2026-04-05T10:06:00+00:00",
       "agents": [
         "HENRY"
       ],
@@ -2106,30 +2215,10 @@
       "source_weight": 1
     },
     {
-      "title": "Drone Strike Hits Kuwait Oil Refinery, Fires Erupt Amid Rising Gulf Tensions",
-      "source": "Kurdistan24",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNFEtTW1NVGJjeTd0d2pVbUk2LU5lVmxZbW9PemVoSTk2ODROVndkdlFpMS1jdE1waGZWTG9EeEIyLVJfSFFJai1wclFqS28zU1hGNENnUHF0bVczMG5Jc29KV1QwbWZoM2h2Q0F6N0E4Rmh3UzRRX19BZjNVbE9Od3d2ZVc2OHEydGZzODZBSlFsX2hTUkNfNnpoVHdsYmoxcFJwZGV4R2lDOF9WRi1haG9PdkZib0c5dG5B?oc=5",
-      "published": "2026-04-03T10:55:21+00:00",
-      "agents": [
-        "HENRY"
-      ],
-      "feed_label": "gas-supply",
-      "origin": "google_news",
-      "level": "normal",
-      "keyword": null,
-      "entity": null,
-      "entity_info": null,
-      "escalation": null,
-      "watch_hits": [],
-      "classification": "NEW",
-      "suppressed": false,
-      "source_weight": 1
-    },
-    {
-      "title": "1,400 Kilometers From Border: Major Russian Oil Refinery Ablaze After Drone Strike",
+      "title": "Ukraine Strikes Major Russian Oil Refinery, Baltic Port, and Crimean Air Base",
       "source": "Kyiv Post",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5SNFcwUWNHbUJ2a1k2VVFrd01qbXdxYkpyNUlFelQ0MFVEUE41TG4yTDNkYXNtSk9wMzVLWVN6RzVjcEFVQ3lBajZ0dw?oc=5",
-      "published": "2026-04-02T16:09:55+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE95WmdGblRMS24xSjNPSHpJM0Z3WVBoQmstNkx6U0lmTm5icE04V3VqYTNTaDVPRHU0VkxEUWNnYUYwT2d1WmU5U3pFVQ?oc=5",
+      "published": "2026-04-05T11:06:58+00:00",
       "agents": [
         "HENRY"
       ],
@@ -2146,10 +2235,10 @@
       "source_weight": 1
     },
     {
-      "title": "Iran fires on targets across the Mideast while Israel and US hit Tehran as war nears its 5th week",
-      "source": "WDSU",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdXBTemtSS3FiVDBxbVpacHNDcVJ6b1FZYi1TdlhPZUl2dUZiV3FOWVpPV0s1NTA3UU9hTDNnNXVwU3hydlpfTERKY09pcXNOUDlPWXNJend3amZtaW1pMzJiQ055S0phYlpobjBzTG1qVnU5YnVCQWhRdGJRNGtNaXV2bG02azBNdkt0VVpkTkM?oc=5",
-      "published": "2026-04-03T10:47:00+00:00",
+      "title": "General Staff confirms strikes on key Russian oil refinery and Baltic port",
+      "source": "Ukrinform - Ukrainian National News Agency",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOM1N2YlNKeEJnaWVnUEgxMEVoYTEzRldwQnJVQ2pDYzFxQ2dyd25vb3hRRF9WeW1ZalBNaWJZWjBWT0JONmU1NTVZVUVzSUgtX0ZmV3YtQkRhZFZMblh3QmxhVFVKV0ZodE05SWQ4cjhFeGNzWU1IUWUzT3lPem1ZdmtabkFPelQ5bkNKQkRHM2Z0LWY5WEMwVlhYamVvdGdicWVyc251NF9PaVNOcHhiWWtHaDZaZzBaUkhrLXZPbkhad9IBxwFBVV95cUxNSDd4UktsenFEdzUyUnRfWEpOcnBIdW5zb1lsZzItSUt2SURHS2xFRnF3Qy1DYTJUYnlFeVpTcHJTTC1aTDNxbUctZDhodHVLaHZhMXdEQVgtdWNYM2xwYVFxR2UtSVZfZW9iWElTTTd2WlQxUG5rZzBpQUZvWmhHQUtoVlUtNTQ5M2NfX3hJejNtMkhRNDVfY3AyeVdOWURKd3R2WHdlaG5jNmpuVUlHWkdzQnhhQlBGVFBvMVJLLWFoTzBlWlFV?oc=5",
+      "published": "2026-04-05T12:00:00+00:00",
       "agents": [
         "HENRY"
       ],
@@ -2166,10 +2255,70 @@
       "source_weight": 1
     },
     {
-      "title": "Japanese Yen Is Losing Safe-Haven Status In A Time Of Crisis",
-      "source": "Forbes",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNekR6elFWaUNiYzAyVmJXVnBfRGZWdGZmT0VGc3R6V1Q0Um9OSGloVXBISFhxVFUwOUQ1aVFtSUgybldnYzZGeWhELUVXamJNdEpJMkdaNGhtNm1PY25CSjVlRm04RnZjSTJWNEdVNVBad3FQS0I4X1QxS1QwMVVDYURhZU1ZQzFlZk1EOGRpQnhPVXQwX3FYcURDc0hCMGJGVEI4Q3gzN0Iyckl3Sk9NY2lYa2E?oc=5",
-      "published": "2026-03-31T16:15:45+00:00",
+      "title": "Northwest Indiana congressman calls on BP to end lockout at Whiting Refinery",
+      "source": "nwitimes.com",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPLUE3Ymo2WER0Q0FWdWxHUU1yQnRaSjQ1RVVUZklUaDFOeE5YLXZEazBIblAxZkhkdTAyS045eUFXNVF0cXdpNGtFNjRXWVRhZG1aOVdtcVpuY3p4Y3phMW1VbmdsRkNJNE1TNHNOMkdlSFpwTWdCMFZ4aXpGQ3dsVUFqUHM5MVRKdEdGSEhZYmNqeFpEakowVmFjSDNsN0xtaDhhcmd6WEtMUmNH?oc=5",
+      "published": "2026-04-04T20:05:00+00:00",
+      "agents": [
+        "HENRY"
+      ],
+      "feed_label": "gas-supply",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Ukraine hits oil refinery, Baltic Sea port of Primorsk in Russia",
+      "source": "TRT World",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE94eEs5eGxpZU1XX3NORU9pYjlJeV9ON05CdS1kNjNyc2xqdFMyNmsycUd2dEp4bW1ET2piNTlzVnZyaWdTUmU0emhnenJCdXMwMXJJSkN3OHHSAV5BVV95cUxOeVZHdmxkMjcwMVB4dnRFMF9LM3BQSHdQUUpRTTI4eFhVZDZ0VkpLZ0o2RXZ1QWdvMUExZ2dPNDFlUEU1QjJ2NWM5T052VUVoeDBjYndFbnFNTlBzQ1h3?oc=5",
+      "published": "2026-04-05T09:00:09+00:00",
+      "agents": [
+        "HENRY"
+      ],
+      "feed_label": "gas-supply",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Drones Strike Lukoil Oil Refinery in Nizhny Novgorod Region",
+      "source": "\u041c\u0456\u043b\u0456\u0442\u0430\u0440\u043d\u0438\u0439",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeXMwSnNieUZvUVp5LVN4aU1yZzVUb04ydldUUk9BZW5WZFVJVURmd05sbjRaSnR2RWswTlM1OF92UGZFWmQtSnhveHZqTGpFUkJseVI1X1VYZVB3cmpQY1ZZTEpoVS13UUNGeUhKNFBOX1VfOVN6VllfcWJkUHQ3bzlYU243UUVTVHY5aE94MFdCcUs4Wmc?oc=5",
+      "published": "2026-04-05T07:36:42+00:00",
+      "agents": [
+        "HENRY"
+      ],
+      "feed_label": "gas-supply",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Japanese Yen JPY/USD Margins",
+      "source": "CME Group",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRnZ1NFJPaURibmxLdUc0LTBRTEtGdndfd3BRNnRPd3F1U013S09mN1ZwbE5Sa0lDaEVKYmdDT1hnSGVieFpsRF81aDQyVVc0MjViaGpKVXhETlFrNmhfZVFGczNMbl9tSU1rWVkyQUZ1OVQ2d0VEQlhTRVpSc2hqRXpVREhvZWtuQlU4b2ZXZjA?oc=5",
+      "published": "2026-04-04T23:25:14+00:00",
       "agents": [
         "SAM"
       ],
@@ -2186,10 +2335,10 @@
       "source_weight": 1
     },
     {
-      "title": "Nikkei drops nearly 1,000 yen after Trump speech rattles markets",
-      "source": "upi.com",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMXN1clFXQkJ4WXFKV094cXI0eHpUMlhhYWxmVnZONVFQV1VUeFhyUVpwTmhyUUZma284NDZqcVM5bXBUN284emFvTmhVN0l0Y05DQ3BTRXh4WjZVZlRISjM1cHczZExOa3Fmazh6OHRnd1lZcXR6UWJlVGRKVTNJd1dndVJFcmFQRkNuSGF6bTJqNmvSAZgBQVVfeXFMTTBWdnFlWUhrbXgwR0dxbWFkUXA0cS1wSlBtcGkzQ25EZVFCWnctbmhqYlRIQ29YX2owMTdqdzRGVGJCRUhJM1hGZXpuUFo5ZmtOVnk5ZlBEMDhiMEp3dVE4R1k1MlhEck9ZMWR5UVgwTkxobzVHd2V5NUcxd05EaURtSGs5Wnk3bnIwcktEWDNFMU1yR2Z0Ykw?oc=5",
-      "published": "2026-04-02T21:51:11+00:00",
+      "title": "The Guardian view on Japan\u2019s hidden century: cheap money, global risk | Editorial",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQ3JfeFFhanE5MzJGODBQQmIwQ0F1RHIyejdvOGdCcnJYTDB4TGZzYmd2bG92a0h5ZXRGYXNfekVobEs2QmFVdWNyMkI1Qjg4UUFscWFSVG1sYV81UXg0T2hDQVNjMGlYLU9WNnZETzNsTVp5OVd0N25fN2tFcGYtUWFXTWNacUlQdTB6bkRFUkdXSkJTOXlvZk1GTllTS3RpZkdiTXhGNGtmRHdaZ180cGNPcXF2T2tVNlc5MQ?oc=5",
+      "published": "2026-04-05T16:29:00+00:00",
       "agents": [
         "SAM"
       ],
@@ -2206,30 +2355,10 @@
       "source_weight": 1
     },
     {
-      "title": "Mexican Peso Under Pressure as Carry Trade Weakens",
-      "source": "stonex.com",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNcnhyMWFCZTVrVVpINFo1NXdKN2V0Tk1icVdVUjBMTEJLS3BmZ1lLYXFmUEdnWDZ3LTR3TzB4UGhoc3M0aGNGZXg3U09RRE55U20yQXViTnpuMk5kZVl4V25zempLQXpoZ1JqaGZkd3lzcmRsTVNKUHZsa3NZOXYwWXNwQTZKYk1RMk4yTjI2TQ?oc=5",
-      "published": "2026-03-31T14:33:00+00:00",
-      "agents": [
-        "SAM"
-      ],
-      "feed_label": "japan-boj",
-      "origin": "google_news",
-      "level": "normal",
-      "keyword": null,
-      "entity": null,
-      "entity_info": null,
-      "escalation": null,
-      "watch_hits": [],
-      "classification": "NEW",
-      "suppressed": false,
-      "source_weight": 1
-    },
-    {
-      "title": "Layoffs for CMSD staff coming soon",
-      "source": "Signal Cleveland",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE51NXJFY1hzUkN0Wjl4c2pmTm0tRlk4b3RrMy1lQ2VsSWFjV0FkSWxYMWk2a0ZyMFJRYmd2VXpWVjBiZmlJU1p0aUFFRXZ1T0pweDM3WXFlX19TNTdzWGQ2VXdNNjNMaU1jU0UwaHBRdkdta0Zib29NVGc4ZlJ2Zw?oc=5",
-      "published": "2026-04-03T02:05:25+00:00",
+      "title": "How Sports Illustrated is getting back in the game after scandal, layoffs",
+      "source": "Los Angeles Times",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOYTRqZ2p4UUVoSlhKNUg2cktEZG43Y2dfRV9CY1lxYUExOW0tbkFNdHYtQ3FUWElSVUxuQjdIU3JvNE1VVmFLSXl1bElvdXhzM3N3MUx5QUE4Q3VQcW9FUFpsYzRJSkhWa0VIRkJLWXpnU1RtU1N2MjRoa2Rma0RnSzYzZXJ1Ukt2NlpWMDFQMTZ4UG5KMW4wZjFmZVB3ZVEybUloRFJsS3dob0hSclZWbTFOWHkxaVpT?oc=5",
+      "published": "2026-04-05T10:00:00+00:00",
       "agents": [
         "LABOR"
       ],
@@ -2246,10 +2375,10 @@
       "source_weight": 1
     },
     {
-      "title": "Meta to lay off nearly 200 Bay Area employees",
-      "source": "KRON4",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRXRaNWhfZVBQU1BFUEJJdE9XOVUzQlhjVWNTbG96YVR3OGxwS3EwRVU2c0RSU1cwdmpzV3cyU1JQYk1DR2cySmt2NUczQm9sajZBcHBvLWppaVkyYm5Mek9BQlZkN21lRlJrNGN6U3hDVjdtVnFIWW1pOVBHako3d2F1djNHQTQxVzIwRS04a2nSAZYBQVVfeXFMUHhGRHBEUzl4bWotNjVoNjNwLXZPd29adzlqYVNwTG9KRVM1ODRtVmhrUXB0dkZiTXpwbHpNbk5vd3NjekprUDgxOGtaLVFLTmVRMlR0bGNiSVE2cy0xazBEMEVrRkhLVEppMWRwcXEybWpKUWR6alVFS3J1TFVuSDVUVHAxcVJmQUhZazVUMjEzamw5X2pR?oc=5",
-      "published": "2026-04-02T22:18:43+00:00",
+      "title": "Blame game: Is AI really fueling all those layoffs?",
+      "source": "The San Francisco Standard",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1nT1FFUTlSOWl0OEdabE5ibzlhY0dWZEVMbjlacmZsZlNNbnlRYk5SOWhjZFV4aVRGRHVHY0RtMEZZcnFEZHh6Q0JmOUFuQ19QbG9uRWtLNHh6QnN4OWhiX2RqWQ?oc=5",
+      "published": "2026-04-02T13:00:00+00:00",
       "agents": [
         "LABOR"
       ],
@@ -2266,50 +2395,10 @@
       "source_weight": 1
     },
     {
-      "title": "CMSD plans for layoffs ahead of 2026-2027 school year",
-      "source": "Spectrum News 1",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMHMtNUUwN0RXQVhVMzRGdmt5Y1pCeUtUYWIwVTU3VTlCeGlqSmtCam9rSDE1NExXYXpnbHlMUV9DVGx3cWRWdjhFWXNoVkNUUXppMkRsM1dCUVhEQmROcDdGeUt4cXVoNloxOWFIWldUelBVT3I0TUsxSHI1M1lDUDlwcFN4UWhMZTltWS1ydElsN1hwd254dDhua0w2U0d5Ql9id1gwaU9HVTA?oc=5",
-      "published": "2026-04-03T11:55:00+00:00",
-      "agents": [
-        "LABOR"
-      ],
-      "feed_label": "labor-layoffs",
-      "origin": "google_news",
-      "level": "normal",
-      "keyword": null,
-      "entity": null,
-      "entity_info": null,
-      "escalation": null,
-      "watch_hits": [],
-      "classification": "NEW",
-      "suppressed": false,
-      "source_weight": 1
-    },
-    {
-      "title": "All employees at Stone Mountain Park facing layoffs come June",
-      "source": "11Alive.com",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPT2pCY0NwOGQyQmZScWlxNW1iS1JkN3RPcFhrcUdrTGdTYjM1bGYtbkhpSjNUNDlZMnpwX3NZLTJmelZDcTgyLUUzQTQ4VnA3Nk9iWUFuaTVZTkswb3RaS3V2LXI1SnpQR0lhMnBnRzBkOE1ubUQ2Yy1kRnJLWWtOX2NBUlBwYThVdXFSUTVrU3FkbTZHZEtWaWtJS0hwT3NIendqTmVNZVBSNEtiVFR0b0xQZFVrY0JaSXNUTmxVbnBIWDRSZXJmWVI0NFIxVVdZVnlrSUgwaEg?oc=5",
-      "published": "2026-04-02T21:28:00+00:00",
-      "agents": [
-        "LABOR"
-      ],
-      "feed_label": "labor-layoffs",
-      "origin": "google_news",
-      "level": "normal",
-      "keyword": null,
-      "entity": null,
-      "entity_info": null,
-      "escalation": null,
-      "watch_hits": [],
-      "classification": "NEW",
-      "suppressed": false,
-      "source_weight": 1
-    },
-    {
-      "title": "Stone Mountain Park private operator to exit in June, layoffs possible",
-      "source": "FOX 5 Atlanta",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMjYtOE93akVVVTZWYU9WaU9kRURsMFVwZE9NVG1kWjBVOFNMTjJtNm0yaUNqMUpaOHRKOGNRcU1BdFhQejVlRnJzZzRmQTlOenBoZEUwbTdNV2ppZ0hYZzZRN2oyS0hsWlBYOXcwMXNtZ0J1SzBrVERUVF9SUzA5elMwa1ljUdIBiwFBVV95cUxQS1JTQm03RkpfU3ZxWWc0T2hiN0w2ZWlNVWNIV2RtdUdMU2VVOGFHQ2JhNGhfZzllRWxGemtYTFZrbVpsR204ZUZTaFB2SlNLWExqNnFmM3FidFZueDVtV0YtWUZMeko5Ymt2WVp0MGZyRjFpWmVNdU9JLVJ4cEtTMXhKa0VsTWlXT3Fr?oc=5",
-      "published": "2026-04-02T23:18:09+00:00",
+      "title": "What's next for Meta in the wake of trial losses and layoffs?",
+      "source": "NPR",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQcnNrLXZIbjVrVnlONDR0SWFvaFdzQ1hrYmFCeFltTXhWb3F6anJmWGFCY1U2bnliWDJIVUpJNm5wY3Y2djV4eHlrZjZhMGw2R2FvRTlIRjlzMXcyUHk5LUYxWjdYZ0gxSlRYYlNJMnQ4SFQ2Z1RGNVZxR3l2Sy1DMWx0UENLa1lrNVc4Q0hud0pMbndBX1E?oc=5",
+      "published": "2026-04-02T21:07:10+00:00",
       "agents": [
         "LABOR"
       ],
@@ -2346,10 +2435,110 @@
       "source_weight": 1
     },
     {
-      "title": "March NFP expected to rise by 60K as markets assess Fed rate expectations",
+      "title": "Meta's Bay Area layoffs affect roughly 200 workers as company pours billions into AI infrastructure",
+      "source": "Fox Business",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNHRmNnVXS3NBel9QR1VFUTdtMklveGVqZlRvak1Iel9JdkRPdmZtMDRRV3RMUWQybllnRWhMbk1Tb3ppQm9maUVoUUJ0Z2Y5aF9KR2tmRjFyY2g4UkFGcXFack5QT1lsenRjb0I4TlE2R2RxRTVUMlJpS25EbzJxeVByekR2YXJFbWgwckFlaF9RNlVyVHJNbGpjd0FMN2k0OEhSOTFMeUVJWFVfVmNKT1JGSFpBb0wweHZMUFVyRmJYLUtB0gHKAUFVX3lxTE1NTGd5ZjNVb2FSVGZMcUVReHd6UERRU2NMcDBVTDhsRGtwNk1OcHJ1ZG1kbkNxLWtnODZ3Wkcxdi1yZmUyZUlLWVhnWU02TTZpay1rU00tUmZCM1RqeG51MzExc1JWVnh3ZDQ2bUs3cmFDbFhIQllsUmc4VXpYWlBqdk4yQTBnaWJVUm9EUTZfNHFVSEFXNzd5S09tNlR4b0VsSWVpSEhrNDZneGhIUW9NWlM5eC1qQ2RBWGNwYVlySlNNVUg1c2FFSXc?oc=5",
+      "published": "2026-04-03T21:15:00+00:00",
+      "agents": [
+        "LABOR"
+      ],
+      "feed_label": "labor-layoffs",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Layoffs for CMSD staff coming soon",
+      "source": "Signal Cleveland",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE51NXJFY1hzUkN0Wjl4c2pmTm0tRlk4b3RrMy1lQ2VsSWFjV0FkSWxYMWk2a0ZyMFJRYmd2VXpWVjBiZmlJU1p0aUFFRXZ1T0pweDM3WXFlX19TNTdzWGQ2VXdNNjNMaU1jU0UwaHBRdkdta0Zib29NVGc4ZlJ2Zw?oc=5",
+      "published": "2026-04-03T02:05:25+00:00",
+      "agents": [
+        "LABOR"
+      ],
+      "feed_label": "labor-layoffs",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Tech layoffs are at their worst since 2023, and AI is a big reason",
+      "source": "businessinsider.com",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNbXJHV2JyT3h4MzhJWXRjdm5JOWFta3pzXzRsUE5hZzZYZ2l3alYwR0pVTTZvSDV5R0pDYW01SkpPb0E3eHFnb1pwOVdiMWdzQzFVOVpvcHRWaHdNU0RHUVVWZXE5MHVPMzlobFhFWEYwb3VSYnQwYW56ZWNBcGtZYg?oc=5",
+      "published": "2026-04-02T15:56:00+00:00",
+      "agents": [
+        "LABOR"
+      ],
+      "feed_label": "labor-layoffs",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Meta to lay off nearly 200 Bay Area employees",
+      "source": "KRON4",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRXRaNWhfZVBQU1BFUEJJdE9XOVUzQlhjVWNTbG96YVR3OGxwS3EwRVU2c0RSU1cwdmpzV3cyU1JQYk1DR2cySmt2NUczQm9sajZBcHBvLWppaVkyYm5Mek9BQlZkN21lRlJrNGN6U3hDVjdtVnFIWW1pOVBHako3d2F1djNHQTQxVzIwRS04a2nSAZYBQVVfeXFMUHhGRHBEUzl4bWotNjVoNjNwLXZPd29adzlqYVNwTG9KRVM1ODRtVmhrUXB0dkZiTXpwbHpNbk5vd3NjekprUDgxOGtaLVFLTmVRMlR0bGNiSVE2cy0xazBEMEVrRkhLVEppMWRwcXEybWpKUWR6alVFS3J1TFVuSDVUVHAxcVJmQUhZazVUMjEzamw5X2pR?oc=5",
+      "published": "2026-04-02T22:18:43+00:00",
+      "agents": [
+        "LABOR"
+      ],
+      "feed_label": "labor-layoffs",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "The March Jobs Report and the Story of Time",
+      "source": "cepr.net",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1TbmJtOEg2eXpFRmJDN1MxdmZ5ZE5pbGZfU0kzTVQ3bGpOa3Y4Y2czNm5sT25kVmFralFRM0Z6amFFZEpZdEhycW1jZlJCUEI5bW1oXzRUYTZHWHVRS1VvOGtraU13UDBkUGxsZnQyWGJLVUtTWWdqcm1Gd1haRUE?oc=5",
+      "published": "2026-04-04T23:31:44+00:00",
+      "agents": [
+        "LABOR"
+      ],
+      "feed_label": "labor-nfp",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Breaking: Nonfarm Payrolls increase by 178K in March",
       "source": "FXStreet",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPc1dQbzI2S01CU0RXYUEtc1NHRTZmeXVXT01UbU9MVkk1enl4NTdrb25LZjdmRWdYY09VbVFPOUFfS0lyY1ZFRUNWcUZmSG54OGJQbnBpMEpWeWpWaHcyYjF3NlN5WG5SV2d5RTJLRjVOZEJXTUNWUWs0OGVqWlZtSFRjTWloUDJHQzg5Z3FzQk1XQ25IdzBjMlU0Y9IBoAFBVV95cUxPN2RkdWIyY1NiX2lzUmlodFAxaXVnbWJJMUNwWTRxT29SamY5VFJDMGpXU1ZmUmlKRjZGYlpCd0xmMWcybDdaSGt1UFpCU25GT3lTZmxBNVhEU2ZzcHA0VkRJcWdBMFJ2R3djNzFCNFJsY1ptaFV0d1kxTnpGbmpmZWFlTFR4X3JKaWJ0UnYtUTZYUVlFU05LeTgzVHJ4anV6?oc=5",
-      "published": "2026-04-03T11:00:00+00:00",
+      "published": "2026-04-03T12:36:34+00:00",
       "agents": [
         "LABOR"
       ],
@@ -2366,150 +2555,130 @@
       "source_weight": 1
     },
     {
-      "title": "March US Jobs Report: 178,000 Rise in Payrolls, Much Stronger Than Expected",
-      "source": "Morningstar",
+      "title": "NFP Preview: Can the labor market withstand the \"Stagflation\" Storm? Implications for the DXY & Dow Jones",
+      "source": "marketpulse.com",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQODBfd2syR1RBVEIydHA3S1pMVVNVLUVRaEttN1NnWG1wYWZMN3pDclUtNUtLSXFVeGlpdXQ4VEdDTDk5c3BKNUNFeWFnc2VvQk9hbHczY3Qwbk5UTmhGYkpvLUF3S1VXU1c4WjRBZkhEVVZIWFh6TUZKT0ptVWM1MHJPUDJxLUZTb3o4cGlXZHpsWExJcV95U2tCMDRaakFZRU1CQlp5SUJERXNXV3BvWnVRRkV3Vks1OUU0R0sza2J4Qi1BczNhdXdnWEJDVHpsLVE?oc=5",
+      "published": "2026-04-02T16:11:00+00:00",
+      "agents": [
+        "LABOR"
+      ],
+      "feed_label": "labor-nfp",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Chairman Arrington on March Jobs Report: \u201c178,000 Jobs Created\u2014Triple Expectations\u201d",
+      "source": "House Committee on the Budget (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOU2ZEWlZuTVhjTEJfdHhWYmVpWUNWb245dXgzSllTM3doSlkyN25SeGRtYjEtdndtZml1LVh5cXgtVms5VWpLSUttS0hmN1ZnWl9RN3MwY25sQ2ZHZTlTeElIZ2oxbkNFdmRvWVpZbUR6WlRKWk1adXN5S0p4SjFmLWtBb0hGTjdGWWRHWU11QnYxQS0yMU81cmh6YVZoN1JFQl9pMFBLNl90YzNUVVR6VzIxdUxoaHNW?oc=5",
+      "published": "2026-04-03T19:42:45+00:00",
+      "agents": [
+        "LABOR"
+      ],
+      "feed_label": "labor-nfp",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "March Jobs Report: Hidden Data on Older Workers",
+      "source": "AARP",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4zYjFZWmd0VFJ2Nk53cllLQmI0R2JJaE9fSi04RDBoUG4ybURvdWU5TVpMOVMtQ1pickRqRkdab092ZVlQN3hOQnZSRDdub3FHb2M1WHVIcGhiS1VDUUhPbDVIZlVEeHhu?oc=5",
+      "published": "2026-04-04T01:06:47+00:00",
+      "agents": [
+        "LABOR"
+      ],
+      "feed_label": "labor-nfp",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Local Comment on NFIB\u2019s Latest Jobs Report",
+      "source": "NFIB",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaTl6V0p3eVU1Z0dXQV9QQlA2UExWVm5iLWRQZC0tdFAyMW51c2pGbUNRM09EOTdtMUdEel9JOWZBS3FmMVBOc0k4QlNIcmg2WmxDQ1RYRUhJZjBBMElBZDFVQ1BfZVNHU3ZUclZmckNDMkZjZUZwY2xPQ3FpbFJ0MmJHZVZvdGNRTEY5NQ?oc=5",
+      "published": "2026-04-03T22:06:24+00:00",
+      "agents": [
+        "LABOR"
+      ],
+      "feed_label": "labor-nfp",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Strong March Jobs Report Signals Accelerating Momentum Under President Trump",
+      "source": "The White House (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNk5yS1lCdXB1b29jMVQ5bmpuVEtNdW1ULUFPbWUwOU1OUFNzdlowT1FrUzY0RVN1TkJCWVNMMnZIclEwc2tSYXlNU2ZwaUZvcDhxR3lrUy1NLUdVRTM0YnRSWGNzNFgxYTNHQ3BMTzduQkMyV0kzU3czWU4ydXRXQjQ1RHd1SHNWVUVYaXNhckVGZk83OGlZZTlYS3F0ZVM0a3RVdi1qcGV3TUxkMU81Nk1fejE3M0lyTlVjSDBB?oc=5",
+      "published": "2026-04-03T15:51:39+00:00",
+      "agents": [
+        "LABOR"
+      ],
+      "feed_label": "labor-nfp",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "New jobs report shows decline in number of people working, seeking work",
+      "source": "Michigan Public",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZ2lOWkJNNjU1NzcxaFJCNTY5UHVyTzJKTFBIdW1rTFdXeDJKcVFCUEtvYWo1Nzd3Y1dkTDAzYTN5SnQ2Z2k0X0IyYVpicmVDcmtIbS1uUVU5dE5hTWVWcFE0YWNoSU0xUFU2X3BhdUQ5UUFQWXBsX3Z6SGI3WEJCREJGMDd3YXdKbFRlc1ZjNzFsTzRUQUE3aUJlMEo1NWJKalExbEVPV0o2X0dLeHVCakJQbzdNUkFhcVVZdA?oc=5",
+      "published": "2026-04-03T23:00:00+00:00",
+      "agents": [
+        "LABOR"
+      ],
+      "feed_label": "labor-nfp",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "March US Jobs Report: Hiring Rebounds With a Strong 178,000 Rise in Payrolls",
+      "source": "morningstar.com",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZ0JVZzhwTWhzbC1GM29vUk1WV0lYbXpIZ1o4dEE0cHhJVVJqeWhYdVdZYTFfdGhhYm5VejN5dzRrTlZlX2VybjJNZ21aMnplQVpJV21Pb0pYRzZJQ0VJZkJoYzdsZVhVeW9DaUdfXzFtSzdfZ3JEV0RGNTJMb0cxYzl0cExOTmxpb3ZrLVM5Nl9FYmVtNlI0ZXp2VHA3c0NnR093cTlya0Q?oc=5",
-      "published": "2026-04-03T13:12:12+00:00",
-      "agents": [
-        "LABOR"
-      ],
-      "feed_label": "labor-nfp",
-      "origin": "google_news",
-      "level": "normal",
-      "keyword": null,
-      "entity": null,
-      "entity_info": null,
-      "escalation": null,
-      "watch_hits": [],
-      "classification": "NEW",
-      "suppressed": false,
-      "source_weight": 1
-    },
-    {
-      "title": "Jobs report shows strong hiring in March, despite oil shock set off by Iran war",
-      "source": "ABC News",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQOHhrS255VDczaXZ1RjQwMm0zaG5OQ3pJNWthbl9uMnA2WTFmR3pkZHZXdXAtWmxDXzVfUTF3c2k3Z2pVSG9EZ00zbFFTUlhPVVhJWjBiakFTa2VYbGU3REdsOUdHei1lanVLZWVqWEx0YXhKTVpaUGVPVjFpY2FrdFVNcXhKd2RJZzFSV1FGMFJWSnpUV1Rv0gGcAUFVX3lxTE41NnVPUW9ucnVsb1RfSmhGM0pnOGFmTGtubGFFWXQxcXdlOHJFenVOaDdrWHl2UWtmbVN3bHgxOHFoRnlOLTlMcFZoZjFScXV4MDlta3JwQzdDdFF4T0ZHSl9PWWNrRHN6elRHbERsRExwUnVLSENKN3Bfb2RxQnVudWUtc1hXZFRiV3lab0lBX1oyT2xpbXo5UzNJUA?oc=5",
-      "published": "2026-04-03T13:25:17+00:00",
-      "agents": [
-        "LABOR"
-      ],
-      "feed_label": "labor-nfp",
-      "origin": "google_news",
-      "level": "normal",
-      "keyword": null,
-      "entity": null,
-      "entity_info": null,
-      "escalation": null,
-      "watch_hits": [],
-      "classification": "NEW",
-      "suppressed": false,
-      "source_weight": 1
-    },
-    {
-      "title": "Economic Calendar: NFP Data Overshadowed by the Holiday Break",
-      "source": "XTB.com",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbXRrNUxEYXZfZzNRN1lFVXJKb0UteVVtNDBBQkJTZWN3dldmSWR2cVBya21EN2tqYkdxcDF2T1VxS09maVNwM0tUSWIxV1BlWlNyQ2lJbnB4S1UwbHBrbjU4Smt6YmJhWXhzc1hpRzF1S0EySEs4VTB5ZlpUUlBtSXFrRVlVeUJnVDViekd5WGtwOVZVaW53Q0hvUTdneU5NVmNnMFo2ekZ2WU1UVW9HWlp2UzlqckFYaVE?oc=5",
-      "published": "2026-04-03T07:53:39+00:00",
-      "agents": [
-        "LABOR"
-      ],
-      "feed_label": "labor-nfp",
-      "origin": "google_news",
-      "level": "normal",
-      "keyword": null,
-      "entity": null,
-      "entity_info": null,
-      "escalation": null,
-      "watch_hits": [],
-      "classification": "NEW",
-      "suppressed": false,
-      "source_weight": 1
-    },
-    {
-      "title": "Employers added 178,000 jobs in March, blowing past forecasts as job market rebounds",
-      "source": "CBS News",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVE9SRlVyM0JvMjJJU3lDTnZYdmdFWW9QUnJJRS1xM1Y1Y293T01nYmd3d1hFRzlGSUpZdlZDeERkb2tUME5RX1NuTmVFRXBoRUZYczVkMUpMeEM5MWx4TEhKSG1MbXJVRng4dHpjd18tdHN0OVpiaG94TTNSLW1sWWpJekpLQQ?oc=5",
-      "published": "2026-04-03T12:38:00+00:00",
-      "agents": [
-        "LABOR"
-      ],
-      "feed_label": "labor-nfp",
-      "origin": "google_news",
-      "level": "normal",
-      "keyword": null,
-      "entity": null,
-      "entity_info": null,
-      "escalation": null,
-      "watch_hits": [],
-      "classification": "NEW",
-      "suppressed": false,
-      "source_weight": 1
-    },
-    {
-      "title": "March 2026 jobs report: 178,000 payrolls added",
-      "source": "qz.com",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBzdjlnaU5DeGt1ajQ1N1RoOTVWaDZsVzd0WU5TQnNackJDalRxYjBlSGRaeFZTQklQeWhrRGVZcFdpbXhJcWY3YlUwVmtKbXpFME1vNk5nSnlBRHN4dmJWUmxiV2psSHY0TnYtbHo3SVFZVWFX?oc=5",
-      "published": "2026-04-03T12:17:22+00:00",
-      "agents": [
-        "LABOR"
-      ],
-      "feed_label": "labor-nfp",
-      "origin": "google_news",
-      "level": "normal",
-      "keyword": null,
-      "entity": null,
-      "entity_info": null,
-      "escalation": null,
-      "watch_hits": [],
-      "classification": "NEW",
-      "suppressed": false,
-      "source_weight": 1
-    },
-    {
-      "title": "March jobs report adds 178,000 jobs, a strong rebound from February",
-      "source": "KOMO",
-      "url": "https://news.google.com/rss/articles/CBMilANBVV95cUxPWGhmdl9DV05MUXo4UnhkM2ZBb3RXOWpGNXptd3hhOEM3V1lubF9BeXhWeTQwVUtFYXVIQkk3a1pOcVl6QXE3aGZISl8tZDhVRDRvUklfX09EeUU4dzBpMUltWFlaRTBMVDNNZHJnVVRfR2Vsa3JkQy14V0xNaUd4YkcwSHk3OGhoV2VZVFVja1dPYzBJdTlnYmxfWngxbWNpNGtEX09UQXVReFJ5bF9GNE9hM2I0MzlaZGtKOVJMTEJkcXpKZW0wd1kxVmV2NmlIek1pUFpVdXFiT254bUVDMl9BU0J0aUFkOFBoeVpEekFMZ1ZTVXZwbE9nU2cwQm9zWDZPZ1FTb05GRXJLUlBfclI3RDc2eEJ1Z3BVc05rQW5NU040YmhtaEd5TzhFRENyelZpcmZhWDVGWkU1TGUyNjVhV19rdi1TcDUxY2lmVWpMWFFSRWxPeDN3NG9HNmVYWENFZ0V6dGp2bTJWcGZVR3JTTWRMLVBCQmpnb253MEFjczR3WW9IclFkM0ZUaWpCclB4cQ?oc=5",
-      "published": "2026-04-03T13:23:17+00:00",
-      "agents": [
-        "LABOR"
-      ],
-      "feed_label": "labor-nfp",
-      "origin": "google_news",
-      "level": "normal",
-      "keyword": null,
-      "entity": null,
-      "entity_info": null,
-      "escalation": null,
-      "watch_hits": [],
-      "classification": "NEW",
-      "suppressed": false,
-      "source_weight": 1
-    },
-    {
-      "title": "U.S. added 178,000 jobs in March, a resilient labor market just as Iran war escalated",
-      "source": "NBC News",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOY0tncEZkS2NRTGZ4SE9kd1RLQ3lJVXItZkFaU0FpTHhqbWNGd1lVSXNpTzc5SzlpUEloSDJHbWl1WXdpT1dmeFpNZUFGWXZHSkk1N2RGdDZfNDJ6VlZoZGNQVkNweC0zX210Z3piY25vVEVIdUFfd3Q1NHFhaE1ac0lYX0E?oc=5",
-      "published": "2026-04-03T12:54:56+00:00",
-      "agents": [
-        "LABOR"
-      ],
-      "feed_label": "labor-nfp",
-      "origin": "google_news",
-      "level": "normal",
-      "keyword": null,
-      "entity": null,
-      "entity_info": null,
-      "escalation": null,
-      "watch_hits": [],
-      "classification": "NEW",
-      "suppressed": false,
-      "source_weight": 1
-    },
-    {
-      "title": "U.S. jobs report shows 178,000 workers were hired in March. But the hiring boomlet is unlikely to last.",
-      "source": "MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMi2wNBVV95cUxPc3pfRUZleWRmaXZGQzBWeFBlNTBMaEhjTEJ6cVk1LTZGeFZXNHdLZkNoM3hnR2xNQm56TG9JY1NHUG5abGZwQWlkSzNzdTJHY3dEVVdZTHV2SnVObUxpQTdkM0tYb0NxOG81RkppRUhISFBDT3VER3ZJRXdFSHpUVkt0ZmNtNnlsZC1ZOTc1VnlWcnpYQjNIU3ViRm1EMW5tSmZDMEJzMGppLTZaeXlraFRfTTVQRHlnaVlHNzRLLWRwM2JiclBhY0Y4aGVnTEY5eE8zR2ZfQkpXajh1R2dLOVJWaFZPbldrbzAyanBjRUNmQ0JjNDl4VTJiR3NUejhiblMwVUlZa1J6RDdtMHM4ZDdxRzJ3QS0ydVN4bFMySDc5RmpBeVduLXM1eW9RXzMzN0NNVVVtYzBhY2M2aWZVSVQ5TnU0d29rZk1mN1RtMGhIcVE2QVgwZmxyblVfblVaVHpHQU5rN3hzam1valByUjJyekVobmVvaGUwbHN2emV5TmZGbzVaUEZxUmlya0Q1ODViRkJKZ1d6YXJmWEpwVDNrSURZenhtSG1ZOHlkbzR0TGlSMUpkYzN2WVhuLV96a3Z5SGI1VGZfY1J6UjBZR1Z6VWV2QU9tcTEw?oc=5",
-      "published": "2026-04-03T12:34:00+00:00",
+      "published": "2026-04-03T18:57:58+00:00",
       "agents": [
         "LABOR"
       ],
@@ -2546,26 +2715,6 @@
       "source_weight": 1
     },
     {
-      "title": "Rocky US economy, private credit stress, war, impact Bitcoin\u2019s odds for $75K rally",
-      "source": "TradingView",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNMUx0T3IxQ2tybFlQOGtGVDk1S1pYdW4tcWtKQlItdEhaS3pVOEhGWFdQYVVWS1FPSXdqNGhpQ0RtQTJpbVhsaEFHY29wcURSVzJVS0ExeVpSME1nSWdQRWRDUExnR0JmQzA1OVBtaV8tUkZheGdrN1B2N2VOR2lSVFBvOGdyNVRlQjZhOHRrM190cTJRVnVSU1RmVjZIYnYwd3pNOGhEbG12anJGMGZmME5GMkJKSmJncUhnQ0UwOHZOeEJGVW5Ybk9qVGdFQTFrQnZaZV9udWh5Zw?oc=5",
-      "published": "2026-04-02T21:24:42+00:00",
-      "agents": [
-        "LIQUID"
-      ],
-      "feed_label": "credit-spreads",
-      "origin": "google_news",
-      "level": "normal",
-      "keyword": null,
-      "entity": null,
-      "entity_info": null,
-      "escalation": null,
-      "watch_hits": [],
-      "classification": "NEW",
-      "suppressed": false,
-      "source_weight": 1
-    },
-    {
       "title": "Private Credit Stress Intensifies | Newswise",
       "source": "Newswise",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE51X1lkVDc4OEJoM19Kc0pscll4LTZCWlpxSWlVZ2tPTXdyY1h0R3RSWENjVVpwSE9IUmpHTmRYVDRBd1AySkdkeGFmN0Uta3M3c3B4TXNmcmFDWTVvXy1GMlVlUWFRTlFXR3QzU0JnMFBKemtkMVHSAXZBVV95cUxOdV9ZZFQ3ODhCaDNfSnNKbHJZeC02QlpacUlpVWdrT013cmNYdEd0UlhDY1VacEhPSFJqR05kWFQ0QXdQMkpHZHhhZjdFLWtzN3NweE1zZnJhQ1k1b18tRjJVZVFhUU5RV0d0M1NCZzBQSnprZDFR?oc=5",
@@ -2586,10 +2735,30 @@
       "source_weight": 1
     },
     {
-      "title": "Private credit stress grows as quant ratings turn cautious on several firms",
+      "title": "From Strait Blockage to Straight Losses: Credit Stress Pathways for Asian Listed Companies",
+      "source": "spglobal.com",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQSXlIbWNUUDd3QUxuZk9VV3hrV1ZwLXRuSkcwTUdTandabXVlb1BBZUYtRXlER3pTS2ZsWktjT3I1T1B2VDUzMldkRWE2Z2RpMmtLM2RyVjVqN0xveGtRQ2p0eUIyODVOdDhVVE5HTmNxT0VOT0t2dGpOeFUtYjlETm1kbzhfbGxTaGx1MV9mVDgzT0p1aFFiVjlQTHJ2akVPQ2F3X0xfSC1kNzJnWFYtLTNhUkJkNUVtM05DYU11al9aVXNlZ29xeVRHZlRxdmZwSmotSTFQVnJuY1oyMW9JckJKUG9lck54VDdQakh6MHJGTmpEVlJJUXZNS1k?oc=5",
+      "published": "2026-03-21T07:00:00+00:00",
+      "agents": [
+        "LIQUID"
+      ],
+      "feed_label": "credit-spreads",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Rocky US economy, private credit stress, war impact Bitcoin\u2019s odds for $75K rally",
       "source": "MSN",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPejZlbjFkMzZoZ0g2NVNvakdpdGhMc0U2LXotWmhTWXk4RjVhT3lWUzhyWjRzM09GUGx0ek9pMDg4UE1tTUg3N3dsNk1QSFBjREI5cVF0ekxtUE1XNy1abGpWVFBCSGdGN3ZHT2pyeS1zT0Y3RnBWT2g4ZXJRSng2RGtYSzVDQTlXMUE5bThseDFKTTJkRFhTaWVSeGhfRDg3eUs4TVJ3SzdWbk1yZlZaMEw5TGhGdW1UcFhGdGhuOE5mdFNQT3ZTTg?oc=5",
-      "published": "2026-04-02T09:14:16+00:00",
+      "url": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxOOF8yQ2lyNFlrMkN3QkNjUjBHai1HZFhYRDJfSkdMQ1JXVDRBdTdrQzZMOEpVNmdVZGJibG9NMzF0TzdtWGRwSFg2NUdxZ09lajN2TW1lR0R6S3NPTk0zNlg4N19GOWJTTUN1eUxocm9rQWdQUVVITWR2RkVhck5tb3RENzJVdWMyQWsxU3N0UDZXSVFkOWdZaVV1LVFaYWRpZDczS0RkYUYwclVhYWFXMDg1cy1qQTlWa2dWVHlMejVKUnhYaXRSVnhqaXNKX2JqNnFOSkxJdUZHUG5lTHpDSFNoenN1YjhhNVZ4UVI2V1VFanVUcVZ3VnVXYVkwM0QtWnRNY2dZXzR1QW4za1ltV0V2cy1fOFpQejBYY1ZfY0FLeFVWZ2U0Q3Itdzh6MFNPdHlKdkEwVExMNncxUTBwT3NYVFd0d29lbTNBV0NDN1F2bEVaY0ZCNTBPRXR0aG8?oc=5",
+      "published": "2026-04-03T13:59:30+00:00",
       "agents": [
         "LIQUID"
       ],
@@ -2629,7 +2798,7 @@
       "title": "Layered Uncertainty: Conflict, Credit Stress, And AI",
       "source": "Seeking Alpha",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNldPaVpPUFFYZkdQcHBBbzRScXhfQUZid1lwdU9tT0RRQmNvLVpDYmFQY3QzdnJjSUR6b3JUTXg4LUt0dlUwNGs2bUpBXzlzVzM1cXZwME84c2ZTazREUlhBQzR3RDNySm1VeWlGR3dEWFlKTWNjSVpOX2N3c1p3ZjJkNDE2UTVpNktqdkI1OXQ4WTVv?oc=5",
-      "published": "2026-03-25T12:45:00+00:00",
+      "published": "2026-03-25T07:00:00+00:00",
       "agents": [
         "LIQUID"
       ],
@@ -2646,10 +2815,10 @@
       "source_weight": 1
     },
     {
-      "title": "10-Year T-Note Futures - Volume & Open Interest",
+      "title": "U.S. T-Bill Overview",
       "source": "CME Group",
-      "url": "https://news.google.com/rss/articles/CBMi1ANBVV95cUxOX2JZWWtqMlEtb3g5cktQMFJibjh1Q29hVmVLQURsckpSd3VGSHBsNDNLcWx5b3lmZmN1WlpTWDl3NVZpX0d4UjVSWTBBejdUWVhmbDFLMk5BbmwwTl81VTBaeHVjRWl1WjdVMDBvNG15TkxiaVRScVJILTc4aW1tT3RzQzMwckhFMHVqM2swT2U4NFp2eWZFMXY0Q1AtX0YtMXQ3YWM0MTNoaGlRTV9DWTN3YmJaQ2EzdTJzODhFMXBnMkhRMFJaU2psSG9udUZPVHE2T01WQ2ZaNXA0TkJVSXdfaEQweElWWmtzbGdWZTdHU2hDSGFYUG45SkhOMUs5ckVxZDVPbWx3V1BwNllPSHdWX09LbXc5cUlZQkI3c18wWW1YZmFQVnl3VjZ1eFloTGQ3RVpXbFg3cmxGd2ozWlNrR1VDcXBxbFNVTDVxQUY4a3piTTdOSXNnQ1pEbTdkTXhNTXNuVkVseVdDdGVkWXR2M2M5QlVQVDJIU3ptUEl3RUVCS3M4LU5idWozUzFyRkdJQlRpVXZKTnl5SUhRdUlPMHpDQ0RFRTY3Szh3bDB4azFLa21ESEllYjVGZ2g5a0Q0NV9nYWpONVZuaFk3Xzh6Mlg?oc=5",
-      "published": "2026-03-29T15:49:11+00:00",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9GSGZlQWJQMHNqWG1ER3JhX29aRlR4VmoyZDIzeWd1UlFaZmhGNENaSVJxa19xckZQbmJiM0xLOGxEZmNZU183eXd4Z1Yyejh3ckFBaGIycDJqZkVHZ3VmRTVGMmY4MWQtcjVOcm1idHcteTBJaWg4?oc=5",
+      "published": "2026-04-03T04:23:34+00:00",
       "agents": [
         "LIQUID"
       ],
@@ -2686,6 +2855,126 @@
       "source_weight": 1
     },
     {
+      "title": "5-Year T-Note Futures Overview",
+      "source": "CME Group",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcnQ4MHRxOTJTdHRVNEh5OVJhV1JTQlRvRzNCQ3hHdGg5elZxTzNzR2UyMGdFQkFuWjNYMmZCZG5pZ3hwVVIwYTYtekVDbEJ2aDRnMllzb3N2UzZIaTNJaE9tMHYwX0NsVncyMGRWMlF0MERQU090WTlhYUxRbGNUc3dLeXJFYXYzZW9BempveDdtdw?oc=5",
+      "published": "2026-04-02T20:44:45+00:00",
+      "agents": [
+        "LIQUID"
+      ],
+      "feed_label": "funding-stress",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "10-Year T-Note Options - Settlements",
+      "source": "CME Group",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNE90Zy14RjlwV283cXpEX3FjeHR3RElwcTM3Z0pXY1lUUXJuOVZPYlZxUDFBSFpiQ0pnZTJ2dFQtSE90UjNSUldQSnhDOC1HZkF6MkVMdzEyN25VclcxZ1dyazNBZ0Nxd3ZMWmhxT2NGS1IzNmMzNF9leFlSSkY0Y1dCRFlONDlYUzB6WnlMN3NBVGlCWGJGcUltSWEtVXBvLXMycXZNRDdrOTQ4eWppcHVKQ1hBX19HUFFUVlZ5c0gtOUIzN3BnR1N1bw?oc=5",
+      "published": "2026-04-04T14:43:16+00:00",
+      "agents": [
+        "LIQUID"
+      ],
+      "feed_label": "funding-stress",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "U.S. T-Bill Futures - Settlements",
+      "source": "CME Group",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMlVLdExwTUNrS3hFRUJmNTl3ZmNqM3lyN0lwcVJzYjZSem01WmZNQmJBNjNmRUkyVzJOQ3daYjdWMlJCWXFBSGtXcGNhd0dWVjBVZ0k1NFc1QnlfeWZqRFBkcUNvaElPZUZTbXdGcTViRjhpbGtYajZsV0FJaHNDdWduMXBBTjdiYXRvR3ZYUWI2b3FPeWJ5aGt0WnUwSmxxV2tWaA?oc=5",
+      "published": "2026-04-02T09:35:57+00:00",
+      "agents": [
+        "LIQUID"
+      ],
+      "feed_label": "funding-stress",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "10-Year T-Note Options - Calendar",
+      "source": "CME Group",
+      "url": "https://news.google.com/rss/articles/CBMi4gNBVV95cUxPWjBvOFBzc1RNOG5XT3JCVXdLdDY5QjlrUHY2aDlzSXZvUGZiTnN3LW5sWlVRcWV0eExsX0FScGgyN2preHVyYnR6WDh1ZUxKNlFBblBYOHpZaHpiZUpkakNwX0JjRmdKOGtwRDQyNFVPem1xSXctS0ZGUFQ0UUpJR04zQkFPdXhtX0Fya0p3WVdERTUwLVBZNGRxbjhYbHN0RkViMU0zRTlaMUNodEhMai1GVVlMXzgtOHpQRmN4OTVHdUEtVXo4bWl0ei1pUk1ybzh4YUM5eURkazJ4TFQ0eGZtZUVhSi1YXzZoQWhvdkdaYjNSRWVnalhPVzdNSi1HTWQzeHFXQ211VThLTU1URWFiUEhpWkdhc01XU0pYWjRlc3lXczMxVEt5aXdlb1FQeWhjQlh5aWs5T1N3amx2Y1RGWWp5RVJhWnhFNjIzQWUzU1J6RG1zd0ZOQklIUjJsZ2JsNGc3ZnJTOGFkNnJSRU41emxLUHNSRVdZRGEtZnNuSjJFMEZqSEtmdUZmemprdDEtQmpvT2huVHFfbkNOMG13NFZmaF8wc0dlNHFNekdRR0ROYkFvcEFSOFR6b3hjc3JPX1NhUjZLeGU1dDROWEZaWFNmcDBWeDdSMVdDalNhdw?oc=5",
+      "published": "2026-03-29T15:27:38+00:00",
+      "agents": [
+        "LIQUID"
+      ],
+      "feed_label": "funding-stress",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "10-Year T-Note Futures Margins",
+      "source": "CME Group",
+      "url": "https://news.google.com/rss/articles/CBMi1gNBVV95cUxPaXlpd2dtemFLQzNURkJtMzNRT1dEUVloVEJNc3lmWVFOODRidnAxak42TTFvTHQ0aUxCZGlkTkUyQW9uZVBLVndoSE1qR1dlWTBPWDJJTlc5VS1zdVNmNTZDRTVuR2taVnFiWmZlcXpqX2k1Vlh6T2NxN0E1MUV0dnQxSmpVNE1JaElkOE04WWJGTXZDZVczSTlhcV9Eb1hGNTVWdmFxazZQVXJCOS0yamJoVnpFQTJCSGh6eWU1UG1EUmd6a3ZmWDR5aFZMbVNoLUEtNHc4eF9QdnNpUFJ0ZHM1U2dsV3JHaWs2YWZWNGlBVC1RdWYwaVpJakJKVEpEVkJYeHhwSGlJMG1RMHhlMXJUYVE4YmMyME5FT0FrTkF0ektmeElGXzdaT0RTZHJIcjB6R1VnS2k4Q1Zrb3pyYm9xUHBwTG1pQ2JOMFdFYmV3UHdtUTBkenFUekVDcVR1ZHdNWTVyY1ZlMjk1anRpR3NoZlU5NEh1N2RUa2dLNE91NWtVd21tX2c2UGNIWGp3a3JmQ2kxaDlZNDRBTS14X2F3V19XaU0zMFQybUUtOHpFcG1Yc0VZUTlnUENMTlZTVEFIMVozODBXSm1mSVdmUFBybURsZw?oc=5",
+      "published": "2026-03-23T21:25:56+00:00",
+      "agents": [
+        "LIQUID"
+      ],
+      "feed_label": "funding-stress",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "10-Year T-Note Futures - Contract Specs",
+      "source": "CME Group",
+      "url": "https://news.google.com/rss/articles/CBMi3gNBVV95cUxNckY3bEpjSzl6ZG1jYU45X2E4OTF5VElYUlE0VUY3XzktVkhVaEFKNlp1UGRwN0lhaGZWYm14NlpWYkpWQWI4UWhiYmQzZTZ6YklJTTRrcTYtcjd2OEpWaHpwSXJFdzdwOXNTRFY2Z19SV1BtZXNZYld3OFBjdWlwOTZSMXdDNDFWV05ZVUhYVWNaeHBZM1gweW10cFI1N2FwOV9xSVkyZHJHRnNYOHRRWGZBQkctbElrbnVNWjJfYS03d1V3ZU9vN2JIdXVWN2pVcEpYZ3lsSjAweFBEdU5TTkUwRUQxbEdqRlZMNmY1aF9IeTNsYnh3UTljU243eEF2T1lvTW9yRUNTcTJoSUhCMTVRWnVleVBjNS11UzBnRC02UFY5VDdDYUF0NVJTc0huMC1LN3cyZVowU3kwMjRvZ0psa09ScDB4TDZYQ0JjMkRpM21tV2ZEVjV2SnFnc2JXc1ZDbGwyOEcwQ202RG1QbjNYVnZPV1ZCN00weE1vY3FGTGpZaDFkQ1NBTmNzY2Q0WnF6bEZxcU1DYWZ2ODI2TmhFSVg1Mk1rMjRGTDFpeGl4c1BDNUhST29PcGFXUW8zTlh5YjFwdjltOHZnU2VUNDBQYkFPQnRRcmNuWE1n?oc=5",
+      "published": "2026-03-29T05:03:13+00:00",
+      "agents": [
+        "LIQUID"
+      ],
+      "feed_label": "funding-stress",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
       "title": "Market Minute: Growth of U.S. government debt and the repo market",
       "source": "The Real Economy Blog",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQXzJ6U01wSEpreHJPZ2NHM2RVUUJRaTFWLXBtQ1lGdXRNYVBCcU1qZnMwSnIwVzFPSW50dlFNcGs1anB4VTgyLVVOQ2cyTHJWUERTTnpsbWhvaWtEdmY3NWZuRWR6V21zbVRzSV8xTmFwYW5TdFdYOVdubEVVSXA4aUxXWEJoUWtKNzFZa2k5WmpLVExIaTlHbl9B?oc=5",
@@ -2706,14 +2995,14 @@
       "source_weight": 1
     },
     {
-      "title": "5-Year T-Note Futures Margins",
-      "source": "CME Group",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQVkNFd1ZySkZrYVNpLWltSGk4bVktcTJkRGZtZFpCZ2xHUFZUTkdFbGF0M3NveUk2NWhCRy1IZDJGalV6dmFGd3k2UlZxM2FFZmpySWFNdF9PSVVSbjhrVm5zSE41YlE5dzBjWkE2dUNZSXQ1djN6bDhzU1ZLUGp6MVdnaXRhVVRnSmd5eVhsMm42aEw0SmRPT2RYNkJBWndLYzNUMmFpdTBGUzZScF9vcURiY2g5MENMNXc?oc=5",
-      "published": "2026-03-28T00:18:27+00:00",
+      "title": "Why commercial real estate refinancing deals have surged in Philadelphia",
+      "source": "The Business Journals",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTGxvTDJBdDdpQWFaYnZyZnB5VjhpOVNIemJBZngwalV1cXN6RHVvYjFLTmxEcVhHMnZ2ZHNJV0U3T0hyWjdFU2xDQ0RIenEtYzd3VlMwM01QZlBLS1BleENvd2VYUFBLaGxtZlJpWUsyckxJb2dJYmR6YnU1ZnNhQ3phNENsS01RcEcweVNpbkdQeVFaamRPUnVYUjlvODBtMTd6U2hTTmd5NUhtN3c?oc=5",
+      "published": "2026-04-05T16:25:00+00:00",
       "agents": [
-        "LIQUID"
+        "REGINALD"
       ],
-      "feed_label": "funding-stress",
+      "feed_label": "cre-stress",
       "origin": "google_news",
       "level": "normal",
       "keyword": null,
@@ -2726,14 +3015,14 @@
       "source_weight": 1
     },
     {
-      "title": "10-Year T-Note Options - Calendar",
-      "source": "CME Group",
-      "url": "https://news.google.com/rss/articles/CBMigARBVV95cUxQcjBGUDJVNFN5bkVMQkcyVUFwa01TcEZHU2p0SWFCSEtuX0cyaVlLY2hYMkVxZ3VRMkxTcXBycnJRRm5aMEo4NHBfMk9xN1FyTW82T2lUVEprdmlrd1IwWGhOU2FldUZBaXA5RGF3bXdxZGNUeTAxakJKa004UFVPT2FUVU9wcmJQRFRqZ09uR3ExSjE3SGEwWXZOSnhjZ0RZOEJneEplOUJFb05oWjhTMjRiS0RhRDZWbklrRjRUNUZfenVpa0Q4emxEc19VT2ZQSUMwZ3lOQUZraGdzSG9VSjh2bXhGMkJueXppVG50RklCcU1zTkExSkhUT1hjOGtjOU15dHpIR2pIb1dMZGVYbjYwWE1wTDhoR1VWb3R6ZE1xZHU2bEpxRkhRSWVoU2Vnb1loQXI0UFJaZlRSa2xvcjY3NmpHMVJPRk0zU2VoZC1tVEgzYk1HaXdwNlExZV9ZaFQ0ZFhGdFMxOTcxc2tWYWlPUFI4cll4N2FxbUNpWHljeGUtbU9JT1RvbU5pekZ1Z1ZEeEdkTDhHSmZBMllyaEJqWDNIVERpdkoySVQ2VDRSajdScmNta0UycGx6ckFrekdueXc0Rnh6Z1V2T0FyY1dIYUVuNkppSVl5eDQ2bzJqMFRxV2RlMDI3Z24ySVV6dmp1RmhHanYzWDZodFZuRw?oc=5",
-      "published": "2026-03-27T08:59:17+00:00",
+      "title": "Commercial real estate deal creates CRE giant in Oklahoma",
+      "source": "The Oklahoman",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZGowczNnM1lJeW9CM295cGExai05YlBUYVRnbnVEZG04U29WU1pJUzR6dE5rR2RtbUliNU1uc0pRMlM3OHJjZE9VZGg0ZmNDcDJkRGNaN2VHMUZLVER2NFFmZDByMVZWeXVfSDdQaTVFb1BmQWtsZnA2N2gwZHRCbEVPdGFsc3paSThsMWNVRFhoWDVkamFoQV9GWFlwcVNpZnpENkh3bjZhTTU0TUJMMWwzR0tkVDRsT1ViMHZBMWxfT3F1dDBwNlBpd0FmOTlmVHBRYg?oc=5",
+      "published": "2026-04-04T10:10:30+00:00",
       "agents": [
-        "LIQUID"
+        "REGINALD"
       ],
-      "feed_label": "funding-stress",
+      "feed_label": "cre-stress",
       "origin": "google_news",
       "level": "normal",
       "keyword": null,
@@ -2746,14 +3035,14 @@
       "source_weight": 1
     },
     {
-      "title": "10-Year T-Note Futures - Calendar",
-      "source": "CME Group",
-      "url": "https://news.google.com/rss/articles/CBMi1wNBVV95cUxPUjdMcjN4Wkw5NzB1V09MQ3V2MElkRUFadkFZYnJjem9RZjVJdkY3SjVfd1pZVGVVQTZ1ZURIWUplYnExcXdDRFpIUVFoalBSbUZlenNuSjhZUi1QYWlsMjV4d2kyQ1NfYnN2TG9mWEZXMDlfNkZ3QmJzQm9peVFGdk96NFAxQ0lqd29JUmlzekhqWUtxdlJhRERnZHdBNTltelNNbTB1Qk1yTW55RThGeWQwa0JyblZtcWYzcG5lVk0wQU5Ucld1dUVhY0MyWVJzVUlzNThWNEozbEZvU2hYNEJvWmFkc05PaUxEX3NwQTlVRTNSZ25hLWtxaGxmT2pCMHp3NVdjbkszb1RVbWZDUldxZVItaHhLTV9JWG9naFNQeHRLUHZCSlpOcEFVSnVCSGVpbDRqWElCZDhOcFcxaGJpekUtUkVyY3dEd1ktZER1YUxuM3hUR1ktYnQ1REVrbDdCRlVITy1NQmtsU1kzZm1PZFBfSlMwU0VTMlZIVEZlTHNNX1hlTlY4REhrWk5sNlNwRHZrY0c1WHhQa1dUbk9CUGloalExUEl4UHh0d3BOT0NFZG9aWG0yYkswUGdITDMySFItTi1ZZkNRNzNPT0k0RmJIdnM?oc=5",
-      "published": "2026-03-25T02:37:22+00:00",
+      "title": "Josh Rabinowitz Listed Among 2026 Who\u2019s Who in Commercial Real Estate & Construction by Pacific Coast Business Times",
+      "source": "Brownstein Hyatt Farber Schreck",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNMjZ4Q01IUzJiZE5OM0pkT1Y4QXdTZkNaY0V5TFRqdWdJZXhQejZRd2N0Z0lBSlp3TzlZVUhhb0IxdXRpbkY0VktnekY0MWE4QWcwQmtQSEVHUGY2c2E5VnViMThBbU51dlViU1d4QjNQTEJNTTlXN01XX0RPRzNCOUlUY3k4cTB6VjZudnkzc2l3TF9McmRZNkZxbEdjcFlvRDRZNkdaZUFwTzhPS0VkdEdXaEpYbEJxUmViMVBiN3pPSlprMUR6ZGRUSS1Eb1o5OWx6OGw1blVNZm81QTNN?oc=5",
+      "published": "2026-04-02T18:48:59+00:00",
       "agents": [
-        "LIQUID"
+        "REGINALD"
       ],
-      "feed_label": "funding-stress",
+      "feed_label": "cre-stress",
       "origin": "google_news",
       "level": "normal",
       "keyword": null,
@@ -2766,14 +3055,34 @@
       "source_weight": 1
     },
     {
-      "title": "An exploration of Japan\u2019s repo market",
-      "source": "Securities Finance Times",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMllURTF0UzVoU1I0WDhsOG5GZnlYbHc0bEM0RFhXSmkxZ2p0Z0lKRWhLaF9Ic24ycTV2TnlLZmg5LWtBUGJFcml4UmhfZEdiaGhLRUY3TGtuTmlOTFhKbEpvT2xUcjBjX0Q3aGRlMm53d0N4Nk9yenlVVmpua1diOHlvMTJNMFE?oc=5",
-      "published": "2026-03-03T08:00:00+00:00",
+      "title": "A roundup of Maine commercial real estate leases for April 2026",
+      "source": "Mainebiz",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWWtMZVJCS2hHUktvUTNwV2ZMWWk2emI4UF95dUo1ZHJRSlp3bEtyemFSNFpBd2ZDbFBCNlFSSVpVUmJzZ2tDUFhDSVFVUms1Z2VibzlSM01seXc5VjZ1YjQ1bkU3bkNuakhyRmtrTGVzSjVkMTRMdGM1anV2RE9zRzFOVU1YcFNLX0JaVWk0OTl1N081NVdaRw?oc=5",
+      "published": "2026-04-01T16:27:37+00:00",
       "agents": [
-        "LIQUID"
+        "REGINALD"
       ],
-      "feed_label": "funding-stress",
+      "feed_label": "cre-stress",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "How the Middle East Conflict Is Shaping Europe\u2019s Economy and Commercial Real Estate",
+      "source": "Cushman & Wakefield",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNV3VGV19YcXNFZnFzeGpCekRfTVhGX3N0VGh0bzJDSTRMMmdfUmxXREswR3lJUUs1OVJ1bzRycUhFejYtbERpMC1QVGFzQjdSY1ZKV2p6SG05MTFKbW9UaFlwZG5zV240MXVKYmxHX1I3TUhHSkU2LTV5SzNzdk5IR19jVmhvWjRHMERWLW42T1hTLVRWZ3F6ZmxmbjFGazJjQ0pUVXd3?oc=5",
+      "published": "2026-04-01T23:18:07+00:00",
+      "agents": [
+        "REGINALD"
+      ],
+      "feed_label": "cre-stress",
       "origin": "google_news",
       "level": "normal",
       "keyword": null,
@@ -2790,66 +3099,6 @@
       "source": "Crain's Cleveland Business",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVXJVZFBWdXVpODQyX3VNNEUzLVhGSDZETEJNWXBZOEZRREkyd2tuZDZXV19la1I0N2t3SHhDdEk5OUgtZXBxcjloU1llckFXZHFXTDBiV1R2R1hWNFBicW1EUUVuYkVmejJ1eXlhcVp3RlFVNm45NmdBUkI3RFNaRXFTMWMzdEJNU2NNTUQzd0RQZw?oc=5",
       "published": "2026-04-02T19:49:00+00:00",
-      "agents": [
-        "REGINALD"
-      ],
-      "feed_label": "cre-stress",
-      "origin": "google_news",
-      "level": "normal",
-      "keyword": null,
-      "entity": null,
-      "entity_info": null,
-      "escalation": null,
-      "watch_hits": [],
-      "classification": "NEW",
-      "suppressed": false,
-      "source_weight": 1
-    },
-    {
-      "title": "United States Commercial Real Estate Market Size Trends & Growth Outlook 2026-2034",
-      "source": "vocal.media",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNVlmT21rN1g3ckdUblhRV0ItZXZnZEVJSXZKVWZsZVhWUlVCYmpxRkMyb0k3TDRLZmxiV21qazJvWDAwano4dnFjVFBQVTNKUU5rQzZYWFJjNXI4RGRnZVB1Tlo5SXhYd2ppa3BDc2lGSDdlbFA1RHlVczVnTDBvbDY1OVotNXhJdjN3bUExbkVFbTBzSUpIV0c1V1h2RXhFb3ByeEhQa3NWZE5ETFo0ZQ?oc=5",
-      "published": "2026-04-03T05:48:56+00:00",
-      "agents": [
-        "REGINALD"
-      ],
-      "feed_label": "cre-stress",
-      "origin": "google_news",
-      "level": "normal",
-      "keyword": null,
-      "entity": null,
-      "entity_info": null,
-      "escalation": null,
-      "watch_hits": [],
-      "classification": "NEW",
-      "suppressed": false,
-      "source_weight": 1
-    },
-    {
-      "title": "Tangeman Selected for Admission to American College of Real Estate Lawyers",
-      "source": "Vorys",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUjY2bmNLeVZUTC1FcG9FeEU3QlRwTkVpNjlLTmJ6QlJheTRIbzk5SlZlTHRwRG9feXh2Ri1FNVIyYW1oZ2QtWVhvNGh1Z0xJb3JGVHJBX0tPRUgwSkxrOEdpc2FOU0wycW9JN3ZXdjJ3UmJ5MUhQVmtqT3JpNjB4VUdSLWNOMW4ydWNzc2pWejJsNVNtVnEwZHo1UFVzVDJBM3R3?oc=5",
-      "published": "2026-04-02T19:16:45+00:00",
-      "agents": [
-        "REGINALD"
-      ],
-      "feed_label": "cre-stress",
-      "origin": "google_news",
-      "level": "normal",
-      "keyword": null,
-      "entity": null,
-      "entity_info": null,
-      "escalation": null,
-      "watch_hits": [],
-      "classification": "NEW",
-      "suppressed": false,
-      "source_weight": 1
-    },
-    {
-      "title": "AI-Powered Commercial Real Estate Platform Realmo Surpasses 1 Million Active Listings",
-      "source": "openPR.com",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOd0tZR21BQ3FaUE5YaGI0VnRobmJGM1lPYWxlcUs0TkZNRl9USDZaRV9aakEtd1lqclh6MzBndVdmYWFDRkc3OW9fMFFTNmwza091LVlGNjdQVl9ldE5zZGlQVlZGdG9UWVlhQXZvb3RxODFCMlB0VUFPUzNkODhiS2lpbDFPNGVkSjVuSlVwUUhXYjc3aXd6UFFGT3FLUQ?oc=5",
-      "published": "2026-04-03T11:34:16+00:00",
       "agents": [
         "REGINALD"
       ],
@@ -2906,260 +3155,10 @@
       "source_weight": 1
     },
     {
-      "title": "Behind Cryptocurrency\u2019s Commercial Real Estate Moment",
-      "source": "Commercial Observer",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOeE56ci15YnJ2c1V6VExRWmhIRjg3d1RQd3YxOVFRWWUwRXAyNHoxLUMzUTVyVEEtRVZwbkRyMXR0dmxQN2EtVVZ2QmVibGl3X0lBbndVQzZpSzZObzV5VEdqd3RpcmhJTWUtRWl5a3A3ZHVRajVBYlRNNWluQ2ItMXVXdV9xV0RBVlNB?oc=5",
-      "published": "2026-03-31T12:00:54+00:00",
-      "agents": [
-        "REGINALD"
-      ],
-      "feed_label": "cre-stress",
-      "origin": "google_news",
-      "level": "normal",
-      "keyword": null,
-      "entity": null,
-      "entity_info": null,
-      "escalation": null,
-      "watch_hits": [],
-      "classification": "NEW",
-      "suppressed": false,
-      "source_weight": 1
-    },
-    {
-      "title": "How the Middle East Conflict Is Shaping Asia Pacific\u2019s Economy and Commercial Real Estate",
-      "source": "Cushman & Wakefield",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcFdIem5vV3Y3RFQ0NEhrZjRuWFYyQmF6UUQ3bFh5M21wM1pNbTR0YVpIZENkMmxlaEo4WmJvdDh3QlYwblBqdlZibmlCQVFBaDJ1VGhfT0tGQ1pRYjRtUDBfLVRRRGt4enJvdVh3YzJPWVBlLTZpZ3NXaU1NMnV4R0MxRTZKU3BhZmRzMU9mYXpkUVlkVTJfMUl6dnZhcThFbmpV?oc=5",
-      "published": "2026-04-01T23:18:08+00:00",
-      "agents": [
-        "REGINALD"
-      ],
-      "feed_label": "cre-stress",
-      "origin": "google_news",
-      "level": "normal",
-      "keyword": null,
-      "entity": null,
-      "entity_info": null,
-      "escalation": null,
-      "watch_hits": [],
-      "classification": "NEW",
-      "suppressed": false,
-      "source_weight": 1
-    },
-    {
-      "title": "FirstSun And First Foundation Merger Reshapes Regional Bank And Valuation Profile",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQM1BTSURsVmZVT0lCdmsyXzBsMjR0bUxXVlJWaWpGX1hVZXppckMtLXp2U0MyTHI1dGItUmtqZS1IS1RGZGwyTjhVZ2RuVG5Nci1id09ycEZJdzRyZzVQUHNDbGprOWxFaGVNbnY5UGJQaHFPY0JMalBZM3BEcWNtQ3NBbEJrVGxBalpEOEl4ek1DTnZocll1YllETGpvTkFiS0J6bVZvX2kzdw?oc=5",
-      "published": "2026-04-03T12:08:45+00:00",
-      "agents": [
-        "REGINALD",
-        "LIQUID"
-      ],
-      "feed_label": "bank-stress",
-      "origin": "google_news",
-      "level": "normal",
-      "keyword": null,
-      "entity": null,
-      "entity_info": null,
-      "escalation": null,
-      "watch_hits": [],
-      "classification": "NEW",
-      "suppressed": false,
-      "source_weight": 1
-    },
-    {
-      "title": "FirstSun Capital Bancorp: Regional Bank Merger With First Foundation Completed",
-      "source": "Pulse 2.0",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPYnlXeW1TVXZqTVFDWFJxOExqVWk5RnZVUi1lUWJkb3lqWURSVjBVZXowTE5lNUJoVXVVWk0zZFBsZFphaW9LR2I0dTBaeGRXTmN5RFk0aGRmcXU4ZnNZRzJscEhTVXBBQnhnR3NobzdhNGZmQ043Y2RBck9VOExMZWVXVWthOEpTMENqanI0QXVYbG9XbjRJNkl2LXBPZ9IBowFBVV95cUxPdUg5VkFsZXpmeENzcEotQWhPMURaTk9MT0JCVmYxVmN4aEFQaUJYY21tUXRWcGtHT1ZXTWRLOW9zckQzUzFJOE1CVzZGOU5qeWt4aGh6em9WU1p2dkk0aW9selZWc2ZNQW44SHZ0cmJERHkxRVJkc2NyTGVQUGJab3hJSmtCY0Z1X3lhNnRzd25UZElCd2JDTEw2dWFLbGxTSFdB?oc=5",
-      "published": "2026-04-01T20:28:03+00:00",
-      "agents": [
-        "REGINALD",
-        "LIQUID"
-      ],
-      "feed_label": "bank-stress",
-      "origin": "google_news",
-      "level": "normal",
-      "keyword": null,
-      "entity": null,
-      "entity_info": null,
-      "escalation": null,
-      "watch_hits": [],
-      "classification": "NEW",
-      "suppressed": false,
-      "source_weight": 1
-    },
-    {
-      "title": "Cadence Bank stock: Moderate Buy consensus amid regional bank shifts",
-      "source": "AD HOC NEWS",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOQjNQWnR0Ul95RTBZcU1WXzdGR3BqNVVCNEYwX1ZqbWNyY3ZlejA4djVoUURVRzBHUXlDbU5mV1lZM1RJd0h3RzJSN3pYdGlYbjBIdWxzV2I5LTh2QXNMc09qeFhJWHJvOVdyMFlnd2lTOTJhRjMxa1JwNVhhUTNnVEltSndlMFZ3aEx2ckI1d0Q4SXF2OWNlNGwxdnpacmRZeXh5QTVGejNIZ0REWWt6U25zcGpPVHBtSnVDQ3d0RlVXLXhs?oc=5",
-      "published": "2026-04-03T10:54:35+00:00",
-      "agents": [
-        "REGINALD",
-        "LIQUID"
-      ],
-      "feed_label": "bank-stress",
-      "origin": "google_news",
-      "level": "normal",
-      "keyword": null,
-      "entity": null,
-      "entity_info": null,
-      "escalation": null,
-      "watch_hits": [],
-      "classification": "NEW",
-      "suppressed": false,
-      "source_weight": 1
-    },
-    {
-      "title": "SMBC to sell US commercial banking unit to regional bank",
-      "source": "Nikkei Asia",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNa0pycHF2RVd3MWl1UG1KRnZ3Ui1qS3ZKRkQ5MTc4ZWtOX0IyVFZGOVZOTGlaRlh3VmpqYm9JVWZEM09KT0VxQWs1OWJXckcwSl9HcHNKNmVEQ3FWZWJMUjVlRmJ0dzVyOGdtWFBXY3p2YUlOeHkySnBucVluNnpuVlg2dzdWRm1Rdnl0SFlNeXNSZ3BWbG5SaXpoMllJQll5TGZtXzBrVQ?oc=5",
-      "published": "2026-04-01T20:46:00+00:00",
-      "agents": [
-        "REGINALD",
-        "LIQUID"
-      ],
-      "feed_label": "bank-stress",
-      "origin": "google_news",
-      "level": "normal",
-      "keyword": null,
-      "entity": null,
-      "entity_info": null,
-      "escalation": null,
-      "watch_hits": [],
-      "classification": "NEW",
-      "suppressed": false,
-      "source_weight": 1
-    },
-    {
-      "title": "Korea's top 3 fintech platforms close in on leading regional bank",
-      "source": "KED Global",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA2RHk2QkVmbzlKZHo0cWhJOWRjOFVhVDRMS0hnYVNaNC1WNWYxZkxXME9uVERCSFQ5NFpteWFYbjJKZ1pGZktHUHMxZkRySTVfbzQzWXhKTGg0aU5ndVBWZDhLSW03ZG9aa01hX09ROUJSVi1n?oc=5",
-      "published": "2026-04-02T08:40:04+00:00",
-      "agents": [
-        "REGINALD",
-        "LIQUID"
-      ],
-      "feed_label": "bank-stress",
-      "origin": "google_news",
-      "level": "normal",
-      "keyword": null,
-      "entity": null,
-      "entity_info": null,
-      "escalation": null,
-      "watch_hits": [],
-      "classification": "NEW",
-      "suppressed": false,
-      "source_weight": 1
-    },
-    {
-      "title": "JPMorgan Chase & Co. Boosts Stake in 1st Source Corporation",
-      "source": "National Today",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMzhwdVdqZGpsN3hGNFlUSGJiY3JPbnRrcmxzV1oyd29iY2dtUG9XdG56VERFS0FtUGJqS3ltanhzR0NNNTZEMnZsVUdydEVjT2hXSTFMZmJoRmZVeVdyMG9vYWNSeWRMa2IxYUt4WVFvMEJ4REdTYjNzUzZkTnQtZ0RJejFuTkR1MkRPZFhQZUhMVzVnVENMNnA4M3IxSGhVaEtVSlplQnlGYVROeW5DS3NoV0xjYTg?oc=5",
-      "published": "2026-04-03T10:12:51+00:00",
-      "agents": [
-        "REGINALD",
-        "LIQUID"
-      ],
-      "feed_label": "bank-stress",
-      "origin": "google_news",
-      "level": "normal",
-      "keyword": null,
-      "entity": null,
-      "entity_info": null,
-      "escalation": null,
-      "watch_hits": [],
-      "classification": "NEW",
-      "suppressed": false,
-      "source_weight": 1
-    },
-    {
-      "title": "Citigroup Stock (C) Opinions on Regional Bank Acquisition Rumors",
-      "source": "Quiver Quantitative",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcTZBWFlGZ2gzb0VyR3d3VWR6TmlBYXhJUjM1MGd5LWxlWTdqZzdSN25mV1g1M0xZRVNfazNJSUQ4MmZrTEpCeG9GMnVVQjhrNEYyVi1WT2h2ZXRWWGJ2Z3Q5X3FjU051djBFMlE2Rnd5Smdyd3JpeFdqVWdtUGF3R1hIRWpzbXdmR0RZMlJNVGlZRkcxVGpzRjMweDRaZERibVpv?oc=5",
-      "published": "2026-03-30T14:04:00+00:00",
-      "agents": [
-        "REGINALD",
-        "LIQUID"
-      ],
-      "feed_label": "bank-stress",
-      "origin": "google_news",
-      "level": "normal",
-      "keyword": null,
-      "entity": null,
-      "entity_info": null,
-      "escalation": null,
-      "watch_hits": [],
-      "classification": "NEW",
-      "suppressed": false,
-      "source_weight": 1
-    },
-    {
-      "title": "Citigroup Denies Considering Acquisition of US Regional Bank or Brokerage",
-      "source": "PYMNTS.com",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZ0hMM1FpMm1paHZOak1kY09rdkh2TmJaSzdwRU9KLWcyQmQ0dXpNV2NlMFlaYmx0MXJxVHdBUVpFelBzTVRjVkpRUXVEX2dlMFdXOHlvNi1fSzA0V2pTV1Mxb0N0a1B6Q2xhZllEakx3TGJzb0c5YUpkRC10d29WdlB5SzJ5VDVMd2ZUMTViVTBGa29Db094akFzY0thWENwVjdFREdYRnlVdWFsbHJXdU56dnJxdw?oc=5",
-      "published": "2026-03-27T21:07:12+00:00",
-      "agents": [
-        "REGINALD",
-        "LIQUID"
-      ],
-      "feed_label": "bank-stress",
-      "origin": "google_news",
-      "level": "normal",
-      "keyword": null,
-      "entity": null,
-      "entity_info": null,
-      "escalation": null,
-      "watch_hits": [],
-      "classification": "NEW",
-      "suppressed": false,
-      "source_weight": 1
-    },
-    {
-      "title": "Citi Mulls Acquisition of US Regional Bank Major",
-      "source": "East & Partners",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMjJLUE80Uk1yVEljSndQNmk2Vm9hM3hPOWFEWVpoS1pUa3NpWWdTOG9McWIwTDBFc3E2SmpmbEZUNnZjSUVKbzBjLU1mRXVaTlYzVExERUlYTlZNRVBWcGJ6M2ZwUzJtak5PQkszc1FEeHdjVlFxQ2JVZm1zNkZ6MXRHMnpLQzFuNnc?oc=5",
-      "published": "2026-04-02T08:34:19+00:00",
-      "agents": [
-        "REGINALD",
-        "LIQUID"
-      ],
-      "feed_label": "bank-stress",
-      "origin": "google_news",
-      "level": "normal",
-      "keyword": null,
-      "entity": null,
-      "entity_info": null,
-      "escalation": null,
-      "watch_hits": [],
-      "classification": "NEW",
-      "suppressed": false,
-      "source_weight": 1
-    },
-    {
-      "title": "Citigroup Weighs Regional Bank Deal And Gold Clearing Role Undervaluation",
-      "source": "simplywall.st",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSFhFZHVLcmNMdU9xUnJBakZLUzBHVFpjS0VFdUhKU3Y2TVg5cVFUT1pWNlZveG5KbWI2bFY1UFM5MmdvQWtwOWNiUzY4d2NGaWJvVHRIdDhzOVl5UFpudmdjc1FaZDdhcnU5RGE2YVZwZTl0Q0dxTTA0cEh2RG9xd29CajNyYUZyWDlCTlhTZEJNLUZfZlFYc0VKSTFQZ3Y5Qk5lNWVLcXVRdEpON2NiZ3MzRlI5VzBNSnFVStIBwgFBVV95cUxPR0x3b3lxckFwd3RxeXJfdGo1UVpIeUJiTFB2RGR1MHJQNFJJUTRpLS1nOE1zWHlxd09SQWhxOVRQZlpZNnBUdE1fTjNzQmZfTHFZNVhVODFVTWVEWjAzUy1UWFItOXk5Z0ktdUVhaFEtRTV2aktSNTFBdks1RXVMYTBZRVlyUl9BdUdFbmNhUjhWY2hCU2RTQkFrcDdGOGVkZnRqWFFFb1ExUHlnRy00QWYybGlQeW1MYTZvcEFmYlFjZw?oc=5",
-      "published": "2026-03-28T04:26:48+00:00",
-      "agents": [
-        "REGINALD",
-        "LIQUID"
-      ],
-      "feed_label": "bank-stress",
-      "origin": "google_news",
-      "level": "normal",
-      "keyword": null,
-      "entity": null,
-      "entity_info": null,
-      "escalation": null,
-      "watch_hits": [],
-      "classification": "NEW",
-      "suppressed": false,
-      "source_weight": 1
-    },
-    {
-      "title": "Mobile Sports Betting Apps Drive Credit Card Delinquency Surge Among Borrowers",
-      "source": "BadCredit.org",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNa3F5aHFOWGVMT1FUZ0N4aDhrZ3pfVjRsdjE3ZU9OajM0a3diYWY0WnNRQThhVHBNODFLdmxlLUE0OXJWSDIxbFhrWm0wR1ZScFV6dENDVGdIWVduSEp4NXZXak5GeG9nYWZSM3FadS1RUWdiQkxad0VqREZaV3RBNGM5QXhWbjktU0FxNlp5Rnk?oc=5",
-      "published": "2026-03-31T00:00:00+00:00",
+      "title": "Credit Card Delinquency Rises to Highest Level Since 2011",
+      "source": "Statista",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5RY2dEaExMV05WcTFkaXFQV2ZLc0Y4T2J3Tk1iSTIxdUp6UDFJdktCcVNrcUVSN3BadTVJZm9PYk5FWUNWV3ltdGVmNzNmb084Q0FNLVIzUExaMzFaWDBjYTUxelA2N2JXUkx4cHI2c3N4RDVC0gF6QVVfeXFMTzNzckRMOC1iTmpWUkhlOWlFaXBWd0RKWXFSSEEzdFZtc3ZMLVZFd2dzajBwUlBXQzVEZWlOc3NrbzlLcWV2c3ItUU1VaDYwMU4wdzRldHRNR1JBWDhGLXlGMGNnbG83VmxqT3h0eUVyNkVjNXU0VXBvYkE?oc=5",
+      "published": "2025-12-04T08:00:00+00:00",
       "agents": [
         "CARL"
       ],
@@ -3176,10 +3175,10 @@
       "source_weight": 1
     },
     {
-      "title": "Credit Card Delinquency Rises to Highest Level Since 2011",
-      "source": "Statista",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5RY2dEaExMV05WcTFkaXFQV2ZLc0Y4T2J3Tk1iSTIxdUp6UDFJdktCcVNrcUVSN3BadTVJZm9PYk5FWUNWV3ltdGVmNzNmb084Q0FNLVIzUExaMzFaWDBjYTUxelA2N2JXUkx4cHI2c3N4RDVC0gF6QVVfeXFMTzNzckRMOC1iTmpWUkhlOWlFaXBWd0RKWXFSSEEzdFZtc3ZMLVZFd2dzajBwUlBXQzVEZWlOc3NrbzlLcWV2c3ItUU1VaDYwMU4wdzRldHRNR1JBWDhGLXlGMGNnbG83VmxqT3h0eUVyNkVjNXU0VXBvYkE?oc=5",
-      "published": "2025-12-04T08:00:00+00:00",
+      "title": "Mobile Sports Betting Apps Drive Credit Card Delinquency Surge Among Borrowers",
+      "source": "BadCredit.org",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNa3F5aHFOWGVMT1FUZ0N4aDhrZ3pfVjRsdjE3ZU9OajM0a3diYWY0WnNRQThhVHBNODFLdmxlLUE0OXJWSDIxbFhrWm0wR1ZScFV6dENDVGdIWVduSEp4NXZXak5GeG9nYWZSM3FadS1RUWdiQkxad0VqREZaV3RBNGM5QXhWbjktU0FxNlp5Rnk?oc=5",
+      "published": "2026-03-31T00:00:00+00:00",
       "agents": [
         "CARL"
       ],
@@ -3216,10 +3215,10 @@
       "source_weight": 1
     },
     {
-      "title": "Credit Card Delinquency Increased More In This Bay Area City Than Anywhere In The U.S.",
-      "source": "MSN",
-      "url": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxNSnlHWHc4S2NxTlJiamZ5R09Jc2M2bEI1TzNHa1JJLXY5b2xoS2dvdUoxLUhsQ2Z4aWJ3OHc5OUo0bXdkU1BGSE1NbnhRaEFqTVljMk04MktYWFR0bFc5NWVBNkpWMlRpeE44aUUyU3JkZGpQVEFZcVNaX1owSFNXNXllemxpNjg1SW9YNEFzWUwtU1VGbFBUa21HcDREVm1xSnk3cjhCVjREUDVfRk4zM3VkVW8yc1lyNk1IaWZPYmVGWG5PZHNrdWVPOHNzaTBpTUNMYWQ0TWJxU0hOTXpad1dEMXJSZk1JRmpyd3lwSWtOTkdKZEFXbzZRRzVCcjF6R1AzQnlsX0o3dUg1QzZOYWNyXzdQV1BNUHJFOXhUdl85WVRTUUhmWFRONWg2NUEwZDRkVXhNd1JUdUtDTTVEajI2c294eERIQWFhZUUwZ1pTQkQyd1hQd3VCX0dBVGJfV1JCZDF3?oc=5",
-      "published": "2026-03-28T03:51:02+00:00",
+      "title": "Auto Loan Delinquencies Hit 15-Year High",
+      "source": "Bankrate",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB3VDFvRTBqcGxSUzVfbHhRZWZPU2RSaFFLZWhqejhiWkRqVFc1UC11NDdVeFloV2NJZU5JR3JhLWdwNjEyNlA5V0Uwc1NvNlFSQ3Q1cUpUQ3VCSmZMTUowS2x5VVBMRTdwWmRSdXFWNExmZnBrVHBRdUhtX2I?oc=5",
+      "published": "2025-12-04T08:00:00+00:00",
       "agents": [
         "CARL"
       ],
@@ -3236,10 +3235,50 @@
       "source_weight": 1
     },
     {
+      "title": "Auto delinquencies climb as lower-income Americans struggle with car payments",
+      "source": "CBT News",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNeEZRY1lTckZEWUFzX3BrcU5kTFpLUjR2cXAwRlNldjJXQ2dLYkl4RlJhSGZWV2VCMUd0U3ZpUFdwdXl2QkJWdHMxLXBVVWJUaWl5ZVd4SVVfNFBsVEJRLVJRVVpPMkZYTU5YdS1fVmhJc2wxMi1lc0V0eEZsZE1lMHd6UDlBYjhtVFlDSzhtQWhOVm5jT2lERGxiemFCQVB0UWtCOQ?oc=5",
+      "published": "2025-10-22T07:00:00+00:00",
+      "agents": [
+        "CARL"
+      ],
+      "feed_label": "consumer-stress",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Gold Romanian Helmet Recovered After Explosive Heist at Dutch Museum",
+      "source": "Artnet News",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVU5UNmI4bnpGRGxXX0VzZVlLc2oxM3VaeV9pZk1tSUFYMmJtTXhhYXM2bXdqMmk5eFZhWEJmY0FRbFI2Z01hZXY0X1Y4OUxVa2tFUWtQSDc4bmdjMm9tUlZhZ0owbVRFTjB4Y1pJMFBJb1FzcU03ODlGRUVvcFZpUlBGMlE0LXM0TVlRYUtKZ1NVUdIBmgFBVV95cUxPLS1RSzBIMkFuT3hrUUFMYVAwSkh4UF9rRF81UGxmWFlocGhkZ3QxdXJ0a0tkUHQtMFpfZWRkRUxFZjVnQU9WV0wxYjQza2d4ZHV1RDV5WjB2WEgzaDVybG5EZGV4ckdVZlhLMEp1UURxME5udmtTdG9kTF9DZGZGT2Q1QlltOFRjWEQwRFBpUzJubW41RDg1VFhR?oc=5",
+      "published": "2026-04-02T21:09:17+00:00",
+      "agents": [
+        "REGINALD"
+      ],
+      "feed_label": "position-banks",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
       "title": "Today&#x27;s Top Stories",
       "source": "ZeroHedge",
       "url": "",
-      "published": "2026-04-03T14:19:52.270366+00:00",
+      "published": "2026-04-05T16:41:03.412357+00:00",
       "agents": [
         "ALL"
       ],
@@ -3256,10 +3295,10 @@
       "source_weight": 1
     },
     {
-      "title": "They&#x27;re DONE Funding the U.S.",
+      "title": "Trump Rages At Iran: \u201cOpen the F***in\u2019 Strait\u201d",
       "source": "ZeroHedge",
-      "url": "https://www.zerohedge.com/news/2026-04-02/theyre-done-funding-us",
-      "published": "2026-04-03T14:19:52.270391+00:00",
+      "url": "https://www.zerohedge.com/news/2026-04-05/trump-rages-iran-open-fin-strait",
+      "published": "2026-04-05T16:41:03.412379+00:00",
       "agents": [
         "ALL"
       ],
@@ -3276,10 +3315,10 @@
       "source_weight": 1
     },
     {
-      "title": "Trading Through Week Five Of Epic Fury",
+      "title": "Gold&#x27;s Next Leg\u2014 The 1970s Playbook is Back",
       "source": "ZeroHedge",
-      "url": "https://www.zerohedge.com/news/2026-04-02/trading-through-week-five-epic-fury",
-      "published": "2026-04-03T14:19:52.270400+00:00",
+      "url": "https://www.zerohedge.com/news/2026-04-05/golds-next-leg-1970s-playbook-back",
+      "published": "2026-04-05T16:41:03.412386+00:00",
       "agents": [
         "ALL"
       ],
@@ -3296,10 +3335,10 @@
       "source_weight": 1
     },
     {
-      "title": "March Jobs Shocker: Payrolls Soar By 178K Most Since 2024, Blowing Away All Estimates; Unemployment Rate Drops",
+      "title": "'Open The F**kin' Strait': Trump Threatens To 'Blow Everything Up' If No Iran Deal By Tuesday",
       "source": "ZeroHedge",
-      "url": "https://www.zerohedge.com/economics/march-jobs-shocker-payrolls-soar-178k-most-2024-blowing-away-all-estimates-unemployment",
-      "published": "2026-04-03T14:19:52.270404+00:00",
+      "url": "https://www.zerohedge.com/energy/iea-heads-warns-panic-hoarding-asia-trump-tells-iran-open-fckin-strait",
+      "published": "2026-04-05T16:41:03.412389+00:00",
       "agents": [
         "ALL"
       ],
@@ -3316,10 +3355,10 @@
       "source_weight": 1
     },
     {
-      "title": "Why Are They So Obsessed With This?",
+      "title": "Hartnett: The Four \"C\" Trades For When The War Ends",
       "source": "ZeroHedge",
-      "url": "https://www.zerohedge.com/political/why-are-they-so-obsessed",
-      "published": "2026-04-03T14:19:52.270414+00:00",
+      "url": "https://www.zerohedge.com/markets/hartnett-four-c-trades-when-war-ends",
+      "published": "2026-04-05T16:41:03.412391+00:00",
       "agents": [
         "ALL"
       ],
@@ -3336,10 +3375,10 @@
       "source_weight": 1
     },
     {
-      "title": "Hegseth Ousts Chief Of The Army As Iran War Persists",
+      "title": "DOE FY27 Budget Requests $45 Billion in Nuclear Funding",
       "source": "ZeroHedge",
-      "url": "https://www.zerohedge.com/military/hegseth-ousts-chief-army-iran-war-persists",
-      "published": "2026-04-03T14:19:52.270416+00:00",
+      "url": "https://www.zerohedge.com/energy/doe-fy27-budget-requests-45-billion-nuclear-funding",
+      "published": "2026-04-05T16:41:03.412399+00:00",
       "agents": [
         "ALL"
       ],
@@ -3356,10 +3395,10 @@
       "source_weight": 1
     },
     {
-      "title": "Cash Is King, Dowd Sees $10,000 Gold As The Credit Market \"Is Starting To End The Party\"",
+      "title": "Eisen Vs Every 'Trumper': There Is Quite A Battle Shaping-Up...",
       "source": "ZeroHedge",
-      "url": "https://www.zerohedge.com/markets/cash-king-dowd-sees-10000-gold-credit-market-starting-end-party",
-      "published": "2026-04-03T14:19:52.270419+00:00",
+      "url": "https://www.zerohedge.com/political/there-quite-battle-shaping",
+      "published": "2026-04-05T16:41:03.412401+00:00",
       "agents": [
         "ALL"
       ],
@@ -3376,10 +3415,10 @@
       "source_weight": 1
     },
     {
-      "title": "US Futures Drop Ahead Of Payrolls With Most Markets Closed",
+      "title": "Global Plastics Supply Chains Further Pressured As Abu Dhabi Petrochemicals Plant \"Suspended\" After Attack",
       "source": "ZeroHedge",
-      "url": "https://www.zerohedge.com/markets/us-futures-drop-ahead-payrolls-most-markets-closed",
-      "published": "2026-04-03T14:19:52.270425+00:00",
+      "url": "https://www.zerohedge.com/commodities/abu-dhabi-petrochemicals-plant-suspended-after-attack-threatening-global-plastics",
+      "published": "2026-04-05T16:41:03.412403+00:00",
       "agents": [
         "ALL"
       ],
@@ -3396,50 +3435,10 @@
       "source_weight": 1
     },
     {
-      "title": "March Payrolls Preview: A Substantial Bounce",
+      "title": "The Reflexive Rally Was Not Surprising",
       "source": "ZeroHedge",
-      "url": "https://www.zerohedge.com/markets/march-payrolls-preview-substantial-bounce",
-      "published": "2026-04-03T14:19:52.270428+00:00",
-      "agents": [
-        "ALL"
-      ],
-      "feed_label": "zerohedge",
-      "origin": "web",
-      "level": "normal",
-      "keyword": null,
-      "entity": null,
-      "entity_info": null,
-      "escalation": null,
-      "watch_hits": [],
-      "classification": "NEW",
-      "suppressed": false,
-      "source_weight": 1
-    },
-    {
-      "title": "Iran Attacks Kuwaiti Desalination Plant, Bringing Gulf Water Supplies Into Focus",
-      "source": "ZeroHedge",
-      "url": "https://www.zerohedge.com/energy/iran-attacks-kuwaiti-desalination-plant-bring-gulf-water-supplies-focus",
-      "published": "2026-04-03T14:19:52.270431+00:00",
-      "agents": [
-        "ALL"
-      ],
-      "feed_label": "zerohedge",
-      "origin": "web",
-      "level": "normal",
-      "keyword": null,
-      "entity": null,
-      "entity_info": null,
-      "escalation": null,
-      "watch_hits": [],
-      "classification": "NEW",
-      "suppressed": false,
-      "source_weight": 1
-    },
-    {
-      "title": "Stocks Up, Bonds Up, Oil Up As Trump-Tehran Tantrum Escalates Into Easter Weekend",
-      "source": "ZeroHedge",
-      "url": "https://www.zerohedge.com/markets/crude-credit-crypto-crazy-usrael-iran-trade-threats-long-weekend",
-      "published": "2026-04-03T14:19:52.270434+00:00",
+      "url": "https://www.zerohedge.com/markets/reflexive-rally-was-not-surprising",
+      "published": "2026-04-05T16:41:03.412406+00:00",
       "agents": [
         "ALL"
       ],
@@ -3457,19 +3456,18 @@
     }
   ],
   "suppressed_summary": {
-    "Blue Owl": 14,
-    "Brent": 2,
-    "Hormuz": 12,
-    "OPEC": 1,
-    "BOJ": 5,
-    "ARES": 11,
-    "ICE": 6,
-    "Oracle": 8,
-    "WAL": 9,
-    "Apollo": 18,
-    "JGB": 1,
-    "Blackstone": 1,
-    "SOFR": 4,
-    "OZK": 5
+    "Blue Owl": 12,
+    "Brent": 1,
+    "Hormuz": 15,
+    "OPEC": 3,
+    "BOJ": 6,
+    "ARES": 9,
+    "WAL": 7,
+    "Apollo": 26,
+    "ICE": 10,
+    "Oracle": 6,
+    "SOFR": 2,
+    "OZK": 6,
+    "KRE": 1
   }
 }

@@ -1,44 +1,57 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-04-04 06:00 ET
+**Last Updated:** 2026-04-05 19:45 ET
 
 ## What Just Happened
-Saturday morning session with Will. NEXUS architecture overhaul — 4 tasks completed:
-1. STATUS.md: 136→100 lines. 25→16 active convergences (7 confirmed → new CONFIRMED.md, 2 merged). Proposals removed (→ TOSCANINI/QUEUE). Pass history collapsed to KEY FINDINGS.
-2. SIGNALS.md: ~90→37 lines. 30 signals archived with convergence mappings. 5 active remain.
-3. Folder restructure: deleted INBOX.md + OUTBOX.md (folder-only now). Flattened domain/ → research/, signals_archive/, archive/ at root. Aligned to SAM's pattern.
-4. CLAUDE.md updated: spawn protocol reads CONFIRMED.md, lifecycle rules documented, file ownership table expanded.
+Sunday evening session with Will. Context compaction preceded by memory flush. Key outputs:
 
-Then updated Prome files: TODAY.md, HEARTBEAT.md, STATUS.md, SCRATCH.md.
+1. **Memory flushed** — `memory/2026-04-05.md` created with today's research captures (OFR Brief, Norinchukin, Systemic Intersections, GSE analysis, position decisions refined, Iran/Hormuz context)
 
-NEXUS Pass 12 spawned and running.
+2. **Options research library built** — 7 core papers sourced with direct PDF links:
+   - Israelov (2017): "Pathetic Protection" — SSRN direct PDF
+   - Israelov & Tummala (2018): "Being Right is Not Enough" — SSRN/AQR
+   - Pan & Poteshman (2006): "Information in Option Volume" — MIT direct PDF
+   - Bakshi & Kapadia (2003): "Delta-Hedged Gains" — UMass direct PDF
+   - Bollerslev et al. (2009): "Variance Risk Premia" — Duke direct PDF
+   - Xing et al. (2010): "Volatility Smirk" — Tsinghua/Cambridge direct PDF
+   - Gârleanu et al. (2009): "Demand-Based Option Pricing" — Pedersen direct PDF
+   
+   Saved to: `FORGE/education/OPTIONS_RESEARCH_PAPERS.md`
+
+3. **Git workflow completed** — Push conflicts resolved. Research files committed.
 
 ## Immediate State
-- **Saturday. Markets closed.**
-- **NEXUS Pass 12 running** — 8 inbox items, first pass in 9 days. Will auto-announce.
-- **Prome files refreshed** — TODAY, HEARTBEAT, STATUS all current.
+- **Sunday evening. Markets closed. Futures open ~6 PM ET.**
+- **Iran pause expires today** — gap risk for Sunday open
+- **HY OAS 316** (stale) — Monday print adjudicates RED debate R4
+- **APO $107** — below $113 stop, decision pending Monday
+- **HYG $75P Jun (8 contracts)** — reduce to 4 if HY OAS 305-320, exit if <300, hold if >340
 
 ## Next Actions
-1. **Wait for NEXUS Pass 12 completion** — review output, update STATUS.md NEXUS row.
-2. **Sunday evening: Monitor Iran pause expiry (Apr 6) + futures open ~6 PM ET.**
-3. **Monday priorities:**
-   - APO decision (below $113 stop, at $107)
+1. **Monitor futures open tonight** (~6 PM ET) for Iran/Hormuz resolution impact
+2. **Monday priorities:**
+   - APO decision: roll to Jun/Jul or cut the Apr 17 puts
+   - HY OAS print check — execute HYG position rules
    - KRE Jun→Dec roll pricing
-   - News sweep cron verification (8:30 AM)
    - RED check-in (9 days stale)
    - HANS check-in (9+ days stale)
 
 ## Pending / Unresolved
 - RED 9+ days stale — check-in needed Mon
 - HANS 9+ days stale — check-in needed Mon
-- DARWIN 44+ days stale — archive candidate (propose formally)
-- BROCK batches 2-3 unprocessed (inbox from Apr 2)
+- DARWIN 44+ days stale — archive candidate
+- BROCK batches 2-3 unprocessed
 - Calendar sync broken (Google OAuth)
 - News sweep v2 — evaluate Apr 10+ after 1 week of v1 data
 - ORACLE agent — never spawned
 
+## Reading Queue for Next Session
+- **Priority 1:** Israelov (2017) + (2018) — position sizing and monetization framework
+- **Priority 2:** Pan & Poteshman (2006) — informed flow detection
+- **Priority 3:** Bakshi & Kapadia (2003) — VRP mechanics for roll decisions
+
 ## Don't Forget
+- APO stop breach: at $107 vs $113 stop — binary decision Monday
+- HY OAS threshold: 305-320 = reduce, <300 = exit, >340 = hold
+- KRE rolls: price Jun→Dec before OZK earnings (Apr 16)
 - Eric Jackson timeline: May-Aug = thesis confirms or breaks
 - Fed breakeven job growth = ZERO
-- PC now Stage 3 confirmed (Congress CRS report, ECB/BOE emergency scenarios)
-- Athene #2 FHLB borrower ($23.3B) — SHADE should know
-- CARL: CMBS DQ at ATH — CARL/REGINALD should know
