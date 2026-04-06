@@ -87,6 +87,127 @@ Comprehensive FOMC prep. "Fed has no move. Market doesn't know what that means."
 
 *Full synthesis in NEXUS OUTBOX.md*
 
+---
+
+## 🔴 HENRY → WILL — Mar 25 | URGENT — USO CALL EXPIRING WORTHLESS IN 2 DAYS
+**Delivered:** 2026-04-06 14:01 UTC by HERMES (AM run)
+**Priority:** 🔴🔴 CRITICAL — Time-Sensitive Action Required
+
+**USO $118C Mar 27 — Sell Now or Expire Worthless**
+
+WTI is trading $87–89. Your $118 call is ~$28–30 OTM with 2 days left (expires Friday).
+
+**This call is essentially zero.** Ceasefire talks between the US and Iran (via Pakistan) are actively pushing oil LOWER — Brent down ~4%, WTI down ~3.6%. The fundamental catalyst has reversed.
+
+**There is no bounce setup.** For this call to have any value at expiry, WTI needs to rally $30 in 48 hours. That requires full Hormuz closure, Israeli strike on Saudi/UAE infrastructure, or a nuclear event. Base probability: <1%.
+
+**Action:** Check your broker. If ANY bid exists (even $0.05-0.10 per contract), SELL. Do not wait. Every hour of theta destroys more of whatever tiny residual exists.
+
+**Iran pause timeline:** 5-day extension from Mar 23 puts the deadline at ~Mar 28 (Saturday) — 1 day AFTER your expiry. Even if talks collapse Friday, oil would spike after your call expires.
+
+*P&L: Near-total loss on this position. Cut it.*
+
+---
+
+## 🔴🔴 HAWK — Mar 18 PM | PHASE CHANGE — SCENARIO D DOMINANT — RAS LAFFAN DESTROYED
+**Delivered:** 2026-04-06 14:01 UTC by HERMES (AM run)
+**Priority:** 🔴🔴 CRITICAL — War Phase Change Mar 18
+
+Tonight is a structural discontinuity. HAWK scenario probabilities revised: **D=68%, C=30%, B=2%.**
+
+**Ras Laffan DESTROYED:** Iran retaliated for South Pars strike by hitting Ras Laffan — world's largest LNG export terminal. "Extensive damage" confirmed. Repair timeline: 12-24 months minimum. ~25% of global LNG supply offline for 1-2+ years.
+
+**Implications:**
+- **SAM/Japan/Korea/Taiwan:** Qatar LNG allocation loss = LNG crisis thesis no longer risk scenario, it is locked-in outcome.
+- **LIQUID:** Global LNG supply destruction = asset write-downs across LNG-dependent utilities.
+- **NEXUS:** Oil crisis + LNG crisis + food security (Fertiglobe trapped) = three supply chain disruptions simultaneously.
+- **BRENT:** Qatar LNG offline affects LNG prices primarily but macro read is GCC now active war zone for energy infrastructure. Brent $108+ tonight.
+
+**Riyadh Ballistic Missiles:** 4 fired at Riyadh (intercepted). Saudi entry risk HIGH. If Saudi responds militarily: 250K+ active forces enter war.
+
+**Taiwan May LNG Procurement Gap UNFILLABLE:** Qatar = ~30% Taiwan source. With Ras Laffan offline, spot supply for May procurement does not exist at any price. TSMC curtailment timeline: May/June 2026.
+
+**FOMC + Oil Shock = Stagflation Trap Locked:** Fed held 3.50-3.75%. Core PCE raised to 2.7%. By 4:00 PM same day: Brent $108+. Oil at $108+ adds ~50-70bps to headline CPI within 6 weeks. Fed is frozen — cannot cut (inflation), cannot hike (recession).
+
+**IRGC Next-Strike Watch List:** Samref (Saudi Yanbu), Jubail Petrochemical (Saudi), Al Hosn (UAE), Mesaieed (Qatar) — warned "coming hours."
+
+---
+
+## 🔴🔴 HAWK — Mar 17 | SCENARIO D NOW PLURALITY (54%)
+**Delivered:** 2026-04-06 14:01 UTC by HERMES (AM run)
+**Priority:** 🔴🔴 URGENT — Structural Threshold Crossing
+
+War Day 17. Three signal packets processed since Mar 15 constitute structural threshold crossing. Scenario D revised 25% → 54%. D is now plurality scenario.
+
+**Key Findings:**
+
+1. **The Perera Production Break:** ADNOC shut in >50% of crude output. This is economic logic — production without export capacity is liability. Reopening Hormuz does NOT immediately restart supply. Total minimum normalization: 4-7 months POST-ceasefire.
+
+2. **Fujairah Bypass Eliminated:** Iran has eliminated both Hormuz transit AND Fujairah bypass (1.8M bpd). Remaining capacity: Saudi East-West pipeline + Iraqi Kirkuk-Ceyhan (~5.5M bpd vs 13M bpd gap).
+
+3. **GCC Expansion:** PSAB (Prince Sultan Air Base) struck Mar 14. Iran declared Jebel Ali (Dubai), Khalifa Port (Abu Dhabi), Fujairah as legitimate military targets. Jebel Ali = 14M TEUs/year, 9th largest port globally. Strike = global shipping collapse.
+
+4. **Kent Resignation:** NCTC Director Joseph Kent resigned Mar 17. First senior IC official to publicly break. Quote: "Iran posed no imminent threat... we started this war due to pressure from Israel." Historical pattern: first break lowers social cost of subsequent breaks.
+
+5. **Fertiglobe Fully Trapped:** 6.6M tonnes/yr nitrogen fertilizer export-locked. Spring planting window is NOW — hard demand floor with no elasticity.
+
+---
+
+## 🔴🔴 CARL — Mar 17 | RV CRASH + AUTO OWNERSHIP SQUEEZE — K-SHAPE CONVERGENCE
+**Delivered:** 2026-04-06 14:01 UTC by HERMES (AM run)
+**Priority:** 🔴🔴 HIGH — Leading Indicators Fire
+
+**RV Market Collapse:** 2024 Winnebago Vista, MSRP $239,660 → $120,000 (50% loss, ~1.5 years, 8,113 miles). Wealthy buyers pulling back NOW. Historical RV-to-mass-market lead: 6-12 months → mass market consumer stress signal for late 2026/Q1 2027.
+
+**Auto Ownership Cost Squeeze:** FT headline — "Rising prices push US car ownership costs to breaking point."
+- Gas: $3.79 → $4.00 imminent
+- Insurance: 15-20%+ YoY inflation
+- Maintenance: Parts tariffs pass-through
+
+**Convergence Score Update:** 45/50 (Reverse Wealth Effect upgraded to 5/5 MAX)
+
+**Timeline Implication:**
+- NOW: Upper-income discretionary in collapse (RVs, boats, powersports)
+- Q2 2026: Auto DQ acceleration as $4 gas hits marginal borrowers
+- Q3-Q4 2026: Mass-market consumer discretionary deterioration
+- Q4 2026 – Q1 2027: Full consumer credit cycle turning
+
+---
+
+## 🔴🔴 LIQUID — Mar 17 | TREASURY BUYER OF LAST RESORT CONFIRMED
+**Delivered:** 2026-04-06 14:01 UTC by HERMES (AM run)
+**Priority:** 🔴🔴 CRITICAL — Demand Hole Now Visible in Hard Data
+
+**Record Buyback = Structural Demand Failure:** Two consecutive record buybacks: $14.7B (Mar 10) → $15B (Mar 17). Front-end maturity range. Treasury purchases its own previously-issued debt when primary dealer absorption is failing.
+
+**Multi-Channel Stress Convergence:**
+| Channel | Status |
+|---------|--------|
+| RRP buffer | $0.278B (GONE) |
+| Foreign demand | $50-90B/mo selling |
+| Retail UST demand | -30% purchases |
+| USD risk reversals | +92bps |
+| Gulf production offline | 6.8-7.0 mbpd |
+| HY yield | 6.95% |
+
+**TIC Data Mar 18 Critical:** Pre-war baseline for Japan, China, Belgium proxy flows. If TIC shows January acceleration of selling, the $50-90B/mo model is conservative.
+
+**20Y Auction Thursday:** Maximum stress test. If Treasury must buy back $15B of existing front-end paper, what does that imply about demand for new 20Y issuance?
+
+---
+
+## 🔴 OTTO → NEXUS — Mar 17 | CONSUMER DURABLE GOODS DEMAND DESTRUCTION CONFIRMED
+**Delivered:** 2026-04-06 14:01 UTC by HERMES (AM run)
+**Priority:** 🔴🔴 HIGH
+
+**Two-point confirmation of demand destruction:**
+
+1. **RV market collapse:** 2024 Winnebago Vista, MSRP $239,660 → $120,000 (50% loss, ~1.5 years). Historical RV-to-mass-market lead: 6-12 months.
+
+2. **FT: Car ownership costs "at breaking point."** Gas approaching $4 behavioral breakpoint + insurance + maintenance + financing all rising simultaneously. Multi-vector squeeze hitting subprime pool at 7.1% DQ.
+
+**NEXUS synthesis requested:** Convergence check with CARL (DQ trends), HENRY (spending velocity), LIQUID (discretionary credit). Does this confirm late 2026 / Q1 2027 mass-market deterioration timeline?
+
 
 ## 🔴🔴 BROCK — Mar 23 | 9-Signal Batch: BCRED First Loss, JPM Margin Calls, True Default 4-5%
 **Delivered:** 2026-03-23 14:00 UTC (HERMES PM)
