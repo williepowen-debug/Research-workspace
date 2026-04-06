@@ -1,5 +1,19 @@
 # BROCK STATUS — Private Credit / BDC / Alt Assets
-**Updated:** 2026-04-02 19:10 ET | **Status:** 🔴🔴🔴🔴🔴 STAGE 2→3 ACCELERATING — PEBBLES II + 46 NON-ACCRUALS + 24.4% PIK + CROSS-FUND OPACITY + BLACKSTONE REFUSES A&E + DOWD NDFI CONFIRMED
+**Updated:** 2026-04-06 16:15 ET | **Status:** 🔴🔴🔴🔴🔴 STAGE 2→3 CONTINUED — BARINGS GATES + 12TH FUND + GOLDMAN OUTLIER + DIMON PC WARNING
+
+---
+
+## 🔴🔴 CRITICAL: BARINGS GATES — 12TH FUND (Apr 6, 2026)
+
+**Barings Private Credit Corp** ($4.9B): **11.3% redemption requests** Q1 — capped at 5%. This is the **12th fund gate** in the cycle, following Blue Owl's dual gate Thursday.
+
+**Key details:**
+- Filed Monday morning (Apr 6) — fresh gate, not stale news
+- 11.3% requests = 2.3x the 5% cap, leaving ~$310M trapped (vs $6.1B+ at Blue Owl, but pattern matters more than size)
+- Barings is MassMutual-owned ($400B+ AUM), not a PE-affiliated captive — this broadens the gate pattern beyond the Apollo/Ares/KKR/Blackstone/Blue Owl complex
+- AI/software fears cited as driver (same narrative as Blue Owl OTIC)
+
+**What changed:** Gates are no longer concentrated in PE-affiliated managers. MassMutual's Barings gating means **institutional diversification is failing** — the redemption cascade has reached traditional insurance-owned asset managers. This is a Stage 2→3 transmission signal, not just a PE-captive problem.
 
 ---
 
@@ -76,6 +90,9 @@ Total trapped capital across ALL industry gates: **>$10B** (prior $4.6B + $7.3B 
 | **🆕🔴🔴 Cross-fund overlap destroys diversification** | GBDC+GSBD (Golub+Goldman): 192 identical companies, correlation 0.79. CGBD+ORCC (Carlyle+Blue Owl): 128 identical companies. "10,210 Holdings. 424 Companies in Multiple Funds. 33 Cents on the Dollar." | 🔴🔴 NEW | Eric Jackson Apr 2 |
 | **🆕🔴 Blackstone refuses Medallia/Thoma Bravo A&E** | Bloomberg confirmed: BX-led PC group refused to extend another lifeline to Medallia (Thoma Bravo). Largest PC player saying NO to A&E = cost of forbearance exceeds cost of recognition. Stage 3 extend-and-pretend breakdown. | 🔴 NEW | Bloomberg Apr 2 |
 | **🆕🔴 Dowd NDFI chart** | Phinance chart: 2024→ "All other loans" (= NDFI/PC/fund finance) became ONLY driver of commercial bank credit growth. "All marginal credit growth 24 & 25 went to NDFIs. That part under duress. Negative feedback loops engaged." Confirms $1.411T NDFI Q4 finding. | 🔴 NEW | @DowdEdward (ex-BlackRock PM) Apr 1 |
+| **🆕🔴 Barings gates** | 11.3% redemption requests, capped at 5%. 12th fund gate. MassMutual-owned (not PE-affiliated) — broadens contagion beyond captive insurer complex. | 🔴🔴 NEW | Bloomberg/Reuters Apr 6 |
+| **🆕🟢 Goldman Sachs outlier** | Only non-traded BDC with repurchase requests BELOW 5% quarterly cap. "We believe these results highlight the strong position of GS Credit relative to the broader non-traded BDC industry." | 🟢 NEW | Reuters/BNN Bloomberg Apr 6 |
+| **🆕🔴 Dimon annual letter** | Jamie Dimon: private credit + AI job losses + Iran war = major US risks. "The skunk at the party — and it could happen in 2026 — would be inflation slowly going up." PC mentioned alongside systemic threats. | 🔴 NEW | NYT/Dealbook Apr 6 |
 | **🆕🟠 BDC NAV acceleration table (UNSOURCED)** | Every fund accelerated Q4→Q1: OTIC -15.4%→-40.7% (2.6x), OCIC -5.2%→-21.9% (4.2x), Cliffwater -5.5%→-14.0% (2.5x), Apollo Debt -4.8%→-11.2%, Ares Strategic -5.8%→-11.6%, BX PC -4.5%→-7.9%, HPS -4.1%→-9.3%, FSK -0.6%→-6.3% (10.5x!), MS NH -5.3%→-10.9%. Avg 2-3x acceleration. ⚠️ UNSOURCED — plausible but unverified vs SEC filings. | 🟠 NEW ⚠️ | Unattributed spreadsheet Apr 2 |
 | **🆕🟠 Cliffwater 219% redemption requests Q1 (UNVERIFIED)** | 219% of shares requested withdrawal Q1 — 10x Blue Owl OTIC. CIO Nesbitt compared himself to Steve Jobs being fired from Apple. ⚠️ EXTRAORDINARY CLAIM — single source, needs Cliffwater quarterly report / SEC filing. | 🟠 NEW ⚠️ | @NickNemo17 (Nick Nemeth) Apr 2 |
 | **🆕🟠 Treasury buyback 2.87x oversubscribed** | BFS: max $15B par; holders offered $43.1B; accepted $15B (maxed). 05/15/2026–03/31/2028 maturities. Holders eager to shed = balance sheet stress signal. | 🟠 NEW | Treasury BFS Apr 1 |
@@ -135,6 +152,7 @@ Total trapped capital across ALL industry gates: **>$10B** (prior $4.6B + $7.3B 
 | ARES Strategic | Ares | $10.7B | 11.6% | 5% | ~$660M | Mar 24 |
 | MS North Haven | Morgan Stanley | — | 10.9% | 5% (45.8% met) | — | Mar 2026 |
 | Cliffwater | Cliffwater | $33B | 7%→14% | 7% (selling $1B) | — | Mar 2026 |
+| **Barings PCC** | **Barings/MassMutual** | **$4.9B** | **11.3%** | **5%** | **~$310M** | **Apr 6** |
 | **OCIC** | **Blue Owl** | **$36.0B** | **21.9% ($7.9B)** | **5% (~$1.8B)** | **~$6.1B** | **Apr 2** |
 | **OTIC** | **Blue Owl** | **$3.3B** | **40.7% ($1.3B)** | **5% (~$165M)** | **~$1.2B** | **Apr 2** |
 | OBDC II | Blue Owl | $1.6B | **Permanent freeze** | 0% | $1.6B | Feb 19 |
@@ -147,11 +165,13 @@ Total trapped capital across ALL industry gates: **>$10B** (prior $4.6B + $7.3B 
 
 | Position | Value | Thesis | Key Metric | Next Catalyst |
 |----------|-------|--------|------------|---------------|
-| APO $100P Apr 17 | ~$180 | **HOLD to Apr 7, stop $113.** APO at $110.52. | Class action + 11.2% gating | Apr 7 hard stop |
+| APO $100P Apr 17 | ~$180 | **EXPIRED Apr 4.** APO at $106.19 (below $113 stop). | Class action + 11.2% gating | Expired worthless — thesis timing off by days |
 | APO $100P Jun 18 | ~$590 | CONFIRMED. May 1 lead plaintiff. | Feldman v. Apollo (SDNY) | May 1 deadline |
 | APO $95P Dec | ~$920 | Full thesis runway. | Stage 2→3→4 timeline | Q2-Q3 cascade |
 | ARES $95P Jun 18 | ~$890 | CONFIRMED. 11.6% gating. | Non-accrual >2.2% = add | Q1 earnings late Apr/May |
 | OWL $9.5P Apr 2 | **EXPIRED** | ✅ Was ITM $0.84 at expiry. Dual gate news confirmed legs. | Outcome: exercise vs sell — confirm with Will | — |
+
+**Price check Apr 6, 4:15 PM ET (Market Close):** APO $106.11 (-0.86%), ARES $103.06 (+0.62%), OWL $8.44 (-1.52%), KRE $66.21 (+0.33%), BIZD $12.31 (+1.69% dead-cat), HY OAS 313bps (tightened from 316), VIX 24.54
 
 ---
 

@@ -1,6 +1,6 @@
 # SAM STATUS
 
-**Signal Status:** 🔴🔴 ELEVATED — **ESCALATION RESUMED + 30Y AUCTION MONDAY** | USD/JPY **~160** (back at intervention trigger) | FXY **$57.54** | Brent **~$109** (war premium back, +8% Fri) | JGB 10Y **~2.39%** | JGB 30Y **~3.68%** | CARRY UNWIND 7D: **80%** | **Last Updated:** 2026-04-05 23:30 UTC
+**Signal Status:** 🔴🔴 ELEVATED — **USD/JPY 159.70 AT INTERVENTION THRESHOLD** | FXY **$57.54** | Brent **~$109** | JGB 10Y **~2.39%** | JGB 30Y **~3.68%** | CARRY UNWIND 7D: **80%** | **Last Updated:** 2026-04-06 16:15 ET
 
 ---
 
@@ -64,16 +64,94 @@ Analyst consensus shifting: 162-164 now cited as actual intervention trigger (Tr
 
 ---
 
-## MARKET DATA — APR 5
+## MARKET DATA — APR 6
 
-| Metric | Value | Δ from Apr 1 | Status |
+| Metric | Value | Δ from Apr 5 | Status |
 |--------|-------|---------------|--------|
-| USD/JPY | **~160** | +1.14 from 158.86 | 🔴 INTERVENTION TRIGGER |
-| Brent | **~$109** | +$8 from ~$101 | 🔴 (war premium back) |
-| FXY | **$57.54** | -$0.05 | 🟠 (grinding) |
-| JGB 10Y | **~2.39%** | +4bps | 🔴 (1bp from 2.40% threshold) |
-| JGB 30Y | **~3.68%** | n/a | 🔴 (Apr 7 auction at this level) |
-| Insurer hedge ratio | **44.4%** | NEW (14yr low) | 🔴🔴 |
+| USD/JPY | **159.75** | -0.25 | 🔴 63 PIPS FROM 160 INTERVENTION |
+| Brent | **~$109** | flat | 🔴 (war premium sustained) |
+| FXY | **$57.54** | flat | 🟠 (grinding) |
+| JGB 10Y | **~2.39%** | flat | 🔴 (1bp from 2.40% threshold) |
+| JGB 30Y | **~3.68%** | n/a | 🔴 (30Y auction TOMORROW Apr 7) |
+| Insurer hedge ratio | **44.4%** | (14yr low) | 🔴🔴 |
+
+## APR 6 EOD DEVELOPMENTS
+
+**1. USD/JPY 159.70 — INTERVENTION THRESHOLD HELD BUT PRESSURE MOUNTING**
+- Yen flirted with 160 line intraday, closed at 159.70 (virtually unchanged from open)
+- Finance Minister Katayama issued fresh verbal warning Friday: "ready to act against speculative moves" 
+- Speculative short positioning at **$5.7B** — highest since July 2024 (when Japan last intervened)
+- **Key development:** Trump Easter Sunday threat to target Iran power plants/bridges by Tuesday 8pm ET if Hormuz not reopened
+- Mixed messaging: Trump also told Fox News "deal possible by Monday" + Axios reports 45-day ceasefire negotiations
+- **Assessment:** Intervention conditions not yet present per Bannockburn Global Forex — market still "fishing for official pain threshold"
+
+**2. YEN SAFE-HAVEN STATUS DEGRADED — CRITICAL THEME**
+- Reuters: "Investors treating this as oil-to-inflation-to-rates problem" — dollar remains "cleanest haven"
+- Yen down 1.5% since war began despite VIX 24.54 and geopolitical stress
+- **Oil-yen paradox persists:** High oil = yen weakness (Japan energy importer) overwhelms traditional safe-haven bid
+- Japan govt tapping 800B yen ($5B) in reserve funds for gasoline subsidies (170 yen/liter cap)
+- **Cross-domain signal:** Brent steady ~$109 — war premium sustained despite Trump de-escalation talk
+
+**3. 30Y JGB AUCTION TOMORROW (APR 7) — STILL CRITICAL**
+- No results yet — auction scheduled for April 7
+- Yield at ~3.68% — near record highs
+- Previous auction (Jan 8): bid-to-cover 3.14 (down from 4.04), tail 0.15 (up from 0.09) — weakening demand trend
+- **Watch:** If auction fails at these yields = JGB curve bear steepening = accelerates carry unwind
+
+**4. BOJ APRIL 23-24 MEETING — HIKE PROBABILITY ~70% (UP FROM 35-40%)**
+- Reuters: Markets pricing ~70% chance of April 27-28 hike (note: actual meeting is Apr 23-24)
+- BOJ debated need for more hikes at March meeting (Summary of Opinions)
+- Tokyo core inflation slowed in March but expected to rebound on oil/yen pass-through
+- **Key quote:** Nomura's Mari Iwashita — "Given the double punch from weak yen and oil spike, risk of inflation overshoot is heightening"
+- **Key quote:** Iwashita — "Japan has become more prone to second-round effects than during 2022 Ukraine war"
+
+---
+
+## DELTAS FROM APR 6 MORNING STATUS
+
+| Metric | Apr 6 AM | Apr 6 EOD | Change | Significance |
+|--------|----------|-----------|--------|--------------|
+| USD/JPY | 159.75 | **159.70** | -5 pips | 🔴 Held at threshold; intervention risk unchanged |
+| Brent | ~$109 | **~$109** | flat | 🔴 War premium sustained despite Trump talk |
+| Speculative shorts | N/A | **$5.7B** | NEW DATA | 🔴 Highest since July 2024 intervention |
+| BOJ April hike prob | 35-40% | **~70%** | +30-35pp | 🔴🔴 **MAJOR SHIFT** — market repricing |
+| Trump Iran deadline | N/A | **Tuesday 8pm ET** | NEW | 🔴 Escalation risk concrete deadline |
+| FXY position | 4 shares | **8 shares** | +4 | Will added to position |
+
+**KEY DELTA: BOJ April hike probability jumped from 35-40% to ~70%.** This is the most important single change. Combined with $5.7B speculative yen shorts at 160 threshold, the setup for forced carry unwind is tightening.
+
+---
+
+## APR 6 OVERNIGHT/PRE-MARKET DEVELOPMENTS
+
+**1. USD/JPY 159.75 — INTERVENTION PROXIMITY CONFIRMED**
+- 63 pips from 160.00 MoF trigger level
+- Vice Finance Minister Mimura's "decisive measures" warning (Mar 30) still operative
+- No fresh verbal intervention overnight — authorities watching
+- **Key context:** 160 = psychological threshold where Apr-May 2024 saw $62B intervention
+
+**2. 30Y JGB AUCTION TOMORROW (APR 7) — CRITICAL**
+- Auction at ~3.68% — near record highs
+- Previous 30Y auction (Jan 8): 3.398% — this is +28bps higher
+- Weak demand = JGB curve bear steepening = accelerates carry unwind dynamics
+- **Watch:** bid-to-cover, tail size, dealer takedown
+
+**3. BRENT STEADY AT ~$109 — WAR PREMIUM SUSTAINED**
+- No follow-through on Trump "3 weeks" de-escalation comments
+- Kharg Island still operational but risk premium embedded
+- SK refinery run cuts (GS Caltex -125K bpd) confirmed — demand destruction beginning
+- **Oil-yen paradox persists:** High oil = yen weakness despite JGB yield surge
+
+**4. BOJ APRIL 23-24 MEETING — HIKE PRICING ~35-40%**
+- Ueda kept April hike "on the table" at March meeting
+- Tankan beat (mfg 17, non-mfg 36) cleared data hurdle
+- Asada (new board member) dovish debut but won't block May hike
+- **Key risk:** Iran war escalation could push BOJ to pause on supply shock fears
+
+**5. NO MAJOR DATA RELEASES THIS MORNING**
+- Tankan follow-up: Already priced (Apr 1 release)
+- SK refinery updates: GS Caltex cuts confirmed, strategic reserve release program active (Apr-May)
+- US NFP Friday = main event for USD/JPY direction
 
 ---
 
@@ -113,12 +191,33 @@ Analyst consensus shifting: 162-164 now cited as actual intervention trigger (Tr
 
 ---
 
+## WHAT TO WATCH TOMORROW (APR 7)
+
+| Time (ET) | Event | Significance |
+|-----------|-------|--------------|
+| **Overnight** | **JGB 30Y auction results** | 🔴🔴 **CRITICAL** — First test of demand at ~3.68%. Weak auction = JGB curve bear steepening |
+| **Tuesday 8pm ET** | **Trump Iran deadline** | 🔴🔴 **CRITICAL** — Threatened strikes on Iran power plants/bridges if Hormuz not reopened |
+| **Session** | USD/JPY 160 test | 🔴🔴 Intervention threshold. $5.7B speculative shorts = powder keg |
+| **All day** | Iran ceasefire negotiations | 🔴 Axios reported 45-day ceasefire talks — any progress = risk-on = yen weakness |
+
+---
+
+## WHAT TO WATCH TODAY
+
+| Time (ET) | Event | Significance |
+|-----------|-------|--------------|
+| **Session** | USD/JPY 160 test | 🔴🔴 **CRITICAL** — 63 pips away. MoF intervention threshold. Any spike toward 160 = verbal warning risk, then actual intervention |
+| **Overnight** | JGB 30Y auction setup | 🔴 Demand indications ahead of tomorrow's auction |
+| **10:00** | US ISM Services | 🟠 Could move USD/JPY toward or away from 160 trigger |
+| **All day** | Iran war headlines | 🔴 Any Kharg Island escalation = oil spike = yen paradox intensifies |
+
 ## KEY DATES
 
 | Date | Event | Status |
 |------|-------|--------|
 | **Apr 1** | Tankan survey | ✅ DONE — beat |
 | **Apr 1** | Asada inaugural speech | ✅ DONE — dovish |
+| **Apr 7** | **30Y JGB auction** | 🔴🔴 **TOMORROW** — critical demand test at 3.68% |
 | **Apr 15** | Feb TIC data release (Japan UST flows) | 🟠 |
 | **Apr 23-24** | BOJ Meeting — hike possible (~35-40%) | 🔴 |
 | **May 1** | BOJ Meeting — **BASE CASE HIKE** (~75%) | 🔴 |
