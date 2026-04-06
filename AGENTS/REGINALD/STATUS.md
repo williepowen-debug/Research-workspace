@@ -1,5 +1,5 @@
 # REGINALD STATUS
-**Last Updated:** 2026-04-01 20:16 UTC | **Status:** 🔴🔴🔴 CRITICAL (ESCALATING)
+**Last Updated:** 2026-04-05 | **Status:** 🔴🔴🔴 CRITICAL (ESCALATING)
 
 ---
 
@@ -25,9 +25,9 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 | Indicator | Value | Status |
 |-----------|-------|--------|
 | HY OAS | **316bps** (Apr 2) | 🟠 Tightened 12bps overnight (328→316). Ceasefire hope rally. Still above 300 floor. |
-| KRE | **$65.89** (Apr 2, +0.07%) | 🟠 Flat after yesterday's bounce. No follow-through. |
-| Brent | **~$99-100** (Apr 1 intraday, briefly <$100) | 🟠 Peace hopes pulled it off highs. Still elevated. |
-| 10Y UST | **4.42%** (Mar 27) | 🔴 Hit 4.48% intraday (highest since Jul 2025) |
+| KRE | **$66.00** (Apr 4, +0.23%) | 🟠 Drifting sideways. No follow-through. |
+| Brent | **~$99-100** (Apr 1 intraday, off $112.57 Mar 27 highs) | 🟠 Peace hopes pulled it off highs. Still elevated. |
+| 10Y UST | **4.42%** (Mar 27, stale) | 🔴 Hit 4.48% intraday (highest since Jul 2025). Refresh Mon. |
 | Office CMBS DQ | **11.2%** (Feb 2026, Trepp) — pulled back from 12.34% Jan ATH on 5 loan mods | 🔴 |
 | Bank CRE DQ gap | 4.18% vs CMBS 11.2% = ~7pp masking | 🔴 |
 | FHLB Advances | ~$480B (issuance +31% YoY) | 🟠 Contingency behavior |
@@ -51,7 +51,7 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 
 ## RESEARCH — OZK
 
-**KB: 159 rows, 17 groups** | **Earnings: Apr 16 (~20 days)** | **Price: $46.43 (Mar 27, -2.17%)**
+**KB: 159 rows, 17 groups** | **Earnings: Apr 21 (16 days)** | **Price: $46.31 (Apr 4)**
 - 10 prompts done (#1-7, 15, 16, 20). 5 remaining (#8 Metropolitan, #9 Affinius, #10 sell-side, #13 peer vintage, #19 metro conditions)
 - LIFE_SCI deepest cluster (21 rows). RaDD 3.3% leased, maturity Aug 2028.
 - Temple 8 short thesis published. OZK = reservoir thesis (stress accumulates → maturity wall forces recognition).
@@ -62,7 +62,7 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 
 ## RESEARCH — WAL
 
-**KB: 70 rows, 10 groups** | **Earnings: Apr 21 (~25 days)** | **EARNINGS_PREP: B+→A-** | **Price: ~$67-68 (Mar 27) ⚠️ BELOW $78 THRESHOLD**
+**KB: 70 rows, 10 groups** | **Earnings: Apr 21 (16 days) — SAME DAY AS OZK** | **EARNINGS_PREP: B+→A-** | **Price: $72.07 (Apr 4) ⚠️ BELOW $78 THRESHOLD**
 - Architecture complete (Mar 25): INDEX, THESIS, STATUS, SCENARIOS, WEAKNESSES, EARNINGS_PREP, EXTERNAL_PROMPTS.
 - 5 external prompts ready. EARNINGS_PREP upgraded Mar 26 with new signals.
 - **NEW (Mar 31):** `LEADERSHIP.md` created — full C-suite, board, audit committee, auditor, CRE leadership, ownership profile. CFO Idnani corrected to Vishal (not Deepak). CRO Emily Nachlas profiled. Guggenheim (TPG RE Finance Trust) on Risk committee, NOT Audit — expertise/oversight gap identified.
@@ -100,24 +100,17 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 
 ## KEY CATALYSTS
 
+*Forward-looking only. Full calendar → CALENDAR.md*
+
 | Date | Event |
 |------|-------|
-| ~~Mar 25~~ | ~~JEF Q1~~ — DONE. EPS $0.70 vs $0.91 (-23%). $17M MFS losses. V2 confirmed. |
-| ~~Mar 26~~ | ~~ARESSI~~ — DONE. (Check BROCK for results.) |
-| **Mar 27** | **OBDCII Q1 report — TODAY.** OWL $9.5P Apr 2 expires in 6 days. |
-| ~~Mar 27~~ | ~~USO $118C expiry~~ — TODAY, resolve at close. |
-| **Mar 27** | **Bloomberg: Citi weighing US regional bank acquisition** — dismissed as "baseless speculation" by Citi. C -4.5%. Signal: G-SIBs smelling regional distress = acquisition optionality. |
-| **Mar 23-27** | **ZION acquires Basis Investment Group agency lending** (Fannie/Freddie MF). Adds CRE MF exposure at cycle peak. |
-| **Mar 31** | **First Brands auction** — $800M gap, recovery data feeds BROCK + REGINALD (OTTO T-15) |
-| ~~Apr 1~~ | ~~eSLR relaxation effective~~ — DONE. Now live. G-SIBs benefit, regionals don't. |
-| **Apr 1** | **BIZD -5.4%** — BDC/PC stress day. KRE +1.07% divergence. Economist/Bloomberg/NPR all publish PC crisis pieces. |
-| **Apr 2** | **Blue Owl OCIC/OTIC dual gating confirmed.** 21.9%/40.7% redemption requests, 5% cap. $4.2B trapped. OWL -2.9%. Claims 202K (near 2yr low). Flagstar upgraded by Moody's. |
 | Apr 10 | CPI (captures oil shock) |
-| **Apr 16** | **OZK Q1 earnings — detonation event** |
-| Apr 20-29 | Q1 bank earnings wave (ZION → WAL → VLY → EGBN) |
+| **Apr 21** | **OZK Q1 earnings — detonation event** (moved from Apr 16) |
+| Apr 20-29 | Q1 bank earnings wave (ZION → WAL → VLY → EGBN + BOJ) |
+| May 1-10 | Q1 Call Report filings (MI3, NDFI, AOCI) |
 | May 12 | WAL Investor Day |
 | May 21 | Epstein class action deadline (APO) |
-| **Jun 18** | **AOCI capital rewrite comment period closes** — finalization likely H2 2026/Q1 2027 |
+| **Jun 18** | **AOCI capital rewrite comment period closes** |
 
 ---
 
@@ -125,9 +118,9 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 
 | Condition | Current | Threshold | Fired? |
 |-----------|---------|-----------|--------|
-| Claims >300K | ~213K | LABOR → all ORANGE→RED | Not yet |
-| HY OAS >320bps | **328** (Apr 1) | CARL → credit confirmed | 🔴 RE-BREACHED, widening |
-| HY OAS 350 (freeze) | ~317 | Issuance freeze | 🟠 |
+| Claims >300K | ~202K (Apr 2) | LABOR → all ORANGE→RED | Not yet |
+| HY OAS >320bps | **316bps** (Apr 2) | CARL → credit confirmed | 🟠 Breached 328 Apr 1, tightened to 316 Apr 2. Watch re-breach. |
+| HY OAS 350 (freeze) | ~316 (Apr 2) | Issuance freeze | 🟠 |
 | CLO AAA >165bps | ~125bps | LIQUID → BDC transmission | Not yet |
 | iTraxx Senior Fin >100bps | ~95bps | EU→US contagion (HANS) | 🟠 |
 | SOFR-IORB >+15bps | ~0bp (Mar 27) | LIQUID → FHLB spike | Not yet |
@@ -176,11 +169,11 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 
 ---
 
-## ⚠️ THRESHOLD BREACHES (as of Mar 27)
+## ⚠️ THRESHOLD BREACHES (as of Apr 3)
 
 | Metric | Threshold | Current | Note |
 |--------|-----------|---------|------|
-| WAL | <$78 | **~$67-68** | Breached. Hidden CRE thesis accelerating. Analyst downgrades confirmed. |
+| WAL | <$78 | **$72.07** (Apr 4) | Still breached. Bounced from $65 lows but no institutional accumulation. Analyst downgrades confirmed. |
 | HY OAS | >320bps | **316bps** (Apr 2) | 🟠 Tightened below 320 on ceasefire rally. Watch for re-breach. |
 
 ---

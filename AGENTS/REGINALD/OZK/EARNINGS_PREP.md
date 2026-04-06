@@ -1,7 +1,8 @@
 # OZK — Q1 2026 Earnings Prep
-**Earnings Date:** April 16, 2026 | **Days Out:** 21 | **Last Updated:** Mar 26, 2026
-**Price:** ~$49 (⚠️ SCENARIOS.md calibrated at $44.70 — needs recalibration, see flag below)
+**Earnings Date:** April 21, 2026 (moved from Apr 21; conf call Apr 22) | **Days Out:** 16 | **Last Updated:** Apr 5, 2026
+**Price:** $46.31 (Apr 4) — closer to SCENARIOS.md $44.70 now. Recalibration less urgent.
 **CIK:** 0001569650 | **Positions:** $42.5P May×2 | $42.5P Aug×1 | $45P Aug×4
+**Consensus:** $1.52 EPS (Zacks Feb 2026 revision, down from $1.58). FY2026 $6.02. Ratings 2B/5H/1S, PT $53.71.
 
 *Delete after earnings processed.*
 
@@ -9,8 +10,10 @@
 
 ## ⚠️ FLAGS BEFORE READING
 
-1. **SCENARIOS.md is stale** — calibrated at $44.70, stock now ~$49. All strike probabilities and EV calculations need refresh before Apr 16. Don't trade off the scenario targets without recalibrating.
+1. **SCENARIOS.md less stale** — calibrated at $44.70, stock now $46.31. Closer than before (~$49 in Mar). Still worth a quick refresh before Apr 21 but not urgent.
 2. **SI refresh needed** — KB-OZK-160 shows 13.81% / 11.2 DTC as of Mar 25. Pull FINRA/Ortex before earnings.
+3. **⚠️ EARNINGS DATE MOVED** — OZK moved from Apr 21 to Apr 21 (GlobeNewswire Mar 31). This means OZK and WAL report THE SAME DAY. The 5-day read-through window is gone. See revised WAL section below.
+4. **Consensus EPS filled** — Zacks $1.52 (Feb 2026 revision). Beat/miss threshold: >$1.55 = beat, <$1.48 = miss.
 
 ---
 
@@ -212,7 +215,7 @@ Expect these narratives. Know the counter before they speak.
 
 ### How to Survive the Squeeze
 1. **Position sizing was right.** Max loss = premium paid. No stop-losses needed.
-2. **Aug expiry gives runway.** If a squeeze pushes to $54-57 before April 16, our Aug $45P remains playable — the maturity wall is mechanical, not temporal.
+2. **Aug expiry gives runway.** If a squeeze pushes to $54-57 before April 21, our Aug $45P remains playable — the maturity wall is mechanical, not temporal.
 3. **The squeeze signal.** Short ratio at 11.2 DTC means covering would take 11 days of average volume. If stock rips $8-10 in a week, that's a covering event. Watch volume: covering looks like high-volume up days with no fundamental news. That's your "hold, don't fold" signal.
 4. **The thesis is not the stock price.** A squeeze is noise. The interest reserve depletion math [KB-OZK-088], the 590-mod pipeline [KB-OZK-096], and the $322M nonaccrual flow [KB-OZK-063] do not change because shorts are covering.
 
@@ -248,12 +251,12 @@ Expect these narratives. Know the counter before they speak.
 |-----|--------|-------------|
 | **SVP sale loss amount** | Determines Q1 NCO range materially | Check Q1 8-K or first FFIEC submission |
 | **Bioterra ($202M) status** | Next identified life sci shoe — zero current data | CoStar/TRD search |
-| **Q1 interest capitalized** | Reserve depletion rate — vs $108.6M Q4 | FFIEC Call Report RIADG377 (post-Apr 16) |
+| **Q1 interest capitalized** | Reserve depletion rate — vs $108.6M Q4 | FFIEC Call Report RIADG377 (post-Apr 21) |
 | **Mod hurdle pass rates** | How many Q4 mods avoided Q1 nonaccrual | Implied from Q1 noncurrent change |
 | **IQHQ Bluerock valuation update** | IQHQ equity effectively zero — any mark or restructuring? | Check Bluerock SEC filings |
 | **$13.8B vintage claim** | Unverified from primary data [KB-OZK-061] | Historical Call Report RC-C |
 | **DBRS vintage rating source** | No citation [KB-OZK-062] — can't use in external thesis | DBRS/Morningstar search |
-| **Short interest current** | Mar 25 figure stale in 3 weeks | FINRA/Ortex before Apr 16 |
+| **Short interest current** | Mar 25 figure stale in 3 weeks | FINRA/Ortex before Apr 21 |
 
 ---
 
@@ -276,37 +279,43 @@ Expect these narratives. Know the counter before they speak.
 
 ---
 
-## OZK AS WAL LEADING INDICATOR (Apr 16 → Apr 21 Window)
+## OZK + WAL SAME-DAY REPORTING (Apr 21)
 
-OZK reports Apr 16; WAL reports Apr 21. **5-day read-through window.**
+**⚠️ DATE CHANGE:** OZK moved earnings from Apr 21 to Apr 21 (GlobeNewswire Mar 31, 2026). WAL also reports Apr 21. **The 5-day read-through window no longer exists.**
 
-### Why OZK Is the Right Canary
+### What This Changes
+- **No tactical lead time.** Previously, OZK bear confirmation would let us add WAL exposure before WAL reported. Now both print the same evening — market reaction is simultaneous.
+- **Sector-level read.** Both printing the same day means market will digest them as a PAIR. If both miss, sector de-rating is sharper and faster. If OZK misses and WAL beats (unlikely), market may treat it as OZK-specific.
+- **Position management decisions must be made BEFORE Apr 21**, not between prints. No more "add WAL puts in the 24h after OZK."
+- **Conf calls stagger:** OZK conf call Apr 22 AM, WAL conf call likely Apr 22 AM as well — watch for overlap.
+
+### Why OZK Is Still the Right Canary (Pre-Print)
 - Both carry worst-in-class hidden CRE (OZK 37.6% MI3, WAL 24.2% and growing)
 - Both have large construction books on interest reserves
 - OZK has higher absolute CRE stress; WAL has higher fraud/V2 risk. Different failure modes, same underlying collateral stress.
-- If OZK confirms CRE deterioration → market prices in sector provisioning → WAL multiple contracts BEFORE WAL reports
+- ZION reports Apr 20 (day before) — ZION is now the only pre-OZK/WAL sector read
 
-### Signal Map: OZK Outcome → WAL Implication
+### Signal Map: OZK Outcome → WAL Implication (still valid, just simultaneous)
 
 | OZK Reveals | WAL Implication | Confidence |
 |-------------|----------------|------------|
-| NCO >$90M + provision spike | WAL likely under-reserved too. V1 baseline (Hidden CRE) shifts up. Increase WAL NCO estimate by 20-30%. | HIGH |
-| Material RESG nonaccrual additions (>$100M new) | WAL's SF concentration (NCO 1.13% nationally) likely seeing same trend. V1 confirmed. | HIGH |
-| "No concessions granted" language collapses (rate cuts disclosed) | WAL has same TDR/modification framework. Accounting pressure sector-wide. | MEDIUM |
-| IQHQ bad news (further extension, reserves built) | WAL has no direct life sci — neutral to OZK-specific. Don't over-extrapolate. | LOW |
-| Provision BUILD without NCO spike (intentional reserve rebuild) | Bearish for WAL too — implies management sees worsening ahead. WAL may be forced to do same on Apr 21. | HIGH |
-| Management tone turns defensive, no guidance raise | Sector read-through: WAL analysts increase scrutiny of WAL's CRE/Cantor/MI3 disclosures. | MEDIUM |
+| NCO >$90M + provision spike | WAL likely under-reserved too. V1 baseline shifts up. | HIGH |
+| Material RESG nonaccrual additions (>$100M new) | WAL SF concentration (NCO 1.13% nationally) likely same trend. | HIGH |
+| "No concessions granted" collapses | Sector-wide accounting pressure. | MEDIUM |
+| IQHQ bad news | WAL has no direct life sci — OZK-specific. | LOW |
+| Provision BUILD without NCO spike | Both managements see worsening ahead. | HIGH |
+
+### Revised Tactical Plan (Same-Day)
+1. **Pre-Apr 21:** All position decisions must be finalized. Use ZION (Apr 20) as the only leading indicator.
+2. **Apr 21 after close:** Both OZK and WAL print. Digest simultaneously. No intra-day adds.
+3. **Apr 22 morning:** Both conf calls. Listen to OZK first (7:30 AM CT) if WAL is later. Tone comparison is now side-by-side.
+4. **Post-conf call:** Adjust positions based on combined sector read. If BOTH miss → KRE puts, sector de-rating trade.
 
 ### Does OZK Bad News Shift WAL V1 Baseline?
-- **V1 = Hidden CRE (MI3 relabeling).** OZK provisioning would confirm CRE deterioration is real, not hidden — which actually SUPPORTS WAL V1 (WAL is still hiding it).
-- **Revised WAL NCO range** (if OZK confirms): 0.60-0.90% vs prior 0.50-0.75% base. Provision estimate: +$50-80M above prior base.
-- **Does NOT change WAL V2** (Jefferies/fraud chain) — that's Cantor-specific.
-- **Does NOT change WAL V3** (SSFA/NDFI) — that's regulatory, not credit-event driven.
-
-### Tactical Use of the 5-Day Window
-1. **If OZK bear confirmed (NCO >$90M, NPA surge):** Don't wait to add WAL exposure. Market will start pricing WAL before Apr 21. Add Aug/Sep WAL puts in the 24h after OZK print.
-2. **If OZK base (NCO $60-80M, messy):** Hold WAL positions unchanged. WAL's unique vectors (V2, V3) provide independent catalyst regardless.
-3. **If OZK bull relief (NCO <$50M):** Don't read across to WAL. WAL's V2 (Jefferies confirmed) and V3 (SSFA $17.2B) don't depend on OZK's credit cycle.
+- **V1 = Hidden CRE (MI3 relabeling).** OZK provisioning confirms CRE deterioration is real — SUPPORTS WAL V1 (WAL is still hiding it).
+- **Revised WAL NCO range** (if OZK confirms): 0.60-0.90% vs prior 0.50-0.75% base.
+- **Does NOT change WAL V2** (Jefferies/fraud chain) — that's Cantor-specific. First Brands auction confirms catastrophic recovery (<1%), strengthening V2.
+- **Does NOT change WAL V3** (SSFA/NDFI) — regulatory, not credit-event driven.
 
 ---
 
@@ -339,6 +348,6 @@ These 8 gaps represent the primary blind spots. KB rows #8, 9, 10, 13, 19, 20 un
 | **Peer 2022 vintage maturity #13** | Confirms $13.8B maturity wall timing is 2026 front-loaded | ❌ Unverified from primary data |
 | **Metro conditions #19** | Confirms distressed cluster geography (SD/Boston/Chicago) | ❌ Will running externally |
 | **Life sci vacancy deep dive #20** | SD 35% vacancy still current? National 23%? | ❌ Will running externally |
-| **Short interest current** | 13.81% / 11.2 DTC from Mar 25 — stale before Apr 16 | ⚠️ Pull FINRA/Ortex by Apr 10 |
-| **SCENARIOS.md recalibration** | Stock at ~$49, scenarios built at $44.70 — all EV wrong | ⚠️ Needs price refresh before Apr 16 |
+| **Short interest current** | 13.81% / 11.2 DTC from Mar 25 — stale before Apr 21 | ⚠️ Pull FINRA/Ortex by Apr 10 |
+| **SCENARIOS.md recalibration** | Stock at ~$49, scenarios built at $44.70 — all EV wrong | ⚠️ Needs price refresh before Apr 21 |
 
