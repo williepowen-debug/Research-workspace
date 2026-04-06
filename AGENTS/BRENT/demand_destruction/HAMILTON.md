@@ -106,9 +106,21 @@ All four sources agree: supply-driven shocks are more reliably recessionary.
 
 ChatGPT's unique contribution: Hamilton's model is keyed to QUARTER-END prices, not intraday spikes.
 
-- $120 at Q1 end → NOPI ~29-47 → recession
-- $95 at Q1 end → NOPI ~6 → non-event
+- $120 at Q1 end → NOPI ~47 → recession
+- $95 at Q1 end → NOPI ~24 → slowdown
 - **March 31 WTI close is the single most important data point for calibrating this entire framework**
+
+### APR 5 RECALCULATION (at current prices, ref=$75 behavioral)
+
+| Price Input | NOPI | GDP Drag (Perplexity) | GDP Drag (Gemini) | Historical Analog |
+|-------------|------|----------------------|-------------------|-------------------|
+| Brent futures $109 | 37.4 | -2.4pp | -3.9pp | Between 1990 Gulf War (32.6) and 1979 (50.7) |
+| WTI $112 | 40.1 | -2.5pp | -4.2pp | Between 1990 and 1979 — solidly recessionary |
+| Dated Brent $141 (physical) | 63.4 | -4.0pp | -6.7pp | EXCEEDS 1973-74 Embargo (52.8) — unprecedented |
+
+**Note:** Hamilton's model uses spot WTI, not physical cargo assessments. At $112 WTI, NOPI=40 is the operative number — lower than the original 47 projection (which assumed $120), but still firmly in recessionary territory. The original NOPI=47 requires WTI to sustain at/above $120 through end of quarter.
+
+**Q1 close (Mar 31) still unknown** — WTI was $112 on Apr 4. If Q1 closed near $109-112, NOPI=37-40. This confirms recession but at the lower end of the -3.0 to -4.9pp drag range. Need to verify Mar 31 WTI settlement.
 
 ---
 

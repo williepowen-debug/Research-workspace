@@ -1,7 +1,7 @@
 # Phase 2 Transition Matrix — BRENT Review
 **Reviewer:** BRENT  
 **Date:** 2026-03-07  
-**Source reviewed:** `research/PHASE2_TRANSITION_INDICATORS_MAR8.md`  
+**Source reviewed:** `demand_destruction/TRANSITION_MATRIX.md` (formerly `research/PHASE2_TRANSITION_INDICATORS_MAR8.md`)  
 **Purpose:** Cross-reference PROME's matrix against BRENT's existing framework. Flag agreements, disagreements, additions, and VLCC rate question.
 
 ---

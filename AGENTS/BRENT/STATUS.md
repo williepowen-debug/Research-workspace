@@ -1,7 +1,18 @@
 # BRENT STATUS
 
-**Last Updated:** 2026-04-01 UTC
-**Overall Status:** 🔴🔴🔴 RED-RED-RED — ADCOP PIPELINE FIRE (HORMUZ BYPASS OFFLINE) / BRENT $116-120 / HOUTHIS RE-ENTER / HORMUZ CLOSED + MINED + TANKER AGROUND / KIRISHI/UST-LUGA SUSTAINED ATTACKS / KUWAIT PHYSICAL / QATAR LNG PERMANENT + 90 CARGOES FM / YANBU UNDER ATTACK / VALERO PORT ARTHUR FIRE / SPR FAILED / AUSTRALIA PHYSICAL / ISRAEL STRUCK IRAN NUCLEAR SITES / GAS $4 BREACHED / AL TAWEELAH ALUMINIUM STRUCK / IEA: 7M BPD REFINING IMPAIRED / OECD CPI 4.2%
+**Last Updated:** 2026-04-06 UTC
+**Overall Status:** 🔴🔴🔴 RED-RED-RED — **DATED BRENT $141 (PHYSICAL)** / TRUMP APR 6 DEADLINE TONIGHT 8PM ET / OPEC+ APR 5 = SYMBOLIC ONLY / BRENT FUTURES $109 / WTI $112 / GAS $4.08 / DATED-FUTURES SPREAD $32 / HORMUZ CLOSED + MINED / **AIRLINE CAPACITY CUTS CONFIRMED (UAL -5%, DAL -4%, AAL -6%)** = DEMAND DESTRUCTION LEADING INDICATOR FIRING / CRUDE STOCKS 424M (-19M DRAW, 4% BELOW AVG) / NOPI RECALC = 40.1 (RECESSIONARY) / AUTOMATED MONITORING LIVE (MON/WED/FRI)
+
+---
+
+## ⚡ APR 4 CRITICAL — 48 HOURS TO APR 6 DEADLINE
+
+- **Trump:** "48 hours before all Hell will reign down." Apr 6, 8PM ET. Energy plant destruction resumes if Hormuz not reopened.
+- **Iran:** No capitulation. War Day 34. F-15 shot down (CNN Apr 4).
+- **OPEC+ Apr 5 (RESOLVED):** Symbolic "paper" increase for May only. Can't deliver real barrels. Acknowledged damaged infrastructure. Next meeting June 7.
+- **Dated Brent $141.37** (physical, S&P Global Apr 2) — highest since 2008. **$32 premium over futures.** Physical barrels genuinely scarce.
+- **North Sea:** ALL grades bid at record premiums, NO offers. Statfjord +$17.60, WTI Midland CIF +$17.85. Trafigura, Total, Glencore, Mercuria, Gunvor all bidding.
+- **ADCOP CLARIFICATION:** Operational at 71% utilization (~1.07M bpd flowing). Fujairah loadings temporarily suspended after drone strikes. NOT fully offline but severely impaired. ADNOC planning second line by 2027.
 
 ---
 
@@ -29,8 +40,11 @@
 
 | Metric | Value | Updated |
 |--------|-------|---------|
-| Brent spot | **~$116-120** — gapped to $116.43 Sunday open Mar 30, hit $119.50 intramonth. Record monthly gain. | **Mar 29-31** |
-| Retail gas US avg | **~$3.98–4.00/gal** (**$4 BEHAVIORAL BREAKPOINT AT/BREACHED**) FL >$4.00. CNN: $240/mo per household. NYT: "Americans rethink vacations." | **Mar 28** |
+| Brent futures | **$109.03** (range $99-110 today) | **Apr 4** |
+| Dated Brent (physical) | **$141.37** — $32 premium over futures. Highest since 2008 | **Apr 2** [CONF] S&P Global |
+| WTI | **$112.04** (range $97.56-113.93). YTD high $118.83 | **Apr 4** |
+| WTI-Brent | **WTI > Brent in futures** — structural inversion (Rigzone Apr 3) | **Apr 3** |
+| Retail gas US avg | **$4.06-4.08/gal** (+37% since war began). $4 breakpoint **CONFIRMED BREACHED** | **Apr 2** [CONF] AAA |
 | JKM (Asian LNG) | **$16.18/MMBtu** | Mar 14 |
 | Henry Hub | **$3.13/MMBtu** | Mar 14 |
 | TTF | $18.1/MMBtu | Mar 9 |
@@ -41,12 +55,14 @@
 
 ## TWO-PHASE OIL THESIS
 
-### Phase 1: Supply Squeeze (ACTIVE — extended by mines)
-- Hormuz closed + mined. ~6-7M bpd offline at source. Kuwait physical. Qatar LNG permanent. Yanbu under attack
-- **Brent $116-120 already reached (Mar 29).** Targets revised: $125-135 base | $145-165+ if Yanbu struck | **$165+ if ADCOP confirmed offline (zero bypass)**
+### Phase 1: Supply Squeeze (ACTIVE — PHYSICAL SCARCITY CONFIRMED)
+- Hormuz closed + mined. ~8-9M bpd equiv disrupted. Kuwait physical. Qatar LNG permanent. Yanbu under attack
+- **Dated Brent $141 (physical).** Futures $109. **$32 physical-futures spread = confirmed physical scarcity, not paper speculation**
+- North Sea: all-bid, no-offer. Every major trader bidding at record premiums. No one selling.
+- ADCOP impaired (71% util, Fujairah loadings suspended) but not fully offline — bypass partially functional
 - Even ceasefire → 30-90d mine clearance + 4-12wk P&I reinstatement before shipping restarts
-- War duration: MONTHS not weeks — Iran fighting endurance war, no ceasefire sought
-- SPR failed. Policy tools exhausted
+- War duration: Day 34, no ceasefire. Trump escalating (48hr ultimatum). Iran not capitulating
+- SPR failed. Policy tools exhausted. OPEC+ decisions academic (producers can't export)
 
 ### Phase 2: Demand Destruction / OPEC+ Unwind (NOT YET)
 - OPEC+ unwind deferred (3.24 mbpd spare). Price crash at ANNOUNCEMENT (Day 3-8), not physical delivery
@@ -73,9 +89,9 @@
 |--------|-------|-------|
 | Hormuz/chokepoint | 🔴🔴 5 | -92% shipping + mines + Yanbu under attack |
 | Gulf production | 🔴🔴 5 | ~6-7M bpd offline. Qatar permanent |
-| Brent price | 🔴🔴 5 | $107. SPR failed |
+| Brent price | 🔴🔴 5 | Futures $109, physical $141. SPR failed |
 | US production response | 🟡 2 | 411 rigs, DUC -41%. Non-response confirmed |
-| Demand destruction | 🟠 4 | Airlines fare-hiking. $3.983/gal |
+| Demand destruction | 🔴 4 | Gas $4.08. +37% since war. $4 breakpoint breached |
 | Storage (global) | 🔴 4 | Gulf filling/full |
 | Tanker/shipping | 🔴 4 | VLCC $423K/day peak |
 | Energy credit | 🟡 2 | HY Energy OAS 300 |
@@ -89,7 +105,7 @@
 | Route | Ceiling | Status |
 |-------|---------|--------|
 | Petroline → Yanbu | 3.3-3.5M bpd | 🔴 UNDER ATTACK |
-| ADCOP → Fujairah | 1.5-1.8M bpd | 🔴🔴 **PIPELINE FIRE Mar 31 — pumping station struck. If offline = zero bypass** |
+| ADCOP → Fujairah | 1.5-1.8M bpd | 🔴 **71% util (~1.07M bpd flowing). Fujairah loadings suspended after drone strikes. IMPAIRED not offline** |
 | Kirkuk-Ceyhan | 0 bpd | 🔴 Suspended |
 | **Net bypass** | **~3.3M bpd (at risk)** | Gap: ~16.7M vs 20M normal |
 
@@ -133,146 +149,42 @@ ALL THREE x3 readings: Brent M1-M3 <$3 | EIA gasoline -5% YoY | CFTC longs decli
 
 ---
 
-## MAR 26 SIGNAL — KIRISHI REFINERY STRIKE (🔴🔴)
+*Mar 26-31 signal detail archived to `workbook/STATUS_archive_20260401.md`*
 
-### Kirishi Refinery Strike — Baltic System Cascade Complete (🔴🔴)
-- Ukrainian suicide drones struck **Kirishi oil refinery (KINEF)**, Leningrad Oblast. "Sky glowing red."
-- Owner: **Surgutneftegaz** (KINEF subsidiary). Capacity: **~360–420K bpd** — **ONLY refinery in Northwestern Russia**
-- Product slate: ULSD diesel (primary), fuel oil, naphtha. Exports via **Primorsk (pipeline) AND Ust-Luga (rail)** — both already disrupted
-- **This closes the loop:** Primorsk (crude, SHUT) + Ust-Luga (condensate, STRUCK TWICE) + Kirishi (refinery, NOW STRUCK) = all three NW export nodes hot simultaneously
-- **Cumulative Russian refining offline: ~700–860K bpd** (Ufa ~500K + Kirishi 200–360K)
-- **Baltic system estimate updated: ~2.0–2.2M bpd equiv disrupted**
-- European diesel crack spreads: widening. ARA gasoil stocks will draw.
-- **NOPI Mar 31:** Kirishi adds upward pressure on Brent. $110-115 scenario more likely → Hamilton GDP drag could reach -4.5pp+
-- Surgutneftegaz Oct 2025 CDU-6 strike (160K bpd) took 1+ month to recover. This strike = pattern of systematic degradation
-- *Full assessment:* `AGENTS/BRENT/outbox/KIRISHI_STRIKE_2026-03-26.md`
+## APR 4 SIGNAL INTEGRATION
 
----
+### Dated Brent $141 — Physical Scarcity Confirmed (🔴🔴 CRITICAL)
+- **Dated Brent (physical cargo price) $141.37** (S&P Global, Apr 2) — highest since 2008
+- **$32.33 premium over June Brent futures ($109.03)**. Physical-futures divergence of this magnitude = genuine barrel scarcity, not paper speculation
+- CNBC: "the tightness of physical supply is due to the huge disruption triggered by Iran's closure of the Strait of Hormuz"
+- **This validates the North Sea physical premium signal:** all grades bid at record premiums, NO offers placed. Statfjord +$17.60/bbl (+$3.60 in ONE DAY). WTI Midland CIF +$17.85. Trafigura, Total, Glencore, Mercuria, Gunvor all bidding.
+- **2007-08 analog note:** @yieldsearcher: $147 oil pushed headline CPI 2.1%→5.6% but core PCE stayed low-2s, bonds rallied. BUT 2026 starting core PCE already 2.7% (not low-2s) — worse setup.
 
-## MAR 25-26 SIGNAL INTEGRATION
+### WTI $112 / COVID Inverted Analog (🟠)
+- WTI $109.79 (+11% single day, Apr 2). Current $112.04 (Apr 4).
+- TradingView overlay: current WTI tracking COVID demand shock INVERTED almost exactly
+- **If analog holds:** blowoff spike to $140-160 → demand destruction crash to ~$80
+- Caveat: COVID = demand shock, Iran war = supply shock. Different mechanics. Analog is narrative not prediction. But price action alignment notable.
+- **WTI > Brent in futures** — structural inversion (Rigzone Apr 3). US crude more valuable than international = domestic supply tighter than expected.
 
-### Qatar FM — Legal Declaration (🔴🔴)
-- QatarEnergy force majeure declared on LNG contracts vs **China, Italy, South Korea, Belgium** (long-term fixed-price contracts tied to damaged Ras Laffan phases)
-- CEO al-Kaabi: **13M tonnes/year structurally impaired** = 17% of 77 MTPA. FM window: up to 5 years
-- **Unaffected:** Japan, India, Taiwan, UK, Spain, France, Germany (different facility contracts)
-- Asia LNG spot +40-60% in 48h; TTF +25-35%
-- Key implication: FM is a LEGAL framework, not operational. Qatar is formally telling buyers "no delivery for years." This is not temporary—it's contract termination at scale.
+### Trump 48-Hour Ultimatum (🔴🔴)
+- **Apr 4:** Trump: "48 hours before all Hell will reign down." Deadline: **Apr 6, 8PM ET**
+- Energy plant destruction resumes if Hormuz not reopened
+- **Iran:** No capitulation. Day 34 of war. F-15 shot down (CNN live Apr 4)
+- **OPEC+ ministerial Apr 5 (tomorrow):** +206K bpd planned but **academic** — Iraq/Kuwait shut in physically
+- Wikipedia: Strait crisis ongoing since Feb 28 2026. Gas +37% since war began
 
-### Ust-Luga Second Strike (🔴🔴)
-- Ukrainian drones struck Ust-Luga AGAIN (Mar 24). **Novatek gas condensate complex on fire**
-- Combined Ust-Luga exports: **650K bbl crude + 150K bbl gas condensate/day = 800K bpd total at risk**
-- SECOND strike on same facility → recovery timeline now extended significantly
-- **Russia Baltic tally: Primorsk >1M bpd + Ust-Luga 800K bpd = ~1.8M bpd Russian Baltic exports disrupted**
-
-### Australia Physical Shortage (🟠)
-- Hundreds of Australian service stations reporting **fuel shortfalls** (Bloomberg Mar 24)
-- Australia strategic reserve: ~28 days (vs IEA 90-day standard)
-- **First developed-economy physical fuel shortage from Hormuz closure.** Not a price story — actual unavailability.
-- Confirms thesis is transmitting from financial to physical at consumer level in OECD
-
-### Helium — New Depletion Clock Leg (🟠)
-- Airgas (major US packaged gas) curtailing helium orders → second-order cascade from Ras Laffan
-- Qatar = world's **#2 helium producer (~25% global supply)**. Helium is LNG byproduct — no LNG = no helium
-- Downstream: semiconductors, MRI machines, aerospace, scientific research. **No substitute**
-- New commodity stress vector. Flag to NEXUS for semiconductor chain tracking.
-
-### MAR 27 SIGNALS — HORMUZ EXTENSION + BRENT SPIKE + GAS $4 (🔴🔴)
-
-#### Hormuz Deadline Extended to Apr 6
-- Trump extended Hormuz deadline +10 days to **April 6** (was Mar 28/today)
-- Pausing energy plant destruction. "Talks going well."
-- **Iran: "proposal one-sided and unfair"** — NO capitulation
-- **Rubio at G7: "weeks, not months"** — minimum 2-8 more weeks of risk (NYT Mar 27)
-- **Israel struck Iranian nuclear sites** (NYT live updates Mar 27) — escalation wildcard
-
-#### Thai Tanker Mayuree Naree — Qeshm Island Grounding
-- Hit by Iranian projectiles **Mar 11**, drifting since. **Ran aground off Qeshm Island** Mar 27
-- 3 crew missing. Iran asserting physical Hormuz control
-- Confirms Iran enforcing exclusion zone with kinetic action
-
-#### Brent $108-112: NOPI Updated (🔴🔴 CRITICAL — Q1 CLOSE MON)
-- **NOPI revised upward.** Prior: NOPI=47 at $100. Updated:
-  - **$108 Brent → NOPI = 55** (exceeds 1973 embargo NOPI of 52.8)
-  - **$112 Brent → NOPI = 59** (severe category)
-  - **$115 Brent → NOPI = 62** (uncharted post-1979 territory)
-- **Revised Hamilton GDP drag: -4.5 to -6.0pp cumulative** (was -3.0 to -4.9pp at NOPI 47)
-- Peak damage still Q1 2027 at lag 4: -1.8 to -2.4pp in that quarter alone
-- **Q1 close Monday Mar 31 locks in NOPI 55-59 in Hamilton's model** — all Q2 recession estimates anchor here
-
-#### Gas $4 Behavioral Breakpoint — BREACHED
-- National avg ~$4.00 (AAA Mar 27). Florida over $4.00
-- Per DD-3: $4 = documented behavioral breakpoint (2008 pattern)
-- 2026 consumer matches 2008 stress profile: savings 3.6%, subprime auto >7%, zero buffer
-- **Front-loading: behavioral damage compressing to Q2 2026 (was Q3)**
-
-### Hamilton NOPI / Q1 WTI Close (⚠️ CATALYST — 4 DAYS OUT)
-- **Q1 WTI close = March 31.** Brent $108-112 → NOPI 55-59 → GDP drag -4.5 to -6.0pp
-- **NO ceasefire in sight.** Extension to Apr 6 + Iran rejection + Israel strikes = price floor
-- Mar 31 = hard catalyst. NOPI 55-59 is the anchor for entire Q2 GDP model
-- *Routing: HENRY inbox `BRENT_ROUTING_2026-03-27.md`*
-
----
-
----
-
-## MAR 29-31 SIGNAL INTEGRATION
-
-### ADCOP Pipeline Fire — Zero Bypass Scenario (🔴🔴 CRITICAL)
-- **Mar 31:** Massive fire at pumping station on Habshan-Fujairah pipeline (ADCOP), UAE
-- ADCOP is the **ONLY Hormuz bypass route** for Gulf crude exports: 1.5M bpd capacity
-- If offline: Gulf producers (Saudi, UAE, Kuwait, Iraq) have **NO export path** outside Hormuz
-- Petroline → Yanbu already under attack. ADCOP fire = second bypass route threatened simultaneously
-- **Zero bypass scenario**: ~16-20M bpd of Gulf oil with no export route
-- **Brent gap risk at Monday open**. Threshold event: $130+ if ADCOP confirmed offline + Yanbu under continued attack
-- Source: @silvertrade / X, Mar 31 2026
-
-### Brent $116 Gap + Houthis Re-Enter (🔴🔴)
-- Brent **gapped to $116.43** at Sunday open (Mar 30), intramonth high **$119.50** — record monthly gain
-- Trigger: **Houthis fired missiles/drones at Israel Saturday** — second wave. Red Sea/Bab el-Mandeb now a second maritime chokepoint under active threat
-- Gas national avg $3.98 (Mar 28). $4 breach imminent / breached nationally
-- NOPI at $116: **~62-65 (uncharted post-1979 territory)**. Hamilton GDP drag: **-5.5 to -7.0pp** cumulative
-- Two chokepoints active simultaneously (Hormuz + Bab el-Mandeb) = insurance and routing crisis compounds
-- *NOPI recalculation needed at confirmed $116 close*
-
-### Kirishi Sustained Attack + Ust-Luga 3rd Strike + Al Taweelah (🔴🔴)
-- **Kirishi (Mar 29 update):** Ukraine struck Russia's 2nd largest refinery again. 420K bpd. Only NW Russia refinery. Produces **military jet fuel, naval fuel, attack helicopter lubricants** — operational impact on Russian air/naval power
-- **Ust-Luga 3rd strike** in one week (video confirmed, Visegrad24). 800K bpd. Baltic export infrastructure now effectively zero — Primorsk SHUT + Ust-Luga 3x = no functional Russian Baltic export route
-- **Al Taweelah aluminium smelter (UAE):** Iran struck EGA facility — world's largest aluminium smelter, 4% of global supply. Multiple injuries, significant damage. New commodity vector: construction, auto, aerospace, power transmission chain disruption. Smelters = massive power consumers (energy demand shock secondary effect)
-- **Russian military fuel angle:** Kirishi destruction degrades frontline aviation/naval capacity. Potential war-duration implication (Russia fuel-constrained operationally)
-
-### Qatar FM — 90 Cargoes Through May (🔴🔴)
-- QatarEnergy operationally confirmed: **90 LNG cargo cancellations through May**
-- Confirms and operationalizes the 13M t/yr legal FM from Mar 25
-- Near-term market impact: spot LNG price spike, EU storage refill season begins from depleted base (17-19%), Asia-Pacific spot competition intensifies
-- 90 cargoes = ~7-8 Mt of LNG absent from market through May alone
-- Cross-posted to HANS (EU storage crisis), HAWK (war escalation)
-
-### IEA Refining Capacity Assessment (🔴🔴)
-- IEA (via KBRA Mar 25): Hormuz crude/product flows "fallen to a trickle"
-- **>3M bpd refining capacity already shut**; **>4M bpd at risk** = ~7M bpd total impaired (~7% global)
-- Export-oriented refineries cutting runs as storage fills. LPG and naphtha declining → petrochemical/polymer cuts
-- Midstream: marine terminals, bunkering exposed. Fee-based pipelines insulated
-- Combines with: Valero 380K offline, Kirishi 420K, Corpus Christi water, SK refiner cuts
-- *Cross-post to FERT: LPG/naphtha constraint → fertilizer feedstock squeeze*
-
-### Corpus Christi Water Disruption (🔴)
-- Corpus Christi, TX running out of water. Drought + surging demand from refining, LNG export, petrochemicals
-- Water use restrictions possible **as early as May 2026**
-- **Why it matters:** Corpus Christi is a major US refining + LNG export hub. Water restrictions = **potential domestic refinery curtailments** on top of all existing disruptions
-- Nobody pricing this. US domestic supply destruction from infrastructure vector (not war, not weather — water)
-- Refineries at risk: quantification needed — major Corpus Christi metro capacity to be identified
-- Valero has no Corpus Christi overlap per current data (Port Arthur fire = separate). Other refiners TBD
-- *Cross-post to CARL: TX infrastructure stress vector*
-
-### OECD Inflation 4.2% Forecast (🟠)
-- OECD projects US inflation to **4.2%** on energy shock (FT/OECD Mar 26)
-- Institutional validation of Hamilton framework: oil → CPI → no Fed cut → demand destruction accelerates
-- Fed trapped: cannot cut into 4.2% CPI with energy prices rising. Policy paralysis confirmed at multilateral level
-- Detail in HENRY inbox signal
-- *Cross-post to HENRY: inflation/Fed pathway*
+### ADCOP Status Clarification (🟠 — downgrade from 🔴🔴)
+- ADCOP operational at **71% utilization** (~1.07M bpd flowing) as of mid-March
+- Fujairah terminal loadings **temporarily suspended** after drone strikes, debris fires
+- Iran labeled Fujairah "legitimate target" — ongoing threat
+- **NOT fully offline** as feared from Mar 31 fire reports. Impaired but functional
+- ADNOC advancing second 1.5M bpd line (Habshan-Fujairah) for 2027
+- **Net assessment:** bypass partially functional but degraded and under active threat. Zero-bypass scenario not confirmed but remains plausible if Iran escalates post-Apr 6
 
 ## KEY REFERENCES
-- **Hamilton Framework:** `domain/sources/HAMILTON_DEMAND_DESTRUCTION_FRAMEWORK.md` — NOPI=47, GDP drag -3.0 to -4.9pp
+- **Demand Destruction:** `demand_destruction/TRACKER.md` — live weekly dashboard, all DD indicators
+- **Hamilton Framework:** `demand_destruction/HAMILTON.md` — NOPI=47, GDP drag -3.0 to -4.9pp
 - **Facility damage:** `HAWK/domain/OIL_FACILITY_DAMAGE_TRACKER.md`
 - SK refiners: ~3 weeks feedstock → early Apr run cuts. S-Oil faces earliest curtailment
 - Mine clearance: 30-90d navigable corridor. P&I reinstatement (4-12 wk) is binding constraint
