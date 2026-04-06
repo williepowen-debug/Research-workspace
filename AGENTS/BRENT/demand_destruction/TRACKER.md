@@ -1,6 +1,6 @@
 # DEMAND DESTRUCTION TRACKER
 
-**Last Updated:** 2026-04-05 (Phase 1 gap closure) | **War Day:** 34 | **Phase:** 1 (ACTIVE) | **Phase 2 Status:** NOT TRIGGERED — but airline leading indicator NOW FIRING
+**Last Updated:** 2026-04-06 (Monday morning pull — PATH A ALERT ACTIVE) | **War Day:** 35 | **Phase:** 1 (ACTIVE) | **Phase 2 Status:** NOT TRIGGERED — ⚠️ PATH A WATCH: ceasefire proposal + Iraqi tanker transit + Trump Tuesday deadline
 
 ---
 
@@ -106,7 +106,7 @@ Record each week's key readings here. Update Wednesday (post-EIA) and Friday (po
 | Mar 27 | — | — | — | — | — | — | — | Crude stocks 424.4M (-19M draw). Refinery 94.8% util |
 | Mar 31 | — | — | — | 73.3K (NYMEX) | — | — | — | CFTC backlog cleared. ICE net short 33.8K |
 | Apr 4 | $4.08 | — | ~$8-10 est | — | — | — | 553 | $4 breached. Dated Brent $141. UAL/DAL/AAL cuts confirmed |
-| | | | | | | | | |
+| Apr 6 | — | — | ~$18+ est (F1-F2 ~$9.60 [CONF]) | — | — | 99.81 | — | ⚠️ PATH A ALERT: 45-day ceasefire proposal active. Iraqi tanker transited Hormuz Apr 5. Brent ~$109.90, WTI ~$111.54. LNG $282.52, EOG $143.00, USO $137.92. Trump Tuesday deadline. |
 
 ---
 
