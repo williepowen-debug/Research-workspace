@@ -14,6 +14,7 @@
 - Mar 26: 85% confidence. Ceasefire rally cost 32% of gains. Near-dated puts = biggest risk.
 - Apr 2: 75% confidence. Full network read. Downgraded on: unanimity risk, counter-signals dismissed, policy rescue underweighted, timeline mismatch.
 - Apr 5: 77% confidence. NFP +178K (employment bull) offset by Dated Brent $141 (oil bear). Two RED predictions WRONG (NFP range, oil ceiling). HY OAS 316 = strongest counter-signal.
+- Apr 7: 76% confidence. HY OAS crashed to 305 (COMPELLING). VIX-HY divergence. LIQUID broke consensus (🟡). Kharg struck — muted reaction. 3/10 predictions WRONG. HYG puts 🔴🔴 CRITICAL.
 
 ## Methodology Notes
 - Network unanimity (all agents RED) is itself a risk signal — treat maximum alignment as maximum blind spot risk.
@@ -27,12 +28,14 @@
 - RED reads all agents but owns no domain data. Challenge what others produce.
 - CARL, SAM, REGINALD run on Claude Code independently — do not expect to spawn them.
 
-## Standing Counter-Evidence (Updated Apr 5)
-- **HY OAS tightened to 316** — Most dangerous counter-signal. Credit NOT confirming despite oil crisis + stage 3 gating. If <300, exit HYG.
+## Standing Counter-Evidence (Updated Apr 7)
+- **HY OAS crashed to 305** — COMPELLING counter-signal. 37bps tightening in 5 days. 5bps from 300 falsification threshold. LIQUID at 🟡. VIX-HY divergence (26.59/305). If <300, exit HYG + reduce all 25%.
+- **KEY INSIGHT:** HY OAS = corporate credit. Does NOT kill bank thesis (OZK/WAL/KRE depends on earnings). Kills HYG puts specifically.
 - **NFP +178K** — Employment channel genuinely resilient. Underlying ~+143K ex-strike. Wages +3.5% YoY (stagflation, not strength).
 - Staffing canaries (RHI/KFRC) turned positive after 12Q of decline — first cycle indicator inflecting.
-- Continuing claims at 2-year low (1.819M) — attribution to exhaustion is assumption, not proven.
+- Continuing claims ticked up to 1.841M (+25K) — slight deterioration.
 - ~~Oil ceiling at $108-112~~ **INVALIDATED.** Dated Brent $141. RED was wrong.
+- **Muted Kharg reaction:** 90% Iran exports struck, Brent +1-2%. Market shrugging.
 
 ## Cleanup Done (Apr 5)
 - RED_SKELETON.md — DELETED. VX.tsv is the live counter-evidence system. Git history has the old file.

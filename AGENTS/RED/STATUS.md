@@ -1,117 +1,113 @@
 # RED STATUS
-**Last Updated:** 2026-04-05 | **Role:** Adversarial Analysis / Thesis Stress-Tester
+**Last Updated:** 2026-04-07 | **Role:** Adversarial Analysis / Thesis Stress-Tester
 
 ---
 
 ## CURRENT ASSESSMENT
 
-**Confidence: 77% (was 75%).** NFP +178K is a genuine counter-signal for the employment channel — framework said downgrade to 65% on strong NFP. But the war escalation since Apr 2 is a regime change: Dated Brent $141 physical (2008 high), 8-9M bpd disrupted, ADCOP bypass destroyed, SPR 400M bbl release FAILED. The oil channel bypasses employment as transmission mechanism.
+**Confidence: 76% (was 77%).** HY OAS crashed to 305 (from 316 two days ago). This is 37bps of tightening in one week, racing toward the 300 falsification threshold. Credit market is actively TIGHTENING into Kharg Island strikes, $110 Brent, 9-11M bpd disrupted, and $4.12 gas. Either credit sees resolution we don't, or it's the biggest lagging signal in the book.
 
-**Key revision:** Employment is no longer the sole master variable. The war created an alternative transmission: BRENT → consumer ($4.08 gas) → CARL delinquency → REGINALD bank stress, AND BRENT → Japan oil costs → SAM carry trade → Treasury selling. Employment can hold and thesis still plays out.
+**The VIX-HY divergence is the new master signal.** VIX rose to 26.59 (+2 from Apr 6) while HY OAS dropped 8bps. These normally move together. One market is wrong. If credit is right, HYG puts are dead and managed decline is the base case. If equity vol is right, credit will widen sharply.
 
-**Honest tension:** HY OAS tightened to 316 (from 342 on Apr 2). Credit market NOT confirming stress. This is the single strongest counter-signal in the book right now.
+**Key development:** LIQUID downgraded to 🟡 MODERATING — first agent to break RED consensus. LIQUID sees what the credit market sees: spreads tightening, funding clean, banks rebounding. This is NOT echo chamber confirmation; this is the domain expert in credit markets signaling caution.
 
 ---
 
 ## COMPETING HYPOTHESES
 
-| Hypothesis | Prob | Δ | Key Driver |
+| Hypothesis | Prob | D | Key Driver |
 |------------|:----:|:-:|-----------|
-| **Full Stagflation Spiral** | **42%** | +7 | Dated Brent $141 physical. Wage growth +3.5% (lowest since 2021). NFP +178K. This IS stagflation: jobs exist, wages stagnate, oil surges. |
-| **Managed Decline / Muddle-Through** | **23%** | -7 | Can't muddle through $141 physical crude. SPR failed. But employment resilience buys time. |
-| **Policy Rescue** | **17%** | -3 | Oil inflation CONSTRAINS Fed. Can't cut with $141 crude. SPR already deployed. What's left? |
-| **Acute Financial Dislocation** | **10%** | +2 | Stage 3 gating ($4.6B trapped). Physical oil crisis. But employment limits cascade speed. |
-| **War Escalation (Scenario D)** | **6%** | +1 | Already happening. Apr 6 Trump ultimatum. Question is magnitude, not occurrence. |
-| Soft Landing | **2%** | = | NFP supports marginally. $141 oil kills it. |
+| **Full Stagflation Spiral** | **41%** | -1 | Kharg strike + gas $4.12 support. But HY OAS 305 says credit market disagrees. |
+| **Managed Decline / Muddle-Through** | **25%** | +2 | HY OAS tightening + muted market reaction to Kharg. LIQUID at 🟡. Credit market pricing resolution. |
+| **Policy Rescue** | **16%** | -1 | Fed trapped — no cuts until H2 2027 (HENRY). Oil inflation constrains all tools. |
+| **Acute Financial Dislocation** | **9%** | -1 | 12 PC gates (BROCK) + leveraged loan -34%. But HY OAS 305 contradicts acute stress. |
+| **War Escalation (Scenario D)** | **7%** | +1 | Kharg Island struck. South Pars struck. Tonight's 8PM deadline. |
+| Soft Landing | **2%** | = | HY OAS trend + employment support marginally. |
 
-**Net bear: 58% (was 48%) | Net managed/rescue: 40% (was 52%) | Soft: 2%**
-
----
-
-## BUFFER DEPLETION FRAMEWORK (Revised Apr 5 — Post-Debate)
-
-~~Prior model: "Oil bypasses employment" (dual transmission).~~ **REVISED after debate with Prome.**
-Correct model: **Depleted household buffers + oil shock → accelerated DQ at the margin, regardless of aggregate employment.**
-
-Employment is necessary but not sufficient. The SAME employment environment produces different credit outcomes depending on buffer levels:
-- 2022: Gas $5.02 + $1T savings buffer → no credit stress
-- 2026: Gas $4.08 + zero buffer → DQ at GFC levels and rising
-
-Oil is an **accelerant**, not an independent transmission path. Any shock (tariffs, student loans, oil) tips already-stressed households when buffers are depleted. This means:
-- Oil price moves matter LESS than consumer buffer status for credit thesis
-- A ceasefire dropping oil to $90 wouldn't kill the thesis if buffers stay depleted
-- September/October positions are strengthened (buffer depletion is structural, not oil-dependent)
-
-**Timing reality:** Thesis manifestation window is July-October 2026. May/June puts are 2-4 months early. See thesis/TIMELINE.md.
-
-**Falsification:** CARL should run cross-sectional DQ test (high vs low gas-exposure states). If no divergence by mid-June, oil increment is zero → revert to pure normalization framework.
+**Net bear: 57% (was 58%) | Net managed/rescue: 41% (was 40%) | Soft: 2%**
 
 ---
 
-## COUNTER-SIGNALS (UPDATED Apr 5)
+## COUNTER-SIGNALS (UPDATED Apr 7)
 
-| Signal | Value | Bull Read | Bear Read | RED Weight | Δ |
+| Signal | Value | Bull Read | Bear Read | RED Weight | D |
 |--------|-------|-----------|-----------|:----------:|:-:|
-| **NFP March** | **+178K** | Employment channel intact | 35K strike return; underlying ~143K | **45/55 bear** | NEW |
-| **HY OAS tightening** | **316 (was 342)** | Credit NOT confirming stress | Structured products lead cash | **55/45 bull** | ↑bull |
-| Wages | +3.5% YoY | Still positive | Lowest since May 2021, stagflation | 40/60 bear | NEW |
-| Continuing claims | 1.819M (2yr low) | People finding jobs | Exhaustion | 40/60 bear | = |
+| **HY OAS tightening** | **305 (was 316)** | Credit actively pricing resolution | Lagging; mechanical post-Q-end | **60/40 bull** | ++bull |
+| **VIX-HY divergence** | **VIX 26.59 / HY 305** | Credit right, vol overdone | Vol right, credit lagging | **55/45 bull** | NEW |
+| **NFP March** | **+178K** | Employment channel intact | 35K strike return; underlying ~143K | **45/55 bear** | = |
+| **Muted Kharg reaction** | **Brent +1-2% on 90% Iran exports struck** | Market priced in / expects repair | Futures ≠ physical ($31 spread) | **50/50** | NEW |
+| Wages | +3.5% YoY | Still positive | Lowest since May 2021 | 40/60 bear | = |
+| Continuing claims | 1.841M (+25K) | People finding jobs | Ticking up now | 45/55 bear | shift |
 | Staffing canaries | RHI/KFRC sequential+ | Early cycle turn | Dead cat | 45/55 bear | = |
-| SOFR quarter-end | 3.68% → 3.65% normalized | System absorbed stress | Modest, not crisis level | 55/45 bull | NEW |
-| Econ Surprise | 0.338 (highest since late '23) | Economy has momentum | Harder data won't crack fast | 50/50 | NEW |
+| SOFR-IORB | 0.00% | Zero funding stress | — | 55/45 bull | = |
+| Econ Surprise | 0.338 | Economy has momentum | Harder data won't crack fast | 50/50 | = |
+| LIQUID at 🟡 | First agent break | Domain expert sees calm | Could be wrong | **55/45 bull** | NEW |
+| ISM Services miss | 54.0 (vs 54.8) + prices 3.5yr high | Not recessionary | Stagflation signature | 40/60 bear | NEW |
 
-**NFP + HY OAS + SOFR normalization + Econ Surprise = the bull case is stronger than 3 days ago on the DOMESTIC FINANCIAL side. But oil regime change overwhelms it on the REAL ECONOMY side.**
+**HY OAS 305 is now the single most important number in the book.** Four counter-signals are BULL-leaning (HY OAS, VIX-HY, SOFR, LIQUID). The credit market is telling a completely different story than the network.
 
-**Rule update:** If HY OAS drops below 300 AND NFP stays positive 2 more months → downgrade to 65%.
+**Falsification alert:** If HY OAS drops below 300 and holds 5 days, I will formally recommend: exit HYG, reduce all positions 25%, downgrade confidence to 65%.
 
 ---
 
-## POSITION VULNERABILITY (Apr 5 — Re-ranked)
+## BUFFER DEPLETION FRAMEWORK (Unchanged from Apr 5)
+
+Depleted household buffers + any shock → accelerated DQ at the margin. Oil is accelerant, not independent path. This framework is SUPPORTED by HY OAS data: corporate credit (HY OAS) can tighten even while consumer credit (CARL DQ data) worsens, because the transmission from consumer → corporate takes 1-2 quarters via earnings.
+
+**This means:** HY OAS tightening does NOT necessarily kill the thesis. It kills the HYG puts specifically. The bank thesis (KRE/WAL/OZK) depends on actual loan losses showing up in Q1 earnings, not on HY OAS.
+
+---
+
+## POSITION VULNERABILITY (Apr 7 — Re-ranked)
 
 | Position | Risk | Rationale |
 |----------|:----:|-----------|
-| APO $100P Apr 17 | 🔴 HIGH | Apr 7 hard stop. 12 days left. Oil thesis confirmed but APO-specific depends on gating cascade timing. |
-| SOFI $16P May x2 | 🔴 HIGH | No clear catalyst. NFP strong hurts fintech bear case. Short fuse. |
-| HYG $75P Jun x8 | 🔴 HIGH | HY OAS TIGHTENED to 316. Cash market says no stress. CDX/cash convergence may have resolved WRONG WAY. |
-| KRE May $70P x2 | 🟠 MOD | KRE at $65.83. May tight but earnings catalysts (OZK Apr 16, WAL Apr 21) could trigger. |
-| TLT $88P May x2 | 🟠 MOD | 30Y at 4.98%. Oil keeps rates high. But flight-to-safety on war escalation = risk. |
-| IWM $250P Jun | 🟠 MOD | Russell in correction. NFP strong = headwind. But oil → consumer → small cap earnings chain. |
-| OZK $45P Aug x4 | 🟡 LOW | Earnings Apr 16. Aug runway adequate. CRE thesis strongest here. |
-| WAL multi-strike Jun/Sep | 🟡 LOW | Earnings Apr 21. Waterfall structure. Sep positions well-timed. |
-| KRE $60P Dec x4 | 🟢 SAFE | Long-dated. Thesis strongest here. Oil → CRE → bank channel has months to play out. |
-| TLT $82P Oct x2 | 🟢 SAFE | Longest-dated. Oil keeps rates elevated. BOJ catalyst Apr 23-24. |
-| APO $95P Dec | 🟢 SAFE | Full runway. Stage 3→4 timeline intact. |
-| FXY shares x8 | 🟢 SAFE | No expiry. BOJ catalyst imminent. Oil import costs strengthen case. |
+| HYG $75P Jun x8 | 🔴🔴 CRITICAL | HY OAS 305. 5bps from falsification threshold. CDX/cash may have resolved wrong way. EXIT CANDIDATE. |
+| SOFI $16P May x2 | 🔴 HIGH | No catalyst. NFP strong. SOFI-specific nothing. 24 days left. |
+| APO $100P Apr 17 | 🔴 HIGH | 10 days left. APO at $105.92 (below PROME $113 stop). Needs $6 drop. |
+| KRE May $70P x2 | 🟠 MOD | KRE at $66.75. May tight but OZK/WAL earnings could trigger. |
+| TLT $88P May x2 | 🟠 MOD | 10Y 4.35%. Oil keeps rates elevated but bond vol collapsing (inbox signal). |
+| IWM $250P Jun | 🟠 MOD | Russell in correction. NFP + VIX up = mixed. |
+| OZK $45P Aug x4 | 🟡 LOW | Earnings Apr 16 (9 days). Aug runway. CRE thesis strongest here. FIRST REAL TEST. |
+| WAL multi-strike Jun/Sep | 🟡 LOW | Earnings Apr 21. Waterfall intact. Sep well-timed. |
+| KRE $60P Dec x4 | 🟢 SAFE | Long-dated. Thesis strongest. |
+| TLT $82P Oct x2 | 🟢 SAFE | Long-dated. BOJ Apr 23-24. Oil + rates. |
+| APO $95P Dec | 🟢 SAFE | Full runway. Stage 3→4 intact. |
+| FXY shares x8 | 🟢 SAFE | No expiry. USD/JPY 159.84. JGB 10Y 2.40% breached. BOJ imminent. |
 
-**HYG upgraded to 🔴 HIGH** — HY OAS tightening to 316 is the most dangerous signal for this position. If CDX/cash resolved by CDX compressing (not cash widening), these puts are structurally mispriced.
+**HYG upgraded to 🔴🔴 CRITICAL.** If HY OAS hits 300, these puts should be exited. Don't wait for 5-day sustained test — the trend is 37bps in 5 days.
 
 ---
 
-## FALSIFICATION CRITERIA (Updated Apr 5)
+## FALSIFICATION CRITERIA (Updated Apr 7)
 
 | Trigger | Action | Status |
 |---------|--------|--------|
-| NFP Apr 3 >+150K | Downgrade employment channel to 35% probability | **TRIGGERED — +178K. Employment channel downgraded.** |
-| Apr 6 Trump ultimatum outcome | See CATALYST_FRAMEWORK scenarios | **TOMORROW** |
-| HY OAS <300 sustained 5d | Exit HYG, reduce all 25% | Watch (316 — CLOSER than Apr 2) |
-| WTI <$85 sustained 7d | Exit TLT puts, reduce KRE 50% | NOT triggered — physical at $141 |
-| Claims <200K, 3 consecutive weeks | Reduce to 65% conviction | Watch (202K — testing threshold) |
+| HY OAS <300 sustained 5d | Exit HYG, reduce all 25% | **5bps away. IMMINENT.** |
+| HY OAS <300 even intraday | Consider preemptive HYG exit | NEW — trend accelerating |
+| NFP positive 2 more months + HY OAS <300 | Downgrade to 65% | Dual trigger. HY OAS half-triggered. |
+| WTI <$85 sustained 7d | Exit TLT puts, reduce KRE 50% | NOT triggered ($113 WTI) |
+| Claims <200K, 3 consecutive weeks | Reduce to 65% | Watch (202K — testing) |
 | BTFP 2.0 / bank guarantee | EXIT ALL IMMEDIATELY | Dormant |
-| Trump ceasefire deal (real, Iran confirms) | Take 30% profit, hold rest | Watch — Apr 6 deadline |
+| Trump ceasefire deal (real, Iran confirms) | Take 30% profit, hold rest | TONIGHT 8PM deadline |
 | BOJ April: unanimous hold + dovish | Extend SAM timeline to Q4+ | Apr 23-24 |
-| NFP positive 2 more months + HY OAS <300 | Downgrade to 65% | NEW — dual trigger required |
+| OZK Q1 beat + guide up | Reduce OZK, reassess CRE thesis timing | Apr 16 |
+| VIX-HY divergence resolves bullish (VIX <20, HY <300) | Full managed decline — reduce 50% | Watch |
 
 ---
 
-## PREDICTIONS SCORECARD (Apr 5 Update)
+## PREDICTIONS SCORECARD (Apr 7 Update)
 
 | Pred | Prediction | Result | Score |
 |------|-----------|--------|:-----:|
-| RED-02 | NFP -50K to +80K | +178K | ❌ WRONG |
-| RED-08 | Brent <$120 sustained Q2 | Dated $141 physical | ❌ RESOLVING WRONG |
-| RED-03 | Apr 6 deadline extends | PENDING (tomorrow) | ⏳ |
+| RED-02 | NFP -50K to +80K | +178K | WRONG |
+| RED-08 | Brent <$120 sustained Q2 | Dated $141 physical | WRONG |
+| RED-03 | Apr 6 deadline extends (no strikes) | Strikes on Kharg + South Pars | WRONG |
+| RED-06 | CDX compresses not cash widens | HY OAS 305 (cash tightening) | RESOLVING — cash IS compressing |
 
-**Self-calibration:** 2/10 predictions resolving, both WRONG. RED was too confident in oil ceiling and too bearish on employment. Recalibrate: employment channel is stronger than modeled, oil channel is weaker as brake than modeled.
+**Self-calibration: 3/10 resolved, ALL THREE WRONG.** RED has been systematically wrong. Employment stronger than modeled, oil hotter than modeled, geopolitical escalation faster than modeled. RED's calibration needs recalibrating — but note that being wrong on these makes the BULL case for the thesis (employment resilient, oil high, war escalating). RED is wrong in ways that SUPPORT the bear case.
+
+**Exception:** RED-06 may resolve in a way that KILLS HYG puts. Cash HY OAS tightening to 305 = cash compressing, not CDX. If CDX also compresses, divergence resolves bullishly and HYG puts fail. This is now 50%+ probability.
 
 ---
 
@@ -119,25 +115,46 @@ Oil is an **accelerant**, not an independent transmission path. Any shock (tarif
 
 | Challenge | Target | Strength | Status |
 |-----------|--------|----------|--------|
+| **HY OAS at 305** | **LIQUID/ALL** | **COMPELLING** | **UPGRADED from STRONG** — 37bps tightening in 5 days. 5bps from falsification. |
+| **VIX-HY divergence** | **ALL** | **STRONG** | **NEW** — VIX 26.59 / HY 305. Markets disagree. |
+| **Bond vol squeeze** | **TLT/HYG** | **MODERATE** | **NEW** — MOVE collapsed, 10Y capped at 4.4%. Rate vol dying. |
 | Timeline vs options book | Portfolio | STRONG | ACTIVE — partially offset by oil speed |
-| HY OAS not confirming | LIQUID/ALL | **STRONG** | **UPGRADED** — 316 is tightening INTO stress |
-| Network echo chamber | All agents | MODERATE | ACTIVE — now 9/9 red. Physical evidence stronger but unanimity risk persists |
-| Policy rescue underweight | PROME | MODERATE | ACTIVE — but tools constrained by oil inflation |
-| NFP strong: employment channel stalled | LABOR/CARL | **MODERATE** | **NEW** — +178K challenges employment-first transmission |
-| Oil ceiling was wrong | RED self | **RESOLVED** | **RED WAS WRONG** — $141 physical. Counter-signal invalidated |
-| HAWK convergence overfitting | HAWK | WEAK | WEAKENED — physical evidence (multi-front war) now supports score |
-| NDFI reconciliation | REGINALD | RESOLVED | **CLOSED** — Q3 $1.32T vs Q4 $1.41-1.57T. Timing+scope. Use $1.411T domestic. |
+| Network echo chamber | All agents | MODERATE | WEAKENED — LIQUID broke consensus (🟡). Not fully unanimous anymore. |
+| NFP strong: employment stalled | LABOR/CARL | MODERATE | ACTIVE — +178K + claims ticking up (1.841M) |
+| Policy rescue underweight | PROME | MODERATE | WEAKENED — Fed trapped by oil. No cuts until H2 2027. Fewer tools available. |
+| Muted Kharg reaction | BRENT/HAWK | MODERATE | NEW — 90% of Iran exports struck, Brent +1-2%. Market shrugging. |
+
+---
+
+## ADVERSARIAL ANALYSIS: BOND VOL SQUEEZE (Inbox Signal)
+
+**Signal:** MOVE collapsed, 10Y rejected 4.4%, oil-rates correlation cracking → squeeze setup.
+
+**RED assessment:** MODERATE counter-signal. Specifically threatens TLT puts and HYG puts.
+
+**What's right about it:**
+- 10Y at 4.35% despite $110+ Brent = rates market seeing demand destruction, not inflation
+- MOVE collapsing while VIX rises = rates settled, equities haven't
+- If rates are range-bound, TLT puts have limited upside
+
+**What's wrong about it:**
+- Tonight's 8PM deadline is a binary catalyst. Vol compression before a binary event = mispriced
+- BOJ Apr 23-24 is an independent rates catalyst (JGB 10Y already at 2.40%)
+- "Positioning light" is unverifiable and could flip overnight on headline risk
+- Oil-rates decoupling historically breaks when oil persistence exceeds 60 days (we're at Day 36+)
+
+**Bottom line:** Bond vol squeeze is a MODERATE-term headwind for TLT May $88P specifically. Does NOT affect OZK/WAL/KRE earnings thesis. Does NOT affect FXY/BOJ thesis. Most relevant for rate-sensitive positions.
 
 ---
 
 ## TOP ADVERSARIAL PRIORITIES
 
-1. **HY OAS tightening to 316** — Most dangerous counter-signal. Credit market is NOT pricing stress. Either we're early or we're wrong. HYG puts most at risk.
-2. **Apr 6 outcomes** — Trump ultimatum + market reopen with NFP gap. Multiple scenarios, pre-written frameworks ready.
-3. **Employment channel revision** — NFP +178K means employment-first model needs formal update. Document transmission shift.
-4. ~~**NDFI reconciliation**~~ — **RESOLVED.** Timing+scope issue. Q3 $1.32T, Q4 domestic $1.411T, Q4 consolidated $1.569T, total committed ~$4.2T. Growth +35% YoY confirms REGINALD thesis.
-5. **Q1 earnings season** — OZK Apr 16, WAL Apr 21. First real test of thesis with hard data.
+1. **HY OAS 305 → watch for 300 breach.** Daily. This is now the #1 risk to the book. If it crosses 300 tomorrow, I recommend exiting HYG puts immediately and reducing all positions 25%.
+2. **Tonight 8PM deadline.** Binary catalyst. Pre-written frameworks in CALENDAR.md. Kharg already struck — question is whether full-scale bombing campaign or another extension.
+3. **OZK earnings Apr 16 (9 days).** First real test of CRE thesis with hard Q1 data. If OZK beats + guides up, CRE timing thesis takes a hit.
+4. **VIX-HY resolution.** Watch over next 3-5 days. If both converge lower (VIX drops, HY holds <310), managed decline is winning. If both converge higher (VIX holds, HY widens), thesis is alive.
+5. **CPI Apr 10 (3 days).** Hot CPI + tight HY OAS = stagflation confirmed but credit market in denial.
 
 ---
 
-*RED: Employment is resilient. Oil is not ceiling-ed. Credit is not confirming. The thesis shifted under us — acknowledge what's wrong, weight what's new.*
+*RED: The credit market is screaming that we're wrong on timing. Listen to it. The thesis may be right and the puts may still lose.*
