@@ -1,5 +1,19 @@
 # LABOR STATUS
-**Last Updated:** 2026-04-06 20:20 UTC | **Status:** 🟡 POST-NFP DIGEST DAY — MARKETS ABSORB +178K HEADLINE. NO NEW LABOR DATA. FL WAVE 1 LAG TEST REMAINS THURS APR 10. CONVERGENCE 56/65.
+**Last Updated:** 2026-04-07 13:31 EDT | **Status:** 🟡 TUESDAY DIGEST — NO NEW LABOR DATA TODAY. FL WAVE 1 LAG TEST THURS APR 10. CONVERGENCE 56/65.
+
+**Signal Apr 7 — AM Scan (13:31 EDT):**
+
+**📊 NO NEW LABOR DATA TODAY.** Economic calendar empty for LABOR-critical releases. ADP weekly NER pulse (minor) scheduled. Markets digesting Friday's NFP (+178K) in context of Iran war Day 36, Brent $109.
+
+**📊 FL WAVE 1 LAG TEST = THURS APR 10:** Week ending Apr 4 claims print is make-or-break for suppression thesis. If claims <215K → FL Wave 1 confirmed suppressed → shadow adjustment upgrades to +70K. Current shadow: +65K (implied true claims ~267K).
+
+**📊 OVERNIGHT/PRE-MARKET:** No material labor market developments. Consensus continues digesting NFP headline beat (+178K vs +60K exp) while acknowledging internals (healthcare 43%, strike return 31K, Feb revised to -133K). Underemployment (U-6) edged up to 8.0% — highest since 2023 recovery period.
+
+**📊 WHAT TO WATCH TODAY:**
+- ADP weekly pulse (9:15 AM ET) — minor, but directionally informative
+- Fed speaker calendar — any labor market commentary
+- Corporate earnings/commentary — hiring freeze contagion post-Unilever
+- Energy price action — Brent $109 sustained = demand destruction accelerator
 
 **Signal Apr 6 — EOD (20:20 UTC):**
 

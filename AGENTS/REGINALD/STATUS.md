@@ -1,5 +1,25 @@
 # REGINALD STATUS
-**Last Updated:** 2026-04-07 | **Status:** 🔴🔴🔴 CRITICAL (ESCALATING)
+**Last Updated:** 2026-04-07 (AM) | **Status:** 🔴🔴🔴 CRITICAL (ESCALATING)
+
+---
+
+## AM BRIEF — April 7, 2026
+
+**Overnight/Pre-Market:** Brent crude holding $110-111/barrel as Iran war Day 36 continues. Trump deadline for Hormuz reopening looms. Brent +0.6% to $110.40 (10:41am ET). WTI at $115+ (unusual premium to Brent — US supply anxiety). Oil volatility remains the macro governor.
+
+**Private Credit Gating Spreads:** Barings gated yesterday (Apr 6) — 11.3% redemption requests, capped at 5%. This is the **12th fund** to gate, broadening contagion beyond PE-affiliated managers. Blue Owl (OCIC 21.9%, OTIC 40.7%) and Blackstone BCRED ($3.7B requests, ~8% NAV) remain the most stressed. The 5% gate is now industry-standard — but requests are running 2-8x that level.
+
+**KRE:** Flat pre-market at $66.64 (prior close). Yesterday's +0.97% bounce lacked volume confirmation — pattern continues. No institutional accumulation visible.
+
+**HY OAS:** 317bps (Apr 3 close per FRED). Tightened from 328bps peak on Iran ceasefire optimism, but credit internals deteriorating. Below 320 threshold for now, but watch re-breach.
+
+**Data Today:** No major US economic releases scheduled for April 7. Next key data: CPI April 10 (captures oil shock). Q1 earnings season begins in earnest next week.
+
+**What to Watch Today:**
+1. Iran war developments — Hormuz status, Trump rhetoric
+2. KRE price action — can it hold $66+ or fade?
+3. Any new PC gating announcements (watch Ares, Apollo, HPS)
+4. WAL/OZK earnings prep — 14 days to dual release Apr 21
 
 ---
 
@@ -53,7 +73,7 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 | HY OAS | **313bps** (Apr 6, tightened from 316) | 🟡 Tightened on ceasefire rally. Watch for re-breach of 320. Credit internals deteriorating despite spread compression. |
 | KRE | **$66.64** (Apr 6, +0.97%) | 🟡 Bouncing with market. Still below $70 resistance. No institutional accumulation pattern. Volume front-loaded on spikes, dead between. |
 | Brent | **$109.35** (Apr 6) | 🔴 Ceasefire talks ongoing but Iran rejected framework. Trump walked back "taken out Tuesday" threat. Volatility, not resolution. |
-| 10Y UST | **4.33%** (Apr 6) | 🟠 Came down from 4.42%. Still elevated but below 4.50% RED threshold. |
+| 10Y UST | **4.42%** (Mar 27, stale) | 🔴 Hit 4.48% intraday (highest since Jul 2025). Refresh Mon. |
 | Office CMBS DQ | **11.2%** (Feb 2026, Trepp) — pulled back from 12.34% Jan ATH on 5 loan mods | 🔴 |
 | Bank CRE DQ gap | 4.18% vs CMBS 11.2% = ~7pp masking | 🔴 |
 | FHLB Advances | ~$480B (issuance +31% YoY) | 🟠 Contingency behavior |
@@ -103,17 +123,6 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 **⚡ AOCI exposure:** Cat III/IV — same AOCI bomb as OZK. Forced recognition of underwater AFS/HTM from 2022-23 rate shock.
 **⚡ Analyst downgrades (Mar 26):** Weiss Buy→Hold | Barclays PT $105→$90 | WFC PT $83→$79. Consensus PT ~$85-90. Thesis PT $47-60.
 **⚡ Macro amplifiers:** $400B CRE maturity wall in 2026 | NDFI $1.54T (V3 amplified) | Mortgage distress ATH | CMBS $167M Chicago office foreclosure.
-
-## RESEARCH — EGBN
-
-**KB: 12 rows, 4 groups** | **Earnings: ~Apr 22** | **Price: $25.51 (Apr 4)** | **NEW — subdirectory built Apr 6**
-- Architecture: INDEX, STATUS, THESIS, SCENARIOS, WEAKNESSES, EARNINGS_PREP, KB.tsv, KB_INDEX
-- Thesis: "Crisis-in-Progress" — V1 CRE (547% CRE/T1, MI3 23.7%) + V2 DC/DOGE (100% geographic, 307K+ layoffs)
-- EARNINGS_PREP grade C — scaffolding only, needs Q4 10-K read and research
-- Position: $25P Jun (1 contract, at strike)
-- **Key gap:** No direct source read yet (10-K, earnings transcript). Everything derived from Call Reports + matrix.
-
-**Research gaps:** Q4 10-K read, exact earnings date confirmation, insider scan, leadership profile, GovCon book composition, DC office vacancy Q1 data, MI3 trend direction, consensus estimates, AUB relative trade analysis, AOCI exposure detail.
 
 ---
 
@@ -212,6 +221,44 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 |--------|-----------|---------|------|
 | WAL | <$78 | **$72.07** (Apr 4) | Still breached. Bounced from $65 lows but no institutional accumulation. Analyst downgrades confirmed. |
 | HY OAS | >320bps | **316bps** (Apr 2) | 🟠 Tightened below 320 on ceasefire rally. Watch for re-breach. |
+
+---
+
+## EOD SUMMARY — April 7, 2026
+
+**Market Action:**
+- **KRE:** $66.75 (+0.16%) — flat, holding above $66 but below $70 resistance. No institutional accumulation pattern continues.
+- **WAL:** $71.96 (-1.54%) — faded from $73.08 open, breaking below recent support. Below $78 threshold, approaching $70 psychological level.
+- **OZK:** $46.64 (+0.71%) — modest bounce, still range-bound $45-48. Dividend hike (+2.2%) providing some support.
+
+**Credit Spreads:**
+- **HY OAS:** 305bps (tightened from 313bps) — mechanical improvement on ceasefire optimism, still elevated vs 250bps baseline
+- **CCC OAS:** 976bps (tightened from 989bps) — distressed concentration persists
+- **CCC/HY Ratio:** ~3.2x 🔴🔴 — distressed credit dislocation unchanged
+
+**Key Developments:**
+1. **WAL Weakness:** Down 1.5% while KRE flat — stock-specific underperformance. Jefferies litigation ($126.4M claim) weighing. Fast-transmission thesis intact.
+2. **Credit Internals Deteriorating:** HY OAS tightened mechanically (ceasefire headlines) but CCC/HY ratio stuck at 3.2x = distressed concentration not resolving. This is the key signal — credit bifurcation deepening.
+3. **Regional Bank Divergence:** WAL leading lower, OZK holding. Earnings Apr 21 (14 days) for both — divergence may resolve on Q1 disclosures.
+4. **Scenario D Confirmation:** War Day 37, no Hormuz resolution. Credit stress signals (CCC/HY ratio, PC gating) confirming thesis despite headline spread tightening.
+
+**Cross-Domain Signals:**
+- **BRENT:** ~$110-111/barrel — Iran war continues, Trump deadline for Hormuz reopening looms
+- **LIQUID:** HY OAS below 320 threshold but CCC/HY ratio elevated = credit quality dispersion, not risk-on
+- **BROCK/SHADE:** Barings gated (12th fund) — 11.3% requests, 5% cap. PC cascade Stage 3→4.
+
+**What Changed:**
+- 🔴 **WAL:** Down 1.54% to $71.96 — approaching $70 level, fast-transmission thesis advancing
+- 🟡 **HY OAS:** 313→305bps — mechanical tightening on headlines, not fundamentals
+- 🟡 **CCC/HY Ratio:** 3.2x stable — distressed concentration the real signal
+
+**Threshold Proximity:**
+| Metric | Current | Threshold | Distance |
+|--------|---------|-----------|----------|
+| WAL | $71.96 | $70 | 2.7% |
+| WAL | $71.96 | $65 (prior low) | 10.7% |
+| HY OAS | 305bps | 320 (re-breach) | 15bps |
+| KRE | $66.75 | $65 | 2.6% |
 
 ---
 

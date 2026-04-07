@@ -1,0 +1,1 @@
+{"ts": 1775583096.7440128, "val": {"Brent": {"error": "'currentTradingPeriod'", "name": "Brent"}, "WTI": {"price": 3.35, "prev": 3.42, "change_pct": -2.0, "name": "WTI"}, "USDJPY": {"error": "'currentTradingPeriod'", "name": "USDJPY"}}}
