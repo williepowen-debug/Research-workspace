@@ -1,6 +1,7 @@
+## COMPLETION — REGINALD — 2026-04-07
 STATUS: ✅ DONE
-CHANGED: [AGENTS/REGINALD/STATUS.md]
-RESULT: Blue Owl dual gating confirmed — OCIC 21.9% / OTIC 40.7% redemption requests, both capped at 5%, ~$4.2B trapped capital. OWL -2.9%. HY OAS tightened 12bps to 316 on ceasefire hopes. Claims 202K near 2yr low — labor market NOT cracking yet, which delays the full convergence trigger.
-GAPS: Could not get intraday CMBS spreads or real-time FHLB advance data.
+CHANGED: AGENTS/REGINALD/STATUS.md
+RESULT: EOD scan complete. WAL -1.54% to $71.96 (approaching $70 level), KRE flat at $66.75, OZK +0.71% at $46.64. HY OAS tightened 313→305bps mechanically on ceasefire headlines, but CCC/HY ratio stuck at 3.2x confirms distressed credit concentration. Scenario D thesis confirmed: credit bifurcation deepening despite headline spread improvement. 14 days to WAL/OZK earnings.
+GAPS: None
 WILL_NEEDS: None
-FOLLOW-UP: Monitor OWL price action into close for contagion to APO/ARES. Watch for warehouse lender margin calls on Blue Owl portfolio companies.
+FOLLOW-UP: Re-scan Apr 8; watch WAL $70 level and HY OAS for re-breach of 320bps

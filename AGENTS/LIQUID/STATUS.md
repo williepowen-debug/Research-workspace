@@ -1,5 +1,51 @@
 # LIQUID STATUS
-**Last Updated:** 2026-04-06 16:16 ET | **Agent:** LIQUID | **Status:** 🟡 MODERATING — CREDIT SPREADS TIGHTENING + FUNDING CLEAN + REGIONAL BANKS REBOUND
+**Last Updated:** 2026-04-07 13:31 ET | **Agent:** LIQUID | **Status:** 🟡 MODERATING — SOFR NORMALIZED, JGB AUCTION TEPID, IRAN DEADLINE LOOMS
+
+---
+
+## Apr 7 AM Update — JGB Auction Complete, Iran Deadline Tonight
+
+### SOFR: FULLY NORMALIZED
+SOFR now at **3.63%** — the quarter-end spike to 3.68% has fully reversed. SOFR-IORB at **0.00%** (clean). This confirms our thesis that the +5bps Q-end move was seasonal, not structural. RRP remains effectively zero (~$1B), so the buffer is still absent — but the normalization shows the SRF mechanism is functioning.
+
+### JGB 30Y Auction: TEPID DEMAND
+Today's critical 30-year JGB auction (Issue #90, ¥450.4B accepted) saw **weaker demand than 12-month average**. The bid-to-cover and price action (99.85 lowest accepted, 3.710% yield) suggest market caution. This follows last week's weak 10Y auction. Key implications:
+- **Domestic absorption capacity strained** — JGB 10Y at highest since 1997, yen at 160
+- **BOJ holds 50% of all JGBs outstanding** — Wolf Street notes bond vigilantes are "dead"
+- **SAM chain risk:** Weak JGB demand = more pressure on BOJ to maintain YCC/QE = yen weakness continues = carry trade unwind risk persists
+
+JGB yields edged lower post-auction on relief there were no major disruptions — but this is not a vote of confidence in Japanese fiscal sustainability.
+
+### Iran Deadline: Tonight 8pm ET
+Trump's deadline for Iran to open Strait of Hormuz or face attacks on power plants/infrastructure expires **Tuesday 8pm ET**. Overnight developments:
+- **Oil rallied:** WTI >$115/bbl, Brent ~$113.40 (up from $109.35 prior close)
+- **Trump rejected cease-fire proposal** — markets pricing in escalation risk
+- **Hormuz remains shut** — ~20% of global oil flows at risk
+- **Stocks down, oil up** — classic risk-off into the deadline
+
+**Energy shock transmission:** If Hormuz stays closed past deadline, Brent retests $116+ → US gas prices (already $4.14 national average) spike → PCE inflation prints in April/May embed energy shock → Fed forced to hold or hike → credit spreads widen on growth fears.
+
+### Foreign CB UST Holdings: Lowest Since 2012
+Confirmed: Foreign central bank holdings at NY Fed have fallen to **$2.7T** — down $82B since Feb 25, lowest since 2012. This is Iran-war driven selling. **Absorption capacity is structurally impaired** — dealers must step up with already-stressed balance sheets (per MS $85B transfer, Janus warehouse accumulation).
+
+### Credit Spreads: Tightening on Ceasefire Hopes (Now at Risk)
+HY OAS tightened to **313bps** yesterday on ceasefire optimism. That optimism is now fading with Trump's rejection of the proposal. **Watch for reversal today** — if HY OAS snaps back toward 320bps, the 350bps freeze level comes into play quickly.
+
+### Today's Economic Calendar
+- **Durable Goods (Feb)** — delayed release, rescheduled for today
+- **ADP Employment Report** — weekly pulse
+- **JGB 30Y auction** — COMPLETED, results above
+- **OPEC monthly outlook** — later today
+
+### What to Watch Today
+1. **Iran deadline 8pm ET** — Hormuz status, any deal announcement
+2. **HY OAS trajectory** — does the 313bps tightening hold or reverse?
+3. **10Y yield** — currently ~4.33%, flat; safe-haven bid may return if Iran escalates
+4. **Brent price action** — $113.40 now, $116+ is next resistance if Hormuz stays shut
+
+---
+
+## Apr 6 EOD Update — Iran War Day 36
 
 ---
 
@@ -142,15 +188,19 @@ CCC OAS at **994bps**, back below 1000 from >1000 on Mar 30. Could be quarter-en
 
 ---
 
-## Thresholds (Apr 6)
+## Thresholds (Apr 7)
 
 | Threshold | Level | Current | Status |
 |-----------|-------|---------|--------|
-| LIQ-01 (HY OAS) | 320bps | **313bps** | 🟡 BELOW — tightened on ceasefire hopes |
-| LIQ-01 freeze | 350bps | 313bps | 🟠 37bps away — watch retest |
+| LIQ-01 (HY OAS) | 320bps | **313bps** | 🟡 BELOW — but ceasefire hopes fading, watch reversal |
+| LIQ-01 freeze | 350bps | 313bps | 🟠 37bps away — Iran escalation = fast path |
 | CCC OAS | 1000bps | 989bps | 🟡 Just below 1000 — tail risk persists |
 | RRP buffer | >$5B | ~$1B | 🔴 ZERO — structural |
-| SOFR stress | >3.70 | ~3.63% | 🟢 Normalized |
+| SOFR stress | >3.70 | **3.63%** | 🟢 Normalized post Q-end |
+| JGB 30Y demand | Strong | Tepid | 🟡 Below average — domestic absorption strained |
+| Iran deadline | Deal | Rejected | 🔴 Escalation risk into 8pm ET |
+| Brent | $110 | **$113.40** | 🟡 Rising into deadline |
+| Foreign CB UST | Stable | **$2.7T (lowest since 2012)** | 🔴 Structural outflow |
 | Reserve floor | $2.7T | ~$3.0T | 🟡 Cushion intact |
 
 ---
