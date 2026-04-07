@@ -4,6 +4,32 @@
 
 ---
 
+## 2026-04-07 — Network Sweep: HY OAS COMPELLING Counter-Signal (Session 5 on Claude Code)
+
+**Confidence:** 77% → **76%**
+**Competing hypotheses updated:**
+- Full Stagflation: 42% → 41% (HY OAS counter-signal strengthening)
+- Managed Decline: 23% → 25% (HY tightening + LIQUID 🟡 + muted Kharg reaction)
+- Policy Rescue: 17% → 16% (Fed trapped by oil, no cuts until H2 2027)
+- Acute Dislocation: 10% → 9% (HY OAS contradicts acute stress)
+- War Escalation: 6% → 7% (Kharg + South Pars struck, 8PM deadline tonight)
+- Soft Landing: 2% → 2% (unchanged)
+
+**What drove the change:**
+1. **HY OAS crashed to 305** (from 316 in 2 days, 342 in 5 days). 37bps of tightening INTO maximum geopolitical stress. UPGRADED to COMPELLING — strongest counter-signal RED has ever issued. 5bps from 300 falsification threshold.
+2. **VIX-HY divergence**: VIX rose to 26.59 while HY dropped to 305. Markets disagree. New STRONG challenge.
+3. **LIQUID downgraded to 🟡** — first agent to break RED consensus. Domain expert in credit sees moderating.
+4. **Kharg Island struck** (90% Iran exports) — market reaction MUTED (+1-2% Brent). Strongest infrastructure strike of the war met with a shrug.
+5. **12th PC fund gated** (Barings, MassMutual-owned). Broadens beyond PE. BCRED $3.7B exceeded gate. Leveraged loans -34% YoY.
+6. **Bond vol squeeze** signal analyzed from inbox: MODERATE headwind for TLT May, not structural.
+7. **RED-03 prediction WRONG** (3/10 resolved, all wrong). Deadline didn't just extend — strikes happened.
+
+**Key insight:** HY OAS tightening does NOT necessarily kill the full thesis. HY OAS = corporate credit. CARL's consumer DQ data and REGINALD's bank earnings are independent channels. HY OAS kills HYG puts specifically. The bank thesis (KRE/WAL/OZK) depends on Q1 earnings data, not credit spreads.
+
+**Files written:** STATUS.md (full rewrite), OUTBOX.md (PROME report), CALENDAR.md (updated), all 7 workbook TSVs updated, this CHANGELOG, inbox processed.
+
+---
+
 ## 2026-04-05 — Catch-Up Session: NFP + War Escalation (Session 3 on Claude Code)
 
 **Confidence:** 75% → **77%**

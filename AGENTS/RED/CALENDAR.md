@@ -2,7 +2,7 @@
 
 *Updated each session. Adversarial perspective: what confirms, what challenges, what kills the thesis.*
 
-**Last Updated:** 2026-04-05
+**Last Updated:** 2026-04-07
 
 ---
 
@@ -10,31 +10,36 @@
 
 | Date | Event | Outcome | RED Impact |
 |------|-------|---------|-----------|
-| **Apr 3** | NFP March | **+178K** (consensus +59K). UE 4.3%. Wages +3.5% YoY (lowest since May 2021). 35K physician strike return. | Scenario A triggered. Employment channel downgraded to 35% activation. RED-02 prediction WRONG. |
-| Mar 31 | Quarter-end SOFR | SOFR peaked 3.68%, normalized to 3.65% by Apr 2. | 2019 analog did NOT fire. System absorbed. Mild counter-signal. |
+| **Apr 7** | Kharg Island struck | 90% Iran exports at risk. Brent reaction MUTED (+1-2%). | Bear for oil thesis, but muted reaction is counter-signal. RED-03 WRONG. |
+| **Apr 6** | South Pars struck | Petrochemical plant + 2 IRGC commanders killed. Tehran residential area also struck. | Escalation confirmed. Scenario D active. |
+| **Apr 6** | Iran rejects ceasefire | 10-point counter-proposal. No capitulation. | Diplomacy path narrowing. |
+| **Apr 6** | OPEC+ May | Symbolic 206K bpd paper increase. Irrelevant if Hormuz closed. | Non-event. |
+| **Apr 6** | Barings gate (12th fund) | 11.3% requests, capped at 5%. MassMutual-owned = broadens beyond PE. | PC cascade deepening. |
+| **Apr 3** | NFP March | +178K (consensus +59K). UE 4.3%. Wages +3.5% YoY. | RED-02 WRONG. Employment channel stalled. |
+| Mar 31 | Quarter-end SOFR | SOFR peaked 3.68%, normalized to 3.65%. | System absorbed. Mild counter-signal. |
 
 ## IMMEDIATE (Next 48 Hours)
 
 | Date | Event | Bear Signal | Bull Signal | RED Threshold |
 |------|-------|-------------|-------------|---------------|
-| **Apr 6** | Market reopens (NFP gap) | Strong NFP = gap UP initially, squeezes puts | — | Depends on weekend news flow |
-| **Apr 6** | Trump 48-hr ultimatum expires (8PM ET) | US strikes = oil $150+, Scenario D confirmed | Extension/deal = oil drops $10-15 | See CATALYST_FRAMEWORK scenarios |
-| **Apr 7** | 30Y JGB auction | Weak = SAM thesis confirmed | Strong = delay Japan unwind | BTC <2.5x = stress signal |
+| **Apr 7 8PM ET** | Trump final deadline for Iran | Full-scale bombing = oil $140+ futures, $160+ physical | Extension/deal = oil drops $10-15, HY OAS <300 | BINARY. See pre-written framework. |
+| **Apr 8** | HY OAS daily check | If <300 = falsification threshold crossed | Rebound >310 = technical correction over | **MOST IMPORTANT DAILY CHECK** |
+| **Apr 8** | Market reaction to Kharg + deadline | Gap down = thesis alive | Gap up / flat = credit market was right | Watch KRE, APO, HYG first 30 min |
 
 ## NEAR-TERM (8-30 Days)
 
 | Date | Event | Bear Signal | Bull Signal | RED Threshold |
 |------|-------|-------------|-------------|---------------|
-| Apr 10 | CPI (captures oil shock start) | Hot = Fed trapped, stagflation | Cool = policy room | Core >0.4% MoM = stagflation confirmed |
-| Apr 10 | Weekly claims | FL Wave 1 lag test | <215K = suppression confirmed | If claims spike >240K = lag breaking through |
+| **Apr 10** | CPI (captures oil shock start) | Hot = Fed trapped, stagflation | Cool = policy room | Core >0.4% MoM = stagflation confirmed |
+| **Apr 10** | Weekly claims | FL Wave 1 lag test | <215K = suppression confirmed | Claims >240K = lag breaking through |
 | Apr 11 | Russia sanctions relief expires | If not renewed = supply loss | Renewed = cap on oil | Watch Treasury announcement |
 | Apr 14 | 20Y JGB auction | Weak demand = Japan selling | — | Watch indirect bid |
 | Apr 15 | Feb TIC data | Japan net selling USTs | Japan still buying | Net selling >$10B = SAM confirmed |
-| **Apr 16** | **OZK Q1 earnings** | Construction loss accel, NPL spike | Kitchen sink + conservative guide | Beat = thesis delayed for OZK |
+| **Apr 16** | **OZK Q1 earnings** | CRE loss accel, NPL spike | Kitchen sink + conservative guide | FIRST REAL THESIS TEST. Beat = timing hit. |
 | Apr 20 | ZION Q1 earnings | MUNI/NDFI stress surfaces | — | — |
 | **Apr 21** | **WAL Q1 earnings** | MI3/fraud/NDFI surfaces | Window dressing holds | Miss = strongest bank signal since SVB |
 | Apr 22-29 | VLY → EGBN earnings | Broad regional stress | Beats = contained | 3+ misses = systemic |
-| **Apr 23-24** | **BOJ meeting** | Hike = carry unwind begins | Hold = SAM delay | 40-45% hike probability |
+| **Apr 23-24** | **BOJ meeting** | Hike = carry unwind begins | Hold = SAM delay | 35-40% hike probability |
 | Apr 26 | FL UI Wave 2 peak | Exhaustion accelerates | — | CARL/LABOR convergence test |
 
 ## MEDIUM-TERM (30-90 Days)
@@ -53,18 +58,18 @@
 
 ## FALSIFICATION WATCH
 
-Events that would materially CHALLENGE the thesis:
-
 | Event | Impact | When to Watch |
 |-------|--------|---------------|
-| ~~NFP >+150K~~ | ~~Employment channel broken~~ | **TRIGGERED Apr 3: +178K. Channel downgraded.** |
-| Claims <200K sustained | Shadow adjustment wrong | Weekly (202K — testing threshold) |
-| HY OAS <300 sustained | Credit stress reversing | Daily (**316 — watch closely**) |
-| WTI <$85 sustained 7d | Energy pillar collapses | NOT triggered ($141 physical) |
-| Real ceasefire (Iran confirms) | Geopolitical pillar resets | Apr 6 deadline |
-| BTFP 2.0 announced | EXIT ALL — policy override | Any time |
+| **HY OAS <300 sustained 5d** | **Exit HYG, reduce all 25%** | **DAILY — 5bps away** |
+| HY OAS <300 intraday | Consider preemptive HYG exit | **DAILY** |
+| VIX-HY converge lower (VIX <20, HY <300) | Managed decline — reduce 50% | Daily |
+| Claims <200K sustained | Shadow adjustment wrong | Weekly (202K — testing) |
+| WTI <$85 sustained 7d | Exit TLT puts, reduce KRE 50% | NOT triggered ($113 WTI) |
+| Real ceasefire (Iran confirms) | Take 30% profit, hold rest | Tonight 8PM |
+| BTFP 2.0 announced | EXIT ALL IMMEDIATELY | Any time |
+| OZK Q1 beat + guide up | Reduce OZK, reassess CRE timing | Apr 16 |
 | Staffing canaries positive 2Q | Soft landing probability rises | Q2 data |
-| NFP +150K x3 consecutive + HY OAS <300 | Full employment channel disproven | NEW — dual trigger |
+| NFP +150K x3 consecutive + HY OAS <300 | Full employment channel disproven | Dual trigger |
 
 ---
 
