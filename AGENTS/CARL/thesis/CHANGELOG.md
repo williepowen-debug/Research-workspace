@@ -8,6 +8,41 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-04-06 — STUE FIRST SPAWN: CASCADE AMPLIFIER FINDING + CRL-05 UPGRADE
+
+### PREDICTIONS Updated
+**Author:** CARL (via STUE analysis)
+**Action:** CRL-05 confidence upgraded 72% → 82%. Two new predictions added (CRL-13, CRL-14).
+
+| Pred_ID | Change | Reason |
+|---------|--------|--------|
+| CRL-05 | 72% → **82%** | CC 90+ DQ GFC breach. STUE cascade analysis: student loan credit score destruction (-87 to -171 pts, NY Fed data) cascades into CC DQ. 10-12M borrowers face score damage → 3-5M cascade into CC 30+ DQ → est. +0.5-1.0pp to CC 90+ rate. This is an ADDITIONAL pathway to GFC breach beyond cost squeeze. Two independent mechanisms now identified: (1) multi-vector cost squeeze, (2) student loan credit score cascade. |
+| CRL-13 | **NEW** 70% | SAVE non-selection rate >35%. Based on Oct 2023 precedent + MOHELA failures. 2.6M+ face $0→$407/mo payment cliff. |
+| CRL-14 | **NEW** 65% | MOHELA-caused additional defaults >500K from July 1 transition. Servicer operational capacity near-zero for clean transition. |
+
+**Key analytical finding:** Student loan vector is a **cascade amplifier**, not just a standalone 5/5 convergence score. It raises the effective impact of CC (Vector 1), subprime auto (Vector 2), K-shape convergence (Vector 9), and foreclosure acceleration (Vector 10) through the credit score destruction channel.
+
+### STUE STATUS.md Updated
+**Action:** Comprehensive refresh with Spawn 1 data pulls.
+- SAVE: "ending" → **"REPEALED BY LAW"** (Working Families Tax Cuts Act)
+- Added: ED final guidance Mar 31, Tiered Standard Plan option, 8.8M forbearance (6.5M SAVE), Exhibit C deadline MISSED (auto full relief), 25% of all borrowers DQ (3x pre-pandemic), 1,800+ colleges flagged, payment shock quantified ($0→$407/mo), spending destruction ($1.5-2B/mo), non-selection rate estimate (30-45%), Senate opposition to Treasury transfer
+- Upgraded status: 🔴 → 🔴🔴 CRITICAL
+
+### New KB Entries
+KB-CARL-155 through KB-CARL-157 (HH spending-income scissors, BofA spending-by-income tier, Minneapolis Fed K-shape publication).
+
+### Data Pruning
+- KB-CARL-029: ACTIVE → SUPERSEDED (by KB-145)
+- ML-CARL-SL-01: ACTIVE → SUPERSEDED (by KB-145, STUE owns detail)
+- ML-CARL-SL-02: ACTIVE → SUPERSEDED (Ninth Circuit resolved, KB-149)
+- VX-CARL-1.06: RED → CONSOLIDATED (into SL-01 through SL-07)
+- VX-CARL-SL-03: "ENDING" → "REPEALED BY LAW"
+
+**Old view:** Student loan at 5/5 max, standalone vector. SAVE "ending" Jul 1.
+**New view:** Student loan at 5/5 AND cascade amplifier for Vectors 1/2/9/10. SAVE REPEALED BY LAW. CC GFC breach pathway now dual-mechanism (cost squeeze + credit score cascade). CRL-05 is the upgraded conviction call.
+
+---
+
 ## 2026-04-04 — STUDENT LOAN VECTOR REFRESH: 4→5, STUE ACTIVATED
 
 ### THESIS Updated (minor, no version bump — convergence upgrade)

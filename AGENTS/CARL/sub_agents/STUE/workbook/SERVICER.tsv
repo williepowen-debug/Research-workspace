@@ -1,0 +1,17 @@
+Servicer	Metric	Value	As_Of	Source	Trend	Status	Notes
+MOHELA	Accounts Serviced	~16.5M	2025	STRUCTURAL	FLAT	R	Largest federal student loan servicer
+MOHELA	Missed Bills (borrowers)	2.5M	2025	DOE/AFT	UP	R	Led to 800K manufactured delinquencies
+MOHELA	Manufactured DQ	800K	2025	DOE/AFT	UP	R	Borrowers delinquent due to servicer failure, not non-payment
+MOHELA	DOE Penalty	$7.2M withheld	2025	DOE	NEW	O	$2.88 per affected borrower — inadequate deterrent
+MOHELA	Call Wait Times vs Peers	7x EdFinancial, 50x Aidvantage/Nelnet	2025	CFPB Ombudsman	UP	R	Worst in industry. Pre-Jul 1 transition capacity = near-zero
+MOHELA	CFPB Complaints	~3,000 (Jul 2022-Sep 2023)	2023-09	CFPB	UP	R	Pre-current-crisis volume. 2024-2026 likely much higher
+MOHELA	CFPB Ranking	Most complained-about student loan servicer	2025	CFPB Ombudsman	FLAT	R	Annual report finding
+MOHELA	AFT Lawsuit	Filed — "shocking series of abuses"	2024	NASFAA	NEW	O	PSLF obstruction, application failures, balance errors, overcharging
+MOHELA	State AG Investigations	Multiple states	2025	Multiple	UP	O	States not fully enumerated — need web pull
+MOHELA	Credit Report Errors	Balance duplication — class action Feb 18 2026	2026-02-18	Court filing	NEW	R	Doubled balances on reports = artificial DTI inflation. Affects current borrowers
+MOHELA	SAVE Borrowers Serviced	~6.5M (of 8.8M total forbearance)	2025-12	FSA	FLAT	R	Will need to process Jul 1 transition notices for all
+MOHELA	Est. Jul 1 Call Volume	2.25M+ (if 30% of 7.5M call)	CARL est	CARL	NEW	R	vs current capacity that can't handle normal volume
+Nelnet	Credit Report Errors	Balance duplication	2026-02	Court filing/class action	NEW	R	Part of same class action as MOHELA
+Nelnet	Accounts Serviced	~5.6M	2025	STRUCTURAL	FLAT	Y	Second-tier servicer
+Aidvantage	Accounts Serviced	~7.5M	2025	STRUCTURAL	FLAT	Y	Maximus subsidiary
+EdFinancial	Accounts Serviced	~4M	2025	STRUCTURAL	FLAT	G	Baseline for comparison — best wait times
