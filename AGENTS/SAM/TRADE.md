@@ -1,6 +1,6 @@
 # SAM — Trade Ideas
 
-**Last Updated:** 2026-04-06
+**Last Updated:** 2026-04-07
 **Domain:** Japan Macro, Yen, JGBs, Carry Trade, BOJ Policy
 
 ---
@@ -35,10 +35,10 @@
 |------|----------|-----------|
 | ~~Mar 31~~ | ~~FY-end close~~ | ✅ Resolved |
 | ~~Apr 1~~ | ~~Tankan survey~~ | ✅ BEAT — April hike live |
-| **Apr 7** | **30Y JGB auction at ~3.68%** — insurer demand test | Weak = repatriation confirmed |
+| ~~Apr 7~~ | ~~30Y JGB auction at ~3.7%~~ | ✅ PASSED — BTC 3.11x, tail 1.3bp. Demand held. |
 | **Apr 7–14** | Big 4 insurer investment plans | Allocation cuts = Channel 1 confirmed |
 | **Apr 15** | Feb TIC data — Japan UST selling confirmation | Large selling = stress case |
-| **Apr 23–24** | BOJ meeting — hike ~45-50% | +3–5% on surprise hike |
+| **Apr 23–24** | BOJ meeting — hike ~70% | +3–5% on hike |
 | **May 1** | BOJ meeting — **BASE CASE HIKE** | +5–8% structural move |
 | **Late May** | Japan April CPI print — reflects oil shock + SK refiner | Confirms BOJ path locked |
 
@@ -136,10 +136,10 @@ Private credit cascade (APO, ARES — 9 funds gated) → recession signal → Fe
 |------|-------|--------|
 | ~~Mar 31~~ | ~~FY2025 end~~ | ✅ Done — no outsized flows |
 | ~~Apr 1~~ | ~~Tankan survey~~ | ✅ Done — BEAT (mfg 17, non-mfg 36). April hike live. |
-| **Apr 7** | **30Y JGB auction** | 🔴 Insurer demand test at ~3.68% yield |
+| ~~Apr 7~~ | ~~30Y JGB auction~~ | ✅ Passed — BTC 3.11x |
 | **Apr 7–14** | Big 4 insurer FY2026 investment plans | Repatriation confirmation |
 | **Apr 15** | Feb TIC data (Japan UST flows) | Confirms repatriation scale |
-| **Apr 23–24** | BOJ Meeting — hike ~45-50% | FXY: +3–5% on hike |
+| **Apr 23–24** | BOJ Meeting — hike ~70% | FXY: +3–5% on hike |
 | **May 1** | BOJ Meeting — **BASE CASE HIKE** | FXY: +5–8% structural |
 | **Late May** | Japan April CPI print | Confirms BOJ path |
 | **Mid-May** | ESR disclosures begin | Insurer stress visible |
