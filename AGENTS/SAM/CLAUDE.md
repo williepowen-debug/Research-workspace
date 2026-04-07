@@ -24,7 +24,24 @@ You think in scenario-weighted distributions, not point estimates. You respect u
 4. **Read `thesis/TIMELINE.md`** — narrative progression, branch points, resolved events
 5. **Read `MEMORY.md`** — ends on handoff: CHANGES SINCE + NEXT SESSION action items
 6. **Scan `thesis/PREDICTIONS.tsv`** — flag any predictions due for resolution or gone stale
-7. **Market refresh** — WebSearch for live USD/JPY, JGB 10Y/30Y yields, Brent, FXY. Update STATUS.md market data table before any analysis. Report refreshed levels to Will.
+7. **Market refresh** — Update STATUS.md market data table before any analysis. Report refreshed levels to Will.
+   - **Prices:** Use FORGE toolkit (preferred, more reliable than web search):
+     ```
+     .venv/bin/python3 FORGE/tools/market-data/fetch.py price FXY USDJPY=X EURJPY=X GBPJPY=X AUDJPY=X BZ=F
+     ```
+   - **Vol signals / Options OI:** Use yfinance directly:
+     ```
+     .venv/bin/python3 -c "
+     import yfinance as yf
+     fxy = yf.Ticker('FXY')
+     for exp in fxy.options[:4]:
+         calls = fxy.option_chain(exp).calls
+         filtered = calls[(calls['strike'] >= 58) & (calls['strike'] <= 65)]
+         print(f'=== {exp} ==='); print(filtered[['strike','openInterest','volume','bid','ask']].to_string()); print()
+     "
+     ```
+   - **News/narrative/JGB auction results:** Use WebSearch (prices from web search are unreliable for ETFs — always cross-check vs underlying FX rate).
+   - **MOF weekly flows:** WebFetch tradingeconomics.com/japan/foreign-bond-investment
 
 ### Execute
 8. **Execute the task**
@@ -204,6 +221,8 @@ The transition from Phase 1 to Phase 2 is the critical moment. Oil-driven weakne
 | `thesis/CHANGELOG.md` | Audit trail — all thesis/timeline changes with old → new view, version tags, dates. |
 | `STRATEGY.md` | Decision playbook — when to add/hold/exit, vol signal interpretation, asymmetry framework. Read when position decisions are on the table. |
 | `TRADE.md` | Position details, entry card, watchlist, risk factors |
+| `insurers/TRACKER.md` | Life insurer dashboard — FY2026 plan status, allocations, signals. Update as plans drop (Apr 14-25). |
+| `insurers/<name>.md` | Per-insurer profiles: nippon-life, meiji-yasuda, dai-ichi, sumitomo, fukoku, norinchukin, japan-post |
 | `red/` | RED (devil's advocate) — counter-thesis, challenges, log. **SAM reads, does not edit.** |
 | `research/outputs/` | RP-SAM research packages |
 | `workbook/VX.tsv` | Vectors |

@@ -1,6 +1,6 @@
 # SAM TIMELINE
 
-**Last Updated:** 2026-04-02
+**Last Updated:** 2026-04-07
 **View:** Base case progression with branch points marked
 
 This document maps our forward-looking expectations — what's coming, what we think happens, and where the path could diverge. Updated as events resolve or views change.
@@ -22,7 +22,7 @@ This document maps our forward-looking expectations — what's coming, what we t
   - Mfg outlook: **14** (prev 15) — slight softening on war uncertainty
   - Capex: **+3.3%** (cons 3.0%)
   - Business inflation expectations: **2.6%/yr** (prev 2.4%) — above BOJ 2% target
-- **Impact:** April 23-24 hike probability jumps to ~45-50%. Last data excuse for delay removed. ING: "supports April BOJ hike."
+- **Impact:** April 23-24 hike probability jumps to ~45-50% (later repriced to ~70% by Apr 6). Last data excuse for delay removed. ING: "supports April BOJ hike."
 
 ### Tue Apr 1 — OIL CRASH + DE-ESCALATION SIGNALS (NEW)
 - **Event:** Trump claimed Iran asked for ceasefire, said war could end in "2-3 weeks." Witkoff presented 15-point peace plan. Strikes on Iranian energy paused until Apr 6.
@@ -45,26 +45,34 @@ This document maps our forward-looking expectations — what's coming, what we t
 - **Net:** Phase 1 oil dynamics REASSERTING. Yen weakening back toward 160. MOF intervention risk re-engaging. Smooth de-escalation path is gone — back to bumpy BOJ/intervention path.
 - **Implication for Apr 7:** If 10Y gets only 2.56x at 2.4% yield, what does 30Y get at ~3.7% with life insurers stepping back? April 7 is now THE most important data point on the calendar.
 
-### Sun Apr 6 — TRUMP STRIKE PAUSE EXPIRES
+### Sun Apr 6 — TRUMP STRIKE PAUSE EXPIRES ✅ RESOLVED — ESCALATION
 - **Event:** Deadline for paused strikes on Iranian energy infrastructure.
+- **Outcome:** Strikes RESUMED. U.S. hit 50+ military targets on Kharg Island overnight (Iran's key oil export hub). Military targets, not oil infrastructure — but energy infra threat is tonight's 8pm ET deadline. Iran rejected ceasefire, demands permanent end to hostilities. Trump: "a whole civilization will die tonight."
+- **Impact:** Brent $109 → $110-111 (+3%). Oil war premium sustained and growing. Maximum escalation heading into Apr 7 deadline.
+
+### Mon Apr 7 — 30Y JGB AUCTION ✅ RESOLVED — BULL FORK
+- **Event:** 30-year JGB auction at 3.7% coupon — highest ever for 30Y.
+- **Outcome:** **BTC 3.11x | Avg yield 3.697% | High yield 3.710% | Tail 1.3bp (tight)**
+  - Demand HELD at record yields. Tight tail = quality demand, not distressed clearing.
+  - Compares: Mar BTC 3.65x at 3.406%, Jan BTC 3.14x at 3.398%. Solid despite 30bp yield jump.
+- **Impact:** Insurer buyer strike NOT confirmed. JGB market orderly. This CLEARS a key concern — BOJ can hike without worrying about JGB market stability. Removes one bear argument.
+- **Net:** BULL FORK — one less obstacle to BOJ hike path.
+
+### Mon Apr 7 — KHARG ISLAND STRUCK + TRUMP 8PM DEADLINE (PENDING)
+- **Event:** U.S. strikes on Kharg Island military targets. Trump deadline for Hormuz reopening at 8pm ET.
 - **Branch point:**
-  - Extended/talks progress: Oil stays $100-110, yen stabilizes. But probability LOW (~25-30%) after Trump speech.
-  - Strikes resume (likely): Oil back to $115+, Kharg Island risk returns, yen weakens further, USD/JPY tests 160+.
-- **Why it matters:** De-escalation trade already 50%+ reversed. If strikes resume, ALL of yesterday's unwind reverses and then some. Apr 7 30Y auction would happen with oil back at $115+ and yen under pressure.
+  - Energy infrastructure strikes: Oil $120+ → Phase 1 yen weakness reasserts → FXY dips → delays thesis timing
+  - Deal/delay: Oil drops $100-105 → yen strengthens → FXY surges → thesis accelerates
+  - Partial strikes (non-energy): Oil stays $110-115 → status quo → thesis tracks to BOJ April 23-24
+- **Why it matters:** THE binary event. Determines whether oil headwind intensifies or lifts. FXY already rising despite oil = rate differential winning, but a $120+ oil spike could reverse that.
+
+### Mon Apr 7 — JGB 10Y HITS 2.40% (THRESHOLD BREACHED)
+- **Event:** JGB 10-year yield hit 2.40% — highest since July 1997.
+- **Impact:** Stress crossover threshold per our framework. Insurer unrealized losses accelerating. Combined with 30Y at 3.7%, the entire JGB curve is at multi-decade highs. This validates Channel 1 pressure — ESR regime makes these losses visible.
 
 ---
 
 ## WEEK 2 (Apr 7 – Apr 11)
-
-### Mon Apr 7 — 30Y JGB AUCTION (CRITICAL)
-- **Event:** 30-year JGB auction at ~3.7% yield — highest in decades.
-- **Our view:** This is the stress test for insurer demand. Fukoku Mutual stopped buying 30Y/40Y in Jan. Life insurers are the traditional super-long buyers and they're stepping back. MOF cutting super-long issuance to ¥17T (17-year low) — they know demand is fragile.
-- **Recent history:** Jan BTC 3.14x (weakening), Feb firmer, Mar BTC 3.65x at 3.406% yield. April tests demand 30bps higher.
-- **Branch point:**
-  - BTC >3.0x: Demand holds despite yield surge. Insurer capitulation narrative premature.
-  - BTC 2.0-3.0x: Weakening. Update STATUS, monitor closely.
-  - BTC <2.0x: 🔴 AUCTION FAILURE → signal LIQUID, HENRY, PROME. Insurer buyer strike confirmed.
-- **Cross-agent signal:** JGB auction failure is an explicit 🔴 trigger per SAM protocol.
 
 ### ~Apr 7-9 — FEB WAGE DATA (MHLW)
 - **Event:** Monthly Labour Survey for February. Real wages, nominal wages, base pay.
@@ -111,7 +119,7 @@ This document maps our forward-looking expectations — what's coming, what we t
 
 ### Apr 23-24 — BOJ MEETING (LIVE FOR HIKE)
 - **Event:** BOJ Monetary Policy Meeting. Rate decision + Ueda presser.
-- **Our view:** April hike is LIVE (~45-50% post-Tankan). Base case remains May 1 but the gap has narrowed significantly. The Summary of Opinions showed board readiness — Takata dissented for 1.00%, members discussed "rapid tightening" and "scale" of hike. Tankan strong removes last data excuse. Oil falling removes the "uncertainty" excuse.
+- **Our view:** April hike is LIVE (~70% as of Apr 6, up from ~45-50% post-Tankan). Base case remains May 1 but April is now the market-priced base case. The Summary of Opinions showed board readiness — Takata dissented for 1.00%, members discussed "rapid tightening" and "scale" of hike. Tankan strong removes last data excuse. Oil falling removes the "uncertainty" excuse.
 - **Scenarios:**
   - **Hike to 0.75% (our ~40% prob):** Market shock — JGB 2Y spikes, USD/JPY drops 3-5 big figures in days. FXY +3-5%. Carry unwind fires. Mortgage transmission starts (floating rates reprice within months).
   - **Hike to 1.00% (our ~5% prob):** Nuclear scenario. Takata's dissent becomes majority. USD/JPY drops 5-8 big figures. Carry unwind accelerates violently. Household stress immediate.
@@ -191,8 +199,9 @@ These are the moments where our expected path could fork:
 |------|-------|-----------|-----------|--------|
 | **Apr 1** | Tankan | Strong → April hike live | Weak → May only | ✅ **RESOLVED: BULL** |
 | **Apr 2** | 10Y JGB auction | Strong demand | Weak demand → 30Y risk | ✅ **RESOLVED: WEAK** (BTC 2.56x, tail 0.36) |
-| **Apr 6** | Strike pause expiry | Extended → oil stays low | Strikes resume → oil reverses | **PENDING — bear more likely after Trump speech** |
-| **Apr 7** | 30Y JGB auction | BTC >3.0x → demand holds | BTC <2.0x → insurer buyer strike | **NEW — PENDING** |
+| **Apr 6** | Strike pause expiry | Extended → oil stays low | Strikes resume → oil reverses | ✅ **RESOLVED: BEAR** — Kharg struck, escalation |
+| **Apr 7** | 30Y JGB auction | BTC >3.0x → demand holds | BTC <2.0x → insurer buyer strike | ✅ **RESOLVED: BULL** — BTC 3.11x, tail 1.3bp |
+| **Apr 7 8pm** | Trump Hormuz deadline | Deal/delay → oil drops | Energy strikes → oil $120+ | **PENDING — tonight** |
 | **Apr 14** | 20Y JGB auction | Healthy demand | Weak → super-long crisis | **NEW — PENDING** |
 | **Apr 15** | TIC data | Large selling → thesis confirmed | Mixed → slower timeline | PENDING |
 | **Apr 23-24** | BOJ meeting | Hike → carry unwind fires | Hold → wait for May 1 | PENDING |

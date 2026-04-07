@@ -24,6 +24,7 @@
 
 ## References
 - [2026-03-31] MOF weekly flows: tradingeconomics.com/japan/foreign-bond-investment (easier than MOF PDFs)
+- [2026-04-07] FORGE toolkit + yfinance commands moved to CLAUDE.md boot step 7 (permanent). Don't duplicate here.
 - [2026-03-31] MOF ITS release schedule: mof.go.jp/english/policy/international_policy/reference/itn_transactions_in_securities/schedule.htm
 - [2026-03-31] JGB auction calendar: mof.go.jp/english/policy/jgbs/auction/calendar/index.htm
 - [2026-04-01] April 2026 auction calendar: mof.go.jp/english/policy/jgbs/auction/calendar/2604e.htm
@@ -31,27 +32,33 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (Apr 5 → Apr 6)
-- CFTC JPY shorts: -72.9K (from -67.8K) — 40.5% of Jul '24 peak. Shorts GROWING despite MOF threats. More unwind fuel.
-- USD/JPY ~159.76 (slight pullback from 160). Brent ~$109.53 (flat). FXY $57.54 (flat, Sunday).
-- EUR/JPY ~183.29 — still elevated, cross-pair weakness persists.
-- Trump strike pause expired 8pm ET Apr 6. Tuesday deadline set for Hormuz ("Power Plant Day and Bridge Day"). Iran defiant.
-- 45-day ceasefire proposal from Egypt/Pakistan/Turkey being discussed — low probability. Iran rejected 15-point plan.
-- UBS bear case: USD/JPY 175 on extended oil disruption (sweep Apr 3). Beyond our 167 thesis break.
+### CHANGES SINCE LAST SESSION (Apr 6 → Apr 7)
+- U.S. struck 50+ military targets on Kharg Island overnight (military, not oil infra — yet). Maximum escalation into Trump 8pm ET deadline.
+- Trump: "a whole civilization will die tonight" if no deal. Iran rejected ceasefire. "Highly unlikely" to postpone.
+- Brent $109 → $110-111 (+3%). Oil rising on deadline pressure.
+- USD/JPY 159.70 → 159.81. FXY $57.53 → $57.44 (drifting lower — oil headwind persists, Phase 1 in force).
+- DXY fell below 100 — dollar broadly weak, but yen weakening anyway = oil import cost dominating.
+- JGB 10Y hit 2.40% — THRESHOLD BREACHED. Highest since July 1997.
+- 30Y JGB auction: BTC 3.11x, tail 1.3bp at 3.70% coupon. PASSED. Demand held at record yields.
+- BOJ April hike probability ~70% (market consensus, up from 35-40% last week).
 
-### LAST SESSION (Apr 6)
+### LAST SESSION (Apr 7)
 - Booted via Telegram. Full spawn protocol executed.
-- Market refresh: CFTC -72.9K is the key new data point. All other levels roughly flat from Friday.
-- TRADE.md fully refreshed: position 4→8 shares (Tranche 1 confirmed via PROME checkin), stop $22.50→$55.05, target $27-29→$60-62, probabilities updated to 80/95/95, catalyst sequence current.
-- Processed 3 inbox items → processed/: PROME checkins Apr 1 & Apr 2 (no new actionable data), news sweep Apr 3 (UBS 175 bear case noted, no thesis change).
-- STATUS.md market data table refreshed with CFTC -72.9K, EUR/JPY, Apr 6 levels.
-- Will working on new signal/messaging system — leave outbox alone until new system ready.
+- CRITICAL DATA ERROR: Web search returned FXY $58.50 (secondary aggregator). Real price $57.44. Built false "yen strengthening into oil" narrative, had to correct. Lesson saved to auto-memory: always cross-check ETF vs underlying FX before building narrative.
+- Updated STATUS.md with corrected Apr 7 data: auction, Kharg, 10Y breach, corrected FXY.
+- Updated TRADE.md: auction ✅, BOJ hike prob 70%.
+- Updated CALENDAR.md: auction ✅, geopolitical refresh, BOJ prob 70%.
+- Updated TIMELINE.md: Apr 6 strike pause resolved (BEAR — Kharg struck), Apr 7 auction resolved (BULL — BTC 3.11x), Apr 7 deadline added as pending branch point, JGB 10Y breach documented.
+- Updated THESIS.md: 10Y threshold from "2bps away" → "BREACHED."
+- Researched Big 4 insurer FY2026 plans: no formal announcements yet (expected Apr 14-25), but pre-announcement signals overwhelmingly confirm repatriation thesis.
+- **Built new insurers/ subfolder** with TRACKER.md + 7 per-insurer profiles (nippon-life, meiji-yasuda, dai-ichi, sumitomo, fukoku, norinchukin, japan-post). Updated CLAUDE.md file table.
+- Will working on new signal/messaging system — leave outbox alone.
 
 ### NEXT SESSION
-1. **Apr 7 (Mon): 30Y JGB auction** — THE critical event. BTC vs Mar 3.65x at 3.7%+ yield. If <2.0x = 🔴 signal LIQUID/HENRY/PROME.
-2. Apr 7-9: Feb wage data (MHLW). Low priority unless surprise.
-3. Apr 7-14: Big 4 insurer FY2026 investment plans — watch for allocation announcements.
-4. Check MOF FY-end week flow data (still pending).
-5. 3 outbox signals still in outbox — Will reworking mail system, leave alone.
-6. Apr 14-18: Vol check window (pre-BOJ). Ask Will for CVOL/FXY OI/RR data.
-7. Strike pause expired — check overnight developments on Iran/oil before market open.
+1. **Trump deadline aftermath** — check what happened at 8pm ET Apr 7. Energy infra struck? Deal? Delay? Update STATUS + TIMELINE accordingly. Oil direction is THE variable.
+2. **Feb wage data (MHLW)** — expected Apr 7-9. Low priority unless surprise negative.
+3. **Big 4 insurer FY2026 plans** — Fukoku expected ~Apr 14-18 (first mover). Watch for any early announcements. Update insurers/TRACKER.md.
+4. **MOF FY-end week flow data** — still pending from prior session.
+5. **3 outbox signals still in outbox** — Will reworking mail system, leave alone.
+6. **Apr 14-18: Vol check window (pre-BOJ).** Ask Will for CVOL/FXY OI/RR data.
+7. **20Y JGB auction Apr 14** — second super-long test. If 30Y passed at 3.11x, 20Y should be fine, but watch.

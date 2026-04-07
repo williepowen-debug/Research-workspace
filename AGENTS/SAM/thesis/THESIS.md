@@ -158,7 +158,7 @@ If cascade → recession → Fed cuts → USD weakens → JPY sub-145 WITHOUT BO
 | USD/JPY 147 | Forced carry unwind | SET |
 | USD/JPY 145 | Unhedged positions underwater → mechanical selling | SET |
 | USD/JPY 130-135 | Life insurer forced systematic selling (avg entry rate for unhedged) | SET |
-| JGB 10Y 2.40% | Stress crossover | 🔴 2bps away (2.380%) |
+| JGB 10Y 2.40% | Stress crossover | 🔴🔴 **BREACHED** (Apr 7 — highest since 1997) |
 | JGB 30Y 4.0% | Severe insurer stress / acceleration zone | WATCH |
 | Brent $120 | Kharg Island scenario | 🔴 WATCH ($115 current) |
 | BOJ rate 0.75% | Political ceiling (mortgage constraint) | APPROACHING |
