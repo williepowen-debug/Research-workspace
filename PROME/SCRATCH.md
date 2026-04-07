@@ -1,44 +1,45 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-04-07 09:33 ET
+**Last Updated:** 2026-04-07 15:37 ET
 
 ## What Just Happened
-Morning session — agent check-ins, cron system discussion, handoff preparation.
+Afternoon session — Discord architecture discussion, HERMES delivery, cron fix, handoff preparation.
 
 **Key activities:**
-1. **LABOR check-in** — No new data, monitoring mode until Thu Apr 10 claims (FL Wave 1 lag test)
-2. **CARL check-in** — Skipped (persistent agent on Claude Code per AGENTS.md)
-3. **MARCO check-in** — Spawned but timed out (2m0s, no output)
-4. **Cron discussion** — User exploring dual OpenClaw/Claude Code agent spawning
-5. **Calendar sync** — Token expired, flagged for re-auth
+1. **OTTO check-in complete** — Subprime DQ hit 10% (11-year high), CVNA -25% YTD, BofA downgrade
+2. **ZHAO check-in complete** — No TIC until Apr 15, HK peg stable, HIBOR seasonal spike confirmed resolved
+3. **HERMES delivery complete** — 12 signals delivered from 7 agents to PROME inbox
+4. **Morning briefing cron fixed** — Added timeout 60 to prevent hangs
+5. **Discord architecture planned** — Server structure designed, ready to implement when user provides bot token
 
-**Decisions deferred:**
-- Dual agent spawning (OpenClaw + Claude Code) — hold for now
-- Agent check-in routing — no changes
+**Decisions made:**
+- Discord server will use single bot token for all agents
+- Dual presence: Claude Code for deep research, Discord for visibility/cross-agent chat
+- File-based inbox remains source of truth
 
 ## Current State
-- **Tuesday morning, 9:30 AM ET.**
-- **Markets open.** HY OAS print today adjudicates RED debate.
-- **APO:** Still below $113 stop ($107.04) — 4+ days, decision pending
-- **Prome Zone:** Paused (user request)
-- **Calendar:** Sync failed, needs manual re-auth
+- **Tuesday afternoon, 3:37 PM ET.**
+- **Markets closed.** HY OAS 305bps 🟡 (from 316 earlier), CCC OAS 976bps 🟡
+- **APO:** $105.21 — still below $113 stop, decision pending
+- **Brent:** $109.17 🔴, Gas $4.12 🔴 (above Hamilton breakpoint)
+- **VIX:** 27.07 🟡 (elevated)
 
 ## QUICKSTART (Next Session)
-1. **Review HY OAS print** — adjudicate RED debate R4
-2. **APO decision** — Cut or hold? Below stop 4+ days
-3. **KRE roll pricing** — LIQUID domain
-4. **Signal Registry Draft A** — Review when ready
-5. **Calendar re-auth** — `mv token.json token.json.bak && python3 sync_calendar.py`
+1. **APO decision** — Below stop 4+ days, cut or hold?
+2. **KRE roll pricing** — LIQUID domain, Jun→Dec
+3. **Discord setup** — Await user bot token, then implement
+4. **Review HERMES delivery** — 12 signals in PROME inbox
+5. **Calendar re-auth** — If user wants calendar sync restored
 
 ## Handoff Block
-**Last context:** Morning check-ins complete. HY OAS print today critical for RED debate. APO below stop.
-**Next tide:** Market data review, position decisions
-**Open:** Prome Zone paused, APO decision pending, calendar sync broken
-**Files touched:** None new
+**Last context:** Discord architecture finalized. HERMES delivered 12 signals. Cron timeout fixed. APO still below stop.
+**Next tide:** Position decisions, Discord implementation
+**Open:** APO decision, KRE rolls, Discord token needed, calendar sync broken
+**Files touched:** `FORGE/tools/market-data/morning_briefing.sh` (added timeouts)
 
 ## Pending / Unresolved
-- APO position — below stop, decision needed
-- HY OAS print — RED debate adjudication
+- APO position — below $113 stop, decision needed
 - KRE Jun→Dec rolls — pricing
-- Signal Registry Draft A — pending review
-- Calendar sync — token expired
-- RED/HANS check-ins — stale (persistent agents)
+- Discord server — awaiting bot token from user
+- Calendar sync — token expired, needs re-auth
+- RED/HANS check-ins — stale (persistent agents on Claude Code)
+- Signal Registry Draft A — pending review when ready
