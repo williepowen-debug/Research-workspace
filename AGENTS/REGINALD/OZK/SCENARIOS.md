@@ -1,7 +1,7 @@
 # OZK — Scenario Analysis & Target Prices
-**Created:** 2026-03-23 | **Last Updated:** 2026-03-25
-**Current Price:** $44.70 (Finviz Mar 25) | **TBV:** $46.48 | **Book:** $52.46 | **P/TBV:** 0.96x
-**Short Interest:** 13.81% float, 11.20 days to cover (KB-OZK-160)
+**Created:** 2026-03-23 | **Last Updated:** 2026-04-07
+**Current Price:** $46.44 (Apr 7, +3.9% vs Mar 25) | **TBV:** $41.48 | **Book:** $52.46 | **P/TBV:** ~1.12x
+**Short Interest:** 13.81% float, 11.20 days to cover (KB-OZK-160, Mar 25 — next FINRA ~mid-Apr)
 
 > **Framing note:** Probabilities are scenario weights for position sizing. High-conviction directional thesis + 50% bear weight = expected value strongly favors the short even at coin-flip odds.
 
@@ -17,7 +17,7 @@
 | Tail | **5%** | $16-24 | $20.00 | $1.00 |
 | **Expected Value** | | | | **$37.45** |
 
-**Current $44.70 → implied ~16% overvaluation vs EV of $37.45.**
+**Current $46.44 → implied ~24% overvaluation vs EV of $37.45.**
 
 ---
 
@@ -164,7 +164,7 @@ EV similar to Aug $45 but lower delta. Profits only in bear/tail. Pure downside 
 3. **C&I reclassification flatters CRE ratios** — 37.6% MI3 not discussed by sellside
 4. **Record EPS $6.18 anchors narrative** — earnings lag credit reality by 2-3 quarters
 5. **"CIB diversification" narrative** — NDFI counterparties are overwhelmingly CRE debt funds
-6. **Exit counterparty risk invisible** — Blue Owl gated, Affinius bonds at 81¢ with Oct 2026 deadline
+6. **Exit counterparty risk invisible** — Blue Owl gated, Affinius is private/opaque (no public bonds — "81¢" ref was WRONG per Prompt #9 research; likely conflation with USAA Cap Corp or securitization vehicle). Columbus Center $69M foreclosure = isolated office walk-away.
 
 ---
 

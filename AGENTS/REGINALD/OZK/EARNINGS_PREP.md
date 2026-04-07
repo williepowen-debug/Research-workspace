@@ -1,6 +1,6 @@
 # OZK — Q1 2026 Earnings Prep
-**Earnings Date:** April 21, 2026 (moved from Apr 21; conf call Apr 22) | **Days Out:** 16 | **Last Updated:** Apr 5, 2026
-**Price:** $46.31 (Apr 4) — closer to SCENARIOS.md $44.70 now. Recalibration less urgent.
+**Earnings Date:** April 21, 2026 (conf call Apr 22) | **Days Out:** 14 | **Last Updated:** Apr 7, 2026
+**Price:** $46.44 (Apr 7) — close to SCENARIOS.md $44.70. Recalibration minor.
 **CIK:** 0001569650 | **Positions:** $42.5P May×2 | $42.5P Aug×1 | $45P Aug×4
 **Consensus:** $1.52 EPS (Zacks Feb 2026 revision, down from $1.58). FY2026 $6.02. Ratings 2B/5H/1S, PT $53.71.
 
@@ -225,13 +225,13 @@ Expect these narratives. Know the counter before they speak.
 
 | Item | Source | Urgency |
 |------|--------|---------|
-| **SI refresh** | FINRA/Ortex | HIGH — 22 days out |
-| **8-K watch** (CIK 0001569650) | EDGAR | DAILY — any material event |
-| **SVP loan sale disclosure** | Check if Q1 8-K filed | HIGH — determines Q1 NCO |
-| **IQHQ tenant news** | Bisnow/CoStar | MEDIUM — weekly scan |
+| **SI refresh** | FINRA/Ortex | ✅ Checked Apr 7 — no new data since Mar 25 (13.81%/11.2 DTC). Re-pull ~Apr 14. |
+| **8-K watch** (CIK 0001569650) | EDGAR | ✅ Checked Apr 7 — no new 8-Ks. SVP loss NOT disclosed. Check again ~Apr 14. |
+| **SVP loan sale disclosure** | Check if Q1 8-K filed | ✅ No 8-K yet. Remains KEY Q1 unknown. |
+| **IQHQ tenant news** | Bisnow/CoStar | ✅ Checked Apr 7 — still 3.3% lab (JCVI 50K only). Retail 50% of 200K. No new lab tenants. |
 | **Peer earnings** | ZION ~Apr 20, WAL ~Apr 21 | MEDIUM — sector read-through |
 | **Life sci vacancy update** | Prompt #20 (Will running) | MEDIUM — SD/Boston/national |
-| **Bioterra status** | CoStar, TRD | MEDIUM — next identified shoe |
+| **Bioterra status** | CoStar, TRD | ✅ Apr 7 — COMPLETE, no tenants, 29.7% SD vacancy |
 
 ---
 
@@ -250,7 +250,7 @@ Expect these narratives. Know the counter before they speak.
 | Gap | Impact | How to Close |
 |-----|--------|-------------|
 | **SVP sale loss amount** | Determines Q1 NCO range materially | Check Q1 8-K or first FFIEC submission |
-| **Bioterra ($202M) status** | Next identified life sci shoe — zero current data | CoStar/TRD search |
+| **Bioterra ($202M) status** | Building COMPLETE Apr 7. No tenants. SD vacancy 29.7%. | ✅ Confirmed next shoe |
 | **Q1 interest capitalized** | Reserve depletion rate — vs $108.6M Q4 | FFIEC Call Report RIADG377 (post-Apr 21) |
 | **Mod hurdle pass rates** | How many Q4 mods avoided Q1 nonaccrual | Implied from Q1 noncurrent change |
 | **IQHQ Bluerock valuation update** | IQHQ equity effectively zero — any mark or restructuring? | Check Bluerock SEC filings |
@@ -341,7 +341,7 @@ These 8 gaps represent the primary blind spots. KB rows #8, 9, 10, 13, 19, 20 un
 | Gap | Impact on Thesis | Status |
 |-----|-----------------|--------|
 | **SVP sale loss amount** | KEY: determines Q1 NCO base; loss in Q4 vs Q1 changes entire range | ❌ No Q1 8-K yet (watch EDGAR CIK 0001569650) |
-| **Bioterra $202M status** | Next identified life sci shoe; zero current data | ❌ Needs CoStar/TRD pull |
+| **Bioterra $202M status** | Next life sci shoe | ✅ Apr 7: Building COMPLETE (323K SF). No leasing. SD vacancy 29.7%. CONFIRMED next shoe. |
 | **Metropolitan #8 comparison** | Confirms OZK MI3 is near-failure threshold | ❌ Will running externally |
 | **Affinius bonds #9** | Co-lending partner risk — if Affinius stressed, OZK holdback exposure | ❌ Will running externally |
 | **Sell-side consensus #10** | EPS estimates for Q1 — know what to beat/miss against | ❌ Will running externally |

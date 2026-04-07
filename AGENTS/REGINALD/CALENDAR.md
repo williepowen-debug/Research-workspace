@@ -22,20 +22,29 @@
 |------|-------|---------------|-------------------|-----------|
 | Apr 10 | CPI (Mar data) | Captures Hormuz oil shock | Hot (>3.5% headline) = stagflation confirmed | ALL |
 
-## WEEK OF APR 14
+## WEEK OF APR 14 — Q1 EARNINGS WAVE BEGINS
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |------|-------|---------------|-------------------|-----------|
-| **Apr 21** | **OZK Q1 earnings** (moved from Apr 16, conf call Apr 22) | NCO, provisions, CRE migration, MI3, ACL | NCO >$90M or capital raise = 🔴 | PROME |
+| **Apr 15** | **MTB Q1 earnings** (pre-market) | CRE provisions, office exposure, NIM | First major regional — sets sector tone | ALL |
+| **Apr 16** | **KEY Q1 earnings** (pre-market) | Consumer credit, provisions, NIM | Read-through for consumer deterioration | CARL |
+| **Apr 16** | **CFG Q1 earnings** (morning) ⚡ | BDC exposure ($10-11B), consumer DQ (18.7%), provisions | BDC loss recognition = PC→bank transmission confirmed. **Our #3 matrix target.** | BROCK, PROME |
+| **Apr 17** | **RF Q1 earnings** (pre-market) | Consumer/commercial credit trends | Consumer DQ acceleration = CARL thesis | CARL |
 
-## WEEK OF APR 21
+## WEEK OF APR 20 — PEAK EARNINGS (POSITION NAMES)
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |------|-------|---------------|-------------------|-----------|
-| **Apr 20** | **ZION Q1 earnings** | MUNI book, NDFI, BDC exposure | — | PROME |
-| **Apr 21** | **WAL Q1 earnings** | CRE provisions, MI3 (≥25%?), Cantor, SSFA | Any negative surprise = 🔴 | PROME |
-| Apr 22-29 | VLY, EGBN earnings | Capital, provisions | EGBN capital raise = 🔴 | PROME |
+| **Apr 16-21** | **WAL Q1 earnings** (date UNCONFIRMED, consensus ~Apr 20 AMC) | CRE provisions, MI3 (≥25%?), Cantor reserve, SSFA | Any negative surprise = 🔴. **Date uncertainty = must be ready by Apr 16.** | PROME |
+| Apr 20 | WTFC Q1 earnings (after-market) | — | — | — |
+| **Apr 21** | **OZK Q1 earnings** (conf call Apr 22) | NCO, provisions, CRE migration, MI3, ACL, AOCI | NCO >$90M or capital raise = 🔴 | PROME |
+| ~Apr 22 | PB Q1 earnings | TX CRE, provisions | — | — |
+| **Apr 23** | **VLY Q1 earnings** | Capital, CRE provisions | — | PROME |
+| **Apr 23** | **SSB Q1 earnings** (after-market) | FL/TX exposure (42%), CRE MF | FL stress read-through | CORAL |
+| Apr 23 | ASB Q1 earnings (after-market) | — | — | — |
+| **~Apr 22-25** | **EGBN Q1 earnings** (date unconfirmed) | CRE provisions, DC/GovCon, capital | Capital raise = 🔴. **Earnings prep grade C — needs work.** | PROME |
 | **Apr 23-24** | **BOJ meeting — hike live (~40-45%)** | Rate decision, Ueda presser | Hike → CLO stress → BDC → bank fund finance (Ch 4) | SAM, LIQUID |
+| ~Late Apr | ZION Q1 earnings | MUNI book, NDFI, BDC exposure | — | PROME |
 
 ## MAY
 
