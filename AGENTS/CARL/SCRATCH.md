@@ -1,94 +1,102 @@
 # CARL SCRATCH
-**Last session:** 2026-04-06 ~00:30 UTC
-**Type:** Full housekeeping — signal delivery, inbox processing, stale TSV refresh, KB updates
+**Last session:** 2026-04-07 ~13:30 UTC
+**Type:** STUE sub-agent first spawn + buildout, CRL-05 upgrade, data pruning, market snapshot, session handoff
 
-**PRIORITY-1:** Monday Apr 6 gap open — first market reaction to NFP +178K. Headline = gap UP likely. Monitor HY OAS behavior (316bps — tighten = complacency). Convergence 47/50.
+**PRIORITY-1:** Iran ceasefire binary — Trump Hormuz ultimatum expired Tuesday Apr 7. Check resolution: ceasefire = oil drops, gas pressure eases, CRL-08 pushed out. Escalation = $115+ Brent, $4.50 gas in days.
 
 ---
 
 ## WHAT HAPPENED
-1. **Outbox cleared** — 6 signals manually delivered (HERMES backlogged 5-9 days). 2 to LABOR (JOLTS), 2 to PROME (JOLTS + check-in response), 2 to REGINALD (FL pincer + SYF canary). Originals → `outbox/delivered/`.
-2. **Inbox cleared** — 5 Apr 2 items (previously processed, moved to `inbox/processed/`). 1 Apr 3 news sweep processed: 8 subprime auto WATCH_FOR hits, mostly recirculated (Bloomberg Nov '25, Tricolor Dec '25).
-3. **FLOW.tsv refreshed** — 7 of 19 rows updated. Key upgrades: Employment→Consumer ACTIVE-ORANGE, Phantom Debt ACTIVE-RED, Fertilizer→Food CPI ACTIVE-RED, Discretionary Pullback ACTIVE-RED.
-4. **ABS_BASELINE.tsv partially updated** — Aggregate subprime auto: 6.9% ATR Jan 2026 (Fitch). Santander highest at 7.9% Dec. Prime 0.4% (17x K-shape gap). Added all-auto aggregate row. SDART trust-level still Jan 2026 — EDGAR API blocked.
-5. **TRENDS.tsv populated** — Was empty. Added proxy data: "help with mortgage" ATH, plasma industry ($4.7B, middle-class now selling), pawn shop activity elevated. Needs manual Google Trends pull for exact index values.
-6. **KB updated** — 3 new entries (KB-CARL-152 through 154): Tricolor criminal charges ($800M fraud, CEO/COO arrested, JPM $170M loss), subprime auto ABS spreads (+50bps to ~170bps), plasma industry K-shape convergence (middle-class $87K-$120K earners selling plasma). Total: 154.
+1. **Monday Apr 6 gap open assessed** — SPX +0.12% (muted, NOT gap-up expected from NFP +178K). Brent ~$109.53 (down from $112 on ceasefire talks). Gas $4.104 (Apr 4 AAA). HY OAS 316bps flat. GDPNow 1.6%.
+2. **KB-CARL-155/156/157 added** — HH spending-income scissors chart (Will via Twitter), BofA spending-by-income tier data (A1: lower 0.3%, middle 1.0%, high 4%+), Minneapolis Fed K-shape publication. KB total: 157.
+3. **STUE first spawn (parallel)** — Spawn 1 (data refresh) + Spawn 2 (analysis). Spawn 1 sub-agent blocked on web permissions; CARL ran searches directly. Both outputs in STUE/domain/.
+4. **STUE key finding: CASCADE AMPLIFIER** — Student loan credit score destruction (-87 to -171 pts) cascades into CC, auto, mortgage DQ. Est. +0.5-1.0pp to CC 90+ DQ rate. Q3 spending destruction from SAVE transition: $1.5-2.0B/month.
+5. **CRL-05 upgraded 72% → 82%** — Two independent pathways to CC GFC breach: (1) cost squeeze, (2) student loan credit score cascade.
+6. **CRL-13/CRL-14 added** — SAVE non-selection >35% (70%), MOHELA-caused defaults >500K (65%).
+7. **STUE fully built out** — STATUS.md overhauled, workbook (4 TSVs + schema), domain (3 analysis files + Feb compilation), CLAUDE.md cross-references.
+8. **CARL data pruned** — KB-029 SUPERSEDED, ML-SL-01/02 SUPERSEDED, VX-1.06 CONSOLIDATED, VX-SL-03 → "REPEALED BY LAW".
+9. **SAVE key finding** — REPEALED BY LAW (Working Families Tax Cuts Act Jul 2025), not just "ending." Legislative = no legal path to reinstate. ED final guidance Mar 31.
+10. **Git data loss + recovery** — Another agent session's git pull wiped uncommitted edits. All re-applied Apr 7. **MUST COMMIT this session.**
 
 ## STATUS CHANGES
 | Item | Change |
 |------|--------|
-| Outbox | 6 signals → **0** (all delivered) |
-| Inbox | 6 items → **0** (all processed) |
-| FLOW.tsv | Mar 27 → **Apr 5** (7 rows refreshed) |
-| ABS_BASELINE.tsv | Mar 17 → **Apr 5** (aggregates updated) |
-| TRENDS.tsv | Mar 17 (empty) → **Apr 5** (proxy data populated) |
-| KB entries | 151 → **154** (+3: Tricolor, ABS spreads, plasma) |
+| CRL-05 | 72% → **82%** (cascade amplifier finding) |
+| CRL-13 | **NEW** — SAVE non-selection >35% (70%) |
+| CRL-14 | **NEW** — MOHELA defaults >500K (65%) |
+| KB entries | 154 → **157** (+3: spending scissors, BofA tier, Minneapolis Fed) |
+| KB-CARL-029 | ACTIVE → **SUPERSEDED** |
+| ML-SL-01/02 | ACTIVE → **SUPERSEDED** |
+| VX-CARL-1.06 | RED → **CONSOLIDATED** |
+| VX-CARL-SL-03 | "ENDING" → **"REPEALED BY LAW"** |
+| STUE | Bootstrapped → **FULLY OPERATIONAL** |
+| CARL STATUS.md | Updated header, predictions table, timestamp |
 
 ---
 
 ## NEXT SESSION SHOULD
 
 ### IMMEDIATE (24hrs)
-1. **Monday Apr 6 gap open** — Monitor futures. NFP headline = gap UP. Watch HY OAS (does 316bps tighten further?). If gap >+1.5%, complacency thesis strengthens.
-2. **Check GDPNow update** — NFP +178K will push model. If still sub-2%, stagflation intact.
+1. **COMMIT ALL CHANGES** — edits were wiped once already by another agent's git pull. Commit CARL files immediately.
+2. **Iran ceasefire resolution** — Trump Hormuz ultimatum was Tuesday Apr 7. Check outcome.
+3. **Sweet v. McMahon non-Exhibit C deadline Apr 15** — 8 days. Monitor if DOE misses another deadline.
 
 ### UPCOMING (this week)
-3. **Savings rate Feb drops Apr 9** — If fell while retail rose → consumers spending down savings.
-4. **UMich prelim April ~Apr 11** — Sub-50 = deep recession signal. Currently 53.3.
-5. **Sweet v. McMahon notices Apr 15** — 205K discharge notices. Minor positive.
-6. **CRL-08 ($4.50 gas)** — $4.08 now, $0.42 gap. Monitor Brent.
+4. **Savings rate Feb — Apr 9 (Wed)** — If fell while retail rose → consumers spending down savings.
+5. **UMich prelim April — ~Apr 11 (Fri)** — Sub-50 = deep recession signal. Currently 53.3.
+6. **JPM earnings Apr 14 (Mon)** — First Phase 1 financial. Consumer credit commentary critical. Build earnings watch framework.
 
 ### UPCOMING (next 2 weeks)
-7. **JPM earnings Apr 14** — First Phase 1 financial. Consumer credit commentary critical.
-8. **CPI March mid-April** — Food CPI acceleration? Gas passthrough?
-9. **SYF earnings Apr 21** — CRITICAL. CRL-12 test. NCO >6%? Guidance cut?
-10. **CFPB 1033 deadline Apr 30** — BNPL phantom debt visibility shock.
+7. **CPI March — mid-April** — Food CPI acceleration? Gas passthrough?
+8. **SYF earnings Apr 21** — CRITICAL. CRL-12 test. NCO >6%? Guidance cut?
+9. **FL UI Wave 2 — Apr 26** — Second peak approaching.
+10. **CFPB 1033 deadline — Apr 30** — BNPL phantom debt visibility shock.
 
 ### BACKLOG (no deadline)
-11. SDART trust-level Feb/Mar 10-D data (EDGAR blocked — needs manual pull or CLI).
-12. Google Trends exact index values for Tier 1-4 terms (needs interactive browser).
-13. Spawn STUE for servicer-level drill-down (state DQ breakdown, SAVE enrollment).
-14. State Diffusion exact numbers — NY Fed interactive pull.
-15. ABS CC trust EDGAR pulls (DCMT + COMET 10-D).
+11. SDART trust-level Feb/Mar 10-D data (EDGAR blocked).
+12. Google Trends exact index values (needs interactive browser).
+13. Option B: web-verify STUE Spawn 2 analysis ([STRUCTURAL/TRAINING] tags).
+14. STUE dedicated spawn for servicer drill-down (CFPB complaint volume, MOHELA call metrics).
+15. Formalize STUE→CARL signal protocol (State Vectors on threshold breach only).
+16. STUE thesis document (discussed, not yet written).
 
 ---
 
-## OUTBOX (0 signals — all delivered Apr 5)
-All 6 signals manually delivered (HERMES backlogged). Originals in `outbox/delivered/`.
-| Delivered | To | Summary |
-|-----------|----|---------|
-| SIG-CARL-LABOR-20260329-jolts-inversion.md | LABOR | JOLTS 0.94 inverted — request re-employment probability |
-| SIG-CARL-LABOR-20260331-jolts-feb-deepening.md | LABOR | JOLTS 0.91, hires COVID-low — UI hole revision needed |
-| SIG-CARL-PROME-20260329-jolts-inversion.md | PROME | JOLTS inversion — request convergence upgrade |
-| SIG-CARL-REGINALD-20260327-fl-pincer.md | REGINALD | FL three-sided pincer — request bank exposure assessment |
-| SIG-CARL-REGINALD-20260331-syf-canary.md | REGINALD | SYF NCO 5.8% — request regional bank cross-ref |
-| SIG-CARL-PROME-20260402-checkin-response.md | PROME | DQ updates, thresholds, LABOR context, Q1 positioning |
+## OUTBOX (0 signals)
+No pending signals.
 
-## INBOX (0 items — all processed Apr 5)
-5 Apr 2 items + 1 Apr 3 sweep moved to `inbox/processed/`.
-- **Sweep (Apr 3):** 8 subprime auto WATCH_FOR hits — mostly recirculated (Bloomberg Nov 2025, Tricolor Dec 2025). Added KB-152 (Tricolor criminal charges: $800M fraud, CEO/COO arrested, JPM $170M loss) and KB-153 (subprime auto ABS spreads +50bps to ~170bps). No new DQ data beyond existing 6.9% Jan 2026.
+## INBOX (0 items)
+No unprocessed items.
 
 ---
 
 ## WORKBOOK HEALTH
-| TSV | Location | Rows | Last Modified | Note |
-|-----|----------|------|---------------|------|
-| KB | workbook/ | 154 | Apr 5 | Current (+3 this session: Tricolor charges, ABS spreads, plasma K-shape convergence) |
-| VX | workbook/ | 90 | Apr 4 | Current (last session: +3 new, 5 upgraded) |
-| FLOW | workbook/ | 19 | Apr 5 | ✅ Current — 7 rows refreshed with latest data |
-| ABS_BASELINE | workbook/ | 56 | Apr 5 | ✅ Aggregates updated (6.9% ATR Jan, prime 0.4%). SDART trust-level still Jan-2026 — EDGAR blocked, need manual pull. |
-| BNPL_STRESS | workbook/ | 44 | Apr 1 | Current |
-| STATE_DIFFUSION | workbook/ | 63 | Apr 1 | Current |
-| TRENDS | workbook/ | 30 | Apr 5 | ✅ Populated with proxy data (plasma, pawn, mortgage ATH). Needs manual Google Trends index pull for exact values. |
-| PREDICTIONS | thesis/ | 13 | Apr 4 | Current (CRL-04 95%) |
-| CHANGELOG | thesis/ | — | Apr 4 | Current |
+| TSV | Rows | Last Modified | Note |
+|-----|------|---------------|------|
+| KB | 157 | Apr 6 | ✅ Current (+3, 1 SUPERSEDED) |
+| VX | 90 | Apr 6 | ✅ Current (1 CONSOLIDATED, 1 updated) |
+| FLOW | 19 | Apr 6 | ✅ Current |
+| ABS_BASELINE | 59 | Apr 6 | SDART trust-level still Jan 2026 |
+| BNPL_STRESS | 44 | Apr 1 | Current |
+| STATE_DIFFUSION | 63 | Apr 1 | Current |
+| TRENDS | 40 | Apr 6 | Proxy data — needs Google Trends exact pull |
+| ML | 67 | Apr 6 | ✅ Current (2 SUPERSEDED) |
+| PREDICTIONS | 15 | Apr 6 | ✅ Current (+2 new: CRL-13/14) |
+| CHANGELOG | — | Apr 6 | ✅ Current |
+
+**STUE Workbook:**
+| TSV | Rows | Last Modified | Note |
+|-----|------|---------------|------|
+| SCHEMA | 34 | Apr 6 | NEW |
+| SERVICER | 16 | Apr 6 | NEW |
+| TIMELINE | 15 | Apr 6 | NEW |
+| STATE_DQ | 16 | Apr 6 | NEW |
+| CASCADE | 8 | Apr 6 | NEW |
 
 ---
 
 ## URGENT
-- Monday Apr 6 gap open — 67-hour reaction window from NFP. Headline UP but internals confirm thesis.
-- ✅ All 6 outbox signals delivered manually (Apr 5). HERMES backlog cleared.
-- ✅ Inbox cleared — all items processed and filed.
-- ✅ FLOW.tsv, ABS_BASELINE.tsv, TRENDS.tsv refreshed.
-- REMAINING: SDART 10-D Feb/Mar pulls (EDGAR blocked), Google Trends exact values (needs browser)
-- STUE bootstrapped but needs first dedicated spawn for servicer-level drill-down
+- **COMMIT BEFORE CLOSING** — edits wiped once by another agent's git pull. Do not leave uncommitted.
+- Iran ceasefire binary resolves today (Apr 7) — watch Brent/gas
+- Sweet v. McMahon Apr 15 (8 days)
+- JPM earnings Apr 14 (7 days) — need watch framework

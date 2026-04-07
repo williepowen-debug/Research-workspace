@@ -1,6 +1,6 @@
 # CARL STATUS
-**Updated:** 2026-04-04 ~22:00 UTC
-**Overall:** 🔴🔴 CRITICAL — Convergence 47/50. **GAS $4 BREAKPOINT FIRED.** JOLTS inverted (0.91, Feb 2026). Student loan vector upgraded 4→5 (7.7M default, SAVE ending Jul 1). Q3 = consumption stress quarter. NFP Mar +178K headline masks LFPR collapse (61.9%) + Feb revised to -133K.
+**Updated:** 2026-04-07 ~13:30 UTC
+**Overall:** 🔴🔴 CRITICAL — Convergence 47/50. **GAS $4 BREAKPOINT FIRED.** JOLTS inverted (0.91, Feb 2026). Student loan vector 5/5 + CASCADE AMPLIFIER (SAVE **REPEALED BY LAW**, 7.7M default, credit score destruction cascades into CC/auto/mortgage). CRL-05 upgraded 72→82%. Q3 = consumption stress quarter. NFP Mar +178K headline masks LFPR collapse (61.9%) + Feb revised to -133K.
 
 *Check-in archives: `archive/status/` (pending Phase 3 move)*
 
@@ -147,7 +147,7 @@
 |----|-----------|------|-----------|---------|
 | CRL-03 | Fannie MF DQ >0.80% (GFC) | 90% | Q2 2026 | 0.74% Feb — hovering 6bps from target |
 | CRL-04 | Student 90+ DQ >10% | 95% | Q1-Q2 2026 | 9.6% official but ~25% broader DQ. 7.7M default. Near-confirmed. |
-| CRL-05 | CC 90+ DQ >13.74% (GFC) | 75% | Q2-Q3 2026 | 12.70% — 1.04pp gap |
+| CRL-05 | CC 90+ DQ >13.74% (GFC) | **82%** | Q2-Q3 2026 | 12.70% — 1.04pp gap. **Apr 6 upgrade:** student loan cascade adds +0.5-1.0pp pathway |
 | CRL-06 | Foreclosures >70K/qtr | 70% | Q2 2026 | 58,140 Q4 — needs +20% |
 | CRL-07 | FL UI exhaustion → DQ spike | 85% | Jun-Aug 2026 | LABOR model confirms timeline |
 | CRL-08 | Gas $4.50+ national avg | 80% | May 2026 (extended from Apr 5) | $4.08 — $0.42 gap |
@@ -155,6 +155,8 @@
 | CRL-10 | Food CPI YoY >4.0% | 70% | Q4 2026 | Wheat 107yr low, urea $690s |
 | CRL-11 | Hires rate ≤3.2% through Q2 | 85% | Jul/Aug releases | Currently 3.1% COVID-low |
 | CRL-12 | SYF FY2026 NCO >6.0% (guidance ceiling) | 77% | FY2026 (Jan 2027) | Feb 5.8%, near ceiling in month 2 |
+| CRL-13 | SAVE non-selection rate >35% | 70% | Oct 1 2026 | NEW — 2.6M+ face $0→$407/mo cliff |
+| CRL-14 | MOHELA-caused defaults >500K from Jul 1 | 65% | Q3-Q4 2026 | NEW — servicer capacity near-zero for clean transition |
 
 ---
 

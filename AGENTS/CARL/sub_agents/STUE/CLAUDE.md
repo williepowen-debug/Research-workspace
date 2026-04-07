@@ -136,3 +136,33 @@ Student loans are $1.61T — the second-largest consumer debt category. The forb
 - Payment hierarchy: student loan stress cascades into CC and auto DQ
 
 This is not a monitoring exercise — it's an active stress transmission vector firing into CARL's consumer thesis.
+
+## CARL Cross-References (System of Record)
+
+CARL's workbook holds the canonical student loan entries. STUE is the sub-agent; CARL is the system of record. When spawned, reference these CARL IDs for context:
+
+**KB entries (CARL workbook/KB.tsv):**
+- KB-CARL-029: SUPERSEDED — original Feb 12 data, see KB-145+
+- KB-CARL-145: FSA Dec 2025 — 7.7M default, $180B, 18.6% active DQ by $
+- KB-CARL-146: 25% DQ rate, 13M default projection EOY 2026
+- KB-CARL-147: SAVE settlement ending, Jul 1, RAP launch
+- KB-CARL-148: Treasury transfer Phase 1
+- KB-CARL-149: Sweet v. McMahon 205K discharges
+- KB-CARL-150: MOHELA failures — 2.5M missed bills, 800K DQ, credit errors
+- KB-CARL-151: Demographic concentration — Black, women, 18-29, Southern
+
+**VX vectors (CARL workbook/VX.tsv):**
+- VX-CARL-1.06: CONSOLIDATED — use SL vectors below
+- VX-CARL-SL-01 through SL-07: Dedicated student loan vectors (30+ DQ, 90+ DQ, SAVE, credit score population, defaults, Treasury, servicer failure)
+
+**FLOW entries (CARL workbook/FLOW.tsv):**
+- FLOW-CARL-4.01/4.02: Payment hierarchy cascade (Auto > Mortgage > Student > CC)
+
+**Predictions (CARL thesis/PREDICTIONS.tsv):**
+- CRL-04: Student 90+ DQ >10% (95%)
+- CRL-05: CC >GFC via student loan cascade (82%)
+- CRL-13: SAVE non-selection >35% (70%)
+- CRL-14: MOHELA-caused defaults >500K (65%)
+
+**Domain source (copied to STUE domain/):**
+- StudentLoan_Data_2026-02.md: Pre-STUE comprehensive compilation (Feb 2026). Shadow DQ, credit score impacts, spillover analysis, timeline, transmission pathways.

@@ -1,0 +1,34 @@
+File	Column	Data_Type	Description
+SERVICER.tsv	Servicer	String	Servicer name (MOHELA, Nelnet, Aidvantage, EdFinancial, etc.)
+SERVICER.tsv	Metric	String	Performance metric being tracked
+SERVICER.tsv	Value	String	Current value
+SERVICER.tsv	As_Of	Date	Date of measurement (YYYY-MM-DD)
+SERVICER.tsv	Source	String	Data source
+SERVICER.tsv	Trend	String	UP/DOWN/FLAT/NEW
+SERVICER.tsv	Status	String	G/Y/O/R status color
+SERVICER.tsv	Notes	String	Context, caveats
+TIMELINE.tsv	Date	Date	Event date (YYYY-MM-DD)
+TIMELINE.tsv	Event	String	What happens
+TIMELINE.tsv	Population	String	How many borrowers affected
+TIMELINE.tsv	Impact	String	Expected consumer impact
+TIMELINE.tsv	Status	String	FIRED/IMMINENT/UPCOMING/PROJECTED
+TIMELINE.tsv	CARL_Vector	String	Which CARL convergence vector(s) this feeds
+TIMELINE.tsv	Notes	String	Context, dependencies
+STATE_DQ.tsv	State	String	2-letter state code
+STATE_DQ.tsv	Borrowers	String	Total student loan borrowers in state
+STATE_DQ.tsv	CDR_Pre_Forbearance	String	3-year cohort default rate (pre-pandemic)
+STATE_DQ.tsv	Est_Current_DQ	String	Estimated current DQ rate (post-forbearance)
+STATE_DQ.tsv	For_Profit_Concentration	String	HIGH/MEDIUM/LOW
+STATE_DQ.tsv	CARL_Priority	String	Yes/No — is this a CARL priority state?
+STATE_DQ.tsv	Overlap_Vectors	String	Other CARL stress vectors active in this state
+STATE_DQ.tsv	Source	String	Data source
+STATE_DQ.tsv	Notes	String	Context
+CASCADE.tsv	Stage	Integer	Cascade stage number (1-6)
+CASCADE.tsv	Event	String	What happens at this stage
+CASCADE.tsv	Timeline	String	Months after trigger (Jul 1)
+CASCADE.tsv	Population	String	Borrowers affected
+CASCADE.tsv	Credit_Product	String	Which credit product is impacted
+CASCADE.tsv	Est_DQ_Impact	String	Estimated additional DQ from this stage
+CASCADE.tsv	CARL_Vector	String	Which convergence vector this feeds
+CASCADE.tsv	Confidence	String	Confidence in this stage firing
+CASCADE.tsv	Source	String	Data source or analytical basis

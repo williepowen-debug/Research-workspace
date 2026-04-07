@@ -1,0 +1,16 @@
+Date	Event	Population	Impact	Status	CARL_Vector	Notes
+2025-07-01	Working Families Tax Cuts Act signed — SAVE REPEALED	7.5M SAVE enrollees	Legislative. No legal path to reinstate SAVE.	FIRED	V4 (Student), V9 (K-shape)	Reconciliation bill. Forces all SAVE borrowers out.
+2025-09-01	COVID on-ramp ends — credit reporting resumes	All borrowers	DQ now hits credit reports. Shadow DQ → visible DQ.	FIRED	V1 (CC), V4 (Student)	Shadow DQ was 15.6% by Sep 2024. Now visible.
+2025-10-01	Default cliff — first borrowers hit 360-day DQ	~5.2M (Sep 2025)	First mass defaults since pre-pandemic.	FIRED	V4 (Student)	Default count jumped to 7.7M by Dec 2025.
+2026-01-28	Sweet v. McMahon Exhibit C deadline	~150K+ (Exhibit C schools)	DOE MISSED deadline → auto full relief for affected borrowers	FIRED	V4 (Student)	151 institutions. Discharges + refunds + credit corrections.
+2026-03-19	Treasury Transfer Phase 1 — defaulted borrowers	~9M defaulted	Treasury resumes collection on defaulted loans.	FIRED	V4 (Student)	Operational handoff. Senate opposition (5 committee chairs).
+2026-03-31	ED issues final SAVE transition guidance	7.5M SAVE	Official framework for Jul 1 transition published.	FIRED	V4 (Student)	Servicer notices begin Jul 1, not before.
+2026-04-15	Sweet v. McMahon non-Exhibit C deadline	~55K+ (non-Exhibit C)	DOE must issue decisions. If missed → auto full relief.	IMMINENT	V4 (Student)	9 days out. DOE already missed Jan 28 deadline.
+2026-04-26	FL UI Wave 2 peak	FL claimants	UI exhaustion compounds student loan stress for FL borrowers	IMMINENT	V6 (UI), V7 (FL)	Overlap: FL borrowers with student debt + UI exhaustion
+2026-07-01	SAVE transition notices begin + RAP launches	7.5M SAVE borrowers	90-day selection window opens. $0→repayment.	UPCOMING	V4 (Student), V1 (CC), V9 (K-shape)	CRITICAL. $1.5-2.0B/mo spending destruction begins.
+2026-07-01	UI exhaustion national peak begins	National	$800-930M/mo spending hole	UPCOMING	V6 (UI)	Simultaneous with SAVE transition = compound stress
+2026-10-01	SAVE 90-day selection window closes	2.25-3.375M non-selectors	Auto-transition to Standard/Tiered Standard. $0→$407/mo cliff.	PROJECTED	V4 (Student), V1 (CC)	CRL-13: 70% conf non-selection >35%
+2026-Q3-Q4	Post-transition DQ wave	2-4M borrowers	New defaults from payment shock + servicer failures	PROJECTED	V4 (Student), V1 (CC), V2 (Auto)	CRL-14: 65% conf MOHELA-caused >500K additional defaults
+2026-Q3-Q4	Credit score cascade hits CC/auto	3-5M borrowers	+0.5-1.0pp to CC 90+ DQ rate	PROJECTED	V1 (CC), V2 (Auto), V10 (Foreclosure)	Cascade amplifier. May push CC past GFC 13.74%.
+2026-12-31	Projected: 13M in default	13M (from 7.7M Dec 2025)	Generational credit event	PROJECTED	V4 (Student)	TCF/Protect Borrowers projection. +5.3M in 12 months.
+2027-Q1-Q2	Credit score cascade hits mortgage	0.5-1M potential buyers	Housing demand suppression. 1-2M buyers removed from market.	PROJECTED	V10 (Foreclosure), V3 (MF)	Score repair takes 12-24 months. Structural demand hit.
