@@ -6,8 +6,8 @@
 DIR="$(cd "$(dirname "$0")" && pwd)"
 cd "$DIR"
 
-# Get compact output
-OUTPUT=$(python3 dashboard.py --compact --no-save 2>/dev/null)
+# Get compact output (with 60s timeout)
+OUTPUT=$(timeout 60 python3 dashboard.py --compact --no-save 2>/dev/null)
 
 if [ -z "$OUTPUT" ]; then
     exit 0
@@ -16,8 +16,8 @@ fi
 # Build message
 TIMESTAMP=$(date +"%a %b %d, %I:%M %p %Z")
 
-# Get stress summary from JSON mode
-SUMMARY=$(python3 dashboard.py --json --no-save 2>/dev/null | python3 -c "
+# Get stress summary from JSON mode (with 60s timeout)
+SUMMARY=$(timeout 60 python3 dashboard.py --json --no-save 2>/dev/null | python3 -c "
 import sys, json
 d = json.load(sys.stdin)
 r,y,g = d['summary']['red'], d['summary']['yellow'], d['summary']['green']
