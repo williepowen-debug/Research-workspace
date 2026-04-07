@@ -1,9 +1,9 @@
 # Competing Hypothesis: Subprime Containment
 
 **Status:** PLAUSIBLE BUT WEAKENING
-**Confidence:** 20-25%
-**Last Updated:** 2026-03-31
-**Origin:** RED S1 (Jan 2026, 30-35%), refreshed Mar 31
+**Confidence:** 15-20%
+**Last Updated:** 2026-04-07
+**Origin:** RED S1 (Jan 2026, 30-35%), refreshed Mar 31, updated Apr 7
 
 ---
 
@@ -42,12 +42,14 @@ Consumer stress is real and severe but CONTAINED to subprime and lower-income se
 
 | Evidence | Current Status | Assessment |
 |----------|---------------|------------|
-| Bank capital stronger than 2008 | No NCO warnings yet | HOLDS — Q1 earnings April = key test |
-| ALLY NCO guidance 1.9% (prime holding) | Stable at BofA conf Feb 2026 | HOLDS — but if guides up in April, flips |
-| Claims benign (1,819K) | Lowest since May 2024 | HOLDS — employment not acutely cracking |
-| No major bank consumer NCO warning | Through Q4 2025 earnings | HOLDS — but SYF DQ rising 4.6%→4.7% |
+| Bank capital stronger than 2008 | No NCO warnings yet | HOLDS — Q1 earnings April = key test (7 days) |
+| ALLY NCO guidance 1.9% (prime holding) | Stable at BofA conf Feb 2026 | HOLDS — **TEST: Apr 17 earnings** |
+| Claims benign (1,819K) | Lowest since May 2024 | HOLDS — but UI exhaustion model says claims DROP = exhaustion, not strength |
+| No major bank consumer NCO warning | Through Q4 2025 earnings | HOLDS — but SYF NCO spiked to **5.8%** (+110bps in 1 month) |
 | Auto insurance CPI cooling (5.9%) | Down from 20-30% | HELPS — reduces one cost-squeeze vector |
 | Homeowners insurance decelerating | National +8.5%, FL Citizens -8.7% | HELPS — partially |
+| Dave 28DPD improved (1.89%) | Below stress threshold | NEW — gig canary healthier (with survivorship bias caveat) |
+| NFP +178K headline | Beat consensus | NEW — but internals weak (LFPR, revisions, 3mo avg 68K) |
 
 ---
 
@@ -59,22 +61,30 @@ Consumer stress is real and severe but CONTAINED to subprime and lower-income se
 | Dollar Tree +6.5M HH in Q4, 60% from >$100K income | Dollar Tree FY2026 | HIGH |
 | RV market collapse (50% value loss) — upper-income canary | OTTO signal Mar 17 | HIGH |
 | Retail investor structurally absent (JPM -30% WoW) | HENRY signal Mar 17 | HIGH |
-| SYF 30+ DQ rising 4.6%→4.7% — stress up quality stack | SYF 8-K Feb 2026 | HIGH |
+| SYF NCO **5.8%** (+110bps spike in 1 month) — near ceiling | SYF 8-K Feb 2026 | **CRITICAL** |
 | 878K mortgages 90+/FC — 80% FHA but pipeline broadening | ICE Feb 2026 | MEDIUM |
-| Gas $4.02 squeezes ALL income brackets | AAA Mar 31 | HIGH |
+| Gas **$4.119** squeezes ALL income brackets (+$0.80/mo pace) | AAA Apr 7 | HIGH |
 | Food CPI coming Q3-Q4 — not income-selective | Triple nitrogen seizure | MEDIUM |
+| **Student loan cascade amplifier** — credit score destruction (-87 to -171 pts) cascades into CC/auto/mortgage across ALL income tiers | STUE/FSA Apr 6 | **CRITICAL** |
+| **Apollo confirms demand destruction** — 56% cities negative rent, buyer age 59 | Apollo Mar 2026 | HIGH |
+| **BofA spending by tier** — lower income 0.3%, middle 1.0%, high 4%+ | BofA Institute Jan 2026 | HIGH |
+| **Minneapolis Fed acknowledges K-shape** — institutional confirmation | Minneapolis Fed 2026 | MEDIUM |
 
 ---
 
-## Why Confidence Dropped (30-35% → 20-25%)
+## Why Confidence Dropped (30-35% → 20-25% → 15-20%)
 
-The original containment case rested on the K-shape HOLDING — subprime stressed, prime fine. Three developments since January have weakened this:
+The original containment case rested on the K-shape HOLDING — subprime stressed, prime fine. Developments since January have progressively weakened this:
 
-1. **K-shape convergence confirmed.** Both cohorts moving DOWN simultaneously. Dollar Tree data: 60% of new customers earn >$100K. This directly attacks the containment premise.
+1. **K-shape convergence confirmed.** Both cohorts moving DOWN simultaneously. Dollar Tree data: 60% of new customers earn >$100K. BofA data: lower income spending growth 0.3% vs high 4%+. Minneapolis Fed now publishing on the bifurcation. This directly attacks the containment premise.
 
 2. **Upper-income stress signals.** RV market collapse, retail investor withdrawal, JPM equity purchase data all show the top 40% pulling back. If they pull back, containment of aggregate demand fails regardless of subprime trajectory.
 
-3. **Cost squeeze is income-indiscriminate.** Gas $4+, food CPI loading, and electronics inflation (tariff pass-through) hit all income brackets. Insurance cooling partially offsets but doesn't fully compensate. The cost-squeeze mechanism doesn't respect the K-shape boundary.
+3. **Cost squeeze is income-indiscriminate.** Gas $4.12+, food CPI loading, and electronics inflation (tariff pass-through) hit all income brackets. Insurance cooling partially offsets but doesn't fully compensate. The cost-squeeze mechanism doesn't respect the K-shape boundary.
+
+4. **(NEW Apr 7) Student loan cascade amplifier.** STUE finding: credit score destruction (-87 to -171 pts from default) cascades into CC, auto, mortgage DQ across ALL income tiers — not subprime-contained. 7.7M in default, SAVE repealed by law, 7.5M must select new plan by Jul 1. This is a mechanism that actively BREAKS containment by degrading prime borrower credit scores.
+
+5. **(NEW Apr 7) SYF NCO acceleration.** Feb NCO spiked to 5.8% (+110bps in one month) — approaching 6.0% guidance ceiling in month 2 of the year. SYF's book includes near-prime (CareCredit, store cards). Stress migrating up the quality stack, not staying contained in subprime.
 
 ---
 

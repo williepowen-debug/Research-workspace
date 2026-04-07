@@ -1,5 +1,5 @@
 # CARL STATUS
-**Updated:** 2026-04-07 ~13:30 UTC
+**Updated:** 2026-04-07 ~15:00 UTC
 **Overall:** 🔴🔴 CRITICAL — Convergence 47/50. **GAS $4 BREAKPOINT FIRED.** JOLTS inverted (0.91, Feb 2026). Student loan vector 5/5 + CASCADE AMPLIFIER (SAVE **REPEALED BY LAW**, 7.7M default, credit score destruction cascades into CC/auto/mortgage). CRL-05 upgraded 72→82%. Q3 = consumption stress quarter. NFP Mar +178K headline masks LFPR collapse (61.9%) + Feb revised to -133K.
 
 *Check-in archives: `archive/status/` (pending Phase 3 move)*
@@ -29,7 +29,9 @@
 |--------|-------|-------|--------|
 | Fannie MF DQ | **0.74%** (6bps from GFC) | Feb 2026, Fannie | 🔴 |
 | FHA DQ | **11.52%** vs Conv 2.89% | Q4 2025, MBA | 🔴 |
-| 30-Yr Mortgage | **6.46%** | Apr 2, Freddie PMMS | 🟠 |
+| 30-Yr Mortgage | **6.46%** (+46bps in 1mo, rising weekly since Iran) | Apr 6, Freddie PMMS/AP | 🟠 |
+| Rent Growth Negative | **56% of top 100 cities** | Jan 2026, Apollo/Slok | 🟠 |
+| Median Homebuyer Age | **59** (was 31 in 1981) | Mar 2026, Apollo/Slok | 🔴 |
 | Foreclosures Q4 | **58,140** (+41% YoY) | Q4 2025, ATTOM | 🟠 |
 | 90+/FC Pipeline | **878K** (+175K/25% in 4mo, cure -40%) | Feb 2026, MBA | 🔴🔴 |
 | FL Foreclosures YoY | **+190%** | Q4 2025, ATTOM | 🔴 |
@@ -39,10 +41,11 @@
 ### Macro / Energy / Stress
 | Metric | Value | As Of | Status |
 |--------|-------|-------|--------|
-| Gas Pump | **$4.08 BREAKPOINT FIRED** | Apr 2, AAA | 🔴🔴 |
+| Gas Pump | **$4.119** (+$0.80/mo pace) | Apr 7, AAA | 🔴🔴 |
 | Diesel | **$5.51** | Apr 2, AAA | 🔴🔴 |
-| Brent | **$107-112** (extreme intraday vol) | Apr 2 | 🔴🔴 |
-| HY OAS | **316bps** (was 328, tightened) | Apr 1, FRED | 🟠 |
+| Brent | **$110-116** (Kharg strikes + 8pm deadline) | Apr 7 | 🔴🔴 |
+| WTI | **$113-116** (+4% on Kharg Island strikes) | Apr 7 | 🔴🔴 |
+| HY OAS | **317bps** (complacent — barely moved) | Apr 7, FRED | 🟠 |
 | Savings Rate | **4.5%** (up from 3.6% Dec) | Jan 2026, BEA | 🟠 |
 | Urea NOLA | **$690s/mt** (was $475 early Mar) | Mar 28 | 🔴🔴 |
 | Russia AN | **SUSPENDED** | Mar 2026 | 🔴🔴 |
@@ -53,7 +56,7 @@
 | UI Exhaustion Hole | **$650M/mo** (peak $930M/mo July) | CARL est, Mar 31 | 🔴🔴 |
 | Core PCE | **3.1% YoY** (sim 3.27% Mar) | Jan 2026, BEA | 🔴 |
 | GDP Q4 2025 | **0.7%** (revised down from 1.4%) | 3rd est, BEA | 🔴 |
-| GDPNow Q1 2026 | **1.6%** (was 1.9% yesterday, 3.1% mid-Feb) | Apr 2, Atlanta Fed | 🔴 |
+| GDPNow Q1 2026 | **1.3%** (was 1.6% Apr 2, 3.1% mid-Feb — stall speed) | Apr 7, Atlanta Fed | 🔴🔴 |
 | UMich Sentiment | **53.3 RECESSIONARY** (sub-55) | Mar 2026, UMich | 🔴 |
 | CB Expectations | **70.9 RECESSION WARNING** (sub-80) | Mar 2026, CB | 🟠 |
 | Retail Sales MoM | **+0.6%** (front-loading caveat) | Feb 2026, Census | 🟢 ⚠️ |
@@ -103,7 +106,7 @@
 
 | Window | Trigger | Status |
 |--------|---------|--------|
-| **NOW (Apr 3)** | **Gas $4 FIRED** + FOMC hold + ✅ JOLTS 0.91 (deepening) + ✅ USDA wheat 107-yr low + ✅ NFP +178K (headline masks LFPR collapse) | 🔴🔴 **ACTIVE** |
+| **NOW (Apr 7)** | **KHARG ISLAND STRUCK** — Iran rejected ceasefire, Trump 8pm ET deadline. Oil $115+, gas $4.119 (+$0.80/mo). GDPNow 1.3% (stall speed). CRL-08 accelerating. | 🔴🔴 **ACTIVE** |
 | **Mar 24** | FL UI Wave 1 exhaustion | ✅ FIRED |
 | **Apr 26** | FL UI Wave 2 peak | 🟠 IMMINENT |
 | **Q2** | DQ conversion (Mar/Apr stress → May/Jun spike) | 🔴 UPGRADED |
@@ -122,8 +125,8 @@
 | From | Key Signal | As Of | Status |
 |------|-----------|-------|--------|
 | LABOR | JOLTS 0.91 inverted, hires COVID-low 3.1%, duration 25.7wk, **NFP Mar +178K (headline) but Feb revised -133K, LFPR 61.9%, 3mo avg 68K**, DOGE 260K+ (fed govt -18K in Mar) | Apr 3 | 🔴🔴 |
-| HAWK | WTI $105, Brent $107-112, gas $4.08, diesel $5.51, nitrogen seizure (urea $690s) | Apr 2 | 🔴🔴 |
-| WAR | Gulf escalation, Ras Laffan burning — drives HAWK oil/gas | Mar 29 | 🔴🔴 |
+| HAWK | WTI $113-116, Brent $110-116, gas $4.119, diesel $5.51, nitrogen seizure (urea $690s) | Apr 7 | 🔴🔴 |
+| WAR | **KHARG ISLAND STRUCK Apr 7** — Iran rejected ceasefire, 8pm ET deadline, Trump threatens infrastructure. Escalation scenario. | Apr 7 | 🔴🔴 |
 | FOMC | Hold 3.50-3.75%, 1 cut priced — fed locked by stagflation | Mar 19 | 🔴🔴 |
 | MARCO | ICE 1,100+/day, remittances -4.6%, Miami outmigration -2.0% | Mar 26 | 🔴 |
 

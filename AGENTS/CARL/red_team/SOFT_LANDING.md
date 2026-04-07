@@ -2,8 +2,8 @@
 
 **Status:** STRONGLY CONTRADICTED
 **Confidence:** <5%
-**Last Updated:** 2026-03-31
-**Origin:** RED S0 (Jan 2026), refreshed Mar 31
+**Last Updated:** 2026-04-07
+**Origin:** RED S0 (Jan 2026), refreshed Mar 31, updated Apr 7
 
 ---
 
@@ -30,11 +30,13 @@ Consumer stress is transitory. The economy achieves a "soft landing" where infla
 | Evidence | Current Status | Assessment |
 |----------|---------------|------------|
 | Fed rate cuts ease debt burden | Fed HOLDING at 3.50-3.75%, 1 cut projected | WEAKENED — no cuts coming into 3.1% PCE |
-| Unemployment low | Claims 1,819K, JOLTS 0.94 inverted | MIXED — headline OK, structure rotting |
-| GDP positive | Q4 0.7% (revised down), GDPNow 2.0% | WEAKENED — stall speed |
+| Unemployment low | Claims 1,819K, JOLTS **0.91** inverted & deepening | MIXED — headline OK, structure rotting. LFPR 61.9%. |
+| GDP positive | Q4 0.7% (revised down), GDPNow **1.3%** | **COLLAPSED** — halved in 5 weeks. Stall speed. |
 | Bank capital strong | No NCO warnings yet | HOLDS — but Q1 earnings April = test |
-| CC DQ below GFC | 12.70% (92% of GFC) | WEAKENING — 1.04pp gap closing |
-| Savings rate improved | 4.5% Jan (up from 3.6% Dec) | TAX-DRIVEN — likely temporary |
+| CC DQ below GFC | 12.70% (92% of GFC) | WEAKENING — 1.04pp gap closing. Student cascade adds +0.5-1.0pp. |
+| Savings rate improved | 4.5% Jan (up from 3.6% Dec) | TAX-DRIVEN — Feb data Apr 9. Likely temporary. |
+| NFP headline beat | +178K Mar (cons +57K) | NEW — but Feb revised -133K, LFPR collapsed, 3mo avg 68K |
+| Retail sales bounced | +0.6% Feb | NEW — but front-loading caveat (tariffs Apr 2) |
 
 ---
 
@@ -42,11 +44,14 @@ Consumer stress is transitory. The economy achieves a "soft landing" where infla
 
 | Evidence | Source | Weight |
 |----------|--------|--------|
-| Stagflation in published data (PCE 3.1% + GDP 0.7%) | BEA | HIGH |
-| Gas $4.02 — behavioral breakpoint breached | AAA Mar 31 | HIGH |
+| Stagflation confirmed (PCE 3.1% + GDP **1.3%** GDPNow) | BEA/Atlanta Fed Apr 7 | HIGH |
+| Gas **$4.119** — accelerating (+$0.80/mo) | AAA Apr 7 | HIGH |
 | SPR 172M barrels failing to contain prices | DOE | HIGH |
 | Subprime auto 60+ DQ 7.1% ATR | Fitch Feb 2026 | HIGH |
-| JOLTS inverted (0.94) — structural labor rot | BLS Jan 2026 | HIGH |
+| JOLTS inverted (**0.91**, deepening) — hires COVID-low | BLS Feb 2026 | HIGH |
+| **Kharg Island struck** — oil $115+, Iran rejected ceasefire | Apr 7 | HIGH |
+| **Student loan cascade amplifier** — 7.7M default, SAVE repealed | FSA/STUE | HIGH |
+| **LFPR collapsed to 61.9%** — lowest since Nov 2021 | BLS Mar 2026 | HIGH |
 | 878K mortgages in 90+/foreclosure, cure rates -40% | ICE Feb 2026 | HIGH |
 | K-shape CONVERGING downward (both cohorts stressed) | Reuters/Dollar Tree | HIGH |
 | Triple nitrogen seizure → food CPI Q3-Q4 | Bloomberg/USDA | HIGH |
