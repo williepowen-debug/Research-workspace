@@ -1,5 +1,5 @@
 # WALTER STATUS
-**Updated:** 2026-04-07 ~13:30 UTC
+**Updated:** 2026-04-07 ~16:30 UTC
 **Role:** Signal Filter, Classification & Routing — evolving toward COP (Common Operating Picture) integrator
 **Overall:** 🟡 PRE-OPERATIONAL — Design specs complete, COP architecture under active research
 
@@ -21,10 +21,10 @@ Single entry point for external information into the agent network. WALTER filte
 | Design: Routing Table | ✅ Complete | v0.1 — Domain routing, safety net upgrades, MINIMIZE levels |
 | Design: Filter Spec | ✅ Complete | v0.1 — 3-gate filter, confidence scoring, kill/route logs |
 | Design: Signal Registry | 📋 Draft A | Architecture only — SQLite/superevent system deferred to v2 |
-| Research Corpus | ✅ 8 prompts | ESI triage, military messaging, ATC, pub/sub, IC dissem, emergency dispatch, scientific alerts, **open output systems (NEW)** |
-| Distilled Principles | 🟡 3/7 done | ESI, military, ATC distilled. 4 remaining + Prompt 8 to distill. |
+| Research Corpus | ✅ 10 prompts | ESI, military, ATC, pub/sub, IC dissem, emergency dispatch, scientific alerts, open output, newsroom editorial, **trading desk (NEW)** |
+| Distilled Principles | ✅ 10/10 done | All prompts distilled incl. trading desk information flow |
 | STATUS.md | ✅ This file | |
-| COP Architecture | 🟡 In design | Three-layer hybrid model (COP + Signal Archive + Push Notifications). Layer structure sketched. See ACTIVE DESIGN WORK below. |
+| COP Architecture | 🟡 In design | Three-layer hybrid confirmed (COP.md at repo root + Signal Archive + Push). Key decisions: WALTER owns/commits COP.md, curated not comprehensive, scannable in 30s. |
 | inbox/ outbox/ | ❌ Not created | Deferred — may be replaced or reduced by COP model |
 | filtered/ routed/ queue/ | ❌ Not created | Deferred — signal archive may supersede |
 | Boot Sequence | ❌ Not defined | Will depend on COP architecture decisions |
@@ -96,11 +96,11 @@ Exploring a shift from point-to-point inbox messaging to a Common Operating Pict
 
 | Priority | Item | Target |
 |----------|------|--------|
-| 🔴 | Continue COP architecture research and refinement | Ongoing |
-| 🟠 | Distill remaining research prompts (4-7 + Prompt 8) | This week |
-| 🟠 | Sketch v0.1 COP with real current data | When architecture settles |
-| 🟡 | Stand up operational directories (may change shape based on COP design) | Deferred |
-| 🟡 | First dry-run: filter → classify → route on real information | After COP decisions |
+| 🔴 | Build v0.1 COP.md with real current data | Next session |
+| 🟠 | Create signals/ directory, write first signal file | After COP v0.1 |
+| 🟠 | Define agent boot sequence change (read COP.md first) | After COP v0.1 |
+| 🟡 | First dry-run: filter → classify → route on real information | After COP operational |
+| 🟡 | Stand up operational directories (signals/, filtered/) | After first dry-run |
 | 🟡 | Signal Registry v2 design decisions (storage, concurrency) | Deferred |
 
 ---
@@ -109,8 +109,9 @@ Exploring a shift from point-to-point inbox messaging to a Common Operating Pict
 
 | Date | Key Activity |
 |------|-------------|
-| 2026-04-07 | First WALTER session. Created STATUS.md. Researched open output systems (Prompt 8). Discussed COP architecture with Will via Telegram. Proposed three-layer hybrid model. Will directed iterative approach. |
+| 2026-04-07 (AM) | First WALTER session. Created STATUS.md. Researched open output systems (Prompt 8). Discussed COP architecture with Will via Telegram. Proposed three-layer hybrid model. Will directed iterative approach. |
+| 2026-04-07 (PM) | Distilled all remaining research prompts (4-8). Research phase COMPLETE (8/8 distilled). Key decisions confirmed: COP.md at repo root, WALTER owns/commits it, curated not comprehensive, scannable in 30s. Will raised achievability concern — scoped realistic workflow: boot → read STATUS files → update COP → write signals → ping Telegram if FLASH → done. |
 
 ---
 
-*v0.2 — April 7, 2026*
+*v0.3 — April 7, 2026*
