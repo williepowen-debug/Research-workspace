@@ -1,6 +1,6 @@
 # SAM — Trade Ideas
 
-**Last Updated:** 2026-03-30
+**Last Updated:** 2026-04-06
 **Domain:** Japan Macro, Yen, JGBs, Carry Trade, BOJ Policy
 
 ---
@@ -9,8 +9,8 @@
 
 ### 🔴 FXY (Yen ETF) — LONG (Shares)
 
-**Position:** 4 shares (starter)
-**Entry context:** USD/JPY at 160 handle, pre-intervention, pre-BOJ hike cycle
+**Position:** 8 shares (Tranche 1 complete)
+**Entry context:** USD/JPY at 160 handle, pre-intervention, pre-BOJ hike cycle. Tranche 1 (+4) added per entry card.
 
 **Thesis:** Structural yen appreciation over next 3-6 months driven by BOJ rate hikes, carry unwind, and life insurer repatriation. Oil-in-yen headwind is temporary — makes BOJ hike MORE urgent, not less. When oil stabilizes or BOJ acts, yen snaps back hard.
 
@@ -22,33 +22,35 @@
 
 | Parameter | Value | Notes |
 |-----------|-------|-------|
-| **Current size** | 4 shares | Starter |
-| **Tranche 1 — NOW** | +4 shares → **8 total** | Pre-intervention entry; captures MOF spike |
+| **Current size** | **8 shares** | Tranche 1 complete |
+| **Tranche 1** | ✅ +4 shares → 8 total | Executed pre-intervention |
 | **Tranche 2 — On confirmation** | +4 shares → **12 total** | After BOJ hike confirmed OR intervention dip |
 | **Target size** | **12 shares** | Full position |
-| **Stop loss** | FXY ~$22.50 / USD/JPY ~167 | Oil shock full domination; intervention fails |
-| **Price target (6-month)** | FXY ~$27–29 / USD/JPY ~148–152 | Post-BOJ hike + carry unwind + oil stabilization |
+| **Stop loss** | FXY ~$55.05 / USD/JPY ~167 | Oil shock full domination; intervention fails |
+| **Price target (6-month)** | FXY ~$60–62 / USD/JPY ~148–152 | Post-BOJ hike + carry unwind + oil stabilization |
 
 ### Catalyst Sequence
 
 | Date | Catalyst | FXY Impact |
 |------|----------|-----------|
-| **Mar 31** | FY-end close — repatriation adjustment | Removes near-term headwind |
-| **Apr 1** | Tankan survey — strong = April BOJ hike live | +1–2% |
-| **Apr 7–15** | SK refiner cuts deepen → Japan CPI expectations rise | BOJ more hawkish |
-| **Apr 23–24** | BOJ meeting — hike now possible (Summary of Opinions confirms readiness) | +3–5% on surprise hike |
-| **May 1** | BOJ meeting — **BASE CASE HIKE** to 1.00% | +5–8% structural move |
-| **Late May** | Japan April CPI print — reflects SK refiner + oil shock | Confirms BOJ path locked |
+| ~~Mar 31~~ | ~~FY-end close~~ | ✅ Resolved |
+| ~~Apr 1~~ | ~~Tankan survey~~ | ✅ BEAT — April hike live |
+| **Apr 7** | **30Y JGB auction at ~3.68%** — insurer demand test | Weak = repatriation confirmed |
+| **Apr 7–14** | Big 4 insurer investment plans | Allocation cuts = Channel 1 confirmed |
+| **Apr 15** | Feb TIC data — Japan UST selling confirmation | Large selling = stress case |
+| **Apr 23–24** | BOJ meeting — hike ~45-50% | +3–5% on surprise hike |
+| **May 1** | BOJ meeting — **BASE CASE HIKE** | +5–8% structural move |
+| **Late May** | Japan April CPI print — reflects oil shock + SK refiner | Confirms BOJ path locked |
 
 ---
 
-## Carry Unwind Probability (as of Mar 30)
+## Carry Unwind Probability (as of Apr 6)
 
 | Timeframe | Probability | Key Driver |
 |-----------|-------------|------------|
-| **7 day** | **85%** | USD/JPY 159.65 — MOF intervention imminent; FY-end tomorrow |
-| **30 day** | **97%** | BOJ Summary hawkish beyond expectations; Tankan tomorrow; oil feeding CPI |
-| **60 day** | **97%** | Structural: hedged UST negative vs JGB; life insurer exit accelerating; BOJ path locked |
+| **7 day** | **80%** | USD/JPY ~159.76; oil pullback reduced MOF urgency briefly but escalation resumed. CFTC shorts -72.9K (growing). |
+| **30 day** | **95%** | Tankan beat clears BOJ data hurdle. April 23-24 hike ~45-50%. Asada dovish but won't block. |
+| **60 day** | **95%** | Structural case intact. Hedge ratio 44.4% (14yr low). $370-550B unhedged. BOJ path locked through May 1. |
 
 ---
 
@@ -71,8 +73,8 @@ Private credit cascade (APO, ARES — 9 funds gated) → recession signal → Fe
 
 | Risk | Probability | FXY Impact | Mitigation |
 |------|-------------|-----------|-----------|
-| **Oil shock dominates** — Kharg struck, Brent $120+; yen stays weak | 20% | -10–15% | Stop at $22.50; position sized to absorb |
-| **Intervention fails** — MOF spends $37B, yen breaks to 162-163 | 15% | -5–8% before recovery | Hold if fundamentals intact |
+| **Oil shock dominates** — Kharg struck, Brent $120+; yen stays weak | 20% | FXY to ~$53–55 | Stop at $55.05; position sized to absorb |
+| **Intervention fails** — MOF spends $37B, yen breaks to 162-163 | 15% | FXY to ~$56–57 before recovery | Hold if fundamentals intact |
 | **BOJ delays** — Tankan weak, BOJ punts past June | 10% | -3–5% short term | Time = more carry unwind buildup |
 | **Takaichi political collision** — 0.75% is her stated ceiling; next hike to 1.00% triggers friction. Scenario: BOJ wants to hike but gets politically blocked via Katayama pressure or BOJ Law revision threats | 10–15% | -3–5% if market reads as dovish | Aida stated "tolerate to 0.75%, pause until 2027." Watch for Kantei/Aida commentary escalation. Partially mitigated by Fed independent path. |
 
@@ -132,13 +134,15 @@ Private credit cascade (APO, ARES — 9 funds gated) → recession signal → Fe
 
 | Date | Event | Impact |
 |------|-------|--------|
-| **Mar 31** | FY2025 end — repatriation window closes | FXY: removes headwind |
-| **Apr 1** | Tankan survey | Strong = April BOJ hike live |
+| ~~Mar 31~~ | ~~FY2025 end~~ | ✅ Done — no outsized flows |
+| ~~Apr 1~~ | ~~Tankan survey~~ | ✅ Done — BEAT (mfg 17, non-mfg 36). April hike live. |
+| **Apr 7** | **30Y JGB auction** | 🔴 Insurer demand test at ~3.68% yield |
+| **Apr 7–14** | Big 4 insurer FY2026 investment plans | Repatriation confirmation |
 | **Apr 15** | Feb TIC data (Japan UST flows) | Confirms repatriation scale |
-| **Apr 23–24** | BOJ Meeting — hike possible | FXY: +3–5% on hike |
+| **Apr 23–24** | BOJ Meeting — hike ~45-50% | FXY: +3–5% on hike |
 | **May 1** | BOJ Meeting — **BASE CASE HIKE** | FXY: +5–8% structural |
 | **Late May** | Japan April CPI print | Confirms BOJ path |
-| **June 2026** | ESR full implementation — life insurers forced to mark | Repatriation acceleration |
+| **Mid-May** | ESR disclosures begin | Insurer stress visible |
 
 ---
 
