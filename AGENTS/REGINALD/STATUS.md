@@ -1,5 +1,5 @@
 # REGINALD STATUS
-**Last Updated:** 2026-04-06 (EOD) | **Status:** 🔴🔴🔴 CRITICAL (ESCALATING)
+**Last Updated:** 2026-04-07 | **Status:** 🔴🔴🔴 CRITICAL (ESCALATING)
 
 ---
 
@@ -53,7 +53,7 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 | HY OAS | **313bps** (Apr 6, tightened from 316) | 🟡 Tightened on ceasefire rally. Watch for re-breach of 320. Credit internals deteriorating despite spread compression. |
 | KRE | **$66.64** (Apr 6, +0.97%) | 🟡 Bouncing with market. Still below $70 resistance. No institutional accumulation pattern. Volume front-loaded on spikes, dead between. |
 | Brent | **$109.35** (Apr 6) | 🔴 Ceasefire talks ongoing but Iran rejected framework. Trump walked back "taken out Tuesday" threat. Volatility, not resolution. |
-| 10Y UST | **4.42%** (Mar 27, stale) | 🔴 Hit 4.48% intraday (highest since Jul 2025). Refresh Mon. |
+| 10Y UST | **4.33%** (Apr 6) | 🟠 Came down from 4.42%. Still elevated but below 4.50% RED threshold. |
 | Office CMBS DQ | **11.2%** (Feb 2026, Trepp) — pulled back from 12.34% Jan ATH on 5 loan mods | 🔴 |
 | Bank CRE DQ gap | 4.18% vs CMBS 11.2% = ~7pp masking | 🔴 |
 | FHLB Advances | ~$480B (issuance +31% YoY) | 🟠 Contingency behavior |
@@ -103,6 +103,17 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 **⚡ AOCI exposure:** Cat III/IV — same AOCI bomb as OZK. Forced recognition of underwater AFS/HTM from 2022-23 rate shock.
 **⚡ Analyst downgrades (Mar 26):** Weiss Buy→Hold | Barclays PT $105→$90 | WFC PT $83→$79. Consensus PT ~$85-90. Thesis PT $47-60.
 **⚡ Macro amplifiers:** $400B CRE maturity wall in 2026 | NDFI $1.54T (V3 amplified) | Mortgage distress ATH | CMBS $167M Chicago office foreclosure.
+
+## RESEARCH — EGBN
+
+**KB: 12 rows, 4 groups** | **Earnings: ~Apr 22** | **Price: $25.51 (Apr 4)** | **NEW — subdirectory built Apr 6**
+- Architecture: INDEX, STATUS, THESIS, SCENARIOS, WEAKNESSES, EARNINGS_PREP, KB.tsv, KB_INDEX
+- Thesis: "Crisis-in-Progress" — V1 CRE (547% CRE/T1, MI3 23.7%) + V2 DC/DOGE (100% geographic, 307K+ layoffs)
+- EARNINGS_PREP grade C — scaffolding only, needs Q4 10-K read and research
+- Position: $25P Jun (1 contract, at strike)
+- **Key gap:** No direct source read yet (10-K, earnings transcript). Everything derived from Call Reports + matrix.
+
+**Research gaps:** Q4 10-K read, exact earnings date confirmation, insider scan, leadership profile, GovCon book composition, DC office vacancy Q1 data, MI3 trend direction, consensus estimates, AUB relative trade analysis, AOCI exposure detail.
 
 ---
 

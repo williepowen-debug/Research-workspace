@@ -1,6 +1,6 @@
 # REGINALD CALENDAR
 
-**Last Updated:** 2026-04-03 | **View:** Forward-looking only. Past events pruned weekly.
+**Last Updated:** 2026-04-07 | **View:** Forward-looking only. Past events pruned weekly.
 
 ---
 
