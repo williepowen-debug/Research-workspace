@@ -1,8 +1,10 @@
 # EGBN STATUS
-**Last Updated:** 2026-04-06 | **Status:** 🔴🔴 CRISIS (Pre-existing + DOGE acceleration)
-**Price:** $25.51 (Apr 4, -0.20%) | **Assets:** $10.5B
+**Last Updated:** 2026-04-07 | **Status:** 🔴🔴 CRISIS (Pre-existing + DOGE acceleration)
+**Price:** $25.84 (Apr 7, +0.08%) | **Assets:** $10.5B
 **HQ:** Bethesda, MD | **Geography:** 100% DC Metro (MD, DC, VA)
-**KB:** 12 rows, 4 groups | **Earnings:** ~Apr 22-29
+**KB:** 18 rows, 4 groups | **Earnings:** ~Apr 22-25 (unconfirmed)
+**Consensus:** Hold (0B/2H/0S), PT ~$20-$29. Zacks Strong Buy (Feb 4, quant). Thin coverage.
+**CEO:** Susan Riel retiring 2026 (announced Nov 2025). No successor named.
 
 ---
 
@@ -64,12 +66,13 @@
 
 ## Research Agenda
 
-- [ ] **EGBN Q4 2025 10-K / earnings transcript** — full read for DOGE commentary, CRE detail, outlook
-- [ ] **EGBN Q1 2026 earnings date** — confirm exact date (expected late Apr)
-- [ ] **Insider activity scan** — Form 4 filings, departures beyond CEO
-- [ ] **Leadership profile** — new CEO search, board composition, audit committee, auditor
+- [ ] **EGBN Q4 2025 10-K / earnings transcript** — full read for DOGE commentary, CRE detail, GovCon book
+- [x] **EGBN Q1 2026 earnings date** — NOT confirmed. Pattern suggests ~Apr 22-25. Check IR ~Apr 14.
+- [x] **Insider activity scan** — ✅ Apr 7: All grants/tax-withholding, ZERO open market buys. CEO Riel 3,206 shares withheld at $26.33. Zero buying = no floor confidence.
+- [x] **Consensus estimates** — ✅ Apr 7: 0B/2H/0S, PT $20-$29. Zacks Strong Buy (Feb 4, quant). Thin coverage (2-3 analysts).
+- [ ] **Leadership profile** — CEO Riel retiring 2026 (confirmed). No successor named. Continuity awards granted. Board/audit TBD.
 - [ ] **DC office vacancy data** — CBRE/JLL DC Metro Q1 2026 report when available
-- [ ] **Government contractor lending book** — size, concentration, DOGE exposure detail
+- [ ] **Government contractor lending book** — Mgmt said no material pressure Oct 2025; LOC usage -30%. But PRE-Q1 DOGE impact.
 - [ ] **MI3 trend** — is 23.7% stable or moving? Need prior quarter comparison
 - [ ] **AUB relative trade analysis** — long AUB / short EGBN spread
 - [ ] **M&A probability assessment** — DC franchise value vs distress discount

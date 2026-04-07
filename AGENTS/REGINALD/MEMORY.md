@@ -25,44 +25,39 @@
 
 ## Session Notes
 
-⚠️ **Open question:** Three banks report in 2 weeks (ZION Apr 20, OZK+WAL Apr 21, EGBN ~Apr 22). Position decisions for all four need to be locked before ZION prints. EGBN earnings prep is grade C — needs significant research to get to A-.
+⚠️ **Open question:** WAL may report as early as Apr 16 (unconfirmed). Consider selling $85P Jun before earnings — deep ITM, captures current value, avoids bounce risk on clean quarter. Structural thesis resolves over months (Call Reports May, Investor Day May 12), not one earnings print.
 
 ### CHANGES SINCE LAST SESSION
 *(leave blank — next boot populates via market.py)*
 
-### LAST SESSION (Apr 6-7 — afternoon session)
-- **Inbox processed (3 signals):** CARL FL Pincer (🔴), CARL SYF Canary (🟠), News Sweep (mixed). All moved to inbox/processed/. STATUS updated with 2 new indicators (SYF NCO, FL UI Exhaustion). CALENDAR updated with 3 new dates (SYF 8-K mid-Apr, FL UI Wave 1 Jun 24, Wave 2 Jul 26).
-- **Workbook updated:** VX-REG-19.02 updated (FL UI multi-wave). VX-REG-20.01 added (SYF NCO canary). ML-REG-139 + ML-REG-140 added to KB.
-- **EGBN/ subdirectory BUILT:** Full architecture matching WAL/OZK template — INDEX, STATUS, THESIS ("Crisis-in-Progress"), SCENARIOS (Bear 45%/Base 35%/Bull 20%), WEAKNESSES (7 identified), EARNINGS_PREP (grade C), workbook/KB.tsv (12 rows, 4 groups), workbook/KB_INDEX.md.
-- **STATUS prices refreshed** via market.py. Brent $110.60, 10Y 4.33% (down from 4.42%), KRE $66.19, WAL $72.74 (still below $78).
-- **Files created:** EGBN/INDEX.md, STATUS.md, THESIS.md, SCENARIOS.md, WEAKNESSES.md, EARNINGS_PREP.md, workbook/KB.tsv, workbook/KB_INDEX.md
-- **Files updated:** STATUS.md (+EGBN section, +2 indicators, prices), CALENDAR.md (+3 dates), workbook/VX.tsv (+1 row, 1 updated), workbook/KB.tsv (+2 rows)
+### LAST SESSION (Apr 7 — full session, earnings prep)
+- **Inbox processed (7 signals):** 2 CARL (already integrated, move failed last session), 5 new (WAL deep dive, CRE refi wall, PC meltdown, WAL litigation, news sweep). Key new insight: Pathward +189bps CRE reserves while industry -12bps. All moved to inbox/processed/.
+- **Outbox cleared:** JEF_WAL_V2_SYNTHESIS confirmed delivered by HERMES (PROME confirmed). Moved to outbox/delivered/. Flagged HERMES should move files post-delivery.
+- **CALENDAR updated:** Full Q1 earnings calendar added (MTB Apr 15, KEY+CFG Apr 16, RF Apr 17, WAL Apr 16-21 UNCONFIRMED, OZK Apr 21, EGBN ~Apr 22-25). WAL date uncertainty = must be ready by Apr 16.
+- **WAL earnings discussion:** 55% prob meets/beats headline. Thesis is in the DETAIL (MI3, Cantor, OREO), not the headline EPS. Jun puts vulnerable to relief rally + IV crush. Consider selling $85P Jun before earnings, holding Sep puts for structural catalysts.
+- **OZK gap closure (5 items):** EDGAR 8-K check (none), Bioterra COMPLETE no tenants, SI unchanged (13.81%), IQHQ RaDD still 3.3% lab, SCENARIOS price refresh ($46.44). Grade A-.
+- **OZK Prompt #8 (Metropolitan):** 3 LLM versions integrated. KB-161→164. Met Cap failed at MI3 39.6%. MCB active at 39.6% with zero NCOs = masking. Reserve inversion -2bps confirmed.
+- **OZK Prompt #9 (Affinius):** 2 LLM versions. ⚠️ MAJOR CORRECTION: Affinius has NO public bonds (private RIA). "81¢" reference was WRONG. Affinius in expansion ($3.4B Veris, $61B AUM). 8 OZK co-lending deals, zero defaults. Columbus Center $69M foreclosure = isolated office walk-away. KB-165→170.
+- **OZK Prompt #10 (Sell-side):** 5B/5H/1S, avg PT $57.22. UBS Neutral $48 today. Citi SELL $40 + Mar 23 catalyst watch. Institutions ADDING (Millennium +20%, Mackenzie +17%). KB-171→175.
+- **EGBN web research:** Q4 beat ($0.25 vs -$0.12 est). CEO Riel retiring. Zero insider buying. 0B/2H/0S thin coverage. GovCon "no pressure" as of Oct 2025 (pre-DOGE Q1). KB-013→018. Grade C→C+.
+- **EGBN EXTERNAL_PROMPTS.md created:** 5 prompts (#1 Q4 call deep dive, #2 DC CRE conditions, #3 sell-side+M&A, #4 GovCon/DOGE, #5 MI3+AOCI).
+- **OZK KB:** 159→175 rows (16 added). New group: FAILURE_COMP, AFFINIUS, SELLSIDE.
+- **EGBN KB:** 12→18 rows (6 added).
+- **Files updated:** STATUS.md (prices, EOD summary), CALENDAR.md (full earnings calendar), OZK/STATUS.md, OZK/EARNINGS_PREP.md, OZK/SCENARIOS.md, OZK/EXTERNAL_PROMPTS.md, EGBN/STATUS.md, EGBN/EXTERNAL_PROMPTS.md (created)
 
-### LAST SESSION (Apr 5 — short session)
-- First Brands auction RESOLVED. OZK date changed Apr 16→21. OZK consensus EPS filled.
+### LAST SESSION (Apr 6-7 — afternoon)
+- Inbox processed (3 CARL signals). EGBN/ subdirectory BUILT. STATUS prices refreshed.
 
-### NEXT SESSION — RESEARCH GAPS
-**EGBN (highest priority — grade C, needs to reach B+ before earnings):**
-1. Q4 2025 10-K / earnings transcript — direct source read (no primary source read done yet)
-2. Exact earnings date confirmation
-3. Insider activity scan (Form 4)
-4. Leadership profile (board, audit committee, CEO search status)
-5. GovCon book composition — size, client profile, DOGE exposure
-6. DC office vacancy Q1 data (CBRE/JLL)
-7. MI3 trend direction (23.7% — stable or moving?)
-8. Consensus estimates (EPS, revenue)
-9. AUB relative trade analysis
-10. AOCI exposure detail
-
-**OZK (gap closure before Apr 21):**
-11. SI refresh, 8-K watch, Bioterra status
-12. SCENARIOS.md recalibration
-
-**WAL (gap closure before Apr 21):**
-13. Pre-print position decisions — all 4 strikes need plan
-14. Updated insider filings refresh (by Apr 18)
+### NEXT SESSION
+1. **Integrate EGBN prompts** as Will completes them (#1 most important — Q4 call transcript)
+2. **WAL position decision** — sell $85P Jun before earnings? Lock by Apr 15 if WAL reports Apr 16.
+3. **OZK SI refresh** (~Apr 14) — pull FINRA/Ortex
+4. **OZK 8-K check** (~Apr 14) — EDGAR CIK 0001569650
+5. **Read-through watchlist** — lightweight "what to watch" for MTB (Apr 15), CFG (Apr 16), RF (Apr 17)
+6. **EGBN earnings date** — confirm via IR page ~Apr 14
+7. **OZK remaining prompts** (#13 peer vintage, #19 metro conditions) — low priority
 
 **Pending (carried forward):**
-15. Cantor PACER docket
-16. Vecchione return status
-17. MI3 peer comparison
+8. Cantor PACER docket
+9. Vecchione return status
+10. WAL insider refresh (by Apr 18)

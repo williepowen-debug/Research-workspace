@@ -20,12 +20,16 @@ Run these and drop results into `sources/`. Prome will integrate into KB.tsv.
 | 15 | IQHQ RaDD leasing + distress | KB-137–141 | Claude + Gemini. 3.3% leased, maturity to Aug 2028, IQHQ in distress cascade |
 | 20 | Life sci vacancy deep dive | KB-147–156 | Claude. National 23.0% (first decline), SD 26-31%, Sorrento 38.2%, Boston ATH 28.0%, Bay Area 30.2% (first recovery), 18.7M SF must exit by 2030 |
 | 16 | Insider transactions | KB-142–146 | Claude + Gemini. Zero buys 18mo, 65:1 sell ratio, CRO filled (Majumdar), CIK corrected |
+| 8 | Metropolitan Capital failure comparison | KB-161–164 | Claude + Gemini + ChatGPT. CORRECTED: Met Capital B&T failed (not MCB). MI3 39.6% at failure. Reserve inversion -2bps. Scale + PPNR = survival differentiator. |
+| 9 | Affinius Capital bonds | KB-165–170 | Claude + Gemini. ⚠️ Claude: Affinius has NO public bonds (private RIA). Gemini conflated USAA Cap Corp. Columbus Center $69M foreclosure (isolated). 8 OZK co-lending deals, zero defaults. Veris $3.4B expansion. "81¢" ref CORRECTED. |
+| 10 | Sell-side consensus | KB-171–174 | Gemini. 5B/5H/1S, avg PT $57.22, median $54. Citi SELL $40 maintained + Mar 23 catalyst watch. UBS TODAY Neutral $48 (FY26-27 est 8-10% below consensus). Institutions ADDING (Millennium +20%, Mackenzie +17%, Invesco +17%). |
 
 ---
 
 ## 🟠 MEDIUM PRIORITY — Before Apr 10
 
-### PROMPT 8: Metropolitan Capital Bank Failure Comparison
+### ~~PROMPT 8: Metropolitan Capital Bank Failure Comparison~~ ✅ COMPLETED Apr 7
+### ~~PROMPT 10: Sell-Side Consensus~~ ✅ COMPLETED Apr 7
 ```
 Metropolitan Commercial Bank (FDIC CERT ?) failed on January 30, 2026. Pull:
 - Pre-failure metrics: CRE concentration, ACL ratio, noncurrent ratio, Memo Item 3 / C&I ratio

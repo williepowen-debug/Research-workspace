@@ -3,9 +3,9 @@
 
 ---
 
-## EOD SUMMARY — April 6, 2026
+## EOD SUMMARY — April 7, 2026
 
-**Market Action:** KRE +0.97% to $66.64. Regional banks broadly higher (RF +2.72%, CFG +2.56%, HBAN +1.41%). HY OAS tightened to 313bps from 316bps on ceasefire optimism. VIX retreated to 24.54.
+**Market Action:** SPY -0.97%, broad red. VIX spiked +10% to 26.26. WTI surged to $116.15 (+3.33%). Regionals all red except EGBN flat: WAL $72.04 (-1.42%), OZK $46.44 (-0.96%), KRE $66.39 (-0.37%). Brent $110.55 (+0.71%). 10Y 4.35% (+0.28%).
 
 **Key Developments:**
 1. **Leveraged Loan Market Collapse:** Q1 2026 activity down **34% YoY** ($235B vs $355B prior year). Slowest start since 2020 pandemic. "90/10" market forming — 90% stable, bottom 10% facing "existential liquidity crunch."

@@ -1,7 +1,7 @@
 # OZK — Dashboard
-**Updated:** 2026-04-02 | **Conviction:** 🔴🔴 HIGH | **Thesis:** RESERVOIR
-**Price:** $46.31 (Apr 4) | **TBV:** $41.48 | **P/TBV:** ~1.12x | **KB:** 159 rows, 17 groups
-**Consensus:** Hold (2B/5H/1S), PT $53.71, EPS $1.52/Q (Zacks Feb 2026), FY2026 $6.02
+**Updated:** 2026-04-07 | **Conviction:** 🔴🔴 HIGH | **Thesis:** RESERVOIR
+**Price:** $46.44 (Apr 7) | **TBV:** $41.48 | **P/TBV:** ~1.12x | **KB:** 163 rows, 18 groups
+**Consensus:** Hold (5B/5H/1S), PT $57.22 (range $40-$67, median $54), EPS $1.52/Q (Zacks Feb), FY2026 $6.02. UBS Neutral $48 (Apr 7). Citi SELL $40.
 
 ---
 
@@ -90,17 +90,19 @@ KBRA highlights: $72M single office charge-off. RESG declining $1.4B/qtr, projec
 
 ## Research Agenda
 
-### MUST DO (This Week)
-- [ ] Jefferies Q1 — WAL read-through (3x deferred, DO IT)
-- [ ] 8-K EDGAR monitoring — CIK 0001569650
-- [ ] Pull current short interest — undated everywhere
-- [ ] Reconcile stock price (~$49 vs SCENARIOS ~$42-44)
+### MUST DO (Before Apr 21)
+- [x] 8-K EDGAR monitoring — CIK 0001569650. No new 8-Ks as of Apr 7. SVP loss NOT disclosed. Check again ~Apr 14.
+- [x] Short interest check — No newer data than Mar 25 (13.81% / 11.2 DTC). Next FINRA release mid-Apr. Pull again ~Apr 14.
+- [x] SCENARIOS price reconciliation — Stock $46.44 vs SCENARIOS $44.70. Only 3.9% gap. Framework valid; price noted.
+- [x] Bioterra status — Building COMPLETE (323K SF Sorrento Mesa). No leasing data. 29.7% SD vacancy. $202M loan maturing into worst life sci market in decade. NEXT SHOE CONFIRMED.
+- [x] IQHQ RaDD check — Still 3.3% lab leased (JCVI 50K only). 1.5M SF "mostly empty." Retail 50% of 200K SF (Equinox, Rivian). Pivoting to 10-40K suites. No new lab tenants.
+- [ ] Jefferies Q1 — WAL read-through (3x deferred)
 
 ### PROMPTS REMAINING (Will running externally)
 - [x] #16 Insider transactions ✅ KB-142→146 (zero buys 18mo, 65:1 sell ratio, CRO filled, CIK corrected)
-- [ ] #8 Metropolitan failure comparison
-- [ ] #9 Affinius bonds (co-lending partner)
-- [ ] #10 Sell-side consensus
+- [x] #8 Metropolitan failure comparison — ✅ Apr 7: KB-161→163. CORRECTED: Met Capital B&T failed (not MCB). MI3 39.6% at failure. OZK 37.6% = same zone. Scale+PPNR = survival.
+- [x] #9 Affinius bonds — ✅ Apr 7: KB-165→170. Claude: Affinius has NO public bonds (private RIA). Gemini conflated USAA Cap Corp. Columbus Center $69M foreclosure (isolated). Veris $3.4B expansion. 8 OZK co-lending deals, zero defaults. "81¢" ref CORRECTED.
+- [x] #10 Sell-side consensus — ✅ Apr 7: KB-171→174. 5B/5H/1S, avg PT $57.22. Citi SELL $40 + Mar 23 catalyst watch. UBS Neutral $48 (today). Institutions ADDING below book.
 - [ ] #13 Peer 2022 vintage maturity wall
 - [ ] #19 Metro market conditions
 - [ ] #20 Life sci vacancy deep dive
