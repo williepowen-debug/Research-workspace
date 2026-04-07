@@ -1,6 +1,6 @@
-STATUS: ✅ DONE
-CHANGED: STATUS.md (full rewrite), CALENDAR.md (updated), OUTBOX.md (loaded), thesis/CHANGELOG.md (entry added), workbook/KB.tsv (5 new, 2 revised), workbook/VX.tsv (3 updated), workbook/VX_HISTORY.tsv (3 changes), workbook/ML.tsv (3 new findings), workbook/CHALLENGES.tsv (1 resolved, 2 new), workbook/PREDICTIONS.tsv (2 resolved), workbook/FLOW.tsv (2 pathways updated), archive/handoffs/RED_003_HANDOFF.md (new). Inbox: 2 signals processed → inbox/processed/.
-RESULT: Catch-up session covering Apr 2-5. NFP +178K = Scenario A, employment channel downgraded to 35%. Dated Brent $141 physical = oil ceiling invalidated. Key finding: dual transmission mechanism (oil path bypasses employment). HY OAS tightened to 316 = strongest counter-signal (HYG at risk). Thesis confidence 75→77%. Two RED predictions WRONG (NFP range, oil ceiling). Self-calibration: distributions too narrow.
-GAPS: NDFI $1.32T vs $1.54T still unresolved (4 sessions). RED_SKELETON stale (Feb 14). Position roll recommendations not packaged.
-WILL_NEEDS: Apr 6 outcome monitoring. NDFI reconciliation. OZK/WAL earnings frameworks. Position roll recommendations.
-FOLLOW-UP: Check Trump ultimatum outcome Apr 6. Check market reaction to NFP Apr 6 open. Pre-write earnings decision frameworks.
+STATUS: DONE (partial — 3/7 prompts distilled, design specs drafted)
+CHANGED: archive/handoffs/RED_004_HANDOFF.md (new). Also wrote to AGENTS/WALTER/: research/distilled/01_ESI_TRIAGE.md, research/distilled/02_MILITARY_MESSAGING.md, research/distilled/03_AIR_TRAFFIC_CONTROL.md, design/SIGNAL_FORMAT_SPEC.md, design/ROUTING_TABLE.md, design/FILTER_SPEC.md.
+RESULT: Cross-agent design session for WALTER. Read full 15-file research corpus. Distilled 3 of 7 prompts. Drafted signal format spec (header block, precedence, AIGs, MINIMIZE), routing table (domain→recipient mapping), and filter spec (Gate 1: novelty/relevance/credibility). Key decision: WALTER is both filter AND router, single entry point, rewrites to standard format.
+GAPS: Prompts 4-7 not yet distilled (pub-sub, IC, dispatch, scientific). Ack/receipt protocol, superevent grouping, conflict detection, re-triage specs not yet drafted. WALTER CLAUDE.md not written.
+WILL_NEEDS: Continue distilling prompts 4-7. Decide on remaining design specs. Eventually: WALTER boot sequence and CLAUDE.md.
+FOLLOW-UP: Resume at Prompt 4 (Pub-Sub Brokers). Will confirmed one-at-a-time approach with discussion between each.
