@@ -1,8 +1,8 @@
 # BROCK — TRADE.md
-**Rewritten:** 2026-03-16 EOD (Prome + Will)
-**Convergence:** 45/50 (90%) 🔴🔴 — 9 of 10 vectors RED, 13 of 15 VX RED
-**Status:** Stage 2 confirmed + insider admission. 5+ gates in 10 days. Zito: "All the marks are wrong." $10B+ Q1 retail outflows. FOMC tomorrow.
-**Account:** $55,820 (+179.57%) | BROCK-relevant positions: ~$2,600 deployed
+**Base:** 2026-03-16 EOD (Prome + Will) | **Last cleaned:** 2026-04-07
+**Convergence:** See STATUS.md for current score. 13 of 15 VX RED (as of Mar 26 — VX stale).
+**Status:** Stage 2→3 transition. 12 gates / 10 weeks. Barings broadens. BX refuses A&E. Treasury/FSOC + Congress active.
+**Account:** ⚠️ STALE — verify live before any execution
 
 > **Core doctrine:** Every trade must link to a convergence vector or FLOW transmission channel. Private credit cascade is the thesis — positions express specific pathways within it.
 >
@@ -52,12 +52,9 @@ Detail → `domain/sources/TARGETING_FRAMEWORK_MAR16.md`
 **Vector Links:** Athene/Insurance (5/5), Software Marks (5/5), FLOW-BRK-016 (Insider→Forced Marks), FLOW-BRK-017 (Dual Legal Liability).
 **Expiry logic:** Jun captures the April-May PC catalyst cluster (tenders, NDX default, class actions, earnings). Hamilton's Dec framework applies to macro/index trades (HYG, KRE), NOT single-name PC plays with imminent dateable catalysts.
 
-### TRADE 1B — APO Put Apr — HARVEST
+### ~~TRADE 1B — APO Put Apr~~ — EXPIRED
 **Instrument:** APO $100P Apr×1
-**Current:** +11.75% ($450 value). ~4 weeks to expiry.
-**Decision:** HARVEST on next green day. Redeploy proceeds into Dec position (Trade 1A).
-**Rationale:** Apr is too short for the big catalysts (statutory filing, class actions, Q1 earnings). Theta accelerating. +11.75% is a win — take it and extend duration. Don't wait for $100 breach that may not come before expiry.
-**RED flagged this position** as most vulnerable (30% probability it goes against us).
+**Outcome:** EXPIRED Apr 17. APO was at $106.19 at expiry — expired worthless. Thesis timing off by days.
 
 ---
 
@@ -99,29 +96,29 @@ Detail → `domain/sources/TARGETING_FRAMEWORK_MAR16.md`
 
 ---
 
-## SECTION 3: ROLLS (URGENT — Green Day Execution)
+## SECTION 3: ROLLS — ⚠️ STALE (Written Mar 16)
 
-Today (Mar 16) was a green day. Rolls are time-sensitive — FOMC tomorrow could close the window.
+*APO Apr and OWL Apr have both expired since this section was written. FOMC Mar 17-18 has passed. This section needs full rewrite on next BROCK spawn with live prices.*
 
-| Priority | Position | Current | Action | Rationale |
-|----------|----------|---------|--------|-----------|
-| **1** | APO $100P Apr | +11.75% ($450) | **Harvest → redeploy into Dec** | Theta accelerating, 4 weeks left, catalysts are Apr-May+ |
-| **2** | APO $100P Jun | +7.6% ($830) | **Hold Jun or roll to Jul/Aug** | PC catalyst cluster is April-May. Jun captures it. Dec only if thesis extends. |
-| **3** | HYG $75P Jun ×8 | +46.7% ($360) | **Roll → Dec** | HYG = macro/credit spread trade. Hamilton applies here — Dec minimum. |
-| **4** | OWL $9.5P Apr | -7% ($95) | **Cut or let expire** | OWL -67% from peak. Most damage done. $95 remaining = not worth the theta. |
-
-**Total roll capital freed:** ~$1,735 (APO Apr $450 + APO Jun $830 + HYG $360 + OWL $95)
+| Priority | Position | Mar 16 Status | Outcome |
+|----------|----------|---------------|---------|
+| 1 | APO $100P Apr | +11.75% ($450) | **EXPIRED** worthless (APO $106.19 at expiry) |
+| 2 | APO $100P Jun | +7.6% ($830) | **ACTIVE** — verify current value |
+| 3 | HYG $75P Jun ×8 | +46.7% ($360) | **Verify** — roll to Dec still recommended |
+| 4 | OWL $9.5P Apr | -7% ($95) | **EXPIRED ITM** ($0.84 ITM at expiry) — confirm exercise/settlement |
 
 ---
 
-## SECTION 4: EXISTING POSITIONS (Current as of Mar 16 EOD)
+## SECTION 4: EXISTING POSITIONS (⚠️ Base: Mar 16 — updated Apr 7 for expirations)
 
-| Position | Entry | Current | P&L | Conv | Assessment |
-|----------|-------|---------|-----|------|-----------|
-| APO $100P Apr ×1 | — | $450 | +11.75% | 5 | HARVEST → Dec |
-| APO $100P Jun ×1 | — | $830 | +7.6% | 5 | HOLD Jun — PC catalyst window |
-| OWL $9.5P Apr ×1 | — | $95 | -7% | 2 | CUT — most damage priced |
-| HYG $75P Jun ×8 | — | $360 | +46.7% | 4 | ROLL → Dec |
+| Position | Status | Conv | Assessment |
+|----------|--------|------|-----------|
+| APO $100P Apr ×1 | **EXPIRED** worthless | — | APO $106.19 at expiry |
+| APO $100P Jun ×1 | ACTIVE ~$590 | 5 | HOLD — May 1 catalyst |
+| APO $95P Dec ×1 | ACTIVE ~$920 | 5 | HOLD — full thesis runway |
+| ARES $95P Jun ×1 | ACTIVE ~$890 | 4 | HOLD — Q1 earnings catalyst |
+| OWL $9.5P Apr ×1 | **EXPIRED ITM** $0.84 | — | Confirm settlement |
+| HYG $75P Jun ×8 | ACTIVE — verify | 4 | Roll to Dec recommended |
 
 ---
 
@@ -184,11 +181,12 @@ $100B+ distressed dry powder (KB-BRK-022) puts a floor under forced-seller prici
 
 ---
 
-## SECTION 7: NEXT ACTIONS
+## SECTION 7: NEXT ACTIONS (Updated Apr 7)
 
-1. **FOMC watch (Mar 17-18)** — 0 cuts = accelerant. Presser Wed 2:30 PM ET.
-2. **Execute rolls on next green day** — APO Apr harvest, APO Jun→Dec, HYG Jun→Dec, OWL cut.
-3. **Pull ARCC options chain** — verify liquidity, identify strike/expiry for new position.
-4. **Check ARES options** — event-driven around Q1 tender disclosure.
-5. **Monitor National Dentex** — April maturity = weeks away.
-6. **Monitor unreported Q1 tenders** — Ares, Apollo, Oaktree, Goldman. Any day now.
+1. **Confirm OWL $9.5P Apr settlement** — expired ITM $0.84, verify exercise/assignment.
+2. **Roll HYG Jun→Dec** — on next green day.
+3. **Q1 earnings prep** — ARES/ARCC earnings late Apr/May. Key marks.
+4. **Feldman v. Apollo** — lead plaintiff deadline May 1.
+5. **Monitor National Dentex** — April maturity imminent.
+6. **Pull ARCC options chain** — verify liquidity for new position if Q1 marks confirm.
+7. **Full TRADE.md rewrite** — many sections stale. Next BROCK spawn should rebuild with live prices.
