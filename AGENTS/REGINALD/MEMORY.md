@@ -25,25 +25,44 @@
 
 ## Session Notes
 
-⚠️ **Open question:** OZK + WAL reporting same day (Apr 21) — need to finalize all position decisions BEFORE print. ZION (Apr 20) is only leading indicator now.
+⚠️ **Open question:** Three banks report in 2 weeks (ZION Apr 20, OZK+WAL Apr 21, EGBN ~Apr 22). Position decisions for all four need to be locked before ZION prints. EGBN earnings prep is grade C — needs significant research to get to A-.
 
 ### CHANGES SINCE LAST SESSION
-- **Prices (Apr 4):** WAL $72.07 (-0.43%), OZK $46.31 (+0.30%), KRE $66.00, Brent $111.60, VIX 23.87, APO $107.04 (-2.91%)
-- **3 inbox signals** unprocessed (CARL FL pincer, CARL SYF canary, sweep Apr 3)
+*(leave blank — next boot populates via market.py)*
+
+### LAST SESSION (Apr 6-7 — afternoon session)
+- **Inbox processed (3 signals):** CARL FL Pincer (🔴), CARL SYF Canary (🟠), News Sweep (mixed). All moved to inbox/processed/. STATUS updated with 2 new indicators (SYF NCO, FL UI Exhaustion). CALENDAR updated with 3 new dates (SYF 8-K mid-Apr, FL UI Wave 1 Jun 24, Wave 2 Jul 26).
+- **Workbook updated:** VX-REG-19.02 updated (FL UI multi-wave). VX-REG-20.01 added (SYF NCO canary). ML-REG-139 + ML-REG-140 added to KB.
+- **EGBN/ subdirectory BUILT:** Full architecture matching WAL/OZK template — INDEX, STATUS, THESIS ("Crisis-in-Progress"), SCENARIOS (Bear 45%/Base 35%/Bull 20%), WEAKNESSES (7 identified), EARNINGS_PREP (grade C), workbook/KB.tsv (12 rows, 4 groups), workbook/KB_INDEX.md.
+- **STATUS prices refreshed** via market.py. Brent $110.60, 10Y 4.33% (down from 4.42%), KRE $66.19, WAL $72.74 (still below $78).
+- **Files created:** EGBN/INDEX.md, STATUS.md, THESIS.md, SCENARIOS.md, WEAKNESSES.md, EARNINGS_PREP.md, workbook/KB.tsv, workbook/KB_INDEX.md
+- **Files updated:** STATUS.md (+EGBN section, +2 indicators, prices), CALENDAR.md (+3 dates), workbook/VX.tsv (+1 row, 1 updated), workbook/KB.tsv (+2 rows)
 
 ### LAST SESSION (Apr 5 — short session)
-- **First Brands auction RESOLVED:** Piecemeal liquidation confirmed. $75M total recovery vs $9.3B debt (<1%). Debt 30-47¢. $2.3B fabricated receivables. WAL $126.4M likely unrecoverable — Q1 earnings catalyst. Updated FIRST_BRANDS.md with full auction results, recovery math, WAL V2 impact.
-- **OZK earnings date CHANGED:** Apr 16 → Apr 21 (GlobeNewswire Mar 31). OZK and WAL now report SAME DAY. Rewrote EARNINGS_PREP.md WAL read-through section — no more 5-day tactical window. ZION (Apr 20) is the only pre-print sector read.
-- **OZK consensus EPS filled:** $1.52 (Zacks Feb 2026 revision, down from $1.58). FY2026 $6.02. Beat/miss: >$1.55 = beat, <$1.48 = miss.
-- **Files updated:** CALENDAR.md, STATUS.md, OZK/STATUS.md, OZK/EARNINGS_PREP.md, WAL/FRAUD/FIRST_BRANDS.md, MEMORY.md
+- First Brands auction RESOLVED. OZK date changed Apr 16→21. OZK consensus EPS filled.
 
-### LAST SESSION (Apr 2 — full afternoon session, ~3 hours)
-- Architecture overhaul (11 improvements), STATUS.md trimmed, POSITIONS.md created, 2 inbox signals processed, live prices refreshed
+### NEXT SESSION — RESEARCH GAPS
+**EGBN (highest priority — grade C, needs to reach B+ before earnings):**
+1. Q4 2025 10-K / earnings transcript — direct source read (no primary source read done yet)
+2. Exact earnings date confirmation
+3. Insider activity scan (Form 4)
+4. Leadership profile (board, audit committee, CEO search status)
+5. GovCon book composition — size, client profile, DOGE exposure
+6. DC office vacancy Q1 data (CBRE/JLL)
+7. MI3 trend direction (23.7% — stable or moving?)
+8. Consensus estimates (EPS, revenue)
+9. AUB relative trade analysis
+10. AOCI exposure detail
 
-### NEXT SESSION
-1. OZK earnings prep remaining gaps — SI refresh, 8-K watch, Bioterra status, SCENARIOS.md recalibration
-2. WAL earnings prep — 16 days, same-day as OZK now. Pre-print position decisions critical.
-3. Process 3 inbox signals (CARL FL pincer, CARL SYF canary, sweep Apr 3)
-4. Cantor PACER docket — still pending
-5. Vecchione return status — still pending
-6. MI3 peer comparison — still pending
+**OZK (gap closure before Apr 21):**
+11. SI refresh, 8-K watch, Bioterra status
+12. SCENARIOS.md recalibration
+
+**WAL (gap closure before Apr 21):**
+13. Pre-print position decisions — all 4 strikes need plan
+14. Updated insider filings refresh (by Apr 18)
+
+**Pending (carried forward):**
+15. Cantor PACER docket
+16. Vecchione return status
+17. MI3 peer comparison
