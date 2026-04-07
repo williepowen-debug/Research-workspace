@@ -1,6 +1,6 @@
 # SAM STATUS
 
-**Signal Status:** 🔴🔴 ELEVATED — **USD/JPY 159.70 AT INTERVENTION THRESHOLD** | FXY **$57.54** | Brent **~$109** | JGB 10Y **~2.39%** | JGB 30Y **~3.68%** | CARRY UNWIND 7D: **80%** | **Last Updated:** 2026-04-06 16:15 ET
+**Signal Status:** 🔴🔴 ELEVATED — **USD/JPY 159.70 AT INTERVENTION THRESHOLD** | FXY **$57.54** | Brent **~$109** | JGB 10Y **~2.39%** | JGB 30Y **~3.68%** | CFTC shorts **-72.9K** (growing) | CARRY UNWIND 7D: **80%** | **Last Updated:** 2026-04-06 17:30 UTC
 
 ---
 
@@ -73,6 +73,8 @@ Analyst consensus shifting: 162-164 now cited as actual intervention trigger (Tr
 | FXY | **$57.54** | flat | 🟠 (grinding) |
 | JGB 10Y | **~2.39%** | flat | 🔴 (1bp from 2.40% threshold) |
 | JGB 30Y | **~3.68%** | n/a | 🔴 (30Y auction TOMORROW Apr 7) |
+| EUR/JPY | **~183.29** | n/a | 🟠 (elevated, cross-pair weakness) |
+| CFTC JPY shorts | **-72.9K** | from -67.8K | 🔴🔴 40.5% of Jul '24 peak, GROWING |
 | Insurer hedge ratio | **44.4%** | (14yr low) | 🔴🔴 |
 
 ## APR 6 EOD DEVELOPMENTS
@@ -161,13 +163,13 @@ Analyst consensus shifting: 162-164 now cited as actual intervention trigger (Tr
 
 **Asada = known dove but won't block.** His stagflation framing is notable — he'll argue against hiking INTO a supply shock. But May hike to 1.00% still carries comfortably (Takata WANTS to hike, most board members supportive per Summary of Opinions). Post-1.00% hikes face stronger resistance.
 
-**April 23-24:** Probability UP from "live" to "meaningfully possible." Oil pullback HELPS — removes the "don't hike into an oil shock" argument. If oil stays ~$100 and USD/JPY stays above 157, April hike probability: ~35-40%.
+**April 23-24:** Probability ~70% per Reuters market pricing (up from 35-40%). Nomura's Iwashita: "double punch from weak yen and oil spike" heightens inflation overshoot risk. Japan "more prone to second-round effects than during 2022 Ukraine war."
 
-**May 1:** Still base case. Probability: ~75%.
+**May 1:** Backstop if April doesn't deliver. Near-certain if April holds.
 
 ---
 
-## FXY POSITIONING — WILL HAS 4 SHARES (STARTER)
+## FXY POSITIONING — WILL HAS 8 SHARES (TRANCHE 1 COMPLETE)
 
 **Oil pullback is the unlock we were waiting for.** The Entry Decision Card (Mar 27) cited oil shock as the primary headwind. Brent dropping from $115 → $101 removes that headwind significantly. The oil-yen paradox (weakening yen despite rising JGB yields) should begin resolving.
 
@@ -181,12 +183,12 @@ Analyst consensus shifting: 162-164 now cited as actual intervention trigger (Tr
 
 | Level | Significance | Status |
 |-------|-------------|--------|
-| **USD/JPY 160.00** | MOF intervention trigger | 🟠 RETREATED (158.86) |
+| **USD/JPY 160.00** | MOF intervention trigger | 🔴 159.70 — 30 PIPS AWAY |
 | **USD/JPY 157.00** | Hawkish confirmation | APPROACHING |
 | **USD/JPY 155.00** | Phase 2 carry unwind onset | SET |
 | **USD/JPY 145.00** | Carry unwind (HANS Fed cut path) | SET |
 | **JGB 10Y 2.40%** | Stress crossover signal | 🔴 ~5bps AWAY |
-| **Brent $120** | Kharg Island scenario | 🟠 RETREATED ($101) |
+| **Brent $120** | Kharg Island scenario | 🟠 $109 — war premium sustained |
 | **Brent $90** | Oil headwind resolved | SET |
 
 ---
@@ -219,7 +221,7 @@ Analyst consensus shifting: 162-164 now cited as actual intervention trigger (Tr
 | **Apr 1** | Asada inaugural speech | ✅ DONE — dovish |
 | **Apr 7** | **30Y JGB auction** | 🔴🔴 **TOMORROW** — critical demand test at 3.68% |
 | **Apr 15** | Feb TIC data release (Japan UST flows) | 🟠 |
-| **Apr 23-24** | BOJ Meeting — hike possible (~35-40%) | 🔴 |
+| **Apr 23-24** | BOJ Meeting — hike possible (~70%) | 🔴🔴 |
 | **May 1** | BOJ Meeting — **BASE CASE HIKE** (~75%) | 🔴 |
 | **Late May** | Japan April CPI print | 🟠 |
 

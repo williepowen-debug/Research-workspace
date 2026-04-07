@@ -31,30 +31,27 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (Apr 2 → Apr 5)
-- ESCALATION RESUMED: Bushehr nuclear plant struck Apr 4, Mahshahr petrochemical hub hit (5 dead, 170 injured). 30+ universities bombed. De-escalation narrative dead.
-- Oil head-fake confirmed: Brent $101→$109 (+8% Fri). Apr 1 pullback fully reversed. Phase 1 oil dynamics reasserted.
-- USD/JPY back to ~160 — MOF intervention trigger retested. FXY $57.54 (grinding).
-- JGB 10Y 2.39% (1bp from 2.40% threshold). JGB 30Y 3.68%.
-- Strike pause expires Apr 6 (Sun) 8pm ET — strikes already resumed on Apr 4-5, largely symbolic.
-- CFTC: last confirmed reading -67.8K (Mar 20). Apr 4 release not yet confirmed.
+### CHANGES SINCE LAST SESSION (Apr 5 → Apr 6)
+- CFTC JPY shorts: -72.9K (from -67.8K) — 40.5% of Jul '24 peak. Shorts GROWING despite MOF threats. More unwind fuel.
+- USD/JPY ~159.76 (slight pullback from 160). Brent ~$109.53 (flat). FXY $57.54 (flat, Sunday).
+- EUR/JPY ~183.29 — still elevated, cross-pair weakness persists.
+- Trump strike pause expired 8pm ET Apr 6. Tuesday deadline set for Hormuz ("Power Plant Day and Bridge Day"). Iran defiant.
+- 45-day ceasefire proposal from Egypt/Pakistan/Turkey being discussed — low probability. Iran rejected 15-point plan.
+- UBS bear case: USD/JPY 175 on extended oil disruption (sweep Apr 3). Beyond our 167 thesis break.
 
-### LAST SESSION (Apr 5)
-- Booted via Telegram (Will pinged). Full spawn protocol executed.
-- Integrated Norinchukin CLO contagion research (Will shared via Telegram):
-  - THESIS v1.1→v1.2: Added hedge ratio collapse (44.4%, 14yr low), institutional framing ($3.0-3.5T), GPIF non-risk, Norinchukin CLO shrinkage, USD/JPY 130-135 threshold
-  - Saved research to research/outputs/NORINCHUKIN_CLO_CONTAGION.md
-  - CHANGELOG updated with full v1.2 entry
-  - STATUS.md refreshed: market data table updated, Norinchukin integration section added
-  - Outbox signal written for LIQUID: hedge ratio + Norinchukin + UST holdings
-- Key new insight: hedge ratio 44.4% means system MORE exposed than we modeled. Repatriation base case may be conservative.
+### LAST SESSION (Apr 6)
+- Booted via Telegram. Full spawn protocol executed.
+- Market refresh: CFTC -72.9K is the key new data point. All other levels roughly flat from Friday.
+- TRADE.md fully refreshed: position 4→8 shares (Tranche 1 confirmed via PROME checkin), stop $22.50→$55.05, target $27-29→$60-62, probabilities updated to 80/95/95, catalyst sequence current.
+- Processed 3 inbox items → processed/: PROME checkins Apr 1 & Apr 2 (no new actionable data), news sweep Apr 3 (UBS 175 bear case noted, no thesis change).
+- STATUS.md market data table refreshed with CFTC -72.9K, EUR/JPY, Apr 6 levels.
+- Will working on new signal/messaging system — leave outbox alone until new system ready.
 
 ### NEXT SESSION
-1. **Apr 7 (Mon): 30Y JGB auction** — THE critical event. BTC vs Mar 3.65x at 3.7%+ yield. If <2.0x = 🔴 LIQUID/HENRY/PROME.
+1. **Apr 7 (Mon): 30Y JGB auction** — THE critical event. BTC vs Mar 3.65x at 3.7%+ yield. If <2.0x = 🔴 signal LIQUID/HENRY/PROME.
 2. Apr 7-9: Feb wage data (MHLW). Low priority unless surprise.
-3. Apr 7-14: Big 4 insurer FY2026 investment plans. Signal LIQUID on any announcement.
-4. Check CFTC Apr 4 release — have JPY shorts grown past -67.8K?
-5. Check MOF FY-end week flow data (still pending from last session).
-6. Refresh TRADE.md — update position to 8 shares, fix stale prices.
-7. 2 outbox items STILL pending HERMES: BROCK private credit + SK refiner. Flag to PROME.
-8. Apr 14-18: Vol check window (pre-BOJ). Ask Will for CVOL/FXY OI/RR data.
+3. Apr 7-14: Big 4 insurer FY2026 investment plans — watch for allocation announcements.
+4. Check MOF FY-end week flow data (still pending).
+5. 3 outbox signals still in outbox — Will reworking mail system, leave alone.
+6. Apr 14-18: Vol check window (pre-BOJ). Ask Will for CVOL/FXY OI/RR data.
+7. Strike pause expired — check overnight developments on Iran/oil before market open.

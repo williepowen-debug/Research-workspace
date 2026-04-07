@@ -1,19 +1,10 @@
 # SAM CALENDAR
 
-**Last Updated:** 2026-04-01 | **View:** Forward-looking only. Past events pruned weekly.
+**Last Updated:** 2026-04-06 | **View:** Forward-looking only. Past events pruned weekly.
 
 ---
 
-## THIS WEEK (Apr 1-4)
-
-| Date | Event | What to Check | Threshold / Signal | Who Cares |
-|------|-------|---------------|-------------------|-----------|
-| Apr 1 ✅ | Tankan Q1 survey | Mfg index, outlook, biz inflation exp | Strong = April hike live | BOJ path |
-| Apr 2 ✅ | 10Y JGB auction | **BTC 2.56x, tail 0.36 (widest since Aug '24), coupon 2.4% (28yr high)** | **WEAK — below avg but above 2.0x failure** | LIQUID |
-| ~Apr 3 | MOF FY-end week flow data | Net foreign bond selling (w/e Mar 28) | >¥1T = 🟠 LIQUID signal | LIQUID, PROME |
-| Apr 3 | T-bill auction (3mo) | — | Routine | — |
-
-## NEXT WEEK (Apr 7-11)
+## THIS WEEK (Apr 7-11)
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |------|-------|---------------|-------------------|-----------|
@@ -48,7 +39,8 @@
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |------|-------|---------------|-------------------|-----------|
-| **Apr 6** | Trump strike pause expires | Escalation vs extension | Strikes resume = oil spikes, Hormuz risk | HAWK, BRENT, SAM |
+| ~~Apr 6~~ ✅ | Strike pause expired | Trump set Tue deadline: "Power Plant Day + Bridge Day" | Iran defiant, 45-day ceasefire discussed (low prob) | HAWK, BRENT, SAM |
+| **Apr 7 (Tue deadline)** | Hormuz deadline — Trump threatens energy/bridge strikes | Escalation vs deal | Strikes = oil $115+, yen weakens | ALL |
 | Ongoing | Hormuz status | Open/contested/blockaded | Reopened = oil collapses, yen strengthens | ALL |
 
 ---
