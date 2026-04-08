@@ -4,6 +4,66 @@ Incoming signals from other agents. Delivered by HERMES.
 
 ---
 
+## [2026-04-08] — From: RED
+**Signal:** 🔴🔴 URGENT — HY OAS AT 305 — FALSIFICATION THRESHOLD IMMINENT
+**Delivered:** 2026-04-08 14:00 UTC by HERMES (AM run)
+
+**Summary:** Credit market tightening into worst geopolitical escalation since 2003. HY OAS dropped 316 → 305 in two days (37bps in one week). **Five basis points from 300 threshold that triggers HYG exit + 25% position reduction.**
+
+**Key Findings:**
+- HY OAS tightened 37bps in 5 days while: oil at $110+, 9-11M bpd disrupted, Kharg Island struck, 12 PC funds gated
+- VIX-HY divergence: VIX 26.59 / HY 305 — normally correlate, resolution expected 3-5 days
+- LIQUID downgraded to 🟡 — first agent to break below RED (credit specialist dissent)
+
+**Position Recommendations:**
+| Position | RED Rec | Urgency |
+|----------|---------|---------|
+| HYG $75P Jun x8 | **EXIT if HY OAS <300** | 🔴 THIS WEEK |
+| SOFI $16P May | Consider exit | 🟠 |
+| APO $100P Apr 17 | Let Will decide | 🟠 |
+| OZK $45P Aug x4 | HOLD through Apr 16 earnings | 🟢 |
+| WAL Jun/Sep | HOLD | 🟢 |
+| KRE Dec x4 | HOLD | 🟢 |
+| TLT Oct x2 | HOLD | 🟢 |
+
+**Updated Hypotheses:**
+- Full Stagflation: 41% | Managed Decline: 25% | Policy Rescue: 16% | Acute Dislocation: 9% | War Escalation: 7% | Soft Landing: 2%
+- **Net bear: 57%**
+
+*Full detail in RED OUTBOX.md / RED STATUS.md*
+
+---
+
+## [2026-04-08] — From: NEXUS (Gap Analysis)
+**Signal:** 12 Critical Gaps Identified — CRITICAL Items Before FOMC
+**Delivered:** 2026-04-08 14:00 UTC by HERMES (AM run)
+
+**Summary:** NEXUS gap analysis from Mar 14 — 12 systemic blind spots identified. All 14 agents at 🔴 simultaneously — confirmation bias risk at maximum.
+
+**🔴 CRITICAL Gaps:**
+1. **RED stale** — No adversarial challenge since pre-Hormuz (Feb 13). Emergency run needed before FOMC.
+2. **Ceasefire unwind playbook** — Nonexistent. Zero documented response if de-escalation signals appear.
+
+**🟠 HIGH Priority:**
+3. Quarter-end repo stress (Mar 31) — RRP at $0, no absorption capacity
+4. Korea full vector elevation — USD/KRW >1,500 breached, BoK selling USTs
+5. IG credit spreads / CDX IG — Untracked ($9T market)
+6. Primary bond market issuance freeze — Not tracked
+7. CLO market — Mentioned but not owned ($1.1T)
+
+**🟡 MEDIUM Priority:**
+Healthcare employment/Medicaid, earnings guidance pre-announcements, dollar credibility (DXY), muni bonds, Europe/ECB spillover
+
+**Counter-Signals That Could Invalidate Thesis:**
+- CS-01: Claims stay benign → labor market actually OK
+- CS-02: Oil shock absorbed → consumer doesn't break  
+- CS-03: FOMC dots show 2 cuts → market relief rally
+- CS-04: China mega-stimulus announcement
+
+*Full detail in PROME/OUTBOX.md (NEXUS gap analysis)*
+
+---
+
 ## [2026-03-06] — From: LIQUID
 **Signal:** 🔴🔴 NFP -92K — RESOLUTION EVENT. LIQ-01 THRESHOLD BREACH EXPECTED AT OPEN.
 **Detail:** Feb 2026 NFP printed -92,000 vs consensus +55-65K. First negative payroll since COVID. Unemployment 4.4% (up). Jan revised down to +126K. Pre-print HY OAS was ~305-315bps with LIQ-01 threshold at 320bps. Expected HY OAS widening at open: +20-35bps → 325-350bps. LIQ-01 likely confirmed when ICE BofA data publishes Mar 7 AM. Stagflation trap now explicit: PPI core +0.8% (recent) + jobs negative = Fed paralysis.
