@@ -1,0 +1,91 @@
+File	Column	Data_Type	Description
+PROVIDER.tsv	Provider	String	Company name (Affirm, Klarna, Afterpay, Zip, Sezzle, Dave, Earnin, Brigit, MoneyLion, DailyPay, Upstart)
+PROVIDER.tsv	Type	String	BNPL / CASH_ADVANCE / EWA / FINTECH_LENDER / PAYDAY
+PROVIDER.tsv	Metric	String	Performance metric (GMV, revenue, DQ_30plus, DQ_60plus, provisions, NCO, users, stacking_rate, etc.)
+PROVIDER.tsv	Value	String	Current value
+PROVIDER.tsv	Prior	String	Prior period value
+PROVIDER.tsv	Change	String	Period-over-period change
+PROVIDER.tsv	Reports_To_Bureau	String	YES (which bureaus) / NO / PARTIAL
+PROVIDER.tsv	As_Of	Date	Date of measurement (YYYY-MM-DD)
+PROVIDER.tsv	Source	String	Data source (SEC filing, earnings, CFPB, AG, etc.)
+PROVIDER.tsv	Status	String	G/Y/O/R status color
+PROVIDER.tsv	Notes	String	Context, caveats, regulatory actions
+REGULATORY.tsv	Date	Date	Date of action (YYYY-MM-DD)
+REGULATORY.tsv	Entity	String	Regulator or court (CFPB, NY_AG, DC_AG, FTC, HUD, FICO, federal_court, state)
+REGULATORY.tsv	Target	String	Company or rule targeted
+REGULATORY.tsv	Action	String	Type (RULE, LAWSUIT, SETTLEMENT, RULING, RFI, ADVISORY, LEGISLATION)
+REGULATORY.tsv	Description	String	What happened
+REGULATORY.tsv	Impact	String	How this affects phantom debt visibility or BNPL market
+REGULATORY.tsv	Status	String	ACTIVE / SETTLED / ON_HOLD / PROPOSED / DISMISSED
+REGULATORY.tsv	PHAN_Implication	String	What this means for PHAN's thesis
+REGULATORY.tsv	Source	String	Data source
+COCKROACH.tsv	Company	String	Fintech company name
+COCKROACH.tsv	Type	String	BNPL / CASH_ADVANCE / EWA / FINTECH_LENDER / PAYDAY / BAAS
+COCKROACH.tsv	Event	String	FAILURE / DISTRESS / TIGHTENING / CLASS_ACTION / RETREAT
+COCKROACH.tsv	Date	Date	Date of event (YYYY-MM-DD)
+COCKROACH.tsv	Description	String	What happened
+COCKROACH.tsv	Contagion	String	Did it cause downstream bank/funding contagion?
+COCKROACH.tsv	Consumer_Impact	String	Impact on consumers (funds frozen, credit access lost, etc.)
+COCKROACH.tsv	Signal_Value	String	HIGH / MEDIUM / LOW — how diagnostic is this event?
+COCKROACH.tsv	Source	String	Data source
+COCKROACH.tsv	Notes	String	Context, what it signals for broader market
+VX.tsv	Vector ID	String	VX-PHAN-N.NN format
+VX.tsv	Name	String	Vector name
+VX.tsv	Domain	String	BNPL / CASH_ADVANCE / EWA / FINTECH / REGULATORY / VISIBILITY / DTI_GAP
+VX.tsv	Description	String	What this vector measures
+VX.tsv	Unit	String	Unit of measurement
+VX.tsv	Current Value	String	Latest value
+VX.tsv	Data Quality	String	REPORTED / RESEARCH / ANECDOTAL / ESTIMATED
+VX.tsv	Threshold Elevated	String	Yellow threshold
+VX.tsv	Threshold Critical	String	Orange threshold
+VX.tsv	Tripwire Breached	String	Red threshold
+VX.tsv	Status	String	NORMAL / ELEVATED / CRITICAL / BREACHED
+VX.tsv	Trend	String	RISING / DECLINING / STABLE / TBD
+VX.tsv	Confidence	Decimal	0.00-1.00
+VX.tsv	Data Sources	String	Source references
+VX.tsv	Cross Reference	String	Related IDs
+VX.tsv	Last Updated	Date	YYYY-MM-DD
+VX.tsv	Notes	String	Context, caveats
+ML.tsv	ID	String	ML-PHAN-NN format
+ML.tsv	Timestamp	Date	Date logged (YYYY-MM-DD)
+ML.tsv	Session	String	Session identifier
+ML.tsv	Vectors	String	Related VX-PHAN IDs
+ML.tsv	Entity	String	Company or sector
+ML.tsv	Segment	String	BNPL / CASH_ADVANCE / EWA / FINTECH / REGULATORY / VISIBILITY
+ML.tsv	Description	String	One-line summary
+ML.tsv	Analysis	String	Interpretation and implications
+ML.tsv	Data Quote	String	Key quote or data point
+ML.tsv	Source	String	Data source with date
+ML.tsv	Data Quality	String	REPORTED / RESEARCH / ANECDOTAL / ESTIMATED
+ML.tsv	Status	String	ACTIVE / CONFIRMED / STALE / SUPERSEDED
+ML.tsv	Confidence	Decimal	0.00-1.00
+ML.tsv	Diagnostic Value	String	HIGH / MEDIUM / LOW
+ML.tsv	Thesis Impact	String	CONSISTENT / COUNTER-SIGNAL / NEUTRAL
+ML.tsv	Cross Links	String	Related entries
+ML.tsv	CARL Relevance	String	How this affects CARL's consumer thesis
+ML.tsv	Transmission Lag	String	Expected time before visible in CARL metrics
+ML.tsv	Cockroach Event	Boolean	TRUE/FALSE — is this a cockroach indicator?
+ML.tsv	Invalidation Criteria	String	What would change this assessment
+ML.tsv	Notes	String	Context
+FLOW.tsv	ID	String	FLOW-PHAN-NN format
+FLOW.tsv	Name	String	Pathway name
+FLOW.tsv	Pathway	String	Step-by-step transmission chain
+FLOW.tsv	Mechanism	String	How/why the transmission works
+FLOW.tsv	Feedback Loops	String	Self-reinforcing or dampening dynamics
+FLOW.tsv	Breakpoint	String	When does this pathway become critical
+FLOW.tsv	Cross Domain	String	Which other agent domains affected
+FLOW.tsv	Key Entries	String	Related VX/ML entries
+FLOW.tsv	Lag Time	String	Expected time lag
+FLOW.tsv	Confidence	String	Confidence with percentage
+FLOW.tsv	Trigger	String	What activates this pathway
+FLOW.tsv	Status	String	MONITORING / EARLY / ACTIVATING / ACTIVE / CONFIRMED
+FLOW.tsv	Notes	String	Context, upgrade history
+PREDICTIONS.tsv	Pred_ID	String	PHAN-PNN format
+PREDICTIONS.tsv	Date_Made	Date	When prediction was created (YYYY-MM-DD)
+PREDICTIONS.tsv	Prediction	String	The prediction statement
+PREDICTIONS.tsv	Confidence	String	Confidence percentage
+PREDICTIONS.tsv	Timeframe	String	Expected resolution window
+PREDICTIONS.tsv	Status	String	TRACKING / CONFIRMED / MISSED / CANCELLED
+PREDICTIONS.tsv	Date_Resolved	Date	When resolved (empty if unresolved)
+PREDICTIONS.tsv	Outcome	String	What actually happened
+PREDICTIONS.tsv	Notes	String	Context

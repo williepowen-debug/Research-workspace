@@ -1,64 +1,66 @@
 # CARL SCRATCH
-**Last session:** 2026-04-07 ~13:30 UTC
-**Type:** STUE sub-agent first spawn + buildout, CRL-05 upgrade, data pruning, market snapshot, session handoff
+**Last session:** 2026-04-09 ~19:30 UTC
+**Type:** Market data refresh, GIG sub-agent full buildout, PHAN (fka NICK) rename + full buildout, SPAWN_PROTOCOL + TEAM architecture, STATUS.md dashboard update
 
-**PRIORITY-1:** Iran ceasefire binary — Trump Hormuz ultimatum expired Tuesday Apr 7. Check resolution: ceasefire = oil drops, gas pressure eases, CRL-08 pushed out. Escalation = $115+ Brent, $4.50 gas in days.
+**PRIORITY-1:** Build out remaining dormant sub-agents (POLLY, POP, DOC) — 3 of 7 monitoring agents still dormant. Then test-run the spawn-and-synthesize workflow with all built agents.
 
 ---
 
 ## WHAT HAPPENED
-1. **Monday Apr 6 gap open assessed** — SPX +0.12% (muted, NOT gap-up expected from NFP +178K). Brent ~$109.53 (down from $112 on ceasefire talks). Gas $4.104 (Apr 4 AAA). HY OAS 316bps flat. GDPNow 1.6%.
-2. **KB-CARL-155/156/157 added** — HH spending-income scissors chart (Will via Twitter), BofA spending-by-income tier data (A1: lower 0.3%, middle 1.0%, high 4%+), Minneapolis Fed K-shape publication. KB total: 157.
-3. **STUE first spawn (parallel)** — Spawn 1 (data refresh) + Spawn 2 (analysis). Spawn 1 sub-agent blocked on web permissions; CARL ran searches directly. Both outputs in STUE/domain/.
-4. **STUE key finding: CASCADE AMPLIFIER** — Student loan credit score destruction (-87 to -171 pts) cascades into CC, auto, mortgage DQ. Est. +0.5-1.0pp to CC 90+ DQ rate. Q3 spending destruction from SAVE transition: $1.5-2.0B/month.
-5. **CRL-05 upgraded 72% → 82%** — Two independent pathways to CC GFC breach: (1) cost squeeze, (2) student loan credit score cascade.
-6. **CRL-13/CRL-14 added** — SAVE non-selection >35% (70%), MOHELA-caused defaults >500K (65%).
-7. **STUE fully built out** — STATUS.md overhauled, workbook (4 TSVs + schema), domain (3 analysis files + Feb compilation), CLAUDE.md cross-references.
-8. **CARL data pruned** — KB-029 SUPERSEDED, ML-SL-01/02 SUPERSEDED, VX-1.06 CONSOLIDATED, VX-SL-03 → "REPEALED BY LAW".
-9. **SAVE key finding** — REPEALED BY LAW (Working Families Tax Cuts Act Jul 2025), not just "ending." Legislative = no legal path to reinstate. ED final guidance Mar 31.
-10. **Git data loss + recovery** — Another agent session's git pull wiped uncommitted edits. All re-applied Apr 7. **MUST COMMIT this session.**
+1. **Boot + market data refresh** — Iran 2-week ceasefire (Apr 8). Oil crashed $115→$94, recovering to ~$97-101. Gas $4.16 still above breakpoint. Ceasefire fragile (Hormuz blocked, Iran claims breach).
+2. **BEA Personal Income Feb (released today)** — Savings rate 4.0% (↓0.5pp from Jan). Real DPI -0.5% (worst in 12mo). Real spending +0.1%. Core PCE 3.0%. Consumers burning savings to maintain spending.
+3. **STATUS.md updated** — Oil/gas/savings/PCE/DPI/tariff values refreshed. CRL-08 revised 80%→60% (ceasefire uncertainty). Added Real Consumer Spending and Real DPI rows. 5 new KB entries (162-165).
+4. **GIG sub-agent FULL BUILDOUT** — STATUS.md rewritten with fresh data (DoorDash $11.63, platform take rates +33%, CNN "I'm done" driver quitting, Waymo 500K rides/wk, 1099-K cliff defused). CLAUDE.md upgraded to operational pattern. 3 new domain TSVs (PLATFORM, DRIVER_ECONOMICS, AV_TRACKER). SCHEMA.tsv created. Legacy files archived. 18 VX vectors, 6 FLOW pathways, 13 ML entries, 8 predictions.
+5. **NICK → PHAN rename** — Renamed to PHAN (Phantom Debt). Directory, all operational files, and cross-references updated across CARL, GIG, PHAN.
+6. **PHAN sub-agent FULL BUILDOUT** — STATUS.md built from scratch (was 39 lines, now comprehensive). KEY FINDING: CFPB Rule 1033 ON HOLD (judge enjoined, CFPB reconsidering). Visibility shock delayed = phantom debt bubble growing invisible. CLAUDE.md upgraded. 3 new domain TSVs (PROVIDER 27 rows, REGULATORY 12 entries, COCKROACH 5 entries). SCHEMA.tsv created. 7 predictions. Legacy files archived.
+7. **SPAWN_PROTOCOL.md created** — Full spawn-and-synthesize playbook: 3 spawn types, 5-phase session workflow, synthesis framework, cost model, 7 operating rules.
+8. **TEAM.md created** — Sub-agent roster with status, staleness, catalysts. 4/7 built (STUE, HOMER, GIG, PHAN). 3 dormant (POLLY, POP, DOC).
+9. **CARL CLAUDE.md updated** — Added TEAM.md and SPAWN_PROTOCOL.md to boot sequence and FILES table. Updated sub_agents description.
 
 ## STATUS CHANGES
 | Item | Change |
 |------|--------|
-| CRL-05 | 72% → **82%** (cascade amplifier finding) |
-| CRL-13 | **NEW** — SAVE non-selection >35% (70%) |
-| CRL-14 | **NEW** — MOHELA defaults >500K (65%) |
-| KB entries | 154 → **157** (+3: spending scissors, BofA tier, Minneapolis Fed) |
-| KB-CARL-029 | ACTIVE → **SUPERSEDED** |
-| ML-SL-01/02 | ACTIVE → **SUPERSEDED** |
-| VX-CARL-1.06 | RED → **CONSOLIDATED** |
-| VX-CARL-SL-03 | "ENDING" → **"REPEALED BY LAW"** |
-| STUE | Bootstrapped → **FULLY OPERATIONAL** |
-| CARL STATUS.md | Updated header, predictions table, timestamp |
+| Gas Pump | $4.119 → **$4.16** (ceasefire → futures -10% but pump lag) |
+| Oil (WTI/Brent) | $113-116 → **~$97-101** (ceasefire crash, recovering) |
+| Savings Rate | 4.5% → **4.0%** (consumers burning savings) |
+| Real DPI | NEW → **-0.5%** (income shrinking in real terms) |
+| Core PCE | 3.1% → **3.0%** (+0.4% MoM — hot) |
+| CRL-08 (gas $4.50) | 80% → **60%** (ceasefire uncertainty, timeline extended) |
+| HY OAS | 317bps (STILL complacent) |
+| KB entries | 161 → **165** (+4: savings rate, PCE, ceasefire, tariffs) |
+| GIG | DORMANT → **🟢 BUILT** (full operational buildout) |
+| NICK | Renamed → **PHAN** (Phantom Debt & Shadow Credit) |
+| PHAN | DORMANT → **🟢 BUILT** (full operational buildout) |
+| CFPB 1033 | Expected Apr 30 → **ON HOLD** (judge enjoined) |
+| Team readiness | 3/7 → **4/7** monitoring agents built |
+| SPAWN_PROTOCOL.md | **NEW** — spawn-and-synthesize playbook |
+| TEAM.md | **NEW** — sub-agent roster and catalyst calendar |
 
 ---
 
 ## NEXT SESSION SHOULD
 
 ### IMMEDIATE (24hrs)
-1. **COMMIT ALL CHANGES** — edits were wiped once already by another agent's git pull. Commit CARL files immediately.
-2. **Iran ceasefire resolution** — Trump Hormuz ultimatum was Tuesday Apr 7. Check outcome.
-3. **Sweet v. McMahon non-Exhibit C deadline Apr 15** — 8 days. Monitor if DOE misses another deadline.
+1. **Build POLLY (insurance)** — FL triple squeeze component. FL hurricane season Jun 1 approaching.
+2. **Build POP (small business)** — Tariff transmission vector. Ch.11 +78%. Peak impact Apr-Oct.
+3. **Commit check** — Verify this session's commit went through cleanly.
 
 ### UPCOMING (this week)
-4. **Savings rate Feb — Apr 9 (Wed)** — If fell while retail rose → consumers spending down savings.
-5. **UMich prelim April — ~Apr 11 (Fri)** — Sub-50 = deep recession signal. Currently 53.3.
-6. **JPM earnings Apr 14 (Mon)** — First Phase 1 financial. Consumer credit commentary critical. Build earnings watch framework.
+4. **JPM earnings Apr 14 (Mon)** — Consumer credit commentary. First Phase 1 financial.
+5. **Sweet v. McMahon Apr 15** — Non-Exhibit C notices deadline. STUE catalyst.
+6. **UMich prelim April ~Apr 11 (Fri)** — Sub-50 = deep recession signal. Currently 53.3.
+7. **Build DOC (healthcare)** — Lower priority but completes the team.
 
 ### UPCOMING (next 2 weeks)
-7. **CPI March — mid-April** — Food CPI acceleration? Gas passthrough?
-8. **SYF earnings Apr 21** — CRITICAL. CRL-12 test. NCO >6%? Guidance cut?
+8. **SYF earnings Apr 21** — CRL-12 test. NCO >6%?
 9. **FL UI Wave 2 — Apr 26** — Second peak approaching.
-10. **CFPB 1033 deadline — Apr 30** — BNPL phantom debt visibility shock.
+10. **Test spawn-and-synthesize** — Run full workflow with 4 built agents.
 
 ### BACKLOG (no deadline)
-11. SDART trust-level Feb/Mar 10-D data (EDGAR blocked).
-12. Google Trends exact index values (needs interactive browser).
-13. Option B: web-verify STUE Spawn 2 analysis ([STRUCTURAL/TRAINING] tags).
-14. STUE dedicated spawn for servicer drill-down (CFPB complaint volume, MOHELA call metrics).
-15. Formalize STUE→CARL signal protocol (State Vectors on threshold breach only).
-16. STUE thesis document (discussed, not yet written).
+11. SDART trust-level Feb/Mar 10-D data.
+12. Google Trends exact index values.
+13. STUE dedicated spawn for servicer drill-down.
+14. Formalize STUE→CARL signal protocol.
 
 ---
 
@@ -73,30 +75,27 @@ No unprocessed items.
 ## WORKBOOK HEALTH
 | TSV | Rows | Last Modified | Note |
 |-----|------|---------------|------|
-| KB | 157 | Apr 6 | ✅ Current (+3, 1 SUPERSEDED) |
-| VX | 90 | Apr 6 | ✅ Current (1 CONSOLIDATED, 1 updated) |
-| FLOW | 19 | Apr 6 | ✅ Current |
+| KB | 165 | Apr 9 | ✅ Current (+4 new) |
+| VX | 92 | Apr 6 | ⚠️ 3 days — dashboard values updated in STATUS |
+| FLOW | 19 | Apr 6 | ⚠️ 3 days |
+| PREDICTIONS | 15 | Apr 6 | ⚠️ CRL-08 updated in STATUS (60%) — needs TSV sync |
 | ABS_BASELINE | 59 | Apr 6 | SDART trust-level still Jan 2026 |
-| BNPL_STRESS | 44 | Apr 1 | Current |
+| BNPL_STRESS | 44 | Apr 1 | ⚠️ May need PHAN cross-check |
 | STATE_DIFFUSION | 63 | Apr 1 | Current |
-| TRENDS | 40 | Apr 6 | Proxy data — needs Google Trends exact pull |
-| ML | 67 | Apr 6 | ✅ Current (2 SUPERSEDED) |
-| PREDICTIONS | 15 | Apr 6 | ✅ Current (+2 new: CRL-13/14) |
-| CHANGELOG | — | Apr 6 | ✅ Current |
+| TRENDS | 40 | Apr 6 | Proxy data |
+| ML | 67 | Apr 6 | Current |
 
-**STUE Workbook:**
-| TSV | Rows | Last Modified | Note |
-|-----|------|---------------|------|
-| SCHEMA | 34 | Apr 6 | NEW |
-| SERVICER | 16 | Apr 6 | NEW |
-| TIMELINE | 15 | Apr 6 | NEW |
-| STATE_DQ | 16 | Apr 6 | NEW |
-| CASCADE | 8 | Apr 6 | NEW |
+**Sub-Agent Workbooks:**
+| Agent | TSVs | Status |
+|-------|------|--------|
+| GIG | 8 | ✅ BUILT Apr 9 |
+| PHAN | 8 | ✅ BUILT Apr 9 |
+| STUE | 5 | ✅ BUILT Apr 6 |
+| HOMER | 6 | ✅ BUILT Apr 7 |
 
 ---
 
 ## URGENT
-- **COMMIT BEFORE CLOSING** — edits wiped once by another agent's git pull. Do not leave uncommitted.
-- Iran ceasefire binary resolves today (Apr 7) — watch Brent/gas
-- Sweet v. McMahon Apr 15 (8 days)
-- JPM earnings Apr 14 (7 days) — need watch framework
+- JPM earnings Mon Apr 14 — need watch framework ready
+- Sweet v. McMahon notices deadline Apr 15
+- UMich prelim ~Apr 11

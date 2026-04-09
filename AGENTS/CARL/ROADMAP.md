@@ -54,7 +54,7 @@ Persistent backlog of work items across sessions. SCRATCH says "what to do right
 - **Decision needed:** Dedicated EDGAR pull session, or mark DEFERRED? These have been pending since Feb. Q1 ABS trust reports (mid-April) may be the natural forcing function.
 
 ### 3.2 Sub-Agent Assessment
-- 6 sub-agents (GIG, DOC, NICK, POLLY, POP, META) currently dormant.
+- 6 sub-agents (GIG, DOC, PHAN, POLLY, POP, META) currently dormant.
 - Decide: activate with updated CLAUDE.md, or formally archive?
 - GIG (Dave 28DPD) and POLLY (insurance) most likely to be useful next.
 

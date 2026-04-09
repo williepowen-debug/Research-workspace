@@ -1,0 +1,21 @@
+Platform	Metric	Value	Prior	Change	As_Of	Source	Status	Notes
+Uber	active_drivers	9.7M	8.1M	+19% YoY	2025-12-31	Uber Q4 2025 earnings	Y	Rising supply = oversupply pressure when demand flat
+Uber	gross_hourly_median	$21.18		 	2025-12-31	Gridwise 2025 data	G	Gross before expenses. Net ~$15-18 after gas/insurance/maint/deprec
+Uber	fare_growth_yoy	+9.6%		 	2025-12-31	TheRideshareGuy 2026	R	Fares up 9.6% but driver earnings only +4.1% = platform capturing growth
+Uber	driver_earnings_growth_yoy	+4.1%		 	2025-12-31	TheRideshareGuy 2026	R	Divergence from fare growth = extraction. +33% take rate increase.
+Uber	fuel_incentive	$1/gal via Upside + 5% Uber Pro card		 	2026-04-01	CNN Apr 2026	R	<15% of drivers even aware. None held eligible cards per CNN interviews.
+Lyft	weekly_earnings	$318	$370	-14% YoY	2025-12-31	Gridwise 2025	Y	12th consecutive record hours quarter — working more, earning less
+Lyft	gross_hourly_median	$19.48		 	2025-12-31	Gridwise 2025 data	Y	Net after expenses ~$13-16. At risk of crossing $14 critical threshold.
+Lyft	record_hours_quarters	12		 	2025-12-31	Lyft Q4 2025 earnings	O	12 straight record hours = desperation signal, not demand signal
+DoorDash	gross_hourly_median	$11.63	$12.23 (est)	-5.5% vs prior est	2026-03-31	Gridwise 2026	O	Approaching $11 critical threshold. $0.63 gap. Gas squeeze eroding further.
+DoorDash	dasher_cost_per_order	Rising (guided up)		Q/Q increase guided	2026-03-31	DoorDash Q4 2025 earnings	Y	Seasonality + regulated market costs + longer distance deliveries
+Uber Eats	gross_hourly	$14.96		-5% YoY	2024-12-31	Industry 2024	Y	STALE — needs Q1 2026 update. Was declining pre-gas-squeeze.
+Dave	28DPD	1.89%	2.15%	-26bps QoQ	2025-12-31	Dave 10-K Mar 2 2026	G	PRIMARY CANARY. Improved — CashAI filtering better. But pre-gas-squeeze.
+Dave	revenue_fy2025	$554M	$346M	+60% YoY	2025-12-31	Dave 10-K	G	Strong platform growth. Doesn't mean workers healthy — means more need advances.
+Dave	guidance_fy2026_revenue	$690-710M		+25-28% YoY	2026-03-02	Dave 10-K guidance	G	Continued growth = continued demand for cash advances
+Dave	adj_ebitda_fy2025	$227M	$87M	+162% YoY	2025-12-31	Dave 10-K	G	Platform highly profitable. Workers? Not so much.
+Dave	extracash_originations_qtr	$2.0B		+49% YoY	2025-12-31	Dave 10-K	O	$2B/quarter in cash advances = massive gig worker liquidity demand
+Dave	q1_2026_earnings_date	May 7-12		 	2026-04-09	MarketBeat/Nasdaq	 	KEY CATALYST — will gas $3→$4.16 during Q1 show up in 28DPD?
+Fiverr	active_buyers	3.3M	3.8M	-13.2% YoY	2025-12-31	Fiverr Q4 2025	R	Demand side SHRINKING. Digital freelance contracting.
+Upwork	active_clients	796K		 	2025-09-30	Upwork 9-mo 2025	Y	$4B+ annual spend. Median freelancer income $85K (survivorship bias — top earners).
+Instacart	fuel_incentive	$5/week if >125 miles		 	2026-04-01	CNN Apr 2026	R	Minimal — $5/week doesn't cover $15+/week added gas cost

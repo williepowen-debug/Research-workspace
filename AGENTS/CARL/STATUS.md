@@ -1,6 +1,6 @@
 # CARL STATUS
-**Updated:** 2026-04-07 ~15:00 UTC
-**Overall:** 🔴🔴 CRITICAL — Convergence 47/50. **GAS $4 BREAKPOINT FIRED.** JOLTS inverted (0.91, Feb 2026). Student loan vector 5/5 + CASCADE AMPLIFIER (SAVE **REPEALED BY LAW**, 7.7M default, credit score destruction cascades into CC/auto/mortgage). CRL-05 upgraded 72→82%. Q3 = consumption stress quarter. NFP Mar +178K headline masks LFPR collapse (61.9%) + Feb revised to -133K.
+**Updated:** 2026-04-09 ~14:50 UTC
+**Overall:** 🔴🔴 CRITICAL — Convergence 47/50. **Savings rate 4.0% (↓0.5pp), real DPI -0.5% — consumers burning savings.** Iran 2-week ceasefire (fragile, Hormuz blocked). Oil $115→$97 but recovering. Gas $4.16 still above breakpoint. Core PCE 3.0% (Fed locked). Student loan cascade + JOLTS 0.91. Q3 = consumption stress quarter. Tariff cost loading ~$1,500/HH Apr-Oct.
 
 *Check-in archives: `archive/status/` (pending Phase 3 move)*
 
@@ -41,12 +41,12 @@
 ### Macro / Energy / Stress
 | Metric | Value | As Of | Status |
 |--------|-------|-------|--------|
-| Gas Pump | **$4.119** (+$0.80/mo pace) | Apr 7, AAA | 🔴🔴 |
+| Gas Pump | **$4.16** (ceasefire → futures -10%, pump lag 1-2wk) | Apr 8, AAA | 🔴 |
 | Diesel | **$5.51** | Apr 2, AAA | 🔴🔴 |
-| Brent | **$110-116** (Kharg strikes + 8pm deadline) | Apr 7 | 🔴🔴 |
-| WTI | **$113-116** (+4% on Kharg Island strikes) | Apr 7 | 🔴🔴 |
-| HY OAS | **317bps** (complacent — barely moved) | Apr 7, FRED | 🟠 |
-| Savings Rate | **4.5%** (up from 3.6% Dec) | Jan 2026, BEA | 🟠 |
+| Brent | **~$97** (crashed from $115 on ceasefire, recovering, Iran claims breach) | Apr 9 | 🟠 |
+| WTI | **~$97-101** (crashed from $116 on ceasefire, recovering) | Apr 9 | 🟠 |
+| HY OAS | **317bps** (STILL complacent through ceasefire/data) | Apr 9, FRED | 🟠 |
+| Savings Rate | **4.0%** (↓0.5pp from Jan, real DPI -0.5%) | Feb 2026, BEA | 🔴 |
 | Urea NOLA | **$690s/mt** (was $475 early Mar) | Mar 28 | 🔴🔴 |
 | Russia AN | **SUSPENDED** | Mar 2026 | 🔴🔴 |
 | USDA Wheat Acres | **43.775M — LOWEST SINCE 1919** | Mar 31, USDA | 🔴🔴 |
@@ -54,12 +54,15 @@
 | JOLTS Ratio | **0.91 INVERTED & DEEPENING** | Feb 2026, BLS | 🔴🔴 |
 | Unemployment Duration | **25.7 wks** (4-yr high) | Feb 2026, BLS | 🔴 |
 | UI Exhaustion Hole | **$650M/mo** (peak $930M/mo July) | CARL est, Mar 31 | 🔴🔴 |
-| Core PCE | **3.1% YoY** (sim 3.27% Mar) | Jan 2026, BEA | 🔴 |
+| Core PCE | **3.0% YoY** (+0.4% MoM — hot, Fed locked) | Feb 2026, BEA | 🔴 |
 | GDP Q4 2025 | **0.7%** (revised down from 1.4%) | 3rd est, BEA | 🔴 |
-| GDPNow Q1 2026 | **1.3%** (was 1.6% Apr 2, 3.1% mid-Feb — stall speed) | Apr 7, Atlanta Fed | 🔴🔴 |
+| GDPNow Q1 2026 | **1.3%** (halved in 5wks, stall speed) | Apr 7, Atlanta Fed | 🔴🔴 |
+| Tariff Burden | **~$1,500/HH annual** (eff rate 13.7%, peak impact Apr-Oct 2026) | Apr 2026, Tax Fdn | 🔴 |
 | UMich Sentiment | **53.3 RECESSIONARY** (sub-55) | Mar 2026, UMich | 🔴 |
 | CB Expectations | **70.9 RECESSION WARNING** (sub-80) | Mar 2026, CB | 🟠 |
 | Retail Sales MoM | **+0.6%** (front-loading caveat) | Feb 2026, Census | 🟢 ⚠️ |
+| Real Consumer Spending | **+0.1%** (barely positive, savings-funded) | Feb 2026, BEA | 🔴 |
+| Real DPI | **-0.5%** (worst in 12 months — income shrinking) | Feb 2026, BEA | 🔴🔴 |
 | Retail Control Group | **+0.5%** (front-loading caveat) | Feb 2026, Census | 🟢 ⚠️ |
 | **NFP Mar** | **+178K** (cons +57K) — Scenario 1 headline / Scenario 2 internals | Apr 3, BLS | 🟢 ⚠️ |
 | Feb NFP Revision | **-133K** (revised down from -92K, -41K revision) | Apr 3, BLS | 🔴 |
@@ -106,7 +109,7 @@
 
 | Window | Trigger | Status |
 |--------|---------|--------|
-| **NOW (Apr 7)** | **KHARG ISLAND STRUCK** — Iran rejected ceasefire, Trump 8pm ET deadline. Oil $115+, gas $4.119 (+$0.80/mo). GDPNow 1.3% (stall speed). CRL-08 accelerating. | 🔴🔴 **ACTIVE** |
+| **NOW (Apr 9)** | **2-WK CEASEFIRE** — Oil $115→$97 (fragile, Hormuz blocked, Iran claims breach). Gas $4.16 (pump lag). Savings rate 4.0% (↓0.5pp). Real DPI -0.5%. Core PCE 3.0%. | 🟠 **CEASEFIRE / 🔴 CONSUMER** |
 | **Mar 24** | FL UI Wave 1 exhaustion | ✅ FIRED |
 | **Apr 26** | FL UI Wave 2 peak | 🟠 IMMINENT |
 | **Q2** | DQ conversion (Mar/Apr stress → May/Jun spike) | 🔴 UPGRADED |
@@ -125,8 +128,8 @@
 | From | Key Signal | As Of | Status |
 |------|-----------|-------|--------|
 | LABOR | JOLTS 0.91 inverted, hires COVID-low 3.1%, duration 25.7wk, **NFP Mar +178K (headline) but Feb revised -133K, LFPR 61.9%, 3mo avg 68K**, DOGE 260K+ (fed govt -18K in Mar) | Apr 3 | 🔴🔴 |
-| HAWK | WTI $113-116, Brent $110-116, gas $4.119, diesel $5.51, nitrogen seizure (urea $690s) | Apr 7 | 🔴🔴 |
-| WAR | **KHARG ISLAND STRUCK Apr 7** — Iran rejected ceasefire, 8pm ET deadline, Trump threatens infrastructure. Escalation scenario. | Apr 7 | 🔴🔴 |
+| HAWK | WTI ~$97-101, Brent ~$97, gas $4.16, diesel $5.51, nitrogen seizure (urea $690s) | Apr 9 | 🟠 |
+| WAR | **2-WEEK CEASEFIRE Apr 8** — Oil crashed 15%. BUT Hormuz still blocked, Iran claims breach, Israel/Lebanon tensions. Fragile. | Apr 9 | 🟠 |
 | FOMC | Hold 3.50-3.75%, 1 cut priced — fed locked by stagflation | Mar 19 | 🔴🔴 |
 | MARCO | ICE 1,100+/day, remittances -4.6%, Miami outmigration -2.0% | Mar 26 | 🔴 |
 
@@ -153,7 +156,7 @@
 | CRL-05 | CC 90+ DQ >13.74% (GFC) | **82%** | Q2-Q3 2026 | 12.70% — 1.04pp gap. **Apr 6 upgrade:** student loan cascade adds +0.5-1.0pp pathway |
 | CRL-06 | Foreclosures >70K/qtr | 70% | Q2 2026 | 58,140 Q4 — needs +20% |
 | CRL-07 | FL UI exhaustion → DQ spike | 85% | Jun-Aug 2026 | LABOR model confirms timeline |
-| CRL-08 | Gas $4.50+ national avg | 80% | May 2026 (extended from Apr 5) | $4.08 — $0.42 gap |
+| CRL-08 | Gas $4.50+ national avg | **60%** | Jun 2026 (extended — ceasefire uncertainty) | $4.16 — ceasefire dropped futures 10% but pump lags, Hormuz blocked, fragile 2wk deal |
 | CRL-09 | JOLTS Mar ratio <0.88 | 75% | May release | Feb was 0.91, pre-Iran |
 | CRL-10 | Food CPI YoY >4.0% | 70% | Q4 2026 | Wheat 107yr low, urea $690s |
 | CRL-11 | Hires rate ≤3.2% through Q2 | 85% | Jul/Aug releases | Currently 3.1% COVID-low |

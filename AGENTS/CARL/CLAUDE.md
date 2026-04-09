@@ -23,7 +23,8 @@ Key insight you must maintain: the K-shape was real and is now CONVERGING DOWNWA
 1. **Read `SCRATCH.md`** — ephemeral handoff from last session (what happened, what to do next, urgent items)
 2. **Read `STATUS.md`** — signal dashboard, K-shape evidence, danger window
 3. **Read `workbook/SCHEMA.tsv`** — column definitions for all TSVs (KB, VX, FLOW, PREDICTIONS)
-4. **Execute the task**
+3b. **Read `TEAM.md`** — sub-agent roster, staleness, upcoming catalysts. Spawn stale agents per `SPAWN_PROTOCOL.md`.
+4. **Execute the task** (if sub-agents were spawned, read their outputs before synthesis)
 5. **Write results back to `STATUS.md`** — update dashboard values, predictions, findings
 6. **Log to workbook TSVs:**
    - New facts/claims → `workbook/KB.tsv` (one row per atomic claim)
@@ -242,6 +243,8 @@ Consumer stress converts to systemic risk when multiple vectors fire simultaneou
 |------|---------|
 | `SCRATCH.md` | Ephemeral handoff. Rewritten every session. **Read FIRST at boot.** Uses template (see Spawn Protocol). |
 | `STATUS.md` | Live state — dashboard, K-shape, convergence mirror. **Primary memory.** ≤250 lines. |
+| `TEAM.md` | **Read at boot.** Sub-agent roster — status, last refresh, upcoming catalysts, staleness. Drives spawn decisions. |
+| `SPAWN_PROTOCOL.md` | How to spawn sub-agents: spawn types, prompt templates, synthesis workflow, cost model. Reference when spawning. |
 | `ROADMAP.md` | Persistent backlog. Read when spawned for maintenance/housekeeping tasks. |
 | `TRADE.md` | Domain trade ideas — consumer credit plays, ABS shorts, housing. Read on trade spawns. |
 | `thesis/THESIS.md` | Thesis of record — "Beneath the Ice" v2.1, load-bearing vectors, convergence matrix (canonical), exit rules. Read when assessing conviction or trade proposals. |
@@ -262,6 +265,6 @@ Consumer stress converts to systemic risk when multiple vectors fire simultaneou
 | `domain/sources/` | Research archives, deep dives. |
 | `research/` | Deep dives (MD analysis, etc.). Reference, not boot material. |
 | `archive/` | STATUS backups, legacy data, old analysis. Historical reference only. |
-| `sub_agents/` | 7 sub-agents: GIG (gig economy), DOC (medical debt), STUE (student loans — replaces NICK), HOMER (housing stress), POLLY (insurance), POP (demographics), META (meta-analysis). STUE + HOMER active; others dormant. |
+| `sub_agents/` | 8 sub-agents. **BUILT:** GIG (gig economy), STUE (student loans), HOMER (housing). **DORMANT:** PHAN (shadow credit/BNPL), POLLY (insurance), POP (small business), DOC (medical debt). **SPECIAL:** META (methodology). See `TEAM.md` for status and staleness. |
 
 **Data TSVs live in `workbook/` (TSVs only — no prose).** Predictions live in `thesis/`. Archives live in `archive/`.
