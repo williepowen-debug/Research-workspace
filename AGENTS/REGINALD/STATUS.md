@@ -1,25 +1,28 @@
 # REGINALD STATUS
-**Last Updated:** 2026-04-07 (AM) | **Status:** 🔴🔴🔴 CRITICAL (ESCALATING)
+**Last Updated:** 2026-04-09 (AM) | **Status:** 🔴🔴🔴 CRITICAL (ESCALATING)
 
 ---
 
-## AM BRIEF — April 7, 2026
+## AM BRIEF — April 9, 2026
 
-**Overnight/Pre-Market:** Brent crude holding $110-111/barrel as Iran war Day 36 continues. Trump deadline for Hormuz reopening looms. Brent +0.6% to $110.40 (10:41am ET). WTI at $115+ (unusual premium to Brent — US supply anxiety). Oil volatility remains the macro governor.
+**Prices (intraday ~11am ET):** KRE $69.71 (+4.4% vs Apr 7 close). WAL $76.49 (+6.3%). OZK $47.97 (+2.9%). Brent $95.49 (**-13.6%** from ~$110). HY OAS 294bps (Apr 8, down from 305). CCC OAS 953bps (down from 976). Risk-on rally driven by oil de-escalation.
 
-**Private Credit Gating Spreads:** Barings gated yesterday (Apr 6) — 11.3% redemption requests, capped at 5%. This is the **12th fund** to gate, broadening contagion beyond PE-affiliated managers. Blue Owl (OCIC 21.9%, OTIC 40.7%) and Blackstone BCRED ($3.7B requests, ~8% NAV) remain the most stressed. The 5% gate is now industry-standard — but requests are running 2-8x that level.
+**Volume Research (RP-REG-5.1, Tasks 1-4 complete):**
+- KRE shares outstanding: 56.9M (Apr 8), down from ~65.0M (Mar 24) = **-12.4% while price +6.8%**. AP redemption confirmed. Biggest single-week outflow ($670.8M, Mar 3) in 4 years.
+- KRE is least active name (0.85x 20d avg); individual names above 1.0x. Volume migrating from ETF to single names.
+- OZK: 0.53x up/down volume ratio = persistent institutional distribution. Worst of all names.
+- WAL: 0.96x up/down ratio = recovered to near-balanced. More ambiguous.
+- Selling is anticipatory (elevated before stress events). Buying is reactive (late).
+- XLF getting +$1.22B/month inflows vs KRE -$8M. Surgical regional de-risking.
+- **Implication:** Rally is thin-market bounce (short covering + passive flows). Single-name puts cleaner than KRE puts. OZK strongest confirmation. Tasks 5-7 (dark pool, options vol, SI) pending.
 
-**KRE:** Flat pre-market at $66.64 (prior close). Yesterday's +0.97% bounce lacked volume confirmation — pattern continues. No institutional accumulation visible.
+**CPI tomorrow (Apr 10).** Captures March oil shock. Earnings wave starts Apr 15 (MTB). WAL/OZK Apr 21 (12 days).
 
-**HY OAS:** 317bps (Apr 3 close per FRED). Tightened from 328bps peak on Iran ceasefire optimism, but credit internals deteriorating. Below 320 threshold for now, but watch re-breach.
-
-**Data Today:** No major US economic releases scheduled for April 7. Next key data: CPI April 10 (captures oil shock). Q1 earnings season begins in earnest next week.
-
-**What to Watch Today:**
-1. Iran war developments — Hormuz status, Trump rhetoric
-2. KRE price action — can it hold $66+ or fade?
-3. Any new PC gating announcements (watch Ares, Apollo, HPS)
-4. WAL/OZK earnings prep — 14 days to dual release Apr 21
+**What to Watch:**
+1. CPI tomorrow — hot (>3.5%) = stagflation narrative persists despite oil drop
+2. KRE +$235M 5-day inflow — if sustained, distribution thesis has shorter shelf life
+3. WAL approaching $78 threshold from below ($76.49, -2% away)
+4. OZK volume pattern — does persistent distribution continue?
 
 ---
 
@@ -70,10 +73,10 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 
 | Indicator | Value | Status |
 |-----------|-------|--------|
-| HY OAS | **313bps** (Apr 6, tightened from 316) | 🟡 Tightened on ceasefire rally. Watch for re-breach of 320. Credit internals deteriorating despite spread compression. |
-| KRE | **$66.64** (Apr 6, +0.97%) | 🟡 Bouncing with market. Still below $70 resistance. No institutional accumulation pattern. Volume front-loaded on spikes, dead between. |
-| Brent | **$109.35** (Apr 6) | 🔴 Ceasefire talks ongoing but Iran rejected framework. Trump walked back "taken out Tuesday" threat. Volatility, not resolution. |
-| 10Y UST | **4.42%** (Mar 27, stale) | 🔴 Hit 4.48% intraday (highest since Jul 2025). Refresh Mon. |
+| HY OAS | **294bps** (Apr 8, tightened from 305) | 🟡 Below 320 threshold. Tightening on oil de-escalation. CCC OAS 953bps, CCC/HY ratio ~3.24x still elevated. |
+| KRE | **$69.71** (Apr 9 intra, +4.4% vs Apr 7) | 🟡 Rallying but on thin volume (0.85x 20d avg). Shares outstanding -12.4% in 2 weeks. AP redemption, not accumulation. See RP-REG-5.1. |
+| Brent | **$95.49** (Apr 9 intra) | 🟡 CRASHED from $110+. Iran de-escalation. Stagflation pillar weakening. |
+| 10Y UST | **4.42%** (Mar 27, stale) | 🔴 Hit 4.48% intraday (highest since Jul 2025). Needs refresh. |
 | Office CMBS DQ | **11.2%** (Feb 2026, Trepp) — pulled back from 12.34% Jan ATH on 5 loan mods | 🔴 |
 | Bank CRE DQ gap | 4.18% vs CMBS 11.2% = ~7pp masking | 🔴 |
 | FHLB Advances | ~$480B (issuance +31% YoY) | 🟠 Contingency behavior |
@@ -215,12 +218,12 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 
 ---
 
-## ⚠️ THRESHOLD BREACHES (as of Apr 3)
+## ⚠️ THRESHOLD BREACHES (as of Apr 9)
 
 | Metric | Threshold | Current | Note |
 |--------|-----------|---------|------|
-| WAL | <$78 | **$72.07** (Apr 4) | Still breached. Bounced from $65 lows but no institutional accumulation. Analyst downgrades confirmed. |
-| HY OAS | >320bps | **316bps** (Apr 2) | 🟠 Tightened below 320 on ceasefire rally. Watch for re-breach. |
+| WAL | <$78 | **$76.49** (Apr 9 intra) | Still breached but closing gap (-2%). Volume profile recovered (0.96x up/down). Ambiguous — could re-breach $78 on continued rally. |
+| HY OAS | >320bps | **294bps** (Apr 8) | CLEAR. 26bps buffer. Tightened on oil de-escalation. CCC/HY ratio still 3.24x = distressed tail unchanged. |
 
 ---
 

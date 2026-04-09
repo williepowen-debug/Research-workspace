@@ -37,6 +37,12 @@
 | 1.5 | Florida Developer Acquisitions | ✅ Complete | Distressed deal flow |
 | 2.1 | Private Insurer Health (v2) | ✅ Complete | Updated carrier analysis |
 
+### RP-REG-5.x — Market Microstructure & Volume
+
+| # | Title | Status | Key Finding |
+|---|-------|--------|-------------|
+| 5.1 | KRE Volume Deep-Dive (Tasks 1-4) | 🟡 In Progress (5-7 pending) | KRE shares -12.4% while price +6.8% (AP redemption). OZK 0.53x up/down ratio = persistent distribution. Selling anticipatory, buying reactive. XLF inflows vs KRE outflows = surgical regional de-risking. |
+
 ### RQ-REG-x — Research Questions (Ad Hoc)
 
 | # | Title | Status | Key Finding |
