@@ -1,0 +1,19 @@
+State	Metric	Value	Prior	CARL_Priority	Overlap_Vectors	As_Of	Source	Status	Notes
+FL	Foreclosures YoY	+190%		Yes	Energy, HOA/SIRS, Insurance, UI Exhaustion	2025-Q4	ATTOM	R	Canary state. Triple squeeze. See KB-CARL-066.
+FL	Condo Inventory	13.2mo	8.8mo	Yes	Insurance, HOA/SIRS	2026-Q1	MLS/Industry	R	Was 8.8mo, now 13.2mo statewide. SFH 5.6mo. Deep buyer's market.
+FL	Condo Prices YoY	-6.1%	-4.7%	Yes	Insurance, HOA/SIRS, Inventory	2026-Q1	Industry	R	92% of major condo markets declining. Median condo $310K end 2025.
+FL	HOA/SIRS Assessments	$10K-$100K+		Yes	Insurance	2026-01	FL DBPR	Y	SIRS full-funding mandatory Jan 1 2026. HB 913 extends some deadlines.
+FL	Insurance Crisis	181% above national avg		Yes	Energy, HOA	2026	Industry	R	See KB-CARL-066. Updated: 181% above natl avg.
+FL	Migration	-93% inflow		Yes	Immigration (MARCO)	2026-Q1	MARCO	R	No demand buffer.
+FL	FC Starts (Jan)	3,523		Yes	Insurance, HOA, Energy	2026-01	ATTOM	R	Leads nation in FC starts Jan 2026.
+TX	Foreclosures YoY	+45%		Yes	Energy, SSB exposure	2025-Q4	ATTOM	O	SSB 19% exposure. #2 in state diffusion model.
+TX	FC Starts (Jan)	3,116		Yes	Energy, SSB	2026-01	ATTOM	O	#2 nationally. Also among top REO states.
+TX	CC 90+ DQ	3.2%		Yes	Auto 5.8%	2025	NY Fed	O	See KB-CARL-031.
+IN	FC Rate	Worst in nation		No	Employment	2026-02	ATTOM	R	Indiana leads nation in foreclosure rate Feb 2026.
+SC	FC Rate	Top 3 nationally		No		2026-02	ATTOM	O	Among worst FC rates Feb 2026.
+NV	Sale Fallthrough	19%		No	CC 14.53%	2025	LV Review-Journal	O	Las Vegas. One of biggest YoY jumps. See KB-CARL-039.
+CA	Fire/Uninsured	150K+ HH		No	Insurance	2025	Industry	O	Single event could trigger cascade. See FLOW-CARL-3.02.
+Midwest	Price YoY	First negative		No	Employment	2025-12	Wright	O	Indianapolis, KC, Chicago, Minneapolis all negative. See KB-CARL-011/015.
+NE	Price Decel	Westchester -1.60% YoY		No		2025-12	Wright	O	Last holdout cracking. See KB-CARL-019.
+South	Sales Share	~40%, negative		No	Energy, Insurance	2025-12	Wright	R	See KB-CARL-023.
+West	Sales Share	~22%, negative		No	Fire, Water	2025-12	Wright	O	CA: SD, LA, SF all negative YoY.

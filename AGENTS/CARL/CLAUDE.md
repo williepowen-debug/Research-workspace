@@ -262,6 +262,6 @@ Consumer stress converts to systemic risk when multiple vectors fire simultaneou
 | `domain/sources/` | Research archives, deep dives. |
 | `research/` | Deep dives (MD analysis, etc.). Reference, not boot material. |
 | `archive/` | STATUS backups, legacy data, old analysis. Historical reference only. |
-| `sub_agents/` | 6 sub-agents: GIG (gig economy), DOC (medical debt), STUE (student loans — replaces NICK), POLLY (insurance), POP (demographics), META (meta-analysis). STUE active; others dormant. |
+| `sub_agents/` | 7 sub-agents: GIG (gig economy), DOC (medical debt), STUE (student loans — replaces NICK), HOMER (housing stress), POLLY (insurance), POP (demographics), META (meta-analysis). STUE + HOMER active; others dormant. |
 
 **Data TSVs live in `workbook/` (TSVs only — no prose).** Predictions live in `thesis/`. Archives live in `archive/`.

@@ -1,0 +1,50 @@
+File	Column	Data_Type	Description
+PIPELINE.tsv	State	String	2-letter state code or NATIONAL
+PIPELINE.tsv	Metric	String	Pipeline metric (90+ DQ, FC Starts, FC Completions, REO, Cure Rate, etc.)
+PIPELINE.tsv	Loan_Type	String	ALL/FHA/CONV/VA
+PIPELINE.tsv	Value	String	Current value
+PIPELINE.tsv	Prior	String	Prior period value (for trend)
+PIPELINE.tsv	Change	String	Period-over-period change
+PIPELINE.tsv	As_Of	Date	Date of measurement (YYYY-MM-DD)
+PIPELINE.tsv	Source	String	Data source (MBA, ATTOM, ICE, etc.)
+PIPELINE.tsv	Status	String	G/Y/O/R status color
+PIPELINE.tsv	Notes	String	Context, caveats
+MULTIFAMILY.tsv	Entity	String	Fannie/Freddie/CMBS/Trepp or specific deal
+MULTIFAMILY.tsv	Metric	String	Serious DQ, Loss Severity, Maturity Date, Cap Rate, etc.
+MULTIFAMILY.tsv	Value	String	Current value
+MULTIFAMILY.tsv	Prior	String	Prior period value
+MULTIFAMILY.tsv	GFC_Peak	String	GFC peak comparison value (where applicable)
+MULTIFAMILY.tsv	As_Of	Date	Date of measurement
+MULTIFAMILY.tsv	Source	String	Data source
+MULTIFAMILY.tsv	Status	String	G/Y/O/R status color
+MULTIFAMILY.tsv	Notes	String	Context, maturity wall notes, CMBS exposure
+STATE_HSG.tsv	State	String	2-letter state code
+STATE_HSG.tsv	Metric	String	Housing metric being tracked
+STATE_HSG.tsv	Value	String	Current value
+STATE_HSG.tsv	Prior	String	Prior period or YoY comparison
+STATE_HSG.tsv	CARL_Priority	String	Yes/No — is this a CARL priority state?
+STATE_HSG.tsv	Overlap_Vectors	String	Other stress vectors active (insurance, employment, energy, etc.)
+STATE_HSG.tsv	As_Of	Date	Date of measurement
+STATE_HSG.tsv	Source	String	Data source
+STATE_HSG.tsv	Status	String	G/Y/O/R status color
+STATE_HSG.tsv	Notes	String	Context, triggers, cross-agent links
+BUILDER.tsv	Entity	String	Builder name (LEN, DHI, TOL, KBH, NVR) or INDUSTRY
+BUILDER.tsv	Metric	String	Gross margin, price cuts %, cancellation rate, HMI, inventory months
+BUILDER.tsv	Value	String	Current value
+BUILDER.tsv	Prior	String	Prior period value
+BUILDER.tsv	As_Of	Date	Date of measurement
+BUILDER.tsv	Source	String	Data source (earnings, NAHB, Census)
+BUILDER.tsv	Status	String	G/Y/O/R status color
+BUILDER.tsv	Notes	String	Context, guidance commentary
+KB.tsv	ID	String	KB-HMR-NNN (sequential)
+KB.tsv	CARL_ID	String	Original CARL KB ID (provenance)
+KB.tsv	Date	Date	Date claim was logged (YYYY-MM-DD)
+KB.tsv	Group	String	FORECLOSURE_PIPELINE / MULTIFAMILY / SALES_DEMAND / PRICING_INVENTORY / MORTGAGE_RATES / REGIONAL / BUILDER / SERVICER
+KB.tsv	Entity	String	Most specific entity the fact is about
+KB.tsv	Fact	String	The claim — precise, sourced, quantified
+KB.tsv	Source	String	Data source with date
+KB.tsv	Conf	String	Admiralty digraph (A-F source reliability, 1-6 info credibility)
+KB.tsv	Epistemic	String	EMPIRICAL / ESTIMATE / ASSUMPTION
+KB.tsv	Status	String	ACTIVE / CONFIRMED / STALE / SUPERSEDED
+KB.tsv	Stale_By	Date	Expected review date (YYYY-MM-DD or empty)
+KB.tsv	Notes	String	Context, caveats, cross-agent links
