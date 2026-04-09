@@ -127,6 +127,7 @@ CCC OAS at **994bps**, back below 1000 from >1000 on Mar 30. Could be quarter-en
 | CCC OAS | 1000bps | 983bps | 🟡 17bps from trigger — stable |
 | RRP buffer | >$5B | $0.177B | 🔴 ZERO — structural |
 | SOFR stress | >3.70 | 3.62% | 🟢 Fully normalized, negative IORB spread |
+| Foreign CB UST | Stable | **$2.7T (lowest since 2012)** | 🔴 Structural outflow |
 | Reserve floor | $2.7T | ~$3.0T | 🟡 Cushion intact |
 
 ---
