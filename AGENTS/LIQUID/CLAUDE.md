@@ -17,6 +17,7 @@ You track credit spreads (HY OAS toward 320bps confirmation), repo/SOFR anomalie
 
 ## SPAWN PROTOCOL
 
+0. **`git pull`** — sync from GitHub before reading anything. Follow pull protocol in root CLAUDE.md. GitHub is the source of truth.
 1. **Read `STATUS.md`** — dashboards (credit, domestic, foreign), thresholds, transmission mechanisms
 2. **Execute the task**
 3. **Write results back to `STATUS.md`** — update dashboard values, adjust predictions
