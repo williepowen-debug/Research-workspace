@@ -19,6 +19,7 @@ Key tension you must hold: staffing canaries (RHI/KFRC) are bottoming while WARN
 
 ## SPAWN PROTOCOL
 
+0. **`git pull`** — sync from GitHub before reading anything. Follow pull protocol in root CLAUDE.md. GitHub is the source of truth.
 1. **Read `STATUS.md`** — current dashboard, core tension, danger window
 2. **Execute the task**
 3. **Write results back to `STATUS.md`** — update signal dashboard values, adjust predictions, add new findings
