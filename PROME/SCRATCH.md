@@ -1,45 +1,48 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-04-07 15:37 ET
+**Last Updated:** 2026-04-09 00:17 ET
 
 ## What Just Happened
-Afternoon session — Discord architecture discussion, HERMES delivery, cron fix, handoff preparation.
+Evening session — Git protocol update, agent check-ins, position discussion, handoff preparation.
 
 **Key activities:**
-1. **OTTO check-in complete** — Subprime DQ hit 10% (11-year high), CVNA -25% YTD, BofA downgrade
-2. **ZHAO check-in complete** — No TIC until Apr 15, HK peg stable, HIBOR seasonal spike confirmed resolved
-3. **HERMES delivery complete** — 12 signals delivered from 7 agents to PROME inbox
-4. **Morning briefing cron fixed** — Added timeout 60 to prevent hangs
-5. **Discord architecture planned** — Server structure designed, ready to implement when user provides bot token
+1. **Git protocol updated** — Root CLAUDE.md updated with new pull protocol; PROME CLAUDE.md created with Step 0
+2. **Agent check-ins completed** — LABOR, MARCO, HENRY, LIQUID, OTTO, ZHAO, HAWK, BROCK all processed
+3. **HERMES AM delivery** — 2 signals: RED (HY OAS 305, exit HYG if <300), NEXUS (12 blind spots, RED stale)
+4. **Ceasefire assessment** — HAWK: ceasefire already broken, Scenario D 85-88%, Israel Lebanon strikes, Iran Hormuz retaliation
+5. **APO discussion** — Still below $113 stop ($105.76), thesis intact (PE-insurer transmission), decision pending
+6. **Market rally analysis** — USO -11.6%, IWM +2.8%, HYG +0.58% — pricing durable peace, reality is opposite
 
 **Decisions made:**
-- Discord server will use single bot token for all agents
-- Dual presence: Claude Code for deep research, Discord for visibility/cross-agent chat
-- File-based inbox remains source of truth
+- GitHub is single source of truth; all agents pull at session start
+- PROME CLAUDE.md created with boot sequence and git protocol
+- LIQUID merge conflict resolved (skipped commit, no data lost)
 
 ## Current State
-- **Tuesday afternoon, 3:37 PM ET.**
-- **Markets closed.** HY OAS 305bps 🟡 (from 316 earlier), CCC OAS 976bps 🟡
-- **APO:** $105.21 — still below $113 stop, decision pending
-- **Brent:** $109.17 🔴, Gas $4.12 🔴 (above Hamilton breakpoint)
-- **VIX:** 27.07 🟡 (elevated)
+- **Thursday early morning, 12:17 AM ET.**
+- **Markets closed.** Futures digesting ceasefire breakdown.
+- **APO:** $105.76 — still below $113 stop, 4+ days, decision needed
+- **Brent:** ~$92 (post-ceasefire collapse) — will snap back if Hormuz re-closes
+- **HY OAS:** ~305 🟡 — mechanical tightening on ceasefire hope
+- **USO:** -11.6% — gift entry if war risk resumes
 
 ## QUICKSTART (Next Session)
-1. **APO decision** — Below stop 4+ days, cut or hold?
-2. **KRE roll pricing** — LIQUID domain, Jun→Dec
-3. **Discord setup** — Await user bot token, then implement
-4. **Review HERMES delivery** — 12 signals in PROME inbox
-5. **Calendar re-auth** — If user wants calendar sync restored
+1. **APO decision** — Cut, hold, or hybrid (cut half, redeploy to ARES/BIZD)?
+2. **Thursday claims 8:30 AM** — FL Wave 1 lag test (LABOR critical)
+3. **KRE roll pricing** — Start Jun→Dec rolls on any rally
+4. **Add USO exposure** — If ceasefire fails, crude snaps back
+5. **IWM puts** — Add on rally strength (+2.8% = entry window)
 
 ## Handoff Block
-**Last context:** Discord architecture finalized. HERMES delivered 12 signals. Cron timeout fixed. APO still below stop.
-**Next tide:** Position decisions, Discord implementation
-**Open:** APO decision, KRE rolls, Discord token needed, calendar sync broken
-**Files touched:** `FORGE/tools/market-data/morning_briefing.sh` (added timeouts)
+**Last context:** Git protocol fixed. All agent check-ins complete. Ceasefire broken per HAWK. Market pricing peace, reality is war. APO still below stop.
+**Next tide:** Claims Thursday, APO decision, position adjustments
+**Open:** APO cut/hold, KRE rolls, USO add, IWM puts, FXY entry
+**Files touched:** `AGENTS/PROME/CLAUDE.md` (created with Step 0 protocol)
 
 ## Pending / Unresolved
-- APO position — below $113 stop, decision needed
-- KRE Jun→Dec rolls — pricing
-- Discord server — awaiting bot token from user
-- Calendar sync — token expired, needs re-auth
+- APO position — below stop 4+ days, cut/hold/hybrid decision needed
+- KRE Jun→Dec rolls — pricing on rally
+- USO add — if ceasefire fails
+- IWM puts — add on strength
+- FXY entry — BOJ hike Apr 23-24 + war risk
 - RED/HANS check-ins — stale (persistent agents on Claude Code)
-- Signal Registry Draft A — pending review when ready
+- HEARTBEAT.md update — stale since Apr 3-4
