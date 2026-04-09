@@ -1,5 +1,5 @@
 # PROME STATUS.md
-**Updated:** 2026-04-08 09:15 ET
+**Updated:** 2026-04-09 09:15 ET
 
 ## 🔴🔴 SCENARIO D DOMINANT (82%) — WAR DAY 36 — BRENT $109 — BLUE OWL GATING — STRESS: HIGH
 
@@ -9,22 +9,22 @@
 
 | Agent | St | Key State | Upd | Inbox | Runtime |
 |-------|----|-----------|-----|-------|---------|
-| BROCK | 🔴🔴🔴 | Stage 2→3. Blue Owl OTIC 40.7% / OCIC 21.9% gated. $10B+ trapped. | 4/7 | 11 | OpenClaw |
-| BRENT | 🔴🔴🔴 | 8-9M bpd disrupted. Hormuz+Baltic. Gas $3.99 at breakpoint. | 4/7 | 2 | OpenClaw |
-| HAWK | 🔴🔴 | Scenario D 85%. Iran deadline **Apr 6**. Israel struck nuclear sites. | 4/2 | 2 | OpenClaw | **⚠️ STALE 6d** |
-| LIQUID | 🔴🔴 | HY OAS 316 🟡 (spiked 346 q-end). CCC 981 🟡. Gold margin cascade. | 4/7 | 11 | OpenClaw |
-| ZHAO | 🔴🔴 | Demand hole $70-135B/mo. HIBOR-SOFR reverted (seasonal). TIC Apr 15. | 4/2 | 3 | OpenClaw | **⚠️ STALE 6d** |
-| HENRY | 🔴🔴 | JPM retail fatigue. Fed T-Bill $352B. $14T IG supply wall. | 4/6 | 10 | OpenClaw |
-| CARL | 🔴🔴 | Path C activating. Convergence 43/50. | 4/7 | 0 | 🖥️ Claude Code |
-| LABOR | 🔴 | NFP +178K (healthcare-driven). Claims 202K. Shadow +65K. | 4/7 | 6 | OpenClaw |
-| SAM | 🔴 | USD/JPY 159.64. FXY 8 shares. Tankan beat. BOJ hike ~35-40% Apr. | 4/7 | 0 | 🖥️ Claude Code |
-| REGINALD | 🔴 | OZK KB 159 rows. WAL KB 60 rows. OZK Q1 Apr 16, WAL Apr 21. | 4/7 | 0 | 🖥️ Claude Code |
-| MARCO | 🔴 | DHS Day 47 (deal reached, may resolve today). ICE going dark on data. | 4/2 | 3 | OpenClaw | **⚠️ STALE 6d** |
-| OTTO | 🟠 | DQ 7.1% RED. Tricolor fraud charges. CVNA earnings Apr 29. | 4/2 | 3 | OpenClaw | **⚠️ STALE 6d** |
-| NEXUS | 🟠 | Restructured Apr 4. Pass 12 running. 16 active convergences. | 4/4 | 0 | OpenClaw |
-| RED | 🟢 | 85% confidence. | 4/7 | 0 | 🖥️ Claude Code |
-| HANS | 🔴🔴 | DD-4 delivered. EU storage 17-19%. | 3/25 | 2 | OpenClaw | **⚠️ STALE 14d** |
-| DARWIN | 🟡 | Inactive. | 2/18 | 0 | OpenClaw | **⚠️ STALE 49d** |
+| BROCK | 🔴🔴🔴 | Stage 2→3. Blue Owl OTIC 40.7% / OCIC 21.9% gated. $10B+ trapped. | 4/9 | 11 | OpenClaw |
+| BRENT | 🔴🔴🔴 | 8-9M bpd disrupted. Hormuz+Baltic. Gas $3.99 at breakpoint. | 4/7 | 2 | OpenClaw | **⚠️ STALE 2d** |
+| HAWK | 🔴🔴 | Scenario D 85%. Iran deadline **Apr 6**. Israel struck nuclear sites. | 4/2 | 2 | OpenClaw | **⚠️ STALE 7d** |
+| LIQUID | 🔴🔴 | HY OAS 316 🟡 (spiked 346 q-end). CCC 981 🟡. Gold margin cascade. | 4/9 | 11 | OpenClaw |
+| ZHAO | 🔴🔴 | Demand hole $70-135B/mo. HIBOR-SOFR reverted (seasonal). TIC Apr 15. | 4/2 | 3 | OpenClaw | **⚠️ STALE 7d** |
+| HENRY | 🔴🔴 | JPM retail fatigue. Fed T-Bill $352B. $14T IG supply wall. | 4/9 | 10 | OpenClaw |
+| CARL | 🔴🔴 | Path C activating. Convergence 43/50. | 4/7 | 0 | 🖥️ Claude Code | **⚠️ STALE 2d** |
+| LABOR | 🔴 | NFP +178K (healthcare-driven). Claims 202K. Shadow +65K. | 4/7 | 6 | OpenClaw | **⚠️ STALE 2d** |
+| SAM | 🔴 | USD/JPY 159.64. FXY 8 shares. Tankan beat. BOJ hike ~35-40% Apr. | 4/9 | 0 | 🖥️ Claude Code |
+| REGINALD | 🔴 | OZK KB 159 rows. WAL KB 60 rows. OZK Q1 Apr 16, WAL Apr 21. | 4/7 | 0 | 🖥️ Claude Code | **⚠️ STALE 2d** |
+| MARCO | 🔴 | DHS Day 47 (deal reached, may resolve today). ICE going dark on data. | 4/2 | 3 | OpenClaw | **⚠️ STALE 7d** |
+| OTTO | 🟠 | DQ 7.1% RED. Tricolor fraud charges. CVNA earnings Apr 29. | 4/2 | 3 | OpenClaw | **⚠️ STALE 7d** |
+| NEXUS | 🟠 | Restructured Apr 4. Pass 12 running. 16 active convergences. | 4/4 | 0 | OpenClaw | **⚠️ STALE 5d** |
+| RED | 🟢 | 85% confidence. | 4/7 | 0 | 🖥️ Claude Code | **⚠️ STALE 2d** |
+| HANS | 🔴🔴 | DD-4 delivered. EU storage 17-19%. | 3/25 | 2 | OpenClaw | **⚠️ STALE 15d** |
+| DARWIN | 🟡 | Inactive. | 2/18 | 0 | OpenClaw | **⚠️ STALE 50d** |
 
 ---
 
