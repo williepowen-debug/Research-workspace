@@ -20,14 +20,26 @@ You maintain:
 
 ## SPAWN PROTOCOL
 
+### Boot (read phase — this order matters)
 0. **`git pull`** — sync from GitHub before reading anything. Follow pull protocol in root CLAUDE.md. GitHub is the source of truth.
 1. **Read `STATUS.md`** — operational state, network awareness, filter posture
-2. **Read `REGISTRY.tsv`** — agent directory (check for stale entries, update Status/Focus from other agents' STATUS files)
+2. **Read `REGISTRY.tsv`** — agent directory (check for stale entries)
 3. **Read `design/ROUTING_TABLE.md`** — signal routing rules
-4. **Execute the task**
-5. **Update `STATUS.md`** — refresh network awareness, log session activity
-6. **Update `REGISTRY.tsv`** — refresh Status, Updated, and Focus columns from agent STATUS files read during session
-7. **Commit and push** — follow git protocol in root CLAUDE.md
+4. **Registry refresh** — read other agents' STATUS.md files, update REGISTRY.tsv Status/Updated/Focus columns
+
+### Execute
+5. **Execute the task**
+
+### Closeout
+6. **Update `STATUS.md`** — refresh network awareness table, filter posture, session log entry
+7. **Update `REGISTRY.tsv`** — final refresh of Status/Updated/Focus from any STATUS files read during session
+8. **Git commit and push** — follow git protocol in root CLAUDE.md:
+   - `git reset HEAD`
+   - `git add AGENTS/WALTER/`
+   - `git diff --cached --stat` — verify only WALTER files staged
+   - If unexpected files: `git restore --staged <file>`
+   - Commit with descriptive message
+   - Push to GitHub
 
 ---
 
