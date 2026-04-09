@@ -69,8 +69,8 @@ CFTC net short JPY at -67,800 contracts — TRIPLED in 2 weeks. July 2024 pre-un
 
 ### Channel 3: BOJ Policy Divergence (Rate Differential Compression)
 
-**Current rate:** 0.50% → Hiking to 0.75-1.00%
-**Timeline:** May 1 = base case hike. April 23-24 = live.
+**Current rate:** 0.75% (Dec 2025 hike) — AT Takaichi ceiling. Next hike to 1.00% = political collision.
+**Timeline:** April 28 = live (~70%). May 1 = backstop.
 **Terminal rate:** 0.75% (political ceiling), NOT market consensus 1.25-1.5%
 
 **Why 0.75% ceiling:**
@@ -161,7 +161,7 @@ If cascade → recession → Fed cuts → USD weakens → JPY sub-145 WITHOUT BO
 | JGB 10Y 2.40% | Stress crossover | 🔴🔴 **BREACHED** (Apr 7 — highest since 1997) |
 | JGB 30Y 4.0% | Severe insurer stress / acceleration zone | WATCH |
 | Brent $120 | Kharg Island scenario | 🔴 WATCH ($115 current) |
-| BOJ rate 0.75% | Political ceiling (mortgage constraint) | APPROACHING |
+| BOJ rate 0.75% | Political ceiling (mortgage constraint) | 🔴 **AT CEILING** (Dec 2025) — next hike breaches |
 
 ---
 

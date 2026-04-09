@@ -58,13 +58,15 @@ This document maps our forward-looking expectations — what's coming, what we t
 - **Impact:** Insurer buyer strike NOT confirmed. JGB market orderly. This CLEARS a key concern — BOJ can hike without worrying about JGB market stability. Removes one bear argument.
 - **Net:** BULL FORK — one less obstacle to BOJ hike path.
 
-### Mon Apr 7 — KHARG ISLAND STRUCK + TRUMP 8PM DEADLINE (PENDING)
-- **Event:** U.S. strikes on Kharg Island military targets. Trump deadline for Hormuz reopening at 8pm ET.
-- **Branch point:**
-  - Energy infrastructure strikes: Oil $120+ → Phase 1 yen weakness reasserts → FXY dips → delays thesis timing
-  - Deal/delay: Oil drops $100-105 → yen strengthens → FXY surges → thesis accelerates
-  - Partial strikes (non-energy): Oil stays $110-115 → status quo → thesis tracks to BOJ April 23-24
-- **Why it matters:** THE binary event. Determines whether oil headwind intensifies or lifts. FXY already rising despite oil = rate differential winning, but a $120+ oil spike could reverse that.
+### Mon Apr 7 8PM — TRUMP DEADLINE ✅ RESOLVED — BULL FORK (CEASEFIRE)
+- **Event:** Trump deadline for Hormuz reopening. Pre-deadline: railway/road strikes, Israel hit Tehran airports + South Pars.
+- **Outcome:** 2-week ceasefire 90 min before deadline. Iran reopens Hormuz (coordinated passage). All US attacks suspended. Pakistan hosting talks Islamabad Fri Apr 11.
+- **Impact:** Brent $110 → $91 (-16.6%). USD/JPY 159.81 → 158.18 (-1.0%). FXY gapped to $58.06.
+- **⚠️ FRAGILE:** Iran terms maximalist. Ceasefire expires Apr 22. High prob of collapse.
+
+### Tue Apr 8 — FEB WAGE DATA BEAT
+- **Outcome:** Real wages +1.9% (biggest since 2021). Base pay +3.3% (34-year high). Nominal +3.3% (beat 2.7%).
+- **Impact:** Demand-pull wages lock BOJ hike path. Every data box checked.
 
 ### Mon Apr 7 — JGB 10Y HITS 2.40% (THRESHOLD BREACHED)
 - **Event:** JGB 10-year yield hit 2.40% — highest since July 1997.
@@ -201,11 +203,13 @@ These are the moments where our expected path could fork:
 | **Apr 2** | 10Y JGB auction | Strong demand | Weak demand → 30Y risk | ✅ **RESOLVED: WEAK** (BTC 2.56x, tail 0.36) |
 | **Apr 6** | Strike pause expiry | Extended → oil stays low | Strikes resume → oil reverses | ✅ **RESOLVED: BEAR** — Kharg struck, escalation |
 | **Apr 7** | 30Y JGB auction | BTC >3.0x → demand holds | BTC <2.0x → insurer buyer strike | ✅ **RESOLVED: BULL** — BTC 3.11x, tail 1.3bp |
-| **Apr 7 8pm** | Trump Hormuz deadline | Deal/delay → oil drops | Energy strikes → oil $120+ | **PENDING — tonight** |
-| **Apr 14** | 20Y JGB auction | Healthy demand | Weak → super-long crisis | **NEW — PENDING** |
+| **Apr 7 8pm** | Trump Hormuz deadline | Deal → oil crashes | Energy strikes → oil $120+ | ✅ **RESOLVED: BULL** — ceasefire, Brent $91 |
+| **Apr 11** | Pakistan talks | Progress → oil stays low | Collapse → snap-back | **NEW — PENDING** |
+| **Apr 14** | 20Y JGB auction | Healthy demand | Weak → super-long crisis | PENDING |
 | **Apr 15** | TIC data | Large selling → thesis confirmed | Mixed → slower timeline | PENDING |
-| **Apr 23-24** | BOJ meeting | Hike → carry unwind fires | Hold → wait for May 1 | PENDING |
-| **May 1** | BOJ meeting | Hike → structural move | Delay → reassess thesis | PENDING |
+| **Apr 22** | Ceasefire expiry | Extended → oil $80-90 | Collapse → $105-110 | **NEW — PENDING** |
+| **Apr 28** | BOJ meeting | Hike to 1.00% → collision | Hold → May | PENDING |
+| **May 1** | BOJ meeting | Hike → structural move | Delay → reassess | PENDING |
 | **Mid-May** | ESR disclosures | Stress visible → repatriation accelerates | Manageable → base case holds | PENDING |
 | **Late May** | April CPI | Upward surprise → BOJ locked | Tame → less urgency | PENDING |
 | **June** | Sato joins board | n/a | Dovish majority forming | PENDING |

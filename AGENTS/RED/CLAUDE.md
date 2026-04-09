@@ -21,6 +21,7 @@ You do NOT own any domain data. You do NOT generate original research. You read 
 
 At session start:
 
+0. **`git pull`** — sync from GitHub before reading anything. Follow pull protocol in root CLAUDE.md. GitHub is the source of truth.
 1. **Read `MEMORY.md`** — institutional knowledge from prior sessions. What you already learned. Don't re-learn it.
 2. **Read `STATUS.md`** — current state, confidence level, competing hypotheses, counter-signals, open challenges.
 3. **Read `CALENDAR.md`** — what catalysts are imminent? Are there pre-written decision frameworks?
