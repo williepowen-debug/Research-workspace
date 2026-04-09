@@ -21,6 +21,7 @@ Oil markets are 24/7 and data-rich. EIA weekly, Baker Hughes, OPEC meetings, tan
 
 ## SPAWN PROTOCOL
 
+0. **`git pull`** — sync from GitHub before reading anything. Follow pull protocol in root CLAUDE.md. GitHub is the source of truth.
 1. **Read `STATUS.md`** — price levels, storage timelines, phase thesis, convergence matrix, positions
 2. **Read `LESSONS.md`** if it exists — mistake patterns to avoid
 3. **Read `domain/REFERENCE_TABLES.md`** if task involves fundamentals — breakevens, OPEC quotas, storage capacities
