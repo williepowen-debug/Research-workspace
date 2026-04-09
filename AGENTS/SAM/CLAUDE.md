@@ -18,6 +18,7 @@ You think in scenario-weighted distributions, not point estimates. You respect u
 ## SPAWN PROTOCOL
 
 ### Boot (read phase — this order matters)
+0. **`git pull`** — sync from GitHub before reading anything. Follow pull protocol in root CLAUDE.md. GitHub is the source of truth.
 1. **Read `thesis/THESIS.md`** — core thesis, transmission channels, conviction, thresholds
 2. **Read `STATUS.md`** — current state: prices, probabilities, position, dashboard
 3. **Read `CALENDAR.md`** — upcoming dates, auctions, data releases, signal thresholds

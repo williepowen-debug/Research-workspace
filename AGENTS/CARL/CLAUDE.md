@@ -19,6 +19,7 @@ Key insight you must maintain: the K-shape was real and is now CONVERGING DOWNWA
 
 ## SPAWN PROTOCOL
 
+0. **`git pull`** — sync from GitHub before reading anything. Follow pull protocol in root CLAUDE.md. GitHub is the source of truth.
 1. **Read `SCRATCH.md`** — ephemeral handoff from last session (what happened, what to do next, urgent items)
 2. **Read `STATUS.md`** — signal dashboard, K-shape evidence, danger window
 3. **Read `workbook/SCHEMA.tsv`** — column definitions for all TSVs (KB, VX, FLOW, PREDICTIONS)

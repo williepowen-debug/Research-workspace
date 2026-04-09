@@ -32,33 +32,28 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (Apr 6 → Apr 7)
-- U.S. struck 50+ military targets on Kharg Island overnight (military, not oil infra — yet). Maximum escalation into Trump 8pm ET deadline.
-- Trump: "a whole civilization will die tonight" if no deal. Iran rejected ceasefire. "Highly unlikely" to postpone.
-- Brent $109 → $110-111 (+3%). Oil rising on deadline pressure.
-- USD/JPY 159.70 → 159.81. FXY $57.53 → $57.44 (drifting lower — oil headwind persists, Phase 1 in force).
-- DXY fell below 100 — dollar broadly weak, but yen weakening anyway = oil import cost dominating.
-- JGB 10Y hit 2.40% — THRESHOLD BREACHED. Highest since July 1997.
-- 30Y JGB auction: BTC 3.11x, tail 1.3bp at 3.70% coupon. PASSED. Demand held at record yields.
-- BOJ April hike probability ~70% (market consensus, up from 35-40% last week).
+### CHANGES SINCE LAST SESSION (Apr 7 → Apr 8)
+- 2-WEEK CEASEFIRE reached 90 min before Trump's 8pm deadline. Hormuz reopening. Pakistan talks Fri Apr 11.
+- Brent CRASHED $110 → $91.14 (-16.6%). $1 from $90 threshold.
+- USD/JPY 159.81 → 158.18 (-1.0%). FXY gapped to $58.06 (+1.1%). Position green.
+- Feb wage data BEAT: real +1.9%, nominal +3.3%, base pay +3.3% (34-year high).
+- JGB 30Y eased 3.70% → 3.59%. Yen strengthening vs USD only (EUR/JPY 185 flat).
 
-### LAST SESSION (Apr 7)
-- Booted via Telegram. Full spawn protocol executed.
-- CRITICAL DATA ERROR: Web search returned FXY $58.50 (secondary aggregator). Real price $57.44. Built false "yen strengthening into oil" narrative, had to correct. Lesson saved to auto-memory: always cross-check ETF vs underlying FX before building narrative.
-- Updated STATUS.md with corrected Apr 7 data: auction, Kharg, 10Y breach, corrected FXY.
-- Updated TRADE.md: auction ✅, BOJ hike prob 70%.
-- Updated CALENDAR.md: auction ✅, geopolitical refresh, BOJ prob 70%.
-- Updated TIMELINE.md: Apr 6 strike pause resolved (BEAR — Kharg struck), Apr 7 auction resolved (BULL — BTC 3.11x), Apr 7 deadline added as pending branch point, JGB 10Y breach documented.
-- Updated THESIS.md: 10Y threshold from "2bps away" → "BREACHED."
-- Researched Big 4 insurer FY2026 plans: no formal announcements yet (expected Apr 14-25), but pre-announcement signals overwhelmingly confirm repatriation thesis.
-- **Built new insurers/ subfolder** with TRACKER.md + 7 per-insurer profiles (nippon-life, meiji-yasuda, dai-ichi, sumitomo, fukoku, norinchukin, japan-post). Updated CLAUDE.md file table.
-- Will working on new signal/messaging system — leave outbox alone.
+### LAST SESSION (Apr 8)
+- Booted via Telegram. Caught BOJ rate discrepancy in THESIS.md (0.50% → should be 0.75%). Fixed.
+- Ceasefire analysis: thesis accelerating, oil is noise, wages are signal. Ceasefire likely fragile.
+- Position: hold 8 shares, wait for dip to add Tranche 2 at $57-57.50.
+- Created SIGNAL_INTAKE.md (WALTER routing spec). Added to CLAUDE.md file table.
+- Will building group chats. SAM core group: SAM + LIQUID + HENRY.
+- Diagnosed git collision: LIQUID's push/pull/stash cycle overwrote SAM's uncommitted edits. Fixed root CLAUDE.md pull protocol (check for other agents' uncommitted work before pulling). Added Step 0 (git pull) to boot sequences for SAM, RED, REGINALD, CARL.
+- STATUS.md was overwritten 4 times by sync issues. Final version committed to prevent recurrence.
 
 ### NEXT SESSION
-1. **Trump deadline aftermath** — check what happened at 8pm ET Apr 7. Energy infra struck? Deal? Delay? Update STATUS + TIMELINE accordingly. Oil direction is THE variable.
-2. **Feb wage data (MHLW)** — expected Apr 7-9. Low priority unless surprise negative.
-3. **Big 4 insurer FY2026 plans** — Fukoku expected ~Apr 14-18 (first mover). Watch for any early announcements. Update insurers/TRACKER.md.
-4. **MOF FY-end week flow data** — still pending from prior session.
-5. **3 outbox signals still in outbox** — Will reworking mail system, leave alone.
-6. **Apr 14-18: Vol check window (pre-BOJ).** Ask Will for CVOL/FXY OI/RR data.
-7. **20Y JGB auction Apr 14** — second super-long test. If 30Y passed at 3.11x, 20Y should be fine, but watch.
+1. **Ceasefire durability** — has Brent held below $95?
+2. **Pakistan talks Apr 11** — outcome?
+3. **Big 4 insurer FY2026 plans** — Fukoku first (~Apr 14-18). Update TRACKER.md.
+4. **20Y JGB auction Apr 14**
+5. **Feb TIC data Apr 15** — Japan UST selling confirmation
+6. **Vol check Apr 14-18** — pre-BOJ, CVOL compressed = cheaper options
+7. **Ceasefire expiry Apr 22** — next binary
+8. **BOJ Apr 28** — hike to 1.00% (~70%)

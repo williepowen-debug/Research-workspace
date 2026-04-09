@@ -50,9 +50,18 @@ Agent state lives at `AGENTS/<NAME>/STATUS.md`. Trade execution at `FORGE/STATUS
 
 ## Git Protocol
 
-Agents share one working directory and branch.
+Agents share one working directory and branch. **GitHub is the single source of truth.** All agents must pull at session start and commit + push at session end. This ensures every agent works from the latest state and every agent's work is available to others.
 
 > **`git add` ONLY files inside your own `AGENTS/<NAME>/` directory.** Never `git add .` or `git add -A`. If you need to commit a shared file (HEARTBEAT, FORGE, etc.), flag it to Prome — don't commit it yourself.
+
+**At session start:**
+1. Follow the "Before pulling" protocol below to sync from GitHub
+2. Then proceed with your normal boot sequence
+
+**At session end:**
+1. Commit your files (follow "Before committing" below)
+2. Push to GitHub (follow "Before pulling" first if remote has diverged)
+3. If you cannot push (other agents have uncommitted work), note the pending push in your MEMORY.md session notes
 
 **Before committing:**
 1. `git reset HEAD` — clear staging area
@@ -61,11 +70,18 @@ Agents share one working directory and branch.
 4. If unexpected files: `git restore --staged <file>`
 
 **Before pulling:**
-1. Stash your files: `git stash push -- AGENTS/<YOUR_NAME>/`
-2. Pull, then pop: `git stash pop`
-3. Never resolve merge conflicts in another agent's files — flag to Prome
+1. `git status` — check for uncommitted changes **OUTSIDE** your directory
+2. If you see modifications in other agents' directories: **STOP. Do not pull.** Other agents' uncommitted work will be lost. Choose one:
+   - **Option A:** Flag to Will and wait for instruction
+   - **Option B (if Will unavailable):** Commit your work locally and defer the push. Note in your MEMORY.md session notes that a push is pending. Push next session when the working directory is cleaner.
+3. If working directory is clean outside your files: proceed with stash/pull/pop
+4. `git stash push -- AGENTS/<YOUR_NAME>/` — stash only your files
+5. `git pull --rebase`
+6. `git stash pop`
+7. If stash pop fails: `git stash drop` is OK **only if YOUR files are already committed.** Never drop a stash containing other agents' work.
+8. Never resolve merge conflicts in another agent's files — flag to Prome
 
-**Never:** force push, commit outside your directory without instruction, resolve another agent's conflicts.
+**Never:** force push, commit outside your directory without instruction, resolve another agent's conflicts, pull when other agents have uncommitted local changes.
 
 ## Tools
 

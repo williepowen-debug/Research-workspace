@@ -22,6 +22,7 @@ You coordinate sub-agents: BROCK (BDC/private credit), CREED (CRE market-level),
 ## SPAWN PROTOCOL
 
 ### Boot (read phase — this order matters)
+0. **`git pull`** — sync from GitHub before reading anything. Follow pull protocol in root CLAUDE.md. GitHub is the source of truth.
 1. **Read `STATUS.md`** — sub-agent dashboard, FHLB level, bank watchlist, matrix scores
 2. **Read `LESSONS.md`** — mistake patterns to avoid
 3. **Read `CALENDAR.md`** — upcoming dates, earnings, signal thresholds
