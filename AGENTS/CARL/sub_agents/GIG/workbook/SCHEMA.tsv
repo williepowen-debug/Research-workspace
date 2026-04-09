@@ -1,0 +1,86 @@
+File	Column	Data_Type	Description
+PLATFORM.tsv	Platform	String	Company name (Uber, Lyft, DoorDash, Dave, Fiverr, Upwork, Instacart, TaskRabbit)
+PLATFORM.tsv	Metric	String	Performance metric (drivers, revenue, bookings, active_buyers, 28DPD, weekly_earnings, hourly_median, etc.)
+PLATFORM.tsv	Value	String	Current value
+PLATFORM.tsv	Prior	String	Prior period value (for trend)
+PLATFORM.tsv	Change	String	Period-over-period or YoY change
+PLATFORM.tsv	As_Of	Date	Date of measurement (YYYY-MM-DD)
+PLATFORM.tsv	Source	String	Data source (earnings call, Gridwise, SEC filing, etc.)
+PLATFORM.tsv	Status	String	G/Y/O/R status color
+PLATFORM.tsv	Notes	String	Context, caveats, CARL relevance
+DRIVER_ECONOMICS.tsv	Platform	String	Platform name or SECTOR for aggregate
+DRIVER_ECONOMICS.tsv	Market	String	NATIONAL or metro area (NYC, SF, LA, Phoenix, Austin, FL, etc.)
+DRIVER_ECONOMICS.tsv	Metric	String	Metric type (gross_hourly, net_hourly, weekly_earnings, gas_cost_per_fill, gas_pct_of_gross, take_rate, bonus_share, utilization, tips_pct)
+DRIVER_ECONOMICS.tsv	Value	String	Current value
+DRIVER_ECONOMICS.tsv	Prior	String	Prior period value
+DRIVER_ECONOMICS.tsv	Change	String	Period-over-period change
+DRIVER_ECONOMICS.tsv	As_Of	Date	Date of measurement (YYYY-MM-DD)
+DRIVER_ECONOMICS.tsv	Source	String	Data source
+DRIVER_ECONOMICS.tsv	Status	String	G/Y/O/R status color
+DRIVER_ECONOMICS.tsv	Notes	String	Context — net after gas/insurance/maintenance/depreciation
+AV_TRACKER.tsv	Company	String	Waymo, Tesla, Cruise, Zoox, Motional, etc.
+AV_TRACKER.tsv	Metric	String	Metric type (fleet_size, rides_per_week, cities, miles_logged, funding, valuation, driver_pay_impact)
+AV_TRACKER.tsv	Value	String	Current value
+AV_TRACKER.tsv	Prior	String	Prior period value
+AV_TRACKER.tsv	Change	String	Change or growth rate
+AV_TRACKER.tsv	Geography	String	City/metro or NATIONAL/GLOBAL
+AV_TRACKER.tsv	As_Of	Date	Date of measurement (YYYY-MM-DD)
+AV_TRACKER.tsv	Source	String	Data source
+AV_TRACKER.tsv	Status	String	G/Y/O/R — displacement risk level
+AV_TRACKER.tsv	Notes	String	Expansion plans, regulatory status, driver displacement estimate
+VX.tsv	Vector ID	String	VX-GIG-N.NN format
+VX.tsv	Name	String	Vector name
+VX.tsv	Domain	String	Earnings / Supply / Financial Stress / Platform Health / Geographic / Cost / Structural / Extraction
+VX.tsv	Description	String	What this vector measures
+VX.tsv	Unit	String	Unit of measurement
+VX.tsv	Current Value	String	Latest value
+VX.tsv	Threshold Elevated	String	Yellow threshold
+VX.tsv	Threshold Critical	String	Orange threshold
+VX.tsv	Tripwire Breached	String	Red threshold
+VX.tsv	Status	String	NORMAL / ELEVATED / CRITICAL / BREACHED
+VX.tsv	Trend	String	RISING / DECLINING / STABLE / VOLATILE / ACCELERATING / TBD
+VX.tsv	Confidence	String	HIGH / MEDIUM / LOW
+VX.tsv	Data Sources	String	Source references
+VX.tsv	Cross Reference	String	Related IDs (ML, FLOW, CARL VX, etc.)
+VX.tsv	Last Updated	Date	YYYY-MM-DD
+VX.tsv	Notes	String	Context, caveats
+ML.tsv	ID	String	ML-GIG-NN format (sequential)
+ML.tsv	Timestamp	Date	Date logged (YYYY-MM-DD)
+ML.tsv	Session	String	Session identifier (GIG N or GIG Refresh)
+ML.tsv	Vectors	String	Related VX-GIG IDs
+ML.tsv	Platform	String	Platform name or SECTOR
+ML.tsv	Segment	String	Rideshare / Delivery / Freelance / Financial / Geographic / General / Regulatory
+ML.tsv	Description	String	One-line summary of the finding
+ML.tsv	Analysis	String	Interpretation and implications
+ML.tsv	Data Quote	String	Key quote or data point (verbatim where possible)
+ML.tsv	Source	String	Data source with date
+ML.tsv	Status	String	ACTIVE / CONFIRMED / STALE / SUPERSEDED / CORRECTED
+ML.tsv	Confidence	Decimal	0.00-1.00
+ML.tsv	Diagnostic Value	String	HIGH / MEDIUM / LOW / N/A
+ML.tsv	Thesis Impact	String	CONSISTENT / COUNTER-SIGNAL / NEUTRAL / INVALIDATING
+ML.tsv	Cross Links	String	Related agents or entries
+ML.tsv	CARL Relevance	String	How this affects CARL's consumer stress thesis
+ML.tsv	Invalidation Criteria	String	What would change this assessment
+ML.tsv	Notes	String	Context, caveats
+FLOW.tsv	ID	String	FLOW-GIG-NN format
+FLOW.tsv	Name	String	Pathway name
+FLOW.tsv	Pathway	String	Step-by-step transmission chain
+FLOW.tsv	Mechanism	String	How/why the transmission works
+FLOW.tsv	Feedback Loops	String	Self-reinforcing or dampening dynamics
+FLOW.tsv	Breakpoint	String	When does this pathway become critical
+FLOW.tsv	Cross Domain	String	Which other agent domains are affected
+FLOW.tsv	Key Entries	String	Related VX/ML entries
+FLOW.tsv	Lag Time	String	Expected time lag for transmission
+FLOW.tsv	Confidence	String	Confidence level with percentage
+FLOW.tsv	Trigger	String	What activates this pathway
+FLOW.tsv	Status	String	MONITORING / EARLY / ACTIVATING / ACTIVE / CONFIRMED
+FLOW.tsv	Notes	String	Context, upgrade history
+PREDICTIONS.tsv	Pred_ID	String	GIG-PNN format
+PREDICTIONS.tsv	Date_Made	Date	When prediction was created (YYYY-MM-DD)
+PREDICTIONS.tsv	Prediction	String	The prediction statement
+PREDICTIONS.tsv	Confidence	String	Confidence percentage or — if cancelled
+PREDICTIONS.tsv	Timeframe	String	Expected resolution window
+PREDICTIONS.tsv	Status	String	TRACKING / CONFIRMED / MISSED / CANCELLED
+PREDICTIONS.tsv	Date_Resolved	Date	When resolved (YYYY-MM-DD or empty)
+PREDICTIONS.tsv	Outcome	String	What actually happened (empty if unresolved)
+PREDICTIONS.tsv	Notes	String	Context, upgrade/downgrade history

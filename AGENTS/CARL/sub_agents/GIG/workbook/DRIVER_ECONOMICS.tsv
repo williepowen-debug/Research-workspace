@@ -1,0 +1,26 @@
+Platform	Market	Metric	Value	Prior	Change	As_Of	Source	Status	Notes
+SECTOR	NATIONAL	gas_national_avg	$4.16		+$1.18 since conflict start	2026-04-08	AAA	R	$4 breakpoint FIRED. Ceasefire → futures -10% but pump lag 1-2wk.
+SECTOR	NATIONAL	gas_fill_up_cost	~$50	~$35	+43%	2026-04-01	CNN interviews	R	Direct driver quotes. Squeeze is real and immediate.
+SECTOR	California	gas_state_avg	$5.89		 	2026-04-01	AAA/SmartAsset	R	Highest in nation. CA gig conc 20%. Double squeeze.
+SECTOR	Florida	gas_state_avg	~$4.30		 	2026-04-01	AAA	O	FL gig conc 22% (highest). UI exhaustion + gas + insurance convergence.
+Uber	NATIONAL	gross_hourly	$21.18		 	2025-12-31	Gridwise 2025	G	Gross before ALL expenses.
+Uber	NATIONAL	net_hourly_est	$15-18		 	2025-12-31	Gridwise/industry est	Y	After gas ($4.16), insurance, maintenance, depreciation. Pre-gas was ~$16-19.
+Uber	NATIONAL	gas_pct_of_gross	~18-22%	~12-15%	+6-7pp	2026-04-09	CARL estimate	O	At $4.16/gal, ~25 mpg, 30 mi/hr active: ~$5/hr gas. Was ~$3.50. Rising.
+Lyft	NATIONAL	gross_hourly	$19.48		 	2025-12-31	Gridwise 2025	Y	Lower than Uber by $1.70.
+Lyft	NATIONAL	net_hourly_est	$13-16		 	2025-12-31	Gridwise/industry est	O	AT RISK of crossing $14 critical threshold after gas adjustment.
+Lyft	NATIONAL	weekly_earnings	$318	$370	-14% YoY	2025-12-31	Gridwise 2025	Y	Hours RISING while earnings FALLING = definition of squeeze.
+DoorDash	NATIONAL	gross_hourly_median	$11.63		-5.5% vs prior est	2026-03-31	Gridwise 2026	O	$0.63 from $11 critical threshold. Gas eroding further.
+DoorDash	NATIONAL	net_hourly_est	$8-10		 	2026-03-31	Industry est	R	Below minimum wage in many states after expenses. Near unprofitable.
+SECTOR	NATIONAL	take_rate_change_yoy	+33%		 	2025-12-31	TheRideshareGuy 2026	R	BREACHED. Platforms capturing all fare growth.
+SECTOR	NATIONAL	bonus_share_of_earnings	~0-5%	~35% at peak	Eliminated	2026-03-31	TheRideshareGuy 2026	R	Was 35% of weekly income. Now near zero. Massive effective pay cut.
+SECTOR	NATIONAL	driver_earnings_vs_fares	+4.1% vs +9.6%		Gap widening	2025-12-31	TheRideshareGuy 2026	R	Platforms raised fares 9.6%, gave drivers only 4.1%. Pocketed the rest.
+SECTOR	NATIONAL	gig_vs_prior_trad_pay	50-65%		 	2025-12-31	Goldman/Yahoo/Berkeley	O	Laid-off workers entering gig earn half to two-thirds of prior wages.
+SECTOR	Austin	av_driver_pay_impact	-5.3% YoY		 	2025-12-31	Gridwise 2025	O	AV-active city. National was +1%. AV displacement visible.
+SECTOR	SF	av_driver_pay_impact	-6.9% YoY		 	2025-12-31	Gridwise 2025	O	Worst AV-active market for driver pay. Waymo HQ metro.
+SECTOR	LA	av_driver_pay_impact	-4.7% YoY		 	2025-12-31	Gridwise 2025	O	AV deployment expanding.
+SECTOR	Phoenix	av_driver_pay_impact	-3.8% YoY		 	2025-12-31	Gridwise 2025	Y	Waymo's original market. Magna plant doubling production here.
+SECTOR	NYC	utilization_rate	58%		 	2024-12-31	NYC TLC	G	STALE (2024). 42% of online time unpaid. Platform lockout manipulation discovered.
+SECTOR	NATIONAL	cash_advance_dependency	65%		 	2025-12-31	Everee 2025	R	65% use cash advances to bridge normal payout delays. Zero runway.
+SECTOR	NATIONAL	bills_delayed	61%		 	2025-12-31	Everee 2025	R	61% delay essential bills due to payout timing.
+SECTOR	NATIONAL	emergency_loans_quarterly	58%		 	2025-12-31	RadCred 2026	R	58% seek emergency loans at least once per quarter. Structural crisis.
+SECTOR	NATIONAL	auto_loans_underwater	52.9%		 	2025-12-31	Industry/RP-LABOR-12	R	Majority of gig worker auto loans have negative equity. Asset trap.

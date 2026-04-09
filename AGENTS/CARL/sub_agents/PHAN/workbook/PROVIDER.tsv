@@ -1,0 +1,28 @@
+Provider	Type	Metric	Value	Prior	Change	Reports_To_Bureau	As_Of	Source	Status	Notes
+Affirm	BNPL	GMV_quarterly	$13.8B	$10.1B	+36% YoY	YES (Experian, TransUnion)	2025-12-31	Affirm Q2 FY2026	G	Only major BNPL reporting to bureaus. Market leader.
+Affirm	BNPL	revenue_quarterly	$1.12B		+30% YoY	YES (Experian, TransUnion)	2025-12-31	Affirm Q2 FY2026	G
+Affirm	BNPL	DQ_30plus	2.3%	2.4%	-10bps QoQ	YES (Experian, TransUnion)	2025-09-30	Affirm Q4 FY2025	G	Improved. Q3 FY2026 earnings ~May.
+Affirm	BNPL	guidance_GMV_fy2026	$48.3-48.85B		 	YES (Experian, TransUnion)	2026-02-05	Affirm FY2026 guidance	G
+Affirm	BNPL	card_business_growth	+159% YoY		 	YES (Experian, TransUnion)	2025-12-31	Affirm Q2 FY2026	Y	Expanding beyond point-of-sale. More persistent credit line.
+Klarna	BNPL	DQ_BNPL	0.88%	1.03%	-15bps YoY	NO	2025-06-30	Klarna Q2 2025	G	Pre-IPO improvement. Portfolio cleaned.
+Klarna	BNPL	credit_loss_provision	0.65%	0.53%	+12bps YoY	NO	2025-12-31	Klarna 20-F	O	POST-IPO DETERIORATION. Trending wrong direction.
+Klarna	BNPL	loans_sold_pre_ipo	$26B		 	NO	2025-09-01	PaymentsJournal	R	Portfolio cleanup before listing. Sold worst tranches?
+Klarna	BNPL	class_action	Filed Dec 2025		 	NO	2025-12-15	Court filings	O	Credit risk disclosure lawsuit. IPO $40 → low $30s.
+Klarna	BNPL	30_60_DQ_trend	Outstripping prior year		 	NO	2025-12-31	Klarna 20-F	O	DQ trend lines for 2025 worse than 2024.
+Afterpay	BNPL	reporting_status	Does NOT report		 	NO	2026-04-09	Industry	R	Integrated into Block/Cash App. Invisible to bureaus.
+SECTOR	BNPL	market_GMV_2025	$560B		→$700B by 2028	N/A	2025-12-31	Industry	R	Scale of invisible market.
+SECTOR	BNPL	outstanding_invisible	$400B+		 	N/A	2026-04-09	NY Fed est	R	Most not reported to ANY credit bureau.
+SECTOR	BNPL	stacking_rate	63% simultaneous		 	N/A	2025-01-31	CFPB Jan 2025	R	BREACHED >45% threshold. 32% cross-firm.
+SECTOR	BNPL	subprime_users	61%		 	N/A	2025-12-31	CFPB Dec 2025	R	Majority of BNPL users are subprime/deep subprime.
+SECTOR	BNPL	late_payment_rate	34-41%		 	N/A	2024-12-31	ABA	R	~1 in 3-4 BNPL users late on a payment.
+SECTOR	BNPL	DQ_vs_CC_ratio	2-3x higher		 	N/A	2026-04-09	NY Fed	R	For comparable borrowers. Structural, not anomaly.
+SECTOR	BNPL	distressed_invisible_est	$40-60B		 	N/A	2026-04-09	NY Fed/CARL est	R	At 10-15% DQ on $400B. None in official metrics.
+Dave	CASH_ADVANCE	28DPD	1.89%	2.15%	-26bps QoQ	NO	2025-12-31	Dave 10-K	G	Tracked by GIG sub-agent. Primary canary.
+Dave	CASH_ADVANCE	extracash_originations_qtr	$2.0B		+49% YoY	NO	2025-12-31	Dave 10-K	O	$2B/qtr in cash advances = massive demand.
+EarnIn	EWA	regulatory_status	DC AG lawsuit (20K consumers)		 	NO	2025-12-31	DC AG	O	Deceptive fee allegations. 1M+ transactions.
+DailyPay	EWA	regulatory_status	NY AG lawsuit (illegal payday)		 	NO	2025-04-30	NY AG	O	Worker: 450 payouts in <2 years, $1,400 in fees.
+MoneyLion	EWA	regulatory_status	NY AG lawsuit (illegal payday)		 	NO	2025-04-30	NY AG	O	Effective APR >750%.
+Brigit	CASH_ADVANCE	regulatory_status	FTC settlement (deceptive practices)		 	NO	2026-01-31	FTC	O	Deceptive $250 advance promises.
+Upstart	FINTECH_LENDER	DQ_30plus	6.2%	5.4%	+80bps in 3mo	YES	2025-08-31	Morgan Stanley	O	Rising DQ BUT shifting to super-prime (26% of originations). RETREATING from subprime.
+NYC	CASH_ADVANCE	fee_drain	$650M+		 	N/A	2026-04-09	New Economy Project	R	From NYC residents alone. Tip/fee extraction.
+NYC	CASH_ADVANCE	multi_app_rate	>50% same month		 	N/A	2026-04-09	NY AG	R	>50% borrow from 2+ apps in same month. Stacking.
