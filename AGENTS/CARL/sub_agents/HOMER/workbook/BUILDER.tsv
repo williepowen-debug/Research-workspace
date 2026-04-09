@@ -1,0 +1,22 @@
+Entity	Metric	Value	Prior	As_Of	Source	Status	Notes
+INDUSTRY	NAHB HMI	38	37 (Feb)	2026-03	NAHB	R	+1pt. 23rd consecutive month below 50. Affordability #1 concern.
+INDUSTRY	HMI Current Sales	42	41 (Feb)	2026-03	NAHB	O	+1pt from Feb.
+INDUSTRY	HMI Expected Sales	49	47 (Feb)	2026-03	NAHB	O	+2pts from Feb. Still below 50.
+INDUSTRY	HMI Buyer Traffic	25	22 (Feb)	2026-03	NAHB	R	+3pts from Feb. Still severely depressed.
+INDUSTRY	Price Cuts (% of Builders)	37%	41% (Nov)	2026-03	NAHB	R	Down from 41% record Nov. Up from 36% Feb. Avg reduction 6%.
+INDUSTRY	Sales Incentives (% of Builders)	64%	65% (Feb)	2026-03	NAHB	R	12th consecutive month >60%. Near-record incentive spending.
+LEN	Gross Margin	15.2%		2026-Q1	LEN Earnings	R	Lowest since 2010. Incentive spending compressing margins.
+INDUSTRY	NAR Crisis Declaration	DECLARED		2026	NAR/Yun	R	"New housing crisis" — consensus break. See VX-CARL-NAR-01.
+NATIONAL	Existing Home Sales (SAAR)	4.09M	4.02M (Jan)	2026-02	NAR	R	+1.7% MoM. Still historically depressed. Only 2008-2011 worse.
+NATIONAL	Existing Median Price	$398,000	$396,800 YoY	2026-02	NAR	G	+0.3% YoY. 32nd consecutive YoY increase. Affordability Index 117.6.
+NATIONAL	Existing Inventory	3.8 months	3.6 YoY	2026-02	NAR	Y	Unchanged MoM. Still tight vs history.
+NATIONAL	New Home Sales (SAAR)	587K	712K (Dec)	2026-01	Census	R	-17.6% MoM, -11.3% YoY. Worst since 2022. Weather partial factor.
+NATIONAL	New Home Median Price	$400,500	$429,600 YoY	2026-01	Census	O	-6.8% YoY, -4.5% MoM. Price declines accelerating.
+NATIONAL	New Home Inventory	9.7 months	8.0 (Dec)	2026-01	Census	R	+21.3% from Dec. 476K homes for sale. Highest months supply in years.
+NATIONAL	Census Feb+Mar Sales	DELAYED to May 5		2026	Census	-	Both months released simultaneously.
+NATIONAL	Refi Rejection	Series high		2025-Q4	NY Fed SCE	R	Door to credit slamming shut. See KB-CARL-021.
+NATIONAL	MBA Apps (Composite)	-10.4% WoW		2026-03-27	MBA	R	Purchase -3%, Refi -17% WoW (-40%+ from 1mo ago).
+NATIONAL	MBA 30yr Contract Rate	6.57%	6.43%	2026-03-27	MBA	R	Highest since Aug 2025. +14bps WoW.
+NATIONAL	Case-Shiller National YoY	+0.9%	+1.4% Dec	2026-01	S&P/CS	O	Weakest since Jun 2023. Tampa -2.5% worst; NY +4.9% best.
+NATIONAL	FHFA HPI YoY	+1.6%		2026-01	FHFA	Y	+0.1% MoM. W.South Central -0.8% worst division.
+NATIONAL	Median Homebuyer Age	59	31 (1981)	2026-03	Apollo/Slok	R	Structural demand impairment.

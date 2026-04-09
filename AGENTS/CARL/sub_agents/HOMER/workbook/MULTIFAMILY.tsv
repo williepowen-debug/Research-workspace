@@ -1,0 +1,14 @@
+Entity	Metric	Value	Prior	GFC_Peak	As_Of	Source	Status	Notes
+Fannie	Serious DQ	0.74%	0.68%	0.80%	2026-02	Fannie Mae	O	6bps from GFC peak. CRL-03: >0.80% at 90% conf Q2. See KB-CARL-026.
+Freddie	Serious DQ	0.44%	0.51% (Q3)	n/a	2025-Q4	Freddie Mac	O	Down from Q3 0.51% but up from 0.40% YoY. Q1:0.46 Q2:0.47 Q3:0.51 Q4:0.44.
+CMBS	MF DQ	7.15%	6.85%	n/a	2026-03	Trepp	R	NEW ATH. +30bps MoM, +171bps YoY (was 5.44% Mar 2025). Exceeded Oct 2025 prior peak by 3bps.
+CMBS	Overall DQ	7.55%		n/a	2026-03	Trepp	R	+41bps MoM. Office 11.71%, Retail 6.62%, Lodging 7.31% (+137bps), Industrial 0.65%.
+CMBS	Office DQ	11.71%		n/a	2026-03	Trepp	R	+51bps MoM. Below Jan high of 12.34%.
+CMBS	Lodging DQ	7.31%		n/a	2026-03	Trepp	R	+137bps MoM. First time >7% in ~1yr. Biggest MoM jump of any sector.
+INDUSTRY	Maturity Wall	$270B+		n/a	2026	Industry	R	2026-2027 maturities. Refi impossible at current cap rates for many.
+INDUSTRY	Rent Growth National YoY	-1.4%		n/a	2026-01	Apartment List	O	Weakest YoY reading since mid-2023. MoM: -0.2% Jan.
+INDUSTRY	Rent Growth Negative (Cities)	56%		n/a	2026-01	Apollo/Slok	O	56% of top 100 cities. Sun Belt worst (Austin, Phoenix, Denver, Orlando, Dallas).
+INDUSTRY	Rent Growth Positive (Cities)	NE + Midwest		n/a	2026-01	Industry	G	NYC, Chicago, Columbus, Philly strongest. Supply constraints + jobs.
+INDUSTRY	Rent Late Rate	11.7%		n/a	2025	Industry	G	No fresh 2026 data. NMHC tracker inactive. Next check: Q2 earnings.
+INDUSTRY	2026 Rent Growth Forecast	1.2-2.0%		n/a	2026	NAA/Industry	G	Supply tapering in 2026 expected to stabilize. Sun Belt still pressured.
+Fannie/Freddie	MBS Re-entry	$200B runway		n/a	2025-12	Bloomberg	O	F&F back in MBS market. See KB-CARL-017.

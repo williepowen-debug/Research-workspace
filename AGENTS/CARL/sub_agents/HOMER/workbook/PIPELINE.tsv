@@ -1,0 +1,24 @@
+State	Metric	Loan_Type	Value	Prior	Change	As_Of	Source	Status	Notes
+NATIONAL	90+/FC Pipeline	ALL	878K	703K	+175K/+25% in 4mo	2026-02	MBA	R	Cure rates -40%. Pipeline growing.
+NATIONAL	Foreclosures (Qtr)	ALL	58,140		+41% YoY	2025-Q4	ATTOM	O	Target: 70K/qtr Q2 (CRL-06)
+NATIONAL	New DQ Inflow (Monthly)	ALL	609K		Largest since May 2020	2025-11	ICE/BK	R	Single-month record post-COVID. See KB-CARL-013.
+NATIONAL	FHA DQ Rate	FHA	11.52%		vs Conv 2.89% (8.63pp spread)	2025-Q4	MBA	R	Approaching GFC peak ~14-15%. K-shape proxy.
+NATIONAL	Conventional DQ Rate	CONV	2.89%			2025-Q4	MBA	G	Stable — top-40% resilience.
+NATIONAL	VA DQ Rate	VA	4.60%			2025-Q4	MBA	O
+NATIONAL	All Loans DQ	ALL	4.26%			2025-Q4	MBA	O
+NATIONAL	Cure Rate Change	ALL	-40%			2026-02	MBA/ICE	R	Fewer cures = pipeline grows. Critical leading indicator.
+NATIONAL	HUD Partial Claims	FHA	ENDED			2025-10-01	HUD	R	No more repeat deferrals. COVID runway exhausted. See KB-CARL-014.
+NATIONAL	Help with Mortgage Search	ALL	ATH			2026-03	Google Trends	R	All-time high search volume.
+FL	Foreclosures YoY	ALL	+190%			2025-Q4	ATTOM	R	Canary state. See KB-CARL-066.
+FL	FC Starts (Monthly)	ALL	3,523		Leads nation	2026-01	ATTOM	R	Most starts of any state Jan 2026.
+TX	Foreclosures YoY	ALL	+45%			2025-Q4	ATTOM	O	SSB 19% exposure. See KB-CARL-031.
+TX	FC Starts (Monthly)	ALL	3,116		#2 nationally	2026-01	ATTOM	O	Also among top REO states.
+IN	FC Rate	ALL	Worst in nation			2026-02	ATTOM	R	Indiana leads nation in FC rate Feb 2026.
+SC	FC Rate	ALL	Top 3 nationally			2026-02	ATTOM	O	South Carolina among worst FC rates.
+NATIONAL	FC Filings (Monthly)	ALL	38,840	40,534	-4% MoM, +20% YoY	2026-02	ATTOM	O	12th consecutive month of YoY increases.
+NATIONAL	FC Starts (Monthly)	ALL	25,928		+14% YoY	2026-02	ATTOM	O	FL, TX, CA, GA, NY lead.
+NATIONAL	REO Completions (Monthly)	ALL	4,077		+35% YoY	2026-02	ATTOM	O	TX, CA, FL, PA, IL lead.
+NATIONAL	Properties in FC Process	ALL	230,401		1.4M vacant homes	2026-Q1	ATTOM	O	Q1 2026 vacancy/zombie report.
+NATIONAL	Fannie SF Serious DQ	CONV	0.60%	0.59%	+1bps MoM, +3bps YoY	2026-02	Fannie Mae	G	Below pre-pandemic low of 0.65%. Recent vintage 0.55%.
+NATIONAL	GNMA Serious DQ	FHA	4.68%	4.20%	+48bps in 1mo (Nov->Dec)	2025-12	Wright/GNMA	R	See KB-CARL-007. Trajectory confirms Q2 foreclosure wave.
+NATIONAL	FHA DQ Headline	FHA	12.11%	10.81%	+130bps in 1mo (Oct->Nov)	2025-11	Wright	R	See KB-CARL-016. Stress accelerating.
