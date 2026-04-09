@@ -25,39 +25,36 @@
 
 ## Session Notes
 
-⚠️ **Open question:** WAL may report as early as Apr 16 (unconfirmed). Consider selling $85P Jun before earnings — deep ITM, captures current value, avoids bounce risk on clean quarter. Structural thesis resolves over months (Call Reports May, Investor Day May 12), not one earnings print.
+⚠️ **Open question:** Volume research (Tasks 1-4 complete) confirms thin-market rally — institutional distribution through AP redemption, not open-market selling. OZK has the cleanest put confirmation. WAL more ambiguous. KRE ETF structurally shrinking. Tasks 5-7 (dark pool, options vol, SI overlay) remain. Does the volume lens change Jun put management?
 
 ### CHANGES SINCE LAST SESSION
-*(leave blank — next boot populates via market.py)*
+- **Prices (Apr 9 intraday):** KRE $69.71 (+4.4%), WAL $76.49 (+6.3%), OZK $47.97 (+2.9%), Brent $95.49 (-13.6% from $110.55). HY OAS 294bps (down from 305). Major oil de-escalation driving risk-on.
+- **KRE shares outstanding:** 56.9M (confirmed SSGA Apr 8), down from ~65.0M on Mar 24 (-12.4%). Price up 6.8% in same window.
+
+### LAST SESSION (Apr 9 — volume deep-dive with Will)
+- **RP-REG-5.1 created:** `research/outputs/RP-REG-5.1_KRE_Volume_Analysis.md` — comprehensive volume analysis, Tasks 1-4.
+- **Task 1 (name vs ETF):** KRE is least active name (0.85x 20d avg). All individual names above 1.0x. Volume migrating from ETF to single names. 90th percentile divergence, organic (not OpEx).
+- **Task 2 (up/down volume):** All names have more volume on down days. OZK worst at 0.53x (selling days carry 2x volume). WAL recovered to 0.96x. Magnitude-weighted shows recent pops are thin-book short covering, not accumulation.
+- **Task 3 (catalyst volume):** Selling is anticipatory (elevated D-2 before stress events). Buying is reactive (dead before relief, only picks up D+1/D+2 after). WAL-specific catalysts (downgrades, First Brands) got NO volume reaction. OZK dividend hike: stock fell on low volume.
+- **Task 4 (ETF flows):** $670.8M single-week outflow Mar 3 (biggest in 4 years). KRE shares -12.4% in 2 weeks while price +6.8%. AP redemption confirmed. XLF getting +$1.22B/month inflows vs KRE -$8M — surgical regional de-risking.
+- **Key insight for positions:** Single-name puts (WAL, OZK) are cleaner expressions than KRE puts in current regime. OZK has strongest distribution signal. Thin market amplifies moves in both directions — timing risk on Jun puts elevated.
+- **Will pushed back on "all institutions left"** — correct, 12.4% reduction is significant but $3.9B still in fund. Many institutions remain. Overstated the conclusion.
+- **Git:** Did NOT pull (BRENT, CARL, SAM had uncommitted changes). My files clean. Inbox empty.
 
 ### LAST SESSION (Apr 7 — full session, earnings prep)
-- **Inbox processed (7 signals):** 2 CARL (already integrated, move failed last session), 5 new (WAL deep dive, CRE refi wall, PC meltdown, WAL litigation, news sweep). Key new insight: Pathward +189bps CRE reserves while industry -12bps. All moved to inbox/processed/.
-- **Outbox cleared:** JEF_WAL_V2_SYNTHESIS confirmed delivered by HERMES (PROME confirmed). Moved to outbox/delivered/. Flagged HERMES should move files post-delivery.
-- **CALENDAR updated:** Full Q1 earnings calendar added (MTB Apr 15, KEY+CFG Apr 16, RF Apr 17, WAL Apr 16-21 UNCONFIRMED, OZK Apr 21, EGBN ~Apr 22-25). WAL date uncertainty = must be ready by Apr 16.
-- **WAL earnings discussion:** 55% prob meets/beats headline. Thesis is in the DETAIL (MI3, Cantor, OREO), not the headline EPS. Jun puts vulnerable to relief rally + IV crush. Consider selling $85P Jun before earnings, holding Sep puts for structural catalysts.
-- **OZK gap closure (5 items):** EDGAR 8-K check (none), Bioterra COMPLETE no tenants, SI unchanged (13.81%), IQHQ RaDD still 3.3% lab, SCENARIOS price refresh ($46.44). Grade A-.
-- **OZK Prompt #8 (Metropolitan):** 3 LLM versions integrated. KB-161→164. Met Cap failed at MI3 39.6%. MCB active at 39.6% with zero NCOs = masking. Reserve inversion -2bps confirmed.
-- **OZK Prompt #9 (Affinius):** 2 LLM versions. ⚠️ MAJOR CORRECTION: Affinius has NO public bonds (private RIA). "81¢" reference was WRONG. Affinius in expansion ($3.4B Veris, $61B AUM). 8 OZK co-lending deals, zero defaults. Columbus Center $69M foreclosure = isolated office walk-away. KB-165→170.
-- **OZK Prompt #10 (Sell-side):** 5B/5H/1S, avg PT $57.22. UBS Neutral $48 today. Citi SELL $40 + Mar 23 catalyst watch. Institutions ADDING (Millennium +20%, Mackenzie +17%). KB-171→175.
-- **EGBN web research:** Q4 beat ($0.25 vs -$0.12 est). CEO Riel retiring. Zero insider buying. 0B/2H/0S thin coverage. GovCon "no pressure" as of Oct 2025 (pre-DOGE Q1). KB-013→018. Grade C→C+.
-- **EGBN EXTERNAL_PROMPTS.md created:** 5 prompts (#1 Q4 call deep dive, #2 DC CRE conditions, #3 sell-side+M&A, #4 GovCon/DOGE, #5 MI3+AOCI).
-- **OZK KB:** 159→175 rows (16 added). New group: FAILURE_COMP, AFFINIUS, SELLSIDE.
-- **EGBN KB:** 12→18 rows (6 added).
-- **Files updated:** STATUS.md (prices, EOD summary), CALENDAR.md (full earnings calendar), OZK/STATUS.md, OZK/EARNINGS_PREP.md, OZK/SCENARIOS.md, OZK/EXTERNAL_PROMPTS.md, EGBN/STATUS.md, EGBN/EXTERNAL_PROMPTS.md (created)
-
-### LAST SESSION (Apr 6-7 — afternoon)
-- Inbox processed (3 CARL signals). EGBN/ subdirectory BUILT. STATUS prices refreshed.
+- Inbox processed (7 signals). CALENDAR updated with full earnings wave. WAL/OZK earnings discussion. OZK prompts #8-10 integrated. EGBN research + EXTERNAL_PROMPTS created. OZK KB 159→175, EGBN KB 12→18.
 
 ### NEXT SESSION
-1. **Integrate EGBN prompts** as Will completes them (#1 most important — Q4 call transcript)
-2. **WAL position decision** — sell $85P Jun before earnings? Lock by Apr 15 if WAL reports Apr 16.
-3. **OZK SI refresh** (~Apr 14) — pull FINRA/Ortex
-4. **OZK 8-K check** (~Apr 14) — EDGAR CIK 0001569650
-5. **Read-through watchlist** — lightweight "what to watch" for MTB (Apr 15), CFG (Apr 16), RF (Apr 17)
-6. **EGBN earnings date** — confirm via IR page ~Apr 14
-7. **OZK remaining prompts** (#13 peer vintage, #19 metro conditions) — low priority
+1. **Complete volume research Tasks 5-7:** Dark pool %, options vol vs equity vol, short interest overlay. Full details in RP-REG-5.1.
+2. **WAL position decision** — sell $85P Jun before earnings? Volume data adds urgency — thin market + ambiguous WAL profile. Lock by Apr 15.
+3. **Integrate EGBN prompts** as Will completes them
+4. **OZK SI refresh** (~Apr 14) — pair with Task 7 overlay
+5. **OZK 8-K check** (~Apr 14) — EDGAR CIK 0001569650
+6. **Read-through watchlist** for MTB (Apr 15), CFG (Apr 16), RF (Apr 17)
+7. **EGBN earnings date** — confirm via IR page ~Apr 14
 
 **Pending (carried forward):**
 8. Cantor PACER docket
 9. Vecchione return status
 10. WAL insider refresh (by Apr 18)
+11. OZK remaining prompts (#13 peer vintage, #19 metro conditions)
