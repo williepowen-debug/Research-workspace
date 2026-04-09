@@ -1,102 +1,102 @@
 {
   "HY OAS": {
-    "zone": "yellow",
-    "value": 305.0,
-    "timestamp": "2026-04-07T20:16:50Z"
+    "zone": "green",
+    "value": 294.0,
+    "timestamp": "2026-04-09T14:00:28Z"
   },
   "CCC OAS": {
     "zone": "yellow",
-    "value": 976.0,
-    "timestamp": "2026-04-07T20:16:50Z"
+    "value": 952.9999999999999,
+    "timestamp": "2026-04-09T14:00:28Z"
   },
   "Brent": {
-    "zone": "red",
-    "value": 107.61,
-    "timestamp": "2026-04-07T20:16:50Z"
+    "zone": "yellow",
+    "value": 98.23,
+    "timestamp": "2026-04-09T14:00:28Z"
   },
   "Gas (wkly)": {
     "zone": "red",
     "value": 4.12,
-    "timestamp": "2026-04-07T20:16:50Z"
+    "timestamp": "2026-04-09T14:00:28Z"
   },
   "USD/JPY": {
     "zone": "red",
-    "value": 159.52,
-    "timestamp": "2026-04-07T20:16:50Z"
+    "value": 159.08,
+    "timestamp": "2026-04-09T14:00:28Z"
   },
   "Init Claims": {
     "zone": "green",
     "value": 202000.0,
-    "timestamp": "2026-04-07T20:16:50Z"
+    "timestamp": "2026-04-09T14:00:28Z"
   },
   "Cont Claims": {
     "zone": "green",
     "value": 1841000.0,
-    "timestamp": "2026-04-07T20:16:50Z"
+    "timestamp": "2026-04-09T14:00:28Z"
   },
   "SOFR": {
-    "zone": "yellow",
-    "value": 3.65,
-    "timestamp": "2026-04-07T20:16:50Z"
+    "zone": "green",
+    "value": 3.59,
+    "timestamp": "2026-04-09T14:00:28Z"
   },
   "10Y Yield": {
     "zone": "yellow",
-    "value": 4.35,
-    "timestamp": "2026-04-07T20:16:50Z"
+    "value": 4.33,
+    "timestamp": "2026-04-09T14:00:28Z"
   },
   "CP-TBill Spread": {
     "zone": "green",
-    "value": 0.11,
-    "timestamp": "2026-04-07T20:16:50Z"
+    "value": 0.12,
+    "timestamp": "2026-04-09T14:00:28Z"
   },
   "SOFR-IORB": {
     "zone": "green",
-    "value": 0.0,
-    "timestamp": "2026-04-07T20:16:50Z"
+    "value": -0.06,
+    "timestamp": "2026-04-09T14:00:28Z"
   },
   "KRE": {
-    "zone": "yellow",
-    "value": 66.75,
-    "timestamp": "2026-04-07T20:16:50Z"
+    "zone": "green",
+    "value": 68.44,
+    "timestamp": "2026-04-09T14:00:28Z"
   },
   "APO": {
     "zone": "red",
-    "value": 105.36,
-    "timestamp": "2026-04-07T20:16:50Z"
+    "value": 106.09,
+    "timestamp": "2026-04-09T14:00:28Z"
   },
   "ARES": {
     "zone": "red",
-    "value": 102.24,
-    "timestamp": "2026-04-07T20:16:50Z"
+    "value": 103.75,
+    "timestamp": "2026-04-09T14:00:28Z"
   },
   "OZK": {
     "zone": "yellow",
-    "value": 46.64,
-    "timestamp": "2026-04-07T20:16:50Z"
+    "value": 47.29,
+    "timestamp": "2026-04-09T14:00:28Z"
   },
   "WAL": {
     "zone": "yellow",
-    "value": 71.96,
-    "timestamp": "2026-04-07T20:16:50Z"
+    "value": 74.83,
+    "timestamp": "2026-04-09T14:00:28Z"
   },
   "FXY": {
     "zone": "yellow",
-    "value": 57.55,
-    "timestamp": "2026-04-07T20:16:50Z"
+    "value": 57.76,
+    "timestamp": "2026-04-09T14:00:28Z"
   },
   "TLT": {
     "zone": "yellow",
-    "value": 86.64,
-    "timestamp": "2026-04-07T20:16:50Z"
+    "value": 86.47,
+    "timestamp": "2026-04-09T14:00:28Z"
   },
   "BIZD": {
     "zone": "red",
-    "value": 12.4,
-    "timestamp": "2026-04-07T20:16:50Z"
+    "value": 12.31,
+    "timestamp": "2026-04-09T14:00:28Z"
   },
   "VIX": {
     "zone": "yellow",
-    "value": 25.98,
-    "timestamp": "2026-04-07T20:16:50Z"
+    "value": 20.86,
+    "timestamp": "2026-04-09T14:00:28Z"
   }
 }

@@ -1,5 +1,5 @@
 # MARCO STATUS
-**Last Updated:** 2026-04-02 13:30 UTC | **Status:** 🔴 RED
+**Last Updated:** 2026-04-09 13:35 UTC | **Status:** 🟡 YELLOW → GREEN (DHS shutdown resolving)
 
 ---
 
