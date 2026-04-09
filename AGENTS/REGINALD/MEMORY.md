@@ -32,7 +32,7 @@
 - **KRE shares outstanding:** 56.9M (confirmed SSGA Apr 8), down from ~65.0M on Mar 24 (-12.4%). Price up 6.8% in same window.
 
 ### LAST SESSION (Apr 9 — volume deep-dive with Will)
-- **RP-REG-5.1 created:** `research/outputs/RP-REG-5.1_KRE_Volume_Analysis.md` — comprehensive volume analysis, Tasks 1-4.
+- **RP-REG-5.1 created:** `trade/market-microstructure/RP-REG-5.1_KRE_Volume_Analysis.md` — comprehensive volume analysis, Tasks 1-4.
 - **Task 1 (name vs ETF):** KRE is least active name (0.85x 20d avg). All individual names above 1.0x. Volume migrating from ETF to single names. 90th percentile divergence, organic (not OpEx).
 - **Task 2 (up/down volume):** All names have more volume on down days. OZK worst at 0.53x (selling days carry 2x volume). WAL recovered to 0.96x. Magnitude-weighted shows recent pops are thin-book short covering, not accumulation.
 - **Task 3 (catalyst volume):** Selling is anticipatory (elevated D-2 before stress events). Buying is reactive (dead before relief, only picks up D+1/D+2 after). WAL-specific catalysts (downgrades, First Brands) got NO volume reaction. OZK dividend hike: stock fell on low volume.

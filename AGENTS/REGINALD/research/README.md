@@ -41,7 +41,7 @@
 
 | # | Title | Status | Key Finding |
 |---|-------|--------|-------------|
-| 5.1 | KRE Volume Deep-Dive (Tasks 1-4) | 🟡 In Progress (5-7 pending) | KRE shares -12.4% while price +6.8% (AP redemption). OZK 0.53x up/down ratio = persistent distribution. Selling anticipatory, buying reactive. XLF inflows vs KRE outflows = surgical regional de-risking. |
+| 5.1 | KRE Volume Deep-Dive (Tasks 1-4) | 🟡 In Progress (5-7 pending) | Moved to `trade/market-microstructure/`. KRE shares -12.4% while price +6.8% (AP redemption). OZK 0.53x up/down ratio = persistent distribution. |
 
 ### RQ-REG-x — Research Questions (Ad Hoc)
 

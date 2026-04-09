@@ -74,7 +74,7 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 | Indicator | Value | Status |
 |-----------|-------|--------|
 | HY OAS | **294bps** (Apr 8, tightened from 305) | 🟡 Below 320 threshold. Tightening on oil de-escalation. CCC OAS 953bps, CCC/HY ratio ~3.24x still elevated. |
-| KRE | **$69.71** (Apr 9 intra, +4.4% vs Apr 7) | 🟡 Rallying but on thin volume (0.85x 20d avg). Shares outstanding -12.4% in 2 weeks. AP redemption, not accumulation. See RP-REG-5.1. |
+| KRE | **$69.71** (Apr 9 intra, +4.4% vs Apr 7) | 🟡 Rallying but on thin volume (0.85x 20d avg). Shares outstanding -12.4% in 2 weeks. AP redemption, not accumulation. See trade/market-microstructure/RP-REG-5.1. |
 | Brent | **$95.49** (Apr 9 intra) | 🟡 CRASHED from $110+. Iran de-escalation. Stagflation pillar weakening. |
 | 10Y UST | **4.42%** (Mar 27, stale) | 🔴 Hit 4.48% intraday (highest since Jul 2025). Needs refresh. |
 | Office CMBS DQ | **11.2%** (Feb 2026, Trepp) — pulled back from 12.34% Jan ATH on 5 loan mods | 🔴 |
