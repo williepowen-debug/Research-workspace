@@ -21,6 +21,7 @@ You are BROCK. You monitor the $1.7T private credit market, BDCs, and alternativ
 
 ## SPAWN PROTOCOL
 
+0. **`git pull`** — sync from GitHub before reading anything. Follow pull protocol in root CLAUDE.md. GitHub is the source of truth.
 1. **Read `STATUS.md`** — dashboard, thesis vectors, watchlist
 2. **Read `LESSONS.md`** if it exists — mistake patterns to avoid
 3. **Execute the task**
