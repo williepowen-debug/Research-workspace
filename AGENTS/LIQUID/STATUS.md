@@ -1,5 +1,47 @@
 # LIQUID STATUS
-**Last Updated:** 2026-04-08 21:35 ET | **Agent:** LIQUID | **Status:** 🟡 MODERATING — CREDIT TIGHTENING + FUNDING GREEN + BRENT CRASH + VIX DIVERGENCE
+**Last Updated:** 2026-04-10 10:00 ET | **Agent:** LIQUID | **Status:** 🟡 MODERATING — STRUCTURAL FRAGILITIES CRYSTALLIZING UNDER TIGHTER CREDIT
+
+---
+
+## Apr 10 — Inbox Integration (11 signals processed)
+
+**Headline:** No threshold breaches, but structural fragilities now visible *underneath* the tighter credit print. PC Stage 3 cascade extending (Barings = 7th gate). WFC $200B repo dependency + Goldman TRS pause = system more brittle than spreads suggest. VIX-credit divergence partially explained by bond vol collapse / squeeze setup.
+
+### PC Stage 3 cascade extending
+- **Barings gates 11.3% (Apr 6)** — 7th major manager (after Blue Owl, Ares, Apollo, BlackRock, Blackstone, MS). Sequence is now monthly cadence.
+- **Q1 redemption book sourced (FT/Stanger):** MS 10.9%, Ares 11.0%, Apollo 11.2% — ALL doubled vs Q4. Unmet redemptions appearing for first time across 12 largest funds.
+- **Goldman PC narrative:** retail pulling back, claims institutional "re-entry point." Bifurcation or marketing — watch for actual flows.
+- **Powell pushback:** "PC stress not a systemic event" (Apr 3) → Fed NOT preparing intervention. No put.
+
+### Plumbing fragility crystallizing
+- **WFC $200B repo single-point-of-failure** (Bloomberg, Apr 2): Fed lifted 2018 asset cap Jun 2025; Wells poured $200B+ into repo. System now structurally dependent on one bank's risk appetite. If WFC pulls (credit losses, regulatory, internal limits), $200B evaporates overnight. The "dealer capacity" research made concrete.
+- **Goldman TRS for shorting leveraged loans — PAUSED** (Bloomberg, Apr 2): the ABX analog withheld. Synthetic short would create transparent price discovery where none exists. JPM also assembling PC short baskets. Goldman's pause = either regulatory pushback or concern about accelerating crisis.
+- **Treasury Buyback 2.87x oversubscribed (Apr 1):** $43.1B offered against $15B max. Holders eager to exit. Consistent with balance sheet stress.
+- **IOSCO/FSB flagged risks in $16T government repo market** (Reuters, Apr 3) — multilateral acknowledgment of fragility.
+
+### Credit bifurcation accelerating
+- **CCC-BB spread vertical:** ~7.0% Jan → ~8.0% now (FRED) — steepest move since late-2025 widening. Quality bifurcation, not parallel widening.
+- **$11bn pulled from HY YTD** (FT). HY headed for worst quarterly returns since 2022 (Bloomberg).
+- **PE dividend recaps at $28.7B** — 2021 peak level. Each recap relevers already-stressed companies. Mechanism producing 33¢ recoveries.
+
+### Bond vol regime — partially explains VIX divergence
+- **MOVE collapsed while VIX 25.78.** Bond positioning "light," squeeze mechanics building. 10Y rejected 4.4% at major downtrend line.
+- **Two paths from here:**
+  - Path A (squeeze): HY OAS <300 → bond rally + risk-on resumption
+  - Path B (stress): HY OAS >340 → MOVE catches up violently
+- VIX divergence is now half resolved: equity hedging Brent crash / earnings, bond positioned for funding regime shift.
+
+### Cross-agent items routed
+- **Dowd: NDFI = ALL bank credit growth since 2024** → confirms REGINALD's $1.411T NDFI exposure thesis (no signal needed — they sent the original)
+- **CRE reserve divergence (Pathward +189bp, Mechanics/Primis/ConnectOne raising)** → REGINALD domain (S&P sourced direct)
+- **WAL/Jefferies SPV litigation** → RED/REGINALD WAL position (sponsor liability precedent for SPV/recourse boundary)
+- **Insurance phantom reinsurance $1.54T** → systemic context only; not actionable for LIQUID dashboards
+
+### Bloomberg ESI = lag warning
+ESI at 0.338 (highest since late 2023) per Lisa Abramovitz. Economy entered oil shock with more momentum than expected → lag before hard data shows stress is **longer**, but contrast when it hits will be **sharper**. Apr 10 claims = first test.
+
+### Threshold scan: NO BREACHES
+All vectors still within Apr 8 readings. HY OAS 312bps (vs 320 trigger), CCC 983bps (vs 1000), SOFR 3.62% green, RRP $0.177B (already RED — structural). New data is qualitative deepening, not quantitative rupture.
 
 ---
 
@@ -30,10 +72,6 @@ Brent collapsed from $109.35 to $96.26. Major move — ceasefire pricing + OPEC+
 Credit continues to moderate tactically. Structural vulnerabilities unchanged (PC gates, dealer stress, no Fed put). Brent crash is the biggest new variable — if ceasefire materializes, war premium unwinds could pull HY OAS further inside 300. If ceasefire fails, snap-back to 320+ likely fast.
 
 **Watch for:** Bank earnings (Apr 16+), HY OAS retest of 320, VIX-credit divergence resolution.
-
----
-
-## Apr 2 Update — 6 Signals Integrated (BROCK + 5 Inbox)
 
 ---
 
@@ -181,32 +219,21 @@ CCC OAS at **994bps**, back below 1000 from >1000 on Mar 30. Could be quarter-en
 
 ---
 
-## New Durable Signals (Apr 2 Integration)
+## Durable Signals Log (Apr 2-10)
 
 | Signal | Date | Key Data | Implication |
 |--------|------|----------|-------------|
-| Blue Owl dual gate | 4/2 | OCIC 21.9% req, OTIC 40.7% req, $1.4B Kuvare sale | PC Stage 3; warehouse lender stress demo; NOT secondary pricing |
-| Janus bond sale scrapped | 3/26 | $2.6B junk loan absorbed by JPM; 5Y auction worst B2C in 4yrs | Dealer inventory rising; issuance freeze approaching 350bps |
-| MS $85B BD→bank transfer | 3/26 | 4-3 Fed vote; Guynn (MS lawyer) runs Fed supervision | Pre-positioning for credit losses; 2007-08 analog; balance sheet consumption |
-| No Fed cuts until late 2026 | 3/27 | 93.8% hold Apr 29; first cut Jul 29 probability | No Fed put; HY OAS floor removed; PC distress has no cavalry |
-| Brent $116 Q-end gap | 3/29 | +8% Sunday gap; PCE 3.1%; S&P -7.4% March | Passed orderly (SOFR +5bps only); collateral haircut risk on energy credits |
-| Foreign CB UST lowest since 2012 | 3/31 | NY Fed custodial holdings; Iran-war driven | Absorption capacity shrinking; dealer must step up with less balance sheet |
-| Q1 close S&P +2.91% | 3/31 | Best Q-end since Sep 2008 (+5.42%) | Window dressing mechanical bounce; watch reversal |
-| HY OAS post-Q-end reversion | 4/1 | 346→316 (brief spike then reversal) | Quarter-end reversion confirms seasonal not structural yet; BUT trajectory from 328 Apr 1 |
-
----
-
-## Updated Danger Windows
-
-| Window | Risk |
-|--------|------|
-| ~~**Apr 2-3**~~ | ~~SOFR normalization~~ — **RESOLVED** |
-| ~~**Apr 3**~~ | ~~OBDCII~~ — **PASSED** |
-| **Q1 marks final (Apr 1-15)** | NAV facility margin calls as marks finalize → warehouse line draws |
-| **Apr 10-15** | April CPI — oil embed now $96 (lower); Brent crash reduces inflation pass-through |
-| **Apr 16+** | Bank earnings — HY OAS retest catalyst |
-| **Apr 20-25** | Japan March trade balance — repatriation hard data |
-| **May** | Powell term → Warsh. BCRED Q2 test. CLO accumulation facility renewals. |
+| Barings 11.3% gate | 4/6 | 7th major manager gating | PC Stage 3 monthly cadence |
+| Goldman TRS shorting paused | 4/2 | ABX-analog withheld | Synthetic short would force price discovery |
+| WFC $200B repo SPOF | 4/2 | Fed lifted asset cap Jun 2025 | System single-point dependence |
+| Treasury Buyback 2.87x | 4/1 | $43.1B vs $15B max | Holders eager to exit |
+| FT/Stanger PC redemptions | 4/2 | MS 10.9%, Ares 11.0%, Apollo 11.2% all doubled | Largest 12 funds accelerating |
+| CCC-BB spread vertical | 4/2 | 7.0%→8.0% YTD (FRED) | Quality bifurcation |
+| Blue Owl dual gate | 4/2 | OCIC 21.9% req, OTIC 40.7% req | PC Stage 3 confirmed |
+| Janus bond sale scrapped | 3/26 | $2.6B junk loan to JPM; worst 5Y B2C in 4yr | Dealer inventory rising |
+| MS $85B BD→bank transfer | 3/26 | 4-3 Fed dissent | 2007-08 analog pre-positioning |
+| Foreign CB UST lowest since 2012 | 3/31 | NY Fed custodial, war-driven | Absorption capacity impaired |
+| HY OAS post-Q-end reversion | 4/1 | 346→316 spike+reversal | Seasonal not structural yet |
 
 ---
 
