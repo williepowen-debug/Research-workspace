@@ -1,10 +1,10 @@
 # EGBN STATUS
-**Last Updated:** 2026-04-07 | **Status:** 🔴🔴 CRISIS (Pre-existing + DOGE acceleration)
-**Price:** $25.84 (Apr 7, +0.08%) | **Assets:** $10.5B
+**Last Updated:** 2026-04-10 | **Status:** 🔴🔴 CRISIS (Pre-existing + DOGE acceleration + Leadership vacuum)
+**Price:** $27.01 (Apr 9, +1.20%) | **Assets:** $10.5B
 **HQ:** Bethesda, MD | **Geography:** 100% DC Metro (MD, DC, VA)
-**KB:** 18 rows, 4 groups | **Earnings:** ~Apr 22-25 (unconfirmed)
+**KB:** 19 rows, 5 groups | **Earnings:** ~Apr 22-25 (unconfirmed)
 **Consensus:** Hold (0B/2H/0S), PT ~$20-$29. Zacks Strong Buy (Feb 4, quant). Thin coverage.
-**CEO:** Susan Riel retiring 2026 (announced Nov 2025). No successor named.
+**CEO:** Susan Riel retiring 2026 (announced Nov 2025). No successor named. Continuity awards Mar 16 to retain C-suite through transition.
 
 ---
 
@@ -34,7 +34,9 @@
 
 | Strike | Expiry | Contracts | Current | Notes |
 |--------|--------|-----------|---------|-------|
-| $25P | Jun 18 | 1 | At strike ($25.51) | Needs further decline to profit |
+| $25P | Jun 18 | 1 | -8% OTM ($27.01) | Needs $25 break to enter ITM. Q1 earnings ~Apr 22-25 = primary catalyst. |
+
+**Crisis-tail observation (Apr 10):** Jun $5P has 1,301 OI. Stock would need -81% to print intrinsic. Whoever bought those isn't pricing M&A floor — they're pricing FDIC scenario. Lottery-ticket addition possible if you want explicit failure exposure.
 
 **Earnings: ~Apr 22-29** (exact date TBD — expected in late earnings wave after OZK/WAL Apr 21)
 
@@ -44,6 +46,8 @@
 
 | Date | Event |
 |------|-------|
+| **Apr 10** | **REG-EGBN-DD: Mar 18 8-K detail confirmed via insider+8k_monitor.py.** Continuity Awards (event date Mar 16) cash + RSU to 3 named executives: CFO Eric Newell ($425K + $100K RSU), Evelyn K. Lee ($325K + $100K), Ryan A. Riel ($425K + $100K). Total ~$1.475M cash + $300K equity. Repayment if voluntary resignation before Jun 30, 2027 (15-month retention). Filing language explicit: "given Ms. Riel's previously announced intention to retire and the ongoing search for her successor." Note: Susan Riel (CEO) and Ryan Riel (named exec) share last name — relationship not yet confirmed. (ML-REG-139) |
+| **Apr 9** | **Microstructure escalation:** Dark pool 41.7% off-exchange (+8.8pp vs 30d avg) — biggest delta of any thesis name. Put/call ratio 10.34x (highest of any thesis name). Jun $5P has 1,301 OI = bankruptcy-priced tail bet. Short interest 11.10% (high but not crowded). Distribution accelerating into the broad rally. Timing aligns with continuity award disclosure window. |
 | Apr 6 | EGBN/ subdirectory created. THESIS, SCENARIOS, EARNINGS_PREP, WEAKNESSES built. KB seeded (12 rows, 4 groups). |
 | Apr 4 | Price $25.51, flat. No news. |
 | Mar 27 | H.8 data: Construction -5.3% YoY + DOGE federal cuts = double drag on EGBN (ML-REG-133). |
@@ -68,9 +72,11 @@
 
 - [ ] **EGBN Q4 2025 10-K / earnings transcript** — full read for DOGE commentary, CRE detail, GovCon book
 - [x] **EGBN Q1 2026 earnings date** — NOT confirmed. Pattern suggests ~Apr 22-25. Check IR ~Apr 14.
-- [x] **Insider activity scan** — ✅ Apr 7: All grants/tax-withholding, ZERO open market buys. CEO Riel 3,206 shares withheld at $26.33. Zero buying = no floor confidence.
+- [x] **Insider activity scan** — ✅ Apr 7: All grants/tax-withholding, ZERO open market buys. CEO Riel 3,206 shares withheld at $26.33. Zero buying = no floor confidence. Re-confirmed Apr 10 via insider.py: 25 Form 4s in 90d, all routine.
 - [x] **Consensus estimates** — ✅ Apr 7: 0B/2H/0S, PT $20-$29. Zacks Strong Buy (Feb 4, quant). Thin coverage (2-3 analysts).
-- [ ] **Leadership profile** — CEO Riel retiring 2026 (confirmed). No successor named. Continuity awards granted. Board/audit TBD.
+- [x] **Continuity Awards detail** — ✅ Apr 10: Newell $425K, Lee $325K, Ryan Riel $425K cash + $100K RSU each. 15-month retention through Jun 30 2027. (ML-REG-139)
+- [ ] **Riel family relationship** — Confirm whether Ryan A. Riel is related to Susan Riel (CEO). Pull EGBN proxy/10-K for executive bios. Family-linked exec at distressed bank is governance flag.
+- [ ] **Leadership profile** — CEO Riel retiring 2026. Successor search ongoing. Need: candidate names from news/IR.
 - [ ] **DC office vacancy data** — CBRE/JLL DC Metro Q1 2026 report when available
 - [ ] **Government contractor lending book** — Mgmt said no material pressure Oct 2025; LOC usage -30%. But PRE-Q1 DOGE impact.
 - [ ] **MI3 trend** — is 23.7% stable or moving? Need prior quarter comparison
@@ -90,6 +96,7 @@
 | ML-REG-064 | ALERT | DHS shutdown DC spending shock |
 | ML-REG-075 | FAILURE | Metropolitan autopsy — template for EGBN MI3 |
 | ML-REG-133 | BANK_IMPL | H.8 implications — construction + federal double drag |
+| ML-REG-139 | CORPORATE | Continuity Awards Mar 16 — leadership crisis confirmed |
 | VX-REG-6.10 | BELLWETHER | EGBN price vector |
 | VX-REG-11.04 | FUNDING | EGBN deposit trend |
 | FLOW-REG-10.01 | TRANSMISSION | Deposit flight (EGBN showing signal) |
