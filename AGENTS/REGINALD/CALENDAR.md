@@ -1,6 +1,6 @@
 # REGINALD CALENDAR
 
-**Last Updated:** 2026-04-07 | **View:** Forward-looking only. Past events pruned weekly.
+**Last Updated:** 2026-04-09 | **View:** Forward-looking only. Past events pruned weekly.
 
 ---
 
@@ -35,9 +35,9 @@
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |------|-------|---------------|-------------------|-----------|
-| **Apr 16-21** | **WAL Q1 earnings** (date UNCONFIRMED, consensus ~Apr 20 AMC) | CRE provisions, MI3 (≥25%?), Cantor reserve, SSFA | Any negative surprise = 🔴. **Date uncertainty = must be ready by Apr 16.** | PROME |
+| **Apr 16-21** | **WAL Q1 earnings** (date UNCONFIRMED, consensus ~Apr 21) | CRE provisions, MI3 (≥25%?), Cantor reserve, SSFA | Any negative surprise = 🔴. **Date uncertainty = must be ready by Apr 16.** See EARNINGS_PREP.md (grade A-). | PROME |
 | Apr 20 | WTFC Q1 earnings (after-market) | — | — | — |
-| **Apr 21** | **OZK Q1 earnings** (conf call Apr 22) | NCO, provisions, CRE migration, MI3, ACL, AOCI | NCO >$90M or capital raise = 🔴 | PROME |
+| **Apr 21** | **OZK Q1 earnings** (after-close, conf call Apr 22 per OZK IR) | NCO, provisions, CRE migration, MI3, ACL, AOCI | NCO >$90M or capital raise = 🔴. **Microstructure: 15.28% SI rising, 0% insider ownership, Wellington/AQR/Two Sigma exiting, Peak6 $15M put.** | PROME |
 | ~Apr 22 | PB Q1 earnings | TX CRE, provisions | — | — |
 | **Apr 23** | **VLY Q1 earnings** | Capital, CRE provisions | — | PROME |
 | **Apr 23** | **SSB Q1 earnings** (after-market) | FL/TX exposure (42%), CRE MF | FL stress read-through | CORAL |

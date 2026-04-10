@@ -1,28 +1,29 @@
 # REGINALD STATUS
-**Last Updated:** 2026-04-09 (AM) | **Status:** 🔴🔴🔴 CRITICAL (ESCALATING)
+**Last Updated:** 2026-04-09 (PM) | **Status:** 🔴🔴🔴 CRITICAL (ESCALATING)
 
 ---
 
-## AM BRIEF — April 9, 2026
+## PM BRIEF — April 9, 2026
 
-**Prices (intraday ~11am ET):** KRE $69.71 (+4.4% vs Apr 7 close). WAL $76.49 (+6.3%). OZK $47.97 (+2.9%). Brent $95.49 (**-13.6%** from ~$110). HY OAS 294bps (Apr 8, down from 305). CCC OAS 953bps (down from 976). Risk-on rally driven by oil de-escalation.
+**Prices (close):** KRE $69.89 (+4.7%). WAL $77.10 (+6.3%). OZK $48.08 (+2.9%). Brent ~$95 (**-13.6%** from ~$110). HY OAS 294bps. Risk-on rally driven by oil de-escalation.
 
-**Volume Research (RP-REG-5.1, Tasks 1-4 complete):**
-- KRE shares outstanding: 56.9M (Apr 8), down from ~65.0M (Mar 24) = **-12.4% while price +6.8%**. AP redemption confirmed. Biggest single-week outflow ($670.8M, Mar 3) in 4 years.
-- KRE is least active name (0.85x 20d avg); individual names above 1.0x. Volume migrating from ETF to single names.
-- OZK: 0.53x up/down volume ratio = persistent institutional distribution. Worst of all names.
-- WAL: 0.96x up/down ratio = recovered to near-balanced. More ambiguous.
-- Selling is anticipatory (elevated before stress events). Buying is reactive (late).
-- XLF getting +$1.22B/month inflows vs KRE -$8M. Surgical regional de-risking.
-- **Implication:** Rally is thin-market bounce (short covering + passive flows). Single-name puts cleaner than KRE puts. OZK strongest confirmation. Tasks 5-7 (dark pool, options vol, SI) pending.
+**MICROSTRUCTURE RESEARCH COMPLETE (RP-REG-5.1, all 7 tasks):**
+- **Task 5 (Dark pools):** WAL 54% off-exchange (vs 37% avg), OZK 42% (vs 34% avg), EGBN 46% (vs 33% avg) — weakest names spiking dark pool activity on up days. Clean names (ZION, CFG) at baseline. Distribution through dark pools confirmed.
+- **Task 6 (Options):** KRE has 300K put contracts expiring Apr 17 — 53% of float. $68 strike (57K OI) = dealer hedging gravity well. OZK May $40P has 1,647 OI. WAL Jun $60P has 1,744 OI (crisis bet). EGBN 11x put/call OI ratio.
+- **Task 7 (Short interest):** OZK 15.28% SI, RISING for 5 months. Shorts not flinching. WAL 3.46% SI, DECLINING — shorts covered 1.07M shares in 4 weeks. KRE SI 69.4M vs 56.9M shares outstanding (+64% in 2 months).
+- **13F ANALYSIS (Fintel, live data from Will):** Wellington -43%, AQR -20%, Two Sigma -34%, Point72 -35%, Morgan Stanley -15%, 50+ full exits including Canada Pension, Ontario Teachers. Quant replacements (Citadel +260%, Millennium +20%, Renaissance +36%). Peak6 opened $15.2M PUT. **Smart money exiting, quants replacing. Ownership quality deteriorating while % rises.**
+- **Full YTD short volume (66 trading days):** OZK shorts press regardless of direction. WAL short activity collapsed 20pp (Jan-Feb 62% → Mar-Apr 42%). KRE shorts MORE active on UP days (68% vs 61%) = AP redemption mechanics confirmed.
+- **Insider ownership:** WAL zero open market buys in 2026. OZK 0.00% insider ownership. No insider floor.
 
-**CPI tomorrow (Apr 10).** Captures March oil shock. Earnings wave starts Apr 15 (MTB). WAL/OZK Apr 21 (12 days).
+**New tools built:**
+- `scripts/darkpool.py` — daily monitoring of off-exchange % + short volume. Run at boot.
+- `workbook/DARKPOOL.tsv`, `workbook/SHORT_VOL.tsv` (396 rows YTD), `workbook/SHORT_INTEREST.tsv` (6-month history)
 
 **What to Watch:**
-1. CPI tomorrow — hot (>3.5%) = stagflation narrative persists despite oil drop
-2. KRE +$235M 5-day inflow — if sustained, distribution thesis has shorter shelf life
-3. WAL approaching $78 threshold from below ($76.49, -2% away)
-4. OZK volume pattern — does persistent distribution continue?
+1. CPI tomorrow (Apr 10) — hot (>3.5%) = stagflation persists. Mar 18 (OZK 80% short vol day) was triggered by hot PPI + Fed hold.
+2. OZK earnings Apr 22 — every microstructure signal bearish. No insider floor. Smart money exiting.
+3. WAL earnings ~Apr 21 — shorts covered (fuel spent), dark pool distribution ongoing. Catalyst-dependent.
+4. KRE $68 put wall — 57K contracts expire Apr 17. If KRE closes below $68, dealer hedging cascades.
 
 ---
 

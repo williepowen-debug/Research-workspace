@@ -25,36 +25,43 @@
 
 ## Session Notes
 
-⚠️ **Open question:** Volume research (Tasks 1-4 complete) confirms thin-market rally — institutional distribution through AP redemption, not open-market selling. OZK has the cleanest put confirmation. WAL more ambiguous. KRE ETF structurally shrinking. Tasks 5-7 (dark pool, options vol, SI overlay) remain. Does the volume lens change Jun put management?
+⚠️ **Open question:** OZK 13F data shows smart money exodus (Wellington -43%, AQR -20%, 50+ full exits) with quant replacements. Ownership quality degrading while % rises. Does this change position sizing or timing before Apr 22 earnings?
 
 ### CHANGES SINCE LAST SESSION
-- **Prices (Apr 9 intraday):** KRE $69.71 (+4.4%), WAL $76.49 (+6.3%), OZK $47.97 (+2.9%), Brent $95.49 (-13.6% from $110.55). HY OAS 294bps (down from 305). Major oil de-escalation driving risk-on.
-- **KRE shares outstanding:** 56.9M (confirmed SSGA Apr 8), down from ~65.0M on Mar 24 (-12.4%). Price up 6.8% in same window.
+*(populated at next boot via market.py + darkpool.py)*
 
-### LAST SESSION (Apr 9 — volume deep-dive with Will)
-- **RP-REG-5.1 created:** `trade/market-microstructure/RP-REG-5.1_KRE_Volume_Analysis.md` — comprehensive volume analysis, Tasks 1-4.
-- **Task 1 (name vs ETF):** KRE is least active name (0.85x 20d avg). All individual names above 1.0x. Volume migrating from ETF to single names. 90th percentile divergence, organic (not OpEx).
-- **Task 2 (up/down volume):** All names have more volume on down days. OZK worst at 0.53x (selling days carry 2x volume). WAL recovered to 0.96x. Magnitude-weighted shows recent pops are thin-book short covering, not accumulation.
-- **Task 3 (catalyst volume):** Selling is anticipatory (elevated D-2 before stress events). Buying is reactive (dead before relief, only picks up D+1/D+2 after). WAL-specific catalysts (downgrades, First Brands) got NO volume reaction. OZK dividend hike: stock fell on low volume.
-- **Task 4 (ETF flows):** $670.8M single-week outflow Mar 3 (biggest in 4 years). KRE shares -12.4% in 2 weeks while price +6.8%. AP redemption confirmed. XLF getting +$1.22B/month inflows vs KRE -$8M — surgical regional de-risking.
-- **Key insight for positions:** Single-name puts (WAL, OZK) are cleaner expressions than KRE puts in current regime. OZK has strongest distribution signal. Thin market amplifies moves in both directions — timing risk on Jun puts elevated.
-- **Will pushed back on "all institutions left"** — correct, 12.4% reduction is significant but $3.9B still in fund. Many institutions remain. Overstated the conclusion.
-- **Git:** Did NOT pull (BRENT, CARL, SAM had uncommitted changes). My files clean. Inbox empty.
+### LAST SESSION (Apr 9 PM — microstructure completion + 13F discovery)
+- **RP-REG-5.1 ALL 7 TASKS COMPLETE.** Tasks 5 (dark pool), 6 (options), 7 (short interest) written up.
+- **Task 5:** WAL 54% off-exchange on +6.3% day (vs 37% avg). OZK 42% (vs 34%). EGBN 46% (vs 33%). Weakest names spike dark pool on up days. Identified two-channel distribution: ETF structural (AP redemption) + single-name tactical (dark pool selling on rallies). WAL's dark pool activity = longs exiting (short vol only ~40%), not shorts entering.
+- **Task 6:** KRE 300K put contracts Apr 17 (53% of float). $68 strike = 57K OI gravity well. OZK May $40P = 1,647 OI. WAL Jun $60P = 1,744 OI. Distribution through shares, conviction through options.
+- **Task 7:** OZK 15.28% SI, rising 5 months. WAL 3.46% SI, declining (shorts covered 1.07M shares). KRE SI 69.4M > 56.9M shares outstanding. Shorts concentrating into OZK+KRE, covering WAL.
+- **13F INSTITUTIONAL ANALYSIS (from Fintel via Will):** OZK has 50+ full institutional exits. Wellington -43%, AQR -20%, Two Sigma -34%, Point72 -35%, Morgan Stanley -15%, Canada Pension GONE, Ontario Teachers GONE. Quant replacements: Citadel +260%, Millennium +20%, Renaissance +36%. Peak6 opened $15.2M PUT. April filings (Q1 data) show exits CONTINUING — 3 more full exits in first week. **Ownership quality degrading while institutional % appears stable/rising.**
+- **OZK Mar 18 (80% short vol day):** Triggered by hot PPI + Fed hold. Macro catalyst, not OZK-specific. Shorts view OZK as rates/CRE duration bet.
+- **Insider check:** WAL zero open market buys in 2026. OZK 0.00% insider ownership.
+- **Built `scripts/darkpool.py`** — scrapes chartexchange (off-exchange %) + FINRA RegSHO (short vol), auto-appends to TSVs. Run at boot alongside market.py.
+- **Created 3 workbook files:** DARKPOOL.tsv (daily off-exchange %), SHORT_VOL.tsv (396 rows YTD from FINRA), SHORT_INTEREST.tsv (6-month bi-monthly history).
+- **Full YTD short volume analysis (66 trading days):** OZK shorts press regardless of direction. WAL short activity collapsed 20pp. KRE shorts MORE active on UP days (AP mechanics). EGBN short pressure intensifying on down days.
+- **Will engaged deeply** — asked for plain-English explanations, challenged conclusions, drove the 13F investigation. Will's instinct that institutional % rising while quality degrades was confirmed by the data.
+- **Git:** Did NOT pull (other agents had uncommitted changes). Committed REGINALD files only.
+
+### LAST SESSION (Apr 9 AM — Tasks 1-4)
+- RP-REG-5.1 created. Volume analysis across KRE and thesis names. AP redemption confirmed. OZK cleanest distribution. WAL ambiguous. Will pushed back on overstating "all institutions left."
 
 ### LAST SESSION (Apr 7 — full session, earnings prep)
-- Inbox processed (7 signals). CALENDAR updated with full earnings wave. WAL/OZK earnings discussion. OZK prompts #8-10 integrated. EGBN research + EXTERNAL_PROMPTS created. OZK KB 159→175, EGBN KB 12→18.
+- Inbox processed (7 signals). CALENDAR updated. OZK/EGBN research.
 
 ### NEXT SESSION
-1. **Complete volume research Tasks 5-7:** Dark pool %, options vol vs equity vol, short interest overlay. Full details in RP-REG-5.1.
-2. **WAL position decision** — sell $85P Jun before earnings? Volume data adds urgency — thin market + ambiguous WAL profile. Lock by Apr 15.
-3. **Integrate EGBN prompts** as Will completes them
-4. **OZK SI refresh** (~Apr 14) — pair with Task 7 overlay
+1. **Run darkpool.py at boot** — compare to Apr 9 readings. Watch WAL dark pool persistence.
+2. **CPI reaction (Apr 10 data)** — hot CPI = stagflation. OZK Mar 18 precedent: hot PPI triggered 80% short vol day.
+3. **KRE $68 put wall monitoring** — 57K contracts expire Apr 17 (8 days from Apr 9). Daily proximity check.
+4. **Integrate EGBN prompts** as Will completes them
 5. **OZK 8-K check** (~Apr 14) — EDGAR CIK 0001569650
 6. **Read-through watchlist** for MTB (Apr 15), CFG (Apr 16), RF (Apr 17)
-7. **EGBN earnings date** — confirm via IR page ~Apr 14
+7. **EGBN earnings date** — confirm via IR page
+8. **WAL position decision** — hold Jun $85P through earnings? Short covering fuel spent. Dark pool distribution ongoing. Revisit after WAL reports.
 
 **Pending (carried forward):**
-8. Cantor PACER docket
-9. Vecchione return status
-10. WAL insider refresh (by Apr 18)
+9. Cantor PACER docket (Will needs PACER access)
+10. Vecchione return status (8-K or LinkedIn check)
 11. OZK remaining prompts (#13 peer vintage, #19 metro conditions)
+12. Off-exchange % YTD backfill — needs chartexchange premium or FINRA OTC API registration. Deferred; tracking forward via darkpool.py instead.
