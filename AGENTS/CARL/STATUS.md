@@ -91,7 +91,9 @@
 | 9 | K-Shape CONVERGING | 🔴🔴 5 | Both cohorts moving DOWN. Max. |
 | 10 | Foreclosure Accel | 🔴 4 | 878K in 90+/FC pipeline (+25% in 4mo). Cure rates -40%. |
 
-**Total: 47/50 → 🔴🔴 CRITICAL.** (+1 from Apr 3: Student loan 4→5 on 7.7M default, ~25% DQ, SAVE ending Jul 1, MOHELA failures. Prior: UI exhaustion 4→5, gas max.)
+| 11 | SB Bankruptcy + Owner Income | 🔴 4 | **NEW.** SubV +67% YoY BREACHED. Owner income destruction $73-145B invisible. SBA defaults 3.7% (12-yr high). Tariff accelerant active. |
+
+**Total: 51/55 → 🔴🔴 CRITICAL.** New vector #11 (SB bankruptcy pipeline + owner income destruction) added from POP deep dive Apr 9. SubV +67% breached, $73-145B invisible income channel confirmed. Prior: 47/50. (+1 from Apr 3: Student loan 4→5.)
 
 ---
 

@@ -1,0 +1,81 @@
+File	Column	Data_Type	Description
+VX.tsv	Vector ID	String	VX-DOC-N.NN format (1.xx=Cost Growth, 2.xx=OOP Burden, 3.xx=Medical Debt, 4.xx=Care Behavior, 5.xx=System Stress)
+VX.tsv	Name	String	Vector name
+VX.tsv	Cost Category	String	COST_GROWTH / OOP / DEBT / BEHAVIOR / SYSTEM / COVERAGE
+VX.tsv	Description	String	What this vector measures
+VX.tsv	Unit	String	Unit of measurement
+VX.tsv	Current Value	String	Latest value with date in parens
+VX.tsv	Threshold Elevated	String	Yellow threshold trigger
+VX.tsv	Threshold Critical	String	Orange threshold trigger
+VX.tsv	Tripwire Breached	String	Red threshold trigger
+VX.tsv	Status	String	NORMAL / ELEVATED / CRITICAL / BREACHED / WATCH / TBD
+VX.tsv	Trend	String	RISING / DECLINING / STABLE / VOLATILE / ACCELERATING / MODERATING / TBD
+VX.tsv	Confidence	Decimal	0.00-1.00 confidence in current reading
+VX.tsv	Data Sources	String	Primary data sources
+VX.tsv	Cross Reference	String	Related ML, FLOW, CARL VX IDs, POLLY VX IDs
+VX.tsv	Last Updated	Date	YYYY-MM-DD
+VX.tsv	Notes	String	Context, caveats, K-shape relevance
+ML.tsv	ID	String	ML-DOC-NN format (sequential)
+ML.tsv	Timestamp	Date	Date logged (YYYY-MM-DD)
+ML.tsv	Session	String	Session identifier (DOC N or DOC Refresh)
+ML.tsv	Vectors	String	Related VX-DOC IDs
+ML.tsv	Cost Category	String	COST_GROWTH / OOP / DEBT / BEHAVIOR / SYSTEM / COVERAGE / RX
+ML.tsv	Description	String	One-line summary of the finding
+ML.tsv	Analysis	String	Interpretation and implications for consumer stress
+ML.tsv	Data Quote	String	Key data point (verbatim where possible)
+ML.tsv	Source	String	Data source with date
+ML.tsv	Status	String	ACTIVE / CONFIRMED / STALE / SUPERSEDED / CORRECTED
+ML.tsv	Confidence	Decimal	0.00-1.00
+ML.tsv	Diagnostic Value	String	HIGH / MEDIUM / LOW / N/A
+ML.tsv	Thesis Impact	String	CONSISTENT / COUNTER-SIGNAL / NEUTRAL / INVALIDATING
+ML.tsv	Cross Links	String	Related entries or agents
+ML.tsv	CARL Relevance	String	How this affects CARL's consumer stress thesis
+ML.tsv	POLLY Link	String	Health insurance / coverage connection if any
+ML.tsv	Invalidation Criteria	String	What would make this obsolete
+ML.tsv	Notes	String	Context, K-shape note, data freshness flags
+FLOW.tsv	ID	String	FLOW-DOC-NN format
+FLOW.tsv	Name	String	Pathway name
+FLOW.tsv	Pathway	String	Step-by-step transmission chain (arrow-separated)
+FLOW.tsv	Mechanism	String	How/why the transmission works
+FLOW.tsv	Feedback Loops	String	Self-reinforcing or dampening dynamics
+FLOW.tsv	Breakpoint	String	When does this pathway become critical
+FLOW.tsv	Cross Domain	String	Which other agent domains are affected
+FLOW.tsv	Key Entries	String	Related VX/ML entry IDs
+FLOW.tsv	Lag Time	String	Expected time lag for transmission
+FLOW.tsv	Confidence	String	Confidence level with percentage
+FLOW.tsv	Trigger	String	What activates this pathway
+FLOW.tsv	Status	String	MONITORING / EARLY / ACTIVATING / ACTIVE / CONFIRMED
+FLOW.tsv	Notes	String	Context, upgrade history, last review date
+PREDICTIONS.tsv	Pred_ID	String	DOC-PNN format (sequential)
+PREDICTIONS.tsv	Date_Made	Date	When prediction was created (YYYY-MM-DD)
+PREDICTIONS.tsv	Prediction	String	The prediction statement
+PREDICTIONS.tsv	Confidence	String	Confidence percentage or — if cancelled
+PREDICTIONS.tsv	Timeframe	String	Expected resolution window
+PREDICTIONS.tsv	Status	String	TRACKING / CONFIRMED / MISSED / CANCELLED
+PREDICTIONS.tsv	Date_Resolved	Date	When resolved (YYYY-MM-DD or empty if unresolved)
+PREDICTIONS.tsv	Outcome	String	What actually happened (empty if unresolved)
+PREDICTIONS.tsv	Notes	String	Context, upgrade/downgrade history
+COST_DRIVER.tsv	Driver_ID	String	CD-DOC-NN format
+COST_DRIVER.tsv	Driver	String	Cost driver name (GLP-1, Hospital Consolidation, Rx Specialty, Labor, Deductible Inflation, etc.)
+COST_DRIVER.tsv	Category	String	RX / FACILITY / LABOR / STRUCTURAL / POLICY / COVERAGE
+COST_DRIVER.tsv	Current_Trend	String	Current trend direction and magnitude
+COST_DRIVER.tsv	Employer_Impact	String	Impact on employer plan costs
+COST_DRIVER.tsv	Consumer_Impact	String	Impact on consumer OOP costs
+COST_DRIVER.tsv	Magnitude	String	Estimated % or $ impact on total healthcare costs
+COST_DRIVER.tsv	Timeframe	String	Short-term / Medium-term / Long-term
+COST_DRIVER.tsv	K_Shape_Note	String	Differential impact on top vs. bottom income cohorts
+COST_DRIVER.tsv	Source	String	Data source with date
+COST_DRIVER.tsv	Status	String	G/Y/O/R status
+COST_DRIVER.tsv	Notes	String	Context, trajectory, CARL transmission path
+COVERAGE.tsv	Coverage_ID	String	COV-DOC-NN format
+COVERAGE.tsv	Coverage_Type	String	EMPLOYER / ACA_MARKETPLACE / MEDICAID / MEDICARE / UNINSURED / UNDERINSURED
+COVERAGE.tsv	Enrollment	String	Current enrollment or population count
+COVERAGE.tsv	Prior	String	Prior period enrollment (for trend)
+COVERAGE.tsv	Change	String	Period-over-period change (absolute and %)
+COVERAGE.tsv	As_Of	Date	Date of measurement (YYYY-MM-DD)
+COVERAGE.tsv	Avg_Cost	String	Average premium or OOP cost for this coverage type
+COVERAGE.tsv	Key_Issue	String	Primary stress or vulnerability for this coverage type
+COVERAGE.tsv	Policy_Risk	String	Active policy risk (subsidy expiry, redetermination, budget cuts, etc.)
+COVERAGE.tsv	Source	String	Data source
+COVERAGE.tsv	Status	String	G/Y/O/R status color
+COVERAGE.tsv	Notes	String	K-shape note, CARL/POLLY relevance

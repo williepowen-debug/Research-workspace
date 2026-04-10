@@ -1,0 +1,35 @@
+State	Segment	Metric	Value	Prior	Change	As_Of	Source	Status	Notes
+CA	HOMEOWNERS	fair_plan_count	~650,000+	~210,000 (2020)	+5x	2025-09	CA DOI Sept 2025	R	Largest residual market in US; structural private market failure
+CA	HOMEOWNERS	fair_plan_exposure	$700B total exposure	—	—	2025-09	CA DOI / Fitch	R	Single event (Jan 2025 LA fires) caused $4B loss = 0.6% of exposure
+CA	HOMEOWNERS	fair_plan_growth_rate	<4% final Q 2025 (slowing)	43% (Q3 2025)	Decelerating	2025-12-31	CA DOI / Insurance Journal	O	Decelerating but base is 5x higher than 2020
+CA	HOMEOWNERS	avg_premium_increase_2026	+16% projected	—	—	2026	Insurify Mar 2026	R	Highest state rate increase projected nationally; wildfire aftermath
+CA	HOMEOWNERS	major_carrier_exits	State Farm (72K non-renewals), Allstate (paused), Nationwide (full exit Jun 2025), AIG (reduced), Chubb (reduced)	—	—	2025-2026	Multiple sources	R	Multiple top-10 carriers pulling back or exiting; market failure criteria met
+CA	HOMEOWNERS	sustainable_insurance_strategy	Regulatory reform underway; 6 carriers seeking rate increases in exchange for coverage commitments	—	—	2026	CA DOI	Y	State response: allow higher rates → get private capacity back; unproven at scale
+CA	HOMEOWNERS	uninsured_households_fire_zones	150,000 in extreme fire areas	—	—	2025	McKinsey / CA DOI	R	1 in 5 homes in extreme fire areas has no coverage
+CA	AUTO	avg_premium_increase_2026	Above national avg (~8-10% proj)	—	—	2026	III/Insify est	O	Higher claims costs post-LA fires; distracted driving; parts inflation
+FL	HOMEOWNERS	citizens_policy_count	~336,000 (Mar 2026)	1,420,000 (Oct 2023 peak)	-76%	2026-03	Citizens FL / Axios Miami Mar 2026	G	76% decline from peak; private market returning post-2022 reforms
+FL	HOMEOWNERS	citizens_policy_count_trend	Declining at ~15K/month (est)	395,144 (Jan 2026)	-15% Jan-Mar	2026-03	Citizens FL	G	Depopulation continuing into 2026; 546K moved to private in 2025
+FL	HOMEOWNERS	citizens_rate_change_2026	-2.6% (rate CUT approved)	—	—	2026-01	Citizens FL Dec 2025 / FL Voice News	G	Rate CUT signals market healing; unprecedented reversal from 2022-23 crisis
+FL	HOMEOWNERS	new_carrier_entrants	17 new insurers entered FL market since 2022	—	—	2025-2026	Insurance Journal / FL OIR	G	Reform-driven capacity return; private market competitive again
+FL	HOMEOWNERS	avg_annual_premium_2026	~$8,500 (projected)	—	—	2026	Insurify Mar 2026	O	Still highest in nation at 2.8x national avg; affordability concern persists
+FL	HOMEOWNERS	hurricane_season_outlook_2026	Below-normal forecast; 11-16 storms, 2-4 major; El Nino developing	—	—	2026-04	CSU / AccuWeather Apr 2026	G	Favorable for FL market stability; but one storm can reverse recovery
+FL	HOMEOWNERS	market_durability_test	2026 hurricane season (Jun 1 - Nov 30)	—	—	2026-06	—	Y	FL recovery durability untested; major hurricane = possible Citizens reversal
+LA	HOMEOWNERS	market_status	STRESSED — multiple insolvencies post-Ida/Laura; guaranty fund exposure	—	—	2025	LA DOI	O	Multiple carriers failed 2020-2022; market thinned significantly
+LA	HOMEOWNERS	citizens_la_status	Active; policy count elevated	—	—	2025	LA Citizens	O	LA equivalent of Citizens; state residual market carrying significant load
+LA	HOMEOWNERS	rate_trend	Elevated — reinsurance costs remain high	—	—	2025-2026	LA DOI / broker reports	O	Post-hurricane reinsurance repricing not fully absorbed
+TX	HOMEOWNERS	twia_status	TWIA (coastal) active for Gulf Coast	—	—	2025-2026	TX TDI	Y	Coastal windstorm coverage through state plan; hail losses inland driving rates
+TX	HOMEOWNERS	avg_premium_increase_2026	+5-8% projected (moderate)	—	—	2026	Insurify est	Y	Hail/severe convective storms driving rate pressure; not yet crisis
+TX	AUTO	uninsured_rate	~20% estimated (above national)	—	—	2023-2025	IRC / TX TDI	O	High uninsured rate historically; large uninsured pool
+NATIONAL	AUTO	auto_insurance_cpi_yoy	5.9% YoY (Feb 2026)	11.1% (Feb 2025)	-5.2pp	2026-02	BLS CPI Feb 2026	Y	Moderating from 19.8% peak (Jun 2023); 64% cumulative increase 2020-2025
+NATIONAL	AUTO	uninsured_motorist_rate	15.4% (2023)	12% (2017 approx)	+3.4pp	2023	IRC 2023 Study (released 2025)	Y	1 in 7 drivers uninsured; 1 in 3 uninsured or underinsured (33.4%)
+NATIONAL	AUTO	avg_annual_premium	~$2,638 full coverage	—	—	2025	Bankrate / The Zebra	Y	3.39% of median household income; affordability pressure
+NATIONAL	HOMEOWNERS	avg_annual_premium_2026	$3,057 (projected; +4% vs 2025)	$2,940 (2025 approx)	+4%	2026	Insurify Mar 2026	Y	Fifth straight year of increases; national avg masks CA/FL extremes
+NATIONAL	HEALTH	aca_marketplace_enrollment	23.1M (2026 plan year)	24.3M (2025)	-4.9%	2026-01	CMS Jan 2026	O	ACA subsidy cliff activated Jan 1; first enrollment decline since ARP subsidies
+NATIONAL	HEALTH	aca_avg_monthly_premium	$178/mo post-subsidy (2026)	$113/mo (2025)	+57%	2026	CMS / KFF	R	57% premium increase for marketplace enrollees after subsidy expiration
+NATIONAL	HEALTH	health_uninsured_rate	8% (27.1M Americans)	7.7% (2023 approx)	Stable-deteriorating	2024	Census ACS 2024	Y	Stable but under threat; working-age uninsured 11.5%; CBO 15M+ at risk from OBBBA
+NATIONAL	HEALTH	employer_family_premium_avg	$26,993 (2025)	$25,464 (2024)	+6%	2025	KFF 2025 Employer Survey	Y	Third consecutive year of 6%+ growth; first time in 20 years
+NATIONAL	HEALTH	employer_avg_deductible	$1,886 (2025)	$1,735 (2023 approx)	+17% since 2020	2025	KFF 2025 Employer Survey	Y	Small firm workers: $2,631 avg; 53% face $2,000+ deductible
+NATIONAL	HEALTH	aca_silver_deductible	$5,304 (2026)	—	—	2026	CMS 2026	O	Silver plan deductible — insured but functionally underinsured for most events
+NATIONAL	HEALTH	aca_bronze_deductible	$7,186 (2026)	—	—	2026	CMS 2026	O	Bronze: catastrophic coverage only; high OOP exposure
+NATIONAL	HEALTH	medicaid_obbba_projected_loss	11.8M Medicaid + 3.1M marketplace (CBO est by 2034)	—	—	2025-2034	CBO score of OBBBA (signed Jul 4, 2025)	R	Largest single coverage reduction since ACA passage; begins 2026
+NATIONAL	HEALTH	medical_debt_total	$195B total burden; $88B in active collections	—	—	2025-2026	KFF/CFPB/Cornell ILR	R	20% of Americans (100M+) affected; 62% of bankruptcies touch medical debt

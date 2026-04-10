@@ -1,0 +1,23 @@
+Carrier	Ticker	Type	Metric	Value	Prior	Change	As_Of	Source	Status	Notes
+State Farm	PRIVATE	P&C_MULTI	combined_ratio	~89 (auto est)	~96 (2024)	-7pp	2025-12-31	Insurance Business 2026-02	G	Best 2025 P&C performer; blockbuster year; auto profitable
+State Farm	PRIVATE	HOMEOWNERS	market_action	Non-renewing CA policies (72K announced); CA rate increase requested post-Palisades fires	—	—	2026-01	CA DOI / News	R	Still in CA but non-renewing fire-exposed; requested emergency rate increase after Jan 2026 LA fires
+State Farm	PRIVATE	P&C_MULTI	full_year_underwriting_profit	Record 2025	—	—	2025-12-31	Insurance Business Feb 2026	G	"Outearns Progressive and Allstate in blockbuster 2025" — IB headline
+Allstate	ALL	AUTO	combined_ratio	85.0 full year 2025	95.0 (2024)	-10pp	2025-12-31	Allstate Q4 2025 earnings Feb 2026	G	10pp improvement; Q4 CR 80.8; doubling net income; strong profitability
+Allstate	ALL	AUTO	net_income	$3.8B (Q4 2025 annualized)	~$1.9B prior	~+100%	2025-12-31	Allstate earnings Feb 2026	G	Q4 net income doubled YoY
+Allstate	ALL	HOMEOWNERS	market_action	Paused new CA homeowners; non-renewing some existing; still in state	—	—	2025-ongoing	Bankrate / CA DOI	R	Committed to rate increases in exchange for CA regulatory reform concessions
+Progressive	PGR	AUTO	combined_ratio	~88.0 (Q4 2025); full year profitable	~96 (2024)	~-8pp	2025-12-31	PGR earnings Jan 2026	G	Growth engine "downshifting" as auto competition tightens; profitable
+Progressive	PGR	AUTO	net_income	$11.3B full year 2025	—	—	2025-12-31	PGR earnings Jan 2026	G	Record profitability year; growth slowing as market normalizes
+GEICO (Berkshire)	BRK.B	AUTO	combined_ratio	~87 (2025 est)	~101 (2023)	—	2025-12-31	Berkshire filings	G	Major turnaround; returned to profitability after 2022-23 losses
+Citizens FL	STATE	RESIDUAL_MARKET	policy_count	~336,000	395,144 (Jan 2026)	-15%	2026-03	Citizens FL / Axios Miami Mar 2026	G	76% below Oct 2023 peak (1.42M); 546K policies moved to private in 2025 alone
+Citizens FL	STATE	RESIDUAL_MARKET	rate_action	2.6% rate CUT approved for 2026	—	—	2026-01	Citizens FL Dec 2025 recommendation	G	Rate cut = private market returning; POSITIVE sign for FL consumers
+CA FAIR Plan	STATE	RESIDUAL_MARKET	policy_count	~650,000+ (growing)	~210,000 (2020)	+5x	2025-09	CA DOI Sept 2025	R	5x growth since 2020; LARGEST residual market in US; structural private market failure
+CA FAIR Plan	STATE	RESIDUAL_MARKET	total_exposure	$700B	—	—	2025-09	CA DOI / Fitch	R	$700B total exposure; $4B loss from Jan 2025 LA fires alone
+CA FAIR Plan	STATE	RESIDUAL_MARKET	assessment	$1B carrier assessment passable to consumers post-LA fires	—	—	2025	CA DOI	R	Assessment mechanism: losses can flow back to private carrier policyholders statewide
+CA FAIR Plan	STATE	RESIDUAL_MARKET	growth_rate	<4% final Q 2025 (slowing from 43% Q3)	43% (Q3 2025)	Decelerating	2025-12-31	CA DOI / IJ Mar 2026	O	Growth decelerating but from massively elevated base; still structural crisis
+UnitedHealth (UNH)	UNH	HEALTH	MLR	88.8% (2026 full-year guidance)	89.1% (2025)	-0.3pp	2026-01-27	UNH Q4 2025 earnings Jan 2026	Y	Slight improvement but Medicare Advantage cost trend ~10% — margin pressure persistent
+UnitedHealth (UNH)	UNH	HEALTH	membership_loss	-1.3M to -2.8M MA members expected 2026	—	—	2026-01	UNH earnings Jan 2026	O	Deliberate margin-for-volume trade; CMS rate increase for 2027 partial relief
+UnitedHealth (UNH)	UNH	HEALTH	stock_drop	Shares fell on Medicare Advantage news; +9% Apr 8 on 2027 rate bump	—	—	2026-01 to 2026-04	CNBC / Yahoo Finance	Y	Sector-wide stress; Humana also -20% on flat MA rate proposal Jan 2026
+Humana	HUM	HEALTH	market_action	-20% stock Jan 26 on flat MA rate proposal; MA exposure concentrated	—	—	2026-01-26	CNBC Jan 2026	R	Most MA-exposed major insurer; margin recovery unclear
+Farmers	PRIVATE	HOMEOWNERS	market_action	Pledged 300K consumers in CA high-risk zones 2026+; 5,600 policies over 2 years	—	—	2026-01	CA DOI / IJ	Y	Small positive step; far below gap created by FAIR Plan growth; conditional on reform
+Nationwide Private Client	PRIVATE	HOMEOWNERS	market_exit	Stopped renewing ALL CA homeowners policies by Jun 2025	—	—	2025-06	HousingWire	R	Complete CA exit — bellwether for mid-tier carriers
+AIG	AIG	HOMEOWNERS	market_action	Backed away from CA high-risk markets	—	—	2025-ongoing	Bankrate	O	One of multiple carriers pulling back from CA wildfire zones
