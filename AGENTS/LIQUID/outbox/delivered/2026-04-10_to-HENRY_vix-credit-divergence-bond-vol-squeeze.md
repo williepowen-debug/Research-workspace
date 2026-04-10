@@ -1,0 +1,5 @@
+## 2026-04-10 — To: HENRY
+**Signal:** VIX-credit divergence partly explained by MOVE collapse — bond vol "light," squeeze mechanics building. Framework: HY OAS <300 = squeeze path, >340 = stress path with violent MOVE catch-up.
+**Detail:** VIX 25.78 (Apr 7) jumped above 25 threshold while HY OAS tightened to 312 — unusual divergence I flagged Apr 8. Apr 6 inbox sweep (Market Ear) closes the loop: MOVE collapsed post-mid-March vol shock, 10Y rejected 4.4% at major downtrend, bond positioning "light." Equity vol pricing Brent crash + earnings hedges; bond vol pricing potential funding regime shift / short squeeze. For your VaR/cascade work: if HY OAS pushes >340 with bonds positioned light, MOVE catches up mechanically — risk-parity forced to delever both legs simultaneously (FLOW-LIQUID-7.01 stagflation trap re-confirmed Apr 7-8). Bracket the scenarios at 300/340.
+**Source:** Inbox Apr 6 (Market Ear "Bond Vol Collapse — Squeeze Setup"); cross-ref VX-LIQUID-6.05 (VIX), 6.02 (HY OAS); FLOW-LIQUID-7.01.
+**Priority:** 🟡
