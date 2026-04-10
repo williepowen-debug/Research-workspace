@@ -1,5 +1,5 @@
 # LIQUID STATUS
-**Last Updated:** 2026-04-10 16:15 ET | **Agent:** LIQUID | **Status:** 🟡 MODERATING — STRUCTURAL FRAGILITIES CRYSTALLIZING UNDER TIGHTER CREDIT
+**Last Updated:** 2026-04-10 16:15 ET | **Agent:** LIQUID | **Status:** 🟡 MODERATING — PATH A (SQUEEZE) RESOLVING; STRUCTURAL FRAGILITIES CRYSTALLIZING UNDER TIGHTER CREDIT
 
 ---
 
@@ -186,35 +186,41 @@ CCC OAS at **994bps**, back below 1000 from >1000 on Mar 30. Could be quarter-en
 
 ---
 
-## Plumbing Dashboard (Apr 8 — current)
+## Plumbing Dashboard (Apr 10 — LIVE refresh via FORGE/tools/market-data)
 
-| Metric | Value | Prior (Apr 6) | Δ | Status |
-|--------|-------|-------|---|--------|
-| **SOFR** | 3.62% | 3.65% | -3bps | 🟢 Fully normalized |
-| **SOFR-IORB** | -0.03% | 0.00% | -3bps | 🟢 Negative spread = clean |
-| **RRP** | $0.177B | ~$1B | -$0.8B | 🔴 ZERO buffer persists |
-| **10Y yield** | 4.33% | 4.36% | -3bps | 🟡 Stable |
-| **HY OAS** | 312bps | 313bps | -1bp | 🟡 Below LIQ-01 (320); tightening |
-| **CCC OAS** | 983bps | 989bps | -6bps | 🟡 Below 1000; stable |
-| **CP-TBill spread** | 0.12% | 0.16% | -4bps | 🟢 Tightening = less stress |
-| **VIX** | 25.78 | 24.17 | +1.61 | 🟠 Above 25 — diverging from credit |
-| **KRE** | $68.69 | — | — | 🟢 Zone upgrade 🟡→🟢 |
-| **Brent** | $96.26 | $109.35 | -$13.09 | 🟡 Crashed -12%; ceasefire pricing |
-| **BIZD** | $12.39 | — | — | 🔴 PC stress persists |
-| **TLT** | $86.92 | — | — | 🟡 Stable |
+| Metric | Apr 10 | Apr 8 | Δ | Status |
+|--------|--------|-------|---|--------|
+| **HY OAS** | **290bps** | 312bps | **-22bps** | 🟢 GREEN — broke below 300 |
+| **CCC OAS** | 946bps | 983bps | -37bps | 🟡 Trending down hard |
+| **VIX** | **19.21** | 25.78 | **-6.57** | 🟢 Collapsed below 20 — divergence RESOLVED (Path A) |
+| **SOFR** | 3.57% | 3.62% | -5bps | 🟢 Even cleaner |
+| **SOFR-IORB** | -0.08% | -0.03% | -5bps | 🟢 More negative = no funding stress |
+| **10Y yield** | 4.29% | 4.33% | -4bps | 🟡 Stable |
+| **CP-TBill spread** | 0.13% | 0.12% | +1bp | 🟢 Green |
+| **RRP** | $0.402B | $0.177B | +$0.2B | 🔴 Erratic ~$0; structural |
+| **Fed BS (WALCL)** | $6.694T | $6.675T | +$18.5B | 🟡 Slight QE pulse w/w |
+| **KRE** | $69.07 | $68.69 | +$0.38 | 🟢 Holding |
+| **TLT** | $86.49 | $86.92 | -$0.43 | 🟡 Drift |
+| **BIZD** | $12.36 | $12.39 | -$0.03 | 🔴 PC stress persists, not selling off |
+| **HYG** | $80.21 | — | — | 🟢 Risk-on; HYG $75P far OTM |
+| **Brent** | $95.83 | $96.26 | -$0.43 | 🟡 Holding the crash |
+| **USD/JPY** | **159.07** | 158.58 | +$0.49 | 🟠 0.93 from 160 trigger |
+| **FXY** | $57.67 | — | — | Near SAM entry $57.36 |
 
 ---
 
-## Thresholds (Apr 8)
+## Thresholds (Apr 10 LIVE)
 
 | Threshold | Level | Current | Status |
 |-----------|-------|---------|--------|
-| LIQ-01 (HY OAS) | 320bps | **312bps** | 🟡 BELOW — breached Apr 1 (328), now pulled back |
-| LIQ-01 freeze | 350bps | 312bps | 🟡 38bps away — pressure easing |
-| CCC OAS | 1000bps | 983bps | 🟡 17bps from trigger — stable |
-| RRP buffer | >$5B | $0.177B | 🔴 ZERO — structural |
-| SOFR stress | >3.70 | 3.62% | 🟢 Fully normalized, negative IORB spread |
-| Foreign CB UST | Stable | **$2.7T (lowest since 2012)** | 🔴 Structural outflow |
+| LIQ-01 (HY OAS) | 320bps | **290bps** | 🟢 30bps BELOW — Path A (squeeze) winning |
+| LIQ-01 freeze | 350bps | 290bps | 🟢 60bps away |
+| CCC OAS | 1000bps | 946bps | 🟡 54bps from trigger — trending down |
+| VIX (LIQ) | >25 | **19.21** | 🟢 Below 25; divergence resolved |
+| USD/JPY | 160 | **159.07** | 🟠 **0.93 from trigger** — Japan repat watch |
+| RRP buffer | >$5B | $0.402B | 🔴 ZERO — structural |
+| SOFR stress | >3.70 | 3.57% | 🟢 Fully normalized, -8bps IORB |
+| Foreign CB UST | Stable | $2.7T (lowest since 2012) | 🔴 Structural outflow |
 | Reserve floor | $2.7T | ~$3.0T | 🟡 Cushion intact |
 
 ---
