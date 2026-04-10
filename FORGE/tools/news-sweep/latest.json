@@ -1,39 +1,29 @@
 {
-  "timestamp": "2026-04-09T20:16:09.221678+00:00",
-  "total": 45,
-  "actionable": 29,
-  "known": 16,
-  "noise": 0,
+  "timestamp": "2026-04-10T20:15:39.492714+00:00",
+  "total": 267,
+  "actionable": 168,
+  "known": 95,
+  "noise": 4,
   "articles": [
     {
-      "title": "Strait of Hormuz remains all but closed, despite Iran ceasefire deal",
-      "source": "Axios",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1OempvcklMeXpXQXQ5VWlLUkF2TXF0Znh5RV9kdWRsdXprbkVHTUowa0Z4MWZBZmFjM1o5dVNNaXlZcTNtM1dKVVlBYnlPSjFpLUs2bndpT2JLc19aY1NDRmdsLUFDbDR5OXMtTmdHQi1LWWcx?oc=5",
-      "published": "2026-04-09T18:44:08+00:00",
+      "title": "Saudi Arabia's SATORP Refinery Shut Down After Attack",
+      "source": "Crude Oil Prices Today | OilPrice.com",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUGE5RDNESWpzdlo2MWlQWXlPWmpoYUprZjdYbE1FbmhrYXVNZGZMRW5mWGh5TTZmTjh1aDU1bmFleEVHV0x0WHhSMUdSaTF4dGNjcGxwMEZJN0tIYmxEaWdCYl9vYWtXMllNNS1QQ1RkWmp2RHdDdXRuak0wSEtvTENNM3c3RjAxY2RKWmMxZnhXZWZ1MmktdEVQeFp2SzUtRkNjTlo4aUlMSmhw0gGyAUFVX3lxTE9keGJOWXlGU1BpaVFBYzJ1ZGQwck1DdUVhMm5Rb2cwZWxkOXkyTC00QkhEejZPa1FLS1NDOW5yanZ3LWlleFBncGFLTDA0eW1LbWNqSVExUDJpWmN3WDVPSk9kNngzdWRjUmwtZXhrcVdMMlBhTDk3S251TFF5ZlpOQ0gyeVJrcGJDZ3BZbU00bGZyVmFOa3dfMmVkTVcwVGkxNUFFMkR5QzNtQlJvaU5tN0E?oc=5",
+      "published": "2026-04-10T13:30:00+00:00",
       "agents": [
-        "HENRY",
-        "SAM"
+        "HENRY"
       ],
-      "feed_label": "oil-energy",
+      "feed_label": "gas-supply",
       "origin": "google_news",
       "level": "normal",
       "keyword": null,
-      "entity": "Hormuz",
-      "entity_info": {
-        "agents": [
-          "HENRY",
-          "SAM"
-        ],
-        "aliases": [
-          "Strait of Hormuz",
-          "Hormuz Strait"
-        ]
-      },
+      "entity": null,
+      "entity_info": null,
       "escalation": null,
       "watch_hits": [
         [
           "HENRY",
-          "ceasefire deal"
+          "refinery attack"
         ]
       ],
       "classification": "NEW_WATCH_HIT",
@@ -41,17 +31,42 @@
       "source_weight": 1
     },
     {
-      "title": "Carry Trade Unwind Risk Builds in USD/JPY Market",
-      "source": "stonex.com",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWXNFZHZ2U29BVDh6aFczLTEwekdzQlFDdWtSV3RxX0F2d1ZxZlVIUFh4UmdBRlFMTWRFTll0VDhrbFlyZnNFajJHMGh6WHZOMEljV09pN3BoMTd2MHpuOUF5S3U3SXN1YjduNUNjV0RhcnRlOS1aX2RQY0g1Vy0tMWlfeW5hN0NjSk5kMQ?oc=5",
-      "published": "2026-03-31T06:46:53+00:00",
+      "title": "Aramco and TotalEnergies shut down 465,000 bpd refinery after attack",
+      "source": "Upstream Online",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQOXRUeE5USGxpNVJpRko2Wm9neklMWXRubzEwQ0llSGNRQ2VIUmtMMzhURnZ1QlZnM1ZkQ28zdEl0dXZ2Q3ZlNkJoeTFxbW1hYUZxamtyNDlrNHRjV2w0YUl4NGlkSmhvNHBRZzEzM3dURHB0WXVmbThldGdpSmVUc1dKem9nSXFLNmZZbmo0RVNBY1phZWtjWksta3dKeUppUTZOeG9fa1V2dDdDZ011SDR4UEptbVVyY2RSQkVJUGNyNzhYaFE?oc=5",
+      "published": "2026-04-10T09:19:06+00:00",
+      "agents": [
+        "HENRY"
+      ],
+      "feed_label": "gas-supply",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [
+        [
+          "HENRY",
+          "refinery attack"
+        ]
+      ],
+      "classification": "NEW_WATCH_HIT",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "USD/JPY: Dollar Near Multi-Year High Against Yen Ahead of US Inflation Print",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQemw3SlZNeXNXZm1LZGVGNzNjRGdFX2twT1QzVUxVUUQ0MkIwcy1Sa254N0RfRE1ibDNYQXJaMmlscWpwdWpONGZyNFhiclA5WW5RcmVYbHpZYmFNamNCcDItN0syN0pnYWtyM2N1Q2R3ckluMVlQZTBrTUNYV1JQUzZ3dkxlQl81QkF3aXpNcS1NU3RQSTZHSFd5SVB0bzFGMGQ4alJMbkdtQlFaRmZkcTNKdmdJQXZmLWZZcDlvZ0RFV0M2M2YwVWhRaUJfMkNqenRB?oc=5",
+      "published": "2026-04-10T08:39:31+00:00",
       "agents": [
         "SAM"
       ],
       "feed_label": "japan-boj",
       "origin": "google_news",
-      "level": "watch",
-      "keyword": "carry trade unwind",
+      "level": "normal",
+      "keyword": null,
       "entity": null,
       "entity_info": null,
       "escalation": null,
@@ -66,10 +81,354 @@
       "source_weight": 1
     },
     {
-      "title": "Apollo Global Management, Inc. (APO) Shareholders Who Lost Money Have Opportunity to Lead Securities Fraud Lawsuit",
-      "source": "PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPQVhKMEk4MFpnbXZ1X3FERUtqRFA0YkpBUmZGZTN4a2VQYUdWVUV4dTRGcEk4cTI3M19TYTRKa2JEN3lMTk5Ka1pFTHFCRXZ2ZHdWYmpxWm9xbnM3djhGY28tR3FtSV9qTDVVWUQwcmQxRGkzeXNMYkxrbGEyR2dZNXhJU1ZFUThEZEdFSXpENllzakV1b2FWdmpuYnd1XzE3REFlX2xSc2N2LTY1VkgycEdQQlhjWDJTME56RVUzakRVci1ISlRnaWtHcUxRZzFhdmh6M0NXYzNDYnlhMHg0VEk3R25sV2txVHIwWjJNXzF4NHBQWUFSZEJn?oc=5",
-      "published": "2026-04-09T19:54:00+00:00",
+      "title": "Fed's Bowman says new external review of Silicon Valley Bank failure underway",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOR01VSURTMVN6SGRmV0xmaEF1NUZhTXBrSVJ0ek1reGZpckFqdVYtOGh6UzFsOG5NNjRRZWZfQjhtRjBYLXA5TzEtSl83akRDcGd1a2dySVIwYnFPVjN5ZmJqTlVMTUVxM2ZsbTdWNnFONFVSRE1qajcza0JMRGxtalJMdkpOYXRJcmhQS2hreGw5VjVVNXZkWi0wTk82Q0t5TVRuY1dxbmhNTmtKQWs2MEYzMUVfSE9RdUdieEdkcWFRLVlZVDhiWDdWcGZsNmQ4alVXbGhKaURRbW9NVW0yZ0FmTQ?oc=5",
+      "published": "2026-03-20T07:00:00+00:00",
+      "agents": [
+        "REGINALD",
+        "LIQUID"
+      ],
+      "feed_label": "bank-stress",
+      "origin": "google_news",
+      "level": "alert",
+      "keyword": "bank failure",
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW_ALERT",
+      "suppressed": false,
+      "source_weight": 3
+    },
+    {
+      "title": "CLARITY Act: White House Says Deposit Flight Risk From Stablecoin Rewards \u201cQuantitatively Small\u201d",
+      "source": "CoinGape",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVXZyX3psUzg3Y05VTjRVSUE4N0VlbXoyblMyTW9DLUVZZDZZQTZXa25talR2LWstRkRFWGNmXzBuSHR0RFpjQU5zZlpLVlpNMlRNRVVyc2VyUFkzaVM5X1d4UlY1bTNJeVVwa3I5T1lTNV9NWExja1FsS1A0enFPOFhEYlg2cS02NEE2NDk5MGJZRkc4QkhYTWNwTDdwUlBUNnlrQ29qeEFSeDAtdzNnS0MwaEQwUQ?oc=5",
+      "published": "2026-04-08T13:41:10+00:00",
+      "agents": [
+        "REGINALD",
+        "LIQUID"
+      ],
+      "feed_label": "bank-stress",
+      "origin": "google_news",
+      "level": "alert",
+      "keyword": "deposit flight",
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW_ALERT",
+      "suppressed": false,
+      "source_weight": 2
+    },
+    {
+      "title": "US bank failure by June 30? Trading Odds & Predictions",
+      "source": "Polymarket",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBmdExuMUxIYUVqVTFLVVNLZHVmM1h6QVloNU1YQWlIM2NlbkZFVHA4Sm1jc3dGc1VueVlQbnIwY0xBaFRnam5USWZkNkdkbFdhN3JQVE9EcHhnbkJ4WkJjTk5GSE53Y19sQkdJ?oc=5",
+      "published": "2026-04-09T03:29:00+00:00",
+      "agents": [
+        "REGINALD",
+        "LIQUID"
+      ],
+      "feed_label": "bank-stress",
+      "origin": "google_news",
+      "level": "alert",
+      "keyword": "bank failure",
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW_ALERT",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Deposit Flight Concerns Over Stablecoin Yield Are 'Quantitatively Small': White House Report",
+      "source": "thedefiant.io",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVHNYNlBhVG42WDh0b0hHdndBWEJ4NGRpMVYxcFExNE11RU9QWDRlb2l1QVF1STZudlVvZlNRcmoyaWZvbFhid3p4d3hSOF9ubk9tSVFGa1kyRXhod0tVNFRxbF9QckVmblU1MHpNeWFKYTB6Y2k2blJlbV9ScUs0a2hOQ201Q3BNdGV6THhoZzJSV0pCcmRYODNlSQ?oc=5",
+      "published": "2026-04-08T13:31:38+00:00",
+      "agents": [
+        "REGINALD",
+        "LIQUID"
+      ],
+      "feed_label": "bank-stress",
+      "origin": "google_news",
+      "level": "alert",
+      "keyword": "deposit flight",
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW_ALERT",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "BoE and PRA streamline reporting and disclosure requirements for bank failure regime",
+      "source": "Global Regulation Tomorrow",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPajZCMnpQeDlPS05vV0h0TElCTFFXTW1ONTY3a3A0d3lZaG9FMVhWVEhYXzBUaXFtRlBSbm0xVkgtUnNnQ1dMMHA4alBIbGpVLU8yM0NFT0JEcUR0aXVGUUlYekt3enVaZGhwWVJsY1pLY0x3NGxvQ1NmbFYzZTZHaU5oUXV2Q2RDQWd0T2tJLWQtang3dXdZRTJScVdrZXV3OUhBd0I3SFhRNUw4b0U1dmJaOE9wVjlZUUFFZ0p1Q01QUDhuSWIw?oc=5",
+      "published": "2026-03-26T21:28:12+00:00",
+      "agents": [
+        "REGINALD",
+        "LIQUID"
+      ],
+      "feed_label": "bank-stress",
+      "origin": "google_news",
+      "level": "alert",
+      "keyword": "bank failure",
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW_ALERT",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "FDIC releases audit of causes and response to January 2025 community bank failure",
+      "source": "JD Supra",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMXNzVnJ0Z2U0eURoYmd4SzZhNWlxZlBPRzM1X2YzWksxOUR6dGRfUEhaREdlX2dWdDczbm1KZmt6eDN2T2N4bDhUWUM0TXhSbnljTzB1YnNDUmFvSXUyak40aHJWY2pmVXBLdDBucDBwMUczenRNclFaY0trY3BzN3FR?oc=5",
+      "published": "2026-03-16T07:00:00+00:00",
+      "agents": [
+        "REGINALD",
+        "LIQUID"
+      ],
+      "feed_label": "bank-stress",
+      "origin": "google_news",
+      "level": "alert",
+      "keyword": "bank failure",
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW_ALERT",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "15 most recent bank failures",
+      "source": "American Banker",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9OU0FZMFVvZ2QtYXVOTWpCa3djUGxETDEzbzlFTWhobUpfVnZMdWlDWmswQzNrOEIzc0ZDWVM3cnFTV1ZXTlRMamp2V25jM0ppMTBYM3BEZFM3OFI4bnIyaFlBSlQtT2NNa0RxMURCZ3JaQQ?oc=5",
+      "published": "2026-02-09T08:00:00+00:00",
+      "agents": [
+        "REGINALD",
+        "LIQUID"
+      ],
+      "feed_label": "bank-stress",
+      "origin": "google_news",
+      "level": "alert",
+      "keyword": "bank failure",
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW_ALERT",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Economic Capital: A Better Measure of Bank Failure?",
+      "source": "Liberty Street Economics",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVm15SjQxYWh1empkUzNQOGE4cTktX0JFdWhseHhhUVdFV05KUEhTd25nTS1qN25DR095cGdERUJWenNqRjJEQk9wajZObU1MVWlVZDNzVUFIc3paSmdDR0FEdzlWaS0zQVR6RFpDZ2dzdDNRckV5WkM1MG5lNXpFeDYtUDlKZXAtNnRRaFZjZDNHeUF0cGE4U3h3Uks4RldzZ0VLNXNPYw?oc=5",
+      "published": "2025-11-06T08:00:00+00:00",
+      "agents": [
+        "REGINALD",
+        "LIQUID"
+      ],
+      "feed_label": "bank-stress",
+      "origin": "google_news",
+      "level": "alert",
+      "keyword": "bank failure",
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW_ALERT",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "The first bank failure of 2026",
+      "source": "Chicago Sun-Times",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNTDRFLWg3S1lkN0FWZlFQRkxLQ0I4TW4wQ3pCQ2dDclZ3OFdJUnNvRE54ckZXWEJPQThsbXFxUDQ1c2p1OEMtT1pqSUl4WTkzNUd5R1MxZWsyNHI0eV9BeTFnNE9BbHdyUXhUeE95c0l0U3hObU40Mk9Ma1lRM2M0cnFrV3k0SjBGU1pGSEZuQVR5SXVQbUhtbmJ4bDM1S2wyYmptX3FqU1AzVzM4STNHMUwwMEt1ZTZUZl9SejZsWG12QWZidm01elpPdVZRT0R0c1E?oc=5",
+      "published": "2026-02-02T08:00:00+00:00",
+      "agents": [
+        "REGINALD",
+        "LIQUID"
+      ],
+      "feed_label": "bank-stress",
+      "origin": "google_news",
+      "level": "alert",
+      "keyword": "bank failure",
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW_ALERT",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Chicago\u2019s Metropolitan Capital Bank becomes first US bank failure of 2026",
+      "source": "Chicago Tribune",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQam96RlZVY0tzN2NHNmtoT2lyNVdlQzFqTGNGbkwxRThMYW9rUVlHRE9BMTlxZlpidi1NVWQ5cWJsUTBMOXpCWGUwS2JHdVBIMnhHT0RmT0I1cTZ1TWhHYnd1YUI5YXZaNnpSc3JSdHBvcHNfLXRhTDRCYklkR3dQcXh3?oc=5",
+      "published": "2026-02-02T08:00:00+00:00",
+      "agents": [
+        "REGINALD",
+        "LIQUID"
+      ],
+      "feed_label": "bank-stress",
+      "origin": "google_news",
+      "level": "alert",
+      "keyword": "bank failure",
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW_ALERT",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "US lawmakers revisit stablecoin yields amid deposit flight concerns",
+      "source": "The Block",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNnZfZl9tUGowdDhqNmlrN1dUbjJpU0tibUNwaGF4RGR2RGhLMkQwOW9nRklsQ1NELTI5RFJUcHdiNzVTaThHVWZNS281X1RWSENVbTZnbjFZSUV1TGJqQWs1VWUybEFnaS1ZS3Z0WGZjUC1tT2J5a1E0WGIzREV2cXBFNi1zNm1JcENYM0VvbjNKWlRrdmJ0by14cE1OeHc?oc=5",
+      "published": "2026-02-26T08:00:00+00:00",
+      "agents": [
+        "REGINALD",
+        "LIQUID"
+      ],
+      "feed_label": "bank-stress",
+      "origin": "google_news",
+      "level": "alert",
+      "keyword": "deposit flight",
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW_ALERT",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "A Record Jump in U.S. Gasoline Prices Is Squeezing Consumers",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPTGNJd3NwdUE1b1pFbjZ3OExvdHRWMU1DUDhwUjIzYm5IQk0xMm54UmJIWFNJQ21iMXVHeGpuMFU1ejAzMm1hNWRhY0tWRUF6enVMcTlsSEhEWFk1ZnNTa0lHS18xZE5GM2tKaDlpR1NOM2llTmVZZmxDLUM2V1RKZGxR?oc=5",
+      "published": "2026-04-10T14:04:23+00:00",
+      "agents": [
+        "HENRY",
+        "MARCO"
+      ],
+      "feed_label": "gas-supply",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": "ICE",
+      "entity_info": {
+        "agents": [
+          "MARCO"
+        ],
+        "aliases": [
+          "immigration enforcement"
+        ]
+      },
+      "escalation": "record",
+      "watch_hits": [],
+      "classification": "DEVELOPMENT",
+      "suppressed": false,
+      "source_weight": 2
+    },
+    {
+      "title": "Tricolor executives charged with 'systematic fraud' after subprime auto lender roiled banking sector",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPN3VsaXdPdFhMTVJmb0xBZVJSZ0IxZlFMNUZRSHFJQTB1SnAyZVl3T3FOak9pUTg2QnNaWEJDOTZQWk9ma01XZnBPQzV1M1RPeWZ4MFgwRWZjdGlwcnhJc0ZnZDMzTzZ5d2UwcmkwZXNKSVR5ZjZkekJ5NnZxTE9zUFJuZXdEQUlqQnJHVWUxQW94Qk15QlJXY3ppRFcwOEZKdkQ5ZUxMQlJQcDhRaFk0TW5OMWt0T0VXdzI5M3QzbDRTTlJmcmY5Snh30gHPAUFVX3lxTE56dXFibjhLRmM1V1dTRFBuaGNvVWktUTRGUHBZZjQyNlViX2hDTG9WRGVtdTdXckhQTmpoUHJEcUxRekpzZWJfTXZaSnh5NVNJWHBORl9nYWV4M2ZOalo2UFRYdU56S2xPcDk5M2NrRGpNTWczYk5WMl9wM2xSM1lYRkxfZUdkTXpJZEZ1b0Y0aE1fLWw0U0hFRVNwVFpWQS1KRmQwbUxqYlIzdThrNUQ4OVU3V05fbkdCdnlsV0owMFpKWmQ3blVrNEF2aTdXNA?oc=5",
+      "published": "2025-12-17T08:00:00+00:00",
+      "agents": [
+        "CARL",
+        "OTTO"
+      ],
+      "feed_label": "consumer-stress",
+      "origin": "google_news",
+      "level": "watch",
+      "keyword": "subprime",
+      "entity": "Tricolor",
+      "entity_info": {
+        "agents": [
+          "CARL",
+          "OTTO"
+        ],
+        "aliases": [
+          "Tricolor Auto"
+        ]
+      },
+      "escalation": "fraud",
+      "watch_hits": [],
+      "classification": "DEVELOPMENT",
+      "suppressed": false,
+      "source_weight": 2
+    },
+    {
+      "title": "Record surge in gasoline prices fuels inflation in March",
+      "source": "Bangor Daily News",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVkp6LU1QbmtjSHNDTk83Zk41bmwtdlA1d3FLaFVhT3hiS0FIbXFxR1M0Z25uUDF2aFEyMi03aEFFbXg3R1lJQTFRWllXWVpoX0hzVl9WVkE1a2N2Y18tU3FLaFB3dnZSYmdWMVJDSVpoZnByZjNnby1MdnRoVkJTZG9VZDMtMzkwLVBwRGgycFlpYlI0QzdaUlk0VQ?oc=5",
+      "published": "2026-04-10T15:24:59+00:00",
+      "agents": [
+        "HENRY",
+        "MARCO"
+      ],
+      "feed_label": "gas-supply",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": "ICE",
+      "entity_info": {
+        "agents": [
+          "MARCO"
+        ],
+        "aliases": [
+          "immigration enforcement"
+        ]
+      },
+      "escalation": "record",
+      "watch_hits": [],
+      "classification": "DEVELOPMENT",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "US consumer inflation hot in March amid record surge in gasoline prices",
+      "source": "MSN",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQOVlSMkgtd0dGNmVHYldpVG1ObGZadXdwVlIwWmhWd2k5bkJ4RFEyeVB1Yi1jR2tMNV91OWRWTHV1RUFPUEVOYTVnekQxQ1lnN0I4SnNjbnNpVmU0MDdpa3pzM1k5OGVQaUh2UC1fWXBnRG9WZTR6Y2F5VzUwOWR0ODgtVk5wbFQ0bjdXc2Y1bUxJOFAyTk11Z1VqTmptaXdoNGpjVUJaalVFcGFIUXhjbWZvU0x6YVptb3NYbzQzWHIwMW9TZW5pVUlUc2dOVG1FTWVGckJScldWbmxSYjlILWJtYw?oc=5",
+      "published": "2026-04-10T18:50:28+00:00",
+      "agents": [
+        "HENRY",
+        "MARCO"
+      ],
+      "feed_label": "gas-supply",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": "ICE",
+      "entity_info": {
+        "agents": [
+          "MARCO"
+        ],
+        "aliases": [
+          "immigration enforcement"
+        ]
+      },
+      "escalation": "record",
+      "watch_hits": [],
+      "classification": "DEVELOPMENT",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Deadline Alert: Apollo Global Management, Inc. (APO) Shareholders Who Lost Money Urged To Contact Glancy Prongay Wolke & Rotter LLP About Securities Fraud Lawsuit",
+      "source": "GlobeNewswire",
+      "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxNUGRtVFJ4Q3VvTUQ0Z3BjRTNZVHUwQVQ4ZTc3RVJSRXpyZ3FldTJSMzY2dVUzSkJpTWtfdzF2YXR3QWEtNmVYNGptV1AxMFNGMTYwTE1odnpVaGs1UEQwUldjLXd6T2xBQ0VNb1V1UXZERVVyWThwekZDUDBWNWk0czZ2cF93M1JKMzdIQ1VIVXJBc1o1aFF4dEQxakwzYXlaeW91bm5Oa1V2MWNxRlVtMWlwaldRVWUwYzFmQllnSEp5UkZ1Q1ctbjMxRS16M3FUVnRVN1hEZHhfbjhoUnU2QlE4aDVoR1M2U09RMDNlVGltNUpDbC1Wc0MtRllLcTczTER4MUs5VWZVYmVkdkk2NE1UcEEzc3RlR0RIVURIeHZ4aXVqUXFyWF94dDR3ejZzd21FbkxtbnViQmFTOUFnc3JUYlNjTVhaLXJR?oc=5",
+      "published": "2026-04-10T17:29:36+00:00",
       "agents": [
         "BROCK"
       ],
@@ -95,10 +454,38 @@
       "source_weight": 1
     },
     {
-      "title": "US Junk Bonds Headed for Worst Quarterly Returns Since 2022",
-      "source": "Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUHRmTEdiTmFJek5yNjZfcll6MWM4OWkxUzdUb2V5b252OVRpWFZaWU9Xa01BaHVDOENuc2VES2R2RHN5UE9QYktfLVA4ajM5NWlvMmpQN1VuNF9pM25vMWFmUXh3TmROOURBTDUtTlM2SFdKeTVqNVhQb1JzYnprUjZzM2QwNHE1UnFPNXpLMl9hTHk5UFdwYl9ZcjdkajNETUFSVmxpbUJqRER2dmRN?oc=5",
-      "published": "2026-03-31T07:00:00+00:00",
+      "title": "Oil Price Shock Drives 140% Surge In China's EV Exports To Record High",
+      "source": "ZeroHedge",
+      "url": "https://www.zerohedge.com/technology/oil-price-shock-drives-140-surge-chinas-ev-exports-record-high",
+      "published": "2026-04-10T20:15:39.439505+00:00",
+      "agents": [
+        "ALL",
+        "MARCO"
+      ],
+      "feed_label": "zerohedge",
+      "origin": "web",
+      "level": "normal",
+      "keyword": null,
+      "entity": "ICE",
+      "entity_info": {
+        "agents": [
+          "MARCO"
+        ],
+        "aliases": [
+          "immigration enforcement"
+        ]
+      },
+      "escalation": "record",
+      "watch_hits": [],
+      "classification": "DEVELOPMENT",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Don\u2019t Toss Junk Bonds Out With Private-Credit Debt",
+      "source": "WSJ",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcTlOUXE1R1hoT1BEakthMVk1N1V2VmM0bmZxcDVsOWxRWGNEUEhNb1Vpb0I3Q0ozNC1meEFBTVdodjc4cXBtQVByNk5GMk1VelZkMVdIY1VWM01GWWtuWUpuNklxUzV0a3FMQjJXc0Z5bnhiWGJ4TWg1MThnaEVEMkFfNUluMHFyZHdVV3JNQQ?oc=5",
+      "published": "2026-04-06T09:30:00+00:00",
       "agents": [
         "LIQUID"
       ],
@@ -115,194 +502,1522 @@
       "source_weight": 3
     },
     {
-      "title": "Private Credit Funds Outside US Stress How Non-American They Are",
+      "title": "Credit investors flee to safety, pulling nearly $14bn from junk bonds this year",
+      "source": "Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORFhNamlZTTNqSmlRclVPTGNlelkzcUV2SmF3Y3pXcUtxX2FLemNrS2hmdmtmdUcxeGVkMkRRVTFHTG4tc2R3VFBBakkxT1BlMFlRQnY4aDR1OGdvWjlmblU3bUhnREJnbzAtb0FyaVg5eDNRRTRmTFdEVjJIeGg5VGs2ZVM?oc=5",
+      "published": "2026-04-03T04:01:33+00:00",
+      "agents": [
+        "LIQUID"
+      ],
+      "feed_label": "credit-spreads",
+      "origin": "google_news",
+      "level": "watch",
+      "keyword": "junk bond",
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW_WATCH",
+      "suppressed": false,
+      "source_weight": 3
+    },
+    {
+      "title": "FirstFT: Credit investors flee to safety and pull billions from junk bonds",
+      "source": "Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUUpJY1ZiSXREakFsVF9DX2hwWkpSU0U0RG05UXcxR0o1bkM3UHVTMGVoTDBrdjI4aHJ4YVRUQVlEVTFSWUdOMy1PQ3ZKQzZCUkFwd3Nnb1VCZjJHSVNuZzhNR184Qjh4Zzc1Z1p5UGFNbXl5WjZPazQ0SEluZi1qYjBCdFA?oc=5",
+      "published": "2026-04-03T10:08:49+00:00",
+      "agents": [
+        "LIQUID"
+      ],
+      "feed_label": "credit-spreads",
+      "origin": "google_news",
+      "level": "watch",
+      "keyword": "junk bond",
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW_WATCH",
+      "suppressed": false,
+      "source_weight": 3
+    },
+    {
+      "title": "Leveraged Loans Are Outperforming Junk Bonds By Most Since 2023",
       "source": "Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNaVYtalFIeU8zRHRYR2NibkFIdXhXY0dOSlFWLWJENXdaWHRWQ1dNTzRtSV9QVTAwajltemlUQUcyenFwakFtbGhMZlp2WUtxVEFMdjJZWmRqZFRXc1hGN2lPXzhUbUc3UmxRLWtlV244b2syYnVnZUlPN25ZMjZwa3pRd0MzR3BpSTNoTW8xOUZ5aHhHT0R2VzVQM1dwOFJPLUcySy04cDNPZmk3VUt2eGotb19SUQ?oc=5",
-      "published": "2026-04-09T14:27:46+00:00",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRGVhZGdld1dCVGdjYS14ZXgyeUJHaDNEdm45eDd0Q0dUMUlFTzI0RmVrRlZoTUp5RjEyU2NaanB4Y1lPbHpodWpRelBiWVJYVGhfV2txNElOSjlWS2hLaU5mOEJJTDdLUFE5RGRFSE93UWkwa0g1NHB1VlNJU1BmOWxIdW5NU3o5MFdNYVhLZGdHdlpwVUZ4NGtuM3EwLU5EMWlYZkVSMnh2emdzbzEyNVJSQW4?oc=5",
+      "published": "2026-03-27T07:00:00+00:00",
       "agents": [
-        "BROCK"
+        "LIQUID"
       ],
-      "feed_label": "private-credit",
+      "feed_label": "credit-spreads",
       "origin": "google_news",
-      "level": "normal",
-      "keyword": null,
+      "level": "watch",
+      "keyword": "junk bond",
       "entity": null,
       "entity_info": null,
       "escalation": null,
       "watch_hits": [],
-      "classification": "NEW",
+      "classification": "NEW_WATCH",
       "suppressed": false,
       "source_weight": 3
     },
     {
-      "title": "Why BlackRock Is Weathering the Private Credit Storm Better Than Peers",
-      "source": "WSJ",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTlRnM0hOUHg4alFsTTRBR1BsRlNfaHhkekkxUms1ZFppOEVzOHNzVjl2LUV2TC03dkItZXpoSjcwQ0x6SXdLeTdhOXQ3SURON2dndFdpdUE3RzRpQmV4U1lzeERUREFYT3BET2JYUWNQaWpaT09XOGlwV1VkbVN0V1VWbnBqUDh4d0VsS20yblVqejVyOURNcWFUTGxqS0s5TkdCdVRyYURYMTJYcUVIMHhsQmVmLWc3?oc=5",
-      "published": "2026-04-09T00:00:00+00:00",
+      "title": "Record Missed Car Payments Fuel Angst Over Subprime Auto Lenders",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYUg0UnBPX1RNNmlvT3VhSVE1RGY4eWFJSE1xaXhQaW4tMHhadHdBMDE3YTdUbWM1dDlVVlNpdVVfYm9FWGJycFRMYnpXQS1TWDgtZlhrdFYwcXFsS2ZaelZXSXdmb0V5SmhsWWcyZXQzRjdQdTYtU2hBclN0QTZRLWpiUmk3LUpaR1dpUm5nR0hlRlM0THRVRXJPcS1iU0pxUmhsN0hUd05vLV9DbFR0RjFwWTRDdw?oc=5",
+      "published": "2025-11-14T08:00:00+00:00",
       "agents": [
-        "BROCK"
+        "CARL"
       ],
-      "feed_label": "private-credit",
+      "feed_label": "consumer-stress",
       "origin": "google_news",
-      "level": "normal",
-      "keyword": null,
+      "level": "watch",
+      "keyword": "subprime",
       "entity": null,
       "entity_info": null,
       "escalation": null,
       "watch_hits": [],
-      "classification": "NEW",
+      "classification": "NEW_WATCH",
       "suppressed": false,
       "source_weight": 3
     },
     {
-      "title": "Delta\u2019s 2012 Gamble on an Oil Refinery Is Paying Off \u2014 $300 Million Boost",
-      "source": "Skift",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOY3pqTWZJSmlpOFQ5Rzh4LWItOExpbk43XzNBR0Y0QWNPLVczUG5wWFhiZVc0VWstVGJLaEotSEdJWlN2RVVQeVoyaF9RY2o5N2RaTkI3cDI1RmZEY21JY2VicHVtcFNmcEVPdl85QnBDX2pjSEN0OTFydFpNQ3lra3hsMThxT0dk?oc=5",
-      "published": "2026-04-09T18:03:16+00:00",
+      "title": "\u2018Garbage in, garbage out\u2019: Weak dealer data threatens subprime auto funding",
+      "source": "Auto Finance News",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOYmV6aVFkT1A2eUpIS2lWamExVkxGRHFCQ28tVE1uMzVlUGJEeHlkTGF0UUx2T0Y5Rm41U1EyVExfMmFSeUNXaHJXN1Z1aUZmcnBpN1JSRE5iSHQzdTVjTUJ5UWdxQWZ2c2NUQm5sRHpHdFZMYjQyZDBBaWxFTGJDZE5ISHlOMWxFdEhra285dFdZU0w0eVRBQXlSYzl4NGpTbHQtRDl1d0Y4REZQVmFnZXB6X0ZfVTV0bElYNmRDZWNMWVIzaTRWQQ?oc=5",
+      "published": "2026-03-31T21:42:58+00:00",
       "agents": [
-        "HENRY"
+        "CARL"
       ],
-      "feed_label": "gas-supply",
+      "feed_label": "consumer-stress",
       "origin": "google_news",
-      "level": "normal",
-      "keyword": null,
+      "level": "watch",
+      "keyword": "subprime",
       "entity": null,
       "entity_info": null,
       "escalation": null,
       "watch_hits": [],
-      "classification": "NEW",
-      "suppressed": false,
-      "source_weight": 3
-    },
-    {
-      "title": "Attacks cut Saudi oil capacity by 600,000 barrels per day",
-      "source": "FT",
-      "url": "https://www.ft.com/content/5fa84873-0c45-462d-9f8b-3adbc9f0a164",
-      "published": "2026-04-09T19:04:17+00:00",
-      "description": "First official confirmation of scale of damage done by Iran to kingdom\u2019s energy sector",
-      "agents": [
-        "ALL"
-      ],
-      "feed_label": "ft",
-      "origin": "rss",
-      "level": "normal",
-      "keyword": null,
-      "entity": null,
-      "entity_info": null,
-      "escalation": null,
-      "watch_hits": [],
-      "classification": "NEW",
-      "suppressed": false,
-      "source_weight": 3
-    },
-    {
-      "title": "Trump officials deny threatening Vatican over Pope Leo\u2019s criticisms",
-      "source": "FT",
-      "url": "https://www.ft.com/content/1e172f5e-b45a-422e-a5aa-70e8bba506d6",
-      "published": "2026-04-09T17:52:25+00:00",
-      "description": "Pope Leo XIV has become increasingly concerned over Washington\u2019s military policies",
-      "agents": [
-        "ALL"
-      ],
-      "feed_label": "ft",
-      "origin": "rss",
-      "level": "normal",
-      "keyword": null,
-      "entity": null,
-      "entity_info": null,
-      "escalation": null,
-      "watch_hits": [],
-      "classification": "NEW",
-      "suppressed": false,
-      "source_weight": 3
-    },
-    {
-      "title": "Some bad actors in private credit not the entire market, says Hamilton Lane's Erik Hirsch",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNa0tMb192emtkUEZMZjJxTm5MMkJJRFpFYURUMHBkRWJWLUVVbWdRSkVld1ZvNnF4SDFuYVlLWV9taUM4cWVtTjdZS3VMRy1qcHVKckQ2MGFlR2JSOWt3NjV2cXA0R1BhQjNFQTF4aGg0ZWpFNklsdlJJdUNvcHBkMzNqX2tXdmdwTmVJRWZIZHluOXRJc2hfcGM1VUxCbzF2ejg0QUNmbzNfUmVfVENPRG15UFoxTnU1SmsydkFrdmNLRzRFbGE0TnNn?oc=5",
-      "published": "2026-04-09T18:58:09+00:00",
-      "agents": [
-        "BROCK"
-      ],
-      "feed_label": "private-credit",
-      "origin": "google_news",
-      "level": "normal",
-      "keyword": null,
-      "entity": null,
-      "entity_info": null,
-      "escalation": null,
-      "watch_hits": [],
-      "classification": "NEW",
+      "classification": "NEW_WATCH",
       "suppressed": false,
       "source_weight": 2
     },
     {
-      "title": "Israel to hold direct talks with Lebanon, Netanyahu says",
-      "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/cge0xre3d27o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-04-09T20:04:28+00:00",
-      "description": "The announcement came after a massive wave of Israeli strikes on Lebanon on Wednesday which killed 303 people, according to health officials.",
-      "agents": [
-        "ALL"
-      ],
-      "feed_label": "bbc-world",
-      "origin": "rss",
-      "level": "normal",
-      "keyword": null,
-      "entity": null,
-      "entity_info": null,
-      "escalation": null,
-      "watch_hits": [],
-      "classification": "NEW",
-      "suppressed": false,
-      "source_weight": 2
-    },
-    {
-      "title": "Prosecutors seek Tiger Woods' prescription drug records after Florida arrest",
-      "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/c77mz26ed80o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-04-08T22:46:58+00:00",
-      "description": "A legal order seeking the golfer's medications - including dosage and warnings about driving on pill bottles - will be issued later this month, court record shows.",
-      "agents": [
-        "ALL"
-      ],
-      "feed_label": "bbc-world",
-      "origin": "rss",
-      "level": "normal",
-      "keyword": null,
-      "entity": null,
-      "entity_info": null,
-      "escalation": null,
-      "watch_hits": [],
-      "classification": "NEW",
-      "suppressed": false,
-      "source_weight": 2
-    },
-    {
-      "title": "For CalPERS, private credit investments create unnecessary risks",
-      "source": "Orange County Register",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdG96Z0ZnWDJoSERCRjIxQVVVUUNOeGgtTEpFY2ZJRy1qS0hxODBIYjZZano5cFJEbl9TS1dVNkxMQTBpZlNvYndSXy14NGVneEF0M3l1S3NaMFlBQjBqWnFjN1dIMkdVdHJmUi1lUmJfQ0ROdTdHR2xNZmFCenl5MmpyUklLeVF0MUhiX2tUWmpFVnotdVp0ZnVuOG1FOHIxazBtWA?oc=5",
-      "published": "2026-04-09T17:55:31+00:00",
-      "agents": [
-        "BROCK"
-      ],
-      "feed_label": "private-credit",
-      "origin": "google_news",
-      "level": "normal",
-      "keyword": null,
-      "entity": null,
-      "entity_info": null,
-      "escalation": null,
-      "watch_hits": [],
-      "classification": "NEW",
-      "suppressed": false,
-      "source_weight": 1
-    },
-    {
-      "title": "Harbor Group Brings Real Estate Private Credit to CAIS Platform",
+      "title": "Non-Listed BDC NAV Tops $200B as Liquidity Pressures Broaden",
       "source": "connectmoney.com",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQTRvYTlFcE1EREhmNWo0dVVWRU9NaW9ZZ0djSWc3MkRTT2dOLUwta2pwZHJ0VkpPaURHZmcxWmJTSEtVLXhrOEJWVWpJdHh2bTRLYzBqUV9pNnhXalFRaXEtaWFDUk5nWW1idUgxMTNuTGVnNzNFaklwbzJ4bFBKcWZIekIwWU5IQTg0ZkpHdnc3OE43WnhPekZDdVQ5U2huSTJZ?oc=5",
-      "published": "2026-04-09T17:47:44+00:00",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZER5dEwxS2pONFZDRlM2LTQzbTdJMGlDcldXR3RnU3dJSGxqQmN4bnNxV2N5VTRPR0lyTTZGd3ZYS0VNU29xTnJjeURzTTliYVRBejJOa25aenhaR0tlS0pVNEgtVmIwMW1DbXYtbTlKMDRFWlBoNC03d2dVQUc1V3c4eS1hYkx0RVItUVBoOU94VDAyaGpfeFk3VHdSQQ?oc=5",
+      "published": "2026-04-10T17:37:57+00:00",
+      "agents": [
+        "BROCK"
+      ],
+      "feed_label": "private-credit",
+      "origin": "google_news",
+      "level": "watch",
+      "keyword": "BDC NAV",
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW_WATCH",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Top Companies that Announced Major Layoffs & Hiring Freezes-2025 - 26",
+      "source": "Intellizence",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNaWxJMW1sTjUwRVNKSXpQWHN3OWFieURKZWlHSGF1MVFMdUl5Z0FkRE5zb2J0allacVZQYWplSC1HNXhENjJwbnIxMEN2ZkRNODhHLTIxQXNqWUxkZXUzbnVKMXNvQnRLVUhtY1hIMUthX25NcW95S0RDRzg4ZEttTW5IYmRncm41RTVHNWdpYy1RS1ZuNFpaQnVIS1U?oc=5",
+      "published": "2026-04-08T07:00:00+00:00",
+      "agents": [
+        "LABOR"
+      ],
+      "feed_label": "labor-layoffs",
+      "origin": "google_news",
+      "level": "watch",
+      "keyword": "hiring freeze",
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW_WATCH",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "CoreWeave's newly issued junk bonds surge as investor optimism rises",
+      "source": "Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9hd29Fa0Z2UEZHUnZkYmN2dzBPNklFenE5VnNPWlR3T3Q4RFpicmxIbTBneGJLdzZwdlNsVURpYThUeHFHbU5IUENKTmhOX1ZodDdHbmhiRkEzbGJKejVqRDZMMNIBY0FVX3lxTE9hd29Fa0Z2UEZHUnZkYmN2dzBPNklFenE5VnNPWlR3T3Q4RFpicmxIbTBneGJLdzZwdlNsVURpYThUeHFHbU5IUENKTmhOX1ZodDdHbmhiRkEzbGJKejVqRDZMMA?oc=5",
+      "published": "2026-04-10T14:19:23+00:00",
+      "agents": [
+        "LIQUID"
+      ],
+      "feed_label": "credit-spreads",
+      "origin": "google_news",
+      "level": "watch",
+      "keyword": "junk bond",
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW_WATCH",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "AI Collaboration Boosts Market Confidence as CoreWeave's Junk Bonds Garner Strong Demand",
+      "source": "\u5bcc\u9014\u725b\u725b",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUUI3cUh5MWJPYUJJMWF2RV9uN1dSOUNNWVZIby16Z0tSajZkWks3b0F5NWNJV0JiTVNJNEZrakc4N056b09aeTBOMDk4eDNzN0lLSXZsbFJkN1RqVDZBQ2lOLU9Ga0ZDenZSVjlqLVRkZDVEa1JtcjZLVUFqZlN4aEJQVUVRZjNRMTcyV1VLeEc0Z3lwbzBLVU9DSmo3QXZ4X0lBRENQd1B2bDh1?oc=5",
+      "published": "2026-04-10T15:32:34+00:00",
+      "agents": [
+        "LIQUID"
+      ],
+      "feed_label": "credit-spreads",
+      "origin": "google_news",
+      "level": "watch",
+      "keyword": "junk bond",
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW_WATCH",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Pump the Brakes: What Financial Regulators Should Consider in Trying to Prevent a Subprime Auto Loan Bubble",
+      "source": "California Law Review",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPcmdGUE5BekVlMkRtc0ZsRzMzVzU1bzBYUkRXaGJDRl9uME94cEt5UzRTNmxTZnRaSFhDME1lNlQtY0dUdW9Sd012VWhGdlJkVXlDcFZYYWJnVm1vQ3JLVFMyeWZSYXFHMUVFNVVya2c4Y2FCcVlLQVBoeEJvbjRRckxnN1R1Zmh6TFE5dFltMllJdzliaTVBa2xKOW9vY1FxaFVJQnRqbUhObF8tcngyN3RFbnhraWUyWnFrTnpfQWpNMjAxLW9nalgxUVlQaE9TVko2VllzSGV5MzZqVkZ6UUNn?oc=5",
+      "published": "2026-03-31T07:00:00+00:00",
+      "agents": [
+        "CARL"
+      ],
+      "feed_label": "consumer-stress",
+      "origin": "google_news",
+      "level": "watch",
+      "keyword": "subprime",
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW_WATCH",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Subprime auto loans fall as lenders tighten credit in Q3",
+      "source": "WardsAuto",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1KeFVtcDN2TGRBMnhLbGRhNlJid1RVTGIzUnY4Y012V0JGcGxLbzdVNFNhY280MjZWeF9hT3VQYzJGWE5SOEdWenhqMUd4R253dmh4bndVNWhfV3dtT0VTYzVYUEtVcC1wbTVITGRPLU94dHZwMmV1MC1pbw?oc=5",
+      "published": "2025-11-12T08:00:00+00:00",
+      "agents": [
+        "CARL"
+      ],
+      "feed_label": "consumer-stress",
+      "origin": "google_news",
+      "level": "watch",
+      "keyword": "subprime",
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW_WATCH",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Subprime auto financing stress is adding pressure to loan approvals",
+      "source": "Car Dealership Guy News",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQWxKd3Zib2RMbl8wY1BnRUhfR2FmeGtLS1dBV0JHa0Q3eE9FTWpHLWE0UVlPSGFoRGMxUUZrZ1VkMnhjY2pBcjF4b3haT05UOXZXcXI4UUJFVVpnYXBnRUFsRkN0MXFKaUpFMW00TnJqN2hhajRiVzZNRDY1YU1McGFhZGx5MGU4TC1rNTh3R2s2M3lvUUJ4OWFrWUtiaGZoSGtzRWU4TTNXY3VPQmU0Mw?oc=5",
+      "published": "2025-12-23T08:00:00+00:00",
+      "agents": [
+        "CARL"
+      ],
+      "feed_label": "consumer-stress",
+      "origin": "google_news",
+      "level": "watch",
+      "keyword": "subprime",
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW_WATCH",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "CPS's $335M Credit Facility Growth: A Structural Boost for Subprime Auto Financing",
+      "source": "Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5tbXRVdkNyOU9jR0dRQnAtbHdQZVV6RlJNVkM1VmZ1LWN5aC1VZEQzOEV3ZFNkaklxQi1ZYU5VNUc5MW1WQlBlQWtiWU5od0YwOUNFRW1nUFFtbE94WVHSAWNBVV95cUxNLUNtWDBvVVd3alRfVVNqMVgwYVlSUElmWU56NE5XQnE1MnBzd2tJaTA5dUxwTVlyQ3hwc2kxM3BheW5qd3o1Tm5TZ3RYX0RIVkRZUkhrSUl2ZnNjQ19UYlNaRTg?oc=5",
+      "published": "2026-04-06T03:27:41+00:00",
+      "agents": [
+        "CARL"
+      ],
+      "feed_label": "consumer-stress",
+      "origin": "google_news",
+      "level": "watch",
+      "keyword": "subprime",
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW_WATCH",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "A major subprime auto lender suddenly collapsed \u2014 raising concerns about the industry. How it could impact borrowers",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNLTZmR0NwaWlnVDFmZFZDYkFPTkUzNVZKMG9SalNuWHQtZUZUTS1MamRmcnVGWkVQRFh0aVZfTEJieDk1eEVyaWd1ZnBGcS1mYW9vY2M3Uzh1MlhqLWdnMDJ0cmlRRmNSaFhOSGpBclZzMVBBcEpGampOb2xLUHJtX2xlUUxhVDNv?oc=5",
+      "published": "2025-10-04T07:00:00+00:00",
+      "agents": [
+        "CARL"
+      ],
+      "feed_label": "consumer-stress",
+      "origin": "google_news",
+      "level": "watch",
+      "keyword": "subprime",
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW_WATCH",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Subprime Auto Lender Files for Chapter 7 Bankruptcy",
+      "source": "ACA International",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdEhHZWxNM0w2LUFVZG43Q1h1NW16aC1PV3kwWHRzNGpleGtGR2FBX3hiOWtiNHlCT1FBdlhkbHpuWjlLQ0FWeVE0eGE2Zk9iWGpzNjF4b3FDS3BxWmtGMnpkZ0w4c25lUzh3bE1KejBnSUw5Q3hac05Rbl9JQzYzQkpzRUFneVVaQjZFMThYNXRmanhi?oc=5",
+      "published": "2025-09-16T07:00:00+00:00",
+      "agents": [
+        "CARL"
+      ],
+      "feed_label": "consumer-stress",
+      "origin": "google_news",
+      "level": "watch",
+      "keyword": "subprime",
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW_WATCH",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "It\u2019s time for private credit\u2019s spring cleaning",
+      "source": "Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPb3BfNnQ4S3lGc2NfWXVfRzVWNFJZYlZqdm5DcFRPRV9nRVZYUFgxZTc5SlVtTjNOMEdYV3ZHZEsxSXhrSEZBUXhkN29abktCWGFPajBKOXlDdUJSc19TRzNkcEN3alM1SC1xeS1OZGozLXp6cThjT0NEYlo3dnk5blJVOGo?oc=5",
+      "published": "2026-04-10T04:00:20+00:00",
+      "agents": [
+        "BROCK"
+      ],
+      "feed_label": "private-credit",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 3
+    },
+    {
+      "title": "Goldman Sachs' private credit fund defies sector-wide spike in redemptions",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNd0tTZldiSVdKMkdqcndGbFM1a19PUUxwYXpaNjRyaGJrNDNUR0dWVzBNMHdpREc5RjV0c3NTNEtMeEI2WGE5djZGSjBCYVZOazFXQTI1WkNXNzFqNE1RdWdJeF84YmUxbml4RGQtV1RsUGpiTmUtTVh4QVpzR19hSHhlWllQaTB6N3RuWXdOdUU2dkF0SS12Y1ZNTWV1eWY5TEY1eUhESFhCcEZDbk5jbU4tNXNUWWtWdGdrWnQ0dkozWTBz?oc=5",
+      "published": "2026-04-06T13:46:48+00:00",
+      "agents": [
+        "BROCK"
+      ],
+      "feed_label": "private-credit",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 3
+    },
+    {
+      "title": "Japan rules out major domestic risks from private credit for now",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaVNYZklrZDBkX3QxWXRQcTVzYlp1YVphUFB6dE53Yml3aVJ1N2Rlekh0akVYMm1nN0tqN1lhZUFwbloyYm05dkJ6TFFXMjBqWE8wSW1nZExtczJkRUJIV2JURmdMdUNnY1B4cjA1MjloNk1uUmRQbEFISjlfSEI0UEpJZXhMOTJKU2JqMWgtbjcxeXRjWVZneExiTVF5UzVZMzBTZlNxU21UUzQw?oc=5",
+      "published": "2026-04-10T01:33:00+00:00",
+      "agents": [
+        "BROCK"
+      ],
+      "feed_label": "private-credit",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 3
+    },
+    {
+      "title": "Private-Credit Worry Sparks Slide in Booming Part of Muni Market",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQc2JrM1JLVlJ5eU1BTlktclBCaXZ5eGstRjljWEk4bVJwbGNSRldVVzhjLXFkdm5UTk8tTlZabWVnNHkyUUppVFdsT1k3X2RhVjBRTTAySXdvdHp4VnBoTEwxbmt4a2dyUUpXa2VZZDdqbDVZbzFMZ1hEcDVEdDhFblFtX09aU2c4OHZRT2xqZ0p0TDF4aUhjdHpteXVONjFnSjFDX1RhVVpfTUhYc1pjZF9HWmZDZw?oc=5",
+      "published": "2026-04-07T17:20:08+00:00",
+      "agents": [
+        "BROCK"
+      ],
+      "feed_label": "pe-insurance",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 3
+    },
+    {
+      "title": "TotalEnergies, Aramco Refinery Shut After Being Damaged Amid Iran Conflict",
+      "source": "WSJ",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQ2RHQmhjME55Mi1NQ1lHUlM3VFpIeEZzcEFFM2YzNUZJRjB1MWJ6X0h4d1NYVS1WMzNvNi1KRDBtenQxUW84OVFLd0pjazNyTlJONW1wTGg2NGxJaXFtYzIxVXVuT0R2WEZJOHBQY0Vva0pQV2NSVVppQk5laHhVVy1aVFJqNmhzR0x3UmJJcWplYUJxeXpEb01ubjdaRm4wX2pPS1FOc0cySUZTeFJlUUtRaHhpVmd3U2VYUA?oc=5",
+      "published": "2026-04-10T09:09:00+00:00",
+      "agents": [
+        "HENRY"
+      ],
+      "feed_label": "gas-supply",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 3
+    },
+    {
+      "title": "TotalEnergies says SATORP refinery in Saudi Arabia damaged after incidents",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdEdDZ3g3TDV5eVNUZXRFNEtYYzY3SVU5dDZfblRIWVlfaEREWG5Ed0Z2akw2Z2VOQV9TcXRpNzNkR2hEc3BMNUY1R0pISzJpMXk3VWlBWk5Gd2llb01jRHZFcmd5M2lpWmVlaFg5cGRrTkJOTEF4OS01MU51QzYyLTVIMUh6bHRqS3VKbl92ODRHdW5tTkFUOElCX0s5YTNRX3paRnV0OGlpcEtDLVhNVFkzR3hGa0w2dHhrOE44U0w?oc=5",
+      "published": "2026-04-10T09:07:17+00:00",
+      "agents": [
+        "HENRY"
+      ],
+      "feed_label": "gas-supply",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 3
+    },
+    {
+      "title": "Valero Pulls Back on Mexican Oil After Texas Refinery Blast",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcWhSMDB6cFFtMll1dHM0Wkh1a2FuUUEydXhEd2NqbmVGMmxocjVicXZGbTFwV21TZ2UtbWtoaVYxZXg1Y0Utakc5R25PeWVrN0JfRmdseXNobzRpWlBneXl5YVlwbDhuVlIzQkx6a2dCRS1wSDNONG5wRkdLZG5ldzZlc1dfeXBQQk1STmRxdGdiZDAyZGVyak9JOHFiUmxzSHhELWYtd1NtY3B6TjJr?oc=5",
+      "published": "2026-04-10T16:35:15+00:00",
+      "agents": [
+        "HENRY"
+      ],
+      "feed_label": "gas-supply",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 3
+    },
+    {
+      "title": "Berkshire Sells \u00a5272.3b of Yen Bonds in First After Buffett Exit",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUV9UU185VHVpMzY4UFdKTjZKd0ZuYmd3aldhb1M2MVRubnc3c0YtZllPSkxWczJhdUxqMEFadS1wMm1Jdjl5WmFRWFdBZWhuRkUtWXdId1E0U1lmN1NWMm9FblZNVV9SYnNLSzNacnZHeWxZamRIbzJwV2I5MnAyTWlJMnBLVTQzZGs3LS1GajhUdTRJMEtQaF9FN3YyczBlNmt1aWhSWmdBLXA0eExHRnh0T0o?oc=5",
+      "published": "2026-04-10T05:06:00+00:00",
+      "agents": [
+        "SAM"
+      ],
+      "feed_label": "japan-boj",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 3
+    },
+    {
+      "title": "Exclusive | Disney Planning Layoffs Under New CEO Josh D\u2019Amaro",
+      "source": "WSJ",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNVnhhU0ppVUozazlhVV9WR2ZabDdIaTRNcHVUZVpramNTVW9vX09LeXlna1Axb3d5VjR4dmpCVGZKX2g0dG5Xd0tET2VQajVzX052dEVfYzdNUXZVakNvdFJnM3VfVHBacVlLYUc0MTJtSzFtSGJLWnRmUWgyYjljdHZiWWpwNW5EemhnYnpEOHlpZw?oc=5",
+      "published": "2026-04-09T00:15:00+00:00",
+      "agents": [
+        "LABOR"
+      ],
+      "feed_label": "labor-layoffs",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 3
+    },
+    {
+      "title": "US employment growth likely rebounded in March, war casting shadow over labor market",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUkhLeXpUbTgzeDJzNFllTHFPcFlnRTZJOHhsalo0MEotLU13MEVaUFp0U0NaclR0ZFhQa1Q1M05ZRXpZX20xR2MyWm1BdWhfRF9DVDVuNUtiOGR6X3B5OXhud0FrZWVoTXkzNjhYeFZRMEx3S2lCSUZZRzBDTDNtSGRPWjZtWFBNc1IxLU1hTHlxd1l3Q2FjSXIxWi1peGhCRjloVWl6cV9jWVlOWkNtd3ZDWlc0cmJ3UGFyVkVBZmJRNms?oc=5",
+      "published": "2026-04-02T07:00:00+00:00",
+      "agents": [
+        "LABOR"
+      ],
+      "feed_label": "labor-nfp",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 3
+    },
+    {
+      "title": "Andrew Bailey Warns Iran War Is Compounding Private Credit Stress",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPT3hKZHE3TmZiOGZJWmJkYmlVcXNvSVgwYjJqV1BYeGxfUVVuakhKNFMzb2Y2Um9sVEFJQTlfYURNVTJGaENEcDUzV0YyNU5vdUxfcEstWmRYOUZ6Z24yd3Q0QXB1RzFNVEhhSTFGa2h6b25LQThYdTlXaXhBcVU0S3k3V05xMVNyQUFiQnBVTkxqWll1UGVHdjFwNjhTbngzZmpJTlZDMnM4RnUwaHU2WVlQYjc3dw?oc=5",
+      "published": "2026-04-09T09:16:01+00:00",
+      "agents": [
+        "LIQUID"
+      ],
+      "feed_label": "credit-spreads",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 3
+    },
+    {
+      "title": "CoreWeave Tapping Junk Debt Market After Meta AI Computing Deal",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVUxUOFpCZ3U4UUVPU1VFOXl4eTdsOEQycUR5OWd6SlJXV0ZKdlZIZy1xclhlWkt6Z3ltaGZ3TGhZc0E2NHJzbTFjbGhNdXVYNy1NamUyRVRJNGx2cXpKZFFmSm8zcUEwOVNPMG52amExZ0NuN0F0RXU5YXBiZ2dqN1VLZHYta2hnN3liSUxxMjZkb2VsVkJNNC1PRUQ3X2xQdTRsREFOYzdPVzhYQktlS1dGTko?oc=5",
+      "published": "2026-04-09T19:22:13+00:00",
+      "agents": [
+        "LIQUID"
+      ],
+      "feed_label": "credit-spreads",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 3
+    },
+    {
+      "title": "Global watchdog flags risks in $16 trillion government-backed repo market",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQYlN2aVg5YURtZURzSmtoaDhXZjNVWTU0dTdOMGxvNlhWVEF3TEZ6UGRxSWszSkFCUzdqOXU2ZW4xalEydXprdndTZGlFcVVYQzJrbFF5RDA1bUNnZU4yTkFqZ0huNEZfNVhubEVQWTFKT0NibTYySEhNWXNSRlZmNTRjVHRtdTB5c3VaOUFJNmRGbDQzMXpLTUlXazg2bGU5QVp4NngxazhOSnZ6eDNjbjJqbXBVRi03QVFUamtwOWU5dUpoQVExOTNWaTRRWHdjSUt1cW5zY3lMcmZFOHc?oc=5",
+      "published": "2026-02-04T08:00:00+00:00",
+      "agents": [
+        "LIQUID"
+      ],
+      "feed_label": "funding-stress",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 3
+    },
+    {
+      "title": "Freed From US Punishment, Wells Fargo Bolsters the Repo Market",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONTJGUjEyYjV3TGNVSzFUTlhXLXlsdEZEVEIzS1lCdzdsWklsVUVwQVoxRHFxQk5wa0F5WWJDeDNmd01FeUd5XzdkTFZxU0RwS19OMk5senpTS0tQRmlGbU9oZzdUZ1hud3MybmJ0Vkxxc3JDNjNUQkI1YkpER0tVMnNVeXBhRHVoa29DRzBGZzVvWGg1S2EwQlRQRVpLRGd6NTVvcHM4cHJHclJsU1o5R2JubnoyOE1aQzFMYg?oc=5",
+      "published": "2026-03-31T07:00:00+00:00",
+      "agents": [
+        "LIQUID"
+      ],
+      "feed_label": "funding-stress",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 3
+    },
+    {
+      "title": "The Fed - What Happens on Quarter-Ends in the Repo Market",
+      "source": "Federal Reserve (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQOHBZM0N2VG4tU0Zfbk9nSl9iZVg0QktqMVIzQjQ5LUJ3ZTZJekJPbkNLb1RnSUprN2FpQXJ2YnZaRXc4WGU5VGVybEQ0a19KZllXb0pLeTlEYURPVEptME10UGdQS3N6VlNDRlRobzNsdkxOZlNzLXEzTjRNR0dPN0NpRjk0cEVEMXJ3MHlrcXh3UUZNNTV1YTA1MVpRLUx2cUwwLUN1MXdWb3Qta1pPN3U1QjVJajBH?oc=5",
+      "published": "2025-06-06T07:00:00+00:00",
+      "agents": [
+        "LIQUID"
+      ],
+      "feed_label": "funding-stress",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 3
+    },
+    {
+      "title": "Failed Bank Information for Metropolitan Capital Bank & Trust, Chicago, IL",
+      "source": "Federal Deposit Insurance Corporation (FDIC) (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOczdnV21aVUQ0cE9YYkNfTll4bHlZbm8zM3dWQzdvR0psYWI1cllMNzZNN1ZrcldmLTRTaTR2aUVMaUhNQVpHdW9lTHJ3VkRLcG1JbENTQzZwWDh1Sm80WkdSN3ExQ2hpODI4bWVXRW92MlozeEhZWTdiU01UekwwaHloT1ZBNmdIUzFF?oc=5",
+      "published": "2026-02-24T08:00:00+00:00",
+      "agents": [
+        "REGINALD",
+        "LIQUID"
+      ],
+      "feed_label": "bank-stress",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 3
+    },
+    {
+      "title": "The Broad, Continuing Rise in Delinquent U.S. Credit Card Debt Revisited",
+      "source": "Federal Reserve Bank of St. Louis",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPck9odHhwa3FYYjVJcjJmVjYyeWtpXy1Zb0R3cmkyc0o3bnU5UzFlT1hFdGRpb0FOc1B3TGRYODJNNno3Wjc0R3NfamZKVGljT0VyQldVelBjNldxSkdkSEhLU291WU1CZFNqMlZaeG5lYUR4YjBrZUNva1FmdWhEWGxNQng4ZWlXbGc5RHY2LWJnYlFteGwzSHB3Ylp2YldJcUJMU0R4YzhFTkJzRDVydVp6RQ?oc=5",
+      "published": "2025-05-09T07:00:00+00:00",
+      "agents": [
+        "CARL"
+      ],
+      "feed_label": "consumer-stress",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 3
+    },
+    {
+      "title": "US inflation jumps to two-year high as Iran war ripples across economy",
+      "source": "FT",
+      "url": "https://www.ft.com/content/7573b421-9c1e-4203-8477-7414f82eb248",
+      "published": "2026-04-10T17:00:25+00:00",
+      "description": "Consumer sentiment sinks to record low as petrol prices post record monthly surge in March",
+      "agents": [
+        "ALL"
+      ],
+      "feed_label": "ft",
+      "origin": "rss",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 3
+    },
+    {
+      "title": "Hizbollah chief vows to keep on fighting",
+      "source": "FT",
+      "url": "https://www.ft.com/content/ffef195c-8b3c-48fc-bddd-64036880dc6f",
+      "published": "2026-04-10T08:37:55+00:00",
+      "description": "Militant group\u2019s statement comes amid uncertainty over Iran\u2019s attendance at peace discussions on Saturday",
+      "agents": [
+        "ALL"
+      ],
+      "feed_label": "ft",
+      "origin": "rss",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 3
+    },
+    {
+      "title": "Trump is surrendering America\u2019s moral leadership",
+      "source": "FT",
+      "url": "https://www.ft.com/content/f3f8231a-f399-4f51-b95e-2c37dcd3a85e",
+      "published": "2026-04-10T17:05:59+00:00",
+      "description": "The president\u2019s chilling threats have further eroded rules against war crimes",
+      "agents": [
+        "ALL"
+      ],
+      "feed_label": "ft",
+      "origin": "rss",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 3
+    },
+    {
+      "title": "Vance says Islamabad talks will be \u2018positive\u2019 even as Iran casts doubt on attendance",
+      "source": "FT",
+      "url": "https://www.ft.com/content/5a14a4dd-0042-46bf-bbdf-bc0cc19635b1",
+      "published": "2026-04-10T19:16:44+00:00",
+      "description": "US vice-president\u2019s comments come ahead of negotiations in Pakistan intended to reach deal to end more than five-week war",
+      "agents": [
+        "ALL"
+      ],
+      "feed_label": "ft",
+      "origin": "rss",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 3
+    },
+    {
+      "title": "Crispin Odey abandons \u00a379mn libel case against the FT over sexual misconduct claims",
+      "source": "FT",
+      "url": "https://www.ft.com/content/69666b46-8452-4807-add9-712a0394a53c",
+      "published": "2026-04-10T17:56:05+00:00",
+      "description": "The FT had said 15 women were willing to testify in court against former hedge fund boss",
+      "agents": [
+        "ALL"
+      ],
+      "feed_label": "ft",
+      "origin": "rss",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 3
+    },
+    {
+      "title": "Trumpism has done remarkably little to the GOP\u2019s centre of gravity",
+      "source": "FT",
+      "url": "https://www.ft.com/content/c8c495f2-a675-4f15-b9b8-97682b078307",
+      "published": "2026-04-10T16:45:34+00:00",
+      "description": "Most of the things that make it distinct from traditional conservatism won\u2019t last",
+      "agents": [
+        "ALL"
+      ],
+      "feed_label": "ft",
+      "origin": "rss",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 3
+    },
+    {
+      "title": "Bessent called in US bank CEOs to discuss Anthropic model\u2019s cyber risks",
+      "source": "FT",
+      "url": "https://www.ft.com/content/397bf755-54cf-4018-a01d-8f714d8667c5",
+      "published": "2026-04-10T02:11:16+00:00",
+      "description": "Meeting with US Treasury secretary comes as latest AI system has detected decades-old vulnerabilities",
+      "agents": [
+        "ALL"
+      ],
+      "feed_label": "ft",
+      "origin": "rss",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 3
+    },
+    {
+      "title": "Donald Trump touts Palantir\u2019s \u2018war\u2019 role after short seller attack",
+      "source": "FT",
+      "url": "https://www.ft.com/content/8ab0fc62-b6ec-4b31-a8d7-cb076c9b0fb4",
+      "published": "2026-04-10T17:32:53+00:00",
+      "description": "US president\u2019s endorsement follows criticism from famed investor Michael Burry",
+      "agents": [
+        "ALL"
+      ],
+      "feed_label": "ft",
+      "origin": "rss",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 3
+    },
+    {
+      "title": "China\u2019s Xi tells Taiwan opposition leader unification an \u2018inevitability\u2019",
+      "source": "FT",
+      "url": "https://www.ft.com/content/e4aecf2e-9975-4b44-b01c-d6f2b8435386",
+      "published": "2026-04-10T05:08:27+00:00",
+      "description": "Meeting in Beijing with Chinese president first of its kind in a decade",
+      "agents": [
+        "ALL"
+      ],
+      "feed_label": "ft",
+      "origin": "rss",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 3
+    },
+    {
+      "title": "Molotov cocktail thrown at home of OpenAI chief Sam Altman",
+      "source": "FT",
+      "url": "https://www.ft.com/content/46ec2fa5-834d-4e49-81ef-6fb736b7e81d",
+      "published": "2026-04-10T19:50:50+00:00",
+      "description": "Suspect arrested outside AI start-up\u2019s San Francisco headquarters after threatening to burn it down",
+      "agents": [
+        "ALL"
+      ],
+      "feed_label": "ft",
+      "origin": "rss",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 3
+    },
+    {
+      "title": "Week\u2019s Best: How to Spring Clients From Private Credit",
+      "source": "Barron's",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZEV2cG9xMWU0SGFYbmFTb3ZZQzVsdXZUakowYmdMSk5xV2pOM1pHNUZuTTNuWDZCQ0dLck1QY3J5d01rWFVyT3RpOEZwRjFWbElRYzkzZnNwQ1VPaFJwTGVkNXVpeEh5N0djQ2lKY2JXQmZXVjZkUjF2TnlhNEctN0RpOWlVWkhGcTFJSmtGUlhwTEt4ejc3NE9ZcENENk5iN3hDbw?oc=5",
+      "published": "2026-04-10T18:53:00+00:00",
+      "agents": [
+        "BROCK"
+      ],
+      "feed_label": "private-credit",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 2
+    },
+    {
+      "title": "Private credit\u2019s \u2018zero-loss fantasy\u2019 is coming to an end as defaults and fund exits rise",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOd3hta1plU1FreU5LTER1eE9SaHZ5VDFTalJlU0Zua0k1bmFObEt5UkFLYmtBT1hrMGN0TW1FZUp1Ny1ISDJ5cGhMRm1wSWRJempaNW5uR0luaTduY1V0YUVfSEVvLVhtOE9YM2dxVDNIWW1DNVlXOHVTdERDTjUzQ0t0SEdOWDFFTWFxOUhrMU0tNG9zM3NySkZ0MXAwUWFfdXZHcFBQcWVqZ9IBrwFBVV95cUxNaGlwNHUtMkQzMUNMdzZSRFJCY0kwSEZONWJ3b1NzYTV3S3k0R2I1Q2xTQWZlM3BQWTlhMk9tRXFzSm5QWVVOVHZCcEZzdGdoaGxnNURyaHczY2lDZ2hHb1BCNE1VVWxNSElIY1RZRjZwMDBNUHRUV25HRGx3QWlKaHZwa1JENGIxZDVTZHR3ZnNlX2xQX2NoZll4Y1ZGdGdoSmpHdUpuM3lnOEhhTFhN?oc=5",
+      "published": "2026-03-25T07:00:00+00:00",
+      "agents": [
+        "BROCK"
+      ],
+      "feed_label": "private-credit",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 2
+    },
+    {
+      "title": "U.S. crude oil posts biggest one-day drop since 2020 on U.S.-Iran ceasefire agreement",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOak9leTJMbGVibkQ3YUhWYkpsVUZETDdMSC16bENyOXFkUWhqVTQ0S2lBVDRzdmZfdTgtaUJJN2ZxeFJ3dXdIQ3JfbVBNRnBaajdKTEwxOUNkOWFja3BsTlFrZk9tNG1NRDZXM3BodWEzcTdlMkpidzBXNlNsNWVERnpBQkZmUW16NTVESEZ30gGTAUFVX3lxTE9nT2tialRaWXJtSVh1OWtqdnJ3ZzI4TWFuS0EzbjBPS2gtWHNwdDFUVlZhbXBGVEJTOExsWDNHclAzOVhPV24yYW1fWDJ5bElqNW5FMllPdy1manp6N0x0eHNYc0xHbWVQSWxjRTdUaHhPbDdVSjROQWJYSXRvRUlKeXZDOTBDRTFaWjVKUENhR3NrVQ?oc=5",
+      "published": "2026-04-07T22:22:31+00:00",
+      "agents": [
+        "HENRY"
+      ],
+      "feed_label": "oil-energy",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 2
+    },
+    {
+      "title": "Analysis: A new oil shock is building. The next few weeks of war will be decisive for the economy.",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1zTVFoZWZTNmluWmtDdnBqcGd1OWxVdE1oMmhfcnpfc2xzSGZ3Z0s2ekpoU3ZMVlZJYXJZZDFmSXhEVS1kUkZNZGNkSDdHbWtWSUE5YmhwZERmV3pVS3hZTEoyQnVxRUJmbUZVYnFhTm1EQ0NzbGfSAXtBVV95cUxQNHJQdnlCNmFQeTh0VWpkaEJrbkhvazcxR3FHZklvZzh2YTdZNlFTOUJKRng1cFRrbWstamRfem0xQlgxVjkwbFZGd01BSjR4NlFVOF9fUG1VSWNLNDFSUGxMYjQwemIxajBTOW9PcF83TU5wNVY0UlVhbTQ?oc=5",
+      "published": "2026-03-28T07:00:00+00:00",
+      "agents": [
+        "HENRY"
+      ],
+      "feed_label": "oil-energy",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 2
+    },
+    {
+      "title": "The US refinery now processing Venezuelan oil",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1CQ2tRMHQtanM3TVBsZUxxUHJIbzJzVUFIM3FNTUt4TF9BYlhGYTNfOERvbExXRTFJQmVRb0dRVjFSOHJtMmtySVhuM2c1Wlhpa2JJajVSaWRyZw?oc=5",
+      "published": "2026-04-07T23:00:31+00:00",
+      "agents": [
+        "HENRY"
+      ],
+      "feed_label": "gas-supply",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 2
+    },
+    {
+      "title": "Stocks rally 5% and yen strengthens 1% after U.S. and Iran agree to ceasefire",
+      "source": "The Japan Times",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOaVN0MjVUTWZHVUNBU0ZHZ0hBem1kNlJ4dGFjZXVUS3dNdWNxdnNYYW9wcXVGdWE0ZTVuSk0wTGFVWk5RTHlYT2h5dzd5U0RnRkZOS202Q0JGdzI4SDJjRXNvV2Y4YXdPN2F2cTVBSUQ0RlZYWGQ2RDFfOVFfOUdLbHJ1RlVrUQ?oc=5",
+      "published": "2026-04-08T12:54:28+00:00",
+      "agents": [
+        "SAM"
+      ],
+      "feed_label": "japan-boj",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 2
+    },
+    {
+      "title": "Disney plans layoffs of as many as 1,000 employees",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBtN0phLWgzQWNaOU1QNlpIVDE2T09hcnRsSnV3UmRNX1JiSzN6QVpubzJuRDROSFIybTBzb2JHcXRzUmdZb3JpdTgzWnBqZ1c1dm05VlVRNnNOT3o3U2kwaG9hVXlLVGxsUXEzQURqSnp5N0t1UEHSAXtBVV95cUxPbUlIVzU0bFllUlB2NXZ4WDk5eG55X2JuRDd1cDdZRl9zZjM4c3gxbkhDS3RnZ1BsTk5hNXA4OFR6YzRfR2FoUkY2NU5OQWRvRDFSR2NwcDMxN01FX0R4eEJRSTJZSUI1TGlKbWNvUEFUT0xfNHB6NEhTaVk?oc=5",
+      "published": "2026-04-09T14:38:02+00:00",
+      "agents": [
+        "LABOR"
+      ],
+      "feed_label": "labor-layoffs",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 2
+    },
+    {
+      "title": "Disney Stock Drops. Why Layoffs Won\u2019t Be Enough for Investors.",
+      "source": "Barron's",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBObHZIbVUtTEp3cUVZOHRlX1BrTS1tVWh6ZkwwMGp2b21hREIyVkpzdlNlcm9ZelUwa1Q4cTM3LTRqaG1xcWhPWTdTVnMyRXlFQzBvMmZscWNFLW4yUFRqc2IxQWY3UVJwM3pTcjR1aFd0N2FRcFlJ?oc=5",
+      "published": "2026-04-09T14:20:00+00:00",
+      "agents": [
+        "LABOR"
+      ],
+      "feed_label": "labor-layoffs",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 2
+    },
+    {
+      "title": "NFP expands in Upper Midwest with Sherman Insurance deal",
+      "source": "Insurance Business",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQZW95cFNsNW5aMXQ3aW1GUllBQ2VtbnVZaVlETXBIejVpbEoxOEVNaWVHZFducHo5RHdCQnZBdG1aQVNGNjJ4LUwyejNJV1BrTGRYZnFZS3NDUnBzNzVIeHFVNkE0RDJCRUVQaHhUUVNpQnNUTXNPcVNSbkgteWV3Rkw3a0xHd1FFNGx1YXdRaWJ2N2oyZ2NvVnp6bkJZeVRkbXltaE5yYWsyeWtsNW1SWHphYkRCN1JaazRHNWdRMDJSRUYxczlYY1JjVk1uVGM?oc=5",
+      "published": "2026-04-09T06:21:00+00:00",
+      "agents": [
+        "LABOR"
+      ],
+      "feed_label": "labor-nfp",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 2
+    },
+    {
+      "title": "From Strait Blockage to Straight Losses: Credit Stress Pathways for Asian Listed Companies",
+      "source": "S&P Global",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQSXlIbWNUUDd3QUxuZk9VV3hrV1ZwLXRuSkcwTUdTandabXVlb1BBZUYtRXlER3pTS2ZsWktjT3I1T1B2VDUzMldkRWE2Z2RpMmtLM2RyVjVqN0xveGtRQ2p0eUIyODVOdDhVVE5HTmNxT0VOT0t2dGpOeFUtYjlETm1kbzhfbGxTaGx1MV9mVDgzT0p1aFFiVjlQTHJ2akVPQ2F3X0xfSC1kNzJnWFYtLTNhUkJkNUVtM05DYU11al9aVXNlZ29xeVRHZlRxdmZwSmotSTFQVnJuY1oyMW9JckJKUG9lck54VDdQakh6MHJGTmpEVlJJUXZNS1k?oc=5",
+      "published": "2026-03-21T07:00:00+00:00",
+      "agents": [
+        "LIQUID"
+      ],
+      "feed_label": "credit-spreads",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 2
+    },
+    {
+      "title": "Commercial real estate could become key safety play, says Easterly Govt. Properties CEO",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNaXdHbmFJZHFVWmVXVmVaU0hNM3NaYzVfUVN5OGRsdTlUTGllMlJwMFhvdUxyeGNZcUMzb2M3RU1lNEs2UzJQbmpZa3NJS21IRXJRcVF1clg5WFg3YnJuZjV4alVnQUc2ZzRFZnBhZEtBRFc3VzlTM3p0Tmx5SmpvaFNRTU1XdkZxVDZoaUpmMVR6ZTFyc2RobnFBVnlqRi1iWVdEOHMzcXpXY1BibVY5YjZiZm1STzVFMFNSM1lIYW95NFhRYWx3?oc=5",
+      "published": "2026-04-08T22:08:00+00:00",
+      "agents": [
+        "REGINALD"
+      ],
+      "feed_label": "cre-stress",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 2
+    },
+    {
+      "title": "Tankers urged not to pay toll to Iran for use of strait",
+      "source": "BBC Business",
+      "url": "https://www.bbc.com/news/articles/c3dl0gdvvveo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-04-10T18:45:33+00:00",
+      "description": "Tanker firms are being advised not to pay Iran any levies in return for safe passage through the Strait of Hormuz.",
+      "agents": [
+        "ALL"
+      ],
+      "feed_label": "bbc-business",
+      "origin": "rss",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 2
+    },
+    {
+      "title": "Great at gaming? US air traffic control wants you to apply",
+      "source": "BBC Business",
+      "url": "https://www.bbc.com/news/articles/ce84rvx0e6do?at_medium=RSS&at_campaign=rss",
+      "published": "2026-04-10T19:35:24+00:00",
+      "description": "A new government ad campaign is trying to persuade gamers to apply for air safety roles.",
+      "agents": [
+        "ALL"
+      ],
+      "feed_label": "bbc-business",
+      "origin": "rss",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 2
+    },
+    {
+      "title": "Dolce & Gabbana co-founder steps down as chair",
+      "source": "BBC Business",
+      "url": "https://www.bbc.com/news/articles/c77m3p8182no?at_medium=RSS&at_campaign=rss",
+      "published": "2026-04-10T13:14:44+00:00",
+      "description": "The bold and sensual fashion house has been struggling with debt amidst a slowdown in global luxury spending.",
+      "agents": [
+        "ALL"
+      ],
+      "feed_label": "bbc-business",
+      "origin": "rss",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 2
+    },
+    {
+      "title": "TV for dogs booms but are they watching?",
+      "source": "BBC Business",
+      "url": "https://www.bbc.com/news/articles/cq59leg3gp5o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-04-09T23:06:25+00:00",
+      "description": "TV channels for dogs are multiplying but research is mixed on whether dogs are watching.",
+      "agents": [
+        "ALL"
+      ],
+      "feed_label": "bbc-business",
+      "origin": "rss",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 2
+    },
+    {
+      "title": "This coat cost $248 in illegal tariffs. Will he ever get the money back?",
+      "source": "BBC Business",
+      "url": "https://www.bbc.com/news/articles/ckgr67kgvdko?at_medium=RSS&at_campaign=rss",
+      "published": "2026-04-10T06:41:40+00:00",
+      "description": "Importers are in line for tariff refunds. But whether everyone who paid the for the tariffs will get money back is a trickier question.",
+      "agents": [
+        "ALL"
+      ],
+      "feed_label": "bbc-business",
+      "origin": "rss",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 2
+    },
+    {
+      "title": "EU fingerprint and photo travel rules come into force",
+      "source": "BBC Business",
+      "url": "https://www.bbc.com/news/articles/c39rkpe8mj2o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-04-10T15:29:23+00:00",
+      "description": "The EU's much-delayed Entry/Exit System will change the way UK passengers travel to 29 countries.",
+      "agents": [
+        "ALL"
+      ],
+      "feed_label": "bbc-business",
+      "origin": "rss",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 2
+    },
+    {
+      "title": "White House staff told not to place bets on prediction markets",
+      "source": "BBC Business",
+      "url": "https://www.bbc.com/news/articles/cgld65x396go?at_medium=RSS&at_campaign=rss",
+      "published": "2026-04-10T02:32:27+00:00",
+      "description": "The gambling platforms have grown in popularity, with some users making wagers on conflicts.",
+      "agents": [
+        "ALL"
+      ],
+      "feed_label": "bbc-business",
+      "origin": "rss",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 2
+    },
+    {
+      "title": "Jo Malone hopes 'sense will prevail' in lawsuit over her name",
+      "source": "BBC Business",
+      "url": "https://www.bbc.com/news/articles/c7471n0lm2vo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-04-09T15:45:16+00:00",
+      "description": "The British perfume designer and Zara are being sued by Est\u00e9e Lauder over a collaboration.",
+      "agents": [
+        "ALL"
+      ],
+      "feed_label": "bbc-business",
+      "origin": "rss",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 2
+    },
+    {
+      "title": "OpenAI pauses UK data centre deal over energy costs and regulation",
+      "source": "BBC Business",
+      "url": "https://www.bbc.com/news/articles/clyd032ej70o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-04-09T20:36:41+00:00",
+      "description": "The project was part of a package of tech investment promising the UK could become an AI superpower.",
+      "agents": [
+        "ALL"
+      ],
+      "feed_label": "bbc-business",
+      "origin": "rss",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 2
+    },
+    {
+      "title": "Lebanon says ceasefire must be in place before Israel talks",
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/articles/c93en5q2zl3o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-04-10T19:43:42+00:00",
+      "description": "Lebanon will only take part in talks with Israel if a ceasefire is already in place, a senior official tells the BBC.",
+      "agents": [
+        "ALL"
+      ],
+      "feed_label": "bbc-world",
+      "origin": "rss",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 2
+    },
+    {
+      "title": "Palestinian shot dead during Israeli settler attack on occupied West Bank village",
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/articles/czrekrzzex1o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-04-10T17:08:27+00:00",
+      "description": "The killing came as ex-security chiefs warned \"government sponsored Jewish terrorism\" was out of control.",
+      "agents": [
+        "ALL"
+      ],
+      "feed_label": "bbc-world",
+      "origin": "rss",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 2
+    },
+    {
+      "title": "Man accused of coercing wife into sex with 120 men goes on trial in Sweden",
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/articles/cx24pdwx588o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-04-10T15:06:40+00:00",
+      "description": "The 61-year-old denies threatening physical violence and plying his wife with drugs to force her into having sex with strangers.",
+      "agents": [
+        "ALL"
+      ],
+      "feed_label": "bbc-world",
+      "origin": "rss",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 2
+    },
+    {
+      "title": "Chimpanzees in Uganda locked in vicious 'civil war', say researchers",
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/articles/cr71lkzv49po?at_medium=RSS&at_campaign=rss",
+      "published": "2026-04-10T16:52:55+00:00",
+      "description": "The once close-knit community of Ngogo chimpanzees have been at loggerheads for the last eight years.",
+      "agents": [
+        "ALL"
+      ],
+      "feed_label": "bbc-world",
+      "origin": "rss",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 2
+    },
+    {
+      "title": "French man charged with locking son in van for more than a year",
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/articles/cew7jwwep7wo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-04-10T18:39:37+00:00",
+      "description": "The boy was found malnourished, naked, lying next to human excrement and unable to walk, the prosecutor said.",
+      "agents": [
+        "ALL"
+      ],
+      "feed_label": "bbc-world",
+      "origin": "rss",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 2
+    },
+    {
+      "title": "Gunmen kill multiple people at Afghanistan picnic spot",
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/articles/cr51z5p17myo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-04-10T20:07:07+00:00",
+      "description": "Officials say attackers opened fire at a picnic spot near the village of Deh Mehri in Herat.",
+      "agents": [
+        "ALL"
+      ],
+      "feed_label": "bbc-world",
+      "origin": "rss",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 2
+    },
+    {
+      "title": "South Korea deploys thermal imaging cameras in search for escaped zoo wolf",
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/articles/cr41d4r5kdeo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-04-10T17:30:38+00:00",
+      "description": "The male wolf, named Neukgu, escaped a zoo in the central city of Daejeon on Wednesday, officials said.",
+      "agents": [
+        "ALL"
+      ],
+      "feed_label": "bbc-world",
+      "origin": "rss",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 2
+    },
+    {
+      "title": "Melania Trump denies ties to Jeffrey Epstein and urges hearing for survivors",
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/articles/c3ex07l1qvpo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-04-10T08:37:05+00:00",
+      "description": "She called rumours that Epstein introduced her to Donald Trump \"mean-spirited attempts to defame my reputation\".",
+      "agents": [
+        "ALL"
+      ],
+      "feed_label": "bbc-world",
+      "origin": "rss",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 2
+    },
+    {
+      "title": "German transgender far-right extremist arrested in Czech Republic",
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/articles/cn4vdnr8knjo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-04-10T10:05:42+00:00",
+      "description": "German media reports say Marla-Svenja Liebich used to be a member of a neo-Nazi group called Blood and Honour.",
+      "agents": [
+        "ALL"
+      ],
+      "feed_label": "bbc-world",
+      "origin": "rss",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 2
+    },
+    {
+      "title": "Russia and Ukraine agree to Orthodox Easter truce",
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/articles/cn0wkkwev2vo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-04-10T11:56:12+00:00",
+      "description": "Vladimir Putin announced the truce, which will last from Saturday afternoon through Easter Sunday.",
+      "agents": [
+        "ALL"
+      ],
+      "feed_label": "bbc-world",
+      "origin": "rss",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 2
+    },
+    {
+      "title": "Taiwan opposition leader meets Xi Jinping in Beijing",
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/articles/cj94y87k2ljo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-04-10T07:55:55+00:00",
+      "description": "Cheng Li-wun is the Kuomintang's first sitting leader to visit China in a decade.",
+      "agents": [
+        "ALL"
+      ],
+      "feed_label": "bbc-world",
+      "origin": "rss",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 2
+    },
+    {
+      "title": "Popular Tanzanian musician Matonya charged with rape in Kenya",
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/articles/cwydvrj4vgzo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-04-10T12:08:04+00:00",
+      "description": "The 43-year-old denies the charge and has been released on bail and had to surrender his passport.",
+      "agents": [
+        "ALL"
+      ],
+      "feed_label": "bbc-world",
+      "origin": "rss",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 2
+    },
+    {
+      "title": "Private equity has a private credit problem",
+      "source": "Axios",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1LUy1tM0UtOWozTFRmUEd4NGtua2cxci1KUzNiM3NhbjVsb3JaVUJJa2s5ZENxanFzZ2tTSHhYNUg1aVJCNFBHVXBlc0NGZV9GOTUyWVk5WF9nak0yamFhaWEzOWlOYXBJekNseU9pM29Lc3JVaVNLQXFB?oc=5",
+      "published": "2026-04-10T15:24:14+00:00",
       "agents": [
         "BROCK"
       ],
@@ -319,10 +2034,30 @@
       "source_weight": 1
     },
     {
-      "title": "Howard Marks outlines growing concerns about private credit in new memo (VPC:NYSEARCA)",
+      "title": "Howard Marks addresses private credit concerns in new memo",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQb18yemhQbnBjTkd0NzEtT0N6dnBQMV9LdXpqVjlCeDlDWEsxYVdNMWQyMy1wOV9yTlRYbWR3X1VGLWdNWWFfV2wzRzZBMkZ5c1B3dmQ1RFU3cENxdGRIdjJDN25XSVR0dU5jVW5TZm8wSnVVTE9CNExvWENWaklhdldpVWkzdExQd3pjWkJsWmI2SF9sRGJnaTlnWXJYSHQ4Ri1KYXFnOUE?oc=5",
+      "published": "2026-04-10T15:30:20+00:00",
+      "agents": [
+        "BROCK"
+      ],
+      "feed_label": "private-credit",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Private Credit Is Becoming A Quagmire",
       "source": "Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVWNRUFBqMG1YcTRCbDBUY2JpYXlzRTd5WjdYMjdpMUtIaUxIdmRnZ1dQMk5wUnRXblEyOTVSLVozOC0waWYzZE9KU2JKSGxodnpFcXZsWV8zM3dKUGk0Ym1SWWNFTEVWTUVLOXktVnd6UllnNjFqUFVvSHVzQVVwMWhfOUJ1M0dWeXZTQU1LTlVxZU5KLUtLWmNSTGRJR1ExWVpGbE83bTBpVHhEbHc?oc=5",
-      "published": "2026-04-09T18:21:10+00:00",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQeTBJQTQ0Z1FvQWVjYzdVbWFEQkRYQWppM2t3VENDaHRRam8tZ2tiYm54bjhoS3lmZVJJajFYRHpRU3ZtakRzV2VvYXJiaUIzeXBjSTBJbFhfQ21aWklpSlVxS2liSHA5SGVpUmhkOVJNNzdTQlFWQkJjLXpTRnNOX05Xcjg?oc=5",
+      "published": "2026-04-10T15:35:26+00:00",
       "agents": [
         "BROCK"
       ],
@@ -339,10 +2074,110 @@
       "source_weight": 1
     },
     {
-      "title": "Fuel protesters\u2019 blockade of Ireland\u2019s only oil refinery to stay \u2018until diesel capped\u2019",
-      "source": "The Irish Times",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOWWluN3NiM2FyQzk0Ry1YRFFmS1BuX0tQUnJTR1RadkF0X0xwWFZjMFNzMDZXZVhqaTBTa2k5d3VXMTFITURGREUyZjNqSmFCYlI2RXFfUDRTNkMtTlU5UVVaZ1lDcGVOWVdyaHZBS1F0SEVNdnhORmpiSVlfVU5scFFZdTB1dGZibWZCMU1xZ0NxZzg4eEJmeTF5N2RTTTRVVmJTWUJyM2wzVlpDbVlIc2lsYUVoWEFmQnk1YzFpb2VFVEsySjJKZw?oc=5",
-      "published": "2026-04-09T13:57:38+00:00",
+      "title": "Banks Launch New CDS Index Targeting $3 Trillion Private Credit Market",
+      "source": "Quiver Quantitative",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcFhlbXNZejNGYzJrb3Jia1ZwRWYzamp6d21hNkVISGZPeV9uMVBwcGlWSl96QTVMYlBtZUtBNGtlYmstd1pHUE9KRW13dXpyQXBhOWQ1R2hpRk1VeXhMcTJXQWgza0NDdm13aDR4TVVXU3FWbVdyeFdtSDE0Y19YbkFYRkVESDNTQXRvamVPWGhRbmpwM3BUUmJPdUhxdVVkWEVycFpyTUs?oc=5",
+      "published": "2026-04-10T17:14:00+00:00",
+      "agents": [
+        "BROCK"
+      ],
+      "feed_label": "private-credit",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Can the secondary market allay private-credit fears?",
+      "source": "The Economist",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNzAxaDJUWktEMjZHQmZib3FKdXR2MllodE1fdXhOQWJXbFEyc3UyMXY0ajJDb0hRb2Z6STdPWE1RdzZPeHRid1pXQktEdldYOEJsRVd4VThuWEVvbUd5a3FzbWtDSHphOEUzNjBTM3NsNS1mNFBvTEI3cFpSUjlhSEdaN1NpRzFJOEs5R1U3dVJ1amd6enUzTEs2TlhPM1JrSEY3bmFmYWxzV3dEQm1n?oc=5",
+      "published": "2026-04-09T10:03:33+00:00",
+      "agents": [
+        "BROCK"
+      ],
+      "feed_label": "private-credit",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "The Outlook for Private Credit amid Rising Market Stress",
+      "source": "Goldman Sachs",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQN0djSEFKcDNVOU9YajBRSDVXcWVJNFllSHQtTEhfN2tvSU5DWkJnTE1POHQ0SHluSWhJajV1M3pjOFNNVDVVUkpBZ1NVNXFxNUZqajF3Y3c1MHlZeGlPRHBGYlViOWNCTExEel9oYnJTbG1lb1EzbGFwZk5iSnBuMEdCX3pvRVlJYkxyVHRGRDZpZXkwcm9PbjBqMk9VdWcwOG1KOHN3?oc=5",
+      "published": "2026-03-26T07:00:00+00:00",
+      "agents": [
+        "BROCK"
+      ],
+      "feed_label": "private-credit",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Defense contractors announce more than 250 layoffs in Maryland",
+      "source": "thebanner.com",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOOURCeWxTT01vclJ2UGJpQ2hzVkxPMXFDSkd5SU14Y0xGbWdJRDFxUGQ3a041TjFMdndCVXd4Q0l3dmlhSkVtaC1NVEh5SG9VLUUwVXlObFFDWG93QndEVEUzVFdkcVV2TkNRX0ZJNG1leGduaXJZeEh5WWhOY042MVJEWXVzb2VZdzJ0bFhUQ0ZxQWhzSk85U3hVS3VhNWda?oc=5",
+      "published": "2026-04-07T16:51:00+00:00",
+      "agents": [
+        "BROCK"
+      ],
+      "feed_label": "pe-insurance",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Hundreds Of Layoffs Impact MD Defense Contractors",
+      "source": "Patch",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZnI3U3AydWh3OHdzLUJlQl92R19VelpHUGNvY05LWlVYV3pBUWs1TUk0TXR6TkZlMzZkUEVCbFQwZ3lCM3pPWGJna3o4clJvME5pRF9yMnZiU2ZmUlVCYlRLTVlpdkZhWXd4X3NQYUROSWpJNTRwV1pWc0RNR1A1ZHI3NWJ6VUxH0gGeAUFVX3lxTE9ib0wxaHJvMEJXVGFad0NEUzAzMk1NZ1lZRjdoSkpzRGdVaXo5N1ZaaWNUelVRRmk2SVgtaHB1NkRyRFlUN1k4T0VpR1hMN3FITWdQTmwwT2tTQmlrcURSMnNpNGtkNFY0RGJlZkVhTFJiYWVfbFdQSGJxUnREQ29FNWxoTFFRNzNQWDVkc1JfTHNwcVQ1M0hfdm5nS1dn?oc=5",
+      "published": "2026-04-08T19:12:35+00:00",
+      "agents": [
+        "BROCK"
+      ],
+      "feed_label": "pe-insurance",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Inflation surges to highest level in nearly two years as energy costs spike",
+      "source": "Houston Public Media",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPTUFYLXhEaE5BeUFjeW1zNWVSM1djazlqdkZLYVdMVkVGMzlFYmpwU19tXzMwRzQ4SmNiU3NEV2pYV2MtU3dmMmVvM0l2YUVOTzJKRDl2dFFDVks5RVVaQXVJdW1HSzY4SFZ0QXBMSVFUT0VGR05Ya0NSaFdmelh5V0NyTDMyazlaQkNDMi10N0ZjbUxhcTFLY3prSGhvdHNCb3cyQk5WUHBqRGpWSFNoa1Q0UW1yZzhPRVBOdGlYMEtmdzBVdmJCaHFxUlRKY3phbXNvRkNyVQ?oc=5",
+      "published": "2026-04-10T13:25:47+00:00",
       "agents": [
         "HENRY"
       ],
@@ -359,14 +2194,14 @@
       "source_weight": 1
     },
     {
-      "title": "Errol Savage takes over Cleveland Teachers Union as CMSD consolidation plan leads to layoffs",
-      "source": "WKYC",
-      "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxQOTJfZ1U2cllJbUE4VHBkNXlWSW84ZTNvb1VuY21OYVdDUXFUVDg3aVJkY1UzV2RueURMTU5aM3RfZjJaa29NV092NW5yM1R2VDFERVhDQnFfal9yekJKWHZ4NUd0LTdUdGNVQ05ibWZ6WUlUX2pNalpsbDlzdkQzUjNKNGxHZDNBcVBTVHhQX0JSblIwUHd1dkxKMmFfMTNCZjdwLXV5aG5zWjRFRW9TUVdfMFFGVWpMSlVsRE1ETzIwclNpS0hTREZPRjMwclhFLTd0ejl5S2FDS0tIMGZ0UVBhUkJEVE9vejdSM1VubjhST3kzR01CeU5JTUdWZF9kTWlibjZyX09WdWZqaGVnc1A1V1RyZ2ZCZ0hWZURsdXhBUFVDVTQzSVpHM2NiemFDTUpfT0xtVG15NnBtdFFDeF9oQ1hTNmxObWc?oc=5",
-      "published": "2026-04-09T17:45:00+00:00",
+      "title": "Nikkei (JPY) Overview",
+      "source": "CME Group",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUXhmUXM2OUlEaFFkcGgxb2VScmpiR0JSY0RKc0ZoT2VGWHF6RXRHcWR1b05jVFI4SGh1TzBwMVRTVGVVSTVSVVFKUDhfbXhlcFJKbGRMblBzSGFUdGpDVnlTcmFDQi1YTU12WGk4ZE1wVHBKRTloVF9YQ1NpMHNQS2ZSM01ONUJsbHNr?oc=5",
+      "published": "2026-04-07T07:00:00+00:00",
       "agents": [
-        "LABOR"
+        "SAM"
       ],
-      "feed_label": "labor-layoffs",
+      "feed_label": "japan-boj",
       "origin": "google_news",
       "level": "normal",
       "keyword": null,
@@ -379,14 +2214,14 @@
       "source_weight": 1
     },
     {
-      "title": "San Francisco layoffs begin as deficit nears $1B",
-      "source": "KTVU",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZ3BJcldBb1U3U3E1UUhjek9UQWU1R0ZXek4yYVFqRnF0SmNtWHA4cjl4SDQ2OU5nc1UwVng1czR2djI1TC1tTS1EUmJBMGxXaWpocHZyb3JZWTRUWVJnUEdoRTZZN0NQYkQ5UEh3T1Fya1FEd0JTanhMVm9FZ25TMU9xc9IBiAFBVV95cUxQTjNtYWladUp4Q2RFcVFwSjdwM0ZGRFljaEtqQkJyQWs1bnJGWlFSU3BRdU83VVlCVVgycHBySXU3MzlJc3JDYXBZOXRpeVc2SV9JMC1rNWtCM3RzMWhuVWNSZVhuUXVLaWZRRjZ1QTJRVXhkTG81ZUhLRlRMa1NLZUVvLWtCemZI?oc=5",
-      "published": "2026-04-06T20:27:15+00:00",
+      "title": "Berkshire Hathaway sells yen-denominated bonds in first such deal after Abel took over - report",
+      "source": "MSN",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQWllzOGNDVVdjYlliY0V5bXNiN2hvbk43MGdtNldfYmVsQTd2UGp4SzlKNWdfVnlfX3RydWJuNWlpdUVqbWhaYlU3NU0xdWNpZUg1YzZja3RiazhnVmFLY01YVUpfRHI0a1JrcmtTaG50Y1pxdlNyYmZjRnFNTHEyZlVERzJFV2I1d3dPT0s2WFRLRlBCSFVwcWVCVVpUb3h2SWlKaWlIb1kwQi1hMHR5eHgyc1ZHM2FxWmlXejUwWllFT200cHd2RmxuaTgtVXVyYWFpVzBOUXo4Zk9wdUc2ZmJ2cmJlVTVCOTRaUW9UTkRVejlNX0dseTVxRFljcE1BWE0w?oc=5",
+      "published": "2026-04-10T12:32:04+00:00",
       "agents": [
-        "LABOR"
+        "SAM"
       ],
-      "feed_label": "labor-layoffs",
+      "feed_label": "japan-boj",
       "origin": "google_news",
       "level": "normal",
       "keyword": null,
@@ -399,30 +2234,250 @@
       "source_weight": 1
     },
     {
-      "title": "Labor Market Resilience: March Jobs Report Shatters Forecasts as Healthcare and Construction Lead the Charge",
-      "source": "FinancialContent",
-      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQTEpuTXVCcHFicnVIZk9fMU5Wc0xJcHFTX2xJNTdtSTNVM1NwVjdNSmhUUk96bzJ6Y1pqamFiWmFmY3Z6NjRQTFU3MGV4dE5uWUxHak5QM0ZMa1Q3Uy1xRmJvTHEtRUFmdFFkZ3B6bXhrTnZfZ0xHZ0JISFV2amVUejByb2xzYklIVUN1V0lUOVVoVmo2a3RlU2dxQzV0QnJtcTBXeXhwLWRLNHhtQUxZWUVoTkc1NHgwdlNBYVBoSk84aTRoX3NFWjJvMW1jLXZ0SkpKQ0JweTl0NHFoWGlTSmdDT0h3Y1NDMk5rRXYtNXVuTEpzTEJoNUZyU1hJUXhrOVFFR28xWUdmWTRqbmc?oc=5",
-      "published": "2026-04-09T18:18:00+00:00",
-      "agents": [
-        "LABOR"
-      ],
-      "feed_label": "labor-nfp",
-      "origin": "google_news",
-      "level": "normal",
-      "keyword": null,
-      "entity": null,
-      "entity_info": null,
-      "escalation": null,
-      "watch_hits": [],
-      "classification": "NEW",
-      "suppressed": false,
-      "source_weight": 1
-    },
-    {
-      "title": "Breaking: Nonfarm Payrolls increase by 178K in March",
+      "title": "Japanese Yen drifts lower ahead of US CPI inflation data, US-Iran talks",
       "source": "FXStreet",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPc1dQbzI2S01CU0RXYUEtc1NHRTZmeXVXT01UbU9MVkk1enl4NTdrb25LZjdmRWdYY09VbVFPOUFfS0lyY1ZFRUNWcUZmSG54OGJQbnBpMEpWeWpWaHcyYjF3NlN5WG5SV2d5RTJLRjVOZEJXTUNWUWs0OGVqWlZtSFRjTWloUDJHQzg5Z3FzQk1XQ25IdzBjMlU0Y9IBoAFBVV95cUxPN2RkdWIyY1NiX2lzUmlodFAxaXVnbWJJMUNwWTRxT29SamY5VFJDMGpXU1ZmUmlKRjZGYlpCd0xmMWcybDdaSGt1UFpCU25GT3lTZmxBNVhEU2ZzcHA0VkRJcWdBMFJ2R3djNzFCNFJsY1ptaFV0d1kxTnpGbmpmZWFlTFR4X3JKaWJ0UnYtUTZYUVlFU05LeTgzVHJ4anV6?oc=5",
-      "published": "2026-04-03T07:10:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbXZhYzdSY1g2enl6V0tyYjM0Wm1tczQ2bWhMWDJiVUlpbjViQTk2NlU2MEYtM0tQU3BHME5reFdpeHUzN1lQSHJLVEUyOENBMGgyeW5sb0VHYmlnT0ZCZXhrd2dpVXN6VUlzSXpzRm9RQlI0djZFMVJubGJvcEk1Z25rczJHVVVwb3NDMDdrdGU0NjJtUU9PZHNOb1BFVXUteWZBMFZ1UG1kbzRDdWVJd3Rpaw?oc=5",
+      "published": "2026-04-10T06:50:24+00:00",
+      "agents": [
+        "SAM"
+      ],
+      "feed_label": "japan-boj",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Berkshire Hathaway Sells $1.71 Billion Worth of Yen-Denominated Bonds",
+      "source": "marketscreener.com",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxORFE5eUVUb1Z3WDRER285aVU1dXlWS1RGQWFoamxQbi1jUWJDQUN6MXV4Qm1VMGdraVBEUUdSRjVvQmVKQkVJcllwQVdtdTdkVU52WVdPcG91YS1KN1RpdEJQQ0VJUTJSTWNvTmM1NDNsUTdMaWpDWjgza2FxS3Q1dFVvUGN0OHk2blg0MzVORGNyRy1abVhVczF3bkpwa3JQRmhWWlJBY0RQeS1zNHdaWWhkbDAwN3RYdVBIejJB?oc=5",
+      "published": "2026-04-10T12:57:54+00:00",
+      "agents": [
+        "SAM"
+      ],
+      "feed_label": "japan-boj",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "New CEO, new layoffs? What Disney\u2019s story tells us",
+      "source": "HR Executive",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5COHhCVmdQSWdHSnV3QWtyR1JNc0g3VmRHZVhGWVBIMnYxNTNoNHdwX3VpMnZqaTVHdDh6dk5yN2VYNXZZTi1pYVRUT1lka0trNEh1N2xfMVEtanFQQXF3RFIzWXRDNzZOcjJ0Tl90QUROTjFpMFp4U2FhQl8?oc=5",
+      "published": "2026-04-10T11:30:47+00:00",
+      "agents": [
+        "LABOR"
+      ],
+      "feed_label": "labor-layoffs",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "2026 tech company layoffs",
+      "source": "InformationWeek",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWjYtTERSWHVxM2xtWEc2bkYtdkE4Nk45WHBvdVdycmpKTEprR1pURVVIZkZJRXpDUzRRaTQ5WVRwRV9sNENyT0VmRWtDX1NmLWtBeVpqUUpzRHUwQjI4ZUxhNXBncEx5cnZZYkstTnRmQXlSbUdkUzFTdnBHUERKbUU0cw?oc=5",
+      "published": "2026-04-10T10:34:36+00:00",
+      "agents": [
+        "LABOR"
+      ],
+      "feed_label": "labor-layoffs",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "'My prerogative.' DuJuan McCoy addresses WRTV layoffs",
+      "source": "IndyStar",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOQUI4NXlvNEVabUswNFJzcVhRYlczQ0lndFNnNEdkRERCa1ZINTJFTTc0RzY4cG1nZUpwbzRUeWtpWFdDdGs2Rk9ESzJrbHlLRVlLaXRmZUgzeEZxSndiSjhtYW9LNTRNWVcybVE1aEh0cUxuZXNvX0lJS0ZsaUdIaWtxRmI0NTNNTGkzVFpNQ19zWV93LVhLaDd5VFRVeWh4V1NfR1NRb1JQMFVoUFpKRG94Uk1zdzhZTl80NEc2V2ZnMUV5SnRzZ0Rrci14dw?oc=5",
+      "published": "2026-04-10T19:53:00+00:00",
+      "agents": [
+        "LABOR"
+      ],
+      "feed_label": "labor-layoffs",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "S.F. unions pledge to fight \u2018every one\u2019 Mayor Lurie\u2019s proposed layoffs",
+      "source": "Mission Local",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOalV3ZXFxcXQ3eWtZbmlVTXdNTUJ3NlZkNVJhVXU4Q3ZQVW9nWE9FZm05MjF0TFJBSHFJNnJNaGtRVTdoSmtCWnBMdjhUUzVuWk5fd1pUc1ZSREFaZnlYSUc2ZGE2VUlOdF82T0p2b19XYnU1aXQtNmlhdW9URmhDaldRcmdqeVRM?oc=5",
+      "published": "2026-04-10T14:00:00+00:00",
+      "agents": [
+        "LABOR"
+      ],
+      "feed_label": "labor-layoffs",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "More Layoffs Ahead as San Francisco\u2019s Budget Woes Persist",
+      "source": "KQED",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYjJlczU4ZXhzSkhvQVdkWlpUbldVcTJ0MEpOeGxjem92Ry12RlhzaF9JWVNtVWs4RUNSdDYwT2dMSXIzdGVjcnhabjBma1AxZHJNQ0pwQ2QwcENGcXByVG5VeHNuckdoemVEUVV1QVlaRXItSkhUOGhWQ0VZT1JPVEJsX1ppVjFhc2RpU2lyQkhtUkUtZXc?oc=5",
+      "published": "2026-04-08T21:40:36+00:00",
+      "agents": [
+        "LABOR"
+      ],
+      "feed_label": "labor-layoffs",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Pendo layoffs AI | Tech firm in NC announces job cuts in Raleigh as part of company wide restructure",
+      "source": "ABC11 Raleigh-Durham",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOaS11eDNkWS0tSGxhbjNFY2xqNnBwZDJKamE3S0pyRGt1aWFzYlhXRVlaaVI5RW1TajBUczFMV2pVSWVMMVY1bzhtU3RYbF95NlFsRWJsQWNKWGJzMThWbmFZYk1lUm1tRFg2OTk2ZVJMUlhSejhCSUZfQTU2aGRoWmVQVXNoV3puNlgtMUZhYWpnVXR2VmU2OG11MEQwY3Bpb3JqeW9jcGM0ZEhmSGhmQmJaYy0teWtGNEJ30gHAAUFVX3lxTE9ZcWtHbkNWTW83TndfdDdOUXhFV0xpelEwTWtxNUJSeEsxTkE5T3hscVV0RU1FU3lMdnVMYkdmdWltcmdlWS1SSTU2MDhEZU9RT1U2UGNPY3ZMeTFId0pIVEFDaUszUGlkUERFbFV2WVpxa1BsbkN3SWZyeExNU0ttRUppLVVRX1FwRms2TWlBd2U0Y1N3RTZfRHEtWlJuS3RwNnJNeXFSMlFoWVJLQklNaEZ5QXE0ZzBleV9JSDRLeA?oc=5",
+      "published": "2026-04-09T03:08:29+00:00",
+      "agents": [
+        "LABOR"
+      ],
+      "feed_label": "labor-layoffs",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Qualcomm Announces Layoffs In San Diego",
+      "source": "Newsradio 600 KOGO",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWWROeGZ0XzdpcTcwVGN5Z3ozUUdpZUJqOFBrcF8ybGdkN2JEWC1NanBZWDNjOGJDVndZNTMxRkRibkF4c09ZQjMwakZaa1laUjZWdmIxQktmUHNxOEZYWmUtVE5DanNiREpFemc4YnJNTGVrWHd3ZHh1SE5MTlkxdGh1SGt1Rmktcms4VjRqSjVndFBvNXBpU20zcGh2WkRqZVYxUjJoUVpHd2l20gGTAUFVX3lxTE1BczZ0eHlXMk16dUhJcnRvdDdBVDBXUEpuck5uQmVOdzFfVmFZeGF4R3lhWEdianFOUTFuM3lqaG5yT0E2TUU2ODRVT0R3U3FUVEhNUE1YQ2FmVE1jYnFaaUwxdDlsRWlPdzVKU3dfVkFmTU1ibzd2TFlLMEh3bUx5cmtPMkVpMTlZUVBDSk5LRGladw?oc=5",
+      "published": "2026-04-10T11:29:00+00:00",
+      "agents": [
+        "LABOR"
+      ],
+      "feed_label": "labor-layoffs",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "As layoffs loom, 86% of LAUSD digital instruction contracts went to private equity-backed companies",
+      "source": "Private Equity Stakeholder Project PESP",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNU1M0ZTdFYXZZYXJYMEIyRXhiSnBFdDFuMlFLaXA2ZnVUZ1RYZnRnRUVQTmhGY0ljVFQ1ektGZVp2Y3Zsa1JTRnpuUV9xQkZobVJSUEdoWUpCVkpVakx1NlpYV3ZKcTBRaU5faUwzOTJJX3E0MHdBbW9PM0NubU5tUzM0Q0hycUxFU2RUUzVpVHVhcFRVSlpGaEQ2Z1hpWWMzVVY4R1hBWXV5dHVXMUFnNnpNcl91SHowNTJoVXJKTExkd0xobWZ6ekdMTEtPN2Uzb2NNYkNyZ2VHQmlweFdzdkV6Yy0?oc=5",
+      "published": "2026-04-10T14:39:48+00:00",
+      "agents": [
+        "LABOR"
+      ],
+      "feed_label": "labor-layoffs",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Proposed GA tax relief measure threatens teacher layoffs in schools",
+      "source": "thecurrentga.org",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZnRVZDR4R1pDOEFYRWk0X1hyWGdfRXZ2enZ3aWloZ25NdzhvLUlQdmVyRzh4RW5KQklDbWlyZFZ5YzlzanJYS2hEMVVMUktUXzVmdUphX1kxWW9RbjJtUTRCeGJEaWRUZDRBRy1PYmdxbDI5NlJGZXgwRzU2bGJEMFRWZlZBWWZwUVZ0VmF5OGp5V1NQWmJtUWZhWThuZFcwV1pkREYxOA?oc=5",
+      "published": "2026-04-10T15:04:18+00:00",
+      "agents": [
+        "LABOR"
+      ],
+      "feed_label": "labor-layoffs",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Layoffs surge across North Carolina",
+      "source": "WSOC TV",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSWJRLXc2elVyMy1IUnA2a0VRWHpyN0pjemdaWGV2WWxwOHY1THlaLTN5Z2lORTNLZjRpTWR5YTFkV2lBcVRITnFkbWotYVdNMEFzb0p6T2lsY2xtd24zXzJ3NEhOQUgyNUNRWmF2RmluUWZFSjBaQXR0aUhvYWhvM2JCTnhzOEEzNVRmc09pa1BlYWF2MEZmdU81bUd4QdIBsgFBVV95cUxNeGFnYWFESHQySm5TcEkzT0M4bjJZd3NxUXRvMndBbmZsZHI5YkNmWDlaOFBwZ1RVRDdTSk5fZ0VUdWkzMFRUX2tXNTlJcTdocjV3dXBkcDlSendNNmtrYmU0Z0s4RWtGN2xPRXNtYkVLZU03U2FpYnZPUHV1LTNPZFJtLTRYUlE0VEJhcWNKTnZRVGpQb2p6Wkx4QmRJOUIzOUIyeTBUQ0NmaTJGWHByVjBR?oc=5",
+      "published": "2026-04-10T14:12:42+00:00",
+      "agents": [
+        "LABOR"
+      ],
+      "feed_label": "labor-layoffs",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "March Jobs Report Showed Modest Hiring: Bank of Canada Expected to Stay on Sidelines",
+      "source": "Morningstar Canada",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOR0gwX0xMYjBCdHZncENKSXlwZFY1TDk4MlpETVZxZ1hQYm93VDduOEllSjg0bXRlN2t2Z3FfN3RhWFVUNEh3WFNhREhuWXBSTHhpWGNMWGxfOHN4eVdmSngyWUlyRVROTDktTFlRcUEyYW1lOF96VFVfTHJneWVQRG4yZEFoTU1KTkJwX2VpQm1DajEyb2pqa0E2dmhqbUtSUlNyMVpkTGpadWN4ZWozTjc1cEJiVzdVTTJN?oc=5",
+      "published": "2026-04-10T18:26:37+00:00",
       "agents": [
         "LABOR"
       ],
@@ -439,10 +2494,230 @@
       "source_weight": 1
     },
     {
-      "title": "Powell: Private credit stress is 'not a systemic event'",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVlVwZFlfNmIzckJmMHVZdmNGa0l4QUpTR19PMmVwYkJxN3Z3cWFWUFM4akFHVFcyajZ3VTNGTHU0eXhkTFNDbndNVTNPeGJndVNPMGRkelhpbEV5M0FPbkpOQ0l6MjhTSUNsc1hLb2Z6bHpINlNmaHp3UTV4NXZHbGluanBzaDVaT0hIOUs3OWZBNDRlMllTZ2hORUNHYm0y?oc=5",
-      "published": "2026-03-31T22:34:24+00:00",
+      "title": "A strong March jobs report, but a slower path for new graduates",
+      "source": "acuoptimist.com",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOXZGRlV2a3BiNGlNTFlzZHdqZklnLUJmVTJZcXAwMEljamt0NGxSdFBocVkzSW1kN2JzT1BmMWh5NHZ6TnZ5ZWRRVTI1Yjg5d1RiSDQxa1FJamp3RlFNS0dEb1Y1YWprRVFDSTJhVEtVLTBQSVMwcFRmTWNSd0UxM2VYSEhoVWhqM2h0N3pZM2M2cmVHWWRzREU1WQ?oc=5",
+      "published": "2026-04-10T13:40:55+00:00",
+      "agents": [
+        "LABOR"
+      ],
+      "feed_label": "labor-nfp",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Canada\u2019s Jobs Report Was Steady, But Pay Growth Stood Out",
+      "source": "Finimize",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQaFI5YTV6NEJNdUdnMkh0MExQUEhOMG9IMnVJZ0ZKMTBZSXFZQ0p3SEJLRmNIUmJoT3Bjd21jV1hxSEVFZGpzR2pLSnRjNGhNb3VsQl9YRVZnTl9tb2tKRVlyQndiUkhZbm1pS2IyUFdDWkg4Z0ZlUExRc0syTlhCRmpUaXRHWGlIcjBtcA?oc=5",
+      "published": "2026-04-10T14:43:19+00:00",
+      "agents": [
+        "LABOR"
+      ],
+      "feed_label": "labor-nfp",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Sen. Rick Scott calls Florida's latest jobs report 'concerning'",
+      "source": "WPTV",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWFlMQkNHRV9CZGltcmcwSktWMkpGeXp2d0NLbW4ycVFUN0lXeVQ2QXJPbkFuRFhoOHJfM2pSU2lZSUJfVFYyQVdzTUwwVmpKeVFIVmpFc3lVV2t5V01PQVRpQUc2QzY1Qk1UR2xWM1pRV0lXQzAxTy1YeGQ4Y1AtRUsxcS1COXlXZ094RXZCWWhkWVJuUEJoUU81eTc0U2s?oc=5",
+      "published": "2026-04-10T17:21:59+00:00",
+      "agents": [
+        "LABOR"
+      ],
+      "feed_label": "labor-nfp",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Friday\u2019s Jobs Report In Perspective",
+      "source": "The American Action Forum",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQNUlIQ3RCN2JoNmhTbzY4OHMyUkdWSVo4RHo3N2pIMTZkOE83dGJTVzd0XzJvY2hSRUdLODg4MEo4aDR3ZmZxanI2QjJNUEYteEpCazdfTUp3OURzUFpjcF81b2ZfSlRjanRhSEE5T2ZfTTRyTWk3djhoVXFvamlRdU94S2ZTb2dvM0E?oc=5",
+      "published": "2026-04-06T10:34:36+00:00",
+      "agents": [
+        "LABOR"
+      ],
+      "feed_label": "labor-nfp",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "NFP Acquires Minnesota\u2019s Sherman",
+      "source": "Insurance Journal",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE55NkNEeDRrYzhUU2tlMEd2bk03VDZFV3BRVk9SUWM1UmNGR0xZNHJVMFVCNVhyOVpvNDEyNk16Szd6S0ktLXA1WGRENVhsVWwzYkZWMXcxQnBxSVRzTnl6X1hfUU95RlVWMW16WjN1WUtpZG51UXc?oc=5",
+      "published": "2026-04-08T13:17:19+00:00",
+      "agents": [
+        "LABOR"
+      ],
+      "feed_label": "labor-nfp",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "The March Jobs Report and the Story of Time",
+      "source": "cepr.net",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1TbmJtOEg2eXpFRmJDN1MxdmZ5ZE5pbGZfU0kzTVQ3bGpOa3Y4Y2czNm5sT25kVmFralFRM0Z6amFFZEpZdEhycW1jZlJCUEI5bW1oXzRUYTZHWHVRS1VvOGtraU13UDBkUGxsZnQyWGJLVUtTWWdqcm1Gd1haRUE?oc=5",
+      "published": "2026-04-04T23:31:44+00:00",
+      "agents": [
+        "LABOR"
+      ],
+      "feed_label": "labor-nfp",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "March 2026 Jobs Report: A Surprise Surge Complicates the Fed's Path",
+      "source": "The Chronicle-Journal",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNQ2lCamJ6QkxZQ0JUNWU1ZW9CWHhxQjUtMzhyQVlXREozMTJBbFZCYzFuWWNEV1Z5ZC1ONDB5bnVDOUt1S0lfVFZob0ZQalZqVVBobWxsX2NtWS1yMHJOejdjQm5LWVQxQ3NXbEpLRnhKWEpnOWpVQmhfQnAzdk03ZjJEeTRfTTd6eXJEY3Z3bms0ZUxJMnNWN2tlS3ZlbVY3LUdoYUViUi1fUEJFb1VDOFoyVkNOVGpKbGRjWWtrYk93Z1lUYm9wMDJPUEZMem5qU3J5Nl9ud2tKSEx0TGtxNWg5Yw?oc=5",
+      "published": "2026-04-10T14:31:00+00:00",
+      "agents": [
+        "LABOR"
+      ],
+      "feed_label": "labor-nfp",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "March jobs report shows high Black jobless rate, declining buying power",
+      "source": "New York Amsterdam News",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVHA1dzdwLU5xTFRSRVptazZ0cnp1TnhpakZ6T0REVnBoQnQ5djVQamxNUmY2SVZXT0ZCRllLZzJGMkE0UWxNTGotMUZUM0tmYU8wWHZOMDVROGI3bjg4X1p6cTZHV1NCX19Sc0tpcThYOGUzdTFnRVE4ZDBMdWVyOEpNVzRLQ0NqY2lzMVZoRzl5bUpqYkE?oc=5",
+      "published": "2026-04-09T04:00:00+00:00",
+      "agents": [
+        "LABOR"
+      ],
+      "feed_label": "labor-nfp",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "NFP buys Sherman Insurance Agency",
+      "source": "Life Insurance International",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOR2VUajg5TXdnNDBSOEVwTkJGLVFhYjNZZGVXV29fU0lyNllEemFScmswZUtXa2JmVVVNWmdRNGFNZmJHejIxMTRydkEtMzZPd1UyenFtbkkwQ1RBcnIwZTM4ZmxseTNIUUdKU3pnWGpJRncyS3cwNTUzcERaYTlyLQ?oc=5",
+      "published": "2026-04-09T07:56:25+00:00",
+      "agents": [
+        "LABOR"
+      ],
+      "feed_label": "labor-nfp",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "March jobs report shows strong growth despite Iran War",
+      "source": "WCVB",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbkpmVmJ3TzlTUDRidU90d1BDMExYZERPY1Y3VzlOczBlNTFxekFTOUlXYnc0U0ZiM3dMdktCWXZtUGp6cVZlZjVzcF9QT0ZxeURoODd6NHNHOGVLTVhwTEZjUDdLdi1LSWpYYktGM3pEUzJIb1FVczJueFc2cHU2U3l2RmNwR3l4bm1UYkctUkZub2N5em9v?oc=5",
+      "published": "2026-04-06T14:22:00+00:00",
+      "agents": [
+        "LABOR"
+      ],
+      "feed_label": "labor-nfp",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Nonfarm payrolls surge rewrites Fed outlook: Rate cuts pushed into question",
+      "source": "Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPenBhQUw3a1BRclh1OGRKcjlST0ZjeDZ6OEEycU1QQXdNSEFKTnNfSzkyRWFvVkVIc0Nsa3gxSzlxOFdrbHdIeXdmV1VDV2V6N3NrVkpPYTloUkxqMEZVOWw3STRHTjVLRjFRWmxGOC0zZXZqdGk3dDZGU2VWbzhQUWdmdmZfWFdSbXNxQ1Z6YndFUmQ3aDJMbVJvNEZmd1ZSZlhnUnZyNTc1TjNRQXZsSnZR?oc=5",
+      "published": "2026-04-06T19:54:12+00:00",
+      "agents": [
+        "LABOR"
+      ],
+      "feed_label": "labor-nfp",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Banks Must Act Now as Consumer Credit Stress Begins to Spread",
+      "source": "The Financial Brand",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNXFNakh3Sno5LVRBYlhJMmdhX01CZ1I2Y0ozRTdKSE1CcHMtamVwNWNiczhYaEF2OVJBRDYtWlhxQTV4UjRzWlJnQUUweExQcHl3TUtQTkxRRFRBVkxVSlNncVozLS1valdISEpsYjBZa013MGp3WnhvLTRkM2ZfMklhaEFYaGMxSTlLLTl0WXBsRldWeml5bnhPOGI2dXBsXzhQaENZNFp1aEppMkdlVS11cFhucnctdWFVdGo4T19MY0wxSUEzcw?oc=5",
+      "published": "2026-04-06T21:32:07+00:00",
       "agents": [
         "LIQUID"
       ],
@@ -459,10 +2734,210 @@
       "source_weight": 1
     },
     {
-      "title": "Commercial Real Estate State Property Tax Updates and Deadlines",
-      "source": "CBIZ",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUmcycDJPN282MENldUNja3dra0psQlNvV0dqYVlqR2Y3ek4zQzdtZlJjTHVzSXdCOVd2NkpMNXlBbTQyZVN0Q3BHV3gyUURSb2dDM0MzT09PNlpra1JQQ0szajNCSlItY3I0a0ZuR3NOaVo1R2lHQXVJblBMSFU1OEhYaGxPbTE4V0lIQmNvT1lpMHkxOXdOSUQxWG1pYmpWMW5Z?oc=5",
-      "published": "2026-04-09T18:46:02+00:00",
+      "title": "What private credit stress is really telling investors",
+      "source": "Funds Europe",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPRk1SeXdyYU9lYWphMllpMWVIVXVRRm1WUVNSZC05ZVlqTnBJWU44c3A1b0N0NWpDYVlPbTdmeXZEemZ3cmZYUzVtYkJmNlRkQVZfc1A3TWx1dkpELTVGZ3hLeU1reVl1SnBiT0JkanZmR0FhcW1xdjVBMnNkUndjRDk3VFZJa1k?oc=5",
+      "published": "2026-04-08T10:06:04+00:00",
+      "agents": [
+        "LIQUID"
+      ],
+      "feed_label": "credit-spreads",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Opinion: Your local banker is getting worried that credit stress will bring the economy to its knees",
+      "source": "MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPN19pbG9yOTVpRFZ1V3AtQnRqU3pCaTNyeHY4c1U3XzhBd0ZLQnQwSS0xdE4yWFY4Q2hiV3JWNEtLdFM4dUVJUGVfcURfVklfcmxJUGItX0ZWRUotTmJiVlpoek5BZ0I4ZTRFeGFKMGMtOFZUNVpmamhQdHVwYlNjRU03eF9XUHZ0Smk0ZDFFS1FOTkZEeDBsMFEybHlsRVdTVnprTC1SOXk4bk1YVVpReUY5VHFKQk9FRUpWREp6bFVzSnpUakJsYkx2RWw4aFZZd2lDc3hSdG9Zd0pfYkQ3Y1AyNXRyQk0?oc=5",
+      "published": "2026-04-08T16:29:00+00:00",
+      "agents": [
+        "LIQUID"
+      ],
+      "feed_label": "credit-spreads",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Private Credit Stress Intensifies | Newswise",
+      "source": "Newswise",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE51X1lkVDc4OEJoM19Kc0pscll4LTZCWlpxSWlVZ2tPTXdyY1h0R3RSWENjVVpwSE9IUmpHTmRYVDRBd1AySkdkeGFmN0Uta3M3c3B4TXNmcmFDWTVvXy1GMlVlUWFRTlFXR3QzU0JnMFBKemtkMVHSAXZBVV95cUxOdV9ZZFQ3ODhCaDNfSnNKbHJZeC02QlpacUlpVWdrT013cmNYdEd0UlhDY1VacEhPSFJqR05kWFQ0QXdQMkpHZHhhZjdFLWtzN3NweE1zZnJhQ1k1b18tRjJVZVFhUU5RV0d0M1NCZzBQSnprZDFR?oc=5",
+      "published": "2026-03-26T01:15:00+00:00",
+      "agents": [
+        "LIQUID"
+      ],
+      "feed_label": "credit-spreads",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Layered Uncertainty: Conflict, Credit Stress and AI",
+      "source": "RealClearMarkets",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPc0ZoZk1fb0twSDFmNlV0aFlGZDRPQnRNMG5tLUFGUHFLLS14NUJNQ0hXQ2VNZXJlUS1zZjZxXzNub0ZQQkFVU1g1Slp5OTdfNFNLWU5zbmdMZDVIdzdyZ1dudEpRLXNTdFdqV3huVklNRHJsaFhDaWh1Q1NnZHRrUmFFTy1wMXZ6cXNQUHc4dnNreUZvaV9kLUI4N3N5NkVROFZPa2NrR3RZUQ?oc=5",
+      "published": "2026-04-10T08:36:57+00:00",
+      "agents": [
+        "LIQUID"
+      ],
+      "feed_label": "credit-spreads",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Ultra 10-Year U.S. Treasury Note Futures Margins",
+      "source": "CME Group",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQXl1cFdfbEVEZ0FpYVRENHpNWXp2dUxpOGFQTExlUjFIckdHUmR1NmQ5VWdJcW9oUUI3STBnVmNXSkNzdEduNTZ0TUlRbkp1Q2xYV0xNZ2hxUmlHOFFEUGZrTWliQzVxX1E0aW94UHJiZEZZZkxIa3Q5N2pvd3dITzBMOXJna0hSV0FFd1lCSDNjSGFaWjFnOTBfWGZOc2VXeWtYX2R0SmJhZlN3cTQ4VEd2LUxqUEJ2ZGI1MmlXQU54UTQ?oc=5",
+      "published": "2026-04-09T21:05:17+00:00",
+      "agents": [
+        "LIQUID"
+      ],
+      "feed_label": "funding-stress",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Sallie Mae raises $2.3 billion in SLABS from its Smart Option pool",
+      "source": "Asset Securitization Report",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNmdaMUhuYl8wUHMzQ2pLNk8zVERHb3NXYUxJbl9xYTYwTlQzZzd4czFDTU9qeUp0S3l5Y3dyTktpTmZiZmM0YmxTSW52WjdXQ2RQMHpHTU5FdDhZX0tNMzNCekxpYkFrQUtwRFpuc2o2Y1ZscVdxZGdhLTlKMHk5LWlFc29aS005WXp6MEYybjd0M0lxenhVYjNaSFlCQS1OMUVWdEZzUFlUZw?oc=5",
+      "published": "2026-04-10T17:43:00+00:00",
+      "agents": [
+        "LIQUID"
+      ],
+      "feed_label": "funding-stress",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Wells Fargo Acts as a Steadying Force in the U.S. Repo Market as Analysts Differ",
+      "source": "Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9wOHlWdlEyYkhmWlhEN01XMThDaFk2WnZVeTZaLS0tRmVPaWtxQ3VFeGVram13VmhKdUo5LWNJcFU3YWdQSkZ2ZUw5eTlrQjVVMGFkcVBoSGctLVVJTEw1aVE4b9IBY0FVX3lxTE9wOHlWdlEyYkhmWlhEN01XMThDaFk2WnZVeTZaLS0tRmVPaWtxQ3VFeGVram13VmhKdUo5LWNJcFU3YWdQSkZ2ZUw5eTlrQjVVMGFkcVBoSGctLVVJTEw1aVE4bw?oc=5",
+      "published": "2026-04-09T03:50:27+00:00",
+      "agents": [
+        "LIQUID"
+      ],
+      "feed_label": "funding-stress",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Enhancing the resilience of the gilt repo market \u2013 BoE discussion paper feedback statement",
+      "source": "Global Regulation Tomorrow",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQQmpDakxFc3cycjFOTmY5UW5sQU5vbnVlb052WTJGZmwzNUM2R3lNMXg2MDB5Y3VLa0N1SjBmYmdQYTJJb256dXBFLVRISC1NRFRKSUZ0Z3RFNFp4ZEtTNzdLMUFNcF9NWV9QdGJLVUNER1ZSNlQtaUZWS0FYU3o4Rml2eDFFQkoxdXFQWE16aVBfLVFveVZreHkyZnkxX2Ryc25ROWpvQkpsdUY0NWJWUTd6UWJtOThfdnNyRGRsV3FsVWtwUmNEMnZCMjQ?oc=5",
+      "published": "2026-04-01T19:42:03+00:00",
+      "agents": [
+        "LIQUID"
+      ],
+      "feed_label": "funding-stress",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Repo Market\u2019s Warning Light is Flickering",
+      "source": "The Daily Economy",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOMFFJNWsyb0U0ZzYzQXVqdXFhZFI0UV9hN25ObC1ZWjBOVS1FMUUycGY3RUtxeVVrNjFQQnBTUVpySHM5LUtWREdVbExUd0RkRmZPT3phZkxsSHZ1RTZnQmVoeV9GRlp1cXA5cDE2OTZJTW5qeTljTUhGWDVoREFEdERyRQ?oc=5",
+      "published": "2025-10-20T07:00:00+00:00",
+      "agents": [
+        "LIQUID"
+      ],
+      "feed_label": "funding-stress",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "U.S. T-Bill Futures Margins",
+      "source": "CME Group",
+      "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxOS2ZmcXJxT0g1X180c3NoRm4wRFJzNjJTUkRUOE1fRWtwOVdKQXF3RWxZQ3g2ZHlDRzFHeFJXN3FISlU2bE5hM0U3bWxTNjVUY1Q5LUE5MVdpNlZ1U2M4NllXUlIzVkpBWVEtSFBJRDdUY3lzc19SWGVZbHBqUHB1bmJIeGduM0xOR3BVc3UxSXRZdGswWWxWNHpOeGV1ZTZ5ZE12TF95anNfOTdMYkVGNzI0S3BQZktqa2Y3bWhkNlN5VU52T05sMVpKc043UHNDekhQUGIwVmVELTJCcVZvNWhJZUxMWVJYX0t5MzZBVkU5SDBJWUpMX2RVQl9aOXpqaGlEMUE1N09mTVd3Z0E3Zm9mUXo2MDBTYXc?oc=5",
+      "published": "2026-04-07T06:55:27+00:00",
+      "agents": [
+        "LIQUID"
+      ],
+      "feed_label": "funding-stress",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Tallahassee's commercial real estate in a relative slowdown, according to latest market update",
+      "source": "WFSU News",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQa1NKcTFKWURCRWs4dDlkc3dlclVJLWtCTTY4bmlhOW12NTdEbUt4T1V2aVFYZi0tR1V0b0tNS1lNdllFQ1BfZmhuWlFEc1R3aUpaOFZERkxSeEdjeFNsM2JwcUZXdU56dm5JVGtCN1M2SXJNMjVibkxLaUt0RDdBSWdkOW1vWFVRUTFzUU5vOGIxMzNzaXVpczc3Vkx0S2tsRFYtYko3MWRqWHdYZnBnNldXVVFkendyVkl3MU96UTlZN01iNEZmNHJPRVFka1dNZFUteVpIZFQ?oc=5",
+      "published": "2026-04-10T15:42:00+00:00",
       "agents": [
         "REGINALD"
       ],
@@ -479,10 +2954,10 @@
       "source_weight": 1
     },
     {
-      "title": "Greater Vancouver commercial real estate transactions down 8.3% in 2025",
-      "source": "Coast Reporter",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQWXBmVkl2X0FIZFJVcXBNYktmaWtRVjdGRE5TajlNXzBXY0RLWXE0cmFDXzZ5RWhmWTJReU8zeTNpLUN3XzQ4eTcxaWNlMmFhSjBVSU5EeEdFWktZZVBYempvNWhHd0dWOU1tTVpsVHpkVzZDc29hU1QwYTIxVm1EQUpHXzlQcUgzWllWVi1GMXlCUkQ2R2xYbHNTVkdHSUJDeFQzMHFnOG9wNmlsUWc0RzU3ck9fN05LUWJjdVp0Y0JKSGxO?oc=5",
-      "published": "2026-04-09T20:10:25+00:00",
+      "title": "My Bridge Loan Announces Increased Demand for Bridge Financing in 2026 Commercial Real Estate Acquisitions",
+      "source": "markets.businessinsider.com",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNRFdPREVnVndiQzFmd1Rua2hfSl9weXhaZm9wZVhBUmF5V1VVWDlwSmRxMHZSUHBuemR4bXlYY0tMM0NLbmlYYnhFNmhQVmRkclZ5WTNpSzZBaS1IcGJodnA4ZE5WTUhsREJ2NHQwVzRycjM1NndNVkFKTU9WamhNVGYyZEdQdjIydTRtLVYxQS1XT19ZeUJsYjBRaWpKanpSdDQ2RXlUenJrZGs0MHJra2JrTFduanZieG5wMWJEYjlQT2ZVbFYwS1BOajVJak1mN3hXSWlOUm5URnh0UUJHZFUyV2Z1S2xHMHhyZEhhUFNJMU1McnB0Nw?oc=5",
+      "published": "2026-04-10T14:18:02+00:00",
       "agents": [
         "REGINALD"
       ],
@@ -499,10 +2974,230 @@
       "source_weight": 1
     },
     {
-      "title": "No Storybook Ending: Disney Plans Another Round Of Layoffs",
+      "title": "Tysdal starts commercial real estate firm",
+      "source": "SiouxFalls.Business",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1udkFYVkFjdGVXSl9PRXRDNkIta3N1Nm8wNjBlZTVnTENpTkJ0RzM4QTJYZ1NEcHFsMGgzY1BidVZKNUx2UkUxblRXZ0pobWx4UHdPbkZyckZ0Tmo4YV8xcWJYczZteWxVc01lN0JWZDBkSVFWTW5PdU93?oc=5",
+      "published": "2026-04-07T13:37:43+00:00",
+      "agents": [
+        "REGINALD"
+      ],
+      "feed_label": "cre-stress",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "\u201cOur Love Affair With Commercial Real Estate\u201d To Be Presented at LA Times Festival of Books 2026",
+      "source": "WebWire",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA5ckJLeXdKM2J4aVdseUN2cDJWX2ZoWElncUU0S2lrZ2U4WDQ3S0NKS3NScUdIdmdSWTV5VDFrNXRMdW5lak9XR3dfcXk3c3VUUzRPU1pjV2lGNGhzNjNGVg?oc=5",
+      "published": "2026-04-10T13:02:42+00:00",
+      "agents": [
+        "REGINALD"
+      ],
+      "feed_label": "cre-stress",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Greenwich Village luxury townhouse once home to family of artisits sold for $21.5 million",
+      "source": "Crain's New York",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSHNBT0FlMTRGeVBGLXFoOHVPRDhQQU4xMDBQeDlDeUtRakJRZ28wV21reVhxdXMwUjlIa0NtdVNvdWRsbUdMRFo3UjZ3NGdtTHNORG5LeHlMYmlsMXRQWlljWmJ3MnZXYS00eEJZdW5LQWNUR2lnbnRsejFtV2hLaTlOSzN0T1JRQ1hUOVdVWGpsZkxQcDBZa1dWZXluRldqdThadkdWOUJhX0k?oc=5",
+      "published": "2026-04-10T17:26:00+00:00",
+      "agents": [
+        "REGINALD"
+      ],
+      "feed_label": "cre-stress",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Challenges, opportunities cited in residential, commercial real estate",
+      "source": "BizWest",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQN3pTZWFEQkg2Z3liSENrbGFJRjlYZ1VPdndVUXgycWtwTDQxVDBfNGp0YjV0WEVaWC1SSkZfaXRZc0x6NWpsMHVvTUk3UFJjV202TnhtT2xUTGZkVVVyUDR3SGxnOTkxOE9yRUpKRlBoT24zOEI0YnFOV3NmSWVfTUdkaWxWc3NwS2M5VUFrSDl5VTJnQUpIZDM3VWRjc2VxU2c?oc=5",
+      "published": "2026-04-08T22:08:56+00:00",
+      "agents": [
+        "REGINALD"
+      ],
+      "feed_label": "cre-stress",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Credit Card Delinquency Rises to Highest Level Since 2011",
+      "source": "Statista",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5RY2dEaExMV05WcTFkaXFQV2ZLc0Y4T2J3Tk1iSTIxdUp6UDFJdktCcVNrcUVSN3BadTVJZm9PYk5FWUNWV3ltdGVmNzNmb084Q0FNLVIzUExaMzFaWDBjYTUxelA2N2JXUkx4cHI2c3N4RDVC0gF6QVVfeXFMTzNzckRMOC1iTmpWUkhlOWlFaXBWd0RKWXFSSEEzdFZtc3ZMLVZFd2dzajBwUlBXQzVEZWlOc3NrbzlLcWV2c3ItUU1VaDYwMU4wdzRldHRNR1JBWDhGLXlGMGNnbG83VmxqT3h0eUVyNkVjNXU0VXBvYkE?oc=5",
+      "published": "2025-12-04T08:00:00+00:00",
+      "agents": [
+        "CARL"
+      ],
+      "feed_label": "consumer-stress",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Mobile Sports Betting Apps Drive Credit Card Delinquency Surge Among Borrowers",
+      "source": "BadCredit.org",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNa3F5aHFOWGVMT1FUZ0N4aDhrZ3pfVjRsdjE3ZU9OajM0a3diYWY0WnNRQThhVHBNODFLdmxlLUE0OXJWSDIxbFhrWm0wR1ZScFV6dENDVGdIWVduSEp4NXZXak5GeG9nYWZSM3FadS1RUWdiQkxad0VqREZaV3RBNGM5QXhWbjktU0FxNlp5Rnk?oc=5",
+      "published": "2026-03-31T00:00:00+00:00",
+      "agents": [
+        "CARL"
+      ],
+      "feed_label": "consumer-stress",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Florida has lowest credit card delinquency percentage in U.S, study finds",
+      "source": "WUSF",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVHcxZ2ZCNjBSTUp5X1J6SS1Od0JjQU5xWUFoUmM1V3pURDFNeDVva2N1R2pMODJZNlZMV01FX29qd1JFdlZNZ1pZZWI5SXYxMENXRThqR1FJWlFmc0RrWU0tWVZaU19BcDl1RHlVb2FPaEptZTA3cUpQZXNySTNJME05cEstRFg5ajlKNXEySW1PX3dndnZmaS1PTnNFVlJkaXZ5OEZYaXNweG01bThXZnJGTHFwLVBnSUtWOUJVUEJCbTV6?oc=5",
+      "published": "2025-12-22T08:00:00+00:00",
+      "agents": [
+        "CARL"
+      ],
+      "feed_label": "consumer-stress",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "A record number of Americans are behind on their auto loans",
+      "source": "marketplace.org",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWFVydVktUV9hVk5mZzUxREhrQ0lwQ05adk0yWlVGbzJrY1B6S1Y5UjNfekJMRmFDVWRJS1Q4WlFueEE4a1FPeVRpOWpTM3pIZUd0ZjRrQzZyTUhQWXpKLXYtcENFRXJtN1VBWW5PWnBPRjdqY3dncHBoVmp4My1wb2I0TnhEMGEtTzdTTkdGamtVMVFPaE15QmN6WWt2ZERUa3F2a01RZw?oc=5",
+      "published": "2025-11-12T08:00:00+00:00",
+      "agents": [
+        "CARL"
+      ],
+      "feed_label": "consumer-stress",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Auto delinquencies climb as lower-income Americans struggle with car payments",
+      "source": "CBT News",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNeEZRY1lTckZEWUFzX3BrcU5kTFpLUjR2cXAwRlNldjJXQ2dLYkl4RlJhSGZWV2VCMUd0U3ZpUFdwdXl2QkJWdHMxLXBVVWJUaWl5ZVd4SVVfNFBsVEJRLVJRVVpPMkZYTU5YdS1fVmhJc2wxMi1lc0V0eEZsZE1lMHd6UDlBYjhtVFlDSzhtQWhOVm5jT2lERGxiemFCQVB0UWtCOQ?oc=5",
+      "published": "2025-10-22T07:00:00+00:00",
+      "agents": [
+        "CARL"
+      ],
+      "feed_label": "consumer-stress",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Texas shopping mall investor bought for $1.7 billion by global private equity firm",
+      "source": "Dallas News",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZTBIWGZsX0Rpc0FPbjhMRzdwMkhIT3J5RXBtMU1mSGktLVFaV255TVZLQ2tPOTZiU2NadXcyaGNGWGFOeTVvcGtEYVQtR2szNTl5eXFybk8tbzZfSks0aGt6ZHVPX29VOFpITnZSSmVIZFVLODBCMFlUVlN5R1JhdHN0R3BoUDBGRFpDVGI2UGVoSGdzLXZKSnZmTVp2UURfYnFpWmlSQTZ2LW9C?oc=5",
+      "published": "2026-04-10T11:02:44+00:00",
+      "agents": [
+        "BROCK"
+      ],
+      "feed_label": "position-pe",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Houston-based Whitestone REIT to be acquired for $1.7 billion",
+      "source": "Houston Chronicle",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdVZ5RUd0QjBFeGlLRVcwY2U2cHktaDlkSnVlR3dxbjRMUG5nNFA3ZFJ3NTVSa2t0V1ktc01oWjNBRGw1YV8yTURVcnJOMmdQWE1MdF83b3FrWWR6bEh2TDNOQVEwOG9xOTBvY2Z6NXd4WlNndkd3dlVvUmtITC15VkJHWjFwc1dSQ05SRlgzRTJFc0NzR2I2end0U01GTlk?oc=5",
+      "published": "2026-04-09T21:36:33+00:00",
+      "agents": [
+        "BROCK"
+      ],
+      "feed_label": "position-pe",
+      "origin": "google_news",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Today&#x27;s Top Stories",
       "source": "ZeroHedge",
-      "url": "https://www.zerohedge.com/markets/no-storybook-ending-disney-plans-another-round-layoffs",
-      "published": "2026-04-09T20:16:09.203802+00:00",
+      "url": "",
+      "published": "2026-04-10T20:15:39.439397+00:00",
       "agents": [
         "ALL"
       ],
@@ -519,10 +3214,10 @@
       "source_weight": 1
     },
     {
-      "title": "Real Rates Will Tell The True Story Of Postwar Monetary Policy",
+      "title": "How To Win The Iran War",
       "source": "ZeroHedge",
-      "url": "https://www.zerohedge.com/markets/real-rates-will-tell-true-story-postwar-monetary-policy",
-      "published": "2026-04-09T20:16:09.203807+00:00",
+      "url": "https://www.zerohedge.com/news/2026-04-10/how-win-iran-war",
+      "published": "2026-04-10T20:15:39.439436+00:00",
       "agents": [
         "ALL"
       ],
@@ -539,10 +3234,10 @@
       "source_weight": 1
     },
     {
-      "title": "Texas Pacific Land Crashes After Largest Shareholder Dies",
+      "title": "War and the Dollar System: Making Room for China",
       "source": "ZeroHedge",
-      "url": "https://www.zerohedge.com/markets/texas-pacific-land-crashes-after-largest-shareholder-dies",
-      "published": "2026-04-09T20:16:09.203812+00:00",
+      "url": "https://www.zerohedge.com/news/2026-04-10/war-and-dollar-system-making-room-china",
+      "published": "2026-04-10T20:15:39.439444+00:00",
       "agents": [
         "ALL"
       ],
@@ -559,10 +3254,10 @@
       "source_weight": 1
     },
     {
-      "title": "CTAs Set To Buy Near-Record $45BN In US Stocks Next Week",
+      "title": "Peace Deal or Not, the Inflationary Shockwave Is Already in the Pipeline",
       "source": "ZeroHedge",
-      "url": "https://www.zerohedge.com/markets/ctas-set-buy-near-record-45bn-us-stocks-next-week",
-      "published": "2026-04-09T20:16:09.203822+00:00",
+      "url": "https://www.zerohedge.com/news/2026-04-10/peace-deal-or-not-inflationary-shockwave-already-pipeline",
+      "published": "2026-04-10T20:15:39.439450+00:00",
       "agents": [
         "ALL"
       ],
@@ -579,10 +3274,10 @@
       "source_weight": 1
     },
     {
-      "title": "DOJ Opens Criminal Investigation Into J6 Committee Star Witness Cassidy Hutchinson",
+      "title": "Software Slaughtered, Semis Surge, Bitcoin & Bullion Bid As 'Ceasefire' Holds Ahead Of Talks",
       "source": "ZeroHedge",
-      "url": "https://www.zerohedge.com/political/doj-opens-criminal-investigation-j6-committee-star-witness-cassidy-hutchinson",
-      "published": "2026-04-09T20:16:09.203826+00:00",
+      "url": "https://www.zerohedge.com/markets/software-slaughtered-semis-surge-bitcoin-bullion-bid-ceasefire-holds-ahead-talks",
+      "published": "2026-04-10T20:15:39.439456+00:00",
       "agents": [
         "ALL"
       ],
@@ -599,10 +3294,170 @@
       "source_weight": 1
     },
     {
-      "title": "Google Accelerates Timeline For Crypto's Quantum Computing 'Q-Day' - And Delivers A Roadmap To Safety",
+      "title": "Trump 'Preparing' US Military If Talks Fail, Proclaims Iran Has 'No Cards' As Delegates Arrive In Islamabad",
       "source": "ZeroHedge",
-      "url": "https://www.zerohedge.com/political/google-accelerates-timeline-cryptos-quantum-computing-q-day-and-delivers-roadmap-safety",
-      "published": "2026-04-09T20:16:09.203831+00:00",
+      "url": "https://www.zerohedge.com/geopolitical/pakistan-streets-lockdown-iran-delegation-arrives-us-talks-fighting-hasnt-ceased",
+      "published": "2026-04-10T20:15:39.439461+00:00",
+      "agents": [
+        "ALL"
+      ],
+      "feed_label": "zerohedge",
+      "origin": "web",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "If this Company Solves The $125 Billion LFP Battery Supply Gap in North America, What is that Worth?",
+      "source": "ZeroHedge",
+      "url": "https://www.zerohedge.com/sponsored-post/if-company-solves-125-billion-lfp-battery-supply-gap-north-america-what-worth-0",
+      "published": "2026-04-10T20:15:39.439466+00:00",
+      "agents": [
+        "ALL"
+      ],
+      "feed_label": "zerohedge",
+      "origin": "web",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Trump Rebukes Carlson, Kelly, Owens, & Jones Over Iran Comments",
+      "source": "ZeroHedge",
+      "url": "https://www.zerohedge.com/political/trump-rebukes-carlson-kelly-owens-and-jones-over-iran-comments",
+      "published": "2026-04-10T20:15:39.439471+00:00",
+      "agents": [
+        "ALL"
+      ],
+      "feed_label": "zerohedge",
+      "origin": "web",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "JPMorgan Analyzed All The Oil And Gas Damage In The Gulf: Here Is The Complete List",
+      "source": "ZeroHedge",
+      "url": "https://www.zerohedge.com/energy/jpmorgan-analyzed-all-oil-and-gas-damage-gulf-here-complete-list",
+      "published": "2026-04-10T20:15:39.439491+00:00",
+      "agents": [
+        "ALL"
+      ],
+      "feed_label": "zerohedge",
+      "origin": "web",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "The Squeeze Worked\u2026 The Chase Is The Risk",
+      "source": "ZeroHedge",
+      "url": "https://www.zerohedge.com/the-market-ear/squeeze-worked-chase-risk",
+      "published": "2026-04-10T20:15:39.439496+00:00",
+      "agents": [
+        "ALL"
+      ],
+      "feed_label": "zerohedge",
+      "origin": "web",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Hunter Biden Challenges Trump Brothers To Cage Match",
+      "source": "ZeroHedge",
+      "url": "https://www.zerohedge.com/political/hunter-biden-challenges-trump-brothers-cage-match",
+      "published": "2026-04-10T20:15:39.439501+00:00",
+      "agents": [
+        "ALL"
+      ],
+      "feed_label": "zerohedge",
+      "origin": "web",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "Kamala Harris Teases 2028 Presidential Run: \"I'm Thinking About It\"",
+      "source": "ZeroHedge",
+      "url": "https://www.zerohedge.com/political/kamala-harris-teases-2028-presidential-run-im-thinking-about-it",
+      "published": "2026-04-10T20:15:39.439510+00:00",
+      "agents": [
+        "ALL"
+      ],
+      "feed_label": "zerohedge",
+      "origin": "web",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "D.C. Economy \"Under Strain,\" Faces Biggest Spending Cuts Since Great Recession",
+      "source": "ZeroHedge",
+      "url": "https://www.zerohedge.com/political/dc-economy-under-strain-faces-biggest-spending-cuts-great-recession",
+      "published": "2026-04-10T20:15:39.439515+00:00",
+      "agents": [
+        "ALL"
+      ],
+      "feed_label": "zerohedge",
+      "origin": "web",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "entity_info": null,
+      "escalation": null,
+      "watch_hits": [],
+      "classification": "NEW",
+      "suppressed": false,
+      "source_weight": 1
+    },
+    {
+      "title": "CIA To Integrate AI 'Co-Workers' To Process Intelligence, Catch Spies",
+      "source": "ZeroHedge",
+      "url": "https://www.zerohedge.com/ai/cia-integrate-ai-co-workers-process-intelligence-catch-spies",
+      "published": "2026-04-10T20:15:39.439520+00:00",
       "agents": [
         "ALL"
       ],
@@ -620,12 +3475,18 @@
     }
   ],
   "suppressed_summary": {
-    "Blue Owl": 3,
-    "ICE": 4,
-    "BOJ": 2,
-    "Hormuz": 2,
-    "WAL": 1,
-    "Apollo": 2,
-    "ARES": 2
+    "WAL": 10,
+    "ARES": 13,
+    "Blue Owl": 10,
+    "Hormuz": 12,
+    "BOJ": 7,
+    "Apollo": 16,
+    "Brent": 1,
+    "ICE": 13,
+    "OPEC": 2,
+    "Oracle": 1,
+    "KKR": 1,
+    "SOFR": 4,
+    "OZK": 5
   }
 }

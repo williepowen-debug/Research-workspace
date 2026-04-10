@@ -1,5 +1,54 @@
 # LIQUID STATUS
-**Last Updated:** 2026-04-10 10:00 ET | **Agent:** LIQUID | **Status:** 🟡 MODERATING — STRUCTURAL FRAGILITIES CRYSTALLIZING UNDER TIGHTER CREDIT
+**Last Updated:** 2026-04-10 16:15 ET | **Agent:** LIQUID | **Status:** 🟡 MODERATING — STRUCTURAL FRAGILITIES CRYSTALLIZING UNDER TIGHTER CREDIT
+
+---
+
+## Apr 10 EOD — Market Close Analysis
+
+### Credit Spreads: Continued Post-Q-End Tightening
+HY OAS **290bps** (Apr 9 FRED) — continued tightening from 312bps Apr 7. Now firmly below LIQ-01 320 trigger. Quarter-end spike (346bps) fully reverted. **Delta vs prior STATUS:** -22bps from 312bps, -56bps from quarter-end peak. CCC OAS **~981bps** — stable, remains below 1000 ORANGE trigger. CCC/HY ratio holding ~3.4x, indicating quality bifurcation persists but not accelerating.
+
+### Funding Markets: CLEAN — No Stress Signals
+- **SOFR:** 3.62% (Apr 7) — fully normalized
+- **SOFR-IORB:** -3bps — negative spread = no funding stress
+- **10Y yield:** ~4.29-4.31% — stable post-Brent crash
+- **RRP:** $0.177B — structurally zero (RED persists)
+
+### Price Action Today (Apr 10 Close)
+| Ticker | Price | Change | Signal |
+|--------|-------|--------|--------|
+| KRE | $68.94 | -1.30% | Profit-taking after 🟡→🟢 zone upgrade |
+| WAL | $76.21 | -0.70% | Stable, earnings Apr 16 |
+| OZK | $47.94 | -0.29% | Quiet ahead of Apr 22 earnings |
+| APO | $104.28 | -2.52% | PC gate pressure catching up to stock |
+| TLT | $86.49 | -0.24% | Unchanged from prior — stable |
+| HYG | $79.96 | -0.40% | Mild drift, no panic |
+| BIZD | $12.36 | +0.49% | Bounce after -5.4% crash — dead cat? |
+
+### Cross-Domain Signals
+- **Apollo -2.52%:** First real equity catch-up to private credit gate stress. Blue Owl gates (Apr 2) now showing up in manager stock prices. **Signal:** Equity market no longer ignoring PC liquidity crisis.
+- **KRE -1.30%:** Pullback after strong run. Not concerning yet — profit-taking before bank earnings (Apr 16+).
+- **BIZD +0.49%:** Small bounce after crash. Watch if this holds or rolls over. Stage 4 PC stress still active.
+
+### Deltas vs Prior STATUS.md
+| Metric | Prior (Apr 8) | Current (Apr 10) | Δ |
+|--------|---------------|------------------|---|
+| HY OAS | 312bps | 290bps | -22bps 🟢 |
+| CCC OAS | 983bps | ~981bps | -2bps 🟢 |
+| TLT | $86.92 | $86.49 | -0.5% 🟡 |
+| KRE | $68.69 | $68.94 | +0.4% (but -1.3% today) 🟡 |
+| APO | N/A | $104.28 | New — down 2.5% 🔴 |
+| BIZD | $12.39 | $12.36 | -0.2% 🟡 |
+| SOFR | 3.62% | 3.62% | Unchanged 🟢 |
+
+### Thesis Impact
+Credit markets continue to normalize post quarter-end. HY OAS 290bps is 30bps below our 320 trigger — the LIQ-01 signal has reversed (for now). This is consistent with seasonal patterns, not structural improvement. **Key risk:** If HY OAS retests 320+ from here, that's the second breach and would confirm credit stress is persistent, not transient.
+
+Private credit stress is now leaking into public equity (Apollo down 2.5%). This is new — prior gates didn't hit manager stocks this hard. Watch for Ares, Blackstone, KKR follow-through next week.
+
+Bank earnings Apr 16+ are the next catalyst. KRE profit-taking suggests market positioning for volatility around prints. If WAL/OZK/regionals guide down on CRE or funding costs, HY OAS will retest highs fast.
+
+**Bottom line:** Plumbing is clean (SOFR, funding spreads), but credit fragility remains (PC gates, HY outflows $14bn YTD per FT). The divergence between clean funding and stressed credit is the key tension. Resolution comes via bank earnings or a fresh HY OAS leg wider.
 
 ---
 
