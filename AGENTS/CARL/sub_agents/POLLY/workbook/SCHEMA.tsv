@@ -1,0 +1,89 @@
+File	Column	Data_Type	Description
+CARRIER.tsv	Carrier	String	Company name (State Farm, Allstate, Progressive, GEICO, UNH, ELV, CVS/Aetna, Humana, Citizens FL, CA FAIR Plan, etc.)
+CARRIER.tsv	Ticker	String	Stock ticker or PRIVATE/STATE for non-public entities
+CARRIER.tsv	Type	String	AUTO / HOMEOWNERS / P&C_MULTI / HEALTH / RESIDUAL_MARKET
+CARRIER.tsv	Metric	String	Performance metric (combined_ratio, MLR, policy_count, NCO, cat_losses, rate_filing, market_action, etc.)
+CARRIER.tsv	Value	String	Current value
+CARRIER.tsv	Prior	String	Prior period value (for trend)
+CARRIER.tsv	Change	String	Period-over-period change
+CARRIER.tsv	As_Of	Date	Date of measurement (YYYY-MM-DD)
+CARRIER.tsv	Source	String	Data source (SEC filing, earnings call, state DOI, AM Best, news, etc.)
+CARRIER.tsv	Status	String	G/Y/O/R status color
+CARRIER.tsv	Notes	String	Context, market actions, POLLY implications
+STATE_MARKET.tsv	State	String	Two-letter state code (CA, FL, LA, TX, NATIONAL)
+STATE_MARKET.tsv	Segment	String	HOMEOWNERS / AUTO / HEALTH / ALL
+STATE_MARKET.tsv	Metric	String	Metric type (fair_plan_count, citizens_count, carrier_count, rate_change_pct, uninsured_rate, avg_premium, non_renewal_rate, combined_ratio, etc.)
+STATE_MARKET.tsv	Value	String	Current value
+STATE_MARKET.tsv	Prior	String	Prior period value
+STATE_MARKET.tsv	Change	String	Period-over-period change
+STATE_MARKET.tsv	As_Of	Date	Date of measurement (YYYY-MM-DD)
+STATE_MARKET.tsv	Source	String	Data source (state DOI, Citizens FL, CA DOI, IRC, BLS, etc.)
+STATE_MARKET.tsv	Status	String	G/Y/O/R status color
+STATE_MARKET.tsv	Notes	String	Context, trend interpretation, POLLY implications
+VX.tsv	Vector ID	String	VX-POLLY-N.NN format
+VX.tsv	Name	String	Vector name
+VX.tsv	Segment	String	Homeowners / Auto P&C / Health / Industry
+VX.tsv	Geography	String	NATIONAL / FL / CA / LA / TX / FL+CA / FL/CA/LA
+VX.tsv	Description	String	What this vector measures
+VX.tsv	Unit	String	Unit of measurement
+VX.tsv	Current Value	String	Latest value with date
+VX.tsv	Threshold Elevated	String	Yellow threshold
+VX.tsv	Threshold Critical	String	Orange threshold
+VX.tsv	Tripwire Breached	String	Red threshold
+VX.tsv	Status	String	NORMAL / ELEVATED / CRITICAL / BREACHED
+VX.tsv	Trend	String	RISING / DECLINING / STABLE / VOLATILE / MODERATING / TBD
+VX.tsv	Confidence	Decimal	0.00-1.00
+VX.tsv	Data Sources	String	Source references
+VX.tsv	Cross Reference	String	Related IDs (ML, FLOW, CARL VX, etc.)
+VX.tsv	Last Updated	Date	YYYY-MM-DD
+VX.tsv	Notes	String	Context, caveats, POLLY implications
+ML.tsv	ID	String	ML-POLLY-NN format (sequential)
+ML.tsv	Timestamp	Date	Date logged (YYYY-MM-DD)
+ML.tsv	Session	String	Session identifier (POLLY N)
+ML.tsv	Vectors	String	Related VX-POLLY IDs
+ML.tsv	Segment	String	Auto P&C / Homeowners / Health / Industry / General / Regulatory
+ML.tsv	Geography	String	NATIONAL / CA / FL / LA / TX / REGIONAL
+ML.tsv	Description	String	One-line summary of the finding
+ML.tsv	Analysis	String	Interpretation — indicator vs. amplifier function; CARL implications
+ML.tsv	Data Quote	String	Key quote or data point (verbatim where possible)
+ML.tsv	Source	String	Data source with date
+ML.tsv	Status	String	ACTIVE / CONFIRMED / STALE / SUPERSEDED / CORRECTED
+ML.tsv	Confidence	Decimal	0.00-1.00
+ML.tsv	Diagnostic Value	String	HIGH / MEDIUM / LOW / N/A
+ML.tsv	Thesis Impact	String	CONSISTENT / COUNTER-SIGNAL / NEUTRAL / INVALIDATING
+ML.tsv	Cross Links	String	Related agents, entries, or IDs
+ML.tsv	CARL Relevance	String	How this affects CARL's consumer stress thesis
+ML.tsv	Transmission Type	String	DIRECT (immediate) / LATENT (event-triggered) / STRUCTURAL (policy-driven) / N/A
+ML.tsv	Invalidation Criteria	String	What would change this assessment
+ML.tsv	Notes	String	Context, caveats
+FLOW.tsv	ID	String	FLOW-POLLY-NN format
+FLOW.tsv	Name	String	Pathway name
+FLOW.tsv	Pathway	String	Step-by-step transmission chain (arrow-delimited)
+FLOW.tsv	Mechanism	String	Why/how the transmission works
+FLOW.tsv	Feedback Loops	String	Self-reinforcing or dampening dynamics
+FLOW.tsv	Breakpoint	String	When does this pathway become critical
+FLOW.tsv	Cross Domain	String	Which other agent domains are affected
+FLOW.tsv	Key Entries	String	Related VX/ML entries
+FLOW.tsv	Lag Time	String	Expected time lag for transmission
+FLOW.tsv	Confidence	String	Confidence level with percentage
+FLOW.tsv	Trigger	String	What activates this pathway
+FLOW.tsv	Status	String	MONITORING / EARLY / ACTIVATING / ACTIVE / CONFIRMED
+FLOW.tsv	Notes	String	Context, upgrade history, geographic scope
+HOTSPOTS.tsv	State	String	Two-letter state code
+HOTSPOTS.tsv	Priority	String	CRITICAL / HIGH / ELEVATED / WATCH
+HOTSPOTS.tsv	Primary Issues	String	Key insurance stress issues for this state
+HOTSPOTS.tsv	Key Vectors	String	Most relevant VX-POLLY IDs
+HOTSPOTS.tsv	Recent Events	String	Material developments since last update
+HOTSPOTS.tsv	Residual Market	String	State residual/FAIR plan name and current count
+HOTSPOTS.tsv	Status	String	CRISIS / STRESSED / RECOVERING / WATCH / STABLE
+HOTSPOTS.tsv	Notes	String	Context, outlook, key monitoring items
+PREDICTIONS.tsv	Pred_ID	String	POLLY-PNN format
+PREDICTIONS.tsv	Date_Made	Date	When prediction was created (YYYY-MM-DD)
+PREDICTIONS.tsv	Prediction	String	The prediction statement
+PREDICTIONS.tsv	Confidence	String	Confidence percentage
+PREDICTIONS.tsv	Timeframe	String	Expected resolution window
+PREDICTIONS.tsv	Status	String	TRACKING / CONFIRMED / MISSED / CANCELLED
+PREDICTIONS.tsv	Date_Resolved	Date	When resolved (YYYY-MM-DD or empty)
+PREDICTIONS.tsv	Outcome	String	What actually happened (empty if unresolved)
+PREDICTIONS.tsv	Invalidation_Criteria	String	What would make this prediction wrong
+PREDICTIONS.tsv	Notes	String	Context, upgrade/downgrade history

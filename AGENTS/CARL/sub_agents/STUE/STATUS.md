@@ -1,5 +1,5 @@
 # STUE STATUS
-**Last Updated:** 2026-04-06 | **Status:** 🔴🔴 CRITICAL — 7.7M in default, 25% DQ rate, SAVE **REPEALED BY LAW**, ED final guidance Mar 31, Treasury transfer active
+**Last Updated:** 2026-04-10 | **Status:** 🔴🔴 CRITICAL — 7.7M in default, 25% DQ rate, SAVE **REPEALED BY LAW**, Maldonado ruling confirms MOHELA illegal practices, collections paused til Jul, SAVE end Sep 30, Sweet Apr 15 deadline in 5 days
 
 ---
 
@@ -42,12 +42,13 @@ Federal student loan stress is a mass credit destruction event, not a slow burn.
 | SAVE Status | **REPEALED BY LAW** (Working Families Tax Cuts Act, Jul 2025) | 🔴🔴 |
 | SAVE Enrollees | **7.5M** (6.5M in SAVE-specific forbearance of 8.8M total) | 🔴 |
 | ED Final Guidance | **Issued Mar 31, 2026** — official transition framework | 🔴 |
-| Servicer Notices | **Begin July 1, 2026** (not before) | 🟠 IMMINENT |
-| Selection Window | **90 days (Jul 1 → ~Oct 1)** | — |
-| Auto-Transition (non-selectors) | **Standard OR new Tiered Standard Plan** (higher payments) | 🔴 |
+| Servicer Notices | **Begin July 1, 2026** in WAVES (new group every 2 weeks) | 🟠 IMMINENT |
+| Selection Window | **90 days (Jul 1 → Sep 30)** | — |
+| **SAVE Effective End Date** | **September 30, 2026** (90 days from Jul 1 wave start) | 🔴🔴 |
+| Auto-Transition (non-selectors) | **Standard Repayment from Oct 1, 2026** | 🔴 |
 | Est. Non-Selection Rate | **30-45%** (2.25-3.375M borrowers) — based on Oct 2023 precedent + MOHELA failures | 🔴🔴 |
 | Payment Shock | **$0-70/mo → $407/mo** (avg $37K balance on standard plan) | 🔴🔴 |
-| RAP Launch | **July 1, 2026** (1-10% AGI, $10/mo min, no neg amortization) | — |
+| RAP Launch | **July 1, 2026** (1-10% AGI, **$50/mo per-dependent deduction**, no neg amortization) | — |
 | RAP Forgiveness | **30 years** | — |
 | Spending Destruction | **$1.5-2.0B/month** redirected from consumption starting Jul 1 | 🔴🔴 |
 
@@ -59,6 +60,9 @@ Federal student loan stress is a mass credit destruction event, not a slow burn.
 | MOHELA Wait Times | **7x ED Financial, 50x Aidvantage/Nelnet** | 🔴 |
 | Credit Report Errors | **Balances doubled** (class action Feb 18, 2026) | 🔴 |
 | State AG Investigations | **Multiple states** targeting MOHELA | 🟠 |
+| **Maldonado Ruling (Mar 2026)** | **MOHELA VIOLATED CA Student Borrower Bill of Rights + Unfair Competition Law** | 🔴🔴 |
+| AFT Amended Complaint (Jan 2026) | Added post-filing violations — MOHELA not remediating | 🔴 |
+| Litigation Load | 5+ concurrent: Maldonado, AFT, class action, state AGs, CFPB | 🔴 |
 
 ### Treasury Transfer
 | Metric | Value | Status |
@@ -75,10 +79,23 @@ Federal student loan stress is a mass credit destruction event, not a slow burn.
 | Automatic Discharges | **~205K borrowers** | 🟢 (relief) |
 | Ninth Circuit Ruling | **Rejected DOE delay** (Mar 25, 2026) | — |
 | Exhibit C Deadline (Jan 28) | **MISSED by DOE** — borrowers get automatic FULL settlement relief | 🔴 |
-| Non-Exhibit C Deadline | **Apr 15, 2026** (8 days) | 🟡 IMMINENT |
+| **Mar 30 2026** | **DOE sent Full Relief notices to Exhibit C post-class applicants** (discharge + refunds + credit corrections) | 🟢 |
+| Non-Exhibit C Deadline | **Apr 15, 2026** (5 days) | 🟡 IMMINENT |
 | Flagged Schools | **151 Exhibit C institutions + 150+ additional** | — |
 | Total Claims Filed | **750K+** since 2015 | — |
 | Completion Deadline | **1 year** — all discharges, refunds, credit corrections | — |
+
+### Collections Status (NEW SECTION)
+| Metric | Value | Status |
+|--------|-------|--------|
+| Involuntary Collections | **PAUSED** (Jan 16, 2026) | 🟡 |
+| Collections Paused Includes | AWG (Administrative Wage Garnishment) + Treasury Offset Program | — |
+| First Wave of Notices Sent | **~1,000 borrowers** (week of Jan 7) | FIRED |
+| Pause Reason (DOE stated) | Working Families Tax Cuts Act reforms, OBBBA rollout | — |
+| Expected Restart | **July 2026** (per ED guidance) | 🔴 IMMINENT |
+| Borrowers Exposed | **5M+ in default** at pause time | 🔴 |
+| Treasury Offset Status | Reactivated May 2025; paused again Jan 2026 | 🟡 |
+| Operational Contradiction | Treasury Transfer Phase 1 ACTIVE (Mar 19) but ED paused collections Treasury would run | 🔴 |
 
 ---
 
@@ -110,12 +127,21 @@ Student loan stress transmits to CARL's consumer thesis via:
 
 | Date | Event | Impact |
 |------|-------|--------|
-| **Apr 15** | Sweet v. McMahon notices complete | 205K discharges (minor positive) |
-| **~May-Jun** | NY Fed Q1 2026 QHDC release | First post-collections-resume DQ data |
-| **Jul 1** | SAVE transition notices + RAP launch | 7.5M forced to choose — CRITICAL |
-| **~Oct 1** | 90-day selection window closes | Non-selectors auto-transition to standard |
-| **Q3-Q4** | Post-transition DQ wave | New defaults from payment shock |
-| **~Jun (quarterly)** | FSA Data Center Q1 2026 update | Updated default/repayment counts |
+| **Apr 15** (5 days) | Sweet v. McMahon non-Exhibit C deadline | If DOE misses → automatic full relief for this cohort (pattern from Jan 28) |
+| **~May-Jun** | NY Fed Q1 2026 QHDC release | First post-collections-resume DQ data. Test for 90+ DQ crossing 10% |
+| **~Jun** | FSA Data Center Q1 2026 update | Updated default/repayment counts. Watch for 8M+ default |
+| **Jul 1** | SAVE transition notices begin (waves every 2 weeks) + RAP launches | 7.5M forced to choose — CRITICAL |
+| **Jul** | Involuntary collections scheduled restart | 5M+ defaulted borrowers face AWG + Treasury Offset |
+| **Sep 30** | SAVE forbearance effective end | 90-day selection window closes |
+| **Oct 1** | Standard Repayment resumes for non-selectors | 2.25-3.375M face $0→$407/mo cliff |
+| **Q3-Q4** | Post-transition DQ wave | New defaults from payment shock + servicer failures |
+
+### RECENT UPDATES (Apr 10)
+- **Maldonado v. MOHELA ruling (Mar 2026):** Court confirmed MOHELA violated CA Student Borrower Bill of Rights + Unfair Competition Law by misrepresenting borrower obligations in billing statements. Creates legal precedent for other states.
+- **AFT amended complaint (Jan 2026):** Added post-filing violations, showing MOHELA not remediating despite prior lawsuit.
+- **Collections pause (Jan 16 2026):** DOE paused all involuntary collections (AWG + Treasury Offset) after sending first garnishment wave Jan 7. Cited Working Families Tax Cuts Act reforms. Expected restart July 2026.
+- **DOE Mar 30 Exhibit C notices:** Email notices sent to Exhibit C post-class applicants confirming entitlement to Full Settlement Relief (discharge + refunds + credit corrections). Relief within 1 year.
+- **SAVE end date firmed:** September 30, 2026 effective end. Servicer notices in waves every 2 weeks starting Jul 1. RAP details confirmed ($50/mo per-dependent deduction).
 
 ---
 

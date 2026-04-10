@@ -1,0 +1,74 @@
+File	Column	Data_Type	Description
+VX.tsv	ID	String	VX-POP-N.NN format (1=Formation/Closure, 2=Credit/Liquidity, 3=Revenue/Operations, 4=Sentiment, 5=Owner Stress)
+VX.tsv	Name	String	Vector name
+VX.tsv	Category	String	Formation/Closure / Credit/Liquidity / Revenue/Operations / Sentiment / Owner Stress
+VX.tsv	Description	String	What this vector measures
+VX.tsv	Data_Source	String	Primary data source(s)
+VX.tsv	Threshold	String	Yellow threshold (elevated concern)
+VX.tsv	Tripwire	String	Red threshold (breach / immediate action)
+VX.tsv	Current_Value	String	Latest known value
+VX.tsv	Status	String	NORMAL / ELEVATED / CRITICAL / BREACHED / TBD / BASELINE
+VX.tsv	Consumer_Transmission	String	How this vector connects to CARL's consumer stress thesis
+VX.tsv	Update_Frequency	String	How often data is refreshed
+VX.tsv	Last_Updated	Date	YYYY-MM-DD of last data update
+VX.tsv	Note	String	Context, caveats, flags
+ML.tsv	ID	String	ML-POP-NN format (sequential)
+ML.tsv	Timestamp	Date	Date logged (YYYY-MM-DD)
+ML.tsv	Created_By	String	Session identifier (e.g., POP Refresh 2026-04-09)
+ML.tsv	Vectors	String	Related VX-POP IDs (comma-separated)
+ML.tsv	Sector	String	Sector tag: General / Retail / Restaurant / Manufacturing / Franchise / Services / Construction
+ML.tsv	Description	String	One-line factual summary of the observation
+ML.tsv	Analysis	String	Interpretation — what it means for small business and consumer transmission
+ML.tsv	Source	String	Data source with date
+ML.tsv	Transmission_Mechanism	String	Which FLOW-POP cascade applies
+ML.tsv	Consumer_Lag_Estimate	String	Expected time from signal to consumer impact
+ML.tsv	Signal_Type	String	BUSINESS / OWNER / EMPLOYMENT / CREDIT / TARIFF / SECTOR
+ML.tsv	Status	String	ACTIVE / CONFIRMED / STALE / SUPERSEDED / CORRECTED
+ML.tsv	Confidence	Decimal	0.00–1.00
+ML.tsv	Cross_Links	String	Related agents or entries (e.g., CARL KB-165, FLOW-POP-01)
+ML.tsv	Carl_Relevance	String	How this affects CARL's consumer stress thesis
+ML.tsv	Invalidation_Criteria	String	What would make this entry obsolete or wrong
+ML.tsv	Note	String	Additional context, caveats
+FLOW.tsv	ID	String	FLOW-POP-NN format
+FLOW.tsv	Name	String	Pathway name
+FLOW.tsv	Pathway	String	Step-by-step transmission chain (arrow notation)
+FLOW.tsv	Mechanism	String	How/why the transmission works
+FLOW.tsv	Feedback_Loops	String	Self-reinforcing or dampening dynamics
+FLOW.tsv	Breakpoint	String	When this pathway becomes critical / irreversible
+FLOW.tsv	Consumer_Transmission	String	How this pathway reaches CARL's consumer domain
+FLOW.tsv	Cross_Domain	String	Which other agent domains are affected
+FLOW.tsv	Key_Entries	String	Related VX/ML entries
+FLOW.tsv	Lag_Time	String	Expected time lag for transmission to consumer impact
+FLOW.tsv	Confidence	String	Confidence level (HIGH / MEDIUM / LOW)
+FLOW.tsv	Trigger	String	What activates this pathway
+FLOW.tsv	Status	String	MONITORING / EARLY / ACTIVATING / ACTIVE / CONFIRMED
+PREDICTIONS.tsv	Pred_ID	String	POP-PNN format (sequential)
+PREDICTIONS.tsv	Date_Made	Date	When prediction was created (YYYY-MM-DD)
+PREDICTIONS.tsv	Prediction	String	The prediction statement
+PREDICTIONS.tsv	Confidence	String	Confidence percentage or — if cancelled
+PREDICTIONS.tsv	Timeframe	String	Expected resolution window
+PREDICTIONS.tsv	Status	String	TRACKING / CONFIRMED / MISSED / CANCELLED
+PREDICTIONS.tsv	Date_Resolved	Date	When resolved (YYYY-MM-DD or empty)
+PREDICTIONS.tsv	Outcome	String	What actually happened (empty if unresolved)
+PREDICTIONS.tsv	Notes	String	Context, upgrade/downgrade history
+SECTOR.tsv	Sector	String	Retail / Restaurant / Manufacturing / Franchise / Services / Construction / General
+SECTOR.tsv	Subsector	String	Specific sub-category (e.g., QSR, Grocery, Apparel)
+SECTOR.tsv	Metric	String	Metric name (closure_rate, bankruptcy_rate, employment, revenue_trend, etc.)
+SECTOR.tsv	Value	String	Current value
+SECTOR.tsv	Prior	String	Prior period value
+SECTOR.tsv	Change	String	Period-over-period or YoY change
+SECTOR.tsv	As_Of	Date	Date of measurement (YYYY-MM-DD)
+SECTOR.tsv	Source	String	Data source
+SECTOR.tsv	Status	String	G/Y/O/R status color
+SECTOR.tsv	Tariff_Exposure	String	LOW / MEDIUM / HIGH — sensitivity to import tariffs
+SECTOR.tsv	Notes	String	Context and CARL transmission implication
+TARIFF.tsv	Sector	String	Affected sector
+TARIFF.tsv	Tariff_Category	String	Type of tariff impact (input_cost, inventory_cost, supply_chain_disruption, customer_demand)
+TARIFF.tsv	Tariff_Rate	String	Applicable tariff rate (%)
+TARIFF.tsv	Impact_Level	String	LOW / MEDIUM / HIGH / CRITICAL
+TARIFF.tsv	Pct_Businesses_Affected	String	Percentage of sector businesses affected (survey-based)
+TARIFF.tsv	Response	String	Business response: absorb / raise_prices / reduce_inventory / close / other
+TARIFF.tsv	Transmission_to_Consumer	String	How this tariff impact reaches consumer financial stress
+TARIFF.tsv	As_Of	Date	Date of measurement (YYYY-MM-DD)
+TARIFF.tsv	Source	String	Data source
+TARIFF.tsv	Notes	String	Context and key data points
