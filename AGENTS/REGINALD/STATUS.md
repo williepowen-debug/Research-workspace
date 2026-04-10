@@ -1,5 +1,5 @@
 # REGINALD STATUS
-**Last Updated:** 2026-04-09 (PM) | **Status:** 🔴🔴🔴 CRITICAL (ESCALATING)
+**Last Updated:** 2026-04-10 (EOD) | **Status:** 🔴🔴🔴 CRITICAL (STABLE)
 
 ---
 
@@ -265,5 +265,43 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 | KRE | $66.75 | $65 | 2.6% |
 
 ---
+
+---
+
+## EOD BRIEF — April 10, 2026
+
+**Market Action:**
+- **KRE:** $68.94 (-1.3%) — faded from yesterday's oil-driven rally, back below $70 resistance
+- **WAL:** $76.21 (-1.2%) — holding above $75 but well below $78 threshold; Barclays cut PT $90→$88
+- **OZK:** $48.05 (+0.1%) — flat, range-bound $47-48 ahead of Apr 16 earnings
+- **HY OAS:** ~294bps (stable) — CCC/HY ratio ~3.2x persists, distressed tail unchanged
+
+**Key Developments:**
+1. **Weekly Claims:** 219K (+16K vs 203K prior) — first print post-NFP, still low but directionally higher. LABOR transmission channel not yet activated but trending toward 240K watch level.
+2. **Analyst Downgrades:** Barclays cut WAL PT $90→$88; KBW cut to $93. Street continuing to walk down estimates ahead of Q1 earnings (WAL Apr 21, OZK Apr 16).
+3. **Private Credit Stress Confirmed:** Moody's cut outlook on Blue Owl fund after record redemption requests (OCIC 22%, OTIC 40%+). $10B+ trapped capital. This is live-fire gating — not theoretical.
+4. **Metropolitan Capital Fallout:** First 2026 bank failure (Chicago, Jan 31) now being absorbed. FDIC estimates ~$800M cost. Pattern: CRE concentration + capital impairment = closure. Template for what's coming.
+
+**Cross-Domain Signals:**
+- **BROCK/SHADE:** Blue Owl gating systemic; Ares, Apollo, Blackstone, Barings all affected. Warehouse line pressure mounting.
+- **LIQUID:** HY OAS stable ~294bps, but CCC/HY ratio 3.2x = credit bifurcation deepening, not resolving.
+- **LABOR:** Claims 219K — not yet at 240K threshold but directionally higher. Watch next 2 weeks.
+
+**What Changed:**
+- 🔴 **NEW:** Weekly claims 219K — highest since early March, trending toward stress threshold
+- 🔴 **NEW:** Barclays WAL PT cut to $88 — street walking down estimates pre-earnings
+- 🟡 **Confirmed:** KRE failed to hold $70 — oil-driven rally reversed, no institutional accumulation
+- 🟡 **Stable:** Private credit gating remains systemic; no new gates today but Moody's downgrade confirms stress
+
+**Threshold Proximity:**
+| Metric | Current | Threshold | Distance |
+|--------|---------|-----------|----------|
+| WAL | $76.21 | $75 | 1.6% |
+| WAL | $76.21 | $70 | 8.9% |
+| Claims | 219K | 240K | 21K |
+| HY OAS | 294bps | 320 | 26bps |
+| KRE | $68.94 | $65 | 5.7% |
+
+**Earnings Countdown:** OZK Apr 16 (6 days), WAL Apr 21 (11 days)
 
 *Mar 6-16 detail → `archive/STATUS_mar6_mar16.md` | Mar 17-23 detail → `archive/STATUS_mar17_mar23.md`*

@@ -14,25 +14,24 @@ NEXUS synthesizes across all chains. MARCO feeds immigration/labor supply into L
 
 | Agent | Domain | Chain | Spawn? |
 |-------|--------|-------|--------|
-| LABOR | Employment, claims | Credit | ✅ OK |
+| LABOR | Employment, claims | Credit | ❌ Persistent (Telegram) |
 | CARL | Consumer credit, housing | Credit | ❌ Persistent (Claude Code/Telegram) |
 | REGINALD | Regional banks (OZK, WAL) | Credit | ❌ Persistent (Claude Code/Telegram) |
 | HENRY | Market structure, econ data | Credit (velocity) | ✅ OK |
-| LIQUID | Funding, Treasury, spreads | All (amplification) | ✅ OK |
-| BROCK | BDC, private credit, CLOs | PC cascade | ✅ OK |
+| LIQUID | Funding, Treasury, spreads | All (amplification) | ❌ Persistent (Telegram) |
+| BROCK | BDC, private credit, CLOs | PC cascade | ❌ Persistent (Telegram) |
 | SHADE | PE-insurance-captive | PC cascade | ✅ OK |
 | SAM | Japan, BOJ, carry trade | Japan | ❌ Persistent (Claude Code/Telegram) |
 | HAWK | Geopolitical, military | Energy | ✅ OK |
-| BRENT | Oil, energy markets | Energy | ❌ Persistent (Claude Code/Telegram) |
+| BRENT | Oil, energy markets | Energy | ❌ Persistent (Telegram) |
 | RED | Adversarial analysis | All | ❌ Persistent (Claude Code/Telegram) |
-| MARCO | Migration, labor supply | Credit + Energy |
-| ZHAO | China, capital flows | Japan + PC |
-| OTTO | Auto, consumer DQ | Credit (→ CARL) |
-| NEXUS | Cross-agent synthesis | All |
-| RED | Adversarial analysis | All |
-| HERMES | Signal delivery | Utility |
-| ORACLE | Prediction markets | Utility |
-| DARWIN | System evolution | Utility (inactive) |
+| MARCO | Migration, labor supply | Credit + Energy | ✅ OK |
+| ZHAO | China, capital flows | Japan + PC | ✅ OK |
+| OTTO | Auto, consumer DQ | Credit (→ CARL) | ✅ OK |
+| NEXUS | Cross-agent synthesis | All | ✅ OK |
+| HERMES | Signal delivery | Utility | ❌ Persistent (Telegram) |
+| ORACLE | Prediction markets | Utility | ✅ OK |
+| DARWIN | System evolution | Utility (inactive) | ✅ OK |
 
 ---
 

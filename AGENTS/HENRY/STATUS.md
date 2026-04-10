@@ -1,75 +1,76 @@
 # HENRY STATUS
-**Last Updated:** 2026-04-06 16:15 ET | **War Day 36 — EOD: VIX Compresses Further, Fed Cut Expectations Pushed to Late 2026/2027**
-**Status:** 🟡 Markets closing mixed-to-positive. VIX 24.54 (compressed from 31+). Fed policy expectations pushed out dramatically — traders no longer pricing cuts until H2 2027. Wells Fargo now sees cuts in Sept/Oct/Dec vs prior June/July/Sept.
+**Last Updated:** 2026-04-10 16:15 ET | **War Day 40 — EOD: CPI Shock Confirms Fed Trap, VIX Compression Continues**
+**Status:** 🟡 Markets digesting war-driven CPI spike. VIX 19.31 (compressed from 24+). Fed trapped narrative solidified.
 
-## EOD DEVELOPMENTS — APR 6
+## EOD DEVELOPMENTS — APR 10
 
 ### Key Market Levels (EOD)
 | Asset | Level | Δ vs Prior | Signal |
 |-------|-------|------------|--------|
-| SPX | 6,602.91 | +0.31% | 🟢 Modest gains, treading water |
-| Dow | 46,594.11 | +0.19% | 🟢 |
-| Nasdaq | 21,976.62 | +0.45% | 🟢 Tech leading |
-| VIX | **24.54** | -0.03 | 🟡 Compression continues, but 40% above historical norms |
-| Brent | **$109.77** | +0.68% | 🟡 Choppy, settled higher |
-| WTI | $112.41 | +0.78% | 🟡 US crude premium intact |
-| Gold | $4,651.37 spot | -0.53% | 🟡 Pullback from record highs |
-| 10Y Yield | 4.331% | -1.5 bps | 🟡 Range-bound |
-| DXY | 99.98 | -0.28% | 🟡 Dollar softening |
-| USD/JPY | 159.66 | +0.06% | 🔴 Yen weakness persists, 160 watch |
+| SPX | ~6,650* | +0.1% | 🟢 Reclaimed 200-DMA per Yahoo Finance |
+| VIX | **19.31** | -5.23 | 🟢 Major compression — back to bull market regime |
+| Brent | **$94.57** | -$15.20 | 🟢 Ceasefire-driven collapse from $110 |
+| Gas (weekly) | **$4.12** | +$0.13 | 🔴 Consumer breakpoint breached |
+| 10Y Yield | 4.29% | -4 bps | 🟡 Range-bound post-CPI |
+| DXY | — | — | 🟡 Stable |
+| USD/JPY | 159.30 | -0.36 | 🔴 Still intervention zone |
+| KRE | $68.94 | -1.30% | 🔴 Regional bank stress persists |
+| APO | $104.28 | -2.52% | 🔴 Below stop, private credit stress |
+| HY OAS | 290bps | -26bps | 🟢 Tightened from quarter-end spike |
+| CCC OAS | 946bps | -6bps | 🟡 Still elevated, forced selling regime |
 
-### Critical Fed Policy Shift
-**Major repricing in Fed expectations today:**
-- **Traders no longer pricing any Fed cuts until H2 2027** (vs two cuts expected at start of 2026)
-- **Wells Fargo pushed back cut timeline:** Now expects 75bps in Sept/Oct/Dec vs prior June/July/Sept
-- **Citi also delayed expectations** — cuts pushed back after strong jobs data
-- **Fed funds rate:** Currently 3.50-3.75%, market now pricing "higher for longer" into 2027
+*SPX exact close TBD from primary sources
 
-**This is a significant regime shift.** The market is abandoning hope for near-term Fed relief. Iran war + sticky inflation = Fed trapped.
+### Critical CPI Release — March Data
+**Headline CPI: 3.3% YoY** (vs 3.4% exp, 2.4% prior)
+- **Highest annual inflation since May 2024**
+- **MoM: +0.9%** — highest one-month increase since June 2022 (Russia-Ukraine oil spike)
+- **Energy: Gasoline +21.2% MoM**, fuel oil +30.7%
+- **Core CPI:** Relatively contained — spillover stayed in energy-sensitive sectors
 
-### ISM Services Recap
-- **ISM Services PMI 54.0** (miss vs 54.8 exp, down from 56.1 prior)
-- **Prices Paid:** Near 3.5-year high — input cost inflation accelerating
-- **Employment:** Contracting in services (confirmed)
-- **Signal:** Growth decelerating + inflation accelerating = stagflationary squeeze
+**Market reaction:** Subdued. Stocks barely moved, yields ticked down modestly. This confirms the "Fed trap" thesis — market knows Powell can't hike into supply-shock inflation, and can't cut into 3.3% CPI.
 
-### Iran/Tuesday Deadline
-- Trump reiterated threats to hit Iranian power plants/infrastructure
-- Iran wants "lasting end to war" but pushing back on immediate Strait reopening
-- **Tuesday night deadline remains the binary catalyst**
-- Markets pricing ~50/50 odds of escalation
+### VIX Compression — Major Regime Shift
+- **VIX 19.31** = compression of 5+ points from April 6 (24.54)
+- **Back below 20** = bull market volatility regime
+- Dealer gamma less negative = vol sellers active
+- **Risk:** Compressed VIX + geopolitical binary = vulnerable to headline shock
 
-### VIX Structure Analysis
-- VIX 24.54 = continued compression from 31+ panic levels
-- **Still 40% above historical bull market norms (12-18)**
-- Article confirms: "New normal of higher baseline volatility taking root"
-- Dealer gamma less negative = vol sellers active, but vulnerable to headline shock
-- **Key threshold:** VIX 20 = true bull market return; until then, "muddle-through" regime
+### Weekly Jobless Claims
+- **219K** (vs 210K exp, 203K prior) — 16K increase, two-month high
+- **Shadow adjusted: ~274K** (factoring in reporting delays/state backlogs)
+- Signal: Labor market softening but not breaking
+
+### Cross-Domain Signals
+- **LIQUID/Funding:** HY OAS 290bps = quarter-end spike fully reversed. Credit markets not pricing systemic stress yet.
+- **BRENT/Energy:** Oil collapsed to $94 on ceasefire hopes. But Hormuz still closed. Binary risk remains.
+- **CARL/Consumer:** Gas $4.12 = behavioral breakpoint. Consumer squeeze intensifying.
+- **SAM/Japan:** USD/JPY 159.30 = intervention zone. BOJ April 28 meeting critical.
+- **REGINALD/Regional Banks:** KRE -1.30% = stress persists despite broader market calm.
 
 ---
 
-## DELTAS FROM PRIOR STATUS (13:35 ET → 16:15 ET)
+## DELTAS FROM PRIOR STATUS (Apr 6 → Apr 10)
 
 | Item | Before | After | Δ |
 |------|--------|-------|---|
-| VIX | 24.57 | 24.54 | -0.03 (marginal compression) |
-| Brent | $110.65 | $109.77 | -$0.88 (slight pullback) |
-| SPX | $6,582.69 (futures) | $6,602.91 | +$20 (modest gains realized) |
-| Fed cut pricing | June/July/Sept (Wells Fargo) | Sept/Oct/Dec, H2 2027 market implied | **MAJOR SHIFT** |
-| Gold | ~$4,800 | $4,651 | -$150 pullback |
-| DXY | — | 99.98 (-0.28%) | Dollar softening |
+| VIX | 24.54 | 19.31 | **-5.23 (major compression)** |
+| Brent | $109.77 | $94.57 | **-$15.20 (ceasefire collapse)** |
+| CPI YoY | 2.4% | 3.3% | **+0.9pp (war-driven spike)** |
+| Gas (weekly) | $3.99 | $4.12 | **+$0.13 (breakpoint breach)** |
+| HY OAS | 316bps | 290bps | **-26bps (tightening)** |
+| CCC OAS | 952bps | 946bps | -6bps |
+| APO | — | $104.28 | **Below stop, -2.52% today** |
+| KRE | — | $68.94 | **-1.30%, regional stress** |
+| Init Claims | 203K | 219K | +16K (softening) |
+| 10Y Yield | 4.33% | 4.29% | -4bps |
 
-**Key Change:** Fed policy expectations got dramatically repriced. The market is now pricing NO cuts until late 2026/early 2027. This is a structural shift in the forward curve.
-
----
-
-## CROSS-DOMAIN SIGNALS
-
-- **LIQUID/Funding:** Fed cut delays = higher-for-longer rates pressure on regional banks, private credit. Watch APO, BDCs, KRE.
-- **SAM/Japan:** USD/JPY 159.66 = yen weakness continues. BOJ April 28 meeting critical. If they hike while Fed holds = carry unwind risk.
-- **BRENT/Energy:** Oil choppy but settled higher. Tuesday deadline binary. Physical market still tight (Saudi OSP +$19.50).
-- **CARL/Consumer:** ISM Services prices at 3.5-year high = input cost pressure feeding through. Consumer squeeze building.
-- **LABOR:** Services employment contracting = labor softening spreading. NFP Friday critical.
+**Key Changes:**
+1. **VIX compression to 19** = volatility regime shift. Market pricing "muddle through"
+2. **CPI 3.3%** = Fed trap confirmed. Can't cut, can't hike
+3. **Oil collapse to $94** = ceasefire premium evaporated, but Hormuz closure still unresolved
+4. **Gas $4.12** = consumer breakpoint breached (CARL chain)
+5. **Credit spreads tightened** = quarter-end stress reversed, but CCC still elevated
 
 ---
 
@@ -77,10 +78,10 @@
 
 | # | Prediction | Status |
 |---|------------|--------|
-| HEN-04 | FOMC holds, both mandates, 0-1 cuts | ✅ CONFIRMED (now 0 cuts priced 2026) |
+| HEN-04 | FOMC holds, both mandates, 0-1 cuts | ✅ CONFIRMED (CPI 3.3% locks out cuts) |
 | HEN-07 | Mar 16 relief rally = bull trap | ✅ CONFIRMED |
 | HEN-08 | VIX gaps to 28+ | ✅ CONFIRMED (hit 31.46) |
-| HEN-09 | Brent $110-115 | ✅ CONFIRMED |
+| HEN-09 | Brent $110-115 | ✅ CONFIRMED (then collapsed) |
 | HEN-10 | SPX tests 6,550-6,600 | ✅ CONFIRMED |
 | HEN-11 | Iran "talks" rally = bull trap | ✅ CONFIRMED |
 | HEN-12 | 15-point plan rally = bull trap v2 | ✅ CONFIRMED |
@@ -88,11 +89,13 @@
 | HEN-14 | VIX above 30 = regime shift | ✅ CONFIRMED (then compressed) |
 | HEN-15 | Q1 window dressing masks real positioning | ✅ CONFIRMED |
 | HEN-16 | Apr 1 ceasefire rally = bull trap v3 | ✅ CONFIRMED |
-| HEN-17 | Brent $115+ retest if Trump follows through | 🟡 PARTIAL — Brent $109-112 range |
-| HEN-18 | VIX back above 30 within 48 hours | ❌ EXPIRED — VIX compressed to 24.5 |
+| HEN-17 | Brent $115+ retest if Trump follows through | ❌ EXPIRED — Brent collapsed to $94 |
+| HEN-18 | VIX back above 30 within 48 hours | ❌ EXPIRED — VIX compressed to 19 |
 | HEN-19 | ISM Services miss = growth deceleration confirmed | ✅ CONFIRMED |
-| HEN-20 | Tuesday Trump deadline = volatility catalyst | 🔴 ACTIVE — binary event tonight/tomorrow |
-| **HEN-21** | **Fed cut repricing = higher-for-longer regime confirmed** | 🔴 **NEW — ACTIVE** |
+| HEN-20 | Tuesday Trump deadline = volatility catalyst | ❌ EXPIRED — VIX fell instead |
+| HEN-21 | Fed cut repricing = higher-for-longer regime confirmed | ✅ CONFIRMED |
+| **HEN-22** | **CPI 3.3% + VIX 19 = complacency trap forming** | 🔴 **NEW — ACTIVE** |
+| **HEN-23** | **Gas $4+ = consumer demand destruction begins** | 🔴 **NEW — ACTIVE** |
 
 ---
 
@@ -100,26 +103,28 @@
 
 | Position | Status |
 |----------|--------|
-| IWM $250P Jun | ⚠️ WATCH — IWM holding up but Fed trap deepening |
-| HYG $75P Jun | ⚠️ WATCH — HY OAS tightened but CCC sticky. Fed delay = credit pressure |
-| TLT Puts | ⚠️ WATCH — Yields range-bound but "higher for longer" supports thesis |
-| Regional shorts | ⚠️ WATCH — KRE +0.97% today. APO still below stop. Fed delay hurts regionals |
+| IWM $250P Jun | ⚠️ WATCH — IWM holding up, VIX compression hurts |
+| HYG $75P Jun | ⚠️ WATCH — HY OAS tightened to 290, thesis intact but timing off |
+| TLT Puts | ⚠️ WATCH — Yields range-bound, Fed trap = no catalyst |
+| Regional shorts | ⚠️ WATCH — KRE -1.30%, APO below stop. Stress building quietly |
 
 ---
 
 ## BOTTOM LINE
 
-**Markets closed modestly higher but the real story is the Fed repricing.** Traders abandoned 2026 cut expectations entirely — now pricing first cuts in H2 2027. Wells Fargo pushed their forecast from June/July/Sept to Sept/Oct/Dec. This is a structural shift.
+**The Fed trap is now fully visible.** CPI 3.3% YoY, +0.9% MoM — the highest monthly print since June 2022. Energy-driven, yes, but the Fed cannot cut into this. Market reaction was subdued because the trap is already priced.
 
-**The Fed trap is now fully priced.** ISM Services miss (54.0) + prices at 3.5-year high = stagflation confirmed. The Fed cannot cut into supply-shock inflation, but growth is decelerating (services employment now contracting). Higher-for-longer is the base case.
+**VIX compression to 19 is the bigger story.** We've gone from panic (31+) to complacency (19) in four days. This is NOT a healthy market. It's a market pricing "muddle through" while ignoring tail risks:
+- Hormuz still closed (Brent should not be $94)
+- USD/JPY at 159.30 (intervention risk)
+- Gas at $4.12 (consumer breakpoint)
+- APO below stop, KRE weakening (credit stress)
 
-**VIX 24.54 = continued compression but NOT complacency.** Still 40% above bull market norms. Tuesday Trump deadline remains the near-term binary catalyst. If Iran doesn't comply, VIX gaps 28+ and oil spikes $5+.
-
-**Scenario D (war escalation + supply shock + Fed trapped) still dominant at ~82%.** The Fed repricing today reinforces this — market no longer expects Powell to ride to the rescue. Credit stress (APO below stop, HY/CCC bifurcation) remains unresolved.
+**Thesis update:** Scenario D (war escalation + supply shock + Fed trapped) remains dominant, but the market is pricing Scenario B (muddle through). This divergence = opportunity. VIX 19 with Hormuz closed is mispricing.
 
 **What to watch:**
-1. Tuesday night Trump deadline — Iran response
-2. Any Hormuz vessel traffic updates
-3. NFP Friday — labor market confirming ISM employment contraction?
-4. APO price action — holds $105 or breaks lower?
-5. USD/JPY 160 — intervention risk building
+1. Hormuz vessel traffic — any reopening?
+2. USD/JPY 160 — MOF intervention?
+3. Gas prices — consumer behavior shift at $4+
+4. APO/KRE — credit stress spreading?
+5. Next CPI (April) — will core start catching up?
