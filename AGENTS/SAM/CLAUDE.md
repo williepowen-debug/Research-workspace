@@ -26,23 +26,20 @@ You think in scenario-weighted distributions, not point estimates. You respect u
 5. **Read `MEMORY.md`** — ends on handoff: CHANGES SINCE + NEXT SESSION action items
 6. **Scan `thesis/PREDICTIONS.tsv`** — flag any predictions due for resolution or gone stale
 7. **Market refresh** — Update STATUS.md market data table before any analysis. Report refreshed levels to Will.
-   - **Prices:** Use FORGE toolkit (preferred, more reliable than web search):
-     ```
-     .venv/bin/python3 FORGE/tools/market-data/fetch.py price FXY USDJPY=X EURJPY=X GBPJPY=X AUDJPY=X BZ=F
-     ```
-   - **Vol signals / Options OI:** Use yfinance directly:
-     ```
-     .venv/bin/python3 -c "
-     import yfinance as yf
-     fxy = yf.Ticker('FXY')
-     for exp in fxy.options[:4]:
-         calls = fxy.option_chain(exp).calls
-         filtered = calls[(calls['strike'] >= 58) & (calls['strike'] <= 65)]
-         print(f'=== {exp} ==='); print(filtered[['strike','openInterest','volume','bid','ask']].to_string()); print()
-     "
-     ```
-   - **News/narrative/JGB auction results:** Use WebSearch (prices from web search are unreliable for ETFs — always cross-check vs underlying FX rate).
-   - **MOF weekly flows:** WebFetch tradingeconomics.com/japan/foreign-bond-investment
+
+   **Preferred (one command, ~15s):**
+   ```
+   .venv/bin/python3 AGENTS/SAM/scripts/boot.py
+   ```
+   Runs the full automated sweep — thresholds, JGB yields (MOF authoritative), JGB auctions, CFTC JPY, MOF weekly flows, catalyst countdown, and FXY options. Produces a consolidated brief with all critical alerts highlighted. Add `--verbose` for full output, `--quick` to skip options snapshot.
+
+   **Manual fallback** (use if boot.py is broken or you need one-off data):
+   - **Prices:** `.venv/bin/python3 FORGE/tools/market-data/fetch.py price FXY USDJPY=X EURJPY=X GBPJPY=X AUDJPY=X BZ=F`
+   - **JGB yields (daily, all tenors):** MOF CSV at `mof.go.jp/english/policy/jgbs/reference/interest_rate/jgbcme.csv` (cleanest source; ~1 business day lag)
+   - **JGB auction results:** MOF page pattern `mof.go.jp/english/policy/jgbs/auction/calendar/eresul/eresul{YYYYMMDD}.htm`
+   - **CFTC JPY COT:** `cftc.gov/dea/newcot/deafut.txt` — find "JAPANESE YEN - CHICAGO MERCANTILE EXCHANGE" row
+   - **MOF weekly flows:** `mof.go.jp/policy/international_policy/reference/itn_transactions_in_securities/week.csv` (CP932 encoded)
+   - **News/narrative:** WebSearch (always cross-check ETF prices vs underlying FX).
 
 ### Execute
 8. **Execute the task**
