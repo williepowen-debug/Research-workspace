@@ -30,6 +30,7 @@ group: THESIS_CORE
 
 signal_type: catalyst
 confidence: 0.72
+confidence_language: reports
 resources: 1
 safety_net: clear
 
@@ -50,10 +51,36 @@ word_count: 148
 | `info` | string | Comma-separated agents | Awareness recipients. Optional. |
 | `group` | string | AIG name | Optional. Which Address Indicating Group, if any. |
 | `signal_type` | enum | See Signal Types | What kind of signal this is. |
-| `confidence` | float | 0.0–1.0 | WALTER's confidence this signal is real and relevant. |
+| `confidence` | float | 0.0–1.0 | Numerical confidence score. For machine routing and threshold filters. See Confidence Model below. |
+| `confidence_language` | enum | `confirmed` / `reports` / `assessed` / `unconfirmed` | Human-readable confidence tier. For prose context. Must be consistent with `confidence` per the mapping below. |
 | `resources` | int | 0 / 1 / 2 | Estimated processing resources needed. |
 | `safety_net` | enum | `clear` / `triggered` | Whether safety net override was triggered. |
 | `word_count` | int | — | Body word count. FLASH/IMMEDIATE must be ≤200. |
+
+---
+
+## Confidence Model
+
+Two confidence fields, both required, both must be consistent. Numerical for machine routing, language for human reading. The two fields are **bound** by the mapping below — they cannot disagree.
+
+| `confidence_language` | `confidence` band | When to use |
+|-----------------------|-------------------|-------------|
+| `confirmed` | **0.90–1.0** | Official data release (BLS, FRED, SEC, central bank) OR multiple independent authoritative sources verifying same fact. Two-source rule satisfied via golden sources. |
+| `reports` | **0.75–0.89** | Single credible named source with direct knowledge (Bloomberg, Reuters, FT, named analyst, SEC filing). Specific verifiable claims. |
+| `assessed` | **0.50–0.74** | Synthesis from multiple indicators or agent inference. Not direct evidence but well-supported. |
+| `unconfirmed` | **0.30–0.49** | Single source with no corroboration. Should rarely route — usually held or filtered. |
+| (filtered) | **<0.30** | Below routing threshold. Goes to kill log, not the archive. |
+
+**Why both fields:** The numerical score lets agents and tools filter mechanically (e.g., RED might want to see signals at 0.50+; REGINALD might only act on 0.85+). The language tier tells humans WHAT KIND of certainty this is — a 0.92 "confirmed" reads very differently from a 0.92 "reports."
+
+**Adjustment factors** (from FILTER_SPEC.md):
+- +0.1 if corroborated by second independent source
+- +0.1 if consistent with existing agent thesis
+- -0.1 if contradicts established data (could be real, but needs higher bar)
+- -0.1 if source has history of unreliable reporting
+- +0.2 if official government/central bank data release
+
+After adjustments, snap the language tier to the resulting numerical band.
 
 ---
 

@@ -1,17 +1,17 @@
 Agent	Tier	Platform	Role	Domain	Chain	Upstream	Downstream	Status	Updated	Focus
-PROME	1	OC	Coordinator, agent lifecycle, signal routing	POSITIONS,META	COORD	ALL	ALL	—	2026-04-08	Scenario D 82%, war day 38, ceasefire coordination
-CARL	1	CC	Consumer stress, debt cascades, labor transmission	CONSUMER,SUBPRIME_AUTO	LABOR_DOWN	LABOR,WALTER	REGINALD,RED	RED2	2026-04-07	Convergence 47/50, gas $4 breakpoint, JOLTS inverted
+PROME	1	OC	Coordinator, agent lifecycle, signal routing	POSITIONS,META	COORD	ALL	ALL	—	2026-04-09	Scenario D 82%, ceasefire fragile, tariff 90-day pause
+CARL	1	CC	Consumer stress, debt cascades, labor transmission	CONSUMER,SUBPRIME_AUTO	LABOR_DOWN	LABOR,WALTER	REGINALD,RED	RED2	2026-04-09	Convergence 47/50, savings 4.0%, tariff $1500/HH, JOLTS inverted
 REGINALD	1	CC	Regional bank stress, CRE, earnings	CRE,HIDDEN_CRE,BANK_EARNINGS,BANK_CAPITAL	CREDIT	CARL,WALTER,BROCK	RED,LIQUID	RED3	2026-04-07	8-channel convergence, earnings Apr 16-22
-SAM	1	CC	JPY carry trade, BOJ policy, oil-yen dynamics	CARRY_TRADE	—	WALTER,HAWK	LIQUID,RED	ORANGE	2026-04-08	Ceasefire + oil crash, USD/JPY 158.18, BOJ data checked
+SAM	1	CC	JPY carry trade, BOJ policy, oil-yen dynamics	CARRY_TRADE	—	WALTER,HAWK	LIQUID,RED	ORANGE	2026-04-09	Ceasefire fracturing <48hrs, USD/JPY 159.16, Brent $98 bounce
 RED	1	CC	Adversarial analysis, thesis stress-testing	—	ADVERSARIAL	ALL	WILL	GREEN	2026-04-07	Confidence 76%, HY OAS 305 falsification watch
-BROCK	1	OC	Private credit, BDC, alt assets	PRIVATE_CREDIT,INSURANCE_RISK,PE_CONTAGION,FRAUD	CREDIT	WALTER,SHADE	REGINALD,LIQUID	RED3+	2026-04-07	Stage 2-3, 12 fund gates, $10B+ trapped capital
-BRENT	1	OC	Oil/Hormuz/OPEC/LNG, energy infrastructure	HORMUZ,GULF_STORAGE,LNG,OPEC,SHALE,TANKERS,WAR	ENERGY	HAWK,WALTER	SAM,FERT,RED	RED	2026-04-08	Ceasefire shaky, Hormuz 8% throughput, Petroline struck
-LIQUID	1	OC	Credit conditions, funding stress, spreads	CREDIT_SPREADS,FLOWS	CREDIT	REGINALD,BROCK,HENRY,WALTER	RED,PROME	YELLOW	2026-04-08	HY OAS 312 moderating, funding green, Brent crash
+BROCK	1	OC	Private credit, BDC, alt assets	PRIVATE_CREDIT,INSURANCE_RISK,PE_CONTAGION,FRAUD	CREDIT	WALTER,SHADE	REGINALD,LIQUID	RED5	2026-04-07	Stage 2→3, 12 fund gates, $10B+ trapped, Blackstone distressed
+BRENT	1	OC	Oil/Hormuz/OPEC/LNG, energy infrastructure	HORMUZ,GULF_STORAGE,LNG,OPEC,SHALE,TANKERS,WAR	ENERGY	HAWK,WALTER	SAM,FERT,RED	RED-ORANGE	2026-04-09	Ceasefire fragile, Brent $99 recovering, Hormuz still obstructed
+LIQUID	1	OC	Credit conditions, funding stress, spreads	CREDIT_SPREADS,FLOWS	CREDIT	REGINALD,BROCK,HENRY,WALTER	RED,PROME	YELLOW	2026-04-08	HY OAS 312 moderating, funding green, VIX-HY divergence
 HENRY	1	OC	Equities, VIX, Fed expectations, market structure	VOL,CREDIT_SPREADS,FLOWS,RATES,STAGFLATION	—	LABOR,WALTER	LIQUID,RED	YELLOW	2026-04-06	VIX compressing, Fed cuts pushed to H2 2027
 LABOR	1	OC	Employment data, wage pressure, state flows	LABOR_MARKET,DOGE,TEMP_STAFFING,UI_EXHAUSTION,WHITE_COLLAR	LABOR_DOWN	WALTER	CARL,HENRY	YELLOW	2026-04-07	FL Wave 1 lag test Apr 10, shadow +65K
 HAWK	1	OC	Gulf energy, oil conflict scenario planning	WAR,GEOPOLITICS	ENERGY	WALTER	BRENT,SAM	RED2	2026-04-01	Scenario D 92%, ADCOP bypass eliminated, 3 Gulf states hit
-NEXUS	1	OC	COP synthesis, convergence scoring	CONVERGENCE	SYNTHESIS	ALL	WILL,PROME	RED2	2026-04-04	50/50 ceiling, 18 active convergences, Stage 2-3 window
-WALTER	1	CC	Signal filter, classification, routing, COP integrator	META	COORD	EXTERNAL	ALL	YELLOW	2026-04-08	Pre-operational, registry build, COP design phase
+NEXUS	1	OC	COP synthesis, convergence scoring	CONVERGENCE	SYNTHESIS	ALL	WILL,PROME	RED2	2026-04-04	50/50 ceiling, 18 convergences, C-35 fertilizer + C-36 Hotel California new
+WALTER	1	CC	Signal filter, classification, routing, COP integrator	META	COORD	EXTERNAL	ALL	YELLOW	2026-04-09	Online, registry refresh, network snapshot for Will
 ZHAO	2	OC	China/HK peg, HIBOR-SOFR, JGB unwind, LGFV	ASIA_CONTAGION,UST_FOREIGN	—	SAM,WALTER	LIQUID	RED3	2026-04-02	Demand hole confirmed, HIBOR seasonal, TIC Apr 15
 HANS	2	OC	Iran nuclear, Hormuz cascade, geopolitics	GEOPOLITICS,WAR	ENERGY	WALTER	HAWK,BRENT	RED3	2026-03-24	War day 25, nuclear threshold crossed, Hormuz permanent
 MARCO	2	OC	Immigration, DHS shutdown, labor supply	—	LABOR_DOWN	WALTER	LABOR,CARL	RED	2026-04-02	DHS day 46, 9 breached indicators, ICE expanding
