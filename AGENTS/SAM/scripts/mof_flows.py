@@ -19,10 +19,11 @@ Key column (by position):
   col 10: Short-term debt Net
   col 11: Total Net (all portfolio investment assets, ex-liabilities)
 
-Alerts (based on 4-week rolling of LT debt Net):
-  🔴 CRISIS    net selling > ¥4T (4 weeks) — crisis case pace
-  🟠 STRESS    net selling > ¥2T (4 weeks) — stress case pace
-  🟡 ELEVATED  net selling > ¥1T (4 weeks) — base case upper bound
+Alerts (based on 4-week rolling of LT debt Net, calibrated to THESIS
+scenario bucket midpoints at USDJPY ~150):
+  🔴 CRISIS    net selling > ¥14T / 4 weeks (THESIS crisis case $100B+/mo)
+  🟠 STRESS    net selling > ¥3.5T / 4 weeks (THESIS stress case $25-40B/mo)
+  🟡 ELEVATED  net selling > ¥1.4T / 4 weeks (above THESIS base case $7-10B/mo)
 
 Appends to workbook/MOF_FLOWS.tsv.
 
@@ -46,10 +47,14 @@ HEADERS = {"User-Agent": "Mozilla/5.0 (SAM-Research)"}
 # Unit: 100M yen. 1 "oku" = ¥100,000,000. ¥1T = 10,000 units.
 OKU_PER_TRILLION = 10000
 
-# 4-week rolling thresholds (in oku = 100M yen)
-CRISIS_4W = 40000   # ¥4T
-STRESS_4W = 20000   # ¥2T
-ELEVATED_4W = 10000  # ¥1T
+# 4-week rolling thresholds — calibrated to THESIS.md Channel 1 scenario buckets:
+#   Base case:   $7-10B/mo  ≈ ¥1-1.5T/mo  ≈ up to ¥1.4T per 4 weeks
+#   Stress case: $25-40B/mo ≈ ¥3.75-6T/mo ≈ ¥3.5-5.5T per 4 weeks
+#   Crisis case: $100-165B/mo ≈ ¥15-25T/mo ≈ ¥14T+ per 4 weeks
+# (Assumes USDJPY ~150 for conversion)
+ELEVATED_4W = 14000   # ¥1.4T — above THESIS base case upper bound
+STRESS_4W   = 35000   # ¥3.5T — entering THESIS stress case range
+CRISIS_4W   = 140000  # ¥14T — entering THESIS crisis case range
 
 TSV_HEADER = "Period\tEquity_Net_oku\tLT_Debt_Net_oku\tSubtotal_Net_oku\tShort_Debt_Net_oku\tTotal_Net_oku\tLT_Debt_Net_T_yen\n"
 
@@ -227,20 +232,21 @@ def main():
             avg_week = last_12 / 12
             print(f"  12-week avg/week: {fmt_oku_as_yen(avg_week)}")
 
-        # Alert classification (based on 4-week net selling)
+        # Alert classification (based on 4-week net selling, THESIS-calibrated)
         net_selling_4w = -last_4  # positive = selling
-        print(f"\n  ALERT STATUS")
+        print(f"\n  ALERT STATUS (vs THESIS Channel 1 scenario buckets)")
         print(f"  {'-'*60}")
         if net_selling_4w > CRISIS_4W:
-            print(f"  🔴 CRISIS PACE — 4W selling > ¥4T (actual: {fmt_oku_as_yen(-net_selling_4w)})")
-            print(f"     → Escalate to LIQUID, PROME")
+            print(f"  🔴 CRISIS CASE — 4W selling > ¥14T ($100B+/mo): {fmt_oku_as_yen(-net_selling_4w)}")
+            print(f"     → Escalate to LIQUID, PROME. Rebalance thesis weights.")
         elif net_selling_4w > STRESS_4W:
-            print(f"  🟠 STRESS CASE — 4W selling > ¥2T (actual: {fmt_oku_as_yen(-net_selling_4w)})")
-            print(f"     → Signal LIQUID")
+            print(f"  🟠 STRESS CASE — 4W selling > ¥3.5T ($25-40B/mo): {fmt_oku_as_yen(-net_selling_4w)}")
+            print(f"     → Signal LIQUID. Watch next release for confirmation.")
         elif net_selling_4w > ELEVATED_4W:
-            print(f"  🟡 ELEVATED — 4W selling > ¥1T (actual: {fmt_oku_as_yen(-net_selling_4w)})")
+            print(f"  🟡 ELEVATED — 4W selling > ¥1.4T (above base case upper): {fmt_oku_as_yen(-net_selling_4w)}")
+            print(f"     → Base case upper breached. Monitor trajectory.")
         elif net_selling_4w > 0:
-            print(f"  ⚪ Mild net selling — base case pace")
+            print(f"  ⚪ Base case pace — {fmt_oku_as_yen(-net_selling_4w)} net selling")
         else:
             print(f"  🟢 Net BUYING — no repatriation signal")
 
