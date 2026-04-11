@@ -1,6 +1,6 @@
 # SAM CALENDAR
 
-**Last Updated:** 2026-04-08 | **View:** Forward-looking only. Past events pruned weekly.
+**Last Updated:** 2026-04-11 | **View:** Forward-looking only. Past events pruned weekly.
 
 ---
 
@@ -11,7 +11,7 @@
 | ~~Apr 7~~ | ~~30Y JGB auction~~ | — | ✅ BTC 3.11x, passed | — |
 | ~~Apr 8~~ | ~~Feb wage data~~ | — | ✅ **BEAT — real +1.9%, base pay 34yr high** | — |
 | Apr 7-14 | Big 4 insurer FY2026 investment plans begin | Foreign bond allocation, super-long JGB buying | Cuts announced = Channel 1 confirmed | LIQUID, PROME |
-| Apr 9 | 5Y JGB auction | BTC ratio | Routine | — |
+| ~~Apr 9~~ | ~~5Y JGB auction~~ | — | ✅ BTC 3.58, orderly | — |
 
 ## WEEK OF APR 14
 
@@ -41,7 +41,7 @@
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |------|-------|---------------|-------------------|-----------|
 | ~~Apr 7~~ ✅ | ~~Trump deadline~~ | — | ✅ **CEASEFIRE — 2 weeks. Hormuz reopening. Brent $91.** | — |
-| **Apr 11** | **Pakistan talks (Islamabad)** | **Progress toward deal** | **Progress = oil stays low. Collapse = $105+** | **ALL** |
+| **Apr 11** | **Islamabad Talks LIVE — first direct US-Iran since 1979** | **Vance/Witkoff/Kushner vs Ghalibaf/Araghchi. Lebanon carve-out is the contention.** | **Progress = oil stays low. Collapse = $105+** | **ALL** |
 | **Apr 22** | **Ceasefire expiry** | **Extension vs collapse** | **🔴🔴 THE NEXT BINARY** | **ALL** |
 | Ongoing | Hormuz passage | Tankers/day | Pre-war ~60/day, now ~8-10 | ALL |
 

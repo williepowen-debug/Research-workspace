@@ -1,6 +1,6 @@
 # SAM TIMELINE
 
-**Last Updated:** 2026-04-07
+**Last Updated:** 2026-04-11
 **View:** Base case progression with branch points marked
 
 This document maps our forward-looking expectations — what's coming, what we think happens, and where the path could diverge. Updated as events resolve or views change.
@@ -64,6 +64,14 @@ This document maps our forward-looking expectations — what's coming, what we t
 - **Impact:** Brent $110 → $91 (-16.6%). USD/JPY 159.81 → 158.18 (-1.0%). FXY gapped to $58.06.
 - **⚠️ FRAGILE:** Iran terms maximalist. Ceasefire expires Apr 22. High prob of collapse.
 
+### Tue-Wed Apr 8-9 — CEASEFIRE FRACTURING <48HRS
+- **Event:** Israel launched "Operation Eternal Darkness" — 50 fighter jets, 160 munitions across Lebanon. 254 killed. Trump/Netanyahu: Lebanon NOT covered by ceasefire.
+- **Iran response:** Accused US of violating 3 of 10 ceasefire clauses. Re-closed Hormuz (White House disputes). Ghalibaf: negotiations "unreasonable" given violations.
+- **Hormuz reality:** Reopening was theater. Only 3 ships left the Gulf on Apr 8 (normal: 135/day). 800+ ships still stuck inside. Strait effectively remains blocked. Will confirmed negligible tanker movement as of Apr 9.
+- **Oil:** Brent snapped back $91 → $98 (+7.8%). The $91 priced in a reopening that never materialized.
+- **Talks still on:** Vance leading US delegation to Islamabad Saturday (Apr 11). Ghalibaf + Araghchi for Iran. But Iran questioning whether talks are pointless.
+- **Net:** Ceasefire was priced as de-escalation. Reality is it's a fragile pause with an irreconcilable Lebanon carve-out. Oil headwind NOT resolved. Phase 1 dynamics reasserting. The Brent $91 dip was a mirage.
+
 ### Tue Apr 8 — FEB WAGE DATA BEAT
 - **Outcome:** Real wages +1.9% (biggest since 2021). Base pay +3.3% (34-year high). Nominal +3.3% (beat 2.7%).
 - **Impact:** Demand-pull wages lock BOJ hike path. Every data box checked.
@@ -76,10 +84,30 @@ This document maps our forward-looking expectations — what's coming, what we t
 
 ## WEEK 2 (Apr 7 – Apr 11)
 
-### ~Apr 7-9 — FEB WAGE DATA (MHLW)
-- **Event:** Monthly Labour Survey for February. Real wages, nominal wages, base pay.
-- **Our view:** Low marginal value. Jan real wages +1.4% (first positive in 13 months). Feb CPI fell to 1.3% (from 1.5%), making positive real wages likely. Shunto 5.26% already gives BOJ wage cover. This is confirming data, not swing data.
-- **Watch for:** Only a surprise reversal to deeply negative would matter.
+### ~Apr 7-9 — FEB WAGE DATA (MHLW) ✅ RESOLVED — BULL FORK
+- **Event:** Monthly Labour Survey for February.
+- **Outcome:** ✅ BEAT. Real wages +1.9% (biggest since 2021). Base pay +3.3% (34-year high). Nominal +3.3% (beat 2.7% consensus). Confirming data as expected — but the base pay figure (34yr high) was a genuine surprise. Locks BOJ hike path.
+
+### Wed Apr 9 — 5Y JGB AUCTION ✅ RESOLVED — ORDERLY
+- **Event:** 5-year JGB auction.
+- **Outcome:** BTC 3.58 (prev 3.69, 12mo avg 3.49). 5Y yield 1.805%. In line with average — orderly.
+- **Impact:** JGB market continues to function across the curve. 30Y passed (3.11x), 5Y passed (3.58x). Next test: 20Y on Apr 14.
+
+### Wed Apr 9 — EX-BOJ KAIZUKA: "TIME TO ACT"
+- **Event:** Former BOJ executive director Masaaki Kaizuka public comments.
+- **Key quote:** "It's about time to act." BOJ risks falling behind on inflation. ME conflict reinforcing inflationary backdrop. Output gap positive since 2022.
+- **Impact:** Adds to hawkish chorus. Pre-meeting signaling from ex-officials often precedes action. Combined with Ueda's removed growth precondition and Takata's March dissent.
+
+### Fri Apr 10 — JGB 10Y SURGES TO 28-YEAR HIGH
+- **Event:** JGB 10Y yield rose +4bp to 2.44%, then settled to 2.41%. 40Y up +7bp to 3.92%.
+- **Impact:** Multi-decade highs across the curve = market pricing aggressive BOJ normalization. The yen-yield divergence (JGB yields surging while USD/JPY rises to 159.64) is the carry trade's last stand. Market pricing ~45-50% odds of April 28 hike.
+
+### Sat Apr 11 — ISLAMABAD TALKS BEGIN — FIRST DIRECT US-IRAN SINCE 1979
+- **Event:** Direct US-Iran negotiations open in Islamabad. US delegation: Vance (lead) + Witkoff + Kushner. Iran delegation: Ghalibaf (Parl Speaker) + Araghchi (FM). Sharif mediating.
+- **Early outcomes:** "Some progress" reported on Lebanon ceasefire question. "Movement on unfreezing" Iranian assets. Pakistan's modest goal: "deal to keep talks going."
+- **Sticking points:** Lebanon carve-out unresolved. Iran's 10-point plan calls for Hormuz control + sanctions lifting (maximalist). Ghalibaf says 3 of 10 ceasefire clauses already violated.
+- **Market impact:** Brent eased to $95 (from $98). USD/JPY drifted to 159.24 (from 159.64).
+- **Our view:** Talks happening at all is structurally positive — first since 1979. But maximalist Iranian terms + Lebanon carve-out make a durable agreement unlikely in this window. High prob of "talks continue" outcome that buys time but resolves nothing. Either way, the BOJ rate-differential story is now in command.
 
 ### Apr 7-14 — FY2026 INVESTMENT PLANS BEGIN
 - **Event:** Big 4 life insurers start announcing FY2026 investment plans (exact dates vary, typically first two weeks of April).
@@ -188,7 +216,7 @@ This document maps our forward-looking expectations — what's coming, what we t
 ### Tail scenarios to track:
 - **D2 (YCC return, 32-40%):** BOJ hike → mortgage backlash → Takaichi forces reversal → yen collapses → carry trade explodes then eventually unwinds violently
 - **Oil dominates (15%, down from 20%):** Kharg Island struck → Brent $130+ → yen stays weak despite BOJ → FXY drawdown before recovery. Lower prob given de-escalation signals.
-- **Oil de-escalation (NEW, 25%):** War ends / Hormuz reopens → Brent to $80-90 → yen strengthens on fundamentals alone → BOJ hike becomes "comfortable" not "forced" → FXY target reached faster, less volatility en route. Best-case scenario for position.
+- **Oil de-escalation (15%, down from 25%):** War ends / Hormuz reopens → Brent to $80-90 → yen strengthens on fundamentals alone → BOJ hike becomes "comfortable" not "forced" → FXY target reached faster, less volatility en route. Lower prob: ceasefire fracturing, Hormuz reopening was theater (3 ships vs 135/day normal).
 - **Fed cut path (emerging):** Private credit cascade → recession → Fed cuts → USD/JPY sub-145 independent of BOJ → carry unwind fires from U.S. side
 
 ---
@@ -204,7 +232,10 @@ These are the moments where our expected path could fork:
 | **Apr 6** | Strike pause expiry | Extended → oil stays low | Strikes resume → oil reverses | ✅ **RESOLVED: BEAR** — Kharg struck, escalation |
 | **Apr 7** | 30Y JGB auction | BTC >3.0x → demand holds | BTC <2.0x → insurer buyer strike | ✅ **RESOLVED: BULL** — BTC 3.11x, tail 1.3bp |
 | **Apr 7 8pm** | Trump Hormuz deadline | Deal → oil crashes | Energy strikes → oil $120+ | ✅ **RESOLVED: BULL** — ceasefire, Brent $91 |
-| **Apr 11** | Pakistan talks | Progress → oil stays low | Collapse → snap-back | **NEW — PENDING** |
+| **Apr 8-9** | Ceasefire durability | Holds → oil stays low | Fractures → oil snaps back | ✅ **RESOLVED: BEAR** — Lebanon carve-out, Hormuz re-closed, Brent $98 |
+| **Apr 9** | 5Y JGB auction | Orderly | Weak | ✅ **RESOLVED: BULL** — BTC 3.58, orderly |
+| **Apr 10** | JGB 10Y stress threshold | n/a | Surge through 2.40% | ✅ **RESOLVED: STRUCTURAL** — 28yr high, 2.44% peak |
+| **Apr 11** | Islamabad Talks (Vance/Ghalibaf) | Lebanon resolved + extension | Collapse / no movement | LIVE — early "some progress" signals |
 | **Apr 14** | 20Y JGB auction | Healthy demand | Weak → super-long crisis | PENDING |
 | **Apr 15** | TIC data | Large selling → thesis confirmed | Mixed → slower timeline | PENDING |
 | **Apr 22** | Ceasefire expiry | Extended → oil $80-90 | Collapse → $105-110 | **NEW — PENDING** |

@@ -32,28 +32,31 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (Apr 7 → Apr 8)
-- 2-WEEK CEASEFIRE reached 90 min before Trump's 8pm deadline. Hormuz reopening. Pakistan talks Fri Apr 11.
-- Brent CRASHED $110 → $91.14 (-16.6%). $1 from $90 threshold.
-- USD/JPY 159.81 → 158.18 (-1.0%). FXY gapped to $58.06 (+1.1%). Position green.
-- Feb wage data BEAT: real +1.9%, nominal +3.3%, base pay +3.3% (34-year high).
-- JGB 30Y eased 3.70% → 3.59%. Yen strengthening vs USD only (EUR/JPY 185 flat).
+### CHANGES SINCE LAST SESSION (Apr 9 → Apr 11)
+- **Islamabad Talks LIVE today** — first DIRECT US-Iran negotiations since 1979. Vance/Witkoff/Kushner vs Ghalibaf/Araghchi. Sharif mediating. Early signals: "some progress" on Lebanon ceasefire, "movement on unfreezing" Iranian assets. Lebanon carve-out remains the contention.
+- **JGB 10Y at 28-year high**: 2.41% (vs 2.39% Apr 9). 40Y at 3.92% (+7bp). Market pricing aggressive BOJ normalization.
+- **USD/JPY 159.24** (vs 159.16 Apr 9, peaked 159.64 Apr 10). Yen drifting, still in intervention zone.
+- **FXY $57.64** (vs $57.69 Apr 9). Essentially flat at entry. 8 shares.
+- **Brent $95.20** (down from $98.23 Apr 9). War premium easing on talks.
+- A parallel session ran Apr 10 — committed STATUS.md update with "BOJ hike odds rising" narrative. Created merge conflict with my Apr 9 stash (resolved this session in favor of Apr 10 base + Apr 11 refresh).
+- Hormuz reopening was theater (Will confirmed Apr 9): 3 ships vs 135/day normal, 800+ stuck.
 
-### LAST SESSION (Apr 8)
-- Booted via Telegram. Caught BOJ rate discrepancy in THESIS.md (0.50% → should be 0.75%). Fixed.
-- Ceasefire analysis: thesis accelerating, oil is noise, wages are signal. Ceasefire likely fragile.
-- Position: hold 8 shares, wait for dip to add Tranche 2 at $57-57.50.
-- Created SIGNAL_INTAKE.md (WALTER routing spec). Added to CLAUDE.md file table.
-- Will building group chats. SAM core group: SAM + LIQUID + HENRY.
-- Diagnosed git collision: LIQUID's push/pull/stash cycle overwrote SAM's uncommitted edits. Fixed root CLAUDE.md pull protocol (check for other agents' uncommitted work before pulling). Added Step 0 (git pull) to boot sequences for SAM, RED, REGINALD, CARL.
-- STATUS.md was overwritten 4 times by sync issues. Final version committed to prevent recurrence.
+### LAST SESSION (Apr 9 → Apr 11 closeout)
+- Booted Apr 9 via Telegram. Found stale stash from prior session causing merge conflicts in CARL/REGINALD/BRENT/RED files — aborted cleanly with `git checkout -- .` (left stale stash in stash list — flagged to Will).
+- Market refresh Apr 9: USD/JPY 159.16, FXY $57.69, Brent $98.23 (bouncing back from $91 ceasefire low).
+- Researched 4 priority areas: Hormuz status, ceasefire/Lebanon, insurer plans, BOJ. Found ceasefire fracturing <48hrs in (Israel "Operation Eternal Darkness," 254 dead, Iran disputed Hormuz reopening).
+- Updated TIMELINE.md with ceasefire fracturing narrative + 5Y auction (BTC 3.58 orderly) + Kaizuka hawkish signal. Cut oil de-escalation prob 25% → 15%.
+- Will corrected my "hawkish chorus" framing — reminded me of vocab basics. He confirmed Hormuz tanker count remained negligible (closed in practice).
+- Apr 11 closeout: Resolved STATUS.md merge conflict (kept Apr 10 upstream as base, refreshed for Apr 11). Updated CALENDAR (Islamabad talks live), TIMELINE, MEMORY, LAST_COMPLETION.
+- Open question: Will asked if I have a CLOSEOUT.md checklist file. I don't — closeout is the Write-back section in CLAUDE.md (steps 9-14) + Git protocol. Suggested formalizing this. Awaiting his decision.
 
 ### NEXT SESSION
-1. **Ceasefire durability** — has Brent held below $95?
-2. **Pakistan talks Apr 11** — outcome?
-3. **Big 4 insurer FY2026 plans** — Fukoku first (~Apr 14-18). Update TRACKER.md.
-4. **20Y JGB auction Apr 14**
-5. **Feb TIC data Apr 15** — Japan UST selling confirmation
-6. **Vol check Apr 14-18** — pre-BOJ, CVOL compressed = cheaper options
-7. **Ceasefire expiry Apr 22** — next binary
-8. **BOJ Apr 28** — hike to 1.00% (~70%)
+1. **Islamabad talks outcome** — did they extend the ceasefire? Did Lebanon carve-out get resolved? Talks started Apr 11.
+2. **Mon Apr 14: 20Y JGB auction** — at 28-year-high yields, will demand hold? <2.0x = 🔴 to LIQUID.
+3. **Mon-Fri Apr 14-18: Insurer FY2026 plans** — first announcements drop. Fukoku most likely first. Update insurers/TRACKER.md.
+4. **Tue Apr 15: Feb TIC data** — Japan UST selling confirmation (>$15B = stress case).
+5. **Wed Apr 22: Ceasefire expiry** — even if Islamabad extends, original 2-week clock runs out.
+6. **Tue Apr 28: BOJ meeting** — hike to 1.00% (our internal call ~60-65%, market pricing ~45-50%).
+7. **Vol/options check** — pre-BOJ, see if FXY OI building at $60+ strikes.
+8. **CFTC release Fri Apr 11** — fresh JPY positioning data.
+9. **Decide on CLOSEOUT.md formalization** — pending Will's input.
