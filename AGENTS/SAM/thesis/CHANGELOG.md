@@ -8,6 +8,31 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-04-11 — DATA ACCURACY AUDIT (STATUS refresh, no THESIS version bump)
+
+### STATUS.md data corrections
+**Author:** SAM
+**Action:** First run of new SAM automation toolkit (`AGENTS/SAM/scripts/`) surfaced multiple data discrepancies between STATUS.md and authoritative sources. STATUS.md refreshed; THESIS.md version held at v1.2. Scenario weights unchanged pending Apr 16 MOF confirmation.
+
+**What changed (STATUS only, not THESIS):**
+1. **CFTC JPY non-commercial net: -72.9K → -93,742.** Prior STATUS was reading the Mar 31 CFTC release. The Apr 7 snapshot (released Fri Apr 10) shows shorts built +17K WoW. Now at 52.1% of Jul 2024 peak (was 38%). Source: `cftc.gov/dea/newcot/deafut.txt` parsed via `scripts/cftc_jpy.py`.
+2. **JGB yields reconciled to MOF authoritative CSV.** STATUS had cited 10Y 2.41% / 40Y 3.92% for Apr 10. MOF `jgbcme.csv` through Apr 9 shows 10Y 2.397%, 40Y 3.678%; April peak was 10Y 2.429% / 40Y 3.747% (Apr 6). The 40Y 3.92% figure is 17bp above the MOF April peak and could not be reconciled — flagged as likely prior-session data source error. Apr 10 MOF data publishes Mon Apr 13. Until then STATUS uses MOF Apr 9 as baseline. 10Y NOT breached 2.40% stress threshold as previously claimed — actually sits 1.3bp below.
+3. **MOF ITS weekly flow data refreshed.** Prior STATUS: "¥2,215.8B / 3 weeks, 2x base case." Corrected via `mof_flows.py` parsing 1,109-row history: 4-week rolling ¥-5.0T (~$-33B, $36B/mo run rate), squarely in THESIS Channel 1 stress-case range ($25-40B/mo). Latest single week (Mar 29-Apr 4) was ¥-2.46T — 2.5× prior weeks, by far the worst. Alert upgraded 🟡 → 🟠.
+4. **FXY options positioning added to STATUS reference section.** Not a data correction — net-new visibility. Aggregate P/C 0.06x, 83.9% of call OI in $58-65 thesis zone, 19,014 Jun 18 $58 calls single-strike concentration.
+
+**What did NOT change (intentional restraint):**
+- Channel 1 scenario weights (Base 70% / Stress 25% / Crisis 5%). 4-week rolling is stress case but 12-week rolling is still base/stress boundary. One extreme week (Mar 29-Apr 4) is not enough to rebalance from the 70%-weighted base case. Will approved Option B (STATUS refresh + LIQUID signal) explicitly over Option C (scenario rebalance).
+- THESIS version — this is a data audit, not a thesis change.
+- Carry unwind probabilities (bumped 30d 90→92, 60d 95→96 in STATUS reflecting CFTC crowding + MOF flows; minor refinement not a thesis restructure).
+
+**Signal sent:** 🟠 to LIQUID via `outbox/2026-04-11_to-LIQUID_mof-flows-stress-case-pace.md` — MOF stress-case pace + CFTC crowding + correction to prior understating.
+
+**Decision gate:** Apr 16 MOF ITS release is decisive. If next week confirms another ¥2T+ weekly LT-debt outflow → rebalance to Option C (Base 70→55, Stress 25→37, Crisis 5→8) and bump THESIS to v1.3. If Mar 29-Apr 4 was a one-off → no thesis change.
+
+**Source:** New SAM automation toolkit built today. Reference: `AGENTS/SAM/scripts/AUTOMATION_PLAN.md`, commits c44da1a1 / 5ed7bbfc / fe4628ad.
+
+---
+
 ## 2026-04-05 — NORINCHUKIN RESEARCH + HEDGE RATIO COLLAPSE (THESIS v1.2)
 
 ### THESIS v1.1 → v1.2 (minor)
