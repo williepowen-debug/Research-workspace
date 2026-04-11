@@ -1,7 +1,7 @@
 # WALTER STATUS
-**Updated:** 2026-04-07 ~16:30 UTC
+**Updated:** 2026-04-10 ~22:35 UTC
 **Role:** Signal Filter, Classification & Routing — evolving toward COP (Common Operating Picture) integrator
-**Overall:** 🟡 PRE-OPERATIONAL — Design specs complete, COP architecture under active research
+**Overall:** 🟡 PRE-OPERATIONAL — Outbox created, first signal drafted, confidence model reconciled. NOT YET DISPATCHED — handoff pending next session.
 
 ---
 
@@ -17,18 +17,19 @@ Single entry point for external information into the agent network. WALTER filte
 
 | Component | Status | Notes |
 |-----------|--------|-------|
-| Design: Signal Format Spec | ✅ Complete | v0.1 — YAML headers, precedence levels, body format, AIGs |
-| Design: Routing Table | ✅ Complete | v0.1 — Domain routing, safety net upgrades, MINIMIZE levels |
-| Design: Filter Spec | ✅ Complete | v0.1 — 3-gate filter, confidence scoring, kill/route logs |
+| Design: Signal Format Spec | ✅ Complete | v0.2 (Apr 10) — added confidence_language field, Confidence Model section. Canonical schema. |
+| Design: Routing Table | ✅ Complete | v0.1 — Domain routing, safety net upgrades, MINIMIZE levels. Known gap: no Macro/Inflation row, no backup recipients, no load awareness. |
+| Design: Filter Spec | ✅ Complete | v0.1 — 3-gate filter (Novelty/Relevance/Credibility), confidence scoring, kill/route logs. Known gap: filter model diverges from CHECKLIST Phase 1. |
+| Design: Signal Processing Checklist | ✅ Complete | v0.3 (Apr 10) — added worked example using CPI+UMich, reconciled confidence model with FORMAT_SPEC |
+| Design: Signal Intake Template | ✅ Complete | New v0.1 (Apr 9) — template for agents to define their own SIGNAL_INTAKE.md (currently SAM and BRENT have one) |
 | Design: Signal Registry | 📋 Draft A | Architecture only — SQLite/superevent system deferred to v2 |
-| Research Corpus | ✅ 10 prompts | ESI, military, ATC, pub/sub, IC dissem, emergency dispatch, scientific alerts, open output, newsroom editorial, **trading desk (NEW)** |
-| Distilled Principles | ✅ 10/10 done | All prompts distilled incl. trading desk information flow |
-| STATUS.md | ✅ This file | |
-| COP Architecture | 🟡 In design | Three-layer hybrid confirmed (COP.md at repo root + Signal Archive + Push). Key decisions: WALTER owns/commits COP.md, curated not comprehensive, scannable in 30s. |
-| inbox/ outbox/ | ❌ Not created | Deferred — may be replaced or reduced by COP model |
-| filtered/ routed/ queue/ | ❌ Not created | Deferred — signal archive may supersede |
-| Boot Sequence | ❌ Not defined | Will depend on COP architecture decisions |
-| First Live Signal | ❌ Not attempted | No dry run or live routing yet |
+| Research Corpus | ✅ 10 prompts | ESI, military, ATC, pub/sub, IC dissem, emergency dispatch, scientific alerts, open output, newsroom editorial, trading desk |
+| Distilled Principles | ✅ 10/10 done | All prompts distilled |
+| outbox/ | ✅ Created Apr 10 | Holds drafted signals awaiting dispatch |
+| inbox/ filtered/ routed/ queue/ log/ | ❌ Not created | Pending decision on per-recipient inbox vs COP model |
+| COP Architecture | 🟡 In design | Three-layer hybrid confirmed (COP.md at repo root + Signal Archive + Push) |
+| Boot Sequence | 🟡 Partial | Documented in CLAUDE.md (git pull → STATUS → REGISTRY → ROUTING → registry refresh) |
+| First Live Signal | 🟡 Drafted, NOT dispatched | SIG-W-20260410-001 in outbox awaiting Will approval. SIG-002 also in outbox (duplicate to delete). |
 
 ---
 
@@ -38,15 +39,18 @@ Loaded from agent STATUS files and FORGE at boot. Current snapshot:
 
 | Agent | Status | Key Concern | WALTER Relevance |
 |-------|--------|-------------|------------------|
-| CARL | 🔴🔴 | Convergence 47/50, gas $4 breakpoint, JOLTS inverted | Primary recipient: labor, consumer credit, delinquency signals |
+| CARL | 🔴🔴 | Convergence 47/50, savings 4.0%, tariff $1500/HH, JOLTS 0.91 inverted | Primary recipient: labor, consumer credit, delinquency signals |
 | REGINALD | 🔴🔴🔴 | 8-channel convergence on regionals, earnings Apr 16-22 | Primary recipient: bank earnings, CRE, funding signals |
-| RED | 🟢 | 77% confidence, buffer depletion framework revised | Receives: thesis confirmation, counter-evidence |
-| SAM | 🔴 | USD/JPY 159.64, BOJ hike probability ~35-40% | Primary recipient: Japan/BOJ/yen signals |
-| LIQUID | 🔴🔴 | HY OAS 316, CCC 981, gold margin cascade | Primary recipient: funding/liquidity stress |
-| HAWK | 🔴🔴 | Scenario D 85%, Iran deadline passed | Primary recipient: oil/energy, geopolitical supply |
-| BRENT | 🔴🔴🔴 | 8-9M bpd disrupted, Hormuz+Baltic | Info recipient via ENERGY_CHAIN |
-| BROCK | 🔴🔴🔴 | Stage 2→3, Blue Owl gating, $10B+ trapped | Info recipient via CREDIT_CHAIN |
-| HENRY | 🔴🔴 | JPM retail fatigue, $14T IG supply wall | Recipient: market structure/velocity signals |
+| RED | 🟢 | 76% confidence, HY OAS 305 falsification watch, VIX-HY divergence | Receives: thesis confirmation, counter-evidence |
+| SAM | 🟠 | Ceasefire fracturing <48hrs, USD/JPY 159.16, Brent $98 bounce, BOJ Apr 28 | Primary recipient: Japan/BOJ/yen signals |
+| LIQUID | 🟡 | HY OAS 312 MODERATING, funding green, VIX-HY divergence | Primary recipient: funding/liquidity stress |
+| HAWK | 🔴🔴 | Scenario D 92%, ceasefire now in effect (fragile) | Primary recipient: oil/energy, geopolitical supply |
+| BRENT | 🔴🟠 | Ceasefire fragile, Brent $99 recovering from -15% crash, Hormuz still obstructed | Info recipient via ENERGY_CHAIN |
+| BROCK | 🔴🔴🔴🔴🔴 | Stage 2→3, 12 fund gates, $10B+ trapped, Blackstone $10B distressed fund | Info recipient via CREDIT_CHAIN |
+| HENRY | 🟡 | VIX 24.54, Fed cuts pushed H2 2027, ISM services miss | Recipient: market structure/velocity signals |
+| LABOR | 🟡 | FL Wave 1 lag test TOMORROW (Apr 10), shadow +65K, NFP +178K internals weak | Recipient: employment/labor signals |
+| NEXUS | 🟠 | 50/50 convergence ceiling, 18 active (was 16), C-35 fertilizer + C-36 Hotel California | Convergence synthesis |
+| PROME | — | Scenario D 82%, ceasefire coordination, tariff 90-day pause | Coordinator |
 
 ---
 
@@ -111,6 +115,9 @@ Exploring a shift from point-to-point inbox messaging to a Common Operating Pict
 |------|-------------|
 | 2026-04-07 (AM) | First WALTER session. Created STATUS.md. Researched open output systems (Prompt 8). Discussed COP architecture with Will via Telegram. Proposed three-layer hybrid model. Will directed iterative approach. |
 | 2026-04-07 (PM) | Distilled all remaining research prompts (4-8). Research phase COMPLETE (8/8 distilled). Key decisions confirmed: COP.md at repo root, WALTER owns/commits it, curated not comprehensive, scannable in 30s. Will raised achievability concern — scoped realistic workflow: boot → read STATUS files → update COP → write signals → ping Telegram if FLASH → done. |
+| 2026-04-09 | Boot + registry refresh. Read 12 agent STATUS files. Key changes since Apr 7: ceasefire in effect (fragile, fracturing <48hrs), oil crashed 15% then recovering ($99), Trump tariff 90-day pause (S&P +9.5%), LIQUID downgraded to 🟡 MODERATING (first agent break from RED consensus), NEXUS +2 new convergences (C-35 fertilizer, C-36 Hotel California). |
+| 2026-04-10 (AM) | Reviewed SAM's SIGNAL_INTAKE.md as the prototype "subscription spec." Drafted SIGNAL_INTAKE_TEMPLATE.md as a reusable prompt for agents. Will began rolling out to other Tier 1 agents — only SAM and BRENT have one so far. |
+| 2026-04-10 (PM) | First live signal processing session. Pulled CPI March (released today) from FRED + UMich April preliminary (released today, scraped via WebSearch — FRED hadn't ingested yet). Drafted SIG-W-20260410-001 (combined CPI+UMich stagflation synthesis) following FORMAT_SPEC. Initially also drafted SIG-002 (CPI-only with HENRY action) — Will challenged the duplication; on re-read of FORMAT_SPEC realized "one file per action recipient" means dispatch mechanics not content splitting. SIG-002 marked for deletion (still in outbox pending). Walked the SIGNAL_PROCESSING_CHECKLIST end-to-end on SIG-001 — uncovered four gaps: confidence model divergence (RESOLVED), no routing log (open), no capability/load check (open), no backup recipients (open). Reconciled confidence model: SIGNAL_FORMAT_SPEC.md now has both `confidence` (numerical) and `confidence_language` (enum) bound by a mapping table. CHECKLIST updated to v0.3. SIG-001 updated to use both fields. **Next session must:** (1) delete SIG-002, (2) get Will's approval on SIG-001 content, (3) dispatch SIG-001 to 5 recipient inboxes (CARL action; HENRY/RED/LIQUID/SAM info), (4) decide on routing log infrastructure, (5) tackle remaining spec divergences (header schema, filter model). |
 
 ---
 
