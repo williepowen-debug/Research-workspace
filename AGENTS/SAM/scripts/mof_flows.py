@@ -1,0 +1,269 @@
+#!/usr/bin/env python3
+"""
+SAM MOF Weekly Foreign Securities Flow Monitor
+Fetches Japan MOF's weekly "International Transactions in Securities" CSV.
+Tracks Japanese residents' net acquisition/disposition of foreign long-term
+debt securities — the key signal for life-insurer repatriation.
+
+Source: https://www.mof.go.jp/policy/international_policy/reference/itn_transactions_in_securities/week.csv
+Format: Shift-JIS encoded CSV (mixed Japanese + English headers)
+Unit:   100 million yen (億円)
+Update: Weekly, usually Thursday JST (prior week ending Saturday)
+
+Key column (by position):
+  col 0: Period (e.g., "2026.3.29~4.4")
+  col 6: Long-term debt securities, Net (Portfolio Investment Assets)
+         → positive = Japan buying foreign LT bonds
+         → negative = Japan selling (repatriation signal)
+  col 7: Subtotal Net (equity + LT debt)
+  col 10: Short-term debt Net
+  col 11: Total Net (all portfolio investment assets, ex-liabilities)
+
+Alerts (based on 4-week rolling of LT debt Net):
+  🔴 CRISIS    net selling > ¥4T (4 weeks) — crisis case pace
+  🟠 STRESS    net selling > ¥2T (4 weeks) — stress case pace
+  🟡 ELEVATED  net selling > ¥1T (4 weeks) — base case upper bound
+
+Appends to workbook/MOF_FLOWS.tsv.
+
+Usage:
+  .venv/bin/python3 AGENTS/SAM/scripts/mof_flows.py
+  .venv/bin/python3 AGENTS/SAM/scripts/mof_flows.py --weeks 12
+"""
+
+import sys
+import urllib.request
+from datetime import datetime
+from pathlib import Path
+
+SAM_DIR = Path(__file__).resolve().parent.parent
+WORKBOOK = SAM_DIR / "workbook"
+FLOWS_TSV = WORKBOOK / "MOF_FLOWS.tsv"
+
+MOF_CSV_URL = "https://www.mof.go.jp/policy/international_policy/reference/itn_transactions_in_securities/week.csv"
+HEADERS = {"User-Agent": "Mozilla/5.0 (SAM-Research)"}
+
+# Unit: 100M yen. 1 "oku" = ¥100,000,000. ¥1T = 10,000 units.
+OKU_PER_TRILLION = 10000
+
+# 4-week rolling thresholds (in oku = 100M yen)
+CRISIS_4W = 40000   # ¥4T
+STRESS_4W = 20000   # ¥2T
+ELEVATED_4W = 10000  # ¥1T
+
+TSV_HEADER = "Period\tEquity_Net_oku\tLT_Debt_Net_oku\tSubtotal_Net_oku\tShort_Debt_Net_oku\tTotal_Net_oku\tLT_Debt_Net_T_yen\n"
+
+
+def fetch_mof_csv():
+    """Fetch MOF weekly CSV. Returns decoded text or None.
+
+    MOF uses CP932 (Japanese government standard extension of Shift-JIS).
+    Some byte sequences fail strict shift_jis but work in cp932.
+    """
+    try:
+        req = urllib.request.Request(MOF_CSV_URL, headers=HEADERS)
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            raw = resp.read()
+            return raw.decode("cp932", errors="replace")
+    except Exception as e:
+        print(f"  ERROR fetching MOF CSV: {e}")
+        return None
+
+
+def parse_mof_csv(text):
+    """
+    Parse MOF weekly CSV. Returns list of dicts ordered by period ascending.
+
+    Row format (after headers, using full-width Japanese separators):
+      "2026．3．29～4．4", "35,041 ", "20,666 ", "14,374 ", "105,539 ",
+      "130,162 ", "-24,624 ", "-10,249 ", ...
+      col 0: period (Japanese full-width dot "．" and tilde "～")
+      col 1-3: Assets Equity acq/disp/net
+      col 4-6: Assets LT-debt acq/disp/net   ← col 6 is our key metric
+      col 7:   Assets Subtotal Net
+      col 8-10: Assets Short-term acq/disp/net
+      col 11:  Assets Total Net
+      col 12-22: Liabilities side
+    """
+    import csv as csvmod
+    import re as remod
+
+    rows = []
+    reader = csvmod.reader(text.splitlines())
+    # Pattern: starts with 4-digit year + full-width/half-width dot + digit + ...
+    # Must contain the full-width tilde (～) or half-width tilde (~) separating weeks
+    period_re = remod.compile(r"^\d{4}[．.]\d+[．.]\d+[～~]")
+
+    for fields in reader:
+        if not fields or not fields[0]:
+            continue
+        period = fields[0].strip()
+        if not period_re.match(period):
+            continue
+        if len(fields) < 12:
+            continue
+
+        def num(s):
+            try:
+                return int(s.replace(",", "").strip())
+            except (ValueError, AttributeError):
+                return None
+
+        row = {
+            "period": period,
+            "equity_net": num(fields[3]),
+            "lt_debt_net": num(fields[6]),
+            "subtotal_net": num(fields[7]),
+            "short_debt_net": num(fields[10]),
+            "total_net": num(fields[11]),
+        }
+        if row["lt_debt_net"] is None:
+            continue
+        rows.append(row)
+
+    return rows
+
+
+def fmt_oku_as_yen(oku):
+    """Format 100M-yen units as ¥XT or ¥XB string."""
+    yen = oku * 1e8
+    if abs(yen) >= 1e12:
+        return f"¥{yen/1e12:+,.2f}T"
+    elif abs(yen) >= 1e9:
+        return f"¥{yen/1e9:+,.1f}B"
+    else:
+        return f"¥{yen/1e6:+,.0f}M"
+
+
+def fmt_oku_as_usd(oku, usdjpy=150.0):
+    """Format 100M-yen as approximate USD."""
+    yen = oku * 1e8
+    usd = yen / usdjpy
+    if abs(usd) >= 1e9:
+        return f"~${usd/1e9:+,.1f}B"
+    else:
+        return f"~${usd/1e6:+,.0f}M"
+
+
+def append_tsv(rows):
+    """Append rows to TSV idempotently (key: period)."""
+    existing = set()
+    if FLOWS_TSV.exists():
+        with open(FLOWS_TSV) as f:
+            next(f, None)
+            for line in f:
+                parts = line.strip().split("\t")
+                if parts:
+                    existing.add(parts[0])
+    else:
+        with open(FLOWS_TSV, "w") as f:
+            f.write(TSV_HEADER)
+
+    appended = 0
+    with open(FLOWS_TSV, "a") as f:
+        for r in rows:
+            if r["period"] in existing:
+                continue
+            lt_t = (r["lt_debt_net"] * 1e8) / 1e12 if r["lt_debt_net"] is not None else 0
+            f.write(
+                f"{r['period']}\t"
+                f"{r.get('equity_net', '')}\t"
+                f"{r['lt_debt_net']}\t"
+                f"{r.get('subtotal_net', '')}\t"
+                f"{r.get('short_debt_net', '')}\t"
+                f"{r.get('total_net', '')}\t"
+                f"{lt_t:.3f}\n"
+            )
+            appended += 1
+    return appended
+
+
+def main():
+    weeks = 8
+    if "--weeks" in sys.argv:
+        idx = sys.argv.index("--weeks")
+        if idx + 1 < len(sys.argv):
+            weeks = int(sys.argv[idx + 1])
+
+    now = datetime.now().strftime("%Y-%m-%d %H:%M")
+    print(f"\n{'='*70}")
+    print(f"  SAM MOF Weekly Foreign Securities Flows — {now}")
+    print(f"{'='*70}")
+
+    text = fetch_mof_csv()
+    if not text:
+        print("\n  ERROR: MOF CSV fetch failed.")
+        return 1
+
+    rows = parse_mof_csv(text)
+    if not rows:
+        print("\n  ERROR: MOF CSV parse empty.")
+        return 1
+
+    latest = rows[-1]
+    print(f"\n  Source: MOF ITS (authoritative)")
+    print(f"  Latest period: {latest['period']}")
+    print(f"  Total weeks available: {len(rows)}")
+
+    # Latest week detail
+    print(f"\n  LATEST WEEK — FOREIGN ASSET FLOWS (Japan residents)")
+    print(f"  {'-'*60}")
+    print(f"  Equity net:          {fmt_oku_as_yen(latest.get('equity_net') or 0)}")
+    print(f"  LT debt net:         {fmt_oku_as_yen(latest['lt_debt_net'])}  {fmt_oku_as_usd(latest['lt_debt_net'])}")
+    print(f"  Short-term debt net: {fmt_oku_as_yen(latest.get('short_debt_net') or 0)}")
+    print(f"  Subtotal net:        {fmt_oku_as_yen(latest.get('subtotal_net') or 0)}")
+    print(f"  Total net:           {fmt_oku_as_yen(latest.get('total_net') or 0)}")
+
+    # 4-week and 12-week rolling LT debt
+    if len(rows) >= 4:
+        last_4 = sum(r["lt_debt_net"] for r in rows[-4:])
+        print(f"\n  ROLLING LT-DEBT NET (key repatriation signal)")
+        print(f"  {'-'*60}")
+        print(f"  4-week rolling:   {fmt_oku_as_yen(last_4)}  {fmt_oku_as_usd(last_4)}")
+
+        if len(rows) >= 12:
+            last_12 = sum(r["lt_debt_net"] for r in rows[-12:])
+            print(f"  12-week rolling:  {fmt_oku_as_yen(last_12)}  {fmt_oku_as_usd(last_12)}")
+            avg_week = last_12 / 12
+            print(f"  12-week avg/week: {fmt_oku_as_yen(avg_week)}")
+
+        # Alert classification (based on 4-week net selling)
+        net_selling_4w = -last_4  # positive = selling
+        print(f"\n  ALERT STATUS")
+        print(f"  {'-'*60}")
+        if net_selling_4w > CRISIS_4W:
+            print(f"  🔴 CRISIS PACE — 4W selling > ¥4T (actual: {fmt_oku_as_yen(-net_selling_4w)})")
+            print(f"     → Escalate to LIQUID, PROME")
+        elif net_selling_4w > STRESS_4W:
+            print(f"  🟠 STRESS CASE — 4W selling > ¥2T (actual: {fmt_oku_as_yen(-net_selling_4w)})")
+            print(f"     → Signal LIQUID")
+        elif net_selling_4w > ELEVATED_4W:
+            print(f"  🟡 ELEVATED — 4W selling > ¥1T (actual: {fmt_oku_as_yen(-net_selling_4w)})")
+        elif net_selling_4w > 0:
+            print(f"  ⚪ Mild net selling — base case pace")
+        else:
+            print(f"  🟢 Net BUYING — no repatriation signal")
+
+    # Recent history
+    print(f"\n  RECENT HISTORY (last {min(weeks, len(rows))} weeks — LT debt net)")
+    print(f"  {'-'*60}")
+    for r in rows[-weeks:]:
+        val = r["lt_debt_net"]
+        bar_len = min(40, abs(val) // 500)  # 500 oku = ¥50B per char
+        bar = ("█" * bar_len) if val < 0 else ("░" * bar_len)
+        side = "SELL" if val < 0 else "BUY"
+        print(f"  {r['period']:<18}  {side}  {fmt_oku_as_yen(val):>10}  {bar}")
+
+    # Append to TSV
+    appended = append_tsv(rows)
+    if appended > 0:
+        print(f"\n  Appended {appended} row(s) to MOF_FLOWS.tsv")
+    else:
+        print(f"\n  TSV already current")
+
+    print()
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
