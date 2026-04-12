@@ -1,19 +1,43 @@
 # WALTER Signal Processing Checklist
-**Version:** 0.3 | **Date:** April 10, 2026 (confidence model reconciled with FORMAT_SPEC) | **v0.2:** April 10, 2026 (worked example added) | **v0.1:** April 7, 2026
+**Version:** 0.6 | **Date:** April 11, 2026 PM (canonical Domain Vocabulary referenced — Gap C resolved) | **v0.5:** April 11, 2026 PM (Phase 1 reconciled with FILTER_SPEC v0.2 unified filter model) | **v0.4:** April 11, 2026 (header schema reconciled, conflict_zone clarified) | **v0.3:** April 10, 2026 (confidence model reconciled) | **v0.2:** April 10, 2026 (worked example added) | **v0.1:** April 7, 2026
 
 One-page operational reference for processing incoming signals. Derived from 10 research prompts across emergency medicine, military communications, ATC, pub/sub systems, intelligence dissemination, emergency dispatch, scientific alerts, open output systems, newsroom editorial, and trading desk operations.
+
+> **Canonical source cross-references:**
+> - `SIGNAL_FORMAT_SPEC.md` owns the signal file format, header fields, **and the Domain Vocabulary** (13 canonical codes: LABOR, MACRO_INFLATION, TARIFF_TRADE, CONSUMER_CREDIT, BANK_CRE, FUNDING_LIQUIDITY, PRIVATE_CREDIT, INSURANCE_SHADOW, OIL_ENERGY, GEOPOL_ENERGY, GEOPOL_NON_ENERGY, JAPAN_BOJ, MARKET_VOL).
+> - `FILTER_SPEC.md` owns Gate 1 filter logic (System-Critical bypass → Novelty → Relevance → Credibility).
+> - `ROUTING_TABLE.md` owns domain → recipient routing rules, using the canonical Domain Vocabulary codes in every row.
+>
+> This CHECKLIST is the operational *process* — it describes how to execute those specs, not what they define. On any divergence, the owning spec wins and this CHECKLIST is updated to match.
 
 ---
 
 ## PHASE 1: INTAKE (Kill or Keep — under 10 seconds)
 
+Per FILTER_SPEC v0.2 unified filter model. Pre-gate bypass first, then two hard kill gates, then soft credibility check.
+
 ```
-1. Already known?          → KILL. Log: "already in [AGENT] STATUS."
-2. In our thesis chain?    → If no: KILL. Log: "not thesis-relevant."
-3. System-critical?        → If yes: skip to PHASE 3, route FLASH.
+0. SYSTEM-CRITICAL BYPASS  → If held position hit, safety net trigger,
+                             falsification rule pierced, or Will FLASH:
+                             SKIP all gates, route FLASH immediately.
+
+1. NOVELTY (HARD KILL)     → Already in any agent's STATUS or routed <48h?
+                             Yes: KILL, log to kill_log.tsv ("already known").
+
+2. RELEVANCE (HARD KILL)   → Touches held position / active thesis /
+                             watched metric / transmission chain / catalyst?
+                             No: KILL, log to kill_log.tsv ("not thesis-relevant").
+
+3. CREDIBILITY (SOFT)      → Sets confidence tier (0.30-1.0 based on source
+                             quality + specificity). Not a hard kill UNLESS
+                             final confidence after adjustments < 0.30 floor.
+                             Low-credibility-but-novel-and-relevant signals
+                             pass to Phase 2 flagged, don't die outright.
 ```
 
-Most signals die here. That's correct. Target: 80-90% filtered.
+Most signals die at Novelty or Relevance. That's correct. Target: 80-90% filtered.
+
+**Key change from v0.1/v0.2/v0.3 of this file:** Novelty and Relevance are AND-gates (must pass BOTH), not pass-any-of-three. Credibility is a confidence modifier, not a hard gate. System-Critical is a pre-gate bypass that precedes all filtering. See FILTER_SPEC.md for full rationale.
 
 ---
 
@@ -41,10 +65,12 @@ The numerical score lives in the YAML header for machine routing. The language t
 
 **Two-source rule:** Don't promote to IMMEDIATE+ unless corroborated. Exception: "golden source" with direct knowledge (single official release like a BLS print can stand alone at `confirmed`).
 
-**Conflict zone** — relationship to thesis:
+**Conflict zone** — relationship to thesis (analytical step, NOT a header field):
 - 🟢 Confirms thesis (gas hits $4 as CARL predicted)
 - 🟡 Tension — doesn't break thesis but doesn't confirm (HY OAS tightening)
 - 🔴 Contradicts thesis or threatens position (major counter-signal)
+
+> **Why this is not a header field:** A signal's conflict_zone is recipient-dependent — the same signal can be 🟢 for CARL (confirms consumer stress) and 🔴 for HENRY (contradicts Fed-trap resolution). Baking one conflict_zone label into the header would collapse that nuance. Instead: use this step to sharpen the **Relevance** body section so each recipient sees the signal through their own thesis lens. If you need a header-level marker for machine filtering, use `signal_type` (which IS in FORMAT_SPEC) — e.g. `counter-evidence` vs `thesis-confirmation`.
 
 **Superevent check:** Do any signals from this session GROUP into a convergence event more significant than its parts?
 
@@ -63,14 +89,32 @@ The numerical score lives in the YAML header for machine routing. The language t
 
 ```yaml
 # Layer 1 — Header (machine-scannable)
-# NOTE: SIGNAL_FORMAT_SPEC.md is the canonical schema. This shows the
-#       confidence-related fields only. See FORMAT_SPEC for the full header.
+# Full schema per SIGNAL_FORMAT_SPEC.md. All fields required unless marked optional.
+---
 signal_id: SIG-W-YYYYMMDD-NNN
 precedence: FLASH | IMMEDIATE | PRIORITY | ROUTINE
-confidence: 0.0–1.0           # numerical score for machine routing
-confidence_language: confirmed | reports | assessed | unconfirmed   # human tier, bound to score
-to: AGENT_NAME (action)
-info: AGENT_NAME, AGENT_NAME (awareness)
+timestamp: 2026-MM-DDTHH:MM:SSZ
+source: WALTER
+origin: "Free text — where raw info came from (e.g. BLS, Reuters, agent inbox)"
+
+to: AGENT (ACTION)
+info: AGENT, AGENT                    # optional
+group: AIG_NAME                       # optional; see FORMAT_SPEC AIGs
+
+signal_type: threshold-crossed | pattern-match | catalyst | divergence | research | position-risk | context | manual-flag
+confidence: 0.0–1.0                   # numerical score, bound to language tier
+confidence_language: confirmed | reports | assessed | unconfirmed
+resources: 0 | 1 | 2                  # processing resource estimate
+safety_net: clear | triggered         # override fired?
+
+word_count: NNN                       # FLASH/IMMEDIATE must be ≤200
+---
+```
+
+**Optional/conditional fields** (WALTER adds these at dispatch time, not drafting):
+```yaml
+dispatched: 2026-MM-DDTHH:MM:SSZ      # added when dispatched to recipient inboxes
+dispatch_note: "Free text reason for trim/re-route/downgrade"
 ```
 
 ```
@@ -151,13 +195,18 @@ This example walks the checklist top-to-bottom on a real input. It shows what ea
 
 ### PHASE 1: Intake — Kill or Keep?
 
+Walked per FILTER_SPEC v0.2 unified model (System-Critical bypass → Novelty → Relevance → Credibility).
+
 | Check | Result | Reason |
 |-------|--------|--------|
-| Already known? | NO — KEEP | Both prints released today, fresh information |
-| In our thesis chain? | YES — KEEP | Touches LABOR_DOWNSTREAM (CARL), market structure (HENRY), credit (LIQUID), thesis (RED), Japan (SAM via Fed reaction) |
-| System-critical? | NO — continue to Phase 2 | Not portfolio-damaging or stop-loss adjacent. Important but not FLASH-tier |
+| **0. System-Critical bypass?** | NO | Not portfolio-damaging, no stop-loss adjacent, no safety net trigger, no falsification rule firing. Continue through normal gates. |
+| **1. Novelty (hard kill)?** | PASS | Both prints released today, fresh information, not in any agent's STATUS as of this morning. |
+| **2. Relevance (hard kill)?** | PASS | Touches LABOR_DOWNSTREAM (CARL), market structure (HENRY), credit (LIQUID), thesis (RED), Japan (SAM via Fed reaction). Multi-domain. |
+| **3. Credibility (soft modifier)?** | HIGH → conf 0.95+ base | BLS official release (golden source) + University of Michigan official Surveys of Consumers (second golden source) = TWO independent authoritative sources. Maps to 0.90–1.0 band. |
 
-**Outcome:** SURVIVED intake. Proceed to classify.
+**Outcome:** SURVIVED intake. Confidence 0.97 (after +0.05 corroboration adjustment, capped at 0.97 to reflect UMich pre-ceasefire interview caveat). Proceed to classify.
+
+**Note on the new model vs the old one:** Under v0.1's "fail-all-three" logic this would have passed trivially (all three questions gated pass). Under v0.2's AND-logic it still passes because Novelty AND Relevance both pass cleanly. The difference would matter on edge cases like a Bloomberg restating of a CPI print we'd already routed (fails Novelty as duplicate → now dies; under v0.1 would have passed on Credibility alone) or an anonymous Twitter post about WAL capital-raise rumors (passes Novelty + Relevance + Low Credibility = routes at ~0.35 confidence instead of dying outright).
 
 ### PHASE 2: Classify
 
@@ -241,18 +290,18 @@ I initially drafted a SECOND signal (SIG-W-20260410-002, CPI-only with HENRY act
 
 ### Gaps This Example Exposed
 
-1. **~~Header confidence field divergence~~** ✅ RESOLVED in v0.3. SIGNAL_FORMAT_SPEC.md now defines TWO bound fields: `confidence` (numerical 0.0–1.0) AND `confidence_language` (confirmed/reports/assessed/unconfirmed). The two are bound by the mapping table — they cannot disagree. CHECKLIST and FORMAT_SPEC now use the same model.
+1. **~~Header confidence field divergence~~** ✅ RESOLVED in v0.3. SIGNAL_FORMAT_SPEC.md defines TWO bound fields: `confidence` (numerical 0.0–1.0) AND `confidence_language` (confirmed/reports/assessed/unconfirmed), bound by a mapping table.
 
-2. **No routing log:** I have no place to record this routing decision for later review. Need a `WALTER/log/routing_log.tsv` to capture: timestamp, signal_id, gates passed, recipients, push/pull, why. (Open — next round candidate.)
+2. **~~No routing log~~** ✅ RESOLVED Apr 11. `AGENTS/WALTER/routed/route_log.tsv` created per FILTER_SPEC schema. Today's dispatches backfilled. Going forward every dispatch appends a row.
 
-3. **No capability/load check:** I picked CARL as action recipient without verifying his current load. CARL was updated today (not stale), but if he had been overloaded I should have considered re-routing or downgrading. Need a load check sub-step before final routing. (Open — next round candidate.)
+3. **No capability/load check:** I picked CARL as action recipient without verifying his current load. CARL was updated today (not stale), but if he had been overloaded I should have considered re-routing or downgrading. **Partially addressed Apr 11** via Backup column in ROUTING_TABLE v0.2 with promotion semantics (use backup when primary stale >5d, in MINIMIZE, or spawning sub-agents). Still open: automated load check at routing time. (Open.)
 
-4. **No backup recipient defined:** If CARL were unavailable, the spec doesn't say where the signal goes. Need backup mappings in ROUTING_TABLE.md. (Open — next round candidate.)
+4. **~~No backup recipient defined~~** ✅ RESOLVED Apr 11. ROUTING_TABLE v0.2 added a Backup column across all rows with explicit promotion semantics. CARL backup is HENRY for most domains.
 
-5. **Header schema divergence between FORMAT_SPEC and CHECKLIST:** Beyond confidence, the two specs still describe slightly different headers (CHECKLIST mentions `domain` and `conflict_zone` fields that aren't in FORMAT_SPEC; FORMAT_SPEC has `timestamp`, `source`, `origin`, `group`, `signal_type`, `resources`, `safety_net`, `word_count` not in the CHECKLIST example). FORMAT_SPEC is canonical but CHECKLIST should reference it explicitly. (Open — next round candidate.)
+5. **~~Header schema divergence between FORMAT_SPEC and CHECKLIST~~** ✅ RESOLVED Apr 11 (this file, v0.4). CHECKLIST Phase 3 header example now shows the full FORMAT_SPEC schema. `conflict_zone` clarified as an analytical step (informs Relevance prose) not a header field, because it's recipient-dependent. Header-level machine filter for thesis-vs-counter uses `signal_type` (counter-evidence vs thesis-confirmation) which is already in FORMAT_SPEC. The canonical-source rule is documented at the top of this file.
 
-6. **Filter model divergence:** FILTER_SPEC Gate 1 has Novelty/Relevance/Credibility. CHECKLIST Phase 1 has Already Known/In Thesis Chain/System-Critical. These overlap but use different categories. Need reconciliation. (Open — next round candidate.)
+6. **~~Filter model divergence~~** ✅ RESOLVED Apr 11 (Gap B). FILTER_SPEC v0.2 and this CHECKLIST v0.5 now share a single unified filter model: System-Critical pre-gate bypass → Novelty (hard kill) → Relevance (hard kill) → Credibility (soft, confidence modifier with 0.30 floor). AND-logic on the hard gates. Model is versioned v1 and **provisional** — scheduled review after 10+ signals pass through or 30 days from Apr 11, whichever first.
 
 ---
 
-*Operational checklist — derived from 10 research prompts | v0.1: April 7, 2026 | v0.2: April 10, 2026 (worked example added) | v0.3: April 10, 2026 (confidence model reconciled with FORMAT_SPEC)*
+*Operational checklist — derived from 10 research prompts | v0.1: April 7, 2026 | v0.2: April 10, 2026 (worked example added) | v0.3: April 10, 2026 (confidence model reconciled) | v0.4: April 11, 2026 (header schema reconciled; conflict_zone clarified) | v0.5: April 11, 2026 (Phase 1 reconciled with FILTER_SPEC v0.2 unified filter model — Gap B resolved) | v0.6: April 11, 2026 PM (canonical Domain Vocabulary referenced — Gap C resolved)*

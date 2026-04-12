@@ -2,14 +2,13 @@
 signal_id: SIG-W-20260410-001
 precedence: IMMEDIATE
 timestamp: 2026-04-10T17:45:00Z
+dispatched: 2026-04-11T19:45:00Z
 source: WALTER
 origin: "BLS CPI Release 2026-04-10; U Michigan SCA Preliminary 2026-04-10"
 
 to: CARL (ACTION)
 info: LIQUID
 group: THESIS_CORE
-dispatched: 2026-04-11T19:45:00Z
-dispatch_note: "Trimmed from original 5-recipient plan (CARL/HENRY/RED/LIQUID/SAM) after Apr 11 WALTER session found HENRY Apr 10 EOD already processed CPI, RED needs broader refresh, SAM not domain-relevant. LIQUID retained as INFO per Will's direction (uncertain whether Apr 10 EOD captured Mar CPI + UMich April crash)."
 
 signal_type: catalyst
 confidence: 0.97
@@ -22,7 +21,7 @@ word_count: 165
 
 ## Signal
 
-March CPI hot on headline, core contained. UMich April preliminary 47.6 — RECORD LOW (below the 50 Biden-era trough). 1Y inflation expectations jumped to 4.8% from 3.8% in March. Long-run 5-10Y expectations un-anchoring at 3.4% from 3.2%. 98% of UMich interviews conducted before the Iran ceasefire announcement.
+March CPI hot on headline, core contained. UMich April preliminary 47.6 — RECORD LOW, -11% MoM (biggest monthly drop in the series, vs 52.0 consensus). 1Y inflation expectations jumped to 4.8% from 3.8% in March (+100bps, largest monthly jump since Apr 2025, vs 4.2% consensus). Long-run 5-10Y expectations un-anchoring at 3.4% from 3.2% (highest since Nov 2025). Declines universal across age, income, political party. 98% of UMich interviews conducted before the Iran ceasefire announcement.
 
 ## Data
 
@@ -36,7 +35,7 @@ March CPI hot on headline, core contained. UMich April preliminary 47.6 — RECO
 | UMich 1Y inflation exp | 4.8% | +1.0pp MoM |
 | UMich 5-10Y exp | 3.4% | Long-run un-anchoring (Fed red line) |
 | Personal Finances component | -11% | Universal across demographics |
-| Business Expectations component | -20% | -6% YoY |
+| Business Expectations component | -20% | Worst since mid-2022 (Russia-Ukraine analog) |
 
 ## Relevance
 
@@ -47,4 +46,9 @@ Stagflation signature locked: real economy collapsing while inflation expectatio
 - BLS, Consumer Price Index, March 2026 (released 2026-04-10)
 - University of Michigan, Surveys of Consumers, April 2026 Preliminary (released 2026-04-10)
 - Axios: https://www.axios.com/2026/04/10/consumers-michigan-economy-sentiment
-- Spectrum Local News: https://spectrumlocalnews.com/nc/triad/business/2026/04/10/april-2026-consumer-sentiment
+- CNBC: https://www.cnbc.com/2026/04/10/consumer-sentiment-inflation-fears-iran-war.html
+- investingLive: https://investinglive.com/news/umich-preliminary-april-consumer-sentiment-476-versus-520-expected-20260410/
+- Benzinga: https://www.benzinga.com/markets/economic-data/26/04/51757212/inflation-expectations-michigan-consumer-sentiment-april-2026
+
+---
+*Dispatched 2026-04-11 PM by WALTER (Apr 11 session). UMich numbers verified via multi-source cross-check Apr 11. Trimmed from original 5-recipient plan: HENRY already processed (Apr 10 EOD), RED needs full refresh cycle, SAM not domain-relevant.*

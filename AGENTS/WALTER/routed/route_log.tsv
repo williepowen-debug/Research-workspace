@@ -1,0 +1,4 @@
+Date	Signal_ID	Origin	Summary	Precedence	To	Info	Confidence
+2026-04-11T19:45:00Z	SIG-W-20260410-001	BLS CPI Mar 2026 + UMich SCA Apr 2026 Preliminary	CPI 3.3% YoY hot + UMich 47.6 record low + 1Y inflation exp 4.8% = stagflation lock	IMMEDIATE	CARL	LIQUID	0.97
+2026-04-11T19:50:00Z	SIG-W-20260411-001	WALTER internal (RED STATUS Apr 7 rule + LIQUID STATUS Apr 10 print)	RED pre-registered falsification rule pierced: HY OAS 290 <300 Day 1 of 5 sustained	IMMEDIATE	RED		0.95
+2026-04-11T22:35:00Z	SIG-W-20260411-002	WALTER operational check (FORGE/STATUS.md mtime 2026-03-25)	FORGE/STATUS.md 17 days stale, 2 expired positions still listed open, coordination request to refresh	PRIORITY	PROME		1.00
