@@ -1,0 +1,5 @@
+# Generated cache files from fetch.py / dashboard.py
+.cache/
+
+# Python bytecode
+__pycache__/

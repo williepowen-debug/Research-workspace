@@ -1,1 +1,0 @@
-{"ts": 1774892047.9949183, "val": {"APO": {"price": 109.71, "prev": 108.42, "change": 1.19}, "KRE": {"price": 63.58, "prev": 63.37, "change": 0.33}, "WAL": {"price": 67.83, "prev": 67.8, "change": 0.04}, "VIX": {"error": "float() argument must be a string or a real number, not 'NoneType'"}}}
