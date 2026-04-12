@@ -1,7 +1,29 @@
 # WALTER — Next Session Handoff
 
-**Written:** 2026-04-10 (end of session) | **For:** Next WALTER boot
+**Written:** 2026-04-10 | **Updated:** 2026-04-11 (COP.md live, housekeeping still pending) | **For:** Next WALTER boot
 **Read this AFTER STATUS.md and the spawn protocol.** This is the prioritized work list for what to tackle next.
+
+---
+
+## ✅ `/COP.md` IS LIVE — DO NOT REBUILD
+
+**Do not re-check this:** `/COP.md` exists at repo root and has existed since **Apr 7** (commit 62eb644a). The Apr 11 session caught a handoff bug where this file incorrectly claimed "COP.md does not exist on disk" — it did, and had been stale for 4 days. If you find yourself thinking the COP needs to be built from scratch, **run `ls /COP.md` before believing yourself.** Trust disk over memory.
+
+### What exists
+- **`/COP.md`** — v0.2 as of Apr 11 PM. ~60 lines. Will has reviewed in principle (kept the refreshed version). Structure: Header + editorial line / Convergence / Domains (9) / Counter-Signals / Catalysts / Exposure / Footer. Second-day-lede framing, △ markers on changed domains.
+- **`AGENTS/WALTER/design/COP_TEMPLATE.md`** — the structural template (still the reference for layout + rules).
+
+### Standing closeout deliverable
+Per WALTER/CLAUDE.md (updated Apr 11), refreshing `/COP.md` is a **standing closeout step**, not a one-off project. Each WALTER session should:
+1. Read the existing `/COP.md` during boot (step 3 of spawn protocol)
+2. Refresh it after execution (step 7 of spawn protocol), overwriting in place
+3. Commit with `git add COP.md` alongside `git add AGENTS/WALTER/`
+
+### Open questions still to resolve on COP
+- **Refresh cadence:** every WALTER session only, or also Prome-triggered between sessions when a cross-agent event lands? (Current: session-only.)
+- **Network boot sequence:** should other agents add "read `/COP.md` first" to their own boot? Network-wide protocol change — Will hasn't approved yet.
+- **Layer 2 (signal archive) + Layer 3 (push notifications):** still TBD in the three-layer hybrid model. Only Layer 1 is live.
+- **Template budget:** v0.2 ran 60 lines (upper end of 29-59 target). Next refresh should trim toward 40-50 unless the week justifies more.
 
 ---
 
@@ -29,8 +51,8 @@ SIG-W-20260410-001-cpi-umich-stagflation.md is in the outbox. Will needs to read
 
 **Note on freshness:** By the time next session runs, the CPI+UMich signal is already 1+ days old. Gate 3 (timeliness) might fail or downgrade. Re-run the checklist before dispatching — if the news has been digested by the network already, this signal may need to be downgraded to PRIORITY or even archived without push.
 
-### 3. Open question for Will: routing log
-Should I append a single row to a new `WALTER/log/routing_log.tsv` recording the dispatch decision? Format would be: `timestamp \t signal_id \t gates_passed \t recipients \t precedence \t safety_net \t notes`. This starts the routing audit trail even before the full infrastructure exists.
+### 3. Open question for Will: routing log — ✅ RESOLVED Apr 11
+Built `WALTER/routed/route_log.tsv` per FILTER_SPEC schema (Date, Signal_ID, Origin, Summary, Precedence, To, Info, Confidence). Backfilled today's 2 dispatches. Going forward, every dispatch appends a row. Note: FILTER_SPEC's schema is narrower than my original 12-column proposal — if we find we need more fields (dispatch time vs data time, domain column, gates_passed detail), evolve the spec first then migrate the log.
 
 ---
 
@@ -63,27 +85,27 @@ ROUTING_TABLE uses: Employment/Labor, Consumer Credit, Bank Earnings/CRE, Fundin
 
 ## Infrastructure backlog
 
-### Build missing directories
-The specs reference these but they don't exist on disk yet:
-- `WALTER/log/routing_log.tsv` — routing audit trail
-- `WALTER/filtered/kill_log.tsv` — filtered signals (FILTER_SPEC defines this)
-- `WALTER/routed/route_log.tsv` — routed signals (FILTER_SPEC defines this)
-- `WALTER/queue/` — for MINIMIZE-deferred signals
-- `WALTER/signals/` — the durable archive (the COP architecture's "Layer 2")
+### Build missing directories — ✅ PARTIALLY DONE Apr 11
 
-Until these exist, I can't actually log decisions, can't run a kill log, can't operate the MINIMIZE protocol, and don't have a signal archive.
+**Done Apr 11 PM:**
+- ✅ `WALTER/routed/route_log.tsv` — created with FILTER_SPEC schema, backfilled with today's 2 dispatches (SIG-W-20260410-001 CPI+UMich, SIG-W-20260411-001 RED falsification alert)
+- ✅ `WALTER/filtered/kill_log.tsv` — created empty with FILTER_SPEC headers
 
-**Recommendation:** Build them all in one round. Empty TSV files with headers, empty directories. Then start writing to them.
+**Still pending:**
+- `WALTER/queue/` — for MINIMIZE-deferred signals. Not needed until we actually operate MINIMIZE mode.
+- `WALTER/signals/` — the durable archive (Layer 2 of COP architecture). Design decision pending; deferred until we decide whether signals live per-agent-inbox or in a WALTER-owned archive.
 
-### Routing table gaps
-ROUTING_TABLE.md doesn't have entries for:
-- Macro / Inflation Data (CPI, PCE, GDP, NFP) — I had to improvise for SIG-001
-- Tariff / Trade Policy (Trump 90-day pause caught me with no row)
-- Geopolitical Non-Energy (Iran ceasefire mechanics outside oil)
-- Backup recipients per domain (for when primary is overloaded)
-- Load awareness (whether routing should consider current agent state)
+**Note on path:** FILTER_SPEC is canonical — the route log lives at `routed/route_log.tsv`, not `log/routing_log.tsv` (earlier drafts of this file used the wrong path). The `log/` directory is NOT created.
 
-**Recommendation:** Add the three missing rows. Add a "backup" column to the table. Add a load-check sub-step in the routing decision.
+### Routing table gaps — ✅ DONE Apr 11
+
+ROUTING_TABLE.md v0.2 (Apr 11) now has:
+- ✅ Macro / Inflation Data row — CARL action, HENRY backup
+- ✅ Tariff / Trade Policy row — CARL action, HENRY backup
+- ✅ Geopolitical Non-Energy row — HANS (Tier 2 spawn) action, HAWK backup
+- ✅ Private Credit / BDC / Alts row — BROCK action, SHADE backup (added for completeness)
+- ✅ Backup column across all rows with promotion semantics documented
+- ❌ Load awareness — NOT done. Would require per-agent load indicator (could derive from STATUS.md "overall" field or tracked elsewhere). Deferred.
 
 ---
 

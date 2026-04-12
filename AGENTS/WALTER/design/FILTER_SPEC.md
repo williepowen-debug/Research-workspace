@@ -1,6 +1,8 @@
-# WALTER Filter Specification v0.1
+# WALTER Filter Specification v0.2
 
-WALTER filters BEFORE routing. Every piece of incoming information passes through Gate 1 (filter) before reaching Gate 2 (classification + routing). Most raw information should die at Gate 1.
+WALTER filters BEFORE routing. Every piece of incoming information passes through a **pre-gate System-Critical bypass**, then **Gate 1** (the two hard kill gates: Novelty + Relevance), then **a soft credibility check** that adjusts confidence before reaching Gate 2 (classification + routing). Most raw information should die at Novelty or Relevance.
+
+> **v0.2 note (Apr 11, 2026):** This is the v1 unified filter model, reconciled from v0.1's 3-question form and CHECKLIST v0.3's 3-check form. Both earlier versions were half-right — v0.1 had Credibility but no System-Critical bypass and used the wrong kill logic (fail-all-three); CHECKLIST had System-Critical and the right kill logic but was missing Credibility entirely. **This model is provisional.** Schedule review after 10+ real signals have passed through OR 30 days from Apr 11, whichever comes first. Adjust based on what we observe in practice.
 
 ---
 
@@ -21,60 +23,81 @@ This gives WALTER a working model of "what matters right now" without needing to
 
 ---
 
-## Gate 1: The Three Filter Questions
+## Pre-Gate: System-Critical Bypass
 
-Every incoming piece of information gets three questions. A signal must **fail ALL three** to be filtered out. Passing any one is enough to survive to Gate 2.
+Before any filter runs, check for system-critical conditions. If any trigger fires, **skip all filter gates, route FLASH immediately, even on duplicates.**
 
-### Question 1: NOVELTY — "Do we already know this?"
+**Bypass triggers:**
+- A held position is directly named and materially affected (stop-loss breach, material news, liquidity issue)
+- Any safety net override trigger: VIX spike >5 intraday, HY OAS +25bps single session, correlation break in held-position pair, bid-ask widening on held positions, 2+ agents flag same theme within 24h
+- A pre-registered falsification rule in any agent's STATUS.md is pierced (e.g., RED's "HY OAS <300 sustained 5d → exit HYG" rule)
+- Will explicitly flags a signal as FLASH or IMMEDIATE via Telegram
 
-**Pass (novel):**
+**Why bypass everything:** When the stakes are position-level or system-level, a duplicate reminder is cheaper than a missed trigger. Normal novelty/relevance filtering would incorrectly kill a critical second-hit.
+
+If no bypass triggers fire → proceed to Gate 1.
+
+---
+
+## Gate 1: Hard Kill Gates (Novelty AND Relevance)
+
+Both Novelty AND Relevance are **hard kill gates**. A signal must pass BOTH to survive to the credibility check. Failing either one kills the signal. This is AND logic, not pass-any.
+
+### Gate 1a — NOVELTY: "Do we already know this?"
+
+**Pass (novel — continues to Gate 1b):**
 - Data point not yet in any agent's STATUS or recent signals
 - New development on a known theme (even if theme is old, the development is new)
 - Updated numbers that supersede previous data
 - Contradicts something we currently believe
+- Same fact from a MORE credible source than we had before (treat as a confidence upgrade on the existing signal, not a duplicate kill)
 
-**Fail (already known):**
-- Same data point routed in the last 48 hours
-- Headline restating information already in an agent's STATUS
-- Commentary on data we already processed (unless it adds a genuinely new angle)
+**Fail (already known — KILL, log to kill_log.tsv):**
+- Same data point already routed in the last 48 hours
+- Headline restating information already in an agent's STATUS file
+- Commentary on data we already processed without genuinely new angle
 - Recycled narrative without new facts
 
-**Edge case:** If the same fact arrives from a MORE credible source, let it through as a confidence upgrade on the existing signal — don't treat it as duplicate.
+### Gate 1b — RELEVANCE: "Does this touch anything we're tracking?"
 
-### Question 2: RELEVANCE — "Does this touch anything we're tracking?"
-
-**Pass (relevant):**
-- Directly mentions a held position (KRE, WAL, OZK, or any ticker in FORGE/STATUS.md)
-- Touches an active thesis domain (labor deterioration, credit stress, Japan carry, energy supply, insurance/shadow)
+**Pass (relevant — continues to credibility check):**
+- Directly mentions a held position (any ticker in FORGE/STATUS.md)
+- Touches an active thesis domain (labor deterioration, credit stress, Japan carry, energy supply, insurance/shadow, private credit, stagflation, etc.)
 - Relates to a transmission chain we monitor (LABOR → CARL → REGINALD → repricing)
-- Affects a watched metric (HY OAS, CCC OAS, VIX, initial claims, etc.)
-- Relevant to an upcoming catalyst in CALENDAR.md
+- Affects a watched metric (HY OAS, CCC OAS, VIX, initial claims, USD/JPY, JGB 10Y, etc.)
+- Relevant to an upcoming catalyst in any agent's calendar
 - Could create a new risk vector we haven't considered
 
-**Fail (irrelevant):**
+**Fail (irrelevant — KILL, log to kill_log.tsv):**
 - Market sector we have no exposure to and no thesis about
 - Company-specific news for companies outside our universe
 - Macro data from regions outside our thesis scope (unless it affects global flows)
 - Market commentary that's purely technical/chart-based with no fundamental content
 
-**Edge case:** "Could create a new risk vector" is deliberately broad. When uncertain, pass it through with low confidence. Better to let CARL or RED evaluate and reject than for WALTER to filter something that turns out to matter.
+**Edge case:** "Could create a new risk vector" is deliberately broad. When uncertain, pass to Gate 1c and let credibility set the confidence — better to let agents reject at low confidence than to kill something that turned out to matter.
 
-### Question 3: CREDIBILITY — "Is this real and specific enough to act on?"
+---
 
-**Pass (credible):**
-- Named, identifiable source (news outlet, data provider, SEC filing, named analyst)
-- Contains specific claims: numbers, dates, names, measurable assertions
-- Primary source or first-hand reporting
-- Official data release (FRED, BLS, Fed, earnings report)
+## Credibility Check: Confidence Modifier (NOT a hard kill)
 
-**Fail (not credible):**
-- Unsourced rumor or anonymous speculation without specifics
-- Pure opinion with no supporting data
-- Social media noise without verifiable claims
-- Clickbait/engagement-farming framing with no substance
-- "Some analysts say" without naming who or citing what
+Credibility does NOT kill signals outright. Instead, it drives the confidence score, and only kills via the minimum confidence floor.
 
-**Edge case:** A credible source making a vague claim still passes — the source credibility carries it. An incredible source making a specific, verifiable claim also passes — the specificity can be checked.
+### How credibility maps to confidence
+
+| Credibility tier | Characteristics | Initial confidence band |
+|------------------|-----------------|-------------------------|
+| **High** | Named + specific + primary source OR official data release (BLS, FRED, SEC, central bank, earnings report) | 0.75–1.0 |
+| **Moderate** | Named source OR specific claims, but not both; or secondary reporting of a primary source | 0.50–0.74 |
+| **Low** | Anonymous source with specific verifiable claims, OR named source with vague claims | 0.30–0.49 |
+| **Floor-fail (KILL)** | Unsourced rumor + vague claims + no specifics, OR unverifiable content with no credible anchor | <0.30 → KILL via confidence floor |
+
+Then apply the confidence adjustment factors (see Confidence Scoring Guide below). If the FINAL confidence after adjustments falls below 0.30, the signal is killed as unreliable (log to kill_log.tsv with `Failed_Gate: credibility-floor`).
+
+### Why this is a confidence modifier, not a hard kill
+
+An unsourced-but-relevant rumor about a held position is still actionable — at low confidence, with flags. Killing it outright loses information. The floor (<0.30) catches the truly unreliable. The middle tiers (0.30–0.74) pass through to Gate 2 with their confidence attached so agents can decide based on their own thresholds.
+
+**Example:** An anonymous X post claiming WAL is about to announce a capital raise — novel (not in any STATUS), relevant (directly names a held position), credibility Low (anonymous + specific). Resulting confidence ~0.35. Under the old v0.1 "fail-all-three" logic this might still route because it passed Novelty and Relevance. Under v0.2 it still routes — but now explicitly at confidence 0.35 with a credibility flag, so RED or REGINALD can weigh it accordingly.
 
 ---
 
@@ -168,27 +191,52 @@ For the first 2 weeks of operation, bias toward routing. It's easier to tighten 
 ```
 Raw Information Arrives
         │
-   ┌────▼────┐
-   │  GATE 1  │  FILTER: Novel? Relevant? Credible?
-   │  FILTER  │  All three fail → Kill Log
-   └────┬────┘
-        │ passes
-   ┌────▼────┐
-   │  GATE 2  │  CLASSIFY: Urgency axis + Resource axis
-   │ CLASSIFY │  Safety net override check
-   └────┬────┘
-        │
-   ┌────▼────┐
-   │  GATE 3  │  ROUTE: Action vs Info recipients
-   │  ROUTE   │  Precedence assignment, AIG groups
-   └────┬────┘  Conflict detection, MINIMIZE check
-        │
-   ┌────▼────┐
-   │ DELIVER  │  Write standardized signal to agent inboxes
-   │          │  Log to route_log.tsv
-   └─────────┘
+        ▼
+   ┌─────────────┐
+   │  PRE-GATE    │  SYSTEM-CRITICAL check:
+   │  BYPASS      │  Held position hit? Safety net trigger?
+   │              │  Falsification rule pierced? Will FLASH?
+   └───┬──────┬───┘
+       │      │
+    no │      │ yes → Skip to ROUTE as FLASH
+       ▼      │       (bypass all filter gates)
+   ┌─────────────┐
+   │  GATE 1a     │  NOVELTY: Already known?
+   │  NOVELTY     │  Fail → Kill Log
+   └───┬─────────┘
+       │ pass
+       ▼
+   ┌─────────────┐
+   │  GATE 1b     │  RELEVANCE: Touches our thesis?
+   │  RELEVANCE   │  Fail → Kill Log
+   └───┬─────────┘
+       │ pass
+       ▼
+   ┌─────────────┐
+   │  CREDIBILITY │  Soft check → sets confidence score
+   │  SOFT        │  Conf <0.30 after adjust → Kill Log
+   └───┬─────────┘
+       │ pass (with confidence attached)
+       ▼
+   ┌─────────────┐
+   │  GATE 2      │  CLASSIFY: Urgency axis + Resource axis
+   │  CLASSIFY    │
+   └───┬─────────┘
+       │
+       ▼
+   ┌─────────────┐
+   │  GATE 3      │  ROUTE: Action vs Info recipients
+   │  ROUTE       │  Precedence assignment, AIG groups
+   └───┬─────────┘  Conflict detection, MINIMIZE check
+       │
+       ▼
+   ┌─────────────┐
+   │  DELIVER     │  Write signal to agent inboxes
+   │              │  Log to routed/route_log.tsv
+   └─────────────┘
 ```
 
 ---
 
+*v0.2 — April 11, 2026 — Unified filter model v1 (provisional). Added System-Critical pre-gate bypass. Restructured Gate 1 as AND-logic: Novelty AND Relevance both hard kill (was: fail-all-three pass-any-one). Credibility converted from a hard gate to a confidence modifier with a 0.30 floor kill. Schedule review after 10+ signals or 30 days from Apr 11. Reconciles the divergence with SIGNAL_PROCESSING_CHECKLIST which had a different 3-check model.*
 *v0.1 — April 7, 2026*

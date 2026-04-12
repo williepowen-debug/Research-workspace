@@ -1,4 +1,4 @@
-# WALTER Signal Format Specification v0.1
+# WALTER Signal Format Specification v0.3
 
 WALTER is the single entry point for external information into the agent network. All incoming data — news, market data, research, observations — is classified, reformatted, and routed by WALTER as standardized signal files delivered to agent inboxes.
 
@@ -35,6 +35,10 @@ resources: 1
 safety_net: clear
 
 word_count: 148
+
+# Optional dispatch-time fields (added when signal is routed to recipient inboxes)
+dispatched: 2026-04-07T14:45:00Z
+dispatch_note: "Trimmed from 4-recipient plan to CARL+RED after HENRY already processed"
 ---
 ```
 
@@ -47,7 +51,7 @@ word_count: 148
 | `timestamp` | ISO8601 | — | When WALTER classified this signal. |
 | `source` | string | `WALTER` | Always WALTER for v0.1. |
 | `origin` | string | Free text | Where the raw information came from. |
-| `to` | string | `AGENT (ACTION)` | Primary recipient. Must act. One per signal file. |
+| `to` | string | `AGENT (ACTION)` or `AGENT (INFO)` | Primary recipient for this file. Per-recipient files get their own `to:` value when the same signal dispatches to multiple agents. |
 | `info` | string | Comma-separated agents | Awareness recipients. Optional. |
 | `group` | string | AIG name | Optional. Which Address Indicating Group, if any. |
 | `signal_type` | enum | See Signal Types | What kind of signal this is. |
@@ -56,6 +60,8 @@ word_count: 148
 | `resources` | int | 0 / 1 / 2 | Estimated processing resources needed. |
 | `safety_net` | enum | `clear` / `triggered` | Whether safety net override was triggered. |
 | `word_count` | int | — | Body word count. FLASH/IMMEDIATE must be ≤200. |
+| `dispatched` | ISO8601 | — | **Optional.** Added when the signal is actually dispatched to recipient inboxes (may be later than `timestamp` if drafted-then-dispatched flow is used). |
+| `dispatch_note` | string | Free text | **Optional.** Rationale if the dispatch deviated from the original plan: recipient trim, re-route, precedence downgrade, staleness caveat. Paired with `dispatched`. |
 
 ---
 
@@ -155,6 +161,55 @@ After the header, the signal body follows a fixed structure:
 
 ---
 
+## Domain Vocabulary (Canonical Reference)
+
+**Purpose:** Single canonical list of domain codes used consistently across all WALTER specs and routing decisions. Before Apr 11, ROUTING_TABLE and CHECKLIST used inconsistent domain names (e.g., "Employment / Labor" vs "LABOR"). This section is the source of truth; all other specs reference it.
+
+**Not a header field (yet).** These codes are used in prose, row labels, and routing-decision tables — not yet as a `domain:` YAML field. If we later decide to make `domain:` a machine-filterable header field, update this section and FORMAT_SPEC field table together, per the canonical-source rule in `WALTER/CLAUDE.md`.
+
+### The 13 Canonical Domains
+
+| Code | Scope | Example inputs | Primary action recipient |
+|------|-------|----------------|---------------------------|
+| `LABOR` | Employment data — NFP, claims, JOLTS, wages, LFPR, U-3, participation | BLS Employment Situation, weekly claims, JOLTS release | CARL |
+| `MACRO_INFLATION` | Inflation + growth prints — CPI, PCE, PPI, UMich, GDP, ISM, retail sales | BLS CPI, BEA PCE, UMich SCA, Atlanta Fed GDPNow | CARL |
+| `TARIFF_TRADE` | Executive orders, tariff changes, trade deals, retaliation | Trump tariff announcements, USTR actions, trade pauses | CARL |
+| `CONSUMER_CREDIT` | Delinquency, student loans, auto, subprime, household debt | NY Fed HH Debt Report, CFPB data, Fitch subprime auto, SoFi 10-K | CARL |
+| `BANK_CRE` | Bank earnings, CRE exposure, hidden CRE (MI3/SSFA), NDFI, capital | Q1 earnings, Trepp, H.8, FFIEC call reports, AOCI proposals | REGINALD |
+| `FUNDING_LIQUIDITY` | HY OAS, SOFR, repo, RRP, dealer capacity, Treasury auctions | FRED spreads, NY Fed SOFR, Treasury auction results, dealer surveys | LIQUID |
+| `PRIVATE_CREDIT` | BDC gates, PC fund redemptions, PIK rates, software PE, PCDR | Bloomberg PC coverage, Fitch PCDR, BDC 10-Qs, Stanger reports | BROCK |
+| `INSURANCE_SHADOW` | PE-insurer nexus, reinsurance, Level 3 assets, captive insurers | NAIC filings, Egan Jones reviews, insurance-owned asset manager news | SHADE |
+| `OIL_ENERGY` | Crude prices, OPEC, facility damage, refining, shipping | Brent/WTI futures, dated Brent, Kpler flows, EIA, facility strike reports | HAWK |
+| `GEOPOL_ENERGY` | Hormuz, Gulf infrastructure strikes, OPEC politics, chokepoints | Tanker tracking, facility damage tracker, Gulf state statements | HAWK |
+| `GEOPOL_NON_ENERGY` | Ceasefires, diplomacy, nuclear program, non-supply war developments | Islamabad talks, nuclear inspection updates, ceasefire mechanics | HANS (Tier 2) |
+| `JAPAN_BOJ` | USD/JPY, BOJ policy, JGB yields, carry trade, MOF intervention | BOJ meetings, JGB auctions, MOF weekly, USD/JPY intervention zones | SAM |
+| `MARKET_VOL` | VIX, index moves, vol regime, dealer gamma, correlation breaks | CBOE VIX, SPX technical levels, MOVE index, put/call ratios | HENRY |
+
+### What's deliberately NOT in this enum
+
+- **`THESIS_CONFIRM` / `COUNTER_EVIDENCE`** — these are `signal_type` enum values, not domains. A LABOR signal can be either thesis-confirming or counter-evidence; the two axes are orthogonal.
+- **`POSITION_RISK`** — also a `signal_type` value (`position-risk`). Position-specific signals inherit the domain of the underlying position.
+- **`BROAD_STRESS`** — an escalation condition (multiple domains firing simultaneously), not a domain itself. Handled via safety net triggers + the `FULL_NETWORK` AIG.
+- **`META`** (network coordination, spec changes, registry updates) — meta-signals don't carry a domain; the `signal_type: manual-flag` category captures them.
+
+### How to use the vocabulary
+
+- **ROUTING_TABLE.md** — every row labels its domain with the canonical code in the row header.
+- **CHECKLIST.md** — Phase 2 classification and routing decision use the codes directly.
+- **Signal file bodies** — when characterizing a signal's topic in prose, use the code (e.g., "this is a MACRO_INFLATION signal with LABOR second-order effects").
+- **kill_log.tsv / route_log.tsv Summary column** — feel free to include the code inline for searchability.
+
+### Adding a new domain
+
+New domains earn their place only when:
+1. A real signal arrives that doesn't fit any existing code
+2. AND the new domain is likely to recur (not a one-off edge case)
+3. AND it maps cleanly to a primary action recipient in ROUTING_TABLE
+
+When all three are true: add to this table, bump FORMAT_SPEC version, propagate to ROUTING_TABLE + CHECKLIST per the canonical-source rule.
+
+---
+
 ## Address Indicating Groups (AIGs)
 
 Pre-defined recipient groups. Use the group name instead of listing agents individually.
@@ -211,4 +266,6 @@ Deferred signals are held in `AGENTS/WALTER/queue/` and released when MINIMIZE i
 
 ---
 
+*v0.3 — April 11, 2026 (PM) — Added Domain Vocabulary canonical reference section with 13 codes (LABOR, MACRO_INFLATION, TARIFF_TRADE, CONSUMER_CREDIT, BANK_CRE, FUNDING_LIQUIDITY, PRIVATE_CREDIT, INSURANCE_SHADOW, OIL_ENERGY, GEOPOL_ENERGY, GEOPOL_NON_ENERGY, JAPAN_BOJ, MARKET_VOL). Resolves Gap C. Not introduced as a `domain:` header field — used as shared vocabulary across ROUTING_TABLE, CHECKLIST, and signal bodies.*
+*v0.2 — April 11, 2026 — Added optional dispatch-time fields (`dispatched`, `dispatch_note`). Clarified `to:` field supports both `(ACTION)` and `(INFO)` values.*
 *v0.1 — April 7, 2026*
