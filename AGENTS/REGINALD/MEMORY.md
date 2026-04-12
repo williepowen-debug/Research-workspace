@@ -22,65 +22,53 @@
 ## References
 - [2026-04-02] FRED API key signup: https://fred.stlouisfed.org/docs/api/api_key.html
 - [2026-04-02] EDGAR CIK for OZK: 0001569650 (for 8-K monitoring)
+- [2026-04-12] FDIC EFR system: efr.fdic.gov/fcxweb/efr/ — OZK Form 3/4/5 filings live HERE, not on SEC EDGAR. FDIC cert #110. Standard insider tools (OpenInsider, Fintel, etc.) miss OZK entirely.
+- [2026-04-12] OZK IR page: ir.ozk.com/filings/documents/ — cross-posts FDIC filings but was inaccessible programmatically (timeout). Will can access via browser.
+- [2026-04-12] Wasatch fund commentaries: wasatchglobal.com/wp-content/uploads/strategy-and-fund-documents/ — quarterly fund PDFs. OZK held in Small Cap Value, Long/Short Alpha. Dropped from Core Growth.
 
 ## Session Notes
 
-⚠️ **Open question:** EGBN continuity awards (Mar 16) signal either FDIC-resolution prep, distressed restructuring, or pure leadership-vacuum retention. Microstructure (10.34x P/C, Jun $5P at 1,301 OI, dark pool +8.8pp) leans toward failure-pricing. Need to confirm Riel family relationship and pull Q4 10-K for DOGE commentary before Apr 22-25 earnings to size correctly.
+⚠️ **Open question:** Hamblen (President/COO) Mar 11, 2026 Form 4 — unopened. Is it a comp grant, sale, or both? Will was about to pull it when session ended. This is the most important remaining insider filing to check.
 
 ### CHANGES SINCE LAST SESSION
 *(populated at next boot via market.py + darkpool.py)*
 
+### LAST SESSION (Apr 12 — institutional ownership + FDIC insider deep-dive)
+- **INSTITUTIONAL OWNERSHIP ANALYSIS:** Will screenshotted OZK institutional ownership page. Extracted full 13F data (Dec 31 2025). Key finding: fundamental credit shops selling (Wellington -43%, D.E. Shaw -26%, AQR -20%, Wasatch -6.6%) while quant/index adding (Citadel +260%, Renaissance +36%, State Street +9%). Smart money divergence = thesis supportive.
+- **FDIC DATA SOURCE DISCOVERY:** OZK dissolved its holding company in 2017 and files Form 3/4/5 with FDIC (cert #110), NOT SEC EDGAR. Standard insider tools miss OZK entirely. This explains prior "zero filings" results. Authoritative source: efr.fdic.gov/fcxweb/efr/ (JS-rendered, browser-only).
+- **FULL FDIC EFR PULL (cert #110):** Will navigated FDIC system, extracted all Form 4 filings. 18 filings in 2026, all sells/grants. Zero purchases by any insider.
+- **DIRECTOR KENNY FULL HISTORY:** Traced complete transaction record. Received 3,725 shares in comp grants over 2 years, sold 3,770. Net seller despite ~$170K in free stock. Sells 60-86% of each grant within weeks. Position declined from 7,053 to 7,008.
+- **CEO GLEASON CONFIRMED FROZEN:** Zero Form 4 filings going back to Jul 2023. Neither buying nor selling.
+- **WASATCH FUND RESEARCH:** OZK dropped entirely from Wasatch Core Growth Fund (was "strong position" in Q4 2023, absent by Q4 2025). Still in Small Cap Value (#3) and Long/Short Alpha (#10). No published commentary explaining the reduction. Wasatch dropped below 5% threshold Jun 2025 (13G/A filing).
+- **13D/13G SEARCH:** No new 5% threshold crossings in 2026. Only filing = Vanguard technical restructuring.
+- **CREATED:** OZK/INSTITUTIONAL_OWNERSHIP_PLAN.md (verification plan for 13F data)
+- **UPDATED:** OZK/INSIDERS/SELLING.md (Kenny section + institutional data), TIMELINE.md (Kenny transactions + batch filing), STATUS.md (FDIC source fix, pre-earnings pull done)
+- **Git:** NOT YET COMMITTED — pending session close
+
 ### LAST SESSION (Apr 10 — automation toolkit + EGBN deep-dive)
-- **AUTOMATION TOOLKIT BUILT (8 scripts, 30s boot):** thresholds.py, insider.py, kre_float.py, options_oi.py, si_refresh.py, 8k_monitor.py, earnings_countdown.py, boot.py. All standalone-testable. Plan in scripts/AUTOMATION_PLAN.md fully executed. boot.py replaces manual boot sequence.
-- **Key finding from boot.py output:** WAL breached $78 threshold ($76.75 close). KRE float 54.05M (-5% from 56.9M Mar peak — AP redemption persistent). VIX -24% on the rally day. EGBN dark pool 41.7% (+8.8pp) — biggest delta of any thesis name. EGBN P/C 10.34x — extreme.
-- **EGBN DEEP-DIVE TRIGGERED:** Mar 18 8-K (event Mar 16) disclosed Continuity Awards: CFO Newell $425K cash + $100K RSU, Evelyn Lee $325K + $100K, Ryan Riel $425K + $100K. Total ~$1.475M cash + $300K equity. 15-month retention through Jun 30 2027. Filing language: "given Ms. Riel's previously announced intention to retire and the ongoing search for her successor." Logged as ML-REG-139.
-- **Riel/Riel name overlap noted** — CEO Susan Riel and named exec Ryan A. Riel. Family connection at distressed bank = governance flag. Not yet confirmed from 8-K alone — need proxy/10-K.
-- **EGBN STATUS.md updated** — new "What's Changed" entries for Apr 9 microstructure + Apr 10 continuity award detail. Position note: Jun $5P with 1,301 OI = failure-priced (FDIC scenario, not M&A floor).
-- **Insider scan re-confirmed (90d):** WAL 40 filings all routine, OZK zero filings, EGBN 25 all routine. NO open market purchases anywhere. Pattern unchanged from earlier work.
-- **8-K monitor refinement noted:** Item 5.02 over-flagged because subitem (e) compensatory arrangements is treated same as departures. Both EGBN Feb 25 and Mar 18 were 5.02(e), not departures. Worth a future refinement to parse subitems if signal/noise becomes a problem.
-- **Git:** Did NOT pull (CARL/SAM/BRENT/WALTER had uncommitted work). Stashed working tree, pulled remote, popped stash, pushed clean. Toolkit committed as 26c0f71f.
+- Automation toolkit built (8 scripts). EGBN continuity awards deep-dive. boot.py created.
 
 ### LAST SESSION (Apr 9 PM — microstructure completion + 13F discovery)
-- **RP-REG-5.1 ALL 7 TASKS COMPLETE.** Tasks 5 (dark pool), 6 (options), 7 (short interest) written up.
-- **Task 5:** WAL 54% off-exchange on +6.3% day (vs 37% avg). OZK 42% (vs 34%). EGBN 46% (vs 33%). Weakest names spike dark pool on up days. Identified two-channel distribution: ETF structural (AP redemption) + single-name tactical (dark pool selling on rallies). WAL's dark pool activity = longs exiting (short vol only ~40%), not shorts entering.
-- **Task 6:** KRE 300K put contracts Apr 17 (53% of float). $68 strike = 57K OI gravity well. OZK May $40P = 1,647 OI. WAL Jun $60P = 1,744 OI. Distribution through shares, conviction through options.
-- **Task 7:** OZK 15.28% SI, rising 5 months. WAL 3.46% SI, declining (shorts covered 1.07M shares). KRE SI 69.4M > 56.9M shares outstanding. Shorts concentrating into OZK+KRE, covering WAL.
-- **13F INSTITUTIONAL ANALYSIS (from Fintel via Will):** OZK has 50+ full institutional exits. Wellington -43%, AQR -20%, Two Sigma -34%, Point72 -35%, Morgan Stanley -15%, Canada Pension GONE, Ontario Teachers GONE. Quant replacements: Citadel +260%, Millennium +20%, Renaissance +36%. Peak6 opened $15.2M PUT. April filings (Q1 data) show exits CONTINUING — 3 more full exits in first week. **Ownership quality degrading while institutional % appears stable/rising.**
-- **OZK Mar 18 (80% short vol day):** Triggered by hot PPI + Fed hold. Macro catalyst, not OZK-specific. Shorts view OZK as rates/CRE duration bet.
-- **Insider check:** WAL zero open market buys in 2026. OZK 0.00% insider ownership.
-- **Built `scripts/darkpool.py`** — scrapes chartexchange (off-exchange %) + FINRA RegSHO (short vol), auto-appends to TSVs. Run at boot alongside market.py.
-- **Created 3 workbook files:** DARKPOOL.tsv (daily off-exchange %), SHORT_VOL.tsv (396 rows YTD from FINRA), SHORT_INTEREST.tsv (6-month bi-monthly history).
-- **Full YTD short volume analysis (66 trading days):** OZK shorts press regardless of direction. WAL short activity collapsed 20pp. KRE shorts MORE active on UP days (AP mechanics). EGBN short pressure intensifying on down days.
-- **Will engaged deeply** — asked for plain-English explanations, challenged conclusions, drove the 13F investigation. Will's instinct that institutional % rising while quality degrades was confirmed by the data.
-- **Git:** Did NOT pull (other agents had uncommitted changes). Committed REGINALD files only.
+- RP-REG-5.1 all 7 tasks complete. Dark pool, options, short interest analysis. 13F institutional exits documented.
 
-### LAST SESSION (Apr 9 AM — Tasks 1-4)
-- RP-REG-5.1 created. Volume analysis across KRE and thesis names. AP redemption confirmed. OZK cleanest distribution. WAL ambiguous. Will pushed back on overstating "all institutions left."
+### NEXT SESSION
+**Immediate (Will has browser open for these):**
+1. **Open Hamblen (President) Mar 11, 2026 Form 4** on FDIC EFR — grant, sale, or both? Most important remaining filing.
+2. **Trace Hamblen full history** — same drill as Kenny. He has 5 filings (Aug 2024 → Mar 2026).
 
-### LAST SESSION (Apr 7 — full session, earnings prep)
-- Inbox processed (7 signals). CALENDAR updated. OZK/EGBN research.
+**Institutional ownership plan (remaining items):**
+3. **OZK Q4 2025 earnings call transcript** — check if Wellington/Wasatch analysts asked CRE questions (selling + probing = conviction)
+4. **Wellington N-PORT (Jan 2026)** — monthly fund holdings on EDGAR, 60-day lag. Shows if Wellington continued selling after Dec 31.
+5. **Short interest update** — FINRA mid-Apr data imminent
 
-### NEXT SESSION (TODAY'S PLAN — EGBN follow-throughs)
-**EGBN-specific (highest priority — 12-15 days to earnings):**
-1. **Pull EGBN proxy / latest 10-K** — confirm Riel family relationship (Susan ↔ Ryan A. Riel). Get Ryan's title, tenure, role. Family-linked exec at distressed bank materially changes the governance read.
-2. **Pull EGBN Q4 2025 10-K / earnings transcript** — DOGE commentary, GovCon book detail, MI3 trend, AOCI exposure. Currently flagged in EGBN/STATUS.md research agenda but never executed.
-3. **Web search EGBN CEO succession** — any leaked candidate names, search firm hired, board comments
-4. **EGBN earnings date confirmation** — check IR page after Apr 14 (per CALENDAR.md)
-5. **Re-rank EGBN in convergence matrix** — score 12 currently #4 due to "value trap / M&A floor" classification. The continuity award is mildly contrary to clean strategic acquirer scenario. Decide whether to upgrade to #1 alongside WAL.
-
-**Boot routine (use new toolkit):**
-6. **Run boot.py at session start** — replaces 6-step manual sequence. Only insider/8K parts are slow; use --skip-slow if rushed.
-7. **CPI reaction (Apr 10 data, today)** — hot CPI = stagflation persists. Watch options_oi.py for KRE $68 wall pressure. Re-run darkpool.py for Apr 10 comparison.
-8. **KRE $68 put wall monitoring** — 57K OI expires Apr 17 (~7 trading days). Daily proximity check via thresholds.py + market.py.
+**EGBN (carried forward, 9 days to earnings Apr 21):**
+6. Confirm Riel family relationship (proxy/10-K)
+7. EGBN Q4 10-K / earnings transcript — DOGE commentary
+8. EGBN earnings date confirmation
 
 **Other carryover:**
-9. **WAL position decision** — hold Jun $85P through earnings? Short covering fuel spent. Dark pool distribution ongoing.
-10. **OZK 8-K check** (~Apr 14) — boot.py 8k_monitor will catch automatically
-11. **Read-through watchlist** — MTB (Apr 15), CFG (Apr 16), RF (Apr 17)
-
-**Pending (carried forward, no time pressure):**
-12. Cantor PACER docket (Will needs PACER access)
-13. Vecchione return status (8-K or LinkedIn check)
-14. OZK remaining prompts (#13 peer vintage, #19 metro conditions)
-15. Off-exchange % YTD backfill — needs chartexchange premium or FINRA OTC API registration. Tracking forward via darkpool.py instead.
-12. Off-exchange % YTD backfill — needs chartexchange premium or FINRA OTC API registration. Deferred; tracking forward via darkpool.py instead.
+9. WAL position decision
+10. OZK 8-K check (~Apr 14)
+11. Read-through watchlist — MTB, CFG, RF
+12. Cantor PACER docket (needs access)
+13. OZK remaining prompts (#13, #19)

@@ -1,6 +1,6 @@
 # OZK — Insider + Bank Event Timeline
 
-**Last Updated:** 2026-03-24
+**Last Updated:** 2026-04-12
 **Purpose:** Overlay insider behavior against key bank events to surface patterns invisible when tracked separately.
 
 ---
@@ -8,15 +8,21 @@
 ## Master Timeline
 
 ```
+2024-05-06 | [GRANT] | Dir. Kenny receives 1,682 shares (2019 Omnibus Equity Incentive Plan) → 8,735 total
+2024-05-13 | [SELL]  | Dir. Kenny sells 1,453 shares @ $48.23 (86% of grant within 7 days) → 7,282 total
 2024-10-XX | [SELL]  | CFO Hicks sells tranche 1 (~$944K total across two tranches, ~22% of holdings)
+2024-10-23 | [SELL]  | Dir. Kenny sells 1,000 shares @ $43.48 → 6,282 total
 2024-10-XX | [BANK]  | Bisnow reports IQHQ RaDD two-year extension + $87M equity injection (Oct 2024)
 2024-12-XX | [BANK]  | Q4 2024 — CRE/Tier 1 at ~415%; noncurrent still low
 2025-01-XX | [SELL]  | CFO Hicks sells tranche 2, completing ~$944K / ~22% reduction
+2025-05-05 | [GRANT] | Dir. Kenny receives 2,043 shares (2019 Omnibus Equity Incentive Plan) → 8,325 total
 2025-06-XX | [BANK]  | IQHQ sponsor contributes $87M to reserves (Jun 2024) [KB-OZK-086]
+2025-06-12 | [SELL]  | Dir. Kenny sells 782 shares @ $45.16 (multiple trades $45.15-$45.18) → 7,543 total
 2025-01-XX | [BANK]  | IQHQ sponsor contributes $82M to reserves (Jan 2025) [KB-OZK-086]
 2025-06-XX | [BANK]  | Q2 2025 — ACL coverage 8.86x on noncurrent; ACL peaks at $679.6M (Q3)
 2025-09-XX | [BANK]  | Q3 2025 — Noncurrent $149.7M (0.46%); 41 loan extensions in quarter; $70M reserve deposits collected
 2025-10-XX | [BANK]  | Q3 2025 earnings call — Gleason: "2026 is going to be the big payoff wave"
+2025-10-23 | [SELL]  | Dir. Kenny sells 350 shares @ $45.51 → 7,193 total
 2025-XX-XX | [SELL]  | Director Whipple sells $5.2M at $51.50 (near 52-week high)
 2025-12-XX | [BANK]  | Q4 2025 — ACL cut $56.6M ($532.3M → $475.7M FDIC basis); noncurrent doubles to $341.2M (1.07%)
 2025-12-XX | [BANK]  | Q4 2025 — NPAs double to $402M (0.99%); gross charge-offs $98.3M; FY2025 NCOs $172.5M (1.18% annualized)
@@ -29,7 +35,9 @@
 2025-12-XX | [BANK]  | Q4 2025 — Sterling Bay Lincoln Yards $14.1M charged off in H2 2025 [KB-OZK-094]
 2026-01-XX | [BANK]  | OZK sells $265M SD life sci loan (Sterling Bay) to distressed buyer SVP [KB-OZK-095]
 2026-01-XX | [BANK]  | Q4 2025 earnings call — Hicks: "we had a lot of payoffs expecting in Q1"
+2026-01-30 | [SELL]  | Dir. Kenny sells 185 shares @ $47.54 → 7,008 total (net -45 shares vs pre-2024 grant baseline of 7,053)
 2026-02-24 | [SELL]  | CRO Majumdar sells 419 shares (10.78% of holdings) — NO 10b5-1 plan, fully discretionary [KB-OZK-037]
+2026-03-11 | [COMP]  | Batch filing: 10 insiders file Form 4 (Hamblen, Hicks, Brown, Thomas, Wolfe, Carter, Cathey, Gotham, Orndorff, Taylor) — likely annual comp event
 2026-03-20 | [BANK]  | Sterling Bay Lincoln Yards life sci building seized via deed-in-lieu; 284K SF, 100% vacant since 2023 [KB-OZK-094]
 2026-03-23 | [SELL]  | GuruFocus check: zero new insider transactions (buy or sell) in last 3 months [KB-OZK-040]
 2026-03-23 | [BANK]  | All KB data refreshed from FDIC API / FFIEC Call Reports — CRE/Tier 1 at 358%, still 1.2x red line [KB-OZK-007]
@@ -59,12 +67,13 @@ Zero insider buying during a drawdown to 52-week lows. Corporate buybacks occurr
 
 ## Upcoming Events to Log
 
-- **Pre-Apr 16:** Any Form 4 filing (buy or sell) during pre-earnings window
-- **Apr 16:** Q1 2026 earnings — charge-off level, ACL direction, maturity wall impact
+- **Pre-Apr 21:** Pre-earnings window closed ~Apr 7. FDIC EFR pull Apr 12 shows no buying. ✅ DONE
+- **Apr 21:** Q1 2026 earnings (moved from Apr 16) — charge-off level, ACL direction, maturity wall impact
 - **Q2 2026:** NY pipeline (0.41% 30-89 day, highest in country) expected to convert to noncurrent
 - **Oct 2026:** Affinius Capital $2.7B bond maturity — discrete NDFI catalyst [KB-OZK-024]
 - **~Aug 2028:** IQHQ RaDD extended maturity [KB-OZK-055]
 
 ---
 
-*Sources: SELLING.md, KB.tsv, THESIS.md, EARNINGS_PREP.md*
+*Sources: FDIC EFR (efr.fdic.gov, cert #110), SELLING.md, KB.tsv, THESIS.md, EARNINGS_PREP.md*
+*Note: OZK files Form 4 with FDIC, not SEC EDGAR. Standard insider tools miss this company entirely.*
