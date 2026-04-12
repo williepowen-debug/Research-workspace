@@ -14,6 +14,8 @@
 - **13F ANALYSIS (Fintel, live data from Will):** Wellington -43%, AQR -20%, Two Sigma -34%, Point72 -35%, Morgan Stanley -15%, 50+ full exits including Canada Pension, Ontario Teachers. Quant replacements (Citadel +260%, Millennium +20%, Renaissance +36%). Peak6 opened $15.2M PUT. **Smart money exiting, quants replacing. Ownership quality deteriorating while % rises.**
 - **Full YTD short volume (66 trading days):** OZK shorts press regardless of direction. WAL short activity collapsed 20pp (Jan-Feb 62% → Mar-Apr 42%). KRE shorts MORE active on UP days (68% vs 61%) = AP redemption mechanics confirmed.
 - **Insider ownership:** WAL zero open market buys in 2026. OZK 0.00% insider ownership. No insider floor.
+- **Apr 12 FDIC DISCOVERY:** OZK files Form 4 with FDIC (cert #110), NOT SEC EDGAR. Standard insider tools miss OZK. Full FDIC pull confirms: zero insider purchases, Gleason zero filings since Jul 2023, Dir. Kenny net seller despite $170K+ in free grants. See `OZK/INSIDERS/` for detail.
+- **Institutional ownership refined:** 13F (Dec 31 2025): Wellington -43%, D.E. Shaw -26%, AQR -20%, Wasatch -6.6% (fundamental credit shops selling). Citadel +260%, Renaissance +36% (quant/index adding). Wasatch dropped OZK entirely from Core Growth Fund. Smart money out, mechanical money in.
 
 **New tools built:**
 - `scripts/darkpool.py` — daily monitoring of off-exchange % + short volume. Run at boot.
