@@ -99,10 +99,10 @@ KBRA highlights: $72M single office charge-off. RESG declining $1.4B/qtr, projec
 - [ ] Jefferies Q1 — WAL read-through (3x deferred)
 
 ### PROMPTS REMAINING (Will running externally)
-- [x] #16 Insider transactions ✅ KB-142→146 (zero buys 18mo, 65:1 sell ratio, CRO filled, CIK corrected)
+- [x] #16 Insider transactions ✅ KB-142→146 (zero buys 18mo, 65:1 sell ratio, CRO filled, CIK corrected). **Apr 12 UPDATE:** FDIC EFR pull (cert #110) confirms zero purchases across full filing history. OZK files with FDIC not EDGAR — prior EDGAR checks were hitting a gap. Dir. Kenny net seller ($170K+ sold, grants only). Gleason zero Form 4s since Jul 2023. See `INSIDERS/` subfolder.
 - [x] #8 Metropolitan failure comparison — ✅ Apr 7: KB-161→163. CORRECTED: Met Capital B&T failed (not MCB). MI3 39.6% at failure. OZK 37.6% = same zone. Scale+PPNR = survival.
 - [x] #9 Affinius bonds — ✅ Apr 7: KB-165→170. Claude: Affinius has NO public bonds (private RIA). Gemini conflated USAA Cap Corp. Columbus Center $69M foreclosure (isolated). Veris $3.4B expansion. 8 OZK co-lending deals, zero defaults. "81¢" ref CORRECTED.
-- [x] #10 Sell-side consensus — ✅ Apr 7: KB-171→174. 5B/5H/1S, avg PT $57.22. Citi SELL $40 + Mar 23 catalyst watch. UBS Neutral $48 (today). Institutions ADDING below book.
+- [x] #10 Sell-side consensus — ✅ Apr 7: KB-171→174. 5B/5H/1S, avg PT $57.22. Citi SELL $40 + Mar 23 catalyst watch. UBS Neutral $48 (today). **Apr 12 UPDATE:** "Institutions ADDING below book" refined — it's INDEX/PASSIVE adding (State Street +9%, BlackRock +1%) while FUNDAMENTAL CREDIT shops exit (Wellington -43%, Wasatch -6.6%, D.E. Shaw -26%). Smart money divergence, not broad institutional confidence.
 - [ ] #13 Peer 2022 vintage maturity wall
 - [ ] #19 Metro market conditions
 - [ ] #20 Life sci vacancy deep dive
