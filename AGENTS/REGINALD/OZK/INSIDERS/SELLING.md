@@ -1,7 +1,8 @@
 # OZK — Insider Selling Tracker
 
-**Last Updated:** 2026-03-24
-**Sources:** SEC EDGAR Form 4, GuruFocus, INSIDER_ACTIVITY_COMPILED.md, INSIDER_SCAN_OZK.md
+**Last Updated:** 2026-04-12
+**Sources:** FDIC EFR (efr.fdic.gov — OZK files with FDIC, NOT SEC EDGAR), GuruFocus, INSIDER_ACTIVITY_COMPILED.md, INSIDER_SCAN_OZK.md
+**Data Gap Fixed:** OZK dissolved its holding company in 2017 and files Form 3/4/5 with the FDIC (cert #110), not SEC EDGAR. Standard insider tracking tools (OpenInsider, Fintel, etc.) miss OZK entirely. FDIC EFR is the authoritative source.
 **Score:** 🔴 FULL CONVERGENCE (Score 13) — All C-suite sells, zero buys across 12 months, CRO sold discretionarily during reserve cuts.
 
 ---
@@ -80,6 +81,62 @@
 
 ---
 
+### Director Kenny — 🟠 SYSTEMATIC GRANT LIQUIDATION
+
+| Field | Detail |
+|-------|--------|
+| **Name** | Peter C. Kenny |
+| **Title** | Director |
+| **Period** | May 2024 – Jan 2026 (full FDIC EFR history) |
+| **Pattern** | Receives annual stock grants, sells within days/weeks. Net seller over 2 years. |
+| **10b5-1 Plan** | Not disclosed. Jun 2025 filing notes "sold in multiple trades at prices ranging from $45.15 to $45.18" — actively worked order. |
+
+**Full Transaction History (FDIC EFR, cert #110):**
+
+| Date | Action | Shares | Price | Remaining | Note |
+|------|--------|--------|-------|-----------|------|
+| May 6, 2024 | GRANT (A) | +1,682 | $0 | 8,735 | 2019 Omnibus Equity Incentive Plan, vests May 2025 |
+| May 13, 2024 | SELL (S) | -1,453 | $48.23 | 7,282 | Sold 86% of grant within 7 days |
+| Oct 23, 2024 | SELL (S) | -1,000 | $43.48 | 6,282 | |
+| May 5, 2025 | GRANT (A) | +2,043 | $0 | 8,325 | 2019 Omnibus Equity Incentive Plan, vests May 2026 |
+| Jun 12, 2025 | SELL (S) | -782 | $45.16 | 7,543 | Multiple trades $45.15-$45.18 |
+| Oct 23, 2025 | SELL (S) | -350 | $45.51 | 7,193 | |
+| Jan 30, 2026 | SELL (S) | -185 | $47.54 | 7,008 | |
+
+**Totals:**
+- Grants received: 3,725 shares ($0 cost)
+- Shares sold: 3,770 shares (~$173,600 proceeds)
+- Net: -45 shares (sold MORE than received)
+- Starting position: 7,053 → Current: 7,008
+
+**Assessment:** Director treating equity compensation as cash paycheck. Every grant followed by immediate selling. Net position declined despite receiving ~$170K in free stock over 2 years. Zero open-market purchases. Not the behavior of a director who believes the stock is undervalued.
+
+---
+
+### Institutional Ownership — 🟠 SMART MONEY DIVERGENCE (13F, Dec 31, 2025)
+
+**Pattern:** Fundamental credit analysts selling hard. Quant/trading firms adding. Index/passive roughly flat.
+
+| Institution | Type | Shares (MM) | Δ Shares | Read |
+|---|---|---|---|---|
+| Wellington Mgmt | Fundamental/credit | 1.25 | **-42.89%** | Deep credit shop nearly halved — headline signal |
+| D.E. Shaw | Quant | 1.38 | **-26.06%** | Major quant reduction |
+| AQR Capital | Quant | 1.58 | **-19.97%** | Elite quant cutting |
+| Morgan Stanley | Bank/wealth | 1.47 | **-14.61%** | Sell-side pulling back |
+| Wasatch Advisors | Active small/mid-cap | 6.95 | **-6.62%** | Bank specialist reducing; dropped below 5% threshold Jun 2025 (13G/A) |
+| Jarislowsky Fraser | Active | 1.66 | -7.99% | |
+| Citadel | Market maker | 1.27 | +259.52% | Likely hedging/arb, not conviction |
+| Renaissance Tech | Pure quant | 0.87 | +35.71% | Statistical/mean-reversion |
+| Millennium | Multi-strategy | 1.08 | +20.06% | Short horizon |
+| State Street | Index | 6.56 | +9.10% | Mechanical |
+| BlackRock | Index | 10.11 | +1.13% | Mechanical |
+
+**Note:** 13F data is as of Dec 31, 2025 (3.5 months old). Wellington N-PORT and Wasatch N-CSR searches pending for more recent data. No new 13D/13G filings in 2026 (no 5% threshold crossings). Wasatch published no commentary explaining their OZK reduction; OZK dropped entirely from Wasatch Core Growth Fund (was "strong position" in Q4 2023, absent by Q4 2025).
+
+**Source:** 13F filings via institutional ownership page, EDGAR 13D/13G search, Wasatch fund commentaries (Seeking Alpha, wasatchglobal.com)
+
+---
+
 ### All Insiders — 🔴 ZERO BUYING
 
 | Field | Detail |
@@ -116,9 +173,16 @@
 
 ## Pre-Earnings Action
 
-**Re-check EDGAR Form 4 filings before Apr 16 earnings.** Any pre-earnings window activity (especially buying) would be highly material. Last check: Mar 23, 2026 — zero new transactions.
+**FDIC EFR pull completed Apr 12, 2026 (cert #110).** Full Form 4 history reviewed. Results:
+- 18 Form 4 filings in 2026 (all sells or comp grants)
+- Zero insider purchases
+- Gleason: zero Form 4 filings going back to at least Jul 2023
+- Mar 11, 2026 batch (10 filers): likely annual comp event — Hamblen, Hicks, Brown, Thomas, Wolfe, Carter, Cathey, Gotham, Orndorff, Taylor
+- Last pre-earnings window closes ~Apr 7 (14 days before Apr 21 earnings). No buying detected.
+
+**Next:** Re-check FDIC EFR after Apr 21 earnings for any post-earnings transactions.
 
 ---
 
-*Compiled from: `../research/INSIDER_ACTIVITY_COMPILED.md` | `../sources/INSIDER_SCAN_OZK.md` (OZK section only)*
+*Compiled from: FDIC EFR (efr.fdic.gov, cert #110) | `../research/INSIDER_ACTIVITY_COMPILED.md` | `../sources/INSIDER_SCAN_OZK.md`*
 *KB refs: KB-OZK-037, KB-OZK-038, KB-OZK-039, KB-OZK-040, KB-OZK-041, KB-OZK-093*
