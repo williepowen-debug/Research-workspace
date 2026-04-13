@@ -63,8 +63,10 @@
 
 ---
 
-## OUTBOX (0 signals)
-No pending signals.
+## OUTBOX (1 signal, awaiting HERMES)
+| File | To | Summary |
+|------|----|---------|
+| SIG-CARL-REGINALD-20260413-nonbank-servicer-warehouse.md | REGINALD | Non-bank servicer stress → warehouse line exposure. PennyMac FHA DQ 7.5%, GAO gaps, MFS UK template. Request: check WAL/FHN/TCBI warehouse exposure, JPM Q1 commentary. |
 
 ## INBOX (1 item, unprocessed)
 | File | From | Summary |
