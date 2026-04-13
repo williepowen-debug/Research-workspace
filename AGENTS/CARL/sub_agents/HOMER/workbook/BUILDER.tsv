@@ -7,16 +7,20 @@ INDUSTRY	Price Cuts (% of Builders)	37%	41% (Nov)	2026-03	NAHB	R	Down from 41% r
 INDUSTRY	Sales Incentives (% of Builders)	64%	65% (Feb)	2026-03	NAHB	R	12th consecutive month >60%. Near-record incentive spending.
 LEN	Gross Margin	15.2%		2026-Q1	LEN Earnings	R	Lowest since 2010. Incentive spending compressing margins.
 INDUSTRY	NAR Crisis Declaration	DECLARED		2026	NAR/Yun	R	"New housing crisis" — consensus break. See VX-CARL-NAR-01.
-NATIONAL	Existing Home Sales (SAAR)	4.09M	4.02M (Jan)	2026-02	NAR	R	+1.7% MoM. Still historically depressed. Only 2008-2011 worse.
-NATIONAL	Existing Median Price	$398,000	$396,800 YoY	2026-02	NAR	G	+0.3% YoY. 32nd consecutive YoY increase. Affordability Index 117.6.
-NATIONAL	Existing Inventory	3.8 months	3.6 YoY	2026-02	NAR	Y	Unchanged MoM. Still tight vs history.
-NATIONAL	New Home Sales (SAAR)	587K	712K (Dec)	2026-01	Census	R	-17.6% MoM, -11.3% YoY. Worst since 2022. Weather partial factor.
+NATIONAL	Existing Home Sales (SAAR)	3.98M	4.09M (Feb)	2026-03	NAR	R	-3.6% MoM. Lowest since Jun 2026. All regions fell MoM. Approaching <4.0M red threshold.
+NATIONAL	Existing Median Price	$408,800	$403,100 YoY	2026-03	NAR	G	+1.4% YoY. 33rd consecutive YoY increase. New Mar record.
+NATIONAL	Existing Inventory	4.1 months	3.8 (Feb)	2026-03	NAR	Y	+3.0% MoM. 4-month high. Slight supply easing.
+NATIONAL	New Home Sales (SAAR)	587K	712K (Dec)	2026-01	Census	R	-17.6% MoM, -11.3% YoY. Worst since 2022. Feb+Mar delayed to May 5.
 NATIONAL	New Home Median Price	$400,500	$429,600 YoY	2026-01	Census	O	-6.8% YoY, -4.5% MoM. Price declines accelerating.
 NATIONAL	New Home Inventory	9.7 months	8.0 (Dec)	2026-01	Census	R	+21.3% from Dec. 476K homes for sale. Highest months supply in years.
 NATIONAL	Census Feb+Mar Sales	DELAYED to May 5		2026	Census	-	Both months released simultaneously.
 NATIONAL	Refi Rejection	Series high		2025-Q4	NY Fed SCE	R	Door to credit slamming shut. See KB-CARL-021.
-NATIONAL	MBA Apps (Composite)	-10.4% WoW		2026-03-27	MBA	R	Purchase -3%, Refi -17% WoW (-40%+ from 1mo ago).
-NATIONAL	MBA 30yr Contract Rate	6.57%	6.43%	2026-03-27	MBA	R	Highest since Aug 2025. +14bps WoW.
+NATIONAL	MBA Apps (Composite)	-0.8% WoW		2026-04-03	MBA	O	Purchase +1%, Refi -3% WoW. Refi at lowest since Dec 2025.
+NATIONAL	MBA 30yr Contract Rate	6.51%	6.57%	2026-04-03	MBA	O	Down 6bps WoW. Still elevated vs Mar. Rate vol from tariff news.
+DHI	Q2 FY2026 Gross Margin Guidance	19.0-19.5%		2026-04	DHI Guidance	O	Down from Q1 20.4%. Earnings Apr 21.
+TOL	Q1 FY2026 Adj Gross Margin	26.5%		2026-Q1	TOL Earnings	G	+25bps above guidance. Luxury segment resilient.
+NATIONAL	Housing Starts (SAAR)	1.521M	1.374M (Jan)	2026-02	Census	G	+10.7% MoM, +5.9% YoY. SF starts +11.6% MoM to 1.129M.
+NATIONAL	Housing Permits (SAAR)	1.518M	1.490M (Jan)	2026-02	Census	G	+1.9% MoM, +2.4% YoY. SF permits 1.031M +1.0% MoM.
 NATIONAL	Case-Shiller National YoY	+0.9%	+1.4% Dec	2026-01	S&P/CS	O	Weakest since Jun 2023. Tampa -2.5% worst; NY +4.9% best.
 NATIONAL	FHFA HPI YoY	+1.6%		2026-01	FHFA	Y	+0.1% MoM. W.South Central -0.8% worst division.
 NATIONAL	Median Homebuyer Age	59	31 (1981)	2026-03	Apollo/Slok	R	Structural demand impairment.

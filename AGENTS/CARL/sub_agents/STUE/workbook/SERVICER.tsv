@@ -4,16 +4,18 @@ MOHELA	Missed Bills (borrowers)	2.5M	2025	DOE/AFT	UP	R	Led to 800K manufactured 
 MOHELA	Manufactured DQ	800K	2025	DOE/AFT	UP	R	Borrowers delinquent due to servicer failure, not non-payment
 MOHELA	DOE Penalty	$7.2M withheld	2025	DOE	NEW	O	$2.88 per affected borrower — inadequate deterrent
 MOHELA	Call Wait Times vs Peers	7x EdFinancial, 50x Aidvantage/Nelnet	2025	CFPB Ombudsman	UP	R	Worst in industry. Pre-Jul 1 transition capacity = near-zero
-MOHELA	CFPB Complaints	~3,000 (Jul 2022-Sep 2023)	2023-09	CFPB	UP	R	Pre-current-crisis volume. 2024-2026 likely much higher
+MOHELA	CFPB Complaints	~5,701 FY2024 (#1 all servicers; 41% complaints / 20% accounts = 2x disproportionate)	2026-04-13	CFPB DB / LendEDU 2026 / CFPB SL Ombudsman Nov 2024	UP	R	AY2024-2025 total: 22,900 (record, +36% YoY federal). Untimely response 20% (doubled, worst ever). Relief rate 0.8%. Dissatisfaction 91%. See KB-CARL-198.
 MOHELA	CFPB Ranking	Most complained-about student loan servicer	2025	CFPB Ombudsman	FLAT	R	Annual report finding
 MOHELA	AFT Lawsuit	Filed — "shocking series of abuses"	2024	NASFAA	NEW	O	PSLF obstruction, application failures, balance errors, overcharging
-MOHELA	State AG Investigations	Multiple states	2025	Multiple	UP	O	States not fully enumerated — need web pull
+MOHELA	State AG Investigations	9-state CID working group (WA/NY/PA/CO/IL/MA/DC + CA DFPI + OR DFR)	2026-04-13	Yahoo Finance Apr 2025 / Warren-Schumer-Sanders / AFT-SBPC OIG May 2025	UP	R	CIDs issued late 2023, still investigative. CA DFPI settled $27,500 (Apr 2024). Maldonado active (N.D. Cal). MO AG Bailey DEFENDING MOHELA (11th Amendment immunity). 19 states + DC have BoR laws. At risk: Trump admin interference, CFPB deprioritization. See KB-CARL-196, KB-CARL-197.
 MOHELA	Credit Report Errors	Balance duplication — class action Feb 18 2026	2026-02-18	Court filing	NEW	R	Doubled balances on reports = artificial DTI inflation. Affects current borrowers
 MOHELA	SAVE Borrowers Serviced	~6.5M (of 8.8M total forbearance)	2025-12	FSA	FLAT	R	Will need to process Jul 1 transition notices for all
 MOHELA	Est. Jul 1 Call Volume	2.25M+ (if 30% of 7.5M call)	CARL est	CARL	NEW	R	vs current capacity that can't handle normal volume
 MOHELA	Maldonado Ruling	Violated CA Student Borrower Bill of Rights + Unfair Competition Law	2026-03	Court ruling / PPSL	NEW	R	Judge confirmed MOHELA sent billing statements misrepresenting borrower obligations. Creates legal precedent for other states with similar statutes. Court already denied MOHELA's 2nd dismissal attempt.
 MOHELA	AFT Amended Complaint	Filed Jan 2026 detailing "ongoing harm since July 2024 filing"	2026-01	AFT / Protect Borrowers	NEW	R	Amendment adds post-filing violations. Shows MOHELA has not remediated despite prior lawsuit.
-MOHELA	Litigation Load (concurrent)	5+ active: Maldonado, AFT, class action (balance duplication), state AG investigations, CFPB complaints	2026-04	Multiple sources	UP	R	Simultaneous with Jul 1 transition load. Court-ordered remediation + ~16.5M accounts + 7.5M transition notices = operational failure probability rising.
+MOHELA	AFT Case Status (Apr 2026)	DISCOVERY PHASE — next status conference May 28 2026	2026-04-13	Court docket / AFT	UP	R	No settlement. Discovery could surface additional evidence of systematic failures. Conference May 28.
+MOHELA	Abandon Rate	14%+ (callers hanging up before answer)	2026-01	AFT amended complaint / CFPB data	UP	R	No other servicer exceeds 5%. Data in AFT amended complaint. At this call capacity, Jul 1 transition volume = impossible to service.
+MOHELA	Litigation Load (concurrent)	5+ active: Maldonado, AFT, class action (balance duplication), state AG investigations, CFPB complaints	2026-04-13	Multiple sources	UP	R	Simultaneous with Jul 1 transition load. Court-ordered remediation + ~16.5M accounts + 7.5M transition notices = operational failure probability rising.
 Nelnet	Credit Report Errors	Balance duplication	2026-02	Court filing/class action	NEW	R	Part of same class action as MOHELA
 Nelnet	Accounts Serviced	~5.6M	2025	STRUCTURAL	FLAT	Y	Second-tier servicer
 Aidvantage	Accounts Serviced	~7.5M	2025	STRUCTURAL	FLAT	Y	Maximus subsidiary
