@@ -31,23 +31,33 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (Apr 11 → Apr 13 market open)
-- Hormuz blockade announced Apr 12 (Islamabad talks collapsed). Brent $95→$100.52 (+5.6%).
-- MOF Apr 10 JGB data published: **10Y 2.439% — breached 2.40% stress threshold (confirmed).** 40Y 3.682% — prior 3.92% was data source error (21bp overstated). Reconciliation complete.
-- USD/JPY 159.59 (0.3% from 160 intervention trigger). FXY $57.52 (at entry).
+### CHANGES SINCE LAST SESSION (Apr 12 → Apr 13)
+- Blockade reaction continuing: Brent $101.67 (+6.8%), USD/JPY 159.73 (0.2% from 160).
+- FXY $57.48 (flat at entry, -0.28%).
+- No new MOF data (Apr 10 was last publish). JGB 10Y breach at 2.439% still the reference level.
 
-### LAST SESSION (Apr 12-13 — housekeeping + Monday market open)
-- **Housekeeping audit:** Fixed stale data across all 5 boot files. THESIS had wrong BOJ date (23-24→28), stale CFTC/Brent/position numbers, header version mismatch. TIMELINE week labels and scenario rates corrected. CALENDAR pruned. MEMORY trimmed 5 redundant script findings. STATUS narrative cut to 2 lines. All logged to CHANGELOG.
-- **Monday market open:** Boot script ran, MOF Apr 10 data validated both findings: 10Y breach real, 40Y overstated. STATUS and THESIS updated with confirmed levels.
-- **Educated Will on:** What 10Y breach means for insurer Channel 1 (unrealized losses → ESR visibility → repatriation pressure), and why 40Y being lower than thought gives more time before mechanical (vs discretionary) selling.
+### LAST SESSION (Apr 13 — gap analysis, insurer intel, monitoring buildout)
+- **Committed + pushed** prior session's 12-file housekeeping update (was uncommitted due to API errors).
+- **File maintenance (items 1-5):** Fixed stale TRADE.md (BOJ date 23-24→28, carry 60d 95→97%, dating), STRATEGY.md (v1.0→v1.2), TIMELINE.md (CFTC 67.8K→93.7K, May 1 rate fix 0.75→1.00%, Apr 28 view updated). CALENDAR Apr 13 item marked resolved. Flagged stuck HERMES delivery to Prome (outbox signal).
+- **Insurer FY2026 intel sweep:** Ran monitoring queries from TRACKER checklist. FY2026 plans NOT YET DROPPED — window opens tomorrow. Pre-plan intel gathered: Nippon Life ESR 222% (-2pp, unrealized gains ¥12T→¥7.4T, domestic bond losses -¥3.6T, reducing super-long on book-value basis), Dai-ichi doubling overseas strategic investment to ¥600B (M&G ¥160B, Challenger ¥100B, Capula), Mar 2026 survey confirms all Big 3 maintaining private credit plans. Updated TRACKER + nippon-life.md + dai-ichi.md.
+- **Key insight:** Nippon Life ESR at 222% despite massive losses = repatriation is ECONOMIC (hedged returns negative), not regulatory panic. Voluntary flows are steady/persistent, not spiky/reversible. Watch for ESR below 200% at May-Jun disclosures — that's when character changes.
+- **Gap analysis completed.** Identified 7 gaps. Closed 5 today:
+  1. Vol convergence: FXY OI refreshed (stable). CVOL + risk reversals STALE — need terminal/Perplexity mid-week.
+  2. Predictions: 5 new falsifiable calls laid down (SAM-16 through SAM-20).
+  3. BOJ QT: Now tracked — ¥2.5T/mo purchases (down from ¥6T peak), ¥200B/quarter taper. Vector VX-SAM-12.04 added.
+  4. Trade balance: Now tracked — Feb surplus ¥57B (razor-thin, pre-oil-shock). March data mid-April. Vector VX-SAM-11.02 added.
+  5. GDP: Q4 2025 +0.3% QoQ (+1.3% ann), avoided recession. Consumption fragile. EWJ trigger not yet fired. Next: Q1 prelim May 14.
+- **Remaining gaps (not addressed):** Megabank foreign bond behavior (wait for Apr 15 TIC), Japan energy policy response (low priority).
 
 ### NEXT SESSION
-1. **🔴 Tue Apr 14: 20Y JGB auction.** Run `jgb_auctions.py --date 2026-04-14` after Japan market close. BTC <2.0x = 🔴 signal to LIQUID, HENRY.
-2. **🔴 Tue Apr 14: Insurer FY2026 plans window opens.** WebSearch for Fukoku, Nippon Life, Meiji Yasuda, Dai-ichi announcements. Update `insurers/TRACKER.md`.
-3. **🟠 Wed Apr 15: Feb TIC data.** Japan UST selling confirmation (>$15B = stress case). Manual WebSearch.
-4. **🔴🔴 DECISIVE — Thu Apr 16: MOF ITS weekly release.** `mof_flows.py` auto-pull. IF Apr 5-11 week shows >¥2T selling → execute Option C rebalance (Base 70→55, Stress 25→37, Crisis 5→8). Bump THESIS to v1.3. Send 🔴 signal to LIQUID, PROME.
-5. **Wed Apr 22: Ceasefire expiry.** Effectively dead after blockade — watch for formal collapse.
-6. **Tue Apr 28: BOJ MPM — live for hike to 1.00%.** Internal call ~60-65%.
+1. **🔴 Tue Apr 14: 20Y JGB auction.** Run `jgb_auctions.py --date 2026-04-14`. BTC <2.0x = 🔴 signal to LIQUID, HENRY. Prediction SAM-16: BTC ≥2.5x (70%).
+2. **🔴 Tue Apr 14: Insurer FY2026 plans — first movers.** WebSearch TRACKER monitoring queries for Fukoku, T&D/Taiyo. Update TRACKER.md. Prediction SAM-19: ≥2 of 5 announce foreign bond cuts (75%).
+3. **🟠 Wed Apr 15: Feb TIC data.** Japan UST selling. Prediction SAM-17: >$10B (65%). Also check megabank vs insurer breakdown (gap #5).
+4. **⚠️ Mid-week: CVOL + risk reversal refresh.** Will should check via Perplexity or terminal — these are the critical vol check window signals (STRATEGY.md Apr 14-18).
+5. **🔴🔴 DECISIVE — Thu Apr 16: MOF ITS weekly release.** `mof_flows.py`. Prediction SAM-18: >¥1.5T (55%). IF >¥2T → Option C rebalance, THESIS v1.3, 🔴 signal to LIQUID + PROME.
+6. **🟠 ~Apr 16-21: March trade balance (MOF customs).** First war-impacted month. Expect large deficit.
+7. **🔴 Apr 21-25: Big 4 insurer plans.** Nippon (~Apr 24), Dai-ichi, Meiji Yasuda.
+8. **🔴🔴 Apr 28: BOJ MPM.** Prediction SAM-20: hike to 1.00% (60%).
 
 ### INFRASTRUCTURE CHANGES (persistent)
 - Boot step 7 in `AGENTS/SAM/CLAUDE.md` now says "preferred: run `boot.py`". Old manual instructions preserved as fallback.

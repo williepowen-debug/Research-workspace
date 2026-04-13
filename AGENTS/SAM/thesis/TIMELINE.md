@@ -149,7 +149,7 @@ This document maps our forward-looking expectations — what's coming, what we t
 
 ### Apr 28 — BOJ MEETING (LIVE FOR HIKE)
 - **Event:** BOJ Monetary Policy Meeting. Rate decision + Ueda presser.
-- **Our view:** April hike is LIVE (~70% as of Apr 6, up from ~45-50% post-Tankan). Base case remains May 1 but April is now the market-priced base case. The Summary of Opinions showed board readiness — Takata dissented for 1.00%, members discussed "rapid tightening" and "scale" of hike. Tankan strong removes last data excuse. Oil falling removes the "uncertainty" excuse.
+- **Our view:** April hike is LIVE (internal call ~60-65% as of Apr 12; market pricing ~45-50%). Oil headwind from Hormuz blockade shifts "uncertainty" excuse dynamics — makes hike MORE urgent (oil → CPI) but gives political cover to delay. Summary of Opinions showed board readiness — Takata dissented for 1.00%, members discussed "rapid tightening" and "scale" of hike. Tankan strong removes last data excuse.
 - **Scenarios:**
   - **Hike to 1.00% (our ~60-65% prob):** Breaches Takaichi ceiling — JGB 2Y spikes, USD/JPY drops 3-5 big figures in days. FXY +3-5%. Carry unwind fires. Mortgage transmission starts (floating rates reprice within months).
   - **Hike to 1.25% (our ~5% prob):** Nuclear scenario. 50bp hike. USD/JPY drops 5-8 big figures. Carry unwind accelerates violently. Household stress immediate.
@@ -160,7 +160,7 @@ This document maps our forward-looking expectations — what's coming, what we t
 ### May 1 — BOJ MEETING (BASE CASE HIKE)
 - **Event:** BOJ Monetary Policy Meeting + Outlook Report.
 - **Our view:** This is THE date. If they didn't hike in April, May 1 is when it happens. Shunto 5.26% gives cover. Ueda removed the growth precondition. Oil-driven CPI makes delay harder to justify. Board is ready.
-- **What we expect:** Hike to 0.75% (most likely) or 1.00% (if board consensus shifts). Outlook Report upgrades inflation forecast.
+- **What we expect:** Hike to 1.00% (most likely — current rate already at 0.75%). Outlook Report upgrades inflation forecast.
 - **FXY impact:** +5-8% structural move over following weeks as carry unwind cascades.
 - **Post-hike dynamics:** Mortgage repricing cycle begins. Takaichi political response within days/weeks. Watch for: Diet questioning of Ueda, Aida statements, BOJ Law revision threats.
 
@@ -169,7 +169,7 @@ This document maps our forward-looking expectations — what's coming, what we t
 ## MAY 2026
 
 ### Early May — POST-HIKE CARRY UNWIND
-- **Our view:** If BOJ hikes (April or May), the carry unwind unfolds over days to weeks. CFTC shorts at -67.8K need to cover. Aug 2024 precedent: unwind took hours. But current positioning is less extreme (38% of July 2024 peak), so may be more orderly.
+- **Our view:** If BOJ hikes (April or May), the carry unwind unfolds over days to weeks. CFTC shorts at -93,742 need to cover (52% of July 2024 peak, up from 38% two weeks ago — fuel load growing). Aug 2024 precedent: unwind took hours. Positioning more extreme than a week ago but still below peak, so unwind may be fast but not Aug-2024 violent.
 - **Expected USD/JPY path:** 155 → 152 → 148 over 2-4 weeks post-hike. Faster if intervention coincides.
 - **FXY:** Target zone $60-62 begins to come into range.
 

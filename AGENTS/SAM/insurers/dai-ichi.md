@@ -16,6 +16,9 @@
 
 - Oct 2025 survey: among those signaling overseas debt cuts
 - "Yields are at levels that cover liability costs, but we are not in a hurry to buy" — cautious, not panicked
+- **Doubling overseas strategic investment target to ¥600B ($4.2B)** in next medium-term plan (Manila Times, Jul 2025)
+- Recent overseas acquisitions: 15% of UK's **M&G** (¥160B), Australian **Challenger** (¥100B), UK hedge fund **Capula**
+- Key nuance: expanding overseas via M&A/equity stakes while cutting foreign bonds — different risk profile than bond allocation
 
 ## PRIVATE CREDIT
 

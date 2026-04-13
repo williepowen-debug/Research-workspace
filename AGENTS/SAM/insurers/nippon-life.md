@@ -11,6 +11,8 @@
 | Total assets | ~¥96T ($640B) | FY2025 |
 | ESR | 222% | Mar 2025 |
 | Unrealized bond losses | ¥4.164T ($28B) — tripled YoY | Jun 2025 |
+| Unrealized gains (all securities) | **¥12.0T → ¥7.4T** (¥4.6T evaporated) | TwentyFour AM |
+| Domestic bond unrealized losses | **-¥3.6T** (from -¥1.0T) — 30Y up ~90bp in period | TwentyFour AM |
 | Net cushion (gains - losses) | ¥3.8T (eroding fast) | Mar 2025 |
 | Realized JGB losses | ¥220B (active selling, not paper) | Apr-Dec 2024 |
 
@@ -30,8 +32,9 @@
 
 ## SUPER-LONG JGBs
 
-- No explicit pullback announced (unlike Fukoku/Meiji Yasuda)
-- Too large to move fast — any shift will be gradual
+- **REDUCING on book-value basis** — Akira Tsuzuki (Exec Officer) cited "low liquidity and elevated volatility" in super-long segment (Insurance Business, Reuters)
+- Too large to move fast — shift is gradual, not a sudden exit
+- ESR -2pp despite -¥3.6T losses = framework NOT yet forcing emergency action. Repatriation is economic (hedged returns negative vs JGBs), not regulatory panic.
 
 ## SIGNALS TO WATCH
 
