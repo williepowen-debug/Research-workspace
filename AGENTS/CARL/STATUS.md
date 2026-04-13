@@ -40,6 +40,7 @@
 | FL Foreclosures YoY | **+190%** | Q4 2025, ATTOM | 🔴 |
 | "Help with mortgage" | **ALL-TIME HIGH** | Mar 2026, Google | 🔴🔴 |
 | Lennar Gross Margin | **15.2%** (lowest since 2010) | Q1 FY2026, LEN | 🔴 |
+| Non-Bank Servicer Stress | **PennyMac FHA DQ 7.5%** (+160bps QoQ); loanDepot $107.5M loss, pledging GNMA MSRs; Lakeview 18% DQ (stale); Freedom 15.5% (stale). GAO: 35% of non-banks high debt, no stagflation test. MFS UK collapse = warehouse contagion template. | Apr 13, CARL research | 🟠 |
 
 ### Macro / Energy / Stress
 | Metric | Value | As Of | Status |
@@ -123,7 +124,10 @@
 | **Jun 24** | FL Wave 1 UI exhaustion cliff (~4,500 workers) | 🔴 NEW |
 | **Q2-Q3** | Food CPI spike (triple nitrogen seizure) | 🔴🔴 |
 | **May 28** | AFT/MOHELA status conference (discovery) | 🟠 NEW |
+| **Apr 28** | Rithm/NewRez Q1 earnings — "DQ will reverse in Q1" testable claim. 18% Ginnie exposure. | 🟠 NEW |
+| **Late Apr/May** | PennyMac Q1 earnings — FHA DQ >7.5%? Cenlar integration + advance expense trajectory | 🟠 NEW |
 | **May-Jun** | Middle-market PC cuts | 🟠 |
+| **Q2-Q3** | **Non-bank servicer stress window** — Ginnie advance drain cumulative as pipeline grows + cure rates stay depressed. GAO: no stagflation test. loanDepot most vulnerable. | 🟠 NEW |
 | **Jul** | Involuntary collections restart (AWG + Treasury Offset) — 5M+ defaulted borrowers | 🔴 NEW |
 | **Jul-Aug** | FL exhaustion peak ($7.4M/mo hole) + national peak ($800M-$930M/mo) | 🔴🔴 |
 | **Q3** | **CONSUMPTION STRESS QUARTER** — UI exhaustion + gas + food CPI converge | 🔴🔴 UPGRADED |
