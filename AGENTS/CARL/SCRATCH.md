@@ -55,7 +55,7 @@
 10. **Fannie MF March DQ — late Apr** — THE critical data point (GFC breach test).
 
 ### BACKLOG (no deadline)
-11. **KB MIGRATION — Chunk 1: HOUSING → HOMER (40 entries)** — Will approved chunked approach.
+11. ~~KB MIGRATION — Chunk 1: HOUSING → HOMER~~ ✅ DONE (44 delegated, HOMER KB 45 entries, 4 cross-domain stay in CARL)
 12. **ABS monitor CIK fixes** — Honda (HAROT), Discover, Cap One, SoFi CIKs need correction for EDGAR queries.
 13. SDART Feb/Mar EDGAR 10-D manual pull.
 14. FL DBPR SIRS compliance data.
