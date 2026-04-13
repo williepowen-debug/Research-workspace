@@ -111,6 +111,12 @@ Market pricing ~45-50% odds of April 28 hike to 1.00%. Our internal call: ~60-65
 
 **Norinchukin:** Hedge ratio 44.4% (14yr low). ~$370-550B unhedged. Norinchukin ¥9.7T CLO shrinking. Japan UST holdings $1,185.5B. GPIF NOT forced seller.
 
+**BOJ QT:** Monthly JGB purchases ~¥2.5T (Apr-Jun 2026), down from ¥6T peak. Taper pace halved to ¥200B/quarter (Jun 2025 decision — BOJ nervous about super-long yields). BOJ holds ~50% of outstanding JGBs. Creates structural demand gap at long end, amplified by insurer buyer strike. Background factor, not primary catalyst.
+
+**GDP:** Q4 2025: +0.3% QoQ / +1.3% annualized (revised up from flash +0.1%). Q3 was -0.7% contraction — avoided technical recession. Consumption fragile (+0.3%). Q1 2026 prelim releases May 14. Full-year 2026 forecast ~0.8% (Vanguard/Daiwa). Pre-oil-shock data — Q2 2026 will be first full war-impacted quarter. EWJ put trigger (GDP contraction): NOT YET.
+
+**Trade Balance:** Feb 2026: ¥+57B surplus (razor-thin, plunged from ¥559B YoY). Imports growing 2.4x faster than exports (+10.2% vs +4.2%). This is PRE-oil-spike data (Brent ~$85-90 in Feb). March data (first war-impacted: Brent $100-115) releases mid-April — expect large deficit. Japan: 87% energy imported, 95.9% crude from ME, 73.7% transits Hormuz. SPR: 45 days released (of 254). Gasoline subsidy ceiling ¥170/L. Confirms Phase 1 dynamics (oil → deficit → yen weak).
+
 **MOF Weekly ITS (Apr 11 refresh via `mof_flows.py`):**
 - Latest week (Mar 29-Apr 4): **¥-2.46T LT-debt net selling** (~$-16.4B) — largest single-week figure in recent history, 2.5× the prior week's ¥-946B
 - 4-week rolling: **¥-5.00T** (~$-33B) ≈ $36B/month run rate → **STRESS CASE pace** per THESIS ($25-40B/mo range)

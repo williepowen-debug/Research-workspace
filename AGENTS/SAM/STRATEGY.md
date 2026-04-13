@@ -1,7 +1,7 @@
 # SAM STRATEGY — FXY Decision Playbook
 
-**Last Updated:** 2026-04-07
-**Position:** FXY long, 8 shares | **Thesis:** v1.0 | **Conviction:** HIGH
+**Last Updated:** 2026-04-13
+**Position:** FXY long, 8 shares | **Thesis:** v1.2 | **Conviction:** HIGH
 
 ---
 

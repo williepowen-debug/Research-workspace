@@ -1,6 +1,6 @@
 # SAM — Trade Ideas
 
-**Last Updated:** 2026-04-07
+**Last Updated:** 2026-04-13
 **Domain:** Japan Macro, Yen, JGBs, Carry Trade, BOJ Policy
 
 ---
@@ -36,21 +36,22 @@
 | ~~Mar 31~~ | ~~FY-end close~~ | ✅ Resolved |
 | ~~Apr 1~~ | ~~Tankan survey~~ | ✅ BEAT — April hike live |
 | ~~Apr 7~~ | ~~30Y JGB auction at ~3.7%~~ | ✅ PASSED — BTC 3.11x, tail 1.3bp. Demand held. |
-| **Apr 7–14** | Big 4 insurer investment plans | Allocation cuts = Channel 1 confirmed |
+| **Apr 14–25** | Big 4 insurer FY2026 investment plans | Allocation cuts = Channel 1 confirmed |
 | **Apr 15** | Feb TIC data — Japan UST selling confirmation | Large selling = stress case |
-| **Apr 23–24** | BOJ meeting — hike ~70% | +3–5% on hike |
+| **Apr 16** | 🔴 MOF ITS weekly release (DECISIVE) | >¥2T = regime change → thesis rebalance |
+| **Apr 28** | BOJ meeting — hike ~60-65% (internal) | +3–5% on hike |
 | **May 1** | BOJ meeting — **BASE CASE HIKE** | +5–8% structural move |
 | **Late May** | Japan April CPI print — reflects oil shock + SK refiner | Confirms BOJ path locked |
 
 ---
 
-## Carry Unwind Probability (as of Apr 6)
+## Carry Unwind Probability (as of Apr 12)
 
 | Timeframe | Probability | Key Driver |
 |-----------|-------------|------------|
-| **7 day** | **68%** | USD/JPY 159.59; oil $100+ (blockade) delays unwind short-term (Phase 1). CFTC shorts -93,742 (52% of Jul '24 peak). |
+| **7 day** | **68%** | USD/JPY 159.73; oil $101+ (blockade) delays unwind short-term (Phase 1). CFTC shorts -93,742 (52% of Jul '24 peak). |
 | **30 day** | **93%** | BOJ April 28 hike ~60-65%. Blockade makes hike MORE urgent (oil → CPI). |
-| **60 day** | **95%** | Structural case intact. Hedge ratio 44.4% (14yr low). $370-550B unhedged. BOJ path locked through May 1. |
+| **60 day** | **97%** | Structural case intact. Hedge ratio 44.4% (14yr low). $370-550B unhedged. BOJ path locked through May 1. |
 
 ---
 
@@ -88,8 +89,8 @@ Private credit cascade (APO, ARES — 9 funds gated) → recession signal → Fe
 
 **Entry Triggers (updated):**
 - [ ] BOJ hikes to 1.00% (May 1 base case) — mortgage transmission begins
-- [ ] Tankan shows consumer weakness (Apr 1)
-- [ ] Japan GDP print shows contraction
+- [x] ~~Tankan shows consumer weakness (Apr 1)~~ — Tankan BEAT (mfg 17, non-mfg 36). Not a trigger.
+- [ ] Japan GDP print shows contraction — Q4 2025 was +0.3% (avoided recession). Next: Q1 2026 prelim May 14. Q2 (first full war quarter) is the real test.
 - [ ] Mortgage DQ data spikes in Japan
 
 **Anti-Triggers:**
@@ -137,9 +138,11 @@ Private credit cascade (APO, ARES — 9 funds gated) → recession signal → Fe
 | ~~Mar 31~~ | ~~FY2025 end~~ | ✅ Done — no outsized flows |
 | ~~Apr 1~~ | ~~Tankan survey~~ | ✅ Done — BEAT (mfg 17, non-mfg 36). April hike live. |
 | ~~Apr 7~~ | ~~30Y JGB auction~~ | ✅ Passed — BTC 3.11x |
-| **Apr 7–14** | Big 4 insurer FY2026 investment plans | Repatriation confirmation |
+| **Apr 14–25** | Big 4 insurer FY2026 investment plans | Repatriation confirmation |
 | **Apr 15** | Feb TIC data (Japan UST flows) | Confirms repatriation scale |
-| **Apr 23–24** | BOJ Meeting — hike ~70% | FXY: +3–5% on hike |
+| **Apr 16** | 🔴 MOF ITS weekly release (DECISIVE) | Regime change vs one-off |
+| **Apr 22** | Ceasefire expiry | Oil path / Phase 1-2 dynamics |
+| **Apr 28** | BOJ Meeting — hike ~60-65% (internal) | FXY: +3–5% on hike |
 | **May 1** | BOJ Meeting — **BASE CASE HIKE** | FXY: +5–8% structural |
 | **Late May** | Japan April CPI print | Confirms BOJ path |
 | **Mid-May** | ESR disclosures begin | Insurer stress visible |

@@ -8,12 +8,14 @@
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |------|-------|---------------|-------------------|-----------|
-| **Apr 13** | **MOF Apr 10 JGB yields publish** | **Validate 10Y/40Y vs prior STATUS claims (2.41%/3.92%)** | **If 40Y <3.8% = STATUS prior was wrong; if >3.85% = real spike** | **SAM** |
+| ~~Apr 13~~ ✅ | ~~MOF Apr 10 JGB yields publish~~ | — | ✅ **10Y 2.439% breach confirmed. 40Y 3.682% (prior 3.92% was error).** | — |
 | **Apr 14** | **20Y JGB auction** | **BTC ratio, tail, yield** | **<2.0x = 🔴** | **LIQUID, HENRY** |
 | **Apr 15** | **Feb TIC data (US)** | **Japan net UST sales** | **>$15B net selling = stress case** | **LIQUID, PROME** |
 | Apr 16 | Liquidity enhancement auction (5-11Y) | — | Routine | — |
 | **Apr 16** | **🔴 MOF ITS weekly release (DECISIVE)** | **Apr 5-11 LT-debt net** | **>¥2T = regime change confirmed → rebalance thesis weights to Option C. <¥1T = Mar 29-Apr 4 spike was one-off.** | **SAM, LIQUID, PROME** |
 | **Apr 14-25** | **Insurer FY2026 investment plans** | **Foreign bond allocation, hedge ratio, super-long JGB** | **Cuts = Channel 1 confirmed** | **LIQUID, PROME** |
+
+| **~Apr 16-21** | **March trade balance (MOF customs)** | **Deficit size — first war-impacted month** | **Large deficit confirms Phase 1; watch for record energy import bill** | **SAM** |
 
 ## WEEK OF APR 21
 
