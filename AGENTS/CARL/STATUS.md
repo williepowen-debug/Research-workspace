@@ -1,6 +1,6 @@
 # CARL STATUS
-**Updated:** 2026-04-13 ~17:30 UTC
-**Overall:** 🔴🔴 CRITICAL — Convergence 51/55. **Student loan defaults 9.2M (+1.5M in 90 days), FICO 714 (cascade EXECUTING), existing home sales 3.98M (approaching RED).** Savings rate 4.0%, real DPI -0.5%. Gas $4.16 above breakpoint. CMBS MF DQ ATH 7.15%. Core PCE 3.0% (Fed locked). JOLTS 0.91. Sweet v McMahon Apr 15 (2 days). Q3 = consumption stress quarter. Tariff cost loading ~$1,500/HH Apr-Oct.
+**Updated:** 2026-04-13 ~20:22 UTC
+**Overall:** 🔴🔴 CRITICAL — Convergence 51/55. **Student loan defaults 9.2M (+1.5M in 90 days), FICO 714 (cascade EXECUTING), existing home sales 3.98M (approaching RED).** Savings rate 4.0%, real DPI -0.5%. Gas $4.13 (FL $4.02 crossed breakpoint, CA $5.89 RED). Diesel $5.65 (UP). HY OAS **294bps — collapsed 23bps in 8 days, complacency gap WIDENING** (structured credit cracking while public HY tightens). CPI Energy +12.5% YoY. CMBS MF DQ ATH 7.15%. Core PCE 3.0% (Fed locked). JOLTS 0.91. JPM Q1 tomorrow 7AM ET. Sweet v McMahon Apr 15. Q3 = consumption stress quarter.
 
 *Check-in archives: `archive/status/` (pending Phase 3 move)*
 
@@ -44,11 +44,12 @@
 ### Macro / Energy / Stress
 | Metric | Value | As Of | Status |
 |--------|-------|-------|--------|
-| Gas Pump | **$4.16** (ceasefire → futures -10%, pump lag 1-2wk) | Apr 8, AAA | 🔴 |
-| Diesel | **$5.51** | Apr 2, AAA | 🔴🔴 |
-| Brent | **~$97** (crashed from $115 on ceasefire, recovering, Iran claims breach) | Apr 9 | 🟠 |
-| WTI | **~$97-101** (crashed from $116 on ceasefire, recovering) | Apr 9 | 🟠 |
-| HY OAS | **317bps** (STILL complacent through ceasefire/data) | Apr 9, FRED | 🟠 |
+| Gas Pump | **$4.125** national; FL $4.02, CA $5.89 RED, TX $3.80 | Apr 13, AAA | 🔴 |
+| Diesel | **$5.65** (+$0.14 from Apr 2 — logistics/food cost pressure) | Apr 13, AAA | 🔴🔴 |
+| Brent | **$98.18** (ceasefire stabilized ~$98, was $115 pre-ceasefire) | Apr 13, yfinance | 🟠 |
+| WTI | **~$97-98** (stabilized post-ceasefire) | Apr 13 | 🟠 |
+| HY OAS | **294bps** (collapsed 317→294 in 8 days — ceasefire + NFP compressed 23bps. Now BELOW 300 elevated threshold. Complacency gap WIDENING — structured credit cracking while public HY tightens) | Apr 10, FRED | 🟢 ⚠️ |
+| CPI Energy YoY | **+12.5%** (+11.9% MoM index jump) | Mar 2026, BLS | 🔴 |
 | Savings Rate | **4.0%** (↓0.5pp from Jan, real DPI -0.5%) | Feb 2026, BEA | 🔴 |
 | Urea NOLA | **$690s/mt** (was $475 early Mar) | Mar 28 | 🔴🔴 |
 | Russia AN | **SUSPENDED** | Mar 2026 | 🔴🔴 |
@@ -114,7 +115,7 @@
 
 | Window | Trigger | Status |
 |--------|---------|--------|
-| **NOW (Apr 9)** | **2-WK CEASEFIRE** — Oil $115→$97 (fragile, Hormuz blocked, Iran claims breach). Gas $4.16 (pump lag). Savings rate 4.0% (↓0.5pp). Real DPI -0.5%. Core PCE 3.0%. | 🟠 **CEASEFIRE / 🔴 CONSUMER** |
+| **NOW (Apr 13)** | **CEASEFIRE HOLDING** — Brent $98 (stable). Gas $4.13 (FL $4.02, CA $5.89 RED). Diesel $5.65 (UP). HY OAS 294bps (collapsed 23bps — complacency gap widening). CPI Energy +12.5% YoY. Savings 4.0%. DPI -0.5%. JPM Q1 tomorrow. | 🟠 **CEASEFIRE / 🔴 CONSUMER / 🟢⚠️ CREDIT COMPLACENT** |
 | **Mar 24** | FL UI Wave 1 exhaustion | ✅ FIRED |
 | **Apr 26** | FL UI Wave 2 peak | 🟠 IMMINENT |
 | **Q2** | DQ conversion (Mar/Apr stress → May/Jun spike) | 🔴 UPGRADED |
@@ -135,7 +136,7 @@
 | From | Key Signal | As Of | Status |
 |------|-----------|-------|--------|
 | LABOR | JOLTS 0.91 inverted, hires COVID-low 3.1%, duration 25.7wk, **NFP Mar +178K (headline) but Feb revised -133K, LFPR 61.9%, 3mo avg 68K**, DOGE 260K+ (fed govt -18K in Mar) | Apr 3 | 🔴🔴 |
-| HAWK | WTI ~$97-101, Brent ~$97, gas $4.16, diesel $5.51, nitrogen seizure (urea $690s) | Apr 9 | 🟠 |
+| HAWK | WTI ~$98, Brent $98.18, gas $4.13 (FL $4.02, CA $5.89), diesel $5.65 UP, nitrogen seizure (urea $690s), CPI Energy +12.5% YoY | Apr 13 | 🟠 |
 | WAR | **2-WEEK CEASEFIRE Apr 8** — Oil crashed 15%. BUT Hormuz still blocked, Iran claims breach, Israel/Lebanon tensions. Fragile. | Apr 9 | 🟠 |
 | FOMC | Hold 3.50-3.75%, 1 cut priced — fed locked by stagflation | Mar 19 | 🔴🔴 |
 | MARCO | ICE 1,100+/day, remittances -4.6%, Miami outmigration -2.0% | Mar 26 | 🔴 |
@@ -163,7 +164,7 @@
 | CRL-05 | CC 90+ DQ >13.74% (GFC) | **82%** | Q2-Q3 2026 | 12.70% — 1.04pp gap. **Apr 6 upgrade:** student loan cascade adds +0.5-1.0pp pathway |
 | CRL-06 | Foreclosures >70K/qtr | 70% | Q2 2026 | 58,140 Q4 — needs +20% |
 | CRL-07 | FL UI exhaustion → DQ spike | 85% | Jun-Aug 2026 | LABOR model confirms timeline |
-| CRL-08 | Gas $4.50+ national avg | **60%** | Jun 2026 (extended — ceasefire uncertainty) | $4.16 — ceasefire dropped futures 10% but pump lags, Hormuz blocked, fragile 2wk deal |
+| CRL-08 | Gas $4.50+ national avg | **60%** | Jun 2026 (extended — ceasefire uncertainty) | $4.13 national, FL $4.02 (crossed breakpoint), CA $5.89. Diesel $5.65 (UP). Ceasefire stabilized Brent ~$98 but diesel still rising. CPI Energy +12.5% YoY. |
 | CRL-09 | JOLTS Mar ratio <0.88 | 75% | May release | Feb was 0.91, pre-Iran |
 | CRL-10 | Food CPI YoY >4.0% | 70% | Q4 2026 | Wheat 107yr low, urea $690s |
 | CRL-11 | Hires rate ≤3.2% through Q2 | 85% | Jul/Aug releases | Currently 3.1% COVID-low |
@@ -177,6 +178,6 @@
 - **Thesis kill:** Claims <220K 8+ weeks AND CC 90+ DQ declines 2 consecutive quarters
 - **Time-based:** Q1 consumer earnings (April) = mandatory review → **See `EARNINGS_WATCH_Q1.md` for full calendar + watch metrics**
 
-*Next catalysts: ✅ $4/gal **FIRED** (Mar 31) | ✅ FL UI Wave 1 PASSED | ✅ USDA Plantings **PULLED** (wheat 107-yr low, corn -3.45M < 5M threshold) | ✅ JOLTS Feb **PULLED** (6.882M, ratio 0.91, hires COVID-low) | ✅ NFP Mar **PROCESSED** (+178K headline, Scenario 1/2 hybrid — LFPR collapse masks structural rot) | ✅ Student Loan Vector **REFRESHED** (7.7M default, convergence 4→5, STUE activated) | **Apr 6: Monday gap open** (67hr reaction gap) | **Apr 15: Sweet v. McMahon non-Exhibit C deadline** (DOE compliance unconfirmed — high prob of miss → auto full relief) | Apr 26: FL UI Wave 2 | **Jul 1: SAVE→RAP transition (7.5M borrowers)** | HY OAS 350 | $4.50/gal (~2-3 wks) | April CPI | Q1 earnings April*
+*Next catalysts: ✅ $4/gal **FIRED** (Mar 31) | ✅ FL UI Wave 1 PASSED | ✅ USDA Plantings **PULLED** (wheat 107-yr low, corn -3.45M) | ✅ JOLTS Feb **PULLED** (0.91, hires COVID-low) | ✅ NFP Mar **PROCESSED** (+178K headline, LFPR collapse) | ✅ Student Loan Vector **REFRESHED** (9.2M default, FICO cascade) | ✅ HY OAS **UPDATED** (294bps, collapsed from 317 — complacency gap widening) | **Apr 14: JPM Q1 7AM ET** (CC NCO, reserves, Dimon consumer commentary) | **Apr 15: Sweet v. McMahon** (DOE likely misses → auto full relief) | **Apr 15: NAHB HMI + MBA Apps** | Apr 16: OZK earnings | Apr 21: SYF Q1 (CRL-12 test) | Apr 21: DHI Q2 | Apr 26: FL UI Wave 2 | Apr 28: Case-Shiller Feb | **Jul 1: SAVE→RAP** | $4.50/gal | Q1 earnings April*
 *Prior check-ins (Mar 20), K-shape evidence table, fertilizer calendar archived to `archive/status/` (pending move)*
 *Key docs: `domain/sources/CVNA_FRAUD_WATCH.md` | `workbook/ABS_BASELINE.tsv` | `workbook/STATE_DIFFUSION.tsv`*
