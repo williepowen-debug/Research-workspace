@@ -58,11 +58,12 @@
 11. **KB MIGRATION — Chunk 1: HOUSING → HOMER (40 entries)** — Will approved chunked approach. Start in next session.
 
 ### BACKLOG (no deadline)
-12. KB migration Chunks 2-6 (STUDENT_LOAN → STUE, BNPL/GIG/SB → sub-agents, AUTO/ABS new agent decision, ENERGY/FOOD decision, triage rest).
-13. SDART Feb/Mar EDGAR 10-D manual pull.
-14. FL DBPR SIRS compliance data.
-15. Google Trends exact index values.
-16. Process WALTER inbox signal (CPI/UMich/stagflation).
+12. **BUILD SCRIPTS** — `AGENTS/CARL/scripts/BUILD_PLAN.md` has full blueprint. 7 scripts (thresholds, gas, consumer pulse, catalysts, housing, ABS, boot). Modeled on SAM/REGINALD pattern. Need FRED API key first. ~3 hrs across 1-2 sessions.
+13. KB migration Chunks 1-6 — Chunk 1: HOUSING → HOMER (40 entries). Full audit in Telegram session. Plan: push domain-detail to sub-agents, keep CARL KB lean (thesis-level only).
+14. SDART Feb/Mar EDGAR 10-D manual pull.
+15. FL DBPR SIRS compliance data.
+16. Google Trends exact index values.
+17. Process WALTER inbox signal (CPI/UMich/stagflation).
 
 ---
 
