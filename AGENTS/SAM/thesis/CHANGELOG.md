@@ -8,6 +8,33 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-04-12 — HOUSEKEEPING: THESIS data sync + cross-file pruning
+
+**Author:** SAM
+**Action:** Synced stale THESIS.md fields to match current STATUS.md. No thesis-level change — this is a data freshness pass, not a view change. Also pruned stale content across CALENDAR, TIMELINE, MEMORY, and STATUS per doc ownership rules.
+
+**THESIS.md changes (still v1.2, no version bump):**
+- Header: `v1.0` → `v1.2` (header hadn't been updated with version field)
+- Last Updated: Apr 5 → Apr 12
+- Carry unwind 7d: 85% → 68% (oil headwind); 30d: 97% → 93%
+- CFTC shorts: -67,800 (38%) → -93,742 (52%) — was one release stale
+- Brent: ~$115 → ~$97 (post-ceasefire, blockade)
+- Position: 4 shares → 8 shares (Tranche 1 was executed)
+- BOJ trigger date: Apr 23-24 → Apr 28
+- Catalyst sequence: removed 3 passed dates (Mar 31, Apr 1, Early Apr), added Apr 16 MOF + Apr 22 ceasefire expiry
+- JGB 10Y threshold: BREACHED → NEAR (MOF Apr 9: 2.397%, 1.3bp below)
+- Brent threshold: $115 → $97
+
+**TIMELINE.md:** Fixed week labels (THIS WEEK/WEEK 2 → RESOLVED), Apr 23-24 → Apr 28, scenario rates updated from 0.75%/1.00% to 1.00%/1.25% (rate is already AT 0.75%).
+
+**CALENDAR.md:** Pruned resolved Apr 7-11 week, migrated insurer plans to Apr 14 section.
+
+**MEMORY.md:** Removed 5 script implementation findings (now baked into `scripts/` toolkit), trimmed stale MHLW date reference, updated References cross-link.
+
+**STATUS.md:** Replaced 25-line narrative block with 2-line summary (narrative lives in TIMELINE per doc ownership), simplified carry unwind table (removed stale comparison column).
+
+---
+
 ## 2026-04-11 — DATA ACCURACY AUDIT (STATUS refresh, no THESIS version bump)
 
 ### STATUS.md data corrections

@@ -48,8 +48,8 @@
 
 | Timeframe | Probability | Key Driver |
 |-----------|-------------|------------|
-| **7 day** | **80%** | USD/JPY ~159.76; oil pullback reduced MOF urgency briefly but escalation resumed. CFTC shorts -72.9K (growing). |
-| **30 day** | **95%** | Tankan beat clears BOJ data hurdle. April 23-24 hike ~45-50%. Asada dovish but won't block. |
+| **7 day** | **68%** | USD/JPY 159.59; oil $100+ (blockade) delays unwind short-term (Phase 1). CFTC shorts -93,742 (52% of Jul '24 peak). |
+| **30 day** | **93%** | BOJ April 28 hike ~60-65%. Blockade makes hike MORE urgent (oil → CPI). |
 | **60 day** | **95%** | Structural case intact. Hedge ratio 44.4% (14yr low). $370-550B unhedged. BOJ path locked through May 1. |
 
 ---

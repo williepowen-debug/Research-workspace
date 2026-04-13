@@ -1,6 +1,6 @@
 # Japanese Life Insurer Tracker
 
-**Last Updated:** 2026-04-07
+**Last Updated:** 2026-04-12
 **Purpose:** Dashboard for tracking Big 10 insurer positioning, FY2026 investment plans, and repatriation signals. Updated as plans drop (expected Apr 14-25).
 
 ---
@@ -51,6 +51,16 @@
 2. Any insurer dropping a headline UST reduction target (like Fukoku's 2023 hedged foreign debt exit)
 3. ESR disclosures in May-June (first full-year under new regime)
 
+**Apr 12 context — Hormuz blockade impact on insurer calculus:**
+- Oil spike deepens trade deficit → yen weakens further → unhedged foreign bond FX GAINS short-term (positions entered at 135-145, spot heading toward 160+). This is the OPPOSITE of the repatriation trigger — FX gains paper over bond losses.
+- BUT: higher oil → higher Japan CPI → BOJ hike MORE urgent → JGB yields rise further → unrealized JGB losses DEEPEN. The ESR pressure accelerates even as FX provides temporary relief.
+- Net: blockade DELAYS repatriation trigger (FX tailwind) while DEEPENING the eventual stress (JGB losses compound). Makes the eventual selling wave LARGER when it comes.
+- New signal to watch: any insurer citing "geopolitical uncertainty" as reason to accelerate foreign bond unwind.
+
+**New intel (Aviva Investors, Feb 2026):**
+- Insurers using **repacks** (structured cashflows converting foreign-currency assets to yen-denominated notes) to reduce FX noise under J-ICS while keeping yield exposure. Repacks ≠ repatriation but signal desire to reduce FX volatility.
+- Purchase decisions now center on "solvency resilience, asset-liability duration alignment, and impairment risk" — confirms ESR is the new governing framework.
+
 ---
 
 ## KEY DATES
@@ -73,6 +83,32 @@
 | `research/outputs/NORINCHUKIN_CLO_CONTAGION.md` | Norinchukin ¥9.2T CLO book, contagion chain |
 | `research/outputs/JAPAN_INSURER_PRIVATE_CREDIT_EXPOSURE.md` | $40-53B PC exposure, double-hit scenario |
 | `thesis/THESIS.md` § Channel 1 | Repatriation thesis, flow scenarios |
+
+---
+
+---
+
+## MONITORING CHECKLIST — WEEK OF APR 14
+
+**Daily search queries (run at each boot):**
+1. `"Fukoku Mutual" OR "T&D Holdings" OR "Taiyo Life" investment plan 2026` — first movers expected Apr 14-18
+2. `"Nippon Life" OR "Dai-ichi" OR "Meiji Yasuda" investment plan 2026` — Big 4 expected Apr 21-25
+3. `Reuters TABLE Japanese insurer investment fiscal 2027` — annual roundup (historical pattern, high-value when it drops)
+4. `Japan life insurer foreign bond allocation FY2026` — catch any aggregated reporting
+
+**What to extract from each plan:**
+- [ ] Foreign bond direction: increase / flat / decrease? Explicit ¥ target?
+- [ ] Super-long JGB stance: buying / holding off / selling?
+- [ ] Hedge ratio guidance: maintaining low? Increasing?
+- [ ] Private credit: expanding / maintaining / reducing?
+- [ ] ESR disclosure: number given? If withheld (like Meiji Yasuda), that IS the signal.
+- [ ] Any explicit UST reduction target or "yen appreciation preparation" language?
+
+**Signal routing:**
+- ANY insurer announces UST reduction → signal LIQUID immediately (outbox)
+- Aggregate cuts >$30B announced → signal LIQUID + PROME (🔴)
+- ESR below 200% disclosed → signal LIQUID + PROME (🔴)
+- All plans unchanged → note in STATUS, hold thesis weights
 
 ---
 

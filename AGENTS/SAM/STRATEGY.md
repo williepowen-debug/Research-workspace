@@ -22,7 +22,7 @@
 ### When to ADD (Tranche 2: +4 shares to 12 total)
 
 **Hard triggers (act on either):**
-- BOJ hikes at April 23-24 or May 1 meeting
+- BOJ hikes at April 28 or May 1 meeting
 - USD/JPY sustains below 155 with oil below $100
 
 **Soft confirmation (increases conviction but don't act alone):**
@@ -87,7 +87,7 @@ Three lenses on the same risk. Full technical detail: `research/outputs/VOL_OPTI
 
 **2. Timing — "Is the move imminent?"**
 - Vol signals are LEADING indicators. They move before spot.
-- Critical check window: April 14-18 (one week pre-BOJ April 23-24)
+- Critical check window: April 14-18 (one week pre-BOJ April 28)
 - If convergence is firing by then, the move is being front-run. Maximum confidence when trigger fires.
 
 **3. Exit — "Is the move done?"**

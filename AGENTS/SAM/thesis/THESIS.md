@@ -1,7 +1,7 @@
-# SAM THESIS — v1.0
+# SAM THESIS — v1.2
 
 **Version:** 1.2
-**Last Updated:** 2026-04-05
+**Last Updated:** 2026-04-12
 **Status:** 🔴 ESCALATING STRESS — Multiple simultaneous triggers loading
 **Conviction:** HIGH
 
@@ -55,13 +55,13 @@ Life insurers also hold ~$40-53B (~$45B central est.) in US private credit — m
 
 ### Channel 2: Carry Unwind (SAM → HENRY)
 
-**Current probability:** 85% (7d) / 97% (30d) / 97% (60d)
+**Current probability:** 68% (7d) / 93% (30d) / 97% (60d)
 
-CFTC net short JPY at -67,800 contracts — TRIPLED in 2 weeks. July 2024 pre-unwind was -180K (we're at 38%). The velocity of buildup means more violent snap when it fires. Aug 2024 precedent: the unwind took hours, not days.
+CFTC net short JPY at -93,742 contracts (Apr 7 release). July 2024 pre-unwind was -180K (we're at 52%). The velocity of buildup means more violent snap when it fires. Aug 2024 precedent: the unwind took hours, not days.
 
 **Triggers (any one sufficient):**
 - MOF intervention at 160 (verbal warning already at 159.5; 160 breached Mar 27)
-- BOJ hike (May 1 base case; April 23-24 live)
+- BOJ hike (May 1 base case; April 28 live)
 - Fed forced cuts via private credit cascade (USD/JPY sub-145 without BOJ)
 - Risk-off event (geopolitical escalation → safe haven yen bid)
 
@@ -100,11 +100,10 @@ CFTC net short JPY at -67,800 contracts — TRIPLED in 2 weeks. July 2024 pre-un
 
 | Date | Catalyst | Expected Impact |
 |------|----------|----------------|
-| **Mar 31** | FY2025 end — repatriation window closes | Removes near-term JPY tailwind |
-| **Apr 1** | Tankan survey — BOJ data input | Strong = April hike probability jumps |
-| **Early Apr** | SK refiner run cuts deepen (350K+ bpd confirmed) | Asia-Pacific product shortage → Japan CPI |
 | **Apr 15** | Feb TIC data (Japan UST flows) | First confirmation of March selling scale |
-| **Apr 23-24** | BOJ meeting — hike possible | +3-5% FXY on surprise hike |
+| **Apr 16** | MOF ITS weekly release (DECISIVE) | >¥2T = regime change → rebalance to stress case |
+| **Apr 22** | Ceasefire expiry | Collapse = oil $105+, Phase 1 extends |
+| **Apr 28** | BOJ meeting — hike LIVE (~70%) | +3-5% FXY on surprise hike |
 | **May 1** | BOJ meeting — BASE CASE HIKE | +5-8% structural yen move |
 | **Late May** | Japan April CPI (reflects oil shock + SK disruption) | Confirms BOJ path locked |
 
@@ -116,7 +115,7 @@ Oil shock creates a two-phase JPY dynamic:
 - **Phase 1 (weeks 1-2):** Oil spike → trade deficit widens → JPY WEAKENS → carry survives
 - **Phase 2 (weeks 2-8):** Recession risk compounds → safe haven yen WINS → carry unwind
 
-Current state: Brent ~$115 (+55% in March). SK refiner run cuts active (GS Caltex -125K, S-Oil -223K). Force majeure declared. Asia-Pacific product shortage feeding Japan CPI.
+Current state: Brent ~$97 (post-ceasefire collapse from $113 peak; Hormuz blockade announced Apr 12). SK refiner run cuts active. Asia-Pacific product shortage feeding Japan CPI.
 
 **Oil-yen paradox:** Yen weakening DESPITE surging JGB yields = oil/current account dominating. This is TEMPORARY. Makes BOJ hike MORE urgent, not less. When oil stabilizes or BOJ acts → rate differential dominates → yen snaps back hard.
 
@@ -139,10 +138,8 @@ If cascade → recession → Fed cuts → USD weakens → JPY sub-145 WITHOUT BO
 
 ## POSITION VIEW
 
-**FXY (CurrencyShares Japanese Yen Trust):** Long. 4 shares starter. Entry decision card issued Mar 27.
+**FXY (CurrencyShares Japanese Yen Trust):** Long. 8 shares (4 starter + Tranche 1 executed). Entry ~$57.36.
 
-- Entry at ~$57.36 / USD/JPY ~160
-- Tranche 1: +4 shares Mon open (pre-intervention)
 - Tranche 2: +4 shares on confirmation (BOJ or intervention dip)
 - Target: $60-62 / USD/JPY 148-152 (6-month)
 - Stop: ~$55.05 / USD/JPY 167 (thesis break: no MOF + BOJ turns dovish)
@@ -158,9 +155,9 @@ If cascade → recession → Fed cuts → USD weakens → JPY sub-145 WITHOUT BO
 | USD/JPY 147 | Forced carry unwind | SET |
 | USD/JPY 145 | Unhedged positions underwater → mechanical selling | SET |
 | USD/JPY 130-135 | Life insurer forced systematic selling (avg entry rate for unhedged) | SET |
-| JGB 10Y 2.40% | Stress crossover | 🔴🔴 **BREACHED** (Apr 7 — highest since 1997) |
+| JGB 10Y 2.40% | Stress crossover | 🔴 **BREACHED** — MOF Apr 10: 2.439% (confirmed) |
 | JGB 30Y 4.0% | Severe insurer stress / acceleration zone | WATCH |
-| Brent $120 | Kharg Island scenario | 🔴 WATCH ($115 current) |
+| Brent $120 | Kharg Island scenario | 🟠 WATCH ($97 — blockade announced, post-ceasefire) |
 | BOJ rate 0.75% | Political ceiling (mortgage constraint) | 🔴 **AT CEILING** (Dec 2025) — next hike breaches |
 
 ---
@@ -191,7 +188,7 @@ If cascade → recession → Fed cuts → USD weakens → JPY sub-145 WITHOUT BO
 ## CROSS-AGENT LINKS
 
 - **→ LIQUID:** Life insurer UST selling ($80-500B range). Hedged returns inverted. Repatriation active. Hedge ratio 44.4% (14yr low) = $370-550B unhedged. Norinchukin CLO ¥9.2T shrinking. Japan holds $1,185.5B USTs.
-- **→ HENRY:** Carry unwind (85-97% probability). CFTC shorts tripling. Aug 2024 speed precedent.
+- **→ HENRY:** Carry unwind (68-97% probability). CFTC shorts at 52% of Jul 2024 peak. Aug 2024 speed precedent.
 - **← HAWK:** War → Japan energy vulnerability (90% ME oil dependent). Dimona→Fordow→Kharg path.
 - **← HANS/BROCK:** Private credit cascade → Fed cuts → USD/JPY sub-145 independent of BOJ.
 
