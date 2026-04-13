@@ -7,8 +7,9 @@ Detect stress transmission early enough to position ahead of consensus.
 2. **Private credit cascade:** BROCK → SHADE (insurance) → LIQUID (funding)
 3. **Energy shock:** HAWK → BRENT → HENRY (demand destruction)
 4. **Japan:** SAM — independent trigger via carry unwind → LIQUID
+5. **Volatility:** VIOLET — credit-to-vol lag detection → HENRY, LIQUID, RED
 
-NEXUS synthesizes across all chains. MARCO feeds immigration/labor supply into LABOR + BRENT.
+NEXUS synthesizes across all chains. MARCO feeds immigration/labor supply into LABOR + BRENT. **VIOLET tracks credit-to-vol transmission — when credit spreads widen and VIX hasn't caught up.**
 
 ## Agents
 
@@ -32,6 +33,7 @@ NEXUS synthesizes across all chains. MARCO feeds immigration/labor supply into L
 | HERMES | Signal delivery | Utility | ❌ Persistent (Telegram) |
 | ORACLE | Prediction markets | Utility | ✅ OK |
 | DARWIN | System evolution | Utility (inactive) | ✅ OK |
+| **VIOLET** | **VIX, vol term structure** | **Credit → Vol** | **✅ OK** |
 
 ---
 
