@@ -1,6 +1,6 @@
 # CARL Sub-Agent Team
 
-**Updated:** 2026-04-09
+**Updated:** 2026-04-13
 
 ---
 
@@ -8,8 +8,8 @@
 
 | Agent | Domain | Status | Last Refresh | Next Catalyst | Stale? |
 |-------|--------|--------|-------------|---------------|--------|
-| **STUE** | Student loans (DQ, default, SAVE/RAP, servicers) | 🟢 BUILT | **Apr 10** | Sweet v McMahon Apr 15 (5 days), SAVE transition Jul 1, SAVE end Sep 30 | ✅ Current |
-| **HOMER** | Housing (foreclosures, MF DQ, builders, state-level) | 🟢 BUILT | Apr 7 | MBA Q1 NDS (~May), Fannie MF monthly | ⚠️ 2 days |
+| **STUE** | Student loans (DQ, default, SAVE/RAP, servicers) | 🟢 BUILT | **Apr 13** | Sweet v McMahon Apr 15 (2 days), AFT/MOHELA May 28, SAVE transition Jul 1 | ✅ Current |
+| **HOMER** | Housing (foreclosures, MF DQ, builders, state-level) | 🟢 BUILT | **Apr 13** | NAHB HMI Apr 15, DHI Apr 21, PHM Apr 23, Fannie MF Mar (late Apr), CS Feb Apr 28 | ✅ Current |
 | **GIG** | Gig economy (oversupply, Dave 28DPD, gas squeeze, AV) | 🟢 BUILT | **Apr 9** | Dave Q1 earnings May 7-12 | ✅ Current |
 | **PHAN** | Phantom debt / BNPL ($400B+ invisible, stacking, fintech cockroaches) | 🟢 BUILT | **Apr 9** | Affirm Q3 FY2026 ~May, CFPB 1033 ON HOLD | ✅ Current |
 | **POLLY** | Insurance (P&C, FAIR plans, health, FL/CA, auto) | 🟢 BUILT | **Apr 9** | FL hurricane season Jun 1, ACA subsidy cliff | ✅ Current |

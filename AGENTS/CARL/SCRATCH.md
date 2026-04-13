@@ -1,53 +1,68 @@
 # CARL SCRATCH
-**Last session:** 2026-04-13 ~15:50 UTC
-**Type:** Full boot, CC delinquency deep dive for Will, Dimon shareholder letter analysis, JPM earnings prep
+**Last session:** 2026-04-13 ~19:10 UTC
+**Type:** Full boot, STUE/HOMER data refresh + gap analysis + research, massive workbook update, KB architecture audit
 
-**PRIORITY-1:** Process JPM Q1 earnings (Apr 14 7:00 AM ET) — CC NCO rate, reserve builds, Dimon consumer commentary. This is the first major bank Q1 read on consumer credit.
+**PRIORITY-1:** Process JPM Q1 earnings (Apr 14 7:00 AM ET) — CC NCO rate, reserve builds, Dimon consumer commentary. Context: JPM monthly CC DQ Jan 0.88% → Feb 0.92% (+4bps). Zacks cut to Hold Apr 11.
 
 ---
 
 ## WHAT HAPPENED
-1. **Full boot** — Read SCRATCH, STATUS, TEAM, SCHEMA. All 7 sub-agents built and current.
-2. **CC delinquency deep dive** — Will requested simplified breakdown. Pulled all CC-related KB, VX, FLOW data. Delivered comprehensive briefing covering: headline number (12.70%, 92% GFC), SYF canary (NCO 5.8%, +110bps), ALLY multi-channel (CC NCO 11.2%), SoFi CNL trigger, Goeasy -57% Canadian canary, phantom debt ($150-200B invisible), payment hierarchy, transmission mechanics, survivorship bias, and why aggregate understates true stress.
-3. **Dimon shareholder letter analysis (Apr 11)** — 3 risks: geopolitics (Iran/Hormuz/tariffs), private credit ($1.8T, losses "higher than expected"), AI labor disruption. Dimon confirms two CARL vectors: Hormuz → fertilizer → food CPI, and private credit as hidden channel.
-4. **JPM monthly CC data found** — Jan 0.88%, Feb 0.92% (+4bps MoM). Prime lender DQ rising. Zacks cut JPM to Hold (Apr 11).
-5. **Identified research targets** — Prioritized with Will: (Tier 1) JPM earnings, market data refresh, HY spread disconnect, ABS trust-level baseline. (Tier 2) SYF prep, SAVE cliff mechanics, tariff transmission. (Tier 3) FL deep dive, K-shape top-40%, gig gas squeeze.
-6. **KB updated** — Added KB-CARL-178 (JPM monthly CC DQ) and KB-CARL-179 (Dimon letter 3 risks). Total: 179 entries.
-7. **Note:** SAM has uncommitted changes — did NOT pull per git protocol. Inbox has 1 unprocessed signal (WALTER CPI/UMich/stagflation).
+1. **Full boot** — Read SCRATCH, STATUS, SCHEMA, TEAM. Synced from GitHub.
+2. **STUE data refresh** — Defaults jumped 7.7M → 9.2M (+1.5M in 90 days, Mar 2026). 2.4M late-stage DQ. FICO confirmed cascade: avg -62 pts, Gen Z 14.4% at -50pt+. Sweet v McMahon Apr 15 deadline — DOE likely misses. AFT/MOHELA in discovery (May 28).
+3. **HOMER data refresh** — Existing home sales 3.98M SAAR (approaching <4.0M RED). CMBS MF DQ ATH 7.15% (shadow rate 9.07%). TX overtook FL in FC starts. Mortgage rates eased to 6.37%. FL condo 13.2 months. Builder K-shape confirmed (LEN 15.2% vs TOL 26.5%).
+4. **Update plan + execution** — Both sub-agents audited CARL files and produced UPDATE_PLAN.md. Executed all changes: 15 VX row updates + 8 new VX vectors, 8 KB existing updates + 14 new entries, 4 FLOW updates, 8 PREDICTIONS updates, STATUS dashboard overhaul.
+5. **Gap analysis** — STUE found 13 gaps, HOMER found 17 gaps. Prioritized 5 for agent research.
+6. **5 parallel research agents** — (a) Sweet v McMahon: DOE hasn't issued notices, filed for more time Apr 6, Judge Gilliam, no stay exists. (b) Oct 2023 non-resumption: 30-47% empirically confirmed (GAO/CFPB/Embold primary sources). (c) FICO Spring 2026: primary PDF found + SOURCE CONFLATION CAUGHT (near-prime -100 pts is TCF/PB, not FICO). (d) MOHELA state AG: 9-jurisdiction CID working group enumerated, MO AG defending. (e) CFPB Ombudsman: 22,900 complaints (record), MOHELA 5,701 (2x disproportionate), enforcement deprioritized.
+7. **Research integration** — 6 new KB entries (194-199), source conflation fix on KB-181/182, Sweet details on KB-183, VX-SL-07/SL-08 updated, CRL-13 70→75%, STUE SERVICER.tsv gap filled.
+8. **KB architecture audit** — Mapped all 195 entries by Group. Identified: HOUSING (40) and STUDENT_LOAN (28) ready to push to sub-agents. AUTO/ABS (12) and ENERGY/FOOD (11) are orphans with no sub-agent home. Built chunked migration plan. Will wants to execute in fresh session.
 
 ## STATUS CHANGES
 | Item | Change |
 |------|--------|
-| KB entries | 177 → **179** (+2: JPM monthly CC, Dimon letter) |
-| JPM CC DQ | NEW → **0.92% Feb** (+4bps from Jan 0.88%) |
-| Private Credit AUM | NEW → **$1.8T** (Dimon: larger than US HY market) |
+| KB entries | 179 → **195** (+16: 14 new + research integration) |
+| VX vectors | 94 → **101** (+7 new vectors, all rows refreshed) |
+| CRL-04 | 95% → **97%** (9.2M confirms) |
+| CRL-05 | 82% → **85%** (FICO cascade confirmed) |
+| CRL-13 | 70% → **75%** (empirical baseline 30-47%) |
+| Student loan defaults | 7.7M → **9.2M** (+1.5M in 90 days) |
+| FICO avg | NEW → **714** (cascade executing) |
+| Existing home sales | NEW → **3.98M** (approaching RED) |
+| CMBS MF DQ | NEW → **7.15% ATH** (shadow 9.07%) |
+| FL condo inventory | 8.8mo → **13.2mo** |
+| Mortgage rate | 6.46% → **6.37%** (pulled back) |
+| TX vs FL FC starts | FL led → **TX leads** (3,390 vs 3,250) |
+| MOHELA complaints | ~3,000 (2023) → **~5,701 FY2024** |
+| Source conflation | CAUGHT — FICO vs TCF/PB data separated |
+| STUE refresh | Apr 10 → **Apr 13** |
+| HOMER refresh | Apr 7 → **Apr 13** |
 
 ---
 
 ## NEXT SESSION SHOULD
 
 ### IMMEDIATE (24hrs)
-1. **JPM Q1 earnings — Apr 14 7:00 AM ET** — Process CC NCO rate, reserve builds, consumer commentary, any guidance changes. Compare to JPM monthly data (0.92% Feb DQ). Update STATUS + KB.
-2. **Sweet v. McMahon Apr 15** — Non-Exhibit C notices deadline. If DOE misses, automatic relief triggers (same pattern as Exhibit C).
-3. **Market data refresh** — All dashboard values are Apr 9. Gas, oil, mortgage rates, ceasefire status need update.
+1. **JPM Q1 earnings — Apr 14 7:00 AM ET** — CC NCO rate, reserve builds, consumer commentary. Compare to monthly data (0.92% Feb DQ).
+2. **Sweet v. McMahon Apr 15** — Monitor for DOE compliance or auto relief trigger. Check tateesq.com / PPSL.
+3. **NAHB HMI Apr + MBA Apps Apr 15** — Both release tomorrow. Feed VX-CARL-BLDR-01 and HSG-01.
 
 ### UPCOMING (this week)
-4. **SYF Q1 earnings Apr 21** — CRL-12 test (NCO >6%?). Build watch framework.
-5. **OZK earnings Apr 16 (release) / Apr 22 (call)** — CRE construction vintage stress.
-6. **HY spread disconnect analysis** — Why 317bps when consumer credit at 92% GFC? Key counter-signal to investigate.
-7. **ABS trust-level baseline pull** — Discover/Cap One CC payment rates. Leading indicator gap still unfilled.
+4. **SYF Q1 earnings Apr 21** — CRL-12 test (NCO >6%?).
+5. **OZK earnings Apr 16 (release) / Apr 22 (call)** — CRE construction vintage.
+6. **DHI Q2 earnings Apr 21** — Builder margin vs 19.0-19.5% guidance.
+7. **PHM PulteGroup Q1 Apr 23** — Missing middle of builder K-shape.
 
 ### UPCOMING (next 2 weeks)
-8. **FL UI Wave 2 — Apr 26** — Second peak approaching.
-9. **Process WALTER inbox signal** — CPI/UMich/stagflation data.
-10. **Test spawn-and-synthesize workflow** — All 7 agents built.
+8. **Case-Shiller Feb — Apr 28** — Tampa trajectory, Midwest broadening.
+9. **Census Mar Housing Starts — Apr 29** (delayed).
+10. **Fannie MF March DQ — late Apr** — THE critical data point (GFC breach test).
+11. **KB MIGRATION — Chunk 1: HOUSING → HOMER (40 entries)** — Will approved chunked approach. Start in next session.
 
 ### BACKLOG (no deadline)
-11. SDART trust-level Feb/Mar 10-D data.
-12. Google Trends exact index values.
-13. Tariff → consumer transmission mapping ($1,500/HH flow mechanics).
-14. K-shape top-40% evidence consolidation.
-15. Formalize STUE→CARL signal protocol.
+12. KB migration Chunks 2-6 (STUDENT_LOAN → STUE, BNPL/GIG/SB → sub-agents, AUTO/ABS new agent decision, ENERGY/FOOD decision, triage rest).
+13. SDART Feb/Mar EDGAR 10-D manual pull.
+14. FL DBPR SIRS compliance data.
+15. Google Trends exact index values.
+16. Process WALTER inbox signal (CPI/UMich/stagflation).
 
 ---
 
@@ -64,10 +79,10 @@ No pending signals.
 ## WORKBOOK HEALTH
 | TSV | Rows | Last Modified | Note |
 |-----|------|---------------|------|
-| KB | 179 | Apr 13 | ✅ Current (+2 new: JPM CC, Dimon letter) |
-| VX | 94 | Apr 10 | ⚠️ 3 days |
-| FLOW | 21 | Apr 10 | ⚠️ 3 days |
-| PREDICTIONS | 18 | Apr 10 | ✅ Current |
+| KB | 196 | **Apr 13** | ✅ Current (+16 this session, source conflation fixed) |
+| VX | 101 | **Apr 13** | ✅ Current (+7 new vectors, all rows refreshed) |
+| FLOW | 21 | **Apr 13** | ✅ Current (4 updates) |
+| PREDICTIONS | 18 | **Apr 13** | ✅ Current (3 confidence changes, 6 notes updates) |
 | ABS_BASELINE | 59 | Apr 6 | ⚠️ 7 days — SDART trust-level still Jan 2026 |
 | BNPL_STRESS | 44 | Apr 1 | ⚠️ 12 days — needs PHAN cross-check |
 | STATE_DIFFUSION | 63 | Apr 1 | ⚠️ 12 days |
@@ -77,6 +92,6 @@ No pending signals.
 ---
 
 ## URGENT
-- **JPM Q1 earnings Apr 14 7:00 AM ET** — first major bank consumer credit read
-- Sweet v. McMahon non-Exhibit C deadline Apr 15
-- SYF earnings Apr 21 — CRL-12 NCO test
+- **JPM Q1 earnings Apr 14 7:00 AM ET** — first major bank Q1 consumer credit read
+- **Sweet v. McMahon Apr 15** — DOE likely misses → auto full relief triggers
+- **NAHB HMI + MBA Apps Apr 15** — two data releases same day

@@ -1,6 +1,6 @@
 # CARL STATUS
-**Updated:** 2026-04-09 ~14:50 UTC
-**Overall:** 🔴🔴 CRITICAL — Convergence 47/50. **Savings rate 4.0% (↓0.5pp), real DPI -0.5% — consumers burning savings.** Iran 2-week ceasefire (fragile, Hormuz blocked). Oil $115→$97 but recovering. Gas $4.16 still above breakpoint. Core PCE 3.0% (Fed locked). Student loan cascade + JOLTS 0.91. Q3 = consumption stress quarter. Tariff cost loading ~$1,500/HH Apr-Oct.
+**Updated:** 2026-04-13 ~17:30 UTC
+**Overall:** 🔴🔴 CRITICAL — Convergence 51/55. **Student loan defaults 9.2M (+1.5M in 90 days), FICO 714 (cascade EXECUTING), existing home sales 3.98M (approaching RED).** Savings rate 4.0%, real DPI -0.5%. Gas $4.16 above breakpoint. CMBS MF DQ ATH 7.15%. Core PCE 3.0% (Fed locked). JOLTS 0.91. Sweet v McMahon Apr 15 (2 days). Q3 = consumption stress quarter. Tariff cost loading ~$1,500/HH Apr-Oct.
 
 *Check-in archives: `archive/status/` (pending Phase 3 move)*
 
@@ -17,7 +17,7 @@
 | Auto 90+ DQ | **5.21%** (near 5.27% max) | Q4 2025, NY Fed | 🔴 |
 | Student Loan 30+ DQ | **16.3% WORST EVER** (~25% w/payment due behind) | Q4 2025 NY Fed / Feb 2026 TCF | 🔴🔴 |
 | Student Loan 90+ DQ | **9.6%** (18-29 cohort: 21%) | Q4 2025, NY Fed | 🔴🔴 |
-| Student Loan Defaults | **7.7M / $180B** (+2.5M since Sep 2025) | Dec 2025, FSA | 🔴🔴 |
+| Student Loan Defaults | **9.2M / $180B** (+1.5M in 90 days, Dec→Mar) + **2.4M late-stage DQ** | Mar 2026, ED/FSA | 🔴🔴 |
 | SAVE Transition | **ENDING Jul 1** — 7.5M must select new plan | ED.gov | 🔴 |
 | MOHELA Servicer Failure | **2.5M missed bills → 800K DQ** | DOE / AFT | 🔴 |
 | BNPL Late Rate | **41%** (+7pp YoY) | 2025, CFPB | 🟠 |
@@ -29,10 +29,13 @@
 |--------|-------|-------|--------|
 | Fannie MF DQ | **0.74%** (6bps from GFC) | Feb 2026, Fannie | 🔴 |
 | FHA DQ | **11.52%** vs Conv 2.89% | Q4 2025, MBA | 🔴 |
-| 30-Yr Mortgage | **6.46%** (+46bps in 1mo, rising weekly since Iran) | Apr 6, Freddie PMMS/AP | 🟠 |
+| 30-Yr Mortgage | **6.37%** (pulled back from 6.46% Apr 2 spike; MBA 6.51%) | Apr 9, Freddie PMMS | 🟠 |
 | Rent Growth Negative | **56% of top 100 cities** | Jan 2026, Apollo/Slok | 🟠 |
 | Median Homebuyer Age | **59** (was 31 in 1981) | Mar 2026, Apollo/Slok | 🔴 |
-| Foreclosures Q4 | **58,140** (+41% YoY) | Q4 2025, ATTOM | 🟠 |
+| Foreclosures Q4 | **58,140** (+41% YoY); Monthly Feb: **38,840** (+20% YoY) | Q4 2025 / Feb 2026, ATTOM | 🟠 |
+| Existing Home Sales | **3.98M SAAR** (-3.6% MoM, lowest since Jun, approaching <4.0M RED) | Mar 2026, NAR | 🔴🔴 |
+| CMBS MF DQ | **7.15% NEW ATH** (+30bps MoM; shadow rate 9.07%) | Mar 2026, Trepp | 🔴🔴 |
+| FL Condo Inventory | **13.2 months** (condo prices -6.1% YoY, 92% declining) | Q1 2026 | 🔴🔴 |
 | 90+/FC Pipeline | **878K** (+175K/25% in 4mo, cure -40%) | Feb 2026, MBA | 🔴🔴 |
 | FL Foreclosures YoY | **+190%** | Q4 2025, ATTOM | 🔴 |
 | "Help with mortgage" | **ALL-TIME HIGH** | Mar 2026, Google | 🔴🔴 |
@@ -83,7 +86,7 @@
 | 1 | CC 90+ DQ → GFC | 🔴 4 | 12.70% = 92% of GFC. Q1 >13% = 5. |
 | 2 | Subprime Auto 60+ | 🔴🔴 5 | **ATR** 6.9% (Jan 2026). Max. |
 | 3 | Fannie MF DQ → GFC | 🔴 4 | 0.74% = 6bps from peak. |
-| 4 | Student Loan 90+ | 🔴🔴 5 | **7.7M default, ~25% DQ, SAVE ending Jul 1, MOHELA 800K manufactured DQ.** Max. |
+| 4 | Student Loan 90+ | 🔴🔴 5 | **9.2M default (+1.5M in 90 days), 2.4M late-stage DQ, FICO 714 (primary driver), credit cascade EXECUTING. SAVE ending Jul 1, MOHELA 800K manufactured DQ.** Max. |
 | 5 | Gas Price Squeeze | 🔴🔴 5 | **$4.08 FIRED.** Diesel $5.51. Max. |
 | 6 | UI Exhaustion Wave | 🔴🔴 5 | Duration 25.7wks (+2.0 single month). Cont claims drop = exhaustion. DOGE 260K+ cuts. Max. |
 | 7 | FL Triple Squeeze | 🔴 4 | Energy + HOA + Insurance. |
@@ -93,7 +96,7 @@
 
 | 11 | SB Bankruptcy + Owner Income | 🔴 4 | **NEW.** SubV +67% YoY BREACHED. Owner income destruction $73-145B invisible. SBA defaults 3.7% (12-yr high). Tariff accelerant active. |
 
-**Total: 51/55 → 🔴🔴 CRITICAL.** New vector #11 (SB bankruptcy pipeline + owner income destruction) added from POP deep dive Apr 9. SubV +67% breached, $73-145B invisible income channel confirmed. Prior: 47/50. (+1 from Apr 3: Student loan 4→5.)
+**Total: 51/55 → 🔴🔴 CRITICAL.** Apr 13 update: Student loan defaults 9.2M (from 7.7M), FICO cascade EXECUTING (714, -62 pts avg). CMBS MF DQ ATH 7.15%. Existing home sales 3.98M (approaching RED). TX overtook FL in FC starts. Prior: 47/50 → 51/55 (Apr 9 POP vector #11).
 
 ---
 
@@ -118,8 +121,10 @@
 | **Jul 1** | **SAVE → RAP transition** — 7.5M forced into new plans. Payment shock for non-selectors. | 🔴 NEW |
 | **Jun 24** | FL Wave 1 UI exhaustion cliff (~4,500 workers) | 🔴 NEW |
 | **Q2-Q3** | Food CPI spike (triple nitrogen seizure) | 🔴🔴 |
+| **May 28** | AFT/MOHELA status conference (discovery) | 🟠 NEW |
 | **May-Jun** | Middle-market PC cuts | 🟠 |
-| **Jul-Aug** | FL exhaustion peak ($7.4M/mo hole) + national peak ($800M-$930M/mo) | 🔴🔴 NEW |
+| **Jul** | Involuntary collections restart (AWG + Treasury Offset) — 5M+ defaulted borrowers | 🔴 NEW |
+| **Jul-Aug** | FL exhaustion peak ($7.4M/mo hole) + national peak ($800M-$930M/mo) | 🔴🔴 |
 | **Q3** | **CONSUMPTION STRESS QUARTER** — UI exhaustion + gas + food CPI converge | 🔴🔴 UPGRADED |
 | **Q4+** | Foreclosure acceleration | PROJECTED |
 
@@ -172,6 +177,6 @@
 - **Thesis kill:** Claims <220K 8+ weeks AND CC 90+ DQ declines 2 consecutive quarters
 - **Time-based:** Q1 consumer earnings (April) = mandatory review → **See `EARNINGS_WATCH_Q1.md` for full calendar + watch metrics**
 
-*Next catalysts: ✅ $4/gal **FIRED** (Mar 31) | ✅ FL UI Wave 1 PASSED | ✅ USDA Plantings **PULLED** (wheat 107-yr low, corn -3.45M < 5M threshold) | ✅ JOLTS Feb **PULLED** (6.882M, ratio 0.91, hires COVID-low) | ✅ NFP Mar **PROCESSED** (+178K headline, Scenario 1/2 hybrid — LFPR collapse masks structural rot) | ✅ Student Loan Vector **REFRESHED** (7.7M default, convergence 4→5, STUE activated) | **Apr 6: Monday gap open** (67hr reaction gap) | Apr 15: Sweet v. McMahon notices | Apr 26: FL UI Wave 2 | **Jul 1: SAVE→RAP transition (7.5M borrowers)** | HY OAS 350 | $4.50/gal (~2-3 wks) | April CPI | Q1 earnings April*
+*Next catalysts: ✅ $4/gal **FIRED** (Mar 31) | ✅ FL UI Wave 1 PASSED | ✅ USDA Plantings **PULLED** (wheat 107-yr low, corn -3.45M < 5M threshold) | ✅ JOLTS Feb **PULLED** (6.882M, ratio 0.91, hires COVID-low) | ✅ NFP Mar **PROCESSED** (+178K headline, Scenario 1/2 hybrid — LFPR collapse masks structural rot) | ✅ Student Loan Vector **REFRESHED** (7.7M default, convergence 4→5, STUE activated) | **Apr 6: Monday gap open** (67hr reaction gap) | **Apr 15: Sweet v. McMahon non-Exhibit C deadline** (DOE compliance unconfirmed — high prob of miss → auto full relief) | Apr 26: FL UI Wave 2 | **Jul 1: SAVE→RAP transition (7.5M borrowers)** | HY OAS 350 | $4.50/gal (~2-3 wks) | April CPI | Q1 earnings April*
 *Prior check-ins (Mar 20), K-shape evidence table, fertilizer calendar archived to `archive/status/` (pending move)*
 *Key docs: `domain/sources/CVNA_FRAUD_WATCH.md` | `workbook/ABS_BASELINE.tsv` | `workbook/STATE_DIFFUSION.tsv`*

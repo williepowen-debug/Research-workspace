@@ -10,9 +10,9 @@ NATIONAL	Cure Rate Change	ALL	-40%			2026-02	MBA/ICE	R	Fewer cures = pipeline gr
 NATIONAL	HUD Partial Claims	FHA	ENDED			2025-10-01	HUD	R	No more repeat deferrals. COVID runway exhausted. See KB-CARL-014.
 NATIONAL	Help with Mortgage Search	ALL	ATH			2026-03	Google Trends	R	All-time high search volume.
 FL	Foreclosures YoY	ALL	+190%			2025-Q4	ATTOM	R	Canary state. See KB-CARL-066.
-FL	FC Starts (Monthly)	ALL	3,523		Leads nation	2026-01	ATTOM	R	Most starts of any state Jan 2026.
+FL	FC Starts (Monthly)	ALL	3,250	3,523	-273 MoM; #2 nationally (TX now leads)	2026-02	ATTOM	R	FC rate: 1 in 2,277 HU. Lakeland worst nationally (1 in 1,075). Punta Gorda 2nd.
 TX	Foreclosures YoY	ALL	+45%			2025-Q4	ATTOM	O	SSB 19% exposure. See KB-CARL-031.
-TX	FC Starts (Monthly)	ALL	3,116		#2 nationally	2026-01	ATTOM	O	Also among top REO states.
+TX	FC Starts (Monthly)	ALL	3,390	3,116	+274 MoM; NOW LEADS NATION	2026-02	ATTOM	R	Surpassed FL in Feb. Accelerating.
 IN	FC Rate	ALL	Worst in nation			2026-02	ATTOM	R	Indiana leads nation in FC rate Feb 2026.
 SC	FC Rate	ALL	Top 3 nationally			2026-02	ATTOM	O	South Carolina among worst FC rates.
 NATIONAL	FC Filings (Monthly)	ALL	38,840	40,534	-4% MoM, +20% YoY	2026-02	ATTOM	O	12th consecutive month of YoY increases.
