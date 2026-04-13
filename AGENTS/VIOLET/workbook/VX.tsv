@@ -1,0 +1,9 @@
+ID	Name	Current_Value	Green	Yellow	Orange	Red	Status	Last_Updated	Source	Notes
+VX-VIO-1.01	VIX Spot	19.23	<15	15-20	20-30	>30	🟡	2026-04-11	CBOE	Low vol regime. Mean reversion expected.
+VX-VIO-1.02	VIX3M	21.86	—	—	—	—	🟡	2026-04-11	CBOE	Contango. Near-term vol expectations higher than spot.
+VX-VIO-1.03	VVIX	107.30	<80	80-120	120-150	>150	🟡	2026-04-11	CBOE	Subdued vol-of-vol. Option market calm.
+VX-VIO-1.04	SKEW	144.18	<120	120-140	140-150	>150	🟡	2026-04-11	CBOE	Elevated tail risk bid. Crash protection not cheap.
+VX-VIO-1.05	VIX3M/VIX Ratio	1.14	>1.15	1.0-1.15	<1.0	<0.9	🟡	2026-04-11	Calculated	Flat contango. Early warning zone if drops below 1.0.
+VX-VIO-1.06	HY OAS	2.90%	<3%	3-4%	4-5%	>5%	🟢	2026-04-09	FRED BAMLH0A0HYM2	Tight credit spreads. No stress signal.
+VX-VIO-1.07	Regime	Low Vol	<20	20-30	30-40	>40	⚪	2026-04-11	VIOLET	Weak credit-vol correlation expected (r=0.06). Lag trade not active.
+VX-VIO-2.01	Credit-VIX Divergence	None	HY OAS <3, VIX <20	HY OAS 3-4, VIX <22	HY OAS 4-5, VIX <25	HY OAS >5, VIX <30	⚪	2026-04-11	VIOLET	No divergence. HY OAS and VIX both in low-stress range.
