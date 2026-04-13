@@ -275,7 +275,7 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 **Market Action:**
 - **KRE:** $68.94 (-1.3%) — faded from yesterday's oil-driven rally, back below $70 resistance
 - **WAL:** $76.21 (-1.2%) — holding above $75 but well below $78 threshold; Barclays cut PT $90→$88
-- **OZK:** $48.05 (+0.1%) — flat, range-bound $47-48 ahead of Apr 16 earnings
+- **OZK:** $48.05 (+0.1%) — flat, range-bound $47-48 ahead of Apr 21 earnings
 - **HY OAS:** ~294bps (stable) — CCC/HY ratio ~3.2x persists, distressed tail unchanged
 
 **Key Developments:**
@@ -304,6 +304,6 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 | HY OAS | 294bps | 320 | 26bps |
 | KRE | $68.94 | $65 | 5.7% |
 
-**Earnings Countdown:** OZK Apr 16 (6 days), WAL Apr 21 (11 days)
+**Earnings Countdown:** OZK Apr 21 (after close, conf call Apr 22), WAL Apr 21 (11 days)
 
 *Mar 6-16 detail → `archive/STATUS_mar6_mar16.md` | Mar 17-23 detail → `archive/STATUS_mar17_mar23.md`*
