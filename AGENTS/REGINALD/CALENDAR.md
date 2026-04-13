@@ -1,6 +1,6 @@
 # REGINALD CALENDAR
 
-**Last Updated:** 2026-04-09 | **View:** Forward-looking only. Past events pruned weekly.
+**Last Updated:** 2026-04-13 | **View:** Forward-looking only. Past events pruned weekly.
 
 ---
 
@@ -20,7 +20,7 @@
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |------|-------|---------------|-------------------|-----------|
-| Apr 10 | CPI (Mar data) | Captures Hormuz oil shock | Hot (>3.5% headline) = stagflation confirmed | ALL |
+| Apr 10 | CPI (Mar data) | ✅ Past — check results next session | — | ALL |
 
 ## WEEK OF APR 14 — Q1 EARNINGS WAVE BEGINS
 

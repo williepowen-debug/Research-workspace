@@ -113,13 +113,47 @@
 
 ---
 
+### President Hamblen — 🟠 LP STRUCTURE + SYSTEMATIC SELLING
+
+| Field | Detail |
+|-------|--------|
+| **Name** | Paschall B. Hamblen |
+| **Title** | President / COO |
+| **Period** | Aug 2024 – Mar 2026 (5 FDIC EFR filings) |
+| **Pattern** | Transferred 60K shares into Family LP (estate planning vehicle), then sold 6,000 shares from LP at $51-53 near highs. Position growth is 100% comp grants, zero open-market purchases. |
+| **10b5-1 Plan** | Not disclosed. |
+
+**Full Transaction History (FDIC EFR, cert #110):**
+
+| Date | Code | Shares | Price | Direct | Indirect (LP) | Total | Note |
+|------|------|--------|-------|--------|---------------|-------|------|
+| Aug 2, 2024 | G (transfer) | -60,142 direct / +60,142 LP | — | 33,608 | 60,142 | 93,750 | Moved shares into Family LP |
+| Jan 23, 2025 | S (sale) | -2,000 | $51.00 | 33,608 | 58,142 | 91,750 | Open market, via LP |
+| Feb 5, 2025 | S (sale) | -2,000 | $52.00 | 33,608 | 56,142 | 89,750 | Open market, via LP |
+| Feb 6, 2025 | S (sale) | -2,000 | $53.00 | 33,608 | 54,142 | 87,750 | Open market, via LP — 3 sales in 2 weeks at ascending prices |
+| Mar 10, 2025 | A (grant) | +28,138 | $0 | 49,311 | 54,142 | 103,453 | Comp grant |
+| Mar 10, 2025 | F (tax) | -12,435 | $44.41 | 49,311 | 54,142 | 103,453 | Mandatory tax withholding |
+| Mar 10, 2026 | A (grant) | +52,232 | $0 | 91,131 | 54,142 | 145,273 | Comp grant |
+| Mar 10, 2026 | F (tax) | -10,412 | $44.50 | 91,131 | 54,142 | 145,273 | Mandatory tax withholding |
+
+**Totals:**
+- Grants received (net of tax): +57,523 shares
+- Voluntary open-market sales: -6,000 shares ($51-53, ~$312K proceeds)
+- LP transfer: 60,142 shares restructured (not a sale, but sets up selling vehicle)
+- Net: position grew from 93,750 → 145,273 on comp alone
+- Open-market purchases: **ZERO**
+
+**Assessment:** More sophisticated than Kenny — Hamblen uses an LP structure for tax-advantaged selling and retains most comp grants. But the signal is clear: sold 6,000 shares at $51-53 (OZK now ~$48), zero voluntary purchases ever. The LP setup (Aug 2024) was specifically a selling vehicle. Not the behavior of a President who believes earnings will surprise to the upside.
+
+---
+
 ### Institutional Ownership — 🟠 SMART MONEY DIVERGENCE (13F, Dec 31, 2025)
 
 **Pattern:** Fundamental credit analysts selling hard. Quant/trading firms adding. Index/passive roughly flat.
 
 | Institution | Type | Shares (MM) | Δ Shares | Read |
 |---|---|---|---|---|
-| Wellington Mgmt | Fundamental/credit | 1.25 | **-42.89%** | Deep credit shop nearly halved — headline signal |
+| Wellington Mgmt | Fundamental/credit | 1.25 | **-42.89%** | 5-quarter trajectory: 4.22M→1.25M (-70.4%). Briefly re-entered Q2 2025 (+873K), immediately reversed with accelerating sells. Bounce-then-dump = reassessed and exited faster. |
 | D.E. Shaw | Quant | 1.38 | **-26.06%** | Major quant reduction |
 | AQR Capital | Quant | 1.58 | **-19.97%** | Elite quant cutting |
 | Morgan Stanley | Bank/wealth | 1.47 | **-14.61%** | Sell-side pulling back |
@@ -131,9 +165,20 @@
 | State Street | Index | 6.56 | +9.10% | Mechanical |
 | BlackRock | Index | 10.11 | +1.13% | Mechanical |
 
-**Note:** 13F data is as of Dec 31, 2025 (3.5 months old). Wellington N-PORT and Wasatch N-CSR searches pending for more recent data. No new 13D/13G filings in 2026 (no 5% threshold crossings). Wasatch published no commentary explaining their OZK reduction; OZK dropped entirely from Wasatch Core Growth Fund (was "strong position" in Q4 2023, absent by Q4 2025).
+**Wellington Full Trajectory (WhaleWisdom, 13F only — no N-PORT data available):**
 
-**Source:** 13F filings via institutional ownership page, EDGAR 13D/13G search, Wasatch fund commentaries (Seeking Alpha, wasatchglobal.com)
+| Quarter | Shares | Δ Shares | Δ% | Read |
+|---------|--------|----------|-----|------|
+| Q3 2024 | 4,223,452 | +1,041,198 | +32.7% | Recent peak |
+| Q4 2024 | 2,993,288 | -1,230,164 | -29.1% | Selling begins |
+| Q1 2025 | 2,205,406 | -787,882 | -26.3% | Accelerating |
+| Q2 2025 | 3,078,648 | +873,242 | +39.6% | Brief re-entry — tried to hold |
+| Q3 2025 | 2,185,334 | -893,314 | -29.0% | Immediately reversed |
+| Q4 2025 | 1,248,030 | -937,304 | -42.9% | Largest single-quarter cut. Peak-to-current: **-70.4%** |
+
+**Note:** 13F data is as of Dec 31, 2025 (3.5 months old). N-PORT search attempted (EDGAR EFTS + WhaleWisdom) — Wellington's fund-level N-PORT filings do not appear in either source for OZK. No post-Dec 31 data available. No new 13D/13G filings in 2026 (no 5% threshold crossings). Wasatch published no commentary explaining their OZK reduction; OZK dropped entirely from Wasatch Core Growth Fund (was "strong position" in Q4 2023, absent by Q4 2025).
+
+**Source:** 13F filings via institutional ownership page, WhaleWisdom position history, EDGAR 13D/13G search, Wasatch fund commentaries (Seeking Alpha, wasatchglobal.com)
 
 ---
 
@@ -154,7 +199,9 @@
 |--------|--------|------------|
 | CRO discretionary sell during reserve cuts | Strongest | 🔴 YES |
 | CFO staged selling, no 10b5-1 | Strong | 🔴 YES |
-| Director well-timed large exit | Moderate | 🔴 YES |
+| President LP structure + sales at highs | Moderate | 🟠 YES |
+| Director Whipple well-timed large exit | Moderate | 🔴 YES |
+| Director Kenny systematic grant liquidation | Moderate | 🟠 YES |
 | Zero buying across 12 months during drawdown | Strong | 🔴 YES |
 | CEO non-selling (captive) | Neutral | 🟡 Uninformative |
 

@@ -28,47 +28,43 @@
 
 ## Session Notes
 
-⚠️ **Open question:** Hamblen (President/COO) Mar 11, 2026 Form 4 — unopened. Is it a comp grant, sale, or both? Will was about to pull it when session ended. This is the most important remaining insider filing to check.
+⚠️ **Open question:** OZK earnings confirmed Apr 21 (after close), call Apr 22. OZK files NO 8-Ks on SEC EDGAR (same FDIC-only pattern as Form 4). Check OZK IR page for any pre-earnings disclosures.
 
 ### CHANGES SINCE LAST SESSION
 *(populated at next boot via market.py + darkpool.py)*
 
-### LAST SESSION (Apr 12 — institutional ownership + FDIC insider deep-dive)
-- **INSTITUTIONAL OWNERSHIP ANALYSIS:** Will screenshotted OZK institutional ownership page. Extracted full 13F data (Dec 31 2025). Key finding: fundamental credit shops selling (Wellington -43%, D.E. Shaw -26%, AQR -20%, Wasatch -6.6%) while quant/index adding (Citadel +260%, Renaissance +36%, State Street +9%). Smart money divergence = thesis supportive.
-- **FDIC DATA SOURCE DISCOVERY:** OZK dissolved its holding company in 2017 and files Form 3/4/5 with FDIC (cert #110), NOT SEC EDGAR. Standard insider tools miss OZK entirely. This explains prior "zero filings" results. Authoritative source: efr.fdic.gov/fcxweb/efr/ (JS-rendered, browser-only).
-- **FULL FDIC EFR PULL (cert #110):** Will navigated FDIC system, extracted all Form 4 filings. 18 filings in 2026, all sells/grants. Zero purchases by any insider.
-- **DIRECTOR KENNY FULL HISTORY:** Traced complete transaction record. Received 3,725 shares in comp grants over 2 years, sold 3,770. Net seller despite ~$170K in free stock. Sells 60-86% of each grant within weeks. Position declined from 7,053 to 7,008.
-- **CEO GLEASON CONFIRMED FROZEN:** Zero Form 4 filings going back to Jul 2023. Neither buying nor selling.
-- **WASATCH FUND RESEARCH:** OZK dropped entirely from Wasatch Core Growth Fund (was "strong position" in Q4 2023, absent by Q4 2025). Still in Small Cap Value (#3) and Long/Short Alpha (#10). No published commentary explaining the reduction. Wasatch dropped below 5% threshold Jun 2025 (13G/A filing).
-- **13D/13G SEARCH:** No new 5% threshold crossings in 2026. Only filing = Vanguard technical restructuring.
-- **CREATED:** OZK/INSTITUTIONAL_OWNERSHIP_PLAN.md (verification plan for 13F data)
-- **UPDATED:** OZK/INSIDERS/SELLING.md (Kenny section + institutional data), TIMELINE.md (Kenny transactions + batch filing), STATUS.md (FDIC source fix, pre-earnings pull done)
+### LAST SESSION (Apr 12-13 — Hamblen + earnings week prep)
+- **HAMBLEN FULL HISTORY (5 filings, FDIC EFR):** Aug 2024 transferred 60,142 shares → Family LP (estate planning vehicle). Jan-Feb 2025 sold 6,000 shares at $51-53 via LP (open market, Code S). Mar 2025 + Mar 2026 comp grants (net +57,523 after tax withholding). Zero open-market purchases ever. Updated SELLING.md with full transaction table.
+- **COMPLETE C-SUITE INSIDER PICTURE:** Gleason (CEO) frozen since Jul 2023. Hamblen (President) zero purchases, LP sales at highs. Hicks (CFO) staged $944K selling. Majumdar (CRO) discretionary sell during reserve cuts. Kenny (Director) net seller. Whipple (Director) $5.2M exit at top. ZERO open-market purchases across entire leadership.
+- **WELLINGTON FULL TRAJECTORY (WhaleWisdom, 13F):** 6-quarter history shows Q3 2024 peak 4.22M → Q4 2025 1.25M (-70.4%). Briefly re-entered Q2 2025 (+873K shares), immediately reversed with accelerating sells. Bounce-then-dump = reassessed and exited faster. Updated SELLING.md institutional section.
+- **WELLINGTON N-PORT — DEAD END:** N-PORT filings are structured XML, not indexed by EDGAR text search. WhaleWisdom shows only 13F data for Wellington/OZK. No post-Dec 31 data available from any programmatic source.
+- **SHORT INTEREST (yfinance, Mar 12 settlement):** OZK 15.28% SI unchanged (13.7 days to cover). EGBN 11.10% HIGH. WAL 0.06% (shorts fully covered). Shorts not flinching on OZK into earnings.
+- **OZK EDGAR DISCOVERY:** OZK has filed ZERO 8-Ks on SEC EDGAR. All EDGAR filings under OZK CIK are institutional ownership (13F/13G) filed by OTHER investors. Same FDIC-only pattern as Form 4.
+- **OZK EARNINGS CONFIRMED:** Apr 21 after market close, conference call Apr 22 7:30 AM CT. Source: GlobeNewsWire press release Mar 31. Fixed incorrect "Apr 16" references in STATUS.md.
+- **EARNINGS READ-THROUGH FILES BUILT:**
+  - MTB/STATUS.md — Created. Sector tone-setter. CRE/Tier 1 128% (3-4x less than our targets). $7.8B criticized CRE declining. NIM 3.67%. Earnings Apr 15.
+  - CFG/STATUS.md — Updated existing (had excellent 10-K data from Mar 30). Added Q4 results, Q1 estimates, "What to Watch" section. $12.5B fund finance (+40% YoY), zero analyst questions. Earnings Apr 16.
+  - KEY/STATUS.md — Created. Lower priority read-through. CRE 15%, credit improving, CET1 11.7%. Blackstone fund finance partnership new vector. Earnings Apr 16.
 - **Git:** NOT YET COMMITTED — pending session close
+
+### LAST SESSION (Apr 12 — institutional ownership + FDIC insider deep-dive)
+- 13F analysis, FDIC EFR discovery, Kenny full history, Wasatch fund research, Gleason frozen confirmed.
 
 ### LAST SESSION (Apr 10 — automation toolkit + EGBN deep-dive)
 - Automation toolkit built (8 scripts). EGBN continuity awards deep-dive. boot.py created.
 
-### LAST SESSION (Apr 9 PM — microstructure completion + 13F discovery)
-- RP-REG-5.1 all 7 tasks complete. Dark pool, options, short interest analysis. 13F institutional exits documented.
-
 ### NEXT SESSION
-**Immediate (Will has browser open for these):**
-1. **Open Hamblen (President) Mar 11, 2026 Form 4** on FDIC EFR — grant, sale, or both? Most important remaining filing.
-2. **Trace Hamblen full history** — same drill as Kenny. He has 5 filings (Aug 2024 → Mar 2026).
+**EARNINGS WEEK — priority by date:**
+1. **Monday Apr 13:** No earnings. Price action + any pre-earnings news. Run darkpool.py + market.py.
+2. **Tuesday Apr 15 (MTB pre-market):** Listen for CRE provisions, NIM, criticized CRE trend, AOCI commentary. Update MTB/STATUS.md with actuals. Flag read-throughs to OZK/WAL.
+3. **Wednesday Apr 16 (CFG + KEY pre-market):** CFG is THE call. Watch fund finance balances (Table 14), C&I NCO inflection, management tone on sponsors. KEY: office NPLs, NIM, IB fees.
+4. **Thursday Apr 17 (RF):** Consumer DQ, CLO marks. No file built — lower priority.
+5. **Monday Apr 21 (OZK after close + WAL):** Position names report. All read-through data should be synthesized by then.
 
-**Institutional ownership plan (remaining items):**
-3. **OZK Q4 2025 earnings call transcript** — check if Wellington/Wasatch analysts asked CRE questions (selling + probing = conviction)
-4. **Wellington N-PORT (Jan 2026)** — monthly fund holdings on EDGAR, 60-day lag. Shows if Wellington continued selling after Dec 31.
-5. **Short interest update** — FINRA mid-Apr data imminent
-
-**EGBN (carried forward, 9 days to earnings Apr 21):**
-6. Confirm Riel family relationship (proxy/10-K)
-7. EGBN Q4 10-K / earnings transcript — DOGE commentary
-8. EGBN earnings date confirmation
-
-**Other carryover:**
-9. WAL position decision
-10. OZK 8-K check (~Apr 14)
-11. Read-through watchlist — MTB, CFG, RF
-12. Cantor PACER docket (needs access)
-13. OZK remaining prompts (#13, #19)
+**Carried forward (lower priority during earnings week):**
+6. EGBN earnings prep (grade C, ~10 days) — date still unconfirmed (~Apr 22-25)
+7. WAL position decision
+8. OZK Q4 earnings call transcript — Wellington/Wasatch questions
+9. Cantor PACER docket (needs access)
+10. OZK remaining prompts (#13, #19)
+11. CPI Apr 10 results — check what printed

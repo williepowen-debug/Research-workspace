@@ -1,6 +1,7 @@
 # CFG STATUS
-**Last Updated:** 2026-03-30 | **Status:** 🟠 THESIS VALIDATED — 10-K CONFIRMS
-**Price:** $57.78 (Mar 27) | **Assets:** $215B (10-K) | **Total Loans:** $142.7B
+**Last Updated:** 2026-04-13 | **Status:** 🟠 THESIS VALIDATED — 10-K CONFIRMS
+**Price:** $63.51 (Apr 11, +10% from Mar 27) | **Assets:** $226.4B (10-K) | **Total Loans:** $142.7B
+**Q1 EPS Est:** $1.08-$1.09 (+40% YoY) | **Earnings: Wednesday Apr 16 pre-market, call 9:00 AM ET**
 
 ---
 
@@ -73,8 +74,11 @@ Unfunded = 74% of total loan book. Capital call facilities have HIGH unfunded-to
 - Borrowed funds: $11.3B, down $1.1B YoY
 
 ### Market / Analyst
-- Price: $57.78 (Mar 27), -15.2% from $68.12 ATH (Feb 6)
-- Analyst consensus: 11 Strong Buy, 1 Buy, 3 Hold, 0 Sell
+- Price: $63.51 (Apr 11), -6.8% from $68.12 ATH (Feb 6). Rallied from Mar lows.
+- Analyst consensus: 19 analysts — 42% Strong Buy, 47% Buy, 11% Hold, 0% Sell. PT $69.14.
+- Key PTs: Cantor $75, TD Cowen $78, Barclays OW $77, Citi Buy $71, JPM OW $68
+- Weiss downgraded Buy→Hold (Feb 3)
+- Polymarket: 75.5% implied probability of Q1 beat
 - M&A floor: 🔴 HIGH — too big for most acquirers, clean balance sheet
 
 ### Cross-Agent References
@@ -119,14 +123,57 @@ BCRED redemptions accelerate
 
 ---
 
+## Q4 2025 RESULTS (Jan 21, 2026)
+
+| Metric | Q4 2025 | Q4 2024 | YoY |
+|--------|---------|---------|-----|
+| EPS | $1.13 | $0.83 | +36% |
+| Net Income | $528M | $401M | +32% |
+| Revenue | $2.16B | $1.99B | +8.6% |
+| NII | $1.54B | $1.41B | +8.8% |
+| NIM | 3.07% | 2.87% | +20bps |
+| Provision | $137M | $162M | -15.4% |
+| NCOs | $155M | $189M | -17.9% |
+| NCO ratio | 0.43% | — | improved |
+
+Beat EPS ($1.13 vs $1.11 est). Slight revenue miss. Stock +6% post-earnings.
+FY2025: Net income $1.8B, EPS $3.86 (+19% underlying). Beat 3 of last 4 quarters.
+
+---
+
+## WHAT TO WATCH — Q1 2026 EARNINGS (Apr 16)
+
+### CRITICAL (PC→Bank Transmission)
+
+| Signal | What It Means | Where to Find |
+|--------|--------------|---------------|
+| **Capital call facility balance** | Did it exceed $9B? Growth = more exposure into gating cycle | 10-Q supplement / Table 14 |
+| **Secured PC finance balance** | Still growing or forced repayments starting? | 10-Q supplement / Table 14 |
+| **C&I NCO rate** | Was 29bps FY2025 (quarterly: 14→28→35→26→28bp). Inflection = fund finance losses | Earnings release |
+| **C&I criticized balances** | Stable at $2.6B or rising? Unclear how much is fund finance | Supplement |
+| **Provision direction** | If provision rises while CRE improves, fund finance is deteriorating | Earnings release |
+| **Management tone on sponsors** | Any hedging from "haven't had $1 of losses"? | Earnings call |
+| **Analyst questions on fund finance** | Zero questions in Q4. If someone wakes up... | Earnings call Q&A |
+
+### SECONDARY
+
+| Signal | Read-Through |
+|--------|-------------|
+| NIM trajectory | Targeting 3.15-3.30% by Q4 2026 (from 3.07%) |
+| AOCI impact estimate | Phase-in timeline, $1.6B unrealized losses |
+| Private Bank growth ($7.2B → $11-13B target) | ~1/3 is PE-based lending |
+| Unfunded commitments | Were $105.9B — still growing? |
+| Matrix Capital Markets acquisition close | Deal execution |
+
+---
+
 ## CATALYST CALENDAR
 
 | Date | Event | Impact |
 |------|-------|--------|
-| Mar 31 | First Brands auction | BDC recovery benchmark — feeds NAV marks |
-| Apr 2 | OWL $9.5P expires | Private credit sentiment |
-| ~Apr 15-20 | CFG Q1 earnings (est.) | Fund finance provisions? Consumer NCO? |
-| Apr 16 | OZK Q1 earnings | Sector read-through |
+| ✅ Mar 31 | First Brands auction | Piecemeal: $75M asset sales vs $9.3B debt (<1% recovery) |
+| **Apr 16** | **CFG Q1 earnings (CONFIRMED)** | Fund finance provisions? C&I NCO inflection? |
+| Apr 21 | OZK + WAL Q1 earnings | Sector read-through |
 | Apr 20-29 | Regional bank earnings wave | Sector sentiment |
 | Jun 18 | AOCI comment period closes | Capital impact TBD for CFG |
 
