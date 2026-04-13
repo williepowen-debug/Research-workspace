@@ -176,30 +176,18 @@ Housing is the largest asset and largest liability for most American households.
 
 This is not monitoring — it's an active stress transmission vector feeding CARL's consumer thesis and REGINALD's bank exposure analysis.
 
-## CARL Cross-References (System of Record)
+## CARL Cross-References
 
-CARL's workbook holds the canonical housing entries. HOMER is the sub-agent; CARL is the system of record. When spawned, reference these CARL IDs for context:
+**KB Migration (Apr 13 2026):** 40 housing entries now delegated from CARL → HOMER. HOMER's own KB (`workbook/KB.tsv`, 45 entries) is now the canonical source for housing domain data. CARL KB entries marked DELEGATED TO HOMER retain provenance links. HOMER KB entries include a CARL_ID column for traceability.
 
-**KB entries (CARL workbook/KB.tsv):**
-- KB-CARL-007: FHA serious DQ +48bps/mo trajectory
-- KB-CARL-010: Combined sales 4.7M vs 5.9M avg (only 2008-2011 worse)
-- KB-CARL-011: Midwest prices first negative YoY, 87% of sales in declining regions
-- KB-CARL-013: ICE 609K new DQ inflow (largest since May 2020)
+**Use HOMER KB first.** Only reference CARL KB for: cross-domain entries (KB-CARL-058 utility/insurance, KB-CARL-066 FL triple squeeze, KB-CARL-140 MD/DOGE), thesis-level housing claims that CARL retained, or VX/FLOW/PREDICTIONS entries (which stay at CARL level).
+
+**CARL entries still relevant (not in HOMER KB):**
 - KB-CARL-014: HUD ended repeat partial claims Oct 2025
-- KB-CARL-015: Midwest turning (Indianapolis, KC, Chicago, Minneapolis negative)
-- KB-CARL-016: FHA DQ +130bps/mo trajectory
-- KB-CARL-017: F&F plunged back into MBS market ($200B runway)
-- KB-CARL-018: Nov 2025 sales 293K NSA (worst since Nov 2008)
-- KB-CARL-019: Northeast deceleration (Westchester -1.60% YoY)
-- KB-CARL-020: NAHB 41% cutting prices (record)
-- KB-CARL-021: Refi rejection at series high (NY Fed SCE)
-- KB-CARL-023: South 40% + West 22% = 62% combined, both negative
-- KB-CARL-026: Fannie MF 0.74% (6bps from GFC), Freddie 0.48% (21yr high)
 - KB-CARL-031: State diffusion model (TX #2, FL #1)
-- KB-CARL-034: FHA 11.52% vs Conv 2.89% = 8.63pp K-shape spread
-- KB-CARL-039: Las Vegas 19% fallthrough, NV 14.53% CC 90+ DQ
-- KB-CARL-040: MBA all three loan types DQ rising
-- KB-CARL-066: FL triple squeeze (energy + HOA + insurance)
+- KB-CARL-034: FHA K-shape 11.52% vs 2.89% (also in HOMER as KB-HMR-038)
+- KB-CARL-058: Utility/insurance surge (cross-domain, stays in CARL)
+- KB-CARL-066: FL triple squeeze (cross-agent, stays in CARL)
 
 **VX vectors (CARL workbook/VX.tsv):**
 - VX-CARL-HSG-01: 30yr mortgage rate (6.46%, ORANGE)
