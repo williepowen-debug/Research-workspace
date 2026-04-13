@@ -1,13 +1,13 @@
 # SAM TIMELINE
 
-**Last Updated:** 2026-04-11
+**Last Updated:** 2026-04-12
 **View:** Base case progression with branch points marked
 
 This document maps our forward-looking expectations — what's coming, what we think happens, and where the path could diverge. Updated as events resolve or views change.
 
 ---
 
-## THIS WEEK (Mar 31 – Apr 6)
+## RESOLVED — Mar 31 – Apr 6
 
 ### Mon Mar 31 — FY2025 END + MIMURA ESCALATION ✅ RESOLVED
 - **Event:** Japan fiscal year closes. Repatriation window shuts.
@@ -82,7 +82,7 @@ This document maps our forward-looking expectations — what's coming, what we t
 
 ---
 
-## WEEK 2 (Apr 7 – Apr 11)
+## RESOLVED — Apr 7 – Apr 11
 
 ### ~Apr 7-9 — FEB WAGE DATA (MHLW) ✅ RESOLVED — BULL FORK
 - **Event:** Monthly Labour Survey for February.
@@ -102,12 +102,12 @@ This document maps our forward-looking expectations — what's coming, what we t
 - **Event:** JGB 10Y yield rose +4bp to 2.44%, then settled to 2.41%. 40Y up +7bp to 3.92%.
 - **Impact:** Multi-decade highs across the curve = market pricing aggressive BOJ normalization. The yen-yield divergence (JGB yields surging while USD/JPY rises to 159.64) is the carry trade's last stand. Market pricing ~45-50% odds of April 28 hike.
 
-### Sat Apr 11 — ISLAMABAD TALKS BEGIN — FIRST DIRECT US-IRAN SINCE 1979
-- **Event:** Direct US-Iran negotiations open in Islamabad. US delegation: Vance (lead) + Witkoff + Kushner. Iran delegation: Ghalibaf (Parl Speaker) + Araghchi (FM). Sharif mediating.
-- **Early outcomes:** "Some progress" reported on Lebanon ceasefire question. "Movement on unfreezing" Iranian assets. Pakistan's modest goal: "deal to keep talks going."
-- **Sticking points:** Lebanon carve-out unresolved. Iran's 10-point plan calls for Hormuz control + sanctions lifting (maximalist). Ghalibaf says 3 of 10 ceasefire clauses already violated.
-- **Market impact:** Brent eased to $95 (from $98). USD/JPY drifted to 159.24 (from 159.64).
-- **Our view:** Talks happening at all is structurally positive — first since 1979. But maximalist Iranian terms + Lebanon carve-out make a durable agreement unlikely in this window. High prob of "talks continue" outcome that buys time but resolves nothing. Either way, the BOJ rate-differential story is now in command.
+### Sat-Sun Apr 11-12 — ISLAMABAD TALKS COLLAPSE → HORMUZ BLOCKADE ✅ RESOLVED — BEAR FORK
+- **Event:** Direct US-Iran negotiations in Islamabad. US: Vance + Witkoff + Kushner. Iran: Ghalibaf + Araghchi. Sharif mediating.
+- **Outcome:** 21 hours of marathon talks → **NO DEAL.** Vance: Iran "chose not to accept our terms" — called it "final and best offer" (ultimatum). Sticking points: nuclear weapons commitment, Hormuz control, Lebanon guarantees, sanctions relief. Ghalibaf: US "failed to gain trust." Baghaei: "gaps on several major issues." No next round scheduled.
+- **ESCALATION:** Trump IMMEDIATELY announced **full naval blockade of Strait of Hormuz.** Will interdict every vessel that paid Iran a toll. Other countries joining. Called Iran's Hormuz actions "WORLD EXTORTION."
+- **Market impact:** Brent $95.20 → $96.69 (intraday high $98.24) and rising. Full reaction pending Asia open Monday.
+- **Net:** BEAR FORK for de-escalation path. Blockade is ESCALATION beyond pre-ceasefire baseline. Ceasefire (Apr 22 expiry) effectively dead — no diplomatic progress to extend. Phase 1 oil dynamics entrenching. Oil headwind NOT resolved, now actively worsening. But the paradox holds: oil up → BOJ more urgent → eventual unwind more violent.
 
 ### Apr 7-14 — FY2026 INVESTMENT PLANS BEGIN
 - **Event:** Big 4 life insurers start announcing FY2026 investment plans (exact dates vary, typically first two weeks of April).
@@ -147,13 +147,13 @@ This document maps our forward-looking expectations — what's coming, what we t
 
 ## WEEK 4-5 (Apr 21 – May 2) — THE DECISION WINDOW
 
-### Apr 23-24 — BOJ MEETING (LIVE FOR HIKE)
+### Apr 28 — BOJ MEETING (LIVE FOR HIKE)
 - **Event:** BOJ Monetary Policy Meeting. Rate decision + Ueda presser.
 - **Our view:** April hike is LIVE (~70% as of Apr 6, up from ~45-50% post-Tankan). Base case remains May 1 but April is now the market-priced base case. The Summary of Opinions showed board readiness — Takata dissented for 1.00%, members discussed "rapid tightening" and "scale" of hike. Tankan strong removes last data excuse. Oil falling removes the "uncertainty" excuse.
 - **Scenarios:**
-  - **Hike to 0.75% (our ~40% prob):** Market shock — JGB 2Y spikes, USD/JPY drops 3-5 big figures in days. FXY +3-5%. Carry unwind fires. Mortgage transmission starts (floating rates reprice within months).
-  - **Hike to 1.00% (our ~5% prob):** Nuclear scenario. Takata's dissent becomes majority. USD/JPY drops 5-8 big figures. Carry unwind accelerates violently. Household stress immediate.
-  - **Hold + hawkish guidance (our ~50% prob):** "We will raise at the next meeting." Market prices May 1 at near-certainty. USD/JPY drifts lower. FXY grinds higher.
+  - **Hike to 1.00% (our ~60-65% prob):** Breaches Takaichi ceiling — JGB 2Y spikes, USD/JPY drops 3-5 big figures in days. FXY +3-5%. Carry unwind fires. Mortgage transmission starts (floating rates reprice within months).
+  - **Hike to 1.25% (our ~5% prob):** Nuclear scenario. 50bp hike. USD/JPY drops 5-8 big figures. Carry unwind accelerates violently. Household stress immediate.
+  - **Hold + hawkish guidance (our ~25-30% prob):** "We will raise at the next meeting." Market prices May 1 at near-certainty. USD/JPY drifts lower. FXY grinds higher.
   - **Hold + neutral/dovish (our ~5% prob):** Board spooked by oil/geopolitics. Delays again. USD/JPY rallies. FXY gives back gains. May 1 still live but confidence drops.
 - **Watch for:** Ueda language on mortgages/household consumption (new since floating mortgage discovery). Any Katayama/Aida commentary in the days after.
 
@@ -235,7 +235,7 @@ These are the moments where our expected path could fork:
 | **Apr 8-9** | Ceasefire durability | Holds → oil stays low | Fractures → oil snaps back | ✅ **RESOLVED: BEAR** — Lebanon carve-out, Hormuz re-closed, Brent $98 |
 | **Apr 9** | 5Y JGB auction | Orderly | Weak | ✅ **RESOLVED: BULL** — BTC 3.58, orderly |
 | **Apr 10** | JGB 10Y stress threshold | n/a | Surge through 2.40% | ✅ **RESOLVED: STRUCTURAL** — 28yr high, 2.44% peak |
-| **Apr 11** | Islamabad Talks (Vance/Ghalibaf) | Lebanon resolved + extension | Collapse / no movement | LIVE — early "some progress" signals |
+| **Apr 11-12** | Islamabad Talks (Vance/Ghalibaf) | Deal / extension | Collapse → blockade | ✅ **RESOLVED: BEAR** — 21hr talks collapsed, Trump announced Hormuz blockade |
 | **Apr 14** | 20Y JGB auction | Healthy demand | Weak → super-long crisis | PENDING |
 | **Apr 15** | TIC data | Large selling → thesis confirmed | Mixed → slower timeline | PENDING |
 | **Apr 22** | Ceasefire expiry | Extended → oil $80-90 | Collapse → $105-110 | **NEW — PENDING** |

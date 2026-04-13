@@ -1,31 +1,12 @@
 # SAM STATUS
 
-**Signal Status:** 🟠 ELEVATED — **ISLAMABAD TALKS LIVE** | USD/JPY **159.24** | FXY **$57.64** | JGB 10Y **2.397%** (MOF Apr 9, 28yr high) | JGB 40Y **3.678%** (MOF Apr 9) | Brent **$95.20** | CARRY UNWIND 7D: **72%** | **MOF FLOWS 4W: ¥-5.0T STRESS CASE** | **Last Updated:** 2026-04-11 20:20 UTC (auto-refresh)
+**Signal Status:** 🔴 ESCALATING — **HORMUZ BLOCKADE + JGB 10Y BREACH** | USD/JPY **159.59** | FXY **$57.52** | JGB 10Y **2.439%** (MOF Apr 10, 🔴 BREACHED 2.40%) | JGB 40Y **3.682%** (MOF Apr 10) | Brent **$100.52** (+5.6% blockade reaction) | CARRY UNWIND 7D: **68%** | **MOF FLOWS 4W: ¥-5.0T STRESS CASE** | **Last Updated:** 2026-04-13 10:09 ET
 
 ---
 
-## 🟠 APR 11 — DIRECT US-IRAN TALKS BEGIN, JGB CURVE AT MULTI-DECADE HIGHS
+## 🔴 APR 12 — ISLAMABAD TALKS COLLAPSE → HORMUZ BLOCKADE
 
-**KEY DEVELOPMENTS:**
-
-1. **ISLAMABAD TALKS LIVE — FIRST DIRECT US-IRAN SINCE 1979**
-   - Vance + Witkoff + Kushner for US. Ghalibaf + Araghchi for Iran. Sharif mediating.
-   - Early signals: "some progress" on Lebanon ceasefire, "movement on unfreezing" Iranian assets.
-   - Lebanon carve-out remains the contention point. Pakistan/Iran say it's part of deal; US/Israel say no.
-   - Pakistan setting modest goal: "deal to keep talks going."
-
-2. **JGB CURVE AT MULTI-DECADE HIGHS**
-   - 10Y: **2.41%** — highest in **28 years**
-   - 40Y: **3.92%** (+7bp)
-   - Market pricing aggressive BOJ normalization. Yields surging despite yen weakness — pure rate expectations story.
-
-3. **BRENT $98 → $95.20 (-3%)**
-   - Oil cooled as talks began. War premium easing on hope for diplomatic resolution.
-   - Hormuz still effectively blocked (per Will's Apr 9 confirmation: negligible tanker movement).
-
-4. **USD/JPY 159.24** — Yen drifting back from Apr 10 high of 159.64. Still in intervention zone but easing.
-
-5. **FXY $57.64** — Position essentially flat vs entry $57.36. 8 shares.
+Islamabad talks collapsed (21hrs, no deal). Trump announced full Hormuz naval blockade. Ceasefire (Apr 22 expiry) effectively dead. Oil headwind entrenched; Phase 1 dynamics reasserting. Full narrative → TIMELINE.md.
 
 ---
 
@@ -33,38 +14,38 @@
 
 | Metric | Value | Source | Status |
 |--------|-------|---------|--------|
-| USD/JPY | **159.24** | Apr 10 close | 🟡 Easing from intervention zone |
-| FXY | **$57.64** | Apr 10 close | 🟡 At entry |
-| JGB 10Y | **2.397%** | MOF Apr 9 | 🟡 1.3bp below 2.40% stress threshold |
-| JGB 20Y | **3.289%** | MOF Apr 9 | 🟠 |
-| JGB 30Y | **3.619%** | MOF Apr 9 | 🟠 Insurer stress building |
-| JGB 40Y | **3.678%** | MOF Apr 9 | 🟠 Approaching severe levels (4.0% threshold) |
-| EUR/JPY | **186.74** | Apr 10 close | 🔴 Broad yen weakness |
-| GBP/JPY | **214.41** | Apr 10 close | 🔴 Broad yen weakness |
-| Brent | **$95.20** | Apr 10 close | 🟡 Easing on talks |
+| USD/JPY | **159.59** | Apr 13 live | 🟠 0.3% from 160 intervention trigger |
+| FXY | **$57.52** | Apr 13 live | 🟡 At entry (-0.2%) |
+| JGB 10Y | **2.439%** | MOF Apr 10 | 🔴 **BREACHED** 2.40% stress threshold (+3.9bp) |
+| JGB 20Y | **3.326%** | MOF Apr 10 | 🟠 |
+| JGB 30Y | **3.638%** | MOF Apr 10 | 🟠 Insurer stress building |
+| JGB 40Y | **3.682%** | MOF Apr 10 | 🟠 32bp from 4.0% threshold |
+| EUR/JPY | **186.75** | Apr 13 live | 🔴 Broad yen weakness |
+| GBP/JPY | **214.59** | Apr 13 live | 🔴 Broad yen weakness |
+| Brent | **$100.52** | Apr 13 live | 🔴 Blockade reaction +5.6% |
 | CFTC JPY net | **-93,742** | CFTC Apr 7 (rel Apr 10) | 🔴 +17K shorts WoW, 52% of Jul 2024 peak |
 | MOF LT-debt net (4W) | **¥-5.0T** (~$-33B) | MOF ITS Mar 29-Apr 4 | 🟠 **Stress case pace** |
 | Insurer hedge ratio | **44.4%** | (14yr low) | 🔴🔴 |
 
-**⚠️ JGB data reconciliation note:** Prior STATUS cited JGB 10Y 2.41% / 40Y 3.92% for Apr 10. MOF authoritative CSV (`jgbcme.csv`) latest publication is Apr 9. Peak in MOF April data: 10Y 2.429% (Apr 6), 40Y 3.747% (Apr 6). The 40Y 3.92% figure cannot be reconciled with MOF and is likely a data source error from the prior session. Apr 10 MOF data publishes Mon Apr 13 — will verify then. Until then: use MOF Apr 9 numbers (above) as baseline.
+**✅ JGB data reconciliation (Apr 13):** MOF Apr 10 data now published. 10Y 2.439% — breach confirmed. 40Y 3.682% — prior session's 3.92% was data source error (21bp overstated). April MOF peak: 10Y 2.439% (Apr 10), 40Y 3.747% (Apr 6). Reconciliation complete.
 
 ---
 
-## CARRY UNWIND PROBABILITY — APR 11 (REFRESHED)
+## CARRY UNWIND PROBABILITY — APR 12 (POST-COLLAPSE)
 
-| Timeframe | Apr 10 | Apr 11 AM | Apr 11 PM (auto) | Driver |
-|-----------|--------|-----------|------------------|--------|
-| **7d** | 70% | 72% | **72%** | Talks live + JGB high + **MOF flows stress case** |
-| **30d** | 88% | 90% | **92%** | BOJ Apr 28 live + **CFTC crowding accelerated** (-93.7K) |
-| **60d** | 95% | 95% | **96%** | Structural case intact + MOF flows validating Channel 1 |
+| Timeframe | Current | Driver |
+|-----------|---------|--------|
+| **7d** | **68%** | Oil spike delays unwind (Phase 1 yen weakness) |
+| **30d** | **93%** | Blockade makes BOJ hike MORE urgent |
+| **60d** | **97%** | All structural drivers intact + oil accelerates timeline paradox |
 
-**Why the bumps:** CFTC shorts built +17K WoW not covered, and MOF LT-debt net selling at ¥-5T/4wk is squarely in THESIS stress-case range. Neither is a regime change by itself but both push the timing forward.
+*Oil delays timing, not destination. Phase 1 yen weakness buys carry one more breath; BOJ urgency rises.*
 
 ---
 
 ## INTERVENTION STATUS
 
-**MODERATE.** USD/JPY 159.24 — eased from 159.64 yesterday. Below 160 trigger but within verbal warning zone. MOF likely watching Islamabad talks outcome.
+**ELEVATED.** USD/JPY 159.59 — 0.3% from 160. Brent $100+ on blockade. MOF intervention probability rising. The paradox intensifies: MOF acts → accelerates carry unwind. MOF doesn't act → yen weakens on oil → forces more repatriation.
 
 ---
 
@@ -72,7 +53,7 @@
 
 **Current rate: 0.75%.** Next hike to **1.00%** = Takaichi ceiling breached. **April 28 meeting LIVE.**
 
-JGB 10Y at 28-year high (2.41%) = market pricing aggressive normalization. 40Y at 3.92% pushing into severe insurer stress territory. Combined inputs:
+JGB 10Y at 2.439% (MOF Apr 10, 28-year high, 🔴 above 2.40% stress threshold). 40Y at 3.682% — elevated but not severe. Combined inputs:
 - Wage data: base pay +3.3% (34-yr high)
 - Shunto: 5.26%
 - Tankan: BEAT
@@ -102,14 +83,14 @@ Market pricing ~45-50% odds of April 28 hike to 1.00%. Our internal call: ~60-65
 
 | Level | Significance | Status |
 |-------|-------------|--------|
-| USD/JPY 160 | MOF intervention | 🟡 159.24 — eased |
+| USD/JPY 160 | MOF intervention | 🟠 **159.59 — 0.3% away** |
 | USD/JPY 155 | Phase 2 onset | SET |
 | USD/JPY 145 | Forced unwind | SET |
-| JGB 10Y 2.40% | Stress crossover | 🟡 **NEAR — 2.397%** MOF Apr 9 (1.3bp below; Apr 10 pending Mon publish) |
-| JGB 30Y 4.0% | Severe insurer stress | 🟡 3.619% MOF Apr 9 — 38bp away |
-| JGB 40Y 4.0% | Extreme long-end stress | 🟡 3.678% MOF Apr 9 — 32bp away |
-| Brent $120 | Kharg scenario | 🟡 $95 — eased |
-| Brent $90 | Headwind resolved | 🟠 Above $90 |
+| JGB 10Y 2.40% | Stress crossover | 🔴 **BREACHED — 2.439%** MOF Apr 10 confirmed |
+| JGB 30Y 4.0% | Severe insurer stress | 🟡 3.638% MOF Apr 10 — 36bp away |
+| JGB 40Y 4.0% | Extreme long-end stress | 🟡 3.682% MOF Apr 10 — 32bp away |
+| Brent $120 | Kharg scenario | 🟠 $100.52 — blockade reaction |
+| Brent $90 | Headwind resolved | 🔴 Above $100 — headwind intensifying |
 
 ---
 
@@ -117,7 +98,7 @@ Market pricing ~45-50% odds of April 28 hike to 1.00%. Our internal call: ~60-65
 
 | Window | Event | Sig |
 |--------|-------|-----|
-| Today/Tomorrow | Islamabad talks outcome | 🔴🔴 |
+| **NOW** | **Blockade reaction in progress — Brent $100+, USD/JPY 159.6** | 🔴 |
 | Apr 14 | 20Y JGB auction | 🟠 Demand at 28yr high yields? |
 | Apr 14-25 | Insurer FY2026 plans | 🔴 Hedge ratio changes |
 | Apr 15 | Feb TIC data | 🟠 Japan UST flows |
@@ -154,7 +135,7 @@ Market pricing ~45-50% odds of April 28 hike to 1.00%. Our internal call: ~60-65
 
 ## THESIS
 
-Thesis ACCELERATING. JGB 10Y (2.397% MOF Apr 9) sitting right at the 2.40% stress threshold — market pricing BOJ normalization regardless of geopolitics. 40Y at 3.678% approaching severe insurer stress. Islamabad talks may give oil temporary relief but the structural rate-differential story is now in command. The yen-yield divergence (yields at multi-decade highs, yen still weak) is the carry trade's last stand — when it breaks, it breaks fast.
+Thesis ACCELERATING but TIMING SHIFTED. Islamabad collapse + Hormuz blockade = oil headwind entrenched, not resolved. Phase 1 dynamics (oil up → yen weak) buy carry one more breath. But this makes BOJ hike MORE urgent (oil → CPI → no delay excuse), and makes the eventual unwind MORE violent (more shorts build during the delay). The yen-yield divergence (JGB yields at multi-decade highs, yen still weak on oil) is the carry trade's last stand — when it breaks, it breaks fast. OIL CHANGES TIMING AND DRAWDOWN, NOT DESTINATION.
 
 **NEW INPUTS (Apr 11 automation refresh):**
 1. **MOF LT-debt net selling at stress-case pace** (¥-5T/4wk = $36B/mo) — Channel 1 repatriation running faster than STATUS had captured. Previous STATUS read the Mar 31 release (¥2.2T / 3wk base-pace framing); authoritative MOF ITS CSV now shows Mar 29-Apr 4 week at ¥-2.46T (2.5× prior-week baseline). Either regime change or FY-start seasonal — Apr 16 release is decisive.

@@ -1,17 +1,8 @@
 # SAM CALENDAR
 
-**Last Updated:** 2026-04-11 | **View:** Forward-looking only. Past events pruned weekly.
+**Last Updated:** 2026-04-12 | **View:** Forward-looking only. Past events pruned weekly.
 
 ---
-
-## THIS WEEK (Apr 7-11)
-
-| Date | Event | What to Check | Threshold / Signal | Who Cares |
-|------|-------|---------------|-------------------|-----------|
-| ~~Apr 7~~ | ~~30Y JGB auction~~ | — | ✅ BTC 3.11x, passed | — |
-| ~~Apr 8~~ | ~~Feb wage data~~ | — | ✅ **BEAT — real +1.9%, base pay 34yr high** | — |
-| Apr 7-14 | Big 4 insurer FY2026 investment plans begin | Foreign bond allocation, super-long JGB buying | Cuts announced = Channel 1 confirmed | LIQUID, PROME |
-| ~~Apr 9~~ | ~~5Y JGB auction~~ | — | ✅ BTC 3.58, orderly | — |
 
 ## WEEK OF APR 14
 
@@ -22,6 +13,7 @@
 | **Apr 15** | **Feb TIC data (US)** | **Japan net UST sales** | **>$15B net selling = stress case** | **LIQUID, PROME** |
 | Apr 16 | Liquidity enhancement auction (5-11Y) | — | Routine | — |
 | **Apr 16** | **🔴 MOF ITS weekly release (DECISIVE)** | **Apr 5-11 LT-debt net** | **>¥2T = regime change confirmed → rebalance thesis weights to Option C. <¥1T = Mar 29-Apr 4 spike was one-off.** | **SAM, LIQUID, PROME** |
+| **Apr 14-25** | **Insurer FY2026 investment plans** | **Foreign bond allocation, hedge ratio, super-long JGB** | **Cuts = Channel 1 confirmed** | **LIQUID, PROME** |
 
 ## WEEK OF APR 21
 
@@ -43,9 +35,9 @@
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |------|-------|---------------|-------------------|-----------|
 | ~~Apr 7~~ ✅ | ~~Trump deadline~~ | — | ✅ **CEASEFIRE — 2 weeks. Hormuz reopening. Brent $91.** | — |
-| **Apr 11** | **Islamabad Talks LIVE — first direct US-Iran since 1979** | **Vance/Witkoff/Kushner vs Ghalibaf/Araghchi. Lebanon carve-out is the contention.** | **Progress = oil stays low. Collapse = $105+** | **ALL** |
-| **Apr 22** | **Ceasefire expiry** | **Extension vs collapse** | **🔴🔴 THE NEXT BINARY** | **ALL** |
-| Ongoing | Hormuz passage | Tankers/day | Pre-war ~60/day, now ~8-10 | ALL |
+| ~~Apr 11-12~~ | ~~Islamabad Talks~~ | — | ✅ **COLLAPSED — 21hr no deal. Trump announced Hormuz blockade. Brent $96.69↑** | — |
+| **Apr 22** | **Ceasefire expiry** | **Extension vs collapse** | **🔴🔴 LIKELY DEAD — no diplomatic basis for extension after blockade** | **ALL** |
+| **Ongoing** | **Hormuz BLOCKADE (US Navy)** | **Ship interdictions, oil price, coalition partners** | **🔴🔴 Active naval blockade announced Apr 12** | **ALL** |
 
 ---
 
