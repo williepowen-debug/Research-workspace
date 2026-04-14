@@ -28,20 +28,45 @@
 
 ## Session Notes
 
-⚠️ **Open question:** Counterparty mapping on mortgage warehouse lines — WAL/FHN/TCBI 10-Ks don't name servicer counterparties. Reverse-mapping non-bank servicer 10-Ks (PFSI, LDI, RITM, COOP) to their bank warehouse providers is the key data gap for sizing actual regional bank exposure to FHA servicer stress. Flagged to CARL via outbox reply.
+⚠️ **Open question:** Does WAL have material exposure to Apollo Atlas SP? If Apollo's Atlas SP warehouse book blows up on non-bank servicer stress, and WAL has any correspondent/syndicate participation in Atlas SP facilities, WAL has a back-door exposure we haven't priced. Also: who ARE WAL's actual warehouse counterparties? Today's research ruled out FHA-stressed public non-bank servicers; still unknown who the $9.2B is actually lent to.
 
 ### CHANGES SINCE LAST SESSION
 *(populated at next boot via market.py + darkpool.py)*
 
-### LAST SESSION (Apr 14 AM — CARL warehouse signal integration)
-- **CARL signal processed:** SIG-CARL-REGINALD-20260413 (non-bank servicer → warehouse transmission). Signal was in CARL's outbox — HERMES hadn't delivered yet; pulled directly when Will flagged.
-- **Four CARL asks worked:**
-  1. WAL 10-K warehouse disclosure — not new; already captured in V3 (SSFA/NDFI), $9.2B est. mortgage warehouse within $10.8B "Other OBS"
-  2. FHN/TCBI — both have material warehouse exposure. FHN growing aggressively ($767M Q4 2025 increase, mgmt explicit NDFI driver). TCBI runs SSFA-style capital arb (59% in "enhanced credit structures," $275M freed).
-  3. JPM Q1 (today) — beat ($5.94 vs $5.46), NII guide CUT $1.5B. Dimon "increasingly complex risks." No explicit NDFI/warehouse commentary in coverage — need transcript.
-  4. RITM Apr 28 — added to CALENDAR as testable "DQ will reverse" claim.
-- **Key insight:** CARL's signal doesn't add a new WAL vector. It SHARPENS V3 from pure regulatory-reclassification risk into dual regulatory + counterparty credit risk (MFS UK $669M Barclays template).
-- **Files created/updated:** `domain/WAREHOUSE_EXPOSURE.md` (new synthesis), STATUS.md (dashboard + AM brief), CALENDAR.md (RITM), `outbox/2026-04-14_to-CARL_warehouse-exposure-integrated.md` (reply).
+### LAST SESSION (Apr 14 AM+PM — CARL warehouse signal integrated + deep counterparty pull)
+**Morning (CARL signal initial integration):**
+- CARL signal SIG-CARL-REGINALD-20260413 processed. Initial view: refines WAL V3 (SSFA/NDFI) from pure regulatory risk into dual regulatory + counterparty credit risk. MFS UK $669M Barclays template cited.
+- Added FHN + TCBI to warehouse watchlist (FHN growing, TCBI doing SSFA-style capital arb).
+- JPM Q1 earnings reviewed: beat headline, NII full-year guide CUT $1.5B. Dimon "increasingly complex risks."
+- RITM Apr 28 added to CALENDAR.
+
+**Afternoon (deep counterparty pull — Will manually pulled 10-Ks from SEC EDGAR):**
+- Pulled PFSI FY2025, LDI FY2025, RITM FY2025, COOP FY2024 10-Ks (saved to `domain/sources/warehouse_counterparty/`).
+- Saved as HTML, stripped tags via Python html.parser.
+- **Key extraction technique:** Exhibit Index (10-K Item 15) names counterparties in amendment titles even when Note 12 tables anonymize. "Master Repurchase Agreement dated X among [BANK NAME] and [BORROWER]" — title contains full party list.
+- Per-servicer counterparty disclosure:
+  - PFSI: Note 15 fully transparent. $8.8B book. **Atlas SP (Apollo) = $6.9B = 78% concentration.** Plus BofA, RBC, JPM, Nomura, MS, Citi, Wells, BNP, Barclays, Mizuho, Goldman — each $7-90M.
+  - LDI: Note 12 anonymized (Facility 1-11). Exhibit Index reveals: BofA (primary, "BA Warehouse LLC" SPV), JPM, Citi, Nomura, UBS, **Atlas SP (Nov 14 2024 entry)**, BMO (Apr 2025 new), U.S. Bank trustee.
+  - RITM: Parent 10-K fully opaque. Only Goldman (historical Marcus acquisition) + U.S. Bank (trustee) in exhibits. Subsidiaries (NewRez etc.) file separately.
+  - COOP: Note 12 anonymized. Exhibit Index: **Barclays dominant** (52 refs, going back to 2011 Nationstar era) + BofA, JPM, MS, Wells, Citi, Goldman. Flagstar appears but only as MSR BUYER (not warehouse lender).
+
+**Critical finding:**
+- **ZERO US regional banks** as warehouse counterparties across all 4 servicers examined.
+- **CARL direct-regional-exposure thesis NOT SUPPORTED** by public 10-K counterparty data.
+- **Transmission landing point = Apollo** (Atlas SP Partners, acquired Credit Suisse SPG 2023). This is the real "MFS UK template" target.
+- APO now has NEW vector on watch stack (already tracked for MFS/First Brands/Epstein/Athene).
+
+**Implications:**
+- WAL V3 unchanged in size (~$9.2B SSFA mortgage warehouse book). Refined in framing: WAL's warehouse borrowers are NOT the FHA-stressed public non-bank servicers. They're other (unidentified) entities — smaller correspondent lenders, conventional GSE-focused originators, or non-mortgage NDFI (BDC lines, capital call facilities, CRE debt fund warehouse).
+- WAL V2 (Jefferies/First Brands via Point Bonita, $126.4M disputed) remains the PRIMARY near-term exposure — unaffected by today's research.
+- OZK unchanged — confirmed has ZERO SSFA and zero mortgage warehouse. NDFI book is CRE-only per CEO Gleason Q3 2025.
+
+**Files created/updated:**
+- `domain/WAREHOUSE_EXPOSURE.md` — rewrote as definitive synthesis (replaced AM version)
+- `domain/sources/warehouse_counterparty/` — 4 10-K HTML files + parsed text files
+- STATUS.md dashboard — replaced "Non-bank Servicer Warehouse" row with refined finding; added Apollo Atlas SP row
+- `outbox/2026-04-14_to-CARL_warehouse-research-complete.md` — CARL pivot notification
+- MEMORY.md open question updated to new gap (WAL's actual counterparty identity; Apollo Atlas SP exposure channel)
 - **Git:** NOT YET COMMITTED — pending session close.
 
 ### LAST SESSION (Apr 12-13 — Hamblen + earnings week prep)
@@ -66,19 +91,19 @@
 
 ### NEXT SESSION
 **EARNINGS WEEK — priority by date:**
-1. **Tuesday Apr 15 (MTB pre-market):** Listen for CRE provisions, NIM, criticized CRE trend, AOCI commentary. Update MTB/STATUS.md with actuals. Flag read-throughs to OZK/WAL. **NEW: listen for any NDFI / warehouse / mortgage-company-loan commentary.**
+1. **Tuesday Apr 15 (MTB pre-market):** Listen for CRE provisions, NIM, criticized CRE trend, AOCI commentary. Update MTB/STATUS.md with actuals. Flag read-throughs to OZK/WAL. Also: listen for any NDFI / warehouse / mortgage-company-loan commentary.
 2. **Wednesday Apr 16 (CFG + KEY pre-market):** CFG is THE call. Watch fund finance balances (Table 14), C&I NCO inflection, management tone on sponsors. KEY: office NPLs, NIM, IB fees.
 3. **Thursday Apr 17 (RF):** Consumer DQ, CLO marks. No file built — lower priority.
-4. **Monday Apr 21 (OZK after close + WAL):** Position names report. All read-through data should be synthesized by then.
-5. **Monday Apr 28 (RITM):** Test CARL's "DQ will reverse in Q1" hypothesis. If fails → confirms servicer stress → warehouse transmission thesis.
+4. **Monday Apr 21 (OZK after close + WAL):** Position names report. All read-through data should be synthesized by then. **NEW LISTEN-FOR: ask any analyst question about warehouse counterparty detail — WAL 10-K doesn't disclose; call Q&A is our chance to learn who they actually lend to.**
+5. **Monday Apr 28 (RITM):** Test CARL's "DQ will reverse in Q1" hypothesis. If fails → servicer stress confirmed → APO Atlas SP concentration activates.
 
-**Warehouse thesis follow-ups:**
-6. Pull JPM Q1 transcript (not just press coverage) — look for NDFI, warehouse, mortgage-company-loan, non-bank FI commentary
-7. Request CARL/HOMER counterparty mapping (non-bank servicer 10-Ks → bank warehouse providers)
-8. Monitor PFSI/LDI/RITM/COOP/Lakeview/Freedom for any covenant/liquidity disclosures
-9. Watch for any regional bank Q1 transcript commentary on loan-to-mortgage-company or "enhanced credit structures"
+**Post-warehouse-research follow-ups (after earnings week):**
+6. APO earnings (when does APO report Q1?) — scan for Atlas SP segment disclosure, warehouse book size, any non-bank servicer counterparty commentary
+7. Try NewRez LLC direct SEC filings + RITM securitization trust prospectuses to deanonymize RITM warehouse counterparties
+8. WAL Q1 10-Q disclosure (early May) — may add color on NDFI subsegments
+9. Pull JPM Q1 transcript (not just press coverage) for warehouse commentary
 
-**Carried forward (lower priority during earnings week):**
+**Carried forward (lower priority):**
 10. EGBN earnings prep (grade C, ~10 days) — date still unconfirmed (~Apr 22-25)
 11. WAL position decision
 12. OZK Q4 earnings call transcript — Wellington/Wasatch questions
