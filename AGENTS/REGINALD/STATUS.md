@@ -1,5 +1,17 @@
 # REGINALD STATUS
-**Last Updated:** 2026-04-10 (EOD) | **Status:** 🔴🔴🔴 CRITICAL (STABLE)
+**Last Updated:** 2026-04-14 (intraday) | **Status:** 🔴🔴🔴 CRITICAL (STABLE)
+
+---
+
+## AM BRIEF — April 14, 2026
+
+**Live prices (intraday):** KRE $69.39 (+0.65%), WAL $77.12 (+1.19%, still <$78), OZK $48.01 (flat), EGBN $26.59, ZION $61.53, SPY $686.10 (+0.98%), VIX 18.28 (-4.39%), Brent $97.89 (-1.48%), 10Y 4.30%. Broad risk-on. No position names moved >3%.
+
+**Earnings week (Q1 wave begins tomorrow):** MTB Apr 15 | CFG+KEY Apr 16 | RF Apr 17 | OZK+WAL Apr 21.
+
+**New signal integrated (CARL Apr 13):** Non-bank mortgage servicer stress → warehouse line counterparty risk. Three regionals (WAL, FHN, TCBI) running same playbook: structuring mortgage warehouse for SSFA/enhanced-credit capital arb. Refines WAL V3 (counterparty credit risk parallel to regulatory SSFA risk). See `domain/WAREHOUSE_EXPOSURE.md`.
+
+**JPM Q1 (this morning):** Beat headline ($5.94 EPS vs $5.46 est). NII full-year guide CUT $1.5B. Dimon flagged "increasingly complex risks." No explicit NDFI/warehouse commentary in press coverage — need transcript.
 
 ---
 
@@ -98,6 +110,8 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 | Construction Labor | ICE raids → 57 Concrete bankruptcy (TX). 1-in-3 workers foreign-born. Q2 start data at risk. | 🔴 |
 | AOCI Reinclusion | Fed/FDIC/OCC capital rewrite: mandatory AOCI phase-in for Cat III/IV. $49.5B aggregate hit across 21 banks. Comment period closes Jun 18. | 🔴 NEW |
 | MS $85B Transfer | Fed approved MS moving $85B broker-dealer→insured bank (4-3 vote, first ever). Regulatory capture signal — G-SIBs favored, regionals won't be. | 🟠 NEW |
+| Non-bank Servicer Warehouse | **FHA DQ 11.52% + cure rates -40% → Ginnie Mae advance drain at PFSI/LDI/RITM/Lakeview/Freedom. WAL ~$9.2B / FHN growing / TCBI $275M cap arb all exposed.** MFS UK template ($669M Barclays loss). V3 refined: counterparty credit risk parallel to regulatory SSFA risk. See `domain/WAREHOUSE_EXPOSURE.md`. | 🟠 NEW (Apr 14 CARL) |
+| JPM Q1 (Apr 14) | Beat: EPS $5.94 vs $5.46 est, rev $49.8B. FI trading +21%, IB +28%. **NII full-year guide CUT $1.5B ($104.5B→$103B).** Dimon: "increasingly complex risks" — geopolitics/energy/trade/fiscal deficits/asset prices. | 🟡 NEW |
 
 ---
 

@@ -1,6 +1,6 @@
 # REGINALD CALENDAR
 
-**Last Updated:** 2026-04-13 | **View:** Forward-looking only. Past events pruned weekly.
+**Last Updated:** 2026-04-14 | **View:** Forward-looking only. Past events pruned weekly.
 
 ---
 
@@ -39,6 +39,7 @@
 | Apr 20 | WTFC Q1 earnings (after-market) | — | — | — |
 | **Apr 21** | **OZK Q1 earnings** (after-close, conf call Apr 22 per OZK IR) | NCO, provisions, CRE migration, MI3, ACL, AOCI | NCO >$90M or capital raise = 🔴. **Microstructure: 15.28% SI rising, 0% insider ownership, Wellington/AQR/Two Sigma exiting, Peak6 $15M put.** | PROME |
 | ~Apr 22 | PB Q1 earnings | TX CRE, provisions | — | — |
+| **Apr 28** | **RITM Q1 earnings** | Ginnie MSR performance, DQ trend | Mgmt claim "DQ will reverse in Q1" — testable. If fails, confirms CARL non-bank servicer stress thesis → warehouse transmission. | CARL, REGINALD (WAL V3) |
 | **Apr 23** | **VLY Q1 earnings** | Capital, CRE provisions | — | PROME |
 | **Apr 23** | **SSB Q1 earnings** (after-market) | FL/TX exposure (42%), CRE MF | FL stress read-through | CORAL |
 | Apr 23 | ASB Q1 earnings (after-market) | — | — | — |
