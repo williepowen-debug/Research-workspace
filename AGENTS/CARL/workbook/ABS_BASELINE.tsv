@@ -26,6 +26,10 @@ SDART_2024-5	Subprime Auto	Santander	19.22%	7.80%	1.89%	5.14% CNL	—	🔴 CRITI
 SDART_2025-1	Subprime Auto	Santander	17.15%	6.95%	1.62%	4.22% CNL	—	🔴 CRITICAL	Jan-2026	EDGAR 10-D	13mo seasoned. $2.25B orig → $1.43B. LARGEST POOL. Class E tranche added.
 HAROT_2024-1	Prime Auto	Honda	1.21%	0.28%	0.05%	0.25% CNL	—	🟢 NORMAL	Jan-2026	EDGAR 10-D	24mo seasoned. CONTROL. $2.16B orig → $724M. Monthly NL 0.03%. 34x CNL gap vs SDART.
 HAROT_2024-2_Feb	Prime Auto	Honda	1.22%	0.27%	0.08%	CNL $6.3M	—	🟢 NORMAL	Feb-2026	EDGAR 10-D	~20mo seasoned. Prime control. 30+ DQ essentially flat YoY. Monthly NL 0.48% annualized. vs SDART 2024-1: 17.7x gap (30+ DQ), 34x gap (60+ DQ). Divergence stable — loss acceleration is SDART-specific, not cross-market.
+EART_2024-2_Jan	Deep Subprime Auto	Exeter	23.38%	10.75%	—	12.54% CNL	—	🔴 CRITICAL	Jan-2026	EDGAR 10-D	22mo seasoned. Deep subprime. DQ Trigger 40%. Monthly NL $5.26M.
+EART_2024-2_Feb	Deep Subprime Auto	Exeter	21.61%	10.08%	—	13.06% CNL	—	🔴 CRITICAL	Feb-2026	EDGAR 10-D	23mo seasoned. 30+ DQ DOWN 177bps, CNL UP 52bps = aggressive cure collapse. DQ Trigger 40% not breached. Monthly NL $4.48M.
+AMCAR_2024-1_Jan	Subprime Auto	GM Financial	14.61%	3.61%	—	5.097% CNL	—	🟠 ELEVATED	Jan-2026	EDGAR 10-D	21mo seasoned. AmeriCredit brand. Pool factor 49.8%. Monthly NL $4.66M.
+AMCAR_2024-1_Feb	Subprime Auto	GM Financial	12.86%	3.35%	—	5.339% CNL	—	🟠 ELEVATED	Feb-2026	EDGAR 10-D	22mo seasoned. 30+ DQ DOWN 175bps, CNL UP 24bps = same cure collapse pattern. Monthly NL $4.05M. Pool factor 48.9%.
 Exeter_2024	Deep Subprime	Exeter	—	—	—	20.75% ECL	—	🔴 CRITICAL	2025	S&P	S&P hiked expected cumulative net loss
 Aggregate_Subprime_Auto	Subprime Auto	Multiple	—	6.9% ATR	—	—	—	🔴🔴 CRITICAL	Jan-2026	Fitch/Wolf Street	Record high. Up 34bps from 6.56% Jan 2024. Santander highest among lenders at 7.9% (Dec-2025).
 
