@@ -36,13 +36,43 @@ You maintain:
 ### Closeout
 8. **Update `STATUS.md`** — refresh network awareness table, filter posture, session log entry
 9. **Update `REGISTRY.tsv`** — final refresh of Status/Updated/Focus from any STATUS files read during session
-10. **Git commit and push** — follow git protocol in root CLAUDE.md. Note: `/COP.md` lives OUTSIDE `AGENTS/WALTER/` but WALTER owns it — stage it explicitly with `git add COP.md` in addition to `git add AGENTS/WALTER/`. **Pull pattern for dirty-tree cases (credit: SAM Apr 11):** when origin has diverged and other agents have uncommitted modifications in the working tree, use `git pull --rebase --autostash` rather than plain `git pull --rebase`. The `--autostash` flag stashes ONLY tracked changes and pops automatically after the rebase completes, leaving untracked files untouched. This is safer than a manual stash because untracked files (other agents' new work) are never at risk. If the rebase conflicts, resolve only within your own directory and never touch other agents' files.
-   - `git reset HEAD`
-   - `git add AGENTS/WALTER/`
-   - `git diff --cached --stat` — verify only WALTER files staged
-   - If unexpected files: `git restore --staged <file>`
-   - Commit with descriptive message
-   - Push to GitHub
+10. **Write `LAST_COMPLETION.md`** — structured closeout record (see template in that file). STATUS / CHANGED / RESULT / GAPS / WILL_NEEDS / FOLLOW-UP. Overwrite each session, not append.
+11. **Git commit and push** — strict numbered sequence below. **Never skip steps 11a–11c.** These steps exist because prior sessions leaked other agents' work into our commits (e.g., 80 CARL file deletions swept into a SAM commit Mar-Apr 2026).
+
+   **11a. Clear the staging area first**
+   ```
+   git reset HEAD
+   ```
+   Clears anything another session left pre-staged. Without this, `git add` accumulates on top of stale staging.
+
+   **11b. Stage ONLY WALTER's files (and COP.md)**
+   ```
+   git add AGENTS/WALTER/
+   git add COP.md        # only if COP.md changed this session
+   ```
+   `/COP.md` lives at repo root but WALTER owns it — must be staged explicitly. Never `git add .` or `git add -A`.
+
+   **11c. Verify scope before committing**
+   ```
+   git diff --cached --stat
+   ```
+   Must show ONLY `AGENTS/WALTER/…` and optionally `COP.md`. If anything else appears (other agents' directories, shared files), run `git restore --staged <file>` to unstage it, then re-verify. **This check is mandatory. A failed verification does not auto-recover — rerun 11a.**
+
+   **11d. Commit with descriptive message**
+   Follow commit message style in root CLAUDE.md (HEREDOC, Co-Authored-By trailer).
+
+   **11e. Pull before push if origin diverged**
+   If `git push` says the branch is behind:
+   ```
+   git pull --rebase --autostash
+   ```
+   The `--autostash` flag (SAM pioneered Apr 11) stashes ONLY tracked changes and pops automatically after rebase. Untracked files (other agents' new work) are never at risk. If the rebase conflicts, resolve only within `AGENTS/WALTER/` — never touch other agents' files. If an other-agent file conflicts, abort and flag to Will.
+
+   **11f. Push**
+   ```
+   git push
+   ```
+   If push fails for a reason other than divergence (auth, network), note the pending push in LAST_COMPLETION.md GAPS and retry next session.
 
 ---
 
