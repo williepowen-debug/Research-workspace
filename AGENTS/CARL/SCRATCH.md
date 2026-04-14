@@ -63,15 +63,11 @@
 
 ---
 
-## OUTBOX (1 signal, awaiting HERMES)
-| File | To | Summary |
-|------|----|---------|
-| SIG-CARL-REGINALD-20260413-nonbank-servicer-warehouse.md | REGINALD | Non-bank servicer stress → warehouse line exposure. PennyMac FHA DQ 7.5%, GAO gaps, MFS UK template. Request: check WAL/FHN/TCBI warehouse exposure, JPM Q1 commentary. |
+## OUTBOX (0 signals)
+Last delivered: SIG-CARL-REGINALD-20260413-nonbank-servicer-warehouse.md (Apr 14 — REGINALD received directly from Will)
 
-## INBOX (1 item, unprocessed)
-| File | From | Summary |
-|------|------|---------|
-| SIG-WALTER-CARL-20260410-cpi-umich-stagflation.md | WALTER | CPI/UMich/stagflation data — process when spawned for inbox |
+## INBOX (0 items)
+Last processed: SIG-WALTER-CARL-20260410-cpi-umich-stagflation.md (Apr 14 — UMich 47.6 RECORD LOW integrated, 5-10Y inflation exp un-anchoring at 3.4%, CPI Mar hot headline)
 
 ---
 

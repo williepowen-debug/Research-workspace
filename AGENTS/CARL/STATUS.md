@@ -1,6 +1,6 @@
 # CARL STATUS
-**Updated:** 2026-04-13 ~20:22 UTC
-**Overall:** 🔴🔴 CRITICAL — Convergence 51/55. **Student loan defaults 9.2M (+1.5M in 90 days), FICO 714 (cascade EXECUTING), existing home sales 3.98M (approaching RED).** Savings rate 4.0%, real DPI -0.5%. Gas $4.13 (FL $4.02 crossed breakpoint, CA $5.89 RED). Diesel $5.65 (UP). HY OAS **294bps — collapsed 23bps in 8 days, complacency gap WIDENING** (structured credit cracking while public HY tightens). CPI Energy +12.5% YoY. CMBS MF DQ ATH 7.15%. Core PCE 3.0% (Fed locked). JOLTS 0.91. JPM Q1 tomorrow 7AM ET. Sweet v McMahon Apr 15. Q3 = consumption stress quarter.
+**Updated:** 2026-04-14 ~12:30 UTC
+**Overall:** 🔴🔴 CRITICAL — Convergence 52/55. **UMich 47.6 RECORD LOW (Apr preliminary, -11% MoM). 5-10Y inflation expectations un-anchoring at 3.4% (Fed red line). CPI Mar hot headline +3.28% YoY.** Student loan defaults 9.2M, FICO 714 cascade executing. Existing home sales 3.98M. Gas $4.13 (FL $4.02, CA $5.89 RED). Diesel $5.65. HY OAS **294bps — complacency gap WIDENING.** CMBS MF DQ ATH 7.15%. Non-bank servicer stress (PennyMac FHA DQ 7.5%, GAO gaps). JPM Q1 today (REGINALD handling). Sweet v McMahon Apr 15.
 
 *Check-in archives: `archive/status/` (pending Phase 3 move)*
 
@@ -13,7 +13,7 @@
 |--------|-------|-------|--------|
 | CC 90+ DQ | **12.70%** (92% of GFC) | Q4 2025, NY Fed | 🔴 |
 | Subprime Auto 60+ DQ | **6.9% ATR** | Jan 2026, Fitch | 🔴🔴 |
-| SoFi 2025-1 CNL | **2.6% TRIGGERED** | Mar 2026 | 🔴 |
+| SoFi 2025-1 CNL | **2.6% TRIGGERED** (⚠️ snapshot Mar 2026 — no SEC path, private/144A. Cannot refresh via abs_monitor. See KB-CARL-078.) | Mar 2026, Eisman Ep 49 | 🔴 |
 | Auto 90+ DQ | **5.21%** (near 5.27% max) | Q4 2025, NY Fed | 🔴 |
 | Student Loan 30+ DQ | **16.3% WORST EVER** (~25% w/payment due behind) | Q4 2025 NY Fed / Feb 2026 TCF | 🔴🔴 |
 | Student Loan 90+ DQ | **9.6%** (18-29 cohort: 21%) | Q4 2025, NY Fed | 🔴🔴 |
@@ -60,10 +60,14 @@
 | Unemployment Duration | **25.7 wks** (4-yr high) | Feb 2026, BLS | 🔴 |
 | UI Exhaustion Hole | **$650M/mo** (peak $930M/mo July) | CARL est, Mar 31 | 🔴🔴 |
 | Core PCE | **3.0% YoY** (+0.4% MoM — hot, Fed locked) | Feb 2026, BEA | 🔴 |
+| CPI Headline Mar | **+3.28% YoY, +0.86% MoM** (hot headline, gas/food pass-through) | Mar 2026, BLS | 🔴 |
+| CPI Core Mar | **+2.61% YoY, +0.21% MoM** (contained — supply-side inflation, not demand) | Mar 2026, BLS | 🟠 |
+| UMich 1Y Inflation Exp | **4.8%** (+100bps MoM, largest monthly jump since Apr 2025) | Apr 2026, UMich | 🔴 |
+| UMich 5-10Y Inflation Exp | **3.4%** (un-anchoring from 2% — Fed red line breached) | Apr 2026, UMich | 🔴🔴 |
 | GDP Q4 2025 | **0.7%** (revised down from 1.4%) | 3rd est, BEA | 🔴 |
 | GDPNow Q1 2026 | **1.3%** (halved in 5wks, stall speed) | Apr 7, Atlanta Fed | 🔴🔴 |
 | Tariff Burden | **~$1,500/HH annual** (eff rate 13.7%, peak impact Apr-Oct 2026) | Apr 2026, Tax Fdn | 🔴 |
-| UMich Sentiment | **53.3 RECESSIONARY** (sub-55) | Mar 2026, UMich | 🔴 |
+| UMich Sentiment | **47.6 RECORD LOW** (Apr preliminary, -11% MoM from 53.3 — biggest drop in series). 1Y infl exp 4.8% (+100bps), 5-10Y 3.4% (un-anchoring Fed red line). 98% pre-ceasefire. | Apr 10, UMich | 🔴🔴 |
 | CB Expectations | **70.9 RECESSION WARNING** (sub-80) | Mar 2026, CB | 🟠 |
 | Retail Sales MoM | **+0.6%** (front-loading caveat) | Feb 2026, Census | 🟢 ⚠️ |
 | Real Consumer Spending | **+0.1%** (barely positive, savings-funded) | Feb 2026, BEA | 🔴 |
@@ -97,8 +101,9 @@
 | 10 | Foreclosure Accel | 🔴 4 | 878K in 90+/FC pipeline (+25% in 4mo). Cure rates -40%. |
 
 | 11 | SB Bankruptcy + Owner Income | 🔴 4 | **NEW.** SubV +67% YoY BREACHED. Owner income destruction $73-145B invisible. SBA defaults 3.7% (12-yr high). Tariff accelerant active. |
+| 12 | Stagflation Trap / Fed Locked | 🔴🔴 5 | **NEW Apr 14.** UMich 47.6 RECORD LOW. 5-10Y inflation expectations UN-ANCHORING at 3.4% (Fed red line). CPI Mar +3.28% YoY. Fed cannot cut (validates un-anchoring) or hike (sentiment ATL). 1970s analog. |
 
-**Total: 51/55 → 🔴🔴 CRITICAL.** Apr 13 update: Student loan defaults 9.2M (from 7.7M), FICO cascade EXECUTING (714, -62 pts avg). CMBS MF DQ ATH 7.15%. Existing home sales 3.98M (approaching RED). TX overtook FL in FC starts. Prior: 47/50 → 51/55 (Apr 9 POP vector #11).
+**Total: 57/60 → 🔴🔴 CRITICAL.** Apr 14 update: Vector #12 added (Stagflation Trap) — UMich record low + inflation expectations un-anchoring. Apr 13: Student loan defaults 9.2M, FICO cascade EXECUTING, CMBS MF DQ ATH 7.15%, HY OAS 294bps complacency gap. Non-bank servicer stress (PennyMac FHA DQ 7.5%, GAO gaps). Prior: 51/55 (Apr 13).
 
 ---
 
