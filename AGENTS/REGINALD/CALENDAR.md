@@ -40,6 +40,7 @@
 | **Apr 21** | **OZK Q1 earnings** (after-close, conf call Apr 22 per OZK IR) | NCO, provisions, CRE migration, MI3, ACL, AOCI | NCO >$90M or capital raise = 🔴. **Microstructure: 15.28% SI rising, 0% insider ownership, Wellington/AQR/Two Sigma exiting, Peak6 $15M put.** | PROME |
 | ~Apr 22 | PB Q1 earnings | TX CRE, provisions | — | — |
 | **Apr 28** | **RITM Q1 earnings** | Ginnie MSR performance, DQ trend | Mgmt claim "DQ will reverse in Q1" — testable. If fails, confirms CARL non-bank servicer stress thesis → warehouse transmission. | CARL, REGINALD (WAL V3) |
+| **May 6** | **APO Q1 earnings** (pre-market, 8:30 AM ET webcast) | Atlas SP segment disclosure; warehouse book size; any non-bank servicer counterparty commentary | New watch (Apr 14 warehouse research): Atlas SP = dominant warehouse provider to stressed non-bank mortgage servicers ($6.9B at PFSI = 78% concentration). Adds to existing APO stack (MFS fraud, First Brands, Epstein May 21, Athene). | REGINALD, CARL |
 | **Apr 23** | **VLY Q1 earnings** | Capital, CRE provisions | — | PROME |
 | **Apr 23** | **SSB Q1 earnings** (after-market) | FL/TX exposure (42%), CRE MF | FL stress read-through | CORAL |
 | Apr 23 | ASB Q1 earnings (after-market) | — | — | — |
