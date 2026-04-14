@@ -5,24 +5,27 @@ Trust	Type	Issuer	30+_DQ	60+_DQ	90+_DQ	Charge_Off	Payment_Rate	Status	Date	Sourc
 # ALL COMMERCIAL BANKS (FED)
 All_Banks_Aggregate	CC	Fed	3.02%	—	—	3.92%	—	🟡 ELEVATED	Q3-2025	Fed	Down from 3.10% Q1 peak; stabilizing
 
-# DISCOVER CARD MASTER TRUST
-Discover_DCMT	Prime CC	Discover	3.84%	—	—	5.0%	Stable	🟠 HIGH	Q4-2025	Earnings	3rd consecutive QoQ decline; "stable consumer"
-Discover_DCMT_Q3	Prime CC	Discover	3.87%	—	—	5.3%	Stable	🟠 HIGH	Q3-2025	Earnings	
-Discover_DCMT_Q2	Prime CC	Discover	—	—	—	5.5%	—	🟠 HIGH	Q2-2025	Earnings	
+# DISCOVER CARD MASTER TRUST (DEPRECATED — MERGER DEFEASANCE)
+Discover_DCMT	Prime CC	Discover	3.84%	—	—	5.0%	Stable	⚫ DEPRECATED	Q4-2025	Earnings	DCMT filed Form 15-12G (deregistration) Dec 19 2025 post-CapOne merger. Last 10-D Dec 15 2025. DCENT in defeasance mode since Dec 18 2025. Discover CC performance data now rolls into COMET. See KB-CARL-208.
+Discover_DCMT_Q3	Prime CC	Discover	3.87%	—	—	5.3%	Stable	⚫ DEPRECATED	Q3-2025	Earnings	Historical.
+Discover_DCMT_Q2	Prime CC	Discover	—	—	—	5.5%	—	⚫ DEPRECATED	Q2-2025	Earnings	Historical.
 
 # CAPITAL ONE COMET
 CapOne_COMET	Mix CC	Capital One	4.53%	—	3.99%	5.01%	—	🟠 HIGH	Dec-2025	Monthly	Adjusted; excludes Walmart impact
 CapOne_COMET_Q4	Mix CC	Capital One	4.53%	—	—	6.0%*	—	🟠 HIGH	Q4-2025	Earnings	*Includes Walmart exit; adjusted ~5.6%
+CapOne_COMET_Feb26	Mix CC	Capital One	1.88%	1.38%	—	2.47% annualized net default	43.23%	🟠 HIGH	Feb-2026	EDGAR 10-D	Trust-level monthly: 30+ DQ 1.88%, 60+ DQ 1.38%, annualized default 3.50% gross / 2.47% net. Payment rate 43.23%. Yield 26.46%. Total receivables ~$23B. NOTE: Trust-level 30+ at 1.88% vs CapOne reported 4.53% in earnings — trust holds best receivables (prime/securitized subset). Useful as directional monthly indicator, not absolute measure of CapOne book.
 CapOne_COMET_Q3	Mix CC	Capital One	4.53%	—	—	4.63%	—	🟡 MODERATE	Q3-2025	Earnings	Improved from 5.25% Q2
 
 # SUBPRIME AUTO — SDART EDGAR BASELINE (Updated 2026-03-11)
 # Source: SEC EDGAR 10-D Servicer Certificates (EX-99.1), Jan 2026 collection period
 SDART_2023-2	Subprime Auto	Santander	25.19%	10.81%	2.36%	9.33% CNL	—	🔴 CRITICAL	Jan-2026	EDGAR 10-D	33mo seasoned. $1.54B orig → $450M remaining. Monthly NL 0.69%. Terminal ~11-12%.
 SDART_2024-1	Subprime Auto	Santander	22.07%	9.31%	2.26%	8.48% CNL	—	🔴 CRITICAL	Jan-2026	EDGAR 10-D	25mo seasoned. $1.61B orig → $636M. Monthly NL 0.80%. Recovery ~43% (vs Honda 63%).
+SDART_2024-1_Feb	Subprime Auto	Santander	21.64%	9.31%	2.18%	8.74% CNL	—	🔴 CRITICAL	Feb-2026	EDGAR 10-D	26mo seasoned. Pool factor 0.379. 30+ DQ DOWN 43bps but CNL UP +26bps = losses accelerating, cure rates collapsing. Monthly NL 0.67%. DQ Trigger 24% (2.36pp cushion).
 SDART_2024-3	Subprime Auto	Santander	20.45%	8.68%	1.93%	6.22% CNL	—	🔴 CRITICAL	Jan-2026	EDGAR 10-D	20mo seasoned. $1.96B orig → $991M. Monthly NL 0.65%.
 SDART_2024-5	Subprime Auto	Santander	19.22%	7.80%	1.89%	5.14% CNL	—	🔴 CRITICAL	Jan-2026	EDGAR 10-D	16mo seasoned. $1.88B orig → $1.02B. Monthly NL 0.66%.
 SDART_2025-1	Subprime Auto	Santander	17.15%	6.95%	1.62%	4.22% CNL	—	🔴 CRITICAL	Jan-2026	EDGAR 10-D	13mo seasoned. $2.25B orig → $1.43B. LARGEST POOL. Class E tranche added.
 HAROT_2024-1	Prime Auto	Honda	1.21%	0.28%	0.05%	0.25% CNL	—	🟢 NORMAL	Jan-2026	EDGAR 10-D	24mo seasoned. CONTROL. $2.16B orig → $724M. Monthly NL 0.03%. 34x CNL gap vs SDART.
+HAROT_2024-2_Feb	Prime Auto	Honda	1.22%	0.27%	0.08%	CNL $6.3M	—	🟢 NORMAL	Feb-2026	EDGAR 10-D	~20mo seasoned. Prime control. 30+ DQ essentially flat YoY. Monthly NL 0.48% annualized. vs SDART 2024-1: 17.7x gap (30+ DQ), 34x gap (60+ DQ). Divergence stable — loss acceleration is SDART-specific, not cross-market.
 Exeter_2024	Deep Subprime	Exeter	—	—	—	20.75% ECL	—	🔴 CRITICAL	2025	S&P	S&P hiked expected cumulative net loss
 Aggregate_Subprime_Auto	Subprime Auto	Multiple	—	6.9% ATR	—	—	—	🔴🔴 CRITICAL	Jan-2026	Fitch/Wolf Street	Record high. Up 34bps from 6.56% Jan 2024. Santander highest among lenders at 7.9% (Dec-2025).
 
