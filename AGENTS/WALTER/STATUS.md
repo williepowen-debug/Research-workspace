@@ -25,10 +25,13 @@ Single entry point for external information into the agent network. WALTER filte
 | Design: Signal Registry | 📋 Draft A | Architecture only — SQLite/superevent system deferred to v2 |
 | Research Corpus | ✅ 10 prompts | ESI, military, ATC, pub/sub, IC dissem, emergency dispatch, scientific alerts, open output, newsroom editorial, trading desk |
 | Distilled Principles | ✅ 10/10 done | All prompts distilled |
-| outbox/ | ✅ Created Apr 10 | Holds drafted signals awaiting dispatch |
-| routed/route_log.tsv | ✅ Created Apr 11 | FILTER_SPEC schema, 2 rows backfilled (SIG-001, RED falsification alert) |
+| outbox/ | ✅ Created Apr 10 | Drafts in flight only. Cleared once dispatched (Apr 14 architecture change). |
+| routed/route_log.tsv | ✅ Created Apr 11 | FILTER_SPEC schema, 3 rows (SIG-001 CPI+UMich, SIG-002 RED falsification, SIG-003 FORGE stale) |
 | filtered/kill_log.tsv | ✅ Created Apr 11 | Empty, FILTER_SPEC headers ready for first filtered signal |
-| queue/ signals/ | ❌ Not created | queue/ deferred until MINIMIZE needed; signals/ deferred until archive design decision |
+| **signals/** (Layer 2 archive) | **✅ Created Apr 14** | Canonical archive of dispatched signals + INDEX.md discovery table. 3 signals backfilled. Append-only. Agents pull IMMEDIATE/PRIORITY/ROUTINE from here (FLASH still inbox-pushed). |
+| **MEMORY.md** | **✅ Created Apr 14** | Feedback/Findings/References/Session Notes — matches SAM pattern |
+| **LAST_COMPLETION.md** | **✅ Created Apr 14** | Structured closeout record (overwritten each session) |
+| queue/ | ❌ Not created | Deferred until MINIMIZE mode needed |
 | **`/COP.md` (Layer 1)** | **✅ LIVE at repo root** | **v0.3 refreshed Apr 13. Δ: Islamabad collapsed, blockade, CARL 51/55, FL suppression confirmed, OZK 3 days, RED Day 3+ falsification. ~75 lines. Refresh cadence: every WALTER session.** |
 | COP Architecture | 🟡 Layer 1 live | Three-layer hybrid (COP.md ✅ / Signal Archive / Push). Layers 2 & 3 still TBD. |
 | Boot Sequence | ✅ Updated Apr 11 | CLAUDE.md now includes read+refresh `/COP.md` as standing step. |
