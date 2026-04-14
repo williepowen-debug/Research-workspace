@@ -25,20 +25,31 @@
 
 | Date | Catalyst | Agent(s) | Spawn Type |
 |------|----------|----------|------------|
-| Apr 14 | JPM Q1 earnings — consumer credit commentary | CARL direct | EARNINGS WATCH |
-| Apr 15 | Sweet v. McMahon non-Exhibit C notices deadline | STUE | DATA REFRESH |
-| Apr 21 | SYF Q1 earnings — NCO >6%? CRL-12 test | CARL direct | EARNINGS WATCH |
+| ~~Apr 10~~ | ~~CPI March~~ — ✅ PASSED (headline +3.28%, core +2.61%, CPI Energy +12.5% YoY) | DOC, CARL | — |
+| ~~Apr 14~~ | ~~JPM Q1 earnings~~ — handled by REGINALD | REGINALD | — |
+| **Apr 15** | **Sweet v. McMahon non-Exhibit C notices deadline** — DOE likely misses → auto full relief | STUE | DATA REFRESH |
+| **Apr 15** | NAHB HMI Apr + MBA Apps — Feed VX-CARL-BLDR-01, HSG-01 | HOMER | DATA REFRESH |
+| **Apr 16** | OZK earnings (release) / Apr 22 call — CRE construction | REGINALD primary | EARNINGS WATCH |
+| **Apr 21** | SYF Q1 earnings — NCO >6%? CRL-12 test. HY OAS complacency test #2. | CARL direct | EARNINGS WATCH |
+| **Apr 21** | DHI Q2 earnings — builder margin vs 19.0-19.5% guidance | HOMER | EARNINGS WATCH |
+| **Apr 23** | PHM Q1 earnings — missing middle of builder K-shape | HOMER | EARNINGS WATCH |
+| **Apr 25** | UMich April FINAL — is 47.6 preliminary confirmed? Post-ceasefire re-measure | CARL direct | DATA REFRESH |
 | Apr 26 | FL UI Wave 2 peak | GIG, HOMER | DATA REFRESH |
-| Apr 30 | ~~CFPB 1033 deadline~~ — **ON HOLD** (judge enjoined, CFPB reconsidering) | PHAN | MONITOR |
+| **Apr 28** | **Rithm/NewRez Q1 earnings — "DQ will reverse in Q1" testable claim** (18% Ginnie exposure) | CARL direct | EARNINGS WATCH |
+| **Apr 28** | Case-Shiller Feb — Tampa trajectory, Midwest broadening | HOMER | DATA REFRESH |
+| **Apr 29** | Census Mar Housing Starts (delayed) | HOMER | DATA REFRESH |
+| ~~Apr 30~~ | ~~CFPB 1033 deadline~~ — ON HOLD (judge enjoined) | PHAN | MONITOR |
+| **Late Apr / Early May** | **PennyMac Q1 earnings** — FHA DQ >7.5%? Cenlar integration | CARL direct | EARNINGS WATCH |
+| **Late Apr** | **Fannie MF March DQ — GFC breach test** (trajectory 0.74% → 0.80%?) | HOMER | DATA REFRESH |
 | May 7-12 | Dave Q1 earnings — 28DPD with gas squeeze | GIG | EARNINGS WATCH |
 | ~May | Uber/Lyft Q1 — driver counts, gas impact | GIG | EARNINGS WATCH |
 | ~May | MBA Q1 NDS — foreclosure pipeline update | HOMER | DATA REFRESH |
-| ~May | Fannie MF DQ March/April — GFC breach test | HOMER | DATA REFRESH |
-| Apr 10 | CPI March — medical care component | DOC | DATA REFRESH |
-| ~Apr | NFIB Small Business Optimism March | POP | DATA REFRESH |
 | ~May | Affirm Q3 FY2026 earnings | PHAN | EARNINGS WATCH |
-| Jun 1 | FL hurricane season begins | POLLY, HOMER | MONITOR |
 | ~May | KFF employer survey / ACA enrollment data | POLLY, DOC | DATA REFRESH |
+| May 28 | AFT/MOHELA status conference (discovery) | STUE | MONITOR |
+| Jun 1 | FL hurricane season begins | POLLY, HOMER | MONITOR |
+| Q2-Q3 | Non-bank servicer stress window (Ginnie advance drain cumulative) | CARL direct | MONITOR |
+| Jul 1 | SAVE → RAP transition — 7.5M forced into new plans | STUE | DATA REFRESH |
 
 ---
 

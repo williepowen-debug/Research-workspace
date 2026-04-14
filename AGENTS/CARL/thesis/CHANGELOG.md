@@ -8,6 +8,56 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-04-14 — v2.3: FED LOCK MECHANISM + SUBPRIME AUTO CURE COLLAPSE CONFIRMED
+
+### THESIS v2.2 → v2.3
+**Author:** CARL (via WALTER inbox processing + ABS drill-down)
+**Action:** Major thesis refinement. Vector #12 Stagflation Trap added. Convergence 51/55 → **57/60 CRITICAL**.
+
+### CONVERGENCE MATRIX — Vector #12 Added
+| Vector | Change | Reason |
+|--------|--------|--------|
+| #12 Stagflation Trap / Fed Locked | **NEW** 🔴🔴 5/5 | WALTER CPI/UMich signal integrated (Apr 10 data): UMich Apr preliminary 47.6 — RECORD LOW (biggest MoM drop in series). 1Y inflation exp 4.8% (+100bps), 5-10Y exp UN-ANCHORING at 3.4% (Fed red line breached). CPI Mar +3.28% YoY headline, +2.61% core. Mechanism: Fed cuts now validate un-anchoring → inflation-negative, not stimulus. Cannot cut (expectations), cannot hike (sentiment ATL). 1970s Volcker analog. RED Stagflation Spiral upgraded. HENRY "Fed cuts pushed H2 2027" reinforced. |
+
+### KEY EMPIRICAL CONFIRMATIONS (Apr 14)
+- **Subprime auto cure collapse confirmed industry-wide.** SDART 2024-1 (30+ DQ -43bps, CNL +26bps), EART 2024-2 (-177bps/+52bps deep subprime), AMCAR 2024-1 (-175bps/+24bps). HAROT 2024-2 prime control stable. Pattern: DQ bucket draining to charge-offs, not cures. EART already at projected terminal CNL (13.06%). KB-CARL-207, KB-CARL-210.
+- **Discover ABS structure dissolved.** DCMT filed Form 15-12G Dec 19 2025 post-CapOne merger. DCENT in defeasance. Removed from abs_monitor. CC data now rolls into COMET. KB-CARL-208, KB-CARL-209.
+
+### PREDICTIONS
+No new predictions added — existing CRL-01 through CRL-17 remain appropriate. Notes updated on CRL-05 (cascade confirmation), CRL-08 (FL crossed $4). Future drill-down (#2 CNL trigger proximity) may generate CRL-18.
+
+### KB Added (Apr 14: 7 entries)
+KB-CARL-204 (UMich record low), KB-CARL-205 (CPI Mar), KB-CARL-206 (inflation expectations un-anchoring), KB-CARL-207 (SDART Feb loss acceleration), KB-CARL-208 (Discover deregistration), KB-CARL-209 (COMET baseline), KB-CARL-210 (cross-trust cure collapse confirmation).
+
+### Cross-Agent Signals
+- Previously sent: CARL → REGINALD (non-bank servicer warehouse exposure, Apr 13 — delivered Apr 14)
+- Convergence bump to 57/60 should be propagated to PROME next spawn
+
+---
+
+## 2026-04-13 — HY OAS COMPRESSION + NON-BANK SERVICER RESEARCH + KB ARCHITECTURE
+
+### THESIS v2.2 (refinement, not version bump)
+**Author:** CARL (script-driven data refresh + research drill-downs)
+**Action:** Major data refresh + structural finding on non-bank mortgage servicer transmission pathway.
+
+### KEY FINDINGS
+- **HY OAS complacency gap widening.** Spreads collapsed 346→294bps in 10 days (ceasefire Apr 8 = -18bps single session, plus NFP headline beat). Now BELOW 300bps elevated threshold while student loan defaults hit 9.2M, CMBS MF DQ reached ATH 7.15%, existing home sales approached <4.0M RED. Market split: JPM AM/Marks bullish ("tight justified"), Goldman 45% recession/Cambridge/Wellington/UBS warning on complacency. CARL interpretation: structural demand (CLO/pension/ETF flows) + index survivorship bias masking fundamental deterioration. Late-2007 analog (HY 260bps June → 800+ Nov). KB-CARL-200.
+- **Non-bank mortgage servicer stress accelerating.** PennyMac FHA DQ spiked 5.9→7.5% single quarter Q4 2025, advance expenses +14%. GAO-26-107436 (Feb 2026): 35% of 550+ non-banks have high debt, only 30% profitable in 2022-23 downturn. **Ginnie Mae has NO stagflation stress test** — our thesis environment is the untested scenario. loanDepot $107.5M net loss, pledging GNMA MSR income. Lakeview (18% DQ)/Freedom (15.5%) private black boxes. MFS UK collapse (Feb 2026, Barclays $669M loss) = warehouse contagion template. Ginnie advance obligation asymmetry (advance until FINAL resolution) converts FHA DQ pipeline to cumulative cash drain. KB-CARL-202, KB-CARL-203, KB-HMR-046 through 052.
+
+### Infrastructure Built
+- 7-script CARL monitoring suite operational (thresholds, gas_tracker, consumer_pulse, catalyst_countdown, housing_pulse, abs_monitor, boot)
+- abs_monitor expanded 4→6 issuers (added Exeter, Ally, GMF/AmeriCredit). 17 trusts tracked. SoFi excluded (private/144A).
+- KB Migration Chunk 1 DONE: 44 housing entries delegated CARL → HOMER. HOMER KB 35→52 entries. Cross-domain claims retained in CARL.
+
+### Cross-Agent Signal
+- **CARL → REGINALD outbox:** Non-bank servicer warehouse line exposure. Request: check WAL/FHN/TCBI warehouse exposures, JPM Q1 warehouse commentary. Delivered Apr 14.
+
+### KB Added (Apr 13: 5 entries)
+KB-CARL-200 (HY OAS compression), KB-CARL-201 (CPI Energy +12.5%), KB-CARL-202 (non-bank transmission), KB-CARL-203 (Ginnie Mae no stagflation test), plus 7 HOMER entries on non-bank servicer research.
+
+---
+
 ## 2026-04-09 — POP DEEP DIVE: INVISIBLE INCOME + BANK PIPELINE + NEW CONVERGENCE VECTOR
 
 ### CONVERGENCE MATRIX Updated
