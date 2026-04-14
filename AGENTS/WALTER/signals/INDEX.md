@@ -8,7 +8,9 @@ Canonical archive of every signal WALTER has dispatched. This is the **single so
 
 **WALTER:** every dispatched signal gets a canonical copy here. Filename convention: `SIG-W-YYYYMMDD-NNN-slug.md`. Append new signals to the table below at dispatch time. Never delete or rename.
 
-## Precedence → delivery rules (new policy, Apr 14 2026)
+## Precedence → delivery rules
+
+**Target policy (Apr 14 2026):**
 
 | Precedence | Archive (here) | Recipient inbox | Telegram to Will |
 |-----------|:--------------:|:---------------:|:----------------:|
@@ -17,7 +19,16 @@ Canonical archive of every signal WALTER has dispatched. This is the **single so
 | PRIORITY  | ✅ always      | ❌              | ❌               |
 | ROUTINE   | ✅ always      | ❌              | ❌               |
 
-Agents pull IMMEDIATE/PRIORITY/ROUTINE signals from this archive at boot. Only FLASH forces direct delivery.
+**Interim mode (currently active — until network boot-sequence rollout):**
+
+| Precedence | Archive (here) | Recipient inbox | Telegram to Will |
+|-----------|:--------------:|:---------------:|:----------------:|
+| FLASH     | ✅ always      | ✅ always       | ✅ always        |
+| IMMEDIATE | ✅ always      | ✅ (interim)    | ❌               |
+| PRIORITY  | ✅ always      | ✅ (interim)    | ❌               |
+| ROUTINE   | ✅ always      | ✅ (interim)    | ❌               |
+
+Dual-delivery keeps the current push behavior alive until other Tier 1 agents add `signals/INDEX.md` to their boot sequence. When Will approves the network rollout, switch to target policy and stop inbox-pushing non-FLASH signals.
 
 ## Archive
 
