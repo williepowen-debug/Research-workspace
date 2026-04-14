@@ -1,5 +1,5 @@
 # CARL THESIS: "Beneath the Ice"
-**Version:** 2.1 | **Updated:** 2026-03-31 | **Status:** ACTIVE — composition shift in progress
+**Version:** 2.3 | **Updated:** 2026-04-14 | **Status:** ACTIVE — convergence 57/60, Fed-lock mechanism added
 
 ---
 
@@ -32,6 +32,13 @@
 | SYF 30+ DQ rising MoM | 4.6% → 4.7% (Feb); stress migrating up quality stack | KB-096 |
 | Triple nitrogen seizure confirmed (3 sources offline) | Gulf urea + China N+K halt + Russia AN suspended | KB-101, KB-110 |
 | ICE enforcement removing 33K+ workers/mo from ag/food | H-2A clogged to July; Mexico remittances -4.6% YoY | KB-103, KB-104 |
+| **Subprime auto cure collapse CONFIRMED industry-wide (Apr 14)** | SDART + EART + AMCAR all show DQ↓/CNL↑ Jan→Feb 2026. HAROT prime control stable. Deeper subprime = sharper cure collapse. DQ bucket draining to charge-offs, not cures. | KB-CARL-207, KB-CARL-210 |
+| **HY OAS complacency gap widening (Apr 14)** | Spreads 346→294bps in 10 days despite consumer deterioration. Below 300bps elevated threshold. Structured credit cracking while public HY tightens. Late-2007 analog. | KB-CARL-200 |
+| **UMich sentiment RECORD LOW (Apr 14)** | 47.6 preliminary April (-11% MoM, biggest drop in series). 1Y inflation exp 4.8% (+100bps), 5-10Y 3.4% UN-ANCHORING (Fed red line). | KB-CARL-204 |
+| **CPI Mar hot headline, core contained** | +3.28% YoY headline (gas/food pass-through), +2.61% core. Supply-side stagflation signature. | KB-CARL-205 |
+| **Non-bank servicer stress accelerating (Apr 13)** | PennyMac FHA DQ 5.9→7.5% single quarter. loanDepot $107.5M loss pledging GNMA MSRs. GAO: 35% non-banks high debt, NO stagflation stress test. MFS UK collapse = warehouse contagion template. | KB-CARL-202, KB-CARL-203 |
+| **Discover ABS structure dissolved (Apr 14)** | DCMT filed Form 15-12G Dec 19 2025 post-CapOne merger. DCENT in defeasance. Discover rolls into COMET. | KB-CARL-208 |
+| **FHA K-shape spread 8.63pp** | FHA DQ 11.52% vs Conv 2.89%. FHA = 80% of 90+/FC pipeline increase. Non-banks hold 89% of Ginnie Mae servicing. | KB-HMR-038 |
 | 4/8 CARL predictions confirmed | CRL-01, 02, 03, 04 | PREDICTIONS.tsv |
 
 ---
@@ -83,29 +90,37 @@ NFP -92K confirmed but claims benign (210K initial, 1,819K continuing). **JOLTS 
 - **v1.0 (Feb 2026):** Employment-first detonator → subprime cascade → bank losses. Linear, fast.
 - **v2.0 (Mar 2026):** Multi-vector cost squeeze (energy + food + UI exhaustion) replaces single employment detonator. Subsidence, not earthquake. K-shape converging downward.
 - **v2.1 (Mar 31 2026):** JOLTS inversion confirmed (0.91 Feb). Gas $4 breakpoint fired. Triple nitrogen seizure. Three vectors converging simultaneously.
+- **v2.2 (Apr 9 2026):** SB Bankruptcy + Owner Income added as Vector #11 (POP deep dive). Invisible income destruction $73-145B annual. 51/55.
+- **v2.3 (Apr 14 2026):** **Stagflation Trap + Fed Lock added as Vector #12.** Mechanism: UMich 47.6 record low while 5-10Y inflation expectations un-anchor at 3.4%. Fed cuts validate un-anchoring → inflation-negative. Fed locked deeper than at any prior point in thesis. Also: subprime auto cure collapse confirmed industry-wide at ABS trust level (not just aggregate). HY OAS complacency gap widening. Non-bank servicer stress accelerating. 57/60.
 
-**Current mechanism:** Cost squeeze + UI exhaustion + housing pipeline. Employment is structural rot, not acute break. Timing: Q2-Q3 stress, grinding not step-function. Trades need longer duration — roll, don't trim.
+**Current mechanism:** Cost squeeze + UI exhaustion + housing pipeline + Fed lock. Employment structural rot, not acute break. Subprime ABS cure collapse now confirmed at trust level — DQ converting to charge-off, not cure. Fed locked by un-anchored long-run inflation expectations. HY complacency gap creates violent-repricing risk when events force recognition. Timing: Q2-Q3 stress, grinding not step-function, punctuated by rating actions and trigger breaches. Trades need longer duration — roll, don't trim.
 
 ---
 
-## Convergence Score: 47/50 *(canonical — STATUS.md mirrors for dashboard)*
+## Convergence Score: 57/60 *(canonical — STATUS.md mirrors for dashboard)*
 
 | # | Vector | Score | Trend |
 |---|--------|-------|-------|
-| 1 | CC 90+ DQ → GFC | 4 | Stable |
-| 2 | Subprime Auto 60+ | 5 | BREACHED, stable at max |
-| 3 | Fannie MF DQ → GFC | 4 | Imminent |
-| 4 | Student Loan 90+ | 5 | BREACHED — 7.7M default, ~25% DQ, SAVE ending Jul 1. Max. |
-| 5 | Gas Price Squeeze | 5 | $4.02 BREACHED, max |
-| 6 | UI Exhaustion Wave | 5 | Duration +2.0wk single month, cont claims drop = exhaustion, DOGE 260K+ |
-| 7 | FL Triple Squeeze | 4 | Strengthening (outmigration) |
-| 8 | Reverse Wealth Effect | 5 | Active, max |
-| 9 | K-Shape Converging | 5 | Active, max |
-| 10 | Foreclosure + Housing | 4 | STRENGTHENING (878K pipeline, cure rates -40%) |
+| 1 | CC 90+ DQ → GFC | 4 | Stable — 12.70% (92% of GFC) |
+| 2 | Subprime Auto 60+ | 5 | BREACHED, stable at max. **Cure collapse confirmed across 3 trusts (Apr 14).** |
+| 3 | Fannie MF DQ → GFC | 4 | Imminent — 0.74% Feb, 6bps from GFC peak, Mar data late Apr |
+| 4 | Student Loan 90+ | 5 | BREACHED — 9.2M default (+1.5M in 90 days), FICO 714 cascade EXECUTING |
+| 5 | Gas Price Squeeze | 5 | $4.13 national, FL $4.02, CA $5.89 RED. Diesel UP. CPI Energy +12.5% YoY. Max. |
+| 6 | UI Exhaustion Wave | 5 | Duration 25.7wk, DOGE 260K+ cuts, peak July. Max. |
+| 7 | FL Triple Squeeze | 4 | Strengthening — condo inventory 13.2mo, TX now leads FC starts |
+| 8 | Reverse Wealth Effect | 5 | Active — RV collapse + upper-income pullback. Max. |
+| 9 | K-Shape Converging | 5 | Active — both cohorts deteriorating. Max. |
+| 10 | Foreclosure + Housing | 4 | STRENGTHENING — 878K pipeline, cure rates -40%, 47/50 cities declining |
+| 11 | SB Bankruptcy + Owner Income | 4 | **Apr 9:** SubV +67% BREACHED, SBA defaults 12-yr high, $73-145B invisible income destruction |
+| 12 | Stagflation Trap / Fed Locked | 5 | **Apr 14 NEW:** UMich 47.6 RECORD LOW. 5-10Y inflation exp UN-ANCHORING at 3.4% (Fed red line). CPI Mar +3.28%. Fed can't cut (un-anchoring), can't hike (sentiment ATL). 1970s analog. Max. |
 
-**Composition note (Apr 4 update):** Student loan 90+ upgraded 4→5: FSA confirms 7.7M default/$180B (Dec 2025), ~25% of borrowers w/payment due behind, 18-29 cohort at 21% 90+DQ, SAVE plan ending Jul 1 forces 7.5M into repayment, MOHELA failures manufacturing 800K DQ from missed bills, Treasury transfer creating operational chaos. Score 46→47/50. All prior upgrades remain (gas breached, UI exhaustion max, etc.). STUE sub-agent activated for student loan drill-down.
+**Apr 14 update:** Vector #12 added. UMich Apr preliminary 47.6 (biggest MoM drop in series). 5-10Y inflation expectations un-anchored at 3.4%. Mechanism: Fed cuts validate un-anchoring → inflation-negative, not stimulus. Fed locked deeper than Mar. RED Stagflation Spiral scenario upgraded. HENRY's "Fed cuts pushed to H2 2027" reinforced. Score 51/55 → **57/60 CRITICAL**.
 
-**Prior (Mar 31):** Gas $4.02 BREACHED. SPR failing. UI exhaustion upgraded 4→5. 878K mortgages in 90+/FC pipeline (+25% in 4mo), cure rates -40%. RV collapse confirms reverse wealth effect. Stagflation in published data (PCE 3.1%, GDP 0.7%). Triple nitrogen seizure confirmed. Load-bearing walls: energy + food + UI exhaustion + housing pipeline + student loan mass default.
+**Apr 13 update:** HY OAS compression 346→294bps (ceasefire + NFP), complacency gap widening. Subprime auto cure collapse confirmed at trust level (SDART Feb data). Non-bank servicer stress research: PennyMac FHA DQ +160bps single quarter, GAO found Ginnie Mae has no stagflation stress test. Signal sent to REGINALD on warehouse line exposure.
+
+**Apr 9 (v2.2):** Vector #11 SB Bankruptcy + Owner Income added. POP deep dive confirmed SubV +67% YoY BREACHED, owner income destruction $73-145B invisible. Score 47/50 → 51/55.
+
+**Apr 4 update:** Student loan 90+ upgraded 4→5 via FSA data + SAVE ending Jul 1. Score 46→47/50.
 
 ---
 
@@ -131,13 +146,14 @@ NFP -92K confirmed but claims benign (210K initial, 1,819K continuing). **JOLTS 
 ## Counter-Evidence (Active)
 
 See `red_team/COUNTER_LOG.md` for full log. Current key counter-signals:
-- Claims 1,819K lowest since May 2024 (employment NOT cracking acutely)
+- **Continuing claims 1,794K Mar 28** (fell further from 1,819K — employment STILL not cracking acutely; gap to YELLOW threshold widening to 106K)
+- **HY OAS 294bps** (collapsed 23bps Apr 2→10 — credit markets fully pricing soft landing while consumer data deteriorates. Either thesis wrong OR repricing event pending.)
 - **Auto insurance CPI 5.9% YoY** (collapsed from 20-30%; major cost-squeeze relief) [BLS Feb 2026]
 - **Homeowners insurance +8.5% nationally** (decelerated from 50% YoY; FL Citizens cutting -8.7%) [Insurify 2025]
-- NAR Feb +1.7% MoM with affordability improving (housing not in freefall)
+- NAR Feb +1.7% MoM with affordability improving (housing not in freefall — but Mar 3.98M approaching <4.0M RED)
 - ALLY NCO guidance 1.9% (prime auto holding)
-- GDPNow 2.0% (Mar 23, down from 2.7% Mar 13 — weakening as counter-signal)
-- Savings rate 4.5% Jan (buffer slightly rebuilt, tax-driven)
+- HAROT prime auto control flat at 1.22% 30+ DQ (cure collapse is subprime-specific, not market-wide)
+- Savings rate 4.0% Feb (down from Jan but still above RED 3%)
 
 ---
 
