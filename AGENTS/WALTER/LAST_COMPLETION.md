@@ -61,14 +61,14 @@ FOLLOW-UP (next session):
 - **Boot from new STATUS/MEMORY/LAST_COMPLETION/CLAUDE files.** All updated in this closeout.
 - **3 unread WALTER inbox signals** discovered during closeout (sit in `AGENTS/WALTER/inbox/`):
   - `SIG-OTTO-WALTER-20260415-tricolor-mtb-abs-update.md` (OTTO is registered Tier 2 — auto finance)
-  - `SIG-VIOLET-WALTER-20260415-vix-apr15-refresh.md` (VIOLET — **NOT in REGISTRY.tsv** — investigate at boot)
+  - `SIG-VIOLET-WALTER-20260415-vix-apr15-refresh.md` (VIOLET — confirmed by Will as new VIX-tracking agent; added to REGISTRY 2026-04-15 with placeholder Tier/Platform — get details from Will)
   - `SIG-VIOLET-WALTER-20260415-002-skew-divergence-escalation.md` (VIOLET — same)
   Read them at boot, decide if any need routing onward via BOARD.
 - **Live KRE/XLF check at open** — gap widened to ~12pts as of yesterday; OZK earnings TODAY (Apr 16) is the proximate test.
 - **Spot-check Iran state** before anchoring any new oil/Hormuz signal — state moved fast yesterday.
 - **Live Brent check** — last data showed $94-100 range, -4% on talks-hope.
 - **Telegram MCP status check at boot.**
-- **VIOLET investigation** — agent is sending me signals but isn't in REGISTRY.tsv. Either she's a new agent Will spawned without updating registry, or there's a registry gap. Update registry if confirmed.
+- **VIOLET registration details** — added to REGISTRY with placeholders. Confirm Tier/Platform/Status/Focus with Will at boot.
 
 ---
 

@@ -11,7 +11,8 @@ HENRY	1	OC	Equities, VIX, Fed expectations, market structure	VOL,CREDIT_SPREADS,
 LABOR	1	OC	Employment data, wage pressure, state flows	LABOR_MARKET,DOGE,TEMP_STAFFING,UI_EXHAUSTION,WHITE_COLLAR	LABOR_DOWN	WALTER	CARL,HENRY	YELLOW	2026-04-10	FL Wave 1 suppression CONFIRMED, shadow +70K, claims 219K/~289K true
 HAWK	1	OC	Gulf energy, oil conflict scenario planning	WAR,GEOPOLITICS	ENERGY	WALTER	BRENT,SAM	RED2	2026-04-01	Scenario D 92%, ADCOP bypass eliminated, 3 Gulf states hit
 NEXUS	1	OC	COP synthesis, convergence scoring	CONVERGENCE	SYNTHESIS	ALL	WILL,PROME	RED2	2026-04-04	50/50 ceiling, 18 convergences — STALE 9d, needs refresh
-WALTER	1	CC	Signal filter, classification, routing, COP integrator	META	COORD	EXTERNAL	ALL	YELLOW	2026-04-13	COP v0.3 refreshed, registry updated, Islamabad collapse processed
+WALTER	1	CC	Signal filter, classification, routing, COP integrator	META	COORD	EXTERNAL	ALL	YELLOW	2026-04-15	BOARD live, FORMAT_SPEC v0.4 (ASIA_CONTAGION+UST_FOREIGN), 13 signals dispatched today
+VIOLET	?	?	VIX-specific tracking	MARKET_VOL	—	WALTER,HENRY	HENRY,RED	—	2026-04-15	NEW agent — sent SIG-VIOLET-WALTER-20260415-vix-apr15-refresh + skew-divergence-escalation. Tier/platform/details TBD. Will to confirm.
 ZHAO	2	OC	China/HK peg, HIBOR-SOFR, JGB unwind, LGFV	ASIA_CONTAGION,UST_FOREIGN	—	SAM,WALTER	LIQUID	RED3	2026-04-02	Demand hole confirmed, HIBOR seasonal, TIC Apr 15
 HANS	2	OC	Iran nuclear, Hormuz cascade, geopolitics	GEOPOLITICS,WAR	ENERGY	WALTER	HAWK,BRENT	RED3	2026-03-24	War day 25, nuclear threshold crossed, Hormuz permanent
 MARCO	2	OC	Immigration, DHS shutdown, labor supply	—	LABOR_DOWN	WALTER	LABOR,CARL	RED	2026-04-02	DHS day 46, 9 breached indicators, ICE expanding
