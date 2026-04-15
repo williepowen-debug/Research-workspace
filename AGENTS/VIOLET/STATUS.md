@@ -18,7 +18,10 @@
 | VIX3M/VIX | **1.151** | Apr 15 | 🟢 | [CONF] Calculated |
 | VIX Futures Curve | Contango (steep) | Apr 15 | 🟢 | [CONF] CBOE |
 | M1:M2 Contango (adj) | **+2.04%** | Apr 14 | 🟢 | [CONF] CBOE VX settlement |
-| HY OAS | **2.90** | Apr 9 | 🟢 | [CONF LIQUID Apr 10] |
+| HY OAS | **2.84** | Apr 14 | 🟢 | [CONF] FRED BAMLH0A0HYM2 |
+| HY OAS — cycle trough | **2.64** | Jan 22 | — | [CONF] FRED |
+| HY OAS — cycle peak | **3.46** | Mar 30 | — | [CONF] FRED |
+| HY OAS — distance from trough | **+20bps** (82bps at Mar 30 peak) | Apr 14 | 🟢 | Tactical trigger at +100bps |
 
 ---
 
@@ -35,6 +38,13 @@
 **Convergence Score:** 4/25 (16%) — SKEW divergence escalated 🟠→🔴 (5 pts) after empirical backtest; all other vectors ⚪ (1 pt each)
 
 **Notable:** Pattern is rare (1% base rate, 17 events in 19 years) but strongly predictive over 60-day window. Recent analogs 2024-05 → Aug 2024 yen unwind; 2024-11 → Q1 2025 vol regime; 2025-12 → our Mar 2026 event. See `research/2026-04-15_skew_divergence_episodes.md`.
+
+**Where does VIX land if pattern continues?** From 18.09 today:
+- 30d peak central: **VIX ~25** (range 22-30)
+- 60d peak central: **VIX ~28** (unconditional) / **~37** (high-SKEW cohort) / **~38** (back-to-back cluster)
+- Tail: **VIX 50-63** (one-in-five, driven by 2025-01 analog)
+- Options market confirms: Apr 29 call-wall 25-30; May 19 call-wall 35 with tail OI to 45/70
+- Full analysis: `research/2026-04-15_vix_target_distribution.md`
 
 ---
 
@@ -121,7 +131,8 @@
 
 ## CROSS-AGENT SIGNALS (Pending)
 
-**Outbound:** None
+**Outbound:** FORGE/INBOX.md — VIX Upside proposal submitted Apr 15 (spec: vehicle, strike, expiry pending Will review)
+- `outbox/SIG-VIOLET-LIQUID-20260415-hy-oas-trigger-monitor.md` — QUEUED (git path blocked)
 
 **Inbound:** None
 
