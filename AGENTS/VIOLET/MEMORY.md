@@ -210,5 +210,47 @@ Curated long-term insights on VIX, volatility regimes, and credit-vol transmissi
 
 ---
 
+---
+
+## SESSION NOTES
+
+### 2026-04-15 — empirical audit session (PUSH DEFERRED)
+
+**Status at close:** VIOLET has **4 commits staged locally, NOT pushed to GitHub**.
+
+Commit hashes (local master): `69cd3c05 → 8b36c813 → ca48167c → 69cd3c05`
+- `69cd3c05` — session tooling + empirical audit — posture 🟡→🟠 ELEVATED WATCH
+- `8b36c813` — Mar 27 trigger analysis + catalyst tracking
+- `ca48167c` — VIX options positioning tool + first snapshot
+
+**Why push was deferred:** Attempted push was rejected (non-fast-forward). Local was 4 commits ahead, remote had advanced 3 commits from another session while VIOLET was working. Cannot safely `git pull --rebase` because working tree has uncommitted work from CARL, WALTER, OTTO. Protocol (CLAUDE.md "Before pulling") says STOP when other agents have uncommitted changes outside VIOLET's directory.
+
+**Next-session push protocol:**
+1. Check git status at boot. If other agents still have uncommitted work, defer again.
+2. If working tree is clean outside VIOLET/: `git stash push -- AGENTS/VIOLET/` → `git pull --rebase` → `git stash pop` → `git push`.
+3. If stash-pop conflicts, resolve only in VIOLET files. Never touch other agents' conflicts.
+
+**Shared files from this session NOT committed (flagged to Will):**
+- `FORGE/tools/market-data/vix_futures.py` — new shared tool, VIOLET-authored. Prome or Will to commit.
+- `AGENTS/WALTER/inbox/SIG-VIOLET-WALTER-20260415-vix-apr15-refresh.md` — PRIORITY signal. Will be picked up on WALTER next boot.
+- `AGENTS/WALTER/inbox/SIG-VIOLET-WALTER-20260415-002-skew-divergence-escalation.md` — IMMEDIATE signal. Posture change routing.
+
+**Key state for next session:**
+- Posture: 🟠 ELEVATED WATCH (revised from 🟡)
+- Scenario B (new VIX event within 60d) probability: **66%** (revised from 30%)
+- Scheduled checkpoints: **2026-04-29 early** (FOMC day), **2026-06-15 full**
+- Tools now daily: `boot.py` runs `thresholds.py` + `vix_options.py` + `catalyst_countdown.py`
+- Workbook time series active: `VX_DAILY.tsv`, `VIX_OPTIONS.tsv`, `CATALYSTS.tsv`
+- 39 KB entries as of close (1 superseded KB-VIO-019, 1 corrected KB-VIO-023, thesis prediction #2 empirically falsified)
+
+**Open investigation pathways for next session** (user's stated interest — continue digging on VIX calls):
+1. Observe Apr 29 C/P OI ratio daily (currently 9.01 — extraordinarily high)
+2. IV term structure probe across forward expirations
+3. Full strike-by-strike call-wall / put-wall map for May 19
+4. CFTC COT VIX futures positioning (weekly, independent data source)
+5. Backtest: historical C/P OI ratio on FOMC-day expirations (need data source)
+
+---
+
 *Created: 2026-04-12*
-*Last Updated: 2026-04-12 (initialization)*
+*Last Updated: 2026-04-15 (empirical audit session + posture escalation + push deferred)*
