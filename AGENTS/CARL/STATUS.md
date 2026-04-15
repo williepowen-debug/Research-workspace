@@ -1,6 +1,6 @@
 # CARL STATUS
-**Updated:** 2026-04-14 ~12:30 UTC
-**Overall:** 🔴🔴 CRITICAL — Convergence 52/55. **UMich 47.6 RECORD LOW (Apr preliminary, -11% MoM). 5-10Y inflation expectations un-anchoring at 3.4% (Fed red line). CPI Mar hot headline +3.28% YoY.** Student loan defaults 9.2M, FICO 714 cascade executing. Existing home sales 3.98M. Gas $4.13 (FL $4.02, CA $5.89 RED). Diesel $5.65. HY OAS **294bps — complacency gap WIDENING.** CMBS MF DQ ATH 7.15%. Non-bank servicer stress (PennyMac FHA DQ 7.5%, GAO gaps). JPM Q1 today (REGINALD handling). Sweet v McMahon Apr 15.
+**Updated:** 2026-04-15 ~13:35 UTC
+**Overall:** 🔴🔴 CRITICAL — Convergence 57/60. **UMich 47.6 RECORD LOW (Apr preliminary, -11% MoM). 5-10Y inflation expectations un-anchoring at 3.4% (Fed red line). CPI Mar +3.28% YoY, PPI Mar +4.0% (highest since Feb 2023) — goods/energy shock (core-core +3.6% decelerating).** Student loan defaults 9.2M, FICO 714 cascade executing. Existing home sales 3.98M. Gas $4.13 (FL $4.02, CA $5.89 RED). Diesel $5.65. HY OAS **294bps — complacency gap WIDENING.** CMBS MF DQ ATH 7.15%. Non-bank servicer stress (PennyMac FHA DQ 7.5%, GAO gaps). Sweet v McMahon today. Lummis (R-WY) admitting Meals-on-Wheels record while endorsing "Golden age" — political lag.
 
 *Check-in archives: `archive/status/` (pending Phase 3 move)*
 
@@ -62,6 +62,9 @@
 | Core PCE | **3.0% YoY** (+0.4% MoM — hot, Fed locked) | Feb 2026, BEA | 🔴 |
 | CPI Headline Mar | **+3.28% YoY, +0.86% MoM** (hot headline, gas/food pass-through) | Mar 2026, BLS | 🔴 |
 | CPI Core Mar | **+2.61% YoY, +0.21% MoM** (contained — supply-side inflation, not demand) | Mar 2026, BLS | 🟠 |
+| PPI Headline Mar | **+4.0% YoY, +0.5% MoM** (highest since Feb 2023; gasoline MoM +15.7% drove ~½ of monthly jump) | Mar 2026, BLS | 🔴 |
+| PPI Core Mar | **+3.8% YoY** (also highest since Feb 2023) | Mar 2026, BLS | 🔴 |
+| PPI Core-Core Mar | **+3.6% YoY, +0.2% MoM DECELERATING** (ex food/energy/trade — services MoM ~0%; goods+energy shock, NOT broad) | Mar 2026, BLS | 🟠 |
 | UMich 1Y Inflation Exp | **4.8%** (+100bps MoM, largest monthly jump since Apr 2025) | Apr 2026, UMich | 🔴 |
 | UMich 5-10Y Inflation Exp | **3.4%** (un-anchoring from 2% — Fed red line breached) | Apr 2026, UMich | 🔴🔴 |
 | GDP Q4 2025 | **0.7%** (revised down from 1.4%) | 3rd est, BEA | 🔴 |
