@@ -1,57 +1,56 @@
-# TODAY.md — Tuesday April 7, 2026
+# TODAY.md — Wednesday April 15, 2026
 
-**Markets OPEN.** First weekday post-NFP. Iran pause expired Sunday.
+**Markets OPEN.** Post-ceasefire Day 6. Brent collapsed to **$64.50 🟢**. Iran-Israel ceasefire holding.
 
-Scenario D dominant (82%). War Day 37. Brent **$109 🔴**. Gas **$3.99 🟡**. HY OAS **316** 🟡. VIX **23.87** 🟡. USD/JPY **159.64** 🔴.
+Scenario D dominant (82%). War Day 42. HY OAS **316** 🟡 (reverted from 346). CCC OAS **981** 🟡. VIX **19.23** 🟡. USD/JPY **159.59** 🔴.
 
 ---
 
-## 🔴 TODAY — Tue Apr 7
+## 🔴 TODAY — Wed Apr 15
 
-- [x] **LABOR check-in** — No new data, monitoring mode until Thu claims
-- [x] **CARL check-in** — Skipped (persistent agent on Claude Code)
-- [x] **MARCO check-in** — Spawned but timed out
-- [ ] **HY OAS print** — adjudicates RED debate R4
-- [ ] **News sweep** — 8:30 AM ET first weekday run
-- [ ] **Calendar sync fix** — Token expired, needs re-auth
+- [x] **OTTO Task 3 completion** — All sub-tasks done, GitHub synced
+- [x] **Git pull/push** — Synced CARL/REGINALD changes, pushed OTTO updates
+- [x] **Process OTTO inbox** — 3 items processed, now clear
+- [ ] **Deliver cross-agent signals** — CARL, BROCK, RED (4 pending)
+- [ ] **Check stale agents** — BRENT (9d), HAWK (14d), ZHAO (14d), LABOR (9d), RED (9d)
 
 ## 🔴 Coming Up
 
-- [ ] **THU 4/10: Weekly claims** — FL Wave 1 lag test. CRITICAL.
-- [ ] **TUE 4/15: TIC data** — first post-escalation print. ZHAO domain.
-- [ ] **WED 4/16: OZK Q1 earnings** — REGINALD domain.
+- [ ] **TODAY: TIC data** — first post-escalation print. ZHAO domain.
+- [ ] **TOMORROW 4/16: OZK Q1 earnings** — REGINALD domain.
 - [ ] **MON 4/21: WAL Q1 earnings** — REGINALD domain.
+- [ ] **TUE 4/29: CVNA Q1 earnings** — OTTO domain.
 - [ ] **WED-THU 4/23-24: BOJ meeting** — hike live (~35-40%). SAM domain.
 
 ## Key Levels (live)
 
 | Ticker | Value | Zone | Note |
 |--------|-------|------|------|
-| HY OAS | 316 | 🟡 | Await today's print for RED debate adjudication |
+| HY OAS | 316 | 🟡 | Reverted from q-end spike |
 | CCC OAS | 981 | 🟡 | Below 1000 |
-| Brent | $109 | 🔴 | Iran pause expired |
-| Gas | $3.99 | 🟡 | Hair below $4 breakpoint |
-| USD/JPY | 159.64 | 🔴 | Retreated from 160+ |
+| Brent | $64.50 | 🟢 | Post-ceasefire collapse |
+| Gas | $3.42 | 🟢 | Below $3.50 |
+| USD/JPY | 159.59 | 🔴 | 0.3% from 160 intervention |
 | SOFR-IORB | 0.00 | 🟢 | Clean |
-| VIX | 23.87 | 🟡 | Post-quarter-end reversion |
-| APO | $107.04 | 🔴 | **Below $113 stop — decision pending** |
-| KRE | $66.00 | 🟡 | Jun→Dec roll pricing this week |
+| VIX | 19.23 | 🟡 | In 15-26 sweet spot |
+| APO | ~$103-104 | 🔴 | Below $113 stop 9+ days |
+| KRE | $69.39 | 🟡 | +0.65% |
 
 ## Position Decisions Pending
 
 | Priority | Decision | Status |
 |----------|----------|--------|
-| 🔴 | APO — cut or hold? | Below stop 4+ days |
+| 🔴 | APO — cut or hold? | Below stop 9+ days, RED domain |
 | 🔴 | KRE Jun → Dec rolls | LIQUID: price before executing |
 
 ## Notable Since Last Session
 
-- **WALTER research complete** — 7/7 prompts captured, 2 extraction docs done
-- **Signal Registry drafted** — UUIDv4 entities, state machines, SQLite default
-- **GraceDB model adopted** — central event store with annotations
-- **Calendar sync failed** — Google OAuth token expired, needs re-auth
-- **Agent cron discussion** — CARL/REGINALD/SAM/RED/BRENT remain on Claude Code
+- **OTTO fully updated** — Task 3 complete, scripts built, thesis extended
+- **2 predictions falsified** — OTTO-26 (PSEC), OTTO-27 (FSK) dividends maintained
+- **Auto parts fraud cluster** — First Brands + Tricolor = systemic auto supply chain stress
+- **Extension proxy model** — 35/100 score (warehouse tightening + immigration)
+- **GitHub clean** — All changes pushed, working directory clean
 
 ---
 
-*Positions → `PROME/POSITIONS.md` | Signal Registry → `AGENTS/WALTER/design/SIGNAL_REGISTRY_DRAFT_A.md` | Dashboard → `python3 FORGE/tools/market-data/dashboard.py` | News → `python3 FORGE/tools/news-sweep/sweep.py --compact`*
+*Positions → `PROME/POSITIONS.md` | OTTO Status → `AGENTS/OTTO/STATUS.md` | Dashboard → `python3 FORGE/tools/market-data/dashboard.py` | News → `python3 FORGE/tools/news-sweep/sweep.py --compact`*

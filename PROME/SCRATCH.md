@@ -1,45 +1,44 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-04-11 15:30 ET
+**Last Updated:** 2026-04-15 10:34 ET
 
 ## What Just Happened
-Weekend session — Research review, git protocol discussion, agent workflow cleanup.
+Full OTTO Task 3 completion + GitHub sync session.
 
 **Key activities:**
-1. **Reviewed old PC contagion research** — Verified $1.57T NDFI vs $85-95B PC-specific exposure (different metrics, both in system)
-2. **Git protocol discussion** — Confirmed agents commit their own work, Prome does not auto-commit
-3. **Spawn policy clarified** — LABOR, BRENT, BROCK, LIQUID now persistent on Telegram/Claude Code (do not spawn)
-4. **HEARTBEAT.md flagged stale** — Multiple updates needed (Brent $91 not $109, claims 219K, APO 9+ days below stop)
+1. **OTTO Task 3a-f complete** — CVNA, Tricolor/First Brands, subprime ABS metrics, cross-agent signals
+2. **Built 2 scripts** — abs_issuance_tracker.py, extension_proxy.py
+3. **Processed inbox** — 3 items (Tricolor criminal charges, auto parts fraud cluster)
+4. **Falsified 2 predictions** — OTTO-26 (PSEC dividend), OTTO-27 (FSK coverage)
+5. **Extended OTTO thesis** — Auto supply chain finance fraud (First Brands + Tricolor pattern)
+6. **GitHub sync** — Pulled latest CARL/REGINALD changes, committed + pushed OTTO updates
 
 **Decisions made:**
-- AGENTS.md updated with persistent agent list
-- Git protocol documented in docs/GIT_PROTOCOL.md
-- HERMES spawns paused (cron job still running but Prome won't act on reminders)
-- All scheduled Prome spawns stopped unless explicitly requested
+- Dropped bank_earnings_monitor.py — REGINALD handles bank monitoring
+- Skipped 3d (OZK 8-K) and 3f (AM Brief) — not OTTO's priority
+- Extension proxy score: 35/100 🟡 (warehouse tightening + immigration)
+- Auto parts fraud cluster validates systemic auto sector stress
 
 ## Current State
-- **Saturday afternoon, 3:30 PM ET.**
-- **Markets closed.** Weekend analysis mode.
-- **APO:** ~$104 (was $104.28 in Friday snapshot) — still below $113 stop, 9+ days, decision still pending
-- **Brent:** ~$91 post-ceasefire
-- **Claims:** 219K (week ending Apr 4), shadow adjustment +70K confirmed
-- **Portfolio:** Down ~5-7.5% this week per Friday snapshot
+- **Wednesday morning, 10:34 AM ET.**
+- **OTTO:** Task 3 complete, inbox clear, 11 open predictions (2 confirmed, 2 falsified)
+- **GitHub:** All changes pushed (commit e43c9e3f), working directory clean
+- **Cross-agent signals:** 4 pending delivery (CARL, BROCK, RED x2)
 
 ## QUICKSTART (Next Session)
-1. **APO decision** — Still unresolved. Cut, hold, or hybrid?
-2. **Update HEARTBEAT.md** — Stale since Apr 3-4
-3. **KRE roll pricing** — Jun→Dec rolls on any rally
-4. **TIC data Apr 15** — 4 days
-5. **OZK earnings Apr 16** — 5 days
+1. **Deliver pending cross-agent signals** — CARL, BROCK, RED
+2. **OTTO Phase 4** — Build abs_monitor.py, cvna_tracker.py automation
+3. **Stale agents** — BRENT (9d), HAWK (14d), ZHAO (14d), LABOR (9d), RED (9d)
+4. **OZK earnings** — Tomorrow (Apr 16), REGINALD domain
+5. **WAL earnings** — Apr 21, REGINALD domain
 
 ## Handoff Block
-**Last context:** Git protocol stabilized. Persistent agents on Telegram/Claude Code. Prome spawns stopped unless requested. HEARTBEAT.md needs update.
-**Next tide:** TIC Apr 15, OZK Apr 16, potential ceasefire developments
-**Open:** APO cut/hold, KRE rolls, HEARTBEAT update
-**Files touched:** `AGENTS.md` (updated persistent list), `docs/GIT_PROTOCOL.md` (created)
+**Last context:** OTTO fully updated and synced. All Task 3 work complete. GitHub clean.
+**Next tide:** OZK earnings Apr 16, CVNA earnings Apr 29
+**Open:** Cross-agent signal delivery, Phase 4 scripts, stale agent check-ins
+**Files touched:** AGENTS/OTTO/* (full update), PROME/HANDOFF.md
 
 ## Pending / Unresolved
-- APO position — below stop 9+ days, decision needed
-- KRE Jun→Dec rolls — pricing
-- HEARTBEAT.md update — stale data
-- HERMES cron job — still running but Prome won't spawn
-- RED/HANS check-ins — stale (persistent agents)
+- Cross-agent signals to CARL/BROCK/RED — queued in CROSS_AGENT_LOG.tsv
+- OTTO Phase 4 scripts — research complete, build pending
+- Stale agents — 5 need check-ins
+- APO position — still below stop (moved to RED domain)
