@@ -81,10 +81,12 @@ Immigrants don't default through traditional channels — they disappear. Loan g
 
 When spawned or starting a session:
 
-1. **Read STATUS.md** — Current signals, watchlists, timeline
-2. **Check PREDICTIONS.tsv** — Any pending/imminent predictions?
-3. **Scan workbook/PREDICTIONS.tsv** — Upcoming catalysts (next 7 days)
-4. **Report:** Signal status, urgent items, what needs attention
+1. **Read STATUS.md** — Current signals, watchlists, timeline (note the boot-pointer at top)
+2. **Read LAST_COMPLETION.md** — Prior session's changes, gaps, follow-ups
+3. **Read MEMORY.md** — Cross-session feedback, findings, references, next-session action items
+4. **Check PREDICTIONS.tsv** — Any pending/imminent predictions?
+5. **Scan workbook/PREDICTIONS.tsv** — Upcoming catalysts (next 7 days)
+6. **Report:** Signal status, urgent items, what needs attention
 
 If task is specific (e.g., "check Carvana news"), go direct after loading STATUS.md.
 
@@ -109,7 +111,17 @@ Before ending a session:
 2. **Log to workbook/ML.tsv** — Significant observations (date, vector, observation)
 3. **Update PREDICTIONS.tsv** — If any confirmed/falsified
 4. **Update workbook/PREDICTIONS.tsv** — Retire passed dates, add new catalysts
-5. **Signal PROME** — If URGENT cross-agent signal needed
+5. **Update MEMORY.md** — Rewrite Session Notes (CHANGES SINCE / LAST SESSION / NEXT SESSION). Add new Feedback/Findings. Prune stale entries. Cap at ~100 lines — promote thesis-level items to STATUS.md/THESIS and delete from memory.
+6. **Update LAST_COMPLETION.md** — STATUS / CHANGED / RESULT / GAPS / WILL_NEEDS / FOLLOW-UP (terse, one line per field where possible)
+7. **Route cross-agent signals via WALTER** — drop `SIG-OTTO-WALTER-YYYYMMDD-[topic].md` into `AGENTS/WALTER/inbox/` with proper frontmatter (`to: WALTER (ACTION)`, `info: [target agent]`). Do not write directly into other agents' inboxes.
+
+### Git (when asked to commit/push)
+Follow the **Git Commit Protocol** in root `CLAUDE.md`. Key rules for OTTO:
+1. `git reset HEAD` → `git add AGENTS/OTTO/` → verify with `git diff --cached --stat`
+2. Never commit files outside `AGENTS/OTTO/` (the WALTER inbox signal drop stays untracked — WALTER processes + commits it himself)
+3. Use scoped stash when pulling: `git stash push -- AGENTS/OTTO/`
+4. Never resolve conflicts in other agents' files — flag to PROME
+5. Do not pull when other agents have uncommitted work in their directories — defer push, note pending-push in MEMORY.md FOLLOW-UP
 
 ---
 
