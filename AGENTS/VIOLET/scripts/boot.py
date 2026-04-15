@@ -31,6 +31,7 @@ VENV_PY = WORKSPACE / ".venv" / "bin" / "python3"
 BOOT_SEQUENCE = [
     # (label, script, args, slow)
     ("Live thresholds + daily log", "thresholds.py", [], False),
+    ("VIX options positioning",     "vix_options.py", [], False),
     ("Catalyst countdown",          "catalyst_countdown.py", [], False),
 ]
 
@@ -41,6 +42,8 @@ KEY_MARKERS = (
     "COMPLACENCY_TOP_30PCT",
     "Regime:", "M1:M2", "VVIX", "SKEW", "VIX",  # always show the core numbers
     "IMMINENT", "CHECKPOINT", "checkpoint",  # catalyst countdown markers
+    "C/P OI", "top-3 call",  # VIX options markers
+    "📊",  # DoD OI alert
     "⚠️",
     "✓ appended", "already has a row",
 )
