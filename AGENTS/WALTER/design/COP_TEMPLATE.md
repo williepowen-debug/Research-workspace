@@ -163,7 +163,7 @@ Rules:
 ### SECTION 8: Footer (2 lines)
 ```
 ---
-*COP maintained by WALTER. Detail: AGENTS/WALTER/signals/ | Positions: FORGE/STATUS.md | Agent STATUS files: AGENTS/<NAME>/STATUS.md*
+*COP maintained by WALTER. Detail: /BOARD/INDEX.md | Positions: FORGE/STATUS.md | Agent STATUS files: AGENTS/<NAME>/STATUS.md*
 ```
 
 Tells readers where to go for more detail. Pointers, not content.

@@ -1,7 +1,7 @@
 # WALTER STATUS
-**Updated:** 2026-04-13 ~20:30 UTC
-**Role:** Signal Filter, Classification & Routing + COP (Common Operating Picture) integrator
-**Overall:** 🟡 OPERATIONAL (COP layer live) — `/COP.md` refreshed to v0.3 this session. Islamabad collapse processed. Routing layer operational (3 signals dispatched to date).
+**Updated:** 2026-04-15 ~13:00 UTC
+**Role:** Signal Filter, Classification & Routing + COP (Common Operating Picture) integrator. **NEW PRIMARY (per Will Apr 14):** image/screenshot signal intake from Will via Telegram — WALTER + Prome are the only Telegram agents; Prome's Kimi LLM can't reliably read images, so WALTER owns visual intake.
+**Overall:** 🟡 OPERATIONAL — BOARD layer live at repo root. 13 signals dispatched (12 today). Telegram MCP disconnected mid-session 2026-04-15 ~13:00 UTC; in-session text only until reconnect.
 
 ---
 
@@ -32,31 +32,33 @@ Single entry point for external information into the agent network. WALTER filte
 | **MEMORY.md** | **✅ Created Apr 14** | Feedback/Findings/References/Session Notes — matches SAM pattern |
 | **LAST_COMPLETION.md** | **✅ Created Apr 14** | Structured closeout record (overwritten each session) |
 | queue/ | ❌ Not created | Deferred until MINIMIZE mode needed |
-| **`/COP.md` (Layer 1)** | **✅ LIVE at repo root** | **v0.3 refreshed Apr 13. Δ: Islamabad collapsed, blockade, CARL 51/55, FL suppression confirmed, OZK 3 days, RED Day 3+ falsification. ~75 lines. Refresh cadence: every WALTER session.** |
-| COP Architecture | 🟡 Layer 1 live | Three-layer hybrid (COP.md ✅ / Signal Archive / Push). Layers 2 & 3 still TBD. |
-| Boot Sequence | ✅ Updated Apr 11 | CLAUDE.md now includes read+refresh `/COP.md` as standing step. |
-| First Live Signal | 🟡 Drafted, NOT dispatched | SIG-W-20260410-001 in outbox awaiting Will approval. SIG-002 also in outbox (duplicate to delete). |
+| **`/COP.md` (Layer 1)** | **✅ LIVE at repo root** | **v0.3 last refreshed Apr 13 — STALE. Refresh deprioritized by Will 2026-04-14 to focus on signal-routing throughput.** Iran/Hormuz state moved one news cycle ahead by 2026-04-15 (blockade selective not total; talks rumored-resuming; Brent ~$94-100). |
+| **`/BOARD/` (signal archive)** | **✅ LIVE at repo root** | **NEW 2026-04-14** — moved from `AGENTS/WALTER/signals/` per Will. Network-shared pull point, WALTER owns writes. 13 signals canonical, INDEX.md curated. |
+| **Delivery policy** | **✅ Active 2026-04-14** | BOARD-only for IMMEDIATE/PRIORITY/ROUTINE. FLASH = BOARD + Telegram-alert-to-Will only (no inbox push). Other-agent boot-sequence rollout pending Will approval. |
+| Domain Vocabulary | ✅ v0.4 (Apr 14) | 15 codes — added ASIA_CONTAGION + UST_FOREIGN. ROUTING_TABLE v0.4 propagated. |
+| Boot Sequence | ✅ Updated Apr 14 | CLAUDE.md boot now scans `/BOARD/INDEX.md` (was `signals/INDEX.md`). Git steps updated to stage BOARD/ explicitly. |
 
 ---
 
 ## NETWORK AWARENESS
 
-Loaded from agent STATUS files and FORGE at boot. Current snapshot:
+Last comprehensive registry refresh: 2026-04-13. Today's session focused on signal intake; did not re-read all STATUS files. Network state below is as of Apr 13 unless noted.
 
 | Agent | Status | Key Concern | WALTER Relevance |
 |-------|--------|-------------|------------------|
-| CARL | 🔴🔴 | Convergence 51/55, student loans 9.2M, FICO cascade, CMBS MF ATH 7.15% | Primary recipient: labor, consumer credit, delinquency signals |
-| REGINALD | 🔴🔴🔴 | Microstructure complete, FDIC filing discovery, OZK Apr 16, WAL Apr 21 | Primary recipient: bank earnings, CRE, funding signals |
-| RED | 🟢→❓ | 76% confidence, HY OAS <300 Day 3+ falsification — **STALE 6d, REFRESH OVERDUE** | Receives: thesis confirmation, counter-evidence |
-| SAM | 🔴 | Islamabad collapsed, blockade, USD/JPY 159.40, MOF stress-case pace, BOJ Apr 28 | Primary recipient: Japan/BOJ/yen signals |
-| LIQUID | 🟡 | HY OAS 290, VIX 19, Path A winning, WFC $200B SPOF, SOFR 🟢→🟡 | Primary recipient: funding/liquidity stress |
-| HAWK | 🔴🔴 | Scenario D 92% — **STALE 12d** | Primary recipient: oil/energy, geopolitical supply |
-| BRENT | 🔴🔴 | Blockade announced, Brent $98, ceasefire dead, Hormuz re-closing | Info recipient via ENERGY_CHAIN |
-| BROCK | 🔴🔴🔴🔴🔴 | Stage 2→3, 13 fund gates, $10B+ trapped, Marks memo, short product | Info recipient via CREDIT_CHAIN |
-| HENRY | 🟡 | CPI 3.3%, VIX 19 compressed, Fed trap confirmed, gas $4.12 | Recipient: market structure/velocity signals |
-| LABOR | 🟡 | FL Wave 1 suppression CONFIRMED, shadow +70K, claims 219K/~289K true | Recipient: employment/labor signals |
-| NEXUS | 🟠 | 50/50 ceiling, 18 convergences — **STALE 9d** | Convergence synthesis |
-| PROME | — | Scenario D 82%, blockade coordination pending — **STALE 3d** | Coordinator |
+| CARL | 🔴🔴 | Convergence 51/55, student loans 9.2M, FICO cascade | Primary: LABOR/MACRO_INFLATION/CONSUMER_CREDIT. Got SIG-007 (PPI), -010/-011 China (info) today |
+| REGINALD | 🔴🔴🔴 | Microstructure complete, **OZK earnings TODAY (Apr 16 Q1)**, WAL Apr 21 | Primary: BANK_CRE. Got SIG-005 (ROAD Act/K-098), -008 (DB positioning), -012 (KRE counter) today |
+| RED | 🟢→❓ | 76% confidence, **HY OAS <300 Day 5+ falsification** — **STALE 8d, REFRESH OVERDUE** | Adversarial primary. Got SIG-010/-011 China + -012 KRE counter as RED-action today |
+| SAM | 🔴 | Islamabad collapsed, blockade, USD/JPY 159.40, BOJ Apr 28 | Primary: JAPAN_BOJ. Got SIG-009 oil rig + China info today |
+| LIQUID | 🟡 | HY OAS 290, VIX 19, WFC $200B SPOF | Primary: FUNDING_LIQUIDITY. Got SIG-004 IMF GFSR action today |
+| HAWK | 🔴🔴 | Scenario D 92% — **STALE 14d, BACKUP-PROMOTED** | Backup-promoted out of OIL_ENERGY action — BRENT acting primary (per ROUTING_TABLE rule). Got SIG-009 info |
+| BRENT | 🔴🔴 | Blockade announced — **state stale: blockade now SELECTIVE (Iranian-port only); talks rumored-resuming; Brent ~$94-100 (was $98)** | Acting OIL_ENERGY primary while HAWK stale. Got SIG-009 action today |
+| BROCK | 🔴🔴🔴🔴🔴 | Stage 2→3, 13 fund gates, $10B+ trapped | Primary: PRIVATE_CREDIT. Got SIG-002 (Red Lobster 98%), -004 IMF (PC explicitly named), -006 GS Prime info |
+| HENRY | 🟡 | CPI 3.3%, VIX 19, Fed trap | Primary: MARKET_VOL. Got SIG-003 PDT, -006 HF whipsaw, -008 DB positioning today |
+| LABOR | 🟡 | FL Wave 1 suppression CONFIRMED | Domain quiet today |
+| NEXUS | 🟠 | 50/50 ceiling — **STALE 11d** | Synthesis layer |
+| PROME | — | Scenario D 82% — **STALE 5d** | Coordinator. Got SIG-010/-011 China (info) |
+| **ZHAO (Tier 2)** | **STALE 13d** | China/HK/LGFV — **awaiting Will spawn for SIG-010/-011 China material** | NEW PRIMARY for ASIA_CONTAGION + UST_FOREIGN domains (added to FORMAT_SPEC v0.4) |
 
 ---
 
@@ -121,6 +123,7 @@ Exploring a shift from point-to-point inbox messaging to a Common Operating Pict
 
 | Date | Key Activity |
 |------|-------------|
+| 2026-04-14 (PM) → 04-15 (AM) | **Heaviest signal-routing session to date.** Will redefined WALTER's primary role: image/screenshot intake from Telegram (Prome can't read images). Processed 4 Telegram batches + 2 FT articles + Yahoo Finance scan. **13 signals dispatched (SIG-W-20260414-001 through -012 + RED falsification). 3 kills.** Spawned 3 verify-research sub-agents (SEC PDT rule, IMF GFSR, March PPI, Iran state, China articles). **Major architecture changes:** (1) Created `/BOARD/` at repo root via `git mv AGENTS/WALTER/signals BOARD` — network-shared signal archive, WALTER still owns writes. (2) Delivery policy flipped: BOARD-only for IMMEDIATE/PRIORITY/ROUTINE; FLASH = BOARD + Telegram-alert-to-Will only (no inbox push). (3) FORMAT_SPEC v0.3→v0.4 — added ASIA_CONTAGION + UST_FOREIGN canonical domain codes (closes vocab gap surfaced by FT China signals). ROUTING_TABLE v0.3→v0.4 propagated. (4) Updated WALTER/CLAUDE.md boot sequence + git steps for BOARD. (5) COP/CHECKLIST/COP_TEMPLATE references updated to BOARD path. **Key signal arc:** today's batch revealed multi-channel positioning-wrong-footed convergence (GS Prime HF short cover Apr 4 into now-collapsed Islamabad ceasefire, IMF GFSR liquidity warning, TCW Red Lobster 98% PC mark, FT China Shock 2.0 deflationary counter-pulse, March PPI energy-driven). RED has counter-evidence inflows (China deflationary + KRE-XLF outperformance gap widening to 12pts). Iran state moved post-COP — Hormuz blockade is selective (Iranian-port only), talks rumored-resuming, Brent -4% to $94-100 range. **Telegram MCP disconnected ~13:00 UTC** mid-session — final exchanges with Will via direct in-session text. **COP refresh deprioritized** by Will. **Spec changes this session:** FORMAT_SPEC v0.4, ROUTING_TABLE v0.4. |
 | 2026-04-07 (AM) | First WALTER session. Created STATUS.md. Researched open output systems (Prompt 8). Discussed COP architecture with Will via Telegram. Proposed three-layer hybrid model. Will directed iterative approach. |
 | 2026-04-07 (PM) | Distilled all remaining research prompts (4-8). Research phase COMPLETE (8/8 distilled). Key decisions confirmed: COP.md at repo root, WALTER owns/commits it, curated not comprehensive, scannable in 30s. Will raised achievability concern — scoped realistic workflow: boot → read STATUS files → update COP → write signals → ping Telegram if FLASH → done. |
 | 2026-04-09 | Boot + registry refresh. Read 12 agent STATUS files. Key changes since Apr 7: ceasefire in effect (fragile, fracturing <48hrs), oil crashed 15% then recovering ($99), Trump tariff 90-day pause (S&P +9.5%), LIQUID downgraded to 🟡 MODERATING (first agent break from RED consensus), NEXUS +2 new convergences (C-35 fertilizer, C-36 Hotel California). |
@@ -131,4 +134,5 @@ Exploring a shift from point-to-point inbox messaging to a Common Operating Pict
 
 ---
 
+*v0.6 — April 15, 2026 — Role redefinition (image-intake primary), BOARD live, FORMAT_SPEC v0.4, delivery policy flipped to BOARD-only.*
 *v0.5 — April 13, 2026*

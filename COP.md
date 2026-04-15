@@ -80,6 +80,6 @@ Regional-bank puts: KRE/WAL/OZK multi-strike Jun-Dec (~$11K). Credit: HYG Jun $7
 
 ---
 
-*COP curated by WALTER. Detail: AGENTS/\<NAME\>/STATUS.md | Positions: FORGE/STATUS.md (19d stale) | Signals: AGENTS/WALTER/outbox/*
+*COP curated by WALTER. Detail: AGENTS/\<NAME\>/STATUS.md | Positions: FORGE/STATUS.md (19d stale) | Signals: /BOARD/INDEX.md*
 
 *v0.3 — Apr 13 refresh from v0.2 (Apr 11). △ = changed this update. Stale agents: HAWK (12d), RED (6d), NEXUS (9d). Next refresh: next WALTER session or FLASH event.*

@@ -1,1 +1,4 @@
 Date	Origin	Summary	Failed_Gate	Confidence	Notes
+2026-04-14T23:10:00Z	Twitter @NoLimitGains Apr 14	S&P 500 "volume declining as price rises" chart claim	Credibility+Novelty	0.20	Anonymous TA account, no threshold crossed, HENRY already tracks market structure. Visual divergence commentary without hard data.
+2026-04-14T23:10:00Z	Twitter @MorePerfectUS Apr 14	"52% of men 18-49 have active sports betting accounts"	Relevance	0.60	True claim but no actionable threshold; context not signal. Progressive policy org framing, not a threshold crossing. CARL already tracks household-leverage composition.
+2026-04-14T23:30:00Z	NBC News Apr 14 (photo)	"China Evergrande founder Hui Ka Yan pleads guilty to fraud in Shenzhen court"	Novelty	0.85	True event but saga already priced in; guilty plea is legal date-stamp, not new information for US positioning. No actionable threshold. Noted as context.
