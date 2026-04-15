@@ -1,11 +1,19 @@
-ID	Prediction	Confidence	Made_Date	Resolve_Date	Status	Result	Invalidation	Notes
-HEN-01	NFP Feb 2026 <100K	70%	2026-02-01	2026-03-06	ACTIVE	TBD	NFP >150K with positive revisions	Jan ADP 22K shock → upgraded 60→70%. ADP Feb +63K (vs 130K cons) confirms weakness. ISM Employment 51.8 (above 50) does not trigger upgrade. ICE absenteeism adds downside risk. Hold 70%.
-H1	SPX breaks 6494 → CTAs flip → $40-60B selling	80%	2026-02-18	2026-03-31	ACTIVE	TBD	SPX sustains above 7,000 for 5+ sessions (new high regime)	6707 intraday breach Mar 3 not sustained close. 6494 = next threshold.
-H2	MOVE >115 while VIX <20 = credit stress incoming	70%	2026-02-18	2026-03-05	STALE	INVALID	N/A — RETIRED	RETIRED. VIX 21-26 range broke the <20 precondition. Replaced by H4.
-H4	Equity cannot bottom until HY OAS peaks	85%	2026-02-27	2026-06-30	ACTIVE	TBD	SPX rallies >5% while HY OAS still widening (equities decoupling from credit)	Primary rule. HY OAS 308bps (CONF Mar 3). Floor rising (265→284→308).
-H5	PLTR breaks $100 → AI thematic repricing begins	75%	2026-02-18	2026-03-31	ACTIVE	TBD	PLTR holds >$120 through Q1 earnings	Currently $136. Still 26% away.
-H7	XLK breadth <40% precedes sector repricing	80%	2026-02-18	2026-03-31	ACTIVE	TBD	XLK breadth recovers >60% sustained	Currently <50%. Approaching trigger.
-HEN-02	ISM Services New Orders rolls over sharply in March	65%	2026-03-04	2026-04-06	ACTIVE	TBD	March ISM Services New Orders >58 (sustained strength)	February backlog surge (+11.9pts) assessed 70% front-running not real demand.
-HEN-03	March ISM Prices (Mfg+Services) exceeds February — Hormuz oil feeds through	70%	2026-03-04	2026-04-06	ACTIVE	TBD	March ISM Prices Mfg <68 AND Services <60 (costs absorbed)	Feb precedes Hormuz closure. Brent $84+. Mfg Prices already 70.5%.
-HEN-04	FOMC Mar 17-18 holds rates, concerned both mandates without acting	70%	2026-03-04	2026-03-18	ACTIVE	TBD	Fed cuts or explicitly signals June cut	Beige Book boxes Fed: 9/12 tariff price pressure + 5/12 not growing. Stagflation = no policy response.
-HEN-05	April Beige Book materially worse than March — layoffs replace attrition	85%	2026-03-04	2026-05-10	ACTIVE	TBD	April BB shows improvement in 6+ districts OR hiring resumes	March BB data through Feb 23 — pre-Hormuz, pre-Korea, pre-Mar 3 selloff. April collects post-shock data.
+ID	Prediction	Status	Resolution_Date	Outcome_Notes
+HEN-04	FOMC holds, both mandates, 0-1 cuts	CONFIRMED	2026-03-19	CPI 3.3% locked out cuts
+HEN-07	Mar 16 relief rally = bull trap	CONFIRMED	2026-03-16	Rally faded
+HEN-08	VIX gaps to 28+	CONFIRMED	2026-03-16	Hit 31.46
+HEN-09	Brent $110-115	CONFIRMED	2026-03	Then collapsed to $94
+HEN-10	SPX tests 6,550-6,600	CONFIRMED	2026-03	Tested and held
+HEN-11	Iran "talks" rally = bull trap	CONFIRMED	2026-03	Rally faded
+HEN-12	15-point plan rally = bull trap v2	CONFIRMED	2026-03	Rally faded
+HEN-13	PCE hot + rising claims = Fed trap	CONFIRMED	2026-03-28	Both conditions met
+HEN-14	VIX above 30 = regime shift	CONFIRMED	2026-04-06	Hit 31.46, then compressed
+HEN-15	Q1 window dressing masks real positioning	CONFIRMED	2026-03-31	Window dressing evident
+HEN-16	Apr 1 ceasefire rally = bull trap v3	CONFIRMED	2026-04-01	Rally faded
+HEN-17	Brent $115+ retest if Trump follows through	EXPIRED	2026-04-10	Brent collapsed to $94
+HEN-18	VIX back above 30 within 48 hours	EXPIRED	2026-04-08	VIX compressed to 19
+HEN-19	ISM Services miss = growth deceleration confirmed	CONFIRMED	2026-04-03	54.0 vs 54.8 exp
+HEN-20	Tuesday Trump deadline = volatility catalyst	EXPIRED	2026-04-08	VIX fell instead
+HEN-21	Fed cut repricing = higher-for-longer regime confirmed	CONFIRMED	2026-04	Market repriced cuts to H2 2027
+HEN-22	CPI 3.3% + VIX 19 = complacency trap forming	ACTIVE	2026-04-30	Watch for VIX <20 with macro risk
+HEN-23	Gas $4+ = consumer demand destruction begins	ACTIVE	2026-04-30	Gas $4.12, CARL tracking
