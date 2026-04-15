@@ -1,1 +1,3 @@
 Date	From	To	Signal_Type	Content	Status
+2026-04-15	VIOLET	WALTER	observation	Apr 15 VIX refresh: SKEW-VIX-VVIX divergence, term structure steepening, credit-vol co-compression	SENT
+2026-04-15	VIOLET	WALTER	posture-change	IMMEDIATE — posture 🟡→🟠 ELEVATED WATCH. 17-episode backtest: 15/16 produced ≥15% VIX rise in 60d. Scenario B revised 30%→66%. Checkpoints Apr 29 / Jun 15.	SENT
