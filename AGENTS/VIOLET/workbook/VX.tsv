@@ -1,9 +1,11 @@
 ID	Name	Current_Value	Green	Yellow	Orange	Red	Status	Last_Updated	Source	Notes
-VX-VIO-1.01	VIX Spot	19.23	<15	15-20	20-30	>30	🟡	2026-04-11	CBOE	Low vol regime. Mean reversion expected.
-VX-VIO-1.02	VIX3M	21.86	—	—	—	—	🟡	2026-04-11	CBOE	Contango. Near-term vol expectations higher than spot.
-VX-VIO-1.03	VVIX	107.30	<80	80-120	120-150	>150	🟡	2026-04-11	CBOE	Subdued vol-of-vol. Option market calm.
-VX-VIO-1.04	SKEW	144.18	<120	120-140	140-150	>150	🟡	2026-04-11	CBOE	Elevated tail risk bid. Crash protection not cheap.
-VX-VIO-1.05	VIX3M/VIX Ratio	1.14	>1.15	1.0-1.15	<1.0	<0.9	🟡	2026-04-11	Calculated	Flat contango. Early warning zone if drops below 1.0.
-VX-VIO-1.06	HY OAS	2.90%	<3%	3-4%	4-5%	>5%	🟢	2026-04-09	FRED BAMLH0A0HYM2	Tight credit spreads. No stress signal.
-VX-VIO-1.07	Regime	Low Vol	<20	20-30	30-40	>40	⚪	2026-04-11	VIOLET	Weak credit-vol correlation expected (r=0.06). Lag trade not active.
-VX-VIO-2.01	Credit-VIX Divergence	None	HY OAS <3, VIX <20	HY OAS 3-4, VIX <22	HY OAS 4-5, VIX <25	HY OAS >5, VIX <30	⚪	2026-04-11	VIOLET	No divergence. HY OAS and VIX both in low-stress range.
+VX-VIO-1.01	VIX Spot	18.08	<15	15-20	20-30	>30	🟡	2026-04-15	CBOE	Low vol regime. Declined from 19.23 Apr 11.
+VX-VIO-1.02	VIX3M	20.81	—	—	—	—	🟡	2026-04-15	CBOE	Contango preserved. Down from 21.86 Apr 11.
+VX-VIO-1.03	VIX6M	22.85	—	—	—	—	🟡	2026-04-15	CBOE	New data point. Curve upward-sloping VIX<VIX3M<VIX6M.
+VX-VIO-1.04	VVIX	98.77	<80	80-120	120-150	>150	🟢	2026-04-15	CBOE	Dropped from 107.30 Apr 11. Vol-of-vol normalizing.
+VX-VIO-1.05	SKEW	149.94	<120	120-140	140-150	>150	🟠	2026-04-15	CBOE	Rose from 144.18 Apr 11. Near 150 threshold — crash protection bid rising.
+VX-VIO-1.06	VIX3M/VIX Ratio	1.151	>1.15	1.0-1.15	<1.0	<0.9	🟢	2026-04-15	Calculated	Back into steep contango. No inversion risk.
+VX-VIO-1.07	HY OAS	2.90%	<3%	3-4%	4-5%	>5%	🟢	2026-04-09	FRED BAMLH0A0HYM2	Pierced RED falsification threshold Apr 10. Credit rallying.
+VX-VIO-1.08	Regime	Low Vol	<20	20-30	30-40	>40	⚪	2026-04-15	VIOLET	VIX declining + HY OAS tightening = no divergence setup.
+VX-VIO-1.09	M1:M2 Contango (adjusted)	+2.04%	<0% (back)	0-5.6%	5.6-8.99%	>8.99%	🟢	2026-04-14	CBOE VX settlement	Roll-adjusted (K6/M6). J6 expires Apr 15 so strict M1/M2 is contaminated. Below historical avg — less complacent than baseline.
+VX-VIO-2.01	Credit-VIX Divergence	None	HY OAS <3, VIX <20	HY OAS 3-4, VIX <22	HY OAS 4-5, VIX <25	HY OAS >5, VIX <30	⚪	2026-04-15	VIOLET	Both tight. Opposite of divergence — co-compression.

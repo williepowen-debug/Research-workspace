@@ -1,62 +1,44 @@
-**Task:** Four-Model Research Synthesis — Credit-VIX Lead-Lag Analysis
+**Task:** Empirical audit session — tools, thesis, scenario recalibration
 
-**Date:** 2026-04-12
+**Date:** 2026-04-15
 
 **Status:** COMPLETE
 
-**Research Sources:**
-- **Gemini** (Google): Microstructure, Merton model, VIX futures lead dynamics
-- **Perplexity**: Episode granularity, exact dates/magnitudes, 2024 yen unwind
-- **Claude** (Anthropic native): Academic literature, firm-level vs aggregate distinction, yield curve filter
-- **Grok** (xAI): Data source specificity, Granger causality, 7-month cycle lead time
-
 **Key Findings:**
-1. **Aggregate HY OAS leads VIX by 2-6 weeks** at tactical level (100bps → spike) when VIX < 20
-2. **Cycle level lead: ~7 months** from HY OAS trough to equity peak (Grok)
-3. **Hit rate: ~70%** | **False positive rate: 25-30%** (15-20% with yield curve filter)
-4. **Regime-dependent:**
-   - VIX < 15: 6-16 week lead (highest signal quality)
-   - VIX 15-20: 3-8 week lead (high quality)
-   - VIX 20-30: 1-4 week lead (moderate)
-   - VIX > 30: Near-simultaneous (too late)
-   - VIX > 40: VIX leads credit (relationship inverts)
-5. **Academic reconciliation:** Equity leads individual CDS, but aggregate HY OAS leads equity vol due to cross-sectional deterioration
-6. **Yield curve filter:** Combining credit spreads with yield curve slope "dramatically reduces" false positives (Fed research)
+- Built VIX M1/M2 contango tool (FORGE/tools/market-data/vix_futures.py), boot.py orchestrator, thresholds.py, backfill.py, VX_DAILY.tsv time-series log
+- Backfilled 100 days spot + 22 days M1:M2 from yfinance and CBOE
+- Pulled 20-year VIX+VIX3M (4,968 days) and VIX+VVIX+SKEW (4,778 days) for empirical audit
+- **Thesis prediction #2 FALSIFIED** — term structure inversion marks PEAK (553 events, 2.2% hit rate, mean -5% forward), not leading signal. Thesis bumped v3.0 → v3.1.
+- **Current SKEW divergence is rare and meaningfully predictive** — 1.0% base rate (17 episodes/19y). 15/16 completed episodes produced ≥15% VIX rise within 60 days; 9/16 produced ≥50%. SKEW peak magnitude correlates with severity (SKEW >150 cohort: 6/7 STRESS +50%).
+- **Scenario probabilities revised:** A (healthy) 55% → 22%, B (dead-cat / new VIX event within 60d) 30% → 66%, C (structural) 15% → 12%.
+- Local Mar 18 – Apr 8 2026 stress episode documented as crisis analog.
 
-**Episode Database Completed:**
-| Episode | Direction | Lead Time | Regime | False Positive? |
-|---------|-----------|-----------|--------|-----------------|
-| GFC 2007-08 | Credit led | 6-10 weeks | Low vol → rising | No |
-| 2011 EU crisis | Credit led | 8-10 weeks | Rising vol | No |
-| 2015-16 Energy | Credit led | 12-18 months | Low vol | Partial (sector-specific) |
-| Q4 2018 | Coincident | 0-2 weeks | Rising vol | No (macro-driven) |
-| Feb 2018 Volmageddon | VIX led | N/A | Low vol | **Yes** (technical) |
-| COVID 2020 | Near-simultaneous | Days | Rising → crash | No (exogenous) |
-| 2022 Rate Shock | VIX led | 10-12 weeks | Low vol → rising | **Yes** (rates-driven) |
-| Aug 2024 Yen Unwind | VIX led | N/A | Low vol | **Yes** (positioning) |
+**Files Changed:**
+- `FORGE/tools/market-data/vix_futures.py` (new, CBOE settlement CSV)
+- `AGENTS/VIOLET/scripts/boot.py` (new, orchestrator)
+- `AGENTS/VIOLET/scripts/thresholds.py` (new, live fetch + classify + daily log)
+- `AGENTS/VIOLET/scripts/backfill.py` (new)
+- `AGENTS/VIOLET/workbook/VX_DAILY.tsv` (new, 100 rows)
+- `AGENTS/VIOLET/workbook/VX.tsv` (row added for M1:M2 steepness)
+- `AGENTS/VIOLET/workbook/KB.tsv` (entries 019-036, includes 1 correction and 1 supersession)
+- `AGENTS/VIOLET/workbook/FLOW.tsv` (first entry — WALTER signal)
+- `AGENTS/VIOLET/STATUS.md` (signal status upgraded 🟡 → 🟠 ELEVATED WATCH)
+- `AGENTS/VIOLET/thesis/VIX_THESIS.md` (v3.0 → v3.1, falsification logged)
+- `AGENTS/WALTER/inbox/SIG-VIOLET-WALTER-20260415-vix-apr15-refresh.md` (new)
+- `AGENTS/VIOLET/research/2026-04-15_skew_divergence_episodes.md` (new, full backtest record)
 
-**Files Updated:**
-- `STATUS.md` — Added four-model synthesis framework, regime-dependent lead times, confirmation checklist
-- `SIGNAL_INTAKE.md` — Added historical episode database, false positive patterns
-- `TRADE.md` — Updated Credit-Vol Lag Trade with four-model framework, entry criteria, historical performance
-- `thesis/VIX_THESIS.md` — v3.0 with academic nuance, complete episode database, regime-dependent behavior
-- `MEMORY.md` — Added credit-to-vol transmission synthesis, yield curve filter
-
-**Current Status:**
-- VIX: 19.23 (low vol regime, 🟡)
-- HY OAS: 2.90 (tight, no stress)
-- Convergence Score: 1/25 (4%)
-- **No actionable signal** — monitoring for HY OAS >100bps widening with VIX < 20
+**Signals Sent:**
+- WALTER: VIX Apr 15 refresh + three observations (SKEW divergence, term structure steepening, credit-vol co-compression). Requested dedupe vs HENRY/LIQUID.
 
 **Next Actions:**
-1. Establish daily data workflow for VX.tsv updates
-2. Add yield curve data (10Y-2Y spread) to confirmation checklist
-3. Paper trade when HY OAS approaches 4.0% (currently 2.90%)
-4. Test cross-agent signal flow to HENRY/LIQUID
+1. **Early checkpoint 2026-04-29** — SKEW scenario A/B early read (if SKEW <140 + VIX <22, lean A)
+2. **Full checkpoint 2026-06-15** — 60-day window expiry, full scenario resolution
+3. Investigate what triggered Mar 27 peak — cross-reference HENRY/LIQUID/RED STATUS from Mar 25-28
+4. Add rolling-window percentile classification to thresholds.py (per KB-VIO-032)
+5. HENRY/LIQUID STATUS refresh (snapshots are Apr 12)
 
-**Research Gaps Closed:**
-- ✅ Lag quantification by regime
-- ✅ False positive sources and mitigation
-- ✅ Academic literature reconciliation
-- ✅ Historical episode database
-- ⚠️ Real-time yield curve integration (pending data source)
+**Gaps:**
+- Don't know what caused Mar 27 vol peak — no identified catalyst
+- Inherited 70% credit-VIX lag hit rate from four-model synthesis not independently back-tested
+- 17 episodes is a small sample — wide confidence intervals
+- M1:M2 percentile classification still uses 22-day sample; needs calibration against longer history
