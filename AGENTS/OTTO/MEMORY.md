@@ -31,26 +31,23 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (Apr 2 → Apr 15)
-- STATUS.md had been stale 14 days. Tricolor timeline wrong, OZK date wrong, PREDICTIONS numbering drifted vs TSV.
-- Inbox accrued 3 items (Apr 3 Tricolor re-coverage, Apr 3 subprime cluster sweep, Apr 6 auto-parts stress research) — not processed; waiting on dedicated spawn per protocol.
-- Cross-agent messaging norm shifted from direct-to-recipient → route-via-WALTER (Will directive this session).
+### CHANGES SINCE LAST SESSION (Apr 15 midday → Apr 15 evening)
+- Remote had a parallel morning OTTO session (`e43c9e3f`, 10:18 AM, Prome/OpenClaw) that reached opposite verdicts on OTTO-26/-27 (both FALSIFIED) using stale data. Resolved via manual rebase — local verdicts (OTTO-26 NEEDS_VERIFY, OTTO-27 CONFIRMED with 247 Wall St / SignalBloom / Seeking Alpha sources) preserved; remote's unique scripts and workbook TSVs pulled into our tree.
+- `workbook/PREDICTIONS.tsv` question resolved: file now exists (created earlier today) — CLAUDE.md reference is valid.
 
-### LAST SESSION (Apr 15 — Tricolor recalibration + PREDICTIONS cleanup)
-- Tricolor "Mar 31 outcome" task reframed: Mar 31 was wrong date (real = Apr 30); vehicle auction isn't the signal-rich metric (ABS <10¢ is).
-- STATUS.md + workbook/ML.tsv + PREDICTIONS.tsv updated. 5 new ML entries (139–143).
-- OTTO-08, -09, -27 → CONFIRMED. OTTO-26 flagged for manual verification. Two new predictions: OTTO-29 (Tricolor ABS trustee distribution <15¢), OTTO-30 (6th US bank Tricolor disclosure by Q2).
-- Signal dropped in WALTER's inbox: `SIG-OTTO-WALTER-20260415-tricolor-mtb-abs-update.md` — 🟠 PRIORITY, to REGINALD.
-- OZK earnings date corrected Apr 16 → Apr 21 (same day as WAL), re-scoped to REGINALD (not OTTO).
-- Created MEMORY.md (this file) — first instance in OTTO; modeled on SAM's format.
+### LAST SESSION (Apr 15 evening — reconcile with remote OTTO, push)
+- Rebased 3 OTTO local commits onto origin (`378e90d8`, `e2ffa06a`, `a69c78d5`). Resolved 2 conflicts: STATUS.md (kept ours) and PREDICTIONS.tsv root (kept deleted; archived copy preserved).
+- Pulled in from remote `e43c9e3f`: `scripts/abs_issuance_tracker.py`, `scripts/extension_proxy.py`, `workbook/ABS_ISSUANCE.tsv`, `workbook/EXTENSION_PROXY.tsv`, `workbook/CROSS_AGENT_LOG.tsv`. Not yet reviewed for content or usefulness — next session triage.
+- Pushed 15 commits to origin/master. Branch up to date.
+- Backup branch `otto-backup-pre-rebase-20260415` retained locally (safe to delete after next session confirms everything is fine).
 
 ### NEXT SESSION
-0. **P0: PUSH DEFERRED** — Apr 15 session #2 committed OTTO locally as `532f3864`. Branch diverged (10 local / 3 remote). Working tree had uncommitted VIOLET/FORGE/REGINALD/WALTER-originated files across other agents' inboxes — did not pull/push to avoid clobbering concurrent work. Next spawn: check if working tree is clean outside `AGENTS/OTTO/`, then stash/rebase/pop and push.
-1. **P0: Apr 30–May 5 — Tricolor trustee filings re-check.** Post-deadline proceeds quantification; any extension motion; per-lender distribution preview.
-2. **P0: OTTO-26 PSEC manual verification** — 5-min check of PSEC 8-K filings Feb 2026 to resolve CONFIRMED or FALSIFIED.
-3. **P1: Inbox processing (3 items)** — separate spawn per protocol (don't process on normal boot).
-4. **P1: workbook/PREDICTIONS.tsv file** — CLAUDE.md references it as the catalyst calendar but file doesn't exist. Either create it or drop the reference from CLAUDE.md.
+1. **P0: Review remote-inherited files** — `scripts/abs_issuance_tracker.py`, `scripts/extension_proxy.py`, `workbook/{ABS_ISSUANCE,EXTENSION_PROXY,CROSS_AGENT_LOG}.tsv`. Decide: keep, refactor, or retire. Check CROSS_AGENT_LOG against our WALTER-routing convention.
+2. **P0: OTTO-26 PSEC manual verification** — 5-min check of PSEC 8-K filings Feb 2026. Remote's AM run claimed FALSIFIED ("$0.54 annual maintained" — but $0.54/12 = $0.045, matching the post-cut amount, so their conclusion was internally inconsistent). Resolve definitively.
+3. **P0: Apr 30–May 5 — Tricolor trustee filings re-check.** Post-deadline proceeds quantification; any extension motion; per-lender distribution preview.
+4. **P1: Inbox processing** — 3 prior items already moved to `inbox/processed/`. Remote added `OTTO_2026-04-15_Tricolor_Bank_Losses.md` in WALTER's inbox — confirm WALTER processed it.
 5. **P1: First Brands docket check** — Apr 9 hearing was adjourned, no new date when last checked.
+6. **P1: Delete `otto-backup-pre-rebase-20260415` branch** if rebase result looks clean on next review.
 6. **P2: WAL / Jefferies / Point Bonita $715M thread** from Apr 6 auto-parts research inbox.
 7. **P2: CVNA short-seller scan pre-May 5 split vote** (Gotham / Hindenburg monitoring per CLAUDE.md).
 8. **P3: Ally Q1 print (late Apr)** — OTTO-28 watch for Carvana-specific DQ/NCO break-out.
