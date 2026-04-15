@@ -45,6 +45,7 @@
 - Created MEMORY.md (this file) — first instance in OTTO; modeled on SAM's format.
 
 ### NEXT SESSION
+0. **P0: PUSH DEFERRED** — Apr 15 session #2 committed OTTO locally as `532f3864`. Branch diverged (10 local / 3 remote). Working tree had uncommitted VIOLET/FORGE/REGINALD/WALTER-originated files across other agents' inboxes — did not pull/push to avoid clobbering concurrent work. Next spawn: check if working tree is clean outside `AGENTS/OTTO/`, then stash/rebase/pop and push.
 1. **P0: Apr 30–May 5 — Tricolor trustee filings re-check.** Post-deadline proceeds quantification; any extension motion; per-lender distribution preview.
 2. **P0: OTTO-26 PSEC manual verification** — 5-min check of PSEC 8-K filings Feb 2026 to resolve CONFIRMED or FALSIFIED.
 3. **P1: Inbox processing (3 items)** — separate spawn per protocol (don't process on normal boot).
