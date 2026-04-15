@@ -34,13 +34,13 @@ You maintain:
 4. **Read `REGISTRY.tsv`** — agent directory (check for stale entries)
 5. **Read `/COP.md`** — current Common Operating Picture. This is the network's shared synthesis and WALTER owns it. If you think it doesn't exist, check the repo root before believing yourself — the Apr 11 session discovered v0.1 had been on disk since Apr 7 while the handoff doc claimed otherwise. Trust disk over memory.
 6. **Read `design/ROUTING_TABLE.md`** — signal routing rules
-7. **Scan `signals/INDEX.md`** — any signals dispatched since last session, any that may need follow-up
+7. **Scan `/BOARD/INDEX.md`** — any signals dispatched since last session, any that may need follow-up. (BOARD is the network-shared signal archive, relocated from `AGENTS/WALTER/signals/` on 2026-04-14; WALTER still owns all writes.)
 8. **Registry refresh** — read other agents' STATUS.md files, update REGISTRY.tsv Status/Updated/Focus columns
 
 ### Execute
 9. **Execute the task**
 10. **Refresh `/COP.md`** — rewrite with current network state, mark △ on changed domains, flag stale agent data. COP refresh is a standing closeout deliverable, not a one-off project.
-11. **Archive any new signals** — every dispatched signal gets a canonical copy in `signals/` with filename `SIG-W-YYYYMMDD-NNN-slug.md`. Update `signals/INDEX.md` with a new row. Append to `routed/route_log.tsv`. For FLASH, also deliver a copy to recipient inbox(es) and ping Will via Telegram. For IMMEDIATE/PRIORITY/ROUTINE, archive-only (no inbox push).
+11. **Archive any new signals** — every dispatched signal gets a canonical copy in `/BOARD/` (repo root) with filename `SIG-W-YYYYMMDD-NNN-slug.md`. Update `/BOARD/INDEX.md` with a new row. Append to `AGENTS/WALTER/routed/route_log.tsv`. For FLASH, also deliver a copy to recipient inbox(es) and ping Will via Telegram. For IMMEDIATE/PRIORITY/ROUTINE, BOARD-only (no inbox push).
 
 ### Closeout
 12. **Update `STATUS.md`** — refresh network awareness table, filter posture, session log entry
@@ -55,18 +55,19 @@ You maintain:
    ```
    Clears anything another session left pre-staged. Without this, `git add` accumulates on top of stale staging.
 
-   **16b. Stage ONLY WALTER's files (and COP.md)**
+   **16b. Stage ONLY WALTER's files (and COP.md, BOARD/ contents)**
    ```
    git add AGENTS/WALTER/
    git add COP.md        # only if COP.md changed this session
+   git add BOARD/        # only if BOARD signals/INDEX changed this session
    ```
-   `/COP.md` lives at repo root but WALTER owns it — must be staged explicitly. Never `git add .` or `git add -A`.
+   `/COP.md` and `/BOARD/` live at repo root but WALTER owns both — must be staged explicitly. Never `git add .` or `git add -A`.
 
    **16c. Verify scope before committing**
    ```
    git diff --cached --stat
    ```
-   Must show ONLY `AGENTS/WALTER/…` and optionally `COP.md`. If anything else appears (other agents' directories, shared files), run `git restore --staged <file>` to unstage it, then re-verify. **This check is mandatory. A failed verification does not auto-recover — rerun 16a.**
+   Must show ONLY `AGENTS/WALTER/…`, `COP.md`, and/or `BOARD/…`. If anything else appears (other agents' directories, shared files), run `git restore --staged <file>` to unstage it, then re-verify. **This check is mandatory. A failed verification does not auto-recover — rerun 16a.**
 
    **16d. Commit with descriptive message**
    Follow commit message style in root CLAUDE.md (HEREDOC, Co-Authored-By trailer).
@@ -94,7 +95,7 @@ You maintain:
 | `REGISTRY.tsv` | Canonical agent directory — 27 agents, role/domain/chain/routing/status |
 | `MEMORY.md` | Cross-session feedback, findings, references, session notes (read at boot, write at closeout) |
 | `LAST_COMPLETION.md` | Structured closeout record — STATUS / CHANGED / RESULT / GAPS / WILL_NEEDS / FOLLOW-UP |
-| `signals/INDEX.md` | Signal archive discovery table — one row per dispatched signal |
+| `/BOARD/INDEX.md` | **Network-shared signal archive discovery table** — one row per dispatched signal. WALTER owns, all agents pull. Located at repo root. |
 | `design/COP_TEMPLATE.md` | COP structural template + design rationale (reference when refreshing /COP.md) |
 | `design/ROUTING_TABLE.md` | Domain → recipient routing rules with precedence and MINIMIZE levels |
 | `design/FILTER_SPEC.md` | 3-gate filter, confidence scoring, kill/route logs |

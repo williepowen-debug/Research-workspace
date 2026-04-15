@@ -1,50 +1,73 @@
-## COMPLETION — WALTER — 2026-04-14
+## COMPLETION — WALTER — 2026-04-14 PM through 2026-04-15 (heaviest session to date)
 
-STATUS: ✅ DONE
+STATUS: ✅ DONE (closeout in progress; Telegram MCP disconnected mid-session, in-session text final)
 
 CHANGED:
-- AGENTS/WALTER/STATUS.md
-- AGENTS/WALTER/REGISTRY.tsv
-- AGENTS/WALTER/CLAUDE.md (spawn protocol + key design files + closeout checklist)
-- AGENTS/WALTER/LAST_COMPLETION.md (this file, second session)
-- AGENTS/WALTER/MEMORY.md (NEW)
-- AGENTS/WALTER/signals/INDEX.md (NEW)
-- AGENTS/WALTER/signals/SIG-W-20260410-001-cpi-umich-stagflation.md (moved from outbox/)
-- AGENTS/WALTER/signals/SIG-W-20260411-001-red-falsification-hy-oas-pierced.md (NEW canonical copy)
-- AGENTS/WALTER/signals/SIG-W-20260411-002-forge-status-stale-refresh-request.md (NEW canonical copy)
-- AGENTS/WALTER/outbox/ (emptied — SIG-001 archived)
-- COP.md (refreshed earlier this session — v0.3)
+- AGENTS/WALTER/STATUS.md (v0.5 → v0.6 — role redefinition, BOARD live, delivery policy flipped, network awareness updated)
+- AGENTS/WALTER/MEMORY.md (Feedback + Findings + CHANGES SINCE / NEXT SESSION blocks rewritten)
+- AGENTS/WALTER/LAST_COMPLETION.md (this file — overwritten)
+- AGENTS/WALTER/CLAUDE.md (boot sequence + git stage steps updated for BOARD; key design files table updated)
+- AGENTS/WALTER/design/SIGNAL_FORMAT_SPEC.md (v0.3 → v0.4 — added ASIA_CONTAGION + UST_FOREIGN to Domain Vocabulary; "13 Canonical Domains" → "15 Canonical Domains")
+- AGENTS/WALTER/design/ROUTING_TABLE.md (v0.3 → v0.4 — added 2 rows, version notes updated)
+- AGENTS/WALTER/design/COP_TEMPLATE.md (footer path updated)
+- AGENTS/WALTER/design/SIGNAL_PROCESSING_CHECKLIST.md (path references updated to /BOARD/)
+- AGENTS/WALTER/routed/route_log.tsv (12 new rows for SIG-W-20260414-001 through -012)
+- AGENTS/WALTER/filtered/kill_log.tsv (3 new rows: NoLimitGains TA, MorePerfectUS sports betting, Evergrande guilty plea)
+- AGENTS/WALTER/outbox/ (empty — drafts-only state preserved)
+- /BOARD/ (NEW directory at repo root — 13 canonical signals + INDEX.md, moved via `git mv` from AGENTS/WALTER/signals/)
+- /BOARD/INDEX.md (rewritten header — now "BOARD — Network Signal Archive"; policy section updated to reflect Will's Apr 14 delivery-policy flip)
+- /BOARD/SIG-W-20260414-001 through -012 (NEW canonical signal files)
+- /COP.md (footer pointer updated: Signals → /BOARD/INDEX.md, was AGENTS/WALTER/outbox/)
 
-RESULT: Two-phase session. **Phase 1** (earlier): COP v0.3 refresh — processed Islamabad collapse, CARL convergence 47→51/55, FL Wave 1 suppression confirmed, RED Day 3+ falsification flagged. Registry refreshed (10 agents). Filtered 6 Twitter screenshots from Will through the 3-gate (1 killed, 3 already tracked, 2 incremental support).
+RESULT: Multi-phase session spanning ~6 hours.
 
-**Phase 2** (this update): Integrated SAM's closeout discipline + built proper signal archive.
-- Added **LAST_COMPLETION.md** format (STATUS/CHANGED/RESULT/GAPS/WILL_NEEDS/FOLLOW-UP).
-- Rewrote CLAUDE.md git closeout as explicit **16a-16f checklist** with mandatory `git diff --cached --stat` scope verification. Prevents cross-agent file leaks.
-- Built **signals/** archive — canonical copies of all 3 dispatched signals + INDEX.md for discovery. Moved SIG-001 out of outbox/ (outbox now correctly holds drafts only, not a draft/archive double-duty).
-- Added **MEMORY.md** (Feedback/Findings/References/Session Notes) matching SAM pattern. WALTER file structure now consistent with other Tier 1 agents.
-- Locked in new precedence policy: FLASH → inbox + Telegram + archive. IMMEDIATE/PRIORITY/ROUTINE → archive only. Documented in signals/INDEX.md.
-- Renumbered spawn protocol to accommodate new boot reads (MEMORY.md, LAST_COMPLETION.md, signals/INDEX.md) and closeout writes.
+**Phase 1 — Will redefines WALTER role.** Telegram MCP intermittent through prior session re-stabilized. Will: WALTER + Prome are the only Telegram agents; Prome's Kimi LLM can't read images, so WALTER owns visual intake going forward. COP refresh deprioritized until further direction.
 
-Also: Telegram MCP disconnected mid-session (Phase 1 complete, all communication since then via session text).
+**Phase 2 — Image-intake batches (4 batches, 13 images).**
+- Batch 1 (6 images): Lummis Meals on Wheels, TCW Red Lobster 98% writedown, SEC PDT rule, IMF GFSR liquidity warning, NoLimit TA (KILL), MorePerfectUS sports betting (KILL). 4 routed, 2 killed.
+- Batch 2 (6 images): UnicusResearch ROAD Act/K-098, Kalshi GS Prime HF short cover, Kobeissi PPI 4.0%, Evergrande guilty plea (KILL), DB financials positioning, Baker Hughes rig count flat. 5 routed, 1 killed.
+- 3 verify-research sub-agents spawned in parallel: (a) SEC PDT + IMF GFSR — both CONFIRMED with material nuance; (b) ROAD Act + K-098 (PARTIAL — UPB was $1.2B not $1.4B; K-089 confused with K-098), Kalshi HF cover (CONFIRMED but "10+ years" was wrong, actual "since 2020" per GS Prime; whipsaw not directional), March PPI (CONFIRMED but goods/energy shock — core-core +3.6% decelerating).
+
+**Phase 3 — BOARD architecture.** Will directed creation of central pull point. `git mv AGENTS/WALTER/signals BOARD` to repo root. INDEX.md header rewritten. Path references propagated through WALTER/CLAUDE.md (boot + key files + git steps), COP.md footer, design docs. **Delivery policy flipped:** BOARD-only for IMMEDIATE/PRIORITY/ROUTINE; FLASH = BOARD + Telegram-alert-to-Will only (no inbox push). Will explicitly accepted the gap that other agents won't pull until their boot-sequence is updated.
+
+**Phase 4 — FT China articles (2 pieces, 5 telegram-paste parts).** "China Shock 2.0" Part 1 of 3 (FT, $1T+ trade surplus, EU+21%/SEA+21%/US-DOWN, CNY REER -16%, OECD subsidies 3-9x rich-world peer, Mega-Senway anchor 20K→10M units RMB200→RMB10) — first routed to RED, then re-routed to ZHAO per Will. Companion piece "China flexes trade power" (Li-Qiang-signed State Council Supply Chain Security regs, Articles 13/15/16 criminalizing due-diligence + exit bans, Trump Beijing mid-May postponed-from-April, rare earths chokepoint). **Domain vocab gap surfaced and resolved:** FORMAT_SPEC v0.4 added ASIA_CONTAGION + UST_FOREIGN canonical codes; ROUTING_TABLE v0.4 propagated.
+
+**Phase 5 — Yahoo Finance scan + Iran state verify.** Triaged 20 headlines (2 worth routing, 13 kills, 1 important verify on Iran/Hormuz). Spawned Iran state-delta verify sub-agent. **Result:** Our COP one news cycle stale. Blockade is selective (Iranian-port only, not full Hormuz closure). Talks rumored-resuming (Trump floated Pakistan/Geneva, Vance/Araghchi negotiators, nothing scheduled). Brent moved from $98 (COP) to $94-100 range, -4% on talks-hope. Ceasefire expiry **Apr 21 not Apr 22**.
+
+**Phase 6 — Seeking Alpha KRE piece (initial KILL, reversed to ROUTE).** Mar 28 retail-analyst piece. Initial lede-only triage: KILL (stale, low-credibility, consensus). Will pasted full body. Reassessed: 3 hard data points worth filing as RED counter-evidence — KRE -1.94% YTD vs XLF -12.56% YTD (regional outperformance ~10pts), FLG #1 holding 1.57% w/ Fitch upgrade (we have FLG puts), $936B CRE maturing 2026 ($59.5B office). Filed SIG-W-20260414-012 as PRIORITY counter-evidence to RED. Live KRE/XLF check: gap widened to ~12pts, not closed (KRE +6.50% YTD vs XLF -5.68% YTD as of 2026-04-15 ~13:00 UTC). Honest reframing for Will: thesis is OZK/WAL/ZION-catalyst-dependent, not YTD-drift-dependent; XLF stress is concentrated in payment networks / IB / asset managers / Berkshire, none of which are in KRE.
+
+**Phase 7 — Telegram MCP disconnect.** Around 13:00 UTC 2026-04-15. Final exchanges via direct in-session text. Will requested closeout file prep ahead of session restart. This file is the closeout.
 
 GAPS:
-- **Telegram disconnected** — cannot push FLASH to Will until MCP reconnects.
-- **Network boot sequence not rolled out** — other agents don't yet read `/COP.md` or `signals/INDEX.md` at boot. Pull model is "available" but not "activated" until Will approves the cross-agent protocol change.
-- **RED 6d stale** — Will is booting RED in parallel; RED refresh expected to resolve the Day 3+ HY OAS <300 falsification decision (exit HYG + cut 25% + drop confidence to 65%, per RED's own pre-registered rule).
-- **FORGE/STATUS.md 19d stale** — Prome flag from Apr 11 unanswered. Escalation overdue.
-- **HAWK 12d stale, NEXUS 9d stale.** Tier 2 refresh schedule not established.
-- **SIGNAL_INTAKE.md rollout** at 2/8 Tier 1 agents (SAM + BRENT only). Blocker for keyword-matched routing at scale.
+- **Telegram MCP disconnected.** Cannot push to Will's phone until reconnect. Image intake also blocked until reconnect.
+- **Iran SIG-013 not filed.** Iran state-delta material was verified and reported to Will; never got the explicit greenlight to file as a formal signal because the Yahoo scan triggered the KRE detour. Iron is documented in MEMORY/STATUS — file at next session if Will confirms or if state moves further.
+- **COP refresh deprioritized but COP is now stale.** Iran state moved, ceasefire expiry date wrong by 1 day, oil price moved. When Will lifts deprioritize, COP refresh is significant (multiple domain deltas).
+- **Other-agent boot-sequence rollout not done.** Until done, BOARD-only delivery means CARL/REGINALD/RED/etc. won't see today's 13 signals unless Will explicitly directs.
+- **ZHAO awaits spawn.** SIG-010/-011 (China material) sit in BOARD addressed to ZHAO; ZHAO STATUS is 13d stale.
+- **RED refresh STILL OVERDUE.** HY OAS <300 falsification at Day 5+. Will is owner.
+- **FORGE/STATUS.md still stale (Mar 25, ~21d).** Prome flag from Apr 11 unanswered.
+- **Filter model v1→v2 review threshold passed.** We're at 13 dispatches (target was 10). Review kill_log/route_log for false positives/negatives, recalibrate gates if needed.
 
 WILL_NEEDS:
-1. **Approve network boot-sequence change** — other Tier 1 agents add "read /COP.md + signals/INDEX.md at boot" to their spawn protocols. Required to activate pull model.
-2. **COP refresh cadence** — every WALTER session only, or also Prome-triggered between sessions when cross-agent events land?
-3. **SIGNAL_INTAKE.md completion** — chase CARL, REGINALD, LIQUID, HENRY, HAWK, BROCK, RED to author their own, or WALTER writes drafts from their STATUS files for them to approve?
+1. **Reconnect Telegram MCP** when convenient — image intake workflow blocked until restored.
+2. **Approve other-agent boot-sequence rollout** — until done, BOARD signals don't reach the agents that need them.
+3. **Spawn ZHAO** to process SIG-010/-011 China material when convenient.
+4. **Spawn RED** to process Day 5+ falsification rule (this has been outstanding multiple sessions).
+5. **Decide on COP refresh** — currently OFF, but COP is stale on multiple Iran/oil/ceasefire deltas. When to turn back on?
+6. **Decide on filter-model v2 review** — threshold hit.
 
 FOLLOW-UP (next session):
-- **Monitor RED result** — if RED refreshes confidence and recommends HYG exit, route confirmation signal to PROME/Will via the standard protocol (confirmation signal now goes to signals/ archive, not inbox, unless FLASH).
-- **COP refresh cadence** — after Islamabad collapse, SAM/HAWK/BRENT/LIQUID/HENRY all need to reprice. Refresh COP after they update.
-- **FORGE escalation** — if still Mar 25 at next boot, escalate to Will directly.
-- **Filter model review trigger** — currently at 3 dispatches. Review at 10 or May 11 (whichever first).
+- **Boot from new STATUS/MEMORY/LAST_COMPLETION/CLAUDE files.** All updated in this closeout.
+- **3 unread WALTER inbox signals** discovered during closeout (sit in `AGENTS/WALTER/inbox/`):
+  - `SIG-OTTO-WALTER-20260415-tricolor-mtb-abs-update.md` (OTTO is registered Tier 2 — auto finance)
+  - `SIG-VIOLET-WALTER-20260415-vix-apr15-refresh.md` (VIOLET — **NOT in REGISTRY.tsv** — investigate at boot)
+  - `SIG-VIOLET-WALTER-20260415-002-skew-divergence-escalation.md` (VIOLET — same)
+  Read them at boot, decide if any need routing onward via BOARD.
+- **Live KRE/XLF check at open** — gap widened to ~12pts as of yesterday; OZK earnings TODAY (Apr 16) is the proximate test.
+- **Spot-check Iran state** before anchoring any new oil/Hormuz signal — state moved fast yesterday.
+- **Live Brent check** — last data showed $94-100 range, -4% on talks-hope.
+- **Telegram MCP status check at boot.**
+- **VIOLET investigation** — agent is sending me signals but isn't in REGISTRY.tsv. Either she's a new agent Will spawned without updating registry, or there's a registry gap. Update registry if confirmed.
 
 ---
 

@@ -132,7 +132,7 @@ Source material, data, cross-references, context, WALTER's analysis.
 Signal: SIG-W-YYYYMMDD-NNN
 Precedence: [LEVEL]
 Pre-arrival context: [What happened + so what + what agent should do]
-Full signal: AGENTS/WALTER/signals/SIG-W-YYYYMMDD-NNN.md
+Full signal: /BOARD/SIG-W-YYYYMMDD-NNN.md
 ```
 
 ---
@@ -258,7 +258,7 @@ Pre-arrival context: Stagflation signature locked in.
   expectations un-anchoring at 3.4% (Fed red line).
   Caveat: 98% of UMich interviews preceded ceasefire — final print may show partial recovery.
   CARL: update consumption stress framework. Others: see relevance section.
-Full signal: AGENTS/WALTER/signals/SIG-W-20260410-001-cpi-umich-stagflation.md
+Full signal: /BOARD/SIG-W-20260410-001-cpi-umich-stagflation.md
 ```
 
 ### Quality Checks (ADViCE)
