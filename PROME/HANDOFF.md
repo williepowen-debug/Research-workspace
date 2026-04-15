@@ -1,43 +1,77 @@
-# PROME Handoff
-
-Read this before `/clear` or `/new`.
+# PROME HANDOFF
+**Date:** 2026-04-14 19:37 ET
+**Status:** Paused — awaiting user checkpoint
 
 ---
 
-## Before `/clear` — Checkpoint
-1. **Append to `memory/YYYY-MM-DD.md`:**
-```
-## Checkpoint [HH:MM UTC]
-**Context:** [one sentence — what we were doing]
-**Changed:** [files touched this segment]
-**Next:** [what's queued up]
-```
-2. **`git add -A && git commit -m "checkpoint"`**
+## Current Work
 
-## Before `/new` — Full Handoff
-1. **`PROME/SCRATCH.md`** — Update QUICKSTART + handoff block for next-me
-2. **`memory/YYYY-MM-DD.md`** — Log session work + handoff block
-3. **`PROME/STATUS.md`** — Update dashboard
-4. **`PROME/TOSCANINI/QUEUE.md`** — Stage proposals for next session (pending signals, follow-ups from completed agents)
-5. **`MEMORY.md`** — Add learnings worth keeping
-6. **Commit and push**
-7. If applicable: USER.md, PREDICTIONS.md, LESSONS.md, CALENDAR.md, FORGE/STATUS.md
+**Task:** OTTO agent restructuring (CARL/REGINALD/SAM format)
+**Phase:** Task 3 (Migrate key data from old STATUS.md)
+**Sub-tasks completed:**
+- ✅ 3a: CVNA tracking data — extracted and verified via subagent
+- ✅ 3b: Tricolor/First Brands bankruptcy — extracted and verified via subagent
 
-## Session Reset Strategy
-- **`/clear`** — Compaction summary rides along (lossy, stacks). 2-3 clears max before `/new`.
-- **`/new`** — Fresh session, no compaction. Full file handoff required (context won't survive).
+**Sub-tasks pending:**
+- ⏳ 3c: Subprime ABS metrics
+- ⏳ 3d: OZK 8-K monitoring notes
+- ⏳ 3e: Cross-agent signals
+- ⏳ 3f: Write today's AM Brief
 
-## Handoff Format
-```
-## Handoff
-**Last context:** [first thing next-me needs to know]
-**Next tide:** [prioritized actions]
-**Open questions:** [unresolved decisions]
-**Positions:** [any changes]
-**Rhythm note:** [mental state, shorthand developed]
-**Today's work:** [brief bullets]
-```
+---
 
-## Memory
-- **Daily notes:** `memory/YYYY-MM-DD.md`
-- **Long-term:** `MEMORY.md` (main session only, never group chats)
+## Key Findings (Ready to Integrate)
+
+### CVNA (Completed)
+- Price: ~$359 (Apr 13), recovered from Feb lows
+- 10-K filed on time, Grant Thornton did NOT resign
+- Gotham predictions failed — fraud thesis weakened
+- Q1 earnings Apr 29 — watch Retail GPU
+- Ally correlation: No significant impact observed
+
+### Tricolor/First Brands (Completed)
+- Tricolor: Ch.7, Mar 31 liquidation, recovery rates pending
+- JPM $170M, FITB $170-200M losses (Q3 2025), no new Q1 disclosures
+- First Brands: Ch.11 with Ch.7 risk, De Luca report due ~Apr 9
+- 15 BDCs with $237M exposure, Jefferies $40M total loss
+- Signal queued for REGINALD delivery
+
+---
+
+## OTTO STATUS.md State
+
+**Updated sections:**
+- Signal Dashboard (CVNA, Tricolor, First Brands)
+- AM Brief (CVNA and bankruptcy summaries)
+- What to Watch (catalysts through Jun 17)
+- Cross-Agent Signals (pending REGINALD delivery)
+- Tools (cvna_tracker, abs_monitor marked research complete)
+
+**Still empty:**
+- Subprime ABS metrics (pending 3c)
+- OZK 8-K monitoring (pending 3d)
+- Full cross-agent integration (pending 3e)
+
+---
+
+## Files Modified
+
+- `AGENTS/OTTO/STATUS.md` — Restructured with new template, populated with CVNA and bankruptcy data
+
+---
+
+## Next Steps (When Resuming)
+
+1. Complete 3c-3f (subprime ABS, OZK, cross-agent, AM Brief)
+2. Move to Phase 4: Build scripts (abs_monitor.py, cvna_tracker.py)
+3. Phase 5: Cross-agent integration protocol
+
+---
+
+## Context Notes
+
+- User paused for checkpoint
+- API billing issues resolved earlier today
+- Cron jobs and heartbeat removed to reduce API waste
+- WALTER signal routing under review (may move to 2nd Claude instance)
+- Fresh git pull completed — agents actively updating (CARL major expansion, REGINALD new files, SAM updates)

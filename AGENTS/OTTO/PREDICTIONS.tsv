@@ -9,6 +9,6 @@ OTTO-09	2026-02-23	Additional BDC marks down auto/First Brands >10%	65%	Q1-Q2 20
 OTTO-10	2026-02-23	Subprime origination share falls below 13%	65%	Q3 2026	OPEN		
 OTTO-11	2026-02-23	Credit washing prevalence exceeds 2.5% of applications	60%	H2 2026	OPEN		
 OTTO-12	2026-02-23	At least one major warehouse lender exits subprime auto	55%	2026	OPEN		
-OTTO-26	2026-02-23	PSEC dividend cut (Feb 20 earnings)	40%	Feb 2026	OPEN		Check if resolved
-OTTO-27	2026-02-23	FSK dividend coverage falls below 1.0x	50%	Q1 2026	OPEN		
+OTTO-26	2026-02-23	PSEC dividend cut (Feb 20 earnings)	40%	Feb 2026	FALSIFIED	2026-02-20	No cut - dividend maintained at $0.54 annual	PSEC maintained monthly dividend, no cut announced
+OTTO-27	2026-02-23	FSK dividend coverage falls below 1.0x	50%	Q1 2026	FALSIFIED	2026-02-20	Coverage 108% - above 1.0x	Q4 2025 coverage 108%, dividend maintained
 OTTO-28	2026-02-23	Ally discloses Carvana-specific DQ/NCO	50%	H1 2026	OPEN		
