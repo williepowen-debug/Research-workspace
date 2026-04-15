@@ -1,6 +1,6 @@
 # DEMAND DESTRUCTION TRACKER
 
-**Last Updated:** 2026-04-13 (Monday data pull: Prices + Diplomatic) | **War Day:** ~38 | **Phase:** 1 (ACTIVE) | **Phase 2 Status:** NOT TRIGGERED — 🔴 **PATH A ALERT: CEASEFIRE CONFIRMED APR 7 (FRAGILE)** — Hormuz nominally reopening. Islamabad comprehensive talks COLLAPSED. US blockade of Iranian ports announced. Brent −7.4% WoW to ~$101.82.
+**Last Updated:** 2026-04-15 (Wednesday EIA data pull) | **War Day:** ~41 | **Phase:** 1 (ACTIVE) | **Phase 2 Status:** NOT TRIGGERED — 🔴 **PATH A ALERT: CEASEFIRE CONFIRMED APR 7 (FRAGILE)** — Hormuz nominally reopening. Islamabad comprehensive talks COLLAPSED. US blockade of Iranian ports announced. Brent ~$101.82 (Apr 13). ⚠️ **HOARDING WINDOW CLOSING (Crisis Wk 6) — gasoline stocks BUILDING while utilization rises → demand softening signal. Cushing drew −1.7M bbl (largest since Jan 2025) → 29.8M bbl. SPR 409.2M bbl (−4.1M bbl). Next 3 EIA prints critical.**
 
 ---
 
@@ -11,7 +11,7 @@ All three must fire simultaneously to confirm Phase 2 via demand destruction pat
 | # | Signal | Threshold | Current Reading | Status | Last Updated |
 |---|--------|-----------|-----------------|--------|-------------|
 | 1 | **Brent M1-M3 spread** | <$3/bbl x 3 consecutive daily closes | ~$8–12/bbl est (↓ from $18+; narrowing on ceasefire) | NOT TRIGGERED | **Apr 13** |
-| 2 | **EIA gasoline demand YoY** | -5% YoY x 3 consecutive weeks | **+0.8% YoY** (Apr 3 EIA) — still positive. ⚠️ Hoarding distortion in Crisis Wk ~5 inflating this number. Real signal expected May-June | NOT TRIGGERED | **Apr 3** |
+| 2 | **EIA gasoline demand YoY** | -5% YoY x 3 consecutive weeks | **+0.8% YoY** (Apr 3 EIA [CONF]). Apr 10 YoY PENDING — EIA leaf handler not yet updated; gasoline stocks BUILT +0.626M bbl with utilization RISING (92.9%) → production outpacing demand → may be Week 1 negative. ⚠️ Crisis Wk 6 = hoarding window closing. Even pessimistic est (−1 to −4%) is below −5% threshold. **Real signal: Apr 22-May 6.** | ⚠️ WATCH (0/3) | **Apr 15** |
 | 3 | **CFTC managed money net longs** | Declining x 2 consecutive weeks while price flat | NYMEX net long 73,347 / ICE net short 33,814 (Mar 31). Non-commercial proxy DECLINED Mar 24→31 (-20.1K). Apr 7 report due today (3:30pm ET) — if confirmed lower = WEEK 1 OF 2. | ⚠️ WATCH | **Apr 10** |
 
 **Verdict:** 0/3 core triggers fired. Trigger #3 entering WATCH phase — COT positioning declining. Tier 2 airline indicator ESCALATING: WestJet -19.6% US ASM, Air NZ -15%+, Jetstar -12% transpacific, Ryanair/Lufthansa warnings pending. Jet fuel +95% ($2.50→$4.88/gal). Airline cuts now global, not just US-carrier. Per framework, cuts lead EIA gasoline data by 4-8 weeks → EIA gasoline YoY turns negative May-June (CONFIRMED timeline).
@@ -25,9 +25,9 @@ All three must fire simultaneously to confirm Phase 2 via demand destruction pat
 | Indicator | Value | Direction | Source | Updated |
 |-----------|-------|-----------|--------|---------|
 | Brent M1-M3 spread | ~$8–12 est (↓ from $18+) | Backwardation narrowing on ceasefire | ICE/EST | **Apr 13** |
-| Retail gas (US avg) | **$4.08/gal** | +37% since war | AAA | Apr 2 [CONF] |
-| Gas price vs $4 breakpoint | **BREACHED** | $4 = demand resistance threshold (2022 analog) | AAA/EIA | Apr 2 |
-| EIA gasoline demand YoY | **+0.8% YoY** (4-wk avg 8.8M bpd). ⚠️ Hoarding distortion active (Crisis Wk ~5). Refinery inputs declining while product supplied +YoY = inventory drawdown, not real demand. | — | EIA WPSR | **Apr 3** [EST] |
+| Retail gas (US avg) | **$4.108/gal** | Essentially flat WoW (+$0.03). Lagging wholesale ~2-4 wks. Brent now ~$102 → pump relief expected late April. | AAA | **Apr 15** [CONF] |
+| Gas price vs $4 breakpoint | **BREACHED** | $4 = demand resistance threshold (2022 analog). Has been above $4 for ~2 weeks. | AAA/EIA | **Apr 15** |
+| EIA gasoline demand YoY | Apr 3: **+0.8% YoY** (4-wk avg 8,725 Mbpd [CONF]). Apr 10 YoY **PENDING** (est −1 to −4% — gasoline stocks BUILT +0.626M bbl while util ROSE to 92.9%; product supplied likely declining). ⚠️ Crisis Wk 6: hoarding window closing. Apr 22-May 6 = signal window. | — | EIA WPSR | **Apr 15** [CONF/EST] |
 | CFTC managed money | NYMEX net long **73,347** / ICE net short **33,814** (Mar 31 [CONF]). Non-commercial proxy: Mar 24=233.6K → Mar 31=213.5K (**DOWN 20.1K**). Apr 7 data due today 3:30pm. **DIRECTION: DECLINING** | Declining x2 weeks while price flat | CFTC COT | **Apr 10** |
 
 ### Tier 2 — Confirming Indicators
@@ -38,7 +38,7 @@ All three must fire simultaneously to confirm Phase 2 via demand destruction pat
 | Initial jobless claims (4wk avg) | ~215K (est.) | >260K and rising | DOL Thursday 8:30 ET | Stale |
 | DXY (USD index) | **99.03** | Volatile/declining — was 99.81 Apr 6, spiked >100 mid-wk, now 99.03 | Yahoo Finance | **Apr 13** |
 | Brent-WTI spread | WTI > Brent (inverted) | <$5 = tidewater scarcity easing | CME/ICE | Apr 3 |
-| Cushing inventory | **31.465M bbl** (Mar 27 — counterintuitive BUILD). SPR releases + Canadian imports flowing into hub. Above 20M min. Prior: 27.5M (Mar 13) | <20M bbl = WTI dislocation | EIA WPSR | Mar 27 [EST] |
+| Cushing inventory | **~29.8M bbl** (Apr 10 — REVERSAL. Drew −1.7M bbl, largest single-week draw since Jan 2025). Prior: 31.489M (Apr 3). ⚠️ Trajectory: at −1.7M/wk → hits 20M threshold ~mid-May. | <20M bbl = WTI dislocation | EIA WPSR | **Apr 10** [CONF] |
 | ATA Truck Tonnage | Unknown — monthly | YoY negative x 2 months | ATA | Stale |
 
 ### Tier 3 — Lagging (You're Late If Waiting)
@@ -110,6 +110,7 @@ Record each week's key readings here. Update Wednesday (post-EIA) and Friday (po
 | Apr 6 | — | — | ~$18+ est (F1-F2 ~$9.60 [CONF]) | — | — | 99.81 | — | ⚠️ PATH A ALERT: 45-day ceasefire proposal active. Iraqi tanker transited Hormuz Apr 5. Brent ~$109.90, WTI ~$111.54. LNG $282.52, EOG $143.00, USO $137.92. Trump Tuesday deadline. |
 | **Apr 10** | — | — | — | **73,347** (Mar 31 [CONF]; Apr 7 pending) | — | — | **545** (−3 WoW) | **COT WATCH:** non-commercial proxy DOWN 20.1K Mar 24→31. Apr 7 data due 3:30pm today — if < 73.3K = Week 1 of 2. Oil rigs ~408 est. Airlines ESCALATING: WestJet -19.6% US ASM, Air NZ 1,100 flt, Ryanair/Lufthansa warnings. Jet fuel $4.88 (+95%). See `data/friday_2026-04-10.md` |
 | **Apr 13** | — | — | ~$8–12 est (↓ from $18+) | — | — | **99.03** | 545 (est) | 🔴 **PATH A ALERT — CEASEFIRE CONFIRMED Apr 7** (fragile). US-Iran 2-wk ceasefire agreed, Hormuz nominally reopening (~16 ships today). Islamabad comprehensive talks COLLAPSED Apr 12. Trump blockade of Iranian ports announced. Brent ~$101.82 (+6.95% today / −7.4% WoW). WTI ~$95.5. USO $124.82. LNG $263. EOG $135. Spread narrowing on ceasefire. See `data/monday_2026-04-13.md` |
+| **Apr 10** (wk end) | **$4.108** | **TBD** ⚠️ (est −1 to −4% YoY — stocks +0.626M bbl, util 92.9% ↑; demand softening but below −5% threshold) | ~$8–12 est | — | — | — | 545 (est) | **EIA Apr 15 release.** Crude −0.913M bbl to **463.8M bbl** (vs consensus +0.2M — surprise draw). Cushing **−1.7M bbl → ~29.8M bbl** (largest draw since Jan 2025). Distillate −3.4M bbl (~111.3M bbl, 5% below 5yr avg). Gasoline stocks +0.626M bbl (3% above 5yr avg). Refinery util **92.9%** (+0.9pp). SPR **409.2M bbl** (−4.1M bbl). Crude imports ~6.5M bpd. Production ~13.6M bpd est. Gas $4.108 [AAA CONF]. ⚠️ Hoarding window closing (Crisis Wk 6). See `data/eia_2026-04-15.md` |
 | | | | | | | | | |
 
 ---
