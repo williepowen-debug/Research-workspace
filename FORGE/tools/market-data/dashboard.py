@@ -363,7 +363,13 @@ def send_telegram(message):
 
 
 def notify_transitions(results, transitions):
-    """Build and send a Telegram alert for zone transitions."""
+    """Build and send a Telegram alert for zone transitions.
+    
+    DISABLED: Telegram notifications turned off to reduce API costs.
+    Re-enable by uncommenting the send_telegram() call below.
+    """
+    return  # Notifications disabled — 2026-04-15
+    
     if not transitions:
         return
 
@@ -378,7 +384,7 @@ def notify_transitions(results, transitions):
     greens = sum(1 for r in results if r["zone"] == "green")
     lines.append(f"\n_{reds}🔴 {yellows}🟡 {greens}🟢_")
 
-    send_telegram("\n".join(lines))
+    # send_telegram("\n".join(lines))  # DISABLED
 
 
 # ---------------------------------------------------------------------------

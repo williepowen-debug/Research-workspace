@@ -2,6 +2,10 @@
 # PROME Morning Briefing — sends compact dashboard to Telegram at 6 AM ET
 #
 # Cron: 0 6 * * * /home/moltbot/.openclaw/workspace/FORGE/tools/market-data/morning_briefing.sh
+#
+# DISABLED: Telegram notifications turned off to reduce API costs — 2026-04-15
+
+exit 0
 
 DIR="$(cd "$(dirname "$0")" && pwd)"
 cd "$DIR"
