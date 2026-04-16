@@ -10,18 +10,6 @@
 |-----------|-------|---------------|-------------------|
 | Weekly (Thu) | Initial claims | DOGE layoff acceleration | >300K = all ORANGE banks → RED |
 
-## UNRESOLVED
-
-| Original Date | Event | Status | What to Check | Who Cares |
-|---------------|-------|--------|---------------|-----------|
-| Mar 31 | First Brands auction | ✅ RESOLVED | Piecemeal liquidation: $75M asset sales vs $9.3B debt (<1% recovery). Debt 30-47¢. $2.3B fabricated receivables. WAL $126.4M likely unrecoverable. | BROCK, WAL V2 |
-
-## WEEK OF APR 7
-
-| Date | Event | What to Check | Threshold / Signal | Who Cares |
-|------|-------|---------------|-------------------|-----------|
-| Apr 10 | CPI (Mar data) | ✅ Past — check results next session | — | ALL |
-
 ## WEEK OF APR 14 — Q1 EARNINGS WAVE BEGINS
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
@@ -35,7 +23,7 @@
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |------|-------|---------------|-------------------|-----------|
-| **Apr 16-21** | **WAL Q1 earnings** (date UNCONFIRMED, consensus ~Apr 21) | CRE provisions, MI3 (≥25%?), Cantor reserve, SSFA | Any negative surprise = 🔴. **Date uncertainty = must be ready by Apr 16.** See EARNINGS_PREP.md (grade A-). | PROME |
+| **Apr 21** | **WAL Q1 earnings** (confirmed per IR) | CRE provisions, MI3 (≥25%?), Cantor reserve, SSFA | Any negative surprise = 🔴. See EARNINGS_PREP.md (grade A-). MTB + CFG read-throughs applied. | PROME |
 | Apr 20 | WTFC Q1 earnings (after-market) | — | — | — |
 | **Apr 21** | **OZK Q1 earnings** (after-close, conf call Apr 22 per OZK IR) | NCO, provisions, CRE migration, MI3, ACL, AOCI | NCO >$90M or capital raise = 🔴. **Microstructure: 15.28% SI rising, 0% insider ownership, Wellington/AQR/Two Sigma exiting, Peak6 $15M put.** | PROME |
 | ~Apr 22 | PB Q1 earnings | TX CRE, provisions | — | — |

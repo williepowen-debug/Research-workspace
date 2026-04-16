@@ -1,5 +1,5 @@
 # REGINALD — Thesis Positions
-**Updated:** 2026-04-02 (from broker screenshot)
+**Updated:** 2026-04-02 (from broker screenshot) | ⚠️ **STALE — no broker update since Apr 2. Prices/strikes may have changed.**
 
 Only positions in REGINALD's domain. Full portfolio lives in FORGE.
 
@@ -15,7 +15,7 @@ Only positions in REGINALD's domain. Full portfolio lives in FORGE.
 | WAL | $67.5P | — | 2 | |
 | WAL | $65P | Jun | 2 | Aggressive strike |
 | WAL | $60P | — | 1 | Aggressive |
-| OZK | $45P | May/Aug | — | Earnings Apr 16 |
+| OZK | $45P | May/Aug | — | Earnings Apr 21 (after-close, call Apr 22) |
 | OZK | $42.5P | — | 2 | |
 | KRE | $65P | — | 1 | |
 | KRE | $67P | — | 1 | |
@@ -31,11 +31,11 @@ Only positions in REGINALD's domain. Full portfolio lives in FORGE.
 | HYG | $75P | Jun | 1 | Credit canary |
 | APO | $85P | — | 1 | PC/MFS thesis |
 | APO | $100P | — | 1 | |
-| IWM | $250P | Jun | 1 | Small cap stress, near money ($250.11) |
+| IWM | $250P | Jun | 1 | Small cap stress. IWM ~$269 (Apr 16) — OTM, needs pullback. |
 
 ## Key Context
 - WAL is the heaviest single-name position (7+ contracts across strikes)
-- OZK earnings Apr 16 = first catalyst for the put ladder
-- WAL earnings Apr 21 = main event
+- OZK earnings Apr 21 (after-close) = first catalyst for the put ladder
+- WAL earnings Apr 21 = main event (same day as OZK)
 - KRE spread across 3 strikes = broad regional stress bet
 - IWM $250P is near money — small cap weakness confirming
