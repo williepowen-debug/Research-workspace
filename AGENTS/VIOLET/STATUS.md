@@ -1,6 +1,6 @@
 # VIOLET STATUS
 
-**Signal Status:** 🟠 **ELEVATED WATCH** — Post-stress recovery with persistent SKEW bid. 17-episode backtest (KB-VIO-036) shows 15/16 completed analogs produced ≥15% VIX rise within 60 days; 9/16 produced ≥50% rise. Our SKEW peak 156.9 places us in the high-severity historical cohort. **Scenario B (new VIX event within 60 days) probability revised 30% → 66%**. See KB-VIO-031 (revised).
+**Signal Status:** 🟠 **ELEVATED WATCH** — Post-stress recovery with persistent SKEW bid. 17-episode backtest (KB-VIO-036) shows 15/16 completed analogs produced ≥15% VIX rise within 60 days; 9/16 produced ≥50% rise. Our SKEW peak 156.9 places us in the high-severity historical cohort. **Scenario B (new VIX event within 60 days) probability: 66%**. Phase 2 cluster analog translation (KB-VIO-040): 5/12 tells match, 4 partial, 3 diverge — supports **central-case Scenario B (VIX 25-30)** over tail (VIX 50+). CCC OAS divergence (9.31 vs analog 6.92) is key gap reducing tail probability.
 
 **Live:** VIX **18.09** | VIX3M **20.81** | VIX6M **22.85** | VVIX **99.56** | SKEW **149.94** | Term Structure **Contango +2.04% adj** | **Last Updated:** 2026-04-15
 
@@ -45,6 +45,8 @@
 - Tail: **VIX 50-63** (one-in-five, driven by 2025-01 analog)
 - Options market confirms: Apr 29 call-wall 25-30; May 19 call-wall 35 with tail OI to 45/70
 - Full analysis: `research/2026-04-15_vix_target_distribution.md`
+
+**Phase 2 Cluster Analog (KB-VIO-039/040):** 2024-11→2025-01 deep dive complete. 12/19 indicators were Class 1 (leading) — dominant pattern was "coiled spring" compression (vol+credit at lows, SKEW elevated, rates tightening). 2026 translation: 5 match, 4 partial, 3 diverge. Key gap: CCC OAS at 9.31 (elevated) vs analog 6.92 (compressed). **Supports central-case (VIX 25-30) not tail (50+).** Within Scenario B: 35% VIX 22-25, 40% VIX 25-30, 15% VIX 30-40, 10% VIX 40+. Full analysis: `research/2024-11_2025-01_cluster_analog.md`.
 
 ---
 

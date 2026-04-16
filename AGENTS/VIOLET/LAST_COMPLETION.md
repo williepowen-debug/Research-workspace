@@ -1,44 +1,39 @@
-**Task:** Empirical audit session — tools, thesis, scenario recalibration
+**Task:** Phase 2 — 2024-11/2025-01 Cluster Analog Deep Dive
 
 **Date:** 2026-04-15
 
 **Status:** COMPLETE
 
 **Key Findings:**
-- Built VIX M1/M2 contango tool (FORGE/tools/market-data/vix_futures.py), boot.py orchestrator, thresholds.py, backfill.py, VX_DAILY.tsv time-series log
-- Backfilled 100 days spot + 22 days M1:M2 from yfinance and CBOE
-- Pulled 20-year VIX+VIX3M (4,968 days) and VIX+VVIX+SKEW (4,778 days) for empirical audit
-- **Thesis prediction #2 FALSIFIED** — term structure inversion marks PEAK (553 events, 2.2% hit rate, mean -5% forward), not leading signal. Thesis bumped v3.0 → v3.1.
-- **Current SKEW divergence is rare and meaningfully predictive** — 1.0% base rate (17 episodes/19y). 15/16 completed episodes produced ≥15% VIX rise within 60 days; 9/16 produced ≥50%. SKEW peak magnitude correlates with severity (SKEW >150 cohort: 6/7 STRESS +50%).
-- **Scenario probabilities revised:** A (healthy) 55% → 22%, B (dead-cat / new VIX event within 60d) 30% → 66%, C (structural) 15% → 12%.
-- Local Mar 18 – Apr 8 2026 stress episode documented as crisis analog.
+- Built reusable FRED fetcher (fred_fetch.py), data pull orchestrator (analog_pull.py), and tell classification tool (analog_timeline.py)
+- Pulled 21-variable daily dataset (131 rows) spanning Oct 2024 – Apr 2025 from yfinance + FRED
+- 12/19 indicators were Class 1 (leading) — dominant "coiled spring" pattern: vol+credit compressed to cycle lows while SKEW elevated and rates tightening
+- VIX peaked 27.86 Mar 10 within 60d (+85% from T1); exogenous tariff shock pushed to 52.33 Apr 8 (76d, outside window)
+- 2026 translation: 5/12 tells match, 4 partial, 3 diverge — supports central-case Scenario B (VIX 25-30), not tail (50+)
+- Key divergence: CCC OAS 9.31 vs analog 6.92 — low-quality credit not participating in compression
 
 **Files Changed:**
-- `FORGE/tools/market-data/vix_futures.py` (new, CBOE settlement CSV)
-- `AGENTS/VIOLET/scripts/boot.py` (new, orchestrator)
-- `AGENTS/VIOLET/scripts/thresholds.py` (new, live fetch + classify + daily log)
-- `AGENTS/VIOLET/scripts/backfill.py` (new)
-- `AGENTS/VIOLET/workbook/VX_DAILY.tsv` (new, 100 rows)
-- `AGENTS/VIOLET/workbook/VX.tsv` (row added for M1:M2 steepness)
-- `AGENTS/VIOLET/workbook/KB.tsv` (entries 019-036, includes 1 correction and 1 supersession)
-- `AGENTS/VIOLET/workbook/FLOW.tsv` (first entry — WALTER signal)
-- `AGENTS/VIOLET/STATUS.md` (signal status upgraded 🟡 → 🟠 ELEVATED WATCH)
-- `AGENTS/VIOLET/thesis/VIX_THESIS.md` (v3.0 → v3.1, falsification logged)
-- `AGENTS/WALTER/inbox/SIG-VIOLET-WALTER-20260415-vix-apr15-refresh.md` (new)
-- `AGENTS/VIOLET/research/2026-04-15_skew_divergence_episodes.md` (new, full backtest record)
+- `scripts/fred_fetch.py` (new — reusable FRED CSV fetcher)
+- `scripts/analog_pull.py` (new — data pull orchestrator)
+- `scripts/analog_timeline.py` (new — landmark + tell classification)
+- `research/analog_2024_cluster/daily.csv` (new — 131×21 daily dataset)
+- `research/analog_2024_cluster/tells_table.md` (new — 19 indicators classified)
+- `research/2024-11_2025-01_cluster_analog.md` (new — main deliverable, full analysis)
+- `workbook/fred_cache/` (new — 6 cached FRED series + 6 current-period series)
+- `workbook/KB.tsv` (entries KB-VIO-039, KB-VIO-040)
+- `STATUS.md` (Phase 2 findings added)
 
-**Signals Sent:**
-- WALTER: VIX Apr 15 refresh + three observations (SKEW divergence, term structure steepening, credit-vol co-compression). Requested dedupe vs HENRY/LIQUID.
+**Signals Sent:** None (findings are internal to VIOLET domain)
 
 **Next Actions:**
-1. **Early checkpoint 2026-04-29** — SKEW scenario A/B early read (if SKEW <140 + VIX <22, lean A)
-2. **Full checkpoint 2026-06-15** — 60-day window expiry, full scenario resolution
-3. Investigate what triggered Mar 27 peak — cross-reference HENRY/LIQUID/RED STATUS from Mar 25-28
-4. Add rolling-window percentile classification to thresholds.py (per KB-VIO-032)
-5. HENRY/LIQUID STATUS refresh (snapshots are Apr 12)
+1. Apr 29 FOMC checkpoint — SKEW scenario A/B early read
+2. Monitor CCC OAS — if widens >10.0, analog alignment improves (currently biggest divergence)
+3. Watch for second SKEW divergence fire before May 13 — would promote to back-to-back cluster analog
+4. Jun 15 full checkpoint — 60-day window expiry, full scenario resolution
+5. Open investigation pathways from prior session still valid (Apr 29 C/P OI daily, IV term structure, CFTC COT)
 
 **Gaps:**
-- Don't know what caused Mar 27 vol peak — no identified catalyst
-- Inherited 70% credit-VIX lag hit rate from four-model synthesis not independently back-tested
-- 17 episodes is a small sample — wide confidence intervals
-- M1:M2 percentile classification still uses 22-day sample; needs calibration against longer history
+- Inherited 70% credit-VIX lag hit rate not independently back-tested
+- N=1 analog — suggestive not predictive
+- Exogenous catalyst (tariffs) drove 2025 tail — not forecastable from vol structure
+- VIX9D partial match — need to track 9D compression more closely in coming weeks
