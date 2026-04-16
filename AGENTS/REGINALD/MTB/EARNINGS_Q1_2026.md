@@ -50,6 +50,27 @@
 - Bible on drivers: "broad-based improvement in operating performance, and some borrowers are paying off."
 - **No office-specific disclosure.** Office NPL trend, at-risk %, sector breakdown — none provided and **not asked by any analyst.**
 
+### CRE Property Type (10-K, Dec 31 2025 — baseline for Q1 read-through) 🔴 NEW
+
+| Property Type | Balance | Criticized | Criticized % | Reserve |
+|---------------|---------|-----------|-------------|---------|
+| **Office** | **$3,423M** | **$765M** | **22.3%** | **4.65%** |
+| Multifamily | $6,837M | — | — | — |
+| Retail/Service | $4,164M | — | — | — |
+| Industrial/Warehouse | $2,297M | $85M | 3.7% | — |
+| Hotel | $1,743M | — | — | — |
+| Health Services | $1,548M | — | — | — |
+| Construction | $3,627M | — | — | — |
+| **Total CRE** | **$23,819M** | **$3,454M** | **14.5%** | **1.98%** |
+
+**Key reads:**
+- Office is 14% of CRE but **22.3% criticized** — 1 in 5 office loans is a problem. Reserve rate 4.65% = 5x bank-wide average.
+- Office nonaccrual $121M actually INCREASED from $117M — improvement is in accruing criticized, not problem resolution.
+- **33% of CRE ($7.9B) matures in 2026.** 85% by 2030. 83% adjustable rate. Every maturity = refinancing stress test.
+- Criticized CRE LTV: **67%, up from 63%** — collateral cushion ERODING on problem loans.
+- CRE modifications: $818M in extend-and-pretend (term extensions, not rate mods) in FY2025. First masking level.
+- Geographic: 86% of CRE in NY/Mid-Atlantic/New England. Office heaviest in New England (30% of office).
+
 ### Provision Signal 🔴
 - **$140M provision vs ~$125M Q4 = +12% increase.**
 - Meanwhile NCO fell from 54bps to 31bps and ACL held at 1.53%.
