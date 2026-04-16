@@ -12,7 +12,7 @@
 | Bank | Date | EPS | Beat? | Tape | Sector Signal |
 |------|------|-----|-------|------|---------------|
 | MTB | Apr 15 | $4.13 vs $4.03 | Yes | **-1.55%** on 1.5x vol | Bear. Faded on beat. CET1 -51bps. FHLB +265%. NDFI growing. |
-| CFG | Apr 16 | $1.13 vs $1.09 | Yes | -0.63% (pre-call) | Bear-leaning. CRE nonaccruals +10%. FHLB 60x. Zero fund finance disclosure. |
+| CFG | Apr 16 | $1.13 vs $1.09 | Yes | -0.63% (pre-call) | Bear-leaning. CRE nonaccruals +10%. FHLB 60x. Fund finance in **deck only** — $19.6B prelim NDFI (Slide 24); +ABS finance $1.8B new line item. |
 | KEY | Apr 16 | — | — | — | Pending |
 | RF | Apr 17 | — | — | — | Pending |
 | **WAL** | **Apr 21** | — | — | — | **POSITION NAME** |
@@ -22,7 +22,7 @@
 1. **Headline beats, tape fades.** Both MTB and CFG beat EPS estimates. Both stocks fell. Market is looking through headline earnings.
 2. **FHLB acceleration systemic.** MTB: +265% to $7.85B. CFG: 60x to $2.5B. Two of two reporters showing contingency borrowing. FHLB indicator should upgrade.
 3. **CRE extend-and-pretend confirmed.** CFG: nonaccruals +10% QoQ while NCOs flat. MTB: $818M modifications in FY2025. Accumulation, not recognition.
-4. **NDFI opacity is sector-standard.** MTB: partial disclosure (Slide 19) but $8.9B still hidden. CFG: zero fund finance breakout. WAL/OZK will be the same.
+4. **NDFI opacity is sector-standard — but only at the headline.** MTB: partial disclosure (Slide 19) but $8.9B still hidden. CFG: deck Slide 24 has $19.6B preliminary NDFI breakdown (capital call $8.8B / PC finance $4.1B / ABS finance $1.8B + $4.9B other). Pattern: press release/supplement opaque, deck has the detail. WAL/OZK earnings decks become MORE important than press releases.
 5. **Consumer NOT confirming.** CFG retail NCO 38bps (from 70bps YoY). CARL channel not firing at CFG.
 
 **Thesis v1.4 (today):** Added "C&I as Convergence Hiding Place" to thesis — three masking mechanisms (MI3, NDFI opacity, reclassification) all exploit C&I bucket. The convergence is hidden convergence. See `thesis/THESIS.md` + `thesis/CHANGELOG.md`.
