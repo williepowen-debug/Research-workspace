@@ -7,10 +7,13 @@ Curated long-term insights on VIX, volatility regimes, and credit-vol transmissi
 ## CORE PRINCIPLES
 
 1. **VIX is a coincident indicator, not a leading one.** It reacts to realized vol, not predicts it.
-2. **But term structure is leading.** Inversion predicts stress before spot VIX spikes.
-3. **Credit leads vol.** HY spreads widen before VIX spikes — quantify this lag.
+2. **Term structure inversion marks peaks, not onsets.** (v3.1 falsification: 553 events, 2.2% hit rate, mean -5% forward.)
+3. **Credit leads vol in credit-originated crises.** HY OAS leads VIX 2-6 weeks when VIX<20 + cross-sector widening + no QE.
 4. **VVIX is the fear gauge for the fear gauge.** When vol-of-vol spikes, something is breaking.
 5. **SKEW is the cost of crash protection.** High SKEW = expensive puts = fear present.
+6. **SKEW divergence is the highest-conviction leading signal.** SKEW rising while VIX+VVIX fall = "coiled spring." 94% hit rate (15/16 → ≥15% VIX rise within 60d). 1% base rate. See KB-VIO-036.
+7. **The coiled spring pattern:** Vol+credit compress to complacency lows while SKEW stays elevated + rates tighten = fragility. The divergence identifies fragility; the trigger is usually external. (Phase 2 finding, Apr 2026.)
+8. **Timing:** SKEW divergence episodes peak at median 39 days (IQR 32-46). High-SKEW cohort (≥150) median 44 days. Post-stress fires resolve faster (median 32 days).
 
 ---
 
@@ -50,28 +53,40 @@ Curated long-term insights on VIX, volatility regimes, and credit-vol transmissi
 
 ---
 
-## HISTORICAL ANALOGS (To Research)
+## HISTORICAL ANALOGS
 
-### February 2018 — VIX Spike
+### February 2018 — Volmageddon
 - **Trigger:** Vol targeting funds, short vol unwind
 - **VIX move:** 17 → 37 in one day
-- **Credit lead?** TBD — research needed
-- **Term structure:** Inverted before spike?
-- **Lesson:** Short vol crowdedness → sudden unwind
+- **Credit lead?** No — VIX-led technical event
+- **Lesson:** Short vol crowdedness → sudden unwind. No credit component.
 
 ### March 2020 — Pandemic Crash
 - **Trigger:** COVID lockdowns
 - **VIX move:** 27 → 82 in 3 weeks
-- **Credit lead?** Yes — HY OAS widened first
-- **Term structure:** Deep backwardation
+- **Credit lead?** Yes — HY OAS widened first (near-simultaneous, exogenous shock compressed lead time)
 - **Lesson:** Macro shock + credit stress = vol explosion
 
 ### February 2021 — Meme Stock Vol
 - **Trigger:** GME short squeeze
 - **VIX move:** 21 → 37
 - **Credit lead?** No — idiosyncratic
-- **Term structure:** Brief inversion
 - **Lesson:** Single-stock vol can bleed into index vol
+
+### 2024-11 → 2025-01 → Apr 2025 — Back-to-Back Cluster (PHASE 2 DEEP DIVE)
+- **Trigger:** SKEW divergence fired Nov 22, then again Jan 22. VIX 52.33 on Apr 8 (tariff shock).
+- **VIX move:** 15.10 → 27.86 within 60d (+85%), then 52.33 at 76d (exogenous tariff shock)
+- **Credit lead?** Credit compressed to lows beforehand (HY 2.59, CCC 6.92) = complacency peak. Credit did NOT lead the spike — it was a coiled spring released by policy shock.
+- **Key tells (12/19 Class 1 leading):** VIX/VIX9D compression, SKEW elevation, HY/IG/CCC at tights, 10Y/2Y yield backup, TIPS surge
+- **Lesson:** Only back-to-back cluster in 19-year sample. "Coiled spring" = vol+credit compressed + SKEW elevated + rates tightening. Tail (50+) required external catalyst (tariffs).
+- **2026 translation:** 5/12 tells match, 4 partial, 3 diverge. CCC OAS elevated (9.31 vs 6.92) is key gap. Supports central case (VIX 25-30), not tail.
+- **Full analysis:** `research/2024-11_2025-01_cluster_analog.md`
+
+### March 2026 — Our Stress Episode
+- **Trigger:** Convergence event (PC narrative, MS broker-dealer transfer, JGB yields, USD/JPY 160, Fed put removal)
+- **VIX move:** 18 → 31.05 peak (Mar 27), recovered to 18 by Apr 13
+- **Credit lead?** HY OAS widened to 3.46 (Mar 30) but reverted to 2.84 — credit did NOT sustain
+- **Classification:** Macro-geopolitical-Fed-trap driven, VIX-led, not credit-led
 
 ---
 
@@ -170,15 +185,22 @@ Curated long-term insights on VIX, volatility regimes, and credit-vol transmissi
 
 ## SKEW PATTERNS
 
-**SKEW > 150:** Fear present
+**SKEW > 150:** Fear present / high-severity SKEW divergence cohort
 - Crash protection expensive
-- Tail risk bid
-- Often coincides with VIX > 30
+- 6/7 historical episodes with SKEW peak >150 produced STRESS +50% VIX rise
+- Our Apr 13 SKEW peak: 156.9 (high cohort)
+
+**SKEW 140-150:** Elevated
+- Mixed outcomes historically (stress and tension)
+- Watch for SKEW divergence pattern (SKEW rising while VIX+VVIX fall)
 
 **SKEW < 120:** Complacency
 - Crash protection cheap
 - Tail risk ignored
 - Contrarian buy signal
+
+**SKEW < 140 + VIX < 22 sustained:** Peaceful resolution signal
+- If SKEW drops through 140 within 2 weeks of divergence fire AND VIX stays <20, pattern resolving peacefully (6% historical base rate for peaceful)
 
 **SKEW crash during vol spike:**
 - Puts get monetized
@@ -214,43 +236,26 @@ Curated long-term insights on VIX, volatility regimes, and credit-vol transmissi
 
 ## SESSION NOTES
 
-### 2026-04-15 — empirical audit session (PUSH DEFERRED)
+### 2026-04-16 — Phase 2 cluster analog + housekeeping
 
-**Status at close:** VIOLET has **4 commits staged locally, NOT pushed to GitHub**.
+- Phase 2 complete: 2024-11/2025-01 cluster analog deep dive. 21-variable dataset, 12/19 leading tells, coiled-spring pattern identified. 2026 translation: 5 match, 4 partial, 3 diverge → central case VIX 25-30 supported, tail (50+) needs external catalyst + CCC crack.
+- All prior deferred pushes resolved. VIOLET fully synced with GitHub.
+- Built 3 new tools: `fred_fetch.py`, `analog_pull.py`, `analog_timeline.py`.
+- KB entries now at 040. Thesis stable at v3.1.
+- MEMORY.md and CALENDAR.md updated (housekeeping pass).
 
-Commit hashes (local master): `69cd3c05 → 8b36c813 → ca48167c → 69cd3c05`
-- `69cd3c05` — session tooling + empirical audit — posture 🟡→🟠 ELEVATED WATCH
-- `8b36c813` — Mar 27 trigger analysis + catalyst tracking
-- `ca48167c` — VIX options positioning tool + first snapshot
+**Current posture:** 🟠 ELEVATED WATCH. Scenario B (66%): VIX 22-25 (35%) | VIX 25-30 (40%) | VIX 30-40 (15%) | VIX 40+ (10%).
 
-**Why push was deferred:** Attempted push was rejected (non-fast-forward). Local was 4 commits ahead, remote had advanced 3 commits from another session while VIOLET was working. Cannot safely `git pull --rebase` because working tree has uncommitted work from CARL, WALTER, OTTO. Protocol (CLAUDE.md "Before pulling") says STOP when other agents have uncommitted changes outside VIOLET's directory.
+**Checkpoints:** 2026-04-29 (FOMC, SKEW early read), 2026-06-15 (60d window expiry).
 
-**Next-session push protocol:**
-1. Check git status at boot. If other agents still have uncommitted work, defer again.
-2. If working tree is clean outside VIOLET/: `git stash push -- AGENTS/VIOLET/` → `git pull --rebase` → `git stash pop` → `git push`.
-3. If stash-pop conflicts, resolve only in VIOLET files. Never touch other agents' conflicts.
-
-**Shared files from this session NOT committed (flagged to Will):**
-- `FORGE/tools/market-data/vix_futures.py` — new shared tool, VIOLET-authored. Prome or Will to commit.
-- `AGENTS/WALTER/inbox/SIG-VIOLET-WALTER-20260415-vix-apr15-refresh.md` — PRIORITY signal. Will be picked up on WALTER next boot.
-- `AGENTS/WALTER/inbox/SIG-VIOLET-WALTER-20260415-002-skew-divergence-escalation.md` — IMMEDIATE signal. Posture change routing.
-
-**Key state for next session:**
-- Posture: 🟠 ELEVATED WATCH (revised from 🟡)
-- Scenario B (new VIX event within 60d) probability: **66%** (revised from 30%)
-- Scheduled checkpoints: **2026-04-29 early** (FOMC day), **2026-06-15 full**
-- Tools now daily: `boot.py` runs `thresholds.py` + `vix_options.py` + `catalyst_countdown.py`
-- Workbook time series active: `VX_DAILY.tsv`, `VIX_OPTIONS.tsv`, `CATALYSTS.tsv`
-- 39 KB entries as of close (1 superseded KB-VIO-019, 1 corrected KB-VIO-023, thesis prediction #2 empirically falsified)
-
-**Open investigation pathways for next session** (user's stated interest — continue digging on VIX calls):
-1. Observe Apr 29 C/P OI ratio daily (currently 9.01 — extraordinarily high)
+**Open investigation pathways:**
+1. Apr 29 C/P OI ratio daily (currently 9.01)
 2. IV term structure probe across forward expirations
 3. Full strike-by-strike call-wall / put-wall map for May 19
-4. CFTC COT VIX futures positioning (weekly, independent data source)
-5. Backtest: historical C/P OI ratio on FOMC-day expirations (need data source)
+4. CFTC COT VIX futures positioning (weekly)
+5. CCC OAS tracking — key divergence from analog (9.31 vs 6.92)
 
 ---
 
 *Created: 2026-04-12*
-*Last Updated: 2026-04-15 (empirical audit session + posture escalation + push deferred)*
+*Last Updated: 2026-04-16 (Phase 2 complete, housekeeping pass, all pushed)*
