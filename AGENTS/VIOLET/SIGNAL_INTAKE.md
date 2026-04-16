@@ -16,20 +16,36 @@ What VIOLET watches for — internal monitoring priorities and external signals 
 | VIX 30-40 | Stress | Too late — already panicking |
 | VIX > 40 | Crash | Relationship inverts — VIX leads credit |
 
-### The Sweet Spot Trigger
+### The Sweet Spot Trigger (Credit-Vol Lag)
 
 **When ALL conditions met:**
-1. VIX 15-26 ✅ (currently 19.23)
-2. HY OAS widens >100bps from recent low
+1. VIX 15-26 ✅ (currently ~18)
+2. HY OAS widens >100bps from recent low (currently +20bps from 2.64 trough — NOT triggered)
 3. Cross-sector widening (not just energy)
-4. Yield curve not inverted
+4. Yield curve not inverted ✅ (10Y-2Y +50bps)
 5. Sustained >5 days, VVIX confirming
 
 **Action:** Buy VIX calls 30-60 DTE, 1-2% account
 **Target:** VIX +10pts within 2-6 weeks
 **Stop:** HY OAS reverses 50bps, VIX >30, or yield curve inverts
 
-**Current Status:** VIX 19.23 ✅ in sweet spot — waiting for HY OAS trigger (currently 2.90%)
+**Current Status:** VIX in sweet spot — waiting for HY OAS trigger. Tactical trigger at +100bps from trough (HY OAS 3.64).
+
+### SKEW Divergence Trigger (Highest Conviction)
+
+**Pattern:** SKEW rises ≥10pts while VIX falls ≥5pts AND VVIX falls ≥15pts over 20-day window.
+
+**Current Status:** 🔴 **FIRED Apr 13.** SKEW peak 156.9. Episode #17 in 19-year sample. 94% hit rate for ≥15% VIX rise within 60d. See KB-VIO-036.
+
+**Action:** VIX upside trade — proposal submitted to FORGE/INBOX.md (Apr 15). Awaiting Will's vehicle/strike/expiry decision.
+
+**Monitoring:**
+- SKEW <140 sustained → pattern resolving peacefully → exit
+- SKEW re-ramp >155 → severity confirmation → add
+- VIX3M/VIX <1.05 → tactical entry signal
+- CCC OAS >10.0 → analog alignment strengthens → add
+
+**Timing:** Median peak at day 39 (IQR 32-46). High-SKEW cohort median 44 days. Central window: **May 15-27**.
 
 ### Term Structure Watch
 
@@ -151,11 +167,19 @@ VIOLET sends signals when:
 | Condition | Target | Priority | Content |
 |-----------|--------|----------|---------|
 | VIX spikes >30% in 5 days | HENRY, RED | 🔴 | Vol regime shift |
-| Term structure inverts | LIQUID, HENRY | 🔴 | Leading indicator |
+| SKEW divergence fires | WALTER, HENRY, RED | 🔴 | Coiled-spring pattern — see KB-VIO-036 |
+| Term structure inverts | LIQUID, HENRY | 🔴 | Peak marker (v3.1: marks peak, not onset) |
 | VVIX > 120 | RED, HENRY | 🟠 | Vol-of-vol stress |
 | Credit spreads widen >50bps, VIX flat | HENRY, RED | 🟠 | Credit-vol divergence |
 | Regime shift detected | All agents | 🟠 | Low vol → rising vol |
+| CCC OAS >10.0 | LIQUID, RED | 🟠 | Low-quality credit cracking — analog alignment |
+
+**Signals sent this cycle:**
+- WALTER: VIX Apr 15 refresh + SKEW divergence escalation (Apr 15)
+- LIQUID: HY OAS trigger monitor (outbox, Apr 15)
+- FORGE: VIX Upside trade proposal (INBOX.md, Apr 15)
 
 ---
 
 *Created: 2026-04-12*
+*Last Updated: 2026-04-16*
