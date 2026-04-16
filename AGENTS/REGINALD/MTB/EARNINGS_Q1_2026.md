@@ -2,7 +2,7 @@
 
 **Report Date:** Apr 15, 2026 (pre-market) | **Compiled:** Apr 15, 2026
 **Price on Report:** $220.51 (Apr 14 close) → **$217.10** (Apr 15 close, **-1.55%**, vol 1.36M vs ~0.9M avg)
-**Source:** Motley Fool full transcript + press release
+**Source:** Motley Fool full transcript + press release + investor presentation deck + earnings release PDF
 
 ---
 
@@ -41,9 +41,12 @@
 - RCC had "record performance last year" — off-balance-sheet CRE growing via fee income.
 
 ### Credit Quality
-- **Criticized loans: $6.6B** (down from $7.3B Dec, ~$7.8B prior). **$700M+ reduction.**
+- **Criticized loans: $6.6B** (down from $7.3B Dec, ~$7.8B prior). **$706M reduction.**
   - CRE criticized: -$400M
-  - C&I criticized: -$300M+
+    - **Permanent CRE: -$140M** (35% of CRE improvement)
+    - **Construction: -$260M** (65% of CRE improvement) ← headline "CRE improving" is mostly construction paying off
+  - C&I criticized: -$306M
+- 96% of criticized accrual loans are **CURRENT** (not past due).
 - Bible on drivers: "broad-based improvement in operating performance, and some borrowers are paying off."
 - **No office-specific disclosure.** Office NPL trend, at-risk %, sector breakdown — none provided and **not asked by any analyst.**
 
@@ -52,6 +55,12 @@
 - Meanwhile NCO fell from 54bps to 31bps and ACL held at 1.53%.
 - **Interpretation:** Provision > NCO = management is NET BUILDING reserves. They expect future losses to exceed current charge-offs. This is the single most bearish data point in the print, and nobody asked about it on the Q&A.
 - **Read-through:** If MTB (CRE/Tier 1 128%, actively de-risking, best-in-class NCO) is building reserves, what does that imply for OZK (358%, NOT de-risking, NCO 118bps, ACL 1.16% BELOW NCO rate)?
+
+### FY2026 NCO Guide: 40bps 🔴 NEW FROM DECK
+- **Full-year NCO guide: 40bps +/-** (Slide 21).
+- Q1 was 31bps. To average 40bps for FY, **Q2-Q4 must average ~43bps** — a 39% step-up from Q1 levels.
+- Management is EXPLICITLY TELEGRAPHING credit deterioration in the guidance while keeping call tone confident.
+- Combined with provision build ($125M → $140M), this is a management team that expects worse credit ahead but doesn't want to alarm the market. They're pre-positioning the reserve and the guidance together.
 
 ### CRE Cycle Tone
 - Bible was cautious-optimistic, not "turning the corner" triumphalist.
@@ -71,10 +80,24 @@ Bible described three pillars comprising >2/3 of NDFI:
 2. **REIT lending:** "growing nicely and will continue to grow."
 3. **Fund banking / capital call lines:** **"a business we acquired from Webster."** ← MTB never acquired Webster Bank (WBS). See WEBSTER_ANOMALY section below.
 
-### Smaller disclosed buckets (Slide 19)
-- $700M wholesale lender finance
-- $600M business leasing
-- $400M BDC loans (<15% software concentration)
+### Slide 18 — NDFI Sub-Category Breakdown (Q1 balances) 🔴 NEW FROM DECK
+
+| Category | Dec 31 (10-K) | Mar 31 (Slide) | QoQ Change |
+|----------|--------------|----------------|------------|
+| Mortgage credit intermediaries | $5.6B | **$6.5B** | **+$0.9B (+16%)** |
+| Private equity funds | $3.3B | $3.5B | +$0.2B |
+| Business credit intermediaries | $1.8B | $2.0B | +$0.2B |
+| Consumer credit intermediaries | $0.7B | $0.6B | -$0.1B |
+| Other | $1.1B | $0.8B | -$0.3B |
+| **Total** | **$12.5B** | **$13.4B** | **+$0.9B** |
+
+**100% of Q1 NDFI growth came from mortgage credit intermediaries** (warehouse + REIT + MSR lending). This is the exact channel where Apollo Atlas SP operates.
+
+### Slide 19 — Business Credit Intermediaries Breakdown
+- Wholesale lender finance: $0.7B (35%)
+- Business leasing: $0.6B (28%)
+- BDC: $0.4B (20%, <15% software concentration)
+- Other business credit: $0.3B (17%)
 
 ### What was NOT said
 - Zero counterparty names disclosed (warehouse, fund banking, REIT, BDC).
@@ -98,10 +121,13 @@ Bible described three pillars comprising >2/3 of NDFI:
 - Bible: likely to adopt if advantage holds post-comment period. Not committed yet.
 - **Rating agency reaction** cited as key gating factor — agencies may not give full credit for RWA reduction.
 
-### AOCI
-- **Only 4bps impact on CET1 fully phased-in.** MTB has minimal unrealized losses.
-- Securities portfolio: **unrealized pre-tax GAIN of $9M.** Duration 3.8 years (well managed).
-- **Read-through:** This is a STARK contrast to OZK/WAL, which face Cat III/IV AOCI recognition with likely much larger underwater positions. MTB's securities book is NOT a problem.
+### AOCI & Securities 🔴 UPDATED FROM DECK
+- **AFS: unrealized pre-tax GAIN of $9M.** Duration 3.1 years. AOCI impact on CET1: +4bps. Clean.
+- **HTM: unrealized pre-tax LOSS of ($764M).** Duration 5.2 years. NOT recognized under current rules.
+- **Total securities unrealized: ($755M).** The AFS book is fine, but the HTM book has $764M in hidden losses.
+- If MTB ever needed to sell HTM for liquidity, they'd realize those losses. Under current rules, this stays off-balance-sheet.
+- MSR fair value election added +8bps to CET1 at Jan 1, 2026.
+- **Read-through:** AFS is clean (unlike likely OZK/WAL), but the $764M HTM hole is real — just not recognized. For AOCI capital rewrite comparison, AFS is what matters, and MTB wins that comparison. But for a true stress scenario (forced HTM sales), the $764M matters.
 
 ---
 
@@ -120,10 +146,12 @@ Bible described three pillars comprising >2/3 of NDFI:
 - Deposit beta: 56% (cutting cycle); expected low-to-mid 50s continuing.
 - Bible: "customer deposits outpacing loan growth by more than $1 billion."
 
-### Borrowings 🟠
-- **Analyst Siefers (Piper Sandler) flagged short-term borrowings "about as high as I can remember."**
-- Bible deflected: "managing to short-term ratios" + "ICS business volatility" (institutional cash sweep — deposits come and go).
-- **REGINALD read:** Elevated borrowings + deposit decline + aggressive buybacks = balance sheet is being managed at thinner margins. LCR 107% is above minimum but not excess.
+### Borrowings 🔴 CONFIRMED FROM EARNINGS RELEASE
+- **Short-term borrowings: $5.695B average** (up from $2.064B Q4 = **+176%, nearly TRIPLED**).
+- Source explicitly stated: **"increase in short-term borrowings from the FHLB of New York."**
+- Long-term borrowings: -12% to $11.064B (senior note maturities).
+- Analyst Siefers (Piper Sandler) flagged as "about as high as I can remember." Bible deflected with "managing to ratios" + "ICS volatility."
+- **REGINALD read:** Even the best-run regional is leaning hard on FHLB. Short-term borrowings tripled in one quarter. Combined with deposits -$800M and $1.25B buybacks, this is a balance sheet being run at deliberately thin margins. LCR 107% (above minimum, not excess). Direct read-through to LIQUID's FHLB thesis — FHLB advances from all regionals presumably rising if MTB alone pulled +$3.6B.
 
 ---
 
