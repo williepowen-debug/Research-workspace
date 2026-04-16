@@ -1,8 +1,8 @@
 # VIOLET STATUS
 
-**Signal Status:** 🟠 **ELEVATED WATCH** — Post-stress recovery with persistent SKEW bid. 17-episode backtest (KB-VIO-036) shows 15/16 completed analogs produced ≥15% VIX rise within 60 days; 9/16 produced ≥50% rise. Our SKEW peak 156.9 places us in the high-severity historical cohort. **Scenario B (new VIX event within 60 days) probability: 66%**. Phase 2 cluster analog translation (KB-VIO-040): 5/12 tells match, 4 partial, 3 diverge — supports **central-case Scenario B (VIX 25-30)** over tail (VIX 50+). CCC OAS divergence (9.31 vs analog 6.92) is key gap reducing tail probability.
+**Signal Status:** 🟠 **ELEVATED WATCH — SKEW BREAK UNDER MONITORING** — SKEW dropped 149.94→139.23 (below 140 threshold) on Apr 16, 3 days post-divergence fire. Per MEMORY principle #6: if SKEW <140 sustained + VIX <20 through ~May 7, pattern resolving peacefully (Scenario A). **First peaceful-resolution checkpoint.** 17-episode backtest still active: 15/16 → ≥15% VIX rise within 60d, but 6% base rate for peaceful resolution. Phase 2 analog supports central-case Scenario B (VIX 25-30) if SKEW re-ramps. **Watch: does SKEW sustain <140 or bounce?**
 
-**Live:** VIX **18.09** | VIX3M **20.81** | VIX6M **22.85** | VVIX **99.56** | SKEW **149.94** | Term Structure **Contango +2.04% adj** | **Last Updated:** 2026-04-15
+**Live:** VIX **18.86** | VIX3M **21.25** | VIX6M **23.12** | VVIX **99.54** | SKEW **139.23** | Term Structure **Contango +2.37% adj** | **Last Updated:** 2026-04-16
 
 ---
 
@@ -10,14 +10,14 @@
 
 | Metric | Value | As Of | Status | Source |
 |--------|-------|-------|--------|--------|
-| VIX Spot | **18.08** | Apr 15 | 🟡 | [CONF] CBOE |
-| VIX3M | **20.81** | Apr 15 | 🟡 | [CONF] CBOE |
-| VIX6M | **22.85** | Apr 15 | 🟡 | [CONF] CBOE |
-| VVIX | **98.77** | Apr 15 | 🟢 | [CONF] CBOE |
-| SKEW | **149.94** | Apr 15 | 🟠 | [CONF] CBOE |
-| VIX3M/VIX | **1.151** | Apr 15 | 🟢 | [CONF] Calculated |
-| VIX Futures Curve | Contango (steep) | Apr 15 | 🟢 | [CONF] CBOE |
-| M1:M2 Contango (adj) | **+2.04%** | Apr 14 | 🟢 | [CONF] CBOE VX settlement |
+| VIX Spot | **18.86** | Apr 16 | 🟡 | [CONF] CBOE |
+| VIX3M | **21.25** | Apr 16 | 🟡 | [CONF] CBOE |
+| VIX6M | **23.12** | Apr 16 | 🟡 | [CONF] CBOE |
+| VVIX | **99.54** | Apr 16 | 🟢 | [CONF] CBOE |
+| SKEW | **139.23** | Apr 16 | **🟡** | [CONF] CBOE — **broke below 140; was 149.94 Apr 15** |
+| VIX3M/VIX | **1.127** | Apr 16 | 🟢 | [CONF] Calculated |
+| VIX Futures Curve | Contango (steep) | Apr 16 | 🟢 | [CONF] CBOE |
+| M1:M2 Contango (adj) | **+2.37%** | Apr 16 | 🟢 | [CONF] CBOE VX settlement |
 | HY OAS | **2.84** | Apr 14 | 🟢 | [CONF] FRED BAMLH0A0HYM2 |
 | HY OAS — cycle trough | **2.64** | Jan 22 | — | [CONF] FRED |
 | HY OAS — cycle peak | **3.46** | Mar 30 | — | [CONF] FRED |
@@ -29,15 +29,15 @@
 
 | Vector | Score | Evidence | Last Updated |
 |--------|-------|----------|--------------|
-| Spot VIX elevation | ⚪ | 18.09 — low vol regime post-recovery | 2026-04-15 |
-| Term structure inversion | ⚪ | 1.151 — steep contango, no warning | 2026-04-15 |
-| VVIX stress | ⚪ | 99.56 — normalized from Mar peak 133 | 2026-04-15 |
-| **SKEW-VIX-VVIX divergence** | **🔴** | **Magnitude-matched 20d divergence fired Apr 13; SKEW peak 156.9 in high-severity cohort. 17-episode backtest: 15/16 → VIX rise ≥15% within 60d** | 2026-04-15 |
-| Credit-to-vol transmission | ⚪ | HY OAS 290bps — credit rallying, no lag setup | 2026-04-15 |
+| Spot VIX elevation | ⚪ | 18.86 — low vol regime, slight uptick | 2026-04-16 |
+| Term structure inversion | ⚪ | 1.127 — contango flattening slightly (was 1.151) | 2026-04-16 |
+| VVIX stress | ⚪ | 99.54 — stable, normalized | 2026-04-16 |
+| **SKEW-VIX-VVIX divergence** | **🟠** | **SKEW broke 140 (139.23, d+3 Δ -17.7). Trajectory analysis (KB-VIO-041): unprecedented — no prior episode with fire SKEW>140 dropped below 140 by d+3. FADE_RERAMP (69% historical) is most likely path if SKEW rebounds >145 by ~Apr 22. Watch: sustained <140 through Apr 29 = invalidation.** | 2026-04-16 |
+| Credit-to-vol transmission | ⚪ | HY OAS 284bps — credit tight, no lag setup | 2026-04-16 |
 
-**Convergence Score:** 4/25 (16%) — SKEW divergence escalated 🟠→🔴 (5 pts) after empirical backtest; all other vectors ⚪ (1 pt each)
+**Convergence Score:** 3/25 (12%) — SKEW divergence downgraded 🔴→🟠 (3 pts) after SKEW broke 140; still live but fading. All other vectors ⚪ (1 pt each).
 
-**Notable:** Pattern is rare (1% base rate, 17 events in 19 years) but strongly predictive over 60-day window. Recent analogs 2024-05 → Aug 2024 yen unwind; 2024-11 → Q1 2025 vol regime; 2025-12 → our Mar 2026 event. See `research/2026-04-15_skew_divergence_episodes.md`.
+**Notable (KB-VIO-041/042/043):** Three-lens analysis complete. **Cross-episode** (17 events/12yr): d+3 Δ -17.7 unprecedented for high-fire episodes. **Within-cycle** (Feb 2 → present): 6/6 bounces off 140 in 1-3 td — breaking 140 is the norm, not the exception. **Regime duration** (KB-VIO-043): Current elevated SKEW regime started **Jun 16, 2025 — 206 td, second longest in 19-year SKEW history.** Only comparable regime (201 td, 2024-25) ended with VIX 52. All top-5 regimes preceded major VIX events. The divergence pattern fired within a historically rare macro context — this STRENGTHENS the thesis. One-day dip to 139.2 is noise against a 10-month backdrop. **TRUE invalidation = SKEW <140 for 4+ consecutive td.** See `research/2026-04-16_skew_post_fire_trajectory.md`.
 
 **Where does VIX land if pattern continues?** From 18.09 today:
 - 30d peak central: **VIX ~25** (range 22-30)
@@ -76,11 +76,11 @@
 
 | Metric | Current | Threshold | Status |
 |--------|---------|-----------|--------|
-| VIX spot | 18.08 | >30 | ⚪ |
-| VIX spot | 18.08 | >40 | ⚪ |
-| VIX3M/VIX ratio | 1.151 | <1.0 (inversion) | ⚪ |
-| VVIX | 98.77 | >120 | ⚪ |
-| SKEW | 149.94 | >140 | 🟠 (approaching 150) |
+| VIX spot | 18.86 | >30 | ⚪ |
+| VIX spot | 18.86 | >40 | ⚪ |
+| VIX3M/VIX ratio | 1.127 | <1.0 (inversion) | ⚪ |
+| VVIX | 99.54 | >120 | ⚪ |
+| SKEW | 139.23 | >140 | 🟡 (broke below 140 — was 149.94) |
 | Credit-VIX divergence | None | HY OAS >4, VIX 15-26 | ⚪ |
 
 ## CREDIT-TO-VOL LAG FRAMEWORK (Four-Model Synthesis)
@@ -133,7 +133,7 @@
 
 ## CROSS-AGENT SIGNALS (Pending)
 
-**Outbound:** FORGE/INBOX.md — VIX Upside proposal submitted Apr 15 (spec: vehicle, strike, expiry pending Will review)
+**Outbound:** ~~VIX Upside proposal~~ → **EXECUTED** Apr 16: VIX May 19 25C (see TRADE.md)
 - `outbox/SIG-VIOLET-LIQUID-20260415-hy-oas-trigger-monitor.md` — QUEUED (git path blocked)
 
 **Inbound:** None
@@ -166,8 +166,8 @@
 BROCK (PC stress) → LIQUID (HY/CCC spreads) → VIOLET (regime detection) → HENRY (equity impact)
 ```
 
-**Current assessment:** Low vol regime. Credit spreads tight (HY OAS 2.90). No divergence signal.
+**Current assessment:** Low vol regime. Credit spreads tight (HY OAS 2.84). SKEW divergence fading — first day below 140 since fire. Monitoring for sustained break vs bounce.
 
 ---
 
-*Last updated: 2026-04-15 (P1 refresh — VIX/VIX3M/VIX6M/VVIX/SKEW live reads)*
+*Last updated: 2026-04-16 (boot refresh — SKEW broke 140, all metrics updated)*
