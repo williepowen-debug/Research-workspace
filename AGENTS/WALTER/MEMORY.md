@@ -42,25 +42,33 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (Apr 14 → Apr 15)
-- **Role redefinition (Will Apr 14):** WALTER's primary job is now image/screenshot signal intake from Will via Telegram. WALTER + Prome are the only Telegram agents; Prome's Kimi LLM can't read images, so WALTER owns visual intake. COP refresh deprioritized until further direction.
-- **`/BOARD/` created at repo root** via `git mv AGENTS/WALTER/signals BOARD`. Network-shared archive, WALTER still owns writes. Path references updated in WALTER CLAUDE.md, COP.md footer, design/COP_TEMPLATE.md, design/SIGNAL_PROCESSING_CHECKLIST.md.
-- **Delivery policy flipped to BOARD-only** for IMMEDIATE/PRIORITY/ROUTINE. FLASH = BOARD + Telegram-alert-to-Will only (no inbox push). Other-agent boot-sequence rollout NOT yet greenlit by Will.
-- **FORMAT_SPEC v0.3→v0.4 + ROUTING_TABLE v0.3→v0.4:** added ASIA_CONTAGION + UST_FOREIGN canonical domain codes (ZHAO primary). Closes vocab gap surfaced by today's FT China signals.
-- **WALTER/CLAUDE.md** boot sequence + git-staging steps updated for BOARD path.
-- **13 signals dispatched today** (SIG-W-20260414-001 through -012). 3 kills logged. 3 verify-research sub-agent spawns (SEC PDT, IMF GFSR, March PPI; Iran state delta; FT China verify).
-- **Telegram MCP disconnected ~13:00 UTC 2026-04-15** mid-session. Final exchanges with Will via direct in-session text. Closeout-prep prompted by Will.
+### CHANGES SINCE LAST SESSION (Apr 15 → Apr 16)
+- **Image-intake session.** Will sent 8 Telegram images. 3 routed, 4 killed, 1 combined-into-dispatched.
+- **SIG-W-20260416-001** (PRIORITY → BRENT): Ninepoint/Kpler global observable oil inventories chart. 2026 line is steepest destocking in 2017-2026 series (~8MMbbl/d, ~4,600 MMbbl mid-April). Physical-tightness data independent of Hormuz headline tape.
+- **SIG-W-20260416-002** (IMMEDIATE → BRENT): Viva Energy Geelong (Corio) Refinery fire 2026-04-15 ~11:15pm. 120k bpd offline — 10% Australia / 50% Victoria supply. One of only 2 AU refineries. Repair "could take weeks." **Verified via spawned research sub-agent**: Bloomberg, FRV (Fire Rescue Victoria), Viva Energy official, SBS, Al Jazeera — all three claims confirmed, plus Lytton (Ampol ~110k bpd) as only remaining AU refinery. "Corio Refinery" = "Geelong Refinery" = Viva Energy site (no brand confusion).
+- **SIG-W-20260416-003** (PRIORITY → HENRY): Equity internals — NDX RSI 30→70 in ~3 weeks + SPX closes record >7000 on negative breadth. Two charts combined per FORMAT_SPEC same-underlying-theme rule.
+- **Kills (4):** MrBujok 1929-Dow-analog (relevance+credibility, astrology-adjacent), @Lisa9Sophia AU fertilizer plant (relevance — no WALTER domain match), @matt_barrie same story (novelty dup), "The Great Martis" SPX broadening-top (relevance+credibility, anonymous chart speculation).
+- **Convergence flag candidate:** SIG-001 + SIG-002 + SIG-W-20260414-009 (US rigs flat into elevated oil) = 3 OIL_ENERGY data points in a week, same direction. May satisfy "2+ agents flag same theme 24h" if BRENT/HAWK reclassify.
+- **Telegram MCP disconnected mid-session** ~17:12 UTC after initial ack reply succeeded. Image intake worked (file paths delivered via channel tag). Reply-to-Will blocked at closeout.
+- **Previous-session pending (from Apr 15 closeout):** 3 unread inbox signals (OTTO Tricolor/MTB ABS; VIOLET VIX refresh; VIOLET SKEW divergence escalation) still sitting, not processed today — today's scope was images only. Flagged in NEXT SESSION below.
 
 ### NEXT SESSION
-1. **Boot from new files first.** STATUS.md is v0.6, MEMORY.md updated, LAST_COMPLETION.md fresh. CLAUDE.md boot now reads `/BOARD/INDEX.md` (not `signals/INDEX.md`). BOARD lives at repo root.
-2. **Check Telegram MCP status** — was disconnected at end of last session. If reconnected, image-intake workflow resumes. If not, in-session text only.
-3. **Live KRE/XLF check at open** — yesterday: KRE +6.50% YTD vs XLF -5.68% (gap widened from Mar 28). OZK earnings TODAY (Apr 16). If catalyst week confirms thesis, gap should start closing.
-4. **Iran state delta** — last verified state: blockade selective (Iranian-port only), talks rumored-resuming (Trump floated Pakistan/Geneva, Vance/Araghchi as negotiators, nothing scheduled), Brent ~$94-100 (-4% on talks-hope). Ceasefire expiry **Apr 21 not Apr 22** — our COP was off by one day.
-5. **ZHAO awaiting spawn** for SIG-010/-011 China material. ZHAO STATUS 13d stale.
-6. **RED refresh STILL OVERDUE** — HY OAS <300 falsification now at Day 5+. Will is owner of RED spawn.
-7. **FORGE/STATUS.md still stale** at Mar 25 (~21d). Prome flag from Apr 11 unanswered.
-8. **COP refresh** is deprioritized but the COP is now stale — Iran state moved, ceasefire expiry date wrong, oil price moved. Reconsider when Will lifts the deprioritize.
-9. **Domain vocabulary discipline:** FORMAT_SPEC + ROUTING_TABLE are both v0.4 with ASIA_CONTAGION + UST_FOREIGN. Use these codes for any future China/foreign-UST routing.
+1. **Reply to Will via Telegram** — batch summary prepped in LAST_COMPLETION.md. Send as soon as MCP reconnects.
+2. **Check Telegram MCP status** first thing — was offline at close. If still offline, image intake blocked, in-session text only.
+3. **3 unread inbox signals** still pending from Apr 15 (and now 1 day older):
+   - `SIG-OTTO-WALTER-20260415-tricolor-mtb-abs-update.md`
+   - `SIG-VIOLET-WALTER-20260415-vix-apr15-refresh.md`
+   - `SIG-VIOLET-WALTER-20260415-002-skew-divergence-escalation.md`
+   Decide BOARD-route vs info-only. VIOLET SKEW-divergence-escalation might tie into SIG-W-20260416-003 equity-internals theme — consider cross-linking.
+4. **OZK earnings Apr 16 (today during this session, result not yet intook by WALTER).** REGINALD primary should process — check if a result-based signal should route.
+5. **Oil physical-tightness cluster follow-through** — SIG-001 + SIG-002 + SIG-W-20260414-009 hit 3-signal threshold. Watch for BRENT/HAWK classification; may merit convergence flag upgrade.
+6. **Iran state delta** — last verified Apr 15: blockade selective (Iranian-port only), talks rumored-resuming, Brent $94-100. Ceasefire expiry **Apr 21 not Apr 22**. State moves fast — re-verify before anchoring.
+7. **ZHAO awaiting spawn** for SIG-010/-011 China material. ZHAO STATUS now 14d+ stale.
+8. **RED refresh STILL OVERDUE** — HY OAS <300 falsification at Day 6+. Will owns spawn.
+9. **FORGE/STATUS.md still stale** at Mar 25 (~22d). Prome flag from Apr 11 unanswered.
+10. **COP refresh** deprioritized; COP is multi-delta stale. Reconsider.
+11. **Git push from Apr 15 was DEFERRED** (OTTO untracked files blocking). Check if cleared at boot; if yes, local commit + remote should now reconcile.
+12. **Filter v1→v2 review** — at 16 dispatches vs 10-trigger. Overdue.
 
 ### OPEN DESIGN DECISIONS (need Will)
 - **Other-agent boot-sequence rollout** — pending. Until rolled, agents won't pull from BOARD; they'll only see signals if Will explicitly directs them or spawns them.
