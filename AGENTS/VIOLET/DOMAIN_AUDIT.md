@@ -144,33 +144,38 @@ VIOLET is a **well-initialized agent** with strong historical research foundatio
 
 ---
 
-## File-by-File Audit Summary
+## File-by-File Audit Summary (Updated 2026-04-16)
 
 | File | Status | Notes |
 |------|--------|-------|
 | CLAUDE.md | ✅ Good | Clear instructions, well-structured |
-| STATUS.md | ✅ Good | Populated with live data, Convergence Matrix present |
-| thesis/VIX_THESIS.md | ✅ Good | Comprehensive, data-backed, falsifiable predictions |
-| MEMORY.md | ✅ Good | Solid reference material, regime definitions clear |
-| SIGNAL_INTAKE.md | ⚠️ Good structure, untested | No evidence of signal processing |
-| TRADE.md | ✅ Good | Framework clear, no active positions (appropriate) |
-| CALENDAR.md | ⚠️ Good structure, stale dates | "This week" references, no data refresh evidence |
-| workbook/KB.tsv | ✅ Good | 10 valid entries, schema compliant |
-| workbook/VX.tsv | ❌ Empty | Header only, no time series data |
-| workbook/FLOW.tsv | ❌ Empty | Header only, no signal history |
-| research/crisis_analogs/ | ✅ Good | 3 well-documented case studies |
-| research/credit_vix_lag/ | ✅ Good | Complete analysis with CSV |
-| research/regime_patterns/ | ❌ Empty | Referenced but unpopulated |
-| research/term_structure/ | ❌ Empty | Referenced but unpopulated |
-| research/skew_analysis/ | ❌ Empty | Referenced but unpopulated |
-| inbox/ | ⚠️ Empty | No signals to process |
-| outbox/ | ❌ Empty | No outbound signals sent |
-| LAST_COMPLETION.md | ✅ Good | Clear completion record |
+| STATUS.md | ✅ Good | Live data, Convergence Matrix, Phase 2 findings |
+| thesis/VIX_THESIS.md | ✅ Good | v3.1 — falsification logged, empirically audited |
+| MEMORY.md | ✅ Updated | Phase 2 principles, cluster analog, timing data added (Apr 16) |
+| SIGNAL_INTAKE.md | ✅ Updated | SKEW divergence trigger added, stale numbers fixed (Apr 16) |
+| TRADE.md | ✅ Updated | SKEW divergence trade + pending VIX Upside proposal added (Apr 16) |
+| CALENDAR.md | ✅ Updated | Checkpoints added, data refresh schedule populated (Apr 16) |
+| workbook/KB.tsv | ✅ Good | 40 entries, schema compliant |
+| workbook/VX.tsv | ✅ Populated | Time series active |
+| workbook/VX_DAILY.tsv | ✅ New | 100 rows backfilled |
+| workbook/VIX_OPTIONS.tsv | ✅ New | Options positioning snapshots |
+| workbook/CATALYSTS.tsv | ✅ New | Catalyst tracking |
+| workbook/FLOW.tsv | ✅ Populated | Signal history active |
+| workbook/fred_cache/ | ✅ New | 12 cached FRED series |
+| research/crisis_analogs/ | ✅ Good | 3 case studies + Mar 2026 local episode |
+| research/credit_vix_lag/ | ✅ Good | Complete analysis |
+| research/analog_2024_cluster/ | ✅ New | Phase 2 — daily.csv + tells_table.md |
+| research/regime_patterns/ | ⚪ Empty | Deprioritized — regime work lives in thesis + MEMORY |
+| research/term_structure/ | ⚪ Empty | Deprioritized — term structure falsification in thesis v3.1 |
+| research/skew_analysis/ | ⚪ Empty | Superseded by skew_divergence_episodes.md + analog work |
+| outbox/ | ✅ Active | 4 signal templates + 1 live signal (LIQUID) |
+| scripts/ | ✅ New | boot.py, thresholds.py, vix_options.py, catalyst_countdown.py, backfill.py, fred_fetch.py, analog_pull.py, analog_timeline.py |
+| LAST_COMPLETION.md | ✅ Good | Phase 2 completion logged |
 
 ---
 
-## Conclusion
+## Conclusion (Revised 2026-04-16)
 
-VIOLET has a **strong analytical foundation** but needs **operational hardening**. The research is sound, the thesis is clear, and the data infrastructure exists. The critical gap is the transition from "research mode" to "live monitoring mode" — populating tracking files, establishing data refresh discipline, and activating cross-agent signal flows.
+VIOLET has transitioned from **research mode to operational mode.** Critical gaps from the Apr 12 audit are resolved: tracking files populated, data refresh tooling built, cross-agent signals flowing, thesis empirically audited (with one falsification). Three empty research directories (regime_patterns/, term_structure/, skew_analysis/) are deprioritized — their content now lives in better locations.
 
-**Bottom line:** VIOLET is ready to operate but hasn't started operating yet.
+**Bottom line:** VIOLET is operating. Next milestone is the Apr 29 FOMC checkpoint.

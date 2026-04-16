@@ -6,7 +6,7 @@ VIX-linked positions and trade framework.
 
 ## ACTIVE POSITIONS
 
-None currently.
+None currently. **VIX Upside proposal pending Will's review** (see Pending Trades below).
 
 ---
 
@@ -75,18 +75,43 @@ None currently.
 
 **Key Insight:** Trade works best in credit-originated crises with VIX < 20. Avoid when VIX already elevated or shock is rate-driven.
 
-### Term Structure Inversion Trade
+### SKEW Divergence Trade (NEW — Phase 2 Validated)
 
-**Thesis:** Term structure inversion (VIX > VIX3M) predicts vol spikes.
+**Thesis:** SKEW divergence (SKEW rising while VIX+VVIX fall) identifies fragility with 94% hit rate for ≥15% VIX rise within 60d. Central case VIX 25-30, timing median 39 days.
+
+**Setup (current — FIRED Apr 13):**
+- SKEW divergence pattern fired ✅
+- SKEW peak 156.9 (high-severity cohort) ✅
+- VIX compressed from 31 to 18 (coiled spring) ✅
+- Phase 2 analog translation: 5/12 match, 4 partial, 3 diverge
+
+**Proposed structure (submitted to FORGE/INBOX.md Apr 15, awaiting Will):**
+- Expiry: Jun 17 or Jul 15 (captures full 60d window)
+- Strikes: 22-25 (central case) OR 30-35 (tail exposure)
+- Size: Start 25% of intended; add on SKEW re-ramp, second divergence, or term structure flattening
+- Consider calendar/ratio spread to offset contango bleed
+
+**Invalidation (exit):**
+- SKEW <140 sustained + VIX <20 → peaceful resolution
+- Term structure inverts without spot move in 5d → peak marker per v3.1
+- HY OAS tightens from 284bps → removes credit component
+- 60d window closes without VIX reaching 22 → pattern failed
+
+**Reinforcement (add):**
+- Another divergence fire before May 13 → back-to-back cluster (tail 38+)
+- SKEW rebounds >155 while VIX <22 → high-severity band holds
+- CCC OAS >10.0 → analog alignment improves
+- VIX3M/VIX <1.05 → tactical entry signal
+
+### Term Structure Inversion Trade (REVISED v3.1)
+
+**Thesis (REVISED):** Term structure inversion (VIX > VIX3M) **marks vol peaks, not onsets** (KB-VIO-034: 553 events, 2.2% hit rate for >50% spike, mean -5% forward). Use for **exit timing**, not entry.
 
 **Setup:**
 - VIX3M/VIX ratio drops below 1.0
-- Credit stress present
-- Macro catalyst pending
+- Interpretation: vol likely peaking — consider taking profits on long vol
 
-**Entry:** VIX futures or calls
-**Target:** Backwardation resolves, VIX mean reverts
-**Stop:** Inversion persists >2 weeks (structural shift)
+**NOT an entry signal.** Flattening contango is NOT an entry for VIX calls.
 
 ---
 
@@ -112,4 +137,17 @@ When to add VIX hedges:
 
 ---
 
+## PENDING TRADES
+
+### VIX Upside — SKEW Divergence Episode #17
+
+**Submitted:** 2026-04-15 to FORGE/INBOX.md
+**Status:** Awaiting Will's review — vehicle, strike, expiry to be specified
+**Thesis:** Long VIX upside with 30-60d horizon. Central case VIX 25-30 (75% within Scenario B). Tail VIX 40+ (10%).
+**Timing window:** Peak most likely mid-to-late May (median day 39-44 from Apr 13 fire)
+**Full proposal:** See FORGE/INBOX.md "VIX Upside — SKEW Divergence Episode #17"
+
+---
+
 *Created: 2026-04-12*
+*Last Updated: 2026-04-16*
