@@ -102,10 +102,17 @@ def update_market_data_table(content, data):
         apo_emoji = '🔴' if apo_val < 110 else '🟡'
     except:
         apo_emoji = '🟡'
-    
+
+    # Format SPX with thousands separator for readability
+    try:
+        spx_val = float(data.get('SPX', 0))
+        spx_str = f"{spx_val:,.0f}"
+    except:
+        spx_str = str(data.get('SPX', '?'))
+
     # Build new table rows
     rows = [
-        "| SPX | ~5,400* | — | Live | 🟡 |",
+        f"| SPX | {spx_str} | — | Live | 🟡 |",
         f"| VIX | **{data.get('VIX', '?')}** | — | Live | 🟡 Compressed |",
         f"| Brent | **${data.get('Brent', '?')}** | — | Live | {brent_emoji} |",
         f"| Gas (AAA) | **${data.get('Gas', '?')}** | — | Live | {gas_emoji} |",

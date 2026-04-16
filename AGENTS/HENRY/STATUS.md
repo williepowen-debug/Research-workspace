@@ -1,6 +1,6 @@
 # HENRY STATUS
 
-**Signal Status:** 🟡 COMPLACENCY TRAP — **VIX 18.60, Brent $98.71, HY OAS 285** | CPI 3.3% YoY locks Fed | **Last Updated:** 2026-04-16 12:43 ET
+**Signal Status:** 🟡 COMPLACENCY TRAP — **VIX 18.60, Brent $98.71, HY OAS 285** | CPI 3.3% YoY locks Fed | **Last Updated:** 2026-04-16 16:23 ET
 
 ---
 
@@ -8,7 +8,7 @@
 
 | Metric | Value | Δ vs Prior | Source | Status |
 |--------|-------|------------|--------|--------|
-| SPX | ~5,400* | — | Live | 🟡 |
+| SPX | 7,038 | — | Live | 🟡 |
 | VIX | **18.6** | — | Live | 🟡 Compressed |
 | Brent | **$98.71** | — | Live | 🟡 |
 | Gas (AAA) | **$4.123** | — | Live | 🔴 |
