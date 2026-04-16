@@ -1,47 +1,54 @@
-# BRENT THESIS — v1.0
+# BRENT THESIS — v1.1
 
-**Version:** 1.0
-**Last Updated:** 2026-04-07
-**Status:** 🔴🔴🔴 Phase 1 DEEPENING — Iran export infra now under direct attack
-**Conviction:** HIGH
+**Version:** 1.1
+**Last Updated:** 2026-04-16
+**Status:** 🟠🟠🟠 Phase 1 RE-INTENSIFIED — ceasefire collapsed, US naval blockade active
+**Conviction:** HIGH (on physical), MODERATE (on paper — talk-2 uncertainty)
 
 ---
 
 ## CORE THESIS
 
-Oil markets are in a two-phase crisis driven by the Hormuz closure and multi-theater supply destruction. The alpha is in the sequencing: Phase 1 (supply squeeze) is deepening with no resolution path, and Phase 2 (demand destruction / OPEC+ unwind) remains months away. Positioning must align with the active phase.
+Oil markets are in a two-phase crisis driven by the Hormuz closure and multi-theater supply destruction. The alpha is in the sequencing: Phase 1 (supply squeeze) is now RE-INTENSIFIED after the Apr 12 Islamabad talks collapse and Apr 13 US naval blockade. Phase 2 (demand destruction / OPEC+ unwind) remains months away but leading indicators (airline cuts global) are firing. Positioning must align with the active phase and the paper-vs-physical dislocation.
 
-**One-liner:** ~9-11M bpd disrupted across multiple theaters, physical Brent at $141, SPR exhausted, no ceasefire — Phase 1 is deepening while Phase 2 demand destruction won't be visible in data until summer 2026 at earliest.
+**One-liner:** ~9-11M bpd disrupted, ceasefire held only 5 days, US blockade of Iran Apr 13, Dated Brent hit ATH >$144 intraweek. Paper market ($94) is front-running a talk-2 peace trade; physical market ($123) isn't buying it. Phase 2 data not visible until May-June earliest; Phase 2 price crash will precede it via announcement.
 
 ---
 
 ## TWO PHASES
 
-### Phase 1: Supply Squeeze (ACTIVE — Day 39)
+### Phase 1: Supply Squeeze (RE-INTENSIFIED — Day ~48)
 
-The physical oil market is in the most severe supply disruption since 1973. Multiple simultaneous supply losses compound in ways that have no modern precedent.
+The physical oil market is in the most severe supply disruption since 1973. Apr 8 ceasefire triggered a 5-day price relief; Apr 12 Islamabad talks collapse and Apr 13 US naval blockade locked supply back off-market.
 
 **Mechanism:**
 - Hormuz closed + mined → ~20M bpd normal transit removed
 - Gulf producers (Iraq, Kuwait, UAE, Qatar) physically shut in or force majeure
 - Bypass routes impaired: Yanbu under attack, ADCOP at 71%, Kirkuk-Ceyhan suspended
 - Net bypass ~3.3M bpd (at risk) vs ~20M bpd normal → ~16.7M bpd gap
-- Russia compounding: Primorsk shut, Ust-Luga struck, Kirishi refinery (only NW Russia) repeatedly hit
-- **NEW Apr 7:** Kharg Island struck (90% of Iran's exports). South Pars struck (crown jewel gas field)
+- Russia compounding: Primorsk shut, Ust-Luga struck, Kirishi refinery repeatedly hit
+- **Apr 7:** Kharg Island struck (90% of Iran's exports). South Pars struck
+- **Apr 12-13:** Islamabad talks collapsed (21hrs, nuclear + Hormuz deadlocked); Trump imposed US naval blockade on Iran ports — interdicts exports AND imports
 - Iran threatens to drop restraint on targeting regional oil infra (Saudi/UAE facilities)
-- SPR 400M bbl release FAILED — policy tools exhausted
+- SPR 409.2M bbl (-4.1M WoW) — no large release despite crisis. Policy tools constrained.
 
-**Evidence it's deepening:**
-- Dated Brent $141.37 (physical) — highest since 2008. ~$31 premium over futures [CONF S&P Global Apr 2]
-- North Sea: all-bid, no-offer. Every major trader bidding at record premiums
-- WTI > Brent inversion persists — US crude more valuable than international
-- Gasoline $4.119/gal — +38% since war began, $4 breakpoint breached [CONF AAA Apr 7]
-- Gulf storage at capacity: Kuwait full shutdown, Qatar force majeure, Fujairah suspended
+**Evidence the squeeze is structural, not positional:**
+- Dated Brent hit **ATH >$144** during Apr 11-14 week [CONF Al Jazeera/S&P]; currently ~$123
+- Physical-futures spread ~$29 (peaked $35) = scarcity not risk
+- Gasoline **$4.108/gal** — >$4 for ~2 weeks [CONF AAA Apr 15]
+- Gulf storage at capacity: Kuwait full shutdown, Qatar force majeure, Fujairah suspended — CONFIRMED (BRT-02, BRT-03)
+- US rigs 545 (-3 WoW), flat despite elevated oil [CONF Baker Hughes Apr 10, SIG-009] — BRT-04 upgraded 95%
 - OPEC+ spare capacity (4.35M bpd true) — 90% trapped behind Hormuz. Paper only
-- Ceasefire rejected. Trump deadline tonight 8PM ET. Both sides escalating
+- Cushing 29.8M bbl, drawing -1.7M/wk → 20M operational min by ~mid-May
+- Pakistan mediating; second round of US-Iran talks under consideration
+
+**Paper vs Physical dislocation (key diagnostic):**
+- Paper (futures) $94: market is pricing a probability-weighted talk-2 peace outcome
+- Physical (Dated Brent) $123, intra-week ATH $144: refiners bidding for real barrels now
+- The gap is the truest read of underlying supply stress
 
 **What breaks Phase 1:**
-- Hormuz reopening (escort or ceasefire) → immediate OPEC+ flood → price crash
+- Blockade lifts + Hormuz reopens (escort or ceasefire) → OPEC+ flood announcement → price crash
 - Brent < $75 = thesis break (squeeze failed)
 
 ### Phase 2: Demand Destruction / OPEC+ Unwind (NOT YET)
@@ -121,19 +128,21 @@ Bear put spreads, NOT outright puts (IV at 100th percentile) [LESSON-15]. 60-90 
 
 ## KEY THRESHOLDS
 
-| Metric | Level | Significance | Status |
-|--------|-------|-------------|--------|
-| Brent | >$100 | HAWK Scenario C confirmation | 🔴 BREACHED ($110) |
-| Brent | >$120 | Demand destruction accelerates, Phase 2 approaches | WATCH |
+| Metric | Level | Significance | Status (Apr 16) |
+|--------|-------|-------------|-----------------|
+| Brent futures | >$100 | HAWK Scenario C confirmation | 🟠 TOUCHED (peaked $110 Apr 7; $94 now post-blockade paper) |
+| Dated Brent | >$140 | Extreme physical scarcity | 🔴 BREACHED (ATH >$144 intraweek) |
+| Brent futures | >$120 | Demand destruction accelerates, Phase 2 approaches | WATCH |
 | Brent | <$75 | Thesis break — squeeze failed | CLEAR |
-| WTI-Brent spread | >$5 | US decoupling from global | 🟠 ~$4 |
-| Cushing | <20M bbl | Operational minimum, WTI dislocation risk | WATCH |
-| Gasoline crack | >$30/bbl | Pump price surge → CARL alert | 🔴 $28.91 approaching |
-| Retail gas | >$4.00/gal | Demand destruction psychological trigger | 🔴 BREACHED ($4.119) |
+| WTI-Brent spread | >$5 | US decoupling from global | WTI -$2 now (normalized) |
+| Cushing | <20M bbl | Operational minimum, WTI dislocation risk | 🟠 WATCH (29.8M, -1.7M/wk → ~mid-May) |
+| Retail gas | >$4.00/gal | Demand destruction psychological trigger | 🔴 BREACHED 2+ weeks ($4.108) |
 | VLCC rate | >WS200 | Tanker super-cycle territory | 🔴 BREACHED (WS400+) |
-| HY energy OAS | >400bps | Energy credit stress emerging | CLEAR (300) |
-| US rig count | +50 from trough | Shale response kicking in (bearish medium-term) | CLEAR (411, flat) |
-| Dated-futures spread | >$20 | Physical scarcity confirmed | 🔴 BREACHED (~$31) |
+| HY energy OAS | >400bps | Energy credit stress emerging | CLEAR (~300, LIQUID owns) |
+| US rig count | >595 (+50 from 545) | Shale response kicking in | CLEAR (545, flat) |
+| Dated-futures spread | >$20 | Physical scarcity confirmed | 🔴 BREACHED (~$29) |
+| EIA gasoline YoY | -5% | Phase 2 demand destruction signal | CLEAR (+0.8% Apr 3; Apr 10 pending) |
+| Brent M1-M3 | <$3 | Phase 2 approaching | CLEAR (~$8-12, narrowing) |
 
 ---
 
@@ -166,12 +175,18 @@ Bear put spreads, NOT outright puts (IV at 100th percentile) [LESSON-15]. 60-90 
 
 ---
 
-## CONFIRMED PREDICTIONS
+## CONFIRMED PREDICTIONS (resolved Apr 16 audit)
 
 | ID | Prediction | Result |
 |----|-----------|--------|
+| BRT-02 | Kuwait full curtailment within 14 days (by Mar 20) | TRUE — ~2.58M bpd curtailed |
+| BRT-03 | UAE curtailment within 25 days (by Mar 31) | TRUE — ~1.6M bpd cut, Fujairah suspended |
+| BRT-04 | US shale does NOT meaningfully respond in Q1 | TRUE (95% conf) — rigs 545 flat (SIG-009) |
+| BRT-05 | Phase 2 does not begin before Q2 | TRUE — 0/3 Path B triggers fired in Q1 |
 | BRT-06 | Tanker rates rise 20%+ from rerouting | TRUE — VLCC WS400+ (2,000%+ above baseline) |
-| BRT-13 | US retail gas reaches $4.00 if Brent >$95 | TRUE — $4.119 confirmed Apr 7 |
+| BRT-13 | US retail gas reaches $4.00 if Brent >$95 | TRUE — $4.108 (AAA Apr 15), sustained 2+ weeks |
+| BRT-14 | 30d of Hormuz closure → $100 near-inevitable | TRUE — Brent hit $110 Apr 7, $100 on blockade Apr 13 |
+| BRT-19 | US munitions constraints force policy shift by early Apr | PARTIAL — ceasefire Apr 8 + blockade Apr 13 both fit arc; causal attribution unverified |
 
 *Full predictions: `workbook/PREDICTIONS.tsv` (25 predictions, BRT-01 through BRT-25)*
 

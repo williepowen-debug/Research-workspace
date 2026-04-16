@@ -1,51 +1,47 @@
 # BRENT STATUS
 
-**Last Updated:** 2026-04-10 09:45 EDT  
-**Overall Status:** 🟡🟡🟡 YELLOW — **BRENT FUTURES ~$96** / **DATED BRENT $124.68** / **CEASEFIRE IN EFFECT BUT FRAGILE** / **HORMUZ PARTIAL REOPENING (12 ships since ceasefire)** / **PHYSICAL-FUTURES SPREAD $29 = SUPPLY TIGHTNESS PERSISTS**
+**Last Updated:** 2026-04-16 13:15 EDT  
+**Overall Status:** 🟠🟠🟠 ORANGE — **BRENT FUTURES ~$94** / **DATED BRENT $123 (hit ATH >$144 intra-week)** / **CEASEFIRE COLLAPSED APR 12** / **US NAVAL BLOCKADE OF IRANIAN PORTS IN EFFECT (APR 13)** / **SECOND-ROUND TALKS UNDER CONSIDERATION**
 
 ---
 
-## ⚡ APR 10 CRITICAL UPDATE — CEASEFIRE HOLDING BUT TENUOUS
+## ⚡ APR 11-16 CRITICAL UPDATE — CEASEFIRE BROKE, BLOCKADE ON, TALKS MAY RESUME
+
+### Timeline
+| Date | Event |
+|------|-------|
+| Apr 8 | Two-week US-Iran ceasefire began (brokered via Pakistan/Egypt/Turkey) |
+| Apr 11-12 | **Islamabad talks (21hrs) FAILED** — Iran refused affirmative no-nuke commitment; Hormuz + nuclear were sticking points |
+| Apr 13 | **Trump imposed naval blockade on Iran** — interdicting all ships entering/leaving Iranian ports |
+| Apr 14 | Oil tumbled **<$92** as WH considered further talks; IMF GFSR published (see signal integration) |
+| Apr 14 | Dated Brent hit **ATH >$144** earlier in week (~$35 spread vs futures) |
+| Apr 16 | Brent futures **steadied ~$94**; second round US-Iran talks being discussed |
+
+**Ceasefire held only ~5 days.** Pakistan FM Dar still urging both sides to uphold. Trump: conflict "very close to over."
 
 ### Price Action Summary
-| Metric | Apr 7 (Pre-Ceasefire) | Apr 8 (Post-Ceasefire) | Apr 10 (Current) |
-|--------|----------------------|------------------------|------------------|
-| Brent Futures | $110.05 | $95.92 | ~$95.95 |
-| Dated Brent (Physical) | $141.37 | $124.68 | ~$124.68 |
-| Physical-Futures Spread | ~$31 | ~$29 | ~$29 |
-| Change | — | -14% futures, -12% physical | Flat/stabilizing |
+| Metric | Apr 7 (Pre-CF) | Apr 8 (Post-CF) | Apr 13 (Post-Blockade) | Apr 16 (Current) |
+|--------|---------------|-----------------|-----------------------|------------------|
+| Brent Futures | $110.05 | $95.92 | ~$100 | **~$94** |
+| Dated Brent (Physical) | $141.37 | $124.68 | $123.28 | ~$123 [EST] |
+| Spread | ~$31 | ~$29 | ~$23 | ~$29 [EST] |
 
-**Key takeaway:** Ceasefire triggered expected price drop but physical market remains extremely tight. $29/bbl spread indicates supply disruption far from resolved.
+**Key takeaway:** Paper market is pricing in a second-round peace trade ($94 = ~$16 below Apr 7 high). Physical market is NOT buying it — Dated Brent still $123, spread still $29, hit ATH >$144 midweek. Scarcity confirmed; paper-physical dislocation persists.
 
 ---
 
-## ⚡ APR 8-10 DEVELOPMENTS — CEASEFIRE IMPLEMENTED
+## 📨 SIGNAL INTEGRATION (APR 14 INBOX, PROCESSED APR 16)
 
-### US-Iran Ceasefire Agreement (Apr 8)
-- **Two-week ceasefire** announced between US and Iran, brokered via Pakistan/Egypt/Turkey
-- Trump had set Apr 7 8PM ET deadline; deal came hours before
-- **JD Vance leading US delegation** to Islamabad for talks this weekend (Apr 11-12)
-- Vance warned Iran: "If they're gonna try and play us, they're gonna find the negotiating team is not that receptive"
-- Iranian delegation led by Foreign Minister Abbas Araghchi and Parliament Speaker Ghalibaf
+### SIG-009 — Baker Hughes Flat Despite Elevated Oil (Tracy Alloway, Bloomberg) → **ACTION**
+- **Claim:** Month+ of elevated oil, rig count NOT responding. Apr 10 total rigs = **545** (-3 WoW from 548).
+- **Thesis impact:** DIRECT confirmation of **VX-BRT-05** and **Prediction BRT-04** (shale non-response in Q1). Supply-side flex absent on cycle-expected 90-day timeline.
+- **Action:** Upgrade BRT-04 confidence 93% → 95%. Reinforces Phase 1 duration floor. Counter to RED's "squeeze self-heals" scenario. Integrates with HAWK (Scenario D persistence) and SAM (yen carry stressed longer).
 
-### Hormuz Status: PARTIAL REOPENING
-- **First 24 hours:** Only 1 oil products tanker + 5 dry bulk carriers passed (extremely low)
-- **Apr 9:** 4 tankers + 3 bulk carriers crossed (per Kpler data)
-- **Total since ceasefire:** ~12 ships vs normal ~50-60/day
-- **Iranian media claims:** Hormuz traffic "paused" over Israeli attacks in Lebanon
-- Shipping still ~80% below normal volumes
-
-### Lebanon Escalation — Ceasefire DOES NOT COVER
-- **Netanyahu:** "Ceasefire does not include Lebanon"
-- **IDF Chief of Staff Zamir:** "IDF is in a state of war, we are not in a ceasefire"
-- Apr 9: Intense Israeli airstrikes in Lebanon killed 300+ (deadliest day since Mar 2)
-- **Iran's response:** Paused Hormuz traffic over Lebanon strikes — using chokepoint as leverage
-- Hezbollah launched rockets at Israel
-
-### Diplomatic Tensions
-- **Spain excluded** from Gaza coordination center by Israel due to "anti-Israeli bias"
-- Spanish PM Sánchez: "Will not applaud those who set the world on fire just because they show up with a bucket"
-- Netanyahu accused Spain of "hostility" and "diplomatic war"
+### SIG-004 — IMF GFSR April 2026 Liquidity Warning → **INFO (LIQUID primary)**
+- **Claim:** IMF GFSR calls for liquidity/funding facilities to address potential dysfunction. Hard data: **global equities -8% since Feb, sovereign yields rose sharply**.
+- **Nuance WALTER flagged:** Tweet compressed to ME-only; IMF names multiple co-equal drivers (NBFIs, private credit, AI borrowers, EM flows, tokenization, FX). ME is one of several.
+- **Thesis impact for BRENT:** Validates macro backdrop consistent with BRT-16 (sequential macro damage chain). **NO position-changing insight**; LIQUID owns credit-chain response.
+- **Action:** None. Logged for context.
 
 ---
 
@@ -53,12 +49,19 @@
 
 | Metric | Value | Updated |
 |--------|-------|---------|
-| Brent futures | **$95.95** (stable post-ceasefire) | **Apr 10** |
-| Dated Brent (physical) | **$124.68** — ~$29 premium over futures | **Apr 8** [CONF] S&P Global |
-| WTI | **~$96** | **Apr 10** |
-| WTI-Brent | **Near parity** — unusual structure | **Apr 10** |
-| Physical-futures spread | **~$29/bbl** = confirmed scarcity | **Apr 8** |
-| Retail gas US avg | **~$4.00/gal** (est.) | — |
+| Brent futures | **~$94** (steadied above after <$92 on Apr 14) | **Apr 16** [CONF] TradingEconomics |
+| Dated Brent (physical) | **~$123** — hit ATH **>$144** earlier in week | **Apr 13** [CONF] Al Jazeera/S&P |
+| WTI | **~$92** (tumbled Apr 14 on talk prospects) | **Apr 14** [CONF] CNBC |
+| WTI-Brent | **~-$2** (WTI slight discount) | **Apr 16** [EST] |
+| Physical-futures spread | **~$29/bbl** (ATH was ~$35) = scarcity persists | **Apr 13** [EST] |
+| Brent M1-M3 spread | ~$8–12 (↓ from $18+; narrowing on ceasefire, watch for re-widening) | **Apr 13** [EST] TRACKER |
+| Retail gas US avg | **$4.108/gal** — flat WoW (+$0.03). >$4 for ~2wks | **Apr 15** [CONF] AAA |
+| EIA gasoline demand YoY | **+0.8%** (Apr 3); Apr 10 pending (est -1 to -4% — stocks built +0.6M while util rose to 92.9%) | **Apr 15** [CONF/EST] EIA |
+| Cushing inventory | **29.8M bbl** (Apr 10, -1.7M WoW — largest draw since Jan '25). Trajectory: 20M by ~mid-May | **Apr 10** [CONF] EIA |
+| SPR | **409.2M bbl** (-4.1M WoW) | **Apr 10** [CONF] EIA |
+| CFTC net long (NYMEX) | **73,347** (Mar 31); non-commercial proxy 233.6K→213.5K (**-20.1K**, declining) | **Mar 31 / Apr 10** [CONF] |
+| US rigs (Baker Hughes) | **545** (-3 WoW, flat vs elevated oil) | **Apr 10** [CONF] SIG-009 |
+| DXY | **99.03** (volatile — spiked >100 mid-wk, declining) | **Apr 13** [CONF] |
 
 ---
 
@@ -96,37 +99,33 @@
 
 ---
 
-## CONVERGENCE MATRIX (UPDATED)
+## CONVERGENCE MATRIX (UPDATED APR 16)
 
 | Vector | Score | State |
 |--------|-------|-------|
-| Hormuz/chokepoint | 🟡🟡 3 | Partial reopening (~20% normal flow) |
-| Gulf production | 🔴🔴 5 | ~9-11M bpd offline. Kharg struck |
-| Brent price | 🟡🟡 3 | Futures $96 (down from $110), physical $125 |
-| US production response | 🟡 2 | No significant response |
-| Demand destruction | 🟡 3 | Gas elevated but off peaks |
-| Storage (global) | 🔴 4 | Gulf filling/full |
-| Tanker/shipping | 🟡 3 | VLCC rates off peak but elevated |
-| Energy credit | 🟡 2 | HY Energy OAS stable |
-| OPEC+ policy | 🟡 3 | No change |
-| Ceasefire stability | 🟡🟡 4 | Holding but fragile; Lebanon excluded |
-| **TOTAL** | **32/50** | Phase 1 easing but not over |
+| Hormuz/chokepoint | 🔴🔴 5 | US naval blockade on Iran ports (Apr 13) |
+| Gulf production | 🔴🔴 5 | ~9-11M bpd offline; blockade re-freezes Iran exports |
+| Brent price | 🟠 3 | Futures $94 (pricing talk-2 peace), physical $123 (not buying it) |
+| US production response | 🔴 1 | Rig count 545 (-3 WoW) — non-response CONFIRMED (SIG-009) |
+| Demand destruction | 🟡 3 | Still not in EIA data; aviation cuts firing |
+| Storage (global) | 🔴 4 | Gulf still filling/full; blockade prevents Iran drawdown |
+| Tanker/shipping | 🟠 3 | Blockade re-elevates risk premium |
+| Energy credit | 🟡 2 | HY Energy OAS stable (LIQUID owns) |
+| OPEC+ policy | 🟡 3 | No change — next meeting Jun 7 |
+| Ceasefire stability | 🔴🔴 5 | COLLAPSED Apr 12; blockade active; talk-2 being considered |
+| **TOTAL** | **34/50** | Phase 1 RE-INTENSIFIED post-blockade; physical still tight |
 
 ---
 
-## INBOX SIGNALS (PROCESSED APR 6 — PRE-CEASEFIRE)
+## INBOX SIGNALS — PROCESSED LOG
 
-### Signal 1: Bond Vol Collapse (Apr 6)
-- **Source:** The Market Ear
-- **Claim:** Oil-rates correlation cracking — MOVE rolling over despite $109 Brent
-- **Question:** Is oil-rates decoupling real or temporary?
-- **Status:** Pre-dated ceasefire; bond vol likely reversed on ceasefire news
+### Apr 14 batch (processed Apr 16)
+- **SIG-W-20260414-009** (Baker Hughes) — ACTION for BRENT. Integrated above. BRT-04 upgraded 93→95%.
+- **SIG-W-20260414-004** (IMF GFSR) — INFO. LIQUID primary. Validates BRT-16 macro chain, no position action.
 
-### Signal 2: WTI Premiums Record High (Apr 6)
-- **Source:** Oilprice.com, Reuters
-- **Data:** WTI premiums $30-40/bbl above benchmarks (vs Dubai $34, vs Dated Brent $30)
-- **Implication:** $80-85 WTI floor confirmed; structural supply damage
-- **Status:** Premiums likely compressing post-ceasefire but physical tightness persists
+### Apr 6 batch (pre-ceasefire, now stale)
+- Bond vol collapse (The Market Ear): oil-rates decoupling. Superseded by Apr 12-14 volatility — MOVE likely re-elevated on blockade.
+- WTI premiums $30-40/bbl above benchmarks. Blockade re-widens; physical tightness confirmed by Dated Brent ATH.
 
 ---
 
@@ -177,15 +176,22 @@
 
 ## SUMMARY FOR WILL
 
-**The ceasefire is holding but fragile.** Brent futures dropped 14% ($110→$96) but physical market remains extremely tight with Dated Brent at $125 — a $29 spread that screams supply scarcity. Hormuz is only seeing ~20% normal traffic. Lebanon escalation is the immediate risk; Iran is using Hormuz as leverage to pressure Israel on Lebanon strikes.
+**The ceasefire collapsed Apr 12 after 21-hour Islamabad talks failed** (Hormuz + nuclear were sticking points). Trump imposed a **US naval blockade on Iranian ports Apr 13**. Dated Brent hit an **ATH >$144** midweek. Futures spiked near $100, then tumbled <$92 Apr 14 when the WH signaled openness to a second round of talks, and have steadied ~$94 today.
+
+**The paper market is front-running a peace trade. The physical market is not.** Dated Brent ~$123, spread ~$29 (ATH was $35). Physical still screams scarcity; the blockade guarantees Iran exports stay offline even if the ceasefire resumed.
 
 **Key numbers:**
-- Futures: $96 (stable)
-- Physical: $125 (tight)
-- Spread: $29 (scarcity signal)
-- Hormuz flow: ~20% normal
-- Timeline to normalcy: 3-5 months minimum
+- Futures: **~$94** (pricing talk-2 peace)
+- Physical: **~$123** (not buying it; ATH $144 this week)
+- Spread: **$29** (scarcity persists)
+- US rigs: **545** (-3 WoW) — shale non-response CONFIRMED (SIG-009)
+- Ceasefire: **BROKEN Apr 12**, talk-2 under consideration
 
-**Position implication:** Phase 1 supply squeeze is easing but not over. Physical market structure argues for holding exposure. Watch Islamabad talks this weekend and Lebanon developments. If ceasefire collapses, immediate re-entry opportunity. If it holds, gradual exit over weeks as physical tightness resolves.
+**Position implication:** Phase 1 re-intensified post-blockade. Paper-physical dislocation = best indicator that the $94 futures print is not a true peace. If talk-2 announces → Path B gradual exit; if escalates → Path A immediate add. The binary is still live and imminent.
+
+**Predictions affected:**
+- **BRT-04** (shale non-response Q1) — upgrade 93→95%, near-ready to resolve CONFIRMED at end of Q1 print
+- **BRT-01** ($100 Brent before Hormuz reopens) — intra-week touched ~$100 on blockade; Hormuz has NOT reopened, still open prediction
+- **BRT-14** (30d of closure → $100 near-inevitable) — de facto confirmed; blockade locks it in
 
 *Previous updates archived to `workbook/STATUS_archive_20260407.md`*
