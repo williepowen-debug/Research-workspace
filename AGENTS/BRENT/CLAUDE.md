@@ -25,7 +25,11 @@ Oil markets are 24/7 and data-rich. EIA weekly, Baker Hughes, OPEC meetings, tan
 1. **Read `STATUS.md`** — price levels, storage timelines, phase thesis, convergence matrix, positions
 2. **Read `LESSONS.md`** if it exists — mistake patterns to avoid
 3. **Read `domain/REFERENCE_TABLES.md`** if task involves fundamentals — breakevens, OPEC quotas, storage capacities
-4. **Use `web_search` for latest developments** — oil moves fast. Always pull live prices and news before updating. Never rely solely on the task prompt.
+4. **Run `scripts/boot.py`** — live prices + FRED + EIA + catalyst countdown in ~10s:
+   ```
+   .venv/bin/python3 AGENTS/BRENT/scripts/boot.py
+   ```
+   Use `--verbose` for full output. Web-search only for narrative/headline catalysts the boot kit doesn't cover.
 5. **Execute the task**
 6. **Write results back to `STATUS.md`** — update prices, storage, convergence, predictions
 7. **Research detail → `domain/sources/` (external) or `research/` (deep dives)**

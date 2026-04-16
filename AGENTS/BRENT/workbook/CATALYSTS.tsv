@@ -1,0 +1,11 @@
+date	event	what_to_check	threshold_signal	priority	who_cares	notes
+2026-04-22	EIA Weekly Petroleum	Gasoline stocks + demand YoY + Cushing + util	Gas YoY ≤−5% = Path B Trigger #2 / Cushing <20M = dislocation	🔴	BRENT,CARL	First EIA under blockade regime — real signal window Apr 22-May 6
+2026-04-25	Baker Hughes Rig Count	Total rigs WoW	>595 = shale response kicking in (bearish medium)	🟠	BRENT	SIG-009 confirmed 545 Apr 10 — watch for inflection
+2026-04-25	CFTC COT Report	NYMEX managed money net longs	Decline 2nd consecutive week while price flat = Path B #3	🟠	BRENT	Non-commercial proxy declined Mar 24-31
+2026-04-28	Cheniere Q1 Earnings	EPS vs $3.15 consensus + spot cargo mix	Beat $5+ = LNG thesis validated (BRT-10)	🟠	BRENT,SAM	Our model $4.87-5.60; spot LNG >$10 premium = $288-300M incremental EBITDA
+2026-04-29	EIA Weekly Petroleum	Same as Apr 22	Week 2 of signal window	🔴	BRENT,CARL	If gas YoY negative 2nd week = Phase 2 accelerating
+2026-05-01	BOJ Policy Meeting	Rate decision + YCC stance	Hike → yen strength → carry unwind → brief oil selloff	🟠	SAM,BRENT	Cross-agent — SAM base case hike date
+2026-05-06	EIA Weekly Petroleum	Same as Apr 22	Week 3 — if YoY neg 3rd week, Trigger #2 fires	🔴	BRENT,CARL	End of signal window — decisive
+2026-05-13	EIA Weekly Petroleum	Cushing trajectory + demand YoY	If Cushing <25M, operational minimum in weeks	🟠	BRENT
+2026-06-07	OPEC+ Regular Meeting	3.24 mbpd deferred unwind decision	If Hormuz open = flood (Phase 2); if closed = symbolic	🔴	BRENT,ALL	BRT-11 trigger — binary on Hormuz status
+2026-07-29	FOMC Meeting	Rate decision + oil shock framing	If Fed holds into oil shock = staglation setup	🟠	HENRY,BRENT	BRT-25 housing/mortgage transmission
