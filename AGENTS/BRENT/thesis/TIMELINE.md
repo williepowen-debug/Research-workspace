@@ -1,51 +1,50 @@
 # BRENT TIMELINE
 
-**Last Updated:** 2026-04-07
+**Last Updated:** 2026-04-16
 **View:** Base case progression with branch points marked
 
 This document maps forward-looking expectations — what's coming, what we think happens, and where the path could diverge. Updated as events resolve or views change.
 
 ---
 
-## THIS WEEK (Apr 7 – Apr 11)
+## WHAT RESOLVED APR 7-16
 
-### Mon Apr 7 — TRUMP HORMUZ DEADLINE 8PM ET (PENDING — THE BINARY EVENT)
-- **Event:** Trump's final deadline for Iran to reopen Hormuz. "A whole civilization will die tonight."
-- **Context:** Kharg Island struck overnight (90% Iran exports). South Pars struck Apr 6. Ceasefire rejected. Iran threatens regional oil infra retaliation. Bridges/airports struck across Iran. Infrastructure campaign already underway.
-- **Branch point:**
-  - Massive infrastructure strikes (power, bridges): Oil $115-120+ gap. Iran retaliates on Saudi/UAE oil → bypass routes destroyed → Brent $130+
-  - Targeted military-only strikes: Oil holds $110-115. Contained escalation. Status quo.
-  - Deal framework / extension: Oil drops $10-15. Phase 2 exit protocol activates (PATH A).
-  - Deadline passes with ambiguity: Oil drifts. Uncertainty premium holds. Wait for clarity.
-- **Why it matters:** Determines whether Phase 1 has a ceiling or not. Iran retaliating against Saudi/UAE would be a qualitative escalation beyond anything currently priced.
-
-### Wed Apr 9 — EIA WEEKLY PETROLEUM STATUS
-- **Event:** Weekly crude/gasoline/distillate inventories + production + refinery utilization.
-- **Our view:** First report reflecting Kharg strikes + continued Hormuz closure. Watch for:
-  - US crude stocks drawdown (imports declining as global supply tightens?)
-  - Gasoline demand (still showing strength or first signs of conservation?)
-  - Refinery utilization (Valero Port Arthur 380K bpd offline — will show in data)
-  - SPR drawdown rate
-- **Phase 2 signal:** Gasoline demand needs to show -5% YoY for 3 consecutive weeks to trigger. Unlikely this early — secondary stockpiling still inflating apparent demand [LESSON-9].
-
-### Fri Apr 11 — BAKER HUGHES RIG COUNT
-- **Event:** Weekly US oil/gas rig count.
-- **Our view:** Shale non-response confirmed (411 rigs, flat, no capex announcements). Expect continued flat/decline. A jump of +50 to 461 would be first sign of supply response [threshold]. Not expected.
+| Date | Event | Outcome |
+|------|-------|---------|
+| Apr 7 8PM | Trump Hormuz deadline | Deal materialized Apr 8 — two-week ceasefire, brokered via Pakistan/Egypt/Turkey |
+| Apr 8-12 | Ceasefire (held) | Futures -14% ($110→$96). Dated Brent -12% ($141→$125). Partial Hormuz reopening ~20% flow |
+| Apr 9 | EIA weekly | Crude draws -19M (424.4M); Cushing -1.7M to 29.8M; SPR -4.1M to 409.2M |
+| Apr 10 | Baker Hughes | 545 total rigs (-3 WoW) — flat, confirming shale non-response (SIG-009 Apr 14) |
+| Apr 11-12 | Islamabad talks | **FAILED after 21 hours**. Sticking points: nuclear + Hormuz. Iran refused no-nuke commitment |
+| Apr 13 | **US naval blockade of Iran ports** | Trump interdicts all Iranian port traffic. Futures spike ~$100, Dated Brent ATH >$144 intraweek |
+| Apr 14 | IMF GFSR release | Liquidity/funding facility warning. Equities -8% since Feb. Multi-driver incl. ME |
+| Apr 14 | Oil tumble | Futures <$92 as WH signals openness to second round of talks |
+| Apr 15 | EIA weekly | Gasoline stocks built +0.6M, util rose to 92.9%; Retail gas $4.108/gal |
+| Apr 16 | Current state | Brent ~$94. Second round talks under consideration. Blockade in force. |
 
 ---
 
-## WEEK 2 (Apr 14 – Apr 18)
+## THIS WEEK (Apr 16 – Apr 22)
 
-### Tue Apr 15 — FEB TIC DATA
-- **Event:** US Treasury International Capital data for February. Cross-agent event with SAM.
-- **Our view:** Relevant to BRENT via the Japan energy cost → repatriation → UST selling chain. If Japan is dumping USTs to fund oil imports, it validates SAM's Channel 1 AND confirms BRENT's oil-in-yen structural dynamic.
-- **Signal to SAM:** Forward TIC results immediately.
+### Apr 16-20 — SECOND ROUND TALKS WATCH
+- **Event:** US and Iran signaling willingness for a second round of talks. Pakistan still mediating. Timing/venue uncertain.
+- **Branch point:**
+  - Talks announced + blockade suspended: Futures -$10-15 in hours. Dated Brent would lag (physical barrels still blocked). PATH A exit activates.
+  - Talks delayed or re-collapse: Futures retrace to $100-110. Dated Brent tests new ATH. Phase 1 extends.
+  - Blockade expands / Iran asymmetric retaliation: Futures $115-125. Qualitative escalation.
+- **Why it matters:** Current futures at $94 implies market is pricing ~40-50% probability of successful talk-2 peace. Physical market is calling the bluff.
 
-### Wed Apr 16 — EIA WEEKLY
-- **Our view:** Second post-Kharg report. Refinery utilization critical — are US refiners ramping into the crack spread opportunity or constrained by feedstock?
+### Wed Apr 22 — EIA WEEKLY
+- **Our view:** First EIA print under the blockade regime. Watch:
+  - Gasoline demand YoY — Apr 10 was pending; true crisis-wk 6 signal window is Apr 22-May 6
+  - Cushing trajectory: if -1.7M/wk continues, 20M operational minimum hits mid-May
+  - Refinery utilization: if rising past 93%, domestic crack-spread squeeze incoming
+- **Phase 2 signal:** Gasoline -5% YoY for 3 weeks still the trigger. Not expected yet but could appear as hoarding window closes.
 
-### OPEC+ WATCH
-- **Our view:** No scheduled meeting until June 7, but emergency meeting protocol is 72 hours from trigger. If Hormuz reopens, OPEC+ convenes immediately. If not, no action expected — spare capacity is trapped.
+### Apr 25 — PATH A / PATH B CHECKPOINT
+- Cushing approaching 20M threshold: WTI dislocation risk
+- Airline capacity cuts scoreboard: UAL/DAL/AAL expand? Delta/United warn on earnings?
+- CFTC COT: If net longs decline 2nd week + gasoline YoY neg → Phase 2 signal accelerating
 
 ---
 
@@ -122,13 +121,15 @@ This document maps forward-looking expectations — what's coming, what we think
 
 | Date | Event | Bull Fork (Phase 1 extends) | Bear Fork (Phase 2 approaches) | Status |
 |------|-------|----------------------------|-------------------------------|--------|
-| **Apr 7 8PM** | Trump deadline | Strikes → oil $120+ | Deal → oil drops $10-15 | **PENDING — tonight** |
-| **Apr 9** | EIA weekly | Draws continue, demand holds | Surprise gasoline demand drop | PENDING |
-| **Apr 15** | TIC data | Japan selling USTs for oil imports | Mixed — slower repatriation | PENDING |
-| **Late Apr** | Cheniere Q1 | Beat confirms LNG thesis | Miss undermines energy long | PENDING |
-| **May** | War Day 60+ | No resolution → Phase 1 indefinite | Ceasefire → PATH A fires | PENDING |
-| **Jun 7** | OPEC+ meeting | Hormuz closed → academic | Hormuz open → flood | PENDING |
-| **Jun-Jul** | Week 20-24 check | No demand destruction → extend | All 3 signals fire → Phase 2 | PENDING |
+| Apr 7 8PM | Trump deadline | — | — | **RESOLVED — ceasefire** |
+| Apr 8-12 | Ceasefire window | — | — | **RESOLVED — collapsed Apr 12** |
+| **Apr 13+** | **US blockade active** | Blockade expands / Iran retaliates → $115-125 | Second-round talks + blockade suspension → -$10-15 | **PENDING — binary** |
+| Apr 22-May 6 | EIA crisis-wk 6 | Gasoline stays +YoY | First negative YoY print | PENDING |
+| Late Apr | Cheniere Q1 | Beat confirms LNG thesis | Miss undermines energy long | PENDING |
+| May | War Day 60+ | No resolution → Phase 1 indefinite | Deal → PATH A fires | PENDING |
+| Mid-May | Cushing 20M threshold | Breached → WTI dislocation | Trajectory improves | PENDING |
+| Jun 7 | OPEC+ meeting | Hormuz closed → academic | Hormuz open → flood | PENDING |
+| Jun-Jul | Week 20-24 check | No demand destruction → extend | All 3 Path B signals fire → Phase 2 | PENDING |
 
 ---
 
