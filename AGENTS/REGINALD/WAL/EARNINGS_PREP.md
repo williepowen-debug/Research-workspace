@@ -1,5 +1,5 @@
 # WAL — Q1 2026 Earnings Prep
-**Date:** ~April 21, 2026 | **Current price basis:** ~$67-68 (Mar 27) | **Positions:** $85P Jun18 / $77.5P Sep18 / $70P Sep18 / $65P Jun18 | **Consensus:** Mod Buy (11B/4H), PT $97.73
+**Date:** April 21, 2026 (5 days out) | **Current price (Apr 16):** $78.23 (-0.36%, back above $78 threshold) | **Positions:** $85P Jun18 / $77.5P Sep18 / $70P Sep18 / $65P Jun18 | **Consensus:** Mod Buy (11B/4H), PT $97.73 | **Reports same day as OZK**
 
 ---
 
@@ -13,12 +13,132 @@
 - [ ] Vecchione status — **WILL_NEEDS:** No confirmation of return from medical leave in KB or STATUS. KB-WAL-024 baseline = leave began Dec 2024. Check WAL 8-K / press release / LinkedIn. Governance read changes if returned. (KB-WAL-024)
 - [ ] MI3 industry peer comparison — **WILL_NEEDS:** External Prompt #2 not yet run. No peer MI3 ratios in KB (ZION, FHB, BOKF absent). Need to confirm WAL is uniquely rising vs peers. High priority before Apr 21.
 - [ ] Pull Q1 press release MI3/C&I data BEFORE the call starts — **BLOCKED: Q1 data not yet public.** Earnings ~Apr 21. Pull WAL press release and Call Report RC-C the morning of Apr 21 before 8:30am ET.
-- [x] **[NEW]** Track $400B CRE maturity wall execution — KB-WAL-067 confirmed: $400B wall concentrated in 2026. **OZK Apr 16 = first AZ/NV read-through** (5 days before WAL). If OZK discloses material CRE provisions Apr 16, re-evaluate V1 baseline before Apr 21. (KB-WAL-067)
-- [x] **[NEW]** Analyst consensus PT refresh — **UPDATED Mar 31 via web search.** Full consensus: 15 analysts, 11 Buy / 4 Hold / 0 Sell. Avg PT $97.73 (range $79-$107). UBS $106, Citi $107 still Buy. Only 4 downgrades (Weiss, Barclays, WFC, TD Cowen). Gap to thesis ($47-60) is 40-52%. ⚠️ Watch for additional cuts post-OZK Apr 16.
+- [x] **[NEW]** Track $400B CRE maturity wall execution — KB-WAL-067 confirmed: $400B wall concentrated in 2026. **UPDATE Apr 16:** OZK moved earnings to Apr 21 same-day as WAL — OZK no longer a pre-WAL read-through. **ZION Apr 20 is the only pre-WAL sector indicator.** Also now have 5 prior Q1 reporters (MTB/CFG/PNC/FITB/RF) feeding cohort pattern (see COHORT READ-THROUGHS section below). (KB-WAL-067)
+- [x] **[NEW]** Analyst consensus PT refresh — **UPDATED Mar 31 via web search.** Full consensus: 15 analysts, 11 Buy / 4 Hold / 0 Sell. Avg PT $97.73 (range $79-$107). UBS $106, Citi $107 still Buy. Only 4 downgrades (Weiss, Barclays, WFC, TD Cowen). Gap to thesis ($47-60) is 40-52%. ⚠️ Re-refresh Apr 19-20 for any cuts driven by the Apr 15-17 Q1 wave (MTB/CFG/PNC/FITB/RF) or ZION Apr 20.
 - [x] **[NEW]** Nevada housing/mortgage stress data — **Data in KB.** Google Trends "help with mortgage" ATH (surpassing GFC) + Lennar Q1 gross margin 15.2% (lowest since Q1 2010) confirmed in KB-WAL-070. NV exposure 18-22% of $58.7B portfolio in KB-WAL-041. Path C (housing→banks) activating. (KB-WAL-070, KB-WAL-041)
 - [x] **[NEW]** Warehouse line / NDFI exposure confirmation — **Data in KB.** KB-WAL-069: BROCK confirms total bank NDFI = $1.54T (FFIEC Q4). WAL $10.8B OBS SSFA (KB-WAL-009) assessed as likely warehouse lending to NDFIs. V3 amplified. ⚠️ Composition never confirmed by management — Q4 Q&A item (see Q4 above). (KB-WAL-069, KB-WAL-009)
 - [ ] **[NEW Apr 14]** Counterparty detail on the $9.2B est. mortgage warehouse book — NEW LISTEN-FOR. Apr 14 research (domain/WAREHOUSE_EXPOSURE.md) confirmed WAL is NOT a counterparty to any of PFSI/LDI/COOP (the largest public non-bank mortgage servicers). So whoever WAL warehouses, it's NOT the FHA-stressed names. Listen in Q&A for any analyst pressing on: "Who are your loans-to-mortgage-companies / warehouse borrowers? FHA exposure? Counterparty concentration?" Any management response is new signal. If no analyst asks — flag for follow-up note.
 - [ ] **[NEW Apr 14]** Apollo Atlas SP back-door exposure check — NEW LISTEN-FOR. WAL could participate in syndicated Atlas SP-led facilities without being a direct counterparty. Listen for any "securitization participation," "syndicated warehouse," or "Atlas" reference in prepared remarks or 10-Q.
+
+---
+
+## COHORT READ-THROUGHS — WHAT THE APR 15-17 Q1 WAVE TEACHES FOR WAL
+
+*Added Apr 16 after 3 prior reporters (MTB, CFG, PNC) + 2 pre-earnings baselines (FITB, RF). Each sub-section = data → WAL tripwire.*
+
+### 1. FHLB Acceleration — Universal Sector Signal
+
+| Bank | FHLB Q1 move | Read |
+|---|---|---|
+| MTB | **+265% avg**, $7.85B | Contingency borrowing |
+| CFG | **60x YoY**, $2.5B | Prior 10-K "declining" flipped 🔴 |
+| PNC | **+64.7% QoQ period-end**, +$8.4B | Largest $ amount of cohort |
+| FITB (pre) | Q4 -48% QoQ avg | Outlier going in |
+| RF (pre) | Q4 -30% YoY | Outlier going in |
+
+**3 of 3 reporters surged** — sector-structural, not idiosyncratic. Open question for FITB/RF tomorrow: Q4 avg was declining for ALL five reporters — the Q1 spike was a period-end event. Universal or selective?
+
+**WAL pre-read-throughs:**
+- Pull WAL Q4 2025 FHLB advances baseline + period-end short-term borrowings
+- KB-WAL-049: $11.9B uninsured deposits vs ~$10B unpledged assets — WAL is structurally *more* exposed than the cohort if it needs contingent liquidity
+
+**WAL tripwire:**
+- 🔴 **Bear-confirming:** Q1 FHLB advances >50% QoQ or >2x YoY (joins sector surge)
+- 🟢 **Challenge:** Q1 FHLB declining AND deposit cost falling AND uninsured deposits stable (WAL genuinely an outlier)
+
+### 2. Reclassification-As-Disclosure — Universal Pattern
+
+**Cohort evidence:**
+- **CFG:** $2.9B "Secured private credit finance" carved out of "Other F&I" at FY2025 10-K. Exact reconciliation: $6,446M − $3,538M = $2,908M in Table 16. Originating bucket shrinks by carve-out amount. (Apr 16 primary-source confirmation.)
+- **PNC:** Split previously aggregated lines into separate Retail/wholesale in FY2025 10-K.
+- **FITB:** Table 29 identical YoY — **clean counter-example**, zero reclassification. Correlates with overall FITB transparency posture.
+
+**The thesis IS this pattern for WAL** (V1 Hidden CRE via Memo Item 3). Cohort now proves the mechanism is sector-wide. WAL is not an outlier; WAL is the leading edge.
+
+**WAL pre-call pull (FY2025 10-K already filed — can do tonight):**
+- Any new Table 14 / Table of industry concentration line items that didn't exist in FY2024?
+- Line items growing disproportionately (>50% YoY) on a single-year basis?
+- Flag any: "fund finance," "private credit," "capital call," "ABS finance," "warehouse finance," "NDFI," "specialty finance"
+
+**WAL tripwire:**
+- 🔴 **Bear-confirming:** Any new Table line item in FY2025 10-K that didn't exist FY2024 = CFG/PNC pattern directly replicating
+- 🔴 **Max bear:** Q1 2026 10-Q (May) introduces further carve-out → reclassification cadence matching CFG
+
+### 3. Reserve Posture — CFG-Only Tell vs Cohort Building
+
+| Bank | Provision QoQ | ACL direction | Read |
+|---|---|---|---|
+| MTB | Build | Stable | Neutral |
+| CFG | **Release** | 1.53 → 1.52% | **Release INTO rising CRE nonaccruals** = tell |
+| PNC | **+51% QoQ** | Building | Management seeing cycle |
+| FITB (pre) | -40% QoQ | 1.96% stable | Release from clean base |
+| RF (pre) | Modest release | Stable | Clean IRE justifies |
+
+**The specific tell is not "release" — it's "release WHILE underlying credit deteriorates."** CFG released as CRE nonaccruals rose +10% QoQ. That's the CFG-specific red flag; other releasers (FITB, RF) are releasing from genuinely clean books.
+
+**WAL tripwire:**
+- 🔴 **Bear-confirming:** Provision <$50M AND Cantor reserve unchanged AND OREO stable/rising = CFG pattern at WAL
+- 🔴 **Bear-confirming:** Provision <$35M AND MI3 ratio rising = active release into leading-indicator deterioration
+- 🟡 **Challenge:** Provision >$80M with ACL build = management sees what we see (thesis confirmed fundamentally, but short-term position math weakens as market reprices on admission)
+- Apr 14 baseline: Q4 2025 provision $30-40M approx (KB-WAL-014 Cantor $30M alone); need clean pull
+
+### 4. NDFI Disclosure Spectrum — Where Does WAL Sit?
+
+| Bank | Total NDFI | Format | % of loans |
+|---|---|---|---|
+| PNC | **$73B** | Slide 11: 5-way $ thematic rollup | 20% |
+| CFG | $19.6B | Slide 24: 4-way $ (**deck only** — absent from press release/supplement) | 13% |
+| FITB (pre) | $9.5B | Slide 19: 6-way % (no $) | 8% |
+| MTB | Partial | Slide 19 partial, $8.9B hidden | ~10% |
+| RF (pre) | **ZERO disclosure** | Table 11 "Financial services" $18.3B blended | unknown |
+
+**PNC's innovation:** thematic NDFI rollup ($73B) is $31B (42%) *above* its "Financial services" sectoral line in the 10-K. Proves NDFI is thematic, not sectoral — banks hide NDFI across multiple sectoral buckets.
+
+**Deck > press release confirmed (CFG Slide 24 had what press release did not).**
+
+**For WAL (current opacity level = RF-tier):**
+- No thematic NDFI disclosure in FY2025 10-K
+- KB-WAL-069: $10.8B OBS SSFA is likely warehouse lending to NDFIs (inferred, never confirmed)
+- V3 SSFA thesis rests on management refusing to characterize $10.8B
+
+**WAL tripwire:**
+- 🔴 **Bear-confirming:** Q1 deck introduces any NDFI rollup slide → WAL joining voluntary disclosure cycle, numbers likely 2-4x Table 14 line
+- 🔴 **Bear-confirming:** Management voluntarily breaks out "fund finance" / "private credit" as new supplement line → V1 + V3 simultaneously confirmed (CFG reclass + NDFI admission)
+- 🟡 **Stays RF-tier:** Zero new disclosure → V3 latent, but elevates regulatory/analyst-question-driven risk
+
+### 5. Beat-Fade Tape — Magnitude Inversely Correlates With Opacity
+
+| Bank | EPS beat | Day-1 | NDFI disclosure |
+|---|---|---|---|
+| MTB | Yes ($4.13 vs $4.03) | **-1.55%** | Partial (hidden $8.9B) |
+| CFG | Yes ($1.13 vs $1.09) | -0.63% pre-call | Moderate (deck-only) |
+| PNC | Yes ($4.32 vs $3.91) | -0.03% 2d | Granular (Slide 11) |
+
+**Inverse correlation:** Most opaque disclosure → largest day-1 fade. PNC's transparent disclosure *absorbed* the bad news (revenue miss, FHLB surge, provision +51%). CFG's deck-only pattern faded anyway. MTB's partial hiding drew the biggest punishment.
+
+**For WAL (assuming beat vs consensus):**
+- **RF-tier opacity maintained:** fade -1.5% to -3% (possibly deeper given 40-52% valuation gap to our PT)
+- **Deck-only disclosure (CFG-template):** -0.5% to -1.5%
+- **PNC-tier transparency surprise:** -0.25% to +1% (unlikely base case; but *reinforces* thesis if it happens — math becomes visible)
+
+**Position sizing implication:** Current put structure ($85P/$77.5P/$70P/$65P) well-calibrated for RF/CFG-tier fade. If management surprise-upgrades disclosure (PNC-tier), tape impact smaller but thesis strengthens. Hold through — add opportunistically.
+
+---
+
+## ZION APR 20 — ONLY PRE-WAL SECTOR INDICATOR
+
+With OZK moved to Apr 21 same-day, ZION Apr 20 is the ONLY pre-WAL read.
+
+| ZION Apr 20 outcome | WAL Apr 21 implication |
+|---|---|
+| Additional Cantor reserve build ($10M+) | **V2 confirmation** — WAL $30M reserve vs ~$60-70M implied loss understated |
+| Clean print, no new Cantor language | V2 latent; status quo |
+| Fraud disclosure on NEW counterparty | Sector-wide V2 confirmation; WAL + all fraud-adjacent names rerate |
+| CRE nonaccrual surge (Mountain West) | **V1 read-through** on WAL's AZ/NV overlap; baseline shifts up |
+| Deposit / FHLB stress | Direct sector read; WAL's $11.9B uninsured concentration = near-term risk |
+| Capital raise or guidance cut | Max signal — hold WAL positions, add if available |
+
+**Timing:** ZION typical ~5:30 PM ET release Apr 20; call Apr 21 AM often runs into WAL pre-open window. Plan: read ZION release overnight Apr 20 → 21, skip ZION call, pivot to WAL + OZK pre-market decision-making.
 
 ---
 
@@ -33,10 +153,12 @@
 | Labeled CRE % of loans | ~35% | Stable or rising (relabeling continues) | Falling WITH MI3 also falling |
 | Equipment Finance ($B) | $3.489B (-16.6% YoY) (KB-WAL-006) | Continued decline (what's growing isn't C&I) | Recovery with specific deal disclosure |
 | Memo Item 3 $ amount | $2.73B (KB-WAL-002) | >$2.9B | <$2.5B |
+| **Table 14 bucket changes** [Apr 16 add] | FY2024 10-K Table pre-read PENDING | **ANY new line item** in FY2025 10-K Table 14 equivalent OR Q1 supplement (fund finance, PC, capital call, ABS, specialty, warehouse finance) = CFG/PNC bucket-level reclassification pattern replicating. Widens V1 beyond MI3. | No new line items AND no disproportionate YoY growth (>50%) in existing sectoral buckets |
 
 **Hard tripwire:** MI3 ratio ≥25% = thesis accelerating. Buy more Sep puts on any post-earnings strength.
-**Defcon:** MI3 ratio disclosed AND declining two consecutive quarters with management offering verifiable attribution = thesis weakening, start closing Jun positions.
-**[Mar 26 update]:** $400B CRE maturity wall fully landing in 2026 (KB-WAL-067). OZK Apr 16 earnings = first read-through on AZ/NV CRE stress. If OZK discloses material CRE provisions, re-evaluate WAL V1 baseline upward before Apr 21.
+**Bucket tripwire [NEW Apr 16]:** Any new Table line item naming fund finance / private credit / capital call / ABS / warehouse / specialty = instant V1 confirmation at bucket level. CFG did this at $2.9B scale in FY2025 10-K (exact $6,446M − $3,538M = $2,908M carve-out from "Other F&I"). If Idnani's first full-disclosure cycle introduces similar at WAL, V1 confirms without MI3 needing to move.
+**Defcon:** MI3 ratio disclosed AND declining two consecutive quarters with management offering verifiable attribution AND no new Table line items AND no bucket-level carve-outs = thesis weakening, start closing Jun positions.
+**[Mar 26 → Apr 16 update]:** $400B CRE maturity wall fully landing in 2026 (KB-WAL-067). OZK moved to Apr 21 same-day — ZION Apr 20 is now the only pre-WAL sector indicator on AZ/NV CRE stress. Cohort evidence from MTB/CFG (Apr 15-16): CRE extend-and-pretend pattern confirmed at 2 of 2 traditional regionals (MTB modifications $818M FY25, CFG nonaccruals +10% QoQ). PNC broke the pattern (nonaccruals -26% YoY) but FirstBank acquisition muddied the read. V1 baseline holds.
 
 ---
 
@@ -65,7 +187,7 @@
 - Fixed income / securitized products -24% YoY at JEF = consistent with credit deterioration thesis.
 - JEF transcript (Mar 26 AM): extract warehouse lending commentary, counterparty language on who still holds First Brands paper. **Critical for confirming WAL node.**
 - Cantor silence on Q4 call + JEF miss = both ends of V2 chain showing stress. (KB-WAL-066, -060)
-- **PROP-07 (KRE add):** JEF confirmation + 3 analyst downgrades = threshold NOT MET. JEF is amplified inference, not WAL direct disclosure. Recommend staging KRE add trigger for post-OZK Apr 16.
+- **PROP-07 (KRE add):** JEF confirmation + 3 analyst downgrades = threshold NOT MET. JEF is amplified inference, not WAL direct disclosure. KRE add trigger now staged for post-ZION Apr 20 (only pre-WAL sector indicator) OR post-cohort wave if FITB/RF Apr 17 show consumer inflection (Scenario B in RF/EARNINGS_PREP.md).
 
 ---
 
@@ -76,9 +198,12 @@
 | SSFA total exposures | $17.22B | Any increase | Voluntary reduction with explanation |
 | CET1 ratio | 11.0% (KB-WAL-046) | Any decline below 10.5% | Rising above 11.5% |
 | "Other OBS" SSFA | $10.815B at 20% RW (KB-WAL-009) | Any disclosure of composition | Management proactively explains composition |
+| **Multi-bucket NDFI undercount** [Apr 16 add] | WAL Table 14 "Financial services" line PENDING pre-call pull | Deck thematic NDFI rollup >1.5x Table 14 line = PNC-pattern (PNC: $73B rollup vs $42.2B sectoral line, +$31B/42% hidden outside sectoral bucket). Implies WAL true NDFI book is materially larger than any single Table line suggests. | Deck thematic rollup ≤ Table 14 line AND no new thematic slides |
 | Regulatory language | None flagged (KB-WAL-013) | Any mention of "securitization review" | Explicit reaffirmation of SSFA treatment |
 
 **The $1.1B question:** Management will NOT discuss SSFA proactively. This only surfaces via analyst question or regulatory action. Monitor Call Report RC-R Part II Item 9d vs prior quarter.
+
+**[Apr 16 — Analyst Q&A forced-disclosure probability, NEW]:** CFG Q1 2026 was the **first time ever** two sell-side analysts pressed Van Saun on private credit exposure (Siefers/Piper, Chiaverini/Jefferies) — zero in Q4 2025. By Apr 21, analysts will have drilled NDFI for 5 consecutive regionals (MTB/CFG/PNC/FITB/RF). Probability of an analyst pressing Idnani on "$10.8B Other OBS composition" or "fund finance / capital call exposure" during WAL Q&A is now materially higher than voluntary management disclosure was assumed. **V3 can catalyze from analyst Q&A alone** — and management's non-answer is itself the signal. Watch for: "we don't break that out," "the exposure is diversified," pivot to CET1 ratio, deflect to asset-liability committee. Any of these on a direct V3 question = V3 catalyzing even without a number.
 
 **[Mar 26 update — V3 AMPLIFIED]:** BROCK confirms total bank NDFI exposure = $1.54T (FFIEC Q4). WAL's $10.8B OBS SSFA (KB-WAL-009) may represent warehouse lending to NDFIs — same pool. If MS 8% default rate on PC lending materializes, WAL warehouse exposure could face marks. Ask Idnani directly about warehouse line utilization changes in Q1. (KB-WAL-069)
 
@@ -211,7 +336,7 @@
 
 This is the edge: 73% of analysts rate Buy on a stock we think has 30-50% downside. When the repricing comes — triggered by earnings miss, fraud disclosure, or SSFA scrutiny — there are 11 Buy ratings to downgrade. Each one moves the stock.
 
-**Watch for post-OZK Apr 16:** If OZK misses, expect 2-3 additional WAL downgrades within 48 hours as analysts re-examine CRE assumptions.
+**Watch for post-Apr-17 cohort / post-ZION Apr 20:** If FITB/RF Apr 17 show consumer inflection OR ZION Apr 20 shows Mountain West CRE stress, expect 2-3 additional WAL downgrades within 48 hours as analysts re-examine CRE/consumer assumptions ahead of WAL+OZK Apr 21 same-day print.
 
 ---
 
@@ -228,4 +353,4 @@ This is the edge: 73% of analysts rate Buy on a stock we think has 30-50% downsi
 | European bank stress (iTraxx 130-160bps est.) | HANS OUTBOX MAR24 | Global credit tightening = no WAL lifeline |
 
 ---
-*KB: 70 rows | Scenarios: SCENARIOS.md | Weakness audit: WEAKNESSES.md | Last updated: 2026-03-31 22:30 UTC | Grade: A- (consensus tracker upgraded with full 15-analyst coverage; next upgrade: OZK Apr 16 AZ/NV confirmation OR WAL MI3 ≥25%)*
+*KB: 70 rows | Scenarios: SCENARIOS.md | Weakness audit: WEAKNESSES.md | Last updated: 2026-04-16 (cohort refresh: 5 Q1 reporters integrated, OZK moved to same-day, ZION Apr 20 is only pre-WAL read) | Grade: A- (next upgrade: ZION Apr 20 Mountain West CRE confirmation OR cohort-informed cohort section filled with WAL pre-read)*
