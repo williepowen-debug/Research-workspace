@@ -25,6 +25,8 @@
 - [2026-04-16] MTB 10-K filed Feb 18, 2026 (CIK 36270, accession 0000036270-26-000010). PDF saved locally as `MTB/sources/DFIN EZBlue 2.24.26.pdf` (not committed — 4.5MB). Can be re-fetched from EDGAR with User-Agent header.
 - [2026-04-16] MTB fund banking built by Michael Sinclair at People's United (2018), NOT acquired from Webster Bank. CFO Bible misspoke on Q1 call. See `MTB/WEBSTER_ANOMALY.md`.
 - [2026-04-16] pdfminer works for PDF text extraction (`.venv/bin/python3`). poppler-utils not installed (needs sudo). Use pdfminer for all PDF reads.
+- [2026-04-16] CFG reclassification pattern proven: $2.9B "Secured private credit finance" was hidden inside "Other finance and insurance" ($6.4B) in FY2024 10-K; carved out as new line item in FY2025 10-K with exact reconciliation ($6,446M − $3,538M = $2,908M). ABS finance $1.8B in Q1 2026 deck follows the same pattern. Behavioral rule: for any CFG "growth" figure on a new sub-line, verify it existed under an aggregate bucket the prior period before claiming growth.
+- [2026-04-16] CFG 10-K HTML from EDGAR has inline-XBRL markup; BeautifulSoup `.get_text()` yields mostly XBRL metadata. Use regex `re.sub(r'<[^>]+>',' ',html)` for narrative text. Saved as `CFG/sources/10k_fy2024/` and `10k_fy2025/`.
 
 ## References
 - [2026-04-02] FRED API key signup: https://fred.stlouisfed.org/docs/api/api_key.html
@@ -34,7 +36,7 @@
 
 ## Session Notes
 
-⚠️ **Open question:** CFG deck Slide 24 introduced an "ABS finance" $1.8B line item that has no equivalent in the 10-K Table 14. Is this a new product or a reclassification from existing C&I? Pulling the FY2024 10-K from EDGAR would test whether ABS finance existed previously — bigger reclassification signal than the original 5% vs 40% question.
+⚠️ **Open question:** WAL + OZK Apr 21 earnings prep — 5 days out. Need to refresh EARNINGS_PREP.md files with MTB + CFG read-throughs (sector pattern: beat-and-fade, FHLB surge, CRE nonaccrual drift, deck > press release for NDFI). WAL back below $78 threshold intraday Apr 16. Mine the decks, not the press releases.
 
 ### CHANGES SINCE LAST SESSION
 *(populated at next boot via market.py)*
