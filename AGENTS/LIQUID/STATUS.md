@@ -40,11 +40,17 @@
 - **RRP $158M** Apr 16 — still structurally zero, week's range $158M-$507M
 
 ### Thesis Impact
-**Credit dashboard green; plumbing dashboard now yellow-flashing.** This is the inverse of Apr 10 where both were green. The SOFR/IORB flip is the kind of quiet break that precedes wider stress — not a confirmation, but worth watching. 
+**Credit dashboard green; plumbing dashboard now yellow-flashing.** This is the inverse of Apr 10 where both were green. The SOFR/IORB flip is the kind of quiet break that precedes wider stress — not a confirmation, but worth watching.
 
-Bank earnings day passed without a credit crack. APO/BIZD recoveries suggest PC Stage 3 cascade is **decelerating**, not accelerating. Barings-cadence (1 gate/month) was never enough to trigger a public-market dislocation on its own; without a second leg, PC stress stays contained.
+Bank earnings day passed without a credit crack. APO/BIZD recoveries suggest PC Stage 3 cascade **public-equity sentiment** is decelerating. But caveat: TCW Red Lobster 98% equity writedown with debt still at par (Apr 14) is the canonical mark-to-model fiction — underlying marks still diverging even as equity sentiment bounces. Watch for the moment public BDC marks catch down.
 
 **Bottom line:** Credit markets validating Path A (squeeze resolution). Plumbing showing first cycle-local sign of reserve scarcity. Watch SOFR Apr 17-20 for structural-vs-mechanical answer.
+
+### Apr 14 external signals integrated
+- **IMF GFSR (Apr 14)** — Formal call to "stand up and prepare liquidity and funding facilities." Names PC, NBFIs, AI borrowers, EM flows, FX, tokenization as co-equal vulnerability channels. Rare institutional top-down validation of transmission framework. Observations cited (global equities -8% Feb→early Apr, sovereign yields up) are backward-looking; rally has since resumed, but the explicit PC callout is load-bearing.
+- **TCW Red Lobster 98% equity markdown / debt at par (Apr 14)** — Stage 3 precursor condition. Nuances the APO/BIZD "decelerating" read.
+- **GS prime HF short-cover whipsaw (week ending ~Apr 4)** — Fastest cover since 2020 on ceasefire relief; ceasefire has since collapsed (Islamabad Apr 12). Positioning now wrong-footed if HY re-widens — amplifier, not trigger.
+- **SEC eliminated PDT / new intraday margin framework (Apr 14)** — Forward-looking plumbing mechanic: broker-dealer intraday exposure math goes real-time. Could surface stress faster in future events; no immediate dashboard impact.
 
 ---
 
@@ -142,7 +148,11 @@ Bank earnings day passed without a credit crack. APO/BIZD recoveries suggest PC 
 | Signal | Date | Key Data | Implication |
 |--------|------|----------|-------------|
 | **SOFR>IORB first print** | 4/15 | SOFR 3.72 vs IORB 3.65 (+7bps) | First cycle breach — pending tax-day confirmation |
-| APO/BIZD sharp reversal | 4/10→16 | APO +15.9%, BIZD +4.9% | PC Stage 3 cascade decelerating |
+| **IMF GFSR — liquidity facilities call** | 4/14 | PC, NBFIs, AI borrowers named as vulnerabilities | Top-down validation; rare explicit call |
+| **TCW Red Lobster writedown** | 4/14 | 98% equity markdown / debt at par | Stage 3 mark-to-model fiction precursor |
+| **GS prime HF short cover whipsaw** | ~4/4 | Fastest cover since 2020 on dead ceasefire | Positioning wrong-footed if HY re-widens |
+| **SEC kills PDT / intraday margin framework** | 4/14 | All margin accounts → real-time exposure math | Future plumbing mechanic, not live data |
+| APO/BIZD sharp reversal | 4/10→16 | APO +15.9%, BIZD +4.9% | PC public-equity sentiment decelerating (marks TBD) |
 | Barings 11.3% gate | 4/6 | 7th major manager gating | PC Stage 3 monthly cadence |
 | Goldman TRS shorting paused | 4/2 | ABX-analog withheld | Synthetic short would force price discovery |
 | WFC $200B repo SPOF | 4/2 | Fed lifted asset cap Jun 2025 | System single-point dependence |
