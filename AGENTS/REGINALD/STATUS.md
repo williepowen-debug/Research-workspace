@@ -1,5 +1,31 @@
 # REGINALD STATUS
-**Last Updated:** 2026-04-14 (intraday) | **Status:** 🔴🔴🔴 CRITICAL (STABLE)
+**Last Updated:** 2026-04-16 (post-CFG earnings) | **Status:** 🔴🔴🔴 CRITICAL (STABLE)
+
+---
+
+## PM BRIEF — April 16, 2026
+
+**Live prices (market.py):** KRE $68.93 (-0.35%), WAL **$78.23** (-0.36%, **back above $78 threshold**), OZK $47.85 (-0.06%), EGBN $27.30, ZION $61.73, CFG $64.78 (-0.63%), SPY $699.96 (flat), VIX 18.95 (+4.3%), Brent $97.60, 10Y 4.29%.
+
+### Q1 Earnings Wave — Sector Tone (2 of 8 done)
+
+| Bank | Date | EPS | Beat? | Tape | Sector Signal |
+|------|------|-----|-------|------|---------------|
+| MTB | Apr 15 | $4.13 vs $4.03 | Yes | **-1.55%** on 1.5x vol | Bear. Faded on beat. CET1 -51bps. FHLB +265%. NDFI growing. |
+| CFG | Apr 16 | $1.13 vs $1.09 | Yes | -0.63% (pre-call) | Bear-leaning. CRE nonaccruals +10%. FHLB 60x. Zero fund finance disclosure. |
+| KEY | Apr 16 | — | — | — | Pending |
+| RF | Apr 17 | — | — | — | Pending |
+| **WAL** | **Apr 21** | — | — | — | **POSITION NAME** |
+| **OZK** | **Apr 21** | — | — | — | **POSITION NAME** |
+
+**Sector pattern emerging (2/2 reporters):**
+1. **Headline beats, tape fades.** Both MTB and CFG beat EPS estimates. Both stocks fell. Market is looking through headline earnings.
+2. **FHLB acceleration systemic.** MTB: +265% to $7.85B. CFG: 60x to $2.5B. Two of two reporters showing contingency borrowing. FHLB indicator should upgrade.
+3. **CRE extend-and-pretend confirmed.** CFG: nonaccruals +10% QoQ while NCOs flat. MTB: $818M modifications in FY2025. Accumulation, not recognition.
+4. **NDFI opacity is sector-standard.** MTB: partial disclosure (Slide 19) but $8.9B still hidden. CFG: zero fund finance breakout. WAL/OZK will be the same.
+5. **Consumer NOT confirming.** CFG retail NCO 38bps (from 70bps YoY). CARL channel not firing at CFG.
+
+**Thesis v1.4 (today):** Added "C&I as Convergence Hiding Place" to thesis — three masking mechanisms (MI3, NDFI opacity, reclassification) all exploit C&I bucket. The convergence is hidden convergence. See `thesis/THESIS.md` + `thesis/CHANGELOG.md`.
 
 ---
 
@@ -94,7 +120,7 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 | 10Y UST | **4.42%** (Mar 27, stale) | 🔴 Hit 4.48% intraday (highest since Jul 2025). Needs refresh. |
 | Office CMBS DQ | **11.2%** (Feb 2026, Trepp) — pulled back from 12.34% Jan ATH on 5 loan mods | 🔴 |
 | Bank CRE DQ gap | 4.18% vs CMBS 11.2% = ~7pp masking | 🔴 |
-| FHLB Advances | ~$480B (issuance +31% YoY) | 🟠 Contingency behavior |
+| FHLB Advances | ~$480B (issuance +31% YoY). **Bank-level: MTB $7.85B (+265%), CFG $2.5B (60x YoY).** 2/2 Q1 reporters surging. | 🟠→🔴 Contingency behavior confirmed at sector level |
 | Bank Reserves | $2.8T — 4yr low, G-SIB concentrated | 🔴 |
 | Private Credit Default | 5.8% TTM (Jan Fitch), MS projects 8%. Bad PIK 6.4% (vs 2.5% in 2021). | 🔴🔴 Record |
 | PC Mainstream | Economist + Bloomberg + NPR all Apr 1. "Signs of strain" / "redemption crisis." Narrative inflection. | 🔴🔴 |
@@ -153,7 +179,7 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 |------|------|-------|-------------|----------|--------|
 | 1 | EGBN | 20 | CRE 547% + DC 100% + crisis state | $25P | Jun |
 | 2 | WAL | 20 | CRE 474% + Cantor + CFO swap | $85P/$77.5P/$70P/$65P | Jun/Sep |
-| 3 | CFG | 15 | BDC $10-11B + Consumer 18.7% | Monitoring | — |
+| 3 | CFG | 15 | BDC $12.5B + FHLB 60x + CRE nonaccruals rising | Monitoring (score 9→12 post-Q1) | — |
 | 4 | ZION | 14 | MUNI $5.78B + NDFI + BDC | $57.5P | Jul |
 | 5 | OZK | 13 | CRE 37.6% MI3 (WORST) + CRO selling | $42.5P/$45P | May/Aug |
 | 6 | SSB | 11 | GEO FL+TX 42% + CRE MF 9.36% | $90P | Jun |
@@ -236,12 +262,12 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 
 ---
 
-## ⚠️ THRESHOLD BREACHES (as of Apr 9)
+## ⚠️ THRESHOLD BREACHES (as of Apr 16)
 
 | Metric | Threshold | Current | Note |
 |--------|-----------|---------|------|
-| WAL | <$78 | **$76.49** (Apr 9 intra) | Still breached but closing gap (-2%). Volume profile recovered (0.96x up/down). Ambiguous — could re-breach $78 on continued rally. |
-| HY OAS | >320bps | **294bps** (Apr 8) | CLEAR. 26bps buffer. Tightened on oil de-escalation. CCC/HY ratio still 3.24x = distressed tail unchanged. |
+| WAL | <$78 | **$78.23** (Apr 16) | **Back above threshold.** +0.3% buffer — ambiguous, could re-breach. Earnings Apr 21 will resolve. |
+| HY OAS | >320bps | **294bps** (Apr 8, stale) | CLEAR. 26bps buffer. Needs refresh. |
 
 ---
 

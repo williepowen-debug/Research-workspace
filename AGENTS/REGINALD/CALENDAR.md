@@ -1,6 +1,6 @@
 # REGINALD CALENDAR
 
-**Last Updated:** 2026-04-14 | **View:** Forward-looking only. Past events pruned weekly.
+**Last Updated:** 2026-04-16 | **View:** Forward-looking only. Past events pruned weekly.
 
 ---
 
@@ -26,9 +26,9 @@
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |------|-------|---------------|-------------------|-----------|
-| **Apr 15** | **MTB Q1 earnings** (pre-market) | ✅ DONE — full Tier 3 build. Provision $140M (+12%), FHLB tripled, NDFI $24B commitments, 228% payout, office 22.3% criticized. Sector tone: bear-leaning. See `MTB/` | ALL |
+| **Apr 15** | **MTB Q1 earnings** | ✅ DONE — full Tier 3 build. Sector tone: bear-leaning. See `MTB/` | ALL |
+| **Apr 16** | **CFG Q1 earnings** | ✅ DONE — CRE nonaccruals +10%, FHLB 60x, zero fund finance disclosure, 5% vs 40% discrepancy, 2 analysts asked about PC (first time). Thesis v1.4. See `CFG/STATUS.md` | BROCK, PROME |
 | **Apr 16** | **KEY Q1 earnings** (pre-market) | Consumer credit, provisions, NIM | Read-through for consumer deterioration | CARL |
-| **Apr 16** | **CFG Q1 earnings** (morning) ⚡ | BDC exposure ($10-11B), consumer DQ (18.7%), provisions | BDC loss recognition = PC→bank transmission confirmed. **Our #3 matrix target.** | BROCK, PROME |
 | **Apr 17** | **RF Q1 earnings** (pre-market) | Consumer/commercial credit trends | Consumer DQ acceleration = CARL thesis | CARL |
 
 ## WEEK OF APR 20 — PEAK EARNINGS (POSITION NAMES)

@@ -8,6 +8,38 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-04-16 — v1.4: C&I AS CONVERGENCE HIDING PLACE
+
+### THESIS Updated → v1.4
+**Author:** REGINALD + Will
+**Action:** Added "C&I as Convergence Hiding Place" subsection to Section 2 (Architecture). Updated CFG row in Bank × Cluster table and Channel B bridge paragraph. Version bumped v1.3 → v1.4.
+
+**What changed:**
+
+**New framework — Three masking mechanisms within C&I (Section 2):**
+The Q1 2026 earnings wave (MTB Apr 15, CFG Apr 16) revealed that C&I is not just where CRE hides — it's where ALL concentration risk hides. Three distinct mechanisms operate simultaneously:
+1. **Memo Item 3** — CRE wearing C&I label (Cluster A risk, found at OZK/WAL/EGBN)
+2. **NDFI opacity** — counterparty concentration invisible in aggregate C&I (Cluster B risk, found at CFG $12.5B / MTB $13.4B, zero counterparty disclosure at both)
+3. **Reclassification** — growth velocity distorted by sub-category relabeling (CFG mgmt claims 5%/yr, 10-K shows 39.7% — 8x gap; MTB $1.3B C&I→NDFI recategorization)
+
+Core insight: **the convergence isn't just eight channels hitting the same banks — it's eight channels hiding in the same bucket.** CRE ratio screens miss all three mechanisms. When Clusters A and B detonate together, losses emerge from the same C&I line item simultaneously with no prior warning from reported CRE metrics.
+
+**CFG Bank × Cluster update:**
+- Cluster A: 🟡 → 🟠 (CRE nonaccruals +10% QoQ, FHLB 60x YoY)
+- Cluster D: 🟠 → 🟡 (consumer actually improving, NCO 38bps from 70bps YoY)
+- Score: 9 → 12
+- Van Saun first acknowledged screening counterparties for "liquidity gates"
+- PE line utilization DOWN — partial disconfirmation of draw-spike thesis
+
+**Old view:** Section 2 described three layers of hidden *CRE* (classification, NDFI wrapper, collateral fraud). The C&I bucket was understood as where CRE hides.
+**New view:** Section 2 now shows C&I is where *all* concentration risk hides — CRE, fund finance, and counterparty exposure alike. The hiding place is shared, which means the detonation will be simultaneous.
+
+**Evidence base:** CFG Q1 2026 earnings release + financial supplement + earnings call transcript (Apr 16). MTB Q1 2026 (Apr 15). FFIEC Call Report screens (Q4 2025).
+
+**Why v1.4 not v2.0:** No new channels. No new targets. Same thesis structure. This is an analytical refinement — showing that the hiding mechanism (C&I) is shared across clusters, not just within Cluster A. The convergence thesis is strengthened, not changed.
+
+---
+
 ## 2026-04-02 — TIMELINE: Branch Point Summary Table Added
 
 ### TIMELINE Updated
