@@ -10,14 +10,12 @@
 |-----------|-------|---------------|-------------------|
 | Weekly (Thu) | Initial claims | DOGE layoff acceleration | >300K = all ORANGE banks → RED |
 
-## WEEK OF APR 14 — Q1 EARNINGS WAVE BEGINS
+## WEEK OF APR 14 — Q1 EARNINGS WAVE (in progress)
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |------|-------|---------------|-------------------|-----------|
-| **Apr 15** | **MTB Q1 earnings** | ✅ DONE — full Tier 3 build. Sector tone: bear-leaning. See `MTB/` | ALL |
-| **Apr 16** | **CFG Q1 earnings** | ✅ DONE — CRE nonaccruals +10%, FHLB 60x, zero fund finance disclosure, 5% vs 40% discrepancy, 2 analysts asked about PC (first time). Thesis v1.4. See `CFG/STATUS.md` | BROCK, PROME |
-| **Apr 16** | **KEY Q1 earnings** (pre-market) | Consumer credit, provisions, NIM | Read-through for consumer deterioration | CARL |
 | **Apr 17** | **RF Q1 earnings** (pre-market) | Consumer/commercial credit trends | Consumer DQ acceleration = CARL thesis | CARL |
+| **Apr 17** | **FITB Q1 earnings** | Auto NDFI exposure, post-Tricolor reserve build | OTTO read-through: did FITB build reserves on auto warehouse after Q3 2025 $170-200M Tricolor loss? | OTTO, CARL |
 
 ## WEEK OF APR 20 — PEAK EARNINGS (POSITION NAMES)
 
@@ -40,7 +38,8 @@
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |------|-------|---------------|-------------------|-----------|
-| **~May 1-10** | **Q1 Call Report filings (FFIEC)** 🔴 | MI3 ratios, NDFI, AOCI detail, CRE DQ by category, TDR/mods | WAL MI3 ≥25% = acceleration. **More important than earnings for thesis.** | PROME |
+| **TBD May** | **ROAD to Housing Act House vote** | Drafting errors that would *decrease* FHA MF limits below current law (per industry comments). If enacted as-written = bearish MF refi/takeout 2026-2027. | Contradicts bill's stated intent. WALTER caught: SIG-W-20260414-005. | CREED, BROCK |
+| **~May 1-10** | **Q1 Call Report filings (FFIEC)** 🔴 | MI3 ratios, NDFI, AOCI detail, CRE DQ by category, TDR/mods | WAL MI3 ≥25% = acceleration. **More important than earnings for thesis.** Now: reconcile to CFG Slide 24's $19.6B preliminary NDFI. | PROME |
 | May 12 | WAL Investor Day | Management response to thesis vectors | — | PROME |
 | **May 15** | **KRE $70P expiry** | Position management | Roll/close decision needed by ~May 8 | FORGE |
 | ~Mid-May | FDIC Quarterly Banking Profile | Aggregate CRE DQ, NDFI growth, provision trends | NDFI still +35% YoY = doubling down | PROME |

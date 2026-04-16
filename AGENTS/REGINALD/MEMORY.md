@@ -85,10 +85,9 @@
 **Git:** 1 commit pushed to GitHub. CFG source PDFs local only (not committed). Transcript committed.
 
 ### NEXT SESSION
-1. **KEY earnings (Apr 16)** — results should be available. Consumer credit, provisions, NIM. Lower priority.
-2. **RF earnings (Apr 17)** — consumer DQ, CLO marks. No file built.
-3. **CFG earnings deck** — `CFG/sources/CFG-earnings-presentation-4-16-26.pdf` unread. May have fund finance slides (Table 14 equivalent). Mine it.
-4. **Resolve 5% vs 40%** — pull FY2024 10-K from EDGAR, check if "capital call facilities" existed as Table 14 line item. Quick test of reclassification hypothesis.
-5. **WAL + OZK earnings prep (Apr 21)** — position names, 5 days out. Synthesize MTB + CFG read-throughs. Refresh earnings prep files.
-6. **Inbox:** 4 signals unprocessed (OTTO Tricolor + 3 WALTER). Process when spawned for it.
-7. **Signal to WALTER:** Sector tone read-through from MTB + CFG. Draft after KEY/RF complete the early wave.
+1. **WAL + OZK earnings prep (Apr 21)** — position names, 5 days out. Refresh EARNINGS_PREP.md files using MTB + CFG read-throughs. **Mine the earnings DECKS, not just press releases** — CFG showed deck contains disclosure absent from headline (Slide 24 NDFI breakdown).
+2. **KEY earnings (Apr 16)** — check results if released; consumer/CRE color. Lower priority.
+3. **RF + FITB earnings (Apr 17)** — RF for consumer DQ; FITB for post-Tricolor auto NDFI reserve build (OTTO read-through).
+4. **ABS finance reclassification test** — pull CFG FY2024 10-K from EDGAR. Did "ABS finance" exist as Table 14 line item? If absent, $1.8B is reclassification, not new growth. Bigger reclassification signal than the 5% vs 40% question.
+5. **DB positioning risk for Apr 21** — financials at -1.5 to -2 z while consensus +20-40% earnings growth. Crowded-short unwind risk if WAL/OZK beat. Factor into sizing, not just direction.
+6. **Outbox:** OTTO reply on Tricolor/Apollo Atlas SP read-across is queued for HERMES delivery.
