@@ -1,6 +1,6 @@
 # REGINALD — The Convergence Thesis
-**Version:** 1.3
-**Last Updated:** 2026-03-31
+**Version:** 1.4
+**Last Updated:** 2026-04-16
 **Status:** 🔴🔴🔴 CRITICAL — Six of eight channels at red+, all open simultaneously
 **Conviction:** HIGH (60% confirmed, 8% invalidation risk — see Section 8)
 
@@ -163,7 +163,7 @@ Each arrow is a transmission pathway confirmed in `workbook/FLOW.tsv`. This is n
 | **EGBN** | 🔴 CRE 547%, 100% DC | ⬜ Minimal | ⬜ None known | 🔴 DOGE direct hit (DC) | **2 of 4** | D feeds directly into A — layoffs → mortgage DQ → CRE in same geography |
 | **OZK** | 🔴🔴 CRE 37.6% MI3 (worst), maturity wall | ⬜ Minimal (~0.5% NDFI) | ⬜ None known | 🟡 Stagflation (no NIM relief) | **1 deep + 1 amplifier** | Deepest single-cluster exposure. D prevents earning through A losses |
 | **ZION** | 🔴 CRE + MUNI $5.78B + Basis MF | 🟠 NDFI exposure | 🔴 Cantor (charged off 83%) | ⬜ Limited | **3 of 4** | Honest accounting on C (83% immediate) contrasts with WAL (30% reserved) |
-| **CFG** | 🟡 Limited direct CRE | 🔴 Fund finance $12.5B (+40% YoY) | ⬜ None known | 🟠 Consumer 18.7% | **2 of 4** | B is primary — CFG breaks from fund balance sheets, not its own CRE |
+| **CFG** | 🟠 CRE nonaccruals +10% QoQ, FHLB 60x YoY | 🔴 Fund finance $12.5B (+40% YoY) | ⬜ None known | 🟡 Consumer improving (NCO 38bps) | **2 of 4** | B primary. A upgrading: CRE extend-and-pretend + FHLB contingency now active. Score 9→12. |
 | **VLY** | 🔴 CRE 475%, FL/NJ concentration | ⬜ Minimal | ⬜ None known | 🟠 Consumer, geo FL stress | **2 of 4** | A + D compound in FL geography |
 | **SSB** | 🔴 CRE 272%, GEO FL+TX 42% | ⬜ Minimal | ⬜ None known | 🟡 Limited | **1 deep** | Geographic concentration amplifies A |
 
@@ -180,7 +180,7 @@ Cluster B has its own set of vulnerable banks, DIFFERENT from our Channel A posi
 | Axos Bank | ~12% | PC/NDFI direct |
 | CIBC Bank USA | ~10% | PC transmission |
 
-**CFG ($215B) is the bridge** between Cluster B and Cluster A. Its $12.5B fund finance book (+40% YoY) = $8.6B capital call facilities (LP-secured) + $4.0B secured PC finance (collateral UNSPECIFIED, likely NAV-based). The Blackstone feedback loop: BCRED gates → forced leveraged loan sales → BDC spreads widen → CFG collateral impairs → largest distressed CRE buyer becomes unavailable. Channel B is a potential second trade — not yet initiated.
+**CFG ($228B) is the bridge** between Cluster B and Cluster A. Its $12.5B fund finance book (+40% YoY, though mgmt claims "5%/yr" — see CFG/STATUS.md discrepancy analysis) = $8.6B capital call facilities (LP-secured) + $4.0B secured PC finance (collateral UNSPECIFIED, likely NAV-based). The Blackstone feedback loop: BCRED gates → forced leveraged loan sales → BDC spreads widen → CFG collateral impairs → largest distressed CRE buyer becomes unavailable. **Q1 2026 update:** FHLB advanced from $42M to $2.5B (60x YoY). CRE nonaccruals +10% QoQ while NCOs flat = extend-and-pretend. Cluster A exposure now 🟠, up from 🟡. Van Saun acknowledged screening counterparties for "liquidity gates" — first time. PE line utilization DOWN (partial disconfirmation of draw-spike thesis). Score 9→12. Channel B is a potential second trade — not yet initiated.
 
 ---
 
@@ -217,6 +217,54 @@ This means the collateral floor that normally backstops extend-and-pretend is fi
 - The collateral underlying ALL of it is overstated (Layer 3)
 
 Each layer multiplies the others. A bank with 35% reported CRE may have 60%+ true CRE exposure (Layer 1), with additional hidden CRE in NDFI (Layer 2), against collateral marked to fictional NOI (Layer 3). Standard regulatory stress tests capture none of this.
+
+### C&I as Convergence Hiding Place (v1.4 — Apr 16, 2026)
+
+The three layers above describe how CRE hides. But the Q1 2026 earnings wave revealed a broader pattern: **C&I is the bucket where ALL concentration risk hides — not just CRE.** The eight convergence channels don't just terminate at regional banks through separate doors. They share the same hiding place, making them invisible until they detonate together.
+
+Three distinct masking mechanisms operate within C&I simultaneously:
+
+```
+MECHANISM 1: CRE hidden in C&I (Memo Item 3)
+  What hides:   Real estate exposure
+  How:          Loans financing CRE classified as C&I via RCON2746
+  Regulatory:   Call Report Schedule RC-C — changes what regulators see
+  Found at:     OZK 37.6%, WAL 24.2%, EGBN 23.7%
+  Channels:     1, 2 (Cluster A)
+
+MECHANISM 2: Counterparty concentration hidden in C&I
+  What hides:   Fund finance / BDC / NDFI exposure
+  How:          Lending to funds classified as C&I. No mandatory sub-category
+                disclosure. Single-line NDFI on Call Report — no counterparty detail.
+  Regulatory:   10-K Table 14 (voluntary). Call Report RC-C Item 9 (aggregate only).
+  Found at:     CFG $12.5B (9% of loans), MTB $13.4B (10%), both zero counterparty
+                disclosure despite combined $26B in fund-mediated exposure
+  Channels:     3, 4 (Cluster B)
+
+MECHANISM 3: Growth velocity hidden by reclassification
+  What hides:   How fast risky sub-categories are growing
+  How:          Existing C&I loans relabeled between industry sub-buckets in
+                voluntary disclosure tables. Total C&I unchanged; only the
+                sub-category breakdown shifts, distorting growth rates.
+  Regulatory:   None — voluntary 10-K taxonomy with no year-over-year
+                consistency requirement
+  Found at:     CFG (mgmt claims 5%/yr growth, 10-K shows 39.7% — 8x gap).
+                MTB ($1.3B C&I→NDFI recategorization in Q4 2025).
+  Channels:     3, 4 (Cluster B — makes B look smaller or slower than it is)
+```
+
+**Why this matters for the convergence thesis:**
+
+The standard analyst framework screens banks by **CRE concentration ratio.** But that ratio is computed from the reported CRE line, which:
+- Excludes Mechanism 1 (CRE hiding in C&I via MI3)
+- Excludes Mechanism 2 (CRE hiding inside fund assets, classified as C&I)
+- Cannot detect Mechanism 3 (growth distortion within C&I sub-categories)
+
+A bank like CFG appears CRE-light (declining CRE ratio, de-risking narrative). But its C&I book contains $12.5B of fund finance that may ultimately be backed by real estate through intermediary chains: CFG lends to BDC → BDC holds leveraged loans → borrower owns commercial RE. The economic exposure is real estate separated by one entity. This isn't Memo Item 3 (the loan doesn't directly finance CRE), but it achieves the same opacity.
+
+**The convergence is hidden convergence.** Cluster A risk and Cluster B risk both wear C&I labels. An analyst screening by CRE ratio misses both. When they detonate together — CRE maturity wall forces recognition (Channel 6) while BDC gating impairs fund collateral (Channel 4) — the losses emerge from the same C&I line item simultaneously, with no prior warning from reported CRE metrics.
+
+*Evidence base: CFG Q1 2026 earnings + transcript (Apr 16), MTB Q1 2026 (Apr 15), FFIEC Call Report screens (Q4 2025). Full detail → `CFG/STATUS.md` (Three-Layer Framework section), `MTB/NON_BANK_EXPOSURE.md`.*
 
 ---
 
