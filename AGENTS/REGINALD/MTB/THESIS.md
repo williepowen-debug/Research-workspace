@@ -77,6 +77,9 @@ WAL at least filed Exhibit Index amendments that let us deanonymize some facilit
 | FHA/VA borrower stress | 90+ DPD govt-guaranteed: **$634M, +72% YoY.** 98% of all 90+ DPD. | 🔴 Expanding into deteriorating FHA pool |
 | HTM unrealized losses | ($764M), duration 5.2 years | Hidden — not recognized but real |
 | CRE improvement = mostly construction | Permanent CRE only -$140M of -$400M total | Headline overstates office/permanent CRE progress |
+| Office CRE | **$3.4B, 22.3% criticized.** Reserve 4.65% (5x avg). Nonaccrual UP. | 🔴 1 in 5 office loans is a problem |
+| CRE maturity wall | **$7.9B (33%) matures 2026.** 83% adjustable. $818M extended FY2025. | 🔴 Refi risk + extend-and-pretend active |
+| Criticized LTV erosion | 67%, up from 63% | Recovery rates declining on problem loans |
 | Tape reaction | -1.55% on EPS beat, 1.5x volume | Market doesn't buy the story |
 | Consumer NDFI undisclosed | $731M outstanding, not mentioned on call | What is this? |
 

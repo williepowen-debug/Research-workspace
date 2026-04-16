@@ -29,7 +29,9 @@
 | NDFI sub-breakdown | disclosure test | **Partial** — $700M wholesale lender finance, $600M business leasing, $400M BDC (Slide 19). Three pillars ~$8.9B undisclosed. | Mixed — progress but still opaque |
 | Bayview distribution | lumpy noninterest | **$33M** (Q3 2025: $20M) | Positive — fee income support |
 | CRE provision direction | vs Q4 ~$125M | **$140M (+12%)** 🔴 | **Bearish.** Provision UP while NCO DOWN = building reserves for future losses. |
-| Office NPL/criticized | <35% office-at-risk | **Not disclosed; not asked by analysts** | Gap — 29% prior at-risk. Zero office-specific data in Q1. |
+| Office CRE (10-K) | <35% office-at-risk | **$3,423M, 22.3% criticized (Dec 31).** Reserve 4.65% (5x avg). Nonaccrual UP $117→$121M. | 🔴 1 in 5 office loans is a problem. Not asked in Q1 Q&A. |
+| CRE maturity wall | — | **33% of CRE ($7.9B) matures 2026.** 83% adjustable rate. $818M modified/extended FY2025. | 🔴 Every maturity = refi stress test. Extend-and-pretend active. |
+| Criticized CRE LTV | — | **67%, up from 63%.** Collateral cushion eroding on problem loans. | 🟠 Recovery rates on future losses will be lower. |
 | NIM | >360bps | **3.71% (+2bps QoQ)** | Positive — top quartile. FY guide "high 3.60s." |
 | Criticized CRE $ | was $7.8B declining $671M/qtr | **$6.6B** (-$706M). CRE -$400M (**construction -$260M**, perm only -$140M). | 🟠 Headline overstates — mostly construction payoffs, not office improvement. |
 | AOCI / Securities | Cat III impact estimate | **AFS: $9M gain (4bps). HTM: ($764M) hidden loss.** Total ($755M). | AFS clean. HTM $764M is real but unrecognized under current rules. |
