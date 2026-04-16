@@ -14,6 +14,8 @@ Curated long-term insights on VIX, volatility regimes, and credit-vol transmissi
 6. **SKEW divergence is the highest-conviction leading signal.** SKEW rising while VIX+VVIX fall = "coiled spring." 94% hit rate (15/16 → ≥15% VIX rise within 60d). 1% base rate. See KB-VIO-036.
 7. **The coiled spring pattern:** Vol+credit compress to complacency lows while SKEW stays elevated + rates tighten = fragility. The divergence identifies fragility; the trigger is usually external. (Phase 2 finding, Apr 2026.)
 8. **Timing:** SKEW divergence episodes peak at median 39 days (IQR 32-46). High-SKEW cohort (≥150) median 44 days. Post-stress fires resolve faster (median 32 days).
+9. **Prolonged SKEW regimes precede major VIX events.** Elevated SKEW regimes (20d avg ≥140) lasting ≥60 td are rare (5 in 19 years). All preceded significant VIX events. The top two (201 td → VIX 52; 206 td ongoing → VIX 31 so far) are historically unprecedented in duration. SKEW ≥140 occurs only 18.8% of all days. See KB-VIO-043.
+10. **SKEW routinely tests and bounces off 140 within elevated regimes.** In the current regime (Jun 2025-present), SKEW broke below 140 six times and bounced within 1-3 td every time. Single-day breaks are noise; sustained breaks (4+ td below 140) have not occurred. Don't overreact to one-day dips.
 
 ---
 

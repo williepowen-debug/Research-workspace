@@ -6,7 +6,20 @@ VIX-linked positions and trade framework.
 
 ## ACTIVE POSITIONS
 
-None currently. **VIX Upside proposal pending Will's review** (see Pending Trades below).
+### VIX 25C May 19 — SKEW Divergence Episode #17
+
+| Field | Value |
+|-------|-------|
+| Instrument | VIX May 19 25 Call |
+| Direction | Long |
+| Entry Date | 2026-04-16 |
+| Strike | 25 |
+| Expiry | 2026-05-19 (33 DTE at entry) |
+| Thesis | SKEW divergence (94% hit rate, 156.9 peak → high-severity cohort). Central case VIX 25-30 within 60d. |
+| Target | VIX 25-30 (ITM at 25+). Optimal window May 15-27. |
+| Stop / Invalidation | SKEW <140 sustained + VIX <20 through May 7 (peaceful resolution); 60d window expires Jun 15 without VIX ≥22; HY OAS tightens below 2.60. **Note (KB-VIO-041):** "sustained" = key word. One-day break is not invalidation. But our d+3 Δ -17.7 is unprecedented for high-fire episodes. Watch SKEW through Apr 22 for bounce. |
+| Reinforcement (add) | Second divergence fire before May 13; CCC OAS >10.0; VIX3M/VIX <1.05; **SKEW rebounds >145 by Apr 22 (FADE_RERAMP confirmation)** |
+| Status | **OPEN — monitoring SKEW trajectory** |
 
 ---
 
@@ -119,7 +132,7 @@ None currently. **VIX Upside proposal pending Will's review** (see Pending Trade
 
 | Date | Instrument | Action | Size | Entry | Exit | P&L | Notes |
 |------|------------|--------|------|-------|------|-----|-------|
-| — | — | — | — | — | — | — | No trades yet |
+| 2026-04-16 | VIX May 19 25C | BUY | — | — | — | — | SKEW divergence trade. 33 DTE. Central case VIX 25-30. |
 
 ---
 
@@ -139,13 +152,11 @@ When to add VIX hedges:
 
 ## PENDING TRADES
 
-### VIX Upside — SKEW Divergence Episode #17
+### ~~VIX Upside — SKEW Divergence Episode #17~~ → EXECUTED
 
 **Submitted:** 2026-04-15 to FORGE/INBOX.md
-**Status:** Awaiting Will's review — vehicle, strike, expiry to be specified
-**Thesis:** Long VIX upside with 30-60d horizon. Central case VIX 25-30 (75% within Scenario B). Tail VIX 40+ (10%).
-**Timing window:** Peak most likely mid-to-late May (median day 39-44 from Apr 13 fire)
-**Full proposal:** See FORGE/INBOX.md "VIX Upside — SKEW Divergence Episode #17"
+**Executed:** 2026-04-16 — Will placed VIX May 19 25C
+**Loop closed.** Position now tracked in Active Positions above.
 
 ---
 
