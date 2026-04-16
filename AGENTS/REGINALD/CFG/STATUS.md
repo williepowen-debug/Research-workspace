@@ -11,7 +11,7 @@
 
 1. **CRE nonaccruals rose 10% QoQ** ($618M → $679M) while CRE balances fell 1%. Nonaccrual *rate* accelerated 2.51% → 2.80%. "Credit trending favorably" masks deteriorating CRE book.
 2. **FHLB advances exploded 60x YoY** ($42M → $2,513M). +25% QoQ. Classic contingency behavior — reversed the "declining, not stressed" status from 10-K. 🔴 FLIPPED.
-3. **Fund finance disclosure exists in DECK ONLY** (Slide 24) — $14.7B Private Capital + $4.9B other = $19.6B preliminary NDFI. Press release + supplement: zero. The deck adds an "ABS finance" $1.8B line item not in 10-K Table 14 — possible reclassification. C&I grew 15% YoY to $50.3B with capital call ($8.8B) + PC finance ($4.1B) sitting inside the C&I bucket.
+3. **Fund finance disclosure exists in DECK ONLY** (Slide 24) — $14.7B Private Capital + $4.9B other = $19.6B preliminary NDFI. Press release + supplement: zero. The deck adds an "ABS finance" $1.8B line item not in 10-K Table 16 — **reclassification pattern confirmed (Apr 16 FY2024 10-K pull):** $2.9B "Secured private credit finance" was carved out of "Other finance and insurance" at FY2025 10-K (exact reconciliation, $6,446M − $3,538M = $2,908M). "ABS finance" is almost certainly the next carve-out, not new origination. C&I grew 15% YoY to $50.3B with capital call ($8.8B) + PC finance ($4.1B) sitting inside the C&I bucket.
 
 **Read-through:** CFG joins MTB in "managed headline, buried balance sheet" pattern. MTB faded 1.55% on an EPS beat. CFG -0.63% pre-call — tape TBD.
 
@@ -101,7 +101,28 @@ The earnings deck contains material disclosure absent from the press release and
 
 ### 5% vs 40% Discrepancy — Partially Resolved
 
-Capital call + PC finance growing **~2.85% QoQ ≈ 11.9% annualized** in Q1. That's between Van Saun's "5%/yr" forward claim and the 39.7% YoY figure (which captured CY2024→CY2025). Trajectory has moderated — but **ABS finance ($1.8B) is the wild card**. If it was reclassified from elsewhere in C&I, apparent slowdown is partly statistical. Still need FY2024 10-K to test.
+Capital call + PC finance growing **~2.85% QoQ ≈ 11.9% annualized** in Q1. That's between Van Saun's "5%/yr" forward claim and the 39.7% YoY figure (which captured CY2024→CY2025). Trajectory has moderated — but **ABS finance ($1.8B) is the wild card**. If it was reclassified from elsewhere in C&I, apparent slowdown is partly statistical.
+
+### FY2024 10-K Test — RECLASSIFICATION PATTERN CONFIRMED (Apr 16)
+
+Pulled CFG FY2024 10-K (EDGAR accession 0000759944-25-000013, filed 2025-02-13; saved at `CFG/sources/10k_fy2024/cfg-20241231.htm`) and compared Table 16 "Industry sector: Finance and insurance" to FY2025 10-K Table 16.
+
+| Line item (Finance and insurance) | FY2024 10-K (YE2024) | FY2025 10-K — restated YE2024 | Δ |
+|---|---|---|---|
+| Capital call facilities | $6,070M | $6,070M | 0 |
+| **Secured private credit finance** | **absent** | **$2,908M** | **NEW LINE** |
+| Other finance and insurance | **$6,446M** | **$3,538M** | **−$2,908M** |
+| Total Finance and insurance | $12,516M | $12,516M | 0 ✓ |
+
+**Exact reconciliation:** $6,446 − $3,538 = $2,908. The full $2.9B "Secured private credit finance" balance that appeared as a new line item in the FY2025 10-K was carved out of the "Other finance and insurance" bucket of the FY2024 10-K — **not from new origination**. Neither 10-K contains the phrase "ABS finance"; the only "private credit" reference in the FY2024 10-K is a narrative risk-factor mention ("Private Credit/Direct lenders").
+
+**What this means:**
+1. **Reclassification-as-disclosure is CFG's documented pattern.** Q4 2025 disclosure carved $2.9B out of an undifferentiated "Other" bucket. The Q1 2026 deck's "ABS finance $1.8B" line fits the same pattern one quarter later.
+2. **"Growth" is partially optical.** When a bucket is carved out, the bucket it came from shrinks by exactly the same amount — then new carve-outs can grow off a low base. Any future YoY comparison on "Secured private credit finance" must note that YE2023 also had this exposure (inside Other F&I, not broken out).
+3. **ABS finance $1.8B is almost certainly another carve-out, not new origination.** Most plausible source: further decomposition of "Secured private credit finance" (which encompasses structured asset financing). Less plausible but possible: further reduction of "Other finance and insurance." Quarter-on-quarter origination growth of 14% on a $17B book would be a separate red flag.
+4. **Reinforces the v1.4 "C&I Hiding Place" thesis.** Each new disclosure level reveals more granular exposure that was always there. The 10-K pattern is consistent with "press release opaque, deck more detailed" pattern observed at Q1 2026 — both directions: over time AND within a reporting cycle.
+
+**Open residual (lower priority):** Q1 2026 10-Q (May filing) Table 16 will show whether "ABS finance" gets its own formal line or remains deck-only. Call Report RC-C NDFI (Item 9) will reconcile to the $19.6B preliminary figure.
 
 ### Slide 23 — Commercial Portfolio Detail (Hiding Place Confirmed)
 
@@ -476,7 +497,7 @@ FY2025: Net income $1.8B, EPS $3.86 (+19% underlying). Beat 3 of last 4 quarters
 
 ### Priority 6: Resolve 5% vs 40% Discrepancy (PARTIAL — Apr 16 deck mined)
 - [x] **Deck Slide 24** — Q1 capital call $8.8B + PC finance $4.1B + ABS finance $1.8B = $14.7B Private Capital. Capital call + PC finance grew ~2.85% QoQ ≈ 11.9% annualized. Between Van Saun's "5%" and 40% YoY. **Trajectory moderating but ABS finance line item is new — possible reclassification.**
-- [ ] **Pull FY2024 10-K from EDGAR** — check if "Capital call facilities," "Secured private credit finance," AND "ABS finance" existed as Table 14 line items. If ABS finance was absent prior, $1.8B is reclassification, not growth.
+- [x] **Pull FY2024 10-K from EDGAR** (Apr 16) — Reclassification pattern CONFIRMED. "Secured private credit finance" absent from FY2024 10-K Table 16; carved out of "Other finance and insurance" at FY2025 10-K. Exact $2.9B reconciliation. See `sources/10k_fy2024/` and DECK FINDINGS → FY2024 10-K Test section. "ABS finance" $1.8B highly likely to be the next carve-out, not new origination.
 - [ ] **Q1 2026 10-Q (May)** — Table 14 update will show whether ABS finance gets its own line or remains a deck-only category.
 - [ ] **Q1 Call Report (May 1-10)** — NDFI per RC-C Item 9 will reconcile to Slide 24's $19.6B preliminary total.
 
