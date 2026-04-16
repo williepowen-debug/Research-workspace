@@ -1,6 +1,6 @@
 # CARL STATUS
-**Updated:** 2026-04-15 ~13:35 UTC
-**Overall:** 🔴🔴 CRITICAL — Convergence 57/60. **UMich 47.6 RECORD LOW (Apr preliminary, -11% MoM). 5-10Y inflation expectations un-anchoring at 3.4% (Fed red line). CPI Mar +3.28% YoY, PPI Mar +4.0% (highest since Feb 2023) — goods/energy shock (core-core +3.6% decelerating).** Student loan defaults 9.2M, FICO 714 cascade executing. Existing home sales 3.98M. Gas $4.13 (FL $4.02, CA $5.89 RED). Diesel $5.65. HY OAS **294bps — complacency gap WIDENING.** CMBS MF DQ ATH 7.15%. Non-bank servicer stress (PennyMac FHA DQ 7.5%, GAO gaps). Sweet v McMahon today. Lummis (R-WY) admitting Meals-on-Wheels record while endorsing "Golden age" — political lag.
+**Updated:** 2026-04-16 ~14:30 UTC
+**Overall:** 🔴🔴 CRITICAL — Convergence 57/60. **ABS drill-down complete: EART Class E CE BREACHED (CNL 13.06% > 7.6% CE). AMCAR Class E ~2mo cushion. SDART Class D ~7mo. Cure collapse subprime-localized — Ally near-prime stable (0.56% CNL). Rating actions likely Q2-Q3.** UMich 47.6 RECORD LOW. 5-10Y inflation exp un-anchoring 3.4%. CPI Mar +3.28%, PPI +4.0%. Student loan defaults 9.2M. Gas $4.13. HY OAS **294bps — complacency gap WIDENING vs structured credit cracking underneath.** CMBS MF DQ ATH 7.15%. Non-bank servicer stress (PennyMac FHA DQ 7.5%).
 
 *Check-in archives: `archive/status/` (pending Phase 3 move)*
 
@@ -14,6 +14,8 @@
 | CC 90+ DQ | **12.70%** (92% of GFC) | Q4 2025, NY Fed | 🔴 |
 | Subprime Auto 60+ DQ | **6.9% ATR** | Jan 2026, Fitch | 🔴🔴 |
 | SoFi 2025-1 CNL | **2.6% TRIGGERED** (⚠️ snapshot Mar 2026 — no SEC path, private/144A. Cannot refresh via abs_monitor. See KB-CARL-078.) | Mar 2026, Eisman Ep 49 | 🔴 |
+| **ABS Structural** | **EART 2024-2 Class E CE BREACHED** (CNL 13.06% > 7.6% initial CE). AMCAR Class E 0.4pp cushion (~2mo). SDART Class D 1.8pp (~7mo). Terminal CNL: EART 32.3%, SDART 17.6%, AMCAR 14.5%. Rating actions imminent on subordinate tranches. | Apr 16 CARL analysis, EDGAR 424B5 | 🔴🔴 |
+| **Ally Near-Prime** | **CNL 0.56%, 60+ DQ 0.80% — STABLE.** No cure collapse. Stress subprime-localized. Migration trigger: >10bps/mo CNL sustained. | Feb 2026, EDGAR 10-D | 🟢 |
 | Auto 90+ DQ | **5.21%** (near 5.27% max) | Q4 2025, NY Fed | 🔴 |
 | Student Loan 30+ DQ | **16.3% WORST EVER** (~25% w/payment due behind) | Q4 2025 NY Fed / Feb 2026 TCF | 🔴🔴 |
 | Student Loan 90+ DQ | **9.6%** (18-29 cohort: 21%) | Q4 2025, NY Fed | 🔴🔴 |
@@ -124,7 +126,7 @@
 
 | Window | Trigger | Status |
 |--------|---------|--------|
-| **NOW (Apr 13)** | **CEASEFIRE HOLDING** — Brent $98 (stable). Gas $4.13 (FL $4.02, CA $5.89 RED). Diesel $5.65 (UP). HY OAS 294bps (collapsed 23bps — complacency gap widening). CPI Energy +12.5% YoY. Savings 4.0%. DPI -0.5%. JPM Q1 tomorrow. | 🟠 **CEASEFIRE / 🔴 CONSUMER / 🟢⚠️ CREDIT COMPLACENT** |
+| **NOW (Apr 16)** | **ABS STRUCTURAL DRILL-DOWN COMPLETE.** EART Class E CE breached, AMCAR ~2mo, SDART ~7mo. Ally near-prime stable → stress subprime-localized. HY OAS 294bps complacent while structured credit cracking. OZK earnings today (REGINALD). | 🔴 **ABS CRACKING / 🟢⚠️ HY COMPLACENT** |
 | **Mar 24** | FL UI Wave 1 exhaustion | ✅ FIRED |
 | **Apr 26** | FL UI Wave 2 peak | 🟠 IMMINENT |
 | **Q2** | DQ conversion (Mar/Apr stress → May/Jun spike) | 🔴 UPGRADED |
@@ -134,6 +136,7 @@
 | **May 28** | AFT/MOHELA status conference (discovery) | 🟠 NEW |
 | **Apr 28** | Rithm/NewRez Q1 earnings — "DQ will reverse in Q1" testable claim. 18% Ginnie exposure. | 🟠 NEW |
 | **Late Apr/May** | PennyMac Q1 earnings — FHA DQ >7.5%? Cenlar integration + advance expense trajectory | 🟠 NEW |
+| **Q2-Q3** | **ABS subordinate tranche rating actions** — EART Class E CE breached, AMCAR Class E ~2mo, SDART Class D ~7mo. Downgrades trigger forced selling by mandate-constrained investors. | 🔴 NEW |
 | **May-Jun** | Middle-market PC cuts | 🟠 |
 | **Q2-Q3** | **Non-bank servicer stress window** — Ginnie advance drain cumulative as pipeline grows + cure rates stay depressed. GAO: no stagflation test. loanDepot most vulnerable. | 🟠 NEW |
 | **Jul** | Involuntary collections restart (AWG + Treasury Offset) — 5M+ defaulted borrowers | 🔴 NEW |
@@ -190,6 +193,6 @@
 - **Thesis kill:** Claims <220K 8+ weeks AND CC 90+ DQ declines 2 consecutive quarters
 - **Time-based:** Q1 consumer earnings (April) = mandatory review → **See `EARNINGS_WATCH_Q1.md` for full calendar + watch metrics**
 
-*Next catalysts: ✅ $4/gal **FIRED** (Mar 31) | ✅ FL UI Wave 1 PASSED | ✅ USDA Plantings **PULLED** (wheat 107-yr low, corn -3.45M) | ✅ JOLTS Feb **PULLED** (0.91, hires COVID-low) | ✅ NFP Mar **PROCESSED** (+178K headline, LFPR collapse) | ✅ Student Loan Vector **REFRESHED** (9.2M default, FICO cascade) | ✅ HY OAS **UPDATED** (294bps, collapsed from 317 — complacency gap widening) | **Apr 14: JPM Q1 7AM ET** (CC NCO, reserves, Dimon consumer commentary) | **Apr 15: Sweet v. McMahon** (DOE likely misses → auto full relief) | **Apr 15: NAHB HMI + MBA Apps** | Apr 16: OZK earnings | Apr 21: SYF Q1 (CRL-12 test) | Apr 21: DHI Q2 | Apr 26: FL UI Wave 2 | Apr 28: Case-Shiller Feb | **Jul 1: SAVE→RAP** | $4.50/gal | Q1 earnings April*
+*Next catalysts: ✅ $4/gal **FIRED** | ✅ FL UI Wave 1 PASSED | ✅ USDA Plantings **PULLED** | ✅ JOLTS Feb **PULLED** | ✅ NFP Mar **PROCESSED** | ✅ Student Loan Vector **REFRESHED** | ✅ HY OAS **UPDATED** | ✅ ABS Drill-Downs #2-4 **COMPLETE** (EART CE breached, Ally stable, structural analysis filed) | Apr 16: OZK earnings (REGINALD) | **Apr 21: SYF Q1 (CRL-12 test)** | Apr 21: DHI Q2 | Apr 23: PHM Q1 | Apr 25: UMich Final | Apr 26: FL UI Wave 2 | Apr 28: Case-Shiller Feb, Rithm/NewRez Q1 | **Jul 1: SAVE→RAP** | $4.50/gal | Q2-Q3: ABS subordinate tranche rating actions*
 *Prior check-ins (Mar 20), K-shape evidence table, fertilizer calendar archived to `archive/status/` (pending move)*
 *Key docs: `domain/sources/CVNA_FRAUD_WATCH.md` | `workbook/ABS_BASELINE.tsv` | `workbook/STATE_DIFFUSION.tsv`*

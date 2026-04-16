@@ -57,10 +57,17 @@ Age_All	Cohort	NY Fed	—	—	7.13%	—	—	🟠 HIGH	Q4-2025	NY Fed	+181bps vs 
 # ALL AUTO LOANS (NY FED + WOLF STREET)
 All_Auto_Aggregate	All Auto	NY Fed	—	1.61%	—	—	—	🟡 ELEVATED	Dec-2025	Wolf Street/NY Fed	Down from 1.66% Jan-2025 high. Total balance $1.67T. Auto-to-DPI ratio 7.2% (lowest since 2014).
 
-# KEY INSIGHT (Updated Apr 5):
+# ALLY AUTO (Near-Prime Control) — Added 2026-04-16
+# Source: SEC EDGAR 10-D Servicer Certificates (EX-99.1)
+AART_2024-2_Jan	Near-Prime Auto	Ally	0.79% (60+ accts)	—	—	0.5112% CNL	—	🟢 NORMAL	Jan-2026	EDGAR 10-D	18mo seasoned. $1.115B orig → $492M. WAC 10.14%. DQ trigger 3.40%, actual 0.88% PASS. Near-prime control — NO cure collapse pattern.
+AART_2024-2_Feb	Near-Prime Auto	Ally	0.73% (60+ accts)	—	—	0.5555% CNL	—	🟢 NORMAL	Feb-2026	EDGAR 10-D	19mo seasoned. Pool factor 42.01%. 60+ DQ DOWN 5bps, CNL UP 4bps — trivial magnitude, NOT cure collapse. DQ trigger 3.40%, actual 0.80% PASS. Ally stable like HAROT. Stress NOT migrating up quality stack.
+
+# KEY INSIGHT (Updated Apr 16):
 # Subprime 60+ DQ at ALL-TIME RECORD (6.9% Jan 2026). Prime pristine (0.4%). Gap = 17x.
-# State/age divergence extreme: NV 14.53% vs WI 7.62% = 6.91pp K-shape
-# CC issuers Discover/CapOne declining QoQ but SYF NCO spiking (5.8%)
-# SDART trust-level data current through Jan-2026 collection. EDGAR blocked — Feb/Mar 10-D pull needed manually.
+# CURE COLLAPSE CONFIRMED across SDART, EART, AMCAR (DQ↓ + CNL↑). Subprime-localized — Ally near-prime stable.
+# STRUCTURAL: EART Class E initial CE BREACHED. AMCAR Class E ~2mo cushion. SDART Class D ~7mo.
+# Terminal CNL projections: EART 32.3%, SDART 17.6%, AMCAR 14.5% — all above rating agency base cases.
+# Rating actions likely Q2-Q3 2026 on subordinate tranches. Structured credit stress → before HY OAS (294bps complacent).
+# K-shape at trust level: Subprime CNL 5-13% vs near-prime 0.56% vs prime 0.25%. 17-52x gaps.
 # Tricolor collapse + PrimaLend + Goeasy = subprime lender failure cascade. Warehouse lending tightening = credit supply squeeze.
-# CARL thesis = coiled spring with multiple triggers loading (gas $4+, food CPI, UI exhaustion). Employment shock accelerates but is no longer sole trigger.
+# MONITORING: Ally CNL >10bps/month sustained = stress migration signal. Currently 4bps = background noise.
