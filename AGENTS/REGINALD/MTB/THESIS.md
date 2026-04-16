@@ -69,8 +69,12 @@ WAL at least filed Exhibit Index amendments that let us deanonymize some facilit
 | Counterparty opacity | Zero names in 10-K, zero exhibits | WORST among regionals examined |
 | Provision direction | $140M (+12% QoQ) while NCO fell | Forward-looking reserve build |
 | NCO FY guide | 40bps (Q1 was 31bps → implies ~43bps Q2-Q4) | 🔴 Mgmt telegraphing deterioration |
-| CET1 consumption | -51bps in one quarter (buybacks) | Aggressive — target 10.0% floor |
-| FHLB borrowings | **Tripled** $2.1B → $5.7B (+176% QoQ) | 🔴 Even "good bank" leaning on FHLB |
+| CET1 consumption | -117bps in 12 months (11.50% → 10.33%). 8bps from MSR election, not organic. | 🔴 Hits 10% floor in 1-2 quarters |
+| Capital return | **228% payout ratio** ($1.517B returned vs $664M earned). Buyback avg ~$255 vs $207 close. | 🔴 Destroying capital while overpaying |
+| FHLB borrowings | Period-end **$7.85B** (+265% from $2.1B). Avg understated reality. | 🔴🔴 Even "good bank" pulling $8B FHLB |
+| FHLB cost premium | 3.86% FHLB vs 1.96% deposits = 190bps. ~$150M annualized excess cost. | NII headwind |
+| NIB deposit attrition | Average up QoQ but **period-end DOWN** -$617M. -6.4% YoY at period-end. | Late-quarter outflows masked by averaging |
+| FHA/VA borrower stress | 90+ DPD govt-guaranteed: **$634M, +72% YoY.** 98% of all 90+ DPD. | 🔴 Expanding into deteriorating FHA pool |
 | HTM unrealized losses | ($764M), duration 5.2 years | Hidden — not recognized but real |
 | CRE improvement = mostly construction | Permanent CRE only -$140M of -$400M total | Headline overstates office/permanent CRE progress |
 | Tape reaction | -1.55% on EPS beat, 1.5x volume | Market doesn't buy the story |

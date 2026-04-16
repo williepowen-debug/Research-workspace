@@ -37,7 +37,9 @@
 | Mgmt tone on CRE cycle | "turning the corner" | Cautious-optimistic. "You probably don't believe me anymore" on CRE growth call. | Candid but not alarmed. |
 | Mortgage warehouse counterparty disclosure | any names | **None** — same opacity as WAL | Negative for WAL read-through |
 | DOGE/DC commentary | any | **Zero mention — not in remarks, not asked by any analyst** | 🟠 DC corridor impact not priced. EGBN read-through. |
-| Borrowings (FHLB) | — | **FHLB tripled: $2.1B → $5.7B (+176% QoQ).** Siefers flagged. | 🔴 Even "good bank" pulling FHLB hard. LIQUID read-through. |
+| Borrowings (FHLB) | — | **Period-end $7.85B** (+265%). Avg was $5.7B — end-of-qtr worse. 3.86% cost vs 1.96% deposits. | 🔴🔴 ~$150M annualized excess funding cost. LIQUID read-through. |
+| Capital return | — | **228% payout ratio.** $1.517B returned vs $664M earned. Buyback avg ~$255 vs $207 close. | 🔴 Overpaying while telegraphing deterioration. |
+| FHA/VA 90+ DPD | — | **$634M govt-guaranteed 90+ DPD, +72% YoY.** 98% of total. Expanding into this pool. | 🟠 FHA stress signal. Subservicing headwind? |
 | NDFI growth source | — | **100% from mortgage credit intermediaries** ($5.6B → $6.5B). Other categories flat/declining. | 🔴 Growing the riskiest bucket fastest (Slide 18). |
 
 **All gaps closed** — transcript + investor deck + earnings release fully extracted. See `EARNINGS_Q1_2026.md` for complete record. Office-specific CRE breakdown and individual NDFI pillar sizes remain undisclosed by MTB.
