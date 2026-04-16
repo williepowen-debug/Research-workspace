@@ -141,6 +141,13 @@ Bank earnings day passed without a credit crack. APO/BIZD recoveries suggest PC 
 | **This week** | Bank earnings continuation, SOFR normalization, SRF usage |
 | **Weekly** | CLO pipeline, EUR/USD basis, Fed BS, reserve trajectory |
 
+## Active Playbooks / Monitors
+
+| File | Purpose | Active window |
+|------|---------|---------------|
+| `workbook/PLAYBOOK_SOFR_IORB_20260417.md` | 3-branch decision tree for SOFR confirmation prints (Apr 17 / 20 / 21 AM) | through Apr 21 |
+| `workbook/BDC_MARK_CONVERGENCE_MONITOR.md` | Public-BDC mark watch; TCW Red Lobster follow-through — checks my own "PC decelerating" narrative | rolling, Q1 earnings ~mid-May |
+
 ---
 
 ## Durable Signals Log (rolling)
