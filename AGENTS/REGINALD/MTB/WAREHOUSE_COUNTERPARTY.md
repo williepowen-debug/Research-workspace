@@ -36,6 +36,19 @@ $11.4B in undrawn commitments. If stressed counterparties draw down facilities (
 
 **Q1 2026 outstanding grew to $13.4B** (from $12.5B Dec 31) — already $0.9B more drawn. Directionally, counterparties are drawing.
 
+## Q1 Sub-Category Growth (Slide 18 vs 10-K Table 11) 🔴 NEW
+
+| Category | Dec 31 (10-K) | Mar 31 (Slide 18) | QoQ Change | Share of Growth |
+|----------|--------------|-------------------|------------|-----------------|
+| **Mortgage credit intermediaries** | $5.6B | **$6.5B** | **+$0.9B (+16%)** | **100%** |
+| Private equity funds | $3.3B | $3.5B | +$0.2B | — |
+| Business credit intermediaries | $1.8B | $2.0B | +$0.2B | — |
+| Consumer credit intermediaries | $0.7B | $0.6B | -$0.1B | — |
+| Other | $1.1B | $0.8B | -$0.3B | — |
+| **Total** | **$12.5B** | **$13.4B** | **+$0.9B** | — |
+
+**100% of Q1 NDFI growth came from mortgage credit intermediaries** — the bucket that contains warehouse lending, REIT credit facilities, and MSR secured financing. This is the exact channel where Apollo Atlas SP operates. MTB is growing the riskiest NDFI bucket fastest while the other categories are flat-to-declining.
+
 ---
 
 ## Key Discoveries

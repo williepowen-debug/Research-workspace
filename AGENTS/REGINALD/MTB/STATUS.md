@@ -31,14 +31,16 @@
 | CRE provision direction | vs Q4 ~$125M | **$140M (+12%)** 🔴 | **Bearish.** Provision UP while NCO DOWN = building reserves for future losses. |
 | Office NPL/criticized | <35% office-at-risk | **Not disclosed; not asked by analysts** | Gap — 29% prior at-risk. Zero office-specific data in Q1. |
 | NIM | >360bps | **3.71% (+2bps QoQ)** | Positive — top quartile. FY guide "high 3.60s." |
-| Criticized CRE $ | was $7.8B declining $671M/qtr | **$6.6B** (down from $7.3B Dec). CRE -$400M, C&I -$300M+. | Positive — decline continues. ~$700M reduction. |
-| AOCI commentary | Cat III impact estimate | **4bps impact fully phased-in.** Unrealized pre-tax GAIN $9M. | **Very small.** MTB securities well-managed. OZK/WAL likely far worse. |
+| Criticized CRE $ | was $7.8B declining $671M/qtr | **$6.6B** (-$706M). CRE -$400M (**construction -$260M**, perm only -$140M). | 🟠 Headline overstates — mostly construction payoffs, not office improvement. |
+| AOCI / Securities | Cat III impact estimate | **AFS: $9M gain (4bps). HTM: ($764M) hidden loss.** Total ($755M). | AFS clean. HTM $764M is real but unrecognized under current rules. |
+| NCO FY guide | — | **40bps +/-** (Slide 21). Q1 was 31bps → Q2-Q4 must avg ~43bps. | 🔴 Mgmt TELEGRAPHING credit deterioration in guidance. |
 | Mgmt tone on CRE cycle | "turning the corner" | Cautious-optimistic. "You probably don't believe me anymore" on CRE growth call. | Candid but not alarmed. |
 | Mortgage warehouse counterparty disclosure | any names | **None** — same opacity as WAL | Negative for WAL read-through |
 | DOGE/DC commentary | any | **Zero mention — not in remarks, not asked by any analyst** | 🟠 DC corridor impact not priced. EGBN read-through. |
-| Borrowings | — | **"As high as I can remember" per analyst Siefers.** Bible deflected. | 🟠 Funding signal. LCR 107% (above min, not excess). |
+| Borrowings (FHLB) | — | **FHLB tripled: $2.1B → $5.7B (+176% QoQ).** Siefers flagged. | 🔴 Even "good bank" pulling FHLB hard. LIQUID read-through. |
+| NDFI growth source | — | **100% from mortgage credit intermediaries** ($5.6B → $6.5B). Other categories flat/declining. | 🔴 Growing the riskiest bucket fastest (Slide 18). |
 
-**Gaps closed** — full transcript extracted. See `EARNINGS_Q1_2026.md` for complete record. Remaining: office-specific CRE breakdown (not disclosed), individual pillar sizes within NDFI three-pillar bucket (not disclosed).
+**All gaps closed** — transcript + investor deck + earnings release fully extracted. See `EARNINGS_Q1_2026.md` for complete record. Office-specific CRE breakdown and individual NDFI pillar sizes remain undisclosed by MTB.
 
 ---
 

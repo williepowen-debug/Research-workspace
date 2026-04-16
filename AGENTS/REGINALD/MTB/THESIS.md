@@ -52,7 +52,7 @@ WAL at least filed Exhibit Index amendments that let us deanonymize some facilit
 | CET1 | 10.33% | ~10.5% | ~10.1% | MTB strongest (but consuming fast) |
 | MI3 Hidden CRE | Not flagged | 37.6% (worst) | 24.2% (growing) | MTB clean on hidden CRE |
 | Insider selling | Not flagged | Zero purchases, Gleason frozen | — | MTB clean |
-| AOCI impact | 4bps (gain) | Unknown (likely material) | Unknown | MTB well-managed |
+| AOCI impact (AFS) | 4bps (gain) | Unknown (likely material) | Unknown | MTB AFS clean. BUT HTM has ($764M) hidden. |
 | ACL / Loans | 1.53% | 1.16% (below NCO!) | — | MTB adequate |
 
 **Bottom line:** MTB's income statement and credit metrics are genuinely strong. The short case against OZK/WAL is NOT the same as the MTB case.
@@ -64,11 +64,15 @@ WAL at least filed Exhibit Index amendments that let us deanonymize some facilit
 | Metric | MTB | Assessment |
 |--------|-----|------------|
 | NDFI commitment/outstanding ratio | 1.9x ($23.9B / $12.5B) | HIGH — $11.4B contingent |
+| NDFI Q1 growth = 100% mortgage credit | $5.6B → $6.5B (+16% QoQ) | 🔴 Growing the riskiest bucket fastest |
 | Bayview concentration | $635M lending + $3.5B deposits + $157B servicing | GROWING — multi-vector dependency |
 | Counterparty opacity | Zero names in 10-K, zero exhibits | WORST among regionals examined |
 | Provision direction | $140M (+12% QoQ) while NCO fell | Forward-looking reserve build |
+| NCO FY guide | 40bps (Q1 was 31bps → implies ~43bps Q2-Q4) | 🔴 Mgmt telegraphing deterioration |
 | CET1 consumption | -51bps in one quarter (buybacks) | Aggressive — target 10.0% floor |
-| Borrowings | "As high as I can remember" (analyst) | Funding pressure signal |
+| FHLB borrowings | **Tripled** $2.1B → $5.7B (+176% QoQ) | 🔴 Even "good bank" leaning on FHLB |
+| HTM unrealized losses | ($764M), duration 5.2 years | Hidden — not recognized but real |
+| CRE improvement = mostly construction | Permanent CRE only -$140M of -$400M total | Headline overstates office/permanent CRE progress |
 | Tape reaction | -1.55% on EPS beat, 1.5x volume | Market doesn't buy the story |
 | Consumer NDFI undisclosed | $731M outstanding, not mentioned on call | What is this? |
 
