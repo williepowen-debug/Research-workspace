@@ -109,11 +109,19 @@ Bible described three pillars comprising >2/3 of NDFI:
 
 ## CAPITAL & BUYBACKS
 
-### CET1 Trajectory
-- **10.33%** (-51bps QoQ). Drivers: $1.25B buybacks + RWA increase, partially offset by earnings.
-- **Target: moving to bottom of range (10.0%).** Bible: "continued improvement in asset quality" justifies lower capital.
-- Without buybacks: accretes ~25bps/quarter. So $1.25B in buybacks consumed ~76bps of capital generation.
-- **Bible explicitly said they would pause buybacks if stress emerges:** "If we see signs of stress, we will stop buybacks and accrete capital."
+### CET1 Trajectory 🔴 UPDATED FROM RELEASE
+- **10.33%** (-51bps QoQ, -117bps YoY from 11.50%). Drivers: $1.25B buybacks + RWA increase, partially offset by earnings.
+- **Without MSR fair value election, CET1 would be 10.25%.** Election added $263M to capitalized assets, $197M to retained earnings = +8bps. So only 8bps of the margin above 10.25% came from an accounting change, not organic capital generation.
+- **Target: moving to bottom of range (10.0%).** At current trajectory, hits floor in 1-2 quarters.
+- **RWA: $164.2B estimated.** Tier 1 capital: 11.81%. Total capital: 13.61%.
+- Without buybacks: accretes ~25bps/quarter. But Bible is deliberately depleting capital.
+
+### Capital Return — 228% Payout 🔴 NEW FROM RELEASE
+- **Total capital return Q1: $1.517B** — buybacks $1.25B + common div $224M + preferred div $43M.
+- **Net income: $664M.** Payout ratio: **228%.** Returned more than double earnings in one quarter.
+- **5.5M shares repurchased** at average ~$255/share. Stock closed Mar 31 at $207. Front-loaded the buyback at much higher prices — significantly overpaid.
+- **Period-end shares: 146.9M** (down from 151.8M QoQ, 162.6M YoY = **9.6% of shares eliminated in 12 months**).
+- Bible explicitly said they would pause buybacks if stress emerges: "we will stop buybacks and accrete capital."
 
 ### Regulatory Capital Proposal (ERBA)
 - **~90bps CET1 benefit** under standardized approach from lower RWAs (LTV-driven — MTB's conservative lending helps).
@@ -146,12 +154,15 @@ Bible described three pillars comprising >2/3 of NDFI:
 - Deposit beta: 56% (cutting cycle); expected low-to-mid 50s continuing.
 - Bible: "customer deposits outpacing loan growth by more than $1 billion."
 
-### Borrowings 🔴 CONFIRMED FROM EARNINGS RELEASE
-- **Short-term borrowings: $5.695B average** (up from $2.064B Q4 = **+176%, nearly TRIPLED**).
-- Source explicitly stated: **"increase in short-term borrowings from the FHLB of New York."**
-- Long-term borrowings: -12% to $11.064B (senior note maturities).
-- Analyst Siefers (Piper Sandler) flagged as "about as high as I can remember." Bible deflected with "managing to ratios" + "ICS volatility."
-- **REGINALD read:** Even the best-run regional is leaning hard on FHLB. Short-term borrowings tripled in one quarter. Combined with deposits -$800M and $1.25B buybacks, this is a balance sheet being run at deliberately thin margins. LCR 107% (above minimum, not excess). Direct read-through to LIQUID's FHLB thesis — FHLB advances from all regionals presumably rising if MTB alone pulled +$3.6B.
+### Borrowings 🔴🔴 WORSE THAN AVERAGE — PERIOD-END $7.85B
+- **Average short-term borrowings: $5.695B** (+176% QoQ). But **period-end: $7.851B** (+265% from $2.149B Dec 31).
+- Borrowings were RAMPING throughout Q1 — ended much higher than average. The average understated reality.
+- Source: **FHLB of New York.** Long-term borrowings: $11.175B period-end (+2%).
+- FHLB cost: **3.86%** vs deposit cost 1.96% = **190bps premium.** At $7.85B period-end, ~$150M annualized excess funding cost vs deposits.
+- **Deposits declined $3.2B QoQ at period-end** ($166.9B → $163.7B). NIB deposits: average up +$363M but **period-end DOWN -$617M** — late-quarter outflows masked by averaging.
+- Combined: MTB replaced $3.2B lost deposits + funded $1.2B loan growth + bought $2B securities = all funded by $5.7B net new FHLB. This directly explains the $27M NII decline.
+- Analyst Siefers flagged as "about as high as I can remember." Bible deflected.
+- **REGINALD read:** Even the best-run regional is pulling $8B from FHLB at quarter-end. Direct read-through to LIQUID's system-wide FHLB thesis. If MTB alone drew +$5.7B net, system-wide FHLB advances are likely accelerating toward our $600B+ threshold.
 
 ---
 
@@ -169,6 +180,13 @@ Bible described three pillars comprising >2/3 of NDFI:
 - **Mortgage subservicing:** New business, FHA-focused (higher-touch, higher-fee). $30-40M annual run rate starting 2H26 at 50% margin.
 - Trust businesses (wealth + corporate) growing. Treasury management +HSD% growth.
 - GL conversion completed Apr 12 weekend — will enable better fee segment disclosure next quarter.
+
+### FHA/VA Borrower Stress 🔴 NEW FROM RELEASE
+- **90+ DPD government-guaranteed loans: $634M** (up from $543M Q4, **$368M Q1 2025 = +72% YoY**).
+- This is **98% of all 90+ DPD loans** ($646M total). Essentially ALL late-payment growth is in FHA/VA borrowers.
+- **Contradiction:** Bible is EXPANDING into FHA subservicing ($30-40M new revenue) while FHA borrower delinquency is surging 72% YoY. The new business launches into a deteriorating borrower pool.
+- Government-guaranteed nonaccrual: $85M (stable, up from $69M Q1 2025).
+- **Read-through:** If FHA stress worsens (CARL thesis on consumer DQ), MTB's subservicing revenue faces headwinds AND the Bayview relationship deepens into a weaker borrower base (Bayview sub-services $157B of residential mortgages through MTB — unknown FHA/VA %).
 
 ---
 
