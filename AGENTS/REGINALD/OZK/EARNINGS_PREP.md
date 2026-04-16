@@ -1,8 +1,9 @@
 # OZK — Q1 2026 Earnings Prep
-**Earnings Date:** April 21, 2026 (conf call Apr 22) | **Days Out:** 14 | **Last Updated:** Apr 7, 2026
-**Price:** $46.44 (Apr 7) — close to SCENARIOS.md $44.70. Recalibration minor.
+**Earnings Date:** April 21, 2026 (conf call Apr 22) | **Days Out:** 5 | **Last Updated:** Apr 16, 2026
+**Price:** $47.85 (Apr 16, -0.06% session) — close to SCENARIOS.md $44.70. Recalibration minor.
 **CIK:** 0001569650 | **Positions:** $42.5P May×2 | $42.5P Aug×1 | $45P Aug×4
 **Consensus:** $1.52 EPS (Zacks Feb 2026 revision, down from $1.58). FY2026 $6.02. Ratings 2B/5H/1S, PT $53.71.
+**Reports same day as WAL** — position decisions must be finalized pre-Apr 21. ZION Apr 20 is only pre-OZK/WAL sector indicator.
 
 *Delete after earnings processed.*
 
@@ -10,10 +11,129 @@
 
 ## ⚠️ FLAGS BEFORE READING
 
-1. **SCENARIOS.md less stale** — calibrated at $44.70, stock now $46.31. Closer than before (~$49 in Mar). Still worth a quick refresh before Apr 21 but not urgent.
-2. **SI refresh needed** — KB-OZK-160 shows 13.81% / 11.2 DTC as of Mar 25. Pull FINRA/Ortex before earnings.
-3. **⚠️ EARNINGS DATE MOVED** — OZK moved from Apr 21 to Apr 21 (GlobeNewswire Mar 31). This means OZK and WAL report THE SAME DAY. The 5-day read-through window is gone. See revised WAL section below.
+1. **SCENARIOS.md recalibration** — calibrated at $44.70, stock $47.85 (Apr 16). Gap ~$3. Still close; refresh optional before Apr 21 but not urgent.
+2. **SI refresh needed** — KB-OZK-160 shows 13.81% / 11.2 DTC as of Mar 25. Pull FINRA/Ortex Apr 18-19 before earnings.
+3. **⚠️ EARNINGS DATE MOVED** — OZK moved from Apr 16 to Apr 21 (GlobeNewswire Mar 31). This means OZK and WAL report THE SAME DAY. The 5-day read-through window is gone. See SAME-DAY REPORTING section below.
 4. **Consensus EPS filled** — Zacks $1.52 (Feb 2026 revision). Beat/miss threshold: >$1.55 = beat, <$1.48 = miss.
+5. **Cohort context** — 3 prior Q1 reporters (MTB, CFG, PNC) + 2 pre-earnings baselines (FITB, RF) now feeding into OZK read. See COHORT READ-THROUGHS section below.
+
+---
+
+## COHORT READ-THROUGHS — WHAT THE APR 15-17 Q1 WAVE TEACHES FOR OZK
+
+*Added Apr 16 after 3 prior reporters (MTB, CFG, PNC) + 2 pre-earnings baselines (FITB, RF). OZK is CRE/construction-concentrated — sub-sections ordered by relevance: reserve posture → reclassification → FHLB → NDFI → fade.*
+
+### 1. Reserve Posture — OZK Already Shows The CFG Pattern
+
+| Bank | Provision QoQ | ACL direction | Credit direction | Read |
+|---|---|---|---|---|
+| MTB | Build | Stable | Managed | Neutral |
+| **CFG** | **Release** (1.53→1.52%) | **Shrinking** | CRE nonaccruals **+10% QoQ** | 🔴 **THE TELL** |
+| PNC | **+51% provision** | Building | Mixed (FirstBank noise) | Management seeing cycle |
+| FITB (pre) | -40% QoQ | 1.96% stable | Clean base | Benign release |
+| RF (pre) | Modest release | 1.79% stable | Clean IRE | Benign release |
+
+**OZK is already doing exactly what CFG did:** Q4 2025 provision $50.6M (flat), ACL $631.9M on growing noncurrent ($341M → 1.06%), reserves depleting via cash-pay interest conversion [KB-OZK-090]. **OZK is essentially "CFG one quarter ahead"** — release-into-deterioration pattern already running for 2+ quarters.
+
+**Cohort-informed reframe:** Prior to cohort, OZK ACL melting looked OZK-specific. Now positioned as **the regional-bank opacity pattern at scale** — CFG's Q1 print proved it's the sector mechanism. Analyst Q&A will now know to ask about ACL-to-noncurrent coverage directly.
+
+**OZK tripwire [cohort-sharpened]:**
+- 🔴 Q1 provision <$50M AND ACL <$610M = continuing CFG-pattern release into deterioration (base case, but Q&A pressure now sharper)
+- 🔴 Q1 provision <$40M AND noncurrent rising = most aggressive version; management cannot deflect with "conservative posture" boilerplate
+- 🟡 Q1 provision >$80M AND ACL rising = admission of cycle. Thesis strengthens fundamentally; short-term position math weakens (stock may gap down less on explicit admission)
+
+### 2. Reclassification at Bucket-Level — OZK Is Already Gleason-Confessed
+
+**Cohort evidence:**
+- **CFG:** $2.9B "Secured private credit finance" carved out of "Other F&I" at FY2025 10-K — exact reconciliation ($6,446M − $3,538M = $2,908M)
+- **PNC:** Split Retail/wholesale into separate lines FY2025 10-K
+- **FITB:** Table 29 identical YoY — clean counter-example, zero reclassification
+
+**OZK's version is already on record:** Gleason himself stated NDFI loans "are actually RESG loans in debt funds" [KB-OZK-018-027]. CIB segment's $2.3-2.9B is CRE reclassified. MI3 $1.29B hidden CRE inside C&I. **OZK has the most explicit bucket-level relabeling of any bank in the cohort** — management has already admitted the mechanism publicly.
+
+**Cohort implication for OZK:** The reclassification analyst-question is now mandatory across regionals. OZK cannot deflect with "that's just how we report" — CFG's clean reconciliation makes the question universal. CFG Q1 saw **two analysts ask about private credit for the first time ever** (Siefers/Piper, Chiaverini/Jefferies). By Apr 21, analyst Q&A on NDFI-to-RESG reconciliation is near-certain at OZK.
+
+**OZK tripwire:**
+- 🔴 **Bear-confirming:** Any new Table 14 equivalent line item in Q1 supplement (follows CFG carve-out pattern at OZK scale)
+- 🔴 **Max bear:** Analyst presses Gleason on "NDFI-to-RESG" reconciliation with specific $ ask, response is circular → V1 catalyzing via Q&A (not requiring voluntary disclosure)
+- 🟢 **Challenge:** OZK voluntarily breaks out CIB reconciliation with specific $ (out of Gleason character — unlikely)
+
+### 3. FHLB Acceleration — OZK's Deposit-Heavy Model Is Different
+
+| Bank | FHLB Q1 move | Read |
+|---|---|---|
+| MTB | +265% avg, $7.85B | Contingency |
+| CFG | **60x YoY**, $2.5B | Flipped 🔴 |
+| PNC | +64.7% QoQ period-end, +$8.4B | Largest $ move |
+| FITB (pre) | -48% QoQ avg | Outlier going in |
+| RF (pre) | -30% YoY | Outlier going in |
+
+**3/3 reporters surged at period-end**, but Q4 averages at FITB/RF were declining — FITB/RF Apr 17 resolves whether the Q1 spike is universal or selective.
+
+**OZK is structurally different:** OZK is ~95%+ deposit-funded; minimal FHLB history. A Q1 FHLB surge at OZK would be MORE anomalous than at MTB/CFG/PNC because OZK doesn't use FHLB as a structural funding tool.
+
+**OZK tripwire:**
+- 🔴 **Bear-confirming:** Any Q1 FHLB advances >$500M from near-zero baseline = deposit-base weakness; extraordinary given OZK funding model
+- 🔴 **Bear-confirming:** Any brokered deposit surge OR wholesale funding line emergence
+- 🟢 **Challenge:** FHLB advances immaterial AND deposit costs declining = funding strength preserved. **Neutral for thesis** — funding isn't OZK's vulnerability; credit is.
+
+### 4. NDFI Disclosure Spectrum — OZK Sits Mid-Tier
+
+| Bank | Total NDFI | Format | % of loans |
+|---|---|---|---|
+| PNC | $73B | Slide 11: 5-way $ thematic rollup | 20% |
+| CFG | $19.6B | Slide 24: 4-way $ (**deck only**) | 13% |
+| FITB (pre) | $9.5B | Slide 19: 6-way % (no $) | 8% |
+| MTB | Partial | Slide 19 + $8.9B hidden | ~10% |
+| **OZK** | **$2.74B NDFI explicitly** | CIB + Gleason "actually RESG" confession | ~2% |
+| RF (pre) | Zero | Table 11 $18.3B blended | unknown |
+
+**OZK disclosure is moderate** — better than RF/WAL (no sub-bucketing) but far less granular than PNC. Critical: Gleason has ALREADY confessed the hidden mapping. Follow-up is now "how much, exactly?"
+
+**Key PNC insight:** Table-based "Financial services" line understates thematic NDFI by ~42% ($73B deck vs $42.2B Table 16). For OZK: the $2.74B stated NDFI could be ONE slice of a larger multi-bucket exposure spread across CIB + MI3 C&I + RESG-labeled. Realistic thematic rollup could be **$5-8B** (2-3x stated) when CIB-to-RESG reconciliation is applied.
+
+**OZK tripwire:**
+- 🔴 **Bear-confirming:** Q1 deck provides thematic NDFI rollup >$4B (larger than stated Table 14 exposure — confirms multi-bucket hiding)
+- 🔴 **Bear-confirming:** Analyst forces specific CIB-to-CRE-linkage breakdown; Gleason non-answer = V1 catalyzing via Q&A
+- 🟡 **Status quo:** OZK repeats existing disclosure level; analyst pressure rises but no new data
+
+### 5. Beat-Fade Tape — OZK Complicated By 13.81% Short Interest
+
+| Bank | Beat | Day-1 | NDFI disclosure |
+|---|---|---|---|
+| MTB | Yes | **-1.55%** | Partial |
+| CFG | Yes | -0.63% pre-call | Moderate (deck-only) |
+| PNC | Yes | -0.03% 2d | Granular |
+
+**OZK fade dynamics diverge from the cohort:** 13.81% short interest + 11.2 DTC creates asymmetric squeeze risk. The opacity-fade inverse correlation (more opaque → larger fade) doesn't cleanly apply because squeeze dynamics can overwhelm in the first 1-2 hours.
+
+**OZK tape expectation (assuming beat vs $1.52 consensus):**
+- **Bear case (NCO >$90M, provision >$80M, noncurrent rising):** -3% to -5% fade — cohort pattern + OZK-specific bad news compound
+- **Base case (NCO $60-80M, messy but no catalyst):** -1% to -3% — cohort drag + ongoing concerns
+- **Squeeze case (beat all + any positive surprise):** +5% to +10% pop in first hour on short cover; stock likely settles -2% to +2% by close as shorts re-enter at higher price. **Sustained rally requires fundamental break** (IQHQ tenant, SVP loss smaller than feared, guidance raise).
+
+**Position implication:** Aug positions have runway through Q2. Short-cover pop is a TIMING risk for May $42.5P but does not change thesis arc — KB-OZK-088 interest reserve depletion math is mechanical, not tone-dependent.
+
+---
+
+## ZION APR 20 — ONLY PRE-OZK/WAL SECTOR INDICATOR
+
+With OZK and WAL now same-day, ZION Apr 20 is the only pre-read.
+
+**ZION's overlap with OZK is thinner than with WAL:**
+- ZION geography = Mountain West (CA/NV/AZ/UT/ID/WY). OZK overlap: AZ/NV only (~20% of portfolio).
+- ZION is C&I-heavy commercial bank, not a construction/RESG lender.
+- ZION Cantor fraud exposure doesn't apply to OZK.
+
+| ZION Apr 20 outcome | OZK Apr 21 implication |
+|---|---|
+| CRE nonaccrual surge (Mountain West) | AZ/NV read-through on OZK's AZ + NV book (~20%); moderate signal |
+| Office CRE write-downs | Sector read on OZK's $2.9B RESG distressed cluster (SD/Boston/Chicago/Seattle); modest — geography different |
+| Provision build ($70M+) | Supports CFG-pattern being universal → elevates OZK Q&A pressure on ACL coverage |
+| Clean print, no new CRE language | OZK thesis unchanged; cohort pressure slightly off |
+| Guidance cut or capital raise | Sector max signal — hold all OZK positions, add if available |
+
+**Timing:** ZION typical ~5:30 PM ET release Apr 20; call Apr 21 AM. Plan: read ZION release overnight Apr 20 → 21, scan for Mountain West CRE + provision language, pivot to OZK+WAL pre-market decisions.
 
 ---
 
@@ -81,9 +201,9 @@ These are binary signals. Cross one → thesis confirmed or refuted on that dime
 
 ## PRE-EARNINGS DECISION MATRIX
 
-**Current positions:** $42.5P May×2 | $42.5P Aug×1 | $45P Aug×4 | Price: ~$49
+**Current positions:** $42.5P May×2 | $42.5P Aug×1 | $45P Aug×4 | Price: $47.85 (Apr 16)
 
-### IF STOCK IS $46-52 GOING INTO APRIL 16 (NEAR CURRENT)
+### IF STOCK IS $46-52 GOING INTO APRIL 21 (CURRENT RANGE)
 
 | Scenario | What Happens on Call | May $42.5P | Aug $42.5P | Aug $45P (×4) | Action |
 |----------|---------------------|------------|------------|---------------|--------|
@@ -92,12 +212,12 @@ These are binary signals. Cross one → thesis confirmed or refuted on that dime
 | **Bull relief** | NCO <$50M, ACL flat, positive color | Lose ~50% | Hold | Slight loss | **Hold Aug — May loss capped** |
 | **Squeeze** | Beat all metrics + tenant news | -80% May | -40% Aug | -20-30% Aug | **Pre-planned sizing survives this** |
 
-### IF STOCK RUNS TO $53-57 BEFORE APRIL 16 (RALLY SCENARIO)
+### IF STOCK RUNS TO $53-57 BEFORE APRIL 21 (RALLY SCENARIO)
 - May $42.5P likely near-worthless → **consider rolling May to Aug** if IV allows
 - Aug $45P at ~$49: 8pts OTM → meaningful delta reduction → consider adding 1-2 Aug $47P or $48P contracts to reset delta
 - Do NOT trim Aug positions unless stop-loss hit: cost basis committed, max loss defined
 
-### IF STOCK DROPS TO $44-47 BEFORE APRIL 16 (DRIFT DOWN)
+### IF STOCK DROPS TO $44-47 BEFORE APRIL 21 (DRIFT DOWN)
 - May $42.5P gains value → **lock 50% of gain on 1 contract**, let 1 ride into earnings
 - Aug positions improve → hold unchanged
 - Consider adding 1 Aug $45P at any significant pull to $44 (adds to winner, not averaging loser)
@@ -221,17 +341,18 @@ Expect these narratives. Know the counter before they speak.
 
 ---
 
-## DATA TO PULL BEFORE APR 16
+## DATA TO PULL BEFORE APR 21
 
 | Item | Source | Urgency |
 |------|--------|---------|
-| **SI refresh** | FINRA/Ortex | ✅ Checked Apr 7 — no new data since Mar 25 (13.81%/11.2 DTC). Re-pull ~Apr 14. |
-| **8-K watch** (CIK 0001569650) | EDGAR | ✅ Checked Apr 7 — no new 8-Ks. SVP loss NOT disclosed. Check again ~Apr 14. |
-| **SVP loan sale disclosure** | Check if Q1 8-K filed | ✅ No 8-K yet. Remains KEY Q1 unknown. |
-| **IQHQ tenant news** | Bisnow/CoStar | ✅ Checked Apr 7 — still 3.3% lab (JCVI 50K only). Retail 50% of 200K. No new lab tenants. |
-| **Peer earnings** | ZION ~Apr 20, WAL ~Apr 21 | MEDIUM — sector read-through |
+| **SI refresh** | FINRA/Ortex | Last pulled Mar 25 (13.81%/11.2 DTC). **Re-pull Apr 18-19.** |
+| **8-K watch** (CIK 0001569650) | EDGAR | Apr 7 check: no new 8-Ks. SVP loss NOT disclosed. **Re-check Apr 18-20.** |
+| **SVP loan sale disclosure** | Check if Q1 8-K filed | No 8-K as of Apr 7. Remains KEY Q1 unknown — if still undisclosed by Apr 21, management must address on call. |
+| **IQHQ tenant news** | Bisnow/CoStar | Apr 7 check: 3.3% lab (JCVI 50K only). Retail 50% of 200K. **Re-check Apr 18** — any sub-lease or new tenant announcement pre-earnings. |
+| **Peer earnings** | **OZK + WAL same-day Apr 21.** ZION Apr 20 only pre-read. FITB/RF Apr 17 = cohort read-through. | HIGH — see SAME-DAY REPORTING + COHORT sections |
 | **Life sci vacancy update** | Prompt #20 (Will running) | MEDIUM — SD/Boston/national |
 | **Bioterra status** | CoStar, TRD | ✅ Apr 7 — COMPLETE, no tenants, 29.7% SD vacancy |
+| **[NEW]** OZK FY2025 10-K Table concentration | EDGAR | **HIGH** — pre-call pull to test bucket-level reclassification pattern (see COHORT section) |
 
 ---
 
@@ -334,7 +455,7 @@ Expect these narratives. Know the counter before they speak.
 
 ---
 
-## KB GAPS REMAINING (As of Mar 26)
+## KB GAPS REMAINING (As of Apr 16)
 
 These 8 gaps represent the primary blind spots. KB rows #8, 9, 10, 13, 19, 20 unresolved.
 
@@ -348,6 +469,6 @@ These 8 gaps represent the primary blind spots. KB rows #8, 9, 10, 13, 19, 20 un
 | **Peer 2022 vintage maturity #13** | Confirms $13.8B maturity wall timing is 2026 front-loaded | ❌ Unverified from primary data |
 | **Metro conditions #19** | Confirms distressed cluster geography (SD/Boston/Chicago) | ❌ Will running externally |
 | **Life sci vacancy deep dive #20** | SD 35% vacancy still current? National 23%? | ❌ Will running externally |
-| **Short interest current** | 13.81% / 11.2 DTC from Mar 25 — stale before Apr 21 | ⚠️ Pull FINRA/Ortex by Apr 10 |
-| **SCENARIOS.md recalibration** | Stock at ~$49, scenarios built at $44.70 — all EV wrong | ⚠️ Needs price refresh before Apr 21 |
+| **Short interest current** | 13.81% / 11.2 DTC from Mar 25 — stale before Apr 21 | ⚠️ Pull FINRA/Ortex Apr 18-19 |
+| **SCENARIOS.md recalibration** | Stock at $47.85 (Apr 16), scenarios built at $44.70 — gap ~$3 | ⚠️ Optional refresh before Apr 21; not urgent |
 
