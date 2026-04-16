@@ -34,12 +34,25 @@
 
 ## Session Notes
 
-⚠️ **Open question:** Can we resolve the 5% vs 40% CFG fund finance growth discrepancy? The FY2024 10-K (EDGAR) would show whether Table 14 line items existed prior — if not, confirms reclassification. This is testable and would strengthen the Layer 3 framework.
+⚠️ **Open question:** CFG deck Slide 24 introduced an "ABS finance" $1.8B line item that has no equivalent in the 10-K Table 14. Is this a new product or a reclassification from existing C&I? Pulling the FY2024 10-K from EDGAR would test whether ABS finance existed previously — bigger reclassification signal than the original 5% vs 40% question.
 
 ### CHANGES SINCE LAST SESSION
 *(populated at next boot via market.py)*
 
-### LAST SESSION (Apr 16 — CFG Q1 earnings, thesis v1.4)
+### LAST SESSION (Apr 16 — CFG Q1 earnings, thesis v1.4, deck mining)
+
+**[Apr 16 Round 2 — accidental respawn, mined CFG deck]**
+- Mined `CFG/sources/CFG-earnings-presentation-4-16-26.pdf` (was unread in Round 1)
+- Slide 24: $14.7B Private Capital + $4.9B other = $19.6B preliminary NDFI. Disclosure exists in deck only — NOT press release/supplement
+- New "ABS finance" $1.8B line item — no 10-K Table 14 equivalent. Possible reclassification.
+- 5% vs 40% partially resolved: capital call + PC finance growing ~2.85% QoQ ≈ 11.9% annualized. Trajectory moderated.
+- Slide 23 confirms hiding place: capital call + PC finance itemized inside C&I "Finance and Insurance" $13.3B bucket
+- Slide 26: ACL release headline (1.53→1.52%) masks Commercial building (+6bps both C&I and CRE), Retail releasing
+- Slide 27: Mortgage 90+ accruing UP 0.40→0.51%; FHA/VA/USDA-guaranteed bucket growing ($141M→$179M). CARL FHA stress touches CFG
+- **Files updated:** CFG/STATUS.md (3 edits — verdict #3, new DECK FINDINGS section, Priority 6), parent STATUS.md (2 edits — sector tone table + opacity bullet), MEMORY.md
+- **Behavior change:** WAL/OZK earnings decks must be mined alongside press release on Apr 21 — pattern shows decks contain disclosure absent from headlines
+
+**[Apr 16 Round 1 — original CFG session]**
 
 **CFG Q1 fully integrated (earnings release + supplement + transcript):**
 - `CFG/STATUS.md` — post-earnings dashboard with all Q1 actuals, transcript mining, discrepancy analysis, three-layer C&I framework

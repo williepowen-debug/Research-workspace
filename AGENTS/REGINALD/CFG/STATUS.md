@@ -11,7 +11,7 @@
 
 1. **CRE nonaccruals rose 10% QoQ** ($618M → $679M) while CRE balances fell 1%. Nonaccrual *rate* accelerated 2.51% → 2.80%. "Credit trending favorably" masks deteriorating CRE book.
 2. **FHLB advances exploded 60x YoY** ($42M → $2,513M). +25% QoQ. Classic contingency behavior — reversed the "declining, not stressed" status from 10-K. 🔴 FLIPPED.
-3. **Zero BDC/fund finance disclosure** in Q1 press release or supplement. C&I grew 15% YoY to $50.3B — all the risk lives here, none broken out. Must wait for Call Report.
+3. **Fund finance disclosure exists in DECK ONLY** (Slide 24) — $14.7B Private Capital + $4.9B other = $19.6B preliminary NDFI. Press release + supplement: zero. The deck adds an "ABS finance" $1.8B line item not in 10-K Table 14 — possible reclassification. C&I grew 15% YoY to $50.3B with capital call ($8.8B) + PC finance ($4.1B) sitting inside the C&I bucket.
 
 **Read-through:** CFG joins MTB in "managed headline, buried balance sheet" pattern. MTB faded 1.55% on an EPS beat. CFG -0.63% pre-call — tape TBD.
 
@@ -79,6 +79,72 @@ CRE nonaccruals UP while NCOs flat/down = accumulation, not resolution. Extend-a
 | Total | **$498M** | $326M | $386M |
 | Net income | $517M | $528M | $373M |
 | Payout ratio | **96%** | 62% | 104% |
+
+---
+
+## DECK FINDINGS (Slides 23-27) — Mined Apr 16 (post-initial)
+
+The earnings deck contains material disclosure absent from the press release and supplement. Most important: **fund finance exists in the deck**, contradicting initial "zero disclosure" finding.
+
+### Slide 24 — "$14.7B Private Capital related lending" (NEW DISCLOSURE)
+
+| Sub-bucket | Q1 2026 ($B) | % CFG loans | 10-K (Dec 2025) | QoQ Δ |
+|------------|-------------|-------------|-----------------|-------|
+| Capital call facilities | **$8.8** | ~6% | $8.579 | +2.6% |
+| Private Credit finance | **$4.1** | ~3% | $3.963 | +3.4% |
+| ABS finance | **$1.8** | ~1% | **NOT IN TABLE 14** | NEW |
+| **Total Private Capital** | **$14.7** | ~10% | $12.542 (combined) | +2.85% (ex-ABS) |
+| + Other NDFI (REIT $1.8, Pmt Proc $1.4, Insur $0.7, AM $0.6, Other $0.5) | $4.9 | ~3% | — | — |
+| **Preliminary Q1 NDFI total** | **$19.6** | ~13% | — | — |
+
+**Footnote:** *"Represents preliminary Non-depository Financial Institutions (NDFI) balance pending filing of the Call Report for March 31, 2026."* — first time CFG self-classifies its NDFI total publicly.
+
+### 5% vs 40% Discrepancy — Partially Resolved
+
+Capital call + PC finance growing **~2.85% QoQ ≈ 11.9% annualized** in Q1. That's between Van Saun's "5%/yr" forward claim and the 39.7% YoY figure (which captured CY2024→CY2025). Trajectory has moderated — but **ABS finance ($1.8B) is the wild card**. If it was reclassified from elsewhere in C&I, apparent slowdown is partly statistical. Still need FY2024 10-K to test.
+
+### Slide 23 — Commercial Portfolio Detail (Hiding Place Confirmed)
+
+"Finance and Insurance" sits inside C&I as $13.3B (9% of CFG). Itemized:
+- Capital call facilities: $8.8B (6%)
+- Private Credit Finance: $4.1B (3%)
+- Other Finance & Insurance: $0.4B residual
+
+**Direct evidence for the v1.4 "C&I Hiding Place" thesis** — fund finance and PC are explicit C&I sub-lines, not separate buckets.
+
+Other deck color:
+- Leveraged loans ~1.3% of total CFG, granular ~$11M avg hold
+- Commercial risk ratings: 6% B- and lower (down from 7%), 64% IG-equiv (stable), 17% BB+ to BB- (up 1pt)
+- General Office: ACL 9.1% + cumulative C/Os since 3/31/23 → ~20% potential loss on $4.1B base portfolio (stable QoQ)
+- CRE down -9% YoY, paydown-driven
+
+### Slide 26 — ACL Coverage by Segment (Mixed Signal)
+
+| Category | Q1 ACL ratio | Q4 ACL ratio | Direction |
+|----------|--------------|--------------|-----------|
+| C&I | 1.43% | 1.37% | Building (+6bps) |
+| CRE | 2.41% | 2.35% | Building (+6bps) |
+| **Total Commercial** | **1.75%** | 1.70% | **Building** |
+| Residential mortgage | 0.59% | 0.64% | Releasing (-5bps) |
+| Home equity | 0.81% | 0.87% | Releasing (-6bps) |
+| Auto | 0.42% | 0.42% | Flat (runoff) |
+| Education | 3.03% | 3.18% | Releasing |
+| **Total Retail** | **1.27%** | 1.35% | **Releasing** |
+
+**Headline ACL release (1.53% → 1.52%) masks segment divergence:** Commercial ACL building (CRE + C&I), Retail releasing aggressively (mortgage + home equity). Net flat. Confirms commercial stress-build behind the headline.
+
+### Slide 27 — Delinquency Detail
+
+| Category | Nonaccrual Q1 | Nonaccrual Q4 | 90+ Accruing Q1 | Read |
+|----------|---------------|---------------|-----------------|------|
+| C&I | **0.37%** | 0.56% | 0.00% | Improved (drove total commercial improvement) |
+| CRE | **2.80%** | 2.51% | 0.11% | **Deteriorating** (confirms +10% QoQ nonaccrual move) |
+| Total Commercial | 1.16% | 1.21% | 0.04% | Improvement is C&I-driven, not CRE |
+| Residential mortgage | **0.61%** | 0.56% | 0.51% | **Early retail crack** — 90+ accruing up from 0.40% |
+| Home equity | 1.67% | 1.67% | — | Stable |
+| Total Retail | 1.12% | 1.13% | 0.13% | Flat |
+
+**New observation:** Mortgage 90+ accruing UP from 0.40% → 0.51% (+11bps QoQ). Slide 27 footnote: "$179M of these loans are FHA/VA/USDA-guaranteed (vs $141M Q4)" — Ginnie/government-guaranteed bucket is growing. CARL non-bank servicer / FHA stress thesis touches CFG indirectly here.
 
 ---
 
@@ -408,10 +474,11 @@ FY2025: Net income $1.8B, EPS $3.86 (+19% underlying). Beat 3 of last 4 quarters
 - [x] Did any analyst ask about fund finance? **YES — 2 of 8.** Siefers asked about appetite; Chiaverini asked about leaning in.
 - [ ] Investor Day / conference presentations — deeper fund finance color?
 
-### Priority 6: Resolve 5% vs 40% Discrepancy (NEW — Apr 16)
-- [ ] **Pull FY2024 10-K from EDGAR** — check if "Capital call facilities" and "Secured private credit finance" existed as Table 14 line items. If absent → reclassification confirmed.
-- [ ] **Q1 2026 10-Q (May)** — Table 14 update will show QoQ growth rate. If ~1.25% QoQ, confirms moderation to ~5% annualized.
-- [ ] **Q1 Call Report (May 1-10)** — NDFI per RC-C Item 9 will show regulatory total vs Table 14 industry cut.
+### Priority 6: Resolve 5% vs 40% Discrepancy (PARTIAL — Apr 16 deck mined)
+- [x] **Deck Slide 24** — Q1 capital call $8.8B + PC finance $4.1B + ABS finance $1.8B = $14.7B Private Capital. Capital call + PC finance grew ~2.85% QoQ ≈ 11.9% annualized. Between Van Saun's "5%" and 40% YoY. **Trajectory moderating but ABS finance line item is new — possible reclassification.**
+- [ ] **Pull FY2024 10-K from EDGAR** — check if "Capital call facilities," "Secured private credit finance," AND "ABS finance" existed as Table 14 line items. If ABS finance was absent prior, $1.8B is reclassification, not growth.
+- [ ] **Q1 2026 10-Q (May)** — Table 14 update will show whether ABS finance gets its own line or remains a deck-only category.
+- [ ] **Q1 Call Report (May 1-10)** — NDFI per RC-C Item 9 will reconcile to Slide 24's $19.6B preliminary total.
 
 Sources: `sources/CFG_Q4_2025_earnings_transcript.md`, `sources/Full transcript - Citizens Financial Group Inc (CFG) Q1 2026_.md`
 
