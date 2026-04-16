@@ -34,45 +34,48 @@
 
 ## Session Notes
 
-⚠️ **Open question:** Does MTB's Q2 provision continue building (>$150M while NCO stays low)? Two consecutive quarters of reserve builds ahead of losses would confirm the "managed deterioration" thesis and move MTB from WATCH toward position candidacy.
+⚠️ **Open question:** Can we resolve the 5% vs 40% CFG fund finance growth discrepancy? The FY2024 10-K (EDGAR) would show whether Table 14 line items existed prior — if not, confirms reclassification. This is testable and would strengthen the Layer 3 framework.
 
 ### CHANGES SINCE LAST SESSION
 *(populated at next boot via market.py)*
 
-### LAST SESSION (Apr 15-16 — MTB full build, crash recovery)
-**Crash recovery:**
-- Session started with unclean shutdown. Recovered `MTB/NON_BANK_EXPOSURE.md` (18KB, intact on disk). Git diverged 14 local / 3 remote — OTTO resolved conflicts in parallel session. Full rebase + push completed.
+### LAST SESSION (Apr 16 — CFG Q1 earnings, thesis v1.4)
 
-**MTB Tier 3 architecture built (6 files):**
-- `STATUS.md` — post-earnings dashboard, all Q1 actuals integrated, all gaps closed
-- `EARNINGS_Q1_2026.md` — canonical record from transcript + deck + release + 10-K
-- `NON_BANK_EXPOSURE.md` — NDFI deep-dive (pre-crash, recovered)
-- `THESIS.md` — position candidacy at WATCH (25% conviction), 8 upgrade triggers
-- `WEBSTER_ANOMALY.md` — resolved: CFO misspoke, fund banking from People's United
-- `WAREHOUSE_COUNTERPARTY.md` — 10-K NDFI analysis, Bayview deep-dive, Tricolor trustee
+**CFG Q1 fully integrated (earnings release + supplement + transcript):**
+- `CFG/STATUS.md` — post-earnings dashboard with all Q1 actuals, transcript mining, discrepancy analysis, three-layer C&I framework
+- `CFG/sources/` — Q1 transcript uploaded by Will, plus earnings PDFs
 
-**Key MTB findings (chronological discovery):**
-1. Provision $140M (+12%) while NCO fell 31bps — forward-looking reserve build
-2. NDFI commitments $23.9B (2x the $12.5B outstanding) — $11.4B contingent
-3. Bayview is massive: $984M lending + $3.5B deposits + $157B servicing + $224M revenue, all growing 40-80% YoY
-4. Zero counterparty disclosure — WORSE opacity than WAL (no exhibits filed)
-5. 100% of Q1 NDFI growth in mortgage credit intermediaries ($5.6B→$6.5B) — riskiest bucket
-6. NCO FY guide 40bps (Q1 was 31bps) — mgmt telegraphing deterioration
-7. FHLB period-end $7.85B (+265%), tripled in one quarter. 190bps cost premium.
-8. Capital return 228% of earnings. Buyback avg ~$255 vs $207 close — overpaid.
-9. FHA/VA 90+ DPD $634M (+72% YoY). Expanding FHA subservicing into deteriorating pool.
-10. Office CRE $3.4B, 22.3% criticized. $7.9B CRE matures 2026. Criticized LTV eroding (67% from 63%).
+**Key CFG findings:**
+1. CRE nonaccruals +10% QoQ ($618M→$679M) while CRE balance fell 1% — extend-and-pretend confirmed
+2. FHLB 60x YoY ($42M→$2,513M) — prior 10-K assessment of "declining, not stressed" was WRONG
+3. Zero fund finance disclosure in press release or supplement — total opacity on $12.5B book
+4. 5% vs 40% growth discrepancy — Van Saun + Ted claim "5%/yr" NBFI growth, 10-K shows 39.7%. Likely reclassification (same pattern as MTB)
+5. Two analysts asked about private credit (Siefers/Piper, Chiaverini/Jefferies) — first time ever, was zero in Q4
+6. Van Saun acknowledged screening counterparties for "liquidity gates" — first gating risk acknowledgment
+7. PE line utilization DOWN — contradicts Q4's "pickup." Draws not accelerating at CFG. Partial thesis disconfirmation.
+8. AOCI: CET1 10.5% → 9.3% after adjustment. $1.97B unrealized losses.
+9. Consumer improving: retail NCO 38bps (from 70bps YoY). CARL channel NOT confirming at CFG.
+10. Capital return 96% ($498M vs $517M earned). Buybacks tripled QoQ.
 
-**Assessment:** MTB is "managed, not steady." Classical metrics strong but NDFI opacity, Bayview concentration, FHLB draw, reserve build, and extend-and-pretend ($818M) tell a different story than the confident call tone. WATCH at 25%, revisit after Q2.
+**Thesis v1.4 (new):**
+- Added "C&I as Convergence Hiding Place" to thesis/THESIS.md — three masking mechanisms (MI3, NDFI opacity, reclassification) all exploit C&I bucket
+- Core insight: the convergence isn't just eight channels hitting the same banks — it's eight channels hiding in the same bucket
+- CFG research + MTB cross-reference provided the evidence base
 
-**Files updated:** STATUS.md (parent REGINALD — NOT updated this session, carry forward)
-**Git:** 4 commits pushed to GitHub. Source PDFs local only (not committed).
+**Parent STATUS.md updated (carry-forward from last session resolved):**
+- Q1 earnings wave sector tone tracker (2/2 bear-leaning)
+- FHLB upgraded 🟠→🔴
+- WAL threshold: back above $78 ($78.23)
+- CFG convergence score: 9→12
+
+**Files updated:** CFG/STATUS.md, thesis/THESIS.md (v1.4), thesis/CHANGELOG.md, STATUS.md (parent), CALENDAR.md, MEMORY.md
+**Git:** 1 commit pushed to GitHub. CFG source PDFs local only (not committed). Transcript committed.
 
 ### NEXT SESSION
-1. **Update parent REGINALD/STATUS.md** with MTB sector-tone read — this was not done this session
-2. **CFG earnings (Apr 16)** — $10-11B BDC + $12.5B fund finance. MTB's disclosure template predicts CFG will give aggregate comfort without counterparty names. Watch Table 14 fund finance balances, C&I NCO inflection.
-3. **KEY earnings (Apr 16)** — office NPLs, NIM, consumer. Lower priority read-through.
-4. **RF earnings (Apr 17)** — consumer DQ, CLO marks. No file built.
-5. **WAL + OZK earnings prep (Apr 21)** — position names. All MTB read-through signals should be synthesized by then.
-6. **Inbox:** 3 WALTER signals unprocessed (TCW/Red Lobster, Road-to-Housing, DB financials). Process when spawned for it.
-7. **Signal to WALTER:** Sector tone read-through for WAL/OZK/EGBN/CFG from MTB findings. Draft but don't send until parent STATUS updated.
+1. **KEY earnings (Apr 16)** — results should be available. Consumer credit, provisions, NIM. Lower priority.
+2. **RF earnings (Apr 17)** — consumer DQ, CLO marks. No file built.
+3. **CFG earnings deck** — `CFG/sources/CFG-earnings-presentation-4-16-26.pdf` unread. May have fund finance slides (Table 14 equivalent). Mine it.
+4. **Resolve 5% vs 40%** — pull FY2024 10-K from EDGAR, check if "capital call facilities" existed as Table 14 line item. Quick test of reclassification hypothesis.
+5. **WAL + OZK earnings prep (Apr 21)** — position names, 5 days out. Synthesize MTB + CFG read-throughs. Refresh earnings prep files.
+6. **Inbox:** 4 signals unprocessed (OTTO Tricolor + 3 WALTER). Process when spawned for it.
+7. **Signal to WALTER:** Sector tone read-through from MTB + CFG. Draft after KEY/RF complete the early wave.
