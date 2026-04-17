@@ -18,10 +18,12 @@
 | VIX3M/VIX | **1.1595** | Apr 17 | 🟢 | [CONF] Calculated |
 | VIX Futures Curve | Contango (steep) | Apr 17 | 🟢 | [CONF] CBOE |
 | M1:M2 Contango (adj) | **+2.54%** | Apr 17 | 🟢 | [CONF] CBOE VX settlement (steepened from +2.37%) |
-| HY OAS | **2.84** | Apr 14 | 🟢 | [CONF] FRED BAMLH0A0HYM2 |
+| HY OAS | **2.86** | Apr 16 | 🟢 | [CONF] FRED BAMLH0A0HYM2 |
 | HY OAS — cycle trough | **2.64** | Jan 22 | — | [CONF] FRED |
 | HY OAS — cycle peak | **3.46** | Mar 30 | — | [CONF] FRED |
-| HY OAS — distance from trough | **+20bps** (82bps at Mar 30 peak) | Apr 14 | 🟢 | Tactical trigger at +100bps |
+| HY OAS — distance from trough | **+22bps** (82bps at Mar 30 peak) | Apr 16 | 🟢 | Tactical trigger at +100bps |
+| CCC OAS | **9.21** | Apr 16 | 🟢 | [CONF] FRED BAMLH0A3HYC — **tightening from 9.31 Apr 14** |
+| CCC OAS — analog threshold | **10.00** | — | — | Phase 2 analog confirmation (KB-VIO-040) |
 
 ---
 
@@ -33,7 +35,7 @@
 | Term structure inversion | ⚪ | 1.1595 — contango steepening (was 1.127) | 2026-04-17 |
 | VVIX stress | ⚪ | 94.26 — down -5.28 d/d, continued normalization | 2026-04-17 |
 | **SKEW-VIX-VVIX divergence** | **🟠** | **SKEW rebounded 139.23 → 140.74 on d+4 (7th test of 140 floor, all 6 prior bounced in 1-3 td per KB-VIO-042). Scenario A (peaceful) weakened. FADE_RERAMP (69% historical) active — requires SKEW >145 by ~Apr 22. Invalidation: sustained <140 for 4+ td OR failure to clear 145 by Apr 22.** | 2026-04-17 |
-| Credit-to-vol transmission | ⚪ | HY OAS 284bps — credit tight, no lag setup | 2026-04-16 |
+| Credit-to-vol transmission | ⚪ | HY OAS 286bps (Apr 16, +22 from trough). CCC OAS 921bps (Apr 16) tightening from 931 Apr 14 — moving AWAY from 1000bps analog-confirmation threshold. Tail case weakening. | 2026-04-17 |
 
 **Convergence Score:** 3/25 (12%) — SKEW divergence stays 🟠 (3 pts) after rebound; within-cycle pattern intact. All other vectors ⚪ (1 pt each).
 
