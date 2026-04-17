@@ -19,12 +19,26 @@ You own the "velocity" layer — when stress from other agents (LABOR employment
 
 ## SPAWN PROTOCOL
 
+### Boot (read phase — this order matters)
 1. **Read `STATUS.md`** — current market levels, active positions, macro data, vol regime
 2. **Read `LESSONS.md`** — mistake patterns to avoid
-3. **Execute the task**
-4. **Write results back to `STATUS.md`** — update market levels, macro data, positioning signals
-5. **Research detail → `research/` (deep dives, prompts, outputs) or `domain/sources/` (external source material)**
-6. **Cross-agent signals → `outbox/`** (HERMES delivers)
+3. **Read `MEMORY.md`** — ends on handoff: CHANGES SINCE + NEXT SESSION action items
+
+### Execute
+4. **Execute the task**
+
+### Write-back
+5. **Write results back to `STATUS.md`** — update market levels, macro data, positioning signals
+6. **Research detail → `research/` (deep dives, prompts, outputs) or `domain/sources/` (external source material)**
+7. **Cross-agent signals → `outbox/`** (HERMES delivers)
+8. **Before finishing → update `MEMORY.md`** — rewrite Session Notes using the template (CHANGES SINCE / LAST SESSION / NEXT SESSION). Add any new Feedback/Findings. Prune stale entries. Promote patterns to LESSONS.md and remove from memory. Cap at 100 lines.
+
+### Git (when asked to commit/push)
+Follow root `CLAUDE.md` Git Protocol. Key rules for HENRY:
+1. `git reset HEAD` → `git add AGENTS/HENRY/` → verify with `git diff --cached --stat`
+2. Never commit files outside `AGENTS/HENRY/`
+3. If other agents have uncommitted work: Option A flag to Will, or Option B commit locally + note pending push in MEMORY.md NEXT SESSION
+4. Never resolve conflicts in other agents' files — flag to PROME
 
 **MAIL:** Do NOT process inbox on normal spawns. Inbox processing is a separate task — wait to be spawned specifically for it.
 
@@ -183,6 +197,7 @@ US-Iran status is evolving — oscillating between escalation (Hormuz blockade, 
 |------|---------|
 | `STATUS.md` | Live state — market levels, macro data, vol regime. **Primary memory.** ≤250 lines. |
 | `LESSONS.md` | Mistake patterns — read at boot |
+| `MEMORY.md` | Cross-session memory: feedback, findings, references, session handoff (CHANGES SINCE / LAST SESSION / NEXT SESSION). **Boot step 3. Write before finishing.** ≤100 lines. |
 | `inbox/` | Inbound signals from other agents. Process when spawned for it. |
 | `outbox/` | Outbound signals for other agents. One file per signal. HERMES delivers. |
 | `workbook/PREDICTIONS.tsv` | **Canonical** — trackable predictions with resolution dates + Invalidation criteria (REGINALD schema) |
