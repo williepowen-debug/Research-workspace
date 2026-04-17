@@ -1,9 +1,50 @@
 # BRENT STATUS
 
-**Last Updated:** 2026-04-17 08:30 EDT  
-**Overall Status:** 🟠🟠🟠 ORANGE — **BRENT FUTURES ~$95 (swung $94–96 all wk)** / **DATED BRENT $123 [stale Apr 13, ATH $144 midweek]** / **CEASEFIRE EXPIRES APR 22 (WED) — NO TALK-2 DATE SET** / **US BLOCKADE ACTIVE ("as long as it takes" — Hegseth Apr 16)**
+**Last Updated:** 2026-04-17 10:55 EDT  
+**Overall Status:** 🔴🔴 **PHASE-2 TRIGGER FIRING** — **IRAN FM DECLARED HORMUZ "COMPLETELY OPEN" FOR COMMERCIAL VESSELS** / **BRENT $87.51 (-11.95%) / WTI $80.38 (-11.84%) INTRADAY** / **TRUMP: BLOCKADE STAYS UNTIL PEACE DEAL** / **US-IRAN TALK-2 POSSIBLE THIS WEEKEND** / **LEBANON-ISRAEL 10-DAY CEASEFIRE TOOK EFFECT**
 
-## ⚠️ APR 17 REFRESH — NEW INFO
+## 🔴 APR 17 10:55 EDT — PHASE-2 TRIGGER EVENT (BUT PHYSICAL NOT CONFIRMING)
+
+**Iran FM declared Strait of Hormuz "completely open" for commercial vessels** — LESSONS #11 firing on paper. BUT physical market data suggests **paper may be overshooting:**
+- Last confirmed Dated Brent **~$132** (Apr 9-11, Platts via CNBC/Al Jazeera) — no Apr 15-17 print publicly available
+- If Dated held anywhere near $132 while futures crashed to $87.51 → **paper-physical spread ~$44+ (WIDER than the $29 print of Apr 13, not narrower)**
+- Forties still >$20 over Dated Brent (Apr 13) — structural North Sea tightness persists
+- Rystad Apr 16: physical market "needs time to rebalance"
+- Tanker traffic through Hormuz **still restricted** per Lloyd's List (Apr 16) — Iran FM declaration is rhetoric, not yet flow
+- War-risk premiums eased from 5% → 0.8-1% pre-today, so some compression already priced
+- VLCC TD3C was at WS444 on Apr 10 — quoted but "imaginary" / untraded during blockade
+
+**Reading:** If physical truly is NOT collapsing with paper, today's -12% is an overshoot trade on announcement/headline, NOT confirmed Phase 2. LESSONS #16 (equity leads physical) still applies for directionality, but the MAGNITUDE of the futures move is running ahead of verifiable supply restoration.
+
+### Intraday moves (vs Apr 16 close)
+| Instrument | Level | Move |
+|---|---|---|
+| Brent futures | **$87.51** | **-11.95%** |
+| WTI futures | **$80.38** | **-11.84%** |
+| Heating oil | — | **-13%** [CONF] news |
+| RBOB gasoline | — | **-7%** [CONF] news |
+| USO | $110.94 | -11.84% |
+| Cheniere (LNG) | $246.86 | -6.04% |
+| Venture Global (LNG) | $11.12 | -12.34% |
+| XLE (Energy ETF) | $53.49 | -5.45% |
+| XOP (E&P ETF) | $155.09 | -7.59% |
+| Valero (refiner) | $217.25 | -10.13% |
+| Stocks (SPX) | ATH | risk-on |
+
+### Critical nuance — NOT a clean peace
+1. **Trump: US naval blockade of Iranian ports "will remain in full force" until peace deal.** Blockade ≠ Strait. Iran FM saying "Hormuz open" = third-country tankers can transit freely. Iran's own exports stay 100% locked.
+2. **US-Iran talks this weekend** — still only "may meet." No signed agreement.
+3. **Dated Brent (physical) stale at $123** — must refresh. Paper-physical spread may stay wide if Iran barrels remain blockaded.
+4. **Ceasefire expiry still Apr 22** — if weekend talk-2 produces nothing, Path A binary is still live Wed.
+
+### Position implications (await Will's call)
+- **USO (2 shares, ~$96 entry):** still +15% vs entry ($110.94) but giving back fast. Phase 2 exit playbook calls for rotation at announcement, not delivery.
+- **STNG (2 shares):** tanker rates will compress as insurance / war-risk premium unwinds on Hormuz reopening. Equity leads physical (LESSONS #16).
+- **Bear put spread consideration (LESSONS #15):** USO IV at 100th percentile pre-move — vol crush just started. Structure matters.
+
+---
+
+## APR 17 08:30 REFRESH — PRE-HORMUZ-OPEN (HISTORICAL)
 
 - **Ceasefire expiry = Wed Apr 22** (two weeks from Apr 8). Hard deadline if no talk-2 announced; Path A risk window opens Apr 22–23.
 - **Talk-2:** NO DATE SET as of Apr 16 (Al Jazeera). Pakistan FM Dar visited Tehran Apr 15 — shuttle active. Sticking point: US wants **20-yr** uranium pause, Iran offered **5-yr** (US rejected).
@@ -59,7 +100,7 @@
 | Metric | Value | Updated |
 |--------|-------|---------|
 | Brent futures | **$94.89** close Apr 16, -0.04%; intraday Apr 17 **$96.03** (-3.38%) — swung $94–96 all wk | **Apr 17** [CONF] TradingEconomics / boot |
-| Dated Brent (physical) | **~$123** — hit ATH **>$144** earlier in week. **STALE, needs Platts refresh** | **Apr 13** [CONF] Al Jazeera/S&P |
+| Dated Brent (physical) | **~$131.97** (Apr 9 Platts); **ATH $144.42** Apr 7; no Apr 15-17 print surfaced. If held at ~$132, spread vs futures $87.51 = **~$44 (WIDENING, not narrowing)** | **Apr 9-11** [CONF] Platts/CNBC/Al Jazeera |
 | WTI | **$87.63** (-3.88% intraday Apr 17) | **Apr 17** [CONF] boot |
 | WTI-Brent | **~-$8** (discount widened from -$2) | **Apr 17** [EST] boot |
 | Physical-futures spread | **~$29/bbl** (ATH was ~$35) = scarcity persists | **Apr 13** [EST] |
@@ -108,21 +149,21 @@
 
 ---
 
-## CONVERGENCE MATRIX (UPDATED APR 16)
+## CONVERGENCE MATRIX (UPDATED APR 17 10:55)
 
 | Vector | Score | State |
 |--------|-------|-------|
-| Hormuz/chokepoint | 🔴🔴 5 | US naval blockade on Iran ports (Apr 13) |
-| Gulf production | 🔴🔴 5 | ~9-11M bpd offline; blockade re-freezes Iran exports |
-| Brent price | 🟠 3 | Futures $94 (pricing talk-2 peace), physical $123 (not buying it) |
+| Hormuz/chokepoint | 🟠 3 | Iran FM: Hormuz "completely open"; US port blockade REMAINS |
+| Gulf production | 🔴🔴 5 | ~9-11M bpd still offline; blockade re-freezes Iran exports |
+| Brent price | 🟠 3 | Futures $87.51 (Phase-2 repricing), physical $123 [stale Apr 13, refresh needed] |
 | US production response | 🔴 1 | Rig count 545 (-3 WoW) — non-response CONFIRMED (SIG-009) |
 | Demand destruction | 🟡 3 | Still not in EIA data; aviation cuts firing |
 | Storage (global) | 🔴 4 | Gulf still filling/full; blockade prevents Iran drawdown |
-| Tanker/shipping | 🟠 3 | Blockade re-elevates risk premium |
+| Tanker/shipping | 🟠 3 | Hormuz-open announcement will compress freight + war-risk |
 | Energy credit | 🟡 2 | HY Energy OAS stable (LIQUID owns) |
 | OPEC+ policy | 🟡 3 | No change — next meeting Jun 7 |
-| Ceasefire stability | 🔴🔴 5 | COLLAPSED Apr 12; blockade active; talk-2 being considered |
-| **TOTAL** | **34/50** | Phase 1 RE-INTENSIFIED post-blockade; physical still tight |
+| Ceasefire stability | 🟠 3 | Talk-2 possible this weekend; Lebanon-Israel 10-day CF active; Apr 22 expiry still live |
+| **TOTAL** | **30/50** | Hormuz-open announcement = Phase-2 catalyst; physical dislocation may persist via blockade |
 
 ---
 
@@ -140,10 +181,11 @@
 
 ## POSITIONS
 
-| Position | Entry | P/L | Notes |
-|----------|-------|-----|-------|
-| USO (2 shares) | ~$96 | Flat | Brent $96 — back to entry |
-| USO $118C Mar 27 | **CLOSED** | **+$534.83** | Sold Mar 27 ✅ |
+| Position | Entry | Current | P/L | Notes |
+|----------|-------|---------|-----|-------|
+| USO (2 shares) | ~$96 | **$110.94** (-11.84% today) | **+15%** | Apr 17 10:49 EDT. Recommendation: HOLD (PHASE2_EXECUTION_2026-04-17.md §1) — physical not confirming paper |
+| STNG (2 shares) | ~$76 | **$76.23** (+2.99% today) | Flat/+small | Apr 17 ~11:30 EDT. STNG UP on Hormuz-open day = market NOT treating today as BRT-15 announcement. HOLD |
+| USO $118C Mar 27 | **CLOSED** | — | **+$534.83** | Sold Mar 27 ✅ |
 
 ---
 
