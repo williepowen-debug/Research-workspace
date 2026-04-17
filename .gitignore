@@ -28,3 +28,11 @@ tools/calendar/token.json
 tools/calendar/auth_state.json
 tools/calendar/flow_state.pkl
 .venv/
+
+# Windows download metadata
+*:Zone.Identifier
+
+# Bank primary source materials — local only (PDFs, 10-K HTML dumps, quarterly supplements)
+AGENTS/REGINALD/*/sources/*.pdf
+AGENTS/REGINALD/*/sources/10k_*/
+AGENTS/REGINALD/*/sources/q[1-4]_*/
