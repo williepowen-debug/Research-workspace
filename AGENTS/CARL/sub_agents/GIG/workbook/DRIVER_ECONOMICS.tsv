@@ -1,8 +1,11 @@
 Platform	Market	Metric	Value	Prior	Change	As_Of	Source	Status	Notes
-SECTOR	NATIONAL	gas_national_avg	$4.16		+$1.18 since conflict start	2026-04-08	AAA	R	$4 breakpoint FIRED. Ceasefire → futures -10% but pump lag 1-2wk.
-SECTOR	NATIONAL	gas_fill_up_cost	~$50	~$35	+43%	2026-04-01	CNN interviews	R	Direct driver quotes. Squeeze is real and immediate.
-SECTOR	California	gas_state_avg	$5.89		 	2026-04-01	AAA/SmartAsset	R	Highest in nation. CA gig conc 20%. Double squeeze.
-SECTOR	Florida	gas_state_avg	~$4.30		 	2026-04-01	AAA	O	FL gig conc 22% (highest). UI exhaustion + gas + insurance convergence.
+SECTOR	NATIONAL	gas_national_avg	$4.076	$4.16	-$0.084 since Apr 8	2026-04-17	AAA	R	$4 breakpoint FIRED. Post-ceasefire partial relief. STATUS reconciled.
+SECTOR	Florida	gas_state_avg	$4.093	~$4.02	↑ from prior	2026-04-17	AAA	R	FL ABOVE national avg. FL gig conc 22% highest. UI Wave 2 Apr 26.
+SECTOR	California	gas_state_avg	$5.856	$5.89	Minimal relief	2026-04-17	AAA	R	Highest in nation. CA gig conc 20%. Double squeeze. AV deployment.
+SECTOR	Texas	gas_state_avg	$3.716		Below $4	2026-04-17	AAA	Y	Only major gig state below $4. Relative shelter. Tesla Austin.
+SECTOR	Illinois	gas_state_avg	$4.337		Above $4	2026-04-17	AAA	R	Above $4 breakpoint. No relief.
+SECTOR	NATIONAL	diesel_national_avg	$5.608	$5.643	-$0.035 barely moving	2026-04-13	EIA	R	Delivery sector critical. Gas pump relief not flowing to diesel.
+SECTOR	NATIONAL	gas_fill_up_cost	~$50	~$35	+43%	2026-04-01	CNN interviews	R	Direct driver quotes. No reversal found post-ceasefire.
 Uber	NATIONAL	gross_hourly	$21.18		 	2025-12-31	Gridwise 2025	G	Gross before ALL expenses.
 Uber	NATIONAL	net_hourly_est	$15-18		 	2025-12-31	Gridwise/industry est	Y	After gas ($4.16), insurance, maintenance, depreciation. Pre-gas was ~$16-19.
 Uber	NATIONAL	gas_pct_of_gross	~18-22%	~12-15%	+6-7pp	2026-04-09	CARL estimate	O	At $4.16/gal, ~25 mpg, 30 mi/hr active: ~$5/hr gas. Was ~$3.50. Rising.

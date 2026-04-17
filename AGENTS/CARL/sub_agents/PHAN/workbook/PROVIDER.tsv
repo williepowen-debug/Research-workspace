@@ -1,14 +1,20 @@
 Provider	Type	Metric	Value	Prior	Change	Reports_To_Bureau	As_Of	Source	Status	Notes
 Affirm	BNPL	GMV_quarterly	$13.8B	$10.1B	+36% YoY	YES (Experian, TransUnion)	2025-12-31	Affirm Q2 FY2026	G	Only major BNPL reporting to bureaus. Market leader.
 Affirm	BNPL	revenue_quarterly	$1.12B		+30% YoY	YES (Experian, TransUnion)	2025-12-31	Affirm Q2 FY2026	G
-Affirm	BNPL	DQ_30plus	2.3%	2.4%	-10bps QoQ	YES (Experian, TransUnion)	2025-09-30	Affirm Q4 FY2025	G	Improved. Q3 FY2026 earnings ~May.
+Affirm	BNPL	DQ_30plus	2.3%	2.4%	-10bps QoQ	YES (Experian, TransUnion)	2025-09-30	Affirm Q4 FY2025	Y	Improved headline BUT Kerrisdale analysis: cohort composition shift — FICO 652 median, 52% below 660. DQ improvement = tighter origination, not borrower improvement. ALLY analog applies.
+Affirm	BNPL	provision_credit_losses_quarterly	$214.2M	$153M	+40% YoY	YES (Experian, TransUnion)	2025-12-31	Affirm Q2 FY2026	O	+40% YoY provision growth diverges from headline DQ improvement. Hidden stress loading.
 Affirm	BNPL	guidance_GMV_fy2026	$48.3-48.85B		 	YES (Experian, TransUnion)	2026-02-05	Affirm FY2026 guidance	G
 Affirm	BNPL	card_business_growth	+159% YoY		 	YES (Experian, TransUnion)	2025-12-31	Affirm Q2 FY2026	Y	Expanding beyond point-of-sale. More persistent credit line.
-Klarna	BNPL	DQ_BNPL	0.88%	1.03%	-15bps YoY	NO	2025-06-30	Klarna Q2 2025	G	Pre-IPO improvement. Portfolio cleaned.
-Klarna	BNPL	credit_loss_provision	0.65%	0.53%	+12bps YoY	NO	2025-12-31	Klarna 20-F	O	POST-IPO DETERIORATION. Trending wrong direction.
+Affirm	BNPL	ABS_WA_FICO	672	>680 (prior trusts)	DECLINING	YES (Experian, TransUnion)	2025-06-30	AFRMT 2025-X1 Morningstar presale	O	Lowest WA FICO since 2022-A trust. ABS composition degrading despite headline DQ improvement. Suggests routing lower-quality cohorts to ABS while retaining better loans on balance sheet (ALLY analog partial match).
+Affirm	BNPL	Q3FY2026_earnings_date	May 7 2026 after close		CONFIRMED	YES (Experian, TransUnion)	2026-04-16	Affirm IR press release	G	Confirmed Apr 16 2026. Conference call 2pm PT same day.
+Klarna	BNPL	DQ_BNPL	0.88%	1.03%	-15bps YoY	NO	2025-06-30	Klarna Q2 2025	G	Pre-IPO improvement. Portfolio cleaned pre-listing.
+Klarna	BNPL	credit_loss_provision_Q4	0.65%	0.53%	+12bps YoY vs 0.72% Q3 2025	NO	2025-12-31	Klarna Q4 2025 earnings Feb 19 2026	O	POST-IPO: Q3 was 0.72%, Q4 declined to 0.65% from Q3 but +12bps vs prior year. Realized losses 0.44% (flat YoY). Revenue beat $1.08B; net loss $26M for Q4; FY2025 net loss overall.
+Klarna	BNPL	revenue_Q4_2025	$1.08B		+38% YoY	NO	2025-12-31	Klarna Q4 2025 earnings Feb 19 2026	G	Record quarterly revenue. GMV $38.7B (+32%). 118M active customers (+28%).
 Klarna	BNPL	loans_sold_pre_ipo	$26B		 	NO	2025-09-01	PaymentsJournal	R	Portfolio cleanup before listing. Sold worst tranches?
-Klarna	BNPL	class_action	Filed Dec 2025		 	NO	2025-12-15	Court filings	O	Credit risk disclosure lawsuit. IPO $40 → low $30s.
-Klarna	BNPL	30_60_DQ_trend	Outstripping prior year		 	NO	2025-12-31	Klarna 20-F	O	DQ trend lines for 2025 worse than 2024.
+Klarna	BNPL	class_action	Case 25-cv-07033 (EDNY) active	Dec 2025 filed	Lead plaintiff deadline passed Feb 20	NO	2026-02-20	Nayak v. Klarna Group plc; Rosen Law firm	O	Credit risk disclosure lawsuit. Lead plaintiff motion deadline Feb 20 2026 passed. Case progressing.
+Klarna	BNPL	Q1_2026_guidance_revenue	$900M-$980M ($965M midpoint)	>$1B (analyst est)	MISS	NO	2026-02-19	Klarna Q4 2025 earnings call Feb 19 2026	O	Q1 2026 revenue guide MISSED analyst expectations. Stock -15% premarket.
+Klarna	BNPL	Q1_2026_earnings_date	~May 18 2026 (estimated)		NOT CONFIRMED	NO	2026-04-17	WallStreetZen / Nasdaq estimates	Y	No confirmed date yet as of Apr 17. Range May 18 - Jun 3 per different sources.
+Klarna	BNPL	elliott_management_investment	$6.5B lifeline		 	NO	2026-02-19	AiInvest Feb 2026	O	Elliott Management involvement reported. Suggests funding stress signal alongside class action.
 Afterpay	BNPL	reporting_status	Does NOT report		 	NO	2026-04-09	Industry	R	Integrated into Block/Cash App. Invisible to bureaus.
 SECTOR	BNPL	market_GMV_2025	$560B		→$700B by 2028	N/A	2025-12-31	Industry	R	Scale of invisible market.
 SECTOR	BNPL	outstanding_invisible	$400B+		 	N/A	2026-04-09	NY Fed est	R	Most not reported to ANY credit bureau.

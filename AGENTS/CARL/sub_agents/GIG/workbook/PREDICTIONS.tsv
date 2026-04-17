@@ -1,9 +1,9 @@
 Pred_ID	Date_Made	Prediction	Confidence	Timeframe	Status	Date_Resolved	Outcome	Notes
 GIG-P01	2026-02-12	Dave 28DPD >2.10%	65%	Q1-Q2 2026	TRACKING		 	Upgraded from 55% — gas $4+ squeeze on gig workers. Q1 data May 7-12. CashAI model may mask.
-GIG-P02	2026-02-12	FL gig stress leads national	75%	Q2-Q3 2026	TRACKING			Upgraded from 70% — FL 22% gig concentration + $4+ gas + UI exhaustion convergence. CA close second ($5.89 gas + AV).
-GIG-P03	2026-02-12	Lyft weekly earnings <$300	65%	Q1-Q2 2026	TRACKING			Upgraded from 60% — was $318, gas eroding net. Platform take rates +33%.
-GIG-P04	2026-02-12	Multi-apping rate >65%	65%	H2 2026	TRACKING			Needs updated survey data. Platform extraction pushing workers to diversify.
+GIG-P02	2026-02-12	FL gig stress leads national	80%	Q2-Q3 2026	TRACKING			Upgraded 75%→80% Apr 17 — FL gas $4.093 ABOVE national; UI Wave 2 Apr 26 (9 days); 22% gig conc. Convergence event imminent.
+GIG-P03	2026-02-12	Lyft weekly earnings <$300	70%	Q1-Q2 2026	TRACKING			Upgraded 65%→70% Apr 17 — Q1 gas avg ~$3.80-4.10, Lyft reports May 7. Data in 20 days.
+GIG-P04	2026-02-12	Multi-apping rate >65%	65%	H2 2026	TRACKING			No new survey data. Gas squeeze increases pressure to multi-app.
 GIG-P05	2026-02-12	1099-K exodus >15%	—	2026	CANCELLED	2026-04-09	DEFUSED	One Big Beautiful Bill Act reverted threshold to $20,000. Compliance cliff removed.
-GIG-P06	2026-04-09	DoorDash median hourly <$11	60%	Q2 2026	TRACKING			Currently $11.63. Gas squeeze + platform costs eroding. $0.63 gap to threshold.
-GIG-P07	2026-04-09	Waymo displaces >10K equiv drivers by EOY 2026	55%	EOY 2026	TRACKING			Currently ~4K equiv. 20+ new cities planned. Depends on deployment pace.
-GIG-P08	2026-04-09	Gas $4+ triggers visible driver count decline QoQ	70%	Q1-Q2 2026	TRACKING			CNN "I'm done" is anecdotal. Uber/Lyft Q1 data will confirm. If driver count drops while demand flat = unprecedented.
+GIG-P06	2026-04-09	DoorDash median hourly <$11	65%	Q2 2026	TRACKING			Upgraded 60%→65% Apr 17 — diesel $5.608 (delivery-specific). $0.63 gap. May 6 data incoming.
+GIG-P07	2026-04-09	Waymo displaces >10K equiv drivers by EOY 2026	60%	EOY 2026	TRACKING			Upgraded 55%→60% Apr 17 — Nashville live Apr 7; targeting 1M rides/wk EOY. But Nashville only "dozens" of vehicles — pace matters.
+GIG-P08	2026-04-09	Gas $4+ triggers visible driver count decline QoQ	70%	Q1-Q2 2026	TRACKING			CNN "I'm done" anecdotal. Uber/Lyft Q1 counts May 6-7 will confirm. Street consensus clean (bearish setup if wrong).

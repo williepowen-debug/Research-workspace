@@ -1,6 +1,6 @@
 Provider	Active Users	TPV Growth	Delinquency Rate (30+)	Delinquency Rate (60+)	Delinquency Rate (90+)	Late Fee Revenue %	Funding Cost	Stock Price	Status	Last Updated	Next Earnings	Notes
-Affirm	18.7M+	+30% YoY (Q2 FY26)	~4.2% (est)	~2.8% (est)	~1.9% (est)	~15%	Best since 2021 (sub-100bps ABS)	Beat est	🟢 GREEN	2026-02-05	2026-05-08 (Q3 FY26)	EPS $0.37 (beat $0.27). Card GMV +160%. Active cardholders +121%. CEO: "consumer quite healthy." Guidance: GMV growth decel to 30% Q3, 25% Q4. ABS funding sub-100bps = best since 2021. Growth strong but decelerating.
-Klarna	150M global (15.8M banking)	+32% YoY GMV ($38.7B Q4)	Stable per mgmt	Stable per mgmt	Stable per mgmt	Minimal	Improved	-22% from IPO	🟡 YELLOW	2026-02-19	2026-05 (Q1 2026)	IPO completed Sep 2025 (NYSE: KLAR). First $1B revenue quarter. Provisions improved 0.72%→0.65% of GMV. BUT: securities class action filed — alleged lending for fast-food deliveries to "financially unsophisticated consumers." Stock below IPO price. Banking consumers doubled to 15.8M. Fair Financing GMV +165%. Klarna Card volume +209%.
+Affirm	18.7M+	+30% YoY (Q2 FY26)	2.3% (Q2 FY26 reported)	~2.8% (est)	~1.9% (est)	~15%	Best since 2021 (sub-100bps ABS)	Beat est	🟢⚠️ / 🟠 cohort	2026-04-17	2026-05-07 AMC (Q3 FY26) CONFIRMED	**ALLY ANALOG CONFIRMED (KB-CARL-228).** Headline DQ 2.3% improving, BUT provision for credit losses Q2 FY2026 $214.2M vs $153M prior year (+40% YoY). ABS WA FICO AFRMT 2025-X1 = 672 (lowest since 2022-A trust) per Morningstar presale. Kerrisdale (Jan 2026): median borrower FICO 652, 52% below 660. 43% non-prime receivables (mgmt-disclosed). Mechanism: tighter origination shifts better borrowers to retained balance sheet, lower-quality paper routes to ABS trusts. Cycle-stage near-prime composition masking — not accounting fraud. CEO "consumer healthy" claim is partially true (real-time underwriting) but does not explain provision build. Watch May 7 Q3 for DQ crack + provision trajectory + AFRMT next deal FICO.
+Klarna	150M global (15.8M banking)	+32% YoY GMV ($38.7B Q4)	Stable per mgmt	Stable per mgmt	Stable per mgmt	Minimal	Improved	-22% from IPO, -15% premarket on Q4 print	🟠 ORANGE (upgraded)	2026-04-17	2026-05-18 est (Q1 2026, not confirmed)	**FY2025 NET LOSS** (reversed $21M FY2024 profit) per Bloomberg Feb 19 2026. Q4 revenue $1.08B record (+38% YoY) BUT Q1 2026 guide $965M MISSED analyst expectations. Provisions 0.65% (+12bps YoY vs 0.53%, trajectory toward PHAN-P02 1.0%). **Elliott Management $6.5B involvement** (AiInvest Feb 2026) — external capital signal. Class action Nayak v. Klarna 25-cv-07033 (EDNY) past lead plaintiff deadline Feb 20 2026, proceeding. Banking consumers doubled to 15.8M. Fair Financing GMV +165%. Klarna Card volume +209%. UPGRADED to ORANGE on FY loss + guide miss + external capital + class action advancing.
 Afterpay (Block)	24M+ US	+69% lending originations YoY	~1% loss rate overall	N/A	N/A	0% (no late fees)	N/A	Beat est (XYZ)	🟡 YELLOW	2026-02-27	2026-05 (Q1 2026)	Strongest quarter for first-time Borrow actives EVER. Higher losses Dec/Jan on new cohort mix shift (by design). 96% installments paid on time. Borrow originations +3x YoY. Bad debts $112.3M in 2024 (up from $82.9M 2023 = +35% YoY). Pre-Purchase launched Feb 2026. Aggressive growth = building risk pipeline.
 PayPal BNPL	30M+	+20% YoY ($40B+ 2025)	~3.2% (est)	~1.9% (est)	~1.2% (est)	~10%	3.0-4.0%	-19% on earnings	🟠 ORANGE	2026-02-03	2026-04-29 (Q1 2026)	CEO REPLACED (Chriss → Lores). Revenue $8.68B MISSED est $8.80B. EPS $1.23 missed. 2026 guidance: slightly negative to flat margins, EPS down low-single to flat. BNPL only visible to <15% of traffic. Market leader (35% share) but weakest execution. UPGRADED to ORANGE on miss + CEO change + weak guidance.
 
@@ -28,16 +28,32 @@ PayPal BNPL	30M+	+20% YoY ($40B+ 2025)	~3.2% (est)	~1.9% (est)	~1.2% (est)	~10%	
 # - PayPal CEO change mid-cycle = strategic uncertainty for market leader
 # - All 4 providers pursuing aggressive growth despite macro deterioration
 
-# CFPB 1033 DEADLINE: Apr 30 2026 (open banking data sharing)
-# When this hits, BNPL debt becomes MORE visible to lenders — could trigger tightening
+# CFPB RULE 1033 STATUS (UPDATED APR 2026): EFFECTIVELY DEAD
+# CFPB chief legal officer Paoletta filed motion to WITHDRAW Rule 1033 — called it "unlawful" [Mitchell Sandler / Cozen O'Connor Apr 2026].
+# Escalation: ON HOLD (Mar) → AGENCY SELF-WITHDRAWAL (Apr). Phantom debt visibility shock via regulation CANCELLED.
+# Implication: $400B+ invisible BNPL/EWA/cash advance stays invisible until defaults force disclosure. When repricing hits, larger and faster.
+# PHAN-P03 confidence 75%→90%.
+
+# STATE EWA ENFORCEMENT WAVE (UPDATED APR 2026): CFPB vacuum filling fast
+# Colorado HB25-1020 LIVE Jan 1 2026 (first state with EWA licensing + $5-7 fee caps)
+# Connecticut enacted Oct 2025 ($4/advance, $30/mo cap, classifies as finance charges aligned w/ 8 courts not CFPB)
+# 12 state laws enacted, ~20 pending. FloatMe + Current under investigation [ClassAction.org Apr 2026].
+# Troutman Pepper AG Monitor Apr 16 confirms surge. Potential Q3 2026 timeline accelerant if shadow credit contracts.
+# PHAN-P07 confidence 65%→75%.
+
+# ALLY FRAMEWORK CROSSOVER (NEW APR 17 2026): composition-masking confirmed in BNPL
+# ALLY Q1 audit mechanism (KB-CARL-223-226) has BNPL analog at Affirm (see Affirm row above + KB-CARL-228).
+# Headline DQ improving + ABS FICO declining + provisions rising = tail routed to ABS trusts, not eliminated.
+# Cross-reference subprime auto ABS (Santander/Bridgecrest/Exeter 60+ DQ 7.9%/7.8%/6.7% Dec 2025, KB-CARL-229).
+# Pattern is cycle-stage near-prime lender behavior, not ALLY idiosyncratic. Strengthens thesis reactivation case.
 
 # WATCH FOR:
 # - PayPal Q1 2026 earnings Apr 29 — first report under new CEO
-# - Affirm Q3 FY2026 ~May 8 — GMV deceleration to 30%? DQ trajectory?
-# - Klarna Q1 2026 ~May — class action impact? Credit provisions rising?
+# - Affirm Q3 FY2026 May 7 AMC CONFIRMED — GMV deceleration to 30%? DQ trajectory? Provision continuation? AFRMT next deal FICO?
+# - Klarna Q1 2026 ~May 18 est — post-FY-loss trajectory? Class action status? Provisions 0.72%+?
 # - Block Q1 2026 ~May — new cohort losses normalizing or accelerating?
-# - CFPB 1033 implementation Apr 30 — BNPL debt visibility shock
 # - Any provider launching "hardship programs" or "payment flexibility" → RED FLAG
+# - Any state joining EWA licensing/fee-cap wave (track FL, TX, WA, CA)
 
 # TRANSMISSION TO BANKS:
 # BNPL stress → Consumer liquidity crisis → Credit card/auto DQ spike → Bank NCOs (REGINALD)

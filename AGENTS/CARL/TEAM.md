@@ -1,6 +1,6 @@
 # CARL Sub-Agent Team
 
-**Updated:** 2026-04-13
+**Updated:** 2026-04-17
 
 ---
 
@@ -10,8 +10,8 @@
 |-------|--------|--------|-------------|---------------|--------|
 | **STUE** | Student loans (DQ, default, SAVE/RAP, servicers) | 🟢 BUILT | **Apr 13** | Sweet v McMahon Apr 15 (2 days), AFT/MOHELA May 28, SAVE transition Jul 1 | ✅ Current |
 | **HOMER** | Housing (foreclosures, MF DQ, builders, state-level) | 🟢 BUILT | **Apr 13** | NAHB HMI Apr 15, DHI Apr 21, PHM Apr 23, Fannie MF Mar (late Apr), CS Feb Apr 28 | ✅ Current |
-| **GIG** | Gig economy (oversupply, Dave 28DPD, gas squeeze, AV) | 🟢 BUILT | **Apr 9** | Dave Q1 earnings May 7-12 | ✅ Current |
-| **PHAN** | Phantom debt / BNPL ($400B+ invisible, stacking, fintech cockroaches) | 🟢 BUILT | **Apr 9** | Affirm Q3 FY2026 ~May, CFPB 1033 ON HOLD | ✅ Current |
+| **GIG** | Gig economy (oversupply, Dave 28DPD, gas squeeze, AV) | 🟢 BUILT | **Apr 17** | May 6-7 cluster: Uber+DoorDash May 6, **Dave May 7 CONFIRMED**, Lyft May 7 | ✅ Current |
+| **PHAN** | Phantom debt / BNPL ($400B+ invisible, stacking, fintech cockroaches) | 🟢 BUILT | **Apr 17** | **Affirm Q3 FY2026 May 7 AMC CONFIRMED**, Klarna ~May 18 est, CFPB 1033 EFFECTIVELY DEAD | ✅ Current |
 | **POLLY** | Insurance (P&C, FAIR plans, health, FL/CA, auto) | 🟢 BUILT | **Apr 9** | FL hurricane season Jun 1, ACA subsidy cliff | ✅ Current |
 | **POP** | Small business (Ch.11, closures, owner guarantees, tariff transmission) | 🟢 BUILT | **Apr 9** | Tariff impact Apr-Oct peak; NFIB monthly; Census BFS monthly | ✅ Current |
 | **DOC** | Healthcare costs (medical debt, OOP, care avoidance, GLP-1 cost shock) | 🟢 BUILT | **Apr 9** | CPI Mar data Apr 10, ACA enrollment May, KFF survey fall | ✅ Current |
@@ -30,7 +30,13 @@
 | **Apr 15** | **Sweet v. McMahon non-Exhibit C notices deadline** — DOE likely misses → auto full relief | STUE | DATA REFRESH |
 | **Apr 15** | NAHB HMI Apr + MBA Apps — Feed VX-CARL-BLDR-01, HSG-01 | HOMER | DATA REFRESH |
 | **Apr 16** | OZK earnings (release) / Apr 22 call — CRE construction | REGINALD primary | EARNINGS WATCH |
-| **Apr 21** | SYF Q1 earnings — NCO >6%? CRL-12 test. HY OAS complacency test #2. | CARL direct | EARNINGS WATCH |
+| **Apr 21** | SYF Q1 earnings — NCO >6%? CRL-12 test. HY OAS complacency test #2. Apply ALLY composition-masking framework (KB-CARL-225, 228). | CARL direct | EARNINGS WATCH |
+| **Apr 21** | COF Q1 earnings — apply ALLY framework (domestic card + auto book) | CARL direct | EARNINGS WATCH |
+| **Apr 23** | AXP Q1 earnings — apply ALLY framework | CARL direct | EARNINGS WATCH |
+| **Apr 29** | PayPal Q1 2026 — first report under new CEO (Lores) | PHAN | EARNINGS WATCH |
+| **May 6** | Uber Q1 + DoorDash Q1 — driver count QoQ post-gas-squeeze | GIG | EARNINGS WATCH |
+| **May 7** | **Dave Q1 (28DPD, GIG-P01 test) + Lyft Q1 + Affirm Q3 FY2026 (ALLY analog May 7 test)** | GIG, PHAN | EARNINGS WATCH — triple event |
+| **~May 18** | Klarna Q1 2026 est (first full quarter post-FY-loss) | PHAN | EARNINGS WATCH |
 | **Apr 21** | DHI Q2 earnings — builder margin vs 19.0-19.5% guidance | HOMER | EARNINGS WATCH |
 | **Apr 23** | PHM Q1 earnings — missing middle of builder K-shape | HOMER | EARNINGS WATCH |
 | **Apr 25** | UMich April FINAL — is 47.6 preliminary confirmed? Post-ceasefire re-measure | CARL direct | DATA REFRESH |
