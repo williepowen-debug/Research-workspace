@@ -24,7 +24,7 @@ PRICE_TICKERS = ["^GSPC", "^VIX", "BZ=F", "JPY=X", "KRE", "APO"]
 FRED_SERIES = {
     "BAMLH0A0HYM2": ("HY_OAS", 100),  # Multiply by 100 for bps
     "BAMLH0A3HYC": ("CCC_OAS", 100),   # Multiply by 100 for bps
-    "DGS10": ("Yield_10Y", 1),
+    "DGS10": ("10Y_Yield", 1),
 }
 
 TSV_HEADER = "Date\tSPX\tVIX\tBrent\tGas\t10Y_Yield\tUSDJPY\tHY_OAS\tCCC_OAS\tKRE\tAPO\tSource\n"
@@ -137,7 +137,7 @@ def append_row(data):
         str(data.get("VIX", "")),
         str(data.get("Brent", "")),
         str(data.get("Gas", "")),
-        str(data.get("Yield_10Y", "")),
+        str(data.get("10Y_Yield", "")),
         str(data.get("USDJPY", "")),
         str(data.get("HY_OAS", "")),
         str(data.get("CCC_OAS", "")),

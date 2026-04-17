@@ -178,7 +178,6 @@ Don't attribute all market moves to war. Pre-war structural weakness (PPI +0.8%,
 | `inbox/` | Inbound signals from other agents. Process when spawned for it. |
 | `outbox/` | Outbound signals for other agents. One file per signal. HERMES delivers. |
 | `workbook/PREDICTIONS.tsv` | **Canonical** — trackable predictions with resolution dates + Invalidation criteria (REGINALD schema) |
-| `workbook/ML.tsv` | **Canonical** — data release accuracy log (Date/Event/Actual/Consensus/Error) |
 | `domain/ECON_CALENDAR.md` | Release schedule Mar-Jun with thresholds |
 | `domain/BEIGE_BOOK_MAR4_2026.md` | Beige Book synthesis (template for future releases) |
 | `domain/REFERENCE_TABLES.md` | Static reference: cascade order, leading indicators, credit-equity transmission, transmission paths |
@@ -190,7 +189,7 @@ Don't attribute all market moves to war. Pre-war structural weakness (PPI +0.8%,
 | `sources/` | External research (Burry SBC/PLTR/put philosophy). Read when relevant, don't load at boot. |
 | `research/` | Deep dives + prompts + outputs (8 clusters). Reference library, not boot material. |
 
-**All TSVs live in `workbook/`.** `workbook/ML.tsv` = data release accuracy log. `workbook/PREDICTIONS.tsv` = trackable predictions. `workbook/KB.tsv` = knowledge base (different purpose, not a duplicate).
+**All TSVs live in `workbook/`.** `workbook/KB.tsv` = knowledge base (data releases, analysis, observations — REGINALD 14-col schema). `workbook/PREDICTIONS.tsv` = trackable predictions. Data release entries go in KB, not a separate log. (ML.tsv deprecated Apr 16 2026; archived to `archive/ML_deprecated.tsv`.)
 
 `archive/` and `workbook/*.md` files are historical — session logs, audits, old analyses. Don't load at boot.
 
