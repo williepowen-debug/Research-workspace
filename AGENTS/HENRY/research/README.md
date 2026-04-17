@@ -50,10 +50,12 @@
 | 7.1 | Gamma Flip Playbook | ✅ Complete | Case studies of prior gamma flip cascade events |
 | 8.1 | Systematic Flow Mapping | ✅ Complete | CTA trigger levels mapped (6,883 → 6,707 → 6,494) |
 
-### Standalone Research
+### Standalone Research (`deep_dives/`)
 | File | Topic | Date |
 |------|-------|------|
-| GEX_CTA_DEEP_DIVE_MAR3.md | Mar 3 gamma/CTA deep dive with live levels | 2026-03-03 |
+| deep_dives/GEX_CTA_DEEP_DIVE_MAR3.md | Mar 3 gamma/CTA deep dive with live levels | 2026-03-03 |
+| deep_dives/INFORMED_OPTIONS_TRADING_RESEARCH_THREAD.md | Identifying informed options flow | 2026-04-05 |
+| credit/HY_OAS_PLAYBOOK.md | HY OAS transmission mechanics | 2026-04-17 |
 
 ---
 
@@ -105,7 +107,8 @@ AI productivity + structural bid are real but insufficient. SBC dilution oversta
 ```
 research/
 ├── README.md                          # This file — master research index
-├── GEX_CTA_DEEP_DIVE_MAR3.md        # Standalone deep dive
+├── deep_dives/                        # Standalone deep dives (gamma, options flow)
+├── credit/                            # Credit transmission playbooks
 ├── prompts/
 │   ├── README.md                     # Prompt library index + execution instructions
 │   ├── SESSION_001_PLAN.md
