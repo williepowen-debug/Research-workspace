@@ -1,7 +1,7 @@
 # PROME STATUS.md
-**Updated:** 2026-04-10 09:15 ET
+**Updated:** 2026-04-17 13:26 ET
 
-## 🔴🔴 SCENARIO D DOMINANT (82%) — WAR DAY 36 — BRENT $109 — BLUE OWL GATING — STRESS: HIGH
+## 🔴🔴 SCENARIO D DOMINANT (82%) — WAR DAY 44 — BRENT $88.87 — PAPER-PHYSICAL DIVERGENCE — STRESS: HIGH
 
 ---
 
@@ -10,15 +10,15 @@
 | Agent | St | Key State | Upd | Inbox | Runtime |
 |-------|----|-----------|-----|-------|---------|
 | BROCK | 🔴🔴🔴 | Stage 2→3. Blue Owl OTIC 40.7% / OCIC 21.9% gated. $10B+ trapped. | 4/9 | 11 | OpenClaw |
-| BRENT | 🔴🔴🔴 | 8-9M bpd disrupted. Hormuz+Baltic. Gas $3.99 at breakpoint. | 4/7 | 2 | OpenClaw | **⚠️ STALE 3d** |
+| BRENT | 🔴🔴🔴 | Phase 2 trigger firing. Iran FM "Hormuz open" but physical not confirming. Paper-physical spread ~$43-44. | 4/17 | 2 | OpenClaw |
 | HAWK | 🔴🔴 | Scenario D 85%. Iran deadline **Apr 6**. Israel struck nuclear sites. | 4/2 | 2 | OpenClaw | **⚠️ STALE 8d** |
 | LIQUID | 🔴🔴 | HY OAS 316 🟡 (spiked 346 q-end). CCC 981 🟡. Gold margin cascade. | 4/9 | 11 | OpenClaw |
 | ZHAO | 🔴🔴 | Demand hole $70-135B/mo. HIBOR-SOFR reverted (seasonal). TIC Apr 15. | 4/2 | 3 | OpenClaw | **⚠️ STALE 8d** |
 | HENRY | 🔴🔴 | JPM retail fatigue. Fed T-Bill $352B. $14T IG supply wall. | 4/9 | 10 | OpenClaw |
-| CARL | 🔴🔴 | Path C activating. Convergence 43/50. | 4/9 | 0 | 🖥️ Claude Code |
+| CARL | 🔴🔴 | Convergence 58/60. Composition-masking generalizes (ALLY→BNPL→subprime ABS). Timeline 2H 2026/Q1 2027. | 4/17 | 0 | 🖥️ Claude Code |
 | LABOR | 🔴 | NFP +178K (healthcare-driven). Claims 202K. Shadow +65K. | 4/7 | 6 | OpenClaw | **⚠️ STALE 3d** |
 | SAM | 🔴 | USD/JPY 159.64. FXY 8 shares. Tankan beat. BOJ hike ~35-40% Apr. | 4/9 | 0 | 🖥️ Claude Code |
-| REGINALD | 🔴 | OZK KB 159 rows. WAL KB 60 rows. OZK Q1 Apr 16, WAL Apr 21. | 4/9 | 0 | 🖥️ Claude Code |
+| REGINALD | 🔴🔴 | FITB mixed + RF miss (first cohort miss). WAL $78 re-breach. OZK+WAL earnings Apr 21. | 4/17 | 0 | 🖥️ Claude Code |
 | MARCO | 🔴 | DHS Day 47 (deal reached, may resolve today). ICE going dark on data. | 4/9 | 3 | OpenClaw |
 | OTTO | 🟠 | DQ 7.1% RED. Tricolor fraud charges. CVNA earnings Apr 29. | 4/2 | 3 | OpenClaw | **⚠️ STALE 8d** |
 | NEXUS | 🟠 | Restructured Apr 4. Pass 12 running. 16 active convergences. | 4/4 | 0 | OpenClaw | **⚠️ STALE 6d** |
@@ -32,11 +32,11 @@
 
 | Action | Pri | Status |
 |--------|-----|--------|
-| APO hold reassess (stop $113) | 🔴 | **Mon 4/7.** APO at $107 — below stop. Decision needed. **STILL PENDING.** |
-| KRE Jun→Dec rolls | 🔴 | Roll timing needed. Price this week. |
+| APO hold reassess (stop $113) | 🔴 | APO at ~$103-104 — below stop 12+ days. RED domain. **STILL PENDING.** |
+| KRE Jun→Dec rolls | 🔴 | Roll timing needed. Price next week. |
 | NEXUS Pass 12 | 🟠 | Running now (spawned Apr 4). |
-| RED check-in | 🟠 | 9 days stale. Schedule Mon. |
-| HANS check-in | 🟠 | 9 days stale. |
+| RED check-in | 🟠 | 10 days stale. |
+| HANS check-in | 🟠 | 23 days stale. Archive candidate. |
 | Near→long rebalance (61/39 → 22/78) | 🟠 | RED recommends. Deferred. |
 | ORACLE inaugural sweep | 🟡 | Registered, never spawned. Low priority. |
 | DARWIN | 🟡 | 44d stale. Zero position relevance. Archive candidate. |
