@@ -1,25 +1,29 @@
 # HENRY STATUS
 
-**Signal Status:** 🟡 COMPLACENCY TRAP — **VIX 17.66, Brent $88.16, HY OAS 285 (stale)** | Hormuz declared "completely open" Apr 17 AM → oil -11% to -14% intraday | **Last Updated:** 2026-04-17 ~10:40 ET
+**Signal Status:** 🟡 COMPLACENCY TRAP — **VIX 17.76, Brent $90.67, HY OAS 285 (stale)** | Hormuz "completely open" Apr 17 AM → oil closed off lows (-8.8% Brent vs -11% intraday) | **Last Updated:** 2026-04-17 EOD (~16:00 ET)
 
 ---
 
-## MARKET DATA — Apr 17, 2026 (intraday ~10:40 ET)
+## MARKET DATA — Apr 17, 2026 EOD
 
-| Metric | Value | Δ vs Apr 16 close | Source | Status |
-|--------|-------|-------------------|--------|--------|
-| SPX | **7,127** | +1.21% | yfinance | 🟡 |
-| VIX | **17.66** | -1.45% | yfinance | 🟡 Compressed further |
-| Brent | **$88.16** | **-11.3%** | yfinance | 🟢 Shock removed |
-| WTI | **$81.02** | **-14.4%** | yfinance | 🟢 Shock removed |
-| Gas (AAA) | **$4.076** | -$0.047 | AAA | 🔴 Still >$4 |
-| 10Y Yield | 4.24% | -2bps | yfinance | 🟡 |
-| USD/JPY | **157.71** | -0.67% | yfinance | 🟠 Away from 160 |
-| HY OAS | 285bps (Apr 16) | — | FRED (1-day lag) | 🟢 Refresh pending |
-| CCC OAS | 924bps (Apr 2) | — | FRED | 🟡 |
-| KRE | **$70.93** | +3.06% | yfinance | 🟡 Bid into FITB/RF |
-| APO | **$126.48** | +4.69% | yfinance | 🟡 |
-| TLT | $87.11 | +0.96% | yfinance | — |
+| Metric | EOD | Δ vs Apr 16 close | Δ vs AM (10:40) | Source | Status |
+|--------|-----|-------------------|-----------------|--------|--------|
+| SPX | **7,123.77** | +1.17% | flat | yfinance | 🟡 |
+| VIX | **17.76** | -1.00% | +0.10 | yfinance | 🟡 No further compression |
+| VIX3M | 20.68 | — | +0.25 | yfinance | Term structure slightly wider |
+| SKEW | 140.74 | flat | flat | yfinance | 🟠 Holds >140 — FADE_RERAMP active (VIOLET) |
+| Brent | **$90.67** | **-8.77%** | **+$2.51** | yfinance | 🟡 Partial retrace — skepticism on unilateral |
+| WTI | **$83.18** | **-12.16%** | +$2.16 | yfinance | 🟡 Same — off intraday lows |
+| Gas (AAA) | **$4.076** | -$0.047 | — | AAA | 🔴 Still >$4 |
+| 10Y Yield | 4.25% | -1bp | +1bp | yfinance | 🟡 |
+| USD/JPY | **158.55** | -0.16% | +0.84 | yfinance | 🟠 Yen gave back |
+| HY OAS | 285bps (Apr 16) | — | — | FRED (1-day lag) | 🟢 Apr 17 print tomorrow AM |
+| CCC OAS | 924bps (Apr 2) | — | — | FRED | 🟡 |
+| KRE | **$70.38** | +2.24% | **-$0.55** | yfinance | 🟡 Gave back — AM bid was Hormuz beta |
+| APO | **$124.28** | +2.87% | -$2.20 | yfinance | 🟡 Faded |
+| TLT | $87.04 | +0.88% | -$0.07 | yfinance | — |
+| HYG | $80.62 | +0.34% | — | yfinance | 🟢 Risk-on |
+| LQD | $110.04 | +0.56% | — | yfinance | 🟢 Bid |
 
 ---
 
@@ -46,14 +50,14 @@
 
 | Metric | Current | Yellow | Orange | Red | Cross-Agent Trigger |
 |--------|---------|--------|--------|-----|---------------------|
-| VIX | 17.66 | >23 | >28 | **>30 sustained** | → ALL (risk-off regime) |
-| SPX | 7,127 | <6,800 | <6,707 | **<6,494** | → CTA layer 4 (long-term) |
-| KRE | $70.93 | <$65 | <$62 | **<$60** | → REGINALD, PROME |
+| VIX | 17.76 | >23 | >28 | **>30 sustained** | → ALL (risk-off regime) |
+| SPX | 7,123.77 | <6,800 | <6,707 | **<6,494** | → CTA layer 4 (long-term) |
+| KRE | $70.38 | <$65 | <$62 | **<$60** | → REGINALD, PROME |
 | ISM Mfg | 52.7 | <50 | <48 | **<47** | → LABOR, PROME |
-| 10Y Yield | 4.24% | >4.5% | >4.8% | **>5.0%** | → LIQUID (term premium crisis) |
+| 10Y Yield | 4.25% | >4.5% | >4.8% | **>5.0%** | → LIQUID (term premium crisis) |
 | HY OAS | 285bps (Apr 16) | >320 | >400 | **>500** | → credit-equity transmission |
 | CCC-BB Spread | ~800bps (Apr 2) | >750 | >900 | **>1100** | → dispersion canary (pre-Apr 21) |
-| USD/JPY | 157.71 | >160 | >162 | **>165** | → SAM (carry unwind) |
+| USD/JPY | 158.55 | >160 | >162 | **>165** | → SAM (carry unwind) |
 
 ---
 
@@ -130,4 +134,4 @@
 
 ## BOTTOM LINE
 
-**The complacency trap is the story — but Hormuz reopen is a material counter-signal.** Apr 17 AM: Iranian FM declared Hormuz "completely open" for Israel-Lebanon ceasefire duration → Brent -11%, WTI -14%, SPX +1.2%, VIX 17.66. US blockade technically remains in force, so it's a *unilateral Iranian concession*, not a signed deal. Thesis amber watch: if this holds 5+ sessions with HY OAS drifting sub-260 and VIX sub-17, invalidation criteria triggered. **Counter-counter:** (1) blockade language says tankers still can't reach Iranian ports, so global flow effect may be asymmetric; (2) oil-shock-removed does not fix CPI 3.3% already printed, UMich 3.8% exp, or ISM Services Employment 45.2 — stagflation trap survives even a clean oil unwind; (3) positioning asymmetry into Apr 21 unchanged (HF whipsaw, DB financials -2z). **Watch today:** (a) does VIX print <17 on close, (b) does HY OAS Apr 17 settle print <280, (c) FITB + RF AMC — regional-bank bid today may just be Hormuz beta, not credit-quality conviction. **April 21–30 window intact**, but if Hormuz reopen sticks, the macro shock variable gets subtracted and the thesis becomes "labor + credit only" rather than "stagflation."
+**Complacency trap intact into weekend.** Apr 17 EOD: SPX closed +1.17% at 7,123.77 (within 4pts of AM highs), VIX 17.76 (did NOT break 17), SKEW 140.74 (holds >140), Brent +$2.51 off intraday lows (closed -8.77% vs -11.3% AM), KRE gave back $0.55 from AM peak, APO faded $2.20. **Three EOD tells:** (1) VIX refused to compress below 17 — complacency hasn't deepened, (2) Brent partial retrace = oil market itself pricing skepticism on unilateral Iranian declaration, (3) KRE/APO gave back most of the AM Hormuz beta — consistent with LESSONS rule on regional-bank margin vs credit trade distinction. **Invalidation criteria NOT triggered** (required VIX <15 + HY OAS <260 + SPX >7,100 for 5 sessions — only SPX piece qualifies). **Counter-counter still holds:** oil-shock-removed does not fix CPI 3.3% / UMich 3.8% / ISM Services Employment 45.2 — stagflation trap survives a clean oil unwind. **April 21–30 catalyst window fully intact:** OZK+WAL Q1 (Tue AMC), BOJ (Wed-Thu), FOMC (Tue-Wed following), PCE+GDP (Thu). Positioning asymmetry into Apr 21 unchanged (HF whipsaw, DB financials -2z). **Monday watch:** (a) Apr 17 HY OAS settle print (tomorrow AM FRED) — sub-280 = compression continuing, (b) Brent weekend gap — any fresh escalation/de-escalation headline repricing, (c) tanker-tracking signal (HAWK/BRENT) on whether physical flow is actually moving vs just announced.
