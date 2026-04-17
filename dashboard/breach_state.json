@@ -20,8 +20,8 @@
   "fred_RRPONTSYD": true,
   "BZ": false,
   "JPY": true,
-  "APO": true,
-  "ARES": true,
+  "APO": false,
+  "ARES": false,
   "FXY": false,
   "TLT": false,
   "BIZD": true

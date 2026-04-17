@@ -808,5 +808,23 @@
     "message": "APO breached 110 (now 107.04)",
     "value": 107.04,
     "threshold": 110
+  },
+  {
+    "id": 1776384148007,
+    "timestamp": "2026-04-17 00:02:28 UTC",
+    "type": "threshold",
+    "severity": "info",
+    "message": "APO recovered (now 120.81, threshold 110)",
+    "value": 120.81,
+    "threshold": 110
+  },
+  {
+    "id": 1776384148009,
+    "timestamp": "2026-04-17 00:02:28 UTC",
+    "type": "threshold",
+    "severity": "info",
+    "message": "ARES recovered (now 116.22, threshold 110)",
+    "value": 116.22,
+    "threshold": 110
   }
 ]
