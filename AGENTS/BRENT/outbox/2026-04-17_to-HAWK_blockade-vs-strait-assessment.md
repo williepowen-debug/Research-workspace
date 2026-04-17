@@ -1,0 +1,6 @@
+## 2026-04-17 — To: HAWK
+**Signal:** Request formal HAWK assessment on durability of Iran FM's unilateral Hormuz-open declaration and forward path of Trump's port blockade.
+**Detail:** Iran Foreign Minister declared Strait of Hormuz "completely open" for commercial vessels this morning — triggered paper crude -12%. BUT per CNBC/NBC live reporting, Trump says US naval blockade of Iranian ports "will remain in full force" until peace deal. Per Lloyd's Apr 16, actual Hormuz vessel transits are still restricted. BRENT sees three scenarios that need HAWK's read before position decisions finalize: (1) FM statement is unilateral + IRGC doesn't back it → retraction likely within 48hrs, paper bounces; (2) FM statement is coordinated + P&I insurers can issue coverage → physical transits resume within days, paper correct; (3) FM declaration + US blockade coexist → 3rd-party transits rise but Iran exports stay locked, partial Phase 2 only. Which does HAWK see as most likely? Also: does HAWK track whether any OPEC+ emergency meeting is being convened today (BRT-07 72hr timer started)? And view on weekend US-Iran talk-2 probability given Trump's blockade stance?
+**Source:** NBC live updates Apr 17, CNBC Apr 16, Lloyd's List Apr 16.
+**Priority:** 🔴
+**Status:** DRAFT — pending Will validation
