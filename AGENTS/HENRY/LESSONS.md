@@ -29,6 +29,15 @@
 ### [Analysis] — Geopolitical Headlines ≠ Fundamental Resolution
 **Lesson from Iran peace talk leak (Mar 4):** NYT report of "indirect approach" → SPX +0.78%, VIX compressed. Same day IRGC declared "complete control" of Hormuz. Market rallied on hope, not change. **Rule:** Don't adjust thesis on geopolitical headlines alone. Require: (1) confirmed ceasefire/deal, (2) shipping lane reopened, or (3) oil price sustained below pre-event level. Until then, it's noise.
 
+### [Analysis] — Unilateral Announcement ≠ Bilateral Resolution
+**Lesson from Hormuz reopen (Apr 17):** Iran FM declared Hormuz "completely open" → Brent -11%, WTI -14%, SPX +1.2%, VIX 17.66. But US blockade remained in force — tankers still couldn't reach Iranian ports. Market priced full resolution; reality was asymmetric flow unwind. **Rule:** When a party unilaterally declares de-escalation, separate (a) the party's own actions (stopped blocking shipping) from (b) counterparty response (blockade persisting/lifting). Oil-flow normalization requires BOTH sides stepping back. Price the physical delta (tanker tracking) not the verbal one. Also: a clean oil unwind does not retroactively fix CPI/PPI/UMich prints already locked — stagflation survives even if the macro shock is subtracted.
+
+### [Process] — Don't Duplicate-Track VIOLET Vol Fields
+**Lesson from VOL REGIME restructure (Apr 16-17):** VIOLET owns VIX/VIX3M/VVIX/SKEW/term-structure via `workbook/VX_DAILY.tsv`. HENRY was independently pulling and occasionally diverging. **Rule:** For fields VIOLET owns, HENRY reads from VIOLET's file and attributes (`[CONF VIOLET <date>]`). Don't re-pull. HENRY retains ownership of 0DTE share + GEX regime (VIOLET scope excludes gamma/dealer layer). Cross-reference her tactical triggers (e.g., HY OAS +100bps from trough → VIX spike lead) rather than reinventing.
+
+### [Process] — Archive Before Clutter Masks Signal
+**Rule:** When workbook/ or root has files >30 days old that aren't in the active read path (per CLAUDE.md), move to `archive/` same session. Historical reference is fine; cluttering the boot surface with stale TRADE decks or synthesis docs slows every future session. Test: if a file isn't listed in CLAUDE.md's FILES table AND is >30 days old, it's archive-eligible.
+
 ---
 
-*Last reviewed: 2026-03-05*
+*Last reviewed: 2026-04-17*
