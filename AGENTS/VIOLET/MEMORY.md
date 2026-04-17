@@ -238,6 +238,25 @@ Curated long-term insights on VIX, volatility regimes, and credit-vol transmissi
 
 ## SESSION NOTES
 
+### 2026-04-17 — EOD refresh + STATUS prune + positioning-data plan
+
+- EOD close refresh: VIX 17.48, VVIX 94.63, SKEW held 140.74 full session (bounce off 139.23 sustained). Within-cycle 140-floor bounce pattern now 7/7 (100%). Term structure deepened further (VIX3M/VIX 1.1745). FADE_RERAMP path dominant; Apr 22 SKEW >145 is the confirmation gate.
+- STATUS.md cleanup: 175 → 96 lines. Moved static reference material (Historical Regimes, Credit-Vol Framework, What to Watch, transmission chain) to pointer-references to thesis/VIX_THESIS.md. Replaced completed research-queue items with 7 active items.
+- KB entries Apr 17: 045 (AM rebound), 046 (CCC tightening), 047 (close-held), 048 (Citadel Securities institutional C/P ratio at Jan high).
+- **Citadel Securities data (Apr 14, Twitter-cited): institutional call/put direction ratio at highest since January 2026.** Analyzed as confirming-neutral, not contradictory — classic coiled-spring pattern (institutional bullishness + persistent SKEW bid = Phase 2 analog setup). Subtype ambiguity: conviction longs vs FOMO-OOM-call-buying vs stock-replacement de-risking. Binary resolution remains SKEW trajectory through Apr 22.
+- **Identified positioning-data gap** — we have no systematic tracker for institutional positioning signals analogous to Citadel. Drafted 3-phase plan:
+  - **Phase 1 (next session, ~90 min): CFTC COT VIX futures.** Build `scripts/cftc_cot.py`, pull Non-Commercials VIX futures weekly CSV from cftc.gov, log to `workbook/COT_VIX.tsv`, compute 3yr percentile, threshold at ≥90th or ≤10th = flag extreme. Integrate into boot.py, run Mon AM (COT releases Fri 3:30pm for Tue positions, 3d lag).
+  - **Phase 2 (following session, ~90 min): NAAIM + ICI.** `scripts/equity_positioning.py` pulling both weekly. NAAIM >90 = fully invested, ICI sustained inflows = capitulation. Flag to HENRY as equity-positioning domain offer.
+  - **Phase 3 (ongoing, ~30 min): Manual capture template** for proprietary data (BofA FMS, GS/JPM Prime, Nomura CTA, Citadel). `templates/POSITIONING_KB_TEMPLATE.md` + hygiene rule in MEMORY.md.
+  - Explicitly skip: SpotGamma/MenthorQ (paid, redundant with vix_options.py), AAII/II (sentiment noise duplicating SKEW), 0DTE real-time flow (too ambitious).
+- **Outbox signal status:** SIG-VIOLET-LIQUID-20260415-hy-oas-trigger-monitor still queued. Path-3 (null/Scenario A) trajectory strengthened (HY OAS stayed in 2.80-3.20 corridor), but the core ask (daily HY/IG/CDX HY + sector disaggregation) remains valid. Next session: check if LIQUID already has coverage or if this needs to be sent.
+
+**Current posture:** 🟠 ELEVATED WATCH — SKEW bounce held at close. FADE_RERAMP (69% historical) dominant. Central case VIX 25-30 within 60d still anchors.
+
+**Next session first action:** Phase 1 — CFTC COT VIX futures pull script + integration.
+
+---
+
 ### 2026-04-16 — Phase 2 cluster analog + housekeeping
 
 - Phase 2 complete: 2024-11/2025-01 cluster analog deep dive. 21-variable dataset, 12/19 leading tells, coiled-spring pattern identified. 2026 translation: 5 match, 4 partial, 3 diverge → central case VIX 25-30 supported, tail (50+) needs external catalyst + CCC crack.
@@ -260,4 +279,4 @@ Curated long-term insights on VIX, volatility regimes, and credit-vol transmissi
 ---
 
 *Created: 2026-04-12*
-*Last Updated: 2026-04-16 (Phase 2 complete, housekeeping pass, all pushed)*
+*Last Updated: 2026-04-17 (EOD refresh, STATUS prune 175→96, KB 045-048, positioning-data plan drafted)*
