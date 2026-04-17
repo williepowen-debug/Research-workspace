@@ -31,7 +31,12 @@ You own the "velocity" layer — when stress from other agents (LABOR employment
 5. **Write results back to `STATUS.md`** — update market levels, macro data, positioning signals
 6. **Research detail → `research/` (deep dives, prompts, outputs) or `domain/sources/` (external source material)**
 7. **Cross-agent signals → `outbox/`** (HERMES delivers)
-8. **Before finishing → update `MEMORY.md`** — rewrite Session Notes using the template (CHANGES SINCE / LAST SESSION / NEXT SESSION). Add any new Feedback/Findings. Prune stale entries. Promote patterns to LESSONS.md and remove from memory. Cap at 100 lines.
+8. **Before finishing → update `MEMORY.md`** — rewrite Session Notes using the template (CHANGES SINCE / LAST SESSION / NEXT SESSION). Add any new Feedback/Findings. Prune stale entries. Promote patterns to LESSONS.md and remove from memory. Cap at 100 lines. **Audience: next HENRY instance.**
+9. **Before finishing → overwrite `LAST_COMPLETION.md`** — Will-facing session closeout. Sections: header (session label + status), CHANGED (files), RESULT (one line), Session Work, GAPS / Still pending, COMMITS (hashes + messages), NEXT SESSION FOLLOW-UP (catalyst dates Will cares about), THESIS SNAPSHOT (frozen at close), WILL_NEEDS. **Audience: Will reads after close. Overwritten each session.**
+
+**Role split — do not duplicate:**
+- `LAST_COMPLETION.md` = Will closeout. Session-scoped, session-overwritten. Commits, thesis snapshot, explicit asks.
+- `MEMORY.md` = HENRY cross-session notebook. Cumulative Feedback/Findings/References. Session Notes rotate (only last kept). No commit lists, no thesis snapshot (those live in LAST_COMPLETION / STATUS).
 
 ### Git (when asked to commit/push)
 Follow root `CLAUDE.md` Git Protocol. Key rules for HENRY:
@@ -197,7 +202,8 @@ US-Iran status is evolving — oscillating between escalation (Hormuz blockade, 
 |------|---------|
 | `STATUS.md` | Live state — market levels, macro data, vol regime. **Primary memory.** ≤250 lines. |
 | `LESSONS.md` | Mistake patterns — read at boot |
-| `MEMORY.md` | Cross-session memory: feedback, findings, references, session handoff (CHANGES SINCE / LAST SESSION / NEXT SESSION). **Boot step 3. Write before finishing.** ≤100 lines. |
+| `MEMORY.md` | Cross-session memory (audience: next HENRY): feedback, findings, references, session handoff (CHANGES SINCE / LAST SESSION / NEXT SESSION). **Boot step 3. Write before finishing.** ≤100 lines. |
+| `LAST_COMPLETION.md` | Will-facing session closeout (audience: Will). Session-scoped, overwritten each session. Contains commits, thesis snapshot frozen at close, WILL_NEEDS. **Write before finishing.** |
 | `inbox/` | Inbound signals from other agents. Process when spawned for it. |
 | `outbox/` | Outbound signals for other agents. One file per signal. HERMES delivers. |
 | `workbook/PREDICTIONS.tsv` | **Canonical** — trackable predictions with resolution dates + Invalidation criteria (REGINALD schema) |
@@ -208,6 +214,7 @@ US-Iran status is evolving — oscillating between escalation (Hormuz blockade, 
 | `workbook/VX.tsv` | Indicator vectors — 12-column REGINALD schema (ID/Name/Category/Current_Value/Yellow/Orange/Red/Status/Confidence/Last_Updated/Source/Cross_Links/Notes). See stale data rules above. |
 | `workbook/VX_HISTORY.tsv` | Archived slow-moving vectors (quarterly refresh source) |
 | `workbook/FLOW.tsv` | Cascade/transmission mechanics — 10-column REGINALD schema (ID/Name/Speed/Layer/Status/Trigger/Current_Position/Pathway/Key_Insight/Cross_Links/Last_Updated). |
+| `workbook/MARKET_DATA.tsv` | Sparse EOD snapshots of headline levels (SPX/VIX/Brent/Gas/10Y/USDJPY/HY_OAS/CCC_OAS/KRE/APO). Append a row on EOD refresh days. Not exhaustive — use for time-series cross-reference. |
 | `workbook/THESIS_VALIDATION.md` | Thesis confirmation/invalidation criteria + cascade dependencies + cross-agent dependencies |
 | `sources/` | External research (Burry SBC/PLTR/put philosophy). Read when relevant, don't load at boot. |
 | `research/` | Deep dives + prompts + outputs (8 clusters). Reference library, not boot material. |
