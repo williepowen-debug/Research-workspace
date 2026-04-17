@@ -1,5 +1,19 @@
 # REGINALD STATUS
-**Last Updated:** 2026-04-16 (post-CFG earnings) | **Status:** 🔴🔴🔴 CRITICAL (STABLE)
+**Last Updated:** 2026-04-17 08:26 ET (FITB + RF reporting today) | **Status:** 🔴🔴🔴 CRITICAL (WAL re-breached <$78)
+
+---
+
+## AM BRIEF — April 17, 2026 (08:26 ET)
+
+**Live prices (market.py):** KRE $68.83 (-0.49%), **WAL $77.29 (-1.55%, 🔴 BACK BELOW $78)**, OZK $47.79 (-0.19%), ZION $61.54 (-0.50%), CFG $64.41 (-1.20%), VIX 17.76, Brent $95.94 (-3.47%), 10Y 4.31%.
+
+**State of play:**
+- **WAL threshold re-breach.** $77.29 is below $78 intraday. Second breach in a week; one-day direction only (faded after Apr 16 close at $78.23). Earnings Apr 21 resolves.
+- **Cohort refresh complete (Apr 16 session).** `WAL/EARNINGS_PREP.md` (356 lines) and `OZK/EARNINGS_PREP.md` (474 lines) now cohort-informed (MTB/CFG/PNC + FITB/RF baselines). Both position names ready for Apr 21.
+- **Today's data (Apr 17, not yet integrated):** FITB (~6:30 AM release, 10:00 AM call) + RF (BMO release, 10:00 AM call). Pre-earnings baselines written to `FITB/STATUS.md` + `RF/STATUS.md`. Cohort patterns to test: FHLB surge (3/3 reporters confirmed), reclassification-as-disclosure (CFG pattern), NDFI disclosure spectrum, consumer NCO trajectory (RF is CARL's true leading indicator).
+- **FITB Apr 17 → WAL Apr 21 read-through:** `FITB/WAL_READTHROUGH.md` (63 lines, Apr 16). Hypothesis: FITB's $2.95B "Consumer Warehouse / Securitization Vehicles" sub-bucket is the Tricolor-adjacent pocket. If FITB signals stress there today, WAL's undisclosed warehouse composition becomes analyst-question gold Apr 21.
+
+**Carry-forward from Apr 16:** Thesis v1.4 ("C&I as Convergence Hiding Place"), FHLB now 🔴 at bank-level (3/3 reporters surging), CFG reclassification pattern proven ($2.9B Secured PC finance carved out of Other F&I FY2024→FY2025 10-K), CFG convergence score 9→12.
 
 ---
 
@@ -275,11 +289,11 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 
 ---
 
-## ⚠️ THRESHOLD BREACHES (as of Apr 16)
+## ⚠️ THRESHOLD BREACHES (as of Apr 17 08:26 ET)
 
 | Metric | Threshold | Current | Note |
 |--------|-----------|---------|------|
-| WAL | <$78 | **$78.23** (Apr 16) | **Back above threshold.** +0.3% buffer — ambiguous, could re-breach. Earnings Apr 21 will resolve. |
+| WAL | <$78 | **$77.29** (Apr 17 08:26, -1.55%) | 🔴 **RE-BREACHED.** Intraday move, second breach in a week. Earnings Apr 21 will resolve. |
 | HY OAS | >320bps | **294bps** (Apr 8, stale) | CLEAR. 26bps buffer. Needs refresh. |
 
 ---

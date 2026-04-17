@@ -36,14 +36,34 @@
 
 ## Session Notes
 
-⚠️ **Open question:** WAL + OZK Apr 21 earnings prep — 5 days out. Need to refresh EARNINGS_PREP.md files with MTB + CFG read-throughs (sector pattern: beat-and-fade, FHLB surge, CRE nonaccrual drift, deck > press release for NDFI). WAL back below $78 threshold intraday Apr 16. Mine the decks, not the press releases.
+⚠️ **Open question:** What do FITB + RF Q1 actuals (releasing today, Apr 17) say about the cohort patterns? Specifically: (a) does FITB's $2.95B Consumer Warehouse sub-bucket show Tricolor-adjacent stress → WAL V3 read-across? (b) does RF's consumer NCO cross >0.75% with credit card >4.20% → first regional CARL confirmation? (c) does Q1 period-end FHLB for FITB/RF confirm universal (quarter-end mechanical) or bifurcated (stress-specific) surge? WAL re-breached $78 at Apr 17 08:26 ET ($77.29 -1.55%).
 
 ### CHANGES SINCE LAST SESSION
 *(populated at next boot via market.py)*
 
-### LAST SESSION (Apr 16 — CFG Q1 earnings, thesis v1.4, deck mining)
+### LAST SESSION (Apr 16 PM — cohort refresh for WAL + OZK Apr 21 prep)
 
-**[Apr 16 Round 2 — accidental respawn, mined CFG deck]**
+**WAL + OZK Apr 21 earnings prep fully refreshed with Apr 15-17 cohort read-throughs:**
+- `WAL/EARNINGS_PREP.md` (231 → 356 lines) — added COHORT READ-THROUGHS section (MTB/CFG/PNC + FITB/RF baselines). Pass 1: removed stale "OZK Apr 16" references (now same-day Apr 21), updated price $67→$78.23. Pass 2 findings folded: V1 table added "Table 14 bucket changes" tripwire; V3 table added "Multi-bucket NDFI undercount" row; added "Analyst Q&A forced-disclosure probability" paragraph.
+- `OZK/EARNINGS_PREP.md` (354 → 474 lines) — added COHORT READ-THROUGHS ordered by CRE/construction relevance, framed as "OZK already shows CFG pattern one quarter ahead." Pass 1: header Days Out 14→5, price $46.44→$47.85, 3 decision-matrix sections APRIL 16→APRIL 21.
+- `FITB/WAL_READTHROUGH.md` (NEW, 63 lines) — listen-for for FITB's $2.95B Consumer Warehouse / Securitization Vehicles sub-bucket as Tricolor-adjacent read-across to WAL's ~$9.2B warehouse book. Decision matrix for WAL Apr 21 based on FITB Apr 17 outcomes.
+
+**Cohort patterns now synthesized (3 done, 2 today Apr 17, 2 Monday Apr 21):**
+1. Headline beats, tape fades — MTB -1.55%, CFG -0.63%, PNC -0.03% (fade weakening)
+2. FHLB acceleration SYSTEMIC — 3/3 Q1 period-end surging
+3. NDFI disclosure spectrum: PNC $73B (most granular) → CFG → FITB → MTB → RF ZERO (worst). PNC's $73B deck rollup is $31B ABOVE Table 16 "Financial services" $42.2B = 42% of thematic NDFI hidden in other C&I buckets.
+4. Reclassification-as-disclosure universal (CFG carved PC finance out; PNC split Retail/Wholesale). FITB clean counter-example.
+5. Reserve release is CFG-specific tell (others building; PNC provision +51% QoQ).
+
+**Pre-earnings baselines committed for today's reporters:**
+- `FITB/STATUS.md` — cleanest balance sheet (CET1 10.77%, ACL 1.96%). FHLB -48% QoQ avg (outlier declining). Watch: $2.95B Consumer Warehouse sub-bucket.
+- `RF/STATUS.md` — worst NDFI disclosure (zero mentions in 10-K; $18.3B Financial services 1.15x unfunded/funded). FHLB -30% YoY. Consumer elevated (card 4.08% 5Q high). 52% branches FL/TN/AL.
+
+**Git:** 2 commits pushed (fb73eb0b post-crash recovery; faf930b1 cohort refresh). PDFs + Zone.Identifier files excluded.
+
+### Prior session — Apr 16 AM (CFG Q1 + thesis v1.4, archived)
+
+**[Apr 16 Round 2 — CFG deck mining]**
 - Mined `CFG/sources/CFG-earnings-presentation-4-16-26.pdf` (was unread in Round 1)
 - Slide 24: $14.7B Private Capital + $4.9B other = $19.6B preliminary NDFI. Disclosure exists in deck only — NOT press release/supplement
 - New "ABS finance" $1.8B line item — no 10-K Table 14 equivalent. Possible reclassification.
@@ -87,9 +107,9 @@
 **Git:** 1 commit pushed to GitHub. CFG source PDFs local only (not committed). Transcript committed.
 
 ### NEXT SESSION
-1. **WAL + OZK earnings prep (Apr 21)** — position names, 5 days out. Refresh EARNINGS_PREP.md files using MTB + CFG read-throughs. **Mine the earnings DECKS, not just press releases** — CFG showed deck contains disclosure absent from headline (Slide 24 NDFI breakdown).
-2. **KEY earnings (Apr 16)** — check results if released; consumer/CRE color. Lower priority.
-3. **RF + FITB earnings (Apr 17)** — RF for consumer DQ; FITB for post-Tricolor auto NDFI reserve build (OTTO read-through).
-4. **ABS finance reclassification test** — pull CFG FY2024 10-K from EDGAR. Did "ABS finance" exist as Table 14 line item? If absent, $1.8B is reclassification, not new growth. Bigger reclassification signal than the 5% vs 40% question.
-5. **DB positioning risk for Apr 21** — financials at -1.5 to -2 z while consensus +20-40% earnings growth. Crowded-short unwind risk if WAL/OZK beat. Factor into sizing, not just direction.
-6. **Outbox:** OTTO reply on Tricolor/Apollo Atlas SP read-across is queued for HERMES delivery.
+1. **Integrate FITB + RF Q1 actuals (released/releasing this morning, Apr 17).** FITB ~6:30 AM release / 10:00 AM call. RF BMO / 10:00 AM call. Test cohort patterns: (a) FITB $2.95B Consumer Warehouse bucket stress? (b) RF consumer NCO >0.75% with card >4.20%? (c) Q1 period-end FHLB — universal or bifurcated?
+2. **Update `FITB/WAL_READTHROUGH.md` with actuals.** If FITB signals Consumer Warehouse stress or names "Tricolor/subprime auto/auto ABS" on call, fire WAL V3 analyst-question prep for Apr 21 and consider adding small Sep put pre-print. If clean, V3 remains latent.
+3. **WAL + OZK Apr 21 earnings prep continues** (4 days out). Cohort-informed EARNINGS_PREP files are A-grade. Final pre-call checklist: pull WAL FY2025 10-K Table 16 bucket-level snapshot now to test reclassification tripwire pre-call (new sub-lines carved out of Finance/Insurance or Professional Services = signal before provision build).
+4. **DB positioning risk for Apr 21** — financials at -1.5 to -2 z while consensus +20-40% earnings growth. Crowded-short unwind risk if WAL/OZK beat. Factor into sizing.
+5. **ABS finance reclassification test (back-burner)** — pull CFG FY2024 10-K Table 14 from EDGAR. Did "ABS finance" exist as line item? If absent, $1.8B is reclassification, not new growth.
+6. **Outbox:** OTTO reply on Tricolor/Apollo Atlas SP read-across queued for HERMES delivery.
