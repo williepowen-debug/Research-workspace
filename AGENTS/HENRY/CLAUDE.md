@@ -28,7 +28,7 @@ You own the "velocity" layer — when stress from other agents (LABOR employment
 
 **MAIL:** Do NOT process inbox on normal spawns. Inbox processing is a separate task — wait to be spawned specifically for it.
 
-All mail lives in removed:
+All mail lives in:
 - **Inbox:** `inbox/` — inbound signals from other agents (delivered by HERMES)
 - **Outbox:** `outbox/` — outbound signals you write for other agents
 - **Processed:** `inbox/processed/` — signals you've integrated
@@ -120,13 +120,17 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 
 ## KEY THRESHOLDS
 
-| Metric | Current (Mar 4) | Threshold | Implication |
-|--------|-----------------|-----------|-------------|
-| VIX | ~21 (compressed from 26.4) | >30 sustained | Risk-off regime confirmed |
-| SPX | 6,869 (+0.78%) | <6,500 (-10% from Jan high) | Reverse wealth effect fires |
-| KRE | ~$67.90 (+0.21%) | <$60 | Regional bank stress acute |
-| ISM Mfg | 52.4 (Feb) | <47 | Deep contraction |
-| 10Y Yield | ~4.10% (rising on risk-off) | >5.0% | Term premium crisis (LIQUID link) |
+Static reference only. **Current levels live in `STATUS.md`** — pull from there, never cite CLAUDE.md as current data.
+
+| Metric | Threshold | Implication |
+|--------|-----------|-------------|
+| VIX | >30 sustained | Risk-off regime confirmed |
+| SPX | -10% from cycle peak | Reverse wealth effect fires |
+| KRE | <$60 | Regional bank stress acute |
+| ISM Mfg | <47 | Deep contraction |
+| 10Y Yield | >5.0% | Term premium crisis (LIQUID link) |
+| HY OAS | >320 / >400 / >500 | Credit-equity transmission (Y/O/R) |
+| USD/JPY | >160 / >162 / >165 | Carry unwind (→ SAM) |
 
 ---
 
@@ -137,13 +141,15 @@ HENRY's core framework is the **systematic cascade sequence** — mechanical sel
 **Cascade Order (each layer adds selling pressure):**
 1. **Vol-Control** (HOURS) — VIX >23-24 → $200-400B AUM reduces equity proportional to vol
 2. **Short-Term CTAs** (DAYS) — SPX < 50-DMA → ~$100B flips net short, algorithmic
-3. **Medium-Term CTAs** (WEEKS) — SPX < 6,707 sustained → ~$80B gross selling over 1-4 weeks
-4. **Long-Term CTAs** (MONTHS) — SPX < 6,494 → remaining CTAs flip, $40-60B
+3. **Medium-Term CTAs** (WEEKS) — SPX < medium trigger sustained → ~$80B gross selling over 1-4 weeks
+4. **Long-Term CTAs** (MONTHS) — SPX < long trigger → remaining CTAs flip, $40-60B
 5. **Risk Parity** (MONTHS) — Cross-asset correlation spike → ~$1T AUM forced reduction
+
+*Specific CTA trigger levels + gamma flip + put wall are dynamic — pull from `workbook/VX.tsv` (VX-HEN-15.xx, VX-HEN-9.xx) and SpotGamma. Mar 2026 snapshot had medium CTA 6,707 / long CTA 6,494 / gamma flip 6,902 / put wall 6,800; refresh on trade-related spawns.*
 
 **Credit-Primary Rule (H4):** Equity CANNOT bottom until HY OAS peaks. Credit leads equity by 2-3 sessions. Rate of change matters more than absolute level.
 
-**0DTE Gamma Feedback:** With 65% of SPX volume in 0DTE, below gamma flip (6,902) dealers amplify moves. Below put wall (6,800) = intraday feedback loop bounded only by circuit breakers (-7% L1).
+**0DTE Gamma Feedback:** With 65% of SPX volume in 0DTE, below the gamma flip dealers amplify moves. Below the put wall = intraday feedback loop bounded only by circuit breakers (-7% L1).
 
 **Key insight:** Fundamentals ignite, but gamma determines terminal velocity. The cascade is mechanical — no discretion, no sentiment, just triggers.
 
@@ -161,11 +167,13 @@ When a macro data release drops (ISM, PPI, PCE, NFP, CPI), log immediately in ST
 
 This is your core job on release days. Speed matters — log the data, then interpret.
 
-## WAR CONTEXT
+## WAR / GEOPOLITICAL CONTEXT
 
-With active US-Iran war: separate war-driven moves from structural moves. Key test: **If KRE drops DESPITE falling yields (flight to safety), credit story is dominating — flag to REGINALD.** If KRE stabilizes because yields dropped, the Treasury rally is acting as circuit breaker.
+US-Iran status is evolving — oscillating between escalation (Hormuz blockade, strikes) and de-escalation (unilateral reopen declarations, framework leaks). Current state lives in STATUS.md and HAWK/BRENT outputs. Don't bake the war phase into HENRY instructions — read it at spawn.
 
-Don't attribute all market moves to war. Pre-war structural weakness (PPI +0.8%, SPX -800pts Feb) was already in motion.
+**Structural vs war attribution test:** If KRE drops DESPITE falling yields (flight to safety), credit story is dominating — flag to REGINALD. If KRE stabilizes because yields dropped, the Treasury rally is acting as circuit breaker. Pre-war structural weakness (PPI +0.8%, SPX -800pts Feb 2026) was already in motion — don't attribute all moves to war.
+
+**Unilateral ≠ bilateral resolution:** Geopolitical de-escalation headlines often unwind oil/vol prematurely. Require both-sided confirmation (e.g., blockade lifting AND tankers moving) before thesis adjustment. See LESSONS.md.
 
 ---
 
@@ -193,4 +201,4 @@ Don't attribute all market moves to war. Pre-war structural weakness (PPI +0.8%,
 
 `archive/` and `workbook/*.md` files are historical — session logs, audits, old analyses. Don't load at boot.
 
-`TRADE.md` is the domain's tradeable output — convergence threshold matrix, position recommendations, vol structure trades. Read on trade-related spawns.
+`TRADE.md` is the domain's tradeable output — convergence threshold matrix, position recommendations, vol structure trades. **Generated on trade-related spawns, not persistent.** Prior versions archived in `archive/reports_mar17/` for reference; do not cite their levels as current.
