@@ -1,6 +1,6 @@
 # CARL Sub-Agent Team
 
-**Updated:** 2026-04-17
+**Updated:** 2026-04-17 (PM#3 — POLLY + POP refresh)
 
 ---
 
@@ -8,13 +8,13 @@
 
 | Agent | Domain | Status | Last Refresh | Next Catalyst | Stale? |
 |-------|--------|--------|-------------|---------------|--------|
-| **STUE** | Student loans (DQ, default, SAVE/RAP, servicers) | 🟢 BUILT | **Apr 13** | Sweet v McMahon Apr 15 (2 days), AFT/MOHELA May 28, SAVE transition Jul 1 | ✅ Current |
-| **HOMER** | Housing (foreclosures, MF DQ, builders, state-level) | 🟢 BUILT | **Apr 13** | NAHB HMI Apr 15, DHI Apr 21, PHM Apr 23, Fannie MF Mar (late Apr), CS Feb Apr 28 | ✅ Current |
+| **STUE** | Student loans (DQ, default, SAVE/RAP, servicers) | 🟢 BUILT | **Apr 17** | AFT/MOHELA May 28, SAVE transition Jul 1 | ✅ Current |
+| **HOMER** | Housing (foreclosures, MF DQ, builders, state-level) | 🟢 BUILT | **Apr 17** | DHI Apr 21, PHM Apr 23, Fannie MF Mar (late Apr), CS Feb Apr 28 | ✅ Current |
 | **GIG** | Gig economy (oversupply, Dave 28DPD, gas squeeze, AV) | 🟢 BUILT | **Apr 17** | May 6-7 cluster: Uber+DoorDash May 6, **Dave May 7 CONFIRMED**, Lyft May 7 | ✅ Current |
 | **PHAN** | Phantom debt / BNPL ($400B+ invisible, stacking, fintech cockroaches) | 🟢 BUILT | **Apr 17** | **Affirm Q3 FY2026 May 7 AMC CONFIRMED**, Klarna ~May 18 est, CFPB 1033 EFFECTIVELY DEAD | ✅ Current |
-| **POLLY** | Insurance (P&C, FAIR plans, health, FL/CA, auto) | 🟢 BUILT | **Apr 9** | FL hurricane season Jun 1, ACA subsidy cliff | ✅ Current |
-| **POP** | Small business (Ch.11, closures, owner guarantees, tariff transmission) | 🟢 BUILT | **Apr 9** | Tariff impact Apr-Oct peak; NFIB monthly; Census BFS monthly | ✅ Current |
-| **DOC** | Healthcare costs (medical debt, OOP, care avoidance, GLP-1 cost shock) | 🟢 BUILT | **Apr 9** | CPI Mar data Apr 10, ACA enrollment May, KFF survey fall | ✅ Current |
+| **POLLY** | Insurance (P&C, FAIR plans, health, FL/CA, auto) | 🟢 BUILT | **Apr 17** | **UNH Apr 21, ELV Apr 22**, CB Apr 22, ALL May 1 | ✅ Current |
+| **POP** | Small business (Ch.11, closures, owner guarantees, tariff transmission) | 🟢 BUILT | **Apr 17** | Jul 24 Sec 122 cliff, NFIB monthly, Census BFS monthly | ✅ Current |
+| **DOC** | Healthcare costs (medical debt, OOP, care avoidance, GLP-1 cost shock) | 🟢 BUILT | **Apr 9** | ACA enrollment May, KFF survey fall | ⚠️ 8d — borderline |
 | **META** | Methodology & architecture research | ⚪ SPECIAL | Apr 6 | N/A — not a monitoring agent | — |
 
 **Team readiness:** 7/7 monitoring agents built. All operational.
