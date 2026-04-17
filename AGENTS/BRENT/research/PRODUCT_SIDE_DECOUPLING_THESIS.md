@@ -185,6 +185,30 @@ This is a same-day snapshot, not a pattern. Need 3-5 sessions to confirm the rat
 
 ---
 
+## 6-MONTH BASELINE — Apr 17 PM (resolves the "already priced in?" caveat)
+
+Pulled via `scripts/refiner_ratios.py` — 6-mo daily close-to-close ratios vs USO:
+
+| Ticker | Today ratio | 6-mo μ | 6-mo σ | z-score | 1d Δ | Signal |
+|---|---|---|---|---|---|---|
+| PSX | 1.348 | 1.795 | 0.224 | **-1.99** | +3.82% | 🟢 REVERTING |
+| MPC | 1.842 | 2.396 | 0.304 | **-1.83** | +2.43% | 🟢 REVERTING |
+| DINO | 0.493 | 0.648 | 0.100 | **-1.56** | +3.11% | 🟢 REVERTING |
+| VLO | 1.927 | 2.339 | 0.229 | **-1.80** | +0.33% | 🟡 COMPRESSED |
+| PBF | 0.320 | 0.430 | 0.053 | **-2.06** | -5.47% | 🟡 COMPRESSED |
+
+**Finding:** The honest caveat above ("may already be trading at decoupling premiums") is **resolved in the thesis's favor.** All 5 refiner/USO ratios are 1.5–2.1 standard deviations BELOW their 6-month mean — the opposite of priced-in. Through the Hormuz squeeze (Nov 2025–Apr 2026), USO materially outperformed refiners → ratios compressed.
+
+**Reframe:** The trade isn't "buy refiners because decoupling is new" — it's **"buy compressed refiner/crude ratios because mean reversion back toward the 6-mo average delivers 30-50% relative outperformance as crude flushes in Phase 2."** Today's day-one move (MPC +2.4%, PSX +3.8%, DINO +3.1% ratio gains) is the start of that reversion, not the whole of it.
+
+**VLO as predicted:** only +0.33% ratio gain despite thesis calling it the weakest refiner play (Port Arthur damage). Consistent.
+
+**PBF still an outlier** — ratio down on a day refiners as a group reverted up. Requires company-specific dig before including in any trade.
+
+**Reversion target:** if ratios snap halfway back to 6-mo mean, implied outperformance of MPC vs USO ≈ +15%, PSX vs USO ≈ +17%. Full reversion ≈ +30% each.
+
+---
+
 ## BOTTOM LINE FOR WILL
 
 Today (Apr 17) is NOT the entry signal. The -12% intraday paper move is announcement volatility; physical market is not confirming. But **this is the setup window** — the thesis says that IF Phase-2 becomes real in the next 2-3 weeks, refiner equities (MPC best, PSX second, NOT VLO) will materially outperform crude on the way down for a 2-4 week window. Position size should be modest (2-4% of oil-allocated capital) because it's a transition-window trade, not a core long.

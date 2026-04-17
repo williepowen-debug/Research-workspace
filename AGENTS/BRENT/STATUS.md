@@ -241,7 +241,7 @@ Global refining stress is **undercounted** in the above crude table. Living ledg
 - **Hamilton Framework:** `demand_destruction/HAMILTON.md`
 - **Refinery damage (living ledger):** `refinery_damage/TRACKER.md` + `refinery_damage/INCIDENTS.tsv`
 - **Refinery snapshot (Apr 17 research):** `research/REFINERY_FIRES_SNAPSHOT_2026-04-17.md`
-- **Product-side decoupling alpha lane:** `research/PRODUCT_SIDE_DECOUPLING_THESIS.md`
+- **Product-side decoupling alpha lane:** `research/PRODUCT_SIDE_DECOUPLING_THESIS.md` + daily monitor `scripts/refiner_ratios.py` (Apr 17: all 5 refiner/USO ratios z = -1.5 to -2.1 = COMPRESSED, primed for mean reversion; MPC/PSX/DINO firing REVERTING on day 1)
 - **Refinery utilization / crack spread model (early Mar):** `research/REFINERY_UTILIZATION_MAR2026.md`
 
 ---
@@ -262,10 +262,12 @@ Global refining stress is **undercounted** in the above crude table. Living ledg
 
 **Paper is pricing Phase-2; physical is not.** Brent $89 (-10.6%, low $87.51) but Dated Brent last print ~$132 (Apr 9-11, stale) — implied paper-physical spread ~$43, widening not narrowing. Iran FM declared Hormuz "open" but US blockade on Iranian ports remains. Talk-2 "possible this weekend" per Apr 17 reporting; **ceasefire expiry Apr 22** is the binary.
 
-**Predictions status:**
-- **BRT-04** (shale non-response Q1) — 95%, ready to resolve CONFIRMED
-- **BRT-01** ($100 Brent before Hormuz reopens) — touched ~$100 intraweek, still open
-- **BRT-14** (30d closure → $100 near-inevitable) — de facto confirmed by blockade
+**Predictions status (synced to PREDICTIONS.tsv Apr 17 PM):**
+- **BRT-01** ($100 Brent before Hormuz reopens) — **CONFIRMED Apr 17** on Iran FM "Hormuz open" declaration. Temporal ordering satisfied: price hit $100 weeks before any reopening event.
+- **BRT-14** (30d closure → $100 near-inevitable) — **CONFIRMED Apr 16** on audit. $100 became April baseline.
+- **BRT-04** (shale non-response Q1 <200K bpd) — **95% OPEN**, upgraded 93→95% Apr 16 per SIG-009. Rig count 545 (-3 WoW) confirms non-response. Resolves at end-Q1 print.
+- **BRT-07** (Hormuz reopen → OPEC+ emergency mtg 72hr + Brent −$20-40 within 7d) — **TIMER PROVISIONALLY STARTED APR 17** on Iran FM declaration. 72hr OPEC+ watch through ~Apr 20 10AM EDT. 7-day price watch through Apr 24. Brent -$9 so far (below $20-40 threshold). Timer resets if declaration retracts or physical fails to verify.
+- **BRT-15** (STNG exit on naval escort/ceasefire announcement) — **OPEN, today NOT the trigger.** STNG +3.39% on Apr 17 Hormuz-open day = market not treating as clean escort/ceasefire-for-Hormuz event. Prediction not invalidated; still awaiting cleaner trigger cluster.
 
 **Recommendation:** HOLD USO + STNG. Refresh Dated Brent Apr 15-17 print = load-bearing data point. Monitor incident cadence post-Apr-17 as second Phase-2 truth-test (see Phase-2 Reality Check above).
 
