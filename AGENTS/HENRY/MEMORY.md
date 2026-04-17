@@ -54,6 +54,21 @@
 - **VX.tsv 11 STALE Jan/Feb rows** (Put/Call, insider, NAAIM, BTC, tech breadth, GEX, IV%, COT, A-D line, MOVE/VIX). Refresh or archive.
 - **1 undelivered outbox signal** to VIOLET (skew-bounce-status-lag, Apr 17 AM). HERMES hasn't swept — messaging-system issue, not HENRY's to fix.
 
+### RESEARCH QUEUE (proposed Apr 17 Session 4 — pick up next session)
+
+**Session-1 picks (Will prioritized):**
+1. **Apr 21–30 catalyst scenario matrix.** 6+ events (OZK+WAL, Retail Sales, BOJ, FOMC, PCE+GDP) over 10 days. Joint scenario trees: all hawkish / all dovish / mixed. Expected cascade trigger probability per path. **Do before Monday if possible.**
+2. **Historical cascade fired-vs-aborted cases.** Operationalizes Apr 17 "data-right, positioning-early" lesson. Aug 2024 VIX spike, Dec 2024 CTA flip reversal, Nov 2023 regional-bank scare — what distinguished follow-through vs abort? Output: "data confirms / market ignores" row template for scenario grids.
+
+**Structural backlog (durable investments):**
+3. **GEX wire-up decision doc.** 3+ sessions deferred. Research SpotGamma alternatives (Barchart, CBOE OI, VolLand, OptionsPro) + home-brewed GEX from free OI + Black-Scholes. Decide: wire up, accept PENDING, or remove fields.
+4. **Structural bid decomposition.** Quantify $/day mechanical bid: buybacks, passive creations, 401k biweekly, CTA/vol-control contribution. Cascade math needs a headwind denominator — explains why data has been right but positioning bled.
+5. **Regional bank credit-vs-margin playbook.** KRE components weighted by CRE office / C&I / subprime auto exposure. NIM math per yield curve shape. Sharpens OZK/WAL read and the "Hormuz beta vs credit conviction" distinction.
+
+**Nice-to-have:**
+6. **Macro-surprise-index as leading indicator.** Econ Surprise 0.338 (Apr 2, longest above-zero stretch since 2023). Historical pattern of surprise-peaks preceding stagflation breaks.
+7. **Credit-vol decoupling phase tracker.** Complements VIOLET LOW_VOL regime framework. When does decoupling end + reconvergence begin? HENRY owns the reconvergence signal.
+
 ### INFRASTRUCTURE CHANGES (persistent)
 - MEMORY.md created (Session 4). Template: Feedback / Findings / References / Session Notes. Cap 100 lines.
 - CLAUDE.md SPAWN PROTOCOL: Boot (1-3 reads) / Execute (4) / Write-back (5-9) / Git. Step 3 reads MEMORY.md. Step 8 writes MEMORY.md. Step 9 writes LAST_COMPLETION.md.
