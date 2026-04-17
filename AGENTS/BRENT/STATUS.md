@@ -1,7 +1,16 @@
 # BRENT STATUS
 
-**Last Updated:** 2026-04-16 13:15 EDT  
-**Overall Status:** 🟠🟠🟠 ORANGE — **BRENT FUTURES ~$94** / **DATED BRENT $123 (hit ATH >$144 intra-week)** / **CEASEFIRE COLLAPSED APR 12** / **US NAVAL BLOCKADE OF IRANIAN PORTS IN EFFECT (APR 13)** / **SECOND-ROUND TALKS UNDER CONSIDERATION**
+**Last Updated:** 2026-04-17 08:30 EDT  
+**Overall Status:** 🟠🟠🟠 ORANGE — **BRENT FUTURES ~$95 (swung $94–96 all wk)** / **DATED BRENT $123 [stale Apr 13, ATH $144 midweek]** / **CEASEFIRE EXPIRES APR 22 (WED) — NO TALK-2 DATE SET** / **US BLOCKADE ACTIVE ("as long as it takes" — Hegseth Apr 16)**
+
+## ⚠️ APR 17 REFRESH — NEW INFO
+
+- **Ceasefire expiry = Wed Apr 22** (two weeks from Apr 8). Hard deadline if no talk-2 announced; Path A risk window opens Apr 22–23.
+- **Talk-2:** NO DATE SET as of Apr 16 (Al Jazeera). Pakistan FM Dar visited Tehran Apr 15 — shuttle active. Sticking point: US wants **20-yr** uranium pause, Iran offered **5-yr** (US rejected).
+- **Blockade scope clarified Apr 16 (Gen. Caine, Joint Chiefs):** blockade targets Iranian **ports + coastline only**, NOT the Strait itself. Third-country tankers can still transit Hormuz — reduces third-party Scenario-C tail risk vs prior read. But Iran exports remain 100% locked.
+- **Hegseth Apr 16:** blockade will continue "as long as it takes" — hardened rhetoric.
+- **Trump (NBC, Apr 13):** "doesn't care about new talks" — conflicts with WH's Apr 15 "optimistic" framing; mixed signal.
+- **Ship count:** 10 vessels turned back by Apr 15 (CENTCOM). Blockade effective.
 
 ---
 
@@ -49,10 +58,10 @@
 
 | Metric | Value | Updated |
 |--------|-------|---------|
-| Brent futures | **~$94** (steadied above after <$92 on Apr 14) | **Apr 16** [CONF] TradingEconomics |
-| Dated Brent (physical) | **~$123** — hit ATH **>$144** earlier in week | **Apr 13** [CONF] Al Jazeera/S&P |
-| WTI | **~$92** (tumbled Apr 14 on talk prospects) | **Apr 14** [CONF] CNBC |
-| WTI-Brent | **~-$2** (WTI slight discount) | **Apr 16** [EST] |
+| Brent futures | **$94.89** close Apr 16, -0.04%; intraday Apr 17 **$96.03** (-3.38%) — swung $94–96 all wk | **Apr 17** [CONF] TradingEconomics / boot |
+| Dated Brent (physical) | **~$123** — hit ATH **>$144** earlier in week. **STALE, needs Platts refresh** | **Apr 13** [CONF] Al Jazeera/S&P |
+| WTI | **$87.63** (-3.88% intraday Apr 17) | **Apr 17** [CONF] boot |
+| WTI-Brent | **~-$8** (discount widened from -$2) | **Apr 17** [EST] boot |
 | Physical-futures spread | **~$29/bbl** (ATH was ~$35) = scarcity persists | **Apr 13** [EST] |
 | Brent M1-M3 spread | ~$8–12 (↓ from $18+; narrowing on ceasefire, watch for re-widening) | **Apr 13** [EST] TRACKER |
 | Retail gas US avg | **$4.108/gal** — flat WoW (+$0.03). >$4 for ~2wks | **Apr 15** [CONF] AAA |
@@ -168,9 +177,12 @@
 
 | Date | Release | Priority |
 |------|---------|----------|
+| **Apr 17 (today, ~1pm ET)** | **Baker Hughes Rig Count** — watch for SIG-009 follow-through (545 prior) | 🟠 |
+| **Wed Apr 22** | **CEASEFIRE EXPIRY** — Path A trigger if no talk-2 announced | 🔴🔴 |
+| Wed Apr 22 | EIA Weekly Petroleum | 🔴 |
 | Every Wed | EIA Weekly Petroleum | 🔴 |
 | Every Fri | Baker Hughes Rig Count | 🟠 |
-| Apr 11-12 | US-Iran talks in Islamabad | 🔴🔴 |
+| Apr 11-12 | US-Iran talks in Islamabad (FAILED) | 🔴🔴 |
 
 ---
 
