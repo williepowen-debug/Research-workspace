@@ -36,103 +36,138 @@
 
 ## Session Notes
 
-⚠️ **Open question:** FITB transcript + press release fully mined (findings in `FITB/Q1_2026_ANALYSIS.md`). **Headline thesis hold:** FHLB cohort intact at 3/4 surge + 1/4 deal-driven escape; FITB -96% QoQ is Comerica-specific ($65B deposits + $2B Jan LT debt), not organic. Tim Spence's "80% vs 10%" PE/private-capital growth quote creates orthogonal pressure vector on WAL/OZK/ZION Apr 21. FITB NDFI = 7% loans, <1% PC/BDC, $100M data center (smallest in cohort). Pre-earnings clean-balance-sheet baseline holds. **Pending:** FITB 8-K (5.6MB) + deck (1.6MB) — period-end FHLB, NDFI slide 19, line utilization. **RF = clean FHLB test** (no merger, no deposit infusion). WAL re-breached $78 at Apr 17 08:26 ET. Checkpoint before /clear — next session boots fresh with analysis file as starting context.
+⚠️ **Open question:** Apr 21 (4 days out — 2 trading days) WAL + OZK earnings sizing/positioning decision. **Crowded-short unwind is activating pre-print** (RF missed both lines and rallied +3.8%; all regionals up 2-5% today on Brent -10% / Hormuz de-escalation headlines). Market punishing thesis confirmation, not earnings misses. Four-thread investigation plan teed up in NEXT SESSION to sharpen Monday decision. **Checkpoint before /clear** — RF mining complete, investigation plan pre-loaded.
 
 ### CHANGES SINCE LAST SESSION
 *(populated at next boot via market.py)*
 
-### LAST SESSION (Apr 17 AM — FITB transcript + press release mined, checkpoint before /clear)
+### LAST SESSION (Apr 17 midday — RF mined, crowded-short thesis developed, checkpoint before /clear)
 
-**FITB Q1 2026 synthesis complete** — `FITB/Q1_2026_ANALYSIS.md` (NEW, comprehensive). Read FITB transcript (241 lines) + press release (92,881 chars via pdfminer). Did NOT read 8-K (5.6MB) or deck (1.6MB) — deferred to next session to manage context.
+**RF Q1 2026 synthesis complete** — `RF/Q1_2026_ANALYSIS.md` (NEW, 249 lines). Mined transcript + press release (38KB extract) + supplement (84KB extract). Deck (9.2MB) pending Round 2.
 
-**Key findings persisted in analysis file:**
-1. **FHLB thesis reframe** — FITB -96% QoQ ($4,767M → $99M avg) is DEAL-DRIVEN (Comerica $65B deposits paid down advances + $2B Jan LT debt). FITB was in cohort surge pattern Q4 (2x YoY). **Cohort: 3/4 surge + 1/4 escape. RF is clean test.**
-2. **Tim Spence's "80% vs 10%" quote** — weaponized FITB's low PE/private-capital growth mix against peers. New analyst hook for WAL/OZK/ZION Apr 21, orthogonal to warehouse/NDFI.
-3. **Credit merger-moderate** — provision $227M incl. $83M Day1 Comerica; ex-Day1 $144M. ACL% 1.79% (from 1.96%) is denominator effect, not release. NCO 37bps with $21M excluded at merger. Pre-earnings "cleanest balance sheet" baseline holds.
-4. **NDFI smallest in cohort** — 7% loans, <1% PC/BDC, <$100M data center. No NDFI table in press release.
-5. **Consumer Warehouse / Tricolor-adjacent DORMANT** — not raised by any analyst, not disclosed in PR. Free pass for FITB's $2.95B sub-bucket. **Read-through for WAL V3:** warehouse composition likely also escapes direct interrogation Apr 21.
-6. **TBV +15% YoY, no dilution** — $12.3B equity issued for Comerica didn't dilute TBV/share because deal was accretive. CET1 -85bps QoQ to 9.96% is pure RWA effect.
-7. **Geopolitics** — Tim cited Iran war, applied qualitative ACL adjustment for energy/commodity costs. Baseline/downside unemployment 4.5%/8.5% in 2027. Cautious tone.
+**Key RF findings persisted in analysis file:**
+1. **NDFI forced disclosure — cohort 5/5 confirmed.** Turner (CEO) answered Cassidy/RBC directly: ~25 funds, $3B commit / $1.8B outstanding / <2% of loans / ~50% REIT / IG-heavy / paydowns > draws. Spectrum: PNC $73B → CFG $19.6B → FITB $9.5B → MTB $8.9B → RF $3B. **RF is the cohort's LOW-risk name — control variable, not transmission bank.**
+2. **FHLB opacity worst in cohort.** RF does NOT break out FHLB anywhere (PR, supplement, transcript). Rolled into "Other short-term borrowings." Clean-FHLB-test unresolvable until Q1 Call Report (May 1-10).
+3. **Hormuz live on the call.** Cassidy prompted "the straits opened up today as you probably saw the headlines." Chadda: $17M Middle East reserve overlay, releasable. Aligns with Brent -10.18% today.
+4. **Capital markets stress CONCRETE.** RF first cohort CEO to explicitly name capital-markets-uncertainty-driven corporate line draws. Line utilization +200bps late-Q1, half corporate, half middle market. HENRY/LIQUID paper→plumbing transmission verified from a regional bank.
+5. **Credit IMPROVING at RF** — NCO 54bps (-5bps), NPL 71bps (-2bps), criticized 5.15% (-16bps), ALL -$39M. CARL consumer thesis NOT confirmed. RF is genuinely clean.
+6. **$40M loss post-Q1 securities repositioning** — rate spike driven. Watch WAL/OZK Apr 21 for similar subsequent-events language.
+
+**Crowded-short positioning thesis developed (this session):**
+
+After RF's miss-but-rally, re-read SIG-W-20260414-008 (DB Asset Allocation chart): financials positioning -1.5 to -2 z vs consensus earnings growth +20-40% YoY. Widest divergence since 2020. RF tape was live demonstration of **Scenario B** (positioning wrong, consensus right) at a single-name level.
+
+**Will's key instinct (worth preserving):** Institutions positioned that bearish almost certainly share our thesis (CRE maturity wall, NDFI, BDC gating, AOCI rewrite, stagflation). That's thesis-validating. But it means "the market already prices bad" — our edge isn't the thesis, it's the *mechanism* (MI3 screen, convergence scoring, C&I hiding place synthesis). Will also sharpened: "the entire market has already squeezed so far" — today's 3-5% regional rally is partial positioning unwind already in progress.
+
+**Four-thread investigation plan agreed (teed up as NEXT SESSION items):** sharpen whether DB squeeze already progressed, whether OZK/WAL-specific shorts still crowded, how far street PTs can travel, and identify 2-3 REGINALD-unique edge vectors.
 
 **Files updated this session:**
-- `STATUS.md` — Apr 17 08:55 ET timestamp, FITB+RF headline block (5/5 cohort), earnings wave table rows updated with actuals, cohort pattern shift (beat-fade → miss)
-- `CALENDAR.md` — FITB/RF rows updated with actuals
-- `FITB/Q1_2026_ANALYSIS.md` — NEW synthesis file (will be read at next boot)
+- `RF/Q1_2026_ANALYSIS.md` — NEW (249 lines, full synthesis)
+- `RF/sources/RF Full Conference Call Transcript.md` — committed
+- `.gitignore` — added `*:Zone.Identifier`, bank PDF patterns, 10-K dumps, quarterly supplement dirs
+- `STATUS.md` — threshold-breach block updated (WAL fade), AM→midday update section with cohort signals
+- `CALENDAR.md` — FITB + RF marked ✅ with pointers to analysis files
 - `MEMORY.md` — this rewrite
 
-**Git:** 1 prior commit this session (97ac6440, headlines). This checkpoint commit covers analysis file + MEMORY.
+**Git:** 2 commits this session (`ee5de602` gitignore + FITB transcript; `113b66af` RF analysis). Both pushed to origin/master.
 
-### Prior session — Apr 16 PM (cohort refresh for WAL + OZK Apr 21 prep, archived)
+### Prior session — Apr 17 AM (FITB mined, checkpoint, archived)
 
-**WAL + OZK Apr 21 earnings prep fully refreshed with Apr 15-17 cohort read-throughs:**
-- `WAL/EARNINGS_PREP.md` (231 → 356 lines) — added COHORT READ-THROUGHS section (MTB/CFG/PNC + FITB/RF baselines). Pass 1: removed stale "OZK Apr 16" references (now same-day Apr 21), updated price $67→$78.23. Pass 2 findings folded: V1 table added "Table 14 bucket changes" tripwire; V3 table added "Multi-bucket NDFI undercount" row; added "Analyst Q&A forced-disclosure probability" paragraph.
-- `OZK/EARNINGS_PREP.md` (354 → 474 lines) — added COHORT READ-THROUGHS ordered by CRE/construction relevance, framed as "OZK already shows CFG pattern one quarter ahead." Pass 1: header Days Out 14→5, price $46.44→$47.85, 3 decision-matrix sections APRIL 16→APRIL 21.
-- `FITB/WAL_READTHROUGH.md` (NEW, 63 lines) — listen-for for FITB's $2.95B Consumer Warehouse / Securitization Vehicles sub-bucket as Tricolor-adjacent read-across to WAL's ~$9.2B warehouse book. Decision matrix for WAL Apr 21 based on FITB Apr 17 outcomes.
+**FITB Q1 2026 synthesis:** `FITB/Q1_2026_ANALYSIS.md`. Transcript + press release mined; 8-K (5.6MB) + deck (1.6MB) deferred.
 
-**Cohort patterns now synthesized (3 done, 2 today Apr 17, 2 Monday Apr 21):**
-1. Headline beats, tape fades — MTB -1.55%, CFG -0.63%, PNC -0.03% (fade weakening)
-2. FHLB acceleration SYSTEMIC — 3/3 Q1 period-end surging
-3. NDFI disclosure spectrum: PNC $73B (most granular) → CFG → FITB → MTB → RF ZERO (worst). PNC's $73B deck rollup is $31B ABOVE Table 16 "Financial services" $42.2B = 42% of thematic NDFI hidden in other C&I buckets.
-4. Reclassification-as-disclosure universal (CFG carved PC finance out; PNC split Retail/Wholesale). FITB clean counter-example.
-5. Reserve release is CFG-specific tell (others building; PNC provision +51% QoQ).
+**Key findings:** (1) FHLB -96% QoQ is Comerica-deal-driven escape, not organic — cohort is 3/4 surge + 1/4 escape. (2) Tim Spence's "80% vs 10%" PE/private-capital growth quote = new analyst hook for WAL/OZK/ZION. (3) NDFI smallest in cohort (7%, <1% PC/BDC). (4) Consumer Warehouse / Tricolor-adjacent sub-bucket DORMANT — no analyst pressure → free-pass read-through for WAL V3. (5) TBV +15% YoY; CET1 -85bps to 9.96% pure RWA effect. (6) Qualitative Iran ACL adjustment, cautious tone.
 
-**Pre-earnings baselines committed for today's reporters:**
-- `FITB/STATUS.md` — cleanest balance sheet (CET1 10.77%, ACL 1.96%). FHLB -48% QoQ avg (outlier declining). Watch: $2.95B Consumer Warehouse sub-bucket.
-- `RF/STATUS.md` — worst NDFI disclosure (zero mentions in 10-K; $18.3B Financial services 1.15x unfunded/funded). FHLB -30% YoY. Consumer elevated (card 4.08% 5Q high). 52% branches FL/TN/AL.
+### Prior session — Apr 16 PM (WAL + OZK cohort refresh, archived)
 
-**Git:** 2 commits pushed (fb73eb0b post-crash recovery; faf930b1 cohort refresh). PDFs + Zone.Identifier files excluded.
+WAL/EARNINGS_PREP (356L) + OZK/EARNINGS_PREP (474L) + FITB/WAL_READTHROUGH (63L) refreshed with cohort read-throughs. Cohort patterns: beat-fade weakening, FHLB surge systemic, NDFI disclosure spectrum, reclassification universal, reserve release CFG-specific.
 
 ### Prior session — Apr 16 AM (CFG Q1 + thesis v1.4, archived)
 
-**[Apr 16 Round 2 — CFG deck mining]**
-- Mined `CFG/sources/CFG-earnings-presentation-4-16-26.pdf` (was unread in Round 1)
-- Slide 24: $14.7B Private Capital + $4.9B other = $19.6B preliminary NDFI. Disclosure exists in deck only — NOT press release/supplement
-- New "ABS finance" $1.8B line item — no 10-K Table 14 equivalent. Possible reclassification.
-- 5% vs 40% partially resolved: capital call + PC finance growing ~2.85% QoQ ≈ 11.9% annualized. Trajectory moderated.
-- Slide 23 confirms hiding place: capital call + PC finance itemized inside C&I "Finance and Insurance" $13.3B bucket
-- Slide 26: ACL release headline (1.53→1.52%) masks Commercial building (+6bps both C&I and CRE), Retail releasing
-- Slide 27: Mortgage 90+ accruing UP 0.40→0.51%; FHA/VA/USDA-guaranteed bucket growing ($141M→$179M). CARL FHA stress touches CFG
-- **Files updated:** CFG/STATUS.md (3 edits — verdict #3, new DECK FINDINGS section, Priority 6), parent STATUS.md (2 edits — sector tone table + opacity bullet), MEMORY.md
-- **Behavior change:** WAL/OZK earnings decks must be mined alongside press release on Apr 21 — pattern shows decks contain disclosure absent from headlines
-
-**[Apr 16 Round 1 — original CFG session]**
-
-**CFG Q1 fully integrated (earnings release + supplement + transcript):**
-- `CFG/STATUS.md` — post-earnings dashboard with all Q1 actuals, transcript mining, discrepancy analysis, three-layer C&I framework
-- `CFG/sources/` — Q1 transcript uploaded by Will, plus earnings PDFs
-
-**Key CFG findings:**
-1. CRE nonaccruals +10% QoQ ($618M→$679M) while CRE balance fell 1% — extend-and-pretend confirmed
-2. FHLB 60x YoY ($42M→$2,513M) — prior 10-K assessment of "declining, not stressed" was WRONG
-3. Zero fund finance disclosure in press release or supplement — total opacity on $12.5B book
-4. 5% vs 40% growth discrepancy — Van Saun + Ted claim "5%/yr" NBFI growth, 10-K shows 39.7%. Likely reclassification (same pattern as MTB)
-5. Two analysts asked about private credit (Siefers/Piper, Chiaverini/Jefferies) — first time ever, was zero in Q4
-6. Van Saun acknowledged screening counterparties for "liquidity gates" — first gating risk acknowledgment
-7. PE line utilization DOWN — contradicts Q4's "pickup." Draws not accelerating at CFG. Partial thesis disconfirmation.
-8. AOCI: CET1 10.5% → 9.3% after adjustment. $1.97B unrealized losses.
-9. Consumer improving: retail NCO 38bps (from 70bps YoY). CARL channel NOT confirming at CFG.
-10. Capital return 96% ($498M vs $517M earned). Buybacks tripled QoQ.
-
-**Thesis v1.4 (new):**
-- Added "C&I as Convergence Hiding Place" to thesis/THESIS.md — three masking mechanisms (MI3, NDFI opacity, reclassification) all exploit C&I bucket
-- Core insight: the convergence isn't just eight channels hitting the same banks — it's eight channels hiding in the same bucket
-- CFG research + MTB cross-reference provided the evidence base
-
-**Parent STATUS.md updated (carry-forward from last session resolved):**
-- Q1 earnings wave sector tone tracker (2/2 bear-leaning)
-- FHLB upgraded 🟠→🔴
-- WAL threshold: back above $78 ($78.23)
-- CFG convergence score: 9→12
-
-**Files updated:** CFG/STATUS.md, thesis/THESIS.md (v1.4), thesis/CHANGELOG.md, STATUS.md (parent), CALENDAR.md, MEMORY.md
-**Git:** 1 commit pushed to GitHub. CFG source PDFs local only (not committed). Transcript committed.
+Thesis v1.4 added "C&I as Convergence Hiding Place" (three masking mechanisms: MI3, NDFI opacity, reclassification). CFG carved out $2.9B Secured PC finance (FY2024→FY2025 10-K). FHLB upgraded 🟠→🔴. CFG convergence score 9→12.
 
 ### NEXT SESSION
-1. **Boot reads `FITB/Q1_2026_ANALYSIS.md` first** — full synthesis from this session. Don't re-mine transcript/press release.
-2. **FITB 8-K (5.6MB, unread)** — `FITB/sources/FITB 8-k April 26.pdf`. Mine for: period-end FHLB balance (vs avg $99M), Schedule RC-type detail, any NDFI table (PR had none), any warehouse/securitization line items, MI3-equivalent disclosure. Use pdfminer with chunked reads.
-3. **FITB presentation deck (1.6MB, unread)** — `FITB/sources/Fifth-Third-Bancorp-Presentation-Q126-Final.pdf`. Slide 19 equivalent for NDFI breakdown (pre-earn baseline was $9.5B / 8% / 6-way %), line utilization detail, credit composition charts, any auto warehouse / Tricolor-adjacent language in footnotes.
-4. **All 4 RF docs** (when Will drops them) — RF is the CLEAN FHLB test (no merger, no deposit infusion). Test: RF FHLB up = thesis reconfirmed 4/5; RF FHLB flat/down = thesis narrows. Watch consumer NCO (baseline: card 4.08% 5Q high, >4.20% = CARL confirmation), any NDFI disclosure (baseline: zero).
-5. **WAL + OZK Apr 21 earnings prep — final pre-call checklist** (4 days out Monday). Add Tim Spence's "80% vs 10%" PE/private-capital growth quote as a NEW analyst hook to both EARNINGS_PREP files. Pull WAL FY2025 10-K Table 16 bucket-level snapshot pre-call for reclassification tripwire test.
-6. **Update `FITB/WAL_READTHROUGH.md` with actuals** — Consumer Warehouse was DORMANT at FITB (no analyst pressure). Note free-pass read-through for WAL Apr 21; V3 remains latent unless 8-K/deck surface something.
-7. **DB positioning risk for Apr 21** — financials at -1.5 to -2 z; crowded-short unwind risk if WAL/OZK beat. Size conservatively.
-8. **Outbox:** OTTO reply on Tricolor/Apollo Atlas SP read-across still queued for HERMES delivery.
+
+**Boot sequence:** standard + read `RF/Q1_2026_ANALYSIS.md` (fresh) and `FITB/Q1_2026_ANALYSIS.md` (prior-session synthesis) early. These are the current thesis-state reference files.
+
+**Primary focus: 4-thread investigation to sharpen Apr 21 WAL/OZK sizing decision.** Ordering below is optimized for fastest-to-slowest and data-available-to-synthesis-heavy. Do one at a time, pause for Will's approval between each.
+
+---
+
+**THREAD 2 — Single-name Short Interest (~15 min, DO FIRST)**
+
+Question: Did today's rally unwind WAL/OZK-specific shorts or just broad-financials? Does our thesis name still have crowded-short residual?
+
+Approach:
+1. Read `workbook/SHORT_INTEREST.tsv` for OZK/WAL 6-month history
+2. Read `workbook/SHORT_VOL.tsv` for last 5 trading days
+3. Run `scripts/darkpool.py` for today's off-exchange/short-vol refresh
+4. Cross-check float: OZK 0% insider ownership, KRE 69.4M SI / 56.9M outstanding
+5. Output: one table + verdict (crowded / unwinding / mixed)
+
+Decision implication: if OZK/WAL SI flat/rising despite +3% rally → smart money holds → thesis-name short still viable. If both fell sharply → squeeze progressing → reduce asymmetry assumption.
+
+---
+
+**THREAD 3 — Sell-side PT Distribution (~30-45 min)**
+
+Question: How far can street downgrade WAL/OZK from here, and what's the gap between street low PT and our thesis PT?
+
+Approach:
+1. Backfill known WAL PTs from MEMORY: Barclays $88, KBW $93, Weiss Hold, WFC $79
+2. Build OZK PT table from scratch — use Quartr `get_company` / WebSearch
+3. Columns: Analyst | PT | Rating | Date | Δ since Mar 1
+4. Distribution stats: high / median / low / consensus
+5. Compare to thesis: WAL $47-60; OZK (set target — likely $35-40 based on multi-channel matrix)
+6. Calculate "gap to thesis low" = street runway for downgrades
+
+Decision implication: large runway = long catalyst tail for thesis to pay. Short runway = street near thesis already → limited incremental edge.
+
+---
+
+**THREAD 4 — Differentiated Edge Check (~45-60 min, MOST VALUABLE)**
+
+Question: Which REGINALD thesis elements are NOT in standard street models = genuine surprise potential?
+
+Approach:
+1. Re-read `thesis/THESIS.md` v1.4 for framework inventory
+2. Mine cohort analyst Q&A patterns (MTB/CFG/PNC/FITB/RF transcripts already consumed — use the existing analysis files, don't re-mine)
+3. Score each element on 3-axis matrix: in street models (Y/N) × visible in Q1 disclosure (Y/N) × surprise magnitude (L/M/H)
+4. Identify top 2-3 edge vectors by surprise potential
+5. Map each to earliest visibility date + required catalyst
+
+Key hypotheses to test in the synthesis:
+- **Hidden CRE via MI3/RCON2746** — probably not in standard models. Visible only in Q1 Call Report May 1-10. HIGH magnitude.
+- **Convergence multi-channel scoring** — proprietary; synthesis only. HIGH.
+- **C&I hiding place (v1.4)** — our thesis synthesis; three masking mechanisms. HIGH.
+- **Cantor/Jefferies fraud (V2)** — partially known; V2 chain documented. MEDIUM.
+- **SSFA/capital arb (V3)** — likely not in standard models; discoverable in deck. MEDIUM-HIGH.
+
+Decision implication: are our strikes/expiries aligned with when the edge becomes visible? If top edge = MI3 Q1 Call Report (May 1-10), Jun expiry may be too tight → roll to Jul/Aug.
+
+---
+
+**THREAD 1 — DB Chart Refresh (~20-30 min, LAST — hardest data access)**
+
+Question: Has the positioning gap closed since Apr 14, or is it still -2z?
+
+Approach:
+1. WebSearch "Deutsche Bank Asset Allocation financials positioning April 2026" / ISABELNET weekly refresh
+2. Proxies if DB unavailable: NAAIM Exposure Index, CFTC COT for financial futures, Goldman PB weekly if accessible
+3. If still data-gapped, flag to Will → request fresh Telegram screenshot
+4. Estimate: if gap was -2z Apr 14 and regionals +2-5% today, likely -1 to -1.5z now. Quantify if data allows.
+
+Decision implication: narrower positioning gap = less fragile squeeze setup = thesis bars to clear are higher.
+
+---
+
+**FINAL SYNTHESIS (after all 4 threads):** One-page Apr 21 decision brief — HOLD / ROLL / TRIM / ADD per position. Align strikes & expiries to edge-visibility timeline.
+
+---
+
+**Also still pending (lower priority, carry-forward):**
+- FITB 8-K (5.6MB, unread) — `FITB/sources/FITB 8-k April 26.pdf`. Period-end FHLB, Schedule RC detail.
+- FITB deck (1.6MB, unread) — `FITB/sources/Fifth-Third-Bancorp-Presentation-Q126-Final.pdf`. Slide 19 NDFI.
+- RF deck (9.2MB, unread) — `RF/sources/RF 1Q26-Presentation_Website.pdf`. Card NCO detail, investor real estate composition, transportation page 24.
+- Update `FITB/WAL_READTHROUGH.md` with FITB actuals — Consumer Warehouse DORMANT outcome, free-pass read-through.
+- Add Tim Spence's "80%/10%" quote as new analyst hook to `WAL/EARNINGS_PREP.md` and `OZK/EARNINGS_PREP.md`.
+- Outbox: OTTO reply on Tricolor/Apollo Atlas SP read-across (queued for HERMES delivery).

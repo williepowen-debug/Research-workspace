@@ -308,12 +308,28 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 
 ---
 
-## ⚠️ THRESHOLD BREACHES (as of Apr 17 08:26 ET)
+## ⚠️ THRESHOLD BREACHES (as of Apr 17 ~10:00 ET — rally reversed AM breach)
 
 | Metric | Threshold | Current | Note |
 |--------|-----------|---------|------|
-| WAL | <$78 | **$77.29** (Apr 17 08:26, -1.55%) | 🔴 **RE-BREACHED.** Intraday move, second breach in a week. Earnings Apr 21 will resolve. |
+| WAL | <$78 | **$81.09** (+4.92%) | 🟡 **BREACH FADED.** Pre-market $77.29 → mid-morning $81.09 on broad short-unwind rally post-RF miss and Brent -10%. Cohort all up 2-5% (KRE +3.36%, OZK +3.22%, ZION +2.70%, EGBN +3.58%, CFG +1.33%). DB crowded-short unwind (SIG-W-20260414-008) appears to be activating pre-earnings. |
 | HY OAS | >320bps | **294bps** (Apr 8, stale) | CLEAR. 26bps buffer. Needs refresh. |
+
+---
+
+## AM→MIDDAY UPDATE — April 17, 2026 (~10:00 ET)
+
+**RF actuals integrated — see `RF/Q1_2026_ANALYSIS.md` (249 lines, full synthesis).**
+
+| Signal | Update |
+|--------|--------|
+| **Tape pattern inverted** | Miss + rally. RF +3.8% intraday on double miss. FITB ~flat on mixed print. MTB/CFG/PNC were beat-fade (3/3 prior). **Pattern now: "clean-book miss gets rewarded."** Market punishes thesis confirmation, not earnings number. |
+| **NDFI disclosure cohort 5/5** | RF forced CEO disclosure in Q&A: ~25 funds, $3B commit / $1.8B outstanding / <2% loans / ~50% REIT / IG-heavy. Spectrum: PNC $73B → CFG $19.6B → FITB $9.5B → MTB $8.9B → RF $3B. RF is the **control variable**, not transmission bank. |
+| **FHLB cohort** | 3/5 surging (MTB +265% avg, CFG 60x YoY, PNC +64.7% QoQ). FITB -96% deal-driven escape. **RF opaque — not broken out anywhere in press release or supplement.** Resolves only at May 1-10 Q1 Call Report. |
+| **Hormuz live on RF call** | Cassidy (RBC) prompted: "straits opened up today as you probably saw the headlines." Chadda (CFO): $17M Middle East reserve overlay, releasable on de-escalation. Aligns with Brent -10.18% today. Cross-feed to BRENT/HAWK. |
+| **Capital markets stress concrete** | RF: line utilization +200bps late-Q1 driven by "capital markets uncertainty." Half corporate, half middle-market. HENRY/LIQUID paper→plumbing transmission CONFIRMED from a regional CEO for first time. |
+| **Thesis at RF: disconfirmed** | Credit improving (NCO -5bps, NPL -2bps, criticized -16bps, ALL -$39M). Legacy portfolios (office/MF/transport/comms) mostly worked out. RF is the clean name. |
+| **Securities repositioning** | RF booked $40M loss post-Q1 on $900M short-duration sale → longer-duration repositioning. Rate spike driven. Watch WAL/OZK Apr 21 for similar subsequent-events language. |
 
 ---
 

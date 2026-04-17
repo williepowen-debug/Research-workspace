@@ -1,6 +1,6 @@
 # REGINALD CALENDAR
 
-**Last Updated:** 2026-04-17 08:55 ET | **View:** Forward-looking only. Past events pruned weekly.
+**Last Updated:** 2026-04-17 ~10:00 ET (FITB + RF ✅ resolved) | **View:** Forward-looking only. Past events pruned weekly.
 
 ---
 
@@ -14,8 +14,8 @@
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |------|-------|---------------|-------------------|-----------|
-| **Apr 17 — TODAY (headline OUT)** | **FITB Q1: EPS $0.83, Rev $2.86B (miss $50M)** — 9:00 AM call | PDF pending Will pull: provisions, NCO comp, FHLB Q1 period-end, $2.95B Consumer Warehouse sub-bucket language | EPS +17% YoY but -20% QoQ; rev miss. Slight miss vs clean consensus. | OTTO, CARL, REGINALD (WAL V3) |
-| **Apr 17 — TODAY (headline OUT)** | **RF Q1: EPS $0.57 (miss $0.04), Rev $1.92B (miss $20M)** — 10:00 AM call | PDF pending: consumer NCO (>0.75%? card >4.20%?), FHLB trajectory, any forced NDFI disclosure | **First outright miss of cohort.** Consistent with highest-opacity baseline. | CARL, CORAL (52% branches FL/TN/AL) |
+| **Apr 17 ✅** | **FITB Q1: EPS $0.83, Rev $2.86B (miss $50M)** — resolved | Transcript + PR mined last session (`FITB/Q1_2026_ANALYSIS.md`). 8-K + deck still pending Round 2. | Tape ~flat; thesis clean-balance-sheet baseline held; "80%/10%" PE growth quote added as WAL analyst hook. | OTTO, CARL, REGINALD (WAL V3) |
+| **Apr 17 ✅** | **RF Q1: EPS $0.57 (miss $0.04), Rev $1.92B (miss $20M)** — resolved | Transcript + PR + supplement mined this session (`RF/Q1_2026_ANALYSIS.md`). Deck (9.2MB) pending Round 2. | **Tape +3.8% on DOUBLE MISS.** NDFI forced disclosure: $3B/$1.8B/<2% loans. FHLB opaque → May 1-10 Call Report. Middle East $17M overlay releasable. | CARL, CORAL, HENRY (capital markets stress) |
 
 ## WEEK OF APR 20 — PEAK EARNINGS (POSITION NAMES)
 
