@@ -114,7 +114,7 @@
 | **TOTAL** | **~9-11M bpd equiv disrupted** | Persistent even with ceasefire |
 
 ### Refining bottleneck (Mar–Apr 2026, **new vector**)
-Global refining stress is **undercounted** in the above crude table. Living ledger: `refinery_damage/TRACKER.md` + `refinery_damage/INCIDENTS.tsv` (20 ACTIVE/PARTIAL incidents, ~6.6M bpd product-side offline). Highlights:
+Global refining stress is **undercounted** in the above crude table. Living ledger: `refinery_damage/TRACKER.md` + `refinery_damage/INCIDENTS.tsv` (19 ACTIVE/PARTIAL incidents, ~5.1M bpd product-side offline after Apr 17 Kharg reclass). Highlights:
 - **Valero Port Arthur (TX) — 380K bpd** offline since Mar 23 explosion; diesel hydrotreater down; partial restart Apr 16, key unit still offline. 415K bpd gross impact (WoodMac).
 - **Viva Energy Geelong (AU) — 120K bpd** — gas leak + multiple explosions Apr 15-16; mogas section damaged.
 - **Pemex Dos Bocas (MX) — 340K bpd target** — 4 safety incidents in 23 days (Mar 17 fatal + Apr 9 coke warehouse); refinery staying well below capacity target.
@@ -157,7 +157,7 @@ Global refining stress is **undercounted** in the above crude table. Living ledg
 | Demand destruction | 🟡 3 | Still not in EIA data; aviation cuts firing |
 | Storage (global) | 🔴 4 | Gulf still filling/full; blockade prevents Iran drawdown |
 | Tanker/shipping | 🟠 3 | Hormuz-open announcement will compress freight + war-risk |
-| **Refining bottleneck** | **🟠 3** | **~6.6M bpd product-side offline: Port Arthur 415K, Ruwais, Satorp, Kharg, Geelong, Kuwait, Dos Bocas, 6 RU refineries (see `refinery_damage/TRACKER.md`)** |
+| **Refining bottleneck** | **🟠 3** | **~5.1M bpd product-side offline: Port Arthur 415K, ADCOP pipeline 1.5M (confirmed Apr 17), Ruwais, Satorp, Kharg Mar 13, Geelong, Kuwait, Dos Bocas, 6 RU refineries (see `refinery_damage/TRACKER.md`)** |
 | Energy credit | 🟡 2 | HY Energy OAS stable (LIQUID owns) |
 | OPEC+ policy | 🟡 3 | No change — next meeting Jun 7 |
 | Ceasefire stability | 🟠 3 | Talk-2 possible this weekend; Lebanon-Israel 10-day CF active; Apr 22 expiry still live |
@@ -206,44 +206,67 @@ Global refining stress is **undercounted** in the above crude table. Living ledg
 
 ---
 
+## 📉 PHASE-2 REALITY CHECK — Incident Cadence Monitor
+
+**Baseline (Mar 2 – Apr 17, 2026):** 32 major refinery/energy-infrastructure events logged in 46 days — of which 29 are physical damage/outage, 1 is threat-event-only (RF-019 Kharg Apr 7, oil infra spared), 1 disputed (RF-031 MRPL), 1 maintenance-deferral (RF-032 Nayara). Damage-event cadence ≈ **1 every 1.6 days.** (Source: `refinery_damage/INCIDENTS.tsv`.)
+
+**Hypothesis:** if Hormuz-open is genuine de-escalation, incident cadence should collapse post-Apr-17. If strikes continue at the same rhythm, the peace trade is theater.
+
+**Also watch the 48-hour retaliation rhythm** (Apr 3 Kuwait → Apr 5 UAE → Apr 7 Saudi + Kharg). If the rhythm resumes anywhere Apr 19–27, Path A is back on.
+
+| Window | Expected incidents (if de-escalation real) | Expected (if theater) | Verdict threshold |
+|---|---|---|---|
+| **Apr 17–Apr 27 (10 days)** | 0–2 | 5–7 | **≥4 incidents = theater** → reverse Phase-2 view |
+| **Apr 17–May 1 (14 days)** | 0–3 | 7–10 | **≥6 incidents = theater** |
+| **Apr 17–May 17 (30 days)** | 0–5 | 15–20 | Consensus window for thesis validation |
+
+**How to use this monitor:**
+- Log each new incident in `refinery_damage/INCIDENTS.tsv`, then update the running count below
+- If cadence stays ≥1 every 3 days → Path A risk is live despite Hormuz-open framing
+- If cadence drops to ≤1 per week → Phase-2 is real, Path B gradual exit justified
+
+**Post-Apr-17 running count:**
+| Date | New incidents | Cumulative since Apr 17 | Cadence read |
+|---|---|---|---|
+| Apr 17 (today) | — | 0 | baseline |
+
+*Future rows appended as events occur. Sources: INCIDENTS.tsv + HAWK strike log + HERMES-delivered signals.*
+
+**Cross-reference with Dated Brent:** if cadence drops AND Dated Brent Apr 15-17 print lands <$115, that's dual confirmation. If cadence stays elevated OR Dated Brent holds >$125, paper is running ahead of physical reality.
+
+---
+
 ## KEY REFERENCES
 - **Demand Destruction:** `demand_destruction/TRACKER.md`
 - **Hamilton Framework:** `demand_destruction/HAMILTON.md`
 - **Refinery damage (living ledger):** `refinery_damage/TRACKER.md` + `refinery_damage/INCIDENTS.tsv`
 - **Refinery snapshot (Apr 17 research):** `research/REFINERY_FIRES_SNAPSHOT_2026-04-17.md`
+- **Product-side decoupling alpha lane:** `research/PRODUCT_SIDE_DECOUPLING_THESIS.md`
 - **Refinery utilization / crack spread model (early Mar):** `research/REFINERY_UTILIZATION_MAR2026.md`
 
 ---
 
+## 📅 CATALYST CALENDAR
+
 | Date | Release | Priority |
 |------|---------|----------|
-| **Apr 17 (today, ~1pm ET)** | **Baker Hughes Rig Count** — watch for SIG-009 follow-through (545 prior) | 🟠 |
+| **Apr 17 (today, ~1pm ET)** | **Baker Hughes Rig Count** — SIG-009 follow-through (545 prior) | 🟠 |
 | **Wed Apr 22** | **CEASEFIRE EXPIRY** — Path A trigger if no talk-2 announced | 🔴🔴 |
 | Wed Apr 22 | EIA Weekly Petroleum | 🔴 |
 | Every Wed | EIA Weekly Petroleum | 🔴 |
 | Every Fri | Baker Hughes Rig Count | 🟠 |
-| Apr 11-12 | US-Iran talks in Islamabad (FAILED) | 🔴🔴 |
 
 ---
 
-## SUMMARY FOR WILL
+## SUMMARY FOR WILL (Apr 17 noon)
 
-**The ceasefire collapsed Apr 12 after 21-hour Islamabad talks failed** (Hormuz + nuclear were sticking points). Trump imposed a **US naval blockade on Iranian ports Apr 13**. Dated Brent hit an **ATH >$144** midweek. Futures spiked near $100, then tumbled <$92 Apr 14 when the WH signaled openness to a second round of talks, and have steadied ~$94 today.
+**Paper is pricing Phase-2; physical is not.** Brent $89 (-10.6%, low $87.51) but Dated Brent last print ~$132 (Apr 9-11, stale) — implied paper-physical spread ~$43, widening not narrowing. Iran FM declared Hormuz "open" but US blockade on Iranian ports remains. Talk-2 "possible this weekend" per Apr 17 reporting; **ceasefire expiry Apr 22** is the binary.
 
-**The paper market is front-running a peace trade. The physical market is not.** Dated Brent ~$123, spread ~$29 (ATH was $35). Physical still screams scarcity; the blockade guarantees Iran exports stay offline even if the ceasefire resumed.
+**Predictions status:**
+- **BRT-04** (shale non-response Q1) — 95%, ready to resolve CONFIRMED
+- **BRT-01** ($100 Brent before Hormuz reopens) — touched ~$100 intraweek, still open
+- **BRT-14** (30d closure → $100 near-inevitable) — de facto confirmed by blockade
 
-**Key numbers:**
-- Futures: **~$94** (pricing talk-2 peace)
-- Physical: **~$123** (not buying it; ATH $144 this week)
-- Spread: **$29** (scarcity persists)
-- US rigs: **545** (-3 WoW) — shale non-response CONFIRMED (SIG-009)
-- Ceasefire: **BROKEN Apr 12**, talk-2 under consideration
+**Recommendation:** HOLD USO + STNG. Refresh Dated Brent Apr 15-17 print = load-bearing data point. Monitor incident cadence post-Apr-17 as second Phase-2 truth-test (see Phase-2 Reality Check above).
 
-**Position implication:** Phase 1 re-intensified post-blockade. Paper-physical dislocation = best indicator that the $94 futures print is not a true peace. If talk-2 announces → Path B gradual exit; if escalates → Path A immediate add. The binary is still live and imminent.
-
-**Predictions affected:**
-- **BRT-04** (shale non-response Q1) — upgrade 93→95%, near-ready to resolve CONFIRMED at end of Q1 print
-- **BRT-01** ($100 Brent before Hormuz reopens) — intra-week touched ~$100 on blockade; Hormuz has NOT reopened, still open prediction
-- **BRT-14** (30d of closure → $100 near-inevitable) — de facto confirmed; blockade locks it in
-
-*Previous updates archived to `workbook/STATUS_archive_20260407.md`*
+*Pre-Apr-17 archives: `workbook/STATUS_archive_20260417_preHormuzOpen.md`, `workbook/STATUS_archive_20260407.md`*
