@@ -38,6 +38,9 @@
 ### [Process] — Archive Before Clutter Masks Signal
 **Rule:** When workbook/ or root has files >30 days old that aren't in the active read path (per CLAUDE.md), move to `archive/` same session. Historical reference is fine; cluttering the boot surface with stale TRADE decks or synthesis docs slows every future session. Test: if a file isn't listed in CLAUDE.md's FILES table AND is >30 days old, it's archive-eligible.
 
+### [Analysis] — Data-Right, Positioning-Early Asymmetry
+**Lesson from Mar 27-28 triple-catalyst playbook:** HENRY correctly pre-called PCE hot (HEN-13), Q1 window dressing (HEN-15), Apr 1 ceasefire-rally-as-bull-trap (HEN-16), and VIX >30 regime shift (HEN-14) — **4/4 catalyst-framework calls confirmed**. Yet every directional short the playbook held (IWM, HYG, TLT, KRE, APO, long-oil) bled: SPX 6,610 → 7,127 (+7.8%), VIX 31 → 17.66, HY OAS 328 → 285, Brent $100 → $88 (Hormuz reopen Apr 17 subtracted the shock variable). **Rule:** Calling the data correctly ≠ positioning paying off. Vol-control mechanical buying can overwhelm cascade selling during compression regimes; a second wave of de-escalation headlines can re-activate the same squeeze trade even after the first wave faded per plan. **How to apply:** When a playbook scenario resolves in your favor on the data but positioning bleeds, the thesis is early, not wrong — roll duration, don't trim size (CLAUDE.md rule #7). Pre-register this risk: scenario grids should include a "data confirms / market ignores" row, not just "data confirms / market reprices." Worked example: `archive/reports_mar17/` (TRIPLE_CATALYST_PLAYBOOK_MAR27, CATALYST_PLAYBOOK_MAR27-28, PCE_PREP_MAR28).
+
 ---
 
 *Last reviewed: 2026-04-17*
