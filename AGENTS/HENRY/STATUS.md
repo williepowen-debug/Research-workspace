@@ -1,36 +1,44 @@
 # HENRY STATUS
 
-**Signal Status:** 🟡 COMPLACENCY TRAP — **VIX 18.60, Brent $98.71, HY OAS 285** | CPI 3.3% YoY locks Fed | **Last Updated:** 2026-04-17 ET
+**Signal Status:** 🟡 COMPLACENCY TRAP — **VIX 17.66, Brent $88.16, HY OAS 285 (stale)** | Hormuz declared "completely open" Apr 17 AM → oil -11% to -14% intraday | **Last Updated:** 2026-04-17 ~10:40 ET
 
 ---
 
-## MARKET DATA — Apr 16, 2026
+## MARKET DATA — Apr 17, 2026 (intraday ~10:40 ET)
 
-| Metric | Value | Δ vs Prior | Source | Status |
-|--------|-------|------------|--------|--------|
-| SPX | 7,038 | — | Live | 🟡 |
-| VIX | **18.6** | — | Live | 🟡 Compressed |
-| Brent | **$98.71** | — | Live | 🟡 |
-| Gas (AAA) | **$4.123** | — | Live | 🔴 |
-| 10Y Yield | 4.26% | — | Live | 🟡 |
-| USD/JPY | **159.18** | — | Live | 🔴 |
-| HY OAS | **285.0bps** | — | FRED | 🟢 |
-| CCC OAS | **924.0bps** | — | FRED | 🟡 |
-| KRE | $68.93 | — | Live | 🟡 |
-| APO | $122.35 | — | Live | 🟡 |
+| Metric | Value | Δ vs Apr 16 close | Source | Status |
+|--------|-------|-------------------|--------|--------|
+| SPX | **7,127** | +1.21% | yfinance | 🟡 |
+| VIX | **17.66** | -1.45% | yfinance | 🟡 Compressed further |
+| Brent | **$88.16** | **-11.3%** | yfinance | 🟢 Shock removed |
+| WTI | **$81.02** | **-14.4%** | yfinance | 🟢 Shock removed |
+| Gas (AAA) | **$4.076** | -$0.047 | AAA | 🔴 Still >$4 |
+| 10Y Yield | 4.24% | -2bps | yfinance | 🟡 |
+| USD/JPY | **157.71** | -0.67% | yfinance | 🟠 Away from 160 |
+| HY OAS | 285bps (Apr 16) | — | FRED (1-day lag) | 🟢 Refresh pending |
+| CCC OAS | 924bps (Apr 2) | — | FRED | 🟡 |
+| KRE | **$70.93** | +3.06% | yfinance | 🟡 Bid into FITB/RF |
+| APO | **$126.48** | +4.69% | yfinance | 🟡 |
+| TLT | $87.11 | +0.96% | yfinance | — |
 
 ---
 
 ## VOL REGIME
 
-- **VIX:** 18.6 (compressed; bull-market regime)
-- **Term structure:** *PENDING LIVE PULL* (last known: contango, normal)
-- **Vol-control layer:** VIX <23 = mechanical buying; currently INACTIVE (sellers, not selling-pressure)
-- **0DTE share:** *PENDING LIVE PULL* (baseline ~60% SPX volume)
-- **GEX regime:** *PENDING LIVE PULL* (above gamma flip ~6,902 = dealer-long-gamma, suppressive)
-- **MOVE / HY OAS bracket (LIQUID Apr 10):** MOVE collapsed post-Mar shock; bond positioning "light." HY OAS <300 = squeeze path (current, 285); >340 = stress path w/ violent MOVE catch-up + risk-parity dual-leg delever. 15bps to bracket breakout.
+*VIX/term structure/VVIX/SKEW owned by VIOLET — values below are `[CONF VIOLET Apr 17]` from her `workbook/VX_DAILY.tsv` 14:32 UTC pull. Do not duplicate-track; pull from her file.*
 
-*Next refresh: pull VIX1D/VX1M/VX2M from fetch.py; SpotGamma GEX via WebSearch.*
+- **VIX:** 17.62 | **VIX3M:** 20.43 | **VIX6M:** 22.47 | **VIX3M/VIX:** 1.160 (steepening, further from inversion)
+- **VVIX:** 94.26 (compressed from 100.09 Apr 16; well below 120 stress threshold) — dealer vol-of-vol premium collapsing on Hormuz reopen
+- **SKEW:** 140.74 (**bounced** from 139.23 Apr 16; back above 140) — reverses VIOLET's Apr 16 "peaceful resolution" watch; re-activates FADE_RERAMP path (69% historical) if holds
+- **Term structure:** VX M1 (K6) / M2 (M6) **+2.54% contango, roll-adjusted** (below 5.6% avg; flat-ish but normal, not backwardation)
+- **Regime (VIOLET):** LOW_VOL — credit-vol correlation weak (~0.06), credit leads vol 6-16 weeks in this regime
+- **Vol-control layer:** VIX <23 = mechanical buying; INACTIVE-BUYING (compression = flow-in)
+- **0DTE SPX share:** *PENDING* — HENRY domain, SpotGamma/Barchart wire-up needed
+- **GEX regime:** *PENDING* — HENRY domain, SpotGamma gated
+- **MOVE / HY OAS bracket (LIQUID Apr 10):** HY OAS <300 = squeeze path (Apr 16 @ 285); >340 = stress path. Hormuz reopen should compress further — sub-260 sustained would trip thesis invalidation.
+- **VIOLET tactical trigger (not armed):** HY OAS +100bps from Jan 22 trough (264) → VIX 15-26 regime = 2-6wk lead to VIX >10pt spike. Currently only +20bps from trough.
+
+*Next refresh: HENRY to wire 0DTE + GEX via SpotGamma/Barchart; fresh HY OAS Apr 17 close via FRED tomorrow AM.*
 
 ---
 
@@ -38,14 +46,14 @@
 
 | Metric | Current | Yellow | Orange | Red | Cross-Agent Trigger |
 |--------|---------|--------|--------|-----|---------------------|
-| VIX | 18.6 | >23 | >28 | **>30 sustained** | → ALL (risk-off regime) |
-| SPX | 7,038 | <6,800 | <6,707 | **<6,494** | → CTA layer 4 (long-term) |
-| KRE | $68.93 | <$65 | <$62 | **<$60** | → REGINALD, PROME |
+| VIX | 17.66 | >23 | >28 | **>30 sustained** | → ALL (risk-off regime) |
+| SPX | 7,127 | <6,800 | <6,707 | **<6,494** | → CTA layer 4 (long-term) |
+| KRE | $70.93 | <$65 | <$62 | **<$60** | → REGINALD, PROME |
 | ISM Mfg | 52.7 | <50 | <48 | **<47** | → LABOR, PROME |
-| 10Y Yield | 4.26% | >4.5% | >4.8% | **>5.0%** | → LIQUID (term premium crisis) |
-| HY OAS | 285bps | >320 | >400 | **>500** | → credit-equity transmission |
+| 10Y Yield | 4.24% | >4.5% | >4.8% | **>5.0%** | → LIQUID (term premium crisis) |
+| HY OAS | 285bps (Apr 16) | >320 | >400 | **>500** | → credit-equity transmission |
 | CCC-BB Spread | ~800bps (Apr 2) | >750 | >900 | **>1100** | → dispersion canary (pre-Apr 21) |
-| USD/JPY | 159.18 | >160 | >162 | **>165** | → SAM (carry unwind) |
+| USD/JPY | 157.71 | >160 | >162 | **>165** | → SAM (carry unwind) |
 
 ---
 
@@ -122,4 +130,4 @@
 
 ## BOTTOM LINE
 
-**The complacency trap is the story.** VIX 19 with Hormuz still closed, CPI 3.3%, and UMich at record lows is mispricing. The market has priced ceasefire as resolution, but the structural risks (Fed trap, consumer exhaustion, credit stress) are unchanged. Oil at $98-99 now, but Brent is Fed-exogenous; services disinflation underneath PPI headline gives Powell an ambient "transitory" narrative he cannot pivot on into 3.3% CPI. Regional bank earnings **converge Apr 21** (OZK AMC + WAL same day; call OZK Apr 22) — first real test of credit stress marks, same-day binary on both thesis shorts. BOJ Apr 23-24 is the carry unwind catalyst. **April 21–30 is the 10-day window where every catalyst resolves.** Watch HY OAS 300 — if it breaks lower with VIX sub-17, the thesis weakens materially.
+**The complacency trap is the story — but Hormuz reopen is a material counter-signal.** Apr 17 AM: Iranian FM declared Hormuz "completely open" for Israel-Lebanon ceasefire duration → Brent -11%, WTI -14%, SPX +1.2%, VIX 17.66. US blockade technically remains in force, so it's a *unilateral Iranian concession*, not a signed deal. Thesis amber watch: if this holds 5+ sessions with HY OAS drifting sub-260 and VIX sub-17, invalidation criteria triggered. **Counter-counter:** (1) blockade language says tankers still can't reach Iranian ports, so global flow effect may be asymmetric; (2) oil-shock-removed does not fix CPI 3.3% already printed, UMich 3.8% exp, or ISM Services Employment 45.2 — stagflation trap survives even a clean oil unwind; (3) positioning asymmetry into Apr 21 unchanged (HF whipsaw, DB financials -2z). **Watch today:** (a) does VIX print <17 on close, (b) does HY OAS Apr 17 settle print <280, (c) FITB + RF AMC — regional-bank bid today may just be Hormuz beta, not credit-quality conviction. **April 21–30 window intact**, but if Hormuz reopen sticks, the macro shock variable gets subtracted and the thesis becomes "labor + credit only" rather than "stagflation."
