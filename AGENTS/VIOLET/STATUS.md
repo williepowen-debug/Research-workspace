@@ -75,10 +75,12 @@
 |----------|-------|--------|
 | 🟠 | Apr 22 SKEW >145 gate — FADE_RERAMP confirmation | **ACTIVE** (3 td away) |
 | 🟠 | Apr 29 FOMC scenario checkpoint + C/P OI tracking | **ACTIVE** (8 td away) |
+| 🔴 | **Phase 1: CFTC COT VIX futures — cftc_cot.py + COT_VIX.tsv + boot integration** | **NEXT SESSION** — ~90 min. Public CSV, weekly Fri 3:30pm. Threshold: non-commercial net position 3yr percentile extreme. Spec in MEMORY.md 2026-04-17 session note. |
+| 🟠 | **Phase 2: NAAIM + ICI weekly positioning** | After Phase 1 — ~90 min. Public CSV weekly. Flag to HENRY as equity-positioning domain offer. |
+| 🟠 | **Phase 3: Manual positioning-capture template (Citadel/GS Prime/BofA FMS)** | After Phase 2 — ~30 min. Template + KB hygiene protocol for Twitter-sourced positioning data. |
 | 🟡 | Wire CCC OAS into boot sequence (daily log) | Gap from Apr 17 — currently manual via fred_fetch |
 | 🟡 | VIX May 19 25C MTM / strike-by-strike call-wall map | Open position, not yet tracked |
 | 🟡 | VIX9D compression analog match tracking | Partial — named gap from Apr 16 |
-| ⚪ | CFTC COT VIX futures positioning (weekly) | Pathway open, not yet wired |
 | ⚪ | May 19 chain 35C → 25C/45C rotation investigation | Observed Apr 17 — not time-sensitive |
 
 ---

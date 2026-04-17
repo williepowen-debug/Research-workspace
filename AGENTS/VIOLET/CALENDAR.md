@@ -55,7 +55,7 @@ VIX futures and options expire on the **Wednesday 30 days prior to the third Fri
 | Apr 16 | OZK earnings | Regional bank vol | — |
 | Apr 21 | WAL earnings | Regional bank vol | — |
 | Apr 23-24 | BOJ meeting | Carry unwind risk (yen analog) | — |
-| **Apr 29-30** | **FOMC** | **Rate vol. C/P OI 9.01 on this expiry** | **🔴 SKEW Scenario A/B early read** |
+| **Apr 29-30** | **FOMC** | **Rate vol. C/P OI 8.36 (Apr 17) — down from 9.01 Apr 16** | **🔴 SKEW Scenario A/B early read** |
 | May 1 | US payrolls | Macro vol | — |
 | May 6-7 | FOMC (no presser) | Vol event risk | — |
 | ~May 15-27 | — | — | **Central-case VIX peak window (median timing)** |
@@ -80,17 +80,19 @@ VIX futures and options expire on the **Wednesday 30 days prior to the third Fri
 
 | Data Source | Frequency | Tool | Last Updated |
 |-------------|-----------|------|--------------|
-| VIX/VIX3M/VVIX/SKEW spot | Daily | `scripts/thresholds.py` | 2026-04-15 |
-| VIX futures M1/M2 | Daily | `FORGE/tools/market-data/vix_futures.py` | 2026-04-15 |
-| VIX options OI | Per session | `scripts/vix_options.py` | 2026-04-15 |
-| VX_DAILY.tsv time series | Daily | `scripts/thresholds.py` → append | 2026-04-15 (100 rows backfilled) |
-| FRED credit (HY/IG/CCC OAS) | Per session | `scripts/fred_fetch.py` | 2026-04-16 |
-| FRED rates (2Y/10Y/TIPS) | Per session | `scripts/fred_fetch.py` | 2026-04-16 |
-| Catalyst countdown | Per session | `scripts/catalyst_countdown.py` | 2026-04-15 |
+| VIX/VIX3M/VVIX/SKEW spot | Daily | `scripts/thresholds.py` | 2026-04-17 (close) |
+| VIX futures M1/M2 | Daily | `FORGE/tools/market-data/vix_futures.py` | 2026-04-17 |
+| VIX options OI | Per session | `scripts/vix_options.py` | 2026-04-17 |
+| VX_DAILY.tsv time series | Daily | `scripts/thresholds.py` → append | 2026-04-17 |
+| FRED credit (HY/IG/CCC OAS) | Per session | `scripts/fred_fetch.py` | 2026-04-17 (data through Apr 16) |
+| FRED rates (2Y/10Y/TIPS) | Per session | `scripts/fred_fetch.py` | 2026-04-17 |
+| Catalyst countdown | Per session | `scripts/catalyst_countdown.py` | 2026-04-17 |
+| CFTC COT VIX futures | Weekly Fri | `scripts/cftc_cot.py` (**Phase 1 — to build**) | Not yet wired |
+| NAAIM + ICI equity positioning | Weekly Wed/Thu | `scripts/equity_positioning.py` (**Phase 2 — to build**) | Not yet wired |
 
 **Boot sequence:** `python3 scripts/boot.py` runs thresholds + vix_options + catalyst_countdown.
 
 ---
 
 *Created: 2026-04-12*
-*Last Updated: 2026-04-16*
+*Last Updated: 2026-04-17 (EOD refresh pass — data refresh dates current; Phase 1/2 positioning sources flagged for next session)*
