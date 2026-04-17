@@ -1,17 +1,36 @@
 # REGINALD STATUS
-**Last Updated:** 2026-04-17 08:26 ET (FITB + RF reporting today) | **Status:** 🔴🔴🔴 CRITICAL (WAL re-breached <$78)
+**Last Updated:** 2026-04-17 08:55 ET (FITB + RF headlines out; PDF integration pending) | **Status:** 🔴🔴🔴 CRITICAL (WAL re-breached <$78; RF first cohort miss)
 
 ---
 
-## AM BRIEF — April 17, 2026 (08:26 ET)
+## AM BRIEF — April 17, 2026 (08:55 ET — HEADLINE UPDATE)
 
-**Live prices (market.py):** KRE $68.83 (-0.49%), **WAL $77.29 (-1.55%, 🔴 BACK BELOW $78)**, OZK $47.79 (-0.19%), ZION $61.54 (-0.50%), CFG $64.41 (-1.20%), VIX 17.76, Brent $95.94 (-3.47%), 10Y 4.31%.
+**Live prices (market.py 08:36 ET):** KRE $68.83 (-0.49%), **WAL $77.29 (-1.55%, 🔴 BACK BELOW $78)**, OZK $47.79 (-0.19%), ZION $61.54 (-0.50%), CFG $64.41 (-1.20%), VIX 17.79, Brent $95.13 (-4.29%), 10Y 4.30%.
+
+**FITB + RF Q1 2026 — headlines only (PDFs pending Will pull):**
+
+| Bank | EPS | Rev | Cons delta | YoY EPS | Signal |
+|------|-----|-----|-----------|---------|--------|
+| **FITB** | **$0.83** GAAP | **$2.86B** | Rev **miss $50M** vs $2.91B; EPS slight miss vs clean consensus ~$0.87-0.90 | +17% vs Q1-25 $0.71; -20% vs Q4-25 $1.04 | ROE 13.53%, margin 19.50%. Below Q4 run-rate. |
+| **RF** | **$0.57** | **$1.92B** | **MISS BOTH:** EPS -$0.04 vs $0.61; Rev -$20M vs $1.94B | ROE 12.55%, margin 22.44% | **First outright miss of the cohort.** Consistent with pre-earnings baseline (worst-opacity reporter). |
+
+**Cohort pattern shift (emerging, 5/5):**
+- Prior 3/3 (MTB/CFG/PNC): beat headline → fade in tape (-1.55% / -0.63% / -0.03% 2d).
+- Now 5/5 with FITB slight miss + RF outright miss on both lines. Fade thesis intact but now **miss-driven, not beat-fade**. Tape response 9:30 open will confirm.
+- **RF miss aligns with baseline:** it was pre-flagged as worst-NDFI-disclosure + elevated consumer credit trajectory. Priced accordingly.
+
+**What's NOT YET confirmed (awaiting PDF pull):**
+- Provisions: did FITB release (CFG-like tell) or build (MTB/PNC-like)?
+- NCO composition: RF total consumer >0.75% w/ card >4.20% = first regional CARL confirmation
+- FHLB Q1 period-end: universal quarter-end (mechanical) or stress-bifurcated (MTB/CFG/PNC only)?
+- FITB $2.95B Consumer Warehouse / Securitization sub-bucket: any Tricolor-adjacent language/stress?
+- RF NDFI disclosure: still zero, or pressure forced a reveal?
+- CRE nonaccruals: FITB clean run / RF IRE NPL -71% YoY contrarian — confirmed or reversed?
 
 **State of play:**
-- **WAL threshold re-breach.** $77.29 is below $78 intraday. Second breach in a week; one-day direction only (faded after Apr 16 close at $78.23). Earnings Apr 21 resolves.
-- **Cohort refresh complete (Apr 16 session).** `WAL/EARNINGS_PREP.md` (356 lines) and `OZK/EARNINGS_PREP.md` (474 lines) now cohort-informed (MTB/CFG/PNC + FITB/RF baselines). Both position names ready for Apr 21.
-- **Today's data (Apr 17, not yet integrated):** FITB (~6:30 AM release, 10:00 AM call) + RF (BMO release, 10:00 AM call). Pre-earnings baselines written to `FITB/STATUS.md` + `RF/STATUS.md`. Cohort patterns to test: FHLB surge (3/3 reporters confirmed), reclassification-as-disclosure (CFG pattern), NDFI disclosure spectrum, consumer NCO trajectory (RF is CARL's true leading indicator).
-- **FITB Apr 17 → WAL Apr 21 read-through:** `FITB/WAL_READTHROUGH.md` (63 lines, Apr 16). Hypothesis: FITB's $2.95B "Consumer Warehouse / Securitization Vehicles" sub-bucket is the Tricolor-adjacent pocket. If FITB signals stress there today, WAL's undisclosed warehouse composition becomes analyst-question gold Apr 21.
+- **WAL threshold re-breach.** $77.29 below $78 pre-market. Second breach in a week (faded Apr 16 close to $78.23). Earnings Apr 21 resolves.
+- **Cohort refresh complete (Apr 16 session).** `WAL/EARNINGS_PREP.md` (356 lines) + `OZK/EARNINGS_PREP.md` (474 lines) cohort-informed. Both position names ready for Apr 21.
+- **FITB Apr 17 → WAL Apr 21 read-through:** `FITB/WAL_READTHROUGH.md` (63 lines, Apr 16). If FITB PDF confirms Consumer Warehouse stress → fire WAL V3 analyst-question prep for Apr 21.
 
 **Carry-forward from Apr 16:** Thesis v1.4 ("C&I as Convergence Hiding Place"), FHLB now 🔴 at bank-level (3/3 reporters surging), CFG reclassification pattern proven ($2.9B Secured PC finance carved out of Other F&I FY2024→FY2025 10-K), CFG convergence score 9→12.
 
@@ -29,12 +48,12 @@
 | CFG | Apr 16 | $1.13 vs $1.09 | Yes | -0.63% (pre-call) | Bear-leaning. CRE nonaccruals +10%. FHLB 60x. Fund finance in **deck only** — $19.6B prelim NDFI (Slide 24); +ABS finance $1.8B new line item. **FY2024 10-K test confirmed reclassification pattern: $2.9B "Secured PC finance" carved out of "Other F&I" at FY2025 10-K.** |
 | PNC | Apr 15 | $4.32 adj vs $3.91-4.10 | Yes | **+0.39% / -0.42% = -0.03% 2d** | Mixed — beat EPS, MISS revenue. FirstBank (Jan 5) muddies everything. FHLB +64.7% QoQ period-end (+$8.4B). CET1 -50bps to 10.1%. **Provision +51% QoQ (BUILDING).** Deck Slide 11: **$73B NDFI (20% of loans) — most granular disclosure yet.** Detail → `PNC/STATUS.md`. |
 | KEY | Apr 16 | — | — | — | Pending |
-| FITB | **Apr 17** | — | — | — | **Pre-earnings baseline → `FITB/STATUS.md`.** Cleanest balance sheet of cohort: CET1 10.77% (+20bps QoQ), ACL 1.96% steady. **FHLB DECLINING** Q4 avg $2.55B vs Q3 $4.92B (-48%) — outlier to MTB/CFG/PNC surge. Provision -40% QoQ (CFG-like release). Deck Slide 19 NDFI $9.5B (8% of loans, 6-way % breakdown no dollars). Clean Table 29 — zero reclassification. **Watch: Tricolor-adjacent $2.95B Consumer Warehouse/Securitization sub-bucket.** |
-| RF | **Apr 17** | — | — | — | **Pre-earnings baseline → `RF/STATUS.md`.** **WORST NDFI disclosure** of 5 reporters — zero "NDFI" mentions in 10-K; single "Financial services" line $8.5B loans + $9.8B unfunded (1.15x ratio, highest of any industry). No deck equivalent to PNC Slide 11. **FHLB DECLINING** -30% YoY. Consumer DQ elevated at 0.70% flat YoY; **credit card NCO 4.08% (5Q high)**; Other consumer 2.97% (+31bps YoY). IRE NPL -71% YoY (contrarian clean). 52% branches in FL/TN/AL (CORAL overlap). **Watch: total consumer NCO trajectory — RF is the true CARL leading indicator (vs CFG's auto-runoff noise).** |
+| FITB | **Apr 17** | **$0.83** GAAP | Mixed — EPS +17% YoY but Rev $2.86B miss $50M; EPS below clean cons ~$0.87-0.90 | Pending 9:00 call | **Headline out. PDFs pending.** ROE 13.53%, margin 19.50%. Q1 EPS -20% vs Q4-25 $1.04. Pre-earnings: cleanest balance sheet (CET1 10.77%, ACL 1.96%), FHLB -48% QoQ avg (outlier), Provision -40% QoQ (CFG-like release), Deck Slide 19 NDFI $9.5B. **Unresolved: provisions direction, $2.95B Consumer Warehouse sub-bucket language.** |
+| RF | **Apr 17** | **$0.57** | **MISS both** (EPS -$0.04 vs $0.61; Rev -$20M vs $1.94B) | Pending 10:00 call | **Headline out. First outright miss of cohort.** ROE 12.55%, margin 22.44%. Pre-earnings: WORST NDFI disclosure (zero "NDFI" mentions; $18.3B Financial services 1.15x unfunded/funded). FHLB -30% YoY. Consumer card NCO 4.08% 5Q high. **Miss aligns with highest-opacity baseline. Unresolved: consumer NCO >0.75%? card >4.20%? NDFI forced-reveal?** |
 | **WAL** | **Apr 21** | — | — | — | **POSITION NAME** |
 | **OZK** | **Apr 21** | — | — | — | **POSITION NAME** |
 
-**Sector pattern emerging (3/3 reporters):**
+**Sector pattern emerging (now 5/5 reporters — FITB + RF Apr 17 AM headlines added, PDF detail pending):**
 1. **Headline beats, tape fades — but fade weakening.** MTB -1.55%, CFG -0.63%, PNC -0.03% (2-day). Market still looking through, but PNC beat was muddied by FirstBank + revenue miss.
 2. **FHLB acceleration SYSTEMIC.** MTB +265% avg, CFG 60x YoY, PNC +64.7% QoQ (+$8.4B period-end, largest $ amount). 3/3 confirmed — structural sector signal, not idiosyncratic. FHLB indicator should upgrade.
 3. **CRE extend-and-pretend at CFG only, NOT confirmed at PNC.** PNC CRE nonaccruals -26% YoY (improving). FirstBank noise dominates Q1 QoQ uptick (~$81M acquired NPLs). MTB+CFG pattern not universal.
