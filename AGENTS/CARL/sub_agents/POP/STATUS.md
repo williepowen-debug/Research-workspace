@@ -1,5 +1,21 @@
 # POP STATUS
-**Last Updated:** 2026-04-09 | **Status:** 🔴 CRITICAL — Tariff shock active; bankruptcies +37% Ch.11; owner comp cuts BREACHED
+**Last Updated:** 2026-04-17 | **Status:** 🔴 CRITICAL — NFIB Uncertainty BREACHED >90; profit trend -25pp; tariff regime changed (IEEPA struck, Section 122 10% active)
+
+## ⚠️ THRESHOLD BREACHES THIS REFRESH (Apr 17)
+| Metric | Old | New | Threshold | Status |
+|--------|-----|-----|-----------|--------|
+| NFIB Optimism | 98.8 (Feb) | **95.8 (Mar)** | <95 = 🟡 | 🟡 AT THRESHOLD (2.8pt above trigger, 3rd straight monthly drop) |
+| NFIB Uncertainty | 88 (Feb) | **92 (Mar)** | >90 = 🟡 | 🟡 **BREACHED** |
+| NFIB Profit Trend | -14% est. | **-25% (Mar)** | — | 🔴 Worst reading since COVID |
+| Restaurant Closures | ~750 (H1) | **944-1,049 (6 chains, FY)** | — | 🔴 Upward revision |
+| BFS Business Apps | ~515K (Jan) | **496K (Feb, -5.8%)** | YoY decline | 🟡 First meaningful MoM drop |
+
+## ⚠️ TARIFF REGIME CHANGE — CRITICAL UPDATE
+**Supreme Court struck IEEPA tariffs Feb 20, 2026** (6-3 ruling; Learning Resources v. Trump). ~$166B in refunds owed to ~330K importers. CBP CAPE refund tool goes live Apr 20, 2026.
+
+**Replacement:** Section 122 of Trade Act of 1974 — 10% global import surcharge, effective Feb 24, 2026, expires Jul 24, 2026 (150 days). Rate may increase to 15% (Navarro signaled). Congress can extend or replace.
+
+**Net effect for small businesses:** IEEPA rates (125%+ China; country-specific reciprocal) gone; replaced with flat 10% global. Steel/aluminum (Section 232, up to 50%) and autos (25%) remain. China electronics: 35% effective (20% + 25% Section 301 stacked). Small business tariff burden REDUCED from peak but uncertainty about Jul 24 expiry creates continued planning paralysis.
 
 ---
 
@@ -11,73 +27,97 @@ Small business stress is a 3-6 month leading indicator of employment destruction
 
 ## SIGNAL DASHBOARD
 
-| Vector | Current | Threshold | Status |
-|--------|---------|-----------|--------|
-| Ch.11 Bankruptcies YoY | +37% (Q1 2026) | >40% = 🔴 | 🟠 ELEVATED |
-| Subchapter V YoY | +67% (Q1 2026) | >50% = 🔴 | 🔴 BREACHED |
-| NFIB Optimism | 98.8 (Feb 2026) | <95 = 🟡 | 🟢 WATCH |
-| NFIB Uncertainty | 88 (Feb 2026) | >90 = 🟡 | 🟡 ELEVATED |
-| SB Loan 90+ DQ | ~1.33% | >2.5% = 🟡 | 🟢 NORMAL |
-| SBA Default Rate | ~3.4% est. | >3% = 🟡 | 🟡 ELEVATED |
-| Owner Comp Cuts | 32-50% (Truist/BofA) | >35% = 🟠 | 🔴 BREACHED |
-| Retail Closures 2026 proj. | 7,900-14,000 | >10K = 🟠 | 🟠 ELEVATED |
-| Tariff Neg. Impact | 61% of SBs | >55% = 🔴 | 🔴 BREACHED |
-| Business Apps (Feb 2026) | ~515K/mo | YoY decline | 🟢 NORMAL |
-| Revenue Expectations Index | 33 (2025 SBCS, -6pt) | Lowest since 2020 | 🟠 ELEVATED |
-| MCA Market Volume | $19.65B (2025) | Rising = DISTRESS | 🟠 ELEVATED |
+| Vector | Current | Prior | Threshold | Status |
+|--------|---------|-------|-----------|--------|
+| Ch.11 Bankruptcies YoY | +37% Q1 2026; Mar monthly -11% MoM | +37% Q1 | >40% = 🔴 | 🟠 ELEVATED |
+| Subchapter V YoY | +91% (Feb 2026); +67% Q1 avg | +67% Q1 | >50% = 🔴 | 🔴 BREACHED |
+| NFIB Optimism | **95.8 (Mar 2026)** | 98.8 (Feb) | <95 = 🟡 | 🟡 AT THRESHOLD — 3rd consecutive monthly drop |
+| NFIB Uncertainty | **92 (Mar 2026)** | 88 (Feb) | >90 = 🟡 | 🟡 **BREACHED** |
+| NFIB Profit Trend | **-25% net (Mar 2026)** | est. -14% (Feb) | — | 🔴 Worst since COVID |
+| SB Loan 90+ DQ | ~1.33% [STALE — Q3 2025] | 1.33% | >2.5% = 🟡 | 🟢 NORMAL |
+| SBA Default Rate | ~3.4% est. [STALE — no Q1 data] | 3.4% | >3% = 🟡 | 🟡 ELEVATED |
+| Owner Comp Cuts | 32-50% (Truist/BofA 2024) [STALE — no 2026 survey] | 32-50% | >35% = 🟠 | 🔴 BREACHED |
+| Retail Closures 2026 proj. | 7,900-14,000 (1,200+ announced) | 7,900-14,000 | >10K = 🟠 | 🟠 ELEVATED |
+| Restaurant QSR Closures | **944-1,049 (6 chains, FY2026)** | ~750 (3 chains, H1) | — | 🔴 UPWARD REVISION |
+| Tariff Neg. Impact | 61% of SBs [survey pre-IEEPA strike] | 61% | >55% = 🔴 | 🔴 BREACHED — survey data pre-dates IEEPA ruling |
+| Business Apps (Feb 2026) | **496,443 (-5.8% MoM)** | ~515K (Jan) | YoY decline | 🟡 WATCH — first material MoM drop |
+| Revenue Expectations Index | 33 (2025 SBCS, -6pt) [STALE — annual] | 33 | Lowest since 2020 | 🟠 ELEVATED |
+| MCA Market Volume | $19.65B (2025); 11-18% default rate | $19.65B | Rising = DISTRESS | 🟠 ELEVATED |
+| Tariff Regime | **Section 122, 10% global (Feb 24–Jul 24)** | IEEPA struck Feb 20 | Jul 24 expiry = new cliff | 🟠 ELEVATED — regime changed |
 
 ---
 
-## TARIFF IMPACT — CRITICAL VECTOR (April 2026)
+## TARIFF IMPACT — REGIME CHANGE (Apr 17 Update)
 
-**Status: 🔴 ACTIVE — Tariffs firing across all small business sectors**
+**Status: 🟠 ELEVATED — IEEPA struck; Section 122 10% surcharge active through Jul 24; uncertainty cliff remains**
 
-- **61%** of small businesses report negative operational impact [NSBA Trade Impact Survey, 2026]
-- **70%** of small businesses report higher costs; **60%** have raised prices [US Chamber of Commerce, 2026]
-- **83%** of retailers have altered normal operations; **62%** changed pricing [Michigan Retailers Survey, 2026]
-- Small businesses represent **97%** of all U.S. importers — maximum tariff exposure with minimum hedging capacity [USITC]
-- Tariff cost multiplier: 1.4–1.7x for end consumers (absorbed + passed through) [GGI, 2026]
-- **59%** of small businesses report supply chain disruptions "to some extent" as of Feb 2026 [NFIB]
-- Tariff asymmetry: Large chains can forward-contract, shift suppliers. Small businesses cannot.
+### WHAT CHANGED (Feb 20 – Apr 17)
+- **Feb 20, 2026:** Supreme Court 6-3 struck IEEPA tariffs (Learning Resources v. Trump). ~$166B refunds owed to ~330K importers. CBP CAPE refund tool live Apr 20.
+- **Feb 24, 2026:** Section 122 replacement: 10% ad valorem global surcharge, expires Jul 24, 2026 (150-day cap).
+- **Still in effect:** Steel/aluminum (Section 232, up to 50%); autos/parts (25%); China Section 301 (25% on most goods).
+- **China electronics effective rate:** ~35% (10% Sec 122 + 25% Sec 301). Down from 145% IEEPA peak.
+- **Potential escalation:** Navarro signaled rate may rise to 15% before Jul 24. Section 301 investigations ongoing → could replace Sec 122 at higher rates post-Jul 24.
+- **July 24 cliff:** If Section 122 expires without replacement, abrupt drop to pre-tariff levels — OR Congress votes to extend. Either way: planning paralysis continues.
 
-**Transmission to CARL:** Tariff cost squeeze → margin compression → owner compensation cuts → consumer income stress. Also: price increases passed to consumers → demand destruction → accelerated closures.
+### SMALL BUSINESS IMPACT OF REGIME CHANGE
+- **IEEPA refunds are NOT relief:** Refunds cover past-paid tariffs, not ongoing costs. Small businesses may get cash, but Section 122 continues accruing.
+- **Net effective rate DROP from IEEPA peak:** Reduces worst-case cost pressure. Many small businesses that imported from China at 125-145% IEEPA rates are now at 35-50% (Section 301 + Sec 122).
+- **Uncertainty UNRESOLVED:** Jul 24 expiry + possible 15% escalation + Section 301 replacements = continued investment/hiring paralysis. NFIB Uncertainty 92 (>90 threshold BREACHED) confirms this.
+- **Pre-IEEPA survey data caveat:** The 61% negative impact figure (NSBA), 70% higher costs (US Chamber), and 83% altered operations (Michigan Retailers) predate the IEEPA ruling. These numbers likely IMPROVED marginally post-Feb 20 but survey data not yet updated.
 
----
+### PERSISTENT TARIFF PRESSURES (still active)
+- **61%** of small businesses reported negative operational impact [NSBA Trade Impact Survey, 2026 — pre-IEEPA ruling]
+- Small businesses represent **97%** of all U.S. importers [USITC] — maximum exposure, minimum hedging
+- **86%** of manufacturers plan to pass some costs to consumers [Sec 122 survey data, 2026]
+- Section 232 steel/aluminum (up to 50%) affects construction, manufacturing, restaurant equipment — NOT reduced by IEEPA ruling
+- Tariff asymmetry remains: Large corporations can absorb, forward-contract, shift. Small businesses cannot.
 
-## KEY FINDINGS
-
-| Finding | Value | Source | Status |
-|---------|-------|--------|--------|
-| Ch.11 commercial filings Q1 2026 | 2,422 (+37% YoY) | ABI/Epiq, Apr 2026 | 🟠 |
-| Subchapter V small biz filings Q1 2026 | +67% YoY | GlobeNewswire, Apr 8 2026 | 🔴 |
-| Overall commercial bankruptcies Q1 2026 | 8,436 (+14% YoY) | ABI/Epiq | 🟡 |
-| Owner compensation cuts (Truist 2024) | 50% cut salary during cash shortfalls | Truist Business Owner Report | 🔴 |
-| Owner compensation cuts (BofA 2024) | 32% cut as profitability tradeoff | BofA Small Business Owner Report | 🔴 |
-| Est. total owner income lost | $58–116B annually (10-20% cut × 11.6-18.1M owners) | POP estimate | 🔴 |
-| Revenue expectations index (2025 SBCS) | 33 (lowest since 2020 survey, -6pt YoY) | Fed SBCS 2026 Report | 🟠 |
-| Employment expectations index (2025 SBCS) | 23 (lowest since 2020, -3pt YoY) | Fed SBCS 2026 Report | 🟠 |
-| NFIB Optimism Feb 2026 | 98.8 (above avg 98, but declining) | NFIB, Mar 2026 | 🟡 |
-| Retail closures projected 2026 | 7,900 (Coresight) to 14,000 (industry est.) | Coresight/WebProNews | 🟠 |
-| Eddie Bauer bankruptcy | 175 stores closing by Apr 30, 2026 | Retail Dive, 2026 | 🟠 |
-| GameStop closures 2026 | 470+ stores | CNBC, Feb 2026 | 🟠 |
-| Wendy's closures H1 2026 | ~300 locations | Nation's Restaurant News | 🟠 |
-| Pizza Hut closures H1 2026 | ~250 locations | QSR reports, 2026 | 🟠 |
-| Papa John's closures 2026 | ~200 franchise locations | Papa John's IR | 🟠 |
-| SBA 7(a) early defaults spike | Rising; 2020-21 vintage maturing | SBA/CrestmontCapital | 🟡 |
-| MCA market size | $19.65B (2025); proj. $26.87B by 2030 | MCA Industry Report | 🟠 |
+**Transmission to CARL:** Cost uncertainty → planning paralysis → hiring freeze → employment stagnation. Also: IEEPA refunds ($166B / 330K importers avg ~$503K each) provide a one-time liquidity injection for importers — but 97% of importers are small businesses, so this is distributed. Watch for whether refund cash flows prevent some closures in H2 2026.
 
 ---
 
-## SECTOR BREAKDOWN
+## KEY FINDINGS (Updated 2026-04-17)
 
-| Sector | Stress Level | Key Signal | Tariff Exposure |
+| Finding | Value | Source | Date | Status |
+|---------|-------|--------|------|--------|
+| **NEW** NFIB Optimism March 2026 | **95.8** (-3.0pt from Feb; below 52-yr avg 98.0) | NFIB, Apr 15 2026 | 2026-03 | 🟡 AT THRESHOLD |
+| **NEW** NFIB Uncertainty March 2026 | **92** (+4pt from Feb; hist avg 68) | NFIB, Apr 15 2026 | 2026-03 | 🟡 BREACHED >90 |
+| **NEW** NFIB Profit Trend March 2026 | **-25% net** (-11pt from Feb) — WORST READING SINCE COVID | NFIB, Apr 15 2026 | 2026-03 | 🔴 |
+| **NEW** NFIB Sales Expectations March 2026 | net 7% (down; 3rd consec. monthly decline; lowest since Oct 2024) | NFIB, Apr 15 2026 | 2026-03 | 🟠 |
+| **NEW** NFIB Compensation Plans March | net 18% plan raises (-4pt from Feb; lowest since Jul 2025) | NFIB, Apr 15 2026 | 2026-03 | 🟡 |
+| **NEW** NFIB Inventory Plans March | net -5% plan inventory investment (-3pt; lowest since May 2024) | NFIB, Apr 15 2026 | 2026-03 | 🟠 |
+| **NEW** NFIB Capex Plans March | 16% plan capital outlays (-2pt from Feb) | NFIB, Apr 15 2026 | 2026-03 | 🟡 |
+| **NEW** NFIB Price-Raising Plans March | net 24% plan price increases (-4pt from Feb) | NFIB, Apr 15 2026 | 2026-03 | 🟠 |
+| **NEW** Supreme Court IEEPA ruling | IEEPA tariffs struck (6-3); $166B refunds; 330K importers | SCOTUS/CBP, Feb 20 2026 | 2026-02-20 | 🟠 REGIME CHANGE |
+| **NEW** Section 122 tariff | 10% global surcharge, Feb 24–Jul 24 2026; may rise to 15% | White House, Feb 24 2026 | 2026-02-24 | 🟠 ACTIVE |
+| **NEW** BFS February 2026 | **496,443 business applications (-5.8% MoM)** | Census Bureau, Apr 8 2026 | 2026-02 | 🟡 WATCH |
+| **NEW** Restaurant closures expanded | **944-1,049 announced (6 chains FY2026)**: Wendy's 300-350, Pizza Hut 250, Papa John's 200, Jack in the Box 50-100, Noodles 30-35, Bahama Breeze 14 | Restaurant Dive, Apr 2026 | 2026-04 | 🔴 |
+| **NEW** MCA NY protection extended | NY FAIR Business Practices Act extended consumer protections to small businesses (Feb 2026) | NY AG, Feb 2026 | 2026-02 | 🟠 |
+| Ch.11 commercial filings Q1 2026 | 2,422 (+37% YoY); Mar monthly: 649 (-11% from Mar 2025) | ABI/Epiq, Apr 2026 | 2026-Q1 | 🟠 |
+| Subchapter V small biz filings | Q1 +67% YoY; Feb alone +91% YoY | GlobeNewswire, Apr 8 2026 | 2026-Q1 | 🔴 BREACHED |
+| Overall commercial bankruptcies Q1 2026 | 8,436 (+14% YoY); individual total filings +16% YoY in March | ABI/Epiq | 2026-Q1 | 🟡 |
+| Owner compensation cuts | 32-50% (Truist/BofA 2024) [STALE — awaiting 2026 survey] | Truist/BofA | 2024 | 🔴 BREACHED |
+| Est. total owner income lost | $73-145B annually (tariff-adj $83-165B) | POP estimate (Apr 9) | 2026-04-09 | 🔴 |
+| Revenue expectations index | 33 (lowest since 2020, -6pt YoY) | Fed SBCS 2026 Report | 2025 survey | 🟠 |
+| Employment expectations index | 23 (lowest since 2020, -3pt YoY) | Fed SBCS 2026 Report | 2025 survey | 🟠 |
+| Retail closures projected 2026 | 7,900-14,000 (1,200+ publicly announced YTD) | Coresight/WebProNews | 2026 | 🟠 |
+| Eddie Bauer bankruptcy | 175 stores closing by Apr 30, 2026 | Retail Dive, 2026 | 2026-04 | 🟠 |
+| Saks Global (Neiman Marcus) Ch.11 | Filed Jan 14, 2026; exit financing $500M secured; summer exit planned | CNBC/Fox Business | 2026-01 | 🟠 |
+| SBA 7(a) early defaults spike | ~3.4% est.; rising; no Q1 2026 data yet | SBA/CrestmontCapital | 2025 | 🟡 |
+| MCA market / default rates | $19.65B market; 11-18% default rate (vs 1.16% traditional) | Industry reports | 2025-2026 | 🟠 |
+
+---
+
+## SECTOR BREAKDOWN (Updated 2026-04-17)
+
+| Sector | Stress Level | Key Signal | Tariff Regime Note |
 |--------|-------------|-----------|----------------|
-| Retail | 🔴 CRITICAL | 7,900-14,000 closures projected 2026; Eddie Bauer, GameStop, Francesca's bankrupt | HIGH — imported goods |
-| Restaurant / QSR | 🟠 ELEVATED | Wendy's -300, Pizza Hut -250, Papa John's -200 closures in H1 2026 | MEDIUM — food inputs |
-| Manufacturing (small) | 🟠 ELEVATED | Input cost squeeze; 97% of importers are SMBs | HIGH — raw materials |
-| Franchise | 🟠 ELEVATED | Personal guarantee exposure; chain-level pressure cascades to franchisees | MEDIUM — varies |
-| Services | 🟡 WATCH | Demand softening as consumer discretionary contracts | LOW — domestic inputs |
-| Construction/Trades | 🟡 WATCH | Housing-linked; watch for residential slowdown signal from HOMER | MEDIUM — materials |
+| Retail | 🔴 CRITICAL | 7,900-14,000 closures projected 2026; 1,200+ announced; Eddie Bauer, Francesca's bankrupt | Section 232 on steel/aluminum persists; electronics 35%; clothing from China 35% effective |
+| Restaurant / QSR | 🔴 CRITICAL | **944-1,049 chain closures (6 chains, FY2026)** — upward revision from 750 | Food inputs less tariff-sensitive; equipment (steel) impacted by Sec 232 |
+| Manufacturing (small) | 🟠 ELEVATED | Input cost squeeze; 97% of importers are SMBs; raw materials still tariffed | Steel/aluminum Sec 232 (up to 50%) NOT removed by IEEPA ruling; remains active |
+| Franchise | 🔴 CRITICAL | 944+ QSR closures = franchisee personal guarantee calls at scale | Personal guarantee wave — each closure converts to consumer credit event |
+| Services | 🟡 WATCH | Demand softening; NFIB profit trend -25% (worst since COVID) signals service revenue pressure | Indirect only; primary impact via demand destruction |
+| Construction/Trades | 🟡 WATCH | Steel/lumber tariffs (Sec 232) NOT removed; building materials costs elevated | Sec 232 persists; watch for HOMER signals on housing slowdown |
 
 ---
 
@@ -91,23 +131,24 @@ Five cascades — three ACTIVE:
 | FLOW-POP-02: Employment Transmission | 🟠 ACTIVATING | 3-6 months | Business stress → hiring freeze confirmed |
 | FLOW-POP-03: Credit Contamination | 🟡 WATCH | 6-12 months | SBA defaults at threshold; MCA stacking |
 | FLOW-POP-04: Local Multiplier Collapse | 🟠 ACTIVATING | 6-18 months | Retail/restaurant closures accelerating |
-| FLOW-POP-05: Franchise Failure Wave | 🟡 WATCH | 12-24 months | QSR chain closures cascading to franchisees |
+| FLOW-POP-05: Franchise Failure Wave | 🟠 ACTIVATING | 12-24 months | **944-1,049 chain closures confirmed** — upgraded from WATCH; personal guarantee wave now material |
 
-**Bottom line for CARL:** The owner compensation cut channel is the most urgent signal. **Deep dive completed Apr 9** — refined estimate: **$73-145B annually** (tariff-adjusted: $83-165B). Two channels: active salary cuts (BofA 32% rate, $41-61B) + chronic income suppression ($17-33B, not measured by any survey). 4-8% of total proprietors' income. S-corp distributions (91% of S-corp income) invisible to payroll systems. 59% of business debt carries personal guarantees → business failure converts to consumer credit event with 6-18mo lag. SBA 7(a) defaults at 3.7% (12-yr high), consensus 6.5-7.5% by EOY. Regional banks hold $600B in SB loans ≤$1M. See domain/sources/INVISIBLE_INCOME_DEEP_DIVE.md and SB_BANK_PIPELINE_DEEP_DIVE.md.
+**Bottom line for CARL (Apr 17 update):** The owner compensation cut channel remains most urgent. Deep dive completed Apr 9 — estimate: **$73-145B annually** ($83-165B tariff-adjusted). NFIB profit trend -25% (worst since COVID) validates the comp cut thesis without a new survey. New nuance: IEEPA tariff refunds ($166B to 330K importers, CAPE tool live Apr 20) may delay some business closures in H2 — watch whether this compresses or extends our timeline. NFIB Uncertainty now BREACHED (92 > 90 threshold) despite lower tariff rates — confirms structural planning paralysis, not just cost pressure. Restaurant chain closure wave upgraded to ACTIVATING: 944-1,049 announced chain closures = $189-525M minimum franchisee personal guarantee exposure entering the credit system. SBA 7(a) defaults at 3.7% (12-yr high); IEEPA refunds may push EOY consensus (6.5-7.5%) slightly lower. See domain/sources/INVISIBLE_INCOME_DEEP_DIVE.md and SB_BANK_PIPELINE_DEEP_DIVE.md.
 
 ---
 
-## PREDICTIONS
+## PREDICTIONS (Updated 2026-04-17)
 
-| ID | Prediction | Confidence | Timeframe | Status |
-|----|-----------|-----------|---------|--------|
-| POP-P01 | Ch.11 filings will sustain >40% YoY acceleration through Q2 2026 as tariff costs bite | 70% | Q2 2026 | TRACKING |
-| POP-P02 | NFIB Optimism drops below 95 by June 2026 as tariff reality hits sentiment | 65% | Q2 2026 | TRACKING |
-| POP-P03 | Subchapter V small biz filings will exceed +80% YoY by Q3 2026 | 60% | Q3 2026 | TRACKING |
-| POP-P04 | Restaurant sector will see 700+ chain closures (QSR) in H1 2026 | 75% | H1 2026 | TRACKING |
-| POP-P05 | Retail store closures will exceed 10,000 by year-end 2026 | 70% | Q4 2026 | TRACKING |
-| POP-P06 | SBA default rate will breach 5% (ORANGE threshold) by Q4 2026 | 55% | Q4 2026 | TRACKING |
-| POP-P07 | Fed SBCS 2026 report will show revenue expectations fall below 2020 levels | 65% | Q1 2027 (release) | TRACKING |
+| ID | Prediction | Old Conf | New Conf | Change | Timeframe | Status |
+|----|-----------|---------|---------|--------|---------|--------|
+| POP-P01 | Ch.11 filings will sustain >40% YoY acceleration through Q2 2026 | 70% | **65%** | ↓5% | Q2 2026 | TRACKING — Mar monthly -11% MoM vs prior yr; tariff regime lower post-IEEPA; slight reduction |
+| POP-P02 | NFIB Optimism drops below 95 by June 2026 | 65% | **80%** | ↑15% | Q2 2026 | **UPGRADED** — Mar at 95.8, 3-pt drop, already below 52-yr avg; Jun NFIB will capture tariff uncertainty cliff |
+| POP-P03 | Subchapter V small biz filings will exceed +80% YoY by Q3 2026 | 60% | **70%** | ↑10% | Q3 2026 | **UPGRADED** — Feb standalone was +91% YoY; trajectory clearly headed above 80% |
+| POP-P04 | Restaurant sector will see 700+ QSR chain closures in H1 2026 | 75% | **95%** | ↑20% | H1 2026 | **NEARLY CONFIRMED** — Wendy's 300-350 + Pizza Hut 250 + Papa John's 200 alone = 750-800; Jack in Box/Noodles adding to FY total |
+| POP-P05 | Retail store closures will exceed 10,000 by year-end 2026 | 65% | **70%** | ↑5% | Q4 2026 | TRACKING — 1,200+ announced; trajectory toward high-end of 14K est. |
+| POP-P06 | SBA default rate will breach 5% by Q4 2026 | 55% | **50%** | ↓5% | Q4 2026 | SLIGHTLY REDUCED — IEEPA removal reduces immediate cost pressure on some importers; IEEPA refunds provide one-time liquidity |
+| POP-P07 | Fed SBCS 2026 report will show revenue expectations below 2020 levels | 65% | **70%** | ↑5% | Q1 2027 | UPGRADED — NFIB profit trend -25% (worst since COVID) is a strong leading indicator |
+| POP-P08 | Owner comp cuts will be documented above 40% in next major survey | 70% | **70%** | — | H2 2026 | TRACKING — no new survey data to update |
 
 ---
 
