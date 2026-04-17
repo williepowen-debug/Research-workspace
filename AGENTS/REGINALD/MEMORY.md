@@ -36,14 +36,26 @@
 
 ## Session Notes
 
-⚠️ **Open question:** Apr 21 (2 trading days away) WAL + OZK sizing decision. Threads 2+3 done: OZK shorts crowded & pressing, WAL positioning flipped (late-Feb covering, fresh Apr shorts); OZK PT runway is GONE (street low $40 = thesis), WAL PT runway STILL LONG (street low $75 vs thesis $47 = 37% unearned). UBS flipped Strong Buy $106 → Hold $75 on Apr 7 — biggest bull folded 2 weeks pre-print. Setup: WAL = squeeze-vs-cascade binary with PT runway; OZK = catalyst-dependent, no analyst cushion. Strike/duration check TBD in final synthesis.
+⚠️ **Open question:** Execute pre-Apr-21 position rolls. Core decisions from Thread 4: (1) verify expiries on WAL $67.5P/$60P and OZK $42.5P (POSITIONS.md is Apr 2 stale); (2) pre-stage WAL $65P Jun → Sep roll (fresh-short cover on a beat kills aggressive Jun strikes before May 1-10 Call Report); (3) pre-stage OZK $45P May → Aug roll (no secondary catalyst within May expiry); (4) hold everything else. WAL $85P Jun ITM + $77.5P/$70P Sep cover the W9 NDFI Apr 21 harvest and the W1/W2 May 1-10 Call Report/10-Q reveals respectively. OZK edge entirely concentrated on Apr 21 print (O2 IQHQ / O4 provision-vs-NCO / O5 vintage).
 
-**Thread 2 + Thread 3 synthesis:** `research/outputs/RQ-AD-HOC-APR17-PT-AND-SI.md` (full analysis, gap math, verdicts).
+**Synthesis files:**
+- Threads 2+3: `research/outputs/RQ-AD-HOC-APR17-PT-AND-SI.md` (positioning + PT gap).
+- Thread 4: `research/outputs/RQ-AD-HOC-APR17-THREAD4-EDGE-CHECK.md` (element inventory, cohort Q&A scan, 3-axis scoring, visibility calendar, strike alignment, Apr 21 decision brief, four conditional scripts A-D, crib sheet for live calls).
 
 ### CHANGES SINCE LAST SESSION
 *(populated at next boot via market.py)*
 
-### LAST SESSION (Apr 17 midday — RF mined, crowded-short thesis developed, checkpoint before /clear)
+### LAST SESSION (Apr 17 PM — Threads 2, 3, 4 complete)
+
+**Thread 2 (positioning):** OZK shorts still crowded & pressing (SI 15.28% rising 5 months; short vol 43% → 64.6% Apr 8→16; 50% off-ex today on +2.0% rally). WAL positioning flipped (SI 4.13% → 3.46% declining through Mar; fresh shorts Apr; 51% off-ex). Verdict: MIXED. OZK asymmetry intact; WAL fresh-short cohort fragile on a beat.
+
+**Thread 3 (PT distribution):** WAL violent April walk-down — 7+ cuts in 17 days, avg PT $97.73 → $91.47 (-6.4%). UBS flipped Strong Buy $106 → Hold $75 = regime change. Street low $75 still 37% above thesis bear $47 = LONG PT runway. OZK zero April cuts; Citi $40 Sell has been at thesis for 2yrs; street low gap to thesis = 0-12% = ZERO PT runway.
+
+**Thread 4 (edge check):** Scored 17 thesis elements (9 WAL, 8 OZK) on 3-axis matrix (priced in PT / asked in cohort Q&A / Apr 21-visible). Top WAL edge = **W9 NDFI forced disclosure** (Apr 21 visible, CFG precedent + RBC direct question at RF = cohort discipline forming). Top OZK edges all concentrated on Apr 21 print (O2 IQHQ, O4 provision-vs-NCO, O5 vintage). W1 MI3 and W2 counterparty detail require May 1-10 Call Report / 10-Q = **argues Sep duration on WAL**. Four conditional scripts (A miss / B in-line both / C WAL beats OZK misses / D both beat) with per-position HOLD / ROLL / TRIM recommendations. Live-call crib sheets generated (5 WAL listen-fors ranked, 4 OZK).
+
+**Commits this session:** `8c018dcd` Threads 2+3 synthesis — local only, push deferred (CARL had uncommitted work at session midpoint). Thread 4 pending commit at close.
+
+### Prior session — Apr 17 midday (RF mined, crowded-short thesis developed, archived)
 
 **RF Q1 2026 synthesis complete** — `RF/Q1_2026_ANALYSIS.md` (NEW, 249 lines). Mined transcript + press release (38KB extract) + supplement (84KB extract). Deck (9.2MB) pending Round 2.
 
@@ -89,9 +101,19 @@ Thesis v1.4 added "C&I as Convergence Hiding Place" (three masking mechanisms: M
 
 ### NEXT SESSION
 
-**Boot sequence:** standard + read `RF/Q1_2026_ANALYSIS.md` (fresh) and `FITB/Q1_2026_ANALYSIS.md` (prior-session synthesis) early. These are the current thesis-state reference files.
+**Boot sequence:** standard + read `research/outputs/RQ-AD-HOC-APR17-THREAD4-EDGE-CHECK.md` (full Apr 21 decision brief, scripts A-D, per-position recommendations) + `research/outputs/RQ-AD-HOC-APR17-PT-AND-SI.md` (positioning + PT gap).
 
-**Primary focus: 4-thread investigation to sharpen Apr 21 WAL/OZK sizing decision.** Ordering below is optimized for fastest-to-slowest and data-available-to-synthesis-heavy. Do one at a time, pause for Will's approval between each.
+**Primary task: Execute pre-Apr-21 position rolls (1-1.5 trading days away).** Do in this order:
+
+1. **Get fresh POSITIONS data from Will** — broker screenshot. POSITIONS.md is stale since Apr 2. Need exact expiries on WAL $67.5P/$60P and OZK $42.5P.
+2. **Price the WAL $65P Jun → Sep roll** — quote both legs, calculate cost/credit and delta change. Present for Will's approval.
+3. **Price the OZK $45P May → Aug roll** — same. Conditional on Apr 21 print script; but stage the math now.
+4. **Build one-page "live call crib sheet"** from Thread 4 Step G tables (5 rankings for WAL call + 4 for OZK call). Print-ready for Apr 21 after-close.
+5. **Weekend / Monday:** Any fresh sell-side note, PT action, or cohort news (ZION if early). Check `workbook/SHORT_VOL.tsv` freshness for Mon/Tue.
+
+**Do NOT re-run threads 1-3.** Synthesis is complete. Thread 1 (DB positioning) deferred — directionally known from Thread 2 + today's tape (+2.7% WAL / +2.0% OZK on +1.2% SPY = broad squeeze-cover in progress).
+
+**4-thread investigation complete Apr 17 — archive of original plan below for reference only.**
 
 ---
 
