@@ -1,0 +1,6 @@
+## 2026-04-17 — To: CARL
+
+**Signal:** Lufthansa grounds 31 aircraft for fuel shortage (Apr 16) — qualitative shift; jet fuel doubled to >$200/bbl
+**Detail:** Lufthansa grounded 31 aircraft April 16 (27 CityLine regional + 4 mainline), citing jet fuel shortage from Iran war — first major European carrier to physically idle capacity due to SUPPLY constraints, not just cost. This is categorically different from the US carrier cost-driven cuts you already track (UAL/DAL/AAL). Jet fuel has now doubled: $99.4/bbl in late February → >$200/bbl mid-April (+101% in 7 weeks). European and Asian carriers now joining US carriers: Qantas −5%, VietJet −20%, SAS 1,000+ April cancellations, Vietnam Airlines 23 routes suspended, Korean Air/Asiana in "emergency mode." Global carrier count with >5% ASM cuts now 7+. Per demand destruction framework, this leads EIA gasoline demand data by 4–8 weeks — gasoline YoY signal window May–June 2026. Travel employment sector in Europe now at direct risk (CityLine regional crew + airport ground staff for cancelled routes). Fares +24% YoY → consumer travel discretionary spend accelerating downward.
+**Source:** Air Traveler Club (Lufthansa Apr 16 grounding); Nomad Lawyer (Korean Air/Qantas/SAS Apr 2026); BRENT TRACKER.md Friday pull
+**Priority:** 🔴
