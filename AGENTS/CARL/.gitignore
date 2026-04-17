@@ -1,0 +1,5 @@
+# Large source filings — kept locally, not tracked
+domain/sources/ally/10k_fy*/
+domain/sources/**/*.htm
+domain/sources/**/*.html
+domain/sources/**/*.pdf

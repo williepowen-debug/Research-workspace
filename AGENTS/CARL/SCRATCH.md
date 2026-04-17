@@ -1,98 +1,109 @@
 # CARL SCRATCH
-**Last session:** 2026-04-17 ~13:00 UTC (context compacted + closed after workbook audit)
-**Type:** Apr 15 data processing + SYF pre-brief + **FULL WORKBOOK AUDIT** (VX/FLOW/PREDICTIONS/STATE_DIFFUSION/CHANGELOG/THESIS all synced to v2.4)
+**Last session:** 2026-04-17 ~15:30 UTC (Will-directed, post-ALLY Q1)
+**Type:** ALLY Q1 2026 earnings processing + CARL-performed FY2024/FY2025 10-K reclassification audit + thesis v2.4→v2.4.1 refinement
 
-**PRIORITY-1:** Pull ALLY Q1 actuals (call closed ~10:15 AM ET Apr 17) — auto NCO, retail DQ, originations mix, credit tightening language. Feeds payment hierarchy thesis test (prime/near-prime auto = next domino after subprime breached). Check Quartr/IR site.
+**PRIORITY-1:** SYF Q1 Mon Apr 21 — CRL-12 test (NCO >6% guidance ceiling). Apply auto-lender reclassification framework (KB-CARL-225): CLN routing, ACL/mix trajectory, PL vs CareCredit segment mix shift. Different cohort from ALLY (monoline cards, no used-car tail), so ALLY print does NOT pre-judge outcome. Second HY OAS complacency test.
 
 ---
 
 ## WHAT HAPPENED
-1. **Booted despite HENRY/REGINALD uncommitted files** — did not pull, flagged to Will. Read boot files from local state.
-2. **Spawned STUE + HOMER in parallel** for Apr 15 data refresh (Sonnet, ~$0.06 combined).
-3. **Sweet v. McMahon Apr 15 deadline MISSED** — DOE did not comply. Auto Full Relief triggered for ~170K non-Exhibit C borrowers. Combined with Exhibit C (missed Jan 28 ~170K), total pipeline ~271K. Second consecutive Sweet deadline miss. Notices required by Jun 15.
-4. **FICO Spring 2026** — SL 90+ DQ ~9.8% (up 25% from 7.9% Apr 2025). 6.1M new DQ Feb-Apr. Avg score drop **-69 pts** (was -62). CRL-04 near-confirmed; breach likely Q2.
-5. **SAVE judicially dead** — 8th Cir Mar 10 reversed + entered final judgment. Dual-dead (legislative + judicial). Jul 1 locked.
-6. **NAHB HMI Apr = 34** (-4pts from 38, 7-mo low, 24th consec month <50). Future Sales 42 (-7pts). Tariff shock: +$10,900/home. Breaches CARL <40 RED threshold.
-7. **ATTOM Q1 = PIPELINE CONVERTING** — Q1 filings 118,727 (+26% YoY); **Q1 REO 14,020 (+45% YoY)**. March monthly +18% MoM. FL Q1 REO +108% YoY (greatest nationally). Regime change from accumulation.
-8. **STATUS.md refreshed** — 7 sections updated, 2 new rows (MBA Apps, NAHB HMI), predictions CRL-04 upgraded.
-9. **7 KB entries added** (KB-CARL-215 through 221): Sweet outcome×2, SAVE judicial death, FICO 9.8%, MOHELA discovery, NAHB HMI, ATTOM Q1.
-10. **FULL WORKBOOK AUDIT (session close)** — Will caught that VX/FLOW/PREDICTIONS/THESIS weren't updated. Executed 6-step fix list:
-    - **VX.tsv:** BLDR-01 (HMI 38→34 ORANGE→RED), HSG-01 (6.37→6.30% + MBA -3% YoY), SL-02 (9.6→9.8%), 6.06 (FL +190→+108% Q1 REO), **new HSG-05** (REO quarterly completions vector)
-    - **FLOW.tsv:** new **FLOW-CARL-12.04** Path C Activation (Pipeline Conversion → Bank Loss Realization) ACTIVATING-RED, 6-12mo speed
-    - **PREDICTIONS.tsv:** CRL-04 97→98% OPEN-NEAR CONFIRMED, CRL-06 70→78% with Q1 ATTOM data (bonus)
-    - **STATE_DIFFUSION.tsv:** FL row refreshed to +108% Q1 REO YoY w/ judicial state completion wave detail
-    - **CHANGELOG.md:** new v2.4 entry "Foreclosure Pipeline Converting + Credit Cascade Executing"
-    - **THESIS.md:** Vector #10 upgraded 🔴 4 → 🔴🔴 5 (canonical), convergence 57/60 → **58/60**
-11. **STATUS.md dashboard mirror** synced to 58/60 + Vector #10 upgrade.
 
-## STATUS CHANGES (incl. audit)
+1. **Boot** — git synced, read SCRATCH/STATUS/SCHEMA/TEAM, workbook healthy post-AM audit.
+2. **ALLY Q1 earnings pulled** via web (Quartr MCP session had died). Press release link via media.ally.com; transcript via Investing.com (au.investing.com/news/transcripts/...-93CH-4369219).
+   - Adj EPS $1.11 vs $0.94 est (+18%). Revenue $2.2B (+6% YoY).
+   - **Retail auto NCO 1.97%** (-17bps QoQ, -15bps YoY). **5TH consecutive quarter YoY improvement.**
+   - **30+ DQ 4.6%** (-17bps YoY). 4th consec qtr improvement.
+   - Flow-to-loss "record low." Origination yield 9.6%, apps 4.4M (record +16% YoY), originations $11.5B (+13% YoY).
+   - **S-tier origination concentration 41% (declining — "dynamic underwriting")** ← yellow flag
+   - Reserves "held flat at $375M reflecting dynamic macro"
+   - Mgmt: "Consumer behavior is resilient. There's a disconnect between consumer sentiment and what we're seeing."
+   - CET1 10.1% (+60bps YoY). 2026 guide 1.8-2.0% NCO + 3.60-3.70% NIM MAINTAINED.
+3. **Will flagged reclassification concern** — REGINALD has found 3-layer reclassification at regional banks (Memo Item 3, NDFI-in-C&I, sub-category relabel at CFG $2.9B, MTB $1.3B). Asked: does ALLY do similar?
+4. **Pulled ALLY 10-Ks from EDGAR** — CIK 0000040729. FY2025 10-K (acc 0000040729-26-000005, filed 2026-02-25) and FY2024 10-K (acc 0000040729-25-000006, filed 2025-02-19). Saved to `domain/sources/ally/10k_fy2025/` and `10k_fy2024/` (18MB combined).
+5. **Delegated forensic audit to Explore agent** with REGINALD 3-layer framework translated to auto-lender 7-lever toolkit (A-G). Audit persisted at `domain/sources/ally/RECLASSIFICATION_AUDIT_FY2025.md`.
+6. **Audit findings — headline clean, cohort dirty:**
+   - REGINALD Layers 1-3 **NOT present** at ALLY (not CRE bank, floorplan shrinking, no NDFI analog, no line-item taxonomy shift, no runoff segmentation, no HFI→HFS dumping, no TDR re-aging)
+   - Composition-masking **IS present:**
+     - Used retail S-tier: 40% → 37% (-3pp)
+     - Nonprime (<620): 9.7% → 10.1% (+40bps, +$0.4B to $8.6B)
+     - Used retail avg FICO: 707 → 702 (-5pts)
+     - **ACL: $3.7B → $3.5B (-$224M / -6%)** ← reserve release into mix downgrade (REGINALD Layer F tell)
+     - **CLN issuance: $0.77B → $1.1B (+43% YoY)**, reference pools $7B → $10B (Layer G tail-risk routing)
+     - Originations +11% YoY into worsening mix
+7. **Thesis revision v2.4 → v2.4.1:** Payment hierarchy NOT invalidated, TIMELINE PUSHED. FY2025 vintage loss window is 2H 2026 / Q1 2027 (18-24 month seasoning lag). Intra-auto K-shape: subprime ABS cracking (EART Class E CE breached) co-exists with near-prime headline-clean — composition-driven, not genuine.
+8. **State written up:**
+   - KB entries: KB-CARL-222 (Q1 print), -223 (mix shift), -224 (CLN), -225 (auto-lender framework), -226 (payment hierarchy revision). 221→226 rows.
+   - VX: VX-CARL-ABS-12 updated (retail auto NCO 1.97% GREEN), added AUTO-MIX-01 (S-tier 37% ORANGE), AUTO-MIX-02 (nonprime 10.1% ORANGE), AUTO-MIX-03 (ACL/portfolio 2.5% ORANGE). 105→108 rows.
+   - Red team: `COUNTER_LOG.md` prepended with full Apr 17 entry + reactivation triggers.
+   - CHANGELOG: v2.4.1 entry with mechanism revision + CRL-05 85→82%.
+   - PREDICTIONS: CRL-05 confidence 85→82% with ALLY counter-evidence note.
+   - STATUS: header refreshed, ALLY Near-Prime row expanded (cohort caveat), CRL-05 row updated, catalysts line marked ALLY processed + added Q1 2027 reactivation test.
+   - Outbox: `SIG-CARL-REGINALD-20260417-auto-lender-reclassification-translation.md` — full 7-lever framework translation + Ally findings.
+
+## STATUS CHANGES
 | Item | Change |
 |------|--------|
-| Convergence | 57/60 → **58/60 CRITICAL** |
-| Vector #10 (Foreclosure) | 🔴 4 → 🔴🔴 5 (pipeline CONVERTING) |
-| THESIS version | v2.3 → **v2.4** |
-| SL 90+ DQ | 9.6% → **~9.8% FICO Spring 2026** |
-| Sweet Auto-Relief | not tracked → **🔴 FIRED ~271K pipeline** |
-| PMMS 30yr | 6.37% → **6.30%** (3rd consec wk easing) |
-| NAHB HMI | not tracked → **34 RED** (new row) |
-| Q1 Foreclosures | Q4 58,140 → **Q1 118,727 +26% YoY, REO +45% YoY** |
-| FL Foreclosures | Q4 +190% filings → **Q1 REO +108% YoY** |
-| CRL-04 | 9.6% 97% → **~9.8% 98% OPEN-NEAR CONFIRMED** |
-| CRL-06 | 70% → **78%** (possibly confirmed at starts level) |
-| KB entries | 214 → **221** (+7) |
-| VX entries | added HSG-05 (REO completions) |
-| FLOW entries | added 12.04 (Path C Activation) |
+| THESIS | v2.4 → **v2.4.1** (payment hierarchy timeline pushed) |
+| CRL-05 confidence | 85% → **82%** |
+| VX-CARL-ABS-12 | PENDING → **1.97% GREEN** (Ally Q1) |
+| VX rows | 105 → **108** (+3 mix-shift trackers) |
+| KB entries | 221 → **226** (+5) |
+| STATUS Ally row | "🟢 Stable" → **"🟢⚠️ headline / 🟠 cohort"** |
+| Outbox | 0 → **1** (REGINALD auto-lender framework) |
+| red_team/COUNTER_LOG.md | ALLY Apr 17 entry added (top) |
+| Convergence | 58/60 (unchanged — ALLY data is mechanism-level refinement, not vector) |
 
 ---
 
 ## NEXT SESSION SHOULD
 
-### IMMEDIATE (today 4/17 post-ALLY / Mon 4/21)
-1. **Pull ALLY Q1 actuals** — call closed ~10:15 AM ET today. Check auto NCO, 30+/60+ DQ, originations, credit tightening language, deposit trends. Post-call transcript on Quartr.
-2. **Check REGINALD outbox** for OZK earnings signals (Apr 16) after their commit clears
-3. **Commit CARL files** — pending HENRY/REGINALD commit resolution. Run `git status` first to verify others' dirs are clean.
-4. **Finalize SYF Q1 Mon Apr 21 prep** — cross-ref EARNINGS_WATCH_Q1.md Apr 17 addendum + ABS structural findings. CRL-12 NCO >6% test.
-5. **Cross-refs to REGINALD** — FL Q1 REO +108% (CRE-adjacent Path C), PMMS -53bps YoY (NIM/MBS), NAHB tariff shock (builder loan mix). Outbox signal candidate.
+### IMMEDIATE (this session / Mon 4/21)
+1. **SYF Q1 Mon Apr 21 — CRL-12 NCO >6% test.** Apply auto-lender reclassification framework:
+   - ACL trajectory vs mix composition (CareCredit vs Private Label segment shift?)
+   - CLN/ABS expansion (monoline card trust data)
+   - Originations growth vs underwriting commentary
+   - If SYF also comes in benign headline + hidden cohort deterioration = SAME pattern as ALLY, thesis preservation mode. If SYF genuinely weak, validates CRL-12.
+2. **COF Q1 Apr 21** — same framework; different book (domestic card + auto).
+3. **Monitor git status before commit** — REGINALD has untracked PDFs in CFG/FITB/MTB/PNC/RF sources. Only stage CARL files.
+4. **Commit CARL changes** — KB.tsv, VX.tsv, STATUS.md, SCRATCH.md, thesis/CHANGELOG.md, thesis/PREDICTIONS.tsv, red_team/COUNTER_LOG.md, outbox/SIG-CARL-REGINALD-20260417..., domain/sources/ally/ (2 10-K HTML + audit MD).
 
 ### UPCOMING (this week)
-6. **Apr 21 Mon** — SYF Q1 (CRL-12 NCO >6% test), COF Q1, DHI Q2
-7. **Apr 23 Wed** — PHM Q1, AXP Q1
-8. **Apr 25 Fri** — UMich Apr Final (47.6 confirmed?)
-9. **Apr 26** — FL UI Wave 2 peak
+5. **Apr 21 Mon** — SYF Q1, COF Q1, DHI Q2
+6. **Apr 23 Wed** — PHM Q1, AXP Q1 (apply auto-lender framework to AXP too)
+7. **Apr 25 Fri** — UMich Apr Final (47.6 confirmed?)
+8. **Apr 26** — FL UI Wave 2 peak
 
 ### UPCOMING (next 2 weeks)
-10. **Apr 28** — Case-Shiller Feb, Rithm/NewRez Q1 (testable "DQ reverse" claim)
-11. **Late Apr** — Fannie MF March DQ (GFC breach test, 0.74 → 0.80%)
-12. **Late Apr / early May** — PennyMac Q1 (FHA DQ >7.5%?)
-13. **May 28** — AFT/MOHELA status conference (discovery)
+9. **Apr 28** — Case-Shiller Feb, Rithm/NewRez Q1 (testable "DQ reverse" claim)
+10. **Late Apr** — Fannie MF March DQ (CRL-03 GFC breach test, 0.74 → 0.80%)
+11. **Late Apr / early May** — PennyMac Q1 (FHA DQ >7.5%?)
+12. **May 28** — AFT/MOHELA status conference
 
 ### BACKLOG (no deadline)
-14. **March 10-D ABS filings** (~Apr 20-25) — SDART/EART/AMCAR/HAROT/Ally March collection data
+13. **March 10-D ABS filings** (~Apr 20-25) — SDART/EART/AMCAR/HAROT/Ally March collection data. Cross-check against Ally Q1 cohort commentary.
+14. **ALLY Q2 earnings** (~Jul) — first early-signal check on FY2025 cohort seasoning. If NCO stops improving on unchanged macro = payment hierarchy reactivation signal.
 15. **BNPL_STRESS refresh** (16 days stale) — spawn PHAN
-16. **STATE_DIFFUSION refresh** — FL row updated this session; other states still 16 days stale
-17. **Cross-agent outbox signal:** FL Q1 REO +108% YoY → REGINALD + MARCO (not yet drafted)
+16. **STATE_DIFFUSION refresh** — non-FL states still 16 days stale
 
 ---
 
-## OUTBOX (0 signals)
-Last delivered: SIG-CARL-REGINALD-20260413-nonbank-servicer-warehouse.md (Apr 14)
-**Draft candidate:** FL Q1 REO +108% + Path C activation → REGINALD (warehouse/MBS exposure) + MARCO (FL migration amplification).
+## OUTBOX (1 signal, awaiting delivery/integration — messaging overhaul pending)
+| File | To | Summary |
+|------|----|---------|
+| SIG-CARL-REGINALD-20260417-auto-lender-reclassification-translation.md | REGINALD | 7-lever auto-lender translation of 3-layer bank reclassification framework + ALLY Q1 findings (mix shift, ACL release, CLN +43%); suggests applying to SYF Mon Apr 21 |
 
-## INBOX (1 item processed)
-| File | From | Summary |
-|------|------|---------|
-| SV-HOMER-2026-04-17-01.md | HOMER | NAHB/MBA/PMMS/ATTOM — INTEGRATED, can archive |
+## INBOX (0 items, clean)
 
 ---
 
 ## WORKBOOK HEALTH
 | TSV | Rows | Last Modified | Note |
 |-----|------|---------------|------|
-| KB | 221 | **Apr 17** | +7 (Sweet, FICO, SAVE, MOHELA, NAHB, ATTOM) |
-| VX | 103 | **Apr 17** | +1 (HSG-05 REO completions) + 4 updates |
-| FLOW | 22 | **Apr 17** | +1 (12.04 Path C activation) |
-| PREDICTIONS | 18 | **Apr 17** | CRL-04 + CRL-06 updated |
-| STATE_DIFFUSION | 63 | **Apr 17** | FL row refreshed (other states still stale) |
+| KB | **226** | **Apr 17 (PM)** | +5 (ALLY Q1 + FY2024/25 mix + CLN + framework + hierarchy revision) |
+| VX | **108** | **Apr 17 (PM)** | +3 AUTO-MIX trackers, ABS-12 updated |
+| FLOW | 22 | Apr 17 (AM) | OK |
+| PREDICTIONS | 18 | **Apr 17 (PM)** | CRL-05 85→82% |
+| STATE_DIFFUSION | 63 | Apr 17 (AM) | FL refreshed, others stale |
 | ABS_BASELINE | 67 | Apr 16 | OK |
 | BNPL_STRESS | 44 | Apr 1 | **16 days stale — spawn PHAN** |
 | TRENDS | 40 | Apr 6 | 11 days stale |
@@ -101,7 +112,8 @@ Last delivered: SIG-CARL-REGINALD-20260413-nonbank-servicer-warehouse.md (Apr 14
 ---
 
 ## URGENT
-- **ALLY Q1 actuals** — call closed ~10:15 AM ET. Prime/near-prime auto = next domino after subprime breach. Retail auto NCO >2.0% or 30+ DQ rising sharply = payment hierarchy cascade activates.
-- **SYF Mon Apr 21** — CRL-12 NCO >6% test. Second HY OAS complacency test. Cross-ref ABS trust-level cure collapse.
-- **Pipeline CONVERTING not just accumulating** — Q1 REO +45% YoY is a regime change. Path C (housing→banks) transmission probability UP. THESIS v2.4 58/60 reflects this.
-- **Git commit still pending** — CARL files ready but blocked on HENRY/REGINALD. Check next session boot.
+
+- **SYF Mon Apr 21 is critical.** If SYF also prints clean headline, apply reclassification framework same as ALLY — look for ACL/mix divergence in the supplement. Don't take headline at face value. CRL-12 outcome depends on whether supplement reveals composition masking.
+- **ALLY Q2 earnings (~Jul) is first early-signal test** on the v2.4.1 timeline-push claim. If NCO pauses improvement on unchanged macro, FY2025 cohort seasoning faster than expected.
+- **Q1 2027 is the thesis reactivation test** for payment hierarchy pathway — 18 months past FY2025 origination. Mark calendar.
+- **ALLY is the FIRST real-time test of the payment hierarchy cascade.** First test was "headline FAIL, cohort PASS." Honest read: thesis weakened at headline, preserved at cohort. Treat this as legit counter-evidence, not dismiss it.

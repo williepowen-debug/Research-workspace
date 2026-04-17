@@ -1,6 +1,6 @@
 # CARL STATUS
-**Updated:** 2026-04-17 ~13:00 UTC
-**Overall:** 🔴🔴 CRITICAL — Convergence 58/60. **Apr 17: Vector #10 UPGRADE 4→5 — pipeline CONVERTING confirmed (Q1 REO +45% YoY, FL +108% YoY). NAHB HMI 34 (-4pts, 7mo low, tariff +$10.9K/home). Sweet v. McMahon Apr 15 deadline MISSED → auto full relief ~271K borrowers. FICO Spring 2026: 90+ SL DQ ~9.8% (from 7.9%). ALLY Q1 out 7:30 AM (actuals pending).** ABS Apr 16: EART Class E CE BREACHED (CNL 13.06%). AMCAR Class E ~2mo, SDART Class D ~7mo. Cure collapse subprime-localized. UMich 47.6. CPI Mar +3.28%, PPI +4.0%. Gas $4.13. HY OAS **294bps — complacency WIDENING vs structured credit cracking.** CMBS MF DQ ATH 7.15%. PennyMac FHA DQ 7.5%.
+**Updated:** 2026-04-17 ~15:30 UTC (PM — post-ALLY Q1 + reclassification audit)
+**Overall:** 🔴🔴 CRITICAL — Convergence 58/60. **Apr 17 PM: ALLY Q1 COUNTER-EVIDENCE PROCESSED — thesis v2.4→v2.4.1. Retail auto NCO 1.97% (-17bps QoQ), 30+ DQ 4.6%, 5/4 consec qtrs improvement. HEADLINE CLEAN. CARL-performed FY2024/FY2025 10-K audit found composition masking (S-tier 40→37%, nonprime 9.7→10.1%, ACL -$224M/-6%, CLN +43% YoY) — NOT accounting fraud. Payment hierarchy timeline PUSHED to 2H 2026/Q1 2027, not invalidated. CRL-05 85→82%.** Apr 17 AM: Vector #10 UPGRADE 4→5 — Q1 REO +45% YoY, FL +108%. NAHB HMI 34. Sweet Apr 15 MISSED → auto full relief ~271K. FICO Spring 2026: SL 90+ DQ ~9.8%. ABS Apr 16: EART Class E CE BREACHED. AMCAR Class E ~2mo, SDART Class D ~7mo. UMich 47.6. CPI Mar +3.28%, PPI +4.0%. Gas $4.13. HY OAS 294bps. CMBS MF DQ ATH 7.15%.
 
 *Check-in archives: `archive/status/` (pending Phase 3 move)*
 
@@ -15,7 +15,7 @@
 | Subprime Auto 60+ DQ | **6.9% ATR** | Jan 2026, Fitch | 🔴🔴 |
 | SoFi 2025-1 CNL | **2.6% TRIGGERED** (⚠️ snapshot Mar 2026 — no SEC path, private/144A. Cannot refresh via abs_monitor. See KB-CARL-078.) | Mar 2026, Eisman Ep 49 | 🔴 |
 | **ABS Structural** | **EART 2024-2 Class E CE BREACHED** (CNL 13.06% > 7.6% initial CE). AMCAR Class E 0.4pp cushion (~2mo). SDART Class D 1.8pp (~7mo). Terminal CNL: EART 32.3%, SDART 17.6%, AMCAR 14.5%. Rating actions imminent on subordinate tranches. | Apr 16 CARL analysis, EDGAR 424B5 | 🔴🔴 |
-| **Ally Near-Prime** | **CNL 0.56%, 60+ DQ 0.80% — STABLE.** No cure collapse. Stress subprime-localized. Migration trigger: >10bps/mo CNL sustained. | Feb 2026, EDGAR 10-D | 🟢 |
+| **Ally Near-Prime** | **Q1 2026: Retail auto NCO 1.97% (-17bps QoQ, -15bps YoY, 5TH CONSEC QTR IMPROVEMENT). 30+ DQ 4.6% (-17bps YoY, 4th consec). Flow-to-loss "record low." Guide 1.8-2.0% MAINTAINED.** ⚠️ HEADLINE CLEAN ≠ COHORT CLEAN. CARL FY2024/FY2025 10-K audit: S-tier origination 40→37%, nonprime (FICO<620) 9.7→10.1%, ACL -$224M/-6%, CLN issuance +43% YoY. **Composition-masking, not accounting fraud.** FY2025 vintage loss window 2H 2026 / Q1 2027. Mgmt: "Consumer behavior resilient — disconnect with sentiment." | Apr 17 2026, Ally earnings + EDGAR 10-Ks | 🟢 ⚠️ (headline) / 🟠 (cohort) |
 | Auto 90+ DQ | **5.21%** (near 5.27% max) | Q4 2025, NY Fed | 🔴 |
 | Student Loan 30+ DQ | **16.3% WORST EVER** (~25% w/payment due behind) | Q4 2025 NY Fed / Feb 2026 TCF | 🔴🔴 |
 | Student Loan 90+ DQ | **~9.8%** (FICO Spring 2026; +25% vs 7.9% Apr 2025). 6.1M new DQ Feb-Apr, avg score drop **-69 pts** (25% of group -100pt+). NY Fed Q4 official: 9.6%; 18-29 cohort 21%. | FICO Spring 2026 / Q4 2025 NY Fed | 🔴🔴 |
@@ -181,7 +181,7 @@
 |----|-----------|------|-----------|---------|
 | CRL-03 | Fannie MF DQ >0.80% (GFC) | 90% | Q2 2026 | 0.74% Feb — hovering 6bps from target |
 | CRL-04 | Student 90+ DQ >10% | 95% | Q1-Q2 2026 | **~9.8% FICO Spring 2026** (up 25% from 7.9% Apr 2025). 9.2M default, 2.4M late-stage DQ. **Near-confirmed, breach likely Q2.** |
-| CRL-05 | CC 90+ DQ >13.74% (GFC) | **82%** | Q2-Q3 2026 | 12.70% — 1.04pp gap. **Apr 6 upgrade:** student loan cascade adds +0.5-1.0pp pathway |
+| CRL-05 | CC 90+ DQ >13.74% (GFC) | **82%** | Q2-Q3 2026 | 12.70% — 1.04pp gap. **Apr 17 (PM): 85→82%** on ALLY Q1 counter-evidence — near-prime auto headline clean 5 consec qtrs. Audit found composition-masking not fraud (KB-CARL-223). SL cascade pathway intact. |
 | CRL-06 | Foreclosures >70K/qtr | 70% | Q2 2026 | 58,140 Q4 — needs +20% |
 | CRL-07 | FL UI exhaustion → DQ spike | 85% | Jun-Aug 2026 | LABOR model confirms timeline |
 | CRL-08 | Gas $4.50+ national avg | **60%** | Jun 2026 (extended — ceasefire uncertainty) | $4.13 national, FL $4.02 (crossed breakpoint), CA $5.89. Diesel $5.65 (UP). Ceasefire stabilized Brent ~$98 but diesel still rising. CPI Energy +12.5% YoY. |
@@ -198,6 +198,6 @@
 - **Thesis kill:** Claims <220K 8+ weeks AND CC 90+ DQ declines 2 consecutive quarters
 - **Time-based:** Q1 consumer earnings (April) = mandatory review → **See `EARNINGS_WATCH_Q1.md` for full calendar + watch metrics**
 
-*Next catalysts: ✅ $4/gal **FIRED** | ✅ FL UI Wave 1 PASSED | ✅ NFP Mar **PROCESSED** | ✅ ABS Drill-Downs #2-4 **COMPLETE** | ✅ Apr 15 Sweet **FIRED** (auto-relief ~271K) | ✅ Apr 15 NAHB HMI **34 RED** | ✅ Q1 ATTOM **REO +45% YoY** | 🔄 **Apr 17 ALLY Q1 (actuals pending post 9 AM call)** | **Apr 21: SYF Q1 (CRL-12 test)** | Apr 21: DHI Q2, COF Q1 | Apr 23: PHM Q1, AXP Q1 | Apr 25: UMich Final | Apr 26: FL UI Wave 2 | Apr 28: Case-Shiller Feb, Rithm/NewRez Q1 | **May 28: AFT/MOHELA status conference** | **Jul 1: SAVE→RAP** | $4.50/gal | Q2-Q3: ABS subordinate tranche rating actions*
+*Next catalysts: ✅ $4/gal **FIRED** | ✅ FL UI Wave 1 PASSED | ✅ NFP Mar **PROCESSED** | ✅ ABS Drill-Downs #2-4 **COMPLETE** | ✅ Apr 15 Sweet **FIRED** (auto-relief ~271K) | ✅ Apr 15 NAHB HMI **34 RED** | ✅ Q1 ATTOM **REO +45% YoY** | ✅ **Apr 17 ALLY Q1 PROCESSED — headline clean, cohort masked (audit complete, CRL-05 85→82%)** | **Apr 21: SYF Q1 (CRL-12 test, apply auto-lender reclassification framework)** | Apr 21: DHI Q2, COF Q1 | Apr 23: PHM Q1, AXP Q1 | Apr 25: UMich Final | Apr 26: FL UI Wave 2 | Apr 28: Case-Shiller Feb, Rithm/NewRez Q1 | **May 28: AFT/MOHELA status conference** | **Jul 1: SAVE→RAP** | $4.50/gal | Q2-Q3: ABS subordinate tranche rating actions | **Q1 2027: ALLY FY2025 vintage loss window (payment hierarchy reactivation test)***
 *Prior check-ins (Mar 20), K-shape evidence table, fertilizer calendar archived to `archive/status/` (pending move)*
 *Key docs: `domain/sources/CVNA_FRAUD_WATCH.md` | `workbook/ABS_BASELINE.tsv` | `workbook/STATE_DIFFUSION.tsv`*
