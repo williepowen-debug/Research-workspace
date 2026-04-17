@@ -1,15 +1,15 @@
 # HOMER STATUS
-**Last Updated:** 2026-04-13 (Spawn 2 Data Refresh) | **Status:** 🔴 CRITICAL — Foreclosure pipeline 878K (+25% in 4mo), Fannie MF 0.74% (6bps from GFC, Mar data not yet released), mortgage rates eased slightly (6.37% PMMS Apr 9 / 6.51% MBA Apr 3) but still Orange, CMBS MF DQ new ATH 7.15% Mar, cure rates -40%, FHA 11.52% (4x conventional), existing home sales 3.98M SAAR in Mar (lowest since Jun), new home sales delayed to May 5, FL condo 13.2mo supply
+**Last Updated:** 2026-04-17 (Spawn 3 Data Refresh — Apr 15-17 releases) | **Status:** 🔴 CRITICAL — NAHB HMI 34 (NEW 7-mo low, -4pts; missed est. 37; 24th consecutive month <50; Future Sales collapsed -7pts to 42); MBA apps +1.8% WoW (Apr 10 wk) on refi +5%; Purchase -1% WoW, -3% YoY; PMMS 6.30% (down from 6.37%, easing trend continues); ATTOM Q1 2026 foreclosures +26% YoY (118,727 filings, REO +45% YoY to 14,020); FL REO up 108% YoY in Q1; TX leads FC starts Q1 (10,617 vs FL 10,099)
 
-**⚠️ THRESHOLD WATCH:** Existing home sales 3.98M (approaching 🔴 <4.0M threshold). NAR inventory now 4.1 months (4-month high — slight easing). TX now leads FL in FC starts (Feb: TX 3,390 vs FL 3,250).
+**⚠️ THRESHOLD WATCH:** Existing home sales 3.98M (approaching 🔴 <4.0M threshold). NAHB HMI 34 (now 7-mo low; buyer traffic 22, severely depressed). ATTOM Q1 2026: 118,727 filings (+26% YoY) with REO +45% YoY — pipeline converting to REO at accelerating rate. TX leads FL in Q1 FC starts (10,617 vs 10,099). FL REO doubled (+108% YoY). Tariff cost shock: 60% of builders report material cost increases avg +6.3% = $10,900/home.
 
 ---
 
 ## THESIS
 
-U.S. housing is in a slow-motion stress event masked by headline price resilience. The foreclosure pipeline is building (878K in 90+/FC, +25% in 4 months) while cure rates have collapsed -40%. Fannie MF DQ is 6bps from GFC peak (Mar data not yet released) with a $270B+ maturity wall ahead. CMBS MF DQ hit new ATH 7.15% in March (+30bps MoM, +171bps YoY); true shadow rate including matured/current loans is 9.07%. Mortgage rates briefly spiked to 6.46% PMMS (Apr 2) and 6.57% MBA contract rate (Mar 27) before pulling back to 6.37%/6.51% on Apr 9/3 — still Orange-elevated. Existing home sales collapsed to 3.98M SAAR in March (-3.6% MoM), the lowest since June, approaching the <4.0M red threshold; new home sales data (Feb/Mar) delayed to May 5. The FHA/Conventional DQ spread (11.52% vs 2.89%) confirms housing K-shape — lower-income borrowers are 4x more stressed. HUD ended repeat partial claims Oct 2025, exhausting COVID forbearance runway. Builder distress is K-shaped: Lennar gross margin 15.2% (lowest since 2010) vs Toll Brothers 26.5% (luxury holding). TX has now overtaken FL in monthly FC starts (Feb: TX 3,390 vs FL 3,250). NAHB HMI at 38 (23rd consecutive month below 50). FL condo supply 13.2 months with Lakeland FL the worst FC metro nationally (1 in 1,075 HU). Rent growth stabilizing at low levels (+1.9% YoY Zillow Feb) with 56% of top 100 cities still negative.
+U.S. housing is in a slow-motion stress event masked by headline price resilience. The foreclosure pipeline is building (878K in 90+/FC, +25% in 4 months) while cure rates have collapsed -40%. Fannie MF DQ is 6bps from GFC peak (Mar data not yet released) with a $270B+ maturity wall ahead. CMBS MF DQ hit new ATH 7.15% in March (+30bps MoM, +171bps YoY); true shadow rate including matured/current loans is 9.07%. Mortgage rates briefly spiked to 6.46% PMMS (Apr 2) and 6.57% MBA contract rate (Mar 27) before pulling back to 6.37%/6.51% on Apr 9/3 — still Orange-elevated. Existing home sales collapsed to 3.98M SAAR in March (-3.6% MoM), the lowest since June, approaching the <4.0M red threshold; new home sales data (Feb/Mar) delayed to May 5. The FHA/Conventional DQ spread (11.52% vs 2.89%) confirms housing K-shape — lower-income borrowers are 4x more stressed. HUD ended repeat partial claims Oct 2025, exhausting COVID forbearance runway. Builder distress is K-shaped: Lennar gross margin 15.2% (lowest since 2010) vs Toll Brothers 26.5% (luxury holding). NAHB HMI dropped to 34 in April (7-month low; -4pts; 24th consecutive month <50) as tariff cost shock materializes — 60% of builders reporting material cost increases avg +6.3% = $10,900/home. TX leads FL in Q1 FC starts (10,617 vs 10,099); FL REO +108% YoY in Q1 (structural foreclosure wave converting). FL condo supply 13.2 months. Rent growth stabilizing at low levels (+1.9% YoY Zillow Feb) with 56% of top 100 cities still negative. Rates easing (PMMS 6.30% Apr 17) but purchase demand still -3% YoY (MBA Apr 10 wk).
 
-**Path C (Housing -> Banks -> Credit Tightening)** is ACTIVATING. Transmission: Foreclosures -> bank resi/CRE exposure -> credit tightening -> feedback into consumer stress. FL is the canary state.
+**Path C (Housing -> Banks -> Credit Tightening)** is ACTIVATING. Transmission: Foreclosures -> bank resi/CRE exposure -> credit tightening -> feedback into consumer stress. FL is the canary state. ATTOM Q1 2026 confirms pipeline-to-REO conversion is accelerating (REO +45% YoY). Tariff shock adding new headwind: 60% of builders face material cost increases +6.3% avg (~$10,900/home), hammering an already-distressed margin structure.
 
 ---
 
@@ -20,11 +20,12 @@ U.S. housing is in a slow-motion stress event masked by headline price resilienc
 |--------|-------|-------|--------|--------|
 | 90+/FC Pipeline | **878K** (+175K/25% in 4mo) | Feb 2026 | MBA | 🔴🔴 |
 | Cure Rates | **-40%** | Feb 2026 | MBA/ICE | 🔴🔴 |
-| National Foreclosures (Qtr) | **58,140** (+41% YoY) | Q4 2025 | ATTOM | 🟠 |
-| Foreclosure Filings (Monthly) | **38,840** (+20% YoY) | Feb 2026 | ATTOM | 🟠 |
-| FC Starts (Monthly) | **25,928** (+14% YoY) | Feb 2026 | ATTOM | 🟠 |
-| REO Completions (Monthly) | **4,077** (+35% YoY) | Feb 2026 | ATTOM | 🟠 |
-| 12th Consecutive Month YoY Rise | Yes | Feb 2026 | ATTOM | 🔴 |
+| National Foreclosures (Qtr) | **118,727** Q1 2026 (+6% QoQ, **+26% YoY**) | Q1 2026 | ATTOM | 🔴 |
+| National FC Starts (Qtr) | **82,631** Q1 2026 | Q1 2026 | ATTOM | 🔴 |
+| REO Completions (Qtr) | **14,020** Q1 2026 (**+45% YoY** — pipeline converting) | Q1 2026 | ATTOM | 🔴🔴 |
+| Foreclosure Filings (Monthly) | **45,921** Mar 2026 (+18% MoM, **+28% YoY**) | Mar 2026 | ATTOM | 🔴 |
+| REO Completions (Monthly) | **5,229** Mar 2026 (+28% MoM, +42% YoY) | Mar 2026 | ATTOM | 🔴 |
+| Properties in FC Process | **230,401** | Q1 2026 | ATTOM | 🟠 |
 | FHA DQ Rate | **11.52%** | Q4 2025 | MBA | 🔴 |
 | Conventional DQ Rate | **2.89%** | Q4 2025 | MBA | 🟢 |
 | FHA/Conv Spread | **8.63pp** (K-shape) | Q4 2025 | MBA | 🔴 |
@@ -58,12 +59,14 @@ U.S. housing is in a slow-motion stress event masked by headline price resilienc
 ### Mortgage Rates / Demand
 | Metric | Value | As Of | Source | Status |
 |--------|-------|-------|--------|--------|
-| 30-Yr Mortgage Rate (PMMS) | **6.37%** (down from 6.46% prior wk; Apr 2 high was 6.46%) | Apr 9 | Freddie PMMS | 🟠 |
-| 30-Yr Contract Rate (MBA) | **6.51%** (down from 6.57%, still elevated) | Apr 3 wk | MBA | 🟠 |
-| Rate Trend | **Slight pullback after tariff vol; still elevated vs Mar** | Apr 2026 | Freddie | 🟠 |
-| MBA Apps (Composite) | **-0.8% WoW** (Apr 3 wk; Purchase +1%, Refi -3%) | Apr 3 wk | MBA | 🟠 |
-| MBA Refi | **Lowest since Dec 2025** (-4% YoY) | Apr 3 wk | MBA | 🔴 |
-| MBA Apps (week of Apr 9) | **NOT YET RELEASED** (Wed Apr 15 release) | — | MBA | — |
+| 30-Yr Mortgage Rate (PMMS) | **6.30%** ⬇️ (down from 6.37% prior wk; -7bps WoW; easing trend) | Apr 16/17 | Freddie PMMS | 🟠 |
+| 15-Yr Mortgage Rate (PMMS) | **5.65%** (down from 5.74%) | Apr 16/17 | Freddie PMMS | 🟠 |
+| 30-Yr Rate YoY | **Year-ago was 6.83%** (-53bps YoY — slight affordability benefit) | Apr 16/17 | Freddie PMMS | 🟠 |
+| Rate Trend | **Easing gradually from 6.46% Apr 2 high; tariff vol driving flight-to-safety** | Apr 2026 | Freddie | 🟠 |
+| MBA Apps (Composite) | **+1.8% WoW** (Apr 10 wk) | Apr 10 wk | MBA | 🟡 |
+| MBA Purchase Index | **-1% WoW; -3% YoY** (purchase demand still weak) | Apr 10 wk | MBA | 🔴 |
+| MBA Refi Index | **+5% WoW; +15% YoY** (rate dip triggered refi bounce; refi share 45.5%) | Apr 10 wk | MBA | 🟡 |
+| MBA 30yr Contract Rate | **6.42%** (lowest in a month; -9bps WoW from 6.51%) | Apr 10 wk | MBA | 🟠 |
 | Existing Home Sales (SAAR) | **3.98M** (-3.6% MoM, lowest since Jun 2026) | Mar 2026 | NAR | 🔴🔴 |
 | Existing Median Price | **$408,800** (+1.4% YoY, 33rd consec. increase, Mar record) | Mar 2026 | NAR | 🟢 |
 | Existing Inventory | **4.1 months** (3.0% MoM, 4-month high — slight easing) | Mar 2026 | NAR | 🟡 |
@@ -80,14 +83,14 @@ U.S. housing is in a slow-motion stress event masked by headline price resilienc
 ### Builder Distress
 | Metric | Value | As Of | Source | Status |
 |--------|-------|-------|--------|--------|
-| NAHB HMI | **38** (23rd consecutive month <50) | Mar 2026 | NAHB | 🔴 |
-| NAHB HMI Apr | **NOT YET RELEASED** (scheduled Apr 15) | — | NAHB | — |
-| HMI Current Sales | **42** | Mar 2026 | NAHB | 🟠 |
-| HMI Expected Sales | **49** (+2 from Feb) | Mar 2026 | NAHB | 🟠 |
-| HMI Buyer Traffic | **25** (+3 from Feb) | Mar 2026 | NAHB | 🔴 |
-| Builder Price Cuts | **37%** (down from 41% Nov peak, up from 36% Feb) | Mar 2026 | NAHB | 🔴 |
-| Avg Price Reduction | **6%** (stable) | Mar 2026 | NAHB | 🟠 |
-| Sales Incentives | **64%** (12th consec. month >60%) | Mar 2026 | NAHB | 🔴 |
+| NAHB HMI | **34** ⬇️ (-4pts; 7-mo low; missed est. 37; 24th consec. month <50) | Apr 2026 | NAHB | 🔴 |
+| HMI Current Sales | **37** (-4pts from 42 Mar) | Apr 2026 | NAHB | 🔴 |
+| HMI Expected Sales (6mo) | **42** (-7pts from 49 Mar — SHARP DROP) | Apr 2026 | NAHB | 🔴 |
+| HMI Buyer Traffic | **22** (-3pts from 25 Mar) | Apr 2026 | NAHB | 🔴🔴 |
+| Builder Price Cuts | **36%** (down 1pp from 37% Mar; Apr 2026) | Apr 2026 | NAHB | 🔴 |
+| Avg Price Reduction | **5%** (down from 6% Mar) | Apr 2026 | NAHB | 🟠 |
+| Sales Incentives | **60%** (13th consec. month ≥60%; down from 64% Mar) | Apr 2026 | NAHB | 🔴 |
+| Builder Material Cost Impact | **60%** reporting supplier increases; avg **+6.3%** = **$10,900/home** from tariffs | Apr 2026 | NAHB | 🔴 |
 | Lennar Gross Margin | **15.2%** (lowest since 2010) | Q1 FY2026 | LEN | 🔴 |
 | DHI Gross Margin | **20.4%** (reported; Q1 FY2026) — Q2 guidance **19.0-19.5%** | Q1 FY2026 | DHI | 🟠 |
 | DHI Q2 FY2026 Earnings | **Scheduled Apr 21** — next builder data point | Apr 21 | DHI | — |
@@ -99,8 +102,9 @@ U.S. housing is in a slow-motion stress event masked by headline price resilienc
 | State | Key Metric | Value | As Of | Status |
 |-------|-----------|-------|-------|--------|
 | **FL** | Foreclosures YoY | **+190%** | Q4 2025 | 🔴🔴 |
-| **FL** | FC Starts (Feb) | **3,250** (#2 nationally; TX now leads) | Feb 2026 | 🔴 |
-| **FL** | FC Rate (Feb) | **1 in 2,277** HU (Lakeland worst nationally: 1 in 1,075) | Feb 2026 | 🔴 |
+| **FL** | FC Starts Q1 2026 | **10,099** (#2 nationally; TX leads with 10,617) | Q1 2026 | 🔴 |
+| **FL** | REO Q1 2026 | **1,014** (from 487 Q1 2025 — **+108% YoY**; greatest % rise nationally) | Q1 2026 | 🔴🔴 |
+| **FL** | FC Rate | **1 in 750 HU** (3rd worst nationally; IN: 1/739, SC: 1/743) | Q1 2026 | 🔴 |
 | **FL** | Condo Inventory | **13.2mo** (was 8.8mo; SFH 5.6mo) | Q1 2026 | 🔴🔴 |
 | **FL** | Condo Prices YoY | **-6.1%**, 92% of major condo mkts declining | Q1 2026 | 🔴 |
 | **FL** | Insurance Premiums | **181% above national avg** | 2026 | 🔴🔴 |
@@ -108,7 +112,7 @@ U.S. housing is in a slow-motion stress event masked by headline price resilienc
 | **FL** | Migration | **-93% inflow** from 2022 peak | 2026 | 🔴 |
 | **FL** | Rent (Tampa) | **-1.4% YoY** (one of worst nationally) | Feb 2026 | 🔴 |
 | **TX** | Foreclosures YoY | **+45%** | Q4 2025 | 🟠 |
-| **TX** | FC Starts (Feb) | **3,390** (NOW LEADS NATION over FL) | Feb 2026 | 🔴 |
+| **TX** | FC Starts Q1 2026 | **10,617** (LEADS NATION; highest state Q1 2026) | Q1 2026 | 🔴 |
 | **IN** | FC Rate | **Worst in nation** (Feb 2026; Indianapolis top 5 nationally) | Feb 2026 | 🔴 |
 | **NV** | Sale Fallthrough | **19%** (Las Vegas) | 2026 | 🟠 |
 | **CA** | Fire/Uninsured Risk | **150K+ HH uninsured** | 2026 | 🟠 |
@@ -151,21 +155,20 @@ U.S. housing is in a slow-motion stress event masked by headline price resilienc
 |------|-------|--------|
 | **✅ Apr 9** | Freddie PMMS (Apr 9) | **DONE:** 6.37% — eased from 6.46% Apr 2 high |
 | **✅ Apr 13** | NAR Existing Home Sales (Mar) | **DONE:** 3.98M SAAR (-3.6% MoM), approaching 🔴 <4.0M threshold |
-| **Apr 14** | JPM earnings | Consumer credit + mortgage commentary |
-| **Apr 15** | NAHB HMI (Apr) | Builder sentiment — tariff/rate fear response? |
-| **Apr 15** | MBA Apps (wk ending Apr 11) | Next weekly read — was -0.8% Apr 3 wk |
-| **Apr 17** | Freddie PMMS (Apr 17) | Rate trajectory update |
+| **✅ Apr 15** | NAHB HMI (Apr) | **DONE:** 34 (-4pts, 7-mo low, missed est. 37; tariff shock: $10,900/home cost) |
+| **✅ Apr 16** | MBA Apps (wk ending Apr 11) | **DONE:** +1.8% composite; Purchase -1% WoW/-3% YoY; Refi +5% WoW/+15% YoY; rate 6.42% |
+| **✅ Apr 16** | ATTOM Q1+Mar 2026 Foreclosure | **DONE:** Q1 118,727 filings (+26% YoY); Mar 45,921 (+28% YoY); REO +45% YoY; FL REO +108% YoY |
+| **✅ Apr 16/17** | Freddie PMMS (Apr 17) | **DONE:** 6.30% (down from 6.37%; 15yr 5.65%; year-ago 6.83%) |
 | **Apr 21** | DHI Q2 FY2026 earnings | Cancellation rates, margin guidance, demand commentary |
 | **Apr 23** | PHM PulteGroup Q1 earnings | Margin, cancellation, demand |
 | **Apr 28** | Case-Shiller (Feb data) | Price deceleration continuing? Tampa path? |
+| **Apr 28** | Rithm/NewRez Q1 earnings | Test "DQ reversal in Q1" claim (KB-HMR-048) |
 | **Apr 29** | Census Mar Housing Starts (delayed) | DELAYED from Apr 17 — monthly construction data |
 | **Late Apr** | Fannie Mae Mar Monthly Summary | Fannie MF DQ 0.74% → GFC breach (0.80%)? CRITICAL |
 | **May 5** | Census New Home Sales (Feb + Mar) | DELAYED release — two months of builder demand data |
 | **~Q2** | MBA Q1 NDS release | Q1 2026 DQ data — 90+/FC pipeline update |
-| **~Q2** | ATTOM Q1 foreclosures (quarterly) | Q1 filings/completions quarterly summary |
 | **Weekly** | Freddie PMMS (Thursdays) | Rate trajectory |
 | **Weekly** | MBA Apps (Wednesdays) | Purchase/refi demand signal |
-| **Monthly** | ATTOM foreclosure monthly | Mar data expected ~mid-Apr; Feb was 38,840 (+20% YoY) |
 
 ---
 

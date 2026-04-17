@@ -8,6 +8,68 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-04-17 — v2.4: FORECLOSURE PIPELINE CONVERTING + CREDIT CASCADE EXECUTING
+
+### THESIS v2.3 → v2.4
+**Author:** CARL (via Apr 15 data processing — STUE + HOMER sub-agents)
+**Action:** Minor refinement. Vector #10 (Foreclosure) upgraded 4→5. Convergence 57/60 → **58/60 CRITICAL**. Two mechanism confirmations added.
+
+### CONVERGENCE MATRIX — Vector #10 Upgrade
+| Vector | Change | Reason |
+|--------|--------|--------|
+| #10 Foreclosure Acceleration | 🔴 4 → 🔴🔴 **5/5** | ATTOM Q1 2026 (rel Apr 16): **Q1 REO completions 14,020 (+45% YoY)**. Previously the 878K 90+/FC pipeline was ACCUMULATING (inflow > outflow). Q1 2026 is first quarter at-scale CONVERSION — cure collapse (-40%) now translating to actual completions. Regime change, not incremental. FL Q1 REO +108% YoY (greatest nationally). Q1 filings 118,727 (+26% YoY). March monthly 45,921 filings (+18% MoM). |
+
+### PREDICTION UPDATES
+
+**CRL-04 — Student Loan 90+ DQ breaches 10%**
+- **Confidence: 97% → 98%** (OPEN-NEAR CONFIRMED)
+- **Evidence:** FICO Spring 2026 (data Apr 17): SL DQ rate now ~9.8% (up 25% from 7.9% Apr 2025). 6.1M borrowers with SL DQ reported Feb-Apr, avg score drop -69pts (25% saw -100pt+).
+- **Counter-signal (minor):** Sweet v. McMahon Apr 15 ruling triggers ~271K tradeline deletions — credit RECOVERY for bounded cohort (~3% of defaulted borrowers). Directionally opposite but magnitude insufficient to move aggregate.
+- **Near-term test:** NY Fed Q1 2026 QHDC (~May-Jun).
+
+**CRL-06 — Foreclosures exceed 70K/quarter**
+- **Confidence: 70% → 78%**
+- **Evidence:** Q1 2026 ATTOM: 82,631 FC starts (already >70K on starts basis), 118,727 filings (+26% YoY), 14,020 REO (+45% YoY). Depending on threshold interpretation, may be CONFIRMED at starts level. Q2 projection likely higher on FL judicial lag.
+
+### NEW MECHANISM / FLOW ENTRY
+
+**FLOW-CARL-12.04 — Foreclosure Pipeline → REO Conversion → Bank Loss Realization (Path C Activation)**
+- **Status:** ACTIVATING-RED (new)
+- **Pathway:** Borrower 90+ DQ → cure rate collapse → foreclosure filing → legal process 3-12mo → REO completion → actual loss realized → NCO line → earnings hit → bank tightens → consumer denied. Non-bank servicer variant: Ginnie advance drain → warehouse line stress → potential failure (MFS UK template).
+- **Why it matters:** Path C (Housing → Banks) previously theoretical, now mechanically active. Q1 bank earnings cluster (Apr 17-28: CFG/PNC/RF/FITB/MTB) = first visibility window for provision build on mortgage/CRE.
+
+### STUDENT LOAN VECTOR CONFIRMATIONS
+
+- **Sweet v. McMahon Apr 15 deadline MISSED** — DOE did not comply. Auto Full Relief triggered for ~170K non-Exhibit C borrowers. Combined with Exhibit C (missed Jan 28 ~170K), total ~271K. Self-executing, no stay. NOT thesis invalidation (court-compelled, bounded cohort).
+- **SAVE judicially dead** — 8th Cir Mar 10 reversed + entered final judgment. Dual-elimination (legislative WFTCA Jul 2025 + judicial Mar 2026). Jul 1 transition locked.
+- **AFT v. MOHELA in discovery** — Next status conf May 28. Three concurrent class actions active.
+
+### NEW VECTORS (VX)
+
+- **VX-CARL-HSG-05** — Foreclosure Pipeline Quarterly REO Completions (14,020 Q1 2026, RED)
+- **VX-CARL-BLDR-01** upgraded to RED (HMI 38 → 34, breaches <40 threshold; new tariff cost shock +$10,900/home)
+- **VX-CARL-HSG-01** updated (PMMS 6.37% → 6.30%)
+- **VX-CARL-SL-02** updated (SL 90+ DQ ~9.8% per FICO Spring 2026)
+- **VX-CARL-6.06** updated (FL Q1 REO +108% YoY, judicial state completion wave)
+
+### KB ENTRIES ADDED
+
+KB-CARL-215 through KB-CARL-221 (7 entries): Sweet v. McMahon ×2, DOE motion context, SAVE judicial death, FICO Spring 2026 cascade, MOHELA discovery, NAHB HMI April, ATTOM Q1 Foreclosures.
+
+### HONEST ASSESSMENT
+
+**Strengthened:** Mechanism confirmations — pipeline conversion (HSG), credit cascade execution (SL), Vector 10 upgrade defensible (not self-inflicted).
+**Unchanged:** Market-transmission leg (HY OAS 294bps tight, SPX not in crisis, JPM Q1 benign). Complacency gap persists or widens.
+**Counter-signal:** Sweet ruling produces credit RECOVERY for ~271K — directionally opposite the cascade. Small but directionally notable.
+
+### TRIGGER FOR NEXT VERSION BUMP
+
+- Q1 bank earnings cluster (Apr 17-28) confirming Path C provision build → v2.5 with full Path C activation upgrade.
+- OR SYF Q1 Apr 21 breaching >6% NCO → credit cascade confirmed at issuer level.
+- Reversal criterion: bank earnings downplay stress AND SYF NCO <5.0% → thesis mechanism questioned.
+
+---
+
 ## 2026-04-14 — v2.3: FED LOCK MECHANISM + SUBPRIME AUTO CURE COLLAPSE CONFIRMED
 
 ### THESIS v2.2 → v2.3
