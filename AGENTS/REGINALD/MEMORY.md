@@ -36,12 +36,33 @@
 
 ## Session Notes
 
-⚠️ **Open question:** FITB + RF Q1 headlines are out (FITB $0.83 EPS / $2.86B rev miss; RF $0.57 EPS / $1.92B miss BOTH). Will is pulling PDFs. Need to mine for: (a) FITB $2.95B Consumer Warehouse sub-bucket language → Tricolor-adjacent stress → WAL V3 read-across; (b) RF consumer NCO >0.75% w/ card >4.20% → first regional CARL confirmation; (c) FITB/RF Q1 period-end FHLB → universal (quarter-end mechanical) or bifurcated (stress-specific); (d) FITB provisions direction (release vs build) — CFG-like or MTB/PNC-like? WAL re-breached $78 at Apr 17 08:26 ET ($77.29 -1.55%). Cohort is now 5/5 with a pattern shift: beat-fade (3/3) → miss (2/2).
+⚠️ **Open question:** FITB transcript + press release fully mined (findings in `FITB/Q1_2026_ANALYSIS.md`). **Headline thesis hold:** FHLB cohort intact at 3/4 surge + 1/4 deal-driven escape; FITB -96% QoQ is Comerica-specific ($65B deposits + $2B Jan LT debt), not organic. Tim Spence's "80% vs 10%" PE/private-capital growth quote creates orthogonal pressure vector on WAL/OZK/ZION Apr 21. FITB NDFI = 7% loans, <1% PC/BDC, $100M data center (smallest in cohort). Pre-earnings clean-balance-sheet baseline holds. **Pending:** FITB 8-K (5.6MB) + deck (1.6MB) — period-end FHLB, NDFI slide 19, line utilization. **RF = clean FHLB test** (no merger, no deposit infusion). WAL re-breached $78 at Apr 17 08:26 ET. Checkpoint before /clear — next session boots fresh with analysis file as starting context.
 
 ### CHANGES SINCE LAST SESSION
 *(populated at next boot via market.py)*
 
-### LAST SESSION (Apr 16 PM — cohort refresh for WAL + OZK Apr 21 prep)
+### LAST SESSION (Apr 17 AM — FITB transcript + press release mined, checkpoint before /clear)
+
+**FITB Q1 2026 synthesis complete** — `FITB/Q1_2026_ANALYSIS.md` (NEW, comprehensive). Read FITB transcript (241 lines) + press release (92,881 chars via pdfminer). Did NOT read 8-K (5.6MB) or deck (1.6MB) — deferred to next session to manage context.
+
+**Key findings persisted in analysis file:**
+1. **FHLB thesis reframe** — FITB -96% QoQ ($4,767M → $99M avg) is DEAL-DRIVEN (Comerica $65B deposits paid down advances + $2B Jan LT debt). FITB was in cohort surge pattern Q4 (2x YoY). **Cohort: 3/4 surge + 1/4 escape. RF is clean test.**
+2. **Tim Spence's "80% vs 10%" quote** — weaponized FITB's low PE/private-capital growth mix against peers. New analyst hook for WAL/OZK/ZION Apr 21, orthogonal to warehouse/NDFI.
+3. **Credit merger-moderate** — provision $227M incl. $83M Day1 Comerica; ex-Day1 $144M. ACL% 1.79% (from 1.96%) is denominator effect, not release. NCO 37bps with $21M excluded at merger. Pre-earnings "cleanest balance sheet" baseline holds.
+4. **NDFI smallest in cohort** — 7% loans, <1% PC/BDC, <$100M data center. No NDFI table in press release.
+5. **Consumer Warehouse / Tricolor-adjacent DORMANT** — not raised by any analyst, not disclosed in PR. Free pass for FITB's $2.95B sub-bucket. **Read-through for WAL V3:** warehouse composition likely also escapes direct interrogation Apr 21.
+6. **TBV +15% YoY, no dilution** — $12.3B equity issued for Comerica didn't dilute TBV/share because deal was accretive. CET1 -85bps QoQ to 9.96% is pure RWA effect.
+7. **Geopolitics** — Tim cited Iran war, applied qualitative ACL adjustment for energy/commodity costs. Baseline/downside unemployment 4.5%/8.5% in 2027. Cautious tone.
+
+**Files updated this session:**
+- `STATUS.md` — Apr 17 08:55 ET timestamp, FITB+RF headline block (5/5 cohort), earnings wave table rows updated with actuals, cohort pattern shift (beat-fade → miss)
+- `CALENDAR.md` — FITB/RF rows updated with actuals
+- `FITB/Q1_2026_ANALYSIS.md` — NEW synthesis file (will be read at next boot)
+- `MEMORY.md` — this rewrite
+
+**Git:** 1 prior commit this session (97ac6440, headlines). This checkpoint commit covers analysis file + MEMORY.
+
+### Prior session — Apr 16 PM (cohort refresh for WAL + OZK Apr 21 prep, archived)
 
 **WAL + OZK Apr 21 earnings prep fully refreshed with Apr 15-17 cohort read-throughs:**
 - `WAL/EARNINGS_PREP.md` (231 → 356 lines) — added COHORT READ-THROUGHS section (MTB/CFG/PNC + FITB/RF baselines). Pass 1: removed stale "OZK Apr 16" references (now same-day Apr 21), updated price $67→$78.23. Pass 2 findings folded: V1 table added "Table 14 bucket changes" tripwire; V3 table added "Multi-bucket NDFI undercount" row; added "Analyst Q&A forced-disclosure probability" paragraph.
@@ -107,9 +128,11 @@
 **Git:** 1 commit pushed to GitHub. CFG source PDFs local only (not committed). Transcript committed.
 
 ### NEXT SESSION
-1. **Integrate FITB + RF Q1 actuals (released/releasing this morning, Apr 17).** FITB ~6:30 AM release / 10:00 AM call. RF BMO / 10:00 AM call. Test cohort patterns: (a) FITB $2.95B Consumer Warehouse bucket stress? (b) RF consumer NCO >0.75% with card >4.20%? (c) Q1 period-end FHLB — universal or bifurcated?
-2. **Update `FITB/WAL_READTHROUGH.md` with actuals.** If FITB signals Consumer Warehouse stress or names "Tricolor/subprime auto/auto ABS" on call, fire WAL V3 analyst-question prep for Apr 21 and consider adding small Sep put pre-print. If clean, V3 remains latent.
-3. **WAL + OZK Apr 21 earnings prep continues** (4 days out). Cohort-informed EARNINGS_PREP files are A-grade. Final pre-call checklist: pull WAL FY2025 10-K Table 16 bucket-level snapshot now to test reclassification tripwire pre-call (new sub-lines carved out of Finance/Insurance or Professional Services = signal before provision build).
-4. **DB positioning risk for Apr 21** — financials at -1.5 to -2 z while consensus +20-40% earnings growth. Crowded-short unwind risk if WAL/OZK beat. Factor into sizing.
-5. **ABS finance reclassification test (back-burner)** — pull CFG FY2024 10-K Table 14 from EDGAR. Did "ABS finance" exist as line item? If absent, $1.8B is reclassification, not new growth.
-6. **Outbox:** OTTO reply on Tricolor/Apollo Atlas SP read-across queued for HERMES delivery.
+1. **Boot reads `FITB/Q1_2026_ANALYSIS.md` first** — full synthesis from this session. Don't re-mine transcript/press release.
+2. **FITB 8-K (5.6MB, unread)** — `FITB/sources/FITB 8-k April 26.pdf`. Mine for: period-end FHLB balance (vs avg $99M), Schedule RC-type detail, any NDFI table (PR had none), any warehouse/securitization line items, MI3-equivalent disclosure. Use pdfminer with chunked reads.
+3. **FITB presentation deck (1.6MB, unread)** — `FITB/sources/Fifth-Third-Bancorp-Presentation-Q126-Final.pdf`. Slide 19 equivalent for NDFI breakdown (pre-earn baseline was $9.5B / 8% / 6-way %), line utilization detail, credit composition charts, any auto warehouse / Tricolor-adjacent language in footnotes.
+4. **All 4 RF docs** (when Will drops them) — RF is the CLEAN FHLB test (no merger, no deposit infusion). Test: RF FHLB up = thesis reconfirmed 4/5; RF FHLB flat/down = thesis narrows. Watch consumer NCO (baseline: card 4.08% 5Q high, >4.20% = CARL confirmation), any NDFI disclosure (baseline: zero).
+5. **WAL + OZK Apr 21 earnings prep — final pre-call checklist** (4 days out Monday). Add Tim Spence's "80% vs 10%" PE/private-capital growth quote as a NEW analyst hook to both EARNINGS_PREP files. Pull WAL FY2025 10-K Table 16 bucket-level snapshot pre-call for reclassification tripwire test.
+6. **Update `FITB/WAL_READTHROUGH.md` with actuals** — Consumer Warehouse was DORMANT at FITB (no analyst pressure). Note free-pass read-through for WAL Apr 21; V3 remains latent unless 8-K/deck surface something.
+7. **DB positioning risk for Apr 21** — financials at -1.5 to -2 z; crowded-short unwind risk if WAL/OZK beat. Size conservatively.
+8. **Outbox:** OTTO reply on Tricolor/Apollo Atlas SP read-across still queued for HERMES delivery.
