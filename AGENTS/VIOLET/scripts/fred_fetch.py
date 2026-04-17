@@ -14,10 +14,12 @@ CACHE_DIR = Path(__file__).resolve().parent.parent / "workbook" / "fred_cache"
 def fetch_series(
     series_id: str,
     start: str = "2024-10-01",
-    end: str = "2025-04-01",
+    end: str | None = None,
     *,
     force: bool = False,
 ) -> pd.DataFrame:
+    if end is None:
+        end = date.today().isoformat()
     CACHE_DIR.mkdir(parents=True, exist_ok=True)
     cache_file = CACHE_DIR / f"{series_id}_{start}_{end}.csv"
 
@@ -54,7 +56,7 @@ if __name__ == "__main__":
     import argparse
     p = argparse.ArgumentParser()
     p.add_argument("--start", default="2024-10-01")
-    p.add_argument("--end", default="2025-04-01")
+    p.add_argument("--end", default=date.today().isoformat())
     p.add_argument("--force", action="store_true")
     args = p.parse_args()
 
