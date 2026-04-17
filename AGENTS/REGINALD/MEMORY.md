@@ -36,7 +36,7 @@
 
 ## Session Notes
 
-⚠️ **Open question:** What do FITB + RF Q1 actuals (releasing today, Apr 17) say about the cohort patterns? Specifically: (a) does FITB's $2.95B Consumer Warehouse sub-bucket show Tricolor-adjacent stress → WAL V3 read-across? (b) does RF's consumer NCO cross >0.75% with credit card >4.20% → first regional CARL confirmation? (c) does Q1 period-end FHLB for FITB/RF confirm universal (quarter-end mechanical) or bifurcated (stress-specific) surge? WAL re-breached $78 at Apr 17 08:26 ET ($77.29 -1.55%).
+⚠️ **Open question:** FITB + RF Q1 headlines are out (FITB $0.83 EPS / $2.86B rev miss; RF $0.57 EPS / $1.92B miss BOTH). Will is pulling PDFs. Need to mine for: (a) FITB $2.95B Consumer Warehouse sub-bucket language → Tricolor-adjacent stress → WAL V3 read-across; (b) RF consumer NCO >0.75% w/ card >4.20% → first regional CARL confirmation; (c) FITB/RF Q1 period-end FHLB → universal (quarter-end mechanical) or bifurcated (stress-specific); (d) FITB provisions direction (release vs build) — CFG-like or MTB/PNC-like? WAL re-breached $78 at Apr 17 08:26 ET ($77.29 -1.55%). Cohort is now 5/5 with a pattern shift: beat-fade (3/3) → miss (2/2).
 
 ### CHANGES SINCE LAST SESSION
 *(populated at next boot via market.py)*

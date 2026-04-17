@@ -1,6 +1,6 @@
 # REGINALD CALENDAR
 
-**Last Updated:** 2026-04-17 08:26 ET | **View:** Forward-looking only. Past events pruned weekly.
+**Last Updated:** 2026-04-17 08:55 ET | **View:** Forward-looking only. Past events pruned weekly.
 
 ---
 
@@ -14,8 +14,8 @@
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |------|-------|---------------|-------------------|-----------|
-| **Apr 17 — TODAY** | **FITB Q1 earnings** (~6:30 AM release, 10:00 AM call) | $2.95B Consumer Warehouse / Securitization Vehicles sub-bucket; FHLB Q1 period-end; reclassification of Table 29; consumer credit. | WAL read-through: `FITB/WAL_READTHROUGH.md`. OTTO read-through: did FITB build reserves on auto warehouse after Q3 2025 $170-200M Tricolor loss? | OTTO, CARL, REGINALD (WAL V3) |
-| **Apr 17 — TODAY** | **RF Q1 earnings** (BMO release, 10:00 AM call) | Consumer NCO trajectory (total DQ 0.70% flat YoY; credit card 4.08%; other consumer 2.97%); FHLB trajectory (was -30% YoY); any NDFI disclosure (prior: ZERO — worst in cohort). | Total consumer NCO >0.75% w/ credit card >4.20% = first regional CARL confirmation. | CARL, CORAL (52% branches FL/TN/AL) |
+| **Apr 17 — TODAY (headline OUT)** | **FITB Q1: EPS $0.83, Rev $2.86B (miss $50M)** — 9:00 AM call | PDF pending Will pull: provisions, NCO comp, FHLB Q1 period-end, $2.95B Consumer Warehouse sub-bucket language | EPS +17% YoY but -20% QoQ; rev miss. Slight miss vs clean consensus. | OTTO, CARL, REGINALD (WAL V3) |
+| **Apr 17 — TODAY (headline OUT)** | **RF Q1: EPS $0.57 (miss $0.04), Rev $1.92B (miss $20M)** — 10:00 AM call | PDF pending: consumer NCO (>0.75%? card >4.20%?), FHLB trajectory, any forced NDFI disclosure | **First outright miss of cohort.** Consistent with highest-opacity baseline. | CARL, CORAL (52% branches FL/TN/AL) |
 
 ## WEEK OF APR 20 — PEAK EARNINGS (POSITION NAMES)
 
