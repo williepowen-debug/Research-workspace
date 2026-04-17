@@ -28,6 +28,7 @@
 - **Vol-control layer:** VIX <23 = mechanical buying; currently INACTIVE (sellers, not selling-pressure)
 - **0DTE share:** *PENDING LIVE PULL* (baseline ~60% SPX volume)
 - **GEX regime:** *PENDING LIVE PULL* (above gamma flip ~6,902 = dealer-long-gamma, suppressive)
+- **MOVE / HY OAS bracket (LIQUID Apr 10):** MOVE collapsed post-Mar shock; bond positioning "light." HY OAS <300 = squeeze path (current, 285); >340 = stress path w/ violent MOVE catch-up + risk-parity dual-leg delever. 15bps to bracket breakout.
 
 *Next refresh: pull VIX1D/VX1M/VX2M from fetch.py; SpotGamma GEX via WebSearch.*
 
@@ -43,6 +44,7 @@
 | ISM Mfg | 52.7 | <50 | <48 | **<47** | → LABOR, PROME |
 | 10Y Yield | 4.26% | >4.5% | >4.8% | **>5.0%** | → LIQUID (term premium crisis) |
 | HY OAS | 285bps | >320 | >400 | **>500** | → credit-equity transmission |
+| CCC-BB Spread | ~800bps (Apr 2) | >750 | >900 | **>1100** | → dispersion canary (pre-Apr 21) |
 | USD/JPY | 159.18 | >160 | >162 | **>165** | → SAM (carry unwind) |
 
 ---
@@ -86,12 +88,22 @@
 - ✅ ISM Services Employment 45.2 (lowest since Dec 2023) + JOLTS hiring 3.1% (lowest since Apr 2020) = **LABOR internals breaking under surface**
 - ✅ ISM Mfg Prices Paid 78.3 (highest since Jun 2022) = stagflation, not expansion
 - ✅ Gas $4.12 + consumer sentiment 53.3 = consumer double-bind
+- ✅ March PPI +4.0% YoY headline (highest since Feb 2023), Core +3.8% — Fed-can't-cut print, though core-core +0.2% MoM cooler (goods/energy shock, not broad)
 
 *Counter-signals / invalidation watch:*
-- ⚠️ VIX 18.6 + HY OAS 285 = credit NOT confirming stress yet
+- ⚠️ VIX 18.6 + HY OAS 285 = credit NOT confirming stress yet (but CCC-BB dispersion vertical: 700→800bps Jan→Apr 2, mask effect)
 - ⚠️ SPX 7,038 above Feb high = structural bid intact (buybacks + passive flows)
 - ⚠️ KRE $68.93 = regional banks have NOT cracked
+- 🕒 Econ Surprise 0.338 (Apr 2, highest since late 2023) = longer lag before stress shows, sharper break when it does — April data prints are the test
 - **Invalidates if:** HY OAS <260 sustained + VIX <15 + SPX >7,100 held 5+ sessions
+
+---
+
+## APR 21 SETUP — POSITIONING ASYMMETRY
+
+- **HF short-cover whipsaw (GS Prime):** Week ending Apr 4, HFs covered single-stock + macro shorts fastest pace since 2020. Prior week was fastest *sold* in 13 years — violent reversal, not conviction. Trigger = Trump Iran ceasefire, now dead (Islamabad collapsed Apr 12, Hormuz blockade). Funds covered into optimism that evaporated = wrong-footed into Apr 21.
+- **Financials positioning gap (DB/ISABELNET):** High-freq financials positioning at multi-year lows (-1.5 to -2z) while consensus earnings growth +20-40% YoY. Widest divergence since 2020. Resolves OZK + WAL + ZION Apr 21 AMC.
+- **Binary magnitude:** Both tails fatten. Beat → short-squeeze (HFs still underweight financials). Miss → deeper crack (positioning correct, covered broad shorts re-risk into weakening tape).
 
 ---
 

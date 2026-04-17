@@ -23,12 +23,18 @@ Market is derivatives-driven, dealer hedging dominates short-term dynamics. Thre
 - ✅ Vol-control deleveraging ACTIVE — VIX 26.43 (Mar 3)
 - ✅ Beige Book confirms all 8 thesis pillars (Mar 4)
 
-**Invalidated if:**
-- SPX sustains above 7,000 for 5+ sessions (new high regime)
-- HY OAS reverses below 260bps sustained
-- Employment strengthens (claims <220K + NFP >200K sustained)
-- VIX compresses below 15 sustained (complacency returns)
-- BTFP 2.0 or equivalent Fed backstop announced
+**Invalidated if (TRIPLE-AND, per STATUS.md Apr 17 — tightened from single-condition OR):**
+- HY OAS <260 sustained **AND** VIX <15 sustained **AND** SPX >7,100 held 5+ sessions
+- OR: Employment strengthens (claims <220K + NFP >200K sustained) — independent falsifier
+- OR: BTFP 2.0 / equivalent Fed backstop announced — policy reset
+
+**Amber (partial falsification, thesis weakens but not dead):**
+- Any single condition of the triple-AND firing alone
+- SPX currently at 7,038 (above 7,000 but below 7,100 bracket) = amber-active
+- VIX currently 18.6 (above 15) = no vol-side confirmation yet
+- HY OAS 285 (above 260) = credit NOT confirming complacency
+
+**Apr 17 state:** Thesis evolved from "gamma cascade" (Mar selloff) to "complacency trap" (Apr compression). Mar validations below are historical — the live thesis is about the round-trip creating asymmetric setup for Apr 21-30 resolution window.
 
 ---
 
