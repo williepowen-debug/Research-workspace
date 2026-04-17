@@ -36,7 +36,9 @@
 
 ## Session Notes
 
-⚠️ **Open question:** Apr 21 (4 days out — 2 trading days) WAL + OZK earnings sizing/positioning decision. **Crowded-short unwind is activating pre-print** (RF missed both lines and rallied +3.8%; all regionals up 2-5% today on Brent -10% / Hormuz de-escalation headlines). Market punishing thesis confirmation, not earnings misses. Four-thread investigation plan teed up in NEXT SESSION to sharpen Monday decision. **Checkpoint before /clear** — RF mining complete, investigation plan pre-loaded.
+⚠️ **Open question:** Apr 21 (2 trading days away) WAL + OZK sizing decision. Threads 2+3 done: OZK shorts crowded & pressing, WAL positioning flipped (late-Feb covering, fresh Apr shorts); OZK PT runway is GONE (street low $40 = thesis), WAL PT runway STILL LONG (street low $75 vs thesis $47 = 37% unearned). UBS flipped Strong Buy $106 → Hold $75 on Apr 7 — biggest bull folded 2 weeks pre-print. Setup: WAL = squeeze-vs-cascade binary with PT runway; OZK = catalyst-dependent, no analyst cushion. Strike/duration check TBD in final synthesis.
+
+**Thread 2 + Thread 3 synthesis:** `research/outputs/RQ-AD-HOC-APR17-PT-AND-SI.md` (full analysis, gap math, verdicts).
 
 ### CHANGES SINCE LAST SESSION
 *(populated at next boot via market.py)*
