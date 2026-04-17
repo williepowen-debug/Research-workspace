@@ -103,6 +103,7 @@
 
 ## SUPPLY DISRUPTION SNAPSHOT (UPDATED APR 10)
 
+### Crude off market
 | Producer/Facility | Crude Off Market | Status |
 |----------|-----------------|--------|
 | Iraq | ~3.0M bpd | Hormuz closure impact |
@@ -111,6 +112,16 @@
 | Qatar | ~0.7M bpd + 77 MTPA LNG | **PERMANENT FM** — 13M t/yr removed |
 | Iran Kharg Island | **~1.5M bpd** | **STRUCK Apr 7** — 90% Iran export capacity |
 | **TOTAL** | **~9-11M bpd equiv disrupted** | Persistent even with ceasefire |
+
+### Refining bottleneck (Mar–Apr 2026, **new vector**)
+Global refining stress is **undercounted** in the above crude table. Living ledger: `refinery_damage/TRACKER.md` + `refinery_damage/INCIDENTS.tsv` (20 ACTIVE/PARTIAL incidents, ~6.6M bpd product-side offline). Highlights:
+- **Valero Port Arthur (TX) — 380K bpd** offline since Mar 23 explosion; diesel hydrotreater down; partial restart Apr 16, key unit still offline. 415K bpd gross impact (WoodMac).
+- **Viva Energy Geelong (AU) — 120K bpd** — gas leak + multiple explosions Apr 15-16; mogas section damaged.
+- **Pemex Dos Bocas (MX) — 340K bpd target** — 4 safety incidents in 23 days (Mar 17 fatal + Apr 9 coke warehouse); refinery staying well below capacity target.
+- **Russian refineries — 15 hit in March alone** (Syrskyi, Apr 15) — Kirishi, Ufa, Tuapse, Nizhny Novgorod, Ust-Luga.
+- **Gulf refineries (war-damage)** — Ras Tanura, Samref, Satorp 460K bpd units halted, Mina Al-Ahmadi, Ruwais, Bazan/Haifa, Ras Laffan LNG (see tracker).
+
+**Thesis implication:** refinery damage = **product-side** supply shock on top of crude shock. Crack spreads (3-2-1 at $28.91 early March, ULSD crack $25.83, jet crack $92+) stay elevated longer than crude price on Phase-2 unwind. **Refiner equities (VLO, MPC) may decouple from crude on the downside.** Pump prices stay >$4 longer than futures-implied.
 
 **Key insight from Energy Aspects (Amrita Sen):** "It's a complete mess." Tankers redirected to US; could take until June to redirect back to Middle East.
 
@@ -146,10 +157,11 @@
 | Demand destruction | 🟡 3 | Still not in EIA data; aviation cuts firing |
 | Storage (global) | 🔴 4 | Gulf still filling/full; blockade prevents Iran drawdown |
 | Tanker/shipping | 🟠 3 | Hormuz-open announcement will compress freight + war-risk |
+| **Refining bottleneck** | **🟠 3** | **~6.6M bpd product-side offline: Port Arthur 415K, Ruwais, Satorp, Kharg, Geelong, Kuwait, Dos Bocas, 6 RU refineries (see `refinery_damage/TRACKER.md`)** |
 | Energy credit | 🟡 2 | HY Energy OAS stable (LIQUID owns) |
 | OPEC+ policy | 🟡 3 | No change — next meeting Jun 7 |
 | Ceasefire stability | 🟠 3 | Talk-2 possible this weekend; Lebanon-Israel 10-day CF active; Apr 22 expiry still live |
-| **TOTAL** | **30/50** | Hormuz-open announcement = Phase-2 catalyst; physical dislocation may persist via blockade |
+| **TOTAL** | **33/55** | Hormuz-open announcement = Phase-2 catalyst; product-side stress (refineries) reinforces Phase-1 duration even if crude flushes |
 
 ---
 
@@ -197,7 +209,9 @@
 ## KEY REFERENCES
 - **Demand Destruction:** `demand_destruction/TRACKER.md`
 - **Hamilton Framework:** `demand_destruction/HAMILTON.md`
-- **Facility damage:** `HAWK/domain/OIL_FACILITY_DAMAGE_TRACKER.md`
+- **Refinery damage (living ledger):** `refinery_damage/TRACKER.md` + `refinery_damage/INCIDENTS.tsv`
+- **Refinery snapshot (Apr 17 research):** `research/REFINERY_FIRES_SNAPSHOT_2026-04-17.md`
+- **Refinery utilization / crack spread model (early Mar):** `research/REFINERY_UTILIZATION_MAR2026.md`
 
 ---
 
