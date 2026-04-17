@@ -6,7 +6,19 @@
 
 ---
 
-## BOTTOM LINE (as of 2026-04-13)
+## BOTTOM LINE — UPDATED 2026-04-17
+
+**DEADLINE MISSED. AUTO RELIEF TRIGGERED.**
+
+DOE missed the April 15, 2026 non-Exhibit C deadline. Confirmed via PPSL live case page accessed April 17, 2026: "borrowers who didn't receive decisions by that date are now entitled to full settlement relief, with notifications due by June 15, 2026."
+
+Full Settlement Relief is self-executing. DOE must send eligibility notices by June 15, 2026. Relief delivered within 1 year of notice. ~170,000+ non-Exhibit C post-class borrowers affected.
+
+See `/domain/SWEET_MCMAHON_APR15_OUTCOME.md` for the complete post-deadline analysis.
+
+---
+
+## ORIGINAL BOTTOM LINE (as of 2026-04-13)
 
 **DOE has NOT confirmed issuing decisions or notices to non-Exhibit C post-class applicants.**
 

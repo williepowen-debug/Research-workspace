@@ -160,3 +160,39 @@ After Phase 1 financials (Apr 14-23), assess:
 ---
 
 *Next update: After JPM earnings Apr 14*
+
+---
+
+## APR 17 UPDATE — PRE-SYF BRIEFING (Apr 21, Mon)
+
+**Context added since calendar v1:**
+
+1. **ABS trust-level cure collapse CONFIRMED (Apr 14-16 drill-down).** EART 2024-2 Class E CE **BREACHED** (CNL 13.06% > 7.6% initial). AMCAR Class E ~2mo cushion. SDART Class D ~7mo. Cure rates collapsing industry-wide in subprime auto, NOT in near-prime (Ally stable at 0.56% CNL).
+   - **SYF read-across:** If SYF NCO spikes >6% AND delinquency formation accelerates, trust-level cure collapse pattern is generalizing issuer-level. If SYF NCO normalizes, then subprime auto crack is contained to that silo (weaker thesis).
+
+2. **Student loan credit cascade EXECUTING (Apr 17 STUE update).** FICO Spring 2026: SL 90+ DQ ~9.8% (from 7.9% Apr 2025). 6.1M new DQ Feb-Apr, avg score drop **-69 pts**. This is a direct feeder into CC 90+ DQ (pathway +0.5-1.0pp). SYF is first issuer to print post-FICO data.
+   - **Watch:** Any SYF commentary on "score migration" or "FICO band mix shift" in its receivables.
+
+3. **HY OAS 294bps complacency test #2.** First test (JPM Apr 14) passed without widening. SYF is second test — is credit market priced for CRL-12 breach scenario? Structured credit is already cracking (EART); public HY hasn't noticed.
+
+4. **Tariff + gas context.** SYF guidance was set pre-gas-$4 AND pre-tariff-escalation. Q1 includes March data — full cost squeeze quarter. Management commentary on "payment rates" is the tell.
+
+**SYF SPECIFIC WATCH METRICS (Apr 21):**
+
+| Metric | Threshold | Thesis Signal |
+|--------|-----------|---------------|
+| NCO rate | **>6.0%** | CRL-12 confirmed; guidance forced revision |
+| 30+ DQ | **>5.0%** | RED VX threshold |
+| Period-end loans | Continued shrinkage | Credit tightening accelerating |
+| Receivable growth | Flat/negative vs mid-SD guide | TRAP scenario: loosening into deterioration |
+| "Non-restrictive" timing | Walk-back or delay | Reverses = admits crack |
+| Payment rate | Any deceleration | Cash flow stress upstream of DQ |
+| FICO band mix shift | Any language | Score migration = student loan cascade visible |
+| Guidance revision | **ANY downward** | Thesis confirmed at issuer level |
+
+**Watchlist for Apr 21 same-day earnings:**
+- SYF (primary — CRL-12 test)
+- COF (Discover combined NCO; segment breakouts)
+- DHI Q2 (builder margin + tariff commentary)
+
+*Next update: Post-SYF Apr 21 PM*

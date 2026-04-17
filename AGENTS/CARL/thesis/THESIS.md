@@ -97,7 +97,7 @@ NFP -92K confirmed but claims benign (210K initial, 1,819K continuing). **JOLTS 
 
 ---
 
-## Convergence Score: 57/60 *(canonical — STATUS.md mirrors for dashboard)*
+## Convergence Score: 58/60 *(canonical — STATUS.md mirrors for dashboard)*
 
 | # | Vector | Score | Trend |
 |---|--------|-------|-------|
@@ -110,9 +110,11 @@ NFP -92K confirmed but claims benign (210K initial, 1,819K continuing). **JOLTS 
 | 7 | FL Triple Squeeze | 4 | Strengthening — condo inventory 13.2mo, TX now leads FC starts |
 | 8 | Reverse Wealth Effect | 5 | Active — RV collapse + upper-income pullback. Max. |
 | 9 | K-Shape Converging | 5 | Active — both cohorts deteriorating. Max. |
-| 10 | Foreclosure + Housing | 4 | STRENGTHENING — 878K pipeline, cure rates -40%, 47/50 cities declining |
+| 10 | Foreclosure + Housing | 5 | **Apr 17 UPGRADE:** Q1 2026 ATTOM — 118,727 filings (+26% YoY), **14,020 REO (+45% YoY)**, FL Q1 REO +108% YoY nationally greatest. Regime change: pipeline CONVERTING, not just accumulating. NAHB HMI 34 (7-mo low, tariff +$10,900/home). MBA Purchase -3% YoY despite rate easing. Max. |
 | 11 | SB Bankruptcy + Owner Income | 4 | **Apr 9:** SubV +67% BREACHED, SBA defaults 12-yr high, $73-145B invisible income destruction |
 | 12 | Stagflation Trap / Fed Locked | 5 | **Apr 14 NEW:** UMich 47.6 RECORD LOW. 5-10Y inflation exp UN-ANCHORING at 3.4% (Fed red line). CPI Mar +3.28%. Fed can't cut (un-anchoring), can't hike (sentiment ATL). 1970s analog. Max. |
+
+**Apr 17 update (v2.4):** Vector #10 upgraded 4 → 5. Q1 2026 ATTOM reveals foreclosure pipeline CONVERTING to REO at +45% YoY (14,020 completions), with FL Q1 REO +108% YoY (greatest nationally). This is a regime change from accumulation to completion — cure mechanism failed, pipeline now flushing. NAHB HMI 34 (tariff +$10,900/home) + MBA Purchase -3% YoY despite rate easing confirms demand destruction intact. Path C (housing → banks) transmission probability up. CRL-04 SL breach near-confirmed (FICO Spring 9.8%). CRL-06 FC prediction possibly already confirmed at starts level (82,631 Q1 vs 70K threshold). New FLOW-CARL-12.04 documents Path C activation. Score 57/60 → **58/60 CRITICAL**.
 
 **Apr 14 update:** Vector #12 added. UMich Apr preliminary 47.6 (biggest MoM drop in series). 5-10Y inflation expectations un-anchored at 3.4%. Mechanism: Fed cuts validate un-anchoring → inflation-negative, not stimulus. Fed locked deeper than Mar. RED Stagflation Spiral scenario upgraded. HENRY's "Fed cuts pushed to H2 2027" reinforced. Score 51/55 → **57/60 CRITICAL**.
 

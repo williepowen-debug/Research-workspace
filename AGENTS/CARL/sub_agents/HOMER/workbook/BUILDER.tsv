@@ -1,10 +1,11 @@
 Entity	Metric	Value	Prior	As_Of	Source	Status	Notes
-INDUSTRY	NAHB HMI	38	37 (Feb)	2026-03	NAHB	R	+1pt. 23rd consecutive month below 50. Affordability #1 concern.
-INDUSTRY	HMI Current Sales	42	41 (Feb)	2026-03	NAHB	O	+1pt from Feb.
-INDUSTRY	HMI Expected Sales	49	47 (Feb)	2026-03	NAHB	O	+2pts from Feb. Still below 50.
-INDUSTRY	HMI Buyer Traffic	25	22 (Feb)	2026-03	NAHB	R	+3pts from Feb. Still severely depressed.
-INDUSTRY	Price Cuts (% of Builders)	37%	41% (Nov)	2026-03	NAHB	R	Down from 41% record Nov. Up from 36% Feb. Avg reduction 6%.
-INDUSTRY	Sales Incentives (% of Builders)	64%	65% (Feb)	2026-03	NAHB	R	12th consecutive month >60%. Near-record incentive spending.
+INDUSTRY	NAHB HMI	34	38 (Mar)	2026-04	NAHB	R	-4pts. 7-mo low. 24th consecutive month below 50. Missed est. 37. Tariff+uncertainty shock. Dietz: "majority of builders report material cost increases due to tariffs."
+INDUSTRY	HMI Current Sales	37	42 (Mar)	2026-04	NAHB	R	-5pts from Mar. Demand conditions deteriorating.
+INDUSTRY	HMI Expected Sales (6mo)	42	49 (Mar)	2026-04	NAHB	R	-7pts from Mar. SHARP drop in forward outlook. Below 50 = builders expect poor conditions ahead.
+INDUSTRY	HMI Buyer Traffic	22	25 (Mar)	2026-04	NAHB	R	-3pts from Mar. Severely depressed. Only 22 = buyers not walking in the door.
+INDUSTRY	Price Cuts (% of Builders)	36%	37% (Mar)	2026-04	NAHB	R	Down 1pp from Mar. Avg reduction 5% (down from 6%). Slightly less aggressive cutting.
+INDUSTRY	Sales Incentives (% of Builders)	60%	64% (Mar)	2026-04	NAHB	R	13th consecutive month >=60%. Still historically elevated; slight easing.
+INDUSTRY	Tariff Material Cost Impact	60% builders; avg +6.3% = $10,900/home		2026-04	NAHB Apr 2026	R	New data point Apr 15. Suppliers increasing prices; translates to $10,900 per typical home. Direct margin headwind.
 LEN	Gross Margin	15.2%		2026-Q1	LEN Earnings	R	Lowest since 2010. Incentive spending compressing margins.
 INDUSTRY	NAR Crisis Declaration	DECLARED		2026	NAR/Yun	R	"New housing crisis" — consensus break. See VX-CARL-NAR-01.
 NATIONAL	Existing Home Sales (SAAR)	3.98M	4.09M (Feb)	2026-03	NAR	R	-3.6% MoM. Lowest since Jun 2026. All regions fell MoM. Approaching <4.0M red threshold.
@@ -15,8 +16,9 @@ NATIONAL	New Home Median Price	$400,500	$429,600 YoY	2026-01	Census	O	-6.8% YoY,
 NATIONAL	New Home Inventory	9.7 months	8.0 (Dec)	2026-01	Census	R	+21.3% from Dec. 476K homes for sale. Highest months supply in years.
 NATIONAL	Census Feb+Mar Sales	DELAYED to May 5		2026	Census	-	Both months released simultaneously.
 NATIONAL	Refi Rejection	Series high		2025-Q4	NY Fed SCE	R	Door to credit slamming shut. See KB-CARL-021.
-NATIONAL	MBA Apps (Composite)	-0.8% WoW		2026-04-03	MBA	O	Purchase +1%, Refi -3% WoW. Refi at lowest since Dec 2025.
-NATIONAL	MBA 30yr Contract Rate	6.51%	6.57%	2026-04-03	MBA	O	Down 6bps WoW. Still elevated vs Mar. Rate vol from tariff news.
+NATIONAL	MBA Apps (Composite)	+1.8% WoW	-0.8% (Apr 3 wk)	2026-04-10	MBA	Y	Apr 10 wk. Purchase -1% WoW/-3% YoY; Refi +5% WoW/+15% YoY. Refi share 45.5%. Rate dip drove refi bounce; purchase still weak.
+NATIONAL	MBA 30yr Contract Rate	6.42%	6.51% (Apr 3 wk)	2026-04-10	MBA	O	-9bps WoW. Lowest rate in a month. Still Orange — affordability constrained.
+NATIONAL	Freddie PMMS 30yr	6.30%	6.37% (Apr 9)	2026-04-17	Freddie PMMS	O	Apr 16/17 release. -7bps WoW. 15yr 5.65% (from 5.74%). Year-ago 6.83% (-53bps YoY). ⚠️ Flag to REGINALD: rate easing trend is material for bank NIM/MBS portfolio marks.
 DHI	Q2 FY2026 Gross Margin Guidance	19.0-19.5%		2026-04	DHI Guidance	O	Down from Q1 20.4%. Earnings Apr 21.
 TOL	Q1 FY2026 Adj Gross Margin	26.5%		2026-Q1	TOL Earnings	G	+25bps above guidance. Luxury segment resilient.
 NATIONAL	Housing Starts (SAAR)	1.521M	1.374M (Jan)	2026-02	Census	G	+10.7% MoM, +5.9% YoY. SF starts +11.6% MoM to 1.129M.

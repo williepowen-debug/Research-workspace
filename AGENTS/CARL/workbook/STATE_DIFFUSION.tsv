@@ -5,7 +5,7 @@ State	CC_DQ_90+	Auto_DQ_90+	Foreclosure_YoY	UI_Rate	Gig_Concentration	Insurance_
 # Updated: 2026-04-01 (national aggregates from NY Fed Q4 2025 rel. Feb 10; state-level detail partially refreshed)
 
 # TIER 1: CRITICAL (Following FL trajectory)
-FL	4.10%	6.2%	+190%	3.8%	22%	HIGH	-90%	21	1	🔴 CRITICAL	Canary state - all vectors converging; SSB 23% exposure
+FL	4.10%	6.2%	+108% (Q1 REO YoY)	3.8%	22%	HIGH	-90%	21	1	🔴 CRITICAL	Apr 17 update: Q1 2026 REO 1,014 vs 487 Q1'25 = +108% YoY, GREATEST % RISE NATIONALLY. Q1 FC starts 10,099 (#2 behind TX 10,617). Pipeline CONVERTING — active completion wave, not just pipeline buildup. Q2 REO likely +150-300% YoY as Q4'25 +190% filings vintage flushes (judicial state lag). Canary state — all vectors converging; SSB 23% exposure.
 TX	3.2%	5.8%	+45%	4.1%	18%	ELEVATED	Slowing	16	2	🟠 ELEVATED	SSB 19% exposure; Austin/Houston office stress; border disruption
 MS	4.8%	6.5%	+38%	4.5%	12%	MODERATE	Negative	15	3	🟠 ELEVATED	Highest CC DQ in nation; low income base; Medicaid gap
 LA	4.2%	6.1%	+42%	4.8%	14%	HIGH	Negative	15	4	🟠 ELEVATED	Energy sector stress; insurance crisis (post-hurricanes)
