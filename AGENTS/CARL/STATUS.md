@@ -1,6 +1,6 @@
 # CARL STATUS
-**Updated:** 2026-04-17 ~15:30 UTC (PM — post-ALLY Q1 + reclassification audit)
-**Overall:** 🔴🔴 CRITICAL — Convergence 58/60. **Apr 17 PM: ALLY Q1 COUNTER-EVIDENCE PROCESSED — thesis v2.4→v2.4.1. Retail auto NCO 1.97% (-17bps QoQ), 30+ DQ 4.6%, 5/4 consec qtrs improvement. HEADLINE CLEAN. CARL-performed FY2024/FY2025 10-K audit found composition masking (S-tier 40→37%, nonprime 9.7→10.1%, ACL -$224M/-6%, CLN +43% YoY) — NOT accounting fraud. Payment hierarchy timeline PUSHED to 2H 2026/Q1 2027, not invalidated. CRL-05 85→82%.** Apr 17 AM: Vector #10 UPGRADE 4→5 — Q1 REO +45% YoY, FL +108%. NAHB HMI 34. Sweet Apr 15 MISSED → auto full relief ~271K. FICO Spring 2026: SL 90+ DQ ~9.8%. ABS Apr 16: EART Class E CE BREACHED. AMCAR Class E ~2mo, SDART Class D ~7mo. UMich 47.6. CPI Mar +3.28%, PPI +4.0%. Gas $4.13. HY OAS 294bps. CMBS MF DQ ATH 7.15%.
+**Updated:** 2026-04-17 ~17:30 UTC (PM#2 — PHAN + GIG refresh synthesis)
+**Overall:** 🔴🔴 CRITICAL — Convergence 58/60. **Apr 17 PM#2: ALLY FRAMEWORK GENERALIZES — CARL composition-masking pattern confirmed at BNPL (Affirm: ABS WA FICO 672 lowest since 2022, provisions +40% YoY vs DQ -10bps; Kerrisdale median FICO 652) AND subprime auto ABS (Santander/Bridgecrest/Exeter 60+ DQ 7.9%/7.8%/6.7%). Cycle-stage near-prime behavior, not ALLY idiosyncrasy. Strengthens 2H 2026/Q1 2027 reactivation case. CFPB Rule 1033 ON HOLD → EFFECTIVELY DEAD (CFPB own motion to withdraw filed). FL gas DIVERGING UP ($4.093) vs national easing ($4.076) — FL UI Wave 2 Apr 26 convergence loading.** Apr 17 PM#1: ALLY Q1 processed, thesis v2.4→v2.4.1, payment hierarchy TIMELINE PUSHED to 2H 2026/Q1 2027, CRL-05 85→82%. Apr 17 AM: Vector #10 UPGRADE 4→5 — Q1 REO +45% YoY, FL +108%. NAHB HMI 34. Sweet Apr 15 MISSED → auto full relief ~271K. FICO Spring 2026: SL 90+ DQ ~9.8%. ABS Apr 16: EART Class E CE BREACHED. AMCAR Class E ~2mo, SDART Class D ~7mo. UMich 47.6. CPI Mar +3.28%, PPI +4.0%. HY OAS 294bps. CMBS MF DQ ATH 7.15%.
 
 *Check-in archives: `archive/status/` (pending Phase 3 move)*
 
@@ -51,8 +51,8 @@
 ### Macro / Energy / Stress
 | Metric | Value | As Of | Status |
 |--------|-------|-------|--------|
-| Gas Pump | **$4.125** national; FL $4.02, CA $5.89 RED, TX $3.80 | Apr 13, AAA | 🔴 |
-| Diesel | **$5.65** (+$0.14 from Apr 2 — logistics/food cost pressure) | Apr 13, AAA | 🔴🔴 |
+| Gas Pump | **$4.076** national (-$0.05 post-ceasefire); **FL $4.093 DIVERGING UP** (above national now); CA $5.856; TX $3.716; IL $4.337 | Apr 17, AAA (GIG reconciliation) | 🔴 |
+| Diesel | **$5.608** (barely moved post-ceasefire — delivery/food cost pressure persists) | Apr 13, EIA | 🔴🔴 |
 | Brent | **$98.18** (ceasefire stabilized ~$98, was $115 pre-ceasefire) | Apr 13, yfinance | 🟠 |
 | WTI | **~$97-98** (stabilized post-ceasefire) | Apr 13 | 🟠 |
 | HY OAS | **294bps** (collapsed 317→294 in 8 days — ceasefire + NFP compressed 23bps. Now BELOW 300 elevated threshold. Complacency gap WIDENING — structured credit cracking while public HY tightens) | Apr 10, FRED | 🟢 ⚠️ |

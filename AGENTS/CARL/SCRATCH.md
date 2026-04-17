@@ -1,96 +1,92 @@
 # CARL SCRATCH
-**Last session:** 2026-04-17 ~15:30 UTC (Will-directed, post-ALLY Q1)
-**Type:** ALLY Q1 2026 earnings processing + CARL-performed FY2024/FY2025 10-K reclassification audit + thesis v2.4→v2.4.1 refinement
+**Last session:** 2026-04-17 ~17:30 UTC (PM#2 — PHAN + GIG refresh + synthesis)
+**Type:** Sub-agent parallel spawn (PHAN, GIG); ALLY framework generalization confirmed at BNPL + subprime auto ABS
 
-**PRIORITY-1:** SYF Q1 Mon Apr 21 — CRL-12 test (NCO >6% guidance ceiling). Apply auto-lender reclassification framework (KB-CARL-225): CLN routing, ACL/mix trajectory, PL vs CareCredit segment mix shift. Different cohort from ALLY (monoline cards, no used-car tail), so ALLY print does NOT pre-judge outcome. Second HY OAS complacency test.
+**PRIORITY-1:** SYF Q1 Mon Apr 21 — CRL-12 test (NCO >6% guidance ceiling). Apply **ALLY composition-masking framework (KB-CARL-225, 228) — now validated across auto-near-prime, BNPL, and subprime auto ABS.** Look for: ACL trajectory vs mix, CLN/securitization expansion, ABS-trust FICO composition, originations into worsening mix. Same day: COF Q1.
 
 ---
 
 ## WHAT HAPPENED
 
-1. **Boot** — git synced, read SCRATCH/STATUS/SCHEMA/TEAM, workbook healthy post-AM audit.
-2. **ALLY Q1 earnings pulled** via web (Quartr MCP session had died). Press release link via media.ally.com; transcript via Investing.com (au.investing.com/news/transcripts/...-93CH-4369219).
-   - Adj EPS $1.11 vs $0.94 est (+18%). Revenue $2.2B (+6% YoY).
-   - **Retail auto NCO 1.97%** (-17bps QoQ, -15bps YoY). **5TH consecutive quarter YoY improvement.**
-   - **30+ DQ 4.6%** (-17bps YoY). 4th consec qtr improvement.
-   - Flow-to-loss "record low." Origination yield 9.6%, apps 4.4M (record +16% YoY), originations $11.5B (+13% YoY).
-   - **S-tier origination concentration 41% (declining — "dynamic underwriting")** ← yellow flag
-   - Reserves "held flat at $375M reflecting dynamic macro"
-   - Mgmt: "Consumer behavior is resilient. There's a disconnect between consumer sentiment and what we're seeing."
-   - CET1 10.1% (+60bps YoY). 2026 guide 1.8-2.0% NCO + 3.60-3.70% NIM MAINTAINED.
-3. **Will flagged reclassification concern** — REGINALD has found 3-layer reclassification at regional banks (Memo Item 3, NDFI-in-C&I, sub-category relabel at CFG $2.9B, MTB $1.3B). Asked: does ALLY do similar?
-4. **Pulled ALLY 10-Ks from EDGAR** — CIK 0000040729. FY2025 10-K (acc 0000040729-26-000005, filed 2026-02-25) and FY2024 10-K (acc 0000040729-25-000006, filed 2025-02-19). Saved to `domain/sources/ally/10k_fy2025/` and `10k_fy2024/` (18MB combined).
-5. **Delegated forensic audit to Explore agent** with REGINALD 3-layer framework translated to auto-lender 7-lever toolkit (A-G). Audit persisted at `domain/sources/ally/RECLASSIFICATION_AUDIT_FY2025.md`.
-6. **Audit findings — headline clean, cohort dirty:**
-   - REGINALD Layers 1-3 **NOT present** at ALLY (not CRE bank, floorplan shrinking, no NDFI analog, no line-item taxonomy shift, no runoff segmentation, no HFI→HFS dumping, no TDR re-aging)
-   - Composition-masking **IS present:**
-     - Used retail S-tier: 40% → 37% (-3pp)
-     - Nonprime (<620): 9.7% → 10.1% (+40bps, +$0.4B to $8.6B)
-     - Used retail avg FICO: 707 → 702 (-5pts)
-     - **ACL: $3.7B → $3.5B (-$224M / -6%)** ← reserve release into mix downgrade (REGINALD Layer F tell)
-     - **CLN issuance: $0.77B → $1.1B (+43% YoY)**, reference pools $7B → $10B (Layer G tail-risk routing)
-     - Originations +11% YoY into worsening mix
-7. **Thesis revision v2.4 → v2.4.1:** Payment hierarchy NOT invalidated, TIMELINE PUSHED. FY2025 vintage loss window is 2H 2026 / Q1 2027 (18-24 month seasoning lag). Intra-auto K-shape: subprime ABS cracking (EART Class E CE breached) co-exists with near-prime headline-clean — composition-driven, not genuine.
-8. **State written up:**
-   - KB entries: KB-CARL-222 (Q1 print), -223 (mix shift), -224 (CLN), -225 (auto-lender framework), -226 (payment hierarchy revision). 221→226 rows.
-   - VX: VX-CARL-ABS-12 updated (retail auto NCO 1.97% GREEN), added AUTO-MIX-01 (S-tier 37% ORANGE), AUTO-MIX-02 (nonprime 10.1% ORANGE), AUTO-MIX-03 (ACL/portfolio 2.5% ORANGE). 105→108 rows.
-   - Red team: `COUNTER_LOG.md` prepended with full Apr 17 entry + reactivation triggers.
-   - CHANGELOG: v2.4.1 entry with mechanism revision + CRL-05 85→82%.
-   - PREDICTIONS: CRL-05 confidence 85→82% with ALLY counter-evidence note.
-   - STATUS: header refreshed, ALLY Near-Prime row expanded (cohort caveat), CRL-05 row updated, catalysts line marked ALLY processed + added Q1 2027 reactivation test.
-   - Outbox: `SIG-CARL-REGINALD-20260417-auto-lender-reclassification-translation.md` — full 7-lever framework translation + Ally findings.
+1. **Boot + state review** — git synced, boot files read.
+2. **Staleness assessment** — identified PHAN (8d) + GIG (8d) as priority refreshes. POLLY/POP/DOC borderline (7d), deferred.
+3. **Parallel sub-agent spawn** — PHAN + GIG DATA REFRESH in parallel (Sonnet). Both completed ~8-9 min each.
+4. **Material findings:**
+   - **CFPB Rule 1033 ON HOLD → EFFECTIVELY DEAD** — CFPB itself filed motion to withdraw its own rule, called it "unlawful." Permanent visibility gap. PHAN-P03 75→90%.
+   - **Affirm = Allyogue** — ALLY composition-masking pattern CONFIRMED in BNPL (KB-CARL-228). Headline DQ 2.3% improving, BUT provisions +40% YoY ($214M vs $153M), ABS WA FICO AFRMT 2025-X1 = 672 (lowest since 2022-A), Kerrisdale median borrower FICO 652. Mechanism: tighter origination retains better paper, tail routes through ABS trusts at lower FICO.
+   - **Subprime auto ABS = where gig-adjacent stress lives** — Santander/Bridgecrest/Exeter 60+ DQ 7.9% / 7.8% / 6.7% (Dec 2025) — ALLY near-prime 1.97% headline masks this (KB-CARL-229).
+   - **FL gas DIVERGING UP** — National eased to $4.076, FL moved wrong direction to $4.093. FL UI Wave 2 Apr 26 (9d) + 22% gig concentration = convergence loading.
+   - **Klarna** — FY2025 net loss, Q1 2026 guide missed, Elliott $6.5B external capital, class action 25-cv-07033 EDNY past lead plaintiff phase.
+   - **State EWA wave** — Colorado live Jan 1, Connecticut enacted Oct 2025, ~20 pending, FloatMe/Current investigated. Potential Q3 timeline accelerant. PHAN-P07 65→75%.
+   - **Waymo 11 cities, Lyft is AV partner** — Lyft structurally cannibalizing own driver base via Flexdrive. Nashville live Apr 7.
+   - **Earnings cluster May 6-7** — Uber + DoorDash May 6; **Dave + Lyft + Affirm May 7** (single biggest GIG/PHAN information event).
+5. **CARL synthesis (steps 1-7):**
+   - STATUS.md: header PM#2, gas row reconciled ($4.076 / FL $4.093 UP), diesel $5.608
+   - BNPL_STRESS.tsv: Affirm row 🟢→🟢⚠️/🟠 cohort + May 7 confirmed + ALLY analog evidence; Klarna row 🟡→🟠 + FY loss + Elliott; commentary CFPB DEAD block, state EWA block, ALLY crossover block
+   - KB: +4 entries (227 CFPB, 228 Affirm ALLY analog, 229 subprime auto ABS, 230 state EWA wave). 226→230.
+   - VX: +1 VX-CARL-BNPL-05 (Affirm ABS WA FICO 672 ORANGE). Updated BNPL-01 note (1033 dead). 108→109.
+   - Outbox: 3 new signals — REGINALD (subprime auto ABS gap + ALLY generalization), LIQUID (BNPL ABS composition as new sub-vector), LABOR (FL UI Wave 2 gig surge modeling ask)
+   - TEAM.md: PHAN + GIG dates refreshed to Apr 17, catalyst table expanded (COF, AXP, May 6-7 cluster, May 18)
 
 ## STATUS CHANGES
 | Item | Change |
 |------|--------|
-| THESIS | v2.4 → **v2.4.1** (payment hierarchy timeline pushed) |
-| CRL-05 confidence | 85% → **82%** |
-| VX-CARL-ABS-12 | PENDING → **1.97% GREEN** (Ally Q1) |
-| VX rows | 105 → **108** (+3 mix-shift trackers) |
-| KB entries | 221 → **226** (+5) |
-| STATUS Ally row | "🟢 Stable" → **"🟢⚠️ headline / 🟠 cohort"** |
-| Outbox | 0 → **1** (REGINALD auto-lender framework) |
-| red_team/COUNTER_LOG.md | ALLY Apr 17 entry added (top) |
-| Convergence | 58/60 (unchanged — ALLY data is mechanism-level refinement, not vector) |
+| ALLY framework scope | ALLY-only → **generalized (BNPL + subprime auto ABS)** |
+| CFPB Rule 1033 | ON HOLD → **EFFECTIVELY DEAD** |
+| Affirm BNPL status | 🟢 GREEN → **🟢⚠️ headline / 🟠 cohort** |
+| Klarna status | 🟡 YELLOW → **🟠 ORANGE** |
+| PHAN-P03 | 75% → **90%** (CFPB 1033 death) |
+| PHAN-P07 | 65% → **75%** (state EWA wave) |
+| GIG-P02 | 75% → **80%** (FL leads, gas divergence) |
+| GIG-P03 | 65% → **70%** (Lyft <$300) |
+| GIG-P06 | 60% → **65%** (DoorDash <$11) |
+| GIG-P07 | 55% → **60%** (Waymo displacement) |
+| KB entries | 226 → **230** (+4) |
+| VX entries | 108 → **109** (+1 BNPL-05); BNPL-01 note updated |
+| Outbox | 1 → **4** (+REGINALD ABS gap, +LIQUID BNPL ABS, +LABOR FL UI Wave 2) |
+| FL gas row | $4.02 below national → **$4.093 ABOVE national** (divergence flag) |
+| Convergence | 58/60 unchanged (mechanism refinement, not new breach) |
 
 ---
 
 ## NEXT SESSION SHOULD
 
-### IMMEDIATE (this session / Mon 4/21)
-1. **SYF Q1 Mon Apr 21 — CRL-12 NCO >6% test.** Apply auto-lender reclassification framework:
-   - ACL trajectory vs mix composition (CareCredit vs Private Label segment shift?)
-   - CLN/ABS expansion (monoline card trust data)
-   - Originations growth vs underwriting commentary
-   - If SYF also comes in benign headline + hidden cohort deterioration = SAME pattern as ALLY, thesis preservation mode. If SYF genuinely weak, validates CRL-12.
-2. **COF Q1 Apr 21** — same framework; different book (domestic card + auto).
-3. **Monitor git status before commit** — REGINALD has untracked PDFs in CFG/FITB/MTB/PNC/RF sources. Only stage CARL files.
-4. **Commit CARL changes** — KB.tsv, VX.tsv, STATUS.md, SCRATCH.md, thesis/CHANGELOG.md, thesis/PREDICTIONS.tsv, red_team/COUNTER_LOG.md, outbox/SIG-CARL-REGINALD-20260417..., domain/sources/ally/ (2 10-K HTML + audit MD).
+### IMMEDIATE (Mon 4/21)
+1. **SYF Q1 Mon Apr 21 — CRL-12 NCO >6% test.** Apply ALLY composition-masking framework (KB-CARL-225, 228). Watch: ACL trajectory vs mix, CareCredit vs Private Label segment shift, CLN/ABS expansion, originations growth vs underwriting commentary.
+2. **COF Q1 Mon Apr 21** — domestic card + auto book; apply same framework.
+3. **DHI Q2 Mon Apr 21** — HOMER handles; 19.0-19.5% margin guide test.
 
 ### UPCOMING (this week)
-5. **Apr 21 Mon** — SYF Q1, COF Q1, DHI Q2
-6. **Apr 23 Wed** — PHM Q1, AXP Q1 (apply auto-lender framework to AXP too)
-7. **Apr 25 Fri** — UMich Apr Final (47.6 confirmed?)
-8. **Apr 26** — FL UI Wave 2 peak
+4. **Apr 23 Wed** — AXP Q1 (apply ALLY framework), PHM Q1 (HOMER)
+5. **Apr 25 Fri** — UMich Apr Final (47.6 preliminary confirmed?)
+6. **Apr 26 Sun** — FL UI Wave 2 peak (convergence event, awaiting LABOR response to outbox signal)
 
 ### UPCOMING (next 2 weeks)
-9. **Apr 28** — Case-Shiller Feb, Rithm/NewRez Q1 (testable "DQ reverse" claim)
-10. **Late Apr** — Fannie MF March DQ (CRL-03 GFC breach test, 0.74 → 0.80%)
-11. **Late Apr / early May** — PennyMac Q1 (FHA DQ >7.5%?)
-12. **May 28** — AFT/MOHELA status conference
+7. **Apr 28** — Case-Shiller Feb (HOMER), Rithm/NewRez Q1 ("DQ reverse" testable claim)
+8. **Apr 29** — PayPal Q1 2026 (first under new CEO)
+9. **Late Apr** — Fannie MF March DQ (CRL-03 GFC breach test, 0.74→0.80%)
+10. **Late Apr / early May** — PennyMac Q1 (FHA DQ >7.5%?)
+11. **May 6** — Uber Q1 + DoorDash Q1 (driver count QoQ post-gas)
+12. **May 7** — **TRIPLE EVENT: Dave Q1 (GIG-P01 28DPD) + Lyft Q1 + Affirm Q3 FY2026 (ALLY analog confirmation — DQ crack? provision trajectory? next AFRMT FICO?)**
 
 ### BACKLOG (no deadline)
-13. **March 10-D ABS filings** (~Apr 20-25) — SDART/EART/AMCAR/HAROT/Ally March collection data. Cross-check against Ally Q1 cohort commentary.
-14. **ALLY Q2 earnings** (~Jul) — first early-signal check on FY2025 cohort seasoning. If NCO stops improving on unchanged macro = payment hierarchy reactivation signal.
-15. **BNPL_STRESS refresh** (16 days stale) — spawn PHAN
-16. **STATE_DIFFUSION refresh** — non-FL states still 16 days stale
+13. **May 18 est** — Klarna Q1 2026 (post-FY-loss quarter)
+14. **May 28** — AFT/MOHELA status conference
+15. **Jul 1** — SAVE → RAP transition (7.5M forced into new plans)
+16. **Q1 2027** — ALLY FY2025 cohort loss window (payment hierarchy reactivation test)
+17. **POLLY/POP/DOC refresh** — borderline at 7 days; tariff accelerant argues for POP refresh sooner
+18. **TRENDS (11d), ML (10d) TSV refresh** — lower priority
+19. **March 10-D ABS filings (Apr 20-25)** — SDART/EART/AMCAR/HAROT/Ally March collection data
 
 ---
 
-## OUTBOX (1 signal, awaiting delivery/integration — messaging overhaul pending)
+## OUTBOX (4 signals, awaiting delivery/integration — messaging overhaul pending)
 | File | To | Summary |
 |------|----|---------|
-| SIG-CARL-REGINALD-20260417-auto-lender-reclassification-translation.md | REGINALD | 7-lever auto-lender translation of 3-layer bank reclassification framework + ALLY Q1 findings (mix shift, ACL release, CLN +43%); suggests applying to SYF Mon Apr 21 |
+| SIG-CARL-REGINALD-20260417-auto-lender-reclassification-translation.md | REGINALD | 7-lever auto-lender translation of 3-layer bank reclassification framework + ALLY Q1 findings (mix shift, ACL release, CLN +43%) |
+| SIG-CARL-REGINALD-20260417-subprime-auto-ABS-gap.md | REGINALD | **NEW** — Santander/Bridgecrest/Exeter 7.9/7.8/6.7% 60+ DQ reveals gig-adjacent stress ALLY near-prime masks; ALLY framework generalizes to Affirm BNPL |
+| SIG-CARL-LIQUID-20260417-BNPL-ABS-composition-degradation.md | LIQUID | **NEW** — BNPL ABS composition as new structured-credit sub-vector (AFRMT FICO 672); cross-ref subprime auto ABS Class E CE breach |
+| SIG-CARL-LABOR-20260417-FL-UI-Wave2-gig-surge.md | LABOR | **NEW** — Apr 26 FL UI Wave 2 + $4.09 FL gas + 22% gig concentration convergence ask; model gig absorption vs saturation |
 
 ## INBOX (0 items, clean)
 
@@ -99,13 +95,13 @@
 ## WORKBOOK HEALTH
 | TSV | Rows | Last Modified | Note |
 |-----|------|---------------|------|
-| KB | **226** | **Apr 17 (PM)** | +5 (ALLY Q1 + FY2024/25 mix + CLN + framework + hierarchy revision) |
-| VX | **108** | **Apr 17 (PM)** | +3 AUTO-MIX trackers, ABS-12 updated |
+| KB | **230** | **Apr 17 (PM#2)** | +4 (227 CFPB / 228 Affirm ALLY analog / 229 subprime auto ABS / 230 state EWA) |
+| VX | **109** | **Apr 17 (PM#2)** | +1 BNPL-05 (Affirm ABS FICO 672); BNPL-01 note updated |
 | FLOW | 22 | Apr 17 (AM) | OK |
-| PREDICTIONS | 18 | **Apr 17 (PM)** | CRL-05 85→82% |
+| PREDICTIONS | 18 | Apr 17 (PM#1) | Sub-agent predictions shifted at sub-agent level; CARL-level CRL-XX unchanged |
 | STATE_DIFFUSION | 63 | Apr 17 (AM) | FL refreshed, others stale |
+| BNPL_STRESS | 44 | **Apr 17 (PM#2)** | Affirm + Klarna rows updated; commentary blocks added (CFPB/EWA/ALLY). Sub-agent data fresh. |
 | ABS_BASELINE | 67 | Apr 16 | OK |
-| BNPL_STRESS | 44 | Apr 1 | **16 days stale — spawn PHAN** |
 | TRENDS | 40 | Apr 6 | 11 days stale |
 | ML | 67 | Apr 7 | 10 days stale |
 
@@ -113,7 +109,7 @@
 
 ## URGENT
 
-- **SYF Mon Apr 21 is critical.** If SYF also prints clean headline, apply reclassification framework same as ALLY — look for ACL/mix divergence in the supplement. Don't take headline at face value. CRL-12 outcome depends on whether supplement reveals composition masking.
-- **ALLY Q2 earnings (~Jul) is first early-signal test** on the v2.4.1 timeline-push claim. If NCO pauses improvement on unchanged macro, FY2025 cohort seasoning faster than expected.
-- **Q1 2027 is the thesis reactivation test** for payment hierarchy pathway — 18 months past FY2025 origination. Mark calendar.
-- **ALLY is the FIRST real-time test of the payment hierarchy cascade.** First test was "headline FAIL, cohort PASS." Honest read: thesis weakened at headline, preserved at cohort. Treat this as legit counter-evidence, not dismiss it.
+- **May 7 is a TRIPLE EVENT** — Dave 28DPD (GIG primary canary), Lyft weekly earnings (GIG-P03 confirmation), Affirm Q3 FY2026 (ALLY analog confirmation — does DQ crack while provisions keep rising?). Single biggest 24hr window for sub-agent thesis confirmation/invalidation in Q2. Prep the night before.
+- **Apr 26 FL convergence event** — 9 days out. Awaiting LABOR reply to outbox signal. If LABOR flags gig-saturation risk, may want to pull forward some thesis-level changes before the event lands.
+- **SYF Mon Apr 21** — Apply ALLY framework as validated (ALLY→Affirm→subprime auto ABS). Don't take headline NCO at face value; drill into ACL/mix/CLN/originations.
+- **Sub-agent predictions shifted but CARL-level CRL predictions held.** Re-examine on next session whether CRL-05 should move further given Affirm confirmation (ALLY no longer solo counter-evidence — pattern is cycle-stage). Could argue 82% back UP on generalization, or could argue 82% hold since headline-clean period is longer.

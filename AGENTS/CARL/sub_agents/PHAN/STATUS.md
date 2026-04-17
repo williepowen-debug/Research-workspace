@@ -1,7 +1,7 @@
 # PHAN STATUS (Phantom Debt & Shadow Credit)
-**Last Updated:** 2026-04-09 | **Status:** 🔴 CRITICAL — $400B+ invisible to credit bureaus, stacking BREACHED, CFPB 1033 ON HOLD (visibility shock delayed), BNPL-mortgage DTI gap widening
+**Last Updated:** 2026-04-17 | **Status:** 🔴 CRITICAL — $400B+ invisible to credit bureaus, stacking BREACHED, CFPB 1033 DEAD (CFPB moved to withdraw), Klarna provisions RISING, state EWA wave accelerating
 
-> **Update (Apr 9, 2026):** CFPB Rule 1033 (open banking) ON HOLD — judge paused enforcement, Trump CFPB reconsidering. Original Apr 1 deadline for largest banks missed. This means the phantom debt visibility gap PERSISTS — $400B+ stays invisible. Klarna post-IPO DQ rising (provisions 0.53%→0.65%), securities class action filed. NY/DC AGs suing cash advance apps (DailyPay, MoneyLion, EarnIn). 8 courts ruled EWA "tips" are finance charges. FICO 10 BNPL scores launching but adoption unclear. The bubble is getting bigger and nobody can see it.
+> **Update (Apr 17, 2026):** AFFIRM Q3 FY2026 CONFIRMED: May 7, 2026 after close [Affirm IR, Apr 16 2026]. CFPB Rule 1033 escalated: CFPB's own chief legal officer filed motion to WITHDRAW the rule — stronger death signal than injunction alone [Cozen O'Connor/Mitchell Sandler Apr 2026]. KLARNA Q4 2025: provisions rose to 0.65% (+12bps vs 0.53%); net loss $26M; FY2025 annual net loss; stock -15% post Q4 on revenue-miss guidance for Q1 ($965M vs analyst expectations). Class action case no. 25-cv-07033 (EDNY), lead plaintiff deadline Feb 20 passed. Q1 2026 earnings expected ~May 18. State EWA enforcement wave: Colorado EWA licensing law LIVE Jan 1 2026 ($5-7 fee caps), Connecticut enacted Oct 2025 ($4 cap/loan, $30/mo). ALLY FRAMEWORK CROSSOVER: Affirm DQ improvement is partially a cleaner-cohort effect — Kerrisdale Jan 2026 short report finds median FICO ~652, 52% customers below 660, ABS WA FICO 672 (lowest since 2022-A trust), provision for credit losses +40% YoY in Q2 FY2026 ($214M vs $153M). ANALOG TO ALLY PARTIALLY CONFIRMED — see CARL_HANDOFF.
 
 ---
 
@@ -68,12 +68,15 @@ True losses higher than models predicted (the $40-60B surprise)
 ### Regulatory / Visibility
 | Indicator | Value | Threshold | Status | Source |
 |-----------|-------|-----------|--------|--------|
-| **CFPB Rule 1033** | **ON HOLD** — judge paused, CFPB reconsidering | Was Apr 1 2026 | 🔴 DELAYED | American Banker Apr 2026 |
-| **FICO 10 BNPL Scores** | Launching Fall 2025 | Adoption TBD | 🟡 EARLY | FICO |
+| **CFPB Rule 1033** | **WITHDRAWAL MOTION FILED** — CFPB calling own rule "unlawful"; effectively dead | MISSED (Apr 1) | 🔴🔴 DEAD | Mitchell Sandler/Cozen O'Connor Apr 2026 |
+| **FICO 10 BNPL Scores** | Launched Fall 2025 — adoption still unclear | N/A | 🟡 EARLY | FICO |
 | **BNPL Credit Reporting** | Only Affirm reports (2 of 3 bureaus) | N/A | 🔴 GAP PERSISTS | Industry |
 | **Court Rulings (EWA)** | **8 courts**: tips/fees ARE finance charges | N/A | 🟠 TIGHTENING | NCLC 2026 |
 | **NY BNPL Licensing** | First state comprehensive BNPL rules proposed | N/A | 🟡 PROPOSED | NY State 2026 |
-| **HUD BNPL RFI** | Exploring BNPL impact on FHA underwriting | N/A | 🟡 INVESTIGATING | HUD Jun 2025 |
+| **Colorado EWA Law** | **LIVE Jan 1 2026** — licensing + $5-7 fee caps | N/A | 🟠 ACTIVE | HB25-1020 |
+| **Connecticut EWA Law** | **ENACTED Oct 2025** — $4/advance, $30/mo cap; fees = finance charges | N/A | 🟠 ACTIVE | Goodwin Jul 2025 |
+| **HUD BNPL RFI** | RFI comment period Aug 2025 — no final guidance issued | N/A | 🟡 STALLED | HUD Jun 2025 |
+| **State EWA laws total** | **12 enacted, ~20 pending** | N/A | 🟠 ACCELERATING | Chime regulatory tracker 2026 |
 
 ### Fintech Cockroach Watch
 | Company | Status | Signal | Source |
@@ -86,22 +89,21 @@ True losses higher than models predicted (the $40-60B surprise)
 
 ---
 
-## CFPB 1033: WHAT HAPPENED
+## CFPB 1033: WHAT HAPPENED (Updated Apr 17)
 
 **Original plan:** CFPB Rule 1033 would force largest banks to share consumer financial data by Apr 1, 2026. BNPL providers (as card issuers per CFPB interpretive rule) would be covered. This would have created a "visibility shock" — suddenly phantom debt becomes visible.
 
 **What actually happened:**
 1. Banking groups sued to block the rule
-2. Federal judge enjoined enforcement
+2. Federal judge enjoined enforcement (Sep 2025)
 3. Trump administration's CFPB questioned its own funding mechanism
-4. Aug 2025: CFPB issued Advance Notice of Proposed Rulemaking on "reconsideration"
+4. Aug 2025: CFPB issued ANPRM on "reconsideration"
 5. Apr 1, 2026: Deadline passed with rule unenforced
+6. **NEW (Apr 2026): CFPB chief legal officer Mark Paoletta filed motion to WITHDRAW Rule 1033** — CFPB now calling its own rule "unlawful and should be set aside" [Mitchell Sandler Apr 2026, Cozen O'Connor]
 
-**CARL implication:** The visibility shock is DELAYED INDEFINITELY. This is actually WORSE for the thesis:
-- Phantom debt keeps growing without constraint
-- Lenders can't see true DTI
-- When the repricing finally comes (via defaults, not regulation), it will be larger and more sudden
-- The $40-60B in distressed invisible BNPL debt continues to accumulate
+**Status escalation: ON HOLD → EFFECTIVELY DEAD.** This is now worse than an injunction — the agency itself is moving to kill it.
+
+**CARL implication:** The visibility shock is NOT COMING via regulation. It will come via defaults — larger and more sudden. $40-60B distressed BNPL accumulates unchecked. Prediction PHAN-P03 should move confidence 75% → 90%.
 
 ---
 
@@ -127,17 +129,23 @@ True losses higher than models predicted (the $40-60B surprise)
 - FY2026 guidance: GMV $48.3-48.85B, Revenue $4.09-4.15B
 - Card business +159% — expanding beyond point-of-sale
 - **ONLY major BNPL reporting to credit bureaus** (2 of 3)
-- 30+ DQ: 2.3% (Q4 FY25, improved)
-- Q3 FY2026 earnings: ~May 2026
+- 30+ DQ: 2.3% (improved from 2.4% — but see ALLY CROSSOVER below)
+- Provision for credit losses: $214.2M Q2 FY2026 (+40% YoY vs $153M) [Affirm Q2 earnings, Feb 2026]
+- **⚠️ Q3 FY2026 earnings: CONFIRMED May 7, 2026 after close** [Affirm IR, Apr 16 2026]
+- **⚠️ ALLY CROSSOVER:** Median borrower FICO ~652, 52% customers below 660, ABS WA FICO 672 — lowest since 2022-A [Kerrisdale Jan 2026]. Provisions +40% YoY despite "improved" DQ headline. DQ improvement partially a cleaner-cohort effect: origination tightening shifted mix, not underlying borrower improvement.
 
 ### Klarna (KLAR) — Post-IPO Stress
-- IPO Sep 2025 at $40, dropped to low $30s
-- Pre-IPO DQ: 0.88% (Q2 2025, improved — portfolio cleaned)
-- Post-IPO: credit loss provisions 0.65% (up from 0.53%)
+- IPO Sep 2025 at $40; stock fell to low $30s post-Q4 2025 earnings
+- Pre-IPO DQ: 0.88% (Q2 2025, improved — portfolio cleaned pre-listing)
+- Q4 2025: credit loss provisions 0.65% (up from 0.53%); realized losses 0.44% (down 1bp YoY)
+- Q4 2025: Revenue $1.08B (+38% YoY); GMV $38.7B (+32%); net loss $26M for quarter
+- FY2025 annual: net loss (reversed from $21M profit in FY2024)
 - **Sold $26B in BNPL loans ahead of IPO** (portfolio cleanup before listing)
-- 30/60 day DQ trend lines OUTSTRIPPING prior year
-- Securities class action filed Dec 2025
+- Q1 2026 revenue guidance: $965M — MISSED analyst expectations; stock -15% premarket Feb 19
+- **Securities class action: Nayak v. Klarna Group plc, No. 25-cv-07033 (EDNY)**; lead plaintiff deadline Feb 20, 2026 (PASSED); case active
+- Q1 2026 earnings: expected ~May 18, 2026
 - Does NOT report to credit bureaus
+- **Elliott Management: $6.5B lifeline reported** — signals funding pressure [AiInvest, Feb 2026]
 
 ### Afterpay (Block/SQ)
 - Integrated into Block/Cash App ecosystem
@@ -218,14 +226,16 @@ HOMER vectors fire at higher rate than DTI models predicted
 
 ---
 
-## RESEARCH GAPS
+## RESEARCH GAPS (Updated Apr 17)
 
-- [ ] Affirm Q3 FY2026 earnings (~May) — DQ trend with gas squeeze
-- [ ] Klarna post-IPO financials — are DQ trends continuing to deteriorate?
-- [ ] Afterpay/Block integration — how much BNPL is flowing through Cash App?
-- [ ] FICO 10 BNPL score adoption — are lenders actually using it?
-- [ ] State-level BNPL usage data (FL, TX, CA overlap with CARL priority states)
-- [ ] Cash advance app user counts (Dave: tracked by GIG; Earnin, Brigit, MoneyLion: no data)
+- [x] Affirm Q3 FY2026 earnings date — **RESOLVED: May 7, 2026 confirmed**
+- [ ] **May 7 Affirm Q3 FY2026 RESULTS** — KEY: DQ crack? Provision growth continues? ABS issuance FICO?
+- [ ] **~May 18 Klarna Q1 2026** — first quarter after Q1 guide miss; provisions trend
+- [ ] **May 5 Upstart Q1 2026** — approval rates, DQ, credit quality under new $1.4B guidance
+- [ ] Afterpay/Block Q1 2026 — BNPL volume through Cash App (no public data)
+- [ ] FICO 10 BNPL score adoption — lender uptake still unknown
+- [ ] HUD BNPL RFI responses — comment period closed Aug 2025; any preliminary guidance?
+- [ ] AFRMT 2025-X2 or 2026-A trust (next issuance) — FICO composition trend
 - [ ] Medical debt removal from credit reports — masking effect quantification
 
 ---

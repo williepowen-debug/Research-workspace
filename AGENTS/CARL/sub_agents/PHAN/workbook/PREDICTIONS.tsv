@@ -1,8 +1,8 @@
 Pred_ID	Date_Made	Prediction	Confidence	Timeframe	Status	Date_Resolved	Outcome	Notes
 PHAN-P01	2026-04-09	BNPL stacking >70%	60%	H2 2026	TRACKING			Currently 63%. No reporting = no constraint on stacking growth.
 PHAN-P02	2026-04-09	Klarna credit losses >1.0%	65%	FY2026	TRACKING			Provisions 0.65% and rising post-IPO. DQ trend outstripping prior year.
-PHAN-P03	2026-04-09	CFPB 1033 enforcement delayed beyond 2026	75%	EOY 2026	TRACKING			Judge enjoined, CFPB reconsidering, Trump admin hostile.
+PHAN-P03	2026-04-09	CFPB 1033 enforcement delayed beyond 2026	90%	EOY 2026	TRACKING			UPGRADED 75%→90% Apr 17: CFPB chief legal officer filed motion to WITHDRAW rule entirely — calling it unlawful. Not just delayed; effectively killed. Phantom debt visibility gap now permanent via regulation.
 PHAN-P04	2026-04-09	At least 2 more fintech failures	60%	2026	TRACKING			3 already (CURO, Tricolor, Synapse). Upstart retreating.
 PHAN-P05	2026-04-09	BNPL-linked mortgage defaults identifiable in FHA data	50%	Q3-Q4 2026	TRACKING			HUD RFI signals awareness. Low confidence.
 PHAN-P06	2026-04-09	NY passes first comprehensive BNPL licensing law	55%	2026	TRACKING			Proposed. NY tends to lead on consumer protection.
-PHAN-P07	2026-04-09	Cash advance app AG enforcement expands to 5+ states	65%	2026	TRACKING			NY, DC active. 8 court rulings building precedent.
+PHAN-P07	2026-04-09	Cash advance app AG enforcement expands to 5+ states	75%	2026	TRACKING			UPGRADED 65%→75% Apr 17: Colorado legislature active (HB26-1046), Connecticut law enacted, FloatMe and Current under investigation by attorneys, Troutman Pepper Apr 16 confirms state enforcement surge filling CFPB vacuum. 12 states with laws, ~20 considering.
