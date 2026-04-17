@@ -4,6 +4,8 @@
 
 **PRIORITY-1:** SYF Q1 Mon Apr 21 — CRL-12 test (NCO >6%). Apply **ALLY composition-masking framework (KB-CARL-225, 228)** — now validated across auto-near-prime, BNPL, subprime auto ABS. Same day: COF Q1. Also **UNH Q1 Apr 21 AMC / ELV Q1 Apr 22 AMC** → respawn POLLY for MLR reads.
 
+**PRIORITY-2 (new):** Build **COOK** sub-agent (food + SNAP stress). Full plan saved at `sub_agents/COOK_BUILDOUT_PLAN.md`. 3 phases, ~25-30 min total, ~$0.25-0.30. Will approved name. Execute before or after Apr 21 earnings depending on time.
+
 ---
 
 ## WHAT HAPPENED
