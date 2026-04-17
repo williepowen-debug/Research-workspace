@@ -1,7 +1,7 @@
 # Refinery Damage Tracker
 
 **Owner:** BRENT
-**Last Updated:** 2026-04-17
+**Last Updated:** 2026-04-17 (post-verification integration)
 **Source of truth for structured data:** `INCIDENTS.tsv` (one row per incident, ID = RF-XXX)
 **Purpose:** Living ledger of fires, explosions, strikes, and unplanned outages at refineries, export terminals, and major gas-processing facilities globally — Jan 2026 onward.
 
@@ -43,16 +43,20 @@
 
 ## 📊 DASHBOARD
 
-### Aggregate bpd offline (as of 2026-04-17)
+### Aggregate bpd offline (as of 2026-04-17, post-verification)
 Per `INCIDENTS.tsv` `bpd_offline_est` column, summed by status:
 
 | Status | # incidents | Est. bpd offline |
 |---|---|---|
-| ACTIVE | 19 | ~6.2M bpd (+ LNG) |
+| ACTIVE | 19 | ~4.77M bpd (+ LNG) |
 | PARTIAL_RESTART | 1 (Port Arthur) | 415K bpd |
-| MONITORING | 1 (Corpus Christi) | 0 (latent 870K) |
+| ATTACKED_INFRA_INTACT | 1 (Kharg Apr 7) | 0 (threat event only) |
+| DISPUTED | 1 (MRPL Mangalore) | 100K (India, conflicting reports) |
+| MONITORING | 2 (Corpus Christi, Nayara Vadinar) | 0 (latent 870K + 400K) |
 | RESOLVED (2026 YTD) | 8 | 0 (closed) |
-| **TOTAL ACTIVE + PARTIAL** | **20** | **~6.6M bpd** |
+| **TOTAL ACTIVE + PARTIAL** | **20** | **~5.19M bpd** |
+
+**🔻 Apr 17 verification correction:** RF-019 Kharg Apr 7 reclassified from ACTIVE 1.5M → ATTACKED_INFRA_INTACT 0. Apr 7 US restrikes confirmed (CNN/Bloomberg/Air Force Times) but oil infrastructure was AGAIN spared (Mehr News: "continues to operate as normal"). Aggregate ACTIVE bpd drops from ~6.6M to ~5.1M. Iran export capacity still down via RF-002 (Mar 13 sanctions/campaign) but not via physical damage to Kharg.
 
 *Note: "bpd_offline_est" is a working estimate per incident. Aggregate is not independently verifiable — Kpler estimates "hundreds of millions of barrels off market." Treat as directional.*
 
@@ -60,16 +64,17 @@ Per `INCIDENTS.tsv` `bpd_offline_est` column, summed by status:
 
 | Cluster | Count | Approx bpd offline |
 |---|---|---|
-| Middle East war-damage | 10 | ~5.4M (Kharg, Satorp, Ruwais, Mina Al-Ahmadi, Habshan, Bazan, Ras Laffan LNG, ADCOP pipeline, etc.) |
+| Middle East war-damage | 9 | ~3.9M (Kharg Mar 13, Satorp, Ruwais, Mina Al-Ahmadi, Habshan, Bazan, Ras Laffan LNG, ADCOP pipeline) |
 | Russia (Ukraine drone campaign) | 6 | ~650K (Kirishi, Ufa, Tuapse, Nizhny, Ust-Luga port) |
 | US mechanical | 1 PARTIAL + 2 STRUCTURAL | 415K (Port Arthur) + 284K (CA closures) + Corpus Christi monitoring |
 | International non-war | 2 | 110K (Geelong + Dos Bocas operational impairment) |
+| India supply-driven | 1 DISPUTED + 1 MONITORING | 100K disputed (MRPL) + 400K deferred (Nayara) |
 
 ### Highest-impact ACTIVE incidents
 | ID | Facility | bpd offline | Why it matters |
 |---|---|---|---|
-| RF-012 | ADCOP Hormuz-bypass pipeline | 1.5M | Eliminates primary Hormuz bypass route — **single-source B-2, VERIFY** |
-| RF-002 / RF-019 | Kharg Island | 1.5M | 90% of Iran export capacity — verify Mar 13 vs Apr 7 |
+| RF-012 | ADCOP Hormuz-bypass pipeline | 1.5M | Eliminates primary Hormuz bypass route — **CONFIRMED Apr 17, A-2 tier** |
+| RF-002 | Kharg Island (Mar 13) | 1.5M | 90% of Iran export capacity — standing offline |
 | RF-008 | Valero Port Arthur | 415K | **US diesel hydrotreater exposure**; single-point failure for ULSD crack |
 | RF-015 | Ruwais | 200K | One of world's largest refineries (UAE) |
 | RF-018 | Satorp (Jubail) | 230K | Aramco/TotalEnergies JV, 460K capacity — units halted after Apr 7-8 cluster |
@@ -108,15 +113,21 @@ Per `INCIDENTS.tsv` `bpd_offline_est` column, summed by status:
 | Date | IDs changed | Note |
 |---|---|---|
 | 2026-04-17 | RF-001 through RF-030 | Initial tracker build from 6 weeks of fragmented inbox signals + research + Apr 17 web sweep |
+| 2026-04-17 (PM) | RF-012, RF-019, +RF-031, +RF-032 | Post-verification integration: RF-012 ADCOP confirmed (B-2→A-2, date 3/31→3/30); RF-019 Kharg Apr 7 reclassified (ACTIVE 1.5M→THREAT_EVENT 0 bpd, oil infra spared per CNN/BBG/Mehr); added RF-031 MRPL Mangalore disputed + RF-032 Nayara Vadinar monitoring. Aggregate ACTIVE drops 6.6M→5.1M. See `data/VERIFY_2026-04-17.md`. |
 
 ---
 
-## ⚠️ VERIFICATION QUEUE (high priority)
+## ⚠️ VERIFICATION QUEUE
 
-1. **RF-012 ADCOP pipeline fire (Mar 31)** — single-source `@silvertrade` on X. Eliminates 1.5M bpd Hormuz bypass if true. Need Bloomberg / Reuters / Argus second source before using in thesis.
-2. **RF-002 vs RF-019 Kharg Island** — BRENT STATUS text says "STRUCK Apr 7 — 90% Iran export capacity." Wikipedia 2026 Kharg attack article puts strike on **Mar 13** but notes US deliberately spared oil infra. Are these the same event, sequential events, or is one wrong? Critical for supply-disruption snapshot integrity.
+**✅ Resolved Apr 17 (see `data/VERIFY_2026-04-17.md`):**
+1. ~~RF-012 ADCOP pipeline fire~~ — **CONFIRMED** via bne IntelliNews, Caliber.az, Pravda, EnergyNewsBeat + Clash Report satellite imagery. Upgraded B-2 → A-2. Date corrected Mar 31 → Mar 30.
+2. ~~RF-002 vs RF-019 Kharg Island~~ — **RECONCILED**: Apr 7 US restrikes hit 50+ military targets but oil infra again spared (CNN/Bloomberg/Air Force Times/Mehr News). RF-019 reclassified threat_event 0 bpd. Mar 13 Kharg damage (RF-002) stands.
+
+**🟡 Still open:**
 3. **Russian refinery aggregate bpd** — Syrskyi claim "15 refineries hit in March" is the source. True aggregate bpd offline likely lower than simple sum (many hits are partial, and Russia keeps processing with damaged units). Need Kpler / OilTanking / Vortexa estimates.
 4. **European refinery fires Mar-Apr** — likely real gap. Europe averages 14 refinery fire/leak incidents per year (Argus 2023 baseline). Searches returned only structural-closure narrative, no discrete Mar-Apr incidents — probably because they aren't in English-language headline feeds. Need targeted pull from Argus refinery status monthly reports.
+5. **India MRPL (RF-031) Reuters vs company denial** — Reuters/Bloomberg reported Mar 4-5 shutdown; MRPL filed regulatory denial Mar 7. Conflicting reporting — need ground-truth from next operational update or refiner data.
+6. **China refinery confirmed absence** — verified Apr 17 that no major Chinese refinery incidents surfaced Mar-Apr 2026 in English wire. Re-sweep monthly; China runs-up on discounted Russian/Iranian crude is the operational story, not incidents.
 
 ---
 
