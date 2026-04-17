@@ -30,9 +30,9 @@
 | Apr 9 | 8:30 | GDP (3rd est) + Corp Profits | Q4 2025 | Final revision |
 | Apr 10 | 8:30 | **CPI** | Mar | Pre-FOMC read |
 | Apr 14 | 8:30 | **PPI** | Mar | Wholesale prices |
-| Apr 16 | — | **OZK Earnings** | Q1 | Hidden CRE reveal? |
 | ~Apr 20 | — | **ZION Earnings** | Q1 | Clean book comparison |
-| ~Apr 21 | — | **WAL Earnings** | Q1 | Hidden CRE + Investor Day May 12 |
+| Apr 21 | AMC | **OZK Earnings** | Q1 | Hidden CRE reveal? (call Apr 22 AM) |
+| Apr 21 | — | **WAL Earnings** | Q1 | Hidden CRE + Investor Day May 12 |
 | ~Apr 23 | — | **VLY Earnings** | Q1 | |
 | Apr 28-29 | — | **FOMC Meeting** | — | No SEP. Rate decision. |
 | ~Apr 29 | — | **EGBN Earnings** | Q1 | Stress confirmation |
