@@ -4,6 +4,39 @@ Running log of data that weakens the "Beneath the Ice" thesis. Newest first.
 
 ---
 
+## 2026-04-17 — Ally Q1 2026 Near-Prime Auto CLEAN (4-5 Consecutive Qtrs Improvement)
+
+**Data:** Ally Financial Q1 2026 earnings (Apr 17): Adj EPS $1.11 vs $0.94 est (+18%). Retail auto NCO **1.97%** (-17bps QoQ, -15bps YoY) — 5th consecutive quarter of YoY improvement. 30+ DQ all-in **4.6%** (-17bps YoY) — 4th consecutive quarter of improvement. Flow-to-loss rates "record low." Mgmt: "Consumer behavior is resilient. There's a disconnect between consumer sentiment and what we're seeing." 2026 retail auto NCO guide 1.8-2.0% MAINTAINED. [Ally Q1 2026 earnings; KB-CARL-222]
+
+**Why it matters:** Direct test of the **payment hierarchy cascade thesis** — that prime/near-prime auto would be the next domino after subprime 60+ DQ breached 6.9% ATR (Fitch). Test result: **headline CLEAN, four consecutive quarters improving.** If taken at face value, the near-prime cohort is NOT rolling into stress. Prior STATUS had Ally near-prime as "🟢 Stable" on Feb 10-D data — Q1 earnings CONFIRM and EXTEND that.
+
+**Thesis impact:** MODERATE weakening at the headline level, but see audit below. The claim that subprime stress would migrate up-quality within 1-2 quarters is NOT firing at ALLY in Q1. Payment hierarchy TIMING needs pushed out.
+
+**Audit (CARL performed Apr 17 vs FY2024 10-K):** Pulled ALLY FY2024 + FY2025 10-Ks from EDGAR. Found REGINALD-style reclassifications NOT present (no HFI→HFS dumping, no TDR re-aging, no new line-item taxonomy, floorplan shrinking, no legacy/runoff carve-out). BUT composition-masking IS present:
+- **Used retail S-tier origination mix: 40% → 37% (-3pp)** FY2024 → FY2025
+- **Nonprime (FICO<620) share: 9.7% → 10.1% (+40bps, +$0.4B to $8.6B)**
+- **Used retail avg FICO: 707 → 702 (-5pts)**
+- **ACL: $3.7B → $3.5B (-$224M, -6%)** = reserve RELEASE into mix DOWNGRADE (REGINALD Layer F tell, aggressive CECL)
+- **CLN issuance: $0.77B → $1.1B (+43% YoY)**, reference pools $7B → $10B = tail-risk routing to ABS/CLN investors (REGINALD auto-lender analog Layer G)
+- Originations +11% YoY into worsening mix
+
+**Synthesis:** Headline Q1 NCO improvement is **composition-driven** (seasoning of higher-FICO FY2024 vintages + mix shift to new retail + CLN routing), not genuine credit improvement. FY2025 cohort is like-for-like worse. **Thesis REVISION: payment hierarchy not invalidated but TIMELINE pushed** — P&L stress window moves to 2H 2026 / Q1 2027 when FY2025 vintage seasons. [KB-CARL-223, KB-CARL-224, KB-CARL-225, KB-CARL-226]
+
+**What would change my mind back (thesis reactivation triggers):**
+- Ally nonprime exposure exceeds 11% (currently 10.1%)
+- Ally S-tier used retail falls below 35% (currently 37%)
+- ACL releases further despite mix continuing to deteriorate
+- Q2 or Q3 2026 NCO stops improving on unchanged macro (shows FY2025 cohort seasoning faster than expected)
+
+**What would kill the thesis entirely (through this channel):**
+- Q1 2027 earnings show FY2025 vintage seasoned without NCO pressure AND subprime ABS cure collapse reverses (EART Class E CE reverts, SDART/AMCAR cushions rebuild)
+
+**Next hard test:** SYF Q1 Mon Apr 21 (different cohort — monoline cards, no used-car tail, but same CLN/mix-shift framework applies). ALLY's print does NOT pre-judge SYF.
+
+**File:** `domain/sources/ally/RECLASSIFICATION_AUDIT_FY2025.md` (full audit).
+
+---
+
 ## 2026-04-07 — Dave 28DPD Improved to 1.89% (Q4 2025)
 
 **Data:** Dave Inc. 10-K (filed Mar 2 2026): 28 Days Past Due rate on cash advances declined to 1.89% in Q4 2025, below 1.95-2.00% guidance. Beat expectations. CashAI credit filtering working. [Dave 10-K, Mar 2 2026]

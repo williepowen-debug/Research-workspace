@@ -8,6 +8,70 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-04-17 (PM) — v2.4.1: PAYMENT HIERARCHY TIMELINE PUSHED (ALLY Q1 COUNTER-EVIDENCE + AUDIT)
+
+### THESIS v2.4 → v2.4.1
+**Author:** CARL (post-ALLY Q1 earnings + CARL-performed FY2024/FY2025 10-K reclassification audit)
+**Action:** Minor refinement. Convergence unchanged at 58/60. No vector score change. Mechanism-level revision to payment hierarchy pathway timing.
+
+### TRIGGER
+
+Ally Financial Q1 2026 earnings (Apr 17): retail auto NCO 1.97% (-17bps QoQ), 30+ DQ 4.6%, 5th/4th consecutive quarter of YoY improvement respectively. Guidance maintained. Mgmt: "consumer behavior is resilient." Stock up. First real-time test of payment hierarchy cascade claim (prime/near-prime auto = next domino after subprime 60+ DQ breached 6.9% ATR) — headline test result: **CLEAN**, four consecutive quarters improving.
+
+### AUDIT PERFORMED
+
+Pulled ALLY FY2024 10-K (EDGAR acc 0000040729-25-000006, filed 2025-02-19) and FY2025 10-K (acc 0000040729-26-000005, filed 2026-02-25). Ran forensic comparison against REGINALD's regional bank reclassification framework (Layers 1-3: Memo Item 3, NDFI-in-C&I, sub-category reclassification) adapted to auto-lender toolkit (A-G: HFI→HFS, whole-loan sales, FDM/TDR, runoff segmentation, mix shift, reserve release, CLN/securitization routing). File: `domain/sources/ally/RECLASSIFICATION_AUDIT_FY2025.md`.
+
+**Findings — NOT present:** HFI→HFS dumping, TDR re-aging, runoff/legacy segmentation, new line-item taxonomy, NDFI-analog hiding place, dealer/floorplan stress (floorplan shrinking).
+
+**Findings — PRESENT (composition masking, not accounting fraud):**
+- Used retail S-tier origination mix: **40% → 37%** (-3pp FY2024 → FY2025)
+- Nonprime exposure (FICO<620): **9.7% → 10.1%** (+40bps, +$0.4B to $8.6B)
+- ACL: **$3.7B → $3.5B** (-$224M / -6%) = reserve release into mix downgrade (Layer F)
+- CLN issuance: **$0.77B → $1.1B** (+43% YoY), reference pools $7B → $10B (Layer G)
+- Originations +11% YoY into worsening mix
+
+### MECHANISM REVISION
+
+**Old view (pre-Apr 17 2026):** Payment hierarchy — subprime → near-prime → prime auto — transmission in 1-2 quarters. ALLY Q1 was the first real test; expected to show early signs of near-prime migration (NCO ticking up, DQ stopping improvement).
+
+**New view (v2.4.1):** Headline Ally Q1 is composition-driven, not genuine improvement:
+- **Seasoning:** FY2024 higher-FICO originations rolling into 2026 NCO window (lower losses)
+- **Mix routing:** Shift from used retail toward new retail (slower loss curve at same FICO)
+- **Tail-risk routing:** CLN/securitization expanded +43% YoY, exporting first-loss tail to ABS investors
+
+The FY2025 origination cohort is **like-for-like worse** than FY2024 — deterioration is embedded in the book, not yet in the P&L. The 18-24 month vintage seasoning lag means FY2025 loss window opens **2H 2026 and Q1 2027**.
+
+**Payment hierarchy thesis NOT invalidated — TIMELINE PUSHED.** Near-prime P&L stress window moves from Q1-Q2 2026 to 2H 2026 / Q1 2027.
+
+### CROSS-THESIS IMPLICATIONS
+
+**K-shape within auto credit (new refinement):** Subprime ABS cracking (EART Class E CE breached Apr 16, AMCAR ~2mo, SDART ~7mo) co-exists with near-prime headline-clean = intra-credit K-shape. ABS monoline stress is localized; doesn't migrate up-quality automatically — it migrates via seasoning of the near-prime vintage being originated *now* under looser standards, which plays out with a ~18 month lag.
+
+**Counter-signal containment:** The "Ally Stable 🟢" row in STATUS (Feb 10-D data) is CONFIRMED and EXTENDED, not overturned. But "stable" at headline ≠ "clean" at cohort. STATUS must distinguish the two.
+
+**REGINALD handoff:** Auto-lender reclassification framework (KB-CARL-225) translates their 3-layer bank framework. CLN routing = structural analog of their C&I hiding place. Sent as outbox signal.
+
+### PREDICTION UPDATES
+
+**CRL-05 — CC 90+ DQ breaches 13.74% (GFC peak)**
+- **Confidence: 85% → 82%** (mild reduction on headline/cohort distinction)
+- **Rationale:** Student loan cascade still adding +0.5-1.0pp pathway, multi-vector cost squeeze intact — these don't require near-prime auto migration to work. But ALLY counter-evidence weakens the "consumer credit generally migrating up-quality" framing at the headline level. Cohort-level deterioration (nonprime share growing) preserves the thesis, just shifts the visibility window later.
+- **No change to invalidation criteria.**
+
+**CRL-02 — Subprime Auto 60+ DQ crosses 7.0%** (already CONFIRMED*)
+- **Confidence: no change.** Subprime stress is independently confirmed; Ally near-prime data irrelevant to this cohort.
+
+### NEW FRAMEWORK ENTRY
+
+**Auto-lender reclassification methodology** (KB-CARL-225): 7-lever translation of REGINALD regional bank framework. Apply to SYF (Apr 21), COF (Apr 21), AXP (Apr 23). For SYF: no used-car tail, but CLN/mix shift via CareCredit vs Private Label segmentation potentially applicable.
+
+### DANGER WINDOW UPDATE
+
+Added: **Q1 2027** — FY2025 origination cohort full seasoning window. Near-prime auto P&L stress realization if thesis holds. If NCO/DQ deteriorate on unchanged macro at this point, thesis REACTIVATES HARD at the headline level.
+
+---
+
 ## 2026-04-17 — v2.4: FORECLOSURE PIPELINE CONVERTING + CREDIT CASCADE EXECUTING
 
 ### THESIS v2.3 → v2.4
