@@ -1,6 +1,6 @@
 # PROME Boot
 
-**Injection:** AGENTS.md, SOUL.md, USER.md always injected. HEARTBEAT.md + MEMORY.md main sessions only. Do NOT re-read injected files.
+**Injection:** AGENTS.md, PROME/identity/SOUL.md, PROME/identity/USER.md always injected. PROME/state/HEARTBEAT.md + PROME/state/MEMORY.md main sessions only. Do NOT re-read injected files.
 
 ---
 
@@ -27,14 +27,14 @@
 | **TODAY.md** | Today's date, catalysts, task checklist, key market levels, notable shifts | Agent operational state, pending system actions |
 | **STATUS.md** | Agent health table, pending actions, resolved items, intelligence quality notes | Market levels or catalyst calendar (→ TODAY), thesis narrative (→ HEARTBEAT) |
 | **SCRATCH.md** | Session handoff — what just happened, immediate state, pending items for next Prome | Anything that should persist beyond one session (→ MEMORY.md or STATUS) |
-| **HEARTBEAT.md** *(root, injected)* | Scenario weights, threshold table, catalyst calendar (48h), position decisions pending | Agent operational details (→ STATUS), full position sizing (→ POSITIONS) |
+| **PROME/state/HEARTBEAT.md** *(injected)* | Scenario weights, threshold table, catalyst calendar (48h), position decisions pending | Agent operational details (→ STATUS), full position sizing (→ POSITIONS) |
 | **POSITIONS.md** | Full portfolio: entries, stops, sizing, P&L, account value | Operational priorities or agent health |
 | **PREDICTIONS_MONITOR.md** | Falsifiable predictions with resolution dates and outcomes | Position details or daily catalysts |
 | **OUTBOX.md** | Prome's outbound signals for agents | Anything else |
 | **TOSCANINI/QUEUE.md** | Active proposals awaiting Will's decision | Completed/rejected proposals (→ DECISIONS.md) |
 | **TOSCANINI/WILL_QUEUE.md** | Tasks blocked on Will's direct action | Proposals for Will to approve (→ QUEUE.md) |
 | **memory/YYYY-MM-DD.md** | Daily session log — what was done, files changed, handoff notes | Long-term insights (→ MEMORY.md root) |
-| **MEMORY.md** *(root, injected)* | Curated long-term discoveries, thesis framework, system architecture | Daily session details (→ memory/) |
+| **PROME/state/MEMORY.md** *(injected)* | Curated long-term discoveries, thesis framework, system architecture | Daily session details (→ memory/) |
 
 ---
 
@@ -58,13 +58,13 @@
 |------|--------|-----------|
 | `PROME/SCRATCH.md` | **Full rewrite each session.** Ephemeral — current state + next actions. Overwrite, don't append. | Every session |
 | `memory/YYYY-MM-DD.md` | **Build within day, fresh next day.** Append checkpoints and session logs. One file per calendar day. | Continuous |
-| `MEMORY.md` | **Curated long-term.** Promote lasting insights from daily notes. Prune superseded entries. | Weekly review |
+| `PROME/state/MEMORY.md` | **Curated long-term.** Promote lasting insights from daily notes. Prune superseded entries. | Weekly review |
 | Old daily notes (>14 days) | **Archive — don't load at boot.** Read on-demand for past events. Don't delete. | As needed |
 
 **Weekly maintenance (first session of the week):**
 1. Skim past week's `memory/` dailies
-2. Pull anything missing from `MEMORY.md`
-3. Prune `MEMORY.md` — remove stale, superseded, or resolved entries
+2. Pull anything missing from `PROME/state/MEMORY.md`
+3. Prune `PROME/state/MEMORY.md` — remove stale, superseded, or resolved entries
 4. Verify `SCRATCH.md` reflects current state
 
 ---
@@ -137,7 +137,7 @@ Outputs: Convergence reports, contradiction flags, threshold proximity matrix
 
 **Prome scoped commits:**
 ```bash
-git add MEMORY.md AGENTS.md HEARTBEAT.md PROME/ TOOLS.md  # only what you changed
+git add PROME/state/MEMORY.md AGENTS.md PROME/state/HEARTBEAT.md PROME/ TOOLS.md  # only what you changed
 git commit -m "..."
 git push
 ```
