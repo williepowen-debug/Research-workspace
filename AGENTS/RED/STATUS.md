@@ -172,7 +172,7 @@ The strongest version of "we're wrong":
 ## TOP ADVERSARIAL PRIORITIES
 
 1. **Honor the falsification rule.** HYG exit recommendation now queued in OUTBOX.md. This is self-discipline; pre-registered rules exist to prevent me from arguing with my own prior self.
-2. **WAL/OZK earnings Apr 21.** Binary. DB positioning -2z means beat = violent squeeze. Write pre-registered decision framework BEFORE the call.
+2. **WAL/OZK earnings Apr 21.** Binary. DB positioning -2z means beat = violent squeeze. ✅ Pre-registered decision framework written Apr 18 → `research/WAL_OZK_APR21_FRAMEWORK.md`. 3×3 scenario matrix, pre-committed confidence/position triggers, both Path A and Path B falsifiers locked. Revisit Apr 22 at open.
 3. **SOFR Apr 17-20 watch.** If SOFR stays above IORB 3 sessions, this is structural; confidence upgrade. If normalizes, tax-day mechanic; no change.
 4. **Apr 22 ceasefire expiry + Talk-2 weekend.** If real deal: oil paper stays down, HY tightens further, bear thesis further hurt. If no deal: oil re-spikes, physical asserts, HY widens.
 5. **Dated Brent print Apr 15-17.** If <$110, paper and physical converged. If $130+, paper has overshot and oil thesis re-fires.
