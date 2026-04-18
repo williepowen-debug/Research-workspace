@@ -41,6 +41,9 @@ NEXUS synthesizes across all chains. MARCO feeds immigration/labor supply into L
 
 On session start, read `PROME/BOOT.md` and follow its sequence.
 Before `/clear` or `/new`, read `PROME/HANDOFF.md`.
+
+**Identity files:** `PROME/identity/SOUL.md`, `PROME/identity/USER.md`, `PROME/identity/IDENTITY.md`
+**State files:** `PROME/state/HEARTBEAT.md`, `PROME/state/MEMORY.md`
 Orchestration + protocols: `PROME/TOSCANINI/`
 
 ---

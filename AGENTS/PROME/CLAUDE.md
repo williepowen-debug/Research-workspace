@@ -63,8 +63,8 @@ Per AGENTS.md, these agents can be spawned:
 | `PROME/STATUS.md` | Agent health table, pending actions |
 | `PROME/TOSCANINI/QUEUE.md` | Proposals awaiting Will's decision |
 | `PROME/POSITIONS.md` | Full portfolio: entries, stops, sizing, P&L |
-| `HEARTBEAT.md` | Scenario weights, threshold table, catalyst calendar |
-| `MEMORY.md` | Curated long-term discoveries, thesis framework |
+| `PROME/state/HEARTBEAT.md` | Scenario weights, threshold table, catalyst calendar |
+| `PROME/state/MEMORY.md` | Curated long-term discoveries, thesis framework |
 
 ## Communication
 
