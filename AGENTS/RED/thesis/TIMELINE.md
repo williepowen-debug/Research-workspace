@@ -1,93 +1,158 @@
-# RED ADVERSARIAL TIMELINE — Where We Could Be Wrong on Timing
+# RED ADVERSARIAL TIMELINE v2 — Bifurcated Path A / Path B
 
-*Network consensus timeline vs RED's assessment of when things actually hit.*
+*Network consensus timeline vs RED's bifurcated assessment of how the thesis resolves.*
 
-**Last Updated:** 2026-04-05 (post-debate revision)
-
----
-
-## NETWORK CONSENSUS TIMELINE
-
-| Phase | Network Says | Agents |
-|-------|-------------|--------|
-| Employment deterioration | NOW — already firing | LABOR |
-| Consumer stress acceleration | Q2 2026 (gas $4 + UI exhaustion) | CARL |
-| Private credit cascade | Stage 3 NOW, Stage 4 Q2 | BROCK |
-| Bank earnings reveal | Apr 16-21 (OZK/WAL) | REGINALD |
-| Credit market break | Q2 2026 (HY OAS >400) | LIQUID |
-| Consumption stress quarter | Q3 2026 | CARL |
-| Full cascade / systemic | Q4 2026 | PROME convergence |
-| Peak selling | Q1-Q2 2027 | FORGE/timing |
+**Last Updated:** 2026-04-18 | **Supersedes:** 2026-04-05 unified-timeline version (archived via git)
 
 ---
 
-## RED'S TIMELINE CRITIQUE (Post-Debate, Apr 5)
+## WHY THIS IS A FORK NOW
 
-### ON TIME (Fixed-date events, April):
-- **Bank earnings (Apr 16-21):** OZK/WAL. Binary. Can't be delayed.
-- **BOJ (Apr 23-24 / May 1):** Scheduled. Hike or hold.
-- **PC Q1 marks (Apr-May):** Auditors force marks. Can't extend.
+The Apr 7 pre-registered falsification rule fired Apr 10-16 (HY OAS 285 sustained 6 days). A single-timeline thesis can no longer accommodate what the data is saying. Paper markets (HY OAS, VIX, SPX, HYG, APO) have already resolved to a bull/managed-decline regime. Structural data (SOFR breach, RF miss, FHLB surge, PC gates, Red Lobster 98%/par, FHA DQ 11.52%, foreclosures +26% YoY, NAHB HMI 34) continues to accumulate stress.
 
-### 1-3 MONTHS BEHIND NEAR-DATED PUTS:
-- **HY OAS 316→400:** Historical precedent: 2-6 months for this move. Best case May, worst case September. June puts are a coin flip on timing. HY OAS debate (Apr 5) found 55% probability of >50bps widening in 30 days, but only ~35% of reaching $75 HYG strike profitability.
-- **PC Stage 3→4 (forced selling):** Gates holding, not breaking. Forced selling hasn't started in scale. Realistic: May-July.
-- **Consumer DQ acceleration from oil:** 30-60 day lag from gas $4+ (Mar 31) = May for marginal households. But state-level confirmation data arrives mid-June. Visibility problem.
-
-### 3-6 MONTHS BEHIND NEAR-DATED PUTS:
-- **Employment channel breaking:** NFP +178K. Claims 202K. RED estimates 2-4 quarters before claims hit 300K. That's Q4 2026 at earliest. Per buffer depletion framework: employment doesn't need to break for credit stress, but if it does break, it's Q4+.
-- **Consumption stress quarter:** CARL says Q3. Buffer depletion thesis says real but slow burn. July-September for data to confirm.
-- **Full cascade:** Q4 2026 is a model output, not data. RED agrees this is the endpoint.
-
-### THESIS MANIFESTATION WINDOW:
-**July-October 2026.** This is when the thesis has maximum probability of showing in hard data.
+**The thesis survives. Most near-dated options do not.** The two paths need independent invalidation criteria, position mappings, and watch lists. Forcing them into one timeline is how RED produced narrow distributions that went 4/10 wrong.
 
 ---
 
-## POSITION vs TIMELINE MISMATCH (Post-Debate Revision)
+## PATH A — "Paper Markets Pricing Managed Decline" (54%)
 
-| Position | Expiry | Thesis Catalyst | Timing Gap | Rating |
-|----------|--------|-----------------|:----------:|:------:|
-| APO Apr $100P | Apr 17 | Stage 3, stop Apr 7 | 0 days | 🔴 EXPIRING |
-| SOFI May $16P | May 1 | Consumer stress Q3 | 3-5 months | 🔴 TOO EARLY |
-| KRE May $70P x2 | May 15 | Q3-Q4 cascade | 3-5 months | 🔴 TOO EARLY |
-| TLT May $88P x2 | May 15 | Yield breakout Q2-Q3 | 1-3 months | 🟠 MARGINAL |
-| HYG Jun $75P x8 | Jun 18 | HY OAS >400 | 1-4 months | 🟠 DEBATE: 35% profitable |
-| IWM Jun $250P | Jun 30 | Small cap stress Q2-Q3 | 1-3 months | 🟠 MARGINAL |
-| WAL Jun strikes | Jun 18 | Apr 21 earnings | 0 (catalyst before expiry) | 🟢 ALIGNED |
-| OZK Aug $45P x4 | Aug 21 | Apr 16 earnings + follow-through | In window | 🟢 ALIGNED |
-| WAL Sep strikes | Sep 18 | Full stress Q3 | In window | 🟢 ALIGNED |
-| TLT Oct $82P x2 | Oct 16 | Credit break window | In window | 🟢 ALIGNED |
-| KRE Dec $60P x4 | Dec 18 | Full cascade Q4 | In window | 🟢 ALIGNED |
-| APO Dec $95P | Dec 18 | Full PC cascade | In window | 🟢 ALIGNED |
-| FXY shares x8 | No expiry | BOJ hike Apr-May | N/A | 🟢 SAFE |
+**Claim:** Credit, equity, and vol have already re-rated to a soft/managed outcome. HY OAS compresses toward mid-200s. VIX stays 16-20. SPX grinds ATH+. APO/BDC rally extends. Structural data is lagging but not load-bearing for asset pricing on a 3-6 month view. Absorbs STATUS.md's Managed Decline (38%) + Policy Rescue (14%) + Soft Landing (2%).
 
-**Summary:** 3 too early (RED), 3 marginal (ORANGE), 7 aligned (GREEN).
+| Dimension | Detail |
+|---|---|
+| **Dominant signals** | HY OAS 285 (-57bps 3wk), VIX 17.9, SPX ATH, APO +18% 6d, HYG above strike, Brent paper -37% from Apr 7 peak |
+| **Timeline** | Already unfolding. Path A is weeks-to-months, not quarters. |
+| **Invalidation (Path A breaks → Path B wins)** | HY OAS >305 sustained 5d before end-May; OR WAL *and* OZK miss + guide down Apr 21. (Either condition alone is sufficient — OR, not AND.) |
+| **Position implication** | **Near-dated puts die in this path.** HYG Jun, KRE May, IWM Jun, SOFI May all resolve against us. |
+| **Next tests** | Apr 21 WAL/OZK earnings (biggest). Apr 22 Iran deadline. Weekly HY OAS. SOFR Apr 17-20 resolution. |
 
 ---
 
-## ROLL RECOMMENDATIONS (From Both Debates)
+## PATH B — "Structural Stress Eventually Transmits" (41%)
 
-Both the HY OAS debate and oil transmission debate converged on the same conclusion:
+**Claim:** Paper markets are wrong about the timeline, not the direction. SOFR/FHLB/PC-gates/consumer-DQ/housing are accumulating to a break point CARL now places at 2H 2026 / Q1 2027. The rally is real-time noise; the transmission hasn't happened yet. Absorbs STATUS.md's Full Stagflation (32%) + Acute Dislocation (9%).
 
-| Position | Action | Rationale |
-|----------|--------|-----------|
-| SOFI May $16P | **ROLL to Aug/Sep** or exit | No catalyst before May 1. NFP strong hurts fintech. |
-| KRE May $70P x2 | **ROLL to Sep/Oct** | Thesis says Q3-Q4. May is 3-5 months early. |
-| TLT May $88P x2 | **Evaluate after BOJ Apr 23-24** | If BOJ hikes, hold. If holds, roll to Oct. |
-| HYG Jun $75P x8 | **REDUCE at 305-320 OAS, EXIT at <300.** Roll remainder to Sep/Oct if no HY >350 by end of April. | HYG debate: only 35% probability of profitability even in widening scenario. |
-
-**Principle from debates:** Rolling duration > adding size. The thesis needs more runway than May/June allows.
-
----
-
-## WHAT COULD COMPRESS THE TIMELINE
-
-If 2+ April catalysts fire bearish simultaneously, depleted buffers mean no absorption:
-- OZK miss + BOJ hike + Iran escalation = compressed timeline
-- This is a scenario (~15% probability), not a base case
-- If it happens, near-dated puts suddenly become well-timed
-- Pre-written frameworks exist for all three catalysts
+| Dimension | Detail |
+|---|---|
+| **Dominant signals** | 13 PC gates, Red Lobster 98%/par, FHA DQ 11.52%, foreclosures +26% YoY, REO +45% YoY, SL default 9.2M, NAHB HMI 34 (7mo low), CMBS MF DQ 7.15% ATH, SOFR Apr 15 breach, RF miss, FHLB surge 4/4 |
+| **Timeline** | CARL Apr 17 update pushed the consumption-stress quarter to 2H 2026. Full cascade Q4 2026 → Q1 2027. That is 6-15 months out. |
+| **Invalidation (Path B breaks → Path A wins)** | PC gates *released* with minimal discount (funds reopen, no forced-seller discount) OR Fed policy rescue announced (BTFP 2.0 / eSLR II / liquidity facility). Either is sufficient to invalidate structural transmission. |
+| **Position implication** | **Long-dated puts survive and are thesis-appropriate.** KRE Dec, TLT Oct, APO Dec, WAL/OZK Sep, FXY. These positions were correctly dated. |
+| **Next tests** | SOFR Apr 17-20 (structural vs tax-day). Q1 NCO/reserve release extrapolations. BOJ Apr 23-24. Next NAHB / FHA DQ / foreclosures prints. |
 
 ---
 
-*Update after each major catalyst resolves. Track whether network timeline or RED's critique was closer.*
+## RESIDUAL — "War Escalation / Scenario D" (5%)
+
+Retained at non-zero because the underlying drivers persist. **War escalation + PC Stage 4 + bank miss cohort** in a single window could still compress timelines. Hormuz open (Apr 17) and Lebanon 10-day ceasefire have removed the most probable acute path. This is tail-compatible with Path B but not load-bearing for position sizing. Maps to STATUS.md War Escalation (5%).
+
+*Probability check: Path A (54) + Path B (41) + Residual (5) = 100. Maps 1:1 to STATUS.md's 6 hypotheses.*
+
+---
+
+## NETWORK CONSENSUS vs RED v2
+
+| Phase | Network Says | RED Path A says | RED Path B says |
+|---|---|---|---|
+| Employment deterioration | NOW | Not happening on cycle timescales | Gated by buffer depletion, 2H 2026+ |
+| Consumer stress acceleration | Q2 2026 | Not visible in paper; CARL says 2H 2026 | Confirmed — just slower than near-dated expiries |
+| Private credit cascade | Stage 3 NOW, Stage 4 Q2 | Gates are holding, not breaking; priced in | Gates + Red Lobster suggest Stage 4 in Q4 2026 / Q1 2027 |
+| Bank earnings reveal | Apr 21 (OZK/WAL) | Beat-and-fade continues; RF was idiosyncratic | RF broke the pattern; more misses ahead |
+| Credit market break | Q2 2026 (HY OAS >400) | **Invalid — already moved opposite direction** | Re-widening only on Q3-Q4 defaults |
+| Consumption stress quarter | Q3 2026 | Priced in / won't happen | 2H 2026 per CARL; data visible in hard prints by Q1 2027 |
+| Full cascade | Q4 2026 | Not applicable | Q4 2026 → Q1 2027 |
+| Peak selling | Q1-Q2 2027 | Not applicable | Q1-Q2 2027 still the endpoint |
+
+---
+
+## POSITION vs TIMELINE MISMATCH v2
+
+Positions grouped by which path survives them. Live prices Apr 17 close.
+
+**⚠️ Position book may be incomplete.** Sourced from RED/STATUS.md Apr 18 vulnerability table. FORGE/STATUS.md is stale (Mar 25) and listed additional positions (ZION Jul, FLG Jul, AAL Jun/Jul, KELYA Aug, OWL Apr, ARES Jun) whose current status RED has not verified. Flag to Will for current book before sizing decisions.
+
+### Group 1 — Already resolved against us
+| Position | Status | Note |
+|---|---|---|
+| APO $100P Apr 17 | 💀 EXPIRED | Closed $124.62. Zero value. |
+| HYG $75P Jun x8 | 🔴 EXIT NOW | Pre-registered falsification fired. Rule demands exit. |
+
+### Group 2 — Path A kills them (near-dated, no transmission arrives in time)
+| Position | Expiry | Live | Killed if |
+|---|---|---:|---|
+| SOFI May $16P x2 | May 1 | — | No consumer-data surprise in 13 days. Near-certain loss. |
+| KRE May $70P x2 | May 15 | $70.37 | WAL/OZK beat Apr 21 + no widening by May 1. |
+| IWM Jun $250P | Jun 30 | $275.78 | SPX holds ATH, Russell risk-on continues. Deep OTM. |
+| TLT May $88P x2 | May 15 | $87.07 | BOJ holds Apr 23-24 + bond vol stays collapsed. Oil paper crash = rates support. |
+
+### Group 3 — Bridge positions (Apr 21 binary)
+| Position | Expiry | Live | Binary read |
+|---|---|---:|---|
+| OZK $45P Aug x4 | Aug 21 | $48.73 | Aug runway survives a beat; miss = thesis accelerates. DB -2z = squeeze risk on beat. |
+| WAL Jun/Sep multi-strike | Jun/Sep | $79.39 | Sep well-timed for Q2 follow-through. Jun is bridge; Sep is Path B. |
+| OZK $42.5P May | May 15 | $48.73 | Near-dated; dies unless Apr 21 miss. |
+
+### Group 4 — Path B survives them (long-dated, thesis-compatible)
+| Position | Expiry | Live | Path B fit |
+|---|---|---:|---|
+| KRE $60P Dec x4 | Dec 18 | $70.37 | Q4 2026 cascade window. Dated right. |
+| TLT $82P Oct x2 | Oct 16 | $87.07 | BOJ + fiscal + Q4 supply. In window. |
+| APO $95P Dec | Dec 18 | $124.62 | PC Stage 4 Q4. Painful DD but timeline right. |
+| WAL Sep strikes | Sep 18 | $79.39 | Q2 follow-through window. |
+| FXY shares x8 | — | $57.89 | BOJ Apr 23-24 + yen dynamics. No expiry. |
+
+*ARES $95P Jun and other positions (ZION, FLG, AAL, KELYA) not included — current status unverified. See footnote above.*
+
+**Tally:** 2 already resolved / 4 Path-A-kills / 3 Apr 21 bridge / 5 Path-B-aligned (from verified subset). The bridge group is the single most consequential resolution of Apr 21.
+
+---
+
+## ROLL / REDUCE / EXIT — RED's Recommendation
+
+Actions ranked by pre-registered rules and bifurcation framework.
+
+| Action | Position | Rationale |
+|---|---|---|
+| **EXIT** | HYG Jun $75P x8 | Pre-registered falsification fired. Self-discipline. |
+| **EXIT** | SOFI May $16P x2 | No catalyst in 13 days. Stale thesis. |
+| **REDUCE 25%** | KRE May $70P x2 | Ahead of Apr 21. Keep exposure for the miss; derisk the beat. |
+| **REDUCE 25%** | IWM Jun $250P | SPX ATH regime. Deep OTM. |
+| **HOLD** | TLT May $88P x2 | Through BOJ Apr 23-24. Decide after. |
+| **HOLD** | WAL Jun/Sep, OZK Aug | Binary Apr 21. This is what we're paying for. |
+| **HOLD** | All long-dated (KRE Dec, TLT Oct, APO Dec, FXY) | Path B instruments. Thesis-timing compatible. |
+| **PRE-REGISTER** | If WAL or OZK BEATS + guides up Apr 21 → exit both, reduce KRE 25%, confidence 70→63% | Squeeze-risk rule. |
+| **PRE-REGISTER** | If WAL or OZK MISS Apr 21 → hold all, confidence 70→74% | Bank cohort pattern break. |
+
+---
+
+## WHAT COULD COMPRESS PATH B INTO PATH A'S WINDOW
+
+**Probability ~12%.** Triggers:
+- WAL *and* OZK miss Apr 21
+- SOFR sustained >IORB through Apr 20+
+- Apr 22 ceasefire fails + Brent physical re-prints $135+
+- Any PC fund gates *breaking* (not holding) before May
+
+If 3+ of the above fire in the same week, near-dated puts become well-timed and the bifurcation collapses back to a single accelerated path. Pre-written frameworks exist for each catalyst.
+
+## WHAT COULD PUSH PATH B BEYOND 2027
+
+**Probability ~18%.** Triggers:
+- Fed policy rescue (BTFP 2.0 / eSLR II)
+- Talk-2 signed framework + real Iran detente
+- WAL/OZK beat + guide up + SOFR normalizes
+- PC fund gates *released* with minimal discount
+
+If 2+ fire, CARL's Q1 2027 endpoint slides to 2H 2027 or 2028. Long-dated puts themselves become mistimed. This is the "managed decline extends into a new cycle" scenario.
+
+---
+
+## FALSIFICATION LINK
+
+This document pairs with STATUS.md (Falsification Criteria table). STATUS.md holds the live falsification watch; this timeline is the slower-moving structural frame. Update this file only when a **path-level** claim (probability, invalidation trigger, position-mapping) changes — not on every data print.
+
+**Next mandatory review:** Apr 21 evening (post-WAL/OZK) OR Apr 22 evening (post-Iran deadline) — whichever fires first.
+
+---
+
+*RED v2: a thesis that's "right eventually" is indistinguishable from a thesis that's wrong. The two paths must be falsifiable independently, and the positions must be sized to the path, not the thesis. If a position dies in Path A, it dies regardless of what Path B eventually proves.*
