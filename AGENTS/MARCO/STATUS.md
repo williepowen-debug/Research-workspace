@@ -1,5 +1,5 @@
 # MARCO STATUS
-**Last Updated:** 2026-04-09 13:35 UTC | **Status:** 🟡 YELLOW → GREEN (DHS shutdown resolving)
+**Last Updated:** 2026-04-18 11:15 ET | **Status:** 🔴 RED (DHS shutdown Day 59, automation buildout in progress)
 
 ---
 
@@ -7,7 +7,7 @@
 
 | Indicator | Value | Status |
 |-----------|-------|--------|
-| DHS Shutdown | Day 46, NO resolution, both chambers on recess, earliest vote Day 58 (Apr 13 Senate return) | 🔴 BREACHED |
+| DHS Shutdown | Day 59, STILL NO resolution. Senate passed bill (no ICE/CBP funding), House conservatives blocking. Shutdown continues. | 🔴 BREACHED |
 | TSA Disruption | 400+ quit, back pay flowing but structural damage done, shutdown continues | 🔴 BREACHED |
 | ICE Raids | Expanding: +58% arrests CA Central Valley, rural MN meatpacking, 14 custody deaths in 2026 | 🔴 BREACHED |
 | FL Net Domestic Migration | 22,517 (93% collapse); Miami domestic migration now **-2.0%** — worse than pre-COVID NYC (Kolko/Census to Jul 2025) | 🔴 BREACHED |
@@ -24,8 +24,8 @@
 
 ## ACTIVE SITUATIONS
 
-### DHS Shutdown (Day 46, 🔴 CRITICAL — LONGEST EVER, NO RESOLUTION IN SIGHT)
-- **Day 46.** 3rd paycheck missed. Congress in deadlock — BOTH chambers now on recess:
+### DHS Shutdown (Day 59, 🔴 CRITICAL — LONGEST EVER, NO RESOLUTION IN SIGHT)
+- **Day 59.** 3rd paycheck missed. Congress returned Apr 13-14 but still deadlocked:
   - **Senate** passed bill (unanimously) funding DHS *except* ICE/CBP. House rejected it.
   - **House** passed rival 8-week (60-day) stopgap funding all of DHS (213-203). Senate on recess, hasn't voted.
   - Two competing bills, no conference. **Earliest possible Senate vote: Day 58 (Apr 13 return).**
