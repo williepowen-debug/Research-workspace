@@ -15,27 +15,41 @@
 - Apr 2: 75% confidence. Full network read. Downgraded on: unanimity risk, counter-signals dismissed, policy rescue underweighted, timeline mismatch.
 - Apr 5: 77% confidence. NFP +178K (employment bull) offset by Dated Brent $141 (oil bear). Two RED predictions WRONG (NFP range, oil ceiling). HY OAS 316 = strongest counter-signal.
 - Apr 7: 76% confidence. HY OAS crashed to 305 (COMPELLING). VIX-HY divergence. LIQUID broke consensus (🟡). Kharg struck — muted reaction. 3/10 predictions WRONG. HYG puts 🔴🔴 CRITICAL.
+- Apr 18: 70% confidence. **Pre-registered falsification FIRED Apr 10-16** (HY OAS 285 sustained). HYG exit recommended. VIX 17.9, SPY ATH, Brent paper -37% peak-to-Apr-17. Bifurcation widened: paper Path A vs structural Path B. Managed Decline 38% > Full Stagflation 32% (first time since Mar 26).
 
 ## Methodology Notes
 - Network unanimity (all agents RED) is itself a risk signal — treat maximum alignment as maximum blind spot risk.
 - Counter-signals deserve explicit weights, not just explanations. Built table in STATUS.md Apr 2.
 - Pre-catalyst decision frameworks should be written BEFORE data arrives. See research/CATALYST_FRAMEWORK_APR2.md.
-- **RED's prediction distributions are too narrow.** Both resolved predictions underestimated extremes in opposite directions. Widen ranges.
+- **RED's prediction distributions are too narrow.** 4/10+ resolved predictions WRONG (RED-02, RED-03, RED-06, RED-08). Underestimate tails in BOTH directions. Systemic, not idiosyncratic. Widen ranges; stop picking modal scenarios.
 - **Read other agents' corrections before flagging discrepancies.** NDFI was resolved in REGINALD's files for weeks — RED wasted 4 sessions not checking.
+- **Honor pre-registered falsification rules, don't argue with prior-self.** Apr 7 rule fired Apr 10; correct move is to execute the pre-registered action, not re-derive whether I still agree. That's the whole point of pre-registration.
+- **Thesis can be bifurcated: paper vs structural.** Transmission from structural (SOFR, CRE, CMBS, consumer, bank earnings) to paper (HY OAS, VIX, SPX) can lag a full quarter or more. Near-dated options die in this gap. Size timeline to instruments, not thesis.
+- **"Bull wins short, bear wins long" is a valid state.** Not cognitive dissonance — the correct read when structural accumulation outpaces paper repricing.
 
 ## Key Relationships
 - Will wants RED to always present the strongest possible bull case, even when losing. Be honest, not contrarian.
 - RED reads all agents but owns no domain data. Challenge what others produce.
 - CARL, SAM, REGINALD run on Claude Code independently — do not expect to spawn them.
 
-## Standing Counter-Evidence (Updated Apr 7)
-- **HY OAS crashed to 305** — COMPELLING counter-signal. 37bps tightening in 5 days. 5bps from 300 falsification threshold. LIQUID at 🟡. VIX-HY divergence (26.59/305). If <300, exit HYG + reduce all 25%.
-- **KEY INSIGHT:** HY OAS = corporate credit. Does NOT kill bank thesis (OZK/WAL/KRE depends on earnings). Kills HYG puts specifically.
-- **NFP +178K** — Employment channel genuinely resilient. Underlying ~+143K ex-strike. Wages +3.5% YoY (stagflation, not strength).
-- Staffing canaries (RHI/KFRC) turned positive after 12Q of decline — first cycle indicator inflecting.
-- Continuing claims ticked up to 1.841M (+25K) — slight deterioration.
-- ~~Oil ceiling at $108-112~~ **INVALIDATED.** Dated Brent $141. RED was wrong.
-- **Muted Kharg reaction:** 90% Iran exports struck, Brent +1-2%. Market shrugging.
+## Standing Counter-Evidence (Updated Apr 18)
+- **HY OAS 285** — FALSIFIED Apr 10-16. Rule fired. HYG exit owed. Bull-leaning 65/35.
+- **VIX 17.90** (was 26.59 Apr 7) — vol regime reset. Bull-leaning 60/40.
+- **Brent paper $88.87 (-37% from $141 peak)** — war premium unwinding. Physical Dated ~$132 still; spread $43-44.
+- **SOFR > IORB +7bps Apr 15** — first funding stress print this cycle. Apr 17-20 decides structural vs tax-day mechanical. 40/60 bear. NEW.
+- **RF miss both lines Apr 17** — first outright Q1 bank cohort miss (5/5). 35/65 bear. NEW.
+- **FHLB surge systemic** — 3/3 → 4/4 reporters, +64-265% QoQ. Universal pattern. 45/55 bear.
+- **Red Lobster TCW 98%/par** — Stage 3 precursor. 35/65 bear.
+- **IMF GFSR Apr 14** — "stand up liquidity/funding facilities." Top-down PC validation.
+- **APO +18% in 6d** — $104 → $124.62. PC public sentiment moderating. 55/45 bull.
+- **Foreclosures Q1 +26% YoY / REO +45% YoY** — pipeline converting. 40/60 bear.
+- **FHA DQ 11.52% vs Conv 2.89%** — housing stress bifurcated. 40/60 bear.
+- **FICO SL 90+ 9.8%** (+25% vs Apr 2025). 9.2M defaults / $180B. 2H 2026-Q1 2027 cash drag.
+- **CARL convergence 58/60** — composition masking generalizes (ALLY→BNPL→subprime auto ABS). Timeline 2H 2026/Q1 2027.
+- Staffing canaries RHI/KFRC still +. Continuing claims 1.841M (slight deterioration).
+- Baker Hughes rig count flat through March-April — supply elasticity slow.
+- Mar PPI +4.0% YoY but core-core +0.2% MoM cooler — goods+energy shock, not broad reacceleration.
+- DB Asset Allocation: financials positioning -1.5 to -2z vs consensus +20-40% earnings. Squeeze risk on beat.
 
 ## Cleanup Done (Apr 5)
 - RED_SKELETON.md — DELETED. VX.tsv is the live counter-evidence system. Git history has the old file.
