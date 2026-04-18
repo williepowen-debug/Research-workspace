@@ -103,6 +103,11 @@ def truncate_key_fact(desc, analysis, max_len=250):
     return truncated + "..."
 
 def main():
+    import sys
+    
+    # Check for batch argument
+    batch = sys.argv[1] if len(sys.argv) > 1 else 'all'
+    
     # Read ML.tsv
     ml_entries = []
     with open('workbook/ML.tsv', 'r', encoding='utf-8') as f:
@@ -110,16 +115,29 @@ def main():
         for row in reader:
             ml_entries.append(row)
     
-    # Sort by ID and take first 35
+    # Sort by ID
     ml_entries.sort(key=lambda x: x['ID'])
-    first_35 = ml_entries[:35]
     
-    # Create KB.tsv
-    with open('workbook/KB.tsv', 'w', newline='', encoding='utf-8') as f:
+    # Select batch
+    if batch == 'first':
+        selected = ml_entries[:35]
+        mode = 'w'  # Write new file
+    elif batch == 'second':
+        selected = ml_entries[35:]
+        mode = 'a'  # Append to existing
+    else:
+        selected = ml_entries
+        mode = 'w'
+    
+    # Create or append to KB.tsv
+    with open('workbook/KB.tsv', mode, newline='', encoding='utf-8') as f:
         writer = csv.writer(f, delimiter='\t', lineterminator='\n')
-        writer.writerow(['ID', 'Date', 'Category', 'Topic', 'Key_Fact', 'Confidence', 'Source', 'Notes'])
         
-        for entry in first_35:
+        # Write header only if creating new file
+        if mode == 'w':
+            writer.writerow(['ID', 'Date', 'Category', 'Topic', 'Key_Fact', 'Confidence', 'Source', 'Notes'])
+        
+        for entry in selected:
             kb_id = entry['ID'].replace('ML-', 'KB-MARCO-')
             date = entry['Created']
             category = map_category(entry['Domain'])
@@ -131,7 +149,7 @@ def main():
             
             writer.writerow([kb_id, date, category, topic, key_fact, confidence, source, notes])
     
-    print(f"Created KB.tsv with {len(first_35)} entries")
+    print(f"{'Created' if mode == 'w' else 'Appended'} KB.tsv with {len(selected)} entries (batch: {batch})")
 
 if __name__ == '__main__':
     main()
