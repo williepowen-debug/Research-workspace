@@ -42,23 +42,25 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (Apr 19 — full-day session, 4 batches)
-- **Heaviest single-day in WALTER history.** AM carry-forward (3) + PM-1 image batch (3) + PM-2 image batch (4) + PM-3 image batch (5) + PM-4 image batch (3) = **18 routed, 6 killed.** Total dispatched on BOARD: 16 → 34.
-- **Bear cluster matured to ~15 nodes + 3 counter-channels + 1 12th-node candidate.** Composition:
-  - Positioning pillar (4 channels, STRONGEST): SIG-006 GS Prime HF cover, SIG-008 DB financials gap, SIG-016 BofA largest MMF outflow ever, SIG-018 S3 $93B short positions covered MTD + GS most-shorted +13% wk + UBS weak +9% + profitless tech +14% wk
+### CHANGES SINCE LAST SESSION (Apr 19 — full-day session, 5 batches)
+- **Heaviest single-day in WALTER history.** AM carry-forward (3) + PM-1 image batch (3) + PM-2 image batch (4) + PM-3 image batch (5) + PM-4 image batch (3) + PM-5 image batch (5) = **23 routed, 7 killed.** Total dispatched on BOARD: 16 → 39.
+- **Bear cluster matured to ~16 nodes + 3 counter-channels + MULTIPLE counter-channel candidates.** Composition:
+  - Positioning pillar (**5 channels, STRONGEST**): SIG-006 GS Prime HF cover, SIG-008 DB financials gap, SIG-016 BofA largest MMF outflow ever, SIG-018 S3 $93B short positions covered MTD + GS most-shorted +13% wk + UBS weak +9% + profitless tech +14% wk, SIG-023 CPC 0.66 most bullish since 2021
   - Vol-pricing pillar (4 channels, IMPLIED-only per SIG-012): SIG-002 VIOLET SKEW divergence, SIG-003 VIOLET POSTURE 🟠, SIG-007 Altrichter OVX divergence, SIG-008 DDS rally extremity
   - Valuation pillar (2 channels): SIG-005 Buffett 232%, SIG-004b NDX 25yr parabolic
   - Breadth pillar (2 channels, mid/long-horizon-only per SIG-011): SIG-003 NDX RSI + SPX neg breadth, SIG-009 Zaccardi finviz interior drawdowns
   - Pattern (2 channels): SIG-004a Wyckoff distribution
   - Iran/oil (3 channels): SIG-006 Trump WH Sit Room w/ Bessent, SIG-010 (superseded by 014), SIG-014 Iran SoH re-closure Apr 18 verified
-  - Credit (1 channel): SIG-015 NFIB small-biz CapEx GFC-low + Sub-V +67% YoY
+  - Credit pillar (**2 channels**): SIG-015 NFIB small-biz CapEx GFC-low + Sub-V +67% YoY; SIG-020 ATTOM Q1 foreclosure +26% YoY (Completed +45%)
   - **Counter-channels (3):** SIG-011 Detrick short-term breadth bullish (80% above 20-day MA), SIG-012 Sethi/Morningstar realized-vol normal (15% YTD), SIG-017 Bilello combined (VIX -43.7% = 5th biggest crash + SPX +11.9% = 13th biggest 3-wk gain since 1950, both with bullish-leaning forward returns)
-  - **12th-node candidate:** SIG-013 Barchart BRK.A -39pts vs SPY (composition caveat)
+  - **Counter-channel candidates (adds):** SIG-013 Barchart BRK.A -39pts vs SPY (composition caveat); SIG-019 LTM equity-flow modest on AUM-normalized (0.4% vs 7.7% bonds) = retail-YOLO-framing counter; SIG-021 MS 1990-vs-2026 oil-shock structural comparison (all 6 axes favor 2026) = oil-shock-to-recession transmission counter-frame
+  - **Iran-posture (new):** SIG-022 @neetintel EAM/HFGCS+E-6B simultaneous Apr 19 19:20 UTC — 🔍 VERIFY flag, confidence 0.40 reflecting observation-vs-interpretation asymmetry
 - **Verify-research spawn caught 2 misframed virals this session.** (1) BOJ ¥330B (PM-1) — actually BOJ's annual JP-ETF disposal policy from Sept 2025, not Apr 18 US-ETF outflow. (2) WhaleInsider/AK "ZERO Hormuz tankers / first in history" (PM-3) — actually ≥8 tankers (Al Jazeera/Argus); historic event is Feb 28 onset, not Apr 18. Both FALSE-MISFRAMED, killed. WhaleInsider underlying event (Iran re-closed SoH Apr 18 after brief Apr 17 partial reopening; ~95% transit collapse since Feb 28) preserved as SIG-014 IMMEDIATE → BRENT under proper attribution.
 - **Iran/Hormuz state CORRECTED twice intra-session.** PM-2: bifurcation framing (Apr 17 OPEN vs Apr 18 fragile). PM-3: bifurcation collapsed (re-closure verified Apr 18; both operational + political lean re-escalate). SIG-010 INDEX row carries correction pointer to SIG-014. Use SIG-014's verified state, not SIG-010's framing.
 - **Cluster steelman maturation pattern.** Bear thesis was assembled in earlier sessions. Counter-evidence channels arriving in PM-3/PM-4 are the SECOND-ORDER product of routing extreme positioning data — when something is 11+ standard deviations, counter-narratives form quickly. RED now has actual material (3 counter-channels) to argue with, not just "lose with grace."
 - **Will requested mid-closeout interpretation in PM-4 (msg 713).** Sent synthesis (msg 714): two stories TRUE simultaneously, different time horizons. Asymmetric-into-Tuesday trade MORE attractive (more positioning to potentially unwind), but post-Tuesday view should NOT assume regime change. Frame as 2-day catalyst convexity, NOT regime call.
 - **Cross-author combine precedent established as standing operating method.** SIG-010 (Flightradar + Hague), SIG-017 (cross-batch Bilello). Per FORMAT_SPEC same-author/same-theme rule, theme-identity is now operative test, not author-identity.
+- **PM-5 batch surfaced 3 process questions Will flagged.** (1) Confidence scoring has no rubric for observation-vs-interpretation asymmetry — EAM image got 0.40 on judgment call. (2) signal_type enum may not cover "thesis-frame" for institutional analytical content (used on MS oil-shock slide). (3) Analytical-content vs data-point distinction is weak in current FILTER_SPEC. All three could benefit from FORMAT_SPEC / FILTER_SPEC v-next treatment in the review trigger.
 
 ### NEXT SESSION
 1. **Apr 21 (Tuesday — 2 days)**: WAL + ZION earnings + Iran ceasefire expiry. **Bifurcation framing is dead** — operational (Apr 18 SoH re-closure verified) AND political (Apr 18 Sit Room w/ Bessent) BOTH lean re-escalate. Plus: cluster's positioning pillar now 4 channels, RED has 3 counter-channels to steelman. Frame the trade as 2-day catalyst convexity, NOT a regime call.
@@ -71,7 +73,8 @@
 8. **FORGE/STATUS.md** still Mar 25 (~25d).
 9. **COP refresh** still deprioritized; gap continues to grow.
 10. **Filter v1→v2 review** — at 34 dispatches vs 10-trigger. Overdue by 24 dispatches.
-11. **Cumulative session pipeline: 18 routed / 6 killed across 4 batches.** Heaviest single-day signal-routing session in WALTER history. Pattern: counter-evidence channels arriving in PM-3/PM-4 represent maturing of the cluster — initial bear thesis was assembled in earlier sessions, the steelman is now arriving as a deliberate result of routing extreme positioning data.
+11. **Cumulative session pipeline: 23 routed / 7 killed across 5 batches.** Heaviest single-day signal-routing session in WALTER history. Pattern: counter-evidence channels arriving in PM-3/PM-4/PM-5 represent maturing of the cluster — initial bear thesis was assembled in earlier sessions, the steelman is now arriving as a deliberate result of routing extreme positioning data. PM-5 added 5 more signals: cluster's positioning pillar = 5 channels, consumer-credit pillar = 2 channels, counter-channels staying at 3 validated + multiple candidates.
+12. **PM-5 process-question surfacing:** Will asked protocol walkthrough mid-session. Written answer identified 3 spec-level gaps (confidence asymmetry, signal_type enum, analytical-vs-data distinction). Candidates for FORMAT_SPEC / FILTER_SPEC v-next review when triggered.
 
 ### OPEN DESIGN DECISIONS (need Will)
 - **Other-agent boot-sequence rollout** — still pending. Until rolled, agents won't pull from BOARD; only see signals if Will spawns/directs.
