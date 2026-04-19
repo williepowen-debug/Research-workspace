@@ -1,65 +1,75 @@
-## COMPLETION — WALTER — 2026-04-19 PM-5 (fifth image-intake batch)
+## COMPLETION — WALTER — 2026-04-19 PM-6 + PM-7 (combined sixth + seventh image-intake batches)
 
-STATUS: ✅ BATCH PROCESSED. 5 images → 5 BOARD signals + 1 cross-batch dup killed. **Will asked mid-batch: "how are you writing these? Is our protocol clear?" — answered honestly w/ 3 friction points.** Cumulative session: **23 routed / 7 killed across 5 batches** (new high for WALTER single-day). Telegram PM-5 triage + protocol walkthrough sent. Commit + push pending.
+STATUS: ✅ BATCHES PROCESSED. 12 images → 7 BOARD signals + 5 kills (1 cross-batch + 4 intra-batch components/dups). **Cumulative session: 30 routed / 12 killed across 7 batches (2x previous single-day high).** Total BOARD dispatched 46. Commit + push pending.
 
 CHANGED:
-- /BOARD/SIG-W-20260419-019-ltm-fund-flows-bonds-mmf-equities.md (NEW)
-- /BOARD/SIG-W-20260419-020-attom-q1-foreclosure-26pct-yoy.md (NEW)
-- /BOARD/SIG-W-20260419-021-ms-oil-shock-1990-vs-2026-comparison.md (NEW)
-- /BOARD/SIG-W-20260419-022-neet-intel-eam-hfgcs-e6b-overlap.md (NEW)
-- /BOARD/SIG-W-20260419-023-barchart-cpc-066-most-bullish-since-2021.md (NEW)
-- /BOARD/INDEX.md (5 new rows)
-- AGENTS/WALTER/routed/route_log.tsv (5 new rows)
-- AGENTS/WALTER/filtered/kill_log.tsv (1 new row: cross-batch BofA Chart 11 dup)
-- AGENTS/WALTER/STATUS.md (v0.12 → v0.13, signal count 34→39, cluster positioning pillar 4→5, credit pillar 1→2, counter-channel candidates expanded)
-- AGENTS/WALTER/MEMORY.md (CHANGES SINCE / NEXT SESSION updated; added NEXT-SESSION item #12 on process questions)
+- /BOARD/SIG-W-20260419-024-us-carrier-buildup-iran-rejects-talks.md (NEW — PM-6 combined)
+- /BOARD/SIG-W-20260419-025-gs-ls-ratio-macro-shorts-elevated.md (NEW — PM-6)
+- /BOARD/SIG-W-20260419-026-navy-destroyer-intercepts-iran-ship.md (NEW — PM-6 combined)
+- /BOARD/SIG-W-20260419-027-energy-sec-gasoline-above-3-next-year.md (NEW — PM-6)
+- /BOARD/SIG-W-20260419-028-osintdefender-marinetraffic-iran-attacks-soh-turnarounds.md (NEW — PM-6)
+- /BOARD/SIG-W-20260419-029-netherlands-national-oil-crisis-plan-phase-1.md (NEW — PM-7)
+- /BOARD/SIG-W-20260419-030-infraa-hyperscaler-capex-taiwan-lng-thesis.md (NEW — PM-7)
+- /BOARD/INDEX.md (7 new rows)
+- AGENTS/WALTER/routed/route_log.tsv (7 new rows)
+- AGENTS/WALTER/filtered/kill_log.tsv (4 new rows: PM-7 intra-batch components/dups)
+- AGENTS/WALTER/STATUS.md (v0.13 → v0.14, count 39→46, Apr 19 Iran day-cluster 7 channels)
+- AGENTS/WALTER/MEMORY.md (CHANGES SINCE / NEXT SESSION rewritten; cluster refinement + urgent Qatar LNG verification item)
 - AGENTS/WALTER/LAST_COMPLETION.md (this file — overwritten)
 
-RESULT: Fifth image-intake session this PM. Triage:
-| # | Source | Decision |
-|---|--------|----------|
-| 1 | LTM cumulative MF/ETF flows (Bonds $693B / MMF $594B / Eq $104B) | SIG-019 → HENRY (complements SIG-016; retail-YOLO counter-frame) |
-| 2 | ATTOM Q1 2026 foreclosure +26% YoY (Completed +45%) | SIG-020 → CARL (pairs w/ SIG-015 NFIB) |
-| 3 | Morgan Stanley 'The BEAT' — 1990/91 vs 2026 oil-shock compare | SIG-021 → BRENT (thesis-frame counter) |
-| 4 | @neetintel EAM HFGCS+Mercury E6B simultaneous Apr 19 19:20 UTC | SIG-022 → BRENT (🔍 VERIFY, 0.40 confidence) |
-| 5 | @Barchart CPC 0.66 most bullish since 2021 | SIG-023 → HENRY (5th positioning channel) |
-| 6 | BofA Chart 11 "largest cash outflow" | KILL cross-batch dup of SIG-016 |
+RESULT: Back-to-back batches that together mark WALTER's heaviest session by 2x. Iran-escalation day-cluster crystallized at 7 channels.
 
-**Will's mid-batch protocol question** (msg 743 at 22:53 UTC): "how are you writing these? Is our protocol clear?" — Answered honestly:
-- Workflow per image clear (read → dedup → 3-gate filter → classify → precedence → route → write signal file → update INDEX/route_log)
-- 4 canonical docs: FORMAT_SPEC, CHECKLIST, FILTER_SPEC, ROUTING_TABLE
-- **3 surfaced friction points NOT covered by spec:**
-  1. **Confidence-scoring asymmetry.** EAM signal got 0.40 reflecting observation-verifiable / interpretation-ambiguous split. No rubric in FILTER_SPEC for that kind of asymmetry.
-  2. **signal_type enum may not cover "thesis-frame"** for analytical content (MS oil-shock comparison). Used "thesis-frame" as descriptor; may not be in FORMAT_SPEC canonical enum.
-  3. **Analytical vs data-point distinction is weak.** MS slide is an institutional argument, not a number. Different signal weight than empirical releases. Current spec doesn't differentiate.
+| # | Batch | Source | Decision |
+|---|-------|--------|----------|
+| 1 | PM-6 | @disclosetv (CBS carriers) + @BRICSinfo (Iran rejects talks) via @TheCoastalJournal | SIG-024 IMMEDIATE → BRENT (combined two-part same-theme) |
+| 2 | PM-6 | Daily Chartbook/GS Morgan L/S ratio + macro shorts elevated | SIG-025 PRIORITY → HENRY (cluster REFINEMENT — single-stock vs macro shorts) |
+| 3 | PM-6 | @axios + @Polymarket — Trump announces Navy destroyer intercepts Iranian vessel | SIG-026 IMMEDIATE → BRENT (combined dual-outlet) |
+| 4 | PM-6 | @Polymarket citing unnamed Energy Sec — gasoline $3+ | SIG-027 PRIORITY → BRENT (confidence 0.50, 🔍 VERIFY) |
+| 5 | PM-6 | @OSINTdefender MarineTraffic — Iran attacks force SoH turnarounds | SIG-028 IMMEDIATE → BRENT (extends SIG-014 with mechanism) |
+| 6 | PM-7 | @stats_feed — Dutch cabinet activates Phase 1 national oil crisis plan Monday | SIG-029 IMMEDIATE → BRENT (first NATO state-response, 🔍 VERIFY) |
+| 7 | PM-7 | @infraa_ composite — hyperscaler FCF cliff + Taiwan 11-day LNG + Qatar exports >90% crash | SIG-030 PRIORITY → HENRY (thesis-frame; URGENT Qatar LNG verification) |
+| kills | PM-7 | 4 × intra-batch component charts of SIG-030 composite (Bloomberg Asia, BCA FCF, BCA FCF dup, Capex/CFO) | KILLED as intra-batch components / direct dup |
 
-**Cluster character end-of-PM-5:**
-- Bear cluster: **16 nodes** (5 positioning + 2 valuation + 4 vol-pricing + 2 breadth mid/long-horizon + 2 Iran/oil + 1 Iran-posture [new] + 2 credit [NFIB + ATTOM])
-- Counter-evidence: 3 validated channels (Detrick, Sethi, Bilello) + multiple candidates (Barchart BRK, LTM equity flows, MS oil-shock frame)
-- Positioning pillar now **5 channels** (HF cover, DB gap, BofA MMF, S3 $93B cover, CPC 0.66) — STRONGEST pillar
-- Credit pillar doubled (NFIB small-biz + ATTOM foreclosure)
-- Iran/oil pillar gains posture channel (SIG-022 EAM, confidence-asymmetric)
-- Apr 21 (2 days) catalyst convexity framing unchanged — more data both for and against cluster
+**Apr 19 Iran escalation day-cluster = 7 CHANNELS:**
+1. SIG-014 SoH re-closure Apr 18 (verified)
+2. SIG-024B Iran rejects 2nd round peace talks
+3. SIG-022 EAM HFGCS + Mercury E-6B simultaneous Apr 19 19:20 UTC
+4. SIG-024A US multi-carrier build-up (Ford + Mahan + Churchill joining Lincoln; Bush en route)
+5. SIG-026 US Navy destroyer intercepts Iranian-flagged ship in Gulf of Oman
+6. SIG-028 MarineTraffic — Iran attacks forcing SoH ship turnarounds (extends SIG-014 with kinetic-interdiction mechanism)
+7. SIG-029 Netherlands activates Phase 1 national oil crisis plan Monday (first NATO state-response)
+
+**Bear convergence cluster end-of-PM-7:**
+- ~19 nodes (positioning 5 + vol-pricing 4 + breadth mid/long 2 + valuation 2 + credit 2 + Iran/oil 3 + Iran-posture 1)
+- 3 validated counter-channels (Detrick, Sethi, Bilello)
+- 5+ counter-candidates (BRK composition, LTM equity flow modesty, MS 1990-vs-2026 oil-shock frame, GS macro L/S refinement, @infraa_ thesis)
+- Positioning pillar REFINED: single-stock shorts covered aggressively + macro/index/ETF shorts STILL ELEVATED = different instruments, different unwind mechanics
+
+**Apr 21 catalyst setup (2 days):** WAL + ZION earnings + Iran ceasefire expiry INTO 7-channel Iran cluster. Catalyst convexity maintained; not a regime call.
 
 GAPS:
-- **Cluster classification by NEXUS** still missing. 16 nodes + 3 counter-channels + 3 candidates. Long past synthesis threshold.
-- **PM-5 protocol questions** surfaced 3 spec-level gaps — candidates for next review (FORMAT_SPEC / FILTER_SPEC v-next).
-- **All Apr 19 baseline gaps** (OZK backfill, oil 3-pt cluster, RED refresh, ZHAO spawn, FORGE staleness, COP refresh, filter v1→v2 review).
+- **NEXUS cluster classification MASSIVELY overdue.** 19 nodes + 3 validated counters + 5+ candidates.
+- **URGENT: Qatar LNG >90% crash claim (SIG-030) needs primary verification (Bloomberg Terminal QATARLNG<GO>, Platts).** If real, upgrade signal to IMMEDIATE and integrate as Iran/SoH mechanism channel.
+- **Netherlands follow-through:** verify primary Dutch government release, watch for follow-on EU announcements Monday 2026-04-20.
+- Pre-existing PM-5 process questions unresolved (confidence asymmetry rubric, signal_type "thesis-frame" enum coverage, analytical-vs-data distinction).
+- All carry-forward gaps (OZK backfill, RED refresh, ZHAO spawn, FORGE staleness, COP refresh pause, filter v1→v2 review at 46 dispatches = 36 past trigger).
 - **Git push** pending.
 
 WILL_NEEDS:
-1. Pre-position checklist for Apr 21 — cluster now richer both ways (5-channel positioning extreme + 3 validated counter-channels + multiple counter-candidates).
-2. RED spawn for adversarial review — has 3 validated counter-channels + 3 candidate counters + the richest-ever bear setup to push against. EAM/HFGCS signal would be a particularly interesting steelman target.
-3. NEXUS spawn for cluster classification — 16 nodes + 3 counters + 3 candidates.
-4. Optional: whether to codify 3 PM-5 friction points into FORMAT_SPEC / FILTER_SPEC next review pass.
-5. Same as PM-4 list (OZK backfill, ZHAO spawn, COP resumption, etc.).
+1. Pre-position checklist for Apr 21 — cluster now very rich both ways. 7-channel Iran day-cluster + 5-channel positioning + 3 validated counters + 5+ candidates.
+2. RED spawn for adversarial review — richest material yet. Specifically: the SIG-025 single-stock-vs-macro-shorts refinement is a legitimate steelman, not just noise.
+3. NEXUS spawn for cluster classification — overdue beyond any prior threshold.
+4. **Decision on Qatar LNG verification** — spawn a verify-research sub-agent autonomously? Affects whether SIG-030 stays PRIORITY thesis-frame or upgrades to IMMEDIATE cluster-integrated.
+5. Whether to codify PM-5/PM-6/PM-7 friction points into FORMAT_SPEC / FILTER_SPEC v-next.
+6. Same as PM-5/PM-6 list (OZK backfill, ZHAO spawn, COP resumption, etc.).
 
 FOLLOW-UP (next session):
-- Spot-check Hormuz state before any Apr 20/21 oil signal.
-- Verify the ATTOM completed-foreclosure +45% YoY figure against CoreLogic or Black Knight if Will wants confirmation-of-confirmation.
-- Watch for priyom.com or SDR-community corroboration on the EAM observation (Apr 19 afternoon); one observation is noise, pattern is signal.
-- If NEET INTEL follows up with additional EAM observations over next 24h, that strengthens SIG-022 posture read.
-- Review FILTER_SPEC / FORMAT_SPEC at next review-trigger (now 29 past threshold) — incorporate PM-5 friction points.
+- Spot-check primary Dutch government release for SIG-029 confirmation.
+- Bloomberg Terminal / Platts check on Qatar LNG exports late-2026 chart tail (SIG-030 URGENT).
+- Monday 2026-04-20 Asia/EU oil-futures-open reaction to weekend news cluster.
+- Cross-reference SIG-025 quote-vs-chart discrepancy — GS Morgan said shorts "only modestly below" end-March peak; chart read suggests L/S has actually RISEN vs end-March. Resolve which is the true signal.
+- If @neetintel EAM observation (SIG-022) has been corroborated by priyom.com / SDR community in next 24h, strengthens posture read.
+- OSINTdefender SIG-028 — look for named vessels / UKMTO advisories to convert from OSINT to institutional-confirmed.
 
 ---
 
