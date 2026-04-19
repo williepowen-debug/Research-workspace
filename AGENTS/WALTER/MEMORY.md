@@ -42,28 +42,30 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (Apr 16 → Apr 19)
-- **3-day dark interval, no WALTER session Apr 17-18.** Apr 18 saw Prome run a refactor + revert + cleanup cycle on root files (4 commits): tried PROME/identity/+state/ subdirs, OpenClaw injection broke, reverted to root. Net: HEARTBEAT/MEMORY/SOUL/USER/IDENTITY back at root unchanged; IRA/, agent-configs/, transcripts/ moved to archive/; data/ deleted; trade/ARES → AGENTS/BROCK/research/ARES/. Working tree was clean, fast-forward pull, no WALTER conflicts.
-- **3 inbox signals processed (all 4d-stale from Apr 15):**
-  - **SIG-W-20260419-001** (PRIORITY → REGINALD action; BROCK + RED info): OTTO Tricolor exposure-map expansion. MTB confirmed 5th named bank (American Banker) — was "watch tier" Feb 16. Tricolor ABS notes <10¢ on dollar = 2nd transmission channel beyond warehouse losses (investment-book marks). Timeline correction: vehicle-sale deadline is Apr 30 (not Mar 31) — Q2 prints carry revisions, not Q1. Reframes the OZK Apr 16 / WAL Apr 21 catalyst reads slightly: any Tricolor-ABS holders push real fingerprint to July.
-  - **SIG-W-20260419-002** (PRIORITY → HENRY; RED, LIQUID, VIOLET info): VIOLET Apr 15 VIX-family refresh. VIX 18.08↓, VVIX 98.77↓ but SKEW 149.94↑ approaching 150. Three observations (SKEW divergence, term contango, credit-vol co-compression). #3 confirms RED HY OAS <300 falsification day-count.
-  - **SIG-W-20260419-003** (IMMEDIATE → HENRY; RED, LIQUID, PROME, NEXUS info): VIOLET POSTURE 🟡→🟠 ELEVATED. 19yr backtest: SKEW-VIX-VVIX divergence pattern is 1% base rate, 15/16 (94%) → VIX +15% in 60d; revised P(new VIX event 60d) 30%→66%. Cross-link to BOARD signals: -20260416-003 (NDX RSI + SPX neg-breadth) + -20260414-006 (HF short cover) + -20260414-008 (DB financials gap) = **4-point positioning-wrong-footed cluster into Apr 21 / Apr 28 catalyst stack.**
-- **VIOLET registry locked:** Tier 1 / CC / ORANGE / VIX-family + SKEW/VVIX domain. Confirmed by Will Apr 19.
-- **Apr 16 batch-summary Telegram reply SKIPPED** per Will (3 days stale, just historical).
-- **Inbox cleared.** All 3 originals trashed via gio after BOARD archive.
+### CHANGES SINCE LAST SESSION (Apr 19 AM → Apr 19 PM)
+- **Image-intake batch session.** Will sent 6 Telegram screenshots at 17:41 UTC. Triage: 3 routed, 2 killed, 1 combined into routed.
+- **3 BOARD signals dispatched:**
+  - **SIG-W-20260419-004** (PRIORITY → HENRY; RED, LIQUID, NEXUS info): @FinanceLancelot — combined 2 charts per FORMAT_SPEC same-author/same-theme rule: SPX Wyckoff Distribution ("Upthrust After Distribution / We are here") + NDX 25-yr log-scale parabolic with dot-com analog. Pattern speculation alone is weak — counts as channels 7+8 in valuation/positioning convergence cluster.
+  - **SIG-W-20260419-005** (PRIORITY → HENRY; RED, LIQUID, NEXUS info): Buffett Indicator (Wilshire 5000 / U.S. GDP) at 232.6% — VERIFIED via parallel research sub-agent against Fortune Apr 19 + 5 corroborators (Invezz, Advisor Perspectives, Current Market Valuation, Longtermtrends, Motley Fool, GuruFocus 223.5% on GNP basis). Surpasses dot-com (~190%) and Q4 2021 (~210-215%). Methodology caveat: 232.6% is high end of variants — denominator (GDP vs GNP) gap, not data integrity gap.
+  - **SIG-W-20260419-006** (IMMEDIATE → BRENT; HAWK, SAM, LIQUID, PROME, RED info): @BarakRavid (Axios) — Trump WH Situation Room Sat Apr 18 on Iran, **Treasury Secretary Bessent attending** (atypical Treasury at NatSec Sit Room signals financial-stability/sanctions angle). Sit Room ~24h before intake. Iran ceasefire expires **Apr 21 Tuesday** = same catalyst day as WAL/ZION earnings.
+- **2 kills logged:**
+  - **BOJ ¥330B (image #4)** — verify-research sub-agent confirmed MISFRAMED. ¥330B is BOJ's annual book-value disposal of JAPANESE ETFs (TOPIX/Nikkei/JPX-400/J-REITs), policy announced Sept 19 2025 — not Apr 18 2026 U.S. ETF outflow event. Structural unwind ("100+ years to fully unwind"), not capital-flow event. @CryptoNobler has prior pattern of inflated BOJ headlines.
+  - **Ravid duplicate (image #6)** — within-batch dup of image #5.
+- **8-point valuation/positioning convergence cluster crystallized on BOARD:** (1) HF short cover, (2) DB financials gap, (3) NDX RSI + SPX neg-breadth, (4) VIOLET VIX-family SKEW divergence, (5) VIOLET POSTURE 🟠 ELEVATED, (6) Buffett 232%, (7) Wyckoff distribution, (8) NDX 25-yr parabolic. Convergence-flag candidate awaiting NEXUS classification.
+- **Verify-research auto-spawn pattern reaffirmed.** Two parallel sub-agents spawned (Buffett + BOJ) without per-spawn permission. One verified PRIORITY-route, one killed MISFRAMED. ROI on verify-spawning held: caught 1 misframed-claim that would have polluted BOARD.
 
 ### NEXT SESSION
-1. **OZK earnings Apr 16** — 3-day-old result, never intook by WALTER. If REGINALD already processed, no action; if Will wants WALTER to capture the result + market reaction as a backfill signal, surface and route.
-2. **Apr 21 (Tuesday — 2 days)**: WAL + ZION earnings + Iran ceasefire expiry. Big day. Consider pre-position checklist Mon evening or Tue AM.
-3. **Iran state — re-verify before anchoring.** Last verified Apr 15: blockade selective, talks rumored-resuming, Brent $94-100. State moves cycles in days. Spot-check before any new oil signal.
-4. **Convergence: 4-pt positioning-wrong-footed cluster** (HF short cover + DB financials + equity internals + VIOLET SKEW divergence) is a real convergence-flag candidate. NEXUS got info copy; consider proactive ping if NEXUS hasn't recognized.
-5. **Convergence: oil physical-tightness 3-pt cluster** (Kpler destocking + Corio fire + Baker Hughes rigs flat) still pending BRENT/HAWK reclassification — was flagged Apr 16, no follow-up Apr 17-18 due to dark interval.
-6. **RED refresh STILL OVERDUE** — HY OAS <300 falsification at Day 9+. Will owns spawn. With VIOLET now formalizing a vol-side adversarial frame, RED + VIOLET could pair productively.
-7. **ZHAO awaiting spawn** for SIG-W-20260414-010/-011 China material — now 17d+ stale.
-8. **FORGE/STATUS.md** still Mar 25 (~25d). Prome flag from Apr 11 unanswered. Every COP refresh requires Exposure caveat as cost.
-9. **COP refresh** deprioritized; COP is now ~6 days stale and Iran/blockade/ceasefire facts have moved 2-3 cycles. Reconsider before Apr 21.
-10. **Filter v1→v2 review** — at 19 dispatches vs 10-trigger. Overdue by 9 dispatches.
-11. **Telegram MCP** held connection through this session (4-message conversation). State stable Apr 19 AM.
+1. **Apr 21 (Tuesday — 2 days)**: WAL + ZION earnings + Iran ceasefire expiry. Pre-position checklist Mon evening or Tue AM. The Trump Sit Room signal makes this catalyst stack hotter — Bessent attendance is the analytically novel datum.
+2. **8-point convergence cluster** — surface to NEXUS proactively if no formal classification appears. Cluster crosses any reasonable threshold.
+3. **Iran state — re-verify before anchoring.** Last verified Apr 15. Sit Room signal confirms situation is live; ceasefire expiry Apr 21. Spot-check before any further oil signal.
+4. **OZK earnings Apr 16 backfill** — still pending if Will wants. REGINALD likely processed.
+5. **Convergence: oil physical-tightness 3-pt cluster** (Kpler + Corio + Baker Hughes) still pending BRENT/HAWK reclassification.
+6. **RED refresh STILL OVERDUE** — HY OAS <300 falsification at Day 9+. Buffett 232% + 8-pt cluster gives RED extra adversarial fodder. Will owns spawn.
+7. **ZHAO awaiting spawn** for China material — now 17d+ stale.
+8. **FORGE/STATUS.md** still Mar 25 (~25d). Prome flag from Apr 11 unanswered.
+9. **COP refresh** still deprioritized; would now be ~6 days stale + 8-pt cluster missing entirely. Reconsider before Apr 21.
+10. **Filter v1→v2 review** — at 22 dispatches vs 10-trigger. Overdue by 12 dispatches.
+11. **Telegram MCP** stable through PM session (image batch + ack reply both worked).
 
 ### OPEN DESIGN DECISIONS (need Will)
 - **Other-agent boot-sequence rollout** — still pending. Until rolled, agents won't pull from BOARD; only see signals if Will spawns/directs.
