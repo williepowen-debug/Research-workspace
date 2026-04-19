@@ -42,6 +42,19 @@
 
 ## Session Notes
 
+### CHANGES SINCE LAST SESSION (Apr 19 PM-3 → Apr 19 PM-4)
+- **Fourth image-intake batch this session.** Will sent 6 Telegram screenshots at 20:56 UTC. Triage: 3 routed, 2 killed within-batch dups, 1 cross-batch combine (images #2 + #6 same-author/same-theme).
+- **3 BOARD signals dispatched:**
+  - **SIG-W-20260419-016** (PRIORITY → HENRY; LIQUID, CARL, RED, NEXUS info): BofA Chart 11 — largest weekly money-market-fund outflow in 2017-2026 series (~-$175bn). Author caveat: "risk-on but also tax-related" (April-15-mechanical share unquantified). Cluster-confirming for positioning extreme.
+  - **SIG-W-20260419-017** (PRIORITY → RED counter; HENRY, NEXUS info): Charlie Bilello combined — VIX -43.7% 3wks = 5th biggest crash (avg fwd +22%/+48%/+58% 6m/1Y/2Y) + SPX +11.9% 3wks = 13th biggest since 1950 (avg fwd +18%/+29%/+44%) with caveat "only top-20 not from bear market or off bear-low." 3rd cluster counter-channel after Detrick + Sethi. Same-author/same-theme combine.
+  - **SIG-W-20260419-018** (PRIORITY → HENRY; LIQUID, RED, NEXUS info): Triple short-squeeze data — GS most-shorted basket +13% wk (best since 2023, +9pts vs SPX); S3 Partners $93B short positions covered MTD; UBS weak-100 +9% wk; profitless tech +14% wk. DIRECT EXTENSION of SIG-W-20260414-006. Cluster's positioning pillar = 4 channels.
+- **2 kills logged (both within-batch bare-image dups):**
+  - Bare Bloomberg "Skeptics Squeezed" chart (image #3 — embedded in #4)
+  - Bare Bilello SPX 3-week rally chart (image #5 — embedded in #6)
+- **Will requested mid-closeout interpretation.** Sent synthesis: cluster STRENGTHENED on positioning today (4 channels) AND got new counter-evidence on extremity-as-historical-signal (3 channels). Both stories TRUE simultaneously, operating on different time horizons. Asymmetric-into-Tuesday trade more attractive (more positioning to potentially unwind), but post-Tuesday view should NOT assume regime change. Frame as 2-day catalyst convexity, not regime call.
+- **NEXUS classification overdue.** Cluster: ~15 bear nodes vs 3 counter-channels + 1 12th-node candidate (Barchart BRK). Synthesis is the synthesis-engine job, not WALTER's.
+- **Cumulative session: 18 routed / 6 killed across 4 batches.** Total dispatched on BOARD: 34.
+
 ### CHANGES SINCE LAST SESSION (Apr 19 PM-2 → Apr 19 PM-3)
 - **Third image-intake batch this session.** Will sent 6 Telegram screenshots at 20:49 UTC. Triage: 5 routed, 2 killed, 1 verify-research spawn caught a viral misframing.
 - **5 BOARD signals dispatched:**
@@ -80,17 +93,17 @@
 - **Verify-research auto-spawn pattern reaffirmed.** Two parallel sub-agents spawned (Buffett + BOJ) without per-spawn permission. One verified PRIORITY-route, one killed MISFRAMED. ROI on verify-spawning held: caught 1 misframed-claim that would have polluted BOARD.
 
 ### NEXT SESSION
-1. **Apr 21 (Tuesday — 2 days)**: WAL + ZION earnings + Iran ceasefire expiry. **Bifurcation framing is dead** — operational (Apr 18 SoH re-closure verified) AND political (Apr 18 Sit Room w/ Bessent) BOTH lean re-escalate. Pre-position checklist Monday: catalyst stack is now single-direction-risk into Tuesday, not bifurcated.
-2. **11-pt cluster + 2 counter-channels (Detrick + Sethi) + 12th-node candidate (Barchart BRK)** on BOARD — cluster has 14 nodes / counter-channels total. Surface to NEXUS proactively for formal classification. RED also has counter-evidence to actually steelman against, not just "lose with grace."
-3. **SIG-010 correction note** — INDEX has been updated with correction pointer to SIG-014. Subsequent oil/Iran signals should use SIG-014's verified state (re-closed Apr 18, ~95% transit collapse since Feb 28), not SIG-010's "operationally OPEN" framing.
+1. **Apr 21 (Tuesday — 2 days)**: WAL + ZION earnings + Iran ceasefire expiry. **Bifurcation framing is dead** — operational (Apr 18 SoH re-closure verified) AND political (Apr 18 Sit Room w/ Bessent) BOTH lean re-escalate. Plus: cluster's positioning pillar now 4 channels, RED has 3 counter-channels to steelman. Frame the trade as 2-day catalyst convexity, NOT a regime call.
+2. **Cluster classification by NEXUS overdue.** ~15 bear nodes / 3 counter-channels / 1 12th-node candidate. Surface proactively. RED has actual material to argue with; should run the cluster through formal adversarial review pre-Tuesday.
+3. **SIG-010 correction** — INDEX has correction pointer to SIG-014. Subsequent oil/Iran signals use SIG-014 verified state.
 4. **OZK earnings Apr 16 backfill** — still pending if Will wants. REGINALD likely processed.
 5. **Oil 3-pt cluster** (Kpler + Corio + Baker Hughes) still pending BRENT/HAWK reclassification. With Iran SoH re-closed, the physical-tightness thesis aligns rather than competes.
-6. **RED refresh STILL OVERDUE** — HY OAS <300 falsification at Day 9+. Buffett 232% + cluster + Iran re-escalation + 2 counter-channels = richest adversarial setup yet. Will owns spawn.
+6. **RED refresh STILL OVERDUE** — HY OAS <300 falsification at Day 9+. Buffett 232% + cluster + Iran re-escalation + 3 counter-channels + 4 positioning channels = richest adversarial setup yet. Will owns spawn.
 7. **ZHAO awaiting spawn** for China material — now 17d+ stale.
 8. **FORGE/STATUS.md** still Mar 25 (~25d).
 9. **COP refresh** still deprioritized; gap continues to grow.
-10. **Filter v1→v2 review** — at 31 dispatches vs 10-trigger. Overdue by 21 dispatches.
-11. **PM-4 batch (6 images, msg 704-709)** received during PM-3 closeout — to be triaged immediately after PM-3 commit/push.
+10. **Filter v1→v2 review** — at 34 dispatches vs 10-trigger. Overdue by 24 dispatches.
+11. **Cumulative session pipeline: 18 routed / 6 killed across 4 batches.** Heaviest single-day signal-routing session in WALTER history. Pattern: counter-evidence channels arriving in PM-3/PM-4 represent maturing of the cluster — initial bear thesis was assembled in earlier sessions, the steelman is now arriving as a deliberate result of routing extreme positioning data.
 
 ### OPEN DESIGN DECISIONS (need Will)
 - **Other-agent boot-sequence rollout** — still pending. Until rolled, agents won't pull from BOARD; only see signals if Will spawns/directs.
