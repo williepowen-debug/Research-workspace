@@ -20,6 +20,39 @@ safety_net: clear
 word_count: 310
 ---
 
+## UPDATE — 2026-04-19 23:55 UTC — Verification complete + framing correction
+
+**Verify-research sub-agent findings (0.93 confidence, multi-source cross-check):**
+
+Signal is **REAL** — Dutch kabinet (cabinet Jetten) has activated "alerteringsfase" (Phase 1 alert) of the **Landelijk Crisisplan Olie (LCP-O)** effective Monday 2026-04-20. First-ever activation of the formal Dutch LCP-O framework.
+
+**Framing correction — "first NATO state-response" is TOO STRONG and has been softened:**
+
+The correct framing is **"first explicit LCP-O Phase 1 activation"**, not "first NATO state response." Two specific corrections:
+1. **France already activated strategic oil stockpiles** earlier in this cycle (IEA-coordinated draw from SAGESS). Dutch Phase 1 is not the first NATO-member state oil-emergency response — it is the first formal crisis-plan framework activation.
+2. **IEA launched a 400 million barrel coordinated release on 2026-03-11** (G7-coordinated, 32 countries, largest in IEA history) — this is the broader state-response envelope that Netherlands is now adding to with its own national-level protocol activation. BRENT's knowledge base already tracks this IEA release (see BRENT/archive/DECK_EVIDENCE.md, BRENT/recon/STAGE2_FINDINGS_2026-03-15.md).
+
+**What this signal IS correctly:**
+- First formal **Landelijk Crisisplan Olie** activation in its history (Phase 1 / alerteringsfase)
+- Administrative mobilization, not rationing (as originally noted)
+- Adds one more state-level node into the ongoing regime-shift into coordinated crisis management
+- Pairs with the formal "**2026 Iran war fuel crisis**" classification (Wikipedia, tracked since 2026-02-28)
+
+**What this signal is NOT:**
+- Not the first NATO/EU member state to take oil-emergency action this cycle (France + IEA-coordinated 32 countries preceded it)
+- Not a rationing signal — Phase 1 stays administrative
+
+**Cluster integration impact:**
+- Apr 19 Iran day-cluster remains **8 channels** (Qatar LNG verification in SIG-030 became the 8th — see that signal's UPDATE block).
+- Netherlands activation is the **first formal national-framework activation** added to a broader state-response that was already in motion via IEA + France since March.
+- NEXUS cluster-integration: note the distinction — IEA-coordinated draw (March) vs. national-framework activation (Netherlands Apr 20). Different mechanisms, both in the state-response pillar.
+
+**Network implication:**
+- BRENT retains ACTION. BRENT's knowledge base is deeper than WALTER's on oil-state-response history (IEA 400Mb release, Qatar FM, France SAGESS). Target-agent KB >> WALTER synthesis on this domain.
+- Watch for Germany (Erdölbevorratungsgesetz / EBV), France (further SAGESS actions), Italy (OCSIT) escalation on Monday 2026-04-20 Asia/EU oil open.
+
+---
+
 ## Signal
 
 **@stats_feed (World of Statistics, verified X), 1:41 PM ET Apr 19, 61K views:**

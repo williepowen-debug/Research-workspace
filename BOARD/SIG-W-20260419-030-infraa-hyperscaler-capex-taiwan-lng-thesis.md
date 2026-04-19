@@ -1,6 +1,9 @@
 ---
 signal_id: SIG-W-20260419-030
-precedence: PRIORITY
+precedence: IMMEDIATE
+precedence_original: PRIORITY
+precedence_upgrade_ts: 2026-04-19T23:55:00Z
+precedence_upgrade_reason: "Verify-research sub-agent confirmed Qatar LNG >90% crash claim is REAL at 0.97 confidence — Mar 2 2026 Iranian drone strikes on Ras Laffan & Mesaieed, QatarEnergy force majeure, ~80 MTPA halt = ~20% global LNG removed. Signal upgraded from PRIORITY thesis-frame → IMMEDIATE cluster-integrated. This IS the physical LNG interdiction mechanism inside the Iran/SoH day-cluster — not a candidate, a confirmed channel."
 timestamp: 2026-04-19T23:40:00Z
 source: WALTER
 origin: "Primary: @infraa_ (Robert (infra), verified X) composite post (image #6 of Will Telegram PM-7 batch, 2026-04-19 23:13 UTC). Post timestamp: 11:35 AM · 3/28/26 · 24K Views. Post combines 4 exhibits: (1) Capex as % of cash flow from operations — Hyperscalers consensus 92% for 2026 (S&P 500 Telecom + TMT historical reference); (2) BCA Research trailing-4Q FCF ORCL/META/GOOGL/AMZN/MSFT — peak Q3 2021 ~$175B, Q4 2025 ~$190B, Q4 2026 forecast ~$70B; (3) Bloomberg 'Asia most dependent on Oil and LNG from Middle East' — ~85% of SoH oil + ~80% of Qatar/UAE LNG goes to Asia; (4) Qatar LNG exports 10-day moving average 2010-2026, shows sharp drop-to-near-zero late 2026 (>90% crash). Tweet text: 'Capex as share of cash flow will hit 92% this year at the very moment that cash flow is set to fall from $200B to $70B. Oh and Taiwan gets 40% of their energy from LNG. Of that, 85% of their LNG comes from Qatar & UAE, whose LNG exports crashed >90%. And Taiwan has 11 days of LNG.' Component images #2, #3, #5 of same batch are embedded components of this composite; image #4 is intra-batch duplicate of #3. Intaken via Will Telegram batch 2026-04-19 23:13 UTC."
@@ -11,13 +14,46 @@ group: ROUTINE_PLUS
 dispatched: 2026-04-19T23:40:00Z
 dispatch_note: "@infraa_ composite thesis (post dated Mar 28, 2026 — 3 weeks old, but relevance re-activated by current Iran/SoH dynamics). THREE distinct signal-components bundled: (A) Hyperscaler FCF cliff — consensus projecting trailing-4Q FCF collapse from ~$190B (Q4 2025) to ~$70B (Q4 2026) driven by capex/CFO hitting 92%. Intersects AI-capex sustainability question and cluster's valuation/positioning pillars. (B) Taiwan LNG exposure — 40% energy from LNG, 85% from Qatar/UAE, only 11 days of LNG storage. TAIWAN as second-order SoH victim (not Japan's first-order). (C) Qatar LNG exports crashed >90% on chart. THIS IS THE SINGLE MOST-CONCERNING DATA POINT in the composite — would indicate physical LNG supply interruption underway; NEEDS VERIFICATION because a >90% Qatar LNG export crash is an enormous macro signal that should be wall-to-wall news if real. If verified, this changes the signal weight of every Iran/SoH signal in the cluster. HENRY primary (thesis-frame / capex-sustainability + positioning implication). BRENT info (Qatar LNG data point = OIL_ENERGY if real). SAM info (Taiwan LNG 11-day buffer = Japan parallel risk pattern). CARL info (hyperscaler FCF cliff = macro demand / capex impact). LIQUID info (funding transmission if AI-capex thesis re-prices + if Qatar LNG claim verified). RED info — steelman: (1) post is 3 weeks old, not fresh; (2) @infraa_ is thesis-driven account, not primary data source; (3) hyperscaler FCF forecasts are BCA modeled estimates, not Bloomberg consensus; (4) the '>90% Qatar LNG export crash' claim is extraordinary and needs primary-source verification — the embedded chart shows a late-2026 drop-to-near-zero which could be interpretive overlay, Bloomberg data artifact, or misread of the 10-day moving-average tail. (5) Capex/CFO = 92% is ONE metric; hyperscalers fund via debt + net cash, not just CFO, so capex/CFO is incomplete leverage indicator. NEXUS cluster integration (thesis-frame counter-candidate AND Iran/LNG mechanism candidate if Qatar data verifies). Confidence 0.50 — composite claim is analytically coherent and signal-dense if true, but age (3 weeks) + aggregation (not primary) + extraordinary Qatar LNG claim that needs verification = moderate confidence. 🔍 VERIFY URGENT — the Qatar LNG >90% crash claim. Cluster-altering if real."
 
-signal_type: thesis-frame
-confidence: 0.50
-confidence_language: possible
+signal_type: thesis-frame-plus-confirmed-mechanism
+confidence: 0.85
+confidence_language: likely
+confidence_original: 0.50
+confidence_upgrade_reason: "Qatar LNG >90% crash VERIFIED real (verify-research sub-agent, 0.97 confidence). Thesis-frame components (hyperscaler FCF, Taiwan 11-day buffer, capex/CFO 92%) retain original 0.50 moderate — remain analytically coherent aggregator-framed. Qatar mechanism component now 0.95+. Composite weighted ~0.85."
 resources: 0
 safety_net: clear
 
 word_count: 380
+---
+
+## UPDATE — 2026-04-19 23:55 UTC — Verification complete, signal UPGRADED to IMMEDIATE
+
+**Verify-research sub-agent findings (0.97 confidence, multi-source cross-check):**
+
+The Qatar LNG >90% crash claim is **REAL, not a chart-artifact**. Concretely:
+- **Mar 2 2026:** Iranian drone strikes hit Ras Laffan and Mesaieed LNG processing complexes (QatarEnergy's primary export facilities).
+- **Mar 4 2026:** QatarEnergy declares force majeure on LNG contracts.
+- **Mar 18-19 2026:** Second wave of Iranian strikes.
+- **Mar 24 2026:** QatarEnergy force majeure extended / re-declared.
+- **Capacity offline:** ~80 MTPA = approximately **20% of global LNG supply** removed.
+- **Price response:** TTF (EU gas) +50%, JKM (Asia LNG) +39%.
+- Wikipedia: formally tracks this as "**2026 Iran war fuel crisis**" since 2026-02-28. This is a war, not a crisis-rhetoric.
+
+The chart's late-2026 drop-to-near-zero in the Qatar LNG 10-day MA is the **signature of the full production halt**, not a data-series tail artifact. @infraa_'s composite was correctly representing the physical state of the Qatar LNG export system.
+
+**Cluster integration impact:**
+- **Iran escalation day-cluster: 7 channels → 8 channels.** Qatar LNG supply-side disruption is the **physical mechanism** behind the LNG thesis component of this composite, and a confirmed Iran/ME-supply channel in its own right.
+- BRENT's STATUS.md already carries Qatar permanent FM at L112 ("13M t/yr removed"); BRENT is NOT missing this context. The network-level gap was that this signal routed to HENRY as thesis-frame before the Qatar component was verified-mechanism.
+
+**Network implication:**
+- **HENRY retains ACTION** — the hyperscaler FCF cliff + Taiwan 11-day buffer thesis-frame is independent of Qatar verification and still valid.
+- **BRENT promoted INFO → ACTION** for the Qatar mechanism component. (Note: BRENT may already be tracking this; adding as explicit signal-refresh.)
+- **NEXUS cluster-integrate** as confirmed 8th channel (alongside SIG-014 SoH re-closure, SIG-022 EAM+E-6B, SIG-024 carrier build-up, SIG-026 destroyer intercept, SIG-028 MarineTraffic, SIG-029 Dutch Phase 1, SIG-024B Iran rejects talks).
+- **Taiwan 11-day buffer claim** — still needs primary verification (CPC Taiwan / MOEA). Remains caveat.
+- **Hyperscaler FCF Q4 2026 → $70B claim** — still BCA model, not Bloomberg consensus. Remains caveat.
+
+**What this does NOT change:**
+- Steelman points 1-6 below still apply to the Taiwan/FCF/capex components. Only the Qatar component was upgraded from claim-to-verify → verified-mechanism.
+
 ---
 
 ## Signal
