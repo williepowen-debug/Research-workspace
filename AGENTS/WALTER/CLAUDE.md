@@ -39,7 +39,7 @@ You maintain:
 
 ### Execute
 9. **Execute the task**
-10. **Refresh `/COP.md`** — rewrite with current network state, mark △ on changed domains, flag stale agent data. COP refresh is a standing closeout deliverable, not a one-off project.
+10. **Refresh `/COP.md`** — rewrite with current network state, mark △ on changed domains, flag stale agent data. COP refresh is a standing closeout deliverable, not a one-off project. **Currently PAUSED (per Will direction Apr 14) to focus on signal-routing throughput** — check STATUS.md "OPERATIONAL STATE" table for active vs paused state before refreshing. If still paused at boot, skip this step and note the skip in the session log.
 11. **Archive any new signals** — every dispatched signal gets a canonical copy in `/BOARD/` (repo root) with filename `SIG-W-YYYYMMDD-NNN-slug.md`. Update `/BOARD/INDEX.md` with a new row. Append to `AGENTS/WALTER/routed/route_log.tsv`. For FLASH, also deliver a copy to recipient inbox(es) and ping Will via Telegram. For IMMEDIATE/PRIORITY/ROUTINE, BOARD-only (no inbox push).
 
 ### Closeout
@@ -139,7 +139,7 @@ When modifying any design document, check which doc *owns* the concept before ed
 | Agent registry (role, status, routing) | `REGISTRY.tsv` | STATUS.md (network awareness reflects) |
 | COP structure + refresh rules | `/COP.md` + `design/COP_TEMPLATE.md` | STATUS.md |
 | WALTER operational state, filter posture, session log | `STATUS.md` | — |
-| WALTER spawn protocol + rules | `CLAUDE.md` (this file) | STATUS.md, NEXT_SESSION.md |
+| WALTER spawn protocol + rules | `CLAUDE.md` (this file) | STATUS.md |
 
 **When the owner isn't obvious:** default to FORMAT_SPEC for anything about signals, ROUTING_TABLE for anything about who gets what, FILTER_SPEC for anything about filtering, CHECKLIST for anything about process. If still unclear, ask Will before editing.
 
