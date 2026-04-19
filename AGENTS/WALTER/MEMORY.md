@@ -42,55 +42,23 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (Apr 19 PM-3 → Apr 19 PM-4)
-- **Fourth image-intake batch this session.** Will sent 6 Telegram screenshots at 20:56 UTC. Triage: 3 routed, 2 killed within-batch dups, 1 cross-batch combine (images #2 + #6 same-author/same-theme).
-- **3 BOARD signals dispatched:**
-  - **SIG-W-20260419-016** (PRIORITY → HENRY; LIQUID, CARL, RED, NEXUS info): BofA Chart 11 — largest weekly money-market-fund outflow in 2017-2026 series (~-$175bn). Author caveat: "risk-on but also tax-related" (April-15-mechanical share unquantified). Cluster-confirming for positioning extreme.
-  - **SIG-W-20260419-017** (PRIORITY → RED counter; HENRY, NEXUS info): Charlie Bilello combined — VIX -43.7% 3wks = 5th biggest crash (avg fwd +22%/+48%/+58% 6m/1Y/2Y) + SPX +11.9% 3wks = 13th biggest since 1950 (avg fwd +18%/+29%/+44%) with caveat "only top-20 not from bear market or off bear-low." 3rd cluster counter-channel after Detrick + Sethi. Same-author/same-theme combine.
-  - **SIG-W-20260419-018** (PRIORITY → HENRY; LIQUID, RED, NEXUS info): Triple short-squeeze data — GS most-shorted basket +13% wk (best since 2023, +9pts vs SPX); S3 Partners $93B short positions covered MTD; UBS weak-100 +9% wk; profitless tech +14% wk. DIRECT EXTENSION of SIG-W-20260414-006. Cluster's positioning pillar = 4 channels.
-- **2 kills logged (both within-batch bare-image dups):**
-  - Bare Bloomberg "Skeptics Squeezed" chart (image #3 — embedded in #4)
-  - Bare Bilello SPX 3-week rally chart (image #5 — embedded in #6)
-- **Will requested mid-closeout interpretation.** Sent synthesis: cluster STRENGTHENED on positioning today (4 channels) AND got new counter-evidence on extremity-as-historical-signal (3 channels). Both stories TRUE simultaneously, operating on different time horizons. Asymmetric-into-Tuesday trade more attractive (more positioning to potentially unwind), but post-Tuesday view should NOT assume regime change. Frame as 2-day catalyst convexity, not regime call.
-- **NEXUS classification overdue.** Cluster: ~15 bear nodes vs 3 counter-channels + 1 12th-node candidate (Barchart BRK). Synthesis is the synthesis-engine job, not WALTER's.
-- **Cumulative session: 18 routed / 6 killed across 4 batches.** Total dispatched on BOARD: 34.
-
-### CHANGES SINCE LAST SESSION (Apr 19 PM-2 → Apr 19 PM-3)
-- **Third image-intake batch this session.** Will sent 6 Telegram screenshots at 20:49 UTC. Triage: 5 routed, 2 killed, 1 verify-research spawn caught a viral misframing.
-- **5 BOARD signals dispatched:**
-  - **SIG-W-20260419-011** (PRIORITY → RED counter; HENRY, NEXUS info): Ryan Detrick CMT — SPX above-20-day-MA over 80%; late-March positive breadth divergence preceded current rally. **First counter-evidence channel against the cluster's breadth-weak pillar** — different time horizon (short-term momentum strong vs cluster's mid/long-term breadth weak). All can be true; cluster refines.
-  - **SIG-W-20260419-012** (PRIORITY → RED counter; HENRY, LIQUID, NEXUS info): Neil Sethi/Morningstar — US stock vol 2026 YTD through Apr 10 = 15% = long-run average. **Second counter-evidence channel** — realized vol normal. Refines cluster's vol thesis to source from IMPLIED-vol surface anomalies (SKEW, OVX, VVIX) only, not realized-vol elevation.
-  - **SIG-W-20260419-013** (PRIORITY → HENRY; CARL, RED, NEXUS info): Barchart — BRK.A trailing SPY by ~-39pts since Buffett retirement. Quality/defensive proxy NOT participating in rally; rally is beta/momentum-led. 12th-node candidate w/ composition caveat (BRK has zero AI-mega-cap exposure).
-  - **SIG-W-20260419-014** (IMMEDIATE → BRENT; HAWK, SAM, LIQUID, RED, PROME info): Iran re-closed Strait of Hormuz Apr 18 after brief Apr 17 partial reopening. Transit volumes ~95% below normal since Feb 28 onset. **Built atop killed @WhaleInsider/@AKpercentage "ZERO tankers / first complete shutdown in history" framing** — verify-research sub-agent confirmed FALSE on both claims (Al Jazeera at least 8 tankers; Argus 2 crude + 2 product confirmed; historic event is Feb 28 onset, not Apr 18). Verified underlying event preserved under proper attribution. SIG-010 framing requires correction (Apr 17 openness was a brief reopening, not running state).
-  - **SIG-W-20260419-015** (PRIORITY → CARL; BROCK, RED info): NFIB Small Business Optimism — CapEx-plans index at GFC-area low + Sub-V (small-business) bankruptcies +67% YoY. Forward indicator of NPL formation in Q2/Q3 — relevant to WAL/ZION (Apr 21) and OZK (Apr 24) earnings.
-- **2 kills logged:**
-  - **Bare SPX chart (image #1)** — within-batch dup of Detrick (image #2 carried full attribution + commentary).
-  - **WhaleInsider/AK Hormuz framing (image #5)** — verify-research sub-agent KILLED on credibility (verifiably wrong on 2 specific claims). Underlying event preserved as SIG-014.
-- **Cluster character refined (not broken).** 11-pt cluster gained 2 counter-evidence channels (Detrick + Sethi). Bear thesis must now source vol from IMPLIED surface only and breadth from mid/long-horizon only. Asymmetric-into-catalyst still works but with crisper framing. RED has steelman material to actually push back on cluster pillars.
-- **Iran re-escalation Apr 21 = operational + political simultaneously.** SIG-010's "operational openness vs political fragility" bifurcation (PM-2 framing) is now obsolete — both legs lean re-escalate (operational re-closure Apr 18, political Sit Room Apr 18, ceasefire expires Apr 21). Bifurcation collapsed to single-direction risk.
-- **Verify-research caught a viral misframing.** WhaleInsider's "ZERO / first in history" claim was being shared widely on X. Sub-agent's multi-source check (Al Jazeera, Argus, CNN, Bloomberg, USNI, Wikipedia) caught both the false count and the false historical framing. ROI on auto-spawn pattern reaffirmed twice this session (Buffett route + WhaleInsider kill).
-
-### CHANGES SINCE PREVIOUS (Apr 19 PM → Apr 19 PM-2)
-- **Second image-intake batch.** Will sent 5 Telegram screenshots at 18:15 UTC. Triage: 4 routed, 0 killed, 1 combined (cross-author per same-theme rule — first WALTER use of cross-author combine).
-- **4 BOARD signals dispatched:**
-  - **SIG-W-20260419-007** (PRIORITY → HENRY; BRENT, RED, LIQUID, NEXUS info): Kurt Altrichter CFP/CRPS Apr 16 — six-panel CBOE vol indices. VIX/VXD/VXN/RVX crushed, OVX still in crisis zone, GVZ mixed. "Non-confirmation" framing — equity vol pricing deal, oil vol not. 9th node in cluster.
-  - **SIG-W-20260419-008** (PRIORITY → HENRY; RED, LIQUID, NEXUS info): Data Driven Stocks Apr 17 — author-asserted "biggest 13-day SPX rally of the century, 0.63% probability / 1-in-160." Internal text-vs-chart inconsistency (12.20% on chart panel vs 0.63% in text). Routed with strong methodology caveat as cluster-augmentation channel only. 10th node.
-  - **SIG-W-20260419-009** (PRIORITY → HENRY; RED, LIQUID, NEXUS info): Mike Zaccardi CFA/CMT Apr 17 — Finviz S&P 500 treemap heatmap. Index records, interior mostly red. MSFT -24%, NFLX -27%, LLY/JNJ/TSLA -18-19%, BRK-B -12%. Visual augmentation of SIG-W-20260416-003. 11th node.
-  - **SIG-W-20260419-010** (PRIORITY → BRENT; HAWK, SAM, RED, PROME info): Combined Flightradar24 dense Doha/Gulf overflight + OSINT Technical/Peter Hague Celestyal Discovery cruise ship Hormuz transit (different authors, same theme — **first cross-author combine in WALTER history**; precedent in -003 already). Confirms SELECTIVE-blockade reality.
-- **Iran state bifurcation crystallized:** operational openness Apr 17 (cruise ship + dense aviation) vs political fragility Apr 18 (Trump WH Sit Room + Bessent). Both can be true into Apr 21 ceasefire expiry.
-- **Cross-author combine precedent set.** SIG-W-20260416-003 was first (Bloomberg + ZeroHedge); SIG-W-20260419-010 is second (Flightradar + OSINT Technical/Peter Hague). Same-theme criterion is now the operative test, not author-identity.
-
-### CHANGES SINCE PREVIOUS (Apr 19 AM → Apr 19 PM)
-- **Image-intake batch session.** Will sent 6 Telegram screenshots at 17:41 UTC. Triage: 3 routed, 2 killed, 1 combined into routed.
-- **3 BOARD signals dispatched:**
-  - **SIG-W-20260419-004** (PRIORITY → HENRY; RED, LIQUID, NEXUS info): @FinanceLancelot — combined 2 charts per FORMAT_SPEC same-author/same-theme rule: SPX Wyckoff Distribution ("Upthrust After Distribution / We are here") + NDX 25-yr log-scale parabolic with dot-com analog. Pattern speculation alone is weak — counts as channels 7+8 in valuation/positioning convergence cluster.
-  - **SIG-W-20260419-005** (PRIORITY → HENRY; RED, LIQUID, NEXUS info): Buffett Indicator (Wilshire 5000 / U.S. GDP) at 232.6% — VERIFIED via parallel research sub-agent against Fortune Apr 19 + 5 corroborators (Invezz, Advisor Perspectives, Current Market Valuation, Longtermtrends, Motley Fool, GuruFocus 223.5% on GNP basis). Surpasses dot-com (~190%) and Q4 2021 (~210-215%). Methodology caveat: 232.6% is high end of variants — denominator (GDP vs GNP) gap, not data integrity gap.
-  - **SIG-W-20260419-006** (IMMEDIATE → BRENT; HAWK, SAM, LIQUID, PROME, RED info): @BarakRavid (Axios) — Trump WH Situation Room Sat Apr 18 on Iran, **Treasury Secretary Bessent attending** (atypical Treasury at NatSec Sit Room signals financial-stability/sanctions angle). Sit Room ~24h before intake. Iran ceasefire expires **Apr 21 Tuesday** = same catalyst day as WAL/ZION earnings.
-- **2 kills logged:**
-  - **BOJ ¥330B (image #4)** — verify-research sub-agent confirmed MISFRAMED. ¥330B is BOJ's annual book-value disposal of JAPANESE ETFs (TOPIX/Nikkei/JPX-400/J-REITs), policy announced Sept 19 2025 — not Apr 18 2026 U.S. ETF outflow event. Structural unwind ("100+ years to fully unwind"), not capital-flow event. @CryptoNobler has prior pattern of inflated BOJ headlines.
-  - **Ravid duplicate (image #6)** — within-batch dup of image #5.
-- **8-point valuation/positioning convergence cluster crystallized on BOARD:** (1) HF short cover, (2) DB financials gap, (3) NDX RSI + SPX neg-breadth, (4) VIOLET VIX-family SKEW divergence, (5) VIOLET POSTURE 🟠 ELEVATED, (6) Buffett 232%, (7) Wyckoff distribution, (8) NDX 25-yr parabolic. Convergence-flag candidate awaiting NEXUS classification.
-- **Verify-research auto-spawn pattern reaffirmed.** Two parallel sub-agents spawned (Buffett + BOJ) without per-spawn permission. One verified PRIORITY-route, one killed MISFRAMED. ROI on verify-spawning held: caught 1 misframed-claim that would have polluted BOARD.
+### CHANGES SINCE LAST SESSION (Apr 19 — full-day session, 4 batches)
+- **Heaviest single-day in WALTER history.** AM carry-forward (3) + PM-1 image batch (3) + PM-2 image batch (4) + PM-3 image batch (5) + PM-4 image batch (3) = **18 routed, 6 killed.** Total dispatched on BOARD: 16 → 34.
+- **Bear cluster matured to ~15 nodes + 3 counter-channels + 1 12th-node candidate.** Composition:
+  - Positioning pillar (4 channels, STRONGEST): SIG-006 GS Prime HF cover, SIG-008 DB financials gap, SIG-016 BofA largest MMF outflow ever, SIG-018 S3 $93B short positions covered MTD + GS most-shorted +13% wk + UBS weak +9% + profitless tech +14% wk
+  - Vol-pricing pillar (4 channels, IMPLIED-only per SIG-012): SIG-002 VIOLET SKEW divergence, SIG-003 VIOLET POSTURE 🟠, SIG-007 Altrichter OVX divergence, SIG-008 DDS rally extremity
+  - Valuation pillar (2 channels): SIG-005 Buffett 232%, SIG-004b NDX 25yr parabolic
+  - Breadth pillar (2 channels, mid/long-horizon-only per SIG-011): SIG-003 NDX RSI + SPX neg breadth, SIG-009 Zaccardi finviz interior drawdowns
+  - Pattern (2 channels): SIG-004a Wyckoff distribution
+  - Iran/oil (3 channels): SIG-006 Trump WH Sit Room w/ Bessent, SIG-010 (superseded by 014), SIG-014 Iran SoH re-closure Apr 18 verified
+  - Credit (1 channel): SIG-015 NFIB small-biz CapEx GFC-low + Sub-V +67% YoY
+  - **Counter-channels (3):** SIG-011 Detrick short-term breadth bullish (80% above 20-day MA), SIG-012 Sethi/Morningstar realized-vol normal (15% YTD), SIG-017 Bilello combined (VIX -43.7% = 5th biggest crash + SPX +11.9% = 13th biggest 3-wk gain since 1950, both with bullish-leaning forward returns)
+  - **12th-node candidate:** SIG-013 Barchart BRK.A -39pts vs SPY (composition caveat)
+- **Verify-research spawn caught 2 misframed virals this session.** (1) BOJ ¥330B (PM-1) — actually BOJ's annual JP-ETF disposal policy from Sept 2025, not Apr 18 US-ETF outflow. (2) WhaleInsider/AK "ZERO Hormuz tankers / first in history" (PM-3) — actually ≥8 tankers (Al Jazeera/Argus); historic event is Feb 28 onset, not Apr 18. Both FALSE-MISFRAMED, killed. WhaleInsider underlying event (Iran re-closed SoH Apr 18 after brief Apr 17 partial reopening; ~95% transit collapse since Feb 28) preserved as SIG-014 IMMEDIATE → BRENT under proper attribution.
+- **Iran/Hormuz state CORRECTED twice intra-session.** PM-2: bifurcation framing (Apr 17 OPEN vs Apr 18 fragile). PM-3: bifurcation collapsed (re-closure verified Apr 18; both operational + political lean re-escalate). SIG-010 INDEX row carries correction pointer to SIG-014. Use SIG-014's verified state, not SIG-010's framing.
+- **Cluster steelman maturation pattern.** Bear thesis was assembled in earlier sessions. Counter-evidence channels arriving in PM-3/PM-4 are the SECOND-ORDER product of routing extreme positioning data — when something is 11+ standard deviations, counter-narratives form quickly. RED now has actual material (3 counter-channels) to argue with, not just "lose with grace."
+- **Will requested mid-closeout interpretation in PM-4 (msg 713).** Sent synthesis (msg 714): two stories TRUE simultaneously, different time horizons. Asymmetric-into-Tuesday trade MORE attractive (more positioning to potentially unwind), but post-Tuesday view should NOT assume regime change. Frame as 2-day catalyst convexity, NOT regime call.
+- **Cross-author combine precedent established as standing operating method.** SIG-010 (Flightradar + Hague), SIG-017 (cross-batch Bilello). Per FORMAT_SPEC same-author/same-theme rule, theme-identity is now operative test, not author-identity.
 
 ### NEXT SESSION
 1. **Apr 21 (Tuesday — 2 days)**: WAL + ZION earnings + Iran ceasefire expiry. **Bifurcation framing is dead** — operational (Apr 18 SoH re-closure verified) AND political (Apr 18 Sit Room w/ Bessent) BOTH lean re-escalate. Plus: cluster's positioning pillar now 4 channels, RED has 3 counter-channels to steelman. Frame the trade as 2-day catalyst convexity, NOT a regime call.
@@ -108,4 +76,4 @@
 ### OPEN DESIGN DECISIONS (need Will)
 - **Other-agent boot-sequence rollout** — still pending. Until rolled, agents won't pull from BOARD; only see signals if Will spawns/directs.
 - COP refresh cadence — currently OFF (deprioritized). When to turn back on?
-- Filter model v1→v2 review trigger: 10 dispatches or 30 days — at 19 dispatches (THRESHOLD HIT 9 ago), target was ~May 11. Review kill_log/route_log, adjust gate thresholds.
+- Filter model v1→v2 review trigger: 10 dispatches or 30 days — **at 34 dispatches (24 past threshold)**, target was ~May 11. Review kill_log/route_log, adjust gate thresholds. Session-by-session dispatch growth is accelerating — review more urgent than the date trigger suggests.
