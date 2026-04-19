@@ -42,35 +42,30 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (Apr 15 → Apr 16)
-- **Image-intake session.** Will sent 8 Telegram images. 3 routed, 4 killed, 1 combined-into-dispatched.
-- **SIG-W-20260416-001** (PRIORITY → BRENT): Ninepoint/Kpler global observable oil inventories chart. 2026 line is steepest destocking in 2017-2026 series (~8MMbbl/d, ~4,600 MMbbl mid-April). Physical-tightness data independent of Hormuz headline tape.
-- **SIG-W-20260416-002** (IMMEDIATE → BRENT): Viva Energy Geelong (Corio) Refinery fire 2026-04-15 ~11:15pm. 120k bpd offline — 10% Australia / 50% Victoria supply. One of only 2 AU refineries. Repair "could take weeks." **Verified via spawned research sub-agent**: Bloomberg, FRV (Fire Rescue Victoria), Viva Energy official, SBS, Al Jazeera — all three claims confirmed, plus Lytton (Ampol ~110k bpd) as only remaining AU refinery. "Corio Refinery" = "Geelong Refinery" = Viva Energy site (no brand confusion).
-- **SIG-W-20260416-003** (PRIORITY → HENRY): Equity internals — NDX RSI 30→70 in ~3 weeks + SPX closes record >7000 on negative breadth. Two charts combined per FORMAT_SPEC same-underlying-theme rule.
-- **Kills (4):** MrBujok 1929-Dow-analog (relevance+credibility, astrology-adjacent), @Lisa9Sophia AU fertilizer plant (relevance — no WALTER domain match), @matt_barrie same story (novelty dup), "The Great Martis" SPX broadening-top (relevance+credibility, anonymous chart speculation).
-- **Convergence flag candidate:** SIG-001 + SIG-002 + SIG-W-20260414-009 (US rigs flat into elevated oil) = 3 OIL_ENERGY data points in a week, same direction. May satisfy "2+ agents flag same theme 24h" if BRENT/HAWK reclassify.
-- **Telegram MCP disconnected mid-session** ~17:12 UTC after initial ack reply succeeded. Image intake worked (file paths delivered via channel tag). Reply-to-Will blocked at closeout.
-- **Previous-session pending (from Apr 15 closeout):** 3 unread inbox signals (OTTO Tricolor/MTB ABS; VIOLET VIX refresh; VIOLET SKEW divergence escalation) still sitting, not processed today — today's scope was images only. Flagged in NEXT SESSION below.
+### CHANGES SINCE LAST SESSION (Apr 16 → Apr 19)
+- **3-day dark interval, no WALTER session Apr 17-18.** Apr 18 saw Prome run a refactor + revert + cleanup cycle on root files (4 commits): tried PROME/identity/+state/ subdirs, OpenClaw injection broke, reverted to root. Net: HEARTBEAT/MEMORY/SOUL/USER/IDENTITY back at root unchanged; IRA/, agent-configs/, transcripts/ moved to archive/; data/ deleted; trade/ARES → AGENTS/BROCK/research/ARES/. Working tree was clean, fast-forward pull, no WALTER conflicts.
+- **3 inbox signals processed (all 4d-stale from Apr 15):**
+  - **SIG-W-20260419-001** (PRIORITY → REGINALD action; BROCK + RED info): OTTO Tricolor exposure-map expansion. MTB confirmed 5th named bank (American Banker) — was "watch tier" Feb 16. Tricolor ABS notes <10¢ on dollar = 2nd transmission channel beyond warehouse losses (investment-book marks). Timeline correction: vehicle-sale deadline is Apr 30 (not Mar 31) — Q2 prints carry revisions, not Q1. Reframes the OZK Apr 16 / WAL Apr 21 catalyst reads slightly: any Tricolor-ABS holders push real fingerprint to July.
+  - **SIG-W-20260419-002** (PRIORITY → HENRY; RED, LIQUID, VIOLET info): VIOLET Apr 15 VIX-family refresh. VIX 18.08↓, VVIX 98.77↓ but SKEW 149.94↑ approaching 150. Three observations (SKEW divergence, term contango, credit-vol co-compression). #3 confirms RED HY OAS <300 falsification day-count.
+  - **SIG-W-20260419-003** (IMMEDIATE → HENRY; RED, LIQUID, PROME, NEXUS info): VIOLET POSTURE 🟡→🟠 ELEVATED. 19yr backtest: SKEW-VIX-VVIX divergence pattern is 1% base rate, 15/16 (94%) → VIX +15% in 60d; revised P(new VIX event 60d) 30%→66%. Cross-link to BOARD signals: -20260416-003 (NDX RSI + SPX neg-breadth) + -20260414-006 (HF short cover) + -20260414-008 (DB financials gap) = **4-point positioning-wrong-footed cluster into Apr 21 / Apr 28 catalyst stack.**
+- **VIOLET registry locked:** Tier 1 / CC / ORANGE / VIX-family + SKEW/VVIX domain. Confirmed by Will Apr 19.
+- **Apr 16 batch-summary Telegram reply SKIPPED** per Will (3 days stale, just historical).
+- **Inbox cleared.** All 3 originals trashed via gio after BOARD archive.
 
 ### NEXT SESSION
-1. **Reply to Will via Telegram** — batch summary prepped in LAST_COMPLETION.md. Send as soon as MCP reconnects.
-2. **Check Telegram MCP status** first thing — was offline at close. If still offline, image intake blocked, in-session text only.
-3. **3 unread inbox signals** still pending from Apr 15 (and now 1 day older):
-   - `SIG-OTTO-WALTER-20260415-tricolor-mtb-abs-update.md`
-   - `SIG-VIOLET-WALTER-20260415-vix-apr15-refresh.md`
-   - `SIG-VIOLET-WALTER-20260415-002-skew-divergence-escalation.md`
-   Decide BOARD-route vs info-only. VIOLET SKEW-divergence-escalation might tie into SIG-W-20260416-003 equity-internals theme — consider cross-linking.
-4. **OZK earnings Apr 16 (today during this session, result not yet intook by WALTER).** REGINALD primary should process — check if a result-based signal should route.
-5. **Oil physical-tightness cluster follow-through** — SIG-001 + SIG-002 + SIG-W-20260414-009 hit 3-signal threshold. Watch for BRENT/HAWK classification; may merit convergence flag upgrade.
-6. **Iran state delta** — last verified Apr 15: blockade selective (Iranian-port only), talks rumored-resuming, Brent $94-100. Ceasefire expiry **Apr 21 not Apr 22**. State moves fast — re-verify before anchoring.
-7. **ZHAO awaiting spawn** for SIG-010/-011 China material. ZHAO STATUS now 14d+ stale.
-8. **RED refresh STILL OVERDUE** — HY OAS <300 falsification at Day 6+. Will owns spawn.
-9. **FORGE/STATUS.md still stale** at Mar 25 (~22d). Prome flag from Apr 11 unanswered.
-10. **COP refresh** deprioritized; COP is multi-delta stale. Reconsider.
-11. **Git push from Apr 15 was DEFERRED** (OTTO untracked files blocking). Check if cleared at boot; if yes, local commit + remote should now reconcile.
-12. **Filter v1→v2 review** — at 16 dispatches vs 10-trigger. Overdue.
+1. **OZK earnings Apr 16** — 3-day-old result, never intook by WALTER. If REGINALD already processed, no action; if Will wants WALTER to capture the result + market reaction as a backfill signal, surface and route.
+2. **Apr 21 (Tuesday — 2 days)**: WAL + ZION earnings + Iran ceasefire expiry. Big day. Consider pre-position checklist Mon evening or Tue AM.
+3. **Iran state — re-verify before anchoring.** Last verified Apr 15: blockade selective, talks rumored-resuming, Brent $94-100. State moves cycles in days. Spot-check before any new oil signal.
+4. **Convergence: 4-pt positioning-wrong-footed cluster** (HF short cover + DB financials + equity internals + VIOLET SKEW divergence) is a real convergence-flag candidate. NEXUS got info copy; consider proactive ping if NEXUS hasn't recognized.
+5. **Convergence: oil physical-tightness 3-pt cluster** (Kpler destocking + Corio fire + Baker Hughes rigs flat) still pending BRENT/HAWK reclassification — was flagged Apr 16, no follow-up Apr 17-18 due to dark interval.
+6. **RED refresh STILL OVERDUE** — HY OAS <300 falsification at Day 9+. Will owns spawn. With VIOLET now formalizing a vol-side adversarial frame, RED + VIOLET could pair productively.
+7. **ZHAO awaiting spawn** for SIG-W-20260414-010/-011 China material — now 17d+ stale.
+8. **FORGE/STATUS.md** still Mar 25 (~25d). Prome flag from Apr 11 unanswered. Every COP refresh requires Exposure caveat as cost.
+9. **COP refresh** deprioritized; COP is now ~6 days stale and Iran/blockade/ceasefire facts have moved 2-3 cycles. Reconsider before Apr 21.
+10. **Filter v1→v2 review** — at 19 dispatches vs 10-trigger. Overdue by 9 dispatches.
+11. **Telegram MCP** held connection through this session (4-message conversation). State stable Apr 19 AM.
 
 ### OPEN DESIGN DECISIONS (need Will)
-- **Other-agent boot-sequence rollout** — pending. Until rolled, agents won't pull from BOARD; they'll only see signals if Will explicitly directs them or spawns them.
+- **Other-agent boot-sequence rollout** — still pending. Until rolled, agents won't pull from BOARD; only see signals if Will spawns/directs.
 - COP refresh cadence — currently OFF (deprioritized). When to turn back on?
-- Filter model v1→v2 review trigger: 10 dispatches or 30 days — currently at 13 dispatches (THRESHOLD HIT), target was ~May 11. Review kill_log/route_log for false positives/negatives, adjust gate thresholds. Was supposed to happen around 10 dispatches; we're now at 13.
+- Filter model v1→v2 review trigger: 10 dispatches or 30 days — at 19 dispatches (THRESHOLD HIT 9 ago), target was ~May 11. Review kill_log/route_log, adjust gate thresholds.
