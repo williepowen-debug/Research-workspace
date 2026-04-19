@@ -42,7 +42,17 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (Apr 19 AM → Apr 19 PM)
+### CHANGES SINCE LAST SESSION (Apr 19 PM → Apr 19 PM-2)
+- **Second image-intake batch.** Will sent 5 Telegram screenshots at 18:15 UTC. Triage: 4 routed, 0 killed, 1 combined (cross-author per same-theme rule — first WALTER use of cross-author combine).
+- **4 BOARD signals dispatched:**
+  - **SIG-W-20260419-007** (PRIORITY → HENRY; BRENT, RED, LIQUID, NEXUS info): Kurt Altrichter CFP/CRPS Apr 16 — six-panel CBOE vol indices. VIX/VXD/VXN/RVX crushed, OVX still in crisis zone, GVZ mixed. "Non-confirmation" framing — equity vol pricing deal, oil vol not. 9th node in cluster.
+  - **SIG-W-20260419-008** (PRIORITY → HENRY; RED, LIQUID, NEXUS info): Data Driven Stocks Apr 17 — author-asserted "biggest 13-day SPX rally of the century, 0.63% probability / 1-in-160." Internal text-vs-chart inconsistency (12.20% on chart panel vs 0.63% in text). Routed with strong methodology caveat as cluster-augmentation channel only. 10th node.
+  - **SIG-W-20260419-009** (PRIORITY → HENRY; RED, LIQUID, NEXUS info): Mike Zaccardi CFA/CMT Apr 17 — Finviz S&P 500 treemap heatmap. Index records, interior mostly red. MSFT -24%, NFLX -27%, LLY/JNJ/TSLA -18-19%, BRK-B -12%. Visual augmentation of SIG-W-20260416-003. 11th node.
+  - **SIG-W-20260419-010** (PRIORITY → BRENT; HAWK, SAM, RED, PROME info): Combined Flightradar24 dense Doha/Gulf overflight + OSINT Technical/Peter Hague Celestyal Discovery cruise ship Hormuz transit (different authors, same theme — **first cross-author combine in WALTER history**; precedent in -003 already). Confirms SELECTIVE-blockade reality.
+- **Iran state bifurcation crystallized:** operational openness Apr 17 (cruise ship + dense aviation) vs political fragility Apr 18 (Trump WH Sit Room + Bessent). Both can be true into Apr 21 ceasefire expiry.
+- **Cross-author combine precedent set.** SIG-W-20260416-003 was first (Bloomberg + ZeroHedge); SIG-W-20260419-010 is second (Flightradar + OSINT Technical/Peter Hague). Same-theme criterion is now the operative test, not author-identity.
+
+### CHANGES SINCE PREVIOUS (Apr 19 AM → Apr 19 PM)
 - **Image-intake batch session.** Will sent 6 Telegram screenshots at 17:41 UTC. Triage: 3 routed, 2 killed, 1 combined into routed.
 - **3 BOARD signals dispatched:**
   - **SIG-W-20260419-004** (PRIORITY → HENRY; RED, LIQUID, NEXUS info): @FinanceLancelot — combined 2 charts per FORMAT_SPEC same-author/same-theme rule: SPX Wyckoff Distribution ("Upthrust After Distribution / We are here") + NDX 25-yr log-scale parabolic with dot-com analog. Pattern speculation alone is weak — counts as channels 7+8 in valuation/positioning convergence cluster.
@@ -55,17 +65,17 @@
 - **Verify-research auto-spawn pattern reaffirmed.** Two parallel sub-agents spawned (Buffett + BOJ) without per-spawn permission. One verified PRIORITY-route, one killed MISFRAMED. ROI on verify-spawning held: caught 1 misframed-claim that would have polluted BOARD.
 
 ### NEXT SESSION
-1. **Apr 21 (Tuesday — 2 days)**: WAL + ZION earnings + Iran ceasefire expiry. Pre-position checklist Mon evening or Tue AM. The Trump Sit Room signal makes this catalyst stack hotter — Bessent attendance is the analytically novel datum.
-2. **8-point convergence cluster** — surface to NEXUS proactively if no formal classification appears. Cluster crosses any reasonable threshold.
-3. **Iran state — re-verify before anchoring.** Last verified Apr 15. Sit Room signal confirms situation is live; ceasefire expiry Apr 21. Spot-check before any further oil signal.
+1. **Apr 21 (Tuesday — 2 days)**: WAL + ZION earnings + Iran ceasefire expiry. The catalyst stack now has a clean operational-vs-political bifurcation (Apr 17 Hormuz open, Apr 18 Trump Sit Room) — the bifurcation itself is the framing for Tuesday. Pre-position checklist Mon evening or Tue AM.
+2. **11-node convergence cluster** on BOARD — surface proactively to NEXUS if no formal classification. Cluster has grown across 3 sessions; well past any reasonable threshold.
+3. **Iran/Hormuz state refreshed Apr 17** — operationally open to civilian transit. State could move again with Apr 18 Sit Room follow-through. Spot-check Flightradar/Marinetraffic + news before any new oil signal.
 4. **OZK earnings Apr 16 backfill** — still pending if Will wants. REGINALD likely processed.
-5. **Convergence: oil physical-tightness 3-pt cluster** (Kpler + Corio + Baker Hughes) still pending BRENT/HAWK reclassification.
-6. **RED refresh STILL OVERDUE** — HY OAS <300 falsification at Day 9+. Buffett 232% + 8-pt cluster gives RED extra adversarial fodder. Will owns spawn.
+5. **Oil 3-pt cluster** (Kpler + Corio + Baker Hughes) still pending BRENT/HAWK reclassification — now needs to be re-evaluated against new -010 normalization data (does open Hormuz invalidate any of the physical-tightness thesis? Probably not — Kpler is global stocks, not Hormuz transit specifically).
+6. **RED refresh STILL OVERDUE** — HY OAS <300 falsification at Day 9+. Buffett 232% + 11-pt cluster + Hormuz operational openness all give RED a richer adversarial setup. Will owns spawn.
 7. **ZHAO awaiting spawn** for China material — now 17d+ stale.
-8. **FORGE/STATUS.md** still Mar 25 (~25d). Prome flag from Apr 11 unanswered.
-9. **COP refresh** still deprioritized; would now be ~6 days stale + 8-pt cluster missing entirely. Reconsider before Apr 21.
-10. **Filter v1→v2 review** — at 22 dispatches vs 10-trigger. Overdue by 12 dispatches.
-11. **Telegram MCP** stable through PM session (image batch + ack reply both worked).
+8. **FORGE/STATUS.md** still Mar 25 (~25d).
+9. **COP refresh** still deprioritized; gap continues to grow.
+10. **Filter v1→v2 review** — at 26 dispatches vs 10-trigger. Overdue by 16 dispatches.
+11. **Telegram MCP** stable through 3 PM exchanges (PM batch + verify-results + PM-2 batch + ack + summary).
 
 ### OPEN DESIGN DECISIONS (need Will)
 - **Other-agent boot-sequence rollout** — still pending. Until rolled, agents won't pull from BOARD; only see signals if Will spawns/directs.
