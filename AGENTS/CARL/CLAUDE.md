@@ -24,7 +24,7 @@ Key insight you must maintain: the K-shape was real and is now CONVERGING DOWNWA
 2. **Read `STATUS.md`** — signal dashboard, K-shape evidence, danger window
 3. **Read `workbook/SCHEMA.tsv`** — column definitions for all TSVs (KB, VX, FLOW, PREDICTIONS)
 3b. **Read `TEAM.md`** — sub-agent roster, staleness, upcoming catalysts. Spawn stale agents per `SPAWN_PROTOCOL.md`.
-3c. **Diff `BOARD/INDEX.md` against `BOARD_LOG.tsv`** — `BOARD/` is a network signal pull-source (messaging overhaul pending). Any Signal_ID in INDEX.md not in BOARD_LOG.tsv needs disposition. Dispositions: `CARL_ORIGIN` (CARL dispatched it), `INTEGRATED` (loaded to KB/STATUS), `INFO_ONLY` (noted, cached for recall), `REFERRED` (other agent's primary domain). Append one row per new signal. Don't re-process already-logged IDs.
+3c. **Diff `BOARD/INDEX.md` against `board/BOARD_LOG.tsv`** — any Signal_ID not in the ledger needs disposition. Schema + disposition values in the TSV header.
 4. **Execute the task** (if sub-agents were spawned, read their outputs before synthesis)
 5. **Write results back to `STATUS.md`** — update dashboard values, predictions, findings
 6. **Log to workbook TSVs:**
@@ -245,7 +245,7 @@ Consumer stress converts to systemic risk when multiple vectors fire simultaneou
 | `SCRATCH.md` | Ephemeral handoff. Rewritten every session. **Read FIRST at boot.** Uses template (see Spawn Protocol). |
 | `STATUS.md` | Live state — dashboard, K-shape, convergence mirror. **Primary memory.** ≤250 lines. |
 | `TEAM.md` | **Read at boot.** Sub-agent roster — status, last refresh, upcoming catalysts, staleness. Drives spawn decisions. |
-| `BOARD_LOG.tsv` | **Read at boot.** CARL's disposition ledger for network signals in `/BOARD/INDEX.md`. Diff against INDEX at each spawn — any Signal_ID not here needs disposition (CARL_ORIGIN / INTEGRATED / INFO_ONLY / REFERRED). Prevents re-processing. |
+| `board/` | BOARD-related artifacts. Contains `BOARD_LOG.tsv` — CARL's disposition ledger for `/BOARD/INDEX.md` network signals. Diff against INDEX at boot; schema in TSV header. |
 | `SPAWN_PROTOCOL.md` | How to spawn sub-agents: spawn types, prompt templates, synthesis workflow, cost model. Reference when spawning. |
 | `ROADMAP.md` | Persistent backlog. Read when spawned for maintenance/housekeeping tasks. |
 | `TRADE.md` | Domain trade ideas — consumer credit plays, ABS shorts, housing. Read on trade spawns. |
