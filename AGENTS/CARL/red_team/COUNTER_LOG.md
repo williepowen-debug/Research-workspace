@@ -4,6 +4,60 @@ Running log of data that weakens the "Beneath the Ice" thesis. Newest first.
 
 ---
 
+## 2026-04-19 — MS/Piper Sandler "2026 ≠ 1990/91 Oil Shock" Structural Comparison (SIG-W-20260419-021)
+
+**Data:** Morgan Stanley Investment Management 'The BEAT' Q2 2026 (Apr), p.17 — republishes Piper Sandler 6-row comparison (dated Mar 12 2026) arguing 2026 is structurally insulated vs 1990/91 oil-shock playbook across every axis: (1) Consumer gasoline exposure ~1.8% of spending (vs ~3% in 1990/91), (2) Real economy strong ~2.5% / ISM rising / jobless very low, (3) Corporate margins ~15% / tech leading (vs ~-4% / tech weak), (4) US net exporter / shale supply vs larger importer / slow supply, (5) Financial conditions rising / very liquid vs declining / S&L crisis, (6) Large fiscal impulse vs tax-rise tightening. Net thesis: "don't apply 1990/91 recession playbook to current oil stress." [SIG-W-20260419-021 via WALTER; MSIM Apr 2026]
+
+**Why it matters:** Named institutional counter-frame to the oil→consumer→recession transmission mechanism that is load-bearing for CARL Vector #5 (Gas Squeeze) and Vector #12 (Stagflation Trap). If correct, current Iran/SoH stress and $4+ pump prices have ~40% less household-budget sensitivity than historical analog implies, and the consumer side of the thesis rests on a weaker energy-transmission base than 1970s/1990s pattern matching suggests.
+
+**Thesis impact at face value:** Would be MATERIAL — consumer-gas-exposure drop from 3% → 1.8% is a real structural change in PCE composition, plus US net-exporter flip is genuine asymmetry vs 1990/91. If this framework were comprehensive, it would defang the gas-squeeze vector. BUT: three load-bearing axes in the comparison are cherry-picked or factually contested (see below).
+
+**Rebuttal (three structural holes):**
+
+**(A) Aggregate 1.8% masks K-shape distribution — the CARL-specific mechanism.**
+- PCE gasoline share is ~1.8% of *average* household spending. CARL thesis is that the bottom 60% have 4-5% gas share of their budget (lower income, longer commutes, less fuel-efficient vehicles, no remote-work option).
+- Bottom-60% aggregate spending is ~35% of PCE ≈ $6.9T of $19.6T. Their gas share ~4-5% = ~$275-345B, while gas overall ~$353B of PCE. Implies top 40% has <1% gas-exposure, bottom 60% has 4-5%.
+- So for the cohort CARL's thesis actually targets (bottom 60% stressed consumer), gas exposure is **the same or higher than 1990/91 aggregate** — the MS comparison uses the wrong denominator for K-shape stress transmission.
+
+**(B) "Real economy strong" is stale and contested on CARL's load-bearing vectors.**
+- MS claim: "strong ~2.5% / ISM rising / jobless very low."
+- CARL data (Apr 2026): JOLTS ratio 0.91 **INVERTED & DEEPENING** (Feb), LFPR **61.9% lowest since Nov 2021** (Mar), 3-mo NFP avg **68K vs 150K breakeven**, UMich sentiment **47.6 RECORD LOW** (Apr preliminary), UMich 5-10Y inflation exp **3.4% un-anchoring** (Fed red line), GDPNow Q1 **1.3% halved in 5wks** (Apr 7).
+- The MS table freezes the "jobless very low" framing at headline unemployment rate 4.3% — but the rate fell because LFPR fell (discouraged workers exiting), not because labor demand is firm.
+- This is the closest thing to a factual error in the table. Every load-bearing labor-market vector CARL tracks reads the opposite direction.
+
+**(C) "Financial conditions rising / very liquid" ignores the cracking structured/private credit.**
+- MS claim: "rising / very liquid" (vs S&L crisis 1990).
+- Public HY: HY OAS 294bps (collapsed 23bps) — this is the axis MS is citing.
+- BUT structured credit: **EART 2024-2 Class E CE BREACHED** (CNL 13.06% > 7.6% initial CE, Apr 16); AMCAR Class E ~2mo cushion; SDART Class D ~7mo; CMBS MF DQ **7.15% NEW ATH**; Fannie MF DQ **0.74% (6bps from GFC peak)**.
+- The public vs structured credit divergence (CARL's "complacency gap") is precisely the condition where aggregate "liquid" reads mask the cracking at the vulnerable tranches. This is consistent with pre-GFC 2007 ABX pattern: headline spreads calm, subprime tranches disintegrating.
+
+**Partial concessions (axes where MS is directionally correct):**
+- **US energy structure:** Net-exporter flip is real. In a pure oil-shock scenario (not seen yet this cycle), US producer surplus recycles to domestic capex/employment. Caveat: Baker Hughes rig count **FLAT** through mid-April despite elevated oil (SIG-009) — the recycling mechanism is NOT yet firing; producers are taking cash flow, not deploying rigs.
+- **Fiscal impulse vs 1990/91 tightening:** Also real. BUT the CARL thesis interprets this as STAGFLATION LOCK fuel (Vector #12), not pure tailwind — fiscal impulse + tariff cost pass-through + un-anchoring inflation expectations is the mechanism keeping Fed locked. MS treats fiscal as positive; CARL treats as Fed's binding constraint.
+- **Corporate margins ~15%:** Aggregate S&P 500 margin is ~15%. BUT K-shape corporate: AI/mega-cap (NVDA/MSFT/META/GOOGL/AMZN) carrying aggregate. Mass-market sectors: LEN gross margin 15.2% *lowest since 2010*, restaurant closures **944-1049 announced FY2026**, NAHB HMI 34 RED. Aggregate margin health is not evenly distributed.
+
+**Multi-vector rebuttal (the deeper point):**
+- MS frames 2026 as an oil-shock scenario and asks "is it like 1990/91?"
+- CARL thesis is NOT oil-shock-in-isolation. It is multi-vector cost squeeze: gas + food (triple-nitrogen seizure loading Q3-Q4) + UI exhaustion ($930M/mo peak July) + housing pipeline (878K 90+/FC, cures -40%) + student loan cascade (9.2M default, 2.4M late-stage DQ) + tariff-uncertainty channel (NFIB Uncertainty 92 BREACHED).
+- Even if oil-shock-alone is structurally smaller than 1990/91 via consumer-exposure axis (grant MS that point), aggregating the other 5 vectors that were NOT active in 1990/91 makes the total cost-squeeze larger, not smaller.
+- MS's comparison is a single-vector analog that CARL's thesis was already designed around.
+
+**Synthesis:** MS/Piper Sandler is a legitimate thesis-frame counter — it's named, institutional, publicly sourceable, and contains two real structural-asymmetry points (consumer gas share, US energy structure). But three of its six axes are either cherry-picked (financial conditions), stale (real economy), or reframed (fiscal impulse). More importantly, it uses aggregate averages on the consumer axis precisely where CARL's K-shape mechanism lives in the distribution tails. **Does NOT change convergence score (58/60). Does NOT change CRL-05/CRL-08 confidence.** Should be carried as standing structural counter-frame for any single-vector oil-shock reasoning.
+
+**What would strengthen this counter:**
+- Data on bottom-60% PCE gasoline share actually lower than historical (not just aggregate)
+- CMBS MF DQ / Fannie MF DQ reversing, not ATH-ing
+- Labor vectors (JOLTS, LFPR, NFP) rebuilding toward 1990/91-"jobless very low" character
+- Baker Hughes rig count responding to oil price (net-exporter-recycling mechanism firing)
+
+**What would break this counter entirely:**
+- Gas crosses $4.50+ sustained AND bottom-60% DQ rates accelerate AND consumer-stress data confirms K-shape bottom cohort cost-squeeze is operative (i.e., the distribution tail is where stress lives regardless of aggregate)
+- MS republishes with updated labor data showing the "strong economy" axis failing
+
+**KB ref:** (new) — see Apr 19 KB entries.
+
+---
+
 ## 2026-04-17 — Ally Q1 2026 Near-Prime Auto CLEAN (4-5 Consecutive Qtrs Improvement)
 
 **Data:** Ally Financial Q1 2026 earnings (Apr 17): Adj EPS $1.11 vs $0.94 est (+18%). Retail auto NCO **1.97%** (-17bps QoQ, -15bps YoY) — 5th consecutive quarter of YoY improvement. 30+ DQ all-in **4.6%** (-17bps YoY) — 4th consecutive quarter of improvement. Flow-to-loss rates "record low." Mgmt: "Consumer behavior is resilient. There's a disconnect between consumer sentiment and what we're seeing." 2026 retail auto NCO guide 1.8-2.0% MAINTAINED. [Ally Q1 2026 earnings; KB-CARL-222]

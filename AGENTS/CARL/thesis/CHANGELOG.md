@@ -8,6 +8,57 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-04-19 (PM) — BOARD SIGNAL INTEGRATION (Apr 17–19 WALTER dispatches)
+
+### NO THESIS VERSION BUMP
+**Author:** CARL (BOARD/INDEX.md integration pass — 15 CARL-relevant signals out of 30)
+**Action:** Evidence update only. Convergence unchanged at 58/60. No vector score change. Two new rows in STATUS Macro/Energy (Qatar LNG, Iran Day-Cluster). One counter-frame logged to RED team. One prediction confidence adjusted.
+
+### TRIGGER
+
+Will directed CARL to use `BOARD/INDEX.md` as a pull-source while the file-based messaging overhaul is pending. 30 dispatches since Apr 17 PM#3 closeout. Highest-load signals: SIG-021 (MS oil-shock 1990-vs-2026 counter-framework), SIG-030 (Qatar LNG verified ~20% global offline since Mar 2), SIG-024/028/029 (Iran 8-channel escalation day-cluster Apr 18–19 + Netherlands LCP-O Apr 20).
+
+### PREDICTION UPDATES
+
+**CRL-08 — Gas pump prices hit $4.50+ national avg**
+- **Confidence: 60% → 65%**
+- **Timeframe: "extended from Apr 5" → "May-Jun 2026 (extended from Apr 5)"**
+- **Rationale:** Apr 8 ceasefire had dropped confidence 80→60% (oil crashed 15% to $98). Three new loadings reverse some of that cut: (a) Qatar LNG verified ~20% global supply offline since Mar 2 via Iranian drone strikes on Ras Laffan + Mesaieed + QatarEnergy force majeure (KB-CARL-234); (b) Apr 18–19 8-channel Iran escalation day-cluster (KB-CARL-235); (c) Netherlands LCP-O activates Mon Apr 20. Apr 21 ceasefire expiry is a BINARY event — conditional probabilities: 80% on May-Jun $4.50 if ceasefire breaks, 30% if it holds. Bump held at 65% (not 70%) to honor the MS/Piper Sandler counter-frame's legitimate US net-exporter asymmetry (see RED team entry below).
+- **Invalidation unchanged.**
+
+### RED TEAM — MS/PIPER SANDLER OIL-SHOCK COUNTER-FRAME LOGGED
+
+SIG-021 (MS 6-row 1990-vs-2026 comparison + Piper Sandler "gas matters less" note, 1.8% aggregate consumer spending share, US net-exporter since 2020, "real economy strong," "financial conditions liquid"). Logged to `red_team/COUNTER_LOG.md` with three-point rebuttal:
+
+1. **Aggregate-masking (core CARL K-shape rebuttal):** 1.8% is population-weighted; bottom 60% gas share is ~4-5% of disposable income at $4.08. The K-shape IS the thesis — aggregate comfort is NOT the transmission channel.
+2. **"Real economy strong":** Headline, not cohort. JOLTS 0.91 (inverted), LFPR 61.9%, UMich 47.6, FICO Spring 2026 -62pt avg, 9.2M student loan default cohort — all fire independently of any gas move.
+3. **"Financial conditions liquid":** Masks structured-credit cracking — EART Class E CE breached (Apr 16), CMBS MF DQ 7.15% ATH (Trepp Mar), AFRMT BNPL composition degrading.
+
+**Outcome:** Counter-frame does NOT change convergence score or CRL-05/CRL-08 confidence (beyond the explicit cap on the CRL-08 bump). Logged as legitimate dampener on magnitude, not invalidator of mechanism. Cached for recall next time MS/Piper material appears.
+
+### KB ENTRIES ADDED (6)
+
+- KB-CARL-234: Qatar LNG ~20% global offline since Mar 2 (A2 EMPIRICAL, 0.97 confidence via WALTER verify-research)
+- KB-CARL-235: Iran 8-channel escalation day-cluster Apr 18–19 (A2 EMPIRICAL)
+- KB-CARL-236: MS/Piper Sandler oil-shock counter-frame (B2 ASSUMPTION)
+- KB-CARL-237: Institutional positioning extreme — not retail (B2 EMPIRICAL)
+- KB-CARL-238: China Shock 2.0 info-only, attenuated US channel (A2 EMPIRICAL, stays ZHAO-owned)
+- KB-CARL-239: KRE vs XLF counter-framing info-only (C3 EMPIRICAL, stays REGINALD-owned)
+
+KB row count: 233 → 239.
+
+### STATUS.md CHANGES
+
+- Header block: Apr 19 BOARD integration note + ceasefire binary framing
+- Macro/Energy section: +Qatar LNG row (🔴, verified since Mar 2), +Iran Day-Cluster row (🔴, 8 channels Apr 18–19)
+- Cross-agent WAR row: updated with Netherlands LCP-O Apr 20 and ceasefire Apr 21 binary
+
+### AWARENESS GAP CLOSED
+
+Qatar LNG disruption in force since Mar 2 2026 was not previously in CARL STATUS or KB despite being a material multi-vector cost-squeeze loader (gas/LNG/industrial input). Gap identified via SIG-030 verify-research; filed KB-CARL-234 + STATUS row.
+
+---
+
 ## 2026-04-17 (PM) — v2.4.1: PAYMENT HIERARCHY TIMELINE PUSHED (ALLY Q1 COUNTER-EVIDENCE + AUDIT)
 
 ### THESIS v2.4 → v2.4.1

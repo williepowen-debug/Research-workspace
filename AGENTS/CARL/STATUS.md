@@ -1,6 +1,6 @@
 # CARL STATUS
-**Updated:** 2026-04-17 ~17:30 UTC (PM#2 — PHAN + GIG refresh synthesis)
-**Overall:** 🔴🔴 CRITICAL — Convergence 58/60. **Apr 17 PM#2: ALLY FRAMEWORK GENERALIZES — CARL composition-masking pattern confirmed at BNPL (Affirm: ABS WA FICO 672 lowest since 2022, provisions +40% YoY vs DQ -10bps; Kerrisdale median FICO 652) AND subprime auto ABS (Santander/Bridgecrest/Exeter 60+ DQ 7.9%/7.8%/6.7%). Cycle-stage near-prime behavior, not ALLY idiosyncrasy. Strengthens 2H 2026/Q1 2027 reactivation case. CFPB Rule 1033 ON HOLD → EFFECTIVELY DEAD (CFPB own motion to withdraw filed). FL gas DIVERGING UP ($4.093) vs national easing ($4.076) — FL UI Wave 2 Apr 26 convergence loading.** Apr 17 PM#1: ALLY Q1 processed, thesis v2.4→v2.4.1, payment hierarchy TIMELINE PUSHED to 2H 2026/Q1 2027, CRL-05 85→82%. Apr 17 AM: Vector #10 UPGRADE 4→5 — Q1 REO +45% YoY, FL +108%. NAHB HMI 34. Sweet Apr 15 MISSED → auto full relief ~271K. FICO Spring 2026: SL 90+ DQ ~9.8%. ABS Apr 16: EART Class E CE BREACHED. AMCAR Class E ~2mo, SDART Class D ~7mo. UMich 47.6. CPI Mar +3.28%, PPI +4.0%. HY OAS 294bps. CMBS MF DQ ATH 7.15%.
+**Updated:** 2026-04-19 ~23:55 UTC (BOARD integration — Iran escalation day-cluster + Qatar LNG + MS counter-frame)
+**Overall:** 🔴🔴 CRITICAL — Convergence 58/60. **Apr 19 BOARD pull: (1) Iran 8-channel escalation day-cluster firing into Apr 21 ceasefire expiry — SoH re-closure kinetic (Apr 18), Trump Sit Room w/ Bessent, US carrier buildup, Iran rejects talks, Navy ship intercept, MarineTraffic turnarounds, Netherlands LCP-O Phase 1 activates Mon Apr 20, Qatar LNG ~20% global supply offline since Mar 2 VERIFIED (previously NOT in CARL awareness — gap closed). (2) MS/Piper Sandler 2026-vs-1990/91 oil-shock counter-frame: legitimate structural-asymmetry points on US net-exporter + 1.8% aggregate gas share, but cherry-picked on 3 axes and uses wrong denominator for K-shape mechanism — full rebuttal red_team/COUNTER_LOG.md. (3) Positioning extreme characterized: INSTITUTIONAL (MMF -$175bn weekly BofA series-low, $93B short cover, HF fastest since 2020) + BRK.A trailing SPY -39pts = rally beta/momentum-led not quality. Retail equity flow 0.4% AUM — NOT a retail mania. (4) CRL-08 confidence 60→65% on oil loading despite MS counter-frame.** Apr 17 PM#2: ALLY composition-masking framework GENERALIZES (BNPL/AFRMT + subprime auto ABS). CFPB 1033 EFFECTIVELY DEAD. Apr 17 PM#1: ALLY Q1 processed, thesis v2.4→v2.4.1, payment hierarchy TIMELINE PUSHED to 2H 2026/Q1 2027, CRL-05 85→82%. Apr 17 AM: Vector #10 UPGRADE 4→5. NAHB HMI 34. Sweet Apr 15 MISSED → auto-relief ~271K. FICO Spring 2026: SL 90+ DQ ~9.8%. EART Class E CE BREACHED. UMich 47.6. CPI Mar +3.28%, PPI +4.0%. HY OAS 294bps. CMBS MF DQ ATH 7.15%.
 
 *Check-in archives: `archive/status/` (pending Phase 3 move)*
 
@@ -55,6 +55,8 @@
 | Diesel | **$5.608** (barely moved post-ceasefire — delivery/food cost pressure persists) | Apr 13, EIA | 🔴🔴 |
 | Brent | **$98.18** (ceasefire stabilized ~$98, was $115 pre-ceasefire) | Apr 13, yfinance | 🟠 |
 | WTI | **~$97-98** (stabilized post-ceasefire) | Apr 13 | 🟠 |
+| **Qatar LNG** | **~80 MTPA OFFLINE = ~20% global LNG supply** (Mar 2 Iranian drone strikes Ras Laffan + Mesaieed; Mar 4 QatarEnergy force majeure; Mar 18-19 2nd strike wave; Mar 24 FM extended). TTF EU gas +50%, JKM Asia LNG +39%. Wiki: "2026 Iran war fuel crisis" since Feb 28. **CARL gap closed Apr 19** — supports diesel elevated + distillate tightness → gasoline supply side indirect. | Apr 19 (via SIG-030 verified 0.97) | 🔴🔴 |
+| **Iran Day-Cluster Apr 18-19** | **8 confirmed channels** firing into Apr 21 ceasefire expiry: SoH re-closure kinetic (95% transit below normal since Feb 28), Trump Sit Room w/ Bessent, US multi-carrier buildup (Ford+destroyers joining Lincoln, Bush en route), Iran rejects 2nd round talks, Navy destroyer intercepts Iran vessel, MarineTraffic shows Iran attacks forcing turnarounds, Netherlands LCP-O Phase 1 activates Mon Apr 20, Qatar LNG. **Apr 21 is binary.** | Apr 19 BOARD | 🔴🔴 |
 | HY OAS | **294bps** (collapsed 317→294 in 8 days — ceasefire + NFP compressed 23bps. Now BELOW 300 elevated threshold. Complacency gap WIDENING — structured credit cracking while public HY tightens) | Apr 10, FRED | 🟢 ⚠️ |
 | CPI Energy YoY | **+12.5%** (+11.9% MoM index jump) | Mar 2026, BLS | 🔴 |
 | Savings Rate | **4.0%** (↓0.5pp from Jan, real DPI -0.5%) | Feb 2026, BEA | 🔴 |
@@ -157,7 +159,7 @@
 |------|-----------|-------|--------|
 | LABOR | JOLTS 0.91 inverted, hires COVID-low 3.1%, duration 25.7wk, **NFP Mar +178K (headline) but Feb revised -133K, LFPR 61.9%, 3mo avg 68K**, DOGE 260K+ (fed govt -18K in Mar) | Apr 3 | 🔴🔴 |
 | HAWK | WTI ~$98, Brent $98.18, gas $4.13 (FL $4.02, CA $5.89), diesel $5.65 UP, nitrogen seizure (urea $690s), CPI Energy +12.5% YoY | Apr 13 | 🟠 |
-| WAR | **2-WEEK CEASEFIRE Apr 8** — Oil crashed 15%. BUT Hormuz still blocked, Iran claims breach, Israel/Lebanon tensions. Fragile. | Apr 9 | 🟠 |
+| WAR | **CEASEFIRE EXPIRES APR 21.** Apr 18-19 8-channel escalation day-cluster (see Macro/Energy) — SoH re-closed kinetic, US carrier buildup, Iran rejects talks, Navy ship intercept, MarineTraffic turnarounds, Netherlands LCP-O activates Mon, Qatar LNG ~20% global offline since Mar 2 (verified Apr 19). Binary Apr 21. | Apr 19 (BOARD) | 🔴🔴 |
 | FOMC | Hold 3.50-3.75%, 1 cut priced — fed locked by stagflation | Mar 19 | 🔴🔴 |
 | MARCO | ICE 1,100+/day, remittances -4.6%, Miami outmigration -2.0% | Mar 26 | 🔴 |
 
@@ -184,7 +186,7 @@
 | CRL-05 | CC 90+ DQ >13.74% (GFC) | **82%** | Q2-Q3 2026 | 12.70% — 1.04pp gap. **Apr 17 (PM): 85→82%** on ALLY Q1 counter-evidence — near-prime auto headline clean 5 consec qtrs. Audit found composition-masking not fraud (KB-CARL-223). SL cascade pathway intact. |
 | CRL-06 | Foreclosures >70K/qtr | 70% | Q2 2026 | 58,140 Q4 — needs +20% |
 | CRL-07 | FL UI exhaustion → DQ spike | 85% | Jun-Aug 2026 | LABOR model confirms timeline |
-| CRL-08 | Gas $4.50+ national avg | **60%** | Jun 2026 (extended — ceasefire uncertainty) | $4.13 national, FL $4.02 (crossed breakpoint), CA $5.89. Diesel $5.65 (UP). Ceasefire stabilized Brent ~$98 but diesel still rising. CPI Energy +12.5% YoY. |
+| CRL-08 | Gas $4.50+ national avg | **65%** | May-Jun 2026 | $4.076 national, FL $4.09 DIVERGING UP. Apr 19 BOARD: 8-channel Iran day-cluster + Qatar LNG ~20% global offline since Mar 2 + Netherlands LCP-O activates Mon. Oil loading INTENSIFYING, Apr 21 binary. Diesel $5.60 elevated. MS counter-frame (SIG-021 US net-exporter asymmetry) partially offsets — confidence bumped 60→65%, not 70%. |
 | CRL-09 | JOLTS Mar ratio <0.88 | 75% | May release | Feb was 0.91, pre-Iran |
 | CRL-10 | Food CPI YoY >4.0% | 70% | Q4 2026 | Wheat 107yr low, urea $690s |
 | CRL-11 | Hires rate ≤3.2% through Q2 | 85% | Jul/Aug releases | Currently 3.1% COVID-low |

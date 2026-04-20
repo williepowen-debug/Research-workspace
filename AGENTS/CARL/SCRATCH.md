@@ -1,111 +1,104 @@
 # CARL SCRATCH
-**Last session:** 2026-04-17 ~20:00 UTC (PM#3 — POLLY + POP parallel refresh + IEEPA verification)
-**Type:** Sub-agent parallel spawn (POLLY, POP); IEEPA SCOTUS ruling verified; 2 outbox signals; 3 KB entries
+**Last session:** 2026-04-19 ~20:00 UTC (Sunday PM — BOARD integration pass)
+**Type:** Network signal integration via new BOARD/INDEX.md pull-source; 6 KB entries; 1 RED team entry; 1 CRL confidence update
 
-**PRIORITY-1:** SYF Q1 Mon Apr 21 — CRL-12 test (NCO >6%). Apply **ALLY composition-masking framework (KB-CARL-225, 228)** — now validated across auto-near-prime, BNPL, subprime auto ABS. Same day: COF Q1. Also **UNH Q1 Apr 21 AMC / ELV Q1 Apr 22 AMC** → respawn POLLY for MLR reads.
-
-**PRIORITY-2 (new):** Build **COOK** sub-agent (food + SNAP stress). Full plan saved at `sub_agents/COOK_BUILDOUT_PLAN.md`. 3 phases, ~25-30 min total, ~$0.25-0.30. Will approved name. Execute before or after Apr 21 earnings depending on time.
+**PRIORITY-1:** **MON APR 21 QUADRUPLE EVENT** — SYF Q1 (CRL-12 NCO >6%), COF Q1, UNH Q1 (premarket, respawn POLLY), DHI Q2 (HOMER). Apply ALLY composition-masking framework (KB-CARL-225, 228) to SYF + COF. Also **Apr 21 Iran ceasefire expiry = BINARY event** — if breaks, CRL-08 conditional probability on May-Jun $4.50 jumps to 80%.
 
 ---
 
 ## WHAT HAPPENED
 
-1. **Sub-agent analysis** — Will asked which sub-agents need updates. Identified POLLY/POP/DOC at 7d staleness edge; POLLY priority HIGH (Q1 insurer earnings wave), POP priority MEDIUM (tariff policy dynamic), DOC priority LOW.
-2. **Parallel DATA REFRESH spawn** — POLLY + POP in sequence (should have been parallel — friction flag). Both completed.
-3. **IEEPA verification** — POP surfaced structural claim: SCOTUS Feb 20 struck IEEPA tariffs. Spawned verification agent. Core claim VERIFIED (Learning Resources v. Trump 6-3, Sec 122 replacement, $166B refunds, CAPE tool Apr 20). Correction: POP's 125-145% pre-ruling China IEEPA rate is wrong — actual was ~20%.
-4. **Outbox signals built** — LABOR (NFIB March SB hiring pullback) + REGINALD (IEEPA refund = SB borrower liquidity = timing modifier on regional bank thesis).
-5. **KB entries added** — 231 IEEPA regime change, 232 NFIB Mar deterioration, 233 POLLY Q1 insurance bifurcation (CA FAIR Plan ATH + auto CPI collapse).
-6. **TEAM.md** — refresh dates corrected (STUE/HOMER/GIG/PHAN/POLLY/POP all Apr 17; DOC alone at Apr 9).
+1. **Boot + new pull-source** — Will directed CARL to use `BOARD/INDEX.md` as signal pull-source while messaging overhaul pending. 30 WALTER-dispatched signals reviewed; 15 CARL-relevant identified.
+2. **HOMER inbox loop closed** — SV-HOMER-2026-04-17-01 confirmed already integrated Apr 17 PM#2; moved to `inbox/processed/`.
+3. **SIG-030 Qatar LNG** — VERIFIED ~20% global LNG supply offline since Mar 2 (0.97 confidence via WALTER verify-research). Gap in CARL STATUS closed. Logged KB-CARL-234 + added STATUS Macro/Energy row.
+4. **SIG-024/028/029 Iran day-cluster** — 8 channels fired Apr 18–19 (rhetoric escalation, tanker exchange patterns, regional posture); Netherlands LCP-O activates Mon Apr 20; Apr 21 ceasefire expiry is BINARY. Logged KB-CARL-235 + STATUS row.
+5. **SIG-021 MS oil-shock counter-frame** — 6-row 1990-vs-2026 MS/Piper Sandler comparison arguing "consumer gas share 1.8% aggregate, US net-exporter, real economy strong." Three-point rebuttal filed to `red_team/COUNTER_LOG.md`: (a) aggregate masks K-shape bottom-60% gas share ~4-5%; (b) "real economy strong" = headline not cohort; (c) "liquid financial conditions" masks structured-credit cracking. Logged KB-CARL-236 as ASSUMPTION. Dampens magnitude, does not invalidate mechanism.
+6. **CRL-08 update** — 60% → **65%** on combined Qatar LNG + Iran day-cluster + Netherlands loading. Timeframe extended to **May-Jun 2026**. Held below 70% to honor MS counter-frame's legitimate net-exporter asymmetry.
+7. **Remaining BOARD signals** — SIG-010 (China Shock 2.0), SIG-012 (RED KRE counter), SIG-013/016/019 (positioning extreme), SIG-027 (Energy Sec gas $3+) all logged as info-only or referred to home-agent. Six total KB appends (234–239).
+8. **CHANGELOG.md** — Apr 19 entry appended documenting BOARD integration pass + CRL-08 confidence change + MS counter-frame logging.
 
 ## STATUS CHANGES
 | Item | Change |
 |------|--------|
-| Tariff vector in CARL multi-vector cost squeeze | ACTIVE → **MODESTLY WEAKENED** (IEEPA struck; Sec 122 10% replacement through Jul 24) |
-| Replacement channel | Direct cost → **Uncertainty/planning paralysis dominant** (NFIB Uncertainty BREACHED 92) |
-| Auto insurance CPI vector | 5.9% YoY (Feb) → **0.8% YoY (Mar)** — vector effectively ENDED as incremental |
-| CA FAIR Plan | 650K → **684K ATH, $750B exposure, 35.8% rate hike requested** — amplifier deepening |
-| NFIB Optimism | 98.8 → **95.8** (largest single-month drop; 0.8pt above YELLOW) |
-| NFIB Uncertainty | 88 → **92 (BREACHED >90)** |
-| NFIB Profit trend | -14% → **-25% net (worst since COVID)** |
-| Restaurant closures FY2026 | ~750 → **944-1,049 announced** |
-| Business formations (Feb BFS) | ~515K → **496K (-5.8% MoM)** |
-| OBBBA redetermination timing | Implicit H1 2026 ramp → **CORRECTED to Dec 31, 2026 start** |
-| POP-P02 (NFIB <95 by June) | 65% → **80%** |
-| POP-P04 (700+ QSR closures H1) | 75% → **95%** (essentially confirmed) |
-| POLLY-P02 (CA FAIR Plan >750K EOY) | 65% → **72%** |
-| POLLY-P05 (Q1 auto CR <92%) | 70% → **82%** (confirmed) |
-| KB entries | 230 → **233** (+3: IEEPA regime, NFIB Mar, POLLY Q1) |
-| Outbox signals | 4 → **6** (+LABOR NFIB hiring, +REGINALD IEEPA refund) |
+| BOARD/INDEX.md | NOT a CARL pull-source → **ACTIVE pull-source** (15 of 30 dispatches CARL-relevant) |
+| Qatar LNG | Not in CARL KB → **KB-CARL-234, ~20% global offline since Mar 2, STATUS row added** |
+| Iran day-cluster | Not tracked as unit → **KB-CARL-235 + STATUS Macro/Energy row, 8 channels Apr 18–19** |
+| Netherlands LCP-O | Not tracked → **Active Mon Apr 20** (loading into ceasefire binary) |
+| MS/Piper Sandler oil-shock frame | Not in RED team → **Counter-frame logged with 3-point rebuttal** |
+| CRL-08 (gas $4.50+) | 60% / Apr 5 window → **65% / May-Jun 2026 window** |
+| CRL-08 conditional structure | Implicit → **Explicit: 80% if ceasefire breaks, 30% if holds** |
+| KB rows | 233 → **239** (+6: Qatar LNG, Iran cluster, MS counter, positioning, China Shock info, KRE counter info) |
+| Convergence score | 58/60 | **Unchanged** (evidence loads both sides; mechanism intact) |
 
 ---
 
 ## NEXT SESSION SHOULD
 
-### IMMEDIATE (Mon 4/21)
-1. **SYF Q1 Mon Apr 21** — CRL-12 NCO >6% test. Apply ALLY composition-masking framework (KB-CARL-225, 228). Watch: ACL trajectory vs mix, CareCredit vs Private Label segment shift, CLN/ABS expansion, originations growth vs underwriting commentary.
-2. **COF Q1 Mon Apr 21** — domestic card + auto book; apply same framework.
-3. **DHI Q2 Mon Apr 21** — HOMER handles; 19.0-19.5% margin guide test.
-4. **UNH Q1 Mon Apr 21 (premarket)** — **respawn POLLY** for MLR read. Key question: does 88.8% MLR hold or breach 89%? MA membership loss vs 1.3-2.8M guide? ACA cliff commentary?
+### IMMEDIATE (Mon Apr 21 — QUADRUPLE EVENT)
+1. **SYF Q1 premarket** — CRL-12 NCO >6% test. Apply ALLY composition-masking framework. Watch: ACL trajectory vs mix, CareCredit vs Private Label segment shift, CLN/ABS expansion, originations vs underwriting commentary.
+2. **COF Q1 AMC** — domestic card + auto book; apply same framework.
+3. **UNH Q1 premarket** — **respawn POLLY** for MLR read. Key: does 88.8% MLR hold or breach 89%? MA membership vs 1.3-2.8M guide? ACA cliff commentary?
+4. **DHI Q2 premarket** — HOMER handles; 19.0-19.5% margin guide test.
+5. **Iran ceasefire expiry Apr 21** — monitor BOARD for WALTER dispatches. If breaks: CRL-08 bumps toward 75%+ conditional; multi-vector gas channel re-activates.
 
 ### UPCOMING (this week)
-5. **Apr 22 Tue** — ELV Q1 (respawn POLLY continuation); CB Q1 (P&C read)
-6. **Apr 23 Wed** — AXP Q1 (apply ALLY framework), PHM Q1 (HOMER)
-7. **Apr 25 Fri** — UMich Apr Final (47.6 preliminary confirmed?)
-8. **Apr 26 Sun** — FL UI Wave 2 peak (convergence event, awaiting LABOR response to outbox signal)
+6. **Tue Apr 22** — ELV Q1 (respawn POLLY continuation); CB Q1 (P&C)
+7. **Wed Apr 23** — AXP Q1 (ALLY framework), PHM Q1 (HOMER)
+8. **Fri Apr 25** — UMich Apr Final (47.6 preliminary confirmed?)
+9. **Sun Apr 26** — FL UI Wave 2 peak (convergence event; LABOR awaiting response)
 
 ### UPCOMING (next 2 weeks)
-9. **Apr 28** — Case-Shiller Feb (HOMER), Rithm/NewRez Q1 ("DQ reverse" testable claim)
-10. **Apr 29** — PayPal Q1 2026 (first under new CEO)
-11. **Late Apr** — Fannie MF March DQ (CRL-03 GFC breach test, 0.74→0.80%)
-12. **Late Apr / early May** — PennyMac Q1 (FHA DQ >7.5%?)
-13. **May 1** — ALL Q1 (P&C read, complements PGR/TRV)
-14. **May 6** — Uber Q1 + DoorDash Q1 (driver count QoQ post-gas)
-15. **May 7** — **TRIPLE EVENT: Dave Q1 (GIG-P01 28DPD) + Lyft Q1 + Affirm Q3 FY2026 (ALLY analog confirmation)**
+10. **Apr 28** — Case-Shiller Feb (HOMER), Rithm/NewRez Q1 ("DQ reverse" testable)
+11. **Apr 29** — PayPal Q1 (new CEO)
+12. **Late Apr** — Fannie MF March DQ (**CRL-03 GFC breach test, 0.74 → 0.80%**)
+13. **Late Apr / early May** — PennyMac Q1 (FHA DQ >7.5%?)
+14. **May 1** — ALL Q1 (P&C, complements PGR/TRV)
+15. **May 6** — Uber Q1 + DoorDash Q1 (driver count QoQ post-gas)
+16. **May 7** — **TRIPLE: Dave Q1 (GIG-P01 28DPD) + Lyft Q1 + Affirm Q3 FY2026**
 
-### BACKLOG (no deadline)
-16. **May 18 est** — Klarna Q1 2026 (post-FY-loss quarter)
-17. **May 28** — AFT/MOHELA status conference
-18. **Jul 1** — SAVE → RAP transition (7.5M forced into new plans)
-19. **Jul 24** — **Sec 122 tariff cliff** (NEW ANCHOR) — 150-day IEEPA replacement expires. Planning paralysis re-loads starting June-July.
-20. **DOC refresh** — only remaining stale sub-agent (Apr 9, 8d). No imminent catalyst; queue for next routine refresh.
-21. **POP correction needed** — on next POP spawn, correct 125-145% pre-ruling China IEEPA rate (actual ~20%). Direction of tariff reduction stands; magnitude overstated.
-22. **TRENDS (11d), ML (10d) TSV refresh** — lower priority.
-23. **March 10-D ABS filings (Apr 20-25)** — SDART/EART/AMCAR/HAROT/Ally March collection data.
+### BACKLOG
+17. **May 18 est** — Klarna Q1 (post-FY-loss)
+18. **May 28** — AFT/MOHELA status conference
+19. **Jul 1** — SAVE → RAP transition (7.5M forced)
+20. **Jul 24** — **Sec 122 tariff cliff** — 150-day IEEPA replacement expires
+21. **DOC refresh** — last stale sub-agent (Apr 9); no imminent catalyst
+22. **POP correction** — on next POP spawn, correct 125-145% China IEEPA pre-ruling rate to actual ~20%
+23. **TRENDS (13d), ML (12d) TSV refresh** — lower priority
+24. **March 10-D ABS filings (Apr 20-25)** — SDART/EART/AMCAR/HAROT/Ally March collection
 
 ---
 
 ## OUTBOX (6 signals, awaiting delivery/integration — messaging overhaul pending)
 | File | To | Summary |
 |------|----|---------|
-| SIG-CARL-REGINALD-20260417-auto-lender-reclassification-translation.md | REGINALD | 7-lever auto-lender translation of 3-layer bank reclassification framework + ALLY Q1 findings |
+| SIG-CARL-REGINALD-20260417-auto-lender-reclassification-translation.md | REGINALD | 7-lever auto-lender translation of 3-layer bank framework + ALLY Q1 findings |
 | SIG-CARL-REGINALD-20260417-subprime-auto-ABS-gap.md | REGINALD | Santander/Bridgecrest/Exeter 7.9/7.8/6.7% 60+ DQ reveals gig-adjacent stress ALLY near-prime masks |
 | SIG-CARL-LIQUID-20260417-BNPL-ABS-composition-degradation.md | LIQUID | BNPL ABS composition as new structured-credit sub-vector (AFRMT FICO 672) |
 | SIG-CARL-LABOR-20260417-FL-UI-Wave2-gig-surge.md | LABOR | Apr 26 FL UI Wave 2 + $4.09 FL gas + 22% gig concentration convergence |
-| SIG-CARL-LABOR-20260417-NFIB-SB-hiring-pullback.md | LABOR | **NEW** — NFIB Mar: Optimism 95.8, Uncertainty BREACHED 92, profit trend -25% worst since COVID, comp plans falling |
-| SIG-CARL-REGINALD-20260417-IEEPA-refund-SB-liquidity-injection.md | REGINALD | **NEW** — SCOTUS Feb 20 struck IEEPA, $166B refunds live Apr 20 = timing modifier (delays, not cancels) SB regional bank stress |
+| SIG-CARL-LABOR-20260417-NFIB-SB-hiring-pullback.md | LABOR | NFIB Mar: Optimism 95.8, Uncertainty BREACHED 92, profit trend -25%, comp plans falling |
+| SIG-CARL-REGINALD-20260417-IEEPA-refund-SB-liquidity-injection.md | REGINALD | SCOTUS Feb 20 struck IEEPA, $166B refunds live Apr 20 = timing modifier on SB regional bank stress |
 
-## INBOX (0 items, clean)
+## INBOX (0 items, clean — HOMER SV moved to processed/)
 
 ---
 
 ## WORKBOOK HEALTH
 | TSV | Rows | Last Modified | Note |
 |-----|------|---------------|------|
-| KB | **233** | **Apr 17 (PM#3)** | +3 (231 IEEPA regime, 232 NFIB Mar, 233 POLLY Q1 insurance bifurcation) |
-| VX | 109 | Apr 17 (PM#2) | Sub-agent VX updates at sub-agent level; CARL-level unchanged this session |
+| KB | **239** | **Apr 19 (PM)** | +6 (234 Qatar LNG, 235 Iran cluster, 236 MS counter, 237 positioning, 238 China Shock info, 239 KRE counter info) |
+| VX | 109 | Apr 17 (PM#2) | CARL-level unchanged |
 | FLOW | 22 | Apr 17 (AM) | OK |
-| PREDICTIONS | 18 | Apr 17 (PM#1) | CRL-XX unchanged; sub-agent predictions shifted (POP-P02, POP-P04, POLLY-P02, POLLY-P05) |
+| PREDICTIONS | 17 | **Apr 19 (PM)** | CRL-08 updated 60→65%, window May-Jun 2026 |
 | STATE_DIFFUSION | 63 | Apr 17 (AM) | FL refreshed, others stale |
 | BNPL_STRESS | 44 | Apr 17 (PM#2) | OK |
 | ABS_BASELINE | 67 | Apr 16 | OK |
-| TRENDS | 40 | Apr 6 | 11 days stale |
-| ML | 67 | Apr 7 | 10 days stale |
+| TRENDS | 40 | Apr 6 | 13 days stale |
+| ML | 67 | Apr 7 | 12 days stale |
 
 ---
 
 ## URGENT
 
-- **Apr 21 is a QUADRUPLE EVENT** — SYF Q1, COF Q1, UNH Q1 (premarket), DHI Q2. Respawn POLLY for UNH + ELV(Apr 22). Apply ALLY framework to SYF/COF. Prep Sunday evening.
-- **Tariff thesis re-rack** — cost-squeeze vector weakened (IEEPA struck) but uncertainty channel stronger (NFIB Uncertainty BREACHED). CARL multi-vector framework in STATUS.md convergence matrix likely needs explicit mechanism update next session. Convergence score unchanged but composition shifted.
-- **POP correction flag** — 125-145% pre-ruling China IEEPA rate in POP STATUS is wrong (actual ~20%). Correct on next POP spawn. Direction of findings stands.
-- **Auto insurance vector EFFECTIVELY OFF** — 5.9% → 0.8% YoY is a real weakening signal. RED team material. Cumulative +50% vs 2020 still embedded in consumer budgets but incremental squeeze gone. Consider whether CRL-XX predictions need a small confidence haircut.
+- **Mon Apr 21 QUADRUPLE EVENT + ceasefire expiry** — prep time-boxed read order: SYF → COF → UNH (POLLY) → DHI (HOMER). Ceasefire news overlays.
+- **BOARD/INDEX.md is now a live pull-source** — check at every spawn until messaging overhaul lands. Precedence: FLASH → IMMEDIATE → PRIORITY → ROUTINE.
+- **MS/Piper counter-frame cached** — when next oil-shock containment argument appears, recall KB-CARL-236 + RED team Apr 19 rebuttal before opining.
