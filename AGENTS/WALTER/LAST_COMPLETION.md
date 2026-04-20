@@ -1,15 +1,17 @@
 ## COMPLETION — WALTER — 2026-04-20 (Mon late-evening — post-compaction continuation)
 
-STATUS: ✅ INTAKE SESSION CONTINUED ACROSS COMPACTION. **1 BOARD dispatch (SIG-009) / 9 kills / 2 verify-research spawns.** Session continued from prior closeout's 3-dispatch / 40-kill signal-intake workday when Will sent Fitch triple-inbound. Post-compaction batches: (1) Fitch triple (single Euro CLO + Fitch Wire Q2 brief + MTN CMBS R&W PDF) → 1 dispatch + 2 sibling kills; (2) 3-image batch (Shiller PE / FHA 180% / Kazakhstan export ban) → 0 dispatch + 3 kills + 2 verify-research spawns; (3) 4-image batch (Don Johnson Iran/Yanbu / CRED iQ spreads / Shiller dup / FHA dup) → 0 dispatch + 4 kills (2 dups + 2 new). Total across continuation: 1 dispatch + 9 kills + 2 verify spawns. **Cross-session full-day total (pre + post compaction): 4 BOARD dispatches / 49 kills / 2 verify spawns.** No spec changes. Total BOARD: 56 → 57.
+STATUS: ✅ INTAKE SESSION CONTINUED ACROSS COMPACTION + BOARD SPEC SHIPPED POST-CLOSEOUT. **1 BOARD dispatch (SIG-009) / 9 kills / 2 verify-research spawns + BOARD_CONSUMPTION_SPEC v0.1.** Session continued from prior closeout's 3-dispatch / 40-kill signal-intake workday when Will sent Fitch triple-inbound. Post-compaction batches: (1) Fitch triple (single Euro CLO + Fitch Wire Q2 brief + MTN CMBS R&W PDF) → 1 dispatch + 2 sibling kills; (2) 3-image batch (Shiller PE / FHA 180% / Kazakhstan export ban) → 0 dispatch + 3 kills + 2 verify-research spawns; (3) 4-image batch (Don Johnson Iran/Yanbu / CRED iQ spreads / Shiller dup / FHA dup) → 0 dispatch + 4 kills (2 dups + 2 new). Total across continuation: 1 dispatch + 9 kills + 2 verify spawns. **After closeout commit 401be1f1 pushed**, Will raised "are we making any real progress" → honest read identified BOARD-write-only-bottleneck as the highest-leverage block → Will asked for BOARD-consumption-tracking-decision recap → approved my proposed defaults → **BOARD_CONSUMPTION_SPEC v0.1 shipped in commit a79daf1f** (not deferred post-Apr-21 as originally planned). **Cross-session full-day total: 4 BOARD dispatches / 49 kills / 2 verify spawns + 1 architectural spec shipped.** Spec changes: BOARD_CONSUMPTION_SPEC v0.1 (new). Total BOARD: 56 → 57.
 
 CHANGED:
 - BOARD/SIG-W-20260420-009-fitch-q2-iran-war-ai-software-twin-risks.md (NEW)
 - BOARD/INDEX.md (1 new row: SIG-009)
 - AGENTS/WALTER/routed/route_log.tsv (1 append — SIG-009)
 - AGENTS/WALTER/filtered/kill_log.tsv (9 appends — 2 Fitch siblings + 3 img batch + 4 img batch)
-- AGENTS/WALTER/STATUS.md (v0.20 → v0.21 — header bumped, session log entry added, total 56 → 57)
+- AGENTS/WALTER/STATUS.md (v0.20 → v0.21 — header bumped, session log entry added, total 56 → 57, + OPERATIONAL STATE row added for BOARD_CONSUMPTION_SPEC)
 - AGENTS/WALTER/MEMORY.md (CHANGES SINCE / NEXT SESSION rewritten; 2 new Findings added: false-petro-geo cluster policy + count-vs-rate framing pattern)
 - AGENTS/WALTER/LAST_COMPLETION.md (this file, overwritten)
+- **AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md (NEW v0.1)** — post-closeout addition after Will msg 938 approved defaults
+- AGENTS/WALTER/CLAUDE.md (Key Design Files table row + canonical-source lookup row added for BOARD consumption spec)
 
 RESULT:
 
@@ -58,23 +60,33 @@ RESULT:
 - CRED iQ MF 154 / Office 220 / 66bps gap (Relevance — steady-state drift, SIG-008 already has office price-discovery)
 - FHA dup msg 924 (Novelty — primary source behind 917 headline; table confirms count-not-rate)
 
+**BOARD_CONSUMPTION_SPEC v0.1 (post-closeout addition):**
+- Triggered by Will "are we making any real progress?" → honest read: filter discipline working, BOARD effectively write-only because consumption tracking decision stuck → Will asked for recap of the decision → I proposed defaults → Will approved msg 938
+- Spec shipped: per-agent `AGENTS/<NAME>/board_log.tsv` with 4-column schema (`timestamp_read | signal_id | disposition | notes`), 5-value disposition enum (`acted` / `noted` / `deferred` / `info-only` / `skipped`), no retention cap, filename matches sibling logs (route_log.tsv + kill_log.tsv)
+- Boot-step template: 5 numbered steps for agent CLAUDE.md files. Template includes self-create-on-first-boot (step 1: if file missing, create with header) so no precreation needed, which respects git isolation rule (WALTER does not edit other agents' directories)
+- Propagation status: 14 Tier 1 agents listed — 4 Claude Code (CARL/REGINALD/SAM/RED) self-edit, 10 OpenClaw (BROCK/LIQUID/HENRY/HAWK/BRENT/LABOR/NEXUS/VIOLET/PROME/SHADE) applied by Prome/Will
+- WALTER CLAUDE.md updated: Key Design Files table row + canonical-source lookup row added
+- STATUS.md OPERATIONAL STATE row added for the spec
+
 GAPS:
 - **Apr 21 catalyst day** — WAL/ZION earnings + Iran ceasefire expiry + 8-channel Iran cluster + Tuapse 3rd-theater + 4-node April PC stress cluster. Filter v2 Seg A FLASH bypass triggers all pre-armed.
 - **Apr 24 OZK Q1 earnings** — distressed office comps from SIG-008 apply directly.
 - **Apr 30 OWL Q1 earnings** — Blue Owl SIG-004 + Fitch SIG-009 both pre-stage. Watch tone on founder-unwind + BDC redemption disclosure.
-- **All carry-forward gaps from prior session intact:** Filter v2 Segment D implementation (Option A free-text `confidence_note` decided; post-Apr-21 queue); BOARD_CONSUMED.tsv spec decision awaiting greenlight on TSV/filename/200-row-retention micro-decisions; CLAUDE.md Tier 3 hygiene pass deferred; COP refresh paused; SIGNAL_INTAKE rollout (HENRY + RED prompts transcript-only; REGINALD/LIQUID/BROCK/HAWK/NEXUS and Tier 2 unstarted); ZHAO spawn 18d+ stale; FORGE/STATUS.md ~26d stale.
+- **BOARD_CONSUMPTION_SPEC propagation pending** — 14 Tier 1 agents listed in spec § Propagation Status. Each agent's CLAUDE.md needs the 5-step boot block appended. WALTER cannot self-apply (git isolation rule). Highest-leverage unblock for network operability.
+- **Remaining carry-forward gaps:** Filter v2 Segment D implementation (Option A free-text `confidence_note` decided; post-Apr-21 queue); CLAUDE.md Tier 3 hygiene pass deferred; COP refresh paused; SIGNAL_INTAKE rollout 4/14 (HENRY + RED prompts transcript-only; REGINALD/LIQUID/BROCK/HAWK/NEXUS and Tier 2 unstarted); ZHAO spawn 18d+ stale; FORGE/STATUS.md ~26d stale.
 - **NEXUS cluster classification still overdue** — 19-node bear cluster + 3 validated counters + 8-ch Iran day-cluster + 11-incident non-ME hydrocarbon + Blue Owl + NV HOA + 5-node BANK_CRE mark-discovery cluster + now 4-node April PC stress cluster surfacing through SIG-009.
 
 WILL_NEEDS:
 1. **Apr 21 catalyst pre-position live** — SIG-009 BDC +36% QoQ specifically relevant to BROCK Stage 2→3 ahead of OWL Apr 30. All SIG-006/007/008/009 now on BOARD for REGINALD Apr 21 framing.
-2. **False-petro-geo policy** — Will may want to tag @WhaleInsider, @cred_iq-quote-cluster (N/A, CRED iQ was legit), Don Johnson @DonMiami3, *Walter Bloomberg @DeItaone impostor account as low-credibility sources in some durable form (reference list? auto-kill list?). Raised to Will, no decision.
-3. **Filter v2 Segment D implementation + BOARD_CONSUMED.tsv spec** — post-Apr-21 queue.
+2. **BOARD boot-block propagation** — next time a Claude Code agent (CARL/REGINALD/SAM/RED) boots, point at `design/BOARD_CONSUMPTION_SPEC.md` § "Agent Boot Step Template" and have them append. OpenClaw agents (BROCK/LIQUID/HENRY/HAWK/BRENT/LABOR/NEXUS/VIOLET/PROME/SHADE) need Prome or Will to apply. One-pass per agent.
+3. **False-petro-geo policy extension** — Will may want to tag @WhaleInsider, Don Johnson @DonMiami3, *Walter Bloomberg @DeItaone impostor account as low-credibility sources in durable form (reference list? auto-kill list?). Raised, no decision.
+4. **Filter v2 Segment D implementation** — post-Apr-21 queue.
 
 FOLLOW-UP (next session):
 - Boot: git pull → read STATUS / MEMORY / LAST_COMPLETION / REGISTRY / ROUTING_TABLE / BOARD/INDEX → scan for new Will inbound.
-- No pending Telegram replies as of close — msg 930 closed this session.
+- No pending Telegram replies as of handoff — msg 939 closed this session with BOARD spec shipment notice; Will's "lets prep for handoff" reply received.
 - Apr 21 real-time monitoring if Will requests — BALANCED + catalyst-day LOOSE posture active; Phase 1.5 framing audit active; Rules 9-12 active; false-petro-geo pattern-kill heuristic active.
-- Post-Apr-21: Filter v2 Segment D implementation + BOARD_CONSUMED.tsv + CLAUDE.md Tier 3 + SIGNAL_INTAKE rollout + NEXUS cluster classification.
+- Post-Apr-21: Filter v2 Segment D implementation + BOARD boot-block propagation tracking + CLAUDE.md Tier 3 + SIGNAL_INTAKE rollout + NEXUS cluster classification.
 
 ---
 
