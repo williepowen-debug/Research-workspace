@@ -151,6 +151,7 @@ The strongest version of "we're wrong":
 | **Bank cohort fade-not-miss** | REGINALD | WEAKENED → MODERATE | RF broke the beat pattern. But 4/5 still beat. Not yet "miss" regime. |
 | **DB positioning squeeze risk** | HENRY/REGINALD | MODERATE | NEW. Financials -2z positioning vs +20-40% consensus earnings. Apr 21 resolves. |
 | **RED calibration** | Self | STRONG | RED-02, RED-03, RED-08 all wrong. RED-06 resolved against us. Distributions too narrow. |
+| **VIOLET SKEW base rate** | VIOLET | STRONG | Tier A/B/C done. Sustained-close 36d rate 15-22%, not 56-80%. OOS corroborates. Tier D (formal challenge) ready. |
 
 ---
 
@@ -177,6 +178,7 @@ The strongest version of "we're wrong":
 4. **Apr 22 ceasefire expiry + Talk-2 weekend.** If real deal: oil paper stays down, HY tightens further, bear thesis further hurt. If no deal: oil re-spikes, physical asserts, HY widens.
 5. **Dated Brent print Apr 15-17.** If <$110, paper and physical converged. If $130+, paper has overshot and oil thesis re-fires.
 6. **WAL/OZK beat upside scenarios.** Pre-register: if WAL OR OZK beats + guides up, exit both; reduce KRE 25%; confidence → 65%.
+7. **VIOLET Tier D formal challenge.** Tier A/B/C complete. Pooled n=17 (2007-2026) sustained close ≥25 3d in 36d = 18%; ex-COVID TIGHTENING credit state = 0/6. RED May 19 prediction: **15-22% sustained ≥25**. VIOLET's number? Challenge ready to send pending Will sign-off.
 
 ---
 
