@@ -103,6 +103,7 @@ You maintain:
 | `design/SIGNAL_PROCESSING_CHECKLIST.md` | Step-by-step signal processing workflow |
 | `design/SIGNAL_INTAKE_TEMPLATE.md` | Template prompt for per-agent subscription specs. Used for SIGNAL_INTAKE.md rollout — 4/14 Tier 1 agents landed (SAM, BRENT, VIOLET, CARL). |
 | `design/FILTER_V2_PLAN.md` | Active filter v2 revision plan (living doc tracking A/B/C/D segments). Archive to `design/history/` once Segment D ships. |
+| `design/BOARD_CONSUMPTION_SPEC.md` | Per-agent `board_log.tsv` schema + boot-step template for consuming `/BOARD/` signals. Shipped v0.1 2026-04-20. Propagation to agent CLAUDE.md files pending. |
 | `design/SIGNAL_REGISTRY_DRAFT_A.md` | Signal registry architecture (v2 deferred) |
 
 ---
@@ -148,6 +149,7 @@ When modifying any design document, check which doc *owns* the concept before ed
 | COP structure + refresh rules | `/COP.md` + `design/COP_TEMPLATE.md` | STATUS.md |
 | WALTER operational state, filter posture, session log | `STATUS.md` | — |
 | WALTER spawn protocol + rules | `CLAUDE.md` (this file) | STATUS.md |
+| **BOARD consumption tracking (`board_log.tsv` schema + boot-step template)** | `design/BOARD_CONSUMPTION_SPEC.md` | Each agent's `AGENTS/<NAME>/CLAUDE.md` boot block |
 
 **When the owner isn't obvious:** default to FORMAT_SPEC for anything about signals, ROUTING_TABLE for anything about who gets what, FILTER_SPEC for anything about filtering, CHECKLIST for anything about process. If still unclear, ask Will before editing.
 
