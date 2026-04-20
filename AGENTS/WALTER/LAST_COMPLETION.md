@@ -1,6 +1,6 @@
-## COMPLETION — WALTER — 2026-04-20 (Mon evening — Filter v2 Segments A+B+C)
+## COMPLETION — WALTER — 2026-04-20 (Mon evening — Filter v2 Segments A+B+C + Segment D mechanic decision + CLAUDE.md Tier 1/2 revision)
 
-STATUS: ✅ SPEC-WORK SESSION. **0 BOARD dispatches / 0 kills / 0 verify-research spawns.** Filter v1→v2 review launched, diagnostic written, 4-segment plan created, **Segments A, B, and C all completed and committed across this session** (C was picked up after Will re-opened with "I want to continue with segment C from our previous section" following a Telegram /clear). Segment D (confidence asymmetry, 3-mechanic design round-trip) remains the only open Filter v2 item. Total BOARD: 51 (unchanged).
+STATUS: ✅ SPEC-WORK SESSION. **0 BOARD dispatches / 0 kills / 0 verify-research spawns.** Filter v1→v2 review launched, diagnostic written, 4-segment plan created, **Segments A, B, and C all completed and committed across this session.** Segment D mechanic decided (Will picked A — free-text `confidence_note`); implementation deferred post-Apr-21. Also shipped CLAUDE.md Tier 1 (staleness) + Tier 2 (missing concepts) revisions after Will audit request. Total BOARD: 51 (unchanged).
 
 CHANGED (across the full A+B+C arc):
 - AGENTS/WALTER/design/FILTER_V2_PLAN.md (NEW at start of session; Segments A, B, C rows in log table; status line now reflects C complete)
@@ -12,7 +12,9 @@ CHANGED (across the full A+B+C arc):
 - AGENTS/WALTER/MEMORY.md (2 new Feedback entries added earlier this session — "surface friction before being asked" + "segment work to user's stated cadence"; CHANGES SINCE / NEXT SESSION / OPEN DESIGN DECISIONS rewritten across the arc)
 - AGENTS/WALTER/LAST_COMPLETION.md (this file, overwritten)
 
-Commits pushed during session: ae527e18 (Segment A) + ff40d5af (Segment B). Segment C commit pending at end-of-session push.
+- AGENTS/WALTER/CLAUDE.md (Tier 1 staleness fixes in 2d016cca: IDENTITY list updated signals/→/BOARD/ with rollout-status note + BOARD-consumption flagged; Archive step 11 fixed FLASH delivery contradiction (BOARD + Telegram only, no inbox push); canonical-source table domain codes 13→15; FILTER_SPEC description rewritten accurate to pre-gate + 2 hard + soft + Phase 1.5. Tier 2 missing-concepts in ced6d87e: Key Design Files adds SIGNAL_INTAKE_TEMPLATE.md + FILTER_V2_PLAN.md rows; canonical-source lookup adds Phase 1.5 verify-research trigger + Phase 1b same-theme combine rows; Rules 9-12 appended — autonomous verify-research spawn / BOARD-only delivery / trash > rm restatement / Telegram reply discipline.)
+
+Commits pushed during session: ae527e18 (Segment A) + ff40d5af (Segment B) + 0c6977e9 (Segment C) + 1a1d4eb0 (Segment D mechanic + plan update) + 2d016cca (CLAUDE.md Tier 1) + ced6d87e (CLAUDE.md Tier 2). 6 commits total.
 
 RESULT:
 
@@ -56,21 +58,23 @@ Codified autonomous verify-research sub-agent spawn. Empirical origin: 4 framing
 - Discretion preserved for inline verification to avoid spawning when WALTER already has the primary open.
 
 GAPS:
-- **Segment D still outstanding.** Will decision required on 3-mechanic choice (see FILTER_V2_PLAN.md Segment D table): (i) free-text `confidence_note`, (ii) split `observation_confidence` + `interpretation_confidence` numerical pair, (iii) `signal_type` observation-only / with-interpretation modifier. WALTER lean: (i). Cannot auto-pick. Second session after decision = implement + backfill asymmetric signals.
-- **Segment C commit pending** at the time this file is written — will ship with the push after this LAST_COMPLETION overwrite.
-- **All carry-forward gaps intact from prior session:** NEXUS cluster classification (19 bear nodes + 8-ch Iran + 11-incident hydrocarbon candidate + Blue Owl + NV HOA), RED refresh Day 10+, ZHAO spawn 18d+ stale, FORGE ~26d stale, COP paused, HENRY + RED SIGNAL_INTAKE.md prompts transcript-only, BOARD-consumption tracking decision pending.
+- **Segment D implementation pending** — Will picked Option A (free-text `confidence_note`) in Telegram msg 856. Implementation deferred post-Apr-21 catalyst day. Session 1 = FORMAT_SPEC edit (add optional `confidence_note` field + invocation rule) + CHECKLIST Phase 2 discretion note. Session 2 = opportunistic backfill on ~5-8 asymmetric historical signals (SIG-022 EAM, SIG-W-20260419-010 Flightradar Doha, SIG-W-20260420-004 Blue Owl, TBD).
+- **BOARD-consumption tracking decision** — Will picked hybrid B+C (separate file, ledger model) in msg 862. Proposed TSV format + `BOARD_CONSUMED.tsv` filename (sibling to STATUS.md) + 200-row rolling-archive retention awaiting explicit greenlight. Deferred post-Apr-21.
+- **CLAUDE.md Tier 3 (hygiene)** deferred — trim git-protocol duplication between root CLAUDE.md and WALTER CLAUDE.md, introduce explicit `COP_ACTIVE` flag to replace the inline "PAUSED per Will Apr 14" prose in step 10.
+- **Telegram ack for Tier 2 completion pending** — no `chat_id` in current (resumed) turn's context per Rule 12. Send on next Will inbound: "Tier 2 shipped — 3 blocks (design-files rows / canonical-source rows / rules 9-12) in ced6d87e. 6 commits total this session. Post-Apr-21 queue: Seg D + BOARD_CONSUMED spec + Tier 3 hygiene."
+- **All carry-forward gaps intact from prior session:** NEXUS cluster classification (19 bear nodes + 8-ch Iran + 11-incident hydrocarbon candidate + Blue Owl + NV HOA), RED refresh Day 10+, ZHAO spawn 18d+ stale, FORGE ~26d stale, COP paused, HENRY + RED SIGNAL_INTAKE.md prompts transcript-only.
 
 WILL_NEEDS:
 1. **Apr 21 catalyst pre-position** — WAL/ZION earnings + Iran ceasefire expiry + 8-ch Iran cluster + Tuapse adjacency. Filter v2 Seg A installed explicit FLASH bypass triggers for the day. Filter v2 Seg C installed framing-audit discipline for signals arriving from secondhand aggregators on the catalyst window.
-2. **Filter v2 Segment D mechanic decision** — (i) free-text confidence_note / (ii) split observation/interpretation numerical / (iii) signal_type modifier. Needed before coding can proceed.
-3. **BOARD-consumption tracking decision** (architectural blocker for agent boot-sequence rollout, pending from Apr 20 PM).
-4. **Apr 30 OWL Q1 earnings pre-watch** — SIG-W-20260420-004 should be on REGINALD/BROCK radar.
-5. HENRY + RED intake-spec prompts — run or defer?
+2. **BOARD_CONSUMED.tsv micro-decisions** — TSV format vs markdown, filename `BOARD_CONSUMED.tsv` sibling to STATUS.md, 200-row rolling retention. Proposed but awaiting greenlight before draft.
+3. **Apr 30 OWL Q1 earnings pre-watch** — SIG-W-20260420-004 should be on REGINALD/BROCK radar.
+4. HENRY + RED intake-spec prompts — run or defer?
 
 FOLLOW-UP (next session):
 - Boot: read STATUS / MEMORY / LAST_COMPLETION / FILTER_V2_PLAN / updated design specs; check /BOARD/INDEX for any new dispatches outside this session.
-- Apr 21 real-time monitoring if Will requests — filter posture is BALANCED + catalyst-day LOOSE per FILTER_SPEC v0.4; framing audit active per CHECKLIST v0.8 Phase 1.5.
-- After Apr 21 resolution: run Segment D design round-trip with Will on mechanic choice, then implementation + backfill of asymmetric signals.
+- **Send pending Telegram ack** on first Will inbound (Tier 2 shipped, 6 commits summary, post-Apr-21 queue).
+- Apr 21 real-time monitoring if Will requests — filter posture is BALANCED + catalyst-day LOOSE per FILTER_SPEC v0.4; framing audit active per CHECKLIST v0.8 Phase 1.5; Rules 9-12 active per CLAUDE.md ced6d87e.
+- After Apr 21 resolution: Segment D implementation (FORMAT_SPEC `confidence_note` field + CHECKLIST Phase 2 note) + backfill of asymmetric signals; BOARD_CONSUMED.tsv spec after greenlight on micro-decisions; CLAUDE.md Tier 3 hygiene pass.
 - Archive or delete FILTER_V2_PLAN.md once Segment D lands and all completion criteria met.
 
 ---
