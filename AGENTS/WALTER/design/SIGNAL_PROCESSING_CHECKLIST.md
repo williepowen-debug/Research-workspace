@@ -1,5 +1,5 @@
 # WALTER Signal Processing Checklist
-**Version:** 0.6 | **Date:** April 11, 2026 PM (canonical Domain Vocabulary referenced — Gap C resolved) | **v0.5:** April 11, 2026 PM (Phase 1 reconciled with FILTER_SPEC v0.2 unified filter model) | **v0.4:** April 11, 2026 (header schema reconciled, conflict_zone clarified) | **v0.3:** April 10, 2026 (confidence model reconciled) | **v0.2:** April 10, 2026 (worked example added) | **v0.1:** April 7, 2026
+**Version:** 0.7 | **Date:** April 20, 2026 (Filter v2 Segment B — Phase 1b same-theme combine step added) | **v0.6:** April 11, 2026 PM (canonical Domain Vocabulary referenced — Gap C resolved) | **v0.5:** April 11, 2026 PM (Phase 1 reconciled with FILTER_SPEC v0.2 unified filter model) | **v0.4:** April 11, 2026 (header schema reconciled, conflict_zone clarified) | **v0.3:** April 10, 2026 (confidence model reconciled) | **v0.2:** April 10, 2026 (worked example added) | **v0.1:** April 7, 2026
 
 One-page operational reference for processing incoming signals. Derived from 10 research prompts across emergency medicine, military communications, ATC, pub/sub systems, intelligence dissemination, emergency dispatch, scientific alerts, open output systems, newsroom editorial, and trading desk operations.
 
@@ -38,6 +38,37 @@ Per FILTER_SPEC v0.2 unified filter model. Pre-gate bypass first, then two hard 
 Most signals die at Novelty or Relevance. That's correct. Target: 80-90% filtered.
 
 **Key change from v0.1/v0.2/v0.3 of this file:** Novelty and Relevance are AND-gates (must pass BOTH), not pass-any-of-three. Credibility is a confidence modifier, not a hard gate. System-Critical is a pre-gate bypass that precedes all filtering. See FILTER_SPEC.md for full rationale.
+
+---
+
+## PHASE 1b: SAME-THEME COMBINE CHECK (Before Phase 2)
+
+Once 2+ items have survived Phase 1 filters (in the current drafting session — items not yet dispatched to route_log.tsv), ask: **do any of them point at the same underlying event or specific sub-theme within the same canonical domain?**
+
+```
+For each pair of surviving items (i, j):
+  Same canonical domain (per FORMAT_SPEC Domain Vocabulary)?   [hard requirement]
+  AND same underlying event OR same specific sub-theme?        [soft test — domain alone is too broad]
+  AND each origin adds independent value (not identical dup)?  [identical dup → kill the extra, don't combine]
+  → YES to all three: COMBINE into one signal with multi-origin header
+                      (origin becomes array per FORMAT_SPEC Multi-Origin Signals)
+  → NO: process each item independently
+```
+
+**Pre-dispatch only.** While drafting, items from any arrival path — same Telegram batch, different batch, separate Will message, WALTER-found article — may fold in. Once a signal has been appended to route_log.tsv, it is immutable; later items become dup-kill or follow-up signals that cite the prior SIG-ID. No retroactive merging.
+
+**Common cases the check catches:**
+- Paired-chart posts by the same author (Bilello VIX + SPX 3-wk extremity — MARKET_VOL, extremity-counter)
+- Cross-source same-event (disclosetv carrier build-up + BRICSinfo talks rejected — GEOPOL_ENERGY, Iran-escalation)
+- Visual + analytical versions of the same physical event (Flightradar24 Doha overflight + Celestyal cruise Hormuz transit — GEOPOL_ENERGY, Hormuz operational state)
+- Bundled macro prints on the same sub-theme (CPI + UMich prelim — MACRO_INFLATION, stagflation-pressure)
+
+**What the check does NOT catch:**
+- Different domains, same broad narrative ("recession fears" spanning LABOR + CONSUMER_CREDIT + BANK_CRE) — route separately; NEXUS owns cross-domain synthesis.
+- Different events in same domain (Hormuz shipping + Iran nuclear talks, both GEOPOL_ENERGY but different events) — route separately.
+- Second source arriving post-dispatch — dup-kill or follow-up, never retroactive merge.
+
+See FORMAT_SPEC v0.6 Multi-Origin Signals section for full combine rule, origin array syntax, body conventions, and historical examples.
 
 ---
 
@@ -304,4 +335,4 @@ I initially drafted a SECOND signal (SIG-W-20260410-002, CPI-only with HENRY act
 
 ---
 
-*Operational checklist — derived from 10 research prompts | v0.1: April 7, 2026 | v0.2: April 10, 2026 (worked example added) | v0.3: April 10, 2026 (confidence model reconciled) | v0.4: April 11, 2026 (header schema reconciled; conflict_zone clarified) | v0.5: April 11, 2026 (Phase 1 reconciled with FILTER_SPEC v0.2 unified filter model — Gap B resolved) | v0.6: April 11, 2026 PM (canonical Domain Vocabulary referenced — Gap C resolved)*
+*Operational checklist — derived from 10 research prompts | v0.1: April 7, 2026 | v0.2: April 10, 2026 (worked example added) | v0.3: April 10, 2026 (confidence model reconciled) | v0.4: April 11, 2026 (header schema reconciled; conflict_zone clarified) | v0.5: April 11, 2026 (Phase 1 reconciled with FILTER_SPEC v0.2 unified filter model — Gap B resolved) | v0.6: April 11, 2026 PM (canonical Domain Vocabulary referenced — Gap C resolved) | v0.7: April 20, 2026 (Filter v2 Segment B — Phase 1b same-theme combine check added between intake and classify, references FORMAT_SPEC v0.6 Multi-Origin Signals)*
