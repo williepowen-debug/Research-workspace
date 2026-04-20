@@ -63,7 +63,7 @@ Context: session-refresh boot from Will ("Just refreshed our session. It is 4/20
 
 **No spec changes. Total BOARD: 51 → 54 (+3). Kill_log: 19 → 44 (+25 — wait correction: 19→33 mid-session, then +19 CRE kills = 33→52; verify via tsv after commit). Route_log: 57 → 60 (+3).**
 
-**Telegram reply pending** — no `chat_id` in resumed-turn context per Rule 12. Send on next Will inbound with consolidated 3-dispatch + 25-kill summary + Tier 2 CLAUDE.md ack from prior session.
+**Telegram replies all sent** — msg 898 consolidated 3-dispatch + 25-kill summary + Tier 2 ack; msg 900 Connect CRE honest-read with Ares Charlotte body-request flagged. 4th intake batch (Connect CRE Apr 8 stale headlines, 15 items) added — 0 dispatches, 1 batch-level kill_log row. Total session: 3 dispatches, 40 kills. Handoff initiated by Will msg 901.
 
 ### NEXT SESSION
 
