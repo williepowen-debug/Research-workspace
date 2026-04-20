@@ -49,9 +49,17 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (Apr 20 Mon late-evening — post-compaction continuation)
+### CHANGES SINCE LAST SESSION (Apr 20 Mon night — Telegram live-check + HAWK/MARCO pull + SIG-010 DB call/put)
 
-Context: session continued across automatic context-compaction after the 3-batch signal-intake session closed. Will re-engaged with fresh Fitch inbounds; resumed intake without re-boot. **1 BOARD dispatch (SIG-009) + 7 kills + 2 autonomous verify-research spawns.** No spec work.
+Context: short follow-up session. Will Telegram-tested WALTER's live read, then asked system-level Claude-Code question (shared local DB), then pushed one image signal through the pipeline.
+
+**Will's system-level question:** do all Claude Code agents share one local database? **Answer (confirmed by git state):** yes — WALTER/CARL/REGINALD/SAM/RED share ONE working directory (`/home/willi/Research-workspace/`) and ONE git branch (master). A single `git pull` in that directory updates the files for all of them. Separate SESSIONS, same filesystem + same repo.
+
+**Git pull:** clean working tree + remote 1 commit ahead → `git pull --rebase` fast-forwarded a23f9137 → 7a76a1ef (Prome's HAWK push). 28 files +3846/-267. All HAWK — no MARCO changes despite Will's pre-pull mention; flagged to Will. New HAWK infrastructure: scripts/ (7 Python monitors), thesis/ (THESIS/TIMELINE/CHANGELOG), audit/, CALENDAR.md, workbook/. HAWK consumed 4 signals from its inbox (SIG-014 / SIG-009 + Apr 6 Hormuz/petrodollar) → moved to processed/. HAWK dispatched 3 new signals to BRENT/BROCK/LIQUID inboxes.
+
+**SIG-W-20260420-010 DB call/put extremity** (screenshot msg 954 — DB Asset Allocation Figure 73: total net call volume 5d MA ~2M "highest on record," +400k above post-Liberation-Day, equity C/P 1.50 highest since 2020, higher only 5%/16yr, +36% above 2005 avg ~1.10, "frenzy bigger than 2021 meme mania"). Will approved pipeline run (msg 956). **Phase 1:** passed Novelty (related but not dup of SIG-023 Barchart CPC 0.66 — DB adds percentile calibration + absolute-volume dimension), passed Relevance (positioning cluster pillar 5). **Phase 1.5:** trigger pattern (a) fired (secondhand citing primary DB research note, not direct terminal pull) → **verify-research sub-agent spawned**. **VERDICT: INDETERMINATE (leaning CONFIRMED-directional).** Primary DB note subscription-gated (inside-research.db.com) — sub-agent could not access. CBOE primary (YCharts equity P/C 0.41–0.50 Apr 14–17) corroborates DIRECTION; Nasdaq call volume ~3.9M/day "second-highest ever" per MEXC; Chadha Apr 2026 bullish commentary documented. Specific DB numerics (2M 5dMA, 1.50 C/P, 5%/16yr, +36%, +400k) NOT independently verified. Per FILTER_SPEC INDETERMINATE rule: lowered confidence from target 0.80 → **0.65 assessed**. **Routing correction mid-session:** initially suggested REGINALD primary in Telegram summary; HENRY owns MARKET_VOL/positioning per SIG-023 precedent — corrected to HENRY action / REGINALD added info for Apr 21 WAL/ZION context. **Dispatched PRIORITY → HENRY; info RED/LIQUID/NEXUS/REGINALD.** Archived /BOARD/, INDEX row appended, route_log.tsv appended. BOARD-only per Apr 14 policy.
+
+**No spec changes. Total BOARD: 57 → 58 (+1). Kill_log: unchanged. Route_log: +1 (SIG-010). Verify-research sub-agents in 48h: 4 → 5.**
 
 **3 Will batches processed post-compaction:**
 
@@ -64,6 +72,8 @@ Context: session continued across automatic context-compaction after the 3-batch
 **No spec changes. Total BOARD: 56 → 57 (+1). Kill_log appends: +9 this continuation (2 Fitch-sibling + 3 img batch + 4 img batch). Route_log: +1 (SIG-009).** Telegram replies msg 919/920/926/928/930 — verify verdicts and pattern-read sent to Will; Will acknowledged and greenlit close.
 
 ### NEXT SESSION
+
+**NEW at boot: confirm Prome's MARCO push.** Will mentioned MARCO updates but they were NOT in the Apr 20 night pull (HAWK-only at 7a76a1ef). Check remote for a subsequent Prome push or ask Will whether MARCO is still queued.
 
 **TOP PRIORITY — Apr 21 (Tuesday, catalyst day):** WAL + ZION earnings + Iran ceasefire expiry into 8-channel Iran cluster + Tuapse 3rd-theater adjacency. 2-day catalyst convexity, NOT regime call. Filter v2 Segment A installed explicit bypass reaffirmation triggers for the day — WAL/ZION gap-down >5% premarket OR KRE >3% intraday OR Iran kinetic US-vessel interdiction OR HY OAS +25bps OR VIX +5 intraday OR Will FLASH = route FLASH immediately, skip Gate 1.
 
