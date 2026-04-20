@@ -27,6 +27,7 @@
 - [2026-04-16] pdfminer works for PDF text extraction (`.venv/bin/python3`). poppler-utils not installed (needs sudo). Use pdfminer for all PDF reads.
 - [2026-04-16] CFG reclassification pattern proven: $2.9B "Secured private credit finance" was hidden inside "Other finance and insurance" ($6.4B) in FY2024 10-K; carved out as new line item in FY2025 10-K with exact reconciliation ($6,446M − $3,538M = $2,908M). ABS finance $1.8B in Q1 2026 deck follows the same pattern. Behavioral rule: for any CFG "growth" figure on a new sub-line, verify it existed under an aggregate bucket the prior period before claiming growth.
 - [2026-04-16] CFG 10-K HTML from EDGAR has inline-XBRL markup; BeautifulSoup `.get_text()` yields mostly XBRL metadata. Use regex `re.sub(r'<[^>]+>',' ',html)` for narrative text. Saved as `CFG/sources/10k_fy2024/` and `10k_fy2025/`.
+- [2026-04-19] **Paywall map:** Forbes.com, Seekingalpha.com, Journalrecord.com (Reuters wire) all return 403 to Anthropic WebFetch at user-agent level. Workable substitutes: Reuters wire content appears on MarketScreener, PrismNews, Sharecafe; Seeking Alpha transcripts sometimes available via Motley Fool / Investing.com. For primary-source article reads, Will must paste body text, drop the file in `sources/`, or provide a non-blocked mirror URL.
 
 ## References
 - [2026-04-02] FRED API key signup: https://fred.stlouisfed.org/docs/api/api_key.html
@@ -36,16 +37,39 @@
 
 ## Session Notes
 
-⚠️ **Open question:** Execute pre-Apr-21 position rolls. Core decisions from Thread 4: (1) verify expiries on WAL $67.5P/$60P and OZK $42.5P (POSITIONS.md is Apr 2 stale); (2) pre-stage WAL $65P Jun → Sep roll (fresh-short cover on a beat kills aggressive Jun strikes before May 1-10 Call Report); (3) pre-stage OZK $45P May → Aug roll (no secondary catalyst within May expiry); (4) hold everything else. WAL $85P Jun ITM + $77.5P/$70P Sep cover the W9 NDFI Apr 21 harvest and the W1/W2 May 1-10 Call Report/10-Q reveals respectively. OZK edge entirely concentrated on Apr 21 print (O2 IQHQ / O4 provision-vs-NCO / O5 vintage).
+⚠️ **Open question:** Execute pre-Apr-21 position rolls (earnings ~36h away — Tue AM). Still need (1) fresh POSITIONS broker screenshot to verify WAL $67.5P/$60P and OZK $42.5P expiries, (2) WAL $65P Jun → Sep roll quote, (3) OZK $45P May → Aug roll quote, (4) print-ready Apr 21 live-call crib sheet. Thread 4 synthesis is complete and ready to execute on — just needs position confirmation from Will.
 
-**Synthesis files:**
+**Synthesis files (persist across sessions):**
 - Threads 2+3: `research/outputs/RQ-AD-HOC-APR17-PT-AND-SI.md` (positioning + PT gap).
 - Thread 4: `research/outputs/RQ-AD-HOC-APR17-THREAD4-EDGE-CHECK.md` (element inventory, cohort Q&A scan, 3-axis scoring, visibility calendar, strike alignment, Apr 21 decision brief, four conditional scripts A-D, crib sheet for live calls).
 
 ### CHANGES SINCE LAST SESSION
 *(populated at next boot via market.py)*
 
-### LAST SESSION (Apr 17 PM — Threads 2, 3, 4 complete)
+### LAST SESSION (Apr 19 PM — weekend article scan)
+
+**Will pasted 3 article titles (full text blocked by paywalls; URLs via agent search):**
+
+1. **Forbes — regional banks / NDFI exposure** — 403 blocked; Anthropic crawler hard-blocked at Forbes. Reconstructed via American Banker + S&P Global + ABA. Net new data: Q4 2025 industry NDFI reaccelerated **+7.3% QoQ**; regional NDFI share **5.9% of assets vs 1.6% YE2010**; **56% of regionals plan more NDFI in 2026** (Moody's); OCC/FDIC rescinded 2013 leveraged-lending guidance Jan 2026.
+
+2. **Seeking Alpha — "PNC Financial: Not a great buy right now"** (The Asian Investor, Apr 18) — paywalled; snippets only. Valuation-led Hold (1.6x P/B, 12-13% ROE). **No engagement with Q1 NDFI/FHLB/CRE stress** — data point that street still runs multiple models on PNC post-$73B NDFI / +64.7% FHLB print. Confirms Apr 17 Will instinct: "edge isn't the thesis, it's the mechanism."
+
+3. **Reuters / Journal Record — "$230B shadow bank exposure"** (Apr 17-18, Biswas/Anand byline) — main-domain 403; reconstructed via MarketScreener + PrismNews + Sharecafe. **Genuinely new:** Fed asked banks for private-credit data **Apr 10** (Fortune) — top-down pull predating Q1 disclosures. **Truist NDFI ~12% of loans (~$35B+)** — adds to spectrum: PNC $73B → **TFC $35B+** → CFG $19.6B → FITB $9.5B → MTB $8.9B → RF $3B. Dimon "cockroach" quote now in wire syndication = narrative mainstream.
+
+**Quotes preserved in STATUS (for call annotation):**
+- Demchak (PNC): "not even on the curve" / "never been a loss in the history of the product"
+- Swimmer (CFG): "getting inbound calls from the private credit side"
+- Reilly (PNC CFO): "We had one loss back in 2014… we are still talking about it"
+
+**Cross-agent signal picked up from CARL boot output (Will pasted):** SYF + COF Q1 Mon Apr 20 = CARL's CRL-12 consumer NCO >6% test. If fires Mon, WAL/OZK Tue has fresh consumer-channel backdrop. CARL's posted Apr 21 date was off by one — SYF/COF/UNH are Mon Apr 20. Noted, not a REGINALD concern to correct.
+
+**Constraint logged:** Forbes + Seeking Alpha + Journal Record all hard-block Anthropic WebFetch. For primary-source article work, Will must paste body text or save file locally. Noted as a Finding below.
+
+**No file changes this session beyond STATUS + MEMORY.** No position work (blocked on broker screenshot). No new research spawned. Pure intake + signal extraction.
+
+**Git:** 0 commits this session prior to close. Will commit STATUS + MEMORY at close.
+
+### Prior session — Apr 17 PM (Threads 2, 3, 4 complete)
 
 **Thread 2 (positioning):** OZK shorts still crowded & pressing (SI 15.28% rising 5 months; short vol 43% → 64.6% Apr 8→16; 50% off-ex today on +2.0% rally). WAL positioning flipped (SI 4.13% → 3.46% declining through Mar; fresh shorts Apr; 51% off-ex). Verdict: MIXED. OZK asymmetry intact; WAL fresh-short cohort fragile on a beat.
 
@@ -103,13 +127,13 @@ Thesis v1.4 added "C&I as Convergence Hiding Place" (three masking mechanisms: M
 
 **Boot sequence:** standard + read `research/outputs/RQ-AD-HOC-APR17-THREAD4-EDGE-CHECK.md` (full Apr 21 decision brief, scripts A-D, per-position recommendations) + `research/outputs/RQ-AD-HOC-APR17-PT-AND-SI.md` (positioning + PT gap).
 
-**Primary task: Execute pre-Apr-21 position rolls (1-1.5 trading days away).** Do in this order:
+**Primary task: Execute pre-Apr-21 position rolls (Apr 21 earnings ~1 trading day away after Mon Apr 20 opens).** Do in this order:
 
 1. **Get fresh POSITIONS data from Will** — broker screenshot. POSITIONS.md is stale since Apr 2. Need exact expiries on WAL $67.5P/$60P and OZK $42.5P.
 2. **Price the WAL $65P Jun → Sep roll** — quote both legs, calculate cost/credit and delta change. Present for Will's approval.
 3. **Price the OZK $45P May → Aug roll** — same. Conditional on Apr 21 print script; but stage the math now.
 4. **Build one-page "live call crib sheet"** from Thread 4 Step G tables (5 rankings for WAL call + 4 for OZK call). Print-ready for Apr 21 after-close.
-5. **Weekend / Monday:** Any fresh sell-side note, PT action, or cohort news (ZION if early). Check `workbook/SHORT_VOL.tsv` freshness for Mon/Tue.
+5. **Monday check-ins:** (a) SYF + COF AM prints (CARL CRL-12 test) — if consumer NCO fires, fresh WAL/OZK backdrop; (b) any ZION early read or cohort news; (c) refresh `workbook/SHORT_VOL.tsv` + `darkpool.py` for Mon close. Weekend article scan already complete — see Apr 19 session notes.
 
 **Do NOT re-run threads 1-3.** Synthesis is complete. Thread 1 (DB positioning) deferred — directionally known from Thread 2 + today's tape (+2.7% WAL / +2.0% OZK on +1.2% SPY = broad squeeze-cover in progress).
 

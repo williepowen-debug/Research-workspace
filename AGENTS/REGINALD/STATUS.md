@@ -1,5 +1,30 @@
 # REGINALD STATUS
-**Last Updated:** 2026-04-17 08:55 ET (FITB + RF headlines out; PDF integration pending) | **Status:** 🔴🔴🔴 CRITICAL (WAL re-breached <$78; RF first cohort miss)
+**Last Updated:** 2026-04-19 22:15 ET (weekend article scan; paywall constraints noted) | **Status:** 🔴🔴🔴 CRITICAL (WAL closed $79.39 Fri, ~36h to Apr 21 earnings)
+
+---
+
+## WEEKEND BRIEF — April 19, 2026 (Sun PM, pre-earnings)
+
+**Prices (Fri Apr 17 close):** KRE $70.37 (+2.24%), WAL **$79.39** (+2.72%, back above $78), OZK $48.73 (+1.97%), ZION $62.73 (+1.93%), CFG $64.45, EGBN $27.95, SSB $99.93 (+2.60%), SPY $710.14 (+1.21%), VIX 17.48, Brent $96.36 (+6.62% bounce).
+
+**WAL fade Apr 17:** Midday spike $81.09 → close $79.39 on double-miss rally. Still above $78 but fragile. DB crowded-short unwind partially activated.
+
+**Article scan (weekend, 3 pieces):**
+
+| Source | Status | Signal for REGINALD |
+|--------|--------|---------------------|
+| Forbes — "Regional banks earnings stabilize but exposure to nonbanks rises" | 403 blocked; reconstructed via American Banker + S&P Global | Industry NDFI reaccelerated **+7.3% QoQ Q4 2025**. Regional NDFI share **5.9% of assets Q2 vs 1.6% YE2010** (3.7x in 15yr). **56% of regionals expect MORE NDFI in 2026** (Moody's). **OCC/FDIC rescinded 2013 leveraged-lending guidance Jan 2026** — regulatory easing into the peak. |
+| Seeking Alpha — "PNC: Not a great buy right now" (Asian Investor, Apr 18) | Paywalled | Valuation-led **Hold** (1.6x P/B, 12-13% ROE). **Zero engagement** with Q1 NDFI/FHLB/CRE stress. Confirms street still running multiple models post-print → thesis "edge isn't the thesis, it's the mechanism" (MEMORY Apr 17). |
+| Reuters/Journal Record — "US regional lenders lift veil on $230B shadow bank exposure" (Apr 17-18) | Reconstructed from syndication copies | **NEW:** Fed asked banks for private-credit details **Apr 10** (Fortune) — top-down regulatory pull predated Q1 disclosures. **NEW:** Truist NDFI ~12% of loans (~$35B+) — updated spectrum: PNC $73B → TFC $35B+ → CFG $19.6B → FITB $9.5B → MTB $8.9B → RF $3B. **Cockroach framing** (Dimon) now in wire syndication — narrative mainstream. |
+
+**Quotes preserved (for annotation / analyst callback):**
+- **Demchak (PNC):** "We do not see any loss content in this book and certainly do not see any exposure to a systemic event." / "It is not even on the curve." / CLOs "never been a loss in the history of the product."
+- **Swimmer (CFG):** "We really haven't seen a decrease in appetite… we're getting inbound calls from the private credit side." (Banks leaning in, not retrenching — bearish for convergence timeline.)
+- **Reilly (PNC CFO):** "We had one loss back in 2014 in that category, and we are still talking about it."
+
+**Cross-read from CARL boot:** SYF + COF report **Mon Apr 20** (CARL's CRL-12 consumer NCO test). If SYF NCO >6% or COF domestic card stresses, WAL/OZK Tue has a **fresh consumer-channel backdrop** beyond the RF-clean cohort read.
+
+**No new signal on:** WAL, OZK, EGBN, VLY, SSB, FLG from weekend coverage — stays clear air for convergence edges on these names.
 
 ---
 
