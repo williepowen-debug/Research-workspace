@@ -1,63 +1,76 @@
-## COMPLETION — WALTER — 2026-04-20 (Mon PM — URL + Telegram batch + architecture Q&A)
+## COMPLETION — WALTER — 2026-04-20 (Mon evening — Filter v2 Segments A+B)
 
-STATUS: ✅ MID-WEIGHT SESSION. **5 BOARD dispatches / 0 kills / 2 verify-research sub-agents / 3 architecture threads with Will.** Blue Owl verify caught 2 framing errors pre-dispatch (Rees not party to amendment; "alt-collateral" is inference). NV HOA verify confirmed bank-chain transmission currently WEAK at scale. Routing correction absorbed (CARL → REGINALD for geo-narrow residential signals). Sub-agent prompt standardization explicitly rejected by Will; saved 4-bullet personal discipline to auto-memory, not a spec. Total BOARD: 46 → 51.
+STATUS: ✅ SPEC-WORK SESSION. **0 BOARD dispatches / 0 kills / 0 verify-research spawns.** Filter v1→v2 review launched, diagnostic written, 4-segment plan created, **Segments A and B both completed and committed in this session.** Will requested handoff before tackling Segments C (verify-research Phase 1.5 trigger) and D (confidence asymmetry design round-trip). Total BOARD: 51 (unchanged).
 
 CHANGED:
-- BOARD/SIG-W-20260420-001-tuapse-refinery-black-sea-port-2nd-strike.md (NEW, IMMEDIATE BRENT)
-- BOARD/SIG-W-20260420-002-pachpadra-rajasthan-refinery-fire.md (NEW, PRIORITY BRENT)
-- BOARD/SIG-W-20260420-003-non-me-hydrocarbon-incident-aggregation-11-events.md (NEW, PRIORITY BRENT)
-- BOARD/SIG-W-20260420-004-blue-owl-founders-unwind-1-1b-share-pledged-loans.md (NEW, IMMEDIATE BROCK)
-- BOARD/SIG-W-20260420-005-nv-hoa-dysfunction-pattern-insurance-cre-chain.md (NEW, PRIORITY REGINALD)
-- BOARD/INDEX.md (5 rows appended for today's dispatches)
-- AGENTS/WALTER/routed/route_log.tsv (5 rows appended for -001 through -005)
-- AGENTS/WALTER/STATUS.md (header date, Overall summary rewritten for today's work, session log row, v0.16 footer entry; total dispatched 46 → 51)
-- AGENTS/WALTER/MEMORY.md (2 new Feedback entries — residential→REGINALD routing rule + verify-before-dispatch on "co-founders"/"replaced with" framing; CHANGES SINCE + NEXT SESSION + OPEN DESIGN DECISIONS rewritten)
+- AGENTS/WALTER/design/FILTER_V2_PLAN.md (NEW — 4-segment plan + completion criteria + log table with both A and B rows)
+- AGENTS/WALTER/design/SIGNAL_FORMAT_SPEC.md (v0.4 → v0.6 — two version jumps: Seg A added `thesis-frame` signal_type; Seg B added Multi-Origin Signals section + origin field array form)
+- AGENTS/WALTER/design/ROUTING_TABLE.md (v0.4 → v0.5 — Seg A: added thesis-frame row in By Signal Type table + Residential-housing stress exception section codifying Apr 20 NV HOA routing correction)
+- AGENTS/WALTER/design/FILTER_SPEC.md (v0.2 → v0.3 — Seg A: START LOOSE retired → BALANCED default posture; empirical bypass note zero-FLASH-in-51; Pre-Apr-21 bypass reaffirmation with 6 explicit triggers)
+- AGENTS/WALTER/design/SIGNAL_PROCESSING_CHECKLIST.md (v0.6 → v0.7 — Seg B: new Phase 1b same-theme combine check between intake and classify, referencing FORMAT_SPEC v0.6 Multi-Origin Signals)
+- AGENTS/WALTER/STATUS.md (v0.16 → v0.18 — two version jumps: OPERATIONAL STATE row bumps for all 4 specs; FILTER POSTURE rewritten BALANCED + Pre-Apr-21 reaffirmation; UPCOMING collapsed to Seg A+B complete / C+D deferred; session log entries for both segments; header date updated)
+- AGENTS/WALTER/MEMORY.md (2 new Feedback entries — "surface friction before being asked" + "segment work to user's stated cadence"; CHANGES SINCE / NEXT SESSION / OPEN DESIGN DECISIONS rewritten for this session)
 - AGENTS/WALTER/LAST_COMPLETION.md (this file, overwritten)
-- Auto-memory (outside repo): memory/feedback_subagent_prompt_discipline.md (NEW) + memory/MEMORY.md (index line added)
+
+Commits pushed: ae527e18 (Segment A) + ff40d5af (Segment B).
 
 RESULT:
 
-**Today's 5 dispatches:**
-1. **SIG-W-20260420-001 Tuapse 2nd strike IMMEDIATE → BRENT** (dual-outlet Visegrád 24 + BRICS News; Rosneft Tuapse refinery + Black Sea port struck 2nd time in 4 days; 3rd-theater hydrocarbon infrastructure channel adjacent to 8-ch Iran cluster; confidence 0.80).
-2. **SIG-W-20260420-002 Pachpadra India fire PRIORITY → BRENT** (HPCL Rajasthan 9 MTPA greenfield refinery fire day before Modi inauguration; single-outlet Insider Paper; scale TBD; confidence 0.60).
-3. **SIG-W-20260420-003 non-ME hydrocarbon aggregation PRIORITY → BRENT** (11 incidents Mar 1–Apr 15: 4 Russia war-driven / 3 India / 3 Texas / 1 Mexico / 1 Australia / 1 Ecuador 60-day SOE; NEXUS cluster-classification candidate; confidence 0.70 on pattern, per-row unverified).
-4. **SIG-W-20260420-004 Blue Owl founder unwind IMMEDIATE → BROCK** (Ostrover + Lipschultz released >$1.1B share-pledged personal loans; OWL -40% YTD, Q1 earnings Apr 30; verify-research sub-agent confirmed core fact via WSJ/Bloomberg/CNBC/SEC 13D/A; **caught 2 framing errors** — Rees NOT party to amendment; "alt-collateral" is inference from loan-agreement boilerplate, not filing disclosure; confidence 0.85).
-5. **SIG-W-20260420-005 NV HOA dysfunction pattern PRIORITY → REGINALD** (Del Webb/Pulte ~80-90 homes $300-500K/home remediation + NV AB125 narrowed Chapter 40 construction-defect litigation + statewide insurance withdrawals + Silver State Bank 2008 precedent + FL 2020-2022 pre-Surfside signature match; verify-research sub-agent confirmed bank transmission currently WEAK at scale — GSE-conforming mortgages push loss to Fannie/Freddie, not regional-bank balance sheets; WAL/ZION no disclosed NV HOA exposure; confidence 0.55).
+**Filter v1→v2 diagnostic (written to FILTER_V2_PLAN.md):**
+- 51 dispatches + 18 kill_log rows reviewed Apr 11–Apr 20
+- Zero obvious false positives in kills (no killed signals that should have routed)
+- Routes calibrated (confidence floor worked on 3 entries at 0.20/0.22/0.30)
+- **v1 structurally working — no architecture rewrite needed.** 3 real spec gaps + 4 codifications of informal practice.
+- Segmented into 4 parts (A easy wins / B same-theme combine / C verify-research Phase 1.5 / D confidence asymmetry) per Will's "don't hammer it in one pass."
 
-**Routing correction absorbed:** Defaulted CARL for NV HOA; Will pushed back. Reversed to REGINALD action + CARL info. Durable heuristic filed: geo-narrow residential/HOA/builder-defect/insurance-withdrawal signals route REGINALD (direct bank-credit transmission via warehouse lines, HELOC, forced-sale price discovery, local CRE) with CARL info. CARL is macro-national primary, not geographically-narrow.
+**SEGMENT A — Easy wins (commit ae527e18):**
 
-**Verification saves:** Fongern Blue Owl framing used "co-founders" (plural, implying all 3) + "replaced with alternative collateral" — both overstated. Without verify-research, BROCK would have received the overstated claim. Filed as durable feedback: when origin framing uses summarizing plurals ("co-founders", "all three", "both") or mechanism-assertions ("replaced with", "swapped for", "backed by"), flag for verify before dispatch. Verify cost ~$0.05; downstream-overstated-thesis cost asymmetric.
+1. **FORMAT_SPEC v0.4 → v0.5:** Added `thesis-frame` signal_type. Covers analytical synthesis / institutional framework / comparative analysis content (MS 1990-vs-2026 oil-shock compare, BRK-vs-SPY quality flight, multi-channel convergence reads). Distinct from `research` (new data) and `pattern-match` (data-pattern detection).
 
-**Architecture decisions:**
-- **BOARD-consumption tracking:** 4 options surveyed (watermark / Signal Ledger in STATUS.md / per-agent TSV / git-native blame). Will deferred.
-- **Sub-agent prompt standardization: REJECTED.** Will: "Is the juice worth the squeeze here?" Correct pushback for ~10-15-lifetime sub-agent volume. Saved as 4-bullet personal discipline in auto-memory (NOT a WALTER spec file): lead-with-decision / hard-total-word-cap-with-per-question-multiplication-warning / prioritize-decision-usefulness / VERDICT-line-top. Corollary filed: don't over-constrain body structure — loose on body, tight on length+focus.
-- **Context/handoff cadence:** sub-agents ~5-8x cheaper than in-context research but return-size lands in caller window (return is what's billed to parent context, not the sub-agent's working context). 7+ sub-agent sessions = natural handoff point.
+2. **ROUTING_TABLE v0.4 → v0.5:**
+   - Added thesis-frame row to By Signal Type table.
+   - New Residential-housing stress exception section codifying the Apr 20 NV HOA routing correction: geographically-narrow residential signals (HOA dysfunction, builder-defect litigation, insurance withdrawals with regional clustering, forced-sale price-discovery clusters, local residential CRE) route **REGINALD action + CARL info**. Macro-national residential signals (Fed Z.1 household leverage, national mortgage delinquency, national housing starts) route CARL per CONSUMER_CREDIT default.
+   - Filing context: Apr 20 NV HOA SIG-005 defaulted CARL; Will pushed back; reversed to REGINALD. Codified as exception in v0.5.
 
-**Sub-session Will questions during closeout:**
-- "Meaningful steps forward?" → Answered honestly: yes but modest (Blue Owl caveat save, NV HOA transmission mapped as currently-WEAK, CARL→REGINALD heuristic update, 4-bullet discipline memo); not foundational.
-- "What is filter v2?" → Answered: the REVIEW step on v1 (read kill_log for false positives, route_log for false negatives; adjust gates/floor/bypass); trigger was 10 dispatches OR 30 days from Apr 11; at 51 dispatches I'm 41 past trigger. Legitimate next-session priority or defer until after Apr 21.
+3. **FILTER_SPEC v0.2 → v0.3:**
+   - Retired "START LOOSE" default posture (2-week calibration window + extension expired at 51 dispatches with zero obvious false positives). Replaced with **BALANCED** posture — tuning rules as primary guide; pre-catalyst window (≤72h before WAL/ZION/OZK earnings, Fed, CPI/NFP, Iran ceasefire expiry, BOJ) shift toward LOOSE on relevant domain; low-information stretches shift toward TIGHT. Review monthly.
+   - Added empirical bypass note: **zero FLASH signals across first 51 dispatches.** Two interpretations (a) strict triggers correctly rare, or (b) criteria miss events that should fire. Apr 21 is first real test.
+   - Added **Pre-Apr-21 bypass reaffirmation** with 6 explicit triggers: WAL/ZION gap-down >5% premarket, KRE >3% intraday, Iran kinetic-interdiction US naval vessel, HY OAS +25bps single session, VIX +5 intraday, Will explicit FLASH flag. Any of these fires → FLASH + Telegram + BOARD, skip Gate 1.
+   - Filter v3 trigger set: ~May 20 OR next 50 dispatches.
+
+**SEGMENT B — Same-theme combine rule (commit ff40d5af):**
+
+Process: drafted rule with 3 design questions, Will asked for friction-check, I surfaced 4 issues (batch-boundary ambiguity, confidence double-counting, absorbed-origin traceability, "theme" fuzziness). Will pushed back on strict intra-batch scope AND on "theme" — proposed "put like with like when applicable" looser timing + "domain" as similarity criterion. Reworked rule, Will greenlit, committed.
+
+4. **FORMAT_SPEC v0.5 → v0.6:** Multi-Origin Signals section added. Combine when ALL three hold: (a) same canonical domain (the 15 codes — cross-domain items do not combine), (b) same underlying event OR specific sub-theme within that domain, (c) each origin adds independent value (identical reposts → dup-kill the extras). `origin` field accepts array form. Pre-dispatch any-arrival-path (same Telegram batch, different batch, separate Will message, WALTER-found article — combine decision is draft-time not intake-time). Post-dispatch immutable — later same-event items become dup-kill or follow-up citing prior SIG-ID, never retroactive merge. Cross-author combines supported (3 of 5 historical). No combine ceiling. Source section in signal body is the audit trail for absorbed origins (no new route_log column). Historical examples cited: SIG-019-024 disclosetv+BRICSinfo Iran escalation, SIG-019-017 Bilello VIX+SPX, SIG-019-004 FinanceLancelot Wyckoff+NDX, SIG-010-001 CPI+UMich stagflation.
+
+5. **CHECKLIST v0.6 → v0.7:** Phase 1b combine check added between Phase 1 intake and Phase 2 classify. Decision tree codified. Common catches (paired-chart, cross-source same-event, visual+analytical, bundled macro) + explicit non-catches (cross-domain narrative, same-domain-different-events, post-dispatch arrivals).
+
+**Design decisions made in this session:**
+- Intra-batch-only scope REJECTED in favor of any-arrival-path-pre-dispatch (preserves immutability via dispatch boundary instead).
+- "Theme" similarity criterion REJECTED in favor of domain-anchored outer fence + event/sub-theme inner test.
+- Origin format: array (forward-compatible; string form still valid single-element).
+- Combine ceiling: NONE, conditional on each origin adding value.
+- Absorbed-origin traceability: Source section in signal body (not route_log column).
 
 GAPS:
-- **Blue Owl correction framing** — SIG-W-20260420-004 body explicitly flags Rees-not-party + alt-collateral-is-inference. BROCK will receive the caveated version, but if BROCK or downstream agents rely on Fongern's original X post for framing they could still carry the error. This is why SIG body carries the correction prominently.
-- **NV HOA signal confidence intentionally low (0.55)** — pattern-match is real but bank transmission isn't load-bearing for WAL/ZION Apr 21. Signal routed as pattern-registry for REGINALD to watch, not as trade-driving evidence. REGINALD should NOT reprice catalyst-week positioning on this.
-- **SIG-W-20260420-003 per-row accuracy unverified** — 11-incident compilation is aggregator-sourced; base-rate claim (1.5-2x normal) is WALTER inference, not empirically derived. NEXUS candidate for formal cluster classification + base-rate calibration.
-- **SIG-W-20260420-002 single-outlet** — Pachpadra India fire has only Insider Paper as source; fire size/casualties/throughput impact TBD. Lower confidence reflects.
-- **HENRY + RED SIGNAL_INTAKE.md prompts** — still transcript-only from Apr 19. Not advanced today.
-- **Filter v1→v2 review** — 41 past trigger. Will asked about it; didn't act on it yet.
-- **All carry-forward gaps intact:** NEXUS cluster classification (19 bear nodes + 8-ch Iran + today's 11-incident hydrocarbon candidate), RED refresh Day 10+, ZHAO spawn 18d+ stale, FORGE 26d+ stale, COP paused.
+- **Segments C and D still outstanding.** Will said "do remaining segments in next session" — they are the next session's top spec-work priority, sequenced after Apr 21 catalyst monitoring.
+- **Segment D requires design round-trip with Will** on mechanic choice (3 candidates in FILTER_V2_PLAN.md Segment D table). Cannot auto-pick — Will decides before any FORMAT_SPEC edit.
+- **Telegram reply not sent** on Segment B completion initially because no inbound chat_id was in the turn's context; follow-up Will ping provided chat_id, Telegram resumed.
+- **All carry-forward gaps intact from prior session:** NEXUS cluster classification (19 bear nodes + 8-ch Iran + 11-incident hydrocarbon candidate), RED refresh Day 10+, ZHAO spawn 18d+ stale, FORGE 26d+ stale, COP paused, HENRY + RED SIGNAL_INTAKE.md prompts transcript-only, BOARD-consumption tracking decision pending.
 
 WILL_NEEDS:
-1. **Apr 21 catalyst pre-position checklist** — WAL/ZION earnings + Iran ceasefire expiry + 8-ch Iran cluster + Tuapse 3rd-theater adjacency. 2-day catalyst convexity framing.
-2. **BOARD-consumption tracking decision** (architectural blocker for agent boot-sequence rollout).
-3. **Apr 30 OWL Q1 earnings pre-watch** — SIG-W-20260420-004 should be on REGINALD/BROCK radar for tone/disclosure linkage.
-4. Whether to act on filter v1→v2 review this week OR defer until after Apr 21 resolution.
-5. HENRY + RED intake-spec prompts still pending — run this weekend or defer?
+1. **Apr 21 catalyst pre-position** — WAL/ZION earnings + Iran ceasefire expiry + 8-ch Iran cluster + Tuapse adjacency. Filter v2 Seg A installed explicit FLASH bypass triggers for the day.
+2. **Filter v2 Segment D mechanic decision** — (i) free-text confidence_note / (ii) split observation/interpretation numerical / (iii) signal_type modifier. Needed before coding can proceed.
+3. **BOARD-consumption tracking decision** (architectural blocker for agent boot-sequence rollout, pending from Apr 20 PM).
+4. **Apr 30 OWL Q1 earnings pre-watch** — SIG-W-20260420-004 should be on REGINALD/BROCK radar.
+5. HENRY + RED intake-spec prompts — run or defer?
 
 FOLLOW-UP (next session):
-- Read any new `AGENTS/<AGENT>/SIGNAL_INTAKE.md` files at boot; cross-reference against today's 5 routings for miss-match (esp. REGINALD since SIG-005 is first NV HOA material).
-- Apr 21 catalyst day — monitor for real-time WAL/ZION tape + Iran ceasefire posture; if Will requests, process Telegram real-time.
-- Session pipeline today: **5 routed / 0 killed / 2 verify-research autonomous spawns (both returned useful corrections).** Running Apr 19-20 aggregate: **35 routed / 12 killed / 2 verify-upgrades / 2 verify-with-corrections across ~9 sessions.**
-- Telegram-reply throughput healthy this session (5+ exchanges via reply tool including mid-closeout diagnostic + filter v2 refresh).
+- Boot: read STATUS / MEMORY / LAST_COMPLETION / FILTER_V2_PLAN / updated design specs; check /BOARD/INDEX for any new dispatches outside this session.
+- Apr 21 real-time monitoring if Will requests — filter posture is BALANCED + catalyst-day LOOSE per FILTER_SPEC v0.3.
+- After Apr 21 resolution: run Segment C (verify-research Phase 1.5 trigger — show Will draft trigger criteria before committing) then Segment D (design round-trip with Will on mechanic choice, then implementation + backfill of asymmetric signals).
+- Archive or delete FILTER_V2_PLAN.md once Segments C+D land and all completion criteria met.
 
 ---
 
