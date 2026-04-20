@@ -1,64 +1,80 @@
-## COMPLETION — WALTER — 2026-04-20 (Mon late-evening — 3-batch intake session post-Seg-C)
+## COMPLETION — WALTER — 2026-04-20 (Mon late-evening — post-compaction continuation)
 
-STATUS: ✅ INTAKE SESSION. **3 BOARD dispatches / 40 kills / 0 verify-research spawns.** Will sent 5 batches for routing: (1) 6-image batch — all duplicates of earlier Apr 20 PM dispatches, 6 kills on Novelty; (2) NMN Apr 20 email with 5 items — 5 kills (3 Novelty dups, 2 Relevance); (3) NMN Apr 14 briefing with 5 items — 2 dispatches + 3 kills; (4) CRE Daily newsletter multi-section — 1 dispatch + 19 kills; (5) Connect CRE News Apr 8 headline batch (15 items, 12d stale, headlines only) — 0 dispatches, 1 batch-level kill with 2 marginal-candidates flagged to Will for follow-on body-pull (ESRT Offices Under Contract = probable Novelty-dup of SIG-008; Ares 14-bldg Charlotte office sale = BROCK-adjacent PC-seller, scale-material if body available). Total BOARD: 51 → 54. No spec changes. No verify-research spawns (EO claim on SIG-007 routed at lower confidence 0.55 with verify-on-pickup note rather than spawn).
+STATUS: ✅ INTAKE SESSION CONTINUED ACROSS COMPACTION. **1 BOARD dispatch (SIG-009) / 9 kills / 2 verify-research spawns.** Session continued from prior closeout's 3-dispatch / 40-kill signal-intake workday when Will sent Fitch triple-inbound. Post-compaction batches: (1) Fitch triple (single Euro CLO + Fitch Wire Q2 brief + MTN CMBS R&W PDF) → 1 dispatch + 2 sibling kills; (2) 3-image batch (Shiller PE / FHA 180% / Kazakhstan export ban) → 0 dispatch + 3 kills + 2 verify-research spawns; (3) 4-image batch (Don Johnson Iran/Yanbu / CRED iQ spreads / Shiller dup / FHA dup) → 0 dispatch + 4 kills (2 dups + 2 new). Total across continuation: 1 dispatch + 9 kills + 2 verify spawns. **Cross-session full-day total (pre + post compaction): 4 BOARD dispatches / 49 kills / 2 verify spawns.** No spec changes. Total BOARD: 56 → 57.
 
 CHANGED:
-- BOARD/SIG-W-20260420-006-spring-purchase-lock-surge-arm-share-stretch.md (NEW)
-- BOARD/SIG-W-20260420-007-fhlb-roadmap-trump-mortgage-credit-eo.md (NEW)
-- BOARD/SIG-W-20260420-008-distressed-office-sales-5b-price-discovery-reset.md (NEW — multi-origin absorb of Office-section Chicago 26.8% vacancy + Rithm 1325 Ave of Americas refi via Phase 1b)
-- BOARD/INDEX.md (3 new rows: SIG-006, SIG-007, SIG-008)
-- AGENTS/WALTER/routed/route_log.tsv (3 appends)
-- AGENTS/WALTER/filtered/kill_log.tsv (25 appends across 3 batches)
-- AGENTS/WALTER/STATUS.md (v0.19 → v0.20 — header bumped, session log entry added, total 51 → 54)
-- AGENTS/WALTER/MEMORY.md (CHANGES SINCE / NEXT SESSION rewritten)
+- BOARD/SIG-W-20260420-009-fitch-q2-iran-war-ai-software-twin-risks.md (NEW)
+- BOARD/INDEX.md (1 new row: SIG-009)
+- AGENTS/WALTER/routed/route_log.tsv (1 append — SIG-009)
+- AGENTS/WALTER/filtered/kill_log.tsv (9 appends — 2 Fitch siblings + 3 img batch + 4 img batch)
+- AGENTS/WALTER/STATUS.md (v0.20 → v0.21 — header bumped, session log entry added, total 56 → 57)
+- AGENTS/WALTER/MEMORY.md (CHANGES SINCE / NEXT SESSION rewritten; 2 new Findings added: false-petro-geo cluster policy + count-vs-rate framing pattern)
 - AGENTS/WALTER/LAST_COMPLETION.md (this file, overwritten)
 
 RESULT:
 
-**SIG-006 spring purchase-lock + ARM stretch (PRIORITY → REGINALD; info CARL, RED, PROME; conf 0.70):**
-- Spring purchase locks +20% YoY March despite mortgage rates +45bps during the month
-- ARM share 12% of total origination — highest since October 2022
-- Counter-evidence (mild) to mortgage demand-destruction narrative; ARM-cohort composition is the corrosive qualifier
-- Pairs with SIG-W-20260419-020 (ATTOM Q1 foreclosures +26% YoY) for origination-strength-AND-backend-stress composition frame
-- Framed as research (not counter-evidence signal_type) after routing-tension resolution — BANK_CRE domain row routes REGINALD; meta-row "counter-evidence" → RED was the alternative; chose domain-primary
+**SIG-009 Fitch Q2 credit brief — Iran war + AI software twin risks (PRIORITY → BROCK; info LIQUID/REGINALD/RED/CARL/HENRY/BRENT/PROME; conf 0.75):**
+- Fitch Wire "Iran War and Software Disruption Emerge as Twin Risks for U.S. Credit" (Yee Man Chin, Senior Director, Toronto — Mon Apr 20 13:18 ET)
+- **Load-bearing new datapoint: non-traded BDC redemption requests +36% QoQ in Q1'26**, driven by (a) software-exposure concern, (b) valuation uncertainty
+- "Stress transmission into BDCs and CLOs bears close monitoring, even if current cushions remain adequate"
+- Refinancing risk building as debt maturities concentrate in 2028-2031 window
+- Adverse scenario oil $100/bbl avg 2026 → US GDP 1.5% vs 1.8% baseline (-0.7pp); peak 4Q lag at Q4'26 0.6% YoY; delays expected Fed cuts
+- Pairs with SIG-W-20260414-004 (IMF GFSR) as **2nd major institution explicitly naming BDC+CLO stress transmission** — rating agency joining multilateral = institutional framing shift (not capitulation, still framed "cushions adequate")
+- 4-node April PC stress cluster: SIG-W-20260420-004 (Blue Owl unwind), SIG-W-20260414-002 (TCW Red Lobster 98%), SIG-W-20260414-004 (IMF GFSR PC drivers), SIG-W-20260420-009 (Fitch twin risks)
+- BROCK-direct: +36% QoQ redemption figure = Stage 2→3 tracking corroborator; Fitch's software-exposure framing is a specific sub-channel to test against BDC portfolio map
+- Signal_type thesis-frame (cross-sector rating-agency synthesis). Not a threshold breach — a building drumbeat
+- Phase 1b checked: considered combining with single-CLO note (Fitch BNPP AM Euro CLO 2017 Class F) and MTN CMBS R&W. Rejected both — different themes (single-deal rating action vs sector framing; legal boilerplate vs credit commentary). Both kill_log'd separately.
+- Phase 1.5 checked: no trigger fires. Primary-source rating-agency Wire (Fitch IS the primary). No secondhand compression / no summarizing plurals / no mechanism-assertion beyond primary / no extraordinary absolute claim. No spawn.
+- Delivery: BOARD-only per Apr 14 policy. No Telegram alert (PRIORITY, not FLASH). Will greenlit dispatch in Telegram msg 914 ("okay go ahead").
 
-**SIG-007 FHLB roadmap + Trump mortgage credit EO (PRIORITY → REGINALD; info LIQUID, RED, PROME; conf 0.55):**
-- FHLB Council (Ryan Donovan) delivered roadmap to FHFA outlining implementation of "Trump's mortgage credit executive order"
-- Claims: expedited Fed-partnership funding + broader collateral acceptance for FHLB advances + non-QM access expansion for member banks
-- WALTER did NOT verify the EO exists (no EO#, no White House.gov pull, no WSJ primary). Confidence 0.55 reflects this gap, not FHLB Council credibility.
-- REGINALD flagged to verify on pickup before anchoring analytical work to EO premise
-- Cost-benefit judged: verify-research spawn would cost ~$0.05 but REGINALD's own regulatory-tracker verification is more domain-appropriate than a WALTER sub-agent. Routed at lower confidence with explicit verify note instead.
+**Verify-research spawn #1 — Kazakhstan "crude export ban" (VERDICT: FALSE, confidence 0.90):**
+- Pattern triggers (a) secondhand-citing-primary + (d) extreme-absolute extraordinary-claim
+- Sub-agent canvassed Reuters, Bloomberg, FT, S&P Global Platts, Argus Media, Kazakh government channels, KAZENERGY — **no primary source across any channel**
+- Pattern-matches Apr 19 WhaleInsider Hormuz hoax signature
+- Kazakhstan = ~1.9 mbpd crude exporter via CPC pipeline; if real, would move Brent $3-5/bbl in minutes
+- Killed Credibility; pattern flagged to Will
 
-**SIG-008 distressed office $5B price-discovery reset (PRIORITY → REGINALD; info BROCK, RED, LIQUID, NEXUS, PROME; conf 0.70):**
-- Aggregate: >$5B 2025 foreclosure/bankruptcy-related office transactions; 200+ distressed properties; early 2026 outpacing
-- Extreme comps: Chicago downtown towers sub-$30/sqft; David Werner Hell's Kitchen at ~1/3 of 2018 price
-- NYC deals: 1 Whitehall Street Metro Loft+Quantum ~$100M; RXR $500M 55 Broad recap; Namdar $280M 250 W 57th from ESRT; Rithm $282.5M JPM refi 1325 Ave of Americas (absorbed pre-dispatch)
-- Chicago suburban office vacancy 26.8% (absorbed pre-dispatch)
-- Geographic differentiation: Chicago+LA deepest, NYC converting, South FL sitting out
-- Phase 1b combine rule applied: the 2 Office-section datapoints (Chicago suburban 26.8%, Rithm refi) merged into the main "Finding a Floor" article signal via pre-dispatch any-arrival-path rule. Origin field updated to reflect multi-section absorb.
-- Direct pre-Apr-21 comp-set for WAL/ZION earnings framing
-- Multi-verify-on-pickup flag: WALTER did NOT pull primary sources on 1 Whitehall contract filings, RXR 55 Broad recap press release, Namdar closing, Rithm refi. Highest-impact claims (Werner 1/3-of-2018, Chicago sub-$30) flagged for REGINALD verification.
+**Verify-research spawn #2 — FHA "180% of 2009" framing (VERDICT: CORRECTED-FRAMING, confidence 0.55):**
+- Pattern trigger (d) extreme-absolute extraordinary-claim
+- 180% is count-basis artifact: Q1 2009 = 122,363 new 90+ delinquencies vs Q1 2026 = 219,149 = 1.79x
+- FHA portfolio ~1.65x larger since 2009 → **rate-basis ratio ~1.08x** (not 180%)
+- Current FHA SDQ rate ~4.0-4.3% vs 2009-10 peak ~9.4% → **FHA at ~45% of 2009 peak on normalized rate basis**
+- One real finding in underlying table: "Unemployed" reason-share doubled (7.46% → 15.07%) — real composition shift in default drivers, but that's share-of-reasons not level-of-defaults
+- Killed on CORRECTED-FRAMING. Msg 924 later arrived as primary source (Melody Wright Substack) and confirmed table is count-basis — verify held
+- Filed Finding in MEMORY.md re count-vs-rate headline pattern
 
-**Phase 1b in practice:** SIG-008 is the first dispatched signal to exercise the new combine rule. Pre-dispatch any-arrival-path absorb worked cleanly — main article first, Office section datapoints arrived in same Telegram batch but different messages, domain matched (BANK_CRE), sub-theme matched (office price discovery), each origin added independent value. Rule held.
+**False-petro-geopolitics 48h cluster (3 claims):**
+- Apr 19 PM — WhaleInsider "ZERO tankers / first in history" (MISFRAMED 0.30)
+- Apr 20 PM — Kazakhstan "bans crude exports" (FALSE 0.90)
+- Apr 20 evening — Don Johnson @DonMiami3 "14.5mbpd short / Iran cutting production next week" quoting @DeItaone Yanbu 17% drop (pattern-killed without spawn)
+- All X-platform, all unsourced or secondhand, all extreme-absolute framings
+- Policy filed in MEMORY.md Findings: assume hoax on unsourced petro-geopolitics until primary confirms; verify-spawn stays default; direct-kill acceptable when pattern-match decisive enough that expected verdict is FALSE with high conf.
+
+**Other kills:**
+- Fitch single Euro CLO Class F downgrade (Relevance — single-tranche OC drift, Euro jurisdiction, no position-chain link)
+- MTN CMBS R&W PDF (Relevance — legal boilerplate, industrial/logistics property type opposite of BANK_CRE thesis)
+- Shiller PE chart msg 916 (Novelty — valuation-drift cluster already 6+ channels)
+- Shiller PE chart msg 923 (Novelty — dup of 916)
+- CRED iQ MF 154 / Office 220 / 66bps gap (Relevance — steady-state drift, SIG-008 already has office price-discovery)
+- FHA dup msg 924 (Novelty — primary source behind 917 headline; table confirms count-not-rate)
 
 GAPS:
-- **Telegram replies all sent** — msg 898 consolidated 3-dispatch + 25-kill summary + Tier 2 ack; msg 900 Connect CRE honest read with Ares Charlotte body-request. No pending Telegram as of handoff.
-- **Ares Charlotte 14-building office portfolio sale** — flagged for body pull if Will surfaces source URL. Potential BROCK follow-on to SIG-008 if distressed or mark-driven.
-- **All carry-forward gaps from prior session intact:** Filter v2 Segment D implementation (Will picked Option A free-text `confidence_note`, deferred post-Apr-21); BOARD_CONSUMED.tsv spec awaiting greenlight on TSV/filename/200-row-retention micro-decisions; CLAUDE.md Tier 3 hygiene pass deferred.
-- **NEXUS cluster classification overdue** — now multiple candidates: 19-node bear cluster + 3 validated counters + 8-ch Iran day-cluster + 11-incident non-ME hydrocarbon + Blue Owl + NV HOA + 5-node BANK_CRE mark-discovery cluster (SIG-W-20260414-002 TCW + SIG-W-20260414-005 ROAD Act/Freddie K-098 + SIG-W-20260420-005 NV HOA + SIG-W-20260419-020 ATTOM + SIG-W-20260420-008 distressed office). Noted in SIG-008 body as NEXUS consideration.
-- **RED refresh Day 10+ stale, ZHAO spawn 18d+ stale, FORGE ~26d stale, COP paused, HENRY + RED SIGNAL_INTAKE.md prompts transcript-only** — all unchanged.
+- **Apr 21 catalyst day** — WAL/ZION earnings + Iran ceasefire expiry + 8-channel Iran cluster + Tuapse 3rd-theater + 4-node April PC stress cluster. Filter v2 Seg A FLASH bypass triggers all pre-armed.
+- **Apr 24 OZK Q1 earnings** — distressed office comps from SIG-008 apply directly.
+- **Apr 30 OWL Q1 earnings** — Blue Owl SIG-004 + Fitch SIG-009 both pre-stage. Watch tone on founder-unwind + BDC redemption disclosure.
+- **All carry-forward gaps from prior session intact:** Filter v2 Segment D implementation (Option A free-text `confidence_note` decided; post-Apr-21 queue); BOARD_CONSUMED.tsv spec decision awaiting greenlight on TSV/filename/200-row-retention micro-decisions; CLAUDE.md Tier 3 hygiene pass deferred; COP refresh paused; SIGNAL_INTAKE rollout (HENRY + RED prompts transcript-only; REGINALD/LIQUID/BROCK/HAWK/NEXUS and Tier 2 unstarted); ZHAO spawn 18d+ stale; FORGE/STATUS.md ~26d stale.
+- **NEXUS cluster classification still overdue** — 19-node bear cluster + 3 validated counters + 8-ch Iran day-cluster + 11-incident non-ME hydrocarbon + Blue Owl + NV HOA + 5-node BANK_CRE mark-discovery cluster + now 4-node April PC stress cluster surfacing through SIG-009.
 
 WILL_NEEDS:
-1. **Apr 21 catalyst pre-position** — WAL/ZION earnings + Iran ceasefire expiry + 8-ch Iran cluster + Tuapse adjacency. SIG-006/007/008 all dispatched directly at REGINALD for pre-Apr-21 context. Filter v2 Seg A FLASH bypass triggers active for the day.
-2. **Apr 24 OZK Q1 earnings pre-watch** — SIG-008 flagged Apr 24 OZK framing explicitly; distressed office comps apply.
-3. **Apr 30 OWL Q1 earnings pre-watch** — SIG-W-20260420-004 on BROCK radar.
-4. **Filter v2 Segment D implementation + BOARD_CONSUMED.tsv spec** — post-Apr-21 queue.
+1. **Apr 21 catalyst pre-position live** — SIG-009 BDC +36% QoQ specifically relevant to BROCK Stage 2→3 ahead of OWL Apr 30. All SIG-006/007/008/009 now on BOARD for REGINALD Apr 21 framing.
+2. **False-petro-geo policy** — Will may want to tag @WhaleInsider, @cred_iq-quote-cluster (N/A, CRED iQ was legit), Don Johnson @DonMiami3, *Walter Bloomberg @DeItaone impostor account as low-credibility sources in some durable form (reference list? auto-kill list?). Raised to Will, no decision.
+3. **Filter v2 Segment D implementation + BOARD_CONSUMED.tsv spec** — post-Apr-21 queue.
 
 FOLLOW-UP (next session):
-- Boot: read STATUS / MEMORY / LAST_COMPLETION / BOARD/INDEX; check for new Will inbound.
-- **Send pending Telegram reply on first Will inbound** — consolidated 4-batch summary covering 3 dispatches (SIG-006/007/008) + 25 kills + Tier 2 CLAUDE.md ack from prior session.
-- Apr 21 real-time monitoring if Will requests — BALANCED + catalyst-day LOOSE posture active; Phase 1.5 framing audit active; Rules 9-12 active.
-- Post-Apr-21: Filter v2 Segment D implementation + BOARD_CONSUMED.tsv + CLAUDE.md Tier 3.
+- Boot: git pull → read STATUS / MEMORY / LAST_COMPLETION / REGISTRY / ROUTING_TABLE / BOARD/INDEX → scan for new Will inbound.
+- No pending Telegram replies as of close — msg 930 closed this session.
+- Apr 21 real-time monitoring if Will requests — BALANCED + catalyst-day LOOSE posture active; Phase 1.5 framing audit active; Rules 9-12 active; false-petro-geo pattern-kill heuristic active.
+- Post-Apr-21: Filter v2 Segment D implementation + BOARD_CONSUMED.tsv + CLAUDE.md Tier 3 + SIGNAL_INTAKE rollout + NEXUS cluster classification.
 
 ---
 
