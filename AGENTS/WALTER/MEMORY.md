@@ -80,14 +80,14 @@ Context: session continued across automatic context-compaction after the 3-batch
 5. **RED refresh STILL OVERDUE** — HY OAS <300 Day 10+. Richest adversarial material yet.
 6. **ZHAO spawn** pending — China material 18d+ stale.
 7. **FORGE/STATUS.md** ~26d stale.
-8. **BOARD-consumption tracking decision** from Will — still pending from Apr 20 PM. Blocks other-agent boot-sequence rollout. Four options surveyed (watermark / Signal Ledger in STATUS.md / per-agent TSV / git-native).
+8. **BOARD-consumption rollout — spec shipped Apr 20 late-evening** (`design/BOARD_CONSUMPTION_SPEC.md` v0.1). Per-agent `board_log.tsv` + 5-step boot template w/ self-create on first boot. **Next-session focus:** propagation to 14 Tier 1 agent CLAUDE.md files — 4 Claude Code self-edits (CARL/REGINALD/SAM/RED) + 10 OpenClaw agents edited by Prome/Will (BROCK/LIQUID/HENRY/HAWK/BRENT/LABOR/NEXUS/VIOLET/PROME/SHADE). WALTER does NOT edit other-agent CLAUDE.md files per git isolation rule.
 9. **Apr 30 OWL Q1 earnings** — SIG-W-20260420-004 Blue Owl pre-stage; watch for tone/disclosure linkage to founder-unwind + pledged-share status.
 10. **COP refresh** still OFF. Resume trigger?
 11. **SIGNAL_INTAKE rollout** priorities: REGINALD (heavy BOARD traffic), LIQUID, BROCK, then HAWK/NEXUS and Tier 2.
 
 ### OPEN DESIGN DECISIONS (need Will)
 - **Filter v2 Segment D — ~~confidence asymmetry mechanic choice~~ DECIDED 2026-04-20 evening.** Will picked A (optional free-text `confidence_note` field) in Telegram msg 856. Implementation deferred to post-Apr-21 per Will "no rush" framing. Session 1 plan: FORMAT_SPEC adds optional `confidence_note` to header + invocation rule (≥1 confidence band gap between observation and interpretation); CHECKLIST adds Phase 2 discretion note near Confidence mapping table; no migration of 51 existing signals (A preserves them). Session 2 (optional): opportunistic backfill on ~5-8 historical asymmetric signals. See FILTER_V2_PLAN.md Segment D section for full plan.
-- **BOARD-consumption tracking** — 4 options surveyed Apr 20 PM, deferred. Architectural blocker for agent boot-sequence rollout.
-- **Agent CLAUDE.md boot-step rollout** — SIGNAL_INTAKE coverage useless without corresponding pull step per agent. Requires BOARD-consumption decision first.
+- ~~**BOARD-consumption tracking**~~ — **SHIPPED** Apr 20 late-evening. `design/BOARD_CONSUMPTION_SPEC.md` v0.1; per-agent `board_log.tsv` (option 3 of 4 surveyed). Defaults approved by Will msg 938. Propagation to 14 Tier 1 CLAUDE.md files is the open work, not the decision.
+- **Agent CLAUDE.md boot-step rollout** — now unblocked. Template ready in BOARD_CONSUMPTION_SPEC.md §"Agent Boot Step Template". 4 Claude Code agents self-edit, 10 OpenClaw agents edited by Prome/Will. Pairs with SIGNAL_INTAKE rollout.
 - **COP refresh cadence** — currently OFF (deprioritized Apr 14). Resume trigger?
 - **Filter v3 review trigger** (set Apr 20 this session): ~May 20 OR next 50 dispatches, whichever first. Replaces prior "10 dispatches OR 30 days from Apr 11" trigger (fired and executed this session).
