@@ -47,11 +47,15 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (Apr 20 Mon evening — Filter v2 Segments A+B)
+### CHANGES SINCE LAST SESSION (Apr 20 Mon evening — Filter v2 Segments A+B+C)
 
-Context: immediate continuation of Mon-PM session. Prior session closed out with the 5 Apr 20 dispatches + architecture Q&A. This session did NO new signal intake — entirely filter-v2 spec work.
+Context: immediate continuation of Mon-PM session, with Will typing /clear in Telegram between Segment B closeout and Segment C kick-off (session continuity preserved — /clear in Telegram ≠ /clear in Claude Code terminal). Prior session closed out with the 5 Apr 20 dispatches + architecture Q&A. This session did NO new signal intake — entirely filter-v2 spec work.
 
-**Filter v1→v2 review launched.** Empirical diagnostic: 51 dispatches + 18 kill_log rows reviewed, v1 structurally working (zero obvious false positives in kills, routes calibrated, confidence floor caught 3 entries at 0.20/0.22/0.30). No architecture rewrite needed — 3 real spec gaps + 4 codifications of informal practice. 4-segment plan written to `design/FILTER_V2_PLAN.md` per Will's "don't hammer it in one pass." Plan: A today, B/C/D post-Apr-21.
+**Segment C executed (same session continuation).** Will ("I want to continue with segment C from our previous section") → draft presented on Telegram with narrowed scope on (a) extraordinary-claims (extreme absolutes only, explicitly excluding falsifiable comparatives like "record high" / "biggest since 2021" / "5th largest") and (b) mechanism-assertions (only claims NOT YET in primary coverage). Will greenlit ("seems good"). Edits: CHECKLIST v0.7 → v0.8 adds full Phase 1.5 subsection (4 trigger-pattern table with examples + NOT-triggered-by column; spawn-prompt discipline 4 bullets anchored to auto-memory `feedback_subagent_prompt_discipline`; 4-verdict handling table CONFIRMED / CORRECTED-framing / FALSE / INDETERMINATE; discretion clause preserved when primary already open in-session), plus step 2.5 cross-ref inserted inside the Phase 1 kill/keep code block. FILTER_SPEC v0.3 → v0.4 adds reference-only subsection between Gate 1b (Relevance) and Credibility Check pointing to CHECKLIST Phase 1.5 as canonical — no filter-logic change. STATUS.md: OPERATIONAL STATE rows bumped (FILTER_SPEC v0.4, CHECKLIST v0.8), UPCOMING collapsed to "Seg A+B+C complete, D deferred," session log entry, v0.19 footer. FILTER_V2_PLAN.md: status line updated, Segment C section header with completion marker, log row.
+
+**Prior Segment A (commit ae527e18) and Segment B (commit ff40d5af) context preserved from earlier in this session:**
+
+**Filter v1→v2 review launched earlier this session.** Empirical diagnostic: 51 dispatches + 18 kill_log rows reviewed, v1 structurally working (zero obvious false positives in kills, routes calibrated, confidence floor caught 3 entries at 0.20/0.22/0.30). No architecture rewrite needed — 3 real spec gaps + 4 codifications of informal practice. 4-segment plan written to `design/FILTER_V2_PLAN.md` per Will's "don't hammer it in one pass." Plan: A today, B/C/D post-Apr-21.
 
 **Segment A executed (commit ae527e18):**
 - **FORMAT_SPEC v0.4 → v0.5** — added `thesis-frame` signal_type for analytical synthesis / institutional framework / comparative analysis content (e.g., MS 1990-vs-2026 oil-shock compare, BRK-vs-SPY quality-flight, multi-channel convergence reads). Distinct from `research` and `pattern-match`.
@@ -69,21 +73,19 @@ Design process: (1) drafted rule with 3 design questions (intra-batch-vs-cross-b
 
 **STATUS.md:** OPERATIONAL STATE row bumps (FORMAT_SPEC v0.6, ROUTING_TABLE v0.5, FILTER_SPEC v0.3, CHECKLIST v0.7). FILTER POSTURE section rewritten BALANCED + Pre-Apr-21 bypass reaffirmation. UPCOMING row collapsed to "Seg A+B complete, C/D deferred." Session log entries for both segments. Header bumped to v0.18.
 
-**Telegram throughput:** 11 exchanges this session — explanatory on filter v2 scope, 3-question design decisions, intra-batch clarification, friction stress-test, rework decisions, completion summaries. Handoff request from Will at the end.
+**Telegram throughput this session arc (A+B+C):** ~13 exchanges across A/B/C — explanatory on filter v2 scope, 3-question design decisions, intra-batch clarification, friction stress-test, rework decisions, completion summaries for A and B, Segment C draft with narrowed scope, Will greenlight.
 
-**No BOARD dispatches this session. No kills. Spec changes: FORMAT_SPEC v0.4→v0.6 (two version jumps), ROUTING_TABLE v0.4→v0.5, FILTER_SPEC v0.2→v0.3, CHECKLIST v0.6→v0.7, new FILTER_V2_PLAN.md.** Total BOARD: 51 (unchanged).
+**No BOARD dispatches this session. No kills. Spec changes across the full A+B+C arc: FORMAT_SPEC v0.4→v0.6 (two version jumps), ROUTING_TABLE v0.4→v0.5, FILTER_SPEC v0.2→v0.4 (two version jumps — A then C), CHECKLIST v0.6→v0.8 (two version jumps — B then C), new FILTER_V2_PLAN.md.** Total BOARD: 51 (unchanged).
 
 ### NEXT SESSION
 
 **TOP PRIORITY — Apr 21 (Tuesday, catalyst day):** WAL + ZION earnings + Iran ceasefire expiry into 8-channel Iran cluster + Tuapse 3rd-theater adjacency. 2-day catalyst convexity, NOT regime call. Filter v2 Segment A installed explicit bypass reaffirmation triggers for the day — WAL/ZION gap-down >5% premarket OR KRE >3% intraday OR Iran kinetic US-vessel interdiction OR HY OAS +25bps OR VIX +5 intraday OR Will FLASH = route FLASH immediately, skip Gate 1.
 
-**Filter v2 remaining segments (Will wants these done next session):**
+**Filter v2 remaining segment (only D left after this session):**
 
-1. **SEGMENT C — Verify-research Phase 1.5 trigger** (~30 min, one pass). Codify autonomous verify-research sub-agent spawn criteria. 4 framing errors caught this month: BOJ ¥330B misframed, WhaleInsider "zero tankers / first in history" false, Blue Owl "co-founders" / "alt-collateral" overstated, SIG-029 "first NATO state-response" inaccurate. Draft trigger criteria: (a) secondhand source citing primary (WSJ-via-X-aggregator), (b) summarizing plurals ("co-founders", "all three", "both"), (c) mechanism-assertions ("replaced with", "swapped for", "backed by"), (d) extraordinary claims ("zero", "first in history", "largest ever", "never before"). Edits: CHECKLIST gets new Phase 1.5 step between Gate 1 pass and credibility check; FILTER_SPEC gets reference-only note. Show Will draft triggers before committing.
+1. **SEGMENT D — Confidence asymmetry** (design-heaviest, 1-2 sessions). Solves observation-vs-interpretation split (SIG-022 EAM/E-6B case). Three candidate mechanics: (i) optional `confidence_note` free-text field (WALTER lean; simplest, non-breaking), (ii) split into `observation_confidence` + `interpretation_confidence` numerical pair (precise but migration-heavy), (iii) `signal_type` modifier `observation-only` / `with-interpretation` (flag-based but mixes signal_type with confidence semantics). **Requires real design round-trip with Will before coding** — first session = decide mechanic, second session = implement + backfill asymmetric signals with retrospective notes. See FILTER_V2_PLAN.md Segment D table for full comparison.
 
-2. **SEGMENT D — Confidence asymmetry** (design-heaviest, 1-2 sessions). Solves observation-vs-interpretation split (SIG-022 EAM/E-6B case). Three candidate mechanics: (i) optional `confidence_note` free-text field (WALTER lean; simplest, non-breaking), (ii) split into `observation_confidence` + `interpretation_confidence` numerical pair (precise but migration-heavy), (iii) `signal_type` modifier `observation-only` / `with-interpretation` (flag-based but mixes signal_type with confidence semantics). **Requires real design round-trip with Will before coding** — first session = decide mechanic, second session = implement + backfill asymmetric signals with retrospective notes. See FILTER_V2_PLAN.md Segment D table for full comparison.
-
-**Filter v2 completion criteria:** all 4 segments deployed + STATUS.md OPERATIONAL STATE reflects new versions + Filter v3 trigger set (already set for ~May 20 or next 50 dispatches) + FILTER_V2_PLAN.md archived to `design/history/` or deleted.
+**Filter v2 completion criteria:** A+B+C done; D is the last item. After D ships + STATUS.md OPERATIONAL STATE reflects final versions + Filter v3 trigger holds (~May 20 or next 50 dispatches), FILTER_V2_PLAN.md moves to `design/history/` or is deleted.
 
 **Still-pending items (deferred from prior session, not filter-v2 related):**
 

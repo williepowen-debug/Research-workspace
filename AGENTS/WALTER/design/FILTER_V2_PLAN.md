@@ -1,6 +1,6 @@
 # FILTER v1 → v2 Review Plan
 
-**Status:** Segments A+B COMPLETE 2026-04-20 evening. Segments C/D scheduled post-Apr-21 catalyst day.
+**Status:** Segments A+B+C COMPLETE 2026-04-20 evening. Segment D (design-heaviest — 3-mechanic round-trip with Will) deferred post-Apr-21 catalyst day.
 **Scope:** Full 7-item revision across FILTER_SPEC, FORMAT_SPEC, ROUTING_TABLE, and SIGNAL_PROCESSING_CHECKLIST
 **Trigger:** 10+ dispatches OR 30 days from Apr 11 (reached at 51 dispatches = 41 past threshold).
 
@@ -57,9 +57,15 @@ Instances this month:
 
 **Expected time:** ~30 min, one pass. Will review draft rule text before commit.
 
-### SEGMENT C — Verify-research Phase 1.5 trigger
+### SEGMENT C — Verify-research Phase 1.5 trigger (COMPLETE 2026-04-20 evening)
 
-Codify autonomous verify-research sub-agent spawn. Caught 4 framing errors this month (BOJ ¥330B misframed, WhaleInsider Hormuz "zero tankers / first in history" false, Blue Owl "co-founders" / "alt-collateral" overstated, SIG-029 "first NATO state-response" inaccurate).
+Codified autonomous verify-research sub-agent spawn. Caught 4 framing errors this month (BOJ ¥330B misframed, WhaleInsider Hormuz "zero tankers / first in history" false, Blue Owl "co-founders" / "alt-collateral" overstated, SIG-029 "first NATO state-response" inaccurate).
+
+Deployed form (see CHECKLIST v0.8 Phase 1.5 + FILTER_SPEC v0.4 reference):
+- 4 trigger patterns narrowed from original draft — extraordinary-claims restricted to extreme absolutes only ("zero", "first in history", "largest ever", "never before", "unprecedented"), explicitly NOT falsifiable comparatives like "record high" / "biggest since 2021" / "5th largest" which self-bound and are routinely checkable. Mechanism-assertions narrowed to claims NOT YET IN PRIMARY COVERAGE.
+- Spawn discipline anchored to auto-memory `feedback_subagent_prompt_discipline` (lead with decision, word cap, VERDICT top, decision-usefulness — do not template).
+- 4-verdict taxonomy: CONFIRMED (proceed) / CORRECTED-framing (rewrite + lower confidence one band) / FALSE (kill with framing-false reason) / INDETERMINATE (route at `unconfirmed` tier + note).
+- Discretion preserved: if WALTER already has primary open in-session and claim matches, note inline-verification and skip spawn.
 
 **Design decision needed:** trigger criteria. Current informal rule:
 - (a) Secondhand source citing primary (e.g., WSJ-via-X-aggregator)
@@ -114,3 +120,4 @@ Filter v2 is complete when:
 | 2026-04-20 | Plan | Plan written to disk. Segment A started. |
 | 2026-04-20 (evening) | A | COMPLETE. FORMAT_SPEC v0.4→v0.5 (thesis-frame signal_type), ROUTING_TABLE v0.4→v0.5 (thesis-frame row + Residential-housing stress exception), FILTER_SPEC v0.2→v0.3 (START LOOSE retired → BALANCED + empirical bypass note + Pre-Apr-21 reaffirmation with 6 triggers). STATUS.md OPERATIONAL STATE + Filter Posture + Upcoming + session log updated to v0.17. Segments B/C/D deferred post-Apr-21. |
 | 2026-04-20 (evening, same session) | B | COMPLETE. Will requested we proceed past A into B same session. Design round-trip on 3 questions (intra-batch scope, origin format, combine ceiling), then friction-test of draft rule surfaced batch-boundary ambiguity and theme fuzziness. Will pushed back on both — reworked to domain-anchored + any-arrival-path-pre-dispatch + immutable-post-dispatch. FORMAT_SPEC v0.5→v0.6 (Multi-Origin Signals section + origin field accepts array). CHECKLIST v0.6→v0.7 (Phase 1b combine check added between intake and classify). STATUS.md updated to v0.18. Original plan flagged this at ~30 min; actual closer to 45 min with Will design round-trip. |
+| 2026-04-20 (evening, continuation post-/clear) | C | COMPLETE. Will asked to continue with Segment C after Telegram /clear (session continuity preserved). Draft presented with 4 trigger patterns; Will greenlit ("seems good") after narrowing of extraordinary-claim scope (only absolutes, not falsifiable comparatives) and mechanism-assertion (only claims not yet in primary coverage). CHECKLIST v0.7→v0.8: new Phase 1.5 section with trigger-pattern table, spawn-prompt discipline bullets, and 4-verdict handling table; plus step 2.5 cross-ref inserted into Phase 1 kill/keep code block. FILTER_SPEC v0.3→v0.4: reference-only subsection between Gate 1b (Relevance) and Credibility Check pointing to CHECKLIST Phase 1.5 as canonical. STATUS.md updated to v0.19 (OPERATIONAL STATE rows, UPCOMING collapsed to D-only, session log, footer). ~30 min actual. |
