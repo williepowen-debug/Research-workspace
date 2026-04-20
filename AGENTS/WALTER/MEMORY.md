@@ -100,7 +100,7 @@ Design process: (1) drafted rule with 3 design questions (intra-batch-vs-cross-b
 11. **SIGNAL_INTAKE rollout** priorities: REGINALD (heavy BOARD traffic), LIQUID, BROCK, then HAWK/NEXUS and Tier 2.
 
 ### OPEN DESIGN DECISIONS (need Will)
-- **Filter v2 Segment D — confidence asymmetry mechanic choice.** Three candidates (free-text note / split numerical pair / signal_type modifier). WALTER lean: (i) free-text. Needs decision from Will before coding Segment D.
+- **Filter v2 Segment D — ~~confidence asymmetry mechanic choice~~ DECIDED 2026-04-20 evening.** Will picked A (optional free-text `confidence_note` field) in Telegram msg 856. Implementation deferred to post-Apr-21 per Will "no rush" framing. Session 1 plan: FORMAT_SPEC adds optional `confidence_note` to header + invocation rule (≥1 confidence band gap between observation and interpretation); CHECKLIST adds Phase 2 discretion note near Confidence mapping table; no migration of 51 existing signals (A preserves them). Session 2 (optional): opportunistic backfill on ~5-8 historical asymmetric signals. See FILTER_V2_PLAN.md Segment D section for full plan.
 - **BOARD-consumption tracking** — 4 options surveyed Apr 20 PM, deferred. Architectural blocker for agent boot-sequence rollout.
 - **Agent CLAUDE.md boot-step rollout** — SIGNAL_INTAKE coverage useless without corresponding pull step per agent. Requires BOARD-consumption decision first.
 - **COP refresh cadence** — currently OFF (deprioritized Apr 14). Resume trigger?
