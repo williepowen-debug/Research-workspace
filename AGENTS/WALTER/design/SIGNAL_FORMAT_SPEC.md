@@ -1,4 +1,4 @@
-# WALTER Signal Format Specification v0.5
+# WALTER Signal Format Specification v0.6
 
 WALTER is the single entry point for external information into the agent network. All incoming data — news, market data, research, observations — is classified, reformatted, and routed by WALTER as standardized signal files delivered to agent inboxes.
 
@@ -50,7 +50,7 @@ dispatch_note: "Trimmed from 4-recipient plan to CARL+RED after HENRY already pr
 | `precedence` | enum | `FLASH` / `IMMEDIATE` / `PRIORITY` / `ROUTINE` | Processing urgency. See Precedence Levels below. |
 | `timestamp` | ISO8601 | — | When WALTER classified this signal. |
 | `source` | string | `WALTER` | Always WALTER for v0.1. |
-| `origin` | string | Free text | Where the raw information came from. |
+| `origin` | string OR array of strings | Free text OR `["src1", "src2", ...]` | Where the raw information came from. Array form when 2+ sources fold into one signal — see Multi-Origin Signals below. |
 | `to` | string | `AGENT (ACTION)` or `AGENT (INFO)` | Primary recipient for this file. Per-recipient files get their own `to:` value when the same signal dispatches to multiple agents. |
 | `info` | string | Comma-separated agents | Awareness recipients. Optional. |
 | `group` | string | AIG name | Optional. Which Address Indicating Group, if any. |
@@ -162,6 +162,40 @@ After the header, the signal body follows a fixed structure:
 
 ---
 
+## Multi-Origin Signals — Same-Theme Combine Rule
+
+When 2+ items surface the same underlying event (or specific sub-theme within a domain), fold them into ONE signal with multiple origin attributions rather than dispatching duplicates. Intent is "put like with like" — consolidate redundancy while drafting, not after.
+
+**Combine when ALL of these hold:**
+
+1. **Same canonical domain.** Both items map to the same code from the Domain Vocabulary (LABOR, MACRO_INFLATION, GEOPOL_ENERGY, etc.). Cross-domain items do not combine — they may be thematically adjacent but get routed separately.
+2. **Same underlying event OR same specific sub-theme within that domain.** Crisp test for "event" (Iran ship intercept + carrier build-up = same event). Looser test for "sub-theme" — stagflation-pressure as a sub-theme within MACRO_INFLATION merged March CPI + April UMich prelim, extremity-counter as a sub-theme within MARKET_VOL merged Bilello VIX-3wk + SPX-3wk. Domain alone is too broad (Hormuz shipping and Iran nuclear talks are both GEOPOL_ENERGY but different events — don't combine).
+3. **Each origin adds independent value.** A new angle, cross-verification, extension, or complementary evidence. Identical reposts of the same image/claim do NOT combine — dup-kill the extras and route one.
+
+**Cross-author is allowed and common.** Of the combines performed through Apr 20 2026, 3 of 5 were cross-author (Flightradar24+Celestyal, disclosetv+BRICSinfo, axios+Polymarket).
+
+**No combine ceiling.** Unlimited origins allowed as long as each adds value.
+
+**Timing — pre-dispatch flexibility, post-dispatch immutability:**
+
+- **Pre-dispatch.** While a signal is still being drafted (in working session, not yet appended to route_log.tsv), items from any arrival path — same Telegram batch, different batch, separate Will message, WALTER-found article, aggregator link — can fold in with multi-origin. The combine decision is made at draft-time, not intake-time.
+- **Post-dispatch.** The dispatched signal is immutable (per Editorial Discipline). Later items on the same event take one of two paths: (a) dup-kill if no new value, or (b) follow-up signal that references and extends the prior SIG-ID. No retroactive merging.
+
+**Body conventions for multi-origin signals:**
+
+- Signal + Data sections may cite both origins inline.
+- Source section lists ALL origins with their individual URLs/attributions — this is the audit trail for absorbed origins (no new route_log column needed).
+- Confidence benefits from cross-verification per the FILTER_SPEC adjustment factors (+0.1 if corroborated by independent source). Don't double-apply — the combine itself doesn't grant a second bonus.
+
+**Historical examples:**
+
+- `SIG-W-20260419-024` (IMMEDIATE → BRENT): `origin: ["@disclosetv CBS carrier build-up Apr 19", "@BRICSinfo Iran rejects 2nd-round talks Apr 19"]` — cross-author, GEOPOL_ENERGY, Iran-escalation event.
+- `SIG-W-20260419-017` (PRIORITY → HENRY): `origin: ["@charliebilello VIX -43.7% 3wks", "@charliebilello SPX +11.9% 3wks"]` — same author, MARKET_VOL, extremity-counter sub-theme.
+- `SIG-W-20260419-004` (PRIORITY → HENRY): `origin: ["@FinanceLancelot Wyckoff distribution", "@FinanceLancelot NDX 25-yr parabolic"]` — same author, MARKET_VOL, distribution-pattern sub-theme.
+- `SIG-W-20260410-001` (IMMEDIATE → CARL): CPI + UMich both MACRO_INFLATION, stagflation-pressure sub-theme (pre-FORMAT_SPEC v0.6, cited as superevent in body).
+
+---
+
 ## Domain Vocabulary (Canonical Reference)
 
 **Purpose:** Single canonical list of domain codes used consistently across all WALTER specs and routing decisions. Before Apr 11, ROUTING_TABLE and CHECKLIST used inconsistent domain names (e.g., "Employment / Labor" vs "LABOR"). This section is the source of truth; all other specs reference it.
@@ -269,6 +303,7 @@ Deferred signals are held in `AGENTS/WALTER/queue/` and released when MINIMIZE i
 
 ---
 
+*v0.6 — April 20, 2026 (Filter v2 Segment B) — Added Multi-Origin Signals section codifying the same-theme combine rule. `origin` field now accepts array form for multi-origin signals. Combine criteria: same canonical domain AND same underlying event or specific sub-theme AND each origin adds independent value. Pre-dispatch any-arrival-path flexibility; post-dispatch immutability preserved (no retroactive merge). Cross-author combines supported (3 of 5 historical cases). No combine ceiling. Source section in signal body is the audit trail for absorbed origins. Propagates to CHECKLIST v0.7 with new Phase 1 step.*
 *v0.5 — April 20, 2026 — Added `thesis-frame` to Signal Types enum. Covers analytical synthesis / institutional framework / comparative analysis content (e.g., MS 1990-vs-2026 oil-shock compare SIG-W-20260419-021, BRK-vs-SPY quality-flight read SIG-W-20260419-013, multi-channel convergence analyses). Distinct from `research` (new data/reports) and `pattern-match` (data pattern detection). Vocabulary gap surfaced in v1 filter review (Filter v2 Segment A). Propagates to ROUTING_TABLE v0.5 with corresponding By Signal Type row.*
 *v0.4 — April 14, 2026 — Added 2 canonical domain codes: `ASIA_CONTAGION` (China/HK/LGFV/supply-chain, ZHAO primary) and `UST_FOREIGN` (TIC flows / foreign UST holder behavior, ZHAO primary). Both codes were already in REGISTRY.tsv as ZHAO's declared domain but missing from FORMAT_SPEC canonical list — vocabulary gap surfaced by 2026-04-14 FT China-trade signals SIG-W-20260414-010 and -011. Propagates to ROUTING_TABLE v0.4 with corresponding rows.*
 *v0.3 — April 11, 2026 (PM) — Added Domain Vocabulary canonical reference section with 13 codes (LABOR, MACRO_INFLATION, TARIFF_TRADE, CONSUMER_CREDIT, BANK_CRE, FUNDING_LIQUIDITY, PRIVATE_CREDIT, INSURANCE_SHADOW, OIL_ENERGY, GEOPOL_ENERGY, GEOPOL_NON_ENERGY, JAPAN_BOJ, MARKET_VOL). Resolves Gap C. Not introduced as a `domain:` header field — used as shared vocabulary across ROUTING_TABLE, CHECKLIST, and signal bodies.*

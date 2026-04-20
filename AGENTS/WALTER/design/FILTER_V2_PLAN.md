@@ -1,6 +1,6 @@
 # FILTER v1 → v2 Review Plan
 
-**Status:** Segment A COMPLETE 2026-04-20 evening. Segments B/C/D scheduled post-Apr-21 catalyst day.
+**Status:** Segments A+B COMPLETE 2026-04-20 evening. Segments C/D scheduled post-Apr-21 catalyst day.
 **Scope:** Full 7-item revision across FILTER_SPEC, FORMAT_SPEC, ROUTING_TABLE, and SIGNAL_PROCESSING_CHECKLIST
 **Trigger:** 10+ dispatches OR 30 days from Apr 11 (reached at 51 dispatches = 41 past threshold).
 
@@ -32,9 +32,11 @@ Small additive changes + posture updates. Low risk. Clears small items so bigger
 
 **Expected time:** ~30 min, one pass.
 
-### SEGMENT B — Same-theme combine rule
+### SEGMENT B — Same-theme combine rule (COMPLETE 2026-04-20 evening)
 
-Codify the rule invoked 5+ times this month: if 2+ images/posts surface the same underlying event/theme in the same intake batch, combine into one signal with multiple origin attributions, not duplicate signals.
+Codified the rule invoked 5+ times this month. Final form is domain-anchored (not intake-batch-anchored per original plan) after Will design round-trip — see FORMAT_SPEC v0.6 Multi-Origin Signals section and CHECKLIST v0.7 Phase 1b for deployed text.
+
+Original plan text preserved below for history.
 
 Instances this month:
 - SIG-W-20260419-004: Wyckoff + NDX 25-yr parabolic (same author @FinanceLancelot)
@@ -111,3 +113,4 @@ Filter v2 is complete when:
 |------|---------|--------|
 | 2026-04-20 | Plan | Plan written to disk. Segment A started. |
 | 2026-04-20 (evening) | A | COMPLETE. FORMAT_SPEC v0.4→v0.5 (thesis-frame signal_type), ROUTING_TABLE v0.4→v0.5 (thesis-frame row + Residential-housing stress exception), FILTER_SPEC v0.2→v0.3 (START LOOSE retired → BALANCED + empirical bypass note + Pre-Apr-21 reaffirmation with 6 triggers). STATUS.md OPERATIONAL STATE + Filter Posture + Upcoming + session log updated to v0.17. Segments B/C/D deferred post-Apr-21. |
+| 2026-04-20 (evening, same session) | B | COMPLETE. Will requested we proceed past A into B same session. Design round-trip on 3 questions (intra-batch scope, origin format, combine ceiling), then friction-test of draft rule surfaced batch-boundary ambiguity and theme fuzziness. Will pushed back on both — reworked to domain-anchored + any-arrival-path-pre-dispatch + immutable-post-dispatch. FORMAT_SPEC v0.5→v0.6 (Multi-Origin Signals section + origin field accepts array). CHECKLIST v0.6→v0.7 (Phase 1b combine check added between intake and classify). STATUS.md updated to v0.18. Original plan flagged this at ~30 min; actual closer to 45 min with Will design round-trip. |
