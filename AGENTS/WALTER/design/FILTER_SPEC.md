@@ -1,4 +1,4 @@
-# WALTER Filter Specification v0.2
+# WALTER Filter Specification v0.3
 
 WALTER filters BEFORE routing. Every piece of incoming information passes through a **pre-gate System-Critical bypass**, then **Gate 1** (the two hard kill gates: Novelty + Relevance), then **a soft credibility check** that adjusts confidence before reaching Gate 2 (classification + routing). Most raw information should die at Novelty or Relevance.
 
@@ -34,6 +34,18 @@ Before any filter runs, check for system-critical conditions. If any trigger fir
 - Will explicitly flags a signal as FLASH or IMMEDIATE via Telegram
 
 **Why bypass everything:** When the stakes are position-level or system-level, a duplicate reminder is cheaper than a missed trigger. Normal novelty/relevance filtering would incorrectly kill a critical second-hit.
+
+**Empirical note (v0.3 update Apr 20 2026):** zero FLASH signals across the first 51 dispatches (Apr 11–Apr 20). Bypass has never fired in production. Two interpretations: (a) trigger criteria are appropriately strict (FLASH-worthy events genuinely rare), or (b) criteria miss events that should have fired. The Apr 21 catalyst day (WAL/ZION earnings + Iran ceasefire expiry + 8-channel Iran cluster) is the first real test.
+
+**Pre-Apr-21 bypass reaffirmation:**
+- WAL or ZION gap-down >5% premarket on Q1 miss → bypass-trigger (held-position material news)
+- KRE 1-day drop >3% intraday → bypass-trigger (proxy-position liquidity + sector stress)
+- Iran kinetic-interdiction of US naval vessel (distinct from boarding a commercial ship) → bypass-trigger (safety net: correlation break across oil/equity/USD)
+- HY OAS single-session +25bps → bypass-trigger (explicit safety net spec)
+- VIX +5 intraday → bypass-trigger (explicit safety net spec)
+- Will explicit FLASH flag via Telegram → bypass-trigger
+
+If bypass fires Apr 21, route FLASH immediately + Telegram alert + BOARD archive. Do NOT run through Gate 1.
 
 If no bypass triggers fire → proceed to Gate 1.
 
@@ -181,8 +193,15 @@ Signals that pass Gate 1 and get routed are logged to `AGENTS/WALTER/routed/rout
 - Major regime change (new positions, new thesis, new risks) — expand relevance scope
 - Pre-catalyst windows — lower threshold in days before major events
 
-### Default posture: START LOOSE
-For the first 2 weeks of operation, bias toward routing. It's easier to tighten a filter that's letting too much through than to recover from one that killed a critical signal. Calibrate from experience.
+### Default posture: BALANCED (Apr 20 2026 onward)
+
+**START LOOSE retired.** Original posture applied Apr 7-20 (2-week calibration window plus extension); retired by Filter v2 Segment A after 51 dispatches through route_log and 18 kill_log entries showed zero obvious false positives and reasonable route calibration.
+
+**Current posture (v0.3):**
+- No default bias toward routing or killing. Apply the tuning rules above as primary guide.
+- In pre-catalyst windows (≤72h before WAL/ZION/OZK earnings, Fed meetings, CPI/NFP, Iran ceasefire expiry, BOJ decisions), shift temporarily toward LOOSE on the relevant domain — false-negatives cost more than false-positives when a catalyst is imminent.
+- During low-information stretches (no catalysts, stable macro, quiet geopolitics), shift toward TIGHT — let the signal density set by throughput trend itself.
+- Review monthly from Apr 20 going forward. Filter v3 trigger: 30 days from Apr 20 (~May 20) OR next 50 dispatches, whichever first.
 
 ---
 
@@ -238,5 +257,6 @@ Raw Information Arrives
 
 ---
 
+*v0.3 — April 20, 2026 — Filter v2 Segment A. Retired "START LOOSE" default posture (2-week calibration window expired; 51 dispatches + 18 kills reviewed, zero obvious false positives) and replaced with BALANCED posture — tuning rules as primary guide, context-shift toward LOOSE pre-catalyst and TIGHT during low-information stretches. Added empirical note in Pre-Gate Bypass section (zero FLASH in 51 dispatches) + Pre-Apr-21 bypass reaffirmation (6 specific triggers for WAL/ZION earnings + Iran catalyst day). Filter v3 trigger: ~May 20 or next 50 dispatches.*
 *v0.2 — April 11, 2026 — Unified filter model v1 (provisional). Added System-Critical pre-gate bypass. Restructured Gate 1 as AND-logic: Novelty AND Relevance both hard kill (was: fail-all-three pass-any-one). Credibility converted from a hard gate to a confidence modifier with a 0.30 floor kill. Schedule review after 10+ signals or 30 days from Apr 11. Reconciles the divergence with SIGNAL_PROCESSING_CHECKLIST which had a different 3-check model.*
 *v0.1 — April 7, 2026*

@@ -1,4 +1,4 @@
-# WALTER Signal Format Specification v0.4
+# WALTER Signal Format Specification v0.5
 
 WALTER is the single entry point for external information into the agent network. All incoming data — news, market data, research, observations — is classified, reformatted, and routed by WALTER as standardized signal files delivered to agent inboxes.
 
@@ -112,6 +112,7 @@ After adjustments, snap the language tier to the resulting numerical band.
 | `catalyst` | A known upcoming event occurred or was confirmed | IMMEDIATE |
 | `divergence` | Expected correlation broke or reversed | IMMEDIATE |
 | `research` | New research, analysis, or report relevant to thesis | PRIORITY |
+| `thesis-frame` | Analytical synthesis, institutional framework, or comparative analysis that reframes an existing thesis axis (e.g., MS 1990-vs-2026 oil-shock compare, BRK-vs-SPY quality-flight read, multi-channel convergence analysis). Distinct from `research` (new data/reports) and `pattern-match` (data pattern detection) — this is interpretation/synthesis. | PRIORITY |
 | `position-risk` | Information directly affecting an open position | FLASH or IMMEDIATE |
 | `context` | Background information, no immediate action | ROUTINE |
 | `manual-flag` | Will or an agent flagged something for routing | Varies |
@@ -268,6 +269,7 @@ Deferred signals are held in `AGENTS/WALTER/queue/` and released when MINIMIZE i
 
 ---
 
+*v0.5 — April 20, 2026 — Added `thesis-frame` to Signal Types enum. Covers analytical synthesis / institutional framework / comparative analysis content (e.g., MS 1990-vs-2026 oil-shock compare SIG-W-20260419-021, BRK-vs-SPY quality-flight read SIG-W-20260419-013, multi-channel convergence analyses). Distinct from `research` (new data/reports) and `pattern-match` (data pattern detection). Vocabulary gap surfaced in v1 filter review (Filter v2 Segment A). Propagates to ROUTING_TABLE v0.5 with corresponding By Signal Type row.*
 *v0.4 — April 14, 2026 — Added 2 canonical domain codes: `ASIA_CONTAGION` (China/HK/LGFV/supply-chain, ZHAO primary) and `UST_FOREIGN` (TIC flows / foreign UST holder behavior, ZHAO primary). Both codes were already in REGISTRY.tsv as ZHAO's declared domain but missing from FORMAT_SPEC canonical list — vocabulary gap surfaced by 2026-04-14 FT China-trade signals SIG-W-20260414-010 and -011. Propagates to ROUTING_TABLE v0.4 with corresponding rows.*
 *v0.3 — April 11, 2026 (PM) — Added Domain Vocabulary canonical reference section with 13 codes (LABOR, MACRO_INFLATION, TARIFF_TRADE, CONSUMER_CREDIT, BANK_CRE, FUNDING_LIQUIDITY, PRIVATE_CREDIT, INSURANCE_SHADOW, OIL_ENERGY, GEOPOL_ENERGY, GEOPOL_NON_ENERGY, JAPAN_BOJ, MARKET_VOL). Resolves Gap C. Not introduced as a `domain:` header field — used as shared vocabulary across ROUTING_TABLE, CHECKLIST, and signal bodies.*
 *v0.2 — April 11, 2026 — Added optional dispatch-time fields (`dispatched`, `dispatch_note`). Clarified `to:` field supports both `(ACTION)` and `(INFO)` values.*
