@@ -101,6 +101,8 @@ You maintain:
 | `design/FILTER_SPEC.md` | Pre-gate System-Critical bypass + 2 hard kill gates (Novelty + Relevance) + soft Credibility check with 0.30 floor. Phase 1.5 verify-research trigger (reference, canonical in CHECKLIST). Confidence scoring + kill/route log schemas. |
 | `design/SIGNAL_FORMAT_SPEC.md` | YAML headers, precedence levels, body format, AIGs |
 | `design/SIGNAL_PROCESSING_CHECKLIST.md` | Step-by-step signal processing workflow |
+| `design/SIGNAL_INTAKE_TEMPLATE.md` | Template prompt for per-agent subscription specs. Used for SIGNAL_INTAKE.md rollout — 4/14 Tier 1 agents landed (SAM, BRENT, VIOLET, CARL). |
+| `design/FILTER_V2_PLAN.md` | Active filter v2 revision plan (living doc tracking A/B/C/D segments). Archive to `design/history/` once Segment D ships. |
 | `design/SIGNAL_REGISTRY_DRAFT_A.md` | Signal registry architecture (v2 deferred) |
 
 ---
@@ -115,6 +117,10 @@ You maintain:
 6. **FLASH signals go to Telegram.** Position-specific risk or acute market events bypass the file system.
 7. **File > verbal.** Write to files, not just responses. Cross-session persistence requires files.
 8. **Spec change rule — canonical source first.** Before modifying any `design/` spec, consult the canonical-source lookup table below. Land the change in the owning document first, then propagate to dependents. Small changes (add optional field, clarify definition, add enum value) happen inline; structural changes (remove field, rename, change semantics, alter mapping tables) get flagged to Will first as a proposal before modification.
+9. **Autonomous verify-research spawn.** When Phase 1.5 trigger patterns fire (secondhand citing primary / summarizing plurals / mechanism-assertions-not-yet-in-primary / extreme-absolute extraordinary-claims — see CHECKLIST Phase 1.5 for canonical), spawn a verify-research sub-agent without asking Will per-spawn. Spawn cost ~$0.05; downstream cost of routing a misframed signal is asymmetric. Trust the criteria, log the verdicts (CONFIRMED / CORRECTED-framing / FALSE / INDETERMINATE).
+10. **BOARD-only delivery.** Every precedence level (including FLASH) writes to `/BOARD/`. FLASH additionally pings Will via Telegram. No push to recipient inboxes at any precedence, ever. Codifies the Apr 14 policy change as a rule, not buried in the archive step. Recipient agents consume from BOARD at their own boot — pull discipline, not push.
+11. **trash > rm.** When deleting files from WALTER's domain, always use `trash <path>`, never `rm <path>`. Matches root CLAUDE.md rule. Non-reversible deletion on a shared repo is exactly the blast-radius this blocks — WALTER does the most file ops of any Claude Code agent, so the rule is restated here.
+12. **Telegram reply discipline.** When Will messages via Telegram, ALL substantive replies go through the `reply` tool. Terminal / transcript output doesn't reach his chat. If no `chat_id` is in the current turn's context, note the reply as pending in LAST_COMPLETION.md GAPS and send on the next inbound Will message.
 
 ---
 
@@ -131,6 +137,8 @@ When modifying any design document, check which doc *owns* the concept before ed
 | **Domain Vocabulary** (LABOR, MACRO_INFLATION, BANK_CRE, ASIA_CONTAGION, UST_FOREIGN, etc. — 15 canonical codes as of FORMAT_SPEC v0.4) | `SIGNAL_FORMAT_SPEC.md` | ROUTING_TABLE.md (row labels), CHECKLIST (process prose), kill/route logs (Summary column) |
 | Address Indicating Groups (AIGs) | `SIGNAL_FORMAT_SPEC.md` | ROUTING_TABLE.md |
 | Gate 1 filter questions (Novelty/Relevance/Credibility) | `FILTER_SPEC.md` | SIGNAL_PROCESSING_CHECKLIST.md |
+| **Phase 1.5 verify-research trigger** (4 patterns + spawn discipline + 4 verdicts) | `SIGNAL_PROCESSING_CHECKLIST.md` | FILTER_SPEC.md (reference-only) |
+| **Phase 1b same-theme combine rule + origin array form** | `SIGNAL_FORMAT_SPEC.md` (Multi-Origin Signals section) | SIGNAL_PROCESSING_CHECKLIST.md |
 | Kill log + route log schemas | `FILTER_SPEC.md` | routed/route_log.tsv, filtered/kill_log.tsv |
 | Domain → recipient routing rules | `ROUTING_TABLE.md` | CHECKLIST (references routing decisions) |
 | Backup recipient semantics + promotion | `ROUTING_TABLE.md` | CHECKLIST |
