@@ -1,4 +1,4 @@
-# WALTER Filter Specification v0.3
+# WALTER Filter Specification v0.4
 
 WALTER filters BEFORE routing. Every piece of incoming information passes through a **pre-gate System-Critical bypass**, then **Gate 1** (the two hard kill gates: Novelty + Relevance), then **a soft credibility check** that adjusts confidence before reaching Gate 2 (classification + routing). Most raw information should die at Novelty or Relevance.
 
@@ -87,6 +87,16 @@ Both Novelty AND Relevance are **hard kill gates**. A signal must pass BOTH to s
 - Market commentary that's purely technical/chart-based with no fundamental content
 
 **Edge case:** "Could create a new risk vector" is deliberately broad. When uncertain, pass to Gate 1c and let credibility set the confidence — better to let agents reject at low confidence than to kill something that turned out to matter.
+
+---
+
+## Verify-Research Trigger (Phase 1.5 — reference)
+
+Between Gate 1 pass and the Credibility check, a **framing audit** runs. If the raw source exhibits any of 4 language patterns known to misframe the underlying event, WALTER spawns an autonomous verify-research sub-agent before scoring credibility. The verdict (CONFIRMED / CORRECTED-framing / FALSE / INDETERMINATE) either rescues the signal with corrected wording, kills it as misframed, lowers confidence, or clears it to proceed.
+
+This is operational process, not filter logic — the 4 patterns, spawn-prompt discipline, and verdict handling live in `SIGNAL_PROCESSING_CHECKLIST.md` Phase 1.5 (canonical). FILTER_SPEC notes the insertion point only.
+
+Empirical origin: codified Apr 20 2026 after catching 4 framing errors in the Apr 11–Apr 20 window (BOJ ¥330B misframe, WhaleInsider Hormuz "zero tankers / first in history" false, Blue Owl "co-founders / alt-collateral" overstatement, SIG-029 "first NATO state-response" inaccuracy) that informal judgment had rescued in-session. Moved from discretion to checklist so sub-agent spawns happen without Will-prompting per auto-memory guidance.
 
 ---
 
@@ -257,6 +267,7 @@ Raw Information Arrives
 
 ---
 
+*v0.4 — April 20, 2026 (evening) — Filter v2 Segment C. Added "Verify-Research Trigger (Phase 1.5 — reference)" subsection between Gate 1b (Relevance) and the Credibility check, pointing to CHECKLIST v0.8 Phase 1.5 as canonical for the 4 trigger patterns, spawn discipline, and 4-verdict handling (CONFIRMED / CORRECTED-framing / FALSE / INDETERMINATE). FILTER_SPEC notes insertion point only; no filter logic changed. Empirical origin: 4 framing errors caught in Apr 11–20 window.*
 *v0.3 — April 20, 2026 — Filter v2 Segment A. Retired "START LOOSE" default posture (2-week calibration window expired; 51 dispatches + 18 kills reviewed, zero obvious false positives) and replaced with BALANCED posture — tuning rules as primary guide, context-shift toward LOOSE pre-catalyst and TIGHT during low-information stretches. Added empirical note in Pre-Gate Bypass section (zero FLASH in 51 dispatches) + Pre-Apr-21 bypass reaffirmation (6 specific triggers for WAL/ZION earnings + Iran catalyst day). Filter v3 trigger: ~May 20 or next 50 dispatches.*
 *v0.2 — April 11, 2026 — Unified filter model v1 (provisional). Added System-Critical pre-gate bypass. Restructured Gate 1 as AND-logic: Novelty AND Relevance both hard kill (was: fail-all-three pass-any-one). Credibility converted from a hard gate to a confidence modifier with a 0.30 floor kill. Schedule review after 10+ signals or 30 days from Apr 11. Reconciles the divergence with SIGNAL_PROCESSING_CHECKLIST which had a different 3-check model.*
 *v0.1 — April 7, 2026*

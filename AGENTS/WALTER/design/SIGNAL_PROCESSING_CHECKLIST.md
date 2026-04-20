@@ -1,5 +1,5 @@
 # WALTER Signal Processing Checklist
-**Version:** 0.7 | **Date:** April 20, 2026 (Filter v2 Segment B — Phase 1b same-theme combine step added) | **v0.6:** April 11, 2026 PM (canonical Domain Vocabulary referenced — Gap C resolved) | **v0.5:** April 11, 2026 PM (Phase 1 reconciled with FILTER_SPEC v0.2 unified filter model) | **v0.4:** April 11, 2026 (header schema reconciled, conflict_zone clarified) | **v0.3:** April 10, 2026 (confidence model reconciled) | **v0.2:** April 10, 2026 (worked example added) | **v0.1:** April 7, 2026
+**Version:** 0.8 | **Date:** April 20, 2026 (Filter v2 Segment C — Phase 1 step 2.5 verify-research trigger check added) | **v0.7:** April 20, 2026 (Filter v2 Segment B — Phase 1b same-theme combine step added) | **v0.6:** April 11, 2026 PM (canonical Domain Vocabulary referenced — Gap C resolved) | **v0.5:** April 11, 2026 PM (Phase 1 reconciled with FILTER_SPEC v0.2 unified filter model) | **v0.4:** April 11, 2026 (header schema reconciled, conflict_zone clarified) | **v0.3:** April 10, 2026 (confidence model reconciled) | **v0.2:** April 10, 2026 (worked example added) | **v0.1:** April 7, 2026
 
 One-page operational reference for processing incoming signals. Derived from 10 research prompts across emergency medicine, military communications, ATC, pub/sub systems, intelligence dissemination, emergency dispatch, scientific alerts, open output systems, newsroom editorial, and trading desk operations.
 
@@ -28,6 +28,13 @@ Per FILTER_SPEC v0.2 unified filter model. Pre-gate bypass first, then two hard 
                              watched metric / transmission chain / catalyst?
                              No: KILL, log to kill_log.tsv ("not thesis-relevant").
 
+2.5 FRAMING AUDIT (SOFT)   → Any of the 4 verify-research trigger patterns
+                             present (see Phase 1.5 below)? If yes, spawn
+                             verify-research sub-agent before Gate 3.
+                             Verdict adjusts Gate 3 inputs — confirms,
+                             corrects framing, kills as false, or flags
+                             indeterminate (lowers confidence).
+
 3. CREDIBILITY (SOFT)      → Sets confidence tier (0.30-1.0 based on source
                              quality + specificity). Not a hard kill UNLESS
                              final confidence after adjustments < 0.30 floor.
@@ -38,6 +45,37 @@ Per FILTER_SPEC v0.2 unified filter model. Pre-gate bypass first, then two hard 
 Most signals die at Novelty or Relevance. That's correct. Target: 80-90% filtered.
 
 **Key change from v0.1/v0.2/v0.3 of this file:** Novelty and Relevance are AND-gates (must pass BOTH), not pass-any-of-three. Credibility is a confidence modifier, not a hard gate. System-Critical is a pre-gate bypass that precedes all filtering. See FILTER_SPEC.md for full rationale.
+
+---
+
+## PHASE 1.5: VERIFY-RESEARCH TRIGGER (Framing Audit)
+
+Runs between Gate 2 pass and Gate 3. Purpose: catch framing errors in shaky source language before credibility is scored. This month (Apr 2026) caught 4 framing issues that would have routed with bad framing otherwise — BOJ ¥330B misframing, WhaleInsider Hormuz "zero tankers / first in history", Blue Owl "co-founders / alt-collateral" overstatement, SIG-029 "first NATO state-response" inaccuracy.
+
+**Trigger patterns** — any ONE fires a verify-research spawn:
+
+| # | Pattern | Examples | NOT triggered by |
+|---|---------|----------|------------------|
+| (a) | Secondhand citing primary | Aggregator or X-repost of a primary source you haven't read yourself (WSJ-via-X-aggregator, Bloomberg-via-retweet, FT-summarized-by-newsletter) | Reading the primary directly |
+| (b) | Summarizing plurals | "co-founders", "all three", "both", "every", "each of the", "the trio" | Named specifics ("Owl Rock's Doug Ostrover and Marc Lipschultz") |
+| (c) | Mechanism-assertions not yet in primary coverage | "replaced with", "swapped for", "backed by", "triggered by", "in exchange for" — when the underlying filing/source doesn't yet carry that language | Mechanism claims that quote the primary source directly |
+| (d) | Extreme-absolute extraordinary claims | "zero", "first in history", "largest ever", "never before", "unprecedented" | Falsifiable comparatives like "record high" / "biggest since 2021" / "5th largest" (these self-bound and are routinely checkable) |
+
+**Spawn discipline** (per auto-memory Sub-agent Prompt Discipline):
+- Lead the prompt with the routing decision that depends on the answer ("WALTER is about to route this to CARL as IMMEDIATE; need to know if the framing holds").
+- Set a hard total word cap on the sub-agent's response (e.g., 200 words).
+- Require a single-line VERDICT at the top of the response — everything else is optional.
+- Ask for decision-usefulness, not comprehensiveness. Don't template — write the prompt each time.
+
+**Verdict handling:**
+| Verdict | What it means | WALTER action |
+|---------|---------------|---------------|
+| **CONFIRMED** | Framing holds; primary source supports the claim as written | Proceed to Gate 3 as normal. Cite verification in signal body. |
+| **CORRECTED-framing** | Primary source exists but the summary overstated or misframed | Rewrite signal body with corrected framing before Gate 3. Lower confidence by one band. |
+| **FALSE** | Primary source contradicts the claim, or no primary source exists to support it | KILL. Log to kill_log.tsv with reason "framing-false, verify-research verdict". |
+| **INDETERMINATE** | Primary exists but is ambiguous, or verification inconclusive within time budget | Route with lowered confidence (move to `unconfirmed` tier) and add note to signal body flagging the unverified framing. |
+
+**Discretion:** If you already have the primary source open in the current session and the claim matches, no spawn required — note the inline-verification in the signal body and proceed. The trigger applies when you are relying on the secondhand framing.
 
 ---
 
@@ -335,4 +373,4 @@ I initially drafted a SECOND signal (SIG-W-20260410-002, CPI-only with HENRY act
 
 ---
 
-*Operational checklist — derived from 10 research prompts | v0.1: April 7, 2026 | v0.2: April 10, 2026 (worked example added) | v0.3: April 10, 2026 (confidence model reconciled) | v0.4: April 11, 2026 (header schema reconciled; conflict_zone clarified) | v0.5: April 11, 2026 (Phase 1 reconciled with FILTER_SPEC v0.2 unified filter model — Gap B resolved) | v0.6: April 11, 2026 PM (canonical Domain Vocabulary referenced — Gap C resolved) | v0.7: April 20, 2026 (Filter v2 Segment B — Phase 1b same-theme combine check added between intake and classify, references FORMAT_SPEC v0.6 Multi-Origin Signals)*
+*Operational checklist — derived from 10 research prompts | v0.1: April 7, 2026 | v0.2: April 10, 2026 (worked example added) | v0.3: April 10, 2026 (confidence model reconciled) | v0.4: April 11, 2026 (header schema reconciled; conflict_zone clarified) | v0.5: April 11, 2026 (Phase 1 reconciled with FILTER_SPEC v0.2 unified filter model — Gap B resolved) | v0.6: April 11, 2026 PM (canonical Domain Vocabulary referenced — Gap C resolved) | v0.7: April 20, 2026 (Filter v2 Segment B — Phase 1b same-theme combine check added between intake and classify, references FORMAT_SPEC v0.6 Multi-Origin Signals) | v0.8: April 20, 2026 (Filter v2 Segment C — Phase 1.5 verify-research framing audit codified with 4 trigger patterns, spawn discipline, and 4-verdict handling)*

@@ -1,66 +1,67 @@
-## COMPLETION — WALTER — 2026-04-20 (Mon evening — Filter v2 Segments A+B)
+## COMPLETION — WALTER — 2026-04-20 (Mon evening — Filter v2 Segments A+B+C)
 
-STATUS: ✅ SPEC-WORK SESSION. **0 BOARD dispatches / 0 kills / 0 verify-research spawns.** Filter v1→v2 review launched, diagnostic written, 4-segment plan created, **Segments A and B both completed and committed in this session.** Will requested handoff before tackling Segments C (verify-research Phase 1.5 trigger) and D (confidence asymmetry design round-trip). Total BOARD: 51 (unchanged).
+STATUS: ✅ SPEC-WORK SESSION. **0 BOARD dispatches / 0 kills / 0 verify-research spawns.** Filter v1→v2 review launched, diagnostic written, 4-segment plan created, **Segments A, B, and C all completed and committed across this session** (C was picked up after Will re-opened with "I want to continue with segment C from our previous section" following a Telegram /clear). Segment D (confidence asymmetry, 3-mechanic design round-trip) remains the only open Filter v2 item. Total BOARD: 51 (unchanged).
 
-CHANGED:
-- AGENTS/WALTER/design/FILTER_V2_PLAN.md (NEW — 4-segment plan + completion criteria + log table with both A and B rows)
-- AGENTS/WALTER/design/SIGNAL_FORMAT_SPEC.md (v0.4 → v0.6 — two version jumps: Seg A added `thesis-frame` signal_type; Seg B added Multi-Origin Signals section + origin field array form)
-- AGENTS/WALTER/design/ROUTING_TABLE.md (v0.4 → v0.5 — Seg A: added thesis-frame row in By Signal Type table + Residential-housing stress exception section codifying Apr 20 NV HOA routing correction)
-- AGENTS/WALTER/design/FILTER_SPEC.md (v0.2 → v0.3 — Seg A: START LOOSE retired → BALANCED default posture; empirical bypass note zero-FLASH-in-51; Pre-Apr-21 bypass reaffirmation with 6 explicit triggers)
-- AGENTS/WALTER/design/SIGNAL_PROCESSING_CHECKLIST.md (v0.6 → v0.7 — Seg B: new Phase 1b same-theme combine check between intake and classify, referencing FORMAT_SPEC v0.6 Multi-Origin Signals)
-- AGENTS/WALTER/STATUS.md (v0.16 → v0.18 — two version jumps: OPERATIONAL STATE row bumps for all 4 specs; FILTER POSTURE rewritten BALANCED + Pre-Apr-21 reaffirmation; UPCOMING collapsed to Seg A+B complete / C+D deferred; session log entries for both segments; header date updated)
-- AGENTS/WALTER/MEMORY.md (2 new Feedback entries — "surface friction before being asked" + "segment work to user's stated cadence"; CHANGES SINCE / NEXT SESSION / OPEN DESIGN DECISIONS rewritten for this session)
+CHANGED (across the full A+B+C arc):
+- AGENTS/WALTER/design/FILTER_V2_PLAN.md (NEW at start of session; Segments A, B, C rows in log table; status line now reflects C complete)
+- AGENTS/WALTER/design/SIGNAL_FORMAT_SPEC.md (v0.4 → v0.6 — Seg A `thesis-frame` signal_type, Seg B Multi-Origin Signals section + origin array form)
+- AGENTS/WALTER/design/ROUTING_TABLE.md (v0.4 → v0.5 — Seg A thesis-frame row + Residential-housing stress exception codifying Apr 20 NV HOA routing correction)
+- AGENTS/WALTER/design/FILTER_SPEC.md (v0.2 → v0.4 — two version jumps: Seg A START LOOSE retired → BALANCED + Pre-Apr-21 bypass reaffirmation; Seg C reference-only Phase 1.5 subsection pointing to CHECKLIST canonical)
+- AGENTS/WALTER/design/SIGNAL_PROCESSING_CHECKLIST.md (v0.6 → v0.8 — two version jumps: Seg B Phase 1b same-theme combine check; Seg C Phase 1.5 verify-research framing audit with 4 trigger patterns + spawn discipline + 4-verdict handling + step 2.5 cross-ref in Phase 1 code block)
+- AGENTS/WALTER/STATUS.md (v0.16 → v0.19 — three version jumps: OPERATIONAL STATE row bumps for all 4 specs; FILTER POSTURE rewritten; UPCOMING collapsed segment-by-segment; session log entries for A, B, and C; header date updated)
+- AGENTS/WALTER/MEMORY.md (2 new Feedback entries added earlier this session — "surface friction before being asked" + "segment work to user's stated cadence"; CHANGES SINCE / NEXT SESSION / OPEN DESIGN DECISIONS rewritten across the arc)
 - AGENTS/WALTER/LAST_COMPLETION.md (this file, overwritten)
 
-Commits pushed: ae527e18 (Segment A) + ff40d5af (Segment B).
+Commits pushed during session: ae527e18 (Segment A) + ff40d5af (Segment B). Segment C commit pending at end-of-session push.
 
 RESULT:
 
-**Filter v1→v2 diagnostic (written to FILTER_V2_PLAN.md):**
+**Filter v1→v2 diagnostic (written to FILTER_V2_PLAN.md earlier this session):**
 - 51 dispatches + 18 kill_log rows reviewed Apr 11–Apr 20
 - Zero obvious false positives in kills (no killed signals that should have routed)
 - Routes calibrated (confidence floor worked on 3 entries at 0.20/0.22/0.30)
 - **v1 structurally working — no architecture rewrite needed.** 3 real spec gaps + 4 codifications of informal practice.
-- Segmented into 4 parts (A easy wins / B same-theme combine / C verify-research Phase 1.5 / D confidence asymmetry) per Will's "don't hammer it in one pass."
+- Segmented into 4 parts per Will's "don't hammer it in one pass."
 
 **SEGMENT A — Easy wins (commit ae527e18):**
 
-1. **FORMAT_SPEC v0.4 → v0.5:** Added `thesis-frame` signal_type. Covers analytical synthesis / institutional framework / comparative analysis content (MS 1990-vs-2026 oil-shock compare, BRK-vs-SPY quality flight, multi-channel convergence reads). Distinct from `research` (new data) and `pattern-match` (data-pattern detection).
-
-2. **ROUTING_TABLE v0.4 → v0.5:**
-   - Added thesis-frame row to By Signal Type table.
-   - New Residential-housing stress exception section codifying the Apr 20 NV HOA routing correction: geographically-narrow residential signals (HOA dysfunction, builder-defect litigation, insurance withdrawals with regional clustering, forced-sale price-discovery clusters, local residential CRE) route **REGINALD action + CARL info**. Macro-national residential signals (Fed Z.1 household leverage, national mortgage delinquency, national housing starts) route CARL per CONSUMER_CREDIT default.
-   - Filing context: Apr 20 NV HOA SIG-005 defaulted CARL; Will pushed back; reversed to REGINALD. Codified as exception in v0.5.
-
-3. **FILTER_SPEC v0.2 → v0.3:**
-   - Retired "START LOOSE" default posture (2-week calibration window + extension expired at 51 dispatches with zero obvious false positives). Replaced with **BALANCED** posture — tuning rules as primary guide; pre-catalyst window (≤72h before WAL/ZION/OZK earnings, Fed, CPI/NFP, Iran ceasefire expiry, BOJ) shift toward LOOSE on relevant domain; low-information stretches shift toward TIGHT. Review monthly.
-   - Added empirical bypass note: **zero FLASH signals across first 51 dispatches.** Two interpretations (a) strict triggers correctly rare, or (b) criteria miss events that should fire. Apr 21 is first real test.
-   - Added **Pre-Apr-21 bypass reaffirmation** with 6 explicit triggers: WAL/ZION gap-down >5% premarket, KRE >3% intraday, Iran kinetic-interdiction US naval vessel, HY OAS +25bps single session, VIX +5 intraday, Will explicit FLASH flag. Any of these fires → FLASH + Telegram + BOARD, skip Gate 1.
-   - Filter v3 trigger set: ~May 20 OR next 50 dispatches.
+1. **FORMAT_SPEC v0.4 → v0.5:** Added `thesis-frame` signal_type.
+2. **ROUTING_TABLE v0.4 → v0.5:** Added thesis-frame row + Residential-housing stress exception (geo-narrow residential → REGINALD action + CARL info).
+3. **FILTER_SPEC v0.2 → v0.3:** Retired START LOOSE → BALANCED; empirical bypass note; Pre-Apr-21 bypass reaffirmation with 6 explicit triggers.
 
 **SEGMENT B — Same-theme combine rule (commit ff40d5af):**
 
-Process: drafted rule with 3 design questions, Will asked for friction-check, I surfaced 4 issues (batch-boundary ambiguity, confidence double-counting, absorbed-origin traceability, "theme" fuzziness). Will pushed back on strict intra-batch scope AND on "theme" — proposed "put like with like when applicable" looser timing + "domain" as similarity criterion. Reworked rule, Will greenlit, committed.
+Domain-anchored outer fence + same-event/sub-theme inner test + pre-dispatch any-arrival-path + post-dispatch immutability. Reworked from initial strict-intra-batch + "theme" draft after Will pushback.
 
-4. **FORMAT_SPEC v0.5 → v0.6:** Multi-Origin Signals section added. Combine when ALL three hold: (a) same canonical domain (the 15 codes — cross-domain items do not combine), (b) same underlying event OR specific sub-theme within that domain, (c) each origin adds independent value (identical reposts → dup-kill the extras). `origin` field accepts array form. Pre-dispatch any-arrival-path (same Telegram batch, different batch, separate Will message, WALTER-found article — combine decision is draft-time not intake-time). Post-dispatch immutable — later same-event items become dup-kill or follow-up citing prior SIG-ID, never retroactive merge. Cross-author combines supported (3 of 5 historical). No combine ceiling. Source section in signal body is the audit trail for absorbed origins (no new route_log column). Historical examples cited: SIG-019-024 disclosetv+BRICSinfo Iran escalation, SIG-019-017 Bilello VIX+SPX, SIG-019-004 FinanceLancelot Wyckoff+NDX, SIG-010-001 CPI+UMich stagflation.
+4. **FORMAT_SPEC v0.5 → v0.6:** Multi-Origin Signals section; origin field accepts array.
+5. **CHECKLIST v0.6 → v0.7:** Phase 1b combine check between intake and classify.
 
-5. **CHECKLIST v0.6 → v0.7:** Phase 1b combine check added between Phase 1 intake and Phase 2 classify. Decision tree codified. Common catches (paired-chart, cross-source same-event, visual+analytical, bundled macro) + explicit non-catches (cross-domain narrative, same-domain-different-events, post-dispatch arrivals).
+**SEGMENT C — Verify-research Phase 1.5 trigger (commit pending at close):**
 
-**Design decisions made in this session:**
-- Intra-batch-only scope REJECTED in favor of any-arrival-path-pre-dispatch (preserves immutability via dispatch boundary instead).
-- "Theme" similarity criterion REJECTED in favor of domain-anchored outer fence + event/sub-theme inner test.
-- Origin format: array (forward-compatible; string form still valid single-element).
-- Combine ceiling: NONE, conditional on each origin adding value.
-- Absorbed-origin traceability: Source section in signal body (not route_log column).
+Codified autonomous verify-research sub-agent spawn. Empirical origin: 4 framing errors caught Apr 11–20 by in-session discretion (BOJ ¥330B misframe, WhaleInsider Hormuz "zero tankers/first in history" false, Blue Owl "co-founders/alt-collateral" overstatement, SIG-029 "first NATO state-response" inaccuracy). Moved from judgment to checklist per auto-memory `feedback_walter_autonomous_verify`. Draft presented on Telegram with narrowed scope; Will greenlit ("seems good").
+
+6. **CHECKLIST v0.7 → v0.8:** New Phase 1.5 subsection:
+   - **4 trigger patterns (any ONE fires a spawn):** (a) secondhand citing primary you haven't read, (b) summarizing plurals ("co-founders" / "all three" / "both"), (c) mechanism-assertions NOT YET IN PRIMARY COVERAGE ("replaced with" / "swapped for" / "backed by" when underlying filing doesn't yet carry that language), (d) extreme-absolute extraordinary claims ("zero" / "first in history" / "largest ever" / "never before" / "unprecedented") — explicitly NOT triggered by falsifiable comparatives ("record high" / "biggest since 2021" / "5th largest").
+   - **Spawn discipline (4 bullets):** lead with the routing decision that depends on the answer / hard total word cap / require single-line VERDICT at top / ask for decision-usefulness not comprehensiveness. Do not template.
+   - **4-verdict handling:** CONFIRMED (proceed, cite verification in body) / CORRECTED-framing (rewrite body, lower confidence one band) / FALSE (kill, log "framing-false, verify-research verdict") / INDETERMINATE (route at `unconfirmed` tier + flag note).
+   - **Discretion:** if primary already open in-session and claim matches, note inline-verification and skip spawn.
+   - Step 2.5 cross-ref inserted into Phase 1 kill/keep code block so the framing audit appears inline with the gate sequence.
+
+7. **FILTER_SPEC v0.3 → v0.4:** Reference-only subsection between Gate 1b (Relevance) and Credibility Check pointing to CHECKLIST Phase 1.5 as canonical. No filter-logic change — insertion point only. Notes empirical origin (4 framing errors).
+
+**Design decisions in Segment C:**
+- Extraordinary-claims scope narrowed to absolutes only (rejected "record high" style comparatives as self-bounding).
+- Mechanism-assertions scope narrowed to claims NOT yet in primary coverage (rejected triggering on primary-quoted mechanism claims).
+- Verdict taxonomy kept to 4 states (rejected a 5th "partial" state as redundant with CORRECTED-framing + confidence-band-down mechanic).
+- Discretion preserved for inline verification to avoid spawning when WALTER already has the primary open.
 
 GAPS:
-- **Segments C and D still outstanding.** Will said "do remaining segments in next session" — they are the next session's top spec-work priority, sequenced after Apr 21 catalyst monitoring.
-- **Segment D requires design round-trip with Will** on mechanic choice (3 candidates in FILTER_V2_PLAN.md Segment D table). Cannot auto-pick — Will decides before any FORMAT_SPEC edit.
-- **Telegram reply not sent** on Segment B completion initially because no inbound chat_id was in the turn's context; follow-up Will ping provided chat_id, Telegram resumed.
-- **All carry-forward gaps intact from prior session:** NEXUS cluster classification (19 bear nodes + 8-ch Iran + 11-incident hydrocarbon candidate), RED refresh Day 10+, ZHAO spawn 18d+ stale, FORGE 26d+ stale, COP paused, HENRY + RED SIGNAL_INTAKE.md prompts transcript-only, BOARD-consumption tracking decision pending.
+- **Segment D still outstanding.** Will decision required on 3-mechanic choice (see FILTER_V2_PLAN.md Segment D table): (i) free-text `confidence_note`, (ii) split `observation_confidence` + `interpretation_confidence` numerical pair, (iii) `signal_type` observation-only / with-interpretation modifier. WALTER lean: (i). Cannot auto-pick. Second session after decision = implement + backfill asymmetric signals.
+- **Segment C commit pending** at the time this file is written — will ship with the push after this LAST_COMPLETION overwrite.
+- **All carry-forward gaps intact from prior session:** NEXUS cluster classification (19 bear nodes + 8-ch Iran + 11-incident hydrocarbon candidate + Blue Owl + NV HOA), RED refresh Day 10+, ZHAO spawn 18d+ stale, FORGE ~26d stale, COP paused, HENRY + RED SIGNAL_INTAKE.md prompts transcript-only, BOARD-consumption tracking decision pending.
 
 WILL_NEEDS:
-1. **Apr 21 catalyst pre-position** — WAL/ZION earnings + Iran ceasefire expiry + 8-ch Iran cluster + Tuapse adjacency. Filter v2 Seg A installed explicit FLASH bypass triggers for the day.
+1. **Apr 21 catalyst pre-position** — WAL/ZION earnings + Iran ceasefire expiry + 8-ch Iran cluster + Tuapse adjacency. Filter v2 Seg A installed explicit FLASH bypass triggers for the day. Filter v2 Seg C installed framing-audit discipline for signals arriving from secondhand aggregators on the catalyst window.
 2. **Filter v2 Segment D mechanic decision** — (i) free-text confidence_note / (ii) split observation/interpretation numerical / (iii) signal_type modifier. Needed before coding can proceed.
 3. **BOARD-consumption tracking decision** (architectural blocker for agent boot-sequence rollout, pending from Apr 20 PM).
 4. **Apr 30 OWL Q1 earnings pre-watch** — SIG-W-20260420-004 should be on REGINALD/BROCK radar.
@@ -68,9 +69,9 @@ WILL_NEEDS:
 
 FOLLOW-UP (next session):
 - Boot: read STATUS / MEMORY / LAST_COMPLETION / FILTER_V2_PLAN / updated design specs; check /BOARD/INDEX for any new dispatches outside this session.
-- Apr 21 real-time monitoring if Will requests — filter posture is BALANCED + catalyst-day LOOSE per FILTER_SPEC v0.3.
-- After Apr 21 resolution: run Segment C (verify-research Phase 1.5 trigger — show Will draft trigger criteria before committing) then Segment D (design round-trip with Will on mechanic choice, then implementation + backfill of asymmetric signals).
-- Archive or delete FILTER_V2_PLAN.md once Segments C+D land and all completion criteria met.
+- Apr 21 real-time monitoring if Will requests — filter posture is BALANCED + catalyst-day LOOSE per FILTER_SPEC v0.4; framing audit active per CHECKLIST v0.8 Phase 1.5.
+- After Apr 21 resolution: run Segment D design round-trip with Will on mechanic choice, then implementation + backfill of asymmetric signals.
+- Archive or delete FILTER_V2_PLAN.md once Segment D lands and all completion criteria met.
 
 ---
 
