@@ -11,7 +11,7 @@
 | TSA Disruption | Callout 6.95-8% nationally (down from 12.35% Mar 27 peak); ATL 24.6%, PHL 21.5% still elevated. 300+ quits confirmed. | 🔴 BREACHED |
 | ICE Raids | Expanding: +58% arrests CA Central Valley, rural MN meatpacking, 14 custody deaths in 2026 | 🔴 BREACHED |
 | FL Net Domestic Migration | 22,517 (93% collapse); Miami domestic migration now **-2.0%** — worse than pre-COVID NYC (Kolko/Census to Jul 2025) | 🔴 BREACHED |
-| Canadian Visitors to US | Feb 2026: 1.5M trips, air -17.6% YoY, land -12.9% (14th consecutive decline) | 🔴 BREACHED |
+| Canadian Visitors to US | Mar 2026: 2.0M, -7.6% YoY (air -13.8%, auto -4.5%) — BUT 2-yr stack vs Mar 2024: -34.9% auto (base-effect moderation per StatCan). **15th consecutive monthly YoY decline.** US→Canada flipped POSITIVE (Mar +4.0%, Feb +6.1%) — asymmetry intensified. Air Transat ending all 3 Quebec-FL routes May-Jun. | 🔴 BREACHED |
 | NFP Feb 2026 | -92K, UE 4.4% | 🔴 BREACHED |
 | Mexico Remittances Feb 2026 | Feb +0.4% YoY ($4.377B); Jan-Feb bimester $9.062B, -0.5% YoY. Improvement from Jan (-1.4%) but cumulative still negative. Full-year 2025: -4.6% YoY ($61.8B) | 🔴 BREACHED |
 | Ag Employment | -155K + 2.2M self-deportations | 🔴 BREACHED |
@@ -93,14 +93,14 @@
 - **NEW:** Diesel surged to **$5.37/gal** (from $3.89 early March). 640-acre farm fuel bill: ~$17K vs ~$12K a month ago. Energy shock compounding labor shortage for ag sector.
 - **NEW:** Mexico launched FINABIEN platform to lower remittance fees. US 1% tax on cash remittances (effective Jan 1) driving digital shift — could change remittance flow patterns.
 
-### Canadian Travel (🔴 STRUCTURAL DECLINE)
-- **Jan 2026 StatCan data (released Mar 23):** Canadian return trips from US = **2.1M, -22.0% YoY**
-  - Auto: -26.3% | Air: -12.8% | 13th consecutive month of YoY decline
-  - **First time since 1972** that overseas returns exceeded US automobile returns.
-- Decline moderating in % terms (-28% → -22%) but base effect flatters — absolute volume is depressed.
-- Canadian airlines cut **450,000 US-bound seats** in Q1 2026. WestJet/Air Canada shifting to Mexico/Europe.
-- US→Canada traffic: -0.3% YoY (essentially flat) — asymmetric boycott, not mutual cooling.
-- **Structural boycott entrenched.** No reversal signal.
+### Canadian Travel (🔴 STRUCTURAL — ASYMMETRY INTENSIFIED, HABIT FORMATION NOW HARD DATA)
+- **StatCan Mar 2026 (released Apr 13):** Canadian return trips from US = **2.0M, -7.6% YoY**; Feb: 1.5M, -14.5%; Jan: 2.1M, -22.0%.
+  - Mar: Auto -4.5% | Air -13.8% | **15 consecutive months of YoY decline**
+  - **Headline YoY moderation is a base-year effect** — StatCan explicitly flagged. 2-yr stack vs Mar 2024: auto -34.9%, vs Feb 2024 total -31.5%. Structural damage persists.
+- **ASYMMETRY INTENSIFIED (new — 2026-04-20):** US residents → Canada flipped POSITIVE: Feb +6.1%, Mar +4.0% — first YoY positives after 12 consecutive declines. Split went from "Canadians down, Americans flat" to "Canadians down, Americans now returning." Political-boycott narrative strengthened, not softened.
+- **HABIT FORMATION NOW IN HARD DATA (new — 2026-04-20):** Canadian overseas air returns > US auto returns for 3 consecutive months (Jan-Mar 2026). First time in 50+ years. Survey signals (Portugal +40%, Mexico +12%, Nanos 16% permanent) now confirmed in actual travel flows.
+- **Capacity leaving, not being rebooked:** Air Transat ending ALL 3 Quebec-FL routes (Montreal-MCO May 4, Quebec City-FLL May 30, Montreal-FLL Jun 13). WestJet cutting 15 US routes. Canadian airline capacity to US -10% YoY Feb 2026; Q1 2026 Canadian-US seat count at **lowest since 2006 (ex-pandemic)**.
+- **Structural boycott now load-bearing.** Reframe: TOUR-01 (YoY >-15%) to 2-yr stack >-25% vs 2024 — headline will cross -15% on base effects and mislead.
 
 ### JOLTS Feb 2026 + Ag Labor Cross-Reference (🔴 NEW — COMPOUNDING SUPPLY SHOCK)
 - **JOLTS Feb 2026 (released Apr 1):** Total hires 4.8M, hires rate **3.1%** — COVID-low level.
@@ -130,13 +130,21 @@
 - **Next remittance data: Q1 2026 BOP — May 28, 2026.** Remove from pending.
 - Canadian TFWP arrivals down ~3,035 vs Jan 2025; hit 2-year low Nov 2025.
 
-### Florida Triple Exposure (UPGRADED — Miami Migration Now Negative)
-- Migration 93% collapse (#1→#8). **NEW: Miami domestic migration -2.0% — worse than pre-COVID NYC (Kolko/Census to Jul 2025).** COVID-era population boom explicitly reversing.
-- Canadian tourism structural decline (-22%).
-- TSA chaos hitting FL airports during spring break peak — shutdown continues through recess.
-- Insurance 4.5x national. Condo inventory **9.1mo Mar 2026 (BREACHED threshold)** — Lee 14.6mo, Miami-Dade ~14.1mo.
-- **Miami -2.0% is a leading indicator.** Migration turns before prices. This is the housing demand withdrawal signal CARL needs.
-- → CARL cross-post required: Miami migration -2.0% = Path C confirmation (housing demand withdrawal, FL dimension).
+### 🔑 FL Tourism $ Transmission TIMING SHIFT (NEW 2026-04-20)
+- **FL 2025 aggregate tourism hit records despite Canadian -14.7%**: 143.3M visitors (+0.2%); domestic/overseas/cruise/Epic Universe masked the Canadian collapse in $-spend and bed tax data (Orange Jan 2026 = 10th straight record TDT month).
+- **Summer 2026 direct Canadian-FL $ bleed: only $50-120M** (Orange $29-71M, Broward $21-51M).
+- **The REAL $ stress window is Q1-Q2 2027** (winter 2026-27 snowbird no-show), projected **$600M-$1.2B** FL loss.
+- **Leading indicators live NOW:** Air Canada winter 2026-27 has ZERO new FL routes (all 11 new snowbird routes → Mexico/Caribbean); Air Transat YQB-FLL only 3x weekly resumed; WestJet summer 2026 transborder -32% ASM.
+- **Broward TDT +0.3% CY2025 is the canary** — first big FL county to flip negative = domestic substitution exhausted. TOUR-06 filed (70%).
+- **Implication for REGINALD:** Canadian-channel FL bank/CRE stress timing shifts RIGHT ~6 months (Q3 2026 → Q1-Q2 2027 earnings). FLL/discretionary segments still stress Q2-Q3 2026; aggregate $ stress delayed to winter realization.
+
+### Florida Triple Exposure (UPGRADED — Miami Migration Negative, FL Airport Dominoes Falling)
+- Migration 93% collapse (#1→#8). Miami domestic migration -2.0% — worse than pre-COVID NYC (Kolko/Census to Jul 2025). COVID-era population boom explicitly reversing.
+- Canadian tourism: Mar 2026 -7.6% YoY headline but 2-yr stack -34.9% (structural). **Air Transat ending ALL 3 Quebec-FL routes May-Jun 2026** — summer demand destruction booked, not forecast.
+- TSA chaos hitting FL airports during spring break peak — shutdown continues through recess. FLL Mar 20: 216 disruptions; Mar 27: 11 cancels + 240 delays.
+- Insurance 4.5x national. Condo inventory **9.1mo Mar 2026 (BREACHED)** — Lee 14.6mo, Miami-Dade ~14.1mo.
+- **FL airport trifecta status (2026-04-20):** FLL 2025 full-year **-8.5%** (already meets Prediction #24 condition); MIA 2025 -1.09% (flipped); MCO 2025 +0.8% (anchor holding). Spring break 2026 showed record days (MIA Mar 20 busiest ever, MCO spring break +8% projected) — weakness concentrated in discretionary/Canadian-exposed traffic, domestic anchor still absorbing. Post-spring-break Apr-Jun data is the test for Prediction #24.
+- Miami -2.0% is a leading indicator. Migration turns before prices. Housing demand withdrawal signal (CARL routed 2026-04-20).
 
 ---
 
@@ -181,7 +189,8 @@
 | → LABOR | 🔴 ICE construction raids = supply shock on demand shock. 1-in-3 foreign-born. Permanent ag data gap. **NEW: JOLTS 3.1% hires = substitution mechanism broken — ag labor gap wider than modeled.** |
 | → REGINALD/CORAL | 🟠 **NEW 2026-04-20: FL condo inventory BREACHED 9.1mo Mar 2026** (Lee 14.6mo, Miami-Dade ~14.1mo, supply-driven — not demand collapse). Collateral deterioration Q2-Q3. 🔴 Construction raids → housing start delays. FL triple exposure compounding. Small airport closure risk. |
 | → CARL | 🔴 **NEW: Miami domestic migration -2.0% (worse than pre-COVID NYC). COVID population boom reversing. Path C confirmation — housing demand withdrawal, FL dimension. Route this signal.** TSA chaos + spring break disruption continues. |
-| → NEXUS | 🔴 10 breached/upgraded indicators. Ag labor black box. JOLTS COVID-low hires compounds supply shock. Miami migration reversal = FL housing leading indicator. |
+| → NEXUS | 🔴 10 breached/upgraded indicators. Ag labor black box. JOLTS COVID-low hires compounds supply shock. Miami migration reversal = FL housing leading indicator. **NEW 2026-04-20: Canadian boycott asymmetry intensified (US→Canada flipped positive); habit formation now hard data (overseas air > US auto 3 mo); TOUR-03 upgraded 70→85%.** |
+| → BRENT | 🟡 **NEW 2026-04-20:** Canadian-US airline capacity Q1 2026 at 2006-low (ex-pandemic). Air Transat full Quebec-FL exit + WestJet 15 US routes cut = regional jet fuel demand hit booked for summer 2026. Route mix shifting transborder → Mexico/Europe (different refinery pull). |
 
 ---
 
