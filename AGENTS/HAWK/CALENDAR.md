@@ -1,16 +1,21 @@
 # HAWK CALENDAR
 
-**Last Updated:** 2026-04-20 | **View:** Forward-looking only. Past events pruned weekly.  
-**War Day:** 51 | **Scenario:** D 82% / C 12% / B 6% | **Convergence:** 35/45 🔴🔴 ELEVATED
+**Last Updated:** 2026-04-20 20:15 EDT | **View:** Forward-looking only. Past events pruned weekly.
+**War Day:** 51 | **Ceasefire Day:** 13 of 14 | **Scenario:** D 75% / C 20% / B 5% | **Convergence:** 40/45 🔴🔴 CRITICAL
 
 ---
 
-## CEASEFIRE DURABILITY WINDOW — APR 12 to MAY 12 (30 Days)
+## ⚠️ T-MINUS 48 HOURS — DEADLINE WINDOW
 
-| Date | Event | Signal Threshold | Who Cares | Status |
-|------|-------|------------------|-----------|--------|
-| **Apr 12-13** | **Ceasefire Declared (Omani mediation)** | Iran-Israel agreement signed, Houthi stand-down | **ALL** | ✅ Active (Day 8) |
-| **May 12-13** | **30-Day Ceasefire Checkpoint** | Extension vs collapse; mine clearance status | **ALL** | ⏳ Pending |
+| Time (ET) | Event | Signal Threshold | Who Cares | Priority |
+|-----------|-------|------------------|-----------|----------|
+| **Apr 21 ~AM** | **Vance departure for Islamabad** | Confirm vs abort — any delay = bearish | **ALL** | 🔴🔴 |
+| **Apr 21 AM-PM** | **Iran Round 2 attendance decision** | Araghchi confirms or no-show | **HAWK, RED** | 🔴🔴 |
+| **Apr 21 any time** | **Tehran retaliation for Apr 19 ship seizure** | Any kinetic on US/GCC asset | **ALL** | 🔴🔴 |
+| **Apr 21 8:00 PM** | **CEASEFIRE EXPIRY** | Extension statement before = B/C upgrade; silence = D | **ALL** | 🔴🔴 |
+| **Apr 22** | **Islamabad Round 2 talks** | Deal / extension / collapse | **ALL** | 🔴🔴 |
+| **Apr 21-23** | **Hormuz transit count** | Stays at ~16, hits 0, or rebounds >25 | **BRENT, LIQUID, CARL** | 🔴 |
+| **Apr 21-23** | **Any US Navy engagement with IRGC** | Direct kinetic = instant D5 | **ALL** | 🔴🔴 |
 
 ---
 
@@ -18,20 +23,10 @@
 
 | Date | Event | Signal Threshold | Who Cares | Status |
 |------|-------|------------------|-----------|--------|
-| **TBD** | **US-Iran Talks (Next Round)** | Direct engagement framework → concrete agreements | **HAWK, LIQUID, NEXUS** | ⏳ Pending |
-| **Ongoing** | **Omani Mediation Channel** | Continued shuttle diplomacy, prisoner exchange progress | **HAWK** | 🟡 Active |
-| **TBD** | **IAEA Iran Nuclear Facility Inspections** | Access granted to Fordow, Natanz, Isfahan | **HAWK, RED** | ⏳ Pending |
-| **TBD** | **Israel-Iran Indirect Negotiations** | Normalization framework, regional security architecture | **HAWK, RED** | ⏳ Pending |
-
----
-
-## OPEC+ CALENDAR
-
-| Date | Event | Signal Threshold | Who Cares | Status |
-|------|-------|------------------|-----------|--------|
-| **May 2026** | **OPEC+ Ministerial Meeting** | Production quota decisions, compliance enforcement | **BRENT, HENRY, HAWK** | ⏳ Expected |
-| **TBD** | **JMMC (Joint Ministerial Monitoring Committee)** | Monthly production data review, quota compliance | **BRENT, HAWK** | ⏳ Pending |
-| **Jun 2026** | **OPEC+ Ministerial Meeting** | H2 2026 production policy, spare capacity assessment | **BRENT, HENRY, HAWK** | ⏳ Expected |
+| **Apr 22** | **Islamabad Round 2** | First test after Round 1 collapse | HAWK, LIQUID, NEXUS | 🔴🔴 Imminent |
+| **Ongoing** | **Oman/Pakistan Mediation** | Shuttle continuity post-Round 2 | HAWK | 🟡 Active |
+| **TBD** | **IAEA Iran Nuclear Inspections** | Access to Fordow/Natanz/Isfahan | HAWK, RED | ⏳ Pending |
+| **TBD** | **Israel-Iran Indirect Negotiations** | Separate track from US-Iran; normalization unlikely | HAWK, RED | ⏳ Pending |
 
 ---
 
@@ -39,12 +34,22 @@
 
 | Date | Event | Signal Threshold | Who Cares | Status |
 |------|-------|------------------|-----------|--------|
-| **TBD** | **Fujairah Terminal Structural Assessment** | Damage assessment published, repair timeline announced | **BRENT, HAWK** | ⏳ Pending |
-| **TBD** | **Ras Laffan / QatarEnergy Restart Timeline** | LNG train restart schedule (baseline: 3-5 years repair) | **BRENT, HAWK, SAM** | ⏳ Pending |
-| **TBD** | **ADCOP Pipeline Repair Commencement** | Hormuz bypass restoration timeline | **BRENT, HAWK** | ⏳ Pending |
-| **TBD** | **Al Taweelah / EGA Aluminium Restart** | 4% global supply restoration timeline | **HENRY, HAWK** | ⏳ Pending |
-| **TBD** | **Mine Clearance Operations (Hormuz)** | USN MCM vessels deployed, channel reopening timeline | **BRENT, HAWK, LIQUID** | ⏳ Pending |
-| **TBD** | **Insurance Reinstatement (Lloyd's/P&I)** | War risk exclusions lifted, commercial shipping resumes | **BRENT, HAWK, LIQUID** | ⏳ Pending |
+| **BLOCKED** | **Mine Clearance (Hormuz)** | USN MCM deploy — NOT during blockade standoff | BRENT, HAWK, LIQUID | ❌ Not Started |
+| **BLOCKED** | **Insurance Reinstatement** | Lloyd's war risk lift — opposite direction | BRENT, HAWK, LIQUID | ❌ Rates Elevated |
+| **TBD** | **Fujairah Terminal Assessment** | Damage report + repair timeline | BRENT, HAWK | ⏳ Pending |
+| **TBD** | **Ras Laffan / Qatar LNG Restart** | Train schedule (baseline 3-5 yr) | BRENT, HAWK, SAM | ⏳ Pending |
+| **TBD** | **ADCOP Pipeline Repair** | Hormuz bypass restoration | BRENT, HAWK | ⏳ Pending |
+| **TBD** | **Al Taweelah / EGA Aluminium** | 4% global supply restoration | HENRY, HAWK | ⏳ Pending |
+
+---
+
+## OPEC+ CALENDAR
+
+| Date | Event | Signal Threshold | Who Cares | Status |
+|------|-------|------------------|-----------|--------|
+| **May 2026** | **OPEC+ Ministerial Meeting** | Production quota shift if deadline collapses | BRENT, HENRY, HAWK | ⏳ Expected |
+| **TBD** | **JMMC** | Monthly compliance review | BRENT, HAWK | ⏳ Pending |
+| **Jun 2026** | **OPEC+ Ministerial Meeting** | H2 2026 policy, spare capacity | BRENT, HENRY, HAWK | ⏳ Expected |
 
 ---
 
@@ -52,11 +57,13 @@
 
 | Date | Event | Signal Threshold | Who Cares | Status |
 |------|-------|------------------|-----------|--------|
-| **Apr-Jun 2026** | **Taiwan Strait Military Exercises (Annual)** | PLA exercise scale, US response posture, regional tension | **HAWK, SAM, ZHAO** | 🟡 Watch Window |
-| **TBD** | **Russia-Ukraine Energy Infrastructure Developments** | Pipeline status, sanctions enforcement, transit agreements | **HAWK, BRENT** | 🟡 Ongoing |
-| **Ongoing** | **Houthi Red Sea Activity** | Stand-down compliance duration, independent escalation risk | **HAWK, BRENT, LIQUID** | 🟡 Monitoring |
-| **Ongoing** | **Hezbollah/Lebanon Front** | Attack frequency, Israel response, ceasefire extension | **HAWK** | 🟡 Monitoring |
-| **Ongoing** | **Israel Nuclear Program Posture** | Unilateral strike risk outside ceasefire framework | **HAWK, RED** | 🔴 Elevated |
+| **Ongoing** | **US Navy Gulf Posture** | Carrier rotations, MCM assets, escort ops | HAWK | 🔴 Elevated |
+| **Ongoing** | **Iranian Gunboat Engagements** | VLCC/container ship incidents frequency | HAWK, BRENT | 🔴 Active (Apr 18-19) |
+| **Ongoing** | **Houthi Red Sea Activity** | Stand-down compliance under stressed ceasefire | HAWK, BRENT, LIQUID | 🟡 Monitoring |
+| **Ongoing** | **Hezbollah/Lebanon** | Araghchi demanded Lebanon in deal; reactivation risk | HAWK | 🟡 Monitoring |
+| **Ongoing** | **Israel Unilateral Strike Risk** | Nuclear site action outside US framework | HAWK, RED | 🔴 Elevated |
+| **Apr-Jun 2026** | **Taiwan Strait Exercises** | PLA scale + US response | HAWK, SAM, ZHAO | 🟡 Watch |
+| **Ongoing** | **Russia-Ukraine Energy** | Pipeline status, sanctions | HAWK, BRENT | 🟡 Ongoing |
 
 ---
 
@@ -64,22 +71,21 @@
 
 | Date | Event | Signal Threshold | Who Cares | Status |
 |------|-------|------------------|-----------|--------|
-| **Ongoing** | **Congressional War Powers Hearings** | Funding shifts, authorization debates, posture review | **HAWK, HENRY** | ⏳ Post-ceasefire |
-| **TBD** | **US Navy Gulf Deployment Adjustments** | Carrier group rotations, MCM asset allocation | **HAWK** | ⏳ Pending |
-| **Ongoing** | **Shadow Fleet / Sanctions Enforcement** | Tanker seizures, G7 insurance enforcement, price cap compliance | **HAWK, BRENT** | 🟡 Active |
+| **Ongoing** | **Congressional War Powers** | Hearings, authorization, funding | HAWK, HENRY | 🟡 Latent |
+| **Ongoing** | **Shadow Fleet / Sanctions** | Tanker seizures, G7 price cap | HAWK, BRENT | 🟠 Active — US seized Iran vessel Apr 19 |
 
 ---
 
-## Key Dates Summary (Next 60 Days)
+## Key Dates Summary (Next 14 Days)
 
 | Priority | Date | Event | Countdown |
 |----------|------|-------|-----------|
-| 🔴🔴 | May 12-13 | 30-Day Ceasefire Checkpoint | ~22 days |
-| 🔴 | TBD | US-Iran Talks (Next Round) | Unknown |
-| 🔴 | TBD | Mine Clearance Operations Begin | Unknown |
-| 🟡 | May 2026 | OPEC+ Ministerial Meeting | ~10-20 days |
-| 🟡 | TBD | Fujairah/Ras Laffan Assessment | Unknown |
-| 🟡 | TBD | JMMC Meeting | Unknown |
+| 🔴🔴 | Apr 21 8pm ET | **CEASEFIRE EXPIRY** | ~T-24h |
+| 🔴🔴 | Apr 22 | Islamabad Round 2 | ~T-48h |
+| 🔴 | Apr 21-23 | Tehran retaliation window (Apr 19 seizure) | Any time |
+| 🔴 | Apr 21-23 | Hormuz gunfire escalation risk | Any time |
+| 🟡 | May 2026 | OPEC+ Ministerial Meeting | ~10-25 days |
+| 🟡 | TBD | Fujairah/Ras Laffan assessments | Unknown |
 
 ---
 

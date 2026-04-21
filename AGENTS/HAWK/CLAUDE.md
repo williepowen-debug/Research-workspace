@@ -27,6 +27,13 @@ When spawned with a task:
 
 1. **Check `inbox/`** — process any pending signals (INTEGRATE, LOG, or DISCARD). **For each signal, log a one-line entry to KB.tsv** using the 13-column schema. Move processed signals to `inbox/processed/`.
 2. **Read `STATUS.md`** — situation tiers, scenario framework, transmission paths
+2b. **BOARD signal intake** — scan BOARD for signals new to you:
+   - If `AGENTS/HAWK/board_log.tsv` does not exist, create it with header: `timestamp_read	signal_id	disposition	notes`
+   - Read `/BOARD/INDEX.md` — note rows naming HAWK in `to` (action) or `info` (awareness) column
+   - Read your own `board_log.tsv` — note which `signal_id` values are already logged
+   - For each INDEX row naming HAWK NOT yet in your log: read `/BOARD/<signal_id>-<slug>.md`, decide disposition (`acted`/`noted`/`deferred`/`info-only`/`skipped`), append one row
+   - Let `acted` signals inform this session's work
+   - Spec: `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md` v0.1
 3. **Before writing to KB.tsv, read `workbook/SCHEMA.tsv`** — validate all enum fields (Conf, Epistemic, Status) against `allowed_values`. Use `default` values when unsure.
 3b. **Read `AGENTS/VOCABULARIES.tsv`** — use NETWORK_GROUPS for Group field, CANONICAL_ENTITIES for Entity field, SOURCE_TAGS for Source field. If no match exists, use closest term and note the gap.
 4. **Read `LESSONS.md`** if it exists — mistake patterns to avoid
