@@ -1,21 +1,27 @@
 # ZION Q1 2026 — REGINALD ANALYSIS
 
-**Source:** ZION earnings release + 8-K supplemental tables + call transcript (Apr 20, 2026 AMC; call 5:30 PM ET).
-**Mined:** Apr 20 PM session, immediately post-call. 8-K pulled via StockTitan mirror (EDGAR direct blocked 403). Deck pending Round 2.
+**Source:** ZION earnings release + 8-K supplemental tables + full Quartr call transcript (Apr 20, 2026 AMC; call 5:30 PM ET).
+**Mined:** Apr 20 PM session, immediately post-call. 8-K pulled via StockTitan mirror (EDGAR direct blocked 403). Full verbatim transcript preserved at `sources/transcript_Q1_2026.md`. Deck pending Round 2.
 **Ticker:** ZION | **Price:** $63.02 close (+0.47%) → **$62.01 AH (-1.6%)** on rev miss + NII miss.
+**Revision:** Apr 20 evening — multiple transcript-driven corrections and additions (NDFI attribution, Basis Multifamily acquisition, Basel III, POL color, NIM, energy/restaurants credit watch).
 
 ---
 
 ## TL;DR
 
 1. **Second disconfirming clean-name print in cohort.** EPS beat ($1.56 vs $1.42, +9.86%) but revenue ($849M vs $861.1M, -1.4%), NII ($662M vs $675.6M, -2%), efficiency ratio (65% vs 64.5%), and TBV/share ($41.75 vs $42.21) all missed. Stock faded -1.6% AH — closer to PNC (-0.03% 2d) than RF (+3.8% short-unwind rally).
-2. **NDFI $2B flat 5 years — new cohort floor.** Simmons explicit on call: *"for us as we report, it's about $2 billion of our portfolio and outstandings and has not grown in five years."* Below RF's $3B. **ZION = cohort LOW.** Spectrum now 6/6: PNC $73B → TFC $35B+ → CFG $19.6B → FITB $9.5B → MTB $8.9B → RF $3B → **ZION $2B**.
+2. **NDFI $2B flat 5 years — new cohort floor + explicit peer swipe.** **Scott McLean (President/COO)** on call: *"for us as we report, it's about $2 billion of our portfolio and outstandings and has not grown in five years."* Below RF's $3B. **ZION = cohort LOW.** Spectrum now 6/6: PNC $73B → TFC $35B+ → CFG $19.6B → FITB $9.5B → MTB $8.9B → RF $3B → **ZION $2B**. McLean adds explicit swipe: *"our peers and banks, smaller and larger, are pretty much gulping down these loans"* — ZION positioning itself as disciplined while cohort accumulates.
 3. **FHLB cohort BIFURCATION confirmed 6/6.** Short-term borrowings **-87% QoQ (-$2.49B)**. Cohort split: **3 surge** (MTB +265% avg, CFG 60x YoY, PNC +64.7% QoQ) vs **3 decline** (FITB -48%, RF opaque, ZION -87%). Weakens "systemic funding stress" argument — FHLB surge is bank-specific, not sectoral. STATUS FHLB indicator downgrade warranted.
 4. **Reclassification pattern 4/6 confirmed.** ZION 8-K: *"Effective March 31, 2026, balances previously classified as 'Leasing' are now reported within the 'Commercial and industrial' loan segment."* Same playbook as CFG ($2.9B PC carve-out), PNC (Retail/wholesale split). MTB partial, FITB + RF clean. **The miss-reporting-period reclassification is becoming a cohort signature.**
 5. **Credit quality disconfirming.** CRE nonaccruals -28% YoY ($42M from $58M, 0.31% ratio). Construction -16% YoY. C&I nonaccruals -32% YoY. Classified loans -19% YoY. Provision -$7M (RELEASE). ACL 1.16% (-3bps QoQ, -8bps YoY). NCO **3bps annualized**. ZION is credit-clean.
 6. **AOCI bomb still live: -$1.935B.** Primarily AFS fair-value losses. $1.5B ($1.2B after-tax) unrealized losses trapped in AFS→HTM transfers. CET1 flat at 11.5% *before* mandatory AOCI phase-in (Cat III/IV). **AOCI thesis intact** despite otherwise-clean print — forced Jun 18 AOCI capital rewrite would hit same underlying losses.
 7. **Middle East NOT a factor.** Stewart (CCO): *"We are not seeing a lot of impacts from tariff changes or from the events in the Middle east at this point."* No overlay, unlike RF's $17M Middle East reserve build. Different exposure profile.
 8. **MUNI book CORRECTION.** STATUS.md had ZION municipal at $5.78B (score-14 driver). Actual Q1 2026: **$4.27B**. Nonaccruals $2M. Correction flagged.
+9. **POL delivered 270bps — beat NOT purely accounting.** Positive Operating Leverage delivered **270bps Q1** vs full-year guide of **100-150bps**. Revises earlier "low-quality beat" framing — the beat reflects real efficiency gain (headcount -20% vs 2008 = +25% productivity per $1 of assets on call commentary), not just one-off items.
+10. **Basis Multifamily Finance acquisition announced.** Fannie/Freddie agency MF origination platform, pending regulatory approval. **Balance-sheet-light** — ZION balance sheet used only for origination/construction/stabilization (Arfstrom Q&A confirm). Not a CRE concentration add; fee-revenue diversification. Counter-intuitive for a bank de-emphasizing MF direct-hold.
+11. **Basel III endgame = +93bps CET1.** Richards (Treasurer): ZION would get **~9-10% RWA relief** under finalized proposal → **+93bps CET1**. Flattering pro-forma for 11.5% reported. Partially offsets AOCI phase-in drag if both finalize same window.
+12. **Restaurants + consumer-focused businesses = new credit watch.** Stewart (CCO): naming this as a concern category alongside tariff-sensitive. Cross-agent signal to CARL — ZION's first explicit consumer-facing business credit concern.
+13. **NIM compressed -4bps QoQ to 3.27%.** NII -$21M QoQ (-3%) but +$38M YoY (+6%). 72bps front-book vs back-book spread (tailwind continues). Two accounting items dampened loan growth optics: $500M residential mortgage pool sold HFS + $100M derivative netting reclassification.
 
 ---
 
@@ -37,9 +43,13 @@
 
 ---
 
-## 2. NDFI — NEW COHORT FLOOR
+## 2. NDFI — NEW COHORT FLOOR + PEER SWIPE
 
-**Simmons (CEO, prepared/Q&A):** *"for us as we report, it's about $2 billion of our portfolio and outstandings and has not grown in five years."*
+**Scott McLean (President & COO, Q&A):** *"for us as we report, it's about $2 billion of our portfolio and outstandings and has not grown in five years."*
+
+**Scott McLean (same Q&A, on peer behavior):** *"our peers and banks, smaller and larger, are pretty much gulping down these loans"* — explicit contrast. ZION framing itself as the discipline case while pointing at PNC/CFG/FITB NDFI accumulation.
+
+**Attribution correction:** Earlier draft attributed NDFI disclosure to CEO Simmons. Transcript confirms President/COO McLean is the speaker. Matters because McLean owns the credit function — this is a commitment statement, not a CEO generality.
 
 ### Cohort NDFI disclosure spectrum (now 6/6):
 
@@ -56,7 +66,7 @@
 ### Thesis implications:
 - **Cohort spans 36x** ($73B → $2B) — **NDFI is idiosyncratic, not structural**. Bears on "sectoral NDFI stress" framing.
 - **ZION is control variable like RF**, but written-disclosure absence — neither press release, supplement, nor 10-Q table breaks out a "nondepository financial institutions" line. Only surfaced in call remark.
-- **Simmons framing:** "we don't grow what we can't underwrite" — directly contrasts PNC/CFG "we're leaning in." Sets up discipline-vs-growth dichotomy.
+- **McLean framing:** "we don't grow what we can't underwrite" + the "gulping" jab — directly contrasts PNC/CFG "we're leaning in." Sets up discipline-vs-growth dichotomy, and ZION management is now *publicly* calling the cohort's posture reckless.
 - **$2B flat 5 years** = material insight: ZION was NOT a participant in the post-2020 NDFI accumulation that took industry share from 1.6% → 5.9% of assets. This is pre-boom NDFI, not the 2021-24 vintage at other regionals.
 
 ---
@@ -107,7 +117,7 @@
 
 ---
 
-## 5. CREDIT QUALITY — DISCONFIRMING ON ZION
+## 5. CREDIT QUALITY — DISCONFIRMING ON ZION (but new watch categories)
 
 | Metric | Q1 2026 | Q1 2025 | Read |
 |--------|---------|---------|------|
@@ -121,9 +131,21 @@
 | NPA ratio | 0.48% | — | Declining |
 
 ### Direct quotes:
-- **Simmons (CEO):** *"Overall, we're continuing to see improvement in commercial real estate."*
-- **Stewart (CCO):** *"Non accruals continue to decrease"* in CRE. *"We are not seeing a lot of impacts from tariff changes or from the events in the Middle east at this point."*
-- **Stewart:** *"year-over-year decrease in the ACL primarily reflects lower reserves associated with commercial real estate portfolio-specific risks"*
+- **Derek Steward (CCO), on CRE:** *"Overall, we're continuing to see improvement in commercial real estate."*
+- **Steward:** *"Non accruals continue to decrease"* in CRE. *"We are not seeing a lot of impacts from tariff changes or from the events in the Middle east at this point."*
+- **Steward:** *"year-over-year decrease in the ACL primarily reflects lower reserves associated with commercial real estate portfolio-specific risks"*
+
+### ⚠️ New credit watch categories (Steward, Q&A):
+- **Restaurants** — named explicitly as a category under stress observation.
+- **Consumer-focused businesses** — broader than just restaurants.
+- Rationale per transcript: tariff pass-through and slowing discretionary spend at the small-business customer level.
+- **This is ZION's first named consumer-facing credit concern of the cycle.** Cross-agent signal to CARL — small-business/restaurant DQ could front-run consumer card/auto DQ.
+
+### Energy book color (Steward):
+- **~$2B outstanding, flat.**
+- **40% of middle-market bank peers have exited energy lending** — ZION is one of the remainers.
+- **Oil field services now 12% of book, down from 35-40% over the cycle.** Heavy de-risking post-2015-20 shakeout.
+- Net: energy is not a credit thesis channel for ZION. Disclosure is defensive-tone, not flag-raising.
 
 ### Thesis implications:
 - ZION's CRE book is **aging out cleanly** — 2021-22 construction vintages rolling off without migration. That's the optimistic scenario OZK bulls model; ZION delivering it live.
@@ -160,7 +182,8 @@ Composition:
 ### Thesis implications:
 - **CET1 11.5% is flattering** — does not include unrealized AFS/HTM losses. Under proposed AOCI capital rewrite (comment period closes Jun 18), Cat III/IV banks must phase in unrealized losses.
 - **ZION Cat III/IV treatment** is unresolved but likely. $1.2B after-tax hit on $8.05B CET1 = -15% capital impact if fully phased.
-- This is the **buried bomb** that the Q1 print's clean credit metrics don't address. AOCI thesis intact for ZION (and cohort).
+- **OFFSET — Basel III endgame:** Richards (Treasurer, Q&A with Chiaverini) — finalized Basel III endgame would deliver **~9-10% RWA relief, equating to +93bps CET1 for ZION**. If both rules finalize same window, AOCI drag is partially neutralized; if Basel endgame finalizes first, ZION's capital headroom actually expands.
+- This is the **buried bomb** that the Q1 print's clean credit metrics don't address, BUT Basel III endgame is the equally-buried offset. AOCI thesis intact for cohort; ZION-specific, attenuated.
 - **Jun 18 comment period close** remains the relevant catalyst. Q1 prints don't move this.
 
 ---
@@ -199,6 +222,66 @@ ZION's only BDC-adjacent exposure is **SBIC investments**:
 - General: Quarterly SBIC success-fee accruals $0-$2M.
 
 **No separate BDC line.** BDC concern on STATUS.md likely referred to SBIC portfolio which is investment securities, not lending. Small-ball, not thesis material.
+
+---
+
+## 10a. POSITIVE OPERATING LEVERAGE — BEAT IS REAL, NOT ACCOUNTING
+
+Initial post-call read framed the EPS beat as "low-quality" (rev + NII miss, but EPS beat via lower provision). Transcript revises this:
+
+- **POL delivered: 270bps in Q1.**
+- **Full-year guide: 100-150bps.**
+- **→ Q1 alone delivered ~2x the high end of the full-year goal in a single quarter.**
+- Drivers per prepared remarks: (a) 72bps front-book vs back-book spread (loan repricing tailwind persists); (b) fixed-rate asset repricing; (c) discipline on expense growth — **ZION headcount -20% vs 2008 peak** while delivering +25% productivity per $1 of assets.
+
+### Implication:
+- The ZION beat is **not an accounting artifact**. Core operating trajectory is running ahead of schedule.
+- Revises my earlier framing to Will ("low-quality beat, market saw through it"). Better framing: **the market faded on rev/NII headline but missed the POL datapoint** — which is the number management wants investors focused on. Possible reason for mild tape fade vs a bigger drop.
+
+---
+
+## 10b. BASIS MULTIFAMILY FINANCE ACQUISITION (NEW)
+
+**Announced with earnings:** ZION acquiring **Basis Multifamily Finance** — Fannie Mae / Freddie Mac agency MF origination platform. Pending regulatory approval.
+
+### Structure (Arfstrom Q&A):
+- **Balance-sheet-light.** ZION balance sheet used *only* for origination, construction, and stabilization of loans — then sold to the agencies.
+- Not a portfolio MF book expansion.
+- Fee-revenue + cross-sell play.
+
+### Thesis implications:
+- Counter-intuitive for REGINALD framing: ZION is a "CRE-cautious" regional just acquired a MF origination platform.
+- Reconciliation: the platform generates fees without adding material MF concentration risk — the balance sheet exposure is transient (origination + construction only).
+- **Watch:** does the Q2 or Q3 supplement show a "held-for-sale MF" line that grows materially? That's where balance-sheet-light could become balance-sheet-medium.
+- **Cross-read to CREED:** Fannie/Freddie agency origination is where MF stress tends to surface last — the agencies keep taking paper even when private CMBS MF stresses. ZION is positioning to catch flow that's already been rejected by private channels.
+
+---
+
+## 10c. NIM / NII — COMPRESSION WITH TAILWINDS
+
+| Metric | Q1 2026 | QoQ | YoY |
+|--------|---------|-----|-----|
+| NIM | 3.27% | -4bps | — |
+| NII | $662M | -$21M (-3%) | +$38M (+6%) |
+| Front book vs back book spread | 72bps | — | persistent |
+
+### Headline vs detail:
+- NIM compressed -4bps QoQ = the NII miss driver.
+- BUT: two accounting items **dampened loan growth optics**, not credit-driven:
+  - **$500M residential mortgage pool sold HFS** — removed from loan balance.
+  - **$100M derivative netting reclassification** — also reduced gross loan optics.
+- Adjusted for both, underlying loan growth was slightly positive.
+
+### Cross-cohort NIM data (now 7/7 with ZION):
+- PNC, CFG, FITB, MTB, RF all compressed QoQ on NIM.
+- ZION -4bps QoQ is middle-of-pack.
+- Cohort-wide NIM compression = deposit cost catch-up continuing. Not ZION-specific stress.
+
+---
+
+## 10d. TCS QUARTZ TOKENIZED DEPOSITS (sidebar)
+
+Simmons named **TCS Quartz** — ZION's partnership on a tokenized-deposits platform. Not a 2026 revenue driver; forward-looking tech positioning. Relevance: ZION positioning itself as a BaaS/fintech-enabled player despite being a traditional regional — potentially deflects the "obsolete regional" short narrative over time.
 
 ---
 
@@ -246,11 +329,13 @@ ZION's only BDC-adjacent exposure is **SBIC investments**:
 
 | Target | Signal | Priority |
 |--------|--------|----------|
-| PROME | ZION Q1 mixed print (beat EPS, miss rev) → AH -1.6%. Second clean-name mild fade after FITB. | 🟡 |
-| CARL | ZION NCO 3bps, credit card/auto language absent. No consumer stress signal. | 🟢 |
+| PROME | ZION Q1 mixed print (beat EPS, miss rev) → AH -1.6%. POL 270bps delivered vs 100-150bps FY guide — core operating trajectory running 2x ahead. | 🟡 |
+| CARL | **UPGRADED 🟠** — Steward named restaurants + consumer-focused businesses as new credit watch. First ZION consumer-facing concern of cycle. Could front-run card/auto DQ acceleration. | 🟠 |
 | HENRY/LIQUID | ZION does NOT confirm capital markets stress (RF only 1/6 so far). | 🟡 |
-| BRENT/HAWK | Stewart: "not seeing impacts from events in the Middle East." Consistent with Brent de-escalation. | 🟢 |
-| OTTO | NDFI cohort now 6/6. ZION $2B = cohort floor. "36x spread" confirms NDFI idiosyncratic. | 🟠 |
+| BRENT/HAWK | Steward: "not seeing impacts from events in the Middle East." Consistent with Brent de-escalation. Energy book $2B flat, 40% of peers exited category. | 🟢 |
+| OTTO | NDFI cohort now 6/6. ZION $2B = cohort floor. McLean explicit peer swipe: *"peers...gulping down these loans."* "36x spread" + named-and-shamed posture confirms NDFI idiosyncratic + discipline divergence. | 🟠 |
+| CREED | **Basis Multifamily Finance acquisition** (pending regulatory approval) — Fannie/Freddie agency origination platform. Balance-sheet-light but worth monitoring Q2/Q3 supplements for HFS-MF line growth. | 🟡 |
+| PROME (Basel) | Richards: finalized Basel III endgame = **+93bps CET1 for ZION** (9-10% RWA relief). Partially offsets AOCI phase-in drag. Cross-cohort relevance — same offset applies to WAL, CFG, PNC, etc. | 🟠 |
 
 ---
 
@@ -270,6 +355,8 @@ ZION's only BDC-adjacent exposure is **SBIC investments**:
 
 ## SESSION LOG
 
-- **Pulled:** 2026-04-20 post-call. Release, 8-K supplement (via StockTitan mirror), full call transcript (via Benzinga), Yahoo Finance cohort commentary.
-- **Blocked:** SEC EDGAR direct (403), most primary IR pages.
+- **Pulled:** 2026-04-20 post-call. Release, 8-K supplement (via StockTitan mirror), initial call transcript extract (via Benzinga), Yahoo Finance cohort commentary.
+- **Revised:** 2026-04-20 evening. Full Quartr transcript received from Will, saved at `sources/transcript_Q1_2026.md`. Transcript-driven corrections: (1) NDFI $2B quote attributed to Scott McLean (President/COO), not Simmons; (2) CRE color attributed to Derek Steward (CCO); (3) added POL 270bps detail; (4) added Basis Multifamily Finance acquisition; (5) added Basel III +93bps CET1 benefit; (6) added NIM compression detail with HFS/derivative-netting dampeners; (7) added restaurants + consumer-focused businesses credit watch; (8) added energy book color; (9) added TCS Quartz tokenized deposits mention; (10) added McLean NDFI peer swipe quote.
+- **Revised framing:** Initial "low-quality accounting beat" call to Will is replaced — POL 270bps vs 100-150bps guide is the story management wants investors focused on, and the tape fade was likely the market fixating on headline NII miss while missing the operating leverage delivery.
+- **Blocked:** SEC EDGAR direct (403), most primary IR pages. Quartr MCP session terminated — needs re-auth.
 - **Next:** Round 2 on deck PDF (pending Will pull or alternative mirror). WAL + OZK Tue print will update cohort pattern.
