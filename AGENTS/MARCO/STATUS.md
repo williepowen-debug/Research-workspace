@@ -1,5 +1,5 @@
 # MARCO STATUS
-**Last Updated:** 2026-04-18 11:15 ET | **Status:** 🔴 RED (DHS shutdown Day 59, automation buildout in progress)
+**Last Updated:** 2026-04-20 20:15 ET | **Status:** 🔴 RED (DHS shutdown ~Day 61-64, FL condo inventory BREACHED 9.1mo, produce spike live)
 
 ---
 
@@ -7,8 +7,8 @@
 
 | Indicator | Value | Status |
 |-----------|-------|--------|
-| DHS Shutdown | Day 59, STILL NO resolution. Senate passed bill (no ICE/CBP funding), House conservatives blocking. Shutdown continues. | 🔴 BREACHED |
-| TSA Disruption | 400+ quit, back pay flowing but structural damage done, shutdown continues | 🔴 BREACHED |
+| DHS Shutdown | ~Day 61-64, no resolution. Johnson refusing Senate-passed bill; Thune drafting "skinny" reconciliation for ICE/CBP (target late Apr). Trump Jun 1 deadline. | 🔴 BREACHED |
+| TSA Disruption | Callout 6.95-8% nationally (down from 12.35% Mar 27 peak); ATL 24.6%, PHL 21.5% still elevated. 300+ quits confirmed. | 🔴 BREACHED |
 | ICE Raids | Expanding: +58% arrests CA Central Valley, rural MN meatpacking, 14 custody deaths in 2026 | 🔴 BREACHED |
 | FL Net Domestic Migration | 22,517 (93% collapse); Miami domestic migration now **-2.0%** — worse than pre-COVID NYC (Kolko/Census to Jul 2025) | 🔴 BREACHED |
 | Canadian Visitors to US | Feb 2026: 1.5M trips, air -17.6% YoY, land -12.9% (14th consecutive decline) | 🔴 BREACHED |
@@ -16,25 +16,24 @@
 | Mexico Remittances Feb 2026 | Feb +0.4% YoY ($4.377B); Jan-Feb bimester $9.062B, -0.5% YoY. Improvement from Jan (-1.4%) but cumulative still negative. Full-year 2025: -4.6% YoY ($61.8B) | 🔴 BREACHED |
 | Ag Employment | -155K + 2.2M self-deportations | 🔴 BREACHED |
 | H-2A Certifications | 415K + Red River Valley delays, interviews not til July | 🔴 BREACHED |
+| FL Condo Inventory | **9.1mo Mar 2026** (threshold 9.0 breached; Lee 14.6mo, Miami-Dade ~14.1mo) | 🔴 BREACHED |
 | E-Verify | ✅ OPERATIONAL | 🟢 ACTIVE |
 
-**Composite: 9 BREACHED indicators, 1 CONFIRMED disruption**
+**Composite: 10 BREACHED indicators, 1 CONFIRMED disruption**
 
 ---
 
 ## ACTIVE SITUATIONS
 
-### DHS Shutdown (Day 59, 🔴 CRITICAL — LONGEST EVER, NO RESOLUTION IN SIGHT)
-- **Day 59.** 3rd paycheck missed. Congress returned Apr 13-14 but still deadlocked:
-  - **Senate** passed bill (unanimously) funding DHS *except* ICE/CBP. House rejected it.
-  - **House** passed rival 8-week (60-day) stopgap funding all of DHS (213-203). Senate on recess, hasn't voted.
-  - Two competing bills, no conference. **Earliest possible Senate vote: Day 58 (Apr 13 return).**
-- **UPDATE (Apr 1):** NYT (3/30): "Senate Republicans Made No Move to End DHS Shutdown in Brief Session." Sen. Rick Scott calling to eliminate filibuster — no action. NorthJersey: "Next Senate vote won't happen until Day 58."
-- **TSA back pay started flowing Mon 3/31** per White House memo. But shutdown NOT legally resolved.
-- **TSA callout rate still ~12% nationally.** JFK, Baltimore, Houston, Atlanta all >33%. Hours-long lines at major hubs during spring break peak.
-- **400+ TSA officers have quit** since shutdown began. Structural damage (quits, training gaps) persists even if resolved Apr 13+.
-- ICE/CBP funded separately (OBBBA). TSA is the unprotected pressure point.
-- Transportation Sec. Duffy warned small airports may shut. Delta suspended Congressional member services.
+### DHS Shutdown (~Day 61-64, 🔴 CRITICAL — LONGEST EVER, NO RESOLUTION)
+- **~2 months in.** Day count ambiguous across sources (Fox Apr 16 = Day 60 → Day 64 today; MARCO prior Day 59 Apr 18 → Day 61). 3rd paycheck missed.
+- **Congress returned Apr 13-14 but did NOT advance either bill.**
+  - **House (Johnson) refusing** to floor the Senate-passed DHS-ex-ICE/CBP bill. Floor attention diverted to expiring FISA/spy powers.
+  - **Senate (Thune) drafting "skinny" reconciliation** for 3-year ICE/CBP funding. Target "middle to end of next week" per Johnson (~late Apr).
+  - **Senate GOP losing patience with Johnson** per The Hill/NOTUS. House Freedom Caucus pushing reconciliation over stopgap.
+- **New cliff:** Trump set Jun 1 deadline for reconciliation text.
+- **TSA:** Callout 6.95-8% nationally (down from 12.35% Mar 27 peak). ATL 24.6%, PHL 21.5% elevated. 300+ quits confirmed (prior 400+ figure not re-verified). Back pay continues per Mar 31 WH memo.
+- ICE/CBP funded separately (OBBBA). TSA remains the unprotected pressure point.
 
 ### ICE Construction Raids (🔴 CRITICAL — EXPANDING TO RURAL AG/MEATPACKING)
 - Rio Grande Valley: 10-15 raids per company. No-warrant raids taking documented + undocumented workers.
@@ -111,7 +110,7 @@
 - Migration 93% collapse (#1→#8). **NEW: Miami domestic migration -2.0% — worse than pre-COVID NYC (Kolko/Census to Jul 2025).** COVID-era population boom explicitly reversing.
 - Canadian tourism structural decline (-22%).
 - TSA chaos hitting FL airports during spring break peak — shutdown continues through recess.
-- Insurance 4.5x national. Condo inventory 8.8mo.
+- Insurance 4.5x national. Condo inventory **9.1mo Mar 2026 (BREACHED threshold)** — Lee 14.6mo, Miami-Dade ~14.1mo.
 - **Miami -2.0% is a leading indicator.** Migration turns before prices. This is the housing demand withdrawal signal CARL needs.
 - → CARL cross-post required: Miami migration -2.0% = Path C confirmation (housing demand withdrawal, FL dimension).
 
@@ -124,11 +123,11 @@
 | 26 | ICE construction raids → housing start delays (TX, AZ, FL) | Q2 2026 | 70% | 60% vol drop = leading indicator |
 | 25 | TSA disruption → measurable FL airport delays | NOW | **98%** | ↑ 400+ quit, 40%+ callout at hubs |
 | 14 | CA produce prices +15% | H2 2026 | 60% | H-2A wage cuts don't fix bottleneck; no survey data to contradict |
-| 8 | FL condo inventory >9 months | Q2 2026 | 75% | |
+| 8 | ~~FL condo inventory >9 months~~ | Q2 2026 | ✅ | **RESOLVED-CORRECT 2026-04-17**: 9.1mo Mar 2026 print (FL Realtors). Breached early before Q2 midpoint. |
 | 22 | OIA flips negative | Q2-Q3 2026 | 70% | |
 | 24 | All 3 FL airports negative simultaneously | Q3 2026 | 65% | |
 | 11 | H-2A certifications >425K | FY 2026 | 75% | ↑ admin pushing volume |
-| 21 | Planting-season raid surge → produce spike | Mar-May 2026 | 55% | ↑ no NASS data to track — flying blind |
+| 21 | Planting-season raid surge → produce spike | Mar-May 2026 | **68%** | ↑ 55→68 (2026-04-20). CPI fresh F&V +4.0% YoY / **+1.0% MoM** Mar (annualizing ~12%, 70bps above headline). NW farm labor not easing; CA blueberry rot. Hormuz fertilizer additive. |
 
 ---
 
@@ -139,8 +138,10 @@
 | **Mar 28** | ✅ 2nd TSA paycheck missed |
 | **Mar 31** | ✅ TSA back pay started per WH memo; USDA Planting Intentions released |
 | **Apr 1** | ✅ JOLTS Feb 2026: hires 3.1% (COVID-low) |
-| **Apr 13** | Congress returns (Senate) = Day 58 of shutdown — earliest possible vote |
-| **Apr 14** | House returns — Day 59 |
+| **Apr 10** | ✅ BLS CPI Mar 2026: fresh F&V +4.0% YoY, **+1.0% MoM** — produce spike live (Prediction #21 upgrade trigger) |
+| **Apr 13** | ✅ Senate returned — no DHS floor vote taken |
+| **Apr 14** | ✅ House returned — no DHS floor vote; attention diverted to FISA/spy powers |
+| **Apr 17** | ✅ FL Realtors Mar 2026: condo inventory **9.1mo** (BREACHED 9.0; Lee 14.6mo, Miami-Dade ~14.1mo). Prediction #8 RESOLVED-CORRECT. |
 | **Apr 1** | ✅ Banxico Feb 2026 remittances: +0.4% YoY ($4.377B); Jan-Feb -0.5% YoY |
 | **~May 2026** | Banxico Mar 2026 remittance release |
 | **~May 22** | House stopgap expires (if Senate passes it) — next cliff |
@@ -154,7 +155,7 @@
 | Direction | Agent | Signal |
 |-----------|-------|--------|
 | → LABOR | 🔴 ICE construction raids = supply shock on demand shock. 1-in-3 foreign-born. Permanent ag data gap. **NEW: JOLTS 3.1% hires = substitution mechanism broken — ag labor gap wider than modeled.** |
-| → REGINALD | 🔴 Construction raids → housing start delays. FL triple exposure compounding. Small airport closure risk. |
+| → REGINALD/CORAL | 🟠 **NEW 2026-04-20: FL condo inventory BREACHED 9.1mo Mar 2026** (Lee 14.6mo, Miami-Dade ~14.1mo, supply-driven — not demand collapse). Collateral deterioration Q2-Q3. 🔴 Construction raids → housing start delays. FL triple exposure compounding. Small airport closure risk. |
 | → CARL | 🔴 **NEW: Miami domestic migration -2.0% (worse than pre-COVID NYC). COVID population boom reversing. Path C confirmation — housing demand withdrawal, FL dimension. Route this signal.** TSA chaos + spring break disruption continues. |
 | → NEXUS | 🔴 10 breached/upgraded indicators. Ag labor black box. JOLTS COVID-low hires compounds supply shock. Miami migration reversal = FL housing leading indicator. |
 
