@@ -1,176 +1,159 @@
 # HAWK STATUS
-**Agent:** HAWK (Gulf Energy Infrastructure & Oil Market)
-**Last Updated:** 2026-04-20 14:30 UTC
-**War Day:** 51 | **Scenario:** D 70% / C 22% / B 8%
-**Convergence:** 35/45 🔴🔴 ELEVATED (de-escalated from MAXIMUM)
-**Brent:** $94.28 (post-ceasefire volatility, above $80-100 Scenario C threshold)
+**Agent:** HAWK (Geopolitical & Military Risk — Gulf Infrastructure, Iran War, Chokepoints)
+**Last Updated:** 2026-04-20 20:15 EDT (Mon night boot)
+**War Day:** 51 | **Ceasefire Day:** 13 of 14 | **Scenario:** D 75% / C 20% / B 5%
+**Convergence:** 41/45 🔴🔴 CRITICAL (re-elevated — Hormuz reclosure, ship seizure, Iran Round 2 rejection, deadline T-1)
+**Brent:** $95.42 [CONF TradingEconomics Apr 20] (+5.58% today — market pricing re-escalation)
 
 ---
 
-## ⚠️ CRITICAL UPDATE — Days 33-51 (Apr 2 - Apr 20, 2026)
+## ⚠️ CRITICAL — CEASEFIRE EXPIRES TOMORROW (Apr 21 8pm ET)
 
-**CRITICAL UPDATE: Brent price corrected to $94.28 (live). Scenario C probability raised to 22% (from 12%). Ceasefire durability questioned at $80+ price level.**
+**Previous STATUS had ceasefire dates wrong. Corrected facts below.**
 
-### Ceasefire Timeline (What Actually Happened):
+### Corrected Timeline
+- **Apr 7-8** — Two-week US-Iran ceasefire signed (Omani/Pakistani mediation), in exchange for Iran reopening Hormuz | [CONF NPR/CNN/Wikipedia Apr 20]
+- **Apr 11-12** — Islamabad Round 1 talks — 21 hours, NO DEAL. Vance: "Tehran refused Washington's terms." US announces blockade of Iranian ports as talks collapse | [CONF Al Jazeera/NPR Apr 12]
+- **Apr 17** — Iran announces Hormuz reopened during truce | [CONF Fox/Reuters Apr 17]
+- **Apr 18** — Iran REVERSES, closes Hormuz after US refuses to lift blockade. IRGC: "closed until US blockade lifted" | [CONF WaPo/CNN/PBS/NBC Apr 18]
+- **Apr 18-19** — VLCC Sanmar Herald + 2 Indian-flagged ships fired on by IRGC gunboats. Container ship hit by rocket off Oman coast | [CONF NBC Apr 19]
+- **Apr 19** — US seizes Iran-flagged vessel defying blockade. Tehran vows retaliation | [CONF CNN/USNews Apr 19]
+- **Apr 20** — Brent $95.42 (+5.58%) — Hormuz traffic collapses to 16 ships/day. Ghalibaf: "still far from final discussion" | [CONF TradingEconomics/AJ Apr 20]
+- **Apr 21 8pm ET** — **CEASEFIRE EXPIRES.** Trump: extension "highly unlikely" without deal | [CONF CNN Apr 20]
+- **Apr 21** — Vance departs Washington for Islamabad ahead of Round 2 | [CONF AajTV Apr 20]
+- **Apr 19** — @BRICSinfo reports Iran **rejects** Round 2 participation (525K views; Iran/Russia/China-aligned source; not yet corroborated by Reuters/AP) | [CONF BOARD SIG-W-20260419-024 Apr 19]
+- **Apr 22** — **Islamabad Round 2** scheduled. Iran has signaled rejection (above); Araghchi citing US ceasefire violations. Attendance now weighted against, not merely uncertain | [CONF Al Jazeera Apr 20]
 
-**Apr 6 — Deadline Came and Went**
-- Trump's energy plant strike deadline passed without US kinetic action
-- No Iranian preemptive strike materialized
-- Diplomatic channels remained open despite public rejection posture
-- Market held breath; Brent stable around $108-112
-
-**Apr 12-13 — Ceasefire Declared**
-- Iran-Israel agreement announced through Omani mediation
-- Framework included: cessation of hostilities, prisoner exchange, humanitarian corridor
-- Houthi stand-down commitment secured (separate but parallel track)
-- US-Iran talks framework signed — direct diplomatic channel established
-
-**Apr 13-20 — Post-Ceasefire Reality**
-- Brent initially collapsed from $116.43 → $64.50 (-44.6%)
-- **CORRECTED Apr 20:** Live Brent at $94.28 — retraced 66% of collapse, re-entering Scenario C territory ($80-100)
-- Market pricing: (1) ceasefire fragility concerns, (2) physical supply still disrupted, (3) demand destruction fears moderated
-- Houthi activity de-escalated; Red Sea shipping risk premiums compressing
-- Hezbollah attacks reduced; Lebanon front cooling
+### Why the Day 51 Frame Still Applies
+War Day 1 = Feb 28 (Operation Epic Fury). Active combat = ~12 days ("Twelve-Day War"). Ceasefire = tactical pause within ongoing conflict. Day 51 = total elapsed from kinetic start.
 
 ---
 
-## Current Situation Summary (Updated Apr 20, Day 51)
+## Scenario Probability — Revised (Apr 20 Evening)
 
-**War Day 51. Ceasefire holding (Day 8). Scenario D reduced to 70% (from 82%). Brent at $94.28 — re-entering elevated risk zone.**
+**Prior: D 70% / C 22% / B 8% (Apr 20 morning, pre-correction)**
+**New: D 75% / C 20% / B 5% (Apr 20 evening, post-correction)**
 
-The Apr 6 deadline passed without kinetic escalation. Within 6 days, a ceasefire framework emerged through Omani mediation. The agreement is fragile — no permanent treaty, no full diplomatic normalization — but kinetic hostilities have paused.
-
-**Key structural changes from ceasefire:**
-- Hormuz remains technically "closed" (insurance, mine risk) but enforcement posture lifted
-- No new facility strikes since Apr 12
-- Houthi Red Sea attacks suspended
-- US-Iran direct talks framework established (first since 1979)
-
-**Why D remains at 82% (not lower):**
-- Ceasefire is tactical pause, not permanent settlement
-- No mine clearance operations visible
-- No insurance reinstatement yet
-- Infrastructure damage remains (Fujairah, Ras Laffan, ADCOP, etc.)
-- Iran nuclear program status unresolved
-- Houthi compliance is voluntary and reversible
-- "Weeks not months" US posture could restart
-
----
-
-## Scenario Probability Reassessment — Day 51
-
-**Previous: D 82% / C 12% / B 6% (Apr 20 14:30 UTC) → New: D 70% / C 22% / B 8% (Apr 20 17:48 EDT)**
-
-### Scenario B — Deal/Stand-Down (8%, ↑2)
+### Scenario B — Deal/Stand-Down (5%, ↓3)
 - **Brent:** $60-80 range
-- Ceasefire holds → permanent agreement → infrastructure repair timeline confirmed
-- **CONDITIONS FOR UPGRADE:** Mine clearance begins + insurance reinstatement + 30-day ceasefire hold + QatarEnergy restart timeline + Brent stable <$80
-- **Current assessment:** Ceasefire is 8 days old. Brent at $94.28 reduces B probability. Need price <$80 to confirm deal stability.
+- Ceasefire extended + real deal emerges from Islamabad Round 2
+- **Why lowered:** Round 1 collapsed (21h, no deal). Blockade in effect. Hormuz reclosed. Ship-on-ship gunfire. Trump "highly unlikely" to extend. Iran has signaled **rejection** of Round 2 (BRICSinfo Apr 19, pending Reuters/AP corroboration).
 
-### Scenario C — Limited Escalation / Controlled Burns (22%, ↑10)
+### Scenario C — Limited Escalation / Controlled Burns (20%, ↓2)
 - **Brent:** $80-130 range
-- Ceasefire under stress OR partial failure with contained re-escalation
-- **CONDITIONS:** Brent $80-100 sustained OR Houthi resumes attacks OR Iran strikes isolated facility OR Israel unilateral action OR ceasefire terms renegotiated
-- **Current assessment:** Brent $94.28 = Scenario C territory. Price action signals market doubts ceasefire durability. 10-point probability increase warranted.
+- Ceasefire lapses but re-escalation stays contained (no new facility strikes, Hormuz closed but no major kinetic). Brent $95-110.
+- **Current read:** Brent $95.42 already at C-midpoint. Hormuz reclosure is C-territory action. A short extension or "de facto" pause could keep this as base.
 
-### Scenario D — Full Collapse / Nuclear Escalation (70%, ↓12)
-- **Brent:** $150-200+ (if triggered)
-- Ceasefire collapses + full Gulf infrastructure campaign resumes
-- **D variants (updated Apr 20):**
-  - D1: Ceasefire collapses within 30 days → rapid re-escalation to Phase 5
-  - D2: Israel unilateral strike on Iran nuclear sites (outside ceasefire terms)
-  - D3: Houthi independent escalation (ceasefire doesn't hold)
-  - D4: Gulf coalition fracture from ceasefire terms (Kuwait/UAE reject terms)
-  - D5: Brent sustained $100+ signals market pricing full collapse probability
+### Scenario D — Full Collapse / Phase 3 Infrastructure Campaign (75%, ↑5)
+- **Brent:** $130-200+
+- Ceasefire expires without deal → kinetic resumes → Phase 3 facility targeting (Yanbu risk, ADCOP extension, more Qatar/UAE damage)
+- **D variants:**
+  - D1: Apr 21 8pm passes without extension, Apr 22 talks fail or Iran no-shows → rapid Phase 5 re-escalation
+  - D2: Ship-on-ship incidents metastasize before 8pm deadline (any US vessel hit = instant escalation)
+  - D3: Israel unilateral strike on Iran nuclear sites outside US ceasefire framework
+  - D4: Iran retaliation for Apr 19 ship seizure triggers US counter-strikes
+  - D5: Hormuz firing continues → tanker sinking or US military escort engagement
 
-**Factors pulling DOWN from 82%:**
-- Ceasefire declared and holding (8 days)
-- No kinetic action Apr 6
-- Houthi stand-down achieved
-- US-Iran talks framework established
+**Factors pushing D UP from 70%→75%:**
+- Islamabad Round 1 already FAILED after 21h
+- Hormuz physically reclosed by Iran Apr 18
+- Ship-on-ship gunfire now routine (Sanmar Herald, Indian tankers, Oman rocket)
+- US seized Iranian vessel — Tehran retaliation threat outstanding
+- Trump: extension "highly unlikely"
+- Brent +5.58% in single session = market pricing failure probability
+- Iran FM Araghchi citing "continued US violations" as obstacle; BRICSinfo Apr 19 reports explicit rejection of Round 2 attendance
 
-**Factors keeping D elevated at 70%:**
-- Ceasefire is tactical, not strategic
-- No visible mine clearance (Hormuz still unpassable commercially)
-- No insurance reinstatement
-- Infrastructure damage unresolved
-- Iran nuclear status frozen, not resolved
-- Houthi compliance reversible
-- Israel may act outside ceasefire framework
-- **Brent $94.28 = market pricing ceasefire stress, not full de-escalation**
+**Factors still anchoring B/C (25% combined):**
+- Vance physically flying to Islamabad Apr 21 = diplomacy not dead
+- Pakistan/Oman mediation channel active
+- No new facility strikes since Apr 12
+- IAEA inspections framework still discussable
+- Both sides likely prefer ambiguity over full rupture
 
----
-
-## Convergence Matrix (Revised Post-Ceasefire)
-
-| Vector | Score | Current State |
-|--------|-------|---------------|
-| Hormuz status | 🔴 4 | Ceasefire declared; enforcement posture lifted; BUT no mine clearance visible, insurance still suspended |
-| Iran military ops | 🟡 3 | Ceasefire holding; US-Iran talks framework; nuclear status unresolved |
-| Oil price | 🔴 4 | Brent $94.28 — re-entered Scenario C territory ($80-100); ceasefire stress signal |
-| Gulf production | 🔴 4 | Damage remains (Fujairah, Ras Laffan, ADCOP); no restart timelines announced |
-| Hezbollah/proxies | 🟡 3 | Lebanon front cooling; attacks reduced but not zero |
-| Diplomatic channels | 🟡 3 | Ceasefire achieved; US-Iran talks framework; Omani mediation active |
-| Shadow fleet/shipping | 🔴 4 | War risk still uninsurable; VLCC rates elevated; no normalization yet |
-| Food/fertilizer | 🟡 3 | Fertilizer supply disrupted; planting season impacts pending |
-| Global economy | 🟡 3 | Brent collapse = relief but also recession signal; credit conditions still tight |
-
-**Convergence: 36/45 🔴🔴 — ELEVATED (up from 35/45, oil price vector elevated)**
-
-Ceasefire reduces immediate kinetic risk but structural damage and unresolved diplomatic issues keep convergence elevated. The 10-point reduction reflects tactical de-escalation, not strategic resolution.
+**⚠️ A-family head-fake risk (per DEADLINE_SCENARIO_TREE_APR21.md):** If a short extension announcement drops pre-8pm ET, expect sharp Brent relief ($95→$80s) that does NOT resolve the structural damage or Hormuz reclosure. Pre-register: extension language alone is not a thesis-break — demand mine clearance + blockade lift + Iran Hormuz reopen before downgrading D. Relief rallies should be faded absent those three.
 
 ---
 
-## Cross-Agent Transmission (Updated Apr 20)
+## Convergence Matrix (Revised Apr 20 Evening)
+
+| Vector | Score | Current State | Threshold → Next Level |
+|--------|-------|---------------|------------------------|
+| Hormuz status | 🔴🔴 5 | Closed by Iran Apr 18; 16 ships/day (vs ~40 normal); gunfire on VLCCs | Already max |
+| Iran military ops | 🔴 4 | Gunboat engagements on commercial shipping; blockade vs blockade posture | Direct US-Iran navy clash = 5 |
+| Oil price | 🔴 4 | Brent $95.42, +5.58% today; re-entered Scenario C midpoint | >$110 sustained = 5 |
+| Gulf production | 🔴 4 | Damage remains (Fujairah, Ras Laffan, ADCOP); no restart during blockade | New strike on Yanbu/GCC = 5 |
+| Hezbollah/proxies | 🟡 3 | Lebanon front cool but Araghchi demands Lebanon in deal; Hezbollah can reactivate | Mass rocket salvos = 4 |
+| Diplomatic channels | 🔴 4 | Round 1 collapsed; Iran signaled Round 2 rejection (BRICSinfo Apr 19) | Formal no-show Apr 22 = 5 |
+| Shadow fleet/shipping | 🔴 4 | Hormuz traffic 60% down; war risk uninsured; tanker fire risk | Tanker sinking = 5 |
+| US-Iran direct kinetic | 🟠 3 | US seized Iranian ship Apr 19; Tehran retaliation pending | US vessel hit = 5 |
+| Global economy/credit | 🟡 3 | IMF GFSR warned on liquidity facilities Apr 14; credit re-stressing | HY OAS >500bps = 4 |
+
+**Convergence: 41/45 🔴🔴 CRITICAL** — up from 40/45 on Iran Round 2 rejection (BRICSinfo Apr 19, pending corroboration) upgrading diplomatic channels 🟠→🔴.
+
+---
+
+## Cross-Agent Transmission (Apr 20 Evening)
 
 | Agent | Signal | Current |
 |-------|--------|---------|
-| **BRENT** | Oil price volatility → ceasefire stress signal | 🔴🔴 Brent $94.28 — 66% retracement of post-ceasefire collapse; market pricing ceasefire durability concerns; Scenario C threshold breached |
-| **CARL** | Gas prices + consumer impact | 🟡 Gas prices elevated with Brent $94; consumer relief from $64 lows reversed; watch for demand destruction at pump |
-| **HENRY** | Vol regime shift | 🟡 VIX compression expected post-ceasefire; but oil collapse may trigger new vol in energy credits |
-| **LIQUID** | Risk sentiment shift | 🟡 Brent $94.28 = risk-off signal; credit spreads may widen if ceasefire doubts persist |
-| **SAM** | Japan energy import relief | 🟡 Dubai crude collapse = import cost relief; but yen carry trade unwind risk remains |
-| **REGINALD** | Regional bank energy exposure | 🟡 Oil price volatility $64→$94 creates mark-to-market uncertainty; energy loan books stressed at both extremes |
-| **RED** | Ceasefire durability | 🟡 Ceasefire 8 days old; monitor for narrative shifts; thesis kill conditions partially met |
-| **BROCK** | Private credit energy exposure | 🟡 Energy sector private credit marks down; midstream stress possible |
+| **BRENT** | Oil price | 🔴🔴 $95.42 +5.58% single-session; market pricing deadline failure — defer to BRENT for levels |
+| **CARL** | Gas prices / demand destruction | 🟠 Retail gas lag 2-3wk from $95 Brent; watch for pump pressure into early May |
+| **HENRY** | VIX / vol regime | 🔴 Expect VIX spike tomorrow and Wed if deadline passes; HENRY owns level |
+| **LIQUID** | Flight to safety / HY OAS | 🟠 Credit re-stressing; HY spreads likely widen on ceasefire lapse |
+| **SAM** | Japan energy | 🟡 Dubai crude co-moves w/ Brent; JPY safe-haven bid likely on lapse |
+| **REGINALD** | Regional bank energy loans | 🟡 Oil $95 = midstream mark-up, but KRE broadly risk-off on lapse |
+| **BROCK** | Private credit | 🟡 Energy infrastructure marks volatile; IMF GFSR flagged NBFI risk Apr 14 |
+| **RED** | Ceasefire durability narrative | 🔴 Thesis-kill path NOT on track: Round 1 failed, Hormuz reclosed, price rising |
+| **ZHAO** | Petrodollar / China reaction | 🟡 Chinese tanker exposure in Hormuz; Wang Yi mediation track |
 
 ---
 
-## Watch Items (Priority — Updated Apr 20, Day 51)
+## Watch Items (T-Minus Hours — Apr 20 PM → Apr 22)
 
-**⚠️ CEASEFIRE DURABILITY WINDOW — Days 8-30 Critical**
+**⚠️ NEXT 48 HOURS DOMINATE EVERYTHING**
 
-- [ ] **30-day ceasefire hold (Apr 12 → May 12):** Does the pause last? Any kinetic incident resets to D 95%+
-- [ ] **Mine clearance operations:** USN MCM vessels deploying? This is the key physical indicator of genuine de-escalation
-- [ ] **Insurance reinstatement:** Lloyd's/P&I clubs lifting war risk exclusions? Required for commercial shipping return
-- [ ] **QatarEnergy restart timeline:** Ras Laffan repair schedule announced? 3-5 year repair was baseline
-- [ ] **Fujairah/ADCOP status:** Any repair commencement? UAE export capacity restoration timeline
-- [ ] **US-Iran talks progress:** Framework signed → concrete agreements? Nuclear program discussion scope
-- [ ] **Houthi compliance duration:** How long does Red Sea stand-down hold? Independent actor risk
-- [ ] **Israel unilateral action risk:** Does Israel accept ceasefire terms or strike nuclear sites independently?
-- [x] **Brent demand destruction signal:** $64.50 pricing was transient; $94.28 = demand fears moderated, supply concerns dominant
-- [ ] **Brent $100 test:** If ceasefire cracks, $100+ confirms Scenario C→D transition
-- [ ] **Gulf coalition cohesion:** Kuwait/UAE/Saudi alignment on ceasefire terms; any fracture
-- [ ] **Congressional war powers:** Any hearings, resolutions, or funding shifts post-ceasefire
-- [ ] **China/Pakistan follow-through:** Wang Yi ceasefire call succeeded; does China leverage for broader deal?
+- [ ] **Apr 21 ~8am ET — Vance Islamabad departure** confirm/abort signal
+- [ ] **Apr 21 AM-PM — Iran attendance decision** for Round 2 (BRICSinfo reports rejection Apr 19 — watch for Reuters/AP corroboration or Araghchi walk-back)
+- [ ] **Apr 21 8pm ET — CEASEFIRE EXPIRY** — any extension statement before this = B/C upgrade
+- [ ] **Apr 21 overnight — Tehran retaliation for Apr 19 seizure** — most likely window
+- [ ] **Apr 22 — Islamabad Round 2** — deal, delay, or collapse
+- [ ] **Hormuz transit count** — 16 ships Apr 19 → watch if hits 0 or rebounds >25
+- [ ] **Any US vessel engagement** — instant D escalation
+- [ ] **Yanbu / GCC facility strike** — Phase 3 confirmation
+- [ ] **Israeli unilateral signal** — nuclear site strike outside US framework
+- [ ] **Insurance/Lloyd's response** — any war risk rate hike tomorrow
 
 ---
 
-## CEASEFIRE FADE PROTOCOL — Day 51 Update
+## CEASEFIRE DURABILITY SCORECARD — Updated Apr 20
 
-**⚠️ CEASEFIRE ACHIEVED — Protocol shifts from "fade" to "monitor durability"**
+| Date | Headline | Tier | Real? | Outcome |
+|------|----------|------|-------|---------|
+| Mar 23 | "Productive talks" | 4 | ❌ Fake | ~3 day rally, faded |
+| Mar 26 | "Talks" (Iran denied) | 4 | ❌ Fake | Faded |
+| Mar 27 | "Apr 6 extension / Wang Yi" | 4 | ❌ Iran rejected same day | Faded |
+| **Apr 7-8** | **Ceasefire signed** | **2** | ✅ **Real but fragile** | 14-day clock; Round 1 collapsed Apr 11-12 |
+| Apr 11-12 | "Islamabad Round 1" | 3 | ❌ No deal 21h | US announced blockade |
+| Apr 17 | "Hormuz reopened" | 3 | ❌ Reversed next day | ~24h |
+| Apr 18 | "Hormuz reclosed" | 1 | ✅ Physically enforced | Ongoing |
+| Apr 19 | "US ship seizure" | 1 | ✅ Confirmed | Retaliation pending |
 
-**Running scorecard (updated):**
-| Date | Headline | Tier | Real? | Rally Duration | Recovery Time |
-|------|----------|------|-------|:-------------:|:-------------:|
-| Mar 23 | "Productive talks" | 4 | ❌ Fake | ~3 days | ~4 days |
-| Mar 26 | "Talks" (Iran denied) | 4 | ❌ Fake | TBD | TBD |
-| Mar 27 | "Apr 6 extension / Wang Yi ceasefire call" | 4 | ❌ Iran rejected terms same day | TBD | TBD |
-| Apr 12-13 | "Ceasefire declared" | 1-2 | ✅ REAL | Ongoing | — |
+**Signal:** The ONLY Tier 1-2 events have been kinetic/physical. Every Tier 3-4 diplomatic headline has been a fade. Apr 22 Round 2 will follow this pattern unless structurally different.
 
-**Hit rate: 1/4 real (25%). The Apr 12-13 ceasefire was the first Tier 1-2 event.**
+---
 
-**Routing signal to RED:** Ceasefire achieved but durability uncertain. Thesis kill conditions partially met (ceasefire signed) but infrastructure repair timeline (4-7 months) and mine clearance still pending. Recommend RED assess whether narrative shifts to "ceasefire fails" or "ceasefire holds but recession hits."
+## Exit Protocol Status (Apr 20 — DEGRADED)
+
+**Required for full geopolitical overlay exit:**
+1. ⏳ Ceasefire signed + credible hold — **DEGRADING** (2 days left, Hormuz reclosed, gunfire active)
+2. ❌ Mine clearance operations — NOT VISIBLE (blockade in effect instead)
+3. ❌ Insurance reinstatement — OPPOSITE direction (rates elevated)
+4. ❌ Fujairah assessment/repair — NO TIMELINE
+5. ❌ ADNOC restart — NO TIMELINE
+6. ❌ Shipping capacity recovery — COLLAPSED (16 ships/day Hormuz)
+7. ❌ Price <$80 — FAILED ($95.42, rising)
+
+**Progress: 0/7 met. Previous 1/7 (ceasefire) now degrading.** Exit path is worse than on Apr 20 morning.
 
 ---
 
@@ -181,40 +164,17 @@ Ceasefire reduces immediate kinetic risk but structural damage and unresolved di
 | Four Structural Breaks (Mar 18) | workbook/FOUR_STRUCTURAL_BREAKS_MAR18.md |
 | Exit Protocol & Falsification | workbook/EXIT_PROTOCOL.md |
 | Facility Damage Tracker | domain/OIL_FACILITY_DAMAGE_TRACKER.md |
-| KB (124+ entries through Apr 20) | workbook/KB.tsv |
-| Status Archive Apr 1 | workbook/STATUS_archive_20260401.md |
+| KB (144 entries incl. BOARD catchup KB-138 to 144) | workbook/KB.tsv |
+| Calendar (Apr 21/22 critical) | CALENDAR.md |
 
 ---
 
-## Exit Protocol Status (Updated Apr 20)
+## BOTTOM LINE — Apr 20 Mon 8pm EDT
 
-### Thesis Kill Progress Assessment:
+**Ceasefire expires tomorrow 8pm ET with no deal, Hormuz reclosed by Iran, ship-on-ship gunfire active, US seized an Iranian vessel Apr 19, Brent +5.58% today to $95.42. D 75% / C 20% / B 5%. Convergence 40/45.**
 
-**Required for full exit (per EXIT_PROTOCOL.md):**
-1. ✅ Ceasefire signed + credible hold (8 days so far; need 72h+ — MET)
-2. ⏳ Mine clearance operations begin (USN MCM vessels) — NOT VISIBLE
-3. ⏳ Insurance reinstatement by Lloyd's/P&I clubs — NOT YET
-4. ⏳ Fujairah terminal structural assessment + repair — NO TIMELINE
-5. ⏳ ADNOC production restart from cold shut — NO TIMELINE
-6. ⏳ Shipping capacity reactivation — NOT YET
-7. ⏳ Price normalization below $80 — ⏳ FAILED ($94.28, above $80 threshold)
+The Apr 20 morning STATUS had multiple dating errors (ceasefire dates, Round 1 outcome) and missed the cascade of Apr 17-19 escalation. The real picture is materially worse than represented: the ceasefire is a 14-day clock expiring in 24 hours, Round 1 Islamabad talks collapsed after 21 hours, and the physical escalation (Hormuz, gunfire, ship seizure) has resumed inside the ceasefire window.
 
-**Progress: 1/7 criteria met (ceasefire only — price normalization FAILED)**
+**The single most important thing to watch:** the Apr 21 8pm ET deadline. If Trump lets it expire without extension and Round 2 doesn't produce a deal, Phase 3 infrastructure targeting resumes and Brent reprices to $120-150+. If Vance gets a short extension (24-72h) from Round 2, that's a B/C signal — watch for "extension" language specifically, not "progress" rhetoric.
 
-**Critical insight:** Price has normalized BELOW pre-war levels due to demand destruction fears, but PHYSICAL supply chain remains damaged. This creates a divergence: market pricing recovery, but physical restart hasn't begun. Two possible paths:
-- Path A: Physical restart confirms → prices stabilize $70-85
-- Path B: Physical restart fails OR ceasefire collapses → prices spike back to $100+
-
----
-
-## Bottom Line — Apr 20 (Day 51)
-
-**Ceasefire achieved but not consolidated. D reduced to 70% (from 82%). Brent at $94.28 — re-entered Scenario C territory. Physical supply chain still damaged.**
-
-The Apr 6 deadline passed without escalation, and within 6 days a ceasefire emerged. This is the first genuine diplomatic breakthrough (Tier 1-2) after weeks of false signals. Houthi stand-down and US-Iran talks framework are material changes.
-
-However, the ceasefire is tactical, not strategic. No mine clearance is visible. No insurance reinstatement. No infrastructure repair timelines. The Brent recovery to $94.28 signals market pricing ceasefire stress, not full de-escalation. Price action contradicts $64.50 demand destruction thesis.
-
-**The key question for Days 30-60:** Does the ceasefire hold long enough for physical supply chain restart to begin? Or does the gap between market pricing (recovered) and physical reality (damaged) create a new volatility source?
-
-**Thesis Kill (partially met):** Ceasefire signed ✅ | Mine clearance pending ⏳ | Infrastructure repair pending ⏳ | Brent <$80 ⏳ (FAILED at $94.28). Full exit requires visible physical restart progress AND Brent <$80 sustained. Until then, D remains elevated at 70%.
+**What changed since last update:** Corrected ceasefire start date (Apr 7 not Apr 12), integrated Round 1 collapse, Hormuz reclosure, gunfire incidents, US ship seizure, and tomorrow's deadline. Scenario D up to 75%. Convergence up to 40/45.
