@@ -23,6 +23,28 @@
 
 ---
 
+## NEXT SESSION FOCUS (set 2026-04-20)
+
+**Tier 1 — do first:**
+1. **Process inbox** — OTTO WA ICE tracking (Apr 2) + PROME DHS deal (Apr 3) signals. ~3 weeks stale. OTTO's WA data likely refines Prediction #26 (construction raid housing delays).
+2. **Verify HERMES delivery** of 2026-04-20 outbox signals (CARL Miami migration, REGINALD/CORAL condo breach). Prome/OpenClaw degraded — sweep may not be running. Check `outbox/delivered/`; if empty, flag to Will for manual routing.
+3. **DHS reconciliation text watch** — Johnson/Thune targeted "middle-to-end of next week" (~late Apr) for skinny ICE/CBP reconciliation blueprint. If text drops, shutdown narrative shifts materially.
+
+**Tier 2 — important, not urgent:**
+4. **Build OFLC H-2A data pull** — NASS replacement. Planting-season window Mar-May still live; every session without it = blind through the peak. Framework scoped in `domain/sources/AG_LABOR_ALT_SOURCES_MAR26.md`.
+5. **April data prints due early-mid May:**
+   - Banxico Mar 2026 remittances (~May 1) — is Feb's +0.4% rebound structural or one-off?
+   - FL Realtors Apr 2026 (~May 17) — did 9.1mo hold or extend?
+   - BLS CPI Apr 2026 (~May 14) — Prediction #21 flip condition: fresh F&V MoM <0.2% AND H-2A catching up → downgrade; otherwise hold/upgrade.
+
+**Tier 3 — watch/background:**
+6. TSA April numbers when BTS posts (for Prediction #25 follow-through).
+7. Canadian summer (May-Aug) booking capacity — structural boycott payoff window.
+
+**Meta-question to raise:** VX-MARCO-SDL-01 (self-deportation) and VX-MARCO-EMG-01 (emigration) vectors awaiting PROME since before March. PROME degraded. Self-complete, or escalate to Will for routing decision?
+
+---
+
 ## ACTIVE SITUATIONS
 
 ### DHS Shutdown (~Day 61-64, 🔴 CRITICAL — LONGEST EVER, NO RESOLUTION)
