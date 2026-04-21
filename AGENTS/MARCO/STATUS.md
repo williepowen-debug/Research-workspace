@@ -1,5 +1,5 @@
 # MARCO STATUS
-**Last Updated:** 2026-04-21 ET | **Status:** 🔴 RED (DHS shutdown ~Day 61-64, FL condo inventory BREACHED 9.1mo, produce spike live, VX-SDL-01 formalized)
+**Last Updated:** 2026-04-21 ET (session 2) | **Status:** 🔴 RED (DHS shutdown ~Day 61-64, FL condo inventory BREACHED 9.1mo, produce spike live, VX-SDL-01 formalized, **sub-agent coordination pattern in-flight**)
 
 ---
 
@@ -23,25 +23,46 @@
 
 ---
 
-## NEXT SESSION FOCUS (set 2026-04-20)
+## NEXT SESSION FOCUS (updated 2026-04-21 session 2)
 
 **Tier 1 — do first:**
-1. ✅ **Inbox processed 2026-04-20 (this session):** OTTO WA ICE (Apr 2) already integrated in STATUS before delivery — no new data. PROME DHS deal (Apr 3) proved wrong — deal claimed for Apr 3 pro forma never materialized; STATUS reflects reality. Apr 3 sweep file (Puget Sound office, UK petrol, services contraction) not MARCO-relevant.
-2. ~~Verify HERMES delivery of 2026-04-20 outbox signals~~ (skipped per Will 2026-04-20). 2 signals still in outbox root (CARL Miami migration, REGINALD/CORAL condo breach).
-3. ✅ **DHS reconciliation text checked 2026-04-20:** No text released. Budget resolution (precursor) initiated but no timeline. Johnson's "end of next week" target (~Apr 17-18) has slipped. NEW finding: $75B OBBBA cushion already insulates ICE — skinny reconciliation is political, not operational. Jun 1 Trump deadline remains the binding date.
+1. **TEST the new coordination pattern with TOURISM.** Will is setting up a MARCO-as-moderator workflow — see "Sub-Agent Coordination Pattern" section below. TOURISM has been outfitted with `CLAUDE.md` + `thread.md` + `threads/archive/`. Next action: Will spawns a TOURISM session in a separate terminal; MARCO opens a small test thread (e.g., "state top-line Canadian travel read in 1 paragraph") to validate identity override + response format + round-trip mechanics before running a real coordination thread.
+2. **Decide MARCO session output format.** The brainstorm left this open ("idk"). My vote going in: **decision request primary** ("recommend X, want me to proceed?"); **coupling-map update secondary**. Pick a format before the second thread so synthesis has a target.
+3. **DHS reconciliation text check — weekly cadence.** Last check 2026-04-20 (no text, budget resolution precursor only, Johnson target slipped, $75B OBBBA cushion insulates ICE). Next due ~2026-04-27. Monitor congress.gov (new reconciliation bill number) + `budget.senate.gov` (Graham committee announcements). Jun 1 Trump deadline is the binding cliff.
 
 **Tier 2 — important, not urgent:**
-4. ✅ **OFLC H-2A data pull BUILT 2026-04-21** — `tools/h2a_pull.py` (Wayback CDX fallback for Akamai bot wall). Output at `baselines/h2a_latest.tsv`. Full writeup `domain/sources/OFLC_H2A_PULL.md`. Monthly auto-pull cadence recommended. NEXT: Addendum A pull for crop-level signal.
-5. **April data prints due early-mid May:**
+4. **Other sub-agents need `CLAUDE.md`.** BORDER, WORKFORCE, MIGRATION, HOUSING still lack identity/spawn/scope docs. After TOURISM pattern is validated, batch the remaining four using the TOURISM template (`sub_agents/TOURISM/CLAUDE.md`).
+5. **`COUPLINGS.md` — new MARCO artifact, not yet drafted.** The coupling map is the edges-between-sub-domains graph (BORDER → WORKFORCE → HOUSING transmission quantified; TOURISM → MIGRATION interaction; etc.). Draft on demand, or defer until first real thread reveals the shape it wants.
+6. **April data prints due early-mid May:**
    - Banxico Mar 2026 remittances (~May 1) — is Feb's +0.4% rebound structural or one-off?
    - FL Realtors Apr 2026 (~May 17) — did 9.1mo hold or extend?
    - BLS CPI Apr 2026 (~May 14) — Prediction #21 flip condition: fresh F&V MoM <0.2% AND H-2A catching up → downgrade; otherwise hold/upgrade.
 
 **Tier 3 — watch/background:**
-6. TSA April numbers when BTS posts (for Prediction #25 follow-through).
-7. Canadian summer (May-Aug) booking capacity — structural boycott payoff window.
+7. TSA April numbers when BTS posts (Prediction #25 follow-through).
+8. Cattle/meatpacking research follow-up (Will's caveat 2026-04-21) — herd cycle → plant consolidation → immigrant meatpacking layoffs compounds SDL-01 independently. Research queue not yet scoped.
+9. Canadian summer (May-Aug) booking capacity — structural boycott payoff window.
 
-**Meta-question RESOLVED 2026-04-21 (Will):** VX-MARCO-SDL-01 formalized in VX.tsv (BREACHED, HIGH priority, WFD domain, 80% conf, thresholds 250K/750K/1.5M annual; sources CBO/Banxico/INEGI/DHS/ADP). VX-MARCO-EMG-01 held as PENDING/watch — Will expecting more news, formalize when data stream firms up.
+**Meta-question RESOLVED 2026-04-21 (Will):** VX-MARCO-SDL-01 formalized in VX.tsv (BREACHED, HIGH, WFD domain, 80% conf, thresholds 250K/750K/1.5M annual). VX-MARCO-EMG-01 held as PENDING/watch.
+
+---
+
+## SUB-AGENT COORDINATION PATTERN (DESIGN 2026-04-21 session 2)
+
+**Elevation:** MARCO is shifting from "thing Will queries" to "thing that runs its own process." Will stays in the loop (watching both terminals, giving direction) but offloads the procedural routing load. Call it **MARCO-as-moderator, Will-in-the-room**.
+
+**Principles:**
+- MARCO owns the **graph** (couplings between sub-domains). Sub-agents own the **nodes** (domain depth).
+- Sub-agents stay in their lane. They do NOT edit MARCO's STATUS, never talk to sister sub-agents directly, never close threads, never run git.
+- All cross-agent routing (REGINALD/CARL/LABOR/etc.) flows through MARCO.
+
+**Mechanism:** `thread.md` lives in each sub-agent's folder. MARCO visits to write prompts; sub-agent appends structured responses (Finding / Confidence / Evidence / What-it-changes / Caveats). Will can drop `WILL:` interventions anytime. MARCO closes threads, archives to `threads/archive/`, and takes synthesis back to MARCO files.
+
+**Build status:**
+- ✅ TOURISM outfitted: `sub_agents/TOURISM/CLAUDE.md` + `thread.md` + `threads/archive/`
+- ⏸️ BORDER, WORKFORCE, MIGRATION, HOUSING — pending same outfit
+- ⏸️ `AGENTS/MARCO/COUPLINGS.md` — planned artifact, not yet drafted
+- 📎 Full design brainstorm → `user_input/MARCO IDEAS.md`
 
 ---
 
