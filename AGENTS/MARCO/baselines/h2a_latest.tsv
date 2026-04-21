@@ -1,0 +1,62 @@
+# MARCO H-2A aggregate | source=H-2A_Disclosure_Data_FY2025_Q4.xlsx | snap=20260113235553 | rows=24526 | cert_rows=23424 | total_workers_cert=398059
+
+## By fiscal quarter (decision date)
+key	workers_certified
+2025Q2	159434
+2025Q3	99467
+2025Q4	80947
+2025Q1	58129
+
+## Top 15 worksite states
+key	workers_certified
+FL	56818
+GA	42723
+CA	35138
+WA	34560
+NC	26123
+MI	15984
+TX	15945
+LA	14631
+AZ	13935
+NY	10658
+AR	7865
+ID	7621
+KY	7399
+MS	7363
+SC	6863
+
+## Top 10 SOC occupations
+key	workers_certified
+Farmworkers and Laborers, Crop, Nursery, and Greenhouse	325931
+Agricultural Equipment Operators	36951
+Farmworkers, Farm, Ranch, and Aquacultural Animals	19820
+Heavy and Tractor-Trailer Truck Drivers	4468
+Construction Laborers	2659
+Shuttle Drivers and Chauffeurs	2120
+Graders and Sorters, Agricultural Products	1148
+Packers and Packagers, Hand	783
+Helpers--Carpenters	595
+Helpers--Installation, Maintenance, and Repair Workers	546
+
+## Top 15 job titles (crop/activity proxy)
+key	workers_certified
+Farmworkers and Laborers, Crop	32781
+Farmworkers and Laborers	24081
+Farmworker	21927
+Farm Worker	15056
+Farmworker/Laborer	12485
+Harvester	10297
+Ag Equipment Operator	9082
+Farmworkers and Laborers, Crop, Nursery, Greenhouse	8900
+Agricultural Equipment Operator	8856
+Farmworkers and Laborers, Crop, Nursery, and Greenhouse	8288
+Farm Workers	7738
+Nursery Worker	7222
+Farmworkers	6992
+Farm Workers and Laborers	6796
+Field Workers	6251
+
+## Wage offer (USD)
+median	17.79
+mean	113.13
+total_requested	415496

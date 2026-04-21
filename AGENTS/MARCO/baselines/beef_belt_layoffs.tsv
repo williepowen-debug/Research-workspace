@@ -1,0 +1,15 @@
+notice_date	effective_date	company	plant_city	plant_state	county	workers	product	action_type	stated_reason	source
+2024-03-12	2024-06-28	Tyson Foods	Perry	IA	Dallas	1276	pork	permanent closure	old/inefficient facility; efficiency	DTN/Progressive Farmer; IPR 2025-05-22
+2024-07	2024-09	Smithfield Foods	Altoona	IA	Polk	314	ham boning	closure	capacity utilization	just-food 2024-07
+2024-08	2024	Boar's Head	Jarratt	VA	Sussex	600	deli	permanent closure	listeria outbreak	Investigate Midwest 2024-12-24
+2024-12-02	2025-02-14	Tyson Foods	Emporia	KS	Lyon	809	beef/pork value-add	permanent closure	consolidate to Holcomb KS	KWCH 2024-12-02; KDOC WARN
+2024-12	2025	Butterball	Jonesboro	AR	Craighead	180	turkey	closure	not specified	Investigate Midwest
+2024-12	2025-01	Smithfield Foods	Charlotte	NC	Mecklenburg	107	pork	closure	efficiency/capacity use	Food Dive
+2025-09	2025-11-02	Perdue Farms	Washington	IN	Daviess	293	poultry	shift elimination	not specified	WJTS 2025-09
+2025-01-17	2025-03-28	Perdue Farms	Monterey	TN	Putnam	433	poultry	permanent closure	demand/supply chain	TN Dept Labor 2025-01-17
+2026-02-13	2026-05-31	Cargill	Milwaukee	WI	Milwaukee	221	ground beef	permanent closure	cattle supply (75yr low)	Star Tribune; Farmers Advance
+2025-11-21	2026-01-20	Tyson Foods	Lexington	NE	Dawson	3212	beef slaughter	permanent closure	cattle supply / $426M FY25 beef loss	NE DOL WARN; Tyson 11-21-25
+2026-01-21	2026-03	Tyson Foods (extension)	Lexington	NE	Dawson	294	beef	extended layoff	plant wind-down	NE DOL WARN
+2025-11-26	2026-01	Fortrex (Tyson sanitation contractor)	Lexington	NE	Dawson	139	beef sanitation	job loss tied to closure	Tyson plant closure	NE DOL WARN
+2025-11-21	2026-Q1	Tyson Foods	Amarillo	TX	Potter	1761	beef	B-shift elimination	cattle supply	Tyson Q4 2025; WSWS 2026-01-24
+2025	2025	JBS USA	CA plant	CA	various	n/a	meat processing	closure	not specified	industry reports (Big 4 summary)

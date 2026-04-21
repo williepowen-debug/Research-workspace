@@ -1,5 +1,5 @@
 # MARCO STATUS
-**Last Updated:** 2026-04-20 20:15 ET | **Status:** 🔴 RED (DHS shutdown ~Day 61-64, FL condo inventory BREACHED 9.1mo, produce spike live)
+**Last Updated:** 2026-04-21 ET | **Status:** 🔴 RED (DHS shutdown ~Day 61-64, FL condo inventory BREACHED 9.1mo, produce spike live, VX-SDL-01 formalized)
 
 ---
 
@@ -15,7 +15,7 @@
 | NFP Feb 2026 | -92K, UE 4.4% | 🔴 BREACHED |
 | Mexico Remittances Feb 2026 | Feb +0.4% YoY ($4.377B); Jan-Feb bimester $9.062B, -0.5% YoY. Improvement from Jan (-1.4%) but cumulative still negative. Full-year 2025: -4.6% YoY ($61.8B) | 🔴 BREACHED |
 | Ag Employment | -155K + 2.2M self-deportations | 🔴 BREACHED |
-| H-2A Certifications | 415K + Red River Valley delays, interviews not til July | 🔴 BREACHED |
+| H-2A Certifications | **398,059 certified FY25** (prior "415K" = positions requested, not certified — corrected 2026-04-21 from OFLC pull). FY22→25: 371.6K → 378.5K → 384.9K → 398.3K. Apps received +9.3% YoY = accelerating demand, 4.1% backlog. FL #1 at 56,818. Red River Valley delays, interviews not til July. | 🔴 BREACHED |
 | FL Condo Inventory | **9.1mo Mar 2026** (threshold 9.0 breached; Lee 14.6mo, Miami-Dade ~14.1mo) | 🔴 BREACHED |
 | E-Verify | ✅ OPERATIONAL | 🟢 ACTIVE |
 
@@ -31,7 +31,7 @@
 3. ✅ **DHS reconciliation text checked 2026-04-20:** No text released. Budget resolution (precursor) initiated but no timeline. Johnson's "end of next week" target (~Apr 17-18) has slipped. NEW finding: $75B OBBBA cushion already insulates ICE — skinny reconciliation is political, not operational. Jun 1 Trump deadline remains the binding date.
 
 **Tier 2 — important, not urgent:**
-4. **Build OFLC H-2A data pull** — NASS replacement. Planting-season window Mar-May still live; every session without it = blind through the peak. Framework scoped in `domain/sources/AG_LABOR_ALT_SOURCES_MAR26.md`.
+4. ✅ **OFLC H-2A data pull BUILT 2026-04-21** — `tools/h2a_pull.py` (Wayback CDX fallback for Akamai bot wall). Output at `baselines/h2a_latest.tsv`. Full writeup `domain/sources/OFLC_H2A_PULL.md`. Monthly auto-pull cadence recommended. NEXT: Addendum A pull for crop-level signal.
 5. **April data prints due early-mid May:**
    - Banxico Mar 2026 remittances (~May 1) — is Feb's +0.4% rebound structural or one-off?
    - FL Realtors Apr 2026 (~May 17) — did 9.1mo hold or extend?
@@ -41,7 +41,7 @@
 6. TSA April numbers when BTS posts (for Prediction #25 follow-through).
 7. Canadian summer (May-Aug) booking capacity — structural boycott payoff window.
 
-**Meta-question to raise:** VX-MARCO-SDL-01 (self-deportation) and VX-MARCO-EMG-01 (emigration) vectors awaiting PROME since before March. PROME degraded. Self-complete, or escalate to Will for routing decision?
+**Meta-question RESOLVED 2026-04-21 (Will):** VX-MARCO-SDL-01 formalized in VX.tsv (BREACHED, HIGH priority, WFD domain, 80% conf, thresholds 250K/750K/1.5M annual; sources CBO/Banxico/INEGI/DHS/ADP). VX-MARCO-EMG-01 held as PENDING/watch — Will expecting more news, formalize when data stream firms up.
 
 ---
 
@@ -152,9 +152,9 @@
 
 | # | Prediction | Timeframe | Conf | Notes |
 |---|-----------|-----------|------|-------|
-| 26 | ICE construction raids → housing start delays (TX, AZ, FL) | Q2 2026 | 70% | 60% vol drop = leading indicator |
+| 26 | ICE construction raids → housing start delays (TX, AZ, FL) | Q2 2026 | **80%** | ↑ 70→80 (2026-04-21). Santanna/Xu 1930s RE paper quantifies: **13.3pp permit decline per 1 SD repatriation exposure; 8.2pp house value drop per 1% Mexican pop decline** — historical template directly validates mechanism. |
 | 25 | TSA disruption → measurable FL airport delays | NOW | **98%** | ↑ 400+ quit, 40%+ callout at hubs |
-| 14 | CA produce prices +15% | H2 2026 | 60% | H-2A wage cuts don't fix bottleneck; no survey data to contradict |
+| 14 | CA produce prices +15% | H2 2026 | **72%** | ↑ 60→72 (2026-04-21). Historical analog (USDA ERS 2010-20): 200K farm labor loss → +15% F&V over decade. SDL-01 2.2M compresses to 2-5yr window. No Bracero pipeline = slow equilibration. |
 | 8 | ~~FL condo inventory >9 months~~ | Q2 2026 | ✅ | **RESOLVED-CORRECT 2026-04-17**: 9.1mo Mar 2026 print (FL Realtors). Breached early before Q2 midpoint. |
 | 22 | OIA flips negative | Q2-Q3 2026 | 70% | |
 | 24 | All 3 FL airports negative simultaneously | Q3 2026 | 65% | |
@@ -182,15 +182,25 @@
 
 ---
 
+## ROUND 2 RESEARCH INTEGRATED (2026-04-21)
+
+**OFLC H-2A pull built** (`tools/h2a_pull.py` → `baselines/h2a_latest.tsv`): Certified FY25 = 398,059 (not 415K as prior STATUS — that was requested). FL #1 at 56,818. Demand accelerating +9.3% apps, 4.1% backlog gap.
+
+**USDA slaughter monitor built** (`tools/slaughter_pull.py` → `baselines/slaughter_weekly.tsv`): **NO meatpacking labor-disruption signal yet.** Hog +1.3% vs baseline, poultry +3-6% YTD. Cattle -11.1% is 75-yr-low herd cycle, not labor. Threshold design: multi-species drop required (hog z-score = primary labor proxy). **Caveat (Will 2026-04-21): cattle cycle itself may drive plant consolidation → immigrant meatpacking layoffs → compounds SDL-01 independently.** Research follow-up queued.
+
+**Banxico state-of-origin reverse-map built** (`tools/banxico_reverse.py` → `baselines/us_state_sender_implied.tsv`): SDL-01 geographic concentration revealed. AZ -6.1%, TX -5.8% ($659M abs), MI -5.6% lead decline. Next cluster CO/MN/GA/WI/IN/FL -4.7 to -5.4%. CA least impacted (-3.5%) due to indigenous-corridor composition. Midwest meatpacking belt (Twin Cities/Milwaukee/Indianapolis) alignment confirms enforcement-geography transmission. **Q1 2026 data (due ~Jun 2026) = potential pothole from 1% remittance tax pull-forward.**
+
+---
+
 ## CROSS-AGENT SIGNALS
 
 | Direction | Agent | Signal |
 |-----------|-------|--------|
-| → LABOR | 🔴 ICE construction raids = supply shock on demand shock. 1-in-3 foreign-born. Permanent ag data gap. **NEW: JOLTS 3.1% hires = substitution mechanism broken — ag labor gap wider than modeled.** |
-| → REGINALD/CORAL | 🟠 **NEW 2026-04-20: FL condo inventory BREACHED 9.1mo Mar 2026** (Lee 14.6mo, Miami-Dade ~14.1mo, supply-driven — not demand collapse). Collateral deterioration Q2-Q3. 🔴 Construction raids → housing start delays. FL triple exposure compounding. Small airport closure risk. |
-| → CARL | 🔴 **NEW: Miami domestic migration -2.0% (worse than pre-COVID NYC). COVID population boom reversing. Path C confirmation — housing demand withdrawal, FL dimension. Route this signal.** TSA chaos + spring break disruption continues. |
-| → NEXUS | 🔴 10 breached/upgraded indicators. Ag labor black box. JOLTS COVID-low hires compounds supply shock. Miami migration reversal = FL housing leading indicator. **NEW 2026-04-20: Canadian boycott asymmetry intensified (US→Canada flipped positive); habit formation now hard data (overseas air > US auto 3 mo); TOUR-03 upgraded 70→85%.** |
-| → BRENT | 🟡 **NEW 2026-04-20:** Canadian-US airline capacity Q1 2026 at 2006-low (ex-pandemic). Air Transat full Quebec-FL exit + WestJet 15 US routes cut = regional jet fuel demand hit booked for summer 2026. Route mix shifting transborder → Mexico/Europe (different refinery pull). |
+| → LABOR | 🔴 ICE construction raids = supply shock on demand shock. 1-in-3 foreign-born. Permanent ag data gap. JOLTS 3.1% hires = substitution mechanism broken. Historical analog (Santanna/Xu NBER) confirms substitution requires labor surplus — at UE 4.4% no reserve. **NEW 2026-04-21: H-2A certified 398K (not 415K — that was requested); +9.3% apps YoY, 4.1% backlog. Slaughter monitor shows NO meatpacking labor disruption yet in hog/poultry (cattle drop is herd cycle). Use hog z-score as labor proxy.** |
+| → REGINALD/CORAL | 🟠 FL condo inventory BREACHED 9.1mo (Lee 14.6mo, Miami-Dade ~14.1mo, supply-driven). Collateral deterioration Q2-Q3. Construction raids → housing start delays. Santanna/Xu transmission quantified: 8.2pp house value per 1% Mexican pop drop; 13.3pp permits per 1 SD repatriation. FL triple exposure compounding. Small airport closure risk. **NEW 2026-04-21: SDL-01 concentration is AZ/TX/Midwest meatpacking belt (via Banxico reverse). Phoenix/Tucson/Yuma + Houston/DFW/RGV + Twin Cities/Milwaukee/Indianapolis are the pain cluster for CRE collateral modeling, NOT California.** |
+| → CARL | 🔴 Miami domestic migration -2.0% (worse than pre-COVID NYC). COVID population boom reversing. Path C confirmation — housing demand withdrawal, FL dimension. **NEW 2026-04-21: Target CARL consumer stress analysis at AZ/TX/Midwest metros (per Banxico reverse-map), not CA. Top pain: Phoenix, Houston/DFW, Twin Cities, Indianapolis. TX $659M absolute remittance drop = cleanest structural signal.** TSA chaos + spring break disruption continues. |
+| → NEXUS | 🔴 10 breached/upgraded indicators. Ag labor black box. JOLTS COVID-low hires compounds supply shock. Miami migration reversal = FL housing leading indicator. Canadian boycott asymmetry intensified (US→Canada flipped positive); habit formation now hard data (overseas air > US auto 3 mo); TOUR-03 upgraded 70→85% (2026-04-20). **NEW 2026-04-21: Round 2 infrastructure live — OFLC H-2A monthly pull, USDA weekly slaughter monitor, Banxico quarterly reverse-map. MARCO now has live near-real-time SDL-01 transmission monitoring.** |
+| → BRENT | 🟡 Canadian-US airline capacity Q1 2026 at 2006-low (ex-pandemic). Air Transat full Quebec-FL exit + WestJet 15 US routes cut = regional jet fuel demand hit booked for summer 2026. Route mix shifting transborder → Mexico/Europe (different refinery pull). (2026-04-20) |
 
 ---
 
@@ -198,8 +208,8 @@
 
 | Item | Priority |
 |------|----------|
-| VX-MARCO-SDL-01 (self-deportation vector) — awaiting PROME | 🔴 |
-| VX-MARCO-EMG-01 (emigration vector) — awaiting PROME | 🟡 |
+| VX-MARCO-SDL-01 (self-deportation vector) — ✅ FORMALIZED 2026-04-21 | ✅ |
+| VX-MARCO-EMG-01 (emigration vector) — WATCH (PENDING); thresholds recalibrated 2026-04-21 per WSJ validation (claim PARTIALLY SUPPORTED net-migration / HYPERBOLE citizen exodus). Upgrade trigger: 3+ quarters IRS Federal Register >1,500 AND Canada IRCC US PRs >500/mo sustained. Watch Q2 2026 Form 8854 for fee-drop artifact. | 🟡 |
 | Thompson Ag Labor Bill | 🟠 |
 | H-2A replacement tracking framework — implement OFLC pulls | 🟡 |
 
@@ -210,5 +220,9 @@
 **Domain:** Population movement disruptions — international visitor flows, workforce displacement, internal migration.
 
 *Full prediction detail → `PREDICTIONS.md`*
-*Ag labor alt sources → `domain/sources/AG_LABOR_ALT_SOURCES_MAR26.md`*
-*Full check-in history → `domain/sources/STATUS_archive_20260323.md`*
+*Findings index (categorized) → `FINDINGS.md`*
+*SDL-01 (Self-Deportation Ledger) → `domain/sources/SDL/`*
+*EMG-01 (American Emigration) → `domain/sources/EMG/`*
+*LABOR (H-2A, slaughter, meatpacking) → `domain/sources/LABOR/`*
+*Live tools → `tools/h2a_pull.py`, `tools/slaughter_pull.py`, `tools/banxico_reverse.py`*
+*Archived STATUS → `domain/sources/_archive/`*
