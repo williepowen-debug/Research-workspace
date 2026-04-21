@@ -26,9 +26,9 @@
 ## NEXT SESSION FOCUS (set 2026-04-20)
 
 **Tier 1 — do first:**
-1. **Process inbox** — OTTO WA ICE tracking (Apr 2) + PROME DHS deal (Apr 3) signals. ~3 weeks stale. OTTO's WA data likely refines Prediction #26 (construction raid housing delays).
-2. **Verify HERMES delivery** of 2026-04-20 outbox signals (CARL Miami migration, REGINALD/CORAL condo breach). Prome/OpenClaw degraded — sweep may not be running. Check `outbox/delivered/`; if empty, flag to Will for manual routing.
-3. **DHS reconciliation text watch** — Johnson/Thune targeted "middle-to-end of next week" (~late Apr) for skinny ICE/CBP reconciliation blueprint. If text drops, shutdown narrative shifts materially.
+1. ✅ **Inbox processed 2026-04-20 (this session):** OTTO WA ICE (Apr 2) already integrated in STATUS before delivery — no new data. PROME DHS deal (Apr 3) proved wrong — deal claimed for Apr 3 pro forma never materialized; STATUS reflects reality. Apr 3 sweep file (Puget Sound office, UK petrol, services contraction) not MARCO-relevant.
+2. ~~Verify HERMES delivery of 2026-04-20 outbox signals~~ (skipped per Will 2026-04-20). 2 signals still in outbox root (CARL Miami migration, REGINALD/CORAL condo breach).
+3. ✅ **DHS reconciliation text checked 2026-04-20:** No text released. Budget resolution (precursor) initiated but no timeline. Johnson's "end of next week" target (~Apr 17-18) has slipped. NEW finding: $75B OBBBA cushion already insulates ICE — skinny reconciliation is political, not operational. Jun 1 Trump deadline remains the binding date.
 
 **Tier 2 — important, not urgent:**
 4. **Build OFLC H-2A data pull** — NASS replacement. Planting-season window Mar-May still live; every session without it = blind through the peak. Framework scoped in `domain/sources/AG_LABOR_ALT_SOURCES_MAR26.md`.
@@ -53,9 +53,11 @@
   - **House (Johnson) refusing** to floor the Senate-passed DHS-ex-ICE/CBP bill. Floor attention diverted to expiring FISA/spy powers.
   - **Senate (Thune) drafting "skinny" reconciliation** for 3-year ICE/CBP funding. Target "middle to end of next week" per Johnson (~late Apr).
   - **Senate GOP losing patience with Johnson** per The Hill/NOTUS. House Freedom Caucus pushing reconciliation over stopgap.
+- **Reconciliation text status (verified 2026-04-20):** No bill text released. Graham/Senate Budget Committee has only "initiated the process of developing a budget resolution" (per Thune/Johnson Apr 1 joint statement) — that's the *precursor* to reconciliation, not the text. Johnson's "end of next week" target (~Apr 17-18) has slipped.
+- **$75B OBBBA cushion insulates ICE** (NPR Apr 13): ICE/CBP already sit on a $75B reconciliation windfall from the One Big Beautiful Bill Act. The skinny reconciliation is a *political* close-the-loop move, not an operational funding emergency. Removes urgency from GOP side → explains shutdown persistence.
 - **New cliff:** Trump set Jun 1 deadline for reconciliation text.
 - **TSA:** Callout 6.95-8% nationally (down from 12.35% Mar 27 peak). ATL 24.6%, PHL 21.5% elevated. 300+ quits confirmed (prior 400+ figure not re-verified). Back pay continues per Mar 31 WH memo.
-- ICE/CBP funded separately (OBBBA). TSA remains the unprotected pressure point.
+- **Bottom line on pressure points:** ICE cushioned, TSA back-paid → *neither side is bleeding operationally*. Pressure is political narrative only. Expect slow grind toward Jun 1, not a breaking-point resolution.
 
 ### ICE Construction Raids (🔴 CRITICAL — EXPANDING TO RURAL AG/MEATPACKING)
 - Rio Grande Valley: 10-15 raids per company. No-warrant raids taking documented + undocumented workers.
