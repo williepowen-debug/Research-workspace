@@ -32,7 +32,7 @@
 | Apr 23 | ASB Q1 earnings (after-market) | — | — | — |
 | **~Apr 22-25** | **EGBN Q1 earnings** (date unconfirmed) | CRE provisions, DC/GovCon, capital | Capital raise = 🔴. **Earnings prep grade C — needs work.** | PROME |
 | **Apr 23-24** | **BOJ meeting — hike live (~40-45%)** | Rate decision, Ueda presser | Hike → CLO stress → BDC → bank fund finance (Ch 4) | SAM, LIQUID |
-| ~Late Apr | ZION Q1 earnings | MUNI book, NDFI, BDC exposure | — | PROME |
+| **Apr 20 ✅** | **ZION Q1: EPS $1.56 beat, Rev $849M miss ($12M), NII $662M miss ($14M)** — resolved | Full synthesis → `ZION/Q1_2026_ANALYSIS.md`. NDFI $2B flat 5yr (cohort floor). FHLB -87% QoQ (decline camp, cohort bifurcation 3/3). Reclass leasing→C&I. CRE nonaccruals -28% YoY. AOCI -$1.935B live. MUNI corrected to $4.27B. | Tape -1.6% AH to $62.01. Clean-name mild fade pattern. Score 14→~8-9. | REGINALD |
 
 ## MAY
 

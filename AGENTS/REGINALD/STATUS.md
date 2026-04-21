@@ -1,5 +1,40 @@
 # REGINALD STATUS
-**Last Updated:** 2026-04-19 22:15 ET (weekend article scan; paywall constraints noted) | **Status:** 🔴🔴🔴 CRITICAL (WAL closed $79.39 Fri, ~36h to Apr 21 earnings)
+**Last Updated:** 2026-04-20 ~18:45 ET (ZION Q1 print mined post-call) | **Status:** 🔴🔴🔴 CRITICAL (WAL + OZK earnings ~22h)
+
+---
+
+## PM BRIEF — April 20, 2026 (post-ZION print)
+
+**ZION Q1 2026 (AMC, call 5:30 PM ET) — full synthesis → `ZION/Q1_2026_ANALYSIS.md`**
+
+| Metric | Actual | Cons | Delta |
+|--------|--------|------|-------|
+| EPS | $1.56 | $1.42 | **BEAT +9.86%** |
+| Rev (adj TE) | $849M | $861.1M | **MISS -1.4%** |
+| NII | $662M | $675.6M | **MISS -2%** |
+| TBV/share | $41.75 | $42.21 | Miss |
+| Net earnings | $232M | — | +38% YoY |
+
+**Tape:** $63.02 close (+0.47%) → **$62.01 AH (-1.6%)** on mixed print. Second "clean-name mild fade" pattern after FITB.
+
+**Thesis-relevant updates:**
+
+1. **NDFI ~$2B flat 5 years (Simmons on call)** — **cohort floor**. Spectrum now 6/6: PNC $73B → TFC $35B+ → CFG $19.6B → FITB $9.5B → MTB $8.9B → RF $3B → **ZION $2B**. 36x spread confirms NDFI is idiosyncratic, not structural.
+2. **FHLB cohort bifurcation (3 surge / 3 decline / 1 opaque).** ZION ST borrowings **-87% QoQ (-$2.49B)**. Surge: MTB/CFG/PNC. Decline: FITB/RF/**ZION**. **FHLB indicator downgraded to 🟠** — bank-specific, not sectoral.
+3. **Reclassification pattern 4/6.** ZION: "Leasing balances now reported within C&I" effective Mar 31. Opposite direction from CFG/PNC (hidden → visible) — ZION moves visible → hidden. Confirms v1.4 thesis "C&I as Convergence Hiding Place."
+4. **Credit disconfirming ZION thesis.** Provision **-$7M (release)**, ACL 1.16% (-3bps), NCO 3bps annualized, CRE nonaccruals -28% YoY ($42M/0.31%), classified -19% YoY. Stewart: "Overall, we're continuing to see improvement in commercial real estate."
+5. **MUNI correction.** STATUS had $5.78B; actual Q1 2026 **$4.27B** (nonaccruals $2M). Combined with NDFI $2B + improving CRE, **ZION score 14 → ~8-9**. No longer Tier 2. Downgrade to "monitor only."
+6. **AOCI still live: -$1.935B**, with $1.5B unrealized losses trapped in AFS→HTM transfers. Cat III/IV bomb intact for Jun 18 deadline.
+7. **Middle East:** Stewart: "not seeing a lot of impacts." No reserve overlay unlike RF $17M. Brent de-escalation confirmed.
+8. **No securities repositioning loss** (unlike RF's $40M post-Q1). AFS flat, HTM -8% YoY amortization only.
+
+**Tue Apr 21 read-through to WAL + OZK:**
+- Clean-disclosure miss (ZION, FITB) = mild tape fade. Opaque miss (RF) = violent rally on short unwind.
+- **WAL closer to RF on opacity → short-unwind risk HIGH** on clean-book miss scenario.
+- **OZK credit trajectory structurally different** (NCO 1.18% vs ZION 3bps = 39x gap). ZION print does NOT disconfirm OZK.
+- Divergence candidate: **WAL rally + OZK fade** cleanest trade if WAL beats on disclosure AND OZK misses on credit.
+
+**Cohort tape pattern now 6/6:** MTB beat-fade (-1.55%) | CFG beat-fade (-0.63%) | PNC mixed (-0.03%) | FITB mixed (~flat) | RF short-unwind (**+3.8%**) | ZION clean-fade (**-1.6% AH**).
 
 ---
 
@@ -75,6 +110,7 @@
 | KEY | Apr 16 | — | — | — | Pending |
 | FITB | **Apr 17** | **$0.83** GAAP | Mixed — EPS +17% YoY but Rev $2.86B miss $50M; EPS below clean cons ~$0.87-0.90 | Pending 9:00 call | **Headline out. PDFs pending.** ROE 13.53%, margin 19.50%. Q1 EPS -20% vs Q4-25 $1.04. Pre-earnings: cleanest balance sheet (CET1 10.77%, ACL 1.96%), FHLB -48% QoQ avg (outlier), Provision -40% QoQ (CFG-like release), Deck Slide 19 NDFI $9.5B. **Unresolved: provisions direction, $2.95B Consumer Warehouse sub-bucket language.** |
 | RF | **Apr 17** | **$0.57** | **MISS both** (EPS -$0.04 vs $0.61; Rev -$20M vs $1.94B) | Pending 10:00 call | **Headline out. First outright miss of cohort.** ROE 12.55%, margin 22.44%. Pre-earnings: WORST NDFI disclosure (zero "NDFI" mentions; $18.3B Financial services 1.15x unfunded/funded). FHLB -30% YoY. Consumer card NCO 4.08% 5Q high. **Miss aligns with highest-opacity baseline. Unresolved: consumer NCO >0.75%? card >4.20%? NDFI forced-reveal?** |
+| **ZION** | **Apr 20** | **$1.56** | **Mixed** — EPS beat +9.86% vs $1.42; Rev $849M miss $861.1M (-1.4%); NII $662M miss $675.6M (-2%) | **-1.6% AH to $62.01** | **NDFI ~$2B flat 5yr (cohort floor). FHLB -87% QoQ (decline camp). Reclass: leasing→C&I. CRE nonaccruals -28% YoY. ACL release -$7M. MUNI $4.27B (STATUS had $5.78B — corrected). AOCI -$1.935B live. Score 14→~8-9.** |
 | **WAL** | **Apr 21** | — | — | — | **POSITION NAME** |
 | **OZK** | **Apr 21** | — | — | — | **POSITION NAME** |
 
@@ -188,7 +224,7 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 | 10Y UST | **4.42%** (Mar 27, stale) | 🔴 Hit 4.48% intraday (highest since Jul 2025). Needs refresh. |
 | Office CMBS DQ | **11.2%** (Feb 2026, Trepp) — pulled back from 12.34% Jan ATH on 5 loan mods | 🔴 |
 | Bank CRE DQ gap | 4.18% vs CMBS 11.2% = ~7pp masking | 🔴 |
-| FHLB Advances | ~$480B (issuance +31% YoY). **Bank-level: MTB $7.85B (+265%), CFG $2.5B (60x YoY).** 2/2 Q1 reporters surging. | 🟠→🔴 Contingency behavior confirmed at sector level |
+| FHLB Advances | ~$480B (issuance +31% YoY). **Cohort 6/6 bifurcated:** Surge — MTB +265% avg, CFG 60x YoY, PNC +64.7% QoQ. Decline — FITB -48%, **ZION -87% ST borrowings (-$2.49B)**, RF opaque. | 🟠 **Downgraded Apr 20** — bank-specific, not sectoral. 3/6 surge = idiosyncratic funding stress at MTB/CFG/PNC. |
 | Bank Reserves | $2.8T — 4yr low, G-SIB concentrated | 🔴 |
 | Private Credit Default | 5.8% TTM (Jan Fitch), MS projects 8%. Bad PIK 6.4% (vs 2.5% in 2021). | 🔴🔴 Record |
 | PC Mainstream | Economist + Bloomberg + NPR all Apr 1. "Signs of strain" / "redemption crisis." Narrative inflection. | 🔴🔴 |
@@ -251,7 +287,7 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 | 1 | EGBN | 20 | CRE 547% + DC 100% + crisis state | $25P | Jun |
 | 2 | WAL | 20 | CRE 474% + Cantor + CFO swap | $85P/$77.5P/$70P/$65P | Jun/Sep |
 | 3 | CFG | 15 | BDC $12.5B + FHLB 60x + CRE nonaccruals rising | Monitoring (score 9→12 post-Q1) | — |
-| 4 | ZION | 14 | MUNI $5.78B + NDFI + BDC | $57.5P | Jul |
+| ~~4~~ | ZION | ~~14~~ → **~8-9** | ~~MUNI $5.78B~~ → **$4.27B (corrected Apr 20)** + NDFI $2B flat 5yr + SBIC only (no BDC line) | $57.5P | Jul — **Q1 disconfirming; monitor only, verify position size** |
 | 5 | OZK | 13 | CRE 37.6% MI3 (WORST) + CRO selling | $42.5P/$45P | May/Aug |
 | 6 | SSB | 11 | GEO FL+TX 42% + CRE MF 9.36% | $90P | Jun |
 | 7 | FLG | 8 | NYC MF rent-reg | $13P | Jul |
@@ -270,7 +306,8 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 |------|-------|
 | Apr 10 | CPI (captures oil shock) |
 | **Apr 21** | **WAL + OZK Q1 earnings — SAME DAY. Detonation risk elevated.** |
-| Apr 20-29 | Q1 bank earnings wave (ZION → WAL → VLY → EGBN + BOJ) |
+| ~~Apr 20~~ ✅ | ZION resolved (mixed print, -1.6% AH) |
+| Apr 20-29 | Q1 bank earnings wave (WAL → VLY → EGBN + BOJ) |
 | May 1-10 | Q1 Call Report filings (MI3, NDFI, AOCI) |
 | May 12 | WAL Investor Day |
 | May 21 | Epstein class action deadline (APO) |
