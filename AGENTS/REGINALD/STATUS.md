@@ -1,5 +1,5 @@
 # REGINALD STATUS
-**Last Updated:** 2026-04-20 ~18:45 ET (ZION Q1 print mined post-call) | **Status:** 🔴🔴🔴 CRITICAL (WAL + OZK earnings ~22h)
+**Last Updated:** 2026-04-20 ~19:30 ET (ZION print + full Quartr transcript integrated) | **Status:** 🔴🔴🔴 CRITICAL (WAL + OZK earnings ~21h)
 
 ---
 
@@ -17,16 +17,18 @@
 
 **Tape:** $63.02 close (+0.47%) → **$62.01 AH (-1.6%)** on mixed print. Second "clean-name mild fade" pattern after FITB.
 
-**Thesis-relevant updates:**
+**Thesis-relevant updates (REVISED post-transcript integration):**
 
-1. **NDFI ~$2B flat 5 years (Simmons on call)** — **cohort floor**. Spectrum now 6/6: PNC $73B → TFC $35B+ → CFG $19.6B → FITB $9.5B → MTB $8.9B → RF $3B → **ZION $2B**. 36x spread confirms NDFI is idiosyncratic, not structural.
+1. **NDFI ~$2B flat 5 years — attribution corrected: Scott McLean (President/COO)**, not Simmons. **Cohort floor.** Spectrum now 6/6: PNC $73B → TFC $35B+ → CFG $19.6B → FITB $9.5B → MTB $8.9B → RF $3B → **ZION $2B**. 36x spread confirms NDFI is idiosyncratic, not structural. McLean adds **explicit peer swipe**: *"our peers and banks, smaller and larger, are pretty much gulping down these loans."* ZION publicly calling cohort posture reckless.
 2. **FHLB cohort bifurcation (3 surge / 3 decline / 1 opaque).** ZION ST borrowings **-87% QoQ (-$2.49B)**. Surge: MTB/CFG/PNC. Decline: FITB/RF/**ZION**. **FHLB indicator downgraded to 🟠** — bank-specific, not sectoral.
 3. **Reclassification pattern 4/6.** ZION: "Leasing balances now reported within C&I" effective Mar 31. Opposite direction from CFG/PNC (hidden → visible) — ZION moves visible → hidden. Confirms v1.4 thesis "C&I as Convergence Hiding Place."
-4. **Credit disconfirming ZION thesis.** Provision **-$7M (release)**, ACL 1.16% (-3bps), NCO 3bps annualized, CRE nonaccruals -28% YoY ($42M/0.31%), classified -19% YoY. Stewart: "Overall, we're continuing to see improvement in commercial real estate."
+4. **Credit disconfirming ZION thesis, BUT new watch categories.** Provision **-$7M (release)**, ACL 1.16% (-3bps), NCO 3bps annualized, CRE nonaccruals -28% YoY ($42M/0.31%), classified -19% YoY. **Derek Steward (CCO):** "continuing to see improvement in commercial real estate." ⚠️ **NEW watch:** Steward named **restaurants + consumer-focused businesses** as emerging credit concern categories — ZION's first explicit consumer-facing flag of cycle. Cross-signal to CARL 🟠. Energy $2B flat (40% of peers exited, oil field services 12% vs 35-40% prior cycle).
 5. **MUNI correction.** STATUS had $5.78B; actual Q1 2026 **$4.27B** (nonaccruals $2M). Combined with NDFI $2B + improving CRE, **ZION score 14 → ~8-9**. No longer Tier 2. Downgrade to "monitor only."
-6. **AOCI still live: -$1.935B**, with $1.5B unrealized losses trapped in AFS→HTM transfers. Cat III/IV bomb intact for Jun 18 deadline.
-7. **Middle East:** Stewart: "not seeing a lot of impacts." No reserve overlay unlike RF $17M. Brent de-escalation confirmed.
+6. **AOCI still live: -$1.935B** with $1.5B unrealized losses trapped in AFS→HTM transfers. Cat III/IV bomb intact for Jun 18 deadline. **OFFSET — Basel III endgame:** Richards (Treasurer) confirmed finalized rule = **~9-10% RWA relief → +93bps CET1 for ZION.** If both rules finalize same window, AOCI drag partially neutralized.
+7. **Middle East:** Steward: "not seeing a lot of impacts." No reserve overlay unlike RF $17M. Brent de-escalation confirmed.
 8. **No securities repositioning loss** (unlike RF's $40M post-Q1). AFS flat, HTM -8% YoY amortization only.
+9. **POL beat is REAL, not accounting.** Delivered **270bps Q1** vs full-year guide **100-150bps** — one quarter delivered ~2x the high end of FY goal. Drivers: 72bps front vs back-book spread, fixed-rate repricing, headcount -20% vs 2008 = +25% productivity per $1 of assets. Revises my earlier "low-quality beat" framing. NIM compressed -4bps QoQ to 3.27%; NII -$21M QoQ dampened by $500M resi mortgage HFS sale + $100M derivative netting (accounting, not credit).
+10. **Basis Multifamily Finance acquisition announced.** Fannie/Freddie agency MF origination platform, pending regulatory approval. **Balance-sheet-light** (ZION balance sheet used only for origination / construction / stabilization per Arfstrom Q&A). Fee-revenue play, not CRE concentration add. Q2/Q3 supplements will show if HFS-MF line grows materially.
 
 **Tue Apr 21 read-through to WAL + OZK:**
 - Clean-disclosure miss (ZION, FITB) = mild tape fade. Opaque miss (RF) = violent rally on short unwind.
@@ -110,7 +112,7 @@
 | KEY | Apr 16 | — | — | — | Pending |
 | FITB | **Apr 17** | **$0.83** GAAP | Mixed — EPS +17% YoY but Rev $2.86B miss $50M; EPS below clean cons ~$0.87-0.90 | Pending 9:00 call | **Headline out. PDFs pending.** ROE 13.53%, margin 19.50%. Q1 EPS -20% vs Q4-25 $1.04. Pre-earnings: cleanest balance sheet (CET1 10.77%, ACL 1.96%), FHLB -48% QoQ avg (outlier), Provision -40% QoQ (CFG-like release), Deck Slide 19 NDFI $9.5B. **Unresolved: provisions direction, $2.95B Consumer Warehouse sub-bucket language.** |
 | RF | **Apr 17** | **$0.57** | **MISS both** (EPS -$0.04 vs $0.61; Rev -$20M vs $1.94B) | Pending 10:00 call | **Headline out. First outright miss of cohort.** ROE 12.55%, margin 22.44%. Pre-earnings: WORST NDFI disclosure (zero "NDFI" mentions; $18.3B Financial services 1.15x unfunded/funded). FHLB -30% YoY. Consumer card NCO 4.08% 5Q high. **Miss aligns with highest-opacity baseline. Unresolved: consumer NCO >0.75%? card >4.20%? NDFI forced-reveal?** |
-| **ZION** | **Apr 20** | **$1.56** | **Mixed** — EPS beat +9.86% vs $1.42; Rev $849M miss $861.1M (-1.4%); NII $662M miss $675.6M (-2%) | **-1.6% AH to $62.01** | **NDFI ~$2B flat 5yr (cohort floor). FHLB -87% QoQ (decline camp). Reclass: leasing→C&I. CRE nonaccruals -28% YoY. ACL release -$7M. MUNI $4.27B (STATUS had $5.78B — corrected). AOCI -$1.935B live. Score 14→~8-9.** |
+| **ZION** | **Apr 20** | **$1.56** | **Mixed** — EPS beat +9.86% vs $1.42; Rev $849M miss $861.1M (-1.4%); NII $662M miss $675.6M (-2%) | **-1.6% AH to $62.01** | **NDFI ~$2B flat 5yr McLean (cohort floor) + peer swipe "gulping." FHLB -87% QoQ (decline camp). Reclass: leasing→C&I. CRE nonaccruals -28% YoY. ACL release -$7M. MUNI $4.27B (STATUS had $5.78B — corrected). AOCI -$1.935B live / Basel III +93bps offset. POL 270bps vs 100-150bps guide. Basis Multifamily acquisition (agency MF, balance-sheet-light). Restaurants+consumer new credit watch. Score 14→~8-9.** |
 | **WAL** | **Apr 21** | — | — | — | **POSITION NAME** |
 | **OZK** | **Apr 21** | — | — | — | **POSITION NAME** |
 
@@ -287,7 +289,7 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 | 1 | EGBN | 20 | CRE 547% + DC 100% + crisis state | $25P | Jun |
 | 2 | WAL | 20 | CRE 474% + Cantor + CFO swap | $85P/$77.5P/$70P/$65P | Jun/Sep |
 | 3 | CFG | 15 | BDC $12.5B + FHLB 60x + CRE nonaccruals rising | Monitoring (score 9→12 post-Q1) | — |
-| ~~4~~ | ZION | ~~14~~ → **~8-9** | ~~MUNI $5.78B~~ → **$4.27B (corrected Apr 20)** + NDFI $2B flat 5yr + SBIC only (no BDC line) | $57.5P | Jul — **Q1 disconfirming; monitor only, verify position size** |
+| ~~4~~ | ZION | ~~14~~ → **~8-9** | ~~MUNI $5.78B~~ → **$4.27B (corrected Apr 20)** + NDFI $2B flat 5yr (McLean) + SBIC only (no BDC line) + Basel III +93bps CET1 offset to AOCI | $57.5P | Jul — **Q1 disconfirming; POL 270bps real; monitor only, verify position size** |
 | 5 | OZK | 13 | CRE 37.6% MI3 (WORST) + CRO selling | $42.5P/$45P | May/Aug |
 | 6 | SSB | 11 | GEO FL+TX 42% + CRE MF 9.36% | $90P | Jun |
 | 7 | FLG | 8 | NYC MF rent-reg | $13P | Jul |
