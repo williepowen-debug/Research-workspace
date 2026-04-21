@@ -1,0 +1,5 @@
+## 2026-04-20 — To: REGINALD/CORAL
+**Signal:** Air Transat cancelling ALL 3 Quebec-FL routes May-Jun 2026; FLL 2025 full-year -8.5% — FL tourism CRE cash-flow stress compounds Q2 2026 condo inventory breach.
+**Detail:** Air Transat exits Montreal-MCO May 4, Quebec City-FLL May 30, Montreal-FLL Jun 13. WestJet cutting 15 US routes. Canadian airline capacity to US -10% YoY in Feb 2026. This is summer-2026 demand destruction already booked — not a forecast. FLL 2025 full year posted -8.5% passenger traffic (MIA -1.09%, MCO +0.8%) — FLL already meets Prediction #24 condition unilaterally; MIA/MCO are the remaining dominos. Compound this with FL condo inventory 9.1mo BREACHED (Lee 14.6mo, Miami-Dade 14.1mo) and the tourism-CRE cash-flow transmission channel is live. Relevant for FL tourism-exposed REIT/CMBS positions, small-bank FL tourism-corridor commercial exposure (FLL hotels, Fort Lauderdale, Quebec-reliant condo rentals). Q2-Q3 2026 cash-flow stress window.
+**Source:** Airport authority 2025 annual reports (fll.net, miami-airport.com, flymco.com); Travel & Tour World coverage of Air Transat cancellations.
+**Priority:** 🟠
