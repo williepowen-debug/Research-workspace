@@ -26,9 +26,9 @@
 ## NEXT SESSION FOCUS (updated 2026-04-21 session 2)
 
 **Tier 1 — do first:**
-1. **TEST the new coordination pattern with TOURISM.** Will is setting up a MARCO-as-moderator workflow — see "Sub-Agent Coordination Pattern" section below. TOURISM has been outfitted with `CLAUDE.md` + `thread.md` + `threads/archive/`. Next action: Will spawns a TOURISM session in a separate terminal; MARCO opens a small test thread (e.g., "state top-line Canadian travel read in 1 paragraph") to validate identity override + response format + round-trip mechanics before running a real coordination thread.
-2. **Decide MARCO session output format.** The brainstorm left this open ("idk"). My vote going in: **decision request primary** ("recommend X, want me to proceed?"); **coupling-map update secondary**. Pick a format before the second thread so synthesis has a target.
-3. **DHS reconciliation text check — weekly cadence.** Last check 2026-04-20 (no text, budget resolution precursor only, Johnson target slipped, $75B OBBBA cushion insulates ICE). Next due ~2026-04-27. Monitor congress.gov (new reconciliation bill number) + `budget.senate.gov` (Graham committee announcements). Jun 1 Trump deadline is the binding cliff.
+1. ✅ **Coordination pattern validated** (2026-04-21 thread 1 with TOURISM). Pattern works. Next TOURISM thread opens when a signal surfaces or at week-2 check-in (~2026-05-05) to verify Broward ingestion + AC FL-route retention progress.
+2. **Outfit BORDER + WORKFORCE next.** Use TOURISM's `CLAUDE.md` + `thread.md` + `threads/archive/` as template. These two sub-agents have the hottest live signals (DHS shutdown, H-2A, SDL-01 transmission) — outfit them before MIGRATION/HOUSING.
+3. **DHS reconciliation text check — weekly cadence.** Last check 2026-04-20 (no text, budget resolution precursor only, Johnson target slipped, $75B OBBBA cushion insulates ICE). Next due ~2026-04-27. Monitor congress.gov + `budget.senate.gov`. Jun 1 Trump deadline is the binding cliff.
 
 **Tier 2 — important, not urgent:**
 4. **Other sub-agents need `CLAUDE.md`.** BORDER, WORKFORCE, MIGRATION, HOUSING still lack identity/spawn/scope docs. After TOURISM pattern is validated, batch the remaining four using the TOURISM template (`sub_agents/TOURISM/CLAUDE.md`).
@@ -47,21 +47,22 @@
 
 ---
 
-## SUB-AGENT COORDINATION PATTERN (DESIGN 2026-04-21 session 2)
+## SUB-AGENT COORDINATION PATTERN (VALIDATED 2026-04-21 session 2)
 
-**Elevation:** MARCO is shifting from "thing Will queries" to "thing that runs its own process." Will stays in the loop (watching both terminals, giving direction) but offloads the procedural routing load. Call it **MARCO-as-moderator, Will-in-the-room**.
+**Elevation:** MARCO as moderator, Will in the room. MARCO owns the graph; sub-agents own the nodes. All cross-agent routing flows through MARCO.
 
-**Principles:**
-- MARCO owns the **graph** (couplings between sub-domains). Sub-agents own the **nodes** (domain depth).
-- Sub-agents stay in their lane. They do NOT edit MARCO's STATUS, never talk to sister sub-agents directly, never close threads, never run git.
-- All cross-agent routing (REGINALD/CARL/LABOR/etc.) flows through MARCO.
+**Mechanism:** `thread.md` per sub-agent. MARCO writes prompts; sub-agent appends structured responses (Finding / Confidence / Evidence / What-it-changes / Caveats). For strategy threads, format adapts. Will drops `WILL:` sections anytime. MARCO closes + archives to `threads/archive/`, writes synthesis back to MARCO files.
 
-**Mechanism:** `thread.md` lives in each sub-agent's folder. MARCO visits to write prompts; sub-agent appends structured responses (Finding / Confidence / Evidence / What-it-changes / Caveats). Will can drop `WILL:` interventions anytime. MARCO closes threads, archives to `threads/archive/`, and takes synthesis back to MARCO files.
+**Thread 1 outcome (TOURISM, roadmap — see `sub_agents/TOURISM/threads/archive/2026-04-21_tourism-roadmap.md`):**
+- Pattern works end-to-end: prompt → independent reaction → synthesis → close → archive.
+- TOURISM roadmap locked: (1) Broward/PB/Lee TDT ingestion + AC winter 26-27 FL-route retention [wk 1-2], (2) $-at-risk model v0 [wk 2-3], (3) NTTO Europe-stall + Brazil/Japan [wk 3-4], ongoing winter capacity tracker.
+- **Key lane discipline established:** TOURISM produces $-at-risk series; REGINALD/FORGE pick instruments. No hotel REIT watchlist, no CMBS name-picking in TOURISM.
+- **Deferred edges:** Border day-trip flow-vs-consumer split (TOURISM/CARL), metro tourism-dependency ownership (TOURISM-led vs joint with MIGRATION) — resolve inline when signals surface.
 
 **Build status:**
-- ✅ TOURISM outfitted: `sub_agents/TOURISM/CLAUDE.md` + `thread.md` + `threads/archive/`
-- ⏸️ BORDER, WORKFORCE, MIGRATION, HOUSING — pending same outfit
-- ⏸️ `AGENTS/MARCO/COUPLINGS.md` — planned artifact, not yet drafted
+- ✅ TOURISM outfitted + validated: CLAUDE.md + thread.md + threads/archive/ + first thread closed
+- ⏸️ BORDER, WORKFORCE, MIGRATION, HOUSING — pending same outfit (use TOURISM template)
+- ⏸️ `AGENTS/MARCO/COUPLINGS.md` — thread 1 produced first edges (TOURISM→REGINALD $-at-risk bridge, TOURISM→CARL flagged, TOURISM→BRENT existing); draft COUPLINGS.md when 2-3 sub-agents have contributed edges
 - 📎 Full design brainstorm → `user_input/MARCO IDEAS.md`
 
 ---
@@ -218,7 +219,7 @@
 | Direction | Agent | Signal |
 |-----------|-------|--------|
 | → LABOR | 🔴 ICE construction raids = supply shock on demand shock. 1-in-3 foreign-born. Permanent ag data gap. JOLTS 3.1% hires = substitution mechanism broken. Historical analog (Santanna/Xu NBER) confirms substitution requires labor surplus — at UE 4.4% no reserve. **NEW 2026-04-21: H-2A certified 398K (not 415K — that was requested); +9.3% apps YoY, 4.1% backlog. Slaughter monitor shows NO meatpacking labor disruption yet in hog/poultry (cattle drop is herd cycle). Use hog z-score as labor proxy.** |
-| → REGINALD/CORAL | 🟠 FL condo inventory BREACHED 9.1mo (Lee 14.6mo, Miami-Dade ~14.1mo, supply-driven). Collateral deterioration Q2-Q3. Construction raids → housing start delays. Santanna/Xu transmission quantified: 8.2pp house value per 1% Mexican pop drop; 13.3pp permits per 1 SD repatriation. FL triple exposure compounding. Small airport closure risk. **NEW 2026-04-21: SDL-01 concentration is AZ/TX/Midwest meatpacking belt (via Banxico reverse). Phoenix/Tucson/Yuma + Houston/DFW/RGV + Twin Cities/Milwaukee/Indianapolis are the pain cluster for CRE collateral modeling, NOT California.** |
+| → REGINALD/CORAL | 🟠 FL condo inventory BREACHED 9.1mo (Lee 14.6mo, Miami-Dade ~14.1mo, supply-driven). Collateral deterioration Q2-Q3. Construction raids → housing start delays. Santanna/Xu transmission quantified: 8.2pp house value per 1% Mexican pop drop; 13.3pp permits per 1 SD repatriation. FL triple exposure compounding. Small airport closure risk. **NEW 2026-04-21: SDL-01 concentration is AZ/TX/Midwest meatpacking belt (via Banxico reverse). Phoenix/Tucson/Yuma + Houston/DFW/RGV + Twin Cities/Milwaukee/Indianapolis are the pain cluster for CRE collateral modeling, NOT California.** **NEW 2026-04-21 (TOURISM thread 1): MARCO will deliver county × quarter FL tourism $-at-risk series in ~2-3 weeks (TOURISM priority 2). Winter 2026-27 stress window ($600M-$1.2B FL loss) is the timing input for FL bank Q1-Q2 2027 earnings thesis. Instrument selection (hotel REITs, CMBS names) stays in REGINALD/FORGE lane.** |
 | → CARL | 🔴 Miami domestic migration -2.0% (worse than pre-COVID NYC). COVID population boom reversing. Path C confirmation — housing demand withdrawal, FL dimension. **NEW 2026-04-21: Target CARL consumer stress analysis at AZ/TX/Midwest metros (per Banxico reverse-map), not CA. Top pain: Phoenix, Houston/DFW, Twin Cities, Indianapolis. TX $659M absolute remittance drop = cleanest structural signal.** TSA chaos + spring break disruption continues. |
 | → NEXUS | 🔴 10 breached/upgraded indicators. Ag labor black box. JOLTS COVID-low hires compounds supply shock. Miami migration reversal = FL housing leading indicator. Canadian boycott asymmetry intensified (US→Canada flipped positive); habit formation now hard data (overseas air > US auto 3 mo); TOUR-03 upgraded 70→85% (2026-04-20). **NEW 2026-04-21: Round 2 infrastructure live — OFLC H-2A monthly pull, USDA weekly slaughter monitor, Banxico quarterly reverse-map. MARCO now has live near-real-time SDL-01 transmission monitoring.** |
 | → BRENT | 🟡 Canadian-US airline capacity Q1 2026 at 2006-low (ex-pandemic). Air Transat full Quebec-FL exit + WestJet 15 US routes cut = regional jet fuel demand hit booked for summer 2026. Route mix shifting transborder → Mexico/Europe (different refinery pull). (2026-04-20) |

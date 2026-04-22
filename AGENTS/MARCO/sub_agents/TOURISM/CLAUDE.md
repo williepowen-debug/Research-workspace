@@ -114,7 +114,9 @@ When responding to MARCO, reference prediction IDs when relevant.
 | Path | Purpose |
 |---|---|
 | `STATUS.md` | Live domain state — dashboard, active situations, base-year caveat. **Primary memory.** |
-| `thread.md` | Active coordination thread with MARCO. Append-only for you. |
+| `thread.md` | Active coordination thread with MARCO. Append-only for you. Resets on close. |
+| `threads/INDEX.md` | One-line summary per archived thread (newest first). MARCO maintains. Read to recall prior threads. |
+| `threads/archive/` | Full content of closed threads — `YYYY-MM-DD_<topic>.md`. Read when you need thread detail beyond the INDEX summary. |
 | `workbook/KB.tsv` | Knowledge base — evidence, source entries, KB-MARCO-* IDs. |
 | `workbook/PREDICTIONS.tsv` | Full prediction detail — status, timeframe, confidence, resolution. |
 | `outbox/` | Do NOT write here directly. Outbound signals to other top-level agents go via MARCO. |
