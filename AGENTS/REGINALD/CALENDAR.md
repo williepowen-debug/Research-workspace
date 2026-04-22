@@ -1,6 +1,6 @@
 # REGINALD CALENDAR
 
-**Last Updated:** 2026-04-17 ~10:00 ET (FITB + RF ✅ resolved) | **View:** Forward-looking only. Past events pruned weekly.
+**Last Updated:** 2026-04-22 ~10:45 ET (WAL + OZK Q1 ✅ resolved; IQHQ maturity corrected; OZK sub notes reprice added) | **View:** Forward-looking only. Past events pruned weekly.
 
 ---
 
@@ -21,9 +21,9 @@
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |------|-------|---------------|-------------------|-----------|
-| **Apr 21** | **WAL Q1 earnings** (confirmed per IR) | CRE provisions, MI3 (≥25%?), Cantor reserve, SSFA | Any negative surprise = 🔴. See EARNINGS_PREP.md (grade A-). MTB + CFG read-throughs applied. | PROME |
+| **Apr 21 ✅** | **WAL Q1: GAAP EPS $1.65 MISS / Adj $2.22 BEAT** — resolved | Full synthesis → `WAL/Q1_2026_ANALYSIS.md`. **V2 FRAUD CONFIRMED LIVE: LAM $126.4M + Cantor $26.1M = $152.5M charge-offs.** Vecchione labeled "two fraud-related credits." $50.5M security sales gains = "mitigation strategy" (RF-playbook cohort 2/2). LAM = Leucadia Asset Management (Jefferies subsidiary post-2013). Ex-fraud NCO 0.39%. CET1 11.0%. Deposits +$5.6B QoQ. | Tape -2.04% Apr 22 AM → back below $78 threshold. Cohort fade pattern 8/8. | REGINALD, BROCK, OTTO |
 | Apr 20 | WTFC Q1 earnings (after-market) | — | — | — |
-| **Apr 21** | **OZK Q1 earnings** (after-close, conf call Apr 22 per OZK IR) | NCO, provisions, CRE migration, MI3, ACL, AOCI | NCO >$90M or capital raise = 🔴. **Microstructure: 15.28% SI rising, 0% insider ownership, Wellington/AQR/Two Sigma exiting, Peak6 $15M put.** | PROME |
+| **Apr 21 ✅** | **OZK Q1: EPS $1.44 MISS vs $1.46** — resolved | Full synthesis → `OZK/Q1_2026_ANALYSIS.md`. **Past due DOUBLED QoQ $207M → $465M.** Classified+criticized +23% QoQ. 3 new substandard (2 Seattle U Dist w/ signed LOI, 1 Boston Life Sci $169M). 2 new foreclosed (Chicago Life Sci $50M, Santa Monica Office $45M at 15% leased). Near-zero LTVs: Boston Office 95%, Seattle Pioneer 100%, Wauwatosa Hotel 103%. NCO 0.57% in-line. **OZK PULLING BACK from Fund Finance (Jake Munn).** | Tape -1.46% Apr 22 AM. Slow-grind thesis confirmed; no fire. | REGINALD, CREED |
 | ~Apr 22 | PB Q1 earnings | TX CRE, provisions | — | — |
 | **Apr 28** | **RITM Q1 earnings** | Ginnie MSR performance, DQ trend | Mgmt claim "DQ will reverse in Q1" — testable. If fails, confirms CARL non-bank servicer stress thesis → warehouse transmission. | CARL, REGINALD (WAL V3) |
 | **May 6** | **APO Q1 earnings** (pre-market, 8:30 AM ET webcast) | Atlas SP segment disclosure; warehouse book size; any non-bank servicer counterparty commentary | New watch (Apr 14 warehouse research): Atlas SP = dominant warehouse provider to stressed non-bank mortgage servicers ($6.9B at PFSI = 78% concentration). Adds to existing APO stack (MFS fraud, First Brands, Epstein May 21, Athene). | REGINALD, CARL |
@@ -53,11 +53,18 @@
 | **Jun 18** | **AOCI capital rewrite comment period closes** | Final rule direction, industry opposition | Cat III/IV impact ($49.5B aggregate) | ALL banks |
 | **Jun 18** | **Options expiry cluster** | WAL $85P, WAL $65P, SSB $90P, KRE multi, IWM $250P, HYG $75P | Position management decisions needed by ~Jun 11 | FORGE |
 
+## AUGUST
+
+| Date | Event | What to Check | Threshold / Signal | Who Cares |
+|------|-------|---------------|-------------------|-----------|
+| **Aug 2026** | **IQHQ loan maturity (OZK)** ⚠️ **CORRECTED — was mislabeled Aug 2028** | Sponsor support continues? New equity contribution? Or migration to substandard? Brannon: demand "better than December"; tours/RFPs/LOIs active. Office tenants > life sci in demand pipeline. AI/tech users pursuing space. | Gleason expects sponsor support. If walks → substandard non-accrual inflow + possible foreclosure flow to H2 2026. | REGINALD, CREED |
+
 ## OCTOBER
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |------|-------|---------------|-------------------|-----------|
-| **Oct 2026** | **Affinius Capital $2.7B bond maturity** | Refi ability, OZK exposure, NDFI stress | Failure to refi = discrete OZK catalyst | OZK, BROCK |
+| **Oct 1, 2026** | **OZK $350M subordinated notes reprice** 🆕 NEW (from Q1 Mgmt Comments) | Floating rate kicks in: 2.75% fixed → SOFR+209bps (~6.4% at current SOFR). **Tier 2 capital treatment reduced 20% for 12 months.** Management explicitly "no plans to redeem or issue replacement." | +$12.8M/yr interest expense (~$0.09 EPS annual drag). NIM headwind not in most street models. | REGINALD |
+| **Oct 2026** | **Affinius Capital $2.7B bond maturity** ⚠️ NOT mentioned on OZK Q1 call — verify exposure | Refi ability, OZK exposure, NDFI stress | Failure to refi = discrete OZK catalyst | OZK, BROCK, CREED |
 
 ## PREDICTION CHECKPOINTS
 
