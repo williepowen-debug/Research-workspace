@@ -1,5 +1,78 @@
 # REGINALD STATUS
-**Last Updated:** 2026-04-20 ~19:30 ET (ZION print + full Quartr transcript integrated) | **Status:** 🔴🔴🔴 CRITICAL (WAL + OZK earnings ~21h)
+**Last Updated:** 2026-04-22 ~10:45 ET (WAL + OZK Q1 integrated — full analysis files posted) | **Status:** 🔴 ELEVATED (post-print — cohort fade pattern 8/8; WAL V2 fraud confirmed; OZK slow-grind)
+
+---
+
+## AM BRIEF — April 22, 2026 (post-WAL + OZK prints)
+
+**Live prices (market.py 09:15 ET):** KRE $69.63 (-1.43%), **WAL $77.83 (-2.04%, 🔴 BACK BELOW $78)**, OZK $48.52 (-1.46%), ZION $62.02 (-1.63%), EGBN $27.46 (-2.56%), SSB $98.63 (-1.51%), SPY $704.08 (-0.65%), VIX 19.20 (+1.75%), Brent $94.65 (+1.51%), 10Y 4.29%.
+
+### WAL Q1 2026 — V2 FRAUD CONFIRMED LIVE → `WAL/Q1_2026_ANALYSIS.md`
+
+| Metric | Actual | Cons | Delta |
+|---|---|---|---|
+| EPS GAAP | $1.65 | $1.73 | **MISS -4.6%** |
+| EPS Adjusted | $2.22 | $1.73 | **BEAT +28%** |
+| Revenue | $1.018B | $948M | **BEAT +7.3%** (+31% YoY) |
+| NIM | 3.54% | — | +7bps YoY |
+| Net Income GAAP | $189.2M | — | — |
+| Provision | **$213.2M** | — | **vs $31.2M Q1 25** |
+| Total NCOs | $208.5M | — | 1.45% GAAP / **0.39% ex-fraud** |
+
+**The story:** Vecchione labeled *"two fraud-related credits"* explicitly.
+- **LAM charge-off $126.4M** — Leucadia Asset Management (Jefferies subsidiary post-2013 merger). **V2 chain confirmed in public 8-K.**
+- **Cantor Group V charge-off $26.1M** — from $29.4M specific reserve (~89% utilization). $13M senior liens acquired to protect residual.
+- **$50.5M security sales gains** = "mitigation strategy" — cohort 2/2 on same-quarter offset (RF did $40M post-Q1 repo). Q2 buffer used.
+- **Ex-fraud underwriting CLEAN.** 0.39% NCO. $0 construction/resi NCOs. Classified -9bps QoQ to 1.08%. CET1 11.0%. TBV $61.14 (+13% YoY).
+- **Deposits +$5.6B QoQ to $82.7B** — cohort-leading. L/D 71.5% (from 76.0%).
+- Buybacks $50M @ $71.61 avg (stock now $77.83 — $6/sh paper gain).
+- **Tape -2.04%** → market seeing through adjusted → fraud quality. Short-unwind thesis DIDN'T fire at name level.
+
+**Position read:** V2 thesis CONFIRMED in-print — positions HOLD. Extension/duration beats compression. Sep roll on $65P Jun merits analysis.
+
+### OZK Q1 2026 — SLOW-GRIND THESIS CONFIRMED → `OZK/Q1_2026_ANALYSIS.md`
+
+| Metric | Actual | Cons | Delta |
+|---|---|---|---|
+| EPS | $1.44 | $1.46 | Miss -1.5% |
+| Revenue | $418.1M | $422.5M | Miss $4.5M |
+| Net income | $159.3M | — | -5.1% YoY |
+| NIM | 4.20% | 4.2% | In-line |
+| NCO (annualized) | **0.57%** | 0.6% | In-line / in-line w/ ~50bps FY guide |
+| Efficiency | 39.0% | 38.2% | Worse |
+
+**Leading-indicator stress signals — THESIS FIRING:**
+- **Past due loans DOUBLED QoQ: $207M → $465M (0.64% → 1.41%).** Up 10x in 6 months.
+- **Classified+criticized $984M → $1,215M (+23% QoQ).**
+- **3 new substandard credits** identified: 2 Seattle U District ($76M Office + $50M Life Sci, signed LOI for recap), 1 Boston Life Science ($169M, matured Dec 18 2025).
+- **2 new foreclosed assets:** Chicago Life Sci $50M (68% of May '25 appraisal, previous short sale failed), Santa Monica Office $45M (**only 15% leased**, $5M charge-off on transfer).
+- **Near-zero equity LTVs:** Boston Office 95%, Seattle Pioneer Square **100%**, Wauwatosa Hotel **103%** (Mar '26 appraisal).
+
+**Disconfirming (bull case):**
+- Gleason tone confident: "late stages of this CRE cycle", "green shoots" in office.
+- NCO 0.57% annualized — **in-line with ~50bps FY guide, NOT 1.18% "5.4x peers" our STATUS had** (likely an annualization/denominator issue in prior data).
+- $16.9B record primary+secondary liquidity. CET1 11.64%. Buybacks accretive ($45.51 avg vs $47.15 TBV).
+- **OZK PULLING BACK from Fund Finance capital call subscriptions** per Jake Munn (CIB President) — non-bank lender + insurance company competition. **Disconfirms "regionals pressing into NDFI" narrative at OZK specifically.**
+
+**3 NEW CATALYSTS discovered:**
+1. **Oct 1, 2026: $350M sub notes reprice** from 2.75% → SOFR+209bps (~6.4%). Tier 2 -20% for 12 months. +$12.8M/yr interest = ~$0.09 EPS drag. Mgmt: "no plans to redeem." Not in most street models.
+2. **Aug 2026: IQHQ maturity** ⚠️ **CORRECTED — STATUS had this as Aug 2028; actual Aug 2026.** Gleason expects sponsor support but "August is an eternity." Office tenants > life sci tenants at the project currently.
+3. **$350M "Other borrowings" new QoQ** — likely FHLB advances to fund $1.44B securities carry trade (40% muni housing @ 6% tax-equiv, 60% agency MBS @ 4.60%). **OFFENSIVE, not defensive.** Different signature from MTB/CFG/PNC funding-stress surge.
+
+**Position read:** $42.5P Aug correct duration (captures IQHQ). $45P May TOO TIGHT — past-due doubling is leading indicator but recognition tempo is Q2-Q3. Roll $45P May → Aug or Sep merits analysis.
+
+### Cohort tape pattern — **now 8/8 all faded (only RF rallied on miss-unwind)**
+
+| Bank | Tape | Pattern |
+|---|---|---|
+| MTB | -1.55% | beat-fade |
+| CFG | -0.63% | beat-fade |
+| PNC | -0.03% (2d) | beat-fade |
+| FITB | ~flat | mixed |
+| RF | +3.8% | miss-driven short unwind |
+| ZION | -1.6% AH | clean-fade |
+| **WAL** | **-2.04%** | adjusted-beat / fraud-labeled fade |
+| **OZK** | **-1.46%** | fade on mild miss |
 
 ---
 
@@ -253,32 +326,52 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 
 ## RESEARCH — OZK
 
-**KB: 159 rows, 17 groups** | **Earnings: Apr 21 (16 days)** | **Price: $46.31 (Apr 4)**
+**KB: 159 rows, 17 groups** | **Earnings ✅ Apr 21 resolved** → `OZK/Q1_2026_ANALYSIS.md` | **Price: $48.52 (Apr 22 AM, -1.46%)**
 - 10 prompts done (#1-7, 15, 16, 20). 5 remaining (#8 Metropolitan, #9 Affinius, #10 sell-side, #13 peer vintage, #19 metro conditions)
-- LIFE_SCI deepest cluster (21 rows). RaDD 3.3% leased, maturity Aug 2028.
-- Temple 8 short thesis published. OZK = reservoir thesis (stress accumulates → maturity wall forces recognition).
+- LIFE_SCI deepest cluster (21 rows). **RaDD 3.3% leased; IQHQ maturity Aug 2026 ⚠️ CORRECTED (was mislabeled Aug 2028).**
+- Temple 8 short thesis published. OZK = reservoir thesis (stress accumulates → maturity wall forces recognition). **Q1 26 CONFIRMS via past-due doubling ($207M → $465M QoQ)** — recognition tempo = Q2-Q3 2026.
 - Full architecture: INDEX → STATUS → THESIS → KB.tsv → KB_INDEX. Boot ~15 min.
 
-**Key numbers:** CRE/Tier 1 358% (adj 405-420%), ACL 1.16%, NCO 1.18% (5.4x peers), noncurrent 1.06% (1.7x peers), MI3/C&I 37.6% (worst), 89.7% construction on interest reserves.
-**⚡ AOCI exposure:** Cat III/IV — mandatory unrealized AFS loss recognition phasing in. Street buying headline relief while AOCI is the buried bomb.
+**Key numbers (Q1 26 actuals):**
+- Total loans $32.98B. RESG $17.2B (52.1% — down from 70% peak). CIB $6.2B (18.8%).
+- Past due $465M (**1.41%**, up from 0.64% Q4 25). Classified+criticized $1,215M (+23% QoQ).
+- NCO $45.3M (**0.57% annualized**, in-line w/ 50bps FY guide). Provision $41.9M.
+- ACL $628.5M (1.24% of loans+unfunded, -bps QoQ on charge-off recognition).
+- CET1 11.64%. TBV $47.15 (+11% YoY). ROATCE 12.47%.
+- **$350M new "Other borrowings" QoQ — likely FHLB Dallas advances for securities carry trade.**
+- **$350M sub notes reprice Oct 1 2026 — new catalyst (+$12.8M/yr interest expense, Tier 2 -20%).**
+- MI3/C&I 37.6% (prior baseline — supplement doesn't break out; needs Call Report May 1-10).
+- **OZK actively RETREATING from Fund Finance capital call subscriptions** (Jake Munn) — non-bank lender + insurance competition.
+
+**Five RESG problem credits ($240M non-accrual + $329M substandard accrual + $150M foreclosed = $719M):**
+- Boston Office $156M (95% LTV, 80d PD) | Baltimore Land $40M (53% LTV, 120d PD) | Seattle Pioneer Office $25.9M (**100% LTV**, $27.7M charge-off this quarter) | Wauwatosa Hotel $17.9M (**103% LTV**, fresh Mar '26 appraisal)
+- Boston Life Sci $169M (91% LTV, 46d PD, matured Dec 18) | Seattle U Dist Office+Life Sci combined $127M (**signed LOI for recap**) | Lake Tahoe SF Lots $34M (93% LTV)
+- Foreclosed: LA Land $54.5M | Chicago Life Sci $50M (NEW Q1 26) | Santa Monica Office $45M (NEW Q1 26, **15% leased**)
 
 ## RESEARCH — WAL
 
-**KB: 70 rows, 10 groups** | **Earnings: Apr 21 (16 days) — SAME DAY AS OZK** | **EARNINGS_PREP: B+→A-** | **Price: $72.07 (Apr 4) ⚠️ BELOW $78 THRESHOLD**
+**KB: 70 rows, 10 groups** | **Earnings ✅ Apr 21 resolved** → `WAL/Q1_2026_ANALYSIS.md` | **Price: $77.83 (Apr 22 AM, -2.04%) 🔴 BELOW $78 THRESHOLD**
 - Architecture complete (Mar 25): INDEX, THESIS, STATUS, SCENARIOS, WEAKNESSES, EARNINGS_PREP, EXTERNAL_PROMPTS.
-- 5 external prompts ready. EARNINGS_PREP upgraded Mar 26 with new signals.
-- **NEW (Mar 31):** `LEADERSHIP.md` created — full C-suite, board, audit committee, auditor, CRE leadership, ownership profile. CFO Idnani corrected to Vishal (not Deepak). CRO Emily Nachlas profiled. Guggenheim (TPG RE Finance Trust) on Risk committee, NOT Audit — expertise/oversight gap identified.
-- **NEW (Mar 31):** Chart analysis (1W/1M/3M/5min) confirms institutional distribution pattern. Volume front-loaded on spike days, dead between. Bounce from $65 on thin volume = no institutional accumulation.
-- WAL = fast-transmission thesis (episodic, sudden — bypasses delinquency pipeline).
+- **V2 FRAUD CONFIRMED IN PUBLIC 8-K Apr 21.** Vecchione labeled "two fraud-related credits." LAM $126.4M + Cantor $26.1M = $152.5M. LAM = Leucadia Asset Management (Jefferies subsidiary post-2013). V2 chain now has named-credit public-record resolution.
+- WAL = fast-transmission thesis (episodic, sudden — bypasses delinquency pipeline). **Print demonstrates hypothesis:** single-quarter 21bps-of-loans fraud charge from one credit (LAM).
 
-**Key numbers:** CRE/Tier 1 474%, MI3/C&I 24.2% (GROWING), SSFA $17.2B ($1.1B capital savings), Cantor $98M (30% reserved vs ZION 83%), SF NCO highest nationally (1.13%), pipeline lowest (0.26%).
+**Key numbers (Q1 26 actuals):**
+- GAAP EPS $1.65 miss / **Adjusted EPS $2.22 beat** — $0.57 spread = fraud + security gain normalization.
+- Revenue $1.018B (+31% YoY) — strong beat vs $948M cons.
+- Total NCOs $208.5M (**1.45% GAAP / 0.39% ex-fraud**). C&I charge-offs $181.4M = 84% fraud-concentrated.
+- CRE Non-Owner Occupied charge-offs $27.7M (small but non-zero). Construction + Residential RE charge-offs = **$0**.
+- Classified assets -9bps QoQ to 1.08%. Special mention $403M (0.68%). Classified accrual $455M (0.77%).
+- CET1 11.0% (flat). Tier 1 12.0%. Total 14.4%. TCE 6.8% (-50bps QoQ). **TBV $61.14 (+13% YoY).**
+- Deposits $82.7B (+$5.6B QoQ = +7.2%; +19.3% YoY). **Cohort-leading growth.** L/D 71.5% (from 76.0%).
+- Short-term borrowings $2.948B (+$676M QoQ). Total borrowings $5.61B. Deposit surge dwarfs borrowing add → NOT funding stress.
+- Cantor residual: $98M - $26.1M charge = ~$72M outstanding; $13M senior liens acquired to protect.
+- **$50.5M security sales gains Q1** — "mitigation strategy" (Vecchione). Cohort 2/2 with RF's $40M post-Q1 repo. **Q2 buffer pocket used.**
+- Buybacks: $50M at $71.61 avg (stock $77.83 — ~$6/sh paper gain on pocket).
 
-**Three vectors:** V1 Hidden CRE (MI3) | V2 Jefferies/fraud (CONFIRMED Mar 25) | V3 SSFA/NDFI warehouse
+**Three vectors:** V1 Hidden CRE (MI3) — pending Call Report May 1-10 | **V2 Jefferies/fraud — ✅ CONFIRMED IN PRINT Apr 21** | V3 SSFA/NDFI warehouse — pending supplement/10-Q
 
-**⚡ Jefferies Q1 confirmed.** EPS $0.70 vs $0.91 (-23%). $17M MFS losses + $36M telecom writedown + First Brands fraud (→ OTTO T-15 Mar 31 auction, $800M gap). 24% FI revenue decline. V2 chain confirmed. SMFG backstop walked back.
-**⚡ AOCI exposure:** Cat III/IV — same AOCI bomb as OZK. Forced recognition of underwater AFS/HTM from 2022-23 rate shock.
-**⚡ Analyst downgrades (Mar 26):** Weiss Buy→Hold | Barclays PT $105→$90 | WFC PT $83→$79. Consensus PT ~$85-90. Thesis PT $47-60.
-**⚡ Macro amplifiers:** $400B CRE maturity wall in 2026 | NDFI $1.54T (V3 amplified) | Mortgage distress ATH | CMBS $167M Chicago office foreclosure.
+**⚡ AOCI exposure:** Cat III/IV — same AOCI bomb as OZK. Jun 18 deadline.
+**⚡ Analyst downgrades (Mar 26):** Weiss Buy→Hold | Barclays PT $105→$90 | WFC PT $83→$79. Consensus PT ~$85-90. **Thesis PT $47-60 — full street runway intact.**
 
 ---
 
@@ -287,10 +380,10 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 | Rank | Bank | Score | Primary Risk | Position | Expiry |
 |------|------|-------|-------------|----------|--------|
 | 1 | EGBN | 20 | CRE 547% + DC 100% + crisis state | $25P | Jun |
-| 2 | WAL | 20 | CRE 474% + Cantor + CFO swap | $85P/$77.5P/$70P/$65P | Jun/Sep |
+| 2 | WAL | 20 | **V2 FRAUD CONFIRMED Apr 21 (LAM $126.4M + Cantor $26.1M).** CRE 474% + MI3 pending + SSFA/NDFI pending | $85P/$77.5P/$70P/$65P | Jun/Sep — **V2 resolved, V1/V3 pending Call Report** |
 | 3 | CFG | 15 | BDC $12.5B + FHLB 60x + CRE nonaccruals rising | Monitoring (score 9→12 post-Q1) | — |
-| ~~4~~ | ZION | ~~14~~ → **~8-9** | ~~MUNI $5.78B~~ → **$4.27B (corrected Apr 20)** + NDFI $2B flat 5yr (McLean) + SBIC only (no BDC line) + Basel III +93bps CET1 offset to AOCI | $57.5P | Jul — **Q1 disconfirming; POL 270bps real; monitor only, verify position size** |
-| 5 | OZK | 13 | CRE 37.6% MI3 (WORST) + CRO selling | $42.5P/$45P | May/Aug |
+| ~~4~~ | ZION | ~~14~~ → **~8-9** | MUNI $4.27B + NDFI $2B flat 5yr + Basel III +93bps offset to AOCI | $57.5P | Jul — **Q1 disconfirming; monitor only** |
+| 5 | OZK | 13 | **Past due $207M → $465M QoQ firing. Slow-grind.** CRE 37.6% MI3 (worst baseline) + IQHQ Aug 2026 + Oct 1 sub notes reprice | $42.5P/$45P | **$45P May too tight — roll to Aug/Sep merits analysis** / $42.5P Aug correct |
 | 6 | SSB | 11 | GEO FL+TX 42% + CRE MF 9.36% | $90P | Jun |
 | 7 | FLG | 8 | NYC MF rent-reg | $13P | Jul |
 | — | KRE | — | Broad regional stress | Multi-strike | Jun/Sep/Dec |
@@ -306,14 +399,17 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 
 | Date | Event |
 |------|-------|
-| Apr 10 | CPI (captures oil shock) |
-| **Apr 21** | **WAL + OZK Q1 earnings — SAME DAY. Detonation risk elevated.** |
 | ~~Apr 20~~ ✅ | ZION resolved (mixed print, -1.6% AH) |
-| Apr 20-29 | Q1 bank earnings wave (WAL → VLY → EGBN + BOJ) |
-| May 1-10 | Q1 Call Report filings (MI3, NDFI, AOCI) |
+| ~~Apr 21~~ ✅ | **WAL + OZK both resolved — see Apr 22 AM brief above** |
+| Apr 23 | VLY + SSB Q1 earnings |
+| Apr 23-24 | BOJ meeting — hike live (~40-45%) |
+| May 1-10 | Q1 Call Report filings (MI3, NDFI, AOCI) — **key for WAL V1 + OZK MI3** |
 | May 12 | WAL Investor Day |
 | May 21 | Epstein class action deadline (APO) |
 | **Jun 18** | **AOCI capital rewrite comment period closes** |
+| **Aug 2026** | **IQHQ loan maturity (OZK) ⚠️ CORRECTED from Aug 2028** — sponsor support test |
+| **Oct 1, 2026** | **OZK $350M sub notes reprice (2.75%→SOFR+209) + Tier 2 -20% 🆕** |
+| Oct 2026 | Affinius Capital $2.7B bond maturity (OZK link — NOT mentioned on Q1 call) |
 
 ---
 
@@ -372,11 +468,11 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 
 ---
 
-## ⚠️ THRESHOLD BREACHES (as of Apr 17 ~10:00 ET — rally reversed AM breach)
+## ⚠️ THRESHOLD BREACHES (as of Apr 22 ~09:15 ET)
 
 | Metric | Threshold | Current | Note |
 |--------|-----------|---------|------|
-| WAL | <$78 | **$81.09** (+4.92%) | 🟡 **BREACH FADED.** Pre-market $77.29 → mid-morning $81.09 on broad short-unwind rally post-RF miss and Brent -10%. Cohort all up 2-5% (KRE +3.36%, OZK +3.22%, ZION +2.70%, EGBN +3.58%, CFG +1.33%). DB crowded-short unwind (SIG-W-20260414-008) appears to be activating pre-earnings. |
+| WAL | <$78 | **$77.83** (-2.04%) | 🔴 **BREACH CONFIRMED POST-PRINT.** Q1 print (LAM $126.4M fraud + Cantor $26.1M + adjusted beat) did NOT trigger short-unwind rally. Fade of 2% on fraud-quality reading. V2 thesis confirmed in public 8-K. |
 | HY OAS | >320bps | **294bps** (Apr 8, stale) | CLEAR. 26bps buffer. Needs refresh. |
 
 ---
