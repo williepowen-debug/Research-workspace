@@ -1,5 +1,5 @@
 # MARCO STATUS
-**Last Updated:** 2026-04-21 ET (session 3) | **Status:** 🔴 RED (DHS shutdown ~Day 61-64, FL condo inventory BREACHED 9.1mo, produce spike live, VX-SDL-01 formalized, **sub-agent coordination pattern in-flight; MARCO-side ROOMS protocol formalized in CLAUDE.md**)
+**Last Updated:** 2026-04-22 ET (session 4) | **Status:** 🔴 RED (DHS shutdown ~Day 62-65, FL condo inventory BREACHED 9.1mo, produce spike live, VX-SDL-01 formalized, **TOURISM thread 2 closed — $-at-risk v0 scope locked; DEFERRED.md created**)
 
 ---
 
@@ -23,12 +23,13 @@
 
 ---
 
-## NEXT SESSION FOCUS (updated 2026-04-21 session 2)
+## NEXT SESSION FOCUS (updated 2026-04-22 session 4)
 
 **Tier 1 — do first:**
-1. ✅ **Coordination pattern validated** (2026-04-21 thread 1 with TOURISM). Pattern works. **NEXT SESSION: open thread 2 with TOURISM** (Will plans to reboot both sessions and pick up here). Topic TBD — likely either (a) first execution hand-off for Broward/PB/Lee TDT ingestion week-1 task, or (b) first signal-routing thread as real data surfaces. **Thread 2 is the first thread under the formalized ROOMS protocol in `CLAUDE.md` — opening prompt must include the roster block, thread type declaration (Signal or Strategy), and expected pass count.** Read `sub_agents/TOURISM/threads/INDEX.md` to recall thread 1.
-2. **Outfit BORDER + WORKFORCE next.** Use TOURISM's `CLAUDE.md` + `thread.md` + `threads/archive/` as template. These two sub-agents have the hottest live signals (DHS shutdown, H-2A, SDL-01 transmission) — outfit them before MIGRATION/HOUSING.
+1. ✅ **TOURISM thread 2 closed** (2026-04-22, 5-pass strategy room, first thread under formalized ROOMS protocol). $-at-risk model v0 scope locked: monthly native, leisure-only + cruise sub-category, Canadian-driven $ hole only (option a), mixed-grid native. 2 DEFERRED entries (REGINALD spatial, HOUSING snowbird). **Next TOURISM touchpoint = TOURISM's own commits** (2026-04-28 data source hierarchy + cruise TDT-stitch + county-TDT audit; 2026-05-05 uncertainty rep + origin attribution). No MARCO thread needed until TOURISM delivers.
+2. **Outfit BORDER + WORKFORCE next.** Use TOURISM's `CLAUDE.md` + `thread.md` + `threads/archive/` as template. These two sub-agents have the hottest live signals (DHS shutdown, H-2A, SDL-01 transmission) — outfit them before MIGRATION/HOUSING. ROOMS protocol mirror (Signal vs Strategy template split, strategy response template) should be baked into their `CLAUDE.md` from day one — no separate session-3-style retrofit needed.
 3. **DHS reconciliation text check — weekly cadence.** Last check 2026-04-20 (no text, budget resolution precursor only, Johnson target slipped, $75B OBBBA cushion insulates ICE). Next due ~2026-04-27. Monitor congress.gov + `budget.senate.gov`. Jun 1 Trump deadline is the binding cliff.
+4. **Track TOURISM solo-work commits.** 2026-04-28 deliverable = data source hierarchy + county-TDT audit (Monroe/Collier/Pinellas/Miami-Dade/Orange) + cruise TDT-stitch methodology. 2026-05-05 = uncertainty representation + origin-attribution methodology. MARCO picks up on delivery, updates STATUS + routes results to REGINALD/CARL as appropriate.
 
 **Tier 2 — important, not urgent:**
 4. **Other sub-agents need `CLAUDE.md`.** BORDER, WORKFORCE, MIGRATION, HOUSING still lack identity/spawn/scope docs. After TOURISM pattern is validated, batch the remaining four using the TOURISM template (`sub_agents/TOURISM/CLAUDE.md`).
@@ -47,25 +48,22 @@
 
 ---
 
-## SUB-AGENT COORDINATION PATTERN (VALIDATED 2026-04-21 session 2)
+## SUB-AGENT COORDINATION PATTERN (protocol in `CLAUDE.md`)
 
-**Elevation:** MARCO as moderator, Will in the room. MARCO owns the graph; sub-agents own the nodes. All cross-agent routing flows through MARCO.
+**Thread 1 (TOURISM roadmap, 2026-04-21 — `threads/archive/2026-04-21_tourism-roadmap.md`):** Roadmap locked — Broward/PB/Lee TDT [wk 1-2] → $-at-risk v0 [wk 2-3] → NTTO Europe/Brazil/Japan [wk 3-4]. Lane: TOURISM produces series; REGINALD/FORGE picks instruments.
 
-**Mechanism:** `thread.md` per sub-agent. MARCO writes prompts; sub-agent appends structured responses (Finding / Confidence / Evidence / What-it-changes / Caveats). For strategy threads, format adapts. Will drops `WILL:` sections anytime. MARCO closes + archives to `threads/archive/`, writes synthesis back to MARCO files.
-
-**Thread 1 outcome (TOURISM, roadmap — see `sub_agents/TOURISM/threads/archive/2026-04-21_tourism-roadmap.md`):**
-- Pattern works end-to-end: prompt → independent reaction → synthesis → close → archive.
-- TOURISM roadmap locked: (1) Broward/PB/Lee TDT ingestion + AC winter 26-27 FL-route retention [wk 1-2], (2) $-at-risk model v0 [wk 2-3], (3) NTTO Europe-stall + Brazil/Japan [wk 3-4], ongoing winter capacity tracker.
-- **Key lane discipline established:** TOURISM produces $-at-risk series; REGINALD/FORGE pick instruments. No hotel REIT watchlist, no CMBS name-picking in TOURISM.
-- **Deferred edges:** Border day-trip flow-vs-consumer split (TOURISM/CARL), metro tourism-dependency ownership (TOURISM-led vs joint with MIGRATION) — resolve inline when signals surface.
+**Thread 2 (TOURISM $-at-risk v0 grid, 2026-04-22 — `threads/archive/2026-04-22_dollar-at-risk-v0-grid-decisions.md`):**
+- First thread under formalized ROOMS protocol. TOURISM restructured my framing (D1-geo + D3 collapsed), corrected thread-1 "county × quarter" to "monthly mixed-grid native," surfaced 3 cross-agent questions (1 resolved in-room, 2 DEFERRED).
+- **3 locks for v0 build:** (i) monthly native (quarterly = REGINALD-reporting artifact); (ii) leisure-only + cruise sub-category, Canadian-driven $ hole only (option a); (iii) mixed-grid native (county-native where TDT publishes; metro-native MSA; non-TDT proxied from metro, wider bands).
+- **v1 extension gated on CARL comparable series.**
+- **TOURISM commit dates:** 2026-04-28 (data source hierarchy + county-TDT audit + cruise TDT-stitch); 2026-05-05 (uncertainty rep + origin attribution).
 
 **Build status:**
-- ✅ TOURISM outfitted + validated: CLAUDE.md + thread.md + threads/archive/ + first thread closed
-- ✅ **MARCO-side ROOMS protocol** formalized in `AGENTS/MARCO/CLAUDE.md` (session 3, 2026-04-21): roster block template, Signal vs Strategy thread declaration, expected pass count, 5-item close section, DEFERRED.md format, archiving. Applies from thread 2 onward.
-- ⏸️ BORDER, WORKFORCE, MIGRATION, HOUSING — pending same outfit (use TOURISM template)
-- ⏸️ `AGENTS/MARCO/COUPLINGS.md` — thread 1 produced first edges (TOURISM→REGINALD $-at-risk bridge, TOURISM→CARL flagged, TOURISM→BRENT existing); draft COUPLINGS.md when 2-3 sub-agents have contributed edges
-- ⏸️ `AGENTS/MARCO/DEFERRED.md` — cross-agent-input log; create when first absent-sub-agent flag lands in a thread close
-- 📎 Full design brainstorm → `user_input/MARCO IDEAS.md`
+- ✅ TOURISM outfitted + validated (threads 1-2 closed). First sub-agent fully operational under ROOMS.
+- ✅ ROOMS protocol: `MARCO/CLAUDE.md` (MARCO-side) + `sub_agents/TOURISM/CLAUDE.md` (TOURISM mirror). Signal vs Strategy split proven.
+- ✅ `AGENTS/MARCO/DEFERRED.md` — 2 open: REGINALD spatial-resolution, HOUSING snowbird ground-spend.
+- ⏸️ BORDER, WORKFORCE, MIGRATION, HOUSING — pending outfit (use TOURISM template; bake ROOMS in day one).
+- ⏸️ `AGENTS/MARCO/COUPLINGS.md` — thread 2 added edges (TOURISM→REGINALD $-at-risk, TOURISM→CARL domestic-substitution, TOURISM↔HOUSING joint-snowbird, TOURISM→REGINALD/CORAL cruise→bank, v1-gated-on-CARL). Draft at 2-3 sub-agent threshold. Design brainstorm → `user_input/MARCO IDEAS.md`.
 
 ---
 
