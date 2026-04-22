@@ -67,7 +67,7 @@
 - **Source:** Bisnow Jan 22 2026 ("Bank OZK Is Cutting Its Losses") — direct confirmation of OZK-Renaissance Milwaukee linkage.
 
 ### #5 — Boston Life Sci ($169.3M) — SPONSOR: 808 Windsor / Boynton Yards (HIGH CONFIDENCE, updated 2026-04-23)
-- **Update:** Apr 22 IQHQ secondary-exposure investigation (`IQHQ_SECONDARY_EXPOSURE.md`) confirmed Boynton Yards is **NOT an IQHQ project** — sponsor is Leggat McCall + DLJ + Deutsche Finance America (Wolf Media Dec 22 2021 press release; Boston Globe Aug 19 2024). Combined with Rossow's on-record statement (Bisnow Mar 19 2026: RaDD is OZK's sole IQHQ credit), Candidate B is now the working baseline. See KB-OZK-178, KB-OZK-179.
+- **Update:** Apr 22 IQHQ secondary-exposure investigation (`research/threads/IQHQ_SECONDARY_EXPOSURE.md`) confirmed Boynton Yards is **NOT an IQHQ project** — sponsor is Leggat McCall + DLJ + Deutsche Finance America (Wolf Media Dec 22 2021 press release; Boston Globe Aug 19 2024). Combined with Rossow's on-record statement (Bisnow Mar 19 2026: RaDD is OZK's sole IQHQ credit), Candidate B is now the working baseline. See KB-OZK-178, KB-OZK-179.
 - **Why uncertain previously:** No publicized Boston OZK loan matches $169.3M outstanding exactly. Matured **Dec 18 2025** (46 days past due).
 - **Candidate B (HIGH CONFIDENCE — working baseline): 808 Windsor / Boynton Yards Somerville**
   - Original $246M (Dec 2021). 370K SF delivered Nov 2024, 96% vacant (Cushman & Wakefield listing).

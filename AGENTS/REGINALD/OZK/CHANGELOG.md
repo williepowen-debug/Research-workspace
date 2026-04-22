@@ -30,7 +30,7 @@ Integrates the Q1 2026 earnings print (Apr 21) and the 6-quarter historical deep
   - **Substandard non-accrual mass migration** — $59M (Q2 25) → $150M (Q3 25) → $341M (Q4 25) → implied $400M+ (Q1 26). 154% then 127% QoQ. Migration started Q3 25, not Q1 26.
   - **Past-due 30+ DPD regime change** — flat at $45-50M / 0.14-0.17% for FOUR quarters Q4 24 through Q3 25, then stepped to $207M / 0.64% Q4 25, then $465M / 1.41% Q1 26. **10x in 6 months.** A regime change, not a gradual build.
   - **Recognition tempo (NCO) pulsed** — quiet quarters (Q1 25 25bp, Q2 25 10bp, Q3 25 41bp), then a Q4 25 pulse at 118bp ($72M Boston Office single charge-off), then back to 57bp Q1 26.
-- **Source:** `historical/Q4_24_extract.md` through `historical/Q4_25_extract.md` (5 PDFs, 5 parallel sub-agents Apr 23). Combined with `RESG_MIX_DETERIORATION.md` Q4 25 / Q1 26 baseline.
+- **Source:** `historical/Q4_24_extract.md` through `historical/Q4_25_extract.md` (5 PDFs, 5 parallel sub-agents Apr 23). Combined with `research/threads/RESG_MIX_DETERIORATION.md` Q4 25 / Q1 26 baseline.
 - **KB / PREDICTIONS impact:**
   - `KB-OZK-184` — share-projection claim (29.6% → 36.4% in 8Q) marked SUPERSEDED by `KB-OZK-185` (this version). Past-due / classified projection within KB-OZK-184 still holds.
   - `REG-21` (problem-category share ≥32% by Q4 26) — confidence revised DOWN from 60% → 25%.
@@ -42,20 +42,20 @@ Integrates the Q1 2026 earnings print (Apr 21) and the 6-quarter historical deep
 
 - **Old view:** Gleason Q1 26 transcript ambiguity ("any other project with IQHQ") left a multi-credit IQHQ exposure scenario open at low probability.
 - **New view:** OZK CCO Michelle Rossow on-record to Bisnow Mar 19 2026: *"We have one credit with IQHQ, which is the senior secured loan on their San Diego RaDD project."* Disconfirmation map for sister projects (Fenway → JPM, Arbor → KKR, Spur → Apollo, 155 N Beacon → Citizens, 109 Brookline → assumed from EQC, Boynton Yards → Leggat McCall). RaDD is OZK's SOLE IQHQ exposure.
-- **Source:** `IQHQ_SECONDARY_EXPOSURE.md` (Apr 22, Opus thread A). Updated `IQHQ_PLAYBOOK.md` with Apr 23 confirmation block. KB-OZK-178.
+- **Source:** `research/threads/IQHQ_SECONDARY_EXPOSURE.md` (Apr 22, Opus thread A). Updated `IQHQ_PLAYBOOK.md` with Apr 23 confirmation block. KB-OZK-178.
 - **Position implication:** Weighted EL on RaDD ($140M on $555M funded) stands unchanged. No second IQHQ credit to model. Aug 21 put duration unchanged.
 
 **3. Boynton Yards $246M sponsor identified — Leggat McCall, NOT IQHQ** *(EVIDENCE INTEGRATION)*
 
 - **Old view:** SEVEN_CREDIT_DEEP_DIVE §2 #5 ($169M Boston Life Sci substandard) had two top candidates at 50/40 weight: Candidate A (10 Prospect / US2) vs Candidate B (808 Windsor / Boynton Yards). Boynton Yards was tentatively classified in some materials as an IQHQ project.
 - **New view:** 808 Windsor / Boynton Yards Somerville sponsor confirmed as Leggat McCall + DLJ + Deutsche Finance America (Wolf Media Dec 2021 press release; Boston Globe Aug 2024). NOT IQHQ. Combined with the Apr 22 sole-exposure finding above, Candidate B promoted to HIGH confidence; Candidate A demoted to secondary.
-- **Source:** `IQHQ_SECONDARY_EXPOSURE.md`; SEVEN_CREDIT_DEEP_DIVE.md §2 #5 updated 2026-04-23. KB-OZK-179.
+- **Source:** `research/threads/IQHQ_SECONDARY_EXPOSURE.md`; SEVEN_CREDIT_DEEP_DIVE.md §2 #5 updated 2026-04-23. KB-OZK-179.
 - **Position implication:** Unchanged. Sponsor identity refinement; loss severity work stays in SEVEN_CREDIT.
 
 **4. CIB margin compression — vertical-specific, net-neutral** *(NEW EVIDENCE, calibrating-only)*
 
 - **New finding:** 3 of 6 CIB verticals (ABLG, Fund Finance, LFG) compressing on spread/structure per Munn's Q1 26 commentary. Defense is rotation to CBSF/NRG/EFG plus Franchise Capital Solutions (new vertical Q1 26). "+12bp new-vs-legacy spread" is a mix-shift metric, not pricing power. NIM 4.20% Q1 26 likely drifts to 4.10-4.15% over 2026 absent rate-environment change.
-- **Source:** `CIB_MARGIN_COMPRESSION.md` (Apr 22, Opus thread B). KB-OZK-180, KB-OZK-181.
+- **Source:** `research/threads/CIB_MARGIN_COMPRESSION.md` (Apr 22, Opus thread B). KB-OZK-180, KB-OZK-181.
 - **Position implication:** Confirmatory but not decisive — adds 0.5-1.0 vol to the NIM leg. IQHQ Aug + RESG migration remain higher-beta catalysts.
 
 **5. Wave 1 of three-wave catalyst structure resolved** *(STATE UPDATE)*
@@ -69,9 +69,9 @@ Integrates the Q1 2026 earnings print (Apr 21) and the 6-quarter historical deep
 
 | File | Status | Purpose |
 |---|---|---|
-| `IQHQ_SECONDARY_EXPOSURE.md` | NEW (Apr 22) | Closes "any other IQHQ project" ambiguity. Verdict: NO EVIDENCE of second exposure. |
-| `CIB_MARGIN_COMPRESSION.md` | NEW (Apr 22) | 3 of 6 CIB verticals compressing; rotation defense exhaustible. |
-| `RESG_MIX_DETERIORATION.md` | NEW (Apr 22), REVISED (Apr 23) | Apr 22 version overstated linear projection. Apr 23 revision adds 6Q view + retraction. |
+| `research/threads/IQHQ_SECONDARY_EXPOSURE.md` | NEW (Apr 22) | Closes "any other IQHQ project" ambiguity. Verdict: NO EVIDENCE of second exposure. |
+| `research/threads/CIB_MARGIN_COMPRESSION.md` | NEW (Apr 22) | 3 of 6 CIB verticals compressing; rotation defense exhaustible. |
+| `research/threads/RESG_MIX_DETERIORATION.md` | NEW (Apr 22), REVISED (Apr 23) | Apr 22 version overstated linear projection. Apr 23 revision adds 6Q view + retraction. |
 | `historical/Q4_24_extract.md` | NEW (Apr 23) | First in 5-quarter historical extract series. |
 | `historical/Q1_25_extract.md` | NEW (Apr 23) | |
 | `historical/Q2_25_extract.md` | NEW (Apr 23) | |

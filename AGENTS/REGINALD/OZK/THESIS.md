@@ -49,7 +49,7 @@ OZK executed 590 RESG modifications over 14 quarters on ~300 loans — the avera
 
 **11-credit problem book deep dive ($719M):** Blended expected loss $211-291M (29-40% severity using 2025-26 distressed comps). ACL $628M = 2.2-3.0x coverage today. If problem book migrates to ~$1.4B over Q2-Q4 26 (credible at observed past-due trajectory), coverage drops to 1.1-1.5x → implies $150-300M reserve build. Detail → `SEVEN_CREDIT_DEEP_DIVE.md`.
 
-**Trajectory math + retraction history:** `RESG_MIX_DETERIORATION.md` (rev 2026-04-23). Audit: `CHANGELOG.md` v1.1.
+**Trajectory math + retraction history:** `research/threads/RESG_MIX_DETERIORATION.md` (rev 2026-04-23). Audit: `CHANGELOG.md` v1.1.
 
 ---
 
@@ -148,7 +148,7 @@ OZK has the **worst absolute Memo Item 3 ratio** in the screen [KB-OZK-020] — 
 | "Short interest 14-15% = squeeze" | Crowded yes, but coverage 1.6x and falling is the worst in peer group. Squeezes are temporary; trajectory isn't. |
 | "Gleason has never lost" | GFC record is genuine — beat industry NCOs every quarter but one, ROA >1.20% throughout [KB-OZK-064]. BUT: (1) GFC book was ~$2B community-scale AR CRE, not today's $20B+ national RESG [KB-OZK-067]. (2) CRE/equity 381% then vs ~620% now [KB-OZK-068]. (3) FDIC loss-share on 7 acquired banks cushioned performance [KB-OZK-066/071]. (4) OCC issued Formal Agreement June 2011 — "less than satisfactory" mgmt/liquidity ratings [KB-OZK-069]. (5) Corus Bank ran the same gateway-city construction model and failed when LTV was too high [KB-OZK-072]. The GFC record is *real* but categorically non-transferable. |
 | "IQHQ got extended, crisis deferred" | Extension = more time underwater. 97% vacant [KB-OZK-028 ⚠️ Oct 2024, may be stale], SD life sciences vacancy 25-29%. Extension doesn't create tenants. IQHQ itself under financial pressure (investor markdowns 4-23%, PIK loans at 13.5-14%) [KB-OZK-029]. |
-| "Mix-shift share stable at 27-31% for 6 quarters — no breakdown" | True on the share metric. But that's the WRONG indicator — share % is a mechanical artifact of asset sales and denominator changes. Three migration metrics underneath are all firing: substandard non-accrual mass migration ($59M → $341M Q2-Q4 25, +154% then +127% QoQ), past-due 30+ DPD regime change (10x in 6 months: $46M → $207M → $465M Q3 25 → Q4 25 → Q1 26), classified +23% QoQ Q1 26. Share stability hides the real story [KB-OZK-185]. See `RESG_MIX_DETERIORATION.md`. |
+| "Mix-shift share stable at 27-31% for 6 quarters — no breakdown" | True on the share metric. But that's the WRONG indicator — share % is a mechanical artifact of asset sales and denominator changes. Three migration metrics underneath are all firing: substandard non-accrual mass migration ($59M → $341M Q2-Q4 25, +154% then +127% QoQ), past-due 30+ DPD regime change (10x in 6 months: $46M → $207M → $465M Q3 25 → Q4 25 → Q1 26), classified +23% QoQ Q1 26. Share stability hides the real story [KB-OZK-185]. See `research/threads/RESG_MIX_DETERIORATION.md`. |
 
 ---
 
@@ -163,6 +163,6 @@ Size accordingly. Accept that green days will hurt. The thesis is about trajecto
 
 ---
 
-*Canonical data → `workbook/KB.tsv` | Deep dives → `research/`, `IQHQ_PLAYBOOK.md`, `SEVEN_CREDIT_DEEP_DIVE.md`, `RESG_MIX_DETERIORATION.md` | Raw sources → `sources/`, `OZK 2026 Q1 data/`, `historical/`*
+*Canonical data → `workbook/KB.tsv` | Deep dives → `research/`, `research/threads/`, `IQHQ_PLAYBOOK.md`, `SEVEN_CREDIT_DEEP_DIVE.md` | Raw sources → `sources/`, `OZK 2026 Q1 data/`, `historical/`*
 *`[KB-OZK-NNN]` anchors link to KB.tsv rows. Update numbers in KB.tsv only — this file is narrative.*
 *Version history: `CHANGELOG.md`. Any change to this file requires a CHANGELOG entry.*
