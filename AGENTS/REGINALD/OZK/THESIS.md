@@ -1,13 +1,15 @@
 # OZK — Full Bear Case
 
+**Version:** v1.1 (2026-04-23) — Q1 26 print integration + 6Q historical refinement | **Changelog:** `CHANGELOG.md`
+
 ## THE RESERVOIR THESIS
 
 OZK is a slow-building reservoir of unrecognized CRE losses. Stress is accumulating in the loan book, masked by reserve cuts, extend-and-pretend, and classification management. The 2022 vintage maturity wall forces recognition Q1-Q3 2026.
 
 **Three-wave catalyst structure:**
-1. **NOW → Apr 16 earnings:** Atlanta/FL/GA loans already noncurrent (1.36%), showing up as charge-offs. **Sterling Bay Lincoln Yards life sci building seized via deed-in-lieu Mar 2026** — 284K SF, 100% vacant since 2023 completion, carrying value $50M (was $125M loan), $14.1M already charged off H2 2025 [KB-OZK-094]. OZK also sold $265M Sterling Bay SD life sci loan to distressed buyer SVP in Jan 2026 [KB-OZK-095]. Wave 1 is LIVE.
+1. ✅ **RESOLVED Apr 21 2026:** Q1 26 print confirmed slow-grind thesis. Past-due **doubled QoQ** ($207M → $465M, 0.64% → 1.41%). 3 new substandard credits (2 Seattle U District w/ signed LOI + 1 Boston Life Sci $169M, matured Dec 18). 2 new foreclosed assets (Chicago Life Sci $50M + Santa Monica Office $45M at **15% leased**). Near-zero LTVs: Boston Office 95%, Seattle Pioneer 100%, Wauwatosa Hotel 103%. NCO 0.57% in-line w/ ~50bps FY guide. Sterling Bay/Lincoln Yards seizure + SVP sale (KB-OZK-094/095) referenced and confirmed. Detail → `Q1_2026_ANALYSIS.md`.
 2. **Q2 2026:** NY pipeline (0.41% 30-89 day, highest in country) converts to noncurrent
-3. **Aug 2026 → likely Aug 2028:** IQHQ RaDD ($915M) — the whale. **Two-year extension reported (Bisnow Oct 2024).** Total reserves held by bank: $152.9M ($87M Jun 2024 + $82M Jan 2025) [KB-OZK-086]. LTV 50.3% at full funding per latest appraisal. Campus 97% vacant (only tenant: J. Craig Venter Institute, 50K/1.7M SF) [KB-OZK-028 ⚠️ Oct 2024, may be stale]. Cole est. value ~$500M vs $555M funded = underwater. Crisis real but timeline extended.
+3. **Aug 2026:** IQHQ RaDD ($555M funded / $915M commitment) — the whale. **CORRECTED 2026-04-22: maturity is Aug 2026, NOT Aug 2028 as prior framing suggested.** Q1 26 transcript Gleason: *"August is an eternity."* **3.3% leased** (JCVI 50K SF only; Tracy Murphy's Jan 2025 guidance of "two life sciences tenants by March 2025" did NOT materialize). **Aimco filed $50M fraud/breach complaint vs IQHQ April 2026** — chills any 4th rescue round. **CCO Michelle Rossow on-record Mar 19 2026: RaDD is OZK's SOLE IQHQ exposure** [KB-OZK-178]. Weighted expected loss $140M = 22% of OZK ACL on one credit. Scenario tree (50% substandard migration / 18% foreclosure / 20% extend / 12% takeout). Detail → `IQHQ_PLAYBOOK.md`.
 
 **Noncurrent concentration (FFIEC Call Report, Q4 2025):** 75.2% of all noncurrent ($256.7M of $341M) is in "other nonfarm nonresidential" — non-owner-occupied CRE [KB-OZK-012]. This is the exact category where IQHQ, office, and life sciences loans sit. The stress is surgically concentrated in OZK's vulnerability.
 
@@ -28,6 +30,26 @@ OZK executed 590 RESG modifications over 14 quarters on ~300 loans — the avera
 **Interest reserves as hidden TDR:** FY2024 saw $504M in interest income recognized from reserve advances on $19.8B maximum committed balance [KB-OZK-099]. The bank is essentially funding interest payments to itself through contractual advances. The 10-K states reserves were never advanced outside contractual terms — but the scale itself is the mechanism keeping loans performing until reserves exhaust.
 
 **NPL volatility as forensic signal:** The NPL ratio swung from 0.60% to 0.18% to 1.06% in five quarters. The sharp 0.18% dip in Q2 2025 was driven by $101M in foreclosure transfers — NPLs moved to OREO, not resolved [KB-OZK-100]. Foreclosed assets surged from $69M to $160M in H1 2025. This is classification management through timing.
+
+---
+
+## MIGRATION VELOCITY — THE LEADING INDICATOR (NEW Apr 23)
+
+**Two-axis credit migration: headline mix-shift stable, migration velocity accelerating.** Apr 23 6-quarter historical extract (Q4 24 → Q1 26 Mgmt Comments PDFs, 5 parallel sub-agents) showed problem-category share (Office + Life Sciences + Land + Hotel) has held in a **27-31% band for 6 consecutive quarters**. Q4 24 was actually the high at 30.9%, NOT Q1 26. The "+250bps QoQ" jump in Q1 26 was partial retracement of a Q4 25 mechanical dip (San Diego LS asset sale + $72M Boston Office charge-off lowered the denominator), not a new acceleration. **Headline share metric is the WRONG indicator** [KB-OZK-185 supersedes KB-OZK-184 Claim A].
+
+**The right indicators are three independent migration metrics, all firing simultaneously:**
+
+| Metric | Q3 25 | Q4 25 | Q1 26 | Pattern |
+|---|---|---|---|---|
+| Substandard non-accrual | $150M | $341M | ~$400M+ | Mass migration starting Q3 25 ($59M base) — +154% then +127% QoQ |
+| Past-due 30+ DPD | 0.14% ($46M) | **0.64% ($207M)** | **1.41% ($465M)** | **Step change Q4 25; doubled again Q1 26 — 10x in 6 months** |
+| Classified+criticized | $943M | $984M | **$1,215M (+23%)** | Stable through Q4 25; inflow Q1 26 |
+
+**Reservoir thesis CONFIRMED on three migration metrics simultaneously**, not on share %. Recognition tempo: Q4 25 was a single-credit pulse ($72M Boston Office charge-off, largest single-quarter recognition in 5Q history); Q1 26 mass past-due flow now in the pipeline for Q2-Q3 26 NCO conversion. Forward calls: P(SNA >$500M by Q4 26) ~70%; P(classified/RESG ≥3.8% by Q4 26) 60% [REG-23].
+
+**11-credit problem book deep dive ($719M):** Blended expected loss $211-291M (29-40% severity using 2025-26 distressed comps). ACL $628M = 2.2-3.0x coverage today. If problem book migrates to ~$1.4B over Q2-Q4 26 (credible at observed past-due trajectory), coverage drops to 1.1-1.5x → implies $150-300M reserve build. Detail → `SEVEN_CREDIT_DEEP_DIVE.md`.
+
+**Trajectory math + retraction history:** `RESG_MIX_DETERIORATION.md` (rev 2026-04-23). Audit: `CHANGELOG.md` v1.1.
 
 ---
 
@@ -126,6 +148,7 @@ OZK has the **worst absolute Memo Item 3 ratio** in the screen [KB-OZK-020] — 
 | "Short interest 14-15% = squeeze" | Crowded yes, but coverage 1.6x and falling is the worst in peer group. Squeezes are temporary; trajectory isn't. |
 | "Gleason has never lost" | GFC record is genuine — beat industry NCOs every quarter but one, ROA >1.20% throughout [KB-OZK-064]. BUT: (1) GFC book was ~$2B community-scale AR CRE, not today's $20B+ national RESG [KB-OZK-067]. (2) CRE/equity 381% then vs ~620% now [KB-OZK-068]. (3) FDIC loss-share on 7 acquired banks cushioned performance [KB-OZK-066/071]. (4) OCC issued Formal Agreement June 2011 — "less than satisfactory" mgmt/liquidity ratings [KB-OZK-069]. (5) Corus Bank ran the same gateway-city construction model and failed when LTV was too high [KB-OZK-072]. The GFC record is *real* but categorically non-transferable. |
 | "IQHQ got extended, crisis deferred" | Extension = more time underwater. 97% vacant [KB-OZK-028 ⚠️ Oct 2024, may be stale], SD life sciences vacancy 25-29%. Extension doesn't create tenants. IQHQ itself under financial pressure (investor markdowns 4-23%, PIK loans at 13.5-14%) [KB-OZK-029]. |
+| "Mix-shift share stable at 27-31% for 6 quarters — no breakdown" | True on the share metric. But that's the WRONG indicator — share % is a mechanical artifact of asset sales and denominator changes. Three migration metrics underneath are all firing: substandard non-accrual mass migration ($59M → $341M Q2-Q4 25, +154% then +127% QoQ), past-due 30+ DPD regime change (10x in 6 months: $46M → $207M → $465M Q3 25 → Q4 25 → Q1 26), classified +23% QoQ Q1 26. Share stability hides the real story [KB-OZK-185]. See `RESG_MIX_DETERIORATION.md`. |
 
 ---
 
@@ -140,5 +163,6 @@ Size accordingly. Accept that green days will hurt. The thesis is about trajecto
 
 ---
 
-*Canonical data → `workbook/KB.tsv` | Deep dives → `research/` | Raw sources → `sources/`*
+*Canonical data → `workbook/KB.tsv` | Deep dives → `research/`, `IQHQ_PLAYBOOK.md`, `SEVEN_CREDIT_DEEP_DIVE.md`, `RESG_MIX_DETERIORATION.md` | Raw sources → `sources/`, `OZK 2026 Q1 data/`, `historical/`*
 *`[KB-OZK-NNN]` anchors link to KB.tsv rows. Update numbers in KB.tsv only — this file is narrative.*
+*Version history: `CHANGELOG.md`. Any change to this file requires a CHANGELOG entry.*
