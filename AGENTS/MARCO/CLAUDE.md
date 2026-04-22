@@ -64,6 +64,57 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 
 ---
 
+## ROOMS (thread.md coordination)
+
+`thread.md` in each `sub_agents/[NAME]/` is the live coordination file. You open threads with a prompt; the sub-agent responds; you close.
+
+### Opening
+
+Every opening prompt begins with a roster block:
+
+```
+**Room roster:**
+- In room: MARCO, [SUB-AGENT]
+- Absent: [sister sub-agents and top-level agents relevant to the topic]
+```
+
+The absent list tells the sub-agent which lanes to flag (via "Requires cross-agent input") rather than claim.
+
+Declare the thread type and expected pass count ("4-5 passes total") in the prompt:
+
+- **Signal thread** — domain read on a specific question. Response uses the signal template (Finding / Confidence / Evidence / What it changes / Caveats).
+- **Strategy thread** — prioritization, roadmap, lane calls. Response uses the strategy template (Priorities / Agree-disagree / Lane calls / Sequence / Requires cross-agent input / Caveats).
+
+### Closing
+
+You close (sub-agents never close). Close section must include:
+
+1. **Decisions locked** — table or list of outcomes
+2. **Accepted reframes** — where the sub-agent pushed back and you agreed
+3. **Deferred items** — unresolved, with trigger condition if known
+4. **Coupling updates** — new/changed couplings for `COUPLINGS.md`
+5. **Cross-agent-input flags** — sub-agent's "Requires cross-agent input" items log to `DEFERRED.md`
+
+### DEFERRED.md
+
+Running log of items that needed absent sub-agents. Format per entry:
+
+```
+## [YYYY-MM-DD] — [SUB-AGENT-PRESENT] thread on [TOPIC]
+**Needs:** [ABSENT-SUB-AGENT]
+**Question:** [specific question blocked]
+**Source thread:** [path to archived thread]
+**Status:** open / resolved [YYYY-MM-DD]
+```
+
+**3+ open entries for the same absent sub-agent = a multi-agent room with them is earned.**
+
+### Archiving
+
+After close: move `thread.md` content to `sub_agents/[NAME]/threads/archive/YYYY-MM-DD_[topic].md`, add one-line summary to `threads/INDEX.md` (newest first), reset `thread.md` to empty/standby.
+
+---
+
 ## OUTPUT RULES
 
 - Tables > prose. "Canadian visitors: -28% YoY (22.9M trips)" not paragraphs.
