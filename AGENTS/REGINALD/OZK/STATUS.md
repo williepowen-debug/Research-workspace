@@ -114,4 +114,4 @@ KBRA highlights: $72M single office charge-off. RESG declining $1.4B/qtr, projec
 **Cat III/IV — mandatory unrealized AFS loss recognition phasing in.** Fed/FDIC/OCC capital rewrite: AOCI phase-in for Cat III/IV. $49.5B aggregate hit across 21 banks. Comment period closes Jun 18. Street buying headline relief while AOCI is the buried bomb. This is a SEPARATE capital drain from credit losses.
 
 ## Navigation
-**Cold boot → `INDEX.md`** | **KB navigator → `workbook/KB_INDEX.md`** | **Thesis → `THESIS.md`** | **Earnings → `EARNINGS_PREP.md`**
+**Cold boot → `INDEX.md`** | **KB navigator → `workbook/KB_INDEX.md`** | **Thesis → `THESIS.md`** | **Q1 26 earnings → `Q1_2026_ANALYSIS.md`** | **Options roll → `THREAD3_ROLL_MATH.md`**

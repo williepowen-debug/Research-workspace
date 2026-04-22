@@ -1,139 +1,152 @@
 # OZK — Agent Index
 **Start here on cold boot.**
 
-**Last session (Mar 25):** KB at **160 rows** across 17 groups. SHORT_INTEREST added as group 17 (KB-OZK-160). FL Paradox complete. Peer comp integrated. D6 Extend-and-Pretend synthesis written. KB_INDEX.md navigator created. Orphan folders (INSIDERS/, MARKET/, PRIVATE_CREDIT/) indexed. **EARNINGS_PREP.md fully rebuilt** — quantitative NCO range, tripwires, decision matrix, position management, management defense anticipation, squeeze risk, KB gaps flagged.
+**Last updated:** 2026-04-22 (post-Q1 26 print integration + file-tree cleanup)
+
+**State snapshot:**
+- **Q1 2026 earnings ✅ RESOLVED Apr 21** — past-due doubled QoQ ($207M → $465M), 3 new substandard credits, 2 new foreclosed assets, NCO 0.57% in-line. Slow-grind thesis confirmed. → `Q1_2026_ANALYSIS.md`
+- **Thesis v1.1 (Apr 22/23)** — Q1 print integrated; mix-shift linear projection retracted; 3 migration-velocity leading indicators survive. → `CHANGELOG.md`
+- **KB.tsv: 185 rows / 17 groups** (178-185 added Apr 22-23)
+- **Positions:** $42.5P May 15 × 2 (rolling this week), $42.5P Aug 21 × 1, $45P Aug 21 × 4. Roll recommendation → `THREAD3_ROLL_MATH.md`
+- **Next hard catalyst:** IQHQ RaDD Aug 2026 maturity — weighted EL $140M on $555M funded. → `IQHQ_PLAYBOOK.md`
 
 ---
 
-## Key Numbers (Q4 2025)
+## Data Ownership (no duplication)
 
-| Metric | Value | Signal |
-|--------|-------|--------|
-| CRE / Tier 1 Capital | **358%** (guideline: 300%) | 🔴 Highest-tier concentration |
-| Adjusted CRE / Tier 1 (w/ shadow) | **405-420%** | 🔴 Novel metric — includes MI3 + NDFI |
-| ACL / Total Loans | **1.16%** ($632M) | 🔴 Below peer median ~1.23%, below peer avg ~1.75% |
-| ACL / Noncurrent Coverage | **~184%** | 🔴 BELOW peer median 231% — less reserved per $ of problem loans |
-| FY2025 NCO Rate (annualized) | **1.18%** FY / **1.18%** Q4 ann | 🔴 5.4x peer median (0.22%). ACL ratio breached. |
-| Noncurrent Ratio | **1.06%** ($341M) | 🔴 1.7x peer median (0.61%) |
-| Memo Item 3 / C&I | **37.6%** ($1.289B) | 🔴 Hidden CRE in C&I — worst in peer set |
-| NDFI (Shadow CRE) | **$2.74B** | Debt-on-debt, counterparty risk |
-| Construction on Interest Reserves | **89.7%** ($7.0B of $7.8B) | Clock ticking — reserves deplete |
-| Loans Pledged | **74%** ($23.9B) | 🔴 Worst in SVB/FRC comp set |
-| Uninsured Deposits | **$11.9B** vs ~$10B unpledged | Depositor subordination risk |
-| Short Interest | **~14-15%** (UNDATED — needs refresh) | Crowded |
-
-## Positions
-
-| Strike | Expiry | Contracts | Thesis |
-|--------|--------|-----------|--------|
-| $42.5P | May 15 | 2 | Wave 1: Apr earnings catalyst |
-| $42.5P | Aug 21 | 1 | Waves 2-3: NY pipeline + IQHQ |
-| $45P | Aug 21 | **4** | Waves 2-3: NY pipeline + IQHQ (added 2 @ $4.05 Mar 24) |
-
-**Earnings: April 16, 2026** — 23 days
-
-## Data Update Rules
-
-| What Changed | Where to Update | Don't Touch |
+| Doc | Owns | Don't put here |
 |---|---|---|
-| **A number/data point** | KB.tsv only | THESIS.md (references KB rows — narrative stays stable) |
-| **Narrative/framing** | THESIS.md | KB.tsv (data doesn't change because framing did) |
-| **New evidence arrives** | Add KB.tsv row → check off STATUS.md Research Agenda | EVIDENCE.md (legacy, frozen) |
-| **Task completed** | STATUS.md Research Agenda checklist | GAP_ANALYSIS Part 7 (frozen snapshot) |
-| **Session ending** | Update "Last Session" below + STATUS.md "What's Changed" | — |
+| `STATUS.md` | Current prices, thresholds, positions, Q1 26 dashboard | Thesis detail (→ THESIS), deep math (→ sub-docs) |
+| `THESIS.md` | Structural bear case, channels, synthesis + pointers | Current numbers (→ STATUS), trajectory math (→ sub-docs) |
+| `CHANGELOG.md` | Thesis-level deltas w/ old vs new view, version pinning | Data (→ KB) or process notes |
+| `Q1_2026_ANALYSIS.md` | Q1 26 earnings print synthesis — actuals, management comments | Forward scenarios (→ IQHQ_PLAYBOOK, SCENARIOS) |
+| `IQHQ_PLAYBOOK.md` | RaDD Aug 2026 scenarios (A/B/C/D), weighted EL, sponsor stack | Other credits (→ SEVEN_CREDIT) |
+| `SEVEN_CREDIT_DEEP_DIVE.md` | 7 problem credits ($719M), severity math, sponsor IDs | IQHQ (→ IQHQ_PLAYBOOK) |
+| `THREAD3_ROLL_MATH.md` | Options roll math — May 15 position → Aug/Nov/Jan27 candidates | General position view (→ STATUS) |
+| `workbook/KB.tsv` | 185-row canonical evidence database | Narrative (→ THESIS) |
+
+---
 
 ## Boot Sequence
 
 | Order | File | Time | What You Get |
 |-------|------|------|-------------|
-| 1 | `STATUS.md` | 2 min | Dashboard, positions, catalyst calendar, research agenda |
-| 2 | `THESIS.md` | 5 min | Full bear case, three waves, bull rebuttals, MI3 discovery |
-| 3 | `SCENARIOS.md` | 3 min | Bull/base/bear with probabilities and triggers |
-| 4 | `workbook/KB.tsv` | 3 min | **160-row** canonical evidence database |
-| — | `workbook/KB_INDEX.md` | 2 min | Group navigator: **17 clusters** → folders → thesis layers |
+| 1 | `STATUS.md` | 2 min | Live dashboard, positions, catalyst list, Q1 26 summary |
+| 2 | `THESIS.md` | 5 min | Bear case w/ synthesis pointers to sub-docs |
+| 3 | `CHANGELOG.md` (v1.1 top entry) | 3 min | What changed this week + what was retracted |
+| 4 | `workbook/KB_INDEX.md` | 2 min | 17-cluster KB navigator |
+| — | Deep dive as needed | — | `Q1_2026_ANALYSIS.md`, `IQHQ_PLAYBOOK.md`, `SEVEN_CREDIT_DEEP_DIVE.md`, `THREAD3_ROLL_MATH.md` |
 
-**Total cold-boot: ~15 min.** Covers 90%+ of what an agent needs.
+**Total cold-boot: ~12 min** for the current operational picture.
+
+---
 
 ## File Map
 
-### Core (read at boot)
+### Core (read at boot / primary pointers)
 | File | Description |
 |------|-------------|
-| `INDEX.md` | This file — start here |
-| `STATUS.md` | Live dashboard, positions, catalyst calendar |
-| `THESIS.md` | Full thesis with three-wave framework |
-| `SCENARIOS.md` | Probability-weighted outcomes (**⚠️ price inputs stale — refresh before earnings**) |
-| `workbook/KB.tsv` | Canonical evidence store (**160 rows**, 13 columns) |
-| `workbook/KB_INDEX.md` | **KB group navigator** — 17 clusters mapped to folders, thesis layers, and earnings prep |
+| `INDEX.md` | This file — nav only, no data |
+| `STATUS.md` | Live dashboard |
+| `THESIS.md` | Master bear case (synthesis + pointers pattern) |
+| `CHANGELOG.md` | Thesis audit trail — v1.1 current, v1.0 pinned |
+| `Q1_2026_ANALYSIS.md` | Most recent earnings synthesis (Apr 21 actuals) |
+| `TODO.md` | Research backlog |
+| `workbook/KB.tsv` | 185-row evidence database |
+| `workbook/KB_INDEX.md` | KB cluster navigator |
 
-### Deep Dives (read on-demand)
+### Active deep dives (read on-demand)
 | File | When to Read |
 |------|-------------|
-| `EARNINGS_PREP.md` | Prepping for Apr 16 specifically |
-| `TEMPLE8_SHORT_THESIS_MAR2026.md` | External short thesis (Temple 8) for comparison |
-| `WEAKNESSES.md` | Stress-testing — what breaks the thesis |
-| `EXTERNAL_PROMPTS.md` | Research prompts for Will to run externally (9 done, 7 remaining) |
+| `IQHQ_PLAYBOOK.md` | Modeling Aug 2026 RaDD maturity scenarios |
+| `SEVEN_CREDIT_DEEP_DIVE.md` | Drilling into RESG problem credits |
+| `THREAD3_ROLL_MATH.md` | Options roll execution — live recommendation |
+| `WEAKNESSES.md` | Stress-testing the thesis (bull case steelman) |
+| `SCENARIOS.md` | Probability-weighted outcomes (⚠️ may be superseded by IQHQ_PLAYBOOK §3) |
+| `TEMPLE8_SHORT_THESIS_MAR2026.md` | External short thesis for comparison |
+| `EXTERNAL_PROMPTS.md` | External-LLM research prompts (9 done, 7 remaining) |
+| `INSTITUTIONAL_OWNERSHIP_PLAN.md` | Ownership-quality research plan |
 
-### Research (specific analyses)
+### Research — rebuttals (bull case pressure-test)
 | File | Topic |
 |------|-------|
-| `research/C1_RECLASSIFICATION_REBUTTAL.md` | Bull rebuttal: "reclassification is normal" |
-| `research/C2_RATE_RELIEF_SCENARIO.md` | Bull rebuttal: "rate cuts save them" |
-| `research/C3_CAPITAL_ABSORPTION_ANALYSIS.md` | Bull rebuttal: "capital absorbs losses" |
+| `research/C1_RECLASSIFICATION_REBUTTAL.md` | "Reclassification is normal" |
+| `research/C2_RATE_RELIEF_SCENARIO.md` | "Rate cuts save them" |
+| `research/C3_CAPITAL_ABSORPTION_ANALYSIS.md` | "Capital absorbs losses" |
+
+### Research — bear case series D
+| File | Topic |
+|------|-------|
 | `research/D1_LTV_EXTRAPOLATION.md` | LTV stress on reappraised loans |
 | `research/D2_PLEDGED_LOANS_LIQUIDITY.md` | 74% pledged, depositor subordination |
 | `research/D3_SHADOW_CRE_LEVER.md` | Novel adjusted CRE/Tier1 metric |
 | `research/D4_PROBLEM_BANK_COMPARISON.md` | OZK vs problem bank thresholds |
 | `research/D5_DIVIDEND_SUSTAINABILITY.md` | Dividend cut probability model |
-| `research/D6_EXTEND_AND_PRETEND.md` | **590 mods, 98% classification gap, 59% re-default — thesis Layer 2** |
-| `research/NDFI_SHADOW_CRE_ANALYSIS.md` | $2.74B shadow CRE deep dive |
-| `research/INSIDER_ACTIVITY_COMPILED.md` | All insider transactions compiled |
+| `research/D6_EXTEND_AND_PRETEND.md` | 590 mods, 98% classification gap, 59% re-default |
+
+### Research — post-Q1 threads (Apr 22-23, thesis v1.1 inputs)
+| File | Verdict |
+|------|---------|
+| `research/threads/IQHQ_SECONDARY_EXPOSURE.md` | NO EVIDENCE of second IQHQ credit — Rossow on-record to Bisnow confirms RaDD is sole |
+| `research/threads/CIB_MARGIN_COMPRESSION.md` | Vertical-specific (3/6 compressing), net-neutral, NIM drift 4.20% → 4.10-4.15% |
+| `research/threads/RESG_MIX_DETERIORATION.md` | Apr 22 linear projection RETRACTED (Apr 23). Real indicators: substandard migration, past-due regime change, NCO tempo. |
+
+### Research — other
+| File | Topic |
+|------|-------|
 | `research/8K_FORCED_DISCLOSURE_FRAMEWORK.md` | Pre-announcement pattern analysis |
-| `INSIDERS/` | Insider trading analysis (deep dive) |
-| `MARKET/` | Market data, snapshots, trade log |
-| `PRIVATE_CREDIT/` | Affinius/NDFI counterparty risk analysis |
+| `research/NDFI_SHADOW_CRE_ANALYSIS.md` | $2.74B shadow CRE deep dive |
+| `research/INSIDER_ACTIVITY_COMPILED.md` | Compiled insider transactions |
 
-### Life Sciences (asset type — cross-geography)
-| File | Content |
+### Domain subdirs
+| Path | Content |
 |------|---------|
-| `LIFE_SCI/FINDINGS.md` | **RaDD 3.3% leased, IQHQ distress cascade, downtown SD >90% vacant, AI demand shrink** |
-| `LIFE_SCI/STATUS.md` | Monitoring items: leasing, IQHQ liquidity, loan maturity, Campus at Horton |
-| `LIFE_SCI/README.md` | Scope ($3.2B across SD/Boston/Chicago), key numbers, navigation |
+| `LIFE_SCI/` | Lab market findings — RaDD, Campus at Horton, downtown SD vacancy, SD/Boston/Chicago $3.2B book |
+| `GEOGRAPHY/` | CRE exposure by metro (58 MSAs), FL paradox stress-test, regulatory district mismatch |
+| `INSIDERS/` | Insider trading analysis, FDIC EFR pulls, departures tracker |
+| `MARKET/` | Market data, trade log, microstructure |
+| `PRIVATE_CREDIT/` | Affinius/NDFI counterparty risk |
 
-### Geography (CRE exposure by metro)
-| File | Content |
+### Raw sources (don't read at boot)
+| Path | Content |
 |------|---------|
-| `GEOGRAPHY/EXPOSURE_MAP.md` | 58 MSAs, $2.9B distressed cluster, FL paradox |
-| `GEOGRAPHY/REGULATORY_DISTRICTS.md` | FDIC district mismatch, PDNA/NCO gaps |
-| `GEOGRAPHY/FL_PARADOX/FINDINGS.md` | 4-model FL stress-test — confirmed fortress with Biscayne 21 exception |
-| `GEOGRAPHY/STATUS.md` | Geographic investigation tracker |
+| `sources/` | 10-K/10-Q extracts, FDIC/FFIEC pulls, IQHQ research, multi-LLM NDFI research |
+| `OZK 2026 Q1 data/` | Will-supplied Q1 26 PDFs (Financial Supplement + Management Comments + transcript) |
+| `historical/` | Time-series Mgmt Comments extracts — Q4 24 / Q1-Q4 25 (5 PDFs, 5 agents Apr 23) |
 
-### Sources (raw data — don't read at boot)
-| File | Content |
-|------|---------|
-| `sources/10K_Q4_2025_EXTRACT.md` | 10-K data extraction |
-| `sources/FDIC_*.md` | FDIC API and QBP data |
-| `sources/FFIEC_*.csv` | Call report raw data |
-| `sources/IQHQ_RADD_RESEARCH.md` | IQHQ project research |
-| `sources/*_NDFI_DEEP_RESEARCH.*` | Multi-LLM NDFI research |
-| `sources/INSIDER_SCAN_OZK.md` | Raw insider scan |
-
-### Archive (completed work — don't read)
-| File | Why Archived |
-|------|-------------|
-| `archive/RESTRUCTURE_REVIEW.md` | KB migration complete |
-| `archive/GAP_CLOSURE_PLAN.md` | All 7 fixes executed |
-| `archive/AUDIT_REPORT.md` | Superseded by GAP_ANALYSIS_REPORT |
-| `archive/AUDIT_REPORT_MAR23.md` | Superseded by GAP_ANALYSIS_REPORT |
-| `archive/STRUCTURE_AUDIT.md` | Recommendations captured here |
+### Archive (completed/stale — don't read)
+| File | Why |
+|------|-----|
+| `archive/EARNINGS_PREP_Q1_2026.md` | Pre-Q1 26 earnings prep (474 lines). Q1 resolved Apr 21 — superseded by `Q1_2026_ANALYSIS.md`. |
+| `archive/AUDIT_REPORT.md`, `archive/AUDIT_REPORT_MAR23.md` | Old audits — superseded by CHANGELOG |
+| `archive/GAP_CLOSURE_PLAN.md`, `archive/GAP_ANALYSIS_REPORT.md` | Pre-Q1 gap work complete |
+| `archive/STRUCTURE_AUDIT.md`, `archive/RESTRUCTURE_REVIEW.md` | KB migration complete |
+| `archive/OZK_THESIS_FEB25.md` | Feb 25 thesis snapshot (pre-v1.0 baseline) |
+| `archive/EVIDENCE.md` | Legacy evidence doc |
 
 ### Workbook
 | File | Content |
 |------|---------|
-| `workbook/KB.tsv` | **160-row** evidence database (13-column standard schema) |
-| `workbook/KB_INDEX.md` | Group navigator — 17 clusters mapped to folders + thesis layers |
-| `workbook/KB_MIGRATION_LOG.md` | Migration audit trail |
+| `workbook/KB.tsv` | 185-row evidence database (14-column schema) |
+| `workbook/KB_INDEX.md` | 17-cluster navigator |
+| `workbook/KB_MIGRATION_LOG.md`, `workbook/KB_INDEX_AUDIT.md` | Audit trails |
+| `workbook/PREDICTIONS.tsv` | Falsifiable predictions (REG-01 through REG-23) |
 
 ---
 
-*This file is the entry point. If you're an agent spawning cold, read this first, then follow the boot sequence.*
+## Update Rules
+
+| What Changed | Where | Don't Touch |
+|---|---|---|
+| A number / data point | `workbook/KB.tsv` | THESIS.md (references KB rows by ID) |
+| Narrative / framing | `THESIS.md` + append to `CHANGELOG.md` | KB (data doesn't change because framing did) |
+| Thesis-level shift | `THESIS.md` + **MUST** append `CHANGELOG.md` w/ version bump | — |
+| New research output | `research/threads/` (post-Q1) or `research/C*/D*` (pre-Q1 rebuttals) | Top level — top level is for core pointers + active deep dives |
+| Position change | `STATUS.md` + update `IQHQ_PLAYBOOK §6` if related to IQHQ | Don't duplicate in multiple places |
+| Session ending | `../MEMORY.md` (parent REGINALD dir) — session handoff notes | INDEX.md (let it stabilize) |
+
+**Research-threads rule:** Threads move to `research/threads/` on creation. Insight gets synthesized into THESIS.md (2-3 sentences + pointer). If the thread's core claim is later retracted or superseded, mark it in `CHANGELOG.md` — don't delete the thread file.
+
+---
+
+*This file is the entry point. If you're an agent spawning cold, read this first, then follow the boot sequence. Last tree-hygiene pass: 2026-04-22 — moved EARNINGS_PREP → archive/, moved Apr 22 threads → research/threads/.*

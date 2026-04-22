@@ -214,7 +214,7 @@ These are the moments where our expected path could fork:
 
 ---
 
-*Catalyst detail for individual banks → `../OZK/EARNINGS_PREP.md`, `../WAL/EARNINGS_PREP.md`*
+*Catalyst detail for individual banks → `../OZK/Q1_2026_ANALYSIS.md`, `../WAL/Q1_2026_ANALYSIS.md` (pre-Q1 prep archived)*
 *Cross-agent triggers → `../STATUS.md` (CROSS-AGENT TRIGGERS section)*
 *Thesis context → `THESIS.md`*
 *Changes tracked in → `CHANGELOG.md`*
