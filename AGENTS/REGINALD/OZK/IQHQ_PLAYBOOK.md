@@ -1,7 +1,9 @@
 # IQHQ / RaDD August 2026 Maturity Playbook
 
-**Date:** 2026-04-22 | **Thread:** REGINALD deep-dive #2 | **Credit:** Bank OZK's single-largest loan
+**Date:** 2026-04-22 (Apr 23 update) | **Thread:** REGINALD deep-dive #2 | **Credit:** Bank OZK's single-largest loan
 **Facts:** $915M commitment / $555M funded / $360M unfunded ("good news funding") / **matures August 2026** / collateral: 1.5M SF lab+office+retail campus in downtown San Diego / **3.3% leased** (JCVI 50K SF only)
+
+> **2026-04-23 — Sole-exposure confirmed.** Apr 22 IQHQ secondary-exposure investigation (`IQHQ_SECONDARY_EXPOSURE.md`) closes the "any other project with IQHQ" ambiguity from Gleason's Q1 26 call (line 213). OZK CCO Michelle Rossow on-record to Bisnow Mar 19 2026: *"We have one credit with IQHQ, which is the senior secured loan on their San Diego RaDD project."* Disconfirmation map for sister projects: Fenway → JPM $165M, Arbor/Elco → KKR $581M, Spur SSF → Apollo $275M, 155 N Beacon → Citizens $486.5M, 109 Brookline → mortgage assumed from EQC 2020, Boynton Yards → Leggat McCall (NOT IQHQ). RaDD is OZK's sole IQHQ exposure. **Weighted EL math ($140M on $555M funded) stands unchanged.** See KB-OZK-178, KB-OZK-179.
 
 ---
 

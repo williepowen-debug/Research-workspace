@@ -66,17 +66,18 @@
 - **Expected loss this credit:** Sale band $15-20M gross → $14-18M net to OZK. Additional $2-4M charge-off likely at sale. Existing $5.6M reserve covers most of it.
 - **Source:** Bisnow Jan 22 2026 ("Bank OZK Is Cutting Its Losses") — direct confirmation of OZK-Renaissance Milwaukee linkage.
 
-### #5 — Boston Life Sci ($169.3M) — SPONSOR TBD
-- **Why uncertain:** No publicized Boston OZK loan matches $169.3M outstanding exactly. Matured **Dec 18 2025** (46 days past due).
-- **Candidate A (50% weight): 10 Prospect Street, Union Square Somerville**
+### #5 — Boston Life Sci ($169.3M) — SPONSOR: 808 Windsor / Boynton Yards (HIGH CONFIDENCE, updated 2026-04-23)
+- **Update:** Apr 22 IQHQ secondary-exposure investigation (`IQHQ_SECONDARY_EXPOSURE.md`) confirmed Boynton Yards is **NOT an IQHQ project** — sponsor is Leggat McCall + DLJ + Deutsche Finance America (Wolf Media Dec 22 2021 press release; Boston Globe Aug 19 2024). Combined with Rossow's on-record statement (Bisnow Mar 19 2026: RaDD is OZK's sole IQHQ credit), Candidate B is now the working baseline. See KB-OZK-178, KB-OZK-179.
+- **Why uncertain previously:** No publicized Boston OZK loan matches $169.3M outstanding exactly. Matured **Dec 18 2025** (46 days past due).
+- **Candidate B (HIGH CONFIDENCE — working baseline): 808 Windsor / Boynton Yards Somerville**
+  - Original $246M (Dec 2021). 370K SF delivered Nov 2024, 96% vacant (Cushman & Wakefield listing).
+  - Sponsor: **Leggat McCall + DLJ Real Estate + Deutsche Finance America** (NOT IQHQ).
+  - Curtailed unfunded commitments would explain $246M original → $169M outstanding with frozen "good news" funding.
+- **Candidate A (DEMOTED to secondary): 10 Prospect Street, Union Square Somerville**
   - Original $119M (Feb 2021). 194K SF speculative lab, delivered 2024, unleased.
   - Sponsor: **US2 (Magellan Development Group + Cathartes + RAS Development)**
-  - Interest reserves + extension fees across 4 years could accrete $119M → $169M
-- **Candidate B (40% weight): 808 Windsor / Boynton Yards**
-  - Original $246M (Dec 2021). 370K SF delivered Nov 2024, 96% vacant (Cushman & Wakefield listing).
-  - Sponsor: **Leggat McCall + DLJ Real Estate + Deutsche Finance America**
-  - OZK may have curtailed unfunded commitments — outstanding ≈ $169M with frozen "good news" funding.
-- **Candidate C (10% weight): A non-press-reported Boston life sci OZK originated without media coverage.**
+  - Interest reserves + extension fees across 4 years could plausibly accrete $119M → $169M, but the size jump is implausible vs B's curtailment story.
+- **Candidate C (residual): A non-press-reported Boston life sci OZK originated without media coverage.**
 - **Comp read (per Alexandria South Boston lab site Mar 2025):** -57% vs 2018 basis. Blackstone BXLS VI ($6.3B Mar 2026) deploying into distressed basis; BioMed/Alexandria NOT buying spec lab. Expected distressed buyer: Blackstone, Fortress, Oaktree, SVP, Brookfield.
 - **Expected loss this credit:** 25-40% severity on note sale = $40-65M loss. **This is a single-credit source of potentially material Q2-Q3 reserve build.**
 - **Follow-up:** Middlesex County ROD mortgage assignments post-Q4 2025 should disambiguate. 10-Q in May or Q2 call (Jul) will likely clarify.
