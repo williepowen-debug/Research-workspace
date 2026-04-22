@@ -1,5 +1,5 @@
 # MARCO STATUS
-**Last Updated:** 2026-04-21 ET (session 2) | **Status:** 🔴 RED (DHS shutdown ~Day 61-64, FL condo inventory BREACHED 9.1mo, produce spike live, VX-SDL-01 formalized, **sub-agent coordination pattern in-flight**)
+**Last Updated:** 2026-04-21 ET (session 3) | **Status:** 🔴 RED (DHS shutdown ~Day 61-64, FL condo inventory BREACHED 9.1mo, produce spike live, VX-SDL-01 formalized, **sub-agent coordination pattern in-flight; MARCO-side ROOMS protocol formalized in CLAUDE.md**)
 
 ---
 
@@ -26,7 +26,7 @@
 ## NEXT SESSION FOCUS (updated 2026-04-21 session 2)
 
 **Tier 1 — do first:**
-1. ✅ **Coordination pattern validated** (2026-04-21 thread 1 with TOURISM). Pattern works. **NEXT SESSION: open thread 2 with TOURISM** (Will plans to reboot both sessions and pick up here). Topic TBD — likely either (a) first execution hand-off for Broward/PB/Lee TDT ingestion week-1 task, or (b) first signal-routing thread as real data surfaces. Read `sub_agents/TOURISM/threads/INDEX.md` to recall thread 1.
+1. ✅ **Coordination pattern validated** (2026-04-21 thread 1 with TOURISM). Pattern works. **NEXT SESSION: open thread 2 with TOURISM** (Will plans to reboot both sessions and pick up here). Topic TBD — likely either (a) first execution hand-off for Broward/PB/Lee TDT ingestion week-1 task, or (b) first signal-routing thread as real data surfaces. **Thread 2 is the first thread under the formalized ROOMS protocol in `CLAUDE.md` — opening prompt must include the roster block, thread type declaration (Signal or Strategy), and expected pass count.** Read `sub_agents/TOURISM/threads/INDEX.md` to recall thread 1.
 2. **Outfit BORDER + WORKFORCE next.** Use TOURISM's `CLAUDE.md` + `thread.md` + `threads/archive/` as template. These two sub-agents have the hottest live signals (DHS shutdown, H-2A, SDL-01 transmission) — outfit them before MIGRATION/HOUSING.
 3. **DHS reconciliation text check — weekly cadence.** Last check 2026-04-20 (no text, budget resolution precursor only, Johnson target slipped, $75B OBBBA cushion insulates ICE). Next due ~2026-04-27. Monitor congress.gov + `budget.senate.gov`. Jun 1 Trump deadline is the binding cliff.
 
@@ -61,8 +61,10 @@
 
 **Build status:**
 - ✅ TOURISM outfitted + validated: CLAUDE.md + thread.md + threads/archive/ + first thread closed
+- ✅ **MARCO-side ROOMS protocol** formalized in `AGENTS/MARCO/CLAUDE.md` (session 3, 2026-04-21): roster block template, Signal vs Strategy thread declaration, expected pass count, 5-item close section, DEFERRED.md format, archiving. Applies from thread 2 onward.
 - ⏸️ BORDER, WORKFORCE, MIGRATION, HOUSING — pending same outfit (use TOURISM template)
 - ⏸️ `AGENTS/MARCO/COUPLINGS.md` — thread 1 produced first edges (TOURISM→REGINALD $-at-risk bridge, TOURISM→CARL flagged, TOURISM→BRENT existing); draft COUPLINGS.md when 2-3 sub-agents have contributed edges
+- ⏸️ `AGENTS/MARCO/DEFERRED.md` — cross-agent-input log; create when first absent-sub-agent flag lands in a thread close
 - 📎 Full design brainstorm → `user_input/MARCO IDEAS.md`
 
 ---
