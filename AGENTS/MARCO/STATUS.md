@@ -26,7 +26,7 @@
 ## NEXT SESSION FOCUS (updated 2026-04-21 session 2)
 
 **Tier 1 — do first:**
-1. ✅ **Coordination pattern validated** (2026-04-21 thread 1 with TOURISM). Pattern works. Next TOURISM thread opens when a signal surfaces or at week-2 check-in (~2026-05-05) to verify Broward ingestion + AC FL-route retention progress.
+1. ✅ **Coordination pattern validated** (2026-04-21 thread 1 with TOURISM). Pattern works. **NEXT SESSION: open thread 2 with TOURISM** (Will plans to reboot both sessions and pick up here). Topic TBD — likely either (a) first execution hand-off for Broward/PB/Lee TDT ingestion week-1 task, or (b) first signal-routing thread as real data surfaces. Read `sub_agents/TOURISM/threads/INDEX.md` to recall thread 1.
 2. **Outfit BORDER + WORKFORCE next.** Use TOURISM's `CLAUDE.md` + `thread.md` + `threads/archive/` as template. These two sub-agents have the hottest live signals (DHS shutdown, H-2A, SDL-01 transmission) — outfit them before MIGRATION/HOUSING.
 3. **DHS reconciliation text check — weekly cadence.** Last check 2026-04-20 (no text, budget resolution precursor only, Johnson target slipped, $75B OBBBA cushion insulates ICE). Next due ~2026-04-27. Monitor congress.gov + `budget.senate.gov`. Jun 1 Trump deadline is the binding cliff.
 
