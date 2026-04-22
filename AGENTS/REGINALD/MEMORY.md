@@ -36,71 +36,73 @@
 
 ## Session Notes
 
-⚠️ **Open question:** Which OZK deep-dive thread to prioritize next session? Three candidates teed up from Q1 analysis (see NEXT SESSION). All three can work from `OZK/Q1_2026_ANALYSIS.md` as starting point; each hits ~1-2 hours of focused work.
+⚠️ **Open question:** Does $45P May 15 roll to $45P Aug, $40P Aug, $45P Sep, or $42.5P Sep? Thread 3 is the concrete options-chain analysis — need live quotes (delta/vega/IV skew) before recommending a single roll for Will approval. **Deadline: by May 8** (one week before May 15 expiry).
 
 ### CHANGES SINCE LAST SESSION
 *(populated at next boot via market.py)*
 
-### LAST SESSION (Apr 22 AM — WAL + OZK Q1 integration)
+### LAST SESSION (Apr 22 PM — Threads 1 + 2 executed, Thread 3 pending)
 
-**Boot:** clean (pulled MARCO TOURISM work from origin; no inbox signals beyond processed). Prices flagged WAL below $78 post-print.
+**Boot:** clean, Will requested OZK deep dive. OZK $48.52 → $47.20 (-2.72% intraday). WAL $77.83 → $79.68 (+2.38%) — **divergence trade flagged in Apr 20 brief played out in real time** post-Q1 prints.
 
-**Main work — WAL + OZK Q1 2026 earnings analysis:**
-- **WAL:** Pulled 8-K via stocktitan mirror (press-release text). Round 1 analysis 12 sections → `WAL/Q1_2026_ANALYSIS.md` (265 lines).
-- **OZK:** Press release truncated on public mirrors. Will delivered supplement + management comments + transcript in `OZK/OZK 2026 Q1 data/`. Extracted all three via pdfminer + Read. Round 2 full analysis 13 sections → `OZK/Q1_2026_ANALYSIS.md` (330 lines).
-- **Headline findings:**
-  - **WAL V2 FRAUD CONFIRMED IN PUBLIC 8-K.** Vecchione explicitly labeled "two fraud-related credits": LAM $126.4M (Jefferies subsidiary) + Cantor $26.1M (from specific reserve, ~89% utilized; $13M senior liens acquired). $50.5M security sales gains = "mitigation strategy" (cohort 2/2 with RF). Ex-fraud NCO 0.39%.
-  - **OZK slow-grind thesis CONFIRMED.** Past due DOUBLED QoQ $207M → $465M (0.64% → 1.41%). Classified+criticized +23% QoQ. 3 new substandard credits (2 Seattle U District with signed LOI, 1 Boston Life Sci $169M). 2 new foreclosed (Chicago Life Sci $50M, Santa Monica Office $45M at 15% leased). Near-zero LTVs: Boston Office 95%, Seattle Pioneer 100%, Wauwatosa Hotel 103%.
-  - **3 NEW OZK catalysts discovered:** Oct 1 2026 $350M sub notes reprice (2.75% → SOFR+209bps, Tier 2 -20% for 12mo, +$12.8M/yr interest); Aug 2026 IQHQ maturity (STATUS had wrong — was mislabeled Aug 2028); $350M new "Other borrowings" (offensive carry trade for $1.44B securities purchase, not defensive).
-  - **OZK RETREATING from Fund Finance** (Jake Munn, CIB President) — disconfirms "regionals pressing into NDFI" narrative at OZK specifically.
-- **Cohort tape pattern now 8/8** — all faded post-print (only RF rallied on miss-unwind).
+**Main work: 2 of 3 teed-up OZK deep-dive threads completed.**
 
-**Files updated:**
-- `STATUS.md` — Apr 22 AM brief, threshold breach, OZK+WAL research rewritten, matrix + catalysts updated (now 572 lines — over 250 cap, pruning overdue)
-- `CALENDAR.md` — Apr 21 WAL+OZK ✅; IQHQ Aug 2026 corrected; Oct 1 sub notes catalyst added
-- `WAL/Q1_2026_ANALYSIS.md` — NEW (265 lines)
-- `OZK/Q1_2026_ANALYSIS.md` — NEW (330 lines)
-- `OZK/OZK 2026 Q1 data/OZK earnings call transcript.md` — NEW, committed (PDFs stay untracked)
+**Thread 1 → `OZK/SEVEN_CREDIT_DEEP_DIVE.md` (~290 lines):**
+- Sponsor-identified 10 of 11 Q1 26 problem credits (HIGH confidence on 9, MED on 1, LOW on the $169M Boston Life Sci). Total $719M problem book.
+- Key IDs: Sullivan Courthouse (Leggat McCall + Related Beal), Baltimore Peninsula (Goldman + Sagamore/Kevin Plank), Renaissance Milwaukee West Hotel (HKS Holdings — Bisnow confirmed), Chapter Buildings Seattle (Touchstone + Portman + Lionstone — see below), Schaffer's Mill Truckee (New Martis Partners), 8150 Sunset LA (Townscape + Angelo Gordon, failed buyer OKO/Vlad Doronin), 1229 Concord Chicago (Sterling Bay).
+- **3 genuinely new findings:** (a) **Lionstone/Ameriprise wind-down as LP-side credit trigger** (new pattern, signal sent to BROCK); (b) **OZK's workout tempo = years, not quarters** (Schaffer's Mill 6+ years substandard on a revolver — reservoir thesis mechanism now concrete); (c) **Severity comp bands from 2025-26 printed transactions** (Boston vacant office -55 to -63%, Seattle -50 to -60%, Chicago lab -55-60%, LA DTLA office -45 to -68%).
+- **Reserve adequacy verdict:** Blended EL on $719M = $211-291M → $628M ACL covers at 2.2-3.0x = ADEQUATE TODAY. But if problem book migrates to $1.4B (past-due doubling trajectory), coverage collapses to 1.1-1.5x → implies $150-300M reserve build over 4Q (2-3x Q1 26 pace).
 
-**Git:** 1 commit this session (`53db023e`, 5 files, +981/-33). Not pushed — deferred to session end.
+**Thread 2 → `OZK/IQHQ_PLAYBOOK.md` (~290 lines):**
+- **IQHQ has NO 2026 capital raise.** Last injection IIP Aug 2025. Tracy Murphy's Mar 2026 promise of 2 new RaDD tenants DID NOT materialize (still JCVI only, 3.3% leased).
+- **Aimco filed $50M fraud complaint against IQHQ in Delaware Chancery, April 2026.** Targets Bluerock PIK + IIP preferred rescue structure as "conflicted financings and insider transactions." Gleason "inner family squabble" framing structurally true but materially misleading. Chills any 4th rescue round. Motion-to-dismiss response due early June.
+- **IQHQ portfolio deteriorating across all non-RaDD properties:** Brighton dumped to New Balance at -30% (both lots, ~$10M loss), Arbor Redwood City ($164M Oracle campus) listed for sale instead of developed, Spur Phase I still 0% preleased, Fenway paused + $27M J.F. White suit active, 109 Brookline disclosure gap (Globe says 50% leased vs IQHQ "99% leased"). **Zero internal cash for RaDD equity cure.**
+- **Campus at Horton = the comp.** AllianceBernstein took back $399M construction loan via $130M credit bid Sep 2025 = 67% severity. Same submarket, same problem. Scenario D is now a printed precedent, not tail risk.
+- **Scenario tree (revised weights post-findings):** A-sponsor extends 20%, **B-substandard migration 50%**, C-third-party takeout 12%, **D-forced note sale/foreclosure 18%**. Weighted EL on $555M funded = **$140M = 22% of total ACL on one credit**. 68% probability of $140M+ event.
 
-### NEXT SESSION — OZK DEEP DIVE (Will's focus request)
+**Thesis assessment — sharpened more than strengthened:**
+- Strengthened: RaDD catalyst quantified, past-due doubling firing, workout tempo mechanically sourced, severity comps printed, IQHQ sponsor distress deeper than disclosed.
+- Weakened/corrected: OZK NCO rate 0.57% in-line (not "5.4x peers" 1.18%); OZK retreating from Fund Finance disconfirms NDFI narrative at OZK specifically; capital/liquidity/dividend strong; consumer channel not firing.
+- **Net: hold position. Roll May to Aug/Sep (Thread 3). No add, no trim.**
 
-**Boot sequence:** standard + read `OZK/Q1_2026_ANALYSIS.md` (330 lines, Round 2 complete) as entry point. Secondary: `OZK/OZK 2026 Q1 data/OZK earnings call transcript.md` for verbatim management commentary.
+**Files created/updated this session:**
+- `OZK/SEVEN_CREDIT_DEEP_DIVE.md` — NEW (~290 lines)
+- `OZK/IQHQ_PLAYBOOK.md` — NEW (~290 lines)
+- `OZK/workbook/KB.tsv` — appended 2 rows (KB-OZK-176 workout tempo; KB-OZK-177 severity comp bands)
+- `outbox/2026-04-22_to-BROCK_lionstone-ameriprise-lp-dissolution.md` — NEW (LP-dissolution pattern)
+- `outbox/2026-04-22_to-CREED_ozk-boston-lifesci-plus-affinius-verify.md` — NEW (Boston life sci $325M concentration + Affinius verify ask)
+- `CALENDAR.md` — added 6 IQHQ playbook checkpoints (Bluerock Q1 marks May-Jun, OZK May option expiry roll, Aimco motion Jun, OZK Q2 earnings late Jul, Campus at Horton leasing late Jul, RaDD Aug maturity detailed)
+- `MEMORY.md` — this rewrite
 
-**Pick priority thread at boot (Will chooses):**
+**Skipped intentionally:** `thesis/CHANGELOG.md` — per rules, only triggered by THESIS.md/TIMELINE.md changes; Thread 1+2 findings are evidence accumulation, not thesis restructuring. KB rows are the correct persistence.
 
-1. **Seven-credit deep dive** — sponsor + asset-level research on $719M problem exposure.
-   - 4 substandard non-accrual ($240M): Boston Office $156M, Baltimore Land $40M, Seattle Pioneer Square $25.9M, Wauwatosa Hotel $17.9M
-   - 4 substandard accrual ($329M): Boston Life Sci $169M, Seattle U District Office $76M + Life Sci $50M, Lake Tahoe SF Lots $34M
-   - 3 foreclosed ($150M): LA Land $54.5M, Chicago Life Sci $50M, Santa Monica Office $45M
-   - Target: sponsor identity, project comps, market data, recovery probability
-   - Cross-check with OTTO_INTEL + MARCO commercial-RE sponsor research
+**Deferred to next OZK session:** `OZK/STATUS.md` focused refresh. Currently stale (last Apr 7, pre-Q1 print, pre-sponsor IDs, pre-Aimco). ~20-30 min of its own work. Worth doing at start of next OZK session as boot-integration task.
 
-2. **IQHQ August 2026 playbook** — scenario mapping for the Aug maturity.
-   - RaDD 3.3% leased; Boston Life Sci demand shifted toward office/tech/AI users (per Brannon Hamblen)
-   - Sponsor's financial capacity to extend
-   - Three-scenario model: (a) sponsor extends with new equity, (b) sponsor walks / migrates to substandard, (c) third-party takeout
-   - Cross-read with CREED life science stress data
+### NEXT SESSION — Thread 3: $45P May roll math
 
-3. **Position roll math — $45P May decision** — concrete options-chain analysis.
-   - $45P May 15 expiry vs thesis timeline (past-due doubling = leading, recognition = Q2-Q3)
-   - Candidates: $45P Aug, $40P Aug, $45P Sep, $42.5P Sep
-   - Quote both legs, compute cost/credit/delta/vega
-   - Check IV skew for May expiry distortion
-   - Recommend single roll for Will approval
+**Boot:** standard + read `OZK/IQHQ_PLAYBOOK.md` (scenario weights inform duration) + `OZK/SEVEN_CREDIT_DEEP_DIVE.md` (severity comps inform strike selection).
 
-**Lower-priority carryover items (do after thread chosen if time allows):**
+**Thread 3 execution:**
 
-- `OZK/THESIS.md` — revise NCO framing (1.18% "5.4x peers" baseline → Q1 actuals 0.57%; promote past-due acceleration as new primary leading indicator)
-- `OZK/STATUS.md` — update with Q1 26 actuals (RESG 52.1%, past due 1.41%, classified+criticized $1.215B, TBV $47.15)
-- `thesis/CHANGELOG.md` — entry for V2 fraud confirmation (WAL Apr 21 print materializes long-thesis vector)
-- `workbook/PREDICTIONS.tsv` — REG-09 (Tier 2 miss) partial-resolve; add new leading-indicator prediction around past-due trajectory
-- Outbox signals: BROCK (LAM/V2), OTTO (fraud ledger +$152.5M), LIQUID (OZK offensive FHLB signature differs from MTB/CFG/PNC), CARL (consumer disconfirming at both WAL $0 resi/consumer NCO and OZK indirect 0.42% NCO)
-- WAL Round 2 (awaits WAL supplement/transcript from Will — still pending)
-- `STATUS.md` pruning (572 lines; archive Apr 7/9/10/Apr 14 briefs to `archive/STATUS_apr7_apr14.md`)
+1. **Price refresh** — current OZK price, implied vol for May/Jun/Aug/Sep expiries, IV skew by strike
+2. **Quote candidate rolls** — live bid/ask for:
+   - Close $45P May 15 (2 contracts) → Open $45P Aug 21 (add 2 to existing 4)
+   - Close $45P May 15 → Open $40P Aug 21 (deeper OTM, cheaper)
+   - Close $45P May 15 → Open $45P Sep 19 (extra month of duration)
+   - Close $45P May 15 → Open $42.5P Sep 19
+3. **Compute** — net debit/credit, delta/vega per position, breakeven OZK price, P&L grid by scenario (A/B/C/D from IQHQ Playbook)
+4. **Recommend** — single roll for Will approval. Decision framework:
+   - Scenario B is base case (50% prob) — want puts ITM if OZK moves to $40-42 on reserve build recognition
+   - Scenario D tail (18% prob) — want puts deep ITM if OZK moves to $30-35 on charge-off
+   - Scenario A (20% prob) — stock rallies, puts expire worthless either way
+   - Aug 21 duration captures all IQHQ Playbook checkpoints
+5. **Write to FORGE outbox + update POSITIONS.md on execution**
 
-**Residual contradictions to flag in any deep dive:**
-- STATUS baseline had OZK NCO 1.18% "5.4x peers" — Q1 26 reality is 0.57% in-line with cohort. Either prior baseline used wrong annualization / denominator or the cycle improved. **THESIS needs framing update.**
-- CALENDAR had Affinius Oct 2026 $2.7B bond maturity tagged to OZK — **NOT mentioned on Apr 22 call.** CREED follow-up needed to confirm OZK is actually exposed to this credit.
-- IQHQ maturity was wrong in STATUS (Aug 2028 → Aug 2026) — corrected this session, but other dates in OZK docs should be audited for similar drift.
+**Deadline:** by **May 8** (one week before May 15 expiry).
+
+**Carryover items (after Thread 3, if time):**
+- `OZK/STATUS.md` focused refresh (Q1 26 actuals + sponsor IDs + IQHQ scenarios + Thread 1/2 references)
+- `OZK/THESIS.md` — revise NCO framing (1.18% "5.4x peers" was Q4 anomaly; Q1 0.57% in-line → shift leading indicator from NCO rate to past-due trajectory)
+- `STATUS.md` (root) pruning — 572+ lines, overdue. Archive Apr 7/9/10 briefs.
+- WAL Round 2 (still awaits WAL supplement/transcript from Will)
+- `workbook/PREDICTIONS.tsv` — REG-09 partial-resolve; add past-due trajectory leading-indicator prediction
