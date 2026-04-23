@@ -86,12 +86,17 @@ A new UCC-1 filed six weeks after the Dec 18 2025 disclosed maturity is a **clas
 **Maturity-mismatch issue resolved:**
 The underlying lien instrument is dated **December 31, 2020** (not Feb 1, 2021 as prior research concluded — Feb 1, 2021 was the press/closing announcement, not the docs date). Dec 31, 2020 + 5yr term = Dec 31, 2025. OZK's disclosed **Dec 18, 2025 maturity** is within normal docs-language variance of that 5yr anniversary (stated maturity dates are often ~2 weeks before the anniversary for month-end reasons). Clean fit.
 
-**Asset specs (from Candidate A file + prior research):**
+**Asset specs (corroborated 2026-04-23 PM from original Mortgage body text, Bk 76638 Pg 224):**
 - **Address:** 10 Prospect Street, Somerville MA 02143 (Union Square redevelopment, Parcel D2.1)
-- **Size:** 196,000 SF speculative life sciences lab
+- **Size:** 194,033 SF NRSF total — 173,099 SF Lab/Office (89%) + 12,044 SF Retail (6%) + 8,890 SF Arts & Creative (5%). NOT pure spec lab — mixed-use with retail + A&C components.
 - **Delivered:** 2024
 - **Tenant status:** Unleased as of Oct 2025 (Bisnow)
-- **Original OZK loan:** $119.2M construction loan, documents dated Dec 31, 2020; closing/press date Feb 1, 2021
+- **Original OZK loan:** **$119,200,000 exactly** — primary-source confirmed from Promissory Note description in Mortgage body page 6 ("ONE HUNDRED NINETEEN MILLION TWO HUNDRED THOUSAND AND NO/100 DOLLARS"). Documents dated Dec 31, 2020; recorded Jan 7, 2021; closing/press date Feb 1, 2021.
+- **Structure:** Construction mortgage under MA Ch 106 §9-334. **Explicitly "Not a Revolver Facility"** — principal repaid cannot be reborrowed. Implies $169M outstanding reflects original principal + capitalized reserves/fees/extensions, not a follow-on facility.
+- **Lien priority:** First and prior; no construction had commenced prior to mortgage = clean priority vs mechanics liens.
+- **Guarantor:** Exists (defined in unrecorded Loan Agreement; sponsor-principal level typical for CRE construction).
+- **OZK counsel:** King & Spalding LLP (Erik F. Andersen).
+- **Body-text confirmation scope:** mortgage body pages 1-10 + 20-22 reviewed; stated maturity date, interest rate, and extension provisions are in the **unrecorded** Promissory Note + Loan Agreement — not obtainable from registry.
 
 **Sponsor JV:** **Magellan Development Group + RAS Development + Cypress Equity Investments + USAA/Affinius Capital** (corrected from prior REGINALD files which incorrectly listed "Cathartes" — see KB-OZK-194). Confirmed per Commercial Observer Feb 2021, Magellan Development press release, BLDUP.
 
