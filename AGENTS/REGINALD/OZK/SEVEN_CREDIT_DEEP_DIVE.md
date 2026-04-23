@@ -168,6 +168,52 @@
 
 ---
 
+## 3A. REST OF PROBLEM BOOK — THE UNMAPPED ~$496M
+
+*Added 2026-04-23 after Q1 Mgmt Comments + Financial Supplement re-scan (Spawn audit).*
+
+The 11 credits above total **$719.8M** of the **$1,215M** total classified+criticized book reported in the Q1 26 Financial Supplement (p.4). That leaves **~$495M unmapped** at the project level. Characterizing this gap matters for (a) sizing the migration wave risk (§3), (b) deciding whether the next research push should prioritize MassLandRecords-style forensic project-ID work vs waiting for the May 1-10 Call Report.
+
+### Reconciliation to $1,215M
+
+| Tier | Total (Supp p.4) | Named in §1 | Gap | Gap character |
+|---|---|---|---|---|
+| Special Mention | $397M | $0 | **$397M** | **Fully opaque** — not itemized in earnings release, Figure 24, or supplement. First resolvable at Q1 Call Report (FFIEC RC-N, ~May 1-10). |
+| Substandard Accrual | $367M | ~$330M (#5, #6, #7, #8) | ~$37M | Likely small-ticket RESG accrual credits under Figure 24's reporting threshold. |
+| Substandard Non-Accrual | $297M | ~$240M (#1, #2, #3, #4) | ~$57M | Same pattern — sub-threshold RESG names not individually disclosed. |
+| Foreclosed Assets | $154M | $149.6M (#9, #10, #11) | ~$4M (immaterial) | Likely rounding / small carrying-value adjustments. |
+| **Total** | **$1,215M** | **$719.8M** | **~$495M** | |
+
+### What the gap is, and what it isn't
+
+**82% of the gap ($397M) is Special Mention** — the lightest classification tier (30-89 day past-due or "potential weakness" flag before formal substandard). OZK does not publish a Special Mention roster. The Q1 Call Report (RC-N) will itemize by asset class and geography but typically not by borrower. Project-level identification of Special Mention credits is essentially impossible before forensic work on individual CMBS / county record filings.
+
+**The remaining ~$98M ($57M substandard non-accrual + $37M substandard accrual + $4M foreclosed) is sub-threshold RESG.** Likely a long tail of $5-15M credits collectively not disclosed. Individually small; collectively material only if they migrate as a cohort.
+
+### Non-RESG blind spot (possibly zero, possibly not)
+
+Figure 24 and the "problem credits" narrative in Mgmt Comments cover **RESG only**. Mgmt Comments does not publish a separate classified-asset roster for CIB, Community Banking, or Indirect RV & Marine. The press release and call narrative *imply* these segments are clean, but imply is not disclose.
+
+- **CIB ($6.2B, 18.8% of loans):** Jake Munn's Q1 comments highlighted pricing compression (Fund Finance, LFG) but **did not disclose any CIB classified assets**. If CIB contained meaningful problem credits, they would likely appear in Figure 24 under RESG-adjacent framing or in MD&A footnotes — neither does.
+- **Indirect RV & Marine:** NCO 0.42% is super-prime clean (per prior KB), strongly implies minimal classified exposure.
+- **Community Banking:** No commentary.
+
+**Working baseline:** non-RESG classified is <$50M. Upside risk if CIB lines tracked separately in the 10-Q / Call Report show larger classified balances.
+
+### What this means for research prioritization
+
+1. **Do NOT chase the $397M Special Mention bucket through forensic research** — labor-to-signal ratio poor. Wait for Q1 Call Report (~May 1-10) to pick up whatever it discloses, then triage.
+2. **The ~$98M sub-threshold RESG tail is probably not actionable.** No single credit is large enough to change severity math. If Q2 26 shows a migration cohort emerging (more names appearing in Figure 24), revisit.
+3. **Boston Life Sci #5 sponsor ID (TODO #1) remains the highest-value forensic target** — one credit, $169M outstanding, material to thesis.
+4. **Non-RESG classified blind spot is worth one pass at the 10-Q (~May 5)** to verify the zero-substandard-in-CIB implication. 30-minute check, not a research project.
+
+### Data-quality caveats
+
+- The $719.8M "named" total includes Seattle U Dist Office ($76.4M) and Life Sci ($50.4M) outstanding balances from Figure 24; if you include their unfunded accrual commitments ($30.5M + $38.9M), the named total rises to $828M. That version of the math shrinks the gap to ~$387M.
+- Prior versions of this file and TODO.md used $719M — mathematically consistent with outstanding-only treatment of Seattle U Dist. **Do not compare this $495M gap to "$496M" in older docs without checking which outstanding basis was used.**
+
+---
+
 ## 4. CROSS-AGENT SIGNALS
 
 ### 🔴 To BROCK — NEW pattern: LP-dissolution as credit trigger

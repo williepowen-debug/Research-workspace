@@ -42,49 +42,59 @@
 
 ## Session Notes
 
-⚠️ **Open question:** Has Will executed the Thread 3 roll yet? Recommendation (per `OZK/THREAD3_ROLL_MATH.md`) is to close May $42.5P × 2 + open Jan27 $42.5P × 2 (~$510 debit). Hard deadline ~May 8 for decision. This session (Apr 23) focused on OZK file-tree restructure + thesis self-audit; roll execution not addressed.
+⚠️ **Open question:** Thread 3 roll execution status still unresolved across two Apr 23 sessions. Recommendation per `OZK/THREAD3_ROLL_MATH.md` remains close May $42.5P × 2 + open Jan27 $42.5P × 2 (~$510 debit). Hard deadline ~May 8. Chain quotes may need refresh if executed this week.
 
 ### CHANGES SINCE LAST SESSION
 *(populated at next boot via market.py)*
 
-### LAST SESSION (Apr 23 morning → afternoon — OZK restructure + thesis audit)
+### LAST SESSION (Apr 23 PM — OZK subdir refresh + $495M gap characterization + KB additions)
 
-**OZK file tree restructure, 4 phases, 4 commits:**
-- **Phase 1** (`9a2d05ee`) — 4 top-level orphans → archive/ (AUDIT_MAR25, TEMPLE8, INSTITUTIONAL_OWNERSHIP_PLAN, EXTERNAL_PROMPTS). Top-level 15 → 11.
-- **Phase 2** (`80e8eeba`) — `sources/` 50+ → 10 primary-source extracts. `OZK 2026 Q1 data/` renamed `raw/` with snake_case PDFs (Q1_2026_mgmt_comments.pdf, etc.). 30 LLM outputs → `raw/llm_outputs/`. 15 V1-V3 drafts deleted (~2,700 lines). 74 files changed.
-- **Phase 3** (`23e28087`) — `MARKET/` archived entirely (abandoned Mar 24, superseded by darkpool/short_vol tools). `GEOGRAPHY/FL_PARADOX/` flattened 5 files → single `GEOGRAPHY/FL_PARADOX.md`. Subdomains 5 → 4.
-- **Phase 4a** (`d58b2b92`) — INDEX.md refresh. Storage-tier contract documented in footer (sources/raw/raw-llm_outputs/historical/archive semantics).
+**Scope:** Post-Q1 integration session. Cleared the subdir refresh queue identified during the AM session, characterized the $495M unmapped classified/criticized gap, added 7 KB rows, logged two new material findings.
 
-**OZK thesis self-audit, 5 fixes, 2 commits:**
-- **Audit commit 1** (`d45c8bcc`, v1.1 → v1.2) — INVALIDATION section added to THESIS.md (5 concentrated kill criteria with thresholds + cross-refs to REG-22/23 + IQHQ_PLAYBOOK). WEAKNESSES.md C5 retracted and corrected (was still saying "IQHQ pushed to 2028" — directly contradicted THESIS Aug 2026 Wave 3 framing).
-- **Audit commit 2** (`9322e2cc`, v1.2 → v1.3) — Q1 NCO deceleration engaged in ACL Thinning section (new paragraph acknowledging 0.57% in-line with guide, connecting to Invalidation §2). Two unverified claims removed: KB-OZK-061 ($13.8B quarterly origination breakdown) and KB-OZK-062 (DBRS 3.4yr time-to-default). SCENARIOS.md first reweight since Mar 23: Bear 50→55%, Bull 15→12%, Tail 5→3%, Base 30% unchanged. New EV $38.97 (vs $37.45). April 16 Decision Framework retracted, replaced with Post-Q1 Decision Gates.
+**Spawn pattern:** 3 parallel Explore agents (single message, independent): (1) Q1 transcript + Mgmt Comments extraction for Fund Finance / NDFI / non-bank lender quotes, (2) staleness survey across LIFE_SCI / GEOGRAPHY / PRIVATE_CREDIT subdirs, (3) raw PDF catalog of classified/criticized detail beyond the 11 named credits. One retry needed on spawn #3 (prompt-too-long on first attempt). Clean context hygiene — 3 big PDFs never entered main window.
 
-**Final OZK map:** 11 top-level .md (was 15) | 4 subdomains (LIFE_SCI, GEOGRAPHY, INSIDERS, PRIVATE_CREDIT) | clean 3-tier storage (sources/raw/historical) | archive/ quarantined | zero broken cross-refs verified at each phase.
+**Two new material findings:**
+1. **LFG ALSO compressing** (not just Fund Finance). Jake Munn's Q1 call disclosed pricing + structure compression in Lender Finance Group too — so 2 of 4 CIB sub-segments in managed retreat, not 1. Broader story than prior framing.
+2. **Asymmetric disclosure.** Jake Munn's pullback statements appear in the spoken earnings call transcript ONLY — NOT in the durable written Management Comments PDF (which shows Fund Finance growing $210M → $1.275B YoY with no commentary on the margin erosion). Management reluctant to formalize the competitive problem in durable documentation. Signal fits the broader extend-and-pretend posture noted elsewhere in thesis. Watch Q1 10-Q (~May 5) — does written disclosure pick it up?
 
-**Pushed to GitHub:** All 6 commits live. Session total 7 with the earlier session-close commit.
+**$495M gap — characterized (not solved):**
+- Special Mention $397M is fully opaque at project level. Only resolvable at May 1-10 Call Report (FFIEC RC-N). Do NOT chase via forensic research.
+- ~$98M sub-threshold RESG tail ($57M non-accrual + $37M accrual + $4M foreclosed) is probably not individually actionable; watch Q2 26 Figure 24 for cohort migration.
+- Non-RESG classified (CIB, Community Banking, Indirect) is a blind spot — implied near-zero but not itemized. 10-Q (~May 5) MD&A can verify.
 
-**What I did NOT do this session:**
-- Thread 3 roll execution check (unchanged from prior carryover)
-- Checkpoint 1 persistence (KB-OZK-178 through 184 + 3 PREDICTIONS) — still queued
-- Root REGINALD `STATUS.md` pruning (572+ lines) — still queued
-- OZK/STATUS.md refresh (still dated Apr 7, pre-earnings) — known flag from audit
-- PRIVATE_CREDIT/ post-Q1 refresh (Mar 24 data, missing Jake Munn Fund Finance pullback)
-- WAL Round 2
+**Files touched (OZK-only):**
+- `PRIVATE_CREDIT/` (4 files): NDFI_EXPOSURE.md (+Q1 Update section), TRANSMISSION.md (+Channel 3 amplifier), STATUS.md (rewrite), README.md (rewrite). Narrative: "lends to the lenders" → "lends to AND competes with the lenders."
+- `LIFE_SCI/` (3 files): FINDINGS.md (Finding 2 corrected — Aug 2028 extension was a research error; Finding 18 added for Q1 new credits), README.md (rewrite), STATUS.md (rewrite). IQHQ Aug 2028 error propagation fixed across all three files.
+- `GEOGRAPHY/STATUS.md`: +3 new metro credits (Seattle U Dist $127M, Santa Monica $45M foreclosed, Chicago Life Sci $50M foreclosed). Distressed cluster total $2.9B → $3.1-3.3B.
+- `SEVEN_CREDIT_DEEP_DIVE.md`: new §3A "Rest of Problem Book" with gap decomposition + prioritization logic (don't chase Special Mention).
+- `workbook/KB.tsv`: +7 rows. 186-188 PRIVATE_CREDIT (Fund Finance pullback, LFG compression, asymmetric disclosure). 189-191 LIFE_SCI (Boston $169M, Seattle U Dist $127M, Chicago foreclosed $50M). 192 GEOGRAPHY (Santa Monica foreclosed $45M).
+- `TODO.md`: subdir queue cleared, gap char marked done, KB_INDEX staleness flagged as deferred.
 
-### NEXT SESSION — priorities by urgency
+**KB ID collision caught and fixed mid-session:** Drafted subdir updates using KB-178-180 for new credits, but those IDs already held Rossow / Boynton Yards / Vertical Compression rows from the prior AM session. Re-numbered to 186-192 across 4 files (LIFE_SCI ×3, GEOGRAPHY/STATUS.md ×2 edits).
 
-1. **Thread 3 roll execution check.** Did Will close May $42.5P × 2 → open Jan27 $42.5P × 2? Update POSITIONS.md + IQHQ_PLAYBOOK §6 after broker confirmation. If not yet executed, re-quote the chain (May premium decays fast; hard deadline ~May 8).
+**Known deferred staleness:**
+- `workbook/KB_INDEX.md` — dated Mar 25, claims 159 rows, actual 192. Rows 160-192 not in cluster rollups. 30-60 min to refresh. Not blocking — agents read KB.tsv directly.
+- Root REGINALD `STATUS.md` pruning (still 572+ lines, Apr 7/9/10 briefs should archive). Carryover.
+- OZK/STATUS.md was refreshed earlier this session (AM) — that part is done.
 
-2. **Checkpoint 1 — persistence (~20 min):** Append KB-OZK-178 through 184 to `OZK/workbook/KB.tsv` + 3 PREDICTIONS rows (REG-21/22/23). Detail list same as prior memo — see `OZK/CHANGELOG.md` v1.1/v1.3 for KB row contents.
+### NEXT SESSION — priorities
 
-3. **OZK/STATUS.md refresh (Phase 4b, known audit flag).** File is dated Apr 7 pre-earnings. Current stock $47.52; needs Q1 26 actuals (past-due $465M / 1.41%, NCO 0.57%, CET1 11.64%, TBV $47.15) + current position table + updated catalyst calendar (IQHQ Aug 2026, sub notes Oct 1). ~15 min.
+**New (from this session):**
 
-4. **Root REGINALD STATUS.md pruning** — 572+ lines. Apr 7/9/10 briefs → archive/ (~20 min).
+1. **May 1-10 Call Report triage** — when filings appear, 30-60 min pass on FFIEC RC-N for Special Mention breakdowns (asset class + geography). Informs how much of the $397M sits in RESG vs elsewhere.
+2. **10-Q (~May 5) MD&A scan** — 30 min. Verify near-zero classified in CIB / Community Banking / Indirect (the non-RESG blind spot). Also watch for written Fund Finance pullback disclosure — does the asymmetry persist?
 
-5. **PRIVATE_CREDIT post-Q1 refresh** — 5 files dated Mar 24. Jake Munn Q1 call disclosed OZK pulling BACK from Fund Finance capital-call subscriptions (non-bank lender + insurance competition). This is material data that directly contradicts the "regionals pressing into NDFI for growth" narrative at OZK specifically. Needs integration into STATUS.md + TRANSMISSION.md + COUNTERPARTY_WATCH.md. ~30-45 min.
+**Carryover (unchanged):**
 
-6. **WAL Round 2** if supplement/transcript delivered.
+3. Thread 3 roll execution check (carryover from AM + prior sessions).
+4. Root REGINALD STATUS.md pruning (572+ lines). ~20 min.
+5. Checkpoint 1 KB persistence for rows 178-184 + 3 PREDICTIONS (REG-21/22/23) — flagged in AM session. **Now superseded?** Rows 178-185 were added Apr 22-23; rows 186-192 added this session. Verify no orphans before acting.
+6. KB_INDEX.md refresh (60 min) — deferred housekeeping.
+7. B1 Boston Life Sci $169M MassLandRecords search (TODO #1) — tractable external lookup (Session 2 Tier B from today's plan).
+8. B2 "The Jack" King County records (TODO #7) — paired Session 2 item.
+9. May $47.5P × 2 decision by May 8 (position TODO P1).
+10. WAL Round 2 if supplement/transcript delivered.
 
-**Ask of Will — still open / historical:** Apr 22 ask for browser-pull of Q4 24 / Q1 25 / Q2 25 / Q3 25 OZK Management Comments PDFs — FULFILLED. All 5 quarterly extracts live in `OZK/historical/` (Q4 24 through Q4 25). No new ask this session.
+**Ask of Will:** No new ask this session. Q4 24 / Q1-Q4 25 Mgmt Comments extracts already live in `OZK/historical/`.
 
-**Note on POSITIONS.md:** Root REGINALD POSITIONS.md not touched this session — no broker data received. Current known positions (per STATUS top): WAL $85P/$77.5P/$70P/$65P (Jun/Sep), OZK $42.5P May15 × 2 (rolling), $42.5P Aug21 × 1, $45P Aug21 × 4, EGBN $25P Jun, SSB $90P Jun, FLG $13P Jul, ZION $57.5P Jul (monitor only), plus KRE/IWM/HYG macro hedges.
+**Positions unchanged** — no broker data this session.

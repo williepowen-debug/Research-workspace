@@ -1,15 +1,15 @@
 # LIFE_SCI — Cross-Model Findings (IQHQ RaDD Focus)
 
-**Updated:** 2026-03-25 | **Models:** Claude, Gemini (Prompts 15 + 20)
-**KB Rows:** 137–141, 147–159 | **Group:** `LIFE_SCI` | **Nav:** `../../workbook/KB_INDEX.md`
+**Updated:** 2026-04-23 (Finding 2 corrected — Aug 2028 extension claim was research error, actual maturity is Aug 2026. Finding 18 added for Q1 2026 new credits.) | **Models:** Claude, Gemini (Prompts 15 + 20)
+**KB Rows:** 137–141, 147–159, 189–191 | **Group:** `LIFE_SCI` | **Nav:** `../../workbook/KB_INDEX.md`
 
 ---
 
 ## Bottom Line
 
-IQHQ's RaDD campus is a **$1.9B development that is 3.3% leased**, delivered into a market with **>90% downtown vacancy** and **negative net absorption for two consecutive years**. The sponsor is paying **13.5-16.5% for rescue capital**, investors have marked positions down up to **94%**, and the original life sciences demand thesis has been undermined by a structural shift toward AI-native labs that need less space. Bank OZK extended the $915M loan to ~Aug 2028, buying time but not solving the fundamental mismatch between supply and demand.
+IQHQ's RaDD campus is a **$1.9B development that is 3.3% leased**, delivered into a market with **>90% downtown vacancy** and **negative net absorption for two consecutive years**. The sponsor is paying **13.5-16.5% for rescue capital**, investors have marked positions down up to **94%**, and the original life sciences demand thesis has been undermined by a structural shift toward AI-native labs that need less space. **The $915M OZK senior loan matures Aug 2026** — correction from prior file versions that mis-stated the maturity as Aug 2028.
 
-This is OZK's single largest loan and the most likely source of a major future impairment.
+This is OZK's single largest loan and the most likely source of a major future impairment. Q1 2026 earnings (Apr 22) added three new life-sci-adjacent problem credits to the book — see Finding 18.
 
 ---
 
@@ -20,14 +20,16 @@ Of 1.5M SF lab/office, only JCVI signed (~50K SF). JCVI's founder publicly ackno
 
 Pipeline: 5-6 non-life-sciences tenants (professional services, financial) negotiating — none signed. IQHQ building spec suites 10-40K SF, pivoting from original 50K floor plates. **The pivot away from life sciences tenants is an implicit admission the original thesis is dead.**
 
-## Finding 2: Maturity Extended to ~Aug 2028
-**KB-138** | **Confidence: A2**
+## Finding 2: Maturity is Aug 2026 (Correction — no confirmed extension)
+**KB-138** | **Confidence: A2** | ⚠️ **Corrected 2026-04-23**
 
-Original maturity Aug 2026. Extended ~2 years after IQHQ contributed $87M to reserves. OZK committed $915M total, $555M funded, ~$360M in "good news funding" (released only when leases are signed).
+The RaDD senior loan matures **Aug 2026**. Prior versions of this file claimed a ~2-year extension to Aug 2028 after IQHQ contributed $87M to reserves — **that claim was a research error** (Claude Prompt 15). Q1 2026 earnings call (Apr 22 2026) and IQHQ_PLAYBOOK.md confirm Aug 2026 as the actual bullet maturity. Gemini's original Aug 2026 citation was correct; Claude's Aug 2028 extension claim was not.
 
-**Implication for our trade:** Aug 2026 puts won't catch a forced RaDD loss event. But the Apr 16 earnings call WILL require disclosure of the extension and the 3.3% leasing rate. Every analyst will ask. The narrative damage is the catalyst, not a charge-off.
+OZK committed $915M total, **$555M funded**, ~$360M in "good news funding" (released only when leases are signed). JCVI ~50K SF is the only signed tenant — 3.3% of 1.5M SF.
 
-Note: Gemini still references Aug 2026 maturity — appears to have missed the extension. Claude's sourcing is more specific and credible on this point.
+**Implication for our trade:** Aug 2026 IS the forced recognition catalyst. Extension is possible but not confirmed by management; Gleason told analysts "August is an eternity" on the Q1 26 call, framing possible sponsor support but hedging timing. Four-scenario resolution tree lives in `../IQHQ_PLAYBOOK.md`: weighted EL $140M, scenario weights A-extend 20% / B-substandard migration 50% / C-takeout 12% / D-foreclosure 18%.
+
+**Position implication:** $42.5P Aug 21 expiry does catch the maturity event. Thread 3 roll (May $42.5P × 2 → Jan27 $42.5P × 2) extends duration past any late-Q3 / Q4 recognition tempo if scenario B/D plays out.
 
 ## Finding 3: IQHQ in Slow-Motion Collapse
 **KB-139** | **Confidence: B1**
@@ -146,6 +148,27 @@ Life sciences M&A hit $240B in 2025 (+81% YoY). Short-term: redundant facility c
 **KB-159** | **Confidence: B1**
 
 Gemini/Colliers places Boston at 34.0% vacancy (vs CBRE 28.0% — methodology gap). **16.5M SF under construction, only 46.8% preleased** — more vacancy incoming. Cambridge up 12 consecutive quarters from near 0%. Boston added 26M SF (+30%) since 2019.
+
+---
+
+## Prompt 20 Update: Q1 2026 Earnings (Apr 22)
+
+### Finding 18: Three New Life-Sci-Adjacent Problem Credits in Q1
+**KB-189, KB-190, KB-191** | **Confidence: A2** (Source: OZK Q1 2026 Management Comments Figure 24 + Financial Supplement)
+
+OZK's Q1 2026 print surfaced three new project-level problem credits in the life-sci/lab category — two new substandard accrual adds, one new foreclosed asset. Combined $269M.
+
+| Credit | Amount | Tier | Q1 Disclosure |
+|---|---|---|---|
+| **Boston Life Sci** | $169M outstanding | Substandard accrual | 91% LTV, 46 days past due as of 3/31, matured **Dec 18 2025** without refi. Sponsor candidates narrow to US2 (10 Prospect Street, Union Sq Somerville) or Leggat McCall (808 Windsor / Boynton Yards) — disambiguation pending (TODO #1). |
+| **Seattle U District Life Sci** | $50M outstanding ($89M total commitment, $38.9M unfunded) | Substandard accrual | Component of combined $127M Seattle U District problem ($76M Office + $50M Life Sci). **Sponsor signed LOI for recap** — bullish signal vs classification trajectory. |
+| **Chicago Life Sci** | $50M | Foreclosed asset (new Q1) | Taken at 68% of May 2025 appraisal. **Previous short sale failed** — forced foreclosure route. |
+
+**Pattern:** Two of three are in markets already deeply distressed (Boston 28-34% vacancy; Chicago following Lincoln Yards charge-off 2026). Seattle is a newer stress point — no prior OZK exposure flagged in U District specifically.
+
+**Implication for thesis:** Q1 surfaced $269M of identifiable new life-sci problem credits WITHOUT IQHQ touching the problem book yet. RaDD maturity Aug 2026 remains the next discrete life-sci catalyst. The Q1 adds confirm that the life-sci concentration is deteriorating broadly, not just at the IQHQ pressure point.
+
+**Cross-refs:** `../SEVEN_CREDIT_DEEP_DIVE.md` for the full 11-credit roster, severity math, sponsor IDs. `../IQHQ_PLAYBOOK.md` for RaDD scenario tree.
 
 ---
 

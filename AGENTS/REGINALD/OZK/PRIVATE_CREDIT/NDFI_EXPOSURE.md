@@ -1,6 +1,6 @@
 # NDFI Exposure — $2.74B Shadow CRE Analysis
 
-**Last Updated:** 2026-03-24 | **Sources:** FFIEC Call Report Q4 2025 (RSSD 107244), OZK Q3 2025 Earnings Call, Deep Research (Gemini/ChatGPT/Perplexity/Claude, Mar 23 2026)
+**Last Updated:** 2026-04-23 (Q1 2026 update section added; structural analysis below unchanged) | **Sources:** FFIEC Call Report Q4 2025 (RSSD 107244), OZK Q3 2025 + Q1 2026 Earnings Calls, Q1 2026 Management Comments (Figure 17), Deep Research (Gemini/ChatGPT/Perplexity/Claude, Mar 23 2026)
 
 ---
 
@@ -9,6 +9,48 @@
 Non-Depository Financial Institutions — entities that lend money but aren't banks. When OZK lends to an NDFI, it's lending to a lender: debt-on-debt. If the NDFI's own borrowers default, the NDFI can't repay OZK. OZK's own glossary defines NDFI as "lender-finance or loan-to-lender exposures, such as **BDCs and similar entities**."
 
 This matters because OZK characterizes its CIB group (which houses most NDFI lending) as "diversification away from RESG." The data says otherwise.
+
+---
+
+## 🆕 Q1 2026 UPDATE — Competitive Displacement on 2 of 4 CIB Lines
+
+**Source:** Jake Munn (CIB President), Q1 2026 earnings call (Apr 22, 2026). **Not in** the written Management Comments PDF — spoken-only disclosure, an asymmetry worth flagging.
+
+### What Munn disclosed
+
+**Fund Finance / capital-call subscription facilities** (touches RCONPV07 bucket, $772M):
+> "We've had to pull back a little bit in our capital call subscription facilities just due to increased pressure there, specifically from non-bank lenders and then insurance companies who have really entered that market and pushed down a little bit on pricing."
+
+**Lender Finance Group** (touches RCONPV06 bucket, $1,201M):
+> "If we're looking at our lender finance group too, we've seen some pricing and structure compression there too."
+
+**Strategic pivot framing:**
+> "If we see a slowdown or an increased competition or decreased pricing, let's say, in ABLG, it affords us the opportunity to push more into our CBSF or NRG business lines."
+
+### What this changes
+
+Two of the four NDFI/CIB sub-segments are in **managed retreat on new originations**. Legacy book is still growing: Fund Finance component of CIB reported **$210M Q1 2025 → $1,275M Q1 2026** (Figure 17, Mgmt Comments p.16). The pullback is at the forward edge; the stock is still there and still earning.
+
+| Pre-Q1 2026 framing | Post-Q1 2026 disclosure |
+|---|---|
+| OZK as growth-focused Fund Finance supplier | OZK as cyclical market participant losing price/structure discipline |
+| "Lends to the lenders" (one-directional relationship) | "Lends to AND competes with the lenders" — losing at the margin in 2/4 sub-segments |
+| $2.74B book directionally growing across the board | Book still growing net (legacy roll-in), but pricing power eroded on new originations in Fund Finance + LFG |
+| CIB "diversification away from RESG" narrative credible | CIB growth story concentrated in remaining lines (CBSF, NRG, EFG) — narrower than prior depiction |
+
+### Why the asymmetric disclosure matters
+
+Munn's statements did not appear in the written Management Comments PDF, which is the durable investor-facing record. Verbal disclosure reaches attentive call listeners; written disclosure reaches every shareholder and analyst who only reads the deck. Silencing the pullback in writing suggests management discomfort formalizing the competitive problem — consistent with the "extend-and-pretend" posture noted elsewhere in thesis. Pattern to watch: does Q1 2026 10-Q (~May 5) pick this up, or does the silencing persist?
+
+### Thesis implication
+
+**Not a thesis invalidator.** The structural wrong-way-risk analysis below (sub-variant A/B, CRE correlation, Gleason Q3 2025 admission) remains intact. The $2.74B is still on balance sheet, still CRE-correlated, still subject to the same four-channel transmission logic.
+
+**What the update refines** is the NARRATIVE layer: OZK's CIB "diversification away from RESG" story is harder to sustain when 2 of 4 CIB lines are in competitive retreat. The bank is now simultaneously *exposed to* and *losing ground to* the same non-bank / insurance / private-credit ecosystem. That's a specific new form of wrong-way risk: the counterparty cohort that could stress OZK's NDFI book is the same cohort currently displacing OZK from the pricing table.
+
+See `TRANSMISSION.md` §Channel 3 for how competitive displacement amplifies takeout-disappearance mechanics.
+
+[KB-OZK-186 Fund Finance pullback | KB-OZK-187 LFG compression | KB-OZK-188 asymmetric disclosure]
 
 ---
 
