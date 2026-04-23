@@ -20,4 +20,4 @@ Completed audits, resolved structural reviews, and superseded planning documents
 
 ---
 
-*Current files: structure audits and gap closure plans from the Mar 23 reorganization.*
+*Current files: structure audits and gap closure plans from the Mar 23 reorganization, plus orphan top-level docs archived during the Apr 23 Phase 1 restructure (AUDIT_MAR25, TEMPLE8_SHORT_THESIS_MAR2026, INSTITUTIONAL_OWNERSHIP_PLAN, EXTERNAL_PROMPTS — all superseded or completed).*
