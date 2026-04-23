@@ -1,6 +1,6 @@
 # Transmission Mechanics — How Private Credit Stress Reaches OZK
 
-**Last Updated:** 2026-03-24
+**Last Updated:** 2026-04-23 (Q1 2026 amplifier added to Channel 3; channel architecture unchanged)
 
 ---
 
@@ -9,6 +9,8 @@
 OZK faces private credit stress through four channels. The first is well-understood by the market. The second is partially visible. The third and fourth are not being modeled by anyone we've seen.
 
 The channels are **correlated, not independent** — the same CRE downturn activates all four simultaneously. This is not diversified risk with four chances of loss; it's concentrated risk with four paths to the same outcome.
+
+**🆕 Q1 2026 refinement:** Jake Munn (CIB President) disclosed on the Q1 2026 earnings call that OZK is pulling back from capital-call subscription facilities and experiencing pricing/structure compression in Lender Finance Group — both due to non-bank lenders + insurance companies entering the market. This does NOT add a fifth channel; it amplifies **Channel 3 (Reflexive)**. See Channel 3 below. Structural analysis (Channels 1, 2, 4) unchanged.
 
 ---
 
@@ -96,7 +98,23 @@ The $7.24B in FY2025 repayments [KB-OZK-082] proves the takeout market was funct
 - The 23 named NDFI counterparties are the same entities that provide bridge/mezz takeout for OZK construction borrowers
 - OZK's own ecosystem is self-referential: it lends to the construction borrower AND to the entities providing takeout. Stress hits both sides.
 
-**Current status:** EARLY WARNING. Takeout market still functioning (record repayments in 2025), but the leading indicators — fund gating, redemption queues, NAV markdowns — suggest capacity is contracting. If Q1 2026 repayment velocity drops materially vs Q4 2025's $3.0B, the reflexive channel is activating.
+**🆕 Q1 2026 amplifier — Competitive Displacement:**
+
+Jake Munn (CIB President) disclosed on the Q1 2026 earnings call that OZK is **pulling back** from capital-call subscription facilities (Fund Finance) and experiencing pricing/structure compression in Lender Finance Group — explicitly due to "non-bank lenders and then insurance companies who have really entered that market" [KB-OZK-186, KB-OZK-187].
+
+This refines Channel 3's mechanics in an uncomfortable way:
+
+1. **The takeout providers are now OZK's competitors.** The non-bank lenders and insurance companies that previously functioned mainly as bridge/mezz takeout for OZK construction borrowers are now displacing OZK from Fund Finance origination at the margin. Same cohort, different relationship — counterparty *and* competitor.
+
+2. **If the ecosystem cracks, it cracks on both sides of OZK's position.** Healthy non-bank lenders displace OZK on origination pricing today; stressed non-bank lenders stop providing takeout tomorrow. OZK gains nothing from their health and loses from their stress.
+
+3. **Management is cycling away from the displacement** (pivot to CBSF, NRG, EFG, ABLG) rather than accepting the margin compression. That protects NIM but concentrates CIB growth in remaining lines — narrowing the "diversification" story further.
+
+4. **Asymmetric disclosure.** The pullback appears only in the spoken call, not in the written Management Comments PDF (p.16, Figure 17 shows Fund Finance book growing $210M → $1,275M YoY, with no commentary on the margin erosion). Management is reluctant to formalize the competitive problem in durable documentation.
+
+**What this adds to the reflexive loop:** the loop no longer requires outright fund failure to start constricting. Ordinary competitive intensity in the non-bank lender/insurance space already forces OZK to retreat from Fund Finance originations (reducing OZK's footprint in a takeout-adjacent business) *while* OZK's construction book remains dependent on that same ecosystem for exits. Stress amplifies; ordinary competition also extracts a cost.
+
+**Current status:** EARLY WARNING. Takeout market still functioning (record repayments in 2025), but the leading indicators — fund gating, redemption queues, NAV markdowns — suggest capacity is contracting. The Q1 2026 competitive displacement disclosure adds a second pressure vector: OZK is ceding some of the adjacent market even before stress hits. If Q1 2026 repayment velocity drops materially vs Q4 2025's $3.0B, the reflexive channel is activating.
 
 ---
 
