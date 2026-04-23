@@ -1,9 +1,9 @@
 # OZK — Research TODO / Backlog
 
-**Last updated:** 2026-04-22 (post-Thread 1+2 session, commit `b1e13511`)
-**Source:** Follow-up threads identified during Threads 1 and 2 deep dives.
+**Last updated:** 2026-04-23 (boot + STATUS refresh + subdir staleness audit)
+**Source:** Follow-up threads identified during Threads 1 and 2 deep dives; plus subdir hygiene queue added Apr 23.
 
-**Strategic framing:** Complete **Thread 3** first ($45P May 15 roll math — non-negotiable, May 8 deadline). Then watch the dated checkpoints fire (Bluerock Q1 marks May-Jun, Aimco motion early Jun). **Decide on adjacent-thread research based on whether the core IQHQ thesis is validating or invalidating.** Avoid pre-committing research hours to #2 (Bluerock) and #3 (WAL IQHQ) before the core thesis resolves.
+**Strategic framing:** Thread 3 roll math exists ($42.5P × 2 May → Jan27 $42.5P × 2) but Will is holding off on execution as of Apr 23 — decision open past May 8 is a de-facto expiry. Watch the dated checkpoints fire (Bluerock Q1 marks May-Jun, Aimco motion early Jun). **Decide on adjacent-thread research based on whether the core IQHQ thesis is validating or invalidating.** Avoid pre-committing research hours to #2 (Bluerock) and #3 (WAL IQHQ) before the core thesis resolves.
 
 ---
 
@@ -111,11 +111,39 @@ Currently 0.42% NCO super-prime clean. Quarterly earnings tracking. Inflection =
 
 ---
 
+## File Hygiene — Subdir Refresh Queue (added Apr 23)
+
+Identified via boot-time staleness audit. All four subdirs had mtime Apr 23 (Phase 3 restructure touches) but content is pre-Q1. Cold-boot agents reading these get stale thesis input.
+
+| Subdir | Content date | Severity | What Q1 adds |
+|---|---|---|---|
+| **LIFE_SCI/** | 2026-03-25 | 🔴 Biggest gap | 4 new life sci credits (Boston $169M, Seattle U Dist $50M, Chicago foreclosed $50M) + IQHQ Aug 2026 date correction |
+| **PRIVATE_CREDIT/** | 2026-03-24 | 🔴 Thesis-contradicting | Jake Munn disclosed OZK **pulling back** from Fund Finance capital-call subs — contradicts the subdir's core "lends to the lenders" framing |
+| **GEOGRAPHY/** | 2026-03-24 | 🟠 Additive | 3 new metro-specific stress points (Seattle U Dist, Santa Monica 15% leased, Chicago Life Sci foreclosed) |
+| **INSIDERS/** | 2026-04-12 | 🟢 Skippable | No material Q1 insider activity per KB. Skip this session. |
+
+**Estimate:** LIFE_SCI 45 min · PRIVATE_CREDIT 30-45 min · GEOGRAPHY 20-30 min · INSIDERS skip
+**Recommended order:** LIFE_SCI → PRIVATE_CREDIT → GEOGRAPHY
+**Output:** Each subdir STATUS.md updated with Q1 26 actuals, new credits, and (PRIVATE_CREDIT) reframed narrative to accommodate Jake Munn pullback.
+
+---
+
+## Position Management (added Apr 23)
+
+### P1. May $47.5P × 2 — decision by May 8
+**Why:** New position (not in prior files), 22 DTE, ~$0.73 OTM at $48.23. Original rationale (Apr earnings) expired; current implicit rationale is May 1-10 Call Report window (MI3/NDFI reveal). No system roll math exists.
+**Status:** Open. Not covered by THREAD3_ROLL_MATH.md.
+**Decide between:** (a) hold through Call Report and close, (b) roll forward if CR disclosure fires thesis, (c) let expire if CR is a non-event.
+**Estimate:** 30 min of decision math if a roll is wanted; otherwise a watch-item.
+
+---
+
 ## Already-in-flight (don't re-spawn)
 
-- **Thread 3: $45P May 15 roll math** — NEXT SESSION priority. See MEMORY.md NEXT SESSION section.
-- **OZK/STATUS.md focused refresh** — deferred to start of next OZK session. Needs Q1 26 actuals + sponsor IDs + IQHQ scenarios + Thread 1/2 references.
-- **OZK/THESIS.md NCO-framing revision** — 1.18% Q4 anomaly → 0.57% Q1 in-line; shift leading indicator from NCO rate to past-due trajectory.
+- **Thread 3 roll: $42.5P × 2 May → Jan27 $42.5P × 2** — math in `THREAD3_ROLL_MATH.md`. **Will holding off on execution (Apr 23).** De-facto expiry May 15 if no action by May 8.
+- ✅ **OZK/STATUS.md focused refresh** — DONE Apr 23 (118 → 72 lines; all Q1 26 actuals, IQHQ Aug 2026 correction, sub notes Oct 1 reprice added; ownership violations removed).
+- ✅ **OZK/INDEX.md header fix** — DONE Apr 23 (v1.1 → v1.3 across header + File Map).
+- ✅ **OZK/THESIS.md NCO-framing revision** — DONE in v1.3 audit (Apr 23, committed `9322e2cc`).
 
 ---
 
