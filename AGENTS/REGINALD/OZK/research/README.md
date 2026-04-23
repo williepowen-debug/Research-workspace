@@ -17,7 +17,6 @@ Original analysis produced by the agent network. Each file is a standalone deep 
 **What does NOT belong here:**
 - Raw source material → `../sources/`
 - One-line facts → `../workbook/KB.tsv`
-- Trade decisions → `../MARKET/`
 
 **Quality bar:** Every claim should cite a KB entry or a source file. If it doesn't have a citation, it's an opinion — label it as such.
 

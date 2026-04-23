@@ -101,7 +101,6 @@
 | `LIFE_SCI/` | Lab market findings — RaDD, Campus at Horton, downtown SD vacancy, SD/Boston/Chicago $3.2B book |
 | `GEOGRAPHY/` | CRE exposure by metro (58 MSAs), FL paradox stress-test, regulatory district mismatch |
 | `INSIDERS/` | Insider trading analysis, FDIC EFR pulls, departures tracker |
-| `MARKET/` | Market data, trade log, microstructure |
 | `PRIVATE_CREDIT/` | Affinius/NDFI counterparty risk |
 
 ### Raw sources (don't read at boot)

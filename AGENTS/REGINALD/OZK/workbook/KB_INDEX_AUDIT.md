@@ -37,7 +37,7 @@
 - **KB_INDEX says:** Rows 121–132, count **12**
 - **Actual KB.tsv:** 121–132 = **12 rows** ✓
 - **✅ Accurate.**
-- **Synthesis file:** `GEOGRAPHY/FL_PARADOX/FINDINGS.md` exists ✓.
+- **Synthesis file:** `GEOGRAPHY/FL_PARADOX.md` exists ✓.
 
 ### PEER_COMP
 - **KB_INDEX says:** Rows 133–136, count **4**
@@ -60,7 +60,7 @@
 - `research/D3_SHADOW_CRE_LEVER.md` — 0 KB refs
 - `research/D2_PLEDGED_LOANS_LIQUIDITY.md` — 0 KB refs
 - `GEOGRAPHY/EXPOSURE_MAP.md` — 0 KB refs
-- `GEOGRAPHY/FL_PARADOX/FINDINGS.md` — 0 KB refs
+- `GEOGRAPHY/FL_PARADOX.md` — 0 KB refs
 
 `THESIS.md` has 34 KB references — it's the only file that back-references rows. The research files are effectively disconnected from KB.tsv. KB_INDEX.md is the *only* bridge, and it's one-directional (index → file, never file → rows).
 

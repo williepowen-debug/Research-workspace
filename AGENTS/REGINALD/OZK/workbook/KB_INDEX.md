@@ -37,7 +37,7 @@ Navigate the KB by investigation cluster. Each group maps to a folder or researc
 | Group | Rows | Count | Folder / File | What It Covers |
 |-------|------|-------|---------------|----------------|
 | **GEOGRAPHY** | 107–116, 118–120 | 13 | **GEOGRAPHY/EXPOSURE_MAP.md** | 58 MSAs mapped, $2.9B distressed cluster (5 metros), FL paradox intro, supervisory mismatch, $2B unleased pipeline. (117 → LIFE_SCI) |
-| **FL_PARADOX** | 121–132 | 12 | **GEOGRAPHY/FL_PARADOX/FINDINGS.md** | 4-model stress-test: deposit wall, SB 4-D moat, insurance, Biscayne 21 ($105M), FinCEN, concentration duality |
+| **FL_PARADOX** | 121–132 | 12 | **GEOGRAPHY/FL_PARADOX.md** | 4-model stress-test: deposit wall, SB 4-D moat, insurance, Biscayne 21 ($105M), FinCEN, concentration duality |
 
 ## Peer Comparison
 

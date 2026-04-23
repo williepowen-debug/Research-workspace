@@ -77,7 +77,7 @@ KBRA highlights: $72M single office charge-off. RESG declining $1.4B/qtr, projec
 - **KB_INDEX.md** built — 16-group navigator, audited and fixed
 - **D6_EXTEND_AND_PRETEND.md** — thesis Layer 2 synthesis
 - **LIFE_SCI/** standalone folder created (README, STATUS, FINDINGS)
-- **FL_PARADOX/FINDINGS.md** — 4-model synthesis, FL confirmed fortress
+- **FL_PARADOX.md** — 4-model synthesis, FL confirmed fortress
 - Positions: +2 OZK Aug $45P @ $4.05, +1 WAL Sep $67.5P, +2 FLG Jul $13P
 
 ## Investigation Domains
