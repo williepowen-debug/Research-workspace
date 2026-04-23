@@ -42,7 +42,7 @@
 
 ## Session Notes
 
-⚠️ **Open question + ask for Will:** Thread 3 roll execution status still unresolved. **Separately — need browser pull of MassLandRecords Middlesex South for Boston Life Sci $169M sponsor ID** (WebFetch blocked by JS/form session requirement). Specific steps in OZK/TODO.md #1. Until the pull happens, SEVEN_CREDIT §2 #5 stays UNRESOLVED.
+⚠️ **Open question:** Thread 3 roll execution status still unresolved. MassLandRecords browser-pull ask RESOLVED Apr 23 PM — see below.
 
 ### CHANGES SINCE LAST SESSION
 *(populated at next boot via market.py)*
@@ -52,10 +52,12 @@
 **Session 2 Phase 1 (after Session 1 commit):** Two parallel general-purpose spawns for external records research.
 
 - **B2 "The Jack" / Pioneer Square $25.9M — ✅ RESOLVED HIGH.** 74 S Jackson St Seattle, Urban Visions sponsor, 145K SF class A office TCO June 2023, 100% vacant. OZK took out Mack Real Estate Credit Strategies' $90M construction loan (Feb 2022 JLL-arranged) with $72.5M OZK commitment. Balance math reconciles exactly. Bisnow Sep 2025 direct naming. SEVEN_CREDIT §2 #3 upgraded MED → HIGH. KB-OZK-193.
-- **B1 Boston Life Sci $169M — ⚠️ UNRESOLVED.** MassLandRecords.com requires interactive browser session; WebFetch blocked. Spawn also surfaced (a) sponsor-entity correction for 10 Prospect JV (Magellan + RAS + Cypress + Affinius, NOT Cathartes as prior files claimed — KB-OZK-194), (b) **native maturity mismatch on BOTH candidates** (neither A Feb 2021 + 5yr = Feb 2026 nor B Dec 2021 + 5yr = Dec 2026 cleanly fits Dec 18 2025 maturity). Prior "HIGH confidence Candidate B" framing downgraded across SEVEN_CREDIT §2 #5 + IQHQ_SECONDARY_EXPOSURE research thread. Bisnow Jan 2026 "Cutting its losses" piece has NO Somerville property → confirms credit is new-to-problem-book in Q1 26.
+- **B1 Boston Life Sci $169M — ⚠️ → ✅ RESOLVED HIGH.** Will executed MassLandRecords browser pull Apr 23 PM; found **UCC-1 Financing Statement Bk 85169 Pg 222, Doc #9975, filed Jan 29 2026** — Debtor = 31 Union Square D2.1 Owner LLC; Secured Party = Bank OZK; Property = 10 Prospect Street Somerville; underlying lien instrument dated Dec 31 2020 (Bk 76638 Pg 224). Dispositive for **Candidate A**. Maturity-mismatch concern also resolved: actual docs date is Dec 31 2020 (not Feb 1 2021 as spawn used), 5yr anniversary Dec 31 2025 aligns with OZK's disclosed Dec 18 2025 maturity. Jan 29 2026 post-maturity UCC-1 re-perfection = classic early-workout security-interest refresh. Severity band narrowed to $35-55M (from $40-65M) given institutional JV capacity (Magellan + RAS + Cypress + Affinius). KB-OZK-195 (verdict), KB-OZK-194 (sponsor correction), KB-OZK-189 status updated.
 - **Cathartes correction applied to 4 places:** SEVEN_CREDIT §2 #5 (principal), TODO #1, research/threads/IQHQ_SECONDARY_EXPOSURE.md, KB-OZK-194 (new row).
 
-**Net Session 2 outcome:** 1 of 2 external-records items resolved; 1 blocked on browser-pull from Will.
+**Net Session 2 outcome:** both external-records items RESOLVED HIGH. UCC filing saved at `OZK/raw/OZK financing statement form.pdf`.
+
+**Optional follow-up noted:** Pull original mortgage Bk 76638 Pg 224 (Dec 31 2020) for corroborating original-loan-amount / stated-maturity / rate / extension-provisions. Not required; confirmatory.
 
 ---
 

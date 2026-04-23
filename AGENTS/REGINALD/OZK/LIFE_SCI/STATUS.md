@@ -22,7 +22,7 @@ The bear case lives here. FL is a fortress, office losses are being taken (Bosto
 
 | Credit | Outstanding | Tier | Note |
 |---|---|---|---|
-| Boston Life Sci | $169M | Substandard accrual | Matured Dec 18 2025, 91% LTV, 46d PD. Sponsor ID pending (US2 vs Leggat McCall) — TODO #1. |
+| Boston Life Sci | $169M | Substandard accrual | Matured Dec 18 2025, 91% LTV, 46d PD. **Sponsor CONFIRMED Apr 23: 10 Prospect St / USQ Parcel D2.1 / Magellan + RAS + Cypress + Affinius JV** (MassLandRecords UCC-1 Bk 85169 Pg 222, Jan 29 2026 re-perfection = workout signature). Institutional JV → workout-path probability > note-sale. |
 | Seattle U District Life Sci | $50M | Substandard accrual | Component of $127M combined U District problem. **Signed LOI for recap** = bullish marker. |
 | Chicago Life Sci | $50M | Foreclosed | 68% of May '25 appraisal. Previous short sale failed. |
 
@@ -65,7 +65,7 @@ Full detail + severity math → `../SEVEN_CREDIT_DEEP_DIVE.md`.
 | Metro vacancy | **28-34% ATH** (CBRE vs Colliers). Seaport 34.8%. Full-year negative absorption 929K SF |
 | Pipeline | **16.5M SF under construction, only 46.8% preleased** — more vacancy coming |
 | Sullivan Courthouse | $72.4M charged off Q4 2025. 422K SF, fully vacant |
-| **🆕 Boston Life Sci $169M** | Q1 26 substandard, matured Dec 18 2025. Sponsor ID pending. |
+| **🆕 Boston Life Sci $169M** | Q1 26 substandard, matured Dec 18 2025. ✅ Sponsor = 10 Prospect St / USQ D2.1 / Magellan + RAS + Cypress + Affinius JV (UCC-1 re-perfection Jan 29 2026). |
 | Fenway Center ($1B) | IQHQ paused vertical construction Nov 2025 (not an OZK loan — separate lender JPM $165M) |
 | 109 Brookline (285K SF) | Completed 2024, entirely vacant |
 
@@ -86,7 +86,7 @@ Full detail + severity math → `../SEVEN_CREDIT_DEEP_DIVE.md`.
 
 ## What's Needed
 
-- [ ] Boston Life Sci $169M sponsor disambiguation (TODO #1) — MassLandRecords search
+- [x] Boston Life Sci $169M sponsor disambiguation — ✅ DONE Apr 23 (10 Prospect / USQ D2.1 / Magellan JV)
 - [ ] IQHQ next capital raise or asset sale announcement
 - [ ] Campus at Horton post-foreclosure leasing update (late July)
 - [ ] Any new RaDD lease signing (changes narrative)
