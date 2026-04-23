@@ -1,5 +1,5 @@
 # OZK Q4 2024 Management Comments — Extract
-**Source:** OZK 4Q24 Management Comments - FINAL.pdf
+**Source:** raw/Q4_2024_mgmt_comments.pdf
 **Period:** Q4 2024 (quarter ending 12/31/2024)
 
 ## Verdict

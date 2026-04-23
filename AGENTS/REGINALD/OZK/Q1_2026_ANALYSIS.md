@@ -1,6 +1,6 @@
 # OZK Q1 2026 — REGINALD ANALYSIS
 
-**Source:** Q1 2026 earnings press release + **1QRT 2026 Financial Supplement** + **1Q26 Management Comments (38 pages)** + **full Apr 22 earnings call transcript.** All in `OZK 2026 Q1 data/`.
+**Source:** Q1 2026 earnings press release + **1QRT 2026 Financial Supplement** + **1Q26 Management Comments (38 pages)** + **full Apr 22 earnings call transcript.** All in `raw/`.
 **Mined:** Apr 22 ~10:30 ET.
 **Ticker:** OZK | **Last:** ~$48.52 (-1.46% Apr 22 AM) — **muted fade on mild miss.**
 **Earnings:** Apr 21 AMC | **Call:** Apr 22 AM (complete).
@@ -327,4 +327,4 @@ Per Jake Munn on call:
 
 ---
 
-*Mined from: 1QRT 2026 Financial Supplement.pdf (228K), OZK 1Q26 Management Comments.pdf (73.8K chars, 38 pages), OZK earnings call transcript.md (247 lines), OZK press release. All files saved in `OZK/OZK 2026 Q1 data/`. Analysis date: Apr 22 2026 ~10:30 ET.*
+*Mined from: Q1_2026_financial_supplement.pdf (228K), Q1_2026_mgmt_comments.pdf (73.8K chars, 38 pages), Q1_2026_earnings_call_transcript.md (247 lines), OZK press release. All files saved in `OZK/raw/`. Analysis date: Apr 22 2026 ~10:30 ET.*

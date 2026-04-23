@@ -15,7 +15,7 @@ Primary-source extracts from OZK quarterly Management Comments PDFs. **Live refe
 **What does NOT belong here:**
 - Completed audits / executed plans → `../archive/`
 - Research analyses (e.g., RESG migration math) → `../research/` or `../research/threads/`
-- Raw PDFs themselves → `../sources/` or `../OZK 2026 Q1 data/`
+- Raw PDFs themselves → `../raw/`
 - Current-quarter extract-in-progress → top level until the analysis is published
 
 **Rule:** Append, don't rewrite. Each quarter's extract is frozen once created — new prints get new files. If the extraction methodology changes, annotate the change in a separate file rather than backfilling.
@@ -26,13 +26,13 @@ Primary-source extracts from OZK quarterly Management Comments PDFs. **Live refe
 
 | File | Period | Source |
 |------|--------|--------|
-| `Q4_24_extract.md` | Q4 2024 (quarter ending 12/31/2024) | OZK 4Q24 Management Comments - FINAL.pdf |
-| `Q1_25_extract.md` | Q1 2025 | OZK 1Q25 Management Comments - FINAL.pdf |
-| `Q2_25_extract.md` | Q2 2025 | OZK 2Q25 Management Comments.pdf |
-| `Q3_25_extract.md` | Q3 2025 | OZK 3Q25 Management Comments.pdf |
-| `Q4_25_extract.md` | Q4 2025 | OZK 4Q25 Management Comments.pdf |
+| `Q4_24_extract.md` | Q4 2024 (quarter ending 12/31/2024) | Q4_2024_mgmt_comments.pdf |
+| `Q1_25_extract.md` | Q1 2025 | Q1_2025_mgmt_comments.pdf |
+| `Q2_25_extract.md` | Q2 2025 | Q2_2025_mgmt_comments.pdf |
+| `Q3_25_extract.md` | Q3 2025 | Q3_2025_mgmt_comments.pdf |
+| `Q4_25_extract.md` | Q4 2025 | Q4_2025_mgmt_comments.pdf |
 
-**Next expected additions:** `Q1_26_extract.md` — the Apr 22 Management Comments PDF is currently in `../OZK 2026 Q1 data/`; extract when Q2 26 starts becoming relevant for trajectory work.
+**Next expected additions:** `Q1_26_extract.md` — the Apr 22 Management Comments PDF is currently in `../raw/`; extract when Q2 26 starts becoming relevant for trajectory work.
 
 ---
 

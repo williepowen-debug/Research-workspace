@@ -64,7 +64,7 @@
 **Why:** Q1 26 total classified+criticized = $1.215B. The 11 credits we tracked = $719M. **~$496M classified/criticized we haven't mapped by project.** Could be special-mention, small granular classified, or watchlist items not in Figure 24.
 
 **Where to look:**
-- Q1 26 Financial Supplement + Management Comments (`OZK 2026 Q1 data/`) — re-scan for special-mention detail beyond Figure 24
+- Q1 26 Financial Supplement + Management Comments (`raw/`) — re-scan for special-mention detail beyond Figure 24
 - OZK Call Report RC-N (noncurrent loans) filed May 1-10 — finer breakdown
 - Q4 vs Q1 special-mention migration delta
 

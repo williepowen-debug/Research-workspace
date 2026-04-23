@@ -125,7 +125,7 @@ Four independent research models confirm OZK's GFC performance was exceptional: 
 3. **FDIC subsidy.** 7 failed bank acquisitions with 80% loss-share. Record 2010-2011 earnings driven substantially by bargain-purchase gains and accretion, not organic credit performance [KB-OZK-066/071].
 4. **OCC Formal Agreement June 2011.** "Less than satisfactory" mgmt and liquidity. Required 11% capital minimum, enhanced credit review. Three of four research models missed this entirely [KB-OZK-069].
 5. **Corus analog.** Corus Bank ran the *same* gateway-city construction model and failed. Difference was basis (LTV), not strategy [KB-OZK-072].
-**Verdict:** Gleason demonstrated genuine discipline, but the GFC stress-tested a fundamentally different institution. The current RESG book is being stress-tested for the first time now. See `sources/OZK_GFC_TRACK_RECORD_V2.md` through `V4.md` for full research.
+**Verdict:** Gleason demonstrated genuine discipline, but the GFC stress-tested a fundamentally different institution. The current RESG book is being stress-tested for the first time now. See `raw/llm_outputs/OZK_GFC_TRACK_RECORD_V4.md` for full research.
 
 ### C5: IQHQ Timeline Extension Weakens Wave 3
 IQHQ maturity pushed to ~2028. No longer a 2026 catalyst. The thesis should lean on Waves 1-2 (construction maturity wall + noncurrent trajectory + interest reserve depletion) without invoking IQHQ for near-term catalysis. IQHQ remains relevant as background risk and worst-case loss estimate, but it's not what makes the April-August put structure work.

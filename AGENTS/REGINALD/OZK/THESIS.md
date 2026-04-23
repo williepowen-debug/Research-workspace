@@ -163,6 +163,6 @@ Size accordingly. Accept that green days will hurt. The thesis is about trajecto
 
 ---
 
-*Canonical data → `workbook/KB.tsv` | Deep dives → `research/`, `research/threads/`, `IQHQ_PLAYBOOK.md`, `SEVEN_CREDIT_DEEP_DIVE.md` | Raw sources → `sources/`, `OZK 2026 Q1 data/`, `historical/`*
+*Canonical data → `workbook/KB.tsv` | Deep dives → `research/`, `research/threads/`, `IQHQ_PLAYBOOK.md`, `SEVEN_CREDIT_DEEP_DIVE.md` | Raw sources → `sources/`, `raw/`, `historical/`*
 *`[KB-OZK-NNN]` anchors link to KB.tsv rows. Update numbers in KB.tsv only — this file is narrative.*
 *Version history: `CHANGELOG.md`. Any change to this file requires a CHANGELOG entry.*
