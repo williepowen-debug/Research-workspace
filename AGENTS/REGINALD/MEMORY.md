@@ -42,12 +42,24 @@
 
 ## Session Notes
 
-⚠️ **Open question:** Thread 3 roll execution status still unresolved across two Apr 23 sessions. Recommendation per `OZK/THREAD3_ROLL_MATH.md` remains close May $42.5P × 2 + open Jan27 $42.5P × 2 (~$510 debit). Hard deadline ~May 8. Chain quotes may need refresh if executed this week.
+⚠️ **Open question + ask for Will:** Thread 3 roll execution status still unresolved. **Separately — need browser pull of MassLandRecords Middlesex South for Boston Life Sci $169M sponsor ID** (WebFetch blocked by JS/form session requirement). Specific steps in OZK/TODO.md #1. Until the pull happens, SEVEN_CREDIT §2 #5 stays UNRESOLVED.
 
 ### CHANGES SINCE LAST SESSION
 *(populated at next boot via market.py)*
 
-### LAST SESSION (Apr 23 PM — OZK subdir refresh + $495M gap characterization + KB additions)
+### LAST SESSION (Apr 23 PM — Session 1 subdir refresh + $495M gap, Session 2 Phase 1 external records research)
+
+**Session 2 Phase 1 (after Session 1 commit):** Two parallel general-purpose spawns for external records research.
+
+- **B2 "The Jack" / Pioneer Square $25.9M — ✅ RESOLVED HIGH.** 74 S Jackson St Seattle, Urban Visions sponsor, 145K SF class A office TCO June 2023, 100% vacant. OZK took out Mack Real Estate Credit Strategies' $90M construction loan (Feb 2022 JLL-arranged) with $72.5M OZK commitment. Balance math reconciles exactly. Bisnow Sep 2025 direct naming. SEVEN_CREDIT §2 #3 upgraded MED → HIGH. KB-OZK-193.
+- **B1 Boston Life Sci $169M — ⚠️ UNRESOLVED.** MassLandRecords.com requires interactive browser session; WebFetch blocked. Spawn also surfaced (a) sponsor-entity correction for 10 Prospect JV (Magellan + RAS + Cypress + Affinius, NOT Cathartes as prior files claimed — KB-OZK-194), (b) **native maturity mismatch on BOTH candidates** (neither A Feb 2021 + 5yr = Feb 2026 nor B Dec 2021 + 5yr = Dec 2026 cleanly fits Dec 18 2025 maturity). Prior "HIGH confidence Candidate B" framing downgraded across SEVEN_CREDIT §2 #5 + IQHQ_SECONDARY_EXPOSURE research thread. Bisnow Jan 2026 "Cutting its losses" piece has NO Somerville property → confirms credit is new-to-problem-book in Q1 26.
+- **Cathartes correction applied to 4 places:** SEVEN_CREDIT §2 #5 (principal), TODO #1, research/threads/IQHQ_SECONDARY_EXPOSURE.md, KB-OZK-194 (new row).
+
+**Net Session 2 outcome:** 1 of 2 external-records items resolved; 1 blocked on browser-pull from Will.
+
+---
+
+### Session 1 (Apr 23 PM earlier — subdir refresh + $495M gap + KB additions)
 
 **Scope:** Post-Q1 integration session. Cleared the subdir refresh queue identified during the AM session, characterized the $495M unmapped classified/criticized gap, added 7 KB rows, logged two new material findings.
 
