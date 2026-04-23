@@ -57,7 +57,7 @@
 
 **Net Session 2 outcome:** both external-records items RESOLVED HIGH. UCC filing saved at `OZK/raw/OZK financing statement form.pdf`.
 
-**Optional follow-up noted:** Pull original mortgage Bk 76638 Pg 224 (Dec 31 2020) for corroborating original-loan-amount / stated-maturity / rate / extension-provisions. Not required; confirmatory.
+**Original mortgage pulled + analyzed (Apr 23 PM):** Bk 76638 Pg 224 (22 pp). Required `sudo apt-get install poppler-utils` first — pdftoppm now available on this WSL. Body-text confirmed $119.2M principal exactly; building is mixed-use 194,033 SF NRSF (173K lab + 12K retail + 9K A&C), not pure spec lab as prior files said; "Not a Revolver Facility" explicit; construction mortgage under MA Ch 106 §9-334; first/prior lien; King & Spalding LLP (Erik F. Andersen) as OZK counsel. **Stated maturity / rate / extension provisions live in the unrecorded Promissory Note + Loan Agreement — not obtainable from public registry.** KB-OZK-195 Fact + Source fields updated with body-text corroboration.
 
 ---
 
