@@ -42,7 +42,15 @@
 
 ## Session Notes
 
-⚠️ **Open question (for tomorrow AM when market opens):** Tier C position decisions deferred by Will on 2026-04-23 PM. **Strategic lean has shifted from ROLL to CLOSE-ON-BOUNCE** per Will's note: *"I do believe that I will get at least one more opportunity to sell them without significant loss between now and May."* Applies to both (a) May $42.5P × 2 (Thread 3 — was queued for roll to Jan27) and (b) May $47.5P × 2 (had no prior roll plan; now also candidate for close-on-bounce). Tomorrow's task: check open tape, identify exit window, decide close vs hold-to-expiry-watch. If bounce fails to materialize through May 8, roll becomes default backup. THREAD3_ROLL_MATH.md remains reference material — not current recommendation.
+⚠️ **DIRECTIONAL SHIFT (set 2026-04-23 PM evening, for 2026-04-24+ work):** Will is redirecting away from position/tape work and toward **structural/organizational priorities**. Two pillars for tomorrow and beyond:
+
+1. **Promote OZK to its own top-level agent.** OZK is currently a sub-scope inside `AGENTS/REGINALD/OZK/` (~195 KB rows, 17 groups, 11 top-level docs, 4 subdomains, deep research subtree, raw PDF library). Scale has outgrown sub-agent status. Target: `AGENTS/OZK/` with its own CLAUDE.md (spawn protocol, file ownership, cross-agent signals), MEMORY/CALENDAR/LESSONS, and REGINALD coordination as peer-to-peer rather than parent-child. WAL is a parallel candidate (same sub-scope pattern) — probably next, but one at a time; OZK first.
+
+2. **Continue systems-organization optimization.** Carryover queue: root REGINALD STATUS.md pruning (still 572+ lines, Apr 7-10 briefs should archive), KB_INDEX.md refresh (Mar 25 baseline, claims 159 rows, actual 197 post-today), any cross-agent boundary clarity work that emerges during the OZK spinout.
+
+**Position decisions (May $42.5P × 2, May $47.5P × 2) Will handles himself at open tomorrow.** Do NOT self-direct tape/exit analysis unless Will specifically asks. THREAD3_ROLL_MATH.md remains reference only.
+
+See auto-memory `project_ozk_spinout_direction.md` for persistent direction.
 
 ### CHANGES SINCE LAST SESSION
 *(populated at next boot via market.py)*
@@ -91,24 +99,22 @@
 - Root REGINALD `STATUS.md` pruning (still 572+ lines, Apr 7/9/10 briefs should archive). Carryover.
 - OZK/STATUS.md was refreshed earlier this session (AM) — that part is done.
 
-### NEXT SESSION — priorities
+### NEXT SESSION — priorities (redirected 2026-04-23 PM evening)
 
-**New (from this session):**
+**Primary direction (structural/organizational):**
 
-1. **May 1-10 Call Report triage** — when filings appear, 30-60 min pass on FFIEC RC-N for Special Mention breakdowns (asset class + geography). Informs how much of the $397M sits in RESG vs elsewhere.
-2. **10-Q (~May 5) MD&A scan** — 30 min. Verify near-zero classified in CIB / Community Banking / Indirect (the non-RESG blind spot). Also watch for written Fund Finance pullback disclosure — does the asymmetry persist?
+1. **Plan OZK spinout.** Before moving files: draft a plan covering (a) target file tree at `AGENTS/OZK/`, (b) CLAUDE.md scope split — what REGINALD retains vs what OZK owns, (c) cross-ref update map (all `../` references in OZK/ files currently assume REGINALD parent), (d) sub-agent coordination (CREED/CORAL are currently under REGINALD; stay there? move? peer?), (e) PROME registration / root CLAUDE.md agent-list update, (f) POSITIONS.md split (OZK positions to OZK/POSITIONS.md? or keep in REGINALD/POSITIONS.md?). Surface the tradeoffs, don't execute until Will approves the plan.
+2. **Systems-organization queue** — pull from parallel with OZK spinout where it helps:
+   - Root REGINALD STATUS.md pruning (572+ lines, Apr 7-10 briefs → archive/) ~20 min
+   - KB_INDEX.md refresh — add rows 160-197 to cluster rollups ~60 min (happens as part of OZK workbook move if spinout proceeds)
+   - Cross-ref hygiene pass as files move
 
-**Carryover (unchanged):**
+**Deprioritized (do NOT self-direct):**
+- Tape/exit analysis — Will handles himself
+- New thesis research — wait for Will to request
+- Tier C position decisions — Will's call at open
+- May 1-10 Call Report / 10-Q triage — still useful when filings drop, but not priority work vs spinout structural work
 
-3. Thread 3 roll execution check (carryover from AM + prior sessions).
-4. Root REGINALD STATUS.md pruning (572+ lines). ~20 min.
-5. Checkpoint 1 KB persistence for rows 178-184 + 3 PREDICTIONS (REG-21/22/23) — flagged in AM session. **Now superseded?** Rows 178-185 were added Apr 22-23; rows 186-192 added this session. Verify no orphans before acting.
-6. KB_INDEX.md refresh (60 min) — deferred housekeeping.
-7. B1 Boston Life Sci $169M MassLandRecords search (TODO #1) — tractable external lookup (Session 2 Tier B from today's plan).
-8. B2 "The Jack" King County records (TODO #7) — paired Session 2 item.
-9. May $47.5P × 2 decision by May 8 (position TODO P1).
-10. WAL Round 2 if supplement/transcript delivered.
-
-**Ask of Will:** No new ask this session. Q4 24 / Q1-Q4 25 Mgmt Comments extracts already live in `OZK/historical/`.
+**Ask of Will:** None new. Await guidance on spinout plan scope (full vs incremental).
 
 **Positions unchanged** — no broker data this session.
