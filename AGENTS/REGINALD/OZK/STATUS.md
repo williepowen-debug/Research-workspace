@@ -1,117 +1,95 @@
 # OZK — Dashboard
-**Updated:** 2026-04-07 | **Conviction:** 🔴🔴 HIGH | **Thesis:** RESERVOIR
-**Price:** $46.44 (Apr 7) | **TBV:** $41.48 | **P/TBV:** ~1.12x | **KB:** 163 rows, 18 groups
-**Consensus:** Hold (5B/5H/1S), PT $57.22 (range $40-$67, median $54), EPS $1.52/Q (Zacks Feb), FY2026 $6.02. UBS Neutral $48 (Apr 7). Citi SELL $40.
+
+**Updated:** 2026-04-23 | **Price:** $48.23 (+1.49% AM) | **TBV:** $47.15 | **P/TBV:** 1.02×
+**Thesis:** RESERVOIR v1.3 | **Conviction:** 🔴🔴 HIGH | **KB:** 185 rows / 17 groups
+**Next hard catalyst:** IQHQ RaDD maturity Aug 2026 — weighted EL $140M on $555M funded
 
 ---
 
 ## Positions
-| Strike | Expiry | Contracts | Cost Basis | Wave |
-|--------|--------|-----------|------------|------|
-| $42.5P | May 15 | 2 | — | 1: Apr earnings |
-| $42.5P | Aug 21 | 1 | — | 2-3: NY pipeline + IQHQ |
-| $45P | Aug 21 | **4** | 2 @ prev + 2 @ $4.05 (Mar 24) | 2-3: NY pipeline + IQHQ |
 
-## Thesis Strength After 141 KB Rows
+*Broker state confirmed by Will 2026-04-23. Total: 11 contracts across 4 lines.*
 
-| Domain | Verdict | Key Finding | Confidence |
-|--------|---------|-------------|------------|
-| **Concentration** | 🔴 Confirmed outlier | 5.4x peer NCO, 7x peer C&D, coverage BELOW median | HIGH — 3 models, primary data |
-| **Extend-and-pretend** | 🔴 Mechanism proven | 590 mods, 98% avoid classification, 59% re-default, rate concession contradiction | HIGH — 10-K sourced |
-| **ACL thinning** | 🔴 Buffer gone | NCO 1.18% > ACL 1.16%. Provision covers half of losses. Coverage 184% (below peer 231%) | HIGH — FDIC verified |
-| **Maturity wall** | 🔴 Hitting now | $3.7B maturing 2026, Q1 front-loaded. $13.8B 2022 vintage on 36-42mo terms | MEDIUM — origination unverified |
-| **Life sciences** | 🔴 Worst asset type | RaDD 3.3% leased, IQHQ paying 16.5% rescue capital, downtown SD >90% vacant | HIGH — 2 models + broker data |
-| **FL condos** | 🟢 Fortress | 46% LTC, 50% deposit wall, all-cash buyers. NOT where thesis breaks | HIGH — 4 models converge |
-| **Geography** | 🟡 Surgical | 24% of RESG (life sci + office) holds 100% of distress. FL is fine. | HIGH — 58 MSAs mapped |
+| Strike | Expiry | Contracts | Wave | Notes |
+|--------|--------|-----------|------|-------|
+| $42.5P | May 15 | 2 | Originally Wave 1 (Apr earnings — passed) | 🔴 **ROLL PENDING** → Jan27 $42.5P × 2 (~$510 debit). Hard deadline ~May 8. See `THREAD3_ROLL_MATH.md`. |
+| **$47.5P** | May 15 | 2 | Near-money · separate from Wave 1 | ~$0.73 OTM at $48.23. 22 DTE. Covers May 1-10 Call Report window (MI3 / NDFI reveal). Rationale to reconfirm. |
+| $42.5P | Aug 21 | 3 | 2-3: IQHQ maturity | +2 added ~early April (thesis-add, not Thread 3 execution). Hold. |
+| $45P   | Aug 21 | 4 | 2-3: IQHQ maturity | Hold. |
 
-**Strongest evidence:** Extend-and-pretend classification gap (590 mods / 10 classified). Peer comp (5.4x NCO). IQHQ distress cascade.
-**Weakest evidence:** $13.8B origination volume unverified. Short interest undated. RaDD maturity discrepancy (Aug 2026 vs 2028).
+**Thread 3 roll:** May $42.5P × 2 → Jan27 $42.5P × 2. Extends duration past IQHQ Aug maturity + Q3 recognition tempo. **Hard deadline ~May 8** (May premium decays fast). Position state above still shows the May $42.5P open — roll has NOT executed. See `THREAD3_ROLL_MATH.md` for chain quotes (may need refresh).
 
-## Headline Numbers
+---
 
-| Stat | Value | Source |
-|------|-------|--------|
-| OZK NCO vs peer median | **5.4x** (1.18% vs 0.22%) | KB-136, Prompt #7 |
-| RESG modifications | **590** over 14 quarters, avg loan modified 2x | KB-101, D6 |
-| Classification gap | **98%** of mods avoid "financial difficulty" label | KB-096 |
-| Re-default rate | **59%** of classified mods re-defaulted | KB-097 |
-| RaDD leasing | **3.3%** (50K of 1.5M SF) | KB-137, Prompt #15 |
-| IQHQ rescue capital cost | **13.5-16.5%** (PIK + preferred) | KB-139 |
-| Downtown SD vacancy | **>90%** | KB-140 |
-| FL deposit wall | **30-50%** non-refundable pre-close | KB-125 |
+## Q1 2026 Snapshot
 
-## KBRA Q4 2025 Compendium (Feb 12, 2026) — EXTERNAL VALIDATION
+*Resolved Apr 21. Full synthesis → `Q1_2026_ANALYSIS.md`*
 
-**OZK appears on 4 "worst" lists in entire KBRA-rated universe:**
-- **#1 worst NCO increase** QoQ (+77bps, 0.41→1.18)
-- **#3 worst NPA increase** QoQ (+55bps, 0.69→1.24)
-- **#2 highest deposit costs** (3.06%)
-- **#10 highest LLR** (1.47%)
+| Metric | Q1 26 | Trend | Note |
+|---|---|---|---|
+| EPS | $1.44 | Miss -1.4% vs $1.46 | — |
+| Past due loans | **$465M (1.41%)** | 🔴 Doubled QoQ from $207M / 0.64% | Leading indicator — firing |
+| Classified + criticized | $1,215M | 🔴 +23% QoQ from $984M | — |
+| NCO (ann.) | **0.57%** | In-line with ~50bps FY guide | Deceleration from Q4 25's 1.18% — see Invalidation §2 |
+| Provision | $41.9M | vs $45.3M NCO | ACL modest drawdown |
+| ACL | $628.5M (1.26%) | — | Coverage 1.35× past-due |
+| CET1 | 11.64% | Capital buffer intact | — |
+| TBV/share | $47.15 | +11% YoY | Buybacks at $45.51 avg (accretive) |
 
-**ALL ratings: Negative outlook** (Deposit A-, Senior Unsecured A-, Sub BBB+, Pref BBB)
+**3 new substandard credits:** 2 Seattle U District (Office $76M + Life Sci $50M, signed LOI for recap) + 1 Boston Life Sci $169M (matured Dec 18 2025 — sponsor ID TODO #1)
+**2 new foreclosed:** Chicago Life Sci $50M · Santa Monica Office $45M (**15% leased**, $5M charge-off on transfer)
+**Near-zero-equity LTVs:** Boston Office 95% · Seattle Pioneer 100% · Wauwatosa Hotel 103%
 
-KBRA highlights: $72M single office charge-off. RESG declining $1.4B/qtr, projected <50% by early 2026. 40% variable rate loans at floors. Management claims "late stages of CRE downturn." CIB backfilling at $0.8B/qtr.
+Detail on all 11 tracked problem credits ($719M) → `SEVEN_CREDIT_DEEP_DIVE.md`.
 
-**KBRA Credit Constraints:** High C&D concentration, elevated reliance on volatile funding, spread-derived revenues with limited fee income.
+---
 
-**vs peer comparison (KBRA 4Q25):**
-| | OZK | WAL | ZION | Sector Median |
-|--|-----|-----|------|---------------|
-| NCO | **1.18** | 0.31 | 0.05 | 0.17 |
-| NPA | **1.24** | 1.08 | 0.52 | 0.65 |
-| Dep Cost | **3.06%** | — | 1.56% | 1.93% |
-| Outlook | **Negative** | Stable | Stable | — |
+## Signal Dashboard
 
-*Source: KBRA Q4 2025 US Bank Compendium, Feb 12, 2026. Full extract: `REGINALD/domain/research/capital-rewrite-2026/KBRA_COMPENDIUM_4Q25.md`*
+| Signal | Current | Watch Level | Fires |
+|---|---|---|---|
+| OZK price | $48.23 | <$45 / <$40 | Thesis execution bands |
+| Past-due loans | $465M / 1.41% | >$550M or >2.0% next Q | Recognition tempo accelerating |
+| NCO (ann.) | 0.57% | >80bps mid-year | Full CRE cycle engagement |
+| **NCO kill line** | — | **≤55bps through Q3** | **Invalidation §2 trigger** |
+| RaDD leased % | 3.3% (JCVI 50K of 1.5M SF) | Any signing >100K SF | Scenario A probability up |
+| IQHQ specific reserve | Not broken out Q1 | Any positive Q2 | Scenario B firing early |
+| Sub notes reprice | Oct 1 2026 | Pre-reprice refi announcement | +$12.8M/yr · Tier 2 -20% |
 
-## Catalyst Calendar
-| Date | Event | Status |
-|------|-------|--------|
-| **Mar 25** | Jefferies Q1 (WAL read-through) | ⚠️ NOT PULLED — 3x deferred. First Brands auction resolved: $75M total recovery vs $9.3B debt. |
-| **Apr 21** | **Q1 2026 Earnings** (moved from Apr 16, conf call Apr 22) | 16 days — PRIMARY CATALYST |
-| ~Apr 20-21 | Peer earnings (ZION, WAL) | Sector read-through |
-| **~Aug 2028** | IQHQ RaDD maturity (extended from Aug 2026) | Outside put window — narrative catalyst only |
+**Cross-feed (ref only, not OZK-specific):** KRE $69.90 · HY OAS 294bps (Apr 8, stale) · Brent $102.66 (🔴 +8.5% since Apr 22 — stagflation re-heating)
 
-## What's Changed (Mar 24-25)
-- **+21 KB rows** (120→141): FL Paradox (121-132), Peer Comp (133-136), IQHQ RaDD (137-141)
-- **KB_INDEX.md** built — 16-group navigator, audited and fixed
-- **D6_EXTEND_AND_PRETEND.md** — thesis Layer 2 synthesis
-- **LIFE_SCI/** standalone folder created (README, STATUS, FINDINGS)
-- **FL_PARADOX.md** — 4-model synthesis, FL confirmed fortress
-- Positions: +2 OZK Aug $45P @ $4.05, +1 WAL Sep $67.5P, +2 FLG Jul $13P
+---
 
-## Investigation Domains
-| Folder | What | Status |
-|--------|------|--------|
-| `GEOGRAPHY/` | 58 MSAs, $2.9B distressed cluster, FL Paradox | ✅ Complete (Mar 24) |
-| `LIFE_SCI/` | RaDD, Boston, Chicago life sci exposure | ✅ Prompt 15 done, Prompt 20 pending |
-| `research/` | D1-D6 deep dives, C1-C3 counter-arguments | ✅ D6 new (Mar 24) |
-| `workbook/` | **146-row** KB + KB_INDEX navigator | ✅ Audited (Mar 24) |
+## Catalyst Calendar (OZK-specific)
 
-## Research Agenda
+*Forward-looking only. Full cross-bank calendar → `../CALENDAR.md`.*
 
-### MUST DO (Before Apr 21)
-- [x] 8-K EDGAR monitoring — CIK 0001569650. No new 8-Ks as of Apr 7. SVP loss NOT disclosed. Check again ~Apr 14.
-- [x] Short interest check — No newer data than Mar 25 (13.81% / 11.2 DTC). Next FINRA release mid-Apr. Pull again ~Apr 14.
-- [x] SCENARIOS price reconciliation — Stock $46.44 vs SCENARIOS $44.70. Only 3.9% gap. Framework valid; price noted.
-- [x] Bioterra status — Building COMPLETE (323K SF Sorrento Mesa). No leasing data. 29.7% SD vacancy. $202M loan maturing into worst life sci market in decade. NEXT SHOE CONFIRMED.
-- [x] IQHQ RaDD check — Still 3.3% lab leased (JCVI 50K only). 1.5M SF "mostly empty." Retail 50% of 200K SF (Equinox, Rivian). Pivoting to 10-40K suites. No new lab tenants.
-- [ ] Jefferies Q1 — WAL read-through (3x deferred)
+| Date | Event | Thesis Impact |
+|---|---|---|
+| **~May 1-10** | Q1 Call Report (FFIEC) | MI3 37.6% baseline; classified/criticized detail; specific reserves on problem credits |
+| **May 8** | **Thread 3 roll hard deadline** | May $42.5P decays after |
+| May 12 | WAL Investor Day (cross-read) | Possible WAL IQHQ exposure (TODO #3) |
+| May 15 | $42.5P May expiry | Position expires if not rolled |
+| **May-Jun** | Bluerock Q1 NAV marks (IQHQ PIK $246M) | Further markdown → Scenario B probability up |
+| **Early Jun** | Aimco v. IQHQ motion-to-dismiss response | Denial → Bluerock PIK terms in discovery (bearish) |
+| **Jun 18** | AOCI capital rewrite comment period closes | Cat III/IV bomb intact |
+| **Mid-late Jul** | OZK Q2 2026 earnings | Dress rehearsal for Aug IQHQ resolution |
+| **Aug 2026** | **IQHQ RaDD maturity** ⚠️ (corrected from Aug 2028) | 4-scenario tree. See `IQHQ_PLAYBOOK.md` |
+| **Oct 1, 2026** | $350M sub notes reprice (2.75% → SOFR+209) | +$12.8M/yr interest · Tier 2 -20% for 12mo |
 
-### PROMPTS REMAINING (Will running externally)
-- [x] #16 Insider transactions ✅ KB-142→146 (zero buys 18mo, 65:1 sell ratio, CRO filled, CIK corrected). **Apr 12 UPDATE:** FDIC EFR pull (cert #110) confirms zero purchases across full filing history. OZK files with FDIC not EDGAR — prior EDGAR checks were hitting a gap. Dir. Kenny net seller ($170K+ sold, grants only). Gleason zero Form 4s since Jul 2023. See `INSIDERS/` subfolder.
-- [x] #8 Metropolitan failure comparison — ✅ Apr 7: KB-161→163. CORRECTED: Met Capital B&T failed (not MCB). MI3 39.6% at failure. OZK 37.6% = same zone. Scale+PPNR = survival.
-- [x] #9 Affinius bonds — ✅ Apr 7: KB-165→170. Claude: Affinius has NO public bonds (private RIA). Gemini conflated USAA Cap Corp. Columbus Center $69M foreclosure (isolated). Veris $3.4B expansion. 8 OZK co-lending deals, zero defaults. "81¢" ref CORRECTED.
-- [x] #10 Sell-side consensus — ✅ Apr 7: KB-171→174. 5B/5H/1S, avg PT $57.22. Citi SELL $40 + Mar 23 catalyst watch. UBS Neutral $48 (today). **Apr 12 UPDATE:** "Institutions ADDING below book" refined — it's INDEX/PASSIVE adding (State Street +9%, BlackRock +1%) while FUNDAMENTAL CREDIT shops exit (Wellington -43%, Wasatch -6.6%, D.E. Shaw -26%). Smart money divergence, not broad institutional confidence.
-- [ ] #13 Peer 2022 vintage maturity wall
-- [ ] #19 Metro market conditions
-- [ ] #20 Life sci vacancy deep dive
+---
 
-### COMPLETED PROMPTS
-#1 GFC (064-066) · #2 Maturity (074-079) · #3 Interest reserve (080-093) · #4 TDR (096-106) · #5 Geography (107-120) · #6 FL Paradox (121-132) · #7 Peer comp (133-136) · #15 IQHQ RaDD (137-141) · #16 Insider (142-146)
+## Open Decisions
 
-## AOCI Exposure
-**Cat III/IV — mandatory unrealized AFS loss recognition phasing in.** Fed/FDIC/OCC capital rewrite: AOCI phase-in for Cat III/IV. $49.5B aggregate hit across 21 banks. Comment period closes Jun 18. Street buying headline relief while AOCI is the buried bomb. This is a SEPARATE capital drain from credit losses.
+1. **May $42.5P × 2 — Thread 3 roll** (pending). → Jan27 $42.5P × 2, ~$510 debit. `THREAD3_ROLL_MATH.md`. Deadline ~May 8.
+2. **May $47.5P × 2 — manage to expiry** (new item). 22 DTE, ~$0.73 OTM. Original rationale (Apr earnings) expired; current implicit rationale is May 1-10 Call Report window. Decide by ~May 8: hold through CR print, roll, or close.
+3. **Boston Life Sci $169M sponsor ID** — 2 candidates (US2 vs Leggat McCall). `TODO.md` #1.
+4. **Bluerock as secondary short** — gated on May-Jun NAV mark. `TODO.md` #2.
+
+Full research backlog → `TODO.md`.
+
+---
 
 ## Navigation
-**Cold boot → `INDEX.md`** | **KB navigator → `workbook/KB_INDEX.md`** | **Thesis → `THESIS.md`** | **Q1 26 earnings → `Q1_2026_ANALYSIS.md`** | **Options roll → `THREAD3_ROLL_MATH.md`**
+
+**Cold boot → `INDEX.md`** · **Thesis → `THESIS.md` (v1.3)** · **Q1 earnings → `Q1_2026_ANALYSIS.md`** · **IQHQ scenarios → `IQHQ_PLAYBOOK.md`** · **Seven credits → `SEVEN_CREDIT_DEEP_DIVE.md`** · **Roll math → `THREAD3_ROLL_MATH.md`** · **Research backlog → `TODO.md`** · **KB navigator → `workbook/KB_INDEX.md`**
