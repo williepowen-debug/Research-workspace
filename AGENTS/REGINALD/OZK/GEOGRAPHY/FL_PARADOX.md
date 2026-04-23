@@ -1,7 +1,8 @@
-# FL PARADOX — Cross-Model Findings
+# FL PARADOX — OZK Florida Stress Test
 
-**Completed:** 2026-03-24 | **Models:** Claude, Gemini, ChatGPT, Perplexity
-**KB Rows:** 121–132 | **Group:** `FL_PARADOX` | **Nav:** `workbook/KB_INDEX.md`
+**Investigation completed:** 2026-03-24 | **Status:** ✅ CLOSED — FL book confirmed strongest segment
+**Models:** Claude, Gemini, ChatGPT, Perplexity (4 parallel runs) | **KB rows:** 121–132 (plus 110, 120)
+**Flattened from `FL_PARADOX/` subfolder** on 2026-04-23 during Phase 3 restructure.
 
 ---
 
@@ -9,7 +10,22 @@
 
 **The FL condo book is genuinely well-structured and is NOT where the OZK thesis breaks.** All four models agree on the structural protections. The bear case rests on bank-level ACL exhaustion from life sciences and office losses, not FL stress. FL becomes relevant only as a potential amplifier if broader credit deterioration forces reserve replenishment from an already-depleted ACL.
 
-One actionable exception: **Biscayne 21 ($105M)** — a named FL loan with impaired collateral.
+**One actionable exception:** Biscayne 21 ($105M) — named FL loan with impaired collateral.
+**One emerging risk:** FinCEN rule (Mar 1, 2026) adds friction to foreign cash-buyer pipeline.
+
+**Conclusion for thesis:** The strongest version of the OZK short is *"FL is fine, and it still doesn't save them."*
+
+---
+
+## The Question Investigated
+
+OZK claims: 14 Miami condo loans, $2.47B, WA LTC 45.9%, LTV 39.1%, 11/14 presales cover full repayment, zero FL defaults. We tested:
+
+- Are pre-sales legally binding enough to protect the lender?
+- What's the historical walkaway rate in Miami luxury when markets turn?
+- Does SB 4-D regulatory crisis help or hurt new construction?
+- Is the ultra-luxury demand layer thick enough to absorb $7.45B new supply?
+- Does "90% pre-sold" actually mean "90% will close"?
 
 ---
 
@@ -55,7 +71,7 @@ $105M OZK senior mortgage + $45M mezz ($150M total). Two Roads Dev bulk-purchase
 
 **Only Claude caught this.** Gemini, ChatGPT, and Perplexity all missed it.
 
-Watch for: Q1 non-accrual classification on Apr 16 earnings. If it surfaces, shatters the "FL book is pristine" narrative.
+Watch for: Q1 non-accrual classification. If it surfaces, shatters the "FL book is pristine" narrative.
 
 ---
 
@@ -110,13 +126,71 @@ This is why FL doesn't need to crack: the bank is already absorbing losses faste
 
 ---
 
-## Sources
-All saved to `../../sources/`:
-- `FL_PARADOX_claude_deep_research.md`
-- `FL_PARADOX_gemini_deep_research.docx`
-- `FL_PARADOX_chatgpt_response.md`
-- `FL_PARADOX_perplexity_response.md`
+## Appendix A: Pre-Investigation Data
+
+### FL Exposure Breakdown ($7.45B, 22.8% of RESG)
+
+| MSA | Commitment ($M) | % of RESG |
+|-----|-----------------|-----------|
+| Miami-FtL-WPB | $3,960 | 12.1% |
+| Tampa-St Pete-Clearwater | $1,114 | 3.4% |
+| Cape Coral-Fort Myers | $499 | 1.5% |
+| Sarasota | $478 | 1.5% |
+| Naples | $306 | 0.9% |
+| Orlando | $72 | 0.2% |
+| Other FL | ~$1,021 | ~3.1% |
+| **Total FL** | **~$7,450** | **~22.8%** |
+
+### OZK Management's Safety Case [KB-OZK-110]
+- 14 disclosed Miami condo loans totaling **$2.47B**
+- Weighted average LTC: **45.9%**, LTV: **39.1%**
+- **11 of 14** have presales sufficient to fully repay the loan
+- Remaining 3 averaged ~85% of required presales
+- Zero Florida defaults or nonperforming credits identified
+- Mgmt (Q4 2024): *"We have a long history of successful lending there and that continues to be the case."*
+
+### Named FL Projects
+
+| Project | Developer | OZK Loan | Pre-Sale | Notes |
+|---------|-----------|----------|----------|-------|
+| Waldorf Astoria Miami | PMG/Mohari/Hilton | $668M total ($425M OZK sr) | 90% | Under construction |
+| West Palm Beach condo | Unknown | $475M | Unknown | 2025 origination |
+| Baccarat Residences Miami | Unknown | $328M | 95%+ | |
+| Four Seasons Coconut Grove | CMC/Fort Partners | $324M | Unknown | **Jan 2026 origination** |
+| South Flagler House | Related Ross | ~$310M | Unknown | |
+| Ritz-Carlton Pompano | Unknown | $259M | 90%+ | |
+| Vita at Grove Isle | Unknown | $239M | Unknown | |
+| St. Regis Sunny Isles | Unknown | $219M | Unknown | |
+| Wynwood Plaza | Unknown | $215M | — | Blue Owl took out prior loan |
+| SoLé Mia condo | Unknown | $172M | Unknown | |
+| Waldorf Astoria Pompano | Related/Merrimac | $160M | Unknown | |
+| Ponce Park Coral Gables | Allen Morris Co. | $133M | 40% | |
+| Nora District WPB | NDT/Place Projects | $84M | Unknown | |
+| Water Street Tampa | Vinik/Gates | $664M | — | Completed/stabilizing |
+
+**Caveat:** Of 14 Miami loans, pre-sale data is publicly confirmed for only 3-4 projects. The "11/14 cover full repayment" figure is management commentary, not independently verifiable.
+
+### Macro Warning Signs [KB-OZK-120]
+- **UBS Global Real Estate Bubble Index:** Miami #1 globally, score 1.73 (exceeds 2006 peak)
+- **Net domestic migration to FL:** -93% (310K → 23K, 2022→2025)
+- **FL condo supply:** 13.2 months
+- **High-end inventory:** +40% YoY
+- **Miami cash transactions:** 65.3%
+- **Sarasota condo vacancy:** 16.5% (25-year high)
+- **Miami days-to-contract:** 71 days (up from pandemic lows)
 
 ---
 
-*KB refs → 121–132 | Parent → `../EXPOSURE_MAP.md` | Thesis → `../../THESIS.md`*
+## Source Files
+
+Raw LLM outputs (4 parallel runs) preserved in `../raw/llm_outputs/`:
+- `FL_PARADOX_claude_deep_research.md` — best bear analysis, found Biscayne 21 + FinCEN
+- `FL_PARADOX_gemini_deep_research.docx` — best bull defense
+- `FL_PARADOX_chatgpt_response.md` — weakest, no OZK-specific data
+- `FL_PARADOX_perplexity_response.md` — sharpest framing, concentration duality
+
+Research prompt preserved in git history (see `archive/` or Phase 3 commit for original `FL_PARADOX/PROMPT.md`).
+
+---
+
+*KB → `../workbook/KB.tsv` (110, 120-132) | Parent geography → `EXPOSURE_MAP.md` | Thesis → `../THESIS.md`*

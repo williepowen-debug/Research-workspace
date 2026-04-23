@@ -12,7 +12,7 @@ The geographic research is the most complete view of OZK's loan book available o
 - REGULATORY_DISTRICTS.md — ✅ PDNA/NCO gap analysis, district benchmarks, extend-and-pretend matrix
 
 **Completed files (new):**
-- FL_PARADOX/ — ✅ COMPLETE. 4-model synthesis, 12 KB rows (121-132). FL book confirmed as strongest segment. Biscayne 21 ($105M) only named exception.
+- FL_PARADOX.md — ✅ COMPLETE. 4-model synthesis, 12 KB rows (121-132). FL book confirmed as strongest segment. Biscayne 21 ($105M) only named exception.
 
 **Pending files:**
 - MARKET_CONDITIONS.md — vacancy rates, cap rates, distressed sales by metro (not yet drafted)

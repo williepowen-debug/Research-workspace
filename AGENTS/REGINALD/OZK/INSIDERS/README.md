@@ -57,4 +57,4 @@ The following files contain insider work that should be consolidated here:
 
 ---
 
-*Thesis → `../THESIS.md` | KB → `../workbook/KB.tsv` | Market → `../MARKET/`*
+*Thesis → `../THESIS.md` | KB → `../workbook/KB.tsv`*

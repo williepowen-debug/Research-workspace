@@ -62,4 +62,4 @@ FDIC district-level benchmarks and the extend-and-pretend gap analysis:
 
 ---
 
-*Thesis → `../THESIS.md` | KB → `../workbook/KB.tsv` | Market → `../MARKET/`*
+*Thesis → `../THESIS.md` | KB → `../workbook/KB.tsv` | FL stress-test → `FL_PARADOX.md`*
