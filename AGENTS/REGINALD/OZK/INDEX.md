@@ -1,7 +1,7 @@
 # OZK — Agent Index
 **Start here on cold boot.**
 
-**Last updated:** 2026-04-22 (post-Q1 26 print integration + file-tree cleanup)
+**Last updated:** 2026-04-23 (Phase 1-3 restructure — see footer)
 
 **State snapshot:**
 - **Q1 2026 earnings ✅ RESOLVED Apr 21** — past-due doubled QoQ ($207M → $465M), 3 new substandard credits, 2 new foreclosed assets, NCO 0.57% in-line. Slow-grind thesis confirmed. → `Q1_2026_ANALYSIS.md`
@@ -51,7 +51,7 @@
 | `THESIS.md` | Master bear case (synthesis + pointers pattern) |
 | `CHANGELOG.md` | Thesis audit trail — v1.1 current, v1.0 pinned |
 | `Q1_2026_ANALYSIS.md` | Most recent earnings synthesis (Apr 21 actuals) |
-| `TODO.md` | Research backlog |
+| `TODO.md` | Cross-session planning doc (Will-owned) |
 | `workbook/KB.tsv` | 185-row evidence database |
 | `workbook/KB_INDEX.md` | KB cluster navigator |
 
@@ -115,11 +115,15 @@
 | File | Why |
 |------|-----|
 | `archive/EARNINGS_PREP_Q1_2026.md` | Pre-Q1 26 earnings prep (474 lines). Q1 resolved Apr 21 — superseded by `Q1_2026_ANALYSIS.md`. |
-| `archive/AUDIT_REPORT.md`, `archive/AUDIT_REPORT_MAR23.md` | Old audits — superseded by CHANGELOG |
+| `archive/AUDIT_REPORT.md`, `archive/AUDIT_REPORT_MAR23.md`, `archive/AUDIT_MAR25.md` | Old audits — superseded by CHANGELOG |
 | `archive/GAP_CLOSURE_PLAN.md`, `archive/GAP_ANALYSIS_REPORT.md` | Pre-Q1 gap work complete |
 | `archive/STRUCTURE_AUDIT.md`, `archive/RESTRUCTURE_REVIEW.md` | KB migration complete |
 | `archive/OZK_THESIS_FEB25.md` | Feb 25 thesis snapshot (pre-v1.0 baseline) |
 | `archive/EVIDENCE.md` | Legacy evidence doc |
+| `archive/TEMPLE8_SHORT_THESIS_MAR2026.md` | External short thesis (not our analysis) — archived Phase 1 |
+| `archive/INSTITUTIONAL_OWNERSHIP_PLAN.md` | FDIC EFR + KB-142-146 work integrated — archived Phase 1 |
+| `archive/EXTERNAL_PROMPTS.md` | Q1 prompts resolved — archived Phase 1 |
+| `archive/MARKET/` | Mar 24 charts + abandoned trade log, superseded by darkpool/short_vol tools — archived Phase 3 |
 
 ### Workbook
 | File | Content |
@@ -146,4 +150,12 @@
 
 ---
 
-*This file is the entry point. If you're an agent spawning cold, read this first, then follow the boot sequence. Last tree-hygiene pass: 2026-04-22 — moved EARNINGS_PREP → archive/, moved Apr 22 threads → research/threads/.*
+*This file is the entry point. If you're an agent spawning cold, read this first, then follow the boot sequence.*
+
+**Last tree-hygiene pass: 2026-04-23 (Phase 1-3 restructure).**
+- **Phase 1** — 4 top-level orphans → `archive/` (AUDIT_MAR25, TEMPLE8, INSTITUTIONAL_OWNERSHIP_PLAN, EXTERNAL_PROMPTS). 15 → 11 top-level .md files.
+- **Phase 2** — `sources/` prune: 50+ files → 10 primary-source extracts. Raw LLM outputs (30 files) → `raw/llm_outputs/`. Raw OZK PDFs renamed to snake_case in `raw/`. 15 superseded V1-V3 drafts deleted (~2,700 lines). Earnings call transcript → `raw/Q1_2026_earnings_call_transcript.md`.
+- **Phase 3** — Subdomain cleanup: `MARKET/` → `archive/MARKET/` (abandoned Mar 24). `GEOGRAPHY/FL_PARADOX/` sub-sub flattened to single `GEOGRAPHY/FL_PARADOX.md`. 5 → 4 subdomains.
+- **Storage tier contract:** `sources/` = primary-source extracts (FDIC/FFIEC/10-K). `raw/` = unedited PDFs + transcripts. `raw/llm_outputs/` = LLM research provenance. `historical/` = quarterly Mgmt Comments extracts for trajectory. `archive/` = completed/dead work — never read at boot.
+
+Earlier passes: 2026-04-22 — moved EARNINGS_PREP → archive/, moved Apr 22 threads → research/threads/.*
