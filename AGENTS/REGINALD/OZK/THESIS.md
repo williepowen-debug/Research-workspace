@@ -1,6 +1,6 @@
 # OZK — Full Bear Case
 
-**Version:** v1.2 (2026-04-23) — INVALIDATION section added per self-audit; WEAKNESSES C5 corrected | **Changelog:** `CHANGELOG.md`
+**Version:** v1.3 (2026-04-23) — Q1 NCO deceleration engaged; two unverified claims removed | **Changelog:** `CHANGELOG.md`
 
 ## THE RESERVOIR THESIS
 
@@ -79,6 +79,8 @@ OZK executed 590 RESG modifications over 14 quarters on ~300 loans — the avera
 
 Under-provisioned ~35-40% vs peers while running charge-offs at 3x the norm. The thesis is trajectory, not snapshot.
 
+**Q1 26 NCO context (the bull pushback).** Q1 26 NCO annualized at **0.57%** — in-line with management's ~50bps FY26 guide and materially below FY25's 1.18%. Read alone, this could suggest 2025 was a one-time catch-up. But recognition through this cycle has been lumpy: quiet quarters (Q1 25 25bp, Q2 25 10bp, Q3 25 41bp) punctuated by pulse charge-offs (Q4 25 118bp driven by a single $72M Boston Office write-down). The three migration-velocity metrics — especially past-due doubling to $465M — sit in the *leading-indicator* layer before charge-offs convert. Thesis requires Q2-Q3 26 to show that conversion; if FY 26 NCO tracks ≤55bps through Q3, the reservoir framing is damaged. Explicit kill criterion — see "What Would Invalidate" §2.
+
 ---
 
 ## CRE CONCENTRATION
@@ -117,12 +119,12 @@ OZK has the **worst absolute Memo Item 3 ratio** in the screen [KB-OZK-020] — 
 
 ## 2022 VINTAGE MATURITY WALL
 
-- **$3.7B in loans maturing in 2026** [KB-OZK-074], heavily concentrated in life sciences ($1.5B) [KB-OZK-077] and office. Original 2022 origination: Q1 $3.14B, Q2 $3.53B, Q3 $4.35B, Q4 $2.81B = ~$13.8B total [KB-OZK-061 ⚠️ UNVERIFIED from primary data]
-- **Q1 2026 is front-loaded** — management explicitly guided "elevated payoff velocity" and "a lot of payoffs" in Q1 [KB-OZK-075]. April 16 earnings will capture this.
+- **$3.7B in loans maturing in 2026** [KB-OZK-074], heavily concentrated in life sciences ($1.5B) [KB-OZK-077] and office. (Prior load-bearing claim of ~$13.8B total 2022 originations with quarterly breakdown [KB-OZK-061] REMOVED 2026-04-23 — unverified from primary data.)
+- **Q1 2026 was front-loaded** — management guided "elevated payoff velocity" and "a lot of payoffs" in Q1 [KB-OZK-075]. Q1 26 print (Apr 21 ✅) confirmed record RESG repayment tempo continuing, with past-due doubling QoQ as the offset signal (see Migration Velocity section).
 - Bridge-to-Mini-Perm structure: 3yr initial + two 1yr extension options. 541 modifications since 2022 with $1.3B sponsor equity injections [KB-OZK-076]. Extensions convert cliff → slope, BUT extensions that fail performance hurdles = forced nonaccrual recognition.
 - **Adverse selection:** FY2025 RESG repayments: $7.24B (record, +19% YoY). Q4 alone: $3.0B record [KB-OZK-082]. Healthy loans already left. What remains at maturity is what couldn't refi [KB-OZK-078].
 - **Extension fatigue:** **590 mods** over 14 quarters on ~300 credits = average loan modified ~2x [KB-OZK-101]. Sterling Bay/Lincoln Yards modified SIX TIMES before $20.8M write-down. "You pay, you stay" extracted $2.6B from sponsors ($1.3B equity + $866M reserves + $429M principal) [KB-OZK-084] — but sponsor willingness has limits. **59% of formally classified modifications re-defaulted** [KB-OZK-097]. Management's "no concessions" claim contradicted by 261bps rate cut on $66.1M loan [KB-OZK-098].
-- DBRS: 2021-2022 vintages are 63% of CCC-C borrower pool; avg time to default 3.4 years = right now [KB-OZK-062 ⚠️ UNSOURCED]
+- **Time-to-default mechanics:** 3-year bridge + 2×1-year extensions = 5-year max life for 2021-2022 vintages. Default window arithmetically = 2025-2027, peaking 2026. (Prior DBRS "3.4 years average to default" citation [KB-OZK-062] REMOVED 2026-04-23 — unsourced.)
 
 ---
 

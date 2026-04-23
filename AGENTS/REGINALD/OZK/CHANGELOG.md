@@ -15,6 +15,52 @@ A new entry must describe:
 
 ---
 
+## v1.3 — 2026-04-23 (audit-driven: Q1 NCO engaged, unverified claims removed, SCENARIOS reweighted)
+
+### Summary
+Completes self-audit punch list started in v1.2. (a) Engages Q1 26 NCO deceleration as a bull data point in THESIS.md ACL Thinning section, explicitly connecting it to "What Would Invalidate" §2. (b) Removes two unverified claims (KB-OZK-061 $13.8B quarterly origination breakdown, KB-OZK-062 DBRS 3.4-year time-to-default) from load-bearing prose. (c) Reweights SCENARIOS.md probabilities post-Q1 for the first time since Mar 23.
+
+### Changes
+
+**1. THESIS.md — Q1 26 NCO deceleration paragraph added** *(BULL-CASE ENGAGEMENT, no thesis direction change)*
+
+- **What:** New paragraph inserted at end of ACL Thinning section. Acknowledges Q1 26 NCO annualized at 0.57% (in-line with ~50bps FY guide; below FY25's 1.18%) and explains why this doesn't break the thesis — recognition has been lumpy (quiet-quiet-quiet-pulse pattern Q1/Q2/Q3/Q4 25), and past-due metrics sit in the leading-indicator layer before charge-off conversion.
+- **Why:** Self-audit (v1.2) flagged this as a soft spot — the thesis claimed Q4 25 was peak stress while Q1 26 actually came in materially lower. Bull-case pushback wasn't engaged.
+- **Explicit kill criterion:** If FY 26 NCO tracks ≤55bps through Q3, reservoir framing is damaged — this is now a named invalidation trigger (see "What Would Invalidate" §2).
+- **Position implication:** Unchanged. Past-due doubling is the leading indicator; NCO conversion by Q2-Q3 is the explicit test.
+
+**2. THESIS.md — Two unverified claims removed from load-bearing prose** *(EVIDENCE DISCIPLINE)*
+
+- **KB-OZK-061 removed** — Prior: "Original 2022 origination: Q1 $3.14B, Q2 $3.53B, Q3 $4.35B, Q4 $2.81B = ~$13.8B total [⚠️ UNVERIFIED]". Now: removed; replaced with parenthetical noting the removal. $3.7B 2026-maturing balance [KB-OZK-074, verified] and $1.5B life-sci concentration [KB-OZK-077, verified] retained — both independently primary-sourced.
+- **KB-OZK-062 removed** — Prior: "DBRS: 2021-2022 vintages are 63% of CCC-C borrower pool; avg time to default 3.4 years [⚠️ UNSOURCED]". Now: replaced with arithmetic-only framing (3-year bridge + 2×1-year extension = default window 2025-2027 peaking 2026). No external citation needed; math is primary.
+- **Why:** Self-audit flagged both as ⚠️ load-bearing but unsourced. Per LESSONS.md ("agent research is a starting point, not ground truth"), removing rather than preserving unverified claims in load-bearing language.
+- **Position implication:** None — neither claim was decisive; thesis mechanics unchanged.
+
+**3. SCENARIOS.md — Post-Q1 probability reweight** *(FIRST REWEIGHT SINCE MAR 23)*
+
+- **Old weights (Mar 23-Apr 7):** Bear 50% / Base 30% / Bull 15% / Tail 5% → EV $37.45
+- **New weights (Apr 23):** Bear 55% / Base 30% / Bull 12% / Tail 3% → EV $38.97
+- **Bear +5pp:** Q1 past-due doubling ($207M → $465M) confirms migration-velocity thesis at leading-indicator layer. 3 new substandard + 2 new foreclosed direct data support.
+- **Bull −3pp:** IQHQ Aug 2026 correction (from 2028) raises Wave 3 probability; Aimco fraud suit chills 4th rescue round; OZK pulling BACK from Fund Finance (Jake Munn Q1 call) removes a bull-path mechanism.
+- **Tail −2pp:** CET1 11.64%, liquidity $16.9B, accretive buybacks, TBV +11% YoY — capital buffer demonstrated, rating/deposit-flight tail less likely.
+- **Base unchanged:** slow-grind outcome remains single most plausible path.
+- **Implied market overvaluation:** 24% → 22%. Thesis edge compressed modestly — accurate, not a problem.
+- **April 16 Decision Framework:** RETRACTED (Q1 resolved Apr 21, framework obsolete). Replaced with "Post-Q1 Decision Gates" mapped to invalidation criteria from THESIS.md v1.2.
+- **Put EV section:** Flagged as pre-Q1 premium basis; pointer added to THREAD3_ROLL_MATH.md for current roll economics.
+- **Position implication:** Unchanged. EV framework still strongly favors the short at reweighted probabilities.
+
+### What did NOT change
+- Three-wave catalyst structure
+- Migration velocity framework (KB-OZK-185)
+- ACL thinning mechanics (1.26% ACL, 1.6× coverage, 8.86× → 1.39× collapse)
+- Extend-and-pretend (590 mods / 98% gap / 59% re-default / 261bps rate cut)
+- CRE concentration + Memo Item 3 (37.6%)
+- IQHQ weighted EL ($140M = 22% of ACL)
+- All 5 invalidation criteria (added v1.2)
+- KB.tsv row count (185, no additions — one removal is in-prose only; KB rows stay in registry)
+
+---
+
 ## v1.2 — 2026-04-23 (audit-driven: invalidation section + WEAKNESSES C5 correction)
 
 ### Summary
