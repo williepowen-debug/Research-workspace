@@ -42,7 +42,7 @@
 
 ## Session Notes
 
-⚠️ **Open question:** Thread 3 roll execution status still unresolved. MassLandRecords browser-pull ask RESOLVED Apr 23 PM — see below.
+⚠️ **Open question (for tomorrow AM when market opens):** Tier C position decisions deferred by Will on 2026-04-23 PM. **Strategic lean has shifted from ROLL to CLOSE-ON-BOUNCE** per Will's note: *"I do believe that I will get at least one more opportunity to sell them without significant loss between now and May."* Applies to both (a) May $42.5P × 2 (Thread 3 — was queued for roll to Jan27) and (b) May $47.5P × 2 (had no prior roll plan; now also candidate for close-on-bounce). Tomorrow's task: check open tape, identify exit window, decide close vs hold-to-expiry-watch. If bounce fails to materialize through May 8, roll becomes default backup. THREAD3_ROLL_MATH.md remains reference material — not current recommendation.
 
 ### CHANGES SINCE LAST SESSION
 *(populated at next boot via market.py)*
