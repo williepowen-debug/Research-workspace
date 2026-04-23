@@ -9,19 +9,33 @@
 
 ## HIGH PRIORITY — material thesis impact
 
-### 1. Boston Life Sci $169M sponsor disambiguation
+### 1. Boston Life Sci $169M sponsor disambiguation — ⚠️ UNRESOLVED, browser-pull needed
 **Why:** Single largest unresolved Q1 26 OZK problem credit. One credit = 27% of OZK's total $628M ACL. Sponsor ID changes recovery math materially.
-**Status:** Narrowed to 2 candidates in `SEVEN_CREDIT_DEEP_DIVE.md` §2 #5:
-- **10 Prospect Street, Union Square Somerville** — sponsor US2 (Magellan + Cathartes + RAS Development), orig $119M Feb 2021, 194K SF spec lab
-- **808 Windsor / Boynton Yards Somerville** — sponsor Leggat McCall + DLJ Real Estate + Deutsche Finance America, orig $246M Dec 2021, 370K SF 96% vacant
 
-**Where to look:**
-- Middlesex County ROD mortgage assignments filed post-Q4 2025 (MassLandRecords.com)
-- OZK 10-Q (~May 5) — MD&A footnotes may disclose
-- Q2 26 earnings call July — Citi/Piper/Stephens have pressed repeatedly
+**Session 2 Phase 1 (2026-04-23 PM) outcome:** General-purpose spawn established that MassLandRecords.com requires interactive browser session — WebFetch blocked. Spawn also flagged **native maturity mismatch on BOTH candidates** (neither A's Feb 2021 + 5yr = Feb 2026 nor B's Dec 2021 + 5yr = Dec 2026 cleanly matches OZK's disclosed Dec 18 2025 maturity). Baseline downgraded from "HIGH confidence Candidate B" to UNRESOLVED. See SEVEN_CREDIT §2 #5.
 
-**Estimate:** 1 hour
-**Output:** Update SEVEN_CREDIT_DEEP_DIVE.md #5 with confirmed sponsor; new KB row; signal to CREED
+**Sponsor correction (independent of ID question):** 10 Prospect JV = Magellan + RAS + Cypress Equity + USAA/Affinius. Cathartes was incorrectly listed in prior files. See KB-OZK-194.
+
+**Candidates on the table:**
+- **10 Prospect Street, Union Square Somerville** — Magellan + RAS + Cypress + Affinius. Orig $119M Feb 2021. Balance math: accretion to $169M requires ~42% growth via interest reserves + extension fees (tight but possible if loan was upsized mid-construction).
+- **808 Windsor / Boynton Yards Somerville** — Leggat McCall + DLJ + Deutsche Finance America. Orig $246M Dec 2021. Balance math: "good news funding" curtailment from $246M commitment → $169M drawn (natural read for unleased construction loan).
+- **Candidate C (residual):** unpublicized OZK Boston life sci loan.
+
+**🆕 Ask for Will — MassLandRecords browser pull:**
+Steps (per spawn recommendation):
+1. https://www.masslandrecords.com/MiddlesexSouth/
+2. Select town "SOMERVILLE" + document type "MORTGAGE" + date range 01/01/2021 – today + business name variations: "BANK OZK", "BANKOZK", "BANK OF THE OZARKS", "OZK BANK"
+3. Also search by property: 10 Prospect Street Somerville, 808 Windsor Street Somerville
+4. Look for: (a) original mortgage (Feb 2021 or Dec 2021 match), (b) any assignment / modification / extension filing, (c) **any post-Dec 18 2025 notice of default, foreclosure initiation, or assignment** — this last is dispositive
+5. Screenshots of book/page numbers for any matches
+6. Alternative source: masscourts.org → civil case search → plaintiff "Bank OZK" for filed workout litigation
+
+**Fallbacks (if browser pull not possible):**
+- OZK 10-Q (~May 5) — MD&A may disclose
+- Q2 26 earnings call (late Jul) — Citi/Piper/Stephens have pressed repeatedly
+
+**Estimate:** 30 min if browser pull succeeds; else await May 10-Q or July Q2 call.
+**Output:** Update SEVEN_CREDIT_DEEP_DIVE.md #5 with confirmed sponsor; new KB row; signal to CREED.
 
 ---
 
@@ -97,8 +111,8 @@
 
 ## LOWER PRIORITY — housekeeping
 
-### 7. "The Jack" vs Pioneer Square verification ($25.9M)
-MEDIUM confidence ID in SEVEN_CREDIT_DEEP_DIVE.md #3. King County records check for OZK mortgage on Seattle Pioneer Sq office. 20-30 min. Low dollar impact.
+### 7. "The Jack" vs Pioneer Square verification ($25.9M) — ✅ RESOLVED Apr 23 PM
+HIGH confidence: **74 S Jackson St, Urban Visions sponsor, 145K SF class A office, delivered 2023, 100% vacant.** OZK took out Mack Real Estate Credit Strategies' original $90M construction loan (Feb 2022, JLL-arranged). OZK commitment $72.5M. Math reconciles exactly ($56.2M Q4 24 − $27.7M Q1 charge-off − $2.6M sponsor paydown = $25.9M). Bisnow Sep 2025 direct naming + SEVEN_CREDIT §2 #3 updated + KB-OZK-193.
 
 ### 8. Severity comp refresh (stale-by 2026-07-31)
 KB-OZK-177 severity bands need Q2 26 distressed CRE transaction refresh. Quarterly cadence. Schedule for late July.
