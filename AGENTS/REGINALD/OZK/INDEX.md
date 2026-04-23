@@ -63,9 +63,6 @@
 | `THREAD3_ROLL_MATH.md` | Options roll execution — live recommendation |
 | `WEAKNESSES.md` | Stress-testing the thesis (bull case steelman) |
 | `SCENARIOS.md` | Probability-weighted outcomes (⚠️ may be superseded by IQHQ_PLAYBOOK §3) |
-| `TEMPLE8_SHORT_THESIS_MAR2026.md` | External short thesis for comparison |
-| `EXTERNAL_PROMPTS.md` | External-LLM research prompts (9 done, 7 remaining) |
-| `INSTITUTIONAL_OWNERSHIP_PLAN.md` | Ownership-quality research plan |
 
 ### Research — rebuttals (bull case pressure-test)
 | File | Topic |
