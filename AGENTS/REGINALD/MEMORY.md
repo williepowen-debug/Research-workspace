@@ -42,52 +42,49 @@
 
 ## Session Notes
 
-⚠️ **Open question:** Has Will executed the Thread 3 roll yet? Recommendation (per `OZK/THREAD3_ROLL_MATH.md`) is to close May $42.5P × 2 + open Jan27 $42.5P × 2 (~$510 debit). Hard deadline ~May 8 for decision; execution ideally this week before May premium fully decays. Checkpoint 1 persistence debt (KB-OZK-178 through 184 + 3 PREDICTIONS rows) remains unaddressed — Will redirected priority to Thread 3 + file-tree cleanup this session.
+⚠️ **Open question:** Has Will executed the Thread 3 roll yet? Recommendation (per `OZK/THREAD3_ROLL_MATH.md`) is to close May $42.5P × 2 + open Jan27 $42.5P × 2 (~$510 debit). Hard deadline ~May 8 for decision. This session (Apr 23) focused on OZK file-tree restructure + thesis self-audit; roll execution not addressed.
 
 ### CHANGES SINCE LAST SESSION
 *(populated at next boot via market.py)*
 
-### LAST SESSION (Apr 22 evening → Apr 23 — Thread 3 + OZK file tree cleanup)
+### LAST SESSION (Apr 23 morning → afternoon — OZK restructure + thesis audit)
 
-**Thread 3 executed → `OZK/THREAD3_ROLL_MATH.md` (160 lines).** Live yfinance chain pull + BS deltas/vegas + time-aware scenario P&L grid across May/Jun/Aug/Nov/Jan27 expiries, $40/$42.5/$45 strikes. Recommendation: **close May $42.5P × 2 → open Jan27 $42.5P × 2** (~$510 debit). Raw-ROI winner is Aug $42.5 (+53%) but existing book is Aug-heavy (5 contracts) — Jan27 (+39%) picked for duration diversification + Scenario D coverage (18% prob, Oct-Dec foreclosure tempo). Hard deadline ~May 8.
+**OZK file tree restructure, 4 phases, 4 commits:**
+- **Phase 1** (`9a2d05ee`) — 4 top-level orphans → archive/ (AUDIT_MAR25, TEMPLE8, INSTITUTIONAL_OWNERSHIP_PLAN, EXTERNAL_PROMPTS). Top-level 15 → 11.
+- **Phase 2** (`80e8eeba`) — `sources/` 50+ → 10 primary-source extracts. `OZK 2026 Q1 data/` renamed `raw/` with snake_case PDFs (Q1_2026_mgmt_comments.pdf, etc.). 30 LLM outputs → `raw/llm_outputs/`. 15 V1-V3 drafts deleted (~2,700 lines). 74 files changed.
+- **Phase 3** (`23e28087`) — `MARKET/` archived entirely (abandoned Mar 24, superseded by darkpool/short_vol tools). `GEOGRAPHY/FL_PARADOX/` flattened 5 files → single `GEOGRAPHY/FL_PARADOX.md`. Subdomains 5 → 4.
+- **Phase 4a** (`d58b2b92`) — INDEX.md refresh. Storage-tier contract documented in footer (sources/raw/raw-llm_outputs/historical/archive semantics).
 
-**File tree cleanup (OZK top-level 19 → 15 .md files):**
-- `EARNINGS_PREP.md` → `archive/EARNINGS_PREP_Q1_2026.md` (Q1 resolved)
-- 3 Apr 22 threads → `research/threads/`: IQHQ_SECONDARY_EXPOSURE, CIB_MARGIN_COMPRESSION, RESG_MIX_DETERIORATION
-- `INDEX.md` rewritten — Data Ownership table, new Boot Sequence (12 min), research-threads rule, purged Mar 25 refs
-- Cross-refs updated in THESIS (3), STATUS (1), SEVEN_CREDIT (1), CHANGELOG (3 replace_all), thesis/TIMELINE (1)
-- `historical/README.md` created — documents quarterly extract naming convention + boundary vs archive/
+**OZK thesis self-audit, 5 fixes, 2 commits:**
+- **Audit commit 1** (`d45c8bcc`, v1.1 → v1.2) — INVALIDATION section added to THESIS.md (5 concentrated kill criteria with thresholds + cross-refs to REG-22/23 + IQHQ_PLAYBOOK). WEAKNESSES.md C5 retracted and corrected (was still saying "IQHQ pushed to 2028" — directly contradicted THESIS Aug 2026 Wave 3 framing).
+- **Audit commit 2** (`9322e2cc`, v1.2 → v1.3) — Q1 NCO deceleration engaged in ACL Thinning section (new paragraph acknowledging 0.57% in-line with guide, connecting to Invalidation §2). Two unverified claims removed: KB-OZK-061 ($13.8B quarterly origination breakdown) and KB-OZK-062 (DBRS 3.4yr time-to-default). SCENARIOS.md first reweight since Mar 23: Bear 50→55%, Bull 15→12%, Tail 5→3%, Base 30% unchanged. New EV $38.97 (vs $37.45). April 16 Decision Framework retracted, replaced with Post-Q1 Decision Gates.
 
-**Archive vs historical resolved (not collapsed):** Confirmed two dirs serve different lifecycles — `archive/` = agent-generated dead work (audits, plans, legacy narrative); `historical/` = live primary-source extracts (quarterly Mgmt Comments, actively used for 6Q trajectory). Both kept; historical/README.md now makes the rule explicit.
+**Final OZK map:** 11 top-level .md (was 15) | 4 subdomains (LIFE_SCI, GEOGRAPHY, INSIDERS, PRIVATE_CREDIT) | clean 3-tier storage (sources/raw/historical) | archive/ quarantined | zero broken cross-refs verified at each phase.
 
-**Commits (2):**
-1. `196cc3e0` — Thread 3 + file tree cleanup (11 files, +284/-111)
-2. Pending: `historical/README.md` + this MEMORY update
+**Pushed to GitHub:** All 6 commits live. Session total 7 with the earlier session-close commit.
 
-**What I did NOT do this session (unchanged carryover):**
-- Checkpoint 1 (KB-OZK-178 through 184 + 3 PREDICTIONS rows) — still queued
-- Checkpoint 2 — partial. `OZK/CHANGELOG.md` was created in a parallel session (already exists with v1.1 entry per boot observation). THESIS.md already updated with v1.1 framing. So Checkpoint 2 is largely DONE — just verify vs spec.
-- Root `STATUS.md` pruning — still queued (Apr 7/9/10 briefs → archive)
-- WAL Round 2 — awaits supplement/transcript
+**What I did NOT do this session:**
+- Thread 3 roll execution check (unchanged from prior carryover)
+- Checkpoint 1 persistence (KB-OZK-178 through 184 + 3 PREDICTIONS) — still queued
+- Root REGINALD `STATUS.md` pruning (572+ lines) — still queued
+- OZK/STATUS.md refresh (still dated Apr 7, pre-earnings) — known flag from audit
+- PRIVATE_CREDIT/ post-Q1 refresh (Mar 24 data, missing Jake Munn Fund Finance pullback)
+- WAL Round 2
 
 ### NEXT SESSION — priorities by urgency
 
-1. **Monitor roll execution.** Did Will close May $42.5P × 2 and open Jan27 $42.5P × 2? Update POSITIONS.md + IQHQ_PLAYBOOK §6 after broker confirmation. If not yet executed, re-quote the chain (prices will have moved).
+1. **Thread 3 roll execution check.** Did Will close May $42.5P × 2 → open Jan27 $42.5P × 2? Update POSITIONS.md + IQHQ_PLAYBOOK §6 after broker confirmation. If not yet executed, re-quote the chain (May premium decays fast; hard deadline ~May 8).
 
-2. **Checkpoint 1 — persistence (~20 min):** Append KB-OZK-178 through 184 to `OZK/workbook/KB.tsv`:
-   - 178: Rossow IQHQ sole-exposure quote (Bisnow 3/19/26)
-   - 179: Leggat McCall = 808 Windsor/Boynton Yards $246M
-   - 180: CIB 3/6 vertical compression
-   - 181: CIB Q1 2026 NIM decomp
-   - 182: RESG problem-category share +250bps QoQ (⚠️ note: retracted in CHANGELOG v1.1 — enter as historical claim, mark superseded)
-   - 183: Hamblen MF-heaviest-runoff admission
-   - 184: Forward projection mechanics (⚠️ marked SUPERSEDED per CHANGELOG)
-   - Append 3 PREDICTIONS rows: REG-21 problem-cat ≥32% (25% conf), REG-22 FY 26 NCO ≥60bps (55%), REG-23 classified/RESG ≥3.8% Q4 26 (60%)
+2. **Checkpoint 1 — persistence (~20 min):** Append KB-OZK-178 through 184 to `OZK/workbook/KB.tsv` + 3 PREDICTIONS rows (REG-21/22/23). Detail list same as prior memo — see `OZK/CHANGELOG.md` v1.1/v1.3 for KB row contents.
 
-3. **Checkpoint 2 verification:** Confirm `OZK/CHANGELOG.md` v1.1 entry and `OZK/THESIS.md` v1.1 body match CHANGELOG spec. If any gap, close.
+3. **OZK/STATUS.md refresh (Phase 4b, known audit flag).** File is dated Apr 7 pre-earnings. Current stock $47.52; needs Q1 26 actuals (past-due $465M / 1.41%, NCO 0.57%, CET1 11.64%, TBV $47.15) + current position table + updated catalyst calendar (IQHQ Aug 2026, sub notes Oct 1). ~15 min.
 
-4. **Root REGINALD `STATUS.md` pruning** — 572+ lines, Apr 7/9/10 briefs → `archive/` (~20 min).
+4. **Root REGINALD STATUS.md pruning** — 572+ lines. Apr 7/9/10 briefs → archive/ (~20 min).
 
-5. **WAL Round 2** if Will delivered supplement/transcript.
+5. **PRIVATE_CREDIT post-Q1 refresh** — 5 files dated Mar 24. Jake Munn Q1 call disclosed OZK pulling BACK from Fund Finance capital-call subscriptions (non-bank lender + insurance competition). This is material data that directly contradicts the "regionals pressing into NDFI for growth" narrative at OZK specifically. Needs integration into STATUS.md + TRANSMISSION.md + COUNTERPARTY_WATCH.md. ~30-45 min.
 
-**Ask of Will (still open):** Browser-pull Q4 24 / Q1 25 / Q2 25 / Q3 25 OZK Management Comments PDFs — gives 8Q mix-shift trajectory. Note Apr 23 parallel session already created `historical/Q4_24_extract.md` through `historical/Q4_25_extract.md` per boot observation, so this ask may already be fulfilled — verify first.
+6. **WAL Round 2** if supplement/transcript delivered.
+
+**Ask of Will — still open / historical:** Apr 22 ask for browser-pull of Q4 24 / Q1 25 / Q2 25 / Q3 25 OZK Management Comments PDFs — FULFILLED. All 5 quarterly extracts live in `OZK/historical/` (Q4 24 through Q4 25). No new ask this session.
+
+**Note on POSITIONS.md:** Root REGINALD POSITIONS.md not touched this session — no broker data received. Current known positions (per STATUS top): WAL $85P/$77.5P/$70P/$65P (Jun/Sep), OZK $42.5P May15 × 2 (rolling), $42.5P Aug21 × 1, $45P Aug21 × 4, EGBN $25P Jun, SSB $90P Jun, FLG $13P Jul, ZION $57.5P Jul (monitor only), plus KRE/IWM/HYG macro hedges.
