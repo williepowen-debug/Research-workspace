@@ -1,37 +1,36 @@
 # OZK — Sources
 
-Raw inputs from external research, primary filings, and multi-LLM research runs. This is the evidence locker — nothing here should be edited after creation.
+Primary-source extracts only. This is the evidence locker for data pulled directly from regulatory filings, FDIC/FFIEC APIs, and official OZK 10-K/10-Q text.
+
+**Raw LLM research outputs live in `../raw/llm_outputs/`** (moved Apr 23 restructure Phase 2). **Raw PDFs live in `../raw/`.**
 
 ---
 
-## File Instructions
+## What belongs here
 
-**What belongs here:**
-- Primary data extracts (FDIC API, FFIEC Call Reports, 10-K sections)
-- Multi-LLM research outputs (V1–V4 pattern: same prompt run through 4 models)
-- External thesis documents (Temple 8, etc.)
-- Raw CSV/data pulls
+- 10-K / 10-Q section extracts (e.g. `10K_Q4_2025_EXTRACT.md`)
+- FDIC API pulls (`FDIC_API_CALL_REPORT_DATA.md`)
+- FDIC Quarterly Banking Profile extracts (`FDIC_QBP_Q4_2025.md`, `FDIC_QBP_Q4_GEOGRAPHIC_ANALYSIS.md`)
+- FFIEC Call Report raw CSVs (`FFIEC_CALL_REPORT_Q4_2025_RAW.csv`, `FFIEC_RC-R_Q4_2025.csv`)
+- Broker / position snapshots (`FORGE_TRADE_STATUS.md`)
+- Insider filing scans (`INSIDER_SCAN_OZK.md`)
 
-**Naming convention:**
-- Primary data: `[SOURCE]_[DESCRIPTION].md` (e.g. `FDIC_API_CALL_REPORT_DATA.md`)
-- Multi-LLM runs: `OZK_[TOPIC]_V[1-4].md` (e.g. `OZK_GFC_TRACK_RECORD_V3.md`)
-- External research: `[AUTHOR/PLATFORM]_[TOPIC].md`
+## What does NOT belong here
 
-**Rules:**
-- **Never edit source files after creation.** They're the record of what we received. If a source is wrong, note the correction in KB.tsv or THESIS.md — don't alter the original.
-- **V1–V4 files** are the same prompt sent to four different LLMs. Cross-model convergence = high confidence. Unique findings from one model = flag for verification.
-- **.docx files** exist because some LLM outputs came in that format. Keep as-is.
+- Raw LLM research outputs → `../raw/llm_outputs/`
+- Raw OZK PDFs (Mgmt Comments, Financial Supplement, transcript) → `../raw/`
+- Quarterly Mgmt Comments extracts for multi-quarter trajectory analysis → `../historical/`
+- Dead audit/restructure artifacts → `../archive/`
 
-**Relationship to KB.tsv:** Key facts get extracted from sources into KB.tsv as individual rows with `[KB-OZK-NNN]` IDs and source citations pointing back here. Sources are the raw material; KB is the refined product.
+## Rules
 
----
+- **Never edit source files after creation.** They're the record of what we received.
+- If a source is wrong or superseded, note the correction in `../workbook/KB.tsv` — don't alter the original.
 
-## Source Categories
+## Relationship to KB
 
-**Primary filings:** 10K extract, FDIC API data, FFIEC Call Report (CSV), RC-R capital data, QBP geographic analysis
-**Multi-LLM research:** NDFI deep research (4 models), GFC track record (4 models), construction maturity (3 models), interest reserve model (4 models)
-**External:** Temple 8 short thesis, IQHQ RaDD research, insider scan, FORGE trade status
+Key facts get extracted into `../workbook/KB.tsv` as individual rows with `[KB-OZK-NNN]` IDs and citations pointing back here. Sources are the raw material; KB is the refined product.
 
 ---
 
-*KB → `../workbook/KB.tsv` | Research (our analysis) → `../research/` | Thesis → `../THESIS.md`*
+*KB → `../workbook/KB.tsv` | Analysis → `../research/` | Thesis → `../THESIS.md` | Raw LLM outputs → `../raw/llm_outputs/` | Raw PDFs → `../raw/`*

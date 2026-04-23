@@ -122,5 +122,5 @@ Blue Owl is the critical one: it's an **exit counterparty** whose $335M bridge l
 - Full counterparty data: `NDFI_SHADOW_CRE_ANALYSIS.md`
 - Memo Item 3 methodology: `../EVIDENCE.md` (lines 280-295)
 - C1 Reclassification Rebuttal: `C1_RECLASSIFICATION_REBUTTAL.md`
-- Source reports: `sources/GEMINI_NDFI_DEEP_RESEARCH.docx`, `sources/CHATGPT_NDFI_DEEP_RESEARCH.md`, `sources/PERPLEXITY_NDFI_DEEP_RESEARCH.md`, `sources/CLAUDE_NDFI_DEEP_RESEARCH.md`
+- Source reports: `raw/llm_outputs/GEMINI_NDFI_DEEP_RESEARCH.docx`, `raw/llm_outputs/CHATGPT_NDFI_DEEP_RESEARCH.md`, `raw/llm_outputs/PERPLEXITY_NDFI_DEEP_RESEARCH.md`, `raw/llm_outputs/CLAUDE_NDFI_DEEP_RESEARCH.md`
 - CEO quote: OZK Q3 2025 Earnings Call, Oct 17, 2025

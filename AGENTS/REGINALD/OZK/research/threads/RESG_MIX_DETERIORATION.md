@@ -24,7 +24,7 @@
 
 **Net 6Q change: -130bps (30.9% → 29.6%). Range: 3.8pp band (27.1-30.9%). Conclusion: structurally stable.**
 
-**Sources.** Q4 24: `historical/Q4_24_extract.md`. Q1 25: `historical/Q1_25_extract.md`. Q2 25: `historical/Q2_25_extract.md`. Q3 25: `historical/Q3_25_extract.md`. Q4 25: `historical/Q4_25_extract.md`. Q1 26: `OZK 2026 Q1 data/OZK 1Q26 Management Comments.pdf` Fig. 14.
+**Sources.** Q4 24: `historical/Q4_24_extract.md`. Q1 25: `historical/Q1_25_extract.md`. Q2 25: `historical/Q2_25_extract.md`. Q3 25: `historical/Q3_25_extract.md`. Q4 25: `historical/Q4_25_extract.md`. Q1 26: `raw/Q1_2026_mgmt_comments.pdf` Fig. 14.
 
 ## 2. What's actually accelerating — three migration metrics
 
@@ -100,4 +100,4 @@ The reservoir thesis is **CONFIRMED on these three metrics simultaneously**, not
 
 ---
 
-*Primary historical extracts: `historical/Q4_24_extract.md` through `historical/Q4_25_extract.md`. Q1 26: `OZK 2026 Q1 data/OZK 1Q26 Management Comments.pdf`. Audit trail: `CHANGELOG.md` v1.1. Sub-doc anchors: `IQHQ_PLAYBOOK.md`, `SEVEN_CREDIT_DEEP_DIVE.md`.*
+*Primary historical extracts: `historical/Q4_24_extract.md` through `historical/Q4_25_extract.md`. Q1 26: `raw/Q1_2026_mgmt_comments.pdf`. Audit trail: `CHANGELOG.md` v1.1. Sub-doc anchors: `IQHQ_PLAYBOOK.md`, `SEVEN_CREDIT_DEEP_DIVE.md`.*

@@ -45,7 +45,7 @@ FDIC district-level benchmarks and the extend-and-pretend gap analysis:
 - `../sources/FDIC_QBP_Q4_2025.md` — Raw QBP data with geographic tables.
 - `../EARNINGS_PREP.md` — RC-N district benchmarks section (NY 1.57%, Atlanta 1.36%, Dallas 0.89%).
 - `../THESIS.md` — Noncurrent concentration by loan type (75.2% in nonfarm nonresidential).
-- `../sources/OZK_CONSTRUCTION_MATURITY_V1.md` / `V2.md` — Some geographic breakdowns of construction pipeline.
+- `../raw/llm_outputs/OZK_CONSTRUCTION_MATURITY_V3.md` — Some geographic breakdowns of construction pipeline.
 
 ---
 

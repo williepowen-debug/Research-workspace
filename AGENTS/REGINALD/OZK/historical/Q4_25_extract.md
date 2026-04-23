@@ -1,5 +1,5 @@
 # OZK Q4 2025 Management Comments — Extract
-**Source:** OZK 4Q25 Management Comments.pdf
+**Source:** raw/Q4_2025_mgmt_comments.pdf
 **Period:** Q4 2025 (quarter ending 12/31/2025)
 
 ## Verdict

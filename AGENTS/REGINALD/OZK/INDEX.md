@@ -107,9 +107,10 @@
 ### Raw sources (don't read at boot)
 | Path | Content |
 |------|---------|
-| `sources/` | 10-K/10-Q extracts, FDIC/FFIEC pulls, IQHQ research, multi-LLM NDFI research |
-| `OZK 2026 Q1 data/` | Will-supplied Q1 26 PDFs (Financial Supplement + Management Comments + transcript) |
-| `historical/` | Time-series Mgmt Comments extracts — Q4 24 / Q1-Q4 25 (5 PDFs, 5 agents Apr 23) |
+| `sources/` | Primary-source extracts only — 10-K/10-Q sections, FDIC/FFIEC API pulls, QBP data |
+| `raw/` | Raw OZK PDFs (Mgmt Comments, Financial Supplement, transcript) — Q4 24 / Q1-Q4 25 / Q1 26 |
+| `raw/llm_outputs/` | Raw LLM research outputs (30 files) — provenance archive, distilled into KB.tsv |
+| `historical/` | Time-series Mgmt Comments extracts — Q4 24 / Q1-Q4 25 |
 
 ### Archive (completed/stale — don't read)
 | File | Why |

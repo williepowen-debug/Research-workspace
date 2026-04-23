@@ -82,7 +82,7 @@ Campus at Horton (Stockdale Capital, ~1M SF, zero tenants, potential foreclosure
 ---
 
 ## Prompt 20 Update: National Life Sci Vacancy Deep Dive (Claude, Mar 25)
-**KB Rows:** 147–156 | **Source:** `../sources/OZK_LIFE_SCI_VACANCY_CLAUDE.md`
+**KB Rows:** 147–156 | **Source:** `../raw/llm_outputs/OZK_LIFE_SCI_VACANCY_CLAUDE.md`
 
 ### Finding 6: National Bottoming — But Recovery Is Years Away
 **KB-147** | **Confidence: A2**
@@ -160,4 +160,4 @@ Gemini/Colliers places Boston at 34.0% vacancy (vs CBRE 28.0% — methodology ga
 
 ---
 
-*Sources → `../sources/IQHQ_RADD_claude_prompt15.md`, `../sources/IQHQ_RADD_gemini_prompt15.docx`, `../sources/OZK_LIFE_SCI_VACANCY_CLAUDE.md`, `../sources/OZK_LIFE_SCI_VACANCY_GEMINI.md` | KB → `../workbook/KB.tsv` (094-095, 117, 137-141, 147-159) | Thesis → `../THESIS.md`*
+*Sources → `../raw/llm_outputs/IQHQ_RADD_claude_prompt15.md`, `../raw/llm_outputs/IQHQ_RADD_gemini_prompt15.docx`, `../raw/llm_outputs/OZK_LIFE_SCI_VACANCY_CLAUDE.md`, `../raw/llm_outputs/OZK_LIFE_SCI_VACANCY_GEMINI.md` | KB → `../workbook/KB.tsv` (094-095, 117, 137-141, 147-159) | Thesis → `../THESIS.md`*

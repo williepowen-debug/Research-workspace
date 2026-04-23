@@ -23,7 +23,7 @@ Navigate the KB by investigation cluster. Each group maps to a folder or researc
 | **DISTRESSED_LOANS** | 028–036 | 9 | THESIS.md (evidence) | Named problem loans: IQHQ RaDD, Sterling Bay, Boston, Seattle, Santa Monica |
 | **LIFE_SCI** | 094–095, 117, 137–141, 147–159 | 21 | **LIFE_SCI/FINDINGS.md** | $3.2B life sci, RaDD 3.3% leased + $1.23B total debt (15% PIK mezz accruing $76M), national bottoming 23.0%, SD rents 14th decline, Sorrento 38.2%, Boston ATH 28-34%, Bay Area first recovery, VC→AI crowding, Pacific Center sold, Temple 8 short, M&A $240B driving sublease, Boston 16.5M SF pipeline |
 | **MGMT_CREDIBILITY** | 037–041, 069, 085, 093, 098 | 9 | THESIS.md (narrative) | "No concessions" contradiction, CFO selling, buyback non-use |
-| **INSIDER** | 142–145 | 4 | sources/OZK_INSIDER_claude_prompt16.md | ZERO insider buys 18mo, 65:1 sell ratio, CRO filled (Majumdar), Mar 11 mass filing, Gleason "most uncertain time in 45yr career" |
+| **INSIDER** | 142–145 | 4 | raw/llm_outputs/OZK_INSIDER_claude_prompt16.md | ZERO insider buys 18mo, 65:1 sell ratio, CRO filled (Majumdar), Mar 11 mass filing, Gleason "most uncertain time in 45yr career" |
 
 ## Thesis Layer 3: Catalyst & Timing
 
@@ -43,7 +43,7 @@ Navigate the KB by investigation cluster. Each group maps to a folder or researc
 
 | Group | Rows | Count | Folder / File | What It Covers |
 |-------|------|-------|---------------|----------------|
-| **PEER_COMP** | 133–136 | 4 | sources/OZK_PEER_COMP_claude.md (best) | 8-bank Q4 2025 table. OZK 5.4x peer NCO, 7x C&D, coverage BELOW median. WAL thinnest at 90%. |
+| **PEER_COMP** | 133–136 | 4 | raw/llm_outputs/OZK_PEER_COMP_claude.md (best) | 8-bank Q4 2025 table. OZK 5.4x peer NCO, 7x C&D, coverage BELOW median. WAL thinnest at 90%. |
 
 ## Counter-Arguments & Gaps
 

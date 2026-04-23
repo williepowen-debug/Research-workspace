@@ -43,7 +43,7 @@
 - **KB_INDEX says:** Rows 133–136, count **4**
 - **Actual KB.tsv:** 133–136 = **4 rows** ✓
 - **✅ Accurate.**
-- **Synthesis file:** `sources/OZK_PEER_COMP_claude.md` exists ✓ (note: lives in `sources/`, not `research/`).
+- **Synthesis file:** `raw/llm_outputs/OZK_PEER_COMP_claude.md` exists ✓ (note: lives in `sources/`, not `research/`).
 
 ### MATURITY_WALL
 - **KB_INDEX says:** 20 rows
