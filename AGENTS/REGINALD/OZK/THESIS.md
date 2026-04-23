@@ -1,6 +1,6 @@
 # OZK — Full Bear Case
 
-**Version:** v1.1 (2026-04-23) — Q1 26 print integration + 6Q historical refinement | **Changelog:** `CHANGELOG.md`
+**Version:** v1.2 (2026-04-23) — INVALIDATION section added per self-audit; WEAKNESSES C5 corrected | **Changelog:** `CHANGELOG.md`
 
 ## THE RESERVOIR THESIS
 
@@ -149,6 +149,24 @@ OZK has the **worst absolute Memo Item 3 ratio** in the screen [KB-OZK-020] — 
 | "Gleason has never lost" | GFC record is genuine — beat industry NCOs every quarter but one, ROA >1.20% throughout [KB-OZK-064]. BUT: (1) GFC book was ~$2B community-scale AR CRE, not today's $20B+ national RESG [KB-OZK-067]. (2) CRE/equity 381% then vs ~620% now [KB-OZK-068]. (3) FDIC loss-share on 7 acquired banks cushioned performance [KB-OZK-066/071]. (4) OCC issued Formal Agreement June 2011 — "less than satisfactory" mgmt/liquidity ratings [KB-OZK-069]. (5) Corus Bank ran the same gateway-city construction model and failed when LTV was too high [KB-OZK-072]. The GFC record is *real* but categorically non-transferable. |
 | "IQHQ got extended, crisis deferred" | Extension = more time underwater. 97% vacant [KB-OZK-028 ⚠️ Oct 2024, may be stale], SD life sciences vacancy 25-29%. Extension doesn't create tenants. IQHQ itself under financial pressure (investor markdowns 4-23%, PIK loans at 13.5-14%) [KB-OZK-029]. |
 | "Mix-shift share stable at 27-31% for 6 quarters — no breakdown" | True on the share metric. But that's the WRONG indicator — share % is a mechanical artifact of asset sales and denominator changes. Three migration metrics underneath are all firing: substandard non-accrual mass migration ($59M → $341M Q2-Q4 25, +154% then +127% QoQ), past-due 30+ DPD regime change (10x in 6 months: $46M → $207M → $465M Q3 25 → Q4 25 → Q1 26), classified +23% QoQ Q1 26. Share stability hides the real story [KB-OZK-185]. See `research/threads/RESG_MIX_DETERIORATION.md`. |
+
+---
+
+## WHAT WOULD INVALIDATE THIS THESIS
+
+Concentrated kill criteria. If any of these fire, the short's foundation is damaged. Items 1 and 3 are most load-bearing; items 4-5 are directional signals that shift probability weights without killing the thesis outright.
+
+**1. Past-due regime reverses.** If Q2 26 past-due stabilizes or declines (<$400M vs Q1 26's $465M / 1.41%), the migration-velocity pipeline is not flowing as predicted. The "10× in 6 months" pattern ($46M → $207M → $465M across Q3 25 → Q4 25 → Q1 26) needs continuation, not just the two observed steps. Resolves at Q2 26 earnings (~late July). Cross-ref: REG-23 in PREDICTIONS.tsv.
+
+**2. Sustained sub-50bps NCO through Q2-Q3 26.** Past-due must convert to charge-offs for the reserve-consumption thesis to fire. Q1 26 NCO came in at 0.57% annualized — in-line with ~50bps FY guide. If Q2 and Q3 track at or below guide, the "reservoir" framing is wrong — 2025 was a catch-up event, not the start of a recognition cycle. Resolves by Q3 26 print. Cross-ref: REG-22.
+
+**3. IQHQ RaDD cures.** Either (a) material lab tenant (>250K SF) lands pre-maturity at RaDD, or (b) IQHQ sponsor brings fresh equity for a 4th round despite Aimco's April 2026 fraud suit. Either collapses Wave 3 — the weighted $140M EL is **22% of the entire OZK ACL on one credit**, so IQHQ resolution alone re-rates the thesis. Watchpoints: JCVI lease expansion, any leasing LOI announcement, sponsor funding commentary. Resolves by Aug 2026 maturity. Detail → `IQHQ_PLAYBOOK.md`.
+
+**4. $350M sub notes redeemed Oct 1, 2026.** Management explicitly stated "no plans to redeem or issue replacement." If they reverse and redeem, signals capital confidence and removes the $12.8M/yr interest headwind (+$0.09 EPS / Tier 2 -20%). Not a kill but a directional signal that internal view is more constructive than ours.
+
+**5. Office / life sci structural turn.** Office cap rates compress to <8.00% (vs current 9.10%) OR Sorrento Mesa vacancy declines materially (vs current 35%). The vacancy-bottleneck argument (see WEAKNESSES.md C2) breaks if demand returns structurally. Not a near-term risk given the data, but worth monitoring JLL / CBRE quarterlies.
+
+**Current state (2026-04-23):** None fired. Past-due doubled Q1 (confirming), NCO 0.57% in-line with guide (neutral — awaiting Q2 conversion), IQHQ 3.3% leased with Aimco suit active (confirming), sub-notes disposition unchanged, cap rates stable-to-widening.
 
 ---
 

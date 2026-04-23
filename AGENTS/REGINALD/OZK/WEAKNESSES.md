@@ -1,5 +1,5 @@
 # OZK Thesis — Weaknesses & Rebuttals
-**Created:** 2026-03-24 | **Status:** All three thesis-breakers addressed
+**Created:** 2026-03-24 | **Last updated:** 2026-04-23 (C5 correction) | **Status:** All thesis-breakers addressed; C5 retracted and corrected
 
 ---
 
@@ -127,8 +127,20 @@ Four independent research models confirm OZK's GFC performance was exceptional: 
 5. **Corus analog.** Corus Bank ran the *same* gateway-city construction model and failed. Difference was basis (LTV), not strategy [KB-OZK-072].
 **Verdict:** Gleason demonstrated genuine discipline, but the GFC stress-tested a fundamentally different institution. The current RESG book is being stress-tested for the first time now. See `raw/llm_outputs/OZK_GFC_TRACK_RECORD_V4.md` for full research.
 
-### C5: IQHQ Timeline Extension Weakens Wave 3
-IQHQ maturity pushed to ~2028. No longer a 2026 catalyst. The thesis should lean on Waves 1-2 (construction maturity wall + noncurrent trajectory + interest reserve depletion) without invoking IQHQ for near-term catalysis. IQHQ remains relevant as background risk and worst-case loss estimate, but it's not what makes the April-August put structure work.
+### C5: IQHQ Timeline (CORRECTED — retracted 2026-04-23)
+
+**Prior framing (RETRACTED):** *"IQHQ maturity pushed to ~2028. No longer a 2026 catalyst. The thesis should lean on Waves 1-2... without invoking IQHQ for near-term catalysis."*
+
+**Correction:** IQHQ RaDD maturity is **August 2026**, not 2028. The 2028 reference was an error in an earlier STATUS.md, corrected Apr 22 after Q1 26 transcript review. Primary source: Q1 26 earnings call, Gleason *"August is an eternity"*; IQHQ_PLAYBOOK.md §2 carries the full documentation.
+
+**Current status:** IQHQ is our **primary Wave 3 catalyst**, not a deferred risk. Context:
+- **3.3% leased** (JCVI 50K SF only). Tracy Murphy's Jan 2025 guidance of "two tenants by March 2025" did NOT materialize.
+- **Aimco $50M fraud/breach complaint filed April 2026** — chills any 4th rescue round.
+- **Rossow (OZK CCO) on-record 3/19/26:** RaDD is OZK's sole IQHQ exposure.
+- **Weighted EL $140M = 22% of OZK ACL** on one credit.
+- **Scenario tree:** 50% substandard migration / 18% foreclosure / 20% extend / 12% takeout.
+
+Detail → `IQHQ_PLAYBOOK.md`. Invalidation triggers for this channel listed in THESIS.md "What Would Invalidate" §3.
 
 ---
 

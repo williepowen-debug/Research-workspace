@@ -15,6 +15,36 @@ A new entry must describe:
 
 ---
 
+## v1.2 — 2026-04-23 (audit-driven: invalidation section + WEAKNESSES C5 correction)
+
+### Summary
+Self-audit identified two gaps: (a) PREDICTIONS.tsv had the falsifiability work but THESIS.md didn't carry concentrated kill criteria on its face; (b) WEAKNESSES.md C5 still claimed "IQHQ pushed to ~2028" which directly contradicted v1.1 THESIS.md framing of Aug 2026 as primary Wave 3 catalyst. Both fixed.
+
+### Changes
+
+**1. THESIS.md — New "What Would Invalidate" section added** *(STRUCTURE ADDITION, no thesis direction change)*
+
+- **What:** 5 concentrated kill criteria with threshold levels inserted between "Bull Case Rebuttals" and "Short Interest Risk." Items 1 (past-due reversal), 2 (sustained sub-50bps NCO), 3 (IQHQ cure) are most load-bearing. Items 4 (sub-notes redemption) and 5 (office/life sci structural turn) are directional signals.
+- **Why:** Self-audit 2026-04-23 found cold-boot agents needed invalidation criteria visible at thesis-level, not buried in PREDICTIONS.tsv.
+- **Cross-refs:** Each criterion anchored to REG-22/23 in PREDICTIONS.tsv or IQHQ_PLAYBOOK.md scenarios.
+- **Position implication:** Unchanged — no new catalysts, just explicit invalidation triggers for the existing thesis.
+
+**2. WEAKNESSES.md C5 — Retracted "IQHQ pushed to 2028"** *(ERROR CORRECTION)*
+
+- **Old view (retracted):** "IQHQ maturity pushed to ~2028. No longer a 2026 catalyst. The thesis should lean on Waves 1-2 without invoking IQHQ for near-term catalysis."
+- **New view:** IQHQ RaDD maturity is August 2026 (correction Apr 22, integrated into THESIS v1.1). IQHQ is the primary Wave 3 catalyst with weighted EL $140M = 22% of OZK ACL.
+- **Why error persisted:** WEAKNESSES.md wasn't updated when the Apr 22 maturity correction landed. Self-audit caught the inconsistency between THESIS (Aug 2026, primary catalyst) and WEAKNESSES (2028, deferred).
+- **Position implication:** Unchanged — THESIS and positions have reflected Aug 2026 since Apr 22.
+
+### What did NOT change
+- Three-wave catalyst structure
+- Migration velocity framework (KB-OZK-185)
+- ACL thinning trajectory
+- All other WEAKNESSES rebuttals (C1, C2, C3, C4, C6)
+- KB.tsv rows (kill criteria cross-reference existing REG-21/22/23 + IQHQ scenarios without adding new rows)
+
+---
+
 ## v1.1 — 2026-04-23 (Q1 26 print integration + 6Q historical refinement)
 
 ### Summary
