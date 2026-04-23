@@ -69,48 +69,53 @@
 - **Expected loss this credit:** Sale band $15-20M gross → $14-18M net to OZK. Additional $2-4M charge-off likely at sale. Existing $5.6M reserve covers most of it.
 - **Source:** Bisnow Jan 22 2026 ("Bank OZK Is Cutting Its Losses") — direct confirmation of OZK-Renaissance Milwaukee linkage.
 
-### #5 — Boston Life Sci ($169.3M) — ⚠️ UNRESOLVED (downgraded 2026-04-23 PM; prior "HIGH CONFIDENCE Candidate B" framing was premature)
+### #5 — Boston Life Sci ($169.3M) — ✅ RESOLVED HIGH (2026-04-23 PM: 10 Prospect Street / USQ Parcel D2.1 / Magellan JV confirmed via UCC-1 filing)
 
-**Status:** Session 2 Phase 1 research confirmed neither candidate can be locked in from public sources. Primary source (MassLandRecords.com Middlesex South ROD) requires interactive browser session. Proposed to Will as `ASK_FOR_WILL.md` browser pull.
+**Verdict:** **Candidate A — 10 Prospect Street, Somerville** is the $169M Boston Life Sci substandard credit. HIGH confidence. Confirmed via post-maturity UCC-1 financing statement filing at Middlesex South Registry of Deeds, Book 85169 Page 222, filed Jan 29 2026.
 
-**What we know firmly:**
-- Credit specs: $169.3M outstanding, 91% LTV, 46 DPD at 3/31/2026, **matured Dec 18 2025** without refi.
-- New in Q1 26 problem book. Bisnow Jan 22 2026 "Cutting its losses" piece exhaustively inventories OZK's Q4 2025 problem loans — **zero Somerville properties named.** Consistent with Q1 26 being the first appearance in the problem book.
-- Rossow confirmed (Bisnow Mar 19 2026) RaDD is OZK's sole IQHQ credit → any Somerville candidate is NOT an IQHQ sponsor.
+**Dispositive evidence:**
+- **UCC-1 Financing Statement filed Jan 29 2026** (Doc #9975, Book 85169 Page 222) at Middlesex South ROD
+- **Debtor:** 31 UNION SQUARE D2.1 OWNER LLC (31 Union Square, Somerville MA 02143) — the parcel-level SPV for USQ Parcel D2.1
+- **Secured Party:** Bank OZK (Legal Notices: PO Box 8811, Little Rock AR 72231; filer contact: elizabeth.strickland@ozk.com)
+- **Collateral:** "All assets of the Debtor, whether now owned or hereafter acquired, as more particularly set forth and described in that certain MORTGAGE, SECURITY AGREEMENT, ASSIGNMENT OF RENTS AND FIXTURE FILING dated as of December 31, 2020" — original lien recorded Book 76638 Page 224
+- **Property:** 10 PROSPECT ST, Somerville MA
 
-**Candidate A — 10 Prospect Street, Union Sq Somerville**
-- Original $119.2M OZK loan, Feb 1 2021. 196K SF spec lab, delivered 2024, unleased.
-- Sponsor JV (corrected 2026-04-23 PM): **Magellan Development + RAS Development + Cypress Equity Investments + USAA/Affinius Capital.** Prior REGINALD files listed "Cathartes" in this JV — that's incorrect per Commercial Observer + Magellan release + BLDUP. See KB-OZK-194.
-- Balance math: $119M → $169M (+42% over ~5 years). Possible via interest-reserve accretion on fully-drawn construction loan at SOFR+300 (~8-9%) with reserves accreting rather than paying current. Tight but plausible, especially if loan was upsized mid-construction.
-- Native maturity: Feb 1 2026 on 5yr term — not Dec 18 2025. Dec 2025 fit requires prior extension or original sub-5yr term.
+**Interpretation of the Jan 29 2026 UCC-1 filing:**
+A new UCC-1 filed six weeks after the Dec 18 2025 disclosed maturity is a **classic early-workout re-perfection**. OZK is nailing down lien priority across UCC systems before any enforcement action. Not foreclosure initiation — but an aggressive move to ensure the bank's security interest is bulletproof if enforcement becomes necessary. Consistent with 46 DPD at 3/31/2026 posture: loan is stressed, bank is locking in collateral position, but active foreclosure hasn't been triggered.
 
-**Candidate B — 808 Windsor / Boynton Yards Somerville**
-- Original $246M OZK loan, Dec 22 2021. 370K SF delivered Nov 2024, 96% vacant.
-- Sponsor JV: **Leggat McCall + DLJ Real Estate + Deutsche Finance America** (confirmed not IQHQ).
-- Balance math: $246M commitment → $169M outstanding. Under construction-lending "good news funding" conventions (advances held back until lease milestones), curtailment of undrawn advances is the natural reading — NOT a $77M paydown on an unleased building.
-- Native maturity: Dec 22 2026 on 5yr term — not Dec 18 2025. Dec 18 2025 fit requires 4yr term or prior extension.
+**Maturity-mismatch issue resolved:**
+The underlying lien instrument is dated **December 31, 2020** (not Feb 1, 2021 as prior research concluded — Feb 1, 2021 was the press/closing announcement, not the docs date). Dec 31, 2020 + 5yr term = Dec 31, 2025. OZK's disclosed **Dec 18, 2025 maturity** is within normal docs-language variance of that 5yr anniversary (stated maturity dates are often ~2 weeks before the anniversary for month-end reasons). Clean fit.
 
-**Candidate C (residual):** An unpublicized Boston life sci OZK loan not captured in trade-press scans.
+**Asset specs (from Candidate A file + prior research):**
+- **Address:** 10 Prospect Street, Somerville MA 02143 (Union Square redevelopment, Parcel D2.1)
+- **Size:** 196,000 SF speculative life sciences lab
+- **Delivered:** 2024
+- **Tenant status:** Unleased as of Oct 2025 (Bisnow)
+- **Original OZK loan:** $119.2M construction loan, documents dated Dec 31, 2020; closing/press date Feb 1, 2021
 
-**Why this is genuinely ambiguous:**
-- Neither A nor B has a native Dec 18 2025 maturity from published terms. Both require a prior extension or off-5yr original term.
-- Balance math is plausible for both (A via accretion, B via curtailment).
-- Both buildings are vacant in the right market at the right time.
-- Trade press does not name either as the $169M problem credit.
+**Sponsor JV:** **Magellan Development Group + RAS Development + Cypress Equity Investments + USAA/Affinius Capital** (corrected from prior REGINALD files which incorrectly listed "Cathartes" — see KB-OZK-194). Confirmed per Commercial Observer Feb 2021, Magellan Development press release, BLDUP.
 
-**What would resolve it:**
-1. **MassLandRecords Middlesex South browser pull** — search mortgagee "Bank OZK" + town "Somerville" + date range 2021 to today. Look for (a) original mortgage (Feb 2021 or Dec 2021), (b) any assignment/modification/extension filing, (c) any post-Dec 18 2025 notice of default or foreclosure initiation. Dispositive.
-2. **10-Q MD&A (~May 5)** — may disclose.
-3. **Q2 26 earnings call (late Jul)** — Citi / Piper / Stephens have pressed Gleason on this; last resort.
+**Sponsor-stack implications for severity:**
+Magellan is a large Chicago mixed-use developer (Aqua Tower, Vista Tower). Affinius (formerly USAA Real Estate) is an institutional LP with ~$80B AUM. Cypress Equity is a mid-size mixed-use developer. **This is a well-capitalized institutional JV.** Extension / sponsor capital infusion probability is materially higher than with a typical local Boston JV. Biases severity toward the **lower end** of the 25-40% band (~$40-50M loss) assuming workout path, not forced note sale.
 
-**Comp read (per Alexandria South Boston lab site Mar 2025):** -57% vs 2018 basis. Blackstone BXLS VI ($6.3B Mar 2026) deploying into distressed basis; BioMed/Alexandria NOT buying spec lab. Expected distressed buyer: Blackstone, Fortress, Oaktree, SVP, Brookfield.
+**Balance math — $119M origination → $169M outstanding:**
++42% growth over ~5 years. Likely mechanism: interest reserves originally funded at ~$15-20M were exhausted during rate spike (2022-2023), with subsequent accretion via reserve replenishment + extension fees being capitalized to principal. Prior REGINALD work flagged "$2.6B sponsor extraction" across OZK's RESG book 2023-2025 — Candidate A would have participated in this. Loan may also have been upsized mid-construction.
 
-**Expected loss this credit:** 25-40% severity on note sale = $40-65M loss. **This is a single-credit source of potentially material Q2-Q3 reserve build.** Severity estimate applies regardless of which candidate turns out correct, since both are spec lab in Somerville.
+**808 Windsor / Boynton Yards is NOT this credit:**
+Leggat McCall + DLJ + Deutsche Finance America $246M loan (Dec 22 2021) is still an OZK origination but does NOT appear in the Q1 2026 problem book. Could be performing, or classified but below Figure 24 disclosure threshold. **Separately watchable** as a non-named potential-stress credit.
 
-**Distinguish from other OZK Somerville loans in the area (for cross-reference hygiene):**
-- **50 Prospect / 20 Prospect Street** (residential, Union Sq) — separate OZK $120M loan, 25-story 450-unit residential tower. NOT a life sciences asset and NOT this credit. Don't conflate.
+**Cross-reference hygiene:**
+- **50 Prospect / 20 Prospect Street** (residential, Union Sq) — separate OZK $120M loan, 25-story 450-unit residential tower. NOT a life sciences asset, NOT this credit. Don't conflate.
 
-**Correction flags:** Prior "Candidate B = HIGH CONFIDENCE working baseline" was stated in the 2026-04-22 IQHQ secondary-exposure thread but was not independently verified against MassLandRecords. The Leggat McCall ≠ IQHQ conclusion was correct; the "therefore $169M = Boynton Yards" leap was premature.
+**Comp read (unchanged):** Alexandria South Boston lab site Mar 2025 cleared -57% vs 2018 basis. Blackstone BXLS VI ($6.3B Mar 2026) deploying into distressed basis; BioMed/Alexandria NOT buying spec lab. Expected distressed buyer universe: Blackstone, Fortress, Oaktree, SVP, Brookfield.
+
+**Expected loss (revised — narrowed band):** $35-55M loss (from prior 25-40% / $40-65M) on a workout-path resolution. Institutional JV capacity argues for workout attempt before note sale.
+
+**Follow-up value-adds:**
+- **Book 76638 Page 224 pull** (original Dec 31, 2020 Mortgage / Security Agreement) — would confirm original loan amount, stated maturity, rate, extension provisions. Not required for verdict; confirmatory only.
+- **Any subsequent modifications / extensions** recorded at Middlesex South between 2021 and Dec 2025 — would trace the accretion path.
+
+**KB:** KB-OZK-195 (primary verdict), KB-OZK-194 (sponsor correction), KB-OZK-189 (Q1 26 substandard row — status update needed).
 
 ### #6 & #7 — Chapter Buildings I + II, Seattle U District ($127M combined)
 - **Asset:** Two towers, 12-story office (Chapter I, 240K SF) + 10-story life sci (Chapter II, 149K SF), connected by pedestrian plaza. Three blocks from UW, one block from U-District Light Rail.

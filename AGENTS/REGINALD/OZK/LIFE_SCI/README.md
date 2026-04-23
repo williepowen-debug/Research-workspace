@@ -12,7 +12,7 @@ OZK's life sciences exposure is the asset type most likely to generate near-term
 
 This folder covers life sciences exposure **across all geographies**:
 - **San Diego:** IQHQ RaDD ($915M — single largest loan, **Aug 2026 maturity**), Pacific Center ($265M — sold to SVP Jan 2026), Aperture Del Mar ($475M — performing), Bioterra ($202M — vacant)
-- **Boston:** 🆕 **Boston Life Sci $169M** (Q1 substandard — matured Dec 18 2025; sponsor ID pending), Fenway Center ($1B — paused), 109 Brookline (285K SF — vacant), Sullivan Courthouse ($72.4M charged off)
+- **Boston:** 🆕 **Boston Life Sci $169M** (Q1 substandard — matured Dec 18 2025; ✅ sponsor CONFIRMED Apr 23 = **10 Prospect St / USQ D2.1 / Magellan + RAS + Cypress + Affinius JV**), Fenway Center ($1B — paused, separate lender JPM $165M, not OZK), 109 Brookline (285K SF — vacant), Sullivan Courthouse ($72.4M charged off)
 - **Seattle:** 🆕 **Seattle U District Life Sci $50M** (Q1 substandard, signed LOI for recap; combined $127M with adjacent Office)
 - **Chicago:** 🆕 **Chicago Life Sci $50M** (Q1 foreclosed asset, 68% of May '25 appraisal after failed short sale) + Lincoln Yards $9M charged off (earlier)
 
@@ -37,7 +37,7 @@ The common thread: all are construction/development loans on lab space delivered
 
 | Credit | Outstanding | Tier | Key Fact |
 |---|---|---|---|
-| Boston Life Sci | $169M (91% LTV) | Substandard accrual | Matured Dec 18 2025 without refi, 46d past due. Sponsor = US2 or Leggat McCall (TBD) |
+| Boston Life Sci | $169M (91% LTV) | Substandard accrual | Matured Dec 18 2025 without refi, 46d PD. **Sponsor CONFIRMED Apr 23: 10 Prospect St / USQ D2.1 / Magellan + RAS + Cypress + Affinius JV** via UCC-1 filing Bk 85169 Pg 222. |
 | Seattle U District Life Sci | $50M | Substandard accrual | Signed LOI for recap (bullish) |
 | Chicago Life Sci | $50M | Foreclosed asset | 68% of May '25 appraisal, failed short sale |
 

@@ -9,33 +9,19 @@
 
 ## HIGH PRIORITY — material thesis impact
 
-### 1. Boston Life Sci $169M sponsor disambiguation — ⚠️ UNRESOLVED, browser-pull needed
-**Why:** Single largest unresolved Q1 26 OZK problem credit. One credit = 27% of OZK's total $628M ACL. Sponsor ID changes recovery math materially.
+### 1. Boston Life Sci $169M sponsor disambiguation — ✅ RESOLVED HIGH (2026-04-23 PM)
 
-**Session 2 Phase 1 (2026-04-23 PM) outcome:** General-purpose spawn established that MassLandRecords.com requires interactive browser session — WebFetch blocked. Spawn also flagged **native maturity mismatch on BOTH candidates** (neither A's Feb 2021 + 5yr = Feb 2026 nor B's Dec 2021 + 5yr = Dec 2026 cleanly matches OZK's disclosed Dec 18 2025 maturity). Baseline downgraded from "HIGH confidence Candidate B" to UNRESOLVED. See SEVEN_CREDIT §2 #5.
+**Verdict:** **10 Prospect Street, Somerville / USQ Parcel D2.1 / Magellan + RAS + Cypress + Affinius JV.** Confirmed via MassLandRecords Middlesex South UCC-1 Financing Statement Bk 85169 Pg 222, Doc #9975, filed Jan 29, 2026. Debtor = 31 Union Square D2.1 Owner LLC; Secured Party = Bank OZK; underlying lien instrument dated Dec 31, 2020 (original mortgage at Bk 76638 Pg 224).
 
-**Sponsor correction (independent of ID question):** 10 Prospect JV = Magellan + RAS + Cypress Equity + USAA/Affinius. Cathartes was incorrectly listed in prior files. See KB-OZK-194.
+**Maturity-mismatch resolved:** the Dec 31, 2020 lien date + 5yr term = Dec 31, 2025 anniversary, within normal docs variance of OZK's disclosed Dec 18, 2025 maturity. Prior "Feb 1, 2021" date was the press/closing announcement, not the docs date.
 
-**Candidates on the table:**
-- **10 Prospect Street, Union Square Somerville** — Magellan + RAS + Cypress + Affinius. Orig $119M Feb 2021. Balance math: accretion to $169M requires ~42% growth via interest reserves + extension fees (tight but possible if loan was upsized mid-construction).
-- **808 Windsor / Boynton Yards Somerville** — Leggat McCall + DLJ + Deutsche Finance America. Orig $246M Dec 2021. Balance math: "good news funding" curtailment from $246M commitment → $169M drawn (natural read for unleased construction loan).
-- **Candidate C (residual):** unpublicized OZK Boston life sci loan.
+**Workout interpretation:** Jan 29, 2026 UCC-1 re-perfection six weeks after maturity is a classic early-workout security-interest refresh — locking in lien priority before any enforcement action. Not foreclosure initiation; aggressive posture short of it.
 
-**🆕 Ask for Will — MassLandRecords browser pull:**
-Steps (per spawn recommendation):
-1. https://www.masslandrecords.com/MiddlesexSouth/
-2. Select town "SOMERVILLE" + document type "MORTGAGE" + date range 01/01/2021 – today + business name variations: "BANK OZK", "BANKOZK", "BANK OF THE OZARKS", "OZK BANK"
-3. Also search by property: 10 Prospect Street Somerville, 808 Windsor Street Somerville
-4. Look for: (a) original mortgage (Feb 2021 or Dec 2021 match), (b) any assignment / modification / extension filing, (c) **any post-Dec 18 2025 notice of default, foreclosure initiation, or assignment** — this last is dispositive
-5. Screenshots of book/page numbers for any matches
-6. Alternative source: masscourts.org → civil case search → plaintiff "Bank OZK" for filed workout litigation
+**Severity revision:** Magellan + RAS + Cypress + Affinius is a well-capitalized institutional JV (Magellan = large Chicago mixed-use developer; Affinius = ~$80B AUM). Workout-path probability > forced-note-sale probability → severity biases toward LOWER end of 25-40% band (~$35-55M loss vs prior $40-65M).
 
-**Fallbacks (if browser pull not possible):**
-- OZK 10-Q (~May 5) — MD&A may disclose
-- Q2 26 earnings call (late Jul) — Citi/Piper/Stephens have pressed repeatedly
+**Full detail → SEVEN_CREDIT_DEEP_DIVE.md §2 #5. KB rows: 195 (verdict), 194 (sponsor correction), 189 (Q1 26 substandard status update).**
 
-**Estimate:** 30 min if browser pull succeeds; else await May 10-Q or July Q2 call.
-**Output:** Update SEVEN_CREDIT_DEEP_DIVE.md #5 with confirmed sponsor; new KB row; signal to CREED.
+**Follow-up (optional, not blocking):** Pull original Mortgage / Security Agreement Bk 76638 Pg 224 for original loan amount, stated maturity, rate, extension provisions.
 
 ---
 

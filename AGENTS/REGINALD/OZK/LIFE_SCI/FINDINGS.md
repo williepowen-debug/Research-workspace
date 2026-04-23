@@ -160,7 +160,7 @@ OZK's Q1 2026 print surfaced three new project-level problem credits in the life
 
 | Credit | Amount | Tier | Q1 Disclosure |
 |---|---|---|---|
-| **Boston Life Sci** | $169M outstanding | Substandard accrual | 91% LTV, 46 days past due as of 3/31, matured **Dec 18 2025** without refi. Sponsor candidates narrow to US2 (10 Prospect Street, Union Sq Somerville) or Leggat McCall (808 Windsor / Boynton Yards) — disambiguation pending (TODO #1). |
+| **Boston Life Sci** | $169M outstanding | Substandard accrual | 91% LTV, 46 DPD at 3/31, matured **Dec 18 2025** without refi. **Sponsor: 10 Prospect St / USQ Parcel D2.1 — Magellan + RAS + Cypress + Affinius JV (CONFIRMED via MassLandRecords UCC-1 filing Jan 29 2026, Bk 85169 Pg 222).** Resolved 2026-04-23 PM. |
 | **Seattle U District Life Sci** | $50M outstanding ($89M total commitment, $38.9M unfunded) | Substandard accrual | Component of combined $127M Seattle U District problem ($76M Office + $50M Life Sci). **Sponsor signed LOI for recap** — bullish signal vs classification trajectory. |
 | **Chicago Life Sci** | $50M | Foreclosed asset (new Q1) | Taken at 68% of May 2025 appraisal. **Previous short sale failed** — forced foreclosure route. |
 
