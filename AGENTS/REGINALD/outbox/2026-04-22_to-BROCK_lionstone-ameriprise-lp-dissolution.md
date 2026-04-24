@@ -9,6 +9,6 @@
 - Peer institutional RE advisors rumored to be consolidating or winding down (Clarion Partners, Invesco Real Estate, Nuveen RE, TIAA RE)
 - Any BDC / private credit fund where the LP cohort is aging out, funds are closing, or parent firms are exiting RE
 
-**Source:** Q1 2026 OZK earnings call transcript (Gleason LOI comment); Urban Renaissance Group press; CBRE financing press ($196.2M Sep 2022); Bisnow "Lionstone offloading $5.5B" (Jan 2025); Realty News Report "Lionstone to DivcoWest" (2025). Full sponsor research in `REGINALD/OZK/SEVEN_CREDIT_DEEP_DIVE.md` §6-7.
+**Source:** Q1 2026 OZK earnings call transcript (Gleason LOI comment); Urban Renaissance Group press; CBRE financing press ($196.2M Sep 2022); Bisnow "Lionstone offloading $5.5B" (Jan 2025); Realty News Report "Lionstone to DivcoWest" (2025). Full sponsor research in `AGENTS/OZK/SEVEN_CREDIT_DEEP_DIVE.md` §6-7.
 
 **Priority:** 🟠

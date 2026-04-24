@@ -46,7 +46,7 @@ Before ending, complete in order:
 - [ ] **STATUS.md** — update prices, thresholds, signals that changed this session
 - [ ] **CALENDAR.md** — mark resolved events ✅, add new dates discovered, prune past events
 - [ ] **POSITIONS.md** — update if broker data was received this session (skip if not)
-- [ ] **Bank STATUS files** (OZK/, WAL/) — update if bank-specific work was done (skip if not)
+- [ ] **Bank STATUS files** (WAL/) — update if WAL-specific work was done (skip if not). OZK is now a top-level peer agent at `../OZK/` — REGINALD no longer owns OZK/STATUS.md.
 - [ ] **thesis/CHANGELOG.md** — update if THESIS.md or TIMELINE.md was modified this session (skip if not)
 - [ ] **MEMORY.md** — rewrite Session Notes:
   - `⚠️ Open question:` line at top — the one thing unresolved when you shut down
@@ -123,8 +123,9 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 | **thesis/CHANGELOG.md** | What changed in THESIS/TIMELINE, why, old vs new view. | Current state — this is history, not the snapshot. |
 | **MEMORY.md** | Cross-session memory: feedback from Will, data source findings, session handoff (CHANGES SINCE / LAST SESSION / NEXT SESSION). | Recaps of STATUS data. If it's already in STATUS, don't repeat here. |
 | **LESSONS.md** | Mistake patterns — verified errors that burned us. Structural rules. | Session notes or findings. Only confirmed mistakes with prevention rules. |
-| **OZK/STATUS.md** | OZK-specific: price, thesis, KB, research agenda, earnings prep. | System-wide indicators (→ STATUS) |
 | **WAL/STATUS.md** | WAL-specific: price, thesis, vectors, research agenda, earnings prep. | System-wide indicators (→ STATUS) |
+
+*OZK is a top-level peer agent — its doc ownership lives in `../OZK/CLAUDE.md`.*
 
 **Rule:** If you catch yourself writing the same data in two docs, stop. Put it in the owner doc and reference from the other.
 
@@ -231,7 +232,6 @@ Metropolitan Capital failed with 61% true CRE (labeled 10.7%). Three masking lev
 | `outbox/` | Outbound signals for other agents. One file per signal. HERMES delivers. |
 | `BANK_EXPOSURE_MATRIX.md` | Multi-channel scoring ("The Matrix") — 614 lines, reference doc |
 | `workbook/PREDICTIONS.tsv` | **Canonical** — 10-column schema (Pred_ID/Date_Made/Prediction/Confidence/Timeframe/Status/Date_Resolved/Outcome/Invalidation/Notes). Falsifiable predictions with invalidation criteria. |
-| `OZK/` | OZK-specific analysis (10-K, STATUS) |
 | `domain/sources/` | Primary source docs (Call Reports, FDIC, WAL research, Hidden CRE screens) |
 | `research/README.md` | **Master research index** — all series, key findings, data gaps, next priorities. Read before spawning research. |
 | `research/outputs/` | Completed research by series (RP-REG-3.x, RP-REG-4.x, RP-FL-x.x, RQ-ad-hoc) |

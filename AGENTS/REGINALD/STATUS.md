@@ -30,7 +30,7 @@
 
 **Position read:** V2 thesis CONFIRMED in-print — positions HOLD. Extension/duration beats compression. Sep roll on $65P Jun merits analysis.
 
-### OZK Q1 2026 — SLOW-GRIND THESIS CONFIRMED → `OZK/Q1_2026_ANALYSIS.md`
+### OZK Q1 2026 — SLOW-GRIND THESIS CONFIRMED → `../OZK/Q1_2026_ANALYSIS.md`
 
 | Metric | Actual | Cons | Delta |
 |---|---|---|---|
@@ -164,7 +164,7 @@
 
 **State of play:**
 - **WAL threshold re-breach.** $77.29 below $78 pre-market. Second breach in a week (faded Apr 16 close to $78.23). Earnings Apr 21 resolves.
-- **Cohort refresh complete (Apr 16 session).** `WAL/EARNINGS_PREP.md` (356 lines) + `OZK/EARNINGS_PREP.md` (474 lines) cohort-informed. Both position names ready for Apr 21.
+- **Cohort refresh complete (Apr 16 session).** `WAL/EARNINGS_PREP.md` (356 lines) + `../OZK/EARNINGS_PREP.md` (474 lines) cohort-informed. Both position names ready for Apr 21.
 - **FITB Apr 17 → WAL Apr 21 read-through:** `FITB/WAL_READTHROUGH.md` (63 lines, Apr 16). If FITB PDF confirms Consumer Warehouse stress → fire WAL V3 analyst-question prep for Apr 21.
 
 **Carry-forward from Apr 16:** Thesis v1.4 ("C&I as Convergence Hiding Place"), FHLB now 🔴 at bank-level (3/3 reporters surging), CFG reclassification pattern proven ($2.9B Secured PC finance carved out of Other F&I FY2024→FY2025 10-K), CFG convergence score 9→12.
@@ -231,7 +231,7 @@
 - **13F ANALYSIS (Fintel, live data from Will):** Wellington -43%, AQR -20%, Two Sigma -34%, Point72 -35%, Morgan Stanley -15%, 50+ full exits including Canada Pension, Ontario Teachers. Quant replacements (Citadel +260%, Millennium +20%, Renaissance +36%). Peak6 opened $15.2M PUT. **Smart money exiting, quants replacing. Ownership quality deteriorating while % rises.**
 - **Full YTD short volume (66 trading days):** OZK shorts press regardless of direction. WAL short activity collapsed 20pp (Jan-Feb 62% → Mar-Apr 42%). KRE shorts MORE active on UP days (68% vs 61%) = AP redemption mechanics confirmed.
 - **Insider ownership:** WAL zero open market buys in 2026. OZK 0.00% insider ownership. No insider floor.
-- **Apr 12 FDIC DISCOVERY:** OZK files Form 4 with FDIC (cert #110), NOT SEC EDGAR. Standard insider tools miss OZK. Full FDIC pull confirms: zero insider purchases, Gleason zero filings since Jul 2023, Dir. Kenny net seller despite $170K+ in free grants. See `OZK/INSIDERS/` for detail.
+- **Apr 12 FDIC DISCOVERY:** OZK files Form 4 with FDIC (cert #110), NOT SEC EDGAR. Standard insider tools miss OZK. Full FDIC pull confirms: zero insider purchases, Gleason zero filings since Jul 2023, Dir. Kenny net seller despite $170K+ in free grants. See `../OZK/INSIDERS/` for detail.
 - **Institutional ownership refined:** 13F (Dec 31 2025): Wellington -43%, D.E. Shaw -26%, AQR -20%, Wasatch -6.6% (fundamental credit shops selling). Citadel +260%, Renaissance +36% (quant/index adding). Wasatch dropped OZK entirely from Core Growth Fund. Smart money out, mechanical money in.
 
 **New tools built:**
@@ -326,7 +326,7 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 
 ## RESEARCH — OZK
 
-**KB: 159 rows, 17 groups** | **Earnings ✅ Apr 21 resolved** → `OZK/Q1_2026_ANALYSIS.md` | **Price: $48.52 (Apr 22 AM, -1.46%)**
+**KB: 159 rows, 17 groups** | **Earnings ✅ Apr 21 resolved** → `../OZK/Q1_2026_ANALYSIS.md` | **Price: $48.52 (Apr 22 AM, -1.46%)**
 - 10 prompts done (#1-7, 15, 16, 20). 5 remaining (#8 Metropolitan, #9 Affinius, #10 sell-side, #13 peer vintage, #19 metro conditions)
 - LIFE_SCI deepest cluster (21 rows). **RaDD 3.3% leased; IQHQ maturity Aug 2026 ⚠️ CORRECTED (was mislabeled Aug 2028).**
 - Temple 8 short thesis published. OZK = reservoir thesis (stress accumulates → maturity wall forces recognition). **Q1 26 CONFIRMS via past-due doubling ($207M → $465M QoQ)** — recognition tempo = Q2-Q3 2026.
