@@ -33,6 +33,6 @@ REGINALD's `CALENDAR.md` currently has "Oct 2026: Affinius Capital $2.7B bond ma
 
 ---
 
-**Source:** OZK Q1 2026 deep dive (`REGINALD/OZK/SEVEN_CREDIT_DEEP_DIVE.md` Apr 22 2026); external research agent findings on Boston life sci candidates; KB-OZK-165 through 170 prior research; `OZK/sources/AFFINIUS_CAPITAL_BONDS_claude.md` and `AFFINIUS_CAPITAL_BONDS_gemini.md`.
+**Source:** OZK Q1 2026 deep dive (`AGENTS/OZK/SEVEN_CREDIT_DEEP_DIVE.md` Apr 22 2026); external research agent findings on Boston life sci candidates; KB-OZK-165 through 170 prior research; `AGENTS/OZK/sources/AFFINIUS_CAPITAL_BONDS_claude.md` and `AFFINIUS_CAPITAL_BONDS_gemini.md`.
 
 **Priority:** 🟠 (item 1 Boston life sci) / 🟡 (item 2 Affinius verification)
