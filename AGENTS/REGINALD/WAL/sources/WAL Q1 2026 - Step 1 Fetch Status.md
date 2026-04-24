@@ -1,60 +1,34 @@
-# Step 1 — Source Material Fetch Status
+# Step 1 — Source Material Fetch Status (CLOSED)
 
-**Date:** 2026-04-24
-**Task:** Track down WAL Q1 2026 earnings materials ahead of Round 2 analysis + Wave 1 cascade.
+**Opened:** 2026-04-24 AM
+**Closed:** 2026-04-24 PM — all primary source materials secured; Round 2 entry point = deep-mine the unread docs.
+**Next session:** transcript synthesis is DONE; deck + press-release-PDF + DEF 14A need deep reads. See `WAL Q1 2026 - Transcript Synthesis.md` "ITEMS TO FLOW INTO ROUND 2 ANALYSIS" section + `MEMORY.md` NEXT SESSION list.
 
 ---
 
-## ✅ SECURED
+## ✅ ALL SECURED — inventory
 
 | Doc | Location | Quality | File |
 |---|---|---|---|
-| **Earnings Presentation (deck)** | Q4CDN direct URL | **Full 25-page PDF, 37K text chars** | `WAL-Q1-2026-Earnings-Presentation-Final-v2.pdf` |
-| Press Release content | stocktitan summary | High-level numbers + CEO quote, exhibit list; **no financial tables verbatim** | `8K_EXTRACT.md` |
-| Transcript (excerpts) | Benzinga + Fool + Yahoo + Investing.com | ~70% coverage across 4 overlapping extracts; key quotes preserved | `TRANSCRIPT_EXCERPTS.md` |
-| SEC accession number | stocktitan | 0001212545-26-026302 | — (reference) |
+| **Earnings Presentation (deck)** | Q4CDN direct URL | Full 25-page PDF, 37K text chars | `q1_2026/WAL-Q1-2026-Earnings-Presentation-Final-v2.pdf` |
+| **Press Release PDF** | WAL IR (Will dropped) | **Full 20-page PDF, 13 pages of detailed financial tables**, 63K text chars | `q1_2026/Press-Release-3-31-2026-Final.pdf` |
+| **Press Release HTML** | SEC EDGAR Ex 99.1 (curl + UA) | Same content as PDF but XBRL-bloated; **PDF supersedes, .htm redundant** | `q1_2026/WAL-Q1-2026-Press-Release.htm` |
+| **8-K form** | SEC EDGAR (curl + UA) | 29K HTML, cover + exhibits list | `q1_2026/WAL-Q1-2026-8K.htm` |
+| **Full Earnings Call Transcript** | Will dropped | 706-line verbatim, 11 Q&A exchanges | `q1_2026/WAL Earnings Call.md` |
+| **DEF 14A Proxy** | Will dropped | 7.3MB, ~90+ pages, 2026 definitive proxy | `q1_2026/14A.pdf` |
+| **DEFA14A** | Will dropped | 1.4MB, 7 pages, procedural (June 10 annual meeting) | `q1_2026/14A 2.pdf` |
+| **Transcript analysis (synthesis)** | REGINALD-authored | 248 lines, 7 headline findings, Q&A matrix, thesis vector matrix | `../WAL Q1 2026 - Transcript Synthesis.md` |
 
-### Deck slide inventory (partial, from 2 slides sampled)
+**Confirmed negative:** No separate Financial Supplement PDF exists at Q4CDN (17 naming variants probed). WAL is deck + release only (matches FITB pattern). Not blocking.
 
-| Slide | Topic | REGINALD thesis relevance |
-|---|---|---|
-| 20 | Lender Finance Overview — $2.3B, 2000 obligors, 50+ facilities, <$2MM avg, no obligor >$30MM funded, <5% software | **V3 / NDFI detail — KEY SLIDE** |
-| 24 | NDFI Loans — peer cohort comparison (WAL vs KEY/WFC/PNC/RF/Citi/BAC/TFC/USB/JPM/EWBC/CFG/PNFP/FHN/HBAN/UMB/FITB/Cullen) | **Closes cohort spectrum question** |
-
-Full deck inventory pending Round 2 analysis pass.
-
----
-
-## ❌ NOT SECURED (sec.gov + IR root pages 403 from WebFetch)
-
-### Priority for Will (if possible)
-
-1. **Ex 99.1 press release PDF from SEC EDGAR** — full financial tables verbatim (current coverage via stocktitan summary is numbers-level only).
-   - Direct URL (if SEC is reachable from browser): `https://www.sec.gov/Archives/edgar/data/1212545/000121254526026302/`
-   - Medium priority — key tables likely also in the deck.
-
-2. **Financial supplement PDF (IF one exists)** — probed 17 naming variants at Q4CDN, all 404. Some banks publish only a deck + press release, no separate supplement. Verify whether WAL publishes one; if yes, capture URL.
-   - Possibly non-existent. Not blocking.
-
-3. **Full verbatim transcript** — any subscription source you have (Seeking Alpha, Bloomberg, Koyfin). Current excerpts cover enough for Round 2 but some analyst Q&A segments are partial.
-   - Nice-to-have. Not blocking.
-
-### Calendar-gated (can't fetch yet)
-
-4. **Q1 2026 10-Q** — filed ~May 1-10 via SEC EDGAR. Primary source for table 16 segment detail + MI3-relevant line items.
-5. **Q1 2026 Call Report (FFIEC)** — filed ~May 1-10. Primary source for Memo Item 3 / RCON2746 ratio refresh. **V1 (hidden CRE) thesis test.**
+**Correct SEC accession:** `0001628280-26-026302` (NOT `0001212545-26-026302` as stocktitan reported — filer CIK differs from company CIK). For future reference.
 
 ---
 
-## ROUND 2 READINESS ASSESSMENT
+## ❌ Calendar-gated (REGINALD will fetch automatically via curl + UA)
 
-**Sufficient to proceed with Round 2 analysis:** YES.
-
-Rationale:
-- The deck covers the 2 highest-value slides we'd extract from a supplement (Lender Finance detail on p20, NDFI peer cohort on p24).
-- Transcript excerpts cover all major management quotes on fraud, Cantor mechanics, forward guide, deposit strategy, CRE framing.
-- Investing.com **confirmed** Memo Item 3 / SSFA / other-LAM-credits / Basis MF / warehouse-counterparty / Middle-East-reserve were **NOT raised in Q&A** — so full transcript won't add thesis-relevant detail on those topics. V1/V3 remain unprobed by street, resolution awaits May 1-10.
-- Press release summary gives financial tables at the level Q1_ANALYSIS needed. Full verbatim PDF would be a quality-of-life upgrade, not a content upgrade.
+1. **Q1 2026 10-Q** — filed ~May 1-10 via SEC EDGAR. Primary source for table 16 segment detail + MI3-relevant line items.
+2. **Q1 2026 Call Report (FFIEC)** — filed ~May 1-10. Primary source for Memo Item 3 / RCON2746 ratio refresh. **V1 (hidden CRE) thesis test.**
 
 ---
 
