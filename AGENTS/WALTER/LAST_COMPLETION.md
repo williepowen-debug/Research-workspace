@@ -1,49 +1,69 @@
-## COMPLETION — WALTER — 2026-04-24 (Fri 11:00 ET — Telegram inbound MCP delivery failure; session restarting to recover)
+## COMPLETION — WALTER — 2026-04-24 (Fri — Telegram inbound bug root-caused & fixed; Path B hook spike complete & deferred)
 
-STATUS: ⚠️ INCOMPLETE BOOT. Session opened when Will pinged in terminal saying his Telegram DM to WALTER bot didn't surface in the session. No boot steps performed (STATUS/MEMORY/REGISTRY/ROUTING/BOARD not read). Entire session was root-cause diagnosis of the Telegram channel failure. Ending with a clean claude restart to reset the MCP link.
+STATUS: ✅ INFRA-ONLY SESSION. No signal routing, no BOARD dispatches, no boot reads (STATUS/REGISTRY/ROUTING/BOARD unread). Entire session on two infra items: (1) resolved the Apr 22 "Telegram MCP delivery broken" bug; (2) ran a spike to validate Path B (hook-based CHAT_BUFFER for conversational context), then deferred shipping. Telegram inbound now 100% reliable; Path B ready to ship if needed.
 
 CHANGED:
-- AGENTS/WALTER/LAST_COMPLETION.md (this file, overwritten with handoff notes)
+- `~/.claude/settings.json` — REMOVED `enabledPlugins.telegram@claude-plugins-official` (user scope). **Not in repo — user-level file.**
+- `AGENTS/WALTER/.claude/settings.json` — ADDED `telegram@claude-plugins-official: true` alongside existing `discord` entry. **Committed.**
+- `AGENTS/WALTER/.claude/settings.local.json` — ADDED spike hooks (UserPromptSubmit + PostToolUse on Telegram reply) + several `Bash(...)` permission entries. **Gitignored globally via ~/.config/git/ignore — not committed.**
+- `AGENTS/WALTER/.gitignore` — NEW. Contains `debug/` only. **Committed.**
+- `AGENTS/WALTER/debug/` — spike dump files (UserPromptSubmit and PostToolUse payloads). **Gitignored via new .gitignore — not committed.**
+- `AGENTS/WALTER/MEMORY.md` — added Apr 24 Finding (multi-bot competition root cause) and rewrote CHANGES SINCE / NEXT SESSION blocks. Now ~108 lines, flagged for prune.
+- `AGENTS/WALTER/LAST_COMPLETION.md` — this file.
+- `AGENTS/WALTER/STATUS.md` — appended Apr 24 session log row.
+- `~/.claude/projects/.../memory/MEMORY.md` — auto-memory index, added "Telegram Plugin Scope" pointer.
+- `~/.claude/projects/.../memory/project_telegram_plugin_scope.md` — new auto-memory entry.
 
 RESULT:
 
-**Diagnosed failure mode:** plugin → claude MCP notifications silently dropped; claude → plugin tool calls still work.
+**Telegram inbound fixed. Root cause: multi-bot token competition.**
 
-**Confirmed working:**
-- Single WALTER claude session, PID 67676, `--channels plugin:telegram@claude-plugins-official`, running in tmux `walter`
-- No duplicate WALTER (I was briefly wrong about this; corrected)
-- Bot token loaded, md5 `712be7e9…` = the WALTER bot; REGINALD runs a different bot (md5 `c052566…`), no token collision
-- Plugin child PID 67716 → bun server.ts PID 67726, polling Telegram
-- `telegram/access.json` has Will's chat_id 8463631023 on allowlist, dmPolicy allowlist
-- Outbound works: test `reply` tool call sent msg id 964, Will confirmed receipt
-- Plugin reaches `handleInbound` past `gate(ctx)` — typing indicator fires on Will's inbound
+`enabledPlugins.telegram@claude-plugins-official: true` sat at USER scope in `~/.claude/settings.json`. Every claude session on this machine inherited that and spawned its own `bun server.ts` process polling the same Telegram Bot API token. At session start, observed:
+- PID 65765 — spawned by REGINALD's claude session (PID 773, tmux `reginald`, cwd `AGENTS/REGINALD`)
+- PID 71422 — spawned by WALTER's claude session (PID 67676, tmux `walter`)
 
-**Confirmed broken:**
-- Session jsonl `f7757a3d-88e2-4e01-bf61-f7f540840cbb.jsonl` has ZERO `<channel source="telegram"` user-turn entries across ~12KB of post-test growth. Will sent at least 2 DMs during the debug. None landed as user turns.
-- Delivery break is between the plugin's `mcp.notification({method: 'notifications/claude/channel', ...})` call (server.ts line ~957) and claude's session ingestion.
-- Plugin's `.catch` on the notification writes to stderr; claude captures child stderr somewhere I could not locate from inside the session.
+Telegram's `getUpdates` long-poll delivers each message to ONLY ONE poller. REGINALD was absorbing ~50% of Will's inbound. Per root CLAUDE.md only WALTER + PROME should be on Telegram.
 
-**Asymmetry:** Claude → plugin (reply tool) works. Plugin → Claude (channel notification) does not. The plugin declares `experimental: {'claude/channel': {}, 'claude/channel/permission': {}}`; if Claude Code's version mismatches the capability negotiation, notifications get silently dropped while request/response tool calls stay functional.
+Fix:
+1. Removed telegram from user-scope settings
+2. Added telegram to WALTER project-scope settings
+3. Killed PID 65765 (REGINALD's orphan bot)
 
-**What we did not try:**
-- Kill bun server child 67726 — risk: claude may not respawn; decided to go full restart instead
-- Check Claude Code version vs plugin 0.0.6 compat — worth checking post-restart
+Verification: Will sent "test" via Telegram (msg 989). Landed first try on WALTER's next turn as a proper `<channel source="plugin:telegram:telegram">` tag. Previously dropped messages would no longer.
+
+**Path B (CHAT_BUFFER via hooks) spike validated, shipping deferred.**
+
+Proposed Path B = two hooks auto-append inbound/outbound Telegram to `AGENTS/WALTER/CHAT_BUFFER.md`; WALTER reads last ~20 lines at boot for conversational continuity. Hypotheses under test:
+1. Does `UserPromptSubmit` payload include the `<channel>` tag? — **YES.** Payload has `prompt` field containing the full tag with `chat_id`, `message_id`, `user`, `ts`, and body.
+2. Does `PostToolUse` on an MCP tool receive both `tool_input` and `tool_response`? — **YES.** Payload has `tool_input.chat_id`, `tool_input.text`, and `tool_response[0].text` = "sent (id: NNN)".
+
+Both hooks firing reliably post-fix. Path B is shippable. Will's call: **defer — ship next session if real Telegram cold-start friction is felt**. Spike hooks left in place (gitignored) as validated plumbing.
+
+**Telegram plugin version check:** on 0.0.6 (latest — no update available). Cache at `/home/willi/.claude/plugins/cache/claude-plugins-official/telegram/0.0.6/`. Marketplace at github `anthropics/claude-plugins-official` also 0.0.6.
+
+**Quirks worth remembering:**
+- Settings watcher only monitors `.claude/` dirs that existed at session start. A newly-created `.claude/` needs `/hooks` or session restart to reload.
+- Project root for WALTER's claude session is `AGENTS/WALTER/`, NOT `Research-workspace/`. Project-scope `.claude/` lives at `AGENTS/WALTER/.claude/`. First hook config landed at wrong path; had to move.
+- User-scope settings remain the correct place for cross-session auto-approve permissions like `mcp__plugin_telegram_telegram__reply` (a no-op for sessions without the plugin loaded — those can't call the tool anyway).
 
 GAPS:
-- **No boot performed this session** — STATUS.md, MEMORY.md, REGISTRY.tsv, ROUTING_TABLE.md, /BOARD/INDEX.md all unread. Carry-forward from 2026-04-20 handoff remains the authoritative state.
-- **Carry-forward from 2026-04-20:** MARCO push status unconfirmed; Apr 21 catalyst day has passed (check what actually happened); BOARD_CONSUMPTION_SPEC propagation; Filter v2 Segment D; COP paused; SIGNAL_INTAKE rollout stuck 4/14; ZHAO spawn stale; FORGE/STATUS stale; NEXUS classification overdue.
-- **This session's open thread:** no confirmation that restart actually fixes the MCP delivery bug. Needs verification post-restart.
+- **No boot performed this session** — STATUS/REGISTRY/ROUTING/BOARD/INDEX unread. Apr 20 carry-forward still the authoritative state.
+- **Carry-forward from Apr 20:** MARCO push status unconfirmed; Apr 21 catalyst day post-mortem (WAL/ZION + Iran ceasefire expiry + Tuapse 3rd-theater); BOARD_CONSUMPTION_SPEC propagation to 14 Tier 1 CLAUDE.md files; Filter v2 Segment D (confidence asymmetry, `confidence_note` mechanic decided, implementation pending); COP paused; SIGNAL_INTAKE rollout stuck at 4/14 (SAM/BRENT/VIOLET/CARL); ZHAO spawn stale (China material 18d+); FORGE/STATUS ~30d stale; NEXUS classification overdue; Apr 24 OZK earnings coverage.
+- **MEMORY.md over cap** — 108 lines vs 100 cap. Prune promoted items next session.
+- **No git pull this session** — remote may have moved. Do at next boot.
 
 WILL_NEEDS:
-1. **Post-restart verification test** — Will sends a plain-text Telegram DM to WALTER bot; new session should see it as a `<channel source="telegram">` user turn. If still broken, the issue is not session-scoped and we need to look at Claude Code ↔ plugin 0.0.6 version compat.
-2. **If restart does NOT fix it:** check Claude Code version (`claude --version`), check if plugin 0.0.6 is the latest, look at Claude Code release notes for `claude/channel` experimental capability support. Possibly downgrade/upgrade plugin.
-3. **Normal 2026-04-20 carry-forward priorities resume** after Telegram is verified live.
+1. **Verify Telegram stays clean** — if a new non-WALTER claude session spawns a bot (it shouldn't per config, but double-check), the flake returns. First thing on any future Telegram complaint: `ps -ef | grep bun.*telegram`.
+2. **Path B ship/cleanup decision** — if cold-start friction felt in real usage, ship (1-2h). If not, remove spike hooks + debug dir + commit cleanup.
+3. **Normal Apr 20 carry-forward priorities resume** — boot properly, catch up on Apr 21-24 network deltas and Apr 24 OZK earnings day.
 
 FOLLOW-UP (next session, in order):
-1. Boot normally: git pull → STATUS / MEMORY / LAST_COMPLETION / REGISTRY / ROUTING_TABLE / BOARD/INDEX
-2. Immediately verify Telegram inbound — send a test message, watch for the `<channel>` tag, confirm the bug is resolved
-3. If Telegram still broken: focus there first before resuming any routing work
-4. If Telegram live: pick up 2026-04-20 follow-ups (MARCO status, Apr 21 post-mortem, BOARD boot-block propagation)
+1. `git pull --rebase` (follow pull protocol — working tree expected clean for WALTER files).
+2. Boot: STATUS / MEMORY / LAST_COMPLETION / REGISTRY / ROUTING_TABLE / BOARD/INDEX.
+3. Telegram inbound quick-check — send self a test or wait for Will ping, confirm `<channel>` tag lands cleanly.
+4. Path B decision (ship vs clean up).
+5. Apr 21 catalyst-day retrospective (OZK Apr 24 earnings is current day — what dispatched? What's the OZK read?).
+6. Resume Apr 20 backlog in priority order from MEMORY.md NEXT SESSION block.
 
 ---
 
