@@ -1,5 +1,5 @@
 # REGINALD — Thesis Positions
-**Updated:** 2026-04-02 (from broker screenshot) | ⚠️ **STALE — no broker update since Apr 2. Prices/strikes may have changed.**
+**Updated:** 2026-04-02 (from broker screenshot; OZK rows extracted to `../OZK/POSITIONS.md` on 2026-04-24) | ⚠️ **STALE for non-OZK positions — no broker update since Apr 2. Prices/strikes may have changed.**
 
 Only positions in REGINALD's domain. Full portfolio lives in FORGE.
 
@@ -15,8 +15,6 @@ Only positions in REGINALD's domain. Full portfolio lives in FORGE.
 | WAL | $67.5P | — | 2 | |
 | WAL | $65P | Jun | 2 | Aggressive strike |
 | WAL | $60P | — | 1 | Aggressive |
-| OZK | $45P | May/Aug | — | Earnings Apr 21 (after-close, call Apr 22) |
-| OZK | $42.5P | — | 2 | |
 | KRE | $65P | — | 1 | |
 | KRE | $67P | — | 1 | |
 | KRE | $60P | — | 3 | |
@@ -35,7 +33,7 @@ Only positions in REGINALD's domain. Full portfolio lives in FORGE.
 
 ## Key Context
 - WAL is the heaviest single-name position (7+ contracts across strikes)
-- OZK earnings Apr 21 (after-close) = first catalyst for the put ladder
-- WAL earnings Apr 21 = main event (same day as OZK)
+- WAL earnings Apr 21 ✅ resolved — V2 fraud confirmed in-print, positions hold
 - KRE spread across 3 strikes = broad regional stress bet
 - IWM $250P is near money — small cap weakness confirming
+- OZK positions now in `../OZK/POSITIONS.md` (spun out 2026-04-24)
