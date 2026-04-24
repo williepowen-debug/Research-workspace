@@ -58,14 +58,21 @@ Before ending, complete in order:
 - [ ] **THESIS.md + CHANGELOG.md** — if thesis moved this session, append a CHANGELOG entry with version bump (minor = refinement, major = structural). **Rule: THESIS edit without CHANGELOG entry = incomplete.**
 - [ ] **TODO.md** — mark completed items, add new research queue entries, re-prioritize
 - [ ] **workbook/KB.tsv** — add rows earned this session (KB-OZK-xxx format). Update KB_INDEX.md if cluster rollups drifted.
+- [ ] **REGINALD_CHANNEL.md** — if REGINALD sent you anything this session, ACK under their message. Write a new top entry only if you have new info, a correction, or a cross-threshold firing relevant to REGINALD's scope (KRE / regional-bank cohort / hub-level signals). Silence with ACK = "received and integrated." Do this BEFORE MEMORY so session notes reflect what was shared.
 - [ ] **MEMORY.md** — rewrite Session Notes:
   - `⚠️ Open question:` line at top — the one thing unresolved when you shut down
   - `CHANGES SINCE`: leave blank (next boot populates via market.py)
   - `LAST SESSION`: what you did, decisions made, files updated (not STATUS recaps)
   - `NEXT SESSION`: numbered action items — specific, checkable
-  - Add new Feedback or Findings entries if earned this session
-  - Prune any stale entries
-- [ ] **Git commit** — stage changed `AGENTS/OZK/` files and commit. Never `git add .`.
+  - **Feedback:** add a row when Will corrected an approach ("don't do X") OR confirmed an unusual choice ("yes exactly, keep doing that"). Not every session earns one.
+  - **Findings:** add a row when you learned a concrete technical fact about tools, data sources, or domain mechanics that future sessions will need (e.g., "IR page 403s to scripted pulls — user must browser-pull"). Not opinions or analysis — those belong in `research/` or KB.
+  - **Prune:** drop entries that turned out wrong or got superseded. MEMORY is not append-only.
+- [ ] **Git commit + push** — five-step safety sequence:
+  1. `git reset HEAD` then `git add AGENTS/OZK/<paths>` — stage only your files. Never `git add .` or `-A`.
+  2. `git diff --cached --stat` — verify ONLY `AGENTS/OZK/` paths appear. If anything else shows up, `git restore --staged <path>` it.
+  3. `git status` — scan for uncommitted work in OTHER agents' directories. If present, follow root CLAUDE.md pull protocol (flag to Will, or defer push and note in MEMORY).
+  4. `git commit` (per root CLAUDE.md HEREDOC format), then pre-push sanity check: `git diff origin/master..HEAD --name-only | grep -v '^AGENTS/OZK/'` — MUST be empty. If not, your commit chain touches non-OZK paths — STOP and investigate.
+  5. `git push`. If rejected, follow pull protocol — never `--force`. Confirm `git status` shows working tree clean and "up to date with origin/master" after push.
 
 **MAIL:** Do NOT process inbox on normal spawns. Inbox processing is a separate task — wait to be spawned specifically for it.
 
