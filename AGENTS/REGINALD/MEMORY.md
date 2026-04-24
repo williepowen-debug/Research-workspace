@@ -42,13 +42,15 @@
 
 ## Session Notes
 
-⚠️ **DIRECTIONAL SHIFT (set 2026-04-23 PM evening, for 2026-04-24+ work):** Will is redirecting away from position/tape work and toward **structural/organizational priorities**. Two pillars for tomorrow and beyond:
+⚠️ **NEXT SESSION PRIORITY #1 (set 2026-04-24 AM): EXECUTE OZK SPINOUT.**
 
-1. **Promote OZK to its own top-level agent.** OZK is currently a sub-scope inside `AGENTS/REGINALD/OZK/` (~195 KB rows, 17 groups, 11 top-level docs, 4 subdomains, deep research subtree, raw PDF library). Scale has outgrown sub-agent status. Target: `AGENTS/OZK/` with its own CLAUDE.md (spawn protocol, file ownership, cross-agent signals), MEMORY/CALENDAR/LESSONS, and REGINALD coordination as peer-to-peer rather than parent-child. WAL is a parallel candidate (same sub-scope pattern) — probably next, but one at a time; OZK first.
+**Plan doc is the source of truth:** `AGENTS/REGINALD/OZK_SPINOUT_PLAN.md` (rev 3, all decisions locked).
 
-2. **Continue systems-organization optimization.** Carryover queue: root REGINALD STATUS.md pruning (still 572+ lines, Apr 7-10 briefs should archive), KB_INDEX.md refresh (Mar 25 baseline, claims 159 rows, actual 197 post-today), any cross-agent boundary clarity work that emerges during the OZK spinout.
+**On boot:** normal boot sequence, then read the plan doc top-to-bottom, then ask Will "ready to start Step 1?" Follow the plan's §0 Quickstart. Don't re-derive anything — the plan is self-contained.
 
-**Position decisions (May $42.5P × 2, May $47.5P × 2) Will handles himself at open tomorrow.** Do NOT self-direct tape/exit analysis unless Will specifically asks. THREAD3_ROLL_MATH.md remains reference only.
+**Still-relevant context NOT in the plan:**
+- Will handles position decisions himself; do not self-direct tape/exit analysis
+- No broker data this session — positions unchanged
 
 See auto-memory `project_ozk_spinout_direction.md` for persistent direction.
 
@@ -99,22 +101,16 @@ See auto-memory `project_ozk_spinout_direction.md` for persistent direction.
 - Root REGINALD `STATUS.md` pruning (still 572+ lines, Apr 7/9/10 briefs should archive). Carryover.
 - OZK/STATUS.md was refreshed earlier this session (AM) — that part is done.
 
-### NEXT SESSION — priorities (redirected 2026-04-23 PM evening)
+### NEXT SESSION — EXECUTE THE PLAN
 
-**Primary direction (structural/organizational):**
+**Primary action:** Read `OZK_SPINOUT_PLAN.md` and work Steps 1-16.
 
-1. **Plan OZK spinout.** Before moving files: draft a plan covering (a) target file tree at `AGENTS/OZK/`, (b) CLAUDE.md scope split — what REGINALD retains vs what OZK owns, (c) cross-ref update map (all `../` references in OZK/ files currently assume REGINALD parent), (d) sub-agent coordination (CREED/CORAL are currently under REGINALD; stay there? move? peer?), (e) PROME registration / root CLAUDE.md agent-list update, (f) POSITIONS.md split (OZK positions to OZK/POSITIONS.md? or keep in REGINALD/POSITIONS.md?). Surface the tradeoffs, don't execute until Will approves the plan.
-2. **Systems-organization queue** — pull from parallel with OZK spinout where it helps:
-   - Root REGINALD STATUS.md pruning (572+ lines, Apr 7-10 briefs → archive/) ~20 min
-   - KB_INDEX.md refresh — add rows 160-197 to cluster rollups ~60 min (happens as part of OZK workbook move if spinout proceeds)
-   - Cross-ref hygiene pass as files move
+**The plan is self-contained.** All content extraction specs, reference maps, step-by-step migration, and checkpoints are in the plan doc. You do NOT need to re-derive the design — it was locked in this session (Apr 24 AM).
 
-**Deprioritized (do NOT self-direct):**
-- Tape/exit analysis — Will handles himself
-- New thesis research — wait for Will to request
-- Tier C position decisions — Will's call at open
-- May 1-10 Call Report / 10-Q triage — still useful when filings drop, but not priority work vs spinout structural work
+**Checkpoints (must wait for Will's green light):**
+- Step 3: after `git mv` + 3 cross-ref fixes — verify OZK dir reads cleanly
+- Step 13: after all file creation + REGINALD edits + root CLAUDE.md — boot test in fresh OZK session (7-point checklist in plan §10)
 
-**Ask of Will:** None new. Await guidance on spinout plan scope (full vs incremental).
+**Ask of Will at boot:** "Booted. Ready to start Step 1 (git mv AGENTS/REGINALD/OZK → AGENTS/OZK)?"
 
 **Positions unchanged** — no broker data this session.
