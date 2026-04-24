@@ -14,6 +14,9 @@
 - [2026-04-22] **"What I NEED FROM YOU" lists work.** When analysis files end with an explicit gap list, Will reads it and delivers the exact files. Keep these lists concise and specific (filename + what's in it).
 - [2026-04-22] **Thesis architecture: "synthesis + pointer" pattern.** THESIS.md carries the synthesized takeaway from sub-docs (2-3 sentences + headline number + pointer), not duplicated detail. Sub-docs (IQHQ_PLAYBOOK, SEVEN_CREDIT_DEEP_DIVE) hold the deep analysis. Filter: thesis-level shifts get changelog entries; evidence accumulation stays in sub-docs + KB rows.
 - [2026-04-22] **Domain CHANGELOG per bank.** OZK/CHANGELOG.md tracks OZK/THESIS.md only — mirrors format of REGINALD's `thesis/CHANGELOG.md`. Version convention: vX.Y where major = structural, minor = refinement.
+- [2026-04-24] **Cross-agent channel writing — strip pleasantries.** REGINALD_CHANNEL is LLM-to-LLM. Skip "welcome," "thanks," social glue. Tight bullets, shorthand that matches the other agent's, link-don't-restate. Will corrected initial draft on this.
+- [2026-04-24] **Don't frame editorial judgment as tests/pass-fail.** Describing channel inclusion decisions as "test passed" made collaborative comms sound evaluative. Use "filter" or just state the reasoning. Writing to a collaborator isn't a gauntlet. Will pushed back on this framing.
+- [2026-04-24] **Offer files, not verbal reports.** When asked for audit/review/analysis, write to a named file (AUDIT.md, REPORT.md, etc.) in own agent dir. Cross-session visibility is restricted — the file is the handoff. (Reinforces existing CLAUDE.md "File > verbal" rule; this session produced AUDIT.md per pattern.)
 
 ## Findings
 - [2026-04-02] `scripts/market.py` pulls live prices via yfinance. Must run with `.venv/bin/python3` from workspace root (not from AGENTS/OZK/).
@@ -32,18 +35,29 @@
 
 ## Session Notes
 
-⚠️ **Open question:** *(first OZK session populates — this is the spinout handoff; no active session has run yet)*
+⚠️ **Open question:** Thread 3 roll math chain quotes were last priced Apr 22 — May 8 deadline is ~14 days out. Next session should refresh `THREAD3_ROLL_MATH.md` early to give Will decision room; don't wait until the last few days when premium decay accelerates.
 
-### Initial Session Notes (2026-04-24, REGINALD migration session)
+**CHANGES SINCE:** *(leave blank — next boot populates via market.py price delta check)*
 
-OZK spun out from REGINALD sub-scope to top-level peer agent at `AGENTS/OZK/`. See `archive/OZK_SPINOUT_PLAN.md` for full migration plan (rev 3, decisions locked in §8).
+### LAST SESSION (2026-04-24, first genuine OZK spawn)
 
-This MEMORY.md was seeded by REGINALD per plan §4a:
-- 6 OZK-specific Findings rows **moved** from REGINALD/MEMORY.md (FDIC EFR, truncated press release, IR 403s, Rossow quote, Boynton ≠ IQHQ, IQHQ lender disconfirmation map)
-- 2 OZK-specific References **moved** (EDGAR CIK, IR docs URL) — gap in plan §4a, authorized by Will at execution time
-- 1 OZK-specific Finding **copied** (price source conflict — stays in REGINALD too)
-- 9 cross-cutting Will feedback rows + 2 shared tool findings **duplicated** (D2=A pattern — OZK reads only its own MEMORY at boot; parent feedback is copied into OZK, not referenced by path)
+- **Step 13 boot test:** 6/7 pass (skipped outbox-write test to avoid polluting). Identity chain clean (root + OZK/CLAUDE.md only, no REGINALD interference).
+- **Full tree audit → `AUDIT.md`.** Not bloated at boot (~235 lines for STATUS/LESSONS/CALENDAR/MEMORY). Main findings: 3 broken refs, KB_INDEX drift (159→196), TRADE.md structural mismatch (Mar-7 vintage with Apr-24 annotations), 2 spinout-plan residuals (Step 14 REGINALD-owned, Step 15 was undone).
+- **Fixed 3 broken refs** (Will approved Option A on PREDICTIONS): (1) Step 15 `git mv` `OZK_SPINOUT_PLAN.md` → `archive/`. (2) Extracted 4 OZK predictions from REGINALD/workbook/PREDICTIONS.tsv → new `workbook/PREDICTIONS.tsv` as OZK-01..04. REG-17 stayed in REGINALD (multi-bank WAL/OZK/EGBN screen). (3) FORGE_TRADE_STATUS.md was a false alarm — documented in sources/README.md:15.
+- **REGINALD committed my cross-boundary pieces in `121452be`** — rename + PREDICTIONS row removal. Good cooperation pattern through REGINALD_CHANNEL.
+- **REGINALD_CHANNEL.md — pair-channel pattern introduced this migration.** File-based log, newest-top, ACK underneath, no reply unless new info. Wrote 2 entries + ACK'd REGINALD's opener. REGINALD responded 16:40 ET confirming watches already on dashboard, flagging WAL Round 2 next session will include IQHQ-adjacent scan.
+- **STATUS.md price refresh:** $48.23 → $47.59 (-1.9%, sector-cohort red). No threshold breach.
+- **Commits this session:** `45dc05e4` (audit + PREDICTIONS + channel init), `0c8c43d6` (channel entry: Step 14 unblock + sector watches).
 
-First genuine OZK session takes over from here — boot per OZK/CLAUDE.md spawn protocol, populate Open question + CHANGES SINCE / LAST SESSION / NEXT SESSION.
+### NEXT SESSION
 
-**Still pending at spinout time (from this REGINALD session):** Steps 6-10 (CALENDAR.md, LESSONS.md, POSITIONS.md, TRADE.md, inbox/outbox), Step 11 (REGINALD ref updates), Step 12 (root CLAUDE.md), Step 13 (boot validation), Steps 14-16 (REGINALD STATUS trim, plan archive, first OZK handoff).
+1. **Refresh `THREAD3_ROLL_MATH.md` chain quotes** (May 8 deadline; priority 1).
+2. **Decide TRADE.md fate** — shrink to one-pager, archive, or keep. OZK recommendation: archive (no unique role vs POSITIONS + THREAD3 + IQHQ_PLAYBOOK). Will input needed.
+3. **Fix `INDEX.md:10` positions snapshot** — "$42.5P Aug 21 × 1" → × 3 (1 min).
+4. **Cosmetic:** `Q1_2026_ANALYSIS.md:1` header "REGINALD" → "OZK"; `research/README.md` fix "Feb25" row (points at research/ but file is in archive/).
+5. **Optional:** KB_INDEX rollup refresh (159→196 rows). Not blocking, but TODO H1.
+6. **Check REGINALD_CHANNEL on boot** for any new REGINALD entries since 16:40 ET.
+
+### Prior note (pre-spinout seed): Initial Session Notes (2026-04-24, REGINALD migration session)
+
+OZK spun out from REGINALD sub-scope to top-level peer agent at `AGENTS/OZK/`. See `archive/OZK_SPINOUT_PLAN.md` for full migration plan. MEMORY.md seeded per plan §4a (6 Findings + 2 References moved, 1 Finding copied, 9 cross-cutting Will feedback rows + 2 shared tool findings duplicated). Boot test now complete — first genuine session above.

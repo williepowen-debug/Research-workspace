@@ -1,6 +1,6 @@
 # OZK — Dashboard
 
-**Updated:** 2026-04-23 | **Price:** $48.23 (+1.49% AM) | **TBV:** $47.15 | **P/TBV:** 1.02×
+**Updated:** 2026-04-24 | **Price:** $47.59 (-1.90% AM) | **TBV:** $47.15 | **P/TBV:** 1.01×
 **Thesis:** RESERVOIR v1.3 | **Conviction:** 🔴🔴 HIGH | **KB:** 185 rows / 17 groups
 **Next hard catalyst:** IQHQ RaDD maturity Aug 2026 — weighted EL $140M on $555M funded
 
@@ -48,7 +48,7 @@ Detail on all 11 tracked problem credits ($719M) → `SEVEN_CREDIT_DEEP_DIVE.md`
 
 | Signal | Current | Watch Level | Fires |
 |---|---|---|---|
-| OZK price | $48.23 | <$45 / <$40 | Thesis execution bands |
+| OZK price | $47.59 | <$45 / <$40 | Thesis execution bands |
 | Past-due loans | $465M / 1.41% | >$550M or >2.0% next Q | Recognition tempo accelerating |
 | NCO (ann.) | 0.57% | >80bps mid-year | Full CRE cycle engagement |
 | **NCO kill line** | — | **≤55bps through Q3** | **Invalidation §2 trigger** |
