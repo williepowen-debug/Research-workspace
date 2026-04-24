@@ -70,16 +70,20 @@ Full rationale → `thesis/CHANGELOG.md` 2026-04-24 entry. Core view → `thesis
 
 ## FXY POSITIONING — 8 SHARES
 
-**Hold.** Position flat at entry ($57.36, now $57.50 = +0.24%). Tranche 2 zone $57.00-57.50 — we're at the bottom of that zone but v1.3 says "BOJ hold dip" is now the base case, not a surprise add trigger.
+**Hold.** Position flat at entry ($57.36, now $57.50 = +0.24%). Tranche 2 plan locked for Apr 28 BOJ per v1.3 scenario matrix.
 
-| Action | Trigger | Level |
-|--------|---------|-------|
-| Tranche 2 (+4) | Apr 28 hold+dovish retrace (not base add) | $57.00-57.30 |
-| Tranche 2 (+4) | June hike confirmation / pre-June positioning break | $58-59 confirmation |
-| Aggressive add | Full ceasefire collapse + oil $115 | $56.50 |
-| Stop | Thesis break (USD/JPY >167 AND BOJ dovish) | $55.05 |
+### Tranche 2 Matrix (Apr 28 BOJ)
 
-**Note:** Tranche 2 logic needs Will's input given v1.3 reframing. Original card was "BOJ hold dip" as trigger — that's now the base case, not a surprise. Recommend: wait for Apr 28 outcome, re-assess add levels based on which of 4 scenarios fires.
+| Scenario | Prob | FXY reaction | Action |
+|---|---|---|---|
+| 1. Hike to 1.00% | ~10% | +4-7% gap | **No chase.** Optional +2 on pullback to $58.50-59.00; 2 reserved for June. |
+| 2. Hold + hawkish *(base case)* | ~45% | +1-2% | **+2 at $58.00-58.25** on confirmation. **+2 at $58.50+** or pre-June CPI. |
+| 3. Hold + neutral | ~35% | flat to -1% | HOLD. Optional +2 at $56.50 on disappointment. |
+| 4. Hold + dovish | ~10% | -2-3% | No add. Re-evaluate post-May. Stop discipline if $55.50 breaks. |
+
+**Pre-meeting:** MOF intervention before BOJ → +2 at $58.50 break. USD/JPY >161 without intervention → HOLD.
+
+**Stop $55.05 (thesis break only). Target $60-62. Full logic in TRADE.md.**
 
 ---
 

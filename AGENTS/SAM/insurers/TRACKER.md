@@ -1,7 +1,20 @@
 # Japanese Life Insurer Tracker
 
-**Last Updated:** 2026-04-13
-**Purpose:** Dashboard for tracking Big 10 insurer positioning, FY2026 investment plans, and repatriation signals. Updated as plans drop (expected Apr 14-25).
+**Last Updated:** 2026-04-24 (SAM-19 resolved FAILED FALSE; hedged-vs-unhedged nuance identified)
+**Purpose:** Dashboard for tracking Big 10 insurer positioning, FY2026 investment plans, and repatriation signals.
+
+---
+
+## ⚠️ KEY INSIGHT (Apr 24) — HEDGED vs UNHEDGED ROTATION
+
+FY2026 plans reveal insurers are NOT cutting foreign bonds in aggregate. They are rotating WITHIN the book:
+- **Unhedged foreign bonds:** REDUCING (hedge cost math bites)
+- **Hedged foreign credit:** INCREASING (ALM duration matching; super-long JGBs avoided)
+- **Net foreign bond total:** Flat to UP
+
+This reconciles why Feb TIC showed Japan UST holdings RISING (+$53.8B Dec→Feb) while MOF ITS showed Japan residents selling foreign bonds. Insurers were net-flat to up on USTs while shifting composition.
+
+**Channel 1 implication:** Thesis needs narrower framing — the repatriation is specifically UNHEDGED foreign bond unwind, not total foreign bond reduction. ESR disclosures mid-May become the critical signal (that's where unhedged FX loss exposure surfaces). Candidate v1.4 refinement.
 
 ---
 
@@ -9,11 +22,11 @@
 
 | Insurer | AUM (¥T) | FY2026 Plan? | Foreign Bond Direction | Super-Long JGB | Private Credit | Key Signal |
 |---------|----------|--------------|----------------------|----------------|----------------|------------|
-| **Nippon Life** | ~96 | ⏳ Expected ~Apr 24 | CUTTING (preparing for stronger yen) | REDUCING on book-value basis ("low liquidity, elevated volatility" in super-long) | EXPANDING ($3.25B TCW + ¥500B SMFG LBO fund) | Unrealized gains ¥12.0T→¥7.4T; domestic bond losses **-¥3.6T** (from -¥1.0T); ESR **222%** (-2pp) |
-| **Dai-ichi Life** | ~72.4 | ⏳ Expected ~Apr 21-25 | CUTTING (Oct survey) + doubling overseas strategic investment to **¥600B** | "Not in a hurry to buy" | EXPANDING (Canyon Partners, +¥40B FY2025); acquired M&G 15% (¥160B), Challenger (¥100B), Capula | ¥630B PC exposure (MS est.) |
-| **Meiji Yasuda** | ~52.9 | ⏳ Expected ~Apr 21-25 | CUTTING (explicit yen prep) | SHUNNING "for a year+" (since Jul 2025); "wait-and-see" on Takaichi fiscal policy | EXPANDING (¥600B over 3yr, ¥150B at Man Group) | ¥1.386T unrealized losses; ESR NOT DISCLOSED |
-| **Sumitomo Life** | ~37.5 | PARTIAL (Mar 18) | RESTRUCTURING (outsourced ¥2T to Symetra) | Unknown | EXPANDING (¥300B new FY2026, ¥1.6T total) | Outsourcing foreign bonds to US sub = repatriation signal |
-| **Fukoku Mutual** | ~8 | ⏳ Expected ~Apr 14-18 | CUTTING (Oct survey) | STOPPED buying 30Y/40Y (Jan 2026) | Unknown | First mover on super-long exit |
+| **Nippon Life** | ~96 | ✅ Apr 22 briefing (Ishida) | **AMBIGUOUS** — paring YEN bonds for higher-return assets; foreign direction unstated | REDUCING on book-value basis ("low liquidity, elevated volatility") | EXPANDING ($3.25B TCW + ¥500B SMFG LBO fund) | ME risk scenario = "upward pressure on inflation and long-term yields"; ESR **222%** (-2pp) |
+| **Dai-ichi Life** | ~72.4 | ⏳ No formal Apr announcement | **No clean cut** — prior stance: doubled overseas strategic investment to ¥600B | "Not in a hurry to buy" | EXPANDING (Canyon Partners, +¥40B FY2025); M&G 15% (¥160B), Challenger (¥100B), Capula | ¥630B PC exposure (MS est.); mgmt framework split Apr 1 (domestic vs global AM) |
+| **Meiji Yasuda** | ~52.9 | ⏳ (secondary signals) | **INCREASING** hedged foreign credit (ALM duration matching); unhedged reduction offset | SHUNNING super-long since Jul 2025; "looking for right time to buy" (Jan 2026 softer stance) | EXPANDING (¥600B over 3yr, ¥150B at Man Group; ¥50B FY2026 + ¥100B medium-term) | ¥1.386T unrealized losses; ESR NOT DISCLOSED |
+| **Sumitomo Life** | ~37.5 | PARTIAL (Mar 18) | RESTRUCTURING (outsourced ¥2T to Symetra) — not clean cut | Unknown | EXPANDING (¥300B new FY2026, ¥1.6T total) | Outsourcing foreign bonds to US sub = restructuring, not repatriation |
+| **Fukoku Mutual** | ~8 | ⏳ Expected ~Apr 14-18 | Unknown (Oct survey said "cut"; not confirmed in FY2026 plan) | STOPPED buying 30Y/40Y (Jan 2026) — DOMESTIC action | Unknown | First mover on super-long JGB exit (not foreign bond cut) |
 | **Japan Post Insurance** | ~55 | YES (Mar 3 CEO) | Selling low-yield JGBs | Unknown | Zero PC | Expects BOJ hike in April; expects 10Y at 2.5% |
 | **T&D Holdings** | ~18 | ⏳ Expected ~Apr 14-18 | Unknown | See Daido/Taiyo below | Includes Fortitude; ¥550B PC (MS est.) | — |
 | **Daido Life** (T&D) | — | ⏳ | Unknown | HOLDING OFF on superlongs | Unknown | — |
