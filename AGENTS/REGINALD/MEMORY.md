@@ -34,43 +34,32 @@
 
 ## Session Notes
 
-⚠️ **Open question:** Step 5 of OZK spinout — create `AGENTS/OZK/MEMORY.md` (move OZK-specific rows from REGINALD/MEMORY.md + duplicate cross-cutting Will feedback per D2=A). Spec in plan §4a.
-
-⚠️ **NEXT SESSION PRIORITY #1 (updated 2026-04-24 PM): RESUME OZK SPINOUT at Step 5.**
-
-**Plan doc is the source of truth:** `AGENTS/REGINALD/OZK_SPINOUT_PLAN.md` (rev 3, decisions locked).
-
-**Steps 1-4 complete (commits in this session):**
-- Step 1 ✅ `git mv AGENTS/REGINALD/OZK → AGENTS/OZK` — 131 files, pure rename. Commit `29df4f6d`.
-- Step 2 ✅ 3 cross-boundary `../` refs fixed in OZK/INDEX.md, TODO.md, STATUS.md. **Judgment call:** STATUS.md:65 "Full cross-bank calendar → ../CALENDAR.md" pointer was *dropped entirely* rather than mechanically swapped (plan said swap to local; semantics didn't match — Will's call: drop). Commit `df333272`.
-- Step 3 ✅ Checkpoint verification passed — OZK tree intact at new path, REGINALD/OZK gone, intra-OZK `../` refs resolve, self-fixing `../../BROCK/STATUS.md` now points at real file. Dangling MEMORY.md / CALENDAR.md refs expected until Steps 5-6.
-- Step 4 ✅ `AGENTS/OZK/CLAUDE.md` written — 247 lines, BROCK-modeled, OZK-scoped. Commit `f99bc4c8`.
-
-**Current state:**
-- `AGENTS/OZK/` exists at top level alongside BROCK/CARL/etc. Has CLAUDE.md.
-- Still missing: MEMORY.md, CALENDAR.md, LESSONS.md, POSITIONS.md, TRADE.md, inbox/, outbox/.
-- REGINALD-side `OZK/` references NOT yet updated (that's Step 11).
-- Root CLAUDE.md agent list NOT yet updated (Step 12).
-
-**Context for next session:**
-- SAM was actively working during this session (grew from 5 → 12 modified files in `AGENTS/SAM/`). Git hygiene: strict path staging only, never `git add .`. SAM may have pushed by next session — follow pull protocol.
-- Will handles position decisions himself; no tape/exit analysis self-directed.
-- Plan had one inconsistency I worked around: §5's optional `../REGINALD/MEMORY.md` boot step conflicts with §8 D2=A "local only". I kept it as "Situational, not routine" in OZK/CLAUDE.md. If Will prefers strict removal, one-line edit.
-- Will's preferred rhythm: ask before each commit, stop at checkpoints (Steps 3 and 13).
-
-**On boot:** normal boot sequence, then ask Will "ready to start Step 5 (OZK/MEMORY.md)?"
-
-See auto-memory `project_ozk_spinout_direction.md` for persistent direction.
+⚠️ **Open question:** Step 13 boot-test checkpoint pending — Will opens a fresh Claude Code session with cwd=`AGENTS/OZK/` and runs the 7-point validation per plan §10. All 7 must pass before Steps 14-16 proceed.
 
 ### CHANGES SINCE LAST SESSION
 *(populated at next boot via market.py)*
 
-### LAST SESSION (Apr 24 PM — OZK spinout Steps 1-4)
+### LAST SESSION (Apr 24 afternoon — OZK spinout Steps 5-12)
 
-Executed first 4 steps of the 16-step spinout plan. Three commits all pure/additive — no content drift, no REGINALD edits yet (Step 11 does those). Pre-boot Apr 23 PM session notes about the $495M gap / Jack & Boston resolutions are still relevant research context and carry forward into the OZK agent's memory via Step 5.
+Executed Steps 5-12 of the 16-step spinout plan. Eight commits across OZK/ infrastructure + REGINALD ref updates + root CLAUDE.md agent registration:
+- Step 5 `19f91531` — OZK/MEMORY.md (D2=A pattern; 6 moved Findings + 2 moved References + 12 duplicated rows)
+- Step 6 `2e0d73a7` — OZK/CALENDAR.md; REGINALD/CALENDAR.md pruned (4 rows + 3 empty sections removed)
+- Step 7 `5b93d612` — OZK/LESSONS.md (6 copied verbatim + OZK-framed NDFI rewrite)
+- Step 8 `f46fc1b0` — OZK/POSITIONS.md (clean D1 split, 11 contracts from OZK/STATUS.md as source of truth; REGINALD/POSITIONS.md stale warning scoped to non-OZK)
+- Step 9 `2f7b90de` — OZK/TRADE.md; REGINALD/TRADE.md pruned (4 prose blocks → pointer stubs; cross-bank tables kept)
+- Step 10 `5a796036` — OZK/inbox/ + outbox/ (.gitkeep scaffolding)
+- Step 11 `4c52daa0` — REGINALD CLAUDE.md/STATUS.md/2 outbox files: OZK/ → ../OZK/
+- Step 12 `8c5773c0` — root CLAUDE.md: OZK* added to active agents list + spinout note
 
-### NEXT SESSION — RESUME AT STEP 5
+**Side fix mid-session:** Killed PID 67726 (this session's Telegram poller) — was polling with WALTER's shared bot token, competing with WALTER's session. WALTER confirmed recovery post-kill and wrote its own memory handoff (commit `887b8d73`).
 
-Steps 5-10 create the remaining OZK agent infrastructure (MEMORY, CALENDAR, LESSONS, POSITIONS, TRADE, inbox/outbox). All specs in plan §4 + §5. Checkpoints at Step 13.
+**Currently pending push.** 8 spinout commits ahead of origin — Will asked to commit and push before running Step 13.
 
-**Positions unchanged** — no broker data this session.
+### NEXT SESSION — RESUME AT STEP 14 (after Will's Step 13 boot test passes)
+
+1. Confirm Step 13 boot test outcome with Will (7-point validation per plan §10). If any failure, work plan §9 rollback options.
+2. Step 14 — trim REGINALD/STATUS.md "RESEARCH — OZK" section (lines ~327-349) to a 5-10 line snapshot + pointer to ../OZK/STATUS.md. Add "refreshed from OZK/STATUS.md YYYY-MM-DD" note.
+3. Step 15 — `git mv AGENTS/REGINALD/OZK_SPINOUT_PLAN.md AGENTS/OZK/archive/OZK_SPINOUT_PLAN.md`.
+4. Step 16 is OZK agent's job (first real session handoff) — not REGINALD's.
+
+**Positions unchanged this session** — no broker data received. Thread 3 roll still pending with May 8 deadline (lives in `../OZK/POSITIONS.md` now).
