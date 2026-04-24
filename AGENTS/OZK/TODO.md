@@ -125,7 +125,13 @@ Currently 0.42% NCO super-prime clean. Quarterly earnings tracking. Inflection =
 ## Known Staleness — Deferred (not session scope)
 
 ### H1. `workbook/KB_INDEX.md` significantly behind
-Index header says "Total rows: 159 | Groups: 17" but actual KB.tsv has 192 data rows. Rows 160-192 not reflected in any group listing (prompt 20 Q1 integration + Apr 7 consensus work + Apr 22-23 sponsor/structural work + Apr 23 PM session). 30-60 min to update rollups if/when it becomes blocking. **Not currently blocking** — everyone reads via KB.tsv directly or through named files, not the index.
+Index header says "Total rows: 159 | Groups: 17" but actual KB.tsv has **196** rows (confirmed 2026-04-24 audit). Rows 160-196 not reflected in any group listing. 30-60 min to update rollups if/when it becomes blocking. **Not currently blocking** — everyone reads via KB.tsv directly or through named files, not the index.
+
+### H2. Hygiene items from 2026-04-24 tree audit (see `AUDIT.md`)
+- `INDEX.md:10` positions snapshot says "$42.5P Aug 21 × 1" — actual is × 3 per STATUS. 1 min fix.
+- `Q1_2026_ANALYSIS.md:1` header says "REGINALD ANALYSIS" — should be OZK. Cosmetic.
+- `research/README.md` "Current Files" table lists "OZK Thesis Feb25" as in `research/` — actually in `archive/`. Cosmetic.
+- **TRADE.md future** — Mar 7 REGINALD-vintage content with Apr 24 annotations patched on. Sections 1/3/4/5/6 preserved; section 2 missing. No unique role vs POSITIONS + THREAD3 + IQHQ_PLAYBOOK. Decide: shrink to live-state one-pager, archive, or keep. Will input needed.
 
 ---
 
