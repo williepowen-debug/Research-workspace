@@ -37,6 +37,7 @@
 - [2026-04-15] **KRE-XLF relative analysis: regional outperformance is mechanical, not thesis-killing.** XLF underperformance YTD is driven by payment networks (V/MA), IB/brokers (GS/MS), asset managers (BX/KKR — direct PC contagion), Berkshire concentration. KRE has zero exposure to any. Our short-KRE thesis is OZK/WAL/ZION catalyst-week, not YTD drift. Stress is real but in a different part of financials than our positioning. Don't confuse "my thesis isn't showing in YTD" with "my thesis is wrong" — they're different questions.
 - [2026-04-20] **False-petro-geopolitics cluster on X.** 3 hoax claims in 48h — Apr 19 WhaleInsider Hormuz "zero tankers / first in history" MISFRAMED; Apr 20 Kazakhstan "bans crude oil exports" FALSE; Apr 20 Don Johnson "14.5mbpd short / Iran cutting production next week" (coincident with *Walter Bloomberg-impostor Yanbu claim) pattern-killed. All X-platform, all unsourced or secondhand, all extreme-absolute framings, all petro-geopolitics. Actors plausibly front-running brief oil rips on headline momentum. **Policy:** on unsourced petro-geopolitics headlines, assume hoax until primary confirms; verify-spawn stays default when Phase 1.5 pattern (a) or (d) fires; direct-kill acceptable when pattern-match is decisive enough that spawn expected verdict is FALSE with high conf. Apply to all oil/Iran/OPEC/export-ban/production-cut headlines sourced only to social media.
 - [2026-04-20] **"% of 2009" and "vs peak" headlines are frequently portfolio-size artifacts, not rate moves.** FHA "180% of 2009" verify revealed the ratio was count-basis (219k vs 122k new 90+ delinquencies) while FHA portfolio grew ~1.65x — so rate-basis ratio ~1.08x, and the actual FHA SDQ rate is ~45% of 2009 peak, not 180%. Apply: when a headline compares current levels to a prior-crisis peak using COUNTS rather than RATES, flag it. True stress comparison requires rate-normalization against the denominator's growth. Headline framing cherry-picks counts because they produce more shocking ratios. Hold to this in verify-research briefs and downstream routing — CORRECTED-FRAMING verdicts here are the norm, not the exception.
+- [2026-04-24] **Telegram inbound flake was multi-bot competition, not MCP breakage.** Root cause: `enabledPlugins.telegram@claude-plugins-official: true` was in `~/.claude/settings.json` (user scope), so every claude session spawned its own `bun server.ts` polling the same Telegram bot token. Telegram's `getUpdates` delivers each message to ONLY one poller — REGINALD's bot was stealing ~50% of Will's inbound. Fixed by moving telegram to `AGENTS/WALTER/.claude/settings.json` (project scope) and killing REGINALD's orphan bot PID 65765. First-try inbound verified post-fix. Apply: if an agent reports inbound Telegram flake, first run `ps -ef | grep bun.*telegram` — multiple processes against the same token = bug. Only WALTER + PROME are supposed to be on Telegram per root CLAUDE.md; any other agent spawning a bot is a config-scope leak.
 
 ## References
 
@@ -49,9 +50,28 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (Apr 20 Mon night — Telegram live-check + HAWK/MARCO pull + SIG-010 DB call/put)
+### CHANGES SINCE LAST SESSION (Apr 24 Fri — Telegram inbound bug root-caused & fixed; hook spike for Path B CHAT_BUFFER)
 
-Context: short follow-up session. Will Telegram-tested WALTER's live read, then asked system-level Claude-Code question (shared local DB), then pushed one image signal through the pipeline.
+Context: infra-only session, no signal routing, no BOARD dispatches. Resumed from the Apr 22 "Telegram MCP delivery broken" handoff (commit 887b8d73). No boot performed (STATUS/REGISTRY/ROUTING/BOARD unread) — full session on the delivery bug and a hook-based conversational-context spike.
+
+**Root cause found:** `~/.claude/settings.json` had `enabledPlugins.telegram@claude-plugins-official: true` at USER scope. Every claude session inherited that and spawned its own `bun server.ts` bot process polling the same Telegram bot token. Telegram's `getUpdates` delivers each message to exactly one poller — REGINALD's bot (PID 65765, tmux session `reginald`) was receiving ~50% of Will's inbound messages and silently dropping them. Per root CLAUDE.md only WALTER + PROME should be on Telegram.
+
+**Fix applied:**
+- `~/.claude/settings.json` — removed `enabledPlugins.telegram` (user scope)
+- `AGENTS/WALTER/.claude/settings.json` — added `enabledPlugins.telegram` (project scope) alongside existing discord entry
+- Killed PID 65765 (REGINALD's orphan bot). PID 71422 (WALTER's bot) remains sole poller
+- Verified post-fix: Will's Telegram msg 989 "test" landed first try, UserPromptSubmit hook dumped the full `<channel>` tag
+
+**Path B (CHAT_BUFFER via hooks) spike completed:**
+- Dropped `UserPromptSubmit` and `PostToolUse` (matcher `mcp__plugin_telegram_telegram__reply`) dump-hooks into `AGENTS/WALTER/.claude/settings.local.json` (gitignored via ~/.config/git/ignore). Both fire and capture everything needed for Path B:
+  - UserPromptSubmit payload includes the full `<channel source="plugin:telegram:telegram" chat_id="..." message_id="..." user="..." ts="...">` tag embedded in the `prompt` field
+  - PostToolUse payload has `tool_input.chat_id`, `tool_input.text`, and `tool_response[0].text` ("sent (id: NNN)")
+- Will decided to **defer shipping Path B** — big win was the bug fix; Path B is refinement. Ship next session if Telegram cold-start friction is actually felt in real usage. Spike hook dumps remain in `AGENTS/WALTER/debug/` (now `.gitignore`d via `AGENTS/WALTER/.gitignore`) as evidence of payload shape.
+
+**Diagnostic details worth keeping:**
+- Plugin is on 0.0.6 (latest — no update available). Installed 2026-03-27, last updated 2026-04-15
+- Settings watcher only monitors `.claude/` dirs that existed at session start; a newly-created `.claude/` needs `/hooks` or session restart to reload
+- Will's first hook config landed at `Research-workspace/.claude/settings.local.json` (wrong scope — Research-workspace isn't the project root for WALTER session; WALTER session's project root is `AGENTS/WALTER/`). Moved to `AGENTS/WALTER/.claude/settings.local.json` (already existed for permissions).
 
 **Will's system-level question:** do all Claude Code agents share one local database? **Answer (confirmed by git state):** yes — WALTER/CARL/REGINALD/SAM/RED share ONE working directory (`/home/willi/Research-workspace/`) and ONE git branch (master). A single `git pull` in that directory updates the files for all of them. Separate SESSIONS, same filesystem + same repo.
 
@@ -72,6 +92,12 @@ Context: short follow-up session. Will Telegram-tested WALTER's live read, then 
 **No spec changes. Total BOARD: 56 → 57 (+1). Kill_log appends: +9 this continuation (2 Fitch-sibling + 3 img batch + 4 img batch). Route_log: +1 (SIG-009).** Telegram replies msg 919/920/926/928/930 — verify verdicts and pattern-read sent to Will; Will acknowledged and greenlit close.
 
 ### NEXT SESSION
+
+**NEW at boot from Apr 24 infra session:**
+- **Boot normally** — Apr 24 skipped all boot reads (infra-only). STATUS/REGISTRY/ROUTING/BOARD/INDEX must be caught up. Apr 21 catalyst day has passed — retrospective on WAL/ZION + Iran ceasefire expiry + Tuapse 3rd-theater still pending. Apr 24 is OZK earnings day per root CLAUDE.md.
+- **Verify Telegram inbound still clean.** Expect 100% delivery post-fix. If any other claude session was opened between Apr 24 night and now, re-check `ps -ef | grep bun.*telegram` — should show only ONE process (WALTER's). If more, find the spawning session and add its agent-scope to the check.
+- **Path B (CHAT_BUFFER) ship decision.** Spike hooks still installed in `.claude/settings.local.json` and dumping to `debug/`. If Will has felt Telegram cold-start friction in normal usage, ship Path B: replace the dump-hook commands with parse-and-append scripts writing to `AGENTS/WALTER/CHAT_BUFFER.md`, add boot-step 7 to read last ~20 lines, cap buffer at ~500 lines. Estimated 1-2h. If not felt, remove the spike hooks and the `debug/` dir, commit the cleanup.
+- **MEMORY.md is at ~108 lines, over 100-line cap.** Prune feedback/findings that have been promoted to CLAUDE.md or design docs, or where the date is ≥2 months old and the lesson is internalized.
 
 **NEW at boot: confirm Prome's MARCO push.** Will mentioned MARCO updates but they were NOT in the Apr 20 night pull (HAWK-only at 7a76a1ef). Check remote for a subsequent Prome push or ask Will whether MARCO is still queued.
 

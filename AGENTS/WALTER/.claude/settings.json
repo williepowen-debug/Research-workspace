@@ -1,5 +1,6 @@
 {
   "enabledPlugins": {
-    "discord@claude-plugins-official": true
+    "discord@claude-plugins-official": true,
+    "telegram@claude-plugins-official": true
   }
 }
