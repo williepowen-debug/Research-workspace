@@ -42,75 +42,43 @@
 
 ## Session Notes
 
-⚠️ **NEXT SESSION PRIORITY #1 (set 2026-04-24 AM): EXECUTE OZK SPINOUT.**
+⚠️ **Open question:** Step 5 of OZK spinout — create `AGENTS/OZK/MEMORY.md` (move OZK-specific rows from REGINALD/MEMORY.md + duplicate cross-cutting Will feedback per D2=A). Spec in plan §4a.
 
-**Plan doc is the source of truth:** `AGENTS/REGINALD/OZK_SPINOUT_PLAN.md` (rev 3, all decisions locked).
+⚠️ **NEXT SESSION PRIORITY #1 (updated 2026-04-24 PM): RESUME OZK SPINOUT at Step 5.**
 
-**On boot:** normal boot sequence, then read the plan doc top-to-bottom, then ask Will "ready to start Step 1?" Follow the plan's §0 Quickstart. Don't re-derive anything — the plan is self-contained.
+**Plan doc is the source of truth:** `AGENTS/REGINALD/OZK_SPINOUT_PLAN.md` (rev 3, decisions locked).
 
-**Still-relevant context NOT in the plan:**
-- Will handles position decisions himself; do not self-direct tape/exit analysis
-- No broker data this session — positions unchanged
+**Steps 1-4 complete (commits in this session):**
+- Step 1 ✅ `git mv AGENTS/REGINALD/OZK → AGENTS/OZK` — 131 files, pure rename. Commit `29df4f6d`.
+- Step 2 ✅ 3 cross-boundary `../` refs fixed in OZK/INDEX.md, TODO.md, STATUS.md. **Judgment call:** STATUS.md:65 "Full cross-bank calendar → ../CALENDAR.md" pointer was *dropped entirely* rather than mechanically swapped (plan said swap to local; semantics didn't match — Will's call: drop). Commit `df333272`.
+- Step 3 ✅ Checkpoint verification passed — OZK tree intact at new path, REGINALD/OZK gone, intra-OZK `../` refs resolve, self-fixing `../../BROCK/STATUS.md` now points at real file. Dangling MEMORY.md / CALENDAR.md refs expected until Steps 5-6.
+- Step 4 ✅ `AGENTS/OZK/CLAUDE.md` written — 247 lines, BROCK-modeled, OZK-scoped. Commit `f99bc4c8`.
+
+**Current state:**
+- `AGENTS/OZK/` exists at top level alongside BROCK/CARL/etc. Has CLAUDE.md.
+- Still missing: MEMORY.md, CALENDAR.md, LESSONS.md, POSITIONS.md, TRADE.md, inbox/, outbox/.
+- REGINALD-side `OZK/` references NOT yet updated (that's Step 11).
+- Root CLAUDE.md agent list NOT yet updated (Step 12).
+
+**Context for next session:**
+- SAM was actively working during this session (grew from 5 → 12 modified files in `AGENTS/SAM/`). Git hygiene: strict path staging only, never `git add .`. SAM may have pushed by next session — follow pull protocol.
+- Will handles position decisions himself; no tape/exit analysis self-directed.
+- Plan had one inconsistency I worked around: §5's optional `../REGINALD/MEMORY.md` boot step conflicts with §8 D2=A "local only". I kept it as "Situational, not routine" in OZK/CLAUDE.md. If Will prefers strict removal, one-line edit.
+- Will's preferred rhythm: ask before each commit, stop at checkpoints (Steps 3 and 13).
+
+**On boot:** normal boot sequence, then ask Will "ready to start Step 5 (OZK/MEMORY.md)?"
 
 See auto-memory `project_ozk_spinout_direction.md` for persistent direction.
 
 ### CHANGES SINCE LAST SESSION
 *(populated at next boot via market.py)*
 
-### LAST SESSION (Apr 23 PM — Session 1 subdir refresh + $495M gap, Session 2 Phase 1 external records research)
+### LAST SESSION (Apr 24 PM — OZK spinout Steps 1-4)
 
-**Session 2 Phase 1 (after Session 1 commit):** Two parallel general-purpose spawns for external records research.
+Executed first 4 steps of the 16-step spinout plan. Three commits all pure/additive — no content drift, no REGINALD edits yet (Step 11 does those). Pre-boot Apr 23 PM session notes about the $495M gap / Jack & Boston resolutions are still relevant research context and carry forward into the OZK agent's memory via Step 5.
 
-- **B2 "The Jack" / Pioneer Square $25.9M — ✅ RESOLVED HIGH.** 74 S Jackson St Seattle, Urban Visions sponsor, 145K SF class A office TCO June 2023, 100% vacant. OZK took out Mack Real Estate Credit Strategies' $90M construction loan (Feb 2022 JLL-arranged) with $72.5M OZK commitment. Balance math reconciles exactly. Bisnow Sep 2025 direct naming. SEVEN_CREDIT §2 #3 upgraded MED → HIGH. KB-OZK-193.
-- **B1 Boston Life Sci $169M — ⚠️ → ✅ RESOLVED HIGH.** Will executed MassLandRecords browser pull Apr 23 PM; found **UCC-1 Financing Statement Bk 85169 Pg 222, Doc #9975, filed Jan 29 2026** — Debtor = 31 Union Square D2.1 Owner LLC; Secured Party = Bank OZK; Property = 10 Prospect Street Somerville; underlying lien instrument dated Dec 31 2020 (Bk 76638 Pg 224). Dispositive for **Candidate A**. Maturity-mismatch concern also resolved: actual docs date is Dec 31 2020 (not Feb 1 2021 as spawn used), 5yr anniversary Dec 31 2025 aligns with OZK's disclosed Dec 18 2025 maturity. Jan 29 2026 post-maturity UCC-1 re-perfection = classic early-workout security-interest refresh. Severity band narrowed to $35-55M (from $40-65M) given institutional JV capacity (Magellan + RAS + Cypress + Affinius). KB-OZK-195 (verdict), KB-OZK-194 (sponsor correction), KB-OZK-189 status updated.
-- **Cathartes correction applied to 4 places:** SEVEN_CREDIT §2 #5 (principal), TODO #1, research/threads/IQHQ_SECONDARY_EXPOSURE.md, KB-OZK-194 (new row).
+### NEXT SESSION — RESUME AT STEP 5
 
-**Net Session 2 outcome:** both external-records items RESOLVED HIGH. UCC filing saved at `OZK/raw/OZK financing statement form.pdf`.
-
-**Original mortgage pulled + analyzed (Apr 23 PM):** Bk 76638 Pg 224 (22 pp). Required `sudo apt-get install poppler-utils` first — pdftoppm now available on this WSL. Body-text confirmed $119.2M principal exactly; building is mixed-use 194,033 SF NRSF (173K lab + 12K retail + 9K A&C), not pure spec lab as prior files said; "Not a Revolver Facility" explicit; construction mortgage under MA Ch 106 §9-334; first/prior lien; King & Spalding LLP (Erik F. Andersen) as OZK counsel. **Stated maturity / rate / extension provisions live in the unrecorded Promissory Note + Loan Agreement — not obtainable from public registry.** KB-OZK-195 Fact + Source fields updated with body-text corroboration.
-
----
-
-### Session 1 (Apr 23 PM earlier — subdir refresh + $495M gap + KB additions)
-
-**Scope:** Post-Q1 integration session. Cleared the subdir refresh queue identified during the AM session, characterized the $495M unmapped classified/criticized gap, added 7 KB rows, logged two new material findings.
-
-**Spawn pattern:** 3 parallel Explore agents (single message, independent): (1) Q1 transcript + Mgmt Comments extraction for Fund Finance / NDFI / non-bank lender quotes, (2) staleness survey across LIFE_SCI / GEOGRAPHY / PRIVATE_CREDIT subdirs, (3) raw PDF catalog of classified/criticized detail beyond the 11 named credits. One retry needed on spawn #3 (prompt-too-long on first attempt). Clean context hygiene — 3 big PDFs never entered main window.
-
-**Two new material findings:**
-1. **LFG ALSO compressing** (not just Fund Finance). Jake Munn's Q1 call disclosed pricing + structure compression in Lender Finance Group too — so 2 of 4 CIB sub-segments in managed retreat, not 1. Broader story than prior framing.
-2. **Asymmetric disclosure.** Jake Munn's pullback statements appear in the spoken earnings call transcript ONLY — NOT in the durable written Management Comments PDF (which shows Fund Finance growing $210M → $1.275B YoY with no commentary on the margin erosion). Management reluctant to formalize the competitive problem in durable documentation. Signal fits the broader extend-and-pretend posture noted elsewhere in thesis. Watch Q1 10-Q (~May 5) — does written disclosure pick it up?
-
-**$495M gap — characterized (not solved):**
-- Special Mention $397M is fully opaque at project level. Only resolvable at May 1-10 Call Report (FFIEC RC-N). Do NOT chase via forensic research.
-- ~$98M sub-threshold RESG tail ($57M non-accrual + $37M accrual + $4M foreclosed) is probably not individually actionable; watch Q2 26 Figure 24 for cohort migration.
-- Non-RESG classified (CIB, Community Banking, Indirect) is a blind spot — implied near-zero but not itemized. 10-Q (~May 5) MD&A can verify.
-
-**Files touched (OZK-only):**
-- `PRIVATE_CREDIT/` (4 files): NDFI_EXPOSURE.md (+Q1 Update section), TRANSMISSION.md (+Channel 3 amplifier), STATUS.md (rewrite), README.md (rewrite). Narrative: "lends to the lenders" → "lends to AND competes with the lenders."
-- `LIFE_SCI/` (3 files): FINDINGS.md (Finding 2 corrected — Aug 2028 extension was a research error; Finding 18 added for Q1 new credits), README.md (rewrite), STATUS.md (rewrite). IQHQ Aug 2028 error propagation fixed across all three files.
-- `GEOGRAPHY/STATUS.md`: +3 new metro credits (Seattle U Dist $127M, Santa Monica $45M foreclosed, Chicago Life Sci $50M foreclosed). Distressed cluster total $2.9B → $3.1-3.3B.
-- `SEVEN_CREDIT_DEEP_DIVE.md`: new §3A "Rest of Problem Book" with gap decomposition + prioritization logic (don't chase Special Mention).
-- `workbook/KB.tsv`: +7 rows. 186-188 PRIVATE_CREDIT (Fund Finance pullback, LFG compression, asymmetric disclosure). 189-191 LIFE_SCI (Boston $169M, Seattle U Dist $127M, Chicago foreclosed $50M). 192 GEOGRAPHY (Santa Monica foreclosed $45M).
-- `TODO.md`: subdir queue cleared, gap char marked done, KB_INDEX staleness flagged as deferred.
-
-**KB ID collision caught and fixed mid-session:** Drafted subdir updates using KB-178-180 for new credits, but those IDs already held Rossow / Boynton Yards / Vertical Compression rows from the prior AM session. Re-numbered to 186-192 across 4 files (LIFE_SCI ×3, GEOGRAPHY/STATUS.md ×2 edits).
-
-**Known deferred staleness:**
-- `workbook/KB_INDEX.md` — dated Mar 25, claims 159 rows, actual 192. Rows 160-192 not in cluster rollups. 30-60 min to refresh. Not blocking — agents read KB.tsv directly.
-- Root REGINALD `STATUS.md` pruning (still 572+ lines, Apr 7/9/10 briefs should archive). Carryover.
-- OZK/STATUS.md was refreshed earlier this session (AM) — that part is done.
-
-### NEXT SESSION — EXECUTE THE PLAN
-
-**Primary action:** Read `OZK_SPINOUT_PLAN.md` and work Steps 1-16.
-
-**The plan is self-contained.** All content extraction specs, reference maps, step-by-step migration, and checkpoints are in the plan doc. You do NOT need to re-derive the design — it was locked in this session (Apr 24 AM).
-
-**Checkpoints (must wait for Will's green light):**
-- Step 3: after `git mv` + 3 cross-ref fixes — verify OZK dir reads cleanly
-- Step 13: after all file creation + REGINALD edits + root CLAUDE.md — boot test in fresh OZK session (7-point checklist in plan §10)
-
-**Ask of Will at boot:** "Booted. Ready to start Step 1 (git mv AGENTS/REGINALD/OZK → AGENTS/OZK)?"
+Steps 5-10 create the remaining OZK agent infrastructure (MEMORY, CALENDAR, LESSONS, POSITIONS, TRADE, inbox/outbox). All specs in plan §4 + §5. Checkpoints at Step 13.
 
 **Positions unchanged** — no broker data this session.
