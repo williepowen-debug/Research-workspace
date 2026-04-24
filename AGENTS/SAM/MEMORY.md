@@ -52,30 +52,38 @@
 - Apr 22 Nippon Life briefing — paring yen bonds, foreign direction ambiguous
 - Apr 23 March CPI core 1.8% (accelerated, still sub-target)
 
-### LAST SESSION (Apr 24 — v1.3 thesis refresh)
+### LAST SESSION (Apr 24 — v1.3 thesis refresh + Tranche 2 lock + SAM-19 close)
 
-- **Boot:** All 7 boot scripts green. Market flat over 11 days despite major catalysts.
-- **Research:** 11 parallel web searches across 4 domains (BOJ, TIC, insurers, trade/CPI). Closed all 7 research gaps.
-- **THESIS refresh v1.2 → v1.3:** Minor version bump. Structure intact, channels intact, conviction HIGH. What changed: TIMING (BOJ April → June base case) and FLOW PACE framing (Stress → Base). Full rationale in CHANGELOG 2026-04-24 entry.
-- **Key file updates:**
-  - `CHANGELOG.md` — v1.3 entry with old→new view + intellectual restraint section
-  - `THESIS.md` — header, one-liner, Channel 1-2-3 updates, catalyst sequence rebuilt, Oil-in-Yen Phase 1 downgrade, thresholds updated, predictions section added FALSIFIED sub-table
-  - `TIMELINE.md` — 8 events marked RESOLVED (Apr 13-23), forward section rebuilt for June base case, branch point table expanded
-  - `PREDICTIONS.tsv` — SAM-16 CONFIRMED, SAM-17/18 FAILED, SAM-19/20 status refreshed, added SAM-21 (June hike 70%) + SAM-22 (CFTC persistence 65%)
-  - `STATUS.md` — full rewrite reflecting v1.3
-  - `CALENDAR.md` — rebuilt around Apr 28 binary + May ESR + June hike
+**Part 1: 11-day gap closure + THESIS v1.3**
+- Boot green. 11 parallel web searches across 4 domains (BOJ, TIC, insurers, trade/CPI).
+- THESIS v1.2 → v1.3: minor bump. TIMING stretch (BOJ April → June base case), flow pace Stress → Base. Structure, channels, conviction HIGH unchanged. Full rationale in CHANGELOG 2026-04-24 entry.
+- Updated: CHANGELOG, THESIS, TIMELINE, PREDICTIONS (SAM-16 TRUE, SAM-17/18 FALSE, +SAM-21/22), STATUS, CALENDAR.
+- Committed as `92fd12c4` and pushed.
 
-**Calibration note:** 2 of 3 resolvable predictions FALSE. Pattern: over-weighted acceleration signals vs reversion. SAM-17 miss driven by stock-vs-flow confusion. SAM-18 was 50/50 going in. Reading Apr 11 lesson ("one data point rarely justifies 15-25pp shifts") correctly avoided the opposite mistake — kept scenario weights at 70/25/5.
+**Part 2: Tranche 2 matrix locked (P0)**
+- Replaced old "BOJ hold dip" card with 4-scenario matrix in TRADE.md + STATUS.md.
+- Decision: **no chase on surprise hike**. Modal outcome (hold+hawkish ~45%) → add +2 at $58.00-58.25, +2 more at $58.50+ or pre-June CPI. Dry powder reserved for June hike (true base case, SAM-21 @ 70%).
+- Will's call: reframe clarified that chase design was for a 10% branch; the actual decision simplified to calm hawkish-hold adds.
+
+**Part 3: SAM-19 resolved FAILED FALSE (P1)**
+- Zero of 5 insurer plans announced clean foreign bond cuts.
+- **Key thesis-level finding:** insurers rotating WITHIN foreign bonds (unhedged DOWN, hedged UP for ALM matching). Reconciles Feb TIC mystery. Channel 1 signal narrower than framed — mid-May ESR disclosures are the real test.
+- Finding logged as candidate v1.4 refinement. NOT bumped to v1.4 today per Apr 11 restraint lesson.
+- TRACKER.md updated with KEY INSIGHT section + Nippon/Meiji Yasuda rows corrected.
+- Committed as `35eeff13` and pushed.
+
+**Calibration note:** 3 of 4 resolvable predictions FALSE (SAM-17, 18, 19). SAM-19 miss was most informative — exposed a thesis MODEL gap (binary cut/not-cut missed mix-shift reality), not just data interpretation. Scenario weights held at 70/25/5 per restraint lesson; correct call to not over-rebalance.
 
 ### NEXT SESSION
 
-1. **🔴🔴 Apr 28 (Tue): BOJ MPM + Outlook Report + Ueda presser.** Base case HOLD + hawkish (v1.3 ~45%). 4-outcome scenario tree in STATUS.md. Post-meeting: update STATUS, resolve SAM-20, consider FXY Tranche 2 action.
-2. **🔴 Mon Apr 27 pre-meeting:** Run `boot.py`. Watch USD/JPY drift toward 160; MOF intervention risk rising. Check for any Reuters/Nikkei trial balloons in Asia overnight.
-3. **🟠 Apr 21-25 remaining insurer plans:** Meiji Yasuda, Dai-ichi, Sumitomo. Update TRACKER.md. Resolve SAM-19 (trending FALSE).
-4. **🟠 Apr 30 (Thu): 2Y JGB auction** — routine, lower priority.
-5. **🔴 Mid-May: ESR disclosures (FY2025) begin.** Now ELEVATED importance per v1.3. Big 4 ESR levels are Channel 1's next real test.
-6. **🔴🔴 Mid-June: BOJ MPM — NEW BASE CASE HIKE.** SAM-21 (70%). Prep scenario tree closer to date.
-7. **Tranche 2 logic revision:** Pre-BOJ discussion with Will — original card said "BOJ hold dip" was trigger, but that's now base case. Either wait for Apr 28 outcome and re-rank triggers, or pre-stage levels for each of 4 scenarios.
+1. **🔴 Mon Apr 27 pre-meeting boot.** Run `boot.py`. Watch USD/JPY drift toward 160; MOF intervention risk. Check Reuters/Nikkei for overnight BOJ trial balloons.
+2. **🔴🔴 Tue Apr 28: BOJ MPM + Outlook Report + Ueda presser.** Base case HOLD+hawkish (~45%). Tranche 2 matrix in STATUS.md/TRADE.md — no chase on hike. Post-meeting: update STATUS, resolve SAM-20, execute Tranche 2 if scenario triggers.
+3. **🟠 Apr 30 (Thu): 2Y JGB auction** — routine.
+4. **🔴 Mid-May: ESR disclosures (FY2025) begin.** ELEVATED per v1.3 + hedged/unhedged nuance. Big 4 ESR levels are now Channel 1's primary test. If Meiji Yasuda discloses and ESR <200% → potential v1.4 trigger.
+5. **🟠 ~May 20: April trade balance.** First post-blockade month — Phase 1 re-test.
+6. **🟠 Late May: April CPI.** Oil passthrough fully visible; June hike lock check.
+7. **🔴🔴 Mid-June: BOJ MPM — NEW BASE CASE HIKE (SAM-21 @ 70%).** Prep scenario tree closer to date.
+8. **v1.4 decision gate:** after ESR disclosures, evaluate whether hedged/unhedged nuance warrants thesis refinement.
 
 ### INFRASTRUCTURE STATUS (persistent)
 - Boot scripts working cleanly (10-second total). MOF ITS auto-updated through Apr 12-18 week. CFTC auto-refresh working.
