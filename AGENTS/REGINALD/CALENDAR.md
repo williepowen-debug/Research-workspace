@@ -1,6 +1,6 @@
 # REGINALD CALENDAR
 
-**Last Updated:** 2026-04-22 ~10:45 ET (WAL + OZK Q1 ✅ resolved; IQHQ maturity corrected; OZK sub notes reprice added) | **View:** Forward-looking only. Past events pruned weekly.
+**Last Updated:** 2026-04-24 (OZK spinout Step 6 — OZK-specific events extracted to `../OZK/CALENDAR.md`) | **View:** Forward-looking only. Past events pruned weekly.
 
 ---
 
@@ -23,7 +23,6 @@
 |------|-------|---------------|-------------------|-----------|
 | **Apr 21 ✅** | **WAL Q1: GAAP EPS $1.65 MISS / Adj $2.22 BEAT** — resolved | Full synthesis → `WAL/Q1_2026_ANALYSIS.md`. **V2 FRAUD CONFIRMED LIVE: LAM $126.4M + Cantor $26.1M = $152.5M charge-offs.** Vecchione labeled "two fraud-related credits." $50.5M security sales gains = "mitigation strategy" (RF-playbook cohort 2/2). LAM = Leucadia Asset Management (Jefferies subsidiary post-2013). Ex-fraud NCO 0.39%. CET1 11.0%. Deposits +$5.6B QoQ. | Tape -2.04% Apr 22 AM → back below $78 threshold. Cohort fade pattern 8/8. | REGINALD, BROCK, OTTO |
 | Apr 20 | WTFC Q1 earnings (after-market) | — | — | — |
-| **Apr 21 ✅** | **OZK Q1: EPS $1.44 MISS vs $1.46** — resolved | Full synthesis → `OZK/Q1_2026_ANALYSIS.md`. **Past due DOUBLED QoQ $207M → $465M.** Classified+criticized +23% QoQ. 3 new substandard (2 Seattle U Dist w/ signed LOI, 1 Boston Life Sci $169M). 2 new foreclosed (Chicago Life Sci $50M, Santa Monica Office $45M at 15% leased). Near-zero LTVs: Boston Office 95%, Seattle Pioneer 100%, Wauwatosa Hotel 103%. NCO 0.57% in-line. **OZK PULLING BACK from Fund Finance (Jake Munn).** | Tape -1.46% Apr 22 AM. Slow-grind thesis confirmed; no fire. | REGINALD, CREED |
 | ~Apr 22 | PB Q1 earnings | TX CRE, provisions | — | — |
 | **Apr 28** | **RITM Q1 earnings** | Ginnie MSR performance, DQ trend | Mgmt claim "DQ will reverse in Q1" — testable. If fails, confirms CARL non-bank servicer stress thesis → warehouse transmission. | CARL, REGINALD (WAL V3) |
 | **May 6** | **APO Q1 earnings** (pre-market, 8:30 AM ET webcast) | Atlas SP segment disclosure; warehouse book size; any non-bank servicer counterparty commentary | New watch (Apr 14 warehouse research): Atlas SP = dominant warehouse provider to stressed non-bank mortgage servicers ($6.9B at PFSI = 78% concentration). Adds to existing APO stack (MFS fraud, First Brands, Epstein May 21, Athene). | REGINALD, CARL |
@@ -40,10 +39,8 @@
 |------|-------|---------------|-------------------|-----------|
 | **TBD May** | **ROAD to Housing Act House vote** | Drafting errors that would *decrease* FHA MF limits below current law (per industry comments). If enacted as-written = bearish MF refi/takeout 2026-2027. | Contradicts bill's stated intent. WALTER caught: SIG-W-20260414-005. | CREED, BROCK |
 | **~May 1-10** | **Q1 Call Report filings (FFIEC)** 🔴 | MI3 ratios, NDFI, AOCI detail, CRE DQ by category, TDR/mods. **NEW for OZK:** RESG classified detail, specific reserves on problem credits (validate Thread 1 EL estimates). | WAL MI3 ≥25% = acceleration. **More important than earnings for thesis.** Now: reconcile to CFG Slide 24's $19.6B preliminary NDFI. | PROME, REGINALD |
-| **May-Jun 2026** 🆕 | **Bluerock Q1 2026 NAV marks (3/31 fund reports)** | Further markdown on IQHQ PIK holdings ($246M outstanding at 13.5-14%) — bigger mark-down = sponsor credit spiraling, IQHQ Scenario A (extension) probability falls further | Any incremental markdown = Scenario B/D probability rises. Cross-check T. Rowe Price, Altegris, Highland/NexPoint, Aimco Q1 marks. | REGINALD, BROCK |
 | May 12 | WAL Investor Day | Management response to thesis vectors. Indirect IQHQ commentary possible (WAL has separate relationship?) | — | PROME |
 | **May 15** | **KRE $70P expiry** | Position management | Roll/close decision needed by ~May 8 | FORGE |
-| **May 15** 🆕 | **OZK $42.5P and $45P (May) expiry** | **Thread 3 roll decision** — May 15 is too tight for RaDD Aug 2026 maturity catalysts. Candidates: $45P Aug, $40P Aug, $45P Sep, $42.5P Sep. | Roll by ~May 8. Hold would expire worthless absent pre-maturity OZK move. | FORGE, REGINALD |
 | ~Mid-May | FDIC Quarterly Banking Profile | Aggregate CRE DQ, NDFI growth, provision trends | NDFI still +35% YoY = doubling down | PROME |
 | May 21 | APO class action deadline | PC sector headline risk | — | BROCK |
 
@@ -52,29 +49,8 @@
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |------|-------|---------------|-------------------|-----------|
 | **Jun 1** | **Reinsurance renewals** | FL property insurance pricing, carrier exits | Premium hikes compound SIRS + 4x CRE insurance squeeze (ML-REG-137) | CORAL, OZK, SSB |
-| **Early Jun** 🆕 | **IQHQ motion-to-dismiss response (Aimco v. IQHQ, Delaware Chancery)** | ~60 days from April 2026 filing. Weak motion or partial denial = suit escalates, new capital raises further chilled, IQHQ Scenario A probability falls. | Motion granted = overhang lifts (bullish for OZK). Motion denied = discovery exposes Bluerock PIK/IIP terms (bearish for OZK). | REGINALD, BROCK |
 | **Jun 18** | **AOCI capital rewrite comment period closes** | Final rule direction, industry opposition | Cat III/IV impact ($49.5B aggregate) | ALL banks |
 | **Jun 18** | **Options expiry cluster** | WAL $85P, WAL $65P, SSB $90P, KRE multi, IWM $250P, HYG $75P | Position management decisions needed by ~Jun 11 | FORGE |
-
-## JULY
-
-| Date | Event | What to Check | Threshold / Signal | Who Cares |
-|------|-------|---------------|-------------------|-----------|
-| **Mid-Late Jul** 🆕 | **OZK Q2 2026 earnings call** (dress rehearsal for Aug maturity) | Gleason's Aug IQHQ resolution preview. Q2 specific reserve build. Classified+criticized trajectory. | Any Q2 specific reserve on RaDD >$100M = Scenario B firing early. Extension language w/o cure = Scenario A. | REGINALD |
-| **Late Jul** 🆕 | **Campus at Horton post-foreclosure leasing update** | Downtown SD lab comp — if AllianceBernstein has leased any of the 770K SF since Sep 2025 credit bid, implies better demand than thesis baseline. | Leasing activity → RaDD severity lower. Still empty → RaDD severity 65-70% holds. | REGINALD |
-
-## AUGUST
-
-| Date | Event | What to Check | Threshold / Signal | Who Cares |
-|------|-------|---------------|-------------------|-----------|
-| **Aug 2026** | **IQHQ RaDD loan MATURITY (OZK)** ⚠️ PLAYBOOK → `OZK/IQHQ_PLAYBOOK.md` | **Weighted EL $140M (22% of ACL).** 4 scenarios: A-extend (20%), **B-substandard migration (50%)**, C-takeout (12%), **D-foreclosure (18%)**. Watch: sponsor brings new equity (A), OZK curtails/reserves (B), third-party recap (C), or takes title/note sale (D). | Scenario B fires = specific reserve $140-195M = largest in OZK history. Scenario D = $275-360M realized loss = 44-57% of ACL. 68% probability of $140M+ event. | REGINALD, CREED, FORGE |
-
-## OCTOBER
-
-| Date | Event | What to Check | Threshold / Signal | Who Cares |
-|------|-------|---------------|-------------------|-----------|
-| **Oct 1, 2026** | **OZK $350M subordinated notes reprice** 🆕 NEW (from Q1 Mgmt Comments) | Floating rate kicks in: 2.75% fixed → SOFR+209bps (~6.4% at current SOFR). **Tier 2 capital treatment reduced 20% for 12 months.** Management explicitly "no plans to redeem or issue replacement." | +$12.8M/yr interest expense (~$0.09 EPS annual drag). NIM headwind not in most street models. | REGINALD |
-| **Oct 2026** | **Affinius Capital $2.7B bond maturity** ⚠️ NOT mentioned on OZK Q1 call — verify exposure | Refi ability, OZK exposure, NDFI stress | Failure to refi = discrete OZK catalyst | OZK, BROCK, CREED |
 
 ## PREDICTION CHECKPOINTS
 
