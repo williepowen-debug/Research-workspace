@@ -1,6 +1,6 @@
 # SAM — Trade Ideas
 
-**Last Updated:** 2026-04-13
+**Last Updated:** 2026-04-24 (v1.3 Tranche 2 matrix replaces old "BOJ hold dip" card)
 **Domain:** Japan Macro, Yen, JGBs, Carry Trade, BOJ Policy
 
 ---
@@ -16,7 +16,7 @@
 
 ---
 
-## 🔴🔴 FXY Entry Decision Card (Issued Mar 27, updated Mar 30)
+## 🔴🔴 FXY Entry Decision Card (v1.3 refresh — Apr 24)
 
 ### DECISION: BUY IN TRANCHES — DO NOT WAIT
 
@@ -24,34 +24,51 @@
 |-----------|-------|-------|
 | **Current size** | **8 shares** | Tranche 1 complete |
 | **Tranche 1** | ✅ +4 shares → 8 total | Executed pre-intervention |
-| **Tranche 2 — On confirmation** | +4 shares → **12 total** | After BOJ hike confirmed OR intervention dip |
+| **Tranche 2 — On confirmation** | +4 shares → **12 total** | Per scenario matrix below |
 | **Target size** | **12 shares** | Full position |
-| **Stop loss** | FXY ~$55.05 / USD/JPY ~167 | Oil shock full domination; intervention fails |
+| **Stop loss** | FXY ~$55.05 / USD/JPY ~167 | Oil shock full domination; intervention fails (thesis break) |
 | **Price target (6-month)** | FXY ~$60–62 / USD/JPY ~148–152 | Post-BOJ hike + carry unwind + oil stabilization |
 
-### Catalyst Sequence
+### Tranche 2 Scenario Matrix (Apr 28 BOJ)
+
+| Scenario | Prob | FXY reaction | Action |
+|---|---|---|---|
+| **1. Hike to 1.00%** | ~10% | +4-7% gap | **No chase.** Optional: +2 shares if FXY pulls back to $58.50-59.00 with hold confirmed. 2 reserved for June. |
+| **2. Hold + hawkish** *(base case)* | ~45% | +1-2% | **+2 shares** at $58.00-58.25 on confirmation. **+2 more** at $58.50+ break OR pre-June CPI print. |
+| **3. Hold + neutral** | ~35% | flat to -1% | **HOLD.** Optional: +2 shares if FXY dips to $56.50 on disappointment. |
+| **4. Hold + dovish** | ~10% | -2-3% | **No add.** Re-evaluate after May data. Stop discipline if $55.50 breaks. |
+
+**Pre-meeting exceptions:**
+- MOF intervention before BOJ → +2 shares on break above $58.50
+- USD/JPY breaks 161 without intervention → HOLD, don't add into unchecked yen weakness
+
+**Core logic:** April hike is only ~10% of outcomes — don't design around a low-probability branch. Modal outcome is hold+hawkish (45%) where we add calmly on confirmation. June meeting is the true base case hike (SAM-21 @ 70%) — reserve dry powder for that leg if Apr 28 doesn't fire cleanly.
+
+### Catalyst Sequence (v1.3)
 
 | Date | Catalyst | FXY Impact |
 |------|----------|-----------|
-| ~~Mar 31~~ | ~~FY-end close~~ | ✅ Resolved |
-| ~~Apr 1~~ | ~~Tankan survey~~ | ✅ BEAT — April hike live |
-| ~~Apr 7~~ | ~~30Y JGB auction at ~3.7%~~ | ✅ PASSED — BTC 3.11x, tail 1.3bp. Demand held. |
-| **Apr 14–25** | Big 4 insurer FY2026 investment plans | Allocation cuts = Channel 1 confirmed |
-| **Apr 15** | Feb TIC data — Japan UST selling confirmation | Large selling = stress case |
-| **Apr 16** | 🔴 MOF ITS weekly release (DECISIVE) | >¥2T = regime change → thesis rebalance |
-| **Apr 28** | BOJ meeting — hike ~60-65% (internal) | +3–5% on hike |
-| **May 1** | BOJ meeting — **BASE CASE HIKE** | +5–8% structural move |
-| **Late May** | Japan April CPI print — reflects oil shock + SK refiner | Confirms BOJ path locked |
+| ✅ Apr 14 | 20Y JGB auction | BTC 4.82x — buyer strike is 30Y/40Y only, not broadening |
+| ✅ Apr 15 | Feb TIC data | Japan holdings rose → Channel 1 flows invisible at aggregate |
+| ✅ Apr 16 | MOF ITS weekly | +¥698B net buying — base pace, not stress |
+| ✅ Apr 22 | March trade balance | ¥+667B surplus — Phase 1 oil-yen didn't fire |
+| ✅ Apr 22 | Nippon Life FY2026 | Paring yen bonds; foreign direction ambiguous |
+| ✅ Apr 23 | March CPI core | 1.8% (accelerated, still sub-target) |
+| **Apr 28** | 🔴🔴 **BOJ meeting — HOLD base case per v1.3** | 4-scenario matrix above |
+| May 14 | Japan Q1 GDP prelim | EWJ trigger if contraction |
+| **Mid-May** | 🔴 **ESR disclosures begin (FY2025)** | Channel 1's next real test |
+| Late May | Japan April CPI | First post-blockade print; June hike lock |
+| **Mid-June** | 🔴🔴 **BOJ meeting — NEW BASE CASE HIKE (SAM-21, 70%)** | +5-8% structural move |
 
 ---
 
-## Carry Unwind Probability (as of Apr 12)
+## Carry Unwind Probability (v1.3 — Apr 24)
 
 | Timeframe | Probability | Key Driver |
 |-----------|-------------|------------|
-| **7 day** | **68%** | USD/JPY 159.73; oil $101+ (blockade) delays unwind short-term (Phase 1). CFTC shorts -93,742 (52% of Jul '24 peak). |
-| **30 day** | **93%** | BOJ April 28 hike ~60-65%. Blockade makes hike MORE urgent (oil → CPI). |
-| **60 day** | **97%** | Structural case intact. Hedge ratio 44.4% (14yr low). $370-550B unhedged. BOJ path locked through May 1. |
+| **7 day** | **20%** | April hike unlikely (Ueda dovish Apr 13) → no immediate trigger |
+| **30 day** | **70%** | June hike base case (SAM-21). Ceasefire extended but fragile. |
+| **60 day** | **88%** | Direction and CFTC fuel intact. Timing stretched. Hedge ratio 44.4%. |
 
 ---
 
