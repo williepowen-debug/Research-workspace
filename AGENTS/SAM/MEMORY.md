@@ -31,41 +31,51 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (Apr 12 → Apr 13)
-- Blockade reaction continuing: Brent $101.67 (+6.8%), USD/JPY 159.73 (0.2% from 160).
-- FXY $57.48 (flat at entry, -0.28%).
-- No new MOF data (Apr 10 was last publish). JGB 10Y breach at 2.439% still the reference level.
+### CHANGES SINCE LAST SESSION (Apr 13 → Apr 24 — 11 day gap)
 
-### LAST SESSION (Apr 13 — gap analysis, insurer intel, monitoring buildout)
-- **Committed + pushed** prior session's 12-file housekeeping update (was uncommitted due to API errors).
-- **File maintenance (items 1-5):** Fixed stale TRADE.md (BOJ date 23-24→28, carry 60d 95→97%, dating), STRATEGY.md (v1.0→v1.2), TIMELINE.md (CFTC 67.8K→93.7K, May 1 rate fix 0.75→1.00%, Apr 28 view updated). CALENDAR Apr 13 item marked resolved. Flagged stuck HERMES delivery to Prome (outbox signal).
-- **Insurer FY2026 intel sweep:** Ran monitoring queries from TRACKER checklist. FY2026 plans NOT YET DROPPED — window opens tomorrow. Pre-plan intel gathered: Nippon Life ESR 222% (-2pp, unrealized gains ¥12T→¥7.4T, domestic bond losses -¥3.6T, reducing super-long on book-value basis), Dai-ichi doubling overseas strategic investment to ¥600B (M&G ¥160B, Challenger ¥100B, Capula), Mar 2026 survey confirms all Big 3 maintaining private credit plans. Updated TRACKER + nippon-life.md + dai-ichi.md.
-- **Key insight:** Nippon Life ESR at 222% despite massive losses = repatriation is ECONOMIC (hedged returns negative), not regulatory panic. Voluntary flows are steady/persistent, not spiky/reversible. Watch for ESR below 200% at May-Jun disclosures — that's when character changes.
-- **Gap analysis completed.** Identified 7 gaps. Closed 5 today:
-  1. Vol convergence: FXY OI refreshed (stable). CVOL + risk reversals STALE — need terminal/Perplexity mid-week.
-  2. Predictions: 5 new falsifiable calls laid down (SAM-16 through SAM-20).
-  3. BOJ QT: Now tracked — ¥2.5T/mo purchases (down from ¥6T peak), ¥200B/quarter taper. Vector VX-SAM-12.04 added.
-  4. Trade balance: Now tracked — Feb surplus ¥57B (razor-thin, pre-oil-shock). March data mid-April. Vector VX-SAM-11.02 added.
-  5. GDP: Q4 2025 +0.3% QoQ (+1.3% ann), avoided recession. Consumption fragile. EWJ trigger not yet fired. Next: Q1 prelim May 14.
-- **Remaining gaps (not addressed):** Megabank foreign bond behavior (wait for Apr 15 TIC), Japan energy policy response (low priority).
+**Predictions resolved:**
+- SAM-16 (20Y BTC ≥2.5x @ 70%): ✅ TRUE — BTC 4.82x, tail 0.2bp exceptional demand
+- SAM-17 (Feb TIC Japan UST net selling >$10B @ 65%): ❌ FALSE — Japan holdings rose +$53.8B Dec→Feb
+- SAM-18 (MOF Apr 5-11 selling >¥1.5T @ 55%): ❌ FALSE — actual +¥698B net BUYING; Mar 29-Apr 4 was seasonal
+
+**Market:** USD/JPY ~flat at 159.61 (was 159.59 Apr 13); FXY $57.50 (was $57.52); Brent $99.21 (was $100.52); JGB 10Y 2.429% (MOF Apr 23).
+
+**Major catalysts resolved:**
+- Apr 13 Ueda speech (dovish) — hike odds 70% → 3-10%
+- Apr 14 20Y auction BTC 4.82x — exceptional
+- Apr 15 Feb TIC — Japan holdings rose
+- Apr 16 MOF ITS — base pace not stress, decisive AGAINST Option C
+- Apr 22 ceasefire EXTENDED (not indefinite); Iran seized 2 ships; blockade continues
+- Apr 22 March trade SURPLUS ¥667B (Phase 1 didn't fire)
+- Apr 22 Nippon Life briefing — paring yen bonds, foreign direction ambiguous
+- Apr 23 March CPI core 1.8% (accelerated, still sub-target)
+
+### LAST SESSION (Apr 24 — v1.3 thesis refresh)
+
+- **Boot:** All 7 boot scripts green. Market flat over 11 days despite major catalysts.
+- **Research:** 11 parallel web searches across 4 domains (BOJ, TIC, insurers, trade/CPI). Closed all 7 research gaps.
+- **THESIS refresh v1.2 → v1.3:** Minor version bump. Structure intact, channels intact, conviction HIGH. What changed: TIMING (BOJ April → June base case) and FLOW PACE framing (Stress → Base). Full rationale in CHANGELOG 2026-04-24 entry.
+- **Key file updates:**
+  - `CHANGELOG.md` — v1.3 entry with old→new view + intellectual restraint section
+  - `THESIS.md` — header, one-liner, Channel 1-2-3 updates, catalyst sequence rebuilt, Oil-in-Yen Phase 1 downgrade, thresholds updated, predictions section added FALSIFIED sub-table
+  - `TIMELINE.md` — 8 events marked RESOLVED (Apr 13-23), forward section rebuilt for June base case, branch point table expanded
+  - `PREDICTIONS.tsv` — SAM-16 CONFIRMED, SAM-17/18 FAILED, SAM-19/20 status refreshed, added SAM-21 (June hike 70%) + SAM-22 (CFTC persistence 65%)
+  - `STATUS.md` — full rewrite reflecting v1.3
+  - `CALENDAR.md` — rebuilt around Apr 28 binary + May ESR + June hike
+
+**Calibration note:** 2 of 3 resolvable predictions FALSE. Pattern: over-weighted acceleration signals vs reversion. SAM-17 miss driven by stock-vs-flow confusion. SAM-18 was 50/50 going in. Reading Apr 11 lesson ("one data point rarely justifies 15-25pp shifts") correctly avoided the opposite mistake — kept scenario weights at 70/25/5.
 
 ### NEXT SESSION
-1. **🔴 Tue Apr 14: 20Y JGB auction.** Run `jgb_auctions.py --date 2026-04-14`. BTC <2.0x = 🔴 signal to LIQUID, HENRY. Prediction SAM-16: BTC ≥2.5x (70%).
-2. **🔴 Tue Apr 14: Insurer FY2026 plans — first movers.** WebSearch TRACKER monitoring queries for Fukoku, T&D/Taiyo. Update TRACKER.md. Prediction SAM-19: ≥2 of 5 announce foreign bond cuts (75%).
-3. **🟠 Wed Apr 15: Feb TIC data.** Japan UST selling. Prediction SAM-17: >$10B (65%). Also check megabank vs insurer breakdown (gap #5).
-4. **⚠️ Mid-week: CVOL + risk reversal refresh.** Will should check via Perplexity or terminal — these are the critical vol check window signals (STRATEGY.md Apr 14-18).
-5. **🔴🔴 DECISIVE — Thu Apr 16: MOF ITS weekly release.** `mof_flows.py`. Prediction SAM-18: >¥1.5T (55%). IF >¥2T → Option C rebalance, THESIS v1.3, 🔴 signal to LIQUID + PROME.
-6. **🟠 ~Apr 16-21: March trade balance (MOF customs).** First war-impacted month. Expect large deficit.
-7. **🔴 Apr 21-25: Big 4 insurer plans.** Nippon (~Apr 24), Dai-ichi, Meiji Yasuda.
-8. **🔴🔴 Apr 28: BOJ MPM.** Prediction SAM-20: hike to 1.00% (60%).
 
-### INFRASTRUCTURE CHANGES (persistent)
-- Boot step 7 in `AGENTS/SAM/CLAUDE.md` now says "preferred: run `boot.py`". Old manual instructions preserved as fallback.
-- `AGENTS/SAM/tools/usdjpy_monitor.sh` retired — moved to `archive/tools/`. Had a stale "moltbot" VPS path from an old migration. Functionally replaced by `scripts/thresholds.py`.
-- All 6 new TSV workbook files seeded with live data:
-  - `CATALYSTS.tsv` — 13 events forward-looking
-  - `FXY_OPTIONS.tsv` — 4 expiries as of Apr 11
-  - `JGB_YIELDS.tsv` — 7 days from MOF CSV
-  - `JGB_AUCTIONS.tsv` — Apr 2/7/9 parsed from MOF pages
-  - `CFTC_JPY.tsv` — Apr 7 snapshot
-  - `MOF_FLOWS.tsv` — 1,109 rows of historical weekly data
+1. **🔴🔴 Apr 28 (Tue): BOJ MPM + Outlook Report + Ueda presser.** Base case HOLD + hawkish (v1.3 ~45%). 4-outcome scenario tree in STATUS.md. Post-meeting: update STATUS, resolve SAM-20, consider FXY Tranche 2 action.
+2. **🔴 Mon Apr 27 pre-meeting:** Run `boot.py`. Watch USD/JPY drift toward 160; MOF intervention risk rising. Check for any Reuters/Nikkei trial balloons in Asia overnight.
+3. **🟠 Apr 21-25 remaining insurer plans:** Meiji Yasuda, Dai-ichi, Sumitomo. Update TRACKER.md. Resolve SAM-19 (trending FALSE).
+4. **🟠 Apr 30 (Thu): 2Y JGB auction** — routine, lower priority.
+5. **🔴 Mid-May: ESR disclosures (FY2025) begin.** Now ELEVATED importance per v1.3. Big 4 ESR levels are Channel 1's next real test.
+6. **🔴🔴 Mid-June: BOJ MPM — NEW BASE CASE HIKE.** SAM-21 (70%). Prep scenario tree closer to date.
+7. **Tranche 2 logic revision:** Pre-BOJ discussion with Will — original card said "BOJ hold dip" was trigger, but that's now base case. Either wait for Apr 28 outcome and re-rank triggers, or pre-stage levels for each of 4 scenarios.
+
+### INFRASTRUCTURE STATUS (persistent)
+- Boot scripts working cleanly (10-second total). MOF ITS auto-updated through Apr 12-18 week. CFTC auto-refresh working.
+- SAM-21 + SAM-22 added to PREDICTIONS.tsv as forward calls.
+- Workbook files: MOF_FLOWS.tsv has the Apr 5-11 reversal data that falsified SAM-18. JGB_AUCTIONS.tsv has the 20Y result.

@@ -1,45 +1,63 @@
 # SAM CALENDAR
 
-**Last Updated:** 2026-04-12 | **View:** Forward-looking only. Past events pruned weekly.
+**Last Updated:** 2026-04-24 | **View:** Forward-looking only. Past events pruned weekly.
 
 ---
 
-## WEEK OF APR 14
+## WEEK OF APR 27 — THE BINARY
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |------|-------|---------------|-------------------|-----------|
-| ~~Apr 13~~ ✅ | ~~MOF Apr 10 JGB yields publish~~ | — | ✅ **10Y 2.439% breach confirmed. 40Y 3.682% (prior 3.92% was error).** | — |
-| **Apr 14** | **20Y JGB auction** | **BTC ratio, tail, yield** | **<2.0x = 🔴** | **LIQUID, HENRY** |
-| **Apr 15** | **Feb TIC data (US)** | **Japan net UST sales** | **>$15B net selling = stress case** | **LIQUID, PROME** |
-| Apr 16 | Liquidity enhancement auction (5-11Y) | — | Routine | — |
-| **Apr 16** | **🔴 MOF ITS weekly release (DECISIVE)** | **Apr 5-11 LT-debt net** | **>¥2T = regime change confirmed → rebalance thesis weights to Option C. <¥1T = Mar 29-Apr 4 spike was one-off.** | **SAM, LIQUID, PROME** |
-| **Apr 14-25** | **Insurer FY2026 investment plans** | **Foreign bond allocation, hedge ratio, super-long JGB** | **Cuts = Channel 1 confirmed** | **LIQUID, PROME** |
+| **Apr 28 (Tue)** | 🔴🔴 **BOJ MPM + Outlook Report + Ueda presser** | **Rate decision, forecasts, June language** | **Hike=+4-7% FXY violent; Hold+hawkish=+1-2% (base case); Hold+dovish=-2-3%** | **ALL** |
+| Apr 29-30 | BOJ follow-through / Katayama/Aida commentary | 🟠 Political response | Takaichi backlash if hike | SAM |
+| Apr 30 (Thu) | 2Y JGB auction | BTC ratio | Routine (BOJ-driven) | — |
+| Apr 21-25 ongoing | Remaining Big 4 insurer FY2026 plans | Foreign bond direction | Nippon done Apr 22; Meiji/Dai-ichi/Sumitomo pending | LIQUID, SAM |
 
-| **~Apr 16-21** | **March trade balance (MOF customs)** | **Deficit size — first war-impacted month** | **Large deficit confirms Phase 1; watch for record energy import bill** | **SAM** |
-
-## WEEK OF APR 21
+## WEEK OF MAY 4
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |------|-------|---------------|-------------------|-----------|
-| **Apr 22** | **Ceasefire expiry** | **Extension vs collapse** | **🔴🔴 THE NEXT BINARY** | **ALL** |
-| **Apr 28** | **BOJ — HIKE TO 1.00% (~70%)** | **Rate decision, Ueda presser** | **Hike = Takaichi collision** | **ALL** |
-| Apr 21 | Liquidity enhancement auction (11-39Y) | — | Routine | — |
+| May 1 (Fri) | BOJ MPM (secondary) | If Apr 28 held | Lower info; language evolution | ALL |
 
-## WEEK OF APR 28
+## MID-MAY — ELEVATED IMPORTANCE
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |------|-------|---------------|-------------------|-----------|
-| Apr 30 | 2Y JGB auction | BTC ratio | Routine (BOJ-driven) | — |
-| **May 1** | **BOJ meeting — BASE CASE HIKE** | **Rate decision, Outlook Report** | **Hike = structural yen move** | **ALL** |
+| **May 14 (Thu)** | Japan Q1 GDP prelim | Growth vs contraction | 🟠 Contraction = EWJ trigger; first post-war quarter | SAM, HENRY |
+| **Mid-May** | 🔴 **ESR disclosures begin (FY2025)** | Big 4 ESR levels | Below 200% = stress case rebalance | LIQUID, PROME, SAM |
+| ~May 20 | April trade balance (first post-blockade) | Deficit size | Large = Phase 1 finally fires | SAM |
+| Late May | Japan April CPI | Core ≥2.0% | Above target = June hike locked | ALL |
+
+## MID-JUNE — NEW BASE CASE HIKE WINDOW
+
+| Date | Event | What to Check | Threshold / Signal | Who Cares |
+|------|-------|---------------|-------------------|-----------|
+| **Mid-June** | 🔴🔴 **BOJ MPM — NEW BASE CASE HIKE (SAM-21, 70%)** | Rate + Outlook | Hike to 1.00% = structural FXY +5-8% | **ALL** |
+| June | Sato joins BOJ board | Hawk→dove swap | Medium-term political risk | SAM |
+
+---
 
 ## GEOPOLITICAL WATCH
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |------|-------|---------------|-------------------|-----------|
-| ~~Apr 7~~ ✅ | ~~Trump deadline~~ | — | ✅ **CEASEFIRE — 2 weeks. Hormuz reopening. Brent $91.** | — |
-| ~~Apr 11-12~~ | ~~Islamabad Talks~~ | — | ✅ **COLLAPSED — 21hr no deal. Trump announced Hormuz blockade. Brent $96.69↑** | — |
-| **Apr 22** | **Ceasefire expiry** | **Extension vs collapse** | **🔴🔴 LIKELY DEAD — no diplomatic basis for extension after blockade** | **ALL** |
-| **Ongoing** | **Hormuz BLOCKADE (US Navy)** | **Ship interdictions, oil price, coalition partners** | **🔴🔴 Active naval blockade announced Apr 12** | **ALL** |
+| **Ongoing** | **Hormuz blockade (US Navy)** | Ship interdictions, Iran seizures | 🔴🔴 Persistent; Iran lost $500M/day | ALL |
+| **Ongoing** | **Ceasefire extension (no deadline)** | Talks resumption signals | Collapse → oil $105+; Resolution → oil $80-90 | ALL |
+| Ongoing | Iran seized 2 ships Apr 22 | Further interdictions | Escalation → FXY volatile | ALL |
+
+---
+
+## INSURER FY2026 PLAN WINDOW (CLOSING)
+
+| Insurer | Status | Key data |
+|---------|--------|----------|
+| Nippon Life | ✅ Apr 22 briefing | Paring yen bonds; foreign direction ambiguous |
+| Meiji Yasuda | PENDING | FY2025 had shunning >1yr super-long; watch direction |
+| Dai-ichi | PENDING | Had doubled overseas strategic investment; watch allocation |
+| Sumitomo | PENDING | — |
+| Fukoku Mutual | Earlier (Jan 2026) — first to stop super-long JGB | Still not buying 30Y/40Y |
+
+*SAM-19 (2+ of 5 announce foreign bond cuts, 75%) trending FALSE pending remainder.*
 
 ---
 
