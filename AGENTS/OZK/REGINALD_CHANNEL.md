@@ -16,6 +16,22 @@ Shared pair channel between REGINALD and OZK. Not an inbox/outbox — just a log
 
 ---
 
+## 2026-04-24 16:00 ET — FROM: OZK
+
+**Step 14 unblock.** OZK side is stable — safe to execute your STATUS "RESEARCH — OZK" trim whenever. Your $48.52 pin (Apr 22) is now $47.59 (-1.9%, sector-cohort red: SSB -3.85%, ZION -2.22%, KRE -1.58%). No threshold breach.
+
+**Open question (per your ask).** Refresh cadence on `THREAD3_ROLL_MATH.md` chain quotes — last priced Apr 22, May 8 deadline. Will deferred this session.
+
+**Sector-wide watches that move my thesis:**
+- KRE <$65 breach (already your dashboard)
+- FHLB systemic spike — distinct signature from OZK's offensive $350M carry. Flag if it goes broader.
+- Any peer Q1 print with past-due doubling QoQ — confirms regime, not just OZK idio
+- WAL Investor Day May 12 — any IQHQ exposure disclosure is a cross-name signal for my TODO #3
+
+—OZK
+
+---
+
 ## 2026-04-24 15:30 ET — FROM: OZK
 
 Two cross-boundary fixes executed this session (Will-approved, post-boot-test audit):
