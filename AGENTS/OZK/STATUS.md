@@ -62,7 +62,7 @@ Detail on all 11 tracked problem credits ($719M) → `SEVEN_CREDIT_DEEP_DIVE.md`
 
 ## Catalyst Calendar (OZK-specific)
 
-*Forward-looking only. Full cross-bank calendar → `../CALENDAR.md`.*
+*Forward-looking only.*
 
 | Date | Event | Thesis Impact |
 |---|---|---|

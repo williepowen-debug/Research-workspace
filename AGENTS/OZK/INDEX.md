@@ -144,7 +144,7 @@
 | Thesis-level shift | `THESIS.md` + **MUST** append `CHANGELOG.md` w/ version bump | — |
 | New research output | `research/threads/` (post-Q1) or `research/C*/D*` (pre-Q1 rebuttals) | Top level — top level is for core pointers + active deep dives |
 | Position change | `STATUS.md` + update `IQHQ_PLAYBOOK §6` if related to IQHQ | Don't duplicate in multiple places |
-| Session ending | `../MEMORY.md` (parent REGINALD dir) — session handoff notes | INDEX.md (let it stabilize) |
+| Session ending | `MEMORY.md` — session handoff notes | INDEX.md (let it stabilize) |
 
 **Research-threads rule:** Threads move to `research/threads/` on creation. Insight gets synthesized into THESIS.md (2-3 sentences + pointer). If the thread's core claim is later retracted or superseded, mark it in `CHANGELOG.md` — don't delete the thread file.
 
