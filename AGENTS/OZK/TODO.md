@@ -159,4 +159,4 @@ Index header says "Total rows: 159 | Groups: 17" but actual KB.tsv has 192 data 
 
 ---
 
-*Related docs: `SEVEN_CREDIT_DEEP_DIVE.md`, `IQHQ_PLAYBOOK.md`, `../MEMORY.md` (session handoff), `../CALENDAR.md` (dated checkpoints).*
+*Related docs: `SEVEN_CREDIT_DEEP_DIVE.md`, `IQHQ_PLAYBOOK.md`, `MEMORY.md` (session handoff), `CALENDAR.md` (dated checkpoints).*
