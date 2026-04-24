@@ -1,9 +1,69 @@
 # SAM TIMELINE
 
-**Last Updated:** 2026-04-12
+**Last Updated:** 2026-04-24
 **View:** Base case progression with branch points marked
 
 This document maps our forward-looking expectations — what's coming, what we think happens, and where the path could diverge. Updated as events resolve or views change.
+
+---
+
+## RESOLVED — Apr 13 → Apr 24 (v1.3 refresh)
+
+### Mon Apr 13 — UEDA SPEECH (Himino read) ✅ RESOLVED — BEAR FORK
+- **Event:** Ueda scheduled speech to Trust Association. Delivered by Deputy Himino while Ueda traveled to G7/G20 Washington.
+- **Content:** "Developments in the Middle East remain uncertain and we will closely monitor them and their potential impact on economic activity, prices, and financial conditions." Notably absent: the phrase "rate hike."
+- **Market impact:** Hike bets collapsed from ~70% to ~3-10% across venues. Polymarket 97% no change. USD/JPY drifted back toward 160.
+- **Net:** BEAR FORK on BOJ timing. This was the decisive signal that April was off the table. June now base case. Per Nomura's Iwashita: "The fact Ueda didn't use the word 'rate hike' this time is a sign to markets that rates will be on hold this month."
+
+### Tue Apr 14 — 20Y JGB AUCTION ✅ RESOLVED — BULL FORK
+- **Event:** 20-year JGB auction at 3.3% yield.
+- **Outcome:** **BTC 4.82x | Avg yield 3.327% | Tail 0.2bp**
+  - Exceptional demand — highest BTC of the April cycle. Tight tail = quality bidders.
+  - Confirms insurer buyer strike is super-long (30Y/40Y) specific. 20Y demand robust.
+- **Impact:** Removes "JGB market dysfunction" as BOJ hike obstacle. Also narrows Channel 1 buyer-strike framing — it's concentrated at the long end, not broad-based.
+- **Net:** BULL FORK — but paradoxically for Channel 1 thesis, it's slightly bearish (demand in mid-curve = less forced selling pressure than modeled).
+- **Prediction:** SAM-16 CONFIRMED TRUE.
+
+### Wed Apr 15 — FEB TIC DATA ✅ RESOLVED — BEAR FORK
+- **Event:** US Treasury TIC release — Feb 2026 data.
+- **Outcome:** Japan UST holdings ROSE to $1,239.3B from $1,185.5B (Dec 2025) — +$53.8B stock increase over 2 months.
+- **Impact:** First aggregate-level check on Channel 1 thesis — and it came back showing Japan net BUYING, not selling, at the TIC level.
+- **Reconciliation:** MOF ITS showed ¥3.42T Feb foreign bond selling by Japan residents. TIC shows Japan-held UST holdings rising. These aren't inconsistent — MOF ITS captures Japan-resident trading in sector-specific flows; TIC captures all Japanese holders (private, official, retail Toshin funds) of US assets including price effects. Upshot: Japanese institutional selling is real but offset at aggregate level.
+- **Net:** BEAR FORK for the "clean confirmation" path. Channel 1 thesis works via weekly MOF flows and ESR disclosures, not aggregate TIC.
+- **Prediction:** SAM-17 FAILED FALSE.
+
+### Thu Apr 16 — MOF ITS WEEKLY (DECISIVE) ✅ RESOLVED — BEAR FORK
+- **Event:** MOF weekly ITS release covering Apr 5-11 week — flagged as DECISIVE by v1.2 (>¥2T = regime change → Option C rebalance).
+- **Outcome:** **+¥698B NET BUYING** of LT-debt. 4-week rolling dropped from ¥-5.0T to ¥-2.74T.
+- **Interpretation:** Mar 29-Apr 4 ¥-2.46T confirmed as FY-end seasonal spike, not regime change. 4W rolling now in BASE case range ($18B/mo), not stress case ($25-40B/mo).
+- **Impact:** Apr 11's stress-case framing reverted. Channel 1 flows running at base pace. Scenario weights held (70/25/5).
+- **Net:** BEAR FORK vs Option C trigger. Not a thesis break — structural drivers intact, ESR disclosures remain the next critical test.
+- **Prediction:** SAM-18 FAILED FALSE.
+
+### Wed Apr 22 — MARCH TRADE BALANCE ✅ RESOLVED — BEAR FORK (Phase 1)
+- **Event:** MOF customs March trade statistics.
+- **Outcome:** Trade SURPLUS ¥+667B (+25.9% YoY). Exports +11.7% (AI-demand led). Imports +10.9%. Crude imports reflected pre-Feb-28 shipments — ME imports -10.7% YoY, crude from ME -5.6% to ¥706.5B.
+- **Impact:** Phase 1 mechanism ("oil → trade deficit → yen weak") did NOT mechanically fire in March data. Export strength (AI, semiconductors) absorbed oil import cost.
+- **Caveat:** March data reflects shipments ordered before Feb 28 attacks. April data (releases ~May 20) will be first post-blockade customs month.
+- **Net:** BEAR FORK for Phase 1 durability. Observation downgrade in v1.3. Doesn't break thesis — Phase 2 timing may start earlier (less drawdown delay).
+
+### Wed Apr 22 — NIPPON LIFE FY2026 BRIEFING 🟡 NEUTRAL
+- **Event:** Nippon Life's Daisuke Ishida (exec officer, finance/investment planning) held FY2026 briefing.
+- **Key message:** Will pare yen-denominated bond holdings this fiscal year; continues shifting from low-yielding debt to higher-return assets. ME scenario = "upward pressure on inflation and long-term yields."
+- **Ambiguity:** Reducing yen bonds ≠ auto-increasing foreign bonds. Destination of reallocation unstated (could be foreign bonds, domestic stocks, private credit, super-long JGBs at new higher yields). Thesis-neutral until clarified.
+- **Net:** WATCHING. Nippon signaling flexibility to move on ME risk, but net foreign-bond direction unresolved. Prediction SAM-19 still OPEN through Apr 25.
+
+### Wed Apr 22 — CEASEFIRE EXPIRY 🟡 EXTENDED (not resolved cleanly)
+- **Event:** Apr 22 ceasefire deadline. Islamabad talks had previously collapsed (Apr 11-12).
+- **Outcome:** Trump extended ceasefire at Pakistan's request — NOT indefinite, timeframe to allow Tehran to "present unified proposal." Bessent confirmed Navy blockade continues. Iran's Revolutionary Guard Navy seized 2 container ships hours after extension.
+- **Oil:** Brent ~$99 range-bound. No spike, no crash. Iran reportedly losing $500M/day from blockade.
+- **Net:** Ambiguous. Not collapse (v1.2 feared oil $105+), not resolution (v1.2 upside scenario). Oil remains a sustained but non-extreme headwind.
+
+### Thu Apr 23 — JAPAN MARCH CPI ✅ RESOLVED — BULL FORK (for BOJ path, but delayed)
+- **Event:** National CPI release.
+- **Outcome:** Core CPI 1.8% YoY (accelerated from 1.6%, in line). Ex-fresh-food-and-energy 2.4% (from 2.5%). Services price 3.1% (from 2.7%). Ocean freight +42.1% YoY — oil passthrough visible.
+- **Impact:** Accelerated but still below 2% target for 2nd month. Credit Agricole: could reach 3% by end of FY2026 if oil elevated. Supports BOJ path but doesn't force April action.
+- **Net:** BULL FORK for June hike path, not April.
 
 ---
 
@@ -124,45 +184,54 @@ This document maps our forward-looking expectations — what's coming, what we t
 
 ---
 
-## WEEK 3 (Apr 14 – Apr 18)
+## WEEK 4 (Apr 27 – May 2) — REVISED DECISION WINDOW (v1.3)
 
-### Mon Apr 14 — 20Y JGB AUCTION
-- **Event:** 20-year JGB auction. Yield ~3.3%.
-- **Our view:** Second super-long test in a week. Same insurer demand dynamics as 30Y. If Apr 7 was weak, markets will be nervous for this one.
-- **Watch for:** BTC ratio. <2.0x = 🔴 signal to LIQUID, HENRY.
+### Apr 28 — BOJ MEETING (HOLD BASE CASE per v1.3)
+- **Event:** BOJ Monetary Policy Meeting. Rate decision + Ueda presser + Outlook Report.
+- **v1.3 view:** Hike probability collapsed from 60-65% (v1.2) to ~20% after Ueda Apr 13 dovish speech. Market pricing ~3-10%. Our internal ~20% acknowledges Ueda's hawkish IMF-week comments but respects the dominant dovish signal. Base case is HOLD.
+- **Scenarios (v1.3 rebuild):**
 
-### Tue Apr 15 — FEB TIC DATA
-- **Event:** U.S. Treasury International Capital data for February released.
-- **Our view:** We've been flying blind on March flows. Feb data will confirm whether the ¥3.42T selling month we saw in MOF data shows up in UST-specific TIC flows. This is the first hard confirmation of Japanese institutional UST selling at scale.
-- **What we expect:** Japan net seller of USTs in February. If the data shows $15-20B+ in net sales, it validates the stress-case trajectory.
-- **Branch point:**
-  - Large net selling ($15B+): Confirms repatriation acceleration. Market may react — UST long-end weakens.
-  - Modest/mixed: Feb selling was more JGB-focused than UST-focused. Repatriation slower than expected but not negated.
+  | Outcome | Prob | FXY impact | Thesis implication |
+  |---------|------|-----------|-------------------|
+  | Hike to 1.00% | ~10% | +4-7% violent | Carry unwind fires immediately; SAM-20 TRUE |
+  | Hold + hawkish ("we will raise at next meeting") | ~45% | +1-2% | June hike → 80% prob; thesis on track |
+  | Hold + neutral | ~35% | flat to -1% | June hike → 60% prob; timing stretches |
+  | Hold + dovish | ~10% | -2-3% | H2 2026 timeline; thesis intact but stretched |
 
-### PRE-BOJ POSITIONING WEEK
-- **Our view:** Markets will position ahead of Apr 23-24 BOJ meeting. If Tankan was strong (✅ confirmed) + TIC shows selling, front-end JGB yields will price a hike aggressively. USD/JPY should start drifting lower as hike pricing firms up.
-- **FXY:** If we haven't added Tranche 2 yet, this week is the last clean entry before BOJ.
+- **Watch for:** Outlook Report inflation forecast (expected UP), growth forecast (expected DOWN). Ueda presser — does he explicitly flag June? Ueda on mortgages/household consumption. Any Katayama/Aida commentary in the 48hrs after. Policy statement language on ME risk — is it softening or hardening?
+
+### May 1 — BOJ MEETING (secondary; v1.3 downgrade)
+- **v1.3 view:** v1.2 had May 1 as base case hike. No longer. If Apr 28 holds, May 1 is a repeat read — lower information content. Watch for language evolution more than rate change.
+
+### May 14 — JAPAN Q1 GDP PRELIM
+- **v1.3 view:** First full-quarter post-war data. Q4 2025 was +0.3% (narrowly avoided recession). Consumption fragile (+0.3%). Q1 could be soft on early ME disruption + FY-end effects. EWJ puts trigger if contraction.
 
 ---
 
-## WEEK 4-5 (Apr 21 – May 2) — THE DECISION WINDOW
+## MAY 2026 (revised v1.3)
 
-### Apr 28 — BOJ MEETING (LIVE FOR HIKE)
-- **Event:** BOJ Monetary Policy Meeting. Rate decision + Ueda presser.
-- **Our view:** April hike is LIVE (internal call ~60-65% as of Apr 12; market pricing ~45-50%). Oil headwind from Hormuz blockade shifts "uncertainty" excuse dynamics — makes hike MORE urgent (oil → CPI) but gives political cover to delay. Summary of Opinions showed board readiness — Takata dissented for 1.00%, members discussed "rapid tightening" and "scale" of hike. Tankan strong removes last data excuse.
-- **Scenarios:**
-  - **Hike to 1.00% (our ~60-65% prob):** Breaches Takaichi ceiling — JGB 2Y spikes, USD/JPY drops 3-5 big figures in days. FXY +3-5%. Carry unwind fires. Mortgage transmission starts (floating rates reprice within months).
-  - **Hike to 1.25% (our ~5% prob):** Nuclear scenario. 50bp hike. USD/JPY drops 5-8 big figures. Carry unwind accelerates violently. Household stress immediate.
-  - **Hold + hawkish guidance (our ~25-30% prob):** "We will raise at the next meeting." Market prices May 1 at near-certainty. USD/JPY drifts lower. FXY grinds higher.
-  - **Hold + neutral/dovish (our ~5% prob):** Board spooked by oil/geopolitics. Delays again. USD/JPY rallies. FXY gives back gains. May 1 still live but confidence drops.
-- **Watch for:** Ueda language on mortgages/household consumption (new since floating mortgage discovery). Any Katayama/Aida commentary in the days after.
+### Mid-May — ESR DISCLOSURES BEGIN (FY2025)
+- **Event:** FY2025 (ended Mar 31) financials start being released. First ESR disclosures under full mark-to-market regime.
+- **v1.3 view:** ELEVATED importance given v1.3 flow downgrade. If aggregate flow data came back benign, the ESR disclosures become the next real test of Channel 1 stress. JGB 30Y went from ~2.5% to ~3.7% during FY2025. The unrealized losses will be staggering. Meiji Yasuda's ESR non-disclosure stance is a red flag.
+- **Branch point:**
+  - Big 4 ESR below 200% (danger zone) → Repatriation thesis reconfirmed at stress-case pace. Scenario rebalance (Option C) becomes defensible.
+  - ESR all comfortably above 200% → Base case holds; structural pressure present but not urgent.
 
-### May 1 — BOJ MEETING (BASE CASE HIKE)
-- **Event:** BOJ Monetary Policy Meeting + Outlook Report.
-- **Our view:** This is THE date. If they didn't hike in April, May 1 is when it happens. Shunto 5.26% gives cover. Ueda removed the growth precondition. Oil-driven CPI makes delay harder to justify. Board is ready.
-- **What we expect:** Hike to 1.00% (most likely — current rate already at 0.75%). Outlook Report upgrades inflation forecast.
-- **FXY impact:** +5-8% structural move over following weeks as carry unwind cascades.
-- **Post-hike dynamics:** Mortgage repricing cycle begins. Takaichi political response within days/weeks. Watch for: Diet questioning of Ueda, Aida statements, BOJ Law revision threats.
+### Late May — JAPAN APRIL CPI
+- **v1.3 view:** First CPI print fully post-blockade. Oil passthrough should be more visible than March's 1.8% core. If core ≥ 2.0% (above target), June hike becomes near-certainty. If still sub-2%, June path remains intact but not locked.
+
+---
+
+## JUNE 2026 — NEW BASE CASE HIKE WINDOW (v1.3 promotion)
+
+### Mid-June — BOJ MEETING (v1.3 BASE CASE HIKE)
+- **v1.3 view:** This is now the date. Ueda explicitly signaled "return to policy normalization as soon as June." Shunto 5.26%, wages +3.3%, services CPI 3.1%, ocean freight +42%, oil passthrough — the data case will be overwhelming.
+- **What we expect:** Hike to 1.00%. Outlook Report upgrades inflation. Prediction SAM-21 (70%).
+- **FXY impact:** +5-8% structural move over following weeks as carry unwind cascades. CFTC fuel load (still building Apr 24) amplifies the unwind.
+- **Post-hike dynamics:** Mortgage repricing cycle begins. Takaichi political response within days/weeks (BOJ Law revision threats). Watch Aida/Katayama commentary.
+
+### Early-Mid June — SATO JOINS BOARD (Hawk→Dove swap)
+- **v1.3 view:** Sato replaces Nakagawa. Takaichi's 2nd dovish appointment. June hike math unchanged (hawks still >dovish majority for that meeting) but beyond 1.00% gets harder. Medium-term political risk rising.
 
 ---
 
@@ -203,15 +272,14 @@ This document maps our forward-looking expectations — what's coming, what we t
 
 ---
 
-## Q3 2026 (OUTLOOK)
+## Q3 2026 (OUTLOOK — v1.3)
 
 ### Expected state by end of June:
-- BOJ at 0.75% (base case) or 1.00% (bull case)
-- USD/JPY in 148-155 range (post-hike + partial carry unwind)
-- FXY at $59-62 target zone
-- ESR disclosures have revealed insurer stress
-- Repatriation flows visible in TIC data
-- Takaichi-Ueda tension public and escalating
+- BOJ at 1.00% (base case v1.3 — hike in June) or 0.75% (H2 delay scenario 20%)
+- USD/JPY in 148-155 range post-hike (if June fires) OR stuck 156-160 range (if hold)
+- FXY at $59-62 target zone IF June hike; $57-58 range-bound if delay
+- ESR disclosures (mid-May) will have revealed insurer stress level — key determinant of Channel 1 escalation
+- Takaichi-Ueda tension public and escalating if hike fires
 
 ### Tail scenarios to track:
 - **D2 (YCC return, 32-40%):** BOJ hike → mortgage backlash → Takaichi forces reversal → yen collapses → carry trade explodes then eventually unwinds violently
@@ -236,13 +304,19 @@ These are the moments where our expected path could fork:
 | **Apr 9** | 5Y JGB auction | Orderly | Weak | ✅ **RESOLVED: BULL** — BTC 3.58, orderly |
 | **Apr 10** | JGB 10Y stress threshold | n/a | Surge through 2.40% | ✅ **RESOLVED: STRUCTURAL** — 28yr high, 2.44% peak |
 | **Apr 11-12** | Islamabad Talks (Vance/Ghalibaf) | Deal / extension | Collapse → blockade | ✅ **RESOLVED: BEAR** — 21hr talks collapsed, Trump announced Hormuz blockade |
-| **Apr 14** | 20Y JGB auction | Healthy demand | Weak → super-long crisis | PENDING |
-| **Apr 15** | TIC data | Large selling → thesis confirmed | Mixed → slower timeline | PENDING |
-| **Apr 22** | Ceasefire expiry | Extended → oil $80-90 | Collapse → $105-110 | **NEW — PENDING** |
-| **Apr 28** | BOJ meeting | Hike to 1.00% → collision | Hold → May | PENDING |
-| **May 1** | BOJ meeting | Hike → structural move | Delay → reassess | PENDING |
-| **Mid-May** | ESR disclosures | Stress visible → repatriation accelerates | Manageable → base case holds | PENDING |
+| **Apr 13** | Ueda speech | Hawkish → April hike signal | Dovish → April off table | ✅ **RESOLVED: BEAR** — dovish, no "rate hike" word |
+| **Apr 14** | 20Y JGB auction | Healthy demand | Weak → super-long crisis | ✅ **RESOLVED: BULL** — BTC 4.82x, tail 0.2bp |
+| **Apr 15** | Feb TIC data | Large selling → thesis confirmed | Mixed → slower timeline | ✅ **RESOLVED: BEAR** — Japan holdings ROSE +$53.8B |
+| **Apr 16** | MOF ITS weekly (DECISIVE) | >¥2T → regime change | <¥1T → seasonal spike | ✅ **RESOLVED: BEAR** — Apr 5-11 +¥698B net BUYING |
+| **Apr 22** | Ceasefire expiry | Extended → oil $80-90 | Collapse → $105-110 | 🟡 **RESOLVED: NEUTRAL** — extended, blockade continues, oil $99 |
+| **Apr 22** | March trade balance | Surplus | Deficit (Phase 1) | ✅ **RESOLVED: BEAR (Phase 1)** — ¥+667B surplus, exports +11.7% |
+| **Apr 22** | Nippon FY2026 briefing | Clear foreign cuts | Ambiguous | 🟡 **RESOLVED: AMBIGUOUS** — cutting yen bonds, direction unclear |
+| **Apr 23** | March CPI | ≥2.0% core → BOJ locked | <2.0% | 🟡 **RESOLVED: NEUTRAL** — 1.8% core, accelerating |
+| **Apr 28** | BOJ meeting | Hike to 1.00% → collision | Hold (base case v1.3) | PENDING (hold ~80%) |
+| **May 14** | Q1 GDP prelim | Growth | Contraction → EWJ trigger | PENDING |
+| **Mid-May** | ESR disclosures | Stress visible → repatriation accelerates | Manageable → base case holds | PENDING (ELEVATED importance) |
 | **Late May** | April CPI | Upward surprise → BOJ locked | Tame → less urgency | PENDING |
+| **Mid-June** | **BOJ meeting (NEW BASE CASE)** | Hike to 1.00% → structural move | Delay → H2 timeline | PENDING (SAM-21 70%) |
 | **June** | Sato joins board | n/a | Dovish majority forming | PENDING |
 
 ---

@@ -8,6 +8,94 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-04-24 — THESIS v1.2 → v1.3 (TIMING STRETCH + FLOW PACE DOWNGRADE)
+
+**Author:** SAM + Will
+**Action:** Integrated 11-day gap data (Apr 13 → Apr 24). Three predictions resolved (SAM-16 TRUE, SAM-17/SAM-18 FALSE). BOJ meeting odds collapsed after Ueda Apr 13 speech. Channel 1 flow pace reverted to base case. Thesis STRUCTURE (channels, destination, conviction) unchanged — refinement on TIMING and MAGNITUDE, not direction.
+
+### What changed
+
+1. **BOJ Apr 28 hike probability: 60-65% → ~20%.** Ueda Apr 13 speech (read by Deputy Himino while Ueda went to G7) explicitly flagged Middle East uncertainty; refrained from using "rate hike." Market hike bets tumbled from ~70% → 3-10% (Polymarket 97% no change). June meeting now positioned as base case ("as soon as June"). Katayama reaffirmed "free hand" to intervene.
+
+2. **Channel 1 flow pace: STRESS → BASE.**
+   - Feb TIC (Apr 15 release): Japan UST holdings ROSE to $1,239.3B (from $1,185.5B Dec) — aggregate flows NOT visible as net selling.
+   - MOF ITS 4-week rolling (Apr 16 decisive release) dropped from ¥-5.0T → ¥-2.74T. Apr 5-11 individual week showed +¥698B NET BUYING. Mar 29-Apr 4 ¥-2.46T was FY-end seasonal spike, not regime change.
+   - Apr 14 20Y JGB auction BTC 4.82x, tail 0.2bp — exceptional demand. Insurer buyer strike confirmed super-long (30Y/40Y) specific, NOT broadening.
+   - Flow pace reverted to base case $7-10B/mo. "Stress case pace" framing from v1.2 not confirmed.
+
+3. **Phase 1 oil-in-yen dynamic: OBSERVATION DOWNGRADE.** March trade balance posted ¥+667B SURPLUS (+25.9% YoY) despite Hormuz blockade. Exports +11.7% (AI-driven demand) absorbed oil import costs. Pre-Feb-28 crude shipments in March data may partially explain, but "oil→deficit→yen weak" leg did not mechanically fire as modeled. March CPI core 1.8% (accelerated from 1.6% but still below 2% target for 2nd month).
+
+4. **Carry unwind probabilities re-calibrated:**
+   - 7d: 68% → **20%** (April hike unlikely → no immediate trigger)
+   - 30d: 93% → **70%** (June hike base case; ceasefire fragility)
+   - 60d: 97% → **88%** (direction and fuel load intact; timing stretched)
+
+5. **Nippon Life Apr 22 FY2026 briefing (Ishida):** Will PARE yen-denominated bond holdings; shift from low-yield debt to higher-return assets. ME risk scenario = "upward pressure on inflation and long-term yields." Direction of foreign bond reallocation AMBIGUOUS from the briefing — reducing yen bonds ≠ auto-increasing foreign bonds. Watch for specifics through Apr 25.
+
+6. **Ceasefire Apr 22: EXTENDED** (not indefinite) at Pakistan's request. Hormuz blockade continues. Iran seized 2 container ships post-extension. Brent ~$99, range-bound.
+
+### What did NOT change (intellectual restraint)
+
+- **Three-channel structure intact.** Hedge cost inversion, ESR regime, mortgage constraint, Takaichi 0.75% ceiling all preserved.
+- **Destination intact.** Yen appreciation + carry unwind within thesis horizon — direction not in dispute.
+- **Scenario weights held** (Base 70 / Stress 25 / Crisis 5). Flow pace reverted to base but structural pressure (ESR disclosures May-Jun, hedge ratio 44.4%) preserved. Overcorrecting on two stock-vs-flow data points would be symmetric to the Apr 11 "stress case" misread. Per Apr 11 feedback: "one data point rarely justifies 15-25pp probability shifts."
+- **Conviction HIGH.** CFTC shorts STILL BUILDING (not covering) — fuel load growing through the delay. When it fires, it fires larger.
+- **Position parameters** (stop $55.05 / target $60-62 / Tranche 2 trigger $57.00-57.50). Thesis break condition has NOT fired.
+
+### Old view (v1.2, Apr 12)
+
+"BOJ is forced to hike into an oil shock while life insurers exit USTs and carry trades hit record crowding — all paths lead to yen appreciation and carry unwind within 60 days."
+
+- April 28 hike LIVE ~70% (market); 60-65% (internal)
+- Carry unwind 68% / 93% / 97%
+- MOF ITS at stress-case pace ($36B/mo)
+- Phase 1 oil headwind reasserting (blockade)
+- Multi-leg acceleration
+
+### New view (v1.3, Apr 24)
+
+"Structural channels intact; timing stretched. BOJ hike slides to June base case. Channel 1 flows running at base pace (not stress). Direction unchanged — what changed is speed. The fuel load keeps building through the delay."
+
+- April 28 hike unlikely (~20% internal; ~3-10% market). June hike base case.
+- Carry unwind 20% / 70% / 88%
+- MOF ITS at base pace; Apr 16 release was decisive AGAINST stress-case rebalance
+- Phase 1 weakened (March trade surplus); Phase 2 timing shifts right
+- CFTC fuel load builds through delay — violent unwind when it fires
+
+### Apr 28 decision tree (market-aligned)
+
+| Outcome | Prob | FXY | Thesis |
+|---------|------|-----|--------|
+| Hike to 1.00% | ~10% | +4-7% violent | Carry unwind fires immediately |
+| Hold + hawkish ("raise at next meeting") | ~45% | +1-2% | June hike → 80% prob |
+| Hold + neutral | ~35% | flat to -1% | June hike → 60% prob |
+| Hold + dovish | ~10% | -2-3% | Timing pushes to H2 2026 |
+
+### Predictions resolved this update
+
+- **SAM-16** (20Y auction BTC ≥2.5x, 70%): ✅ **TRUE** — BTC 4.82x, tail 0.2bp
+- **SAM-17** (Feb TIC Japan UST net selling >$10B, 65%): ❌ **FALSE** — Japan holdings rose +$53.8B Dec→Feb
+- **SAM-18** (MOF Apr 5-11 LT-debt selling >¥1.5T, 55%): ❌ **FALSE** — actual +¥698B net BUYING
+- **SAM-19** (2+ of 5 insurers cut foreign bonds, 75%): TRENDING FALSE; window open through Apr 25
+- **SAM-20** (BOJ hike 1.00% Apr 28, 60%): TRACKING FALSE; revise to ~20%
+
+### Calibration lesson
+
+Three predictions due this window; two FALSE. SAM-17 (TIC stock vs. flow) — insufficient care distinguishing aggregate holdings from net purchases. SAM-18 (MOF regime change) — Apr 11 session already flagged "need Apr 16 to distinguish regime change vs seasonal" and the honest answer came back SEASONAL. Confidence on both was moderate (55-65%), so miss is within calibration range, but pattern worth noting: we over-weight acceleration signals relative to reversion. Counter: CFTC positioning (building shorts) was the single BULL data point and it kept building — don't discount the signal that kept going.
+
+### Sources
+
+- Apr 13 Ueda speech: [Bloomberg](https://www.bloomberg.com/news/articles/2026-04-13/ueda-s-speech-shows-rising-caution-without-clear-hints-on-rate)
+- Apr 14 20Y auction: [MOF eresul20260414](https://www.mof.go.jp/english/policy/jgbs/auction/calendar/eresul/eresul20260414.htm)
+- Apr 15 Feb TIC: [Treasury sb0448](https://home.treasury.gov/news/press-releases/sb0448)
+- Apr 16 MOF ITS: `workbook/MOF_FLOWS.tsv` (auto-parsed via `mof_flows.py`)
+- Apr 22 Japan March trade: [JIJI](https://jen.jiji.com/jc/eng?g=eco&k=2026042200564)
+- Apr 22 Nippon Life briefing: [Bloomberg](https://www.bloomberg.com/news/articles/2026-04-22/nippon-life-to-reduce-yen-bond-holdings-amid-iran-uncertainty)
+- Apr 22 ceasefire extension: [NBC](https://www.nbcnews.com/world/iran/live-blog/live-updates-iran-war-trump-peace-talks-vance-ceasefire-ship-hormuz-rcna341149), [NPR](https://www.npr.org/2026/04/22/nx-s1-5795405/iran-middle-east-updates)
+- Apr 24 March CPI: [CNBC](https://www.cnbc.com/2026/04/24/japan-cpi-march-inflation-iran-war-boj-rate.html)
+
+---
+
 ## 2026-04-12 — HOUSEKEEPING: THESIS data sync + cross-file pruning
 
 **Author:** SAM
