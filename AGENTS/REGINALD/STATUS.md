@@ -1,5 +1,62 @@
 # REGINALD STATUS
-**Last Updated:** 2026-04-22 ~10:45 ET (WAL + OZK Q1 integrated — full analysis files posted) | **Status:** 🔴 ELEVATED (post-print — cohort fade pattern 8/8; WAL V2 fraud confirmed; OZK slow-grind)
+**Last Updated:** 2026-04-24 PM (WAL Q1 Round 2 deep-mine — press release + deck synthesized → V1 Hidden CRE strengthened via Office single-point concentration; V3 NDFI refined to cohort median) | **Status:** 🔴 ELEVATED (post-print — cohort fade pattern 8/8; WAL V2 fraud confirmed; OZK slow-grind)
+
+---
+
+## POST-DECK INTEGRATION — April 24, 2026 (WAL Q1 Round 2)
+
+**Live prices (market.py 14:30 ET):** KRE $68.89 (-1.59%), **WAL $79.44 (-0.61%, 🟢 BACK ABOVE $78)**, OZK $47.47 (-2.14%), ZION $61.34 (-2.06%), EGBN $26.30 (+0.57%), SSB $94.86 (-3.29%), SPY $713.94 (+0.77%), VIX 18.71 (-3.11%), Brent $100.06 (+0.71%), 10Y 4.31%.
+
+**Round 2 deep-mine deliverables (in `WAL/sources/q1_2026/`):**
+- `WAL Q1 2026 - Press Release Synthesis.md` (521 lines)
+- `WAL Q1 2026 - Deck Synthesis.md` (~720 lines, with operator-corrected Slide 12 reading)
+- (Pair-doc: `WAL Q1 2026 - Transcript Synthesis.md` from prior session)
+
+### Headline new findings from deck
+
+🔴 **Office stress is acute single-point concentration (Slide 12).** Classified Assets Mix: Office 38% ($407M on $2.2B book = **18.5% stress rate, 9.5x book-share disproportion**); C&I 32% ($342M); Construction 12% ($128M); Other 10%; Resi 5%; CRE Investor non-Office 3%. **Corrected reading from initial 70% CRE framing — actually concentrated in Office single-point.** V1 Hidden CRE thesis sharpens via Office, plus C&I 32% as MI3 hidden-CRE test variable.
+
+🔴 **Office maturity wall: $946M matures during 2026 (Slide 23).** On a $2.2B office book. 90% Suburban / 10% Midtown / 0% CBD (defensive geography), but maturity timing stacks against CRE refi environment. Bridge loan structure means natural recognition pressure if refi fails.
+
+🟢 **NDFI cohort position revealed (Slide 24).** WAL at 7% Ex-Mortgage Credit (vs peer median 6%, average 8%). Ex-Mtg Credit & PE: 5% (vs median 3%, average 5%). **WAL is at cohort center on NDFI, not outlier.** V3 NDFI-opacity thesis directionally disconfirmed at aggregate level — but $7.155B Mortgage Warehouse & MSR (12% of loans, 30x peer median, classified under C&I) is a confirmed concentration.
+
+🟡 **Hotel exposure $4.5B (44% of CRE Investor) — sizing risk, not active stress.** WAL has formal "Hotel Franchise Finance" business line (limited/select-service franchises under Marriott/Hilton/IHG/Hyatt). LTV 53%. Slide 12 confirms Hotel NOT currently in classified (non-Office CRE Investor only 3% of classified = ≤$32M for entire ex-Office category). **Latent watch vector — track for Q2-Q3 migration.**
+
+🟡 **Mgmt revised 2026 outlook (Slide 17):**
+- NCO **25-35bps ex-LAM/Cantor** (held). Q1-26 ex-fraud was **39bps — above top of guide**. Q2-Q4 must avg 22-33bps for full-year guide to hold.
+- NII +11-14% **even after removing 2 assumed rate cuts** (variable-rate book benefits from "higher for longer").
+- Non-interest income raised +2-4% → **+20-25%** (Juris banking surprising upside).
+- Deposit costs RAISED $535-585M → $650-700M (fewer rate cuts = higher ECR pressure).
+
+🟢 **Lender Finance ($2.3B) is well-structured (Slide 20):** ~2,000 obligors across 50+ facilities. No single obligor >$30M funded. 53% effective advance rate = 47% loss buffer. 1.9-year avg duration. **V3 lender-finance sub-vector weakened** — structurally protected.
+
+### Press release additions
+
+🔴 **Asset-quality leading vs lagging divergence:** 30-89d PD still accruing **+$49M QoQ to $157M (+45%)**; Special Mention **+$78M QoQ to $403M (+24%)**. Lagging buckets (nonaccrual, classified) all improved. Vecchione's "stable asset quality" narrative skips the leading buckets.
+
+🟡 **CRE Non-Owner Occupied charge-off $27.7M Q1-26** — largest in 5 quarters ($14.5M Q1-25 → $0.2M → $12.9M → $10.7M → **$27.7M**). 5Q cumulative $66M = 64bps annualized TTM. Half of "ex-fraud $56M NCO" is CRE-NOO.
+
+🟢 **CLN reference pool SHRINKING:** $8.5B Mar-25 → $8.1B Dec-25 → $7.9B Mar-26 (down $600M YoY). WAL's primary SSFA/synthetic capital-relief vehicle running off, not expanding. **V3 CLN-arbitrage sub-vector directionally disconfirmed.**
+
+### Net thesis read after Round 2
+
+**Press release: modestly weakened. Deck: mixed → net "thesis intact but refined."**
+- V1 Hidden CRE: **strengthened** via Office single-point concentration (38% of classified, 9.5x disproportion)
+- V2 Fraud: confirmed in print (no change)
+- V3 NDFI: **refined** — at cohort median; lender finance well-structured; CLN shrinking; warehouse $7.15B remains a confirmed concentration (in C&I, not NDFI)
+- V4 $100B Cat III: WAL has $5B+ cash buffer = tactical flexibility to delay
+- Structural bull case: **strengthened** — 10yr TBV CAGR 18.3% top-quartile; revised outlook held NII even sans rate cuts; Juris real driver
+
+**New thesis framing:** WAL is a good compounder with concentrated CRE tail risk (Office single-point + Hotel sizing + maturity wall). Both can be true. Short thesis needs (a) the tail to actualize via Office/CRE-NOO migration, OR (b) market re-rating on concentration.
+
+### New predictions added (this session)
+
+- **REG-24:** WAL Office classified > $500M by Q3 2026 (60%) — driven by maturity wall pressure
+- **REG-25:** WAL ex-fraud NCO > 40bps in at least one of Q2/Q3 2026 (55%) — driven by 39bps Q1 vs 25-35bps guide tension
+
+### REG-20 status (pending Will resolution)
+
+REG-20 (WAL major stress event Apr-Jun 2026, 82%) — Q1 print delivered: GAAP EPS miss -4.6%, $152.5M fraud charge-offs (LAM+Cantor), tape -2% on print. Arguably resolves CONFIRMED, but holding for Will's call on whether to mark resolved or hold for capital raise / regulatory action threshold.
 
 ---
 
@@ -200,6 +257,7 @@
 
 **Pre-earnings baselines (FITB + RF, report Apr 17):**
 - **NDFI disclosure now spans a 5-bank spectrum:** PNC ($73B/20%/5-way $) → CFG ($19.6B/13%/4-way $) → FITB ($9.5B/8%/6-way %) → MTB (partial, $8.9B hidden) → **RF (ZERO NDFI disclosure)**. RF's $18.3B Financial-services exposure with 1.15x unfunded/funded ratio and no breakdown = highest-opacity profile in cohort.
+- **Apr 24 deck refresh — WAL Slide 24 publishes 30-bank cohort NDFI table (preliminary, Mar 31 26).** Ex-Mortgage Credit ranks: PNC 19% > KEY 17% > WFC 17% > C 12% > BAC 12% > RF 12% > CFG 13% > USB 11% > TFC 10% > JPM 10% > EWBC 9% > **WAL 7%** > FHN 5% > MTB 5% > FITB 5% > ZION 3%. Peer median 6%, average 8%. **WAL at cohort median, NOT outlier — V3 NDFI-opacity thesis disconfirmed at aggregate.** WAL's true unique exposure is $7.15B Mortgage Warehouse & MSR (12% of loans, 30x peer median) — classified as C&I, not NDFI.
 - **FHLB Q4 2025 pre-reporter baselines:** FITB -48% QoQ avg, RF -30% YoY. Note MTB/CFG/PNC also showed declining Q4 2025 averages and then spiked Q1 period-end. Tomorrow's data answers whether FHLB surge is quarter-end mechanical (universal) or funding-stress specific (MTB/CFG/PNC only).
 - **Consumer channel primary watch:** RF total consumer NCO 0.70% (flat elevated), credit card 4.08% (5Q high), Other consumer 2.97% (+31bps YoY). If Q1 breaks >0.75% with credit card >4.20%, first regional-bank confirmation of CARL consumer transmission. CFG's retail improvement (70→38bps) was auto-runoff-driven, not replicable.
 - **Auto/Tricolor watch:** FITB $2.95B "Consumer Warehouse / Securitization Vehicles" NDFI sub-bucket is the one undisclosed pocket that could house Tricolor-adjacent exposure. Watch deck / transcript language tomorrow.
@@ -350,7 +408,7 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 
 ## RESEARCH — WAL
 
-**KB: 70 rows, 10 groups** | **Earnings ✅ Apr 21 resolved** → `WAL/Q1_2026_ANALYSIS.md` | **Price: $77.83 (Apr 22 AM, -2.04%) 🔴 BELOW $78 THRESHOLD**
+**KB: 70 rows, 10 groups** | **Earnings ✅ Apr 21 resolved** → `WAL/Q1_2026_ANALYSIS.md` (Round 1) | **Round 2 deep-mine ✅ Apr 24** → `WAL/sources/q1_2026/` (3 synthesis files: Press Release, Deck, Transcript) | **Price: $79.44 (Apr 24 PM, -0.61%) 🟢 BACK ABOVE $78**
 - Architecture complete (Mar 25): INDEX, THESIS, STATUS, SCENARIOS, WEAKNESSES, EARNINGS_PREP, EXTERNAL_PROMPTS.
 - **V2 FRAUD CONFIRMED IN PUBLIC 8-K Apr 21.** Vecchione labeled "two fraud-related credits." LAM $126.4M + Cantor $26.1M = $152.5M. LAM = Leucadia Asset Management (Jefferies subsidiary post-2013). V2 chain now has named-credit public-record resolution.
 - WAL = fast-transmission thesis (episodic, sudden — bypasses delinquency pipeline). **Print demonstrates hypothesis:** single-quarter 21bps-of-loans fraud charge from one credit (LAM).
@@ -359,19 +417,45 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 - GAAP EPS $1.65 miss / **Adjusted EPS $2.22 beat** — $0.57 spread = fraud + security gain normalization.
 - Revenue $1.018B (+31% YoY) — strong beat vs $948M cons.
 - Total NCOs $208.5M (**1.45% GAAP / 0.39% ex-fraud**). C&I charge-offs $181.4M = 84% fraud-concentrated.
-- CRE Non-Owner Occupied charge-offs $27.7M (small but non-zero). Construction + Residential RE charge-offs = **$0**.
-- Classified assets -9bps QoQ to 1.08%. Special mention $403M (0.68%). Classified accrual $455M (0.77%).
-- CET1 11.0% (flat). Tier 1 12.0%. Total 14.4%. TCE 6.8% (-50bps QoQ). **TBV $61.14 (+13% YoY).**
-- Deposits $82.7B (+$5.6B QoQ = +7.2%; +19.3% YoY). **Cohort-leading growth.** L/D 71.5% (from 76.0%).
+- **CRE Non-Owner Occupied charge-offs $27.7M (5Q HIGH).** 5Q cumulative $66M = 64bps annualized. Construction + Residential RE charge-offs = $0.
+- Classified assets -9bps QoQ to 1.08%. Special mention $403M (**+$78M QoQ, +24% — leading indicator turning**). 30-89d PD $157M (**+$49M QoQ, +45%**). Classified accrual $455M (0.77%).
+- **Classified Assets MIX (Slide 12, ✅ NEW):** Office 38% ($407M / 18.5% stress rate / 9.5x book disproportion 🔴) | C&I 32% ($342M, MI3 test variable) | Construction 12% ($128M / 3.1%) | Other 10% | Resi 5% | CRE Investor non-Office 3% (Hotel $4.5B clean).
+- CET1 11.0% (flat). Tier 1 12.0%. Total 14.4%. TCE 6.8% (-50bps QoQ — asset-growth driven, not erosion). **TBV $61.14 (+13% YoY).**
+- Deposits $82.7B (+$5.6B QoQ = +7.2%; +19.3% YoY). **Cohort-leading growth.** L/D 71.5% (from 76.0%). NIBD mix 34.0% (+220bps YoY). CDs falling (14.5% → 11.9%).
 - Short-term borrowings $2.948B (+$676M QoQ). Total borrowings $5.61B. Deposit surge dwarfs borrowing add → NOT funding stress.
-- Cantor residual: $98M - $26.1M charge = ~$72M outstanding; $13M senior liens acquired to protect.
-- **$50.5M security sales gains Q1** — "mitigation strategy" (Vecchione). Cohort 2/2 with RF's $40M post-Q1 repo. **Q2 buffer pocket used.**
-- Buybacks: $50M at $71.61 avg (stock $77.83 — ~$6/sh paper gain on pocket).
+- Cantor residual: $98M - $26.1M charge = ~$72M outstanding; **$13M senior liens acquired (✅ confirmed press release p13 footnote).**
+- **$50.5M security sales gains Q1 IN-QUARTER** (different pattern from RF's $40M post-Q1 — ✅ confirmed press release).
+- Buybacks: $50M at $71.61 avg (stock $79.44 — ~$8/sh paper gain on pocket). Total cumulative through Apr 7: **$120.4M @ $76.55 avg = 1.6M shares.** Mgmt: "not in our models" forward.
 
-**Three vectors:** V1 Hidden CRE (MI3) — pending Call Report May 1-10 | **V2 Jefferies/fraud — ✅ CONFIRMED IN PRINT Apr 21** | V3 SSFA/NDFI warehouse — pending supplement/10-Q
+**CRE Investor composition (Slide 22, ✅ NEW):** $10.3B book, **44% Hotel ($4.5B, LTV 53% — WAL's flagship Hotel Franchise Finance line)** | 22% Office ($2.2B, LTV 59%) | 7% Multifamily ($736M, NO NYC) | 6% Retail | 4% Industrial | 4% Time Share | 3% Data Center | rest <3% each.
 
-**⚡ AOCI exposure:** Cat III/IV — same AOCI bomb as OZK. Jun 18 deadline.
-**⚡ Analyst downgrades (Mar 26):** Weiss Buy→Hold | Barclays PT $105→$90 | WFC PT $83→$79. Consensus PT ~$85-90. **Thesis PT $47-60 — full street runway intact.**
+**Office detail (Slide 23, ✅ NEW):** $2.2B, **90% Suburban / 0% CBD**, Class A 63% / B 33% / C 4%. **MATURITY WALL: $946M matures 2026 (43%)**, $682M 2027 (31%), $572M 2028+ (26%). Bridge loan structure → natural recognition pressure on refi failure. 12% of book at LTV >80% = $264M equity-thin.
+
+**Mortgage Warehouse & MSR (Slide 21, ✅ NEW):** $7,155M = 12% of loans = **30x peer median ($232M / 1%)**. Classified as C&I, not NDFI. Pitched as low-loss (gov-guaranteed). 15% of total loan book "credit protected" (CLN + gov-guaranteed + cash-secured). Servicing portfolio UPB $75.1B; mortgage production $14.2B Q1 (61% purchase / 39% refi); GoS margin 37bps Q1 vs 19bps Q1-25.
+
+**NDFI position (Slide 24, ✅ NEW — cohort comparison authoritative):** WAL **8% total NDFI / 7% Ex-Mtg Credit / 5% Ex-Mtg Credit & PE**. Sub-buckets: Mtg Credit 1% | Bus Credit 5% | PE 2% | Cons Credit 0% | Other 0%. **At cohort median (peer median 6% Ex-Mtg Credit, 3% Ex-Mtg Credit & PE).**
+
+**Lender Finance ($2.3B, Slide 20, ✅ NEW):** Sectors top-3: Healthcare 17%, Bus Services 15%, Tech 11% (= 43%). ~2,000 obligors / 50+ facilities. **No obligor >$30M funded.** Effective advance rate 53% = 47% loss buffer. 1.9-yr avg duration. Kick-out provisions + Corporate Trust oversight on 60%. **Structurally protected.**
+
+**CLN reference pool (Press release p4, ✅ NEW):** $8.5B Mar-25 → $8.1B Dec-25 → **$7.9B Mar-26.** Down $600M YoY. WAL's primary SSFA/synthetic capital-relief vehicle SHRINKING, not expanding. $11.2M allowance on pool (kept in ACL). Adjusted ACL/HFI ex-CLN = 1.00%. **V3 CLN-arbitrage sub-vector directionally disconfirmed.**
+
+**2026 Mgmt Outlook revised (Slide 17, ✅ NEW):**
+- Loans HFI: +$6.0B / Deposits: +$8.0B (held). CET1: ~11% (held).
+- **NII +11-14% (assumes NO rate cuts, was 2 cuts) — variable book benefits from higher-for-longer.**
+- Non-interest income +20-25% (was +2-4%) — Juris banking surprising upside.
+- NIE total +7-11% (was +2-7%); deposit costs RAISED $535-585M → $650-700M.
+- **NCO 25-35bps ex-LAM/Cantor (held) — Q1 ex-fraud was 39bps, ABOVE top of guide. Q2-Q4 must avg 22-33bps. → REG-25 prediction (55%).**
+- Effective tax: ~19%.
+
+**Three vectors (post-Round 2):**
+- V1 Hidden CRE — 🔴 **STRENGTHENED via Office single-point.** $407M Office classified, 18.5% stress rate, 9.5x disproportion. C&I 32% classified is MI3 test variable. **Pending Call Report May 1-10 for MI3 ratio.**
+- **V2 Jefferies/fraud — ✅ CONFIRMED IN PRINT Apr 21.**
+- V3 SSFA/NDFI warehouse — 🟡 **REFINED.** NDFI at cohort median (disconfirming). Lender finance well-structured (disconfirming). CLN shrinking (disconfirming). $7.15B Mortgage Warehouse 30x peer median (confirming, but pitched as low-loss).
+
+**Net thesis: intact but refined. New framing — "good compounder with concentrated CRE tail risk" (Office + Hotel sizing + maturity wall).** Structural bull case stronger than prior assumed; concentration evidence sharper.
+
+**⚡ AOCI exposure:** Cat III/IV — same AOCI bomb as OZK. Jun 18 deadline. AOCI -$456M Mar-26 (-$112M QoQ deterioration).
+**⚡ Analyst downgrades (Mar 26):** Weiss Buy→Hold | Barclays PT $105→$90 | WFC PT $83→$79. Consensus PT ~$85-90. **Thesis PT range may need to widen ($55-70 instead of $47-60) given structural bull strength** — Round 2 thesis revision pending in WAL/THESIS.md v2.
 
 ---
 
@@ -380,7 +464,7 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 | Rank | Bank | Score | Primary Risk | Position | Expiry |
 |------|------|-------|-------------|----------|--------|
 | 1 | EGBN | 20 | CRE 547% + DC 100% + crisis state | $25P | Jun |
-| 2 | WAL | 20 | **V2 FRAUD CONFIRMED Apr 21 (LAM $126.4M + Cantor $26.1M).** CRE 474% + MI3 pending + SSFA/NDFI pending | $85P/$77.5P/$70P/$65P | Jun/Sep — **V2 resolved, V1/V3 pending Call Report** |
+| 2 | WAL | 20 | **V2 FRAUD CONFIRMED Apr 21.** **V1 strengthened: Office 38% of classified ($407M, 18.5% stress) + $946M Office matures 2026.** V3 refined: NDFI cohort median; $7.15B warehouse 30x peer; CLN pool shrinking. Pending: MI3 Call Report May 1-10. | $85P/$77.5P/$70P/$65P | Jun/Sep — **V2 resolved, V1 sharpened, V3 refined** |
 | 3 | CFG | 15 | BDC $12.5B + FHLB 60x + CRE nonaccruals rising | Monitoring (score 9→12 post-Q1) | — |
 | ~~4~~ | ZION | ~~14~~ → **~8-9** | MUNI $4.27B + NDFI $2B flat 5yr + Basel III +93bps offset to AOCI | $57.5P | Jul — **Q1 disconfirming; monitor only** |
 | 5 | OZK | 13 | **Past due $207M → $465M QoQ firing. Slow-grind.** CRE 37.6% MI3 (worst baseline) + IQHQ Aug 2026 + Oct 1 sub notes reprice | $42.5P/$45P | **$45P May too tight — roll to Aug/Sep merits analysis** / $42.5P Aug correct |
@@ -457,7 +541,9 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 | REG-02 | FHLB advances spike >$600B | Q2-Q3 2026 | 60% |
 | REG-03 | At least one Tier 1 bank capital raise | H2 2026 | 50% |
 | REG-04 | Chicago pattern replicates in Phoenix | H1 2026 | 65% |
-| REG-20 | WAL major stress event | Apr-Jun 2026 | 82% |
+| REG-20 | WAL major stress event | Apr-Jun 2026 | 82% — Q1 print arguably resolves; Will resolution call pending |
+| **REG-24** | **WAL Office classified > $500M by Q3 2026** | Q2-Q3 2026 | **60%** (NEW Apr 24 — driven by $946M Office maturity wall) |
+| **REG-25** | **WAL ex-fraud NCO > 40bps in Q2 OR Q3 2026** | Q2-Q3 2026 | **55%** (NEW Apr 24 — Q1 39bps already above 25-35bps mgmt guide) |
 
 ---
 
