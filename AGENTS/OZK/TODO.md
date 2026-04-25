@@ -124,14 +124,28 @@ Currently 0.42% NCO super-prime clean. Quarterly earnings tracking. Inflection =
 
 ## Known Staleness — Deferred (not session scope)
 
-### H1. `workbook/KB_INDEX.md` significantly behind
-Index header says "Total rows: 159 | Groups: 17" but actual KB.tsv has **196** rows (confirmed 2026-04-24 audit). Rows 160-196 not reflected in any group listing. 30-60 min to update rollups if/when it becomes blocking. **Not currently blocking** — everyone reads via KB.tsv directly or through named files, not the index.
+### H1. `workbook/KB_INDEX.md` rollup — Phases 1 & 5 done (2026-04-24); 2/3/4/6 pending
 
-### H2. Hygiene items from 2026-04-24 tree audit (see `AUDIT.md`)
-- `INDEX.md:10` positions snapshot says "$42.5P Aug 21 × 1" — actual is × 3 per STATUS. 1 min fix.
-- `Q1_2026_ANALYSIS.md:1` header says "REGINALD ANALYSIS" — should be OZK. Cosmetic.
-- `research/README.md` "Current Files" table lists "OZK Thesis Feb25" as in `research/` — actually in `archive/`. Cosmetic.
-- **TRADE.md future** — Mar 7 REGINALD-vintage content with Apr 24 annotations patched on. Sections 1/3/4/5/6 preserved; section 2 missing. No unique role vs POSITIONS + THREAD3 + IQHQ_PLAYBOOK. Decide: shrink to live-state one-pager, archive, or keep. Will input needed.
+**State:** Header now correct (195 rows / 28 groups). Naming drift merged (EXTEND_AND_PRETEND → EXTEND_PRETEND). Existing-cluster ranges current (LIFE_SCI 21→26, GEOGRAPHY 13→15, EXTEND_PRETEND 8→9). Quick Lookup catalyst-driven (May Call Report / Jul Q2 / Aug IQHQ / Oct sub notes + Affinius). Standalone Research +3 post-Q1 threads. **12 new groups still missing from rollup tables** (AFFINIUS, SELLSIDE, FAILURE_COMP, RESG_MIX, PRIVATE_CREDIT + 7 single-row: IQHQ, SEVEN_CREDIT, TRANSCRIPT, SHORT_INTEREST, DISTRESSED_COMPS, NIM, CIB).
+
+**Phased plan (decided 2026-04-24):**
+
+| Phase | Status | Effort | Description |
+|---|---|---|---|
+| 1 — Mechanical refresh | ✅ done | — | Header counts, range extensions, naming-drift merge. Commit `93655ad0`. |
+| 2 — Architectural decision | ⬜ pending | ~15 min | (a) Do SELLSIDE/SHORT_INTEREST/FAILURE_COMP warrant a "Market Evidence / Precedent" layer? (b) Rule for single-row groups — fold into parent cluster or keep standalone? Decision-only, no writing. |
+| 3 — Multi-row cluster rollup | ⬜ blocked on 2 | ~25 min | Write rollup rows for AFFINIUS (6), SELLSIDE (5), FAILURE_COMP (4), RESG_MIX (3), PRIVATE_CREDIT (3) |
+| 4 — Single-row reconciliation | ⬜ blocked on 2 | ~20 min | Per Phase 2 rule — fold or standalone for the 7 single-row groups. Touches KB.tsv if folding. |
+| 5 — Quick Lookup + Standalone Research | ✅ done | — | Catalyst-driven lookups + 3 thread files. Commit `8bd512dc`. |
+| 6 — Audit | ⬜ after 3+4 | ~10 min | Spot-check rollup completeness, update KB_INDEX_AUDIT.md if new drift pattern. |
+
+**Recommended next-session sequence:** Phase 2 (decision, ~15 min) → Phase 3+4 (~45 min combined) → Phase 6 (~10 min). Single session can cover the lot.
+
+### H2. Hygiene items from 2026-04-24 tree audit (see `AUDIT.md`) — ✅ ALL DONE 2026-04-24
+- ✅ `INDEX.md:10` positions snapshot fixed (× 1 → × 3, + missing $47.5P May × 2 line). Commit `ee0d599c`.
+- ✅ `Q1_2026_ANALYSIS.md:1` header fixed (REGINALD ANALYSIS → OZK ANALYSIS). Commit `ee0d599c`.
+- ✅ `research/README.md` Feb25 row removed (file lives in archive/, not research/). Commit `ee0d599c`.
+- ✅ `TRADE.md` shrunk 93 → 40 lines (Will approved Option 2). Kept frame + conviction thesis (Mar 7 entry rationale) + anti-trade warning. Dropped Mar 7 earnings playbook + 4-contract position assessment (resolved/superseded). Commit `ee0d599c`.
 
 ---
 

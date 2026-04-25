@@ -35,28 +35,27 @@
 
 ## Session Notes
 
-⚠️ **Open question:** Thread 3 roll math chain quotes were last priced Apr 22 — May 8 deadline is ~14 days out. Next session should refresh `THREAD3_ROLL_MATH.md` early to give Will decision room; don't wait until the last few days when premium decay accelerates.
+⚠️ **Open question:** KB_INDEX rollup **Phase 2** — architectural decision: (a) Do SELLSIDE / SHORT_INTEREST / FAILURE_COMP warrant a new "Market Evidence / Precedent" layer in the index, or cross-cut into existing layers? (b) Rule for single-row groups — fold into parent cluster (KB.tsv retag) or keep standalone? Decision-only, no writing. Phases 3 + 4 blocked on this. Full plan in TODO.md §H1.
 
 **CHANGES SINCE:** *(leave blank — next boot populates via market.py price delta check)*
 
-### LAST SESSION (2026-04-24, first genuine OZK spawn)
+### LAST SESSION (2026-04-24, second OZK session)
 
-- **Step 13 boot test:** 6/7 pass (skipped outbox-write test to avoid polluting). Identity chain clean (root + OZK/CLAUDE.md only, no REGINALD interference).
-- **Full tree audit → `AUDIT.md`.** Not bloated at boot (~235 lines for STATUS/LESSONS/CALENDAR/MEMORY). Main findings: 3 broken refs, KB_INDEX drift (159→196), TRADE.md structural mismatch (Mar-7 vintage with Apr-24 annotations), 2 spinout-plan residuals (Step 14 REGINALD-owned, Step 15 was undone).
-- **Fixed 3 broken refs** (Will approved Option A on PREDICTIONS): (1) Step 15 `git mv` `OZK_SPINOUT_PLAN.md` → `archive/`. (2) Extracted 4 OZK predictions from REGINALD/workbook/PREDICTIONS.tsv → new `workbook/PREDICTIONS.tsv` as OZK-01..04. REG-17 stayed in REGINALD (multi-bank WAL/OZK/EGBN screen). (3) FORGE_TRADE_STATUS.md was a false alarm — documented in sources/README.md:15.
-- **REGINALD committed my cross-boundary pieces in `121452be`** — rename + PREDICTIONS row removal. Good cooperation pattern through REGINALD_CHANNEL.
-- **REGINALD_CHANNEL.md — pair-channel pattern introduced this migration.** File-based log, newest-top, ACK underneath, no reply unless new info. Wrote 2 entries + ACK'd REGINALD's opener. REGINALD responded 16:40 ET confirming watches already on dashboard, flagging WAL Round 2 next session will include IQHQ-adjacent scan.
-- **STATUS.md price refresh:** $48.23 → $47.59 (-1.9%, sector-cohort red). No threshold breach.
-- **Commits this session:** `45dc05e4` (audit + PREDICTIONS + channel init), `0c8c43d6` (channel entry: Step 14 unblock + sector watches).
+- **Doc cleanup batch.** Fixed INDEX.md positions (× 1 → × 3, + missing $47.5P May × 2 line); Q1_2026_ANALYSIS.md header (REGINALD → OZK); research/README.md removed Feb25 row (file in archive/, not research/); shrunk TRADE.md 93 → 40 lines (Will approved Option 2 — kept conviction thesis + anti-trade warning, dropped Mar 7 earnings playbook + position assessment). Commit `ee0d599c`.
+- **KB_INDEX rollup — 6-phase plan documented in TODO.md §H1.** Will approved phasing. Each phase bounded, with own commit, no judgment carried forward without approval. Two phases shipped this session.
+- **Phase 1 done.** Header 159/17 → 195/28; naming-drift merge EXTEND_AND_PRETEND → EXTEND_PRETEND (KB.tsv row 176 retagged); LIFE_SCI range 21→26; GEOGRAPHY range 13→15; EXTEND_PRETEND range 8→9. Commit `93655ad0`.
+- **Phase 5 done.** Quick Lookup replaced "By earnings prep (Apr 16)" → "By 2026 catalyst" (May Call Report / Jul Q2 / Aug IQHQ / Oct sub notes + Affinius). Standalone Research +3 post-Q1 threads (CIB_MARGIN_COMPRESSION, IQHQ_SECONDARY_EXPOSURE, RESG_MIX_DETERIORATION). Commit `8bd512dc`.
+- **Phase 2-4 + 6 remain.** Phase 2 (15 min decision) blocks 3 + 4. Phase 6 closes after 3+4. Single next session can cover the lot (~60-80 min).
+- **Other agents active in tree mid-session.** REGINALD modified STATUS.md + workbook/PREDICTIONS.tsv (parallel session — flagged to Will, didn't touch). WALTER touched STATUS + filter/route logs; BOARD added 13 SIG-W files + INDEX. All non-OZK paths left untouched. My commits passed pre-push sanity check (`git diff origin/master..HEAD --name-only | grep -v '^AGENTS/OZK/'` → empty).
+- **STATUS.md price refresh at boot:** $47.59 → $47.47 (-0.25%, no threshold breach). Regional cohort idio-red on a green tape day (SPY +0.77%, QQQ +1.91%) — divergence noted, not OZK-specific.
 
 ### NEXT SESSION
 
-1. **Refresh `THREAD3_ROLL_MATH.md` chain quotes** (May 8 deadline; priority 1).
-2. **Decide TRADE.md fate** — shrink to one-pager, archive, or keep. OZK recommendation: archive (no unique role vs POSITIONS + THREAD3 + IQHQ_PLAYBOOK). Will input needed.
-3. **Fix `INDEX.md:10` positions snapshot** — "$42.5P Aug 21 × 1" → × 3 (1 min).
-4. **Cosmetic:** `Q1_2026_ANALYSIS.md:1` header "REGINALD" → "OZK"; `research/README.md` fix "Feb25" row (points at research/ but file is in archive/).
-5. **Optional:** KB_INDEX rollup refresh (159→196 rows). Not blocking, but TODO H1.
-6. **Check REGINALD_CHANNEL on boot** for any new REGINALD entries since 16:40 ET.
+1. **KB_INDEX rollup Phase 2** (~15 min, decision-only) — settle SELLSIDE layer + single-row rule. See TODO.md §H1.
+2. **KB_INDEX rollup Phase 3 + 4** (~45 min, after Phase 2) — multi-row cluster rollup + single-row reconciliation. Can co-execute.
+3. **KB_INDEX rollup Phase 6** (~10 min, after 3 + 4) — audit close.
+4. **Refresh `THREAD3_ROLL_MATH.md` chain quotes** — May 8 deadline now ~14 days out. Priority if Will signals roll execution.
+5. **Check REGINALD_CHANNEL on boot** for any new entries since 16:40 ET 2026-04-24 (REGINALD ran parallel session this session — may have written).
 
 ### Prior note (pre-spinout seed): Initial Session Notes (2026-04-24, REGINALD migration session)
 
