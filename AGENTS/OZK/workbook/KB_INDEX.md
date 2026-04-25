@@ -1,6 +1,6 @@
 # KB.tsv — Group Index
 
-**Updated:** 2026-03-25 | **Total rows:** 159 | **Groups:** 17
+**Updated:** 2026-04-24 | **Total rows:** 195 | **Groups:** 28
 
 Navigate the KB by investigation cluster. Each group maps to a folder or research file where the full synthesis lives.
 
@@ -19,9 +19,9 @@ Navigate the KB by investigation cluster. Each group maps to a folder or researc
 
 | Group | Rows | Count | Folder / File | What It Covers |
 |-------|------|-------|---------------|----------------|
-| **EXTEND_PRETEND** | 096–097, 099–104 | 8 | **research/D6_EXTEND_AND_PRETEND.md** | 590 mods, 98% classification gap, 59% re-default, NPL forensics. (098 cross-listed → MGMT_CREDIBILITY) |
+| **EXTEND_PRETEND** | 096–097, 099–104, 176 | 9 | **research/D6_EXTEND_AND_PRETEND.md** | 590 mods, 98% classification gap, 59% re-default, NPL forensics, Schaffer's Mill workout-tempo evidence. (098 cross-listed → MGMT_CREDIBILITY) |
 | **DISTRESSED_LOANS** | 028–036 | 9 | THESIS.md (evidence) | Named problem loans: IQHQ RaDD, Sterling Bay, Boston, Seattle, Santa Monica |
-| **LIFE_SCI** | 094–095, 117, 137–141, 147–159 | 21 | **LIFE_SCI/FINDINGS.md** | $3.2B life sci, RaDD 3.3% leased + $1.23B total debt (15% PIK mezz accruing $76M), national bottoming 23.0%, SD rents 14th decline, Sorrento 38.2%, Boston ATH 28-34%, Bay Area first recovery, VC→AI crowding, Pacific Center sold, Temple 8 short, M&A $240B driving sublease, Boston 16.5M SF pipeline |
+| **LIFE_SCI** | 094–095, 117, 137–141, 147–159, 189–191, 194–195 | 26 | **LIFE_SCI/FINDINGS.md** | $3.2B life sci, RaDD 3.3% leased + $1.23B total debt (15% PIK mezz accruing $76M), national bottoming 23.0%, SD rents 14th decline, Sorrento 38.2%, Boston ATH 28-34%, Bay Area first recovery, VC→AI crowding, Pacific Center sold, Temple 8 short, M&A $240B driving sublease, Boston 16.5M SF pipeline. Q1 26 adds: Boston Life Sci $169M substandard (sponsor confirmed), Seattle U Dist $127M, Chicago Life Sci $50M foreclosed, Ten Prospect sponsor correction. |
 | **MGMT_CREDIBILITY** | 037–041, 069, 085, 093, 098 | 9 | THESIS.md (narrative) | "No concessions" contradiction, CFO selling, buyback non-use |
 | **INSIDER** | 142–145 | 4 | raw/llm_outputs/OZK_INSIDER_claude_prompt16.md | ZERO insider buys 18mo, 65:1 sell ratio, CRO filled (Majumdar), Mar 11 mass filing, Gleason "most uncertain time in 45yr career" |
 
@@ -36,7 +36,7 @@ Navigate the KB by investigation cluster. Each group maps to a folder or researc
 
 | Group | Rows | Count | Folder / File | What It Covers |
 |-------|------|-------|---------------|----------------|
-| **GEOGRAPHY** | 107–116, 118–120 | 13 | **GEOGRAPHY/EXPOSURE_MAP.md** | 58 MSAs mapped, $2.9B distressed cluster (5 metros), FL paradox intro, supervisory mismatch, $2B unleased pipeline. (117 → LIFE_SCI) |
+| **GEOGRAPHY** | 107–116, 118–120, 192–193 | 15 | **GEOGRAPHY/EXPOSURE_MAP.md** | 58 MSAs mapped, $2.9B distressed cluster (5 metros), FL paradox intro, supervisory mismatch, $2B unleased pipeline, Santa Monica Office $45M foreclosed, The Jack ID confirmed. (117 → LIFE_SCI) |
 | **FL_PARADOX** | 121–132 | 12 | **GEOGRAPHY/FL_PARADOX.md** | 4-model stress-test: deposit wall, SB 4-D moat, insurance, Biscayne 21 ($105M), FinCEN, concentration duality |
 
 ## Peer Comparison
