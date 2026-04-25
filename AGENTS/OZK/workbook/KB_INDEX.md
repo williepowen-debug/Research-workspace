@@ -69,6 +69,9 @@ These research files exist in `research/` but span multiple KB groups or predate
 | 8K_FORCED_DISCLOSURE_FRAMEWORK.md | Pre-announcement triggers & timeline | MGMT_CREDIBILITY |
 | INSIDER_ACTIVITY_COMPILED.md | Form 4 compilation | MGMT_CREDIBILITY |
 | NDFI_SHADOW_CRE_ANALYSIS.md | $2.74B shadow CRE deep dive | SHADOW_CRE |
+| threads/CIB_MARGIN_COMPRESSION.md | Vertical-specific compression 3/6, net-neutral, NIM drift 4.20% → 4.10-4.15% | CIB, NIM, PRIVATE_CREDIT |
+| threads/IQHQ_SECONDARY_EXPOSURE.md | NO 2nd IQHQ credit — Rossow on-record to Bisnow confirms RaDD is sole | IQHQ, DISTRESSED_LOANS |
+| threads/RESG_MIX_DETERIORATION.md | Apr 22 linear projection RETRACTED — real indicators are substandard migration, past-due regime change, NCO tempo | RESG_MIX, DISTRESSED_LOANS, EXTEND_PRETEND |
 
 ---
 
@@ -101,11 +104,12 @@ These research files exist in `research/` but span multiple KB groups or predate
 - "What about Florida?" → FL_PARADOX (answer: it's fine, not where thesis breaks)
 - "What's the bull case?" → BULL_COUNTER
 
-**By earnings prep (Apr 16):**
-- Charge-off estimate → ACL_THINNING + DISTRESSED_LOANS + LIFE_SCI
-- Management credibility questions → MGMT_CREDIBILITY + EXTEND_PRETEND (098)
-- Peer positioning → PEER_COMP (133-136)
-- Geographic stress → GEOGRAPHY (111, 114, 117)
+**By 2026 catalyst:**
+- **May 1-10 Q1 Call Report (FFIEC):** MI3 37.6% baseline trajectory, peer MI3 cohort drift → SHADOW_CRE + MEMO_ITEM_3 + PEER_COMP
+- **Mid-late Jul Q2 earnings (dress rehearsal for Aug IQHQ):** specific reserve build, classified+criticized trajectory, NCO tempo → ACL_THINNING + EXTEND_PRETEND + DISTRESSED_LOANS + RESG_MIX
+- **Aug 2026 IQHQ RaDD maturity:** 4-scenario tree (`IQHQ_PLAYBOOK.md`), weighted EL $140M → IQHQ + DISTRESSED_LOANS + LIFE_SCI
+- **Oct 1, 2026 $350M sub notes reprice + Affinius $2.7B bond maturity:** Tier 2 -20%, $0.09 EPS drag, NDFI counterparty stress → MATURITY_WALL + AFFINIUS + CAPITAL_LIQUIDITY
+- **Cross-feed evidence (market-side):** SELLSIDE (analyst trajectory), SHORT_INTEREST (squeeze risk), FAILURE_COMP (MetCap precedent)
 
 ---
 
