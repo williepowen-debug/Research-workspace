@@ -36,64 +36,75 @@
 
 ## Session Notes
 
-⚠️ **Open question:** WAL Round 2 deep-mine sequencing — does the next session prioritize deck (25pp) → press release PDF tables (pp7-19) → DEF 14A (~90pp), or flip the order? Press release PDF probably closes the most Q1_ANALYSIS §11 open items fastest. Deck is the broadest thesis surface. DEF 14A is specifically for the LEADERSHIP/insider/governance layer and could be parallelized.
+⚠️ **Open question:** The Round 2 Wave 1 cascade (`WAL/THESIS.md` v2 rewrite) is the natural next step — we have 3 synthesis docs (~1,500 lines of signal) ready to feed it. But DEF 14A is still untouched and gives governance/insider context that doesn't depend on thesis framing. Which to do first? My bias is Wave 1 cascade (WAL/THESIS.md v2) → then DEF 14A — because thesis v2 without governance is still a coherent deliverable, but governance findings may change nothing at the thesis level.
+
+**Also pending resolution:** REG-20 (WAL major stress event, 82%) — Q1 print arguably resolves (GAAP EPS miss -4.6%, $152.5M fraud, tape -2%). Flagged OPEN in PREDICTIONS.tsv with resolution note. Will should call whether to mark CONFIRMED or hold for higher-bar event.
 
 ### CHANGES SINCE LAST SESSION
 *(populated at next boot via market.py)*
 
-### LAST SESSION (Apr 24 late-afternoon — WAL Q1 Step 1 source fetch + transcript synthesis; OZK spinout wrap)
+### LAST SESSION (Apr 24 PM-evening — WAL Q1 Round 2 deep-mine: Press Release + Deck synthesis)
 
-**WAL Q1 2026 primary-source acquisition complete.** Step 1 of the WAL Q1 post-print plan landed all fetchable materials:
-- Earnings deck (Q4CDN direct CDN, 25pp) — `q1_2026/WAL-Q1-2026-Earnings-Presentation-Final-v2.pdf`
-- Press release PDF (Will dropped, 20pp with 13pp of tables) — `q1_2026/Press-Release-3-31-2026-Final.pdf`
-- Press release HTML (SEC Ex 99.1 via curl+UA — redundant with PDF) — `q1_2026/WAL-Q1-2026-Press-Release.htm`
-- 8-K form (SEC) — `q1_2026/WAL-Q1-2026-8K.htm`
-- **Full earnings call transcript (Will dropped, 706 lines verbatim)** — `q1_2026/WAL Earnings Call.md`
-- DEF 14A proxy (Will dropped, 7.3MB / ~90pp) — `q1_2026/14A.pdf`
-- DEFA14A annual meeting notice (Will dropped, 7pp, procedural) — `q1_2026/14A 2.pdf`
-- Confirmed negative: no separate financial supplement — WAL is deck+release only (matches FITB pattern)
-- Correct SEC accession is **`0001628280-26-026302`** (stocktitan's `0001212545-26-026302` was wrong — filer CIK ≠ company CIK)
+**Core deliverables — two synthesis docs, 1,200+ lines combined:**
+- `WAL/sources/q1_2026/WAL Q1 2026 - Press Release Synthesis.md` (521 lines) — extraction of 20pp / 5,768-line PDF
+- `WAL/sources/q1_2026/WAL Q1 2026 - Deck Synthesis.md` (702 lines, corrected after operator eyes-on Slide 12) — extraction of 25 slides / 2,250-line PDF
+- Pair-doc: transcript synthesis from prior session still live (248 lines)
 
-**Transcript fully analyzed** → `WAL Q1 2026 - Transcript Synthesis.md` (248 lines, tracked). 7 headline findings:
-1. 🔴 **WAL at $98.9B — Q2 or Q3 crosses $100B** (Cat III/IV threshold). Net-new V4 thesis lever independent of V1-V3; intersects Jun 18 AOCI comment period close.
-2. 🟢 Mgmt framed LAM+Cantor as "largely behind us" — binary read: clean Q2/Q3 vindicates, another credit = gaffe on record.
-3. 🟠 Buybacks ending — Vecchione explicit: "not in our models right now."
-4. 🟠 HFI growth deliberately throttled; Bruckner: pulled back on "commercial real estate related segment."
-5. 🟡 $26M of LAM charge DELIBERATELY unmitigated — analyst consensus advice.
-6. 🟡 Slide 20+24 reconcile — WAL lender finance $2.3B = majority of $3B NDFI bucket; top fund $60M/$30M funded; **Janet Lee asked for count of >$100M exposures, Vecchione refused.**
-7. 🟢 Street disengaged from V1/V3 — zero analyst probe of MI3, SSFA, other Leucadia credits. Thesis runway preserved, unvindicated.
+**⚠️ Gitignore discovered:** `AGENTS/REGINALD/*/sources/q[1-4]_*/` ignores the whole sources directory. Source PDFs intentionally excluded (IP/size), but our synthesis markdown files are also excluded. **Synthesis files NOT in git commit for this session.** Needs Will decision: (a) negation rule for `*.md`, (b) move synthesis to non-ignored path like `WAL/synthesis/`, or (c) force-add with `git add -f`.
 
-**Deck + press release PDF + DEF 14A — NOT yet deep-read.** Only sampled. Round 2 integration pending next session.
+**Headline Round 2 findings (condensed — full in STATUS.md POST-DECK INTEGRATION section):**
 
-**OZK spinout finalized.** Step 13 boot test (OZK side) passed 6/7 during this session. OZK side also executed:
-- Step 15 (OZK_SPINOUT_PLAN.md → OZK/archive/) — staged in OZK's work, committed by REGINALD
-- PREDICTIONS.tsv split — REG-16/21/22/23 → OZK-01..04; REG-17 (WAL/OZK/EGBN multi-bank screen) retained in REGINALD with spinout note
-- Full cross-boundary audit fixes per Will's authorization
+1. 🔴 **Office stress is acute single-point concentration.** Slide 12 classified mix (operator-verified): Office 38% / C&I 32% / Construction 12% / Other 10% / Resi 5% / CRE Investor non-Office 3%. **Office = $407M on $2.2B book = 18.5% stress rate, 9.5x book-share disproportion.** Initial read had category mapping wrong ("70% CRE" framing). Corrected framing is sharper: single-point Office concentration, not broad CRE.
+2. 🔴 **Office maturity wall $946M matures 2026** (Slide 23). Bridge-loan structure → natural recognition pressure on refi failure.
+3. 🟢 **NDFI cohort position disclosed** (Slide 24, 30-bank table). WAL at 7% Ex-Mtg Credit (peer median 6%). **V3 NDFI-opacity thesis disconfirmed at aggregate level.** But $7.155B Mortgage Warehouse (12% of loans, 30x peer median) remains a confirmed concentration, classified as C&I not NDFI.
+4. 🟡 **Hotel $4.5B (44% of CRE Investor) — sizing risk, NOT active stress.** WAL has formal Hotel Franchise Finance line. Slide 12 confirms non-Office CRE Investor only 3% of classified = ≤$32M. Latent watch vector.
+5. 🟡 **Mgmt Revised 2026 Outlook** (Slide 17). NCO 25-35bps ex-fraud (held) but Q1 came in at 39bps → **above top of guide**. NII +11-14% even without rate cuts. Non-interest income raised +2-4% → +20-25% (Juris banking). Deposit costs RAISED $535-585M → $650-700M.
+6. 🟢 **CLN reference pool SHRINKING** (press release p4): $8.5B → $7.9B YoY. V3 CLN-arbitrage sub-vector directionally disconfirmed.
+7. 🔴 **Leading vs lagging indicator divergence**: 30-89d PD +$49M QoQ (+45%), Special Mention +$78M QoQ (+24%) while nonaccrual/classified improved. Vecchione narrative skips leading buckets.
 
-**REGINALD↔OZK pair channel established** at `AGENTS/OZK/REGINALD_CHANNEL.md`. Convention: newest-at-top, ACK line after read, archive at ~300 lines. OZK has ACKd + replied twice this session. Will approved this pattern. *Messaging-overhaul note in user MEMORY still applies; this is a point-in-time solution for the REGINALD↔OZK pair specifically.*
+**Thesis read: intact but refined.** New framing = "good compounder with concentrated CRE tail risk." Structural bull case stronger than prior assumed (10yr TBV CAGR 18.3% top quartile; NII held despite no rate cuts). Short thesis still needs (a) CRE tail to actualize, or (b) market re-rate on concentration. Thesis PT range may need to widen $47-60 → $55-70.
 
-**Mid-session side-fix: Telegram plugin conflict.** REGINALD's main session (PID 773) was spawning a competing telegram poller alongside WALTER's dedicated `--channels plugin:telegram` session. Investigated + root-caused to global `enabledPlugins.telegram=true` in `~/.claude/settings.json`. Recommended move to WALTER-scoped `.claude/settings.json`. WALTER separately resolved it (commit `2c0acf90`).
+**New predictions added (REG-24, REG-25):**
+- REG-24: WAL Office classified > $500M by Q3 2026 (60%) — driven by $946M Office maturity wall
+- REG-25: WAL ex-fraud NCO > 40bps in Q2 OR Q3 2026 (55%) — driven by Q1 39bps vs 25-35bps guide tension
 
-**Commit this session:** `121452be` — WAL Q1 Step 1 sources (3 tracked files) + PREDICTIONS.tsv spinout cleanup + OZK_SPINOUT_PLAN.md archive rename. 436 insertions, clean push.
+**Interpretation error caught + corrected.** Initial Slide 12 reading had "70% CRE" as top finding. Operator eyes-on check caught mapping swap (32% is C&I not CRE Investor, etc.). Synthesis patched in 5 places with explicit error disclosure. Lesson: PDF chart extractions are interpretation calls; operator verification for high-impact findings is cheap insurance. Also caught under-weighted items in press release synthesis (securities carry trade, MSR servicing revenue swing, gov-guaranteed mortgage magnitude, provision decomposition, Juris context) — flagged as "Known gaps" at top of doc.
 
-### NEXT SESSION — WAL Round 2 deep-mine (primary work)
+**STATUS.md heavily updated** — 80-line POST-DECK INTEGRATION callout at top; RESEARCH — WAL section fully refreshed; Convergence Matrix WAL row updated; NDFI cohort spectrum refreshed with Slide 24 data; Predictions table adds REG-24/25.
 
-1. **Boot normally** — git pull, read STATUS, LESSONS, CALENDAR, MEMORY; run market.py; check inbox (likely empty).
-2. **Start Round 2 deep-mine** of the 3 unread primary sources:
-   - `WAL/sources/q1_2026/Press-Release-3-31-2026-Final.pdf` (pp7-19, 13 financial table pages) — probably closes the most §11 open items fastest
-   - `WAL/sources/q1_2026/WAL-Q1-2026-Earnings-Presentation-Final-v2.pdf` (23 unread slides — capital walk, credit tables, CRE detail, management outlook)
-   - `WAL/sources/q1_2026/14A.pdf` (DEF 14A ~90pp — CFO Idnani comp package, ownership table, related party transactions, audit committee, board committee assignments)
-3. **Update `WAL/Q1_2026_ANALYSIS.md` to Round 2** — close §11 open items, integrate $100B lever as new section, fold in deck findings. Preserve Round 1 structure where still correct.
-4. **Wave 1 cascade** — rewrite in order (each depends on the previous):
-   - `WAL/THESIS.md` v2 (V2-CONFIRMED paradigm, LAM integrated, ex-fraud clean credit, $100B lever, deposit strategy reversal)
-   - `WAL/STATUS.md` (current prices, post-print key numbers, new position P&L)
-   - `WAL/FRAUD/STATUS.md` + `FRAUD/SYNTHESIS_V2.md` (LAM added, Cantor resolved)
-   - `WAL/workbook/KB.tsv` + `KB_INDEX.md` (row count refresh, LAM rows, updated Cantor rows)
-   - `WAL/SCENARIOS.md` (post-print probability re-weight)
-   - `WAL/INDEX.md` (housekeeping)
-   - `thesis/CHANGELOG.md` (document V2-CONFIRMED as thesis event)
-5. **Wave 2 cross-agent outbox** — per Transcript Synthesis cross-agent section: BROCK (LAM=fund-of-LAM Jefferies rail), CARL (consumer disconfirming at WAL), OTTO ($152.5M fraud ledger), PROME (duration extends, $100B lever new), LIQUID (WAL funding NOT stressed), HAWK/BRENT (no dedicated ME reserve).
-6. **Carry-over: OZK Spinout Step 14** — trim `REGINALD/STATUS.md` "RESEARCH — OZK" section (lines ~327-349) to 5-10 line pointer to `../OZK/STATUS.md`. OZK confirmed stable on its side, safe to proceed whenever. Low priority vs WAL work.
-7. **Calendar-gated (May 1-10): Auto-fetch** WAL 10-Q + Call Report when filed. Use SEC `data.sec.gov/submissions/CIK0001212545.json` + `curl + UA` pattern (see Findings below). MI3 ratio refresh is V1 thesis test.
+**NOT yet done (Wave 1 / Wave 2 / DEF 14A):**
+- DEF 14A (~90pp) untouched
+- `WAL/Q1_2026_ANALYSIS.md` still at Round 1
+- `WAL/THESIS.md` v2 rewrite pending
+- `WAL/STATUS.md`, WAL/FRAUD, WAL/SCENARIOS, WAL/KB.tsv cascades pending
+- Thesis changelog entry pending
+- Outbox signals to BROCK, CARL, OTTO, PROME, LIQUID, HAWK/BRENT pending
+- 10-Q (files ~May 10) + Q1 Call Report (May 1-10) will address remaining §11 open items (MI3, loan servicing revenue swing, Hormuz reserve, Other Leucadia credits)
 
-**Positions unchanged this session** — no broker data received. Thread 3 roll still pending with May 8 deadline (lives in `../OZK/POSITIONS.md` now).
+**Commit this session:** `(pending)` — STATUS.md + PREDICTIONS.tsv + this MEMORY.md only. Synthesis files blocked by gitignore (see above).
+
+### NEXT SESSION — Wave 1 thesis cascade (recommended) + DEF 14A
+
+1. **Boot normally** — git pull (WALTER has been active; check for conflicts), read STATUS (POST-DECK INTEGRATION up top), LESSONS, CALENDAR, MEMORY; run market.py; check inbox.
+2. **Resolve gitignore question** with Will on how to track synthesis files. If negation rule approved, commit the 2 pending synthesis files.
+3. **REG-20 resolution call** — Will's decision: mark CONFIRMED (Q1 print satisfied "stress event") or hold for higher bar.
+4. **Wave 1 cascade** (order matters — each depends on prior):
+   - `WAL/THESIS.md` v2 — integrate Round 2 findings. New framing: "good compounder with CRE tail risk." Office concentration + maturity wall + Hotel latent + NDFI at cohort median + CLN shrinking + warehouse 30x peer. Bump version, update PT range ($55-70 candidate vs $47-60 prior).
+   - `WAL/STATUS.md` — WAL-specific (separate from REGINALD/STATUS.md). Post-Round-2 refresh.
+   - `WAL/FRAUD/STATUS.md` + `FRAUD/SYNTHESIS_V2.md` — LAM integrated with Jefferies rail, Cantor resolved with $13M senior liens.
+   - `WAL/workbook/KB.tsv` + `KB_INDEX.md` — row count refresh. Add LAM rows, update Cantor rows, add CLN trajectory rows, add Office classified rows, add Hotel exposure rows.
+   - `WAL/SCENARIOS.md` — probability re-weight given Round 2 data. Structural bull case stronger; CRE tail case refined.
+   - `WAL/INDEX.md` — housekeeping.
+   - `thesis/CHANGELOG.md` — document Round 2 integration as thesis event (not a V2 revision per se, but a Round 2 evidence integration + framing refinement).
+5. **Wave 2 cross-agent outbox** (after Wave 1 done):
+   - BROCK: LAM = Leucadia/Jefferies rail ($126.4M ring); fund-of-LAM implications for BDC sector
+   - CARL: consumer disconfirming at WAL ($0 Construction + $0 Residential charge-offs 5 straight quarters)
+   - OTTO: $152.5M fraud ledger update (WAL LAM+Cantor); Office classified $407M as new concentration watch
+   - PROME: Round 2 completes; thesis PT widening candidate; position duration assessment
+   - LIQUID: WAL funding NOT stressed (deposits +$5.6B QoQ dwarf borrowing +$676M ST)
+   - HAWK/BRENT: no dedicated Middle East reserve at WAL (unlike RF's $17M overlay)
+6. **DEF 14A pass (90pp)** — only AFTER Wave 1. Governance/insider layer: CFO Idnani comp package, ownership table, related-party transactions, audit committee composition, board committee assignments. Independent of thesis — findings are optional enhancement.
+7. **Carry-over: OZK Spinout Step 14** — trim REGINALD/STATUS.md "RESEARCH — OZK" section to 5-10 line pointer. Low priority.
+8. **Calendar-gated (May 1-10):** Auto-fetch WAL 10-Q + Call Report. MI3 ratio = V1 thesis test. Loan servicing revenue swing (-$23M YoY) also needs 10-Q to explain.
+
+**Positions unchanged this session** — no broker data. Thread 3 roll still pending May 8 deadline (lives in `../OZK/POSITIONS.md`).
