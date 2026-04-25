@@ -1,69 +1,106 @@
-## COMPLETION — WALTER — 2026-04-24 (Fri — Telegram inbound bug root-caused & fixed; Path B hook spike complete & deferred)
+## COMPLETION — WALTER — 2026-04-24/25 (Fri-night Will-driven heavy intake — 13 dispatches + 4 verify-spawns + 3 kills, BOARD 58→71)
 
-STATUS: ✅ INFRA-ONLY SESSION. No signal routing, no BOARD dispatches, no boot reads (STATUS/REGISTRY/ROUTING/BOARD unread). Entire session on two infra items: (1) resolved the Apr 22 "Telegram MCP delivery broken" bug; (2) ran a spike to validate Path B (hook-based CHAT_BUFFER for conversational context), then deferred shipping. Telegram inbound now 100% reliable; Path B ready to ship if needed.
+STATUS: ✅ HEAVY INTAKE SESSION COMPLETE. Boot done normally. Telegram inbound clean throughout (single bun PID 89881; Apr 24 morning multi-bot fix held — no flake across 4 batches over ~2.5 hours). 4 image batches from Will processed end-to-end: Phase 1 Filter, Phase 1.5 verify-research where triggered (4 spawns), dispatch with BOARD/INDEX/route_log persistence, Telegram batch summary back to Will. No spec changes this session. MEMORY.md pruned 129→83 lines.
 
 CHANGED:
-- `~/.claude/settings.json` — REMOVED `enabledPlugins.telegram@claude-plugins-official` (user scope). **Not in repo — user-level file.**
-- `AGENTS/WALTER/.claude/settings.json` — ADDED `telegram@claude-plugins-official: true` alongside existing `discord` entry. **Committed.**
-- `AGENTS/WALTER/.claude/settings.local.json` — ADDED spike hooks (UserPromptSubmit + PostToolUse on Telegram reply) + several `Bash(...)` permission entries. **Gitignored globally via ~/.config/git/ignore — not committed.**
-- `AGENTS/WALTER/.gitignore` — NEW. Contains `debug/` only. **Committed.**
-- `AGENTS/WALTER/debug/` — spike dump files (UserPromptSubmit and PostToolUse payloads). **Gitignored via new .gitignore — not committed.**
-- `AGENTS/WALTER/MEMORY.md` — added Apr 24 Finding (multi-bot competition root cause) and rewrote CHANGES SINCE / NEXT SESSION blocks. Now ~108 lines, flagged for prune.
-- `AGENTS/WALTER/LAST_COMPLETION.md` — this file.
-- `AGENTS/WALTER/STATUS.md` — appended Apr 24 session log row.
-- `~/.claude/projects/.../memory/MEMORY.md` — auto-memory index, added "Telegram Plugin Scope" pointer.
-- `~/.claude/projects/.../memory/project_telegram_plugin_scope.md` — new auto-memory entry.
+
+**13 BOARD signals dispatched (SIG-W-20260424-001 through -013):**
+
+| ID | Domain | Prec | Action → Info | Confidence | Verify |
+|----|--------|------|---------------|-----------|--------|
+| 001 | LABOR / BANK_CRE | PRIORITY | CARL → REGINALD/RED/HENRY/PROME | 0.55 | CORRECTED-FRAMING 0.70 |
+| 002 | OIL_ENERGY / ASIA_CONTAGION | IMMEDIATE | BRENT → HAWK/ZHAO/SAM/LIQUID/RED/PROME/NEXUS/CARL | 0.85 | CONFIRMED 0.85 |
+| 003 | GEOPOL_NON_ENERGY / OIL_ENERGY | IMMEDIATE | HAWK → BRENT/SAM/LIQUID/RED/PROME/NEXUS | 0.75 | — |
+| 004 | MARKET_VOL | PRIORITY | HENRY → RED/LIQUID/NEXUS | 0.60 | — |
+| 005 | BANK_CRE | IMMEDIATE | REGINALD → BROCK/RED/LIQUID/NEXUS/PROME | 0.75 | — |
+| 006 | FUNDING_LIQUIDITY / MARKET_VOL | PRIORITY | HENRY → LIQUID/BROCK/RED/PROME | 0.75 | — |
+| 007 | CONSUMER_CREDIT | PRIORITY | CARL → REGINALD/BROCK/RED/HENRY/NEXUS/PROME | 0.85 | — |
+| 008 | OIL_ENERGY / MACRO_INFLATION | PRIORITY | BRENT → HAWK/CARL/RED/NEXUS/PROME | 0.80 | CONFIRMED-w-nuance 0.80 |
+| 009 | OIL_ENERGY / GEOPOL_ENERGY | IMMEDIATE | BRENT → HAWK/SAM/LIQUID/RED/PROME/NEXUS | 0.75 | — |
+| 010 | GEOPOL_ENERGY | PRIORITY | HAWK → BRENT/SAM/LIQUID/RED/PROME/NEXUS | 0.75 | CONFIRMED 0.85 |
+| 011 | OIL_ENERGY / CONSUMER_CREDIT | PRIORITY | BRENT → CARL/RED/NEXUS/PROME | 0.60 | — |
+| 012 | PRIVATE_CREDIT / MARKET_VOL | PRIORITY | BROCK → HENRY/LIQUID/RED/PROME/NEXUS | 0.80 | — |
+| 013 | OIL_ENERGY | PRIORITY | BRENT → HAWK/NEXUS/PROME/RED/CARL | 0.60 | — |
+
+**3 BOARD signals KILLED:**
+- msg 1023 FL drought L4+L5 expansion — Relevance (primary FL DEP but below thesis-catalyst-scale)
+- msg 1034 Unusual Whales WSJ-teaser home maintenance costs — Novelty + Relevance (no primary data in image)
+- msg 1037 John Wake new-home-sticky historical analog 2005-2008 — Novelty (commentator framing, no fresh datapoint, FRED chart already public)
+
+**Files written/updated:**
+- `BOARD/SIG-W-20260424-001-fl-labor-weakness-bls-above-us-ozk-fl-cre-context.md` (NEW)
+- `BOARD/SIG-W-20260424-002-ofac-hengli-dalian-teapot-sanction-iran-oil.md` (NEW)
+- `BOARD/SIG-W-20260424-003-iran-diplomacy-cascade-araghchi-islamabad-contradictions.md` (NEW)
+- `BOARD/SIG-W-20260424-004-kobeissi-asset-mgrs-97b-nasdaq-futures-10yr-record.md` (NEW)
+- `BOARD/SIG-W-20260424-005-us-office-vacancy-q1-2026-202pct-msa-breakdown.md` (NEW)
+- `BOARD/SIG-W-20260424-006-man-group-6b-single-client-withdrawal-long-only.md` (NEW)
+- `BOARD/SIG-W-20260424-007-nyfed-cc-90day-delinq-127pct-approaching-2009-peak.md` (NEW)
+- `BOARD/SIG-W-20260424-008-corpus-christi-water-emergency-petrochem-sep-curtailment-risk.md` (NEW)
+- `BOARD/SIG-W-20260424-009-ukraine-mass-drone-missile-strike-crimea-w-russia.md` (NEW)
+- `BOARD/SIG-W-20260424-010-usaf-me-airlift-surge-3-carrier-posture.md` (NEW)
+- `BOARD/SIG-W-20260424-011-las-vegas-airline-seats-cut-delta-rdu-suspension-jet-fuel.md` (NEW)
+- `BOARD/SIG-W-20260424-012-softbank-10b-margin-loan-openai-shares-bloomberg.md` (NEW)
+- `BOARD/SIG-W-20260424-013-gujarat-jhagadia-gidc-chemical-explosion-fire.md` (NEW)
+- `BOARD/INDEX.md` — 13 rows appended
+- `AGENTS/WALTER/routed/route_log.tsv` — 13 rows appended
+- `AGENTS/WALTER/filtered/kill_log.tsv` — 3 rows appended
+- `AGENTS/WALTER/STATUS.md` — header line refreshed; new SESSION LOG row prepended
+- `AGENTS/WALTER/MEMORY.md` — full rewrite (pruned 129→83 lines, added Apr 25 Feedback + Findings, replaced Session Notes block)
+- `AGENTS/WALTER/LAST_COMPLETION.md` — this file (overwrite)
+- `AGENTS/WALTER/REGISTRY.tsv` — WALTER row Updated/Focus refresh
 
 RESULT:
 
-**Telegram inbound fixed. Root cause: multi-bot token competition.**
+**13 signals dispatched, 4 verify-spawns (all returned actionable verdicts), 3 kills, BOARD 58→71.**
 
-`enabledPlugins.telegram@claude-plugins-official: true` sat at USER scope in `~/.claude/settings.json`. Every claude session on this machine inherited that and spawned its own `bun server.ts` process polling the same Telegram Bot API token. At session start, observed:
-- PID 65765 — spawned by REGINALD's claude session (PID 773, tmux `reginald`, cwd `AGENTS/REGINALD`)
-- PID 71422 — spawned by WALTER's claude session (PID 67676, tmux `walter`)
+**Major clusters built today:**
 
-Telegram's `getUpdates` long-poll delivers each message to ONLY ONE poller. REGINALD was absorbing ~50% of Will's inbound. Per root CLAUDE.md only WALTER + PROME should be on Telegram.
+1. **Iran day-cluster ≥12 channels Apr 19-24** (8 Apr 19 day-cluster + Tuapse + Hengli OFAC + diplomacy cascade + USAF airlift + Ukraine-Russia kinetic adjacent). Multi-mechanism convergence: kinetic + sanctions + diplomacy + military posture.
 
-Fix:
-1. Removed telegram from user-scope settings
-2. Added telegram to WALTER project-scope settings
-3. Killed PID 65765 (REGINALD's orphan bot)
+2. **Hydrocarbon-infra-stress meta-cluster ≥4-5 geographies** (Geelong AU / Pachpadra+Jhagadia IN / Corpus Christi TX water / Russia oil-infra strikes / Hengli OFAC supply-chain). Different mechanisms (war / fire / sanctions / water / accidents) → same outcome (refining/petrochem capacity at risk).
 
-Verification: Will sent "test" via Telegram (msg 989). Landed first try on WALTER's next turn as a proper `<channel source="plugin:telegram:telegram">` tag. Previously dropped messages would no longer.
+3. **Asset-manager stress cluster 3 nodes** (TCW Red Lobster 98% writedown / Blue Owl founders pledged-unwind $1.1B / Man Group $6B single-client AUM-pull) — pattern: writedown / pledged-loan-unwind / AUM-pull / pledge-up axes (writedown=credit, unwind=equity, AUM-pull=flow, pledge-up=leverage).
 
-**Path B (CHAT_BUFFER via hooks) spike validated, shipping deferred.**
+4. **AI-leverage cluster opposite-direction read** — Blue Owl founders DE-RISKING pledged personal loans at OWL -40% YTD vs SoftBank LEVERING UP $10B margin-loan on OpenAI shares at potential AI cycle peak. Differentiated late-cycle capital-structure decisions.
 
-Proposed Path B = two hooks auto-append inbound/outbound Telegram to `AGENTS/WALTER/CHAT_BUFFER.md`; WALTER reads last ~20 lines at boot for conversational continuity. Hypotheses under test:
-1. Does `UserPromptSubmit` payload include the `<channel>` tag? — **YES.** Payload has `prompt` field containing the full tag with `chat_id`, `message_id`, `user`, `ts`, and body.
-2. Does `PostToolUse` on an MCP tool receive both `tool_input` and `tool_response`? — **YES.** Payload has `tool_input.chat_id`, `tool_input.text`, and `tool_response[0].text` = "sent (id: NNN)".
+5. **Positioning-extreme cluster ≥14 channels** with new Kobeissi Nasdaq futures node (cluster-refinement only).
 
-Both hooks firing reliably post-fix. Path B is shippable. Will's call: **defer — ship next session if real Telegram cold-start friction is felt**. Spike hooks left in place (gitignored) as validated plumbing.
+6. **Consumer-credit + LABOR convergence** with FL-state-above-US (BLS Feb 4.6% vs 4.4%) + NY Fed CC 90+ approaching 2009-10 peak (12.7% vs ~13.8%, ~92% of peak). RED unemployment-asymmetry frame: 2009 peak at unemp ~10% vs current 4.4%; if LABOR cracks +1-2pp, 2009 peak reachable.
 
-**Telegram plugin version check:** on 0.0.6 (latest — no update available). Cache at `/home/willi/.claude/plugins/cache/claude-plugins-official/telegram/0.0.6/`. Marketplace at github `anthropics/claude-plugins-official` also 0.0.6.
+**OZK Q1 earnings day adjacency on -001 (FL LABOR), -005 (office vacancy MSA), -007 (CC delinq).** REGINALD pickup pending — Will hand-routing in interim per his confirmation Apr 24 23:07 UTC.
 
-**Quirks worth remembering:**
-- Settings watcher only monitors `.claude/` dirs that existed at session start. A newly-created `.claude/` needs `/hooks` or session restart to reload.
-- Project root for WALTER's claude session is `AGENTS/WALTER/`, NOT `Research-workspace/`. Project-scope `.claude/` lives at `AGENTS/WALTER/.claude/`. First hook config landed at wrong path; had to move.
-- User-scope settings remain the correct place for cross-session auto-approve permissions like `mcp__plugin_telegram_telegram__reply` (a no-op for sessions without the plugin loaded — those can't call the tool anyway).
+**Will procedure exchange (msg 1041 → my reply):** clarified that "dispatched" = BOARD-only persistence per his Apr 14 policy; agents not yet consuming until each CLAUDE.md has BOARD-boot-step. Will confirmed hand-routing in interim.
+
+**Verify-research observations (Apr 25):** CORRECTED-FRAMING is becoming the dominant verdict pattern across recent sessions (FL Scott / FHA 180% / DB call/put numerics / FHLB EO / now pattern-matched). Calibration: drop confidence to ~0.55, retain directional thesis, flag specifics as imprecise. The verify cost (~$0.05 each) earns its keep — separates "real thesis transmission" from "headline cherry-pick." Added to MEMORY Feedback.
+
+**Telegram health:** 100% delivery across the session. No flake. Single bun PID 89881 throughout. Apr 24 morning fix is durable.
 
 GAPS:
-- **No boot performed this session** — STATUS/REGISTRY/ROUTING/BOARD/INDEX unread. Apr 20 carry-forward still the authoritative state.
-- **Carry-forward from Apr 20:** MARCO push status unconfirmed; Apr 21 catalyst day post-mortem (WAL/ZION + Iran ceasefire expiry + Tuapse 3rd-theater); BOARD_CONSUMPTION_SPEC propagation to 14 Tier 1 CLAUDE.md files; Filter v2 Segment D (confidence asymmetry, `confidence_note` mechanic decided, implementation pending); COP paused; SIGNAL_INTAKE rollout stuck at 4/14 (SAM/BRENT/VIOLET/CARL); ZHAO spawn stale (China material 18d+); FORGE/STATUS ~30d stale; NEXUS classification overdue; Apr 24 OZK earnings coverage.
-- **MEMORY.md over cap** — 108 lines vs 100 cap. Prune promoted items next session.
-- **No git pull this session** — remote may have moved. Do at next boot.
+
+- **No git commit yet** — sequencing pending. Files staged after this LAST_COMPLETION write.
+- **Pre-market Brent Sun-eve open is the time-sensitive risk** for SIG-009 Ukraine kinetic on oil-infra geography. Won't be checked by WALTER — Will or Prome.
+- **NEXUS classification of 5+ active clusters** still overdue.
+- **HAWK / HANS / ZHAO stale 22-31d** despite multiple new nodes hitting their domains today (HAWK getting Iran-buildup + Hengli + Ukraine; HANS getting Iran diplomacy; ZHAO getting Hengli ASIA_CONTAGION). Routing pressure mounting.
+- **OZK earnings post-mortem** is REGINALD's pickup, not WALTER's. Won't be visible in BOARD until REGINALD spawns.
+- **Filter v2 Segment D, BOARD-consumption rollout, MEMORY-reduction-in-progress, COP-paused-resume-trigger** all still pending.
 
 WILL_NEEDS:
-1. **Verify Telegram stays clean** — if a new non-WALTER claude session spawns a bot (it shouldn't per config, but double-check), the flake returns. First thing on any future Telegram complaint: `ps -ef | grep bun.*telegram`.
-2. **Path B ship/cleanup decision** — if cold-start friction felt in real usage, ship (1-2h). If not, remove spike hooks + debug dir + commit cleanup.
-3. **Normal Apr 20 carry-forward priorities resume** — boot properly, catch up on Apr 21-24 network deltas and Apr 24 OZK earnings day.
+
+1. **REGINALD spawn** for OZK earnings read (signals -001/-005/-007 are catalyst-day-relevant).
+2. **HANS spawn (Tier 2 GEOPOL_NON_ENERGY)** for dedicated Iran diplomacy domain rework — current backup chain HAWK→BRENT both stale.
+3. **ZHAO spawn (Tier 2 ASIA_CONTAGION)** — material new node via Hengli OFAC + China/US friction re-escalation.
+4. **NEXUS classification** decision: WALTER-informal vs NEXUS-formal cluster tracking?
+5. **Brent Mon pre-market** — watch for gap-up if Ukraine refinery hits confirm.
 
 FOLLOW-UP (next session, in order):
-1. `git pull --rebase` (follow pull protocol — working tree expected clean for WALTER files).
+
+1. `git pull --rebase --autostash` (per pull protocol; expect clean working tree for WALTER files post-this-commit).
 2. Boot: STATUS / MEMORY / LAST_COMPLETION / REGISTRY / ROUTING_TABLE / BOARD/INDEX.
-3. Telegram inbound quick-check — send self a test or wait for Will ping, confirm `<channel>` tag lands cleanly.
-4. Path B decision (ship vs clean up).
-5. Apr 21 catalyst-day retrospective (OZK Apr 24 earnings is current day — what dispatched? What's the OZK read?).
-6. Resume Apr 20 backlog in priority order from MEMORY.md NEXT SESSION block.
+3. Brent Mon pre-market check + Iran kinetic state evolution.
+4. OZK earnings result — REGINALD pickup status, any retroactive signal needed.
+5. Iran diplomacy outcome (Witkoff+Kushner travel + Araghchi meetings).
+6. Filter v2 Segment D implementation if calendar allows (~1hr).
+7. Resume MEMORY.md NEXT SESSION carry-forward backlog.
 
 ---
 
