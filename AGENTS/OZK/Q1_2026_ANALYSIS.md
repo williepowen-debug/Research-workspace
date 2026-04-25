@@ -1,4 +1,4 @@
-# OZK Q1 2026 — REGINALD ANALYSIS
+# OZK Q1 2026 — OZK ANALYSIS
 
 **Source:** Q1 2026 earnings press release + **1QRT 2026 Financial Supplement** + **1Q26 Management Comments (38 pages)** + **full Apr 22 earnings call transcript.** All in `raw/`.
 **Mined:** Apr 22 ~10:30 ET.

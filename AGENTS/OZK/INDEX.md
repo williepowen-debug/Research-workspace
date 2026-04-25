@@ -7,7 +7,7 @@
 - **Q1 2026 earnings ✅ RESOLVED Apr 21** — past-due doubled QoQ ($207M → $465M), 3 new substandard credits, 2 new foreclosed assets, NCO 0.57% in-line. Slow-grind thesis confirmed. → `Q1_2026_ANALYSIS.md`
 - **Thesis v1.3 (Apr 23)** — audit complete: INVALIDATION section added (v1.2), Q1 NCO deceleration engaged as bull data point, two unverified claims removed, SCENARIOS reweighted post-Q1 (Bear 55% / Base 30% / Bull 12% / Tail 3%, EV $38.97). → `CHANGELOG.md`
 - **KB.tsv: 185 rows / 17 groups** (178-185 added Apr 22-23)
-- **Positions:** $42.5P May 15 × 2 (rolling this week), $42.5P Aug 21 × 1, $45P Aug 21 × 4. Roll recommendation → `THREAD3_ROLL_MATH.md`
+- **Positions:** $42.5P May 15 × 2 (rolling this week), $47.5P May 15 × 2, $42.5P Aug 21 × 3, $45P Aug 21 × 4. Roll recommendation → `THREAD3_ROLL_MATH.md`
 - **Next hard catalyst:** IQHQ RaDD Aug 2026 maturity — weighted EL $140M on $555M funded. → `IQHQ_PLAYBOOK.md`
 
 ---
