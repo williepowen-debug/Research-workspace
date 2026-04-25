@@ -36,7 +36,6 @@ Original analysis produced by the agent network. Each file is a standalone deep 
 | 8K Framework | Forced disclosure triggers and timeline |
 | NDFI Analysis | Shadow CRE in non-depository financial institution loans |
 | Insider Activity | Form 4 compilation |
-| OZK Thesis Feb25 | Original thesis draft (historical — superseded by ../THESIS.md) |
 
 ---
 
