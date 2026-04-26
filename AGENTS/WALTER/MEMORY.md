@@ -20,6 +20,8 @@
 - [2026-04-20 evening] **Surface friction proactively in spec proposals.** Enumerate ambiguities/edge cases/double-counting risks in same message as draft, not after Will asks. Shortens review loop and catches problems before they're baked in.
 - [2026-04-20] **Verify when origin uses summarizing-plurals or mechanism-assertions.** "co-founders" / "all three" / "replaced with" / "swapped for" / "backed by" — these framing slots most often misrepresent primary source. Verify-research cost ~$0.05 vs downstream-overstated-thesis cost: asymmetric. Codified as Phase 1.5 trigger pattern in CHECKLIST v0.8.
 - [2026-04-25] **CORRECTED-FRAMING is becoming the dominant verify verdict** (FL Scott "43k" / FHA "180% of 2009" / DB call/put numerics / FHLB EO / Hengli novelty-framing was CONFIRMED but the recurring pattern is direction-confirmed-specifics-imprecise). Calibration: when CORRECTED-FRAMING fires, drop confidence to ~0.55, retain directional thesis, flag specifics as imprecise in dispatch_note. The verify is HIGHEST-VALUE here — separates "real thesis transmission" from "headline cherry-pick."
+- [2026-04-26] **Verify-research can have right-history-wrong-tense.** Apr 26 session: verify-research framed BRICS bases-damage signal as "active 2026 Iran war from late February" with valid NBC News primary URL. The history claim was correct (war did happen, Iran did strike 100+ targets across 11 US bases) but the tense was wrong (currently in ceasefire since Apr 8). Cost of accepting framing wholesale: would have dispatched as ACTIVE-WAR signal when current state is post-ceasefire. Discipline: cross-check current-state against MEMORY/STATUS network anchor before accepting verify framing wholesale, especially for state-that-evolves-quickly domains (Iran/Hormuz, FL drought, retail bankruptcy waves, Fed rate path).
+- [2026-04-26] **Boot with explicit war-state anchor.** Apr 26: my session-context had partial Iran-war awareness (STATUS line 36 COP-STALE + line 56 BRENT blockade) but no clean "war happened, ceasefire date, current day-count, blockade ongoing" pointer. Result: I framed Iran-cluster signals (Hengli, Pinckney, USAF airlift, M/V Sevan, Mareeyo, Pakistan diplomacy) as buildup/posture/cluster when correct frame is post-Apr-8-ceasefire dynamics under active US blockade. STATUS NETWORK AWARENESS now has explicit IRAN-WAR ANCHOR callout at top — read at boot, refresh weekly minimum or on visible state-change events.
 
 ## Findings
 
@@ -33,6 +35,11 @@
 - [2026-04-24] **Telegram inbound flake was multi-bot token competition.** `enabledPlugins.telegram` at user-scope → every claude session spawned its own `bun server.ts` polling same token; Telegram's `getUpdates` delivers each message to ONE poller. Diagnosis: `ps -ef | grep bun.*telegram` — multiple processes = bug. Fix: move config to project-scope, kill orphan bots. Only WALTER + PROME on Telegram per root CLAUDE.md.
 - [2026-04-25] **Iran day-cluster reached ≥12 channels Apr 19-24.** Iran-buildup-and-diplomacy themed signals are converging across multiple mechanisms (kinetic, sanctions, diplomacy, military posture). NEXUS classification overdue. Pattern: when a thematic cluster crosses ≥10 channels, formal cluster classification + Will-attention prompt is warranted.
 - [2026-04-25] **Hydrocarbon-infra-stress meta-cluster crosses ≥4 geographies.** Geelong AU / Pachpadra+Jhagadia IN / Corpus Christi TX / Russia-strikes / Hengli OFAC supply-chain disruption. Different mechanisms (war / fire / sanctions / water / accidents) but same outcome (refining/petrochem capacity at risk). Aggregated framing has more thesis weight than individual incidents.
+- [2026-04-26] **2026 Iran war anchor (verified Apr 26 via WebSearch).** War started ~Feb 27 2026 (US-Israel + Iran kinetic exchange); Iran struck 100+ targets across 11 US bases (Kuwait/Qatar/Bahrain/Saudi/UAE/Jordan); damage "far worse than publicly acknowledged" per NBC Apr 25; ceasefire Apr 8 mediated by Pakistan; Trump extended pending Iran "unified proposal." Today is day 58-59 post-ceasefire-start, ceasefire EXTENDED but FRAGILE. **US naval blockade on Iran ports ACTIVE during ceasefire (37+ vessels redirected = the SIG-007 context); Hormuz traffic at "screeching halt"; Iran has seized 2 ships near strait; mediated talks STALLED with little US-Iran demand-overlap; Israel-Lebanon kinetic continuing despite ceasefire (Netanyahu rejected Lebanon inclusion).** Iran-cluster framing: post-Apr-8-ceasefire dynamics under active US blockade, NOT pre-war buildup. Thesis weight is HIGHER than buildup framing implies. STATUS NETWORK AWARENESS has explicit IRAN-WAR ANCHOR callout for boot reading.
+- [2026-04-26] **Hydrocarbon-infra cluster extended to 5+ geographies** (now adds St. Helena Parish LA pipeline explosion Apr 25). 6 mechanisms, 5 geographies. Same-outcome framing strengthens.
+- [2026-04-26] **PC-stress meta-cluster ≥7 nodes.** TCW Red Lobster 98% (-014-002) / IMF GFSR (-014-004) / Blue Owl founder-pledged-loan unwind $1.1B (-020-004) / Fitch BDC redemptions +36% QoQ (-020-009) / Man Group $6B (-024-006) / SoftBank $10B OpenAI margin loan (-024-012) / Bloomberg Apr 11 Fed asking banks for PC exposure details (-026-012). Pattern: writedown / pledged-loan-unwind / BDC redemption surge / single-client AUM pull / hedge-fund margin-loan / regulatory inquiry. Six different transmission vectors all pointing same direction. NEXUS classification overdue.
+- [2026-04-26] **Consumer-stagflation-stack 4 nodes** UMich record-low 49.8 + 1Y inflation expectations 4.7% (jump from 3.8%, largest since April 2025) + CC delinq 12.7% approaching 2009 peak + FL LABOR weakness + farm bankruptcies +46% YoY. Sentiment-trough + inflation-expectations-rising = worst Fed-reaction-function setup, ties Fed's hands on cuts.
+- [2026-04-26] **Bank-collateral-compression cluster 4 nodes** residential housing weakening (-026-002 Zillow + Realtor) + Baltimore CRE -29% properties (-026-009) + US office vacancy 20.2% (-024-005) + Phoenix/Denver multi-family (-026-014). Macro-vs-micro divergence consistently the signal: headlines moderate, bottom-up special-servicing/distress more acute.
 
 ## References
 
@@ -44,40 +51,47 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (Apr 24-25 Fri-night Will-driven heavy intake — 13 dispatches + 4 verify-spawns + 3 kills, BOARD 58→71)
+### CHANGES SINCE LAST SESSION (Apr 26 Sun — Will-driven heavy intake, 15 dispatches + 4 verify-spawns + 1 kill, BOARD 71→86; Iran-war network anchor verified mid-session)
 
-Boot completed (STATUS / MEMORY / LAST_COMP / REGISTRY / ROUTING / BOARD). Telegram inbound clean throughout (single bun PID 89881, Apr 24 morning multi-bot fix held).
+Boot completed normally. Will pinged Telegram (msgs 1068, 1070) "look at signals." 5 sub-batches processed across ~9 hours.
 
-**4 image batches processed** (msgs 1018-1023, 1027-1030, 1033-1038, 1045-1050). 13 signals dispatched (SIG-W-20260424-001 through -013), 3 killed (msg 1023 FL drought / msg 1034 WSJ teaser / msg 1037 Wake new-home analog), 4 verify-research sub-agents spawned (FL Scott unemp CORRECTED-FRAMING 0.70 / Hengli identity+novelty CONFIRMED 0.85 / Corpus Christi water+petrochem CONFIRMED-w-nuance 0.80 / USAF ME airlift+3-carrier CONFIRMED 0.85 despite RT-origin source-flag).
+**Batches:**
+1. **Beckworth Substack 4-msg article** on Fed Overton-window-shifting-to-demand-driven framework → SIG-001, verify CORRECTED-FRAMING 0.72 (Mar 3 trio not joint, Hill at ABA Mar 9-11, DW-LCR from Bessent not Bowman, Miran 1of4 authors, $1.2-2.1T not $1-2T, Warsh nominee not seated).
+2. **5-image Twitter batch** (msgs 1082-1086) → SIG-002 housing combined Phase 1b (Zillow ZHVI 35.5% top-200 metros + Realtor.com SQFT −2.3% YoY 13wk) / SIG-003 St. Helena LA pipeline / SIG-004 AAL $4B fuel / SIG-005 farm bankruptcies CORRECTED-FRAMING 0.75 / SIG-006 Goldman Mei oil-shock-jobs CORRECTED-FRAMING 0.80 ROUTINE / SIG-007 USS Pinckney/Sevan CONFIRMED 0.95.
+3. **UMich text** (msg 1088) → SIG-008 April final 49.8 + 1Y inflation expectations 4.7% jump CORRECTED-FRAMING 0.88, refinement of -010-001.
+4. **ZH Baltimore CRE article** (msgs 1089-1090) → SIG-009 0.65 (ZH source layer + Sun primary not pulled; MTB BAL-HQ angle).
+5. **5-image batch** (msgs 1092-1096) → SIG-010 Apollo foreign-private > foreign-CB UST / SIG-011 UKMTO 045-26 Mareeyo Somalia hijack / SIG-012 Bloomberg Apr 11 Fed-PC inquiry / SIG-013 Iran delegation Pakistan corrected / SIG-014 Phoenix/Denver multi-family CORRECTED-FRAMING 0.75 (Yardi −4-5% NOT −20-25%) / KILL Bloomberg climate-inflation Novelty / SIG-015 NBC bases damage HELD pending Will input → reframed as historical pre-ceasefire damage.
 
-**Major clusters built:** Iran day-cluster ≥12 channels Apr 19-24 (8 Apr 19 + Tuapse + Hengli OFAC + diplomacy cascade + USAF airlift + Ukraine-Russia kinetic adjacent); Hydrocarbon-infra-stress ≥4-5 geographies; Asset-manager stress 3 nodes (TCW writedown / Blue Owl pledged-unwind / Man Group $6B pull) + AI-leverage opposite-direction (SoftBank levering vs Blue Owl founders de-risking); Positioning-extreme cluster ≥14 channels (added Kobeissi Nasdaq futures); Consumer-credit + LABOR convergence (FL state-above-US + CC 90+ approaching 2009 peak with unemployment-asymmetry frame).
+**MAJOR MID-SESSION CORRECTION via Will-input + WebSearch verify:** the 2026 Iran war (Feb 27 onset, Apr 8 ceasefire mediated by Pakistan, day 58-59 today, US naval blockade ongoing during ceasefire = SIG-007 context, Hormuz at standstill, Israel-Lebanon kinetic continuing) was incompletely framed in my session-context. STATUS NETWORK AWARENESS now has explicit IRAN-WAR ANCHOR callout at top + new MEMORY findings.
 
-**OZK Q1 earnings day adjacency on -001 (FL LABOR), -005 (office vacancy MSA), -007 (CC delinq).** REGINALD pickup pending — Will hand-routing in interim per his Apr 24 23:07 UTC confirmation that BOARD-consumption rollout is in-progress.
+**Clusters built/refined:** Iran day-cluster ≥14+ channels (added Sevan + Mareeyo + delegation + retrospective bases damage); PC-stress ≥7 nodes (added Bloomberg Fed-PC inquiry); consumer-stagflation-stack 4 nodes (UMich + CC delinq + FL LABOR + farm bankruptcies); bank-collateral-compression 4 nodes (residential + Baltimore + office vacancy + multi-family); maritime-energy-security 3-vector (Hengli + Pinckney + Mareeyo); hydrocarbon-infra 5 geographies (now adds LA).
 
-**Will's procedure question (msg 1041)** — answered honestly: "dispatched" = BOARD/INDEX/route_log persisted, NO push to recipient inboxes per his Apr 14 BOARD-only policy, agents only consume if their CLAUDE.md has BOARD-boot-step (currently only WALTER does), so signals reach Will via Telegram + WALTER cluster synthesis but not yet downstream agents until rollout. Offered 3 options; Will confirmed hand-routing in interim. **Will's context question (msg 1043)** — gave concrete numbers (~25K per mid-batch, safe envelope ~3 mid-batches before degradation). Closeout requested at ~145K (msg 1053).
+**Verify-discipline lesson:** verify-research can have right-history-wrong-tense (BRICS bases case). Cross-check current-state against MEMORY/STATUS network anchor before accepting framing wholesale.
 
-**No spec changes. Verify-research sub-agents 48h: 5 → 9 (cumulative).**
+**Will's procedure exchange (msg 1102):** asked me to clarify confused "framing-hallucination" passage. I overcorrected — the agent had real history but wrong tense. Cleaned up framing in subsequent reply (msg 1103) and STATUS/MEMORY anchors fixed.
+
+**No spec changes. Verify-research sub-agents 48h cumulative: 9 → 13.**
 
 ### NEXT SESSION
 
 **TOP PRIORITY (time-sensitive):**
-1. **Brent Mon pre-market open (Sun evening ET)** — SIG-009 Ukraine mass strike on Russian oil-infra geography risks gap-up; SIG-002 Hengli OFAC + 003 diplomacy contradictions set up asymmetric move either direction.
-2. **OZK Q1 earnings post-mortem** — REGINALD pickup pending on SIG-005, -007, -001. Will hand-routing in motion.
-3. **Iran cluster monitoring** — Witkoff+Kushner travel verify within 48-72h; Araghchi-Islamabad meetings outcome.
+1. **Iran cluster state-update** — Araghchi return-to-Islamabad outcome; ceasefire-resolution direction; any blockade-related kinetic incident; Hormuz traffic any resumption.
+2. **OZK Q1 earnings post-mortem** — REGINALD pickup still pending on SIG-024-001/-005/-007 + new SIG-026-009 Baltimore.
+3. **Apr 30 OWL Q1 earnings** — pairs SIG-W-20260420-004 (Blue Owl founders unwind) + SIG-W-20260424-012 (SoftBank pledge) + SIG-W-20260426-012 (Fed-PC inquiry).
+4. **Brent Mon pre-market open** — combined Iran-cluster + Hormuz-standstill + UKMTO Mareeyo-hijack risk.
 
 **Housekeeping (deferrable):**
-4. **Filter v2 Segment D implementation** — Will picked A (optional `confidence_note`) Apr 20 msg 856; ~1hr (FORMAT_SPEC + CHECKLIST edits, no migration).
-5. **Path B (CHAT_BUFFER hooks)** ship-or-clean — no cold-start friction surfaced; lean clean up.
-6. **BOARD_CONSUMPTION_SPEC propagation** to 14 Tier 1 CLAUDE.md still pending.
-7. **NEXUS cluster classification** OVERDUE across 5 active clusters (Iran, hydrocarbon-infra, asset-manager, positioning-extreme, consumer-credit + LABOR).
-8. **HAWK / HANS / ZHAO stale 22-31d** — routing pressure; Will-decide spawn or refresh.
-9. **RED refresh** still overdue.
-10. **Apr 30 OWL Q1 earnings** — pairs SIG-W-20260420-004 (Blue Owl founders) + SIG-W-20260424-012 (SoftBank pledge-loan).
+5. **Filter v2 Segment D implementation** — Will picked A confidence_note Apr 20 msg 856; ~1hr.
+6. **Path B (CHAT_BUFFER hooks)** ship-or-clean — no cold-start friction surfaced; lean clean up.
+7. **BOARD_CONSUMPTION_SPEC propagation** to 14 Tier 1 CLAUDE.md still pending.
+8. **NEXUS cluster classification** OVERDUE across 6+ active clusters (Iran post-ceasefire, hydrocarbon-infra, PC-stress, consumer-stagflation-stack, bank-collateral-compression, maritime-energy-security).
+9. **HAWK / HANS / ZHAO stale 22-31d** — routing pressure; Will-decide spawn or refresh.
+10. **RED refresh** still overdue.
 11. **HENRY + RED SIGNAL_INTAKE.md** prompts still transcript-only.
-12. **COP refresh** still OFF — resume trigger?
+12. **COP refresh** still OFF — resume trigger? (extra-load-bearing now that Iran-war anchor needs visible network-state).
 
 ### OPEN DESIGN DECISIONS (need Will)
 - **Filter v2 Segment D** — DECIDED option A confidence_note; implementation deferred. ~1hr next session.
-- **BOARD_CONSUMPTION rollout cadence** — Will hand-routing today; durable rollout requires propagation to 14 agent CLAUDE.md files.
-- **COP refresh cadence** — resume trigger?
+- **BOARD_CONSUMPTION rollout cadence** — Will hand-routing still; durable rollout requires propagation to 14 agent CLAUDE.md files.
+- **COP refresh cadence** — resume trigger? (Iran-war state would benefit from visible COP node).
 - **NEXUS cluster classification** — does WALTER continue informal cluster tracking via STATUS, or NEXUS-spawn forcing function?
