@@ -1,9 +1,38 @@
 # SAM TIMELINE
 
-**Last Updated:** 2026-04-24
+**Last Updated:** 2026-04-28
 **View:** Base case progression with branch points marked
 
 This document maps our forward-looking expectations — what's coming, what we think happens, and where the path could diverge. Updated as events resolve or views change.
+
+---
+
+## RESOLVED — Apr 28 (BOJ MEETING)
+
+### Tue Apr 28 — BOJ MPM + OUTLOOK REPORT ✅ RESOLVED — MODAL SCENARIO (slightly hawkish-augmented)
+
+- **Event:** BOJ Monetary Policy Meeting + Outlook Report + Ueda presser. v1.3 base case: HOLD+hawkish (45%).
+- **Outcome:** **HELD at 0.75%** with **3 dissents (Takata, Tamura, Nakagawa) for hike to 1.00%** — biggest split since 2016, first under Ueda.
+- **Outlook:**
+  - **FY2026 GDP forecast cut 1.0% → 0.5%** (acknowledges ME/oil drag)
+  - **Inflation forecasts upgraded**
+  - Ueda hawkish presser — wage-price spiral risk, continued hike path
+- **Market reaction:**
+  - **Swap markets pricing 74% June hike** (vs SAM-21 70%)
+  - USD/JPY 159.60 (flat) — US session has not priced the hawkishness; overnight Tokyo is the test
+  - FXY $57.49 (flat) — Tranche 2 trigger zone $58.00-58.25 NOT YET HIT
+  - Brent +12% to $111.26 (Apr 24 → Apr 28) on Trump rejecting Iran's Hormuz proposal
+- **Net:** **MODAL FORK with hawkish bonus** — 3-dissent split + GDP cut + inflation upgrade is the maximum-hawkish version of "hold." June hike near-locked. v1.3 thesis vindicated.
+- **Predictions:**
+  - **SAM-20 (April hike @60%) FAILED FALSE** — calibration miss documented
+  - **SAM-21 (June hike @70%) tracking BULL** — market consensus now 74%
+  - SAM-22 (CFTC short-build through June) tracking TRUE — still building Apr 24
+
+### Tue Apr 28 — BRENT $111 (PHASE 1 OIL REASSERTION)
+
+- **Event:** Brent settled $111.26, +12% from $99.21 (Apr 24). Trump told advisors he is not satisfied with Iran's proposal to reopen Hormuz; Iran wants nuclear program for later discussion.
+- **Impact:** Highest Brent since March. Phase 1 mechanism (oil → trade deficit → JPY weak) gets a fresh test in April trade balance (~May 20). Adds short-term USD/JPY pressure higher (intervention risk re-engages above 160) but doesn't break thesis — Phase 2 still wins on 2-3 month horizon.
+- **Net:** SHORT-TERM HEADWIND for FXY, MEDIUM-TERM TAILWIND for thesis (faster transition into Phase 2 on accelerated insurer pressure).
 
 ---
 
@@ -184,24 +213,12 @@ This document maps our forward-looking expectations — what's coming, what we t
 
 ---
 
-## WEEK 4 (Apr 27 – May 2) — REVISED DECISION WINDOW (v1.3)
+## WEEK 4 (Apr 27 – May 2) — DECISION WINDOW
 
-### Apr 28 — BOJ MEETING (HOLD BASE CASE per v1.3)
-- **Event:** BOJ Monetary Policy Meeting. Rate decision + Ueda presser + Outlook Report.
-- **v1.3 view:** Hike probability collapsed from 60-65% (v1.2) to ~20% after Ueda Apr 13 dovish speech. Market pricing ~3-10%. Our internal ~20% acknowledges Ueda's hawkish IMF-week comments but respects the dominant dovish signal. Base case is HOLD.
-- **Scenarios (v1.3 rebuild):**
+### Apr 28 — BOJ MEETING ✅ RESOLVED (see top of file: HOLD + 3 dissents + GDP cut + inflation upgrade)
 
-  | Outcome | Prob | FXY impact | Thesis implication |
-  |---------|------|-----------|-------------------|
-  | Hike to 1.00% | ~10% | +4-7% violent | Carry unwind fires immediately; SAM-20 TRUE |
-  | Hold + hawkish ("we will raise at next meeting") | ~45% | +1-2% | June hike → 80% prob; thesis on track |
-  | Hold + neutral | ~35% | flat to -1% | June hike → 60% prob; timing stretches |
-  | Hold + dovish | ~10% | -2-3% | H2 2026 timeline; thesis intact but stretched |
-
-- **Watch for:** Outlook Report inflation forecast (expected UP), growth forecast (expected DOWN). Ueda presser — does he explicitly flag June? Ueda on mortgages/household consumption. Any Katayama/Aida commentary in the 48hrs after. Policy statement language on ME risk — is it softening or hardening?
-
-### May 1 — BOJ MEETING (secondary; v1.3 downgrade)
-- **v1.3 view:** v1.2 had May 1 as base case hike. No longer. If Apr 28 holds, May 1 is a repeat read — lower information content. Watch for language evolution more than rate change.
+### May 1 — BOJ MEETING (secondary; lower info)
+- **View:** Apr 28 resolved with hawkish hold. May 1 is a repeat read — extremely low information content. Watch for any language evolution; Ueda one-pager could reinforce or soften the Apr 28 hawkish posture.
 
 ### May 14 — JAPAN Q1 GDP PRELIM
 - **v1.3 view:** First full-quarter post-war data. Q4 2025 was +0.3% (narrowly avoided recession). Consumption fragile (+0.3%). Q1 could be soft on early ME disruption + FY-end effects. EWJ puts trigger if contraction.
@@ -312,11 +329,13 @@ These are the moments where our expected path could fork:
 | **Apr 22** | March trade balance | Surplus | Deficit (Phase 1) | ✅ **RESOLVED: BEAR (Phase 1)** — ¥+667B surplus, exports +11.7% |
 | **Apr 22** | Nippon FY2026 briefing | Clear foreign cuts | Ambiguous | 🟡 **RESOLVED: AMBIGUOUS** — cutting yen bonds, direction unclear |
 | **Apr 23** | March CPI | ≥2.0% core → BOJ locked | <2.0% | 🟡 **RESOLVED: NEUTRAL** — 1.8% core, accelerating |
-| **Apr 28** | BOJ meeting | Hike to 1.00% → collision | Hold (base case v1.3) | PENDING (hold ~80%) |
+| **Apr 28** | BOJ meeting | Hike → +4-7% / Hold+hawkish → +1-2% / Dovish → -2-3% | n/a | ✅ **RESOLVED: MODAL+** — held + 3 dissents (biggest split since 2016), GDP cut, infl up, June swap 74% |
+| **May 1** | BOJ MPM (secondary) | n/a | n/a | PENDING (low info) |
 | **May 14** | Q1 GDP prelim | Growth | Contraction → EWJ trigger | PENDING |
 | **Mid-May** | ESR disclosures | Stress visible → repatriation accelerates | Manageable → base case holds | PENDING (ELEVATED importance) |
+| **~May 20** | April trade balance | Surplus | Deficit → Phase 1 fires | PENDING (Brent $111 makes hot) |
 | **Late May** | April CPI | Upward surprise → BOJ locked | Tame → less urgency | PENDING |
-| **Mid-June** | **BOJ meeting (NEW BASE CASE)** | Hike to 1.00% → structural move | Delay → H2 timeline | PENDING (SAM-21 70%) |
+| **Mid-June** | **BOJ meeting (BASE CASE HIKE)** | Hike to 1.00% → structural move | Delay → H2 timeline | PENDING (SAM-21 70%; market 74%) |
 | **June** | Sato joins board | n/a | Dovish majority forming | PENDING |
 
 ---
