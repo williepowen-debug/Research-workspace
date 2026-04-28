@@ -8,6 +8,38 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-04-28 — APR 28 BOJ RESOLUTION (no thesis bump; v1.3 holds)
+
+**Author:** SAM + Will
+**Action:** BOJ Apr 28 meeting resolved per v1.3 modal scenario (HOLD + hawkish, was 45%). Outcome was slightly more hawkish than modeled — 3 dissents for hike to 1.00% (biggest split since 2016, first under Ueda), GDP forecast cut FY26 1.0% → 0.5%, inflation forecast upgraded, hawkish presser. Swap markets repriced June hike to 74% (vs SAM-21 70%). **No thesis version bump** per Apr 11 restraint lesson — Apr 28 confirmed v1.3, didn't refine it.
+
+### What resolved
+
+1. **SAM-20 (BOJ Apr 28 hike @60%) FAILED FALSE.** Calibration miss — overweighted hawkish data signals (Takata dissent, Shunto, wages) vs dovish political cover (Takaichi 0.75% line, ME uncertainty). Lesson: when political ceiling is explicit AND external uncertainty is high, BOJ defers to consensus optics; hawkish dissents are the board's signal of intent without breaking that consensus.
+
+2. **SAM-21 (June hike @70%) tracking BULL.** Market consensus now 74%. Three dissents + GDP cut + inflation upgrade = maximum-hawkish version of "hold." June path near-locked.
+
+3. **Brent +12% in 4 days to $111.26** on Trump rejecting Iran's Hormuz proposal. Phase 1 oil pressure reasserts; April trade balance (~May 20) becomes hot test.
+
+### What didn't change
+
+- **Three transmission channels intact.** No new channels, no channels broken.
+- **Conviction HIGH unchanged.**
+- **Scenario weights held** (Base 70 / Stress 25 / Crisis 5).
+- **Stop $55.05 unchanged.** Thesis break condition not approached.
+- **Carry unwind probabilities:** 7d ticked 20% → 15% (binary catalyst passed without trigger); 30d held at 70%; 60d nudged 88% → 90% (June lock).
+
+### Position implication
+
+- **Tranche 2 trigger zone $58.00-58.25 NOT YET HIT.** FXY $57.49 — US session has not priced the hawkishness. Overnight Tokyo (Apr 29) is the test.
+- **No chase below $58.00.** Wait for matrix-defined entry. If FXY doesn't reach the zone in 48hrs, market is signaling hawkish-hold isn't enough fuel for the next leg → wait for ESR (mid-May) or pre-June CPI catalysts.
+
+### Why no thesis bump
+
+Apr 28 resolved as the v1.3 modal scenario. The 3-dissent surprise is hawkish-augmenting but doesn't change channel structure, fuel dynamics, or destination. The June hike call (SAM-21 70%) is now market consensus (74%) — slight strengthening of the timing call, not a structural refinement. Per Apr 11 restraint lesson, single-event confirmation doesn't justify version bumps; ESR disclosures (mid-May) remain the next genuine thesis-test.
+
+---
+
 ## 2026-04-24 — THESIS v1.2 → v1.3 (TIMING STRETCH + FLOW PACE DOWNGRADE)
 
 **Author:** SAM + Will
