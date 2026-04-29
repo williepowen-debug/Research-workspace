@@ -1,84 +1,97 @@
-## COMPLETION — WALTER — 2026-04-28 (Tue AM — Will-driven 6-image batch, 7 dispatches + 2 verify-spawns + 0 kills, BOARD 86→93)
+# LAST_COMPLETION — WALTER
 
-STATUS: ✅ BATCH COMPLETE. Boot done normally (STATUS / MEMORY / LAST_COMP / REGISTRY / ROUTING / BOARD INDEX tail) — pull failed on auth (Apr 26 unresolved, branch +2 ahead origin), flagged in boot reply msg 1109. Single 6-image batch arrived msgs 1110-1115 at 12:43 UTC; processed in ~50 min including 2 parallel verify-research spawns.
-
-CHANGED:
-
-**7 BOARD signals dispatched (SIG-W-20260428-001 through -007):**
-
-| ID | Domain | Prec | Action → Info | Confidence | Verify |
-|----|--------|------|---------------|-----------|--------|
-| 001 | ASIA_CONTAGION | ROUTINE | ZHAO → SAM/BRENT/RED/HENRY/LIQUID/CARL/NEXUS/PROME | 0.85 | — |
-| 002 | PRIVATE_CREDIT | PRIORITY | BROCK → HENRY/LIQUID/REGINALD/SHADE/RED/NEXUS/CARL/PROME | 0.65 | CORRECTED-FRAMING |
-| 003 | BANK_CRE | PRIORITY | REGINALD → BROCK/LIQUID/RED/NEXUS/PROME | 0.85 | — |
-| 004 | BANK_CRE | PRIORITY | REGINALD → CARL/BROCK/BARON/RED/NEXUS/PROME | 0.60 | CORRECTED-FRAMING (regulatory not credit) |
-| 005 | PRIVATE_CREDIT | PRIORITY | BROCK → SHADE/LIQUID/REGINALD/RED/HENRY/NEXUS/CARL/PROME | 0.85 | — |
-| 006 | GEOPOL_NON_ENERGY | PRIORITY | HAWK → BRENT/SAM/LIQUID/RED/NEXUS/PROME/CARL/BARON | 0.85 | — |
-| 007 | (single-stock FRAUD-pattern) | ROUTINE | BROCK → HENRY/RED/NEXUS/PROME | 0.55 | — |
-
-**0 BOARD signals KILLED.**
-
-**Files written/updated:**
-- 7 new BOARD signal files (-001 through -007)
-- `BOARD/INDEX.md` — 7 rows appended
-- `AGENTS/WALTER/routed/route_log.tsv` — 7 rows appended
-- `AGENTS/WALTER/STATUS.md` — header refreshed (Updated/Overall); new SESSION LOG row prepended
-- `AGENTS/WALTER/MEMORY.md` — 3 new entries (1 Feedback: verify-research-different-category-catalyst lesson; 2 Findings: bank-collateral cluster ≥6 nodes + political vector / Phoenix-housing-channel base-rate-overstatement 2/2); CHANGES SINCE / NEXT SESSION blocks rewritten
-- `AGENTS/WALTER/LAST_COMPLETION.md` — this file (overwrite)
-- `AGENTS/WALTER/REGISTRY.tsv` — WALTER row Updated/Focus refresh
-
-RESULT:
-
-**7 signals dispatched, 2 verify-spawns (both CORRECTED-FRAMING), 0 kills, BOARD 86→93. CRITICAL: ROAD Act regulatory catalyst surfaced via verify-research as new political/legislative vector in bank-collateral-compression cluster.**
-
-**Major clusters built/refined this session:**
-
-1. **Bank-collateral-compression cluster ≥6 nodes Apr 24-28 + NEW political/legislative vector.** Adds Louisville KY Home Life Building -028-003 ($15M→$4.67M credit bid, ≥$7.5M secured loss) + Phoenix BTR ROAD-Act regulatory financing freeze -028-004. The ROAD Act vector is qualitatively new — prior cluster nodes were market-mechanism (rents, vacancies, special-servicing); this is regulatory shock (forced 7-yr disposal of institutional 350+ SF home portfolios). BARON political-network-mapping pickup value high.
-
-2. **PC-stress meta-cluster ≥8 nodes** (TCW Red Lobster + IMF GFSR + Blue Owl founder unwind + Fitch BDC redemptions + Man Group $6B + SoftBank $10B OpenAI margin + Bloomberg Apr 11 Fed-PC inquiry + **NEW: Boaz-Weinstein-cut-price-exit-rejected -028-005**). Pairs with SIG-W-20260428-002 OpenAI CFO/data-center stress for AI-capex-cycle-sustainability vector. Pre-OWL-Q1-earnings Wed Apr 30 two-sided pressure stack: founders unwound $1.1B Apr 17 + Saba activist offering cut-price exit + investors rejecting.
-
-3. **Iran day-cluster ≥15 channels Apr 19-28** (+1 channel: German-government-rhetoric via Merz). Iran-war anchor (post-Apr-8 ceasefire day ~60, US blockade active, Hormuz at standstill) load-bearing.
-
-**Critical session lesson — verify-research-different-category-catalyst:** Apr 28 Phoenix BTR signal: headline framed as credit-cycle ("capital dries up, layoffs"), verify-research surfaced **regulatory** catalyst (21st Century ROAD to Housing Act Senate 89-10 Mar 10-12 forcing 7-yr forced disposal of institutional 350+ SF home portfolios → BTR institutional buyer pool collapse → new-start financing freeze). HIGHER-VALUE than CORRECTED-FRAMING-on-magnitude — the catalyst CATEGORY moved (financial → regulatory/legislative). Codify in dispatch_note explicitly: "catalyst category corrected from X to Y."
-
-**Phoenix housing channel base-rate skew toward overstatement, 2/2 confirmed** (SIG-026-014 Roger@rdd147 multi-family rents -20-25% → Yardi -4-5%; SIG-028-004 Hancock "industry shut down" → BTR new-deal financing freeze, in-flight projects continuing). Phoenix-area Twitter/local-news housing claims overstate. Apply: extreme-absolute Phoenix-housing claims enter with prior on overstatement; verify-research mandatory; calibrate confidence ≤0.65 even after directional-confirms.
-
-**Telegram health:** 100% delivery (msgs 1108, 1110-1115 inbound; 1109 + 1116 + 1118 outbound). Multi-bot fix (Apr 24 morning) holding.
-
-**Verify-research 48h cumulative: 13 → 15.**
-
-GAPS:
-
-- **Push from Apr 26 + today** — auth error (`Invalid username or token. Password authentication is not supported for Git operations.`) unresolved; commits 8b8af251 + 46067035 + today's commit sitting locally, branch +3 ahead origin after this session's commit. Will needs to refresh GitHub token / credentials.
-- **OZK Q1 earnings post-mortem** still REGINALD pickup pending.
-- **OWL Q1 earnings Wed Apr 30** — PC-stress meta-cluster ≥8 nodes converging; pre-earnings two-sided pressure stack.
-- **NEXUS classification** of 6+ active clusters still overdue (now with political/legislative vector added to bank-collateral-compression).
-- **HAWK / HANS / ZHAO stale 25-35d** — routing pressure mounting; ZHAO needed for ASIA_CONTAGION cluster pickup of -028-001 China property index milestone.
-- **RED refresh** still overdue.
-- **Filter v2 Segment D, BOARD-consumption rollout, COP-paused-resume-trigger** all still pending.
-
-WILL_NEEDS:
-
-1. **GitHub auth fix** — refresh token or credentials so push can complete.
-2. **OWL Q1 earnings prep Wed Apr 30** — BROCK + RED orientation on PC-stress meta-cluster (8 nodes) + pre-earnings two-sided pressure (Boaz cut-price-rejected + founder unwind + Fed-PC inquiry + SoftBank pledge + OpenAI capex).
-3. **REGINALD spawn** for OZK Q1 post-mortem + Phoenix BTR ROAD Act exposure analysis (KRE constituents with Sun Belt construction-loan books; WAL primary territory).
-4. **BARON spawn (Tier 2)** for ROAD Act political-network-mapping (Senate 89-10 sponsors + House strategy + Trump admin signal + grandfathering negotiation).
-5. **ZHAO spawn (Tier 2)** for ASIA_CONTAGION cluster pickup including SIG-028-001 China property milestone + prior -026-010 Apollo foreign-private-vs-CB-UST.
-6. **HAWK spawn (Tier 2)** for Iran cluster including German-rhetoric Merz vector.
-7. **NEXUS classification** decision: WALTER-informal vs NEXUS-formal cluster tracking? 6+ active clusters now including new political vector.
-8. **COP resume trigger?** Iran-war + ROAD Act + PC-stress would benefit from visible COP node.
-
-FOLLOW-UP (next session, in order):
-
-1. `git push` retry (assuming Will refreshes auth) — or flag again as GAP.
-2. Boot: STATUS / MEMORY / LAST_COMPLETION / REGISTRY / ROUTING_TABLE / BOARD/INDEX. **Read IRAN-WAR ANCHOR + new ROAD Act / OWL Q1 earnings context.**
-3. **OWL Q1 earnings Wed Apr 30 prep** — PC-stress meta-cluster framing for BROCK / RED.
-4. AI-bubble-cracks + AI-infra-chip Apr 28-29 market-vol response — HENRY pickup.
-5. ROAD Act House reconciliation tracking (BARON spawn / Will routing).
-6. Iran cluster state-update — Merz European-rhetoric drift / Hormuz state / ceasefire resolution.
-7. OZK Q1 post-mortem REGINALD pickup if still pending.
-8. NEXUS classification proposal for the 6+ active clusters (load-bearing for closeout-summary).
+*Overwritten each session. STATUS / CHANGED / RESULT / GAPS / WILL_NEEDS / FOLLOW-UP.*
 
 ---
 
-*Template: overwrite this file at closeout. Sections: STATUS / CHANGED / RESULT / GAPS / WILL_NEEDS / FOLLOW-UP.*
+## STATUS
+
+Session 2026-04-29 — Will-driven AM check-in followed by autonomous-news-scan request. **5 dispatches + 2 verify-spawns + 0 kills, BOARD 93→98.**
+
+Boot-state: pulled state from prior Apr-28 AM session intact (push from Apr 26+28 still pending on auth). No need to refresh registry mid-session — net new content was the 5 today's dispatches.
+
+## CHANGED
+
+### Session arc
+1. **Will Telegram check-in (msg 1154 "Are you reading me?")** — replied confirming.
+2. **Will sent 6-image batch (msgs 1156-1161)** — recognized ALL as duplicates of Apr-28 AM intake (msgs 1110-1115 → SIG-028-004 / -005 / -006 / -007 already on BOARD). Replied with the 4 BOARD pointers + offered re-examine / read-out / "or are you sending in case I missed them?" Will: "Oh you already saw all of these?" — clarified yes, batch is current.
+3. **Will Telegram (msg 1166): "did we already look at this Baltimore CRE crash from Zero Hedge already?"** — confirmed yes, SIG-026-009 from Sun Apr 26 with MTB BAL-HQ KRE angle flagged. Offered to pull Baltimore Sun primary; Will didn't request.
+4. **Will requested news scan for new signals** — fork "ac6b40f9b8040b7f1" launched (general-purpose Sonnet, ~$0.05) with 6-cluster tight prompt + BOARD-dedupe list. Returned 5 candidates ranked + 3 NULL queries.
+5. **Will greenlit dispatch** — 5 signals dispatched + 2 verify-spawns ran in parallel:
+   - **SIG-W-20260429-001** Brent crude $115 / 8-session streak / Jun-2022-high — IMMEDIATE → BRENT (HAWK/SAM/LIQUID/CARL/RED/NEXUS/PROME info). 0.90. THRESHOLD-CROSS. First clean spot-price-threshold cross for Iran/Hormuz cluster.
+   - **SIG-W-20260429-002** Blue Owl OCIC/OTIC redemption-cap reactivation pre-OWL Q1 print Apr 30 — PRIORITY → BROCK (SHADE/REGINALD/LIQUID/RED/HENRY/NEXUS/CARL/PROME info). 0.75. **Verify CORRECTED-FRAMING 0.80** — Bloomberg Apr 29 "Doomsday levels" headline reframes Apr 2-3 disclosures, NOT new event. Underlying confirmed: OCIC ($36B) Q1 21.9% NAV requested, OTIC 40.7% (5% cap honored each); $5.4B requested, ~$1B paid; OBDC II separately suspended tender offers Feb 2026; KBRA affirmed OTIC; OWL already -9% on Apr 2-3. "Imposed gates" is overstated (5% is standing prospectus). Real risk = forward fee-base trajectory.
+   - **SIG-W-20260429-003** Iranian rial record low Apr 29 IRR/USD ~1.81M (ISNA wire) +15% in 2 days after weeks of stability — PRIORITY → HAWK (BRENT/CARL/SAM/LIQUID/RED/NEXUS/PROME/BARON info). 0.85. **Verify CONFIRMED 0.85**. Prior Jan 2026 protest-spike ~1.6M; clean new ATH. Step-function not drift. Quantifies economic-pressure-channel of active US blockade post-Apr-8 ceasefire (day ~60 IRAN-WAR ANCHOR).
+   - **SIG-W-20260429-004** META + MSFT Q1/Q3 prints AMC tonight — PRIORITY → RED (HENRY/BROCK/LIQUID/NEXUS/CARL/PROME info). 0.85. EVENT-PENDING ADVISORY. META 2026 capex guide $115-135B already raised (+72-94% YoY); MSFT last-Q $29.88B (+89% YoY). Either guiding capex DOWN moves AI-infra complex.
+   - **SIG-W-20260429-005** ROAD Act 76 House lawmakers Apr 22 letter to strip Section 901 — ROUTINE → REGINALD (BROCK/CARL/BARON/RED/NEXUS/PROME info). 0.85. NAHB primary. Legislative-process update on -028-004; reduces probability Sec 901 passes; BARON pickup for political-network-mapping.
+
+### Dispatches by precedence
+- 1× IMMEDIATE (Brent $115)
+- 3× PRIORITY (Blue Owl reframe, Iran rial, META/MSFT advisory)
+- 1× ROUTINE (ROAD Act letter)
+- 0 kills
+
+### Cluster updates
+- **PC-stress meta-cluster ≥9 nodes** (added OCIC/OTIC redemption-cap reactivation Apr 2-3 disclosures via Bloomberg Apr 29 reframing).
+- **Iran day-cluster ≥16 channels** (added currency-stress vector via rial collapse +15% in 2 days).
+- **Bank-collateral-compression cluster** unchanged at ≥6 nodes (ROAD Act letter is process-update on existing -028-004 not new node).
+- **Oil/Hormuz cluster** got first clean spot-price-threshold cross (Brent $115).
+
+### Spec changes
+None.
+
+### Files touched
+- BOARD/SIG-W-20260429-001 through -005 (5 new files)
+- BOARD/INDEX.md (5 new rows, chronological)
+- AGENTS/WALTER/routed/route_log.tsv (5 new rows; 102 total)
+- AGENTS/WALTER/STATUS.md (session log entry added)
+- AGENTS/WALTER/MEMORY.md (CHANGES SINCE / NEXT SESSION rewritten)
+- AGENTS/WALTER/LAST_COMPLETION.md (this file, overwritten)
+
+## RESULT
+
+5 BOARD entries with verify-stamped framing, route_log appended, INDEX in chronological order, two new calibration data points:
+
+1. **Bloomberg Apr 29 "Doomsday" headline = pre-earnings reframe of Apr 2-3 facts.** News scan surfaced as if novel; verify caught the ~4-week-stale rehash. Lesson: autonomous news scans need verify-research discipline more than Will-image intake.
+2. **Iranian rial step-function plunge +15% in 2 days.** Single-event vs drift; HAWK pickup task to identify the proximate trigger.
+
+## GAPS
+
+- **Push from Apr 26 + Apr 28 + today still pending on auth** — 5 days of WALTER work + commits sitting locally. Will action required to refresh GitHub credentials. WALTER cannot self-resolve.
+- **News fork didn't catch the Bloomberg Apr 29 = Apr 2-3 rehash on its own.** Verify-research caught it. Calibration: autonomous news scans need verify-research mandatory on novelty-claim items, more than Will-image intake (which usually IS fresh).
+- **HAWK pickup task** — proximate trigger of rial +15% step-function not identified at WALTER level (needs HAWK domain depth).
+- **BRENT verify-on-pickup** — Brent $115 dispatched at aggregator-level; ICE futures direct tape not pulled; daily-close-vs-prior-2022-highs comparison left to BRENT primary.
+
+## WILL_NEEDS
+
+1. **GitHub credentials refresh** — push has been blocked since Apr 26.
+2. **Per-OWL-Q1-print** (Apr 30 AMC ~5pm ET): decide whether WALTER issues post-print follow-up signal automatically or waits for Will direction.
+3. **Per-META/MSFT-prints** (Apr 29 tonight ~5pm ET): same — autonomous post-print or wait?
+
+## FOLLOW-UP
+
+**TOP PRIORITY (time-sensitive):**
+1. **🔴 OWL Q1 earnings Wed Apr 30 AMC** — pairs SIG-029-002 (OCIC/OTIC reactivation) + -028-005 (Boaz Saba rejected) + -020-004 (founder $1.1B unwind) + -026-012 (Fed-PC inquiry). PC-stress meta-cluster ≥9 nodes, earnings is the catalyst. Forward fee-base trajectory is the real risk per verify research.
+2. **🔴 META + MSFT prints AMC tonight** — SIG-029-004 advisory; WALTER follow-up if either guides capex DOWN. AI-infra complex tape risk.
+3. **HAWK pickup**: identify proximate trigger of rial +15% step-function (OFAC? CBI capitulation? talks fully stalling? mediation collapse?).
+4. **BRENT verify-on-pickup**: ICE futures direct tape, daily-close-vs-prior-2022-highs, term-structure backwardation depth.
+5. **Push retry** — auth still unresolved; commits piling up.
+
+**Housekeeping (deferrable):**
+6. ROAD Act House reconciliation timing (BARON pickup) — pivot determines BTR-financing-freeze persistence.
+7. OZK Q1 earnings post-mortem — REGINALD pickup still pending.
+8. Filter v2 Segment D implementation — Will picked A confidence_note Apr 20 msg 856; ~1hr.
+9. NEXUS cluster classification overdue across ≥6 active clusters.
+10. HAWK / HANS / ZHAO stale 25-35d — routing pressure mounting.
+11. RED refresh still overdue.
+12. HENRY + RED SIGNAL_INTAKE.md prompts still transcript-only.
+13. COP refresh still OFF — resume trigger? (Iran-war anchor + ROAD Act + PC-stress would benefit from visible network-state).
+14. BOARD_CONSUMPTION_SPEC propagation to 14 Tier 1 CLAUDE.md files still pending.
+
+## OPEN DESIGN DECISIONS (need Will)
+
+- **Filter v2 Segment D** — DECIDED option A confidence_note; implementation deferred. ~1hr next session.
+- **Autonomous news-scan policy**: today's session demonstrated WALTER autonomous news scan can produce valuable candidates BUT requires verify-research discipline (1 of 5 came back CORRECTED-FRAMING). Codify scan-cadence (only when Will asks?) + mandatory verify on novelty-claim items?
+- **Push auth fix** — GitHub token / credentials need refresh (Will action; WALTER cannot self-resolve).
+- **BOARD_CONSUMPTION rollout cadence** — Will hand-routing still; durable rollout requires propagation to 14 agent CLAUDE.md files.
+- **COP refresh cadence** — resume trigger?
+- **NEXUS cluster classification** — does WALTER continue informal cluster tracking via STATUS, or NEXUS-spawn forcing function?
