@@ -1,8 +1,8 @@
 # SAM THESIS — v1.3
 
 **Version:** 1.3
-**Last Updated:** 2026-04-24
-**Status:** 🟠 THESIS INTACT — TIMING STRETCHED — Structural channels preserved; BOJ hike slides to June
+**Last Updated:** 2026-04-28 (catalyst sequence refreshed; no version bump)
+**Status:** 🟠 THESIS INTACT — JUNE HIKE NEAR-LOCKED — Apr 28 BOJ delivered modal+ scenario (3 dissents, GDP cut, infl up); swap markets price June at 74%
 **Conviction:** HIGH
 
 ---
@@ -63,15 +63,15 @@ Life insurers also hold ~$40-53B (~$45B central est.) in US private credit — m
 
 ### Channel 2: Carry Unwind (SAM → HENRY)
 
-**Current probability:** 20% (7d) / 70% (30d) / 88% (60d) *(revised v1.3 — timing stretch)*
+**Current probability:** 15% (7d) / 70% (30d) / 90% (60d) *(post Apr 28 BOJ; binary catalyst passed without trigger — 7d ticked down; 60d ticked up on June lock)*
 
 CFTC net short JPY still BUILDING (not covering) — Apr 24 boot shows "SHORT ADD" alert. At ≥52% of July 2024 peak (-180K). Positioning hasn't corrected despite BOJ delay signals → fuel load growing. Aug 2024 precedent: unwind took hours, not days.
 
-**Timing stretch rationale:** April hike has collapsed to ~20% probability (was 60-65% at v1.2). Without immediate BOJ catalyst, short-term (7d) unwind trigger drops sharply. 30d and 60d remain high because June hike is the new base case and CFTC fuel keeps building.
+**Post Apr 28 BOJ:** Hold + 3 dissents + GDP cut + inflation upgrade = market repriced June hike to 74% (vs SAM-21 70%). Direction confirmed; timing now hinges on June meeting.
 
 **Triggers (any one sufficient):**
-- **BOJ hike June base case** (~70%); Apr 28 now ~20%
-- MOF intervention at 160 (verbal warning at 159.5; 160 breached Mar 27; Katayama Apr-week "free hand" restated)
+- **BOJ hike June base case** (~70% SAM, 74% market); Apr 28 resolved hold + hawkish
+- MOF intervention at 160 (Brent $111 reasserts upward USDJPY pressure; Katayama "free hand" restated)
 - Fed forced cuts via private credit cascade (USD/JPY sub-145 without BOJ)
 - Risk-off event (geopolitical escalation → safe haven yen bid)
 - ESR disclosures (mid-May) trigger stress-case repatriation
@@ -81,7 +81,7 @@ CFTC net short JPY still BUILDING (not covering) — Apr 24 boot shows "SHORT AD
 ### Channel 3: BOJ Policy Divergence (Rate Differential Compression)
 
 **Current rate:** 0.75% (Dec 2025 hike) — AT Takaichi ceiling. Next hike to 1.00% = political collision.
-**Timeline:** April 28 = **~20%** (v1.3 revision, was 60-65%). **June = new base case (~70%).** May 1 = secondary.
+**Timeline:** April 28 = **HELD with 3 dissents for 1.00%** (resolved Apr 28). **June = base case (~70% SAM / 74% market).** May 1 = secondary low-info read.
 **Terminal rate:** 0.75% (political ceiling), NOT market consensus 1.25-1.5%
 
 **Apr 13 Ueda speech (v1.3 revision):** Speech delivered by Deputy Himino (Ueda at G7/G20). Explicit ME caution: "developments in the Middle East remain uncertain…will closely monitor their potential impact on economic activity, prices, and financial conditions." Word "rate hike" absent. Market bets collapsed 70% → 3-10%. Polymarket 97% no change. This was the decisive signal that April was off the table and June became base case — *"return to policy normalization as soon as June."*
@@ -109,31 +109,35 @@ CFTC net short JPY still BUILDING (not covering) — Apr 24 boot shows "SHORT AD
 
 ---
 
-## CATALYST SEQUENCE (v1.3 refresh)
+## CATALYST SEQUENCE (v1.3 refresh, Apr 28 update)
 
-### Resolved (Apr 13 → Apr 24)
+### Resolved (Apr 13 → Apr 28)
 
 | Date | Catalyst | Outcome |
 |------|----------|---------|
 | Apr 14 | 20Y JGB auction | ✅ BULL — BTC 4.82x, tail 0.2bp (exceptional demand; super-long strike not broadening) |
 | Apr 15 | Feb TIC data | ❌ BEAR — Japan UST holdings ROSE to $1,239.3B (+$53.8B Dec→Feb). SAM-17 FALSE. |
 | Apr 16 | MOF ITS weekly (DECISIVE) | ❌ BEAR — Apr 5-11 +¥698B net BUYING; 4W rolling at BASE pace (not stress). SAM-18 FALSE. |
+| Apr 21-25 | Big 4 insurer FY2026 plans | 🟡 Zero clean foreign bond CUTS — rotation within (unhedged → hedged). SAM-19 FALSE. |
 | Apr 22 | Ceasefire expiry | 🟡 EXTENDED (not indefinite); Hormuz blockade continues; Iran seized 2 ships |
 | Apr 22 | March trade balance | ❌ BEAR (Phase 1) — ¥+667B SURPLUS (+25.9% YoY); exports +11.7% absorbed oil cost |
 | Apr 22 | Nippon Life FY2026 briefing | 🟡 Reducing yen bonds; foreign allocation ambiguous |
 | Apr 24 | March CPI core | 🟡 1.8% (accelerated from 1.6%, still below target 2nd month) |
+| **Apr 28** | **BOJ meeting** | ✅ **MODAL+ — HOLD 0.75% + 3 dissents (biggest split since 2016) + GDP cut FY26 1.0%→0.5% + inflation upgrade. Swap pricing 74% June hike. SAM-20 FALSE; SAM-21 BULL.** |
+| **Apr 28** | **Brent (Trump rejects Iran Hormuz proposal)** | 🔴 +12% in 4 days to $111.26 settle — Phase 1 oil pressure reasserts |
 
 ### Forward
 
-| Date | Catalyst | Expected Impact (v1.3) |
+| Date | Catalyst | Expected Impact |
 |------|----------|-----------------------|
-| **Apr 28** | BOJ meeting — hike ~20% internal (~3-10% market) | Hike=+4-7% violent; Hold+hawkish=+1-2% (base case); Hold+neutral=flat; Hold+dovish=-2-3% |
-| Apr 21-25 | Remaining Big 4 insurer FY2026 plans | Foreign bond direction watch (Nippon done Apr 22) |
-| May 1 | BOJ meeting — secondary | Lower information content if Apr 28 resolves |
-| May 14 | Japan Q1 GDP prelim | EWJ put trigger if contraction |
+| Apr 29 (Tokyo) | First overnight session digesting BOJ dissent split | Tranche 2 trigger test ($58.00-58.25 zone) |
+| Apr 29-30 | Katayama / Aida political reaction | Takaichi tone; D2 (BOJ Law revision) signal |
+| May 1 | BOJ meeting — secondary | Low info; language evolution check |
+| May 14 | Japan Q1 GDP prelim | EWJ put trigger if contraction (BOJ already cut FY26 to 0.5%) |
 | **Mid-May** | **ESR disclosures begin (FY2025)** | First mark-to-market damage visible; stress-case trigger |
+| **~May 20** | April trade balance (first post-blockade) | Brent $111 makes hot — Phase 1 mechanism re-test |
 | **Late May** | Japan April CPI | Oil passthrough fully visible; locks BOJ June path |
-| **Mid-June** | BOJ meeting — NEW BASE CASE HIKE | Structural yen move; carry unwind fires |
+| **Mid-June** | BOJ meeting — BASE CASE HIKE (SAM-21 70%; market 74%) | Structural yen move; carry unwind fires |
 
 ---
 
@@ -143,7 +147,7 @@ Oil shock creates a two-phase JPY dynamic:
 - **Phase 1 (weeks 1-2):** Oil spike → trade deficit widens → JPY WEAKENS → carry survives
 - **Phase 2 (weeks 2-8):** Recession risk compounds → safe haven yen WINS → carry unwind
 
-**Current state (Apr 24):** Brent ~$99 (range-bound). Ceasefire extended Apr 22 (not indefinite). Hormuz blockade continues. Iran seized 2 ships post-extension.
+**Current state (Apr 28):** Brent **$111.26** (+12% in 4 days). Trump rejected Iran's Hormuz proposal (Iran wanted nuclear program carve-out). Highest since March. Hormuz blockade persistent. Phase 1 mechanism gets fresh test in April trade balance (~May 20).
 
 **v1.3 revision — Phase 1 observation downgrade:** March trade balance posted ¥+667B SURPLUS (+25.9% YoY) despite blockade. Exports +11.7% (AI-demand) absorbed oil import cost. Crude imports reflected pre-Feb-28 shipments so April data may differ, but the modeled mechanism ("oil spike → trade deficit widens → JPY weakens") did NOT mechanically fire in the March data. Phase 1 dynamic is weaker than framed in v1.2.
 
