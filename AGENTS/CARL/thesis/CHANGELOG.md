@@ -8,6 +8,103 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-04-29 (PM) — CRL-08 REPRICE ON BRENT BREAKOUT + CEASEFIRE-BRANCH RESOLUTION
+
+### NO THESIS VERSION BUMP
+**Author:** CARL (Step 4 of Apr 29 catch-up — Brent → CRL-08 reprice)
+**Action:** CRL-08 confidence 65% → 78%. Mirror updated in STATUS.md predictions table. KB-CARL-248 logged.
+
+### PREDICTION UPDATE
+
+**CRL-08 — Gas pump prices hit $4.50+ national avg by May-Jun 2026**
+- **Confidence: 65% → 78%**
+- **Timeframe unchanged: May-Jun 2026**
+- **Rationale (binary-branch resolved + Brent breakout):**
+  - Apr 19 prior structure was conditional: 80% if Apr 21 ceasefire breaks, 30% if it holds, blended to 65% pre-resolution.
+  - Apr 21 ceasefire did NOT resolve cleanly. Apr 24 contradictory diplomacy (Araghchi Islamabad, Trump talks-relaunch frame vs IRGC-Raja denial); WTI dropped to $94.40 on talks-hope then breakout.
+  - **Apr 28-29: Brent $110.38 close / $115 intraday — 8-session streak, highest since June 2022, IEA on-record "largest supply shock on record" framing.** Cluster intensified, did not de-escalate.
+  - Pass-through math: Brent +$12 from $98 → +$0.25-0.30/gal pump in 2-4wks → from $4.076 baseline → ~$4.30-4.40 in steady state before further oil moves. Closing $0.42 gap requires Brent sustained $110+ AND (refiner margin expansion via distillate tightness OR Memorial Day seasonal +$0.10-0.15 OR another $5-8 leg from kinetic event).
+- **Why 78% not 85%+:**
+  - $0.42 gap still meaningful — needs more than just current Brent staying flat
+  - MS/Piper Sandler counter-frame (KB-CARL-236) valid: US net-exporter + 1.8% aggregate gas share caps structural multiplier
+  - Demand destruction at $4.30+ retail moderates further moves
+  - Brent $115 was intraday spike; close $110.38; 8-week sustainability not yet proven
+  - Trump talks-relaunch optics could re-emerge (Witkoff/Kushner reportedly to Pakistan)
+- **Why 78% not 65%:**
+  - Binary conditional has effectively fired toward "breaks" branch
+  - Cluster intensifying not resolving (Iranian rial -15% in 2 days, USS Pinckney shadow-fleet intercept Apr 26, Merz "no exit strategy" Apr 28)
+  - IEA "largest supply shock on record" framing is uncharacteristic escalation language for that body
+- **Invalidation unchanged.**
+
+### CONVERGENCE MATRIX
+
+- **Vector #5 (Gas Price Squeeze): 5/5 unchanged.** Already maxed; reprice reflects probability not vector score.
+- **Score: 58/60 held.** No vector flips.
+
+### NEXT TRIGGERS
+
+- **Pump pass-through validation:** AAA daily refresh needed — pump $4.076 (Apr 17 stale) likely already $4.20-4.30 area on Brent $110.
+- **Brent sustainability test:** does $110+ hold through next week, or pull back on talks-hope re-emerging?
+- **May UMich + CPI:** validates inflation expectations un-anchoring vs noise; pairs with CRL-08 transmission read.
+- **Memorial Day weekend (May 25):** organic seasonal premium kicks in — natural test of pump trajectory.
+
+---
+
+## 2026-04-29 — APR 21 EARNINGS CATCH-UP SYNTHESIS (10-day-late processing)
+
+### NO THESIS VERSION BUMP
+**Author:** CARL (catch-up after 10-day session gap; sub-agents POLLY + HOMER + SYF/COF research fork)
+**Action:** Three earnings clusters processed retroactively. CRL-12 confidence revised DOWN 77→55%. STATUS dashboard +6 new rows (SYF/COF Q1, DHI Q2, PHM Q1, UNH Q1, ELV Q1). Convergence unchanged at 58/60.
+
+### PREDICTION UPDATES
+
+**CRL-12 — SYF FY2026 NCO exceeds 6.0% guidance ceiling**
+- **Confidence: 77% → 55%**
+- **Rationale:** SYF Q1 NCO 5.42% (-96bps YoY); SYF revised FY2026 guidance DOWN to <5.5% (well below 6.0% threshold CRL-12 requires). Headline path requires fresh credit loosening or material macro deterioration to overshoot. Survivor-pool caveat retained (Home & Auto receivables -3.7% YoY, active accounts -0.7%, ACL ratio BUILT +36bps to 10.42% despite clean headline = mgmt hedging forward risk). CFPB late-fee reinstatement remains tail risk that could push NCO back up. K-shape composition-masking (KB-CARL-243/244) confirmed on the ALLY framework.
+- **Why not lower than 55%:** macro deterioration acceleration (gas $4.50+, food CPI Q3) could still pressure NCO into Q3-Q4 even on the cleaner book; ACL build signal preserves ~one-quarter pull-forward risk. 50% would imply CRL-12 has lost most of its load-bearing weight; 55% reflects still-meaningful but reduced probability.
+- **Invalidation unchanged.**
+
+### EVIDENCE UPDATES (no prediction-level changes)
+
+**SYF/COF Q1 2026 (Apr 21):**
+- SYF as above. COF Domestic Card NCO 5.1% (-109bps YoY) clean headline; **Auto book is the ALLY analog** — originations +21% YoY w/ "slightly higher subprime mix" admitted by management; $155M Consumer Banking ACL build + $230M total ACL build citing "potential downside scenarios." Discover acquisition: legacy book contracting -1.2% via prior tightening; replacement originations 8% on COF platform now → ~100% by Q3 2026 (forward NCO will reflect COF near-prime standards).
+- KB-CARL-243 (SYF actuals), 244 (SYF ALLY scorecard), 245 (COF actuals), 246 (COF ALLY scorecard).
+
+**DHI Q2 FY2026 (Apr 21) + PHM Q1 2026 (Apr 23):**
+- DHI GM 20.1% reported / 19.7% normalized — beat 19.0-19.5% guide on litigation/warranty benefit + cost control, NOT price recovery. ASP -3% YoY $361,600. Cancellations 16% — "vast majority mortgage qualification failure." First-time 65% of closings. FY26 closings TRIMMED -500.
+- PHM GM 24.4% MISS (-310bps from 27.5% Q1'25). Incentives +290bps to 10.9%. Q2 GM guided 24.1-24.4% = sequential compression. **PHM management names "K-shape" explicitly on call** — active adult orders +14% YoY, first-time flat.
+- **CRITICAL:** $10,900/home tariff cost NOT in 2026 margins; FY27 hit. Current builder margins are the **pre-tariff floor**.
+- Vector #10 (Foreclosure Acceleration) reinforced via new-home channel — cancellations are mortgage-qualification failures (consumer stress, not preference shift).
+
+**UNH Q1 (Apr 21) + ELV Q1 (Apr 22):**
+- UNH MCR 83.9% (vs 84.8% Q1'25; est ~85.5%) — NO MLR breach. MA membership -965K Q1 (FY guide ~-1.3M loss). FY adj EPS guide raised to >$18.25. DOJ investigation ongoing.
+- ELV BCR 86.8% (+40bps YoY) — NO breach. Adj EPS $12.58 BEAT (vs $11.03 est). FY guide raised to >$26.75. $935M one-time CMS accrual (RA dispute, compliance Jul 31).
+- **MA cost trend ~10% embedded in 2026 pricing** at both carriers (vs historical 3-5%) — re-acceleration thesis PARTIALLY CONFIRMED. V28 RAF recalibration unresolved → H2 2026 MLR re-acceleration risk.
+- Mechanism note: insurer beats driven by membership culling + repricing → bronze-plan ACA shift = high-deductible trap activating = consumer-side stagflation transmission, **Vector #12 intact** (insurance is transmission channel, not clearing mechanism).
+
+### CROSS-DOMAIN SYNTHESIS (KB-CARL-247)
+
+K-shape WIDENING confirmed simultaneously across three independent earnings prints:
+- **SYF**: bottom-of-K borrowers EXITING the book (survivor-pool); not recovery
+- **PHM**: management explicitly labels "K-shaped economy" on call; active adult +14% YoY while first-time flat = top-of-K still buying, bottom frozen
+- **POLLY (UNH/ELV)**: bronze-plan ACA shift = high-deductible trap activating in real time; MA cost trend re-acceleration ~10% (vs 3-5%)
+
+Convergence Vector #9 (K-Shape Converging) remains 5/5. The earnings cluster did NOT contradict this; it provided three independent confirmations from credit-card, builder, and insurer angles. Aggregate "improvement" data continues to mask cohort-level deterioration.
+
+### CONVERGENCE MATRIX
+
+- **Vector #10 (Foreclosure Accel)**: 5/5 unchanged. New-home cancellations (DHI 16%, PHM 13%) "mortgage qualification failure" framing reinforces pipeline conversion thesis.
+- **Vector #12 (Stagflation Trap)**: 5/5 unchanged. POLLY high-deductible trap + UMich Final 5-10Y inflation expectations 3.5% (un-anchoring deepened) = consumer-side stagflation confirmation.
+- **Score: 58/60. Held.**
+
+### NEXT TRIGGERS
+
+- **CRL-08 reprice (gas $4.50+):** pending Brent breakout integration (Step 4 of this session).
+- **CRL-05 (CC 90+ DQ >13.74% GFC):** SYF survivor-pool dynamic raises a structural question — if the worst SYF borrowers are exiting (book/charged off), where does the 12.7%→13.74% delta come from? Possible answer: prime/near-prime migration. CRL-05 mechanism shifts from subprime-deeper to prime-down. Confidence not changed pending Q1 NY Fed HHDC data (mid-May).
+- **CRL-15/16/17:** SB and POP-driven predictions unchanged; no new earnings input.
+
+---
+
 ## 2026-04-19 (PM) — BOARD SIGNAL INTEGRATION (Apr 17–19 WALTER dispatches)
 
 ### NO THESIS VERSION BUMP

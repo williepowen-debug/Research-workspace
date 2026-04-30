@@ -1,7 +1,7 @@
 # HOMER STATUS
-**Last Updated:** 2026-04-17 (Spawn 3 Data Refresh — Apr 15-17 releases) | **Status:** 🔴 CRITICAL — NAHB HMI 34 (NEW 7-mo low, -4pts; missed est. 37; 24th consecutive month <50; Future Sales collapsed -7pts to 42); MBA apps +1.8% WoW (Apr 10 wk) on refi +5%; Purchase -1% WoW, -3% YoY; PMMS 6.30% (down from 6.37%, easing trend continues); ATTOM Q1 2026 foreclosures +26% YoY (118,727 filings, REO +45% YoY to 14,020); FL REO up 108% YoY in Q1; TX leads FC starts Q1 (10,617 vs FL 10,099)
+**Last Updated:** 2026-04-29 (Spawn 4 — DHI Q2 FY2026 + PHM Q1 2026 Earnings Watch) | **Status:** 🔴 CRITICAL — DHI Q2 gross margin 20.1% BEAT guide (19.0-19.5%) via volume/cost, NOT price recovery; ASP -3% YoY, incentives ~10% revenue, orders +11% YoY; PHM Q1 margin 24.4% MISS vs 27.5% prior year (-310bps), incentives +290bps to 10.9% of price, cancellations +2pp; PHM mgmt explicitly named K-shape on call. Tariff $10,900/home cost NOT yet in margins — forward risk Q3-Q4 2026.
 
-**⚠️ THRESHOLD WATCH:** Existing home sales 3.98M (approaching 🔴 <4.0M threshold). NAHB HMI 34 (now 7-mo low; buyer traffic 22, severely depressed). ATTOM Q1 2026: 118,727 filings (+26% YoY) with REO +45% YoY — pipeline converting to REO at accelerating rate. TX leads FL in Q1 FC starts (10,617 vs 10,099). FL REO doubled (+108% YoY). Tariff cost shock: 60% of builders report material cost increases avg +6.3% = $10,900/home.
+**⚠️ THRESHOLD WATCH:** Existing home sales 3.98M (approaching 🔴 <4.0M threshold). NAHB HMI 34 (7-mo low; buyer traffic 22, severely depressed). ATTOM Q1 2026: 118,727 filings (+26% YoY) with REO +45% YoY — pipeline converting to REO at accelerating rate. TX leads FL in Q1 FC starts (10,617 vs 10,099). FL REO doubled (+108% YoY). Tariff cost shock: 60% of builders report material cost increases avg +6.3% = $10,900/home — NOT YET IN Q2 MARGINS, expected Q3-Q4 FY2026 / FY2027.
 
 ---
 
@@ -92,10 +92,26 @@ U.S. housing is in a slow-motion stress event masked by headline price resilienc
 | Sales Incentives | **60%** (13th consec. month ≥60%; down from 64% Mar) | Apr 2026 | NAHB | 🔴 |
 | Builder Material Cost Impact | **60%** reporting supplier increases; avg **+6.3%** = **$10,900/home** from tariffs | Apr 2026 | NAHB | 🔴 |
 | Lennar Gross Margin | **15.2%** (lowest since 2010) | Q1 FY2026 | LEN | 🔴 |
-| DHI Gross Margin | **20.4%** (reported; Q1 FY2026) — Q2 guidance **19.0-19.5%** | Q1 FY2026 | DHI | 🟠 |
-| DHI Q2 FY2026 Earnings | **Scheduled Apr 21** — next builder data point | Apr 21 | DHI | — |
+| DHI Q2 Gross Margin (reported) | **20.1%** (BEAT guide 19.0-19.5%; normalized **19.7%** ex-40bps litigation) | Q2 FY2026 (Apr 21) | DHI | 🟠 |
+| DHI Q2 Net Orders | **24,992 homes** (+11% YoY); value **$9.2B** (+10% YoY) | Q2 FY2026 (Apr 21) | DHI | 🟢 |
+| DHI Q2 Avg Closing Price | **$361,600** (-3% YoY) | Q2 FY2026 (Apr 21) | DHI | 🟠 |
+| DHI Q2 Cancellation Rate | **16%** (flat YoY; down from 18% prior qtr) | Q2 FY2026 (Apr 21) | DHI | 🟠 |
+| DHI Q2 Incentives | **~10% of revenue** (elevated; rate buydowns dominant) | Q2 FY2026 (Apr 21) | DHI | 🔴 |
+| DHI Q2 First-Time Buyer Share | **65%** of mortgage company closings | Q2 FY2026 (Apr 21) | DHI | — |
+| DHI FY2026 Guidance (Closings) | **86,000-87,500** (trimmed -500 low end from prior) | Apr 21, 2026 | DHI | 🟠 |
+| DHI FY2026 Revenue Guidance | **$33.5-34.5B** | Apr 21, 2026 | DHI | — |
+| DHI Tariff Commentary | Deflected — cost increases "don't always stick"; FY2027 impact, not 2026 | Apr 21, 2026 | DHI call | 🟠 |
+| PHM Q1 Gross Margin | **24.4%** (MISS vs 27.5% Q1'25; -310bps YoY; guide ~25%+) | Q1 2026 (Apr 23) | PHM | 🔴 |
+| PHM Q1 Incentives | **10.9%** of gross sales price (+290bps YoY, +100bps seq.) | Q1 2026 (Apr 23) | PHM | 🔴 |
+| PHM Q1 Net New Orders | **8,034 homes** (+3% YoY); value **$4.6B**; ASP **$542K** (-5% YoY) | Q1 2026 (Apr 23) | PHM | 🟠 |
+| PHM Q1 Cancellation Rate | **13%** of starting backlog (+2pp YoY from 11%) | Q1 2026 (Apr 23) | PHM | 🟠 |
+| PHM Q1 Buyer Mix | First-time 38% / Move-up 39% / Active adult 23% (orders) | Q1 2026 (Apr 23) | PHM | — |
+| PHM Q1 Order Strength | Active adult +14% YoY / Move-up +3% / First-time flat | Q1 2026 (Apr 23) | PHM | 🔴 K-shape |
+| PHM Q1 Backlog | **10,427 homes** / **$6.5B** | Q1 2026 (Apr 23) | PHM | — |
+| PHM Q1 Community Count | **1,043** (+9% YoY) | Q1 2026 (Apr 23) | PHM | 🟢 |
+| PHM FY2026 Guidance | Closings **28,500-29,000**; Margin **24.5-25%** (low end); ASP **$550K-560K** — REAFFIRMED | Apr 23, 2026 | PHM | 🟠 |
+| PHM K-Shape Quote | Mgmt: "K-shaped economy — lower- and middle-income families struggling much more" | Apr 23, 2026 | PHM call | 🔴 |
 | TOL Adj. Gross Margin | **26.5%** (luxury segment holding; +25bps above guidance) | Q1 FY2026 | TOL | 🟢 |
-| PulteGroup (PHM) Q1 | **NOT YET RELEASED** (Apr 23) | — | PHM | — |
 | NAR Crisis Declaration | **DECLARED** | 2026 | NAR/Yun | 🔴 |
 
 ### State-Level Housing Stress
@@ -159,8 +175,8 @@ U.S. housing is in a slow-motion stress event masked by headline price resilienc
 | **✅ Apr 16** | MBA Apps (wk ending Apr 11) | **DONE:** +1.8% composite; Purchase -1% WoW/-3% YoY; Refi +5% WoW/+15% YoY; rate 6.42% |
 | **✅ Apr 16** | ATTOM Q1+Mar 2026 Foreclosure | **DONE:** Q1 118,727 filings (+26% YoY); Mar 45,921 (+28% YoY); REO +45% YoY; FL REO +108% YoY |
 | **✅ Apr 16/17** | Freddie PMMS (Apr 17) | **DONE:** 6.30% (down from 6.37%; 15yr 5.65%; year-ago 6.83%) |
-| **Apr 21** | DHI Q2 FY2026 earnings | Cancellation rates, margin guidance, demand commentary |
-| **Apr 23** | PHM PulteGroup Q1 earnings | Margin, cancellation, demand |
+| **✅ Apr 21** | DHI Q2 FY2026 earnings | **DONE:** Margin 20.1% (BEAT 19.0-19.5% guide); orders +11%; ASP -3%; cancel 16%; incentives ~10%; 65% first-time; FY guide trimmed -500 closings. Tariff deflected → FY2027. |
+| **✅ Apr 23** | PHM Q1 2026 earnings | **DONE:** Margin 24.4% (-310bps YoY); orders +3%; ASP -5%; cancel 13% (+2pp); incentives 10.9%. Mgmt named K-shape explicitly. FY guidance reaffirmed. |
 | **Apr 28** | Case-Shiller (Feb data) | Price deceleration continuing? Tampa path? |
 | **Apr 28** | Rithm/NewRez Q1 earnings | Test "DQ reversal in Q1" claim (KB-HMR-048) |
 | **Apr 29** | Census Mar Housing Starts (delayed) | DELAYED from Apr 17 — monthly construction data |

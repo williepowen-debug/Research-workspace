@@ -1,6 +1,27 @@
 # POLLY STATUS
-**Last Updated:** 2026-04-17 | **Status:** 🔴 ELEVATED — CA FAIR Plan new high 684K; auto market normalizing; UNH/ELV Q1 pending Apr 21-22
+**Last Updated:** 2026-04-29 | **Status:** 🔴 ELEVATED — CA FAIR Plan 684K; auto normalizing; UNH Q1 MCR 83.9% (no breach); ELV Q1 BCR 86.8% + $935M CMS accrual; MA cost trend ~10% confirmed elevated
 **Phase:** Phase 2-3 (Premium Pressure → Coverage Erosion) nationally; Phase 3-4 (Coverage Erosion → Protection Collapse) in CA/LA
+
+---
+
+## THRESHOLD BREACHES AND STATUS CHANGES — 2026-04-29
+
+| Item | Old | New | Direction | CARL-Relevant? |
+|------|-----|-----|-----------|----------------|
+| UNH consolidated MCR Q1 2026 | 84.8% (Q1 2025); 88.8% FY guide | **83.9% (Q1 2026)** | IMPROVED — NO BREACH | YES — managed stress, not cleared |
+| UNH MA membership Q1 2026 | 49.8M (Q4 2025 domestic) | **49.1M (-965K Q1)** | DECLINING (on plan) | YES — deliberate, FY guide ~-1.3M |
+| UNH 2026 Adj EPS guidance | >$17.75 | **>$18.25** | RAISED | Mild counter-signal |
+| UNH DOJ investigation | Active (criminal + civil) | **No update disclosed Q1** | ONGOING | YES — tail risk |
+| ELV consolidated BCR Q1 2026 | 93.5% (Q4 2025); 86.4% (Q1 2025) | **86.8% (Q1 2026)** | +40 bps YoY, seasonal improve vs Q4 | YES — Medicaid stress persists |
+| ELV CMS risk-adjustment accrual | none | **$935M one-time** | SURPRISE CHARGE | YES — systemic MA regulatory risk |
+| ELV total medical membership | 45.8M (Q1 2025) | **~45.4M (Q1 2026)** | DECLINING -400K YoY | Managed |
+| ELV 2026 Adj EPS guidance | >$25.50 | **>$26.75** | RAISED +$1.25 | Counter-signal |
+| ELV ACA bronze plan migration | noted | **"Pronounced" shift to bronze** | ACCELERATING | YES — high-deductible trap activating |
+| VX-POLLY-3.01 (MA MLR) status | YELLOW [STALE-2026-04-21] | **YELLOW — updated; no breach** | Refreshed | YES — ~10% MA cost trend embedded |
+| MA cost trend confirmation | ~10% priced in | **CONFIRMED: both carriers price ~10% MA trend** | VALIDATED | PARTIALLY CONFIRMS thesis |
+| V28 RAF recalibration risk | unresolved | **Still unresolved; UNH declined to quantify** | FORWARD RISK | YES — Q3-Q4 MLR re-accel risk |
+
+**CARL NOTE:** Neither carrier breached crisis MLR thresholds. BEATS are real but reflect membership discipline (shedding sicker MA members), not demand-side relief. MA cost-trend re-acceleration thesis PARTIALLY CONFIRMED. Vector #12 not weakened. ELV Medicaid stress pre-OBBBA baseline is concerning — Dec 2026 wave will amplify.
 
 ---
 
@@ -52,7 +73,8 @@ Insurance is both INDICATOR and AMPLIFIER of consumer financial stress. As indic
 | Health Uninsured Rate | VX-POLLY-3.03 | 8% / 27.1M | >9% Yellow | 🟡 YELLOW | RISING (policy) | 2026-04-09 |
 | Avg Employer Deductible | VX-POLLY-3.02 | $1,886 avg | >$2,000 Yellow | 🟡 YELLOW | RISING | 2026-04-09 |
 | Medical Debt Prevalence | VX-POLLY-3.04 | ~20% / $195B | >20% Yellow | 🟡 YELLOW | RISING | 2026-04-09 |
-| MA MLR (UNH) | VX-POLLY-3.01 | 88.8% (2026 guide) [STALE-2026-04-21] | >88% Yellow | 🟡 YELLOW [PENDING] | ELEVATED | **2026-04-17** |
+| MA MLR / MCR (UNH consolidated) | VX-POLLY-3.01 | **83.9% Q1 2026 (cons. MCR); FY guide 88.8%±50bps** | >88% Yellow | 🟡 YELLOW — no breach; FY path uncertain | STABLE (Q1 beat; V28 RAF unresolved) | **2026-04-29** |
+| BCR (ELV consolidated) | VX-POLLY-3.01 | **86.8% Q1 2026**; $935M CMS accrual | >88% Yellow | 🟡 YELLOW — Medicaid stressed; MA improving | ELEVATED (Medicaid) / IMPROVING (MA) | **2026-04-29** |
 
 ---
 
@@ -64,8 +86,8 @@ Insurance is both INDICATOR and AMPLIFIER of consumer financial stress. As indic
 | **[NEW] Auto CPI YoY: 0.8% (Mar 2026) — near-zero; hard market effectively over** | BLS CPI Mar 2026 | 2026-04-10 | Down from 5.9% Feb; carriers profitable; no new rate pressure — cumulative burden remains |
 | **[NEW] PGR Q1 2026: CR 86.4, PIF +9% to 39.6M, net income $2.8B (+10%)** | PGR Q1 earnings | 2026-04-15 | Auto market solidly profitable; growth accelerating; hard market pricing holding |
 | **[NEW] TRV Q1 2026: consolidated CR 88.6%; cat losses $761M (vs $2.27B Q1 2025, -66%)** | TRV Q1 earnings | 2026-04-16 | TRV reducing CA/FL exposure; expanded cat reinsurance; HO underlying CR 69.7% |
-| **[NEW] UNH Q1 2026 NOT YET REPORTED — due premarket Apr 21** | — | 2026-04-17 | Update next spawn. Consensus $6.76 EPS. DOJ probe ongoing. MA loss 1.3-1.4M expected. |
-| **[NEW] ELV Q1 2026 NOT YET REPORTED — due Apr 22; Medicaid mgmt reaffirmed above guide** | ELV guidance | 2026-04 | Q1 tracking modestly above guidance per management. Medicaid ~8.11M (vs 8.86M Q1 2025). |
+| **[NEW] UNH Q1 2026: consolidated MCR 83.9% (beat est 85.5%); adj EPS $7.23 (beat $6.59); MA -965K members Q1; FY guide raised to >$18.25; DOJ no update** | UNH Q1 2026 earnings | 2026-04-21 | No MLR breach. Beat via membership discipline + repricing. MA cost trend ~10% confirmed. V28 RAF unresolved. ACA contracting ~1/3. |
+| **[NEW] ELV Q1 2026: BCR 86.8% (+40bps YoY); adj EPS $12.58 (beat $11.03); $935M CMS accrual; total membership 45.4M; ACA bronze shift "pronounced"; FY guide >$26.75** | ELV Q1 2026 earnings | 2026-04-22 | No BCR breach. Medicaid stressed at high-end mid-single-digit trend. MA improving. Bronze plan shift = high-deductible trap activating. |
 | **[NEW] OBBBA redeterminations begin Dec 31, 2026 — H2 2026 is pre-wave, not yet active** | BDO/Urban Institute | 2026 | 5-10M projected to lose coverage 2027-2028; wave starts Dec 30, 2026 |
 | **[NEW] CSU Apr 2026: below-normal hurricane season; El Nino dominant; 13 named/6 hurricanes/2 major** | CSU Apr 9 2026 | 2026-04-09 | Below-normal = FL positive; but landfall risk remains; NOAA outlook expected May |
 | ACA subsidies expired Jan 1, 2026; enrollment -4.9% to 23.1M; avg premium $113→$178/mo | CMS | 2026-Q1 | 1.2M dropped coverage; subsidy cliff fully activated |
@@ -120,8 +142,8 @@ Insurance is both INDICATOR and AMPLIFIER of consumer financial stress. As indic
 
 - **Hurricane season:** Jun 1-Nov 30, 2026. **CSU Apr 9: 13 named storms, 6 hurricanes, 2 major (BELOW-NORMAL).** El Nino dominant = high wind shear. NOAA outlook expected May 2026. FL durability test — but favorable setup.
 - **CA wildfire season:** May-Oct 2026. FAIR Plan at $750B exposure and 35.8% rate hike pending. Any major fire = solvency stress for CA FAIR Plan and potential assessment on all CA insured. Legislative reform push (Apr 14: 40 groups urging action by Apr 22).
-- **UNH Q1 2026:** Reports **Apr 21** premarket. Key data: actual MLR, MA membership loss confirmation, DOJ update.
-- **ELV Q1 2026:** Reports **Apr 22**. MLR target 90.2%; Medicaid membership ~8.11M projected.
+- **UNH Q1 2026:** ✅ REPORTED Apr 21. MCR 83.9% (no breach); adj EPS $7.23 beat; MA -965K Q1; FY guide >$18.25. DOJ: no update. V28 RAF: unresolved. Next: Q2 2026 (July).
+- **ELV Q1 2026:** ✅ REPORTED Apr 22. BCR 86.8%; adj EPS $12.58 beat; $935M CMS accrual; Medicaid stressed. Next: Q2 2026 (July).
 - **OBBBA implementation:** 6-month redeterminations and work requirements begin **Dec 30-31, 2026.** H1 2026 is pre-wave. First disenrollment wave hits H1 2027.
 - **ACA Open Enrollment:** Nov 2026 - Jan 2027. First OE under OBBBA subsidy structure. CMS effectuated enrollment snapshot expected July 2026.
 
