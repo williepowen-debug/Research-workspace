@@ -8,6 +8,42 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-04-29 (PM2) — AAA LIVE PUMP REFRESH + DIESEL DEMAND DIVERGENCE
+
+### NO THESIS VERSION BUMP
+**Author:** CARL (PRIORITY-1 from Apr 29 PM SCRATCH — close stale pump data window)
+**Action:** Stale Apr 17 pump data refreshed live. CRL-08 78% reprice confirmed on track inside model. New K-shape finding logged: diesel-vs-gasoline divergence as freight demand destruction signal. STATUS dashboard updated. KB-CARL-252, KB-CARL-253 logged.
+
+### LIVE DATA CONFIRMATION
+
+**Gas Pump (CRL-08 confirmation):**
+- AAA national regular: **$4.229 / gal** (Apr 29 live)
+- vs prior STATUS print $4.076 (Apr 17): **+$0.153 / 12 days**
+- Pace: yesterday $4.176 → +5.3¢ overnight; week-ago $4.020 (+$0.21 / 7d); month-ago $3.980 (+$0.21 / 30d); YoY $3.161 (+$1.07 / +33.8%)
+- Brent pass-through completion: ~40% of crude move (+$12 / +12.5%) absorbed in pump (+$0.21 / +5.0%) — textbook 2-4wk lag still in pipeline
+- **CRL-08 78% holds** — gap to $4.50 threshold = $0.27, 30d pace = $0.21, on track inside Apr 29 AM reprice model. Live print is confirmatory, not deflective.
+
+**Diesel (NEW K-SHAPE FINDING):**
+- AAA national diesel: **$5.464 / gal** (Apr 29 live)
+- vs prior STATUS print $5.608 (Apr 13 EIA): **DOWN -$0.144 / -2.6%** despite Brent breaking $98 → $110+ same window
+- Week-ago $5.489 (-$0.025 falling); month-ago $5.406 (+$0.058 mildly higher but rolling)
+- **The signal: diesel falling while gasoline rises = freight/business-side demand destruction.** Distillate-weighted to trucking, freight rail, ag diesel, marine bunker — leading-edge business-cycle indicators. When refiners cannot pass distillate cost upstream and shift yields toward gasoline, soft distillate demand is the residual explanation.
+- **Direct K-shape signal:** consumer-side pump rises (cost squeeze on bottom 60%) + business-side diesel falls (demand pullback on freight/ag) firing simultaneously and in opposite directions. Vector #9 (K-Shape Converging Downward) reinforced via business-side extension.
+
+### CONVERGENCE MATRIX
+
+- **Vector #5 (Gas Price Squeeze): 5/5 unchanged.**
+- **Vector #9 (K-Shape Converging Downward): 5/5 unchanged** — but qualitatively reinforced via diesel divergence as new business-side demand-destruction confirmation.
+- **Score: 58/60 held.**
+
+### NEXT TRIGGERS
+
+- **Diesel sustained 4+ weeks soft while Brent stays $100+:** would significantly strengthen freight-demand-destruction interpretation. Track ATA truck tonnage, Cass Freight Index, EIA distillate stocks (Wed weekly), refinery utilization.
+- **Pump weekly refresh:** continue live AAA tracking; Memorial Day (May 25) seasonal premium expected to add $0.10-0.15.
+- **CRL-10 (Food CPI):** ag-diesel softening could partially offset urea/wheat input cost — minor counter-signal, watch for compounding effects.
+
+---
+
 ## 2026-04-29 (PM) — CRL-08 REPRICE ON BRENT BREAKOUT + CEASEFIRE-BRANCH RESOLUTION
 
 ### NO THESIS VERSION BUMP
