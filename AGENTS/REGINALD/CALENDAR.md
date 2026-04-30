@@ -1,6 +1,6 @@
 # REGINALD CALENDAR
 
-**Last Updated:** 2026-04-24 (OZK spinout Step 6 — OZK-specific events extracted to `../OZK/CALENDAR.md`) | **View:** Forward-looking only. Past events pruned weekly.
+**Last Updated:** 2026-04-29 PM (5-day catch-up — Apr 23 cohort + RITM Apr 28 + BOJ Apr 28 marked resolved; OWL Apr 30 added) | **View:** Forward-looking only. Past events pruned weekly.
 
 ---
 
@@ -10,28 +10,25 @@
 |-----------|-------|---------------|-------------------|
 | Weekly (Thu) | Initial claims | DOGE layoff acceleration | >300K = all ORANGE banks → RED |
 
-## WEEK OF APR 14 — Q1 EARNINGS WAVE (in progress)
+## WEEK OF APR 28 — POST-PEAK EARNINGS
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |------|-------|---------------|-------------------|-----------|
-| **Apr 17 ✅** | **FITB Q1: EPS $0.83, Rev $2.86B (miss $50M)** — resolved | Transcript + PR mined last session (`FITB/Q1_2026_ANALYSIS.md`). 8-K + deck still pending Round 2. | Tape ~flat; thesis clean-balance-sheet baseline held; "80%/10%" PE growth quote added as WAL analyst hook. | OTTO, CARL, REGINALD (WAL V3) |
-| **Apr 17 ✅** | **RF Q1: EPS $0.57 (miss $0.04), Rev $1.92B (miss $20M)** — resolved | Transcript + PR + supplement mined this session (`RF/Q1_2026_ANALYSIS.md`). Deck (9.2MB) pending Round 2. | **Tape +3.8% on DOUBLE MISS.** NDFI forced disclosure: $3B/$1.8B/<2% loans. FHLB opaque → May 1-10 Call Report. Middle East $17M overlay releasable. | CARL, CORAL, HENRY (capital markets stress) |
+| **Apr 28 ✅** | **RITM Q1: EPS $0.51 / GAAP $0.12 (hedging gap), Rev $1.38B beat** — resolved | EPS $0.51 vs $0.50; Rev $1.38B vs $1.25B (+10.4% beat). Servicing UPB $850B. Origination +31% YoY to $15.5B. AUM $59B (Crestline). | **Mgmt "DQ will reverse Q1" claim NOT surfaced in headlines** — transcript pull needed for confirmation. NewRez = #3 non-money-center servicer; WAL V3 warehouse counterparty thesis tied. | CARL, REGINALD (WAL V3) |
+| **Apr 28 ✅** | **BOJ Apr 28 — HOLD + HAWKISH (modal v1.3)** — resolved | Held 0.75% as expected. **3 dissents** (Takata/Tamura/Nakagawa) for 1.0%, biggest split since 2016. GDP cut 1.0→0.5%, inflation upgraded, Ueda hawkish presser. Swap pricing **74% June hike**. | June hike near-locked. Ch4 (Japan→CLO→BDC→bank fund finance) timeline tightens into Q2/Q3. | SAM (primary), LIQUID, REGINALD |
+| **Apr 30** | **OWL Q1 earnings AMC** | Forward fee-base trajectory; OCIC/OTIC redemption-cap commentary; founder unwind context; Fed PC-inquiry exposure | Pairs with PC-stress meta-cluster ≥9 nodes. Forward fee-base trajectory = real risk per WALTER SIG-029-002 verify. | BROCK (primary), REGINALD (info), HENRY |
 
-## WEEK OF APR 20 — PEAK EARNINGS (POSITION NAMES)
+## MAY
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |------|-------|---------------|-------------------|-----------|
-| **Apr 21 ✅** | **WAL Q1: GAAP EPS $1.65 MISS / Adj $2.22 BEAT** — resolved | Full synthesis → `WAL/Q1_2026_ANALYSIS.md`. **V2 FRAUD CONFIRMED LIVE: LAM $126.4M + Cantor $26.1M = $152.5M charge-offs.** Vecchione labeled "two fraud-related credits." $50.5M security sales gains = "mitigation strategy" (RF-playbook cohort 2/2). LAM = Leucadia Asset Management (Jefferies subsidiary post-2013). Ex-fraud NCO 0.39%. CET1 11.0%. Deposits +$5.6B QoQ. | Tape -2.04% Apr 22 AM → back below $78 threshold. Cohort fade pattern 8/8. | REGINALD, BROCK, OTTO |
-| Apr 20 | WTFC Q1 earnings (after-market) | — | — | — |
-| ~Apr 22 | PB Q1 earnings | TX CRE, provisions | — | — |
-| **Apr 28** | **RITM Q1 earnings** | Ginnie MSR performance, DQ trend | Mgmt claim "DQ will reverse in Q1" — testable. If fails, confirms CARL non-bank servicer stress thesis → warehouse transmission. | CARL, REGINALD (WAL V3) |
-| **May 6** | **APO Q1 earnings** (pre-market, 8:30 AM ET webcast) | Atlas SP segment disclosure; warehouse book size; any non-bank servicer counterparty commentary | New watch (Apr 14 warehouse research): Atlas SP = dominant warehouse provider to stressed non-bank mortgage servicers ($6.9B at PFSI = 78% concentration). Adds to existing APO stack (MFS fraud, First Brands, Epstein May 21, Athene). | REGINALD, CARL |
-| **Apr 23** | **VLY Q1 earnings** | Capital, CRE provisions | — | PROME |
-| **Apr 23** | **SSB Q1 earnings** (after-market) | FL/TX exposure (42%), CRE MF | FL stress read-through | CORAL |
-| Apr 23 | ASB Q1 earnings (after-market) | — | — | — |
-| **~Apr 22-25** | **EGBN Q1 earnings** (date unconfirmed) | CRE provisions, DC/GovCon, capital | Capital raise = 🔴. **Earnings prep grade C — needs work.** | PROME |
-| **Apr 23-24** | **BOJ meeting — hike live (~40-45%)** | Rate decision, Ueda presser | Hike → CLO stress → BDC → bank fund finance (Ch 4) | SAM, LIQUID |
-| **Apr 20 ✅** | **ZION Q1: EPS $1.56 beat, Rev $849M miss ($12M), NII $662M miss ($14M)** — resolved | Full synthesis → `ZION/Q1_2026_ANALYSIS.md`. NDFI $2B flat 5yr (cohort floor). FHLB -87% QoQ (decline camp, cohort bifurcation 3/3). Reclass leasing→C&I. CRE nonaccruals -28% YoY. AOCI -$1.935B live. MUNI corrected to $4.27B. | Tape -1.6% AH to $62.01. Clean-name mild fade pattern. Score 14→~8-9. | REGINALD |
+| **TBD May** | **ROAD to Housing Act House vote** | Section 901 (350-home / 7-yr forced-divest) survival post 76-lawmaker bipartisan letter Apr 22; drafting errors decreasing FHA MF limits below current law. | **76 signatories ≠ 218 majority** but bipartisan opposition reduces probability Sec 901 passes in current form. Watch House leadership signaling. Per SIG-W-20260429-005. Bearish MF refi/takeout 2026-2027 if as-written. | CREED, BROCK, REGINALD |
+| **~May 1-10** | **Q1 Call Report filings (FFIEC)** 🔴 | MI3 ratios, NDFI, AOCI detail, CRE DQ by category, TDR/mods. **NEW for OZK:** RESG classified detail, specific reserves on problem credits (validate Thread 1 EL estimates). **NEW for VLY:** charge-off composition + ACL build/release (verify "provisions-mask-deterioration" Q1 framing). **NEW for EGBN:** MI3 trajectory post strategic-de-risk announcement. | WAL MI3 ≥25% = acceleration. CFG NDFI reconciliation to Slide 24 $19.6B prelim. **More important than earnings for thesis.** | PROME, REGINALD |
+| **May 6** | **APO Q1 earnings** (pre-market, 8:30 AM ET webcast) | Atlas SP segment disclosure; warehouse book size; any non-bank servicer counterparty commentary | Atlas SP = dominant warehouse provider to stressed non-bank mortgage servicers ($6.9B at PFSI = 78% concentration). Adds to existing APO stack (MFS fraud, First Brands, Epstein May 21, Athene). | REGINALD, CARL |
+| May 12 | WAL Investor Day | Management response to thesis vectors. Indirect IQHQ commentary possible (WAL has separate relationship?) | — | PROME |
+| **May 15** | **KRE $70P expiry** | Position management | Roll/close decision needed by ~May 8 | FORGE |
+| ~Mid-May | FDIC Quarterly Banking Profile | Aggregate CRE DQ, NDFI growth, provision trends | NDFI still +35% YoY = doubling down | PROME |
+| May 21 | APO class action deadline | PC sector headline risk | — | BROCK |
 
 ## MAY
 
