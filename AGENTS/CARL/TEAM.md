@@ -33,7 +33,7 @@
 | **Apr 21** | SYF Q1 earnings — NCO >6%? CRL-12 test. HY OAS complacency test #2. Apply ALLY composition-masking framework (KB-CARL-225, 228). | CARL direct | EARNINGS WATCH |
 | **Apr 21** | COF Q1 earnings — apply ALLY framework (domestic card + auto book) | CARL direct | EARNINGS WATCH |
 | **Apr 23** | AXP Q1 earnings — apply ALLY framework | CARL direct | EARNINGS WATCH |
-| **Apr 29** | PayPal Q1 2026 — first report under new CEO (Lores) | PHAN | EARNINGS WATCH |
+| **May 5** | PayPal Q1 2026 — first report under new CEO (Lores). Consensus EPS $1.27 / rev $8.29B. SCHEDULE CORRECTION May 1 (was incorrectly listed Apr 29). | PHAN | EARNINGS WATCH |
 | **May 6** | Uber Q1 + DoorDash Q1 — driver count QoQ post-gas-squeeze | GIG | EARNINGS WATCH |
 | **May 7** | **Dave Q1 (28DPD, GIG-P01 test) + Lyft Q1 + Affirm Q3 FY2026 (ALLY analog May 7 test)** | GIG, PHAN | EARNINGS WATCH — triple event |
 | **~May 18** | Klarna Q1 2026 est (first full quarter post-FY-loss) | PHAN | EARNINGS WATCH |
