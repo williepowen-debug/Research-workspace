@@ -19,7 +19,7 @@
 
 | Name | Ticker | Why | Trigger |
 |------|--------|-----|---------|
-| **Wells Fargo** | WFC | **$59.7B warehouse/fund-finance = 2x next bank.** Nobody discusses WFC as a PC play. Third leg of trade architecture (APO structural + ARCC credit + WFC transmission). | Q1 earnings filed mid-Apr — **DATA NOT YET MINED** (Tier-3 BROCK task overdue from LESSONS #5). Pull WFC/JPM/BofA/Citi 10-Qs for PC quantification. |
+| **Wells Fargo** | WFC | Q1 2026 self-disclosure (Apr 14): **$36.2B PC** of $210B NBFI (21% of total loans), 98% first-lien, AA-equivalent, advance rate <60%. **Software collateral 17% = ~$6.2B** = direct bank→portfolio-co linkage. JPM-BAC-Citi peers also disclosed (KB-BRK-136, total $128B at top 4). | **Cascade resolved** (LESSONS #5). Mgmt frame uniformly bullish — quantification ITSELF is the signal. Watch for first PC-driven loss disclosure or charge-off. WFC software exposure = catalyst if Pluralsight/CivicPlus/Medallia distressed marks deepen. |
 | **Ares Management** | ARES | Q1 tender data still UNREPORTED as of May 1. Stock rallied +17% to $119.80 on OWL fee-economics print spillover. Town hall (Mar 11) old data. Weinstein buying. Aspida insurance sub under-researched. | Tender disclosure (overdue, hasn't published). ARES Q1 earnings expected ~early-mid May. |
 | **KKR (Global Atlantic)** | KKR | Same insurer-captive structure as APO/Athene. **Deep dive complete:** $219B AUM, $12.2B funding agreements (+71% YoY — fastest in sector), surplus 7.9% (5.5x better than Athene). Same DNA, less advanced. Building Athene 2.0 on faster timeline. | Upgrade triggers: FA >$25B, surplus <5%, NAIC action on affiliated reinsurance. |
 | **BlackRock (HLEND)** | BLK (vehicle private) | Gated in year 1. 19% software. Reserves in software bonds. BlackRock name = narrative-defining. | No direct trade — confirms cascade |
@@ -28,12 +28,13 @@
 
 ## TIER 3 — Transmission Mechanism (Bank Exposure)
 
-| Name | Ticker | Why | Exposure | Trigger |
-|------|--------|-----|----------|---------|
-| **JPMorgan** | JPM | Already acting: marked down software, restricting back-leverage. Actions force others. | $22.2B | Their moves = leading indicator |
-| **Deutsche Bank** | DB | First to disclose €26B (~$30B). Forces transparency cascade. | ~$30B | Q1 earnings late Apr |
-| **BofA** | BAC | #2 behind WFC (promoted to Tier 2). | $33.2B | Q1 earnings |
-| **PNC** | PNC | #3 bank exposure. Regional = concentrated risk. | $29.5B | Q1 earnings |
+| Name | Ticker | Why | Exposure (Q1 2026 self-disclosed unless noted) | Trigger |
+|------|--------|-----|------|---------|
+| **JPMorgan** | JPM | Already acting: marked down software, restricting back-leverage. Q1 disclosed PC. | **$50B PC of $160B core NBFI** (KB-BRK-136). FFIEC Q4 2025 NBFI $237.8B. | Their actions force others; first PC charge-off disclosure |
+| **Deutsche Bank** | DB | First mover in disclosure cascade — Mar 12 €26B forced US bank disclosures. | ~$30B (€26B) | Q1 earnings late Apr |
+| **BofA** | BAC | "Structural insulation from first-loss." | **$20B PC** disclosed Q1 (KB-BRK-136). FFIEC Q4 2025 NBFI $193.6B. | First PC loss recognition |
+| **Citi** | C | 100% securitized, 98% IG. PC ≠ NBFI gap large. | **$22B PC of $127B NBFI** (Y-9C 4Q25, KB-BRK-136). | First PC charge-off |
+| **PNC** | PNC | #3 super-regional bank exposure. Regional = concentrated risk. FFIEC NBFI $65.8B. | Not yet self-disclosed for Q1 | Q1 10-Q mid-May |
 
 ---
 
@@ -110,3 +111,4 @@ Partially uncorrelated. Mutually reinforcing if 2+ fire together.
 | 2026-05-01 | **Blackstone added to Tier 5** as "bifurcation poster child." $400M sponsor backstop on BCRED demonstrates top-tier survives. NOT a trade target — confirms bull case for top-tier alts. | KB-BRK-127 |
 | 2026-05-01 | **OWL re-framed at Tier 5** with LESSONS #11 split-read framework. FRE economics ≠ lending economics. Bulls priced FRE; bears live in DL data. Apply to all alt-mgr Q1 reads. | OWL Q1 Apr 30 read |
 | 2026-05-01 | **WFC bank Q1 data overdue.** Bank earnings filed mid-April; PC quantification not yet mined. Promote when data is in. | LESSONS #5 cascade overdue |
+| 2026-05-01 | **LESSONS #5 cascade RESOLVED.** Top 4 US banks self-quantified PC exposure in Q1 calls (Apr 14-15): JPM ~$50B, BAC ~$20B, Citi $22B, WFC $36.2B = $128B total. WFC: 17% software collateral = ~$6.2B direct bank→portfolio-co linkage. Mgmt frame uniformly bullish — quantification IS the signal regardless. Tier 3 banks updated with self-disclosed numbers (KB-BRK-136). | Bank Q1 2026 earnings transcripts Apr 14-15 |

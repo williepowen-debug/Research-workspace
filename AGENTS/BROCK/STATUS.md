@@ -140,6 +140,27 @@ Blue Owl reported Apr 30 and the stock SURGED, dragging the alt-manager complex 
 
 ---
 
+## 🔴 NEW: BANK PC QUANTIFICATION CASCADE RESOLVED (Apr 14-15)
+
+**LESSONS #5 played out:** DB's Mar 12 €26B disclosure forced top 4 US banks to self-quantify PC exposure on Q1 earnings calls. **$128B disclosed at top 4 alone.**
+
+| Bank | PC Disclosed | NBFI | Mgmt Frame |
+|------|--------------|------|------------|
+| **JPM** | ~$50B | $160B core NBFI (PC = leveraged loan investors subset) | Senior, advance rates, sector caps |
+| **BAC** | ~$20B | (not disclosed) | "Structural insulation from first-loss" |
+| **Citi** | $22B | $127B (Y-9C 4Q25) | 100% securitized, 98% IG, <1% to BDCs |
+| **WFC** | $36.2B | $210B | 98% first-lien, AA-equivalent, advance <60%; **17% software = ~$6.2B** |
+
+**Read:** The QUANTIFICATION is the signal regardless of the bull framing. Three insights:
+
+1. **Cascade as predicted** (LESSONS #5). Took 4-5 weeks from DB to all four. The first-mover hypothesis confirmed — DB's disclosure forced the rest.
+2. **Definitional gap.** Banks define "PC" narrower than FFIEC NBFI. WFC self-discloses $36.2B PC vs BROCK's prior FFIEC frame of $59.7B / $212B NBFI. The wider definition includes warehouse lending to non-PC asset managers.
+3. **WFC software collateral ($6.2B)** is the direct bank→portfolio-company linkage. If Pluralsight / CivicPlus / Medallia stress, WFC books absorb directly.
+
+[CONF] Bloomberg Apr 14; Motley Fool May 1 consolidation; bank Q1 2026 earnings transcripts (KB-BRK-136)
+
+---
+
 ## 🟠 PERSISTENT DETAIL — Apr 10 backdrop
 
 13 gates / >$10B trapped / -$265B PE-mgr cap / 26% DL software ($103.7B BDC, $38B 2028 maturity peak) / 94% distressed exchanges / FSK Baa3→Ba1 / Marks memo Apr 9 / S&P+JPM short product. Full citations in `domain/sources/STATUS_ARCHIVE_APR10.md`.
@@ -170,6 +191,8 @@ Blue Owl reported Apr 30 and the stock SURGED, dragging the alt-manager complex 
 | ARCC spillover | **$988M** (~$1.50/sh = ~3qtr div cushion) | 🟢 (bull) | [CONF] ARCC Apr 28 |
 | OBDC Q1 release | **May 6** post-close | 🔴 watch | [CONF] BlueOwl IR |
 | FSK Q1 release | **May 11** (rescheduled from May 6 Apr 28) | 🔴 watch | [CONF] FSK 8-K Apr 28 |
+| Top 4 US bank PC self-disclosure | **$128B** (JPM 50, BAC 20, Citi 22, WFC 36.2) | 🔴 NEW | [CONF] Q1 transcripts Apr 14-15 |
+| WFC software collateral (PC book) | **~$6.2B** (17% of $36.2B) | 🔴 NEW | [CONF] WFC Q1 transcript |
 
 ---
 
@@ -184,7 +207,7 @@ Blue Owl reported Apr 30 and the stock SURGED, dragging the alt-manager complex 
 | Default rates | 🔴 (4) | Fitch 5.8% / Cohort 9.2% | Q1 print >7% reported | Feb 2026 |
 | Athene/insurance | 🟠 (3) | Treasury convening insurance regs | RBC breach OR APO related-party sale forced | Apr 24 |
 | Software sector marks | 🔴 (4) | $103.7B exposure, $46.9B distressed pile (tech loans) | Forced markdown event in 10-Qs | Apr 6 |
-| Bank warehouse lines | 🟠 (3) | DB €26B disclosure; JPM/BofA/Citi 2-4 wk window from Mar 12 (now overdue) | Major US bank PC quantification | Apr 10 |
+| Bank warehouse lines | 🔴 (4) | $128B disclosed at JPM/BAC/Citi/WFC + DB €30B (KB-BRK-136). Mgmt bullish framing; quantification itself is the signal. WFC software $6.2B = direct linkage. | First bank PC loss disclosure or default-driven write-down | May 1 |
 | Regulatory action | 🔴🔴 (5) | SEC + Treasury + Fed formal probe with subpoena power | First enforcement filing | Apr 24 |
 | Mainstream narrative | 🟠 (3) | **WHIPSAWED** — Apr 10 peak bearish (Marks memo), late-Apr bulls returned | Fortune/Bloomberg cover-story re-engagement | Apr 30 |
 
@@ -217,7 +240,7 @@ Blue Owl reported Apr 30 and the stock SURGED, dragging the alt-manager complex 
 
 ## BOTTOM LINE
 
-**APO breached $130 today (May 1, $131.20 close) — Day 1 of 3 sustained position-kill rule.** Day 3 = May 5; OBDC 10-Q lands May 6 post-close. Trigger fires the day OBDC reports. Do not pre-close puts before OBDC reads. **ARCC Q1 (Apr 28)** was contained bear-confirm with $988M spillover cushion (~3qtr div), BRK-22 conf 70→60. **OWL Apr 30 fee-economics rally** (+11.8% in 2 sessions) dragged complex up: APO +7.3%, ARES +8.1%, BX +6.0%. HY OAS 283bps (Apr 30) — 23bps from 260 thesis-kill (sustained 10+). **OBDC May 6 = decision point** (gate mechanics, software, National Dentex marks at scale). **FSK May 11.** Watch order: OBDC > APO trigger D2/D3 > FSK > GCRED/OTF.
+**APO breached $130 today (May 1, $131.20 close) — Day 1 of 3 sustained position-kill rule.** Day 3 = May 5; OBDC 10-Q lands May 6 post-close. Trigger fires the day OBDC reports. Do not pre-close puts before OBDC reads. **OBDC pre-build ready** (`domain/sources/OBDC_PREBUILD_MAY06.md`) with bull/mixed/bear/max-bear branches. **ARCC Q1 (Apr 28)** was contained bear-confirm with $988M spillover cushion (~3qtr div), BRK-22 conf 70→60. **OWL Apr 30 fee-economics rally** (+11.8% in 2 sessions) dragged complex up: APO +7.3%, ARES +8.1%, BX +6.0%. HY OAS 283bps (Apr 30) — 23bps from 260 thesis-kill (sustained 10+). **NEW (May 1):** LESSONS #5 cascade resolved — $128B disclosed PC at JPM/BAC/Citi/WFC in Q1 calls; WFC $6.2B software collateral = direct bank→portfolio-co linkage. **OBDC May 6 = decision point.** Watch order: OBDC > APO trigger D2/D3 > FSK > GCRED/OTF.
 
 ---
 
@@ -238,9 +261,9 @@ Blue Owl reported Apr 30 and the stock SURGED, dragging the alt-manager complex 
 
 **Tier 3 — Slow refreshes:**
 - VX-BRK-010 BDC NAV discount (39 days stale)
-- JPM/BofA/Citi PC quantification (OVERDUE since Mar 12)
+- [x] JPM/BofA/Citi/WFC PC quantification (RESOLVED May 1 — $128B disclosed, KB-BRK-136 / outbox to REGINALD)
 - BRK-09 HRZN merger close verification
-- Phase 5 NAMES/TRADE tier reassessment
+- [x] Phase 5 NAMES/TRADE tier reassessment (May 1 commit 52ea267a)
 
 **Tier 4 — Adaptive priority shifters (drop everything if any fires):**
 - HY OAS 260 sustained → BRK-28 thesis-kill | **283bps Apr 30, 23bps away**
