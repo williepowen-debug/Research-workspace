@@ -114,6 +114,7 @@ BOARD_LOG: 105 lines, 98 dispositions logged, **diff-clean against INDEX as of A
 
 ## URGENT
 
+- **⚠️ PUSH PENDING (May 1 commit 959dbc19)** — could not push at session end because: (1) BROCK had uncommitted modifications + untracked outbox files outside my directory, (2) origin had diverged (BRENT pushed 16f0a69b after my session work). Per CARL git protocol Option B: committed locally, deferred push. Next CARL session: if working tree clean outside CARL → `git pull --rebase` then `git push` to deliver this commit + any later commits. If still other-agent uncommitted work, continue deferring and flag to Will.
 - **AAA pump $4.50 threshold breach likely May 2-5** — daily refresh; if breach + 2-week hold = CRL-08 CONFIRMED.
 - **Iran cluster live, WPR deadline today (May 1)** — admin "terminated" claim vs Democrat pushback unresolved; peace proposal in Pakistani mediation but markets discounting low acceptance probability.
 - **Vector #12 (Stagflation Trap) is the most actively re-loading vector** — reinforced 3 times May 1 (GDP NIPA + ISM Prices Paid + pump acceleration); ISM Prices Paid 84.6 leads CPI 3-6mo, suggests Q3 CPI re-acceleration loading.
