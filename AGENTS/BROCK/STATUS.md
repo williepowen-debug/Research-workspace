@@ -1,7 +1,26 @@
 # BROCK STATUS — Private Credit / BDC / Alt Assets
-**Updated:** 2026-05-01 (boot + Q1 10-Q wave kickoff) | **Status:** 🔴🔴🔴 STAGE 2 PERSISTS — NARRATIVE WHIPSAW + Q1 PRINTS NOW LANDING
+**Updated:** 2026-05-01 EOD (live tape pull post-OWL rally) | **Status:** 🔴🔴🔴 STAGE 2 PERSISTS — APO BREACHED $130 (D1 OF 3)
 
 **Previous:** 2026-04-10 16:15 ET (STAGE 2→3, Carlyle gates + Howard Marks memo + short product) — archived to `domain/sources/STATUS_ARCHIVE_APR10.md`
+
+---
+
+## 🔴🔴 LIVE TAPE — MAY 1 CLOSE: APO BREACHED $130 (D1 OF 3)
+
+**APO closed $131.20** (+1.9% session, +7.3% in 2 sessions). **Day 1 of $130 sustained-3 position-kill trigger.** Day 3 = May 5 close. **OBDC Q1 10-Q drops May 6 post-close** — kill rule fires the day OBDC reports.
+
+| Ticker | Apr 29 | Apr 30 | May 1 | 2-day Δ | Read |
+|--------|--------|--------|-------|---------|------|
+| APO | $122.28 | $128.72 | **$131.20** | +7.3% | 🔴 **D1 of 3** above $130 trigger |
+| ARES | $110.86 | $117.40 | $119.80 | +8.1% | rally extended |
+| BX | $119.83 | $125.58 | $127.04 | +6.0% | rally extended |
+| OWL | $8.88 | $9.75 | $9.93 | +11.8% | print priced |
+| BIZD | $12.76 | $13.15 | $13.31 | +4.3% | grinding |
+| HY OAS | — | **283bps** | — | flat | 23bps from 260 thesis-kill |
+
+**Catalyst:** Apr 30 OWL Q1 print. Bears rolled over 2 sessions; bull narrative re-cemented across complex.
+
+**Decision asymmetry:** If APO closes >$130 May 4 + May 5 (Mon/Tue), trigger fires at the close that immediately precedes OBDC 10-Q drop. Position-kill rule and next major bear catalyst collide within 24hrs. Either OBDC re-arms the bear thesis (fade the trigger fire) or confirms the bull thesis (act on the trigger). **Do not pre-close APO puts before OBDC reads.**
 
 ---
 
@@ -61,12 +80,12 @@
 
 | Ticker | Apr 10 STATUS | May 1 | Δ | [CONF] |
 |--------|---------------|-------|---|--------|
-| APO | $106 | **$123.18** | **+16%** | [CONF] Yahoo/CNN May 1 |
-| OWL | $8.16 | **$9.96** | **+22%** | [CONF] May 1 |
-| ARES | $102 | **$111.01** | **+9%** | [CONF] May 1 |
-| BX | (n/a) | **$110.61** (+4.27% session) | — | [CONF] May 1 |
-| BIZD | $12.36 | **~$12.70** | +3% | [CONF] late-April quote |
-| HY OAS | 312bps | **~285bps** | **-27bps** | [CONF] FRED Apr avg |
+| APO | $106 | **$131.20** 🔴 | **+24%** | [CONF] yfinance May 1 close |
+| OWL | $8.16 | **$9.93** | **+22%** | [CONF] yfinance May 1 close |
+| ARES | $102 | **$119.80** | **+17%** | [CONF] yfinance May 1 close |
+| BX | (n/a) | **$127.04** | — | [CONF] yfinance May 1 close |
+| BIZD | $12.36 | **$13.31** | +8% | [CONF] yfinance May 1 close |
+| HY OAS | 312bps | **283bps** | **-29bps** | [CONF] FRED Apr 30 |
 
 **Read:** Credit spreads compressed AND alt-manager equity rallied AND gates kept hitting AND regulators escalated. This divergence has tension. Either it resolves down (bear thesis wins via 10-Qs / fire sale) or up (gates absorbed, BX-style cap upsize becomes industry template).
 
@@ -136,10 +155,12 @@ Blue Owl reported Apr 30 and the stock SURGED, dragging the alt-manager complex 
 | OWL Q1 DL strategy return | **-1.1%** for quarter | 🔴 NEW | [CONF] Apr 30 transcript |
 | OWL Q1 net deployment (DL) | **-$0.5B** (repayments > originations) | 🔴 NEW | [CONF] Apr 30 |
 | OWL AUM | **$314.9B** record | 🟢 (bull) | [CONF] Apr 30 |
-| APO May 1 | **$123.18** (+16% from Apr 10) | 🟢 (bull) | [CONF] May 1 |
-| OWL May 1 | **$9.96** (+22% from Apr 10) | 🟢 (bull) | [CONF] May 1 |
-| HY OAS | **~285bps** (-27 from Apr 10) | 🟢 (bull) | [CONF] FRED Apr avg |
-| BIZD | **~$12.70** | 🟡 (flat) | [CONF] late-Apr |
+| APO May 1 close | **$131.20** 🔴 D1 of 3 above kill | 🟢🔴 (bull thru trigger) | [CONF] yfinance May 1 |
+| OWL May 1 close | **$9.93** (+22% from Apr 10) | 🟢 (bull) | [CONF] yfinance May 1 |
+| ARES May 1 close | **$119.80** (+17% from Apr 10) | 🟢 (bull) | [CONF] yfinance May 1 |
+| BX May 1 close | **$127.04** (+15% from STATUS) | 🟢 (bull) | [CONF] yfinance May 1 |
+| HY OAS | **283bps** (Apr 30, -29 from Apr 10) | 🟢 (bull, 23bps from kill) | [CONF] FRED |
+| BIZD | **$13.31** (+8% from Apr 10) | 🟡 (mild bull) | [CONF] yfinance May 1 |
 | SEC + Treasury + Fed formal probe | Multi-agency, valuation focus, subpoena power | 🔴🔴🔴 | [CONF] Apr 24 |
 | BDC retail sales YoY | **-40%** (sharpest contraction in sector history) | 🔴 | [CONF] FinancialContent Apr 6 |
 | Apollo Debt Solutions Q1 | 11.2% requests, ~$730M honored at 5% (45% of asks met) | 🔴 | [CONF] WealthMgmt |
@@ -179,7 +200,7 @@ Blue Owl reported Apr 30 and the stock SURGED, dragging the alt-manager complex 
 - Major private credit fund reports default rate declining 2 consecutive quarters
 
 ### 2. Position-Specific
-- APO reclaims $130 sustained (3+ sessions) → reassess puts | **CURRENT $123.18, $7 below trigger**
+- APO reclaims $130 sustained (3+ sessions) → reassess puts | **🔴 D1 OF 3 — May 1 close $131.20. D2/D3 = May 4/5. Coincides with OBDC 10-Q (May 6).**
 - BCRED redemptions fall below 2% for 2 consecutive quarters → gate thesis dead
 - BDC median NAV discount narrows to <10% → market no longer pricing stress
 
@@ -196,7 +217,7 @@ Blue Owl reported Apr 30 and the stock SURGED, dragging the alt-manager complex 
 
 ## BOTTOM LINE
 
-**ARCC Q1 (Apr 28) was a contained bear-confirm with a fat cushion.** Core EPS $0.47 < div $0.48 = first uncovered quarter; non-accruals +30bps to 2.1%; NAV -1.76% (mostly multiple compression). But $988M spillover (~3 quarters of dividend) + soft-prime mgmt language + AI-risk consultant report ("0.3% high risk") gave bulls a defensible read. **BRK-22 confidence drops 70→60%.** The bigger tests come **OBDC May 6** (gate mechanics, software exposure, National Dentex at scale) and **FSK May 11** (rescheduled — informational flag). LESSONS #11 (fee vs lending split) is now structural to the read framework. BRK-27 (NAV markdown >5%) had no fire on ARCC — 6 candidates remain. APO $130 trigger $7 away; HY OAS 260 trigger 25bps away — both still proximity-killable. **Watch order: OBDC > FSK > GCRED/OTF.**
+**APO breached $130 today (May 1, $131.20 close) — Day 1 of 3 sustained position-kill rule.** Day 3 = May 5; OBDC 10-Q lands May 6 post-close. Trigger fires the day OBDC reports. Do not pre-close puts before OBDC reads. **ARCC Q1 (Apr 28)** was contained bear-confirm with $988M spillover cushion (~3qtr div), BRK-22 conf 70→60. **OWL Apr 30 fee-economics rally** (+11.8% in 2 sessions) dragged complex up: APO +7.3%, ARES +8.1%, BX +6.0%. HY OAS 283bps (Apr 30) — 23bps from 260 thesis-kill (sustained 10+). **OBDC May 6 = decision point** (gate mechanics, software, National Dentex marks at scale). **FSK May 11.** Watch order: OBDC > APO trigger D2/D3 > FSK > GCRED/OTF.
 
 ---
 
@@ -222,8 +243,8 @@ Blue Owl reported Apr 30 and the stock SURGED, dragging the alt-manager complex 
 - Phase 5 NAMES/TRADE tier reassessment
 
 **Tier 4 — Adaptive priority shifters (drop everything if any fires):**
-- HY OAS 260 sustained → BRK-28 thesis-kill
-- APO sustained $130+ → BRK-28 position-kill
+- HY OAS 260 sustained → BRK-28 thesis-kill | **283bps Apr 30, 23bps away**
+- APO sustained $130+ → BRK-28 position-kill | **🔴 D1 OF 3 May 1 close $131.20**
 - Arms-length sub-90¢ BDC loan transaction → BRK-25 Stage 3 catalyst
 - First SEC enforcement filing → BRK-26 Stage 3 catalyst
 - BDC Q1 10-Q markdown >5% → BRK-27 fires
