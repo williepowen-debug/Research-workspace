@@ -165,15 +165,31 @@ The stress is real and continuing — BCRED $3.2B Q1 requests, OWL DL -1.1%, 13 
 
 ## FOLLOW-UP
 
-- [ ] BROCK: **Monitor 10-Q filings daily through May** — flag any markdown >5% on individual portfolio companies
-- [ ] BROCK: Watch HY OAS — 260bps = 1st thesis-kill threshold (currently 285)
-- [ ] BROCK: Watch APO $130 sustained — 1st position-kill threshold (currently 123)
-- [ ] BROCK: First SEC enforcement filing on PC valuation = Stage 3 catalyst
+- [ ] BROCK: **Monitor 10-Q filings daily through May** (BRK-27, 60% conf) — flag any markdown >5% on individual portfolio companies
+- [ ] BROCK: Watch HY OAS — 260bps = 1st thesis-kill threshold (currently 285; BRK-28)
+- [ ] BROCK: Watch APO $130 sustained — 1st position-kill threshold (currently 123; BRK-28)
+- [ ] BROCK: First SEC enforcement filing on PC valuation = Stage 3 catalyst (BRK-26, 55% conf)
+- [ ] BROCK: First arms-length BDC loan transaction <90¢ (BRK-25, 45% conf) — canonical Stage 3 trigger
 - [ ] BROCK: Track JPM/BofA/Citi PC quantification (overdue from Mar 12 disclosure cascade)
-- [ ] BROCK: Refresh BDC NAV median discount (current value 38 days old)
-- [ ] BROCK: Q2 earnings late-April/May = next resolution event
-- [ ] BROCK: Inbox sweep deferred — separate spawn task
+- [ ] BROCK: Refresh BDC NAV median discount (current value 39 days old; VX-BRK-010 flagged)
+- [ ] BROCK: ARCC Q1 earnings due ~early May = test for BRK-22 (raised to 70%)
+- [ ] BROCK: Phase 4 deferred — cross-agent outbox sweep (LIQUID re HY OAS proximity, REGINALD re BX backstop precedent + SEC subpoena, OTTO re OWL Q1 DL, HAWK re Treasury insurance regulator convening)
+- [ ] BROCK: Phase 5 deferred — NAMES.md / TRADE.md tier reassessment given +16-22% rally
+- [x] ~~Inbox sweep~~ — DONE 2026-05-01 (17 signals processed; see `domain/sources/INBOX_TRIAGE_MAY01.md`)
 
 ---
 
-*Archive: `domain/sources/STATUS_ARCHIVE_APR10.md` | KB: 101 entries | VX: 15 vectors | Last full sweep: Apr 10*
+## SESSION LOG
+
+**2026-05-01 catch-up session (5 phases complete):**
+- Phase 1: Inbox triage (17 signals → processed; INBOX_TRIAGE_MAY01.md)
+- Phase 2a-i: KB rows 118-125 (Apr 1-14 events)
+- Phase 2a-ii: KB rows 126-133 (Apr 14-May 1 events)
+- Phase 2b: VX refresh + 3 new vectors (016, 017, 018)
+- Phase 2c: FLOW refresh + 3 new pathways (018, 019, 020)
+- Phase 3: PREDICTIONS — BRK-21 resolved CORRECT; BRK-22 raised 60→70%; new BRK-25/26/27/28
+- Phase 4-5 deferred to next session (cross-agent outbox + NAMES/TRADE)
+
+---
+
+*Archive: `domain/sources/STATUS_ARCHIVE_APR10.md` | Triage: `domain/sources/INBOX_TRIAGE_MAY01.md` | KB: 121 entries | VX: 18 vectors | FLOW: 20 pathways | Predictions: 28 (4 ✅ / 17 OPEN / 1 PARTIAL) | Last full sweep: May 1*
