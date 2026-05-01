@@ -39,8 +39,6 @@
 
 **Pending Will calls:** (a) REG-20 resolution (CONFIRMED or hold); (b) synthesis-files gitignore decision (still blocking 2 WAL Round 2 synthesis files from commit).
 
-**⏳ Pending push:** commit `b7a24d53` (Apr 30 boot cleanup) committed locally but NOT pushed — BRENT had uncommitted work blocking safe pull/push. Try push next session once BRENT done. Branch state at session end: 1 ahead / 2 behind origin/master.
-
 ### CHANGES SINCE LAST SESSION
 *(populated at next boot via market.py)*
 
