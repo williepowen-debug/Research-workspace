@@ -1,5 +1,5 @@
 # BROCK STATUS — Private Credit / BDC / Alt Assets
-**Updated:** 2026-05-01 boot | **Status:** 🔴🔴🔴 STAGE 2 PERSISTS — NARRATIVE WHIPSAW + REGULATORY ESCALATION
+**Updated:** 2026-05-01 (boot + Q1 10-Q wave kickoff) | **Status:** 🔴🔴🔴 STAGE 2 PERSISTS — NARRATIVE WHIPSAW + Q1 PRINTS NOW LANDING
 
 **Previous:** 2026-04-10 16:15 ET (STAGE 2→3, Carlyle gates + Howard Marks memo + short product) — archived to `domain/sources/STATUS_ARCHIVE_APR10.md`
 
@@ -8,9 +8,50 @@
 ## REGIME BLOCK (5-line)
 1. **Default rate trend:** Reported ~1.5%; Fitch PCDR 5.8% trailing / 9.2% 2025 cohort; MS ~8% true distress. **Trending up, not yet inflecting.**
 2. **Gate cascade:** 13+ funds gated, BCRED Q1 $3.7B (7.9% NAV) absorbed via cap upsize + BX/exec personal capital. **Persistent, not accelerating.**
-3. **PIK trend:** GCRED software 24.2%, OTF 74.2% software concentration. **Elevated, no Q1 print yet** (10-Qs land May).
+3. **PIK trend:** ARCC Q1 ~7% PIK (below 5-yr avg, contained). GCRED software 24.2%, OTF 74.2% concentration not yet refreshed. **Top-tier contained, second-tier 10-Qs still pending.**
 4. **BDC NAV median discount:** ~25% (Raymond James Mar 23). **Holding.** Need fresh print.
 5. **Narrative phase:** Bulls re-emerged late April — OWL Q1 beat (Apr 30) sparked rally across alt-managers. "Chaos and bad press" recasting as buy-the-dip. **Stage 2→3 transition stalled, not broken.**
+
+---
+
+## 🔴 NEW: Q1 10-Q WAVE — ARCC FILED APR 28 (CONTAINED), 6 BIGGER TESTS NEXT 10 DAYS
+
+**Catch-up artifact:** May 1 catch-up missed that ARCC filed Apr 28 (3 days before this boot). Calendar reset below. Apply LESSONS #11 (fee vs lending economics split) on every read.
+
+### ARCC Q1 2026 actual (filed 2026-04-28) — moderate confirmation, contained magnitude
+
+| Metric | Q1 2026 | vs Prior | Read |
+|--------|---------|----------|------|
+| NAV/share | **$19.59** | -$0.35 QoQ (-1.76%) / -$0.23 YoY | Mgmt: ⅔ market-driven (multiple compression), ⅓ credit. Below BRK-27 5% threshold. |
+| Core EPS | **$0.47** | < div $0.48 | **First uncovered quarter by core alone.** Coverage achieved via $0.15/sh realized gains + $988M spillover. |
+| Non-accruals (cost) | **2.1%** | +30bps QoQ | Up but below ARCC's 3% post-GFC avg, sector 4%. |
+| Non-accruals (FV) | **1.2%** | flat | Stable — credit not yet inflecting at fair value. |
+| PIK income | **~7%** of int+div | below 5-yr avg | 90% structured at origination, large/well-performing cos. |
+| Spillover income | **$988M** (~$1.50/sh) | n/a | Substantial cushion — ~3 quarters of full dividend coverage from spillover alone. |
+| Software/AI risk | 0.3% high-risk | independent consultant | 85% low risk, 14% medium (3% portfolio), 1% high (0.3%). Defensive framing. |
+| LTM EBITDA growth | ~9% | matches 10-yr avg | Bull-supportive. |
+
+**Mgmt forward language:** "would not be surprised to see credit quality and nonaccruals across the industry revert closer to historical norms" — soft prime, not crisis tone.
+
+**Resolution implications:**
+- **BRK-22 (ARCC dividend cut by Q4 2026, was 70%):** Trajectory partially confirmed (first uncovered quarter), BUT spillover is larger-than-anticipated. **Confidence drop 70 → 60%.** Cushion = ~3 quarters of full dividend even if core goes to zero. Cut requires either core <$0.40 or mgmt policy change.
+- **BRK-27 (>5% NAV markdown, 60%):** ARCC -1.76% — did NOT fire on ARCC. 6 candidates remain.
+- **BRK-21 National Dentex:** ARCC made no disclosure → consistent with Cerberus-not-Thoma-Bravo ownership (LESSONS #13). ARCC absorption either none or below materiality.
+
+### Q1 10-Q calendar — what's left
+
+| Date | Filer | Tests | Conviction priority |
+|------|-------|-------|--------------------|
+| Apr 28 ✅ | ARCC | BRK-22 (partial), BRK-27 (no fire) | filed |
+| Apr 30 ✅ | OWL (alt-mgr) | KB-BRK-126 fee/DL split | filed |
+| ~May 5-7 | GBDC fiscal Q2 (= cal Q1) | BRK-27, software portfolio markdowns | 🟠 |
+| **May 6** | **OBDC** | OCIC+OTIC gate mechanics, deeper National Dentex marks (BRK-21 already CONFIRMED), software exposure | 🔴 highest |
+| **May 11** | **FSK** | BRK-02 (PIK %), BRK-22 framework, non-accrual adds | 🔴 |
+| TBD | GCRED, OTF, Carlyle CTAC, BCRED 10-Q | BRK-27 (forced marks); 24.2%/74.2% software concentration tests | 🔴 |
+
+**FSK informational:** Rescheduled call from May 6 → May 11 (announced Apr 28, same day as ARCC print). Most reschedules are benign audit-timing; flag and watch — no read-through yet.
+
+**Read framework (LESSONS #11):** separate fee from portfolio P&L (ARCC=spillover/gains backstop, OWL=FRE-up/DL-down) | NAV >5% → BRK-27 fires | non-accrual delta > level | mgmt tone shift = signal.
 
 ---
 
@@ -80,18 +121,9 @@ Blue Owl reported Apr 30 and the stock SURGED, dragging the alt-manager complex 
 
 ---
 
-## 🟠 PERSISTENT DETAIL CARRIED FROM APR 10 STATUS
+## 🟠 PERSISTENT DETAIL — Apr 10 backdrop
 
-(Still valid, not refreshed individually — see archive for full citations)
-
-- **13 fund gates** confirmed across cycle (Apollo, Ares, Blue Owl OCIC/OTIC/OBDCII, Barings, Carlyle, Cliffwater, KKR, BCRED, FSK, PennantPark, Runway)
-- **>$10B trapped capital** behind gates (Bloomberg Mar 26)
-- **PE manager market cap loss -$265B** since Sep 2025
-- **Software 26% of direct lending; $103.7B BDC software exposure; $38B 2028 maturity peak**
-- **Distressed exchanges 94% of defaults** (12mo to Feb 2026, DBRS)
-- **FSK junked** (Baa3→Ba1, Moody's Mar 23)
-- **Howard Marks memo Apr 9** — narrative authority validated
-- **Wall Street short product (S&P + JPM)** — bearish infrastructure available
+13 gates / >$10B trapped / -$265B PE-mgr cap / 26% DL software ($103.7B BDC, $38B 2028 maturity peak) / 94% distressed exchanges / FSK Baa3→Ba1 / Marks memo Apr 9 / S&P+JPM short product. Full citations in `domain/sources/STATUS_ARCHIVE_APR10.md`.
 
 ---
 
@@ -111,7 +143,12 @@ Blue Owl reported Apr 30 and the stock SURGED, dragging the alt-manager complex 
 | SEC + Treasury + Fed formal probe | Multi-agency, valuation focus, subpoena power | 🔴🔴🔴 | [CONF] Apr 24 |
 | BDC retail sales YoY | **-40%** (sharpest contraction in sector history) | 🔴 | [CONF] FinancialContent Apr 6 |
 | Apollo Debt Solutions Q1 | 11.2% requests, ~$730M honored at 5% (45% of asks met) | 🔴 | [CONF] WealthMgmt |
-| Q1 10-Q filings | **Begin landing this week** — forced marks | 🟠 → potential 🔴 | calendar |
+| ARCC Q1 NAV | **$19.59** (-1.76% QoQ) | 🟢 (contained) | [CONF] ARCC 10-Q Apr 28 |
+| ARCC Q1 core EPS | **$0.47** vs div $0.48 (first uncovered) | 🟠 | [CONF] ARCC 10-Q Apr 28 |
+| ARCC non-accrual cost | **2.1%** (+30bps QoQ) | 🟠 | [CONF] ARCC 10-Q Apr 28 |
+| ARCC spillover | **$988M** (~$1.50/sh = ~3qtr div cushion) | 🟢 (bull) | [CONF] ARCC Apr 28 |
+| OBDC Q1 release | **May 6** post-close | 🔴 watch | [CONF] BlueOwl IR |
+| FSK Q1 release | **May 11** (rescheduled from May 6 Apr 28) | 🔴 watch | [CONF] FSK 8-K Apr 28 |
 
 ---
 
@@ -159,7 +196,7 @@ Blue Owl reported Apr 30 and the stock SURGED, dragging the alt-manager complex 
 
 ## BOTTOM LINE
 
-The stress is real and continuing — BCRED $3.2B Q1 requests, OWL DL -1.1%, 13 gates, SEC subpoena-power probe — but the **price action and credit spreads disagree**, and bulls are using OWL's Apr 30 FRE beat to recast the narrative. This is the dangerous middle phase: gates persist, fundamentals decay, but mark-to-model accounting + sponsor backstops + fee-economics earnings beats keep equity prices buoyant. **The single most important thing to watch this week: Q1 10-Q filings starting May 1.** Forced marks in 10-Qs are the asymmetric event — if any major BDC writes down a software/AI position more than ~5%, the bull rally fails fast. APO $130 trigger is $7 away; HY OAS 260 trigger is 25bps away. Both proximity-killable in a 2-week window.
+**ARCC Q1 (Apr 28) was a contained bear-confirm with a fat cushion.** Core EPS $0.47 < div $0.48 = first uncovered quarter; non-accruals +30bps to 2.1%; NAV -1.76% (mostly multiple compression). But $988M spillover (~3 quarters of dividend) + soft-prime mgmt language + AI-risk consultant report ("0.3% high risk") gave bulls a defensible read. **BRK-22 confidence drops 70→60%.** The bigger tests come **OBDC May 6** (gate mechanics, software exposure, National Dentex at scale) and **FSK May 11** (rescheduled — informational flag). LESSONS #11 (fee vs lending split) is now structural to the read framework. BRK-27 (NAV markdown >5%) had no fire on ARCC — 6 candidates remain. APO $130 trigger $7 away; HY OAS 260 trigger 25bps away — both still proximity-killable. **Watch order: OBDC > FSK > GCRED/OTF.**
 
 ---
 
@@ -167,15 +204,16 @@ The stress is real and continuing — BCRED $3.2B Q1 requests, OWL DL -1.1%, 13 
 
 **👉 Authoritative plan: `domain/sources/NEXT_SESSION_PLAN_MAY01.md`** — read this first at next boot.
 
-Tiered summary (full detail + reasoning in the plan file):
-
 **Tier 1 — Do first (deferred mechanical):**
-- Phase 4 outbox sweep: LIQUID (🔴 HY OAS 260 proximity), REGINALD (BX backstop precedent + SEC subpoena), OTTO (OWL Q1 DL), HAWK (Treasury insurance regs + Athene FHLB)
+- [x] Phase 4 outbox sweep complete (May 1 boot session): LIQUID 🔴 (HY OAS 260 proximity), REGINALD 🟠 (BX backstop precedent + SEC subpoena), OTTO 🟠 (OWL Q1 DL decoupling + LESSONS #11), HAWK 🟡 (Treasury insurance regs + Athene FHLB)
 
-**Tier 2 — Q1 10-Q wave (catalyst window):**
-- ARCC Q1 (~early May) = direct test for BRK-22 (70%); also verify ARCC's National Dentex exposure
-- Broader Q1 sweep — 17 cos in non-accrual+PIK as forced-mark candidates (BRK-27, 60% conf)
-- **Apply LESSONS #11** — separate fee from lending economics
+**Tier 2 — Q1 10-Q wave (NOW LANDING):**
+- [x] ARCC Q1 (Apr 28) read — BRK-22 partial confirm, conf 70→60; BRK-27 no fire; National Dentex undisclosed (consistent w/ Cerberus ownership)
+- **OBDC May 6** = next major test (gates mechanics, software, National Dentex marks at scale)
+- **FSK May 11** (rescheduled from May 6 — informational flag)
+- GBDC fiscal Q2 ~May 5-7
+- Then GCRED / OTF / Carlyle CTAC / BCRED 10-Q (TBD) for BRK-27 forced-mark candidates
+- **Apply LESSONS #11** — separate fee from lending economics on every read
 
 **Tier 3 — Slow refreshes:**
 - VX-BRK-010 BDC NAV discount (39 days stale)
@@ -189,9 +227,6 @@ Tiered summary (full detail + reasoning in the plan file):
 - Arms-length sub-90¢ BDC loan transaction → BRK-25 Stage 3 catalyst
 - First SEC enforcement filing → BRK-26 Stage 3 catalyst
 - BDC Q1 10-Q markdown >5% → BRK-27 fires
-
-**Done this session:**
-- [x] Inbox sweep (17 signals processed; see `domain/sources/INBOX_TRIAGE_MAY01.md`)
 
 ---
 

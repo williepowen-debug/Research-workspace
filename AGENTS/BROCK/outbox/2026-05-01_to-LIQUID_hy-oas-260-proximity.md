@@ -1,0 +1,5 @@
+## 2026-05-01 — To: LIQUID
+**Signal:** HY OAS at ~285bps is 25bps from BROCK's thesis-kill trigger (260, sustained 10+ sessions). You own this trigger.
+**Detail:** STATUS Exit Rule #1 ties BROCK's full PC overlay to HY OAS reverting <260bps for 10+ sessions. We have the proximity data but you own the spread. Late-Apr compression to ~285 (FRED Apr avg) ran alongside fund gates and a multi-agency SEC/Treasury/Fed probe — i.e., spread-tightening is being driven by non-PC flows (alt-mgr fee-economics rally, OWL Q1 +14% FRE on record AUM $314.9B), not by improving credit. **The divergence frame (KB-BRK-129):** gates persistent + DL returns negative + spreads compressing = likely tape-driven decoupling, not regime change. Useful for you to know: a sustained break <260 forces BROCK to exit the overlay even if our other vectors stay 🔴, so a false-tighten could trigger a real trade unwind.
+**Source:** STATUS May 1 dashboard; FRED Apr avg; KB-BRK-126 (OWL Q1) / KB-BRK-129 (divergence frame); STATUS Exit Rule #1
+**Priority:** 🔴
