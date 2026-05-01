@@ -1,5 +1,5 @@
 # MARCO STATUS
-**Last Updated:** 2026-04-22 ET (session 4) | **Status:** 🔴 RED (DHS shutdown ~Day 62-65, FL condo inventory BREACHED 9.1mo, produce spike live, VX-SDL-01 formalized, **TOURISM thread 2 closed — $-at-risk v0 scope locked; DEFERRED.md created**)
+**Last Updated:** 2026-04-23 ET (session 5) | **Status:** 🔴 RED (DHS shutdown ~Day 65-68, Senate reconciliation PASSED, FL condo inventory BREACHED 9.1mo, produce spike live, VX-SDL-01 formalized, **TOURISM thread 2 closed — $-at-risk v0 scope locked; DEFERRED.md created**)
 
 ---
 
@@ -7,7 +7,7 @@
 
 | Indicator | Value | Status |
 |-----------|-------|--------|
-| DHS Shutdown | ~Day 61-64, no resolution. Johnson refusing Senate-passed bill; Thune drafting "skinny" reconciliation for ICE/CBP (target late Apr). Trump Jun 1 deadline. | 🔴 BREACHED |
+| DHS Shutdown | ~Day 65-68. **Senate passed budget resolution 50-48 (Apr 22-23)** unlocking reconciliation for ICE/CBP. House adoption pending. TSA side still unresolved. Trump Jun 1 deadline. | 🔴 BREACHED |
 | TSA Disruption | Callout 6.95-8% nationally (down from 12.35% Mar 27 peak); ATL 24.6%, PHL 21.5% still elevated. 300+ quits confirmed. | 🔴 BREACHED |
 | ICE Raids | Expanding: +58% arrests CA Central Valley, rural MN meatpacking, 14 custody deaths in 2026 | 🔴 BREACHED |
 | FL Net Domestic Migration | 22,517 (93% collapse); Miami domestic migration now **-2.0%** — worse than pre-COVID NYC (Kolko/Census to Jul 2025) | 🔴 BREACHED |
@@ -28,7 +28,7 @@
 **Tier 1 — do first:**
 1. ✅ **TOURISM thread 2 closed** (2026-04-22, 5-pass strategy room, first thread under formalized ROOMS protocol). $-at-risk model v0 scope locked: monthly native, leisure-only + cruise sub-category, Canadian-driven $ hole only (option a), mixed-grid native. 2 DEFERRED entries (REGINALD spatial, HOUSING snowbird). **Next TOURISM touchpoint = TOURISM's own commits** (2026-04-28 data source hierarchy + cruise TDT-stitch + county-TDT audit; 2026-05-05 uncertainty rep + origin attribution). No MARCO thread needed until TOURISM delivers.
 2. **Outfit BORDER + WORKFORCE next.** Use TOURISM's `CLAUDE.md` + `thread.md` + `threads/archive/` as template. These two sub-agents have the hottest live signals (DHS shutdown, H-2A, SDL-01 transmission) — outfit them before MIGRATION/HOUSING. ROOMS protocol mirror (Signal vs Strategy template split, strategy response template) should be baked into their `CLAUDE.md` from day one — no separate session-3-style retrofit needed.
-3. **DHS reconciliation text check — weekly cadence.** Last check 2026-04-20 (no text, budget resolution precursor only, Johnson target slipped, $75B OBBBA cushion insulates ICE). Next due ~2026-04-27. Monitor congress.gov + `budget.senate.gov`. Jun 1 Trump deadline is the binding cliff.
+3. **DHS reconciliation text check — weekly cadence.** Last check 2026-04-23 (**Senate budget resolution PASSED 50-48**). House adoption pending; Trump Jun 1 deadline. ICE now operationally insulated ($75B OBBBA + $70B reconciliation = no funding constraint through 2028). Next check ~2026-04-30. Monitor congress.gov + `budget.senate.gov`.
 4. **Track TOURISM solo-work commits.** 2026-04-28 deliverable = data source hierarchy + county-TDT audit (Monroe/Collier/Pinellas/Miami-Dade/Orange) + cruise TDT-stitch methodology. 2026-05-05 = uncertainty representation + origin-attribution methodology. MARCO picks up on delivery, updates STATUS + routes results to REGINALD/CARL as appropriate.
 
 **Tier 2 — important, not urgent:**
@@ -69,17 +69,16 @@
 
 ## ACTIVE SITUATIONS
 
-### DHS Shutdown (~Day 61-64, 🔴 CRITICAL — LONGEST EVER, NO RESOLUTION)
-- **~2 months in.** Day count ambiguous across sources (Fox Apr 16 = Day 60 → Day 64 today; MARCO prior Day 59 Apr 18 → Day 61). 3rd paycheck missed.
-- **Congress returned Apr 13-14 but did NOT advance either bill.**
-  - **House (Johnson) refusing** to floor the Senate-passed DHS-ex-ICE/CBP bill. Floor attention diverted to expiring FISA/spy powers.
-  - **Senate (Thune) drafting "skinny" reconciliation** for 3-year ICE/CBP funding. Target "middle to end of next week" per Johnson (~late Apr).
-  - **Senate GOP losing patience with Johnson** per The Hill/NOTUS. House Freedom Caucus pushing reconciliation over stopgap.
-- **Reconciliation text status (verified 2026-04-20):** No bill text released. Graham/Senate Budget Committee has only "initiated the process of developing a budget resolution" (per Thune/Johnson Apr 1 joint statement) — that's the *precursor* to reconciliation, not the text. Johnson's "end of next week" target (~Apr 17-18) has slipped.
-- **$75B OBBBA cushion insulates ICE** (NPR Apr 13): ICE/CBP already sit on a $75B reconciliation windfall from the One Big Beautiful Bill Act. The skinny reconciliation is a *political* close-the-loop move, not an operational funding emergency. Removes urgency from GOP side → explains shutdown persistence.
-- **New cliff:** Trump set Jun 1 deadline for reconciliation text.
-- **TSA:** Callout 6.95-8% nationally (down from 12.35% Mar 27 peak). ATL 24.6%, PHL 21.5% elevated. 300+ quits confirmed (prior 400+ figure not re-verified). Back pay continues per Mar 31 WH memo.
-- **Bottom line on pressure points:** ICE cushioned, TSA back-paid → *neither side is bleeding operationally*. Pressure is political narrative only. Expect slow grind toward Jun 1, not a breaking-point resolution.
+### DHS Shutdown (~Day 65-68, 🔴 CRITICAL — SENATE BUDGET RESOLUTION PASSED)
+- **~2+ months in.** Longest shutdown ever. 3rd+ paycheck missed.
+- **Senate passed budget resolution 50-48 (Apr 22-23)** after overnight vote-a-rama. Murkowski (AK) and Paul (KY) joined Democrats against. Two senators absent.
+  - **Resolution authorizes ~$70B** for immigration enforcement through Trump's term (~3.5 years). This is the budget resolution that *unlocks* reconciliation — actual legislation still needs drafting by Judiciary + Homeland Security committees.
+  - **House must also adopt** before committees can draft. House GOP already pushing to expand scope — could complicate Johnson's plans. Any House changes → back to Senate → another vote-a-rama.
+  - **Trump deadline: June 1.** Graham/Thune targeting that date.
+- **TSA/DHS-ex-ICE side still unresolved:** Senate-passed DHS bill (funding TSA/FEMA/Coast Guard) remains stuck in House. Johnson refusing to floor it.
+- **ICE now operationally insulated through 2028:** $75B OBBBA cushion + $70B reconciliation authorization = no funding constraint on enforcement intensity. This is an accelerator for SDL-01, not a brake.
+- **TSA:** Callout 6.95-8% nationally (down from 12.35% Mar 27 peak). ATL 24.6%, PHL 21.5% elevated. 300+ quits confirmed. Back pay continues per Mar 31 WH memo.
+- **Bottom line:** Two-track approach formalized. TSA may resolve via regular order if House moves; ICE resolves via partisan reconciliation. ICE enforcement intensity unconstrained → Prediction #26 and SDL-01 transmission remain fully live.
 
 ### ICE Construction Raids (🔴 CRITICAL — EXPANDING TO RURAL AG/MEATPACKING)
 - Rio Grande Valley: 10-15 raids per company. No-warrant raids taking documented + undocumented workers.
@@ -221,7 +220,7 @@
 | → LABOR | 🔴 ICE construction raids = supply shock on demand shock. 1-in-3 foreign-born. Permanent ag data gap. JOLTS 3.1% hires = substitution mechanism broken. Historical analog (Santanna/Xu NBER) confirms substitution requires labor surplus — at UE 4.4% no reserve. **NEW 2026-04-21: H-2A certified 398K (not 415K — that was requested); +9.3% apps YoY, 4.1% backlog. Slaughter monitor shows NO meatpacking labor disruption yet in hog/poultry (cattle drop is herd cycle). Use hog z-score as labor proxy.** |
 | → REGINALD/CORAL | 🟠 FL condo inventory BREACHED 9.1mo (Lee 14.6mo, Miami-Dade ~14.1mo, supply-driven). Collateral deterioration Q2-Q3. Construction raids → housing start delays. Santanna/Xu transmission quantified: 8.2pp house value per 1% Mexican pop drop; 13.3pp permits per 1 SD repatriation. FL triple exposure compounding. Small airport closure risk. **NEW 2026-04-21: SDL-01 concentration is AZ/TX/Midwest meatpacking belt (via Banxico reverse). Phoenix/Tucson/Yuma + Houston/DFW/RGV + Twin Cities/Milwaukee/Indianapolis are the pain cluster for CRE collateral modeling, NOT California.** **NEW 2026-04-21 (TOURISM thread 1): MARCO will deliver county × quarter FL tourism $-at-risk series in ~2-3 weeks (TOURISM priority 2). Winter 2026-27 stress window ($600M-$1.2B FL loss) is the timing input for FL bank Q1-Q2 2027 earnings thesis. Instrument selection (hotel REITs, CMBS names) stays in REGINALD/FORGE lane.** |
 | → CARL | 🔴 Miami domestic migration -2.0% (worse than pre-COVID NYC). COVID population boom reversing. Path C confirmation — housing demand withdrawal, FL dimension. **NEW 2026-04-21: Target CARL consumer stress analysis at AZ/TX/Midwest metros (per Banxico reverse-map), not CA. Top pain: Phoenix, Houston/DFW, Twin Cities, Indianapolis. TX $659M absolute remittance drop = cleanest structural signal.** TSA chaos + spring break disruption continues. |
-| → NEXUS | 🔴 10 breached/upgraded indicators. Ag labor black box. JOLTS COVID-low hires compounds supply shock. Miami migration reversal = FL housing leading indicator. Canadian boycott asymmetry intensified (US→Canada flipped positive); habit formation now hard data (overseas air > US auto 3 mo); TOUR-03 upgraded 70→85% (2026-04-20). **NEW 2026-04-21: Round 2 infrastructure live — OFLC H-2A monthly pull, USDA weekly slaughter monitor, Banxico quarterly reverse-map. MARCO now has live near-real-time SDL-01 transmission monitoring.** |
+| → NEXUS | 🔴 10 breached/upgraded indicators. Ag labor black box. JOLTS COVID-low hires compounds supply shock. Miami migration reversal = FL housing leading indicator. Canadian boycott asymmetry intensified (US→Canada flipped positive); habit formation now hard data (overseas air > US auto 3 mo); TOUR-03 upgraded 70→85% (2026-04-20). **NEW 2026-04-23: Senate budget resolution passed 50-48 — ICE funding now on partisan fast-track ($70B+). Enforcement intensity unconstrained through 2028. SDL-01 transmission accelerator, not brake.** **NEW 2026-04-21: Round 2 infrastructure live — OFLC H-2A monthly pull, USDA weekly slaughter monitor, Banxico quarterly reverse-map. MARCO now has live near-real-time SDL-01 transmission monitoring.** |
 | → BRENT | 🟡 Canadian-US airline capacity Q1 2026 at 2006-low (ex-pandemic). Air Transat full Quebec-FL exit + WestJet 15 US routes cut = regional jet fuel demand hit booked for summer 2026. Route mix shifting transborder → Mexico/Europe (different refinery pull). (2026-04-20) |
 
 ---
