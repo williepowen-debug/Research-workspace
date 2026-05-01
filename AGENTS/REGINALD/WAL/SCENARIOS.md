@@ -1,242 +1,259 @@
 # WAL — Scenario Analysis & Target Prices
-**Created:** 2026-03-25 | **Last Updated:** 2026-03-25
-**Current Price:** ~$69.70 (Finviz Mar 25) | **Book:** $67.19 | **P/B:** 1.04x | **TBV:** $61.29
-**Short Interest:** 3.54% float, 2.71 days to cover (KB-WAL-061) — NOT crowded
-**EPS TTM:** $8.73 | **FY2025 Net Income:** $991M | **Assets:** ~$90B
+**Created:** 2026-03-25 (v1.0) | **Last Updated:** 2026-05-01 (v2.0 — Wave 1 chunk 5: post-Q1 print re-weight)
+**Current Price:** ~$81.22 (May 1 intra) | **TBV:** $61.14 | **P/TBV:** 1.33x | **CET1:** 11.0%
+**Short Interest:** 3.54% float / 2.71 days (Mar 25 — REFRESH PENDING)
+**Q1 2026 EPS:** $1.65 GAAP / $2.22 adjusted | **FY2025 NI:** $991M
 
-> **Key difference from OZK:** WAL is a fast-transmission thesis. Losses appear episodically and suddenly, not through a gradual delinquency pipeline. Scenarios must account for binary event risk — the next Cantor-type episode could come from any of three independent vectors. Timing is less predictable but impact is faster.
+> **v2.0 thesis framing:** WAL is a *compounder with concentrated CRE tail risk* (per `THESIS.md` v2.0). The pre-print "fast-transmission failure" binary is rejected. V2 fraud thesis publicly **resolved** (Apr 21: $152.5M LAM+Cantor); V1 hidden-CRE **sharpened** to Office single-point ($407M classified, 18.5% stress, $946M maturing 2026); V3 NDFI **directionally disconfirmed** at aggregate (Slide 24 cohort median). Short thesis depends on **tail actualizing** (REG-24, REG-25, or additional Leucadia-era credit), not on broken-bank scenario.
 
 ---
 
 ## EXPECTED VALUE SUMMARY
 
-| Scenario | Prob | Price Range | Midpoint | Weighted |
-|----------|------|-------------|----------|----------|
-| Bear | **45%** | $42-52 | $47.00 | $21.15 |
-| Base | **30%** | $55-65 | $60.00 | $18.00 |
-| Bull | **20%** | $75-88 | $81.50 | $16.30 |
-| Tail | **5%** | $28-38 | $33.00 | $1.65 |
-| **Expected Value** | | | | **$57.10** |
+| Scenario | v1.0 Prob | **v2.0 Prob** | v1.0 Range | **v2.0 Range** | Midpoint | Weighted |
+|----------|-----------|---------------|------------|----------------|----------|----------|
+| Bear | 45% | **30%** | $42-52 | **$58-68** | $63.00 | $18.90 |
+| Base | 30% | **38%** | $55-65 | **$70-78** | $74.00 | $28.12 |
+| Bull | 20% | **25%** | $75-88 | **$85-95** | $90.00 | $22.50 |
+| Tail | 5% | **7%** | $28-38 | **$35-45** | $40.00 | $2.80 |
+| **Expected Value** | | | | | | **$72.32** |
 
-**Current $69.70 → implied ~18% overvaluation vs EV of $57.10.**
+**Current $81.22 → implied ~11% overvaluation vs EV of $72.32** (down from v1.0 18% overvaluation at $69.70 vs $57.10).
+
+### Re-weight rationale
+
+| Shift | Driver | KB rows |
+|---|---|---|
+| Bear 45% → 30% | V2 binary catalyst RESOLVED ($152.5M charge taken; mgmt "largely behind us"); fast-transmission cycle ran without breaking the bank. Bear path now requires multi-quarter slow-grind (REG-24/REG-25), not single-event repricing | 081, 084, 087, 088 |
+| Bear range $42-52 → $58-68 | Tail-risk thesis gives narrower downside band than failure-thesis; aligns to `THESIS.md` v2.0 PT $55-70 | THESIS v2.0 |
+| Base 30% → 38% | Most likely path is multi-quarter grind on V1 Office migration; no acute event; price drifts in $70-78 | 090-091, 096-099 |
+| Base range $55-65 → $70-78 | Reflects Q1 print-day strength: deposits cohort-leading +$5.6B QoQ, NIM expansion, NII guide held — cohort rerating less likely | 102, 105 |
+| Bull 20% → 25% | V3 disconfirmed at aggregate + deposits accelerating + Juris banking upside + "largely behind us" narrative may stick if Q2 NCO drops back into guide. Bull case structurally stronger | 092-095, 102, 105 |
+| Tail 5% → 7% | Marginally raised on (a) additional LAM/Leucadia-credit emergence risk, (b) Apollo Atlas SP warehouse linkage, (c) Office maturity wall refi failure | 086, 091, 093 |
 
 ---
 
-## SCENARIO A: BEAR CASE (45%)
+## SCENARIO A: BEAR CASE (30%, was 45%)
 
-**Thesis:** One or more vectors fire → episodic loss event → market reprices WAL as a stressed CRE bank with hidden concentration. Fast-transmission means losses hit P&L quickly, not gradually.
+**v2.0 thesis:** Tail actualizes through one or more of three slow-grind paths. No single binary catalyst — instead, multi-quarter migration forces market re-rating.
 
-**Three independent trigger paths (any one sufficient):**
+**Three trigger paths (need at least one to fire to reach $58-68):**
 
-**V1 — Hidden CRE Surfaces:**
-- MI3 ratio continues rising above 24.2% in Q1. Analyst or regulator asks the question.
-- Regulatory scrutiny of CRE/Tier 1 at 474% (well above 300% SR 07-1 guideline).
-- Management forced to restate or reclassify. Restatement risk = binary event.
+**Path 1 — V1 Office classified migration (REG-24, 60% standalone):**
+- Office classified migrates from $407M (Q1 26) to >$500M by Q3 2026
+- $946M Office maturity wall hits in 2026; defensive 90% Suburban / 0% CBD geography helps but doesn't eliminate refi pressure
+- Bridge loan structures force natural recognition pressure
+- Driven by: CRE refi environment, regional commercial vacancy (Phoenix/Vegas), interest-rate trajectory
 
-**V2 — Jefferies/Private Credit Contagion:**
-- Jefferies Q1 shows credit provisions → market connects WAL intermediary chain.
-- Another fraud episode (Cantor was the pattern). Next one could be larger.
-- Private credit fund stress → Jefferies/Barclays as intermediaries → WAL as lender.
-- SMFG takeover collapses or confirms distress narrative.
+**Path 2 — V1 Leading-bucket pull-through (REG-25, 55% standalone):**
+- 30-89d PD already +45% QoQ to $157M; Special Mention +24% QoQ to $403M
+- Q1 ex-fraud NCO 39bps annualized — already ABOVE mgmt 25-35bps top of guide
+- Q2 or Q3 NCO breaches 40bps ex-fraud → mgmt guide blown; analysts re-rate
+- CRE-NOO charges $27.7M Q1 (largest in 5 quarters; $66M 5Q TTM = 64bps annualized)
 
-**V3 — SSFA Unwind:**
-- Regulatory challenge to $17.2B at 20% risk weight.
-- Stress scenario forces re-evaluation → $1.1B capital gap emerges.
-- Basel III Endgame tightening.
+**Path 3 — Additional LAM/Leucadia-era credit surfaces:**
+- LAM operates multi-strategy funds; the Apr 21 disclosure was for a single fund credit
+- 10-Q Table 16 (May 4-10) or Investor Day (May 12) Q&A may surface additional Jefferies-platform exposure
+- If a second LAM credit lands at $50M+ scale → market questions inventory completeness; "largely behind us" mgmt frame breaks
 
-**Mechanics (once triggered):**
-1. Episodic charge-off event ($50-150M depending on source).
-2. Market reaction: -10% to -15% (precedent: Cantor -10.88%, Convergence Day -10.64%).
-3. Provision catch-up cycle — management forced to build reserves.
-4. EPS compresses from $8.73 to $5-6 range.
-5. Possible second event in same quarter (fast-transmission = clustered, not spaced).
-6. Analyst downgrades cascade. Short interest rises from 3.54% (late money piling in).
-
-**TBV Impact:**
-- Single event: TBV $61.29 → $58-60 (manageable)
-- Clustered events + provision surge: TBV → $54-57
-- SSFA reclassification (extreme): TBV impact unclear but capital ratios crater
+**Mechanics (Bear):**
+1. One of three paths fires across Q2-Q3 2026 (not single event)
+2. Provision builds gradually; ex-fraud NCO climbs into 40-50bps range
+3. Multiple compresses 1.33x → 0.95-1.05x TBV ($58-65)
+4. EPS guide cut at Q2 or Q3
+5. Analyst PT cuts cascade (current ~$85-90 consensus → $65-75)
 
 **Valuation:**
-- Stressed large regional: 0.7-0.85x TBV ($43-52)
-- EPS compression to $5-6 at 7-9x P/E → $35-54
-- **Bear target: $42-52**
-- Precedent: May 2025 low was $57 on LESS fundamental stress than current thesis
+- 0.95-1.05x TBV ($61.14): $58-64
+- EPS $7.50-8.50 at 7-8x P/E: $52-68
+- **Bear target: $58-68**
 
-**Why 45%:** Three independent vectors, each with plausible near-term catalysts. Fast-transmission means you can't see it coming in the pipeline data — SF has the cleanest 30-89 day metrics (0.26%) but the highest NCO rate (1.13%). The CFO swap to a JPM FIG restructuring banker is the insider tell. Zero buying across all insiders. Market already priced two -10% vulnerability events (Cantor, Convergence Day) without a fundamental thesis break — the next one could be the break.
-
-**Why not 50%+ (like OZK):** V2 (Jefferies chain) lacks primary source evidence — it's inferred, not documented. Cantor is actually contained at $98M/$2B note finance. WAL's earnings power ($991M FY) gives them more absorption capacity than OZK. CLN coverage ($8.1B residential) is a real mitigant, even if it doesn't cover MI3.
+**Why 30% (was 45%):** V2 binary catalyst RESOLVED removed the "$100M+ surprise charge-off" path. Remaining slow-grind paths require multi-quarter migration. Each individually 55-60% probable, but probability of *forcing market re-rating to $58-68* is ~30-35% — market may absorb leading-bucket buildup without re-rating if mgmt holds NII narrative.
 
 ---
 
-## SCENARIO B: BASE CASE (30%)
+## SCENARIO B: BASE CASE (38%, was 30%)
 
-**Thesis:** Thesis intact but no acute catalyst. Market slowly reprices WAL's true CRE concentration. Grinding, not episodic.
+**v2.0 thesis:** Multi-quarter grind — V1 sharpens slowly, V2 stays resolved, V3 stays disconfirmed at aggregate. Price drifts in $70-78 range, no acute catalyst either direction.
 
 **Mechanics:**
-1. Q1 earnings show modest provision increase. Management talks down MI3 as "normal banking."
-2. Jefferies Q1 is mixed — no clear WAL contagion signal.
-3. Cantor reserve stays at $30M. No new fraud episodes.
-4. MI3 ratio stabilizes or ticks up slightly — not enough for regulatory action.
-5. Analyst community gradually wakes up to 474% true CRE/Tier 1.
-6. Stock drifts lower on multiple compression, not a single event.
+1. Q2 print: NCO ex-fraud lands ~32-37bps (above guide midpoint, below 40bps trigger)
+2. Office classified migrates $407M → $440-470M (visible deterioration but not REG-24 hit)
+3. Cantor residual stays on book; no incremental specific reserve build
+4. No First Brands or Tricolor disclosure forcing event
+5. May 12 Investor Day delivers measured response — neither catalyst nor disconfirming
+6. Stock drifts lower on multiple compression as analyst PTs reset to $75-80 range
 
 **Valuation:**
-- Uncertain large regional: 0.85-1.0x TBV
-- EPS $7.50-8.50 at 7-8x P/E → $53-68
-- **Base target: $55-65**
-- Current $69.70 is at the top — limited upside, moderate downside.
+- 1.10-1.25x TBV: $67-76
+- EPS $7.00-7.80 at 9-10x P/E: $63-78
+- **Base target: $70-78**
+
+**Why probability up to 38%:** Most likely outcome given (a) V2 resolved removed binary downside catalyst, (b) deposit/NII strength provides operating cushion, (c) tail-risk thesis is multi-quarter so the *median* outcome is grind not crisis, (d) cohort 8/8 fade pattern suggests range-bound rather than directional moves.
 
 ---
 
-## SCENARIO C: BULL CASE (20%)
+## SCENARIO C: BULL CASE (25%, was 20%)
 
-**Thesis:** CRE stabilizes, MI3 narrative defused, management articulates credible de-risking story. WAL's earnings power re-rated.
+**v2.0 thesis:** "Largely behind us" narrative holds. V2 resolution sticks; V3 disconfirmation propagates to street consensus; deposits + Juris banking + variable-rate book drive multiple expansion.
 
 **Mechanics:**
-1. Vecchione returns from medical leave with clear strategic vision.
-2. MI3 ratio declines in Q1 — genuine C&I growth, not relabeling.
-3. Cantor fully resolved (remaining $68M recovered or charged off cleanly).
-4. Jefferies clean bill of health → contagion narrative dies.
-5. SSFA treatment reaffirmed by regulators.
-6. Insider buying begins (especially new CFO Idnani).
-7. May 12 Investor Day catalyzes re-rating.
+1. Q2 print: NCO ex-fraud back below 35bps; leading-bucket buildup partially reverses
+2. No incremental fraud disclosures; sector-silence pattern holds
+3. Office classified stays flat or improves; CMBS office DQ pulls back further
+4. Investor Day May 12 delivers credible Office de-risking story (similar to EGBN strategic shift)
+5. Juris banking continues outsized contribution (raised guide +20-25% non-interest income)
+6. Cohort short-unwind on Q2 prints; WAL benefits as crowded-short positioning unwinds
+7. NII guide held even sans rate cuts → variable-rate "higher for longer" plays as bull catalyst
 
 **Valuation:**
-- Recovering high-growth regional: 1.1-1.3x TBV ($67-80)
-- EPS $9-11 at 8-10x → $72-110
-- **Bull target: $75-88**
-- Low short interest (3.54%) means no squeeze amplification — recovery would be orderly, not explosive.
+- 1.40-1.55x TBV: $86-95
+- EPS $8.50-9.50 at 9-11x P/E: $77-105
+- **Bull target: $85-95**
 
-**Exit signals:** MI3 ratio declining + CRE/Tier 1 below 400% + insider buying. If all three, close puts.
+**Exit signals (close puts):** NCO ex-fraud <30bps Q2 + Office classified flat or down + insider buying begins + 10-Q Table 16 shows no other LAM/Leucadia credits.
+
+**Why probability up to 25%:** V3 directionally disconfirmed at aggregate is a real bull data point that the pre-print thesis didn't price. Slide 24 cohort-median NDFI + Lender Finance structurally protected + CLN pool shrinking removes a bear leg. Add deposit cohort lead + NIM expansion + Juris upside = legitimate multiple-expansion path.
 
 ---
 
-## SCENARIO D: TAIL — CASCADING EVENTS (5%)
+## SCENARIO D: TAIL — CASCADING (7%, was 5%)
 
-**Thesis:** Multiple vectors fire simultaneously. Compounding fast-transmission events overwhelm earnings power.
+**v2.0 thesis:** Multiple paths fire simultaneously over 2-3 quarters. Compounding events overwhelm operating cushion.
 
 **Mechanics:**
-1. Jefferies reports badly → WAL -10% on contagion.
-2. Within same quarter: second fraud episode surfaces (Cantor was the pattern, not the exception).
-3. Regulators challenge SSFA → $1.1B capital gap + CRE/Tier 1 restatement.
-4. Uninsured deposits ($11.9B) begin moving. 74% loans pledged = limited liquidity backstop.
-5. Forced capital raise at distressed pricing.
-6. Nevada gaming exposure cracks under consumer discretionary collapse (CARL crossover).
+1. Q2 print: ex-fraud NCO breaches 45bps + Office classified jumps to $500M+
+2. Within 2 quarters: additional LAM/Leucadia credit emerges at $75-150M scale
+3. CRE-NOO charges accelerate (current $27.7M Q1 → $40M+ trajectory)
+4. Office maturity wall refi failures begin (some of $946M won't roll)
+5. Apollo Atlas SP warehouse counterparty stress propagates to WAL warehouse book ($7.155B)
+6. Capital raise considered at distressed pricing
+7. Possible Q2/Q3 dividend cut or buyback suspension
 
 **Valuation:**
-- Distressed large regional: 0.5-0.65x TBV ($31-40)
-- Crisis comps: SVB traded to ~$0 but WAL is better capitalized. FRC hit $3. More realistic: -60% from current.
-- **Tail target: $28-38**
+- 0.65-0.75x TBV: $40-46
+- Distressed peer comps (RF/CFG late-2008 pattern): $35-45
+- **Tail target: $35-45**
+
+**Why probability up to 7% (was 5%):** Three real tail levers identified post-print: (a) LAM/Leucadia credit inventory uncertain, (b) Office maturity wall is a hard 2026 calendar event, (c) Apollo Atlas SP warehouse linkage adds counterparty channel. Still low probability — mgmt cushion is substantial — but no longer dismissible.
 
 ---
 
-## EPS SENSITIVITY — THE REAL TRADE
+## EPS SENSITIVITY (Refreshed)
 
-WAL earns $991M/year. The thesis isn't insolvency — it's earnings compression + multiple contraction from hidden risk repricing.
+WAL Q1 26 GAAP EPS $1.65 / Adjusted $2.22. FY 2025 EPS ~$8.73. Mgmt 2026 outlook held even sans rate cuts.
 
-| EPS | P/E 8x (current) | P/E 7x (stressed) | P/E 6x (crisis) |
+| Adjusted FY EPS | P/E 9x (consensus) | P/E 8x (cohort) | P/E 7x (stressed) |
 |-----|-------------------|--------------------|--------------------|
-| $8.73 | $70 (today) | $61 | $52 |
-| $7.00 | $56 (-20%) | **$49 (-30%)** | $42 (-40%) |
-| $5.50 | $44 (-37%) | **$38.50 (-45%)** | $33 (-53%) |
-| $4.00 | $32 (-54%) | $28 (-60%) | $24 (-66%) |
+| $9.50 (bull) | $86 | $76 | $67 |
+| $8.50 (base hold) | $77 | $68 | $60 |
+| $7.50 (mild compress) | $68 | $60 | $53 |
+| $6.50 (REG-25 hits) | $59 | $52 | $46 |
+| $5.50 (cascading) | $50 | $44 | $39 |
 
-Bear case needs EPS ~$7.00 at 7x → **$49** (-30% from $69.70).
+Bear case needs Adj EPS ~$7.00-7.50 at 8x → **$56-60**.
+Tail case needs Adj EPS ~$5.00 at 7-8x → **$35-40**.
 
 ---
 
-## PUT EXPECTED VALUE AT $69.70
+## PUT EXPECTED VALUE AT $81.22
 
-### $85P Jun 18 (1 contract) — Deep ITM
+### $85P Jun 18 (1 contract) — Slightly ITM
 | Scenario | Prob | Stock | Intrinsic | Weighted |
 |----------|------|-------|-----------|----------|
-| Bear ($47) | 45% | $47 | $38.00 | $17.10 |
-| Base ($60) | 30% | $60 | $25.00 | $7.50 |
-| Bull ($81.50) | 20% | $81.50 | $3.50 | $0.70 |
-| Tail ($33) | 5% | $33 | $52.00 | $2.60 |
-| **EV** | | | | **$27.90** |
+| Bear ($63) | 30% | $63 | $22.00 | $6.60 |
+| Base ($74) | 38% | $74 | $11.00 | $4.18 |
+| Bull ($90) | 25% | $90 | $0.00 | $0.00 |
+| Tail ($40) | 7% | $40 | $45.00 | $3.15 |
+| **EV** | | | | **$13.93** |
 
-Already deep ITM (+170%). This is a delta position — moves almost dollar-for-dollar. Consider taking profit or rolling to lower strike to free up capital.
+Position holds value across Bear and Tail. **Jun expiry is 7 weeks** — needs catalyst before then. Current intrinsic $3.78 only; ~$10/contract upside in EV vs intrinsic.
 
-### $77.5P Sep 18 (1 contract) — Core
+### $77.5P Sep 18 (1 contract) — Slightly OTM
 | Scenario | Prob | Stock | Intrinsic | Weighted |
 |----------|------|-------|-----------|----------|
-| Bear ($47) | 45% | $47 | $30.50 | $13.73 |
-| Base ($60) | 30% | $60 | $17.50 | $5.25 |
-| Bull ($81.50) | 20% | $81.50 | $0.00 | $0.00 |
-| Tail ($33) | 5% | $33 | $44.50 | $2.23 |
-| **EV** | | | | **$21.20** |
+| Bear ($63) | 30% | $63 | $14.50 | $4.35 |
+| Base ($74) | 38% | $74 | $3.50 | $1.33 |
+| Bull ($90) | 25% | $90 | $0.00 | $0.00 |
+| Tail ($40) | 7% | $40 | $37.50 | $2.63 |
+| **EV** | | | | **$8.31** |
 
-Strong EV. Sep gives runway through Q1 earnings + Investor Day.
+Sep gives runway through Q2 print + Investor Day. **Best risk-adjusted core position** post-rewrite.
 
-### $70P Sep 18 (1 contract) — Needs Decline
+### $70P Sep 18 (1 contract) — OTM
 | Scenario | Prob | Stock | Intrinsic | Weighted |
 |----------|------|-------|-----------|----------|
-| Bear ($47) | 45% | $47 | $23.00 | $10.35 |
-| Base ($60) | 30% | $60 | $10.00 | $3.00 |
-| Bull ($81.50) | 20% | $81.50 | $0.00 | $0.00 |
-| Tail ($33) | 5% | $33 | $37.00 | $1.85 |
-| **EV** | | | | **$15.20** |
+| Bear ($63) | 30% | $63 | $7.00 | $2.10 |
+| Base ($74) | 38% | $74 | $0.00 | $0.00 |
+| Bull ($90) | 25% | $90 | $0.00 | $0.00 |
+| Tail ($40) | 7% | $40 | $30.00 | $2.10 |
+| **EV** | | | | **$4.20** |
 
-Positive EV in bear + base. Only loses in bull.
+Pays only in Bear or Tail. Lower premium than $77.5P; cheaper exposure to tail.
 
-### $65P Jun 18 (1 contract) — Aggressive
-| Scenario | Prob | Stock at Jun | Intrinsic | Weighted |
+### $65P Jun 18 (1 contract) — Deep OTM, short timeline
+| Scenario | Prob | Stock by Jun | Intrinsic | Weighted |
 |----------|------|-------------|-----------|----------|
-| Bear (partial by Jun) | 35% | $52 | $13.00 | $4.55 |
-| Base | 35% | $62 | $3.00 | $1.05 |
-| Bull | 20% | $78 | $0.00 | $0.00 |
-| Tail | 10% | $38 | $27.00 | $2.70 |
-| **EV** | | | | **$8.30** |
+| Bear ($63 by Jul) — partial by Jun | 15% | $72 | $0.00 | $0.00 |
+| Base | 38% | $76 | $0.00 | $0.00 |
+| Bull | 25% | $84 | $0.00 | $0.00 |
+| Tail (rapid by Jun) | 5% | $50 | $15.00 | $0.75 |
+| Status quo | 17% | $80 | $0.00 | $0.00 |
+| **EV** | | | | **~$0.75** |
 
-Needs a catalyst by Jun. Tighter timeline but still positive EV.
-
----
-
-## THE WAL EDGE: LOW SHORT INTEREST
-
-**OZK is 13.81% short. WAL is 3.54%.** This matters:
-
-1. **WAL thesis is NOT consensus.** You're positioned where the market isn't looking. If the thesis plays out, there's no crowd fighting you for the exit — repricing is sharper and less contested.
-2. **No squeeze risk.** 2.71 days to cover vs OZK's 11.2. A positive surprise won't trigger a violent short squeeze on WAL.
-3. **Late money hasn't arrived.** If WAL cracks on earnings or a Jefferies catalyst, short interest will surge AFTER the move — you're ahead of that wave.
-
-The tradeoff: less institutional validation. OZK's 13.81% says "smart money agrees." WAL's 3.54% says "the market hasn't figured this out yet." That's either edge or error.
+Needs very rapid bear/tail move by Jun 18. **Position discipline:** consider closing or rolling to Sep on next material weakness.
 
 ---
 
-## APR 21 DECISION FRAMEWORK
+## POSITION-LEVEL READ (post-rewrite)
 
-| Outcome | Action |
-|---------|--------|
-| MI3 ratio still rising + new charge-off event | Hold all, consider adding Sep. Bear accelerating. |
-| Provision increase, MI3 stable, Cantor unchanged | Hold. Base case grinding. |
-| MI3 declining + clean quarter + insider buying | Close Jun puts, tighten Sep stops. Thesis weakening. |
-| Surprise charge-off >$100M (fast-transmission fires) | Add aggressively on the drop. This is the thesis. |
-| Convergence Day repeat (>-10% on no news) | Hold. Market is pricing what it can't see in the pipeline. |
-| Management announces capital raise | Hold everything. Tail confirming. |
-
-### Pre-Earnings Checklist (Before Apr 21)
-- [ ] Jefferies Q1 results integrated (Wed Mar 25)
-- [ ] Updated insider filings (any Form 4s)
-- [ ] SSFA regulatory commentary check
-- [ ] Cantor resolution status
-- [ ] MI3 industry comparison (External Prompt #2)
-- [ ] Short interest refresh (was 3.54% Mar 25)
+| Position | Direction | Recommendation |
+|---|---|---|
+| $85P Jun | Slightly ITM | **HOLD.** 7 weeks to Q2 print catalyst; $14 EV vs $4 intrinsic = real expected value |
+| $77.5P Sep | Slightly OTM | **HOLD.** Best risk-adjusted core; runway through Q2 + Investor Day |
+| $70P Sep | OTM | **HOLD.** Cheap tail exposure; pays in Bear or Tail |
+| $65P Jun | Deep OTM, short timeline | **CONSIDER CLOSE OR ROLL TO SEP.** ~$0.75 EV; needs rapid move that v2.0 thesis no longer projects as likely. Roll to Sep $65P preserves tail bet at lower decay |
 
 ---
 
-## WHY MARKET IS MISPRICING
+## WHY MARKET IS (STILL) MISPRICING — v2.0
 
-1. **MI3 reclassification invisible** — 24.2% hidden ratio not discussed by sellside, GROWING while peers stable
-2. **Record earnings anchor narrative** — $8.73 EPS, $991M FY net income. Market sees strength, not masking.
-3. **SSFA capital arbitrage not understood** — $1.1B less capital than headline suggests. Deep in Call Report.
-4. **Fast-transmission not modeled** — Standard credit analysis watches pipeline. WAL's pipeline is clean (0.26%). Losses bypass it.
-5. **CFO swap rationalized** — Market sees "strategic hire." We see crisis preparation.
-6. **Cantor declared contained** — $98M is 5% of note finance. True, but it's the pattern that matters.
-7. **-28% from $97 high looks "cheap"** — P/B 1.04x seems reasonable until you add back $2.73B hidden CRE.
+Pre-print mispricing reasons that remain:
+1. **MI3 reclassification not in sellside coverage** — Q1 Call Report (May 1-10) is forcing function
+2. **Office single-point concentration not modeled** — Slide 12's 38% / 9.5x disproportion is buried
+3. **Leading-vs-lagging divergence ignored** — analysts focused on improving classified/nonaccrual, missing PD-30-89 +45% QoQ
+4. **Office maturity wall ($946M in 2026) not in PT models** — bridge structure means recognition is calendar-driven not market-driven
+5. **Apollo Atlas SP warehouse linkage** ($7.155B WAL warehouse to non-bank servicers stressed at Apollo) underanalyzed
+
+Pre-print reasons that no longer apply post-Apr 21:
+- ~~Cantor under-provisioning~~ — RESOLVED (charge taken; mgmt asserted reserve "validated by appraisals")
+- ~~Jefferies/PC contagion as bear thesis~~ — V2 already realized via LAM
+- ~~SSFA $1.1B capital gap~~ — V3 disconfirmed at aggregate; CLN pool shrinking, not expanding
+- ~~Convergence Day repeat~~ — pure-vulnerability premium burned off in 9-month tape
+
+The remaining mispricing is **structural CRE tail-risk concentration**, not **fast-transmission failure**. Different thesis, different timeline.
 
 ---
 
-*KB evidence: 61 rows | Thesis: `THESIS.md` | Weaknesses: `WEAKNESSES.md`*
+## WHAT WOULD CHANGE THE WEIGHTING
+
+**Push Bear higher (toward 40-50%):**
+- Q2 NCO ex-fraud > 45bps
+- Office classified > $500M Q2 (early REG-24 hit)
+- Additional LAM/Leucadia credit ≥ $75M emerges
+- 10-Q Table 16 shows multiple Jefferies-platform credits
+
+**Push Bull higher (toward 35%+):**
+- Q2 NCO ex-fraud < 30bps
+- Office classified flat or down Q2
+- Insider buying begins
+- Investor Day delivers credible Office de-risking story
+
+**Push Tail higher (toward 12-15%):**
+- Two of the bear triggers fire same quarter
+- Apollo Atlas SP warehouse counterparty default emerges at PFSI/LDI
+- Office maturity wall refi failure becomes visible Q2/Q3
+
+---
+
+*KB evidence: 105 rows | Master thesis: `THESIS.md` v2.0 | Changelog: `CHANGELOG.md` | Weaknesses: `WEAKNESSES.md` | Q1 analysis: `Q1_2026_ANALYSIS.md` | Round 2 deck/press detail: `sources/q1_2026/`*
