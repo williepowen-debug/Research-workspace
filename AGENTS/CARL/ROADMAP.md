@@ -1,5 +1,5 @@
 # CARL ROADMAP — "Where are we"
-**Updated:** 2026-04-30 (rebuilt from session state + investigations backlog added) | **Status:** ACTIVE
+**Updated:** 2026-05-01 (GDP Q1 advance integrated, Vector #12 hardened) | **Status:** ACTIVE
 
 Persistent state-of-CARL tracker across sessions. SCRATCH = "what to do next session." STATUS = "live dashboard." ROADMAP = "what threads are open, what data are we waiting on, what questions are unresolved, what we want to investigate next, what just got done."
 
@@ -13,10 +13,10 @@ Persistent state-of-CARL tracker across sessions. SCRATCH = "what to do next ses
 | Thread | Status | Next Step | Last Touched |
 |--------|--------|-----------|--------------|
 | **Diesel divergence — freight demand destruction signal** | NEW Apr 29 PM2. Diesel $5.464 DOWN -$0.144 over 16d while Brent rose 12.5% (KB-CARL-253). Vector #9 qualitative reinforcement candidate. | 4-week sustainability test: track ATA truck tonnage, Cass Freight Index, EIA distillate stocks (Wed weekly), refinery utilization. If sustained 4+ weeks while Brent stays $100+ → thesis-level note + Vector #9 reinforcement. | 2026-04-29 |
-| **Apr 26-28 PENDING catalysts** — three deferred from earnings cluster | FL UI Wave 2 / Case-Shiller Feb / Rithm-NewRez Q1 all still ⏳ in Danger Window. Rithm has falsifiable mgmt claim ("DQ will reverse Q1") + 18% Ginnie exposure. | Triage in next session: Rithm first (CARL direct, highest signal value), then Case-Shiller (HOMER), then FL UI Wave 2 (LABOR/GIG). | 2026-04-29 |
+| **Apr 26-28 PENDING catalysts** — all surface-resolved | FL UI Wave 2 PARTIAL May 1: surface initial claims declining (counter-thesis on surface), but exhaustion mechanism invisible in initial claims; granular DEO + DOL ETA = LABOR/GIG spawn (KB-CARL-262). Rithm + Case-Shiller fully resolved (KB-CARL-257, 261). | LABOR/GIG spawn for FL UI Wave 2 deeper analysis on next mechanical session OR May 8 NFP trigger. HOMER full Case-Shiller sub-market deferred to next housing spawn. | 2026-05-01 |
 | **Workbook refresh — multiple TSVs 12d stale** | VX (109 rows), FLOW (22), STATE_DIFFUSION (63), BNPL_STRESS (44) all last touched Apr 17. STATE_DIFFUSION specifically should fold KB-CARL-249 (FL labor weakness) on next pass. | Single dedicated maintenance session — refresh all four together, fold pending KB references into appropriate vector rows. | 2026-04-17 |
 | **ABS_BASELINE refresh — March 10-D filings** | 13d stale (Apr 16). March 10-D filings (Apr 20-25 window) for SDART/EART/AMCAR/HAROT/Ally not yet collected. EART Class E CE already breached; AMCAR Class E ~2mo cushion. | Dedicated EDGAR pull session — collect March 10-Ds, update ABS_BASELINE.tsv, flag any new breaches to LIQUID. | 2026-04-16 |
-| **CRL-08 sustainability — gas $4.50 May-Jun** | Pump $4.229 Apr 29 live (KB-CARL-252), 78% reprice on track inside model (gap $0.27, pace $0.21/30d). Brent $110+ sustainability is the swing factor. | Weekly AAA refresh; track Brent sustainability; Memorial Day (May 25) seasonal premium adds $0.10-0.15 organically. | 2026-04-29 |
+| **CRL-08 near-breach — gas $4.50 May-Jun** | Pump $4.392 May 1 live (KB-CARL-259), **CRL-08 reprice 78→92%**. Gap to threshold $0.108; at overnight pace breaches May 2-3, weekly pace by May 4-5. Pass-through ACCELERATED (3-4d vs 2-4wk typical lag). Sustainability test = whether Brent holds $107+ AND no demand destruction at $4.50+. | Daily AAA tracking until breach; weekly EIA Wed inventory; if breach holds 2+ weeks → CRL-08 CONFIRMED, possible Vector #5 thesis upgrade to "STRESSED + STRUCTURAL" sub-tier. | 2026-05-01 |
 | **Sub-agent staleness — DOC 8d borderline** | DOC last refreshed Apr 9 (now 21d if recalc). All other 6 sub-agents fresh from Apr 17 burst. | DOC refresh on next ACA enrollment / KFF survey trigger; otherwise hold. | 2026-04-17 |
 
 ---
@@ -26,10 +26,11 @@ Persistent state-of-CARL tracker across sessions. SCRATCH = "what to do next ses
 
 | Date | Item | Test / Implication |
 |------|------|-------------------|
-| **Apr 30** | **GDP Q1 advance (BEA 8:30am ET)** | vs GDPNow Q1 1.3% (Apr 7 anchor). Print materially below → hardens Vector #12 (Stagflation Trap). |
-| Apr 30 | PayPal Q1 (PHAN) | First print under new CEO Lores. |
-| May 1 | ALL Q1 (POLLY) | P&C, complements PGR/TRV. |
-| May 1 | ISM Manufacturing Apr (POP/CARL) | Sub-50 = contraction confirmation. |
+| **May 5** | PayPal Q1 (PHAN) — SCHEDULE CORRECTION May 1 (actual release May 5, was incorrectly listed as Apr 29/30 in earlier trackers) | First print under new CEO Lores. Consensus EPS $1.27 (-4.5% YoY), revenue $8.29B (+14.4% YoY). |
+| **May 1 (today)** | ALL Q1 (POLLY) | P&C, complements PGR/TRV. |
+| **May 1 (today)** | ISM Manufacturing Apr (POP/CARL) | Sub-50 = contraction confirmation. |
+| **May 28** | BEA GDP Q1 2026 second estimate | Revision risk -0.2 to -0.4pp per pattern (Q4 1.4→0.7→0.5). |
+| **~May 30** | March monthly core PCE | Bridge test: should accelerate from Feb 3.0% YoY toward 3.3-3.5% to be consistent with Q1 NIPA 4.3% annualized. |
 | Late Apr | Fannie MF March DQ (HOMER) | **CRL-03 GFC breach test** (0.74 → 0.80%?). |
 | Late Apr / early May | PennyMac Q1 (CARL direct) | FHA DQ >7.5%? Cenlar integration. |
 | May 6 | Uber Q1 + DoorDash Q1 (GIG) | Driver count QoQ post-gas-squeeze. |
@@ -84,6 +85,9 @@ Persistent state-of-CARL tracker across sessions. SCRATCH = "what to do next ses
 
 | Date | What | Result |
 |------|------|--------|
+| 2026-05-01 | Apr 30 GDP Q1 advance integration | Real GDP +2.0% (above 1.3% GDPNow, below 2.3% cons). PCE Q1 NIPA +4.5% / core +4.3% data-confirms UMich un-anchoring → **Vector #12 HARDENED**. Q4 2025 revised down 0.7→0.5%. Composition K-shape (residential drag, healthcare-led PCE, AI capex driver). Full workbook discipline: KB-CARL-254/255/256 + VX MACRO-01 refresh + MACRO-04 real-wage correction + MACRO-07 Core PCE NIPA new + CRL-18 (Q1 second-est revision) + CRL-19 (Mar monthly Core PCE bridge). |
+| 2026-05-01 | Rithm/NewRez Q1 2026 (Apr 28 release, 3-day catch-up) | Prior mgmt claim "DQ will reverse Q1" QUIETLY DROPPED. Replaced with "stable QoQ + FHA flatten via FHA modification guidelines normalization" (Silverstein). Servicer advances -$224M / -7.3% QoQ. MSR mark losses halved -$422M → -$204M. BV $12.51. Origination $15.5B (+31% YoY). **Bear case INTACT w/ 12-24mo mod-accounting cushion caveat.** Non-bank servicer stress framework REINFORCED — PennyMac FHA DQ 7.5% remains cleaner stress proxy. Vector #10 unchanged. KB-CARL-257. |
+| 2026-05-01 | Live Brent/WTI/AAA pump refresh + CRL-08 reprice 78→92% | Apr 30 Brent intraday $126 NEW HIGH; May 1 pullback $107-110 on Iran peace proposal + Trump WPR 60-day deadline today. AAA pump $4.392 May 1 (+9.2¢ overnight, +33.3¢ WoW, +37.7% YoY). Gap to $4.50 threshold $0.108 — breaches May 2-5. Pump pass-through ACCELERATED (3-4d vs 2-4wk lag). **CRL-08 78→92%.** Vector #5 intensity reinforced (already 5/5); Vector #12 energy-CPI loading reinforced. KB-CARL-258 (Brent path) + KB-CARL-259 (pump acceleration) + VX-CARL-GAS-01 added. |
 | 2026-04-29 PM2 | AAA gas pump live refresh + diesel divergence finding | Pump $4.229 confirmed CRL-08 reprice on track. NEW K-shape finding: diesel falling while gasoline rises = freight demand destruction (KB-252/253). |
 | 2026-04-29 AM | CRL-08 reprice 65→78% on Brent breakout | $110.38 close / $115 intraday, ceasefire-binary fired into "breaks" branch. KB-CARL-248. |
 | 2026-04-29 AM | Apr 21 quadruple earnings synthesis (SYF/COF/UNH/DHI) | K-shape WIDENING confirmed three independent ways. CRL-12 repriced 77→55% on SYF survivor-pool. KB-CARL-243-247. |

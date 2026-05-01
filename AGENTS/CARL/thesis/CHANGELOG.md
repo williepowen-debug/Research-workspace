@@ -8,6 +8,194 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-05-01 — LIVE OIL/PUMP REFRESH + CRL-08 REPRICE 78→92%
+
+### NO THESIS VERSION BUMP
+**Author:** CARL (live tactical refresh — Brent/WTI/AAA pump 2 trading days stale per >24hr rule)
+**Action:** Brent path Apr 30 intraday $126 NEW HIGH (above Apr 29 $115); May 1 pullback to $107-110 on Iran updated peace proposal + Trump WPR 60-day deadline today. **AAA pump $4.392 May 1 — pump pass-through ACCELERATED beyond model**, gap to CRL-08 $4.50 threshold collapsed to $0.108. **CRL-08 reprice 78→92%**. KB-CARL-258 (Brent path), KB-CARL-259 (pump acceleration). VX-CARL-GAS-01 added.
+
+### KEY DATA POINTS
+- **Brent**: Apr 30 close $114.66, intraday peak $126 (NEW HIGH). May 1 8:45am ET $116.10 → intraday $107-108 range. 18d move from $98.18 (Apr 13) = +$10-12 / +10-12%.
+- **WTI**: ~$106 May 1 (above $105, second weekly gain). Brent-WTI spread $2-4 = compressed (typical $5-10) reflecting physical-spot tightness.
+- **AAA Pump**: $4.392 May 1 (+9.2¢ overnight vs Apr 30 $4.300, +33.3¢ WoW vs Apr 24 $4.059, +37.7% YoY vs $3.187). 5 states >$5.
+- **Iran cluster**: WPR 60-day deadline TODAY (admin claims "terminated", Republicans defer, Democrats push back, no statutory pause-on-ceasefire); Iran updated peace proposal in Pakistani mediation; Hormuz blockade BOTH WAYS persists; rial -15% Apr 27-29 record low.
+- **Hormuz**: per fxleaders 9.1 mbd shut-ins (~9% global supply), single-source un-verified — IEA OMR / EIA STEO needed.
+
+### MECHANISM FINDING
+Pump pass-through ACCELERATED — Brent breakout Apr 28-30 transmitted to retail in 3-4 days vs typical 2-4 week lag. Three explanatory channels:
+1. Wholesale pre-positioning ahead of summer driving season (Memorial Day inventory pull-forward)
+2. Refinery margin compression on diesel divergence (KB-CARL-253) — refiners running yields toward gasoline because they cannot pass distillate cost upstream
+3. Hormuz blockade physical-spot tightness creating immediate spot-to-rack pricing
+
+### PREDICTION CHANGE
+**CRL-08** (Gas $4.50+ national avg, May-Jun 2026): **78% → 92%**
+- Gap to threshold collapsed from $0.27 (Apr 29) to $0.108 (May 1)
+- At overnight pace breaches May 2-3, at weekly pace by May 4-5
+- 92% not 95%+ because: Iran peace proposal acceptance scenario (Brent collapse to $80-90, 10-15% probability) + behavioral demand destruction at $4.50+ + Trump WPR resolution pressure
+- 92% not 85% because: gap collapsed, Brent $107+ + Hormuz blockade structural, Memorial Day premium incoming, Apr 19 conditional firmly in "breaks" branch
+
+### THESIS / VECTOR IMPACT
+**Vector #5 (Gas Price Squeeze):** intensity reinforced (already 5/5)
+- Behavioral demand destruction at $4.50+ becomes next testable threshold; CARL prior assumption "$4.30+ behavioral breakpoint" may need revision upward if visible consumption maintains through $4.50 cross
+
+**Vector #12 (Stagflation Trap):** energy-side CPI loading reinforced
+- May/Jun gasoline +33% YoY adds ~30bps to headline CPI directly + secondary food/transit pass-through
+- Fed pure-locked compounded
+
+### STATUS DASHBOARD CHANGES
+- Header timestamp + Overall capsule: refreshed with multi-thread May 1 PM integration
+- Gas Pump row: $4.229 → $4.392 with full pace data
+- Brent row: $110.38 → $107-110 May 1 range, with Apr 30 $126 intraday note
+- WTI row: $106.51 → ~$106 May 1
+- Iran Cluster Resolution row: WPR deadline + peace proposal + blockade-stalemate
+- Predictions table CRL-08 row: 78 → 92% with full rationale
+
+### KB / VX ROWS LOGGED
+- **KB-CARL-258** — Brent path May 1 + Iran cluster + WPR deadline
+- **KB-CARL-259** — Pump pass-through acceleration mechanism (3-4d vs 2-4wk)
+- **VX-CARL-GAS-01** — AAA National Pump (newly tracked row, RED status, $4.392)
+
+### NEXT REFRESH
+- Daily AAA pump (track threshold breach if/when it happens)
+- Weekly EIA inventory print (Wed) — distillate/gasoline stocks
+- Weekly Brent close — sustainability test
+- Mid-month IEA OMR — verify Hormuz shut-in numbers
+
+---
+
+## 2026-05-01 — RITHM/NEWREZ Q1 2026 INTEGRATION (NON-BANK SERVICER FRAMEWORK REINFORCED)
+
+### NO THESIS VERSION BUMP
+**Author:** CARL (3-day catch-up of Apr 28 print, was Danger Window PENDING)
+**Action:** Rithm Q1 2026 integrated. Prior mgmt forecast "DQ will reverse in Q1" QUIETLY DROPPED — replaced by Newrez President Silverstein with "stable QoQ + FHA flatten via FHA modification guidelines normalization." Bear case INTACT but with explicit 12-24mo modification-accounting-cushion caveat added to thesis. Non-bank servicer stress framework REINFORCED. KB-CARL-257.
+
+### KEY READS
+
+**Headline financials (strong):**
+- Revenue $1.38B (beat $1.25B cons)
+- EAD $289.6M / $0.51 EPS
+- Origination $15.5B (-18% QoQ, +31% YoY)
+- BV/share $12.51
+- NewRez total servicing UPB $850B (incl $257B 3rd-party)
+
+**Credit (the watch metric — soft retraction):**
+- Silverstein: "delinquencies remain stable quarter-over-quarter and the FHA delinquencies flattened as we normalize the impact of the new FHA modification guidelines"
+- "Stable" ≠ "Reverse" — original forecast quietly dropped, no specific FHA DQ rate disclosed (opacity tell on the metric mgmt walked back), no Q2 DQ guidance
+
+**Balance-sheet signals:**
+- Servicer advances receivable: $2,866M Q1 vs $3,091M Q4 = **-$224M / -7.3% QoQ**
+- MSR fair value mark loss: -$204M Q1 vs -$422M Q4 = **losses HALVED QoQ**
+
+### THE ACCOUNTING TELL
+
+"Normalize the impact of the new FHA modification guidelines" = HUD/Ginnie 2025 streamline-modification guidance allows trial-modified borrowers to be reclassified to current within 90-180 days, removing them from DQ rolls without underlying borrower performance improvement. Effects:
+- Optical DQ smoothing for 12-24 months as new modification cohorts work through
+- Advance receivable reduction without credit improvement (modification reclassifies need away)
+- Headline DQ optics LAG underlying stress
+
+### THESIS / VECTOR IMPACT
+
+**Vector #10 (Foreclosure Acceleration):** UNCHANGED at 5/5
+- Pipeline conversion thesis intact via Q1 ATTOM REO +45% YoY / FL +108%, NOT Rithm optic
+- Bank-side will see underlying stress before optical DQ catches up
+
+**Non-bank servicer stress framework:** REINFORCED
+- Rithm "stable via mod-accounting" = directionally WEAKER input than "improving"
+- PennyMac FHA DQ 7.5% (+160bps QoQ, KB-CARL-prior) remains cleaner stress proxy
+- Bridge test: PennyMac Q1 (late Apr/early May) — does PennyMac FHA DQ continue rising despite same accounting tailwind, or also "stabilize"? Differential = signal on whether mod-accounting is universal cushion or NewRez-specific
+
+**Path C (Housing → Banks):** transmission live; bank-side is the cleaner read
+
+### COUNTER-EVIDENCE (RED-style flag)
+- Headline beat was strong (revenue +10% vs cons, EAD beat)
+- Market may take RITM print bullishly, pricing headline optics NOT modification-accounting nuance
+- Stock-price action could diverge from underlying credit thesis for several quarters before pipeline visibly turns
+- This is a counter-evidence input for any "RITM short" trade idea — the optical-cushion timeline is real and front-loads the thesis-vs-tape divergence
+
+### STATUS DASHBOARD CHANGES
+- Non-Bank Servicer Stress row: appended Rithm Q1 detail
+- Danger Window Apr 28 row: marked Rithm RESOLVED, Case-Shiller still PENDING
+- Apr 28 Rithm earnings row: struck-through with RESOLVED note
+
+### KB ROW LOGGED
+- **KB-CARL-257** — Rithm Q1 2026 integration with full modification-accounting cushion framework
+
+### NEXT REFRESH
+- Late Apr / early May — PennyMac Q1 (bridge test for mod-accounting universality)
+- Q3 2026 — Rithm/Newrez Q2 (does "stable" hold?)
+
+---
+
+## 2026-05-01 — APR 30 GDP Q1 ADVANCE INTEGRATION (VECTOR #12 HARDENED)
+
+### NO THESIS VERSION BUMP
+**Author:** CARL (Will-directed catch-up of Apr 30 BEA print, was Apr 29 PM2 SCRATCH PRIORITY-1)
+**Action:** Apr 30 BEA Q1 2026 GDP advance integrated. Headline 2.0% real (vs 2.3% cons / vs 1.3% GDPNow Apr 7) softens "stall speed" framing 0.7pp. **But realized Q1 NIPA inflation PCE +4.5% / core PCE +4.3% / GDP-domestic-purchases price index +3.6% data-confirms UMich un-anchoring (1Y exp 4.7%, 5-10Y 3.5%) — Vector #12 (Stagflation Trap / Fed Locked) HARDENED via realized inflation, not just expectational.** Q4 2025 revised down 0.7→0.5% on annual revision. STATUS dashboard updated, 3 KB rows added, ROADMAP thread closed.
+
+### KEY READS
+
+**Headline:**
+- Real GDP Q1 2026: **+2.0% annualized** (advance estimate)
+- vs consensus 2.3% (miss by 0.3pp)
+- vs Atlanta Fed GDPNow Q1 final 1.3% (Apr 7 anchor — beat by 0.7pp)
+- GDPNow stale anchor; Q2 GDPNow next replacement read
+
+**Inflation (the real signal):**
+- PCE price index Q1 NIPA: **+4.5% annualized**
+- Core PCE Q1 NIPA: **+4.3% annualized**
+- GDP price index gross domestic purchases: **+3.6%**
+- Reference: Feb 2026 monthly Core PCE was 3.0% YoY — Q1 NIPA 4.3% reflects Jan/Feb/Mar re-acceleration that monthly YoY had not yet fully priced
+- Bridge: March monthly core PCE (release ~May 30) should accelerate from Feb 3.0% YoY toward 3.3-3.5% to be consistent with Q1 NIPA 4.3% annualized
+
+**Q4 2025 revision:**
+- 1.4% (1st est) → 0.7% (3rd est) → **0.5% (annual revision Apr 30)**
+- Cumulative downward revision -0.9pp from initial print
+- Pattern: aggregate data systematically over-states near-term resilience, revises down as more granular source data incorporates
+
+**Composition (K-shape signal):**
+- Drivers: equipment (information-processing-heavy = AI capex), intellectual property products, inventory build
+- Drags: residential AND non-residential structures (housing transmission live both sides)
+- Services PCE driver: **healthcare-led** (forced consumption, non-discretionary cost-push)
+- AI capex concentration via equipment + IPP pairs DIRECTLY with META + MSFT capex prints AMC Apr 30 (BOARD SIG-029-004) — feedback loop: if hyperscalers guide capex DOWN, Q1 2.0% headline driver hollows out for Q2
+
+### THESIS / VECTOR IMPACT
+
+**Vector #12 (Stagflation Trap / Fed Locked):** REINFORCED
+- Score unchanged (already 5/5 max)
+- Qualitative intensity HIGHER — UMich expectations un-anchoring is now data-backed not panic-spike
+- Fed reaction function: cut blocked (4.3% core PCE ratifies un-anchoring), hike blocked (2.0% growth + ATL sentiment)
+- 1970s analog confirmed: Fed loses inflation credibility → term premia widen → mortgage rates sticky high regardless of Fed front-end direction → housing transmission compounds (Vector #10 reinforcement via term-premium channel)
+
+**Vector #10 (Foreclosure Acceleration):** secondary reinforcement
+- Q1 GDP residential structures DRAG = housing transmission empirically live in NIPA, not just micro data
+- Term-premium channel from Vector #12 = sustained mortgage-rate stickiness even if Fed cuts
+
+**Two new predictions booked from this print:**
+- **CRL-18** (60%, May 28 resolves) — Q1 2026 GDP second estimate revises advance 2.0% down by 0.2-0.4pp into 1.6-1.8% range. Pattern basis: Q4 2025 cumulative -0.9pp revision (1.4 → 0.7 → 0.5).
+- **CRL-19** (70%, ~May 30 resolves) — March 2026 monthly Core PCE YoY accelerates from Feb 3.0% to 3.3-3.5% range. Bridge test for Q1 NIPA 4.3% annualized consistency.
+
+CRL-09 (JOLTS Mar) and CRL-12 (SYF FY26 NCO) unrelated to this print.
+
+### STATUS DASHBOARD CHANGES
+- Header timestamp: Apr 29 PM2 → May 1 ~14:00 UTC
+- "Overall" capsule: prepended May 1 GDP capsule
+- GDP Q4 2025 row: 0.7% → 0.5%
+- GDPNow Q1 row REPLACED with **Real GDP Q1 2026 (advance) 2.0%** + new **PCE Q1 NIPA 4.5%** + **Core PCE Q1 NIPA 4.3%** + **GDP Price Index Q1 3.6%** rows (+3 net rows)
+- Vector #12 row: "REINFORCED May 1" tag added with realized PCE evidence
+- Convergence summary line: May 1 reinforcement note added
+
+### KB ROWS LOGGED
+- **KB-CARL-254** — GDP Q1 2026 advance 2.0% headline + composition (Vector #10 + #12)
+- **KB-CARL-255** — Q1 NIPA inflation PCE 4.5% / core 4.3% (Vector #12 hardening)
+- **KB-CARL-256** — Q4 2025 GDP revision 0.7 → 0.5% (revision pattern flag)
+
+### NEXT REFRESH
+- May 28 — BEA second estimate for Q1 2026 (revision risk -0.2 to -0.4pp per pattern)
+- May 30 — March monthly core PCE (bridge test for Q1 NIPA 4.3% consistency)
+- Jun 26 — BEA third estimate Q1 2026
+
+---
+
 ## 2026-04-29 (PM2) — AAA LIVE PUMP REFRESH + DIESEL DEMAND DIVERGENCE
 
 ### NO THESIS VERSION BUMP
