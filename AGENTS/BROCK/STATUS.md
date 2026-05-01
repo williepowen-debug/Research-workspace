@@ -246,7 +246,13 @@ Blue Owl reported Apr 30 and the stock SURGED, dragging the alt-manager complex 
 
 ## FOLLOW-UP / NEXT SESSION
 
-**👉 Authoritative plan: `domain/sources/NEXT_SESSION_PLAN_MAY01.md`** — read this first at next boot.
+**👉 At next boot: read this STATUS top-to-bottom + LESSONS.md + (if OBDC has filed) `domain/sources/OBDC_PREBUILD_MAY06.md`.** The May 1 NEXT_SESSION_PLAN is now historical — its Tier 1/Phase 5/bank-cascade items completed this session (commits e50a964f → dc5e590b).
+
+**Highest-priority decision at next boot (depends on date):**
+- **May 2 (no market):** Pre-stage OBDC read; verify FSK May 11 confirmed; consider GBDC ~May 5-7 pre-build
+- **May 4 close:** Pull APO close. If >$130 → D2/3 confirmed. Trigger fires May 5.
+- **May 5 close:** Pull APO close. If >$130 → **trigger fired**. Apply OBDC pre-build branch logic when 10-Q drops May 6.
+- **May 6 evening / May 7 boot:** Read OBDC 10-Q against `OBDC_PREBUILD_MAY06.md` thresholds; apply branch matrix; act on APO puts per `trade/TRADE.md` Section 8.
 
 **Tier 1 — Do first (deferred mechanical):**
 - [x] Phase 4 outbox sweep complete (May 1 boot session): LIQUID 🔴 (HY OAS 260 proximity), REGINALD 🟠 (BX backstop precedent + SEC subpoena), OTTO 🟠 (OWL Q1 DL decoupling + LESSONS #11), HAWK 🟡 (Treasury insurance regs + Athene FHLB)
@@ -285,6 +291,16 @@ Blue Owl reported Apr 30 and the stock SURGED, dragging the alt-manager complex 
 - Phase 3: PREDICTIONS — BRK-21 resolved CORRECT; BRK-22 raised 60→70%; new BRK-25/26/27/28
 - Phase 4-5 deferred to next session (cross-agent outbox + NAMES/TRADE)
 
+**2026-05-01 boot session (Phase 4 outbox sweep, commit d9db2e70):**
+- Outbox: LIQUID 🔴, REGINALD 🟠, OTTO 🟠, HAWK 🟡
+
+**2026-05-01 EOD session (5 commits):**
+- e50a964f — Live tape pull; **APO breached $130 close $131.20 = D1 of 3 position-kill**; HY OAS 283bps / 23bps from thesis-kill; full complex rallied (APO +7.3%, ARES +8.1%, BX +6.0% in 2 sessions on OWL Apr 30 print)
+- 52ea267a — NAMES/TRADE Phase 5 reassessment: APO trigger watch, ARCC entry deferred (Q1 spillover), BX added Tier 5 (bifurcation poster child), TRADE Section 8 per-position decisions w/ OBDC-collision branch logic
+- 461c2278 — `domain/sources/OBDC_PREBUILD_MAY06.md` (208 lines): Q4 baseline, NDX mark thresholds, BRK-27 NAV trigger $14.07, branch matrix bull/mixed/bear/max-bear, sequenced read priority
+- 7aaa6a18 — Bank PC cascade RESOLVED (LESSONS #5): JPM $50B + BAC $20B + Citi $22B + WFC $36.2B = $128B at top 4. WFC software collateral $6.2B. KB-BRK-136. Outbox 🔴 to REGINALD.
+- dc5e590b — VX-BRK-015 refresh, FLOW-BRK-014 refresh (stale numbers), FLOW-BRK-021 NEW (Software Collateral → BDC Mark → Bank PC Charge-Off transmission pathway)
+
 ---
 
-*Archive: `domain/sources/STATUS_ARCHIVE_APR10.md` | Triage: `domain/sources/INBOX_TRIAGE_MAY01.md` | KB: 121 entries | VX: 18 vectors | FLOW: 20 pathways | Predictions: 28 (4 ✅ / 17 OPEN / 1 PARTIAL) | Last full sweep: May 1*
+*Archive: `domain/sources/STATUS_ARCHIVE_APR10.md` | Triage: `domain/sources/INBOX_TRIAGE_MAY01.md` | KB: 125 entries | VX: 18 vectors | FLOW: 21 pathways | Predictions: 28 (4 ✅ / 17 OPEN / 1 PARTIAL) | Last full sweep: May 1 EOD*
