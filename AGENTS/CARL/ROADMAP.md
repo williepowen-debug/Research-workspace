@@ -1,7 +1,7 @@
 # CARL ROADMAP — "Where are we"
-**Updated:** 2026-04-30 (rebuilt from session state) | **Status:** ACTIVE
+**Updated:** 2026-04-30 (rebuilt from session state + investigations backlog added) | **Status:** ACTIVE
 
-Persistent state-of-CARL tracker across sessions. SCRATCH = "what to do next session." STATUS = "live dashboard." ROADMAP = "what threads are open, what data are we waiting on, what questions are unresolved, what just got done."
+Persistent state-of-CARL tracker across sessions. SCRATCH = "what to do next session." STATUS = "live dashboard." ROADMAP = "what threads are open, what data are we waiting on, what questions are unresolved, what we want to investigate next, what just got done."
 
 **Maintenance discipline:** Updated at session end before commit. If a thread is moved to RESOLVED, that's the audit trail of what each session shipped.
 
@@ -58,6 +58,24 @@ Persistent state-of-CARL tracker across sessions. SCRATCH = "what to do next ses
 | **Convergence score calibration** — 58/60 is subjectively scored. What would 30/60 look like? | Mar 31 (legacy) | Low priority. Important for intellectual honesty if conviction holds long. Each vector needs explicit downgrade criteria. |
 | **Counter-evidence rigor** — currently just COUNTER_LOG.md (running log). | Mar 31 (legacy) | Low priority. Old red_team/ structure had competing hypotheses; consider rebuild at sustained high conviction. |
 | **TRENDS (23d) / ML (22d) TSV refresh** | Apr 17 | Low priority — non-load-bearing on current threads. |
+
+---
+
+## INVESTIGATIONS BACKLOG
+*Research / deep-dive ideas not yet started. Each: what / why / scope. Pull from here when there's a research session and no urgent catalyst.*
+
+| Topic | Why interesting | Scope |
+|-------|-----------------|-------|
+| **Non-bank servicer stress map beyond PennyMac/loanDepot** | Lakeview 18%, Freedom 15.5%, Mr. Cooper, Carrington — DQ stale, advance-expense trajectory unclear. GAO flagged 35% high-debt, no stagflation test. MFS UK collapse = warehouse contagion template. Weakest links matter for Ginnie advance drain thesis. | Medium (1 session, 2-3 sub-agents) |
+| **K-shape upper-cohort quantification** | We claim "K-shape CONVERGING downward" with anecdotes (Dollar Tree +6.5M HH from >$100K, RV market collapse, retail investor withdrawal). Want a quantified magnitude — what % of top-40% is materially pulling back, and how does that compare to 2008 wealth-effect pullback? | Deep (multi-session synthesis) |
+| **Freight demand destruction framework** | Diesel divergence (KB-CARL-253) is the trigger. Build a working framework: which freight indicators lead, by how much, and at what scale do they produce visible consumer-credit transmission? Cass / ATA / class-1 rail / port volumes / Schneider-J.B. Hunt earnings. | Medium |
+| **Phantom debt $400B+ better quantification** | Current estimate is wide ($150-400B BNPL/cash advance/medical). Methodology mostly-extrapolation. Want a tighter range with explicit error bars and sensitivity to BNPL dataset choice. Affirm/Klarna/Sezzle/PayPal Pay-in-4 + earnin/Dave/MoneyLion + medical. | Deep (PHAN owns; CARL synthesis) |
+| **ABS terminal-CNL framework — AMCAR / HAROT / Ally** | Already have EART (32.3%), SDART (17.6%), AMCAR (14.5%) — but Honda and Ally Class E baselines not modeled. Q3-Q4 rating actions imminent on subordinate tranches; want explicit forecast curves. | Medium |
+| **Tricolor MTB ABS 2nd-channel implications for CARL** | REGINALD primary, but the auto-fraud→ABS-2nd-channel pattern has consumer-credit implications: did the borrowers actually exist? Does it expand the subprime-auto fraud-vintage we've been tracking via CVNA? | Quick (1 session research fork) |
+| **Sun Belt structural housing weakness — cycle dynamics** | Zillow 35.5% top-200 falling YoY (post-pandemic high). Realtor.com -2.3% SQFT 13-week streak. Sun Belt overweight in declines = direct overlap with KRE/WAL/OZK geo. Want: is this 2008-analog or different mechanism (insurance + climate + over-build)? | Deep (HOMER + MARCO joint) |
+| **FL Triple Squeeze full force-of-impact model** | Vector #7 is at 4 with energy + HOA + insurance components. No quantitative model of how it transmits to bank credit (FL deposit base, mortgage book, CRE concentration). MARCO has migration; we have consumer cost; REGINALD has bank-side — needs joint synthesis. | Deep (cross-agent) |
+| **$4.50 demand destruction empirical curve** | We assume "demand destruction at $4.30+" caps gas pump moves. Is there an actual consumer-behavior step-function, and where? VMT data, gasoline consumption, Visa/MC card data, GasBuddy panel. Would tighten CRL-08 ceiling logic. | Quick-Medium |
+| **Subchapter V +67% structural mapping** | Sub-V breach Apr 17 captured via NFIB. But: which sectors / sizes / states are concentrated? Tariff exposure overlap? POP has the framework but no granular cut. Would feed into REGINALD SB-provision Q2 prediction (CRL-16). | Medium (POP primary) |
 
 ---
 
