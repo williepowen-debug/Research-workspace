@@ -202,10 +202,11 @@ $100B+ distressed dry powder (KB-BRK-022) puts a floor under forced-seller prici
 ### 8A — APO Jun $100P ×1 (last marked ~$590)
 **Strike $100 vs spot $131.20** = $31 OTM. Time decay accelerating with ~7 weeks to expiry.
 - **Decision: HOLD through OBDC May 6.** Trigger watch D1/3 active. **Do not close before reading OBDC 10-Q.**
-- **Branch logic:**
-  - If APO closes >$130 May 4 + May 5 AND OBDC 10-Q is bullish (small NDX mark, no software cascade, gate mechanics absorb cleanly) → **EXIT** Jun $100P. Position-kill rule fires + bear catalyst fizzled.
-  - If APO closes >$130 sustained AND OBDC re-arms bear thesis (NDX large mark, software cascade visible, gate mechanics ugly) → **ROLL** Jun→Aug or Sep, do not close. Trigger fired but thesis intact = timeline issue, not thesis death (CLAUDE.md Rule #7).
-  - If APO retraces below $130 before May 5 → trigger watch resets, HOLD as-is.
+- **Pre-built decision matrix:** `domain/sources/OBDC_PREBUILD_MAY06.md` — threshold reads on NAV, NDX mark, non-accruals; bull/mixed/bear/max-bear branches with explicit EXIT/ROLL/HOLD calls.
+- **Branch logic (summarized):**
+  - APO sustains >$130 D2+D3 + OBDC bullish (NAV >$14.50, NDX 45-50¢, non-accrual flat) → **EXIT** Jun $100P
+  - APO sustains >$130 D2+D3 + OBDC bear (NAV <$14.07, NDX <30¢) → **ROLL Jun→Sep**, do not close
+  - APO retraces below $130 → trigger watch resets, HOLD as-is
 - **Conviction:** 4/5 (down from 5/5; runway shortened, trigger active).
 
 ### 8B — APO Dec $95P ×1 (last marked ~$920)

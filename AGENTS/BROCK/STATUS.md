@@ -230,7 +230,7 @@ Blue Owl reported Apr 30 and the stock SURGED, dragging the alt-manager complex 
 
 **Tier 2 — Q1 10-Q wave (NOW LANDING):**
 - [x] ARCC Q1 (Apr 28) read — BRK-22 partial confirm, conf 70→60; BRK-27 no fire; National Dentex undisclosed (consistent w/ Cerberus ownership)
-- **OBDC May 6** = next major test (gates mechanics, software, National Dentex marks at scale)
+- **OBDC May 6** = next major test — **PRE-BUILD READY** at `domain/sources/OBDC_PREBUILD_MAY06.md` (threshold reads, branch matrix, APO-trigger collision logic)
 - **FSK May 11** (rescheduled from May 6 — informational flag)
 - GBDC fiscal Q2 ~May 5-7
 - Then GCRED / OTF / Carlyle CTAC / BCRED 10-Q (TBD) for BRK-27 forced-mark candidates
