@@ -163,19 +163,35 @@ The stress is real and continuing — BCRED $3.2B Q1 requests, OWL DL -1.1%, 13 
 
 ---
 
-## FOLLOW-UP
+## FOLLOW-UP / NEXT SESSION
 
-- [ ] BROCK: **Monitor 10-Q filings daily through May** (BRK-27, 60% conf) — flag any markdown >5% on individual portfolio companies
-- [ ] BROCK: Watch HY OAS — 260bps = 1st thesis-kill threshold (currently 285; BRK-28)
-- [ ] BROCK: Watch APO $130 sustained — 1st position-kill threshold (currently 123; BRK-28)
-- [ ] BROCK: First SEC enforcement filing on PC valuation = Stage 3 catalyst (BRK-26, 55% conf)
-- [ ] BROCK: First arms-length BDC loan transaction <90¢ (BRK-25, 45% conf) — canonical Stage 3 trigger
-- [ ] BROCK: Track JPM/BofA/Citi PC quantification (overdue from Mar 12 disclosure cascade)
-- [ ] BROCK: Refresh BDC NAV median discount (current value 39 days old; VX-BRK-010 flagged)
-- [ ] BROCK: ARCC Q1 earnings due ~early May = test for BRK-22 (raised to 70%)
-- [ ] BROCK: Phase 4 deferred — cross-agent outbox sweep (LIQUID re HY OAS proximity, REGINALD re BX backstop precedent + SEC subpoena, OTTO re OWL Q1 DL, HAWK re Treasury insurance regulator convening)
-- [ ] BROCK: Phase 5 deferred — NAMES.md / TRADE.md tier reassessment given +16-22% rally
-- [x] ~~Inbox sweep~~ — DONE 2026-05-01 (17 signals processed; see `domain/sources/INBOX_TRIAGE_MAY01.md`)
+**👉 Authoritative plan: `domain/sources/NEXT_SESSION_PLAN_MAY01.md`** — read this first at next boot.
+
+Tiered summary (full detail + reasoning in the plan file):
+
+**Tier 1 — Do first (deferred mechanical):**
+- Phase 4 outbox sweep: LIQUID (🔴 HY OAS 260 proximity), REGINALD (BX backstop precedent + SEC subpoena), OTTO (OWL Q1 DL), HAWK (Treasury insurance regs + Athene FHLB)
+
+**Tier 2 — Q1 10-Q wave (catalyst window):**
+- ARCC Q1 (~early May) = direct test for BRK-22 (70%); also verify ARCC's National Dentex exposure
+- Broader Q1 sweep — 17 cos in non-accrual+PIK as forced-mark candidates (BRK-27, 60% conf)
+- **Apply LESSONS #11** — separate fee from lending economics
+
+**Tier 3 — Slow refreshes:**
+- VX-BRK-010 BDC NAV discount (39 days stale)
+- JPM/BofA/Citi PC quantification (OVERDUE since Mar 12)
+- BRK-09 HRZN merger close verification
+- Phase 5 NAMES/TRADE tier reassessment
+
+**Tier 4 — Adaptive priority shifters (drop everything if any fires):**
+- HY OAS 260 sustained → BRK-28 thesis-kill
+- APO sustained $130+ → BRK-28 position-kill
+- Arms-length sub-90¢ BDC loan transaction → BRK-25 Stage 3 catalyst
+- First SEC enforcement filing → BRK-26 Stage 3 catalyst
+- BDC Q1 10-Q markdown >5% → BRK-27 fires
+
+**Done this session:**
+- [x] Inbox sweep (17 signals processed; see `domain/sources/INBOX_TRIAGE_MAY01.md`)
 
 ---
 
