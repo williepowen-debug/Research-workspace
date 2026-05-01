@@ -27,17 +27,19 @@ You coordinate sub-agents: BROCK (BDC/private credit), CREED (CRE market-level),
 2. **Read `LESSONS.md`** — mistake patterns to avoid
 3. **Read `CALENDAR.md`** — upcoming dates, earnings, signal thresholds
 4. **Read `MEMORY.md`** — ends on session handoff: CHANGES SINCE + NEXT SESSION action items
-5. **Price refresh** — run `.venv/bin/python3 scripts/market.py` from workspace root. Compare against STATUS.md thresholds (KRE <$60, WAL <$78, HY OAS >320). Flag breaches or significant moves (>3%) in boot report. Note what changed since last session for CHANGES SINCE section.
-6. **Scan inbox** — `ls inbox/` (exclude `processed/`). Report count + senders. Do NOT process — just awareness.
-7. **Check sub-agent STATUS files if relevant** — `../BROCK/STATUS.md` (top-level agent), `sub-agents/CREED/STATUS.md`, `sub-agents/CORAL/STATUS.md`
+5. **Read `ROADMAP.md`** — persistent state across sessions: open threads, awaiting data, open questions, investigations backlog, recently resolved. Tells you what's alive across sessions.
+6. **(Optional) Skim `SCRATCH.md`** — loose intra-day notes. Read if continuing partial day's work, or if MEMORY/ROADMAP point at unresolved details.
+7. **Price refresh** — run `.venv/bin/python3 scripts/market.py` from workspace root. Compare against STATUS.md thresholds (KRE <$60, WAL <$78, HY OAS >320). Flag breaches or significant moves (>3%) in boot report. Note what changed since last session for CHANGES SINCE section.
+8. **Scan inbox** — `ls inbox/` (exclude `processed/`). Report count + senders. Do NOT process — just awareness.
+9. **Check sub-agent STATUS files if relevant** — `../BROCK/STATUS.md` (top-level agent), `sub-agents/CREED/STATUS.md`, `sub-agents/CORAL/STATUS.md`
 
 ### Execute
-8. **Execute the task**
+10. **Execute the task**
 
 ### Write-back
-9. **Research detail → `domain/sources/`**
-10. **Cross-agent signals → `outbox/`** (HERMES delivers)
-11. **Run session close checklist** (see below)
+11. **Research detail → `domain/sources/`**
+12. **Cross-agent signals → `outbox/`** (HERMES delivers)
+13. **Run session close checklist** (see below)
 
 ### Session Close Checklist
 
@@ -55,6 +57,8 @@ Before ending, complete in order:
   - `NEXT SESSION`: numbered action items — specific, checkable
   - Add new Feedback or Findings entries if earned this session
   - Prune any stale entries
+- [ ] **ROADMAP.md** — update persistent state: move resolved threads to "Recently Resolved"; refresh "Last Touched" dates on threads worked; add new threads/backlog items surfaced this session; update awaiting-data dates as events resolve
+- [ ] **SCRATCH.md** — prune aggressively. Promote useful entries to KB / ROADMAP / MEMORY / STATUS. Delete what's done. Date sections older than ~2 weeks should be deleted unless they earned a promotion.
 - [ ] **Git commit** — stage changed REGINALD files and commit
 
 **Thesis management:** Master thesis lives in `thesis/THESIS.md` (versioned, v1.3+). Forward calendar in `thesis/TIMELINE.md`. Changes tracked in `thesis/CHANGELOG.md`. Read thesis files for deep context — they are NOT read at every boot, only when the task requires thesis-level understanding. **Rule: Any time you modify THESIS.md or TIMELINE.md, you MUST append an entry to CHANGELOG.md** documenting: what changed, why, old view vs new view. Bump the version number (minor for refinements, major for structural thesis changes).
@@ -124,6 +128,8 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 | **MEMORY.md** | Cross-session memory: feedback from Will, data source findings, session handoff (CHANGES SINCE / LAST SESSION / NEXT SESSION). | Recaps of STATUS data. If it's already in STATUS, don't repeat here. |
 | **LESSONS.md** | Mistake patterns — verified errors that burned us. Structural rules. | Session notes or findings. Only confirmed mistakes with prevention rules. |
 | **WAL/STATUS.md** | WAL-specific: price, thesis, vectors, research agenda, earnings prep. | System-wide indicators (→ STATUS) |
+| **ROADMAP.md** | Persistent state across sessions: open threads (with last-touched dates), awaiting data (calendar of external prints), open questions, investigations backlog, recently resolved (~2wk audit trail). Updated at session end. | Live dashboard data (→ STATUS), session-bridge handoff (→ MEMORY Session Notes), thesis-level shifts (→ thesis/CHANGELOG), curated facts (→ MEMORY) |
+| **SCRATCH.md** | Loose intra-day workspace: half-thoughts, format gotchas, one-liners cached, things noticed but not pursued, draft language. Promoted or deleted regularly. | Tasks (→ MEMORY NEXT SESSION). Curated facts (→ MEMORY). Thesis (→ THESIS). Backlog items (→ ROADMAP investigations). |
 
 *OZK is a top-level peer agent — its doc ownership lives in `../OZK/CLAUDE.md`.*
 
@@ -226,6 +232,8 @@ Metropolitan Capital failed with 61% true CRE (labeled 10.7%). Three masking lev
 | `STATUS.md` | Live state — sub-agent dashboard, FHLB, watchlist. **Primary snapshot.** ≤250 lines. |
 | `CALENDAR.md` | Forward-looking dates, earnings, signal thresholds. Pure table. **Boot step 3.** Prune weekly. |
 | `MEMORY.md` | Cross-session memory: feedback, findings, references, session handoff. **Boot step 4. Write before finishing.** |
+| `ROADMAP.md` | Persistent state across sessions — open threads, awaiting data, open questions, investigations backlog, recently resolved. **Boot step 5. Update before finishing.** |
+| `SCRATCH.md` | Loose intra-day notes / observations / format gotchas / one-liners. **Boot step 6 (optional). Prune before finishing.** |
 | `POSITIONS.md` | Thesis-relevant positions (bank puts, credit, convergence). Updated from broker screenshots. |
 | `LESSONS.md` | Mistake patterns — read at boot. Distinct from MEMORY (lessons = verified errors, memory = learnings + handoff). |
 | `inbox/` | Inbound signals from other agents. Process when spawned for it. |
