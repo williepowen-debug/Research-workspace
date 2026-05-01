@@ -1,85 +1,156 @@
 # WAL STATUS
-**Last Updated:** 2026-04-02 | **Status:** 🔴🔴 HIGH CONVICTION SHORT
-**Price:** $72.09 (Apr 2, below $78 threshold) | **Assets:** $90B+
-**Consensus:** Mod Buy (11B/4H), PT $97.73 | **KB:** 70 rows, 10 groups
+
+**Last Updated:** 2026-05-01 9:50 ET (post-v2 thesis refresh) | **Thesis:** v2.0 "Compounder with Concentrated CRE Tail Risk" (`THESIS.md`, `CHANGELOG.md`)
+**Price:** $80.90 (May 1, 9:50 ET intra; -0.78% on session) | **Threshold:** $78 | **Buffer:** +$2.90 🟢
+**Status:** 🟠 SHORT THESIS ACTIVE — V2 resolved in print, V1 sharpened to Office single-point, V3 directionally disconfirmed at aggregate
+**KB:** 70 rows / 10 groups (refresh pending Wave 1 chunk 4) | **Consensus:** Mod Buy (cohort median) | **Assets:** ~$90B+
 
 ---
 
-## Key Numbers (Q4 2025)
+## Q1 2026 PRINT SNAPSHOT (Apr 21 AMC)
 
-| Metric | Value | Signal |
-|--------|-------|--------|
-| CRE / Tier 1 Capital | **474%** (guideline: 300%) | 🔴 |
-| True CRE Exposure | ~59% of loans (labeled ~35%) | 🔴 |
-| Memo Item 3 / C&I | **24.2%** (GROWING: 15.5%→24.2%) | 🔴 |
-| Hidden CRE Amount | $2.73B | 🔴 |
-| SSFA Capital Savings | $1.1B on $17.2B exposures | 🔴 |
-| NCO Rate (SF District) | **1.13%** (highest nationally) | 🔴 |
-| 30-89 Day Pipeline (SF) | **0.26%** (lowest nationally) | ⚠️ Fast-transmission |
-| Insider Buying | **Zero** | 🔴 |
-| CFO | Replaced by JPM FIG restructuring banker | 🔴 |
+| Metric | GAAP | Adjusted | Consensus | Read |
+|---|---|---|---|---|
+| Diluted EPS | $1.65 | $2.22 | $1.73 | GAAP **miss -4.6%**; Adj **beat +28%** |
+| Revenue | $1.018B | — | $948.4M | **beat +7.3%** |
+| NIM | 3.54% | — | — | +7bps YoY |
+| Total NCOs | $208.5M | $56M ex-fraud | — | 1.45% GAAP / **0.39% ex-fraud** annualized |
+| Provision for credit losses | $213.2M | — | — | Driven by LAM (full write of remaining balance) |
+| Classified assets / total assets | 1.08% | — | 1.17% Q4 25 | -9bps QoQ (lagging buckets cleaning) |
+| 30-89d PD accruing | $157M | — | $108M Q4 25 | **+45% QoQ** (leading building 🔴) |
+| Special Mention | $403M | — | $325M Q4 25 | **+24% QoQ** (leading building 🔴) |
+| CET1 | 11.0% | — | 11.0% Q4 25 | Steady through provision shock |
+| TBV / share | $61.14 | — | — | +13.0% YoY (compounder evidence) |
+| Deposits | $82.7B | — | $77.1B Q4 25 | **+$5.6B QoQ (+7.2%) — cohort-leading** |
+| Loan-to-deposit | 71.5% | — | 76.0% Q4 25 | De-levering funding side |
 
----
-
-## Positions
-
-| Strike | Expiry | Contracts | Current | Thesis Alignment |
-|--------|--------|-----------|---------|-----------------|
-| $85P | Jun 18 | 1 | +170% ($1,009) 🔥 | Deep ITM, minimal decay |
-| $77.5P | Sep 18 | 1 | +83% ($459) | Core position |
-| $70P | Sep 18 | 1 | +15% ($121) | Needs further decline |
-| $65P | Jun 18 | 1 | -17% (-$79) | Aggressive strike |
-
-**Earnings: ~April 21, 2026** — ~27 days
+**Tape on the print (Apr 22 intraday):** -2.04% to $77.83 — briefly breached $78 threshold. Recovered above $78 from Apr 24 onward; Apr 30 risk-on close $81.54.
 
 ---
 
-## What's Changed (Recent)
+## V2 FRAUD CONFIRMED — $152.5M Q1 CHARGE-OFF (RESOLVED)
+
+| Credit | Q1 Charge-off | Status |
+|---|---|---|
+| **LAM** (Leucadia Asset Mgmt = Jefferies subsidiary) | $126.4M | RESOLVED — full write of remaining balance |
+| **Cantor Group V** | $26.1M | PARTIALLY RESOLVED — ~$46M residual + $13M senior liens |
+| **Total** | **$152.5M** | Mgmt labeled "fraud-related" publicly |
+
+LAM was 70% of total Q1 C&I NCOs ($181.4M). Single-credit charge-off at 21bps of the $59B loan book. **V2 chain produced a regional-bank charge-off visible in 8-K text** — clearest single thesis confirmation any cohort reporter delivered in Q1.
+
+---
+
+## V1 OFFICE CONCENTRATION (Slide 12) — STRENGTHENED
+
+| Category | $ Classified | % of Classified | % of HFI Book | Stress | Disproportion |
+|---|---|---|---|---|---|
+| **Office** | **$407M** | **38%** | ~4% | **18.5%** | **9.5x** 🔴 |
+| C&I | $342M | 32% | 48% | — | 0.7x |
+| Construction & Land | $128M | 12% | 7% | 3.1% | 1.7x |
+| Other / Resi / CRE Investor non-Office | $193M | 18% | — | 0.36-0.40% | <0.3x |
+
+**$946M of $2.2B Office book matures during 2026 (Slide 23).** 90% Suburban / 10% Midtown / 0% CBD. 20% of book at LTV >70%; **12% at LTV >80% ($264M = equity-thin).**
+
+---
+
+## V3 NDFI / WAREHOUSE — REFINED (Slide 24)
+
+| Sub-vector | Status | Evidence |
+|---|---|---|
+| Aggregate NDFI | **At cohort median** | 7% Ex-Mtg Credit (peer median 6%, avg 8%) — disconfirmed |
+| Lender Finance ($2.3B) | **Structurally protected** | 2,000 obligors / 50+ facilities / no single >$30M / 53% advance rate / 1.9-yr duration |
+| CLN reference pool | **Shrinking** | $8.5B → $7.9B YoY (-$600M) |
+| Mortgage Warehouse & MSR | **Lone confirming sub-vector** | $7.155B (12% of loans, 30x peer median) — sits in C&I, not NDFI |
+| Hotel ($4.5B) | **Latent watch** | 0.40% non-Office classified rate; LTV 53%; not currently stressed |
+
+V3 reduced from "major thesis pillar" to "quality-of-names question on the 2,000 lender-finance obligors." Mortgage warehouse counterparty transmission lands at Apollo Atlas SP, not WAL (`domain/WAREHOUSE_EXPOSURE.md`).
+
+---
+
+## MGMT 2026 OUTLOOK (Slide 17) — KEY TENSIONS
+
+| Metric | Guide | Q1 Actual | Tension |
+|---|---|---|---|
+| NCO ex-LAM/Cantor | 25-35bps | **39bps** | 🔴 Above guide top. Q2-Q4 must avg 22-33bps to hold. |
+| NII | +11-14% (sans 2 cuts) | tracking | 🟢 Variable-rate book benefits |
+| Non-interest income | **+20-25%** (raised from +2-4%) | $252.6M (+97% YoY) | 🟢 Juris real driver |
+| Deposit costs | **$650-700M** (raised from $535-585M) | tracking | 🟠 ECR pressure on fewer cuts |
+
+---
+
+## POSITIONS
+
+| Strike | Expiry | Contracts |
+|---|---|---|
+| $85P | Jun 18 | 1 |
+| $77.5P | Sep 18 | 1 |
+| $70P | Sep 18 | 1 |
+| $65P | Jun 18 | 1 |
+
+**P/L stale (last broker import Apr 2). Live P/L → `../POSITIONS.md`.** Per CLAUDE.md rule: "Prices must be live. Never cite prices from STATUS files."
+
+---
+
+## CATALYSTS
+
+| Date | Event | What it tests |
+|---|---|---|
+| **May 1-10** | **Q1 Call Report filings (FFIEC)** | **MI3 trajectory (V1 acceleration test ≥25%)** + NDFI line reconcile |
+| May 6 | APO Q1 (pre-market) | Atlas SP context, warehouse-counterparty story |
+| **May 12** | **WAL Investor Day** | Mgmt response to thesis vectors — Office concentration, MI3, ECR pressure |
+| May 21 | APO class action deadline | PC sector headline risk |
+| **Jun 18** | **$85P + $65P expiry; AOCI comment period closes** | Position management decision |
+| Q2 print (~Jul) | Quarterly | NCO ex-fraud test (REG-25); Office classified migration (REG-24) |
+| Sep 18 | $77.5P + $70P expiry | Position management |
+
+---
+
+## RESEARCH AGENDA — POST-v2
+
+**V1 (Office single-point):**
+- [ ] Q1 Call Report MI3 trajectory (May 1-10) — ≥25% confirms V1 acceleration
+- [ ] CRE Non-Owner Occupied charge-off composition ($27.7M Q1 = largest in 5 quarters; 5Q TTM 64bps annualized)
+- [ ] Office classified detail by property type — of $407M, how much is CBD-adjacent vs suburban?
+- [ ] Office maturity schedule by quarter (Q2-Q4 26 breakdown of $946M)
+
+**V2 (Jefferies/MFS — RESOLVED, but follow-ups):**
+- [ ] Other Jefferies / Leucadia-era credits inventory — DEF 14A pass + Q&A transcript review
+- [ ] Cantor residual recovery posture (~$46M + $13M senior liens)
+- [x] V2 chain confirmation — RESOLVED Apr 21 ($152.5M LAM + Cantor)
+- [x] Jefferies Q1 transmission — RESOLVED Mar 25 (JEF EPS $0.70 vs $0.91, $17M MFS losses, V2 confirmed at JEF P&L)
+
+**V3 (NDFI/Warehouse — refined):**
+- [ ] Lender Finance fund-level concentration (top 10 fund exposures, default rates) — resolves remaining quality-of-names question
+- [ ] Mortgage Warehouse counterparty list — verify Apollo Atlas SP exclusion stands
+- [x] NDFI cohort comparison — RESOLVED via Slide 24 (cohort median)
+- [x] CLN pool size trend — RESOLVED via Slide 13 ($600M YoY shrinkage)
+
+**Macro / cross-channel:**
+- [ ] Hotel sub-portfolio NCO trajectory ($4.5B latent — Q2-Q3 migration watch)
+- [ ] Updated insider filings — any Form 4s post-print
+- [ ] Investor Day May 12 thesis-vector response
+
+---
+
+## AOCI EXPOSURE
+
+Cat III/IV mandatory unrealized AFS loss recognition phasing in. Same AOCI dynamic as OZK — separate capital drain from credit losses, two simultaneous bleeds. Comment period closes **Jun 18**. Industry aggregate $49.5B hit across 21 banks.
+
+---
+
+## RECENT CHANGES (rolling 30 days)
 
 | Date | Event |
-|------|-------|
-| Mar 31 | `LEADERSHIP.md` created — full C-suite, board, audit committee, auditor, CRE leadership, ownership. CFO Idnani corrected to Vishal. Guggenheim on Risk (NOT Audit) — expertise/oversight gap. |
-| Mar 31 | Chart analysis (1W/1M/3M/5min): institutional distribution pattern. Volume front-loaded on spike days, dead between. Bounce from $65 on thin volume = no accumulation. |
-| Mar 26 | Analyst downgrades: Weiss Buy→Hold, Barclays PT $105→$90, WFC PT $83→$79. Consensus PT ~$85-90 (thesis: $47-60). KB 61→70 rows. EARNINGS_PREP upgraded B+→A-. |
-| Mar 26 | $400B CRE maturity wall confirmed for 2026. CMBS $167M Chicago office foreclosure sets loss severity benchmark. |
-| Mar 26 | Jefferies Q1 confirmed: EPS $0.70 vs $0.91 (-23%), $17M MFS losses. V2 chain has P&L confirmation. |
-| Mar 26 | BROCK: NDFI total = $1.54T (5x prior model). WAL's $10.8B OBS SSFA may be NDFI warehouse exposure. V3 amplified. |
-| Mar 25 | KB.tsv seeded (61 rows, 10 groups) + architecture buildout |
-| Mar 23 | FDIC geographic analysis integrated, insider scan completed |
-| Feb 27 | Convergence Day: -10.64% on zero WAL-specific news |
+|---|---|
+| **May 1** | THESIS v2.0 released — "compounder with concentrated CRE tail risk" framing supersedes v1 "fast-transmission failure." `CHANGELOG.md` created. |
+| Apr 30 | Risk-on tape close $81.54 (+2.35%). Holds above $78 threshold. |
+| Apr 24 | Round 2 deep-mine — deck + press release synthesis files in `sources/q1_2026/` (~1,200 lines). Slide 12 Office single-point reading corrected to 38% / 9.5x disproportion. Slide 23 $946M maturity wall surfaced. Slide 24 NDFI cohort-median finding closes V3 outlier framing. |
+| Apr 22 | Round 1 analysis (`Q1_2026_ANALYSIS.md`) — V2 fraud labeled in 8-K. Tape -2.04% to $77.83 intraday (briefly breached $78). |
+| **Apr 21** | **Q1 2026 print AMC** — V2 RESOLVED in 8-K: LAM $126.4M + Cantor $26.1M = $152.5M charge-off. Mgmt-labeled "fraud-related." GAAP EPS $1.65 (miss); Adj $2.22 (beat). $50.5M security-sales gain absorbed LAM charge. |
+| Mar 31 | `LEADERSHIP.md` complete — CFO Idnani (JPM FIG, 20yr MD) profile, board risk additions Dec 2025 (Clarke Starnes III ex-Truist CRO), Guggenheim on Risk not Audit. |
+| Mar 26 | Analyst downgrades: Weiss Buy→Hold; Barclays PT $105→$90; WFC PT $83→$79. |
+| Mar 25 | JEF Q1: EPS $0.70 vs $0.91 (-23%); $17M MFS losses; SMFG walked back. V2 chain confirmed at JEF P&L (4 weeks before WAL Q1 print delivered the regional-bank-side confirmation). |
 
 ---
 
-## Catalyst Calendar
-
-| Date | Event | Impact |
-|------|-------|--------|
-| **Mar 25** | **Jefferies Q1 after close** | Double-pledging exposure, credit provisions |
-| **~Apr 21** | **WAL Q1 earnings** | 19 days — PRIMARY. CRE provision reveal |
-| May 1 | APO class action deadline | PC sector pressure |
-| May 12 | WAL Investor Day | Management forced to address thesis |
-| Jun 18 | $85P + $65P expiry | |
-| Sep 18 | $77.5P + $70P expiry | |
-
----
-
-## Research Agenda
-
-- [x] **Jefferies Q1 reaction** — EPS $0.70 vs $0.91 (-23%). $17M MFS losses. TBVPS -15.7% YoY. V2 confirmed. SMFG "no immediate plans." (KB-WAL-066)
-- [ ] **WAL Call Report RC-C** — state-level noncurrent rates (AZ, CA, NV)
-- [ ] **Cantor Note Finance update** — any restructuring, additional markdowns
-- [ ] **SSFA regulatory signals** — any OCC/FDIC commentary on securitization risk weights
-- [ ] **Updated insider filings** — any new Form 4s (refresh by Apr 18)
-- [ ] **SMFG/Jefferies acquisition progress** — walked back "no immediate plans" — monitor
-- [ ] **Nevada gaming + housing stress** — Mortgage distress ATH; Google Trends signal. Cross-ref NV gaming data for KB-WAL-041.
-- [ ] **OZK Apr 16 read-through** — AZ/NV CRE stress = direct WAL thesis preview 5 days before earnings
-- [ ] **Analyst consensus refresh** — watch for additional PT cuts post-OZK (baseline: Weiss Hold, Barclays $90, WFC $79)
-
----
-
-## AOCI Exposure
-**Cat III/IV — mandatory unrealized AFS loss recognition phasing in.** Same AOCI bomb as OZK. Fed/FDIC/OCC capital rewrite forces recognition of underwater AFS/HTM from 2022-23 rate shock. Separate capital drain from credit losses — two simultaneous bleeds. Comment period closes Jun 18.
-
----
-
-*Thesis → `THESIS.md` | Technicals → `TECHNICALS.md` | Evidence → `workbook/KB.tsv` (70 rows, 10 groups)*
+*Thesis (v2.0) → `THESIS.md` | Changelog → `CHANGELOG.md` | Round 2 deep-mine → `sources/q1_2026/` | Fraud detail → `FRAUD/` (refresh pending Wave 1 chunk 3) | Evidence → `workbook/KB.tsv` (refresh pending chunk 4) | Scenarios → `SCENARIOS.md` (re-weight pending chunk 5) | Insiders → `LEADERSHIP.md` | Pre-print prep → `EARNINGS_PREP.md` (historic)*

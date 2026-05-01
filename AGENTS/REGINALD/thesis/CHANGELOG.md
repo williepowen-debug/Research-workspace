@@ -8,6 +8,34 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-05-01 — WAL bank-thesis: v1.0 → v2.0 (Q1 2026 Round 2 integration)
+
+### Bank-Thesis Update — master THESIS.md unchanged
+**Author:** REGINALD (with Will approval)
+**Action:** `WAL/THESIS.md` transitioned from v1.0 ("Fast-Transmission Thesis," Mar 25) → v2.0 ("Compounder with Concentrated CRE Tail Risk"). Primary audit trail: `../WAL/CHANGELOG.md`.
+
+**What changed at WAL bank-thesis level:**
+
+- **V1 (Hidden CRE) STRENGTHENED via Office single-point** — Slide 12: 38% of classified ($407M), 9.5x book-share disproportion, 18.5% stress rate; Slide 23: $946M Office matures 2026 (43% of $2.2B Office book)
+- **V2 (Jefferies/MFS fraud chain) RESOLVED in public 8-K** — $152.5M Q1 charge-off (LAM $126.4M + Cantor $26.1M), mgmt-labeled "fraud-related." LAM = Leucadia Asset Mgmt = Jefferies subsidiary post-2013 merger. The chain produced a regional-bank charge-off visible in 8-K text.
+- **V3 (SSFA / NDFI / Warehouse) REFINED — directionally disconfirmed at aggregate** — Slide 24: WAL at cohort median (7% Ex-Mtg Credit vs peer 6%). Lender Finance $2.3B structurally protected. CLN pool shrinking $600M YoY. Only $7.155B Mortgage Warehouse confirms (12% of loans, 30x peer median, classified as C&I not NDFI).
+- **New predictions:** REG-24 (WAL Office classified > $500M by Q3 2026, 60%) and REG-25 (ex-fraud NCO > 40bps in Q2 or Q3 2026, 55%).
+- **PT range:** $47-60 → $55-70.
+
+**Why noted in master CHANGELOG (master THESIS.md unchanged):**
+
+WAL Q1 deck integration is the most material thesis-evidence event since v1.4 (Apr 16). Even though master `THESIS.md` is not edited in this update, the WAL bank-thesis transition has implications for the next master-thesis pass:
+
+- **Bank × Cluster table (Section 1.5):** WAL's Cluster B (Shadow Banking / NDFI) cell may need to step down — WAL is at cohort median on NDFI, not outlier. Flagged for review.
+- **Validation Scorecard (Section 7):** G2 (CRE recognition) gets a partial confirmation hit from WAL Office single-point disclosure. G3 (Channel B bridge) gets a partial disconfirmation hit from WAL NDFI-cohort-median finding.
+- **Cluster A ↔ Cluster D amplification:** WAL ex-fraud NCO 39bps already above mgmt guide top is a Cluster D (macro trap) → Cluster A (CRE) transmission signal worth reflecting in next refresh.
+
+**Master THESIS.md unchanged.** Master Bank × Cluster table refresh + Validation Scorecard re-score deferred to a future master-thesis update — likely after Q1 Call Reports (May 1-10) and WAL Investor Day (May 12) also land, so the refresh integrates multiple data points at once.
+
+**Evidence base:** WAL Q1 2026 8-K (Apr 21), Earnings Deck v2 (Apr 21), Earnings Call transcript, Round 1 analysis (Apr 22), Round 2 deep-mine synthesis files (Apr 24). Detail in `../WAL/CHANGELOG.md`.
+
+---
+
 ## 2026-04-16 — v1.4: C&I AS CONVERGENCE HIDING PLACE
 
 ### THESIS Updated → v1.4

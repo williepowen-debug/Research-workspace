@@ -16,7 +16,7 @@
 |------|-------|---------------|-------------------|-----------|
 | **Apr 28 ✅** | **RITM Q1: EPS $0.51 / GAAP $0.12 (hedging gap), Rev $1.38B beat** — resolved | EPS $0.51 vs $0.50; Rev $1.38B vs $1.25B (+10.4% beat). Servicing UPB $850B. Origination +31% YoY to $15.5B. AUM $59B (Crestline). | **Mgmt "DQ will reverse Q1" claim NOT surfaced in headlines** — transcript pull needed for confirmation. NewRez = #3 non-money-center servicer; WAL V3 warehouse counterparty thesis tied. | CARL, REGINALD (WAL V3) |
 | **Apr 28 ✅** | **BOJ Apr 28 — HOLD + HAWKISH (modal v1.3)** — resolved | Held 0.75% as expected. **3 dissents** (Takata/Tamura/Nakagawa) for 1.0%, biggest split since 2016. GDP cut 1.0→0.5%, inflation upgraded, Ueda hawkish presser. Swap pricing **74% June hike**. | June hike near-locked. Ch4 (Japan→CLO→BDC→bank fund finance) timeline tightens into Q2/Q3. | SAM (primary), LIQUID, REGINALD |
-| **Apr 30** | **OWL Q1 earnings AMC** | Forward fee-base trajectory; OCIC/OTIC redemption-cap commentary; founder unwind context; Fed PC-inquiry exposure | Pairs with PC-stress meta-cluster ≥9 nodes. Forward fee-base trajectory = real risk per WALTER SIG-029-002 verify. | BROCK (primary), REGINALD (info), HENRY |
+| **Apr 30 ✅** | **OWL Q1 earnings AMC — printed; BROCK primary** | Forward fee-base trajectory; OCIC/OTIC redemption-cap commentary; founder unwind context; Fed PC-inquiry exposure | Pairs with PC-stress meta-cluster ≥9 nodes. REGINALD info-pickup deferred to BROCK ownership; CFG fund-finance score (9→12+) gated on BROCK read. | BROCK (primary), REGINALD (info — deferred), HENRY |
 
 ## MAY
 
