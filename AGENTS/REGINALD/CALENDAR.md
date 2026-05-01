@@ -30,17 +30,6 @@
 | ~Mid-May | FDIC Quarterly Banking Profile | Aggregate CRE DQ, NDFI growth, provision trends | NDFI still +35% YoY = doubling down | PROME |
 | May 21 | APO class action deadline | PC sector headline risk | — | BROCK |
 
-## MAY
-
-| Date | Event | What to Check | Threshold / Signal | Who Cares |
-|------|-------|---------------|-------------------|-----------|
-| **TBD May** | **ROAD to Housing Act House vote** | Drafting errors that would *decrease* FHA MF limits below current law (per industry comments). If enacted as-written = bearish MF refi/takeout 2026-2027. | Contradicts bill's stated intent. WALTER caught: SIG-W-20260414-005. | CREED, BROCK |
-| **~May 1-10** | **Q1 Call Report filings (FFIEC)** 🔴 | MI3 ratios, NDFI, AOCI detail, CRE DQ by category, TDR/mods. **NEW for OZK:** RESG classified detail, specific reserves on problem credits (validate Thread 1 EL estimates). | WAL MI3 ≥25% = acceleration. **More important than earnings for thesis.** Now: reconcile to CFG Slide 24's $19.6B preliminary NDFI. | PROME, REGINALD |
-| May 12 | WAL Investor Day | Management response to thesis vectors. Indirect IQHQ commentary possible (WAL has separate relationship?) | — | PROME |
-| **May 15** | **KRE $70P expiry** | Position management | Roll/close decision needed by ~May 8 | FORGE |
-| ~Mid-May | FDIC Quarterly Banking Profile | Aggregate CRE DQ, NDFI growth, provision trends | NDFI still +35% YoY = doubling down | PROME |
-| May 21 | APO class action deadline | PC sector headline risk | — | BROCK |
-
 ## JUNE
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
