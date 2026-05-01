@@ -1,9 +1,23 @@
 # SAM TIMELINE
 
-**Last Updated:** 2026-04-28
+**Last Updated:** 2026-04-30
 **View:** Base case progression with branch points marked
 
 This document maps our forward-looking expectations — what's coming, what we think happens, and where the path could diverge. Updated as events resolve or views change.
+
+---
+
+## RESOLVED — Apr 29-30 (POST-BOJ TOKYO SESSION REPRICE)
+
+### Wed-Thu Apr 29-30 — TOKYO SESSION RE-RATES JPY ✅ RESOLVED — BULL FORK
+
+- **Event:** First two Tokyo sessions digesting Apr 28 BOJ hawkish hold + 3-dissent split.
+- **Outcome:** **JPY strengthened broadly.** USD/JPY 159.60 → **157.19** (-2.41 yen, -1.5%). EUR/JPY 186.92 → 184.34 (-2.58). GBP/JPY 215.77 → 213.78 (-1.99). FXY $57.49 → **$58.63 (+1.98%)**. Move is broad-based, not a USD-specific story → confirms it's BOJ-pricing, not crosscurrents.
+- **JGB 10Y:** 2.477% → **2.520%** (+4bp); 28-year-high zone, +12bp through 2.40% stress threshold.
+- **Tranche 2 trigger:** Per Apr 28 STATUS matrix, Scenario 2 ("Hold + Hawkish") action was "+2 at $58.00-58.25 if Tokyo session re-rates JPY higher overnight." **Trigger condition met.** FXY pierced and held above zone.
+- **Politics:** Katayama/Aida QUIET — no public Diet pushback, no BOJ Law revision threats. Bloomberg ran a Takaichi/Katayama profile (Apr 29) but no escalation framing. Reuters: "BOJ wins first showdown with Takaichi." D2 escalation channel quiet for now.
+- **2Y JGB auction Apr 30:** BTC **5.24x**, avg yield 1.407%, tail 0.005 yen (extraordinarily tight), coupon 1.4%. Front-end demand robust. JGB market continues orderly across the curve (post-2Y auction Apr 30, plus Apr 14 20Y BTC 4.82x, Apr 7 30Y BTC 3.11x, Apr 9 5Y BTC 3.58x).
+- **Net:** **BULL FORK confirms v1.3.** The hawkish hold was a real signal — market priced it. June hike near-locked. CFTC release Friday is the next read on whether shorts cover or keep building. No thesis bump warranted (per Apr 11 restraint lesson) — Apr 29-30 confirms what Apr 28 telegraphed.
 
 ---
 
@@ -330,7 +344,11 @@ These are the moments where our expected path could fork:
 | **Apr 22** | Nippon FY2026 briefing | Clear foreign cuts | Ambiguous | 🟡 **RESOLVED: AMBIGUOUS** — cutting yen bonds, direction unclear |
 | **Apr 23** | March CPI | ≥2.0% core → BOJ locked | <2.0% | 🟡 **RESOLVED: NEUTRAL** — 1.8% core, accelerating |
 | **Apr 28** | BOJ meeting | Hike → +4-7% / Hold+hawkish → +1-2% / Dovish → -2-3% | n/a | ✅ **RESOLVED: MODAL+** — held + 3 dissents (biggest split since 2016), GDP cut, infl up, June swap 74% |
+| **Apr 29-30** | Tokyo session reprice | JPY strengthens → Tranche 2 fires | JPY flat → market skeptical of hawkish hold | ✅ **RESOLVED: BULL** — USDJPY -2.4y to 157.19, FXY +1.98% to $58.63, Tranche 2 trigger met |
+| **Apr 29-30** | Katayama/Aida political reaction | Quiet → BOJ has political room | Escalation → D2 channel live | ✅ **RESOLVED: BULL** — quiet, no Diet pushback, no BOJ Law threats |
+| **Apr 30** | 2Y JGB auction | Orderly | Weak | ✅ **RESOLVED: BULL** — BTC 5.24x, tail 0.005y |
 | **May 1** | BOJ MPM (secondary) | n/a | n/a | PENDING (low info) |
+| **May 1** | CFTC JPY release | Cover starts | Shorts keep building | PENDING |
 | **May 14** | Q1 GDP prelim | Growth | Contraction → EWJ trigger | PENDING |
 | **Mid-May** | ESR disclosures | Stress visible → repatriation accelerates | Manageable → base case holds | PENDING (ELEVATED importance) |
 | **~May 20** | April trade balance | Surplus | Deficit → Phase 1 fires | PENDING (Brent $111 makes hot) |

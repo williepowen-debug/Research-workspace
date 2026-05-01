@@ -1,23 +1,24 @@
 # SAM CALENDAR
 
-**Last Updated:** 2026-04-28 | **View:** Forward-looking only. Past events pruned weekly.
+**Last Updated:** 2026-04-30 | **View:** Forward-looking only. Past events pruned weekly.
 
 ---
 
-## WEEK OF APR 27 — POST-BOJ FOLLOW-THROUGH
+## WEEK OF APR 27 — POST-BOJ FOLLOW-THROUGH (RESOLVED)
+
+| Date | Event | Outcome |
+|------|-------|---------|
+| Apr 28 (Tue) | ✅ BOJ MPM | HOLD + 3 dissents + GDP cut + inflation up; swap 74% June |
+| Apr 29 (overnight) | ✅ First Tokyo session | USDJPY -2.4y to 157.19, FXY +1.98% to $58.63 — **Tranche 2 trigger fired** |
+| Apr 29-30 | ✅ Katayama/Aida response | 🟢 QUIET — no public Diet pushback, no BOJ Law threats; D2 channel quiet |
+| Apr 30 (Thu) | ✅ 2Y JGB auction | BTC **5.24x**, tail 0.005y, yield 1.407% — orderly |
+
+## WEEK OF MAY 1
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |------|-------|---------------|-------------------|-----------|
-| **Apr 28 (Tue)** | ✅ **BOJ MPM** — RESOLVED | HOLD + 3 dissents + GDP cut + inflation up; swap 74% June | Modal+ scenario per v1.3 | — |
-| **Apr 29 (overnight)** | 🔴 **First Tokyo session reaction** | Does FXY rally to $58.00-58.25 trigger zone? | Tranche 2 add level | SAM |
-| Apr 29-30 | Katayama/Aida political response to dissent split | 🟠 Takaichi tone | BOJ Law revision threats = D2 escalation | SAM |
-| Apr 30 (Thu) | 2Y JGB auction | BTC ratio | Routine (BOJ-driven) | — |
-
-## WEEK OF MAY 4
-
-| Date | Event | What to Check | Threshold / Signal | Who Cares |
-|------|-------|---------------|-------------------|-----------|
-| May 1 (Fri) | BOJ MPM (secondary) | Language evolution from Apr 28 | Lower info; Ueda one-pager | ALL |
+| **May 1 (Fri)** | BOJ MPM (secondary) | Language evolution from Apr 28 | Lower info; Ueda one-pager | ALL |
+| **May 1 (Fri)** | 🟠 CFTC JPY weekly release | First post-BOJ read | Cover signal vs further build | SAM, HENRY |
 
 ## MID-MAY — ELEVATED IMPORTANCE
 

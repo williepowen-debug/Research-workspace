@@ -1,14 +1,9 @@
 date	event	what_to_check	threshold_signal	priority	who_cares	notes
-2026-04-14	20Y JGB auction	BTC ratio, tail, yield	BTC <2.0x = 🔴 buyer strike	🔴	LIQUID,HENRY	Second super-long test in a week at 28yr high yields
-2026-04-14	FY2026 insurer plans window opens	Big 4 foreign bond allocation	Cuts announced = Channel 1 confirmed	🔴	LIQUID,PROME	Fukoku most likely first to announce cuts
-2026-04-15	Feb TIC data (US)	Japan net UST sales	>$15B net selling = stress case	🟠	LIQUID,PROME	First hard confirmation of March selling scale
-2026-04-16	JGB liquidity enhancement auction (5-11Y)	Routine	Routine		-
-2026-04-21	JGB liquidity enhancement auction (11-39Y)	Routine	Routine		-
-2026-04-22	Ceasefire expiry (2-week clock)	Extension vs collapse	🔴🔴 binary geopolitical	🔴	ALL	Even if Islamabad extends, original 2-week clock runs out
-2026-04-23	FY2026 insurer plans window typical end	Final announcements	50% Big 10 = Oct 2025 survey baseline	🟠	LIQUID,PROME	Watch for Nippon Life, Meiji Yasuda, Dai-ichi, Sumitomo
-2026-04-28	BOJ MPM meeting — LIVE for hike	Rate decision, Ueda presser	Hike to 1.00% = Takaichi collision	🔴	ALL	Internal ~60-65%, market ~45-50% odds
 2026-04-30	2Y JGB auction	BTC ratio	Routine (BOJ-driven)	🟡	-
-2026-05-01	BOJ MPM meeting — BASE CASE HIKE	Rate decision, Outlook Report	Hike = structural yen move	🔴	ALL	This is THE date. If not April, then here.
-2026-05-15	FY2025 ESR disclosures begin	First mark-to-market regime	ESR <200% = danger zone	🔴	LIQUID,PROME	FY2025 ended Mar 31 — financials start releasing mid-May
-2026-05-22	Japan April CPI print	Core CPI, reflects oil + SK disruption	Upward surprise = BOJ locked	🟠	PROME	Oil-in-yen feedthrough
-2026-06-16	BOJ MPM meeting — backstop	Rate decision	If no April/May hike = reassess thesis	🟠	ALL	Per ex-chief economist Kameda
+2026-05-01	BOJ MPM meeting — secondary (low info)	Language evolution from Apr 28	Lower info; Ueda one-pager	🟡	ALL	Apr 28 resolved hawkish hold; May 1 is repeat read
+2026-05-14	Japan Q1 GDP prelim	Growth vs contraction	Contraction = EWJ trigger; first post-war quarter	🟠	SAM,HENRY	BOJ already cut FY26 to 0.5%
+2026-05-15	FY2025 ESR disclosures begin	First mark-to-market regime	ESR <200% = danger zone; primary Channel 1 test	🔴	LIQUID,PROME	FY2025 ended Mar 31 — financials start releasing mid-May
+2026-05-20	April trade balance (first post-blockade)	Deficit size	Brent $111 makes hot — Phase 1 mechanism re-test	🟠	SAM	March was ¥+667B surplus; April is true post-blockade test
+2026-05-22	Japan April CPI print	Core CPI, reflects oil passthrough	Upward surprise = June hike locked	🟠	PROME	Oil-in-yen feedthrough
+2026-06-16	BOJ MPM meeting — BASE CASE HIKE	Rate decision, Outlook Report	Hike to 1.00% = structural FXY +5-8%	🔴	ALL	SAM-21 70%; market swap 74% post Apr 28 dissent split
+2026-06-16	Sato joins BOJ board (hawk→dove swap)	Board composition	Medium-term political risk (post-June)	🟡	SAM	Takaichi's 2nd dovish appointment

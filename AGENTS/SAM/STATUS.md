@@ -1,6 +1,6 @@
 # SAM STATUS
 
-**Signal Status:** 🟠 THESIS CONFIRMED — JUNE HIKE LOCKED | USD/JPY **159.60** | FXY **$57.49** | JGB 10Y **2.477%** (MOF Apr 27, 🔴 +5bp from Apr 23) | Brent **$111.26** (settle Apr 28, +12% from $99 Apr 24) | CARRY UNWIND 7D: **20%** | **BOJ Apr 28: HOLD + HAWKISH (3 dissents) — June hike 74% (swap)** | **Last Updated:** 2026-04-28 16:15 ET
+**Signal Status:** 🟠 THESIS CONFIRMED — JUNE HIKE LOCKED | USD/JPY **157.19** (🟢 -2.41 yen since Apr 28) | FXY **$58.63** (🔴 **TRANCHE 2 ZONE BREACHED** $58.00-58.25) | JGB 10Y **2.520%** (MOF Apr 30, +4bp from Apr 27) | Brent **$111.75** | CARRY UNWIND 7D: **20%** ↑ | **BOJ Apr 28: HOLD + HAWKISH (3 dissents) — June hike 74% (swap)** | **Last Updated:** 2026-04-30 21:10 ET
 
 ---
 
@@ -21,36 +21,38 @@ Full event log → `thesis/TIMELINE.md` Apr 28 entry. Thesis v1.3 unchanged (int
 
 ---
 
-## MARKET DATA — APR 28
+## MARKET DATA — APR 30
 
 | Metric | Value | Source | Status |
 |--------|-------|---------|--------|
-| USD/JPY | **159.60** | Apr 28 live | 🟠 0.25% from 160 intervention trigger |
-| FXY | **$57.49** | Apr 28 live | 🟡 flat at entry (+0.23%) — BOJ not yet priced in |
-| JGB 10Y | **2.477%** | MOF Apr 27 | 🔴 +5bp from Apr 23, grinding higher |
+| USD/JPY | **157.19** | Apr 30 live | 🟢 -2.41 yen from Apr 28; off intervention zone |
+| FXY | **$58.63** | Apr 30 live | 🔴 **+1.98%** — TRANCHE 2 ZONE ($58.00-58.25) BREACHED |
+| JGB 10Y | **2.520%** | MOF Apr 30 | 🔴 +4bp from Apr 27, grinding higher (28yr high zone) |
 | JGB 20Y | ~3.33% | Apr 14 auction avg | 🟠 mid-curve demand robust (BTC 4.82x) |
 | JGB 30Y | ~3.6-3.7% | trailing | 🟠 |
 | JGB 40Y | ~3.7% range | trailing | 🟠 ~30bp from 4.0% threshold |
-| EUR/JPY | **186.92** | Apr 28 live | 🔴 Broad yen weakness sustained |
-| GBP/JPY | **215.77** | Apr 28 live | 🔴 |
-| Brent | **$111.26** | Apr 28 settle (CNBC) | 🔴 +12% in 4 days, highest since March; Trump rejects Iran proposal |
-| CFTC JPY net | **-93,742 + still building** | Apr 24 release | 🔴 Fuel load growing through delay |
-| MOF LT-debt net (4W) | **¥-2.74T** (~$-18B/mo) | MOF Apr 12-18 latest | 🟡 BASE case pace (down from ¥-5T stress) |
+| EUR/JPY | **184.34** | Apr 30 live | 🟠 -2.58 from Apr 28 — broad yen strength |
+| GBP/JPY | **213.78** | Apr 30 live | 🟠 -1.99 from Apr 28 |
+| AUD/JPY | **113.12** | Apr 30 live | 🟠 |
+| Brent | **$111.75** | Apr 30 live | 🔴 holding +12% surge since Apr 24 |
+| CFTC JPY net | **-93,742 + still building** | Apr 24 release | 🔴 Fuel load STILL growing (next release Fri) |
+| MOF LT-debt net (4W) | **¥-2.68T** (~$-18B/mo) | MOF Apr 19-25 | 🟡 ELEVATED — above base case upper, below stress |
 | Insurer hedge ratio | **44.4%** | (14yr low, Mar 2025) | 🔴🔴 |
+| FXY P/C ratio | **0.10x** | Apr 30 boot.py | 🟢 Call-heavy (bullish options positioning) |
 
-*Note: boot.py BZ=F showed $104.35 (likely intraday US session) vs CNBC settle $111.26 — Brent moved sharply on Trump's rejection of Iran's Hormuz proposal. Verify both data points next session.*
+*Boot.py 7.8s clean run. All 7 scripts green. ⚠️ Catalyst countdown labels May 1 BOJ MPM as "BASE CASE HIKE" — that's a script labeling bug; thesis/CALENDAR say May 1 is secondary low-info, BASE CASE HIKE is mid-June. Worth fixing in `scripts/catalyst_countdown.py` next maintenance pass.*
 
 ---
 
-## CARRY UNWIND PROBABILITY — APR 28 (post-BOJ)
+## CARRY UNWIND PROBABILITY — APR 30 (Tokyo session priced)
 
-| Timeframe | v1.3 (Apr 24) | Apr 28 post-BOJ | Driver |
-|-----------|---------------|-----------------|--------|
-| **7d** | 20% | **15%** | BOJ held — no immediate trigger; FXY hasn't reacted yet |
-| **30d** | 70% | **70%** | June hike near-locked (74% swap); ESR mid-May next test |
-| **60d** | 88% | **90%** | June hike consensus + 3 dissents = direction confirmed |
+| Timeframe | Apr 28 post-BOJ | **Apr 30** | Driver |
+|-----------|-----------------|------------|--------|
+| **7d** | 15% | **20%** | Tokyo session re-rated JPY (-2.4y), trend in motion but not unwind speed |
+| **30d** | 70% | **70%** | Held — June hike still locked (74% swap); ESR mid-May next test |
+| **60d** | 90% | **90%** | Held — June hike consensus + dissent split confirms direction |
 
-*BOJ delivered the modal v1.3 scenario (hold + hawkish) but with MORE dissent than expected. Market repriced June to 74% (vs SAM-21 70%). CFTC still SHORT BUILDING — fuel intact. 7d ticked DOWN since the binary catalyst passed without firing the trade; 30d/60d held/strengthened on June lock.*
+*Apr 29-30 Tokyo session DID re-rate JPY higher (USD/JPY 159.60 → 157.19, -2.41 yen). FXY +1.98% to $58.63. Move is orderly repricing of hawkish hold, not unwind speed. CFTC fuel load intact (next release Fri May 1). 7d ticked UP from 15% on confirmed direction; 30d/60d unchanged (June lock already priced).*
 
 ---
 
@@ -71,33 +73,36 @@ Full event log → `thesis/TIMELINE.md` Apr 28 entry. Thesis v1.3 unchanged (int
 
 **Risks to June:** Brent +12% in 4 days could give BOJ another ME-uncertainty excuse; Takaichi political pressure if mortgage backlash leaks; ESR disclosures showing acute insurer stress could spook BOJ on financial stability grounds.
 
-**48hr watch (Apr 29-30):** Katayama/Aida political reactions to 3-dissent split. Tokyo session FX response (US session not yet pricing the hawkishness — JPY flat). Japan media on Takaichi-Ueda tension framing.
+**48hr watch (Apr 29-30) — RESOLVED:**
+- **Tokyo session FX response:** ✅ **Did re-rate.** USD/JPY 159.60 → 157.19 (-2.41 yen), broad yen strength (EUR/JPY -2.58, GBP/JPY -1.99). FXY +1.98% to $58.63.
+- **Katayama/Aida political reaction:** 🟢 **Quiet.** No public Diet pushback, no BOJ Law revision threats. Bloomberg ran a Takaichi/Katayama profile (Apr 29) but no escalation framing. Reuters: "BOJ wins first showdown with Takaichi." D2 escalation signal QUIET.
+- **Apr 30 2Y JGB auction:** ✅ Orderly. BTC 5.24x, tail 0.005 yen (very tight), avg yield 1.407%, coupon 1.4%. Front-end demand intact.
 
 ---
 
 ## INTERVENTION STATUS
 
-**ELEVATED.** USD/JPY 159.60 — 0.25% from 160. Brent +12% to $111 puts oil-driven JPY weakness pressure back on. With BOJ holding and oil spiking, MOF intervention probability re-engages above ~160. The paradox holds: MOF acts → accelerates carry unwind. MOF doesn't act → yen weakens on oil → eventual unwind amplifies.
+**MODERATE (downgraded from ELEVATED).** USD/JPY 157.19 — off the 160 trigger zone. Tokyo session repricing of hawkish hold did the work MOF didn't have to do. Brent $111.75 holding (Phase 1 oil pressure persists) but the BOJ→FX channel reasserted dominance over the oil→FX channel. Re-engages if USDJPY pushes back above 159.
 
 ---
 
-## FXY POSITIONING — 8 SHARES
+## FXY POSITIONING — 8 SHARES (Tranche 2 trigger ✅ FIRED)
 
-**Hold. Tranche 2 trigger NOT YET HIT.** Position flat ($57.36 entry → $57.49 = +0.23%). BOJ delivered the modal scenario but FXY hasn't moved. Tranche 2 zone $58.00-58.25 is the action level — overnight Tokyo session is the test.
+**Position flat → $58.63 = +2.21% on entry.** Tranche 2 trigger condition (Tokyo re-rates JPY higher overnight) **HIT.** Per matrix: **+2 at $58.00-58.25** is the green-light entry. Currently $58.63 — just above zone; pullback to $58.00-58.25 would be the cleanest add. Will's call to execute.
 
-### Tranche 2 Matrix — Apr 28 OUTCOME: Scenario 2 (Hold + Hawkish, augmented by 3 dissents)
+### Tranche 2 Matrix — Apr 30 STATUS
 
 | Scenario | Triggered? | Action |
 |---|---|---|
 | 1. Hike to 1.00% | ❌ | n/a |
-| **2. Hold + hawkish** | ✅ **Yes (with bonus dissents)** | **+2 at $58.00-58.25** if Tokyo session re-rates JPY higher overnight. **+2 at $58.50+** or pre-June CPI. |
+| **2. Hold + hawkish** | ✅ **CONFIRMED — Tokyo re-rated** | **+2 at $58.00-58.25** ✅ trigger condition met. **+2 at $58.50+** or pre-June CPI. |
 | 3. Hold + neutral | ❌ | n/a |
 | 4. Hold + dovish | ❌ | n/a |
 
 **Action this week:**
-- **Watch overnight Tokyo (Apr 29 Asia session):** primary test of whether 3 dissents pull FXY into $58 zone
-- **No chase below $58.00** — wait for the matrix-defined entry. The hawkish signal SHOULD pull FXY up; if it doesn't in 48hrs, market is signaling skepticism worth respecting.
-- **Brent $111 wildcard:** oil could push USD/JPY higher (Phase 1) which compresses FXY in the short term — that's a +2 at $56.50 opportunity if it materializes, NOT a stop-out.
+- **First Tranche 2 add green-lit at $58.00-58.25.** Currently $58.63 — wait for pullback to zone, or pay up if conviction high.
+- **Second Tranche 2 add at $58.50+** or pre-late-May CPI window.
+- **Brent $111 wildcard:** if oil drives USDJPY back above 159 in next 1-2 weeks, that's a $56.50-zone Tranche 2 opportunity (NOT a stop-out — thesis intact).
 
 **Stop $55.05 (thesis break only). Target $60-62. Full logic in TRADE.md.**
 
@@ -105,16 +110,16 @@ Full event log → `thesis/TIMELINE.md` Apr 28 entry. Thesis v1.3 unchanged (int
 
 ## KEY THRESHOLDS
 
-| Level | Significance | Status (Apr 28) |
+| Level | Significance | Status (Apr 30) |
 |-------|-------------|--------|
-| USD/JPY 160 | MOF intervention | 🟠 159.60 — 0.25% away (oil pressure rebuilding) |
-| USD/JPY 155 | Phase 2 onset | SET |
+| USD/JPY 160 | MOF intervention | 🟢 157.19 — 1.8% away, off zone |
+| USD/JPY 155 | Phase 2 onset | 🟡 157.19 — 1.4% above; closing |
 | USD/JPY 145 | Forced unwind | SET |
-| JGB 10Y 2.40% | Stress crossover | 🔴 BREACHED — 2.477% (MOF Apr 27, +5bp from Apr 23) |
+| JGB 10Y 2.40% | Stress crossover | 🔴 BREACHED — 2.520% (MOF Apr 30, +4bp from Apr 27) |
 | JGB 30Y 4.0% | Severe insurer stress | 🟡 ~30bp away |
 | JGB 40Y 4.0% | Extreme long-end stress | 🟡 ~30bp away |
-| Brent $120 | Kharg scenario | 🟠 $111 — climbing fast, +12% in 4 days |
-| Brent $90 | Headwind resolved | 🔴 Well above $90 — Phase 1 reasserting |
+| Brent $120 | Kharg scenario | 🟠 $111.75 — holding +12% surge |
+| Brent $90 | Headwind resolved | 🔴 Well above $90 — Phase 1 persists |
 
 ---
 
@@ -122,10 +127,11 @@ Full event log → `thesis/TIMELINE.md` Apr 28 entry. Thesis v1.3 unchanged (int
 
 | Window | Event | Sig |
 |--------|-------|-----|
-| **Apr 29 (overnight Tokyo)** | 🔴 **First Tokyo session reaction to 3-dissent BOJ** | Tranche 2 trigger test ($58.00-58.25 zone) |
-| Apr 29-30 | Katayama / Aida political reaction to dissent split | 🟠 Takaichi backlash signal |
-| Apr 30 (Thu) | 2Y JGB auction | 🟡 Routine |
-| May 1 (Fri) | BOJ MPM (secondary) | 🟡 Apr 28 resolved → low info; language check |
+| ~~Apr 29 (overnight Tokyo)~~ | ✅ **Tokyo re-rated** — USDJPY -2.4y, FXY +1.98% to $58.63 | Tranche 2 trigger fired |
+| ~~Apr 29-30~~ | ✅ Katayama/Aida quiet — no D2 escalation | 🟢 |
+| ~~Apr 30 (Thu)~~ | ✅ 2Y JGB auction BTC 5.24x, tail 0.005y — orderly | 🟢 |
+| **May 1 (Fri)** | BOJ MPM (secondary) | 🟡 Apr 28 resolved → low info; language check |
+| **May 1 (Fri)** | CFTC JPY release (Apr 28-released-late) | 🟠 First post-BOJ positioning read; cover or build? |
 | **May 14 (Thu)** | Japan Q1 GDP prelim | 🟠 First post-war quarter; EWJ trigger if contraction |
 | **Mid-May** | 🔴 **ESR disclosures begin (FY2025)** | Elevated — Channel 1 primary test (per v1.4 candidate) |
 | ~May 20 | April trade balance (first post-blockade month) | 🟠 Phase 1 re-test (Brent $111 makes this hot) |
@@ -136,7 +142,9 @@ Full event log → `thesis/TIMELINE.md` Apr 28 entry. Thesis v1.3 unchanged (int
 
 ## REFERENCE DATA
 
-**Channel 1 flow pace (v1.3):** Reverted to BASE CASE $7-10B/mo. Feb TIC: Japan UST holdings ROSE to $1,239.3B (+$53.8B Dec→Feb) — aggregate not in net selling. MOF ITS 4W rolling ¥-2.74T (~$18B/mo). Structural drivers (hedge cost inversion, ESR regime, hedge ratio 44.4%) intact; stress-case trigger now gated on ESR disclosures mid-May.
+**Channel 1 flow pace (v1.3):** BASE CASE $7-10B/mo. MOF ITS 4W rolling **¥-2.68T** (Apr 19-25 latest, ~$18B/mo) — ELEVATED above base-case upper, below stress. Feb TIC showed Japan UST holdings ROSE to $1,239.3B (+$53.8B Dec→Feb) — aggregate not in net selling. Structural drivers (hedge cost inversion, ESR regime, hedge ratio 44.4%) intact; stress-case trigger now gated on ESR disclosures mid-May.
+
+**2Y JGB auction (Apr 30):** BTC **5.24x** | yield 1.407% | tail 0.005 yen | coupon 1.4%. Extraordinarily tight tail — front-end demand robust at BOJ-driven yields. JGB market continues orderly across the curve.
 
 **20Y JGB auction (Apr 14):** BTC 4.82x | yield 3.327% | tail 0.2bp. Exceptional demand. Confirms buyer strike is super-long (30Y/40Y) specific, NOT broadening. Slightly thesis-negative for Channel 1 breadth.
 
