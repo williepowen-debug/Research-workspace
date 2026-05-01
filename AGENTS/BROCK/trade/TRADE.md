@@ -1,8 +1,10 @@
 # BROCK — TRADE.md
-**Base:** 2026-03-16 EOD (Prome + Will) | **Last cleaned:** 2026-04-07
-**Convergence:** See STATUS.md for current score. 13 of 15 VX RED (as of Mar 26 — VX stale).
-**Status:** Stage 2→3 transition. 12 gates / 10 weeks. Barings broadens. BX refuses A&E. Treasury/FSOC + Congress active.
+**Base:** 2026-03-16 EOD (Prome + Will) | **Last cleaned:** 2026-05-01 (post-Q1 wave kickoff + APO trigger watch)
+**Convergence:** 38/50 🔴🔴 (May 1, narrative downgrade only). See STATUS.md for live tape.
+**Status:** Stage 2 persists. APO breached $130 D1/3 May 1 close $131.20. OBDC Q1 May 6 = collision day. SEC subpoena power probe Apr 24.
 **Account:** ⚠️ STALE — verify live before any execution
+
+> **🔴 ACTIVE TRIGGER WATCH (May 1):** APO close $131.20 = Day 1 of 3-session position-kill rule. D2 = Mon May 4, D3 = Tue May 5. **OBDC Q1 10-Q lands May 6 post-close.** Position-kill rule and next major bear catalyst collide within 24hrs. **Do not pre-close any APO put before reading OBDC.** See Section 8 for per-position decisions.
 
 > **Core doctrine:** Every trade must link to a convergence vector or FLOW transmission channel. Private credit cascade is the thesis — positions express specific pathways within it.
 >
@@ -190,3 +192,69 @@ $100B+ distressed dry powder (KB-BRK-022) puts a floor under forced-seller prici
 5. **Monitor National Dentex** — April maturity imminent.
 6. **Pull ARCC options chain** — verify liquidity for new position if Q1 marks confirm.
 7. **Full TRADE.md rewrite** — many sections stale. Next BROCK spawn should rebuild with live prices.
+
+---
+
+## SECTION 8: MAY 1 REASSESSMENT — PER-POSITION DECISIONS
+
+**Live tape (May 1 close):** APO $131.20 (+1.92%), ARES $119.80 (+1.94%), BX $127.04 (+1.19%), OWL $9.93 (+1.79%), BIZD $13.31 (+1.22%), HY OAS 2.83% (Apr 30, 23bps from 260 thesis-kill).
+
+### 8A — APO Jun $100P ×1 (last marked ~$590)
+**Strike $100 vs spot $131.20** = $31 OTM. Time decay accelerating with ~7 weeks to expiry.
+- **Decision: HOLD through OBDC May 6.** Trigger watch D1/3 active. **Do not close before reading OBDC 10-Q.**
+- **Branch logic:**
+  - If APO closes >$130 May 4 + May 5 AND OBDC 10-Q is bullish (small NDX mark, no software cascade, gate mechanics absorb cleanly) → **EXIT** Jun $100P. Position-kill rule fires + bear catalyst fizzled.
+  - If APO closes >$130 sustained AND OBDC re-arms bear thesis (NDX large mark, software cascade visible, gate mechanics ugly) → **ROLL** Jun→Aug or Sep, do not close. Trigger fired but thesis intact = timeline issue, not thesis death (CLAUDE.md Rule #7).
+  - If APO retraces below $130 before May 5 → trigger watch resets, HOLD as-is.
+- **Conviction:** 4/5 (down from 5/5; runway shortened, trigger active).
+
+### 8B — APO Dec $95P ×1 (last marked ~$920)
+**Strike $95 vs spot $131.20** = $36 OTM. ~7 months to expiry — far more time value left.
+- **Decision: HOLD.** Trigger watch applies, but Dec runway captures Q2 print + bank PC disclosures + statutory filings.
+- **Branch logic:** Same trigger reads as 8A, but **default action on trigger fire is ROLL not EXIT** (long expiry = preserve optionality unless thesis dead).
+- **Conviction:** 5/5 (unchanged — Dec captures structural thesis even if Jun expires worthless).
+
+### 8C — ARES Jun $95P ×1 (last marked ~$890)
+**Strike $95 vs spot $119.80** = $24.80 OTM. ARES rallied +17% off lows.
+- **Decision: HOLD through ARES Q1 print** (expected ~early-mid May, post-OWL).
+- **Branch logic:**
+  - If ARES Q1 tender disclosure shows >10% requests OR fee economics break (rare, given OWL pattern) → **HOLD** further or consider adds.
+  - If ARES Q1 mirrors OWL (FRE beat, DL stress hidden) and stock rallies to $125+ → **EXIT** Jun $95P. Catalyst window closed; thesis needs re-architecture.
+- **Conviction:** 3/5 (down from 4/5; rally + OWL pattern damages event-driven setup).
+- **Note:** Position likely deeply unrealized loss given $24.80 OTM. Time decay ~6-7 weeks. If ARES Q1 doesn't print within 2 weeks, residual time value is small.
+
+### 8D — HYG Jun $75P ×8 (last marked +46.7% / ~$360)
+**Apr 7 recommendation: roll Jun→Dec.** Status of execution unclear from STATUS files.
+- **Decision: PENDING WILL** — has the roll been executed? If not, roll on next green day. HY OAS 283bps, near 260 thesis-kill — Dec captures Q2/Q3 cycle if compression continues, captures repricing if it doesn't.
+- **Conviction:** 4/5 (Hamilton/macro framework, not single-name PC catalyst).
+
+### 8E — OWL Apr $9.5P ×1 (EXPIRED ITM $0.84 Apr 18)
+- **Decision: STATUS UNKNOWN.** Apr 7 said "confirm exercise/settlement." Still flagged. If still unresolved at May 1, this is a back-office issue, not a trading decision.
+
+### 8F — ARCC Trade 2A entry (NEVER ENTERED)
+**Q1 print Apr 28 partially confirmed thesis but spillover ($988M ≈ 3qtr div cushion) defends near-term coverage.**
+- **Decision: HOLD OFF. Re-evaluate at FSK May 11 + ARCC Q2 print.**
+- **Why not now:**
+  - Dividend cut not imminent — spillover defends 3 quarters even if core EPS goes to zero.
+  - Mgmt soft-prime tone, AI-risk consultant report ("0.3% high risk") gives bulls defense.
+  - BRK-22 conf 70→60. May catalyst window weakened.
+- **Re-trigger condition:** FSK Q1 (May 11) shows non-accrual >3% OR PIK >9% (sector signal) → enter ARCC Sep/Dec puts. OR ARCC Q2 print shows spillover burn rate >$300M/qtr (cushion narrowing) → enter.
+
+### 8G — WFC entry (DEFERRED)
+**Bank Q1 earnings filed mid-April. PC quantification not yet mined (LESSONS #5 cascade overdue).**
+- **Decision: PULL DATA FIRST.** This is BROCK Task 4 from current session prioritization. WFC entry depends on whether $59.7B warehouse exposure shows quantified stress or remains buried.
+
+---
+
+## SECTION 9: TRIGGER LADDER (May 1)
+
+Adaptive priority shifters — drop everything if any fires:
+
+| Trigger | Status (May 1) | Effect |
+|---------|----------------|--------|
+| APO sustained >$130 (3 sessions) | **🔴 D1/3** | Position-kill on APO puts (caveat: OBDC May 6 collision — do not pre-close) |
+| HY OAS <260bps sustained 10+ sessions | 283bps Apr 30, 23bps away | Thesis-kill — exit 100% PC overlay |
+| Arms-length sub-90¢ BDC loan transaction | Not yet | BRK-25 fires, Stage 3 catalyst |
+| First SEC enforcement filing | SEC probe Apr 24 (no filings yet) | BRK-26 fires, Stage 3 catalyst |
+| Major BDC Q1 NAV markdown >5% | ARCC -1.76% (no fire); 6 candidates remain | BRK-27 fires |
+| 3+ convergence vectors RED→ORANGE in same period | 1 down (narrative) | Reassess timeline |
