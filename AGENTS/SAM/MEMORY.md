@@ -33,56 +33,60 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (Apr 24 → Apr 28 — 4 day gap, BOJ binary)
+### CHANGES SINCE LAST SESSION (Apr 28 → May 1 — 3 day gap, post-BOJ Tokyo digest)
 
 **Markets:**
-- USD/JPY 159.60 (flat from 159.61) — odd given hawkish hold
-- FXY $57.49 (flat from $57.50) — Tranche 2 trigger zone $58.00-58.25 NOT yet hit
-- JGB 10Y 2.477% (was 2.429% Apr 23, +5bp) — grinding higher
-- **Brent $111.26 settle (CNBC) — +12% from $99.21 Apr 24** on Trump rejecting Iran Hormuz proposal
-  - boot.py BZ=F showed $104.35 (likely intraday US session vs settle)
-- CFTC JPY net -93,742, still SHORT BUILDING
+- USD/JPY 159.60 → **157.19** (-2.41 yen, broad yen strength)
+- FXY $57.49 → **$58.63 (+1.98%)** — Tranche 2 zone $58.00-58.25 BREACHED upward
+- JGB 10Y 2.477% → **2.520%** (+4bp; 28-yr high zone)
+- EUR/JPY 186.92 → 184.34; GBP/JPY 215.77 → 213.78 — broad strength (not USD-specific)
+- Brent $111.26 → $111.75 — Phase 1 oil pressure persists
+- MOF 4W rolling: ¥-2.74T → ¥-2.68T (Apr 19-25 latest, ELEVATED)
+- Boot.py Brent reconciled — $111.75 today vs $104.35 Apr 28 intraday
 
-**Major catalyst resolved:**
-- **Apr 28 BOJ MPM: HOLD + 3 dissents (Takata, Tamura, Nakagawa) for 1.00%** — biggest split since 2016, first under Ueda
-- FY2026 GDP cut 1.0% → 0.5%; inflation forecasts upgraded; Ueda hawkish presser
-- **Swap markets repriced June hike to 74%** (vs SAM-21 70%)
+**Major events resolved:**
+- **Apr 29-30 Tokyo session: BULL FORK** — JPY broadly strengthened, FXY +1.98%
+- **Apr 30 2Y JGB auction:** BTC 5.24x, tail 0.005y, yield 1.407% — orderly
+- **Apr 29-30 Katayama/Aida political response:** QUIET — no Diet pushback, no BOJ Law threats. D2 channel quiet.
 
-### LAST SESSION (Apr 28 — BOJ post-meeting boot)
+### LAST SESSION (May 1 — post-Tokyo-reprice boot + STRATEGY sync)
 
-**Boot + market refresh:**
-- Standard boot.py ran clean (13.1s). All 7 scripts green.
-- Two parallel WebSearches: BOJ Apr 28 outcome + Brent/Hormuz context.
+**Boot:** boot.py clean (7.8s, all 7 scripts green). FXY in Tranche 2 zone, JGB 10Y +4bp, MOF 4W elevated, FXY P/C 0.10x call-heavy.
 
-**File updates (sequenced):**
-1. STATUS.md — header, market table, BOJ assessment, Tranche 2 status, thresholds, watch list, short-form thesis
-2. PREDICTIONS.tsv — SAM-20 resolved FAILED FALSE with calibration note
-3. TIMELINE.md — Apr 28 + Brent $111 events added at top; Week 4 Apr 27 collapsed to "resolved" pointer; branch points table updated
-4. CALENDAR.md — Apr 28 marked ✅; pruned insurer table (SAM-19 closed); added Apr 29 Tokyo session as 🔴 watch
-5. CHANGELOG.md — 2026-04-28 entry added (no thesis version bump per Apr 11 restraint lesson)
-6. MEMORY.md (this) — session notes refreshed
+**Caught and fixed: CATALYSTS.tsv data staleness.** TSV had stale labels from pre-v1.3 thesis (May 1 mislabeled "BASE CASE HIKE", Jun 16 mislabeled "backstop", resolved Apr rows still present). Rewrote TSV to match v1.3 thesis. Catalyst countdown now reads correctly.
 
-**Key calibration finding:** SAM-20 60% FALSE was a significant miss. Lesson logged in PREDICTIONS notes: when political ceiling is explicit (Takaichi 0.75% line) AND external uncertainty is high (oil/war), BOJ defers to consensus optics even when data supports action. Hawkish dissents are how the board telegraphs intent without breaking that consensus. This is a NEW lesson worth promoting if it repeats.
+**Apr 30 verification (parallel):** WebFetch on MOF auction page (2Y BTC 5.24x). WebSearch on Katayama/Aida — no escalation found.
 
-**No thesis bump** — per Apr 11 restraint lesson. Apr 28 confirmed v1.3 modal scenario; 3-dissent + GDP cut is hawkish-augmenting but doesn't change structure. ESR disclosures (mid-May) remain the next genuine thesis-test.
+**File updates (sequenced as 3 chunks + STRATEGY):**
+1. STATUS.md — full sync: header, market table, carry unwind probabilities, BOJ 48hr-watch flipped to RESOLVED, intervention status downgraded ELEVATED→MODERATE, Tranche 2 matrix marked FIRED, thresholds, watch list, reference data
+2. CALENDAR.md — Apr 27-30 row collapsed to RESOLVED outcomes; added May 1 CFTC release as 🟠
+3. TIMELINE.md — new top entry "Apr 29-30 Tokyo Session Reprice" as BULL FORK; branch points table appended
+4. CATALYSTS.tsv — full rewrite to match v1.3 thesis
+5. STRATEGY.md — **major v1.3 sync.** Stage table refreshed (Stage 2 = pre-trigger setup). Hard triggers expanded: June BOJ primary + 4 alternates. **NEW soft-signal convergence rule:** matrix-defined +2 entries fire ONLY if a hard trigger is within 14 days. **NEW no-chase rule:** if matrix zone breached upward, add forfeited at that level. CHANGELOG entry added.
+
+**Position decision (held off):** Tranche 2 trigger condition per Apr 28 STATUS matrix met (Tokyo did re-rate). But STRATEGY.md hard triggers NOT met (June BOJ ~6wk out, USDJPY 157.19 not <155). Recommended HOLD — preserve dry powder for hard trigger or pullback to $58.00-58.25 limit.
+
+**Doc conflict caught and resolved:** STATUS matrix said "Tranche 2 fires"; STRATEGY said "no add — hard triggers not met." Updated STRATEGY to be canonical decision doc; matrices subordinate via soft-signal convergence rule. Process improvement that reduces conviction-bias adds under pressure.
+
+**No thesis bump** — Apr 29-30 Tokyo reprice CONFIRMED v1.3, didn't refine it. ESR mid-May remains the next genuine thesis-test.
 
 ### NEXT SESSION
 
-1. **🔴 Apr 29 morning: check overnight Tokyo session.** Did FXY rally to $58.00-58.25 trigger zone on the dissent split? If yes → execute Tranche 2 +2. If FXY didn't budge → market is signaling hawkish-hold isn't enough fuel; no chase.
-2. **🟠 Apr 29-30: Katayama / Aida political reaction** to 3-dissent split. Takaichi tone matters (BOJ Law revision threats = D2 escalation signal).
-3. **🟡 Apr 30 (Thu): 2Y JGB auction** — routine.
-4. **🟡 May 1 (Fri): BOJ MPM secondary** — low info if Apr 28 holds.
-5. **🟠 May 14: Q1 GDP prelim** — first post-war quarter; BOJ already cut FY26 to 0.5%, contraction = EWJ trigger.
-6. **🔴 Mid-May: ESR disclosures (FY2025) begin.** Primary Channel 1 test per v1.4 candidate. Meiji Yasuda ESR <200% = potential v1.4 trigger.
-7. **🟠 ~May 20: April trade balance.** Brent $111 makes this hot — Phase 1 mechanism re-test.
-8. **🟠 Late May: April CPI.** Oil passthrough; June hike lock.
-9. **🔴🔴 Mid-June: BOJ MPM — BASE CASE HIKE (SAM-21 70%; market 74%).** Prep scenario tree closer to date.
+1. **🟠 May 1 BOJ MPM secondary** — low info; check Ueda one-pager language for any softening from Apr 28.
+2. **🟠 May 1 CFTC JPY release** — first post-Apr-28 positioning read. Cover signal vs continued build is the real test of carry-unwind 7d.
+3. **🟡 Watch FXY pullback to $58.00-58.25** — if pullback happens within 14 days of June BOJ (i.e., late May), Tranche 2 +2 is live per new STRATEGY rules.
+4. **🟠 May 14: Q1 GDP prelim** — first post-war quarter; BOJ already cut FY26 to 0.5%, contraction = EWJ trigger.
+5. **🔴 Mid-May: ESR disclosures (FY2025) begin.** Primary Channel 1 test. Big 4 ESR <200% = HARD TRIGGER for Tranche 2 add per updated STRATEGY.
+6. **🟠 ~May 20: April trade balance.** Brent $111 makes this hot — Phase 1 mechanism re-test.
+7. **🟠 Late May: April CPI.** Oil passthrough; June hike lock.
+8. **🔴🔴 Mid-June: BOJ MPM — BASE CASE HIKE (SAM-21 70%; market 74%).** Hard trigger; prep scenario tree closer to date.
 
 ### PENDING (carry-over)
 - v1.4 decision gate after ESR disclosures (hedged/unhedged nuance refinement).
-- Verify Brent $104 (BZ=F intraday) vs $111.26 (CNBC settle) discrepancy at next boot.
+- Per new STRATEGY no-chase rule: do NOT add Tranche 2 above $58.25 unless hard trigger fires.
 
 ### INFRASTRUCTURE STATUS (persistent)
-- Boot scripts working cleanly (13.1s). JGB yields auto-pulled through Apr 27. MOF ITS through Apr 12-18 week.
-- Catalyst countdown caught BOJ Apr 28 correctly. SAM-21/22 still OPEN forward calls.
-- Workbook files NOT updated this session (no new MOF/JGB data since Apr 24); update when Apr 19-25 MOF ITS lands (Apr 30).
+- Boot scripts working cleanly (7.8s). JGB yields auto-pulled through Apr 30. MOF ITS through Apr 19-25.
+- CATALYSTS.tsv now synced to v1.3 thesis (was stale).
+- STRATEGY.md now canonical decision doc; STATUS scenario matrices subordinate.
+- Workbook TSVs auto-updated by boot scripts (FXY_OPTIONS, JGB_AUCTIONS, JGB_YIELDS, MOF_FLOWS).
