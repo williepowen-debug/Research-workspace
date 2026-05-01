@@ -25,7 +25,7 @@ Key insight you must maintain: the K-shape was real and is now CONVERGING DOWNWA
 3. **Read `workbook/SCHEMA.tsv`** — column definitions for all TSVs (KB, VX, FLOW, PREDICTIONS)
 3b. **Read `TEAM.md`** — sub-agent roster, staleness, upcoming catalysts. Spawn stale agents per `SPAWN_PROTOCOL.md`.
 3c. **Diff `BOARD/INDEX.md` against `board/BOARD_LOG.tsv`** — any Signal_ID not in the ledger needs disposition. Schema + disposition values in the TSV header.
-3d. **Read `ROADMAP.md`** — state-of-CARL tracker: open threads (multi-session work), awaiting data, open questions, recently resolved. This is the "where are we" file — call it up to recall what threads were active.
+3d. **Read `ROADMAP.md`** — state-of-CARL tracker: open threads (multi-session work), awaiting data, open questions, investigations backlog (research not yet started), recently resolved. This is the "where are we" file — call it up to recall what threads were active.
 4. **Execute the task** (if sub-agents were spawned, read their outputs before synthesis)
 5. **Write results back to `STATUS.md`** — update dashboard values, predictions, findings
 6. **Log to workbook TSVs:**
@@ -36,7 +36,7 @@ Key insight you must maintain: the K-shape was real and is now CONVERGING DOWNWA
    - Prediction changes → log in `thesis/CHANGELOG.md`
 7. **Research detail → `domain/sources/`** — STATUS.md gets a summary, detail lives here
 8. **Cross-agent signals → `outbox/`** (HERMES delivers)
-8b. **Update `ROADMAP.md`** — move resolved threads to RECENTLY RESOLVED, add any new OPEN THREADS started this session, log new OPEN QUESTIONS surfaced, refresh AWAITING DATA dates. This is the persistent state file — it's what makes "where are we" recoverable across sessions. Update timestamp at top.
+8b. **Update `ROADMAP.md`** — move resolved threads to RECENTLY RESOLVED, add any new OPEN THREADS started this session, log new OPEN QUESTIONS surfaced, refresh AWAITING DATA dates, append any "should investigate X" ideas to INVESTIGATIONS BACKLOG. This is the persistent state file — it's what makes "where are we" recoverable across sessions. Update timestamp at top.
 9. **Rewrite `SCRATCH.md`** using the template below
 
 ### SCRATCH.md Template
@@ -249,7 +249,7 @@ Consumer stress converts to systemic risk when multiple vectors fire simultaneou
 | `TEAM.md` | **Read at boot.** Sub-agent roster — status, last refresh, upcoming catalysts, staleness. Drives spawn decisions. |
 | `board/` | BOARD-related artifacts. Contains `BOARD_LOG.tsv` — CARL's disposition ledger for `/BOARD/INDEX.md` network signals. Diff against INDEX at boot; schema in TSV header. |
 | `SPAWN_PROTOCOL.md` | How to spawn sub-agents: spawn types, prompt templates, synthesis workflow, cost model. Reference when spawning. |
-| `ROADMAP.md` | **State-of-CARL tracker.** Open threads / awaiting data / open questions / recently resolved. Read at boot (step 3d) for context recall. Update at session end (step 8b) before SCRATCH rewrite. SCRATCH = next session focus; ROADMAP = persistent state across sessions. |
+| `ROADMAP.md` | **State-of-CARL tracker.** Open threads / awaiting data / open questions / investigations backlog / recently resolved. Read at boot (step 3d) for context recall. Update at session end (step 8b) before SCRATCH rewrite. SCRATCH = next session focus; ROADMAP = persistent state across sessions. |
 | `TRADE.md` | Domain trade ideas — consumer credit plays, ABS shorts, housing. Read on trade spawns. |
 | `thesis/THESIS.md` | Thesis of record — "Beneath the Ice" v2.1, load-bearing vectors, convergence matrix (canonical), exit rules. Read when assessing conviction or trade proposals. |
 | `thesis/PREDICTIONS.tsv` | Trackable predictions with resolution dates + invalidation criteria. |
