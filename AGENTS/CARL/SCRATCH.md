@@ -1,5 +1,5 @@
 # CARL SCRATCH
-**Last session:** 2026-05-02 PM3 ~19:00–22:00 UTC (Will-driven workbook hardening Item #2d execution + scope expansion to misplacement audit + KB-CARL-202 → HOMER physical move)
+**Last session:** 2026-05-02 PM3 ~19:00–22:00 UTC (Will-driven workbook hardening Item #2d execution + scope expansion to misplacement audit + KB-CARL-202 → HOMER physical move + one-time direct delivery of REGINALD outbox signal)
 **Type:** Workbook architecture — judgment-call reclassification pass
 
 **PRIORITY-1:** **Workbook hardening Item #2.5 — VX reference integrity.** 43 dangling KB→VX refs in two repair pathways: (a) ~8 missing-VX-row creates for live threads (DSL-01 diesel divergence per ROADMAP open thread, AG-01 farm bankruptcies, STATE-FL FL labor, WEALTH-01, K-01 K-shape framework, CC-01 anchor, etc.); (b) ~30 retired-or-renumbered KB-ref cleanups (early-Feb FF-01 / DEMO-01 / FHA-01 / DQ-01/02 / HSG-06..11 / MTG-01..022 — pre-taxonomy-stabilization). Plus standing validator rule. ~45-60 min, context-heavy. Source: `workbook/AUDIT_2026-05-02.md` Item #2.5 entry + Convo 2 transcript.
@@ -16,6 +16,7 @@
 6. **SUPERSEDED-by-pointer verification.** Initial cluster plan marked 22 rows SUPERSEDED. Verification by reading each proposed canonical-replacement row revealed only 7 actually carry forward the load-bearing content. **14 downgraded to STALE** — point-in-time historical with no canonical successor in KB.tsv. Lesson: cluster-pattern alone is unreliable for SUPERSEDED dispositions; verification step is required.
 7. **Apply pass executed.** Script `/tmp/fix_kb_2d.py` with DISPOSITIONS dict (8 action types). 38 mutations across 38 unique rows. Bug caught in verification: Python list-by-reference passed KB-CARL-202's blanked Stale_By to KB-HMR-065 in HOMER; restored to 2026-05-15. Bonus catches: 2 pre-existing CONFIRMED-with-Stale_By hygiene violations (KB-001 future-dated 2026-03-15, KB-063 past-dated 2026-03-24) — out of original 2d scope but same §1.5 rule. Blanked.
 8. **AUDIT log + ROADMAP updated** — Item #2d resolution log entry with per-cluster breakdown + lessons learned + sub-agent workbook architecture finding queued for next session.
+9. **One-time direct delivery to REGINALD inbox** — Will authorized direct cross-agent write since no other Claude Code agents were active (HERMES still down per messaging-overhaul). Copied outbox signal → `AGENTS/REGINALD/inbox/`; moved CARL source → `outbox/delivered/`. Single commit (`50b87eb9`) with `CARL→REGINALD:` prefix for cross-boundary auditability. Cross-agent inbox writes saved as global memory note (`feedback_cross_agent_inbox_writes.md`) — exception is per-instance authorization only, do not generalize.
 
 ## STATUS CHANGES
 | Item | Change |
@@ -23,7 +24,7 @@
 | `workbook/KB.tsv` | 38 row mutations (no row count change). Status distribution 260 ACTIVE / 7 CONFIRMED / 3 SUPERSEDED / 0 STALE → **217 ACTIVE / 9 CONFIRMED / 15 SUPERSEDED / 19 STALE.** |
 | `workbook/KB.tsv` | Stale-ACTIVE: **32 → 0.** Terminal-state-with-Stale_By: **3 → 0.** Delegated_To: 44 HOMER → **44 HOMER + 2 POP.** All enums clean. |
 | `sub_agents/HOMER/workbook/KB.tsv` | **64 → 65 rows** (KB-HMR-065 added with CARL_ID=KB-CARL-202 back-link, Stale_By 2026-05-15 preserved). |
-| `outbox/SIG-CARL-REGINALD-20260502-misplaced-banking-rows-handover.md` | **NEW** — packages KB-172/173/203 with CARL's analytical adds + OZK-routing flag for KB-173. Awaiting manual delivery. |
+| `outbox/delivered/SIG-CARL-REGINALD-20260502-misplaced-banking-rows-handover.md` | **DELIVERED** to REGINALD inbox via one-time direct write (commit `50b87eb9`). Source moved to delivered/ for audit trail. |
 | `workbook/AUDIT_2026-05-02.md` | Item #2d resolution log entry added (per-cluster breakdown + bug + bonus catches + 3 backlog findings). 87 issues → **~4 remaining** (deliberate ID gaps only). |
 | `ROADMAP.md` | Workbook hardening OPEN THREAD updated (Item #2d done; #2.5 / #3 / #4 + sub-agent workbook standardization remain OPEN). RECENTLY RESOLVED entry added. |
 
@@ -75,10 +76,9 @@
 
 ---
 
-## OUTBOX (7 signals — 6 Apr 17 deferred + 1 NEW from this session)
+## OUTBOX (6 Apr 17 signals deferred per messaging-overhaul; May 2 signal already delivered)
 | File | To | Summary |
 |------|----|---------|
-| **SIG-CARL-REGINALD-20260502-misplaced-banking-rows-handover.md** | **REGINALD** | **NEW** — packages KB-172 (Bowman SB lending), KB-173 (OZK NCO vintage — flag for OZK-direct routing), KB-203 (Ginnie Mae GAO no-stagflation-test). Awaiting Will's manual delivery. |
 | SIG-CARL-REGINALD-20260417-auto-lender-reclassification-translation.md | REGINALD | 7-lever auto-lender translation of 3-layer bank framework + ALLY Q1 |
 | SIG-CARL-REGINALD-20260417-subprime-auto-ABS-gap.md | REGINALD | Santander/Bridgecrest/Exeter 7.9/7.8/6.7% 60+ DQ |
 | SIG-CARL-LIQUID-20260417-BNPL-ABS-composition-degradation.md | LIQUID | BNPL ABS composition new structured-credit sub-vector |
@@ -124,4 +124,3 @@ BOARD_LOG: 105 lines, 98 dispositions. SCRATCH said diff-clean as of May 1; toda
 - **Workbook hardening Item #2.5** — 43 dangling KB→VX refs. Context-heavy; dedicated session.
 - **AAA pump $4.50 breach watch** — gap $0.067; breach likely May 3-4.
 - **Iran cluster still live** — WPR deadline May 1 expired without resolution; Brent at $107-110 sustained.
-- **REGINALD outbox signal** awaiting Will's manual delivery.
