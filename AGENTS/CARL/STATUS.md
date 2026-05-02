@@ -1,6 +1,6 @@
 # CARL STATUS
-**Updated:** 2026-05-01 ~15:30 UTC (May 1 PM — multi-thread integration: (1) Apr 30 GDP Q1 advance +2.0% real, PCE NIPA +4.5% / core +4.3% = Vector #12 hardened. (2) Apr 28 Rithm Q1 — "DQ will reverse" claim quietly dropped, replaced with "stable + FHA flatten via mod-accounting normalization" (KB-CARL-257). (3) Live oil/pump: Apr 30 Brent $126 intraday NEW HIGH, May 1 pullback to $107-110 on Iran peace proposal + WPR deadline today. **AAA pump $4.392 May 1 — pump pass-through ACCELERATED, gap to CRL-08 $4.50 threshold = 10.8¢. CRL-08 reprice 78→92%.**)
-**Overall:** 🔴🔴 CRITICAL — Convergence 58/60. **May 1 update: Apr 30 BEA GDP Q1 advance = +2.0% real (vs 2.3% cons / vs 1.3% GDPNow Apr 7 anchor). Headline ABOVE GDPNow softens "stall speed" framing 0.7pp, BUT (1) PCE price index +4.5% NIPA Q1, (2) core PCE +4.3% NIPA Q1, (3) GDP price index gross domestic purchases +3.6% — realized Q1 inflation EXCEEDS UMich 1Y exp 4.7% trajectory, fully validating un-anchoring (Vector #12 hardens, Fed pure-locked: cannot cut without ratifying un-anchoring, cannot hike without crashing 2.0% growth). Q4 2025 REVISED DOWN 0.7%→0.5% on annual revision. Composition K-shape-consistent: residential AND non-residential structures DRAG, services PCE driver = healthcare (forced consumption, non-discretionary), drivers = equipment + IPP + inventory build (AI capex bubble + Q2 give-back risk).** **Apr 29 fast refresh: (1) BRENT $110.38 close / $115 intraday Apr 29, 8-session streak, highest since Jun 2022 (Russia-invasion peak); WTI $106.51 (+6.58% single day); IEA on-record framing potential Hormuz closure as "largest supply shock on record." STATUS prior $98.18 (Apr 13) — full +$12 / +12.5% leg unprocessed for ~16 days. CRL-08 (gas $4.50+) needs reprice — pass-through math implies retail pump +$0.30-0.40/gal coming over 2-4 wks. (2) UMich April FINAL 49.8 (Apr 24 release, revised UP from prelim 47.6) — barely below prior ATL 50.0 (Jun 2022). 1Y inflation expectations 4.7% (vs prelim 4.8%), 5-10Y 3.5% (vs prelim 3.4% — un-anchoring deepened on Final). (3) Apr 21 Iran ceasefire BINARY did NOT resolve cleanly — Apr 24 contradictory diplomacy cascade (Araghchi in Islamabad / Trump talks-relaunch / IRGC-Raja denial / Witkoff-Kushner travel reports), WTI dropped to $94.40 Apr 24 on talks-hope, then BREAKOUT Apr 28-29 to $115 on hope evaporating. (4) NY Fed CC 90+ DQ 12.7% Q4 2025 — already in STATUS at 12.70%, formalized "92% of 2009-peak" framing via Apr 24 chart. (5) Apr 21 quadruple event (SYF/COF/UNH/DHI) NOT yet processed; Apr 26 FL UI Wave 2 NOT processed; Apr 28 Case-Shiller / Rithm Q1 NOT processed — flagged in Danger Window. (6) BOARD disposition queue 53 signals from Apr 20/24/26/28/29 — work pending.** Apr 19 BOARD pull: Iran day-cluster, Qatar LNG ~20% global offline, MS counter-frame logged. Apr 17: ALLY composition-masking framework GENERALIZES. CFPB 1033 dead. ALLY Q1 processed, payment hierarchy TIMELINE PUSHED to 2H 2026/Q1 2027, CRL-05 85→82%. Vector #10 UPGRADE 4→5. NAHB HMI 34. Sweet Apr 15 MISSED → auto-relief ~271K. FICO Spring 2026: SL 90+ DQ ~9.8%. EART Class E CE BREACHED. CPI Mar +3.28%, PPI +4.0%. HY OAS 294bps. CMBS MF DQ ATH 7.15%.
+**Updated:** 2026-05-01 ~21:00 UTC (May 1 PM2 — **THESIS v2.5 PROMOTED TO CANONICAL.** Three structural changes: (1) Cross-industry data masking promoted from KB-225 to thesis-level methodology (5+ industries, intermediate Q3'26 + outer Q1'27 falsification windows, 12-24mo P&L visibility lag). (2) Path C ACTIVATING-RED → ACTIVE-RED (PROVISIONAL pending COF/SYF Q1'24/Q1'25 ACL counterfactual baselines). (3) Convergence matrix expanded 12→14 vectors (V8+V9 merged, V13/V14 added, V15 dropped as RED domain, V16 Employment added) with rescaled 5-definition. Score 58/60 → **53/70 (76%)** — ~60% calibration + ~40% legitimate conviction reduction; prior was probably overconfident. Counter-Evidence section stripped, staged for RED in handoff_RED/. New predictions CRL-20 (Q1'27 outer) and CRL-21 (Q3'26 intermediate, with position-action commitment).)
+**Overall:** 🔴🔴 CRITICAL — Convergence **53/70 (76%)**. **May 1 update: Apr 30 BEA GDP Q1 advance = +2.0% real (vs 2.3% cons / vs 1.3% GDPNow Apr 7 anchor). Headline ABOVE GDPNow softens "stall speed" framing 0.7pp, BUT (1) PCE price index +4.5% NIPA Q1, (2) core PCE +4.3% NIPA Q1, (3) GDP price index gross domestic purchases +3.6% — realized Q1 inflation EXCEEDS UMich 1Y exp 4.7% trajectory, fully validating un-anchoring (Vector #12 hardens, Fed pure-locked: cannot cut without ratifying un-anchoring, cannot hike without crashing 2.0% growth). Q4 2025 REVISED DOWN 0.7%→0.5% on annual revision. Composition K-shape-consistent: residential AND non-residential structures DRAG, services PCE driver = healthcare (forced consumption, non-discretionary), drivers = equipment + IPP + inventory build (AI capex bubble + Q2 give-back risk).** **Apr 29 fast refresh: (1) BRENT $110.38 close / $115 intraday Apr 29, 8-session streak, highest since Jun 2022 (Russia-invasion peak); WTI $106.51 (+6.58% single day); IEA on-record framing potential Hormuz closure as "largest supply shock on record." STATUS prior $98.18 (Apr 13) — full +$12 / +12.5% leg unprocessed for ~16 days. CRL-08 (gas $4.50+) needs reprice — pass-through math implies retail pump +$0.30-0.40/gal coming over 2-4 wks. (2) UMich April FINAL 49.8 (Apr 24 release, revised UP from prelim 47.6) — barely below prior ATL 50.0 (Jun 2022). 1Y inflation expectations 4.7% (vs prelim 4.8%), 5-10Y 3.5% (vs prelim 3.4% — un-anchoring deepened on Final). (3) Apr 21 Iran ceasefire BINARY did NOT resolve cleanly — Apr 24 contradictory diplomacy cascade (Araghchi in Islamabad / Trump talks-relaunch / IRGC-Raja denial / Witkoff-Kushner travel reports), WTI dropped to $94.40 Apr 24 on talks-hope, then BREAKOUT Apr 28-29 to $115 on hope evaporating. (4) NY Fed CC 90+ DQ 12.7% Q4 2025 — already in STATUS at 12.70%, formalized "92% of 2009-peak" framing via Apr 24 chart. (5) Apr 21 quadruple event (SYF/COF/UNH/DHI) NOT yet processed; Apr 26 FL UI Wave 2 NOT processed; Apr 28 Case-Shiller / Rithm Q1 NOT processed — flagged in Danger Window. (6) BOARD disposition queue 53 signals from Apr 20/24/26/28/29 — work pending.** Apr 19 BOARD pull: Iran day-cluster, Qatar LNG ~20% global offline, MS counter-frame logged. Apr 17: ALLY composition-masking framework GENERALIZES. CFPB 1033 dead. ALLY Q1 processed, payment hierarchy TIMELINE PUSHED to 2H 2026/Q1 2027, CRL-05 85→82%. Vector #10 UPGRADE 4→5. NAHB HMI 34. Sweet Apr 15 MISSED → auto-relief ~271K. FICO Spring 2026: SL 90+ DQ ~9.8%. EART Class E CE BREACHED. CPI Mar +3.28%, PPI +4.0%. HY OAS 294bps. CMBS MF DQ ATH 7.15%.
 
 *Check-in archives: `archive/status/` (pending Phase 3 move)*
 
@@ -108,23 +108,37 @@
 
 ## CONVERGENCE MATRIX *(mirror — canonical in `thesis/THESIS.md`)*
 
-| # | Vector | Score | Current |
-|---|--------|-------|---------|
-| 1 | CC 90+ DQ → GFC | 🔴 4 | 12.70% = 92% of GFC. Q1 >13% = 5. |
-| 2 | Subprime Auto 60+ | 🔴🔴 5 | **ATR** 6.9% (Jan 2026). Max. |
-| 3 | Fannie MF DQ → GFC | 🔴 4 | 0.74% = 6bps from peak. |
-| 4 | Student Loan 90+ | 🔴🔴 5 | **9.2M default (+1.5M in 90 days), 2.4M late-stage DQ, FICO 714 (primary driver), credit cascade EXECUTING. SAVE ending Jul 1, MOHELA 800K manufactured DQ.** Max. |
-| 5 | Gas Price Squeeze | 🔴🔴 5 | **$4.08 FIRED.** Diesel $5.51. Max. |
-| 6 | UI Exhaustion Wave | 🔴🔴 5 | Duration 25.7wks (+2.0 single month). Cont claims drop = exhaustion. DOGE 260K+ cuts. Max. |
-| 7 | FL Triple Squeeze | 🔴 4 | Energy + HOA + Insurance. |
-| 8 | Reverse Wealth Effect | 🔴🔴 5 | RV crash + upper income pullback. Max. |
-| 9 | K-Shape CONVERGING | 🔴🔴 5 | Both cohorts moving DOWN. Max. |
-| 10 | Foreclosure Accel | 🔴🔴 5 | **Apr 17 UPGRADE 4→5:** Q1 ATTOM 118,727 filings (+26% YoY), **REO 14,020 (+45% YoY)**, FL Q1 REO +108% nationally greatest. Pipeline CONVERTING, not just accumulating. NAHB HMI 34. Max. |
+**v2.5 score definition:** 5 = fully fired, no further upside in mechanism. 4 = firing, room to escalate. 3 = watching, elevated. 2 = mildly relevant. 1 = not active. **Currently 0 vectors at 5.**
 
-| 11 | SB Bankruptcy + Owner Income | 🔴 4 | **NEW.** SubV +67% YoY BREACHED. Owner income destruction $73-145B invisible. SBA defaults 3.7% (12-yr high). Tariff accelerant active. |
-| 12 | Stagflation Trap / Fed Locked | 🔴🔴 5 | **NEW Apr 14, REINFORCED May 1 (twice).** UMich 47.6 RECORD LOW (Final 49.8 Apr 24). 5-10Y inflation expectations UN-ANCHORING at 3.5% Final (Fed red line). CPI Mar +3.28% YoY. **Apr 30 GDP advance: realized Q1 PCE +4.5% / core +4.3% NIPA — un-anchoring DATA-CONFIRMED.** **May 1 ISM Manufacturing: Prices Paid 84.6 HIGHEST SINCE APR 2022 (+6.3pp) — leads CPI 3-6mo, Q3 re-acceleration loaded.** Fed cannot cut (validates un-anchoring) or hike (sentiment ATL + 2.0% growth). 1970s analog tightening. |
+| # | Vector | v2.4 | v2.5 | Current |
+|---|--------|------|------|---------|
+| 1 | CC 90+ DQ → GFC | 4 | **4** | 12.70% = 92% of GFC; 1.04pp gap. |
+| 2 | Subprime Auto 60+ | 5 | **4** ⬇️ | ATR 6.9% Jan; cure collapse 3 trusts. **Strict-def fix:** EART Class E terminal but AMCAR/SDART have cushion. |
+| 3 | Fannie MF DQ → GFC | 4 | **4** | 0.74% Feb (6bps from peak); March data late Apr. |
+| 4 | Student Loan 90+ | 5 | **4** ⬇️ | 9.6% NY Fed / ~9.8% FICO Spring; cascade EXECUTING; room to escalate to 12-15%+. |
+| 5 | Gas Price Squeeze | 5 | **4** ⬇️ | $4.392 May 1; CRL-08 92% at $4.50 imminent; room to $5+. |
+| 6 | UI Exhaustion Wave | 5 | **4** ⬇️ | FL Wave 1 fired. Wave 2 surface counter-thesis (initial claims declining); exhaustion mechanism unverified pending DEO continued + DOL ETA. |
+| 7 | FL Triple Squeeze | 4 | **4** | Condo inv 13.2mo; FL Q1 REO +108% YoY nationally. |
+| 8 | K-Shape Converging *(merged 8+9, two-step)* | 5+5 | **4** ⬇️ | Both cohorts deteriorating. Step 1: merger eliminates double-count. Step 2: magnitude-not-2008-quantified. |
+| 10 | Foreclosure Acceleration | 5 | **4** ⬇️ | Q1 ATTOM REO +45% YoY; FL +108%. *2025 base partially pandemic-suppressed; 2019 absolute PENDING_VERIFY.* |
+| 11 | SB Bankruptcy + Owner Income | 4 | **3** ⬇️ | SubV +67% YoY breached; SBA defaults 12-yr high; income est $73-145B. |
+| 12 | Stagflation Trap / Fed Locked | 5 | **4** ⬇️ | UMich 5-10Y 3.5% un-anchored; Q1 NIPA Core PCE +4.3%; ISM Prices Paid 84.6. *TTM not yet crossed; UMich triangulation PENDING_VERIFY.* |
+| 13 | **Federal Fiscal Capacity Stress** *(NEW v2.5)* | — | **3** | Watching — TGA dynamics, debt ceiling, term-premium pressure; restrained but not at crisis. |
+| 14 | **Upper-Decile Wealth Stress** *(NEW v2.5)* | — | **3** | Watching — RV crash + retail-investor pullback are early signals; SPX still near highs; magnitude not 2008-quantified. |
+| 16 | **Employment Structural Rot** *(NEW v2.5)* | — | **4** | JOLTS 0.91 inverted, LFPR 61.9%, 3-mo NFP avg 68K, hires 3.1%, duration 25.7wk. |
 
-**Total: 58/60 → 🔴🔴 CRITICAL.** May 1 update: Vector #12 REINFORCED via realized Q1 inflation (PCE +4.5% / core +4.3% NIPA) — un-anchoring data-confirmed not just expectational; score unchanged (already 5/5), qualitative intensity higher. Apr 17 update (v2.4): Vector #10 upgraded 4→5 on Q1 ATTOM pipeline conversion (REO +45% YoY, FL +108%). Path C (housing → banks) transmission probability up. Apr 14: Vector #12 added (Stagflation Trap) — UMich record low + inflation expectations un-anchoring. Apr 13: Student loan defaults 9.2M, FICO cascade EXECUTING, CMBS MF DQ ATH 7.15%, HY OAS 294bps complacency gap. Prior: 57/60 (Apr 14) → 51/55 (Apr 13).
+V9 merged into V8 (May 1). V15 Refi-Window dropped (RED domain).
+
+### Score histogram
+
+| Score | Vectors | Count | Sum |
+|-------|---------|-------|-----|
+| 5 | (none) | 0 | 0 |
+| 4 | V1, V2, V3, V4, V5, V6, V7, V8, V10, V12, V16 | 11 | 44 |
+| 3 | V11, V13, V14 | 3 | 9 |
+| **Total** | **14 vectors** | **14** | **53/70** |
+
+**Total: 53/70 (76%) → 🔴🔴 CRITICAL.** Critical vectors avg 3.9, supporting avg 3.0, spread 0.9 — score now actually discriminates. May 1 v2.5 promotion: ~60% calibration (matrix expansion + 5-def tighten + V8/V9 merge) + ~40% legitimate conviction reduction (V6/V8/V12 honest downgrades). Prior 58/60 was probably overconfident; 53/70 closer to true conviction we should have had all along. Path C ACTIVATING-RED → ACTIVE-RED (provisional). Cross-industry data masking promoted to thesis-level methodology with CRL-21 (Q3'26) + CRL-20 (Q1'27) falsification windows. Counter-Evidence section stripped, staged for RED in `handoff_RED/`.
 
 ---
 
@@ -210,6 +224,8 @@
 | CRL-14 | MOHELA-caused defaults >500K from Jul 1 | 65% | Q3-Q4 2026 | NEW — servicer capacity near-zero for clean transition |
 | CRL-18 | Q1 GDP second estimate revises advance 2.0% down 0.2-0.4pp to 1.6-1.8% | 60% | May 28 2026 | NEW May 1 — pattern basis Q4 cumulative -0.9pp |
 | CRL-19 | March monthly Core PCE YoY accelerates Feb 3.0% → 3.3-3.5% | 70% | ~May 30 2026 | NEW May 1 — bridge test for Q1 NIPA 4.3% annualized |
+| CRL-20 | ≥3 of {ALLY, COF, SYF, RITM} show NCO/DQ acceleration breaking "headline clean" pattern | **75%** | Q1 2027 | **NEW v2.5 — outer falsification window for cross-industry data masking framework.** Specific: ALLY consumer auto NCO ≥+30bps QoQ for 2 consecutive quarters; COF Card NCO ≥+25bps QoQ for 2 consecutive quarters; SYF NCO breaks above FY26 ceiling 5.5%. Failure → masking thesis invalidated, CONTAINMENT validated. |
+| CRL-21 | NCOs at ALLY/COF/SYF visible inflection by Q3 2026 + vintage projections ≥+50bps over FY2023 baseline | **60%** | Q3 2026 | **NEW v2.5 — INTERMEDIATE falsification, addresses 12-24mo unfalsifiability tail risk.** Specific: ALLY consumer auto NCO ≥+30bps QoQ for 2 consecutive quarters OR vintage projections diverge above FY2023 ≥+50bps. **POSITION-ACTION COMMITMENT on failure:** confidence -25-30pp + trim short positions 25% + extend duration to Q2 2027+. |
 
 ---
 
