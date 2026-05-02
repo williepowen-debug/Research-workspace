@@ -256,7 +256,7 @@ Consumer stress converts to systemic risk when multiple vectors fire simultaneou
 | `thesis/CHANGELOG.md` | Audit trail of thesis evolution — every version bump, prediction change, structural shift logged with what/why/old→new. |
 | `inbox/` | Inbound signals. Process when spawned for it. |
 | `outbox/` | Outbound signals. One file per signal. HERMES delivers. |
-| `red_team/` | Counter-evidence log + competing hypotheses (SOFT_LANDING, CONTAINMENT). NOT boot material — read when assessing conviction. |
+| `handoff_RED/` | Transitional staging (May 1 2026): counter-evidence + alternative hypotheses (SOFT_LANDING, CONTAINMENT, COUNTER_LOG) staged for transfer to RED. Counter-signal work belongs to RED at the system level — CARL is bear-thesis specialist, not its own red team. Do NOT maintain these files; they are awaiting RED pickup. |
 | `workbook/SCHEMA.tsv` | **Read at boot.** Column definitions for all TSVs below. |
 | `workbook/KB.tsv` | Knowledge base — 13-column schema (ID/Date/Group/Entity/Fact/Source/Conf/Epistemic/Status/Stale_By/DerivedFrom/Vectors/Notes). ID format KB-CARL-NNN. |
 | `workbook/VX.tsv` | Indicator vectors — threshold tracking with Y/O/R status colors. See stale data rules. |
