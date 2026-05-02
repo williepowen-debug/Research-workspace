@@ -8,6 +8,128 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-05-01 — v2.5: PATH C ACTIVE + CROSS-INDUSTRY DATA MASKING + ARCHITECTURAL REALIGNMENT + 58/60 → 53/70 RECALIBRATION
+
+### THESIS v2.4.1 → v2.5
+**Author:** CARL (multi-stage drafting May 1 — r1/r2/r3 with two rounds of external review feedback integrated)
+**Action:** Major refinement. Three structural changes plus architectural realignment with RED. Convergence rescaled from 58/60 (97%) → 53/70 (76%) — ~60% calibration discipline + ~40% legitimate conviction reduction.
+
+### TRIGGER
+
+Q1 2026 consumer earnings cycle (Apr 17 – May 1) materially complete. Mandatory thesis review per exit rules (Q1 consumer earnings = April 2026). Pattern across SYF/COF/UNH/DHI/PHM/ALLY/Rithm/Case-Shiller integrations: each issuer reports headline-clean while underlying cohort/composition deterioration is structurally embedded but not yet visible in P&L because of an industry-specific accounting/structural mechanism. ALLY composition-masking framework (KB-CARL-225) generalizes.
+
+Plus: Q1 ATTOM REO conversion (+45% YoY) + bank Q1 provision builds (COF $230M, SYF +36bps to 10.42%) + Rithm advance receivable -$224M / -7.3% QoQ + builder K-shape explicit on call (DHI/PHM) = pre-specified Path C activation triggers from CHANGELOG v2.4 satisfied.
+
+### THREE STRUCTURAL CHANGES
+
+**Change 1 — Cross-industry data masking promoted from KB-225 to thesis-level methodology.**
+- Generalizes across 5+ industries via different mechanisms but same META-pattern (12-24mo P&L visibility lag)
+- Industries + mechanisms: ALLY (composition shift + CLN routing), SYF (survivor-pool), COF (ACL hedge + auto subprime mix), Rithm (FHA mod reclassification), UNH/ELV (membership culling + bronze-plan shift), DHI/PHM (one-time benefits + active-adult mix)
+- Methodological commitments: decompose first, headline second; aggregate-only counter-data downgraded; standing cross-agent methodology; trade duration extends to Q1 2027+
+- Falsification windows specified: **CRL-21 (Q3 2026 intermediate)** + **CRL-20 (Q1 2027 outer)**
+- Crying-wolf X-threshold placeholders: 20bps for credit issuers, 50bps for non-credit (refinement deferred to standalone working doc)
+
+**Change 2 — Path C ACTIVATING-RED → ACTIVE-RED (PROVISIONAL).**
+- Pre-specified v2.4 trigger (Q1 bank earnings cluster confirming Path C provision build) satisfied
+- Four channels confirmed: REO conversion + bank provision build + servicer stress + builder K-shape
+- PROVISIONAL caveat: COF/SYF Q1'24/Q1'25 counterfactual baselines PENDING_VERIFY before promotion to FIRM
+- Operational consequence specified: provisional = 50-75% bank-side put allocation; firm = full allocation; downgrade to ACTIVATING-RED if baseline shows normal seasonal
+
+**Change 3 — Convergence matrix rescaled and architecturally aligned (12 → 14 vectors).**
+- 5-definition tightened to "fully fired, no further upside in mechanism"
+- V8 + V9 merged into single K-Shape Converging vector (eliminated double-count)
+- V13 Federal Fiscal Capacity Stress added (score 3, supporting context)
+- V14 Upper-Decile Wealth Stress added (score 3, supporting context)
+- V15 Refi-Window dropped — counter-signal territory belongs to RED
+- V16 Employment Structural Rot added (was load-bearing claim but missing from scored matrix)
+- V2 Subprime Auto downgraded 5 → 4 (strict-definition: EART terminal but AMCAR/SDART have cushion)
+- Multiple other 5s rescaled to 4s under tightened definition
+
+### ARCHITECTURAL REALIGNMENT (the second-order finding)
+
+External review surfaced that CARL was running its own internal red team in parallel with system-level RED agent. Counter-Evidence section in THESIS, plus `red_team/` folder (COUNTER_LOG, SOFT_LANDING, CONTAINMENT) duplicated work that belongs in RED's domain.
+
+Action:
+- `red_team/` folder moved to `handoff_RED/` (May 1, commit 3d0bdf75)
+- THESIS Counter-Evidence section stripped, content staged at `handoff_RED/COUNTER_EVIDENCE_FROM_THESIS.md`
+- Puzzles section trimmed: counter-narrative observations (prime mortgage stable, auto insurance cooling, savings rate, prime card stable) routed to RED. Thesis-internal mechanism puzzles (claims-duration paradox, HAROT prime, Path C provisional) retained in CARL.
+- HY OAS reframed: was counter-evidence, now masking-thesis CONFIRMATION (public spreads lagging tranche-level stress is exactly what masking framework predicts)
+- CARL CLAUDE.md FILES table updated: red_team/ row replaced with handoff_RED/ pointer ("Do NOT maintain; awaiting RED pickup")
+
+### CONVERGENCE MATRIX
+
+| # | Vector | v2.4 | v2.5 | Note |
+|---|--------|------|------|------|
+| 1 | CC 90+ DQ → GFC | 4 | 4 | Holds |
+| 2 | Subprime Auto 60+ | 5 | **4** ⬇️ | Strict-def fix |
+| 3 | Fannie MF DQ → GFC | 4 | 4 | Holds |
+| 4 | Student Loan 90+ | 5 | **4** ⬇️ | Rescaled |
+| 5 | Gas Price Squeeze | 5 | **4** ⬇️ | Rescaled |
+| 6 | UI Exhaustion Wave | 5 | **4** ⬇️ | Mechanism unverified |
+| 7 | FL Triple Squeeze | 4 | 4 | Holds |
+| 8 | K-Shape Converging *(merged 8+9)* | 5+5 | **4** ⬇️ | Merge + magnitude caveat |
+| 10 | Foreclosure Acceleration | 5 | **4** ⬇️ | Rescaled |
+| 11 | SB Bankruptcy + Owner Income | 4 | **3** ⬇️ | Rescaled |
+| 12 | Stagflation Trap / Fed Locked | 5 | **4** ⬇️ | Rescaled (TTM not crossed) |
+| 13 | Federal Fiscal Capacity Stress | — | **3** | NEW supporting |
+| 14 | Upper-Decile Wealth Stress | — | **3** | NEW supporting |
+| 16 | Employment Structural Rot | — | **4** | NEW (was missing) |
+
+V9 merged into V8. V15 (Refi-Window) dropped (RED domain). Total: **53/70** (76%).
+
+### NEW PREDICTIONS
+
+**CRL-20 — Q1 2027 outer falsification, 75% confidence:** at least 3 of {ALLY, COF, SYF, RITM} show NCO/DQ acceleration breaking the "headline clean" pattern. Specific: ALLY consumer auto NCO ≥+30bps QoQ for 2 consecutive quarters; COF Card NCO ≥+25bps QoQ for 2 consecutive quarters; SYF NCO breaks above FY26 ceiling 5.5%. Failure → masking thesis invalidated, CONTAINMENT validated.
+
+**CRL-21 — Q3 2026 intermediate falsification, 60% confidence:** by Q3 2026, NCOs at ALLY/COF/SYF have begun visible inflection AND vintage-loss projections for FY2025/FY2026 vintages ≥+50bps above FY2023 vintage at comparable seasoning. Position-action commitment on failure: confidence -25-30pp + trim short positions 25% + extend duration to Q2 2027+.
+
+### NEW SECTIONS
+
+- **Cross-Industry Data Masking Framework** (with industry-mechanism inventory + falsification windows + crying-wolf operational thresholds + boundary case)
+- **Path C — Activation Status** (with provisional/firm/downgrade-target operational distinction table)
+- **Trade Duration Implications** (KRE/WAL Dec 2026 vs thesis Q1 2027+ gap; Path A roll structure recommendation; flag to FORGE/REGINALD)
+- **Puzzles / Anomalies** (3 thesis-internal mechanism puzzles)
+- **Fast Early-Warning Kill Mechanism** (1-month conviction-update triggers; HY OAS asymmetry tiered)
+
+### HONEST CONVICTION COMMENTARY
+
+Score 58/60 (97%) → 53/70 (76%) decomposes:
+- ~60% calibration: matrix expansion, 5-definition tightened, V8/V9 merge, V2 strict-def
+- ~40% legitimate conviction reduction: V6/V8/V12 honestly downgraded based on evidence gaps + multiple PENDING_VERIFY items
+
+Not "calibration honest, not thesis weakening" — that was rhetorical sleight of hand in r1/r2 drafts. Honest framing: prior 58/60 was probably overconfident. V6, V8, V12 were never really at 5 on the evidence base. 53/70 is closer to true conviction we should have had all along. Both better calibration AND recognition of prior overconfidence.
+
+The thesis is still CRITICAL. Every load-bearing vector (1-12 + 16) is at 4. No vector at 3 or below in the bear-thesis core.
+
+### COUNTER-EVIDENCE / RED-AGENT NOTE
+
+Under v2.5, aggregate-only counter-data is explicitly downgraded unless paired with cohort decomposition. Counter-narrative tracking is RED's domain — see `handoff_RED/`. Interface contract pending; ad-hoc until RED-CARL handshake protocol document written.
+
+### REVIEW PROCESS NOTE (multi-stage drafting)
+
+v2.5 was drafted in 3 revisions over ~6 hours with 2 rounds of external LLM review:
+- r1 (commit c0e06744): initial draft, 12-vector matrix, 58/60 → 54/60
+- r2 (commit 36c1e5f3): 13 reviewer critiques addressed; matrix expanded 14 vectors; rescaled
+- r3 (commit 036c7247): architectural realignment after Will surfaced RED agent existence; 12 additional structural fixes; honest conviction reframe
+
+Worth carrying forward as practice — thesis-level changes benefit from external review before promotion to canonical.
+
+### STATUS DASHBOARD CHANGES (pending)
+
+STATUS.md mirror updates: convergence matrix table (12 vectors → 14, scores rescaled, total 58/60 → 53/70), header banner (overall capsule), predictions table (+CRL-20, +CRL-21), counter-evidence section removal pointer.
+
+### KB ROW LOGGED
+
+- **KB-CARL-263** — v2.5 thesis statement (Path C ACTIVE + cross-industry data masking + 53/70 recalibration)
+
+### NEXT REFRESH
+
+- v2.5.1 hardening: PENDING_VERIFY items 1-9 (UMich triangulation, foreclosure 2019 baseline, Path C counterfactual, X-threshold operationalization, Brier audit, CONTAINMENT prior audit, COF/SYF candor puzzle, trade duration roll plan, RED-CARL interface)
+- Q3 2026 — CRL-21 intermediate falsification window
+- Q1 2027 — CRL-20 outer falsification window
+
+---
+
 ## 2026-05-01 — LIVE OIL/PUMP REFRESH + CRL-08 REPRICE 78→92%
 
 ### NO THESIS VERSION BUMP
