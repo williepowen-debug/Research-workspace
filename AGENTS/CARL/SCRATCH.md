@@ -1,92 +1,83 @@
 # CARL SCRATCH
-**Last session:** 2026-05-02 ~14:00-17:00 UTC (Will-driven workbook restructure session — boot + AAA pump check + 3-phase workbook cleanup to "TSVs only" compliance)
-**Type:** Maintenance + daily monitoring — workbook 31 → 9 files
+**Last session:** 2026-05-02 ~14:00–18:00 UTC (Will-driven workbook restructure THEN workbook hardening Item #1: schema audit + expansion)
+**Type:** Workbook architecture — schema hardening, multi-item plan
 
-**PRIORITY-1:** **AAA pump $4.50 breach watch — likely May 3-4.** May 2 = $4.433 (+4.1¢ overnight, pace decelerated from May 1's +9.2¢ — partial Saturday calendar effect). Gap to threshold $0.067 (was $0.108 May 1). At today's pace breach in ~1.6 days; at weekly pace also May 4-5. Daily AAA check is ~5min work. CRL-08 stays 92% (reprice to 95%+ deferred until threshold-cross + 2-week sustainability test).
+**PRIORITY-1:** **Workbook hardening Item #2 — KB.tsv fix pass.** Migrate 44 `Status='DELEGATED TO HOMER'` rows to new `Delegated_To` column; fix 5 column-bleed rows (KB-215..219, `CONFIRMED` in Epistemic col); fix 5 column-count anomalies (KB-075/077/254-256, paste-with-trailing-tab); fix 2 empty-Status framework rows (KB-001/002); fix 1 terminal-state hygiene (KB-029); reclassify 27 stale-ACTIVE rows. ~84 of the 87 audit issues clear in this pass. ~45 min, context-heavy. Full audit at `workbook/AUDIT_2026-05-02.md`.
 
 ---
 
 ## WHAT HAPPENED
 
 1. **Boot clean** — pulled, BOARD diff-clean (98/98), inbox empty, outbox holds 6 Apr 17 signals (deferred per messaging-overhaul).
-2. **Two thesis-thoughts files archived** — Will dropped v2.5 r1/r2 review docs in thesis/; moved to `archive/reviews/2026-05-01_v2.5_r1_review.md` + `..._r2_review.md`. Content fully integrated into canonical thesis yesterday.
-3. **AAA pump check May 2** — $4.433 (+4.1¢ overnight, +34.7¢ WoW, +35.2¢ MoM, +39.4% YoY). Gap to $4.50 = $0.067. Diesel $5.627 (+16.3¢ vs Apr 29) — diesel divergence narrowing. KB-CARL-264 added; VX-CARL-GAS-01 + STATUS gas row updated. **Data caveat:** AAA top-state list returned East-Coast-only (CA/WA/OR/NV missing) — fetch parse anomaly, headline corroborated by internal consistency.
-4. **Workbook audit** — 31 files, only 9 canonical TSVs per CLAUDE.md. 70% sediment (deprecated TSVs, prose MDs, misfiled archives, Excel predecessor).
-5. **Phase 1A trash (2 files)** — `ML_old_9col.tsv` (true duplicate of ML.tsv with supersession notes added), `CARL_MLFLFLOWVX_S6.xlsx` (91KB Excel predecessor). Used `gio trash`.
-6. **Phase 1B archive/snapshots (3 files)** — `VX_HISTORY.tsv` (Jan-Feb 2026 first-read snapshot), `CARL_ML_S2_ADDITIONS.tsv` (FOUNDING entries: NICK/POLLY/PHANTOM/Beneath-the-Ice-synthesis ML-CARL-01), `CARL_ML_MARCO_TRANSFER_FOOD.tsv` (Jan 22 MARCO domain transfer record). Spot-checked content first — 3 of 5 originally proposed for trash were actually founding/historical material; revised proposal to ARCHIVE not delete.
-7. **Phase 1C archive/status (2 files)** — `STATUS_archive_20260325.md` + `STATUS_archive_mar1_mar15.md` (misfiled, belonged in archive/).
-8. **Phase 2 Tier 3 cluster disposition (14 files):**
-   - **Cluster A (5 files) → `domain/sources/ABS/`:** ABS_TRACKING_FRAMEWORK, ABS_BASELINE_PROTOCOL, ABS_IMPLEMENTATION_SUMMARY, ABS_QUICK_REFERENCE, SDART_ABS_BASELINE_2026-03-11
-   - **Cluster B (1 file) → `domain/sources/`:** STATE_STRESS_FRAMEWORK
-   - **Cluster C (2 files) → `archive/trade_analyses/`:** CONSUMER_FINANCE_TRADE_ANALYSIS_2026-02-16, HOMEBUILDER_TRADE_ANALYSIS_2026-02-16
-   - **Cluster D (6 files) → `archive/founding_synthesis/`:** ML-CARL-01..06 (incl. BENEATH_THE_ICE_SYNTHESIS — origin of thesis name; METRIC_ARTIFACTS_AND_MASKING — origin of v2.5 cross-industry data masking framework)
-   - **Cluster E (1 file) → `domain/sources/`:** ML-CR-18_PHANTOM_DEBT_ANALYSIS (PHAN reference)
-9. **Atomic path edits:**
-   - `domain/sources/ABS/README.md` — 4 path refs fixed (was pointing to nonexistent `domain/workbook/`)
-   - `sub_agents/PHAN/CLAUDE.md` — ML-CR-18 path updated `workbook/` → `domain/sources/`
-10. **Verification** — sweep for `workbook/<moved-file>` broken refs returned ZERO. Workbook now exactly 9 canonical TSVs (KB, VX, FLOW, ABS_BASELINE, BNPL_STRESS, STATE_DIFFUSION, SCHEMA, TRENDS, ML).
-11. **ROADMAP updated** — 2 new RECENTLY RESOLVED rows (restructure + AAA pump), 1 OPEN QUESTION refreshed (TRENDS/ML retirement decision surfaced).
+2. **Will dropped** `User Input/Carl Workbook convo.md` — transcript of external-LLM audit of CARL's workbook. Flagged schema violations + ML.tsv legacy concern + recommended Delegated_To/Last_Refreshed/validator/INDEX additions.
+3. **CARL response to external audit** — confirmed most flags, pushed back on framing of "logical inconsistency" / "ML.tsv duplication", agreed on architectural fixes, answered 4 direct questions + the orientation-sequence question.
+4. **Full programmatic audit** (`/tmp/audit_kb.py` against SCHEMA.tsv): **87 issues** in KB.tsv across 8 categories. Bigger finding: 5 of 9 other workbook TSVs have severe row-level col-count drift (BNPL_STRESS 93%, TRENDS 90%, STATE_DIFFUSION 77%, ABS_BASELINE 51%; VX/FLOW clean) — non-KB TSVs have no formal schema in SCHEMA.tsv at all.
+5. **Audit report written** to `workbook/AUDIT_2026-05-02.md` — 4 sections (top-line, KB row-by-row, other TSVs, architectural recommendations) + recommended sequencing (Items #1-6).
+6. **Item #1 executed atomically:**
+   - SCHEMA.tsv: 13 → 15 column definitions (`Last_Refreshed` Date-optional + `Delegated_To` sub-agent-name-optional)
+   - KB.tsv header: 2 new column names appended
+   - KB.tsv data: 260 rows expanded with empty trailing cells (`\t\t`)
+   - CARL `CLAUDE.md`: KB.tsv description "13-column schema" → "15-column schema" with reference to AUDIT file
+   - Audit re-run: 87 issues unchanged, **0 new violations introduced**
+   - Backup: `/tmp/KB.tsv.bak_1777742976`
+7. **ROADMAP updated** — added Workbook hardening as new OPEN THREAD with full Items #1-6 description; ML.tsv question marked resolved (scheduled in Item #4); added RECENTLY RESOLVED entry for today's work.
+8. **Choice point:** Will elected to commit at the Item #1 checkpoint rather than continuing into Item #2 — schema decision is most consequential and worth peer-review before touching 84 rows.
 
 ## STATUS CHANGES
 | Item | Change |
 |------|--------|
-| Workbook | **31 → 9 files** (full CLAUDE.md "TSVs only" compliance) |
-| AAA pump | $4.392 May 1 → **$4.433 May 2** (+4.1¢ overnight) |
-| Gap to $4.50 | $0.108 → **$0.067** (breach now likely May 3-4) |
-| Diesel | $5.464 Apr 29 → **$5.627 May 2** (+16.3¢) — divergence narrowing |
-| KB | 263 → **264** rows (+KB-CARL-264 May 2 pump) |
-| VX-CARL-GAS-01 | refreshed May 2 |
-| STATUS gas pump row | refreshed May 2 with caveat note |
-| `domain/sources/ABS/README.md` | 4 broken `domain/workbook/` paths fixed |
-| `sub_agents/PHAN/CLAUDE.md` | ML-CR-18 path fixed |
-| `archive/` tree | created (5 subdirs: reviews/, snapshots/, status/, trade_analyses/, founding_synthesis/) |
-| `domain/sources/` | +7 files (5 in ABS/, 2 at top-level) |
-| ROADMAP | +2 RECENTLY RESOLVED + 1 OPEN QUESTION refresh |
+| `workbook/SCHEMA.tsv` | 13 → **15 column definitions** (added `Last_Refreshed` + `Delegated_To`) |
+| `workbook/KB.tsv` | header 13→15 cols; 260 data rows expanded with empty trailing cells |
+| `CLAUDE.md` | KB.tsv reference: "13-column schema" → "15-column schema" + AUDIT file ref |
+| `workbook/AUDIT_2026-05-02.md` | NEW — full programmatic audit, 87 issues, recommendations + sequencing |
+| `ROADMAP.md` | +Workbook hardening OPEN THREAD; ML.tsv OPEN QUESTION resolved (→Item #4); +RECENTLY RESOLVED entry |
+| KB.tsv issue count | 87 → 87 (Item #1 was non-data structural — issues clear in Item #2) |
 
 ---
 
 ## NEXT SESSION SHOULD
 
-### IMMEDIATE (next 24-48hrs)
-1. **DAILY AAA pump refresh** — $4.50 breach likely May 3-4. When breach holds 2+ weeks, mark CRL-08 CONFIRMED.
-2. **Brent close monitoring** — sustainability test ($107+ vs collapse on Iran de-escalation). Iran WPR deadline May 1 expired without resolution.
-3. **Diesel divergence sustainability** — May 2 +16.3¢ catching up to crude. If trend continues through May 7 EIA inventory print, KB-CARL-253 freight-demand thread weakening confirmed.
+### IMMEDIATE (this session / 24hrs)
+1. **Workbook hardening Item #2** — KB.tsv fix pass. Largest single item by row count; ~84 of 87 audit issues clear. Suggest doing this in dedicated session given context cost. Source: `workbook/AUDIT_2026-05-02.md` §1 (full row lists per category).
+2. **DAILY AAA pump refresh** — $4.50 breach watch, likely May 3-4. May 2 latest $4.433 (gap $0.067). Quick (~5 min). When breach holds 2+ weeks, mark CRL-08 CONFIRMED.
+3. **Brent close monitoring** — sustainability test ($107+ vs collapse on Iran de-escalation). Iran WPR deadline May 1 expired without resolution.
 
 ### UPCOMING (this week)
-4. **May 5** — PayPal Q1 (PHAN spawn) — first under new CEO Lores. Apply masking framework decompose.
-5. **May 6** — Uber Q1 + DoorDash Q1 (GIG) — driver count QoQ post-gas.
-6. **May 6** — BLS state jobs March (FL labor extension test).
-7. **May 7 TRIPLE** — Dave Q1 (28DPD GIG-P01) + Lyft Q1 + Affirm Q3 FY2026.
-8. **May 7** — EIA weekly inventory print — distillate (KB-253 follow-up) + gasoline stocks.
+4. **Workbook hardening Item #3** — promote `/tmp/audit_kb.py` → `workbook/tools/validate.py`; add to spawn protocol step 0.5 (between `git pull` and SCRATCH read). ~45 min.
+5. **Workbook hardening Item #4** — archive ML.tsv → `archive/legacy_workbook/`; update CLAUDE.md to remove ML reference. Trivial (~10 min).
+6. **May 5** — PayPal Q1 (PHAN spawn) — first under new CEO Lores. Apply masking framework decompose.
+7. **May 6** — Uber Q1 + DoorDash Q1 (GIG) — driver count QoQ post-gas.
+8. **May 6** — BLS state jobs March (FL labor extension test).
+9. **May 7 TRIPLE** — Dave Q1 (28DPD GIG-P01) + Lyft Q1 + Affirm Q3 FY2026.
+10. **May 7** — EIA weekly inventory print — distillate (KB-253 follow-up) + gasoline stocks.
 
 ### UPCOMING (next 2 weeks)
-9. **May 8** — BLS Apr NFP — V16 Employment Structural Rot first realized print.
-10. **~May 18** — Klarna Q1 2026 (PHAN — first full quarter post-FY-loss).
-11. **~Mid-May** — NY Fed Q1 2026 HHDC — CARL CORE — CC 90+ DQ vs 12.7%; tests CRL-05.
-12. **May 28** — BEA Q1 GDP second estimate — CRL-18 resolves.
-13. **~May 30** — March monthly Core PCE — CRL-19 resolves.
+11. **May 8** — BLS Apr NFP — V16 Employment Structural Rot first realized print.
+12. **~May 18** — Klarna Q1 2026 (PHAN — first full quarter post-FY-loss).
+13. **~Mid-May** — NY Fed Q1 2026 HHDC — CARL CORE — CC 90+ DQ vs 12.7%; tests CRL-05.
+14. **May 28** — BEA Q1 GDP second estimate — CRL-18 resolves.
+15. **~May 30** — March monthly Core PCE — CRL-19 resolves.
+16. **Workbook hardening Item #5** — extend SCHEMA.tsv to other workbook TSVs (BNPL_STRESS, STATE_DIFFUSION, ABS_BASELINE, TRENDS, VX, FLOW) + fix row-level drift. Big job; deferred.
 
 ### v2.5.1 HARDENING (queued, no fixed dates — same as May 1)
-14. UMich triangulation — verify TIPS 5y5y / SPF / NY Fed 3yr against UMich 5-10Y 3.5%.
-15. Foreclosure 2019 absolute baseline — ATTOM Q1 2019 REO completions.
-16. Path C counterfactual — pull COF/SYF Q1'24/'25 ACL builds; promote provisional → firm OR downgrade.
-17. Crying-wolf X-threshold operational doc.
-18. Brier audit full prediction history — CRL-01 through CRL-21 + legacy.
-19. CONTAINMENT prior-calibration audit — joint CARL-RED.
-20. COF/SYF candor puzzle — RED handoff.
-21. Trade Duration roll plan — FORGE/REGINALD coord on KRE/WAL Dec 2026 → Q1-Q2 2027.
-22. RED-CARL interface protocol — handshake document.
-
-### NEW SURFACED (May 2)
-23. **ML.tsv retirement decision** — CLAUDE.md calls it "legacy data log." Its ancestors (ML_old_9col, ML synthesis MDs, S2_ADDITIONS) are now archived. Question: fully retire to archive/ or keep refreshing? Surfaced during workbook restructure. Low priority.
-24. **2 broken paths in ABS README left alone** (`domain/workbook/VX.tsv`, `domain/workbook/FL.tsv` — FL.tsv doesn't exist anymore). Out of scope this pass; flag if next ABS-touching session.
+17. UMich triangulation — TIPS 5y5y / SPF / NY Fed 3yr against UMich 5-10Y 3.5%.
+18. Foreclosure 2019 absolute baseline — ATTOM Q1 2019 REO completions.
+19. Path C counterfactual — pull COF/SYF Q1'24/'25 ACL builds; promote provisional → firm OR downgrade.
+20. Crying-wolf X-threshold operational doc.
+21. Brier audit full prediction history — CRL-01 through CRL-21 + legacy.
+22. CONTAINMENT prior-calibration audit — joint CARL-RED.
+23. COF/SYF candor puzzle — RED handoff.
+24. Trade Duration roll plan — FORGE/REGINALD coord on KRE/WAL Dec 2026 → Q1-Q2 2027.
+25. RED-CARL interface protocol — handshake document.
 
 ### BACKLOG (no deadline)
-25. LABOR/GIG spawn for FL UI Wave 2 (KB-CARL-262 partial).
-26. HOMER spawn for Case-Shiller Feb sub-market detail (KB-CARL-261 headline only).
-27. Workbook content refresh — VX consumer rows / FLOW / STATE_DIFFUSION / BNPL_STRESS (15d stale).
-28. ABS_BASELINE refresh — March 10-Ds (16d stale; EART terminal + AMCAR ~2mo + SDART ~7mo).
-29. 6 outbox signals from Apr 17 — defer per messaging-overhaul.
+26. **Workbook hardening Item #6** — workbook root `INDEX.md`. Low priority.
+27. LABOR/GIG spawn for FL UI Wave 2 (KB-CARL-262 partial).
+28. HOMER spawn for Case-Shiller Feb sub-market detail (KB-CARL-261 headline only).
+29. Workbook content refresh — VX consumer rows / FLOW / STATE_DIFFUSION / BNPL_STRESS (15d stale; folds into Item #5).
+30. ABS_BASELINE refresh — March 10-Ds (16d stale; EART terminal + AMCAR ~2mo + SDART ~7mo).
+31. 6 outbox signals from Apr 17 — defer per messaging-overhaul.
+32. Methodology preservation note — extract v2.5 calibration discipline from CHANGELOG into `thesis/METHODOLOGY.md` (external-LLM suggestion).
 
 ---
 
@@ -112,29 +103,29 @@
 
 ---
 
-## WORKBOOK HEALTH (after restructure)
-| TSV | Rows | Last Modified | Note |
-|-----|------|---------------|------|
-| KB | **264** | **May 2** | +1 today (KB-CARL-264 AAA pump May 2) |
-| VX | 112 | **May 2** | GAS-01 refreshed |
-| FLOW | 22 | Apr 17 | 15d — refresh due |
-| PREDICTIONS | 21 | May 1 PM2 | (canonical in `thesis/PREDICTIONS.tsv`) |
-| STATE_DIFFUSION | 63 | Apr 17 | 15d — fold KB-CARL-249 on next pass |
-| BNPL_STRESS | 44 | Apr 17 | 15d — refresh due |
-| ABS_BASELINE | 67 | Apr 16 | 16d — March 10-Ds available |
-| TRENDS | 40 | Apr 6 | 26d STALE — low priority OR retire? |
-| ML | 67 | Apr 7 | 25d STALE — CLAUDE.md calls "legacy"; **retirement decision queued** |
-| SCHEMA | 14 | Mar 17 | static (column defs) |
+## WORKBOOK HEALTH (post Item #1)
+| TSV | Rows | Cols | Last Modified | Note |
+|-----|------|------|---------------|------|
+| KB | 260 | **15** | **May 2 PM** | Item #1 expansion; 87 audit issues queued for Item #2 |
+| VX | 111 | 11 | May 2 | GAS-01 refreshed; clean col-counts (0 drift) |
+| FLOW | 24 | 9 | Apr 17 | 15d — refresh due; clean col-counts (0 drift) |
+| PREDICTIONS | 21 | — | May 1 PM2 | (canonical in `thesis/PREDICTIONS.tsv`) |
+| STATE_DIFFUSION | 62 | 12 | Apr 17 | 15d; **77% col-count drift** — Item #5 target |
+| BNPL_STRESS | 59 | 13 | Apr 17 | 15d; **93% col-count drift** — Item #5 target |
+| ABS_BASELINE | 72 | 12 | Apr 16 | 16d; **51% col-count drift** — Item #5 target |
+| TRENDS | 39 | 7 | Apr 6 | 26d; **90% col-count drift** — Item #5 target |
+| ML | 66 | 9 | Apr 7 | 25d; **legacy** — Item #4 target (archive) |
+| SCHEMA | 15 | 7 | **May 2 PM** | Item #1 expansion |
 
-**Workbook contains EXACTLY the 9 canonical TSVs per CLAUDE.md.** No prose, no archives, no deprecated files. Full compliance achieved.
+**Audit artifact:** `workbook/AUDIT_2026-05-02.md` — full 87-issue report + Items #1-6 sequencing.
 
-BOARD_LOG: 105 lines, 98 dispositions, **diff-clean against INDEX as of May 1** (no new BOARD signals May 2).
+BOARD_LOG: 105 lines, 98 dispositions, **diff-clean against INDEX as of May 1**.
 
 ---
 
 ## URGENT
 
+- **Workbook hardening Item #2** — biggest single item, ~84 issues clear in one pass. Context-heavy; do in dedicated session.
 - **AAA pump $4.50 breach watch** — daily refresh; breach likely May 3-4.
 - **Iran cluster still live** — WPR deadline May 1 expired without resolution; Brent at $107-110 sustained.
-- **v2.5.1 hardening queue (9 items)** — sequencing matters: data items 1-3 before Brier audit (item 5).
 - **Q3 2026 = CRL-21 first checkpoint** — ALLY consumer auto NCO ≥+30bps QoQ for 2 consecutive quarters OR vintage projections diverge above FY2023 ≥+50bps. **POSITION-ACTION COMMITMENT** if fails: confidence -25-30pp + trim 25% + extend duration to Q2 2027+.

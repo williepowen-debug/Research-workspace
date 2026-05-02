@@ -12,3 +12,5 @@ Stale_By	Date	YYYY-MM-DD or empty		No		Expected review/expiration date; empty if
 DerivedFrom	String	Comma-separated KB IDs (KB-{AGT}-NNN) or empty		No		Parent KB entries this claim was built on (provenance chain)
 Vectors	String	Comma-separated refs (VX-{AGT}-NN, BRT-NN, →AGENT) or empty		No		Thesis connections and cross-agent links
 Notes	String	Free text		No		Catch-all: caveats, assumptions, gaps, implications, verification instructions
+Last_Refreshed	Date	YYYY-MM-DD or empty		No		Date the entry was last touched, verified, or re-evaluated. Distinct from Date (original logging) and Stale_By (review deadline). Empty means never refreshed. Update when re-citing or re-validating in a session.
+Delegated_To	String	STUE;HOMER;GIG;PHAN;POLLY;POP;DOC or empty		No		Sub-agent that owns this entry's domain after handoff. Empty if CARL-direct. When set, Status should typically be SUPERSEDED (handed off) or CONFIRMED (still load-bearing but actively tracked downstream). Replaces the prior 'DELEGATED TO HOMER' Status overload.
