@@ -258,7 +258,7 @@ Consumer stress converts to systemic risk when multiple vectors fire simultaneou
 | `outbox/` | Outbound signals. One file per signal. HERMES delivers. |
 | `handoff_RED/` | Transitional staging (May 1 2026): counter-evidence + alternative hypotheses (SOFT_LANDING, CONTAINMENT, COUNTER_LOG) staged for transfer to RED. Counter-signal work belongs to RED at the system level — CARL is bear-thesis specialist, not its own red team. Do NOT maintain these files; they are awaiting RED pickup. |
 | `workbook/SCHEMA.tsv` | **Read at boot.** Column definitions for all TSVs below. |
-| `workbook/KB.tsv` | Knowledge base — 13-column schema (ID/Date/Group/Entity/Fact/Source/Conf/Epistemic/Status/Stale_By/DerivedFrom/Vectors/Notes). ID format KB-CARL-NNN. |
+| `workbook/KB.tsv` | Knowledge base — 15-column schema (ID/Date/Group/Entity/Fact/Source/Conf/Epistemic/Status/Stale_By/DerivedFrom/Vectors/Notes/Last_Refreshed/Delegated_To). ID format KB-CARL-NNN. Last 2 cols added 2026-05-02 (Item #1 of workbook hardening — see `workbook/AUDIT_2026-05-02.md`). |
 | `workbook/VX.tsv` | Indicator vectors — threshold tracking with Y/O/R status colors. See stale data rules. |
 | `workbook/FLOW.tsv` | Transmission mechanics — payment hierarchy, K-shape cascade, stress conversion paths. |
 | `workbook/ABS_BASELINE.tsv` | ABS trust performance baselines (subprime auto/CC). |
