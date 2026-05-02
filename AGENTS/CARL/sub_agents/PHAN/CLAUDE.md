@@ -176,4 +176,4 @@ CARL's workbook holds the canonical phantom debt entries. PHAN is the sub-agent;
 
 **Baseline research:**
 - CARL domain/sources/RichmondFed_BNPL_2026-02.md
-- CARL workbook/ML-CR-18_PHANTOM_DEBT_ANALYSIS.md
+- CARL domain/sources/ML-CR-18_PHANTOM_DEBT_ANALYSIS.md

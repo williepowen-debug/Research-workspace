@@ -86,8 +86,10 @@ Adjust if baseline data suggests different appropriate levels.
 
 ## Reference Documents
 
-- **Framework:** `domain/workbook/ABS_TRACKING_FRAMEWORK.md`
-- **Protocol:** `domain/workbook/ABS_BASELINE_PROTOCOL.md`
+- **Framework:** `domain/sources/ABS/ABS_TRACKING_FRAMEWORK.md`
+- **Protocol:** `domain/sources/ABS/ABS_BASELINE_PROTOCOL.md`
+- **Implementation Summary:** `domain/sources/ABS/ABS_IMPLEMENTATION_SUMMARY.md`
+- **Quick Reference:** `domain/sources/ABS/ABS_QUICK_REFERENCE.md`
 - **Vectors:** `domain/workbook/VX.tsv` (VX-CARL-ABS-01 through ABS-14)
 - **Calendar:** `domain/workbook/FL.tsv` (FL-CARL-ABS-001 through ABS-008)
 - **Status:** `domain/STATUS.md` (ABS Monitoring section)
