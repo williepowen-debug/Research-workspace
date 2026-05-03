@@ -65,7 +65,7 @@ Life insurers also hold ~$40-53B (~$45B central est.) in US private credit — m
 
 **Current probability:** 15% (7d) / 70% (30d) / 90% (60d) *(post Apr 28 BOJ; binary catalyst passed without trigger — 7d ticked down; 60d ticked up on June lock)*
 
-CFTC net short JPY still BUILDING (not covering) — Apr 24 boot shows "SHORT ADD" alert. At ≥52% of July 2024 peak (-180K). Positioning hasn't corrected despite BOJ delay signals → fuel load growing. Aug 2024 precedent: unwind took hours, not days.
+CFTC net short JPY still BUILDING (not covering) — May 1 release (Apr 28 data) at **-102,059** (built +7,599 THROUGH the BOJ event, no cover on hawkish hold). Now **56.7% of July 2024 peak** (-180K) — highest of cycle. Positioning hasn't corrected despite hawkish hold → fuel load actively growing. Aug 2024 precedent: unwind took hours, not days.
 
 **Post Apr 28 BOJ:** Hold + 3 dissents + GDP cut + inflation upgrade = market repriced June hike to 74% (vs SAM-21 70%). Direction confirmed; timing now hinges on June meeting.
 
@@ -189,7 +189,7 @@ If cascade → recession → Fed cuts → USD weakens → JPY sub-145 WITHOUT BO
 | USD/JPY 147 | Forced carry unwind | SET |
 | USD/JPY 145 | Unhedged positions underwater → mechanical selling | SET |
 | USD/JPY 130-135 | Life insurer forced systematic selling (avg entry for unhedged) | SET |
-| JGB 10Y 2.40% | Stress crossover | 🔴 BREACHED — 2.429% (MOF Apr 23) |
+| JGB 10Y 2.40% | Stress crossover | 🔴 BREACHED — 2.520% (MOF Apr 30) |
 | JGB 30Y 4.0% | Severe insurer stress / acceleration zone | WATCH |
 | Brent $120 | Kharg Island scenario | 🟡 $99 — blockade persistent, no spike |
 | BOJ rate 0.75% | Political ceiling (mortgage constraint) | 🔴 AT CEILING — next hike (June base case) breaches |
@@ -231,7 +231,7 @@ If cascade → recession → Fed cuts → USD weakens → JPY sub-145 WITHOUT BO
 ## CROSS-AGENT LINKS
 
 - **→ LIQUID:** Life insurer UST selling (base-case pace $7-10B/mo confirmed Apr 16). Hedge ratio 44.4% (14yr low) = $370-550B unhedged. Norinchukin CLO ¥9.7T shrinking. Japan holds **$1,239.3B USTs (Feb 2026)** — +$53.8B Dec→Feb (stock NOT falling at aggregate level; flows visible at MOF ITS weekly level only).
-- **→ HENRY:** Carry unwind probabilities revised 20/70/88 (7d/30d/60d) on timing stretch. CFTC shorts STILL BUILDING (not covering) → fuel load growing through BOJ delay. Aug 2024 speed precedent.
+- **→ HENRY:** Carry unwind probabilities 20/72/90 (7d/30d/60d) post-CFTC May 1. CFTC shorts BUILT THROUGH BOJ event (-102,059, 56.7% Jul24 peak) → no cover on hawkish hold → fuel load grows. Aug 2024 speed precedent.
 - **← HAWK:** War → Japan energy vulnerability (90% ME oil dependent). Ceasefire extended Apr 22 (not indefinite); Hormuz blockade persistent.
 - **← HANS/BROCK:** Private credit cascade → Fed cuts → USD/JPY sub-145 independent of BOJ.
 

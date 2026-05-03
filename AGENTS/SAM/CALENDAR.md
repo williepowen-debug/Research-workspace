@@ -1,6 +1,6 @@
 # SAM CALENDAR
 
-**Last Updated:** 2026-04-30 | **View:** Forward-looking only. Past events pruned weekly.
+**Last Updated:** 2026-05-03 | **View:** Forward-looking only. Past events pruned weekly.
 
 ---
 
@@ -13,12 +13,12 @@
 | Apr 29-30 | ✅ Katayama/Aida response | 🟢 QUIET — no public Diet pushback, no BOJ Law threats; D2 channel quiet |
 | Apr 30 (Thu) | ✅ 2Y JGB auction | BTC **5.24x**, tail 0.005y, yield 1.407% — orderly |
 
-## WEEK OF MAY 1
+## WEEK OF MAY 1 — RESOLVED
 
-| Date | Event | What to Check | Threshold / Signal | Who Cares |
-|------|-------|---------------|-------------------|-----------|
-| **May 1 (Fri)** | BOJ MPM (secondary) | Language evolution from Apr 28 | Lower info; Ueda one-pager | ALL |
-| **May 1 (Fri)** | 🟠 CFTC JPY weekly release | First post-BOJ read | Cover signal vs further build | SAM, HENRY |
+| Date | Event | Outcome |
+|------|-------|---------|
+| ~~May 1 (Fri)~~ | ✅ "BOJ MPM secondary" | Calendar artifact — no actual policy event May 1; Apr 28 was THE meeting |
+| ~~May 1 (Fri)~~ | ✅ **CFTC JPY release** | **-102,059** (built +7,599 through BOJ event); 56.7% Jul24 peak — speculators did NOT cover on hawkish hold |
 
 ## MID-MAY — ELEVATED IMPORTANCE
 
