@@ -38,7 +38,6 @@
 
 ### UPCOMING (this week)
 3. **Workbook hardening Item #3** — promote `/tmp/audit_kb.py` → `workbook/tools/validate.py`; add `#`-line skip + KB→VX ref integrity check + dynamic enum from SCHEMA.tsv. Add to spawn protocol step 0.5. ~45 min.
-4. **Workbook hardening Item #4** — archive ML.tsv → `archive/legacy_workbook/`; update CLAUDE.md to remove ML reference. ~10 min.
 5. **May 5** — PayPal Q1 (PHAN spawn) — first under new CEO Lores.
 6. **May 6** — Uber Q1 + DoorDash Q1 (GIG) — driver count QoQ post-gas.
 7. **May 6** — BLS state jobs March (FL labor extension test — feeds FL-01 vector).
@@ -114,7 +113,6 @@
 | BNPL_STRESS | 59 | 13 | Apr 17 | 16d |
 | ABS_BASELINE | 72 | 12 | Apr 16 | 17d |
 | TRENDS | 39 | 7 | Apr 6 | 27d |
-| ML | 66 | 9 | Apr 7 | 26d; **legacy** — Item #4 target (archive) |
 
 **Audit artifact:** `workbook/AUDIT_2026-05-02.md` — full audit + Items #1 / #2a / #2d / #2.5 resolution logs.
 

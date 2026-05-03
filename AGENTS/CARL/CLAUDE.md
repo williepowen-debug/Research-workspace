@@ -283,7 +283,6 @@ Consumer stress converts to systemic risk when multiple vectors fire simultaneou
 | `workbook/BNPL_STRESS.tsv` | BNPL/phantom debt tracking. |
 | `workbook/STATE_DIFFUSION.tsv` | State-level stress diffusion (FL/TX/MD priority). |
 | `workbook/TRENDS.tsv` | Consumer trend data. |
-| `workbook/ML.tsv` | Legacy data log. |
 | `domain/sources/` | Research archives, deep dives. |
 | `research/` | Deep dives (MD analysis, etc.). Reference, not boot material. |
 | `archive/` | STATUS backups, legacy data, old analysis. Historical reference only. |
