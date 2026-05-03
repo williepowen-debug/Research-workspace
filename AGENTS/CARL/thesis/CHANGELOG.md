@@ -8,6 +8,26 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-05-03 PM3 — CRL-19 RESOLVED (direction-correct/magnitude-light)
+
+### PREDICTIONS: CRL-19 OPEN → MIXED
+**Author:** CARL (STATUS staleness audit Cluster 1 refresh, May 3 PM3)
+**Trigger:** BEA Mar PCE released Apr 30 with Q1 GDP advance (earlier than ~May 30 anticipated) — CRL-19 data now available.
+
+**Outcome:** Mar Core PCE YoY 3.2% (KB-CARL-270). Predicted 3.3-3.5%. Direction CORRECT (acceleration from Feb 3.0% confirmed at +20bps), magnitude LIGHT (10bps below floor; predicted +30-50bps acceleration, actual +20bps). Strict-def: MISSED floor. Direction-only Brier good; magnitude Brier poor.
+
+**Pattern:** Same disposition as CRL-01 (gas pump peak Mar 14-21 — direction right, magnitude wrong). Two of CARL's predictions now in MIXED/MISSED with direction-right/magnitude-low. Calibration question: are CARL predictions systematically over-magnitude or are these isolated cases?
+
+**Vector #12 implication:** Bridge HOLDS — 3.2% monthly is consistent with 4.3% Q1 annualized via base-effect math (Jan/Feb low base lifts Mar print modestly). Stagflation Trap thesis itself unchanged. Calibration warning, not thesis warning.
+
+**Files touched:**
+- `thesis/PREDICTIONS.tsv` — CRL-19 Status OPEN → MIXED, Date_Resolved 2026-05-03, Outcome populated
+- `STATUS.md` — CRL-19 row removed from Open table, added to Resolved table; Core PCE Monthly row updated to Mar 3.2% (was Feb 3.0%)
+- `workbook/KB.tsv` — KB-CARL-270 logged BEA Mar release with full mechanism breakdown
+- `workbook/VX.tsv` — VX-CARL-MACRO-07 Notes updated with bridge resolution
+
+---
+
 ## 2026-05-03 — v2.5.1: MASKING FRAMEWORK NARROWED 6→4 + K-SHAPE/TARIFF SECTION + CRL-22, CRL-23
 
 ### THESIS v2.5 → v2.5.1
